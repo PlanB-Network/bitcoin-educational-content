@@ -1,0 +1,13 @@
+question: 오늘날 화폐의 진화 경로는 어떻게 되나요?
+answer: 원석 -> Coin -> 지폐 -> 은행 카드 -> Blockchain -> Lightning Network
+wrong_answers:
+  - 원석 -> Coin -> 지폐 -> Blockchain -> Lightning Network
+  - 원석 -> Coin -> 지폐 -> 은행 카드 -> Lightning Network
+  - 원석 -> Coin -> 은행 카드 -> 지폐 -> Blockchain -> Lightning Network
+explanation: |
+  화폐는 시간이 지남에 따라 진화해 온 기술입니다,
+  원석으로 표현되는 것에서 시작하여 금속 동전으로 바뀌고
+  금속 동전으로, 지폐, 은행 카드로, 그리고 마침내
+  마지막으로 피어 투 피어 네트워크로 발전했습니다
+  Bitcoin Blockchain 및 Lightning Network.
+reviewed: true

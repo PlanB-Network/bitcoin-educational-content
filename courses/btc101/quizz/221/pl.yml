@@ -1,11 +1,9 @@
-question: Czym jest Lightning Network?
-answer: Sieć płatności, która wykorzystuje protokół Bitcoin, aby umożliwić błyskawiczne transakcje.
+question: Jaką przewagę oferuje Ark nad Lightning w zakresie odbioru płatności?
+answer: Brak potrzeby płynności przychodzącej
 wrong_answers:
-  - Nowy rodzaj kryptowaluty.
-  - Nowa technologia Blockchain, która w przyszłości zastąpi Bitcoin.
-  - Metoda dla Mining Bitcoin.
+  - Natychmiastowa finalność płatności
+  - Brak opłat transakcyjnych
+  - Brak konieczności posiadania portfela
 explanation: |
-  Lightning Network to sieć płatności wykorzystująca protokół
-  Bitcoin, aby umożliwić szybkie transakcje. Nie jest to
-  oddzielną kryptowalutą ani metodą dla Mining Bitcoin.
-reviewed: true
+  Ark umożliwia odbieranie płatności bez wcześniejszego posiadania płynności przychodzącej.
+reviewed: false

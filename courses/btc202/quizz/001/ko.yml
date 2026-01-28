@@ -1,0 +1,9 @@
+question: Bitcoin 구현을 실행하고 서로 연결된 머신 집합을 무엇이라고 부를까요?
+answer: Bitcoin 네트워크
+wrong_answers:
+  - Bitcoin 프로토콜
+  - Bitcoin 통화
+  - Blockchain Bitcoin
+explanation: |
+  Bitcoin 네트워크는 연결된 모든 노드로 구성되며, 각 노드는 프로토콜의 고유한 구현을 실행합니다.
+reviewed: true

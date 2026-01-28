@@ -1,15 +1,11 @@
-question: Ni kuki ukwiye kugura ama bitcoins atari KYC?
-answer: Kugira ngo ubone ubuzima bwite bwawe.
+question: BitcoinIkiganiro ni iki?
+answer: Ikibanza c’ibiganiro ku bakoresha Bitcoin.
 wrong_answers:
-  - Kugira ngo abakoresha Bitcoin bose bandikwe.
-  - Kugura kugiciro gito.
-  - Kugurisha kugiciro gito.
+  - Porogarama ya Bitcoin Mining.
+  - A Bitcoin Wallet.
+  - Inama ya Bitcoin.
 explanation: |
-  Gugura ama bitcoins atari KYC bisigura kuronka ama bitcoins ata .
-  guca mu rugero rwo kumenya umukiriya wawe
-  uburyo bwo kugenzura ko amahinguriro menshi n'ibibanza
-  bisaba. Imvo nyamukuru imwe yotuma abantu bashobora guhitamwo ibi
-  inzira ni ukubungabunga ubuzima bwite bwabo, kugira ngo .
-  amakuru yerekeye umuntu n'ibikorwa vy'amahera biragumaho
-  ntivyamenyekanye.
+  Ihuriro rya BitcoinTalk ni ahantu h’ibiganiro vya Bitcoin.
+  abakoresha. Yaremwe na Satoshi Nakamoto kw’igenekerezo rya 22 Ugushyingo 2019.
+  2009.
 reviewed: true

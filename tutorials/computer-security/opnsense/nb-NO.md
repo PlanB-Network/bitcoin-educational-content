@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -56,55 +56,55 @@ Her er noen av OPNsense' viktigste funksjoner:
 
 
 
-- Brannmur og NAT**: OPNsense tilbyr avansert stateful brannmurfunksjonalitet med stateful filtrering, samt NAT-funksjoner (Network Address Translation).
+- **Brannmur og NAT**: OPNsense tilbyr avansert stateful brannmurfunksjonalitet med stateful filtrering, samt NAT-funksjoner (Network Address Translation).
 
 
 
 
 
-- DNS/DHCP**: OPNsense kan konfigureres til å administrere DNS- og DHCP-tjenester i nettverket. Den kan fungere som en DHCP-server, men kan også brukes som en DNS-oppløser for maskiner i det lokale nettverket. Dnsmasq er også integrert som standard.
+- **DNS/DHCP**: OPNsense kan konfigureres til å administrere DNS- og DHCP-tjenester i nettverket. Den kan fungere som en DHCP-server, men kan også brukes som en DNS-oppløser for maskiner i det lokale nettverket. Dnsmasq er også integrert som standard.
 
 
 
 
 
-- VPN**: OPNsense støtter flere VPN-protokoller, inkludert IPsec, OpenVPN og WireGuard, noe som muliggjør sikre tilkoblinger for ekstern tilgang til mobile arbeidsstasjoner eller sammenkobling av nettsteder.
+- **VPN**: OPNsense støtter flere VPN-protokoller, inkludert IPsec, OpenVPN og WireGuard, noe som muliggjør sikre tilkoblinger for ekstern tilgang til mobile arbeidsstasjoner eller sammenkobling av nettsteder.
 
 
 
 
 
-- Nettproxy**: OPNsense inkluderer en webproxy for å kontrollere og filtrere Internett-tilgang. Den kan også brukes til å filtrere innhold og administrere nettverkstilgang.
+- **Nettproxy**: OPNsense inkluderer en webproxy for å kontrollere og filtrere Internett-tilgang. Den kan også brukes til å filtrere innhold og administrere nettverkstilgang.
 
 
 
 
 
-- Administrasjon av båndbredde (QoS)**: OPNsense tilbyr QoS-styringsfunksjoner (Quality of Service) for å prioritere nettverkstrafikk og administrere nettverksbåndbredde på en bedre måte.
+- **Administrasjon av båndbredde (QoS)**: OPNsense tilbyr QoS-styringsfunksjoner (Quality of Service) for å prioritere nettverkstrafikk og administrere nettverksbåndbredde på en bedre måte.
 
 
 
 
 
-- Captive portal**: Med denne funksjonen kan du administrere brukertilgang til nettverket via en autentiseringsside (lokal base, kuponger osv.). Dette er en funksjon som ofte brukes i offentlige Wi-Fi-nettverk.
+- **Captive portal**: Med denne funksjonen kan du administrere brukertilgang til nettverket via en autentiseringsside (lokal base, kuponger osv.). Dette er en funksjon som ofte brukes i offentlige Wi-Fi-nettverk.
 
 
 
 
 
-- IDS/IPS**: OPNsense integrerer Suricata for å tilby IDS/IPS-funksjoner (intrusion detection and prevention) for å beskytte nettverket mot angrep.
+- **IDS/IPS**: OPNsense integrerer Suricata for å tilby IDS/IPS-funksjoner (intrusion detection and prevention) for å beskytte nettverket mot angrep.
 
 
 
 
 
-- Høy tilgjengelighet (CARP)**: OPNsense støtter CARP (*Common Address Redundancy Protocol*) for høy tilgjengelighet mellom flere OPNsense-brannmurer, noe som sikrer at tjenesten forblir aktiv selv i tilfelle maskinvarefeil.
+- **Høy tilgjengelighet (CARP)**: OPNsense støtter CARP (*Common Address Redundancy Protocol*) for høy tilgjengelighet mellom flere OPNsense-brannmurer, noe som sikrer at tjenesten forblir aktiv selv i tilfelle maskinvarefeil.
 
 
 
 
 
-- Rapportering og overvåking**: OPNsense tilbyr rapporterings- og overvåkingsverktøy i sanntid for å spore nettverksytelsen (med NetFlow) og oppdage potensielle problemer, takket være loggene som opprettes. Dette inkluderer grafikk. Monit-verktøyet er integrert i OPNsense og gjør det mulig å overvåke selve brannmuren.
+- **Rapportering og overvåking**: OPNsense tilbyr rapporterings- og overvåkingsverktøy i sanntid for å spore nettverksytelsen (med NetFlow) og oppdage potensielle problemer, takket være loggene som opprettes. Dette inkluderer grafikk. Monit-verktøyet er integrert i OPNsense og gjør det mulig å overvåke selve brannmuren.
 
 
 
@@ -139,7 +139,7 @@ Du kan også kjøpe **et OPNsense rackmonterbart apparat** i nettbutikken vår.
 
 
 
-Du må ta hensyn til maskinvareressursene som kreves for å kjøre OPNsense. Dette er beskrevet på [denne dokumentasjonssiden] (https://docs.opnsense.org/manual/hardware.html).
+Du må ta hensyn til maskinvareressursene som kreves for å kjøre OPNsense. Dette er beskrevet på [denne dokumentasjonssiden](https://docs.opnsense.org/manual/hardware.html).
 
 
 
@@ -147,17 +147,18 @@ Du må ta hensyn til maskinvareressursene som kreves for å kjøre OPNsense. Det
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Egenskaper | Minimum | Anbefaling |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Prosessor | 1 GHz - 2 kjerner | 1.5 GHz - Flerkjernet |
+| RAM | 2 GB | 8 GB |
+| Lagringsplass for systemet | Harddisk, SSD eller SD-kort (4 GB) | 120 GB på SSD |
 
 Til slutt: **Ressursbehovet ditt avhenger først og fremst av antall tilkoblinger som skal administreres**, og dermed av **båndbreddebehovet**. I tillegg må du **ha i tankene hvilke tjenester som skal aktiveres og brukes** (proxy, inntrengingsdeteksjon osv.), ettersom de kan være CPU- og/eller RAM-krevende.
 
 
 
-Du trenger også OPNsense-installasjonens ISO-bilde, som du kan laste ned fra [det offisielle nettstedet] (https://opnsense.org/download/). For installasjon på en virtuell maskin velger du "**dvd**" som avbildningstype for å få et ISO-bilde (og gjør hva du vil med det ...). For installasjon via en oppstartbar USB-nøkkel velger du alternativet "**vga**" for å få en "**.img**"-fil.
+Du trenger også OPNsense-installasjonens ISO-bilde, som du kan laste ned fra [det offisielle nettstedet](https://opnsense.org/download/). For installasjon på en virtuell maskin velger du "**dvd**" som avbildningstype for å få et ISO-bilde (og gjør hva du vil med det ...). For installasjon via en oppstartbar USB-nøkkel velger du alternativet "**vga**" for å få en "**.img**"-fil.
 
 
 
@@ -179,11 +180,11 @@ Vårt mål er å
 
 
 
-- Opprett et internt virtuelt nettverk (192.168.10.0/24 - LAN)**, som har tilgang til Internett via OPNsense-brannmuren. For produksjonsbruk kan dette være ditt lokale nettverk, kabel og/eller Wi-Fi.
-- Aktiver og konfigurer NAT** slik at VM-er i det interne virtuelle nettverket får tilgang til Internett
-- Aktiver og konfigurer DHCP-serveren på OPNsense** for å distribuere en IP-konfigurasjon til fremtidige maskiner som er koblet til det interne virtuelle nettverket
-- Konfigurer brannmuren** slik at den kun tillater utgående LAN til WAN-strømmer i HTTP (80) og HTTPS (443).
-- Konfigurer brannmuren** slik at det virtuelle LAN-et kan bruke OPNsense som DNS-oppløser (53).
+- Opprett et internt virtuelt nettverk (192.168.10.0/24 - LAN), som har tilgang til Internett via OPNsense-brannmuren. For produksjonsbruk kan dette være ditt lokale nettverk, kabel og/eller Wi-Fi.
+- Aktiver og konfigurer **NAT** slik at VM-er i det interne virtuelle nettverket får tilgang til Internett
+- Aktiver og konfigurer DHCP-serveren på **OPNsense** for å distribuere en IP-konfigurasjon til fremtidige maskiner som er koblet til det interne virtuelle nettverket
+- Konfigurer **brannmuren** slik at den kun tillater utgående LAN til WAN-strømmer i HTTP (80) og HTTPS (443).
+- Konfigurer brannmuren slik at det virtuelle LAN-et kan bruke OPNsense som DNS-oppløser (53).
 
 
 
@@ -213,7 +214,7 @@ Etter nedlasting får du **et arkiv som inneholder et bilde i ".img"**-format. D
 
 
 
-- [Last ned balenaEtcher] (https://etcher.balena.io/)
+- [Last ned balenaEtcher](https://etcher.balena.io/)
 
 
 
@@ -257,7 +258,7 @@ Da kommer du til en Interface som ligner på den nedenfor. Logg inn med innloggi
 
 
 
-En ny veiviser vises på skjermen. Det første trinnet er å velge tastaturoppsettet som passer til din konfigurasjon. For et AZERTY-tastatur velger du alternativet "**Fransk (aksenttaster)**" fra listen, og dobbeltklikker deretter på**.
+En ny veiviser vises på skjermen. Det første trinnet er å velge tastaturoppsettet som passer til din konfigurasjon. For et AZERTY-tastatur velger du alternativet **Fransk (aksenttaster)** fra listen, og dobbeltklikker deretter på det.
 
 
 
@@ -382,7 +383,7 @@ pfctl -d
 
 
 
-Du får tilgang til OPNsense Administration Interface via HTTPS, ved hjelp av IP Address på LAN** Interface (eller WAN). Nettleseren din tar deg til en påloggingsside. Logg inn med "root"-kontoen og passordet du valgte tidligere.
+Du får tilgang til OPNsense Administration Interface via HTTPS, ved hjelp av IP Address på **LAN Interface** (eller WAN). Nettleseren din tar deg til en påloggingsside. Logg inn med "root"-kontoen og passordet du valgte tidligere.
 
 
 
@@ -566,7 +567,7 @@ Dette gir følgende resultat:
 
 
 
-Det eneste som gjenstår, er å klikke på "**Apply changes**" for å overføre de nye brannmurreglene til produksjon. **Vær oppmerksom på at alle strømmer som ikke er eksplisitt autorisert, vil bli blokkert som standard
+Det eneste som gjenstår, er å klikke på "**Apply changes**" for å overføre de nye brannmurreglene til produksjon. **Vær oppmerksom på at alle strømmer som ikke er eksplisitt autorisert, vil bli blokkert som standard.**
 
 
 

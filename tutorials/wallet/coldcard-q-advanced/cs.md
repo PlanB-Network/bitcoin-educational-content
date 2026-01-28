@@ -1,12 +1,12 @@
 ---
-name: COLDCARD Q - Pokročilé
+name: COLDCARD Q - Expert
 description: Použití pokročilých možností karty COLDCARD Q
 ---
 ![cover](assets/cover.webp)
 
 V předchozím tutoriálu jsme se zabývali počáteční konfigurací karty COLDCARD Q a jejími základními funkcemi pro začátečníky. Pokud jste právě obdrželi kartu COLDCARD Q a ještě jste ji nenastavili, doporučuji vám začít tímto návodem, než budete pokračovat zde:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Tento nový návod je věnován pokročilým možnostem karty COLDCARD Q, které jsou určeny pro pokročilé a paranoidní uživatele. Karty COLDCARD se totiž od ostatních hardwarových peněženek liší mnoha pokročilými bezpečnostními funkcemi. Všechny tyto možnosti samozřejmě nemusíte používat. Stačí si vybrat ty, které vyhovují vaší bezpečnostní strategii.
 
@@ -20,7 +20,7 @@ Než začnete, ujistěte se, že máte přístup k fyzické záloze své 12- neb
 
 Pokud nevíte, co je to přístupová fráze BIP39, nebo pokud vám není zcela jasné, jak funguje, důrazně doporučuji, abyste se předem podívali na tento výukový program, který obsahuje teoretické základy potřebné k pochopení rizik spojených s používáním přístupové fráze :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Mějte na paměti, že po nastavení přístupové fráze v peněžence vám samotná mnemotechnická pomůcka nebude stačit k získání přístupu k bitcoinům. Budete potřebovat jak mnemotechnickou, tak přístupovou frázi. Navíc budete muset zadat přístupovou frázi pokaždé, když odemknete kartu COLDCARD Q. Tím se zvyšuje bezpečnost, protože bez přístupové fráze je fyzický přístup ke kartě COLDCARD a znalost kódu PIN nedostatečná.
 
@@ -28,7 +28,7 @@ Na kartách COLDCARD máte dvě možnosti správy přístupové fráze:
 
 1. **Klasické zadávání:** Při každém použití hardwarové peněženky zadáte přístupovou frázi ručně, stejně jako u jiných hardwarových peněženek. Karta COLDCARD Q tento úkol zjednodušuje díky své plnohodnotné klávesnici.
 
-2. **Můžete si zvolit šifrování přístupové fráze a uložit ji na kartu microSD. V takovém případě budete muset kartu microSD vložit do zařízení COLDCARD Q při každém použití. Upozorňujeme, že tato karta microSD bude fungovat pouze na kartě COLDCARD Q a není záložní. Je proto velmi důležité, abyste si kopii své přístupové fráze uchovávali také na fyzickém médiu, například na papíře nebo kovu.
+2. **Můžete si zvolit šifrování přístupové fráze a uložit ji na kartu microSD. V takovém případě budete muset kartu microSD vložit do zařízení COLDCARD Q při každém použití. Upozorňujeme, že tato karta microSD bude fungovat pouze na kartě COLDCARD Q a není záložní. Je proto velmi důležité, abyste si kopii své přístupové fráze uchovávali také na fyzickém médiu, například na papíře nebo kovu.**
 
 Chcete-li nastavit přístupovou frázi BIP39, otevřete nabídku "*Passphrase*".
 
@@ -68,7 +68,7 @@ Zkontrolujte, zda se zobrazený otisk prstu shoduje s otiskem vaší peněženky
 
 Mějte na paměti, že použití přístupové fráze znamená, že budete muset do softwaru pro správu peněženky (například Sparrow Wallet) importovat novou sadu klíčů odvozenou z kombinace mnemotechnické fráze a přístupové fráze. Chcete-li to provést, postupujte podle kroku "*Konfigurace nové peněženky ve Sparrow*" v tomto dalším návodu :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Možnosti odemknutí
 
@@ -247,4 +247,4 @@ Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níž
 
 Doporučuji také tento další tutoriál, ve kterém probíráme použití přímého konkurenta CCQ, Ledger Flex :
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

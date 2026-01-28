@@ -6,7 +6,7 @@ description: Menyiapkan dompet Muun Anda
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) adalah dompet *self-custodial* untuk bitcoin dan lightning.
+[Muun](https://muun.com/) adalah dompet swakustodian untuk bitcoin dan lightning.
 
 ## Tutorial video
 
@@ -14,7 +14,7 @@ Muun (https://muun.com/) adalah dompet *self-custodial* untuk bitcoin dan lightn
 
 ## Panduan Lengkap untuk Pengguna Muun Wallet
 
-Berikut merupakan panduan pengguna lengkap (dengan tangkapan layar) untuk aplikasi Muun Wallet; dompet Bitcoin *mobile* yang ramah pengguna yang memungkinkan Anda bertransaksi melalui Jaringan Lightning.
+Panduan pengguna lengkap (dengan tangkapan layar) untuk aplikasi Muun; dompet Bitcoin seluler yang ramah pengguna yang memungkinkan Anda bertransaksi di Jaringan Lightning.
 
 ![image](assets/0.5.webp)
 
@@ -118,15 +118,15 @@ Berikut adalah terjemahan dari instruksinya:
 
 Prosedur darurat ini akan membantu Anda memulihkan dana Anda jika Anda tidak dapat menggunakan Muun di perangkat Anda.
 
-1. Cari kode pemulihan Anda
+- Temukan kode pemulihan Anda
 
 Anda menulis kode ini di selembar kertas sebelum membuat *emergency kit*. Anda akan membutuhkannya nanti.
 
-2. Unduh alat pemulihan (*recovery tool*)
+- Unduh alat pemulihan
 
 Kunjungi halaman https://github.com/muun/recovery dan unduh alat tersebut ke komputer Anda.
 
-3. Pulihkan dana Anda
+- Pulihkan dana Anda
 
 Jalankan alat pemulihan dan ikuti langkah-langkahnya. Alat tersebut akan mentransfer dana Anda ke alamat Bitcoin pilihan Anda.
 

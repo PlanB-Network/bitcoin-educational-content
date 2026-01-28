@@ -1,0 +1,8 @@
+question: Jaka jest najważniejsza zaleta używania typów Result i Option zamiast Panic do obsługi błędów w produkcyjnym kodzie Rust?
+answer: Wymuszają one wyraźne potwierdzanie potencjalnych awarii i umożliwiają sprawne odzyskiwanie błędów
+wrong_answers:
+  - Zapewniają one lepszą wydajność, unikając rozwijania stosu w warunkach błędu
+  - Automatycznie konwertują wszystkie typy błędów na komunikaty łańcuchowe w celu łatwiejszego debugowania
+  - Eliminują one potrzebę propagacji błędów poprzez obsługę błędów w punkcie awarii
+explanation: |
+  Typy Result i Option sprawiają, że obsługa błędów jest jawna i możliwa do odzyskania, zmuszając programistów do uznania, że operacje mogą się nie powieść i zapewniając mechanizmy do obsługi tych niepowodzeń z wdziękiem. W przeciwieństwie do paniki, która natychmiast kończy wykonywanie, typy te pozwalają programom kontynuować działanie i odpowiednio reagować na warunki błędu. Błędne odpowiedzi błędnie przedstawiają ich możliwości: wydajność nie jest ich główną zaletą, nie konwertują automatycznie błędów na ciągi znaków (to cecha anyhow) i w rzeczywistości ułatwiają, a nie eliminują propagację błędów za pomocą operatorów takich jak ?

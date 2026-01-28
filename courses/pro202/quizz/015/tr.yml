@@ -1,0 +1,8 @@
+question: Eliptik eğriler gerçek sayılar yerine sonlu cisimler üzerinde tanımlandığında aritmetik işlemlere ne olur?
+answer: Tüm işlemler aynı cebirsel kuralları korurken modüler aritmetik kullanır
+wrong_answers:
+  - Nokta toplama formülleri ayrık matematik için tamamen yeniden yazılmalıdır
+  - Noktaların ayrık doğası nedeniyle eğim hesaplamaları tanımsız hale gelir
+  - Sonlu alan yapısına uyum sağlamak için tüm cebirsel kurallar temelden değişir
+explanation: |
+  Eliptik eğriler gerçek sayılardan sonlu cisimlere taşındığında, altta yatan cebirsel yapı ve kurallar aynı kalır - sadece aritmetik modüler aritmetiğe dönüşür. Tüm nokta toplama formülleri, eğim hesaplamaları ve geometrik ilişkiler tamamen aynı şekilde çalışır, ancak her hesaplama modulo p olarak gerçekleştirilir. Sadece aritmetik temeli değiştirirken cebirsel kuralların bu şekilde korunması, sonlu alan eliptik eğrilerini kriptografi için bu kadar güçlü kılan şeydir; güvenlik için gerekli olan ayrık, öngörülemeyen davranışı yaratırken gerekli tüm matematiksel özellikleri korur.

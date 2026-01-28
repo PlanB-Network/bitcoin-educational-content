@@ -1,0 +1,8 @@
+question: Jakie jest główne ograniczenie korzystania z biblioteki anyhow do obsługi błędów podczas tworzenia biblioteki Rust?
+answer: Konwertuje wszystkie błędy na komunikaty łańcuchowe, uniemożliwiając konsumentom programowe reagowanie na różne warunki błędu
+wrong_answers:
+  - Działa tylko z typami Result i nie może obsługiwać typów Option, co ogranicza jego przydatność w scenariuszach mieszanych
+  - Wymaga ręcznej konwersji błędów dla każdego typu błędu, przez co jest bardziej gadatliwa niż standardowa obsługa wyników
+  - Automatycznie panikuje przy niektórych typach błędów, przez co nie nadaje się do kodu biblioteki produkcyjnej
+explanation: |
+  Główną wadą biblioteki anyhow dla rozwoju bibliotek jest to, że zasadniczo spłaszcza ona wszystkie błędy do reprezentacji ciągów znaków, tracąc ustrukturyzowane informacje o błędach, których konsumenci biblioteki potrzebują do podejmowania decyzji programistycznych. Podczas gdy anyhow doskonale upraszcza obsługę błędów dla aplikacji użytkownika końcowego, w których błędy są głównie wyświetlane, biblioteki muszą zapewniać określone typy błędów, które pozwalają konsumentom rozróżniać różne tryby awarii (takie jak nieprawidłowe dane wejściowe vs. błędy uruchomieniowe) i odpowiednio reagować. Pozostałe opcje są niepoprawne: anyhow działa dobrze zarówno z typami Result, jak i Option, faktycznie zmniejsza liczbę słów poprzez automatyczną konwersję i nie powoduje paniki.

@@ -1,14 +1,11 @@
 ---
-name: Teoriden pratiğe RGB protokolü
+name: RGB programlama
 goal: RGB'i anlamak ve kullanmak için gereken becerileri edinme
-objectives: 
-
-  - RGB protokolünün temel kavramlarını anlamak
-  - Client-side Validation ve Bitcoin taahhütlerinin ilkelerine hakim olun
-  - RGB sözleşmelerinin nasıl oluşturulacağını, yönetileceğini ve aktarılacağını öğrenin
-  - RGB uyumlu bir Lightning düğümü nasıl çalıştırılır
-
-
+objectives:
+- RGB protokolünün temel kavramlarını anlamak
+- Client-side Validation ve Bitcoin taahhütlerinin ilkelerine hakim olun
+- RGB sözleşmelerinin nasıl oluşturulacağını, yönetileceğini ve aktarılacağını öğrenin
+- RGB uyumlu bir Lightning düğümü nasıl çalıştırılır
 ---
 # RGB protokolünü keşfetme
 
@@ -60,10 +57,10 @@ Son bölüm, gerçek hayattaki kullanım durumlarını vurgulamak için RGB taba
 
 
 ---
-Bu eğitim kursu aslında [Fulgur'Ventures] (https://fulgur.ventures/) tarafından Viareggio, Toskana'da düzenlenen iki haftalık bir ileri geliştirme eğitim kampından doğmuştur. Rust ve SDK'lara odaklanan ilk hafta, bu diğer kursta bulunabilir:
+Bu eğitim kursu aslında [Fulgur'Ventures](https://fulgur.ventures/) tarafından Viareggio, Toskana'da düzenlenen iki haftalık bir ileri geliştirme eğitim kampından doğmuştur. Rust ve SDK'lara odaklanan ilk hafta, bu diğer kursta bulunabilir:
 
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 Bu kursta, RGB'a odaklanan bootcamp'in ikinci haftasına odaklanıyoruz.
 
@@ -71,13 +68,13 @@ Bu kursta, RGB'a odaklanan bootcamp'in ikinci haftasına odaklanıyoruz.
 **Hafta 1 - LNP402:**
 
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 
 **2. Hafta - Güncel eğitim CSV402:**
 
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 
 Bu canlı kursları düzenleyenlere ve katılan 3 öğretmene çok teşekkürler:
@@ -96,7 +93,7 @@ Bu eğitim kursunun yazılı versiyonu 2 ana kaynak kullanılarak hazırlanmış
 
 
 - Maxim Orlovsky, Hunter Trujilo ve Frederico Tenga'nın Lightning Bootcamp'teki seminerinin videoları;
-- Üretimi [Bitfinex] (https://www.bitfinex.com/) tarafından desteklenen RGB dokümantasyonu.
+- Üretimi [Bitfinex](https://www.bitfinex.com/) tarafından desteklenen RGB dokümantasyonu.
 
 
 RGB'nin karmaşık ve büyüleyici dünyasına dalmaya hazır mısınız? Hadi başlayalım!
@@ -131,7 +128,7 @@ Bilgisayar biliminin belirli bir dalı olan dağıtık bilgi işlem, düğümler
 
 
 
-- Belirli verilerin her bir düğüm tarafından bağımsız olarak doğrulanması ve onaylanması** yeteneği;
+- Belirli verilerin her bir düğüm tarafından bağımsız olarak doğrulanması ve onaylanması **yeteneği**;
 - Düğümlerin (protokole bağlı olarak) bilginin tam veya kısmi bir görünümünü oluşturma olasılığı. Bu görünümler dağıtılmış sistemin **durumlarıdır**;
 - Verilerin güvenilir bir şekilde zaman damgalı olması ve olayların sırası (durumların sırası) konusunda bir fikir birliği olması için işlemlerin **kronolojik sırası**.
 
@@ -141,8 +138,8 @@ Bilgisayar biliminin belirli bir dalı olan dağıtık bilgi işlem, düğümler
 
 
 
-- Durum değişikliklerinin geçerliliğinin** tanınması (protokol kurallarına göre);
-- Bu durum değişikliklerinin sırası** üzerinde anlaşmaya varılması, onaylanmış işlemlerin a posteriori olarak yeniden yazılmasını veya tersine çevrilmesini imkansız hale getirir (bu, Bitcoin'te "çift harcama koruması" olarak da bilinir).
+- Durum değişikliklerinin geçerliliğinin **tanınması** (protokol kurallarına göre);
+- Bu durum değişikliklerinin sırası üzerinde anlaşmaya varılması, onaylanmış işlemlerin a posteriori olarak yeniden yazılmasını veya tersine çevrilmesini imkansız hale getirir (bu, Bitcoin'te "çift harcama koruması" olarak da bilinir).
 
 
 Dağıtılmış bir mutabakat mekanizmasının ilk işlevsel, izinsiz uygulaması Satoshi Nakamoto tarafından Bitcoin ile tanıtıldı, Blockchain veri yapısı ve Proof-of-Work (PoW) algoritmasının birlikte kullanımı sayesinde. Bu sistemde, blok geçmişinin güvenilirliği, düğümler (madenciler) tarafından buna ayrılan hesaplama gücüne bağlıdır. Bu nedenle Bitcoin, herkese açık (*izinsiz*) dağıtılmış bir mutabakat sisteminin önemli ve tarihi bir örneğidir.
@@ -154,7 +151,7 @@ Blockchain ve dağıtık bilgi işlem dünyasında iki temel paradigmayı ayırt
 Bitcoin bağlamında, Mining'un ilkelerine, Blockchain'daki işlemlerin ademi merkeziyetçiliğine ve kesinliğine ve ayrıca ödeme kanallarının nasıl çalıştığına şüphesiz aşinasınız. RGB ile, Blockchain veya Lightning'den farklı olarak, bir Smart contract'in durum geçişlerini yerel olarak (istemci tarafında) depolamayı ve doğrulamayı içeren **Client-side Validation** adlı yeni bir paradigma sunuyoruz. Bu aynı zamanda diğer "DeFi" tekniklerinden (_rollups_, _plasma_, _ARK_, vb.) farklıdır; burada Client-side Validation, Double-spending'ü önlemek ve bir zaman damgalama sistemine sahip olmak için Blockchain'ya güvenirken, off-chain durumlarının ve geçişlerinin kaydını yalnızca ilgili katılımcılarla tutar.
 
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 
 Daha sonra, önemli bir terimi de tanıtacağız: "**Stash**" kavramı, bir Contract'ün durumunu korumak için gereken istemci tarafı veri kümesini ifade eder, çünkü bu veriler ağ genelinde küresel olarak çoğaltılmaz. Son olarak, Client-side Validation'den yararlanan bir protokol olan RGB'in arkasındaki mantığa ve neden mevcut yaklaşımları (Blockchain ve durum kanalları) tamamladığına bakacağız.
@@ -168,9 +165,9 @@ Client-side Validation ve RGB Address sorunlarının Blockchain ve Lightning tar
 
 
 
-- Ölçeklenebilirlik, Ademi Merkeziyetçilik, Gizlilik**;
-- CAP** Teoremi (Tutarlılık, Kullanılabilirlik, Bölünme Toleransı);
-- CIA** trilemması (Gizlilik, Bütünlük, Kullanılabilirlik).
+- **Ölçeklenebilirlik, Ademi Merkeziyetçilik, Gizlilik**;
+- **CAP Teoremi** (Tutarlılık, Kullanılabilirlik, Bölünme Toleransı);
+- **CIA** trilemması (Gizlilik, Bütünlük, Kullanılabilirlik).
 
 
 #### 1. Ölçeklenebilirlik, ademi merkeziyetçilik ve gizlilik
@@ -178,7 +175,7 @@ Client-side Validation ve RGB Address sorunlarının Blockchain ve Lightning tar
 
 
 
-- Blockchain (Bitcoin)**
+- **Blockchain (Bitcoin)**
 
 
 Blockchain son derece merkezsizdir, ancak ölçeklenebilir değildir. Dahası, her şey küresel, halka açık bir kayıtta olduğu için gizlilik sınırlıdır. Sıfır bilgi teknolojileri (Confidential Transactions, mimblewimble şemaları, vb.) ile gizliliği artırmayı deneyebiliriz, ancak halka açık zincir işlem grafiğini gizleyemez.
@@ -186,7 +183,7 @@ Blockchain son derece merkezsizdir, ancak ölçeklenebilir değildir. Dahası, h
 
 
 
-- Yıldırım/ Eyalet kanalları**
+- **Yıldırım/ Eyalet kanalları**
 
 
 Devlet kanalları (Lightning Network'te olduğu gibi) Blockchain'e göre daha ölçeklenebilir ve daha özeldir, çünkü işlemler off-chain'da gerçekleşir. Bununla birlikte, belirli Elements'yi (finansman işlemleri, ağ topolojisi) kamuya duyurma zorunluluğu ve ağ trafiğinin izlenmesi gizliliği kısmen tehlikeye atabilir. Ademi merkeziyetçilik de zarar görür: yönlendirme nakit yoğundur ve büyük düğümler merkezileşme noktaları haline gelebilir. Lightning'de görmeye başladığımız olgu da tam olarak budur.
@@ -194,13 +191,13 @@ Devlet kanalları (Lightning Network'te olduğu gibi) Blockchain'e göre daha ö
 
 
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
 
 Bu yeni paradigma daha da ölçeklenebilir ve daha gizlidir, çünkü sadece sıfır ifşa bilgi kanıtı tekniklerini entegre etmekle kalmayız, aynı zamanda hiç kimse tüm kaydı tutmadığı için küresel bir işlem grafiği de yoktur. Öte yandan, ademi merkeziyetçilik konusunda da belirli bir taviz anlamına gelir: Smart contract'i çıkaran kişi merkezi bir role sahip olabilir (Ethereum'daki "Contract dağıtıcısı" gibi). Ancak, Blockchain'den farklı olarak, Client-side Validation ile yalnızca ilgilendiğiniz sözleşmeleri depolar ve doğrularsınız, bu da mevcut tüm durumları indirme ve doğrulama ihtiyacını ortadan kaldırarak ölçeklenebilirliği artırır.
 
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 
 #### 2. CAP Teoremi (Tutarlılık, Kullanılabilirlik, Bölme toleransı)
@@ -211,7 +208,7 @@ CAP teoremi, dağıtık bir sistemin *Tutarlılık*, *Kullanılabilirlik* ve *B�
 
 
 
-- Blockchain**
+- **Blockchain**
 
 
 Blockchain tutarlılığı ve kullanılabilirliği tercih eder, ancak ağ bölümleme ile iyi sonuç vermez: bir bloğu göremiyorsanız, hareket edemez ve tüm ağ ile aynı görünüme sahip olamazsınız.
@@ -219,7 +216,7 @@ Blockchain tutarlılığı ve kullanılabilirliği tercih eder, ancak ağ bölü
 
 
 
-- Yıldırım**
+- **Yıldırım**
 
 
 Durum kanalları sistemi kullanılabilirlik ve bölümleme toleransına sahiptir (çünkü ağ parçalansa bile iki düğüm birbirine bağlı kalabilir), ancak genel tutarlılık Blockchain üzerindeki kanalların açılıp kapanmasına bağlıdır.
@@ -227,13 +224,13 @@ Durum kanalları sistemi kullanılabilirlik ve bölümleme toleransına sahiptir
 
 
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
 
 RGB gibi bir sistem tutarlılık (her katılımcı kendi verilerini belirsizlik olmadan yerel olarak doğrular) ve bölümleme toleransı (verilerinizi özerk olarak tutarsınız) sunar, ancak küresel kullanılabilirliği garanti etmez (herkesin ilgili geçmiş parçalarına sahip olduğundan emin olması gerekir ve bazı katılımcılar hiçbir şey yayınlamayabilir veya belirli bilgileri paylaşmayı bırakabilir).
 
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 
 #### 3. CIA trilemması (Gizlilik, Bütünlük, Kullanılabilirlik)
@@ -242,7 +239,7 @@ RGB gibi bir sistem tutarlılık (her katılımcı kendi verilerini belirsizlik 
 Bu üçleme bize gizlilik, bütünlük ve kullanılabilirliğin hepsinin aynı anda optimize edilemeyeceğini hatırlatır. Blockchain, Lightning ve Client-side Validation bu dengeye farklı şekillerde girmektedir. Buradaki fikir, tek bir sistemin her şeyi sağlayamayacağıdır; her boyutta iyi garantiler sunan tutarlı bir paket elde etmek için çeşitli yaklaşımları (Blockchain'in zaman damgası, Lightning'in eşzamanlı yaklaşımı ve RGB ile yerel doğrulama) birleştirmek gerekir.
 
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 
 ### Blockchain'ün rolü ve parçalama kavramı
@@ -268,18 +265,18 @@ Bu nedenle ekosistemi aşağıdaki gibi hayal edebiliriz:
 
 
 
-- Blockchain (Bitcoin)** minimal bir kaydın tam olarak çoğaltılmasını sağlayan bir temel olarak ve zaman damgası Layer olarak hizmet eder;
-- Hızlı Lightning Network**, Confidential Transactions, hala Bitcoin Blockchain'ün güvenliğine ve nihai uzlaşmasına dayanmaktadır;
-- Blockchain'i karıştırmadan veya gizliliği kaybetmeden daha karmaşık Smart contract mantığı eklemek için RGB ve Client-side Validation**.
+- **Blockchain (Bitcoin)** minimal bir kaydın tam olarak çoğaltılmasını sağlayan bir temel olarak ve zaman damgası Layer olarak hizmet eder;
+- Hızlı **Lightning Network**, **Confidential Transactions**, hala Bitcoin Blockchain'ün güvenliğine ve nihai uzlaşmasına dayanmaktadır;
+- Blockchain'i karıştırmadan veya gizliliği kaybetmeden daha karmaşık Smart contract mantığı eklemek için **RGB ve Client-side Validation**.
 
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 
 Bu üç Elements, "Layer 2", "Layer 3" ve benzeri doğrusal bir yığın yerine üçgen bir bütün oluşturur. Lightning doğrudan Bitcoin'e bağlanabilir veya RGB verilerini içeren Bitcoin işlemleriyle ilişkilendirilebilir. Benzer şekilde, bir "BiFi" (Bitcoin üzerinde finans) gizlilik, ölçeklenebilirlik veya Contract mantığı ihtiyaçlarına göre Blockchain, Lightning ve RGB ile oluşturulabilir.
 
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 
 ### Durum geçişleri kavramı
@@ -291,7 +288,7 @@ Herhangi bir dağıtık sistemde, doğrulama mekanizmasının amacı **durum de�
 Bu doğrulamanın **Bitcoin** bağlamında nasıl çalıştığını anlamak ve daha genel olarak Client-side Validation'nın arkasındaki felsefeyi kavramak için, önce Bitcoin Blockchain'nin mekanizmalarına bir göz atalım, ardından Client-side Validation'nın onlardan nasıl farklı olduğunu ve hangi optimizasyonları mümkün kıldığını görelim.
 
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 
 Bitcoin Blockchain durumunda, işlem doğrulaması basit bir kurala dayanır:
@@ -304,7 +301,7 @@ Bitcoin Blockchain durumunda, işlem doğrulaması basit bir kurala dayanır:
 - Bu verileri (bloklar şeklinde) depolarlar, böylece geçmiş gerektiğinde yeniden oynatılabilir.
 
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 
 Ancak bu modelin iki önemli dezavantajı vardır:
@@ -312,11 +309,11 @@ Ancak bu modelin iki önemli dezavantajı vardır:
 
 
 
-- Ölçeklenebilirlik**: her düğümün herkesin işlemlerini işlemesi, doğrulaması ve arşivlemesi gerektiğinden, özellikle maksimum blok boyutuyla bağlantılı olarak işlem kapasitesinde bariz bir sınır vardır (çerezler hariç Bitcoin için 10 dakikada ortalama 1 MB);
-- Gizlilik**: her şey herkese açık olarak yayınlanır ve saklanır (miktarlar, hedef adresler, vb.), bu da alışverişlerin gizliliğini sınırlar.
+- **Ölçeklenebilirlik**: her düğümün herkesin işlemlerini işlemesi, doğrulaması ve arşivlemesi gerektiğinden, özellikle maksimum blok boyutuyla bağlantılı olarak işlem kapasitesinde bariz bir sınır vardır (çerezler hariç Bitcoin için 10 dakikada ortalama 1 MB);
+- **Gizlilik**: her şey herkese açık olarak yayınlanır ve saklanır (miktarlar, hedef adresler, vb.), bu da alışverişlerin gizliliğini sınırlar.
 
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 
 Uygulamada, bu model Bitcoin için temel Layer (Layer 1) olarak çalışır, ancak aynı anda yüksek işlem hacmi ve belirli bir gizlilik derecesi gerektiren daha karmaşık kullanımlar için yetersiz kalabilir.
@@ -331,7 +328,7 @@ Client-side Validation tam tersi bir fikre dayanmaktadır: tüm ağın tüm işl
 - Bu işlemler dizisi, ***Genesis***'dan (ilk ihraç) en son işleme kadar, bir asiklik yönlendirilmiş grafik (DAG) veya Shard, yani genel geçmişin bir kısmını oluşturur.
 
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 
 Aynı zamanda, ağın geri kalanının (veya daha doğrusu, Bitcoin gibi temel Layer'in) bu verilerin ayrıntılarını görmeden son duruma kilitlenebilmesi için Client-side Validation, ***Commitment*** kavramına dayanır.
@@ -362,7 +359,7 @@ Somut olarak, bir RGB State Transition'nın nasıl çalıştığı aşağıda a�
 - Karşı taraf (alıcı) bu varlıkla ilişkili müşteri tarafı geçmişini alır ve Smart contract'in Genesis'sından ona ilettiğiniz geçişe kadar uçtan uca tutarlılığı doğrular.
 
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 
 Client-side Validation iki önemli avantaj sunmaktadır:
@@ -370,7 +367,7 @@ Client-side Validation iki önemli avantaj sunmaktadır:
 
 
 
-- Ölçeklenebilirlik:**
+- **Ölçeklenebilirlik:**
 
 
 Blockchain'e dahil edilen *komiteler* küçüktür (birkaç düzine bayt mertebesinde). Bu, yalnızca Hash'ın dahil edilmesi gerektiğinden blok alanının doymuş olmamasını sağlar. Ayrıca, her kullanıcının yalnızca kendi geçmiş parçasını (kendi _stash_'i) saklaması gerektiğinden, off-chain protokolünün gelişmesini sağlar.
@@ -378,7 +375,7 @@ Blockchain'e dahil edilen *komiteler* küçüktür (birkaç düzine bayt mertebe
 
 
 
-- Gizlilik:**
+- **Gizlilik:**
 
 
 İşlemlerin kendileri (yani ayrıntılı içerikleri) On-Chain yayınlanmamaktadır. Sadece parmak izleri (*Hash*) yayınlanır. Böylece, tutarlar, adresler ve Contract mantığı gizli kalır ve alıcı önceki tüm geçişleri inceleyerek Shard'ün geçerliliğini yerel olarak doğrulayabilir. Alıcının bu verileri, bir anlaşmazlık veya kanıtın gerekli olduğu durumlar haricinde, kamuya açması için hiçbir neden yoktur.
@@ -390,7 +387,7 @@ RGB gibi bir sistemde, farklı sözleşmelerden (veya farklı varlıklardan) bir
 Uygulamada, bu Bitcoin işlemi onaylandığında, Blockchain'te zaten yazılı olan Hash'yi değiştirmek imkansız hale geldiğinden, temel sözleşmelerin durumunu kalıcı olarak "kilitler".
 
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 
 ### Stash konsepti
@@ -399,7 +396,7 @@ Uygulamada, bu Bitcoin işlemi onaylandığında, Blockchain'te zaten yazılı o
 Bir **Stash**, bir katılımcının bir RGB Smart contract'ün bütünlüğünü ve geçmişini korumak için kesinlikle saklaması gereken istemci tarafı veri kümesidir. Belirli durumların paylaşılan bilgilerden yerel olarak yeniden oluşturulabildiği bir Lightning kanalının aksine, bir RGB Contract'in Stash'sı başka bir yerde çoğaltılmaz: kaybederseniz, geçmişteki payınızdan sorumlu olduğunuz için kimse size geri yükleyemez. Bu nedenle RGB'de güvenilir yedekleme prosedürlerine sahip bir sistem benimsemeniz gerekir.
 
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 
 ### Single-Use Seal: kökenleri ve işleyişi
@@ -426,13 +423,13 @@ RGB belirteçlerinin Double-spending'ünü önlemek için "**Single-Use Seal**" 
 Tek Kullanımlık Mühürler, 2016 yılında Peter Todd tarafından önerilen ve fiziksel mühür kavramına benzeyen kriptografik ilkellerdir: bir Seal bir kaba yerleştirildikten sonra, Seal'i geri döndürülemez bir şekilde kırmadan açmak veya değiştirmek imkansız hale gelir.
 
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 
 Dijital dünyaya aktarılan bu yaklaşım, bir olaylar dizisinin gerçekten gerçekleştiğini ve artık a posteriori olarak değiştirilemeyeceğini kanıtlamayı mümkün kılmaktadır. Tek kullanımlık Mühürler böylece `Hash + Timestamp` basit mantığının ötesine geçerek **sadece bir kez** kapatılabilen bir Seal kavramını ekler.
 
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 
 Tek Kullanımlık Mühürlerin işe yaraması için, bir yayının varlığını veya yokluğunu kanıtlayabilecek ve bilgi yayıldıktan sonra tahrif edilmesi zor (imkansız olmasa da) bir yayın kanıt aracına ihtiyacınız vardır. Bir **Blockchain** (Bitcoin gibi) bu rolü yerine getirebilir, örnek olarak kamu tirajına sahip bir kağıt gazete de bunu yapabilir. Fikir şu şekildedir:
@@ -459,9 +456,9 @@ Aşağıdaki karşılaştırma bu ilkenin anlaşılmasına yardımcı olacaktır
 
 
 
-- Kriptografik Commitment (Hash)**: Bir Hash işleviyle, Hash'ünü yayınlayarak bir veri parçasını (bir sayı) taahhüt edebilirsiniz. Veri, siz ön görüntüyü açıklayana kadar gizli kalır, ancak bunu önceden bildiğinizi kanıtlayabilirsiniz;
-- Timestamp (Blockchain)**: Bu Hash'yı Blockchain'e ekleyerek, onu kesin bir anda (bir bloğa dahil etme anında) bildiğimizi de kanıtlamış oluruz;
-- Single-Use Seal**: Tek kullanımlık mühürlerle, Commitment'u benzersiz hale getirerek bir adım daha ileri gidiyoruz. Tek bir Hash ile, paralel olarak birkaç çelişkili taahhüt oluşturabilirsiniz (aileye "*Bu bir erkek*" ve kişisel günlüğünde "*Bu bir kız*" diyen doktorun sorunu). Single-Use Seal, Commitment'u Bitcoin Blockchain gibi bir yayın kanıtı aracına bağlayarak bu olasılığı ortadan kaldırır, böylece UTXO'nin harcanması Commitment'u kesin olarak mühürler. Bir kez harcandıktan sonra, aynı UTXO, Commitment'un yerini almak üzere yeniden harcanamaz.
+- **Kriptografik Commitment (Hash)**: Bir Hash işleviyle, Hash'ünü yayınlayarak bir veri parçasını (bir sayı) taahhüt edebilirsiniz. Veri, siz ön görüntüyü açıklayana kadar gizli kalır, ancak bunu önceden bildiğinizi kanıtlayabilirsiniz;
+- **Timestamp (Blockchain)**: Bu Hash'yı Blockchain'e ekleyerek, onu kesin bir anda (bir bloğa dahil etme anında) bildiğimizi de kanıtlamış oluruz;
+- **Single-Use Seal**: Tek kullanımlık mühürlerle, Commitment'u benzersiz hale getirerek bir adım daha ileri gidiyoruz. Tek bir Hash ile, paralel olarak birkaç çelişkili taahhüt oluşturabilirsiniz (aileye "*Bu bir erkek*" ve kişisel günlüğünde "*Bu bir kız*" diyen doktorun sorunu). Single-Use Seal, Commitment'u Bitcoin Blockchain gibi bir yayın kanıtı aracına bağlayarak bu olasılığı ortadan kaldırır, böylece UTXO'nin harcanması Commitment'u kesin olarak mühürler. Bir kez harcandıktan sonra, aynı UTXO, Commitment'un yerini almak üzere yeniden harcanamaz.
 
 
 |                                                                                  | Simple commitment (digest/hash) | Timestamps | Single-use seals |
@@ -482,7 +479,7 @@ Tek Kullanımlık Mühürler üç ana aşamada çalışır:
 - Bob bu koşulları kabul eder veya onaylar.
 
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 
 **Seal Kapanış:**
@@ -494,7 +491,7 @@ Tek Kullanımlık Mühürler üç ana aşamada çalışır:
 - Ayrıca Seal'in kapalı ve geri alınamaz olduğunu kanıtlayan bir **şahit** (kriptografik kanıt) sağlar.
 
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 
 **Seal Doğrulama:**
@@ -560,7 +557,7 @@ Bu benzersizlik Client-side Validation için önemlidir: bir State Transition'ü
 Bir RGB Smart contract'un aynı anda birkaç Tek Kullanımlık Mühür (birkaç UTXO) harcaması gerekebilir. Dahası, tek bir Bitcoin işlemi, her biri kendi State Transition'ini mühürleyen birkaç farklı sözleşmeye referans verebilir. Bu durum, taahhütlerin hiçbirinin mükerrer olmadığını deterministik ve benzersiz bir şekilde kanıtlamak için bir **çoklu Commitment** mekanizması gerektirir. RGB'te **Anchor** kavramı burada devreye girer: bir Bitcoin işlemini ve her biri potansiyel olarak farklı bir Contract'e ait olan bir veya daha fazla istemci tarafı taahhüdünü (durum geçişleri) birbirine bağlayan özel bir yapı. Bir sonraki bölümde bu kavrama daha yakından bakacağız.
 
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 
 Projenin ana GitHub depolarından ikisi (LNPBP organizasyonu altında) ilk bölümde incelenen bu kavramların temel uygulamalarını bir araya getirmektedir:
@@ -568,17 +565,17 @@ Projenin ana GitHub depolarından ikisi (LNPBP organizasyonu altında) ilk böl�
 
 
 
-- client_side_validation**: Yerel doğrulama için Rust ilkellerini içerir;
-- single_use_seals**: Bu mühürleri güvenli bir şekilde tanımlamak ve kapatmak için mantığı uygular.
+- **client_side_validation**: Yerel doğrulama için Rust ilkellerini içerir;
+- **single_use_seals**: Bu mühürleri güvenli bir şekilde tanımlamak ve kapatmak için mantığı uygular.
 
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 
 Bu yazılım tuğlalarının Bitcoin'dan bağımsız olduğunu unutmayın; teorik olarak, başka herhangi bir yayın kanıtı ortamına (başka bir kayıt defteri, bir dergi, vb.) uygulanabilirler. Uygulamada, RGB sağlamlığı ve geniş fikir birliği için Bitcoin'ya dayanır.
 
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 
 ### Halktan gelen sorular
@@ -649,7 +646,7 @@ Mantığı anlamak için temel prensibi hatırlayalım: bir _tek kullanımlık m
 
 
 
-- Açık anahtar veya Address** kullanın
+- **Açık anahtar veya Address** kullanın
 
 
 Belirli bir açık anahtarın veya Address'in _tek kullanımlık mühür_ olduğuna karar verebiliriz. Bu anahtar veya Address bir işlemde On-Chain olarak görünür görünmez, Seal'nın belirli bir mesajla kapatıldığı anlamına gelir.
@@ -687,8 +684,8 @@ Bu yapılandırmaların her biri hakkında ayrıntıya girmeyeceğiz, çünkü R
 
 
 
-- "Seal Definition"**: Belirli bir _çıkış noktası_ (txid + çıkış no. ile tanımlanır);
-- "Seal kapanış "**: Bir _commitment_'ın bir mesaja eklendiği bu _outpoint_'i harcayan işlem.
+- **"Seal Definition"**: Belirli bir _çıkış noktası_ (txid + çıkış no. ile tanımlanır);
+- **Seal kapanış**: Bir _commitment_'ın bir mesaja eklendiği bu _outpoint_'i harcayan işlem.
 
 
 Bu şema RGB mimarisi ile uyumluluğu nedeniyle seçilmiştir, ancak diğer yapılandırmalar farklı kullanımlar için yararlı olabilir.
@@ -703,13 +700,13 @@ Bu şema RGB mimarisi ile uyumluluğu nedeniyle seçilmiştir, ancak diğer yap�
 Bir hatırlatma olarak, bir _tek kullanımlık mühür_ tanımlamak için mutlaka bir On-Chain işlemi yayınlamak gerekmez. Örneğin Alice'ün halihazırda harcanmamış bir UTXO'e sahip olması yeterlidir. Karar verebilir: "Bu _çıkış noktası_ (zaten mevcut) artık benim Seal'ümdür". Bunu yerel olarak (_istemci tarafında_) not eder ve bu UTXO harcanana kadar Seal açık olarak kabul edilir.
 
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 
 Seal'yi kapatmak istediği gün (bir olayı işaret etmek veya belirli bir mesajı Anchor'ya göndermek için), bu UTXO'i yeni bir işlemde harcar (bu işlem genellikle "_witness transaction_" olarak adlandırılır (_segwit_ ile ilgisi yoktur, sadece bizim verdiğimiz terimdir). Bu yeni işlem, mesajın _commitment_'ını içerecektir.
 
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 
 Bu örnekte şunu unutmayın:
@@ -730,19 +727,19 @@ Bu nedenle Alice, belirli bir durum veya verinin (yalnızca kendisi tarafından 
 Alice, Bob'a bu UTXO'in harcanması halinde belirli bir olayın gerçekleşmiş sayılacağını bildirir. Dışarıdan bakıldığında tek gördüğümüz bir Bitcoin işlemidir; ancak Bob bu harcamanın gizli bir anlamı olduğunu bilir.
 
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 
 Alice bu UTXO'ü harcarken, Seal'yi yeni anahtarını veya sadece eskisinin iptalini belirten bir mesajla kapatır. Bu şekilde, On-Chain'yi izleyen herkes UTXO'ün harcandığını görecektir, ancak yalnızca tam kanıta sahip olanlar bunun PGP anahtarının tam olarak iptali olduğunu bilecektir.
 
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 
 Bob'nın veya ilgili herhangi birinin gizli mesajı kontrol edebilmesi için Alice'in ona off-chain bilgilerini sağlaması gerekir.
 
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 
 Bu nedenle Alice, Bob'e aşağıdakileri sağlamalıdır:
@@ -754,7 +751,7 @@ Bu nedenle Alice, Bob'e aşağıdakileri sağlamalıdır:
 - Mesajın işleme dahil olduğuna dair kriptografik kanıt (_extra transaction proof_ veya _anchor_ olarak bilinir).
 
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 
 Üçüncü taraflar bu bilgiye sahip değildir. Sadece bir UTXO'un harcandığını görürler. Dolayısıyla gizlilik güvence altındadır.
@@ -765,18 +762,18 @@ Yapıyı netleştirmek için süreci iki işlemle özetleyelim:
 
 
 
-- İşlem 1**: Bu, _mühür tanımını_, yani Seal olarak hizmet verecek _çıkış noktasını_ içerir.
+- **İşlem 1**: Bu, _mühür tanımını_, yani Seal olarak hizmet verecek _çıkış noktasını_ içerir.
 
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
 
 
-- İşlem 2**: Bu _çıkış noktasını_ harcar. Bu, Seal'i kapatır ve aynı işlemde mesaja _commitment_ ekler.
+- **İşlem 2**: Bu _çıkış noktasını_ harcar. Bu, Seal'i kapatır ve aynı işlemde mesaja _commitment_ ekler.
 
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 
 Bu nedenle ikinci işleme "_tanıklık işlemi_" adını veriyoruz.
@@ -787,11 +784,11 @@ Bunu başka bir açıdan göstermek için iki katmanı temsil edebiliriz:
 
 
 
-- Üst Layer (Blockchain, genel)**: herkes işlemi görür ve bir _çıkış noktası_ harcandığını bilir;
-- Alt Layer (istemci tarafı, özel)**: sadece Alice (veya ilgili kişi) bu masrafın kriptografik kanıt ve yerel olarak tuttuğu mesaj aracılığıyla böyle bir mesaja karşılık geldiğini bilir.
+- **Üst Layer (Blockchain, genel)**: herkes işlemi görür ve bir *çıkış noktası* harcandığını bilir;
+- **Alt Layer (istemci tarafı, özel)**: sadece Alice (veya ilgili kişi) bu masrafın kriptografik kanıt ve yerel olarak tuttuğu mesaj aracılığıyla böyle bir mesaja karşılık geldiğini bilir.
 
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 
 Ancak Seal'yı kapatırken, _taahhüdün_ nereye eklenmesi gerektiği sorusu ortaya çıkmaktadır.
@@ -815,21 +812,21 @@ Yöntem ne olursa olsun (PkO, TxO2, vb.), _commitment_ eklenebilir:
 
 
 - Bir **Giriş** aracılığıyla:
-    - Sigtweak** ("Sign-to-Contract" prensibine benzer şekilde ECDSA imzasının `r` bileşenini değiştirir);
-    - Witweak** (işlemin _ayrıştırılmış tanık_ verileri değiştirilir).
+- **Sigtweak** ("Sign-to-Contract" prensibine benzer şekilde ECDSA imzasının `r` bileşenini değiştirir);
+- **Witweak** (işlemin _ayrıştırılmış tanık_ verileri değiştirilir).
 - Bir **Çıktı** üzerinden:
-    - Keytweak** (alıcının açık anahtarı mesajla birlikte "değiştirilir");
-    - Opret** (mesaj harcanamaz bir çıktı olan `OP_RETURN` içine yerleştirilir);
-    - Tapret** (veya _Taptweak_), bir Taproot anahtarının komut dosyası kısmına Commitment eklemek için Taproot'e dayanır, böylece açık anahtarı deterministik olarak değiştirir.
+- **Keytweak** (alıcının açık anahtarı mesajla birlikte "değiştirilir");
+- **Opret** (mesaj harcanamaz bir çıktı olan `OP_RETURN` içine yerleştirilir);
+- **Tapret** (veya _Taptweak_), bir Taproot anahtarının komit dosyası kısmına Commitment eklemek için Taproot'e dayanır, böylece açık anahtarı deterministik olarak değiştirir.
 
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 
 İşte her bir yöntemin ayrıntıları:
 
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 
 ***Sig tweak (sign-to-Contract):***
@@ -859,7 +856,7 @@ Uygulamada, **sig tweak** mevcut donanım (donanım cüzdanları) ve formatlarla
 ***Anahtar ayarı (Contract'e ödeme):***
 
 
-Anahtar değiştirme** tarihsel _pay-to-contract_ kavramını ele alır. Açık anahtar `X`i alır ve `H(mesaj)` değerini ekleyerek değiştiririz. Spesifik olarak, eğer `X = x * G` ve `h = H(mesaj)` ise, yeni anahtar `X' = X + h * G` olacaktır. Bu değiştirilmiş anahtar Commitment`i `mesaj`a gizler. Orijinal özel anahtarın sahibi, `x` özel anahtarına `h` ekleyerek, çıktıyı harcayacak anahtara sahip olduğunu kanıtlayabilir. Teorik olarak bu zarif bir yöntemdir, çünkü
+**Anahtar değiştirme** tarihsel *pay-to-contract* kavramını ele alır. Açık anahtar `X`i alır ve `H(mesaj)` değerini ekleyerek değiştiririz. Spesifik olarak, eğer `X = x * G` ve `h = H(mesaj)` ise, yeni anahtar `X' = X + h * G` olacaktır. Bu değiştirilmiş anahtar **Commitment**`i `mesaj`a gizler. Orijinal özel anahtarın sahibi, `x` özel anahtarına `h` ekleyerek, çıktıyı harcayacak anahtara sahip olduğunu kanıtlayabilir. Teorik olarak bu zarif bir yöntemdir, çünkü
 
 
 
@@ -915,13 +912,13 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 ### Tapret
 
 
-Son seçenek ise *Tapret* şeması ile **Taproot** (BIP341 ile tanıtılmıştır) kullanımıdır. *Tapret*, Blockchain üzerinde kapladığı alan ve Contract işlemleri için gizlilik açısından iyileştirmeler getiren deterministik Commitment'ün daha karmaşık bir şeklidir. Ana fikir, Commitment'ü bir [Taproot işleminin] (https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` kısmında gizlemektir.
+Son seçenek ise *Tapret* şeması ile **Taproot** (BIP341 ile tanıtılmıştır) kullanımıdır. *Tapret*, Blockchain üzerinde kapladığı alan ve Contract işlemleri için gizlilik açısından iyileştirmeler getiren deterministik Commitment'ün daha karmaşık bir şeklidir. Ana fikir, Commitment'ü bir [Taproot işleminin](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` kısmında gizlemektir.
 
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
 
-Commitment'in bir Taproot işlemine nasıl eklendiğini açıklamadan önce, Commitment'in **imperatif olarak** aşağıdaki gibi 64 baytlık bir dizeye [oluşturulmuş] (https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) karşılık gelmesi gereken **tam biçimine** bakalım:
+Commitment'in bir Taproot işlemine nasıl eklendiğini açıklamadan önce, Commitment'in **imperatif olarak** aşağıdaki gibi 64 baytlık bir dizeye [oluşturulmuş](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) karşılık gelmesi gereken **tam biçimine** bakalım:
 
 
 ```txt
@@ -963,7 +960,7 @@ Uygulama, gizlilik ve ölçeklendirme açısından esnekliği korumak için Tapr
 Bu ilk durumda, yalnızca dahili genel anahtar `P` *(Dahili Anahtar*) içeren ve ilişkili bir komut dosyası yolu (*Script Path*) bulunmayan bir Taproot çıkış anahtarı (*Taproot Çıkış Anahtarı*) `Q` ile başlarız:
 
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 
@@ -977,7 +974,7 @@ Bu ilk durumda, yalnızca dahili genel anahtar `P` *(Dahili Anahtar*) içeren ve
 Bir **Tapret** Commitment dahil etmek için, aşağıdaki gibi **benzersiz bir komut dosyası** ile bir **Script Path Spend** ekleyin:
 
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 
@@ -995,7 +992,7 @@ Burada Taproot ağacına dahil olma ve teklik kanıtı tek bir dahili açık ana
 İkinci senaryo, halihazırda birkaç komut dosyası içeren daha karmaşık bir `Q` **Taproot** çıktısıyla ilgilidir. Örneğin, 3 komut dosyasından oluşan bir ağacımız var:
 
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 
@@ -1007,7 +1004,7 @@ Burada Taproot ağacına dahil olma ve teklik kanıtı tek bir dahili açık ana
 Tapret Commitment'i eklemek için, ağacın ilk seviyesine bir *harcanamaz komut dosyası* eklememiz ve mevcut komut dosyalarını bir seviye aşağı kaydırmamız gerekir. Görsel olarak ağaç şöyle olur:
 
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 
@@ -1021,20 +1018,20 @@ Taproot kurallarına göre, her dal/yaprak sözlüksel bir Hash sırasına göre
 
 
 
-- tHT` > `tHABC`**: Tapret Commitment ağacın sağına doğru hareket eder. Teklik kanıtı sadece `tHABC` ve `P` gerektirir;
-- tHT` < `tHABC`**: Tapret Commitment sol tarafa yerleştirilmiştir. Sağda başka bir Tapret Commitment olmadığını kanıtlamak için, `tHAB` ve `tHC` böyle başka bir yazının olmadığını göstermek için ortaya çıkarılmalıdır.
+- **tHT` > `tHABC`**: Tapret Commitment ağacın sağına doğru hareket eder. Teklik kanıtı sadece `tHABC` ve `P` gerektirir;
+- **tHT` < `tHABC`**: Tapret Commitment sol tarafa yerleştirilmiştir. Sağda başka bir Tapret Commitment olmadığını kanıtlamak için, `tHAB` ve `tHC` böyle başka bir yazının olmadığını göstermek için ortaya çıkarılmalıdır.
 
 
 İlk durum için görsel örnek (`tHABC < tHT`):
 
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 
 İkinci durum için örnek (`tHABC > tHT`):
 
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 
 #### Nonce ile Optimizasyon
@@ -1057,8 +1054,8 @@ Bu ilkeyi yerine getirmek için ve bir işlemdeki çıkış sayısına bakılmak
 
 
 
-- Opret* şeması için ilk çıktı `OP_RETURN` (mevcutsa);
-- Tapret* şeması için ilk Taproot çıktısı (mevcutsa).
+- Opret şeması için ilk çıktı `OP_RETURN` (mevcutsa);
+- **Taproot** şeması için ilk Taproot çıktısı (mevcutsa).
 
 
 Bir işlemin iki ayrı çıktıda tek bir `Opret` Commitment ve tek bir `Tapret` Commitment içermesinin oldukça mümkün olduğunu unutmayın. Seal Definition'nin deterministik yapısı sayesinde, bu iki taahhüt istemci tarafında doğrulanan iki farklı veri parçasına karşılık gelir.
@@ -1159,7 +1156,7 @@ Multi Protocol Commitment (MPC) iki ihtiyacı karşılamak üzere tasarlanmışt
 Somut olarak, her _geçiş demeti_ belirli bir Contract'ya aittir. Tüm bu bilgiler, kökü (`mpc::Root`) daha sonra `mpc::Commitment`i vermek için tekrar hash edilen bir **MPC Ağacı** içine yerleştirilir. Seçilen deterministik yönteme göre Bitcoin işlemine (_witness transaction_) yerleştirilen bu son Hash'dir.
 
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 
 #### MPC Kök Hash
@@ -1184,7 +1181,7 @@ nerede?
 - `mpc::Root`, bir sonraki bölümde açıklanan işleme göre hesaplanan *MPC Ağacı*'nın köküdür.
 
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 
 #### MPC Ağaç yapımı
@@ -1217,7 +1214,7 @@ burada `kofaktör` her bir Contract için farklı pozisyonlar elde etme olasıl�
 - Tüm sözleşmeleri çarpışma olmadan konumlandıramazsak, `d` değerini artırır ve yeniden başlarız.
 
 
-Amaç, çarpışma riskini minimumda tutarken çok uzun ağaçlardan kaçınmaktır. Çarpışma olgusunun [Yıldönümü Paradoksu] (https://en.wikipedia.org/wiki/Birthday_problem) ile bağlantılı rastgele bir dağılım mantığı izlediğini unutmayın.
+Amaç, çarpışma riskini minimumda tutarken çok uzun ağaçlardan kaçınmaktır. Çarpışma olgusunun [Yıldönümü Paradoksu](https://en.wikipedia.org/wiki/Birthday_problem) ile bağlantılı rastgele bir dağılım mantığı izlediğini unutmayın.
 
 
 #### Yerleşik yapraklar
@@ -1303,7 +1300,7 @@ Bunu göstermek için, `C=3` (üç sözleşme) olan bir örnek hayal edelim. Kon
 Nihai sonuç **mpc::Root**, ardından `mpc::Commitment`dir.
 
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 
 #### MPC şaft kontrolü
@@ -1315,7 +1312,7 @@ Bir doğrulayıcı bir `c_i` Contract`ün (ve onun `BundleId`sinin) nihai `mpc::
 Örnekte, bir `c_2` doğrulayıcısı yalnızca bir ara Hash (`tH_MPC_LEAF(D)`), iki `tH_MPC_BRANCH(...)`, `pos(c_2)` konum kanıtı ve `cofactor` değerine ihtiyaç duyar. Daha sonra kökü yerel olarak yeniden yapılandırabilir, ardından `mpc::Commitment`i yeniden hesaplayabilir ve Bitcoin işleminde yazılanla karşılaştırabilir (`Opret` veya `Tapret` içinde).
 
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 
 Bu mekanizma şunları sağlar:
@@ -1330,7 +1327,7 @@ Bu mekanizma şunları sağlar:
 #### PPK yapısının özeti
 
 
-Multi Protocol Commitment* (MPC), RGB'nin birden fazla sözleşmeyi tek bir Bitcoin işleminde toplamasını ve diğer katılımcılara karşı taahhütlerin benzersizliğini ve gizliliğini korumasını sağlayan ilkedir. Ağacın deterministik yapısı sayesinde, her bir Contract benzersiz bir konuma atanır ve "kukla" yaprakların (*Entropi Yaprakları*) varlığı, işleme katılan toplam sözleşme sayısını kısmen maskeler.
+Multi Protocol Commitment (MPC), RGB'nin birden fazla sözleşmeyi tek bir Bitcoin işleminde toplamasını ve diğer katılımcılara karşı taahhütlerin benzersizliğini ve gizliliğini korumasını sağlayan ilkedir. Ağacın deterministik yapısı sayesinde, her bir Contract benzersiz bir konuma atanır ve "kukla" yaprakların (**Entropi Yaprakları**) varlığı, işleme katılan toplam sözleşme sayısını kısmen maskeler.
 
 
 Merkle Tree'ün tamamı asla istemcide saklanmaz. Biz sadece ilgili her Contract için alıcıya iletilmek üzere (daha sonra Commitment'ü doğrulayabilecek olan) bir _Merkle yolu_ generate oluştururuz. Bazı durumlarda, aynı UTXO'den geçen birkaç varlığınız olabilir. Daha sonra çok fazla verinin tekrarlanmasını önlemek için birkaç _Merkle yolunu_ çoklu protokol Commitment bloğu_ olarak adlandırılan bir blokta birleştirebilirsiniz.
@@ -1415,7 +1412,7 @@ Ardından, tüm yaprakları (sözleşmeler + entropi) toplamak için determinist
 Bu ek kanıt çok önemlidir çünkü `Opret`in aksine `Tapret` Commitment, *Commitment*'un konumunu doğru bir şekilde doğrulamak için Taproot ağacının bir kısmının ortaya çıkarılmasını gerektiren bir Taproot betiğinin yapısına entegre edilmiştir.
 
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 
 Bu nedenle **Anchor`lar** RGB bağlamında bir Bitcoin Commitment`i doğrulamak için gereken tüm bilgileri kapsüller. Hem ilgili işlemi (`txid`) hem de Contract konumlandırma kanıtını (`MPC Kanıtı`) belirtirken, `Tapret` durumunda ek kanıtı (`ETP`) yönetirler. Bu şekilde bir Anchor, aynı işlemin diğer sözleşme verileri için yeniden yorumlanamamasını sağlayarak off-chain durumunun bütünlüğünü ve benzersizliğini korur.
@@ -1439,7 +1436,7 @@ Bu bölümde şunları ele aldık:
 Uygulamada, teknik uygulama birkaç özel Rust _crates_ arasında bölünmüştür (_client_side_validation_, _commit-verify_, _bp_core_, vb. içinde). Temel kavramlar oradadır:
 
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 
 Bir sonraki bölümde, RGB'in tamamen off-chain bileşenine, yani Contract mantığına bakacağız. Kısmen çoğaltılmış _sonsuz durum makineleri_ olarak düzenlenen RGB sözleşmelerinin, verilerinin gizliliğini korurken Bitcoin komut dosyalarından çok daha yüksek ifade gücüne nasıl ulaştığını göreceğiz.
@@ -1466,7 +1463,7 @@ RGB'un amacı, Bitcoin üzerinde akıllı sözleşmelerin uygulanması için bir
 Bu otomasyon, ademi merkeziyetçilik sorusunu gündeme getirmektedir: Ownership ve Contract performansını yönetmek için kendimizi merkezi bir kayıttan (örneğin merkezi bir platform veya veritabanı) nasıl kurtarabiliriz? RGB tarafından ele alınan orijinal fikir, "hamiline enstrümanlar" olarak bilinen bir Ownership moduna geri dönmektir. Tarihsel olarak, belirli menkul kıymetler (tahviller, hisseler, vb.) hamiline yazılı olarak ihraç edilmiş ve belgeye fiziksel olarak sahip olan herkesin haklarını kullanmasına olanak sağlamıştır.
 
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 
 RGB bu kavramı dijital dünyaya uygular: haklar (ve yükümlülükler) off-chain manipüle edilen verilerde kapsüllenir ve bu verilerin durumu katılımcıların kendileri tarafından doğrulanır. Bu, a priori olarak, kamu kayıtlarına dayalı diğer yaklaşımların sunduğundan çok daha büyük bir gizlilik ve bağımsızlık derecesi sağlar.
@@ -1484,7 +1481,7 @@ Smart contract'deki bir RGB, tarafından tanımlanan bir durum makinesi olarak g
 - Durumun hangi koşullar altında ve kim tarafından değiştirilebileceğini açıklayan bir **Business Logic** (kurallar dizisi).
 
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 
 Bu sözleşmelerin tokenların basit bir şekilde transfer edilmesiyle sınırlı olmadığını anlamak önemlidir. Geleneksel varlıklardan (tokenlar, hisse senetleri, tahviller) daha karmaşık mekaniklere (kullanım hakları, ticari şartlar vb.) kadar çok çeşitli uygulamaları içerebilirler. Contract kodunun herkes tarafından erişilebilir ve çalıştırılabilir olduğu diğer blok zincirlerinin aksine, RGB'nin yaklaşımı Contract'e erişimi ve Contract hakkındaki bilgiyi katılımcılara ("***Contract katılımcıları***") ayırır. Birkaç rol vardır:
@@ -1492,9 +1489,9 @@ Bu sözleşmelerin tokenların basit bir şekilde transfer edilmesiyle sınırl�
 
 
 
-- Contract'ün Genesis'ünü ve başlangıç değişkenlerini tanımlayan Contract'ün düzenleyicisi** veya yaratıcısı;
-- Hak sahibi taraflar** (*Ownership*) veya diğer yaptırım kabiliyetleri;
-- Gözlemciler**, potansiyel olarak belirli bilgileri görmekle sınırlıdır, ancak değişiklikleri tetikleyemezler.
+- Contract'ün Genesis'ünü ve başlangıç değişkenlerini tanımlayan **Contract'ün düzenleyicisi** veya yaratıcısı;
+- **Hak sahibi taraflar** (*Ownership*) veya diğer yaptırım kabiliyetleri;
+- **Gözlemciler**, potansiyel olarak belirli bilgileri görmekle sınırlıdır, ancak değişiklikleri tetikleyemezler.
 
 
 Rollerin bu şekilde ayrılması, yalnızca yetkili kişilerin sözleşme durumuyla etkileşime girebilmesini sağlayarak sansüre karşı dirence katkıda bulunur. Aynı zamanda RGB'e yatay olarak ölçeklendirme yeteneği kazandırır: doğrulamaların çoğu Blockchain'nın dışında gerçekleşir ve Bitcoin'ye yalnızca kriptografik çapalar (*taahhütler*) yazılır.
@@ -1519,7 +1516,7 @@ Aynı zamanda, **Contract State** genellikle iki bileşene ayrılır:
 
 
 - A **Global State**: genel bölüm, potansiyel olarak herkes tarafından gözlemlenebilir (yapılandırmaya bağlı olarak);
-- Sahipli Durumlar**: Contract mantığında referans verilen UTXO'lar aracılığıyla özellikle sahiplere tahsis edilen özel parçalar.
+- **Sahipli Durumlar**: Contract mantığında referans verilen UTXO'lar aracılığıyla özellikle sahiplere tahsis edilen özel parçalar.
 
 
 İlerleyen bölümlerde göreceğimiz gibi, herhangi bir durum güncellemesinin (*Contract Operation*) geçerli sayılabilmesi için bir Bitcoin _commitment_ (`Opret` veya `Tapret` aracılığıyla) ile kenetlenmesi ve *Business Logic* komut dosyalarına uyması gerekir.
@@ -1539,7 +1536,7 @@ RGB evreninde bir ***Contract Operation***, Contract'ü **eski bir durumdan** **
 - İlgili hak sahipleri, geçişin *Schema* ile uyumlu olduğunu ve ilgili Bitcoin işleminin kayıtlı On-Chain olduğunu yerel olarak (*istemci tarafı*) doğrular.
 
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 
 Sonuç, artık farklı bir duruma sahip güncellenmiş bir Contract'dir. Blockchain'de yalnızca küçük bir kriptografik parmak izi (_commitment_) kaydedildiğinden, bu geçiş tüm Bitcoin ağının ayrıntılarla ilgilenmesini gerektirmez. Tek kullanımlık Mühürler dizisi herhangi bir Double-spending veya Durumun çift kullanımını önler.
@@ -1558,7 +1555,7 @@ Bunu bir perspektife oturtmak gerekirse, bir RGB Smart contract ilk durum olan *
 - Devam eden başka bir işlem olmadığında, **Terminal Durumuna** ulaşılır: Contract'un en son ve eksiksiz durumu.
 
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 
 Bu DAG topolojisi (basit bir doğrusal zincir yerine), birbirleriyle çelişmedikleri sürece Contract'nin farklı bölümlerinin paralel olarak gelişebilme olasılığını yansıtmaktadır. RGB daha sonra ilgili her katılımcının *istemci tarafı* doğrulamasıyla herhangi bir tutarsızlığı önlemeye özen gösterir.
@@ -1574,7 +1571,7 @@ RGB'teki akıllı sözleşmeler, merkezi olmayan ancak zaman damgası ve işlem 
 
 - Bir **Contract State**, Contract'in mevcut yapılandırmasını gösterir (haklar, bakiyeler, değişkenler, vb.);
 - Hangi geçişlere izin verildiğini ve bunların nasıl doğrulanması gerektiğini tanımlayan bir **Business Logic** (*Schema*);
-- Contract İşlemleri**, Bitcoin işlemlerine bağlı taahhütler sayesinde bu durumu adım adım günceller.
+- **Contract İşlemleri**, Bitcoin işlemlerine bağlı taahhütler sayesinde bu durumu adım adım günceller.
 
 
 Bir sonraki bölümde, bu ***durumların*** ve ***durum geçişlerinin*** off-chain düzeyinde somut temsili ve bunların Bitcoin'de gömülü olan UTXO'lar ve Tek Kullanımlık Mühürler ile nasıl ilişkili olduğu hakkında daha fazla ayrıntıya gireceğiz. Bu, RGB'ün Client-side Validation'a dayanan iç mekaniğinin, veri gizliliğini korurken akıllı sözleşmelerin tutarlılığını nasıl koruduğunu görmek için bir fırsat olacaktır.
@@ -1607,7 +1604,7 @@ Bir *State Transition* (RGB'deki temel ***Contract İşlemlerinden*** biridir) s
 Alice'da yerel olarak doğrulanmış verilerden (*istemci tarafı*) oluşan bir ***Stash RGB*** vardır. Bu Stash, Bitcoin üzerindeki UTXO'larından birine işaret etmektedir. Bu, bu verilerdeki bir _seal tanımının_ Alice'a ait bir UTXO'e işaret ettiği anlamına gelir. Buradaki fikir, bir varlıkla bağlantılı belirli dijital hakları (örneğin RGB jetonları) Bob'ye aktarmasını sağlamaktır.
 
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 
 **Bob ayrıca UTXO'lara sahiptir:**
@@ -1616,7 +1613,7 @@ Alice'da yerel olarak doğrulanmış verilerden (*istemci tarafı*) oluşan bir 
 Öte yandan Bob'in kendine ait en az bir UTXO'ı vardır ve Alice'unkiyle doğrudan bağlantısı yoktur. Bob'in UTXO'ı olmaması durumunda, *Witness Transaction*'in kendisini kullanarak ona transfer yapmak hala mümkündür: bu işlemin çıktısı daha sonra Commitment'yı (_commitment_) içerecek ve yeni Contract'in Ownership'sini Bob ile dolaylı olarak ilişkilendirecektir.
 
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 
 **Yeni mülkün inşası (*Yeni Durum*):**
@@ -1625,7 +1622,7 @@ Alice'da yerel olarak doğrulanmış verilerden (*istemci tarafı*) oluşan bir 
 Bob, Alice'ya bir ***Invoice*** şeklinde kodlanmış bilgi göndererek (ilerleyen bölümlerde Invoice yapımı hakkında daha ayrıntılı bilgi vereceğiz) Contract'ün kurallarına uygun yeni bir durum oluşturmasını ister. Bu durum, Bob'nin UTXO'larından birine işaret eden yeni bir *Seal Definition* içerecektir. Bu şekilde, Bob'ye bu yeni durumda tanımlanan varlıklardan Ownership verilir, örneğin belirli bir miktar RGB jetonu.
 
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 
 **Örnek işlemin hazırlanması:**
@@ -1634,7 +1631,7 @@ Bob, Alice'ya bir ***Invoice*** şeklinde kodlanmış bilgi göndererek (ilerley
 Alice daha sonra bir önceki Seal'te referans verilen UTXO'ü harcayan bir Bitcoin işlemi oluşturur (onu sahibi olarak meşrulaştıran işlem). Bu işlemin çıktısında, bir *Commitment* (`Opret` veya `Tapret` aracılığıyla) yeni RGB durumunu Anchor'e eklenir. Opret` veya `Tapret` taahhütleri, farklı sözleşmelerden birkaç geçişi bir araya getirebilen bir *MPC ağacından* (önceki bölümlerde görüldüğü gibi) türetilir.
 
 
-**Consignment*'nın Bob'ye aktarımı:**
+**Consignment'nın Bob'ye aktarımı:**
 
 
 İşlemi yayınlamadan önce Alice, Bob'e gerekli tüm *istemci tarafı* verilerini (kendi *Stash*) ve Bob'in lehine olan yeni durum bilgilerini içeren bir ***Consignment*** gönderir. Bu noktada Bob, RGB mutabakat kurallarını uygular:
@@ -1643,7 +1640,7 @@ Alice daha sonra bir önceki Seal'te referans verilen UTXO'ü harcayan bir Bitco
 
 
 - Varlığın Ownership'ünü veren yeni durum da dahil olmak üzere *Consignment* içinde bulunan tüm RGB verilerini doğrular;
-- Consignment*'da bulunan *Anchors*'a dayanarak, tanık işlemlerinin kronolojisini (Genesis'den en son geçişe kadar) doğrular ve Blockchain'deki ilgili taahhütleri onaylar.
+- Consignment'da bulunan *Anchors*'a dayanarak, tanık işlemlerinin kronolojisini (Genesis'den en son geçişe kadar) doğrular ve Blockchain'deki ilgili taahhütleri onaylar.
 
 
 **Geçişin tamamlanması:**
@@ -1652,7 +1649,7 @@ Alice daha sonra bir önceki Seal'te referans verilen UTXO'ü harcayan bir Bitco
 Bob tatmin olursa, onayını verebilir (örneğin, *Consignment*'yi imzalayarak). Alice daha sonra hazırlanan örnek işlemi yayınlayabilir. Onaylandıktan sonra, bu daha önce Alice tarafından tutulan Seal'ü kapatır ve Ownership'i Bob tarafından resmileştirir. Anti-Double-spending güvenliği daha sonra Bitcoin'deki ile aynı mekanizmaya dayanır: UTXO harcanır ve Alice'ün artık onu yeniden kullanamayacağı kanıtlanır.
 
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 
 Yeni durum artık Bob'in UTXO'una atıfta bulunarak Bob'e daha önce Alice tarafından tutulan Ownership'yi verir. RGB verilerinin sabitlendiği Bitcoin çıktısı, Ownership'nin transferinin geri alınamaz kanıtı haline gelir.
@@ -1661,7 +1658,7 @@ Yeni durum artık Bob'in UTXO'una atıfta bulunarak Bob'e daha önce Alice taraf
 İki Contract işlemi (bir **Genesis** ve ardından bir ***State Transition***) içeren minimal bir DAG (*Directed Acyclic Graph*) örneği, RGB durumunun (*istemci tarafı* Layer, kırmızı renkte) Bitcoin Blockchain'e (*Commitment* Layer, turuncu renkte) nasıl bağlandığını gösterebilir.
 
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 
 Bir Genesis'ün bir Seal (*Seal Definition*) tanımladığını, ardından bir *State Transition*'nin başka bir UTXO'da yeni bir tane oluşturmak için bu Seal'i kapattığını gösterir.
@@ -1674,17 +1671,17 @@ Bu bağlamda, terminolojiye ilişkin birkaç hatırlatma yapalım:
 
 - Bir ***Assignment*** aşağıdakileri birleştirir:
     - Bir ***Seal Definition*** (bu da bir UTXO'a işaret ediyor);
-    - Sahip Olunan Durumlar**, yani Ownership ile bağlantılı veriler (örneğin, transfer edilen token miktarı).
+- **Sahip Olunan Durumlar**, yani Ownership ile bağlantılı veriler (örneğin, transfer edilen token miktarı).
 - Bir **Global State**, Contract'nin herkes tarafından görülebilen genel özelliklerini bir araya getirir ve evrimlerin küresel tutarlılığını sağlar.
 
 
-*önceki bölümde açıklanan *Durum Geçişleri**, Contract Operation'ün ana biçimidir. Bir veya daha fazla önceki duruma (Genesis veya başka bir State Transition'ten) atıfta bulunurlar ve bunları yeni bir duruma güncellerler.
+*önceki bölümde açıklanan* **Durum Geçişleri**, Contract Operation'ün ana biçimidir. Bir veya daha fazla önceki duruma (Genesis veya başka bir State Transition'ten) atıfta bulunurlar ve bunları yeni bir duruma güncellerler.
 
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
 
-Bu diyagram, bir *Durum Transition Bundle*'de, tek bir örnek işlemde birkaç mühür kapatılırken aynı anda yeni mühürlerin nasıl açılabileceğini göstermektedir. Aslında, RGB protokolünün ilginç bir özelliği ölçeklendirme yeteneğidir: birkaç geçiş bir Transition Bundle'de toplanabilir, her bir toplama *MPC ağacının* farklı bir yaprağı (benzersiz bir paket tanımlayıcı) ile ilişkilendirilir. Deterministic Bitcoin Commitment* (DBC) mekanizması sayesinde, mesajın tamamı bir `Tapret` veya `Opret` çıktısına eklenirken, önceki mühürler kapatılır ve muhtemelen yenileri tanımlanır. Anchor`, Blockchain'da saklanan Commitment ile Client-side Validation yapısı (*istemci tarafı*) arasında doğrudan bir bağlantı görevi görür.
+Bu diyagram, bir **Durum Transition Bundle**'de, tek bir örnek işlemde birkaç mühür kapatılırken aynı anda yeni mühürlerin nasıl açılabileceğini göstermektedir. Aslında, RGB protokolünün ilginç bir özelliği ölçeklendirme yeteneğidir: birkaç geçiş bir Transition Bundle'de toplanabilir, her bir toplama **MPC ağacının** farklı bir yaprağı (benzersiz bir paket tanımlayıcı) ile ilişkilendirilir. **Deterministic Bitcoin Commitment** (DBC) mekanizması sayesinde, mesajın tamamı bir `Tapret` veya `Opret` çıktısına eklenirken, önceki mühürler kapatılır ve muhtemelen yenileri tanımlanır. **Anchor**, Blockchain'da saklanan Commitment ile Client-side Validation yapısı (*istemci tarafı*) arasında doğrudan bir bağlantı görevi görür.
 
 
 İlerleyen bölümlerde, bir State Transition'ün oluşturulması ve doğrulanmasıyla ilgili tüm bileşenlere ve süreçlere bakacağız. Bu Elements'lerin çoğu **RGB Çekirdek Kütüphanesinde** uygulanan RGB konsensüsünün bir parçasıdır.
@@ -1748,15 +1745,15 @@ Durum Geçişleri bu nedenle bir varlığın Ownership bir kişiden diğerine ak
 
 
 
-- State Transition**;
-- Genesis**;
-- State Extension**.
+- **State Transition**;
+- **Genesis**;
+- State **Extension**.
 
 
 Bunlar arasında **Genesis** ve **State Extension** bazen "*Durum Oluşturma işlemleri*" olarak adlandırılır, çünkü herhangi bir durumu hemen kapatmadan yeni durumlar oluştururlar. Bu çok önemli bir noktadır: **Genesis** ve **State Extension** bir Seal'ün kapatılmasını içermez. Aksine, Seal geçmişinde gerçekten doğrulanması için sonraki bir **State Transition** tarafından harcanması gereken yeni bir Blockchain tanımlarlar.
 
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 
 Bir Contract'in **Aktif Durumu** genellikle Genesis ile başlayan ve Bitcoin Blockchain'teki tüm çapaları takip eden işlemlerin geçmişinden (DAG) kaynaklanan en son durumlar kümesi olarak tanımlanır. Halihazırda kullanılmayan (yani harcanmış UTXO'lara bağlı) eski durumlar artık aktif olarak kabul edilmez, ancak geçmişin tutarlılığını kontrol etmek için gerekli olmaya devam eder.
@@ -1794,7 +1791,7 @@ Contract'teki ilk işlem olan Genesis, önceki herhangi bir duruma referans verm
 Teknik olarak, bir State Extension daha önce tanımlanmış bir *Valency*'ya (örneğin, Genesis veya başka bir State Transition'te) karşılık gelen bir *Redeem*'ye (belirli bir RGB girdi türü) atıfta bulunur. Yeni bir Seal tanımlar ve bundan yararlanan kişi veya koşul tarafından kullanılabilir. Bu Seal'in yürürlüğe girmesi için sonraki bir State Transition tarafından harcanması gerekir.
 
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 
 Örneğin: Genesis bir ihraç hakkı yaratır (*Valency*). Bu hak, daha sonra bir State Extension inşa eden yetkili bir aktör tarafından kullanılabilir:
@@ -1870,25 +1867,25 @@ Teknik olarak, bir State Extension daha önce tanımlanmış bir *Valency*'ya (�
 Yukarıdaki diyagrama bakarsak, bir Contract Operation'in **Yeni Durum**a atıfta bulunan Elements'yı ve güncellenmiş **Eski Durum**a atıfta bulunan diğerlerini içerdiğini görebiliriz.
 
 
-Yeni Devlet'in** Elements'si:
+**Yeni Devlet'in Elements'si:**
 
 
 
 
-- Atamalar**, içinde tanımlanmıştır:
+- **Atamalar**, içinde tanımlanmıştır:
  - **Seal Definition**;
  - **Owned State**.
 - Değiştirilebilen veya zenginleştirilebilen **Global State**;
-- Değerlikler**, muhtemelen bir State Transition veya Genesis'de tanımlanmıştır.
+- **Değerlikler**, muhtemelen bir State Transition veya Genesis'de tanımlanmıştır.
 
 
-Eski Devlet'e** şu yolla atıfta bulunulur:
+Eski Devlet'e şu yolla atıfta bulunulur:
 
 
 
 
-- Önceki durum geçişlerinin *Atamalarına* işaret eden Girişler** (Genesis'te mevcut değildir);
-- Redeems**, önceden tanımlanmış Valenslere atıfta bulunur (yalnızca Eyalet Uzantılarında).
+- Önceki durum geçişlerinin *Atamalarına* işaret eden **Girişler** (Genesis'te mevcut değildir);
+- **Redeems**, önceden tanımlanmış Valenslere atıfta bulunur (yalnızca Eyalet Uzantılarında).
 
 
 Buna ek olarak, bir Contract Operation operasyona özel daha genel alanlar içerir:
@@ -1916,18 +1913,18 @@ Bir RGB Contract daha sonra Genesis `OpId`den türetilen bir `ContractId` ile ta
 ### Durum güncelleme yöntemleri ve kuralları
 
 
-Contract State**, RGB protokolünün belirli bir Contract için izlemesi gereken bilgi kümesini temsil eder. Şunlardan oluşur:
+**Contract State**, RGB protokolünün belirli bir Contract için izlemesi gereken bilgi kümesini temsil eder. Şunlardan oluşur:
 
 
 
 
-- Tek bir Global State**: bu, Contract'ün herkes tarafından görülebilen genel, küresel kısmıdır;
-- Bir veya daha fazla Sahipli Durum**: her Owned State benzersiz bir Seal (ve dolayısıyla Bitcoin üzerinde bir UTXO) ile ilişkilidir. Arasında bir ayrım yapılır:
+- **Tek bir Global State**: bu, Contract'ün herkes tarafından görülebilen genel, küresel kısmıdır;
+- Bir veya daha fazla **Sahipli Durum**: her Owned State benzersiz bir Seal (ve dolayısıyla Bitcoin üzerinde bir UTXO) ile ilişkilidir. Arasında bir ayrım yapılır:
     - Kamu Mülkiyetindeki Devletler,
     - Özel Mülkiyetli Devletler.
 
 
-![RGB-Bitcoin](assets/fr/066.webp)
+![RGB-Bitcoin](assets/en/066.webp)
 
 
 Global State* doğrudan *Contract Operation*'a tek bir blok olarak dahil edilmiştir. Sahip Olunan Durumlar* *Seal Definition* ile birlikte her bir *Assignment* içinde tanımlanır.
@@ -1938,8 +1935,8 @@ RGB'ün önemli bir özelliği, Global State ve Sahip Olunan Durumların değiş
 
 
 
-- Değiştirilebilir**: bir durum öğesi değiştirilebilir olarak tanımlandığında, her yeni işlem önceki durumu yeni bir durumla değiştirir. Eski veri daha sonra eski olarak kabul edilir;
-- Biriktirme**: bir durum öğesi biriktirme olarak tanımlandığında, her yeni işlem önceki durumun üzerine yazmadan ona yeni bilgiler ekler. Sonuç bir tür birikmiş geçmiş olur.
+- **Değiştirilebilir**: bir durum öğesi değiştirilebilir olarak tanımlandığında, her yeni işlem önceki durumu yeni bir durumla değiştirir. Eski veri daha sonra eski olarak kabul edilir;
+- **Biriktirme**: bir durum öğesi biriktirme olarak tanımlandığında, her yeni işlem önceki durumun üzerine yazmadan ona yeni bilgiler ekler. Sonuç bir tür birikmiş geçmiş olur.
 
 
 Contract'de bir durum öğesi değiştirilebilir veya kümülatif olarak tanımlanmamışsa, bu öğe sonraki işlemler için boş kalacaktır (başka bir deyişle, bu alan için yeni sürümler yoktur). Bir durumun (Global veya Sahipli) değiştirilebilir, kümülatif veya sabit olup olmadığını belirleyen Contract Schema'dur (yani kodlanmış Business Logic). Genesis tanımlandıktan sonra, bu özellikler yalnızca Contract'nin kendisi buna izin veriyorsa, örneğin belirli bir State Extension aracılığıyla değiştirilebilir.
@@ -1995,13 +1992,13 @@ Bu Global State kamuya açık kaynaklara (web siteleri, IPFS, Nostr, Torrent, vb
 ### Görevler
 
 
-Assignment* tanımlama için temel yapıdır:
+**Assignment** tanımlama için temel yapıdır:
 
 
 
 
 - Belirli bir UTXO'a işaret eden Seal (*Seal Definition*);
-- Owned State*, yani bu Seal ile ilişkili özellik veya veri.
+- **Owned State**, yani bu Seal ile ilişkili özellik veya veri.
 
 
 Bir *Assignment*, bir Bitcoin işlem çıktısının benzeri olarak görülebilir, ancak daha esnektir. Mülkiyet transferinin mantığı burada yatmaktadır: *Assignment* belirli bir varlık veya hak türünü (`AssignmentType`) bir Seal ile ilişkilendirir. Bu Seal ile bağlantılı UTXO'nin özel anahtarına sahip olan kişi (veya bu UTXO'yi harcayabilen kişi) bu *Owned State*'ün sahibi olarak kabul edilir.
@@ -2010,43 +2007,43 @@ Bir *Assignment*, bir Bitcoin işlem çıktısının benzeri olarak görülebili
 RGB'in en güçlü yanlarından biri, *Seal Definition* ve *Owned State* alanlarını isteğe bağlı olarak *açığa çıkarma* veya gizleme (*gizleme*) yeteneğinde yatmaktadır. Bu, gizlilik ve seçiciliğin güçlü bir kombinasyonunu sunar. Örneğin, üçüncü taraflar yalnızca gizli sürümü (Hash) görürken, doğrulaması gereken kişiye açık sürümü sağlayarak tüm verileri ifşa etmeden bir geçişin geçerli olduğunu kanıtlayabilirsiniz. Uygulamada, bir geçişin `OpId`si her zaman *gizli* verilerden hesaplanır.
 
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 
 #### Seal Definition
 
 
-Seal Definition*, açıklanmış haliyle dört temel alana sahiptir: `txptr`, `vout`, `blinding` ve `method`:
+**Seal Definition**, açıklanmış haliyle dört temel alana sahiptir: `txptr`, `vout`, `blinding` ve `method`:
 
 
 
 
-- txptr**: bu, Bitcoin üzerindeki bir UTXO'e referanstır:
+- **txptr**: bu, Bitcoin üzerindeki bir UTXO'e referanstır:
     - Bir **Genesis Seal** söz konusu olduğunda, doğrudan mevcut bir UTXO'e (Genesis ile ilişkili olan) işaret eder;
     - Bir **Graph Seal** durumunda, sahip olabiliriz:
         - Belirli bir UTXO'a işaret ediyorsa basit bir `txid`,
         - Veya bir öz referansı belirten bir `WitnessTx`: Seal işlemin kendisine işaret eder. Bu özellikle harici bir UTXO mevcut olmadığında, örneğin Yıldırım kanalı açma işlemlerinde veya alıcının UTXO'ü yoksa kullanışlıdır.
-- vout**: `txptr` tarafından belirtilen işlemin çıkış numarası. Sadece standart Graph Seal için mevcuttur (`WitnessTx` için değil);
-- blinding**: gizliliği güçlendirmek ve UTXO'in kimliğine yönelik kaba kuvvet girişimlerini önlemek için 8 baytlık rastgele bir sayı;
-- method**: kullanılan ankraj yöntemini belirtir (`Tapret` veya `Opret`).
+- **vout**: `txptr` tarafından belirtilen işlemin çıkış numarası. Sadece standart Graph Seal için mevcuttur (`WitnessTx` için değil);
+- **blinding**: gizliliği güçlendirmek ve UTXO'in kimliğine yönelik kaba kuvvet girişimlerini önlemek için 8 baytlık rastgele bir sayı;
+- **method**: kullanılan ankraj yöntemini belirtir (`Tapret` veya `Opret`).
 
 
 Seal Definition'nın *gizli* formu, RGB'e özgü bir etiketle birlikte bu 4 alanın birleştirilmesinden oluşan bir SHA256 Hash'dir (etiketli).
 
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 
 #### Sahip Olunan Devletler
 
 
-Assignment*'in ikinci bileşeni Owned State'tır. Global State'dan farklı olarak, genel veya özel biçimde var olabilir:
+Assignment'in ikinci bileşeni **Owned State**'tır. **Global State**'dan farklı olarak, genel veya özel biçimde var olabilir:
 
 
 
 
-- Herkese açık Owned State**: Seal ile ilişkili verileri herkes bilir. Örneğin, herkese açık bir görüntü;
-- Özel Owned State**: veriler gizlidir, yalnızca sahibi (ve gerekirse potansiyel olarak doğrulayıcı) tarafından bilinir. Örneğin, sahip olunan token sayısı.
+- **Herkese açık Owned State**: Seal ile ilişkili verileri herkes bilir. Örneğin, herkese açık bir görüntü;
+- **Özel Owned State**: veriler gizlidir, yalnızca sahibi (ve gerekirse potansiyel olarak doğrulayıcı) tarafından bilinir. Örneğin, sahip olunan token sayısı.
 
 
 RGB, bir Owned State için dört olası durum türü (*StateTypes*) tanımlar:
@@ -2054,9 +2051,9 @@ RGB, bir Owned State için dört olası durum türü (*StateTypes*) tanımlar:
 
 
 
-- Bildirimsel**: sayısal veri içermez, sadece bildirimsel bir hak içerir (örneğin oy kullanma hakkı). Gizli ve açık formlar aynıdır;
-- Değiştirilebilir**: değiştirilebilir bir miktarı temsil eder (jetonlar gibi). Açık formda, `miktar` ve `körleme` vardır. Gizli formda, miktarı ve körlemeyi gizleyen tek bir *Pedersen commitment* vardır;
-- Structured**: yapılandırılmış verileri depolar (64 kB'a kadar). Açık biçimde, veri blobudur. Gizli formda, bu blobun etiketlenmiş bir Hash'idir:
+- **Bildirimsel**: sayısal veri içermez, sadece bildirimsel bir hak içerir (örneğin oy kullanma hakkı). Gizli ve açık formlar aynıdır;
+- **Değiştirilebilir**: değiştirilebilir bir miktarı temsil eder (jetonlar gibi). Açık formda, `miktar` ve `körleme` vardır. Gizli formda, miktarı ve körlemeyi gizleyen tek bir *Pedersen commitment* vardır;
+- **Structured**: yapılandırılmış verileri depolar (64 kB'a kadar). Açık biçimde, veri blobudur. Gizli formda, bu blobun etiketlenmiş bir Hash'idir:
 
 
 ```txt
@@ -2074,7 +2071,7 @@ tag_data = urn:lnp-bp:rgb:state-data#2024-02-12
 
 
 
-- Ekler**: bir dosyayı (ses, görüntü, ikili, vb.) Owned State'a bağlar, Hash `file_hash` dosyasını, MIME türünü `media type` ve bir kriptografik tuzu `salt` depolar. Dosyanın kendisi başka bir yerde barındırılır. Gizli formda, önceki üç veri öğesi ile etiketlenmiş bir Hash'dir:
+- **Ekler**: bir dosyayı (ses, görüntü, ikili, vb.) Owned State'a bağlar, Hash `file_hash` dosyasını, MIME türünü `media type` ve bir kriptografik tuzu `salt` depolar. Dosyanın kendisi başka bir yerde barındırılır. Gizli formda, önceki üç veri öğesi ile etiketlenmiş bir Hash'dir:
 
 
 ```txt
@@ -2163,7 +2160,7 @@ Fungible` tipinde Sahipli Durumlarımız olduğunda, doğrulama mantığı (Sche
 ### Metadata
 
 
-Metadata** alanı en fazla 64 KiB olabilir ve doğrulama için yararlı olan ancak Contract'ın kalıcı durumuna entegre edilmeyen geçici verileri dahil etmek için kullanılır. Örneğin, karmaşık komut dosyaları için ara hesaplama değişkenleri burada saklanabilir. Bu alanın global geçmişte saklanması amaçlanmamıştır, bu nedenle Sahipli Durumlar veya Global State kapsamı dışındadır.
+**Metadata** alanı en fazla 64 KiB olabilir ve doğrulama için yararlı olan ancak Contract'ın kalıcı durumuna entegre edilmeyen geçici verileri dahil etmek için kullanılır. Örneğin, karmaşık komut dosyaları için ara hesaplama değişkenleri burada saklanabilir. Bu alanın global geçmişte saklanması amaçlanmamıştır, bu nedenle Sahipli Durumlar veya Global State kapsamı dışındadır.
 
 
 ### Değerlikler
@@ -2199,7 +2196,7 @@ Kurtarmalar, Atamalar için Girişlerin Valency eşdeğeridir. Önceden tanımla
 
 
 - Kesin ve tiplendirilmiş bir veri organizasyonu uygulayan **Strict Type System**;
-- Doğrulamayı** **Ownership**'den ayırmanın önemi;
+- **Doğrulamayı** **Ownership**'den ayırmanın önemi;
 - RGB'te *hızlı ileri* ve *geri itme* kavramlarını içeren **uzlaşma evrimi** sistemi.
 
 
@@ -2278,17 +2275,17 @@ RGB'in en önemli yeniliklerinden biri, iki kavram arasındaki kesin ayrımdır:
 
 
 
-- Doğrulama**: bir State Transition'nin Contract'ün kurallarına (Business Logic, geçmiş, vb.) uyup uymadığının kontrol edilmesi;
-- Ownership** (Ownership veya kontrol): Single-Use Seal'nın harcanmasına (veya kapatılmasına) ve böylece State Transition'in gerçekleşmesine izin veren Bitcoin UTXO'a sahip olma gerçeği.
+- **Doğrulama**: bir State Transition'nin Contract'ün kurallarına (Business Logic, geçmiş, vb.) uyup uymadığının kontrol edilmesi;
+- **Ownership** (Ownership veya kontrol): Single-Use Seal'nın harcanmasına (veya kapatılmasına) ve böylece State Transition'in gerçekleşmesine izin veren Bitcoin UTXO'a sahip olma gerçeği.
 
 
 **Doğrulama** RGB yazılım yığını düzeyinde gerçekleşir (kütüphaneler, *taahhütler* protokolü, vb.). Rolü, Contract'un dahili kurallarına (miktarlar, izinler, vb.) uyulmasını sağlamaktır. Gözlemciler veya diğer katılımcılar da veri geçmişini doğrulayabilir.
 
 
-*öte yandan *Ownership** tamamen Bitcoin'ün güvenliğine dayanır. Bir UTXO'in özel anahtarına sahip olmak, yeni bir geçiş başlatma (Single-Use Seal'yi kapatma) yeteneğini kontrol etmek anlamına gelir. Dolayısıyla, birisi verileri görebilse veya doğrulayabilse bile, ilgili UTXO'e sahip değilse durumu değiştiremez.
+*Öte yandan* **Ownership** tamamen Bitcoin'ün güvenliğine dayanır. Bir UTXO'in özel anahtarına sahip olmak, yeni bir geçiş başlatma (Single-Use Seal'yi kapatma) yeteneğini kontrol etmek anlamına gelir. Dolayısıyla, birisi verileri görebilse veya doğrulayabilse bile, ilgili UTXO'e sahip değilse durumu değiştiremez.
 
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 
 Bu yaklaşım, daha karmaşık blok zincirlerinde karşılaşılan klasik güvenlik açıklarını sınırlar (bir Smart contract'nın tüm kodunun herkese açık olduğu ve herkes tarafından değiştirilebildiği, bu da bazen saldırılara yol açmıştır). RGB'de, bir saldırgan On-Chain durumu ile basitçe etkileşime giremez, çünkü durum (*Ownership*) üzerinde hareket etme hakkı Bitcoin Layer tarafından korunmaktadır.
@@ -2305,8 +2302,8 @@ Anlamsal kod versiyonlamaya ek olarak, RGB, bir Contract'nın mutabakat kurallar
 
 
 
-- Hızlı ileri**
-- Geri itme**
+- **Hızlı ileri**
+- **Geri itme**
 
 
 Daha önce geçersiz olan bir kural geçerli hale geldiğinde hızlı ileri sarma gerçekleşir. Örneğin, Contract yeni bir `AssignmentType` türüne veya yeni bir alana izin verecek şekilde gelişirse:
@@ -2411,8 +2408,8 @@ Bu mekanizma iki ana işlemden oluşmaktadır:
 
 
 
-- Commit**: `C` üretmek için bir kriptografik fonksiyon `m` mesajına ve rastgele bir `r` sayısına uygulanır;
-- Verify**: Bu Commitment'nin doğru olup olmadığını kontrol etmek için `C`, `m` mesajı ve `r` değerini kullanırız. Fonksiyon `True` veya `False` döndürür.
+- **Commit**: `C` üretmek için bir kriptografik fonksiyon `m` mesajına ve rastgele bir `r` sayısına uygulanır;
+- **Verify**: Bu Commitment'nin doğru olup olmadığını kontrol etmek için `C`, `m` mesajı ve `r` değerini kullanırız. Fonksiyon `True` veya `False` döndürür.
 
 
 Bir Commitment iki özelliğe saygı göstermelidir:
@@ -2420,7 +2417,7 @@ Bir Commitment iki özelliğe saygı göstermelidir:
 
 
 
-- Bağlama**: aynı `C`yi üreten iki farklı mesaj bulmak imkansız olmalıdır:
+- **Bağlama**: aynı `C`yi üreten iki farklı mesaj bulmak imkansız olmalıdır:
 
 
 $$
@@ -2438,7 +2435,7 @@ $$
 
 
 
-- Gizleme**: `C` bilgisi `m` içeriğini açığa çıkarmamalıdır.
+- **Gizleme**: `C` bilgisi `m` içeriğini açığa çıkarmamalıdır.
 
 
 RGB protokolünde, bilginin kendisini ifşa etmeden belirli bir zamanda belirli bir bilginin varlığını kanıtlamak için bir Bitcoin işlemine bir Commitment dahil edilir.
@@ -2452,8 +2449,8 @@ Bir **Consignment**, RGB'da Client-side Validation'e tabi olarak taraflar arası
 
 
 
-- Contract Consignment**: *düzenleyici* (Contract düzenleyici) tarafından sağlanır, Schema, Genesis, Interface ve Interface Implementation gibi başlatma bilgilerini içerir.
-- Transfer Consignment**: ödeme yapan taraf (*ödeyen*) tarafından sağlanır. Terminal Consignment'ye kadar olan tüm durum geçişleri geçmişini içerir (yani, ödeyen tarafından alınan son durum).
+- **Contract Consignment**: *düzenleyici* (Contract düzenleyici) tarafından sağlanır, Schema, Genesis, Interface ve Interface Implementation gibi başlatma bilgilerini içerir.
+- **Transfer Consignment**: ödeme yapan taraf (*ödeyen*) tarafından sağlanır. Terminal Consignment'ye kadar olan tüm durum geçişleri geçmişini içerir (yani, ödeyen tarafından alınan son durum).
 
 
 Bu sevkiyatlar Blockchain'da kamuya açık olarak kaydedilmez; doğrudan ilgili taraflar arasında kendi seçtikleri iletişim kanalı üzerinden değiş tokuş edilir.
@@ -2473,9 +2470,9 @@ Bir Contract Operation, Schema kurallarına göre gerçekleştirilen bir Contrac
 
 
 
-- State Transition**;
-- Genesis**;
-- State Extension**.
+- **State Transition**;
+- **Genesis**;
+- State **Extension**.
 
 
 Her işlem belirli verileri ekleyerek veya değiştirerek durumu değiştirir (Global State, Owned State...).
@@ -2502,9 +2499,9 @@ Contract Rights, bir RGB Contract'ya dahil olanlar tarafından kullanılabilecek
 
 
 
-- Belirli bir UTXO'un Ownership'i ile ilişkili Ownership hakları** (bir _Seal Definition_ aracılığıyla);
-- Yürütme hakları**, yani Schema uyarınca bir veya daha fazla geçiş (Durum Geçişleri) oluşturma yeteneği;
-- Kamu hakları**, Schema belirli kamu kullanımlarına izin verdiğinde, örneğin bir Valency'nin itfası yoluyla bir State Extension'in oluşturulması.
+- Belirli bir UTXO'un Ownership'i ile ilişkili **Ownership hakları** (bir _Seal Definition_ aracılığıyla);
+- **Yürütme hakları**, yani Schema uyarınca bir veya daha fazla geçiş (Durum Geçişleri) oluşturma yeteneği;
+- **Kamu hakları**, Schema belirli kamu kullanımlarına izin verdiğinde, örneğin bir Valency'nin itfası yoluyla bir State Extension'in oluşturulması.
 
 
 #### Contract State
@@ -2516,7 +2513,7 @@ Contract State, bir Contract'nın belirli bir andaki mevcut durumuna karşılık
 
 
 - Contract'un genel özelliklerini içeren **Global State** (Genesis'ta ayarlanmış veya yetkili güncellemeler yoluyla eklenmiş);
-- Sahipli Devletler**, UTXO'ları tarafından tanımlanan belirli sahiplere aittir.
+- **Sahipli Devletler**, UTXO'ları tarafından tanımlanan belirli sahiplere aittir.
 
 
 #### Deterministic Bitcoin Commitment - DBC
@@ -2527,8 +2524,8 @@ Deterministic Bitcoin Commitment (DBC), bir Bitcoin işleminde bir _commitment_'
 
 
 
-- Opret**
-- Tapret**
+- **Opret**
+- **Tapret**
 
 
 Bu mekanizmalar, Commitment'in deterministik olarak izlenebilir ve doğrulanabilir olmasını sağlamak için _commitment_'ın bir Bitcoin işleminin çıktısında veya yapısında nasıl kodlandığını tam olarak tanımlar.
@@ -2594,7 +2591,7 @@ Lightning Network, Bitcoin üzerinde 2/2 çoklu imza cüzdanlarından oluşan me
 Lightning'in nasıl çalıştığı hakkında daha fazla bilgi için bu diğer kursa katılmanızı tavsiye ederim:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -2776,13 +2773,13 @@ Bu modülerlik RGB'nin ilginç bir özelliğidir, çünkü protokolün mutabakat
 
 
 
-- Contract'in ilk durumu olan Genesis** (ve bir varlığın, hakkın veya diğer parametrelendirilebilir verilerin ilk Ownership'ünü tanımlayan özel bir işleme benzetilebilir);
-- Contract'in Business Logic'sini (veri türleri, doğrulama kuralları vb.) açıklayan Schema**;
-- Interface**, hem cüzdanlar hem de insan kullanıcılar için anlamsal bir Layer sağlayarak işlemlerin okunmasını ve yürütülmesini netleştirir;
-- Contract tanımının kullanıcı deneyimi ile tutarlı olmasını sağlamak için Business Logic ve sunum arasındaki boşluğu dolduran Interface'ün uygulanması**.
+- Contract'in ilk durumu olan **Genesis** (ve bir varlığın, hakkın veya diğer parametrelendirilebilir verilerin ilk Ownership'ünü tanımlayan özel bir işleme benzetilebilir);
+- Contract'in Business Logic'sini (veri türleri, doğrulama kuralları vb.) açıklayan **Schema**;
+- **Interface**, hem cüzdanlar hem de insan kullanıcılar için anlamsal bir Layer sağlayarak işlemlerin okunmasını ve yürütülmesini netleştirir;
+- Contract tanımının kullanıcı deneyimi ile tutarlı olmasını sağlamak için Business Logic ve sunum arasındaki boşluğu dolduran **Interface'ün uygulanması**.
 
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 
 Bir Wallet'nin bir RGB varlığını (değiştirilebilir bir token veya herhangi bir hak) yönetebilmesi için tüm bu Elements'ları derlemiş olması gerektiğine dikkat etmek önemlidir: *Schema*, *Interface*, *Interface Implementation* ve *Genesis*. Bu, bir ***Contract Consignment***, yani istemci tarafı Contract'i doğrulamak için gereken her şeyi içeren bir veri paketi aracılığıyla iletilir.
@@ -2804,10 +2801,10 @@ Sol taraftaki sütun RGB protokolüne özgü Elements'yi göstermektedir. Orta s
 
 
 
-- Genesis**, *Sınıf kurucusuna* benzer bir rol oynar: Contract'un durumu burada başlatılır;
-- Schema** bir sınıfın tanımıdır, yani özelliklerinin, yöntemlerinin ve temel mantığının tanımıdır;
-- Interface**, *arayüzlere* (Java), *özelliklere* (Rust) veya *protokollere* (Swift) karşılık gelir: bunlar fonksiyonların, olayların, alanların genel tanımlarıdır...;
-- Interface Implementation**, Rust'daki *Impl* veya Java'daki *Implements*'e karşılık gelir; burada kodun Interface'te bildirilen yöntemleri gerçekte nasıl yürüteceğini belirtiriz.
+- **Genesis**, *Sınıf kurucusuna* benzer bir rol oynar: Contract'un durumu burada başlatılır;
+- **Schema** bir sınıfın tanımıdır, yani özelliklerinin, yöntemlerinin ve temel mantığının tanımıdır;
+- **Interface**, *arayüzlere* (Java), *özelliklere* (Rust) veya *protokollere* (Swift) karşılık gelir: bunlar fonksiyonların, olayların, alanların genel tanımlarıdır...;
+- **Interface Implementation**, Rust'daki *Impl* veya Java'daki *Implements*'e karşılık gelir; burada kodun Interface'te bildirilen yöntemleri gerçekte nasıl yürüteceğini belirtiriz.
 
 
 Ethereum bağlamında, Genesis *Contract kurucusuna*, Schema Contract tanımına, Interface ERC-20 veya ERC-721 gibi bir standarda ve Interface Implementation Contract ile etkileşim biçimini belirten ABI'ye (*Uygulama İkilisi Interface*) daha yakındır.
@@ -2843,7 +2840,7 @@ Bir Schema nesne yönelimli programlamadaki (OOP) bir "sınıfa" benzetilebilir.
 - Geçerli kabul edilen işlem dizileri: örneğin, uyulması gereken bir geçiş sırası veya karşılanması gereken bir dizi mantıksal koşul.
 
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 
 RGB üzerindeki bir varlığın *vericisi* bir Contract yayınladığında, onunla ilişkili Genesis ve Schema'ü sağlar. Varlıkla etkileşime geçmek isteyen kullanıcılar veya cüzdanlar, Contract'nin arkasındaki mantığı anlamak ve daha sonra katılacakları geçişlerin meşru olduğunu doğrulayabilmek için bu Schema'ü alır.
@@ -2927,14 +2924,14 @@ Kodun içine dalmadan önce, bir RGB Schema'nin genel yapısını hatırlamakta 
 
 
 - Başka bir temel Schema'ün şablon olarak kullanıldığını gösteren olası bir `SchemaId`;
-- Küresel Devletler** ve **Sahip Olunan Devletler** (katı tipleriyle);
-- Değerlikler** (eğer varsa);
+- **Küresel Devletler** ve **Sahip Olunan Devletler** (katı tipleriyle);
+- **Değerlikler** (eğer varsa);
 - Bu durumlara ve değerliklere referans verebilen **Operasyonlar** (Genesis, Durum Geçişleri, Durum Uzantıları);
 - Verileri tanımlamak ve doğrulamak için kullanılan **Strict Type System**;
-- Doğrulama komut dosyaları** (AluVM aracılığıyla çalıştırılır).
+- **Doğrulama komut dosyaları** (AluVM aracılığıyla çalıştırılır).
 
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 
 Aşağıdaki kod Rust Schema'nin tam tanımını göstermektedir. Aşağıda (1)'den (9)'a kadar olan ek açıklamaları takip ederek parça parça yorumlayacağız:
@@ -3016,7 +3013,7 @@ EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET,
 
 
 
-- (1) - Fonksiyon başlığı ve Alt Şema**
+- (1) - **Fonksiyon başlığı ve Alt Şema**
 
 
 Nia_schema()` fonksiyonu bir `SubSchema` döndürerek bu Schema'in daha genel bir Schema'den kısmen miras alabileceğini gösterir. RGB ekosisteminde bu esneklik, bir ana Schema'in belirli standart Elements'lerini yeniden kullanmayı ve ardından söz konusu Contract'a özgü kuralları tanımlamayı mümkün kılar. Burada, `subset_of` `None` olacağı için kalıtımı etkinleştirmemeyi seçiyoruz.
@@ -3024,7 +3021,7 @@ Nia_schema()` fonksiyonu bir `SubSchema` döndürerek bu Schema'in daha genel bi
 
 
 
-- (2) - Genel özellikler: ffv, subset_of, type_system**
+- (2) - Genel özellikler: **ffv, subset_of, type_system**
 
 
 Fv` özelliği Contract'ün *hızlı ileri* sürümüne karşılık gelir. Burada `zero!()` değeri, 0 sürümünde veya bu Schema'ün ilk sürümünde olduğumuzu gösterir. Daha sonra yeni işlevler (yeni işlem türü, vb.) eklemek isterseniz, fikir birliği değişikliğini belirtmek için bu sürümü artırabilirsiniz.
@@ -3117,7 +3114,7 @@ Bu, UTXO'de jetonları tüketen, daha sonra alıcılar lehine yeni Sahipli Durum
 
 
 
-- (9) - AluVM senaryosu ve Giriş Noktaları** (Fransızca)
+- (9) - **AluVM senaryosu ve Giriş Noktaları** (Fransızca)
 
 
 Son olarak, bir AluVM betiği bildiriyoruz (`Script::AluVM(AluScript { ... })`). Bu komut dosyası şunları içerir:
@@ -3160,7 +3157,7 @@ Tamamen bildirimsel olan ve olduğu gibi kullanılması zor olan ikili bir dosya
 - Verileri anlaşılabilir isimlerle ilişkilendirerek Contract İşlemlerini (Genesis, State Transition veya State Extension) yorumlayın ve oluşturun (örneğin, ikili bir tanımlayıcı yerine açıkça "miktar" belirterek bir transfer gerçekleştirin).
 
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 
 Interface sayesinde, örneğin bir Wallet'da alanları manipüle etmek yerine "token sayısı", "varlık adı" gibi etiketleri doğrudan manipüle eden kod yazabilirsiniz. Bu şekilde, bir Contract'u yönetmek daha sezgisel hale gelir. Bu şekilde, Contract yönetimi daha sezgisel hale gelir.
@@ -3174,7 +3171,7 @@ Bu yöntemin birçok avantajı vardır:
 
 
 
-- Standartlaştırma:**
+- **Standartlaştırma:**
 
 
 Aynı tip Contract, birkaç Wallet uygulaması arasında paylaşılan standart bir Interface tarafından desteklenebilir. Bu, uyumluluğu ve kodun yeniden kullanımını kolaylaştırır.
@@ -3182,7 +3179,7 @@ Aynı tip Contract, birkaç Wallet uygulaması arasında paylaşılan standart b
 
 
 
-- Schema ve Interface arasında net ayrım:**
+- **Schema ve Interface arasında net ayrım:**
 
 
 RGB tasarımında, Schema (Business Logic) ve Interface (sunum ve manipülasyon) iki bağımsız varlıktır. Contract mantığını yazan geliştiriciler, ergonomi veya veri gösterimi konusunda endişelenmeden Schema'a konsantre olabilirken, başka bir ekip (veya aynı ekip, ancak farklı bir zaman çizelgesinde) Interface'yi geliştirebilir.
@@ -3190,7 +3187,7 @@ RGB tasarımında, Schema (Business Logic) ve Interface (sunum ve manipülasyon)
 
 
 
-- Esnek evrim:**
+- **Esnek evrim:**
 
 
 Interface, varlık verildikten sonra Contract'ün kendisini değiştirmek zorunda kalmadan değiştirilebilir veya eklenebilir. Bu, Interface'ün (genellikle yürütme koduyla karışık) Blockchain'de dondurulduğu bazı On-Chain Smart contract sistemlerinden önemli bir farktır.
@@ -3204,7 +3201,7 @@ Interface, varlık verildikten sonra Contract'ün kendisini değiştirmek zorund
 Aynı Contract, farklı ihtiyaçlara göre uyarlanmış farklı Arayüzler aracılığıyla açığa çıkarılabilir: son kullanıcı için basit bir Interface, karmaşık yapılandırma işlemlerini yönetmesi gereken düzenleyici için daha gelişmiş başka bir Interface. Wallet daha sonra kullanımına bağlı olarak hangi Interface'nin içe aktarılacağını seçebilir.
 
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 
 Uygulamada, Wallet bir RGB Contract aldığında (bir `.RGB` veya `.rgba` dosyası aracılığıyla), aynı zamanda derlenmiş olan ilişkili Interface'yi de alır. Çalışma zamanında, Wallet örneğin
@@ -3271,7 +3268,7 @@ Bir hatırlatma olarak, her bir Interface'in Wallet tarafında bir Contract'in n
 - Sahibinin bir NFT'nin geçmiş Ownership'sini kanıtlamak için geçmişe bir "*gravür*" girme olasılığı.
 
 
-**RGB25**, değiştirilebilir ve değiştirilemez yönleri birleştiren hibrit bir standarttır. Tek bir kök varlıkla bağlantıyı korurken bir mülkü bölmek istediğiniz gayrimenkul tokenizasyonu gibi kısmen değiştirilebilir varlıklar için tasarlanmıştır (başka bir deyişle, değiştirilebilir olmayan bir eve bağlı bir evin değiştirilebilir parçalarına sahipsiniz). Teknik olarak bu Interface, orijinal varlığı izlerken bölme kavramını dikkate alan **Collectible Fungible Asset* (CFA)** Schema ile bağlantılı olabilir.
+**RGB25**, değiştirilebilir ve değiştirilemez yönleri birleştiren hibrit bir standarttır. Tek bir kök varlıkla bağlantıyı korurken bir mülkü bölmek istediğiniz gayrimenkul tokenizasyonu gibi kısmen değiştirilebilir varlıklar için tasarlanmıştır (başka bir deyişle, değiştirilebilir olmayan bir eve bağlı bir evin değiştirilebilir parçalarına sahipsiniz). Teknik olarak bu Interface, orijinal varlığı izlerken bölme kavramını dikkate alan **Collectible Fungible Asset (CFA)** Schema ile bağlantılı olabilir.
 
 
 #### Geliştirilmekte olan arayüzler
@@ -3282,11 +3279,11 @@ Daha özel kullanımlar için başka Arayüzler de planlanmaktadır, ancak henü
 
 
 
-- RGB22**, RGB ekosistemindeki tanımlayıcıları ve On-Chain profillerini yönetmek için dijital kimliklere adanmıştır;
-- RGB23**, gelişmiş zaman damgası için, *Opentimestamps*'ın bazı fikirlerini kullanarak, ancak izlenebilirlik özellikleriyle;
-- RGB24**, *Ethereum Name Service* benzeri merkezi olmayan bir alan adı sisteminin (DNS) eşdeğerini hedeflemektedir;
-- RGB26**, DAO'ları (*Merkezi Olmayan Otonom Organizasyon*) daha karmaşık bir biçimde (yönetişim, oylama vb.) yönetmek için tasarlanmıştır;
-- RGB30**, RGB20'ye çok benzer ancak merkezi olmayan ilk ihracı dikkate alma ve Devlet Uzantılarını kullanma özelliğine sahiptir. Bu, yeniden ihracı birkaç kuruluş tarafından yönetilen veya daha ince koşullara tabi olan varlıklar için kullanılacaktır.
+- **RGB22**, RGB ekosistemindeki tanımlayıcıları ve On-Chain profillerini yönetmek için dijital kimliklere adanmıştır;
+- **RGB23**, gelişmiş zaman damgası için, *Opentimestamps*'ın bazı fikirlerini kullanarak, ancak izlenebilirlik özellikleriyle;
+- **RGB24**, *Ethereum Name Service* benzeri merkezi olmayan bir alan adı sisteminin (DNS) eşdeğerini hedeflemektedir;
+- **RGB26**, DAO'ları (*Merkezi Olmayan Otonom Organizasyon*) daha karmaşık bir biçimde (yönetişim, oylama vb.) yönetmek için tasarlanmıştır;
+- **RGB30**, RGB20'ye çok benzer ancak merkezi olmayan ilk ihracı dikkate alma ve Devlet Uzantılarını kullanma özelliğine sahiptir. Bu, yeniden ihracı birkaç kuruluş tarafından yönetilen veya daha ince koşullara tabi olan varlıklar için kullanılacaktır.
 
 
 Elbette, bu kursa başvurduğunuz tarihe bağlı olarak, bu arayüzler halihazırda çalışır durumda ve erişilebilir olabilir.
@@ -3689,7 +3686,7 @@ Bob'in daha sonra ilgilendiği Contract verilerini alması gerekir. Bu veriler h
 - Schema'ü somut olarak Interface'e bağlayan **Interface Implementation**.
 
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 
 Her bir bileşen genellikle 200 bayttan daha az ağırlığa sahip olduğundan toplam boyut genellikle birkaç kilobayt mertebesindedir. Bu Consignment'yı Base58'de, sansüre dayanıklı kanallar aracılığıyla (örneğin Nostr veya Lightning Network aracılığıyla) veya bir QR kodu olarak yayınlamak da mümkün olabilir.
@@ -3744,7 +3741,7 @@ Bu bölümün sonunda RGB faturalarının yapısına daha yakından bakacağız.
 Oluşturulan Invoice (örneğin URL olarak: `RGB:2WBcas9.../RGB20/100+utxob:...`) Alice'ın aktarımı hazırlamak için ihtiyaç duyduğu tüm bilgileri içerir. Consignment'de olduğu gibi, kompakt bir şekilde kodlanabilir (Base58 veya başka bir format) ve bir mesajlaşma uygulaması, e-posta, Nostr...
 
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 
 #### 6) Alice tarafında işlem hazırlığı
@@ -3804,7 +3801,7 @@ sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 
 #### 9) Seçenek: Bob onayı Alice'a geri gönderir (*payslip*)
@@ -3841,7 +3838,7 @@ alice$ wallet sign —publish tx.psbt
 ```
 
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 
 Onaylandıktan sonra, bu işlem transferin sonucuna işaret eder. Bob varlığın yeni sahibi olur: artık kontrol ettiği UTXO'yı işaret eden bir Owned State'ü vardır ve bu durum Commitment'in işlemdeki varlığı ile kanıtlanmıştır.
@@ -3850,7 +3847,7 @@ Onaylandıktan sonra, bu işlem transferin sonucuna işaret eder. Bob varlığı
 Özetlemek gerekirse, işte tam transfer süreci:
 
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 
 ### RGB transferlerinin avantajları
@@ -3858,7 +3855,7 @@ Onaylandıktan sonra, bu işlem transferin sonucuna işaret eder. Bob varlığı
 
 
 
-- Gizlilik**:
+- **Gizlilik**:
 
 
 Yalnızca Alice ve Bob'nın tüm State Transition verilerine erişimi vardır. Bu bilgileri Blockchain dışında, sevkiyatlar yoluyla Exchange'e iletirler. Bitcoin işlemindeki kriptografik taahhütler varlığın türünü veya miktarını göstermez, bu da diğer On-Chain token sistemlerinden çok daha fazla gizliliği garanti eder.
@@ -3866,7 +3863,7 @@ Yalnızca Alice ve Bob'nın tüm State Transition verilerine erişimi vardır. B
 
 
 
-- Müşteri tarafı doğrulaması**:
+- **Müşteri tarafı doğrulaması**:
 
 
 Bob, *Consignment* ile Bitcoin Blockchain'deki *anchor*'ları karşılaştırarak aktarımın tutarlılığını kontrol edebilir. Üçüncü taraf doğrulamasına ihtiyacı yoktur. Alice, Blockchain'deki tüm geçmişi yayınlamak zorunda değildir, bu da temel protokol üzerindeki yükü azaltır ve gizliliği artırır.
@@ -3874,7 +3871,7 @@ Bob, *Consignment* ile Bitcoin Blockchain'deki *anchor*'ları karşılaştırara
 
 
 
-- Basitleştirilmiş atomiklik**:
+- **Basitleştirilmiş atomiklik**:
 
 
 Karmaşık değişimler (örneğin BTC ile bir RGB varlığı arasındaki atomik takaslar) tek bir işlem dahilinde gerçekleştirilebilir ve HTLC veya PTLC komut dosyalarına ihtiyaç duyulmaz. Anlaşma yayınlanmazsa, herkes UTXO'larını başka şekillerde yeniden kullanabilir.
@@ -3896,7 +3893,7 @@ Faturalara daha detaylı bakmadan önce, bir RGB transferinin genel akışının
 - İşlemin onaylanması transferi resmileştirir.
 
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 
 Transfer, RGB protokolünün tüm gücünü ve esnekliğini göstermektedir: istemci tarafında onaylanmış, Bitcoin Blockchain'ye minimal ve gizli bir şekilde sabitlenmiş ve protokolün en iyi güvenliğini koruyan (Double-spending riski yok) özel bir Exchange. Bu da RGB'yı, On-Chain programlanabilir blok zincirlerinden daha gizli ve ölçeklenebilir olan değer transferleri için umut verici bir ekosistem haline getirmektedir.
@@ -3981,11 +3978,11 @@ Bu URL'yi analiz edelim:
 
 
 
-- gW-1888:`** (önek): RGB protokolünü çağıran bir bağlantıyı gösterir (diğer bağlamlarda `http:` veya `Bitcoin:` ile benzerdir);
-- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: manipüle etmek istediğiniz token'un `ContractId`sini temsil eder;
-- `/RGB20/100`**: `RGB20` Interface'ın kullanıldığını ve varlıktan 100 birim talep edildiğini belirtir. Sözdizimi şöyledir: `/Interface/amount`;
+- gW-1888: **önek**: RGB protokolünü çağıran bir bağlantıyı gösterir (diğer bağlamlarda `http:` veya `Bitcoin:` ile benzerdir);
+- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`: manipüle etmek istediğiniz token'un `ContractId`sini temsil eder;
+- `/RGB20/100`: `RGB20` Interface'ın kullanıldığını ve varlıktan 100 birim talep edildiğini belirtir. Sözdizimi şöyledir: `/Interface/amount`;
 - `+utxob:`**: alıcı UTXO (veya daha doğrusu Single-Use Seal'in tanımı) hakkındaki bilgilerin eklendiğini belirtir;
-- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`**: bu *blinded* UTXO (veya Seal Definition). Başka bir deyişle, Bob tam UTXO'ini maskelemiştir, bu nedenle gönderen (Alice) tam Address'ün ne olduğunu bilmemektedir. Sadece Bob tarafından kontrol edilen bir UTXO'e atıfta bulunan geçerli bir Seal olduğunu biliyor.
+- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: bu **blinded** UTXO (veya Seal Definition). Başka bir deyişle, Bob tam UTXO'ini maskelemiştir, bu nedenle gönderen (Alice) tam Address'ün ne olduğunu bilmemektedir. Sadece Bob tarafından kontrol edilen bir UTXO'e atıfta bulunan geçerli bir Seal olduğunu biliyor.
 
 
 Her şeyin tek bir URL'ye sığması, kullanıcının hayatını kolaylaştırır: Wallet'de basit bir tıklama veya tarama ve işlem yürütülmeye hazırdır.
@@ -4024,11 +4021,11 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 
 
 
-- gW-1906:`**: URL öneki;
-- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract KİMLİK (NFT);
-- rGB21**: Değiştirilemeyen varlıklar (NFT) için Interface;
-- dbwzvSu-4BZU81jEp-...`**: NFT'nin benzersiz kısmına açık bir referans, örneğin veri bloğunun (medya, meta veriler...) bir Hash'u;
-- `+utxob:egXsFnw-...`**: Seal Definition.
+- gW-1906: **URL öneki**;
+- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`: **Contract KİMLİK (NFT)**;
+- **rGB21**: Değiştirilemeyen varlıklar (NFT) için Interface;
+- **dbwzvSu-4BZU81jEp-...**: NFT'nin benzersiz kısmına açık bir referans, örneğin veri bloğunun (medya, meta veriler...) bir Hash'u;
+- **`+utxob:egXsFnw-...`**: Seal Definition.
 
 
 Fikir aynıdır: Wallet'in yorumlayabileceği, aktarılacak benzersiz varlığı açıkça tanımlayan benzersiz bir bağlantı iletmek.
@@ -4056,7 +4053,7 @@ Burada bulduk:
 - `+utxob:`: Seal Definition.
 
 
-Örneğin, Wallet şöyle yazabilir: "Benden `RGB20` Interface'den, filanca Contract'de, filanca Single-Use Seal yararına 100.000 birimlik bir `ihraç' işlemi gerçekleştirmem istendi.*"
+Örneğin, Wallet şöyle yazabilir: "Benden `RGB20` Interface'den, filanca Contract'de, filanca Single-Use Seal yararına 100.000 birimlik bir `ihraç` işlemi gerçekleştirmem istendi."
 
 
 Şimdi RGB programlamanın ana Elements'ine baktığımıza göre, sizi bir sonraki bölümde bir RGB Contract'nin nasıl hazırlanacağına götüreceğim.
@@ -4111,7 +4108,7 @@ rgb
 RGB` (argümanlar olmadan) çalıştırıldığında `arayüzler`, `Schema`, `ithalat`, `ihracat`, `sorun`, `Invoice`, `aktarım` gibi mevcut alt komutların bir listesi görüntülenir. Yerel depolama dizinini (tüm günlükleri, şemaları ve uygulamaları tutan bir Stash) değiştirebilir, ağı (Testnet, Mainnet) seçebilir veya Electrum sunucunuzu yapılandırabilirsiniz.
 
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 
 #### Kontrollere ilk genel bakış
@@ -4149,7 +4146,7 @@ rgb import interfaces/RGB20.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 
 Öte yandan, bize henüz hiçbir Schema'nin yazılıma aktarılmadığı söylendi. Stash'te bir Contract de yoktur. Bunu görmek için şu komutu çalıştırın:
@@ -4168,7 +4165,7 @@ git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 
 Bu depo, `src/` dizininde, şemaları tanımlayan birkaç Rust dosyası (örneğin `nia.rs`) içerir ("*Şişirilebilir Olmayan Varlık*" için NIA, "*Benzersiz Dijital Varlık*" için UDA, vb.) Derlemek için daha sonra çalıştırabilirsiniz:
@@ -4194,7 +4191,7 @@ rgb import schemata/NonInflatableAssets.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 
 Bu, onu yerel Stash'a ekler. Aşağıdaki komutu çalıştırırsak, Schema'un artık göründüğünü görürüz:
@@ -4239,8 +4236,8 @@ interface: RGB20Fixed
 
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -4256,7 +4253,7 @@ amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 
 Ardından komutu çalıştırmanız yeterlidir:
@@ -4267,7 +4264,7 @@ rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 
 Benim durumumda, benzersiz Schema tanımlayıcısı (tek tırnak içine alınmalıdır) `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` ve herhangi bir ihraççı koymadım. Yani benim siparişim:
@@ -4294,10 +4291,10 @@ rgb contracts
 ```
 
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
 
-Ardından, bir sonraki komut global durumları (isim, ticker, Supply...) ve Sahip Olunan Durumların listesini, yani tahsisatları (örneğin, UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`de tanımlanan 1 milyon `PBN` jetonu) görüntüler.
+Ardından, bir sonraki komut global durumları (isim, ticker, Supply...) ve Sahip Olunan Durumların listesini, yani tahsisatları (örneğin, UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`de tanımlanan 1 milyon `Plan ₿ Academy` jetonu) görüntüler.
 
 
 ```bash
@@ -4305,7 +4302,7 @@ rgb state '<ContractId>'
 ```
 
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 
 ### Dışa aktarma, içe aktarma ve doğrulama
@@ -4319,7 +4316,7 @@ rgb export '<ContractId>' myContractPBN.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 
 MyContractPBN.RGB` dosyası başka bir kullanıcıya verilebilir, o da komutla Stash'una ekleyebilir:
@@ -4352,7 +4349,7 @@ rgb dump
 ```
 
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 
 Bu, generate tüm Stash'un ayrıntılarını içeren bir klasör olacaktır.
@@ -4372,8 +4369,8 @@ Bir transfer gerçekleştirmek için, `Tapret` veya `Opret` taahhütlerini yöne
 
 
 
-- Alice** (Invoice'un ihraççısı);
-- Bob** (Invoice'yi alan ve yürüten kişi).
+- **Alice** (Invoice'un ihraççısı);
+- **Bob** (Invoice'yi alan ve yürüten kişi).
 
 
 Diğer ekosistemlerin aksine, bir RGB Invoice ödeme kavramıyla sınırlı değildir. Contract ile bağlantılı herhangi bir talebi içerebilir: bir anahtarı iptal etme, oylama, bir NFT üzerinde bir gravür (*gravür*) oluşturma vb. İlgili işlem Contract Interface'te tanımlanabilir. İlgili işlem Contract Interface'te açıklanabilir.
@@ -4428,7 +4425,7 @@ Bu Invoice'dan transfer etmek için:
 
 
 
-- Bob (tokenları Stash'ında tutan) bir Bitcoin Wallet'a sahiptir. Gerekli RGB tokenlarının bulunduğu UTXO'ları ve para birimi (Exchange) için bir UTXO harcayan bir Bitcoin işlemi (PSBT şeklinde, örneğin `tx.PSBT`) hazırlaması gerekir;
+- Bob (tokenleri kendi stash’inde tutan) bir Bitcoin cüzdanına sahiptir. Gerekli RGB tokenlerinin bulunduğu UTXO’ları harcayan ve ayrıca para üstü (change) için bir UTXO içeren bir Bitcoin işlemi (PSBT biçiminde, örn. `tx.psbt`) hazırlaması gerekir;
 - Bob aşağıdaki komutu yürütür:
 
 
@@ -4502,7 +4499,7 @@ RGB varlıklarını taşıyan bir Lightning kanalı oluşturmak için iki Elemen
 Bitcoin açısından, fonlama işlemi yalnızca küçük miktarda Sats içerse bile, referans UTXO'ü tanımlamak için var olmalıdır (bu yalnızca gelecekteki Commitment işlemlerindeki her çıktının Dust sınırının üzerinde kalması meselesidir). Örneğin, Alice 10 bin Sats ve 500 USDT (RGB varlığı olarak ihraç edilmiştir) sağlamaya karar verebilir. Fonlama işleminde, RGB State Transition'yi sabitleyen bir Commitment (`Opret` veya `Tapret`) ekleriz.
 
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 
 Fonlama işlemi hazırlandıktan (ancak henüz yayınlanmadıktan) sonra, taraflardan herhangi birinin kanalı istediği zaman tek taraflı olarak kapatabilmesi için Commitment işlemleri oluşturulur. Bu işlemler Lightning'in klasik Commitment işlemlerine benzer, ancak yeni State Transition'e bağlı RGB Anchor (OP_RETURN veya Taproot) içeren ek bir çıktı ekleriz.
@@ -4514,13 +4511,13 @@ RGB State Transition daha sonra varlıkları fonun 2/2 Multisig'ünden Commitmen
 Alice tarafından imzalanan ve Bob'ye gönderilen bir Commitment Transaction bu nedenle şu şekilde görünecektir:
 
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 
 Bob tarafından imzalanan ve Alice'ye gönderilen Commitment Transaction'e eşlik eden Commitment Transaction ise şu şekilde görünecektir:
 
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 
 ### Kanal güncellemesi
@@ -4535,13 +4532,13 @@ Bob tarafından imzalanan ve Alice'ye gönderilen Commitment Transaction'e eşli
 Commitment Transaction tarafından imzalanan Alice, Bob tarafından dağıtılmaya hazır:
 
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 
 Commitment Transaction, Bob tarafından imzalandı, Alice tarafından dağıtılmaya hazır:
 
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 
 ### HTLC yönetimi
@@ -4550,13 +4547,13 @@ Commitment Transaction, Bob tarafından imzalandı, Alice tarafından dağıtıl
 Gerçekte, Lightning Network ödemelerin HTLC'ler (*Hashed Time-Locked Contracts*) kullanılarak birden fazla kanal üzerinden yönlendirilmesini sağlar. RGB'da da durum aynıdır: kanaldan geçen her ödeme için, taahhüt işlemine bir HTLC çıktısı eklenir ve bu HTLC'ye bağlı bir RGB tahsisi yapılır. Böylece, HTLC çıktısını harcayan kişi (sır sayesinde veya zaman kilidinin sona ermesinden sonra) hem Sats hem de ilişkili RGB varlıklarını geri alır. Öte yandan, hem Sats hem de RGB varlıkları açısından yolda yeterli paraya sahip olmanız gerektiği açıktır.
 
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 
 Bu nedenle RGB'in Lightning üzerindeki çalışması, Lightning Network'nin çalışmasıyla paralel olarak düşünülmelidir. Bu konuyu daha derinlemesine incelemek isterseniz, bu diğer kapsamlı eğitim kursuna göz atmanızı şiddetle tavsiye ederim:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB kod haritası
 
@@ -4564,7 +4561,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 Son olarak, bir sonraki bölüme geçmeden önce, size RGB'te kullanılan kod hakkında genel bir bilgi vermek istiyorum. Protokol, bir dizi Rust kütüphanesine ve açık kaynak spesifikasyonlarına dayanmaktadır. İşte ana depolara ve sandıklara genel bir bakış:
 
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 
 #### Client-side Validation
@@ -4572,8 +4569,8 @@ Son olarak, bir sonraki bölüme geçmeden önce, size RGB'te kullanılan kod ha
 
 
 
-- Depo**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Kasalar**: [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
+- **Depo**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Kasalar**: [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
 
 
 off-chain doğrulama ve Tek Kullanımlık Mühürler mantığının yönetimi.
@@ -4584,8 +4581,8 @@ off-chain doğrulama ve Tek Kullanımlık Mühürler mantığının yönetimi.
 
 
 
-- Depo**: [bp-core](https://github.com/BP-WG/bp-core)
-- Sandık**: [bp-dbc](https://crates.io/crates/bp-dbc)
+- **Repo**: [bp-core](https://github.com/BP-WG/bp-core)
+- **Sandık**: [bp-dbc](https://crates.io/crates/bp-dbc)
 
 
 Bitcoin işlemlerinde (Tapret, OP_RETURN, vb.) deterministik ankraj yönetimi.
@@ -4596,8 +4593,8 @@ Bitcoin işlemlerinde (Tapret, OP_RETURN, vb.) deterministik ankraj yönetimi.
 
 
 
-- Depo**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Sandık**: [commit_verify](https://crates.io/crates/commit_verify)
+- **Depo**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Sandık**: [commit_verify](https://crates.io/crates/commit_verify)
 
 
 Çoklu angajman kombinasyonları ve farklı protokollerle entegrasyon.
@@ -4608,9 +4605,9 @@ Bitcoin işlemlerinde (Tapret, OP_RETURN, vb.) deterministik ankraj yönetimi.
 
 
 
-- Teknik Özellikler**: [web sitesi strict-types.org](https://www.strict-types.org/)
-- Depolar**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
-- Kasalar**: [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
+- **Teknik Özellikler**: [web sitesi strict-types.org](https://www.strict-types.org/)
+- **Depolar**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
+- **Kasalar**: [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
 
 
 Client-side Validation için kullanılan katı yazım sistemi ve deterministik serileştirme.
@@ -4621,8 +4618,8 @@ Client-side Validation için kullanılan katı yazım sistemi ve deterministik s
 
 
 
-- Depo**: [RGB-core](https://github.com/RGB-WG/RGB-core)
-- Sandık**: [RGB-core](https://crates.io/crates/RGB-core)
+- **Repo**: [RGB-core](https://github.com/RGB-WG/RGB-core)
+- **Sandık**: [RGB-core](https://crates.io/crates/RGB-core)
 
 
 RGB doğrulamasının ana mantığını kapsayan protokolün çekirdeği.
@@ -4633,8 +4630,8 @@ RGB doğrulamasının ana mantığını kapsayan protokolün çekirdeği.
 
 
 
-- Depo**: [RGB-std](https://github.com/RGB-WG/RGB-std)
-- Sandık**: [RGB-std](https://crates.io/crates/RGB-std)
+- **Depo**: [RGB-std](https://github.com/RGB-WG/RGB-std)
+- **Sandık**: [RGB-std](https://crates.io/crates/RGB-std)
 
 
 Standart uygulamalar, Stash ve Wallet yönetimi.
@@ -4645,8 +4642,8 @@ Standart uygulamalar, Stash ve Wallet yönetimi.
 
 
 
-- Depo**: [RGB](https://github.com/RGB-WG/RGB)
-- Kasalar**: [RGB-CLI](https://crates.io/crates/RGB-CLI), [RGB-Wallet](https://crates.io/crates/RGB-Wallet)
+- **Depo**: [RGB](https://github.com/RGB-WG/RGB)
+- **Kasalar**: [RGB-CLI](https://crates.io/crates/RGB-CLI), [RGB-Wallet](https://crates.io/crates/RGB-Wallet)
 
 
 Sözleşmelerin komut satırı manipülasyonu için `RGB` CLI ve crate Wallet.
@@ -4657,7 +4654,7 @@ Sözleşmelerin komut satırı manipülasyonu için `RGB` CLI ve crate Wallet.
 
 
 
-- Depo**: [RGB-schemata](https://github.com/RGB-WG/RGB-schemata/)
+- **Depo**: [RGB-schemata](https://github.com/RGB-WG/RGB-schemata/)
 
 
 Şema örnekleri (NIA, UDA, vb.) ve bunların uygulamalarını içerir.
@@ -4668,9 +4665,9 @@ Sözleşmelerin komut satırı manipülasyonu için `RGB` CLI ve crate Wallet.
 
 
 
-- Bilgi**: [AluVM.org](https://www.AluVM.org/)
-- Depolar**: [AluVM-spec](https://github.com/AluVM/AluVM-spec), [alure](https://github.com/AluVM/alure)
-- Kasalar**: [AluVM](https://crates.io/crates/AluVM), [aluasm](https://crates.io/crates/aluasm)
+- **Bilgi**: [AluVM.org](https://www.AluVM.org/)
+- **Depolar**: [AluVM-spec](https://github.com/AluVM/AluVM-spec), [alure](https://github.com/AluVM/alure)
+- **Kasalar**: [AluVM](https://crates.io/crates/AluVM), [aluasm](https://crates.io/crates/aluasm)
 
 
 Doğrulama komut dosyalarını çalıştırmak için kullanılan kayıt defteri tabanlı sanal makine.
@@ -4681,7 +4678,7 @@ Doğrulama komut dosyalarını çalıştırmak için kullanılan kayıt defteri 
 
 
 
-- Depolar**: [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-Wallet](https://github.com/BP-WG/bp-Wallet)
+- **Depolar**: [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-Wallet](https://github.com/BP-WG/bp-Wallet)
 
 
 Bitcoin protokolünü desteklemek için eklentiler (işlemler, baypaslar, vb.).
@@ -4692,7 +4689,7 @@ Bitcoin protokolünü desteklemek için eklentiler (işlemler, baypaslar, vb.).
 
 
 
-- Depo**: [UBIDECO](https://github.com/UBIDECO)
+- **Depo**: [UBIDECO](https://github.com/UBIDECO)
 
 
 Açık kaynaklı deterministik gelişmelerle bağlantılı ekosistem.
@@ -4737,7 +4734,7 @@ Kendi ifadesiyle, Bitcoin'ün önemi konusunda onu kesin olarak ikna eden şey, 
 ### RGB protokolünün temelleri
 
 
-RGB** protokolü, 2012-2013 yıllarında keşfedilmiş olan _colored coins_ konseptinin en yeni ve en gelişmiş uygulamasıdır. O dönemde, birkaç ekip UTXO'lara farklı Bitcoin değerleri atamak istiyordu ve bu da çok sayıda dağınık uygulamaya yol açtı. Bu standardizasyon eksikliği ve o zamanki düşük talep, bu çözümlerin kalıcı bir yer edinmesini engelledi.
+**RGB** protokolü, 2012-2013 yıllarında keşfedilmiş olan *colored coins* konseptinin en yeni ve en gelişmiş uygulamasıdır. O dönemde, birkaç ekip UTXO'lara farklı Bitcoin değerleri atamak istiyordu ve bu da çok sayıda dağınık uygulamaya yol açtı. Bu standardizasyon eksikliği ve o zamanki düşük talep, bu çözümlerin kalıcı bir yer edinmesini engelledi.
 
 
 Günümüzde RGB, kavramsal sağlamlığı ve LNP/BP ilişkisi aracılığıyla birleştirilmiş özellikleri ile öne çıkmaktadır. İlke Client-side Validation'ye dayanmaktadır. Bitcoin Blockchain yalnızca kriptografik taahhütleri (_commitments_, Taproot veya OP_RETURN aracılığıyla) depolarken, verilerin çoğu (Contract tanımları, aktarım geçmişleri, vb.) ilgili kullanıcılar tarafından depolanır. Bu şekilde, depolama yükü dağıtılır ve Blockchain'i ağırlaştırmadan alışverişlerin gizliliği güçlendirilir. Bu yaklaşım, modüler ve ölçeklenebilir bir çerçeve içinde değiştirilebilir varlıkların (**RGB20** standardı) veya benzersiz varlıkların (**RGB21** standardı) oluşturulmasını sağlar.
@@ -4746,7 +4743,7 @@ Günümüzde RGB, kavramsal sağlamlığı ve LNP/BP ilişkisi aracılığıyla 
 ### token işlevi (RGB20) ve benzersiz varlıklar (RGB21)
 
 
-RGB20** ile Bitcoin üzerinde değiştirilebilir bir token tanımlıyoruz. İhraççı bir _supply_, bir _precision_ seçer ve daha sonra transferler yapabileceği bir _contract_ oluşturur. Her transfer bir *Single-Use Seal* olarak hareket eden bir Bitcoin UTXO'a referans verilir. Bu mantık, kullanıcının aynı varlığı iki kez harcayamamasını sağlar, çünkü yalnızca UTXO'u harcayabilen kişi aslında istemci tarafı Contract'nın durumunu güncelleme anahtarına sahiptir.
+**RGB20** ile Bitcoin üzerinde değiştirilebilir bir token tanımlıyoruz. İhraççı bir *supply*, bir *precision* seçer ve daha sonra transferler yapabileceği bir *contract* oluşturur. Her transfer bir **Single-Use Seal** olarak hareket eden bir Bitcoin UTXO'a referans verilir. Bu mantık, kullanıcının aynı varlığı iki kez harcayamamasını sağlar, çünkü yalnızca UTXO'u harcayabilen kişi aslında istemci tarafı Contract'nın durumunu güncelleme anahtarına sahiptir.
 
 
 **RGB21** benzersiz varlıkları (veya "NFT") hedefler. Varlığın Supply değeri 1'dir ve belirli bir alan aracılığıyla açıklanan meta verilerle (görüntü dosyası, ses vb.) ilişkilendirilebilir. Halka açık blok zincirlerindeki NFT'lerin aksine, veriler ve MIME tanımlayıcıları gizli kalabilir, sahibinin takdirine bağlı olarak eşler arası dağıtılabilir.
@@ -4755,7 +4752,7 @@ RGB20** ile Bitcoin üzerinde değiştirilebilir bir token tanımlıyoruz. İhra
 ### Bitmask çözümü: RGB için bir Wallet
 
 
-RGB'in yeteneklerinden pratikte yararlanmak için **DIBA** projesi [Bitmask] (https://bitmask.app/) adlı bir Wallet tasarlamıştır. Buradaki fikir, bir web uygulaması veya tarayıcı uzantısı olarak erişilebilen, gözetim altında olmayan, Taproot tabanlı bir araç sağlamaktır. Bitmask hem RGB20 hem de RGB21 varlıklarını yönetir ve çeşitli güvenlik mekanizmalarını entegre eder:
+RGB'in yeteneklerinden pratikte yararlanmak için **DIBA** projesi [Bitmask](https://bitmask.app/) adlı bir Wallet tasarlamıştır. Buradaki fikir, bir web uygulaması veya tarayıcı uzantısı olarak erişilebilen, gözetim altında olmayan, Taproot tabanlı bir araç sağlamaktır. Bitmask hem RGB20 hem de RGB21 varlıklarını yönetir ve çeşitli güvenlik mekanizmalarını entegre eder:
 
 
 
@@ -4787,7 +4784,7 @@ Bitmask'ın arkasındaki şirket kendisini basit bir Wallet geliştirmeyle sın�
 
 - Özellikle **RGB21** formundaki jetonları takas etmek için bir **pazar yeri**;
 - Diğer cüzdanlarla uyumluluk (*Iris Wallet* gibi);
-- Transfer gruplama** teknikleri, yani birbirini takip eden birkaç RGB transferini tek bir işleme dahil etme imkanı.
+- Transfer gruplama teknikleri, yani birbirini takip eden birkaç RGB transferini tek bir işleme dahil etme imkanı.
 
 
 Aynı zamanda, **WebBTC** veya **WebLN** (web sitelerinin Wallet'den Bitcoin veya Lightning işlemlerini imzalamasını istemesini sağlayan standartlar) ve Ordinals girişlerini "teleburn" etme yeteneği (Ordinals'ı daha gizli ve esnek bir RGB formatına geri göndermek istiyorsak) üzerinde çalışıyoruz.
@@ -4799,7 +4796,7 @@ Aynı zamanda, **WebBTC** veya **WebLN** (web sitelerinin Wallet'den Bitcoin vey
 Tüm bu süreç, RGB ekosisteminin sağlam teknik çözümler aracılığıyla son kullanıcılar için nasıl konuşlandırılabileceğini ve erişilebilir hale getirilebileceğini göstermektedir. Altcoin perspektifinden daha Bitcoin merkezli bir vizyona geçiş, *Client-side Validation*'ün keşfiyle birleştiğinde, oldukça mantıklı bir yol göstermektedir: Blockchain'i çatallandırmadan, sadece Taproot işlemleri veya OP_RETURN'ler üzerindeki kriptografik taahhütlerden yararlanarak çeşitli işlevleri (değiştirilebilir tokenler, NFT, akıllı sözleşmeler...) uygulamanın mümkün olduğunu anlıyoruz.
 
 
-Bitmask** Wallet bu yaklaşımın bir parçasıdır: Blockchain tarafında, gördüğünüz tek şey sıradan bir Bitcoin işlemidir; kullanıcı tarafında, her türlü off-chain varlığını oluşturduğunuz, Exchange ve sakladığınız bir web Interface'yi manipüle edersiniz. Bu model, parasal altyapıyı (Bitcoin) ihraç ve transfer mantığından (RGB) net bir şekilde ayırırken, yüksek düzeyde gizlilik ve daha iyi ölçeklenebilirlik sağlar.
+**Bitmask** Wallet bu yaklaşımın bir parçasıdır: Blockchain tarafında, gördüğünüz tek şey sıradan bir Bitcoin işlemidir; kullanıcı tarafında, her türlü off-chain varlığını oluşturduğunuz, Exchange ve sakladığınız bir web Interface'yi manipüle edersiniz. Bu model, parasal altyapıyı (Bitcoin) ihraç ve transfer mantığından (RGB) net bir şekilde ayırırken, yüksek düzeyde gizlilik ve daha iyi ölçeklenebilirlik sağlar.
 
 
 ## Bitfinex'in RGB üzerindeki çalışmaları
@@ -4962,7 +4959,7 @@ Daha fazla bilgi edinmek veya katkıda bulunmak isteyenler için, aşağıdakile
 
 
 - [GitHub RGB Araçlar depoları](https://github.com/RGB-Tools);
-- gW-2341'i Android'de test etmek için [Iris Wallet'e adanmış bir bilgi sitesi] (https://iriswallet.com/).
+- gW-2341'i Android'de test etmek için [Iris Wallet'e adanmış bir bilgi sitesi](https://iriswallet.com/).
 
 
 Bir sonraki bölümde, bir RGB Lightning düğümünün nasıl başlatılacağına daha yakından bakacağız.
@@ -4983,7 +4980,7 @@ Bu son bölümde Frederico Tenga, Regtest ortamında bir Lightning RGB düğüm�
 Bu video, bir önceki bölümde anlattıklarımıza benzer bir eğitim niteliğindedir, ancak bu sefer özellikle Lightning'e odaklanmıştır!
 
 
-Bu video için ana kaynak, bu yapılandırmayı Regtest'te başlatmanızı kolaylaştıran Github deposudur [RGB Lightning Node] (https://github.com/RGB-Tools/RGB-lightning-node).
+Bu video için ana kaynak, bu yapılandırmayı Regtest'te başlatmanızı kolaylaştıran Github deposudur [RGB Lightning Node](https://github.com/RGB-Tools/RGB-lightning-node).
 
 
 ### RGB uyumlu bir Lightning düğümü dağıtma
@@ -5002,7 +4999,7 @@ Bu süreç, önceki bölümlerde ele alınan tüm kavramları ele alır ve uygul
 ### RGB-lightning-node ile tanışın
 
 
-RGB-lightning-node`** projesi, bir kanaldaki RGB varlıklarının varlığını dikkate almak için değiştirilmiş bir `Rust-lightning` (LDK) Fork'a dayanan bir Rust daemon'dir. Bir kanal açıldığında, varlıkların varlığı belirtilebilir ve kanal durumu her güncellendiğinde, Yıldırım çıkışlarındaki varlığın dağılımını yansıtan bir RGB geçişi oluşturulur. Bu şunları sağlar:
+**RGB-lightning-node** projesi, bir kanaldaki RGB varlıklarının varlığını dikkate almak için değiştirilmiş bir **Rust-lightning** (LDK) Fork'a dayanan bir Rust daemon'dir. Bir kanal açıldığında, varlıkların varlığı belirtilebilir ve kanal durumu her güncellendiğinde, Yıldırım çıkışlarındaki varlığın dağılımını yansıtan bir RGB geçişi oluşturulur. Bu şunları sağlar:
 
 
 
@@ -5026,7 +5023,7 @@ git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules -
 ```
 
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 
@@ -5043,7 +5040,7 @@ cargo install --locked --debug --path .
 ```
 
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 
@@ -5072,7 +5069,7 @@ Her RLN örneğinin On-Chain işlemlerini yayınlamak ve izlemek için `bitcoind
 
 
 
-- Bir indeksleyici** (Electrum veya Esplora)
+- Bir **indeksleyici** (Electrum veya Esplora)
 
 
 daemon, özellikle bir varlığın sabitlendiği UTXO'yi bulmak için On-Chain işlemlerini listeleyebilmeli ve keşfedebilmelidir. Electrum sunucunuzun veya Esplora'nın URL'sini belirtmeniz gerekir.
@@ -5095,7 +5092,7 @@ Kimlikler ve URL'ler, daemon API aracılığıyla _kilidi açıldığında_ giri
 Basit kullanım için, Docker aracılığıyla bir dizi hizmeti otomatik olarak başlatan bir `regtest.sh` betiği vardır: `bitcoind`, `electrs` (dizinleyici), `RGB-proxy-server`.
 
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 
 Bu, yerel, yalıtılmış, önceden yapılandırılmış bir ortam başlatmanıza olanak tanır. Her yeniden başlatmada kapsayıcıları ve veri dizinlerini oluşturur ve yok eder. Şunu başlatarak başlayacağız:
@@ -5116,7 +5113,7 @@ Bu senaryo:
 - Her şey kullanıma hazır olana kadar bekleyin.
 
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 
 Daha sonra, birkaç RLN düğümü başlatacağız. Ayrı kabuklarda, örneğin (3 RLN düğümü başlatmak için) çalıştırın:
@@ -5135,7 +5132,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 ```
 
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 
@@ -5165,7 +5162,7 @@ curl -X POST http://localhost:3001/address
 Cevap size bir Address sağlayacaktır.
 
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 
 bitcoind' Regtest'te birkaç bitcoin madenciliği yapacağız. Çalıştır:
@@ -5176,7 +5173,7 @@ bitcoind' Regtest'te birkaç bitcoin madenciliği yapacağız. Çalıştır:
 ```
 
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 
 Yukarıda oluşturulan Address düğümüne para gönderin:
@@ -5187,7 +5184,7 @@ Yukarıda oluşturulan Address düğümüne para gönderin:
 ```
 
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 
 Ardından işlemi onaylamak için bir blok kazın:
@@ -5198,7 +5195,7 @@ Ardından işlemi onaylamak için bir blok kazın:
 ```
 
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 
 ### Testnet başlatma (Docker olmadan)
@@ -5259,7 +5256,7 @@ http://localhost:3001/createutxos
 ```
 
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 
 Elbette siparişi uyarlayabilirsiniz. İşlemi onaylamak için, bir:
@@ -5270,7 +5267,7 @@ Elbette siparişi uyarlayabilirsiniz. İşlemi onaylamak için, bir:
 ```
 
 
-Şimdi bir RGB varlığı oluşturabiliriz. Komut, oluşturmak istediğiniz varlığın türüne ve parametrelerine bağlı olacaktır. Burada 1000 birimlik bir Supply ile "PBN" adında bir NIA (*Şişirilemeyen Varlık*) token oluşturuyorum. Hassasiyet' birimlerin bölünebilirliğini tanımlamanıza olanak tanır.
+Şimdi bir RGB varlığı oluşturabiliriz. Komut, oluşturmak istediğiniz varlığın türüne ve parametrelerine bağlı olacaktır. Burada 1000 birimlik bir Supply ile "Plan ₿ Academy" adında bir NIA (*Şişirilemeyen Varlık*) token oluşturuyorum. Hassasiyet' birimlerin bölünebilirliğini tanımlamanıza olanak tanır.
 
 
 ```bash
@@ -5279,15 +5276,15 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
 ```
 
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 
 Yanıt, yeni oluşturulan varlığın kimliğini içerir. Bu tanımlayıcıyı not etmeyi unutmayın. Benim durumumda, bu:
@@ -5298,7 +5295,7 @@ rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 
 Daha sonra bunu On-Chain'ye aktarabilir veya bir Lightning kanalına tahsis edebilirsiniz. Bir sonraki bölümde yapacağımız şey tam olarak bu.
@@ -5325,10 +5322,10 @@ Komut, 2 numaralı düğümümün açık anahtarını döndürür:
 ```
 
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
 
-Daha sonra, ilgili varlığı (`PBN`) belirterek kanalı açacağız. Openchannel` komutu, kanalın boyutunu satoshis cinsinden tanımlamanıza ve RGB varlığını dahil etmeyi seçmenize olanak tanır. Ne oluşturmak istediğinize bağlı, ancak benim durumumda komut şu şekildedir:
+Daha sonra, ilgili varlığı (`Plan ₿ Academy`) belirterek kanalı açacağız. Openchannel` komutu, kanalın boyutunu satoshis cinsinden tanımlamanıza ve RGB varlığını dahil etmeyi seçmenize olanak tanır. Ne oluşturmak istediğinize bağlı, ancak benim durumumda komut şu şekildedir:
 
 
 ```bash
@@ -5362,7 +5359,7 @@ Daha fazlasını burada bulabilirsiniz:
 - `public`: Kanalın ağ üzerinde yönlendirme için herkese açık hale getirilip getirilmeyeceğini belirtir.
 
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 
 İşlemi onaylamak için 6 blok çıkarılır:
@@ -5373,10 +5370,10 @@ Daha fazlasını burada bulabilirsiniz:
 ```
 
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
 
-Lightning kanalı artık açıktır ve ayrıca n°1 düğümü tarafında 500 `PBN` jetonu içerir. Eğer n°2 düğümü `PBN` jetonlarını almak isterse, generate ve Invoice yapmalıdır. İşte nasıl yapılacağı:
+Lightning kanalı artık açıktır ve ayrıca n°1 düğümü tarafında 500 `Plan ₿ Academy` jetonu içerir. Eğer n°2 düğümü `Plan ₿ Academy` jetonlarını almak isterse, generate ve Invoice yapmalıdır. İşte nasıl yapılacağı:
 
 
 ```bash
@@ -5410,10 +5407,10 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ```
 
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
 
-Şimdi bu Invoice'i, `PBN` token ile gerekli nakdi tutan ilk düğümden ödeyeceğiz:
+Şimdi bu Invoice'i, `Plan ₿ Academy` token ile gerekli nakdi tutan ilk düğümden ödeyeceğiz:
 
 
 ```bash
@@ -5425,7 +5422,7 @@ http://localhost:3001/sendpayment
 ```
 
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 
 Ödeme yapılmıştır. Bu, komutu çalıştırarak doğrulanabilir:
@@ -5438,7 +5435,7 @@ curl -X 'GET' \
 ```
 
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 
 RGB varlıklarını taşıyacak şekilde değiştirilmiş bir Lightning düğümünün nasıl konuşlandırılacağı aşağıda açıklanmıştır. Bu gösterim temel alınmıştır:

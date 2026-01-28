@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Kako početi koristiti moćan LN čvor na svom mobilnom uređaju?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Ovaj vodič je posvećen svim novim korisnicima koji žele početi koristiti Bitcoin Lightning Network (LN) na BESPLATAN, OPEN SOURCE, POTPUNO NE-KUSTODIJALAN način.

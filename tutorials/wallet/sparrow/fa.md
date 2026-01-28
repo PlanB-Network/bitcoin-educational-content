@@ -1,5 +1,5 @@
 ---
-name: Sparrow wallet
+name: Sparrow Wallet
 description: نصب، پیکربندی و استفاده از Sparrow wallet
 ---
 ![cover](assets/cover.webp)
@@ -41,7 +41,7 @@ Sparrow از کیف‌پول‌های تک‌امضایی و چندامضایی 
 مهم است که قبل از نصب نرم‌افزار، صحت و اصالت آن را بررسی کنید. اگر نمی‌دانید چگونه این کار را انجام دهید، یک آموزش کامل را اینجا خواهید یافت:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 پس از نصب Sparrow، می‌توانید از صفحات توضیحی اولیه عبور کرده و مستقیماً به صفحه مدیریت اتصال بروید.
 
@@ -110,9 +110,9 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 برای پیکربندی یک گره Bitcoin Core، می‌توانید با توجه به سیستم‌عامل خود، یکی از آموزش‌های زیر را مشاوره کنید:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 در Sparrow، به برگه "*Bitcoin Core*" بروید.
 
@@ -146,10 +146,11 @@ server=1
 سپس به Sparrow wallet بازگردید و مسیر فایل کوکی خود را وارد کنید، که معمولاً در همان پوشه‌ای که `Bitcoin.conf` قرار دارد، بسته به سیستم‌عامل شما، واقع شده است:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -180,10 +181,11 @@ server=1
 پس از ویرایش فایل، مطمئن شوید که آن را در پوشه مناسب برای سیستم عامل خود ذخیره کنید:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 این عملیات همچنین می‌تواند از طریق Bitcoin-QT Interface گرافیکی Interface انجام شود. به منوی "*Settings*" بروید، سپس "*Options...*" را انتخاب کنید و گزینه "*Enable RPC server*" را با علامت زدن جعبه مربوطه فعال کنید. اگر فایل `Bitcoin.conf` وجود ندارد، می‌توانید آن را مستقیماً از این Interface با کلیک بر روی "*Open Configuration File*" ایجاد کنید.
 
@@ -317,7 +319,7 @@ rpcpassword=my_password
 برای اطلاعات بیشتر در مورد روش صحیح ذخیره و مدیریت عبارت Mnemonic خود، به شدت توصیه می‌کنم این آموزش دیگر را دنبال کنید، به ویژه اگر مبتدی هستید:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -328,7 +330,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 شما همچنین می‌توانید با کلیک بر روی جعبه "*استفاده از passphrase*" یک passphrase BIP39 اضافه کنید. هشدار: استفاده از passphrase می‌تواند بسیار مفید باشد، اما اگر نحوه کار آن را درک نکنید، می‌تواند بسیار خطرناک باشد. به همین دلیل به شدت توصیه می‌کنم این مقاله نظری کوتاه در مورد این موضوع را بخوانید:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 پس از ذخیره کردن Mnemonic و هر passphrase روی یک رسانه فیزیکی، روی "*تأیید پشتیبان‌گیری*" کلیک کنید.
 
@@ -381,7 +383,7 @@ Hot Wallet شما اکنون ایجاد شده است. اگر قصد استفا�
 Sparrow از تمامی این روش‌های ارتباطی پشتیبانی می‌کند و با اکثر کیف‌پول‌های سخت‌افزاری موجود در بازار سازگار است.
 
 
-برای این آموزش، من از یک Ledger Nano S با کابل استفاده خواهم کرد، اما روش در حالت Air-Gap نیز مشابه است. جزئیات خاص مربوط به Hardware Wallet شما در آموزش اختصاصی آن بر روی Plan ₿ Network یافت می‌شود.
+برای این آموزش، من از یک Ledger Nano S با کابل استفاده خواهم کرد، اما روش در حالت Air-Gap نیز مشابه است. جزئیات خاص مربوط به Hardware Wallet شما در آموزش اختصاصی آن بر روی Plan ₿ Academy یافت می‌شود.
 
 
 قبل از شروع، مطمئن شوید که Wallet قبلاً روی Hardware Wallet شما پیکربندی شده است. اگر از اتصال سیمی استفاده می‌کنید، آن را از طریق کابل به رایانه خود متصل کنید.
@@ -474,7 +476,7 @@ Sparrow اولین Address استفاده نشده را در Wallet شما نم�
 ![Image](assets/fr/44.webp)
 
 
-برای کاربران Hardware Wallet Air-Gap، تأیید Address بسته به مدل دستگاه متفاوت است. برای دستورالعمل‌های دقیق، به آموزش اختصاصی Plan ₿ Network مراجعه کنید.
+برای کاربران Hardware Wallet Air-Gap، تأیید Address بسته به مدل دستگاه متفاوت است. برای دستورالعمل‌های دقیق، به آموزش اختصاصی Plan ₿ Academy مراجعه کنید.
 
 
 به محض اینکه تراکنش توسط پرداخت‌کننده پخش شد، آن را در زبانه "*تراکنش‌ها*" مشاهده خواهید کرد. می‌توانید برای جزئیات بیشتر، مانند txid، روی آن کلیک کنید.
@@ -555,7 +557,7 @@ Sparrow یک نمودار خلاصه نمایش می‌دهد که ورودی‌
 مهم است که Sighash پیش‌فرض را حفظ کنید. برای درک دلیل آن، به این دوره آموزشی نگاهی بیندازید که در آن همه چیزهایی که باید درباره Sighash بدانید را توضیح می‌دهم:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 در صفحه بعد، گزینه‌ها بسته به نوع Wallet که استفاده می‌کنید متفاوت است:
 
@@ -671,4 +673,4 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 من همچنین این آموزش دیگر را توصیه می‌کنم که در آن توضیح می‌دهم چگونه Hardware Wallet COLDCARD Q را با Sparrow wallet پیکربندی کنید:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

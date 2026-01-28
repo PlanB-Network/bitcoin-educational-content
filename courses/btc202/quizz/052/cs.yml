@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi společnostmi Electrs a Fulcrum?
+answer: Electrs je kompaktnější, Fulcrum je výkonnější
+wrong_answers:
+  - Electrs není zdarma, Fulcrum je zdarma
+  - Společnost Fulcrum nepodporuje protokol Electrum
+  - Electrs je proprietární, Fulcrum je open source
+explanation: |
+  Electrs využívá méně místa na disku, zatímco Fulcrum reaguje na požadavky rychleji, ale spotřebovává více prostředků.
+reviewed: true

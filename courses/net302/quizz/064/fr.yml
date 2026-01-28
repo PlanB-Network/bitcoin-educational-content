@@ -6,4 +6,4 @@ wrong_answers:
   - 256 bits
 explanation: |
   Une adresse IPv6 fait 128 bits, contre 32 bits pour une adresse IPv4.
-reviewed: false
+reviewed: true 

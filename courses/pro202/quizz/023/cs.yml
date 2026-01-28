@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel pole pořadového čísla ve vstupech transakce Bitcoin?
+answer: Povolení časových zámků a funkce Replace-by-Fee (RBF)
+wrong_answers:
+  - Určení pořadí, v jakém musí těžaři zpracovávat vstupy
+  - Aby se zabránilo double-spending vytvořením jedinečného identifikátoru pro každý vstup
+  - Označení úrovně priority transakce pro výpočet poplatku
+explanation: |
+  Pole s pořadovým číslem ve vstupech transakcí Bitcoin slouží dvěma hlavním účelům: implementaci časových zámků (které zpožďují okamžik, kdy může být transakce potvrzena) a umožnění funkce Replace-by-Fee (RBF) (která umožňuje uživatelům zvýšit poplatky u nepotvrzených transakcí). Ostatní možnosti jsou nesprávné, protože: vstupy nemusí být těžaři zpracovávány v žádném konkrétním pořadí, prevence double-spending je řešena modelem UTXO a konsensem blockchainu, nikoli pořadovými čísly, a priorita transakcí je určena sazbami poplatků, nikoli pořadovými čísly.

@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, que se passe-t-il concrètement lorsqu'un entrepreneur investit massivement dans la production d'un bien que les consommateurs ne valorisent finalement pas?
+answer: Le prix du bien restera bas malgré les coûts élevés investis car les coûts suivent les prix et non l'inverse
+wrong_answers:
+  - Le prix du bien sera nécessairement élevé pour compenser les coûts de production importants engagés
+  - Les consommateurs devront payer un prix proportionnel aux ressources investies selon la théorie de la valeur travail
+  - Le marché ajustera automatiquement la valorisation des consommateurs en fonction des coûts de production
+explanation: |
+  L'école autrichienne enseigne que les coûts tendent à suivre les prix et non l'inverse, principe déjà identifié par les scolastiques espagnols. Peu importe les ressources investies dans la production, si les consommateurs ne valorisent pas suffisamment un bien, son prix restera bas. C'est le prix final que le consommateur est prêt à payer qui influence l'organisation productive, pas les coûts engagés. Cette vision s'oppose à la théorie de la valeur travail qui prétendrait que les coûts déterminent les prix.

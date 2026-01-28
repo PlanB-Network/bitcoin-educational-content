@@ -1,0 +1,9 @@
+question: Ni hehe umuryango wa Umbrel ukora cane?
+answer: Ku Discord n'ihuriro ryo kuri internet
+wrong_answers:
+  - Kuri instagram
+  - Ku rubuga rwa LinkedIn no ku rubuga rwa interineti
+  - Kuri IRC
+explanation: |
+  Umbrel ifise umuryango ukora cane kuri Discord no ku rubuga rwayo rwo kuri internet, aho abakoresha Exchange bafasha kandi bagashigikira.
+reviewed: true

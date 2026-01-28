@@ -111,9 +111,9 @@ Für einen Standardeinsatz empfehlen wir:
 
 
 
-- mindestens 1 GB RAM** (2 GB oder mehr werden empfohlen, um zusätzliche Pakete oder ZFS-Unterstützung zu ermöglichen).
-- 8 GB Festplattenspeicher** (20 GB oder mehr sind für fortgeschrittene Konfigurationen vorzuziehen, insbesondere wenn Sie einen Proxy-Cache, IDS/IPS oder detaillierte Protokolle installieren).
-- Mindestens zwei virtuelle Netzwerkschnittstellen** (eine für das WAN, eine für das LAN). Fügen Sie diese in VirtualBox vor dem Start zu den VM-Einstellungen hinzu.
+- mindestens 1 GB RAM (2 GB oder mehr werden empfohlen, um zusätzliche Pakete oder ZFS-Unterstützung zu ermöglichen).
+- **8 GB Festplattenspeicher** (20 GB oder mehr sind für fortgeschrittene Konfigurationen vorzuziehen, insbesondere wenn Sie einen Proxy-Cache, IDS/IPS oder detaillierte Protokolle installieren).
+- Mindestens zwei virtuelle Netzwerkschnittstellen (eine für das WAN, eine für das LAN). Fügen Sie diese in VirtualBox vor dem Start zu den VM-Einstellungen hinzu.
 
 
 
@@ -309,8 +309,8 @@ Der Anmeldebildschirm erscheint. Die Standard-Anmeldedaten sind:
 
 
 
-- Benutzername:** `admin`
-- Passwort:** `pfsense`
+- **Benutzername:** `admin`
+- **Passwort:** `pfsense`
 
 
 
@@ -429,10 +429,10 @@ So beenden Sie Ihren Einsatz in aller Ruhe:
 
 
 
-- Ändern Sie die Firewall-Regeln**: pfSense erlaubt standardmäßig den gesamten ausgehenden Verkehr im LAN und blockiert den eingehenden Verkehr im WAN. Passen Sie diese Regeln nach Bedarf an.
-- Konfigurieren Sie den sicheren Fernzugriff**: Aktivieren Sie bei Bedarf den Zugriff auf Interface web vom WAN aus nur über VPN oder mit IP-Beschränkungen.
-- Benachrichtigungen aktivieren**: Konfigurieren Sie einen SMTP-Server für den Empfang von Benachrichtigungen (Ausfälle, Aktualisierungen, Fehler).
-- Installieren Sie nützliche Erweiterungen**: zum Beispiel IDS/IPS (Snort, Suricata), Proxy (Squid), DNS-Filterung (pfBlockerNG).
+- **Ändern Sie die Firewall-Regeln**: pfSense erlaubt standardmäßig den gesamten ausgehenden Verkehr im LAN und blockiert den eingehenden Verkehr im WAN. Passen Sie diese Regeln nach Bedarf an.
+- **Konfigurieren Sie den sicheren Fernzugriff**: Aktivieren Sie bei Bedarf den Zugriff auf Interface web vom WAN aus nur über VPN oder mit IP-Beschränkungen.
+- **Benachrichtigungen aktivieren**: Konfigurieren Sie einen SMTP-Server für den Empfang von Benachrichtigungen (Ausfälle, Aktualisierungen, Fehler).
+- Installieren Sie nützliche **Erweiterungen**: zum Beispiel IDS/IPS (Snort, Suricata), Proxy (Squid), DNS-Filterung (pfBlockerNG).
 
 
 

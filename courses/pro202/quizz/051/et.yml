@@ -1,0 +1,8 @@
+question: Millised konkreetsed andmed moodustavad Bitcoin P2P võrgu sõnumi struktuuris iga sõnumi ümbriku 4baidise kontrollsumma välja?
+answer: Sõnumi kasuliku koormuse hash256 esimesed 4 baiti
+wrong_answers:
+  - Kogu sõnumi ümbriku SHA256-hash'i esimesed 4 baiti
+  - Käsu väljal oleva hash256 esimesed 4 baiti, mis on seotud kasuliku koormusega
+  - Sõnumi kasuliku koormuse RIPEMD160 esimesed 4 baiti
+explanation: |
+  Bitcoin P2P sõnumi ümbrik kasutab spetsiaalset kontrollsummamehhanismi, mille 4baideline kontrollsumma väli sisaldab ainult sõnumi kasuliku koormuse suhtes kohaldatud hash256 esimesed 4 baiti. See tagab võrguülekande ajal kasuliku koormuse andmete terviklikkuse kontrollimise. Teised valikud on ebaõiged, sest need viitavad erinevatele hash-funktsioonidele (üksik SHA256, RIPEMD160) või erinevatele sisendandmetele (kogu ümbrik, käsk+maksekoormus) kui see, mida Bitcoin oma võrguprotokollis tegelikult rakendab.

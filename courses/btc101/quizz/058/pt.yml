@@ -1,11 +1,12 @@
-question: O que aconteceu com o dólar zimbabuano em abril de 2009?
-answer: O Ministro da Fazenda anunciou a suspensão do dólar zimbabuano e autorizou o uso de diferentes moedas estrangeiras para o comércio.
+question: Quais princípios econômicos o Bitcoin segue?
+answer: Princípios da economia Austríaca.
 wrong_answers:
-  - O dólar zimbabuano desvalorizou mais de 72%.
-  - O governo concordou em compensar os veteranos de guerra por um valor equivalente a 450 milhões de dólares americanos.
-  - O governo teve que recorrer à impressão de dinheiro.
+  - Princípios da economia Keynesiana.
+  - Princípios da economia Marxista.
+  - Princípios da economia Neoclássica.
 explanation: |
-  Em abril de 2009, o Ministro da Fazenda anunciou a
-  suspensão do dólar zimbabuano e autorizou o uso
-  de diferentes moedas estrangeiras para o comércio.
+  O Bitcoin segue os princípios da economia Austríaca.
+  Sua quantidade limitada e a falta de uma entidade central protegem-no
+  dos riscos inerentes de inflação que são vistos em
+  moedas tradicionais.
 reviewed: true

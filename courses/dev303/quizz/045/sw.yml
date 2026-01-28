@@ -1,0 +1,8 @@
+question: Je, faida kuu ya vipengele vya programu vya Rust vinavyodumisha ufupishaji usio na gharama ni ipi?
+answer: Huzalisha msimbo mzuri wa mashine unaolingana na mbinu za kitamaduni zinazotegemea kitanzi bila kuharibu utendaji
+wrong_answers:
+  - Hushughulikia kiotomatiki ugawaji wa kumbukumbu na ugawaji wa vifaa ili kuzuia matumizi ya muda wa uendeshaji kabisa
+  - Huondoa hitaji la ukaguzi wa aina wakati wa kukusanya huku zikidumisha dhamana za usalama
+  - Hutoa utendaji wa ukusanyaji wa takataka unaofanya kazi bila kuathiri kasi ya utekelezaji wa programu
+explanation: |
+  Vifupisho visivyogharimu chochote katika vipengele vya programu vinavyofanya kazi vya Rust vinamaanisha kuwa kutumia vifungashio na virudiaji hakutoi hasara ya utendaji kwa ajili ya usemi. Kikusanyaji cha Rust huboresha miundo hii ya kiwango cha juu ili kutoa msimbo wa mashine unaofanya kazi pamoja na vitanzi vya kitamaduni vilivyoandikwa kwa mkono. Hii inaruhusu wasanidi programu kuandika msimbo unaoeleweka zaidi na unaosomeka bila kulipa adhabu ya utendaji wa wakati wa utekelezaji, ambayo ni kanuni kuu ya falsafa ya muundo ya Rust.

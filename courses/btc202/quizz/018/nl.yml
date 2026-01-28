@@ -1,0 +1,9 @@
+question: Wat is de meest gebruikte Bitcoin node implementatie?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  Met ongeveer 9 van de 10 nodes op het netwerk is Bitcoin core de meeste gebruikte client.
+reviewed: true

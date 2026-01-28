@@ -1,5 +1,5 @@
 ---
-name: Uzly Bitcoin
+name: Bitcoin Knots
 description: Jak spustím uzel pomocí alternativního klienta Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)
@@ -19,8 +19,8 @@ K dispozici je však i alternativní software. Nejedná se o uzly propojené s A
 Existují dva hlavní důvody, proč používat alternativního klienta, jako je Knots, namísto jádra:
 
 
-- Technická**: Tito klienti často nabízejí různé možnosti pro jádro, zejména pokud jde o správu Mempool, tím, že určují, které transakce uzel přijímá a vysílá.
-- Zásady**: Někteří lidé dávají přednost používání alternativních klientů, jako je Knots, z netechnických důvodů, zejména proto, aby podpořili alternativu k jádru a omezili tak jeho monopol. Pokud by někdy došlo k ohrožení jádra, bylo by užitečné mít nejen solidní a dobře udržované alternativní klienty, ale také vědět, jak je používat. Jiní používají Knots z protestních důvodů, protože ztratili důvěru ve vývojáře Core nebo nesouhlasí se správou většinového klienta.
+- **Technická**: Tito klienti často nabízejí různé možnosti pro jádro, zejména pokud jde o správu Mempool, tím, že určují, které transakce uzel přijímá a vysílá.
+- **Zásady**: Někteří lidé dávají přednost používání alternativních klientů, jako je Knots, z netechnických důvodů, zejména proto, aby podpořili alternativu k jádru a omezili tak jeho monopol. Pokud by někdy došlo k ohrožení jádra, bylo by užitečné mít nejen solidní a dobře udržované alternativní klienty, ale také vědět, jak je používat. Jiní používají Knots z protestních důvodů, protože ztratili důvěru ve vývojáře Core nebo nesouhlasí se správou většinového klienta.
 
 ## Jak nainstalovat uzly Bitcoin?
 
@@ -30,7 +30,7 @@ Na [oficiálních stránkách Bitcoin Knots](https://bitcoinknots.org/#download)
 
 Před instalací softwaru do počítače důrazně doporučujeme zkontrolovat jeho pravost a integritu. Pokud nevíte jak, podívejte se na tento další návod:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Po ověření softwaru jej nainstalujte podle pokynů na instalačním panelu.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Pojmenujte svůj Wallet. Můžete jej také chránit pomocí passphrase BIP39 kl
 
 passphrase BIP39 je volitelné heslo, které si můžete libovolně zvolit jako doplněk k frázi Mnemonic a zvýšit tak bezpečnost svého zařízení Wallet. Před nastavením této funkce vám důrazně doporučujeme přečíst si následující článek, který podrobně vysvětluje, jak passphrase teoreticky funguje a jak se vyvarovat chyb, které by mohly vést k trvalé ztrátě vašich bitcoinů:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Pokud jste aktivovali možnost passphrase, vyberte si robustní a pečlivě ji uložte na jedno nebo více zabezpečených fyzických médií.
 
 ![Image](assets/fr/18.webp)
@@ -212,13 +212,14 @@ Po provedení těchto změn nezapomeňte restartovat software.
 
 Poté přejděte do softwaru pro správu portfolia (např. Sparrow Wallet nebo Liana) a zadejte cestu k souboru cookie, který se obvykle nachází ve stejné složce jako soubor `Bitcoin.conf`, v závislosti na operačním systému:
 
-|**macOS**|~/Library/Application Support/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,13 +237,14 @@ server=1
 
 Po úpravě souboru se ujistěte, že jste jej uložili do příslušné složky operačního systému:
 
+
+
+
+
 |**macOS**|~/Library/Application Support/Bitcoin|
-
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Tuto operaci lze provést také prostřednictvím grafiky Bitcoin-QT Interface. Přejděte do nabídky "*Nastavení*", poté "*Možnosti...*" a aktivujte možnost "*Povolit server RPC*" zaškrtnutím příslušného políčka. Pokud soubor `Bitcoin.conf` neexistuje, můžete jej vytvořit přímo z tohoto Interface kliknutím na "*Otevřít konfigurační soubor*".
 
@@ -285,4 +287,4 @@ Pokud vám tento návod přišel užitečný, budu vám vděčný, když mi ní�
 
 Doporučuji také tento další tutoriál, ve kterém vysvětluji, jak nastavit vlastní uzel Lightning:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

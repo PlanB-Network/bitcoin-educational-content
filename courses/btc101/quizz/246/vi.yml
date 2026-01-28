@@ -1,13 +1,9 @@
-question: Mối liên hệ của Bitcoin với tương lai của công nghệ và xã hội là gì?
-
-answer: Bitcoin là một cuộc cách mạng công nghệ cho phép việc trao đổi giá trị mà không cần bất kỳ bên thứ ba đáng tin cậy nào.
-
+question: Một trong những đặc điểm chính của giao thức Bitcoin là gì?
+answer: Nó trung lập với tất cả người dùng của mình.
 wrong_answers:
-  - Bitcoin là một dạng công nghệ AI cho phép mọi người trao đổi thông tin qua một máy chủ trung tâm.
-  - Bitcoin là công cụ để kiểm soát dân số thế giới, cho phép loại bỏ nghèo đói.
-  - Bitcoin là phương pháp cho các chính phủ theo dõi các giao dịch tài chính của công dân.
-
-explanation:
-  Văn bản giải thích rằng Bitcoin, giống như internet đối với phương tiện giao tiếp, là một cuộc cách mạng công nghệ tạo ra cơ hội cho các hình thức tổ chức quy mô lớn mới, mang lại khả năng trao đổi giá trị mà không cần bất kỳ bên thứ ba đáng tin cậy nào.
-
+  - Nó ưu ái một số người dùng hơn người khác.
+  - Nó thiên vị một số người dùng.
+  - Nó chỉ mang lại lợi ích cho một nhóm người dùng nhất định.
+explanation: >-
+  Văn bản đề cập rằng giao thức Bitcoin trung lập với tất cả người dùng của mình.
 reviewed: true

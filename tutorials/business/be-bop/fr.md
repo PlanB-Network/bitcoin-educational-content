@@ -74,7 +74,7 @@ Ce compte vous permettra d’accéder à l’ensemble des fonctionnalités du ba
 
 ## Configuration et sécurisation du Back-Office
 
-Avant de configurer votre interface de connexion au back-office, vous devez créer un hash unique. Ce dernier permet d'avoir une protection contre les acteurs malveillants qui essaieraient de déviner le lien de connexion à votre interface admin. 
+Avant de configurer votre interface de connexion au back-office, vous devez créer un hash unique. Ce dernier permet d'avoir une protection contre les acteurs malveillants qui essaieraient de deviner le lien de connexion à votre interface admin. 
 
 Pour créer le hash, allez dans `/admin/Settings`. Dans la section dédiée à la sécurisation (ex. « Admin hash »), définissez une chaîne unique (hash). Une fois enregistré, l’URL du back-office sera modifiée (par exemple : `/admin-votrehash/login`) afin de limiter l’accès aux personnes non autorisées.
 
@@ -652,7 +652,7 @@ Une fois configuré, plusieurs fonctions sont disponibles :
 **Notifications via Nostr**
 
 - Envoyer des alertes en cas de commande, paiement, ou événement système
-- Ddestinées aux administrateurs ou utilisateurs
+- Destinées aux administrateurs ou utilisateurs
 
 **Interface d’administration légère**
 
@@ -927,14 +927,14 @@ Affiche :
 
 ### Résumé POS
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
+| Fonction                   | Description                               |
+| -------------------------- | ----------------------------------------- |
+| Rôle POS                   | Assigné via ARM                           |
+| Interface principale       | `/pos` ou `/pos/touch`                    |
+| Affichage client (écran 2) | `/pos/session`                            |
+| Paiement                   | Espèces, carte, Lightning, etc.           |
+| Ajout produit              | Alias ou scan code-barres                 |
+| Remises / TVA              | Sur justification managériale obligatoire |
 
 
 Merci d'avoir suivi ce tutoriel avec attention.  

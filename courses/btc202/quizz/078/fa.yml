@@ -1,0 +1,9 @@
+question: هدف فایل‌های revNNNNN.dat که در کنار فایل‌های blkNNNNN.dat ذخیره می‌شوند چیست؟
+answer: بازگرداندن UTXO در طول سازماندهی مجدد
+wrong_answers:
+  - بازگردانی UTXO در طول Hard Fork
+  - بازگردانی Mempool در طول Hard Fork
+  - بازیابی Mempool در طول یک سازماندهی مجدد
+explanation: |
+  هر فایل revNNNNN.dat شامل داده‌های مورد نیاز برای لغو اثرات یک بلوک بر روی مجموعه UTXO است، که مدیریت سازماندهی مجدد را آسان‌تر می‌کند.
+reviewed: true

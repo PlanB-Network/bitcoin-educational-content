@@ -1,11 +1,14 @@
-question: Qual é o papel dos mineradores na rede Bitcoin?
-answer: Os mineradores protegem a rede e adicionam transações aos blocos.
+question: Qual é o Problema dos Generais Bizantinos?
+answer: É um problema de coordenação de informações em um sistema onde os vários atores não podem ser confiáveis.
 wrong_answers:
-  - Mineradores criam novos bitcoins.
-  - Mineradores verificam a identidade dos usuários do Bitcoin.
-  - Mineradores definem o preço do Bitcoin.
-explanation: >-
-  Os mineradores usam seu poder computacional para resolver problemas matemáticos complexos,
-  o que lhes permite adicionar novas transações à blockchain. Esse processo protege
-  a rede e mantém sua integridade.
+  - É um problema de verificação de transações em uma rede descentralizada.
+  - É um problema de prevenir o gasto duplo em uma moeda digital.
+  - É um problema de manter o consenso em uma rede centralizada.
+explanation: |
+  O Problema dos Generais Bizantinos é um problema clássico em
+  computação distribuída, que envolve alcançar consenso
+  em uma rede onde alguns dos nós podem ser defeituosos ou
+  maliciosos. O Bitcoin resolve este problema através do uso de uma
+  blockchain baseada em Prova de Trabalho, que garante que todos
+  os nós concordem com o estado do histórico de transações.
 reviewed: true

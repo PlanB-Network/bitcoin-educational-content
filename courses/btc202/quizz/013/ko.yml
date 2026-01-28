@@ -1,0 +1,9 @@
+question: 오늘날 Bitcoin을 효율적으로 채굴하기 위해 어떤 종류의 장비가 사용되나요?
+answer: ASIC
+wrong_answers:
+  - 클래식 CPU
+  - GPU
+  - FPGA
+explanation: |
+  오늘날 Bitcoin Mining은 ASIC을 사용하여 수행됩니다. 이는 SHA-256 알고리즘을 위한 특수 칩입니다.
+reviewed: true

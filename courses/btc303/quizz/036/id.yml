@@ -1,0 +1,9 @@
+question: Apa perbedaan utama antara subsidi blok dan biaya transaksi dalam hal siapa yang pada akhirnya menanggung biaya keamanan jaringan Bitcoin?
+answer: Biaya subsidi blok ditanggung oleh pemegang melalui inflasi moneter, sementara biaya transaksi dibayar oleh pembelanja
+wrong_answers:
+  - Biaya subsidi blok dibayarkan oleh penambang melalui biaya peralatan, sementara biaya transaksi ditanggung oleh operator node
+  - Biaya subsidi blok dibagi rata di antara semua peserta jaringan, sementara biaya transaksi hanya mempengaruhi institusi besar
+  - Biaya subsidi blok ditanggung oleh bursa melalui biaya perdagangan, sementara biaya transaksi dibayar oleh penyedia wallet
+explanation: |
+  Seperti yang dikatakan oleh Paul Sztorc, subsidi blok dan biaya transaksi pada dasarnya berbeda. Subsidi blok mewakili penciptaan bitcoin baru, yang mengurangi pasokan yang ada dan secara efektif membebani semua pemegang bitcoin melalui inflasi moneter. Sebaliknya, biaya transaksi merupakan pembayaran langsung yang dilakukan oleh pengguna yang ingin bertransaksi, yang berarti pembelanja menanggung biaya ini secara langsung. Bab ini mengilustrasikan transisi ini dengan menunjukkan bagaimana biaya keamanan akan bergeser dari pemegang ke pembelanja ketika subsidi blok berkurang dari waktu ke waktu.
+reviewed: false

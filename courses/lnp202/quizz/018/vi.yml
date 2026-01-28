@@ -1,0 +1,9 @@
+question: Cụm từ ghi nhớ LND có bao nhiêu từ?
+answer: 24 từ
+wrong_answers:
+  - 10 từ
+  - 18 từ
+  - 36 từ
+explanation: |
+  LND generate là một cụm từ ghi nhớ gồm 24 từ dùng để sao lưu và phục hồi nút.
+reviewed: false

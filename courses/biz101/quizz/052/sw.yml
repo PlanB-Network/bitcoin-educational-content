@@ -1,9 +1,9 @@
 question: Ni maelezo gani ambayo hayajaandikwa wazi katika faili ya kawaida ya shughuli ya Bitcoin kama ilivyoelezewa kwenye kozi?
-answer: Aina ya hati iliyotumiwa
+answer: Aina ya script iliyotumiwa
 wrong_answers:
   - Tarehe ya muamala
   - Thamani sawa ya fiat
-  - Anwani za Bitcoin zinazohusika
+  - Addresses za Bitcoin zinazohusika
 explanation: |
   Faili ya kawaida ya Bitcoin ya shughuli ya csv kwa kawaida hutaja tarehe, kiasi, sawa na anwani za Bitcoin, lakini si aina ya hati inayotumika.
-reviewed: false
+reviewed: true

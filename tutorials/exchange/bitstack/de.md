@@ -6,7 +6,7 @@ description: Kaufen und verkaufen Sie Bitcoins mit der Bitstack-Anwendung
 
 Bitstack ist eine französische Bitcoin-Anlageplattform, die von der AMF als PSAN reguliert wird. Sie bietet eine für Android und iOS verfügbare App für den einfachen Kauf und Verkauf von Bitcoin.
 
-Das Besondere an Bitstack ist sein automatisches Rundungssystem, das das Bankkonto des Nutzers synchronisiert, um die Differenz zwischen dem bei den täglichen Ausgaben abgebuchten Betrag und dem nächsthöheren Euro direkt in Bitcoins umzurechnen. Diese Methode erleichtert die Anwendung des *Dollar Cost Averaging* (DCA) und ermöglicht eine allmähliche und schmerzlose Anhäufung von Satoshis. Zusätzlich zu dieser originellen Funktion bietet die Plattform auch ein klassisches DCA-System mit automatischen Investitionen sowie Spot-Kauf und -Verkauf.
+Was Bitstack auszeichnet, ist sein automatisches Aufrundungssystem, das das Bankkonto des Nutzers synchronisiert, um die Differenz zwischen dem bei täglichen Ausgaben abgebuchten Betrag und dem nächsthöheren Euro direkt in Bitcoin umzuwandeln. Diese Methode erleichtert die Anwendung des *Dollar Cost Averaging* (DCA), indem sie eine schrittweise und schmerzfreie Ansammlung von Satoshis ermöglicht. Neben dieser originellen Funktion bietet die Plattform auch ein klassisches DCA-System mit automatischen Investitionen sowie einmaligen Käufen und Verkäufen an.
 
 ![Image](assets/fr/01.webp)
 
@@ -51,9 +51,9 @@ Wählen Sie ein sicheres Passwort, um den Zugang zu Ihrem Konto zu schützen, un
 
 ![Image](assets/fr/06.webp)
 
-Für die sichere Verwaltung von Passwörtern im Alltag ist die Verwendung eines Passwortmanagers sehr zu empfehlen. Auf Plan ₿ Network finden Sie mehrere Anleitungen zu den besten bestehenden Lösungen, wie z. B. Bitwarden:
+Für die sichere Verwaltung von Passwörtern im Alltag ist die Verwendung eines Passwortmanagers sehr zu empfehlen. Auf Plan ₿ Academy finden Sie mehrere Anleitungen zu den besten bestehenden Lösungen, wie z. B. Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sie werden dann aufgefordert, Ihre Identität zu überprüfen (KYC). In Übereinstimmung mit den französischen Vorschriften werden Sie aufgefordert, Ihre persönlichen Daten und einen Identitätsnachweis vorzulegen. Füllen Sie die Felder mit Ihrem Namen, Vornamen und Geburtsdatum aus.
 
@@ -110,7 +110,7 @@ Wie in der Einleitung erwähnt, bietet Bitstack 3 Methoden für die Investition 
 - Konfiguration wiederkehrender Käufe (RPC) ;
 - Die Verwendung der automatischen Rundung von Ausgaben.
 
-### Einkaufen mit Bargeld
+### Einen einmaligen Kauf tätigen
 
 Um einen einmaligen Kauf von Bitcoins zum Marktpreis zu tätigen, klicken Sie einfach auf "*Kaufen*".
 
@@ -126,7 +126,7 @@ Ihre Transaktion ist nun bestätigt.
 
 ### Einrichten eines DCA
 
-Dollar Cost Averaging* (DCA) ist eine attraktive Anlagestrategie, um Bitcoin zu akkumulieren und gleichzeitig die mit seiner Volatilität verbundenen Risiken zu reduzieren. Durch den regelmäßigen Kauf eines festen Betrags, unabhängig vom Preis, können Sie Ihre Anschaffungskosten glätten und impulsive Entscheidungen vermeiden. DCA hilft, Verhaltensweisen wie die Angst, eine Gelegenheit zu verpassen, oder Panik im Falle eines Preisverfalls zu reduzieren, und ermöglicht es Ihnen so, Ihre Bitcoin-Ersparnisse auf eine ruhige und disziplinierte Weise zu verwalten.
+Dollar Cost Averaging (DCA) ist eine attraktive Anlagestrategie, um Bitcoin zu akkumulieren und gleichzeitig die mit seiner Volatilität verbundenen Risiken zu reduzieren. Durch den regelmäßigen Kauf eines festen Betrags, unabhängig vom Preis, können Sie Ihre Anschaffungskosten glätten und impulsive Entscheidungen vermeiden. DCA hilft, Verhaltensweisen wie die Angst, eine Gelegenheit zu verpassen, oder Panik im Falle eines Preisverfalls zu reduzieren, und ermöglicht es Ihnen so, Ihre Bitcoin-Ersparnisse auf eine ruhige und disziplinierte Weise zu verwalten.
 
 Um einen wiederkehrenden Kauf (DCA) auf Bitstack einzurichten, gehen Sie zum Abschnitt "*Sparen*" auf der Startseite und wählen Sie "*Wiederkehrend*". Drücken Sie dann "*Fortfahren*".
 
@@ -184,7 +184,7 @@ Bestimmen Sie die Priorität der Transaktion. Für eine gebührenfreie Abhebung 
 
 ![Image](assets/fr/32.webp)
 
-Wenn Sie mit der Funktionsweise eines Selbstverwahrungsportfolios nicht vertraut sind, bieten wir Ihnen Anleitungen zu den meisten der verfügbaren Lösungen [im Plan ₿ Network im Bereich "*Wallet*"] (https://planb.network/tutorials/wallet).
+Wenn Sie mit der Funktionsweise eines Selbstverwahrungsportfolios nicht vertraut sind, bieten wir Ihnen Anleitungen zu den meisten der verfügbaren Lösungen [im Plan ₿ Academy im Bereich "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 ## Bitcoin verkaufen
 

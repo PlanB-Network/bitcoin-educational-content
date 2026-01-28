@@ -1,12 +1,10 @@
-question: Jaka jest jedna z metod długoterminowego zabezpieczenia bitcoinów?
-answer: Grawerowanie frazy Mnemonic na odpornym materiale, takim jak stal.
+question: Jakie znaczenie w Bitcoinie ma indywidualna odpowiedzialność?
+answer: Ma kluczowe znaczenie, ponieważ jesteś odpowiedzialny za tworzenie kopii zapasowych.
 wrong_answers:
-  - Przechowywanie ich w Hot Wallet.
-  - Utrzymanie ich na platformie Exchange.
-  - Dzielenie się frazą Mnemonic ze współpracownikiem.
+  - Jest niezbędna, ponieważ musisz wydobywać bitcoiny.
+  - Zakup bitcoinów jest niezbędny.
+  - Jest kluczowa, ponieważ jesteś odpowiedzialny za motyw portfela.
 explanation: |
-  Grawerowanie frazy Mnemonic na odpornym materiale, takim jak stal
-  stal tworzy fizyczną kopię zapasową kluczy, która jest
-  odporna zarówno na wodę, jak i ogień, zabezpieczając w ten sposób
-  bitcoiny w dłuższej perspektywie.
+  W Bitcoinie suwerenność finansowa idzie w parze z indywidualną odpowiedzialnością, ponieważ musisz samodzielnie dbać o
+  swoje fundusze, przestrzegając zalecanych procedur tworzenia kopii zapasowych.
 reviewed: true

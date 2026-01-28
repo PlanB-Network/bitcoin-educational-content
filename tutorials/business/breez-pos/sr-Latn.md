@@ -1,114 +1,150 @@
 ---
-name: Breez point of sales
-
-description: Vodič za početak prihvatanja Bitcoin koristeći Breez POS
+name: Breez - POS
+description: Breez olakšava prikupljanje bitcoin uplata za vaše poslovanje.
 ---
 
 ![cover](assets/cover.webp)
 
-_Ovaj tekst dolazi sa Breez dokumentacionog sajta: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
 
-## Šta je Breez POS?
+Od pandemije COVID-19, beskontaktna digitalna plaćanja postala su rasprostranjena, čak i u najmanjim prodavnicama. Tokom ovog perioda, mnogi biznisi su otkrili praktičnost bitcoin cash rešenja, omogućavajući im da primaju uplate iz celog sveta. Međutim, ova rešenja su ponekad teška za korišćenje ili neprikladna za male biznise. U ovom vodiču, pogledaćemo Breez terminal za plaćanje, rešenje koje se ističe svojom lakoćom korišćenja, dok vam pruža potpunu kontrolu nad upravljanjem vašim bitcoinima.
 
 
-**Breez** je aplikacija za Lightning sa punom uslugom, bez starateljstva. Hajde da to razložimo:
 
+## Instaliraj Breez POS
 
 
-- Lightning** je Bitcoin platna mreža koja smanjuje vreme transakcije sa minuta na milisekunde i naknade za transakcije sa nekoliko dolara na nekoliko centi ili manje. Lightning pretvara Bitcoin iz digitalnog zlata u digitalnu valutu, zadržavajući sve prednosti koje čine Bitcoin odličnim.
-- Nekustodijalno** znači da Breez ne preuzima vlasništvo nad novcem korisnika. Mnoge Lightning aplikacije preuzimaju vlasništvo nad novcem svojih korisnika. One su u suštini Bitcoin banke. Sa nekustodijalnom aplikacijom kao što je Breez, svi korisnici su svoje sopstvene banke.
-- Full-service** znači da Breez automatski i u pozadini brine o gotovo svim tehničkim operacijama. Stvari poput kreiranja kanala, dolazne likvidnosti i rutiranja ostaju ispod haube. (Ali Breez je takođe otvorenog koda, tako da su svi zainteresovani za reviziju tehnologije dobrodošli da to učine!)
 
+Breez POS je usluga samostalnog čuvanja koju pruža Breez wallet. Korisnost ove usluge je omogućavanje trgovcima da prikupljaju uplate putem Bitcoin dok ostaju na jednostavnom interfejsu, vrlo sličnom raznim Lightning novčanicima. Breez POS je dostupan na platformama za preuzimanje [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) i [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
 
-**Breez POS** je skraćenica za naš režim prodajnog mesta. Drugim rečima, Breez funkcioniše kao digitalna kasa za preduzeća i trgovce koji žele da prihvate Lightning uplate (pored svog "standardnog" režima, koji je kao digitalna verzija kožnog Wallet za Bitcoin, i plejera za podkaste sledeće generacije). Sada ćemo pogledati kako da postavite Breez kao Lightning kasu za vaše poslovanje.
 
 
-## Kako započeti sa Breez?
+![download](assets/fr/01.webp)
 
 
-1. Prvi korak je preuzimanje aplikacije. Dostupna je za Android i iOS (instalirajte TestFlight i kliknite na link sa svog uređaja).
 
-2. Breez može automatski da se bekapuje na Google Drive, iCloud, ili bilo koji WebDav server.
+![setup](assets/fr/12.webp)
 
-**Napomena:** svaki uređaj pokreće svoj Lightning čvor. Možete pokrenuti POS režim na koliko god uređaja želite, ali stanja će ostati odvojena.
 
-3. Sa otvorenom aplikacijom, kliknite na ikonu u gornjem levom uglu da pronađete režim Prodajnog mesta.
 
+⚠️ Važno je napomenuti da su ove aplikacije još uvek u razvoju i da može doći do grešaka u korišćenju funkcionalnosti. Preporučujemo umereno korišćenje.
 
-## Postavljanje POS-a
 
 
-Da biste postavili POS, kliknite na ikonu u gornjem levom uglu, zatim kliknite na Point of Sale > POS Settings.
+Sa ovom aplikacijom, Breez vam daje potpunu kontrolu nad mrežnim konfiguracijama i postavkama naknada, dok garantuje vašu suverenost u upravljanju vašim bitcoinima.
 
 
-### Lozinka Menadžera
 
+Možete istražiti različite Breez wallet opcije prateći naš vodič ispod. Ovaj korak će vam pomoći da bolje razumete ekosistem prodajnog mesta i usvojite najbolje prakse za efikasno osiguranje bitkoina povezanih sa vašim seed.
 
-U podešavanjima POS-a, imate opciju da kreirate lozinku menadžera. Lozinka menadžera onemogućava slanje odlaznih uplata iz Breez aplikacije bez autorizacije. Prodajno osoblje će moći samo da prima uplate sa uređaja. Imajte na umu da ako koristite ovu opciju, možda ćete želeti da sprečite pristup Breez-ovoj rezervnoj kopiji, pa se preporučuje korišćenje eksternog WebDav naloga (npr. Nextcloud) za ovu svrhu.
 
 
-### Lista stavki
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Lista artikala je katalog artikala za prodaju i njihovih cena. Postoje dva načina za dodavanje artikala na listu:
 
+## Korišćenje Breez POS
 
 
-- Da biste uneli stavke jednu po jednu, kliknite na Stavke blizu vrha glavnog prikaza POS-a, a zatim na znak "+" u donjem desnom uglu. Ovde možete uneti naziv jedne vrste stavke, cenu (prikazanu u valuti po vašem izboru) i SKU (jedinstveni interni identifikator za tu vrstu stavke; opcionalno je).
-- Da biste uneli više stavki odjednom, kliknite na ikonu kalkulatora u gornjem levom uglu, zatim Point of Sale > Preferences > POS Settings, i zatim kliknite na tri tačke desno od Items List, a zatim na Import from CSV. Ovo će vam omogućiti da uvezete CSV fajl koji ste unapred pripremili i koji sadrži nazive vaših stavki, cene i SKU-ove.
 
+U ovom vodiču, fokusiraćemo se na odeljak "*Point-of-Sale*" kako bismo vam pomogli da razumete kako da ga integrišete kao sredstvo plaćanja u vašem poslovanju.
 
-### Fiat Display
 
 
-Breez šalje i prima samo Bitcoin, a za većinu transakcija na Lightning mreži, koje su obično za manje iznose, suma je obično prikazana u Satošijima, tj. Sats (1 BTC = 100,000,000 Sats). Međutim, mnogi trgovci smatraju praktičnim da mogu videti (i reći kupcima) vrednost kupovine prikazanu u lokalnoj fiat valuti.
+Prodajno mesto je integralni deo Breez portfolija i oslanja se prvenstveno na Lightning Network za prikupljanje uplata.
 
 
-U glavnom prikazu POS-a, valuta koja se trenutno prikazuje vidljiva je na desnoj strani (podrazumevano je SAT). Tu je i padajuća lista drugih dostupnih valuta za prikaz. Da biste dodali ili uklonili valute iz ove padajuće liste, kliknite na Point of Sale > Preferences > Fiat Currencies. Zatim jednostavno označite valute koje želite da imate u svom padajućem meniju i poništite one koje želite da izostavite.
 
+U meniju "*Point of Sale*", imate direktan interfejs za prikupljanje uplata. Podeljen je na dva dela:
 
-Prikazane vrednosti su sa yadio, uglednog izvora za Exchange-kurs podatke, i ažuriraju se gotovo u realnom vremenu. Ali zapamtite: koja god vrednost valute trenutno bila prikazana, sama uplata je u Bitcoin.
 
 
-### Punjenje narudžbine
+### Direktno zaduženje
 
 
-Da sastavite porudžbinu, dodajte stavke sa liste artikala ili jednostavno unesite iznos na tastaturi. Zatim kliknite na Naplati na vrhu glavnog pregleda POS-a. Tada ćete videti QR kod koji kupac može skenirati svojim Lightning aplikacijom, koji možete direktno podeliti iz druge aplikacije na vašem uređaju, ili koji možete kopirati i nalepiti gde je potrebno.
 
+Prvi deo je tastatura za direktno zaduženje. Ovaj interfejs je koristan za naplatu celokupnog iznosa kada znate ukupne kupovine vašeg kupca, ili kada vam nije potreban fiksni katalog proizvoda u vašem poslovanju (npr. freelance usluge).
 
-Na skeniranju tog koda ili klikom na podeljeni/nalepeni Invoice, kupac će videti Invoice u svojoj Lightning aplikaciji i imati opciju da ga plati i odmah završi transakciju.
 
 
-Jednom kada vidite animaciju Payment approved! u aplikaciji Breez na uređaju trgovca, možete kliknuti na ikonu štampača da generate štampate račun za kupca. Da biste koristili štampač računa na Androidu, pokušajte koristiti ovaj drajver. Imajte na umu da možete štampati i prethodne transakcije putem ekrana Transakcije.
+![keyboard](assets/fr/02.webp)
 
 
-### Izveštaj o prodaji
 
+Da biste prvi put koristili Breez POS, potrebno je da prikupite uplatu od preko 2.500 satoshija (oko 3 evra po današnjem kursu). Ovaj iznos, plaćen samo prilikom vaše prve isplate, predstavlja trošak kreiranja platnog kanala kako biste mogli komunicirati sa drugim Lightning Network čvorovima i slati i primati satoshije.
 
-Da biste videli dnevni, nedeljni i/ili mesečni izveštaj o vašoj prodaji (za računovodstvene svrhe ili druge), kliknite na ikonu u gornjem levom uglu, a zatim kliknite na Transakcije. Kliknite na ikonu Izveštaj da biste prikazali izveštaj i na ikonu Kalendar da biste promenili izabrani vremenski period.
 
 
-### Izvoz transakcija
+![channel_fee](assets/fr/03.webp)
 
 
-Da biste videli listu primljenih uplata u Breez-u, kliknite na ikonu u gornjem levom uglu, a zatim kliknite na Transakcije. Kliknite na tri tačke u gornjem desnom uglu, zatim na Izvoz da biste izvezli listu dolaznih uplata u CSV formatu. Da biste ograničili listu na određeni vremenski period, kliknite na ikonu kalendara da postavite vremenski raspon.
+### Katalog proizvoda
 
 
-### Štampanje Računa
 
+Drugi deo je katalog proizvoda. Ovaj interfejs je idealan kada imate katalog proizvoda sa unapred definisanim cenama. Ovde možete unapred konfigurisati svoje proizvode i zatim ih koristiti za generate fakture kako biste poboljšali sledljivost svojih novčanih priznanica.
 
-Da biste odštampali račun o prodaji, kliknite na ikonu štampanja u gornjem desnom uglu dijaloga za potvrdu plaćanja. Alternativno, kliknite na ikonu u gornjem levom uglu, a zatim kliknite na Transakcije. Pronađite prodaju za štampanje, otvorite je i kliknite na ikonu štampanja u gornjem desnom uglu.
 
 
-**Napomena:** koristite ovaj drajver za štampanje na prenosivom 58mm/80mm Bluetooth/USB termalnom štampaču.
+![items](assets/fr/04.webp)
 
 
-## Želim da naučim više
 
+Možete ručno konfigurisati svaku stavku iz ovog interfejsa klikom na dugme "**Plus**" i zatim definisanjem imena, cene i identifikatora za ovu stavku.
 
 
-- Za više informacija o Lightning i Breez, pogledajte naš [blog](https://breez.technology/blog).
-- Za više tehničkih saveta o tome kako da maksimalno iskoristite aplikaciju i izvršite uobičajene operacije, pogledajte našu [dokumentaciju](https://breez.technology/documentation).
-- Ako zapnete i ne možete pronaći odgovor u bilo kojoj našoj pomoći, možete nas pronaći na [Telegramu](https://t.me/breez_labs) ili nam poslati [email](mailto:support@breez.technology).
-- Ako želite da pogledate neke demonstracione video snimke Breez POS moda u akciji koje su napravili naši fanovi i korisnici, [ovde](https://www.youtube.com/watch?v=xxxx) je jedan odličan kratak, a [ovde](https://www.youtube.com/watch?v=xxxx) je duži, detaljniji.
+
+![add_items](assets/fr/05.webp)
+
+
+
+Zatim ga možete dodati i definisati njegovu količinu da biste prikupili povezanu uplatu.
+
+
+
+Kada je vaš katalog prilično velik, može postati komplikovano dodavati proizvode jedan po jedan. U tu svrhu, u odeljku **Preferences > Point of Sale Settings**, iz menija "Item list", možete automatski uvoziti i izvoziti listu artikala iz CSV fajlova.
+
+
+
+![import](assets/fr/07.webp)
+
+
+
+U ovom istom odeljku možete definisati period važenja vaših Lightning faktura. Od sada, za sve vaše fakture, vaši kupci imaju `N` sekundi da izvrše uplatu, u suprotnom ćete morati da generišete novu Lightning fakturu.
+
+
+
+![invoice_time](assets/fr/08.webp)
+
+
+
+Kao menadžer, možete ojačati sigurnost svojih bitkoina dodavanjem lozinke koja će biti potrebna za sve odlazne uplate sa vašeg wallet. Ova funkcija je posebno korisna kada niste jedini koji upravlja vašim prodajnim mestom.
+
+
+
+![manager](assets/fr/09.webp)
+
+
+
+U meniju **Transactions** pronaći ćete listu svih uplata koje ste prikupili. Takođe možete filtrirati rezultate za određeni period klikom na dugme **Calendar**.
+
+
+
+![transactions](assets/fr/10.webp)
+
+
+
+Takođe možete pogledati dnevni rezime vaših prodaja i ukupan iznos prikupljen klikom na dugme **Dokument**.
+
+
+
+![summary](assets/fr/11.webp)
+
+
+
+Sada imate potpuno razumevanje prodajnog mesta koje nudi Breez aplikacija za besprekornu integraciju Bitcoin u vaše poslovanje. Ako ste smatrali da je ovaj vodič koristan, preporučujemo naš vodič o be-BOP, e-commerce platformi koja vam omogućava da primate uplate u bitkoinima i monetizujete vaše poslovanje.
+
+
+
+https://planb.academy/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa

@@ -1,0 +1,9 @@
+question: Ni uruhe rutonde rw'amakuru rukoreshwa mu mabuye/index/ kugira ngo ubike amakuru y'amabuye?
+answer: UrugeroDB
+wrong_answers:
+  - SQLite
+  - IbitareDB
+  - Berkeley DB
+explanation: |
+  Bitcoin core ikoresha LevelDB mu mabuye/index/ kugira ngo ikore index amabuye, yihutishe ubushakashatsi bwayo n'ugutanga ubufasha ku bagenzi.
+reviewed: true

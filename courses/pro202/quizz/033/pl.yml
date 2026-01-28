@@ -1,0 +1,8 @@
+question: Jaki dwuetapowy proces walidacji musi zostać przeprowadzony podczas wydawania środków z P2SH, aby transakcja została uznana za ważną?
+answer: Najpierw sprawdź, czy HASH160 skryptu redeem odpowiada hashowi scriptPubKey, a następnie wykonaj skrypt redeem z dostarczonymi danymi
+wrong_answers:
+  - Najpierw wykonaj skrypt redeem z dostarczonymi danymi, a następnie sprawdź, czy wynikowy hash pasuje do scriptPubKey
+  - Najpierw sprawdź, czy wszystkie podpisy są prawidłowe w odniesieniu do ich kluczy publicznych, a następnie sprawdź, czy hash skryptu redeem jest zgodny
+  - Najpierw należy potwierdzić, że skrypt redeem zawiera prawidłowe kody operacyjne, a następnie zweryfikować, czy wykonanie skryptu daje prawdziwy wynik
+explanation: |
+  Weryfikacja P2SH wymaga specjalnego dwuetapowego procesu: najpierw hash dostarczonego skryptu redeem musi być zgodny z 20-bajtowym hashem w scriptPubKey (weryfikacja HASH160), a dopiero po przejściu tej weryfikacji sieć wykonuje sam skrypt redeem z danymi odblokowującymi. Taka konstrukcja zapewnia, że można użyć tylko poprawnego skryptu redeem, jednocześnie ukrywając rzeczywiste warunki wydatków do momentu ich wystąpienia. Pozostałe opcje opisują prawdopodobne, ale nieprawidłowe sekwencje walidacji, które nie są zgodne z rzeczywistym protokołem P2SH.

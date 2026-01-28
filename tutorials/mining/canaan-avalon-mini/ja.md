@@ -1,5 +1,5 @@
 ---
-name: カナーン・アバロン・ミニ3
+name: Canaan Avalon Mini 3
 description: ソロマイニングまたはMinerプーリングのためのASICアバロンの設定
 ---
 
@@ -19,11 +19,11 @@ description: ソロマイニングまたはMinerプーリングのためのASIC�
 
 
 
-これらの機器は、**アバロン・ナノ3S（140W）***の場合は補助ヒーターとして、**アバロン・ミニ3**の場合は出力**800W**のミニラジエーターとして販売されている。
+これらの機器は、**アバロン・ナノ3S（140W）**の場合は補助ヒーターとして、**アバロン・ミニ3**の場合は出力**800W**のミニラジエーターとして販売されている。
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 従来の同等出力のヒーターとの価格差は、ほとんどの場合、経済的な利益をもたらすものではありません。Miningの活動によって生み出されるサトシは、無料（余剰）または非常に安い電力を利用できない限り、この価格差を補うことはできない。
 
@@ -122,16 +122,17 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| 特性                                      | 値                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
-| Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| ハッシュレート                                             | 37.5 Th/s +- 5%                                           |
+| 消費電力                              | 800 W                                                     |
+| ノイズ                                                | 35-55 dB                                                  |
+| 出力空気温度                       | 60-70°C (周囲温度25°C時)                  |
+| 使用のための周囲温度要件 | -5° C - 40°C                                              |
+| デバイス入力電圧範囲                         | 110V-240V AC 50/60Hz                                      |
+| 機械のサイズ                                 | 長さ: 760 mm / 奥行き: 104 mm / 高さ: 214.5 mm |
+| 機械の重量                                  |  8.35 kg                                                  |
 
 ## Mining poolへの接続
 
@@ -181,9 +182,9 @@ Mining poolへの接続方法の詳細については、以下のチュートリ
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 結論から言えば、必要なのは
 
@@ -358,4 +359,4 @@ Super」レベルは、約30Th/s、45dBで650Wの出力に相当します。こ�
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

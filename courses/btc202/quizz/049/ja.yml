@@ -1,0 +1,9 @@
+question: ビットコインコアのdbcacheパラメータのデフォルト値は？
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  デフォルトでは、ビットコインコアは450 MiB（472 MB）をキャッシュに割り当てる。
+reviewed: true

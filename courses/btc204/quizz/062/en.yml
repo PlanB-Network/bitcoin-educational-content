@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Unlike the other three options, Silent Payments is not a method for selecting parts, but a protocol for using static addresses.
 
-reviewed: false
+reviewed: true

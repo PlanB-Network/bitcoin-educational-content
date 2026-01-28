@@ -17,10 +17,10 @@ Arch Linux je distribucija poznata po svojoj robusnosti, performansama i prilago
 
 
 
-- Besplatan i otvoren izvor**: Kao većina Linux distribucija, Arch Linux je potpuno besplatan. Nema licenci, što ga čini odličnim izborom za studente, freelancere ili entuzijaste.
-- KISS** filozofija: Arch je dizajniran da bude jednostavan, lagan i efikasan. Pruža samo osnovne stvari, omogućavajući vam da izgradite svoje okruženje à la carte.
-- Pacman** package manager: Pacman je brz, pouzdan i dobro dizajniran upravitelj paketa. Omogućava efikasnu instalaciju i ažuriranje softvera, i upravlja zavisnostima sa preciznošću.
-- Sveobuhvatna dokumentacija i aktivna zajednica**: [Arch Wiki](https://wiki.archlinux.org) je verovatno jedna od najboljih tehničkih dokumentacija u Linux svetu. To je rudnik zlata za razumevanje onoga što radite. Zajednica, koja se uglavnom sastoji od iskusnih profila, je veoma aktivna i može vam pomoći ako zapnete, pod uslovom da ste prethodno malo istražili.
+- **Besplatan i otvoren izvor**: Kao većina Linux distribucija, Arch Linux je potpuno besplatan. Nema licenci, što ga čini odličnim izborom za studente, freelancere ili entuzijaste.
+- **KISS** filozofija: Arch je dizajniran da bude jednostavan, lagan i efikasan. Pruža samo osnovne stvari, omogućavajući vam da izgradite svoje okruženje à la carte.
+- **Pacman** package manager: Pacman je brz, pouzdan i dobro dizajniran upravitelj paketa. Omogućava efikasnu instalaciju i ažuriranje softvera, i upravlja zavisnostima sa preciznošću.
+- **Sveobuhvatna dokumentacija i aktivna zajednica**: [Arch Wiki](https://wiki.archlinux.org) je verovatno jedna od najboljih tehničkih dokumentacija u Linux svetu. To je rudnik zlata za razumevanje onoga što radite. Zajednica, koja se uglavnom sastoji od iskusnih profila, je veoma aktivna i može vam pomoći ako zapnete, pod uslovom da ste prethodno malo istražili.
 
 
 
@@ -39,7 +39,7 @@ Materijali potrebni:
 
 
 - USB ključ od najmanje **8 GB**
-- 2 GB** RAM minimum
+- **2 GB** RAM minimum
 - Računar sa najmanje 20 GB slobodnog prostora na disku
 
 
@@ -261,24 +261,26 @@ Izaberite **GPT** ako ste u UEFI, **DOS** ako ste u BIOS-u.
 
 
 
-- U UEFI** režimu
+- U **UEFI** režimu
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Tačka montiranja na instaliranom sistemu | Particija                 | Tip particije       | Predložena veličina |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI sistemska particija   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Prostor za razmenu (swap) | Najmanje 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 koren (/) | Ostatak diska |
 
 - U BIOS-u
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Tačka montiranja na instaliranom sistemu | Particija           | Tip particije       | Predložena veličina |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Prostor za razmenu (swap) | Najmanje 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Ostatak diska |
 
 ![0_10](assets/fr/10.webp)
 
@@ -294,7 +296,7 @@ Odaberite **Write**, upišite **yes**, zatim **Quit**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +311,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 
@@ -778,6 +780,6 @@ Ako ste uživali u početku sa Arch Linuxom, svidet će vam se naš vodič o **F
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -1,0 +1,9 @@
+question: بهترین راه برای دسترسی از راه دور به Bitcoin core چیست؟
+answer: افشای پورت RPC
+wrong_answers:
+  - استفاده از تور
+  - استفاده از VPN
+  - افشای یک سرور Electrum
+explanation: |
+  افشای پورت RPC به صورت رمزنگاری‌نشده یک ریسک امنیتی بزرگ است. استفاده از Tor یا VPN ترجیح داده می‌شود.
+reviewed: true

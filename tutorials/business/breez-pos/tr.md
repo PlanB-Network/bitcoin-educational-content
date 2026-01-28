@@ -1,114 +1,150 @@
 ---
-name: Breez satış noktası
-
-description: Breez POS kullanarak Bitcoin kabul etmeye başlama kılavuzu
+name: Breez - POS
+description: Breez, işletmeniz için bitcoin ödemelerini toplamayı kolaylaştırır.
 ---
 
 ![cover](assets/cover.webp)
 
-_Bu metin Breez dokümantasyon web sitesinden alınmıştır: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
 
-## Breez POS nedir?
+COVID-19 salgınından bu yana, temassız dijital ödemeler en küçük mağazalarda bile yaygınlaştı. Bu süre zarfında birçok işletme, dünyanın her yerinden ödeme almalarını sağlayan bitcoin cash çözümlerinin pratikliğini keşfetti. Ancak bu çözümlerin kullanımı bazen zor veya küçük işletmeler için uygun olmayabiliyor. Bu eğitimde, bitcoinlerinizin yönetimi üzerinde size tam kontrol sağlarken kullanım kolaylığı ile öne çıkan bir çözüm olan Breez ödeme terminaline bir göz atacağız.
 
 
-**Breez** tam hizmet veren, velayetsiz bir Lightning uygulamasıdır. Bunu biraz açalım:
 
+## Breez POS'u yükleyin
 
 
-- Lightning**, işlem sürelerini dakikalardan milisaniyelere ve işlem ücretlerini birkaç dolardan birkaç sente veya daha azına indiren bir Bitcoin ödeme ağıdır. Lightning, Bitcoin'i harika yapan tüm avantajları korurken Bitcoin'i dijital altından dijital para birimine dönüştürür.
-- Non-custodial**, Breez'in kullanıcıların parasına el koymadığı anlamına gelir. Birçok Lightning uygulaması kullanıcılarının parasına el koyar. Temelde Bitcoin bankalarıdır. Breez gibi velayetsiz bir uygulama ile tüm kullanıcılar kendi bankalarıdır.
-- Tam hizmet**, Breez'in neredeyse tüm teknik işlemleri otomatik olarak ve arka planda hallettiği anlamına gelir. Kanal oluşturma, gelen likidite ve yönlendirme gibi şeyler kaputun altında kalır. (Ancak Breez aynı zamanda açık kaynaklıdır, bu nedenle teknolojiyi denetlemek isteyenler bunu yapabilirler!)
 
+Breez POS, Breez wallet tarafından sağlanan bir kendi kendine saklama hizmetidir. Bu hizmetin faydası, tüccarların çeşitli Lightning cüzdanlarına çok benzeyen basit bir arayüzde kalırken Bitcoin aracılığıyla ödeme toplamalarını sağlamaktır. Breez POS [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) ve [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) indirme platformlarında mevcuttur.
 
-**Breez POS** satış noktası modumuzun kısaltmasıdır. Başka bir deyişle Breez, Lightning ödemelerini kabul etmek isteyen işletmeler ve tüccarlar için dijital bir yazar kasa gibi çalışır (Bitcoin için deri bir Wallet'ün dijital versiyonu ve yeni nesil bir podcast oynatıcı gibi olan "standart" moduna ek olarak). Şimdi Breez'i işletmeniz için bir Lightning yazar kasası olarak nasıl kuracağınıza bakalım.
 
 
-## Breez'e nasıl başlanır?
+![download](assets/fr/01.webp)
 
 
-1. İlk adım uygulamayı indirmektir. Android ve iOS için mevcuttur (TestFlight'ı yükleyin ve cihazınızdan bağlantıya tıklayın).
 
-2. Breez kendini otomatik olarak Google Drive, iCloud veya herhangi bir WebDav sunucusuna yedekleyebilir.
+![setup](assets/fr/12.webp)
 
-**Not:** her cihaz kendi Lightning düğümünü çalıştırır. POS modunu istediğiniz kadar cihazda çalıştırabilirsiniz, ancak bakiyeler ayrı kalacaktır.
 
-3. Uygulama açıkken, Satış Noktası modunu bulmak için sol üstteki simgeye tıklayın.
 
+⚠️ Bu uygulamaların hala geliştirilme aşamasında olduğunu ve işlevlerin kullanımında bazı hatalar olabileceğini unutmamak önemlidir. Ölçülü kullanım öneriyoruz.
 
-## POS kurulumu
 
 
-POS'u ayarlamak için sol üstteki simgeye tıklayın, ardından Satış Noktası > POS Ayarları'na tıklayın.
+Bu uygulama ile Breez, bitcoinlerinizi yönetme konusundaki egemenliğinizi garanti ederken, ağ yapılandırmaları ve ücret ayarları üzerinde tam kontrol sağlar.
 
 
-### Yönetici Şifresi
 
+Aşağıdaki eğitimimizi takip ederek çeşitli Breez wallet seçeneklerini keşfedebilirsiniz. Bu adım, satış noktası ekosistemini daha iyi anlamanıza ve seed'ünüzle ilişkili bitcoinleri etkili bir şekilde güvence altına almak için en iyi uygulamaları benimsemenize yardımcı olacaktır.
 
-POS Ayarları'nda bir yönetici şifresi oluşturma seçeneğiniz vardır. Yönetici şifresi, Breez uygulamasından yetkilendirme olmadan giden ödemelerin gönderilmesini imkansız hale getirir. Satış personeli yalnızca cihazdan ödeme alabilecektir. Bu seçeneği kullanıyorsanız Breez'in yedeklemesine erişimi de engellemek isteyebileceğinizi unutmayın; bu nedenle bu kullanım durumu için harici bir WebDav hesabı (ör. Nextcloud) kullanılması önerilir.
 
 
-### Öğeler Listesi
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Ürün listesi, satılık ürünlerin ve fiyatlarının yer aldığı bir katalogdur. Listeye ürün eklemenin iki yolu vardır:
 
+## Breez POS'u Kullanma
 
 
-- Kalemleri teker teker girmek için ana POS görünümünün üst kısmındaki Kalemler'e, ardından sağ alttaki "+" işaretine tıklayın. Burada tek bir kalem türünün adını, fiyatını (seçtiğiniz para birimi eşdeğerinde görüntülenir) ve SKU'sunu (bu kalem türü için benzersiz bir dahili tanımlayıcı; isteğe bağlıdır) girebilirsiniz.
-- Aynı anda çok sayıda kalem girmek için sol üstteki hesap makinesi simgesine, ardından Satış Noktası > Tercihler > POS Ayarları'na ve ardından Kalem Listesi'nin sağındaki üç noktaya ve ardından CSV'den İçe Aktar'a tıklayın. Bu, önceden hazırladığınız ve kalemlerinizin adlarını, fiyatlarını ve SKU'larını içeren bir CSV dosyasını içe aktarmanızı sağlayacaktır.
 
+Bu eğitimde, işletmenize bir ödeme aracı olarak nasıl entegre edeceğinizi anlamanıza yardımcı olmak için "*Satış Noktası*" bölümüne odaklanacağız.
 
-### Fiat Ekranı
 
 
-Breez yalnızca Bitcoin gönderir ve alır ve Lightning'de daha küçük miktarlarda olma eğiliminde olan çoğu işlem için toplam genellikle Satoshis, yani Sats olarak görüntülenir (1 BTC = 100.000.000 Sats). Bununla birlikte, birçok tüccar, yerel fiat para biriminde görüntülenen satın alma değerini görebilmeyi (ve müşterilere söyleyebilmeyi) pratik bulmaktadır.
+Satış noktası Breez portföyünün ayrılmaz bir parçasıdır ve ödemeleri toplamak için öncelikle Lightning Network'e dayanır.
 
 
-Ana POS görünümünde, o anda görüntülenmekte olan para birimi sağ tarafta görünür (varsayılan SAT'tır). Ayrıca görüntülenebilecek diğer para birimlerinin bir açılır listesi de vardır. Bu açılır listeden para birimleri eklemek veya kaldırmak için Satış Noktası > Tercihler > Fiat Para Birimleri seçeneğine tıklayın. Ardından açılır menünüzde bulunmasını istediğiniz para birimlerini işaretleyin ve çıkarılmasını istediklerinizin işaretini kaldırın.
 
+"*Point of Sale*" menüsünde, ödemeleri toplamak için doğrudan bir arayüze sahipsiniz. İki bölüme ayrılmıştır:
 
-Görüntülenen değerler, Exchange oranı verileri için saygın bir kaynak olan yadio'dan alınmıştır ve neredeyse gerçek zamanlı olarak güncellenmektedir. Ancak unutmayın: şu anda görüntülenen para birimi değeri ne olursa olsun, ödemenin kendisi Bitcoin cinsindendir.
 
 
-### Bir Siparişin Ücretlendirilmesi
+### Otomatik ödeme
 
 
-Siparişi oluşturmak için, ürün listesinden ürün ekleyin veya tuş takımına bir toplam girin. Ardından ana POS görünümünün üst kısmındaki Ücretlendir'e tıklayın. Ardından, müşterinin Lightning uygulamasıyla tarayabileceği, cihazınızdaki başka bir uygulamadan doğrudan paylaşabileceğiniz veya gerektiğinde kopyalayıp yapıştırabileceğiniz bir QR kodu göreceksiniz.
 
+İlk bölüm otomatik ödeme klavyesidir. Bu arayüz, müşterinizin toplam satın alımlarını bildiğinizde veya işletmenizde sabit bir ürün kataloğuna ihtiyaç duymadığınızda (örneğin, serbest hizmetler) bir ödemenin tamamını tahsil etmek için kullanışlıdır.
 
-Bu kod tarandığında veya paylaşılan/yapıştırılan Invoice'a tıklandığında, müşteri Lightning uygulamasında Invoice'u görecek ve ödeme yapma ve işlemi hemen gerçekleştirme seçeneğine sahip olacaktır.
 
 
-Satıcının cihazındaki Breez uygulamasında Ödeme onaylandı! animasyonunu gördüğünüzde, müşteri için bir makbuz generate oluşturmak üzere yazıcı simgesine tıklayabilirsiniz. Android'de bir makbuz yazıcısı kullanmak için bu sürücüyü kullanmayı deneyin. İşlemler ekranı aracılığıyla geçmiş işlemleri de yazdırabileceğinizi unutmayın.
+![keyboard](assets/fr/02.webp)
 
 
-### Satış Raporu
 
+Breez POS'u ilk kez kullanmak için 2.500 satoshiden (bugünkü kurla yaklaşık 3 avro) fazla bir ödeme almanız gerekir. Yalnızca ilk nakit çıkışınızda ödenen bu tutar, diğer Lightning Network düğümleriyle iletişim kurabilmeniz ve satoshi gönderip alabilmeniz için bir ödeme kanalı oluşturma maliyetini temsil eder.
 
-Satışlarınızın günlük, haftalık ve/veya aylık raporunu görüntülemek için (muhasebe veya diğer amaçlar için) sol üstteki simgeye ve ardından İşlemler'e tıklayın. Raporu görüntülemek için Rapor simgesine ve seçilen tarih aralığını değiştirmek için Takvim simgesine tıklayın.
 
 
-### İşlemleri Dışa Aktarma
+![channel_fee](assets/fr/03.webp)
 
 
-Breez'de alınan ödemelerin bir listesini görüntülemek için sol üstteki simgeye ve ardından İşlemler'e tıklayın. Gelen ödemelerin bir listesini CSV formatında dışa aktarmak için sağ üstteki üç noktaya ve ardından Dışa Aktar'a tıklayın. Listeyi belirli bir zaman dilimiyle kısıtlamak için takvim simgesine tıklayarak bir tarih aralığı belirleyin.
+### Ürün kataloğu
 
 
-### Makbuz Yazdırma
 
+İkinci bölüm ürün kataloğudur. Bu arayüz, önceden tanımlanmış fiyatlara sahip bir ürün kataloğunuz olduğunda idealdir. Burada ürünlerinizi önceden yapılandırabilir ve ardından nakit makbuzlarınızın izlenebilirliğini artırmak için bunları generate faturalarında kullanabilirsiniz.
 
-Bir satış makbuzunu yazdırmak için, ödeme onayı iletişim kutusunun sağ üst köşesindeki yazdır simgesine tıklayın. Alternatif olarak, sol üstteki simgeye tıklayın ve ardından İşlemler'e tıklayın. Yazdırılacak satışı bulun, açın ve sağ üstteki yazdır simgesine tıklayın.
 
 
-**Not:** bu sürücüyü taşınabilir bir 58mm/80mm Bluetooth/USB termal yazıcıya yazdırmak için kullanın.
+![items](assets/fr/04.webp)
 
 
-## Daha fazlasını öğrenmek istiyorum
 
+Bu arayüzden "**Plus**" düğmesine tıklayarak ve ardından bu kalem için ad, fiyat ve bir tanımlayıcı tanımlayarak her bir kalemi manuel olarak yapılandırabilirsiniz.
 
 
-- Lightning and Breez hakkında daha fazla bilgi için [blog](https://breez.technology/blog) adresimize göz atın.
-- Uygulamadan en iyi şekilde nasıl yararlanılacağı ve yaygın işlemlerin nasıl gerçekleştirileceği hakkında daha fazla teknik ipucu için [dokümantasyon](https://breez.technology/documentation) adresimize göz atın.
-- Eğer takılırsanız ve cevabı yardım literatürümüzde bulamazsanız, bizi [Telegram](https://t.me/breez_labs) adresinde bulabilir veya bize [email](mailto:support@breez.technology) gönderebilirsiniz.
-- Breez POS modunun hayranlarımız ve kullanıcılarımız tarafından yapılan bazı tanıtım videolarını görmek isterseniz, [burada](https://www.youtube.com/watch?v=xxxx) harika bir kısa video ve [burada](https://www.youtube.com/watch?v=xxxx) daha uzun, daha ayrıntılı bir video.
+
+![add_items](assets/fr/05.webp)
+
+
+
+Daha sonra ekleyebilir ve ilgili ödemeyi tahsil etmek için miktarını tanımlayabilirsiniz.
+
+
+
+Kataloğunuz oldukça büyük olduğunda, ürünlerinizi tek tek eklemek karmaşık hale gelebilir. Bu amaçla, **Tercihler > Satış Noktası Ayarları** bölümünde, "Ürün listesi" menüsünden, ürün listenizi CSV dosyalarından otomatik olarak içe ve dışa aktarabilirsiniz.
+
+
+
+![import](assets/fr/07.webp)
+
+
+
+Aynı bölümde, Lightning faturalarınızın geçerlilik süresini tanımlayabilirsiniz. Şu andan itibaren, tüm faturalarınız için müşterilerinizin ödemelerini yapmak için `N` saniyeleri vardır, aksi takdirde yeni bir Lightning faturası oluşturmanız gerekecektir.
+
+
+
+![invoice_time](assets/fr/08.webp)
+
+
+
+Bir yönetici olarak, wallet'nizden giden tüm ödemeler için gerekli olacak bir şifre ekleyerek bitcoinlerinizin güvenliğini güçlendirebilirsiniz. Bu özellik, çıkışınızı yöneten tek kişi siz olmadığınızda özellikle kullanışlıdır.
+
+
+
+![manager](assets/fr/09.webp)
+
+
+
+İşlemler** menüsünde, tahsil ettiğiniz tüm ödemelerin bir listesini bulacaksınız. Ayrıca **Takvim** düğmesine tıklayarak sonuçları belirli bir döneme göre filtreleyebilirsiniz.
+
+
+
+![transactions](assets/fr/10.webp)
+
+
+
+Ayrıca **Belge** düğmesine tıklayarak satışlarınızın günlük özetini ve toplanan toplam tutarı görüntüleyebilirsiniz.
+
+
+
+![summary](assets/fr/11.webp)
+
+
+
+Artık Bitcoin'in işletmenize sorunsuz entegrasyonu için Breez uygulaması tarafından sunulan satış noktasını tam olarak kavradınız. Bu eğitimi faydalı bulduysanız, bitcoin ile ödeme almanızı ve işletmenizden para kazanmanızı sağlayan bir e-ticaret platformu olan be-BOP hakkındaki eğitimimizi öneririz.
+
+
+
+https://planb.academy/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa

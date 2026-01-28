@@ -5,7 +5,7 @@ description: Inasanidi Ledger bila programu ya Ledger Live
 ![cover](assets/cover.webp)
 
 
-Ikiwa unatumia Ledger, labda umegundua kwamba unapaswa kupitia programu ya Ledger Live, angalau kwa usanidi wa awali wa kifaa, ili kuangalia uhalisi wake na kusakinisha programu ya Bitcoin juu yake. Walakini, baada ya usanidi huu, bitcoiners wengi wanapendelea kutumia programu maalum ya usimamizi ya Bitcoin Wallet kama vile Sparrow au Liana badala ya Ledger Live. Ingawa Ledger inazalisha pochi bora za maunzi ambazo hujumuisha kwa haraka vipengele vya hivi punde vya Bitcoin, programu yao si lazima ibadilishwe kulingana na mahitaji mahususi ya wapiga bitcoins. Hakika, Ledger Live inajumuisha vipengele vingi vinavyotengenezwa kwa altcoins, wakati chaguo zinazotolewa kwa usimamizi wa Bitcoin Wallet ni mdogo. Lakini tatizo la Sparrow na Liana (kwa sasa), ni kwamba hawakuruhusu kusakinisha programu ya Bitcoin kwenye Ledger.
+Ikiwa unatumia Ledger, labda umegundua kwamba unapaswa kupitia programu ya Ledger Live, angalau kwa usanidi wa awali wa kifaa, ili kuangalia uhalisi wake na kusakinisha programu ya Bitcoin juu yake. Walakini, baada ya usanidi huu, bitcoiners wengi wanapendelea kutumia programu maalum ya usimamizi ya Bitcoin Wallet kama vile Sparrow au Liana badala ya Ledger Live. Ingawa Ledger inazalisha wallet bora za maunzi ambazo hujumuisha kwa haraka Elements za hivi punde vya Bitcoin, programu yao si lazima ibadilishwe kulingana na mahitaji mahususi ya wapiga bitcoins. Hakika, Ledger Live inajumuisha vipengele vingi vinavyotengenezwa kwa altcoins, wakati chaguo zinazotolewa kwa usimamizi wa Bitcoin Wallet ni mdogo. Lakini tatizo la Sparrow na Liana (kwa sasa), ni kwamba hawakuruhusu kusakinisha programu ya Bitcoin kwenye Ledger.
 
 
 Ili kukwepa hitaji la kutumia Ledger Live wakati wa usanidi wa awali wa Ledger yako, unaweza kutumia zana ya Bacca, (au "Ledger Installer"). Programu hii hukuruhusu kusakinisha na kusasisha programu ya Bitcoin, kuthibitisha uhalisi wa Ledger yako, na hata baadaye kusasisha programu dhibiti ya kifaa. Bacca iliundwa na Antoine Poinsot (Darosior), msanidi wa Bitcoin Core katika Chaincode Labs, mwanzilishi mwenza [wa Revault na Liana](https://wizardsardine.com/), na Pythcoiner.
@@ -137,11 +137,11 @@ Sasa unaweza kufikia programu ya Interface.
 Kabla ya kuanza, ikiwa Ledger yako ni mpya, hakikisha kuwa umeweka msimbo wa PIN na kuhifadhi maneno ya kurejesha akaunti. Huhitaji Ledger Live kwa hatua hizi za mwanzo. Unganisha tu Ledger yako kupitia kebo ya USB ili kuiwasha. Ikiwa huna uhakika jinsi ya kuendelea na hatua hizi mbili, unaweza kurejelea mwanzo wa mafunzo maalum kwa mfano wako:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## Kwa kutumia Bacca
 
@@ -197,4 +197,4 @@ Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa utaacha kidole gu
 Ninapendekeza pia uangalie mafunzo haya kwenye GnuPG, ambayo yanaelezea jinsi ya kuangalia uadilifu na uhalisi wa programu yako kabla ya kuisakinisha. Hili ni zoezi muhimu, hasa wakati wa kusakinisha programu ya usimamizi ya Wallet kama vile Liana au Sparrow :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc

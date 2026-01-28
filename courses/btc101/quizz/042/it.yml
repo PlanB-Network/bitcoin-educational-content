@@ -1,13 +1,9 @@
-question: Qual è uno svantaggio potenziale delle valute digitali delle banche centrali (CBDC)?
-answer: Potrebbero limitare la libertà finanziaria degli individui e facilitare abusi autoritari.
+question: Qual è la prima fase dell'iperinflazione?
+answer: Perdita di fiducia.
 wrong_answers:
-  - Potrebbero portare a una diminuzione dell'offerta di denaro.
-  - Potrebbero portare a una diminuzione del valore di Bitcoin.
-  - Potrebbero portare a una diminuzione del valore dell'oro.
+  - Collasso della valuta e aumento dei prezzi.
+  - Il circolo vizioso della stampa di denaro.
+  - Emerge una nuova valuta.
 explanation: |
-  Le valute digitali delle banche centrali (CBDC) potrebbero potenzialmente
-  limitare la libertà finanziaria degli individui e facilitare
-  abusi autoritari. Questo perché darebbero vita a un'economia più pianificata 
-  centralmente, con la banca centrale che avrebbe ancora più controllo 
-  sull'emissione di denaro.
-reviewed: true
+  La prima fase dell'iperinflazione è la perdita di fiducia in una valuta.
+reviewed: vero

@@ -1,0 +1,9 @@
+question: LN+ tüccarlar için neden uygun değil?
+answer: Önemli sermaye yatırımı
+wrong_answers:
+  - İlgili düğümlerin güvenilirliğinin olmaması
+  - İtibar sistemi yok
+  - Kanallar çok küçük
+explanation: |
+  Elde edilen her gelen uydu, bir giden uydunun engellenmesini gerektirir, bu da bir işletme için ölçeklenebilirliği sınırlar.
+reviewed: false

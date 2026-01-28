@@ -1,0 +1,9 @@
+question: Welches ist die am weitesten verbreiteste Bitcoin Node-Implementierung?
+answer: Bitcoin Core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  Mit etwa 9 von 10 Nodes im Netzwerk ist Bitcoin Core die Hauptimplementierung.
+reviewed: true

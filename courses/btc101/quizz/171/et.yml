@@ -1,9 +1,9 @@
-question: Kuidas tagab Bitcoin'i protokoll oma tsenseerimatususe ja peatamatususe?
-answer: Iga protokolli komponent on geograafiliselt jaotatud üle kogu maailma
+question: Mis on Bitcoin'i üldine suundumus seoses selle piiratud koguse ja poolitamisprotsessiga?
+answer: Üldine tõusutrend.
 wrong_answers:
-  - See kasutab detsentraliseeritud sõlmede võrku
-  - See kasutab keerulist algoritmi tehingute valideerimiseks
-  - See kasutab kõrgetasemelist krüpteeringut
+  - Üldine langustrend.
+  - Mingit trendi pole.
+  - Trend, mis kõigub metsikult ilma äratuntava mustrita.
 explanation: >-
-  Bitcoin'i protokoll tagab oma tsenseerimatususe ja peatamatususe, kuna iga protokolli komponent on geograafiliselt jaotatud üle kogu maailma. Näiteks on kogu maailmas umbes 40 000 Bitcoin'i sõlme.
+  Bitcoin, olles piiratud koguses 21 miljoni bitcoiniga ja läbides poolitamisprotsessi (rahalise loomise poolitamine iga 4 aasta tagant keskmiselt), järgib üldist tõusutrendi.
 reviewed: false

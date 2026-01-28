@@ -1,11 +1,11 @@
-question: Hva er den største fordelen med gull over andre former for valuta?
-answer: Dets naturlige sjeldenhet gjør det verdifullt, mens dets kjemiske egenskaper gjør at det ikke eroderer over tid
+question: Hva betyr begrepet fiduciary i sammenheng med valutaer?
+answer: Det refererer til valutaer som ikke har noen iboende verdi og er avhengige av tilliten til institusjonene som regulerer dem.
 wrong_answers:
-  - Det er lett å dele opp og transportere
-  - Det er underlagt monetær inflasjon
-  - Det er bredt akseptert i handel
+  - Det refererer til valutaer som er støttet av gull.
+  - Det refererer til valutaer som kun brukes for fiduciære transaksjoner.
+  - Det refererer til valutaer som kun brukes innenfor en spesifikk institusjon.
 explanation: |
-  Den største fordelen med gull over andre former for valuta er dets naturlige
-  sjeldenhet, som gjør det verdifullt, og dets kjemiske egenskaper, som gjør at det
-  ikke eroderer over tid.
+  Fiduciære valutaer er de som ikke er støttet av en fysisk vare
+  som gull eller sølv. Deres verdi er avledet fra tilliten og tillitsfølelsen folk
+  har til institusjonene som utsteder og regulerer dem.
 reviewed: true

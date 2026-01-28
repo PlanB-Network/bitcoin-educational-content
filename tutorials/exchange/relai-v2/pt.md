@@ -16,21 +16,21 @@ O Relai distingue-se pela sua simplicidade, acessibilidade e foco na poupança d
 ### Passo 1: Descarregar a aplicação Relai
 
 
-- Onde encontrar:** A aplicação está disponível na App Store (iOS) e na Google Play Store (Android). Procure por "Relai" e descarregue-a gratuitamente.
-- Configuração rápida:** Uma vez instalada, abra a aplicação e siga o processo de configuração guiada.
+- **Onde encontrar:** A aplicação está disponível na App Store (iOS) e na Google Play Store (Android). Procure por "Relai" e descarregue-a gratuitamente.
+- **Configuração rápida:** Uma vez instalada, abra a aplicação e siga o processo de configuração guiada.
 
 ### Passo 2: Criar a sua conta
 
 
-- KYC obrigatório:** O Relai requer agora uma verificação de Conhecer o seu cliente (KYC). Prepare um documento de identidade válido e um comprovante de endereço.
-- Processo de verificação:** Carregue os seus documentos, tire uma selfie para confirmar a sua identidade e aguarde a aprovação (normalmente, no prazo de 24 horas).
-- Porquê o KYC?:** Garante a conformidade com os regulamentos financeiros e aumenta a segurança de todos os utilizadores.
+- **KYC obrigatório:** O Relai requer agora uma verificação de Conhecer o seu cliente (KYC). Prepare um documento de identidade válido e um comprovante de endereço.
+- **Processo de verificação:** Carregue os seus documentos, tire uma selfie para confirmar a sua identidade e aguarde a aprovação (normalmente, no prazo de 24 horas).
+- **Porquê o KYC?:** Garante a conformidade com os regulamentos financeiros e aumenta a segurança de todos os utilizadores.
 
 ### Passo 3: Proteja a sua carteira
 
 
-- Auto-Custódia:** Relai oferece uma carteira sem custódia, o que significa que você controla suas chaves privadas.
-- Faça uma cópia de segurança das suas chaves:** Escreva a sua frase de recuperação de 12 palavras num papel (não digitalmente) e guarde-a em segurança. Isto é crucial para aceder aos seus fundos se o telemóvel for perdido ou roubado.
+- **Auto-Custódia:** Relai oferece uma carteira sem custódia, o que significa que você controla suas chaves privadas.
+- Faça uma cópia de segurança das suas chaves: Escreva a sua frase de recuperação de 12 palavras num papel (não digitalmente) e guarde-a em segurança. Isto é crucial para aceder aos seus fundos se o telemóvel for perdido ou roubado.
 
 ---
 ## Como criar um plano de poupança Bitcoin
@@ -123,11 +123,11 @@ O Relai apresentará as taxas de rede aplicáveis.
 ## Dicas para uma gestão segura de Bitcoins
 
 
-- Mantenha a sua frase de recuperação segura:** Guarde-a offline e evite partilhá-la com alguém.
-- Ativar a segurança da aplicação:** Utilizar um PIN forte ou autenticação biométrica.
-- Diversificar o armazenamento:** Considerar a utilização de uma carteira de hardware para grandes quantidades de Bitcoin.
-- Atualização regular da aplicação:** Mantenha-se protegido com os mais recentes patches de segurança e funcionalidades.
-- Evite redes Wi-Fi públicas:** Aceda à sua carteira apenas em redes seguras.
+- **Mantenha a sua frase de recuperação segura:** Guarde-a offline e evite partilhá-la com alguém.
+- **Ativar a segurança da aplicação:** Utilizar um PIN forte ou autenticação biométrica.
+- **Diversificar o armazenamento:** Considerar a utilização de uma carteira de hardware para grandes quantidades de Bitcoin.
+- **Atualização regular da aplicação:** Mantenha-se protegido com os mais recentes patches de segurança e funcionalidades.
+- **Evite redes Wi-Fi públicas:** Aceda à sua carteira apenas em redes seguras.
 
 ---
 ## Relai Contas Comerciais
@@ -135,10 +135,10 @@ O Relai apresentará as taxas de rede aplicáveis.
 A Relai também apoia as empresas que pretendem investir em Bitcoin. As caraterísticas incluem:
 
 
-- Planos de poupança personalizados:** Planos adaptados às necessidades da empresa.
-- Acesso Multi-Utilizador:** Permitir que vários membros da equipa possam gerir a conta de forma segura.
-- Limites reforçados:** Investir montantes mais elevados em comparação com as contas pessoais.
-- Apoio dedicado:** Aceder a um serviço de apoio ao cliente prioritário para empresas.
+- **Planos de poupança personalizados:** Planos adaptados às necessidades da empresa.
+- **Acesso Multi-Utilizador:** Permitir que vários membros da equipa possam gerir a conta de forma segura.
+- **Limites reforçados:** Investir montantes mais elevados em comparação com as contas pessoais.
+- **Apoio dedicado:** Aceder a um serviço de apoio ao cliente prioritário para empresas.
 
 Para criar uma conta comercial, contacte a equipa de apoio da Relai através do seu sítio Web.
 
@@ -148,9 +148,9 @@ Para criar uma conta comercial, contacte a equipa de apoio da Relai através do 
 O Relai oferece um programa de referência interessante onde pode ganhar Bitcoin convidando os seus amigos a utilizar a aplicação. Veja como funciona:
 
 
-- Partilhe o seu código de referência:** Cada utilizador Relai recebe um código de referência único. Partilhe-o com os seus amigos.
-- Ganhe 10% das taxas:** Ganhará 10% das taxas das transacções dos seus amigos quando estes utilizarem o seu código.
-- Renda Passiva de Bitcoin:** Como seus amigos continuam a negociar no Relai, você continuará ganhando Bitcoin. É um ganho para si e para os seus amigos.
+- **Partilhe o seu código de referência:** Cada utilizador Relai recebe um código de referência único. Partilhe-o com os seus amigos.
+- **Ganhe 10% das taxas:** Ganhará 10% das taxas das transacções dos seus amigos quando estes utilizarem o seu código.
+- **Renda Passiva de Bitcoin:** Como seus amigos continuam a negociar no Relai, você continuará ganhando Bitcoin. É um ganho para si e para os seus amigos.
 
 Comece a partilhar o seu código hoje e aumente a sua pilha de Bitcoin sem esforço!
 
@@ -161,7 +161,7 @@ Comece a partilhar o seu código hoje e aumente a sua pilha de Bitcoin sem esfor
 
 
 - Relai cobra uma taxa competitiva de 1% por transação, ou 0,9% se você usar um código de referência como `REL361712`. As taxas são exibidas de forma transparente antes de confirmar uma compra.
-- Zero comissões:** As transacções até 100 euros ou 100 francos suíços são totalmente isentas de comissões.
+- **Zero comissões:** As transacções até 100 euros ou 100 francos suíços são totalmente isentas de comissões.
 
 ### Posso fazer uma pausa no meu plano de poupança?
 

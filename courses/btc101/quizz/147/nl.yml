@@ -1,16 +1,13 @@
-question: Wat zouden de gevolgen zijn voor Bitcoin gebruikers als de blokken 100 keer zwaarder zouden zijn?
-answer: Het runnen van een Bitcoin node zou niet toegankelijk zijn voor de gemiddelde persoon, wat de decentralisatie van het protocol en de onveranderlijkheid van zowel transacties als consensusregels in gevaar brengt.
+question: Wat is de rol van ASIC's in Bitcoin Mining?
+answer: ASIC's zijn machines die alleen ontworpen zijn voor het toepassen van het SHA256-algoritme in het Mining proces.
 wrong_answers:
-  - Het runnen van een Bitcoin node zou toegankelijker zijn voor de gemiddelde persoon, wat de decentralisatie van het protocol en de onveranderlijkheid van zowel transacties als consensusregels ten goede komt.
-  - De transactiecapaciteit van het netwerk zou afnemen.
-  - De Block reward voor mijnwerkers zou toenemen.
+  - ASIC's worden gebruikt om Bitcoin transacties te verifiëren door het SHA256 algoritme toe te passen in het verificatieproces.
+  - ASIC's worden gebruikt om willekeurig nieuwe bitcoins te maken.
+  - ASIC's worden gebruikt om het Bitcoin netwerk te beveiligen.
 explanation: |
-  Als de blokken 100 keer zwaarder zouden zijn, zou een Bitcoin
-  node een Hard schijf van 50 TB nodig hebben, een bandbreedte van meer dan
-  500GB/maand en hardware die honderdduizenden transacties in minder dan 10 minuten kan valideren
-  transacties te valideren in minder dan 10 minuten. Deze
-  zou het runnen van een Bitcoin node ontoegankelijk maken voor de gemiddelde persoon
-  gemiddelde persoon, waardoor de decentralisatie van het
-  protocol en de onveranderlijkheid van transacties en consensusregels
-  regels.
+  ASIC's (Application-Specific Integrated Circuits) zijn
+  gespecialiseerde hardware die speciaal ontworpen is voor Bitcoin
+  Mining. Ze zijn geoptimaliseerd om de SHA256 hashingfunctie uit te voeren
+  functie uit te voeren, wat het wiskundige probleem is dat mijnwerkers
+  moeten oplossen in het Proof of Work proces.
 reviewed: true

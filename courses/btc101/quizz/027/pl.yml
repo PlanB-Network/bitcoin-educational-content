@@ -1,12 +1,10 @@
-question: Dlaczego Bitcoin nie jest obecnie powszechnie akceptowany w handlu?
-answer: Ponieważ nie jest on powszechnie stosowany przez osoby fizyczne.
+question: Jaka jest główna zaleta złota jako waluty?
+answer: Jest niezwykle wytrzymałe.
 wrong_answers:
-  - Ponieważ nie można go transportować.
-  - Ponieważ nie można go podzielić na małe jednostki.
-  - Ponieważ nie jest to Liquid.
+  - Można je łatwo podzielić lub transportować na duże odległości.
+  - Można je łatwo zweryfikować.
+  - Nie jest ono regulowane przez rząd.
 explanation: |
-  Pomimo swoich właściwości, takich jak ściśle ograniczony
-  Supply, Bitcoin nadal nie jest powszechnie akceptowany w handlu
-  w handlu, ze względu na brak akceptacji przez osoby fizyczne, więc
-  sprzedawcy nie są zachęcani do jego akceptowania.
+  Chociaż nie można go łatwo podzielić ani przetransportować na duże odległości, złoto jest bardzo trwałym materiałem, co czyni go dobrym środkiem przechowywania wartości. Złote monety były używane jako
+  waluta w przeszłości, ale nie służyłyby dobrze temu samemu celowi w dzisiejszej erze cyfrowej.
 reviewed: true

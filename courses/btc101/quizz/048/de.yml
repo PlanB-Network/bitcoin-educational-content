@@ -1,11 +1,9 @@
-question: Was ist die Folge von Hyperinflation?
-answer: Ein drastischer Rückgang des Währungswertes.
+question: Wie hoch war ungefähr die Inflationsrate in Deutschland im Oktober 1923 auf dem Höhepunkt der Hyperinflation?
+answer: 29 500 %
 wrong_answers:
-  - Ein kleiner Rückgang des Währungswertes.
-  - Ein drastischer Anstieg des Währungswertes.
-  - Ein kleiner Anstieg des Währungswertes.
+  - 5 200 %
+  - 76 %
+  - 110 %
 explanation: |
-  Aufgrund von Hyperinflation verlieren die Menschen schnell das
-  Vertrauen in die Währung, was zu einem drastischen Rückgang ihres Wertes
-  über einen kurzen Zeitraum führt.
-reviewed: true
+  Der Monat mit der höchsten Inflationsrate in Deutschland war der Oktober 1923, als die Inflation einen Höchststand von 29 500 % erreichte.
+reviewed: false

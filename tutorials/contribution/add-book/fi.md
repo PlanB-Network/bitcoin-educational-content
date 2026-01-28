@@ -10,7 +10,7 @@ PlanB:n tehtävänä on tarjota huipputason koulutusresursseja Bitcoinista mahdo
 ![kirja](assets/01.webp)
 - Ensimmäiseksi sinun tarvitsee olla GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan sinua varten.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) osiossa `resources/books/`:
@@ -67,7 +67,7 @@ tags:
 - Klikkaa vihreää `Ehdota muutoksia` -painiketta: ![kirja](assets/12.webp)
 - Tämän jälkeen päädyt sivulle, joka tiivistää kaikki tekemäsi muutokset: ![kirja](assets/13.webp)
 - Klikkaa GitHub-profiilikuvakettasi oikeassa yläkulmassa, sitten `Omat Repositoriot`: ![kirja](assets/14.webp)
-- Valitse PlanB Network -repositoriosi haara: ![kirja](assets/15.webp)
+- Valitse Plan ₿ Academy -repositoriosi haara: ![kirja](assets/15.webp)
 - Näet ikkunan yläosassa ilmoituksen uudesta haarastasi. Sen nimi on todennäköisesti `patch-1`. Klikkaa sitä: ![kirja](assets/16.webp)
 - Olet nyt työhaarassasi: ![kirja](assets/17.webp)
 - Palaa takaisin `resources/books/` -kansioon ja valitse juuri edellisessä sitoumuksessa luomasi kirjan kansio: ![kirja](assets/18.webp)
@@ -78,7 +78,7 @@ tags:
 - Jätä sitoumuksen otsikko oletusarvoiseksi ja varmista, että `Tee muutokset suoraan patch-1 -haaraan` -ruutu on valittu, sitten klikkaa `Tee muutokset`: ![kirja](assets/23.webp)
 - Palaa takaisin `assets` -kansioon: ![kirja](assets/24.webp)
 - Klikkaa `Lisää tiedosto` -painiketta, sitten `Lataa tiedostoja`: ![kirja](assets/25.webp)
-- Uusi sivu avautuu. Vedä ja pudota kirjasi kansikuva alueelle. Tämä kuva näytetään PlanB Network -sivustolla: ![kirja](assets/26.webp)
+- Uusi sivu avautuu. Vedä ja pudota kirjasi kansikuva alueelle. Tämä kuva näytetään Plan ₿ Academy -sivustolla: ![kirja](assets/26.webp)
 - Ole varovainen, kuvan tulee olla kirjan muodossa, jotta se sopeutuu parhaiten sivustollemme, kuten esimerkiksi: ![kirja](assets/27.webp)
 - Kun kuva on ladattu, varmista, että `Tee muutokset suoraan patch-1 -haaraan` -ruutu on valittu, sitten klikkaa `Tee muutokset`: ![kirja](assets/28.webp)- Huomaa, että kuvan tulee olla nimetty `cover_en` jos kansi on englanniksi ja sen tulee olla `.webp` -muodossa. Näin ollen täydellinen tiedostonimi olisi `cover_en.webp`, `cover_fr.webp`, `cover_it.webp`, jne. Jos haluat käyttää eri kansikuvaa kielellä, esimerkiksi kirjan käännöksen yhteydessä, voit sijoittaa ne samaan paikkaan `assets` -kansiossa: ![kirja](assets/29.webp)
 - Palaa takaisin `assets` -kansioosi ja klikkaa `.gitkeep` välitiedostoa: ![kirja](assets/30.webp)

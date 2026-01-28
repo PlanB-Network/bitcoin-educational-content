@@ -1,0 +1,9 @@
+question: Ni intambwe iyihe ikurikira ubwo nyene gusohoka kw’igisabwa ca NWC n’iporogarama yo kuri telefone ngendanwa ku nzira y’ugutanga amakuru?
+answer: Node ifungura no kugenzura uruhusha
+wrong_answers:
+  - Ugutanga umukono ku busabe bw'urudodo
+  - Relay ikora ivyo kwishura kuri LND
+  - Urudodo rufungura umurongo ubwo nyene
+explanation: |
+  Ico gice gisoma ico kintu, kikagisohora, hanyuma kigasuzuma nimba umwanditsi wemerewe imbere y’uko gikora ico gikorwa.
+reviewed: false

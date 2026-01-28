@@ -1,10 +1,9 @@
-question: Šta ovaj kurs sugeriše o tempu učenja o Bitkoina?
-answer: Komplikovano je asimilovati sve odjednom, zato uzmi svoje vreme.
+question: Koji mehanizam povezuje sidechain sa Bitcoinom?
+answer: Dvosmerno sidrenje
 wrong_answers:
-  - Lako je naučiti sve odjednom.
-  - Nemoguće je naučiti sve o Bitkoinu.
-  - Nije neophodno naučiti sve o Bitkoinu.
+  - Platni kanal
+  - Proof of Stake
+  - Sharding
 explanation: |
-  Kurs sugeriše da postoji mnogo toga za istraživanje sa
-  Bitkoinom i da je komplikovano asimilirati sve odjednom, tako da bi trebalo uzeti vremena.
-reviewed: true
+  Mehanizam two-way peg omogućava zaključavanje BTC-a na Bitcoinu i njihovo predstavljanje na sidechainu.
+reviewed: false

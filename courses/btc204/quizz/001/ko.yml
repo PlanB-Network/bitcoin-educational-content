@@ -1,0 +1,9 @@
+question: Bitcoin의 UTXO이란 무엇인가요?
+answer: 아직 사용하지 않은 Bitcoin 조각입니다.
+wrong_answers:
+  - 자금을 받기 위한 Bitcoin Address.
+  - 특별한 유형의 Bitcoin Wallet.
+  - Bitcoin용 암호화 알고리즘입니다.
+explanation: |
+  UTXO는 사용되지 않은 거래 결과이므로 본질적으로 "Bitcoin의 일부"입니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: RGB 라이트닝 노드 환경에서 RGB 프록시 서버의 기능은 무엇인가요?
+answer: RGB 위탁의 Exchange 촉진
+wrong_answers:
+  - 노드가 채널을 열 수 있도록 공개 키를 제공하세요
+  - RGB 상태 전환 기록 유지
+  - RGB 토큰에 대한 중복 티커 방지
+explanation: |
+  RGB 프록시 서버는 중개자 역할을 함으로써 라이트닝 참여자 간의 RGB 위탁 통신을 간소화하여 현재 Bitcoin 및 라이트닝에서 경험하는 것과 유사한 원활한 사용자 경험을 제공합니다.
+reviewed: false

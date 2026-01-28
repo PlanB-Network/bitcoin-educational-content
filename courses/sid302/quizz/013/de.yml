@@ -1,0 +1,8 @@
+question: Was passiert in einem Taproot-fähigen HTLC, wenn sich beide Parteien kooperativ darauf einigen, den schichtenübergreifenden Tausch abzuschließen?
+answer: Sie unterzeichnen gemeinsam mit ihrem aggregierten öffentlichen Schlüssel über MuSig2, wodurch eine Transaktion entsteht, die von einer normalen Zahlung mit einer einzigen Unterschrift nicht zu unterscheiden ist
+wrong_answers:
+  - Sie müssen das vollständige Skript mit Hash und Zeitsperren on-chain für die Netzüberprüfung offenlegen
+  - Sie veröffentlichen nur den spezifischen Merkle-Baumzweig, der benötigt wird, und halten den aggregierten Schlüssel vor Beobachtern verborgen
+  - Sie übertragen gleichzeitig separate Transaktionen auf jeder Ebene, um eine atomare Abrechnung ohne Schlüsselaggregation zu gewährleisten
+explanation: |
+  Der kooperative "Schlüsselpfad" in Taproot ermöglicht es den Parteien, ihre Schlüssel mithilfe von MuSig2 zu einem einzigen aggregierten öffentlichen Schlüssel zu kombinieren. Wenn beide zustimmen, unterzeichnen sie einfach die Transaktion, die identisch mit jeder Standardzahlung auf der Blockchain erscheint. Dies bietet ein Höchstmaß an Datenschutz und Effizienz, da keine Skriptlogik offengelegt wird und nur minimaler Blockplatz benötigt wird. Die anderen Optionen beschreiben fälschlicherweise entweder das alte HTLC-Verhalten oder das Szenario des gegnerischen Skriptpfads.

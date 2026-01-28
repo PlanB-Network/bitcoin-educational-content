@@ -62,10 +62,10 @@ Bạn sẽ cần cấu hình một thùng và cung cấp thông tin sau:
 
 
 
-- S3_BUCKET**: tên thùng
-- S3_ENDPOINT_URL**: liên kết truy cập đến dịch vụ S3 của bạn
-- S3_KEY_ID** và S3_KEY_SECRET: mã truy cập của bạn
-- S3_REGION**: khu vực dịch vụ S3 của bạn
+- **S3_BUCKET**: tên thùng
+- **S3_ENDPOINT_URL**: liên kết truy cập đến dịch vụ S3 của bạn
+- **S3_KEY_ID** và **S3_KEY_SECRET**: mã truy cập của bạn
+- **S3_REGION**: khu vực dịch vụ S3 của bạn
 
 
 
@@ -94,8 +94,8 @@ Bạn sẽ cần các biến sau:
 
 
 
-- MONGODB_URL**: kết nối cơ sở dữ liệu Address
-- MONGODB_DB**: tên cơ sở dữ liệu
+- **MONGODB_URL**: kết nối cơ sở dữ liệu Address
+- **MONGODB_DB**: tên cơ sở dữ liệu
 
 
 
@@ -255,12 +255,13 @@ be-BOP cho phép bạn chấp nhận thanh toán Bitcoin trực tiếp trên Blo
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Trường                  | Mô Tả                                               | Ví Dụ Để Sử Dụng                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **Tiêu Chuẩn BIP**       | Loại địa chỉ được sử dụng                               | BIP84 (cho các địa chỉ ở định dạng bech32 bắt đầu bằng `bc1`) |
+| **Khóa Công Khai Mở Rộng** | Zpub của bạn (hoặc Xpub tùy thuộc vào ví được sử dụng)        | `zpub...` (được trích xuất từ ví Bitcoin của bạn) |
+| **Derivation Index**   | Chỉ mục bắt đầu để tạo địa chỉ         | `1`                                              |
+| **URL Mempool**        | URL của dịch vụ mempool được sử dụng để theo dõi giao dịch | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -348,7 +349,7 @@ Các bước cấu hình:
 
 
 
-**Lưu ý:** Bạn phải có tài khoản doanh nghiệp PayPal để sử dụng generate các mã định danh này. Bạn có thể lấy mã định danh này thông qua cổng thông tin [developer] (https://developer.paypal.com)
+**Lưu ý:** Bạn phải có tài khoản doanh nghiệp PayPal để sử dụng generate các mã định danh này. Bạn có thể lấy mã định danh này thông qua cổng thông tin [developer](https://developer.paypal.com)
 
 
 
@@ -474,8 +475,8 @@ Cấu hình **Thanh trên cùng** cho phép bạn cá nhân hóa nhận diện t
 
 
 - Trong trường `Tên thương hiệu`, hãy nhập tên công ty, tổ chức hoặc sản phẩm của bạn. Tên này sẽ xuất hiện ở đầu mẫu Interface và sẽ đại diện cho hình ảnh nhận diện chính của bạn.
-- Ghi rõ tiêu đề trang web**: tiêu đề được chọn phải tóm tắt mục đích của nền tảng. Tiêu đề này có thể xuất hiện ở tiêu đề trang hoặc trong tab trình duyệt.
-- Thêm mô tả trang web**: đây là nơi bạn nhập mô tả ngắn gọn về sáng kiến của mình. Mô tả này giúp ngữ cảnh hóa công cụ cho người dùng và cũng có thể được sử dụng cho mục đích SEO.
+- **Ghi rõ tiêu đề trang web**: tiêu đề được chọn phải tóm tắt mục đích của nền tảng. Tiêu đề này có thể xuất hiện ở tiêu đề trang hoặc trong tab trình duyệt.
+- **Thêm mô tả trang web**: đây là nơi bạn nhập mô tả ngắn gọn về sáng kiến của mình. Mô tả này giúp ngữ cảnh hóa công cụ cho người dùng và cũng có thể được sử dụng cho mục đích SEO.
 
 
 
@@ -497,10 +498,10 @@ Phần `Liên kết` trên Thanh Trên cùng cho phép bạn thêm lối tắt �
 
 
 
-- Nhập tên liên kết (Văn bản)**: trong trường `Văn bản`, nhập tên hoặc nhãn của liên kết theo cách hiển thị (ví dụ: Trang chủ, Liên hệ, Trợ giúp...).
-- Chỉ định liên kết Address (Url)**: trong trường `Url`, nhập đầy đủ Address của trang đích (nội bộ hoặc bên ngoài).
-- Thêm các liên kết khác nếu cần**: mỗi dòng cấu hình cho phép bạn thêm một liên kết bổ sung bằng cách sử dụng các trường `Text` và `Url`.
-- Lưu liên kết**: sau khi đã nhập tất cả liên kết, hãy nhấp vào nút "Thêm liên kết thanh trên cùng" để lưu chúng.
+- Nhập tên liên kết (**Văn bản**): trong trường `Văn bản`, nhập tên hoặc nhãn của liên kết theo cách hiển thị (ví dụ: Trang chủ, Liên hệ, Trợ giúp...).
+- **Chỉ định liên kết Address (Url)**: trong trường `Url`, nhập đầy đủ Address của trang đích (nội bộ hoặc bên ngoài).
+- **Thêm các liên kết khác nếu cần**: mỗi dòng cấu hình cho phép bạn thêm một liên kết bổ sung bằng cách sử dụng các trường `Text` và `Url`.
+- **Lưu liên kết**: sau khi đã nhập tất cả liên kết, hãy nhấp vào nút "Thêm liên kết thanh trên cùng" để lưu chúng.
 
 
 
@@ -522,10 +523,10 @@ Phần **Thanh điều hướng** cho phép bạn cấu hình menu điều hư�
 
 
 
-- Nhập tên liên kết (`Text`)**: trên dòng cấu hình, hãy bắt đầu bằng cách điền vào trường `Text`. Trường này tương ứng với tên của liên kết hiển thị trên thanh điều hướng (ví dụ: *Dashboard*, *Users*, *Settings*...).
-- Nhập liên kết Address (`Url`)**: bên cạnh trường `Văn bản`, bạn sẽ thấy trường `Url`. Trong trường này, hãy nhập Address của trang mà liên kết sẽ chuyển hướng đến. Đây có thể là một tuyến đường nội bộ hoặc một liên kết đến một trang bên ngoài.
-- Thêm nhiều liên kết nếu cần**: bên dưới dòng đầu tiên, các trường `Text` và `Url` mới có sẵn để thêm bao nhiêu liên kết tùy thích. Mỗi dòng đại diện cho một liên kết điều hướng bổ sung.
-- Lưu liên kết**: sau khi bạn đã nhập tất cả Elements, hãy nhấp vào nút `Thêm liên kết thanh điều hướng` để lưu và hiển thị kết quả trên thanh điều hướng.
+- Nhập tên liên kết (**Text**): trên dòng cấu hình, hãy bắt đầu bằng cách điền vào trường `Text`. Trường này tương ứng với tên của liên kết hiển thị trên thanh điều hướng (ví dụ: *Dashboard*, *Users*, *Settings*...).
+- Nhập liên kết Address (`Url`): bên cạnh trường `Văn bản`, bạn sẽ thấy trường `Url`. Trong trường này, hãy nhập Address của trang mà liên kết sẽ chuyển hướng đến. Đây có thể là một tuyến đường nội bộ hoặc một liên kết đến một trang bên ngoài.
+- **Thêm nhiều liên kết nếu cần**: bên dưới dòng đầu tiên, các trường `Text` và `Url` mới có sẵn để thêm bao nhiêu liên kết tùy thích. Mỗi dòng đại diện cho một liên kết điều hướng bổ sung.
+- **Lưu liên kết**: sau khi bạn đã nhập tất cả Elements, hãy nhấp vào nút `Thêm liên kết thanh điều hướng` để lưu và hiển thị kết quả trên thanh điều hướng.
 
 
 
@@ -547,11 +548,11 @@ Phần **Chân trang** cho phép bạn tùy chỉnh chân trang của phần m�
 
 
 
-- Cho phép hiển thị nhãn "Được cung cấp bởi be-BOP"**: kích hoạt nút `Hiển thị được cung cấp bởi be-BOP` để hiển thị nhãn này ở chân trang.
-- Nhập tên liên kết (`Văn bản`)**: điền vào trường `Văn bản` tương ứng với nội dung của liên kết ở phần chân trang (ví dụ: *Điều khoản*, *Quyền riêng tư*, *Liên hệ*...).
-- Chỉ định liên kết Address (`Url`)**: trong trường `Url`, nhập Address của trang đích (nội bộ hoặc bên ngoài).
-- Thêm liên kết nếu cần**: sử dụng các dòng bổ sung để tạo nhiều liên kết tùy thích.
-- Lưu liên kết**: nhấp vào nút "Thêm liên kết chân trang" để lưu liên kết.
+- Cho phép hiển thị nhãn **"Được cung cấp bởi be-BOP"**: kích hoạt nút `Hiển thị được cung cấp bởi be-BOP` để hiển thị nhãn này ở chân trang.
+- Nhập tên liên kết (**Văn bản**): điền vào trường **Văn bản** tương ứng với nội dung của liên kết ở phần chân trang (ví dụ: *Điều khoản*, *Quyền riêng tư*, *Liên hệ*...).
+- Chỉ định liên kết Address (**Url**): trong trường `Url`, nhập Address của trang đích (nội bộ hoặc bên ngoài).
+- **Thêm liên kết nếu cần**: sử dụng các dòng bổ sung để tạo nhiều liên kết tùy thích.
+- **Lưu liên kết**: nhấp vào nút "Thêm liên kết chân trang" để lưu liên kết.
 
 
 
@@ -641,8 +642,8 @@ Có thể truy cập thông qua `Quản trị > Danh tính` (hoặc `Cài đặt
 
 
 
-- Tên doanh nghiệp**: tên công ty chính thức.
-- Mã số doanh nghiệp**: mã số định danh hợp pháp hoặc số đăng ký (RCCM, SIRET...).
+- **Tên doanh nghiệp**: tên công ty chính thức.
+- **Mã số doanh nghiệp**: mã số định danh hợp pháp hoặc số đăng ký (RCCM, SIRET...).
 
 
 
@@ -652,11 +653,11 @@ Có thể truy cập thông qua `Quản trị > Danh tính` (hoặc `Cài đặt
 
 
 
-- Đường phố**: mã bưu chính Address (đường phố, số nhà...).
-- Quốc gia**: quốc gia.
-- Tiểu bang**: tỉnh hoặc khu vực.
-- Thành phố**: thành phố.
-- Mã ZIP**: mã bưu chính.
+- **Đường phố**: mã bưu chính Address (đường phố, số nhà...).
+- **Quốc gia**: quốc gia.
+- **Tiểu bang**: tỉnh hoặc khu vực.
+- **Thành phố**: thành phố.
+- **Mã ZIP**: mã bưu chính.
 
 
 
@@ -666,8 +667,8 @@ Có thể truy cập thông qua `Quản trị > Danh tính` (hoặc `Cài đặt
 
 
 
-- Email**: email chuyên nghiệp Address.
-- Điện thoại**: số điện thoại công ty.
+- **Email**: email chuyên nghiệp Address.
+- **Điện thoại**: số điện thoại công ty.
 
 
 
@@ -677,10 +678,10 @@ Có thể truy cập thông qua `Quản trị > Danh tính` (hoặc `Cài đặt
 
 
 
-- Tên chủ tài khoản**: tên của chủ tài khoản.
-- Chủ tài khoản Address**: Address của chủ tài khoản.
-- IBAN**: Số tài khoản ngân hàng quốc tế.
-- BIC**: Mã SWIFT/BIC.
+- **Tên chủ tài khoản**: tên của chủ tài khoản.
+- Chủ tài khoản **Address**: Address của chủ tài khoản.
+- **IBAN**: Số tài khoản ngân hàng quốc tế.
+- **BIC**: Mã SWIFT/BIC.
 
 
 
@@ -695,7 +696,7 @@ Có thể truy cập thông qua `Quản trị > Danh tính` (hoặc `Cài đặt
 
 
 - Nhấp vào `Điền thông tin cửa hàng chính` để điền trước dữ liệu.
-- Thông tin người phát hành ở góc trên bên phải**: trường thông tin pháp lý/thuế hiển thị trên hóa đơn.
+- **Thông tin người phát hành ở góc trên bên phải**: trường thông tin pháp lý/thuế hiển thị trên hóa đơn.
 - Nhấp vào `Cập nhật` để lưu thay đổi.
 
 
@@ -742,9 +743,9 @@ Vào `Quản trị > Hàng hóa > Sản phẩm` để thêm hoặc sửa đổi 
 
 
 
-- Tên sản phẩm**: tên của sản phẩm (ví dụ: *Áo phông BOP phiên bản giới hạn*).
-- Slug**: Mã định danh URL không có khoảng trắng (ví dụ: `tshirt-bop-edition-limitee`).
-- Biệt danh** *(tùy chọn)*: hữu ích để thêm nhanh vào giỏ hàng thông qua trường chuyên dụng.
+- **Tên sản phẩm**: tên của sản phẩm (ví dụ: *Áo phông BOP phiên bản giới hạn*).
+- **Slug**: Mã định danh URL không có khoảng trắng (ví dụ: `tshirt-bop-edition-limitee`).
+- **Biệt danh** *(tùy chọn)*: hữu ích để thêm nhanh vào giỏ hàng thông qua trường chuyên dụng.
 
 
 
@@ -758,9 +759,9 @@ Vào `Quản trị > Hàng hóa > Sản phẩm` để thêm hoặc sửa đổi 
 
 
 
-- Số tiền giá**: giá sản phẩm (ví dụ: `25,00`).
-- Giá Tiền tệ**: tiền tệ (EUR, USD, BTC, v.v.).
-- Sản phẩm đặc biệt**:
+- **Số tiền giá**: giá sản phẩm (ví dụ: `25,00`).
+- **Giá Tiền tệ**: tiền tệ (EUR, USD, BTC, v.v.).
+- **Sản phẩm đặc biệt**:
   - đây là sản phẩm miễn phí.
   - đây là sản phẩm trả theo nhu cầu của bạn.
 
@@ -772,14 +773,14 @@ Vào `Quản trị > Hàng hóa > Sản phẩm` để thêm hoặc sửa đổi 
 
 
 
-- Sản phẩm đơn lẻ (`độc lập`)**: chỉ có thể thêm một sản phẩm cho mỗi đơn hàng (ví dụ: quyên góp, vé vào cửa).
-- Sản phẩm có nhiều biến thể**:
+- Sản phẩm đơn lẻ (**độc lập**): chỉ có thể thêm một sản phẩm cho mỗi đơn hàng (ví dụ: quyên góp, vé vào cửa).
+- Sản phẩm có nhiều **biến thể**:
   - Không chọn `Standalone`.
   - Kiểm tra `Sản phẩm có sự thay đổi nhỏ (không có sự khác biệt về số lượng)`.
   - Thêm vào:
-    - Tên** (ví dụ: *Kích thước*),
-    - Giá trị** (ví dụ: S, M, L, XL),
-    - Chênh lệch giá** nếu có (ví dụ: `+2 USD` cho cỡ XL).
+- **Tên** (ví dụ: *Kích thước*),
+- **Giá trị** (ví dụ: S, M, L, XL),
+- Chênh lệch giá nếu có (ví dụ: `+2 USD` cho cỡ XL).
 
 
 
@@ -809,8 +810,8 @@ Hệ thống quản lý:
 
 
 
-- Hàng tồn kho** → sản phẩm trong giỏ hàng chưa thanh toán
-- Hàng đã bán** → sản phẩm đã mua
+- **Hàng tồn kho** → sản phẩm trong giỏ hàng chưa thanh toán
+- **Hàng đã bán** → sản phẩm đã mua
 
 
 
@@ -832,8 +833,8 @@ Hệ thống quản lý:
 
 
 
-- Vé**: đánh dấu nếu sản phẩm là vé cho một sự kiện
-- Đặt chỗ**: kiểm tra xem đây có phải là khoảng thời gian đặt chỗ không (ví dụ: buổi học, cuộc hẹn)
+- **Vé**: đánh dấu nếu sản phẩm là vé cho một sự kiện
+- **Đặt chỗ**: kiểm tra xem đây có phải là khoảng thời gian đặt chỗ không (ví dụ: buổi học, cuộc hẹn)
 
 
 
@@ -849,12 +850,13 @@ Phần này xác định **nơi** và **cách** có thể xem và mua sản ph�
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Nền tảng        | Sản phẩm Hiển thị | Có thể Thêm vào Giỏ |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (trang công khai)        | ✔️              | ✔️                  |
+| Retail POS (điểm bán hàng)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (bán hàng qua bot)  | ✔️              | ✔️                  |
 
 Chỉ chọn những kênh bạn muốn sử dụng.
 
@@ -898,7 +900,7 @@ Bạn có thể thêm các trang khác nếu cần:
 
 
 
-**Mẹo: Nhấp vào từng liên kết hoặc biểu tượng để sửa đổi **nội dung**, **tiêu đề** hoặc **khả năng hiển thị SEO** của mỗi trang.
+**Mẹo: Nhấp vào từng liên kết hoặc biểu tượng để sửa đổi** nội dung, tiêu đề hoặc khả năng hiển thị SEO **của mỗi trang.**
 
 
 
@@ -983,7 +985,7 @@ Ngoài ra, có thể sửa đổi trong `Hình ảnh`, cho phép bạn hiển th
 
 
 
-Tiện ích** làm phong phú thêm các trang CMS của bạn bằng Elements động hoặc trực quan.
+**Tiện ích** làm phong phú thêm các trang CMS của bạn bằng Elements động hoặc trực quan.
 
 
 
@@ -1001,14 +1003,14 @@ Ví dụ về các tiện ích có sẵn:
 
 
 
-- Thử thách**: thử thách hoặc nhiệm vụ
-- Thẻ**: danh mục hoặc từ khóa
-- Thanh trượt**: vòng quay hình ảnh
-- Thông số kỹ thuật**: Bảng thông số kỹ thuật
-- Biểu mẫu**: biểu mẫu (liên hệ, phản hồi, v.v.)
-- Đếm ngược**: bộ đếm thời gian
-- Thư viện ảnh**: thư viện ảnh
-- Bảng xếp hạng**: bảng xếp hạng của người dùng
+- **Thử thách**: thử thách hoặc nhiệm vụ
+- **Thẻ**: danh mục hoặc từ khóa
+- **Thanh trượt**: vòng quay hình ảnh
+- **Thông số kỹ thuật**: Bảng thông số kỹ thuật
+- **Biểu mẫu**: biểu mẫu (liên hệ, phản hồi, v.v.)
+- **Đếm ngược**: bộ đếm thời gian
+- **Thư viện ảnh**: thư viện ảnh
+- **Bảng xếp hạng**: bảng xếp hạng của người dùng
 
 
 
@@ -1024,14 +1026,15 @@ Sử dụng **mã ngắn** trong nội dung trang CMS của bạn:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Mục Tiêu                 | Thẻ để Chèn                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Hiển thị sản phẩm      | `[Product=slug?display=img-1]`        |
+| Hiển thị hình ảnh       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Tích hợp thanh trượt       | `[Slider=slug?autoplay=3000]`         |
+| Thêm thử thách     | `[Challenge=slug]`                    |
+| Thêm đếm ngược | `[Countdown=slug]`                 |
+| Tích hợp biểu mẫu   | `[Form=slug]`                         |
 
 **Thông số hiện tại**:
 
@@ -1166,9 +1169,9 @@ Các báo cáo được chia thành các phần:
 
 
 
-- Chi tiết đơn hàng**: số lượng đơn hàng, trạng thái (đã xác nhận, đã hủy, đang chờ xử lý), tiến độ
-- Chi tiết sản phẩm**: sản phẩm đã bán, số lượng, sản phẩm phổ biến
-- Chi tiết thanh toán**: số tiền đã thu, phân tích theo phương thức thanh toán
+- **Chi tiết đơn hàng**: số lượng đơn hàng, trạng thái (đã xác nhận, đã hủy, đang chờ xử lý), tiến độ
+- **Chi tiết sản phẩm**: sản phẩm đã bán, số lượng, sản phẩm phổ biến
+- **Chi tiết thanh toán**: số tiền đã thu, phân tích theo phương thức thanh toán
 
 
 
@@ -1310,9 +1313,9 @@ Khi tạo hoặc sửa đổi chủ đề, bạn có thể xác định:
 
 
 
-- Màu sắc**: cho nút, hình nền, văn bản, liên kết, v.v.
-- Phông chữ**: lựa chọn kiểu chữ cho tiêu đề, đoạn văn, menu
-- Kiểu đồ họa**: đường viền, lề, khoảng cách, hình khối
+- **Màu sắc**: cho nút, hình nền, văn bản, liên kết, v.v.
+- **Phông chữ**: lựa chọn kiểu chữ cho tiêu đề, đoạn văn, menu
+- **Kiểu đồ họa**: đường viền, lề, khoảng cách, hình khối
 
 
 
@@ -1326,9 +1329,9 @@ Mỗi phần của trang web có thể được điều chỉnh độc lập:
 
 
 
-- Tiêu đề**: thanh điều hướng trên cùng
-- Nội dung chính**:
-- Footer**: cuối trang
+- **Tiêu đề**: thanh điều hướng trên cùng
+- **Nội dung chính**:
+- **Footer**: cuối trang
 
 
 
@@ -1377,8 +1380,8 @@ Mỗi email (xác nhận đơn hàng, quên mật khẩu, v.v.) đều có:
 
 
 
-- Tiêu đề**: tiêu đề của email (ví dụ: "Đơn hàng của bạn đã được xác thực")
-- Nội dung HTML**: Nội dung HTML hiển thị trong email
+- **Tiêu đề**: tiêu đề của email (ví dụ: "Đơn hàng của bạn đã được xác thực")
+- **Nội dung HTML**: Nội dung HTML hiển thị trong email
 
 
 
@@ -1444,9 +1447,9 @@ Hoàn thành các trường sau:
 
 
 
-- Tên thẻ**: tên thẻ được hiển thị
-- Slug**: mã định danh duy nhất (không có khoảng trắng hoặc dấu trọng âm)
-- Họ thẻ**: nhóm các thẻ theo danh mục
+- **Tên thẻ**: tên thẻ được hiển thị
+- **Slug**: mã định danh duy nhất (không có khoảng trắng hoặc dấu trọng âm)
+- **Họ thẻ**: nhóm các thẻ theo danh mục
 
 
 
@@ -1479,9 +1482,9 @@ Các trường này có thể được sử dụng để làm giàu thẻ như t
 
 - Tiêu đề
 - Phụ đề
-- Nội dung ngắn**
-- Nội dung đầy đủ** (bằng tiếng Pháp)
-- CTA** (nút hành động)
+- Nội dung ngắn
+- **Nội dung đầy đủ** (bằng tiếng Pháp)
+- **CTA** (nút hành động)
 
 
 
@@ -1520,8 +1523,8 @@ Thẻ có thể là:
 
 
 
-   - Tên tệp** (ví dụ: *Hướng dẫn cài đặt*)
-   - Tệp để tải lên** (PDF, hình ảnh, Word...)
+- **Tên tệp** (ví dụ: *Hướng dẫn cài đặt*)
+- **Tệp để tải lên** (PDF, hình ảnh, Word...)
 
 
 
@@ -1539,7 +1542,7 @@ Sau đó, liên kết này có thể được chèn vào:
 
 
 
-- Trang CMS** (dưới dạng liên kết văn bản hoặc nút)
+- Trang **CMS** (dưới dạng liên kết văn bản hoặc nút)
 - **Ứng dụng email** (thông qua mẫu)
 - **Bảng thông tin sản phẩm** (ví dụ: tải xuống thủ công)
 
@@ -1635,9 +1638,9 @@ Các tệp dịch được lưu ở định dạng JSON. Bạn có thể:
 
 
 
-- Tải xuống** tệp ngôn ngữ
-- Sửa đổi** các văn bản hiện có
-- Thêm** bản dịch của riêng bạn
+- Tải xuống **tệp ngôn ngữ**
+- **Sửa đổi** các văn bản hiện có
+- Thêm bản dịch của riêng bạn
 
 
 
@@ -1678,9 +1681,9 @@ Mỗi vai trò bao gồm:
 
 
 
-- quyền truy cập ghi**: quyền truy cập ghi
-- quyền truy cập đọc**: quyền truy cập đọc
-- cấm truy cập**: các phần xen kẽ
+- **quyền truy cập ghi**: quyền truy cập ghi
+- **quyền truy cập đọc**: quyền truy cập đọc
+- **cấm truy cập**: các phần xen kẽ
 
 
 
@@ -1709,7 +1712,7 @@ Chỉ định vai trò đã xác định trước đó.
 
 
 
-Người dùng chỉ đọc** sẽ thấy menu được in *in nghiêng* và không thể sửa đổi nội dung.
+Người dùng **chỉ đọc** sẽ thấy menu được in *in nghiêng* và không thể sửa đổi nội dung.
 
 
 
@@ -1747,7 +1750,7 @@ Trong `/cart`, một trường cho phép bạn thêm sản phẩm:
 
 
 
-- Bằng cách quét mã vạch ** (ISBN, EAN13)
+- Bằng cách quét mã vạch **(ISBN, EAN13)**
 - Bằng cách nhập **bí danh sản phẩm** theo cách thủ công
 
 
@@ -1779,8 +1782,8 @@ Có hai tùy chọn nâng cao:
 
 
 
-- Miễn thuế GTGT**: áp dụng khi có lý do chính đáng (tổ chức phi chính phủ, người nước ngoài...)
-- Giảm giá quà tặng**: giảm giá đặc biệt với bình luận bắt buộc
+- **Miễn thuế GTGT**: áp dụng khi có lý do chính đáng (tổ chức phi chính phủ, người nước ngoài...)
+- **Giảm giá quà tặng**: giảm giá đặc biệt với bình luận bắt buộc
 
 
 
@@ -1813,14 +1816,15 @@ URL `/pos/session` dành cho **màn hình phụ** (HDMI, máy tính bảng...):
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Chức năng                         | Mô tả                                             |
+|----------------------------------|---------------------------------------------------------|
+| Vai trò POS                         | Được gán thông qua ARM                                         |
+| Giao diện chính             | `/pos` hoặc `/pos/touch`                                 |
+| Hiển thị khách hàng (Màn hình 2)       | `/pos/session`                                         |
+| Thanh toán                         | Tiền mặt, thẻ, Lightning, v.v.                         |
+| Thêm sản phẩm                    | Bí danh hoặc quét mã vạch                              |
+| Giảm giá / VAT                    | Với lý do quản lý bắt buộc              |
 
 Cảm ơn bạn đã làm theo hướng dẫn này một cách cẩn thận.

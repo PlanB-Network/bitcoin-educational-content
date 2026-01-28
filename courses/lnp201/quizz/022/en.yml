@@ -6,4 +6,4 @@ wrong_answers:
   - Prevent any further transactions in the channel
 explanation: |
   The revocation key allows the aggrieved party to recover all the funds in the event of an attempted cheat by the other party.
-reviewed: false
+reviewed: true

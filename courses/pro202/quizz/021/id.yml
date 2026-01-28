@@ -1,0 +1,8 @@
+question: Apa konsekuensi utama dari lupa menyertakan keluaran perubahan saat mengeluarkan UTXO yang berisi lebih banyak Bitcoin daripada yang dibutuhkan?
+answer: Kelebihan jumlah tersebut secara otomatis menjadi biaya penambang
+wrong_answers:
+  - Transaksi akan ditolak oleh jaringan karena tidak valid
+  - "Jumlah yang berlebih akan dikembalikan ke alamat pengirim asli"
+  - Jumlah yang berlebih tetap terkunci dalam UTXO asli
+explanation: |
+  Dalam model UTXO Bitcoin, biaya transaksi dihitung secara implisit sebagai selisih antara total input dan total output (biaya = jumlah (input) - jumlah (output)). Ketika Anda membelanjakan UTXO, Anda harus membelanjakan seluruhnya - tidak mungkin membelanjakan sebagian. Jika Anda hanya perlu membelanjakan sebagian dari nilai UTXO, Anda harus membuat output perubahan untuk menerima sisanya. Jika Anda lupa memasukkan keluaran perubahan ini, selisih yang tidak terhitung antara masukan dan keluaran secara otomatis menjadi biaya penambang. Inilah sebabnya mengapa konstruksi keluaran perubahan yang tepat sangat penting - tanpa itu, Anda dapat secara tidak sengaja membayar biaya yang sangat besar kepada penambang.

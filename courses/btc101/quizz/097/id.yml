@@ -1,9 +1,11 @@
-question: Apa yang terjadi jika kunci privat Anda terungkap kepada pihak ketiga?
-answer: Dana yang terkait tidak lagi aman
+question: Apa yang bukan merupakan frasa mnemonik dalam konteks Bitcoin?
+answer: Sebuah kata sandi untuk dompet Bitcoin Anda
 wrong_answers:
-  - Pihak ketiga hanya dapat melihat riwayat transaksi Anda
-  - Pihak ketiga dapat mengubah kunci privat Anda
-  - Pihak ketiga dapat mengakses informasi pribadi Anda
+  - sebuah daftar 12-24 kata dari kamus spesifik
+  - rahasia untuk mengakses dana bitcoin Anda
+  - Kode rahasia untuk mengakses bitcoin Anda
 explanation: |
-  Jika kunci privat Anda terungkap kepada pihak ketiga, dana yang terkait tidak lagi aman. Ini karena kunci privat merupakan akses ke dana Anda.
+  Sebuah frasa mnemonik dalam konteks Bitcoin adalah daftar 12 atau 24 kata
+  yang memungkinkan Anda untuk mengembalikan dompet Anda di aplikasi dompet Bitcoin mana pun. Siapa pun
+  yang memiliki akses ke daftar ini juga memiliki akses ke bitcoin Anda.
 reviewed: true

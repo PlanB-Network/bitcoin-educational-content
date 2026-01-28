@@ -1,8 +1,12 @@
-question: Vad är FOMO och FUD?
-answer: Känslor som kan leda till impulsivt och potentiellt skadligt beslutsfattande.
+question: Vad är huvudsyftet med Bitcoin-revolutionen enligt denna kurs?
+answer: Att skapa en värld där mänsklig suveränitet är en rättighet, integritet respekteras som standard och pengar inte manipuleras.
 wrong_answers:
-  - Olika typer av Bitcoin-plånböcker.
-  - Strategier för att köpa Bitcoin.
-  - Föreskrifter relaterade till Bitcoin.
-explanation: >-
+  - Att skapa en värld där integritet inte är en mänsklig rättighet och där pengar manipuleras av bankerna.
+  - Skapar en värld där regeringar inte har någon makt och samhället är kaotiskt.
+  - Skapa en värld där fysiska pengar är överflödiga.
+explanation: |
+  Denna kurstext antyder att huvudmålet med Bitcoin
+  revolution är att skapa en värld där mänsklig suveränitet är
+  är en rättighet, integritet respekteras som standard och pengar inte
+  manipuleras.
 reviewed: true

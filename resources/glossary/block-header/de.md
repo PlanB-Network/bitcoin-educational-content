@@ -66,4 +66,4 @@ b2e00517
 
 Um gültig zu sein, muss ein Block einen Header haben, der nach dem Hashing mit `SHA256d` einen Hash ergibt, der kleiner oder gleich dem Schwierigkeitsziel ist.
 
-> ► *Im Englischen wird er als "Block Header" bezeichnet
+> ► *Im Englischen wird er als "Block Header" bezeichnet*

@@ -1,0 +1,9 @@
+question: Kapan simpul pruned menjadi masalah untuk Wallet?
+answer: Saat memulihkan Wallet lama
+wrong_answers:
+  - Saat membuat penerimaan baru Address
+  - Saat mengirim transaksi terbaru
+  - Saat memilih jumlah biaya
+explanation: |
+  Node pruned tidak menyimpan blok lama, yang dapat mencegah transaksi masa lalu dipindai selama pemulihan.
+reviewed: true

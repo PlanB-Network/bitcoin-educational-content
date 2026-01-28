@@ -1,9 +1,8 @@
-question: Šta je spontana kupovina?
-answer: Kupovina Bitkoina odmah radi sticanja izloženosti.
+question: Koji je jedan od potencijalnih rizika ostavljanja vašeg Bitkoina na menjačnici?
+answer: Rizici hakovanja i blokiranja sredstava.
 wrong_answers:
-  - Kupovina Bitkoina u redovnim intervalima.
-  - Kupovina Bitkoina samo kada cena padne.
-  - Kupovina Bitkoina samo kada cena poraste.
-explanation: |
-  Tekst kursa objašnjava da se spontana kupovina koristi za trenutno sticanje izloženosti Bitkoinu. Na primer, to može značiti kupovinu tokom pada ili iskorišćavanje bonusa.
+  - Rizik da platforma poveća cenu Bitkoina.
+  - Rizik od platforme koja kontroliše ponudu Bitkoina.
+  - Rizik da Bitkoin bude premašen u ceni od strane kriptovalute.
+explanation: >-
 reviewed: true

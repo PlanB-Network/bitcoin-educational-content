@@ -1,13 +1,11 @@
-question: ¿Cuál es el uso recomendado de una cartera física sin conexión, o fría?
-answer: Almacenar grandes cantidades.
+question: ¿Cuál es una alternativa recomendada para almacenar tu frase mnemotécnica en lugar de usar papel?
+answer: Grabarla en una placa de metal.
 wrong_answers:
-  - Almacenar gastos diarios.
-  - Almacenar pequeñas cantidades.
-  - Almacenar ahorros a corto plazo.
+  - Almacenarla en un archivo digital.
+  - Escribirla en una pizarra blanca.
+  - Guardarla como un contacto en tu teléfono.
 explanation: |
-  Se recomienda una cartera física sin conexión, o fría, para
-  almacenar grandes cantidades porque es menos vulnerable a
-  amenazas en línea que las carteras calientes. Sin embargo, no se
-  recomienda para gastos diarios porque es menos accesible para
-  transacciones diarias.
+  Una de las alternativas recomendadas al papel para almacenar
+  tu frase mnemotécnica es grabarla en una placa de metal. Esta
+  solución es más duradera y perdurable.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Menurut Teorema Kecil Fermat, berapa invers perkalian dari elemen n dalam lapangan prima F(p)?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Teorema Kecil Fermat menyatakan bahwa n^(p-1) ≡ 1 (mod p) untuk setiap elemen n yang tidak nol dalam lapangan prima. Untuk mencari invers perkalian, kita membutuhkan nilai yang jika dikalikan dengan n akan menghasilkan 1. Karena n^(p-1) ≡ 1, kita bisa menulis ulang ini sebagai n - n^(p-2) ≡ 1, membuktikan bahwa n^(p-2) adalah invers perkalian dari n. Pilihan yang lain tidak benar: n^(p-1) sama dengan 1 menurut teorema Fermat, sedangkan n^(p+1) dan n^(p+2) akan memberikan nilai yang setara dengan n^2 dan n^3 jika direduksi dengan modulo p.

@@ -1,0 +1,8 @@
+question: Qual é a vantagem arquitetónica fundamental da abordagem do SDK Breez à gestão de nós do Lightning em comparação com as implementações tradicionais do Lightning auto-hospedadas?
+answer: Os utilizadores mantêm os seus próprios Lightning nodes na infraestrutura Greenlight, mantendo o controlo exclusivo das chaves privadas que nunca saem dos seus dispositivos
+wrong_answers:
+  - Os utilizadores partilham canais de Lightning geridos pelo Breez, mantendo a custódia individual dos fundos através de acordos de assinaturas múltiplas
+  - "Os utilizadores executam nós Lightning leves localmente que sincronizam com os nós principais do Breez para maior fiabilidade e requisitos de largura de banda reduzidos"
+  - Os utilizadores delegam a gestão de canais a fornecedores de serviços Lightning, mantendo a custódia através de módulos de segurança de hardware integrados em dispositivos móveis
+explanation: |
+  A arquitetura do SDK Breez dá a cada utilizador o seu próprio nó Lightning dedicado que funciona na infraestrutura de nuvem da Greenlight, mas, o que é crucial, as chaves privadas nunca saem do dispositivo do utilizador. Isto significa que a Greenlight não pode realizar quaisquer operações Lightning sem que a aplicação do utilizador assine ativamente as transacções. Isto difere de pools de canais partilhados, nós leves locais ou módulos de segurança de hardware - é uma abordagem híbrida única que elimina a complexidade operacional ao mesmo tempo que preserva os verdadeiros princípios de autocustódia.

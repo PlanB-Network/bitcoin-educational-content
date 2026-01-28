@@ -1,9 +1,11 @@
-question: Im Vergleich zu Fiat-Währungen, wie wird Bitcoin wahrgenommen?
-answer: Als eine parallele Wirtschaft.
+question: Was ist OpenNode?
+answer: Eine einfache Online-Lösung für Unternehmen, um Bitcoin zu akzeptieren.
 wrong_answers:
-  - Als eine Ersatzwirtschaft.
-  - Als eine Industriewirtschaft.
-  - Als eine tertiäre Wirtschaft.
+  - Eine Art von Bitcoin-Knoten, der gleichzeitig von vielen Nutzern verwendet wird.
+  - Eine Bitcoin-Mining-Software, die Open-Source ist.
+  - Eine Bitcoin-Handelsplattform.
 explanation: >-
-  Bitcoin wird als eine parallele Wirtschaft zu Fiat-Währungen angesehen, was bedeutet, dass es neben traditionellen Wirtschaftssystemen operiert und direkt für Transaktionen verwendet werden kann, ohne dass eine Umwandlung über eine Austauschplattform notwendig ist.
+  OpenNode ist eine einfache Online-Lösung für Unternehmen, um Bitcoin zu akzeptieren.
+  Andere Lösungen umfassen Swiss Bitcoin Pay für Amateurhändler und BTCpay Server
+  für große Strukturen oder leidenschaftliche Bitcoiner.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Sự khác biệt cơ bản giữa P2PK và P2PKH là gì về thông tin được tiết lộ trước khi tiền được sử dụng?
+answer: P2PK công khai toàn bộ khóa công khai trong ScriptPubKey trước khi sử dụng, trong khi P2PKH chỉ tiết lộ mã băm của khóa công khai cho đến khi được sử dụng.
+wrong_answers:
+  - P2PK yêu cầu nhiều chữ ký để xác thực, trong khi P2PKH chỉ cần một chữ ký để mở khóa tiền điện tử.
+  - P2PK sử dụng thuật toán băm khác với P2PKH, giúp nó an toàn hơn trước các cuộc tấn công lượng tử.
+  - P2PK lưu trữ khóa riêng trong ScriptPubKey, trong khi P2PKH chỉ lưu trữ kết quả xác minh chữ ký.
+explanation: |
+  P2PK khóa tiền điện tử trực tiếp vào một khóa công khai đầy đủ, khóa này hiển thị trong ScriptPubKey trước khi bất kỳ giao dịch chi tiêu nào diễn ra. P2PKH cải thiện quyền riêng tư bằng cách chỉ hiển thị một mã băm 20 byte của khóa công khai trong ScriptPubKey, che giấu khóa công khai thực sự cho đến khi chủ sở hữu cung cấp nó trong ScriptSig trong quá trình chi tiêu. Việc tăng cường quyền riêng tư này là một trong những lợi thế chính của P2PKH so với mô hình P2PK trước đó.

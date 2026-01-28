@@ -1,0 +1,8 @@
+question: Việc tích hợp Lightning Service Provider (LSP) của Breez SDK giải quyết vấn đề quản lý thanh khoản để nhận thanh toán như thế nào?
+answer: Các LSP tự động mở các kênh Lightning mới với thanh khoản đến ngay khi có khoản thanh toán, sử dụng phương thức tạo kênh tức thời.
+wrong_answers:
+  - Các nhà cung cấp dịch vụ đám mây (LSP) cấp trước vốn cho tất cả các kênh người dùng với khả năng thanh khoản tối đa và định kỳ tái cân bằng nguồn vốn trên toàn bộ cấu trúc mạng.
+  - Các LSP duy trì một quỹ thanh khoản chung, tạm thời cho người dùng vay tiền trong quá trình nhận thanh toán trước khi quá trình thanh toán hoàn tất.
+  - Các nhà cung cấp dịch vụ thanh toán (LSP) chuyển hướng các khoản thanh toán thông qua nhiều kênh trung gian để tìm kiếm các nguồn thanh khoản hiện có mà không cần tạo ra các mối quan hệ kênh mới.
+explanation: |
+  Bộ SDK Breez triển khai các kênh "đúng lúc cần thiết", trong đó các nhà cung cấp dịch vụ Lightning (LSP) tự động mở các kênh Lightning mới chính xác khi người dùng cần nhận thanh toán nhưng không có đủ thanh khoản đầu vào. Điều này diễn ra liền mạch mà không cần sự can thiệp của người dùng, giải quyết hạn chế cơ bản về thanh khoản của Lightning, nơi tiền chỉ có thể chảy theo hướng có đủ dung lượng kênh. Các tùy chọn khác mô tả các phương pháp khác nhau không phù hợp với việc triển khai thực tế của SDK về việc tạo kênh động.

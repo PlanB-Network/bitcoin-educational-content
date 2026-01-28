@@ -160,9 +160,9 @@ Siin näen 3 liideseid:
 
 
 
-- Lo**: see on tagasiside Interface; see on virtuaalne Interface, mis "loopib" üle seadmete. Põhimõtteliselt kasutatakse seda Interface, mille Address on 127.0.0.1 (kuigi iga Address 127.0.0.0/8 sobib, kuna see vahemik on selleks otstarbeks reserveeritud), seadmetega enda kontakteerimiseks. Kui te olete oma tööjaama paigaldanud veebilehe (kasutades näiteks WAMPPi), siis olete tõenäoliselt kasutanud "*localhost*" Address ühel või teisel korral, et kuvada oma masinas asuvat saiti. See hostinimi on seotud Address 127.0.0.1 ja seega ka Interface loopbackiga.
-- ens33**: see on minu esimene Interface, mis sai Address siin minu DHCP-st
-- ens36**: minu teine Interface
+- **Lo**: see on tagasiside Interface; see on virtuaalne Interface, mis "loopib" üle seadmete. Põhimõtteliselt kasutatakse seda Interface, mille Address on 127.0.0.1 (kuigi iga Address 127.0.0.0/8 sobib, kuna see vahemik on selleks otstarbeks reserveeritud), seadmetega enda kontakteerimiseks. Kui te olete oma tööjaama paigaldanud veebilehe (kasutades näiteks WAMPPi), siis olete tõenäoliselt kasutanud "*localhost*" Address ühel või teisel korral, et kuvada oma masinas asuvat saiti. See hostinimi on seotud Address 127.0.0.1 ja seega ka Interface loopbackiga.
+- **ens33**: see on minu esimene Interface, mis sai Address siin minu DHCP-st
+- **ens36**: minu teine Interface
 
 
 
@@ -211,8 +211,8 @@ Siin on mõned selgitused nende esimeste muudatuste kohta:
 
 
 
-- auto *Interface***: "käivitab" Interface automaatselt süsteemi käivitamisel
-- iface *Interface* inet manual**: Interface kasutamiseks ilma IP Address-ta. Nagu märksõna "static", et määrata staatiline IP Address või "dhcp", et kasutada dünaamilist adresseerimist
+- auto **Interface**: "käivitab" Interface automaatselt süsteemi käivitamisel
+- iface *Interface* inet **manual**: Interface kasutamiseks ilma IP Address-ta. Nagu märksõna "static", et määrata staatiline IP Address või "dhcp", et kasutada dünaamilist adresseerimist
 
 
 
@@ -239,10 +239,10 @@ Siinkohal taas mõned selgitused:
 
 
 
-- iface br0 inet static**: siin olen määratlenud oma Interface silla (*br0*) koos staatilise Address-ga.
-- Address, netmask, gateway**: teave tahvli adresseerimise kohta
-- bridge_ports**: liidesed, mis lisatakse sillale
-- bridge_stp**: Spanning Tree protokolli kasutatakse lülitite ühendamisel, et tuvastada üleliigseid linke ja vältida silmuseid. Kuna sild võib olla sisestatud kahe võrgutee vahele, võib see olla silmuse allikaks, mistõttu on võimalik selle protokolli lubamine. Mul ei ole seda siin vaja, seega lülitan selle välja.
+- **iface br0 inet static**: siin olen määratlenud oma Interface silla (*br0*) koos staatilise Address-ga.
+- **Address, netmask, gateway**: teave tahvli adresseerimise kohta
+- **bridge_ports**: liidesed, mis lisatakse sillale
+- **bridge_stp**: Spanning Tree protokolli kasutatakse lülitite ühendamisel, et tuvastada üleliigseid linke ja vältida silmuseid. Kuna sild võib olla sisestatud kahe võrgutee vahele, võib see olla silmuse allikaks, mistõttu on võimalik selle protokolli lubamine. Mul ei ole seda siin vaja, seega lülitan selle välja.
 
 
 
@@ -281,8 +281,8 @@ Vaikimisi sisaldavad pakettide allikad ainult DFSG (*Debian Free Sotftware Guide
 
 
 
-- contrib**: paketid, mis sisaldavad DFSG-le vastavat tarkvara, kuid kasutavad sõltuvusi, mis ei ole osa **main** harust
-- non-free**: sisaldab pakette, mis ei ole DFSG-konformsed
+- **contrib**: paketid, mis sisaldavad DFSG-le vastavat tarkvara, kuid kasutavad sõltuvusi, mis ei ole osa **main** harust
+- **non-free**: sisaldab pakette, mis ei ole DFSG-konformsed
 
 
 
@@ -442,7 +442,7 @@ Demonstreerimiseks käivitan ma oma hostil YouTube'i video:
 
 
 
-**Liiklus oli koheselt äratuntav ja kategoriseeritud!
+**Liiklus oli koheselt äratuntav ja kategoriseeritud!**
 
 
 

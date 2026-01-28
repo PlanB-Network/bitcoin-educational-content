@@ -1,12 +1,11 @@
-question: Ni akamaro akahe nyamukuru Bitcoin ifise ku yindi mice y’amahera?
-answer: Itanga ububiko bwiza cane bw’agaciro kubera Supply yayo idakomeye cane n’ukutagira aho ibogamiye.
+question: None amahera meza aremwa gute?
+answer: Amahera meza ategerezwa gusohoka mu buryo busanzwe mw’isoko no mu kwumvikana ku bushake.
 wrong_answers:
-  - Ntibigabanywa kandi ntibishobora gutwarwa.
-  - Ni akarorero kanini k’amahera agira ingorane z’ugutera imbere kw’amahera.
-  - Ni ryemerwa cane mu bucuruzi n’abadandaza bose bo kw’isi.
+  - Amahera meza arakeneye gukurikizwa na leta mu gusohora amategeko agenga amafaranga.
+  - Amahera meza ategerezwa gutegekwa n’amashirahamwe biciye mu gukoresha ubukazi.
+  - Amahera meza ntashobora kuremwa.
 explanation: |
-  Inyungu nyamukuru ya Bitcoin ku yindi mice y'amahera
-  ni uko itanga ububiko bwiza cane bw’agaciro kubera .
-  Supply n’ukubura kwayo kw’umuhari wizigirwa. Ibi
-  bituma ari amahitamwo meza yo kuzigama igihe kirekire.
+  Amahera meza ni ikintu gisanzwe mu kibano kigomba guseruka .
+  kuva kw’isoko no ku kwumvikana kw’ubushake. Nta muntu canke
+  umugwi w’abantu urashobora kurema amahera.
 reviewed: true

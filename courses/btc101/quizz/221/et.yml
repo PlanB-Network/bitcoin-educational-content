@@ -1,11 +1,9 @@
-question: Mis on Lightning Network?
-answer: Maksevõrk, mis kasutab Bitcoin'i protokolli, et võimaldada välkkiireid tehinguid.
+question: Millist eelist pakub Ark Lightningi ees maksete vastuvõtmisel?
+answer: Sisenevat likviidsust ei ole vaja
 wrong_answers:
-  - Uut tüüpi krüptoraha.
-  - Bitcoin'ist eraldiseisev plokiahela tehnoloogia.
-  - Meetod Bitcoin'i kaevandamiseks.
-explanation: >-
-  Lightning Network on maksevõrk, mis kasutab Bitcoin'i protokolli
-  kiirete tehingute võimaldamiseks. See ei ole eraldi krüptoraha ega meetod
-  Bitcoin'i kaevandamiseks.
+  - Makse kohene lõplikkus
+  - Tehingutasude puudumine
+  - Rahakotti pole vaja
+explanation: |
+  Ark võimaldab makseid vastu võtta ilma eelneva siseneva likviidsuseta.
 reviewed: false

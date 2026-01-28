@@ -1,0 +1,8 @@
+question: Apa elemen identitas dalam kelompok kurva elips yang digunakan untuk operasi penjumlahan titik?
+answer: Titik tak terhingga
+wrong_answers:
+  - Titik asal (0,0)
+  - Titik generator G
+  - Parameter kurva a
+explanation: |
+  Titik di tak terhingga berfungsi sebagai elemen identitas dalam kelompok kurva elips, yang berarti bahwa menambahkan titik mana pun P ke titik di tak terhingga akan menghasilkan P yang tidak berubah. Hal ini serupa dengan cara kerja penambahan angka nol pada aritmatika biasa. Titik asal (0,0) tidak harus berada pada kurva, titik generator G digunakan untuk membuat kunci publik, dan parameter kurva a hanyalah sebuah koefisien dalam persamaan kurva, bukan elemen identitas.

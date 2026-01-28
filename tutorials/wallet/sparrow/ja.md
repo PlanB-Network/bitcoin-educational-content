@@ -1,5 +1,5 @@
 ---
-name: スズメ Wallet
+name: Sparrow Wallet
 description: Sparrow Walletのインストール、設定、使用方法
 ---
 ![cover](assets/cover.webp)
@@ -26,7 +26,7 @@ Sparrow Wallet公式ダウンロードページ](https://sparrowwallet.com/downl
 
 ソフトウェアをインストールする前に、そのソフトウェアの完全性と信頼性をチェックすることが重要です。その方法がわからない場合は、ここに完全なチュートリアルがあります：
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrowのインストールが完了したら、最初の説明画面をスキップして、そのまま接続管理画面に進むことができます。
 
@@ -69,15 +69,15 @@ Bitcoinノードに接続する2つ目の方法は、SparrowとBitcoin Coreを�
 
 Bitcoin Coreノードを設定するには、お使いのオペレーティング・システムに応じて、以下のチュートリアルのいずれかを参照してください：
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Sparrowの「*Bitcoin Core*」タブを開きます。
 
 ![Image](assets/fr/07.webp)
 
-*Bitcoinコア・ローカル使用時：***。
+*Bitcoinコア・ローカル使用時：*
 
 Bitcoin Coreがインストールされている場合は、ソフトウェアファイルの中から`Bitcoin.conf`ファイルを探します。このファイルが存在しない場合は、作成することができます。テキストエディタで開き、以下の行を挿入してください：
 
@@ -95,13 +95,14 @@ server=1
 
 その後、Sparrow Walletに戻り、Cookieファイルのパスを入力します。Cookieファイルは、OSにもよりますが、通常`Bitcoin.conf`と同じフォルダにあります：
 
-| ~/Library/Application Support/Bitcoin | **macOS** | ~/Library/Application Support/Bitcoin | **macOS** | ~/Library/Application Support/Bitcoin
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| Windows**｜%APPDATA%Bitcoin｜%APPDATA%Bitcoin｜%APPDATA%Bitcoin｜%APPDATA%Bitcoin
-
-|**Linux** | ~/.Bitcoin
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -123,13 +124,14 @@ server=1
 
 ファイルを編集したら、お使いのオペレーティングシステムに適したフォルダに保存してください：
 
-MacOS** | ~/Library/Application Support/Bitcoin | ~/Library/Application Support/Bitcoin | ~Library/Application Support/Bitcoin
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| ウィンドウズ**｜%APPDATA%Bitcoin
-
-|**Linux** | ~/.Bitcoin
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 この操作は、Bitcoin-QT Interface グラフィカル Interface からも実行できます。メニューの "*Settings*"から "*Options...*"を選択し、"*Enable RPC server*"にチェックを入れて有効にします。Bitcoin.conf`ファイルが存在しない場合は、"*Open Configuration File*"をクリックして、このInterfaceから直接作成することができます。
 
@@ -160,7 +162,7 @@ rpcpassword=my_password
 
 ファイルを修正して保存した後、Bitcoin-QT ソフトウェアを再起動してください。
 
-これでスパローWalletに戻ることができる。User / Pass*」タブを開きます。Bitcoin.conf`ファイルに設定したユーザー名とパスワードを入力します。他のパラメータはデフォルトのまま、つまりURL `127.0.0.1`とポート `8332` のままにしておく。次に "*Test Connection*"をクリックする。
+これでスパローWalletに戻ることができる。**User / Pass**タブを開きます。`Bitcoin.conf`ファイルに設定したユーザー名とパスワードを入力します。他のパラメータはデフォルトのまま、つまりURL `127.0.0.1`とポート `8332` のままにしておく。次に **Test Connection** をクリックする。
 
 ![Image](assets/fr/15.webp)
 
@@ -200,7 +202,7 @@ HotのWalletを作成するには、Sparrow Walletのホーム画面から「*�
 
 ![Image](assets/fr/22.webp)
 
-Interfaceの上部で、「*シングル署名*」または「*マルチ署名*」のどちらのポートフォリオを作成するかを選択できます。そのすぐ下で、UTXOをロックするスクリプトのタイプを選択する。最新の規格を使用することをお勧めします：「Taproot (P2TR)*".
+Interfaceの上部で、「*シングル署名*」または「*マルチ署名*」のどちらのポートフォリオを作成するかを選択できます。そのすぐ下で、UTXOをロックするスクリプトのタイプを選択する。最新の規格を使用することをお勧めします：「*Taproot (P2TR)*」。
 
 ![Image](assets/fr/23.webp)
 
@@ -212,7 +214,7 @@ Interfaceの上部で、「*シングル署名*」または「*マルチ署名*�
 
 ![Image](assets/fr/25.webp)
 
-generate New*」ボタンをクリックして、Wallet の Mnemonic フレーズを generate にしてください。このフレーズにより、あなたのすべてのビットコインに完全かつ無制限にアクセスできるようになります。このフレーズを所持している者は、あなたのコンピュータに物理的にアクセスしなくても、あなたの資金を盗むことができます。
+generate **New** ボタンをクリックして、Wallet の Mnemonic フレーズを generate にしてください。このフレーズにより、あなたのすべてのビットコインに完全かつ無制限にアクセスできるようになります。このフレーズを所持している者は、あなたのコンピュータに物理的にアクセスしなくても、あなたの資金を盗むことができます。
 
 この12単語のフレーズは、コンピュータの紛失、盗難、破損の際にビットコインへのアクセスを回復します。したがって、慎重に保存し、安全な場所に保管することが非常に重要です。
 
@@ -220,15 +222,15 @@ generate New*」ボタンをクリックして、Wallet の Mnemonic フレー�
 
 Mnemonicのフレーズを保存・管理する適切な方法については、特に初心者の方には、こちらのチュートリアルをご覧になることを強くお勧めします：
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
-**もちろん、このチュートリアルで私がしているように、インターネット上でこれらの言葉を決して共有してはいけません。この例のWalletはTestnetでのみ使用し、チュートリアルの最後には削除します。
+**もちろん、このチュートリアルで私がしているように、インターネット上でこれらの言葉を決して共有してはいけません。この例のWalletはTestnetでのみ使用し、チュートリアルの最後には削除します。**
 
 また、"*Use passphrase*"のボックスをクリックして、passphrase BIP39を追加することもできます。警告：passphraseの使用は非常に便利ですが、その仕組みを理解していないと非常に危険です。そのため、この短い理論的な記事を読むことを強くお勧めする：
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Mnemonicとpassphraseを物理メディアに保存したら、"*Confirm Backup*"をクリックします。
 
@@ -242,7 +244,7 @@ Mnemonicとpassphraseを物理メディアに保存したら、"*Confirm Backup*
 
 ![Image](assets/fr/29.webp)
 
-Apply*」をクリックし、ポートフォリオの作成を完了します。
+**Apply**」をクリックし、ポートフォリオの作成を完了します。
 
 ![Image](assets/fr/30.webp)
 
@@ -290,7 +292,7 @@ UTXOをロックするスクリプトの種類を選択します。Hardware Wall
 
 ![Image](assets/fr/36.webp)
 
-スキャン*」をクリックし、Sparrowにデバイスを検出させます。デバイスが接続され、ロックが解除されていることを確認してください。Ledgerなど一部の機種では、検出を有効にするために「*Bitcoin*」アプリケーションを開く必要があります。
+スキャン」をクリックし、Sparrowにデバイスを検出させます。デバイスが接続され、ロックが解除されていることを確認してください。Ledgerなど一部の機種では、検出を有効にするために「**Bitcoin**」アプリケーションを開く必要があります。
 
 ![Image](assets/fr/37.webp)
 
@@ -298,7 +300,7 @@ Import "を選択する。
 
 ![Image](assets/fr/38.webp)
 
-Apply*」をクリックし、ポートフォリオの作成を完了します。
+**Apply**」をクリックし、ポートフォリオの作成を完了します。
 
 ![Image](assets/fr/39.webp)
 
@@ -312,7 +314,7 @@ Sparrow Walletへのアクセスを保護するために強力なパスワード
 
 ## ビットコインを受け取る
 
-WalletがSparrowにセットアップされたら、ビットコインを受け取ることができます。受信*」メニューにアクセスするだけです。
+WalletがSparrowにセットアップされたら、ビットコインを受け取ることができます。**受信**メニューにアクセスするだけです。
 
 ![Image](assets/fr/42.webp)
 
@@ -366,7 +368,7 @@ Walletでサトシを手に入れたあなたには、サトシを送るとい�
 
 ![Image](assets/fr/53.webp)
 
-Interfaceの下部には、"*Efficiency*"と "*Privacy*"のどちらかを選ぶことができる。私の場合、このポートフォリオにはUTXOが1つしかないため、"*Privacy*"オプションは利用できない。「Efficiency*」は古典的な取引に相当し、「*Privacy*」はStonewallタイプの取引で、ミニCoinJoinをシミュレートすることで機密性を強化する取引構造であり、連鎖分析をより複雑にする。
+Interfaceの下部には、"*Efficiency*"と "*Privacy*"のどちらかを選ぶことができる。私の場合、このポートフォリオにはUTXOが1つしかないため、"*Privacy*"オプションは利用できない。「*Efficiency*」は古典的な取引に相当し、「*Privacy*」はStonewallタイプの取引で、ミニCoinJoinをシミュレートすることで機密性を強化する取引構造であり、連鎖分析をより複雑にする。
 
 ![Image](assets/fr/54.webp)
 
@@ -380,7 +382,7 @@ Elementsの詳細ページが表示されます。すべての情報が正しい
 
 デフォルトのSighashを維持することが重要です。このトレーニングコースでは、Sighashについて知っておくべきことをすべて説明しています：
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 次の画面では、使用しているWalletのタイプによってオプションが異なります：
 
@@ -403,7 +405,7 @@ Hardware Walletで、受取人のAddress、送金額、料金を確認する。�
 
 ## Sparrowでのポートフォリオの管理と設定
 
-設定*」タブでは、ポートフォリオの詳細情報をご覧いただけます：
+設定」タブでは、ポートフォリオの詳細情報をご覧いただけます：
 
 
 - ポートフォリオ・タイプ（シングル・シグまたはmulti-sig）；
@@ -439,7 +441,7 @@ Sparrow Wallet を終了すると、Wallet は自動的にロックされます�
 
 ![Image](assets/fr/65.webp)
 
-View*」タブでは、カスタマイズオプションや、ポートフォリオの取引検索をリフレッシュする「*Refresh Wallet*」など、便利なコマンドにアクセスできます。
+「**View**」タブでは、カスタマイズオプションや、ポートフォリオの取引検索をリフレッシュする「**Refresh Wallet**」など、便利なコマンドにアクセスできます。
 
 ![Image](assets/fr/66.webp)
 
@@ -460,4 +462,4 @@ Bitcoinポートフォリオを日常的に管理するための優れたツー�
 
 また、Hardware Wallet COLDCARD Q を Sparrow Wallet で設定する方法を説明した別のチュートリアルもお勧めです：
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

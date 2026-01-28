@@ -1,11 +1,9 @@
-question: When was Bitcoin first presented to the world?
-answer: October 31, 2008.
+question: Since its creation, what percentage of time has the Bitcoin network been functional for?
+answer: 99.988%.
 wrong_answers:
-  - January 3, 2009.
-  - November 22, 2009.
-  - December 12, 2010.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Bitcoin was first presented to the world on October 31,
-  2008, when Satoshi Nakamoto sent an email to the cypherpunk
-  mailing list containing the Bitcoin White Paper.
+  The online availability of Bitcoin is 99.988% since 2009.
 reviewed: true

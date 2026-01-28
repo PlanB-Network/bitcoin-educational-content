@@ -1,12 +1,11 @@
-question: Je! ni faida gani kuu ya Bitcoin juu ya aina zingine za sarafu?
-answer: Inatoa duka bora la thamani kwa sababu ya ukomo wake wa Supply na kutoegemea upande wowote.
+question: Pesa za sauti zinaundwaje?
+answer: Pesa za sauti lazima zitoke kwenye soko na makubaliano ya hiari.
 wrong_answers:
-  - Haigawanyiki na haiwezi kusafirishwa.
-  - Ni mfano mzuri wa sarafu ambayo inakabiliwa na mfumuko wa bei wa fedha.
-  - Inakubalika sana katika biashara na wafanyabiashara wote ulimwenguni.
+  - Pesa madhubuti zinahitaji kutekelezwa na serikali kwa kutoa sheria za fedha.
+  - Pesa za sauti lazima zitozwe na makampuni kwa kutumia vurugu.
+  - Pesa za sauti haziwezi kuundwa.
 explanation: |
-  Faida kuu ya Bitcoin juu ya aina zingine za sarafu
-  ni kwamba inatoa duka bora la thamani kwa sababu yake
-  Supply ni mdogo na ukosefu wake wa chama kinachoaminika. Hii
-  inafanya chaguo nzuri kwa akiba ya muda mrefu.
+  Pesa sauti ni jambo la asili la kijamii ambalo lazima litokee
+  kutoka sokoni na makubaliano ya hiari. Hakuna binadamu au
+  kundi la watu wanaweza kutengeneza pesa.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Dlaczego LN+ jest nieodpowiedni dla sprzedawców?
+answer: Znaczące inwestycje kapitałowe
+wrong_answers:
+  - Brak niezawodności zaangażowanych węzłów
+  - Brak systemu reputacji
+  - Zbyt małe kanały
+explanation: |
+  Każda uzyskana przychodząca satelita wymaga zablokowania wychodzącej satelity, co ogranicza skalowalność firmy.
+reviewed: false

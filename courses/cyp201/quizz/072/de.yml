@@ -6,4 +6,4 @@ wrong_answers:
   - Eine nicht-standardmäßige Ableitung
 explanation: |
   Ein Apostroph zeigt an, dass die Ableitung gehärtet ist, was bedeutet, dass ein Eltern-Privatschlüssel erforderlich ist, um den Kind-Schlüssel zu generieren.
-reviewed: false
+reviewed: true

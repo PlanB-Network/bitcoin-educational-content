@@ -1,0 +1,9 @@
+question: Ni agaciro akahe ka minrelaytxfee muri Bitcoin core?
+answer: 0.00001 BTC/kvB (1 kwicara/vB)
+wrong_answers:
+  - 0.0001 BTC/kvB (10 kwicara/vB)
+  - 0,000001 BTC/kvB (0,1 kwicara/vB)
+  - 0.00002 BTC/kvB (2 kwicara/vB)
+explanation: |
+  minrelaytxfee ihinduka 0,00001 BTC/kvB, canke 1 sat/vB, munsi yayo amafaranga ntashikirizwa.
+reviewed: true

@@ -1,0 +1,9 @@
+question: RGB에서 암호화 커미트먼트(Taproot 또는 OP_RETURN을 통한)는 어떻게 사용되나요?
+answer: Blockchain에서 Anchor 상태로 전환합니다
+wrong_answers:
+  - Blockchain에 Contract 데이터를 저장합니다
+  - Client-side Validation을 On-Chain Smart contract 실행으로 대체합니다
+  - 트랜잭션 확인을 위한 노드를 생성합니다
+explanation: |
+  커미티를 사용하면 정보 자체를 공개하지 않고도 특정 시점에 특정 정보의 존재를 증명하기 위해 상태 업데이트를 UTXO에 안전하게 연결할 수 있습니다.
+reviewed: false

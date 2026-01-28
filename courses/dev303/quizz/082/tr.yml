@@ -1,0 +1,8 @@
+question: Birleşik Tanım Dili (UDL) dosyası UniFFI iş akışında nasıl bir rol oynar?
+answer: Rust kütüphanesinin hangi bölümlerinin diğer dillere açık olması gerektiğini tanımlayan bir arayüz belirtimi görevi görür
+wrong_answers:
+  - Hedef dil bağlamalarına derlenen gerçek Rust uygulama kodunu içerir
+  - Farklı dil ortamları arasında bellek tahsisini yöneten bir çalışma zamanı yapılandırma dosyası olarak hizmet eder
+  - Oluşturulan bağların doğruluğunu birden fazla platformda doğrulamak için bir test çerçevesi sağlar
+explanation: |
+  UDL dosyası, Rust uygulaması ile oluşturulan dil bağları arasında bir sözleşme veya belirtim görevi görür. Rust kodunun kendisini içermediği gibi çalışma zamanı işlemlerini veya testlerini de gerçekleştirmez. Bunun yerine, Rust kütüphanesinden hangi işlevlerin, türlerin ve arayüzlerin diğer diller için kullanılabilir hale getirileceğini, hedef dilin yerel arayüzünde nasıl eşleştirileceğini ve sunulacağını açık bir şekilde tanımlar.

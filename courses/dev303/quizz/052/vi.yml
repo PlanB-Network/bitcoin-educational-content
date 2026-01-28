@@ -1,0 +1,8 @@
+question: Điểm khác biệt chính trong cách xử lý vi phạm mượn tài nguyên giữa các tham chiếu Rust thông thường và RefCell là gì?
+answer: Tham chiếu thông thường gây ra lỗi biên dịch trong khi RefCell gây ra lỗi nghiêm trọng khi chạy chương trình.
+wrong_answers:
+  - Tham chiếu thông thường gây ra lỗi nghiêm trọng khi chạy chương trình, trong khi RefCell gây ra lỗi biên dịch.
+  - Các tham chiếu thông thường cho phép nhiều lần mượn có thể thay đổi, trong khi RefCell chỉ cho phép một lần truy cập có thể thay đổi.
+  - Các tham chiếu thông thường yêu cầu chú thích thời gian tồn tại rõ ràng, trong khi RefCell sử dụng tính năng dọn dẹp tự động.
+explanation: |
+  RefCell chuyển việc thực thi quy tắc mượn tham chiếu của Rust từ thời điểm biên dịch sang thời điểm chạy. Trong khi trình biên dịch phân tích tĩnh các tham chiếu thông thường và ngăn chặn các vi phạm mượn tham chiếu trước khi chương trình chạy, RefCell thực hiện các kiểm tra an toàn tương tự trong quá trình thực thi chương trình. Điều này cho phép RefCell bỏ qua các hạn chế nghiêm ngặt của trình biên dịch trong trường hợp lập trình viên biết mã an toàn, nhưng các vi phạm dẫn đến lỗi nghiêm trọng trong thời gian chạy thay vì lỗi biên dịch.

@@ -1,11 +1,9 @@
-question: Jaka jest natura adopcji Bitcoin opisana w tym kursie?
-answer: Wirusowe.
+question: Dlaczego kanał Lightning może być nieużyteczny w jednym kierunku?
+answer: Niewystarczająca płynność
 wrong_answers:
-  - Powoli i stabilnie.
-  - Gwałtowny i niekontrolowany.
-  - Sporadyczne i nieprzewidywalne.
+  - Zbyt nowy blok
+  - Wygasły HTLC
+  - Niezsynchronizowany węzeł
 explanation: |
-  Tekst kursu opisuje przyjęcie Bitcoin jako wirusowe,
-  sugerując, że rozprzestrzenia się on szybko i szeroko od jednej osoby do drugiej
-  osoby na inną, podobnie jak wirus, ale dobry.
-reviewed: true
+  Nawet przy dużej pojemności kanał umożliwia płatność tylko wtedy, gdy po właściwej stronie znajduje się wystarczająca płynność.
+reviewed: false

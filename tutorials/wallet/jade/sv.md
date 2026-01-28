@@ -251,7 +251,7 @@ Ange ett namn för din Wallet och klicka på Skapa Wallet.
 Välj önskad policy och skripttyper och välj sedan Connected Hardware Wallet.
 
 
-**Om du tidigare har använt Blockstream Jade som en Singlesig Wallet med Blockstream Green och vill se dina transaktioner i Sparrow, se till att skripttypen matchar kontotypen som innehåller dina medel i Green. Du kommer också att behöva matcha avledningssökvägen också.
+**Om du tidigare har använt Blockstream Jade som en Singlesig Wallet med Blockstream Green och vill se dina transaktioner i Sparrow, se till att skripttypen matchar kontotypen som innehåller dina medel i Green. Du kommer också att behöva matcha avledningssökvägen också.**
 
 
 ![image](assets/18.webp)

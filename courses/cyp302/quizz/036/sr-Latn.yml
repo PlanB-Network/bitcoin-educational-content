@@ -6,4 +6,4 @@ wrong_answers:
   - Nemaju zajedničkih delilaca osim 1 i njih samih
 explanation: |
   Dva broja su međusobno prosta ako je njihov najveći zajednički delilac 1, što znači da ne dele nijedan prost faktor, što je važna osobina u kriptografiji.
-reviewed: false
+reviewed: true

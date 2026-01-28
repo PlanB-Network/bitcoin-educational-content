@@ -1,0 +1,8 @@
+question: Ni ukaguzi gani muhimu wa uthibitishaji ambao nodi ya Bitcoin lazima ifanye inapopokea kizuizi kipya kabla ya kukikubali kwenye blockchain?
+answer: Hashi ya block lazima iwe chini ya ugumu unaolengwa na mzizi wa Merkle uliokokotolewa lazima ulingane na mzizi wa Merkle wa kichwa cha habari.
+wrong_answers:
+  - Muhuri wa muda wa kuzuia lazima uwe halali na sahihi zote za muamala lazima zithibitishwe kwa njia ya siri
+  - Ukubwa wa kizuizi lazima uwe chini ya 1MB na hashi ya kizuizi kilichopita lazima irejelee kizuizi halali kinachojulikana
+  - Toleo la kuzuia lazima lilingane na makubaliano ya mtandao na jumla ya ada za miamala lazima zizidi zawadi ya mining
+explanation: |
+  Kanuni ya Bitcoin ya "usiamini, thibitisha" inahitaji ukaguzi mbili za msingi kwa ajili ya kukubalika kwa block: uthibitisho wa proof-of-work (hash ya block chini ya lengo la ugumu) na uthibitisho wa uadilifu wa miamala (ulinganishaji wa mizizi ya Merkle). Ingawa ukaguzi mwingine kama uthibitisho wa muhuri wa muda, uthibitisho wa sahihi, na mipaka ya ukubwa ni muhimu, ukaguzi huu mbili mahususi unahakikisha block inakidhi mahitaji ya ugumu na ina miamala inayodaiwa bila kuchezewa.

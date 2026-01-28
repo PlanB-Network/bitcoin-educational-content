@@ -1,11 +1,9 @@
-question: Hva er det matematiske konseptet som er avhengig av menneskelig rasjonalitet og som brukes i Bitcoin?
-answer: Spillteori
+question: Hva er BTC-belønningen etter det fjerde halvering?
+answer: 3.125 BTC
 wrong_answers:
-  - Sannsynlighetsteori
-  - Tallteori
-  - Mengdelære
-explanation: |
-  Spillteori er et matematisk konsept som er avhengig av menneskelig rasjonalitet.
-  I Bitcoin er det brukerne som håndhever protokollendringer, noe som gjør enhver modifikasjon
-  av Bitcoin-protokollen svært kompleks.
+  - 1.5625 BTC
+  - 6.25 BTC
+  - 12.5 BTC
+explanation: >-
+  Etter det fjerde halvering, som skjer ved blokkhøyde 840,000, er BTC-belønningen for gruvedrift 3.125 BTC.
 reviewed: true

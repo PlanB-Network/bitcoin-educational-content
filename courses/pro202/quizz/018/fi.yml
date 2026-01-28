@@ -1,0 +1,8 @@
+question: Mikä on ECDSA-allekirjoitusten DER-koodausmuodossa tyypillinen kokoa kasvattava tekijä, joka kasvaa allekirjoituksen raakadatasta lopulliseen koodattuun allekirjoitukseen?
+answer: 64 tavusta noin 71-72 tavuun DER-muotoilun yleiskustannusten vuoksi
+wrong_answers:
+  - 32 tavusta noin 64 tavuun R- ja S-komponenttien koodauksen vuoksi
+  - 64 tavusta tarkalleen 128 tavuun allekirjoituksen osien kaksinkertaisen koodauksen vuoksi
+  - 71 tavusta noin 64 tavuun sekvenssimerkkien pakkaamisen vuoksi
+explanation: |
+  DER-koodaus lisää ECDSA-allekirjoituksiin rakenteellisia lisäkustannuksia sekvenssimerkkien (0x30), pituustavujen ja komponenttiprefiksien (0x02) avulla. Raaka ECDSA-allekirjoitus koostuu kahdesta 32 tavun arvosta (R ja S), joiden yhteispituus on 64 tavua, mutta DER-muotoilu kasvattaa sen noin 71-72 tavuun. Tämä tehottomuus oli yksi syy siihen, että Bitcoin otti myöhemmin Taproot:ssä käyttöön Schnorr-allekirjoitukset, joissa käytetään kiinteitä 64 tavun allekirjoituksia ilman koodausta.

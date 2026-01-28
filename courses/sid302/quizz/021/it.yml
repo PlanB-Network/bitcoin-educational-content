@@ -1,0 +1,8 @@
+question: Qual è il principale vantaggio commerciale che il tempo di regolamento di 2 minuti di Liquid offre rispetto ai sistemi finanziari tradizionali?
+answer: Riduce il rischio di controparte consentendo il regolamento atomico, in cui la consegna e il pagamento avvengono simultaneamente
+wrong_answers:
+  - Elimina la necessità di requisiti di conformità normativa e KYC nel trading di asset
+  - Consente una scalabilità illimitata per il trading ad alta frequenza senza commissioni di transazione
+  - Consente la scoperta automatica dei prezzi grazie agli algoritmi di market making integrati
+explanation: |
+  Il regolamento a 2 minuti di Liquid consente il regolamento atomico, che è fondamentale per ridurre il rischio di controparte, in quanto entrambe le parti ricevono simultaneamente quanto dovuto, eliminando il divario in cui una parte potrebbe essere inadempiente. Il regolamento tradizionale a T+2 crea una finestra in cui esiste il rischio di controparte. Le altre opzioni non sono corrette: il Liquid richiede ancora la conformità attraverso l'AMP, prevede commissioni per le transazioni e limiti di scala e non prevede il market making automatico.

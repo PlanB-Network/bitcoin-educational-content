@@ -1,5 +1,5 @@
 question: P2P husafirisha vipi V2 kuboresha faragha na usalama wa mawasiliano kati ya nodi?
-answer: Kwa kuunganisha usimbaji fiche nyemelezi
+answer: Kwa kuunganisha usimbaji fiche na nyemelezi
 wrong_answers:
   - Kwa kuunganisha uthibitishaji
   - Kwa kutumia relay za ziada
@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Usafiri wa P2P V2 unajumuisha Layer ya usimbaji fiche nyemelezi ili kuimarisha faragha na usalama wa mawasiliano kati ya nodi.
   
-reviewed: false
+reviewed: true

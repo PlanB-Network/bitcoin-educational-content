@@ -43,7 +43,7 @@ Graylog är ett analys- och övervakningsverktyg som gör det lättare att ident
 
 
 
-** Notera: gratisversionen, **Graylog Open**, är inte en SIEM som Wazuh är, särskilt eftersom den saknar verkliga intrångsdetekteringsfunktioner.
+**Notera: gratisversionen, Graylog Open, är inte en SIEM som Wazuh är, särskilt eftersom den saknar verkliga intrångsdetekteringsfunktioner.**
 
 
 
@@ -57,9 +57,9 @@ Graylog är ett analys- och övervakningsverktyg som gör det lättare att ident
 
 
 
-- MongoDB 7**, den aktuella rekommenderade versionen för Graylog (minst 5.0.7, högst 7.x)
-- OpenSearch**, en Fork med öppen källkod för Elasticsearch skapad av Amazon (minst 1.1.x, högst 2.15.x)
-- OpenJDK 17**
+- MongoDB 7, den aktuella rekommenderade versionen för Graylog (minst 5.0.7, högst 7.x)
+- **OpenSearch**, en Fork med öppen källkod för Elasticsearch skapad av Amazon (minst 1.1.x, högst 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Note: **OpenSearch-installationen är valfri** om du använder **Graylog Data Node** istället.
+**Note:** OpenSearch-installationen är valfri om du använder **Graylog Data Node** istället.
 
 
 
@@ -279,14 +279,14 @@ Den här OpenSearch-konfigurationen är utformad för att konfigurera en enda no
 
 
 
-- cluster.name: graylog**: denna parameter namnger OpenSearch-klustret med namnet "**graylog**".
-- node.name: ${HOSTNAME}**: nodnamnet ställs in dynamiskt så att det matchar namnet på den lokala Linux-maskinen. Även om vi bara har en nod är det viktigt att namnge den korrekt.
-- sökväg.data: /var/lib/opensearch**: den här sökvägen anger var OpenSearch lagrar sina data på den lokala datorn, i det här fallet i "**/var/lib/opensearch**".
-- sökväg.loggar: /var/log/opensearch**: denna sökväg definierar var OpenSearchs loggfiler lagras, här i "**/var/log/opensearch**".
-- discovery.type: single-node**: denna parameter konfigurerar OpenSearch för att arbeta med en enda nod, därav valet av alternativet "**single-node**".
-- network.host: 127.0.0.1**: den här konfigurationen säkerställer att OpenSearch bara lyssnar på sin lokala Interface-slinga, vilket är tillräckligt eftersom den finns på samma server som Graylog.
-- action.auto_create_index: false**: genom att inaktivera automatisk indexskapande kommer OpenSearch inte automatiskt att skapa ett index när ett dokument skickas utan ett befintligt index.
-- plugins.security.disabled: true**: detta alternativ avaktiverar OpenSearchs säkerhetsplugin, vilket innebär att det inte kommer att finnas någon autentisering, åtkomsthantering eller kommunikationskryptering. Den här inställningen sparar tid när Graylog konfigureras, men bör undvikas i produktion (se [denna sida](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: denna parameter namnger OpenSearch-klustret med namnet "**graylog**".
+- node.name: ${HOSTNAME}: nodnamnet ställs in dynamiskt så att det matchar namnet på den lokala Linux-maskinen. Även om vi bara har en nod är det viktigt att namnge den korrekt.
+- sökväg.data: /var/lib/opensearch: den här sökvägen anger var OpenSearch lagrar sina data på den lokala datorn, i det här fallet i "**/var/lib/opensearch**".
+- sökväg.loggar: /var/log/opensearch: denna sökväg definierar var OpenSearchs loggfiler lagras, här i "**/var/log/opensearch**".
+- discovery.type: single-node: denna parameter konfigurerar OpenSearch för att arbeta med en enda nod, därav valet av alternativet "**single-node**".
+- network.host: 127.0.0.1: den här konfigurationen säkerställer att OpenSearch bara lyssnar på sin lokala Interface-slinga, vilket är tillräckligt eftersom den finns på samma server som Graylog.
+- **action.auto_create_index: false**: genom att inaktivera automatisk indexskapande kommer OpenSearch inte automatiskt att skapa ett index när ett dokument skickas utan ett befintligt index.
+- **plugins.security.disabled: true**: detta alternativ avaktiverar OpenSearchs säkerhetsplugin, vilket innebär att det inte kommer att finnas någon autentisering, åtkomsthantering eller kommunikationskryptering. Den här inställningen sparar tid när Graylog konfigureras, men bör undvikas i produktion (se [denna sida](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -350,7 +350,7 @@ Stäng den här filen efter att du har sparat den.
 
 
 
-Dessutom måste vi kontrollera konfigurationen av parametern "**max_map_count**" i Linux-kärnan. Den definierar gränsen för minnesområden som mappas per process, för att tillgodose behoven i vår applikation. **OpenSearch**, liksom Elasticsearch**, rekommenderar att detta värde sätts till "262144" för att undvika fel i minneshanteringen.
+Dessutom måste vi kontrollera konfigurationen av parametern "**max_map_count**" i Linux-kärnan. Den definierar gränsen för minnesområden som mappas per process, för att tillgodose behoven i vår applikation. **OpenSearch**, liksom **Elasticsearch**, rekommenderar att detta värde sätts till "262144" för att undvika fel i minneshanteringen.
 
 
 
@@ -431,8 +431,8 @@ Låt oss börja med att konfigurera dessa två alternativ:
 
 
 
-- password_secret**: Denna parameter används för att definiera en nyckel som används av Graylog för att säkra lagringen av användarlösenord (i samma anda som en saltningsnyckel). Denna nyckel måste vara **unik** och **slumpmässig**.
-- root_password_sha2**: denna parameter motsvarar standardlösenordet för administratören i Graylog. Det lagras som en Hash SHA-256.
+- **password_secret**: Denna parameter används för att definiera en nyckel som används av Graylog för att säkra lagringen av användarlösenord (i samma anda som en saltningsnyckel). Denna nyckel måste vara **unik** och **slumpmässig**.
+- **root_password_sha2**: denna parameter motsvarar standardlösenordet för administratören i Graylog. Det lagras som en Hash SHA-256.
 
 
 
@@ -566,7 +566,7 @@ Sedan fick man försöka igen med användaren "**admin**" och det tillfälliga l
 
 
 
-**Detta är inte längre fallet. Allt du behöver göra är att logga in med ditt administratörskonto och lösenordet som konfigurerats på kommandoraden
+**Detta är inte längre fallet. Allt du behöver göra är att logga in med ditt administratörskonto och lösenordet som konfigurerats på kommandoraden.**
 
 
 
@@ -574,7 +574,7 @@ Sedan fick man försöka igen med användaren "**admin**" och det tillfälliga l
 
 
 
-**Välkommen till Graylogs Interface!
+**Välkommen till Graylogs Interface!**
 
 
 
@@ -661,7 +661,7 @@ Den nya ingången har skapats och är nu aktiv. Graylog kan nu ta emot Syslog-lo
 ![Image](assets/fr/018.webp)
 
 
-**En enda ingång kan användas för att lagra loggar från flera Linux-maskiner.
+**En enda ingång kan användas för att lagra loggar från flera Linux-maskiner.**
 
 
 
@@ -701,7 +701,7 @@ För att skapa en ny stream, klicka på "**Streams**" i Graylogs huvudmeny. Klic
 
 
 
-**Meddelanden som motsvarar denna ström kommer också att inkluderas i "**Default Stream**", såvida du inte markerar alternativet "**Remove matches from 'Default Stream'**".
+**Meddelanden som motsvarar denna ström kommer också att inkluderas i "Default Stream", såvida du inte markerar alternativet "Remove matches from 'Default Stream'".**
 
 
 

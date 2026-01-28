@@ -1,0 +1,9 @@
+question: Varför behöver en Miner en Bitcoin-nod?
+answer: För att interagera med nätverket och distribuera dina block
+wrong_answers:
+  - Till generate digitala signaturer
+  - För att komma in i din leverans Address i Coinbase Transaction
+  - För att minska svårighetsgraden för Mining
+explanation: |
+  Miners använder en nod för att kommunicera med nätverket, överföra sina block och ta emot transaktioner.
+reviewed: true

@@ -1,13 +1,13 @@
-question: Wat is het belangrijkste voordeel van goud als betaalmiddel?
-answer: Het is ongelooflijk duurzaam.
+question: Wat is het gevolg van het drukken van geld?
+answer: Het leidt tot inflatie, waardoor de bevolking geleidelijk verarmt.
 wrong_answers:
-  - Het is gemakkelijk deelbaar of vervoerbaar over lange afstanden.
-  - Het is gemakkelijk te verifiëren.
-  - Het wordt niet gereguleerd door de overheid.
+  - Het leidt tot deflatie, waardoor de bevolking geleidelijk rijker wordt.
+  - Het leidt tot een stabiele economie zonder inflatie of deflatie.
+  - Het leidt tot een daling van het geld Supply.
 explanation: |
-  Hoewel het niet makkelijk deelbaar of transporteerbaar is over
-  lange afstanden, is goud een zeer duurzaam materiaal, waardoor het een goede
-  waardoor het een goede waardeopslagplaats is. Gouden munten werden in het
-  als valuta in het verleden, maar ze zouden niet hetzelfde
-  doel in het huidige digitale tijdperk.
+  Monetaire druk, of het creëren van nieuw geld door centrale banken, leidt tot inflatie
+  leidt tot inflatie. Dit komt doordat de toename van
+  geld Supply de koopkracht van geld vermindert,
+  wat leidt tot hogere prijzen en een daling van de waarde van
+  spaargeld.
 reviewed: true

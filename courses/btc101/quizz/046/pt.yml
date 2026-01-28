@@ -1,12 +1,11 @@
-question: Qual é o impacto potencial do sistema financeiro atual sobre os atores políticos?
-answer: Eles não são incentivados a fazer mudanças radicais, permitindo que o sistema continue seu curso até uma possível implosão.
+question: Existe um caso histórico de uma taxa diária de inflação equivalente a 100%; onde e quando isso aconteceu?
+answer: No Zimbábue, 2007.
 wrong_answers:
-  - Eles são incentivados a fazer mudanças radicais para prevenir uma possível implosão.
-  - Eles não são incentivados a manter o status quo para garantir sua própria riqueza.
-  - Eles são incentivados a pensar a longo prazo.
+  - Na Hungria, 1945.
+  - Na China, 1940.
+  - Este é na verdade um caso irrealista que não pode acontecer.
 explanation: |
-  Como os atores políticos se beneficiam do sistema financeiro atual, eles não são incentivados a fazer mudanças radicais.
-  Isso permite que o sistema continue seu curso até uma
-  possível implosão, já que o sistema é regulado e
-  restrito para evitar seu próprio colapso.
+  Uma taxa de inflação de 100% por dia é um cenário realista que
+  aconteceu no Zimbábue em 2007, onde o valor do dinheiro
+  dobrava aproximadamente a cada 24 horas.
 reviewed: true

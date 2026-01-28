@@ -1,23 +1,23 @@
 ---
 name: Adding a Project
-description: How to propose the addition of a new project on PlanB Network?
+description: How to propose the addition of a new project on Plan ₿ Academy?
 ---
 ![project](assets/cover.webp)
 
 PlanB's mission is to provide top-tier educational resources on Bitcoin, in as many languages as possible. All content published on the site is open-source and hosted on GitHub, which allows anyone to participate in enriching the platform.
 
-Do you want to add a new Bitcoin "project" to the PlanB Network site and give visibility to your company or software, but don't know how? This tutorial is for you!
+Do you want to add a new Bitcoin "project" to the Plan ₿ Academy site and give visibility to your company or software, but don't know how? This tutorial is for you!
 ![project](assets/01.webp)
 - First, you need to have a GitHub account. If you don't know how to create an account, we have made a detailed tutorial to guide you.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Go to [the GitHub repository of PlanB dedicated to data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) in the `resources/project/` section:
 ![project](assets/02.webp)
 - Click on the top right on the `Add file` button, then on `Create new file`:
 ![project](assets/03.webp)
-- If you have never contributed to the contents of PlanB Network before, you will need to create your fork of the original repository. Forking a repository means creating a copy of that repository on your own GitHub account, which allows you to work on the project without affecting the original repository. Click on the `Fork this repository` button:
+- If you have never contributed to the contents of Plan ₿ Academy before, you will need to create your fork of the original repository. Forking a repository means creating a copy of that repository on your own GitHub account, which allows you to work on the project without affecting the original repository. Click on the `Fork this repository` button:
 ![project](assets/04.webp)
 - You will then arrive at the GitHub editing page:
 ![project](assets/05.webp)
@@ -112,7 +112,7 @@ category: education
 ![project](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![project](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![project](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It's probably called `patch-1`. Click on it:
 ![project](assets/16.webp)
@@ -133,7 +133,7 @@ category: education
 ![project](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`:
 ![project](assets/25.webp)
-- A new page will open. Drag and drop an image of your company or your software into the area. This image will be displayed on the PlanB Network site:
+- A new page will open. Drag and drop an image of your company or your software into the area. This image will be displayed on the Plan ₿ Academy site:
 ![project](assets/26.webp)
 - It can be the logo or an icon:
 ![project](assets/27.webp)
@@ -163,7 +163,7 @@ contributors:
  - 
 ```
 
-- For the `contributors` key, you can add your contributor identifier to PlanB Network if you have one. If you don't, leave this field empty.
+- For the `contributors` key, you can add your contributor identifier to Plan ₿ Academy if you have one. If you don't, leave this field empty.
 - For the `description` key, you simply need to add a short paragraph that describes your company or your software. The description must be in the same language as the file name. You do not need to translate this description into all the languages supported on the site, as the PlanB teams will do so using their model. For example, here is what your file could look like:
 ```yaml
 description: |
@@ -187,9 +187,9 @@ contributors:
 ![project](assets/43.webp)
 - Click on the `Create pull request` button:
 ![project](assets/44.webp)
-Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, integrate it into the main repository of PlanB Network. You should see your project profile appear on the website a few days later.
+Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, integrate it into the main repository of Plan ₿ Academy. You should see your project profile appear on the website a few days later.
 
-Be sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can consult it in the `Pull requests` tab on the PlanB Network GitHub repository:
+Be sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can consult it in the `Pull requests` tab on the Plan ₿ Academy GitHub repository:
 ![project](assets/45.webp)
 Thank you very much for your valuable contribution! :)
 

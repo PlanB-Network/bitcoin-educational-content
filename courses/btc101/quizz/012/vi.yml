@@ -1,9 +1,12 @@
-question: Cypherpunks là ai?
-answer: Một nhóm người bắt đầu đặt câu hỏi sâu sắc về vai trò của quyền riêng tư và tự do trong kỷ nguyên số.
+question: Ba chức năng cơ bản của tiền tệ là gì?
+answer: Lưu trữ giá trị, Phương tiện trao đổi, Đơn vị kế toán.
 wrong_answers:
-  - Một nhóm hacker đã đánh cắp thông tin từ các chính phủ.
-  - Một nhóm người đã phát minh ra Bitcoin và các loại tiền mã hóa khác.
-  - Một nhóm người phản đối việc sử dụng công nghệ.
+  - Lưu trữ giá trị, Phương tiện trao đổi, Phương tiện sản xuất.
+  - Lưu trữ giá trị, Phương tiện sản xuất, Đơn vị kế toán.
+  - Phương tiện trao đổi, Phương tiện sản xuất, Đơn vị kế toán.
 explanation: |
-  Cypherpunks là một nhóm cá nhân tin rằng mật mã học có thể phục vụ như một công cụ để bảo vệ quyền cá nhân chống lại sự can thiệp của chính phủ và các công ty lớn.
+  Theo Aristotle, tiền tệ đảm nhận ba chức năng: nó là
+  một phương tiện lưu trữ giá trị, một phương tiện trao đổi, và một đơn vị
+  kế toán. Ngày nay, chức năng phương tiện trao đổi được
+  công nhận rộng rãi là chính, trước hai chức năng khác.
 reviewed: true

@@ -259,7 +259,7 @@ passphrase to bardzo potężne narzędzie zwiększające bezpieczeństwo bitcoin
 passphrase to bardzo potężne narzędzie wzmacniające bezpieczeństwo bitcoinów. Kluczowe jest jednak zrozumienie jego działania przed wdrożeniem, aby uniknąć utraty dostępu do Wallet. Właśnie dlatego wyjaśniam wszystko w dedykowanym samouczku:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Ostatnia strona ustawień umożliwia zresetowanie Ledger. Reset ten należy wykonać tylko wtedy, gdy masz pewność, że nie zawiera on żadnych kluczy zabezpieczających bitcoiny, ponieważ możesz trwale utracić dostęp do swoich środków.
 
@@ -470,7 +470,7 @@ Możesz dodać "*Label*", aby opisać źródło bitcoinów, które będą zabezp
 Więcej informacji na temat etykietowania można znaleźć w tym poradniku:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Następnie można użyć Address do otrzymywania bitcoinów.
 

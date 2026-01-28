@@ -1,9 +1,11 @@
-question: Qual é um dos riscos associados à compra de Bitcoin?
-answer: Seu preço pode cair para 0.
+question: Qual é um dos aspectos que você deve considerar ao escolher uma plataforma de DCA?
+answer: Disponibilidade no seu país.
 wrong_answers:
-  - Pode ser facilmente roubado.
-  - Pode ser duplicado.
-  - Pode ser perdido fisicamente.
+  - A cor do logotipo da plataforma.
+  - O número de usuários na plataforma.
+  - A idade da plataforma.
 explanation: |
-  O texto do curso menciona que o Bitcoin é um ativo financeiro altamente volátil, e seu preço pode cair para 0, o que é um dos riscos associados à compra de Bitcoin.
+  Este texto do curso menciona que, ao escolher uma
+  plataforma de DCA, a escolha certa dependerá mais
+  da sua disponibilidade no seu país.
 reviewed: true

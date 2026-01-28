@@ -1,0 +1,9 @@
+question: Hvem vedlikeholder DNS seed-serverne som brukes til å oppdage motparter?
+answer: Utviklere av økosystemer
+wrong_answers:
+  - Leverandører av Internett-tjenester
+  - Satoshi Nakamoto
+  - Mining-bassenger
+explanation: |
+  DNS-frø vedlikeholdes av kjente utviklere (Wuille, Corallo, Dashjr osv.) og gir aktive node-IP-er for å starte tilkoblinger.
+reviewed: true

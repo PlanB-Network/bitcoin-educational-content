@@ -1,0 +1,9 @@
+question: Какой дополнительный индекс может быть активирован в Bitcoin core для поиска транзакции по ее txid?
+answer: txindex
+wrong_answers:
+  - addrindex
+  - blockindex
+  - electrumindex
+explanation: |
+  Опция txindex=1 используется для запроса транзакции по ее уникальному идентификатору (txid).
+reviewed: true

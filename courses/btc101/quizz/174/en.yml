@@ -1,10 +1,13 @@
-question: What are the typical costs for a miner?
-answer: Electricity consumption and hardware purchase.
+question: What is one way that Bitcoin has further integrated itself into the traditional market?
+answer: The arrival of Bitcoin ETFs.
 wrong_answers:
-  - Only hardware purchase.
-  - Transaction fees. 
-  - Electricity consumption and transaction fees.
-explanation: >-
-  Mining Bitcoin requires substantial computational power, which in turn consumes electricity. 
-  Besides, miners need to invest in specialized hardware to effectively mine it.
-reviewed: false
+  - The banning of Bitcoin.
+  - The disappearance of all cryptocurrencies.
+  - The creation of Bitcoin.
+explanation: |
+  Bitcoin continues to survive and grow even more by
+  integrating itself more and more into the traditional
+  market. The arrival of Bitcoin ETFs, clearer regulation,
+  and better acquisition of storage tools only encourage this
+  trend.
+reviewed: true

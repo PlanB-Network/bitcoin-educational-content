@@ -1,0 +1,9 @@
+question: 什麼因素決定節點對共識規則的影響？
+answer: 其經濟份量
+wrong_answers:
+  - 其外連線數
+  - 在網路中的年資
+  - 沒有，因為每個節點只有一票
+explanation: |
+  對共識規則的影響取決於節點所支援的經濟活動，而非其數量。
+reviewed: true

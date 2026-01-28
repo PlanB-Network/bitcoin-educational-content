@@ -16,21 +16,21 @@ Relai erottuu edukseen yksinkertaisuudellaan, saavutettavuudellaan ja keskittymi
 ### Vaihe 1: Lataa Relai-sovellus
 
 
-- Mistä löydät sen:** Sovellus on saatavilla sekä App Storesta (iOS) että Google Play Storesta (Android). Etsi "Relai" ja lataa se ilmaiseksi.
-- Pika-asennus:** Kun olet asentanut sovelluksen, avaa se ja seuraa ohjattua asennusprosessia.
+- **Mistä löydät sen:** Sovellus on saatavilla sekä App Storesta (iOS) että Google Play Storesta (Android). Etsi "Relai" ja lataa se ilmaiseksi.
+- **Pika-asennus:** Kun olet asentanut sovelluksen, avaa se ja seuraa ohjattua asennusprosessia.
 
 ### Vaihe 2: Luo tilisi
 
 
-- Pakollinen KYC:** Relai vaatii nyt Know Your Customer (KYC) -tarkastuksen. Valmista voimassa oleva henkilöllisyystodistus ja osoitetodistus.
-- Varmennusprosessi:** Lataa asiakirjasi, ota selfie henkilöllisyyden vahvistamiseksi ja odota hyväksyntää (yleensä 24 tunnin kuluessa).
-- Miksi KYC?:** Se varmistaa rahoitussäännösten noudattamisen ja parantaa kaikkien käyttäjien turvallisuutta.
+- **Pakollinen KYC:** Relai vaatii nyt Know Your Customer (KYC) -tarkastuksen. Valmista voimassa oleva henkilöllisyystodistus ja osoitetodistus.
+- **Varmennusprosessi:** Lataa asiakirjasi, ota selfie henkilöllisyyden vahvistamiseksi ja odota hyväksyntää (yleensä 24 tunnin kuluessa).
+- **Miksi KYC?** Se varmistaa rahoitussäännösten noudattamisen ja parantaa kaikkien käyttäjien turvallisuutta.
 
 ### Vaihe 3: Turvaa lompakkosi
 
 
-- Omahallinta:** Relai tarjoaa ei-hallinnollisen lompakon, mikä tarkoittaa, että hallitset yksityisiä avaimiasi.
-- Varmuuskopioi avaimesi:** Kirjoita 12-sanainen palautuslausekkeesi paperille (ei digitaalisesti) ja säilytä se turvallisesti. Tämä on tärkeää, jotta pääset käsiksi varoihisi, jos puhelimesi katoaa tai varastetaan.
+- **Omahallinta:** Relai tarjoaa ei-hallinnollisen lompakon, mikä tarkoittaa, että hallitset yksityisiä avaimiasi.
+- **Varmuuskopioi avaimesi:** Kirjoita 12-sanainen palautuslausekkeesi paperille (ei digitaalisesti) ja säilytä se turvallisesti. Tämä on tärkeää, jotta pääset käsiksi varoihisi, jos puhelimesi katoaa tai varastetaan.
 
 ---
 ## Bitcoin-säästösuunnitelman luominen
@@ -123,11 +123,11 @@ Relai näyttää sovellettavat verkkomaksut.
 ## Vinkkejä turvalliseen Bitcoin-hallintaan
 
 
-- Pidä palautuslauseesi turvassa:** Säilytä se offline-tilassa ja vältä sen jakamista kenenkään kanssa.
-- Ota sovelluksen turvallisuus käyttöön:** Käytä vahvaa PIN-koodia tai biometristä tunnistautumista.
-- Monipuolistaa varastointia:** Harkitse laitteistolompakon käyttöä suurille Bitcoin-määrille.
-- Päivitä sovellus säännöllisesti:** Pysy suojattuna uusimpien tietoturvakorjausten ja ominaisuuksien avulla.
-- Vältä julkista Wi-Fi-yhteyttä:** Käytä lompakkoasi vain suojatuissa verkoissa.
+- **Pidä palautuslauseesi turvassa:** Säilytä se offline-tilassa ja vältä sen jakamista kenenkään kanssa.
+- **Ota sovelluksen turvallisuus käyttöön:** Käytä vahvaa PIN-koodia tai biometristä tunnistautumista.
+- **Monipuolistaa varastointia:** Harkitse laitteistolompakon käyttöä suurille Bitcoin-määrille.
+- **Päivitä sovellus säännöllisesti:** Pysy suojattuna uusimpien tietoturvakorjausten ja ominaisuuksien avulla.
+- Vältä julkista Wi-Fi-yhteyttä: **Käytä lompakkoasi vain suojatuissa verkoissa.**
 
 ---
 ## Relai Yritystilit
@@ -135,10 +135,10 @@ Relai näyttää sovellettavat verkkomaksut.
 Relai tukee myös yrityksiä, jotka haluavat investoida Bitcoiniin. Ominaisuuksiin kuuluvat:
 
 
-- Räätälöidyt säästösuunnitelmat:** Räätälöityjä suunnitelmia yrityksen tarpeisiin.
-- Usean käyttäjän käyttöoikeus:** Mahdollistaa useiden tiimin jäsenten turvallisen tilinhallinnan.
-- Laajennetut rajat:** Sijoita suurempia summia kuin henkilökohtaisilla tileillä.
-- Erityistuki:** Ensisijainen asiakaspalvelu yrityksille.
+- **Räätälöidyt säästösuunnitelmat:** Räätälöityjä suunnitelmia yrityksen tarpeisiin.
+- **Usean käyttäjän käyttöoikeus:** Mahdollistaa useiden tiimin jäsenten turvallisen tilinhallinnan.
+- **Laajennetut rajat:** Sijoita suurempia summia kuin henkilökohtaisilla tileillä.
+- **Erityistuki:** Ensisijainen asiakaspalvelu yrityksille.
 
 Jos haluat perustaa yritystilin, ota yhteyttä Relain tukitiimiin heidän verkkosivustonsa kautta.
 
@@ -148,9 +148,9 @@ Jos haluat perustaa yritystilin, ota yhteyttä Relain tukitiimiin heidän verkko
 Relai tarjoaa jännittävän suositteluohjelman, jossa voit ansaita Bitcoinia kutsumalla ystäväsi käyttämään sovellusta. Näin se toimii:
 
 
-- Jaa suosittelukoodisi:** Jokainen Relai-käyttäjä saa ainutlaatuisen suosittelukoodin. Jaa se ystäviesi kanssa.
-- Ansaitse 10 % maksuista:** Ansaitset 10 % ystäviesi maksutapahtumien maksuista, kun he käyttävät koodiasi.
-- Passiivinen Bitcoin-tulo:** Kun ystäväsi jatkavat kaupankäyntiä Relaissa, ansaitset jatkuvasti Bitcoinia. Se on win-win sekä sinulle että ystävillesi.
+- **Jaa suosittelukoodisi:** Jokainen Relai-käyttäjä saa ainutlaatuisen suosittelukoodin. Jaa se ystäviesi kanssa.
+- **Ansaitse 10 % maksuista:** Ansaitset 10 % ystäviesi maksutapahtumien maksuista, kun he käyttävät koodiasi.
+- **Passiivinen Bitcoin-tulo:** Kun ystäväsi jatkavat kaupankäyntiä Relaissa, ansaitset jatkuvasti Bitcoinia. Se on win-win sekä sinulle että ystävillesi.
 
 Aloita koodisi jakaminen jo tänään ja kasvata Bitcoin-pinoasi vaivattomasti!
 
@@ -161,7 +161,7 @@ Aloita koodisi jakaminen jo tänään ja kasvata Bitcoin-pinoasi vaivattomasti!
 
 
 - Relai veloittaa kilpailukykyisen 1 %:n maksun tapahtumaa kohden tai 0,9 %, jos käytät suosittelukoodia, kuten "REL361712". Maksut näytetään avoimesti ennen oston vahvistamista.
-- Maksuttomuus:** Maksutapahtumat 100 euroon tai 100 Sveitsin frangiin asti ovat täysin maksuttomia.
+- **Maksuttomuus:** Maksutapahtumat 100 euroon tai 100 Sveitsin frangiin asti ovat täysin maksuttomia.
 
 ### Voinko keskeyttää säästösuunnitelmani?
 

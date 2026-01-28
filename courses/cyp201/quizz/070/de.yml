@@ -6,4 +6,4 @@ wrong_answers:
   - Die Art der Währung
 explanation: |
   Die Tiefe 0 entspricht dem Master-Schlüssel und dem Master-Chain-Code, welche die Ausgangspunkte für alle Ableitungen in einem HD-Wallet sind.
-reviewed: false
+reviewed: true

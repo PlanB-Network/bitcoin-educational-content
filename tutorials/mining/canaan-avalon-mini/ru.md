@@ -23,7 +23,7 @@ description: Настройка ASIC Avalon для соломайнинга ил
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Обратите внимание, что разница в цене с традиционными обогревателями эквивалентной мощности в подавляющем большинстве случаев не позволит вам получить финансовую прибыль. Сатоши, получаемые от деятельности Mining, никогда не компенсируют эту разницу в цене, если только у вас нет доступа к бесплатному (избыточному) или очень дешевому электричеству.
 
@@ -122,22 +122,23 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Характеристика                                      | Значение                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
-| Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Хешрейт                                             | 37.5 Th/s +- 5%                                           |
+| Потребление электроэнергии                              | 800 W                                                     |
+| Шум                                                | 35-55 dB                                                  |
+| Температура выходящего воздуха                       | 60-70°C (при температуре окружающей среды 25°C)                  |
+| Требования к температуре окружающей среды для использования | -5° C - 40°C                                              |
+| Диапазон входного напряжения устройства                         | 110V-240V AC 50/60Hz                                      |
+| Размер машины                                 | Длина: 760 мм / Глубина: 104 мм / Высота: 214.5 мм |
+| Вес машины                                  |  8.35 kg                                                  |
 
 ## Подключение к Mining pool
 
 
 
-**Эта часть является общей для устройств Nano 3s и Mini 3, так как процессы полностью идентичны*
+**Эта часть является общей для устройств Nano 3s и Mini 3, так как процессы полностью идентичны**
 
 
 
@@ -181,9 +182,9 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Чтобы подвести итог, нам нужно
 
@@ -358,4 +359,4 @@ https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

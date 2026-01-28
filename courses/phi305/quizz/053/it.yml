@@ -1,0 +1,9 @@
+question: Cosa presenta il Libro Bianco di Satoshi Nakamoto?
+answer: Un mezzo decentralizzato di Exchange su Internet.
+wrong_answers:
+  - Una nuova politica liberale.
+  - Un protocollo Exchange centralizzato.
+  - Un programma politico.
+explanation: |
+  Satoshi White Paper Nakamoto presenta il Bitcoin come mezzo decentralizzato del Exchange su Internet. Propone un sistema di pagamento elettronico peer-to-peer senza autorità centrale.
+reviewed: false

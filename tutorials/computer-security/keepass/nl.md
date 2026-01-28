@@ -24,7 +24,7 @@ Een wachtwoordmanager genereert sterke wachtwoorden en slaat deze veilig op, zod
 
 In deze tutorial leren we hoe je een lokale wachtwoordmanager instelt en gebruikt om je online beveiliging te verbeteren. Hier zal ik je kennis laten maken met KeePass. Als je echter een beginner bent en een online wachtwoordmanager wilt die op meerdere apparaten kan synchroniseren, raad ik je aan onze tutorial over Bitwarden te volgen:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -45,7 +45,7 @@ Standaard ondersteunt KeePass het gebruik van browserextensies zoals Bitwarden n
 KeePass is ontworpen om zowel licht als gebruiksvriendelijk te zijn, terwijl het voldoet aan hoge beveiligingsstandaarden. De software versleutelt je database lokaal voor optimale bescherming van je referenties. KeePass is ook de enige wachtwoordmanager die is gevalideerd door de ANSSI (de Franse cyberbeveiligingsautoriteit).
 
 
-Een van de belangrijkste voordelen van KeePass is de flexibiliteit. Het kan op veel verschillende manieren gebruikt worden, zoals op een USB-stick zonder dat het op een computer geïnstalleerd hoeft te worden. Bovendien kan KeePass dankzij de [plugin-omgeving] (https://keepass.info/plugins.html) worden aangepast aan meer specifieke behoeften.
+Een van de belangrijkste voordelen van KeePass is de flexibiliteit. Het kan op veel verschillende manieren gebruikt worden, zoals op een USB-stick zonder dat het op een computer geïnstalleerd hoeft te worden. Bovendien kan KeePass dankzij de [plugin-omgeving](https://keepass.info/plugins.html) worden aangepast aan meer specifieke behoeften.
 
 ![KEEPASS](assets/notext/01.webp)
 

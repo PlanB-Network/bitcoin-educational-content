@@ -17,10 +17,10 @@ Arch Linux er en distribusjon som er kjent for sin robusthet, ytelse og tilpasni
 
 
 
-- Gratis og åpen kildekode**: Som de fleste Linux-distribusjoner er Arch Linux helt gratis. Det er ingen lisensavgifter, noe som gjør den til et utmerket valg for studenter, frilansere eller entusiaster.
-- KISS**-filosofien: Arch er designet for å være enkel, lett og effektiv. Den inneholder bare det viktigste, slik at du kan bygge opp miljøet ditt à la carte.
-- Pakkebehandleren Pacman**: Pacman er en rask, pålitelig og veldesignet pakkebehandler. Den muliggjør effektiv installasjon og oppdatering av programvare, og håndterer avhengigheter med presisjon.
-- Omfattende dokumentasjon og et aktivt fellesskap**: [Arch Wiki] (https://wiki.archlinux.org) er sannsynligvis en av de beste tekniske dokumentasjonene i Linux-verdenen. Det er en gullgruve for å forstå hva du gjør. Fellesskapet, som for det meste består av erfarne profiler, er svært aktivt og kan hjelpe deg hvis du står fast, forutsatt at du har gjort litt research på forhånd.
+- **Gratis og åpen kildekode**: Som de fleste Linux-distribusjoner er Arch Linux helt gratis. Det er ingen lisensavgifter, noe som gjør den til et utmerket valg for studenter, frilansere eller entusiaster.
+- **KISS-filosofien**: Arch er designet for å være enkel, lett og effektiv. Den inneholder bare det viktigste, slik at du kan bygge opp miljøet ditt à la carte.
+- **Pakkebehandleren Pacman**: Pacman er en rask, pålitelig og veldesignet pakkebehandler. Den muliggjør effektiv installasjon og oppdatering av programvare, og håndterer avhengigheter med presisjon.
+- **Omfattende dokumentasjon og et aktivt fellesskap**: [Arch Wiki](https://wiki.archlinux.org) er sannsynligvis en av de beste tekniske dokumentasjonene i Linux-verdenen. Det er en gullgruve for å forstå hva du gjør. Fellesskapet, som for det meste består av erfarne profiler, er svært aktivt og kan hjelpe deg hvis du står fast, forutsatt at du har gjort litt research på forhånd.
 
 
 
@@ -39,7 +39,7 @@ Materialer som kreves:
 
 
 - En USB-nøkkel på minst **8 GB**
-- minimum 2 GB** RAM
+- minimum 2 GB **RAM**
 - En datamaskin med minst 20 GB ledig diskplass
 
 
@@ -58,7 +58,7 @@ Siden 2017 har Arch Linux ikke lenger støtte for 32-bits arkitekturer. Kun 64-b
 
 
 
-- Besøk [det offisielle nettstedet] (https://mir.archlinux.fr/iso/latest/) for å laste ned den nyeste offisielle versjonen av ISO-bildet.
+- Besøk [det offisielle nettstedet](https://mir.archlinux.fr/iso/latest/) for å laste ned den nyeste offisielle versjonen av ISO-bildet.
 
 
 
@@ -72,7 +72,7 @@ For å lage en oppstartbar USB-minnepinne kan du bruke et verktøy som **Balena 
 
 
 
-- Last ned Balena Etcher fra [offisiell nettside] (https://etcher.balena.io).
+- Last ned Balena Etcher fra [offisiell nettside](https://etcher.balena.io).
 - Start programvaren, velg Arch Linux ISO-bildet.
 - Velg USB-nøkkelen din som målenhet.
 - Klikk på **Flash** for å starte opprettelsen av den oppstartbare nøkkelen.
@@ -261,24 +261,26 @@ Velg **GPT** hvis du bruker UEFI, og **DOS** hvis du bruker BIOS.
 
 
 
-- I UEFI**-modus
+- I **UEFI**-modus
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Monteringspunkt på det installerte systemet | Partisjon                 | Partisjonstype       | Foreslått størrelse |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI-systempartisjon   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Vekslingsminne (swap) | Minst 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 rot (/) | Rest av disken |
 
 - I BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Monteringspunkt på det installerte systemet | Partisjon           | Partisjonstype       | Foreslått størrelse |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Vekslingsminne (swap) | Minst 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Rest av disken |
 
 ![0_10](assets/fr/10.webp)
 
@@ -294,7 +296,7 @@ Velg **Write**, skriv **yes** og deretter **Quit**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +311,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 
@@ -778,6 +780,6 @@ Hvis du har hatt glede av å komme i gang med Arch Linux, vil du elske vår veil
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

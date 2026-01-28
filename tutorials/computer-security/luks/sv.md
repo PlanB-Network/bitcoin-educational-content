@@ -131,7 +131,7 @@ Vi ska nu radera alla data på vårt USB-minne. Åtgärden består i att fylla d
 
 
 
-**Se till att du riktar in dig på rätt enhetsfil!
+**Se till att du riktar in dig på rätt enhetsfil!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Här initierar och formaterar underkommandot "`luksFormat`" enheten så att den använder LUKS-kryptering. Du uppmanas att bekräfta åtgärden genom att skriva `YES` med versaler och sedan definiera en *passphrase*. **Välj en robust *passphrase* för att säkerställa att angriparen inte kan upptäcka den via brute-force-attacker om den skulle gå förlorad.
+Här initierar och formaterar underkommandot "`luksFormat`" enheten så att den använder LUKS-kryptering. Du uppmanas att bekräfta åtgärden genom att skriva `YES` med versaler och sedan definiera en *passphrase*. **Välj en robust** ***passphrase*** **för att säkerställa att angriparen inte kan upptäcka den via brute-force-attacker om den skulle gå förlorad.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Här anges målplatsen** som "**/dev/mappe/usbkey1**"**, varför?
+**Här anges målplatsen** som "**/dev/mappe/usbkey1**", varför?
 
 
 

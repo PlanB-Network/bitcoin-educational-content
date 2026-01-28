@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Mickael Dorigny publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Mickael Dorigny publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -22,7 +22,7 @@ ___
 
 
 
-Kryptering av en USB-pinne er en god måte å beskytte sensitive data på. **I denne veiledningen skal vi se på hvordan du bruker LUKS (*Linux Unified Key Setup*) med cryptsetup til å kryptere en USB-pinne på et Linux-system, slik at du kan sikre dataene dine, spesielt i tilfelle du mister eller blir frastjålet USB-pinnen din.
+Kryptering av en USB-pinne er en god måte å beskytte sensitive data på. **I denne veiledningen skal vi se på hvordan du bruker LUKS** (*Linux Unified Key Setup*) **med cryptsetup til å kryptere en USB-pinne på et Linux-system, slik at du kan sikre dataene dine, spesielt i tilfelle du mister eller blir frastjålet USB-pinnen din.**
 
 
 
@@ -131,7 +131,7 @@ Vi skal nå slette alle dataene på USB-minnepinnen vår. Operasjonen består i 
 
 
 
-**Sørg for at du velger riktig enhetsfil!
+**Sørg for at du velger riktig enhetsfil!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Her initialiserer og formaterer underkommandoen "`luksFormat`" enheten slik at den bruker LUKS-kryptering. Du blir bedt om å bekrefte denne operasjonen ved å skrive `YES` med store bokstaver, og deretter definere en *passphrase*. **Velg en robust *passphrase* for å sikre at angriperen ikke kan oppdage den via brute-force-angrep i tilfelle den går tapt.
+Her initialiserer og formaterer underkommandoen "`luksFormat`" enheten slik at den bruker LUKS-kryptering. Du blir bedt om å bekrefte denne operasjonen ved å skrive `YES` med store bokstaver, og deretter definere en *passphrase*. **Velg en robust** *passphrase* **for å sikre at angriperen ikke kan oppdage den via brute-force-angrep i tilfelle den går tapt.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Her er målplasseringen** spesifisert som "**/dev/mappe/usbkey1**"**, hvorfor?
+**Her er målplasseringen** spesifisert som "**/dev/mappe/usbkey1**", hvorvy?
 
 
 

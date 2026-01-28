@@ -5,5 +5,5 @@ wrong_answers:
   - Nutri-Score
   - Foodvisor
 explanation: |
-  OpenFoodFacts je besplatan, zajednički projekat, transparentan u pogledu svojih podataka, dok je Yuka zasnovana na neprozirnom, zatvorenom modelu.
-reviewed: false
+  OpenFoodFacts je besplatan, zajednički projekat, transparentan u pogledu svojih podataka, dok je Yuka zasnovana na netransparentnom, zatvorenom modelu.
+reviewed: true

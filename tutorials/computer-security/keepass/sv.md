@@ -24,7 +24,7 @@ En lösenordshanterare genererar och lagrar starka lösenord på ett säkert sä
 
 I den här handledningen lär vi oss hur man ställer in och använder en lokal lösenordshanterare för att förbättra din online-säkerhet. Här kommer jag att introducera dig till KeePass. Men om du är nybörjare och vill ha en lösenordshanterare online som kan synkroniseras mellan flera enheter rekommenderar jag att du följer vår handledning om Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -45,7 +45,7 @@ Som standard stöder KeePass inte användningen av webbläsartillägg som Bitwar
 KeePass är utformat för att vara både lättviktigt och enkelt att använda, samtidigt som det följer höga säkerhetsstandarder. Programvaran krypterar din databas lokalt för optimalt skydd av dina inloggningsuppgifter. KeePass är också den enda lösenordshanteraren som validerats av ANSSI (den franska cybersäkerhetsmyndigheten).
 
 
-En av de största fördelarna med KeePass är dess flexibilitet. Det kan användas på många olika sätt, t.ex. på ett USB-minne utan att behöva installeras på en dator. Tack vare sin [plugin-miljö] (https://keepass.info/plugins.html) kan KeePass dessutom anpassas för att uppfylla mer specifika behov.
+En av de största fördelarna med KeePass är dess flexibilitet. Det kan användas på många olika sätt, t.ex. på ett USB-minne utan att behöva installeras på en dator. Tack vare sin [plugin-miljö](https://keepass.info/plugins.html) kan KeePass dessutom anpassas för att uppfylla mer specifika behov.
 
 ![KEEPASS](assets/notext/01.webp)
 

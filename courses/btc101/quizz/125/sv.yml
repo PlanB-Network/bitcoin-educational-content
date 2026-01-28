@@ -1,11 +1,12 @@
-question: Vilket är datumet för det senast kända privata meddelandet från Satoshi Nakamoto via e-post?
-answer: 23 april 2011.
+question: Vilken betydelse har den geografiska fördelningen av Bitcoin-noderna?
+answer: Det gör det praktiskt taget omöjligt att förstöra alla kopior av Blockchain.
 wrong_answers:
-  - 12 december 2010.
-  - 8 januari 2009.
-  - 31 oktober 2008.
+  - Det avgör priset på Bitcoin i olika regioner.
+  - Det påverkar hastigheten för Bitcoin-transaktioner.
+  - Det avgör antalet bitcoins som kan utvinnas i en region.
 explanation: |
-  Datumet för det senast kända privata meddelandet från Satoshi
-  Nakamoto via e-post är den 23 april 2011. Det skickades till
-  utvecklaren Mike Hearn.
+  Den geografiska fördelningen av Bitcoin-noderna gör det
+  praktiskt taget omöjligt att förstöra alla kopior av
+  Blockchain. Eftersom noderna är utspridda är det svårt att
+  fysiskt beslagta dem alla.
 reviewed: true

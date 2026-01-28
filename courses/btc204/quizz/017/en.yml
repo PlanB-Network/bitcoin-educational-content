@@ -5,5 +5,5 @@ wrong_answers:
   - A fingerprint link.
   - An analysis marker.
 explanation: |
-  Behaviors and information that may link a real identity to on-chain activity are called entry points.
-reviewed: false
+  Behaviors and information that may link a real identity to on-chain activity are referred to as entry points.
+reviewed: true

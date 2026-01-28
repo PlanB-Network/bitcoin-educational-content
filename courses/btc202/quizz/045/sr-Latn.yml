@@ -1,0 +1,9 @@
+question: Koji koraci moraju biti završeni pre nego što se UmbrelOS može instalirati?
+answer: Kreirajte USB ključ za pokretanje sa slikom
+wrong_answers:
+  - Kompajliranje izvornog koda Bitcoin core
+  - Formatiranje Blockchain
+  - Kreiraj nalog na umbrel.com
+explanation: |
+  Instalacija počinje pripremom USB ključa za pokretanje sa UmbrelOS putem Balena Etcher.
+reviewed: true

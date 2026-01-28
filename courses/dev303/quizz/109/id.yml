@@ -1,0 +1,8 @@
+question: Apa keunggulan arsitektur mendasar dari pendekatan Breez SDK untuk manajemen node Lightning dibandingkan dengan implementasi Lightning tradisional yang dihosting sendiri?
+answer: Pengguna mempertahankan node Lightning mereka sendiri di infrastruktur Greenlight sambil mempertahankan kontrol eksklusif atas kunci pribadi yang tidak pernah meninggalkan perangkat mereka
+wrong_answers:
+  - Pengguna berbagi saluran Lightning yang dikelola oleh Breez sambil mempertahankan hak asuh dana individu melalui pengaturan multi-tanda tangan
+  - "Pengguna menjalankan node Lightning ringan secara lokal yang disinkronkan dengan node master Breez untuk meningkatkan keandalan dan mengurangi kebutuhan bandwidth"
+  - Pengguna mendelegasikan manajemen saluran ke Penyedia Layanan Lightning sambil mempertahankan hak asuh melalui modul keamanan perangkat keras yang terintegrasi ke dalam perangkat seluler
+explanation: |
+  Arsitektur Breez SDK memberikan setiap pengguna node Lightning khusus mereka sendiri yang berjalan di infrastruktur cloud Greenlight, tetapi yang terpenting, kunci privat tidak pernah meninggalkan perangkat pengguna. Ini berarti Greenlight tidak dapat melakukan operasi Lightning apa pun tanpa aplikasi pengguna secara aktif menandatangani transaksi. Ini berbeda dengan kumpulan saluran bersama, node ringan lokal, atau modul keamanan perangkat keras - ini adalah pendekatan hibrida unik yang menghilangkan kompleksitas operasional sambil mempertahankan prinsip-prinsip penahanan mandiri yang sebenarnya.

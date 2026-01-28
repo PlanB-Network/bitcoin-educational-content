@@ -6,4 +6,4 @@ wrong_answers:
   - It temporarily divides them for verification.
 explanation: |
   The UTXOs in outputs of the transaction are created by consuming the UTXOs in inputs. It is, in a way, the destination of the money.
-reviewed: false
+reviewed: true

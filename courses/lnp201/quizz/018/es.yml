@@ -6,3 +6,4 @@ wrong_answers:
   - Cerrando y reabriendo el canal después de cada transacción
 explanation: |
   Cada transacción dentro del canal actualiza el estado del canal con una nueva transacción de compromiso, reflejando la distribución actual de fondos entre los dos participantes.
+reviewed: true

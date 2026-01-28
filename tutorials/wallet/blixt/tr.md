@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Cep telefonunuzda güçlü bir LN düğümünü kullanmaya nasıl başlayabilirsiniz?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Bu kılavuz, Bitcoin Lightning Network (LN)'ü ÜCRETSİZ AÇIK KAYNAK, TAM MÜŞTEREK OLMAYAN bir şekilde kullanmaya başlamak isteyen tüm yeni kullanıcılara adanmıştır.
@@ -11,7 +11,7 @@ Bu kılavuz, Bitcoin Lightning Network (LN)'ü ÜCRETSİZ AÇIK KAYNAK, TAM MÜ�
 Blixt Wallet](https://blixtwallet.com/) kullanarak, nerede olursanız olun cep telefonunuzda tam bir LN düğümü.
 
 
-Bitcoin Lightning Network'yi hiç kullanmadıysanız, başlamadan önce [lütfen Lightning Network (LN) hakkındaki bu basit açıklama analojisini okuyun] (https://darth-Coin.github.io/beginner/LN-airport-analogy-en.html).
+Bitcoin Lightning Network'yi hiç kullanmadıysanız, başlamadan önce [lütfen Lightning Network (LN) hakkındaki bu basit açıklama analojisini okuyun](https://darth-Coin.github.io/beginner/LN-airport-analogy-en.html).
 
 
 ## ÖNEMLI HUSUSLAR:
@@ -22,7 +22,7 @@ Bitcoin Lightning Network'yi hiç kullanmadıysanız, başlamadan önce [lütfen
 
 
 
-- Blixt, Wallet arka ucu olarak LND (aezeed) kullanıyor, bu nedenle diğer Bitcoin cüzdan türlerini içine aktarmaya çalışmayın. [Burada Wallet Mnemonic tohum türlerini açıkladınız] (https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ve işte [tüm cüzdan türlerinin daha kapsamlı bir listesi](https://walletsrecovery.org/). Dolayısıyla, daha önce bir LND düğümünüz varsa, seed ve backup.channels'ı Blixt'e aktarabilirsiniz, [bu kılavuzda açıklandığı gibi](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt, Wallet arka ucu olarak LND (aezeed) kullanıyor, bu nedenle diğer Bitcoin cüzdan türlerini içine aktarmaya çalışmayın. [Burada Wallet Mnemonic tohum türlerini açıkladınız](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ve işte [tüm cüzdan türlerinin daha kapsamlı bir listesi](https://walletsrecovery.org/). Dolayısıyla, daha önce bir LND düğümünüz varsa, seed ve backup.channels'ı Blixt'e aktarabilirsiniz, [bu kılavuzda açıklandığı gibi](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html).
 
 
 
@@ -47,7 +47,7 @@ Darth'ın annesi Blixt ile LN kullanmaya karar verdi. Hard kararı, ama akıllı
 Darth annesini uyardı:
 
 
-"*Anne, eğer Blixt LN Node kullanmaya başlarsan, öncelikle Lightning Network'nin ne olduğunu ve nasıl çalıştığını en azından temel düzeyde bilmen gerekecek. [Burada Lightning Network hakkında basit bir kaynak listesi hazırladım] (https://blixtwallet.github.io/faq#what-is-LN). Lütfen önce bunları okuyun.*"
+"*Anne, eğer Blixt LN Node kullanmaya başlarsan, öncelikle Lightning Network'nin ne olduğunu ve nasıl çalıştığını en azından temel düzeyde bilmen gerekecek. [Burada Lightning Network hakkında basit bir kaynak listesi hazırladım](https://blixtwallet.github.io/faq#what-is-LN). Lütfen önce bunları okuyun.*"
 
 
 Darth'ın annesi kaynakları okudu ve ilk adımını attı: Blixt'i yepyeni Android cihazına yükledi. Blixt ayrıca iOS ve macOS (masaüstü) için de kullanılabilir. Ancak bunlar Darth'ın Annesi için değil... Yine de daha iyi uyumluluk ve deneyim için Android'in daha yeni bir sürümünün, en az 9 veya 10'un kullanılması önerilir. Bir mobil cihazda tam bir LN düğümü çalıştırmak kolay bir iş değildir ve biraz yer (en az 600MB) ve bellek alabilir.
@@ -65,7 +65,7 @@ Sağ üst köşede, bir menüyü etkinleştiren 3 nokta göreceksiniz:
 
 - "Tor'u etkinleştir" - kullanıcı Tor ağı ile başlayabilir, özellikle sadece Tor eşleri ile çalışan eski bir LND düğümünü geri yüklemek istiyorsa.
 - "Bitcoin düğümünü ayarla" - kullanıcı blokları Neutrino aracılığıyla senkronize etmek için doğrudan kendi düğümüne bağlanmak isterse, bunu karşılama ekranından hemen yapabilir. Bu seçenek, internet bağlantınızın veya Tor'unuzun varsayılan Bitcoin düğümüne (node.blixtwallet.com) bağlanmak için çok kararlı olmaması durumunda da iyidir.
-- Yakında oraya dil eklenecek, böylece kullanıcı rahat bir dille doğrudan başlayabilir. Bu açık kaynak projesine diğer dillerdeki çevirilerle katkıda bulunmak istiyorsanız, [lütfen buraya katılın] (https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- Yakında oraya dil eklenecek, böylece kullanıcı rahat bir dille doğrudan başlayabilir. Bu açık kaynak projesine diğer dillerdeki çevirilerle katkıda bulunmak istiyorsanız, [lütfen buraya katılın](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
 
 
 ### SEÇENEK A - Yeni Wallet oluşturun
@@ -92,10 +92,10 @@ Tıklayabilir ve senkronizasyonun durumunu görebilirsiniz:
 Ayrıca, LND günlüğünün daha teknik ayrıntılarını gerçek zamanlı olarak görmek ve okumak istiyorsanız "LND Günlüğünü Göster" (A) düğmesine tıklayabilirsiniz. Hata ayıklama ve LN'ün nasıl çalıştığını daha fazla öğrenmek için çok yararlıdır.
 
 
-B - Burada tüm Blixt Ayarlarına erişebilirsiniz ve çok fazladır! Blixt, LN düğümünüzü bir profesyonel gibi yönetmeniz için birçok zengin özellik ve seçenek sunuyor. Tüm bu seçenekler "[Blixt Özellikler Sayfası] (https://blixtwallet.github.io/features#blixt-options) - Seçenekler Menüsü "nde ayrıntılı olarak açıklanmıştır.
+B - Burada tüm Blixt Ayarlarına erişebilirsiniz ve çok fazladır! Blixt, LN düğümünüzü bir profesyonel gibi yönetmeniz için birçok zengin özellik ve seçenek sunuyor. Tüm bu seçenekler "[Blixt Özellikler Sayfası](https://blixtwallet.github.io/features#blixt-options) - Seçenekler Menüsü "nde ayrıntılı olarak açıklanmıştır.
 
 
-C - Burada "Sihirli Çekmece" menüsüne sahipsiniz, [ayrıca burada ayrıntılı olarak açıklanmıştır] (https://blixtwallet.github.io/features#blixt-drawer). İşte "Onchain Wallet" (B), Yıldırım Kanalları (C), Kişiler, Kanallar durum simgesi (A), Keysend (D).
+C - Burada "Sihirli Çekmece" menüsüne sahipsiniz, [ayrıca burada ayrıntılı olarak açıklanmıştır](https://blixtwallet.github.io/features#blixt-drawer). İşte "Onchain Wallet" (B), Yıldırım Kanalları (C), Kişiler, Kanallar durum simgesi (A), Keysend (D).
 
 
 ![blixt](assets/en/05.webp)
@@ -198,7 +198,7 @@ Peki LN yerine daha fazla Sats almak istiyorsanız ne gibi seçenekleriniz var?
 
 
 
-- Bir denizaltı takas hizmeti kullanarak bir miktar Sats'i kendi zincirinizdeki Wallet ile takas edin. Bu şekilde Sats'inizi harcamamış, kendi zincirinizdeki Wallet'a geri vermiş olursunuz. Burada, [Blixt Kılavuzları Sayfasında] (https://blixtwallet.github.io/guides) bazı yöntemleri ayrıntılı olarak görebilirsiniz.
+- Bir denizaltı takas hizmeti kullanarak bir miktar Sats'i kendi zincirinizdeki Wallet ile takas edin. Bu şekilde Sats'inizi harcamamış, kendi zincirinizdeki Wallet'a geri vermiş olursunuz. Burada, [Blixt Kılavuzları Sayfasında](https://blixtwallet.github.io/guides) bazı yöntemleri ayrıntılı olarak görebilirsiniz.
 
 
 
@@ -206,7 +206,7 @@ Peki LN yerine daha fazla Sats almak istiyorsanız ne gibi seçenekleriniz var?
 
 
 
-- Blixt düğümü veya başka bir Dunder LSP sağlayıcısı ile bir Dunder kanalı açın. Bir Dunder kanalı, bir miktar INBOUND likiditesi elde etmenin basit bir yoludur, ancak aynı zamanda bu kanala bir miktar Sats yatırırsınız. Ayrıca iyidir çünkü kanalı Blixt Wallet'inizden olmayan bir [UTXO] (https://en.Bitcoin.it/wiki/UTXO) ile açacaktır. Bu biraz gizlilik katar. Ayrıca, normal bir LN kanalı açmak için zincir üzerindeki bir Wallet'te Sats'nız yoksa, ancak başka bir LN Wallet'te varsa, bu Dunder kanalının açılışını ve depozitosunu (sizin tarafınızdan) LN aracılığıyla başka bir Wallet'ten ödeyebilirsiniz. [Dunder'ın nasıl çalıştığı ve kendi sunucunuzu nasıl çalıştıracağınızla ilgili daha fazla ayrıntı burada](https://github.com/hsjoberg/dunder-lsp).
+- Blixt düğümü veya başka bir Dunder LSP sağlayıcısı ile bir Dunder kanalı açın. Bir Dunder kanalı, bir miktar INBOUND likiditesi elde etmenin basit bir yoludur, ancak aynı zamanda bu kanala bir miktar Sats yatırırsınız. Ayrıca iyidir çünkü kanalı Blixt Wallet'inizden olmayan bir [UTXO](https://en.Bitcoin.it/wiki/UTXO) ile açacaktır. Bu biraz gizlilik katar. Ayrıca, normal bir LN kanalı açmak için zincir üzerindeki bir Wallet'te Sats'nız yoksa, ancak başka bir LN Wallet'te varsa, bu Dunder kanalının açılışını ve depozitosunu (sizin tarafınızdan) LN aracılığıyla başka bir Wallet'ten ödeyebilirsiniz. [Dunder'ın nasıl çalıştığı ve kendi sunucunuzu nasıl çalıştıracağınızla ilgili daha fazla ayrıntı burada](https://github.com/hsjoberg/dunder-lsp).
 
 
 ![blixt](assets/en/11.webp)
@@ -251,7 +251,7 @@ Hatırlayın, birinci bölüm "İlk Temas "ta Karşılama ekranında 2 seçenek 
 ### SEÇENEK B - Wallet'yi Geri Yükleyin
 
 
-Geçmişte [çökmüş bir Umbrel düğümü nasıl geri yüklenir] (https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html) hakkında özel bir rehber yazdım ve burada Umbrel'den seed + channel.backup dosyasını kullanarak Blixt'i hızlı geri yükleme işlemi olarak kullanma yönteminden de bahsettim.
+Geçmişte [çökmüş bir Umbrel düğümü nasıl geri yüklenir](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html) hakkında özel bir rehber yazdım ve burada Umbrel'den seed + channel.backup dosyasını kullanarak Blixt'i hızlı geri yükleme işlemi olarak kullanma yönteminden de bahsettim.
 
 
 Ayrıca Blixt düğümünüzü nasıl geri yükleyeceğiniz veya Blixt'inizi başka bir cihaza nasıl taşıyacağınız konusunda bir kılavuz yazdım, [burada](https://blixtwallet.github.io/faq#blixt-restore).
@@ -265,7 +265,7 @@ Ancak bu süreci basit adımlarla açıklayalım. Yukarıdaki resimde de görebi
 
 
 - üst kutu, seed'nizdeki (eski / ölü düğüm) 24 kelimenin tümünü doldurmanız gereken yerdir
-- altta, daha önce eski Blixt/LND düğümünüzden kaydedilen channel.backup dosyasını eklemek / yüklemek için iki düğme seçeneği vardır. Yerel bir dosyadan (daha önce cihazınıza yüklediğiniz) veya bir Google sürücüsünden / iCloud uzak konumundan olabilir. Blixt, kanal yedeklemenizi doğrudan bir Google / iCloud sürücüsüne kaydetmek için bu seçeneğe sahiptir. Daha fazla ayrıntı için [Blixt Özellikler Sayfası] (https://blixtwallet.github.io/features#blixt-options) adresine bakın.
+- altta, daha önce eski Blixt/LND düğümünüzden kaydedilen channel.backup dosyasını eklemek / yüklemek için iki düğme seçeneği vardır. Yerel bir dosyadan (daha önce cihazınıza yüklediğiniz) veya bir Google sürücüsünden / iCloud uzak konumundan olabilir. Blixt, kanal yedeklemenizi doğrudan bir Google / iCloud sürücüsüne kaydetmek için bu seçeneğe sahiptir. Daha fazla ayrıntı için [Blixt Özellikler Sayfası](https://blixtwallet.github.io/features#blixt-options) adresine bakın.
 
 
 Bununla birlikte, daha önce açık LN kanalınız yoksa, herhangi bir channels.backup dosyası yüklemenize gerek yoktur. Sadece 24 kelimelik seed'u yerleştirin ve geri yükle düğmesine basın.
@@ -301,7 +301,7 @@ Ayrıca, eski LN düğümünüzde daha önce sahip olduğunuz eşlerinizin orada
 ![blixt](assets/en/16.webp)
 
 
-Bölümün içinde o anda bağlı olduğunuz eşleri göreceksiniz ve daha fazlasını ekleyebilirsiniz, daha önce kanallarınız olanları eklemek daha iyidir. Sadece [Amboss page] (https://amboss.space/) adresine gidin, eş düğümlerinizin takma adlarını veya nodeID'sini arayın ve düğüm URI'lerini tarayın.
+Bölümün içinde o anda bağlı olduğunuz eşleri göreceksiniz ve daha fazlasını ekleyebilirsiniz, daha önce kanallarınız olanları eklemek daha iyidir. Sadece [Amboss page](https://amboss.space/) adresine gidin, eş düğümlerinizin takma adlarını veya nodeID'sini arayın ve düğüm URI'lerini tarayın.
 
 
 ![blixt](assets/en/17.webp)
@@ -328,7 +328,7 @@ Bu Address URI düğümünü eşler listenize eklemeniz gerekir. Bu yüzden sade
 ![blixt](assets/en/18.webp)
 
 
-Bu blok numarası 764272, fonların Address zincirindeki Bitcoin'ünüzde kullanılabilir olacağı zamandır. Ve 1. onay bloğundan serbest bırakılana kadar 144 blok kadar sürebilir. [Bunu Mempool'te kontrol edin] (https://Mempool.space/).
+Bu blok numarası 764272, fonların Address zincirindeki Bitcoin'ünüzde kullanılabilir olacağı zamandır. Ve 1. onay bloğundan serbest bırakılana kadar 144 blok kadar sürebilir. [Bunu Mempool'te kontrol edin](https://Mempool.space/).
 
 
 Ve işte bu kadar. Tüm kanallar kapanana ve fonlar zincir üzerindeki Wallet'inize geri dönene kadar sabırla bekleyin.
@@ -348,7 +348,7 @@ Mevcut (çalışan) Blixt düğümünüzü, mevcut LN kanallarını kapatmadan b
 - Eski cihazda, "Ayarlar" - hata ayıklama bölümü - "LND veritabanını sıkıştır" seçeneğine gidin. Bu adım isteğe bağlıdır ancak channel.db dosyasının boyutunun daha küçük olmasını istiyorsanız önerilir. Düğüm etkinliğinize bağlı olarak genellikle oldukça büyüktür. Bu, Blixt'i yeniden başlatacak ve db dosya boyutunu sıkıştıracaktır.
 - Yeniden başlattıktan sonra, "Ayarlar "a gidin ve normal takma adınızı "Hampus" olarak değiştirin. Bu, yalnızca ileri düzey kullanıcılar için gizli seçenekleri etkinleştirecektir.
 - "Hata Ayıklama" bölümüne gidin ve yeni bir "channel.db dosyasını dışa aktar" seçeneği göreceksiniz. UYARI! Bu dışa aktarma işlemini yaptığınızda, mevcut Blixt LN düğümü bu eski cihazda devre dışı bırakılacak ve yeni bir cihaza aktarılmaya hazır tüm düğüm veritabanını (channel.db) dışa aktaracaktır.
-- Bu db dosyası eski cihazınızda (Belgeler veya İndirilenler) belirlenmiş bir klasöre kaydedilecek ve oradan olduğu gibi yeni cihazınıza taşımanız gerekecektir. Dosyayı doğrudan cihazlar arasında aktarmak için örneğin [LocalSend FOSS uygulamasını] (https://github.com/localsend/localsend) kullanabilirsiniz.
+- Bu db dosyası eski cihazınızda (Belgeler veya İndirilenler) belirlenmiş bir klasöre kaydedilecek ve oradan olduğu gibi yeni cihazınıza taşımanız gerekecektir. Dosyayı doğrudan cihazlar arasında aktarmak için örneğin [LocalSend FOSS uygulamasını](https://github.com/localsend/localsend) kullanabilirsiniz.
 - Bu anda eski Blixt'iniz kapalı kalmalıdır. TEKRAR AÇMAYIN!
 - Channel.db dosyasını yeni cihaza aktardıktan sonra, Blixt'in yeni kurulumunu başlatın ve ilk ekranda "Wallet'yi Geri Yükle "yi seçin.
 - "SCB dosyası seç" yazan düğmeye uzun basın (basit tıklama DEĞİL!) ve ardından yeni cihazda yerel olarak kaydettiğiniz bir channel.db dosyası seçme seçeneğini göreceksiniz. Bu düğmeye basitçe basarsanız, varsayılan olarak bir SCB dosyası (kanalları kapatarak) kullanacaktır, tam yedek canlı kanallar için çalışmaz.
@@ -379,7 +379,7 @@ Ancak Blixt'inizi kullanarak ilerlemek ve harika bir deneyim yaşamak için gere
 ![blixt](assets/en/19.webp)
 
 
-[NamDesc] (https://github.com/lightning/blips/blob/master/blip-0011.md), BOLT11 faturalarında "alıcı adını" iletmek için bir standarttır.
+[NamDesc](https://github.com/lightning/blips/blob/master/blip-0011.md), BOLT11 faturalarında "alıcı adını" iletmek için bir standarttır.
 
 
 Bu herhangi bir isim olabilir ve istenildiği zaman değiştirilebilir.
@@ -403,7 +403,7 @@ Bu, NameDesc'i destekleyen başka bir Wallet uygulamasına gönderilen başka bi
 ### B - Yıldırım Kutusu
 
 
-Yeni v0.6.9-420 [yakın zamanda duyuruldu] (https://github.com/hsjoberg/blixt-Wallet/releases/tag/v0.6.9-420) ile başlayarak, Blixt Lightning Address için Blixt'te yeni ve güçlü bir özellik sundu.
+Yeni v0.6.9-420 [yakın zamanda duyuruldu](https://github.com/hsjoberg/blixt-Wallet/releases/tag/v0.6.9-420) ile başlayarak, Blixt Lightning Address için Blixt'te yeni ve güçlü bir özellik sundu.
 
 
 Bu yeni özellik isteğe bağlı olarak etkinleştirilir, varsayılan olarak AÇIK değildir!
@@ -418,7 +418,7 @@ Bu yeni özellik isteğe bağlı olarak etkinleştirilir, varsayılan olarak AÇ
 Sürüm notlarında LN Address'inizi Blixt'te nasıl kuracağınızla ilgili video demosuna bakın.
 
 
-Blixt Wallet uygulamasına uygulanan bu LN Address, LN üzerinden bir sohbet gibidir, anında ve eğlencelidir, ayrıca [LUD-18] (https://github.com/lnurl/luds/blob/luds/18.md) (bir ödemeye takma ad ekleme) destekler. Sıklıkla kullandığınız tüm normal LN adreslerinizi kişi listesine ekleyebilir ve sohbet için elinizin altında bulundurabilirsiniz. Artık Blixt tam bir LN sohbet uygulaması olarak kabul edilebilir 😂😂.
+Blixt Wallet uygulamasına uygulanan bu LN Address, LN üzerinden bir sohbet gibidir, anında ve eğlencelidir, ayrıca [LUD-18](https://github.com/lnurl/luds/blob/luds/18.md) (bir ödemeye takma ad ekleme) destekler. Sıklıkla kullandığınız tüm normal LN adreslerinizi kişi listesine ekleyebilir ve sohbet için elinizin altında bulundurabilirsiniz. Artık Blixt tam bir LN sohbet uygulaması olarak kabul edilebilir 😂😂.
 
 
 Bir diğer kullanışlı özellik ise LUD-18'e tam destek vermesidir (ayrıca [Stacker.News](https://stacker.news/r/DarthCoin) ve diğerleri de desteklemektedir).
@@ -433,10 +433,10 @@ Yukarıdaki ekran görüntüsünde görebileceğiniz gibi, bir Stacker News hesa
 LUD-18'deki bu seçenek, kullanıcının belirli bir takma ad gönderebileceği (düğüm takma adınız veya gerçek adınız DEĞİLDİR!) ve buna dayanarak kaydedilebileceğiniz veya belirli bir mesajı geri alabileceğiniz veya başka bir şey yapabileceğiniz abonelik hizmetleri için de yararlı olabilir. Bir LN ödemesine bir takma ad ([LUD-18](https://github.com/lnurl/luds/blob/luds/18.md))+ yorum ([LUD-12](https://github.com/lnurl/luds/blob/luds/12.md)) eklemek birden fazla kullanım alanına sahip olabilir!
 
 
-Kendiniz, aileniz ve arkadaşlarınız için kendi düğümünüzde çalıştırırsanız [Lightning Box] (https://github.com/hsjoberg/lightning-box) için kod burada.
+Kendiniz, aileniz ve arkadaşlarınız için kendi düğümünüzde çalıştırırsanız [Lightning Box](https://github.com/hsjoberg/lightning-box) için kod burada.
 
 
-Burada ayrıca Blixt mobil düğümleri için [LSP Dunder sunucusu] (https://github.com/hsjoberg/dunder-lsp) çalıştırabilir ve iyi bir genel LN düğümünüz varsa (yalnızca LND ile çalışır) Blixt kullanıcıları için likidite sunabilirsiniz.
+Burada ayrıca Blixt mobil düğümleri için [LSP Dunder sunucusu](https://github.com/hsjoberg/dunder-lsp) çalıştırabilir ve iyi bir genel LN düğümünüz varsa (yalnızca LND ile çalışır) Blixt kullanıcıları için likidite sunabilirsiniz.
 
 
 ### C - Yedek LN Kanalları ve seed kelimeleri
@@ -489,7 +489,7 @@ Tüm bu sorunlar, CİHAZINIZIN DÜZGÜN SENKRONİZE OLMAMASI nedeniyle başlar. 
 
 
 - İşte [Bitcoin Magazine]'den daha az teknik bir açıklama (https://bitcoinmagazine.com/technical/why-Bitcoin-wallets-need-block-filters)
-- İşte [Bitcoin Optech] (https://bitcoinops.org/en/topics/compact-block-filters/) adresinden daha fazla teknik kaynak
+- İşte [Bitcoin Optech](https://bitcoinops.org/en/topics/compact-block-filters/) adresinden daha fazla teknik kaynak
 - Neutrino'yu kendi ev düğümünüzde nasıl etkinleştirebileceğinizi ve mobil düğümünüz için blok filtreleri nasıl sunabileceğinizi [Docs Lightning Engineering](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) adresinden öğrenebilirsiniz
 
 
@@ -594,7 +594,7 @@ Hızlı düzeltme: Blixt düğümünüzü "canlı tutmak" için güçlü bir se�
 ### DURUM 3 - BAŞKA BİR CİHAZA GEÇMEK İSTİYORUM
 
 
-Tamam bu senaryo hakkında [SSS sayfasında] (https://blixtwallet.github.io/faq#blixt-restore) kapsamlı bir kılavuz yazdım: 2 seçenekle, hızlı (geçişten önce kanalların kooperatif olarak kapatılması) ve yavaş (eski cihaz öldüğü için kanalları kapatmaya zorlayın).
+Tamam bu senaryo hakkında [SSS sayfasında](https://blixtwallet.github.io/faq#blixt-restore) kapsamlı bir kılavuz yazdım: 2 seçenekle, hızlı (geçişten önce kanalların kooperatif olarak kapatılması) ve yavaş (eski cihaz öldüğü için kanalları kapatmaya zorlayın).
 
 
 Ancak burada bazı önemli hususları tekrarlamak ve yeni bir "gizli" prosedür eklemek istiyorum.
@@ -606,7 +606,7 @@ HATIRLATMA:
 
 - Bir kanalı her açtığınızda veya kapattığınızda her zaman kanal durumunuzun (SCB) yedeğini alın. Bunu yapmak sadece birkaç saniye sürer.
 - Eski SCB dosyalarını saklamayın, kafanız karışmasın ve geri yüklemeyin. Tamamen işe yaramazlar ve onları ele geçirirseniz bir ceza prosedürünü tetikleyebilirler. Geri yüklemeye devam ederseniz her zaman SCB dosyasının son sürümünü kullanın.
-- SCB dosyasını (.bin uzantılı şifreli bir metindir) cihazınızın dışında güvenli bir yere kaydedin. Bu dosyayı bir PC'ye veya başka bir cihaza taşımak için [LocalSend] (https://github.com/localsend/localsend) kullanabilirsiniz.
+- SCB dosyasını (.bin uzantılı şifreli bir metindir) cihazınızın dışında güvenli bir yere kaydedin. Bu dosyayı bir PC'ye veya başka bir cihaza taşımak için [LocalSend](https://github.com/localsend/localsend) kullanabilirsiniz.
 - Blixt Wallet'nizin seed'ini de güvenli bir yere, örneğin çevrimdışı bir şifre yöneticisine / şifreli USB'ye kaydedin.
 
 
@@ -626,7 +626,7 @@ Blixt kılavuzları sayfasında] (https://blixtwallet.github.io/guides) yazdığ
 - iyi bilinen LSP düğümleri ve topluluk onaylı eşler ile açık. [Burada bir listeye bakın](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
 - sadece rastgele Tor düğümleri ile açmayın. Bunlar değersizdir ve yalnızca ödeme yapamama sorunları yaşarsınız. Arkadaşınız "düğüm koşucusu" ormanda ne kadar iyi bir Tor düğümüne sahip olursa olsun, size asla mobil bir özel düğüm için en iyi rotaları vermeyecektir. Arkadaşınız olduğu için biriyle kanal açmazsınız. Burası Facebook değil! Bir kanalı şunun için açarsınız: iyi rotalar, küçük ücretler, uygunluk.
 - bir ton küçük kanal açmaya gerek yok, 2-3 veya en fazla 4, ancak iyi miktarda Sats ile. Küçük kanallar açmayın, tamamen işe yaramazlar. Bir mobil cihaz için 200k'dan daha küçük kanalların pek bir faydası yoktur.
-- gelen kanallar ve JIT (tam zamanında) kanalları sunan LSP'leri aklınızda bulundurun. Bunlar çok kullanışlıdır çünkü UTXO'larınızdan herhangi birini kullanmanıza gerek yoktur, açılış kanalını diğer LN cüzdanlarında zaten sahip olduğunuz fonlarla ödeyebilir, bunları istifleyebilir ve daha büyük bir kanalın açılması için hazırlayabilirsiniz. Bu JIT kanallarını kendi lehinize kullanmalısınız. [Bu kılavuzda açıkladım] (https://darth-Coin.github.io/nodes/managing-lightning-node-liquidity-en.html) Blixt gibi özel düğümler için eşler için daha fazla seçenek. Ayrıca [burada SN'de yayınlanan bu kılavuzda](https://stacker.news/items/679242/r/DarthCoin) özel mobil düğümlerin likiditesinin nasıl yönetileceğini açıkladım.
+- gelen kanallar ve JIT (tam zamanında) kanalları sunan LSP'leri aklınızda bulundurun. Bunlar çok kullanışlıdır çünkü UTXO'larınızdan herhangi birini kullanmanıza gerek yoktur, açılış kanalını diğer LN cüzdanlarında zaten sahip olduğunuz fonlarla ödeyebilir, bunları istifleyebilir ve daha büyük bir kanalın açılması için hazırlayabilirsiniz. Bu JIT kanallarını kendi lehinize kullanmalısınız. [Bu kılavuzda açıkladım](https://darth-Coin.github.io/nodes/managing-lightning-node-liquidity-en.html) Blixt gibi özel düğümler için eşler için daha fazla seçenek. Ayrıca [burada SN'de yayınlanan bu kılavuzda](https://stacker.news/items/679242/r/DarthCoin) özel mobil düğümlerin likiditesinin nasıl yönetileceğini açıkladım.
 
 
 ---
@@ -658,12 +658,12 @@ Bu arada, bu muhteşem Bitcoin Lightning Node ile ilgili tüm bağlantılar bura
 - İndirin: [Android Play Store](https://play.google.com/store/apps/details?id=com.blixtwallet) | [iOS](https://testflight.apple.com/join/EXvGhRzS) | [APK doğrudan indir](https://github.com/hsjoberg/blixt-Wallet/releases)
 - [Doğrudan destek için Telegram grubu](https://t.me/blixtwallet)
 - [Twitter](https://twitter.com/BlixtWallet)
-- [Geyser kitlesel fonlama sayfası] (https://geyser.fund/project/blixt) - projeyi desteklemek için istediğiniz gibi Sats bağışında bulunun
+- [Geyser kitlesel fonlama sayfası](https://geyser.fund/project/blixt) - projeyi desteklemek için istediğiniz gibi Sats bağışında bulunun
 - [LNURL Chat Blixt](https://chat.blixtwallet.com/) - anonim LN sohbeti
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - tanıtım videosu (LN'ü ilk kullanımınızı test edebilirsiniz)
 - [Çeşitli dillerde Blixt'i kullanarak ilk adımları içeren yazdırılabilir A4 broşür](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt ayrıca gerçek dünyada kullanmaya başlamadan önce tam bir deneyim testine sahip olmak için web sitesinde veya özel bir sürüm web'de tam işlevsel bir demo] (https://blixt-Wallet-git-master-hsjoberg.vercel.app/) sunar.
+- [Blixt ayrıca gerçek dünyada kullanmaya başlamadan önce tam bir deneyim testine sahip olmak için web sitesinde veya özel bir sürüm web'de tam işlevsel bir demo](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) sunar.
 
 
 ---

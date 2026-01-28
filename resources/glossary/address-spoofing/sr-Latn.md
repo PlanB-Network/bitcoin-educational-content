@@ -14,4 +14,4 @@ Još jedan metod stavljanja pogrešnog Address pred žrtvu je korišćenje lažn
 Da biste se zaštitili od ovih različitih metoda napada, važno je proveriti nekoliko karaktera Address, posebno njegov kontrolni zbir (na kraju), na ekranu uređaja za potpisivanje pre nego što potpišete transakciju.
 
 
-> ► *Ovaj napad se ponekad naziva i Address trovanje
+> ► *Ovaj napad se ponekad naziva i Address trovanje*

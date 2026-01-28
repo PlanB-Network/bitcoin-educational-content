@@ -1,0 +1,9 @@
+question: 내가 도용당했나 웹사이트에서 무엇을 할 수 있나요?
+answer: 이메일 Address이 유출되었는지 확인하세요.
+wrong_answers:
+  - generate 새롭고 강력한 무작위 비밀번호.
+  - 보안 이메일 받은 편지함을 만듭니다.
+  - 이메일 계정을 동기화하여 더 쉽게 사용하세요.
+explanation: |
+  이 사이트는 데이터 유출을 감지하고 이메일 Address의 보안을 확인하는 데 도움이 됩니다.
+reviewed: true

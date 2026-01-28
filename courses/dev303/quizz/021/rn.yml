@@ -1,0 +1,8 @@
+question: Ni ubuhe bwoko bw'ibipimo uburyo bwa Rust bukwiye gukoresha nimba bukeneye guhindura urugero rw'imiterere mu gihe bureka uwuhamagara akaguma afise ububasha?
+answer: "&mut ubwawe"
+wrong_answers:
+  - "&ubwiwe"
+  - ubwiwe
+  - mut ubwawe
+explanation: |
+  Uburyo bukeneye guhindura urugero rw'imiterere mu gihe bwemerera uwuhamagara kuguma afise uburenganzira bwo gukoresha `&mut self` nk'umurongo wabo wa mbere. Ivyo bituma habaho ivyerekanwa bihinduka ku nkuru, bikaba bishoboza uburyo guhindura imirima y'imiterere ata gukura ububasha ku wuhamagara. Gukoresha `&self` vyokwemerera gusa gusoma urugero, `self` vyoshobora kurya urugero rwose, kandi `mut self` ntabwo ari insiguro y'inyuguti ya Rust ku mirongo y'uburyo.

@@ -1,6 +1,5 @@
 ---
 name: Electrum
-
 description: Full Electrum Guide, from 0 to hero
 ---
 

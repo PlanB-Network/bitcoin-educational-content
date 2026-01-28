@@ -1,0 +1,9 @@
+question: Mitä käytetään pseudonyymeinä Bitcoin:n pseudonyymijärjestelmässä?
+answer: Julkisista avaimista johdetut osoitteet
+wrong_answers:
+  - "Kuvaavat käyttäjätunnukset kuten 'watchme1984'"
+  - Lompakoihin tallennetut yksityiset avaimet
+  - Lohkoketjun transaktiotunnukset
+explanation: |
+  Bitcoin käyttää julkisista avaimista johdettuja osoitteita pseudonyymeinä mielivaltaisten käyttäjätunnusten tai muiden tunnisteiden sijaan. Tämä suunnitteluvalinta palvelee useita tärkeitä tarkoituksia: se poistaa tarpeen rekisteröidä salanimet etukäteen lohkoketjuun, vähentää kannustimia saman salanimen uudelleenkäyttöön, estää lohkoketjun tarpeettoman paisumisen ja vaikeuttaa huomattavasti pahantahtoisten toimijoiden mahdollisuuksia esiintyä toisena henkilönä. Kuvailevien käyttäjätunnusten käyttäminen edellyttäisi rekisteröintijärjestelmää ja aiheuttaisi tietoturva-aukkoja, kun taas yksityisten avainten on pysyttävä salassa ja transaktiotunnuksilla on järjestelmässä eri tarkoitus.
+reviewed: false

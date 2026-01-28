@@ -1,0 +1,9 @@
+question: Koja je glavna prednost node-in-a-box u odnosu na sirovu implementaciju?
+answer: Laka instalacija i integrisano upravljanje aplikacijama
+wrong_answers:
+  - Stroža verifikacija pravila konsenzusa
+  - Direktan pristup Blockchain bez skladištenja
+  - Kompatibilnost sa valutom koja nije Bitcoin
+explanation: |
+  Čvor-u-kutiji pojednostavljuje instalaciju i upravljanje brojnim pomoćnim aplikacijama putem jedinstvenog Interface.
+reviewed: true

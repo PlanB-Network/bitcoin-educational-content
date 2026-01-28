@@ -60,12 +60,12 @@ Signal är tillgänglig på alla plattformar. Du kan ladda ner programmet direkt
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms);
-- [App Store] (https://apps.apple.com/us/app/signal-private-messenger/id874139669);
+- [Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms);
+- [App Store](https://apps.apple.com/us/app/signal-private-messenger/id874139669);
 
 
 
-På Android är det också möjligt att [installera via APK] (https://github.com/signalapp/Signal-Android/releases).
+På Android är det också möjligt att [installera via APK](https://github.com/signalapp/Signal-Android/releases).
 
 
 
@@ -273,4 +273,4 @@ Jag rekommenderar också den här andra handledningen, där jag introducerar dig
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

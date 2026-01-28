@@ -1,0 +1,9 @@
+question: Qual era l'attività professionale di Spinoza?
+answer: Lucidatrice per cannocchiali da astronomia.
+wrong_answers:
+  - Rivenditore.
+  - Professore di filosofia.
+  - Editore.
+explanation: |
+  Per mantenersi, Spinoza lavorò come lucidatore di lenti per telescopi astronomici. Questo lavoro manuale gli permise di mantenere la sua indipendenza intellettuale e di contribuire al progresso scientifico del suo tempo.
+reviewed: false

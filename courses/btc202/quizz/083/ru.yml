@@ -1,0 +1,9 @@
+question: Какой параметр заставляет Bitcoin core подключаться только через сеть Tor?
+answer: onlynet=onion
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - net=tor
+explanation: |
+  Параметр onlynet=onion ограничивает все исходящие соединения с сетью Tor, а listenonion=1 позволяет прослушивать только входящие Tor-соединения.
+reviewed: true

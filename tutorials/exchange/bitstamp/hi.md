@@ -1,5 +1,5 @@
 ---
-name: बिटस्टैम्प
+name: Bitstamp
 
 description: बिटस्टैम्प का उपयोग कैसे करें
 ---

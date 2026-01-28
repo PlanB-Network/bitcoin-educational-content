@@ -131,7 +131,7 @@ Nüüd kustutame kõik andmed meie USB-pulgalt. Operatsioon seisneb selles, et t
 
 
 
-**Vajuta, et sihtmärgiks on õige seadmefail!
+**Vajuta, et sihtmärgiks on õige seadmefail!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Siin initsialiseerib ja vormindab seade LUKS-krüpteerimise kasutamiseks alamkäsuga "`luksFormat`". Teil palutakse seda toimingut kinnitada, kirjutades suurtähtedega `YES`, seejärel defineerige *passphrase*. **Valige tugev *passphrase*, et tagada, et ründaja ei saaks kaotsimineku korral seda brute-force rünnakute abil avastada.
+Siin initsialiseerib ja vormindab seade LUKS-krüpteerimise kasutamiseks alamkäsuga "`luksFormat`". Teil palutakse seda toimingut kinnitada, kirjutades suurtähtedega `YES`, seejärel defineerige *passphrase*. **Valige tugev** ***passphrase***, **et tagada, et ründaja ei saaks kaotsimineku korral seda brute-force rünnakute abil avastada.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**See, sihtkoha** on määratud kui "**/dev/mappe/usbkey1**"**, miks?
+**See, sihtkoha** on määratud kui "**/dev/mappe/usbkey1**", miks?
 
 
 

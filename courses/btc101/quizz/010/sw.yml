@@ -1,0 +1,10 @@
+question: Bitcoin inaashiria nini zaidi ya teknolojia yake?
+answer: Mapinduzi dhidi ya mifumo ya kitamaduni ya kifedha na mbadala unaozingatia uwazi, ugatuaji na uhuru wa mtu binafsi.
+wrong_answers:
+  - Aina mpya ya sarafu ya kidijitali ambayo ina ufanisi zaidi kuliko sarafu za jadi kwa sababu ina kasi zaidi.
+  - Njia ya watu binafsi kupata pesa kupitia Mining.
+  - Chombo cha wahalifu kufanya shughuli haramu.
+explanation: |
+  Zaidi ya teknolojia yake, Bitcoin inaashiria mapinduzi
+  against traditional financial systems: the protocol
+reviewed: true

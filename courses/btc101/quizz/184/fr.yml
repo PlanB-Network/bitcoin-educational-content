@@ -1,10 +1,11 @@
-question: Quelle est l'une des raisons pour lesquelles le Bitcoin n'est pas une bulle qui va disparaître ?
-answer: Parce que c'est une monnaie qui est réellement utilisée partout dans le monde.
+question: Quel est un facteur à considérer lors du choix d'une solution pour accepter le Bitcoin pour votre entreprise ?
+answer: Le volume de transactions attendu.
 wrong_answers:
-  - Parce qu'elle n'est réellement utilisée nulle part.
-  - Parce qu'elle est contrôlée par une autorité centrale.
-  - Parce qu'elle est facile à contrefaire.
+  - La couleur de votre logo.
+  - Le nombre d'employés.
+  - L'emplacement de votre siège social.
 explanation: >-
-  Le Bitcoin n'est pas une bulle qui va disparaître mais une monnaie qui est réellement
-  utilisée partout dans le monde.
+  Lors du choix d'une solution pour accepter le Bitcoin pour votre entreprise, plusieurs
+  facteurs doivent être pris en compte, tels que le volume de transactions attendu, le budget
+  alloué, et le type d'entreprise (en ligne ou physique).
 reviewed: true

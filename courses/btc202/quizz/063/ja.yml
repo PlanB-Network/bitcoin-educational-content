@@ -1,0 +1,9 @@
+question: Umbrelで利用可能な2つのライトニング・ネットワーク実装とは？
+answer: LNDとCore Lightning
+wrong_answers:
+  - ElectrsとFulcrum
+  - ビットコインコアとBitcoin Knots
+  - Ride The LightningとThunderHub
+explanation: |
+  Umbrelでは、ライトニング・ネットワーク実装としてLNDとCore Lightningのどちらかを選ぶことができる。
+reviewed: true

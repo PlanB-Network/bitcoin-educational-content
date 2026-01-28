@@ -1,11 +1,9 @@
-question: Mikä on Bitcoinin omaksumisen luonne tässä kurssissa kuvattuna?
-answer: Viruksen kaltainen.
+question: Miksi Lightning-kanava voi olla käyttökelvoton yhteen suuntaan?
+answer: Riittämätön likviditeetti
 wrong_answers:
-  - Hidas ja tasainen.
-  - Nopea ja hallitsematon.
-  - Satunnainen ja ennustamaton.
+  - Liian uusi lohko
+  - Vanhentunut HTLC
+  - Synkronoimaton solmu
 explanation: |
-  Kurssiteksti kuvailee Bitcoinin omaksumista viruksen kaltaisena,
-  mikä viittaa siihen, että se leviää nopeasti ja laajalti henkilöstä
-  toiseen, paljon kuin virus, mutta hyvässä mielessä.
-reviewed: true
+  Vaikka kapasiteetti olisi suuri, kanava mahdollistaa maksun vain, jos oikealla puolella on riittävästi likviditeettiä.
+reviewed: false

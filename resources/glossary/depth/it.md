@@ -10,4 +10,4 @@ lo scopo (profondità 1), il tipo di valuta (profondità 2), il conto (profondit
 
 Per passare da una profondità all'altra, si utilizza un processo di derivazione da una coppia di chiavi genitore a una coppia di chiavi figlio.
 
-> *Il termine "piano di derivazione" è talvolta utilizzato anche al posto di profondità
+> *Il termine "piano di derivazione" è talvolta utilizzato anche al posto di profondità*

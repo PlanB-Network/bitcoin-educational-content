@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana Duchemin opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana Duchemin opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany.*
 
 
 
@@ -54,7 +54,7 @@ Tak więc za każdym razem, gdy wpisujesz nazwę strony internetowej w przegląd
 
 
 
-**Pi-Hole będzie następnie sprawdzać te żądania (są ich setki każdego dnia!) i automatycznie blokować te, o których wiadomo, że zawierają reklamy lub nawet złośliwe pliki
+**Pi-Hole będzie następnie sprawdzać te żądania (są ich setki każdego dnia!) i automatycznie blokować te, o których wiadomo, że zawierają reklamy lub nawet złośliwe pliki**
 
 
 
@@ -62,7 +62,7 @@ Tak więc za każdym razem, gdy wpisujesz nazwę strony internetowej w przegląd
 
 
 
-Z nazwą taką jak Pi-Hole, można słusznie założyć, że potrzebujesz Raspberry-Pi... Ale to nie do końca prawda. **Pi-Hole można zainstalować na dowolnym komputerze z systemem Linux (Debian, Fedora, Rocky, Ubuntu itp.)
+Z nazwą taką jak Pi-Hole, można słusznie założyć, że potrzebujesz Raspberry-Pi... Ale to nie do końca prawda. **Pi-Hole można zainstalować na dowolnym komputerze z systemem Linux (Debian, Fedora, Rocky, Ubuntu itp.).**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Uwaga: w minimalnych wersjach Debiana 11, Curl nie jest zainstalowany, więc należy zainstalować go ręcznie za pomocą polecenia **apt-get install curl** przed wpisaniem powyższego polecenia.
+> **Uwaga: w minimalnych wersjach Debiana 11, Curl nie jest zainstalowany, więc należy zainstalować go ręcznie za pomocą polecenia** `apt-get install curl` **przed wpisaniem powyższego polecenia.**
 
 Po uruchomieniu skryptu zostanie wykonana seria testów, a sama instalacja zajmie się sama:
 
@@ -124,7 +124,7 @@ Wybór DNS - Pi-Hole
 
 
 
-> **Uwaga: jeśli jesteś w firmie, istnieje duże prawdopodobieństwo, że Twój obecny serwer DNS jest kontrolerem domeny Active Directory. Ale nie martw się, możesz później określić warunkowy przekierowanie dla wybranej domeny. Zazwyczaj będziesz mógł przekierować dowolne żądanie dotyczące domeny lokalnej do swojego serwera DNS.
+> **Uwaga:** jeśli jesteś w firmie, istnieje duże prawdopodobieństwo, że Twój obecny serwer DNS jest kontrolerem domeny Active Directory. Ale nie martw się, możesz później określić warunkowy przekierowanie dla wybranej domeny. Zazwyczaj będziesz mógł przekierować dowolne żądanie dotyczące domeny lokalnej do swojego serwera DNS.
 
 Zauważysz, że niektóre opcje zawierają opcję DNSSEC. Zasadniczo protokół DNS nie jest bezpieczny (nie został zaprojektowany z myślą o tym w tamtym czasie). DNSSEC rozwiązuje ten problem, dodając Layer bezpieczeństwa poprzez szyfrowanie i podpisywanie wymian, jak wyjaśniono w odpowiednim artykule: [Bezpieczeństwo DNS](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 

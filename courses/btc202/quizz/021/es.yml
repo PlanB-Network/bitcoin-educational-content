@@ -1,0 +1,9 @@
+question: ¿Qué factor determina la influencia de un nodo en las reglas de consenso?
+answer: Su peso económico
+wrong_answers:
+  - Su número de conexiones salientes
+  - Antigüedad en la red
+  - Nada, porque cada nodo tiene un voto
+explanation: |
+  La influencia en las normas de consenso depende de la actividad económica que soporte el nodo, no de su número.
+reviewed: true

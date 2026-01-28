@@ -1,5 +1,5 @@
 ---
-name: アーチリナックス
+name: Arch Linux
 description: KISSの哲学に基づいて設計された、ミニマリストで高性能なディストリビューション。
 ---
 
@@ -17,10 +17,10 @@ Arch Linux はその堅牢性、パフォーマンス、適応性、特に開発
 
 
 
-- フリーでオープンソース**：ほとんどの Linux ディストリビューションと同様、Arch Linux は完全にフリーです。ライセンス料がかからないので、学生やフリーランサー、マニアにとって最高の選択肢です。
-- KISS**の哲学：Arch はシンプルで軽く、効率的であるように設計されています。必要なものだけを提供し、アラカルトで環境を構築することができます。
-- Pacman** パッケージマネージャ：Pacman は高速で信頼性が高く、よくデザインされたパッケージマネージャです。ソフトウェアの効率的なインストールとアップデートを可能にし、依存関係を正確に管理します。
-- 包括的なドキュメントとアクティブなコミュニティ**: [Arch Wiki](https://wiki.archlinux.org) は Linux 界で最も優れたテクニカルドキュメントの一つでしょう。あなたがやっていることを理解するための金鉱です。コミュニティはほとんどが経験豊富なプロファイルで構成されており、非常にアクティブで、事前に少し調べておけば、行き詰まったときに助けてくれます。
+- フリーでオープンソース：ほとんどの Linux ディストリビューションと同様、Arch Linux は完全にフリーです。ライセンス料がかからないので、学生やフリーランサー、マニアにとって最高の選択肢です。
+- **KISS**の哲学：Arch はシンプルで軽く、効率的であるように設計されています。必要なものだけを提供し、アラカルトで環境を構築することができます。
+- **Pacman** パッケージマネージャ：Pacman は高速で信頼性が高く、よくデザインされたパッケージマネージャです。ソフトウェアの効率的なインストールとアップデートを可能にし、依存関係を正確に管理します。
+- **包括的なドキュメントとアクティブなコミュニティ**: [Arch Wiki](https://wiki.archlinux.org) は Linux 界で最も優れたテクニカルドキュメントの一つでしょう。あなたがやっていることを理解するための金鉱です。コミュニティはほとんどが経験豊富なプロファイルで構成されており、非常にアクティブで、事前に少し調べておけば、行き詰まったときに助けてくれます。
 
 
 
@@ -38,8 +38,8 @@ Arch Linux はその堅牢性、パフォーマンス、適応性、特に開発
 
 
 
-- 8GB**以上のUSBキー
-- 最低2GB**のRAM
+- **8GB以上のUSBキー**
+- 最低2GB**のRAM**
 - 20GB以上のディスク空き容量のあるコンピューター
 
 
@@ -75,7 +75,7 @@ Arch Linux はその堅牢性、パフォーマンス、適応性、特に開発
 - Balena Etcherは[公式サイト](https://etcher.balena.io)からダウンロードしてください。
 - ソフトウェアを起動し、Arch Linux ISO イメージを選択します。
 - ターゲットデバイスとしてUSBキーを選択します。
-- Flash**をクリックし、ブータブルキーの作成を開始します。
+- **Flash**をクリックし、ブータブルキーの作成を開始します。
 
 
 
@@ -261,30 +261,32 @@ UEFIの場合は**GPT**を、BIOSの場合は**DOS**を選択してください�
 
 
 
-- UEFI**モードの場合
+- **UEFI**モードの場合
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| インストールされたシステムのマウントポイント | パーティション                 | パーティションタイプ       | 推奨サイズ |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFIシステムパーティション   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | スワップスペース (swap) | 最低4 GB   |
+| /                                        | /dev/root_partition       | Linuxのx86-64ルート (/) | ディスクの残り |
 
 - BIOSの場合
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| インストールされたシステムのマウントポイント | パーティション           | パーティションタイプ       | 推奨サイズ |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | スワップスペース (swap) | 最低4 GB   |
+| /                                        | /dev/root_partition | Linux                   | ディスクの残り |
 
 ![0_10](assets/fr/10.webp)
 
 
 
-Write**を選択し、**yes**と入力し、**Quit**する。
+**Write**を選択し、**yes**と入力し、**Quit**する。
 
 
 
@@ -294,7 +296,7 @@ Write**を選択し、**yes**と入力し、**Quit**する。
 
 
 
-- UEFI** ：
+- **UEFI**：
 
 
 
@@ -309,7 +311,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** ：
+- **BIOS**：
 
 
 
@@ -329,7 +331,7 @@ mkfs.ext4 /dev/sda2
 
 
 
-ルート**パーティションをマウントする：
+ルート**パーティション**をマウントする：
 
 
 
@@ -378,7 +380,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 
 
-Chroot**環境に入る：
+**Chroot環境に入る：**
 
 
 
@@ -472,7 +474,7 @@ pacman -S grub
 
 
 
-- BIOS**の場合：
+- **BIOS**の場合：
 
 
 
@@ -489,7 +491,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- UEFI**の場合：
+- **UEFI**の場合：
 
 
 
@@ -646,7 +648,7 @@ systemctl start gdm
 
 
 
-Interface GNOME**に入ったら、より安全でリスクのない使い方をするために、新しいユーザーを作成する必要があります。アプリケーションに入り、"console "オプションを選んでターミナルを起動してください。
+Interface **GNOME**に入ったら、より安全でリスクのない使い方をするために、新しいユーザーを作成する必要があります。アプリケーションに入り、"console "オプションを選んでターミナルを起動してください。
 
 
 
@@ -680,7 +682,7 @@ pacman -S sudo
 
 
 
-- sudo**権限を有効にする：
+- **sudo権限を有効にする：**
 
 
 
@@ -778,6 +780,6 @@ Arch Linux はその卓越した安定性、ミニマリスト思想、堅牢性
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

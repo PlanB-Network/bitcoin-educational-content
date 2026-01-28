@@ -8,7 +8,7 @@ description: Komplett guide til bruk av Bisq 2 og veksling av bitcoins P2P
 
 KYC-frie peer-to-peer-børser (P2P) er avgjørende for å bevare brukernes konfidensialitet og økonomiske uavhengighet. De muliggjør direkte transaksjoner mellom enkeltpersoner uten behov for identitetsbekreftelse, noe som er avgjørende for de som verdsetter personvern. For en mer inngående forståelse av de teoretiske konseptene, ta en titt på BTC204-kurset:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Hva er Bisq 2?
 
@@ -23,7 +23,7 @@ Bisq 2 er den nye versjonen av den populære desentraliserte Bisq-børsen, som b
 - Støtte for flere porteføljetyper
 - Rollesystem med obligatorisk innskudd i BSQ
 
-Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen som er tilgjengelig for øyeblikket. Bisq Easy er utviklet spesielt for nye Bitcoin-brukere. Denne protokollen gjør det mulig for brukere å kjøpe og selge Bitcoins mot fiat-valutaer på en desentralisert peer-to-peer-plattform. Transaksjonene er begrenset til tilsvarende 600 USD (med et minimum på 6 USD), og sikkerheten er avhengig av BTC-selgernes omdømme. Bisq Easy har ingen handelsgebyrer eller krav til depositum. Bisq Easy forventes å erstatte Bisq 1 for kontantbørser under 600 USD (eller tilsvarende).
+Denne veiledningen fokuserer utelukkende på «Bisq Easy», den eneste protokollen som for øyeblikket er tilgjengelig. Bisq Easy er spesielt utviklet for nye Bitcoin-brukere. Denne protokollen lar brukere kjøpe og selge bitcoins mot fiat-valutaer på en desentralisert peer-to-peer-plattform. Transaksjoner er begrenset til tilsvarende 600 USD (med et minimum på 6 USD), og sikkerheten i handelene er basert på BTC-selgernes omdømme. Bisq Easy har verken handelsgebyrer eller krav om sikkerhetsinnskudd. Det er forventet at Bisq Easy vil erstatte Bisq 1 for fiat-handler under 600 USD (eller tilsvarende).
 
 **Hovedfunksjoner:**
 
@@ -54,7 +54,7 @@ Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen
 - Mulighet for å brenne BSQ eller skape BSQ-obligasjoner
 - Potensielt høyere salgspremie (10-15 % over markedet)
 
-**Når Bisq Multisig-protokollen er implementert i Bisq 2, kan den gamle versjonen av Bisq fases ut. Bisq 1 vil imidlertid fortsatt bli brukt som administrasjonsverktøy for Bisq CAD og for BSQ-BTC-børser.
+**Når Bisq Multisig-protokollen er implementert i Bisq 2, kan den gamle versjonen av Bisq fases ut. Bisq 1 vil imidlertid fortsatt bli brukt som administrasjonsverktøy for Bisq CAD og for BSQ-BTC-børser.**
 
 ### Utvekslingsprosess
 
@@ -62,7 +62,7 @@ Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen
 - Den som utarbeider tilbudet, definerer vilkårene for utvekslingen
 - Når forhandlerne har blitt enige om vilkårene (betalingsmåte og pris), begynner utvekslingen
 - Selgeren sender bankopplysningene sine til kjøperen, og kjøperen sender Bitcoin-adressen sin til selgeren
-- Kjøperen betaler kontant og gir selgeren beskjed om dette
+- Kjøperen foretar betalingen i fiat-valuta og varsler selgeren
 - Når betalingen er mottatt, sender selgeren bitcoinsene til kjøperens adresse
 - Utvekslingen er fullført når kjøperen mottar bitcoinsene
 
@@ -86,11 +86,11 @@ Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen
 - Last ned Bisq 2-versjonen som passer til operativsystemet ditt (bla nedover på siden)
 - Bekreft ektheten til den nedlastede filen (anbefales på det sterkeste). Du finner en detaljert veiledning om signaturverifisering i følgende veiledning:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installasjon i henhold til ditt system
 
-Følg installeringstrinnene som gjelder for ditt operativsystem. Hvis du støter på problemer under installasjonen, kan du se den detaljerte veiledningen på [official Bisq wiki] (https://bisq.wiki/Downloading_and_installing).
+Følg installeringstrinnene som gjelder for ditt operativsystem. Hvis du støter på problemer under installasjonen, kan du se den detaljerte veiledningen på [official Bisq wiki](https://bisq.wiki/Downloading_and_installing).
 
 ### 3. Første oppstart
 
@@ -127,7 +127,7 @@ Det er valgfritt å forhåndskonfigurere betalingsmåter, men det anbefales for 
 
 **Sikkerhetskopiering av data:**
 
-I motsetning til Bisq 1 har Bisq 2 for øyeblikket ikke integrert en Bitcoin-lommebok: Transaksjoner utføres derfor via dine egne eksterne lommebøker. Vi anbefaler likevel at du regelmessig tar sikkerhetskopi av Bisq 2-datamappen din. For å finne datamappen din, se [offisiell Bisq-wiki] (https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
+I motsetning til Bisq 1 har Bisq 2 for øyeblikket ikke integrert en Bitcoin-lommebok: Transaksjoner utføres derfor via dine egne eksterne lommebøker. Vi anbefaler likevel at du regelmessig tar sikkerhetskopi av Bisq 2-datamappen din. For å finne datamappen din, se [offisiell Bisq-wiki](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
 
 **Identitetsstyring:**
 
@@ -327,37 +327,37 @@ For å forbedre omdømmet ditt som selger på Bisq bør du gjennomføre regelmes
 ### Fordeler med Bisq 2
 
 
-- Maksimal konfidensialitet**: Ingen KYC, bruk av Tor
-- Desentralisering**: Ingen sentral server
-- Sikkerhet**: Åpen kildekode, ikke-frihetsberøvende kode
-- Intuitivt grensesnitt**: enklere enn Bisq 1
-- Fleksibilitet**: Flere utvekslingsprotokoller
+- **Maksimal konfidensialitet**: Ingen KYC, bruk av Tor
+- **Desentralisering**: Ingen sentral server
+- **Sikkerhet**: Åpen kildekode, ikke-frihetsberøvende kode
+- **Intuitivt grensesnitt**: enklere enn Bisq 1
+- **Fleksibilitet**: Flere utvekslingsprotokoller
 
 ### Ulemper med Bisq 2
 
 
-- Begrenset likviditet** (for øyeblikket) :
+- **Begrenset likviditet** (for øyeblikket):
  - Ny protokoll i oppstartsfasen
  - Få salgstilbud tilgjengelig
  - Potensielt lang ventetid på å finne en kjøper
-- Handelsgrenser**: Maksimalt USD 600 per transaksjon (med Bisq easy)
-- Kun for datamaskiner**: Ingen mobilapplikasjon
+- **Handelsgrenser**: Maksimalt USD 600 per transaksjon (med Bisq easy)
+- **Kun for datamaskiner**: Ingen mobilapplikasjon
 
 ## Fremtidige protokoller
 
 Selv om Bisq Easy for øyeblikket er den eneste tilgjengelige protokollen, er flere andre protokoller under utvikling for Bisq 2 :
 
 
-- Bisq Lightning**: Utvekslingsprotokoll basert på et escrow-system som bruker flerpartskryptografi på Lightning-nettverket.
-- Bisq MuSig**: Migrering av hovedprotokollen fra Bisq 1 til Bisq 2, ved hjelp av en 2-på-2 multisig med sikkerhetsdepositum.
-- BSQ-bytter**: Øyeblikkelige atombytter mellom BSQ og BTC.
-- Liquid Swaps**: Utveksling av eiendeler på Liquid-nettverket (USDT, BTC-L) via atombytter.
-- Monero Swaps**: Atomutveksling mellom Bitcoin og Monero.
-- Liquid MuSig**: En versjon av multisig-protokollen som bruker L-BTC for lavere kostnader og større konfidensialitet.
-- Submarine bytter**: Utvekslinger mellom Bitcoin på Lightning-nettverket og Bitcoin på kjeden.
-- Stablecoin-bytter**: Atomutveksling mellom Bitcoin og USD stablecoins.
-- Multisig-opsjoner**: Opprettelse av P2P-salgs- og kjøpsopsjoner med BTC-blokkering i en multisig-transaksjon i kjeden.
-- Multisig åpne kontrakter**: Gjør det mulig å opprette tilpassede betingede kontrakter ved hjelp av et 2-på-3 multisig-system med arbitrasje.
+- **Bisq Lightning**: Utvekslingsprotokoll basert på et escrow-system som bruker flerpartskryptografi på Lightning-nettverket.
+- **Bisq MuSig**: Migrering av hovedprotokollen fra Bisq 1 til Bisq 2, ved hjelp av en 2-på-2 multisig med sikkerhetsdepositum.
+- **BSQ-bytter**: Øyeblikkelige atombytter mellom BSQ og BTC.
+- **Liquid Swaps**: Utveksling av eiendeler på Liquid-nettverket (USDT, BTC-L) via atombytter.
+- **Monero Swaps**: Atomutveksling mellom Bitcoin og Monero.
+- **Liquid MuSig**: En versjon av multisig-protokollen som bruker L-BTC for lavere kostnader og større konfidensialitet.
+- **Submarine bytter**: Utvekslinger mellom Bitcoin på Lightning-nettverket og Bitcoin på kjeden.
+- **Stablecoin-bytter**: Atomutveksling mellom Bitcoin og USD stablecoins.
+- **Multisig-opsjoner**: Opprettelse av P2P-salgs- og kjøpsopsjoner med BTC-blokkering i en multisig-transaksjon i kjeden.
+- **Multisig åpne kontrakter**: Gjør det mulig å opprette tilpassede betingede kontrakter ved hjelp av et 2-på-3 multisig-system med arbitrasje.
 
 Disse protokollene er under utvikling og vil gradvis bli integrert i Bisq 2, noe som vil gi brukerne større fleksibilitet i henhold til deres spesifikke behov.
 
@@ -367,4 +367,4 @@ Disse protokollene er under utvikling og vil gradvis bli integrert i Bisq 2, noe
 - Offisiell nettside: [bisq.network](https://bisq.network)
 - Dokumentasjon: [Bisq Wiki](https://bisq.wiki)
 - Støtte: [Forum Bisq](https://bisq.community)
-- Kildekode : [GitHub] (https://github.com/bisq-network)
+- Kildekode : [GitHub](https://github.com/bisq-network)

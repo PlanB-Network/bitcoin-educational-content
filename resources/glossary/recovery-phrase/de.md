@@ -6,4 +6,4 @@ Eine Wiederherstellungsphrase, manchmal auch Mnemonik, Seed-Phrase oder geheime 
 
 Es ist wichtig, diese Phrase an einem sicheren Ort aufzubewahren, da jeder, der im Besitz der Mnemonik ist, Zugang zu den Geldern der entsprechenden Wallet hat. Wird sie im Zusammenhang mit einer herkömmlichen Geldbörse und ohne eine optionale Passphrase verwendet, stellt sie häufig einen SPOF (Single Point Of Failure) dar. Die Wiederherstellungsphrase ist also eine Kodierung der Pseudo-Zufallssequenz und der Prüfsumme in alltägliche Wörter, um ihre Notation und Lesbarkeit für Menschen zu erleichtern. Sie wird nach der BIP39-Norm erstellt, die eine Liste von 2048 Wörtern für diese Kodierung definiert und anordnet.
 
-> ► *Die Liste der 2048 Wörter aus BIP39 ist in mehreren Sprachen verfügbar, es wird jedoch empfohlen, nur die englische Version zu verwenden, da sie von der Brieftaschensoftware am häufigsten unterstützt wird
+> ► *Die Liste der 2048 Wörter aus BIP39 ist in mehreren Sprachen verfügbar, es wird jedoch empfohlen, nur die englische Version zu verwenden, da sie von der Brieftaschensoftware am häufigsten unterstützt wird.*

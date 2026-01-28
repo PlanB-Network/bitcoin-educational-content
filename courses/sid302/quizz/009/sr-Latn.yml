@@ -1,0 +1,8 @@
+question: Koja je primarna svrha Pedersenovih obaveza u Elements' Confidential Transactions?
+answer: Da se zamene vidljivi iznosi transakcija kriptografskim obavezama koje se mogu validirati bez otkrivanja stvarnih vrednosti
+wrong_answers:
+  - Za generate jedinstveni 64-karakterni heksadecimalni identifikatori za novoizdate aktive na Elements blokčejnu
+  - Da bi se sprečio double-spending kreiranjem matematičkih dokaza da su skrivene vrednosti pozitivni celi brojevi unutar važećih opsega
+  - Da bi se omogućio prenos Bitcoin sa glavnog lanca na Elements bočne lance putem kriptografskih mehanizama povezivanja
+explanation: |
+  Pedersen Commitments su osnovni kriptografski mehanizam koji omogućava privatnost u Confidential Transactions zamenom vidljivih iznosa matematičkim obavezama. Zbog svojih homomorfnih svojstava, validatori mogu da provere da li ulazi odgovaraju izlazima plus naknade bez uvida u stvarne vrednosti. Range Proofs sprečavaju negativne iznose, ID-ovi sredstava identifikuju tokene, a mehanizmi povezivanja upravljaju transferima između lanaca, ali nijedna od ovih funkcija nije specifična za Pedersen Commitments.

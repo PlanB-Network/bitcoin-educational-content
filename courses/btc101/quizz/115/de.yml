@@ -1,11 +1,9 @@
-question: Wer war die erste Person, die dem Bitcoin-Netzwerk nach Satoshi Nakamoto beigetreten ist?
-answer: Hal Finney.
+question: Wie hoch war die Online-Verfügbarkeit von Bitcoin seit 2009?
+answer: 99,988 %.
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100 %.
+  - 90,009 %.
+  - 80,17 %.
 explanation: |
-  Hal Finney war die erste Person, die dem Bitcoin-Netzwerk
-  nach Satoshi Nakamoto selbst beigetreten ist. Er twitterte sogar Running
-  Bitcoin, um den Anlass zu markieren.
+  Die Online-Verfügbarkeit von Bitcoin beträgt seit 2009 99,988 %.
 reviewed: true

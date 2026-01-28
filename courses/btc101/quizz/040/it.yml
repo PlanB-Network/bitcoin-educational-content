@@ -1,12 +1,12 @@
-question: Qual è la strategia utilizzata dalle entità centrali per svalutare una valuta fiat?
-answer: Aumentano la massa monetaria di qualche percento ogni anno.
+question: Cos'è l'iperinflazione?
+answer: Un aumento drastico della massa monetaria.
 wrong_answers:
-  - Diminuiscono la massa monetaria di qualche percento ogni anno.
-  - Mantengono costante la sua massa monetaria rispetto alla quantità iniziale.
-  - Fanno fluttuare casualmente la sua massa monetaria in confronto alla quantità iniziale.
+  - Un piccolo aumento della massa monetaria.
+  - Una diminuzione drastica della massa monetaria.
+  - Una piccola diminuzione della massa monetaria.
 explanation: |
-  Le entità centrali spesso svalutano una valuta aumentando la sua
-  massa monetaria rispetto alla quantità iniziale di qualche percento
-  ogni anno. Questa svalutazione silenziosa è spesso giustificata
-  nell'interesse del popolo.
+  L'iperinflazione è un fenomeno monetario caratterizzato da un
+  aumento drastico dell'inflazione attraverso la stampa di moneta
+  da parte delle autorità, che porta a una completa perdita di
+  fiducia in una valuta.
 reviewed: true

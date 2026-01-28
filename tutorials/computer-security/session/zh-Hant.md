@@ -1,5 +1,5 @@
 ---
-name: 會議
+name: Session
 description: 傳送加密訊息，而非元資料
 ---
 ![cover](assets/cover.webp)
@@ -26,25 +26,26 @@ Session 首先是針對將保密性放在首位的使用者。這項訊息服務
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| 應用程式 | E2EE 1:1 | E2EE 群組 | 匿名註冊 | 客戶端開源許可證 | 服務端開源許可證 | 去中心化伺服器 | 創建年份 |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (可選) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (可選) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (聯邦) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (透過郵件) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (聯邦) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (無名錄) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = 端對端加密 *
 
@@ -99,13 +100,13 @@ Session 適用於所有平台。您可以直接從手機的應用程式商店下
 
 
 
-- 快速模式（"*Firebase Cloud Messaging/Apple Push Notification Service*"）**：借助 Google 或 Apple（取決於您的系統）提供的通知服務，您可以近乎實時地接收訊息通知。為了讓此模式運作，您的 IP Address 和獨特的通知 ID 會傳送給 Google 或 Apple，而會話帳號 ID 也會在 STF 伺服器上註冊 (透過 Tor)。此模式會暴露元資料（誠然是最低限度的），但不會損害訊息內容或聯絡人，也不會讓您的實際活動被追蹤。因此，此模式的回應效率較高，但依賴於集中式的基礎架構，保密性稍差。
+- 快速模式（"**Firebase Cloud Messaging/Apple Push Notification Service**"）：借助 Google 或 Apple（取決於您的系統）提供的通知服務，您可以近乎實時地接收訊息通知。為了讓此模式運作，您的 IP Address 和獨特的通知 ID 會傳送給 Google 或 Apple，而會話帳號 ID 也會在 STF 伺服器上註冊 (透過 Tor)。此模式會暴露元資料（誠然是最低限度的），但不會損害訊息內容或聯絡人，也不會讓您的實際活動被追蹤。因此，此模式的回應效率較高，但依賴於集中式的基礎架構，保密性稍差。
 
 
 
 
 
-- 慢速模式 (* 背景輪詢*)**：會話應用程式在背景保持活動，定期輪詢網路是否有新訊息。與第一種方式相比，這種方式保證了更高的保密性，因為資料不會傳送到第三方伺服器；Google、Apple 或 STF 伺服器都不會收到任何資訊。另一方面，這種模式有兩個缺點：通知可能會延遲 (長達幾分鐘)，而且由於應用程式在背景活動，能源消耗通常較高。
+- 慢速模式 (**背景輪詢**)：會話應用程式在背景保持活動，定期輪詢網路是否有新訊息。與第一種方式相比，這種方式保證了更高的保密性，因為資料不會傳送到第三方伺服器；Google、Apple 或 STF 伺服器都不會收到任何資訊。另一方面，這種模式有兩個缺點：通知可能會延遲 (長達幾分鐘)，而且由於應用程式在背景活動，能源消耗通常較高。
 
 
 
@@ -145,7 +146,7 @@ Session 適用於所有平台。您可以直接從手機的應用程式商店下
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **請注意**：與 Bitcoin 作品集上使用的 Mnemonic 短語不同，在 Session 上，**您絕對必須完整保存每個單詞**。前 4 個字母是不夠的！
 
@@ -299,4 +300,4 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

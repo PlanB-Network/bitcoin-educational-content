@@ -1,12 +1,12 @@
-question: S jakými ekonomickými principy je Bitcoin v souladu?
-answer: Principy rakouské ekonomie.
+question: Jaké jsou tři hlavní funkce Bitcoinové peněženky?
+answer: Přijímání bitcoinů, odesílání bitcoinů, ochrana před hackingem a pokusy o krádež.
 wrong_answers:
-  - Principy keynesovské ekonomie.
-  - Principy marxistické ekonomie.
-  - Principy neoklasické ekonomie.
+  - Ukládání bitcoinů, odesílání bitcoinů, ochrana před hackingem a pokusy o krádež.
+  - Umožnění přijímání bitcoinů, ukládání bitcoinů, ochrana před hackingem a pokusy o krádež.
+  - Umožnění přijímání bitcoinů, umožnění odesílání bitcoinů, prodej bitcoinů.
 explanation: |
-  Bitcoin je v souladu s principy rakouské ekonomie.
-  Jeho omezené množství a absence centrální entity ho
-  chrání před vrozenými riziky inflace, která je vidět
-  u tradičních měn.
+  Bitcoinová peněženka slouží k interakci s Bitcoinovou
+  sítí. Jejími třemi hlavními funkcemi jsou umožnění přijímání
+  bitcoinů, umožnění odesílání bitcoinů a ochrana před
+  hackingem a pokusy o krádež.
 reviewed: true

@@ -1,10 +1,16 @@
 ---
-name: Wallet von Satoshi
+name: Wallet of Satoshi
 description: Der einfachste Einstieg in die Wallet-Verwahrung
 ---
 ![cover](assets/cover.webp)
 
-dieses Tutorium wurde geschrieben von_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+---
+
+*Achtung: Seit Beginn des Jahres 2026 ist Wallet of Satoshi im Custodial-Modus (wie in diesem Tutorial dargestellt) innerhalb der Europäischen Union nicht mehr zugänglich. Wenn Sie in dieser Region ansässig sind und dieses Tool weiterhin nutzen möchten, müssen Sie ein VPN außerhalb der EU verwenden. Eine weitere Option besteht darin, Wallet of Satoshi im Self-Custodial-Modus zu nutzen. Ein entsprechendes Tutorial wird in Kürze auf Plan ₿ Academy veröffentlicht.*
+
+---
+
+dieses Tutorium wurde geschrieben von_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 ## Herunterladen, Einrichten und Verwenden von Wallet von Satoshi
@@ -12,7 +18,7 @@ dieses Tutorium wurde geschrieben von_ [Bitcoin Campus] (https://linktr.ee/bitco
 
 Wallet von Satoshi ist ein Lightning Network Wallet, verwahrend, und sehr einfach zu bedienen.
 
-Für die Zwecke des Kurses [BTC105 - Finding Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) wird er für Redeem Lightning Network-Gutscheine verwendet.
+Für die Zwecke des Kurses [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) wird er für Redeem Lightning Network-Gutscheine verwendet.
 
 
 **Immer daran denken**: _nicht Ihre Schlüssel, nicht Ihre Münzen_
@@ -79,8 +85,8 @@ Wallet von Satoshi hat eine Nachricht an das angegebene E-Mail-Postfach gesendet
 In der Mailbox finden wir zwei Wörter, die wir in das von der App zur Verfügung gestellte Feld eingeben müssen, indem wir sie umschreiben.
 
 
-- aktivieren Sie den Übersetzer nicht: die Worte sind und bleiben auf Englisch**
-- schreiben Sie die beiden Wörter neu und achten Sie dabei auf Groß- und Kleinschreibung**
+- aktivieren Sie den Übersetzer nicht: die Worte sind und bleiben auf Englisch
+- schreiben Sie die beiden Wörter neu und achten Sie dabei auf Groß- und Kleinschreibung
 
 
 ![image](assets/it/10.webp)

@@ -7,17 +7,17 @@ Zkratka pro "Bitcoin Improvement Proposal" Bitcoin Improvement Proposal (BIP) je
 BIP se dělí do tří hlavních kategorií:
 
 
-- BIPs pro sledování standardů*: Týkají se úprav, které přímo ovlivňují implementace Bitcoinu, jako jsou pravidla pro ověřování transakcí a bloků;
-- Informační BIP*: BIP: poskytují informace nebo doporučení, aniž by navrhovaly přímé změny protokolu;
-- Zpracování BIP*: Popište změny v postupech týkajících se bitcoinu, například v procesech řízení.
+- **BIPs pro sledování standardů**: Týkají se úprav, které přímo ovlivňují implementace Bitcoinu, jako jsou pravidla pro ověřování transakcí a bloků;
+- Informační **BIP**: poskytují informace nebo doporučení, aniž by navrhovaly přímé změny protokolu;
+- Zpracování **BIP**: Popište změny v postupech týkajících se bitcoinu, například v procesech řízení.
 
 BIP pro sledování standardů a informační BIP jsou také klasifikovány podle "vrstvy":
 
 
-- Konsenzuální vrstva*: BIP v této vrstvě se týkají pravidel konsensu Bitcoinu, například úprav pravidel pro ověřování bloků nebo transakcí. Tyto návrhy mohou být buď měkké (zpětně kompatibilní úpravy), nebo tvrdé (zpětně nekompatibilní úpravy). Do této kategorie patří například BIP pro SegWit a Taproot;
-- Peer služby*: Tato vrstva se týká fungování sítě uzlů Bitcoinu, tj. způsobu, jakým uzly na internetu vyhledávají a komunikují mezi sebou.
-- API/RPC*: BIP této vrstvy se týkají rozhraní pro programování aplikací (API) a volání vzdálených procedur (RPC), které umožňují interakci softwaru Bitcoinu s uzly;
-- Vrstva aplikací*: Tato vrstva se týká aplikací postavených nad Bitcoinem. BIP v této kategorii se obvykle zabývají úpravami na úrovni standardů bitcoinových peněženek.
+- Konsenzuální vrstva: BIP v této vrstvě se týkají pravidel konsensu Bitcoinu, například úprav pravidel pro ověřování bloků nebo transakcí. Tyto návrhy mohou být buď měkké (zpětně kompatibilní úpravy), nebo tvrdé (zpětně nekompatibilní úpravy). Do této kategorie patří například BIP pro SegWit a Taproot;
+- **Peer služby**: Tato vrstva se týká fungování sítě uzlů Bitcoinu, tj. způsobu, jakým uzly na internetu vyhledávají a komunikují mezi sebou.
+- **API/RPC**: BIP této vrstvy se týkají rozhraní pro programování aplikací (API) a volání vzdálených procedur (RPC), které umožňují interakci softwaru Bitcoinu s uzly;
+- Vrstva aplikací: Tota vrstva se týká aplikací postavených nad Bitcoinem. BIP v této kategorii se obvykle zabývají úpravami na úrovni standardů bitcoinových peněženek.
 
 Proces předkládání BIP začíná koncepcí a diskusí o nápadu v e-mailové konferenci *Bitcoin-dev*. Pokud je nápad slibný, autor vypracuje návrh BIP podle určitého formátu a odešle jej prostřednictvím žádosti o vytažení (Pull Request) v úložišti Core GitHub. Redakce tento návrh přezkoumá a ověří, zda splňuje všechna kritéria. BIP musí být technicky proveditelný, přínosný pro protokol, musí splňovat požadované formátování a být v souladu s filozofií Bitcoinu. Pokud BIP tyto podmínky splňuje, je oficiálně začleněn do repozitáře BIP na GitHubu. Poté je mu přiděleno číslo. O tomto čísle zpravidla rozhoduje editor, často Luke Dashjr, a přiděluje se logicky: BIPy, které se zabývají podobnými tématy, často dostávají po sobě jdoucí čísla.
 

@@ -1,0 +1,9 @@
+question: Mikä on riski, jos Wallet on riippuvainen kolmannen osapuolen solmusta?
+answer: Valvonnan ja sensuurin riski
+wrong_answers:
+  - Automaattisen Double-spending:n riski
+  - Yksityisten avainten menettämisriski
+  - Häviämisriski ja valvonta
+explanation: |
+  Kolmannen osapuolen solmu voi analysoida tai estää tapahtumasi tai jopa yhdistää tietosi henkilöllisyyteesi.
+reviewed: true

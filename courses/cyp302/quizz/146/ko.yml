@@ -1,0 +1,9 @@
+question: 정수 a가 역모수 N을 갖기 위한 조건은 무엇인가요?
+answer: a와 N은 공범이어야 합니다
+wrong_answers:
+  - N은 짝수여야 합니다
+  - a는 홀수여야 합니다
+  - a는 소수여야 합니다
+explanation: |
+  정수 a는 코프라임인 경우에만 역모수 N을 가지며, 이는 이들의 최대공약수가 1임을 의미합니다.
+reviewed: false

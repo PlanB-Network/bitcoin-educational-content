@@ -1,12 +1,11 @@
-question: Wat betekent de afwezigheid van een Mnemonic zin in een Wallet?
-answer: Dit geeft aan dat Wallet niet veilig is voor langdurige opslag van Bitcoin.
+question: Wat is de rol van een notaris in de context van Bitcoin erfenissen?
+answer: Ze zorgen voor naleving van de belastingwetgeving.
 wrong_answers:
-  - Het geeft aan dat de Wallet volledig veilig is en geen back-up nodig heeft.
-  - Dit betekent dat de Wallet veel verschillende bindingen kan bevatten.
-  - Het suggereert dat de Wallet automatisch wordt geback-upt door je apparaat.
+  - Ze beheren je bitcoins na je dood.
+  - Ze wijzigen je erfenisplan.
+  - Ze beveiligen je bitcoins in een kluis.
 explanation: |
-  Het ontbreken van een lijst van 12 of 24 woorden, dat is de
-  Mnemonic zin, in een Wallet zou je moeten waarschuwen dat de
-  Wallet niet veilig is, omdat het geen standaard back-up
-  procedures.
-reviewed: true
+  In de context van Bitcoin erfenissen is het belangrijk om
+  de erfenis van bitcoins te bespreken met een notaris om ervoor te zorgen dat
+  fiscale naleving.
+reviewed: false

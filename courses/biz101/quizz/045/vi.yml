@@ -1,9 +1,9 @@
-question: How does the Austrian School define the concept of "time preference"?
-answer: The preference for consuming now rather than later
+question: Trường phái Áo định nghĩa khái niệm "ưu tiên thời gian" như thế nào?
+answer: Sở thích tiêu thụ ngay bây giờ hơn là sau này
 wrong_answers:
-  - The desire to reduce short-term costs
-  - The optimization of immediate investments
-  - The ability to balance supply and demand
+  - Mong muốn giảm chi phí ngắn hạn
+  - Tối ưu hóa các khoản đầu tư tức thời
+  - Khả năng cân bằng cung và cầu
 explanation: |
-  Time preference refers to the choice of immediate consumption over deferred benefit, which influences decisions on saving and investing.
-reviewed: false
+  Sở thích về thời gian đề cập đến sở thích tiêu dùng ngay lập tức hơn là lợi ích bị trì hoãn, điều này ảnh hưởng đến quyết định tiết kiệm và đầu tư.
+reviewed: true

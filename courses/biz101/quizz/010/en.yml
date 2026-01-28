@@ -6,4 +6,4 @@ wrong_answers:
   - By requiring merchants to pay all network costs upfront.
 explanation: |
   Since Lightning transactions happen off-chain, only the final channel states are settled on the Bitcoin blockchain. This reduces congestion and thus lowers fees by avoiding making many on-chain transactions.
-reviewed: false
+reviewed: true

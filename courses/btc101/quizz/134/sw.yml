@@ -1,12 +1,11 @@
-question: Je, ni Hash halali katika muktadha wa kuzuia Mining kwenye mtandao wa Bitcoin?
-answer: Alama ya kipekee ya vidole inayohusishwa na kizuizi, inayojumuisha herufi 256.
+question: Ni gharama gani ya kuendesha nodi ya Bitcoin kwenye Raspberry Pi 4 kwa suala la matumizi ya umeme kwa mwaka (kama 2023)?
+answer: Chini kidogo ya 10€ kwa mwaka.
 wrong_answers:
-  - Msimbo wa kipekee unaotumiwa kufikia kizuizi.
-  - Nenosiri la kipekee linalohitajika kuchimba kizuizi.
-  - Kitambulisho cha kipekee cha Miner ambao walichimba kizuizi.
+  - Zaidi kidogo ya 50 € kwa mwaka.
+  - Chini kidogo ya 100€ kwa mwaka.
+  - Karibu € 200 kwa mwaka.
 explanation: |
-  Katika mazingira ya kuzuia Mining katika mtandao wa Bitcoin, a
-  Hash halali ni alama ya kidole ya kipekee inayohusishwa na
-  block, inayojumuisha herufi 256. Uhalali wa hii
-  Hash inategemea ugumu wa mtandao wa Bitcoin.
+  Kuendesha nodi ya Bitcoin kwenye Raspberry Pi 4 kunagharimu kidogo
+  chini ya 10€ kwa mwaka katika suala la matumizi ya umeme
+  hadi 2023.
 reviewed: true

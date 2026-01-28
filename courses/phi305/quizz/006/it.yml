@@ -1,0 +1,9 @@
+question: Immanuel Kant è un filosofo?
+answer: Tedesco.
+wrong_answers:
+  - Inglese.
+  - Polacco.
+  - Olandese.
+explanation: |
+  Immanuel Kant (1724-1804) è stato un filosofo tedesco, considerato uno dei più importanti pensatori dell'Illuminismo. Sviluppò una filosofia critica che cercava di conciliare razionalismo ed empirismo.
+reviewed: false

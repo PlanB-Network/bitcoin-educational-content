@@ -1,12 +1,13 @@
-question: Jaký je maximální počet jednotek Bitcoinu, které mohou kdy existovat?
-answer: 21 milionů.
+question: Jaká je klíčová vlastnost Bitcoinu, která jej odlišuje od fiat měn?
+answer: Jeho měnová politika je vynucována obecným konsensem.
 wrong_answers:
-  - 3 biliony.
-  - 100 milionů.
-  - Neexistuje žádný limit.
+  - Může být tisknut v neomezeném množství centrálními bankami.
+  - Je kryt fyzickým komoditním aktivem jako zlato nebo stříbro.
+  - Je regulován centrální bankou.
 explanation: |
-  Celková nabídka Bitcoinu je omezena na 21 milionů jednotek.
-  To je klíčová vlastnost Bitcoinu, která ho odlišuje
-  od fiduciárních měn, které mohou být centrálními bankami
-  tisknuty v neomezeném množství.
+  Díky své decentralizované a kryptografické povaze
+  nemůže být Bitcoin padělán a je omezen na 21 milionů
+  jednotek. To je klíčová vlastnost, která jej odlišuje od
+  fiat měn, které následují měnovou politiku, kterou mohou
+  měnit centrální banky.
 reviewed: true

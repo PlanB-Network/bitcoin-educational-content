@@ -1,10 +1,9 @@
-question: Mis on 2% inflatsiooni mõju ostujõule viie aasta jooksul?
-answer: Kaotate 10% oma ostujõust.
+question: Mis juhtus Zimbabwe dollari'ga aprillis 2009?
+answer: Rahandusminister kuulutas välja Zimbabwe dollari kasutamise peatamise ja lubas kaubanduses kasutada erinevaid välisvaluutasid.
 wrong_answers:
-  - Kaotate 2% oma ostujõust.
-  - Kaotate 5% oma ostujõust.
-  - Kaotate 20% oma ostujõust.
+  - Zimbabwe dollar kukkus üle 72%.
+  - Valitsus nõustus kompenseerima sõjaveterane summas, mis võrdub 450 miljoni USA dollariga.
+  - Valitsus pidi kasutusele võtma trükimasina.
 explanation: |
-  2% inflatsiooni korral kaotate igal aastal 2% oma ostujõust, mis
-  viie aasta peale kokku teeb 10%.
+  Aprillis 2009 kuulutas rahandusminister välja Zimbabwe dollari kasutamise peatamise ja lubas kaubanduses kasutada erinevaid välisvaluutasid.
 reviewed: true

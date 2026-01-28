@@ -1,0 +1,9 @@
+question: Apa yang perlu dilakukan Wallet untuk melihat status Blockchain?
+answer: Terhubung ke node lokal atau jarak jauh
+wrong_answers:
+  - Tanyakan dompet lain dalam jaringan
+  - Mewawancarai penambang jaringan
+  - Terhubung ke platform Exchange online
+explanation: |
+  Wallet harus terhubung ke node untuk mengakses status Blockchain dan menyiarkan transaksinya.
+reviewed: true

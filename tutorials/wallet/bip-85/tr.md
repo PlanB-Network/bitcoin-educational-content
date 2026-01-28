@@ -91,9 +91,9 @@ BIP-85, her biri kendi seed ikincil ifadesine sahip tek bir seed çekirdek ifade
 
 
 
-- Senaryo**: Günlük işlemler için bir "Hot Wallet" Wallet (İnternet bağlantılı bir cihaza yüklenmiş) kullanıyorsunuz.
-- Çözüm BIP-85**: Bu portföye adanmış bir seed ikincil ifade oluşturursunuz.
-- BIP-32**'ye göre avantaj: seed birincil ifadesini telefonunuza aktarmanız gerekmez, bu da bilgisayar korsanlığı riskini azaltır. Yalnızca seed ikincil ifade tehlikeye atılır ve diğer cüzdanlarınızı korur. BIP-32 ile, tüm fonlarınızı açığa çıkaran seed ana ifadesini ve bir bypass yolunu kullanmanız gerekir.
+- **Senaryo**: Günlük işlemler için bir "Hot Wallet" Wallet (İnternet bağlantılı bir cihaza yüklenmiş) kullanıyorsunuz.
+- **Çözüm BIP-85**: Bu portföye adanmış bir seed ikincil ifade oluşturursunuz.
+- **BIP-32'ye göre avantaj:** seed birincil ifadesini telefonunuza aktarmanız gerekmez, bu da bilgisayar korsanlığı riskini azaltır. Yalnızca seed ikincil ifade tehlikeye atılır ve diğer cüzdanlarınızı korur. BIP-32 ile, tüm fonlarınızı açığa çıkaran seed ana ifadesini ve bir bypass yolunu kullanmanız gerekir.
 
 
 
@@ -103,9 +103,9 @@ BIP-85, her biri kendi seed ikincil ifadesine sahip tek bir seed çekirdek ifade
 
 
 
-- Senaryo**: Size yakın biri (örneğin anneniz) için bir Bitcoin Wallet kurdunuz ve kaybetmeleri halinde geri alabiliyorsunuz.
-- Çözüm BIP-85**: Özel bir seed ikincil cümlesi oluşturursunuz ve sadece bunu paylaşırsınız.
-- BIP-32'ye göre avantaj**: BIP-32 ile sevdiğiniz biri için bir hesap oluşturmak için ya ana seed ifadenizi paylaşmanız, tüm fonlarınızı riske atmanız ve sevdiğiniz kişi için yönetimi karmaşıklaştırmanız (dallanma yollarını yönetmek) ya da ana seed ifadenize ek olarak kaydetmek için yeni bir seed ifadesi oluşturmanız gerekir.
+- **Senaryo**: Size yakın biri (örneğin anneniz) için bir Bitcoin Wallet kurdunuz ve kaybetmeleri halinde geri alabiliyorsunuz.
+- **Çözüm BIP-85**: Özel bir seed ikincil cümlesi oluşturursunuz ve sadece bunu paylaşırsınız.
+- **BIP-32'ye göre avantaj**: BIP-32 ile sevdiğiniz biri için bir hesap oluşturmak için ya ana seed ifadenizi paylaşmanız, tüm fonlarınızı riske atmanız ve sevdiğiniz kişi için yönetimi karmaşıklaştırmanız (dallanma yollarını yönetmek) ya da ana seed ifadenize ek olarak kaydetmek için yeni bir seed ifadesi oluşturmanız gerekir.
 
 
 
@@ -115,8 +115,8 @@ BIP-85, her biri kendi seed ikincil ifadesine sahip tek bir seed çekirdek ifade
 
 
 
-- Senaryo**: Bitcoinlerinizi farklı amaçlar için ayırıyorsunuz (örn. uzun vadeli tasarruflar, KYC dışı fonlar).
-- Çözüm BIP-85**: Her bir hedef için seed ikincil ifadeler oluşturursunuz.
+- **Senaryo**: Bitcoinlerinizi farklı amaçlar için ayırıyorsunuz (örn. uzun vadeli tasarruflar, KYC dışı fonlar).
+- **Çözüm BIP-85**: Her bir hedef için seed ikincil ifadeler oluşturursunuz.
 - BIP-32**'ye göre avantaj: BIP-32 ile tüm hesaplar aynı seed ifadesini paylaşır, bu da `m/44'/0'/0'` gibi türetme yollarının yönetilmesini gerektirerek üçüncü taraf portföylerinde yönetimi zorlaştırır. Buna ek olarak, her cihaz için ayrı bir hesap atamak mümkün değildir (örneğin, "Coldcard'da tasarruf", "cep telefonunda günlük", "Trezor'da tatil"). BIP-85, hedef başına benzersiz bir seed ikincil ifade atar, bu da her cihazda ayrı ayrı tanımlanması ve içe aktarılması kolaydır.
 
 
@@ -127,9 +127,9 @@ BIP-85, her biri kendi seed ikincil ifadesine sahip tek bir seed çekirdek ifade
 
 
 
-- Senaryo**: Tek seferlik bir işlem için veya gizliliği korumak için geçici bir portföye ihtiyacınız var (örneğin: fonların karıştırılması, Exchange KYC ile etkileşim, vb.)
-- Çözüm BIP-85**: Bir seed ikincil cümlesi oluşturursunuz, işlem için kullanırsınız, ardından yeniden oluşturulabileceğini bilerek gerekirse imha edersiniz.
-- BIP-32'ye göre avantaj**: BIP-32 ile geçici bir hesap seed ana cümlesine bağlıdır ve ele geçirilmesi halinde tüm fonlarınız açığa çıkar.
+- **Senaryo**: Tek seferlik bir işlem için veya gizliliği korumak için geçici bir portföye ihtiyacınız var (örneğin: fonların karıştırılması, Exchange KYC ile etkileşim, vb.)
+- **Çözüm BIP-85**: Bir seed ikincil cümlesi oluşturursunuz, işlem için kullanırsınız, ardından yeniden oluşturulabileceğini bilerek gerekirse imha edersiniz.
+- **BIP-32'ye göre avantaj**: BIP-32 ile geçici bir hesap seed ana cümlesine bağlıdır ve ele geçirilmesi halinde tüm fonlarınız açığa çıkar.
 
 
 
@@ -141,7 +141,7 @@ BIP-85, her biri kendi seed ikincil ifadesine sahip tek bir seed çekirdek ifade
 
 
 
-- Donanım** (isteğe bağlı)
+- **Donanım** (isteğe bağlı)
  - Coldcard Mk4 veya Q1
  - MicroSD kart
 
@@ -158,7 +158,7 @@ BIP-85, her biri kendi seed ikincil ifadesine sahip tek bir seed çekirdek ifade
 
 
 
-- Uyumlu** yazılım
+- **Uyumlu** yazılım
  - Sparrow wallet (bilgisayar, yalnızca izleme veya gelişmiş yönetim için)
  - Nunchuck (mobil, çoklu imzalar için)
  - BlueWallet (mobil)
@@ -168,7 +168,7 @@ BIP-85, her biri kendi seed ikincil ifadesine sahip tek bir seed çekirdek ifade
 
 
 
-- 3.4 Soğuk kart** yapılandırması
+- 3.4 **Soğuk kart** yapılandırması
  - Coldcard üzerinde 24 kelimelik bir seed cümlesini başlatın.
  - İsteğe bağlı: BIP-85 şubelerine erişimi güvence altına almak için bir passphrase ekleyin.
  - Yararlı seçenekleri etkinleştirin: NFC (dışa aktarma için), pilde USB'yi devre dışı bırakma (güvenlik).
@@ -197,7 +197,7 @@ Coldcard'ınızı açın, PIN kodunuzu girin.
 
 
 
-- 1. Ana seed'inize bir passphrase uyguladıysanız:**
+- 1. Ana seed'inize bir passphrase uyguladıysanız:
  - Ana ekrandan `passphrase` seçeneğine gidin.
     - Kelime Ekle'yi seçin ve şifrenizi girin.
     - "Uygula" düğmesine basın.
@@ -207,7 +207,7 @@ Coldcard'ınızı açın, PIN kodunuzu girin.
 
 
 
-- 2. BIP-85** menüsüne gidin
+- 2. **BIP-85** menüsüne gidin
  - Ana ekrandan `Gelişmiş > seed B85 Türet` seçeneğine gidin
  - Uyarıyı okuyun ve onaylayın.
 
@@ -246,7 +246,7 @@ seed cümle biçimini seçin: 12, 18 veya 24 kelime. Wallet cümlenizi aktarmak 
 
 
 
-- 5. seed ikincil cümlesini not edin veya dışa aktarın**
+- 5. seed ikincil cümlesini not edin veya dışa aktarın
 
 
 ColdCard artık yeni bir seed ikincil cümlesi görüntülüyor. Yapabilirsin :
@@ -415,13 +415,13 @@ Eklerde daha fazla kaynak bulunmaktadır.
 
 
 
-- [BEEP](https://planb.network/resources/glossary/bip)
-- [BIP-32](https://planb.network/resources/glossary/bip0032)
-- [BIP-39](https://planb.network/resources/glossary/bip0039)
-- [BIP-85](https://planb.network/resources/glossary/bip0085)
-- [seed ifade](https://planb.network/resources/glossary/recovery-phrase)
-- [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [BEEP](https://planb.academy/resources/glossary/bip)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
+- [BIP-85](https://planb.academy/resources/glossary/bip0085)
+- [seed ifade](https://planb.academy/resources/glossary/recovery-phrase)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 
@@ -430,18 +430,18 @@ Eklerde daha fazla kaynak bulunmaktadır.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 ### A.3 passphrase BIP'yi Anlamak39
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
 ### A.4 Bitcoin portföyleri nasıl çalışır?
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

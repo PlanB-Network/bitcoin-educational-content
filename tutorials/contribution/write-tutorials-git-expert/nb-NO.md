@@ -6,62 +6,62 @@ description: Veiledning for avanserte brukere med opplæring i Plan ₿ Nettverk
 
 Før du følger denne veiledningen om hvordan du legger til en ny opplæring, må du ha fullført noen innledende trinn. Hvis du ikke allerede har gjort det, kan du ta en titt på denne introduksjonsveiledningen først, og deretter komme tilbake hit:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Du har allerede:
 
 
 - Velg et tema for opplæringen din;
-- Kontaktet Plan ₿ Network-teamet via [Telegramgruppe] (https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
+- Kontaktet Plan ₿ Academy-teamet via [Telegramgruppe](https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
 - Velg dine bidragsverktøy.
 
 I denne veiledningen for erfarne Git-brukere vil vi kort oppsummere de viktigste trinnene og de viktigste retningslinjene for å tilby en ny Plan ₿ Nettverksveiledning. Hvis du ikke er kjent med Git og GitHub, anbefaler jeg at du i stedet følger en av disse to andre mer detaljerte veiledningene som tar deg steg for steg:
 
 
-- Mellomnivå (GitHub Desktop)**:
+- **Mellomnivå (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Nybegynnere (webgrensesnitt)**:
+- **Nybegynnere (webgrensesnitt)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Foreslåtte verktøy
 
 For redigering av Markdown-filer:
 
 
-- Obsidian** (gratis, ikke åpen kildekode)
-- Mark Text** (gratis, åpen kildekode)
-- Zettlr** (gratis, åpen kildekode)
-- Typora** (betalingsprogramvare, ~€15, ikke åpen kildekode)
+- **Obsidian** (gratis, ikke åpen kildekode)
+- **Mark Text** (gratis, åpen kildekode)
+- **Zettlr** (gratis, åpen kildekode)
+- **Typora** (betalingsprogramvare, ~€15, ikke åpen kildekode)
 
 For Git:
 
 
-- Git** (gratis, åpen kildekode)
-- GitHub Desktop** (gratis, åpen kildekode)
-- Sourcetree** (gratis, ikke åpen kildekode)
+- **Git** (gratis, åpen kildekode)
+- **GitHub Desktop** (gratis, åpen kildekode)
+- **Sourcetree** (gratis, ikke åpen kildekode)
 
 For redigering av YAML-filer:
 
 
-- Visual Studio Code** (gratis, åpen kildekode)
-- Sublime Text** (gratis med begrensninger, ikke åpen kildekode)
+- **Visual Studio Code** (gratis, åpen kildekode)
+- **Sublime Text** (gratis med begrensninger, ikke åpen kildekode)
 
 For å lage diagrammer og visualiseringer:
 
 
-- Canva** (gratis med betalte alternativer, ikke åpen kildekode)
-- Inkscape** (gratis, åpen kildekode)
-- Penpot** (gratis, åpen kildekode)
+- **Canva** (gratis med betalte alternativer, ikke åpen kildekode)
+- **Inkscape** (gratis, åpen kildekode)
+- **Penpot** (gratis, åpen kildekode)
 
 ## Arbeidsflyt
 
 ### 1 - Konfigurer ditt lokale miljø
 
 
-- Du må ha din egen gaffel av [Plan ₿ Network repository på GitHub] (https://github.com/PlanB-Network/bitcoin-educational-content).
+- Du må ha din egen gaffel av [Plan ₿ Academy repository på GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Synkroniser hovedgrenen (`dev`) i gaffelen din med kildelageret.
 - Oppdater din lokale klone.
 
@@ -99,7 +99,7 @@ git push -u origin tuto-green-wallet-loic
 
 ### 3 - Legg til opplæringsdokumentene
 
-***Merk: *** Du kan automatisere trinn 3 og 4 ved hjelp av [mitt Python GUI-skript] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Kjør det direkte fra mappen i din lokale klone, og fyll deretter ut de nødvendige feltene i GUI-en. For mer informasjon om hvordan du installerer og bruker det, se [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Merk: *** Du kan automatisere trinn 3 og 4 ved hjelp av [mitt Python GUI-skript](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Kjør det direkte fra mappen i din lokale klone, og fyll deretter ut de nødvendige feltene i GUI-en. For mer informasjon om hvordan du installerer og bruker det, se [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 Hvis du foretrekker å gjøre det manuelt, følger du disse trinnene:
 
@@ -166,11 +166,11 @@ Her er de obligatoriske feltene:
 
 - **id**: En UUID (_Universally Unique Identifier_) som unikt identifiserer veiledningen. Du kan generere den med [et nettbasert verktøy](https://www.uuidgenerator.net/version4). Det eneste kravet er at denne UUID-en er tilfeldig for å unngå konflikter med en annen UUID på plattformen;
 
-- **project_id**: UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Network vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
+- **project_id**: UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Academy vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
 
-- **tags**: 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Network tag-listen](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Academy tag-listen](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Underkategorien som tilsvarer innholdet i veiledningen, i henhold til strukturen på Plan ₿ Network-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Underkategorien som tilsvarer innholdet i veiledningen, i henhold til strukturen på Plan ₿ Academy-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Vanskelighetsnivået for veiledningen, valgt blant:
     - `beginner`
@@ -191,7 +191,7 @@ Her er de obligatoriske feltene:
 
 For mer informasjon om lærer-ID-en din, se den tilhørende veiledningen:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## Standarder for innholdsproduksjon
 
 
-- Formatering støttes på plattformen**:
+- **Formatering støttes på plattformen**:
     - Klassisk Markdown: lister, lenker, bilder, anførselstegn, fet skrift, kursiv osv.
     - LaTeX (kun blokk, ikke inline): avgrenset av `$$`.
     - Innebygd kode: Syntaks med en enkelt backtick.
@@ -292,17 +292,17 @@ print("Hello, Bitcoin!")
 ```
 
 
-- Illustrasjoner og diagrammer**:
-    - Alle bilder må være i WebP-format. Bruk dette gratisverktøyet for å konvertere dem om nødvendig: [ImagesConverter] (https://github.com/LoicPandul/ImagesConverter).
+- **Illustrasjoner og diagrammer**:
+    - Alle bilder må være i WebP-format. Bruk dette gratisverktøyet for å konvertere dem om nødvendig: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Navngi bilder med 2 eller 3 siffer (f.eks. `001.webp`, `002.webp`).
     - Bruk mock-ups for opplæring i mobil- eller maskinvarelommebøker.
     - Bruk kun egenproduserte eller royaltyfrie bilder.
     - Sørg for at de er relevante og av høy kvalitet.
-- Grafisk charter**:
-    - Skrifttype: [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans).
+- **Grafisk charter**:
+    - Skrifttype: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Farger Plan ₿ Nettverk:
         - Oransje: `#FF5C00`
         - Svart: `#000000`
         - Hvit: `#FFFFFFFF`
 
-Hvis du har tekniske problemer med å sende inn opplæringen din, ikke nøl med å be om hjelp på [vår dedikerte Telegram-gruppe for bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Tusen takk skal du ha!
+Hvis du har tekniske problemer med å sende inn opplæringen din, ikke nøl med å be om hjelp på [vår dedikerte Telegram-gruppe for bidrag](https://t.me/PlanBNetwork_ContentBuilder). Tusen takk skal du ha!

@@ -1,0 +1,9 @@
+question: Mitä Satoshi Nakamoton valkoisessa kirjassa esitetään?
+answer: Hajautettu Exchange Internetissä.
+wrong_answers:
+  - Uusi liberaali politiikka.
+  - Keskitetty Exchange-protokolla.
+  - Poliittinen ohjelma.
+explanation: |
+  Satoshi White Paper Nakamoto esittelee Bitcoin:n Exchange:n hajautettuna välineenä Internetissä. Siinä ehdotetaan vertaisverkkopohjaista sähköistä maksujärjestelmää, jossa ei ole keskusviranomaista.
+reviewed: false

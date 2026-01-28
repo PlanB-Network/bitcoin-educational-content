@@ -1,67 +1,67 @@
 ---
 name: Contribution - Git-opastus (edistyneet)
-description: Opas edistyneille käyttäjille, joka tarjoaa opastuksen Plan ₿ Network with Git -ohjelmasta
+description: Opas edistyneille käyttäjille, joka tarjoaa opastuksen Plan ₿ Academy with Git -ohjelmasta
 ---
 ![cover](assets/cover.webp)
 
 Ennen kuin seuraat tätä ohjeistusta uuden ohjeen lisäämisestä, sinun on suoritettava muutama alustava vaihe. Jos et ole vielä tehnyt sitä, tutustu ensin tähän johdantooppaaseen ja palaa sitten tänne:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Sinulla on jo:
 
 
 - Valitse opetusohjelmasi teema;
-- Ota yhteyttä Plan ₿ Network -tiimiin [Telegram-ryhmässä] (https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
+- Ota yhteyttä Plan ₿ Academy -tiimiin [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
 - Valitse osallistumisvälineesi.
 
-Tässä kokeneille Git-käyttäjille suunnatussa opetusohjelmassa kerromme lyhyesti keskeiset vaiheet ja olennaiset ohjeet uuden Plan ₿ Network -oppaan tarjoamiseksi. Jos Git ja GitHub eivät ole sinulle tuttuja, suosittelen sen sijaan seuraamaan yhtä näistä kahdesta muusta yksityiskohtaisemmasta opetusohjelmasta, jotka vievät sinut askel askeleelta:
+Tässä kokeneille Git-käyttäjille suunnatussa opetusohjelmassa kerromme lyhyesti keskeiset vaiheet ja olennaiset ohjeet uuden Plan ₿ Academy -oppaan tarjoamiseksi. Jos Git ja GitHub eivät ole sinulle tuttuja, suosittelen sen sijaan seuraamaan yhtä näistä kahdesta muusta yksityiskohtaisemmasta opetusohjelmasta, jotka vievät sinut askel askeleelta:
 
 
-- Keskitason (GitHub Desktop)**:
+- **Keskitason (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Aloittelijoille (verkkokäyttöliittymä)**:
+- Aloittelijoille (verkkokäyttöliittymä):
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Ehdotetut työkalut
 
 Markdown-tiedostojen muokkaamiseen:
 
 
-- Obsidian** (ilmainen, ei avointa lähdekoodia)
-- Mark Text** (ilmainen, avoin lähdekoodi)
-- Zettlr** (ilmainen, avoin lähdekoodi)
-- Typora** (maksullinen, ~15 €, ei avointa lähdekoodia)
+- **Obsidian** (ilmainen, ei avointa lähdekoodia)
+- **Mark Text** (ilmainen, avoin lähdekoodi)
+- **Zettlr** (ilmainen, avoin lähdekoodi)
+- **Typora** (maksullinen, ~15 €, ei avointa lähdekoodia)
 
 Gitille:
 
 
-- Git** (ilmainen, avoin lähdekoodi)
-- GitHub Desktop** (ilmainen, avoin lähdekoodi)
-- Sourcetree** (ilmainen, ei avoin lähdekoodi)
+- **Git** (ilmainen, avoin lähdekoodi)
+- **GitHub Desktop** (ilmainen, avoin lähdekoodi)
+- **Sourcetree** (ilmainen, ei avoin lähdekoodi)
 
 YAML-tiedostojen muokkaamiseen:
 
 
-- Visual Studio Code** (ilmainen, avoin lähdekoodi)
-- Sublime Text** (ilmainen rajoituksin, ei avointa lähdekoodia)
+- **Visual Studio Code** (ilmainen, avoin lähdekoodi)
+- **Sublime Text** (ilmainen rajoituksin, ei avointa lähdekoodia)
 
 Kaavioiden ja visuaalisten esitysten luominen:
 
 
-- Canva** (ilmainen ja maksullisia vaihtoehtoja, ei avointa lähdekoodia)
-- Inkscape** (ilmainen, avoin lähdekoodi)
-- Penpot** (ilmainen, avoin lähdekoodi)
+- **Canva** (ilmainen ja maksullisia vaihtoehtoja, ei avointa lähdekoodia)
+- **Inkscape** (ilmainen, avoin lähdekoodi)
+- **Penpot** (ilmainen, avoin lähdekoodi)
 
 ## Työnkulut
 
 ### 1 - Määritä paikallinen ympäristö
 
 
-- Sinulla on oltava oma haarasi [Plan ₿ Network -tietovarastosta GitHubissa](https://github.com/PlanB-Network/bitcoin-educational-content).
+- Sinulla on oltava oma haarasi [Plan ₿ Academy -tietovarastosta GitHubissa](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Synkronoi haarasi päähaara (`dev`) lähdekoodivaraston kanssa.
 - Päivitä paikallinen kloonisi.
 
@@ -166,11 +166,11 @@ Tässä ovat pakolliset kentät:
 
 - **id**: UUID (_Universally Unique Identifier_), joka yksilöi tutoriaalin. Voit luoda sen käyttämällä [verkkotyökalua](https://www.uuidgenerator.net/version4). Ainoa vaatimus on, että tämä UUID on satunnainen, jotta vältytään ristiriidoilta toisen UUID:n kanssa alustalla;
 
-- **project_id**: Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Network ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
+- **project_id**: Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Academy ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
 
 - **tags**: 2 tai 3 aiheeseen liittyvää avainsanaa, jotka valitaan yksinomaan [Plan ₿ Networkin avainsanaluettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Network -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Academy -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Tutoriaalin vaikeustaso, valittavissa seuraavista:
     - `beginner`
@@ -191,7 +191,7 @@ Tässä ovat pakolliset kentät:
 
 Lisätietoja opettajatunnuksesta saat vastaavasta ohjeesta:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## Sisällön luomista koskevat standardit
 
 
-- Alustan tukema muotoilu**:
+- Alustan tukema **muotoilu**:
     - Klassinen Markdown: luettelot, linkit, kuvat, lainaukset, lihavointi, kursivointi jne.
     - LaTeX (vain lohko, ei inline): erotetaan `$$`:lla.
     - Rivikoodi: Syntaksi, jossa on yksi takaviiva.
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- Kuvitukset ja kaaviot**:
+- **Kuvitukset ja kaaviot**:
     - Kaikkien kuvien on oltava WebP-muodossa. Käytä tätä ilmaista työkalua niiden muuntamiseen tarvittaessa: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Nimeä kuvatunnukset 2- tai 3-numeroisin numeroin (esim. `001.webp`, `002.webp`).
     - Mobiililompakon tai laitteiston lompakon opetusohjelmissa kannattaa käyttää malleja.
     - Käytä vain itse luotua tai rojaltivapaata kuvamateriaalia.
     - Varmista, että ne ovat merkityksellisiä ja laadukkaita.
-- Graafinen charter**:
+- **Graafinen charter**:
     - Fontti: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Värit Suunnitelma ₿ Verkko:
         - Oranssi: `#FF5C00`

@@ -1,0 +1,9 @@
+question: Jaka fundamentalna zasada pozwala deweloperom tworzyć systemy takie jak Lightning Network, CoinJoin i OpenTimestamps na Bitcoin bez konieczności uzyskiwania zgody?
+answer: Rozwój bez zezwoleń umożliwia każdemu tworzenie protokołów i aplikacji na Bitcoin bez konieczności autoryzacji od jakiegokolwiek centralnego organu
+wrong_answers:
+  - Licencja open source wymaga, aby wszystkie prace pochodne były automatycznie zatwierdzane i integrowane z głównym repozytorium Bitcoin Core
+  - Licencja MIT wymaga, aby wszystkie projekty oparte na Bitcoin otrzymały wyraźne pozwolenie od zespołu programistów Bitcoin Core przed ich wdrożeniem
+  - Reguły konsensusu automatycznie zatwierdzają i autoryzują każdy nowy protokół zbudowany na Bitcoin poprzez proces weryfikacji blockchain
+explanation: |
+  Rozwój bez zezwoleń jest poprawną odpowiedzią, ponieważ jest to podstawowa zasada, która pozwala każdemu budować na Bitcoin bez pytania o pozwolenie. Błędne odpowiedzi są nieprawidłowe, ponieważ: licencjonowanie open source nie wymaga automatycznego zatwierdzania lub integracji z Bitcoin Core; licencja MIT faktycznie przyznaje szerokie uprawnienia bez konieczności zatwierdzania przez deweloperów; a zasady konsensusu zatwierdzają transakcje i bloki, a nie protokoły wyższego poziomu zbudowane na Bitcoin.
+reviewed: false

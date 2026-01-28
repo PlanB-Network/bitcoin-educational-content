@@ -1,0 +1,9 @@
+question: What's the main advantage of a node-in-a-box over a raw implementation?
+answer: Easy installation and integrated application management
+wrong_answers:
+  - Stricter verification of consensus rules
+  - Direct access to Blockchain without storage
+  - Compatibility with a currency other than Bitcoin
+explanation: |
+  The node-in-a-box simplifies the installation and management of numerous ancillary applications via a unified Interface.
+reviewed: true

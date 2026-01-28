@@ -1,0 +1,9 @@
+question: Vem underhåller de DNS seed-servrar som används för inledande peer-identifiering?
+answer: Utvecklare av ekosystem
+wrong_answers:
+  - Internetleverantörer
+  - Satoshi Nakamoto
+  - Mining-pooler
+explanation: |
+  DNS seeds underhålls av välkända utvecklare (Wuille, Corallo, Dashjr, etc.) och tillhandahåller aktiva nod-IP:n för att initiera anslutningar.
+reviewed: true

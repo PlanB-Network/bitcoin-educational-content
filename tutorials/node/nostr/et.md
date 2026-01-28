@@ -1,12 +1,12 @@
 ---
-name: NOSTR
-
-description: Avasta ja hakka kasutama NOSTRit
+name: Nostr
+description: Avasta ja hakka kasutama Nostrit
 ---
 
-Selle juhendi lõpuks mõistate, mis on Nostr, olete loonud konto ja oskate seda kasutada.
 
-![Uus väljakutsuja on saabunud](assets/1.webp)
+![Uus väljakutsuja on saabunud](assets/cover.webp)
+
+*Selle juhendi lõpuks mõistate, mis on Nostr, olete loonud konto ja saate seda kasutada.*
 
 ## Mis on Nostr?
 
@@ -34,9 +34,9 @@ Avalik võti, npub, on unikaalne identifikaator, millele kõik kasutaja poolt av
 
 Kliendid on tarkvara, mis võimaldab suhelda Nostr'iga. Peamised kliendid on:
 
-> iOS: damus
-> Android: amethyst
-> Veeb: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Kliendid võimaldavad kasutajatel genereerida uue võtmepaari (võrdväärne konto loomisega) või autentida olemasoleva võtmepaariga.
 
@@ -46,7 +46,7 @@ Releejaamad on lihtsad serverid, millest võite igal ajal loobuda, kui teile nen
 
 > 💡 Pro näpunäide: Tasulised releejaamad on tavaliselt tõhusamad rämpsposti ja soovimatu sisu filtreerimisel.
 
-# Juhend
+## Juhend
 
 Nüüd teate piisavalt Nostr'ist, et alustada ja luua oma esimene identiteet sellel protokollil.
 

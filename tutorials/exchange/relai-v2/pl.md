@@ -24,25 +24,25 @@ Relai wyróżnia się prostotą, dostępnością i koncentracją na długotermin
 
 
 
-- Gdzie znaleźć:** Aplikacja jest dostępna zarówno w App Store (iOS), jak i Google Play Store (Android). Wyszukaj "Relai" i pobierz ją za darmo.
-- Szybka konfiguracja:** Po zainstalowaniu otwórz aplikację i postępuj zgodnie z instrukcjami konfiguracji.
+- **Gdzie znaleźć:** Aplikacja jest dostępna zarówno w App Store (iOS), jak i Google Play Store (Android). Wyszukaj "Relai" i pobierz ją za darmo.
+- **Szybka konfiguracja:** Po zainstalowaniu otwórz aplikację i postępuj zgodnie z instrukcjami konfiguracji.
 
 
 ### Krok 2: Utwórz swoje konto
 
 
 
-- Obowiązkowe KYC:** Relai wymaga teraz weryfikacji Know Your Customer (KYC). Przygotuj ważny dokument tożsamości i dowód Address.
-- Proces weryfikacji:** Prześlij swoje dokumenty, zrób selfie w celu potwierdzenia tożsamości i czekaj na zatwierdzenie (zazwyczaj w ciągu 24 godzin).
-- Dlaczego KYC?:** Zapewnia zgodność z przepisami finansowymi i zwiększa bezpieczeństwo wszystkich użytkowników.
+- **Obowiązkowe KYC:** Relai wymaga teraz weryfikacji Know Your Customer (KYC). Przygotuj ważny dokument tożsamości i dowód Address.
+- **Proces weryfikacji:** Prześlij swoje dokumenty, zrób selfie w celu potwierdzenia tożsamości i czekaj na zatwierdzenie (zazwyczaj w ciągu 24 godzin).
+- **Dlaczego KYC?** Zapewnia zgodność z przepisami finansowymi i zwiększa bezpieczeństwo wszystkich użytkowników.
 
 
 ### Krok 3: Zabezpieczenie Wallet
 
 
 
-- Self-Custody:** Relai oferuje Wallet bez nadzoru, co oznacza, że użytkownik kontroluje swoje klucze prywatne.
-- Kopia zapasowa kluczy:** Zapisz swoją 12-wyrazową frazę odzyskiwania na papierze (nie cyfrowo) i przechowuj ją bezpiecznie. Ma to kluczowe znaczenie dla uzyskania dostępu do środków w przypadku zgubienia lub kradzieży telefonu.
+- **Self-Custody:** Relai oferuje Wallet bez nadzoru, co oznacza, że użytkownik kontroluje swoje klucze prywatne.
+- **Kopia zapasowa kluczy:** Zapisz swoją 12-wyrazową frazę odzyskiwania na papierze (nie cyfrowo) i przechowuj ją bezpiecznie. Ma to kluczowe znaczenie dla uzyskania dostępu do środków w przypadku zgubienia lub kradzieży telefonu.
 
 
 ---
@@ -175,11 +175,11 @@ Relai wyświetli obowiązujące opłaty sieciowe.
 
 
 
-- Zachowaj bezpieczeństwo frazy odzyskiwania:** Przechowuj ją offline i unikaj udostępniania jej komukolwiek.
-- Włącz zabezpieczenia aplikacji:** Używaj silnego kodu PIN lub uwierzytelniania biometrycznego.
-- Dywersyfikacja przechowywania:** Rozważ użycie Hardware Wallet dla dużych ilości Bitcoin.
-- Regularnie aktualizuj aplikację:** Bądź chroniony dzięki najnowszym poprawkom zabezpieczeń i funkcjom.
-- Unikaj publicznych sieci Wi-Fi:** Uzyskuj dostęp do Wallet tylko w bezpiecznych sieciach.
+- Zachowaj bezpieczeństwo frazy odzyskiwania: **Przechowuj ją offline i unikaj udostępniania jej komukolwiek.**
+- **Włącz zabezpieczenia aplikacji:** Używaj silnego kodu PIN lub uwierzytelniania biometrycznego.
+- **Dywersyfikacja przechowywania:** Rozważ użycie Hardware Wallet dla dużych ilości Bitcoin.
+- **Regularnie aktualizuj aplikację:** Bądź chroniony dzięki najnowszym poprawkom zabezpieczeń i funkcjom.
+- **Unikaj publicznych sieci Wi-Fi:** Uzyskuj dostęp do Wallet tylko w bezpiecznych sieciach.
 
 
 ---
@@ -191,10 +191,10 @@ Relai wspiera również firmy, które chcą zainwestować w Bitcoin. Funkcje obe
 
 
 
-- Niestandardowe plany oszczędnościowe:** Plany dostosowane do potrzeb biznesowych.
-- Dostęp dla wielu użytkowników:** Umożliwia wielu członkom zespołu bezpieczne zarządzanie kontem.
-- Zwiększone limity:** Inwestuj większe kwoty w porównaniu do kont osobistych.
-- Dedykowane wsparcie:** Dostęp do priorytetowej obsługi klienta dla firm.
+- **Niestandardowe plany oszczędnościowe:** Plany dostosowane do potrzeb biznesowych.
+- **Dostęp dla wielu użytkowników:** Umożliwia wielu członkom zespołu bezpieczne zarządzanie kontem.
+- **Zwiększone limity:** Inwestuj większe kwoty w porównaniu do kont osobistych.
+- **Dedykowane wsparcie:** Dostęp do priorytetowej obsługi klienta dla firm.
 
 
 Aby skonfigurować konto biznesowe, skontaktuj się z zespołem pomocy technicznej Relai za pośrednictwem ich strony internetowej.
@@ -209,9 +209,9 @@ Relai oferuje ekscytujący program poleceń, w którym można zarobić Bitcoin, 
 
 
 
-- Udostępnij swój kod polecający:** Każdy użytkownik Relai otrzymuje unikalny kod polecający. Udostępnij go swoim znajomym.
-- Zarabiaj 10% prowizji:** Zarobisz 10% prowizji od transakcji znajomych, którzy użyją Twojego kodu.
-- Pasywny dochód Bitcoin:** Gdy Twoi znajomi będą kontynuować handel na Relai, Ty będziesz zarabiać Bitcoin. Jest to korzystne zarówno dla ciebie, jak i twoich znajomych.
+- **Udostępnij swój kod polecający:** Każdy użytkownik Relai otrzymuje unikalny kod polecający. Udostępnij go swoim znajomym.
+- **Zarabiaj 10% prowizji:** Zarobisz 10% prowizji od transakcji znajomych, którzy użyją Twojego kodu.
+- **Pasywny dochód Bitcoin:** Gdy Twoi znajomi będą kontynuować handel na Relai, Ty będziesz zarabiać Bitcoin. Jest to korzystne zarówno dla ciebie, jak i twoich znajomych.
 
 
 Zacznij udostępniać swój kod już dziś i rozwijaj swój stos Bitcoin bez wysiłku!
@@ -227,7 +227,7 @@ Zacznij udostępniać swój kod już dziś i rozwijaj swój stos Bitcoin bez wys
 
 
 - Relai pobiera konkurencyjną opłatę w wysokości 1% za transakcję lub 0,9%, jeśli użyjesz kodu polecającego, takiego jak `REL361712`. Opłaty są wyświetlane w przejrzysty sposób przed potwierdzeniem zakupu.
-- Zero opłat:** Transakcje do 100 EUR lub 100 CHF są całkowicie wolne od opłat.
+- **Zero opłat:** Transakcje do 100 EUR lub 100 CHF są całkowicie wolne od opłat.
 
 
 ### Czy mogę wstrzymać mój plan oszczędnościowy?

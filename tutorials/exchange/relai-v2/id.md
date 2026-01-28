@@ -16,21 +16,21 @@ Relai menonjol karena kesederhanaan, aksesibilitas, dan fokusnya pada tabungan B
 ### Langkah 1: Unduh Aplikasi Relai
 
 
-- Tempat Menemukannya:** Aplikasi ini tersedia di App Store (iOS) dan Google Play Store (Android). Cari "Relai" dan unduh secara gratis.
-- Penyiapan Cepat:** Setelah terinstal, buka aplikasi dan ikuti proses penyiapan yang dipandu.
+- **Tempat Menemukannya:** Aplikasi ini tersedia di App Store (iOS) dan Google Play Store (Android). Cari "Relai" dan unduh secara gratis.
+- **Penyiapan Cepat:** Setelah terinstal, buka aplikasi dan ikuti proses penyiapan yang dipandu.
 
 ### Langkah 2: Buat Akun Anda
 
 
-- KYC wajib:** Relai sekarang membutuhkan verifikasi Know Your Customer (KYC). Siapkan dokumen identitas diri yang valid dan bukti alamat.
-- Proses Verifikasi:** Unggah dokumen Anda, ambil foto selfie untuk konfirmasi identitas, dan tunggu persetujuan (biasanya dalam waktu 24 jam).
-- Mengapa KYC?:** Memastikan kepatuhan terhadap peraturan keuangan dan meningkatkan keamanan bagi semua pengguna.
+- **KYC wajib:** Relai sekarang membutuhkan verifikasi Know Your Customer (KYC). Siapkan dokumen identitas diri yang valid dan bukti alamat.
+- **Proses Verifikasi:** Unggah dokumen Anda, ambil foto selfie untuk konfirmasi identitas, dan tunggu persetujuan (biasanya dalam waktu 24 jam).
+- **Mengapa KYC?:** Memastikan kepatuhan terhadap peraturan keuangan dan meningkatkan keamanan bagi semua pengguna.
 
 ### Langkah 3: Amankan Dompet Anda
 
 
-- Penitipan Mandiri:** Relai menawarkan dompet tanpa penitipan, yang berarti Anda mengendalikan kunci pribadi Anda.
-- Cadangkan Kunci Anda:** Tuliskan 12 kata kata kunci pemulihan Anda di atas kertas (bukan secara digital) dan simpan dengan aman. Hal ini sangat penting untuk mengakses dana Anda jika ponsel Anda hilang atau dicuri.
+- **Penitipan Mandiri:** Relai menawarkan dompet tanpa penitipan, yang berarti Anda mengendalikan kunci pribadi Anda.
+- **Cadangkan Kunci Anda:** Tuliskan 12 kata kata kunci pemulihan Anda di atas kertas (bukan secara digital) dan simpan dengan aman. Hal ini sangat penting untuk mengakses dana Anda jika ponsel Anda hilang atau dicuri.
 
 ---
 ## Cara Membuat Rencana Tabungan Bitcoin
@@ -123,11 +123,11 @@ Relai akan menampilkan biaya jaringan yang berlaku.
 ## Kiat-kiat untuk Pengelolaan Bitcoin yang Aman
 
 
-- Simpan Frasa Pemulihan Anda dengan aman:** Simpan secara offline dan hindari membagikannya dengan siapa pun.
-- Aktifkan Keamanan Aplikasi:** Gunakan PIN yang kuat atau autentikasi biometrik.
-- Diversifikasi Penyimpanan:** Pertimbangkan untuk menggunakan dompet perangkat keras untuk Bitcoin dalam jumlah besar.
-- Perbarui Aplikasi Secara Teratur:** Tetap terlindungi dengan patch dan fitur keamanan terbaru.
-- Hindari Wi-Fi Publik:** Hanya akses dompet Anda di jaringan yang aman.
+- **Simpan Frasa Pemulihan Anda dengan aman:** Simpan secara offline dan hindari membagikannya dengan siapa pun.
+- **Aktifkan Keamanan Aplikasi:** Gunakan PIN yang kuat atau autentikasi biometrik.
+- **Diversifikasi Penyimpanan:** Pertimbangkan untuk menggunakan dompet perangkat keras untuk Bitcoin dalam jumlah besar.
+- **Perbarui Aplikasi Secara Teratur:** Tetap terlindungi dengan patch dan fitur keamanan terbaru.
+- **Hindari Wi-Fi Publik:** Hanya akses dompet Anda di jaringan yang aman.
 
 ---
 ## Akun Bisnis Relai
@@ -135,10 +135,10 @@ Relai akan menampilkan biaya jaringan yang berlaku.
 Relai juga mendukung bisnis yang ingin berinvestasi dalam Bitcoin. Fitur-fiturnya meliputi:
 
 
-- Paket Tabungan Khusus:** Paket yang disesuaikan dengan kebutuhan bisnis.
-- Akses Multi-Pengguna:** Memungkinkan beberapa anggota tim untuk mengelola akun dengan aman.
-- Batas yang Ditingkatkan:** Investasikan jumlah yang lebih besar dibandingkan dengan akun pribadi.
-- Dukungan Khusus:** Akses layanan pelanggan prioritas untuk bisnis.
+- **Paket Tabungan Khusus:** Paket yang disesuaikan dengan kebutuhan bisnis.
+- **Akses Multi-Pengguna:** Memungkinkan beberapa anggota tim untuk mengelola akun dengan aman.
+- **Batas yang Ditingkatkan:** Investasikan jumlah yang lebih besar dibandingkan dengan akun pribadi.
+- **Dukungan Khusus:** Akses layanan pelanggan prioritas untuk bisnis.
 
 Untuk membuat akun bisnis, hubungi tim dukungan Relai melalui situs web mereka.
 
@@ -148,9 +148,9 @@ Untuk membuat akun bisnis, hubungi tim dukungan Relai melalui situs web mereka.
 Relai menawarkan program rujukan yang menarik di mana Anda bisa mendapatkan Bitcoin dengan mengundang teman-teman Anda untuk menggunakan aplikasi ini. Begini cara kerjanya:
 
 
-- Bagikan Kode Referensi Anda:** Setiap pengguna Relai mendapatkan kode referensi yang unik. Bagikan dengan teman-teman Anda.
-- Dapatkan 10% dari Biaya:** Anda akan mendapatkan 10% biaya dari transaksi teman Anda ketika mereka menggunakan kode Anda.
-- Penghasilan Bitcoin Pasif:** Ketika teman Anda terus melakukan trading di Relai, Anda akan terus mendapatkan Bitcoin. Ini adalah keuntungan bagi Anda dan teman Anda.
+- **Bagikan Kode Referensi Anda:** Setiap pengguna Relai mendapatkan kode referensi yang unik. Bagikan dengan teman-teman Anda.
+- **Dapatkan 10% dari Biaya:** Anda akan mendapatkan 10% biaya dari transaksi teman Anda ketika mereka menggunakan kode Anda.
+- **Penghasilan Bitcoin Pasif:** Ketika teman Anda terus melakukan trading di Relai, Anda akan terus mendapatkan Bitcoin. Ini adalah keuntungan bagi Anda dan teman Anda.
 
 Mulailah membagikan kode Anda hari ini dan kembangkan tumpukan Bitcoin Anda dengan mudah!
 
@@ -161,7 +161,7 @@ Mulailah membagikan kode Anda hari ini dan kembangkan tumpukan Bitcoin Anda deng
 
 
 - Relai membebankan biaya yang kompetitif sebesar 1% per transaksi, atau 0,9% jika Anda menggunakan kode referral seperti `REL361712`. Biaya ditampilkan secara transparan sebelum Anda mengonfirmasi pembelian.
-- Tanpa Biaya:** Transaksi hingga €100 atau CHF 100 sepenuhnya bebas biaya.
+- **Tanpa Biaya:** Transaksi hingga €100 atau CHF 100 sepenuhnya bebas biaya.
 
 ### Dapatkah saya menghentikan sementara Rencana Tabungan saya?
 

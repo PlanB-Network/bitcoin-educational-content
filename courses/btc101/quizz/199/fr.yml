@@ -1,12 +1,10 @@
-question: Qu'est-ce que le Dollar Cost Average ?
-answer: Acheter de petites quantités de bitcoin à intervalles réguliers.
+question: Que sont le FOMO et le FUD ?
+answer: Des émotions qui peuvent conduire à des prises de décision impulsives et potentiellement nocives.
 wrong_answers:
-  - Acheter une grande quantité de bitcoin en une seule fois.
-  - Acheter du bitcoin uniquement lorsque le prix baisse.
-  - Acheter du bitcoin uniquement lorsque le prix monte.
-explanation: |
-  La technique du Dollar Cost Average implique d'acheter de 
-  petites quantités de bitcoin à intervalles réguliers. 
-  Cette méthode permet de lisser les fluctuations de prix au fil du 
-  temps et assure une croissance continue de la quantité de bitcoin possédée.
+  - Des types de portefeuilles Bitcoin.
+  - Des stratégies pour acheter du Bitcoin.
+  - Des réglementations liées au Bitcoin.
+explanation: >-
+  Le FOMO (Fear of Missing Out) et le FUD (Fear, Uncertainty, Doubt) sont des émotions qui peuvent conduire 
+  à des prises de décision impulsives et potentiellement nocives lors de l'achat de Bitcoin.
 reviewed: true

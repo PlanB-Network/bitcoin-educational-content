@@ -1,9 +1,9 @@
-question: Quel était le taux d'inflation au Zimbabwe en novembre 2008 ?
-answer: 79 600 000 000 %
+question: Quelle est la commande pour vérifier la quantité de bitcoins en circulation sur un nœud Bitcoin ?
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - 796 %
-  - 79 600 000 000 000 000 %
-  - 100 %
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  En novembre 2008, le taux d'inflation mensuel de la monnaie du Zimbabwe a atteint un pic de 79 600 000 000 %, ce qui a réduit la valeur du dollar zimbabwéen à 0.
+  La commande pour vérifier la quantité de bitcoins en circulation sur un nœud Bitcoin est bitcoin-cli gettxoutsetinfo. Cette commande offre transparence et vérifiabilité, renforçant ainsi la confiance dans le système Bitcoin.
 reviewed: true

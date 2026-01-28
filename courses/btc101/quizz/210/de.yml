@@ -1,9 +1,12 @@
-question: Welches Land hat Bitcoin als gesetzliches Zahlungsmittel anerkannt?
-answer: El Salvador.
+question: In welchen Bereichen wirft Bitcoin Fragen auf?
+answer: Kryptographie, Spieltheorie, Wirtschaft und Geldpolitik, Informatik, Philosophie, Energie, Gesetze und Regulierung.
 wrong_answers:
-  - Vereinigte Staaten.
-  - China.
-  - Indien.
-explanation: >-
-  El Salvador hat den mutigen Schritt unternommen, Bitcoin vollständig zu adoptieren und es als gesetzliches Zahlungsmittel zu deklarieren.
+  - Nur Informatik und Wirtschaft
+  - Nur Kryptographie und Spieltheorie.
+  - Nur Philosophie und Energie.
+explanation: |
+  Bitcoin ist ein multidisziplinäres Thema, das
+  Fragen in verschiedenen Bereichen aufwirft, einschließlich
+  Kryptographie, Spieltheorie, Wirtschaft und Geldpolitik,
+  Informatik, Philosophie, Energie, Gesetze und Regulierung.
 reviewed: true

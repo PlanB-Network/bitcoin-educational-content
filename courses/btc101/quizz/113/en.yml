@@ -1,13 +1,11 @@
-question: What prevents everyone from using the same Bitcoin wallet?
-answer: Different individuals need different use-cases.
+question: When is the first time that Bitcoin was used to purchase physical goods?
+answer: When Laszlo Hanyecz bought 2 pizzas for 10,000 BTC.
 wrong_answers:
-  - It is expensive to use a Bitcoin Wallet.
-  - It is illegal to use a Bitcoin Wallet.
-  - People will never agree on the name of such a wallet.
+  - When Hal Finney bought a car for 100,000 BTC.
+  - When Satoshi Nakamoto bought a house for 1,000,000,000 BTC.
+  - None of the other options.
 explanation: |
-  While one person might prioritize security, another might
-  value user-friendliness or specific features. Hence, a
-  single Bitcoin Wallet might not cater to everyone's
-  requirements, making it necessary for multiple wallet
-  options to exist.
+  The first time that Bitcoin was used to purchase physical
+  goods was when Laszlo Hanyecz bought 2 pizzas for 10,000
+  BTC, on 2010/05/22 which now known as Pizza Day
 reviewed: true

@@ -1,10 +1,8 @@
-question: KYC olmadan bitcoin edinmenin yollarından biri nedir?
-answer: Bitcoin ATM'ler.
+question: Bitcoin'ın benimsenme eğrisi neye benzer?
+answer: Bir S-eğrisi.
 wrong_answers:
-  - Broker platformları.
-  - DCA platformları.
-  - Banka havaleleri.
-explanation: |
-  Kurs metninde aşağıdakileri yapmanın çeşitli yolları olduğundan bahsedilmektedir
-  kYC olmadan Bitcoin edinmek, bunlardan biri de Bitcoin ATM'leridir.
+  - Bir U eğrisi.
+  - Bir V eğrisi.
+  - Bir W-eğrisi.
+explanation: >-
 reviewed: true

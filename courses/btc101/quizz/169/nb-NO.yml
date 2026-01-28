@@ -1,11 +1,9 @@
-question: Hvordan belønner Bitcoin-protokollen gruvearbeideren som finner en gyldig hash for neste blokk?
-answer: Med en belønning definert av konsensusreglene og transaksjonsgebyrene fra alle transaksjoner inkludert i den gyldige blokken
+question: Hva er en unik egenskap ved Bitcoin-protokollen?
+answer: Den opererer på en global skala, 24 timer i døgnet, 7 dager i uken.
 wrong_answers:
-  - Med en fast mengde Bitcoin
-  - Med en prosentandel av den totale Bitcoin-forsyningen
-  - Med transaksjonsgebyrene fra alle transaksjoner inkludert i den gyldige blokken
+  - Den opererer kun i løpet av vanlige arbeidstider.
+  - Den kontrolleres av en sentral myndighet.
+  - Den kan lett hackes.
 explanation: >-
-  Bitcoin-protokollen belønner gruvearbeideren som finner en gyldig hash for
-  neste blokk med en belønning hvis mengde er definert av konsensusreglene, samt
-  transaksjonsgebyrene fra alle transaksjoner inkludert i den gyldige blokken.
-reviewed: false
+  Bitcoin-protokollen er unik fordi den opererer på en global skala,
+  24 timer i døgnet, 7 dager i uken, noe som gjør regulering vanskelig for finansielle myndigheter.

@@ -1,0 +1,8 @@
+question: Kusudi kuu la kutumia hash160 (SHA-256 kisha RIPEMD-160) ni lipi wakati wa kuunda anwani za Bitcoin kutoka kwa funguo za umma?
+answer: Kuficha ufunguo wa umma hadi matumizi yatokee na kuunda anwani fupi na zinazoweza kudhibitiwa zaidi
+wrong_answers:
+  - Kusimba ufunguo wa faragha na kuzuia ufikiaji usioidhinishwa wa fedha za wallet
+  - Kwa generate sahihi ya kidijitali inayohitajika kwa ajili ya uthibitishaji wa miamala kwenye blockchain
+  - Ili kubadilisha sehemu za mkunjo wa duaradufu kuwa umbizo sahihi kwa shughuli za secp256k1
+explanation: |
+  Hash160 hutumikia kazi nyingi muhimu katika uundaji wa anwani za Bitcoin. Kwa kuweka ufunguo wa umma kwenye hashi, huweka ufunguo halisi wa umma ukiwa umefichwa hadi sarafu zitumike, na kutoa safu ya ziada ya usalama. Hashi pia hupunguza kwa kiasi kikubwa ukubwa kutoka baiti 33/65 hadi baiti 20 pekee, na kufanya anwani ziweze kudhibitiwa zaidi. Majibu yasiyo sahihi yanachanganya hili na usimbaji fiche wa ufunguo wa faragha (ambao haujafanywa), sahihi za kidijitali (ambazo hutumia shughuli tofauti za kriptografia), au umbizo la mkunjo (ambalo hutokea wakati wa usanidi wa SEC, si uundaji wa anwani).

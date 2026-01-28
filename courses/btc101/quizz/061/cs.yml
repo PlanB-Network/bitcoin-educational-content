@@ -1,11 +1,11 @@
-question: Jak se jmenuje událost, kdy je odměna za těžbu snížena na polovinu?
-answer: Halving
+question: Jak často je odměna za těžbu snížena na polovinu?
+answer: Každých 210 000 bloků.
 wrong_answers:
-  - Zdvojnásobení
-  - Čtvrtění
-  - Ztrojnásobení
+  - Každých 120 000 bloků.
+  - Každých 540 000 bloků.
+  - Každých 2 100 000 bloků.
 explanation: |
-  Událost, kdy je odměna za těžbu snížena na polovinu, se nazývá
-  halving. Tato událost dává křivce měnového vydávání
-  schodovitý tvar.
+  Odměna za těžbu je naprogramována tak, aby se každých 210 000
+  bloků snížila na polovinu, což je přibližně každé čtyři roky: událost
+  známá jako halving.
 reviewed: true

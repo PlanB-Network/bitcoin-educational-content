@@ -1,0 +1,9 @@
+question: Immanuel Kant 是哲學家嗎？
+answer: 德語。
+wrong_answers:
+  - 英語。
+  - 波蘭語。
+  - 荷蘭語。
+explanation: |
+  康德（Immanuel Kant，1724-1804 年）是德國哲學家，被認為是啟蒙運動中最重要的思想家之一。他發展了一種批判哲學，試圖調和理性主義與經驗主義。
+reviewed: false

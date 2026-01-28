@@ -1,12 +1,9 @@
-question: Cosa possono fare i miner per quelle centrali elettriche che non sono ancora collegate alla rete?
-answer: Possono agire come acquirenti di ultima istanza.
+question: Qual è uno dei motivi per cui Bitcoin è attraente per certi gruppi?
+answer: La sua capacità di offrire soluzioni come il denaro elettronico senza bisogno di fiducia, resistenza alla censura, o una politica monetaria trasparente e immutabile.
 wrong_answers:
-  - Possono fornire elettricità alle centrali elettriche.
-  - Possono collegare le centrali elettriche alla rete.
-  - Possono regolare il prezzo dell'elettricità.
-explanation: |
-  I miner possono agire come acquirenti di ultima istanza per le centrali elettriche che
-  non sono ancora collegate alla rete. Questo permette alle centrali
-  di assicurarsi finanziamenti anche prima di essere collegate alla
-  rete elettrica.
+  - È facile da contraffare e può creare soluzioni per ricevere più denaro con un semplice clic.
+  - È controllato da un'autorità centrale che distribuisce liberamente capitale agli utenti.
+  - Non è pseudoanonimo, quindi ogni utente è ben noto e fidato.
+explanation: >-
+  La natura decentralizzata di Bitcoin, lo pseudoanonimato e la resistenza alla censura lo rendono attraente per gruppi come tecnofili, cypherpunk, libertari e appassionati dell'oro.
 reviewed: true

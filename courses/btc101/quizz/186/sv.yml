@@ -1,8 +1,8 @@
-question: Vad är ett sätt att få bitcoins utan att köpa dem?
-answer: Acceptera dem som betalningsmedel för de produkter eller tjänster som du erbjuder.
+question: Vad är ett av de initiativ som bidrar till att göra Bitcoin-ekonomin mer tillgänglig och bekväm för alla?
+answer: BTCMap.
 wrong_answers:
-  - Låna dem av en vän och lämna aldrig tillbaka dem.
-  - Vinn dem i ett lotteri.
-  - Hitta dem på gatan.
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
 explanation: >-
 reviewed: true

@@ -1,0 +1,8 @@
+question: What are the three ways that closures can capture variables from their environment in Rust?
+answer: By immutable reference, by mutable reference, or by taking ownership
+wrong_answers:
+  - By value copying, by reference borrowing, or by pointer dereferencing
+  - By stack allocation, by heap allocation, or by static storage
+  - By shared access, by exclusive access, or by concurrent access
+explanation: |
+  Closures in Rust capture environment variables in exactly three ways: by immutable reference (when they only need to read), by mutable reference (when they need to modify), or by taking ownership (when they need to move the value, often for thread safety). The compiler automatically chooses the most restrictive method that satisfies the closure's needs, following the principle of least privilege.

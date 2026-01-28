@@ -1,0 +1,8 @@
+question: Bir Rust yöntemi, çağıranın sahipliğini korumasına izin verirken yapı örneğini değiştirmesi gerekiyorsa hangi parametre türünü kullanmalıdır?
+answer: "&mut öz"
+wrong_answers:
+  - "&self"
+  - kendi kendine
+  - mut self
+explanation: |
+  Çağıranın sahipliğini korumasına izin verirken bir yapı örneğini değiştirmesi gereken yöntemler, ilk parametre olarak `&mut self` kullanmalıdır. Bu, örneğe değiştirilebilir bir referans oluşturur ve metodun, mülkiyeti çağırandan almadan yapının alanlarını değiştirmesini sağlar. Self` kullanımı yalnızca örneğin okunmasına izin verir, `self` ise örneği tamamen tüketir ve `mut self` yöntem parametreleri için geçerli bir Rust sözdizimi değildir.

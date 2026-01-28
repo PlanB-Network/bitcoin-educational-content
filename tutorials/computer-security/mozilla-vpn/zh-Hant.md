@@ -18,7 +18,7 @@ description: 保護您的裝置和網際網路瀏覽資料。
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 基於這個原則，[Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) 是 Mozilla 基金會於 2020 年開發的開放原始碼 VPN 服務。它可在 .NET Framework 上使用：
 
@@ -153,7 +153,7 @@ Mozilla VPN 允許您以兩種格式選擇您的位置：
 
 
 
-- 單跳：將您電腦的 IP Address 重新定位，並將資料加密至特定選定區域的伺服器，例如白俄羅斯的索非亞。
+- 單跳：將您電腦的 IP Address 重新定位，並將資料加密至特定選定區域的伺服器，例如保加利亞的索非亞。
 
 
 
@@ -183,7 +183,7 @@ Mozilla VPN 允許您以兩種格式選擇您的位置：
 
 
 
-Mozilla VPN 永遠以確保用戶的機密性為目標，Mozilla VPN 具有 ** 終止切換 *** 系統，可在 VPN 因任何原因斷線時終止您的網際網路連線。這可以保護您的 IP Address 和其他個人資訊。
+Mozilla VPN 永遠以確保用戶的機密性為目標，Mozilla VPN 具有 **終止切換** 系統，可在 VPN 因任何原因斷線時終止您的網際網路連線。這可以保護您的 IP Address 和其他個人資訊。
 
 
 
@@ -191,4 +191,4 @@ Mozilla VPN 永遠以確保用戶的機密性為目標，Mozilla VPN 具有 ** �
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

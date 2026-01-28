@@ -1,0 +1,9 @@
+question: Apa risikonya jika Wallet bergantung pada node pihak ketiga?
+answer: Risiko pengawasan dan penyensoran
+wrong_answers:
+  - Risiko Double-spending otomatis
+  - Risiko kehilangan kunci pribadi
+  - Risiko kehilangan dan pemantauan
+explanation: |
+  Simpul pihak ketiga dapat menganalisis atau memblokir transaksi Anda, atau bahkan mengaitkan data Anda dengan identitas Anda.
+reviewed: true

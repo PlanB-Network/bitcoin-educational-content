@@ -1,0 +1,17 @@
+title: "Practical byzantine fault tolerance and proactive recovery"
+original_language: en
+authors:
+  - Miguel Castro
+  - Barbara Liskov
+abstract: |
+  Our growing reliance on online services accessible on the Internet demands highly available systems that provide correct service without interruptions. Software bugs, operator mistakes, and malicious attacks are a major cause of service interruptions and they can cause arbitrary behavior, that is, Byzantine faults. This article describes a new replication algorithm, BFT, that can be used to build highly available systems that tolerate Byzantine faults. BFT can be used in practice to implement real services: it performs well, it is safe in asynchronous environments such as the Internet, it incorporates mechanisms to defend against Byzantine-faulty clients, and it recovers replicas proactively. The recovery mechanism allows the algorithm to tolerate any number of faults over the lifetime of the system provided fewer than 1/3 of the replicas become faulty within a small window of vulnerability. BFT has been implemented as a generic program library with a simple interface. We used the library to implement the first Byzantine-fault-tolerant NFS file system, BFS. The BFT library and BFS perform well because the library incorporates several important optimizations, the most important of which is the use of symmetric cryptography to authenticate messages. The performance results show that BFS performs 2% faster to 24% slower than production implementations of the NFS protocol that are not replicated. This supports our claim that the BFT library can be used to build practical systems that tolerate Byzantine faults.
+publication_date: 2002-11-01
+paper_type: academic
+source: ACM
+type: SCIE
+category: COMPUTER SCIENCE, THEORY & METHODS
+topics:
+  - Byzantine Fault Tolerance
+  - Distributed Consensus Mechanisms
+pdf_url: http://www.pmg.csail.mit.edu/papers/bft-tocs.pdf
+id: 2c7b113f-d903-4b1d-9f7b-7cc33889d367

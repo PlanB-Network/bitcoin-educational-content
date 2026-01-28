@@ -1,11 +1,13 @@
-question: ¿Qué simboliza Bitcoin más allá de su tecnología?
-answer: Una revolución contra los sistemas financieros tradicionales y una alternativa basada en la transparencia, descentralización y soberanía individual.
+question: ¿Cuál es la principal desventaja de las monedas fiduciarias?
+answer: Su valor se erosiona constantemente por la inflación monetaria.
 wrong_answers:
-  - Una nueva forma de moneda digital que es más eficiente que las monedas tradicionales porque es más rápida.
-  - Una manera para que los individuos ganen dinero a través de la minería.
-  - Una herramienta para que los criminales realicen transacciones ilegales.
+  - No son fácilmente transportables.
+  - Su valor se aprecia constantemente por la inflación monetaria.
+  - No son divisibles.
 explanation: |
-  Más allá de su tecnología, Bitcoin simboliza una revolución
-  contra los sistemas financieros tradicionales: el protocolo
-  impone un nuevo sistema monetario sin ninguna entidad central.
+  La principal desventaja de las monedas fiduciarias, como el
+  dólar y el euro, es que su valor se erosiona constantemente
+  por la inflación monetaria. Esto se debe a la
+  devaluación causada por las entidades que las controlan (rey,
+  banco central, emperador, dictador).
 reviewed: true

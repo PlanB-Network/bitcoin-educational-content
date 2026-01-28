@@ -1,13 +1,10 @@
-question: What is a Bitcoin transaction?
-answer: A transfer of ownership of bitcoins, using cryptography.
+question: How do miners validate transactions and include them in a block?
+answer: Through the process of Proof of work.
 wrong_answers:
-  - A physical exchange of bitcoins, using a notary.
-  - A transfer of ownership of bitcoins, using a physical address.
-  - A transfer of ownership of bitcoins, using an email address.
-explanation: |
-  A Bitcoin transaction is a digital transfer of the
-  ownership of bitcoins, through the use of a Bitcoin address
-  derived thanks to the Elliptic Curve cryptography. This
-  address is unique to the wallet of the person receiving the
-  bitcoins.
+  - Through the process of Proof of stake.
+  - Through the process of Proof of authority.
+  - Through the process of Proof of burn.
+explanation: >-
+  Miners validate transactions and include them in a block through a process
+  called proof of work. This involves solving a cryptographic puzzle.
 reviewed: true

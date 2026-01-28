@@ -1,8 +1,8 @@
-question: Wat was de uitkomst van de blokkenoorlog in 2017?
-answer: Gebruikers en knooppunten verwierpen de voorgestelde verandering om de blokgrootte te vergroten en activeerden een update met de naam SegWit.
+question: Wat is de Coinbase Transaction?
+answer: De eerste transactie van het blok dat de beloning van de Miner bevat.
 wrong_answers:
-  - Gebruikers en knooppunten accepteerden de voorgestelde verandering om de blokgrootte te vergroten en activeerden een update met de naam SegWit.
-  - Gebruikers en knooppunten verwierpen de voorgestelde wijziging om de blokgrootte te vergroten en activeerden geen updates.
-  - Gebruikers en knooppunten accepteerden de voorgestelde wijziging om de blokgrootte te vergroten en activeerden geen updates.
+  - Een transactie uitgevoerd op de Exchange Coinbase.
+  - De tweede transactie van het blok met de hoogste vergoedingen.
+  - Een transactie uitgevoerd door de Miner nadat hij de beloning heeft ontvangen.
 explanation: >-
 reviewed: true

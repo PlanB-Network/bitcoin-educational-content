@@ -1,0 +1,9 @@
+question: Wat zijn de drie serveropties die beschikbaar zijn in Sparrow?
+answer: Public Server, Bitcoin Core, Private Electrum
+wrong_answers:
+  - RPC Direct, VPN, Tor
+  - Full node, Light Node, Mobile Node
+  - Core RPC, Lightning, ElectrumX
+explanation: |
+  Sparrow biedt drie serverkeuzes: Public Server, Bitcoin Core (RPC) en Private Electrum.
+reviewed: true

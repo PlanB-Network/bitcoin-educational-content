@@ -1,0 +1,9 @@
+question: Bitcoin 트랜잭션에서 가장 일반적으로 사용되는 사이해시 플래그는 무엇인가요?
+answer: SIGHASH_ALL
+wrong_answers:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - Sighash_anyonecanpay
+explanation: |
+  SIGHASH_ALL은 트랜잭션의 모든 입력과 출력을 포괄하는 기본 sighash 플래그로, 수정을 방지합니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Zgodnie z białą księgą Bitcoin, jakie rozwiązanie proponuje Satoshi Nakamoto, aby rozwiązać problem double-spending?
+answer: Rozproszony serwer znaczników czasu peer-to-peer wykorzystujący obliczeniowy dowód chronologicznej kolejności transakcji
+wrong_answers:
+  - Scentralizowany serwer z podpisami progowymi od wielu zaufanych organów
+  - Federacja stałych serwerów, gdzie większość musi zatwierdzić każdą transakcję
+  - System podpisu niewidomego z centralną zaufaną stroną do zapobiegania podwójnym wydatkom
+explanation: |
+  Satoshi Nakamoto wyraźnie zaproponował użycie "rozproszonego serwera znaczników czasu peer-to-peer do generate obliczeniowego dowodu chronologicznej kolejności transakcji", jak stwierdzono w białej księdze Bitcoin. Kluczowym słowem jest "rozproszony", co oznacza brak centralnego punktu kontroli. Błędne odpowiedzi reprezentują wcześniejsze nieudane próby stworzenia cyfrowego pieniądza, które opierały się na scentralizowanym lub częściowo scentralizowanym podejściu, co czyniło je podatnymi na cenzurę i niepowodzenia - dokładnie te problemy, które Bitcoin miał rozwiązać poprzez prawdziwą decentralizację.
+reviewed: false

@@ -1,0 +1,8 @@
+question: W jaki sposób wieloplatformowa kompatybilność Rust wpływa korzystnie na rozwój aplikacji Bitcoin w różnych środowiskach wdrożeniowych?
+answer: Umożliwia uruchamianie zunifikowanych baz kodu na platformach mobilnych, przeglądarkach internetowych za pośrednictwem WebAssembly i tradycyjnych systemach operacyjnych
+wrong_answers:
+  - Automatycznie obsługuje konwersje kursów kryptowalut na różnych rynkach regionalnych i w różnych walutach
+  - Zapewnia wbudowane protokoły synchronizacji blockchain, które działają identycznie we wszystkich architekturach sieciowych
+  - Oferuje natywną integrację z portfelami sprzętowymi i modułami bezpieczeństwa na każdej obsługiwanej platformie
+explanation: |
+  Wieloplatformowe możliwości Rust pozwalają programistom na pisanie aplikacji Bitcoin, które mogą być wdrażane w różnych środowiskach, w tym mobilnych (Android/iOS), przeglądarkach internetowych (poprzez kompilację WebAssembly) i tradycyjnych desktopowych systemach operacyjnych. Tę wszechstronność pokazują projekty takie jak Mutiny Wallet, który wykorzystuje wsparcie Rust dla WebAssembly do tworzenia portfeli Lightning, które działają bezpośrednio w przeglądarkach. Błędne odpowiedzi opisują funkcje, które nie są związane z kompatybilnością międzyplatformową - konwersja walut jest funkcją na poziomie aplikacji, protokoły blockchain dotyczą warstwy sieciowej, a integracja sprzętu wymaga raczej określonych interfejsów API niż ogólnego wsparcia międzyplatformowego.

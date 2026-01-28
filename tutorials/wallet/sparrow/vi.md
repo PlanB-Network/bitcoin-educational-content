@@ -1,5 +1,5 @@
 ---
-name: Chim sẻ Wallet
+name: Sparrow Wallet
 description: Cài đặt, cấu hình và sử dụng Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
@@ -26,7 +26,7 @@ Truy cập [trang tải xuống Sparrow Wallet chính thức](https://sparrowwal
 
 Điều quan trọng là phải kiểm tra tính toàn vẹn và tính xác thực của phần mềm trước khi cài đặt. Nếu bạn không biết cách thực hiện, bạn sẽ tìm thấy hướng dẫn đầy đủ tại đây:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sau khi Sparrow được cài đặt, bạn có thể bỏ qua màn hình giải thích ban đầu và đi thẳng đến màn hình quản lý kết nối.
 
@@ -69,9 +69,9 @@ Xin lưu ý rằng nếu bạn sử dụng nút Bitcoin Core đã cắt tỉa, b
 
 Để cấu hình nút Bitcoin Core, bạn có thể tham khảo một trong các hướng dẫn sau, tùy thuộc vào hệ điều hành của bạn:
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Trên Sparrow, hãy chuyển đến tab "*Bitcoin Core*".
 
@@ -95,13 +95,14 @@ Bạn cũng có thể thực hiện việc này thông qua đồ họa Interface
 
 Sau đó quay lại Sparrow Wallet và nhập đường dẫn đến tệp cookie của bạn, thường nằm trong cùng thư mục với `Bitcoin.conf`, tùy thuộc vào hệ điều hành của bạn:
 
-| **macOS** | ~/Thư viện/Hỗ trợ ứng dụng/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -123,13 +124,14 @@ server=1
 
 Sau khi chỉnh sửa tệp, hãy đảm bảo bạn lưu tệp vào thư mục phù hợp với hệ điều hành của bạn:
 
-| **macOS** | ~/Thư viện/Hỗ trợ ứng dụng/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Hoạt động này cũng có thể được thực hiện thông qua Bitcoin-QT Interface đồ họa Interface. Vào menu "*Settings*", sau đó "*Options...*", và kích hoạt tùy chọn "*Enable RPC server*" bằng cách đánh dấu vào ô tương ứng. Nếu tệp `Bitcoin.conf` không tồn tại, bạn có thể tạo tệp trực tiếp từ Interface này bằng cách nhấp vào "*Open Configuration File*".
 
@@ -220,7 +222,7 @@ Bạn có thể khắc nó trên giấy hoặc, để tăng thêm tính bảo m�
 
 Để biết thêm thông tin về cách lưu và quản lý cụm từ Mnemonic của bạn, tôi thực sự khuyên bạn nên làm theo hướng dẫn khác này, đặc biệt nếu bạn là người mới bắt đầu:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -228,7 +230,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Bạn cũng có thể chọn thêm passphrase BIP39 bằng cách nhấp vào hộp "*Sử dụng passphrase*". Cảnh báo: sử dụng passphrase có thể rất hữu ích, nhưng nếu bạn không hiểu cách thức hoạt động của nó, nó có thể rất nguy hiểm. Đó là lý do tại sao tôi thực sự khuyên bạn nên đọc bài viết lý thuyết ngắn này về chủ đề này:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Sau khi lưu Mnemonic và bất kỳ passphrase nào vào phương tiện vật lý, hãy nhấp vào "*Xác nhận sao lưu*".
 
@@ -264,7 +266,7 @@ Có hai cách chính để kết nối Hardware Wallet với Sparrow:
 
 Sparrow hỗ trợ tất cả các phương thức giao tiếp này và tương thích với hầu hết các ví phần cứng trên thị trường.
 
-Đối với hướng dẫn này, tôi sẽ sử dụng Ledger Nano S có cáp, nhưng quy trình tương tự ở chế độ Air-Gap. Bạn sẽ tìm thấy thông tin chi tiết cụ thể về Hardware Wallet của mình trong hướng dẫn chuyên sâu về Plan ₿ Network.
+Đối với hướng dẫn này, tôi sẽ sử dụng Ledger Nano S có cáp, nhưng quy trình tương tự ở chế độ Air-Gap. Bạn sẽ tìm thấy thông tin chi tiết cụ thể về Hardware Wallet của mình trong hướng dẫn chuyên sâu về Plan ₿ Academy.
 
 Trước khi bắt đầu, hãy đảm bảo rằng Wallet đã được cấu hình trên Hardware Wallet của bạn. Nếu bạn đang sử dụng kết nối có dây, hãy kết nối nó với máy tính qua cáp.
 
@@ -326,7 +328,7 @@ Nếu bạn đang sử dụng Hardware Wallet, điều rất quan trọng là ph
 
 ![Image](assets/fr/44.webp)
 
-Đối với người dùng Hardware Wallet Air-Gap, xác minh Address thay đổi tùy theo kiểu máy. Xem hướng dẫn Plan ₿ Network chuyên dụng để biết hướng dẫn chính xác.
+Đối với người dùng Hardware Wallet Air-Gap, xác minh Address thay đổi tùy theo kiểu máy. Xem hướng dẫn Plan ₿ Academy chuyên dụng để biết hướng dẫn chính xác.
 
 Sau khi giao dịch được người trả tiền phát sóng, bạn sẽ thấy giao dịch đó xuất hiện trong tab "*Giao dịch*". Bạn có thể nhấp vào đó để biết thêm chi tiết, chẳng hạn như txid.
 
@@ -380,7 +382,7 @@ Thao tác này sẽ đưa bạn đến trang nêu chi tiết Elements của giao
 
 Điều quan trọng là phải giữ nguyên Sighash mặc định. Để hiểu lý do, hãy xem khóa đào tạo này, trong đó tôi giải thích mọi thứ bạn cần biết về Sighash:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Trên màn hình tiếp theo, các tùy chọn sẽ khác nhau tùy theo loại Wallet bạn đang sử dụng:
 
@@ -460,4 +462,4 @@ Nếu bạn thấy hướng dẫn này hữu ích, tôi sẽ rất biết ơn n�
 
 Tôi cũng giới thiệu hướng dẫn khác này trong đó tôi giải thích cách cấu hình Hardware Wallet COLDCARD Q với Sparrow Wallet:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

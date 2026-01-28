@@ -17,12 +17,12 @@ description: Säilitage oma privaatsust ja konfidentsiaalsust.
 
 
 
-- Tasuta**: Whonix on avatud lähtekoodiga süsteem, mis on litsentseeritud täiesti tasuta. Seda arendatakse avatud lähtekoodiga, aktiivse ja läbipaistva kogukonnaga.
-- Privaatsus, turvalisus ja anonüümsus**: Whonixi peamine eesmärk on pakkuda üliturvalist keskkonda, kus kõik teie andmed on kaitstud ja teie suhtlus Tor-võrgu kaudu krüpteeritud.
-- Lihtne kasutada**: Whonix pakub intuitiivset, eelkonfigureeritud graafilist Interface, mis sobib isegi algajatele kasutajatele. Täiustatud kaitsest kasu saamiseks ei pea olema ekspert.
-- Ideaalne keskkond turvaliseks arendamiseks**: Whonix võimaldab teil programme arendada, testida, auditeerida või käivitada, ilma et te kunagi paljastaksite oma tegelikku IP Address või paljastaksite oma sirvimis- või võrgukommunikatsiooniharjumusi.
-- Ühekordsed seansid ja Live-režiim**: Whonixi saab käivitada Live-režiimis või ühekordsete masinate kaudu (nt **Qubes OS** kaudu), mis võimaldab kriitilisi ülesandeid täita ilma püsivaid jälgi jätmata, kui seanss on lõppenud.
-- Suhteliselt lihtne paigaldus**: Kiireks paigaldamiseks virtuaalmasinatesse (VirtualBox, KVM, Qubes) tarnitakse kasutusvalmis kujutised. Süsteem on dokumenteeritud ja seda uuendatakse regulaarselt.
+- **Tasuta**: Whonix on avatud lähtekoodiga süsteem, mis on litsentseeritud täiesti tasuta. Seda arendatakse avatud lähtekoodiga, aktiivse ja läbipaistva kogukonnaga.
+- **Privaatsus, turvalisus ja anonüümsus**: Whonixi peamine eesmärk on pakkuda üliturvalist keskkonda, kus kõik teie andmed on kaitstud ja teie suhtlus Tor-võrgu kaudu krüpteeritud.
+- **Lihtne kasutada**: Whonix pakub intuitiivset, eelkonfigureeritud graafilist Interface, mis sobib isegi algajatele kasutajatele. Täiustatud kaitsest kasu saamiseks ei pea olema ekspert.
+- **Ideaalne keskkond turvaliseks arendamiseks**: Whonix võimaldab teil programme arendada, testida, auditeerida või käivitada, ilma et te kunagi paljastaksite oma tegelikku IP Address või paljastaksite oma sirvimis- või võrgukommunikatsiooniharjumusi.
+- **Ühekordsed seansid ja Live-režiim**: Whonixi saab käivitada Live-režiimis või ühekordsete masinate kaudu (nt **Qubes OS** kaudu), mis võimaldab kriitilisi ülesandeid täita ilma püsivaid jälgi jätmata, kui seanss on lõppenud.
+- **Suhteliselt lihtne paigaldus**: Kiireks paigaldamiseks virtuaalmasinatesse (VirtualBox, KVM, Qubes) tarnitakse kasutusvalmis kujutised. Süsteem on dokumenteeritud ja seda uuendatakse regulaarselt.
 
 
 
@@ -56,9 +56,9 @@ Siin on soovitatavad tehnilised andmed, et Whonixi kasutamine oleks sujuv ja sta
 
 
 
-- Juhusjuurdepääsu mälu (RAM)**: soovitatakse tungivalt vähemalt **8 GB**. Mida rohkem RAM-i on, seda rohkem ressursse saate eraldada virtuaalmasinatele (Gateway ja Workstation), mis parandab jõudlust.
+- **Juhusjuurdepääsu mälu (RAM)**: soovitatakse tungivalt vähemalt **8 GB**. Mida rohkem RAM-i on, seda rohkem ressursse saate eraldada virtuaalmasinatele (Gateway ja Workstation), mis parandab jõudlust.
 - Vaba kettaruum**: palun lubage vähemalt 30 GB vaba kettaruumi**. See hõlmab ruumi, mis on vajalik kahe virtuaalse masina, süsteemifailide ja mis tahes andmete või vahekokkuvõtete jaoks.
-- Protsessor**: soovitatav on protsessor, millel on vähemalt **4 füüsilist tuuma** (8 loogilist niiti), eriti kui soovite paralleelselt kasutada teisi teenuseid või tööriistu.
+- **Protsessor**: soovitatav on protsessor, millel on vähemalt **4 füüsilist tuuma** (8 loogilist niiti), eriti kui soovite paralleelselt kasutada teisi teenuseid või tööriistu.
 
 
 
@@ -86,7 +86,7 @@ Kui olete faili alla laadinud, installige see nagu mis tahes muu tarkvara. Võtk
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Whonixi importimine
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix on midagi enamat kui lihtsalt operatsioonisüsteem: see on tõeline **turvaline keskkond**, mis on loodud teie anonüümsuse, privaatsuse ja tundliku tegevuse kaitsmiseks. Tänu Toril põhinevale arhitektuurile, arukale partitsioneerimisele Gateway ja Workstationi vahel ning eelinstalleeritud tööriistadele, nagu Tor Browser, KeePassXC ja Electrum, pakub see võtmetähtsusega lahendust kõigile, kes soovivad **onüümselt sirvida**, **tööd turvaliselt** või **käsitseda konfidentsiaalseid andmeid**.
 
@@ -244,4 +244,4 @@ Unix-süsteemi turvalisuse tugevdamiseks vaadake meie õpetust oma masina audite
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

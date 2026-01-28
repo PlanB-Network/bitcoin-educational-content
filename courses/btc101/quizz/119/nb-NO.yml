@@ -1,10 +1,12 @@
-question: Hva er BitcoinTalk?
-answer: Et diskusjonsforum for Bitcoin-brukere
+question: Hva er en Bitcoin-transaksjon?
+answer: En overføring av eierskap av Bitcoins, ved bruk av kryptografi.
 wrong_answers:
-  - En Bitcoin-mining programvare
-  - En Bitcoin-lommebok
-  - En Bitcoin-konferanse
+  - En fysisk utveksling av Bitcoins, ved bruk av notarius.
+  - En overføring av eierskap av Bitcoins, ved bruk av en fysisk adresse.
+  - En overføring av eierskap av Bitcoins, ved bruk av en e-postadresse.
 explanation: |
-  BitcoinTalk-forumet er et diskusjonsforum for Bitcoin-brukere. Det
-  ble opprettet av Satoshi Nakamoto den 22. november 2009.
+  En Bitcoin-transaksjon er en digital overføring av eierskap av Bitcoins,
+  ved bruk av en Bitcoin-adresse avledet takket være elliptisk kurvekryptografi.
+  Denne adressen er unik for Bitcoin-lommeboken til personen
+  som mottar Bitcoins.
 reviewed: true

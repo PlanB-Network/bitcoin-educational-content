@@ -1,12 +1,10 @@
-question: Was ist der Zweck von KYC-Regulierungen?
-answer: Die Bekämpfung der Finanzierung von Terrorismus, Steuerhinterziehung und Geldwäsche.
+question: Was ist eine der möglichen Konsequenzen, wenn man die Vorschriften seines Landes beim Kauf von Bitcoin nicht befolgt?
+answer: Sie könnten sich selbst einem Risiko aussetzen.
 wrong_answers:
-  - Den Preis von Bitcoin zu erhöhen und den Nutzer mehr Steuern zahlen zu lassen.
-  - Die Versorgung von Bitcoin zu kontrollieren.
-  - Zu verhindern, dass Menschen Bitcoin kaufen.
+  - Sie könnten den Preis von Bitcoin erhöhen.
+  - Sie könnten die Versorgung mit Bitcoin kontrollieren.
+  - Sie könnten verhindern, dass andere Bitcoin kaufen.
 explanation: |
-  Der Kursinhalt erklärt, dass Know Your Customer (KYC)
-  Regulierungen verlangen, dass Nutzer sich identifizieren, um
-  die Finanzierung von Terrorismus, Steuerhinterziehung und
-  Geldwäsche zu bekämpfen.
+  Im Kursmaterial wird erwähnt, dass das Nichtbefolgen der Vorschriften
+  Ihres Landes beim Kauf von Bitcoin Sie einem Risiko aussetzen kann.
 reviewed: true

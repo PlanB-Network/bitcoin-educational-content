@@ -1,0 +1,8 @@
+question: Elements 使用何種加密技術隱藏交易金額，同時仍允許網路驗證？
+answer: Pedersen 承諾
+wrong_answers:
+  - Merkle Tree 雜湊
+  - 橢圓曲線簽章
+  - SHA-256 加密
+explanation: |
+  Pedersen 承諾是 Elements' Confidential Transactions 中用來隱藏交易金額的特定加密技術。這些承諾以加密承諾取代可見的金額，但仍可由驗證者進行數學驗證，而不會揭露實際數值。Merkle Tree Hashing 用於在區塊中組織交易資料，Elliptic Curve Signatures 用於交易授權，SHA-256 也是一種散列演算法，但這些都無法像 Pedersen Commitments 一樣，在隱藏交易金額的同時維持驗證能力。

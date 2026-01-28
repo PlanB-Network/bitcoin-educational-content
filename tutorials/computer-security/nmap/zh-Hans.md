@@ -7,7 +7,7 @@ description: 掌握用于网络映射和漏洞扫描的 Nmap
 
 
 
-*本教程基于 Mickael Dorigny 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文有改动。
+*本教程基于 Mickael Dorigny 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文有改动。*
 
 
 
@@ -61,9 +61,9 @@ Nmap 的优势很多：
 
 
 
-- 功能强大、灵活**：Nmap 可以扫描大型网络并使用高级检测技术。它支持 UDP、TCP、ICMP、IPv4 和 IPv6，可以执行版本检测、漏洞扫描或特定协议交互。它的架构是模块化的，这主要归功于 NSE（Nmap 脚本引擎）脚本，我们将在本教程稍后介绍。
-- 易于使用**：官方文档丰富且质量上乘。众多社区资源也可帮助您开始使用。
-- 知名度和寿命**：Nmap 自 1998 年以来一直是该领域的参考工具。本次更新时的当前版本为 7.95。虽然有其他工具可用于特定任务，但 Nmap 仍是网络映射和分析的必备工具。
+- 功能强大、灵活：Nmap 可以扫描大型网络并使用高级检测技术。它支持 UDP、TCP、ICMP、IPv4 和 IPv6，可以执行版本检测、漏洞扫描或特定协议交互。它的架构是模块化的，这主要归功于 NSE（Nmap 脚本引擎）脚本，我们将在本教程稍后介绍。
+- 易于使用：官方文档丰富且质量上乘。众多社区资源也可帮助您开始使用。
+- **知名度和寿命**：Nmap 自 1998 年以来一直是该领域的参考工具。本次更新时的当前版本为 7.95。虽然有其他工具可用于特定任务，但 Nmap 仍是网络映射和分析的必备工具。
 
 
 
@@ -87,7 +87,7 @@ Nmap 是少数几个在公众中享有一定知名度的安全工具之一。它
 
 
 
-**反馈
+**反馈**
 
 
 
@@ -133,7 +133,7 @@ Nmap 的使用类似于传统的二进制文件，如 `ls` 或 `ip`。某些高�
 
 - 它可以在短时间内发送**万甚至数百万个数据包**，从而使某些网络基础设施达到饱和状态。
 - 它可以 generate **畸形或非标准**数据包，可能会破坏某些设备（尤其是工业系统）。
-- 它可以产生类似攻击的行为**，从而触发安全系统（防火墙、IDS/IPS 等）的警报。
+- 它可以产生类似攻击的行为，从而触发安全系统（防火墙、IDS/IPS 等）的警报。
 
 
 
@@ -209,7 +209,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-*注意："-sP "选项已过时，由"-sn "取代。
+**注意：**"-sP "选项已过时，由"-sn "取代。
 
 
 
@@ -253,7 +253,7 @@ Nmap 的优点是实事求是：它的结果可以确定具体的结论，与任
 
 
 
-Nmap 有许多有用的功能，可用于安全评估**、渗透测试（pentests），不幸的是，也可用于攻击者。
+Nmap 有许多有用的功能，可用于安全评估、渗透测试（pentests），不幸的是，也可用于攻击者。
 
 
 
@@ -463,7 +463,7 @@ Nmap 已在 Windows 上安装。您可以按照本教程以与 Linux 完全相�
 
 
 
-但顺便问一下，使用 Nmap 时，**是否有必要提升系统的本地权限？ **这取决于**。
+但顺便问一下，使用 Nmap 时，**是否有必要提升系统的本地权限？**这取决于**具体情况**。
 
 
 
@@ -485,25 +485,25 @@ Nmap 已在 Windows 上安装。您可以按照本教程以与 Linux 完全相�
 
 
 
-- 构建 "原始 "网络数据包**：Nmap 能够使用多种扫描方法，包括高级数据包操作和构建。例如，当我们要执行 TCP SYN 扫描时，就会遇到这种情况，这种扫描不遵守 TCP 交换的经典_三方握手_。要做到这一点，Nmap 需要使用操作系统原生函数以外的函数，这些函数只知道如何遵守网络通信中的良好做法（它调用了上面看到的 "Npcap "和 "libcap "库）。正因为 Nmap 不按 "标准 "方式行事，所以它才能推断出操作系统、服务和某些漏洞的某些信息。
+- 构建**原始**网络数据包：Nmap 能够使用多种扫描方法，包括高级数据包操作和构建。例如，当我们要执行 TCP SYN 扫描时，就会遇到这种情况，这种扫描不遵守 TCP 交换的经典*三方握手*。要做到这一点，Nmap 需要使用操作系统原生函数以外的函数，这些函数只知道如何遵守网络通信中的良好做法（它调用了上面看到的**Npcap**和**libcap**库）。正因为 Nmap 不按**标准**方式行事，所以它才能推断出操作系统、服务和某些漏洞的某些信息。
 
 
 
 
 
-- 监听网络通信**：Nmap 的某些选项要求它监听网络以获取某些信息。这种操作在操作系统中被认为是敏感的，因为它还允许你监听系统中其他应用程序的通信。与 Wireshark 一样，Nmap 也需要特定权限才能执行此操作，而直接进入特权会话更容易获得这些权限。
+- 监听网络通信：Nmap 的某些选项要求它监听网络以获取某些信息。这种操作在操作系统中被认为是敏感的，因为它还允许你监听系统中其他应用程序的通信。与 Wireshark 一样，Nmap 也需要特定权限才能执行此操作，而直接进入特权会话更容易获得这些权限。
 
 
 
 
 
-- 监听特权端口**：在操作系统中，0 到 1024 端口（TCP 和 UDP）被称为特权端口，也就是说，它们被保留给非常特殊的用途，因此受到保护。虽然这个理由在今天有些过时，但要监听这些端口仍然需要一定的权限，Nmap 可能必须这样做，这取决于它将如何使用。
+- 监听特权端口：在操作系统中，0 到 1024 端口（TCP 和 UDP）被称为特权端口，也就是说，它们被保留给非常特殊的用途，因此受到保护。虽然这个理由在今天有些过时，但要监听这些端口仍然需要一定的权限，Nmap 可能必须这样做，这取决于它将如何使用。
 
 
 
 
 
-- 发送 UDP 数据包：** 同样，在 UDP 端口（无状态协议）上监听网络应用程序需要操作系统的特权权限。因此，如果您想执行 UDP 扫描，则需要特权会话，Nmap 必须监听响应才能分析扫描的回复。
+- 发送 UDP 数据包：**同样，在 UDP 端口（无状态协议）上监听网络应用程序需要操作系统的特权权限。因此，如果您想执行 UDP 扫描，则需要特权会话，Nmap 必须监听响应才能分析扫描的回复。**
 
 
 
@@ -562,18 +562,18 @@ Nmap 已在 Windows 上安装。您可以按照本教程以与 Linux 完全相�
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")** ：黑客培训平台 Hack The Box 不断提供易受攻击的系统，供您随意攻击。该平台提供数百个系统，但更新的 20 台机器全年免费提供，可通过 OpenVPN VPN 访问。
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")：黑客培训平台 Hack The Box 不断提供易受攻击的系统，供您随意攻击。该平台提供数百个系统，但更新的 20 台机器全年免费提供，可通过 OpenVPN VPN 访问。
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** ：该平台提供大量故意造成漏洞的系统供下载，可通过 VirtualBox（也是免费解决方案）或其他方式使用。下载后，无需 VPN - 一切都在本地进行。
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")：该平台提供大量故意造成漏洞的系统供下载，可通过 VirtualBox（也是免费解决方案）或其他方式使用。下载后，无需 VPN - 一切都在本地进行。
 
 
 
 
-此外，您还可以在自己喜欢的操作系统上***创建一个虚拟机，并在上面安装各种服务作为测试目标。这样做的好处是，在扫描过程中，你还能看到服务器端发生了什么，尤其是通过 Wireshark，当我们进行更高级的测试时，你还能参与本地防火墙的工作。
+此外，您还可以在自己喜欢的操作系统上**创建一个虚拟机，并在上面安装各种服务作为测试目标**。这样做的好处是，在扫描过程中，你还能看到服务器端发生了什么，尤其是通过 Wireshark，当我们进行更高级的测试时，你还能参与本地防火墙的工作。
 
 
 
@@ -815,7 +815,7 @@ Nmap 扫描目标的 dNS 解析度
 
 
 
-在上面的截图中，我们看到了目标主机**发送的 TCP SYN/ACK 数据包。端口处于活动状态，并暴露了一项服务。Nmap 确认收到响应，然后终止连接（TCP RST/ACK）。 **这就是它如何知道 TCP/22 端口处于活动状态的**。
+在上面的截图中，我们看到了目标主机**发送的 TCP SYN/ACK 数据包。端口处于活动状态，并暴露了一项服务。Nmap 确认收到响应，然后终止连接（TCP RST/ACK）。这就是它如何知道 TCP/22 端口处于活动状态的**。
 
 
 
@@ -913,7 +913,7 @@ UDP 的第二个难点是**服务并不总是响应传入的数据包**，原因
 
 
 
-让我们仔细看看 Wireshark 的捕获，它显示了 UDP 中***的三种可能情况：
+让我们仔细看看 Wireshark 的捕获，它显示了 UDP 中的三种可能情况：
 
 
 
@@ -976,7 +976,7 @@ UDP 的第二个难点是**服务并不总是响应传入的数据包**，原因
 
 
 
-**如何选择这些端口？
+**如何选择这些端口？**
 
 
 
@@ -1056,11 +1056,11 @@ nmap -sU 192.168.1.19 -p 161,23,69
 
 
 
-*对指定端口进行 Nmap TCP 扫描的结果。
+**对指定端口进行 Nmap TCP 扫描的结果。**
 
 
 
-**扫描一系列端口
+**扫描一系列端口**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**TCP和UDP端口扫描
+**TCP和UDP端口扫描**
 
 
 
@@ -1134,7 +1134,7 @@ sudo nmap 192.168.1.19 -sT -sU -p U:161,T:22
 
 
 
-**扫描所有端口
+**扫描所有端口**
 
 
 
@@ -1235,7 +1235,7 @@ nmap 192.168.1.19 -p-
 
 
 
-CIDR（无类域间路由**）是指定网络范围及其范围（使用掩码）的 "经典 "符号。例如，"192.168.0.0/24 "是十进制掩码符号 "255.255.255.0 "的 "翻译"。
+CIDR（无类域间路由）是指定网络范围及其范围（使用掩码）的 "经典 "符号。例如，"192.168.0.0/24 "是十进制掩码符号 "255.255.255.0 "的 "翻译"。
 
 
 
@@ -1347,7 +1347,7 @@ Nmap done: 512 IP addresses (5 hosts up) scanned in 21.43 seconds
 
 
 
-**为什么要将 TCP 数据包发送到端口作为网络发现的一部分？
+**为什么要将 TCP 数据包发送到端口作为网络发现的一部分？**
 
 
 
@@ -1371,7 +1371,7 @@ Nmap done: 512 IP addresses (5 hosts up) scanned in 21.43 seconds
 
 
 
-您可能已经注意到，默认情况下，Nmap 会在发现活动主机后**执行端口扫描，这会增加大量数据包并等待扫描响应。如果您的网络上有 5 台主机，Nmap 将尝试检查大约 5,000 个端口的状态，这将花费更长的时间。
+您可能已经注意到，默认情况下，Nmap 会在发现活动主机后**执行端口扫描**，这会增加大量数据包并等待扫描响应。如果您的网络上有 5 台主机，Nmap 将尝试检查大约 5,000 个端口的状态，这将花费更长的时间。
 
 
 
@@ -1379,7 +1379,7 @@ Nmap done: 512 IP addresses (5 hosts up) scanned in 21.43 seconds
 
 
 
-如果我们只想知道哪些主机可以访问，而不想知道它们提供的服务和端口，那么我们可以使用"-sn "选项，只使用 ICMP Echo（ping）和 ARP 请求**进行扫描。换句话说，就是完全禁止端口扫描：
+如果我们只想知道哪些主机可以访问，而不想知道它们提供的服务和端口，那么我们可以使用"-sn"选项，只使用 ICMP Echo（ping）和 ARP 请求**进行扫描**。换句话说，就是完全禁止端口扫描：
 
 
 
@@ -2165,31 +2165,31 @@ nmap -sV -sC -p- 192.168.0.0/24 192.168.1.13 192.168.2.10-20 --exclude 192.168.0
 
 
 
-- 覆盖范围有限**：尽管 Nmap 的 NSE 脚本功能强大，但与其他专门的漏洞发现工具相比，其测试覆盖范围可能有限。可用的 NSE 脚本可能无法覆盖某些漏洞，如 Active Directory 漏洞、敏感数据暴露或更高级的网络应用程序漏洞。
+- **覆盖范围有限**：尽管 Nmap 的 NSE 脚本功能强大，但与其他专门的漏洞发现工具相比，其测试覆盖范围可能有限。可用的 NSE 脚本可能无法覆盖某些漏洞，如 Active Directory 漏洞、敏感数据暴露或更高级的网络应用程序漏洞。
 
 
 
 
 
-- 漏洞复杂性**：某些类型的漏洞可能因其复杂性而很难用 NSE 脚本检测到。例如，需要与远程服务进行复杂交互的漏洞可能无法被 Nmap 有效检测到（如文件共享中的过大权限或网络应用程序中的权限控制漏洞）。
+- 漏洞复杂性：某些类型的漏洞可能因其复杂性而很难用 NSE 脚本检测到。例如，需要与远程服务进行复杂交互的漏洞可能无法被 Nmap 有效检测到（如文件共享中的过大权限或网络应用程序中的权限控制漏洞）。
 
 
 
 
 
-- 被动检测**：Nmap 主要通过主动扫描来检测漏洞，这意味着如果不与目标主机建立主动连接，它可能无法有效地检测潜在漏洞。因此，在主动扫描过程中没有表现出来的漏洞可能会被遗漏（如网络应用程序中的代码注入）。
+- 被动检测：Nmap 主要通过主动扫描来检测漏洞，这意味着如果不与目标主机建立主动连接，它可能无法有效地检测潜在漏洞。因此，在主动扫描过程中没有表现出来的漏洞可能会被遗漏（如网络应用程序中的代码注入）。
 
 
 
 
 
-- 依赖更新**：Nmap的NSE脚本[数据库](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/)在不断发展，但在发现新漏洞和向Nmap添加相应脚本之间可能会有延迟。因此，Nmap 可能并不总是最新的漏洞。
+- 依赖更新：Nmap的NSE脚本[数据库](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/)在不断发展，但在发现新漏洞和向Nmap添加相应脚本之间可能会有延迟。因此，Nmap 可能并不总是最新的漏洞。
 
 
 
 
 
-- 假阳性和假阴性**：与任何安全工具一样，Nmap 的 NSE 脚本可能产生假阳性（错误的漏洞警报）或假阴性（未检测到的真实漏洞）。在分析 Nmap 结果时要注意这一点。
+- 假阳性和假阴性：与任何安全工具一样，Nmap 的 NSE 脚本可能产生假阳性（错误的漏洞警报）或假阴性（未检测到的真实漏洞）。在分析 Nmap 结果时要注意这一点。
 
 
 
@@ -2238,23 +2238,24 @@ Nmap 的 NSE 脚本允许您以高度灵活的方式扩展其功能。它们是�
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| 类别 | 描述 |
+|----------------|-------------|
+| **auth** | 包含与服务身份验证相关的脚本，包括匿名访问或用户枚举。示例：`oracle-enum-users`、`ftp-anon`。 |
+| **broadcast** | 包含与网络广播操作相关的脚本，特别是为了利用和发现某些基于广播的服务、主机或协议（IPv6、网络唤醒、IGMP 等）。示例：`broadcast-dhcp6-discover`、`broadcast-ospf2-discover`。 |
+| **brute** | 包含与服务身份验证暴力破解操作相关的脚本（暴力破解 [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/)、MSSQL 等）。示例：`ssh-brute`、`vnc-brute`。 |
+| **default** | 包含在默认情况下使用的脚本（使用 `-sC`）。使用多个标准来验证脚本是否进入此类别，包括执行速度、输出结构、测试可靠性、“侵入性”或“风险性”等。 |
+| **discovery** | 包含与网络和服务高级发现相关的脚本。例如，其中包括 SMB 共享内容的枚举、VNC 服务的版本、SNMP 查询等。示例：`mysql-info`、`http-security-headers`。 |
+| **dos** | 包含可能导致拒绝服务（denial of service）的脚本。这些脚本可能是为了利用拒绝服务漏洞而创建的，或者是副作用为导致拒绝服务的脚本。因此请谨慎使用（它们被排除在 `default` 类别之外）。示例：`http-slowloris`、`ipv6-ra-flood`。 |
+| **exploit** | 包含专门为直接利用漏洞而创建的脚本。示例：`http-shellsock`、`smb-vuln-ms08-067`。 |
+| **external** | 包含需要使用第三方资源（如在线信息库）的脚本。这尤其表示尝试向外部连接（注意保密性）。示例：`whois-ip`、`dns-blacklist`、`ip-geolocation-geoplugin`。 |
+| **fuzzer** | 包含设计用于向服务发送非预期帧、数据包或参数的脚本。这尤其允许通过引起错误或功能故障来获取漏洞线索或技术信息。示例：`dns-fuzz`、`http-form-fuzzer`。 |
+| **intrusive** | 包含在可用性或检测方面被分类为“有风险”的脚本。它们可能导致系统崩溃或被安全解决方案检测为恶意脚本。这是与 `safe` 相反的类别。示例：`smtp-brute`、`smb-vuln-ms08-067`、`smb-psexec`。 |
+| **malware** | 包含设计用于检测恶意软件特征元素的脚本，例如已知后门程序常用的监听端口。示例：`ftp-proftpd-backdoor`、`smtp-strangeport`。 |
+| **safe** | 包含在检测或稳定性方面被视为安全的脚本。这是与 `intrusive` 相反的类别，其中绝大多数是用于版本识别或配置元素调查的高级脚本。示例：`html-title`、`smb2-security-mode`、`ms-sql-info`。 |
+| **version** | 包含允许高级版本检测的脚本。当版本检测需要稍微复杂一些的操作时，它们可以作为之前研究的 Probes 和 Matchs 的补充。示例：`http-php-version`、`vmware-version`。 |
+| **vuln** | 包含设计用于检测已知漏洞 (CVE) 存在但不进行利用的脚本（与 `exploit` 类别相反）。它们通常仅限于报告服务的“易受攻击”状态与否。示例：`smb-vuln-ms17-010` (eternal blue)、`http-phpmyadmin-dir-traversal`。 |
 
 从技术上讲，脚本所属的类别直接在其代码中标明。
 
@@ -3263,7 +3264,7 @@ nmap -sV 10.10.10.0/24 --max-rate 300
 
 
 
-对于 _timeouts_，这是**无响应超时**，Nmap 将停止等待响应并认为服务或主机不可达。对于 _retry_（重试），这是 Nmap 在继续执行操作前**连续尝试操作的次数。
+对于 *timeouts*，这是**无响应超时**，Nmap 将停止等待响应并认为服务或主机不可达。对于 *retry*（重试），这是 Nmap 在继续执行操作前**连续尝试操作的次数**。
 
 
 

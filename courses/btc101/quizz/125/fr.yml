@@ -1,9 +1,12 @@
-question: Quelle est la date du dernier message privé connu de Satoshi Nakamoto par email ?
-answer: 23 avril 2011
+question: Quelle est l'importance de la répartition géographique des nœuds Bitcoin ?
+answer: Cela rend pratiquement impossible de détruire toutes les copies de la blockchain.
 wrong_answers:
-  - 12 décembre 2010
-  - 8 janvier 2009
-  - 31 octobre 2008
+  - Cela détermine le prix du Bitcoin dans différentes régions.
+  - Cela affecte la vitesse des transactions Bitcoin.
+  - Cela détermine le nombre de bitcoins qui peuvent être minés dans une région.
 explanation: |
-  La date du dernier message privé connu de Satoshi Nakamoto par email est le 23 avril 2011. Il a été envoyé au développeur Mike Hearn.
+  La répartition géographique des nœuds Bitcoin rend
+  pratiquement impossible de détruire toutes les copies de la
+  blockchain. Étant donné que les nœuds sont dispersés, il est difficile de
+  tous les saisir physiquement.
 reviewed: true

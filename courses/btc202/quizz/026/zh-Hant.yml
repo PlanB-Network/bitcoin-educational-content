@@ -1,0 +1,9 @@
+question: 誰發明了簡化付款驗證 (SPV) 的概念？
+answer: Satoshi 中本
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Pieter Wuille
+explanation: |
+  SPV 在 Satoshi Nakamoto 的白皮書第 8 部分中提出。
+reviewed: true

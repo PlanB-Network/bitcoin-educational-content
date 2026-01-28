@@ -1,0 +1,9 @@
+question: Кой протокол се използва за свързване на IP адрес с MAC адрес в Ethernet мрежа?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Протоколът Address Resolution Protocol (ARP) съпоставя IP адреси с MAC адреси в локалните мрежи.
+reviewed: false

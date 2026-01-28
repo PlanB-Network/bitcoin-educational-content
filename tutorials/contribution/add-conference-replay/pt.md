@@ -10,13 +10,13 @@ Você quer adicionar a reprise da sua conferência sobre Bitcoin no site da Rede
 
 No entanto, se você deseja adicionar uma conferência que ocorrerá no futuro, aconselho que leia este outro tutorial no qual explicamos como adicionar um novo evento ao site.
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
 - Primeiro, você precisa ter uma conta no GitHub. Se não sabe como criar uma conta, fizemos um tutorial detalhado para orientá-lo.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) na seção `resources/conference/`:
@@ -69,7 +69,7 @@ tags:
 
 ![conference](assets/09.webp)
 Se você ainda não possui um identificador "*project*" para sua organização, pode adicioná-lo seguindo este outro tutorial.
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Uma vez que tenha terminado de fazer alterações neste arquivo, salve-as clicando no botão `Commit changes...`:
 ![conferência](assets/10.webp)
@@ -81,7 +81,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conferência](assets/13.webp)
 - Clique na sua foto de perfil do GitHub no canto superior direito, depois em `Your Repositories`:
 ![conferência](assets/14.webp)
-- Selecione o seu fork do repositório PlanB Network:
+- Selecione o seu fork do repositório Plan ₿ Academy:
 ![conferência](assets/15.webp)
 - Você deve ver uma notificação no topo da janela com o seu novo branch. Provavelmente se chama `patch-1`. Clique nele:
 ![conferência](assets/16.webp)
@@ -103,7 +103,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conferência](assets/24.webp)
 - Clique no botão `Add file`, depois em `Upload files`:
 ![conferência](assets/25.webp)
-- Uma nova página será aberta. Arraste e solte uma imagem que represente sua conferência e será exibida no site da PlanB Network: ![conferência](assets/26.webp)
+- Uma nova página será aberta. Arraste e solte uma imagem que represente sua conferência e será exibida no site da Plan ₿ Academy: ![conferência](assets/26.webp)
 - Pode ser um logo, uma miniatura ou até mesmo um pôster:
 ![conferência](assets/27.webp)
 - Uma vez que a imagem esteja carregada, verifique se a caixa `Commit directly to the patch-1 branch` está marcada, depois clique em `Commit changes`:
@@ -177,7 +177,7 @@ Palestrante: Satoshi Nakamoto
 ```
 
 ![conference](assets/37.webp)
-- No início do seu documento, na "front matter", preencha o campo `name:` com o nome da sua conferência e o ano das reprises. No campo `description:`, escreva uma breve descrição do seu evento no idioma do arquivo. Por exemplo, para um arquivo chamado `pt.md`, a descrição deve ser em Português. A equipe da PlanB Network cuidará da tradução da sua descrição usando o modelo deles.
+- No início do seu documento, na "front matter", preencha o campo `name:` com o nome da sua conferência e o ano das reprises. No campo `description:`, escreva uma breve descrição do seu evento no idioma do arquivo. Por exemplo, para um arquivo chamado `pt.md`, a descrição deve ser em Português. A equipe da Plan ₿ Academy cuidará da tradução da sua descrição usando o modelo deles.
 - Títulos de primeiro nível, marcados por um `#`, são usados para organizar a conferência por cenas. Por exemplo, `# Palco Principal` para o palco principal e `# Sala de Workshop` para um palco dedicado a workshops.
 
 - Títulos de segundo nível, marcados por um duplo `##`, são usados para separar os diferentes vídeos de reprise. Se as conferências foram filmadas continuamente durante meio dia, indique, por exemplo, `## Sexta-feira de manhã`. Se as conferências foram filmadas e transmitidas individualmente, nomeie a conferência diretamente com um título de segundo nível.

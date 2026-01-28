@@ -1,0 +1,15 @@
+title: "New directions in cryptography"
+original_language: en
+authors:
+  - W. Diffie
+  - M. Hellman
+abstract: |
+  Two kinds of contemporary developments in cryptography are examined. Widening applications of teleprocessing have given rise to a need for new types of cryptographic systems, which minimize the need for secure key distribution channels and supply the equivalent of a written signature. This paper suggests ways to solve these currently open problems. It also discusses how the theories of communication and computation are beginning to provide the tools to solve cryptographic problems of long standing.
+publication_date: 1976-11-30
+paper_type: book
+source: ACM
+topics:
+  - Public Key Cryptography
+  - Digital Signature Schemes
+pdf_url: https://www.cs.jhu.edu/~rubin/courses/sp03/papers/diffie.hellman.pdf
+id: fd4f7d94-e0a4-45aa-80fc-b52b4a79de19

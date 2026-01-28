@@ -1,13 +1,9 @@
-question: Je, hali ya Bitcoin huko El Salvador ikoje?
-answer: Zabuni halali.
+question: Ni hatari gani nodi ya Lightning hukabiliwa nayo inapochapisha hali ya zamani ya kituo?
+answer: Adhabu
 wrong_answers:
-  - Imehalalishwa.
-  - Haijulikani.
-  - Isiyodhibitiwa.
+  - Onyo
+  - Ada za ziada za uchimbaji
+  - Kugandishwa kwa muda
 explanation: |
-  Maandishi ya kozi yanataja kuwa baadhi ya nchi zimepiga marufuku
-  na kuharamisha matumizi ya Bitcoin, na kuongeza
-  utata wa kupitishwa kwa Bitcoin kulingana na tamaduni, enzi, na
-  mataifa. Hata hivyo, El Salvador ilikuwa jasiri vya kutosha kuikubali
-  kama zabuni halali.
-reviewed: true
+  Itifaki inaweka adhabu ya kuzuia inayomruhusu upande mwingine kurejesha fedha zote.
+reviewed: false

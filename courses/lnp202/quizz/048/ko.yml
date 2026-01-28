@@ -1,0 +1,9 @@
+question: 협업을 기반으로 하는 인바운드 유동성을 위한 무료 솔루션은 무엇인가요?
+answer: LN+
+wrong_answers:
+  - 마그마
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus는 원형 채널 개구부를 통해 유입되는 유동성을 제공합니다.
+reviewed: false

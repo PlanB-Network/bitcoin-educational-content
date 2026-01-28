@@ -1,0 +1,9 @@
+question: Bu rol 2023'te kaldırılmadan önce son Bitcoin core ana bakımcısı kimdi?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan bu görevi 2014-2023 yılları arasında Gavin Andresen'in yerine ve görevin sona ermesinden önce yürütmüştür.
+reviewed: true

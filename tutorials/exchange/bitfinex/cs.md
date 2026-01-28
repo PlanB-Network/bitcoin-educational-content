@@ -22,11 +22,11 @@ Vyplňte požadované údaje: zadejte svou e-mailovou adresu a zemi bydliště. 
 
 Tipy pro používání a ochranu silných a jedinečných hesel naleznete také v tomto návodu :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Nyní nakonfigurujeme 2FA pro zabezpečení účtu. Použijte ověřovací aplikaci v chytrém telefonu, například Google Authenticator nebo Authy. Návod na tento nástroj najdete zde :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Naskenujte QR kód pomocí aplikace a zadejte 6 číslic.
 
@@ -53,10 +53,10 @@ Váš účet je nyní vytvořen. Pro přístup k platformě klikněte na "*Přih
 Společnost Bitfinex používá proces ověřování (KYC), který je v souladu s platnými předpisy. V režimu "Basic" není možné provádět vklady, výběry ani transakce, proto je nezbytné získat alespoň úroveň ověření "Basic Plus", případně i "Intermediate" nebo "Full":
 
 
-- Základní* je režim pouze pro zobrazení, který vám umožňuje konzultovat platformu bez provádění jakýchkoli operací;
-- Basic Plus* poskytuje přístup k základním funkcím, včetně transakcí na spotovém trhu a vybraných možností vkladů a výběrů;
-- Intermediate* zpřístupňuje pokročilé služby, jako je obchodování s marží, půjčky, P2P a OTC transakce, a nabízí zkrácené lhůty pro vklady;
-- Plný* vám umožní přístup k mezinárodním bankovním převodům a všem funkcím platformy.
+- **Základní** je režim pouze pro zobrazení, který vám umožňuje konzultovat platformu bez provádění jakýchkoli operací;
+- **Basic Plus** poskytuje přístup k základním funkcím, včetně transakcí na spotovém trhu a vybraných možností vkladů a výběrů;
+- **Intermediate** zpřístupňuje pokročilé služby, jako je obchodování s marží, půjčky, P2P a OTC transakce, a nabízí zkrácené lhůty pro vklady;
+- **Plný** vám umožní přístup k mezinárodním bankovním převodům a všem funkcím platformy.
 
 Pro každou úroveň jsou vyžadovány další dokumenty k ověření. Většině uživatelů obvykle postačí účty *Basic Plus* nebo *Intermediate*.
 
@@ -79,11 +79,11 @@ Dokončete jednotlivé kroky poskytnutím požadovaných informací a dokumentů
 Po přihlášení se v horní části rozhraní zobrazí navigační panel s: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" atd. Bitfinex nabízí širokou škálu funkcí, včetně :
 
 
-- Obchodování**: "*klasický*" trh, kde můžete zadávat příkazy k nákupu a prodeji kryptoměn (včetně bitcoinu);
-- OTC**: OTC: mimoburzovní služba pro obchodování velkých objemů přímo s jiným subjektem, mimo veřejné knihy příkazů;
-- Financování**: Oblast věnovaná úvěrům a maržovému financování;
-- Deriváty**: Sekce pro deriváty (futures atd.), určená pro zkušené obchodníky;
-- P2P**: Umožňuje nakupovat nebo prodávat kryptoměny od ostatních uživatelů na bázi peer-to-peer.
+- **Obchodování**: "*klasický*" trh, kde můžete zadávat příkazy k nákupu a prodeji kryptoměn (včetně bitcoinu);
+- **OTC**: mimoburzovní služba pro obchodování velkých objemů přímo s jiným subjektem, mimo veřejné knihy příkazů;
+- **Financování**: Oblast věnovaná úvěrům a maržovému financování;
+- **Deriváty**: Sekce pro deriváty (futures atd.), určená pro zkušené obchodníky;
+- **P2P**: Umožňuje nakupovat nebo prodávat kryptoměny od ostatních uživatelů na bázi peer-to-peer.
 
 Pro standardní použití (nákup/prodej bitcoinů a vklady/výběry) budete používat hlavně záložku "*Trading*" a sekce "*Wallet*", "*Deposit*" a "*Withdraw*".
 
@@ -167,9 +167,9 @@ Bitfinex také nabízí možnost vkladu a výběru prostřednictvím sítě Ligh
 
 Pokud máte o síť Lightning Network zájem, máme pro vás také kompletní školení, které vám pomůže pochopit, jak funguje:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Po zakoupení prvních bitcoinů máte samozřejmě možnost nechat je na platformě, ale důrazně doporučuji převést je do vlastní peněženky ve vlastní úschově. Pokud ještě nevíte, jak bitcoinovou peněženku používat, zvu vás k prozkoumání [sekce "Peněženka" na webu Plan ₿ Network](https://planb.network/tutorials/wallet).
+Po zakoupení prvních bitcoinů máte samozřejmě možnost nechat je na platformě, ale důrazně doporučuji převést je do vlastní peněženky ve vlastní úschově. Pokud ještě nevíte, jak bitcoinovou peněženku používat, zvu vás k prozkoumání [sekce "Peněženka" na webu Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 ## 6 - Nákup a prodej bitcoinů na Bitfinexu
 

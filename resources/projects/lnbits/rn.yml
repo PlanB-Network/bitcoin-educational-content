@@ -1,0 +1,10 @@
+description: |
+  LNbits ni uburyo bwo gukoresha amakonti y’umuravyo Bitcoin ku buntu kandi bufunguye kandi bufise ivyungura. Iragufasha gukoresha ubuhinga bwawe bwo gukoresha amakonti ya Lightning Network, yaba ayawe, abagenzi n’umuryango, canke isi yose. LNbits ishigikira inkomoko zitandukanye z’amahera ya Lightning Network, harimwo LND, c-umuravyo, Spark, LNpay, OpenNode, lntxbot, n’ibindi.
+  
+  Na LNbits, ushobora gukora amakonti menshi canke ama wallets maze ukaronka ama extensions menshi yubatswe n’abatanga. Ivyo bikoresho bigufasha kwongerako ibikorwa nk’ibikoresho vy’amazi, ama paylink, ahantu ho kugurisha ho gusangira, ama paywalls, amatike y’ibirori, imikino y’amadayimoni, ibikorwa vya server, eka mbere n’ivyo gusangira jukebox, n’ibindi vyinshi. LNbits itanga API yoroshe ishobora gufatanya n’ibihimba vyinshi n’inkomoko z’amahera, bigatuma vyoroha kwinjira mu kirundo cawe kiriho.
+  
+  Kimwe mu vyiza vya LNbits ni uko ushobora kuyikoresha ubwo nyene kandi uyikoresha mu mucukumbuzi wawe, ataco ukeneye gukurako izindi porogarama. Ikoresha imirongo ya Quasar na VueJS ku bijanye n’imbere yayo, itanga uburyo bwo gukoresha bukora neza kandi busubiza. Ku ruhande rw’inyuma, LNbits ikoresha FastAPI, ubuhinga bwa none kandi bukora neza cane bwa Python API.
+  
+  Kugira ngo utangure na LNbits, ushobora kuraba inyandiko zabo za GitHub, inyigisho za YouTube, n’igikoresho ca LNbits giteye ubwoba. Umuryango wa LNbits urakora kandi urashigikira, utanga umugwi wa Telegram ku bakoresha n’abahinguzi ku vyiyumviro vya Exchange, gutanga imfashanyo, no gutanga umusanzu mu gutegura iyi porogarama y’ubuntu kandi yuguruye.
+  
+  LNbits itanga umuti ushobora guhinduka kandi ushobora kwaguka wo gucunga amakonti ya Lightning Network no gushiramwo ibikorwa bitandukanye biciye mu nzira yayo yo kwagura.

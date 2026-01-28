@@ -1,11 +1,13 @@
-question: Cos'è OpenNode?
-answer: Una soluzione online semplice per le aziende per accettare Bitcoin.
+question: Cos'è il Piano di Accumulo Costante (PAC o Dollar Cost Average)?
+answer: Acquistare piccole quantità di Bitcoin a intervalli regolari.
 wrong_answers:
-  - Un tipo di nodo Bitcoin che viene utilizzato contemporaneamente da molti utenti.
-  - Un software di mining Bitcoin che è open-source.
-  - Una piattaforma di scambio Bitcoin.
-explanation: >-
-  OpenNode è una soluzione online semplice per le aziende per accettare Bitcoin.
-  Altre soluzioni includono Swiss Bitcoin Pay per i commercianti amatoriali e BTCpay Server
-  per grandi strutture o appassionati di bitcoin.
-reviewed: vero
+  - Acquistare una grande quantità di Bitcoin in una sola volta.
+  - Acquistare Bitcoin solo quando il prezzo scende.
+  - Acquistare Bitcoin solo quando il prezzo sale.
+explanation: |
+  Il testo del corso spiega che la tecnica del Piano di Accumulo Costante
+  implica l'acquisto di piccole quantità di Bitcoin a
+  intervalli regolari. Questo metodo mitiga le fluttuazioni di prezzo
+  nel tempo e garantisce una crescita continua nella
+  quantità di Bitcoin posseduti.
+reviewed: true

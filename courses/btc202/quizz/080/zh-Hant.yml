@@ -1,0 +1,9 @@
+question: Bitcoin core 中 maxconnections 參數的預設值是多少？
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections 限制傳入和傳出連線的總數。預設值為 125。
+reviewed: true

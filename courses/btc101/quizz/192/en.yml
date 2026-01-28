@@ -1,11 +1,13 @@
-question: What is OpenNode?
-answer: A simple online solution for businesses to accept Bitcoin.
+question: What is Dollar Cost Average?
+answer: Buying small amounts of Bitcoin at regular intervals.
 wrong_answers:
-  - A type of Bitcoin node that is used simultaneously by many users.
-  - A Bitcoin mining software that is open-source.
-  - A Bitcoin exchange platform.
-explanation: >-
-  OpenNode is a simple online solution for businesses to accept Bitcoin.
-  Other solutions include Swiss Bitcoin Pay for amateur merchants and BTCpay Server
-  for large structures or passionate bitcoiners.
+  - Buying a large amount of Bitcoin at once.
+  - Buying Bitcoin only when the price drops.
+  - Buying Bitcoin only when the price rises.
+explanation: |
+  The course text explains that the Dollar Cost Average
+  technique involves buying small amounts of Bitcoin at
+  regular intervals. This method levels out the price
+  fluctuations over time and ensures continuous growth in the
+  amount of Bitcoin owned.
 reviewed: true

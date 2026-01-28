@@ -22,7 +22,7 @@ Ten samouczek krok po kroku pokazuje, jak napisać wiadomość na Blockchain Bit
 - Komputer (Windows, macOS lub Linux).
 - Połączenie internetowe.
 - Kilka satoshi (Sats) lub bitcoinów (BTC) w Wallet na pokrycie kwoty transakcji i opłat.
-- Konwerter tekstu na szesnastkowy (np. strona internetowa) lub dedykowane narzędzie, takie jak [ten generator skryptów OP_RETURN] (https://resources.davidcoen.it/opreturnelectrum/).
+- Konwerter tekstu na szesnastkowy (np. strona internetowa) lub dedykowane narzędzie, takie jak [ten generator skryptów OP_RETURN](https://resources.davidcoen.it/opreturnelectrum/).
 
 
 
@@ -53,7 +53,7 @@ Ten samouczek krok po kroku pokazuje, jak napisać wiadomość na Blockchain Bit
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Spowoduje to wyświetlenie odbioru Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ Wybierz wiadomość, którą chcesz wprowadzić (np. `Dzięki Satoshi`). Uwaga: 
 
 
 
-- pozostawić piękny wyraz naszego człowieczeństwa,*
-- unikaj wprowadzania treści, których możesz żałować*
+- pozostawić piękny wyraz naszego człowieczeństwa,
+- unikaj wprowadzania treści, których możesz żałować
 
 
 
@@ -208,9 +208,9 @@ który składa się z :
 
 
 
-- Miejsce docelowe Address**: Ważny Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Może to być Twój własny Address, jeśli chcesz zwrócić przelane środki do siebie;
-- Przelana kwota**: kwota transakcji, tutaj `0,00001` BTC. **Uwaga**: ponieważ jednostką używaną w Electrum jest BTC, kwota wskazana w skrypcie transakcji musi być również wyrażona w BTC, a nie w Sats;
-- Skrypt OP_RETURN**: Wiadomość przekonwertowana na szesnastkowy poprzedzona script(`OP_RETURN <messsage>), 0`. Tutaj, `5468616e6b73205361746f736869` dla wiadomości w systemie szesnastkowym.
+- Miejsce docelowe **Address**: Ważny Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Może to być Twój własny Address, jeśli chcesz zwrócić przelane środki do siebie;
+- **Przelana kwota**: kwota transakcji, tutaj `0,00001` BTC. **Uwaga**: ponieważ jednostką używaną w Electrum jest BTC, kwota wskazana w skrypcie transakcji musi być również wyrażona w BTC, a nie w Sats;
+- Skrypt **OP_RETURN**: Wiadomość przekonwertowana na szesnastkowy poprzedzona script(`OP_RETURN <messsage>), 0`. Tutaj, `5468616e6b73205361746f736869` dla wiadomości w systemie szesnastkowym.
 
 
 
@@ -218,7 +218,7 @@ który składa się z :
 
 
 
-Wskazówka: Użyj narzędzia [Generator OP_RETURN] (https://resources.davidcoen.it/opreturnelectrum/), aby automatycznie utworzyć skrypt generate. Nawet jeśli to narzędzie sugeruje wprowadzenie kwoty w BTC, zachowaj jednostkę skonfigurowaną w Electrum.
+Wskazówka: Użyj narzędzia [Generator OP_RETURN](https://resources.davidcoen.it/opreturnelectrum/), aby automatycznie utworzyć skrypt generate. Nawet jeśli to narzędzie sugeruje wprowadzenie kwoty w BTC, zachowaj jednostkę skonfigurowaną w Electrum.
 
 
 

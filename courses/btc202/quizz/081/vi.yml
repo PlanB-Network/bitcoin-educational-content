@@ -1,0 +1,9 @@
+question: Tham số Bitcoin.conf nào giới hạn kích thước của Mempool tính bằng MB?
+answer: maxmempool
+wrong_answers:
+  - totalmempool
+  - mempoolexpiry
+  - kích thước mempool
+explanation: |
+  maxmempool đặt kích thước tối đa của Mempool (mặc định là 300 MB). Khi đầy, các giao dịch ít lợi nhuận hơn sẽ bị loại bỏ.
+reviewed: true

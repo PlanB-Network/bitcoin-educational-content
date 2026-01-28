@@ -8,4 +8,4 @@ Patroon- of transactiemodel dat wordt gebruikt bij ketenanalyse om de aard van d
 ![](../../dictionnaire/assets/6.webp)
 
 
-> in het Frans zou "sweep transaction" vertaald kunnen worden als "transaction de balayage".*
+> in het Frans zou "sweep transaction" vertaald kunnen worden als "transaction de balayage".

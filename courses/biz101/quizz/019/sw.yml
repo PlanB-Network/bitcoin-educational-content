@@ -1,4 +1,4 @@
-question: Kwa nini tete inachukuliwa kuwa kipengele cha asili cha Bitcoin kama mali inayoibuka?
+question: Kwa nini tete inachukuliwa kuwa Element ya asili ya Bitcoin kama mali inayoibuka?
 answer: Kwa sababu Bitcoin bado ni changa, inavutia walanguzi na kujibu habari za soko, na kusababisha kubadilika kwa bei kabla ya kutengemaa kwa muda mrefu.
 wrong_answers:
   - Kwa sababu inadhibitiwa na serikali kuu na bei huwekwa na mamlaka moja.
@@ -6,4 +6,4 @@ wrong_answers:
   - Kwa sababu ni lazima wafanyabiashara waweke bei bila kutabirika kila saa.
 explanation: |
   Kama rasilimali inayoendelea, bei ya Bitcoin huathiriwa na uvumi, hisia na viwango tofauti vya uasilishaji. Baada ya muda, kama imara zaidi, wamiliki wa muda mrefu wanashiriki, tete inaweza kupungua, lakini inabakia kipengele cha ukuaji wa mapema.
-reviewed: false
+reviewed: true

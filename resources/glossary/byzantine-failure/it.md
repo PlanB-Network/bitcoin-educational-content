@@ -8,4 +8,4 @@ i "fallimenti bizantini naturali" sono comunemente distinti dai "fallimenti biza
 
 L'autenticazione, la firma e il consenso attraverso mezzi crittografici e algoritmi "Byzantine Fault Tolerant (BFT)" aiutano a mitigare questi problemi.
 
-> *Il fallimento bizantino si riferisce al problema dei generali bizantini, una metafora che riguarda la messa in discussione dell'affidabilità delle trasmissioni e dell'integrità delle parti coinvolte
+> *Il fallimento bizantino si riferisce al problema dei generali bizantini, una metafora che riguarda la messa in discussione dell'affidabilità delle trasmissioni e dell'integrità delle parti coinvolte*

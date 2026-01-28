@@ -1,0 +1,8 @@
+question: Millist Pythoni funktsiooni on konkreetselt mainitud tõhusa modulaarse korrutamise teostamiseks krüptograafilistes operatsioonides?
+answer: pow(base, exp, mod)
+wrong_answers:
+  - mod(base, exp, prime)
+  - exp(base, mod, field)
+  - mult(base, exp, modulo)
+explanation: |
+  Pythoni sisseehitatud funktsioon pow(base, exp, mod) on spetsiaalselt mõeldud tõhusaks modulaarseks korrutamiseks, mis on oluline suurte eksponentidega seotud krüptograafiliste operatsioonide jaoks. See funktsioon kasutab optimeeritud algoritme, et arvutada (base^exp) mod mod, ilma et peaks esmalt arvutama potentsiaalselt tohutut base^exp vahetulemust. Teised valikud ei ole kehtivad Pythoni funktsioonid - mod(), exp() ja mult() nende parameetrimustritega ei ole Pythoni standardraamatukogus krüptograafilise modulaararvutuse jaoks olemas.

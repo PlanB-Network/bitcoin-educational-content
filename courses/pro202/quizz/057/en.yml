@@ -1,0 +1,8 @@
+question: Why does P2WSH use SHA256 hashing instead of hash160 (RIPEMD160+SHA256) for the script commitment in witness programs?
+answer: SHA256 provides a 32-byte hash that distinguishes P2WSH from P2WPKH's 20-byte hash160 and offers stronger security for complex scripts
+wrong_answers:
+  - SHA256 is faster to compute than hash160, reducing validation time for complex multisig transactions in high-throughput scenarios
+  - "Hash160 was deprecated in SegWit due to potential collision vulnerabilities discovered during Bitcoin's early development phase"
+  - SHA256 allows witness scripts to be larger than 520 bytes, while hash160 imposed strict size limitations on script complexity
+explanation: |
+  P2WSH uses SHA256 to create 32-byte hashes specifically to differentiate from P2WPKH's 20-byte hash160 commitment, allowing nodes to immediately identify the witness program version. The longer hash also provides enhanced security for complex scripts that may have higher value or more attack surface. The other options are incorrect: SHA256 isn't necessarily faster than hash160, hash160 wasn't deprecated due to vulnerabilities, and the hash function choice doesn't affect script size limits.

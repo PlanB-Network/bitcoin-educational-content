@@ -1,13 +1,12 @@
-question: Was waren die ersten Formen von Währung?
-answer: Güter wie Getreide und Vieh.
+question: Was ist der Hauptvorteil von Bitcoin gegenüber anderen Währungsformen?
+answer: Es bietet eine ausgezeichnete Wertaufbewahrung aufgrund seines streng begrenzten Angebots und seiner Neutralität.
 wrong_answers:
-  - Gold und Silber.
-  - Papiergeld.
-  - Digitale Vermögenswerte.
+  - Es ist unteilbar und nicht transportierbar.
+  - Es ist ein großartiges Beispiel für eine Währung, die unter monetärer Inflation leidet.
+  - Es wird weltweit im Handel von allen Händlern akzeptiert.
 explanation: |
-  Die ersten Formen von Währung waren oft mit wesentlichen
-  Gütern wie Getreide, Vieh und anderen Rohstoffen verknüpft.
-  Allerdings hatten diese Güter große Nachteile, wie zum Beispiel
-  ihre Verderblichkeit, was es schwierig machte, sie als ein
-  langfristiges Sparmedium zu nutzen.
+  Der Hauptvorteil von Bitcoin gegenüber anderen Währungsformen
+  ist, dass es eine ausgezeichnete Wertaufbewahrung bietet aufgrund
+  seines streng begrenzten Angebots und seines Fehlens einer vertrauenswürdigen Partei. Dies
+  macht es zu einer guten Wahl für langfristige Ersparnisse.
 reviewed: true

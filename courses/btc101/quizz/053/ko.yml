@@ -1,0 +1,11 @@
+question: Bitcoin 네트워크에서 트랜잭션을 검증하는 프로세스는 무엇인가요?
+answer: Mining
+wrong_answers:
+  - 디깅
+  - 수확
+  - 농사
+explanation: |
+  Bitcoin 네트워크에서 트랜잭션을 검증하는 프로세스를
+  네트워크에서 트랜잭션을 확인하는 프로세스를 Mining라고 합니다. 채굴자는 암호화
+  작업을 수행하고 새로운 비트코인을 발행하여 보상을 받습니다.
+reviewed: true

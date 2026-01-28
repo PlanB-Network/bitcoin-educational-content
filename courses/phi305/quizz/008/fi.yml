@@ -1,0 +1,9 @@
+question: Mitä yhteistä on saksalaisella ja ranskalaisella valistusfilosofialla?
+answer: Taikauskon torjunta.
+wrong_answers:
+  - Taistelu etuoikeuksia vastaan.
+  - Orjuuden torjunta.
+  - Taistelu luonnollisia oikeuksia vastaan.
+explanation: |
+  Saksan ja Ranskan valistuksen yhteinen nimittäjä oli taikauskon torjunta. Molempien maiden filosofit pyrkivät edistämään järkeä ja tiedettä järjettömiä uskomuksia ja ennakkoluuloja vastaan.
+reviewed: false

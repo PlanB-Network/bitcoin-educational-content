@@ -40,13 +40,13 @@ The site automatically detects your system and proposes the appropriate link:
 
 
 
-- Windows:** .exe installer for Windows 10/11 (x64 and ARM64 versions)
-- macOS:** Intel and Apple Silicon compatible .dmg disk image (macOS Monterey and later)
-- Linux:** Several options available:
-  - Flatpak** (recommended): `flatpak install flathub app.zen_browser.Zen`
-  - AppImage**: Portable, directly executable
-  - Archive tar.gz**: To be extracted manually
-  - AUR** (Arch Linux): Zen-browser package
+- **Windows:** .exe installer for Windows 10/11 (x64 and ARM64 versions)
+- **macOS:** Intel and Apple Silicon compatible .dmg disk image (macOS Monterey and later)
+- **Linux:** Several options available:
+- **Flatpak** (recommended): `flatpak install flathub app.zen_browser.Zen`
+- **AppImage**: Portable, directly executable
+- **Archive tar.gz**: To be extracted manually
+- **AUR** (Arch Linux): Zen-browser package
 
 
 ### Step-by-step installation
@@ -73,9 +73,9 @@ The site automatically detects your system and proposes the appropriate link:
 **On Linux:**
 
 
-- Flatpak:** Automatic installation via the package manager
-- AppImage:** `chmod +x ZenBrowser.AppImage` then double-click
-- tar.gz:** Extract and run the zen-browser executable
+- **Flatpak:** Automatic installation via the package manager
+- **AppImage:** `chmod +x ZenBrowser.AppImage` then double-click
+- **tar.gz:** Extract and run the zen-browser executable
 
 
 ### First launch and initial configuration
@@ -141,10 +141,10 @@ Zen Browser natively integrates strong privacy protections:
 
 
 
-- Enhanced anti-tracking:** Automatic blocking of trackers, third-party cookies and fingerprinting scripts
-- Telemetry disabled:** No data sent to external servers
-- DNS over HTTPS:** Encrypt your DNS requests to prevent monitoring
-- Reduced Google dependencies:** Zen Browser removes most connections to Google services, although some may remain (secure browsing, updates)
+- **Enhanced anti-tracking:** Automatic blocking of trackers, third-party cookies and fingerprinting scripts
+- **Telemetry disabled:** No data sent to external servers
+- **DNS over HTTPS:** Encrypt your DNS requests to prevent monitoring
+- **Reduced Google dependencies:** Zen Browser removes most connections to Google services, although some may remain (secure browsing, updates)
 
 
 ### Advanced customization with Zen Mods
@@ -157,13 +157,13 @@ Zen offers a unique customization ecosystem with **Zen Mods**: a gallery of them
 
 
 
-- SuperPins** ⭐: Turn pinned tabs into stylized buttons for a more professional Interface look
-- Cohesion**: Consistent, transparent styling unifying URL bar, sidebar and bookmarks
-- Better Find Bar**: Moves the search bar to the top for improved ergonomics
-- Sidebar Expand on Hover**: Automatic sidebar expansion on hover, maximizes screen space
-- Better Unloaded Tabs**: Optimizes memory management with visual indicators for inactive tabs
-- Cleaned URL Bar**: Interface purified address bar, removes superfluous elements
-- Transparent Zen**: elegant transparency effects with smooth animations
+- **SuperPins** ⭐: Turn pinned tabs into stylized buttons for a more professional Interface look
+- **Cohesion**: Consistent, transparent styling unifying URL bar, sidebar and bookmarks
+- **Better Find Bar**: Moves the search bar to the top for improved ergonomics
+- **Sidebar Expand on Hover**: Automatic sidebar expansion on hover, maximizes screen space
+- **Better Unloaded Tabs**: Optimizes memory management with visual indicators for inactive tabs
+- **Cleaned URL Bar**: Interface purified address bar, removes superfluous elements
+- **Transparent Zen**: elegant transparency effects with smooth animations
 
 
 **Zen Mod installation:**
@@ -203,8 +203,8 @@ Zen Mods are not limited to visual themes: some modify the Interface's behavior 
 The more you customize Zen Browser (themes, extensions, mods), the more your **digital footprint** becomes unique and therefore traceable. It's a fundamental compromise:
 
 
-- Maximum personalization** = Optimal user experience BUT unique, easily identifiable imprint
-- Default configuration** = More common footprint BUT less personalized experience
+- **Maximum personalization** = Optimal user experience BUT unique, easily identifiable imprint
+- **Default configuration** = More common footprint BUT less personalized experience
 
 
 Zen Browser has chosen user experience over perfect anonymity. If your priority is absolute anonymity, prefer Tor Browser or Mullvad Browser, which impose a uniform configuration on all users.
@@ -220,21 +220,21 @@ What's more, being Firefox-based, Zen is compatible with the entire Firefox exte
 
 
 
-- Privacy by design:** Anti-tracking protection active, telemetry disabled, no data collection
-- Innovative Interface:** Vertical tabs, workspaces, Split View dramatically improve productivity
-- Fast updates:** Synchronization with Firefox in less than 72 hours for security patches
-- Advanced customization:** Community themes, fine tuning, Firefox extension compatibility
-- Open source and community:** Transparent code, collaborative development, independence from Big Tech
+- **Privacy by design:** Anti-tracking protection active, telemetry disabled, no data collection
+- **Innovative Interface:** Vertical tabs, workspaces, Split View dramatically improve productivity
+- **Fast updates:** Synchronization with Firefox in less than 72 hours for security patches
+- **Advanced customization:** Community themes, fine tuning, Firefox extension compatibility
+- **Open source and community:** Transparent code, collaborative development, independence from Big Tech
 
 
 ### ❌ Current limits
 
 
 
-- No mobile version:** Available only on PCs (Windows, macOS, Linux)
-- DRM incompatibility:** Netflix, Disney+, Spotify and other streaming services do not currently work
-- Young project:** Small team, community support, occasional bugs
-- Learning curve:** Interface different, requiring adaptation for those used to horizontal tabs
+- **No mobile version:** Available only on PCs (Windows, macOS, Linux)
+- **DRM incompatibility:** Netflix, Disney+, Spotify and other streaming services do not currently work
+- **Young project:** Small team, community support, occasional bugs
+- **Learning curve:** Interface different, requiring adaptation for those used to horizontal tabs
 
 
 ## Advanced configuration for privacy and security
@@ -260,7 +260,7 @@ Right from the start, Zen Browser applies a high-privacy configuration that outp
 
 
 
-- Strict anti-tracking protection:** "Standard" level activated by default, blocking:
+- **Strict anti-tracking protection:** "Standard" level activated by default, blocking:
   - Cross-site tracking cookies and supercookies
   - Ad tracker scripts (Google Analytics, Facebook Pixel, etc.)
   - Cryptominters that use your CPU to Miner cryptocurrencies
@@ -268,10 +268,10 @@ Right from the start, Zen Browser applies a high-privacy configuration that outp
 
 
 
-- Total cookie isolation:** First Party Isolation prevents one site from reading another's cookies
-- Telemetry largely disabled:** Most data collection has been removed, although some connections to Mozilla/Google services may remain and require additional manual configuration
-- Secure DNS by default:** DNS-over-HTTPS enabled to prevent spying on your requests
-- HTTPS-Only enabled:** Force encrypted connections on all sites
+- **Total cookie isolation:** First Party Isolation prevents one site from reading another's cookies
+- **Telemetry largely disabled:** Most data collection has been removed, although some connections to Mozilla/Google services may remain and require additional manual configuration
+- **Secure DNS by default:** DNS-over-HTTPS enabled to prevent spying on your requests
+- **HTTPS-Only enabled:** Force encrypted connections on all sites
 
 
 ### Recommended privacy settings
@@ -318,11 +318,11 @@ Settings > Search > Default search engine:
 
 
 
-- DuckDuckGo**: No profiling, no filter bubbles, neutral results
-- Startpage**: anonymized Google results, based in the Netherlands (RGPD)
-- Searx**: Decentralized metasearch engine, no logs, open source
-- Brave Search**: Independent index, not from Google
-- Avoid**: Google, Bing, Yahoo (massive data collection)
+- **DuckDuckGo**: No profiling, no filter bubbles, neutral results
+- **Startpage**: anonymized Google results, based in the Netherlands (RGPD)
+- **Searx**: Decentralized metasearch engine, no logs, open source
+- **Brave Search**: Independent index, not from Google
+- **Avoid**: Google, Bing, Yahoo (massive data collection)
 
 
 **3. Configure secure DNS (DNS over HTTPS):**
@@ -347,8 +347,8 @@ Settings > Privacy and security > DNS over HTTPS (bottom of page)
 
 - You control when to use secure DNS and choose the provider
 - Uses selected provider with fallback to DNS system if necessary
-- Default provider:** Cloudflare (fast, anonymized logs)
-- Alternatives:** Switch to Quad9, NextDNS subject to availability
+- **Default provider:** Cloudflare (fast, anonymized logs)
+- **Alternatives:** Switch to Quad9, NextDNS subject to availability
 
 
 **Max Protection (advanced users):**
@@ -356,7 +356,7 @@ Settings > Privacy and security > DNS over HTTPS (bottom of page)
 
 - Zen **always** uses secure DNS only
 - Safety warning before using DNS system
-- Warning:** Sites may not load if secure DNS is unavailable
+- **Warning:** Sites may not load if secure DNS is unavailable
 
 
 **4. Enable HTTPS mode only:**
@@ -373,10 +373,10 @@ Settings > Privacy and security > HTTPS mode only > **Enabled**
 Settings > Privacy & Security > Permissions:
 
 
-- Location**: Block (except card services)
-- Camera/Microphone**: Block (authorize on a case-by-case basis)
-- Notifications**: Block (prevents spam)
-- Automatic playback**: Block audio and video
+- **Location**: Block (except card services)
+- **Camera/Microphone**: Block (authorize on a case-by-case basis)
+- **Notifications**: Block (prevents spam)
+- **Automatic playback**: Block audio and video
 
 
 ### Recommended safety extensions
@@ -385,23 +385,23 @@ Settings > Privacy & Security > Permissions:
 **Essential extensions:**
 
 
-- uBlock Origin**: Most effective ad blocker and tracker
+- **uBlock Origin**: Most effective ad blocker and tracker
   - Recommended lists: EasyList, EasyPrivacy, Peter Lowe's Ad and tracking server list
   - Advanced mode for experienced users
 
 
 
-- ClearURLs**: Deletes URL tracking parameters (utm_source, fbclid, etc.)
-- Cookie AutoDelete**: automatically deletes cookies and browsing data when tab is closed
-- Decentraleyes**: Serves JS libraries locally to avoid Google/Cloudflare CDNs
+- **ClearURLs**: Deletes URL tracking parameters (utm_source, fbclid, etc.)
+- **Cookie AutoDelete**: automatically deletes cookies and browsing data when tab is closed
+- **Decentraleyes**: Serves JS libraries locally to avoid Google/Cloudflare CDNs
 
 
 **Advanced extensions (experienced users):**
 
 
-- NoScript**: Granular JavaScript control (can break many sites)
-- Privacy Badger** (EFF): Behavioral detection of trackers
-- Temporary Containers**: Isolate each tab in a separate container
+- **NoScript**: Granular JavaScript control (can break many sites)
+- **Privacy Badger** (EFF): Behavioral detection of trackers
+- **Temporary Containers**: Isolate each tab in a separate container
 
 
 ## Understanding the absence of DRM in Zen Browser
@@ -410,15 +410,15 @@ Settings > Privacy & Security > Permissions:
 ### What is DRM?
 
 
-DRMs (Digital Rights Management)** are protection technologies that encrypt digital content to prevent copying. They require a proprietary browser module (such as **Google Widevine**) to decrypt and read protected media.
+**DRMs (Digital Rights Management)** are protection technologies that encrypt digital content to prevent copying. They require a proprietary browser module (such as **Google Widevine**) to decrypt and read protected media.
 
 
 **Services requiring DRM:**
 
 
-- Video streaming:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- Premium music:** Spotify Premium, YouTube Music, Deezer
-- Online training:** Udemy, Coursera (protected videos)
+- **Video streaming:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- **Premium music:** Spotify Premium, YouTube Music, Deezer
+- **Online training:** Udemy, Coursera (protected videos)
 
 
 ### Why Zen Browser doesn't have DRM
@@ -494,8 +494,8 @@ Free YouTube, Twitch, Vimeo, news sites, social networks, podcasts
 **Advanced features:**
 
 
-- Split View**: Select several tabs > right-click > "Split x tabs"
-- Glance**: Alt + click on a link for preview
+- **Split View**: Select several tabs > right-click > "Split x tabs"
+- **Glance**: Alt + click on a link for preview
 
 
 ### Useful shortcuts
@@ -513,11 +513,11 @@ Free YouTube, Twitch, Vimeo, news sites, social networks, podcasts
 
 
 
-- Organize your spaces**: Create themed spaces (Work, Watch, Personal)
-- Use pinned tabs**: For your most visited sites
-- Exploit Split View**: Ideal for multitasking on large screens
-- Keep up to date**: Regularly check for updates
-- Explore Zen Mods**: customize the look to suit your taste
+- **Organize your spaces**: Create themed spaces (Work, Watch, Personal)
+- Use **pinned tabs**: For your most visited sites
+- **Exploit Split View**: Ideal for multitasking on large screens
+- **Keep up to date**: Regularly check for updates
+- **Explore Zen Mods**: customize the look to suit your taste
 
 
 ## Conclusion

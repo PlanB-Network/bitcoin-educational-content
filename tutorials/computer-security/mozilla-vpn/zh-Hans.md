@@ -6,7 +6,7 @@ description: 保护您的设备和互联网浏览数据。
 
 
 
-在数据收集的数字时代，网络隐私已成为我们互联网用户的一个主要问题。在广告跟踪、公共网络黑客风险和地理限制之间，越来越多的用户开始使用 VPN（虚拟专用网络*）来保护自己的浏览安全。在众多可选项中，Mozilla 基金会提供的一项服务脱颖而出，该基金会以 Commitment 自由和道德互联网而闻名。在本教程中，我们将介绍如何使用 Mozilla VPN 来控制你的互联网隐私。
+在数据收集的数字时代，网络隐私已成为我们互联网用户的一个主要问题。在广告跟踪、公共网络黑客风险和地理限制之间，越来越多的用户开始使用 VPN（虚拟专用网络）来保护自己的浏览安全。在众多可选项中，Mozilla 基金会提供的一项服务脱颖而出，该基金会以 Commitment 自由和道德互联网而闻名。在本教程中，我们将介绍如何使用 Mozilla VPN 来控制你的互联网隐私。
 
 
 
@@ -18,7 +18,7 @@ description: 保护您的设备和互联网浏览数据。
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 基于这一原则，[Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) 是 Mozilla 基金会于 2020 年开发的开源 VPN 服务。它可在.NET Framework上使用：
 
@@ -153,7 +153,7 @@ Mozilla VPN 允许你以两种格式选择你的位置：
 
 
 
-- 单跳：将您计算机的 IP Address 迁移并加密数据到特定选定区域的服务器，例如白俄罗斯的索非亚。
+- 单跳：将您计算机的 IP Address 迁移并加密数据到特定选定区域的服务器，例如保加利亚的索非亚。
 
 
 
@@ -191,4 +191,4 @@ Mozilla VPN 始终致力于为用户提供更高的保密性，其**Kill Switch*
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

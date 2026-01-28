@@ -1,11 +1,9 @@
-question: Was ist das Skalierbarkeitsproblem von Bitcoin?
-answer: Die Herausforderung, ein monetäres System zu implementieren, das in der Lage ist, eine stetig steigende Anzahl von Transaktionen pro Sekunde bereitzustellen, je mehr es angenommen wird.
+question: Was ist das zentrale Prinzip von RGB?
+answer: Clientseitige Validierung
 wrong_answers:
-  - Die Schwierigkeit, neue Bitcoins mit einem im Laufe der Zeit steigenden Wert zu minen.
-  - Die Volatilität des Bitcoin-Preises, die nach jeder Halbierung zunehmen wird.
-  - Der Mangel an Regulierung für Bitcoin, der Transaktionen illegal machen wird.
-explanation: >-
-  Das Skalierbarkeitsproblem bezieht sich auf die Herausforderung, ein monetäres
-  System zu implementieren, das in der Lage ist, eine stetig steigende Anzahl von Transaktionen pro Sekunde
-  bereitzustellen, je mehr es angenommen wird.
-reviewed: true
+  - Globale Ausführung auf der Blockchain
+  - Föderierter Konsens
+  - Proof-of-Work
+explanation: |
+  RGB basiert auf einer lokalen Validierung der Zustände, wobei die Blockchain lediglich als kryptografische Verankerung und als Schutz vor Doppelausgaben dient.
+reviewed: false

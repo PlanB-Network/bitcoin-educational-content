@@ -1,0 +1,8 @@
+question: Apa tujuan utama deklarasi ruang nama dalam file UDL UniFFI?
+answer: Untuk menyediakan wadah bagi fungsi yang dapat dipanggil secara langsung tanpa memerlukan instansiasi objek
+wrong_answers:
+  - Untuk menentukan struktur paket dan mengimpor dependensi untuk binding bahasa yang dihasilkan
+  - Untuk menentukan bahasa pemrograman target yang akan menggunakan pustaka Rust melalui UniFFI
+  - Untuk menetapkan strategi manajemen memori untuk operasi pengumpulan data lintas bahasa
+explanation: |
+  Namespace dalam UDL UniFFI berfungsi sebagai wadah untuk fungsi-fungsi mandiri yang dapat dipanggil secara langsung tanpa membuat objek terlebih dahulu. Fungsi-fungsi namespace ini biasanya menangani operasi sederhana yang mengambil nilai sebagai parameter dan mengembalikan hasil. Opsi lain tidak benar karena: struktur paket dan impor ditangani oleh proses pembuatan pengikatan secara otomatis, bahasa target ditentukan selama proses pembuatan daripada di file UDL, dan manajemen memori ditangani secara transparan oleh lapisan runtime UniFFI daripada dideklarasikan secara eksplisit di ruang nama.

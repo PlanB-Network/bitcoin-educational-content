@@ -6,4 +6,4 @@ wrong_answers:
   - Store personal data  
 explanation: |  
   Bitcoin enables the exchange of value on the Internet without intermediaries through its peer-to-peer protocol.  
-reviewed: false  
+reviewed: true  

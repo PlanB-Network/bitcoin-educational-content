@@ -1,11 +1,8 @@
-question: Ako bi korisnik čvora odlučio da prati drugačija pravila koja su u suprotnosti sa postojećim pravilima konsenzusa, njihov čvor bi se odvojio od glavnog lanca i formirao sopstveni "fork". Taj čvor bi bio nespojiv sa ostatkom mreže koja prati originalna pravila konsenzusa, što znači da transakcije i blokovi koje taj čvor verifikuje ne bi bili priznati od strane većine mreže. To bi moglo dovesti do izolacije tog čvora i potencijalnog gubitka mogućnosti interakcije sa većom mrežom.
-answer: Čvor više neće biti deo Bitkoin mreže.
+question: Koja je uloga rudara u Bitkoin mreži?
+answer: Rudari osiguravaju mrežu i dodaju transakcije u blokove.
 wrong_answers:
-  - Čvor će postati deo druge Bitkoin mreže.
-  - Čvor će biti kažnjen od strane Bitkoin mreže.
-  - Čvor će biti nagrađen od strane Bitkoin mreže.
-explanation: |
-  Ako korisnik čvora odluči da prati druga pravila koja
-  poništavaju trenutna pravila konsenzusa, onda taj čvor
-  više ne bi bio deo Bitkoin mreže.
+  - Rudari stvaraju nove bitkoine.
+  - Rudari verifikuju identitet korisnika Bitkoina.
+  - Rudari postavljaju cenu Bitkoina.
+explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je svrha revNNNNN.dat datoteka koje su uskladištene zajedno sa blkNNNNN.dat?
+answer: Vrati UTXO postavljen tokom reorganizacije
+wrong_answers:
+  - Vratite UTXO set tokom Hard Fork
+  - Vrati Mempool tokom Hard Fork
+  - Obnavljanje Mempool tokom reorganizacije
+explanation: |
+  Svaki revNNNNN.dat sadrži podatke potrebne za poništavanje efekata bloka na UTXO setu, što olakšava upravljanje reorganizacijama.
+reviewed: true

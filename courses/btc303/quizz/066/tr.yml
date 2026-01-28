@@ -1,0 +1,9 @@
+question: Doğrulamasız mining bağlamında, madencilerin bayat bloklardan kaçınmak için tam blok doğrulamasını ertelediklerinde karşılaştıkları birincil güvenlik riski nedir?
+answer: Geçici olarak geçersiz bir blok zinciri üzerine inşa etme ve sonunda reddedilecek bir zincir üzerinde hesaplama gücünü boşa harcama riskini alırlar
+wrong_answers:
+  - Önceki işlemlerin eksik doğrulanması nedeniyle kendi bloklarının ağ tarafından reddedilmesi riskiyle karşı karşıyadırlar
+  - mining ödüllerini kalıcı olarak kaybetme riskiyle karşı karşıyadırlar çünkü onaylanmamış mining bir protokol ihlali olarak kabul edilir
+  - Gelen işlemlerin meşru olduğunu doğrulayamadıkları için çifte harcama saldırıları oluşturma riski taşırlar
+explanation: |
+  Madenciler doğrulamasız mining uyguladıklarında, yalnızca blok başlığındaki proof-of-work'yi kontrol eder ve tüm bloğu paralel olarak indirip doğrularken hemen bunun üzerine mining'ü başlatırlar. Kritik risk, geçersiz bir blok üzerine inşa ediyor olmalarıdır, yani hesaplama çabaları, geçersiz blok keşfedildiğinde reddedilecek bir blok zinciri dalı üzerinde boşa harcanmaktadır. Bu durum ağ güvenliğini zayıflatır çünkü mining gücünün bir kısmı Bitcoin'ün temel güvenlik mekanizması olan en güçlü geçerli zincire katkıda bulunmaz.
+reviewed: false

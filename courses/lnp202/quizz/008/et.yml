@@ -1,0 +1,9 @@
+question: Kellele kuuluvad bitcoinid, kui tegemist on eestkostetava Lightning wallet-ga?
+answer: Ettevõte
+wrong_answers:
+  - Kasutaja
+  - Lightning-võrgustik
+  - Bitcoin tuum
+explanation: |
+  Hoiustamismudeli puhul hoiab ettevõte võtmeid ja kontrollib vahendeid, samas kui kasutajal on ainult raamatupidamislik saldo.
+reviewed: false

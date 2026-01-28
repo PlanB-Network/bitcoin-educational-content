@@ -1,11 +1,12 @@
-question: 第一次使用 Bitcoin 購買實體商品是何時？
-answer: 當 Laszlo Hanyecz 用 10,000 BTC 買了 2 個披薩。
+question: 在 Bitcoin 交易中，交易費用的目的是什麼？
+answer: 它們是礦工將交易包含在下一個區塊中的獎勵。
 wrong_answers:
-  - 當 Hal Finney 用 100,000 BTC 買了一輛車。
-  - 當 Satoshi Nakamoto 用 1,000,000,000 BTC 買了一棟房子。
-  - 其他選項都沒有。
+  - 它們是政府徵收的稅項。
+  - 它們是 Bitcoin 網路針對使用其服務所收取的費用。
+  - 它們是 Wallet 提供商收取的費用。
 explanation: |
-  第一次使用 Bitcoin 購買實物時，Laszlo Hanyecz 用 10,000 美元買了兩個披薩。
-  商品是 Laszlo Hanyecz 用 10,000
-  BTC, 在 2010/05/22, 也就是現在的披薩日
+  Bitcoin 交易中的交易費可作為
+  礦工將交易納入下一個
+  區塊。這些費用創造了一個自由市場，讓
+  交易納入區塊的自由市場。
 reviewed: true

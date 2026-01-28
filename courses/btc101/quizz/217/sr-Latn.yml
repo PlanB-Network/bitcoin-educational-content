@@ -1,12 +1,9 @@
-question: U kojim oblastima Bitkoin postavlja pitanja?
-answer: Kriptografija, teorija igara, ekonomija i monetarna politika, računarstvo, filozofija, energija, zakoni i regulativa.
+question: Koji je glavni cilj Lightning Networka?
+answer: Omogućavanje offchain plaćanja koja su brza i jeftina
 wrong_answers:
-  - Samo računarstvo i ekonomija
-  - Samo kriptografija i teorija igara.
-  - Samo filozofija i energija.
+  - Povećanje veličine blokova Bitcoin blokčejna
+  - Postepena zamena Bitcoin blokčejna efikasnijim sistemom
+  - Učiniti rudarske farme veoma bogatim
 explanation: |
-  Bitkoin je multidisciplinarna tema koja postavlja
-  pitanja vezana za različite oblasti, uključujući
-  kriptografiju, teoriju igara, ekonomiju i monetarnu politiku,
-  računarske nauke, filozofiju, energiju, zakone i regulative.
-reviewed: true
+  Lightning Network ima za cilj da omogući gotovo trenutna plaćanja u bitkoinima uz niske naknade, bez opterećivanja glavnog blokčejna.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Какое значение по умолчанию имеет параметр dbcache в Bitcoin core?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 ГБ
+  - 4 Гб
+explanation: |
+  По умолчанию Bitcoin core выделяет под кэш 450 MiB (472 MB).
+reviewed: true

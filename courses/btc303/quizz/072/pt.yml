@@ -1,0 +1,9 @@
+question: De acordo com a análise de Gregory Maxwell, o que cria o compromisso fundamental que força os utilizadores a optarem por serviços de confiança nos debates sobre o escalonamento do Bitcoin?
+answer: Tanto a utilização excessivamente elevada de recursos, que exclui os validadores, como o acesso excessivamente dispendioso ao espaço de blocos para a resolução de litígios
+wrong_answers:
+  - O conflito entre o aumento do volume de transacções e a manutenção de uma rentabilidade adequada do mining em diferentes dimensões de pool
+  - A tensão entre a implementação de actualizações segregadas de testemunhas e a preservação da retrocompatibilidade com o software wallet antigo
+  - A competição entre as soluções de camada dois e as abordagens de escala on-chain por recursos de desenvolvimento e apoio comunitário limitados
+explanation: |
+  Maxwell identificou um problema de dupla face em que o Bitcoin perde as suas vantagens em ambas as direcções: se a utilização de recursos for demasiado elevada em relação à tecnologia disponível, a validação torna-se demasiado dispendiosa e os preços dos utilizadores são reduzidos, que passam a depender de terceiros de confiança em vez de validarem de forma independente. Por outro lado, se a capacidade for demasiado baixa e os métodos de transação forem ineficientes, o acesso à cadeia de blocos para resolução de litígios torna-se proibitivamente dispendioso, empurrando novamente os utilizadores para serviços de confiança. Isto cria um equilíbrio delicado que as soluções de escalonamento devem navegar.
+reviewed: false

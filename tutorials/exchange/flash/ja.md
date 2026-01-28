@@ -1,5 +1,5 @@
 ---
-name: フラッシュ
+name: Flash
 description: Lightningの力で100CFAフランからビットコインを購入。
 ---
 
@@ -39,8 +39,8 @@ Flashは[BlockSolut](https://bitcoinflash.xyz)によって開発されたExchang
 
 
 
-- FlashX**：モバイルマネーでExchangeビットコイン。
-- フラッシュペイメント**：日常的なサービスにはBitcoinをご利用ください。
+- **FlashX**：モバイルマネーでExchangeビットコイン。
+- **フラッシュペイメント**：日常的なサービスにはBitcoinをご利用ください。
 
 
 
@@ -73,9 +73,9 @@ Flashは、現地のモバイルマネーを使って取引を行います。西
 
 
 
-- ベナン**：MTNベナン、ムーブ・ベナン、セルティス
-- トーゴ** ：ムーブ トーゴ
-- ブルキナファソ**：オレンジ
+- ベナン：**MTNベナン、ムーブ・ベナン、セルティス**
+- **トーゴ** ：ムーブ トーゴ
+- ブルキナファソ：オレンジ
 
 
 
@@ -110,7 +110,7 @@ Bitcoin Exchangeのセクションにある購入オプションをクリック�
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Flashで取引を行うと、Lightning Walletでビットコインを受け取るまでに平均5～10分かかる。
 
@@ -157,10 +157,10 @@ Bitcoin Exchangeのセクションで、**Sell**ボタンをクリックし、�
 
 
 
-- GSM**ユニット；
+- **GSM**ユニット；
 - インターネット・パッケージ
-- パッケージ**を呼び出す；
-- 通話とインターネットのパッケージ**。
+- **パッケージ**を呼び出す；
+- 通話とインターネットのパッケージ。
 
 
 
@@ -202,5 +202,4 @@ Flashはデジタルサービスだけでなく、Bitcoinを利用できる企�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

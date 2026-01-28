@@ -1,5 +1,6 @@
 id: 4581d8b0-0888-45c2-9545-d0a298b36f98
 
+last_update_date: 2025-05-20
 
 category: on-chain
 
@@ -13,122 +14,149 @@ tags:
   - risks
   - cypherpunk
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 original_language: it
 proofreading:
   - language: it
-    last_contribution_date: 2025-05-18
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 5.08
+      - overbomb
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.53
+    reward: 4.32
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.17
+    reward: 2.91
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.17
+    reward: 2.91
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.17
+    reward: 2.91
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.53
+    reward: 4.32
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.53
+    reward: 4.32
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.17
+    reward: 2.91
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.59
+    reward: 7.13
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.53
+    reward: 4.32
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 16.88
+      - 62maximalist
+    reward: 2.86
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 20.24
+    reward: 7.13
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.53
+    reward: 4.32
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.53
+    reward: 4.32
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.17
+    reward: 2.91
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.53
+    reward: 4.32
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: '2025-10-31'
     urgency: 1
     contributor_names:
-    reward: 13.53
+      - Sanja22B
+    reward: 2.86
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 13.53
+      - monyangi10
+      - Tinnah924
+    reward: 0
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 20.24
+    reward: 7.13
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.88
+    reward: 5.72
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.88
+    reward: 5.72
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.17
+    reward: 2.91
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.53
+    reward: 4.32
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.72
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.72
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.13
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.32

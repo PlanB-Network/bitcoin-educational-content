@@ -1,0 +1,8 @@
+question: Która kombinacja cech Rust sprawia, że jest on szczególnie odpowiedni do obsługi nieodwracalnego charakteru transakcji Bitcoin?
+answer: Statyczny system silnych typów, który wyłapuje błędy w czasie kompilacji i zapobiega lukom związanym z pamięcią
+wrong_answers:
+  - Dynamiczne typowanie z kontrolą runtime i automatycznym odśmiecaniem do zarządzania pamięcią
+  - Słaby system typów z elastycznymi konwersjami i ręcznym zarządzaniem pamięcią w celu optymalizacji wydajności
+  - Kompilacja just-in-time z optymalizacją runtime i interpretowaną obsługą błędów dla elastyczności
+explanation: |
+  Statyczny system silnych typów Rust ma kluczowe znaczenie dla rozwoju Bitcoin, ponieważ wyłapuje niezgodności typów i błędy logiczne przed uruchomieniem programu, zapobiegając problemom, które mogłyby wpłynąć na fundusze użytkowników. Statyczny charakter oznacza, że błędy są wykrywane w czasie kompilacji, a nie w czasie wykonywania podczas obsługi rzeczywistych transakcji. Dodatkowo, system typów Rust obsługuje własność pamięci i zapobiega lukom związanym z pamięcią, takim jak błędy double-free i warunki wyścigu. Ma to zasadnicze znaczenie dla aplikacji Bitcoin, w których błędy są nieodwracalne i nie ma organu, do którego można by się odwołać w celu odzyskania środków, w przeciwieństwie do tradycyjnych systemów finansowych z mechanizmami obciążenia zwrotnego.

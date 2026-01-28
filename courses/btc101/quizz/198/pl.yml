@@ -1,10 +1,8 @@
-question: Jaka jest jedna z rzeczy, które powinieneś mieć przed zakupem Bitcoin?
-answer: Bezpieczny Wallet.
+question: Jaki jest jeden z powodów, dla których warto od czasu do czasu konsolidować swoje UTXO w portfelach?
+answer: Aby uniknąć niepotrzebnych opłat podczas transakcji.
 wrong_answers:
-  - Fizyczny sejf.
-  - Konto bankowe.
-  - Karta kredytowa.
-explanation: |
-  Tekst kursu wspomina, że przed zakupem Bitcoin należy
-  powinieneś mieć bezpieczny Wallet, w którym będziesz przechowywać klucze.
+  - Aby zwiększyć wartość swoich bitcoinów.
+  - Aby zapobiec kradzieży bitcoinów.
+  - Aby zapewnić stałą dostępność bitcoinów.
+explanation: >-
 reviewed: true

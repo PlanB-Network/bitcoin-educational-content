@@ -1,0 +1,8 @@
+question: Vilket kritiskt säkerhetskrav måste uppfyllas vid generering av nonce K i skapandet av ECDSA-signaturer?
+answer: K måste vara unik och oförutsägbar för varje signatur för att förhindra att den privata nyckeln äventyras
+wrong_answers:
+  - K måste härledas från den offentliga nyckeln för att säkerställa att signaturverifieringen fungerar korrekt
+  - K måste vara densamma för flera signaturer för att upprätthålla enhetlighet i signeringsprocessen
+  - K måste vara lika med den privata nyckeln multiplicerad med meddelandets hash för matematisk korrekthet
+explanation: |
+  Noncen K måste vara unik och oförutsägbar för varje signatur eftersom angripare kan återskapa den privata nyckeln om K återanvänds eller om den är förutsägbar. Om samma K används två gånger med olika meddelanden kan den privata nyckeln avslöjas med hjälp av enkel algebra. Moderna implementationer använder deterministisk K-generering (RFC 6979) för att undvika fel i slumptalsgeneratorn och samtidigt säkerställa unikhet. De andra alternativen är felaktiga: K ska aldrig härledas från den offentliga nyckeln, aldrig återanvändas och aldrig vara lika med den privata nyckeln gånger meddelandets hash.

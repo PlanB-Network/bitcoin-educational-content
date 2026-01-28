@@ -8,6 +8,6 @@ wrong_answers:
   - Risk of Eclipse attack on the node
 
 explanation: |
-  Communications over Tor are slower. This latency is particularly troublesome during the initial launch of a node, as the IBD (Initial Block Download) requires a lot of communications.
+  Communications over Tor are slower. This latency is particularly troublesome during the initial launch of a node, as the IBD (Initial Block Download) requires a lot of communication.
 
-reviewed: false
+reviewed: true

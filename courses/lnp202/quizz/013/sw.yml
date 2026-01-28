@@ -1,0 +1,9 @@
+question: Ni suluhisho gani linalokuwezesha kuendesha nodi halisi ya Umeme kwenye simu za mkononi?
+answer: Nodi ya LN iliyopachikwa
+wrong_answers:
+  - Umeme wa Kuhifadhi wallet
+  - Kubadilishana kwa atomiki ya umeme
+  - Njia za Shirikisho
+explanation: |
+  Suluhisho kama vile Phoenix au Zeus Embedded hupachika nodi halisi ya Umeme moja kwa moja kwenye programu.
+reviewed: false

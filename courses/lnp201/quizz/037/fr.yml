@@ -6,4 +6,4 @@ wrong_answers:
   - Les fonds sont bloqués définitivement
 explanation: |
   Si un HTLC expire sans que le secret ne soit révélé, le paiement est annulé et les fonds reviennent à l'émetteur, empêchant ainsi tout nœud intermédiaire de conserver les fonds.
-reviewed: false
+reviewed: true 

@@ -1,8 +1,7 @@
-question: Vad är ett sätt att mildra volatiliteten i Bitcoin?
-answer: Finansiella säkringar (stablecoins).
+question: Vilken av följande funktioner bidrog till expansionen av Bitcoin, s användning på mörka webbmarknadsplatser som Silk Road?
+answer: Dess okontrollerbara och pseudonyma karaktär.
 wrong_answers:
-  - Investera alla dina pengar i Bitcoin.
-  - Ignorera marknadstrender.
-  - Köper mer Bitcoin när priset sjunker.
-explanation: >-
+  - Det är centraliserad kontroll.
+  - Dess spårbarhet och kontrollerbara natur.
+  - Dess avsaknad av pseudonymitet.
 reviewed: true

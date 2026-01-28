@@ -6,4 +6,4 @@ wrong_answers:
   - Verify the balance of funds of each participant
 explanation: |
   The last step to open a channel is to publish the deposit transaction on the blockchain, which officially opens the channel.
-reviewed: false
+reviewed: true

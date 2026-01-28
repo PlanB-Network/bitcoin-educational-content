@@ -1,0 +1,9 @@
+question: Šta je skolastička filozofija?
+answer: Hrišćanska filozofija srednjeg veka.
+wrong_answers:
+  - Politički pokret.
+  - Anarhistička filozofija.
+  - Racionalna filozofija.
+explanation: |
+  Školska filozofija bila je hrišćanska filozofija srednjeg veka koja je dominirala evropskim univerzitetima. Nastojala je da uskladi hrišćansku veru sa Aristotelovom filozofijom.
+reviewed: false

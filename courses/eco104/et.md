@@ -363,7 +363,7 @@ Kuid intressimäärade allasurumine toob kaasa kulu: see muudab kapitali kergemi
 
 See tasakaalustamisakt ei lähe päris plaanipäraselt...
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 Joonis [Võlg vs SKP](https://www.longtermtrends.net/us-debt-to-gdp/)
 
@@ -414,7 +414,7 @@ Joonis: Varaklassi tootlus ([Aktsiad](https://finance.yahoo.com/quote/%5EGSPC/hi
 
 Selle palgakasvu mahajäämusega varade hindadest oleme näinud üht ajaloo suurimat varade ümberjaotumist alumiselt klassilt ülemisele klassile
 
-![pilt](assets/2.webp)
+![pilt](assets/en/002.webp)
 
 Joonis: Kogu [Netoväärtuse](https://fred.stlouisfed.org/series/WFRBSN40188#0.) osakaal.
 
@@ -793,7 +793,7 @@ Mittehoiustaja rahakotid on Bitcoin'i rahakoti tüüp, kus olete oma vahendite a
 
 Mittehoiustaja rahakotid pakuvad kõrgemat turvalisuse ja privaatsuse taset võrreldes hoiustaja rahakottidega, kuna ainult teie vastutate oma vahendite turvalisuse eest. Mittehoiustaja rahakottide näideteks on riistvaralised rahakotid nagu [Coldcard](https://store.coinkite.com/store/coldcard) ja [Trezor](https://trezor.io/), mis on füüsilised seadmed, mis hoiavad teie privaatvõtmeid võrguühenduseta ja pakuvad lisaturvalisuse kihti. Teised populaarsed mittehoiustaja rahakotid on tarkvaralised rahakotid nagu [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), ja [Blockstream Green](https://blockstream.com/green/), mida saab alla laadida ja paigaldada teie arvutisse või mobiilseadmesse.
 
-\*_Kuigi me ei saa soovitada konkreetset rahakotti, soovitame tungivalt võtta oma bitcoinide üle kontrolli kas isehoidmise või koostöölise hoidmise kaudu, mis hõlmab rahakoti valimist vastavalt teie vajadustele ja eelistustele. Enne rahakoti valimist on oluline teha põhjalik uurimistöö, et veenduda, kas see vastab teie turvalisuse ja kasutusmugavuse nõuetele._
+**Kuigi me ei saa soovitada konkreetset rahakotti, soovitame tungivalt võtta oma bitcoinide üle kontrolli kas isehoidmise või koostöölise hoidmise kaudu, mis hõlmab rahakoti valimist vastavalt teie vajadustele ja eelistustele. Enne rahakoti valimist on oluline teha põhjalik uurimistöö, et veenduda, kas see vastab teie turvalisuse ja kasutusmugavuse nõuetele.**
 Kuigi hoiustamisteenust pakkuvad rahakotid võivad tunduda mugavad, kaasnevad nendega olulised riskid. Oma privaatvõtmete kolmandale osapoolele hoida andmisega annate neile sisuliselt kontrolli oma vahendite üle. Kui hoiustaja muutub maksejõuetuks, häkitakse või suletakse, võite kaotada juurdepääsu oma bitcoinidele. Ja seda on juhtunud lugematul arvul kordadel, kus kõrge profiiliga näideteks on Mt. Goxi ja QuadrigaCXi häkkimised, mis põhjustasid klientide vahendite kaotuse, või FTX, Voyager, BlockFi ja Celsius kogesid katastroofilisi maksejõuetusi, mis viisid nende klientide vahendite kaotuseni. Eriti säästude puhul on oluline praktiseerida isehoidmist ja võtta vastutus oma bitcoinide turvalisuse eest.
 
 #### Ohutusnõuanded
@@ -1089,7 +1089,7 @@ Nagu Adanna lugu näitas, on inflatsioon valus reaalsus lugematutele inimestele 
 
 Kahekohalise inflatsiooni mõju illustreerimiseks tähendaks 10% inflatsioonimäär, nagu Euroopas koges oktoobris 2022, 61,5% ostujõu kaotust kümne aasta jooksul.
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 _**Joonis:** Inflatsiooni mõju ostujõule_
 
@@ -1347,7 +1347,7 @@ Kuid nüüd on energiatootjatel viis kapitaliseerida seda muidu raisku minevat e
 
 Lõpuks on Bitcoini kaevurid motiveeritud otsima odavaid energiaallikaid, kuna nende kasum sõltub energia hinnast. Seetõttu otsivad nad aktiivselt kasutamata energiat või muid energia vorme, mis muidu jääksid kasutamata. Üks märkimisväärne näide on põletusgaas, mis vabaneb, kui naftaettevõtted maapinnast naftat välja pumpavad. Põletusgaas on selle protsessi kõrvalprodukt ja tavaliselt põletatakse see ära, kuna selle kogumisega seotud kulud on kõrged. See praktika, mida tuntakse põletamisena, ei põhjusta mitte ainult energia raiskamist, vaid vabastab ka metaani ja mitmesuguseid muid gaase atmosfääri.
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 _**Joonis:** Põletus[Gaas](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
@@ -1478,9 +1478,9 @@ Siiski on viimastel aastatel Bitcoin kujunenud võimsaks vahendiks finantsilisek
 
 Kui maailm vaatas õudusega, kuidas Taliban 1996. aastal Afganistani kontrolli alla võttis, elas see noor tüdruk Roya konflikti südames. Olles vaid seitsmeaastane, leidis ta end sõja keerises ja ebakindluses, kui tema kodulinn vallutati ja okupeeriti Talibani poolt. Hoolimata ohtudest ja vastuseisust, millega ta silmitsi seisis, ja asjaolust, et ta ei saanud koolis käia, keeldus Roya alla andmast. Selle asemel pöördus ta hariduse poole kui viisi, kuidas ületada tema olukorra tõttu talle seatud piiranguid.
 
-![image](assets/5.webp)
+![image](assets/en/005.webp)
 
-\***Joonis:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
+**Joonis:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 Roya Mahboob on rajaleidja Afganistani tehnoloogia- ja ettevõtlusvaldkonnas. Ta ei olnud mitte ainult [nimetatud](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) ajakirja TIME 100 kõige mõjukama inimese hulka maailmas 2013. aastal pärast "internetiklassiruumide ehitamist Afganistani keskkoolidesse." Ta asutas ka 2010. aastal Afganistani Citadel Software Company, mille eesmärk on "luua töökohti hiljuti ülikooli lõpetanud inimestele - eriti naistele." Ja nagu sellest veel vähe oleks, asutas ta seejärel Digital Citizen Fundi. See mittetulundusühing töötab selle nimel, et volitada naisi ja lapsi arengumaades tehnoloogia abil.
 
 Siiski, sellel teekonnal ei olnud Roya üksi. Bitcoin on osutunud hindamatuks vahendiks tema missioonis naiste volitamisel. Vaatamata arvukatele takistustele, sealhulgas õiguslikele tõketele, mis takistasid naistel töötamist ja pangakontode avamist, oli Roya kindel leidmaks viisi, kuidas maksta naistele, kes temaga koos töötasid.
@@ -1526,71 +1526,71 @@ Kohviku omanik, Vietnam
 
 “Minu kohvikus Binh Thanh'i piirkonnas teenindame noort klientuuri ja aeg-ajalt turiste, pakkudes erinevaid jooke, sealhulgas kohvi, karastusjooke ja kokteile. Tether on saanud meie eelistatud lahenduseks maksete töötlemiseks välismaistelt klientidelt, kellel puudub kohalik valuuta või pangakontod. Kuigi Tetheri kaudu tehtud müügid on praegu väikesed, pakub see meile mugavat viisi valuutalõhe ületamiseks ja meie rahvusvaheliste klientide majutamiseks. Kliendid on tihti üllatunud meie avatusest krüptovaluuta maksete vastuvõtmisel, jättes nende kogemusele püsiva mulje."
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 Parvinee Ratchaphokhinpiti
 Pensionär, Tai
 
 “USDt revolutsioneeris minu rahvusvahelisi rahaülekandeid. Pensionärina sõltusin ma aeglastest pangajuhtmetest. Tänu USDt'le saan nüüd raha saata vaevata digitaalse vara vahetuse kaudu. 30 minuti jooksul sai mu õde rahad kätte. Ajavõit on hindamatu, tagades kiired ja probleemivabad tehingud.”
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 Jamie Tran
 Klaveriõpetaja, Vietnam
 
 "Raha saatmine minu sugulastele välismaal on olnud sagedane vajadus, kuid valuutade vahetamine kohalikes vahetuspunktides osutus nii aeganõudvaks kui ka kalliks. Nende väljakutsetega toimetulekuks tutvustasin oma sugulastele USDt kasutamise mugavust. See lihtne muudatus on võimaldanud meie perel säästa oluliselt aega ja raha meie finantstehingutes. USDt'ga naudime nüüd sujuvaid ülemeretehinguid, tagades tõhusa ja kulutõhusa toe meie lähedastele."
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 Roman
 Venemaa ekspatriaat, kes elab Vietnamis
 
 “Elades Vietnamis, saadan ma sageli Tetherit oma sugulastele ja nõbudele Venemaal. Raha saatmine välismaale Tetheriga on probleemivaba võrreldes traditsiooniliste pangameetoditega. Pangakülastusi, notariaalselt kinnitatud dokumente ega selgitusi ei nõuta. Ilma saatmispiirangute, minimaalsete tasude ja kiirete tehingutega jõuavad vahendid kohale minutitega.”
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 Luis Graterol
 Audiovisuaalne, Venezuela
 
 “Minu nimi on Luis Graterol ja Tether aitas mul oma sääste teisiti kindlustada. Venezuelas kannatame me kõrge inflatsiooni all ja Tether on palju aidanud. Selle kasutatavus on lihtne ja paljudel juhtudel saab tehinguid teha ilma igasuguste tasudeta. USDt teeb mu elu lihtsamaks! See aitab mul ka harida ja julgustada selle kasutamist audiovisuaalmeedias; alates selle kasutusmugavuse avastamisest saan ma oma makseid USDt'ga ja säästan tüütut kohalikku fiat-valuutat, mis mõjutab paljusid meist!”
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 Dubraska Villanloga
 Tegevjuht Tu Cachapa Caricuao, Caracas, Venezuela
 "Olen pärit Venezuelast ja juhin väikest hommikusöögi kohaletoimetamise äri. Tether USDt on olnud minu jaoks elujõuline lahendus sularaha probleemile. USDt on aidanud mul ka oma säästudega, sest kui ma oleksin hoidnud oma ärikontosid Venezuela bolívarites, ei oleks ma suutnud oma toidu hankimist ette planeerida pideva devalveerimise tõttu."
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 Marcela Romero
 Turundus- ja PR-juht, Guanacaste, Costa Rica
 
 "Mõned aastad tagasi kolisin oma abikaasa riiki. Pandeeemia tõttu seisasin silmitsi ainulaadse migratsiooniseisundiga, mis tõi kaasa pikaleveninud ootamise elamisloa või kodakondsuse saamiseks. Peaaegu kolm aastat puudus mul juurdepääs pangakontole ja ma ei saanud riigis seaduslikult töötada. Siiski, kasutades ära oma võimalusi töötada veebis ja saades oma palka USDt-s, jätkasin ma oma karjääri rahvusvahelistes ettevõtetes. Tetheriga saan ma raha koju saata ilma kõrgete tasude või viivitusteta. Tether on võimaldanud mul jätkata oma professionaalseid eesmärke ja säilitada finantsiline sõltumatus vaatamata valitsuse piirangutele."
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 Simoneth Gomez
 QA insener, Venezuela, elab Argentinas
 
 "Tere, minu nimi on Simoneth Gomez. Olen pärit Venezuelast, kuid praegu elan Buenos Aireses, kus töötan tarkvara kvaliteedianalüütikuna. Kui ma Argentinasse tulin, oli minu töökoha ja raha vahetamise koha vahel 12 km. Nii tutvustati mulle USDt-d ja hakkasin seda kasutama, sest selle asemel, et selle vahemaa läbimiseks bussiga 5 või 10 dollarit kulutada, suutsin ma selle lahendada oma laua taga kahe minutiga."
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 Carlos Caballero
 Psühholoog, Argentina
 
 "Tether on olnud lahendus, mis on võimaldanud mul jätkata oma ametis töötamist pandeemia aastatel. Asjaolu, et see on valuuta, mis on seotud dollariga, võimaldab sellel olla rahvusvaheline viiteväärtus. Ja selle stabiilsus ning turvalisus teiste krüptovaluutade volatiilsuse ees on peamine põhjus, mis mind selle valima pani."
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 Heloisa Passos
 Tegevjuht, Sp4ce Games, Brasiilia
 
 "Olen nüüdseks umbes viis aastat töötanud rahvusvahelistele ettevõtetele kaugtööd tehes ja enamiku sellest ajast olen kannatanud kõrgete intressimäärade all, mida riiklikud pangad rahvusvaheliste ülekannete eest nõuavad, lisaks ooteajale maksete kinnitamiseks Swift süsteemi kaudu (umbes 24 tundi). Kui hakkasin oma palka saama Tetheris, mõistsin, kui palju aega ja raha ma hakkasin säästma, lihtsalt saades palka USDt-s."
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 Samuel
 Kauplemisettevõte, Nigeeria
 
 "USDt kasutamine on meie äri jaoks palju aega säästnud, sest Nigeeria ettevõttena nõuab USD saamine meie pangas käimist, väärtusliku aja kulutamist vormide täitmisele ja tundide viisi järjekorras seismist, et teha väljavõtteid või ülekandeid. USDt-ga aga saame selle vahetada kohaliku valuuta vastu vähem kui 5 minutiga ja teostada ükskõik millise tehingu, mida meil vaja on."
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 Joshua
 Üliõpilane, Nigeeria
 
 "Tether on mind mitmel viisil aidanud. Tetheris teenimine on aidanud mul ületada riigis kasvava inflatsiooni pinge ja on aidanud mul vähendada tarbetut kulutamist. Samuti aitab see mu säästul säilitada oma väärtust, kuna ma ei ole nii palju mõjutatud Naira devalveerimisest."
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 Esther
 HR Agentuur, Nigeeria
 Inimressursside valdkonnas peame maksma paljudele inimestele erinevates riikides. Ja me lihtsalt ei saa maksta kõigile nende rahvusvaluutas. Tether USDt abil saame maksta kõigile sõltumata nende rahvusest ja sellest, kus nad töötavad, ning nad saavad USDt-d ise vahetada, millal iganes soovivad.

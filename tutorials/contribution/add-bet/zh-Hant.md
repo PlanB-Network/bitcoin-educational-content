@@ -1,6 +1,6 @@
 ---
 name: 新增教育工具
-description: 如何在 PlanB Network 上新增教材？
+description: 如何在 Plan ₿ Academy 上新增教材？
 ---
 ![event](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: 如何在 PlanB Network 上新增教材？
 PlanB 的使命是以儘可能多的語言提供有關 Bitcoin 的領先教育資源。網站發佈的所有內容都是開放原始碼，並託管於 GitHub，讓任何人都能參與豐富平台的內容。
 
 
-除了教程和培訓，PlanB Network 還提供了一個關於 Bitcoin 的龐大資料庫，其中包含了各種各樣的教育內容，每個人都可以訪問，[在 "BET" (_Bitcoin Educational Toolkit_) 部分](https://planb.network/resources/bet)。這個資料庫包括教育海報、memes、幽默宣傳海報、技術圖表、標誌和其他用戶工具。此舉的目的是支援世界各地教授 Bitcoin 的個人和社群，為他們提供必要的視覺資源。
+除了教程和培訓，Plan ₿ Academy 還提供了一個關於 Bitcoin 的龐大資料庫，其中包含了各種各樣的教育內容，每個人都可以訪問，[在 "BET" (_Bitcoin Educational Toolkit_) 部分](https://planb.academy/resources/bet)。這個資料庫包括教育海報、memes、幽默宣傳海報、技術圖表、標誌和其他用戶工具。此舉的目的是支援世界各地教授 Bitcoin 的個人和社群，為他們提供必要的視覺資源。
 
 
 您想參與豐富這個資料庫，但不知道如何進行嗎？本教學就是為您準備的！
 
 
-*所有整合到網站上的內容必須是無權或尊重原始檔案的授權。此外，PlanB Network 發佈的所有視覺圖片均以 [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) 授權提供。*
+*所有整合到網站上的內容必須是無權或尊重原始檔案的授權。此外，Plan ₿ Academy 發佈的所有視覺圖片均以 [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) 授權提供。*
 
 ![event](assets/01.webp)
 
@@ -22,7 +22,7 @@ PlanB 的使命是以儘可能多的語言提供有關 Bitcoin 的領先教育�
 - 首先，您需要擁有一個 GitHub 帳戶。如果您不知道如何建立帳號，我們已為您準備了詳細的教學。
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -36,7 +36,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- 如果您之前從未貢獻過 PlanB Network 的內容，您需要建立原始套件庫的 Fork。Forking 倉庫意味著在您自己的 GitHub 帳戶上創建該倉庫的副本，這樣您就可以在不影響原始倉庫的情況下進行專案工作。點擊 `Fork this repository` 按鈕：
+- 如果您之前從未貢獻過 Plan ₿ Academy 的內容，您需要建立原始套件庫的 Fork。Forking 倉庫意味著在您自己的 GitHub 帳戶上創建該倉庫的副本，這樣您就可以在不影響原始倉庫的情況下進行專案工作。點擊 `Fork this repository` 按鈕：
 
 ![event](assets/04.webp)
 
@@ -79,22 +79,22 @@ contributors:
 
 
 
-- `project`**：表示您的組織在 PlanB Network 上的識別碼。如果您的公司還沒有 "project "識別碼，您可以按照本教學建立一個。
+- `project`**：**表示您的組織在 Plan ₿ Academy 上的識別碼。如果您的公司還沒有 "project" 識別碼，您可以按照本教學建立一個。
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 如果您沒有個人資料，您可以直接使用您的姓名、假名或公司名稱，而無需建立建立者個人資料。
 
 
 
-- `type`**：在下列兩個選項中選擇您內容的性質：
+- `type`**：在下列兩個選項中選擇您內容的性質：**
  - `教育內容'用於教育內容。
  - 其他類型的多樣內容的 ` 視覺內容
 
 
 
-- `links`**：提供您內容的連結。您有兩個選項：
+- `links`**：提供您內容的連結。您有兩個選項：**
  - 如果您選擇直接在 PlanB 的 GitHub 上託管您的內容，您需要在下列步驟中將連結加入此檔案。
  - 如果您的內容寄存在其他地方，例如您的個人網站，請在此標明相應的連結：
      - `下載`：下載內容的連結。
@@ -102,7 +102,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 
-- `tags`**：新增兩個與內容相關的標籤。範例：
+- `tags`**：新增兩個與內容相關的標籤。範例：**
  - Bitcoin
  - 技術
  - 經濟
@@ -111,14 +111,14 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 
-- `contributors`**：如果您有貢獻者識別碼，請提及。
+- `contributors`**：如果您有貢獻者識別碼，請提及。**
 
 
 例如，您的 YAML 檔案可以如下所示：
 
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -135,7 +135,7 @@ view:
 ![event](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![event](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![event](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
 ![event](assets/16.webp)
@@ -152,7 +152,7 @@ view:
 - Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
 - Return to the `assets` folder: ![event](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the PlanB Network site: ![event](assets/26.webp)
+- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
 - It can be a preview, a logo, or an icon: ![event](assets/27.webp)
 - Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
 - Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)

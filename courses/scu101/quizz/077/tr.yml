@@ -1,9 +1,9 @@
-question: E-postanızın güvenliğini sağlamak neden önemlidir?
+question: E-posta adresini güvence altına almak neden önemlidir?
 answer: Çünkü şifrelerinizi sıfırlamanıza izin verir
 wrong_answers:
   - Çünkü haber bültenlerini almak için kullanılır
   - Çünkü tüm şifrelerinizi içerir
-  - Çünkü banka bilgilerinizi içeriyor
+  - Çünkü banka bilgilerinizi içerir
 explanation: |
-  Posta kutusu, bir ihlal durumunda parolaları almak ve birden fazla hesabı tehlikeye atmak için merkezi erişim noktasıdır.
+  Posta kutusu, bir ihlal durumunda parolaların alınması ve birden fazla hesabın ele geçirilmesi için merkezi erişim noktasıdır.
 reviewed: true

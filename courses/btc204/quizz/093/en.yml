@@ -8,6 +8,6 @@ wrong_answers:
   - To spend the mixed UTXOs.
 
 explanation: |
-  The Tx0 aims to prepare and equalize the UTXOs for the coinjoin, by splitting them into units corresponding to the amount of the selected pool, in order to ensure the homogeneity of the mixing.
+  The Tx0 aims to prepare and equalize the UTXOs for the coinjoin by splitting them into units corresponding to the amount of the selected pool in order to ensure the homogeneity of the mixing.
 
-reviewed: false
+reviewed: true

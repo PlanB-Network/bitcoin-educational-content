@@ -1,0 +1,9 @@
+question: Hva er den utgående likviditeten til en Lightning-node?
+answer: Evne til å betale
+wrong_answers:
+  - Mulighet til å koble til
+  - Kapasitet til å motta
+  - Evne til å stenge kanaler
+explanation: |
+  Utgående likviditet representerer sats som er tilgjengelig på operatørens side for å utføre betalinger.
+reviewed: false

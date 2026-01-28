@@ -1,10 +1,12 @@
-question: Qu'est-ce que le Manifeste Cypherpunk ?
-answer: Un texte écrit par Eric Hughes affirmant que la vie privée est un droit fondamental.
+question: Quelles sont les principales caractéristiques d'une monnaie efficace ?
+answer: Fongible, Divisible, Liquide.
 wrong_answers:
-  - Un livre écrit par Julian Assange sur l'avenir de la technologie.
-  - Un document décrivant les principes du Bitcoin.
-  - Un manifeste écrit par David Chaum sur l'importance de la monnaie numérique.
+  - Fongible, Divisible, Périssable.
+  - Fongible, Indivisible, Liquide.
+  - Non-fongible, Divisible, Liquide.
 explanation: |
-  Le Manifeste Cypherpunk a été écrit par Eric Hughes en 1993
-  et affirme que la vie privée est un droit fondamental.
+  Une monnaie efficace doit être fongible (interchangeable
+  sans perte de valeur), divisible (séparable en petites
+  parties pour faciliter les transactions de différents volumes), et
+  liquide (facilement convertible en biens ou services).
 reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - To identify a cluster belonging to the same entity.
 explanation: |
   The internal heuristics allow us to identify the exchange with the aim of observing the user in subsequent transactions.
-reviewed: false
+reviewed: true

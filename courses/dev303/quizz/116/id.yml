@@ -1,0 +1,8 @@
+question: Apa keuntungan utama dari fitur interoperabilitas Breez SDK yang memungkinkan beberapa aplikasi terhubung ke node Lightning yang sama menggunakan frasa seed yang sama?
+answer: Pengguna dapat mempertahankan keseimbangan Lightning tunggal di berbagai aplikasi khusus sambil menghindari kerumitan mengelola beberapa node Lightning
+wrong_answers:
+  - Aplikasi dapat berbagi kunci privat secara langsung antara satu sama lain, memungkinkan penandatanganan transaksi lintas aplikasi yang mulus tanpa campur tangan pengguna
+  - Beberapa aplikasi dapat mengumpulkan likuiditas mereka bersama-sama untuk membuat saluran Lightning yang lebih besar dengan kapasitas perutean yang lebih besar untuk jaringan
+  - Pengembang dapat mengakses infrastruktur Lightning bersama tanpa menerapkan manajemen simpul mereka sendiri, sehingga mengurangi biaya dan kompleksitas pengembangan
+explanation: |
+  Interoperabilitas SDK memungkinkan pengguna untuk mengakses node Lightning yang sama dan dana dari beberapa aplikasi khusus (seperti wallet umum dan aplikasi podcasting) tanpa mengelola saldo atau node yang terpisah. Jawaban yang salah menggambarkan arsitektur yang salah: private key tidak pernah meninggalkan perangkat pengguna dan tidak dibagikan di antara aplikasi, pengumpulan likuiditas bukanlah cara kerja sistem, dan meskipun pengembang mendapatkan keuntungan dari infrastruktur yang disederhanakan, keuntungan utama yang dijelaskan adalah pengalaman pengguna yang terpadu di seluruh aplikasi.

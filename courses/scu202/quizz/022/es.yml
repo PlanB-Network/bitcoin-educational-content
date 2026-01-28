@@ -5,5 +5,5 @@ wrong_answers:
   - Debian
   - Fedora
 explanation: |
-  Cinnamon fue desarrollado por el equipo de Linux Mint para ofrecer un Interface moderno y clásico, cercano a Windows.
-reviewed: false
+  Cinnamon fue desarrollado por el equipo de Linux Mint para ofrecer una interfaz moderno y clásico, cercano a Windows.
+reviewed: true

@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści Mickaela Dorigny'ego opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany
+*Ten samouczek jest oparty na oryginalnej treści Mickaela Dorigny'ego opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany.*
 
 
 
@@ -131,7 +131,7 @@ Teraz usuniemy wszystkie dane z naszej pamięci USB. Operacja polega na wypełni
 
 
 
-**Upewnij się, że wybierasz właściwy plik urządzenia!
+**Upewnij się, że wybierasz właściwy plik urządzenia!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Tutaj podkomenda "`luksFormat`" inicjalizuje i formatuje urządzenie do korzystania z szyfrowania LUKS. Zostaniesz poproszony o potwierdzenie tej operacji poprzez wpisanie `YES` wielkimi literami, a następnie zdefiniowanie *passphrase*. **Wybierz solidny *passphrase*, aby upewnić się, że w przypadku utraty atakujący nie będzie mógł go wykryć za pomocą ataków siłowych.
+Tutaj podkomenda "`luksFormat`" inicjalizuje i formatuje urządzenie do korzystania z szyfrowania LUKS. Zostaniesz poproszony o potwierdzenie tej operacji poprzez wpisanie `YES` wielkimi literami, a następnie zdefiniowanie *passphrase*. **Wybierz solidny** ***passphrase***, **aby upewnić się, że w przypadku utraty atakujący nie będzie mógł go wykryć za pomocą ataków siłowych.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Tutaj lokalizacja docelowa** jest określona jako "**/dev/mappe/usbkey1**"**, dlaczego?
+**Tutaj lokalizacja docelowa** jest określona jako "**/dev/mappe/usbkey1**", dlaczego?
 
 
 

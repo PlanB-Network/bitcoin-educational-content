@@ -10,7 +10,7 @@ Pokud chcete přidat konferenci o Bitcoinu na web síť PlanB a zvýšit viditel
 ![event](assets/01.webp)
 - Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme podrobný tutoriál, který vás provede.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) v sekci `resources/conference/`:
@@ -85,7 +85,7 @@ tags:
 ![událost](assets/09.webp)
 Pokud ještě nemáte pro vaši organizaci identifikátor "*project*", můžete jej přidat podle tohoto dalšího návodu.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -99,7 +99,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![událost](assets/13.webp)
 - Klikněte na vaši profilovou fotografii v pravém horním rohu, poté na `Your Repositories`:
 ![událost](assets/14.webp)
-- Vyberte váš fork repozitáře PlanB Network:
+- Vyberte váš fork repozitáře Plan ₿ Academy:
 ![událost](assets/15.webp)
 - Na vrchu okna byste měli vidět oznámení s vaší novou větví. Pravděpodobně se jmenuje `patch-1`. Klikněte na ni:
 ![událost](assets/16.webp)
@@ -120,7 +120,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 - Vraťte se do složky `assets`:
 ![událost](assets/24.webp)
 - Klikněte na tlačítko `Add file`, poté na `Upload files`: ![událost](assets/25.webp)
-- Otevře se nová stránka. Přetáhněte obrázek, který reprezentuje vaši konferenci a bude zobrazen na webu PlanB Network:
+- Otevře se nová stránka. Přetáhněte obrázek, který reprezentuje vaši konferenci a bude zobrazen na webu Plan ₿ Academy:
 ![událost](assets/26.webp)
 - Může to být logo, miniatura nebo dokonce plakát:
 ![událost](assets/27.webp)

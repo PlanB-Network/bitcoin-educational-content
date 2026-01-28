@@ -1,0 +1,8 @@
+question: Apa perbedaan penting antara desain lapisan persistensi LDK dan manajemen data node Lightning tradisional yang memungkinkan fleksibilitas penerapan lintas platform?
+answer: LDK menyediakan gumpalan data biner abstrak untuk penyimpanan sementara aplikasi mengimplementasikan mekanisme penyimpanan mereka sendiri
+wrong_answers:
+  - LDK menggunakan basis data SQL standar sementara node tradisional memerlukan implementasi sistem file khusus
+  - LDK secara otomatis menyinkronkan data di berbagai platform sementara node tradisional hanya menyimpan data secara lokal
+  - LDK mengenkripsi semua data persistensi secara default, sementara node tradisional mengandalkan enkripsi tingkat aplikasi
+explanation: |
+  Lapisan persistensi LDK mengabstraksikan penyimpanan dengan menyediakan gumpalan data biner terserialisasi kepada aplikasi yang harus disimpan dan diambil dengan andal, sambil menangani semua kerumitan serialisasi status saluran Lightning dan data jaringan secara internal. Hal ini memungkinkan aplikasi untuk memilih solusi penyimpanan apa pun (sistem file, penyimpanan cloud, basis data) yang sesuai dengan persyaratan platform mereka. Node Lightning tradisional biasanya menerapkan sistem manajemen data spesifik mereka sendiri yang terkait dengan mekanisme penyimpanan tertentu, sehingga kurang fleksibel di berbagai lingkungan penerapan.

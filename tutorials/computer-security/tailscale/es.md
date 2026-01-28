@@ -72,7 +72,7 @@ Sin embargo, esta arquitectura depende de Tailscale Inc. para la coordinación d
 
 
 
-**Para una explicación detallada del funcionamiento interno de Tailscale, incluyendo la gestión del plano de control, NAT traversal y DERP relays, recomendamos el excelente artículo [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) en el blog oficial. Este artículo explica en profundidad los conceptos técnicos que hacen que Tailscale sea tan potente.
+**Para una explicación detallada del funcionamiento interno de Tailscale, incluyendo la gestión del plano de control, NAT traversal y DERP relays, recomendamos el excelente artículo [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) en el blog oficial. Este artículo explica en profundidad los conceptos técnicos que hacen que Tailscale sea tan potente.**
 
 
 
@@ -261,13 +261,13 @@ La consola de administración web te permite ver y gestionar todos los dispositi
 
 
 
-- Interfaz Web (Admin Console)**: Accesible en [https://login.tailscale.com](https://login.tailscale.com), esta consola web es el panel central para tu red Tailscale. Lista todos los dispositivos (*Máquinas*), su estado online/offline, sus direcciones IP Tailscale, y más. Aquí puedes **gestionar dispositivos** (renombrar, expirar claves, autorizar rutas, deshabilitar un nodo), **gestionar usuarios** (en un contexto organizativo), y definir reglas de seguridad (ACLs). Aquí también se configuran opciones globales como MagicDNS, etiquetas o claves de autenticación (claves de autenticación pre-generate para la adición automática de dispositivos). La Interfaz web es muy útil para obtener una visión general y aplicar cambios que se propagarán a través del servidor de coordinación a todos los nodos. *Ejemplo:* Activar una **ruta de subred** o un **nodo de salida** se hace con un solo clic en la consola, una vez que el nodo en cuestión se ha anunciado como tal.
+- **Interfaz Web (Admin Console)**: Accesible en [https://login.tailscale.com](https://login.tailscale.com), esta consola web es el panel central para tu red Tailscale. Lista todos los dispositivos (*Máquinas*), su estado online/offline, sus direcciones IP Tailscale, y más. Aquí puedes **gestionar dispositivos** (renombrar, expirar claves, autorizar rutas, deshabilitar un nodo), **gestionar usuarios** (en un contexto organizativo), y definir reglas de seguridad (ACLs). Aquí también se configuran opciones globales como MagicDNS, etiquetas o claves de autenticación (claves de autenticación pre-generate para la adición automática de dispositivos). La Interfaz web es muy útil para obtener una visión general y aplicar cambios que se propagarán a través del servidor de coordinación a todos los nodos. *Ejemplo:* Activar una **ruta de subred** o un **nodo de salida** se hace con un solo clic en la consola, una vez que el nodo en cuestión se ha anunciado como tal.
 
 
 
 
 
-- Línea de comandos Interface (CLI):** El comando `tailscale` está disponible en CLI en cada dispositivo donde Tailscale esté instalado. Este CLI te permite hacer todo localmente: Conectar (`tailscale up`), inspeccionar el estado (`tailscale status` para ver qué peers están conectados), depurar (`tailscale ping <ip>`), etc. Algunas características son incluso **exclusivas de CLI** o más avanzadas, por ejemplo:
+- **Línea de comandos Interface (CLI):** El comando `tailscale` está disponible en CLI en cada dispositivo donde Tailscale esté instalado. Este CLI te permite hacer todo localmente: Conectar (`tailscale up`), inspeccionar el estado (`tailscale status` para ver qué peers están conectados), depurar (`tailscale ping <ip>`), etc. Algunas características son incluso **exclusivas de CLI** o más avanzadas, por ejemplo:
 
 
 
@@ -293,7 +293,7 @@ Umbrel es una popular plataforma de autoalojamiento (utilizada especialmente par
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 El uso conjunto de Umbrel y Tailscale es un caso de uso especialmente interesante, ya que Umbrel integra de forma nativa un módulo de Tailscale fácil de desplegar. A continuación te explicamos cómo se integra Tailscale con Umbrel y qué aporta:
 
@@ -305,7 +305,7 @@ El uso conjunto de Umbrel y Tailscale es un caso de uso especialmente interesant
 
 
 
-- Instalación de Tailscale en Umbrel:** Umbrel tiene una aplicación oficial de Tailscale en su App Store. La instalación no puede ser más sencilla:
+- **Instalación de Tailscale en Umbrel:** Umbrel tiene una aplicación oficial de Tailscale en su App Store. La instalación no puede ser más sencilla:
 
 
 
@@ -419,7 +419,7 @@ Lee nuestra guía completa para configurar Sparrow wallet con tu nodo Bitcoin:
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -439,13 +439,13 @@ Para configurar Zeus con tu nodo Lightning, consulta nuestro tutorial detallado:
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Para saber más sobre la Lightning Network y su funcionamiento en Umbrel, visita:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 
@@ -507,7 +507,7 @@ Para concluir esta sección, la integración de Tailscale en Umbrel sólo requie
 
 
 
-**Compartir dispositivos te permite invitar a alguien a acceder a un equipo concreto sin darle acceso a toda tu red.
+**Compartir dispositivos te permite invitar a alguien a acceder a un equipo concreto sin darle acceso a toda tu red.**
 
 
 
@@ -531,11 +531,11 @@ Para concluir esta sección, la integración de Tailscale en Umbrel sólo requie
 
 
 
-**Como competidor directo, ZeroTier opera en Layer 2 (Ethernet), permitiendo broadcast/multicast, mientras que Tailscale opera en Layer 3 (IP). ZeroTier ofrece mayor flexibilidad de red, mientras que Tailscale favorece la sencillez de uso.
+**Como competidor directo, ZeroTier opera en Layer 2 (Ethernet), permitiendo broadcast/multicast, mientras que Tailscale opera en Layer 3 (IP). ZeroTier ofrece mayor flexibilidad de red, mientras que Tailscale favorece la sencillez de uso.**
 
 
 
-**Tor ofrece un anonimato que Tailscale no ofrece, pero es mucho más lento. Tor está descentralizado y no requiere una cuenta, mientras que Tailscale es más rápido y ofrece una experiencia similar a la de una LAN.
+**Tor ofrece un anonimato que Tailscale no ofrece, pero es mucho más lento. Tor está descentralizado y no requiere una cuenta, mientras que Tailscale es más rápido y ofrece una experiencia similar a la de una LAN.**
 
 
 

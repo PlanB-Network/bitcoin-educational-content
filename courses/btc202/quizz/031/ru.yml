@@ -1,0 +1,9 @@
+question: Какой дистрибутив лучше всего подходит для Raspberry Pi, поскольку он очень легкий?
+answer: RaspiBlitz
+wrong_answers:
+  - Зонтик
+  - MyNode
+  - Старт9
+explanation: |
+  RaspiBlitz оптимизирован для Raspberry Pi и остается легким, в отличие от Umbrel, который стал слишком тяжелым для этих машин.
+reviewed: true

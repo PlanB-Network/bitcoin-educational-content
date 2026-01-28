@@ -1,0 +1,8 @@
+question: Je, faida kuu ya kutumia Taproot na MuSig2 kwa ajili ya kubadilishana tabaka mbalimbali ikilinganishwa na HTLC za zamani za SegWit v0 ni ipi?
+answer: Ubadilishanaji wa vyama vya ushirika huonekana kama miamala ya kawaida ya sahihi moja, kutoa faragha kamili na matumizi madogo ya nafasi ya kuzuia
+wrong_answers:
+  - Taproot huondoa hitaji la kufuli kwa muda, na kufanya ubadilishaji kuwa wa haraka na wenye ufanisi zaidi kuliko HTLC za zamani
+  - MuSig2 inaruhusu kufuli nyingi za hashi kutumika kwa wakati mmoja, na kuwezesha mipangilio tata zaidi ya kubadilishana ya vyama vingi
+  - Ubadilishaji wa Taproot unaweza kukamilika bila kufichua siri zozote za kriptografia, tofauti na HTLC za zamani ambazo hufichua picha za awali kila wakati.
+explanation: |
+  Taproot yenye MuSig2 hubadilisha faragha ya HTLC kupitia mkusanyiko wa funguo. Katika 'njia ya furaha' ya ushirika, pande zote mbili huchanganya funguo zao kuwa ufunguo mmoja wa umma uliojumlishwa na kusaini kwa pamoja muamala. Hii inafanya ubadilishaji usitofautishwe na malipo ya kawaida, ukitumia nafasi ndogo ya kuzuia na kutoonyesha masharti ya ubadilishaji. HTLC za zamani za SegWit v0 zilihitaji kuchapisha mantiki nzima ya hati ya on-chain, na kuzifanya zitambulike kwa urahisi na kuwa ghali zaidi. Chaguzi zingine si sahihi: kufuli kwa muda kunabaki kuwa muhimu kwa usalama, kufuli nyingi za hash sio uvumbuzi muhimu, na picha za awali bado zinafunuliwa wakati wa kudai fedha.

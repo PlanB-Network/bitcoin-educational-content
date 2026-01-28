@@ -1,0 +1,9 @@
+question: RGB에서 커밋에 Opret 대신 Tapret을 사용하는 것이 권장되는 이유는 무엇인가요?
+answer: 노출을 최소화하고 검열을 피하려면 다음과 같이 하세요
+wrong_answers:
+  - 거래 비용을 줄이려면
+  - OP_RETURN은 라이트닝과 호환되지 않기 때문에
+  - 약정 규모를 최대화하려면
+explanation: |
+  Tapret을 사용하면 커밋이 즉시 표시되고 검열의 대상이 되는 OP_RETURN와 달리 신중하게 커밋을 통합할 수 있습니다.
+reviewed: false

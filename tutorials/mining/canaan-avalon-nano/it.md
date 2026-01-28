@@ -23,7 +23,7 @@ Questi dispositivi sono commercializzati come riscaldatori ausiliari, nel caso d
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Si noti che la differenza di prezzo con i riscaldatori tradizionali di potenza equivalente non consente, nella stragrande maggioranza dei casi, di ottenere un profitto finanziario. I satoshi generati dall'attività del Mining non compenseranno mai questa differenza di prezzo, a meno che non si abbia accesso a elettricità gratuita (in eccesso) o molto economica.
 
@@ -75,17 +75,18 @@ Di seguito è riportata una tabella che riassume le specifiche tecniche generali
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Caratteristica                                      | Valore                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hashrate                                      | 6 Th/s +- 5%                                            |
+| Consumo di energia                               | 140 W                                                   |
+| Rumore                                                | 30 - 40 dB                                              |
+| Intervallo di temperatura aria di uscita                 | 60-70°C (a temperatura ambiente 25°C)                |
+| Requisiti di temperatura ambiente per l'uso | da -5 a 30°C                                            |
+| Intervallo di tensione di ingresso del dispositivo                         | 28V 5A continuo                                          |
+| Intervallo di tensione di ingresso dell'adattatore                       | 110-240V AC 50/60Hz                                     |
+| Dimensioni del dispositivo                                 | Lunghezza: 205 mm / Larghezza: 115 mm / Altezza: 58.5 mm |
+| Peso del dispositivo                                  | 0.86 kg                                                 |
 
 ## Accensione e connessione alla rete locale
 
@@ -207,9 +208,9 @@ Per ulteriori dettagli sulla connessione a un Mining pool, consultare queste ese
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Per riassumere, abbiamo bisogno di
 
@@ -358,4 +359,4 @@ Per saperne di più, date un'occhiata al nostro tutorial sulla versione superior
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

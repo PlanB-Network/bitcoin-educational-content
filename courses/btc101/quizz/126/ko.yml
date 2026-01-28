@@ -1,0 +1,8 @@
+question: 채굴자는 어떻게 트랜잭션의 유효성을 검사하고 이를 블록에 포함하나요?
+answer: Proof of Work의 과정을 통해
+wrong_answers:
+  - 지분 증명 프로세스를 통해
+  - 권한 증명 프로세스를 통해
+  - 화상 증명 과정을 통해.
+explanation: >-
+reviewed: true

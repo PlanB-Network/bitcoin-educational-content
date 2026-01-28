@@ -1,13 +1,12 @@
-question: Welches der folgenden ist kein Vorteil von Bitcoin als Währung?
-answer: Es wird verwendet, um Steuern zu bezahlen.
+question: Was ist die maximale Anzahl an Bitcoin-Einheiten, die jemals existieren können?
+answer: 21 Millionen.
 wrong_answers:
-  - Es ist teilbar.
-  - Es ist transportierbar.
-  - Es ist erlaubnisfrei.
+  - 3 Billionen.
+  - 100 Millionen.
+  - Es gibt kein Limit.
 explanation: |
-  Bitcoin bietet aufgrund seiner Eigenschaften wie Teilbarkeit,
-  Verifizierbarkeit, Erlaubnisfreiheit und Transportierbarkeit
-  einen ausgezeichneten Wertspeicher. Darüber hinaus stellt es als
-  neutrale Internetwährung ein gutes Tauschmittel dar, das keine
-  Grenzen kennt.
+  Das Gesamtangebot von Bitcoin ist auf 21 Millionen Einheiten begrenzt.
+  Dies ist ein Schlüsselmerkmal von Bitcoin, das es
+  von Fiatwährungen unterscheidet, die in
+  unbegrenzten Mengen von Zentralbanken gedruckt werden können.
 reviewed: true

@@ -1,0 +1,9 @@
+question: 2011년 6월에 Bitcoin이 도달한 최고가는 얼마였나요?
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation: |
+  6월 8일, Bitcoin의 가격은 마운트곡스에서 사상 최고치인 32달러를 기록했습니다. 그러나 그 후 빠르게 하락했습니다.
+reviewed: true

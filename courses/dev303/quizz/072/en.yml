@@ -1,0 +1,8 @@
+question: What distinguishes runtime resource errors from invalid input errors and logic errors in Bitcoin application development?
+answer: Runtime resource errors occur when external dependencies like files or network connections are unavailable, requiring environmental fixes rather than code changes
+wrong_answers:
+  - "Runtime resource errors happen when function parameters don't meet requirements, indicating contract violations between caller and function"
+  - Runtime resource errors represent bugs in program implementation that require debugging and code modification to resolve properly
+  - Runtime resource errors occur when the type system fails to catch mismatches, allowing incorrect data types to propagate through the system
+explanation: |
+  Runtime resource errors are external to the program logic and occur when dependencies like files, network connections, or storage devices are unavailable. Unlike invalid input errors (which involve parameter contract violations) or logic errors (which are implementation bugs), runtime resource errors typically require environmental fixes rather than code changes. The application must handle these gracefully since they're often temporary and outside the program's direct control.

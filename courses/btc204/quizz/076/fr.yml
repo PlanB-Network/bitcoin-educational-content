@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   La transaction coinjoin est une transaction collaborative dans laquelle plusieurs utilisateurs mélangent leurs pièces.
 
-reviewed: false
+reviewed: true 

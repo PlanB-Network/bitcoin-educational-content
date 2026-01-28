@@ -1,13 +1,9 @@
-question: What is the status of Bitcoin in El Salvador?
-answer: Legal tender.
+question: What does a Lightning node risk by publishing an old channel state?
+answer: A penalty
 wrong_answers:
-  - Criminalized.
-  - Unknown.
-  - Unregulated.
+  - A warning
+  - Additional mining fees
+  - A temporary freeze
 explanation: |
-  The course text mentions that some countries have banned
-  and criminalized the use of Bitcoin, adding to the
-  complexity of Bitcoin adoption based on cultures, eras, and
-  nations. However, El Salvador was brave enough to adopt it
-  as a legal tender.
-reviewed: true
+  The protocol provides for a deterrent penalty allowing the other party to recover all of the funds.
+reviewed: false

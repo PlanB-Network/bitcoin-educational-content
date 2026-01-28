@@ -1,0 +1,9 @@
+question: Basitleştirilmiş ödeme doğrulaması (SPV) kavramını kim icat etti?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Pieter Wuille
+explanation: |
+  SPV, Satoshi Nakamoto'nun Beyaz Kitabının 8. bölümünde sunulmuştur.
+reviewed: true

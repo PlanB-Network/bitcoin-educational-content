@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 於 2008 年發表的白皮書標題是什麼？
+answer: Bitcoin 點對點電子現金系統
+wrong_answers:
+  - Bitcoin 分散式數位黃金系統
+  - Bitcoin 貨幣的未來
+  - Bitcoin 基於 Blockchain 的付款網路
+explanation: |
+  Satoshi 中本的白皮書《Bitcoin 點對點電子現金系統》於 2008 年出版。
+reviewed: true

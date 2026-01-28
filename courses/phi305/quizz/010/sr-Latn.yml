@@ -1,0 +1,9 @@
+question: Da li je Etika objavljena?
+answer: Posthumno.
+wrong_answers:
+  - Kad je bio živ.
+  - Je zbirka novinskih članaka.
+  - Sa autorovom prepisci.
+explanation: |
+  Etika, Spinozino glavno delo, objavljeno je posthumno 1677. godine, nekoliko meseci nakon njegove smrti. Delo je bilo previše kontroverzno da bi bilo objavljeno za vreme njegovog života bez rizika od progona.
+reviewed: false

@@ -1,9 +1,11 @@
-question: In welchem Jahr wird vorausgesagt, dass die Erstellung von Bitcoins eingestellt wird?
-answer: 2140
+question: Was ist der private Schlüssel in einem Bitcoin-Wallet?
+answer: Ein geheimer Schlüssel, der es Ihnen ermöglicht, Ihre Transaktionen zu signieren.
 wrong_answers:
-  - 2050
-  - 2030
-  - 2200
-explanation: |
-  Aufgrund des Halbierungsmechanismus kann mathematisch vorausgesagt werden, dass die Erstellung von Bitcoins im Jahr 2140 eingestellt wird, wenn die Gesamtzahl der Bitcoins ihr Limit von 21 Millionen erreicht.
+  - Ein öffentlicher Schlüssel, der zur Generierung von Bitcoin-Adressen verwendet wird.
+  - Eine geheime Liste von Wörtern, um ein Wallet im Bedarfsfall zu zerstören.
+  - Ein geheimer Schlüssel zur Verschlüsselung von Bitcoin-Transaktionen.
+explanation: >-
+  Bei der Einrichtung eines Bitcoin-Wallets wird eine geheime Liste von Wörtern, genannt mnemonischer Seed, generiert.
+  Diese Wiederherstellungsliste ist sehr wichtig, da sie das Eigentum
+  an den Bitcoins und damit das Recht, sie zu versenden, repräsentiert.
 reviewed: true

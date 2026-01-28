@@ -6,4 +6,4 @@ wrong_answers:
   - A high on-chain balance
 explanation: |
   To receive payments, a seller needs to have incoming liquidity, meaning that funds must be available on the opposite side of the channel for them to accept payments.
-reviewed: false
+reviewed: true

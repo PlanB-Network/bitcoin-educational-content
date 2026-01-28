@@ -16,4 +16,4 @@ Waar:
 - $1,209,600$: De doeltijd in seconden om 2016 blokken te produceren met een interval van 10 minuten tussen elke blok.
 
 
-> in het Frans wordt de term "reciblage" soms ook gebruikt om aanpassing aan te duiden. In het Engels wordt het "Difficulty Adjustment" genoemd.*
+> in het Frans wordt de term "reciblage" soms ook gebruikt om aanpassing aan te duiden. In het Engels wordt het "Difficulty Adjustment" genoemd.

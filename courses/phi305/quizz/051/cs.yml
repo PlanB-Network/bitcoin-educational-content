@@ -1,0 +1,9 @@
+question: Který rakouský ekonom hovoří o planismu?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) byl rakouský ekonom, který pro označení centralizovaného ekonomického plánování vymyslel termín "planismus". Tento přístup kritizuje v knize Cesta do nevolnictví.
+reviewed: false

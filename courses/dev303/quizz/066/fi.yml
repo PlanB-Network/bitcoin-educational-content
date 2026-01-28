@@ -1,0 +1,8 @@
+question: Mikä Rust:n ominaisuuksien yhdistelmä tekee siitä erityisen sopivan Bitcoin-tapahtumien peruuttamattomuuden käsittelyyn?
+answer: Staattinen vahva tyyppijärjestelmä, joka havaitsee virheet käännöshetkellä ja estää muistiin liittyvät haavoittuvuudet
+wrong_answers:
+  - Dynaaminen tyypitys, jossa on ajonaikaisia tarkistuksia ja automaattinen roskienkeruu muistinhallintaa varten
+  - Heikko tyyppijärjestelmä joustavilla muunnoksilla ja manuaalisella muistinhallinnalla suorituskyvyn optimoimiseksi
+  - Just-in-time-käännös, jossa on ajonaikainen optimointi ja tulkattu virheenkäsittely joustavuuden lisäämiseksi
+explanation: |
+  Rust:n staattinen vahva tyyppijärjestelmä on ratkaisevan tärkeä Bitcoin:n kehitykselle, koska se havaitsee tyyppivirheet ja logiikkavirheet ennen ohjelman suorittamista ja estää näin ongelmat, jotka voisivat vaikuttaa käyttäjien varoihin. Staattinen luonne tarkoittaa, että virheet löydetään käännöksen aikana eikä suoritusaikana, kun käsitellään todellisia tapahtumia. Lisäksi Rust:n tyyppijärjestelmä käsittelee muistin omistajuutta ja estää muistiin liittyvät haavoittuvuudet, kuten kaksoisvapaat virheet ja kilpailutilanteet. Tämä on olennaista Bitcoin-sovelluksissa, joissa virheet ovat peruuttamattomia ja joissa ei ole viranomaista, jonka puoleen kääntyä varojen palauttamiseksi, toisin kuin perinteisissä rahoitusjärjestelmissä, joissa on takaisinkantomekanismi.

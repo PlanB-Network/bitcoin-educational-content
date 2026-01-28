@@ -1,0 +1,12 @@
+question: Wallet에 Mnemonic 문구가 없다는 것은 무엇을 의미하나요?
+answer: 이는 Bitcoin를 장기 보관할 때 Wallet가 안전하지 않음을 나타냅니다.
+wrong_answers:
+  - 이는 Wallet가 완전히 안전하며 백업이 필요하지 않음을 나타냅니다.
+  - 이는 Wallet가 다양한 채권을 보유할 수 있다는 것을 의미합니다.
+  - Wallet가 장치에 의해 자동으로 백업된다는 것을 의미합니다.
+explanation: |
+  12개 또는 24개의 단어 목록이 없는 경우, 즉
+  Mnemonic 문구가 없는 경우, Wallet에 있는
+  Wallet은 표준 백업 절차를 따르지 않으므로 안전하지 않습니다
+  절차를 따르지 않으므로 안전하지 않다는 경고입니다.
+reviewed: true

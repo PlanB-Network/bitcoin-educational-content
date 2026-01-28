@@ -1,0 +1,8 @@
+question: En utvikler ønsker å teste utstedelse av aktiva på Elements uten eksterne avhengigheter eller å vente på blokkbekreftelser - hvilken konfigurasjon bør de bruke?
+answer: Angi chain=elementsregtest for å opprette et lokalt testmiljø med umiddelbar generering av blokker
+wrong_answers:
+  - Angi chain=liquidv1 for å koble til Liquid-hovednettverket for umiddelbar testing
+  - Bruk kommandoen issueasset RPC med flagget --testmode for isolert utvikling
+  - "Konfigurer chain=bitcoin-regtest for å få tilgang til Elements-funksjoner i Bitcoins testmiljø"
+explanation: |
+  Konfigurasjonen elementsregtest skaper et lokalt regresjonstestmiljø der utviklere kan generate-blokker umiddelbart ved hjelp av kommandoer som generateblock, slik at de kan teste utstedelse av aktiva og andre funksjoner uten å vente på nettverksbekreftelser eller være avhengig av eksterne noder. Ved å angi chain=liquidv1 kobler du til produksjonsnettverket Liquid, som har blokkeringstider på 1 minutt og eksterne avhengigheter. issueasset-kommandoen har ikke et --testmode-flagg, og bitcoin-regtest er for Bitcoin Core, ikke Elements-funksjonalitet.

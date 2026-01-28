@@ -1,13 +1,11 @@
-question: What is the recommended use of an offline, or cold, physical wallet?
-answer: Storing large amounts.
+question: What is one recommended alternative to using paper for storing your mnemonic phrase?
+answer: Engraving it on a metal plate.
 wrong_answers:
-  - Storing daily expenses.
-  - Storing small amounts.
-  - Storing short-term savings.
+  - Storing it in a digital file.
+  - Writing it on a whiteboard.
+  - Saving it as a contact in your phone.
 explanation: |
-  An offline, or cold, physical wallet is recommended for
-  storing large amounts because it is less vulnerable to
-  online threats than hot wallets. However, it is not
-  recommended for daily expenses because it is less
-  accessible for daily transactions.
+  One of the recommended alternatives to paper for storing
+  your mnemonic phrase is engraving it on a metal plate. This
+  solution is more durable and long-lasting.
 reviewed: true

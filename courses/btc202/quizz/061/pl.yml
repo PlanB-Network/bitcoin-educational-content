@@ -1,0 +1,9 @@
+question: Jaka jest główna przewaga Tailscale nad Torem dla zdalnego dostępu do Umbrel?
+answer: Szybsze połączenie
+wrong_answers:
+  - Silniejsze szyfrowanie niż w przypadku WireGuard
+  - Kompatybilność z routerami klasy korporacyjnej
+  - Możliwość korzystania z Electrs w trybie offline
+explanation: |
+  Tailscale oferuje bezpieczeństwo WireGuard, ale z szybkością połączenia Clearnet, w przeciwieństwie do Tora, który jest wolniejszy.
+reviewed: true

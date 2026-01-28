@@ -1,0 +1,8 @@
+question: De acordo com o Pequeno Teorema de Fermat, qual é o inverso multiplicativo do elemento n num campo primo F(p)?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  O Pequeno Teorema de Fermat afirma que n^(p-1) ≡ 1 (mod p) para qualquer elemento não nulo n num campo primo. Para encontrar o inverso multiplicativo, precisamos de um valor que, quando multiplicado por n, dê 1. Como n^(p-1) ≡ 1, podemos reescrever isso como n - n^(p-2) ≡ 1, provando que n^(p-2) é o inverso multiplicativo de n. As outras opções estão incorrectas: n^(p-1) é igual a 1 pelo teorema de Fermat, enquanto n^(p+1) e n^(p+2) dariam valores equivalentes a n^2 e n^3, respetivamente, quando reduzidos ao módulo p.

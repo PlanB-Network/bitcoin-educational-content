@@ -1,0 +1,8 @@
+question: Cosa causa il bug "off-by-one" in OP_CHECKMULTISIG che richiede un OP_0 in più negli ScriptSig multisig nudi?
+answer: OP_CHECKMULTISIG consuma un ulteriore elemento di stack oltre alle firme e alle chiavi pubbliche previste
+wrong_answers:
+  - Il processo di verifica della firma richiede un byte in più per il corretto funzionamento della convalida ECDSA
+  - "L'implementazione dello stack di Bitcoin ha un controllo di confine che necessita di un elemento di riempimento per l'allineamento della memoria"
+  - Il conteggio della soglia multisig inizia da zero invece che da uno, richiedendo un valore segnaposto di offset
+explanation: |
+  L'opcode OP_CHECKMULTISIG presenta un bug di implementazione per cui, durante l'esecuzione, estrae dallo stack un elemento in più di quanto dovrebbe. Ciò significa che, oltre alle m firme e alle n chiavi pubbliche richieste, consuma un elemento di stack in più. Per evitare che l'operazione fallisca, gli ScriptSig multisig nudi devono includere un OP_0 iniziale (che spinge un array di byte vuoto) per soddisfare questo consumo inaspettato dello stack. Le altre opzioni descrivono problemi tecnici plausibili, ma non sono la causa effettiva di questa ben nota stranezza di Bitcoin.

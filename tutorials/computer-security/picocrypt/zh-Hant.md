@@ -10,7 +10,7 @@ ___
 
 
 
-*本教學是根據 Florian BURNEL 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原始內容有變更。
+*本教學是根據 Florian BURNEL 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原始內容有變更。*
 
 
 
@@ -26,11 +26,11 @@ ___
 
 
 
-適用於**加密檔案**，您可以使用它來保護電腦、USB 隨身碟上的**資料，也可以保護儲存在雲端的資料。例如，您可以加密資料並將其儲存在**Microsoft OneDrive、Google Drive、iCloud 或 Dropbox**，不過為了這個目的，我比較喜歡另一款軟體，將在未來的文章中介紹。
+適用於**加密檔案**，您可以使用它來保護電腦、USB 隨身碟上的**資料**，也可以保護儲存在雲端的資料。例如，您可以加密資料並將其儲存在**Microsoft OneDrive、Google Drive、iCloud 或 Dropbox**，不過為了這個目的，我比較喜歡另一款軟體，將在未來的文章中介紹。
 
 
 
-當您需要與第三方**共用資料時，您也可以使用它：由於有了 Picocrypt 和解密金鑰，他們將能夠解密他們機器上的資料。因此，如果您的帳戶或電腦遭到洩露，您的資料也會受到保護。
+當您需要與第三方**共用資料時，您也可以使用它：由於有了 Picocrypt 和解密金鑰，他們將能夠解密他們機器上的資料**。因此，如果您的帳戶或電腦遭到洩露，您的資料也會受到保護。
 
 
 
@@ -44,7 +44,7 @@ ___
 
 
 
-PicoCrypt 完全**免費且開放原始碼**，適用於**Windows、**Linux**和**macOS**。在 Windows 上，您可以在自己的機器上安裝，或使用可攜式版本。
+PicoCrypt 完全**免費且開放原始碼**，適用於**Windows**、**Linux**和**macOS**。在 Windows 上，您可以在自己的機器上安裝，或使用可攜式版本。
 
 
 
@@ -52,7 +52,7 @@ PicoCrypt 完全**免費且開放原始碼**，適用於**Windows、**Linux**和
 
 
 
-Picocrypt** 加密軟體是其他知名解決方案的***替代方案，例如 **VeraCrypt**、**Cryptomator** (*專為雲端環境加密資料*) 或 **AxCrypt**。順便一提，在 Picocrypt 的官方 GitHub 上，您可以找到與一些競爭對手的比較：
+**Picocrypt** 加密軟體是其他知名解決方案的**替代方案**，例如 **VeraCrypt**、**Cryptomator** (*專為雲端環境加密資料*) 或 **AxCrypt**。順便一提，在 Picocrypt 的官方 GitHub 上，您可以找到與一些競爭對手的比較：
 
 
 
@@ -84,12 +84,12 @@ Picocrypt 非常**輕巧**，只有**3 MB**，而且不需要安裝：它是一�
 
 
 
-- XChaCha20** 加密演算法
+- **XChaCha20** 加密演算法
 - 按鍵旁路功能 **Argon2**
 
 
 
-除了剛才提到的優點之外，真正吸引人的是**它的易用性！
+除了剛才提到的優點之外，真正吸引人的是**它的易用性**！
 
 
 
@@ -159,11 +159,11 @@ Picocrypt 非常**輕巧**，只有**3 MB**，而且不需要安裝：它是一�
 
 
 
-- 偏執模式**：使用 Picocrypt 提供的最高安全層級。該工具將使用多種串聯加密演算法 (XChaCha20 和 Serpent) 以及 HMAC-SHA3 取代 BLAKE2b 來進行資料驗證。
-- Reed-Solomon**：實作 *Reed-Solomon* 糾錯碼，以方便對損毀資料進行糾錯。這可讓您支援檔案約 3% 的損毀程度。
-- 分割成小塊**或**分割成幾個部分**：如果您要加密一個大檔案，您可以要求 Picocrypt 將它分割成幾個部分。這可能會讓檔案更容易傳輸。
-- Compress Files** 或 **Compress files**：壓縮檔案以減小加密檔案的大小。
-- 刪除的檔案** 或 **Fichiers supprimés**：刪除原始檔案，只保留加密版本
+- **偏執模式**：使用 Picocrypt 提供的最高安全層級。該工具將使用多種串聯加密演算法 (XChaCha20 和 Serpent) 以及 HMAC-SHA3 取代 BLAKE2b 來進行資料驗證。
+- **Reed-Solomon**：實作 *Reed-Solomon* 糾錯碼，以方便對損毀資料進行糾錯。這可讓您支援檔案約 3% 的損毀程度。
+- 分割成小塊**或**分割成幾個部分：如果您要加密一個大檔案，您可以要求 Picocrypt 將它分割成幾個部分。這可能會讓檔案更容易傳輸。
+- **Compress Files** 或 **Compress files**：壓縮檔案以減小加密檔案的大小。
+- 刪除的檔案 或 **Fichiers supprimés**：刪除原始檔案，只保留加密版本
 
 
 
@@ -199,4 +199,4 @@ Picocrypt 非常**輕巧**，只有**3 MB**，而且不需要安裝：它是一�
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

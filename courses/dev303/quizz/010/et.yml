@@ -1,0 +1,8 @@
+question: Mis juhtub muutujaga, kui omandiõigus viiakse Rust-s üle teisele muutujale?
+answer: Algne muutuja muutub kehtetuks ja seda ei saa enam kasutada
+wrong_answers:
+  - Algne muutuja muutub ainult lugemiseks mõeldud viiteks andmetele
+  - Mõlemad muutujad jagavad omandiõigust ja võivad andmeid iseseisvalt muuta
+  - Algne muutuja muudetakse automaatselt muutuvaks viiteks
+explanation: |
+  Kui omandiõigus on Rust-s ümber paigutatud, muutub algne muutuja täielikult kehtetuks ja sellele ei saa enam ligi pääseda. See on põhiline turvaelement, mis takistab mitme muutuja haldamist sama kuhja mälu, mis võib põhjustada use-after-free-vigu või topelt-vabaduse vigu. Liigutamise operatsioon annab täieliku kontrolli uuele muutujale ja kompilaator annab veateate, kui püütakse kasutada algset muutujat pärast liigutamist. See erineb kopeerimisest (kus mõlemad muutujad jäävad kehtima) ja laenamisest (kus algne omanik säilitab omandiõiguse).

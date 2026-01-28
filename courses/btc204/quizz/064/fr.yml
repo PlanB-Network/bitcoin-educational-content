@@ -8,6 +8,6 @@ wrong_answers:
   - En mémoire vive uniquement pendant l'exécution du logiciel.
 
 explanation: |
-  Les labels sont stockés localement par le logiciel de portefeuille et ne sont jamais transmises sur le réseau Bitcoin. Le labelling est donc un outil de gestion personnel.
+  Les labels sont stockés localement par le logiciel de portefeuille et ne sont jamais transmis sur le réseau Bitcoin. Le labelling est donc un outil de gestion personnel.
 
-reviewed: false
+reviewed: true 

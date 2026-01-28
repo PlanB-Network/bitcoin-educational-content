@@ -1,0 +1,9 @@
+question: Dushingiye ku bisabwa mu gusobanura inkomoko yuguruye, ni igiki gitegerezwa kuba iyo kode y’inkomoko ipfutse n’ibigirankana mu gukwiragiza porogarama y’inkomoko yuguruye?
+answer: Kode y'inkomoko yapfutse n'ibigirankana irenga ku ngingo ngenderwako z'inkomoko yuguruye kandi ntiyemerewe
+wrong_answers:
+  - Iyo kode ipfutse igomba kujana n'inyandiko zitomoye zisigura ingene ikora .
+  - Kode ipfutse yemewe igihe cose ama binaire akoranijwe na yo nyene atangwa
+  - Kode ipfutse itegerezwa gushikirizwa biciye ku gukuraho ukwandi n'amahera yo gusubiramwo .
+explanation: |
+  Insobanuro y'inkomoko yuguruye ivuga neza ko 'kode y'inkomoko ipfutse n'ibigirankana ntiyemerewe.' Ivyo ni ibisabwa vy’ishimikiro kubera ko ugupfukiranya bibuza gusuzuma, guhindura no gutahura kode mu buryo bufise insiguro, ivyo bikaba bitsinda intumbero nyamukuru z’amaporogarama y’inkomoko yuguruye. Kode y’inkomoko itegerezwa kuba mu ‘buryo bwiza umuhinga mu bijanye n’iporogarama yohinduramwo,’ ivyo bikaba bituma ugupfukiranya ibintu bidahuye n’ingingo ngenderwako z’inkomoko yuguruye ata kuraba inyandiko canke uburyo bwo gukwiragiza.
+reviewed: false

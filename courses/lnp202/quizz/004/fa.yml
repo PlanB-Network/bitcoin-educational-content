@@ -1,0 +1,9 @@
+question: یک نود لایتنینگ باید به چه چیزی متصل شود؟
+answer: یک گره Bitcoin
+wrong_answers:
+  - یک معدنچی
+  - یک کاوشگر بلاک
+  - یک سرور فدرال‌شده
+explanation: |
+  گره Lightning به یک گره Bitcoin وابسته است تا به اطلاعات از بلاکچین اصلی دسترسی پیدا کند.
+reviewed: false

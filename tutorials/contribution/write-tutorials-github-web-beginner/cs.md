@@ -6,7 +6,7 @@ description: Kompletní průvodce plánováním ₿ Síťové tutoriály s webem
 
 Než se pustíte do tohoto návodu na přidání nového tutoriálu, musíte provést několik předběžných kroků. Pokud jste tak ještě neučinili, podívejte se nejprve na tento úvodní návod a pak se vraťte sem:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Již máte:
 
@@ -18,13 +18,13 @@ Již máte:
 V tomto návodu se podíváme, jak přidat svůj výukový program do sítě Plan ₿ pomocí webové verze služby GitHub. Pokud již ovládáte systém Git, tento velmi podrobný návod pro vás nemusí být nutný. Místo toho doporučuji podívat se na jeden z těchto dalších 2 tutoriálů, kde podrobně popisuji pokyny, kterými je třeba se řídit, a kroky pro provádění změn z místního:
 
 
-- Zkušení uživatelé**:
+- **Zkušení uživatelé**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Středně pokročilý (GitHub Desktop)**:
+- **Středně pokročilý (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Předpoklady
 
@@ -32,23 +32,23 @@ Předpoklady před zahájením výuky:
 
 
 - Mít účet [GitHub](https://github.com/signup);
-- Mít fork zdrojového úložiště [Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content);
-- Mít [profil učitele v síti Plan ₿ Network](https://planb.network/professors) (pouze pokud nabízíte kompletní výuku).
+- Mít fork zdrojového úložiště [Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Mít [profil učitele v síti Plan ₿ Academy](https://planb.academy/professors) (pouze pokud nabízíte kompletní výuku).
 
 Pokud potřebujete pomoci se získáním těchto předpokladů, pomohou vám mé další návody:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Jakmile je vše na svém místě a máte svůj fork úložiště sítě Plan ₿, můžete začít přidávat výukový program.
 
 ## 1 - Vytvoření nové pobočky
 
-Otevřete prohlížeč a přejděte na stránku s vidlicí v úložišti Plan ₿ Network. Jedná se o fork, který jste založili na GitHubu. Adresa URL vašeho forku by měla vypadat takto: `https://github.com/[vaše uživatelské jméno]/bitcoin-educational-content`:
+Otevřete prohlížeč a přejděte na stránku s vidlicí v úložišti Plan ₿ Academy. Jedná se o fork, který jste založili na GitHubu. Adresa URL vašeho forku by měla vypadat takto: `https://github.com/[vaše uživatelské jméno]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -74,7 +74,7 @@ Větev v systému Git představuje paralelní verzi projektu, která vám umož�
 
 Nyní, když byla vytvořena pracovní větev, je čas integrovat nový výukový program.
 
-V souborech větve je třeba najít vhodnou podsložku pro umístění výukového programu. Uspořádání složek odráží různé sekce webu Plan ₿ Network. V našem příkladu, protože přidáváme výukový program o zelené peněžence, zamiřte do následující cesty: v tomto případě je nutné, abyste se podívali do sekce `bitcoin-educational-content\tutorials\wallet`, která odpovídá sekci `WALLET` na webových stránkách:
+V souborech větve je třeba najít vhodnou podsložku pro umístění výukového programu. Uspořádání složek odráží různé sekce webu Plan ₿ Academy. V našem příkladu, protože přidáváme výukový program o zelené peněžence, zamiřte do následující cesty: v tomto případě je nutné, abyste se podívali do sekce `bitcoin-educational-content\tutorials\wallet`, která odpovídá sekci `WALLET` na webových stránkách:
 
 ![GITHUB](assets/fr/05.webp)
 
@@ -148,11 +148,11 @@ Zde jsou povinná pole:
 
 - **id**: UUID (_Universally Unique Identifier_) umožňující jedinečně identifikovat tutoriál. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jedinou podmínkou je, aby toto UUID bylo náhodné, aby se zabránilo konfliktu s jiným UUID na platformě;
 
-- **project_id**: UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například pokud vytváříte tutoriál o softwaru Green Wallet, můžete najít `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Network udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` subjektu spojeného s vaším tutoriálem vytváříte vazbu mezi těmito dvěma prvky;
+- **project_id**: UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například pokud vytváříte tutoriál o softwaru Green Wallet, můžete najít `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Academy udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` subjektu spojeného s vaším tutoriálem vytváříte vazbu mezi těmito dvěma prvky;
 
-- **tags**: 2 nebo 3 relevantní klíčová slova související s obsahem tutoriálu, vybraná výhradně [ze seznamu značek Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 nebo 3 relevantní klíčová slova související s obsahem tutoriálu, vybraná výhradně [ze seznamu značek Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Podkategorie odpovídající obsahu tutoriálu podle struktury stránky Plan ₿ Network (například pro peněženky: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Podkategorie odpovídající obsahu tutoriálu podle struktury stránky Plan ₿ Academy (například pro peněženky: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Úroveň obtížnosti tutoriálu, vybraná z následujících možností:
     - `beginner`
@@ -173,7 +173,7 @@ Zde jsou povinná pole:
 
 Další podrobnosti o ID učitele naleznete v příslušném výukovém kurzu:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -348,8 +348,8 @@ Vykřičník na začátku označuje obrázek. Alternativní text, který pomáh�
 Pokud chcete vytvořit vlastní schéma, nezapomeňte dodržet grafické pokyny pro plánování sítě, abyste zajistili vizuální konzistenci:
 
 
-- Písmo**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Barvy**:
+- **Písmo**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Barvy**:
  - Oranžová: #FF5C00
  - Černá: #000000
  - Bílá: #FFFFFF

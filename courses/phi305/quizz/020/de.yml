@@ -1,0 +1,9 @@
+question: Was können wir von Kopernikus lernen?
+answer: Dass sich die Erde um die Sonne dreht.
+wrong_answers:
+  - Dass die Erde flach ist.
+  - Dass die Erde im Zentrum des Universums steht.
+  - Die Gleichungen von Euklid sind falsch.
+explanation: |
+  Nikolaus Kopernikus (1473-1543) ist berühmt für seinen Nachweis, dass sich die Erde um die Sonne dreht, und revolutionierte damit unsere Vorstellung vom Universum. Diese Entdeckung hatte einen tiefgreifenden Einfluss auf die moderne Philosophie und den Rationalismus.
+reviewed: false

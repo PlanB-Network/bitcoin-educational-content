@@ -1,0 +1,9 @@
+question: フルノードとウォレットの両方の機能を兼ね備えたソフトは？
+answer: ビットコインコア
+wrong_answers:
+  - Sparrow Wallet
+  - Ashigaru Wallet
+  - Wallet of Satoshi
+explanation: |
+  ビットコインコアがフルノードとウォレットの両方の役割を果たすのは、ウォレットのみの管理ソフトウェアである他のソフトウェアパッケージとは異なる。
+reviewed: true

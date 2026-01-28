@@ -1,11 +1,9 @@
-question: Mitä Bitcoin symboloi teknologiansa ulkopuolella?
-answer: Vallankumousta perinteisiä rahoitusjärjestelmiä vastaan ja vaihtoehtoa, joka perustuu läpinäkyvyyteen, hajautukseen ja yksilön suvereniteettiin.
+question: Mikä on fiat-valuuttojen pääasiallinen haittapuoli?
+answer: Niiden arvoa syö jatkuvasti rahapoliittinen inflaatio.
 wrong_answers:
-  - Uudenlaista digitaalista valuuttaa, joka on tehokkaampi kuin perinteiset valuutat, koska se on nopeampi.
-  - Keinoa, jonka avulla yksilöt voivat ansaita rahaa louhimalla.
-  - Työkalu rikollisille suorittaa laittomia transaktioita.
+  - Niitä ei ole helppo kuljettaa.
+  - Niiden arvo kasvaa jatkuvasti rahapoliittisen inflaation seurauksena.
+  - Niitä ei voi jakaa osiin.
 explanation: |
-  Teknologiansa ulkopuolella Bitcoin symboloi vallankumousta
-  perinteisiä rahoitusjärjestelmiä vastaan: protokolla
-  mahdollistaa uuden rahajärjestelmän ilman keskitettyä tahoa.
+  Fiat-valuuttojen, kuten dollarin ja euron, pääasiallinen haittapuoli on, että niiden arvoa syö jatkuvasti rahapoliittinen inflaatio. Tämä johtuu niitä hallinnoivien tahojen (kuningas, keskuspankki, keisari, diktaattori) aiheuttamasta arvon alenemisesta.
 reviewed: true

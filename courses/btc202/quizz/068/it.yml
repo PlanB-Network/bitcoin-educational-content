@@ -1,0 +1,9 @@
+question: Quali sono i tre principali vantaggi degli aggiornamenti regolari del sistema operativo e delle app?
+answer: Sicurezza, affidabilità, funzionalità
+wrong_answers:
+  - Velocità, anonimato, compatibilità
+  - Sicurezza, memoria, archiviazione
+  - Riservatezza, funzionalità, affidabilità
+explanation: |
+  Gli aggiornamenti garantiscono la sicurezza contro le vulnerabilità, la compatibilità con le evoluzioni e le nuove funzionalità e l'affidabilità del sistema.
+reviewed: true

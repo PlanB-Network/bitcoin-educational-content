@@ -1,11 +1,13 @@
-question: Vad innebär det för Bitcoin att vara en neutral valuta?
-answer: Den kontrolleras inte av någon enhet eller institution.
+question: Vad är Cyberspace självständighetsförklaring?
+answer: En text som hävdar att cyberrymden är en annan sfär än den fysiska och inte bör omfattas av samma lagar.
 wrong_answers:
-  - Den kontrolleras av en enda enhet eller institution.
-  - Det är reglerat av regeringen.
-  - Den används bara för stora transaktioner.
+  - En deklaration som anger Bitcoin:s oberoende från traditionella finansiella system.
+  - En text som hävdar att cyberspace bör kontrolleras genom statliga regleringar.
+  - En deklaration som garanterar att piratrörelsen är oberoende av alla regleringar.
 explanation: |
-  Bitcoin är en neutral valuta, vilket innebär att den inte kontrolleras
-  av någon enhet eller institution, så alla användare har samma
-  rättigheter. Detta är en viktig aspekt av dess decentralisering.
+  Cyberspace självständighetsförklaring skrevs av John Perry
+  skrevs av John Perry Barlow 1996. I detta dokument hävdas
+  att cyberrymden är ett område som skiljer sig från den fysiska sfären
+  fysiska sfären, så att industriella regeringar inte kan genomdriva sin
+  auktoritet där.
 reviewed: true

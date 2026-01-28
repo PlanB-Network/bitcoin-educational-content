@@ -1,0 +1,9 @@
+question: Hvilke trinn må fullføres før UmbrelOS kan installeres?
+answer: Opprett en oppstartbar USB-nøkkel med avbildningen
+wrong_answers:
+  - Kompilering av Bitcoin core-kildekode
+  - Formatering av Blockchain
+  - Opprett en konto på umbrel.com
+explanation: |
+  Installasjonen begynner med å klargjøre en oppstartbar USB-nøkkel med UmbrelOS via Balena Etcher.
+reviewed: true

@@ -1,0 +1,8 @@
+question: In a Lightning Send submarine swap, what specific cryptographic element allows the swap provider to claim the locked Liquid funds after paying the Lightning invoice?
+answer: The payment preimage from the Lightning payment serves as the cryptographic key to unlock the escrowed Liquid funds
+wrong_answers:
+  - The hash time-lock contract signature generated during the initial Liquid lock-up transaction provides access
+  - The WebSocket connection metadata contains the unlock key that authorizes the fund release to the provider
+  - "The swap provider's private key automatically unlocks the funds once the Lightning payment confirmation is received"
+explanation: |
+  The payment preimage is the cryptographic receipt that proves a Lightning payment was successfully completed. In submarine swaps, this preimage acts as the unlock key for the escrowed Liquid funds, ensuring atomicity - the swap provider can only claim the Liquid funds if they actually paid the Lightning invoice. The other options describe either generic cryptographic elements that don't provide the specific proof of payment needed, or incorrect mechanisms that would compromise the trustless nature of the atomic swap.

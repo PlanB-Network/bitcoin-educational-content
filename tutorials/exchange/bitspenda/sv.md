@@ -35,7 +35,7 @@ BitSpenda är en webbaserad plattform där du kan använda Exchange Bitcoin och 
 
 
 
-Att göra en transaktion med BitSpenda är ganska intuitivt och kräver få steg. På den officiella BitSpenda [webbplatsen] (https://bitspenda.app) klickar du på "Start"-knappen och du kommer att omdirigeras till Interface Exchange.
+Att göra en transaktion med BitSpenda är ganska intuitivt och kräver få steg. På den officiella BitSpenda [webbplatsen](https://bitspenda.app) klickar du på "Start"-knappen och du kommer att omdirigeras till Interface Exchange.
 
 
 
@@ -98,9 +98,9 @@ När din transaktion har bekräftats betalar du den tillhörande Lightning Invoi
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### M-Pesa i Kenya
 
@@ -177,15 +177,15 @@ Kontrollera och bekräfta ditt Exchange-nummer och belopp, betala sedan blixten 
 
 
 
-Genom BitSpenda syftar [Bitcoin Dua] (https://www.bitcoindua.org/) till att skapa ett idealiskt ramverk för antagandet av Bitcoin i Afrika. BitSpenda utmärker sig främst för :
+Genom BitSpenda syftar [Bitcoin Dua](https://www.bitcoindua.org/) till att skapa ett idealiskt ramverk för antagandet av Bitcoin i Afrika. BitSpenda utmärker sig främst för :
 
 
 
 
-- Konfidentialitet**: Du behöver inte skapa ett konto på plattformen, du behöver inte verifiera din identitet och du behöver inte lämna någon personlig information.
-- Frihet**: Du kan använda BitSpenda från vilket land som helst för att göra transaktioner till Ghana, Nigeria och Kenya.
-- Hastighet**: Att förlita sig på Lightning-betalningar har gjort det möjligt för BitSpenda att minska behandlingstiderna och göra transaktioner omedelbara.
-- Öppenhet**: Alla transaktioner som du har utfört på BitSpenda är förknippade med unika identifierare som gör att du kan spåra och följa utvecklingen av dessa transaktioner. Du kan också använda dessa identifierare för att kontakta [applikationssupport på X] (https://x.com/bitspenda).
+- **Konfidentialitet**: Du behöver inte skapa ett konto på plattformen, du behöver inte verifiera din identitet och du behöver inte lämna någon personlig information.
+- **Frihet**: Du kan använda BitSpenda från vilket land som helst för att göra transaktioner till Ghana, Nigeria och Kenya.
+- **Hastighet**: Att förlita sig på Lightning-betalningar har gjort det möjligt för BitSpenda att minska behandlingstiderna och göra transaktioner omedelbara.
+- **Öppenhet**: Alla transaktioner som du har utfört på BitSpenda är förknippade med unika identifierare som gör att du kan spåra och följa utvecklingen av dessa transaktioner. Du kan också använda dessa identifierare för att kontakta [applikationssupport på X](https://x.com/bitspenda).
 
 
 
@@ -197,4 +197,4 @@ Många andra initiativ och lösningar som BitSpenda växer fram i afrikanska sam
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

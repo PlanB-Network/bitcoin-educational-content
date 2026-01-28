@@ -2,8 +2,11 @@ question: DOH (HTTPS üzerinden DNS) ve DOT (TLS üzerinden DNS) kullanmanın av
 answer: DNS bağlantısını şifreleyerek daha fazla gizlilik ve güvenlik sağlarlar ve ortadaki adam saldırılarını önlerler.
 wrong_answers:
   - İnternet bağlantısını hızlandırırlar.
-  - Tüm reklamları engelliyorlar.
+  - Tüm reklamları engellerler.
   - Engellenen web sitelerine erişime izin verirler.
 explanation: |
-  DOH (HTTPS üzerinden DNS) ve DOT (TLS üzerinden DNS) DNS bağlantısını şifreleyerek daha fazla gizlilik ve güvenlik sağlar. Gelişmiş güvenlikleri nedeniyle bu protokoller işletmelerde yaygın olarak kullanılmaktadır ve Windows, Android ve iPhone tarafından yerel olarak desteklenmektedir. Ortadaki adam saldırılarını önleyerek gizliliği ve güvenliği artırırlar.
+  DOH (HTTPS üzerinden DNS) ve DOT (TLS üzerinden DNS) DNS bağlantısını şifreleyerek daha fazla gizlilik ve güvenlik sağlar. 
+  Gelişmiş güvenlikleri nedeniyle bu protokoller işletmelerde yaygın olarak kullanılmaktadır ve 
+  Windows, Android ve iPhone tarafından yerel olarak desteklenmektedir. 
+  Ortadaki adam saldırılarını önleyerek gizliliği ve güvenliği artırırlar.
 reviewed: true

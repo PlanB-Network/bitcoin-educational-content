@@ -1,0 +1,8 @@
+question: Jakie jest podstawowe ograniczenie możliwości transakcyjnych Breez Liquid SDK, które odróżnia go od pełnego węzła Lightning Network?
+answer: Nie może wykonywać bezpośrednich transakcji Lightning-to-Lightning lub Bitcoin-to-Bitcoin, ponieważ działa wyłącznie z Liquid jako swoją bazą macierzystą
+wrong_answers:
+  - Nie może obsługiwać atomowych swapów między różnymi sieciami blockchain z powodu braku obsługi inteligentnych kontraktów międzyłańcuchowych
+  - "Nie może przetwarzać transakcji większych niż 0,1 BTC ze względu na wbudowane ograniczenia wielkości transakcji Liquid Network"
+  - Nie może działać bez połączenia z Internetem, ponieważ wymaga stałej synchronizacji ze scentralizowanymi serwerami Breez
+explanation: |
+  SDK jest wyraźnie opisany jako "narzędzie ściśle skoncentrowane na Liquid", które działa z Liquid jako "bazą domową" Obsługuje tylko trzy konkretne operacje: Liquid-to-Liquid, Liquid-to-Lightning i Liquid-to-Bitcoin. W przeciwieństwie do pełnego węzła Lightning, który może kierować płatności między kanałami Lightning, Breez SDK nie może wykonywać bezpośrednich transakcji Lightning-to-Lightning, co czyni go zasadniczo różnym od tradycyjnej infrastruktury Lightning.

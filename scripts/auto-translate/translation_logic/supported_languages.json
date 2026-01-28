@@ -1,6 +1,12 @@
 {
   "languages": [
     {
+      "code": "bg",
+      "name": "Bulgarian",
+      "translator": "deepl",
+      "code_translator": "BG"
+    },
+    {
       "code": "cs",
       "name": "Czech",
       "translator": "deepl",
@@ -71,6 +77,12 @@
       "name": "Japanese",
       "translator": "deepl",
       "code_translator": "JA"
+    },
+    {
+      "code": "ko",
+      "name": "Korean",
+      "translator": "deepl",
+      "code_translator": "KO"
     },
     {
       "code": "nb-NO",

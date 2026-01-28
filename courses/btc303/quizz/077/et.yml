@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus "avalikustamise" ja "avaldamise" vahel Bitcoin turvaaukude käsitlemise kontekstis?
+answer: Avaldamine on müüja teavitamine eraviisiliselt, samas kui avaldamine on haavatavuse avalikustamine potentsiaalsetele ründajatele
+wrong_answers:
+  - Avaldamine on kriitiliste haavatavuste puhul, samas kui avaldamine on mittekriitiliste haavatavuste puhul, mida on raskem ära kasutada
+  - Avaldamine hõlmab Bitcoin Core arendajate teavitamist, samas kui avaldamine hõlmab altcoini ja teiste rakendustiimide teavitamist
+  - Avaldamine nõuab viivitamatuid meetmeid ja parandusi, samas kui avaldamine võimaldab järkjärgulist parandamist tavapärase arendusprotsessi kaudu
+explanation: |
+  Gregory Maxwell rõhutas seda olulist erinevust meililisti arutelus. Avaldamine tähendab vastutustundlikku tegevust, mille käigus teavitatakse tarkvara hooldajat (müüjat) eraviisiliselt haavatavusest, et nad saaksid töötada paranduse kallal. Avaldamine tähendab aga haavatavuse kohta käiva teabe avalikustamist, mis tegelikult teavitab võimalikke ründajaid kasutamisvõimalusest. See erinevus on oluline, sest kuigi avalikustamine aitab süsteemi kaitsta, võib enneaegne avaldamine tekitada kahju, võimaldades pahatahtlikel osalejatel haavatavust ära kasutada, enne kui on olemas piisav kaitse.
+reviewed: false

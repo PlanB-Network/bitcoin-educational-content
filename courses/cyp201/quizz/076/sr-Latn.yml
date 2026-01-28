@@ -1,4 +1,4 @@
-question: Na koju notaciju se odnosi /<0;1>/* u deskriptoru?
+question: Na koju notaciju se odnosi **/<0;1>/** u deskriptoru?
 answer: Na spoljašnji i unutrašnji lanac sa sekvencijalnim izvođenjem
 wrong_answers:
   - Za sortirani multisignature Address

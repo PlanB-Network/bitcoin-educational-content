@@ -1,5 +1,5 @@
 ---
-name: モジラVPN
+name: Mozilla VPN
 description: デバイスとインターネット閲覧データを保護します。
 ---
 ![cover](assets/cover.webp)
@@ -14,11 +14,11 @@ description: デバイスとインターネット閲覧データを保護しま�
 
 
 
-Virtual Private Network*** (VPN)は、異なるローカルネットワークに接続されたリモートコンピュータ間の直接リンクを作成するためのシステムです。言い換えれば、インターネット上の他のトラフィックからやり取りを分離し、暗号化するシステムです。VPNについて、その使用方法、VPNを使用する利点などを詳しく学ぶには、SCU101コースをご覧ください：
+**Virtual Private Network** (VPN)は、異なるローカルネットワークに接続されたリモートコンピュータ間の直接リンクを作成するためのシステムです。言い換えれば、インターネット上の他のトラフィックからやり取りを分離し、暗号化するシステムです。VPNについて、その使用方法、VPNを使用する利点などを詳しく学ぶには、SCU101コースをご覧ください：
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/)は、この理念に基づき、Mozilla Foundationが2020年に開発したオープンソースのVPNサービスです。.NET Frameworkで利用可能です：
 
@@ -153,7 +153,7 @@ Mozilla VPNでは、場所を2つの形式で選択することができます�
 
 
 
-- シングルホップ：あなたのコンピュータのIP Addressを再配置し、特定の選択された地域（例ではベラルーシのソフィア）のサーバーにデータを暗号化します。
+- シングルホップ：あなたのコンピュータのIP Addressを再配置し、特定の選択された地域（例ではブルガリアのソフィア）のサーバーにデータを暗号化します。
 
 
 
@@ -191,4 +191,4 @@ Mozilla VPNは、常にユーザーの機密性向上を保証するため、**K
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

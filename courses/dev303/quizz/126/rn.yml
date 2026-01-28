@@ -1,0 +1,8 @@
+question: Ni ingaruka iyihe y’ubuhinga nyamukuru y’ubuhinga bwo guhingura ibintu bushingiye ku vyiyumviro vya Breez SDK ugereranyije n’uburyo bwa LDK bwo gukoresha ibikoresho rusangi vyo gutegura Lightning wallet?
+answer: Bishoboza gukorana n'ibikorwa vy'ingenzi nk'imikorere ya LSP muri SDK ubwayo, bikaba vyemerera kwakira amahera ubwo nyene ata gushinga umurongo w'amaboko
+wrong_answers:
+  - Bisaba abahinguzi gushiramwo amategeko menshi y’uruja n’uruza n’uburyo bwo kwishura ugereranyije n’ugukoresha amasomero rusangi ya Lightning .
+  - Ihatira ibikorwa vya wallet gukorana n'uguhuza igishushanyo c'urubuga n'ugucungera umusaruro w'inanga bitandukanye n'ugushirwa mu ngiro kwa Lightning
+  - Bisaba gushirwa mu ngiro kw'ubufasha bwa LNURL n'ibikorwa vy'igiciro c'amahera kuko SDKs zifise ivyiyumviro zidashobora gushiramwo ubufatanye bw'abandi
+explanation: |
+  Ivyiyumviro vya Breez SDK vyerekeye cane cane ibikorwa vya wallet, bikayifasha gushiramwo ibikorwa vy'ingenzi nk'imikorere ya LSP ataco ihinduye muri SDK. Ivyo bitandukanye cane n’uburyo rusangi bwa LDK, busaba abahinguzi gushiramwo izo nsiguro ukwabo. Ugushiramwo bituma abakoresha bashobora gukoresha neza nk’ukwakira amahera vuba ku bikoresho bishasha, mu gihe urugero rwagutse rwa LDK rusobanura ko abahinguzi bategerezwa kwubaka ivyo bintu vy’umwihariko vya wallet kuva mu ntango, bikongera cane uburemere bw’iterambere n’igihe co gushika ku isoko.

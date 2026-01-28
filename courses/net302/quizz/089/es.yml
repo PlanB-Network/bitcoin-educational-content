@@ -6,4 +6,4 @@ wrong_answers:
   - ARP
 explanation: |
   El comando ping utiliza el protocolo ICMP para enviar peticiones de eco y medir la latencia de la red.
-reviewed: false
+reviewed: true

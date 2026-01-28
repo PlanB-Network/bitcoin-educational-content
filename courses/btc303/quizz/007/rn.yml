@@ -1,0 +1,9 @@
+question: None full node kwegereza ubutegetsi abaturage yerekana iki muri Bitcoin?
+answer: Kwemeza amabuye bikorwa ku mpera y'urubuga n'abakoresha, atari abayobozi bizigira
+wrong_answers:
+  - Ugutunganya amafaranga bigabanwa hagati y'ibidengeri vyinshi vya mining aho gukwiragizwa mu kigo kimwe
+  - Amategeko y'amasezerano ya Bitcoin afatwa n'umugwi w'abahinguzi b'ibintu nyamukuru
+  - Imfunguruzo z’ibanga zibikwa ku bikoresho vyinshi aho kubikwa kuri wallet imwe.
+explanation: |
+  Full node decentralization bisigura ko kwemeza amabuye (amakuru abacukuzi batanga) bibera ku mpera y’urubuga n’abakoresha ku giti cabo bakoresha ama node yabo bwite, aho kwizigira inzego nkeyi zizewe kugira ngo zigenzure ibikorwa. Ivyo bitandukanye n’ugusenyura ubucukuzi bw’amabuye y’agaciro, ivyo bikaba bijejwe gusaba no gutunganya ibikorwa. Ibindi bihitamwo bitera urujijo kwegereza ubutegetsi full node n’ugukwiragiza mining, imiterere y’ubutegetsi, canke imigenzo y’umutekano, ariko nta n’imwe ifata iciyumviro nyamukuru co kwemeza amabuye y’ugukwiragiza n’abaje mu rubuga.
+reviewed: false

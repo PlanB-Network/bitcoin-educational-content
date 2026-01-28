@@ -1,9 +1,12 @@
-question: Qu'est-ce que la transaction coinbase ?
-answer: La première transaction du bloc qui inclut la récompense du mineur.
+question: Quel est le rôle des mineurs dans le protocole Bitcoin ?
+answer: Ils sécurisent le réseau actuel et historique.
 wrong_answers:
-  - Une transaction effectuée sur l'échange Coinbase.
-  - La deuxième transaction du bloc qui inclut les frais les plus élevés.
-  - Une transaction effectuée par le mineur après avoir reçu la récompense.
-explanation: >-
-  La transaction coinbase est toujours la première transaction d'un bloc. Elle inclut la récompense du mineur pour avoir effectué le travail de validateur.
+  - Ils régulent le prix du Bitcoin.
+  - Ils contrôlent l'offre de Bitcoin.
+  - Ils gèrent les transactions entre utilisateurs.
+explanation: |
+  Les mineurs dans le protocole Bitcoin sécurisent à la fois le réseau
+  actuel et historique. Ils ne régulent pas le prix du
+  Bitcoin, ne contrôlent pas son offre, ni ne gèrent les transactions
+  entre utilisateurs.
 reviewed: true

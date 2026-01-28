@@ -1,0 +1,8 @@
+question: Ni udhaifu gani muhimu wa kiutendaji unaotokana na mfumo wa idhini ya kusaini pamoja wa AMP kwa ajili ya uhamisho wa mali unaodhibitiwa?
+answer: Ukwasi wa mali husimama kabisa ikiwa seva ya AMP haipatikani kwa sababu kila uhamisho unahitaji sahihi ya seva
+wrong_answers:
+  - Ada za miamala huongezeka kwa kasi wakati watia saini wengi wanajaribu kuidhinisha uhamisho kwa wakati mmoja
+  - Faragha ya Miamala ya Siri huharibika kwa sababu kusaini pamoja hufichua mambo yanayowapofusha waangalizi wa mtandao
+  - Wamiliki wa mali hupoteza udhibiti wa ulinzi huku utaratibu wa kusaini pamoja ukihamisha funguo za kibinafsi kwenye seva ya AMP
+explanation: |
+  Mfumo wa uidhinishaji wa AMP unahitaji seva ya AMP kusaini kwa pamoja kila uhamisho wa mali, na kusababisha sehemu moja ya kushindwa. Ikiwa seva itaacha kufanya kazi nje ya mtandao, hakuna miamala inayoweza kukamilika, na hivyo kufungia ukwasi wote wa mali. Chaguzi zingine si sahihi: ada haziongezi kwa kasi kubwa kwa kusaini kwa pamoja, Faragha ya Muamala wa Siri hubaki bila kubadilika (mtoaji pekee ndiye anayepata mwonekano), na watumiaji huhifadhi funguo zao za faragha huku seva ikitoa sahihi za uidhinishaji pekee.

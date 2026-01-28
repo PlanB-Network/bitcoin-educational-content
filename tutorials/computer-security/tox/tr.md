@@ -1,5 +1,5 @@
 ---
-name: Toksikoloji
+name: Tox
 description: Merkezi olmayan Tox protokolünde aracılar olmadan konuşmalar açın
 ---
 ![cover](assets/cover.webp)
@@ -10,25 +10,26 @@ Uçtan uca şifreleme, WhatsApp ve Telegram gibi birçok mesajlaşma uygulaması
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| **Tox**              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
+| Uygulama             | E2EE 1:1       | E2EE gruplar | Anonim kayıt        | Açık kaynak istemci lisansı | Açık kaynak sunucu lisansı | Merkeziyetsiz sunucu | Kuruluş yılı    |
+| -------------------- | -------------- | -------------- | ------------------- | --------------------------- | --------------------------- | -------------------- | --------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                    | 2009            |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                           | ❌                           | ❌                    | 2011            |
+| Facebook Messenger   | ✅              | 🟡 (isteğe bağlı) | ❌                | ❌                           | ❌                           | ❌                    | 2011            |
+| Telegram             | 🟡 (isteğe bağlı) | ❌           | 🟡                  | ✅                           | ❌                           | ❌                    | 2013            |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                    | 2011            |
+| Signal               | ✅              | ✅              | ❌                   | ✅                           | ✅                           | ❌                    | 2014            |
+| Threema              | ✅              | ✅              | ✅                   | ✅                           | ❌                           | ❌                    | 2012            |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federe)           | 2016            |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                           | N/A                          | 🟡 (e-posta ile)       | 2017            |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federe)           | 2014            |
+| Session              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                    | 2020            |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                    | 2021            |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                           | ❌                           | 🟡(dizin yok)          | 2019            |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                           | N/A                          | ✅                    | 2022            |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                           | N/A                          | ✅                    | 2005            |
+| Briar                | ✅              | ✅              | ✅                   | ✅                           | N/A                          | ✅                    | 2018            |
+| **Tox**              | ✅              | ✅              | ✅                   | ✅                           | N/A                          | ✅                    | 2013            |
 
 *E2EE = Uçtan uca şifreleme*
 
@@ -50,7 +51,7 @@ Tox protokolünün kullandığı teknoloji, blok zincirleri gibi eşler arası a
 
 
 
-Tox protokolünü [Tox Chat sitesi] (https://tox.chat) adresinden indirebileceğiniz bir anlık mesajlaşma istemcisi aracılığıyla kullanabilirsiniz.
+Tox protokolünü [Tox Chat sitesi](https://tox.chat) adresinden indirebileceğiniz bir anlık mesajlaşma istemcisi aracılığıyla kullanabilirsiniz.
 
 
 
@@ -74,7 +75,7 @@ Tox protokolünü [Tox Chat sitesi] (https://tox.chat) adresinden indirebileceğ
 
 
 
-- qTox: Windows, Linux, MacOs'ta bulunan Qt Framework (C++) tabanlı [açık kaynak] (https://github.com/TokTok/qTox) adresinden bir Tox istemcisi.
+- qTox: Windows, Linux, MacOs'ta bulunan Qt Framework (C++) tabanlı [açık kaynak](https://github.com/TokTok/qTox) adresinden bir Tox istemcisi.
 
 
 
@@ -120,7 +121,7 @@ Tebrikler, Tox protokolüne yeni katıldınız. QTox yazılımında, kullanıcı
 
 
 
-Tox profil dosyanızı dışa aktarın, böylece profilinizin ve iletişim bilgilerinizin geri yüklemek için kullanabileceğiniz bir yedeğini almış olursunuz. Dışa Aktar** düğmesine tıklayın, ardından yedek dosyanızın yolunu seçin.
+Tox profil dosyanızı dışa aktarın, böylece profilinizin ve iletişim bilgilerinizin geri yüklemek için kullanabileceğiniz bir yedeğini almış olursunuz. **Dışa Aktar** düğmesine tıklayın, ardından yedek dosyanızın yolunu seçin.
 
 
 
@@ -128,7 +129,7 @@ Tox profil dosyanızı dışa aktarın, böylece profilinizin ve iletişim bilgi
 
 
 
-Daha fazla** menüsünden arkadaş ekleyin, kişileri içe aktarın ve aldığınız arkadaşlık isteklerini yönetin.
+**Daha fazla** menüsünden arkadaş ekleyin, kişileri içe aktarın ve aldığınız arkadaşlık isteklerini yönetin.
 
 
 
@@ -184,7 +185,7 @@ Tox istemciniz, anlık mesajlaşma uygulamaları tarafından sunulan tüm seçen
 
 
 
-Tox istemcileriniz ayrıca bir grup insanla tamamen merkezi olmayan bir şekilde iletişim kurmanızı sağlar: bunlara konferans denir. Gruplar** menüsünde yeni bir konferans oluşturun veya aldığınız konferanslara katılma davetlerinin listesine bakın.
+Tox istemcileriniz ayrıca bir grup insanla tamamen merkezi olmayan bir şekilde iletişim kurmanızı sağlar: bunlara konferans denir. **Gruplar** menüsünde yeni bir konferans oluşturun veya aldığınız konferanslara katılma davetlerinin listesine bakın.
 
 
 
@@ -192,7 +193,7 @@ Tox istemcileriniz ayrıca bir grup insanla tamamen merkezi olmayan bir şekilde
 
 
 
-Konferans oluşturulduktan sonra, arkadaşlarınızı Tox istemciniz üzerinden konferansa katılmaya davet edebilirsiniz. Arkadaş listenizde, davet etmek istediğiniz arkadaşınızın kullanıcı adına sağ tıklayın. Konferansa davet et** seçeneğine tıklayın, ardından oluşturduğunuz konferans adını seçin. Ayrıca **Yeni bir konferans oluştur** seçeneği ile dolaylı olarak bir konferans oluşturarak da bir arkadaşınızı davet edebilirsiniz.
+Konferans oluşturulduktan sonra, arkadaşlarınızı Tox istemciniz üzerinden konferansa katılmaya davet edebilirsiniz. Arkadaş listenizde, davet etmek istediğiniz arkadaşınızın kullanıcı adına sağ tıklayın. **Konferansa davet et** seçeneğine tıklayın, ardından oluşturduğunuz konferans adını seçin. Ayrıca **Yeni bir konferans oluştur** seçeneği ile dolaylı olarak bir konferans oluşturarak da bir arkadaşınızı davet edebilirsiniz.
 
 
 
@@ -208,7 +209,7 @@ Konferans oluşturulduktan sonra, arkadaşlarınızı Tox istemciniz üzerinden 
 
 
 
-Dosya aktarımları** menüsünde, gönderdiğiniz ve kişilerinizden aldığınız dosyaların bir geçmişini bulacaksınız.
+**Dosya aktarımları** menüsünde, gönderdiğiniz ve kişilerinizden aldığınız dosyaların bir geçmişini bulacaksınız.
 
 
 
@@ -254,13 +255,13 @@ Interface ayrıntılarından, alıcınıza verdiğiniz yetkileri yönetebilirsin
 
 
 
-Ayarlar** menüsünde Tox istemcinizin ayarlarını özelleştirebilirsiniz.
+**Ayarlar** menüsünde Tox istemcinizin ayarlarını özelleştirebilirsiniz.
 
 
 
 
 
-- Genel** bölümünde, Tox istemcinizin temel dilini değiştirin, dosya yedekleme yollarını ve otomatik olarak kabul edilecek maksimum dosya boyutunu tanımlayın.
+- **Genel** bölümünde, Tox istemcinizin temel dilini değiştirin, dosya yedekleme yollarını ve otomatik olarak kabul edilecek maksimum dosya boyutunu tanımlayın.
 
 
 
@@ -270,7 +271,7 @@ Ayarlar** menüsünde Tox istemcinizin ayarlarını özelleştirebilirsiniz.
 
 
 
-- Interface kullanıcısı** bölümünde, mesajlarınızın yazı tiplerini ve boyutlarını değiştirin. Tox istemcinizin temasını da değiştirebilirsiniz.
+- **Interface kullanıcısı** bölümünde, mesajlarınızın yazı tiplerini ve boyutlarını değiştirin. Tox istemcinizin temasını da değiştirebilirsiniz.
 
 
 
@@ -280,7 +281,7 @@ Ayarlar** menüsünde Tox istemcinizin ayarlarını özelleştirebilirsiniz.
 
 
 
-- Gizlilik** sekmesi, "Sohbet geçmişini tut" kutusunun işaretini kaldırarak geçici mesajlar tanımlamanıza olanak tanır. Ayrıca arkadaşlık istekleri tarafından spamlandığınızı fark ettiğinizde "generate rastgele NoSpam kodu" düğmesine tıklayarak Nospam kodunuzu değiştirebilirsiniz.
+- **Gizlilik** sekmesi, "Sohbet geçmişini tut" kutusunun işaretini kaldırarak geçici mesajlar tanımlamanıza olanak tanır. Ayrıca arkadaşlık istekleri tarafından spamlandığınızı fark ettiğinizde "generate rastgele NoSpam kodu" düğmesine tıklayarak Nospam kodunuzu değiştirebilirsiniz.
 
 
 
@@ -304,4 +305,4 @@ Tox'u keşfetmekten keyif aldıysanız ve gizliliğinizi güçlendirmek için na
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

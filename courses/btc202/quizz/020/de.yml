@@ -1,0 +1,9 @@
+question: Was passiert, wenn ein Block gegen die Konsensregeln verstößt?
+answer: Er wird von den Nodes sofort zurückgewiesen
+wrong_answers:
+  - Er wird im Mempool gespeichert und muss noch validiert werden
+  - Er wird nur von Node weitergegeben, die andere Regeln akzeptieren
+  - Er wird nur von den Wallets validiert
+explanation: |
+  Die Nodes lehnen systematisch jeden Block ab, der nicht den Konsensregeln entspricht.
+reviewed: true

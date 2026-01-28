@@ -1,0 +1,9 @@
+question: Kim demiş "insan imparatorluk içinde imparatorluk değildir" diye?
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  "İnsan imparatorluk içinde bir imparatorluk değildir" diyen Spinoza'dır. Bu ifade, insanın doğadan ayrı değil, onun ayrılmaz bir parçası olduğu ve aynı yasalara tabi olduğu fikrini ifade etmektedir.
+reviewed: false

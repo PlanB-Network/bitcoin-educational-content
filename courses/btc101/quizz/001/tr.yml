@@ -1,8 +1,9 @@
-question: block size war ne zaman meydana geldi?
-answer: 2017'de.
+question: Bitcoin'da neden ücret ödüyoruz?
+answer: İşlemleri bloklara dahil etmek için serbest bir piyasa oluşturmak.
 wrong_answers:
-  - 2008'de.
-  - 2010 yılında.
-  - 2019'da.
-explanation: >-
+  - Bitcoin madenciliğinin nasıl yapıldığını tanıtmak için.
+  - Zenginlerin daha fazla ödemesine izin vermek için.
+  - Hükümetleri ağdan dışlamak için.
+explanation: |
+  Ücretler, bloklara işlem eklemek için serbest bir piyasa yaratmak için gereklidir. Aslında, bir bloğun boyutu 1 MB'dir (SegWit güncellemesinden sonra 4 MB'ye genişletilmiştir), bu nedenle bir bloğa "eklenebilecek" işlem sayısı blok başına birkaç bin işlemle sınırlıdır.
 reviewed: true

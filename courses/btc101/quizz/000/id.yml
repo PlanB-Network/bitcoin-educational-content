@@ -1,0 +1,9 @@
+question: Kapan perang ukuran blok terjadi?
+answer: Pada tahun 2017.
+wrong_answers:
+  - Pada tahun 2008.
+  - Pada tahun 2010.
+  - Pada tahun 2019.
+explanation: |
+  Perang ukuran blok terjadi pada tahun 2017. Konflik ini mempertentangkan pihak yang ingin memodifikasi Bitcoin dengan meningkatkan ukuran blok untuk meningkatkan kapasitas transaksi, dengan pihak yang berusaha menjaga independensi dan kekuatan pengguna dengan mempertahankan ukuran 1 MB.
+reviewed: true

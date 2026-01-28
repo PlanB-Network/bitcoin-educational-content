@@ -1,0 +1,9 @@
+question: Da li je skolastika?
+answer: Filozofija srednjeg veka.
+wrong_answers:
+  - Filozofija modernog doba.
+  - Drevna filozofija.
+  - Ateistička filozofija.
+explanation: |
+  Skolastika je bila srednjovekovna filozofija koja je nastojala da pomiri hrišćansku veru sa Aristotelovom filozofijom. Dominirala je evropskim univerzitetima pre pojave moderne filozofije.
+reviewed: false

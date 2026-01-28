@@ -28,7 +28,7 @@ IVPN, özellikle bir tür gizlilik arayan kullanıcılar için tasarlanmış bir
 
 IVPN'in gizlilik politikası katıdır: kayıt sırasında hiçbir kişisel bilgi gerekmez. E-posta Address, isim veya telefon numarası vermeden bir hesap açabilirsiniz. IVPN ödemeleri bitcoin (onchain ve Lightning) olarak kabul ettiğinden, ödeme için kredi kartı bilgilerinizi girmeniz gerekmez. Dahası, IVPN hiçbir aktivite kaydı tutmadığını iddia ediyor, bu da teorik olarak internet trafiğinizin şirket tarafından kaydedilmediği anlamına geliyor.
 
-IVPN ayrıca yazılımları, uygulamaları ve hatta web siteleriyle ilgili olarak [tamamen açık kaynaklıdır] (https://github.com/ivpn), herkesin kodlarını doğrulamasına ve incelemesine izin verir. Ayrıca her yıl, sonuçları web sitelerinde yayınlanan bağımsız güvenlik denetimlerinden geçmektedirler.
+IVPN ayrıca yazılımları, uygulamaları ve hatta web siteleriyle ilgili olarak [tamamen açık kaynaklıdır](https://github.com/ivpn), herkesin kodlarını doğrulamasına ve incelemesine izin verir. Ayrıca her yıl, sonuçları web sitelerinde yayınlanan bağımsız güvenlik denetimlerinden geçmektedirler.
 
 
 IVPN yalnızca kendi barındırdığı sunucuları kullanır, böylece AWS, Google Cloud veya Microsoft Azure gibi üçüncü taraf bulut hizmetlerinin kullanımıyla ilişkili riskleri ortadan kaldırır.
@@ -65,9 +65,9 @@ Ve Pro plan için:
 
 ## IVPN bir bilgisayara nasıl kurulur?
 
-İşletim sisteminiz için [yazılımın en son sürümünü] (https://www.ivpn.net/en/apps-windows/) indirin, ardından kurulum sihirbazındaki adımları izleyerek kuruluma devam edin. ![IVPN](assets/notext/02.webp)
+İşletim sisteminiz için [yazılımın en son sürümünü](https://www.ivpn.net/en/apps-windows/) indirin, ardından kurulum sihirbazındaki adımları izleyerek kuruluma devam edin. ![IVPN](assets/notext/02.webp)
 
-Linux kullanıcıları için, [bu sayfa] (https://www.ivpn.net/en/apps-linux/) adresinde bulunan dağıtımınıza özgü talimatlara bakın.
+Linux kullanıcıları için, [bu sayfa](https://www.ivpn.net/en/apps-linux/) adresinde bulunan dağıtımınıza özgü talimatlara bakın.
 
 ![IVPN](assets/notext/03.webp)
 
@@ -78,7 +78,7 @@ Kurulum tamamlandığında, hesap kimliğinizi girmeniz gerekecektir. Bunu nası
 ## IVPN bir akıllı telefona nasıl kurulur?
 
 
-IVPN'i, iOS kullanıcıları için [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683), Android için [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) veya [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) uygulama mağazanızdan indirin. Android kullanıyorsanız, `.apk` dosyasını doğrudan [IVPN sitesinden] (https://www.ivpn.net/en/apps-android/) indirme seçeneğiniz de vardır.
+IVPN'i, iOS kullanıcıları için [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683), Android için [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) veya [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) uygulama mağazanızdan indirin. Android kullanıyorsanız, `.apk` dosyasını doğrudan [IVPN sitesinden](https://www.ivpn.net/en/apps-android/) indirme seçeneğiniz de vardır.
 
 ![IVPN](assets/notext/05.webp)
 
@@ -92,7 +92,7 @@ Uygulamayı ilk kez kullandığınızda oturumunuz kapatılacaktır. Hizmeti etk
 ## IVPN için ödeme nasıl yapılır ve etkinleştirilir?
 
 
-Resmi IVPN web sitesine [ödeme sayfasında] (https://www.ivpn.net/en/pricing/) gidin.
+Resmi IVPN web sitesine [ödeme sayfasında](https://www.ivpn.net/en/pricing/) gidin.
 
 ![IVPN](assets/notext/07.webp)
 
@@ -200,9 +200,9 @@ Ek ayarlara erişmek için ayarlar simgesine tıklayın.
 İşte bu kadar, artık IVPN'in keyfini tam anlamıyla çıkarmak için donanımlısınız. Ayrıca yerel bir parola yöneticisi kullanarak çevrimiçi hesaplarınızın güvenliğini artırmak istiyorsanız, sizi ücretsiz ve açık kaynaklı bir çözüm olan KeePass hakkındaki eğitimimize göz atmaya davet ediyorum:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Hem özellikler hem de fiyatlandırma açısından IVPN'e benzer başka bir VPN sağlayıcısı keşfetmekle ilgileniyorsanız, Mullvad hakkındaki eğitimimize de göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

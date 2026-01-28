@@ -1,0 +1,9 @@
+question: Ko je bio Bernardin de Saint-Pierre?
+answer: Direktor Prirodnjačkog muzeja u Parizu početkom 19. veka.
+wrong_answers:
+  - Ministar Luja XIV.
+  - Francuski filozof.
+  - Revolucionar terora.
+explanation: |
+  Bernardin de Saint-Pierre (1737-1814) bio je direktor Jardin des Plantes (muzej prirodne istorije) u Parizu početkom 19. veka. Najpoznatiji je po svom romanu Paul et Virginie i svojim opisima prirode.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: RGB-salamasolmu
+name: RGB Lightning Node
 description: Miten käynnistän RGB-yhteensopivan Lightning-solmun RLN:llä?
 ---
 ![cover](assets/cover.webp)
@@ -31,7 +31,7 @@ RGB-sopimus on rakenteeltaan kuin evolutiivinen tilakone. Se alkaa Genesiksellä
 
 Jos haluat lisätietoja RGB-protokollan toiminnasta, suosittelen, että osallistut tälle kattavalle koulutuskurssille:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## RGB-yhteensopiva Lightning-solmun asennus
 
@@ -67,17 +67,17 @@ Tämän komennon jälkeen `rgb-lightning-node` on käytettävissäsi `$CARGO_HOM
 Toimiakseen `rgb-lightning-node` -demoni tarvitsee :
 
 
-- `bitcoind`**-solmu
+- `bitcoind`**-solmu**
 
 Jokaisen RLN-instanssin on kommunikoitava `bitcoind`:n kanssa, jotta se voi lähettää ja seurata ketjussa tapahtuvia transaktioitaan. Demonille on annettava tunnistautuminen (käyttäjätunnus/salasana) ja URL-osoite (host/portti).
 
 
-- Indeksilaite** (Electrum tai Esplora)
+- **Indeksilaite** (Electrum tai Esplora)
 
 Daemonilla on voitava luetella ja tutkia ketjussa tapahtuvia transaktioita ja erityisesti löytää UTXO, johon omaisuuserä on ankkuroitu. Sinun on määritettävä Electrum-palvelimesi tai Esploran URL-osoite.
 
 
-- RGB**-välityspalvelin
+- **RGB-välityspalvelin**
 
 Välityspalvelin on komponentti (valinnainen, mutta erittäin suositeltava), joka yksinkertaistaa RGB-luokitusten vaihtoa Lightning-vertaisverkon välillä. Jälleen kerran URL-osoite on määritettävä.
 
@@ -219,7 +219,7 @@ Voit tietenkin mukauttaa järjestystä. Vahvistaaksemme tapahtuman, me kaivamme 
 ./regtest.sh mine 1
 ```
 
-Voimme nyt luoda RGB-varannon. Komento riippuu siitä, minkä tyyppisen assetin haluat luoda ja sen parametreista. Tässä luon NIA-merkin (*Non Inflatable Asset*) nimeltä "PBN", jonka tarjonta on 1000 yksikköä. `precision`:n avulla voit määrittää yksiköiden jaettavuuden.
+Voimme nyt luoda RGB-varannon. Komento riippuu siitä, minkä tyyppisen assetin haluat luoda ja sen parametreista. Tässä luon NIA-merkin (*Non Inflatable Asset*) nimeltä "Plan ₿ Academy", jonka tarjonta on 1000 yksikköä. `precision`:n avulla voit määrittää yksiköiden jaettavuuden.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -227,8 +227,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -264,7 +264,7 @@ Komento palauttaa solmuni nro 2 julkisen avaimen:
 
 ![RLN](assets/fr/13.webp)
 
-Seuraavaksi avaamme kanavan määrittämällä kyseisen omaisuuserän (`PBN`). `/openchannel`-komennolla voit määrittää kanavan koon satoshina ja valita, otatko mukaan RGB-varannon. Se riippuu siitä, mitä haluat luoda, mutta minun tapauksessani komento on :
+Seuraavaksi avaamme kanavan määrittämällä kyseisen omaisuuserän (`Plan ₿ Academy`). `/openchannel`-komennolla voit määrittää kanavan koon satoshina ja valita, otatko mukaan RGB-varannon. Se riippuu siitä, mitä haluat luoda, mutta minun tapauksessani komento on :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -303,7 +303,7 @@ Tapahtuman vahvistamiseksi louhitaan 6 lohkoa:
 
 ![RLN](assets/fr/15.webp)
 
-Lightning-kanava on nyt auki, ja se sisältää myös 500 `PBN`-tunnusta solmun nro 1 puolella. Jos solmu nro 2 haluaa vastaanottaa `PBN`-tunnuksia, sen on luotava lasku. Näin se tehdään:
+Lightning-kanava on nyt auki, ja se sisältää myös 500 `Plan ₿ Academy`-tunnusta solmun nro 1 puolella. Jos solmu nro 2 haluaa vastaanottaa `Plan ₿ Academy`-tunnuksia, sen on luotava lasku. Näin se tehdään:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -332,7 +332,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-Maksamme nyt tämän laskun ensimmäisestä solmusta, jossa on tarvittava käteisvaratunnus "PBN":
+Maksamme nyt tämän laskun ensimmäisestä solmusta, jossa on tarvittava käteisvaratunnus "Plan ₿ Academy":
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -372,4 +372,4 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin hyvin kiitollinen, jos laittai
 
 Suosittelen myös tätä toista opetusohjelmaa, jossa selitän, miten LNP/BP-yhdistyksen kehittämää RGB CLI -työkalua käytetään RGB-sopimuksen luomiseen:
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

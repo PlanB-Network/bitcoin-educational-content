@@ -9,7 +9,7 @@ description: Hur man generate din egen återhämtningsfras med tärningar?
 I den här guiden lär du dig hur du manuellt konstruerar en återhämtningsfras för en Bitcoin Wallet med hjälp av tärningskast.
 
 
-**VARNING:** För att generera en Mnemonic-fras på ett säkert sätt krävs att man inte lämnar några digitala spår under skapandet, vilket är nästan omöjligt. Annars skulle Wallet utgöra en alldeles för stor attackyta, vilket avsevärt ökar risken för att dina bitcoins blir stulna. **Det avråds därför starkt från att överföra pengar till en Wallet som är beroende av en återställningsfras som du själv har genererat Även om du följer denna handledning till punkt och pricka finns det en risk att återställningsfrasen kan äventyras. **Därför bör denna handledning inte användas för att skapa en riktig Wallet.** Att använda en Hardware Wallet för denna uppgift är mycket mindre riskabelt, eftersom den genererar frasen offline, och riktiga kryptografer har övervägt att använda kvalitativa entropikällor.
+**VARNING:** För att generera en Mnemonic-fras på ett säkert sätt krävs att man inte lämnar några digitala spår under skapandet, vilket är nästan omöjligt. Annars skulle Wallet utgöra en alldeles för stor attackyta, vilket avsevärt ökar risken för att dina bitcoins blir stulna. **Det avråds därför starkt från att överföra pengar till en Wallet som är beroende av en återställningsfras som du själv har genererat.** Även om du följer denna handledning till punkt och pricka finns det en risk att återställningsfrasen kan äventyras. **Därför bör denna handledning inte användas för att skapa en riktig Wallet.** Att använda en Hardware Wallet för denna uppgift är mycket mindre riskabelt, eftersom den genererar frasen offline, och riktiga kryptografer har övervägt att använda kvalitativa entropikällor.
 
 
 Denna handledning kan följas för experimentella ändamål endast för skapandet av en fiktiv Wallet, utan avsikt att använda den med riktiga bitcoins. Erfarenheten erbjuder dock två fördelar:
@@ -51,7 +51,7 @@ För att skapa din återställningsfras för hand behöver du:
 Därefter kommer det att bli nödvändigt att använda en dator med en terminal för att beräkna kontrollsumman. Det är just av denna anledning som jag avråder från den manuella genereringen av Mnemonic-frasen. Enligt min mening ökar en dators ingripande, även under de försiktighetsåtgärder som nämns i denna handledning, avsevärt sårbarheten hos en Wallet.
 
 
-För en experimentell metod som rör en "fiktiv Wallet" är det möjligt att använda din vanliga dator och dess terminal. Men för en mer rigorös metod som syftar till att begränsa riskerna för att kompromissa med din fras, skulle idealet vara att använda en dator som är frånkopplad från internet (helst utan en wifi-komponent eller RJ45-kabelanslutning), utrustad med ett minimum av kringutrustning (som alla bör anslutas med kabel för att undvika Bluetooth), och framför allt, som körs på en Linux-distribution med minnesförlust som [Tails] (https://tails.boum.org/index.fr.html), startad från ett flyttbart medium.
+För en experimentell metod som rör en "fiktiv Wallet" är det möjligt att använda din vanliga dator och dess terminal. Men för en mer rigorös metod som syftar till att begränsa riskerna för att kompromissa med din fras, skulle idealet vara att använda en dator som är frånkopplad från internet (helst utan en wifi-komponent eller RJ45-kabelanslutning), utrustad med ett minimum av kringutrustning (som alla bör anslutas med kabel för att undvika Bluetooth), och framför allt, som körs på en Linux-distribution med minnesförlust som [Tails](https://tails.boum.org/index.fr.html), startad från ett flyttbart medium.
 
 
 ![mnemonic](assets/notext/2.webp)
@@ -102,7 +102,7 @@ Vart och ett av dessa paket representerar ett binärt tal som sedan omvandlas ti
 ![mnemonic](assets/notext/5.webp)
 
 
-Slutligen anger siffran i decimaltal positionen för motsvarande ord i [listan med 2048 BIP39-ord] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Allt som återstår är att välja ut dessa ord för att komponera återställningsfrasen för vår Wallet.
+Slutligen anger siffran i decimaltal positionen för motsvarande ord i [listan med 2048 BIP39-ord](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Allt som återstår är att välja ut dessa ord för att komponera återställningsfrasen för vår Wallet.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -137,18 +137,18 @@ Som du kan se i mitt exempel består det tolfte ordet för närvarande av endast
 ## Steg 2: Beräkning av kontrollsumman
 
 
-Detta steg är det mest kritiska i den manuella genereringen av en Mnemonic-fras, eftersom det kräver användning av en dator. Som tidigare nämnts motsvarar kontrollsumman början på SHA256 Hash som genererats från entropin. Även om det är teoretiskt möjligt att beräkna en SHA256 för hand för en inmatning på 128 eller 256 bitar, kan denna uppgift ta en hel vecka. Dessutom skulle eventuella fel i de manuella beräkningarna upptäckas först i slutet av processen, vilket skulle tvinga dig att börja om från början. Därför är det otänkbart att göra detta steg med bara ett pappersark och en penna. En dator är nästan obligatorisk. Om du fortfarande vill lära dig att göra en SHA256 för hand förklarar vi hur du gör det i [CRYPTO301-kursen] (https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+Detta steg är det mest kritiska i den manuella genereringen av en Mnemonic-fras, eftersom det kräver användning av en dator. Som tidigare nämnts motsvarar kontrollsumman början på SHA256 Hash som genererats från entropin. Även om det är teoretiskt möjligt att beräkna en SHA256 för hand för en inmatning på 128 eller 256 bitar, kan denna uppgift ta en hel vecka. Dessutom skulle eventuella fel i de manuella beräkningarna upptäckas först i slutet av processen, vilket skulle tvinga dig att börja om från början. Därför är det otänkbart att göra detta steg med bara ett pappersark och en penna. En dator är nästan obligatorisk. Om du fortfarande vill lära dig att göra en SHA256 för hand förklarar vi hur du gör det i [CRYPTO301-kursen](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 
 Av denna anledning avråder jag starkt från att skapa en manuell fras för en faktisk Wallet. Enligt min mening ökar användningen av en dator i detta skede, även med alla nödvändiga försiktighetsåtgärder, orimligt attackytan för Wallet.
 
 För att beräkna kontrollsumman och samtidigt lämna så få spår som möjligt använder vi en Linux-distribution med minnesförlust från en flyttbar enhet med namnet **Tails**. Det här operativsystemet startar från ett USB-minne och arbetar helt och hållet i datorns RAM-minne utan att interagera med Hard-enheten. I teorin lämnar det alltså inga spår på datorn efter att den stängts av. Observera att Tails endast är kompatibelt med processorer av typen x86_64 och inte med processorer av typen ARM.
 
-För att börja, från din vanliga dator, [ladda ner Tails-bilden från dess officiella webbplats] (https://tails.net/install/index.fr.html). Säkerställ att din nedladdning är äkta genom att använda utvecklarens signatur eller det verifieringsverktyg som erbjuds av webbplatsen.
+För att börja, från din vanliga dator, [ladda ner Tails-bilden från dess officiella webbplats](https://tails.net/install/index.fr.html). Säkerställ att din nedladdning är äkta genom att använda utvecklarens signatur eller det verifieringsverktyg som erbjuds av webbplatsen.
 
 ![mnemonic](assets/notext/10.webp)
 
-Först formaterar du ditt USB-minne och installerar sedan Tails med hjälp av ett verktyg som [Balena Etcher] (https://etcher.balena.io/).
+Först formaterar du ditt USB-minne och installerar sedan Tails med hjälp av ett verktyg som [Balena Etcher](https://etcher.balena.io/).
 
 ![mnemonic](assets/notext/11.webp)
 

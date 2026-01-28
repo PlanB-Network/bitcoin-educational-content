@@ -1,0 +1,8 @@
+question: What is the primary limitation that developers must work around when using UniFFI for mobile application development that requires responsive user interfaces?
+answer: UniFFI only supports synchronous interfaces, requiring developers to handle asynchronous operations through separate threading mechanisms
+wrong_answers:
+  - UniFFI cannot handle complex data types like enums and structs, limiting the richness of mobile API interfaces
+  - UniFFI generates bindings that are not memory-safe across language boundaries, requiring manual memory management
+  - UniFFI does not support error handling translation, forcing developers to implement custom exception handling in each target language
+explanation: |
+  UniFFI's most significant limitation is its lack of support for asynchronous interfaces - all generated bindings are synchronous. This creates challenges for mobile development where responsive UIs are critical, as developers must implement their own threading solutions to avoid blocking the main thread. The wrong answers are incorrect because UniFFI actually excels at handling complex types like enums and structs, provides automatic memory-safe marshaling across language boundaries, and has sophisticated error handling translation that converts Rust Result types into native exception models for target languages.

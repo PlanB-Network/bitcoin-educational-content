@@ -1,13 +1,12 @@
-question: What is the consequence of monetary printing?
-answer: It leads to inflation, gradually impoverishing the population.
+question: What is the consequence of hyperinflation?
+answer: A drastic decrease in the value of the currency.
 wrong_answers:
-  - It leads to deflation, gradually enriching the population.
-  - It leads to a stable economy with no inflation or deflation.
-  - It leads to a decrease in the money supply.
+  - A small decrease in the value of the currency.
+  - A drastic increase in the value of the currency.
+  - A small increase in the value of the currency.
 explanation: |
-  Monetary printing, or the creation of new money by central
-  banks, leads to inflation. This is because the increase in
-  the money supply reduces the purchasing power of money,
-  leading to higher prices and a decrease in the value of
-  savings.
+  Because of hyperinflation, individuals rapidly have a
+  complete loss of confidence in the currency, which leads to
+  a drastic decrease in its value over a short period of
+  time.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Ni uburyo ubuhe Rust ikoresha kugira ngo isukure ubwayo ibihinduka n’ibikoresho vyavyo iyo bivuye mu rwego?
+answer: Uburyo bwo gutera buhamagara imikorere ku bihinduka
+wrong_answers:
+  - Igikoresho co gukusanya imyanda gihora gicapura ububiko butakoreshejwe
+  - Gukuraho ububiko bw'amaboko biciye mu guhamagara ibikorwa vy'ubuntu
+  - Guharura ibisobanuro bikurikirana umubare w'ibimenyetso bishingiye ku gaciro kose
+explanation: |
+  Rust ikoresha uburyo bwo gutera kugira ngo isukure ubwayo ibikoresho iyo ibihinduka bivuye mu rugero. Iyi sisitemu ihamagara mu buryo butagaragara igikorwa co gutonyanga kuri buri mpinduka uko isohoka mu rwego, igashira ikimenyetso ku bwibuke nk'uko buboneka kugira ngo busubire gukoreshwa no gukora ibikorwa vyose bikenewe vyo gusukura nk'ugufunga ibifata dosiye. Ubwo buryo, bwaguzwe mu buryo bwa RAII bwa C++, buratuma habaho ugucungera ibikoresho vy’ubuhinga bwite ataco bisaba gukusanya imyanda, gucunga ubwonko bw’amaboko, canke uburyo bwo guharura ibisobanuro bukoreshwa n’izindi ndimi.

@@ -1,5 +1,5 @@
 ---
-name: Wysłannik
+name: Envoy
 description: Konfigurowanie i używanie paszportu z aplikacją Envoy
 ---
 ![cover](assets/cover.webp)
@@ -32,7 +32,7 @@ W tym samouczku, który jest skierowany do początkujących i średnio zaawansow
 Jeśli jesteś zaawansowanym użytkownikiem i chcesz poznać bardziej złożone funkcje, polecam zapoznać się z tym innym samouczkiem, w którym konfigurujemy Passport za pomocą Sparrow Wallet :
 
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Rozpakowywanie paszportu
 
@@ -85,7 +85,7 @@ Przejdź do sklepu z aplikacjami, aby pobrać Envoy :
 
 
 
-- W sklepie [Google Play Store] (https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
+- W sklepie [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
 - W [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
 - Na [F-Cold](https://foundation.xyz/fdroid/).
 
@@ -93,7 +93,7 @@ Przejdź do sklepu z aplikacjami, aby pobrać Envoy :
 ![Image](assets/fr/50.webp)
 
 
-Plik APK można również pobrać bezpośrednio [z repozytorium GitHub Fundacji] (https://github.com/Foundation-Devices/envoy/releases).
+Plik APK można również pobrać bezpośrednio [z repozytorium GitHub Fundacji](https://github.com/Foundation-Devices/envoy/releases).
 
 
 ![Image](assets/fr/51.webp)
@@ -246,7 +246,7 @@ Aby to zrobić, użyj karty MicroSD dołączonej do pudełka Passport (lub innej
 Przed zainstalowaniem go na urządzeniu zdecydowanie zalecamy sprawdzenie autentyczności i integralności pobranego oprogramowania układowego. Jeśli potrzebujesz pomocy, zapoznaj się z tym samouczkiem :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Z aplikacją Envoy
 
@@ -371,9 +371,9 @@ Kliknij przycisk potwierdzenia, aby zobaczyć swoją frazę Mnemonic.
 Aby uzyskać więcej informacji na temat prawidłowego sposobu zapisywania i zarządzania frazą Mnemonic, zdecydowanie polecam skorzystanie z tego samouczka, zwłaszcza jeśli jesteś początkującym:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-oczywiście nigdy nie wolno dzielić się tymi słowami w Internecie, tak jak robię to w tym samouczku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka.**_
+oczywiście nigdy nie wolno dzielić się tymi słowami w Internecie, tak jak robię to w tym samouczku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka.
 
 
 Utwórz fizyczną kopię zapasową tego zdania.
@@ -674,4 +674,4 @@ Gratulacje, wiesz już jak skonfigurować i używać Passport z aplikacją Envoy
 Więcej informacji można znaleźć w naszym samouczku na temat oprogramowania Liana:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

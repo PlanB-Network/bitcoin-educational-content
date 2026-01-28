@@ -23,7 +23,7 @@ Ovi uređaji se reklamiraju ili kao pomoćni grejač u slučaju **Avalon Nano 3S
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Imajte na umu da razlika u ceni u odnosu na tradicionalne grejače ekvivalentne snage u velikoj većini slučajeva ne omogućava ostvarivanje finansijskog profita. Satoši generisani aktivnošću Mining nikada neće nadoknaditi ovu razliku u ceni, osim ako nemate pristup besplatnoj (višak) ili veoma jeftinoj električnoj energiji.
 
@@ -122,16 +122,17 @@ Ispod je tabela sažetka opštih tehničkih specifikacija za Mini 3:
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Karakteristika                                      | Vrednost                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Potrošnja energije                              | 800 W                                                     |
+| Buka                                                | 35-55 dB                                                  |
+| Temperatura vazduha na izlazu                       | 60-70°C (na temperaturi okoline 25°C)                  |
+| Zahtevi temperature okoline za upotrebu | -5° C - 40°C                                              |
+| Opseg ulaznog napona uređaja                         | 110V-240V AC 50/60Hz                                      |
+| Veličina mašine                                 | Dužina: 760 mm / Dubina: 104 mm / Visina: 214.5 mm |
+| Težina mašine                                  |  8.35 kg                                                  |
 
 ## Povezivanje na Mining pool
 
@@ -181,9 +182,9 @@ Za više detalja o tome kako se povezati na Mining pool, molimo pogledajte ove t
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Da sumiramo, potrebni su nam
 
@@ -358,4 +359,4 @@ Da biste saznali više, pogledajte naš vodič o manjoj verziji Avalona: Nano 3S
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

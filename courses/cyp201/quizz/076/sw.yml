@@ -1,4 +1,4 @@
-question: Je! nukuu /<0;1>/* katika kifafanuzi inalingana na nini?
+question: Je! nukuu **<0;1>** katika kifafanuzi inalingana na nini?
 answer: Kwa mnyororo wa nje na wa ndani wenye derivation ya mtiririko
 wrong_answers:
   - Kwa Address iliyopangwa ya saini nyingi

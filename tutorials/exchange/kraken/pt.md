@@ -22,13 +22,13 @@ Neste tutorial, vamos mostrar-lhe como utilizar a Kraken como pessoa singular. S
 
 
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - Criar uma conta Kraken
 
 
 
-Aceda ao [sítio Web oficial da Kraken] (https://www.kraken.com/). Na página inicial, localize e clique na opção "Sign Up" (Registar) no canto superior direito para começar a criar a sua conta.
+Aceda ao [sítio Web oficial da Kraken](https://www.kraken.com/). Na página inicial, localize e clique na opção "Sign Up" (Registar) no canto superior direito para começar a criar a sua conta.
 
 
 
@@ -164,7 +164,7 @@ São então oferecidas duas opções de 2FA, "passkey", que permite a autentica�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Depois de escolher o método que mais lhe convém, está finalmente pronto para depositar dinheiro para comprar os seus primeiros satoshis.
 
@@ -329,7 +329,7 @@ Se estiver interessado no Lightning Network, também dispomos de um curso de for
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 

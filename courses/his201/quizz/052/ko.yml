@@ -1,0 +1,9 @@
+question: 2010년 9월에 Satoshi이 Bitcoin 프로토콜에 추가한 최대 블록 크기는 얼마였나요?
+answer: 1MB
+wrong_answers:
+  - 2MB
+  - 4MB
+  - 8MB
+explanation: |
+  MAX_BLOCK_SIZE 매개변수는 7월에 추가되었으며, 9월 12일에 모든 네트워크 노드에 제한이 적용되었습니다.
+reviewed: true

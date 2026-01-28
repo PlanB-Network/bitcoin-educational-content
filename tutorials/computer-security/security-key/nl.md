@@ -14,7 +14,7 @@ Tegenwoordig is twee-factor authenticatie (2FA) essentieel geworden voor het ver
 In een andere tutorial heb ik uitgelegd hoe je een TOTP 2FA-applicatie instelt en gebruikt:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Hier zullen we zien hoe je een fysieke beveiligingssleutel kunt gebruiken als tweede authenticatiefactor voor al je accounts.
 

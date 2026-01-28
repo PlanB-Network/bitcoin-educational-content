@@ -1,0 +1,9 @@
+question: どのBitcoin.confパラメータがメンプール（メモリープール）のサイズをMB単位で制限しますか？
+answer: maxmempool
+wrong_answers:
+  - totalmempool
+  - mempoolexpiry
+  - mempoolsize
+explanation: |
+  maxmempoolはメンプールの最大サイズを設定する（デフォルトでは300 MB）。それがいっぱいになると、収益性の低いトランザクションは追放される。
+reviewed: true

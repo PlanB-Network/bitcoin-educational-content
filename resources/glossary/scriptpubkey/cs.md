@@ -18,4 +18,4 @@ Odpovídající `scriptSig` by byl:
 
 ![](../../dictionnaire/assets/35.webp)
 
-> *Toto písmo se někdy v angličtině označuje také jako "locking script"
+> *Toto písmo se někdy v angličtině označuje také jako "locking script"*

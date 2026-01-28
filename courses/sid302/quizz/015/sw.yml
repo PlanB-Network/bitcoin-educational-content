@@ -1,0 +1,8 @@
+question: Katika HTLC inayowezeshwa na Taproot, ni taarifa gani hufichuliwa kwa mtandao wa Bitcoin wakati ubadilishaji unashindwa na upande mmoja unahitaji kurejesha fedha zao kupitia njia ya uhasama?
+answer: Tawi maalum la mti wa Merkle pekee lenye masharti ya kufunga hash/muda linalohitajika kwa ajili ya urejeshaji wa fedha
+wrong_answers:
+  - "Mantiki kamili ya hati ikijumuisha njia zote zinazowezekana za utekelezaji na funguo za umma za pande zote mbili"
+  - Siri ya awali ya picha na funguo zote za umma zilizokusanywa zinazotumika katika mchakato wa mchanganyiko wa funguo za MuSig2
+  - Masharti yote ya mkataba wa HTLC ikijumuisha kiasi cha ubadilishaji, muda, na anwani zote mbili za Lightning na Liquid
+explanation: |
+  Taproot hupanga masharti ya HTLC katika muundo wa mti wa Merkle, na kuruhusu ufichuzi wa kuchagua. Ushirikiano unaposhindwa, ni tawi maalum pekee linalohitajika kuthibitisha haki ya kurejesha fedha linalofichuliwa, huku maelezo mengine ya mkataba yakibaki yamefichwa. Hii ni tofauti na HTLC za zamani zilizofichua hati kamili, na hutofautiana na visa vya ushirika ambapo hakuna maelezo ya hati yaliyofichuliwa kabisa.

@@ -1,13 +1,9 @@
-question: Wie hat sich Bitcoin weiter in den traditionellen Markt integriert?
-answer: Die Einführung von Bitcoin ETFs.
+question: Was ist BTCMap?
+answer: Eine Plattform, die alle Händler auflistet, die Bitcoin akzeptieren.
 wrong_answers:
-  - Das Verbot von Bitcoin.
-  - Das Verschwinden aller Kryptowährungen.
-  - Die Schaffung von Bitcoin.
-explanation: |
-  Bitcoin überlebt weiterhin und wächst sogar noch mehr, indem
-  es sich immer weiter in den traditionellen Markt integriert.
-  Die Ankunft von Bitcoin ETFs, klarere Regulierungen und
-  bessere Erwerbung von Speicherwerkzeugen fördern nur diesen
-  Trend.
+  - Eine Karte aller Bitcoin-Minen der Welt.
+  - Eine Karte aller Bitcoin-Börsen der Welt.
+  - Eine Karte aller Bitcoin-Nutzer der Welt.
+explanation: >-
+  BTCMap ist ein Open-Source- und kollaboratives Projekt, das alle Händler auflistet, die Bitcoin akzeptieren, sowie die verschiedenen Bitcoin-Gemeinschaften rund um die Welt.
 reviewed: true

@@ -1,10 +1,11 @@
-question: Qual é uma das razões para o Bitcoin não ser uma bolha que vai desaparecer?
-answer: Porque é uma moeda que é realmente usada em todo o mundo.
+question: Qual é um fator a considerar ao escolher uma solução para aceitar Bitcoin no seu negócio?
+answer: O volume de transações esperado.
 wrong_answers:
-  - Porque na verdade não é usada em lugar algum.
-  - Porque é controlada por uma autoridade central.
-  - Porque é fácil de falsificar.
+  - A cor do seu logotipo.
+  - O número de funcionários.
+  - A localização da sua sede.
 explanation: >-
-  O Bitcoin não é uma bolha que vai desaparecer, mas sim uma moeda que é realmente
-  usada em todo o mundo.
+  Ao escolher uma solução para aceitar Bitcoin no seu negócio, vários
+  fatores devem ser levados em conta, como o volume de transações esperado, o orçamento
+  alocado e o tipo de negócio (online ou físico).
 reviewed: true

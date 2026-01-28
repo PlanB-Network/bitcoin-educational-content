@@ -1,10 +1,11 @@
-question: Qual é a segunda fase do fenômeno da hiperinflação?
-answer: Colapso da moeda e aumento de preços.
+question: Qual é o nome do evento em que a recompensa pela mineração é reduzida pela metade?
+answer: Halving
 wrong_answers:
-  - Perda de Confiança.
-  - O círculo vicioso da impressão de dinheiro.
-  - Surge uma nova moeda.
+  - Dobrando
+  - Quarteirando
+  - Triplicando
 explanation: |
-  A segunda fase da hiperinflação é o colapso da moeda e
-  aumento de preços, logo após a Fase de Perda de Confiança.
+  O evento em que a recompensa pela mineração é reduzida pela metade é chamado de
+  halving. Esse evento dá à curva de emissão monetária uma
+  forma de escada.
 reviewed: true

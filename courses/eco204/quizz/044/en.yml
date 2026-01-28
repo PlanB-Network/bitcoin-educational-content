@@ -5,9 +5,5 @@ wrong_answers:
   - 10,000%
   - 15,000%
 explanation: |
-  In 1985, Bolivia''s annual inflation rate reached 11,749%, indicating
-
-  that almost every month, inflation was close to or exceeded the hyperinflation threshold
-
-  of 50%.'
-reviewed: false
+  In 1985, Bolivia's annual inflation rate reached 11,749%, indicating that inflation was close to or exceeded the hyperinflation threshold of 50% almost every month.
+reviewed: true

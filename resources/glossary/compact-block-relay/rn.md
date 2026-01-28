@@ -1,0 +1,5 @@
+---
+term: RELAY YA BULOKI YA COMPACT
+---
+
+Porotokole yashizweho muri Bitcoin core mu 2016 biciye muri BIP152, itanga uburyo bwo kuzigama uburebure bw’uruzitiro ku nzira z’uruja n’uruza. Compact Block Relay iremesha gutanga amakuru y'ibara mu buryo bubereye, bishingiye ku ciyumviro c'uko ama node asanzwe afise vyinshi mu bikorwa vy'ibara rya vuba muri Mempool yabo. Aho gutanga igikorwa cose mu buryo bushitse, ivyo bikaba vyotuma habaho ugusubiranamo, Compact Block Relay isaba kohereza gusa ibimenyetso bigufi vy’ibikorwa vyamaze kumenyekana ku bagenzi, biherekejwe n’ibikorwa bikeyi vyatoranijwe (cane cane Coinbase Transaction n’ivyo node ishobora kuba itazi). Ico gice gishobora rero gusaba abo mu runganwe rwaco amafaranga yose abuze. Compact Block Relay rero igabanya umubare w’amakuru ahindurwa mu gihe c’ugukwiragiza amabuye, ivyo na vyo bikaba bigabanya uburebure bw’uruja n’uruza kandi bigatuma urusobe rwose rukora neza.

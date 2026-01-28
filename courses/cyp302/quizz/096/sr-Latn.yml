@@ -5,5 +5,5 @@ wrong_answers:
   - Generisanje javnog ključa, šifrovanje privatnog ključa, validacija
   - Heširanje poruka, šifrovanje oznaka, distribucija oznaka
 explanation: |
-  Šema MAC sastoji se od tri glavna koraka: generisanje tajnog ključa, proizvodnja oznake za poruku i verifikacija da se primljena poruka i njena oznaka podudaraju.
-reviewed: false
+  MAC šema sastoji se od tri glavna koraka: generisanje tajnog ključa, proizvodnja oznake za poruku i verifikacija da se primljena poruka i njena oznaka podudaraju.
+reviewed: true

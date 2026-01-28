@@ -14,9 +14,9 @@ In the early days of Bitcoin, it was necessary to run a Bitcoin node in order to
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Projects have therefore been launched to expand the Bitcoin community, making it more accessible to anyone who doesn't own a node and/or doesn't have the required technical skills.
 
@@ -46,7 +46,7 @@ Increasingly widespread use in the ecosystem and the fact that Mempool.space is 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## The basics of Mempool.space
 
@@ -64,10 +64,10 @@ In the menu bar, you will find the following networks:
 
 
 
-- Mainnet** : The main Bitcoin network where real Bitcoin transactions take place.
-- Signet**: A test network that uses digital signatures to validate blocks without requiring the resources required by the main network.
-- Testnet 3**: A risk-free test and development network on the Bitcoin protocol.
-- Testnet 4** : The new version of Testnet 3 brings greater stability and new consensus rules to the test environment.
+- **Mainnet**: The main Bitcoin network where real Bitcoin transactions take place.
+- **Signet**: A test network that uses digital signatures to validate blocks without requiring the resources required by the main network.
+- **Testnet 3**: A risk-free test and development network on the Bitcoin protocol.
+- **Testnet 4**: The new version of Testnet 3 brings greater stability and new consensus rules to the test environment.
 
 
 
@@ -142,9 +142,9 @@ On the transaction details page, you will find general information about your tr
 
 
 
-- Status**: Confirmed when added to a block, unconfirmed when waiting in a Mempool.
-- Transaction fees**.
-- Estimated time of arrival (ETA)** :  The approximate time it will take for your transaction to be added to a block. It is calculated according to the ratio constituting the fees associated with this transaction.
+- **Status**: Confirmed when added to a block, unconfirmed when waiting in a Mempool.
+- **Transaction fees**.
+- **Estimated time of arrival (ETA)**: The approximate time it will take for your transaction to be added to a block. It is calculated according to the ratio constituting the fees associated with this transaction.
 
 
 
@@ -176,7 +176,7 @@ Discover the different Bitcoin transaction schemes to enhance your confidentiali
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Speed up your transactions
 
@@ -192,7 +192,7 @@ Fortunately, there are two methods available on the Bitcoin network to speed up 
 
 
 
-- RBF** - Replacement By Fee: A method that allows you to spend the same entries as your low-fee transaction, but this time by increasing the transaction fee to speed up validation. Your new transaction will be validated more quickly and included in a block, invalidating the low-fee transaction.
+- **RBF** - Replacement By Fee: A method that allows you to spend the same entries as your low-fee transaction, but this time by increasing the transaction fee to speed up validation. Your new transaction will be validated more quickly and included in a block, invalidating the low-fee transaction.
 
 
 
@@ -200,11 +200,11 @@ You can carry out a fee replacement action with portfolios that accept this mech
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
-- CPFP** - Child pay for parent: An approach inspired by RBF, but on the receiver's side. When the transaction in which you are the recipient is blocked in a Mempool, you have the option of spending the outputs (UTXOs) of this transaction, despite the fact that it has not yet been confirmed, by allocating more fees to this new transaction so that the average fees - of the transaction for which you are the recipient and the initiated transaction - encourage miners to include both transactions in a block.
+- **CPFP** - Child pay for parent: An approach inspired by RBF, but on the receiver's side. When the transaction in which you are the recipient is blocked in a Mempool, you have the option of spending the outputs (UTXOs) of this transaction, despite the fact that it has not yet been confirmed, by allocating more fees to this new transaction so that the average fees - of the transaction for which you are the recipient and the initiated transaction - encourage miners to include both transactions in a block.
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-If all these terms seem a little too technical, I recommend that you [consult our glossary](https://planb.network/resources/glossary), which contains definitions of all the technical terms related to Bitcoin and its ecosystem.
+If all these terms seem a little too technical, I recommend that you [consult our glossary](https://planb.academy/resources/glossary), which contains definitions of all the technical terms related to Bitcoin and its ecosystem.
 
 
 
@@ -235,7 +235,7 @@ A Miner refers to a person who manages a mine, i.e. a computer engaged in the Mi
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗Miners are like "validators" who verify and group transactions into blocks. To add a new block to the Bitcoin network, they have to solve a complex mathematical puzzle (the Proof-of-Work). The first Miner to solve the puzzle wins a Bitcoin reward (block grant + fees for transactions included in the block).
 
@@ -372,4 +372,4 @@ Now that you've reached the end of your journey on Mempool.space, become your ow
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

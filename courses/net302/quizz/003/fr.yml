@@ -5,5 +5,5 @@ wrong_answers:
   - Faible latence
   - Haute disponibilité
 explanation: |
-  Le bus repose sur un support physique unique, ce qui réduit les coûts d’installation, mais représente un point de faiblesse.
-reviewed: false
+  La topologie en bus repose sur un support physique unique, ce qui réduit les coûts d’installation, mais représente un point de faiblesse.
+reviewed: true 

@@ -1,8 +1,9 @@
-question: Ni ikihe kibazo nyamukuru co gukoresha ubuhinga bwo kubika amafaranga yawe?
-answer: Uwo muntu wa gatatu wizigirwa arashobora kugubuza gukoresha amahera yawe igihe cose.
+question: Ijambo HODL risobanura iki?
+answer: HODL ni ijambo ry’ikirundi mu muryango w’amahera y’ibanga risobanura gufata ku vyo ushora aho kubigurisha, cane cane mu gihe isoko rihinduka.
 wrong_answers:
-  - Umuntu wa gatatu wizigirwa arashobora kwongera agaciro k’amahera yawe y’ibiceri igihe cose.
-  - Umuntu wa gatatu wizigirwa arashobora kugabanya agaciro k’amahera yawe y’ibiceri igihe cose.
-  - Uwugira gatatu yizigirwa ntashobora kwisubiriza ama bitcoins yawe igihe cose.
-explanation: >-
+  - HODL yerekeza ku bwoko bw’amahera y’ibanga akoreshwa mu gucuruza gusa.
+  - HODL ni ijambo risobanura kugurisha amafaranga yawe yose y’ivy’ubuhinga bwa none kugiciro kinini.
+  - HODL ni ubuhinga bwo gucuruza ku musi bujanye no kugura no kugurisha kenshi.
+explanation: |
+  Ijambo HODL ryakomotse ku vyo yanditse kuri internet mu 2013 ku rubuga rwa Bitcoin. Iremesha abashoramari gufata amafaranga yabo y’ivy’ubuhinga bwa none igihe kirekire, ataco bafatiye ku guhinduka kw’isoko.
 reviewed: true

@@ -1,11 +1,13 @@
-question: Ni nini moja ya hasara za dhahabu kama aina ya pesa?
-answer: Haigawanyiki kwa urahisi.
+question: Je, njia ya mageuzi ya sarafu ya leo ni ipi?
+answer: Jiwe mbichi -> Sarafu -> Noti -> Kadi ya benki -> Blockchain -> Lightning Network
 wrong_answers:
-  - Haihifadhi thamani yake katika nafasi.
-  - Inamomonyoka kwa muda.
-  - Ni rahisi kuzalisha.
+  - Jiwe mbichi -> Sarafu -> Noti -> Blockchain -> Lightning Network
+  - Jiwe mbichi -> Sarafu -> Noti -> Kadi ya benki -> Lightning Network
+  - Jiwe mbichi -> Sarafu -> Kadi ya benki -> Noti -> Blockchain -> Lightning Network
 explanation: |
-  Moja ya hasara kuu za dhahabu kama aina ya pesa ni
-  kuwa ngumu kugawanya katika vitengo vidogo kama hitaji
-  hutokea, ambayo inafanya kuwa chini ya vitendo kutumia.
+  Sarafu ni teknolojia ambayo imebadilika kulingana na wakati,
+  kuanzia kuwakilishwa na mawe mabichi, kubadilisha
+  kwenye sarafu za metali, kisha kwenye noti, kadi za benki, na
+  hatimaye katika mitandao ya rika-kwa-rika kwa matumizi ya
+  Bitcoin Blockchain na Lightning Network.
 reviewed: true

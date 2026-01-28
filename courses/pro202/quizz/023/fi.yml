@@ -1,0 +1,8 @@
+question: Mikä on järjestysnumerokentän ensisijainen tarkoitus Bitcoin-tapahtumien syöttötiedoissa?
+answer: Ajastimien ja Replace-by-Fee (RBF) -toiminnon käyttöönotto
+wrong_answers:
+  - Määrittää, missä järjestyksessä louhijoiden on käsiteltävä syötteet
+  - double-spending:n estämiseksi luodaan jokaiselle syötteelle yksilöllinen tunniste
+  - Ilmoittaa tapahtuman prioriteettitason maksujen laskennassa
+explanation: |
+  Bitcoin-tapahtumien syöttötiedoissa olevaa järjestysnumerokenttää käytetään kahteen pääasiallista tarkoitukseen: aikarajojen käyttöönottoon (jotka viivästyttävät sitä, milloin tapahtuma voidaan vahvistaa) ja korvaus maksulla -toiminnon (RBF) käyttöönottoon (jonka avulla käyttäjät voivat korottaa vahvistamattomien tapahtumien maksuja). Muut vaihtoehdot ovat virheellisiä, koska: louhijoiden ei tarvitse käsitellä syötteitä missään tietyssä järjestyksessä, double-spending:n estäminen hoidetaan UTXO-mallilla ja lohkoketjun konsensuksella eikä järjestysnumeroilla, ja transaktioiden prioriteetti määräytyy pikemminkin maksujen kuin järjestysnumeroiden perusteella.

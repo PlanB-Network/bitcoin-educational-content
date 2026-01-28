@@ -3,7 +3,7 @@ answer: Kuwa-BOP
 wrong_answers:
   - Phoenix
   - Fungua Node
-  - Uswisi Bitcoin Pay
+  - Swiss Bitcoin Pay
 explanation: |
   Be-BOP ni chaguo kwa wale wanaotaka duka la mtandaoni lililojumuishwa ambalo hurahisisha malipo ya Bitcoin.
-reviewed: false
+reviewed: true

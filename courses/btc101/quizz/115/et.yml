@@ -1,9 +1,9 @@
-question: Kes oli esimene inimene, kes liitus Bitcoin võrgustikuga pärast Satoshi Nakamotot?
-answer: Hal Finney
+question: Milline on olnud Bitcoini võrguühenduse kättesaadavus alates 2009. aastast?
+answer: 99,988%.
 wrong_answers:
-  - Laszlo Hanyecz
-  - Phil Champagne
-  - Rogzy
+  - 100%.
+  - 90,009%.
+  - 80,17%.
 explanation: |
-  Hal Finney oli esimene inimene, kes liitus Bitcoin võrgustikuga pärast Satoshi Nakamotot. Ta isegi säutsus Running Bitcoin, et seda sündmust tähistada.
+  Bitcoini võrguühenduse kättesaadavus on olnud 99,988% alates 2009. aastast.
 reviewed: true

@@ -1,0 +1,12 @@
+question: Wat is Wei Dai's b-geld?
+answer: Een idee van een anonieme digitale valuta waarbij fraudedetectie wordt uitgevoerd door een gemeenschap van beoordelaars in plaats van een centrale autoriteit.
+wrong_answers:
+  - Een digitale valuta die veel gebruikt werd voor Bitcoin en gecontroleerd werd door een groep cypherpunks.
+  - Een vorm van digitaal geld dat is gemaakt door de CIA en wordt gebruikt door het leger.
+  - Een digitale valuta die werd gecreëerd door Wei Dai als concurrent voor Bitcoin om schaalbaarder te zijn.
+explanation: |
+  Wei Dai's b-geld was het idee van een anonieme digitale
+  munteenheid zonder centrale entiteit, wat de
+  de creatie van Bitcoin. Het wordt zelfs aangehaald in het Bitcoin
+  whitepaper.
+reviewed: true

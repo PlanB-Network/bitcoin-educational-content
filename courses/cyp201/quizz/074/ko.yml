@@ -1,0 +1,9 @@
+question: 파생 경로의 깊이 1에서 인덱스 /84'/는 무엇을 의미하나요?
+answer: P2WPKH 표준(SegWit v0)
+wrong_answers:
+  - P2TR 표준(SegWit v1)
+  - Bitcoin Testnet 통화
+  - Bitcoin Mainnet 통화
+explanation: |
+  인덱스 /84'/는 깊이 1(파생 대상의 주소)에서 P2WPKH 주소가 있는 SegWit v0 표준의 사용을 나타내기 위해 BIP84에 정의되어 있습니다.
+reviewed: false

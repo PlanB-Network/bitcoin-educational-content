@@ -1,0 +1,9 @@
+question: Jaký je podle Miltona Friedmana hlavní problém posuzování sociálních politik na základě jejich deklarovaných cílů, a nikoli skutečných výsledků?
+answer: Dobře míněné politiky často vytvářejí zvrácené účinky, jako je ekonomická závislost a narušení trhu, které jsou v rozporu s jejich původními cíli
+wrong_answers:
+  - Politici záměrně zkreslují své skutečné záměry, aby získali podporu veřejnosti pro politiku, o které vědí, že selže
+  - Dobré úmysly automaticky vedou k pozitivním výsledkům, ale měření výsledků je pro tvůrce politik příliš obtížné a časově náročné
+  - Strukturální definice jsou ze své podstaty zaujaté vůči konzervativním názorům, zatímco záměrné definice podporují progresivní hodnoty
+explanation: |
+  Friedman tvrdí, že politiky motivované velkorysými záměry mohou mít nezamýšlené negativní důsledky, pokud nejsou založeny na důkladné analýze lidských potřeb
+  chování a pobídek. V textu se konkrétně zmiňuje o tom, jak sociální politiky zaměřené na pomoc chudým často vytvářejí ekonomickou závislost a narušení trhu. Ostatní možnosti Friedmanův argument zkreslují - netvrdí, že politici záměrně klamou, ani že dobré úmysly automaticky fungují, ani že jde o politickou zaujatost.

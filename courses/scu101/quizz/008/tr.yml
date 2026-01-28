@@ -7,7 +7,7 @@ wrong_answers:
 explanation: |
   TOR (The Onion Router) ağı, aşağıdakileri sunan bir ağdır
   kullanıcının IP Address'ini maskeleyerek anonimlik sağlar ve
-  darknet'e erişim. Gazeteciler tarafından kullanılır, özgürlük
-  aktivistler ve sansürden kaçmak isteyen diğer kişiler
-  otoriter ülkeler.
+  darknet'e erişim sağlar. Gazeteciler, özgürlük aktivistleri 
+  ve otoriter ülkelerde sansürden kaçmak isteyen diğer kişiler
+  tarafından kullanılır.
 reviewed: true

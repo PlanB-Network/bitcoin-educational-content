@@ -1,0 +1,9 @@
+question: 트랜잭션의 입력이란 무엇인가요?
+answer: 이전에 사용하지 않은 UTXO에 대한 참조입니다.
+wrong_answers:
+  - 채굴자의 확인 신호입니다.
+  - Blockchain에 새로운 블록이 추가되었습니다.
+  - 거래 보안을 위한 인증 코드입니다.
+explanation: |
+  각 트랜잭션 입력은 이전 트랜잭션의 출력을 의미하는 UTXO에 대한 참조입니다.
+reviewed: true

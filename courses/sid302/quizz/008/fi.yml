@@ -1,0 +1,8 @@
+question: Kehittäjä haluaa testata varojen liikkeeseenlaskua Elements:lla ilman ulkoisia riippuvuuksia tai odottamatta lohkovahvistuksia - mitä kokoonpanoa hänen pitäisi käyttää?
+answer: Aseta chain=elementsregtest luodaksesi paikallisen testausympäristön, jossa on välitön lohkojen luominen
+wrong_answers:
+  - Aseta chain=liquidv1, jotta voit muodostaa yhteyden Liquid-pääverkkoon välitöntä testausta varten
+  - Käytä komentoa issueasset RPC ja --testmode-lippua eristettyä kehitystä varten
+  - "Määritä ketju=bitcoin-regtest, jotta Elements:n ominaisuuksia voidaan käyttää Bitcoin:n testiympäristössä"
+explanation: |
+  Elementsregtest-konfiguraatio luo paikallisen regressiotestausympäristön, jossa kehittäjät voivat käyttää generate-lohkoja välittömästi komennoilla, kuten generateblock, jolloin he voivat testata omaisuuserien liikkeeseenlaskua ja muita ominaisuuksia odottamatta verkon vahvistuksia tai riippuvaisia ulkoisista solmuista. Asetuksella chain=liquidv1 muodostetaan yhteys tuotannon Liquid-verkkoon, jossa on 1 minuutin lohkoajat ja ulkoiset riippuvuudet. issueasset-komennossa ei ole --testmode-lippua, ja bitcoin-regtest on tarkoitettu Bitcoin Core -verkkoon, ei Elements-toimintoihin.

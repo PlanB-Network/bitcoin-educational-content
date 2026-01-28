@@ -1,0 +1,9 @@
+question: Menurut analisis Gregory Maxwell, apa yang menciptakan pertukaran mendasar yang memaksa pengguna menuju layanan tepercaya dalam diskusi penskalaan Bitcoin?
+answer: Penggunaan sumber daya yang terlalu tinggi membuat validator tidak dapat digunakan dan akses ruang blok yang terlalu mahal untuk penyelesaian sengketa
+wrong_answers:
+  - Konflik antara meningkatkan throughput transaksi dan mempertahankan profitabilitas mining yang memadai di berbagai ukuran pool
+  - Ketegangan antara mengimplementasikan peningkatan saksi yang terpisah dan mempertahankan kompatibilitas ke belakang dengan perangkat lunak wallet lama
+  - Persaingan antara solusi lapisan-dua dan pendekatan penskalaan on-chain untuk sumber daya pembangunan yang terbatas dan dukungan masyarakat
+explanation: |
+  Maxwell mengidentifikasi masalah dua sisi di mana Bitcoin kehilangan keunggulannya di kedua arah: jika penggunaan sumber daya terlalu tinggi dibandingkan dengan teknologi yang tersedia, validasi menjadi terlalu mahal dan membebani pengguna yang kemudian harus bergantung pada pihak ketiga yang tepercaya alih-alih memvalidasi secara mandiri. Sebaliknya, jika kapasitas terlalu rendah dan metode transaksi tidak efisien, mengakses blockchain untuk penyelesaian sengketa menjadi sangat mahal, sekali lagi mendorong pengguna ke layanan tepercaya. Hal ini menciptakan keseimbangan yang rumit yang harus dinavigasi oleh solusi penskalaan.
+reviewed: false

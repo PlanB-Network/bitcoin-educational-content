@@ -1,0 +1,9 @@
+question: ดัชนี /84'/ ที่ความลึก 1 ของเส้นทางการอนุพันธ์บ่งบอกถึงอะไร?
+answer: มาตรฐาน P2WPKH (SegWit v0)
+wrong_answers:
+  - มาตรฐาน P2TR (SegWit v1)
+  - สกุลเงินทดสอบ Bitcoin
+  - สกุลเงิน Bitcoin mainnet
+explanation: |
+  ดัชนี /84'/ ถูกกำหนดใน BIP84 เพื่อบ่งบอกถึงการใช้มาตรฐาน SegWit v0 กับที่อยู่ P2WPKH ที่ระดับความลึก 1 (ซึ่งเป็นเป้าหมายของการสืบทอด)
+reviewed: false

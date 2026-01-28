@@ -1,0 +1,9 @@
+question: Jaki jest główny cel routera w Lightning?
+answer: Zarabiaj pieniądze dzięki opłatom routingowym
+wrong_answers:
+  - Zarabiaj pieniądze, pokazując drogę
+  - Zarabianie pieniędzy poprzez sprzedaż przychodzącej płynności
+  - Zarabiaj pieniądze, publikując nieaktualne stany kanałów
+explanation: |
+  Router stara się przekierowywać płatności od innych, pobierając opłaty za przekierowanie.
+reviewed: false

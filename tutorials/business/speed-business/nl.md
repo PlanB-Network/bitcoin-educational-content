@@ -1,5 +1,5 @@
 ---
-name: Snelheid Wallet - PoS
+name: Speed Wallet - POS
 description: Integreer eenvoudig Bitcoin en stablecoin betalingen in uw bedrijf
 ---
 ![cover](assets/cover.webp)
@@ -28,25 +28,25 @@ Speed heeft een groot aantal functies voor de financiële aspecten van je bedrij
 
 
 
-- Online betalingsconfiguratie**: Ontvang betalingen van je klanten waar ze ook zijn, dankzij je website.
+- **Online betalingsconfiguratie**: Ontvang betalingen van je klanten waar ze ook zijn, dankzij je website.
 
 
 
 
 
-- Betalingen ter plaatse**: Ideaal voor winkels en bedrijven die contant geld innen in de winkel.
+- **Betalingen ter plaatse**: Ideaal voor winkels en bedrijven die contant geld innen in de winkel.
 
 
 
 
 
-- Geldopnames**: Neem je tegoeden probleemloos op en gebruik je bitcoins om je klanten en salarissen terug te betalen.
+- **Geldopnames**: Neem je tegoeden probleemloos op en gebruik je bitcoins om je klanten en salarissen terug te betalen.
 
 
 
 
 
-- Verbinding met andere platforms**: Gebruik je externe tools om je betalingen te beheren? Speed biedt je de mogelijkheid om ze te koppelen aan zijn platform, voor een alles-in-één ecosysteem dat jouw bedrijf weerspiegelt.
+- **Verbinding met andere platforms**: Gebruik je externe tools om je betalingen te beheren? Speed biedt je de mogelijkheid om ze te koppelen aan zijn platform, voor een alles-in-één ecosysteem dat jouw bedrijf weerspiegelt.
 
 
 
@@ -94,13 +94,13 @@ Wanneer u de testmodus deactiveert, moet u uw Wallet opnemen configureren.
 
 
 
-Als je nog geen Bitcoin en/of Lightning Wallet hebt, raden we je aan onze [mobiele portemonnees] tutorials te bekijken (https://planb.network/tutorials/Wallet).
+Als je nog geen Bitcoin en/of Lightning Wallet hebt, raden we je aan onze [mobiele portemonnees] tutorials te bekijken (https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **BELANGRIJK**: Wanneer u uw Wallet configureert, kies dan het **BTC (On-Chain)** type wanneer u grote bedragen ontvangt, in de orde van duizenden euro's, om een betrouwbare bevestiging op Bitcoin te garanderen, en het **LN Address** type wanneer u directe microbetalingen in uw bedrijf wilt ontvangen.
 
@@ -265,13 +265,13 @@ In het menu **Betalingen verzenden** vind je alle opties die speed te bieden hee
 
 
 
-- Directe betalingen**: Met de Instant Send optie kun je veilig en direct bitcoins versturen vanaf je zakelijke account.
+- **Directe betalingen**: Met de Instant Send optie kun je veilig en direct bitcoins versturen vanaf je zakelijke account.
 
 
 
 
 
-- generate opnamelinks** waarmee je partners en leveranciers hun betaling op een later tijdstip kunnen inzien zonder dat je online aanwezig hoeft te zijn.
+- generate **opnamelinks** waarmee je partners en leveranciers hun betaling op een later tijdstip kunnen inzien zonder dat je online aanwezig hoeft te zijn.
 
 
 
@@ -289,7 +289,7 @@ Maak in de optie **Opnamekoppelingen** een nieuwe opnamekoppeling en configureer
 
 
 
-- Uitbetalingen**: In het menu Uitbetalingen kun je opnames initiëren van je Speed Business-saldo naar je persoonlijke Wallet.
+- **Uitbetalingen**: In het menu Uitbetalingen kun je opnames initiëren van je Speed Business-saldo naar je persoonlijke Wallet.
 
 
 
@@ -299,7 +299,7 @@ Maak in de optie **Opnamekoppelingen** een nieuwe opnamekoppeling en configureer
 
 
 
-- Kortingen**: Moedig je vaste klanten aan door kortingsopties in te stellen om bonussen te verdienen.
+- **Kortingen**: Moedig je vaste klanten aan door kortingsopties in te stellen om bonussen te verdienen.
 
 
 
@@ -371,7 +371,7 @@ Maak in het **Developers** menu je publieke en private sleutels aan om de Speed 
 
 
 
-Vind de volledige [documentatie] (https://apidocs.tryspeed.com/reference/introduction) voor een betere integratie van Speed Business.
+Vind de volledige [documentatie](https://apidocs.tryspeed.com/reference/introduction) voor een betere integratie van Speed Business.
 
 
 
@@ -435,4 +435,4 @@ Je hebt een goed begrip van Speed, integreer Bitcoin in je bedrijf en ontwikkel 
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

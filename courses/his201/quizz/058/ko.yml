@@ -1,0 +1,9 @@
+question: 2010년 하반기에 네트워크의 Hash 비율은 어느 단위로 측정되었나요?
+answer: GH/s 단위
+wrong_answers:
+  - MH/s 단위
+  - TH/s 단위
+  - PH/s 단위
+explanation: |
+  Hash 요금은 7월 13일 1.35GH/s에서 2010년 12월 31일 120GH/s로 증가했습니다.
+reviewed: true

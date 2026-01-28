@@ -1,11 +1,9 @@
-question: Hvilket av disse alternativene er ikke en fordel med fiat-valutaer?
-answer: De er underlagt monetær inflasjon
+question: Hva er en potensiell ulempe med digitale valutaer utstedt av sentralbanker (CBDC-er)?
+answer: De kan hindre individuell økonomisk frihet og legge til rette for autoritære overgrep.
 wrong_answers:
-  - De er lett transportable
-  - De er lett delbare
-  - De aksepteres av alle land
+  - De kan føre til en reduksjon i pengemengden.
+  - De kan føre til en reduksjon i verdien av Bitcoin.
+  - De kan føre til en reduksjon i verdien av gull.
 explanation: |
-  Fiat-valutaer, som dollar og euro, er svært likvide og
-  lett transportable fordi de nå for det meste er digitale. Deres verdi er
-  imidlertid konstant utsatt for monetær inflasjon.
+  Digitale valutaer utstedt av sentralbanker (CBDC-er) kan potensielt hindre individuell økonomisk frihet og legge til rette for autoritære overgrep. Dette er fordi de ville tilby en mer sentralt planlagt økonomi, med sentralbanken som har enda mer kontroll over pengemengden.
 reviewed: true

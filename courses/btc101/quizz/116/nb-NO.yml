@@ -1,10 +1,10 @@
-question: Hva er den første Bitcoin-transaksjonen som er registrert?
-answer: En transaksjon på 10 BTC mellom Satoshi og Hal Finney
+question: Hva er blokknummeret til den første Bitcoin-transaksjonen?
+answer: Blokk 170
 wrong_answers:
-  - En transaksjon på 10 000 BTC for 2 pizzaer
-  - En transaksjon på 1 BTC mellom Satoshi og Hal Finney
-  - En transaksjon på 10 000 BTC mellom Laszlo Hanyecz og Hal Finney
+  - Blokk 1
+  - Blokk 17
+  - Blokk 1700
 explanation: |
-  Den første Bitcoin-transaksjonen som ble registrert var en transaksjon på 10 BTC mellom
-  Satoshi Nakamoto og Hal Finney.
+  Den første Bitcoin-transaksjonen, som var en overføring av 10 BTC mellom
+  Satoshi Nakamoto og Hal Finney, er registrert i blokk 170.
 reviewed: true

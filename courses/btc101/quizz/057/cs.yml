@@ -1,9 +1,9 @@
-question: Jaká byla míra inflace v Zimbabwe v listopadu 2008?
-answer: 79 600 000 000%
+question: Jaký je příkaz pro ověření množství bitcoinů v oběhu na Bitcoinovém uzlu?
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - 796%
-  - 79 600 000 000 000 000%
-  - 100%
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  V listopadu 2008 dosáhla měsíční míra inflace zimbabwské měny vrcholu 79 600 000 000%, což způsobilo, že hodnota zimbabwského dolaru klesla na 0.
+  Příkaz pro ověření množství bitcoinů v oběhu na Bitcoinovém uzlu je bitcoin-cli gettxoutsetinfo. Tento příkaz poskytuje transparentnost a ověřitelnost, čímž posiluje důvěru v systém Bitcoinu.
 reviewed: true

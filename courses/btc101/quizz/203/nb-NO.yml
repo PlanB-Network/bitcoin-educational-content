@@ -1,12 +1,10 @@
-question: Hva bør du gjøre etter å ha kjøpt Bitcoin på en handelsplattform?
-answer: Ta ut Bitcoin til lommeboken din.
+question: Hvilket land har erklært Bitcoin som lovlig betalingsmiddel?
+answer: El Salvador
 wrong_answers:
-  - La det være på plattformen.
-  - Selg det umiddelbart.
-  - Overfør det til en annen plattform.
+  - USA
+  - Kina
+  - India
 explanation: >-
-  Teksten råder om at etter å ha kjøpt Bitcoin, er det tilrådelig å
-  umiddelbart
-  ta ut Bitcoinene fra handelsplattformene for å minimere risikoen for hacking
-  og blokkering av midler.
+  El Salvador har tatt det dristige steget å adoptere Bitcoin i sin helhet,
+  ved å erklære det som et lovlig betalingsmiddel.
 reviewed: false

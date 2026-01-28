@@ -1,11 +1,9 @@
-question: What is the nature of Bitcoin's adoption as described in this course?
-answer: Viral.
+question: Why can a Lightning channel be unusable in one direction?
+answer: Not enough liquidity
 wrong_answers:
-  - Slow and steady.
-  - Rapid and uncontrollable.
-  - Sporadic and unpredictable.
+  - Block too recent
+  - Expired HTLC
+  - Unsynchronized node
 explanation: |
-  The course text describes Bitcoin's adoption as viral,
-  suggesting that it spreads rapidly and widely from one
-  person to another, much like a virus, but a good one.
-reviewed: true
+  Even with large capacity, a channel only allows a payment if sufficient liquidity is on the correct side.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin core'a uzaktan erişmenin en iyi yolu nedir?
+answer: RPC bağlantı noktasını açığa çıkarma
+wrong_answers:
+  - Tor Kullanımı
+  - VPN Kullanma
+  - Bir Electrum sunucusunu açığa çıkarma
+explanation: |
+  RPC bağlantı noktasının şifrelenmeden açık bırakılması büyük bir güvenlik riski oluşturur. Tor veya VPN tercih edilir.
+reviewed: true

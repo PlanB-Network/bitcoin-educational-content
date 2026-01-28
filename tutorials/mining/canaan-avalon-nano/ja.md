@@ -1,5 +1,5 @@
 ---
-name: カナーン・アバロン・ナノ3S
+name: Canaan Avalon Nano 3S
 description: ソロマイニングまたはMinerプーリングのためのASICアバロンの設定
 ---
 
@@ -19,17 +19,17 @@ description: ソロマイニングまたはMinerプーリングのためのASIC�
 
 
 
-これらの機器は、**アバロン・ナノ3S（140W）***の場合は補助ヒーターとして、**アバロン・ミニ3**の場合は出力**800W**のミニラジエーターとして販売されている。
+これらの機器は、**アバロン・ナノ3S（140W）**の場合は補助ヒーターとして、**アバロン・ミニ3**の場合は出力**800W**のミニラジエーターとして販売されている。
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 従来の同等出力のヒーターとの価格差は、ほとんどの場合、経済的な利益をもたらすものではありません。Miningの活動によって生み出されるサトシは、無料（余剰）または非常に安い電力を利用できない限り、この価格差を補うことはできない。
 
 
 
-私の意見では、これらのデバイスは、個人的な理由でMinerを行いたい人のための、自宅でMinerを行うための簡単な方法と考えるべきだ： *非KYCサッツを得る／ソロミネーションで「宝くじ」を引く／Hashrateの分散化に参加する......などなど。しかし、少なくともほとんどの場合（欧米諸国）、お金を節約する方法ではない。
+私の意見では、これらのデバイスは、個人的な理由でMinerを行いたい人のための、自宅でMinerを行うための簡単な方法と考えるべきだ：*非KYCサッツを得る／ソロミネーションで「宝くじ」を引く／Hashrateの分散化に参加する*......などなど。しかし、少なくともほとんどの場合（欧米諸国）、お金を節約する方法ではない。
 
 
 
@@ -75,17 +75,18 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| 特性                                      | 値                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| ハッシュレート                                      | 6 Th/s +- 5%                                            |
+| 消費電力                               | 140 W                                                   |
+| ノイズ                                                | 30 - 40 dB                                              |
+| 出力空気温度範囲                 | 60-70°C (周囲温度25°C)                |
+| 使用のための周囲温度要件 | -5～30°C                                            |
+| デバイス入力電圧範囲                         | 28V 5A連続                                          |
+| アダプター入力電圧範囲                       | 110-240V AC 50/60Hz                                     |
+| デバイスサイズ                                 | 長さ: 205 mm / 幅: 115 mm / 高さ: 58.5 mm |
+| デバイスの重量                                  | 0.86 kg                                                 |
 
 ## 電源投入とローカルネットワークへの接続
 
@@ -163,7 +164,7 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3
 
 
 
-**この部分はナノ3sとミニ3で共通です。
+**この部分はナノ3sとミニ3で共通です。**
 
 
 
@@ -207,9 +208,9 @@ Mining poolへの接続方法の詳細については、以下のチュートリ
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 結論から言えば、必要なのは
 
@@ -311,13 +312,13 @@ Avalon ファミリーアプリケーションで、Avalon Nano 3S に対応す�
 
 
 
-*低***：70Wの消費電力で約3Th/sのHashrateを実現
+**低**：70Wの消費電力で約3Th/sのHashrateを実現
 
 
 **ミディアム**：100Wの消費電力で約4.5Th/sのHashrateを実現
 
 
-*高***：最大消費電力140Wで約6Th/sのHashrateが得られる。
+**高効率**：最大消費電力140Wで約6Th/sのHashrateが得られる。
 
 
 
@@ -358,4 +359,4 @@ Avalon ファミリーアプリケーションで、Avalon Nano 3S に対応す�
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

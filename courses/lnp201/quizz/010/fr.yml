@@ -6,4 +6,4 @@ wrong_answers:
   - Signer la transaction de retrait avant l'échange de clés publiques
 explanation: |
   L'ouverture de canal débute par un échange de messages entre les deux parties, où elles partagent les montants qu'elles souhaitent engager et leurs clés publiques.
-reviewed: false
+reviewed: true 

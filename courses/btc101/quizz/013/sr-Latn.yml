@@ -1,10 +1,9 @@
-question: Šta je Cypherpunk Manifest?
-answer: Tekst koji je napisao Eric Hughes tvrdeći da je privatnost osnovno pravo.
+question: Koje su glavne karakteristike efektivne valute?
+answer: Zamenljivost, deljivost, likvidnost.
 wrong_answers:
-  - Knjiga koju je napisao Julian Assange o budućnosti tehnologije.
-  - Dokument koji opisuje principe Bitkoina.
-  - Manifest David-a Chaum-a o važnosti digitalne valute.
+  - zamenljivost, Deljivost, Kvarljivost.
+  - zamenljivost, Nedeljivost, Likvidnost.
+  - Nezamenljivost, Deljivost, Likvidnost.
 explanation: |
-  Cypherpunk Manifest je napisao Eric Hughes 1993. godine
-  i tvrdi da je privatnost osnovno pravo.
+  Efektivna valuta mora biti zamenljiva (zamenljiva bez gubitka vrednosti), deljiva (razdvojiva na manje delove radi olakšavanja transakcija različitih obima) i likvidna (lako konvertibilna u robu ili usluge).
 reviewed: true

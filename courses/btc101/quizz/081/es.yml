@@ -1,12 +1,9 @@
-question: ¿Cuál es la pregunta central que debes hacerte al elegir una cartera de Bitcoin, en términos de auto custodia?
-answer: ¿Eres el propietario de los fondos o dejas el control de tu dinero a un tercero?
+question: ¿Cuál es el principal riesgo de usar un servicio de custodia para almacenar tus bitcoins?
+answer: El tercero de confianza puede restringir tu acceso a tus fondos en cualquier momento.
 wrong_answers:
-  - ¿Está la cartera asegurada con una frase de paso?
-  - ¿Permite la cartera recibir y enviar bitcoins?
-  - ¿Puedo compartir mi cartera con otra persona?
-explanation: |
-  Al elegir una cartera de Bitcoin, la pregunta central es:
-  ¿eres el propietario de los fondos o dejas el control de
-  tu dinero a un tercero? Esto se debe a que el poseedor de
-  la clave privada es el propietario de los Bitcoins.
+  - El tercero de confianza puede aumentar el valor de tus bitcoins en cualquier momento.
+  - El tercero de confianza puede disminuir el valor de tus bitcoins en cualquier momento.
+  - El tercero de confianza no puede duplicar tus bitcoins en ningún momento.
+explanation: >-
+  Cuando usas un servicio de custodia para almacenar tus bitcoins, no eres el único poseedor de tus bitcoins. Esto significa que el tercero de confianza puede restringir tu acceso a tus fondos en cualquier momento, dándote el mismo nivel de soberanía financiera que el sistema bancario tradicional.
 reviewed: true

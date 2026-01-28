@@ -1,0 +1,9 @@
+question: Vad är fördelen med en dedikerad bärbar dator jämfört med en mini-PC?
+answer: Dess batteri fungerar som en inverterare
+wrong_answers:
+  - Den är tystare
+  - Den varar längre
+  - Den förbrukar mindre energi
+explanation: |
+  Batteriet i en bärbar dator fungerar som en naturlig UPS och förhindrar plötsliga stopp i händelse av strömavbrott.
+reviewed: true

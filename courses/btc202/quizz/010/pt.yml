@@ -1,0 +1,9 @@
+question: Qual é a diferença económica entre um nó e um Miner?
+answer: O Miner recebe recompensas, o nó não tem qualquer ganho direto
+wrong_answers:
+  - O nó recebe uma taxa, o Miner recebe uma subvenção em bloco
+  - O nó recebe recompensas, o Miner não tem ganhos diretos
+  - Ambos recebem os mesmos prémios
+explanation: |
+  Os mineiros recebem recompensas (subsídios e taxas), enquanto um nó não traz qualquer benefício financeiro direto ao seu utilizador.
+reviewed: true

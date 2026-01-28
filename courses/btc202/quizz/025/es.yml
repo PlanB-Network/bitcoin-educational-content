@@ -1,0 +1,9 @@
+question: ¿Cuándo es un nudo pruned un problema para un Wallet?
+answer: Al restaurar una Wallet antigua
+wrong_answers:
+  - Al crear una nueva recepción Address
+  - Al enviar una transacción reciente
+  - Al seleccionar el importe de la tasa
+explanation: |
+  Un nodo pruned no conserva bloques antiguos, lo que puede impedir que se analicen transacciones pasadas durante la restauración.
+reviewed: true

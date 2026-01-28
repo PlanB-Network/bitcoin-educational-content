@@ -1,0 +1,9 @@
+question: Kas René Descartes uskus vabasse tahtesse?
+answer: Mitte kunagi.
+wrong_answers:
+  - Ainult täiskasvanutele.
+  - Ainult siis, kui me oleksime õppinud filosoofiat.
+  - Teatud tingimustel.
+explanation: |
+  René Descartes ei uskunud kunagi vabasse tahtesse. Ta väitis, et kõik meie teod on määratud eelnevate põhjuste poolt, kuigi ta püüdis säilitada mingisugust tahtevabadust.
+reviewed: false

@@ -20,13 +20,13 @@ C'est pourquoi dans ce tutoriel, je vais vous présenter **Ntop** et vous montre
 
 Ntop est un logiciel open source installable sur toute machine Linux. Il est libre de constructeur et permet de collecter les données suivantes :
 
-* Utilisation de la bande passante
-* Principaux clients
-* Principales destinations
-* Protocoles utilisés
-* Applications utilisées
-* Ports utilisés
-* Etc.
+**Utilisation de la bande passante**
+**Principaux clients**
+**Principales destinations**
+**Protocoles utilisés**
+**Applications utilisées**
+**Ports utilisés**
+*Etc.*
 
 Aujourd'hui renommé **Ntopng (New Generation)**, il offre de nombreuses fonctionnalités de base de manière gratuite. À noter qu'une version commerciale est disponible permettant d'exporter les alertes configurées vers un logiciel type SIEM ou encore filtrer le trafic avec des règles définies directement depuis la sonde.
 
@@ -85,8 +85,8 @@ Une simple commande **ip add** va nous renvoyer une sortie avec ces infos :
 Ici, je vois 3 interfaces :
 
 * **Lo** : c'est l'interface de loopback (ou en français interface de bouclage); c'est une interface virtuelle qui "boucle" sur l'équipement. En gros, cette interface, qui a comme adresse 127.0.0.1 (quoique n'importe quelle adresse en 127.0.0.0/8 fera l'affaire, cette plage étant réservée pour cet usage) sert à contacter l'équipement lui-même. Si vous avez installé sur votre poste un site web (avec WAMPP par exemple), vous avez sûrement à un moment ou un autre utilisé l'adresse "*localhost*" pour afficher le site hébergé sur votre propre machine. Ce nom d'hôte est justement associé à l'adresse 127.0.0.1 et donc à l'interface de loopback.
-* **ens33** : c'est ma première interface qui a ici reçu une adresse de mon DHCP
-* **ens36** : ma seconde interface
+**ens33** : c'est ma première interface qui a ici reçu une adresse de mon DHCP
+**ens36** : ma seconde interface
 
 Maintenant que je possède toutes les informations, je vais pouvoir modifier le fichier */etc/network/interfaces* pour créer mon bridge. Voici à quoi il ressemble actuellement (peut varier) :
 
@@ -121,7 +121,7 @@ iface ens36 inet manual
 
 Quelques explications sur ces premières modifications :
 
-* **auto *interface*** : va "démarrer" automatiquement l'interface au démarrage du système
+**auto interface** : va "démarrer" automatiquement l'interface au démarrage du système
 * **iface *interface* inet manual** : pour utiliser l'interface sans aucune adresse IP. À l'instar du mot clé "static" pour définir une adresse IP statique ou "dhcp" pour utiliser l'adressage dynamique
 
 On poursuit les modifications :
@@ -139,9 +139,9 @@ iface br0 inet static
 
 Là encore, quelques explications :
 
-* **iface br0 inet static** : j'ai défini ici mon interface bridge (*br0*) avec une adresse statique.
-* **address, netmask, gateway** : les informations d'adressage de la carte
-* **bridge_ports** : les interfaces qui seront incluses dans le pont
+**iface br0 inet static** : j'ai défini ici mon interface bridge (*br0*) avec une adresse statique.
+**address, netmask, gateway** : les informations d'adressage de la carte
+**bridge_ports** : les interfaces qui seront incluses dans le pont
 * **bridge_stp** : le protocole Spanning Tree est utilisé lors de l'interconnexion de switch pour la détection de liens redondants afin d'éviter les boucles. Un pont pouvant être inséré entre deux chemins réseau, il peut être à l'origine d'une boucle, d'où la possibilité d'activer ce protocole. Ici je n'en ai pas besoin donc je le désactive.
 
 On enregistre les changements et on redémarre le réseau :
@@ -161,8 +161,8 @@ Maintenant que notre sonde est capable de "sniffer" le trafic entre mon réseau 
 
 Par défaut, les sources de paquets ne contiennent que les paquets respectant le DFSG (*Debian Free Sotftware Guidelines*), identifiés par le mot-clé **main**. On peut ajouter en plus ces sources :
 
-* **contrib** : paquets contenant des logiciels conformes au DFSG, mais utilisant des dépendances ne faisant pas partie de la branche **main**
-* **non-free** : contiens des paquets ne respectant pas la DFSG
+**contrib** : paquets contenant des logiciels conformes au DFSG, mais utilisant des dépendances ne faisant pas partie de la branche **main**
+**non-free** : contiens des paquets ne respectant pas la DFSG
 
 Exemple d'une ligne dans /etc/apt/sources.list :
 
@@ -264,12 +264,12 @@ En cliquant sur ce chiffre, j'ai le détail des alertes. Ici rien d'alarmant, il
 
 Mais là pas de quoi s'inquiéter, toutefois, utilisant la version gratuite, je ne peux pas exclure des domaines ou des hôtes source des alertes, il faudra donc surveiller celles-ci pour éviter de passer à côté de certaines choses beaucoup plus inquiétantes. NtopNG va générer des alertes en cas de :
 
-* Téléchargement de fichier binaire sur HTTP
-* Trafic DNS suspect
-* Utilisation d'un port non standard
-* Détection d'injection SQL
-* Cross-Site Scritpting (XSS)
-* Etc.
+**Téléchargement de fichier binaire sur HTTP**
+**Trafic DNS suspect**
+**Utilisation d'un port non standard**
+**Détection d'injection SQL**
+**Cross-Site Scripting (XSS)**
+*Etc.*
 
 ## VII. Conclusion
 

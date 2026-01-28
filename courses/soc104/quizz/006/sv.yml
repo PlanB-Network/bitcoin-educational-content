@@ -1,0 +1,11 @@
+question: Vilka är de fem sektioner som identifieras i det politiska diagrammet Nolan Chart?
+answer: Statism (nederst), socialism (vänster), konservatism (höger), libertarianism (överst) och centrism (mitten)
+wrong_answers:
+  - Auktoritarism (nederst), liberalism (vänster), nationalism (höger), anarkism (överst) och populism (mitten)
+  - Totalitarism (nederst), progressivism (vänster), traditionalism (höger), kapitalism (överst) och moderatism (mitten)
+  - Fascism (nederst), kommunism (vänster), republikanism (höger), demokrati (överst) och pragmatism (mitten)
+explanation: |
+  Nolan Chart delar in det politiska spektrumet i fem olika delar som baseras på ekonomisk och personlig frihet. Statismen representerar
+  maximal statlig kontroll längst ner, medan libertarianism längst upp representerar maximal frihet i båda dimensionerna. Socialism (vänster) stöder personlig frihet
+  frihet men motarbetar ekonomisk frihet, medan konservatism (höger) stöder ekonomisk frihet men begränsar den personliga friheten. Centrismen befinner sig i mitten,
+  blandar element från båda friheterna med viss reglering.

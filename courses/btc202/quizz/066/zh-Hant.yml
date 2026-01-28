@@ -1,0 +1,9 @@
+question: 強烈建議採取哪些安全措施來保護您對 Umbrel 的存取？
+answer: 長密碼和 2FA 啟用
+wrong_answers:
+  - 雙 SSD 儲存裝置
+  - 以純文字開啟 RPC 連接埠
+  - 長密碼和 SSH 啟用
+explanation: |
+  強大密碼與雙重認證 (2FA) 的結合可有效保護 Interface Umbrel 的存取。
+reviewed: true

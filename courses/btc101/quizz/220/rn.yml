@@ -1,11 +1,9 @@
-question: Ni igiki iki cigwa kivuga ku bijanye n’urugero rwo kwiga ivyerekeye Bitcoin?
-answer: Biragoye gufata vyose icarimwe, rero fata umwanya wawe.
+question: Ni ubuhe buryo buhuza sidechain na Bitcoin?
+answer: Gufatanya mu mpande zombi
 wrong_answers:
-  - Biroroshe kwiga vyose icarimwe.
-  - Ntibishoboka ko umuntu amenya vyose ku vyerekeye Bitcoin.
-  - Si ngombwa kwiga vyose ku vyerekeye Bitcoin.
+  - Umuyoboro wo kwishyura
+  - Proof of Stake
+  - Sharding
 explanation: |
-  Iryo shure rivuga ko hari vyinshi umuntu yokwihweza n’
-  Bitcoin ko bigoye gufata vyose ku .
-  rimwe, rero umuntu akwiye gufata umwanya wabo.
-reviewed: true
+  Uburyo bwa two-way peg butuma BTC zifungwa kuri Bitcoin maze zigaserukira kuri sidechain.
+reviewed: false

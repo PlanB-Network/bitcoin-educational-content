@@ -1,0 +1,9 @@
+question: 다음 중 Bitcoin을 획득하기 위해 언급된 세 가지 주요 방법 중 하나가 아닌 것은 무엇인가요?
+answer: 사업 개발을 위한 정부 보조금으로 Bitcoin을 받았습니다.
+wrong_answers:
+  - 상품 또는 서비스에 대해 Exchange에서 Bitcoin을 획득하는 경우.
+  - 특수 하드웨어 및 에너지 사용을 통한 Mining Bitcoin.
+  - 플랫폼 또는 브로커에서 Bitcoin 구매.
+explanation: |
+  이 장에서는 Bitcoin을 획득하는 세 가지 주요 방법, 즉 지급으로 수령, Mining 수령 또는 구매에 대해 간략하게 설명합니다. 정부 보조금으로 Bitcoin을 받는 것은 인정된 표준 취득 방법이 아닙니다.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Šta se dešava sa Rust strukturama sa pridruženim metodama kada se mapiraju kroz UniFFI-jev UDL na ciljne jezike kao što su Kotlin ili Swift?
+answer: Oni su izloženi kao interfejsi u UDL i generate kao klase sa metodama u objektno-orijentisanim ciljnim jezicima
+wrong_answers:
+  - Oni su konvertovani u jednostavne rečnike bez ikakve funkcionalnosti metoda u ciljnim jezicima.
+  - Oni zahtevaju ručnu implementaciju svake metode u ciljanom jeziku koristeći callback interfejse
+  - Oni se automatski transformišu u funkcije prostora imena koje uzimaju strukturu kao prvi parametar
+explanation: |
+  UniFFI čuva objektno-orijentisane dizajn šablone mapiranjem Rust struktura sa pridruženim metodama na interfejse u UDL, koji se zatim generate kao native klase sa metodama u ciljnim jezicima. Ovo održava strukturni integritet i ponašanje originalne Rust implementacije dok predstavlja poznate objektno-orijentisane interfejse programerima u jezicima kao što su Kotlin i Swift. Ostale opcije su netačne jer UniFFI specifično održava funkcionalnost metoda umesto da ih svodi na rečnike, ne zahteva ručnu implementaciju pošto se veze automatski generišu, i ne konvertuje metode struktura u funkcije prostora imena.

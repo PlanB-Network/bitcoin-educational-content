@@ -1,0 +1,9 @@
+question: Mitä eroa on Umbrel Home- ja umbrelOS-ohjelmilla?
+answer: Umbrel Home on esiasennettu minipalvelin, umbrelOS on tee-se-itse-asennus
+wrong_answers:
+  - Umbrel Home on ilmainen, umbrelOS ei ole
+  - Umbrel Home ei tue Bitcoin:ta; umbrelOS tukee
+  - Umbrel Home on avoimen lähdekoodin, umbrelOS on suojattu
+explanation: |
+  Umbrel Home myydään avaimet käteen -periaatteella, ja umbrelOS on jo valmiiksi asennettuna, kun taas umbrelOS voidaan asentaa itse omalle laitteistolle.
+reviewed: true

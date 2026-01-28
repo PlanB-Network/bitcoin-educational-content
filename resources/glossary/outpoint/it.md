@@ -16,4 +16,4 @@ abc...123:0
 
 L'outpoint viene utilizzato negli ingressi (`vin`) di una nuova transazione per indicare quale UTXO viene speso.
 
-> *Il termine "outpoint" è spesso usato come sinonimo di "UTXO"
+> *Il termine "outpoint" è spesso usato come sinonimo di "UTXO"*

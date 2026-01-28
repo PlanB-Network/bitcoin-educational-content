@@ -2,5 +2,8 @@
 term: BIP0118
 ---
 
-Proposal for improving Bitcoin aimed at introducing two new SigHash Flag modifiers: `SIGHASH_ANYPREVOUT` and `SIGHASH_ANYPREVOUTANYSCRIPT`. These features extend the capabilities of Bitcoin transactions, particularly in terms of smart contracts and overlay solutions like the Lightning Network. BIP118 would notably enable the use of Eltoo. The main advantage of `SIGHASH_ANYPREVOUT` is to allow the reuse of signatures across multiple transactions, which offers more flexibility. Specifically, these SigHashes allow for a signature that covers none of the transaction's inputs.
+Proposal introducing two new SigHash Flag modifiers: `SIGHASH_ANYPREVOUT` and `SIGHASH_ANYPREVOUTANYSCRIPT`. 
+These additions extend the flexibility of Bitcoin transactions, particularly for smart contracts and second-layer solutions such as the Lightning Network.
+One notable application of BIP118 is enabling the Eltoo update mechanism.
+The main advantage of `SIGHASH_ANYPREVOUT` is that it allows signatures to be reused across multiple transactions, offering greater flexibility. Specifically, these SigHash flags make it possible to produce a signature that does not commit to any of the transaction's inputs.
 

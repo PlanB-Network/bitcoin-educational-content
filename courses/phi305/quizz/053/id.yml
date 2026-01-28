@@ -1,0 +1,9 @@
+question: Apa yang disajikan dalam Buku Putih Satoshi Nakamoto?
+answer: Sebuah sarana terdesentralisasi Exchange di Internet.
+wrong_answers:
+  - Kebijakan liberal yang baru.
+  - Protokol Exchange yang terpusat.
+  - Sebuah program politik.
+explanation: |
+  Buku Putih Satoshi Nakamoto menyajikan Bitcoin sebagai media terdesentralisasi dari Exchange di Internet. Ia mengusulkan sistem pembayaran elektronik peer-to-peer tanpa otoritas pusat.
+reviewed: false

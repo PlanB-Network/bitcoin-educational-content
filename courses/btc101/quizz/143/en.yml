@@ -1,11 +1,11 @@
-question: What would occur if a node user chose to follow different rules that contradict the existing consensus rules?
-answer: The node will no longer be part of the Bitcoin network.
+question: What is the role of miners in the Bitcoin network?
+answer: Miners secure the network and add transactions to the blocks.
 wrong_answers:
-  - The node will become a part of a different Bitcoin network.
-  - The node will be penalized by the Bitcoin network.
-  - The node will be rewarded by the Bitcoin network.
-explanation: |
-  If a node user decided to follow other rules that
-  invalidate the current consensus rules, then this node
-  would no longer be part of the Bitcoin network.
+  - Miners create new bitcoins.
+  - Miners verify the identity of Bitcoin users.
+  - Miners set the price of Bitcoin.
+explanation: >-
+  Miners use their computational power to solve complex mathematical problems,
+  which allows them to add new transactions to the blockchain. This process secures
+  the network and maintains its integrity.
 reviewed: true

@@ -1,11 +1,10 @@
-question: Mikä on louhintaltaarien tarkoitus?
-answer: Louhintaltaarit mahdollistavat louhijoiden yhdistää laskentatehonsa ja saada pienempiä mutta säännöllisempiä palkkioita.
+question: Mikä on keskimääräinen aika kahden lohkon luomisen välillä Bitcoin-protokollassa?
+answer: 10 minuuttia.
 wrong_answers:
-  - Louhintaltaareja käytetään Bitcoin-verkon kokonais-HashRaten kasvattamiseen.
-  - Louhintaltaareja käytetään louhinnan vaikeustason alentamiseen.
-  - Louhintaltaareja käytetään louhinnasta saatavan palkkion suurentamiseen.
+  - 5 minuuttia.
+  - 15 minuuttia.
+  - 20 minuuttia.
 explanation: >-
-  Louhintaltaarit ovat louhijoiden ryhmiä, jotka yhdistävät laskentatehonsa
-  kasvattaakseen mahdollisuuksiaan louhia lohko. Yhdistämällä resurssinsa he voivat
-  louhia lohkoja useammin ja saada pienempiä mutta säännöllisempiä palkkioita.
+  Keskimäärin lohko luodaan joka 10. minuutti Bitcoin-protokollassa.
+  Tämä aika pysyy muuttumattomana riippumatta louhijoiden määrästä ja heidän laskentatehostaan.
 reviewed: true

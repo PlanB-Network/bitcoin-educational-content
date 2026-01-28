@@ -1,0 +1,9 @@
+question: Czego możemy nauczyć się od Kopernika?
+answer: Że Ziemia obraca się wokół Słońca.
+wrong_answers:
+  - Że Ziemia jest płaska.
+  - Że Ziemia znajduje się w centrum Wszechświata.
+  - Że równania Euklidesa są błędne.
+explanation: |
+  Mikołaj Kopernik (1473-1543) jest znany z tego, że wykazał, iż Ziemia obraca się wokół Słońca, rewolucjonizując naszą koncepcję wszechświata. Odkrycie to miało ogromny wpływ na współczesną filozofię i racjonalizm.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Je, kozi hii inapendekeza nini kuhusu mustakabali wa Bitcoin?
-answer: Si kwenda kutoweka.
+question: Ni mbinu gani inayounda mabadiliko ya Bitcoin yaliyoelezewa katika sura hii?
+answer: Mageuzi ya tabaka
 wrong_answers:
-  - Itabadilishwa na teknolojia bora.
-  - Itapigwa marufuku duniani kote.
-  - Itapoteza thamani yake.
+  - Blockchain monolitiki
+  - Sharding asilia
+  - Utekelezaji wa onchain uliopanuliwa
 explanation: |
-  Maandishi ya kozi yanapendekeza kuwa Bitcoin haitaenda
-  kutoweka. Kinyume chake, mapinduzi ndiyo yameanza.
-reviewed: true
+  Bitcoin hudumisha tabaka la msingi lililo rahisi na thabiti, huku itifaki za juu zikiongeza utendaji maalum.
+reviewed: false

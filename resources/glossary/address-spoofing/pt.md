@@ -14,4 +14,4 @@ Outro método de colocar o Address errado à frente da vítima é a utilização
 Para se proteger contra estes diferentes métodos de ataque, é importante verificar vários caracteres do Address, especialmente a sua soma de controlo (no final), no ecrã do dispositivo de assinatura antes de assinar a transação.
 
 
-> ► *Este ataque também é por vezes referido como Address Poisoning
+> ► *Este ataque também é por vezes referido como Address Poisoning*

@@ -1,12 +1,13 @@
-question: Cos'è un cold wallet?
-answer: Un wallet installato su un dispositivo fisico che conserva le chiavi e non è connesso a Internet.
+question: Come si deve fare il backup quando un wallet ha una passphrase?
+answer: Fare il backup sia della lista di 12 o 24 parole sia della passphrase.
 wrong_answers:
-  - Un wallet che è fisicamente freddo al tatto.
-  - Un wallet che non è popolare tra gli utenti di Bitcoin.
-  - Un wallet che è consigliato per conservare piccole quantità di bitcoin.
+  - Fare il backup solo della lista di 12 o 24 parole.
+  - Fare il backup solo della passphrase.
+  - Non si deve fare il backup né della lista di 12 o 24 parole né della passphrase.
 explanation: |
-  Cold wallet è un termine usato per descrivere un wallet Bitcoin
-  installato su un dispositivo non connesso a Internet. Questo lo rende
-  meno vulnerabile a minacce online, ma significa anche che il wallet è
-  meno accessibile per transazioni quotidiane.
+  Quando si utilizza un wallet con una passphrase, si deve fare il backup
+  sia della lista di 12 o 24 parole sia della passphrase,
+  perché sono entrambe necessarie per recuperare l'accesso ai fondi 
+  in caso di perdita del telefono o del computer. Senza l'una o l'altra,
+  i fondi non si possono recuperare.
 reviewed: true

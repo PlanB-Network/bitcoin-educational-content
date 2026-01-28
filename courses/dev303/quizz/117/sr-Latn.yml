@@ -1,0 +1,8 @@
+question: Koji je osnovni razlog zašto arhitektura Breez SDK-a sprečava regulatorne prepreke koje obično pogađaju kustodijalne Lightning usluge?
+answer: Korisnici zadržavaju potpunu kontrolu nad svojim privatnim ključevima koji nikada ne napuštaju njihove uređaje, čineći ga softverom bez starateljstva.
+wrong_answers:
+  - SDK funkcioniše putem decentralizovanih LSP-ova koji raspodeljuju regulatornu odgovornost kroz više jurisdikcija
+  - Infrastruktura Greenlight-a je hostovana u jurisdikcijama koje su prijateljski nastrojene prema regulativi i koje izuzimaju usluge zasnovane na oblaku Lightning.
+  - Mehanizam kanala "just-in-time" stvara privremene kanale plaćanja koji su izvan tradicionalnih finansijskih propisa.
+explanation: |
+  Breez SDK izbegava regulatorne prepreke jer održava principe nekustodijalnosti - privatni ključevi korisnika nikada ne napuštaju njihove uređaje i Greenlight ne može pristupiti sredstvima korisnika niti izvršavati neovlašćene operacije. Ova nekustodijalna arhitektura znači da softver ne drži sredstva korisnika, za razliku od kustodijalnih usluga koje se suočavaju sa značajnim regulatornim zahtevima jer kontrolišu imovinu korisnika. Druge opcije pogrešno sugerišu da regulatorne prednosti dolaze iz tehničkih karakteristika ili jurisdikcijskih strategija, dok je osnovna prednost jednostavno to što se nekustodijalni softver suočava sa manje regulatornih prepreka globalno.

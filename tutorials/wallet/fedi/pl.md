@@ -33,23 +33,23 @@ Fedi Wallet to portfel Bitcoin, który oferuje nowe podejście do zapisywania s�
 
 
 
-- Powiernicy**: Decydujesz się powierzyć swoje zaufanie zewnętrznemu podmiotowi, twórcy portfela, który będzie przechowywał dla Ciebie słowa odzyskiwania dla Twojego portfela. Użytkownik nie ma dostępu ani możliwości wyeksportowania swojego portfela Bitcoin.
+- **Powiernicy**: Decydujesz się powierzyć swoje zaufanie zewnętrznemu podmiotowi, twórcy portfela, który będzie przechowywał dla Ciebie słowa odzyskiwania dla Twojego portfela. Użytkownik nie ma dostępu ani możliwości wyeksportowania swojego portfela Bitcoin.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
-
-
-
-- Samodzielne usuwanie** : Aplikacja zapewnia dostęp do słów odzyskiwania natychmiast po utworzeniu Wallet. Możesz więc swobodnie eksportować swoje bitcoiny do Wallet, który najbardziej Ci odpowiada.
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **Samodzielne usuwanie**: Aplikacja zapewnia dostęp do słów odzyskiwania natychmiast po utworzeniu Wallet. Możesz więc swobodnie eksportować swoje bitcoiny do Wallet, który najbardziej Ci odpowiada.
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Zamiast tego Fedi Wallet oferuje podejście federacyjne, które pozwala dołączyć do grupy zaufanych osób w celu zarządzania kluczami portfela. Możesz dołączyć do popularnej federacji sugerowanej przez Fedi lub dołączyć do lokalnej federacji w swojej społeczności, skanując kod QR lub wklejając kod zaproszenia federacji.
 
@@ -75,7 +75,7 @@ Dowiedz się więcej o naszych zaleceniach dotyczących tworzenia kopii zapasowy
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Dla każdej federacji, do której dołączasz, Fedi rozróżnia twoje bitcoiny, tworząc oddzielne portfele.
 
@@ -103,7 +103,7 @@ W menu **Federacje** przewiń w dół do federacji, a następnie kliknij **Szcze
 
 
 
-- Odbieranie bitcoinów na Fedi**: Na stronie głównej wybierz federację, której chcesz używać do odbierania bitcoinów, a następnie kliknij przycisk **Odbierz**, aby utworzyć Lightning Invoice z kwotą do odebrania.
+- **Odbieranie bitcoinów na Fedi**: Na stronie głównej wybierz federację, której chcesz używać do odbierania bitcoinów, a następnie kliknij przycisk **Odbierz**, aby utworzyć Lightning Invoice z kwotą do odebrania.
 
 
 
@@ -113,7 +113,7 @@ W menu **Federacje** przewiń w dół do federacji, a następnie kliknij **Szcze
 
 
 
-- Wysyłanie bitcoinów**: Na stronie głównej kliknij przycisk **Wyślij**, aby wysłać bitcoiny do Lightning Address, zapłacić Invoice lub dokonać płatności offline.
+- **Wysyłanie bitcoinów**: Na stronie głównej kliknij przycisk **Wyślij**, aby wysłać bitcoiny do Lightning Address, zapłacić Invoice lub dokonać płatności offline.
 
 
 
@@ -141,7 +141,7 @@ Odbiorca będzie musiał zeskanować wygenerowany kod QR, aby odebrać satoshis.
 
 
 
-Płatności offline dokonywane są głównie za pomocą [e-cash] (https://planb.network/resources/glossary/ecash-david-chaum). Transakcja jest przechowywana w telefonie, a gdy tylko uzyskasz dostęp do Internetu, potwierdzenie transakcji stanie się automatyczne. Płatność można również potwierdzić ręcznie, klikając przycisk **Potwierdź transakcję**.
+Płatności offline dokonywane są głównie za pomocą [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). Transakcja jest przechowywana w telefonie, a gdy tylko uzyskasz dostęp do Internetu, potwierdzenie transakcji stanie się automatyczne. Płatność można również potwierdzić ręcznie, klikając przycisk **Potwierdź transakcję**.
 
 
 
@@ -191,7 +191,7 @@ W menu **Mods** znajdują się aplikacje takie jak :
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,5 +231,4 @@ Właśnie odbyłeś wycieczkę po Fedi Wallet, jesteś teraz w stanie wykorzysta
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

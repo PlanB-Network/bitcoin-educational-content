@@ -1,12 +1,8 @@
-question: Predviđa se da će kreacija bitkoina prestati oko
-answer: 2140.godine
+question: Šta je privatni ključ u Bitkoin novčaniku?
+answer: Tajni ključ koji vam omogućava da potpišete svoje transakcije.
 wrong_answers:
-  - 2050.godine
-  - 2030.godine
-  - 2200.godine
-explanation: |
-  Zbog Halving mehanizma, može se matematički
-  predvideti da će kreacija bitkoina prestati 2140. godine,
-  kada ukupan broj bitkoina dostigne svoj limit od 21
-  milion.
+  - Javni ključ korišćen za generisanje Bitkoin adrese.
+  - Tajna lista reči za uništenje novčanika u slučaju potrebe.
+  - Tajni ključ za šifrovanje Bitkoin transakcija.
+explanation: >-
 reviewed: true

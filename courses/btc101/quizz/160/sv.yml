@@ -1,13 +1,13 @@
-question: Vad händer vid en 51-procentig attack mot Bitcoin-nätverket?
-answer: En agent besitter mer än hälften av Hashrate och kan försöka modifiera Blockchain.
+question: Vilken är huvudproblematiken med det nuvarande finansiella systemet i förhållande till miljön?
+answer: Det uppmuntrar till överkonsumtion och skuldsättning.
 wrong_answers:
-  - En agent får kontroll över mer än hälften av de bitcoins som är i omlopp.
-  - En agent får kontroll över mer än hälften av noderna i Bitcoin-nätverket.
-  - En agent får kontroll över mer än hälften av Mining-poolerna i Bitcoin
+  - Det främjar användningen av fossila bränslen.
+  - Bolaget investerar inte i förnybar energi.
+  - Den reglerar inte produktionen av varor.
 explanation: |
-  I en 51%-attack kan en agent med mer än hälften av
-  nätverket Hashrate potentiellt kunna manipulera
-  Blockchain genom att skapa en alternativ kedja av block.
-  En sådan attack skulle dock vara extremt kostsam och
-  och sannolikt inte lönsam, vilket gör det till ett osannolikt scenario.
+  Det nuvarande finansiella systemet kritiseras för att uppmuntra
+  överkonsumtion och skuldsättning, vilket leder till allvarliga
+  miljöproblem. Detta beror på att det är lätt att få tillgång till
+  kreditgivning, bankernas monetära utgivning och användningen av
+  fraktionell reservbankverksamhet.
 reviewed: true

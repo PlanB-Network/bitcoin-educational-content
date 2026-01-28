@@ -6,4 +6,4 @@ wrong_answers:
   - Claim only half of the available funds
 explanation: |
   In the event of cheating, Bob can use the revocation key to recover all the funds from the channel, thus punishing Alice for her attempt.
-reviewed: false
+reviewed: true

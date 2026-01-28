@@ -1,0 +1,8 @@
+question: Qu'est-ce qui distingue les actifs réglementés des actifs non réglementés dans le système d'actifs natifs de Liquid ?
+answer: Les actifs réglementés nécessitent une seconde signature d'un serveur d'autorisation avant de pouvoir être déplacés, ce qui permet de respecter les règles KYC/AML
+wrong_answers:
+  - Les actifs réglementés utilisent des contrats intelligents tandis que les actifs non réglementés utilisent de simples appels d'offres RPC
+  - Les actifs réglementés sont soutenus par les réserves Bitcoin, tandis que les actifs non réglementés n'existent que sur la sidechain
+  - Les actifs réglementés nécessitent l'approbation d'un fonctionnaire pour être créés, tandis que les actifs non réglementés peuvent être émis sans autorisation
+explanation: |
+  Dans l'architecture Liquid, les actifs réglementés et non réglementés peuvent être émis sans permission en utilisant de simples appels RPC sans contrats intelligents. La principale différence réside dans leur mouvement : les actifs réglementés utilisent la plateforme de gestion des actifs (AMP) de Blockstream pour renforcer la conformité en exigeant une signature d'autorisation supplémentaire avant les transferts, tandis que les actifs non réglementés peuvent se déplacer librement sans de telles restrictions.

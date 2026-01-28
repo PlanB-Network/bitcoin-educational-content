@@ -1,0 +1,9 @@
+question: Kdo říká, že "člověk není říše v říši"?
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Byl to Spinoza, kdo tvrdil, že "člověk není říše v říši". Tato věta vyjadřuje myšlenku, že člověk není od přírody oddělen, ale je její nedílnou součástí a podléhá stejným zákonům.
+reviewed: false

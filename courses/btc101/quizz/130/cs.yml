@@ -1,9 +1,12 @@
-question: Proč je počet potvrzení u Bitcoinové transakce důležitý?
-answer: Čím více potvrzení transakce má, tím je neměnnější.
+question: Jak uživatelé převádějí vlastnictví svých peněz v síti Bitcoin?
+answer: Digitálním podepisováním transakcí svými soukromými klíči.
 wrong_answers:
-  - Čím více potvrzení transakce má, tím je cennější.
-  - Čím více potvrzení transakce má, tím rychleji je zpracována.
-  - Čím více potvrzení transakce má, tím je méně bezpečná.
-explanation: >-
-  Počet potvrzení u Bitcoinové transakce ukazuje, kolik bloků bylo vytěženo na vrcholu bloku obsahujícího transakci. Čím více potvrzení transakce má, tím je neměnnější.
+  - Fyzickým předáním svých Bitcoinů.
+  - Odesláním emailu příjemci.
+  - Poskytnutím své Bitcoinové adresy příjemci.
+explanation: |
+  Uživatelé v síti Bitcoin převádějí vlastnictví svých
+  peněz digitálním podepisováním transakcí svými soukromými
+  klíči. To ověřuje, že jsou vlastníky
+  bitcoinů, které chtějí převést.
 reviewed: true

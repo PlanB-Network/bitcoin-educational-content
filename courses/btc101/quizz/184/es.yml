@@ -1,9 +1,10 @@
-question: ¿Cuál es una de las razones por las que Bitcoin no es una burbuja que desaparecerá?
-answer: Porque es una moneda que se utiliza realmente en todo el mundo.
+question: ¿Cuál es un factor a considerar al elegir una solución para aceptar Bitcoin en tu negocio?
+answer: El volumen de transacciones esperado.
 wrong_answers:
-  - Porque en realidad no se utiliza en ningún lugar.
-  - Porque está controlada por una autoridad central.
-  - Porque es fácil de falsificar.
+  - El color de tu logotipo.
+  - El número de empleados.
+  - La ubicación de tu sede central.
 explanation: >-
-  Bitcoin no es una burbuja que desaparecerá sino una moneda que se utiliza realmente en todo el mundo.
+  Al elegir una solución para aceptar Bitcoin en tu negocio, se deben tener en cuenta varios
+  factores, como el volumen de transacciones esperado, el presupuesto asignado y el tipo de negocio (en línea o físico).
 reviewed: true

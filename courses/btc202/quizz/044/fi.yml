@@ -1,0 +1,9 @@
+question: Mitä tekniikkaa Umbrel käyttää sovellustensa eristämiseen ja hallintaan?
+answer: Docker-kontit
+wrong_answers:
+  - VirtualBox-virtuaalikoneet
+  - Bash-skriptit
+  - Kubernetes-klusterit
+explanation: |
+  Jokainen Umbrelin sovellus toimii Docker-säiliössä, mikä mahdollistaa riippumattoman hallinnan ja eristämisen.
+reviewed: true

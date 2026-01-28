@@ -1,0 +1,9 @@
+question: Vad är det som är speciellt med en SPV-nod?
+answer: Den behåller endast blockhuvudet
+wrong_answers:
+  - Den behåller hela Blockchain sedan Genesis-blocket
+  - Den lagrar bara de senaste blocken
+  - Det håller bara UTXO-uppsättningen, inte Blockchain
+explanation: |
+  En SPV-nod verifierar transaktioner via blockheaders och Merkle-bevis utan att lagra hela datan.
+reviewed: true

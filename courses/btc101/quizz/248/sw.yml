@@ -1,11 +1,10 @@
-question: Ni nini moja ya sifa kuu za Bitcoin?
-answer: Inaweza kubadilishwa popote duniani bila idhini yoyote kutoka kwa chombo chochote.
+question: Je, ni sababu gani kuu kwa nini Bitcoin iliundwa?
+answer: Kupendekeza mabadiliko ya mfumo wa fedha.
 wrong_answers:
-  - Inaweza tu kutumiwa na kikundi kilichochaguliwa cha watu.
-  - Inahitaji idhini kutoka kwa mamlaka kuu ili kutumika.
-  - Inaweza kutumika tu katika nchi fulani.
+  - Kupendekeza kuondolewa kwa pesa.
+  - Kupendekeza kuundwa kwa aina mpya ya teknolojia ya AI.
+  - Kupendekeza udhibiti wa idadi ya watu duniani.
 explanation: |
-  Maandishi yanataja kuwa Bitcoin ni jina bandia na inaweza kuwa
-  kubadilishana popote duniani bila idhini
-  wa chombo chochote.
+  Maandishi yanataja kuwa Satoshi Nakamoto iliunda Bitcoin ndani
+  2008 kupendekeza mabadiliko ya mfumo wa fedha.
 reviewed: true

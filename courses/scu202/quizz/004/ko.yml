@@ -1,0 +1,9 @@
+question: 사기 메시지를 사용하여 정보를 빼내는 컴퓨터 공격에는 어떤 것이 있나요?
+answer: 피싱
+wrong_answers:
+  - 랜섬웨어
+  - DDoS
+  - SQL 주입
+explanation: |
+  피싱은 기만적인 이메일이나 메시지를 사용하여 사람들이 기밀 정보를 유출하거나 멀웨어를 설치하도록 유도합니다.
+reviewed: false

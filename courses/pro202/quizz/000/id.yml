@@ -1,0 +1,8 @@
+question: Persamaan kurva elips apa yang digunakan oleh secp256k1 Bitcoin?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoin secara khusus menggunakan kurva elips secp256k1, yang memiliki persamaan yang disederhanakan y² = x³ + 7. Ini adalah kasus khusus dari bentuk kurva elips umum y² = x³ + ax + b di mana a = 0 dan b = 7. Pilihan lainnya salah: y² = x³ + ax + b adalah bentuk umum tetapi bukan kurva khusus Bitcoin, y² = x³ + 5 menggunakan konstanta yang salah, dan y² = x³ + x + 7 secara tidak tepat menyertakan suku x linier yang tidak ada dalam secp256k1.

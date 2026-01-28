@@ -1,0 +1,9 @@
+question: Sparrow 中有哪三個伺服器選項？
+answer: 公共伺服器、Bitcoin core、私人 Electrum
+wrong_answers:
+  - RPC Direct、VPN、Tor
+  - Full node、光節點、移動節點
+  - Core RPC、Lightning、ElectrumX
+explanation: |
+  Sparrow 提供三種伺服器選擇：公共伺服器、Bitcoin core (RPC) 和 Private Electrum。
+reviewed: true

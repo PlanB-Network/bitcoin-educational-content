@@ -1,12 +1,8 @@
-question: Bir Bitcoin Wallet seçerken, kişisel gözetim açısından kendinize sormanız gereken temel soru nedir?
-answer: Fonların sahibi siz misiniz yoksa paranızın kontrolünü üçüncü bir tarafa mı bırakıyorsunuz?
+question: Bitcoinlerinizi saklamak için bir saklama hizmeti kullanmanın ana riski nedir?
+answer: Güvenilir üçüncü taraf, fonlarınıza erişiminizi istediği zaman kısıtlayabilir.
 wrong_answers:
-  - Wallet bir passphrase ile emniyete alındı mı?
-  - Wallet bitcoin almaya ve göndermeye izin veriyor mu?
-  - Wallet'imi başka bir kişiyle paylaşabilir miyim?
-explanation: |
-  Bir Bitcoin Wallet seçerken, temel soru şudur:
-  fonların sahibi siz misiniz yoksa fonların kontrolünü
-  paranızı üçüncü bir tarafa mı veriyorsunuz? Bunun nedeni paranın sahibinin
-  özel anahtar Bitcoin'lerin sahibidir.
+  - Güvenilir üçüncü taraf, bitcoinlerinizin değerini istediği zaman artırabilir.
+  - Güvenilir üçüncü taraf, bitcoinlerinizin değerini istediği zaman düşürebilir.
+  - Güvenilir üçüncü taraf, bitcoinlerinizi hiçbir zaman çoğaltamaz.
+explanation: >-
 reviewed: true

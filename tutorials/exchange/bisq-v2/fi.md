@@ -8,7 +8,7 @@ description: Täydellinen opas Bisq 2:n käyttöön ja bitcoinien P2P-vaihtoon
 
 KYC-vapaat P2P-pörssit ovat olennaisen tärkeitä käyttäjien luottamuksellisuuden ja taloudellisen riippumattomuuden säilyttämiseksi. Ne mahdollistavat suorat transaktiot yksityishenkilöiden välillä ilman henkilöllisyyden todentamista, mikä on ratkaisevan tärkeää yksityisyyttä arvostaville. Jos haluat syvällisemmän käsityksen teoreettisista käsitteistä, tutustu BTC204-kurssiin:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Mikä on Bisq 2?
 
@@ -23,7 +23,7 @@ Bisq 2 on uusi versio suositusta hajautetusta Bisq-pörssistä, joka julkaistiin
 - Tuki useille salkkutyypeille
 - Roolijärjestelmä, jossa on pakollinen talletus BSQ:ssa
 
-Tämä opas keskittyy yksinomaan Bisq Easy -protokollaan, joka on tällä hetkellä ainoa saatavilla oleva protokolla. Bisq Easy on suunniteltu erityisesti uusille Bitcoin-käyttäjille. Tämän protokollan avulla käyttäjät voivat ostaa ja myydä Bitcoineja fiat-valuuttoja vastaan hajautetulla vertaisverkkopalvelualustalla. Transaktiot on rajoitettu 600 USD:n vasta-arvoon (minimi 6 USD), ja vaihdon turvallisuus perustuu BTC-myyjien maineeseen. Bisq Easyllä ei ole kaupankäyntimaksuja eikä vakuustalletusvaatimuksia. Bisq Easy korvaa Bisq 1:n alle 600 USD:n (tai vastaavan summan) käteisvaihtojen osalta.
+Tämä opas keskittyy yksinomaan "Bisq Easyyn", ainoaan tällä hetkellä saatavilla olevaan protokollaan. Bisq Easy on suunniteltu erityisesti uusille Bitcoin-käyttäjille. Tämä protokolla mahdollistaa bitcoinien ostamisen ja myymisen fiat-valuuttoja vastaan hajautetulla vertaisverkkoalustalla. Tapahtumat on rajoitettu 600 USD:n arvoon (vähintään 6 USD), ja kaupankäynnin turvallisuus perustuu BTC-myyjien maineeseen. Bisq Easy ei sisällä kaupankäyntimaksuja eikä vaadi vakuusmaksua. On odotettavissa, että Bisq Easy korvaa Bisq 1:n alle 600 USD (tai vastaavan) fiat-kaupoissa.
 
 **Pääominaisuudet:**
 
@@ -62,7 +62,7 @@ Tämä opas keskittyy yksinomaan Bisq Easy -protokollaan, joka on tällä hetkel
 - Tarjouksen tekijä määrittelee vaihdon ehdot
 - Kun kauppiaat ovat sopineet ehdoista (maksutapa ja hinta), vaihto alkaa
 - Myyjä lähettää pankkitietonsa ostajalle, ja ostaja lähettää Bitcoin-osoitteensa myyjälle
-- Ostaja suorittaa maksun käteisellä ja ilmoittaa siitä myyjälle
+- Ostaja suorittaa maksun fiat-valuutassa ja ilmoittaa myyjälle
 - Kun maksu on vastaanotettu, myyjä lähettää bitcoinit ostajan osoitteeseen
 - Vaihto on valmis, kun ostaja vastaanottaa bitcoinit
 
@@ -86,11 +86,11 @@ Tämä opas keskittyy yksinomaan Bisq Easy -protokollaan, joka on tällä hetkel
 - Lataa käyttöjärjestelmääsi vastaava Bisq 2 -versio (selaa sivua alaspäin)
 - Tarkista ladatun tiedoston aitous (erittäin suositeltavaa). Yksityiskohtainen opas allekirjoituksen tarkistamisesta on seuraavassa oppaassa:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Asennus järjestelmän mukaan
 
-Noudata käyttöjärjestelmääsi sopivia asennusvaiheita. Jos asennuksen aikana ilmenee ongelmia, voit tutustua [virallisen Bisq-wikin] (https://bisq.wiki/Downloading_and_installing) yksityiskohtaisiin ohjeisiin.
+Noudata käyttöjärjestelmääsi sopivia asennusvaiheita. Jos asennuksen aikana ilmenee ongelmia, voit tutustua [virallisen Bisq-wikin](https://bisq.wiki/Downloading_and_installing) yksityiskohtaisiin ohjeisiin.
 
 ### 3. Ensimmäinen käynnistys
 
@@ -137,7 +137,7 @@ Bisq 2:n avulla voit luoda useita identiteettejä. Jokaista identiteettiä voida
 
 ### Miten ostaa Bitcoineja
 
-**Vaihtoehto 1: Hyödynnä olemassa oleva tarjous****
+**Vaihtoehto 1: Hyödynnä olemassa oleva tarjous**
 
 
 - Valitse päänäytöltä "Bisq Easy", "Getting started" -välilehti ja napsauta sitten "Start trade wizard"
@@ -236,7 +236,7 @@ Myyntiprosessi Bisq 2:ssa noudattaa samanlaista logiikkaa kuin ostoprosessi, ja 
  - Määritä hintasi (kiinteä tai % markkinoista)
 - Tarkista tiedot ja julkaise tarjous
 
-**Vaihtoehto 2: Ota vastaan olemassa oleva tarjous****
+**Vaihtoehto 2: Ota vastaan olemassa oleva tarjous**
 
 
 - Selaa tarjouksia "Tarjouskirja"-välilehdellä
@@ -327,37 +327,37 @@ Parantaaksesi mainettasi myyjänä Bisqissä, tee säännöllisiä kauppoja ja p
 ### Bisq 2:n edut
 
 
-- Suurin mahdollinen luottamuksellisuus**: Ei KYC, Torin käyttö
-- Hajauttaminen**: Ei keskitettyä palvelinta
-- Turvallisuus**: Avoimen lähdekoodin, ei-säilyttävä koodi
-- Intuitiivinen käyttöliittymä**: yksinkertaisempi kuin Bisq 1:ssä
-- Joustavuus**: Useita vaihtoprotokollia
+- **Suurin mahdollinen luottamuksellisuus**: Ei KYC, Torin käyttö
+- **Hajauttaminen**: Ei keskitettyä palvelinta
+- **Turvallisuus**: Avoimen lähdekoodin, ei-säilyttävä koodi
+- **Intuitiivinen käyttöliittymä**: yksinkertaisempi kuin Bisq 1:ssä
+- **Joustavuus**: Useita vaihtoprotokollia
 
 ### Bisq 2:n haitat
 
 
-- Rajoitettu likviditeetti** (tällä hetkellä) :
+- **Rajoitettu likviditeetti** (tällä hetkellä):
  - Uusi protokolla käynnistysvaiheessa
  - Muutamia myyntitarjouksia saatavilla
  - Mahdollisesti pitkät odotusajat ostajan löytämiseksi
-- Kaupankäyntirajat**: USD 600 per transaktio (Bisq easy -palvelun kanssa)
-- Vain työpöydälle**: Ei mobiilisovellusta
+- **Kaupankäyntirajat**: USD 600 per transaktio (Bisq easy -palvelun kanssa)
+- **Vain työpöydälle**: Ei mobiilisovellusta
 
 ## Tulevat pöytäkirjat
 
 Vaikka Bisq Easy on tällä hetkellä ainoa saatavilla oleva protokolla, useita muita protokollia on kehitteillä Bisq 2:lle:
 
 
-- Bisq Lightning**: Vaihtoprotokolla, joka perustuu usean osapuolen laskentakryptografiaa käyttävään escrow-järjestelmään Lightning-verkossa.
-- Bisq MuSig**: Siirtyminen pääprotokollasta Bisq 1:stä Bisq 2:een käyttäen 2 vs. 2 multisig-muuntosignaalia, jossa on vakuustalletuksia.
-- BSQ Swaps**: Välittömät atomivaihdot BSQ:n ja BTC:n välillä.
-- Likvidit swapit**: Varojen vaihtaminen Liquid-verkossa (USDT, BTC-L) atomisilla swapeilla.
-- Moneron vaihtokaupat**: Atomivaihdot Bitcoinin ja Moneron välillä.
-- Nestemäinen MuSig**: Multisig-protokollan versio, jossa käytetään L-BTC:tä alhaisempien kustannusten ja suuremman luottamuksellisuuden varmistamiseksi.
-- Sukellusveneen vaihto**: Lightning-verkossa olevien Bitcoinien ja ketjussa olevien Bitcoinien väliset vaihdot.
-- Stablecoin-swapit**: Atomivaihdot Bitcoinin ja USD-stabilcoinien välillä.
-- Multisig-vaihtoehdot**: P2P-put- ja -call-optioiden luominen BTC-lukituksella ketjussa tapahtuvassa multisig-transaktiossa.
-- Multisig Avoimet sopimukset**: Mahdollistaa räätälöityjen ehdollisten sopimusten luomisen käyttämällä 2-on-3 multisig-järjestelmää, jossa on arbitraasi.
+- **Bisq Lightning**: Vaihtoprotokolla, joka perustuu usean osapuolen laskentakryptografiaa käyttävään escrow-järjestelmään Lightning-verkossa.
+- **Bisq MuSig**: Siirtyminen pääprotokollasta Bisq 1:stä Bisq 2:een käyttäen 2 vs. 2 multisig-muuntosignaalia, jossa on vakuustalletuksia.
+- **BSQ Swaps**: Välittömät atomivaihdot BSQ:n ja BTC:n välillä.
+- **Likvidit swapit**: Varojen vaihtaminen Liquid-verkossa (USDT, BTC-L) atomisilla swapeilla.
+- **Moneron vaihtokaupat**: Atomivaihdot Bitcoinin ja Moneron välillä.
+- **Nestemäinen MuSig**: Multisig-protokollan versio, jossa käytetään L-BTC:tä alhaisempien kustannusten ja suuremman luottamuksellisuuden varmistamiseksi.
+- **Sukellusveneen vaihto**: Lightning-verkossa olevien Bitcoinien ja ketjussa olevien Bitcoinien väliset vaihdot.
+- **Stablecoin-swapit**: Atomivaihdot Bitcoinin ja USD-stabilcoinien välillä.
+- **Multisig-vaihtoehdot**: P2P-put- ja -call-optioiden luominen BTC-lukituksella ketjussa tapahtuvassa multisig-transaktiossa.
+- **Multisig Avoimet sopimukset**: Mahdollistaa räätälöityjen ehdollisten sopimusten luomisen käyttämällä 2-on-3 multisig-järjestelmää, jossa on arbitraasi.
 
 Näitä protokollia kehitetään parhaillaan, ja ne integroidaan asteittain Bisq 2:een, mikä tarjoaa käyttäjille enemmän joustavuutta heidän erityistarpeidensa mukaan.
 

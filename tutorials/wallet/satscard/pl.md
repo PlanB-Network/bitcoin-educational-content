@@ -215,7 +215,7 @@ Umieść kartę Satscard z tyłu telefonu.
 ![SATSCARD](assets/notext/27.webp)
 
 
-Nowy slot został pomyślnie skonfigurowany. Możesz teraz zobaczyć odbierający Address, do którego możesz wpłacić bitcoiny. Aby kontynuować ładowanie, postępuj zgodnie z instrukcjami w sekcji "*Jak załadować slot na Satscard?" tego samouczka.
+Nowy slot został pomyślnie skonfigurowany. Możesz teraz zobaczyć odbierający Address, do którego możesz wpłacić bitcoiny. Aby kontynuować ładowanie, postępuj zgodnie z instrukcjami w sekcji **Jak załadować slot na Satscard?** tego samouczka.
 
 Proces ten można powtórzyć do 10 razy na każdej karcie Satscard.
 

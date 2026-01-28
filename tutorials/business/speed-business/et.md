@@ -1,5 +1,5 @@
 ---
-name: Kiirus Wallet - PoS
+name: Speed Wallet - POS
 description: Integreerige Bitcoin ja stabiilnecoini maksed oma ettevõttesse hõlpsasti
 ---
 ![cover](assets/cover.webp)
@@ -28,25 +28,25 @@ Speedil on lai valik funktsioone, mis katavad teie ettevõtte finantsaspekte. Le
 
 
 
-- Online-makse konfiguratsioon**: Võtke oma klientidelt makseid vastu, kus iganes nad ka ei oleks, tänu oma veebisaidile.
+- **Online-makse konfiguratsioon**: Võtke oma klientidelt makseid vastu, kus iganes nad ka ei oleks, tänu oma veebisaidile.
 
 
 
 
 
-- Kohapealsed maksed**: Ideaalne kauplustele ja ettevõtetele, mis koguvad sularaha kaupluses.
+- **Kohapealsed maksed**: Ideaalne kauplustele ja ettevõtetele, mis koguvad sularaha kaupluses.
 
 
 
 
 
-- Tagasivõtmised**: Võtke oma vara sujuvalt välja ja kasutage oma bitcoine klientide ja palkade tagasimaksmiseks.
+- **Tagasivõtmised**: Võtke oma vara sujuvalt välja ja kasutage oma bitcoine klientide ja palkade tagasimaksmiseks.
 
 
 
 
 
-- Ühendus teiste platvormidega**: Kas kasutate makseid haldamiseks väliseid vahendeid? Speed pakub teile võimalust ühendada need oma platvormiga, et luua teie äritegevust kajastav ökosüsteem "kõik ühes".
+- **Ühendus teiste platvormidega**: Kas kasutate makseid haldamiseks väliseid vahendeid? Speed pakub teile võimalust ühendada need oma platvormiga, et luua teie äritegevust kajastav ökosüsteem "kõik ühes".
 
 
 
@@ -94,13 +94,13 @@ Kui deaktiveerite testrežiimi, peate konfigureerima oma tagasivõtuportfelli.
 
 
 
-Kui teil ei ole veel Bitcoin ja/või Lightning Wallet, soovitame teil tutvuda meie [mobiilipakettide] õpetustega(https://planb.network/tutorials/wallet).
+Kui teil ei ole veel Bitcoin ja/või Lightning Wallet, soovitame teil tutvuda meie [mobiilipakettide] õpetustega(https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **OLULINE**: Bitcoin usaldusväärse kinnituse tagamiseks valige oma portfelli konfigureerimisel tüüp **BTC (On-Chain)**, kui saate suuri summasid, suurusjärgus tuhandeid eurosid, ja tüüp **LN Address**, kui soovite oma äris saada koheseid mikromakseid.
 
@@ -265,13 +265,13 @@ Menüüst **Maksete saatmine** leiad kõik rahaülekandevõimalused, mida kiirus
 
 
 
-- Kohesed maksed**: Saata bitcoine turvaliselt ja koheselt oma kaupmehekontolt.
+- **Kohesed maksed**: Saata bitcoine turvaliselt ja koheselt oma kaupmehekontolt.
 
 
 
 
 
-- generate väljavõtte lingid**, mis võimaldavad teie partneritel ja tarnijatel hiljem oma makseid teha, ilma et selleks oleks vaja teie kohalolekut internetis.
+- generate väljavõtte lingid, mis võimaldavad teie partneritel ja tarnijatel hiljem oma makseid teha, ilma et selleks oleks vaja teie kohalolekut internetis.
 
 
 
@@ -289,7 +289,7 @@ Valikus **Väljavõtmislingid** looge uus väljavõtmislink, seejärel konfigure
 
 
 
-- Väljamaksed**: Menüüs Väljamaksed algatage väljamakseid oma Speed Business saldolt oma isiklikule Wallet-le.
+- **Väljamaksed**: Menüüs Väljamaksed algatage väljamakseid oma Speed Business saldolt oma isiklikule Wallet-le.
 
 
 
@@ -299,7 +299,7 @@ Valikus **Väljavõtmislingid** looge uus väljavõtmislink, seejärel konfigure
 
 
 
-- Allahindlused**: Julgustage oma püsikliente, luues allahindluse võimalusi boonuste teenimiseks.
+- **Allahindlused**: Julgustage oma püsikliente, luues allahindluse võimalusi boonuste teenimiseks.
 
 
 
@@ -435,5 +435,4 @@ Sa oled saanud hea ülevaate Speedist, integreeri Bitcoin oma ettevõttesse ja a
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

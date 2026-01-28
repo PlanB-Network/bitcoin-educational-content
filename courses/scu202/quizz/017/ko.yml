@@ -1,0 +1,9 @@
+question: 어떤 배포판이 여전히 가장 오래된 배포판으로 간주되나요?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - 젠투
+  - 만자로
+explanation: |
+  패트릭 볼커딩이 1993년에 만든 Slackware는 현재도 가장 오래된 Linux 배포판입니다.
+reviewed: false

@@ -1,23 +1,18 @@
 ---
-name: Introduction to formal Cryptography
+name: Modern Cryptography Fundamentals
 goal: A deep-dive introduction to the science and practice of cryptography.
 objectives:
-  - Explore Beale ciphers and modern cryptographic methods to understand basic and historical concepts of cryptography.
-  - Delve into number theory, groups, and fields to master key mathematical concepts underlying cryptography.
-  - Study the RC4 stream cipher and AES with a 128-bit key to learn about symmetric cryptographic algorithms.
-  - Investigate the RSA cryptosystem, key distribution, and hash functions to explore asymmetric cryptography.
-
+- Explore Beale ciphers and modern cryptographic methods to understand basic and historical concepts of cryptography.
+- Delve into number theory, groups, and fields to master key mathematical concepts underlying cryptography.
+- Study the RC4 stream cipher and AES with a 128-bit key to learn about symmetric cryptographic algorithms.
+- Investigate the RSA cryptosystem, key distribution, and hash functions to explore asymmetric cryptography.
 ---
-# Deep-dive into cryptographie
+# Deep-dive into Modern Cryptography
 
-It is difficult to find many materials that offer a good middle ground in cryptography education.
+In this course, we’ll cover the essentials of modern cryptography in a clear, approachable way, no heavy math background required. Across the chapters, you’ll learn core ideas like symmetric and public-key encryption, hash functions, digital signatures, key exchange, and real-world protocols. Along the way, we’ll connect the dots to practical applications such as secure messaging, TLS, password storage, and authentication.
 
-On the one hand, there are lengthy, formal treatises, really only accessible to those with a strong background in mathematics, logic, or some other formal discipline. On the other hand, there are very high-level introductions that really hide too many of the details for anyone that is at least a bit curious.
-
-This introduction to cryptography seeks to capture the middle ground. While it should be relatively challenging and detailed for anyone new to cryptography, it is not the rabbit hole of a typical foundational treatise.
-
+The material is designed for learners of all levels and balances intuition with just enough technical depth to satisfy curiosity. Expect a focused, engaging journey. By the end, you’ll understand how and why modern cryptography works and how to use it responsibly.
 +++
-
 # Introduction
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
@@ -89,8 +84,8 @@ Words and phrases are emphasized via italics. For instance, the phrase "Remember
 The formal notation mainly concerns variables, random variables, and sets.
 
 * Variables: These are usually just indicated by a lowercase letter (e.g., "x" or "y"). Sometimes they are capitalized for clarity (e.g., "M" or "K").
-* Random variables: These are always indicated by an uppercase letter (e.g., "X" or "Y")
-* Sets: These are always indicated by bold, upper-case letters (e.g., **S**)
+**Random variables:** These are always indicated by an uppercase letter (e.g., "X" or "Y")
+**Sets**: These are always indicated by bold, upper-case letters (e.g., **S**)
 
 Ready to explore the fascinating world of cryptography? Let's go!
 
@@ -118,13 +113,13 @@ Nearing the end of his life, Morriss passed the box on to a friend in 1862. This
 
 You can see the second ciphertext in *Figure 2* below. [2] The key to this ciphertext is the United States Declaration of Independence. The decryption procedure comes down to the applying the following two rules:
 
-* For any number n in the ciphertext, locate the nth word in the United States Declaration of Independence
-* Replace the number n with the first letter of the word you found
+**For any number n in the ciphertext, locate the nth word in the United States Declaration of Independence**
+**Replace the number n with the first letter of the word you found**
 
 
 *Figure 1: Beale cipher no. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 
 For instance, the first number of the second ciphertext is 115. The 115th word of the Declaration of Independence is “instituted,” so the first letter of the plaintext is “i.” The ciphertext does not directly indicate word spacing and capitalization. But after decrypting the first few words, you can logically deduce that the first word of the plaintext was simply “I.” (The plaintext starts with the phrase “I have deposited in the county of Bedford.”)
@@ -288,7 +283,7 @@ The possible values and associated probabilities for a random variable can be ea
 
 *Figure 1: Random variable X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 The wide bars in *Figure 1* obviously do not mean to suggest that the random variable $X$ is actually continuous. Instead, the bars are made wide in order to be more visually appealing (just a line straight up provides a less intuitive visualization).
 
@@ -328,7 +323,7 @@ A graphical depiction of $Y$ is provided in *Figure 2*.
 
 *Figure 2: Random variable Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 For a final example, consider the random variable Z. It has the outcome set {1,3,7,11,12} and the following probability distribution:
 
@@ -357,7 +352,7 @@ You can see it depicted in *Figure 3*. The random variable Z is, in contrast to 
 
 *Figure 3: Random variable Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 
 ### Conditional probability
@@ -446,14 +441,14 @@ When the dividend or divisor is negative, modulo operations can be handled diffe
 
 You will definitely come across cases with a negative dividend in cryptography. In these cases, the typical approach is as follows:
 
-* First determine the closest value *lower than or equal to* the dividend into which the divisor divides with a remainder of zero. Call that value $p$.
+**First determine the closest value *lower than or equal to* the dividend into which the divisor divides with a remainder of zero. Call that value $p$.**
 * If the dividend is $x$, then the result of the modulo operation is the value of $x – p$.
 
 For instance, suppose that the dividend is $–20$ and the divisor 3. The closest value lower than or equal to $–20$ into which 3 divides evenly is $–21$. The value of $x – p$ in this case is $–20 – (–21)$. This equals 1 and, hence, $–20 \mod 3$ equals 1. In a similar manner, we can evaluate the expressions below:
 
-* $–8 \mod 5 = 2$
-* $–19 \mod 16 = 13$
-* $–14 \mod 6 = 4$
+$-8 \mod 5 = 2$
+**$–19 \mod 16 = 13$**
+**$–14 \mod 6 = 4$**
 
 Regarding notation, you will typically see the following types of expressions: $x = [y \mod z]$. Due to the brackets, the modulo operation in this case only applies to the right-hand side of the expression. If $y$ equals 25 and $z$ equals 4, for example, then $x$ evaluates to 1.
 
@@ -482,15 +477,15 @@ Let's first define it. Suppose a dictionary *D* that equates all the letters of 
 
 The modulo operator in the shift cipher ensures that letters wrap around, so that all ciphertext letters are defined. To illustrate, consider the application of the shift cipher on the word “DOG”.
 
-Suppose that you uniformly selected a key to have the value of 17. The letter “O” equates to 15. Without the modulo operation, the addition of this plaintext number with the key would amount to a ciphertext number of 32. However, that ciphertext number cannot be turned into a ciphertext letter, as the English alphabet only has 26 letters. The modulo operation ensures that the ciphertext number is actually 6 (the result of $32 \mod 26$), which equates to the ciphertext letter “G”.
+Suppose that you uniformly selected a key to have the value of $17$. The letter “O” equates to $14$. Without the modulo operation, the addition of this plaintext number with the key would amount to a ciphertext number of $31$. However, that ciphertext number cannot be turned into a ciphertext letter, as the English alphabet only has $26$ letters. The modulo operation ensures that the ciphertext number is actually $5$ (the result of $31 \mod 26$), which equates to the ciphertext letter “F”.
 
 The entire encryption of the word “DOG” with a key value of 17 is as follows:
 
-* Message = DOG = D,O,G = 3,15,6
-* $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-* $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
-* $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-* $c = UGX$
+**Message = DOG = D,O,G = 3,14,6**
+$c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
+$c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
+*c = UFX*
 
 Everyone can intuitively understand how the shift cipher works and probably use it themselves. For advancing your knowledge of cryptography, however, it is important to start becoming more comfortable with formalization, as the schemes will become much more difficult. Hence, why the steps for the shift cipher were formalized.
 
@@ -520,9 +515,9 @@ For instance, suppose that you have typed an e-mail into your e-mail application
 A key mathematical operation to understand for modern cryptography, besides the modulo operation, is that of the **XOR operation**, or “exclusive or” operation. This operation takes as inputs two bits and yields as output another bit. The XOR operation will simply be denoted as "XOR". It yields 0 if the two bits are the same and 1 if the two bits are different. You can see the four possibilities below. The symbol $\oplus$ represents "XOR" :
 
 * $0 \oplus 0 = 0$
-* $0 \oplus 1 = 1$
-* $1 \oplus 0 = 1$
-* $1 \oplus 1 = 0$
+$0 \oplus 1 = 1$
+*$1 \oplus 0 = 1$*
+*$1 \oplus 1 = 0$*
 
 To illustrate, suppose that you have a message $m_1$ (01111001) and a message $m_2$ (01011001). The XOR operation of these two messages can be seen below.
 
@@ -536,10 +531,10 @@ An XOR operation on two strings of alternative lengths can have different interp
 
 An XOR operation is equivalent to the special case of performing a modulo operation on the addition of bits when the divisor is 2. You can see the equivalency in the following results:
 
-* $(0 + 0) \mod 2 = 0 \oplus 0 = 0$
-* $(1 + 0) \mod 2 = 1 \oplus 0 = 1$
-* $(0 + 1) \mod 2 = 0 \oplus 1 = 1$
-* $(1 + 1) \mod 2 = 1 \oplus 1 = 0$
+$(0 + 0) \mod 2 = 0 \oplus 0 = 0$
+$(1 + 0) \mod 2 = 1 \oplus 0 = 1$
+$(0 + 1) \mod 2 = 0 \oplus 1 = 1$
+$(1 + 1) \mod 2 = 1 \oplus 1 = 0$
 
 ## Pseudorandomness
 <chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
@@ -651,7 +646,7 @@ If we allowed real numbers for our set, then our problems largely disappear. For
 
 Some groups meet a fifth general condition, known as the **commutativity condition**. This condition is as follows:
 
-* Suppose a group $G$ with a set **S** and a binary operator $\circ$. Suppose that $a$ and $b$ are elements of **S**. If it is the case that $a \circ b = b \circ a$ for any two elements $a$ and $b$ in **S**, then $G$ meets the commutativity condition.
+Suppose a group $G$ with a set **S** and a binary operator $\circ$. Suppose that $a$ and $b$ are elements of **S**. If it is the case that $a \circ b = b \circ a$ for any two elements $a$ and $b$ in **S**, then $G$ meets the commutativity condition.
 
 Any group that meets the commutativity condition is known as a **commutative group**, or an **Abelian group** (after Niels Henrik Abel). It is easy to verify that both the set of real numbers over addition and the set of integers over addition are Abelian groups. The set of integers over multiplication is not a group at all, so ipso facto cannot be an Abelian group. The set of non-zero real numbers over multiplication, by contrast, is also an Abelian group.
 
@@ -696,33 +691,33 @@ Consider, for instance, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. This 
 
 Let's explore exponentiating the element 2 from this group. The calculations up until $2^{12}$ are shown below. Note that on the left side of the equation, the exponent refers to group element exponentiation. In our particular example, this indeed involves arithmetic exponentiation on the right side of the equation (but it could have also involved, for instance, addition). To clarify, I have written out the repeated operation, rather than the exponent form on the right side.
 
-* $2^1 = 2 \mod 11$
-* $2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$
+$2^1 = 2 \mod 11$
+$2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$
 * $2^3 = 2 \cdot 2 \cdot 2 \mod 11 = 8 \mod 11$
 * $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 16 \mod 11 = 5 \mod 11$
 * $2^5 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 32 \mod 11 = 10 \mod 11$
 * $2^6 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 64 \mod 11 = 9 \mod 11$
 * $2^7 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 128 \mod 11 = 7 \mod 11$
-* $2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 256 \mod 11 = 3 \mod 11$
-* $2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 512 \mod 11 = 6 \mod 11$
-* $2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 1024 \mod 11 = 1 \mod 11$
-* $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2 \mod 11$
-* $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 4 \mod 11$
+$2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 256 \mod 11 = 3 \mod 11$
+$2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 512 \mod 11 = 6 \mod 11$
+$2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 1024 \mod 11 = 1 \mod 11$
+$2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2 \mod 11$
+$2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 4 \mod 11$
 
 If you look carefully, you can see that performing exponentiation on the element 2 cycles through all the elements of $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ in the following order: 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. After $2^{10}$, continued exponentiation of the element 2 cycles through all the elements again and in the same order. Hence, the element 2 is a generator in $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
 
 Though $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ has multiple generators, not all the elements of this group are generators. Consider, for example, the element 3. Running through the first 10 exponentiations, without showing the cumbersome calculations, yields the following results:
 
-* $3^1 = 3 \mod 11$
-* $3^2 = 9 \mod 11$
-* $3^3 = 5 \mod 11$
-* $3^4 = 4 \mod 11$
-* $3^5 = 1 \mod 11$
-* $3^6 = 3 \mod 11$
-* $3^7 = 9 \mod 11$
-* $3^8 = 5 \mod 11$
-* $3^9 = 4 \mod 11$
-* $3^{10} = 1 \mod 11$
+$3^1 = 3 \mod 11$
+$3^2 = 9 \mod 11$
+$3^3 = 5 \mod 11$
+$3^4 = 4 \mod 11$
+$3^5 = 1 \mod 11$
+$3^6 = 3 \pmod{11}$
+$3^7 = 9 \mod 11$
+$3^8 \equiv 5 \pmod{11}$
+$3^9 = 4 \mod 11$
+**$3^{10} = 1 \mod 11$**
 
 Instead of cycling through all the values in $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, exponentiation of the element 3 only leads to a subset of those values: 3, 9, 5, 4, and 1. After the fifth exponentiation, these values start repeating.
 
@@ -742,7 +737,7 @@ In the case where $N$ itself is prime, all the integers from 1 through $N – 1$
 
 Next, the function $\phi(N)$ calculates the number of coprimes up until a number $N$, and is known as **Euler’s Phi function**. [1] According to **Euler’s Theorem**, whenever two integers $a$ and $N$ are coprimes, the following holds:
 
-* $a^{\phi(N)} \mod N = 1 \mod N$
+$a^{\phi(N)} \mod N = 1 \mod N$
 
 This has an important implication for the class of groups $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ where $N$ is prime. For these groups, group element exponentiation represents arithmetic exponentiation. That is, $a^{\phi(N)} \mod N$ represents the arithmetic operation $a^{\phi(N)} \mod N$. As any element $a$ in these multiplicative groups is coprime with $N$, it means that $a^{\phi(N)} \mod N = a^{N – 1} \mod N = 1 \mod N$.
 
@@ -835,9 +830,9 @@ So **S** would be the set $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\
 
 The first operation on the set **S** ($\circ$) can be defined as standard polynomial addition modulo 2. All you have to do is add the polynomials as you normally would, and then apply the modulo 2 to each of the coefficients of the resulting polynomial. Here are some examples:
 
-* $[(x^2) + (x^2 + x + 1)] \mod 2 = [2x^2 + x + 1] \mod 2 = x + 1$
-* $[(x^2 + x) + (x)] \mod 2 = [x^2 + 2x] \mod 2 = x^2$
-* $[(x + 1) + (x^2 + x + 1)] \mod 2 = [x^2 + 2x + 2] \mod 2 = x^2 + 1$
+$[(x^2) + (x^2 + x + 1)] \mod 2 = [2x^2 + x + 1] \mod 2 = x + 1$
+$[(x^2 + x) + (x)] \mod 2 = [x^2 + 2x] \mod 2 = x^2$
+$[(x + 1) + (x^2 + x + 1)] \mod 2 = [x^2 + 2x + 2] \mod 2 = x^2 + 1$
 
 The second operation on the set **S** ($\diamond$) that is needed for creating the field is more complicated. It is a kind of multiplication, but not standard multiplication from arithmetic. Instead, you have to see each element as a vector and understand the operation as the multiplication of those two vectors modulo an irreducible polynomial.
 
@@ -864,16 +859,16 @@ For our example, suppose that we select the polynomial $x^3 + x + 1$. This indee
 Let’s work through an example of the second operation using the polynomial $x^3 + x + 1$ as the divisor to illustrate how it works. Suppose that you multiply the elements $x^2 + 1$ with $x^2 + x$ in our set **S**. We, then, need to calculate the expression $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1$. This can be simplified as follows:
 
 * $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1 =$
-* $[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1 =$
-* $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$
+*$[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1 =$*
+**$[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$**
 
 We know that $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$ can be reduced as the dividend has a higher degree (4) than the divisor (3).
 
 To start, you can see that the expression $x^3 + x + 1$ goes into $x^4 + x^3 + x^2 + x$ a total of $x$ times. You can verify this by multiplying $x^3 + x + 1$ by $x$, which is $x^4 + x^2 + x$. As the latter term is of the same degree as the dividend, namely 4, we know this works. You can calculate the remainder of this division by $x$ as follows:
 
-* $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
-* $[x^3] \mod x^3 + x + 1 =$
-* $x^3$
+$[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
+*$[x^3] \mod x^3 + x + 1 =$*
+*$x^3$*
 
 So after dividing $x^4 + x^3 + x^2 + x$ by $x^3 + x + 1$ a total of $x$ times, we have a remainder of $x^3$. Can this be further divided by $x^3 + x + 1$?
 
@@ -981,13 +976,13 @@ Bob encrypts the message $M$ at time $T_0$ with the key $K$ to produce the ciphe
 
 *Figure 1: Secrecy across space*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 
 *Figure 2: Secrecy across time*
 
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 
 
@@ -1061,8 +1056,8 @@ One can never state unambiguously that a cryptographic scheme is "secure" or "in
 
 While we will not delve into all the details of the various notions of cryptographic security, you should know that two assumptions are ubiquitous to all modern cryptographic notions of security pertaining to symmetric and asymmetric schemes (and in some form to other cryptographic primitives):
 
-* The attacker’s knowledge about the scheme conforms to Kerckhoffs’ principle.
-* The attacker cannot feasibly perform a brute force attack on the scheme. Specifically, the threat models of cryptographic notions of security typically do not even allow brute force attacks, as they assume that these are not a relevant consideration.
+*The attacker's knowledge about the scheme conforms to Kerckhoffs' principle.*
+**The attacker cannot feasibly perform a brute force attack on the scheme.** Specifically, the threat models of cryptographic notions of security typically do not even allow brute force attacks, as they assume that these are not a relevant consideration.
 
 
 **Notes:**
@@ -1090,7 +1085,7 @@ A typical XOR stream cipher is depicted in *Figure 3*. You first take a private 
 
 *Figure 3: An XOR stream cipher*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Be reminded that an encryption scheme is typically a template for encryption with the same core algorithm, rather than an exact specification. By extension, a stream cipher is typically a template for encryption in which you can use keys of different lengths. Though the key length can impact some minor details of the scheme, it will not impact its essential form.
 
@@ -1171,7 +1166,7 @@ A depiction of how a block cipher works can be seen in *Figure 4* below. A messa
 
 *Figure 4: A block cipher*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 A block cipher on its own is not an encryption scheme. But a block cipher can be used with various **modes of operation** to produce different encryption schemes. A mode of operation simply adds some additional operations outside the block cipher.
 
@@ -1179,7 +1174,7 @@ To illustrate how this works, suppose a block cipher (BC) that requires a 128-bi
 
 *Figure 5: A block cipher with ECB mode*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 The process for electronic code book encryption with the block cipher is as follows. See if you can divide your plaintext message into 128-bit blocks. If not, add **padding** to the message, so that the result can be evenly divided by the block size of 128 bits. This is your data used for the encryption process.
 
@@ -1195,7 +1190,7 @@ The **cipher block chaining mode** (**CBC mode**) is probably the most common mo
 
 *Figure 6: A block cipher with CBC mode*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Suppose the block size is again 128 bits. So to start, you would again need to assure that your original plaintext message receives the necessary padding.
 
@@ -1211,7 +1206,7 @@ Finally, lets turn our attention to **output feedback mode** (**OFB mode**). You
 
 *Figure 7: A block cipher with OFB mode*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 With OFB mode you also select an initialization vector. But here, for the first block, the initialization vector is directly inserted into the block cipher with your key. The resulting 128-bits are, then, treated as a keystream. This keystream is XORed with the plaintext to produce the ciphertext for the block. For subsequent blocks, you use the keystream from the previous block as an input into the block cipher and repeat the steps.
 
@@ -1259,7 +1254,7 @@ From this discussion, you should now understand *Figure 8*. It provides an overv
 
 *Figure 8: Overview of symmetric encryption schemes*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 
 ## Message authentication codes
@@ -1282,7 +1277,7 @@ The process is depicted in *Figure 9*. To use a **MAC** (Message Authentication 
 
 *Figure 9: Overview of symmetric encryption schemes*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 Due to **existential unforgeability**, an attacker cannot alter the message $M$ in any way or create a message of her own with a valid tag. This is so, even if the attacker observes the tags of many messages between Bob and Alice that use the same private key. At most, an attacker could block Alice from receiving the message $M$ (a problem which cryptography cannot address).
 
@@ -1314,7 +1309,7 @@ Alice now first checks whether the tag is valid given the ciphertext $C$ and the
 
 *Figure 10: An authenticated encryption scheme*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 How are MACs created? While MACs can be created via multiple methods, a common and efficient way to create them is via **cryptographic hash functions**.
 
@@ -1327,7 +1322,7 @@ There is a palette of hash functions that can be used to create an HMAC. The mos
 
 *Figure 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Notes:**
 
@@ -1365,7 +1360,7 @@ The communication session starts with Bob sending a ciphertext $C_{0,B}$ to Alic
 
 *Figure 12: A secure communication session*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 
 
@@ -1505,7 +1500,7 @@ Let's call the key $K_0$. The construction with the above parameters, then, look
 
 *Figure 1: AES-ECB with a 128-bit key*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Each 128-bit block of text goes through ten rounds in the Rijndael encryption scheme. This requires a separate round key for each round ($K_1$ through $K_{10}$). These are produced for each round from the original 128-bit key $K_0$ using a **key expansion algorithm**. Hence, for each block of text to be encrypted, we will use the original key $K_0$ as well as ten separate round keys. Note that these same 11 keys are used for each 128-bit block of plaintext that requires encryption.
 
@@ -1773,7 +1768,7 @@ At some later point, Bob wants to write a message $M$ to Alice. As it includes s
 
 *Figure 1: Asymmetric encryption*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 
 Any adversary that listens in on Bob and Alice’s communication can observe $C$. She also knows $K_P$ and the encryption algorithm $E(\cdot)$. Importantly, however, this information does not allow the attacker to feasibly decrypt the ciphertext $C$. Decryption specifically requires $K_S$, which the attacker does not possess.
@@ -1798,7 +1793,7 @@ A digital signature is, as the name clearly implies, the digital equivalent of a
 
 *Figure 2: Asymmetric authentication*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 
 As with asymmetric encryption, we see an interesting contrast between digital signatures and message authentication codes. For the latter, the verification algorithm can only be employed by one of the parties privy to the secure communication. This is because it requires a private key. In the asymmetric setting, however, anyone can verify a digital signature $S$ made by Bob.
@@ -1898,7 +1893,7 @@ Below, you can see the SHA-256 output of a message I wrote. To ensure sufficient
 
 But I will not leave you in suspense until SHA-256 becomes weaker. The original message I wrote was as follows:
 
-* “This is a very random message, or well kind of random. This beginning part is not, but I will end with some relatively random characters to ensure a very unpredictable message. XLWz4dVG3BxUWm7zQ9qS”.
+*"This is a very random message, or well kind of random. This beginning part is not, but I will end with some relatively random characters to ensure a very unpredictable message. XLWz4dVG3BxUWm7zQ9qS".*
 
 A common way in which hash functions with the hiding property are used is in password management (collision-resistance is also important to this application). Any decent online account-based service such as Facebook or Google will not store your passwords directly to manage access to your account. Instead, they will only store a hash of that password. Each time you fill in your password on a browser, a hash is first calculated. Only that hash is sent to the service provider’s server and compared with the hash stored in the back-end database. The hiding property can help ensure that attackers cannot recover it from the hash value.
 
@@ -1942,35 +1937,35 @@ Around 2,500 years ago, the Greek mathematician Euclid of Alexandria discovered 
 All the latter part of this statement means is that you can take any non-prime integer $N$ greater than 1, and write it out as a multiplication of prime numbers. Below are several examples of non-prime integers written as the product of prime factors.
 
 * $18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
-* $84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
+$84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
 * $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$
 
 For all three of the integers above, calculating their prime factors is relatively easy, even if you are only given $N$. You start with the smallest prime number, namely 2, and see how many times the integer $N$ is divisible by it. You then move on to testing the divisibility of $N$ by 3, 5, 7, and so forth. You continue this process until your integer $N$ is written as the product of only prime numbers.
 
 Take, for instance, the integer 84. Below you can see the process for determining its prime factors. At each step, we take out the smallest remaining prime factor (on the left) and determine the remainder term to be factored. We continue until the remainder term is also a prime number. At each step, the current factorization of 84 is displayed on the far right.
 
-* Prime factor = 2: remainder term = 42 	($84 = 2 \cdot 42$)
+**Prime factor = 2: remainder term = 42** ($84 = 2 \cdot 42$)
 * Prime factor = 2: remainder term = 21 	($84 = 2 \cdot 2 \cdot 21$)
 * Prime factor = 3: remainder term = 7 	($84 = 2 \cdot 2 \cdot 3 \cdot 7$)
-* As 7 is a prime number, the result is $2 \cdot 2 \cdot 3 \cdot 7$, or $2^2 \cdot 3 \cdot 7$.
+As 7 is a prime number, the result is $2 \cdot 2 \cdot 3 \cdot 7$, or $2^2 \cdot 3 \cdot 7$.
 
 Suppose now that $N$ is very large. How difficult would it be to reduce $N$ into its prime factors?
 
 That really depends on $N$. Suppose, for instance, that $N$ is 50,450,400. Though this number looks intimidating, the calculations are not that complicated and can easily be done by hand. As above, you just start with 2 and work your way onwards. Below, you can see the result of this process in a similar manner as above.
 
-* 2: 25,225,200 	($50,450,400 = 2 \cdot 25,225,200$)
-* 2: 12,612,600 	($50,450,400 = 2^2 \cdot 12,612,600$)
-* 2: 6,306,300 	($50,450,400 = 2^3 \cdot 6,306,300$)
-* 2: 3,153,150 	($50,450,400 = 2^4 \cdot 3,153,150$)
-* 2: 1,576,575 	($50,450,400 = 2^5 \cdot 1,576,575$)
+**2:** 25,225,200 	($50,450,400 = 2 \cdot 25,225,200$)
+**2: 12,612,600** 	($50,450,400 = 2^2 \cdot 12,612,600$)
+**2: 6,306,300** ($50,450,400 = 2^3 \cdot 6,306,300$)
+**2:** 3,153,150 	($50,450,400 = 2^4 \cdot 3,153,150$)
+**2:** 1,576,575 	($50,450,400 = 2^5 \cdot 1,576,575$)
 * 3: 525,525 	($50,450,400 = 2^5 \cdot 3 \cdot 525,525$)
-* 3: 175,175 	($50,450,400 = 2^5 \cdot 3^2 \cdot 175,175$)
-* 5: 35,035 		($50,450,400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
-* 5: 7,007		($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)
-* 7: 1,001		($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
-* 7: 143		($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
-* 11: 13		($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
-* As 13 is a prime number, the result is $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
+**3: 175,175** ($50,450,400 = 2^5 \cdot 3^2 \cdot 175,175$)
+*5: 35,035* 		($50,450,400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
+*5: 7,007		($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)*
+*7: 1,001* ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
+*7: 143* ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
+*11: 13*		($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
+As 13 is a prime number, the result is $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
 
 Working this problem out by hand takes some time. A computer, of course, could do all of this in a small fraction of a second. In fact, a computer can frequently even factorize extremely large integers in a fraction of a second.
 
@@ -1980,7 +1975,7 @@ For concreteness, let’s say that $p$ and $q$ are both 1024-bit primes, and tha
 
 It is important to appreciate how large $p$ and $q$ are if selected under the conditions above. As an example, I have selected a random prime number that needs at least 1024 bits for representation below.
 
-* 14,752,173,874,503,595,484,930,006,383,670,759,559,764,562,721,397,166,747,289,220,945,457,932,666,751,048,198,854,920,097,085,690,793,755,254,946,188,163,753,506,778,089,706,699,671,722,089,715,624,760,049,594,106,189,662,669,156,149,028,900,805,928,183,585,427,782,974,951,355,515,394,807,209,836,870,484,558,332,897,443,152,653,214,483,870,992,618,171,825,921,582,253,023,974,514,209,142,520,026,807,636,589
+**14,752,173,874,503,595,484,930,006,383,670,759,559,764,562,721,397,166,747,289,220,945,457,932,666,751,048,198,854,920,097,085,690,793,755,254,946,188,163,753,506,778,089,706,699,671,722,089,715,624,760,049,594,106,189,662,669,156,149,028,900,805,928,183,585,427,782,974,951,355,515,394,807,209,836,870,484,558,332,897,443,152,653,214,483,870,992,618,171,825,921,582,253,023,974,514,209,142,520,026,807,636,589**
 
 Suppose now after randomly selecting prime numbers $p$ and $q$, we multiply them to obtain an integer $N$. This latter integer, therefore, is a 2048 bit number which requires at least 2048 bits for its representation. It is much, much larger than either $p$ or $q$.
 
@@ -2071,8 +2066,8 @@ We can say that an integer $a$ is **invertible modulo N**, if there exists at le
 
 Suppose, for example, that $a = 5$ and $N = 11$. There are many integers by which you can multiply 5, so that $5 \cdot b \mod 11 = 1 \mod 11$. Consider, for instance, the integers 20 and 31. It is easy to see that both these integers are inverses of 5 for reduction modulo 11.
 
-* $5 \cdot 20 \mod 11 = 100 \mod 11 = 1 \mod 11$
-* $5 \cdot 31 \mod 11 = 155 \mod 11 = 1 \mod 11$
+$5 \cdot 20 \mod 11 = 100 \mod 11 = 1 \mod 11$
+$5 \cdot 31 \mod 11 = 155 \mod 11 = 1 \mod 11$
 
 While 5 has many inverses reduction modulo 11, you can show that only a single positive inverse of 5 exists which is less than 11. In fact, this is not unique to our particular example, but a general result.
 
@@ -2103,7 +2098,7 @@ Suppose that $a = 5$ and $N = 7$. These are indeed coprimes as Euler’s theorem
 
 What Euler’s theorem now states is that $5^6 \mod 7$ must be equal to $1 \mod 7$. Below are the calculations to show that this is indeed true.
 
-* $5^6 \mod 7 = 15,625 \mod 7 = 1 \mod N$
+$5^6 \mod 7 = 15,625 \mod 7 = 1 \mod N$
 
 The integer 7 divides into 15,624 a total of 2,233 times. Hence, the remainder of dividing 16,625 by 7 is 1.
 
@@ -2117,7 +2112,7 @@ Euler’s theorem in conjunction with **Proposition 5** has important implicatio
 
 * $a^{2 \cdot \phi(N)} \mod N = a^{\phi(N)} \cdot a^{\phi(N)} \mod N = 1 \cdot 1 \mod N = 1 \mod N$
 * $a^{\phi(N) + 1} \mod N = a^{\phi(N)} \cdot a^1 \mod N = 1 \cdot a^1 \mod N = a \mod N$
-* $a^{8 \cdot \phi(N) + 3} \mod N = a^{8 \cdot \phi(N)} \cdot a^3 \mod N = 1 \cdot a^3 \mod N = a^3 \mod N$
+$a^{8 \cdot \phi(N) + 3} \mod N = a^{8 \cdot \phi(N)} \cdot a^3 \mod N = 1 \cdot a^3 \mod N = a^3 \mod N$
 
 Hence, the combination of Euler’s theorem and **Proposition 5** allow us to simply calculate a number of expressions. In general, we can summarize the insight as in **Proposition 6**.
 
@@ -2173,19 +2168,19 @@ Step 4 now requires that we calculate a value $d$ such that $103 \cdot d \mod 36
 
 Though I do not show the procedure here, it yields the value 7 when $e = 103$. You can verify that the pair of values 103 and 7 indeed meets the general condition $e \cdot d \mod \phi(n) = 1$ through the calculations below.
 
-* $103 \cdot 7 \mod 360 = 721 \mod 360 = 1 \mod 360$
+$103 \cdot 7 \mod 360 = 721 \mod 360 = 1 \mod 360$
 
 Importantly, given *Proposition 4*, we know that no other integer between 1 and 360 for $d$ will produce the result that $103 \cdot d = 1 \mod 360$. Additionally, the proposition implies that selecting a different value for $e$, will yield a different unique value for $d$.
 
 In step 5 of the RSA problem, we have to select some positive integer $y$ which is a smaller coprime of 403. Suppose that we set $y = 2^{103}$. Exponentiation of 2 by 103 yields the result below.
 
-* $2^{103} \mod 403 = 10,141,204,801,825,835,211,973,625,643,008 \mod 403 = 349 \mod 403$
+$2^{103} \mod 403 = 10,141,204,801,825,835,211,973,625,643,008 \mod 403 = 349 \mod 403$
 
 The RSA problem in this particular example is now as follows: You are provided with $N = 403$, $e = 103$, and $y = 349 \mod 403$. You now have to calculate $x$ such that $x^{103} = 349 \mod 403$. That is, you must find that the original value before exponentiation by 103 was 2.
 
 It would be easy (for a computer at least) to calculate $x$ if we knew that $d = 7$. In that case, you could just determine $x$ as below.
 
-* $x = y^7 \mod 403 = 349^7 \mod 403 = 630,634,881,591,804,949 \mod 403 = 2 \mod 403$
+$x = y^7 \mod 403 = 349^7 \mod 403 = 630,634,881,591,804,949 \mod 403 = 2 \mod 403$
 
 The problem is that you have not been provided the information that $d = 7$. You could, of course, calculate $d$ from the fact that $103 \cdot d = 1 \mod 360$. The problem is that you are also not given the information that the order of $N = 360$. Finally, you could also calculate the order of 403 by calculating the following product: $(p - 1) \cdot (q - 1)$. But you are also not told that $p = 13$ and $q = 31$.
 

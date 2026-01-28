@@ -1,0 +1,9 @@
+question: Mục đích chính của bộ định tuyến trên giao diện Lightning là gì?
+answer: Kiếm tiền từ phí định tuyến
+wrong_answers:
+  - Kiếm tiền bằng cách chỉ đường
+  - Kiếm tiền bằng cách bán thanh khoản mới nhận được
+  - Kiếm tiền bằng cách đăng tải trạng thái kênh đã lỗi thời
+explanation: |
+  Bộ định tuyến tìm cách chuyển tiếp các khoản thanh toán từ người khác bằng cách thu phí định tuyến.
+reviewed: false

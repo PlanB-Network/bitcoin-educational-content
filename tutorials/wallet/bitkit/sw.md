@@ -10,7 +10,7 @@ description: Sanidi On-Chain yako ya kujilinda na Lightning Wallet
 Bitkit (https://www.bitkit.to) ni Wallet rahisi, lakini yenye nguvu ya kujilinda. Lipa mtu yeyote, popote, wakati wowote.
 
 
-Bitkit ni simu ya mkononi inayojitegemea ya Wallet inayokuwezesha kuchukua Ownership halisi ya Bitcoin yako ili uweze kutumia kulingana na masharti yako. Imeimarishwa kwa vipengele bora na muundo maridadi, Bitkit hufungua malipo ya papo hapo kwa mtu yeyote, wakati wowote, mahali popote. Wakati wote kuwa chanzo wazi kwa mtu yeyote kukagua.
+Bitkit ni wallet ya simu ya mkononi inayojitegemea inayokuwezesha kuchukua umiliki wa kweli wa Bitcoin yako ili uweze kuitumia kulingana na masharti yako. Imeimarishwa kwa vipengele bora na muundo maridadi, Bitkit hufungua malipo ya papo hapo kwa mtu yeyote, wakati wowote, mahali popote — huku ikiwa chanzo wazi wakati wote kwa yeyote kukagua.
 
 
 ![video](https://www.youtube.com/watch?v=D5iH1AElHIY)
@@ -28,7 +28,7 @@ Bitkit ni kweli rahisi kutumia.
 Kama Bitcoin Wallet yenye uwezo kamili, Bitkit inajumuisha utendakazi wote unaotarajia:
 
 
-Malipo ya Papo Hapo: Hakuna mauzauza tena kati ya pochi kwa On-Chain na miamala ya Umeme. Bitkit inawachanganya wote wawili bila mshono.
+Malipo ya Papo Hapo: Hakuna mauzauza tena kati ya Wallet kwa On-Chain na miamala ya Lightning. Bitkit inawachanganya wote wawili bila mshono.
 
 
 Usimamizi wa Mizani: Hamisha fedha kwa urahisi kati ya akaunti yako ya akiba na ya matumizi ili kuhakikisha kuwa una uwezo wa kutosha kila wakati wa malipo ya papo hapo.
@@ -40,7 +40,7 @@ Maneno ya Urejeshaji: Rejesha salio lako la akiba kwenye Wallet yoyote inayoauni
 Hifadhi Nakala Kiotomatiki: Data isiyo nyeti kutoka kwa Wallet yako inahifadhiwa nakala kiotomatiki ili uweze kurejesha salio lako la matumizi kila wakati.
 
 
-Historia ya Kina ya Muamala: Wape watu unaowasiliana nao na uweke lebo katika shughuli zako ili kuziweka zikiwa zimepangwa.
+Historia ya Kina ya Muamala: Wape watu unaowasiliana nao na uweke lebo katika miamala yako ili kuiweka ikiwa imepangwa.
 
 
 ![image](assets/en/01.webp)
@@ -55,13 +55,13 @@ Anwani Zinazolipwa: Sema kwaheri kwa kuuliza anwani au ankara. Ongeza tu marafik
 Wijeti za Moja kwa Moja: Ongeza mguso wa furaha na manufaa kwenye skrini yako ya kwanza ya Wallet na wijeti zinazovutia.
 
 
-Wasifu wa Kijamii: Dhibiti wasifu wako wa umma na viungo, ili unaowasiliana nao waweze kuwasiliana nawe na kukulipa wakati wowote.
+Wasifu wa Kijamii: Dhibiti wasifu wako wa umma na viungo, ili watu unaowasiliana nao waweze kuwasiliana nawe na kukulipa wakati wowote.
 
 
 Akaunti Zisizo na Nenosiri: Ingia kwenye tovuti zinazotumia Slashtags au uthibitishaji wa umeme.
 
 
-QuickPay: Weka kikomo maalum cha malipo ya Radi chini ya $50, na Invoice yoyote chini ya hiyo inalipwa papo hapo—hakuna swipe, hakuna ucheleweshaji. Ni kamili kwa kukimbia kahawa au bili za kugawanyika.
+QuickPay: Weka kikomo maalum cha malipo ya Lightning chini ya $50, na Invoice yoyote chini ya hiyo inalipwa papo hapo—hakuna swipe, hakuna ucheleweshaji. Ni kamili kwa kukimbia kahawa au bili za kugawanyika.
 
 
 Nunua: Lipia Netflix, Airbnb, mboga, data ya mtandao wa simu, na zaidi, kwa Bitcoin, ndani ya Bitkit.
@@ -143,7 +143,7 @@ Ndogo, malipo ya kila siku ya papo hapo
 Badili kati yao na kichupo kilicho juu ya skrini ya kwanza.
 
 
-### 5. Pokea Bitcoin on chain (Akiba)
+### 5. Pokea Bitcoin onchain (Akiba)
 
 
 Chagua Akiba.
@@ -158,7 +158,7 @@ Shiriki msimbo wa QR au nakili Address kwa mtumaji.
 Fedha itaonekana baada ya uthibitisho mmoja. Confetti atasherehekea kuwasili.
 
 
-### 6. Pokea Juu ya Umeme (Matumizi)
+### 6. Pokea Juu ya Lightning (Matumizi)
 
 
 Chagua Matumizi na uguse Pokea.
@@ -177,10 +177,10 @@ Ruhusu mtumaji achanganue au ubandike Invoice. Fedha hukaa kwa sekunde.
 
 
 
-### 7. Tuma Malipo ya Umeme
+### 7. Tuma Malipo ya Lightning 
 
 
-Gonga aikoni ya Changanua, changanua umeme wa Invoice, au ubandike.
+Gonga aikoni ya Changanua, changanua Lightning Invoice, au ubandike.
 
 
 Ingiza kiasi ikihitajika, kisha uguse Endelea.
@@ -195,7 +195,7 @@ Telezesha kidole ili Ulipe, weka PIN yako, na umemaliza.
 Maelezo ya muamala, ikijumuisha ada na Timestamp, yanaonekana kwenye mipasho ya Shughuli.
 
 
-### 8. Unda Wasifu wako na Anwani
+### 8. Unda Wasifu wako na address
 
 
 Gonga avatar katika sehemu ya juu kushoto.
@@ -210,7 +210,7 @@ BitKit inaonyesha msimbo wako wa kibinafsi wa QR. Marafiki wanaweza kuichanganua
 Kubali au kataa ombi la kuruhusu unaowasiliana nao kukulipa.
 
 
-Mara tu mwasiliani anapoongezwa, gusa tu jina lake katika Anwani ili kutuma au kuomba Sats.
+Mara tu mwasiliani anapoongezwa, gusa tu jina lake katika address ili kutuma au kuomba Sats.
 
 
 ### 9. Chunguza Wijeti
@@ -224,7 +224,7 @@ Bitcoin Bei Ticker - chagua hadi sarafu nne fiat na kuweka muda (siku, wiki, mwe
 Mlisho wa Habari - vichwa vya habari kutoka kwa vyanzo vikuu vya Bitcoin.
 
 
-Ukweli wa Bitcoin - trivia ya ukubwa wa bite kwa wanaoanza.
+Ukweli wa Bitcoin - trivia ya ukubwa wa bit kwa wanaoanza.
 
 
 Kikokotoo - badilisha kati ya Sats na fiat papo hapo.
@@ -256,7 +256,7 @@ Telezesha kidole ili Kulipa. Msimbo wa kadi ya zawadi hufika kwa barua pepe ndan
 ### 11. Malipo ya Haraka
 
 
-Quick Pay huthibitisha kiotomatiki ankara za umeme chini ya kikomo maalum (chaguo-msingi 50 USD).
+Quick Pay huthibitisha kiotomatiki Lightning Invoice chini ya kikomo maalum (chaguo-msingi 50 USD).
 
 
 Nenda kwa Mipangilio → Jumla → Malipo ya Haraka.
@@ -286,7 +286,7 @@ Inahitaji PIN kwa Malipo - amani ya ziada ya akili.
 
 
 
-### 13. Kusimamia Njia za Umeme
+### 13. Kusimamia Njia za Lightning 
 
 
 Channel ni nini?
@@ -349,7 +349,7 @@ Sarafu ya Ndani - badilisha kutoka USD hadi mkondo wowote kuu chini ya Mipangili
 ## Hongera sana
 
 
-Umesakinisha BitKit, kulinda seed yako, malipo bora ya Umeme, na hata kununua kadi yako ya kwanza ya zawadi. Muundo wa BitKit hufanya zana zenye nguvu za Bitcoin kuhisi angavu, lakini huwa unashikilia funguo kila wakati. Pakua BitKit leo na uingie kwenye Bitcoin Ownership ya kweli. Maswali au maoni? Wasiliana na timu ya BitKit kwenye mitandao ya kijamii au kupitia kiungo cha usaidizi wa ndani ya programu.
+Umesakinisha BitKit, kulinda seed yako, malipo bora ya Lightning, na hata kununua kadi yako ya kwanza ya zawadi. Muundo wa BitKit hufanya zana zenye nguvu za Bitcoin kuhisi angavu, lakini huwa unashikilia funguo kila wakati. Pakua BitKit leo na uingie kwenye Bitcoin Ownership ya kweli. Maswali au maoni? Wasiliana na timu ya BitKit kwenye mitandao ya kijamii au kupitia kiungo cha usaidizi wa ndani ya programu.
 
 
 **Kumbuka kuhusu kununua au kuuza Bitcoin**: Bitkit haitumii kununua na kuuza Bitcoin. Ili kununua au kuuza, tumia ubadilishanaji kama Bitfinex, kisha utume kwa au kutoka kwa Bitkit.

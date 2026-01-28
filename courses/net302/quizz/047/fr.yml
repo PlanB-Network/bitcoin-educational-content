@@ -6,4 +6,4 @@ wrong_answers:
   - PAN (Physical Address Number)
 explanation: |
   L’OUI est attribué par l’IEEE et permet d’identifier le constructeur de la carte réseau dans une adresse MAC.
-reviewed: false
+reviewed: true 

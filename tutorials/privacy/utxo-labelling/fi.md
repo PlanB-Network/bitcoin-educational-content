@@ -1,5 +1,5 @@
 ---
-name: UTXO:n merkitseminen
+name: Labelling UTXO
 description: Kuinka merkitä UTXO:si oikein?
 ---
 ![cover](assets/cover.webp)

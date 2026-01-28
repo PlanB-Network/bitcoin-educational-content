@@ -1,0 +1,9 @@
+question: Hva kombinerte den opprinnelige Bitcoin-programvaren i 2009?
+answer: Wallet, bue og moll
+wrong_answers:
+  - Knutepunkt, Miner og Block explorer
+  - Wallet, helikopter og Miner
+  - Miner og Mining pool
+explanation: |
+  Den opprinnelige Bitcoin-programvaren integrerte Wallet-, node- og Miner-funksjonene i ett og samme program.
+reviewed: true

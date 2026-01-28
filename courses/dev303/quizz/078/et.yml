@@ -1,0 +1,8 @@
+question: Mis on peamine erinevus meetodite unwrap_or() ja unwrap_or_default() vahel, kui käsitletakse tüüpe Result ja Option?
+answer: unwrap_or() nõuab tagavaraväärtuse määramist, samas kui unwrap_or_default() kasutab tüübi vaikimisi rakendust
+wrong_answers:
+  - unwrap_or() paanitseb vigade korral, samal ajal kui unwrap_or_default() tagastab None, pakkudes turvalisemat veakäitlust tootmises
+  - unwrap_or() töötab ainult Result-tüüpidega, samas kui unwrap_or_default() töötab ainult Option-tüüpidega väärtuse väljavõtmiseks
+  - unwrap_or() edastab vead ülespoole kutsete virna, samas kui unwrap_or_default() teisendab kõik vead vaikimisi string-teadeteks
+explanation: |
+  Meetod unwrap_or() võimaldab anda konkreetse tagavaraväärtuse, kui tulemus sisaldab viga või valik sisaldab olematut, andes teile kontrolli, millist väärtust kasutada vea korral. Seevastu unwrap_or_default() kasutab automaatselt tüübi Default-traidi implementatsiooni, mis on mugav, kui vaikeväärtus on teie kasutusjuhtumi jaoks sobiv. Mõlemad meetodid töötavad nii Result- kui ka Option-tüüpidega ning kumbki neist ei paanitse ega levita vigu - mõlemad pakuvad graatsilist lagunemist, tagastades kasutatavaid väärtusi, selle asemel et ebaõnnestuda.

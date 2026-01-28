@@ -1,10 +1,10 @@
-question: Was war ein bedeutendes Ereignis in der Welt der Kryptowährungen im Jahr 2017?
-answer: Der Start von tausenden Initial Coin Offerings (ICOs).
+question: Was ist einer der Gründe, warum Bitcoin keine Blase ist, die verschwinden wird?
+answer: Weil es eine Währung ist, die tatsächlich überall auf der Welt verwendet wird.
 wrong_answers:
-  - Das Verbot von Bitcoin.
-  - Die Erstellung von Bitcoin.
-  - Das Verschwinden aller Kryptowährungen.
+  - Weil sie tatsächlich nirgendwo verwendet wird.
+  - Weil sie von einer zentralen Autorität kontrolliert wird.
+  - Weil sie leicht zu fälschen ist.
 explanation: >-
-  Das Jahr 2017 war geprägt von einer signifikanten spekulativen Blase in der
-  Welt der Kryptowährungen, insbesondere mit dem Start von tausenden Initial Coin Offerings (ICOs).
+  Bitcoin ist keine Blase, die verschwinden wird, sondern eine Währung, die tatsächlich
+  überall auf der Welt verwendet wird.
 reviewed: true

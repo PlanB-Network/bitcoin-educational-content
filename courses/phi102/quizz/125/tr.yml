@@ -1,0 +1,8 @@
+question: Paul Leroy-Beaulieu'nun 1883 tarihli analizine göre, kolektivist sistemler tipik olarak teknolojik ve prosedürel yenilikleri nasıl edinir?
+answer: generate iç inovasyon yapamadıkları için serbest piyasa toplumları tarafından dışarıdan geliştirilen inovasyonları kopyalarlar
+wrong_answers:
+  - Bilimsel ilerlemeyi koordine eden merkezi araştırma komiteleri aracılığıyla yenilikler geliştirirler
+  - Kolektif bilgiyi bir araya getirerek ve işbirliğinin önündeki rekabetçi engelleri ortadan kaldırarak yenilikler yaratırlar
+  - Kaynakları sistematik iyileştirmeye odaklayan devlet destekli kurumlar aracılığıyla generate yenilikleri
+explanation: |
+  Paul Leroy-Beaulieu, kolektivist sistemlerin bürokratik yapıları ve bireysel teşviklerin eksikliği nedeniyle yapısal olarak iç inovasyon konusunda yetersiz kalacağını öngörmüştür. Komünist toplumların kendi inovasyonlarını üretmek yerine özgür toplumların inovasyonlarını kopyalamaya bel bağlayacaklarını doğru bir şekilde öngörmüştür, çünkü kişisel ödül mekanizmalarının yokluğu ve katı düzenleyici çerçeveler gerçek inovasyon için gerekli olan risk alma ve yaratıcı inisiyatifi engellemektedir.

@@ -1,0 +1,9 @@
+question: IPv6 Address과 관련된 이름을 찾는 데 사용되는 DNS 레코드 유형은 무엇인가요?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR(포인터 레코드)은 역방향 확인, 즉 IPv6 Address을 도메인 이름에 연결하는 것을 가능하게 합니다.
+reviewed: false

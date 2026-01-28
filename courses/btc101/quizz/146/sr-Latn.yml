@@ -1,11 +1,8 @@
-question: Zašto je važno da Bitkoin čvor ostane pristupačan i dostupan svim mogućim korisnicima?
-answer: Jer omogućava decentralizaciju mreže.
+question: Koja je svrha prilagođavanja težine u rudarenju bitkoina?
+answer: Ona ponovo uspostavlja ravnotežu globalne igre rudarenja na osnovu broja učesnika.
 wrong_answers:
-  - Zato što povećava kapacitet transakcija mreže.
-  - Zato što smanjuje kapacitet transakcija mreže.
-  - Zato što povećava Block nagradu za rudare.
-explanation: |
-  Povoljna cena i dostupnost Bitkoin čvora su
-  važni jer olakšavaju decentralizaciju
-  mreže.
+  - Povećava nagradu za rudarenje.
+  - Smanjuje broj bitkoina u opticaju.
+  - Povećava sigurnost Bitkoin mreže.
+explanation: >-
 reviewed: true

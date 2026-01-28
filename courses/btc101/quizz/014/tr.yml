@@ -1,10 +1,11 @@
-question: DigiCash projesi neydi?
-answer: David Chaum tarafından anonim elektronik para yaratma girişimi.
+question: Altının bir para biçimi olarak dezavantajlarından biri nedir?
+answer: Kolayca bölünebilir değildir.
 wrong_answers:
-  - Bitcoin için dijital bir Wallet oluşturma projesi.
-  - Federal Rezerv tarafından tüm fiziksel nakdi dijitalleştirme girişimi.
-  - Bitcoin tabanlı bir kripto para birimi oluşturma projesi.
+  - Uzay boyunca değerini korumaz.
+  - Zamanla aşınır.
+  - Üretmesi kolay.
 explanation: |
-  David Chaum anonim elektronik posta kavramını tanıttı
-  1980'lerde DigiCash projesiyle para kazandı.
+  Altının bir para biçimi olarak temel dezavantajlarından biri şudur
+  küçük birimlere bölmenin zor olması nedeniyle
+  oluşur, bu da kullanımı daha az pratik hale getirir.
 reviewed: true

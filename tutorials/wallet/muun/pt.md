@@ -6,15 +6,15 @@ description: Configuração da sua carteira Muun
 
 ![capa](assets/cover.webp)
 
-Muun (https://muun.com/) é uma carteira auto custodiante para bitcoin e lightning.
+[Muun](https://muun.com/) é uma carteira de autocustódia para bitcoin e lightning.
 
-## tutorial em vídeo
+## Tutorial em vídeo
 
 ![tutorial em vídeo](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Wallet - Guia completo de uso
 
-Guia completo de uso (com capturas de tela) do aplicativo Muun; uma carteira móvel amigável para Bitcoin que permite transações na Lightning Network.
+Guia completo do usuário (com capturas de tela) para o aplicativo Muun; uma carteira de Bitcoin móvel e fácil de usar que permite realizar transações na Rede Lightning.
 
 ![imagem](assets/0.5.webp)
 
@@ -122,15 +122,15 @@ Aqui está a tradução das instruções:
 
 Este procedimento de emergência ajudará você a recuperar seus fundos se não puder usar o Muun em seu dispositivo.
 
-1. Encontre seu código de recuperação
+- Encontre seu código de recuperação
 
 Você escreveu esse código em um pedaço de papel antes de criar seu kit de emergência. Você precisará dele mais tarde.
 
-2. Baixe a ferramenta de recuperação
+- Baixe a ferramenta de recuperação
 
 Acesse a página https://github.com/muun/recovery e baixe a ferramenta em seu computador.
 
-3. Recupere seus fundos
+- Recupere seus fundos
 
 Execute a ferramenta de recuperação e siga as etapas. A ferramenta se encarregará de transferir seus fundos para um endereço Bitcoin de sua escolha.
 

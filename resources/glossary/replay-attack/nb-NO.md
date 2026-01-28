@@ -14,4 +14,4 @@ Denne typen angrep kan bare forekomme ved Blockchain-forgrening med to uavhengig
 Generelt sett består et replay-angrep i databehandling av å snappe opp og gjenbruke gyldige data for å lure et system ved å gjenta den opprinnelige overføringen. Dette kan noen ganger føre til identitetstyveri i et nettverk.
 
 
-> når det gjelder et replay-angrep på en Bitcoin-transaksjon, omtales dette noen ganger bare som en "replay-transaksjon". "*
+> når det gjelder et replay-angrep på en Bitcoin-transaksjon, omtales dette noen ganger bare som en "replay-transaksjon".

@@ -1,0 +1,9 @@
+question: Que distribuição é mais adequada para o Raspberry Pi, uma vez que é particularmente leve?
+answer: RaspiBlitz
+wrong_answers:
+  - Guarda-chuva
+  - MeuNó
+  - Início9
+explanation: |
+  O RaspiBlitz está optimizado para o Raspberry Pi e continua a ser leve, ao contrário do Umbrel, que se tornou demasiado pesado para estas máquinas.
+reviewed: true

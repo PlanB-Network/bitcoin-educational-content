@@ -1,6 +1,6 @@
 ---
 name: 新增會議重播
-description: 如何在 PlanB Network 上新增會議重播？
+description: 如何在 Plan ₿ Academy 上新增會議重播？
 ---
 ![conference](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: 如何在 PlanB Network 上新增會議重播？
 PlanB 的使命是以盡可能多的語言提供 Bitcoin 上的頂級教育資源。網站發佈的所有內容都是開放原始碼，並託管在 GitHub 上，讓任何人都能為平台的豐富化貢獻心力。
 
 
-您想在 PlanB Network 網站上新增 Bitcoin 會議的重播，並讓此活動具有能見度，但卻不知道如何操作？本教學就是為您準備的！
+您想在 Plan ₿ Academy 網站上新增 Bitcoin 會議的重播，並讓此活動具有能見度，但卻不知道如何操作？本教學就是為您準備的！
 
 
 但是，如果您要新增將於未來舉行的會議，我建議您閱讀其他教學，其中我們會說明如何在網站上新增活動。
 
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 - 首先，您需要擁有一個 GitHub 帳戶。如果您不知道如何建立帳號，我們已為您準備了詳細的教學。
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![conference](assets/03.webp)
 
 
-- 如果您之前從未貢獻過 PlanB Network 的內容，您需要建立原始套件庫的 Fork。Forking 倉庫意味著在您自己的 GitHub 帳戶上創建該倉庫的副本，這樣您就可以在不影響原始倉庫的情況下進行專案工作。點擊 `Fork this repository` 按鈕：
+- 如果您之前從未貢獻過 Plan ₿ Academy 的內容，您需要建立原始套件庫的 Fork。Forking 倉庫意味著在您自己的 GitHub 帳戶上創建該倉庫的副本，這樣您就可以在不影響原始倉庫的情況下進行專案工作。點擊 `Fork this repository` 按鈕：
 
 ![conference](assets/04.webp)
 
@@ -105,7 +105,7 @@ tags:
 如果您的組織還沒有 "*project*"識別碼，您可以按照此其他教程來新增。
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -135,7 +135,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/14.webp)
 
 
-- 選擇您的 PlanB Network 儲存庫 Fork：
+- 選擇您的 Plan ₿ Academy 儲存庫 Fork：
 
 ![conference](assets/15.webp)
 
@@ -190,7 +190,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/25.webp)
 
 
-- 將會開啟新的頁面。拖放代表您的會議的圖片，並顯示在 PlanB Network 網站上： ![conference](assets/26.webp)
+- 將會開啟新的頁面。拖放代表您的會議的圖片，並顯示在 Plan ₿ Academy 網站上： ![conference](assets/26.webp)
 - 它可以是標誌、縮圖，甚至是海報：
 
 ![conference](assets/27.webp)
@@ -299,7 +299,7 @@ Speaker: Satoshi Nakamoto
 ![conference](assets/37.webp)
 
 
-- 在您文件的開頭，在「front matter」中，在`name:`欄位填入您的會議名稱和重播年份。在`description:`欄位中，以檔案的語言寫入您活動的簡短說明。例如，若檔案名稱為 `en.md`，描述應為英文。PlanB Network 團隊會使用他們的模型負責翻譯您的描述。
+- 在您文件的開頭，在「front matter」中，在`name:`欄位填入您的會議名稱和重播年份。在`description:`欄位中，以檔案的語言寫入您活動的簡短說明。例如，若檔案名稱為 `en.md`，描述應為英文。Plan ₿ Academy 團隊會使用他們的模型負責翻譯您的描述。
 - 以`#`標記的第一級標題用於按場景組織會議。例如，`# Main Stage ` 表示主舞台，`# Workshop Room ` 表示專用於工作坊的舞台。
 
 
@@ -357,10 +357,10 @@ Speaker: Satoshi Nakamoto
 
 ![conference](assets/45.webp)
 
-恭喜您！您的 PR 已成功建立。管理員現在會審核它，如果一切正常，就會合併到 PlanB Network 的主儲存庫裡。您應該會在幾天後看到您的會議重播出現在網站上。
+恭喜您！您的 PR 已成功建立。管理員現在會審核它，如果一切正常，就會合併到 Plan ₿ Academy 的主儲存庫裡。您應該會在幾天後看到您的會議重播出現在網站上。
 
 
-請務必跟進您的 PR 進度。管理員有可能會留言詢問其他資訊。只要您的 PR 未經驗證，您就可以在 PlanB Network GitHub 套件庫的「Pull requests」標籤下檢視：
+請務必跟進您的 PR 進度。管理員有可能會留言詢問其他資訊。只要您的 PR 未經驗證，您就可以在 Plan ₿ Academy GitHub 套件庫的「Pull requests」標籤下檢視：
 
 ![conference](assets/46.webp)
 

@@ -1,13 +1,8 @@
-question: Wat is het belangrijkste probleem van het huidige financiële systeem met betrekking tot het milieu?
-answer: Het moedigt overconsumptie en schulden aan.
+question: Wat zijn de typische kosten voor een Miner?
+answer: Elektriciteitsverbruik en aankoop van hardware.
 wrong_answers:
-  - Het bevordert het gebruik van fossiele brandstoffen.
-  - Het investeert niet in hernieuwbare energie.
-  - Het reguleert de productie van goederen niet.
-explanation: |
-  Het huidige financiële systeem wordt bekritiseerd voor het aanmoedigen van
-  overconsumptie en schulden aanmoedigt, wat ernstige
-  milieuproblemen veroorzaakt. Dit komt door de gemakkelijke toegang tot
-  krediet, monetaire uitgifte door banken en het gebruik van
-  fractioneel reservebankieren.
-reviewed: true
+  - Alleen aanschaf van hardware.
+  - Transactiekosten.
+  - Elektriciteitsverbruik en transactiekosten.
+explanation: >-
+reviewed: false

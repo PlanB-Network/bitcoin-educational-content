@@ -1,0 +1,8 @@
+question: According to Hayek's theory of dispersed knowledge, why do centrally planned economies struggle with price setting compared to free markets?
+answer: Central planners cannot access the subjective, localized knowledge of individual costs, benefits, and preferences that only market participants possess
+wrong_answers:
+  - Central planners lack sufficient computational power and advanced algorithms to process all the economic data available to them
+  - Central planners are inherently corrupt and set prices to benefit themselves rather than society, unlike market participants who are altruistic
+  - Central planners focus too much on long-term economic stability rather than responding to immediate supply and demand fluctuations
+explanation: |
+  Hayek's key insight is that knowledge exists only as 'fragments dispersed of incomplete and frequently contradictory knowledge possessed by all distinct individuals.' This knowledge is subjective and localized - only individuals know their own costs, benefits, and preferences. Free markets through voluntary exchange and price negotiation allow this dispersed knowledge to emerge and coordinate economic activity. Central planners, regardless of their intentions or capabilities, cannot access this subjective, scattered information that exists in the minds of millions of individuals, making effective price setting impossible.

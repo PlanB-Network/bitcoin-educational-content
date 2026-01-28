@@ -1,11 +1,11 @@
-question: Bitcoin miras bağlamında noterin rolü nedir?
-answer: Vergi uyumluluğunu sağlarlar.
+question: Bitcoin dünyaya ilk kez ne zaman sunuldu?
+answer: 31 Ekim 2008.
 wrong_answers:
-  - Siz öldükten sonra bitcoinlerinizi yönetirler.
-  - Miras planınızı değiştirirler.
-  - Bitcoinlerinizi bir kasada güvence altına alırlar.
+  - 3 Ocak 2009.
+  - 22 Kasım 2009.
+  - 12 Aralık 2010.
 explanation: |
-  Bitcoin kalıtımı bağlamında, aşağıdakilerin yapılması önemlidir
-  emin olmak için bitcoinlerin mirasını bir noter ile görüşün
-  vergi uyumu.
-reviewed: false
+  Bitcoin ilk olarak 31 Ekim'de dünyaya tanıtıldı,
+  2008, Satoshi Nakamoto Cypherpunk'e bir e-posta gönderdiğinde
+  gW-2 Beyaz Kitabını içeren e-posta listesi.
+reviewed: true

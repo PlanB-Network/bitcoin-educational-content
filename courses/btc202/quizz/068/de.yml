@@ -1,0 +1,9 @@
+question: Was sind die drei wichtigsten Vorteile regelmäßiger Betriebssystem- und App-Updates?
+answer: Sicherheit, Zuverlässigkeit, Funktionalität
+wrong_answers:
+  - Geschwindigkeit, Anonymität, Kompatibilität
+  - Sicherheit, Speicher, Lagerung
+  - Vertraulichkeit, Funktionalität, Zuverlässigkeit
+explanation: |
+  Updates gewährleisten die Sicherheit vor Schwachstellen, die Kompatibilität mit Weiterentwicklungen und neuen Funktionen sowie die Zuverlässigkeit des Systems.
+reviewed: true

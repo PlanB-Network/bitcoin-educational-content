@@ -1,5 +1,5 @@
 ---
-name: जॉइनमार्केट
+name: JoinMarket
 
 description: कमांड लाइन के माध्यम से Bitcoin पर CoinJoin करने के लिए JoinMarket का उपयोग करने पर गाइड और ट्यूटोरियल
 ---

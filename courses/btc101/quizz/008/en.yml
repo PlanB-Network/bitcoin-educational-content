@@ -1,11 +1,13 @@
-question: What does it mean for Bitcoin to be a neutral currency?
-answer: It is not controlled by any entity or institution.
+question: What is the Declaration of the Independence of Cyberspace?
+answer: A text asserting that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws.
 wrong_answers:
-  - It is controlled by a single entity or institution.
-  - It is regulated by the government.
-  - It is only used for big transactions.
+  - A declaration stating the independence of Bitcoin from traditional financial systems.
+  - A text asserting that cyberspace should be controlled by government regulation.
+  - A declaration that vouches for the independence of the pirate movement from any regulation.
 explanation: |
-  Bitcoin is a neutral currency, meaning it is not controlled
-  by any entity or institution, so every user has the same
-  rights. This is a key aspect of its decentralization.
+  The Declaration of the Independence of Cyberspace was
+  written by John Perry Barlow in 1996. This document asserts
+  that cyberspace is a distinct realm from the physical
+  sphere, so industrial governments cannot enforce their
+  authority there.
 reviewed: true

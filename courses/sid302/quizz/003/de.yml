@@ -1,0 +1,8 @@
+question: Welches ist der wichtigste Konsensmechanismus, der von der Liquid Network verwendet wird?
+answer: Föderaler Konsens
+wrong_answers:
+  - Proof-of-Work
+  - Proof-of-Stake
+  - Delegiertes Proof-of-Stake
+explanation: |
+  Liquid Network arbeitet mit einem föderierten Konsensmodell, das sich grundlegend von dem Proof-of-Work-System von Bitcoin unterscheidet. In diesem Modell fungiert eine ausgewählte Gruppe von fünfzehn Funktionären als Blocksignierer, die Blöcke in einem deterministischen Round-Robin-Verfahren erzeugen. Proof-of-Work ist der Konsensmechanismus von Bitcoin, an dem mining beteiligt ist, während Proof-of-Stake und Delegated Proof-of-Stake Konsensmechanismen sind, die von anderen Blockchain-Netzwerken, aber nicht von Liquid verwendet werden.

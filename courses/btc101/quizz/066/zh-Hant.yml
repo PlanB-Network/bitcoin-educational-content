@@ -1,12 +1,8 @@
-question: 預測比特幣的創造將在哪一年停止？
-answer: 2140
+question: Bitcoin Wallet 中的私密金鑰是什麼？
+answer: 可讓您簽署交易的秘密金鑰。
 wrong_answers:
-  - 2050
-  - 2030
-  - 2200
-explanation: |
-  由於 Halving 機制，在數學上可
-  比特幣的創造將在 2140 年停止、
-  當比特幣的總數達到上限 21
-  萬。
+  - 用於 generate Bitcoin 位址的公開金鑰。
+  - 在有需要時可以摧毀 Wallet 的秘密字單。
+  - 加密 Bitcoin 交易的秘密金鑰。
+explanation: >-
 reviewed: true

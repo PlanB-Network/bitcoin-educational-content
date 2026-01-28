@@ -1,12 +1,11 @@
-question: Was passiert bei einem 51%-Angriff auf das Bitcoin-Netzwerk?
-answer: Ein Akteur besitzt mehr als die Hälfte der Hashrate und kann versuchen, die Blockchain zu modifizieren.
+question: Was ist das Hauptproblem des aktuellen Finanzsystems in Bezug auf die Umwelt?
+answer: Es fördert Überkonsum und Verschuldung.
 wrong_answers:
-  - Ein Akteur erlangt die Kontrolle über mehr als die Hälfte der im Umlauf befindlichen Bitcoins.
-  - Ein Akteur erlangt die Kontrolle über mehr als die Hälfte der Knoten im Bitcoin-Netzwerk.
-  - Ein Akteur erlangt die Kontrolle über mehr als die Hälfte der Mining-Pools im Bitcoin-Netzwerk.
+  - Es fördert die Nutzung fossiler Brennstoffe.
+  - Es investiert nicht in erneuerbare Energien.
+  - Es reguliert die Produktion von Waren nicht.
 explanation: |
-  Bei einem 51%-Angriff könnte ein Akteur mit mehr als der Hälfte der
-  Netzwerk-Hashrate potenziell die Blockchain manipulieren, indem er eine alternative Kette von Blöcken erstellt.
-  Ein solcher Angriff wäre jedoch extrem kostspielig und
-  unwahrscheinlich profitabel, was es zu einem unwahrscheinlichen Szenario macht.
+  Das aktuelle Finanzsystem wird dafür kritisiert, Überkonsum und Verschuldung zu fördern, was ernsthafte
+  Umweltprobleme verursacht. Dies ist auf den leichten Zugang zu Krediten, die Geldausgabe durch Banken und die Nutzung
+  des Systems der Mindestreserve zurückzuführen.
 reviewed: true

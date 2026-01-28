@@ -1,7 +1,7 @@
 question: Neden fonların düzenli olarak Hot Wallet'den Hardware Wallet'a aktarılması önerilir?
 answer: Bilgisayar korsanlığı riskini azaltmak için
 wrong_answers:
-  - Wallet likiditesini artırmak için
+  - Wallet (Cüzdan) likiditesini artırmak için
   - İşlem ücretlerini azaltmak için
   - UTXO gizliliğini optimize etmek için
 explanation: |

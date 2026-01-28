@@ -1,0 +1,8 @@
+question: Bagaimana UniFFI menangani penyebaran kesalahan dari fungsi Rust ke bahasa target seperti Kotlin dan Python?
+answer: Fungsi yang mengembalikan tipe Hasil ditandai dengan 'lemparan' dalam pengecualian asli UDL dan generate dalam bahasa target
+wrong_answers:
+  - Jenis kesalahan secara otomatis dikonversi menjadi pesan string dan dikembalikan sebagai nilai opsional dalam semua bahasa target
+  - Semua kesalahan Rust dibungkus dalam jenis kesalahan UniFFI generik yang harus dibuka secara manual oleh pengembang
+  - Penanganan kesalahan mengharuskan pengembang untuk mengimplementasikan kode penerjemahan kesalahan secara manual untuk setiap platform bahasa target
+explanation: |
+  UniFFI menyediakan penanganan kesalahan yang canggih yang mempertahankan model kesalahan berbasis Result dari Rust sambil menerjemahkannya dengan tepat untuk setiap bahasa target. Fungsi yang mengembalikan tipe Result di Rust ditandai dengan kata kunci 'throws' di UDL, dan penanganan pengecualian asli generate dalam bahasa target - metode Kotlin melempar pengecualian mengikuti konvensi Java/Kotlin, sementara Python menggunakan model pengecualian Python. Hal ini memastikan penanganan kesalahan terasa alami dan idiomatis di setiap bahasa sambil mempertahankan makna semantik dari jenis kesalahan Rust asli, tidak seperti pembungkus umum atau pendekatan terjemahan manual.

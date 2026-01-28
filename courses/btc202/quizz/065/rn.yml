@@ -1,0 +1,9 @@
+question: Ni intambwe iyihe ya mbere umuntu yotera iyo habaye ikibazo kuri Umbrel?
+answer: generate umuzigo wo gupima
+wrong_answers:
+  - Subiramwo Bitcoin core hanyuma wongere ukore IBD
+  - Kuraho ububiko
+  - Guhagarika 2FA
+explanation: |
+  Iyo habaye ingorane, dutangura dukora umugwi w’ibipimo mu gice co gutorera umuti ingorane kugira ngo dusuzume ikibazo no kubungabunga inyandiko.
+reviewed: true

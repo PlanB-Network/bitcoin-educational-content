@@ -6,4 +6,4 @@ wrong_answers:
   - Das Standardtransaktionsformat
 explanation: |
   Dies waren No-Op-Anweisungen, die das Skript nicht ungültig machten, wenn sie ausgeführt wurden. Sie ermöglichten die Hinzufügung von OP_CHECKLOCKTIMEVERIFY und OP_CHECKSEQUENCEVERIFY zum Protokoll in den Jahren 2015/2016.
-reviewed: false
+reviewed: true

@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van het gebruik van het `cargo check` commando tijdens ontwikkeling?
+answer: Het voert compilatiecontroles sneller uit dan een volledige build zonder uitvoerbare bestanden te genereren
+wrong_answers:
+  - Het herstelt automatisch compilatiefouten en codestijlproblemen in je project
+  - Alle projectafhankelijkheden worden gedownload en bijgewerkt naar de nieuwste versies
+  - Het voert je programma uit met debug-informatie en gedetailleerde foutrapportage
+explanation: |
+  Het `cargo check` commando is ontworpen voor snelle iteratie in de ontwikkeling door dezelfde compilatiecontroles uit te voeren als `cargo build`, maar de laatste stap van het genereren van uitvoerbare bestanden over te slaan. Dit maakt het aanzienlijk sneller dan een volledige build wanneer je alleen maar hoeft te controleren of je code correct compileert. De foute antwoorden beschrijven functionaliteit van andere tools: Clippy en andere linters kunnen fixes voorstellen maar ze niet automatisch toepassen, `cargo update` handelt updates van afhankelijkheden af en `cargo run` voert programma's met debugmogelijkheden uit.

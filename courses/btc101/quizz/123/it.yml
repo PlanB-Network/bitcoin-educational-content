@@ -1,11 +1,9 @@
-question: Qual è il numero del blocco della prima transazione Bitcoin?
-answer: Blocco 170.
+question: Perché il numero di conferme in una transazione Bitcoin è importante?
+answer: Più conferme ha una transazione, più diventa immutabile.
 wrong_answers:
-  - Blocco 1.
-  - Blocco 17.
-  - Blocco 1700.
-explanation: |
-  La prima transazione Bitcoin, che fu una transazione di
-  10 BTC tra Satoshi Nakamoto e Hal Finney, è registrata
-  nel blocco 170.
-reviewed: vero
+  - Più conferme ha una transazione, più diventa preziosa.
+  - Più conferme ha una transazione, più velocemente viene elaborata.
+  - Più conferme ha una transazione, meno è sicura.
+explanation: >-
+  Il numero di conferme in una transazione Bitcoin indica quanti blocchi sono stati minati sopra il blocco che contiene la transazione. Più conferme ha una transazione, più diventa immutabile.
+reviewed: true

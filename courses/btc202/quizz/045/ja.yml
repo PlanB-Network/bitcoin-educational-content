@@ -1,0 +1,9 @@
+question: UmbrelOSをインストールするには、どのような手順が必要ですか？
+answer: イメージでブータブルUSBキーを作成する
+wrong_answers:
+  - ビットコインコア・ソースコードをコンパイルする
+  - ブロックチェーン・フォーマット
+  - umbrel.comにアカウントを作成する
+explanation: |
+  インストールは、Balena Etcher経由でUmbrelOSのブータブルUSBキーを準備することから始まります。
+reviewed: true

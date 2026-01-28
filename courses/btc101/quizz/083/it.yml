@@ -1,11 +1,12 @@
-question: Qual è l'analogia utilizzata in questo corso per spiegare come si possono ricevere bitcoin senza permettere al mittente di rubare i fondi?
-answer: Una cassetta postale.
+question: Qual è l'uso consigliato per un wallet mobile?
+answer: Utilizzarlo per le spese quotidiane.
 wrong_answers:
-  - Un conto bancario.
-  - Una cassaforte.
-  - Una casa.
+  - Conservare risparmi a lungo termine.
+  - Conservare risparmi a medio termine.
+  - Conservare grandi quantità di bitcoin.
 explanation: |
-  L'analogia utilizzata per spiegare come si possono ricevere Bitcoin
-  senza permettere al mittente di rubare i fondi è una
-  cassetta postale. Le persone depositano denaro al suo interno, ma solo chi ne ha la chiave può aprirla.
-reviewed: vero
+  Un wallet mobile è consigliato per le spese quotidiane perché
+  con esso è facile effettuare transazioni. Non è
+  consigliato per conservare grandi quantità o per risparmi a lungo
+  termine, perché è potenzialmente vulnerabile a minacce online.
+reviewed: true

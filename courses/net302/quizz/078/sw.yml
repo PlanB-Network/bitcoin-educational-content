@@ -6,4 +6,4 @@ wrong_answers:
   - rev.arpa
 explanation: |
   Ukanda wa ip6.arpa umejitolea mahsusi kwa utatuzi wa kubadilisha wa anwani za IPv6, wakati in-addr.arpa inatumika kwa IPv4.
-reviewed: false
+reviewed: true

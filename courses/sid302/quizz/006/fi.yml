@@ -1,0 +1,8 @@
+question: Mitä salausmenetelmää Elements käyttää piilottaakseen transaktioiden summat ja salliakseen samalla verkon validoinnin?
+answer: Pedersen Sitoumukset
+wrong_answers:
+  - Merkle Tree Hashing
+  - Elliptisen käyrän allekirjoitukset
+  - SHA-256-salaus
+explanation: |
+  Pedersen-sitoumukset ovat Elements:ssä ja Confidential Transactions:ssa käytetty erityinen salaustekniikka, jolla transaktioiden määrät piilotetaan. Näillä sitoumuksilla korvataan näkyvät summat kryptografisilla sitoumuksilla, jotka validoijat voivat edelleen todentaa matemaattisesti paljastamatta todellisia arvoja. Merkle Tree Hashing-menetelmää käytetään transaktiotietojen järjestämiseen lohkoihin, Elliptic Curve Signatures -menetelmää käytetään transaktioiden auktorisointiin ja SHA-256 on hashing-algoritmi, mutta mikään näistä menetelmistä ei kätke transaktioiden määriä ja säilytä samalla validointimahdollisuuksia kuten Pedersen Commitments.

@@ -1,11 +1,9 @@
-question: Quando Bitcoin è stato presentato per la prima volta al mondo?
-answer: 31 ottobre 2008.
+question: Da quando è stato creato Bitcoin, per quale percentuale di tempo è stata funzionante la sua rete?
+answer: 99,988%.
 wrong_answers:
-  - 3 gennaio 2009.
-  - 22 novembre 2009.
-  - 12 dicembre 2010.
+  - 100%.
+  - 90,009%.
+  - 80,17%.
 explanation: |
-  Bitcoin è stato presentato per la prima volta al mondo il 31 ottobre
-  2008, quando Satoshi Nakamoto inviò una email alla mailing list dei cypherpunk
-  contenente il White Paper di Bitcoin.
+  L'accessibilità online di Bitcoin è del 99,988% dal 2009.
 reviewed: vero

@@ -1,0 +1,9 @@
+question: Onko seurauksena rakenteellinen inflaatio?
+answer: Rahan lisäys Supply.
+wrong_answers:
+  - Hinnankorotukset
+  - Finanssipolitiikka.
+  - Liberalismin vastaiset toimenpiteet.
+explanation: |
+  Rakenteellinen inflaatio on seurausta rahan määrän kasvusta Supply. Kun liikkeessä olevan rahan määrä kasvaa nopeammin kuin tavaroiden ja palvelujen tuotanto, tämä johtaa yleiseen hintojen nousuun.
+reviewed: false

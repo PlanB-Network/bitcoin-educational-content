@@ -1,11 +1,8 @@
-question: Bir DCA platformu seçerken göz önünde bulundurmanız gereken şeylerden biri nedir?
-answer: Ülkenizde bulunabilirlik.
+question: Bitcoin şirketleri, üniversiteleri, düzenleyicileri ve bireyleri ne yapmaya zorluyor?
+answer: Bunu hesaba katmak için.
 wrong_answers:
-  - Platformun logosunun rengi.
-  - Platformdaki kullanıcı sayısı.
-  - Platformun yaşı.
-explanation: |
-  Bu kurs metni, bir DCA seçerken
-  platformunda, doğru seçim daha çok platformun
-  ülkenizde bulunabilirlik.
+  - Görmezden gelmek için.
+  - Yasaklamak için.
+  - Suç saymak için.
+explanation: >-
 reviewed: true

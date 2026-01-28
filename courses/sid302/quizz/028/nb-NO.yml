@@ -1,0 +1,8 @@
+question: Hva er den kritiske operasjonelle sårbarheten som kommer frem i AMPs modell for medsigneringsautorisasjon for regulerte overføringer av eiendeler?
+answer: Likviditeten stopper helt opp hvis AMP-serveren blir utilgjengelig, siden hver overføring krever medsignatur fra serveren
+wrong_answers:
+  - Transaksjonsgebyrene øker eksponentielt når flere medunderskrivere forsøker å godkjenne overføringer samtidig
+  - Konfidensielle transaksjoner bryter med personvernet fordi medsignering eksponerer blinde faktorer for observatører i nettverket
+  - Eiendomsinnehaverne mister kontrollen over eiendelene når medsigneringsmekanismen overfører private nøkler til AMP-serveren
+explanation: |
+  AMPs autorisasjonsmodell krever at AMP-serveren signerer alle overføringer av aktiva, noe som skaper et enkelt feilpunkt. Hvis serveren går offline, kan ingen transaksjoner fullføres, noe som effektivt fryser all aktivalikviditet. De andre alternativene er feil: Gebyrene øker ikke eksponentielt med medsignering, personvernet for konfidensielle transaksjoner forblir intakt (bare utstederen får innsyn), og brukerne beholder sine private nøkler mens serveren bare gir autorisasjonssignaturer.

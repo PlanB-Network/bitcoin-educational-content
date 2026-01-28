@@ -1,5 +1,5 @@
 ---
-name: Bitcoin 公司
+name: The Bitcoin Company
 description: 如何使用 The Bitcoin Company 购买 BTC 中的商品和服务？
 ---
 ![cover](assets/cover.webp)
@@ -40,7 +40,7 @@ description: 如何使用 The Bitcoin Company 购买 BTC 中的商品和服务�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 信息再清楚不过了"随处花掉你的比特币"。
 
@@ -117,9 +117,9 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 我们选择 "使用闪电登录"。
 
@@ -154,7 +154,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 通过 Wallet Lightning 即可识别您的身份，当然也可以是 Phoenix 或其他钱包，因为市场上大多数钱包都支持此功能。
 
@@ -279,7 +279,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 
-最后，如果您想在手机上**本教程中介绍的 LNURL Auth 身份验证方法，则需要通过手机浏览器访问 Bitcoin 公司网站，然后在主屏幕上添加快捷方式。官方应用程序只允许通过电子邮件/密码进行身份验证。
+最后，如果您想在手机上**使用**本教程中介绍的 LNURL Auth 身份验证方法，则需要通过手机浏览器访问 Bitcoin 公司网站，然后在主屏幕上添加快捷方式。官方应用程序只允许通过电子邮件/密码进行身份验证。
 
 
 
@@ -291,4 +291,4 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

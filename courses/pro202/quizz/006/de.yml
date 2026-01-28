@@ -1,0 +1,8 @@
+question: Was ist das Identitätselement in der elliptischen Kurvengruppe, das für Punktadditionsoperationen verwendet wird?
+answer: Der Punkt im Unendlichen
+wrong_answers:
+  - Der Ursprungspunkt (0,0)
+  - Der Generatorpunkt G
+  - Der Kurvenparameter a
+explanation: |
+  Der Punkt im Unendlichen dient als Identitätselement in elliptischen Kurvengruppen, was bedeutet, dass die Addition eines beliebigen Punktes P zum Punkt im Unendlichen P unverändert zurückgibt. Dies ist analog zur Addition von Nullen in der regulären Arithmetik. Der Ursprung (0,0) liegt nicht notwendigerweise auf der Kurve, der Generatorpunkt G wird zur Erzeugung öffentlicher Schlüssel verwendet, und der Kurvenparameter a ist nur ein Koeffizient in der Kurvengleichung, kein Identitätselement.

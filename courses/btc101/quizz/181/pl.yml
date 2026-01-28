@@ -1,13 +1,8 @@
-question: W jaki sposób Bitcoin jeszcze bardziej zintegrowało się z tradycyjnym rynkiem?
-answer: Pojawienie się funduszy ETF Bitcoin.
+question: Czym jest BTCMap?
+answer: Platformą zawierającą listę wszystkich sprzedawców akceptujących bitcoina.
 wrong_answers:
-  - Zakaz Bitcoin.
-  - Zniknięcie wszystkich kryptowalut.
-  - Utworzenie Bitcoin.
-explanation: |
-  Bitcoin kontynuuje przetrwanie i rozwija się jeszcze bardziej poprzez
-  integrując się coraz bardziej z tradycyjnym
-  rynkiem. Pojawienie się funduszy ETF Bitcoin, jaśniejsze regulacje,
-  i lepsze pozyskiwanie narzędzi do przechowywania tylko zachęcają do tego
-  trend.
+  - Mapą wszystkich kopalni bitcoina na świecie.
+  - Mapą wszystkich giełd bitcoina na świecie.
+  - Mapą wszystkich użytkowników Bitcoina na świecie.
+explanation: >-
 reviewed: true

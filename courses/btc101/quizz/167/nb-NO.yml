@@ -1,11 +1,10 @@
-question: Hva er den viktigste kritikken mot det nåværende finanssystemet i forhold til miljøet?
-answer: Det oppmuntrer til overforbruk og gjeld
+question: Hva er en av faktorene som kan forårsake at prisen på Bitcoin svinger?
+answer: Markedsvariasjoner og bullish og bearish markedsfaser.
 wrong_answers:
-  - Det fremmer bruk av fossile brennstoffer
-  - Det investerer ikke i fornybar energi
-  - Det regulerer ikke produksjonen av varer
+  - Antallet personer som bruker internett.
+  - Været.
+  - Prisen på gull.
 explanation: >-
-  Det nåværende finanssystemet kritiseres for å oppmuntre til overforbruk
-  og gjeld, noe som utgjør alvorlige miljøproblemer. Dette skyldes lett tilgang
-  på kreditt, pengeutstedelse av banker, og bruk av brøkreservebankvirksomhet.
+  Prisen på Bitcoin er ofte preget av betydelig volatilitet,
+  som kan påvirkes av markedsvariasjoner og bullish og bearish markedsfaser.
 reviewed: false

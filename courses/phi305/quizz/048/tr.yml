@@ -1,0 +1,9 @@
+question: Spinoza için finalizm ne anlama gelmektedir?
+answer: Olayların etkilerini nedenleriyle karıştırmak.
+wrong_answers:
+  - Kaderciliğe inanmak.
+  - Her şeyin bittiğini düşünmek.
+  - Filozof.
+explanation: |
+  Spinoza için finalizm, şeylerin etkilerini nedenleriyle karıştırmak anlamına gelir. Bu, olguları gerçek nedenlerinden ziyade varsayılan sonuçlarıyla açıklamak anlamına gelir ki bu da akıl yürütmede bir hatadır.
+reviewed: false

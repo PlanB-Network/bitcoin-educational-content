@@ -1,0 +1,9 @@
+question: Bitcoin Wallet의 주요 역할은 무엇인가요?
+answer: 개인 키 관리 및 보안
+wrong_answers:
+  - 사용자의 비트코인 저장
+  - 거래의 기밀성을 자동으로 보장합니다
+  - 각 사용자당 generate비트코인
+explanation: |
+  Bitcoin Wallet는 비트코인을 직접 저장하지는 않지만 비트코인을 나타내는 UTXO의 잠금을 해제하는 데 필요한 개인 키를 관리합니다.
+reviewed: false

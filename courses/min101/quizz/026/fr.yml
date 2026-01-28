@@ -1,0 +1,9 @@
+question: Quel paramètre de Bitcoin Core fixe le seuil de relais minimal par défaut ?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Les nœuds appliquent des politiques locales et Bitcoin Core utilise le paramètre minRelayTxFee pour le seuil minimal de relais.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Cosa determina l'importo della commissione di transazione in una transazione Bitcoin durante il processo di costruzione?
+answer: La differenza tra il valore totale di tutti gli input e il valore totale di tutti gli output
+wrong_answers:
+  - Una percentuale fissa del valore totale della transazione calcolata dal protocollo di rete
+  - La dimensione della transazione in byte moltiplicata per un tasso standard stabilito dai minatori
+  - Il numero di firme richieste per tutti gli input, più una commissione di rete di base
+explanation: |
+  Le tariffe delle transazioni Bitcoin sono determinate dalla differenza tra il totale degli ingressi e il totale delle uscite. Quando si costruisce una transazione, si selezionano gli UTXO come input e si creano output per i destinatari e il resto. L'importo residuo diventa la commissione che incentiva i minatori a includere la transazione. La commissione non è calcolata in base a percentuali, tassi fissi o conteggi di firme: è semplicemente ciò che rimane non allocato nel saldo di valore della transazione.

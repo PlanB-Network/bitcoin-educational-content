@@ -1,0 +1,9 @@
+question: เหตุการณ์ใดที่บังคับให้ Google ปรับทิศทาง Android ไปสู่ Interface ที่ไวต่อการสัมผัส?
+answer: การเปิดตัว iPhone รุ่นแรก
+wrong_answers:
+  - การเข้าซื้อกิจการของ Nokia โดย Microsoft
+  - การสร้าง CyanogenMod
+  - การเปิดตัวของ Play Store
+explanation: |
+  การมาถึงของ iPhone ในปี 2007 บีบให้ Google ต้องคิดใหม่เกี่ยวกับ Android เพื่อให้สามารถใช้งานกับหน้าจอสัมผัสได้ โดยละทิ้งแนวคิดของอุปกรณ์ที่มีแป้นพิมพ์แบบกายภาพ
+reviewed: false

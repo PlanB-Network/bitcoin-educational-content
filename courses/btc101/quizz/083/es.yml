@@ -1,12 +1,13 @@
-question: ¿Cuál es la analogía utilizada en este curso para explicar cómo puedes recibir bitcoins sin permitir que el remitente robe tus fondos?
-answer: Un buzón de correo.
+question: ¿Cuál es el uso recomendado de una billetera móvil?
+answer: Almacenar gastos diarios.
 wrong_answers:
-  - Una cuenta bancaria.
-  - Una caja fuerte.
-  - Una casa.
+  - Almacenar ahorros a largo plazo.
+  - Almacenar ahorros a medio plazo.
+  - Almacenar grandes cantidades.
 explanation: |
-  La analogía utilizada para explicar cómo puedes recibir Bitcoins
-  sin permitir que el remitente robe tus fondos es un
-  buzón de correo. La gente deposita dinero en él, pero tú eres el único
-  que puede abrirlo.
+  Se recomienda una billetera móvil para gastos diarios porque
+  es fácil realizar transacciones con ella. Sin embargo, no
+  se recomienda para almacenar grandes cantidades o para
+  ahorros a largo plazo porque es potencialmente vulnerable a
+  amenazas en línea.
 reviewed: true

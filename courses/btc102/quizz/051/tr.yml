@@ -1,9 +1,9 @@
-question: Hangi yöntem tasarruflarınızı korurken harcanan bitcoinleri dengelemenizi sağlar?
-answer: Harcayın ve Değiştirin
+question: Hangi yöntem harcadığınız bitcoinlere rağmen tasarruflarınızı korumanızı sağlar?
+answer: Harca ve Yerine Koy
 wrong_answers:
   - HODLing ve Replace
   - Harcama ve HODLing
-  - Ticaret ve Harcama
+  - Alış Veriş ve Harcama
 explanation: |
-  Harca ve Değiştir yöntemi, bitcoinleri harcamayı ve ardından elinizdekileri korumak için aynı miktarda yeniden satın almayı içerir.
+  Harca ve Yerine Koy yöntemi, bitcoinleri harcamayı ve ardından elinizdekileri korumak için aynı miktarda yeniden satın almayı içerir.
 reviewed: false

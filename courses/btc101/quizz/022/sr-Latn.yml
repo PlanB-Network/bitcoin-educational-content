@@ -1,13 +1,9 @@
-question: Zašto je zlato postalo standardno sredstvo razmene?
-answer: Zbog svoje retkosti, trajnosti i deljivosti.
+question: Zašto zlato nije prenosiv materijal?
+answer: Zato što je gust i težak, što ga čini nezgodnim za nošenje u velikim količinama.
 wrong_answers:
-  - Zbog svoje obilnosti, trajnosti i nedeljivosti.
-  - Zbog svoje retkosti, kvarljivosti i deljivosti.
-  - Zbog svoje obilnosti, kvarljivosti i nedeljivosti.
+  - Zato što je previše vredno da bi se pomeralo.
+  - Zato što se ne može lako oblikovati u manje forme.
+  - Zato što je tečno na sobnoj temperaturi.
 explanation: |
-  Zlato je postalo standardno sredstvo razmene zbog svoje
-  retkosti, izdržljivosti i deljivosti: njegova retkost je sprečila
-  devalvaciju uzrokovanu proizvodnjom; njegova izdržljivost
-  je osigurala da se neće vremenom istrošiti, a njegova deljivost
-  je omogućila upotrebu u transakcijama različitih veličina.
+  Zlato je gusto i teško, što znači da nošenje velikih količina može biti fizički izazovno. Ova težina ga čini manje pogodnim za transport u poređenju sa lakšim materijalima.
 reviewed: true

@@ -52,7 +52,7 @@ Totalmente **gratuito y de código abierto**, PicoCrypt está disponible para **
 
 
 
-El software de cifrado Picocrypt** se presenta como **una alternativa** a otras conocidas soluciones como **VeraCrypt** y **Cryptomator** (*diseñadas para cifrar datos en entornos Cloud*), o **AxCrypt**. Por cierto, en el GitHub oficial de Picocrypt, puedes encontrar una comparativa con algunos competidores:
+El software de cifrado **Picocrypt** se presenta como **una alternativa** a otras conocidas soluciones como **VeraCrypt** y **Cryptomator** (*diseñadas para cifrar datos en entornos Cloud*), o **AxCrypt**. Por cierto, en el GitHub oficial de Picocrypt, puedes encontrar una comparativa con algunos competidores:
 
 
 
@@ -84,7 +84,7 @@ Picocrypt es **muy ligero**, sólo pesa **3 MB**, y no necesita ser instalado: �
 
 
 
-- Algoritmo de cifrado XChaCha20**
+- **Algoritmo de cifrado XChaCha20**
 - Función de anulación de llave **Argon2**
 
 
@@ -159,11 +159,11 @@ Antes de hablar del descifrado de datos, le ofrecemos información sobre algunas
 
 
 
-- Modo paranoico**: utiliza el máximo nivel de seguridad ofrecido por Picocrypt. La herramienta utilizará varios algoritmos de cifrado en cascada (XChaCha20 y Serpent) y HMAC-SHA3 en lugar de BLAKE2b para la autenticación de datos.
-- Reed-Solomon**: implementa códigos de corrección de errores *Reed-Solomon* para facilitar la corrección de errores en datos corruptos. Esto le permite soportar un nivel de corrupción de alrededor del 3% de su archivo.
-- Dividir en trozos** o **dividir en varias partes**: si estás cifrando un archivo grande, puedes pedir a Picocrypt que lo divida en varias partes. Esto puede facilitar la transferencia del archivo.
-- Comprimir archivos** o **Comprimir archivos**: comprime archivos para reducir el tamaño de los archivos encriptados.
-- Archivos eliminados** o **Fichiers supprimés**: elimina los archivos de origen para conservar sólo la versión cifrada
+- **Modo paranoico**: utiliza el máximo nivel de seguridad ofrecido por Picocrypt. La herramienta utilizará varios algoritmos de cifrado en cascada (XChaCha20 y Serpent) y HMAC-SHA3 en lugar de BLAKE2b para la autenticación de datos.
+- **Reed-Solomon**: implementa códigos de corrección de errores *Reed-Solomon* para facilitar la corrección de errores en datos corruptos. Esto le permite soportar un nivel de corrupción de alrededor del 3% de su archivo.
+- **Dividir en trozos** o **dividir en varias partes**: si estás cifrando un archivo grande, puedes pedir a Picocrypt que lo divida en varias partes. Esto puede facilitar la transferencia del archivo.
+- **Comprimir archivos** o **Comprimir archivos**: comprime archivos para reducir el tamaño de los archivos encriptados.
+- **Archivos eliminados** o **Fichiers supprimés**: elimina los archivos de origen para conservar sólo la versión cifrada
 
 
 
@@ -199,4 +199,4 @@ Asegúrate de utilizar contraseñas seguras para proteger los datos, y si utiliz
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

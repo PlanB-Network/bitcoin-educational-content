@@ -1,0 +1,9 @@
+question: Mitä on etologia?
+answer: Olemisen tapojen tiede.
+wrong_answers:
+  - Luonnontiede.
+  - Mekaaninen tiede.
+  - Astrologian johdannainen.
+explanation: |
+  Etologia on tiede olemisesta, käyttäytymisestä. Spinozalle ja Deleuzelle se on sen tutkimista, mitä ruumis voi tehdä, sen affekteja ja kykyä toimintaan ja intohimoon.
+reviewed: false

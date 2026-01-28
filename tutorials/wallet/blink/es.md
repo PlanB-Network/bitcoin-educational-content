@@ -1,5 +1,5 @@
 ---
-name: Parpadeo
+name: Blink
 description: Tutorial completo de Blink Wallet - Envíe, reciba y utilice Bitcoin con facilidad
 ---
 

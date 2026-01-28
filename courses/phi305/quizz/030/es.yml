@@ -1,0 +1,9 @@
+question: ¿Quién dice que "el hombre no es un imperio dentro de otro imperio"?
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Fue Spinoza quien afirmó que "el hombre no es un imperio dentro de otro imperio". Esta frase expresa la idea de que el hombre no está separado de la naturaleza, sino que es parte integrante de ella, sujeta a sus mismas leyes.
+reviewed: false

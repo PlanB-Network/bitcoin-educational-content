@@ -1,0 +1,8 @@
+question: Wat bepaalt het transactiebedrag in een Bitcoin transactie tijdens het bouwproces?
+answer: Het verschil tussen de totale waarde van alle inputs en de totale waarde van alle outputs
+wrong_answers:
+  - Een vast percentage van de totale transactiewaarde berekend door het netwerkprotocol
+  - De grootte van de transactie in bytes vermenigvuldigd met een standaardsnelheid ingesteld door miners
+  - Het aantal vereiste handtekeningen voor alle ingangen plus een basisnetwerkvergoeding
+explanation: |
+  Bitcoin transactiekosten worden bepaald door het verschil tussen de totale invoer en de totale uitvoer. Bij het samenstellen van een transactie selecteer je UTXO's als inputs en creëer je outputs voor ontvangers en wisselgeld. Het overgebleven bedrag wordt de vergoeding die miners stimuleert om jouw transactie op te nemen. De vergoeding wordt niet berekend aan de hand van percentages, vaste tarieven of het aantal handtekeningen - het is simpelweg wat er overblijft in de waardebalans van de transactie.

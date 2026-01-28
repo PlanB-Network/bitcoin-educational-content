@@ -1,10 +1,11 @@
-question: ¿Cuál es el número aproximado de nodos distribuidos por todo el mundo a partir de septiembre de 2023?
-answer: 45,000 nodos.
+question: ¿Por qué es importante que un nodo de Bitcoin sea asequible y accesible para todos los usuarios posibles?
+answer: Porque facilita la descentralización de la red.
 wrong_answers:
-  - 10,000 nodos.
-  - 100,000 nodos.
-  - 500,000 nodos.
-explanation: >-
-  A partir de septiembre de 2023, hay aproximadamente 45,000 nodos distribuidos
-  por todo el mundo.
+  - Porque aumenta la capacidad de transacción de la red.
+  - Porque disminuye la capacidad de transacción de la red.
+  - Porque aumenta la recompensa por bloque para los mineros.
+explanation: |
+  El costo asequible y la accesibilidad de un nodo de Bitcoin son
+  importantes porque facilitan la descentralización de
+  la red.
 reviewed: true

@@ -1,12 +1,12 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Trezor ile çevrimiçi güvenliğinizi güçlendirin
 ---
 ![cover](assets/cover.webp)
 
 
 
-Trezor cihazları, orijinal olarak bir Bitcoin Wallet'i güvence altına almak için tasarlanmış donanım cüzdanlarıdır, ancak aynı zamanda web üzerinde güçlü kimlik doğrulama için gelişmiş seçeneklere sahiptirler. U2F** ve **FIDO2** protokolleri ile uyumlulukları sayesinde, yalnızca şifrelere güvenmeden çevrimiçi hesaplarınıza erişimi güvence altına almanızı sağlarlar.
+Trezor cihazları, orijinal olarak bir Bitcoin Wallet'i güvence altına almak için tasarlanmış donanım cüzdanlarıdır, ancak aynı zamanda web üzerinde güçlü kimlik doğrulama için gelişmiş seçeneklere sahiptirler. **U2F** ve **FIDO2** protokolleri ile uyumlulukları sayesinde, yalnızca şifrelere güvenmeden çevrimiçi hesaplarınıza erişimi güvence altına almanızı sağlarlar.
 
 
 
@@ -22,7 +22,7 @@ Bu yöntem asimetrik kriptografiye dayanır: gizli veri iletilmez, bu da kimlik 
 
 
 
-"Parolasız*" işlevselliğe ek olarak FIDO2, U2F'ye benzer bir şekilde iki faktörlü kimlik doğrulamayı da mümkün kılar.
+"Parolasız" işlevselliğe ek olarak FIDO2, U2F'ye benzer bir şekilde iki faktörlü kimlik doğrulamayı da mümkün kılar.
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -353,4 +353,4 @@ Ayrıca U2F ve FIDO2 kimlik doğrulaması için başka bir çözümü incelediğ
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

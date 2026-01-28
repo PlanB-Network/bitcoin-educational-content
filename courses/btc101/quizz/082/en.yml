@@ -1,11 +1,13 @@
-question: What is the technology that is used to securely spend funds using a Bitcoin Wallet?
-answer: Elliptic curve cryptography.
+question: What is the risk of overcomplicating the security and accessibility of your bitcoins?
+answer: You can harm yourself if you mishandle the backups wallets.
 wrong_answers:
-  - Symmetric cryptography.
-  - Quantum cryptography.
-  - RSA cryptography.
+  - You can harm yourself if you mishandle the physical wallets.
+  - You can harm yourself if you mishandle the digital wallets.
+  - You can harm yourself if you mishandle the multisig wallets.
 explanation: |
-  Spending Bitcoins requires the owner to use Elliptic Curve
-  Digital Signature Algorithm (ECDSA) to forge a signature
-  for the propagation of a Bitcoin transaction.
+  Overcomplicating the security and accessibility of your
+  bitcoins can harm you if, for example, you mishandle the
+  backups of your wallets. This is because simple backup
+  procedures are crucial for regaining access to your funds
+  in case of loss of your phone or computer.
 reviewed: true

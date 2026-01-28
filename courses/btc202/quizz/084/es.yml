@@ -1,0 +1,9 @@
+question: ¿Cuál es el número predeterminado de conexiones salientes que mantiene un nodo Bitcoin core?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core mantiene 10 conexiones salientes por defecto (8 full-relay y 2 block-relay-only).
+reviewed: true

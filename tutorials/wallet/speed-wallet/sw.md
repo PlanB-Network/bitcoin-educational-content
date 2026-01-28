@@ -1,5 +1,5 @@
 ---
-name: Kasi ya Wallet
+name: Speed Wallet
 description: Lipa na Exchange katika bitcoins na USDT papo hapo
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ Katika somo hili, tutakupitisha katika kila mojawapo ya vipengele hivi ili kufan
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Kuanza na Speed ​​Wallet
 
@@ -63,7 +63,7 @@ Speed ​​Wallet inapatikana kama programu ya simu kwenye mifumo ya Android (G
 
 
 
-Unaweza kupata viungo vya kupakua mifumo kwenye tovuti rasmi ya [Speed ​​Wallet] (https://speed.app).
+Unaweza kupata viungo vya kupakua mifumo kwenye tovuti rasmi ya [Speed ​​Wallet](https://speed.app).
 
 
 
@@ -79,7 +79,7 @@ Kasi ya Wallet inahitaji uundaji wa akaunti ya mtumiaji. Unaweza kuunda moja kut
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Baada ya kufungua akaunti yako, tunapendekeza uweke mfumo wa uthibitishaji wa ai
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Ili kufanya hivyo, nenda kwenye mipangilio ya programu, kisha uamsha uthibitishaji wa mbili na uthibitishaji wa biometriska.
 
@@ -143,7 +143,7 @@ Kwenye ukurasa wa nyumbani wa **Wallet**, utapata :
 
 
 
-- Kupokea malipo kwa Kasi ya Wallet :**
+- Kupokea malipo kwa Kasi ya Wallet:
 
 
 
@@ -161,7 +161,7 @@ Unaweza pia kutumia Lightning Address yako unapotaka kumpa mtumaji wako wepesi w
 
 
 
-- Tuma bitcoins kwa Kasi ya Wallet** :
+- **Tuma bitcoins kwa Kasi ya Wallet** :
 
 
 
@@ -191,7 +191,7 @@ Chaguo za **Nunua** na **Badilisha** hukuwezesha bitcoins za Exchange kwa sarafu
 
 
 
-- Nunua Bitcoin ukitumia kadi yako ya mkopo**: Kasi ya Wallet hurahisisha kupata Bitcoin kutoka kwa sarafu za malipo unazotumia kila siku. Inajumuisha kijumlishi cha malipo ambacho hukuruhusu kulipa bitcoins kwa kadi yako ya mkopo.
+- **Nunua Bitcoin ukitumia kadi yako ya mkopo**: Kasi ya Wallet hurahisisha kupata Bitcoin kutoka kwa sarafu za malipo unazotumia kila siku. Inajumuisha kijumlishi cha malipo ambacho hukuruhusu kulipa bitcoins kwa kadi yako ya mkopo.
 
 
 
@@ -201,13 +201,13 @@ Chaguo za **Nunua** na **Badilisha** hukuwezesha bitcoins za Exchange kwa sarafu
 
 
 
-- Nunua Bitcoin kutoka kwa fedha zingine za siri**: Unaweza Exchange USDT yako, USDC kwa bitcoins katika Wallet yako na kinyume chake. Kupitia chaguo hili, Speed ​​Wallet hurahisisha mchakato wa kununua na kuuza Bitcoin bila kurejelea majukwaa ya nje ya Exchange. Kwa hivyo unaweza kufanya biashara kwa kiasi kidogo cha satoshi 20,000, karibu $20 kwa kiwango cha sasa, bila kuacha Kasi yako ya Wallet.
+- Nunua Bitcoin kutoka kwa fedha zingine za siri: Unaweza Exchange USDT yako, USDC kwa bitcoins katika Wallet yako na kinyume chake. Kupitia chaguo hili, Speed ​​Wallet hurahisisha mchakato wa kununua na kuuza Bitcoin bila kurejelea majukwaa ya nje ya Exchange. Kwa hivyo unaweza kufanya biashara kwa kiasi kidogo cha satoshi 20,000, karibu $20 kwa kiwango cha sasa, bila kuacha Kasi yako ya Wallet.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Tazama somo letu la jinsi ya kuanza kutumia Bitrefill hapa chini.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Pata zawadi
 
@@ -327,7 +327,7 @@ Katika chaguo la **Mipangilio** kwenye ukurasa wa **Wallet**, sehemu ya **Progra
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Kasi ya Wallet si ya Simu ya Mkononi pekee!
 
@@ -375,25 +375,25 @@ Kwa kulenga malipo, utapata chaguzi zifuatazo:
 
 
 
-- Malipo ya mtandaoni**: Kwa chaguo hili, unaweza kukubali Bitcoin kama njia ya malipo ya bidhaa zako za kidijitali, kupitia viungo vya malipo, ankara na usajili.
+- **Malipo ya mtandaoni**: Kwa chaguo hili, unaweza kukubali Bitcoin kama njia ya malipo ya bidhaa zako za kidijitali, kupitia viungo vya malipo, ankara na usajili.
 
 
 
 
 
-- Malipo kwenye tovuti**: Kukusanya malipo kwenye duka lako.
+- **Malipo kwenye tovuti**: Kukusanya malipo kwenye duka lako.
 
 
 
 
 
-- Malipo ya papo hapo**: Chaguo linalokuruhusu kudhibiti urejeshaji, uondoaji, gharama na hati za malipo ya mfanyakazi moja kwa moja kutoka kwa Speed ​​Business Interface.
+- **Malipo ya papo hapo**: Chaguo linalokuruhusu kudhibiti urejeshaji, uondoaji, gharama na hati za malipo ya mfanyakazi moja kwa moja kutoka kwa Speed ​​Business Interface.
 
 
 
 
 
-- Malipo ya mfumo**: Unganisha akaunti yako ya Kasi ya Biashara kwa zana za nje unazotumia kufanya uhamisho na malipo kwenye mifumo hii.
+- **Malipo ya mfumo**: Unganisha akaunti yako ya Kasi ya Biashara kwa zana za nje unazotumia kufanya uhamisho na malipo kwenye mifumo hii.
 
 
 
@@ -401,4 +401,4 @@ Umefika mwisho wa mafunzo yetu ya Speed ​​​​Wallet. Iwapo ulipata mafunz
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

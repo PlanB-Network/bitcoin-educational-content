@@ -1,9 +1,9 @@
-question: Ni iyihe ntumbero nyamukuru yo guteranya?
-answer: Buhoro buhoro kwirundanira satoshis .
+question: Ni iyihe ntumbero nyamukuru y'uwurundanya?
+answer: b arundanya buhoro buhoro ama satoshis .
 wrong_answers:
   - Ivyiyumviro vy'igihe gito
   - Gugura amasatoshi menshi cane icarimwe .
-  - Gukoresha Bitcoin ku kwishura buri musi
+  - Gukoresha Bitcoin ku kuriha burimunsi
 explanation: |
-  Uwuteranya ibintu ashiramwo amahera makeyi mu bihe bitandukanye kugira ngo abone igiciro c’ugugura uko igihe kigenda kirarenga.
+  ukurundanya ibintu ashiramwo amahera makeyi mu bihe bitandukanye kugira ngo abone igiciro c’ugugura uko igihe kigenda kirarenga.
 reviewed: false

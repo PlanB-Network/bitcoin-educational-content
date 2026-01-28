@@ -1,11 +1,12 @@
-question: À quoi ressemble la courbe d'adoption du Bitcoin ?
-answer: Une courbe en S.
+question: Quel est le statut du Bitcoin au Salvador ?
+answer: Monnaie légale
 wrong_answers:
-  - Une courbe en U.
-  - Une courbe en V.
-  - Une courbe en W.
-explanation: >-
-  L'adoption du Bitcoin, comme toute nouvelle technologie, suit une courbe en S.
-  C'est un schéma courant pour l'adoption de nouvelles technologies, où l'adoption commence
-  lentement, puis s'accélère avant de ralentir à mesure que la saturation est atteinte.
+  - Criminalisé
+  - Inconnu
+  - Non réglementé
+explanation: |
+  Certains pays ont interdit et criminalisé l'utilisation du Bitcoin, ajoutant à la
+  complexité de son adoption en fonction des cultures, des époques, et
+  des nations. Cependant, le Salvador a été assez courageux pour l'adopter
+  comme monnaie légale.
 reviewed: true

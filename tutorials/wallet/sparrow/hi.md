@@ -1,5 +1,5 @@
 ---
-name: स्पैरो Wallet
+name: Sparrow Wallet
 description: स्पैरो Wallet को स्थापित करना, कॉन्फ़िगर करना और उपयोग करना
 ---
 ![cover](assets/cover.webp)
@@ -38,7 +38,7 @@ description: स्पैरो Wallet को स्थापित करना
 सॉफ़्टवेयर को इंस्टॉल करने से पहले उसकी अखंडता और प्रामाणिकता की जांच करना महत्वपूर्ण है। यदि आप नहीं जानते कि यह कैसे करना है, तो आपको यहाँ एक पूरा ट्यूटोरियल मिलेगा:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 एक बार स्पैरो स्थापित हो जाने के बाद, आप प्रारंभिक व्याख्यात्मक स्क्रीन को छोड़ सकते हैं और सीधे कनेक्शन प्रबंधन स्क्रीन पर जा सकते हैं।
 
@@ -107,9 +107,9 @@ Bitcoin नोड से कनेक्ट करने का दूसरा 
 Bitcoin कोर नोड को कॉन्फ़िगर करने के लिए, आप अपने ऑपरेटिंग सिस्टम के आधार पर निम्नलिखित ट्यूटोरियल में से किसी एक का परामर्श ले सकते हैं:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 स्पैरो पर, "*Bitcoin कोर*" टैब पर जाएं।
 
@@ -143,10 +143,11 @@ server=1
 फिर स्पैरो Wallet पर वापस जाएं और अपनी कुकी फ़ाइल का पथ दर्ज करें, जो आमतौर पर आपके ऑपरेटिंग सिस्टम के आधार पर `Bitcoin.conf` के समान फ़ोल्डर में स्थित होता है:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -177,10 +178,11 @@ server=1
 फ़ाइल को संपादित करने के बाद, सुनिश्चित करें कि आप इसे अपने ऑपरेटिंग सिस्टम के लिए उपयुक्त फ़ोल्डर में सेव करें:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 यह ऑपरेशन Bitcoin-QT Interface ग्राफिकल Interface के माध्यम से भी किया जा सकता है। "*सेटिंग्स*" मेनू पर जाएँ, फिर "*विकल्प...*", और संबंधित बॉक्स को चेक करके "*RPC सर्वर सक्षम करें*" विकल्प को सक्रिय करें। यदि `Bitcoin.conf` फ़ाइल मौजूद नहीं है, तो आप इसे "*कॉन्फ़िगरेशन फ़ाइल खोलें*" पर क्लिक करके सीधे इस Interface से बना सकते हैं।
 
@@ -314,7 +316,7 @@ BIP39 मानक चुनें, क्योंकि यह लगभग �
 अपने Mnemonic वाक्यांश को सहेजने और प्रबंधित करने के उचित तरीके के बारे में अधिक जानकारी के लिए, मैं इस अन्य ट्यूटोरियल का अनुसरण करने की अत्यधिक अनुशंसा करता हूं, खासकर यदि आप शुरुआती हैं:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -325,7 +327,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 आप "*passphrase का उपयोग करें*" बॉक्स पर क्लिक करके passphrase BIP39 जोड़ना भी चुन सकते हैं। चेतावनी: passphrase का उपयोग करना बहुत उपयोगी हो सकता है, लेकिन अगर आपको यह समझ में नहीं आता कि यह कैसे काम करता है, तो यह बहुत जोखिम भरा हो सकता है। इसलिए मैं आपको इस विषय पर यह संक्षिप्त सैद्धांतिक लेख पढ़ने की दृढ़ता से सलाह देता हूँ:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 एक बार जब आप अपने Mnemonic और किसी भी passphrase को भौतिक माध्यम में सहेज लें, तो "*बैकअप की पुष्टि करें*" पर क्लिक करें।
 
@@ -378,7 +380,7 @@ Wallet निर्माण को अंतिम रूप देने क�
 स्पैरो इन सभी संचार विधियों का समर्थन करता है और बाजार में अधिकांश हार्डवेयर वॉलेट्स के साथ संगत है।
 
 
-इस ट्यूटोरियल के लिए, मैं केबल के साथ Ledger नैनो एस का उपयोग करूँगा, लेकिन एयर-गैप मोड में प्रक्रिया समान है। आपको Plan ₿ Network पर इसके समर्पित ट्यूटोरियल में अपने Hardware Wallet के लिए विशिष्ट विवरण मिलेंगे।
+इस ट्यूटोरियल के लिए, मैं केबल के साथ Ledger नैनो एस का उपयोग करूँगा, लेकिन एयर-गैप मोड में प्रक्रिया समान है। आपको Plan ₿ Academy पर इसके समर्पित ट्यूटोरियल में अपने Hardware Wallet के लिए विशिष्ट विवरण मिलेंगे।
 
 
 शुरू करने से पहले, सुनिश्चित करें कि Wallet आपके Hardware Wallet पर पहले से ही कॉन्फ़िगर है। यदि आप वायर्ड कनेक्शन का उपयोग कर रहे हैं, तो इसे केबल के माध्यम से अपने कंप्यूटर से कनेक्ट करें।
@@ -471,7 +473,7 @@ Wallet निर्माण को अंतिम रूप देने क�
 ![Image](assets/fr/44.webp)
 
 
-Hardware Wallet एयर-गैप उपयोगकर्ताओं के लिए, Address सत्यापन डिवाइस मॉडल के अनुसार भिन्न होता है। सटीक निर्देशों के लिए समर्पित Plan ₿ Network ट्यूटोरियल देखें।
+Hardware Wallet एयर-गैप उपयोगकर्ताओं के लिए, Address सत्यापन डिवाइस मॉडल के अनुसार भिन्न होता है। सटीक निर्देशों के लिए समर्पित Plan ₿ Academy ट्यूटोरियल देखें।
 
 
 एक बार जब भुगतानकर्ता द्वारा लेनदेन प्रसारित कर दिया जाता है, तो आप इसे "*लेनदेन*" टैब में दिखाई देंगे। आप अधिक जानकारी के लिए इस पर क्लिक कर सकते हैं, जैसे कि txid।
@@ -543,7 +545,7 @@ Interface के निचले भाग में, आप "*दक्षत�
 ![Image](assets/fr/55.webp)
 
 
-यह आपको आपके लेन-देन के Elements का विवरण देने वाले पृष्ठ पर ले जाता है। जाँच करें कि सभी जानकारी सही है, फिर "हस्ताक्षर के लिए लेन-देन को अंतिम रूप दें*" पर क्लिक करें।
+यह आपको आपके लेन-देन के Elements का विवरण देने वाले पृष्ठ पर ले जाता है। जाँच करें कि सभी जानकारी सही है, फिर **"हस्ताक्षर के लिए लेन-देन को अंतिम रूप दें"** पर क्लिक करें।
 
 
 ![Image](assets/fr/56.webp)
@@ -552,7 +554,7 @@ Interface के निचले भाग में, आप "*दक्षत�
 डिफ़ॉल्ट सिगैश को बनाए रखना महत्वपूर्ण है। यह समझने के लिए कि ऐसा क्यों है, इस प्रशिक्षण पाठ्यक्रम पर एक नज़र डालें, जिसमें मैं सिगैश के बारे में आपको जो कुछ भी जानना चाहिए, वह सब समझाता हूँ:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 अगली स्क्रीन पर, आपके द्वारा उपयोग किए जा रहे Wallet के प्रकार के अनुसार विकल्प भिन्न होते हैं:
 
@@ -668,4 +670,4 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 मैं इस अन्य ट्यूटोरियल की भी अनुशंसा करता हूं जिसमें मैं समझाता हूं कि Hardware Wallet COLDCARD Q को Sparrow Wallet के साथ कैसे कॉन्फ़िगर किया जाए:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

@@ -1,0 +1,9 @@
+question: RGB 프로토콜에서 Assignment이란 무엇인가요?
+answer: Contract 상태의 프로퍼티를 수정, 업데이트 또는 생성하는 출력입니다
+wrong_answers:
+  - Bitcoin 트랜잭션에 저장된 고유한 암호화 Commitment
+  - 최종 유효성 검사 전에 부분적으로 서명된 Bitcoin 트랜잭션
+  - Global State의 공개 업데이트
+explanation: |
+  Assignment는 Seal Definition과 Owned State을 결합하여 주에 할당된 부분을 나타냅니다.
+reviewed: false

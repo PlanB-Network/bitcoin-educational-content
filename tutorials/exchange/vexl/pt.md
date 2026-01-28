@@ -19,7 +19,7 @@ A Vexl é uma rede social peer-to-peer que liga compradores e vendedores de Bitc
 
 
 
-Começar a utilizar o Vexl é bastante simples: visite o [sítio Web oficial] (https://vexl.it) e, em seguida, transfira a aplicação móvel para o seu telemóvel iOS ou Android.
+Começar a utilizar o Vexl é bastante simples: visite o [sítio Web oficial](https://vexl.it) e, em seguida, transfira a aplicação móvel para o seu telemóvel iOS ou Android.
 
 
 
@@ -188,4 +188,4 @@ Agora pode começar a trocar bitcoins de forma anónima e segura com a Vexl. Par
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

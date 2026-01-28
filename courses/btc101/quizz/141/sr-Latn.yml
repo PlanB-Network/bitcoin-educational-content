@@ -1,11 +1,8 @@
-question: Koliko košta pokretanje Bitkoin čvora na Raspberry Pi 4 u smislu potrošnje električne energije godišnje (podatak iz 2023.)?
-answer: Malo manje od 10€ godišnje.
+question: Kakav je bio ishod blokovskog rata 2017. godine?
+answer: Korisnici i čvorovi odbacili su predloženu promenu za povećanje veličine bloka i aktivirali ažuriranje pod nazivom SegWit.
 wrong_answers:
-  - Malo više od 50€ godišnje.
-  - Malo manje od 100€ godišnje.
-  - Oko 200€ godišnje.
-explanation: |
-  Pokretanje Bitkoin čvora na Raspberry Pi 4 košta nešto
-  manje od 10€ godišnje u smislu potrošnje električne energije prema podacima
-  od 2023.godine.
+  - Korisnici i čvorovi su prihvatili predloženu promenu za povećanje veličine bloka i aktivirali ažuriranje pod nazivom SegWit.
+  - Korisnici i čvorovi su odbili predloženu promenu za povećanje veličine bloka i nisu aktivirali nikakva ažuriranja.
+  - Korisnici i čvorovi prihvatili su predloženu promenu za povećanje veličine bloka i nisu aktivirali nikakva ažuriranja.
+explanation: >-
 reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - It's the act of combining multiple blocks in the blockchain.
 explanation: |
   When the user does not have any UTXO greater than or equal to the amount they wish to send, they must use several of their UTXOs to satisfy the outputs. This practice is called merging.
-reviewed: false
+reviewed: true

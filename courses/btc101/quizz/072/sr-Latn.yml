@@ -1,9 +1,11 @@
-question: Koje su tri glavne funkcije Bitkoin novčanika?
-answer: Primanje bitkoina, slanje bitkoina, zaštita od pokušaja hakovanja i krađe.
+question: Kako možete ojačati podrazumevanu sigurnost vašeg Bitkoin novčanika?
+answer: Dodavanjem passphrase vašem Bitkoin novčaniku.
 wrong_answers:
-  - Čuvanje bitkoina, slanje bitkoina, osiguravanje protiv pokušaja hakovanja i krađe.
-  - Da dozvoli primanje bitkoina, čuvanje bitkoina, osiguravanje protiv pokušaja hakovanja i krađe.
-  - Da dozvoli primanje bitkoina, slanje bitkoina i prodaju bitkoina.
+  - Dodavanjem drugog privatnog ključa vašem Bitkoin novčaniku.
+  - Dodavanjem drugog javnog ključa vašem Bitoin novčaniku.
+  - Dodavanjem druge Mnemonic fraze vašem Bitkoin novčaniku.
 explanation: |
-  Bitcoin novčanik se koristi za interakciju sa Bitkoin mrežom. Njegove tri glavne funkcije su omogućavanje primanja bitkoina, omogućavanje slanja bitkoina i njihovo osiguranje protiv pokušaja hakovanja i krađe.
+  Ako niste zadovoljni podrazumevanom sigurnošću vašeg
+  Bitkoin novčanika, uvek je možete pojačati dodavanjem
+  passphrase.
 reviewed: true

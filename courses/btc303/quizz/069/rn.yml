@@ -1,0 +1,9 @@
+question: Dushingiye ku nsobanuro y’ico gitabu, ni ikihe kintu kigereranya urugero rwa Bitcoin rubereye mu gihe umuntu azigama ukurwanywa n’ugucengera?
+answer: Gushira mu ngiro ubuhinga bwo kugenzura umukono bukoresha umwanya mwiza bugabanura ubunini bw'inyandiko
+wrong_answers:
+  - Guhimiriza abakoresha kwimurira amafaranga mu bibanza vy'ubudandaji kugira ngo bagabanye umubare wa on-chain
+  - Gushira mu ngiro uburyo bwo kuyungurura ubucuruzi bwikora kugira ngo ushire imbere ubwoko bumwe bumwe bw'ibikorwa vy'ubutunzi
+  - Gukora uturongo tw'ukwemeza twemejwe na leta dushobora gukora neza amafaranga
+explanation: |
+  Ico gitabu gisobanura ko ugupima Bitcoin ari 'kwongera ubushobozi bwo gukoresha Bitcoin ataco bihinduye ku bushobozi bwayo bwo gucengera.' Igenzura ry'umukono ry'umwanya rihuye neza n'iyi nsobanuro mu gutuma amafaranga akoresha ama bytes make mu gihe aguma afise ukwegereza ubutegetsi. Inyishu zitari zo zose zituma umuntu adashobora gucengera: amahinguriro ahurikiye hamwe azana abandi bantu bizigira, ugucungera amafaranga kurema uburyo bwo gucengera, kandi ama node yemejwe na Leta ashira hamwe ububasha bwo kwemeza. Gupima vy’ukuri birazigama imiterere nyamukuru ya Bitcoin mu gihe bituma ikora neza.
+reviewed: false

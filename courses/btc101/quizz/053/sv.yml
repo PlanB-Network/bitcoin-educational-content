@@ -1,11 +1,11 @@
-question: Det finns ett historiskt exempel på en daglig inflationstakt motsvarande 100%; var och när inträffade det?
-answer: I Zimbabwe, 2007.
+question: Vad kallas den process som verifierar transaktioner i Bitcoin-nätverket?
+answer: Mining
 wrong_answers:
-  - I Ungern, 1945.
-  - I Kina, 1940.
-  - Detta är faktiskt ett orealistiskt fall som inte kan inträffa.
+  - Grävning
+  - Skörd
+  - Jordbruk
 explanation: |
-  En inflationstakt på 100% per dag är ett realistiskt scenario som
-  zimbabwe 2007, där penningvärdet i stort sett fördubblades
-  fördubblades varje 24 timmar.
+  Den process som verifierar transaktioner i Bitcoin-nätverket
+  nätverket kallas Mining. Miners utför en kryptografisk uppgift
+  uppgift och belönas med utfärdandet av nya bitcoins.
 reviewed: true

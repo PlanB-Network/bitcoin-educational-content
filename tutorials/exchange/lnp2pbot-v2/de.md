@@ -8,7 +8,7 @@ description: Vollständige Anleitung zu LNP2PBot und P2P-Bitcoin-Handel
 
 KYC-freie Peer-to-Peer-Börsen (P2P) sind für die Wahrung der Vertraulichkeit und der finanziellen Autonomie der Nutzer unerlässlich. Sie ermöglichen direkte Transaktionen zwischen Einzelpersonen, ohne dass eine Identitätsprüfung erforderlich ist, was für diejenigen, die Wert auf ihre Privatsphäre legen, entscheidend ist. Für ein tieferes Verständnis der theoretischen Konzepte schauen Sie sich den Kurs BTC204 an:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Der Kauf und Verkauf von Bitcoin über Peer-to-Peer (P2P) ist eine der privatesten Methoden, Bitcoins zu erwerben oder zu veräußern. LNP2PBot ist ein Open-Source-Telegram-Bot, der P2P-Börsen auf dem Lightning-Netzwerk erleichtert und schnelle, kostengünstige und KYC-freie Transaktionen ermöglicht.
 
@@ -43,7 +43,7 @@ Installieren Sie zunächst eine kompatible Lightning-Geldbörse. Hier sind unser
 **Empfehlenswerte Portfolios**
 
 
-- [Breez](https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Ausgezeichnet für Anfänger
   - Intuitive, moderne Schnittstelle
   - Nicht-Pflegschaft (Sie behalten die Kontrolle über Ihr Geld)
@@ -52,9 +52,9 @@ Installieren Sie zunächst eine kompatible Lightning-Geldbörse. Hier sind unser
 
 Unten finden Sie den Link zur Anleitung für diese Brieftasche:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Einfach und zuverlässig
   - Automatische Kanalkonfiguration
   - Native Unterstützung für BOLT11-Rechnungen
@@ -63,9 +63,9 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 Unten finden Sie den Link zur Anleitung für diese Brieftasche:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Eher technisch, aber sehr vollständig
   - Erweiterte Konfigurationsoptionen
   - Perfekt für erfahrene Benutzer
@@ -74,16 +74,16 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 Unten finden Sie den Link zur Anleitung für diese Brieftasche:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Wichtige Hinweise zu anderen Portfolios**
 
 ⚠️ **Wichtig**: Stellen Sie vor dem Verkauf von Sats sicher, dass Ihr Portfolio "Hold"-Rechnungen unterstützt, die vom Bot als Treuhandsystem verwendet werden.
 
 
-- Geldbörse von Satoshi**: Funktioniert gut für den Empfang von Sats, kann aber Verzögerungen bei der Aktualisierung des Guthabens haben, wenn ein Verkauf abgebrochen wird.
-- Muun**: Nicht empfehlenswert, da Zahlungen aufgrund der Beschränkung der Bot-Routing-Gebühren (maximal 0,2 %) fehlschlagen können.
-- Aqua**: Funktioniert für den Empfang von Satelliten, kann aber im Falle eines Verkaufsstopps lange Verzögerungen (bis zu 48 Stunden) bei der Aktualisierung des Kontostands haben.
+- **Geldbörse von Satoshi**: Funktioniert gut für den Empfang von Sats, kann aber Verzögerungen bei der Aktualisierung des Guthabens haben, wenn ein Verkauf abgebrochen wird.
+- **Muun**: Nicht empfehlenswert, da Zahlungen aufgrund der Beschränkung der Bot-Routing-Gebühren (maximal 0,2 %) fehlschlagen können.
+- **Aqua**: Funktioniert für den Empfang von Satelliten, kann aber im Falle eines Verkaufsstopps lange Verzögerungen (bis zu 48 Stunden) bei der Aktualisierung des Kontostands haben.
 
 💡 **Tipp**: Für eine optimale Erfahrung sollten Sie sich für die empfohlenen Portfolios entscheiden (Breez, Phoenix oder Blixt).
 
@@ -127,7 +127,7 @@ In diesem Leitfaden wird ausführlich erläutert, wie :
 
 ![Sélection d'une offre de vente](assets/fr/01.webp)
 
-Durchsuchen Sie die Angebote in [@p2plightning] (https://t.me/p2plightning) und klicken Sie auf die Schaltfläche "Satoshis kaufen" unter der Anzeige, die Sie interessiert.
+Durchsuchen Sie die Angebote in [@p2plightning](https://t.me/p2plightning) und klicken Sie auf die Schaltfläche "Satoshis kaufen" unter der Anzeige, die Sie interessiert.
 
 **2. Angebot und Betrag validieren**
 
@@ -153,7 +153,7 @@ Sobald die Rechnung verschickt wurde, setzt sich der Bot mit dem Verkäufer in V
 
 Klicken Sie auf den Nickname des Verkäufers, um einen privaten Chat-Kanal zu öffnen, in dem Sie Einzelheiten zur Zahlung in Fiat austauschen können.
 
-**5. Bestätigung der Zahlung
+**5. Bestätigung der Zahlung**
 
 ![Confirmation du paiement](assets/fr/05.webp)
 
@@ -246,17 +246,17 @@ Lnp2pbot hat mehrere Vor- und Nachteile gegenüber anderen P2P-Tauschlösungen w
 ### Vorteile von Lnp2pbot
 
 
-- Keine KYC erforderlich** : Im Gegensatz zu anderen Plattformen ist bei Lnp2pbot keine Identitätsprüfung erforderlich, so dass die Vertraulichkeit der Nutzer gewahrt bleibt.
-- Schnelle Transaktionen**: Dank des Lightning-Netzwerks erfolgen Transaktionen fast sofort.
-- Niedrige Gebühren** : Die Transaktionskosten sind niedriger als bei traditionellen Börsen.
-- Mobile Verfügbarkeit**: LNP2PBot ist über Telegram zugänglich und kann somit einfach auf mobilen Geräten genutzt werden.
-- Einfach zu bedienen** : Die intuitive Benutzeroberfläche von Lnp2pbot ist auch für weniger erfahrene Benutzer leicht zu bedienen.
+- **Keine KYC erforderlich**: Im Gegensatz zu anderen Plattformen ist bei Lnp2pbot keine Identitätsprüfung erforderlich, so dass die Vertraulichkeit der Nutzer gewahrt bleibt.
+- **Schnelle Transaktionen**: Dank des Lightning-Netzwerks erfolgen Transaktionen fast sofort.
+- **Niedrige Gebühren**: Die Transaktionskosten sind niedriger als bei traditionellen Börsen.
+- **Mobile Verfügbarkeit**: LNP2PBot ist über Telegram zugänglich und kann somit einfach auf mobilen Geräten genutzt werden.
+- **Einfach zu bedienen**: Die intuitive Benutzeroberfläche von Lnp2pbot ist auch für weniger erfahrene Benutzer leicht zu bedienen.
 
 ### Nachteile von Lnp2pbot
 
 
-- Telegram-Abhängigkeit**: Die Verwendung von Lnp2pbot erfordert ein Telegram-Konto, das nicht für alle Benutzer geeignet ist.
-- Weniger Liquidität**: Im Vergleich zu etablierteren Plattformen wie Bisq kann die Liquidität geringer sein.
+- **Telegram-Abhängigkeit**: Die Verwendung von Lnp2pbot erfordert ein Telegram-Konto, das nicht für alle Benutzer geeignet ist.
+- **Weniger Liquidität**: Im Vergleich zu etablierteren Plattformen wie Bisq kann die Liquidität geringer sein.
 
 Im Vergleich dazu bieten Lösungen wie Bisq eine größere Liquidität und eine Desktop-Schnittstelle, können aber höhere Gebühren und längere Transaktionszeiten mit sich bringen. HodlHodl und Robosat bieten ebenfalls einen KYC-freien Handel an, jedoch mit unterschiedlichen Gebührenstrukturen und Schnittstellen.
 

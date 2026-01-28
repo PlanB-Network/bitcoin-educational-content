@@ -6,4 +6,4 @@ wrong_answers:
   - Transactions between different blockchains
 explanation: |
   The Lightning Network enables fast and low-cost transactions through off-chain payment channels, which differs from regular transactions on the blockchain.
-reviewed: false
+reviewed: true

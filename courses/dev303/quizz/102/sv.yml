@@ -1,0 +1,8 @@
+question: Vad är den grundläggande skillnaden mellan LDK:s integrationsmetod för blockkedjor och traditionella Lightning-noder när det gäller resursbegränsade miljöer?
+answer: LDK tillhandahåller en filtreringsbaserad abstraktion som gör det möjligt för applikationer att implementera övervakning via lätta datakällor som Electrum-servrar
+wrong_answers:
+  - LDK kräver full blockchain-synkronisering men optimerar lagring genom komprimerade blockhuvuden och mekanismer för transaktionsbeskärning
+  - LDK implementerar ett anpassat blockkedjeprotokoll som minskar bandbredden genom att endast behålla kanalrelevanta transaktioner i minnet
+  - LDK använder en hybrid konsensusmekanism som endast validerar blixtrelaterade transaktioner och ignorerar standard Bitcoin-operationer
+explanation: |
+  LDK:s blockkedjeintegration är utformad med två lägen: fullblocksläge för resursrika miljöer och filtreringsbaserat läge för begränsade miljöer. Filtreringsmetoden gör det möjligt för LDK att kommunicera sina övervakningsbehov via abstrakta gränssnitt och begära övervakning av specifika transaktioner, UTXO:er eller skriptmönster. Applikationer kan sedan implementera denna övervakning med hjälp av lätta källor som Electrum-servrar eller blockutforskare, vilket dramatiskt minskar bandbredd och lagringskrav jämfört med fullständig blockkedjesynkronisering. Denna abstraktion gör det möjligt för mobila plånböcker och webbapplikationer att upprätthålla Lightning-funktionalitet utan det resursöverskott som traditionella Lightning-noder kräver.

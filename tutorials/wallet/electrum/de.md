@@ -1,16 +1,16 @@
 ---
 name: Electrum
 
-description: Vollständiger Electrum-Leitfaden, von 0 zum Helden
+description: Vollständige Electrum-Anleitung, vom Anfänger zum Experten
 ---
 
 ![cover](assets/cover.webp)
 
-Beschreibung für Electrum
+Unten finden Sie einige Beschreibungsquellen für Electrum:
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "Ich muss sagen, als ich auf diesen Leitfaden gestoßen bin, war ich schockiert. Glückwunsch an Arman the Parman dafür. Es wäre schade gewesen, ihn nicht hier zu hosten und in so viele Sprachen wie möglich zu übersetzen. Ehrlich gesagt, Tipps für diesen Kerl." Rogzy
 
@@ -358,7 +358,7 @@ Für MyNode können Sie Folgendes in einem Browserfenster eingeben:
 mynode.local
 ```
 
-Manchmal funktioniert "mynode.local" nicht (stellen Sie sicher, dass Sie es nicht in einer Google-Suchleiste eingeben). Um die Navigationsleiste dazu zu zwingen, Ihren Text als Adresse und nicht als Suche zu erkennen, fügen Sie dem Text http:// voran, wie hier:
+Manchmal funktioniert "mynode.local" nicht (stellen Sie sicher, dass Sie es nicht in einer Google-Suchleiste eingeben). Um die Navigationsleiste dazu zu zwingen, Ihren Text als Adresse und nicht als Suche zu erkennen, fügen Sie dem Text http://voran, wie hier:
 
 ```
 http://mynode.local

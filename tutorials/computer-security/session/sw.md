@@ -1,5 +1,5 @@
 ---
-name: Kikao
+name: Session
 description: Tuma ujumbe uliosimbwa kwa njia fiche, si metadata
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ Session ni programu ya ujumbe iliyosimbwa kwa njia fiche iliyoundwa mnamo 2020, 
 
 
 
-Kipindi kina sifa za kiufundi zinazovutia: usimbaji fiche kutoka mwisho hadi mwisho, mtandao uliogatuliwa uliopangwa ili kuhakikisha upatikanaji na upungufu, na uelekezaji wa vitunguu ulioongozwa na Tor. Pia, tofauti na WathsApp au Signal, ambayo inahitaji nambari ya simu kwa usajili, Kipindi hakiulizi taarifa za kibinafsi (hakuna nambari, hakuna barua pepe, jozi ya funguo za siri).
+Kipindi kina sifa za kiufundi zinazovutia: usimbaji fiche kutoka mwisho hadi mwisho, mtandao uliogatuliwa uliopangwa ili kuhakikisha upatikanaji na upungufu, na onion routing iliyoongozwa na Tor. Pia, tofauti na WathsApp au Signal, ambayo inahitaji nambari ya simu kwa usajili, Kipindi hakiulizi taarifa za kibinafsi (hakuna nambari, hakuna barua pepe, jozi ya funguo za siri).
 
 
 
@@ -26,27 +26,28 @@ Kipindi kinalenga zaidi ya yote kwa watumiaji wanaoweka usiri katika moyo wa vip
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
 
-*E2EE = Usimbaji fiche kutoka mwisho hadi mwisho*
+| Programu | E2EE 1:1 | Vikundi vya E2EE | Usajili usiojulikana | Leseni ya mteja ya chanzo wazi | Leseni ya seva ya chanzo wazi | Seva iliyogatuliwa | Mwaka wa kuanzishwa |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (hiari) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (hiari) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (iliyoshirikishwa) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (kupitia barua pepe) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (iliyoshirikishwa) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (hakuna saraka) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
+
+*E2EE = End-to-End Encryption*
 
 
 
@@ -59,7 +60,7 @@ Kipindi kinapatikana kwenye mifumo yote. Unaweza kupakua programu moja kwa moja 
 
 
 
-- [Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger);
+- [Google Play](https://play.google.com/store/apps/details?id=academy.loki.messenger);
 - [Duka la Programu](https://apps.apple.com/us/app/session-private-messenger/id1470168868);
 - [F-Droid](https://fdroid.getsession.org/).
 
@@ -99,7 +100,7 @@ Kisha utalazimika kuchagua kati ya njia mbili za usimamizi wa arifa:
 
 
 
-- Hali ya haraka ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: hukuwezesha kupokea arifa za ujumbe katika muda halisi, kutokana na huduma za arifa zinazotolewa na Google au Apple (kulingana na mfumo wako). Ili hili lifanye kazi, IP yako Address na kitambulisho cha kipekee cha arifa hutumwa kwa Google au Apple, na Kitambulisho cha akaunti ya Session pia kimesajiliwa na seva ya STF (kupitia Tor). Hali hii inahusisha (inakubalika kidogo) udhihirisho wa metadata, lakini haiathiri maudhui ya ujumbe au waasiliani, na hairuhusu shughuli yako halisi kufuatiliwa. Kwa hivyo, hali hii ina ufanisi zaidi katika suala la uitikiaji, lakini inategemea muundo msingi na haina ufanisi kidogo katika suala la usiri.
+- Hali ya haraka ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: hukuwezesha kupokea arifa za ujumbe katika muda halisi, kutokana na huduma za arifa zinazotolewa na Google au Apple (kulingana na mfumo wako). Ili hili lifanye kazi, IP Address yako na kitambulisho cha kipekee cha arifa hutumwa kwa Google au Apple, na Kitambulisho cha akaunti ya Session pia kimesajiliwa na seva ya STF (kupitia Tor). Hali hii inahusisha (inakubalika kidogo) udhihirisho wa metadata, lakini haiathiri maudhui ya ujumbe au waasiliani, na hairuhusu shughuli yako halisi kufuatiliwa. Kwa hivyo, hali hii ina ufanisi zaidi katika suala la uitikiaji, lakini inategemea muundo msingi na haina ufanisi kidogo katika suala la usiri.
 
 
 
@@ -145,13 +146,13 @@ Kifungu hiki cha maneno hufanya kazi kwa njia sawa na vifungu vya Mnemonic vinav
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Tafadhali kumbuka**: Tofauti na vishazi vya Mnemonic vinavyotumika kwenye jalada la Bitcoin, kwenye Kipindi, **lazima uhifadhi kila neno kwa ukamilifu**. Barua 4 za kwanza hazitoshi!
 
 
 
-## Kuanzisha programu ya Kikao
+## Kuanzisha programu ya session
 
 
 
@@ -163,7 +164,7 @@ Ili kufikia mipangilio ya programu, bofya kwenye picha yako ya wasifu iliyo juu 
 
 
 
-Katika menyu ya "*Faragha*", unaweza kuwezesha au kuzima vipengele mbalimbali (tahadhari, vingine vinaweza kufichua IP yako Address). Pia ninapendekeza kuwezesha chaguo la "*Funga Programu*", ambayo inahitaji uthibitishaji ili kufikia programu.
+Katika menyu ya "*Faragha*", unaweza kuwezesha au kuzima vipengele mbalimbali (tahadhari, vingine vinaweza kufichua IP Address yako). Pia ninapendekeza kuwezesha chaguo la "*Funga Programu*", ambayo inahitaji uthibitishaji ili kufikia programu.
 
 
 
@@ -299,4 +300,4 @@ Pia ninapendekeza somo hili lingine, ambalo ninawasilisha Threema, mbadala mwing
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

@@ -1,11 +1,11 @@
-question: In che modo Bitcoin può potenzialmente aiutare nella transizione ecologica?
-answer: Promuove l'uso di energia verde.
+question: Qual è un modo per mitigare la volatilità di Bitcoin?
+answer: Coperture finanziarie (stablecoin).
 wrong_answers:
-  - Riduce la produzione di beni.
-  - Regola il consumo di risorse.
-  - Limita l'emissione solo di gas serra.
+  - Investire tutti i propri soldi in Bitcoin.
+  - Ignorare le tendenze di mercato.
+  - Comprare più Bitcoin quando il prezzo scende.
 explanation: >-
-  Bitcoin promuove l'uso di energia verde, il che può potenzialmente aiutare
-  nella transizione ecologica. Ad esempio, le fiamme nei pozzi petroliferi, che bruciano
-  metano per prevenire l'inquinamento, possono essere usate dai minatori di Bitcoin.
-reviewed: true
+  La volatilità di Bitcoin può essere mitigata da diverse soluzioni come
+  le coperture finanziarie (stablecoin), una forte convinzione a lungo termine (hodling), o semplicemente
+  non investendo il 100% dei propri soldi in Bitcoin senza capirne nulla.
+reviewed: vero

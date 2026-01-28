@@ -11,7 +11,7 @@ description: Complete gids voor LNP2PBot en P2P Bitcoin handel
 KYC-vrije peer-to-peer (P2P) uitwisselingen zijn essentieel voor het behoud van de privacy en financiële autonomie van gebruikers. Ze maken directe transacties tussen individuen mogelijk zonder de noodzaak voor identiteitsverificatie, wat cruciaal is voor diegenen die waarde hechten aan privacy. Voor een meer diepgaand begrip van de theoretische concepten, bekijk de BTC204 cursus:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Het kopen en verkopen van Bitcoin peer-to-peer (P2P) is een van de meest privé methoden om bitcoins te verkrijgen of te verkopen. LNP2PBot is een open source Telegram bot die P2P uitwisselingen op Lightning Network mogelijk maakt, waardoor snelle, goedkope, KYC-vrije transacties mogelijk zijn.
 
@@ -60,7 +60,7 @@ Begin met het installeren van een compatibele Lightning Wallet. Hier zijn onze g
 
 
 
-- [Breez](https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Uitstekend voor beginners
   - Intuïtieve, moderne Interface
   - Non-custodial (je behoudt de controle over je geld)
@@ -71,10 +71,10 @@ Begin met het installeren van een compatibele Lightning Wallet. Hier zijn onze g
 Hieronder staat de link naar de tutorial voor deze Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Eenvoudig en betrouwbaar
   - Automatische kanaalconfiguratie
   - Native ondersteuning voor BOLT11-facturen
@@ -85,10 +85,10 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 Hieronder staat de link naar de tutorial voor deze Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Meer technisch maar zeer compleet
   - Geavanceerde configuratie-opties
   - Perfect voor ervaren gebruikers
@@ -99,7 +99,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 Hieronder staat de link naar de tutorial voor deze Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Belangrijke opmerkingen over andere portefeuilles**
 
@@ -109,9 +109,9 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 
 
-- Wallet of Satoshi**: Werkt goed voor het ontvangen van Sats, maar kan vertragingen hebben bij het bijwerken van het saldo als een verkoop wordt geannuleerd.
-- Muun**: Niet aanbevolen omdat betalingen kunnen mislukken vanwege de limieten voor routeringskosten voor bots (maximaal 0,2%).
-- Aqua**: Werkt om Sats te ontvangen, maar kan grote vertragingen hebben (tot 48 uur) voor saldo-updates in het geval van een annulering van een verkoop.
+- **Wallet of Satoshi**: Werkt goed voor het ontvangen van Sats, maar kan vertragingen hebben bij het bijwerken van het saldo als een verkoop wordt geannuleerd.
+- **Muun**: Niet aanbevolen omdat betalingen kunnen mislukken vanwege de limieten voor routeringskosten voor bots (maximaal 0,2%).
+- **Aqua**: Werkt om Sats te ontvangen, maar kan grote vertragingen hebben (tot 48 uur) voor saldo-updates in het geval van een annulering van een verkoop.
 
 
 **Tip**: Kies voor de aanbevolen portemonnees (Breez, Phoenix of Blixt) voor een optimale ervaring.
@@ -216,7 +216,7 @@ Zodra de Invoice is verzonden, brengt de bot je in contact met de verkoper.
 Klik op de bijnaam van de verkoper om een privéchatkanaal te openen waar je Exchange fiat-betalingsgegevens kunt invoeren.
 
 
-**5. Bevestiging van betaling
+**5. Bevestiging van betaling**
 
 
 ![Confirmation du paiement](assets/fr/05.webp)
@@ -258,7 +258,7 @@ De bot zal je dan stap voor stap begeleiden:
    - Gebruik de marktprijs met de mogelijkheid om een premie toe te passen (positief of negatief)
 
 
-tip**: Met de premie kun je je prijs aanpassen ten opzichte van de marktprijs. Een premie van -1% betekent bijvoorbeeld dat je voor 1% minder verkoopt dan de marktprijs.
+**tip**: Met de premie kun je je prijs aanpassen ten opzichte van de marktprijs. Een premie van -1% betekent bijvoorbeeld dat je voor 1% minder verkoopt dan de marktprijs.
 
 
 **2. Bevestiging van bestelling**
@@ -353,11 +353,11 @@ Lnp2pbot heeft verschillende voor- en nadelen ten opzichte van andere P2P Exchan
 
 
 
-- Geen KYC vereist** : In tegenstelling tot sommige platforms vereist Lnp2pbot geen identiteitsverificatie, waardoor de privacy van de gebruiker behouden blijft.
-- Snelle transacties**: Dankzij de Lightning Network verlopen transacties bijna onmiddellijk.
-- Lage kosten** : Transactiekosten zijn lager dan bij traditionele beurzen.
-- Mobiele beschikbaarheid**: LNP2PBot is toegankelijk via Telegram, waardoor het gemakkelijk te gebruiken is op mobiele apparaten.
-- Gebruiksvriendelijk** : Lnp2pbot's intuïtieve Interface maakt het makkelijk te gebruiken, zelfs voor minder ervaren gebruikers.
+- **Geen KYC vereist**: In tegenstelling tot sommige platforms vereist Lnp2pbot geen identiteitsverificatie, waardoor de privacy van de gebruiker behouden blijft.
+- **Snelle transacties**: Dankzij de Lightning Network verlopen transacties bijna onmiddellijk.
+- **Lage kosten**: Transactiekosten zijn lager dan bij traditionele beurzen.
+- **Mobiele beschikbaarheid**: LNP2PBot is toegankelijk via Telegram, waardoor het gemakkelijk te gebruiken is op mobiele apparaten.
+- **Gebruiksvriendelijk**: Lnp2pbot's intuïtieve Interface maakt het makkelijk te gebruiken, zelfs voor minder ervaren gebruikers.
 
 
 ### Nadelen van Lnp2pbot
@@ -365,8 +365,8 @@ Lnp2pbot heeft verschillende voor- en nadelen ten opzichte van andere P2P Exchan
 
 
 
-- Telegram-afhankelijkheid**: Het gebruik van Lnp2pbot vereist een Telegram-account, wat misschien niet voor alle gebruikers geschikt is.
-- Minder liquiditeit**: In vergelijking met meer gevestigde platforms zoals Bisq kan de liquiditeit beperkter zijn.
+- **Telegram-afhankelijkheid**: Het gebruik van Lnp2pbot vereist een Telegram-account, wat misschien niet voor alle gebruikers geschikt is.
+- **Minder liquiditeit**: In vergelijking met meer gevestigde platforms zoals Bisq kan de liquiditeit beperkter zijn.
 
 
 Ter vergelijking, oplossingen zoals Bisq bieden een grotere liquiditeit en een desktop Interface, maar kunnen hogere kosten en langere transactietijden met zich meebrengen. HodlHodl en Robosat bieden ondertussen ook KYC-vrije handel, maar met verschillende kostenstructuren en interfaces.

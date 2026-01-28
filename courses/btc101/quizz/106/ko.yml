@@ -1,0 +1,13 @@
+question: 모든 사람이 동일한 Bitcoin Wallet을 사용할 수 없는 이유는 무엇인가요?
+answer: 개인마다 필요한 사용 사례는 다릅니다.
+wrong_answers:
+  - Bitcoin Wallet을 사용하는 데는 비용이 많이 듭니다.
+  - Bitcoin Wallet를 사용하는 것은 불법입니다.
+  - 사람들은 그런 Wallet의 이름에 결코 동의하지 않을 것입니다.
+explanation: |
+  어떤 사람은 보안을 우선시할 수 있지만, 다른 사람은 다음과 같이
+  사용자 편의성이나 특정 기능을 중시할 수도 있습니다. 따라서
+  단일 Bitcoin Wallet이 모든 사람의 요구 사항을 충족하지 못할 수도 있습니다
+  요구 사항을 모두 충족시키지 못할 수 있으므로 여러 Wallet
+  옵션이 존재해야 합니다.
+reviewed: true

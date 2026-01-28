@@ -1,11 +1,11 @@
 question: Ni nini wazo kuu nyuma ya dhana ya thamani ya wakati wa pesa?
 answer: Muda una thamani
 wrong_answers:
-  - Pesa inapoteza thamani kwa muda
-  - Pesa inaweza kubadilishwa kwa wakati
+  - Pesa zinapoteza thamani kwa muda
+  - Pesa zinaweza kubadilishwa kwa wakati
   - Muda unaweza kubadilishwa kwa pesa
 explanation: |
   Wazo kuu nyuma ya dhana ya thamani ya wakati wa pesa ni kwamba
   muda una thamani. Ikiwa mtu ataamua kulipa noti ya ahadi yenye thamani ya $100 mwezi mmoja mapema,
   wanaweza kuipata kwa, kwa mfano, $98 na kupokea $100 kwa tarehe ya kukamilisha.
-reviewed: false
+reviewed: true

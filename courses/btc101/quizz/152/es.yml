@@ -1,11 +1,9 @@
-question: ¿Qué es el HashRate?
-answer: El número de cálculos hash que un dispositivo de minería puede realizar por segundo para resolver el Proof of Work (Prueba de Trabajo).
+question: ¿Cuál es la importancia del gasto energético en la minería de Bitcoin?
+answer: El gasto energético es necesario para producir la información, pero la verificación de la información tiene un costo insignificante. Esta asimetría garantiza la seguridad de la red.
 wrong_answers:
-  - La velocidad a la que un dispositivo de minería puede resolver el Proof of Work.
-  - El número total de mineros en la red de Bitcoin.
-  - La cantidad total de bitcoins minados al realizar un cierto número de intentos por segundo para resolver el Proof of Work.
+  - El costo energético es necesario para alimentar las máquinas ASIC utilizadas en la minería, y la verificación de la información tiene altos costos.
+  - El gasto energético es necesario para mantener la red de Bitcoin, y la verificación de la información tiene costos variables.
+  - El costo energético no es necesario para crear nuevos bitcoins.
 explanation: >-
-  El HashRate se refiere al número total de intentos que los mineros hacen
-  por segundo para resolver el Proof of Work. Es una medida de la potencia computacional
-  de la red de Bitcoin.
-reviewed: true
+  El costo energético en la minería de Bitcoin es un aspecto crucial de la seguridad de la red. El alto costo energético de la minería hace que sea extremadamente costoso para un actor malicioso manipular la blockchain, mientras que el bajo costo de verificar transacciones asegura que cualquiera pueda participar en la red.
+reviewed: false

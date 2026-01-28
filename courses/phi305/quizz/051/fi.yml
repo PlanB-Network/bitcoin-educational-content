@@ -1,0 +1,9 @@
+question: Kuka itävaltalainen taloustieteilijä puhuu planismista?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) oli itävaltalainen taloustieteilijä, joka keksi termin "planismi" kuvaamaan keskitettyä taloussuunnittelua. Hän kritisoi tätä lähestymistapaa teoksessaan "Tie orjuuteen".
+reviewed: false

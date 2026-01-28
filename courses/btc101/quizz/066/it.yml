@@ -1,10 +1,11 @@
-question: In quale anno si prevede che cesserà l'emissione di bitcoin?
-answer: 2140
+question: Cos'è la chiave privata in un wallet Bitcoin?
+answer: Una chiave segreta che permette di firmare le transazioni.
 wrong_answers:
-  - 2050
-  - 2030
-  - 2200
-explanation: |
-  A causa del meccanismo denominato halving, si può prevedere matematicamente che la creazione di bitcoin cesserà nel 2140,
-  quando il numero totale di bitcoin raggiungerà il suo limite di 21 milioni.
-reviewed: vero
+  - Una chiave pubblica utilizzata per generare indirizzi Bitcoin.
+  - Una lista segreta di parole per distruggere un wallet in caso di necessità.
+  - Una chiave segreta per criptare le transazioni Bitcoin.
+explanation: >-
+  Quando si inizializza un wallet Bitcoin, viene generata una lista segreta di parole, chiamata frase mnemonica. 
+  Questa lista di parole è molto importante perché rappresenta la proprietà
+  dei Bitcoin e quindi il diritto di disporne.
+reviewed: true

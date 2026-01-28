@@ -1,0 +1,8 @@
+question: Welcher mathematische Zusammenhang besteht zwischen dem Schwierigkeitswert von Bitcoin und dem für die Blockvalidierung verwendeten aktuellen Zielwert?
+answer: Die Schwierigkeit entspricht dem niedrigsten möglichen Ziel geteilt durch das aktuelle Ziel
+wrong_answers:
+  - Die Schwierigkeit entspricht dem aktuellen Ziel geteilt durch das niedrigste mögliche Ziel
+  - Der Schwierigkeitsgrad entspricht dem aktuellen Ziel multipliziert mit dem niedrigsten möglichen Ziel
+  - Die Schwierigkeit ist gleich dem Koeffizienten mal 256, erhöht um den Exponenten minus 3
+explanation: |
+  Die Schwierigkeit von Bitcoin ist speziell definiert als lowest_target / current_target, was ausdrückt, wie viel schwieriger mining im Vergleich zur einfachsten möglichen Schwierigkeit ist. Diese umgekehrte Beziehung bedeutet, dass die Schwierigkeit proportional zunimmt, je kleiner das Ziel wird (wodurch gültige Hashes schwerer zu finden sind). Die Formel stellt sicher, dass ein Schwierigkeitsgrad von 1 die einfachsten mining-Bedingungen darstellt, während höhere Werte einen proportional höheren Rechenaufwand bedeuten, der erforderlich ist, um gültige Blöcke zu finden.

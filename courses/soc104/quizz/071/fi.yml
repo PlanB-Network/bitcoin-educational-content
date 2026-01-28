@@ -1,0 +1,9 @@
+question: Mikä poliittinen perhe tukisi todennäköisimmin politiikkaa, jossa terveydenhuollon yleinen saatavuus yhdistetään yksityisen sektorin innovaatioihin ja tehokkuusmekanismeihin?
+answer: Keskustalaiset, jotka kannattavat sekajärjestelmiä, joissa julkiset takuut ja yksityisen sektorin rahoitusosuudet ovat tasapainossa
+wrong_answers:
+  - Sosialistit, jotka asettavat etusijalle yleisen saatavuuden yksinomaan julkisten terveydenhuoltojärjestelmien kautta
+  - Libertaristit, jotka kannattavat täydellistä yksityistämistä ja yksilön valinnanvapautta terveydenhuoltomarkkinoilla
+  - Konservatiivit, jotka suosivat yksityisiä markkinoita, joilla valtio puuttuu mahdollisimman vähän kaikkein heikoimmassa asemassa oleviin
+explanation: |
+  Keskustalaiset kannattavat nimenomaisesti terveydenhuollon sekajärjestelmiä, jotka takaavat yleisen saatavuuden valtion osallistumisen avulla ja joihin sisältyy yksityisen sektorin elementtejä innovoinnin ja tehokkuuden edistämiseksi.
+  Sosialistit torjuvat yksityisen osallistumisen ja pitävät terveydenhuoltoa perusoikeutena, joka edellyttää julkista rahoitusta. Libertaristit vastustavat valtion osallistumista kokonaan ja suosivat markkinapohjaisia ratkaisuja. Konservatiivit kannattavat pääasiassa yksityisiä järjestelmiä, joissa valtion rooli on minimaalinen, mutta eivät tasapainoisia sekajärjestelmiä.

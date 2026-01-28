@@ -1,0 +1,8 @@
+question: Millist matemaatilist valemit kasutatakse Bitcoin protokollis plokisubsiidiumi arvutamiseks mis tahes antud plokikõrguse h korral?
+answer: toetus = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - toetus = 50_000_000_000 / (2^(h / 210_000))
+  - toetus = 5_000_000_000 * (0.5^(h % 210_000))
+  - toetus = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  Õige valem kasutab bittide nihutamise operatsioone, kus 5_000_000_000 tähistab 50 BTC-d satoshiidides ja paremale nihutamise operaator >> jagab tõhusalt 2. Põrandajaotus h // 210_000 määrab, mitu poolitusperioodi on toimunud. Esimene vale vastus kasutab tavalist jagamist, mitte bittide nihutamist, ja alustab valest baasväärtusest. Teine kasutab korruselise jagamise asemel modulo, mis tekitaks pigem tsüklilise mustri kui järkjärgulise poolitamise. Kolmandas kasutatakse modulooperatsiooni, mis nulliks poolitusloenduri iga 210 000 ploki järel, selle asemel et koguda poolitusi aja jooksul.

@@ -1,0 +1,8 @@
+question: Jakiego równania krzywej eliptycznej używa secp256k1 Bitcoin?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoin w szczególności wykorzystuje krzywą eliptyczną secp256k1, która ma uproszczone równanie y² = x³ + 7. Jest to szczególny przypadek ogólnej postaci krzywej eliptycznej y² = x³ + ax + b, gdzie a = 0 i b = 7. Pozostałe opcje są nieprawidłowe: y² = x³ + ax + b jest ogólną postacią, ale nie jest specyficzną krzywą Bitcoin, y² = x³ + 5 używa niewłaściwej stałej, a y² = x³ + x + 7 nieprawidłowo zawiera liniowy człon x, który nie istnieje w secp256k1.

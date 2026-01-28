@@ -19,25 +19,26 @@ Dnes je Jami k dispozici v mnoha systémech. Je známý svým výkonem, plynulos
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Aplikace | E2EE 1:1 | E2EE skupiny | Anonymní registrace | Open-source licence klienta | Open-source licence serveru | Decentralizovaný server | Rok vytvoření |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| **Jami**                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (volitelně) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (volitelně) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federovaný) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (přes e-mail) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federovaný) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (bez adresáře) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| **Jami** | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = End-to-end šifrování*
 
@@ -50,11 +51,11 @@ Dnes je Jami k dispozici v mnoha systémech. Je známý svým výkonem, plynulos
 
 
 
-- Je to open-source a zcela zdarma**, takže jej můžete používat bezplatně.
-- Kompletní užitečné funkce**: tento software umožňuje využívat řadu možností díky možnosti snadného přidávání zásuvných modulů z obchodu. Dokonce je možné vytvářet vlastní rozšíření pro funkce, které více vyhovují vašim potřebám.
-- Snadné používání a intuitivní ovládání**: navzdory mnoha funkcím, které Jami nabízí, je velmi snadné se s ním seznámit.
-- Silné zabezpečení**: Jami využívá pokročilý šifrovací algoritmus, který zaručuje bezpečnost vaší komunikace a zároveň respektuje vaše soukromí.
-- Vysoce dostupný a rychlý**: nabízí snadnou komunikaci i při omezené šířce pásma, což zvyšuje uživatelskou přívětivost.
+- Je to open-source a zcela **zdarma**, takže jej můžete používat bezplatně.
+- **Kompletní užitečné funkce**: tento software umožňuje využívat řadu možností díky možnosti snadného přidávání zásuvných modulů z obchodu. Dokonce je možné vytvářet vlastní rozšíření pro funkce, které více vyhovují vašim potřebám.
+- **Snadné používání a intuitivní ovládání**: navzdory mnoha funkcím, které Jami nabízí, je velmi snadné se s ním seznámit.
+- **Silné zabezpečení**: Jami využívá pokročilý šifrovací algoritmus, který zaručuje bezpečnost vaší komunikace a zároveň respektuje vaše soukromí.
+- **Vysoce dostupný a rychlý**: nabízí snadnou komunikaci i při omezené šířce pásma, což zvyšuje uživatelskou přívětivost.
 
 
 
@@ -140,7 +141,7 @@ Tento příkaz nainstaluje nástroje potřebné pro správu klíčů GPG (gnupg 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -338,9 +339,9 @@ Jami nabízí také **pokročilé funkce** pro uživatele, kteří chtějí jít
 
 
 
-- Vytvoření místa setkání**: Tato funkce umožňuje vytvořit **bod setkání** pro vaši komunikaci, což je užitečné pro organizování zabezpečených relací nebo výměn mezi několika uživateli.
-- Připojení k serveru Jami**: Jami můžete připojit k serveru **Jami**, což může zlepšit výkon nebo dostupnost komunikace, zejména v profesionálním prostředí.
-- Nastavení účtu SIP**: Můžete si zřídit účet **SIP** (Session Initiation Protocol), který vám umožní integrovat Jami se stávajícími telefonními systémy nebo uskutečňovat telefonní hovory.
+- **Vytvoření místa setkání**: Tato funkce umožňuje vytvořit **bod setkání** pro vaši komunikaci, což je užitečné pro organizování zabezpečených relací nebo výměn mezi několika uživateli.
+- **Připojení k serveru Jami**: Jami můžete připojit k serveru **Jami**, což může zlepšit výkon nebo dostupnost komunikace, zejména v profesionálním prostředí.
+- **Nastavení účtu SIP**: Můžete si zřídit účet **SIP** (Session Initiation Protocol), který vám umožní integrovat Jami se stávajícími telefonními systémy nebo uskutečňovat telefonní hovory.
 
 
 
@@ -360,4 +361,4 @@ Objevte Tox, decentralizovaný protokol, který kombinuje end-to-end šifrován�
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

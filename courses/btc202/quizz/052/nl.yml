@@ -1,0 +1,9 @@
+question: Wat is het grootste verschil tussen Electrs en Fulcrum?
+answer: Electrs is compacter, Fulcrum is krachtiger
+wrong_answers:
+  - Electrs is niet gratis, Fulcrum is gratis
+  - Fulcrum ondersteunt het Electrum-protocol niet
+  - Electrs is propriëtair, Fulcrum is open source
+explanation: |
+  Electrs gebruikt minder schijfruimte, terwijl Fulcrum sneller reageert op verzoeken maar meer bronnen verbruikt.
+reviewed: true

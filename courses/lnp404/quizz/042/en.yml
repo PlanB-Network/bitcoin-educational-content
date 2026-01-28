@@ -1,0 +1,8 @@
+question: What is the primary strategic advantage of using the Simulation Engine's payment size presets (500k, 5M, 15M sats) in conjunction with fee rate analysis?
+answer: It enables proactive identification of systematic inefficiencies where capacity exists but is inaccessible due to fee rate positioning or payment size limitations
+wrong_answers:
+  - It automatically rebalances channels to optimize for the most profitable payment size ranges based on historical routing data
+  - "It provides real-time monitoring of competitor nodes' fee structures to maintain competitive pricing across all payment ranges"
+  - It calculates the optimal channel capacity allocation to maximize total locked bitcoin while minimizing operational costs
+explanation: |
+  The Simulation Engine's true power lies in revealing hidden inefficiencies by correlating payment sizes with fee rates. This allows operators to discover when they have liquidity that appears healthy but is effectively unusable because it's priced out of the market or lacks sufficient depth. The other options describe automated functions or competitive analysis features that don't exist in the system - the tool is diagnostic, not automated, and focuses on internal capacity optimization rather than external market positioning.

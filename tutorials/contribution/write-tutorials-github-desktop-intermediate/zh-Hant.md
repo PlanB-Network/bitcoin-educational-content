@@ -1,6 +1,6 @@
 ---
 name: 貢獻 - GitHub 桌面教學（中級）
-description: 使用 GitHub Desktop 在 Plan ₿ Network 上提出教學的完整指南
+description: 使用 GitHub Desktop 在 Plan ₿ Academy 上提出教學的完整指南
 ---
 ![cover](assets/cover.webp)
 
@@ -8,33 +8,33 @@ description: 使用 GitHub Desktop 在 Plan ₿ Network 上提出教學的完整
 在按照本教學添加新教學之前，您必須完成一些初步步驟。如果您還沒有這樣做，我邀請您先參閱此入門教學，然後再回到這裡：
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 您已經
 
 
 - 選擇您教學的主題；
-- 透過 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 或 paolo@planb.network 聯絡 Plan ₿ Network 團隊；
+- 透過 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 或 paolo@planb.network 聯絡 Plan ₿ Academy 團隊；
 - 選擇您的貢獻工具。
 
 
-在本教程中，我們將介紹如何通過 GitHub Desktop 設置本地環境，在 Plan ₿ Network 上添加您的教學。如果您已經精通 Git，這篇非常詳細的教學對您來說可能就沒有必要了。我更推薦您參考另一篇教學，在這篇教學中我只介紹了主要的指南，並沒有詳細的步驟指導：
+在本教程中，我們將介紹如何通過 GitHub Desktop 設置本地環境，在 Plan ₿ Academy 上添加您的教學。如果您已經精通 Git，這篇非常詳細的教學對您來說可能就沒有必要了。我更推薦您參考另一篇教學，在這篇教學中我只介紹了主要的指南，並沒有詳細的步驟指導：
 
 
 
-- 經驗豐富的使用者**：
+- **經驗豐富的使用者**：
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 如果您不想設定您的本機環境，請參考這篇專為初學者設計的教學，我們會直接透過 GitHub 的網頁 Interface 進行變更：
 
 
 
-- 初學者 (web Interface)**：
+- 初學者 **(web Interface)**：
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## 先決條件
 
@@ -56,21 +56,21 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 
 
 - 擁有 [GitHub 帳戶](https://github.com/signup)；
-- 擁有 [Plan ₿ Network 原始碼倉庫](https://github.com/PlanB-Network/Bitcoin-educational-content) 的 Fork；
-- 擁有 [Plan ₿ Network 上的教授簡介](https://planb.network/professors) (僅限於您提出完整的教學)。
+- 擁有 [Plan ₿ Academy 原始碼倉庫](https://github.com/PlanB-Network/Bitcoin-educational-content) 的 Fork；
+- 擁有 [Plan ₿ Academy 上的教授簡介](https://planb.academy/professors) (僅限於您提出完整的教學)。
 
 
 如果您在取得這些先決條件時需要協助，我的其他教程會協助您：
 
 
 
-一旦一切就緒，而且您的本機環境也正確設定了您自己的 Plan ₿ Network 的 Fork，您就可以開始新增教學了。
+一旦一切就緒，而且您的本機環境也正確設定了您自己的 Plan ₿ Academy 的 Fork，您就可以開始新增教學了。
 
 
 ## 1 - 建立新的分支
 
 
-打開瀏覽器，前往 Plan ₿ Network 套件庫的 Fork 頁面。這是您在 GitHub 上建立的 Fork。您的 Fork 的 URL 應該如下所示：https://github.com/[您的使用者名稱]/Bitcoin-educational-content`：
+打開瀏覽器，前往 Plan ₿ Academy 套件庫的 Fork 頁面。這是您在 GitHub 上建立的 Fork。您的 Fork 的 URL 應該如下所示：https://github.com/[您的使用者名稱]/Bitcoin-educational-content`：
 
 
 ![TUTO](assets/fr/03.webp)
@@ -106,7 +106,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ![TUTO](assets/fr/08.webp)
 
 
-確保新分支是基於原始碼套件庫，即 `PlanB-Network/Bitcoin-educational-content`.
+確保新分支是基於原始碼套件庫，即 `Plan ₿ Academy/Bitcoin-educational-content`.
 
 
 為您的分支命名時，要在標題中清楚說明其目的，並使用破折號分開每個單字。例如，假設我們的目標是撰寫 Sparrow Wallet 軟體的使用教學。在這種情況下，專門撰寫這份教學的工作分支可以命名為：`tuto-sparrow-Wallet-loic`。輸入適當的名稱後，點選 `Create branch` 確認分支的建立：
@@ -143,7 +143,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 - Python 3.8 或更高版本。
 
 
-若要使用指令碼，請導航至儲存指令碼的資料夾。腳本位於 Plan ₿ Network 資料庫的路徑：Bitcoin-educational-content/scripts/tutorial-related/data-creator`。
+若要使用指令碼，請導航至儲存指令碼的資料夾。腳本位於 Plan ₿ Academy 資料庫的路徑：Bitcoin-educational-content/scripts/tutorial-related/data-creator`。
 
 
 進入資料夾後，安裝相依性：
@@ -203,7 +203,7 @@ python3 main.py
 如果您還沒有教授檔案，請查看此教學：
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 然後按一下「新教學」按鈕。
 
@@ -229,7 +229,7 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-project_id`是指教學中涉及的工具背後的公司或組織的UUID，可在[項目列表](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)中找到。例如，關於 Sparrow Wallet 的教學，您可以在檔案中找到它的「project_id」：Bitcoin-educational-content/resources/projects/sparrow/project.yml`。此資訊會被加入到您的教學 YAML 檔案中，因為 Plan ₿ Network 會維護一個資料庫，其中包含活躍於 Bitcoin 或相關專案的公司和組織。透過加入相關的 `project_id`，您可以將您的內容連結到相關的實體。
+project_id`是指教學中涉及的工具背後的公司或組織的UUID，可在[項目列表](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)中找到。例如，關於 Sparrow Wallet 的教學，您可以在檔案中找到它的「project_id」：Bitcoin-educational-content/resources/projects/sparrow/project.yml`。此資訊會被加入到您的教學 YAML 檔案中，因為 Plan ₿ Academy 會維護一個資料庫，其中包含活躍於 Bitcoin 或相關專案的公司和組織。透過加入相關的 `project_id`，您可以將您的內容連結到相關的實體。
 
 
 *** 更新：*** 在新版本的腳本中，您不再需要手動輸入 `project_id`。新增搜尋功能，可依名稱找到專案，並自動擷取對應的「project_id」。在 「專案名稱 」欄位中輸入專案名稱的開頭來搜尋，然後從下拉式功能表中選擇所需的公司。`project_id`將自動填入下方欄位。如果需要，您也可以手動輸入。
@@ -238,7 +238,7 @@ project_id`是指教學中涉及的工具背後的公司或組織的UUID，可�
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-對於標籤，請選擇 2 或 3 個與您的教學內容相關的關鍵字，完全從 [Plan ₿ Network 標籤清單](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中選擇。本軟體也提供下拉清單的關鍵字搜尋功能。
+對於標籤，請選擇 2 或 3 個與您的教學內容相關的關鍵字，完全從 [Plan ₿ Academy 標籤清單](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中選擇。本軟體也提供下拉清單的關鍵字搜尋功能。
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -262,7 +262,7 @@ project_id`是指教學中涉及的工具背後的公司或組織的UUID，可�
 開啟您的檔案管理員，並導覽到「Bitcoin-educational-content」資料夾，它代表您的套件庫的本機複製。通常您可以在 `Documents\GitHub\Bitcoin-educational-content` 下找到它。
 
 
-在此目錄中，您需要找到適當的子資料夾，以放置您的教學。資料夾組織反映了 Plan ₿ Network 網站的不同部分。在我們的範例中，由於我們想要新增關於 Sparrow Wallet 的教學，我們應該導航到下列路徑：Bitcoin-educational-content/tutorials/Wallet「，它对应于网站上的 」Wallet "部分：
+在此目錄中，您需要找到適當的子資料夾，以放置您的教學。資料夾組織反映了 Plan ₿ Academy 網站的不同部分。在我們的範例中，由於我們想要新增關於 Sparrow Wallet 的教學，我們應該導航到下列路徑：Bitcoin-educational-content/tutorials/Wallet「，它对应于网站上的 」Wallet "部分：
 
 
 ![TUTO](assets/fr/12.webp)
@@ -340,23 +340,23 @@ reward:
 
 
 
-- id** ：UUID (_Universally Unique Identifier_)，用來唯一識別教學。您可以使用 [線上工具](https://www.uuidgenerator.net/version4) generate 它。唯一的要求是這個 UUID 是隨機的，以避免與平台上的其他 UUID 衝突；
+- **id** ：UUID (_Universally Unique Identifier_)，用來唯一識別教學。您可以使用 [線上工具](https://www.uuidgenerator.net/version4) generate 它。唯一的要求是這個 UUID 是隨機的，以避免與平台上的其他 UUID 衝突；
 
 
 
-- project_id** ：教程中展示的工具背後的公司或組織的 UUID [來自專案清單](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您要建立一個關於 Green Wallet 軟體的教學，您可以在下列檔案中找到這個 `project_id`：`Bitcoin-educational-content/resources/projects/blockstream/project.yml`。此資訊會加入到您的教學 YAML 檔案中，因為 Plan ₿ Network 會維護所有在 Bitcoin 或相關專案上運作的公司和組織的資料庫。透過加入連結到您的教學的實體的「project_id」，您就在兩個 Elements 之間建立了連結；
+- **project_id** ：教程中展示的工具背後的公司或組織的 UUID [來自專案清單](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您要建立一個關於 Green Wallet 軟體的教學，您可以在下列檔案中找到這個 `project_id`：`Bitcoin-educational-content/resources/projects/blockstream/project.yml`。此資訊會加入到您的教學 YAML 檔案中，因為 Plan ₿ Academy 會維護所有在 Bitcoin 或相關專案上運作的公司和組織的資料庫。透過加入連結到您的教學的實體的「project_id」，您就在兩個 Elements 之間建立了連結；
 
 
 
-- 標籤** ：從 Plan ₿ Network 標籤清單中](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 獨家選取 2 或 3 個與教學內容相關的關鍵字；
+- **標籤**：從 [Plan ₿ Academy 標籤清單中](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 獨家選取 2 或 3 個與教學內容相關的關鍵字；
 
 
 
-- 類別** ：根據 Plan ₿ Network 網站結構，與教學內容相對應的子類別（例如，對於錢包：`桌面`、`硬體`、`行動`、`備份`）；
+- **類別**：根據 Plan ₿ Academy 網站結構，與教學內容相對應的子類別（例如，對於錢包：`桌面`、`硬體`、`行動`、`備份`）；
 
 
 
-- 等級** ：教學的難度等級，可從下列項目中選擇：
+- **等級**：教學的難度等級，可從下列項目中選擇：
     - 初學者
     - 中級
     - `進階`
@@ -364,26 +364,26 @@ reward:
 
 
 
-- professor_id** ：您的 `professor_id` (UUID) 顯示在 [您的教授簡介](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)；
+- **professor_id** ：您的 `professor_id` (UUID) 顯示在 [您的教授簡介](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)；
 
 
 
-- original_language** ：教學的原始語言 (例如 `fr`、`en` 等)；
+- **original_language**：教學的原始語言 (例如 `fr`、`en` 等)；
 
 
 
 - 校對** ：有關校對過程的資訊。完成第一部分，因為校對自己的教程算作第一次驗證：
-    - language** ：校對的語言代碼 (例如 `fr`、`en` 等)。
-    - last_contribution_date** ：當天的日期。
-    - 迫切性** ：1
-    - contributor_names** ：您的 GitHub ID。
-    - 獎勵** ：0
+- **language**：校對的語言代碼 (例如 `fr`、`en` 等)。
+- **last_contribution_date**：當天的日期。
+- **迫切性**：1
+- **contributor_names** ：您的 GitHub ID。
+- **獎勵**：0
 
 
 有關教師 ID 的詳細資訊，請參閱相應的教學：
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -518,17 +518,17 @@ description: [Description]
 開頭的感嘆號表示這是一張圖片。替代文字放在括號之間，有助於存取和 SEO。最後，括號之間會標示圖片的路徑。
 
 
-如果您想要建立自己的圖表，請務必遵守 Plan ₿ Network 的圖形章程，以確保視覺上的一致性：
+如果您想要建立自己的圖表，請務必遵守 Plan ₿ Academy 的圖形章程，以確保視覺上的一致性：
 
 
-- 字型**：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
-- 顏色**：
+- **字型**：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
+- 顏色：
  - 橙色：#FF5C00
  - 黑色：#000000
  - 白色：#FFFFFF
 
 
-**所有整合到您的教學中的視覺圖片必須是無權或尊重原始檔案的授權**。此外，所有在 Plan ₿ Network 上發佈的圖表都和文字一樣，以 CC-BY-SA 授權方式提供。
+**所有整合到您的教學中的視覺圖片必須是無權或尊重原始檔案的授權**。此外，所有在 Plan ₿ Academy 上發佈的圖表都和文字一樣，以 CC-BY-SA 授權方式提供。
 
 **-> 提示：** 當公開分享檔案（例如圖片）時，移除任何不必要的元資料非常重要。這可能包含敏感資訊，例如位置資料、建立日期或作者的詳細資訊。為了保護您的隱私，建議您刪除這些 metadata。為了簡化這個過程，您可以使用 [Exif Cleaner](https://exifcleaner.com/) 之類的專門工具，它可以透過簡單的拖放方式清理文件的元資料。
 
@@ -571,7 +571,7 @@ description: [Description]
 ![TUTO](assets/fr/32.webp)
 
 
-拉取請求（Pull Request）是將您的分支中的變更整合到 Plan ₿ Network 套件庫的主分支中的請求，它允許在合併之前對變更進行審查和討論。
+拉取請求（Pull Request）是將您的分支中的變更整合到 Plan ₿ Academy 套件庫的主分支中的請求，它允許在合併之前對變更進行審查和討論。
 
 
 您在 GitHub 上的瀏覽器將會自動重定向到您的 Pull Request 的準備頁面：
@@ -584,7 +584,7 @@ description: [Description]
 ![TUTO](assets/fr/34.webp)
 
 
-之後您的 PR 就會出現在 Plan ₿ Network 主儲存庫的「Pull Request」標籤中。您所要做的就是等待管理員與您聯絡，確認您的貢獻已被合併或要求任何額外的修改。
+之後您的 PR 就會出現在 Plan ₿ Academy 主儲存庫的「Pull Request」標籤中。您所要做的就是等待管理員與您聯絡，確認您的貢獻已被合併或要求任何額外的修改。
 
 
 ![TUTO](assets/fr/35.webp)
@@ -606,7 +606,7 @@ description: [Description]
 
 
 - 如果您的 PR 仍未合併，請在本地進行修改，同時保持在同一分支上。一旦修改完成，請使用 `Push origin` 按鈕，為仍未合併的 PR 新增一次提交；
-- 如果您的 PR 已經與主分支合併，您需要重新建立新的分支，然後再提交新的 PR。在繼續之前，請確認您的本機套件庫與 Plan ₿ Network 原始套件庫同步。
+- 如果您的 PR 已經與主分支合併，您需要重新建立新的分支，然後再提交新的 PR。在繼續之前，請確認您的本機套件庫與 Plan ₿ Academy 原始套件庫同步。
 
 
 如果您在提交教程時遇到技術困難，請不要猶豫，在 [我們專用的 Telegram 投稿群組](https://t.me/PlanBNetwork_ContentBuilder) 上尋求幫助。謝謝！

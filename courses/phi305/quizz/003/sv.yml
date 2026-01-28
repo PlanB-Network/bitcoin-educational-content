@@ -1,0 +1,9 @@
+question: Det land där Spinoza levde och skrev sitt verk är?
+answer: De förenade provinserna.
+wrong_answers:
+  - Frankrike.
+  - Storbritannien.
+  - Sverige.
+explanation: |
+  Spinoza levde och skrev alla sina verk i de Förenade provinserna (nuvarande Nederländerna), som vid den tiden var en fristad för fritänkare och religiösa minoriteter som förföljdes på andra håll i Europa.
+reviewed: false

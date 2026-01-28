@@ -1,0 +1,9 @@
+question: Co je etologie?
+answer: Věda o způsobech bytí.
+wrong_answers:
+  - Přírodní věda.
+  - Mechanická věda.
+  - Odvozenina astrologie.
+explanation: |
+  Etologie je věda o bytí, o chování. Pro Spinozu a Deleuze je to nauka o tom, co tělo dokáže, o jeho afektech a schopnostech jednání a vášní.
+reviewed: false

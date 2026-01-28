@@ -1,5 +1,5 @@
 ---
-name: BTC 地图
+name: BTC Map
 description: 寻找 Sats 的消费场所
 ---
 ![cover](assets/cover.webp)

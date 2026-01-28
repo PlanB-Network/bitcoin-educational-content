@@ -1,13 +1,11 @@
-question: Ni nini kinachozuia kila mtu kutumia Bitcoin Wallet sawa?
-answer: Watu tofauti wanahitaji kesi tofauti za matumizi.
+question: Je, ni lini Bitcoin ilitumiwa kununua bidhaa halisi?
+answer: Wakati Laszlo Hanyecz alinunua pizza 2 kwa 10,000 BTC.
 wrong_answers:
-  - Ni ghali kutumia Bitcoin Wallet.
-  - Ni kinyume cha sheria kutumia Bitcoin Wallet.
-  - Watu hawatakubali kamwe juu ya jina la Wallet kama hilo.
+  - Wakati Hal Finney alinunua gari kwa 100,000 BTC.
+  - Wakati Satoshi Nakamoto alinunua nyumba kwa 1,000,000,000 BTC.
+  - Hakuna chaguzi zingine.
 explanation: |
-  Ingawa mtu mmoja anaweza kutanguliza usalama, mwingine anaweza
-  thamini urafiki wa mtumiaji au vipengele maalum. Kwa hivyo, a
-  Bitcoin Wallet moja inaweza isitoshe ya kila mtu
-  mahitaji, na kuifanya kuwa muhimu kwa Wallet nyingi
-  chaguzi kuwepo.
+  Mara ya kwanza ambayo Bitcoin ilitumiwa kununua kimwili
+  bidhaa ilikuwa wakati Laszlo Hanyecz alinunua pizza 2 kwa 10,000
+  BTC, mnamo 2010/05/22 ambayo sasa inajulikana kama Siku ya Pizza
 reviewed: true

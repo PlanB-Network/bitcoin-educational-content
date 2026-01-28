@@ -1,0 +1,9 @@
+question: Mikä on node-in-a-boxin tärkein etu verrattuna raakakäytäntöön?
+answer: Helppo asennus ja integroitu sovellusten hallinta
+wrong_answers:
+  - Konsensussääntöjen tiukempi todentaminen
+  - Suora pääsy Blockchain:een ilman varastointia
+  - Yhteensopivuus muun valuutan kuin Bitcoin kanssa
+explanation: |
+  Node-in-a-box yksinkertaistaa lukuisten lisäsovellusten asennusta ja hallintaa yhtenäisen Interface:n kautta.
+reviewed: true

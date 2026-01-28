@@ -1,0 +1,9 @@
+question: Welke van de genoemde verbindingsmethoden tussen een Lightning-knooppunt en een mobiele client wordt expliciet niet aanbevolen voor dit gebruik?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet aansluiten
+  - Geen
+explanation: |
+  Tor werkt in de praktijk erg slecht voor dit doel, met storingen en latentie die zorgen voor een slechte gebruikerservaring.
+reviewed: false

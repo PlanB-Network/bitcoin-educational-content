@@ -1,0 +1,9 @@
+question: From which century is Spinoza a philosopher?
+answer: From the 17th century.
+wrong_answers:
+  - From the 16th century.
+  - From the 18th century.
+  - From antiquity.
+explanation: |
+  Spinoza lived from 1632 to 1677, making him a philosopher of the 17th century. This period, known as the Age of Reason, saw the emergence of modern rationalism and new scientific approaches to understanding the world.
+reviewed: false

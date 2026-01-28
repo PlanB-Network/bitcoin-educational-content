@@ -11,7 +11,7 @@ Henkilökohtaisten tietojen suojaaminen digitaaliaikana on jokaisen internetin k
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## PureOS:n käytön aloittaminen
 
@@ -27,25 +27,25 @@ PureOS on Purismin kehittämä Debian-pohjainen käyttöjärjestelmä. PureOS so
 
 
 
-- Yksinkertainen, intuitiivinen Interface**: GNOME tarjoaa selkeän Interface-työpöydän, joka on suunniteltu helppokäyttöiseksi myös niille, jotka eivät tunne komentoriviä.
+- **Yksinkertainen, intuitiivinen Interface**: GNOME tarjoaa selkeän Interface-työpöydän, joka on suunniteltu helppokäyttöiseksi myös niille, jotka eivät tunne komentoriviä.
 
 
 
 
 
-- Ilmainen**: kuten useimmat Linux-jakelut, PureOS on täysin ilmainen käyttää. Kuukausitilaus on kuitenkin saatavilla kehittäjien tukemiseksi.
+- **Ilmainen**: kuten useimmat Linux-jakelut, PureOS on täysin ilmainen käyttää. Kuukausitilaus on kuitenkin saatavilla kehittäjien tukemiseksi.
 
 
 
 
 
-- Turvallisuus ja vakaus**: PureOS:n arkkitehtuuri ja käyttötapa tekevät siitä erittäin turvallisen jakelun, joka takaa tietosuojan ja järjestelmän vakauden.
+- **Turvallisuus ja vakaus**: PureOS:n arkkitehtuuri ja käyttötapa tekevät siitä erittäin turvallisen jakelun, joka takaa tietosuojan ja järjestelmän vakauden.
 
 
 
 
 
-- Dokumentaatio ja aktiivinen yhteisö**: PureOS:llä on selkeä, helppokäyttöinen dokumentaatio ja sitoutunut, reagoiva yhteisö, jonka avulla on helppo ratkaista ongelmia ja oppia järjestelmä askel askeleelta.
+- **Dokumentaatio ja aktiivinen yhteisö**: PureOS:llä on selkeä, helppokäyttöinen dokumentaatio ja sitoutunut, reagoiva yhteisö, jonka avulla on helppo ratkaista ongelmia ja oppia järjestelmä askel askeleelta.
 
 
 
@@ -64,7 +64,7 @@ PureOS:n asentaminen ja konfigurointi tietokoneeseen edellyttää seuraavia mini
 
 
 
-Siirry [PureOS:n viralliselle verkkosivustolle] (https://pureos.net/) ja lataa käyttöjärjestelmän ISO-kuva koneesi arkkitehtuurin mukaan.
+Siirry [PureOS:n viralliselle verkkosivustolle](https://pureos.net/) ja lataa käyttöjärjestelmän ISO-kuva koneesi arkkitehtuurin mukaan.
 
 
 
@@ -181,7 +181,7 @@ Sinulla on kaksi vaihtoehtoa Hard-levyn osiointiin:
 
 
 
-- Poista levy**: Poistaa kaikki Hard-levyltä jo olemassa olevat tiedot, kun haluat asentaa PureOS:n kokonaan.
+- **Poista levy**: Poistaa kaikki Hard-levyltä jo olemassa olevat tiedot, kun haluat asentaa PureOS:n kokonaan.
 
 
 
@@ -191,7 +191,7 @@ Sinulla on kaksi vaihtoehtoa Hard-levyn osiointiin:
 
 
 
-- Manuaalinen osiointi** omien pisteytysten luomiseksi
+- **Manuaalinen osiointi** omien pisteytysten luomiseksi
 
 
 
@@ -260,7 +260,7 @@ Ennen kuin aloitat PureOS:n käytön, on tärkeää päivittää järjestelmäsi
 
 
 
-- Päivitys Interface-kuvauksen kautta**:
+- **Päivitys Interface-kuvauksen kautta**:
 
 
 Avaa **Ohjelmisto**-sovellus ja siirry sitten **Päivitykset**-välilehdelle. Käytettävissä olevat päivitykset näytetään automaattisesti. Napsauta **Lataus** ja sitten **Asenna**, kun lataus on valmis.
@@ -269,7 +269,7 @@ Avaa **Ohjelmisto**-sovellus ja siirry sitten **Päivitykset**-välilehdelle. K�
 
 
 
-- Päivitys päätelaitteen kautta**:
+- **Päivitys päätelaitteen kautta**:
 
 
 Avaa terminaali ja kirjoita seuraava komento päivittääksesi käytettävissä olevien pakettien luettelon:
@@ -331,9 +331,9 @@ PureOS sisältää myös **LibreOffice**-toimistopaketin, joka sisältää:
 
 
 
-- Writer**: täydellinen tekstinkäsittelyohjelma asiakirjojen luomiseen ja muokkaamiseen.
-- Calc**: tehokas taulukkolaskentaohjelma tietojen ja laskelmien hallintaan.
-- Impress**: työkalu ammattimaisten esitysten luomiseen.
+- **Writer**: täydellinen tekstinkäsittelyohjelma asiakirjojen luomiseen ja muokkaamiseen.
+- **Calc**: tehokas taulukkolaskentaohjelma tietojen ja laskelmien hallintaan.
+- **Impress**: työkalu ammattimaisten esitysten luomiseen.
 
 
 
@@ -353,4 +353,4 @@ Tutustu kursseihimme tietoturvan vahvistamisesta ja digitaalisen yksityisyytesi 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

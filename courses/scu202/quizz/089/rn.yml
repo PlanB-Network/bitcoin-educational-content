@@ -1,9 +1,9 @@
-question: Ni iyihe serivisi yo gukora ikarita yemerera gukoreshwa ata n’imwe ikoreshwa kandi idakurikirana amatangazo?
-answer: Ikarata y'ibinyabuzima
+question: Ni iyihe serivisi y’ikarata yemerera gukoreshwa ata interineti kandi udakurikiranwa n’amatangazo?
+answer: Organic Maps
 wrong_answers:
-  - Ikarata ya Google
+  - Google Maps
   - Waze
-  - Ikarita y'igisagara
+  - Citymapper
 explanation: |
-  Ikarata y’ibinyabuzima ni porogaramu y’inkomoko yuguruye ishingiye kuri OpenStreetMap ikora ata murongo, ata bakurikirana canke gukusanya amakuru, bitandukanye n’ibindi bikoresho vy’ubuhinga.
-reviewed: false
+  Organic Maps ni porogarame y’isoko yuguruye ishingiye kuri OpenStreetMap ikora bitagombereye interineti, ata gukurikiranwa canke gukorakoranya amakuru, bitandukanye n’ibindi bikoresho vy’abantu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Pourquoi la mise à niveau Pay to Script Hash devait-elle bénéficier d'un signalement de 55 % de la puissance de hachage du réseau pour être activée ?
+answer: Pour qu'elle soit « rétrocompatible » et qu'elle ne crée pas de scission de la chaine
+wrong_answers:
+  - Parce que la gouvernance du protocole dépend du vote des mineurs (« un processeur, une voix »)
+  - Pour ne pas trop centraliser l'activité minière, alors dominée par quelques coopératives
+  - Parce que le meneur du projet, Gavin Andresen, ne voulait pas être un « dictateur bienveillant »
+explanation: |
+ Il s'agissait d'une restriction des règles de consensus, ce qu'on appelerait plus tard un « soft fork ». La mise à niveau ne crée pas scission de chaine si elle est soutenue par une majorité de la puissance de calcul du réseau.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä komento hakee Umbrelin paikallisen IP Address:n, jos yhteys umbrel.localin kautta ei onnistu?
+answer: hostname -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  Jos havaitsemisongelmia ilmenee, voit selvittää Umbrel-koneen paikallisen IP-osoitteen komennolla hostname -I.
+reviewed: true

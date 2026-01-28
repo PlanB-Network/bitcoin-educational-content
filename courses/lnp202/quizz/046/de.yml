@@ -1,0 +1,9 @@
+question: Warum schafft ein Zahlungsausgang automatisch einen Liquiditätseingang?
+answer: Liquiditätsverschiebung
+wrong_answers:
+  - Neue Kanäle schaffen
+  - Erhöhung der Kapazität
+  - Niedrigere Routingkosten
+explanation: |
+  Eine ausgehende Zahlung bringt sats auf den Nennwert, wodurch auf dieser Seite des Kanals eingehende Liquidität geschaffen wird.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Digitalna kopija ručnog potpisa
 explanation: |
   Digitalni potpis je kriptografska tehnika koja dokazuje da je poruku zaista kreirao vlasnik odgovarajućeg privatnog ključa, čime se osigurava njena autentičnost.
-reviewed: false
+reviewed: true

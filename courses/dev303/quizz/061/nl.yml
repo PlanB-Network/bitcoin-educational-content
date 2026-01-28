@@ -1,0 +1,8 @@
+question: Wat is het fundamentele verschil tussen hoe macro's en functies worden verwerkt in Rust?
+answer: Macro's worden door de compiler tijdens het compileren uitgebreid voordat het compileren begint, terwijl functies tijdens het runtimen worden aangeroepen
+wrong_answers:
+  - Macro's gebruiken patroonherkenning voor typecontrole, terwijl functies statische analyse gebruiken voor validatie tijdens runtime
+  - Macro's generate geoptimaliseerde assemblagecode direct, terwijl functies worden geïnterpreteerd door de Rust virtuele machine
+  - Macro's worden tijdens de uitvoering in het geheugen opgeslagen, terwijl functies van de schijf worden geladen wanneer ze worden aangeroepen
+explanation: |
+  Het juiste antwoord identificeert het belangrijkste temporele onderscheid: macro's werken tijdens het compileren door code-uitbreiding, terwijl functies worden uitgevoerd tijdens de runtime van het programma. De foute antwoorden verwarren verschillende programmeerconcepten - Rust gebruikt geen virtuele machine, zowel macro's als functies ondergaan typecontrole (maar in verschillende stadia), en noch functies noch macro's worden tijdens de uitvoering op de beschreven manier van schijf geladen.

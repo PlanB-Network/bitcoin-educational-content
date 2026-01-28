@@ -1,0 +1,17 @@
+title: "Improving the Efficiency and Reliability of Digital Time-Stamping"
+original_language: en
+authors:
+  - Dave Bayer
+  - Stuart Haber
+  - W. Scott Stornetta
+abstract: |
+  To establish that a document was created after a given moment in time, it is necessary to report events that could not have been predicted before they happened. To establish that a document was created before a given moment in time, it is necessary to cause an event based on the document, which can be observed by others. Cryptographic hash functions can be used both to report events succinctly, and to cause events based on documents without revealing their contents. Haber and Stornetta have proposed two schemes for digital time-stamping which rely on these principles [HaSt 91]. We reexamine one of those protocols, addressing the resource constraint required for storage and verification of time-stamp certificates. By using trees, we show how to achieve an exponential increase in the publicity obtained for each time-stamping event, while reducing the storage and the computation required in order to validate a given certificate. We show how time-stamping can be used in certain circumstances to extend the useful lifetime of different kinds of cryptographic certifications of authenticity, in the event that the certifying protocol is compromised. This can be applied to digital signatures, or to time-stamping itself, making the digital time-stamping process renewable.
+publication_date: 1992-03-01
+paper_type: conference
+source: Springer
+type: SCI
+topics:
+  - Timestamping Protocols
+  - Cryptographic Commitment Schemes
+pdf_url: https://github.com/bitcoinwords/bitcoinwords.github.io/blob/master/assets/papers/improving-the-efficiency-and-reliability-of-digital-timestamping.pdf
+id: a5f53480-072d-4009-9f40-e0cb9d4ce5f6

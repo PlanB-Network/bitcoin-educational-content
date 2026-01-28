@@ -1,0 +1,8 @@
+question: Was muss ein Knoten während der Bitcoin-Transaktionsvalidierung überprüfen, um sicherzustellen, dass jede Eingabe ordnungsgemäß autorisiert ist, ihre referenzierte Ausgabe auszugeben?
+answer: Das ScriptSig muss den entsprechenden ScriptPubKey erfolgreich freischalten, wenn es zusammen ausgeführt wird
+wrong_answers:
+  - "Die digitale Signatur der Eingabe muss genau mit dem eingebetteten öffentlichen Schlüssel der Ausgabe übereinstimmen"
+  - Der Transaktionshash muss der Merkle-Wurzel entsprechen, die im referenzierten Block-Header gespeichert ist
+  - Der Eingangsbetrag muss größer oder gleich dem Ausgangsbetrag sein, der ausgegeben wird
+explanation: |
+  Das Skriptsystem von Bitcoin setzt voraus, dass das ScriptSig (Entsperrungsskript) jeder Eingabe erfolgreich mit dem ScriptPubKey (Sperrskript) der referenzierten Ausgabe ausgeführt werden muss, um ein echtes Ergebnis auf dem Stapel zu erzeugen. Dieses Skriptausführungsmodell ermöglicht flexible Ausgabenbedingungen, die über den einfachen Signaturabgleich hinausgehen. Die anderen Optionen beschreiben falsche Validierungsanforderungen - Signaturen müssen nicht exakt mit eingebetteten Schlüsseln übereinstimmen, Transaktions-Hashes werden während der Eingabevalidierung nicht mit Merkle-Wurzeln verglichen, und einzelne Eingaben müssen ihre Ausgaben nicht übersteigen (nur die Gesamteingaben müssen die Gesamtausgaben übersteigen).

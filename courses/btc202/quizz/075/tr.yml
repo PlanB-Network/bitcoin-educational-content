@@ -1,0 +1,9 @@
+question: UTXO setinin boyutu neden zaman içinde yapısal olarak büyüme eğilimindedir?
+answer: Her ödeme genellikle iki yeni UTXO yaratır
+wrong_answers:
+  - Geleneksel ödemeler girdi olarak UTXO tüketmez
+  - Her bir Fork mevcut UTXO'ların sayısını çoğaltır
+  - Oluşturulabilecek bitcoin sayısı sonsuzdur
+explanation: |
+  Bir ödeme işlemi bir UTXO tüketir ve genellikle iki (ödeme + Exchange) yeniden oluşturarak setin toplam boyutunu şişirir.
+reviewed: true

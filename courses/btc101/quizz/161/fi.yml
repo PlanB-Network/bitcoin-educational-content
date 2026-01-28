@@ -1,9 +1,11 @@
-question: Mikä on päähuoli Bitcoin-louhinnan ympäristökustannuksista?
-answer: Energiankulutus.
+question: Kuinka Bitcoin voi mahdollisesti auttaa ekologisessa siirtymässä?
+answer: Se edistää vihreän energian käyttöä.
 wrong_answers:
-  - ASICien tuotanto.
-  - ASICien kierrätys.
-  - Sähkön hinta.
+  - Se vähentää tavaroiden tuotantoa.
+  - Se säätelee resurssien kulutusta.
+  - Se rajoittaa vain kasvihuonekaasujen päästöjä.
 explanation: >-
-  Bitcoin-louhinnan pääasiallinen ympäristöhuoli on energiankulutus. Vaikka ASICit on pääasiassa valmistettu alumiinista ja ne voidaan kierrättää tai uudelleenkäyttää, näiden koneiden käyttämä energia on merkittävää.
+  Bitcoin edistää vihreän energian käyttöä, mikä voi mahdollisesti auttaa
+  ekologisessa siirtymässä. Esimerkiksi öljykaivojen liekit, jotka polttavat
+  metaania estääkseen saastumisen, voidaan sammuttaa Bitcoin-louhijoiden toimesta.
 reviewed: true

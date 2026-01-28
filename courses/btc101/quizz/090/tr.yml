@@ -1,13 +1,11 @@
-question: Mobil Wallet için önerilen kullanım şekli nedir?
-answer: Günlük harcamaların saklanması.
+question: Özel anahtarınız üçüncü bir tarafa ifşa edilirse ne olur?
+answer: Üçüncü taraf bitcoinlerinizi harcayabilir.
 wrong_answers:
-  - Uzun vadeli birikimlerin saklanması.
-  - Orta vadeli tasarrufların saklanması.
-  - Büyük miktarlarda depolama.
+  - Üçüncü taraf yalnızca işlem geçmişinizi görüntüleyebilir.
+  - Üçüncü taraf özel anahtarınızı değiştirebilir.
+  - Üçüncü taraf kişisel bilgilerinize erişebilir.
 explanation: |
-  Günlük harcamalar için mobil bir Wallet önerilir çünkü
-  onunla işlem yapmak kolaydır. Ancak, bu
-  büyük miktarlarda depolamak için veya
-  uzun vadeli tasarruflar çünkü potansiyel olarak
-  çevrimiçi tehditler.
+  Özel anahtarınız üçüncü bir tarafa ifşa edilirse
+  ilgili fonlar artık güvenli değildir, çünkü özel sektör
+  anahtarı fonlarınıza erişmelerini sağlar.
 reviewed: true

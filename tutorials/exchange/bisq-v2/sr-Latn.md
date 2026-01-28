@@ -11,7 +11,7 @@ description: Potpuni vodič za korišćenje Bisq 2 i razmenu bitkoina P2P
 Peer-to-peer razmene bez KYC (P2P) su ključne za očuvanje poverljivosti korisnika i finansijske autonomije. Omogućavaju direktne transakcije između pojedinaca bez potrebe za verifikacijom identiteta, što je od suštinskog značaja za one koji cene privatnost. Za dublje razumevanje teorijskih koncepata, pogledajte kurs BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Šta je Bisq 2?
 
@@ -31,7 +31,7 @@ Bisq 2 je nova verzija popularnog decentralizovanog Bisq Exchange, lansirana 202
 - Sistem uloga sa obaveznim depozitom u BSQ
 
 
-Ovaj vodič se fokusira isključivo na "Bisq Easy", jedini trenutno dostupni protokol. Bisq Easy je dizajniran posebno za nove korisnike Bitcoin. Ovaj protokol omogućava korisnicima da kupuju i prodaju Bitcoine u zamenu za fiat valute na decentralizovanoj peer-to-peer platformi. Transakcije su ograničene na ekvivalent od 600 USD (sa minimumom od 6 USD), a sigurnost Exchange se oslanja na reputaciju prodavaca BTC-a. Bisq Easy nema naknade za trgovanje niti zahteve za sigurnosni depozit. Očekuje se da će Bisq Easy zameniti Bisq 1 za gotovinske razmene ispod 600 USD (ili ekvivalent).
+Ovaj vodič se isključivo fokusira na „Bisq Easy“, jedini trenutno dostupni protokol. Bisq Easy je posebno dizajniran za nove korisnike Bitcoina. Ovaj protokol omogućava korisnicima kupovinu i prodaju bitkoina za fiat valute na decentralizovanoj peer-to-peer platformi. Transakcije su ograničene na ekvivalent od 600 USD (sa minimumom od 6 USD), a sigurnost trgovine zasniva se na reputaciji prodavaca BTC-a. Bisq Easy nema trgovačke naknade niti zahtev za depozitom. Očekuje se da će Bisq Easy zameniti Bisq 1 za fiat trgovine ispod 600 USD (ili ekvivalent).
 
 
 **Glavne karakteristike:**
@@ -84,7 +84,7 @@ Ovaj vodič se fokusira isključivo na "Bisq Easy", jedini trenutno dostupni pro
 - Kreator ponude definiše uslove Exchange
 - Jednom kada se trgovci dogovore o uslovima (način plaćanja i cena), Exchange počinje
 - Prodavac šalje svoje bankovne podatke kupcu, a kupac šalje svoj Bitcoin Address prodavcu.
-- Kupac vrši uplatu u gotovini i obaveštava prodavca
+- Kupac vrši uplatu u fiat valuti i obaveštava prodavca
 - Jednom kada uplata bude primljena, prodavac šalje bitkoine kupcu na Address
 - Exchange je završen kada kupac primi bitkoine
 
@@ -117,7 +117,7 @@ Ovaj vodič se fokusira isključivo na "Bisq Easy", jedini trenutno dostupni pro
 - Proverite autentičnost preuzete datoteke (preporučuje se). Za detaljan vodič o verifikaciji potpisa, pogledajte sledeći tutorijal:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Instalacija prema vašem sistemu
 
@@ -472,11 +472,11 @@ Da biste poboljšali svoju reputaciju na Bisq-u kao prodavac, redovno obavljajte
 
 
 
-- Maksimalna poverljivost**: Nema KYC, korišćenje Tor-a
-- Decentralizacija**: Nema centralnog servera
-- Sigurnost**: Otvoreni kod, nekustodijalni kod
-- Intuitivni Interface**: jednostavniji od Bisq 1
-- Fleksibilnost**: Više Exchange protokola
+- **Maksimalna poverljivost**: Nema KYC, korišćenje Tor-a
+- **Decentralizacija**: Nema centralnog servera
+- **Sigurnost**: Otvoreni kod, nekustodijalni kod
+- **Intuitivni Interface**: jednostavniji od Bisq 1
+- **Fleksibilnost**: Više Exchange protokola
 
 
 ### Bisq 2 nedostaci
@@ -484,12 +484,12 @@ Da biste poboljšali svoju reputaciju na Bisq-u kao prodavac, redovno obavljajte
 
 
 
-- Ograničena likvidnost** (za sada) :
+- **Ograničena likvidnost** (za sada) :
  - Novi protokol u fazi pokretanja
  - Nekoliko prodajnih ponuda dostupno
  - Potencijalno dugo čekanje na pronalaženje kupca
-- Ograničenja trgovanja**: Maksimalno 600 USD po transakciji (sa Bisq easy)
-- Samo za desktop**: Nema mobilne aplikacije
+- **Ograničenja trgovanja**: Maksimalno 600 USD po transakciji (sa Bisq easy)
+- **Samo za desktop**: Nema mobilne aplikacije
 
 
 ## Budući Protokoli
@@ -500,16 +500,16 @@ Iako je Bisq Easy trenutno jedini dostupni protokol, nekoliko drugih protokola j
 
 
 
-- Bisq Lightning**: Exchange protokol zasnovan na escrow sistemu koristeći kriptografiju višestranačke računarske obrade na Lightning Network.
-- Bisq MuSig**: Migracija glavnog protokola sa Bisq 1 na Bisq 2, koristeći 2-na-2 Multisig sa sigurnosnim depozitima.
-- BSQ Swaps**: Instantni atomski svopovi između BSQ i BTC.
-- Liquid Swaps**: Exchange od sredstava na Liquid Network (USDT, BTC-L) putem atomskih zamena.
-- Monero Swaps**: Atomske razmene između Bitcoin i Monera.
-- Liquid MuSig**: Verzija Multisig protokola koja koristi L-BTC za niže troškove i veću poverljivost.
-- Zamene podmornica**: Razmene između Bitcoin na Lightning Network i Bitcoin On-Chain.
-- Stablecoin Swaps**: Atomske razmene između Bitcoin i USD stablecoina.
-- Multisig Opcije**: Kreiranje P2P put i call opcija sa BTC blokiranjem u On-Chain Multisig transakciji.
-- Multisig Open Contracts**: Omogućava kreiranje prilagođenih uslovnih ugovora koristeći 2-na-3 Multisig sistem sa arbitražom.
+- **Bisq Lightning**: Exchange protokol zasnovan na escrow sistemu koristeći kriptografiju višestranačke računarske obrade na Lightning Network.
+- **Bisq MuSig**: Migracija glavnog protokola sa Bisq 1 na Bisq 2, koristeći 2-na-2 Multisig sa sigurnosnim depozitima.
+- **BSQ Swaps**: Instantni atomski svopovi između BSQ i BTC.
+- **Liquid Swaps**: Exchange od sredstava na Liquid Network (USDT, BTC-L) putem atomskih zamena.
+- **Monero Swaps**: Atomske razmene između Bitcoin i Monera.
+- **Liquid MuSig**: Verzija Multisig protokola koja koristi L-BTC za niže troškove i veću poverljivost.
+- **Zamene podmornica**: Razmene između Bitcoin na Lightning Network i Bitcoin On-Chain.
+- **Stablecoin Swaps**: Atomske razmene između Bitcoin i USD stablecoina.
+- **Multisig Opcije**: Kreiranje P2P put i call opcija sa BTC blokiranjem u On-Chain Multisig transakciji.
+- **Multisig Open Contracts**: Omogućava kreiranje prilagođenih uslovnih ugovora koristeći 2-na-3 Multisig sistem sa arbitražom.
 
 
 Ovi protokoli su trenutno u fazi razvoja i biće postepeno integrisani u Bisq 2, nudeći veću fleksibilnost korisnicima u skladu sa njihovim specifičnim potrebama.

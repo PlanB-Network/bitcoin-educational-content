@@ -1,10 +1,11 @@
-question: Apa itu Manifesto Cypherpunk?
-answer: Sebuah teks yang ditulis oleh Eric Hughes yang menegaskan bahwa privasi adalah hak asasi.
+question: Apa kriteria untuk mata uang yang efektif?
+answer: Fungible, Dapat Dibagi, Likuid
 wrong_answers:
-  - Sebuah buku yang ditulis oleh Julian Assange tentang masa depan teknologi.
-  - Sebuah dokumen yang menguraikan prinsip-prinsip Bitcoin.
-  - Sebuah manifesto yang ditulis oleh David Chaum tentang pentingnya mata uang digital.
+  - Fungible, Dapat Dibagi, Mudah Rusak
+  - Fungible, Tidak Dapat Dibagi, Likuid
+  - Tidak Fungible, Dapat Dibagi, Likuid
 explanation: |
-  Manifesto Cypherpunk ditulis oleh Eric Hughes pada tahun 1993 dan menegaskan
-  bahwa privasi adalah hak asasi.
+  Kriteria untuk mata uang yang efektif adalah harus fungible
+  (dapat ditukar tanpa kehilangan nilai), dapat dibagi (untuk memfasilitasi transaksi dengan volume yang berbeda),
+  dan likuid (mudah dikonversi menjadi barang atau jasa).
 reviewed: true

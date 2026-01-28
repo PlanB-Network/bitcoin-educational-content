@@ -1,11 +1,9 @@
-question: Co mohou těžaři udělat pro ty elektrárny, které ještě nejsou připojeny k síti?
-answer: Mohou působit jako kupci poslední instance.
+question: Jaký je jeden z důvodů, proč je Bitcoin atraktivní pro určité skupiny?
+answer: Jeho schopnost nabízet řešení jako je bezdůvěrná elektronická hotovost, odolnost vůči cenzuře nebo transparentní a neměnná měnová politika.
 wrong_answers:
-  - Mohou poskytovat elektrárny elektřinou.
-  - Mohou připojit elektrárny k síti.
-  - Mohou regulovat cenu elektřiny.
-explanation: |
-  Těžaři mohou působit jako kupci poslední instance pro elektrárny,
-  které ještě nejsou připojeny k síti. To umožňuje elektrárnám
-  zabezpečit financování ještě před připojením k elektrické síti.
+  - Je snadné ho padělat a může vytvářet řešení pro získání více peněz jednoduchým kliknutím.
+  - Je kontrolován centrální autoritou, která volně distribuuje kapitál uživatelům.
+  - Není pseudonymní, takže každý uživatel je dobře známý a důvěryhodný.
+explanation: >-
+  Decentralizovaná povaha Bitcoinu, pseudonymita a odolnost vůči cenzuře jej činí atraktivním pro skupiny jako jsou technofilové, cypherpunkové, libertariáni a nadšenci do zlata.
 reviewed: true

@@ -1,11 +1,13 @@
-question: Co znamená, že Bitcoin je neutrální měna?
-answer: Není kontrolován žádnou entitou nebo institucí.
+question: Co je Prohlášení o nezávislosti kyberprostoru?
+answer: Text tvrdící, že kyberprostor je odlišná sféra od fyzického světa a neměl by podléhat stejným zákonům.
 wrong_answers:
-  - Je kontrolován jednou entitou nebo institucí.
-  - Je regulován vládou.
-  - Používá se pouze pro velké transakce.
+  - Prohlášení uvádějící nezávislost Bitcoinu na tradičních finančních systémech.
+  - Text tvrdící, že kyberprostor by měl být kontrolován vládní regulací.
+  - Prohlášení, které zastává nezávislost pirátského hnutí na jakékoliv regulaci.
 explanation: |
-  Bitcoin je neutrální měna, což znamená, že není kontrolován
-  žádnou entitou nebo institucí, takže každý uživatel má stejná
-  práva. To je klíčový aspekt jeho decentralizace.
+  Prohlášení o nezávislosti kyberprostoru bylo
+  napsáno Johnem Perrym Barlowem v roce 1996. Tento dokument tvrdí,
+  že kyberprostor je odlišná sféra od fyzického
+  světa, takže průmyslové vlády nemohou tam uplatňovat svou
+  autoritu.
 reviewed: true

@@ -1,11 +1,10 @@
-question: Ni bande bashigikiye cane inyigisho y’i Otirishiya y’ingendo y’ubudandaji?
+question: Ni bande bashigikiye cane inyigisho y’i Otirishi y’ingendo y’ubudandaji?
 answer: Ludwig Von Mises na Friedrich Hayek
 wrong_answers:
   - Yohani Maynard Keynes na Milton Friedman
   - Adamu Smith na Dawidi Rikardo
   - Karli Marikisi na Fridiriki Engelsi
 explanation: |
-  Ivyiyumviro vy’Abanyaotirishiya vyerekeye Inzinguzingu y’Ubucuruzi vyateguwe na Ludwig Von .
-  Mises na Friedrich Hayek, bompi bakaba bari abagize Ishure ry’i Otirishiya bazwi cane .
-  y’ubutunzi.
+  Ivyiyumviro vy’Abanyaotirishi vyerekeye Inzinguzingu y’Ubucuruzi(ubutunzi) vyateguwe na Ludwig Von .
+  Mises na Friedrich Hayek, bompi bakaba bari abagize Ishure ry’i Otirishi bazwi cane . mugisata c’ubutunzi.
 reviewed: true

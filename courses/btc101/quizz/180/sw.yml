@@ -1,8 +1,8 @@
-question: Je, ni sababu gani moja inayofanya iwe vigumu kwa mamlaka za kifedha kudhibiti Bitcoin?
-answer: Inafanya kazi kwa kiwango cha kimataifa, masaa 24 kwa siku, siku 7 kwa wiki.
+question: Je, ni faida gani moja ya kukubali Bitcoin kama mfanyabiashara?
+answer: Upinzani wa udhibiti.
 wrong_answers:
-  - Inadhibitiwa na mamlaka kuu.
-  - Haitumiki popote duniani.
-  - Ni rahisi kughushi.
+  - Ongezeko la ada za muamala.
+  - Ulinzi dhidi ya deflation.
+  - Kizuizi cha kifedha.
 explanation: >-
 reviewed: true

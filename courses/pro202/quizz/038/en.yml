@@ -1,0 +1,8 @@
+question: What determines the transaction fee amount in a Bitcoin transaction during the construction process?
+answer: The difference between the total value of all inputs and the total value of all outputs
+wrong_answers:
+  - A fixed percentage of the total transaction value calculated by the network protocol
+  - The size of the transaction in bytes multiplied by a standard rate set by miners
+  - The number of signatures required across all inputs plus a base network fee
+explanation: |
+  Bitcoin transaction fees are determined by the difference between total inputs and total outputs. When constructing a transaction, you select UTXOs as inputs and create outputs for recipients and change. Any leftover amount becomes the fee that incentivizes miners to include your transaction. The fee is not calculated by percentage, fixed rates, or signature counts - it's simply what remains unallocated in the transaction's value balance.

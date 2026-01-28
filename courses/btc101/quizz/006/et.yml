@@ -1,0 +1,10 @@
+question: Mis on Cypherpunk Manifest?
+answer: Tekst, mille on kirjutanud Eric Hughes, väites, et privaatsus on põhiõigus.
+wrong_answers:
+  - Raamat, mille on kirjutanud Julian Assange tehnoloogia tuleviku kohta.
+  - Dokument, mis kirjeldab Bitcoini põhimõtteid.
+  - Manifest, mille on kirjutanud David Chaum digitaalse valuuta tähtsuse kohta.
+explanation: |
+  Cypherpunk Manifesti kirjutas Eric Hughes 1993. aastal ja see väidab,
+  et privaatsus on põhiõigus.
+reviewed: true

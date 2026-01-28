@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   The collaborator in a Stonewall x2 transaction provides bitcoins to add doubt to the transaction analysis, while fully recovering their funds at the end (a neutral action for them, minus the mining fees).
 
-reviewed: false
+reviewed: true

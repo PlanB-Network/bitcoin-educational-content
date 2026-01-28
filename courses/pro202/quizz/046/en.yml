@@ -1,0 +1,8 @@
+question: What is the mathematical relationship between Bitcoin's difficulty value and the current target used for block validation?
+answer: Difficulty equals the lowest possible target divided by the current target
+wrong_answers:
+  - Difficulty equals the current target divided by the lowest possible target
+  - Difficulty equals the current target multiplied by the lowest possible target
+  - Difficulty equals the coefficient times 256 raised to the exponent minus 3
+explanation: |
+  Bitcoin's difficulty is specifically defined as lowest_target / current_target, which expresses how many times harder mining is compared to the easiest possible difficulty. This inverse relationship means that as the target gets smaller (making valid hashes harder to find), the difficulty increases proportionally. The formula ensures difficulty of 1 represents the easiest mining conditions, while higher values indicate proportionally more computational work required to find valid blocks.

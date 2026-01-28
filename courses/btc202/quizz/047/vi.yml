@@ -1,0 +1,9 @@
+question: Những biện pháp bảo mật nào được khuyến nghị mạnh mẽ khi tạo tài khoản Umbrel?
+answer: Kích hoạt 2FA
+wrong_answers:
+  - Vô hiệu hóa mật khẩu
+  - Sử dụng mã PIN
+  - Vô hiệu hóa tất cả các kết nối
+explanation: |
+  Xác thực 2 yếu tố (2FA) giúp tăng cường bảo vệ và được khuyến khích sử dụng, đặc biệt khi sử dụng nút Lightning hoặc dịch vụ lưu trữ tự động nhạy cảm.
+reviewed: true

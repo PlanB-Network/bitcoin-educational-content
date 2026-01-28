@@ -1,0 +1,9 @@
+question: Skolastik felsefe nedir?
+answer: Orta Çağ'a ait bir Hıristiyan felsefesi.
+wrong_answers:
+  - Siyasi bir hareket.
+  - Anarşist bir felsefe.
+  - Rasyonel bir felsefe.
+explanation: |
+  Skolastik felsefe, Orta Çağ'da Avrupa üniversitelerine hakim olan bir Hıristiyan felsefesiydi. Hıristiyan inancını Aristoteles felsefesi ile uyumlu hale getirmeye çalışmıştır.
+reviewed: false

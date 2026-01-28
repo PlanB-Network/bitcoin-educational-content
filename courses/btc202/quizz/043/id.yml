@@ -1,0 +1,9 @@
+question: Apa perbedaan antara Umbrel Home dan umbrelOS?
+answer: Umbrel Home adalah server mini yang sudah diinstal sebelumnya, umbrelOS adalah instalasi do-it-yourself
+wrong_answers:
+  - Umbrel Home gratis, umbrelOS tidak
+  - Umbrel Home tidak mendukung Bitcoin; umbrelOS mendukungnya
+  - Umbrel Home adalah sumber terbuka, umbrelOS adalah hak milik
+explanation: |
+  Umbrel Home dijual siap pakai dengan umbrelOS yang sudah terinstal, sementara umbrelOS dapat diinstal secara DIY pada perangkat keras Anda sendiri.
+reviewed: true

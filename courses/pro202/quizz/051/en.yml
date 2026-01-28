@@ -1,0 +1,8 @@
+question: In Bitcoin's P2P network message structure, what specific data constitutes the 4-byte checksum field in every message envelope?
+answer: The first 4 bytes of the hash256 of the message payload
+wrong_answers:
+  - The first 4 bytes of the SHA256 hash of the entire message envelope
+  - The first 4 bytes of the hash256 of the command field concatenated with payload
+  - The first 4 bytes of the RIPEMD160 hash of the message payload
+explanation: |
+  Bitcoin's P2P message envelope uses a specific checksum mechanism where the 4-byte checksum field contains the first 4 bytes of hash256 applied to the message payload only. This provides integrity verification for the payload data during network transmission. The other options are incorrect because they reference different hash functions (single SHA256, RIPEMD160) or different input data (entire envelope, command+payload) than what Bitcoin actually implements in its networking protocol.

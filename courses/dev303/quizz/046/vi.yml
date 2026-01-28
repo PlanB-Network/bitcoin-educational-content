@@ -1,0 +1,8 @@
+question: Điều gì xảy ra khi bạn sao chép một thể hiện RC<T> chứa cấu trúc dữ liệu lớn?
+answer: Chỉ có phần tham chiếu được sao chép và bộ đếm tham chiếu được tăng lên, dữ liệu gốc vẫn không thay đổi.
+wrong_answers:
+  - Toàn bộ cấu trúc dữ liệu được sao chép trong bộ nhớ và cả hai bản sao đều duy trì các bộ đếm tham chiếu riêng biệt.
+  - Một bản sao nông được tạo ra trong đó các trường cơ bản được sao chép nhưng các trường phức vẫn giữ nguyên các tham chiếu được chia sẻ.
+  - Dữ liệu được chuyển đến một vị trí bộ nhớ mới và RC ban đầu trở nên không hợp lệ cho đến khi được khởi tạo lại.
+explanation: |
+  Khi sao chép một RC, Rust chỉ sao chép con trỏ tham chiếu và tăng bộ đếm tham chiếu nội bộ, giúp thao tác này cực kỳ hiệu quả bất kể kích thước dữ liệu. Dữ liệu cơ bản vẫn nằm ở cùng một vị trí bộ nhớ và được chia sẻ giữa tất cả các thể hiện RC. Điều này khác biệt về cơ bản so với việc sao chép dữ liệu thực tế, điều này sẽ làm mất đi mục đích của việc chia sẻ quyền sở hữu và lãng phí bộ nhớ.

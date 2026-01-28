@@ -1,0 +1,9 @@
+question: ライトニング・チャンネルの容量は？
+answer: ロックされた総額
+wrong_answers:
+  - 一方向で利用可能な流動性の合計
+  - 最大料金
+  - 最大支払い可能回数
+explanation: |
+  キャパシティは、チャンネルのマルチシグ出力でブロックされたsatsの総和に相当する。
+reviewed: false

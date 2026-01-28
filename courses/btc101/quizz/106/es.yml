@@ -1,9 +1,12 @@
-question: ¿Por qué es aconsejable evitar dejar tus Bitcoins en plataformas de intercambio?
-answer: Pueden ser susceptibles a ataques de hackers.
+question: ¿Qué impide que todos usen la misma cartera de Bitcoin?
+answer: Diferentes individuos necesitan diferentes casos de uso.
 wrong_answers:
-  - Las plataformas de intercambio cobran tarifas aleatorias.
-  - Bitcoin pierde valor en las plataformas de intercambio.
-  - Las plataformas de intercambio no son instituciones reguladas.
+  - Es caro usar una cartera de Bitcoin.
+  - Es ilegal usar una cartera de Bitcoin.
+  - La gente nunca se pondrá de acuerdo sobre el nombre de tal cartera.
 explanation: |
-  Es aconsejable evitar dejar tus Bitcoins en plataformas de intercambio porque pueden ser susceptibles a ataques de hackers.
+  Mientras que una persona podría priorizar la seguridad, otra podría
+  valorar la facilidad de uso o características específicas. Por lo tanto, una
+  sola cartera de Bitcoin podría no satisfacer los requisitos de todos,
+  haciendo necesario que existan múltiples opciones de carteras.
 reviewed: true

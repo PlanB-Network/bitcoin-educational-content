@@ -1,0 +1,8 @@
+question: Mis on peamine erinevus stringi ja string literaali (&str) vahel Rust-s?
+answer: String haldab dünaamiliselt eraldatud kuhja mälu ja seda saab muuta, samas kui &str on vaade muutumatutele string-andmetele
+wrong_answers:
+  - String on salvestatud virna, samas kui &str on salvestatud kuhja parema jõudluse tagamiseks
+  - String võib sisaldada ainult ASCII märke, samas kui &str võib sisaldada mis tahes Unicode-märke
+  - String rakendab automaatselt laenamist, samas kui &str nõuab selgesõnalist omandiõiguse üleandmist
+explanation: |
+  String ja &str esindavad erinevaid lähenemisviise stringide käitlemisele Rust-s. String on kuhjaga reserveeritud, kasvav stringitüüp, mis omab oma andmeid ja mida saab jooksuajal muuta. Seevastu &str (string slice) on muutumatu viide stringi andmetele, mis sageli viitab programmi binaarsesse faili või olemasoleva Stringi andmete viiludele. See erinevus võimaldab Rust-l optimeerida nii paindlikkust (String dünaamilise sisu jaoks) kui ka tõhusust (&str ainult lugemiseks ilma eraldamiseta).

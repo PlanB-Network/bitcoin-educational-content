@@ -1,12 +1,8 @@
-question: Wat is de centrale vraag die je jezelf moet stellen bij het kiezen van een Bitcoin Wallet, in termen van zelfbehoud?
-answer: Ben jij de eigenaar van het geld of laat je de controle over je geld over aan een derde partij?
+question: Wat is het grootste risico van het gebruik van een bewaarservice om je bitcoins op te slaan?
+answer: De vertrouwde derde partij kan uw toegang tot uw geld op elk moment beperken.
 wrong_answers:
-  - Is de Wallet beveiligd met een passphrase?
-  - Kan de Wallet bitcoins ontvangen en versturen?
-  - Kan ik mijn Wallet met iemand anders delen?
-explanation: |
-  Bij het kiezen van een Bitcoin Wallet is de centrale vraag:
-  ben jij de eigenaar van het geld of laat je de controle over
-  je geld aan een derde partij? Dit komt omdat de houder van
-  de privésleutel de eigenaar is van de Bitcoins.
+  - De vertrouwde derde partij kan de waarde van je bitcoins op elk moment verhogen.
+  - De vertrouwde derde partij kan de waarde van je bitcoins op elk moment verlagen.
+  - De vertrouwde derde partij kan je bitcoins op geen enkel moment dupliceren.
+explanation: >-
 reviewed: true

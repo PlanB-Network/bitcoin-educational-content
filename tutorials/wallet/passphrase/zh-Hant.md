@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39
+name: BIP-39 Passphrase
 description: 瞭解 passphrase 如何運作
 ---
 ![cover](assets/cover.webp)
@@ -20,9 +20,9 @@ HD 錢包通常由 12 或 24 個字組成的 Mnemonic 詞組產生。這個詞�
 ![PASSPHRASE BIP39](assets/notext/02.webp)
 
 
-請小心不要將 passphrase 與您 Hardware Wallet 的 PIN 碼或用於解鎖存取您電腦上 Wallet 的密碼混淆。與所有這些 Elements 不同的是，passphrase 在您的 Wallet 金鑰的衍生過程中扮演一個角色。 **這意味著沒有它，您將永遠無法恢復您的比特幣。
+請小心不要將 passphrase 與您 Hardware Wallet 的 PIN 碼或用於解鎖存取您電腦上 Wallet 的密碼混淆。與所有這些 Elements 不同的是，passphrase 在您的 Wallet 金鑰的衍生過程中扮演一個角色。**這意味著沒有它，您將永遠無法恢復您的比特幣。**
 
-passphrase 與 Mnemonic 詞組配合使用，可變更產生金鑰的 seed。因此，即使有人取得您的 12 或 24 字短語，如果沒有 passphrase，他們也無法存取您的資金。 **使用 passphrase 基本上會產生一個新的 Wallet，其中包含不同的金鑰。修改 passphrase（即使是輕微修改）會產生不同的 generate。
+passphrase 與 Mnemonic 詞組配合使用，可變更產生金鑰的 seed。因此，即使有人取得您的 12 或 24 字短語，如果沒有 passphrase，他們也無法存取您的資金。**使用 passphrase 基本上會產生一個新的 Wallet，其中包含不同的金鑰。修改 passphrase（即使是輕微修改）會產生不同的 generate。**
 
 ## 為什麼要使用 passphrase？
 
@@ -46,20 +46,27 @@ passphrase 是任意的，可以是使用者選擇的任何字元組合。因此
 
 若要在 Ledger 裝置 (Stax、Flex 或 Nano) 上設定 passphrase，您可以參考本教學：
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 在 COLDCARD 上：
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 在 Jade Plus 上：
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 護照上 (第 2 批)：
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 在 Trezor 裝置上（Safe 3、Safe 5 或 Model One）：
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+在 SeedSigner 上：
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+在帶有Seedkeeper的SeedSigner上：
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+

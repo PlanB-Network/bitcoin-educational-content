@@ -1,11 +1,12 @@
-question: Hva er den private nøkkelen i en Bitcoin-lommebok?
-answer: En hemmelig nøkkel som lar deg signere transaksjonene dine
+question: Hva er sannsynligheten for at noen ved et uhell gjetter listen din på 12 eller 24 ord i en Bitcoin-lommebok?
+answer: Astronomisk lav
 wrong_answers:
-  - En offentlig nøkkel brukt til å generere Bitcoin-adresser
-  - En hemmelig liste med ord for å ødelegge lommeboken
-  - En hemmelig nøkkel for å kryptere Bitcoin-transaksjonene
+  - Høy
+  - Moderat
+  - Lav
 explanation: >-
-  Når man initialiserer en Bitcoin-lommebok, genereres en hemmelig liste med ord, kalt et mnemonisk frø. 
-  Denne gjenopprettingslisten er veldig viktig fordi den representerer eierskapet
-  til Bitcoinene og derfor retten til å sende dem.
+  Takket være kryptografien som brukes til å opprette lommeboken, er sannsynligheten
+  for at noen ved et uhell gjetter listen din på 12 eller 24 ord astronomisk lav.
+  Det er som å finne det rette tallet mellom 1 og $2^256$, som nesten tilsvarer
+  å finne et definert atom i universet.
 reviewed: true

@@ -5,4 +5,5 @@ wrong_answers:
   - Amaury Séchet (deadalnix)
   - David François (davout)
 explanation: |
-  Es war ein [Text](https: //linuxfr.org/news/connaissez-vous-les-bitcoins) veröffentlicht am 30. September 2010 auf LinuxFr.org mit dem Titel Kennen Sie Bitcoins?.
+  Es war ein [Text](https://linuxfr.org/news/connaissez-vous-les-bitcoins) veröffentlicht am 30. September 2010 auf LinuxFr.org mit dem Titel <em>Connaissez-vous les bitcoins? (Kennen Sie Bitcoins?)</em>.
+reviewed: true 

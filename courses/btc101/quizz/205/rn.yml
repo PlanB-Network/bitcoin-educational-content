@@ -1,8 +1,12 @@
-question: Ni imwe mu mpamvu zituma ukwiye gushiramwo ama UTXO yawe mu bipapuro vyawe rimwe na rimwe?
-answer: Kugira ngo ntihagire amahera adakenewe mu gihe c’ugucuruza.
+question: None iyo nyigisho idondora gute Bitcoin?
+answer: Ivyigwa vy’inyigisho nyinshi.
 wrong_answers:
-  - Kugira ngo wongere agaciro k’amahera yawe ya bitcoins.
-  - Kugira ngo ama bitcoins yawe ntiyibwe.
-  - Kugira ngo umenye neza ko ama bitcoins yawe yama ariho.
-explanation: >-
+  - Ikiganiro coroshe.
+  - Ikintu c’umubiri.
+  - Ivyigwa vy’indero imwe.
+explanation: |
+  Bitcoin idondorwa nk’icigwa gifise inyigisho nyinshi kubera ko .
+  biravyura ibibazo bijanye n’ibintu bitandukanye, harimwo n’ivyo .
+  ubuhinga bwo gukingira amakuru, inyigisho y'imikino, ubutunzi n'ingingo ngenderwako y'amahera,
+  ubuhinga bwa mudasobwa, filozofiya, inguvu, amategeko n’amabwirizwa.
 reviewed: true

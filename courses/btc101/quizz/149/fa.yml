@@ -1,10 +1,8 @@
-question: Lightning Network چیست؟
-answer: یک شبکه پرداخت فوری Bitcoin بر اساس Bitcoin Blockchain.
+question: هدف از استخرهای Mining چیست؟
+answer: استخرهای Mining به ماینرها اجازه می‌دهند تا منابع محاسباتی خود را به اشتراک بگذارند و پاداش‌های کوچکتر اما منظم‌تری دریافت کنند.
 wrong_answers:
-  - یک شبکه Blockchain جدا از Bitcoin Blockchain.
-  - یک شبکه از ماینرهای Bitcoin.
-  - شبکه‌ای از تبادلات Bitcoin.
-explanation: |
-  Lightning Network یک شبکه پرداخت فوری Bitcoin است
-  که بر اساس Bitcoin Blockchain می‌باشد.
+  - استخرهای Mining برای افزایش Hashrate شبکه کلی Bitcoin استفاده می‌شوند.
+  - استخرهای Mining برای کاهش سختی Mining استفاده می‌شوند.
+  - استخرهای Mining برای افزایش پاداش Mining استفاده می‌شوند.
+explanation: >-
 reviewed: true

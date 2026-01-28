@@ -1,0 +1,8 @@
+question: What makes Rust's type system particularly effective for preventing memory-related vulnerabilities in Bitcoin applications?
+answer: The type system handles both business logic modeling and memory ownership control through the same mechanism
+wrong_answers:
+  - The compiler automatically generates memory allocation routines that prevent buffer overflow attacks
+  - Static typing requires all memory addresses to be declared at compile time rather than runtime
+  - Strong typing converts all pointer operations into safe array bounds checking during execution
+explanation: |
+  Rust's type system is unique because it serves a dual purpose - it models complex business logic while simultaneously managing memory safety through ownership, borrowing, and reference counting. This integration means that the same type checking that ensures correct program logic also eliminates memory leaks, double-free errors, and race conditions at compile time. The wrong answers describe mechanisms that don't exist in Rust: the compiler doesn't auto-generate allocation routines, memory addresses aren't required to be compile-time constants, and pointer safety comes from ownership rules rather than runtime bounds checking.

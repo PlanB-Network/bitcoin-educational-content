@@ -6,4 +6,4 @@ wrong_answers:
   - ifup
 explanation: |
   La commande ss remplace netstat pour afficher rapidement toutes les connexions réseau actives.
-reviewed: false
+reviewed: true 

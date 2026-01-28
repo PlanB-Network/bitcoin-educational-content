@@ -1,13 +1,12 @@
-question: Mikä seuraavista ei ole Bitcoinin etu valuuttana?
-answer: Sitä käytetään verojen maksamiseen.
+question: Mikä on suurin määrä Bitcoin-yksiköitä, jotka voivat koskaan olemassa?
+answer: 21 miljoonaa.
 wrong_answers:
-  - Se on jaettavissa.
-  - Se on siirrettävissä.
-  - Siihen ei tarvita lupaa.
+  - 3 biljoonaa.
+  - 100 miljoonaa.
+  - Ei ole rajaa.
 explanation: |
-  Bitcoinin ominaisuudet, kuten sen jaettavuus,
-  todennettavuus, luvan puuttuminen ja siirrettävyys,
-  tarjoavat erinomaisen arvon säilyttäjän. Lisäksi neutraalina
-  internet-valuuttana se edustaa hyvää vaihdon välinettä,
-  joka ei tunne rajoja.
+  Bitcoinin kokonaistarjonta on rajattu 21 miljoonaan yksikköön.
+  Tämä on keskeinen Bitcoinin ominaisuus, joka erottaa sen
+  fiat-valuutoista, joita keskuspankit voivat painaa
+  rajattomasti.
 reviewed: true

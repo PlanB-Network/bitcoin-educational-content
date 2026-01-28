@@ -1,0 +1,8 @@
+question: Konvensi penamaan apa yang diberlakukan oleh Rust untuk nama struktur dan nama bidang?
+answer: CamelCase untuk nama struktur dan snake_case untuk nama field
+wrong_answers:
+  - snake_case untuk nama struktur dan CamelCase untuk nama bidang
+  - kebab-case untuk nama struktur dan camelCase untuk nama bidang
+  - HURUF_BESAR untuk nama struktur dan huruf kecil untuk nama bidang
+explanation: |
+  Rust mengikuti konvensi penamaan tertentu yang diberlakukan oleh kompilator melalui peringatan. Nama struktur harus menggunakan CamelCase (juga dikenal sebagai PascalCase), di mana setiap kata dimulai dengan huruf besar seperti 'MyStruct'. Nama-nama field di dalam struktur harus menggunakan snake_case dengan garis bawah yang memisahkan kata-kata seperti 'my_field'. Konvensi ini menjaga konsistensi di seluruh basis kode Rust dan meningkatkan keterbacaan bagi para pengembang.

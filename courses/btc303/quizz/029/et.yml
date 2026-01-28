@@ -1,0 +1,9 @@
+question: Milline on Pieter Wuille'i arvutuste kohaselt maksimaalne teoreetiline kogus Bitcoin, mis on kunagi olemas, kui kõik mündid on kaevandatud?
+answer: 20,999,999.9769 BTC
+wrong_answers:
+  - 21,000,000.0000 BTC täpselt
+  - 20,999,817.3131 BTC
+  - 20,500,000.0000 BTC umbes
+explanation: |
+  Pieter Wuille arvutas välja, et teoreetiline maksimaalne pakkumine on 20 999 999,9769 BTC, mis on veidi vähem kui üldtuntud 21 miljonit. See tuleneb Bitcoin koodis olevast erilisest poolitamisgraafikust ja ümardamisest. Arv 21 miljonit on ümardatud ligikaudne arv. Arv 20 999 817,3131 kujutab endast tegelikku ringluses olevat varu pärast kadunud müntide ja mining vigade arvessevõtmist kuni konkreetse plokini, mitte teoreetilist maksimumi.
+reviewed: false

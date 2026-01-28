@@ -1,9 +1,11 @@
-question: Giai đoạn thứ hai của hiện tượng lạm phát cực đoan là gì?
-answer: Sụp đổ của tiền tệ & tăng giá.
+question: Tên của sự kiện khi phần thưởng cho việc đào được giảm một nửa là gì?
+answer: Halving
 wrong_answers:
-  - Mất niềm tin.
-  - Vòng luẩn quẩn của việc in tiền.
-  - Một loại tiền tệ mới xuất hiện.
+  - Doubling
+  - Quartering
+  - Tripling
 explanation: |
-  Giai đoạn thứ hai của lạm phát cực đoan là sụp đổ của tiền tệ & tăng giá, ngay sau Giai đoạn Mất niềm tin.
+  Sự kiện khi phần thưởng cho việc đào được giảm một nửa được gọi là
+  halving. Sự kiện này tạo ra hình dạng giống như các bậc thang cho
+  đường cong phát hành tiền tệ.
 reviewed: true

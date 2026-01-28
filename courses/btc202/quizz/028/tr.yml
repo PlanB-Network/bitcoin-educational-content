@@ -1,0 +1,9 @@
+question: Bir pruned düğümünü bir Full node'dan farklı kılan nedir?
+answer: Eski blokları yavaş yavaş ortadan kaldırır
+wrong_answers:
+  - Eski işlemleri doğrulamaz
+  - Tüm blokları aktaramaz
+  - Blockchain'nin herhangi bir yerel kopyasını tutmaz, sadece UTXO setini tutar
+explanation: |
+  pruned düğümü tüm zinciri doğrular, ancak depolamayı sınırlamak için blokların yalnızca yakın tarihli bir bölümünü saklar.
+reviewed: true

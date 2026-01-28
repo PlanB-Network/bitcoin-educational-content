@@ -1,5 +1,5 @@
 ---
-name: Trezor Salama 5
+name: Trezor Safe 5
 description: Kusanidi na kutumia Hardware Wallet Salama 5
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Mtindo huu unafaa hasa kwa wanaoanza na watumiaji wa kati. Kwa upande mwingine, 
 
 
 
-Kama vile Safe 3, Trezor Safe 5 ina vifaa vilivyoidhinishwa vya **Elementi Salama** iliyoidhinishwa na EAL6+, maendeleo makubwa kwa miundo ya awali kama vile Model One na Model T. Hii ni chipu ya OPTIGA Trust M V3, ambayo haihifadhi seed moja kwa moja, lakini hufanya kazi kama sehemu ya siri ili kupata ufikiaji wake kwa usalama. Kipengele Salama huwa na siri ambayo inaweza kufikiwa tu baada ya mtumiaji kuingiza PIN kwa usahihi. Siri hii hutumika kusimbua seed, ambayo imehifadhiwa kwa njia fiche kwenye kumbukumbu kuu ya kifaa.
+Kama vile Safe 3, Trezor Safe 5 ina vifaa vilivyoidhinishwa vya **Element Salama** iliyoidhinishwa na EAL6+, maendeleo makubwa kwa miundo ya awali kama vile Model One na Model T. Hii ni chipu ya OPTIGA Trust M V3, ambayo haihifadhi seed moja kwa moja, lakini hufanya kazi kama sehemu ya siri ili kupata ufikiaji wake kwa usalama. Kipengele Salama huwa na siri ambayo inaweza kufikiwa tu baada ya mtumiaji kuingiza PIN kwa usahihi. Siri hii hutumika kusimbua seed, ambayo imehifadhiwa kwa njia fiche kwenye kumbukumbu kuu ya kifaa.
 
 
 
@@ -104,7 +104,7 @@ Kwa mafunzo haya, nitakuonyesha jinsi ya kutumia Trezor Safe 5 na [Programu ya u
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Utahitaji pia programu ya Trezor Suite ili kusanidi Safe 5, kuangalia uhalisi wake na kusakinisha programu dhibiti. Tutakuwa tukitumia programu hii kwa hilo, na baadaye itahitajika tu kwa sasisho za programu. Kwa usimamizi wa kila siku wa Wallet, tutakuwa tukitumia Sparrow Wallet pekee, kwa kuwa imeboreshwa kwa Bitcoin na ni rahisi kutumia, hata kwa wanaoanza (Sparrow hutumia Bitcoin pekee, si altcoins).
 
@@ -122,7 +122,7 @@ Kwa programu hizi zote mbili, ninapendekeza sana uangalie uhalisi wao (na GnuPG)
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Kuanzisha Trezor Safe 5
 
@@ -144,7 +144,7 @@ Fungua Trezor Suite, kisha ubofye kwenye "*Sanidi Trezor* yangu".
 
 
 
-Chagua "*Bitcoin-tu firmware*", kisha ubofye "*Sakinisha Bitcoin-pekee*".
+Chagua "*Bitcoin-only firmware*", kisha ubofye "*Sakinisha Bitcoin-pekee*".
 
 
 
@@ -220,7 +220,7 @@ Iwapo ungependa kupata maelezo zaidi kuhusu chaguo zingine za chelezo zinazopati
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 
 ![Image](assets/fr/14.webp)
@@ -279,7 +279,7 @@ Safe 5 itaunda maneno yako ya Mnemonic kwa kutumia jenereta yake ya nambari nasi
 
 
 
-***Ni wazi, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama nifanyavyo katika mafunzo haya. Mfano huu wa Wallet utatumika kwenye Testnet pekee na utafutwa mwishoni mwa mafunzo.
+**Ni wazi, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama nifanyavyo katika mafunzo haya. Mfano huu wa Wallet utatumika kwenye Testnet pekee na utafutwa mwishoni mwa mafunzo.**
 
 
 
@@ -287,7 +287,7 @@ Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mn
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/19.webp)
 
@@ -401,7 +401,7 @@ Mara tu unapofungua Sparrow Wallet, hakikisha kwamba programu imeunganishwa kwen
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Bofya kwenye kichupo cha "*Faili*", kisha kwenye "*Mpya Wallet*".
 
@@ -483,7 +483,7 @@ Ili kupata maelezo zaidi kuhusu jinsi ya kufanya jaribio la urejeshi, ninapendek
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Ninawezaje kupokea bitcoins na Trezor Safe 5?
 
@@ -553,7 +553,7 @@ Ikiwa ungependa *Udhibiti wa Sarafu*, yaani, uchague UTXOs gani utumie katika mu
 
 
 
-Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha "+ Ongeza*".
+Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha **"+ Ongeza"**.
 
 
 
@@ -641,6 +641,6 @@ Hongera, sasa umeboresha matumizi ya kimsingi ya Trezor Safe 5 na Sparrow Wallet
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
-Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa utaacha kidole gumba cha Green hapa chini. Jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!
+Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa utaacha kidole gumba cha Green hapa chini. Jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!i

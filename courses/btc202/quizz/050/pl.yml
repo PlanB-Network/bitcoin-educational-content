@@ -1,0 +1,9 @@
+question: Jakiego protokołu używają Electrs i Fulcrum do łączenia portfeli?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - Lightning gRPC
+explanation: |
+  Te pakiety oprogramowania wystawiają serwer Electrum, standard używany przez wiele portfeli, takich jak Sparrow lub Electrum Wallet.
+reviewed: true

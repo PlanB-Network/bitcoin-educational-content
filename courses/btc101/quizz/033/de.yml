@@ -1,10 +1,12 @@
-question: Warum wird Bitcoin als eine neue Form von Geld betrachtet?
-answer: Weil es ein digitales Geld ohne zentrale Instanz ist.
+question: Welche Strategie verwenden zentrale Einheiten, um eine Fiat-Währung abzuwerten?
+answer: Sie erhöhen die Geldmenge jedes Jahr um einige Prozent.
 wrong_answers:
-  - Weil es eine digitale Währung ist, die durch Gold gedeckt ist.
-  - Weil es eine Währung ist, die die Bank-Blockchain benötigt.
-  - Weil die Federal Reserve es so sagt.
+  - Sie verringern die Geldmenge jedes Jahr um einige Prozent.
+  - Sie halten ihre Geldmenge im Vergleich zur anfänglichen Menge konstant.
+  - Sie lassen ihre Geldmenge im Vergleich zur anfänglichen Menge zufällig schwanken.
 explanation: |
-  Bitcoin kann als eine neue Form von Geld betrachtet werden, da es
-  aus einem Peer-to-Peer-Netzwerk ohne zentrale Instanz entsteht.
+  Zentrale Einheiten werten eine Währung oft ab, indem sie
+  ihre Geldmenge im Vergleich zur anfänglichen um einige Prozent
+  jedes Jahr erhöhen. Diese stille Abwertung wird oft als
+  im Interesse der Bevölkerung gerechtfertigt.
 reviewed: true

@@ -1,10 +1,12 @@
-question: Mis on Wei Dai b-money?
-answer: Idee anonüümsest digitaalrahast, kus pettuse tuvastamisega tegeles hindajate kogukond, mitte keskne autoriteet.
+question: Mis on raha roll kommunikatsioonivahendina?
+answer: See võimaldab väärtuse kommunikatsiooni nii ruumis kui ka ajas ilma vajaduseta usaldada vastaspoolt
 wrong_answers:
-  - Digitaalne valuuta, mida kasutati laialdaselt enne Bitcoini.
-  - Digitaalse raha vorm, mille lõi CIA.
-  - Digitaalne valuuta, mille lõi Wei Dai kui konkurendi Bitcoinile.
+  - See võimaldab väärtuse kommunikatsiooni ainult ruumis ilma vajaduseta usaldada vastaspoolt
+  - See võimaldab väärtuse kommunikatsiooni ainult ajas ilma vajaduseta usaldada vastaspoolt
+  - See võimaldab väärtuse kommunikatsiooni nii ruumis kui ka ajas koos vajadusega usaldada vastaspoolt
 explanation: |
-  Wei Dai b-money oli anonüümse digitaalraha idee ilma keskse üksuseta,
-  mis mõjutas suuresti Bitcoini, kuna see on viidatud Bitcoini valge raamatu (whitepaper) sees.
+  Raha kui kommunikatsioonivahend võimaldab kommunikatsiooni nii ruumis kui ka ajas, kuna me muudame oma aja ja energia varaks, mida saab tulevikus uuesti kasutada
+  ilma devalveerimise riskita. See võimaldab ka kommunikatsiooni
+  universaalses ühises keeles, võimaldades kahel võõral vahetada, kaubelda ja kokku leppida
+  asjade väärtuses.
 reviewed: true

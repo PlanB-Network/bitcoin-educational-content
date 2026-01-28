@@ -1,0 +1,9 @@
+question: Ko je bio poslednji glavni održavalac Bitcoin core pre nego što je ova uloga ukinuta 2023. godine?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan je obavljao ovu ulogu od 2014. do 2023. godine, nasledio je Gavina Andresena i prethodio ukidanju te uloge.
+reviewed: true

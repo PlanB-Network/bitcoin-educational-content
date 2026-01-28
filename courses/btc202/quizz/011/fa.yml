@@ -1,0 +1,9 @@
+question: چرا یک Miner به یک نود Bitcoin نیاز دارد؟
+answer: برای تعامل با شبکه و توزیع بلوک‌های خود
+wrong_answers:
+  - به امضاهای دیجیتال generate
+  - برای وارد کردن تحویل خود Address در Coinbase Transaction
+  - برای کاهش سختی Mining
+explanation: |
+  ماینرها از یک نود برای ارتباط با شبکه، انتقال بلاک‌های خود و دریافت تراکنش‌ها استفاده می‌کنند.
+reviewed: true

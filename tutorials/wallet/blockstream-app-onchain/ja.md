@@ -1,5 +1,5 @@
 ---
-name: ブロックストリームアプリ - Onchain
+name: Blockstream App - Onchain
 description: モバイルでBlockstreamアプリを設定し、オンチェーン取引を管理する
 ---
 ![cover](assets/cover.webp)
@@ -30,8 +30,8 @@ description: モバイルでBlockstreamアプリを設定し、オンチェー�
 
 
 
-- 初心者**の方：直感的なモバイルアプリケーションでビットコインを管理したいユーザー。
-- 中級者**：オンチェーンの機能や、TorやSPVなどのプライバシーオプションを理解しようとしている人。
+- 初心者**の方**：直感的なモバイルアプリケーションでビットコインを管理したいユーザー。
+- **中級者**：オンチェーンの機能や、TorやSPVなどのプライバシーオプションを理解しようとしている人。
 
 
 
@@ -41,14 +41,14 @@ description: モバイルでBlockstreamアプリを設定し、オンチェー�
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: Bitcoin Walletの秘密鍵を管理し、保護することを可能にする、スマートフォン、コンピュータ、またはインターネットに接続された機器にインストールされるアプリケーションの名称。
-- Coldウォレット**としても知られる**ハードウェアウォレット**とは異なり、ソフトウェアウォレットはオフラインでキーを隔離するため、サイバー攻撃に対してより脆弱である。
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: Bitcoin Walletの秘密鍵を管理し、保護することを可能にする、スマートフォン、コンピュータ、またはインターネットに接続された機器にインストールされるアプリケーションの名称。
+- **Coldウォレット**としても知られる**ハードウェアウォレット**とは異なり、ソフトウェアウォレットはオフラインでキーを隔離するため、サイバー攻撃に対してより脆弱である。
 
 
 
 
 
-- 推奨用途** ：
+- **推奨用途**：
     - 中程度の量のBitcoinの管理、特に日常的な取引に最適。
     - Hardware Walletは不要と思われる初心者や資産の少ないユーザーに適している。
 
@@ -56,7 +56,7 @@ description: モバイルでBlockstreamアプリを設定し、オンチェー�
 
 
 
-- 制限**：大口資金や長期貯蓄の保管には安全性が低い。この場合はHardware Walletを選択する。
+- 制限：大口資金や長期貯蓄の保管には安全性が低い。この場合は**Hardware Wallet**を選択する。
 
 
 
@@ -67,16 +67,16 @@ description: モバイルでBlockstreamアプリを設定し、オンチェー�
 
 
 
-- Blockstream App**は、BitcoinのポートフォリオとLiquid Networkの資産を管理するためのモバイル（iOS、Android）およびデスクトップアプリケーションです。2016年に[Blockstream](https://blockstream.com/)に買収され、以前は*Green Address*、その後*Blockstream Green*という名称だった。
-- 主な特徴** ：
-    - Blockchain Bitcoinのオンチェーン**取引。
+- **Blockstream App**は、BitcoinのポートフォリオとLiquid Networkの資産を管理するためのモバイル（iOS、Android）およびデスクトップアプリケーションです。2016年に[Blockstream](https://blockstream.com/)に買収され、以前は*Green Address*、その後*Blockstream Green*という名称だった。
+- **主な特徴**：
+- Blockchain Bitcoinのオンチェーン**取引**。
     - ネットワークトランザクション**Liquid**（Sidechainは高速で機密性の高いやり取りを行うため）。
-    - ウォッチ・オンリー**のポートフォリオは、キーにアクセスすることなくファンドを監視するためのものです。
+- **ウォッチ・オンリー**のポートフォリオは、キーにアクセスすることなくファンドを監視するためのものです。
     - プライバシーオプション：**Tor**経由の接続、Electrum経由の**パーソナルノード**への接続、サードパーティノードへの依存を減らすための**SPV**検証。
-    - Replace-by-fee(RBF)**の機能により、未確認トランザクションを高速化。
+- Replace-by-fee(RBF)の機能により、未確認トランザクションを高速化。
 - 互換性**：Blockstream Jade**などのハードウェア・ウォレットを統合。
-- Interface**：初心者向けの直感的な操作と、上級者向けの高度なオプション。
-- 注**：本ガイドはオンチェーンでの使用に焦点を当てています。付録の他のチュートリアルでは、Liquid、Watch-Only、デスクトップ版について説明しています。
+- **Interface**：初心者向けの直感的な操作と、上級者向けの高度なオプション。
+- 注**意**：本ガイドはオンチェーンでの使用に焦点を当てています。付録の他のチュートリアルでは、Liquid、Watch-Only、デスクトップ版について説明しています。
 
 
 
@@ -90,12 +90,12 @@ description: モバイルでBlockstreamアプリを設定し、オンチェー�
 
 
 
-- アンドロイド用** ：
+- **アンドロイド用**：
     - Google Playストアから[Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet)をダウンロードしてください。
     - 別の方法Blockstreamの公式GitHub](https://github.com/Blockstream/green_android)にあるAPKファイルからインストールする。
-- iOSの場合** ：
+- **iOSの場合**：
     - App Storeから[Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590)をダウンロードしてください。
-- 注意**：不正なアプリケーションを避けるため、必ず公式ソースからダウンロードしてください。
+- **注意**：不正なアプリケーションを避けるため、必ず公式ソースからダウンロードしてください。
 
 
 
@@ -129,7 +129,7 @@ description: モバイルでBlockstreamアプリを設定し、オンチェー�
 
 
 
-- 機能**：スクリーンショットを無効にし、タスクマネージャーでアプリケーションのプレビューを非表示にし、電話がロックされているときにアクセスをロックします。
+- 機能：スクリーンショットを無効にし、タスクマネージャーでアプリケーションのプレビューを非表示にし、電話がロックされているときにアクセスをロックします。
 - なぜですか？不正な物理的アクセスや画面キャプチャ型マルウェアからデータを保護します。
 
 
@@ -139,10 +139,10 @@ description: モバイルでBlockstreamアプリを設定し、オンチェー�
 
 
 
-- 機能**：接続を暗号化する匿名ネットワーク、**Tor**を介してネットワークトラフィックをルーティングします。
+- 機能：接続を暗号化する匿名ネットワーク、**Tor**を介してネットワークトラフィックをルーティングします。
 - なぜですか？あなたのIP Addressを隠し、プライバシーを保護します。ネットワークが信頼できない場合（公共のWi-Fiなど）に最適です。
-- デメリット**：暗号化によりアプリケーションの動作が遅くなる可能性があります。
-- 推奨**：機密保持を優先する場合はTorを有効にし、接続速度をテストすること。
+- **デメリット**：暗号化によりアプリケーションの動作が遅くなる可能性があります。
+- 推奨：機密保持を優先する場合は**Tor**を有効にし、接続速度をテストすること。
 
 
 #### 3.2.3.パーソナル・ノードへの接続
@@ -151,10 +151,10 @@ description: モバイルでBlockstreamアプリを設定し、オンチェー�
 
 
 
-- 機能**：アプリケーションを**Electrum**サーバー経由で**完全なBitcoinノード**に接続します。
+- 機能：アプリケーションを**Electrum**サーバー経由で**完全なBitcoinノード**に接続します。
 - その理由Blockchainのデータを完全にコントロールし、Blockstreamサーバーへの依存を排除します。
-- 前提条件**：設定済みの Bitcoin ノード。
-- 推奨**：最大限の主権を求める上級ユーザー。
+- 前提条件：設定済みの Bitcoin ノード。
+- 推奨：最大限の主権を求める**上級ユーザー**。
 
 
 #### 3.2.4.SPVの検証
@@ -165,8 +165,8 @@ description: モバイルでBlockstreamアプリを設定し、オンチェー�
 
 - 機能**：簡易支払い検証(SPV)**を使用し、チェーン全体をダウンロードすることなく、特定のBlockchainデータを直接検証します。
 - なぜか？Blockstreamのデフォルト・ノードへの依存を減らしつつ、モバイル・デバイス向けに軽量化を実現。
-- 欠点**：情報の一部をサードパーティーのノードに依存するため、Full nodeよりも安全性が低い。
-- 推奨**：パーソナル・ノードは使えないが、Full nodeが最適なセキュリティのために必要であれば、SPVをアクティブにする。
+- 欠点：情報の一部をサードパーティーのノードに依存するため、**Full node**よりも安全性が低い。
+- 推奨：パーソナル・ノードは使えないが、Full nodeが最適なセキュリティのために必要であれば、SPVをアクティブにする。
 
 
 
@@ -193,7 +193,7 @@ description: モバイルでBlockstreamアプリを設定し、オンチェー�
 
 
 
-- Cold Wallet**（オフラインWallet）を管理したい場合：**"Connect Jade "**をクリックし、Hardware Wallet Blockstream Jadeまたは他の互換性のあるColdウォレットを使用します。
+- Cold Wallet**（オフラインWallet）**を管理したい場合：**"Connect Jade"**をクリックし、Hardware Wallet Blockstream Jadeまたは他の互換性のあるColdウォレットを使用します。
 
 
 
@@ -219,7 +219,7 @@ description: モバイルでBlockstreamアプリを設定し、オンチェー�
 
 
 
-**このチュートリアルでは**：Setup Mobile Wallet"**をクリックして、Hot Walletを作成します。
+**このチュートリアルでは**：Setup Mobile Wallet をクリックして、Hot Walletを作成します。
 
 
 Walletが自動的に作成され、Walletのホームページ（ここでは「My Wallet 5」）が表示されます：
@@ -266,9 +266,9 @@ seed 12語のフレーズが表示されますので、保存してください�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 4.3.seedの文章を確認する
 
@@ -284,7 +284,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Walletのホーム画面で、「設定」タブをクリックし、「Walletの詳細」をクリックし、zPub（[拡張公開鍵](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)）をコピーする：
+- Walletのホーム画面で、「設定」タブをクリックし、「Walletの詳細」をクリックし、zPub（[拡張公開鍵](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)）をコピーする：
 
 
 
@@ -308,7 +308,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 4.5.アプリケーションへのアクセスの保護
 
@@ -320,7 +320,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 - Walletのホーム画面から、**"Security "**に進み、**"PIN "**をクリックする。
-- ランダムな6桁のPINコード**を入力し、確認してください。
+- ランダムな6桁のPINコードを入力し、確認してください。
 
 
 
@@ -360,7 +360,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-- オプション** ：
+- **オプション**：
     - (1) "Bitcoin"：オンチェーンまたはLiquid貨物をクリックして選択し、資産を選択します。
     - (2) 矢印をクリックして、このseedセンテンスにリンクされている別の新しいAddressを選択します。
     - (3)右上の3つの点をクリックし、"List of Addresses "をクリックすることで、すでに使用／表示されているAddressから選択することもできます。
@@ -376,7 +376,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 - Address/URIを共有するには、"**共有**"をクリックするか、テキストをコピーするか、QRコードをスキャンしてください。
-- 検証**：受信者と共有されたAddressを可能な限りチェックし、エラーや攻撃（マルウェアによるクリップボードの改ざんなど）を回避する。
+- **検証**：受信者と共有されたAddressを可能な限りチェックし、エラーや攻撃（マルウェアによるクリップボードの改ざんなど）を回避する。
 
 
 
@@ -396,10 +396,10 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-- 詳細を入力** ：
+- **詳細を入力**：
     - (1) 受取人**の**Addressを貼り付けるか、QRコードをスキャンして入力する。
     - (2) 送金元の資産と口座を確認する。
-    - (3) 送信する**金額を指定します。単位を選択できます：BTC、サトシ、米ドル、...
+- (3) 送信する**金額を指定します**。単位を選択できます：BTC、サトシ、米ドル、...
 
 
 2025年3月8日の最低限度額（ダッシュリミット）は546Sats。
@@ -420,7 +420,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-- チェック** ：
+- **チェック**：
     - サマリー画面でAddress、金額、料金を確認する。
     - Addressのエラーは、取り返しのつかない損失をもたらす可能性があります。クリップボードを改ざんするマルウェアにご注意ください。
 
@@ -433,7 +433,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 - 確認**：送信 "ボタンをスライドさせ、取引に署名し配布する。
-- フォローアップ**：Walletの "Transact "タブでは、取引は確認（1～6回の確認）されるまで "pending "と表示される：
+- フォローアップ：Walletの "Transact" タブでは、取引は確認（1～6回の確認）されるまで "pending" と表示される：
 
 
 
@@ -464,19 +464,19 @@ Liquid Networkの使い方
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ウォッチ・オンリー」モードでのWalletのインポートとトラッキング
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 デスクトップ版
 
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 ### A2.Replace-by-fee（RBF）の説明
@@ -497,12 +497,12 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-**詳細はこちら
+**詳細はこちら**
 
 
 
 
-- [用語集](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [用語集](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -511,25 +511,25 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-ブロックストリームアプリ**を安全かつ効率的に使用するには、以下の推奨事項に従ってください。これらの推奨事項は、**Bitcoin (onchain)**、**Liquid**、および**Lightning**ネットワーク上で資金を保護し、取引を最適化し、機密性を保持するのに役立ちます。
+ブロックストリームアプリを安全かつ効率的に使用するには、以下の推奨事項に従ってください。これらの推奨事項は、**Bitcoin (onchain)**、**Liquid**、および**Lightning**ネットワーク上で資金を保護し、取引を最適化し、機密性を保持するのに役立ちます。
 
 
 
 
 
-- リカバリーフレーズの確保** ：
+- **リカバリーフレーズの確保**：
  - チュートリアルMnemonicフレーズの保存
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
-- 安全な認証を使用する** ：
+
+
+- **安全な認証を使用する**：
  - アプリケーションへのアクセスを保護するために、**強力な暗証番号**または**生体認証**（指紋または顔認証）を有効にします。
  - 暗証番号や生体認証データは絶対に共有しないでください。
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- プライバシーの保護** ：
+- **プライバシーの保護**：
  - Blockchainのトレースを制限するために、generateまたはLiquidの受信ごとに新しいAddressを作成する。
  - プライバシー強化"、"Tor"、"SPV "機能を有効にする。
  - 最大限の機密性を確保するため、Walletはパブリック・ノードを使用せず、Electrumサーバーを経由して自分のBitcoinノードに接続してください。
@@ -547,9 +547,9 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - お客様のニーズに最適なネットワークをお選びください：
- - オンチェーン**：長期保管や大口取引に有利（手数料は金額に対してごくわずか）。
- - Liquid**：機密性を強化した高速、低コストの転送に使用。
- - ライトニング**：少額を即座に低コストで送金できます。
+- オンチェーン：長期保管や大口取引に有利（手数料は金額に対してごくわずか）。
+- **Liquid**：機密性を強化した高速、低コストの転送に使用。
+- **ライトニング**：少額を即座に低コストで送金できます。
 
 
 
@@ -562,7 +562,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- コストの最適化** ：
+- **コストの最適化**：
  - オンチェーン取引では、緊急度とネットワークの混雑度に応じて適切な手数料（低速、中速、高速）を選択する。
  - 少量ならLiquid、少量ならライトニングを使う。
 
@@ -582,9 +582,9 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - 公式リンク
- - [公式サイト](https://blockstream.com/)**
- - [モバイルアプリケーションのサポート](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : ドキュメントとチャット
- - [GitHub](https://github.com/Blockstream/green_android)**
+- [公式サイト](https://blockstream.com/)
+- [モバイルアプリケーションのサポート](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/) : ドキュメントとチャット
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
@@ -599,31 +599,31 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 学習とチュートリアル:** **[Plan ₿ Network](https://planb.network/)** ：
+- 学習とチュートリアル: **[Plan ₿ Academy](https://planb.academy/)**：
  - 回復フレーズの確保
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-
-
-
-- Liquid Network** ：
- - [用語集](https://planb.network/fr/resources/glossary/Liquid-network)**
-
-
-
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
-- Lightning Network** ：
- - [用語集](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Liquid Network**：
+- [用語集](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+
+
+
+
+- **Lightning Network**：
+- [用語集](https://planb.academy/fr/resources/glossary/lightning-network)
+
+
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

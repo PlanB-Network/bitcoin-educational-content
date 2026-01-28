@@ -6,4 +6,4 @@ wrong_answers:
   - Sie machen Multisignaturen kompatibel mit allen Skripten
 explanation: |
   Deskriptoren beinhalten die erweiterten öffentlichen Schlüssel aller Teilnehmer, was die Wiederherstellung und Verwaltung von Multisignatur-Konfigurationen erleichtert.
-reviewed: false
+reviewed: true

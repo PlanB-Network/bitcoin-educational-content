@@ -10,7 +10,7 @@ description: Interface Yıldırım düğümü yönetim ağı LND
 
 
 
-ThunderHub, Lightning düğümleri (LND)** için açık kaynaklı bir yöneticidir ve herhangi bir cihazdan veya tarayıcıdan erişilebilen sezgisel bir Interface sunar.
+ThunderHub, Lightning düğümleri (LND) için açık kaynaklı bir yöneticidir ve herhangi bir cihazdan veya tarayıcıdan erişilebilen sezgisel bir Interface sunar.
 
 
 
@@ -19,10 +19,10 @@ ThunderHub, Lightning düğümleri (LND)** için açık kaynaklı bir yöneticid
 
 
 
-- İzleme**: Bakiyelerin, kanalların, işlemlerin, yönlendirme istatistiklerinin global görünümü
-- Yönetim**: Kanal açma/kapama, gelen/giden ödemeler, kanal dengeleme
-- Entegrasyonlar**: LNURL desteği, Boltz üzerinden takas, Amboss yedekleme
-- Interface duyarlı**: Koyu/açık temalar ile mobil, tablet ve masaüstü cihazlarla uyumlu
+- **İzleme**: Bakiyelerin, kanalların, işlemlerin, yönlendirme istatistiklerinin global görünümü
+- **Yönetim**: Kanal açma/kapama, gelen/giden ödemeler, kanal dengeleme
+- **Entegrasyonlar**: LNURL desteği, Boltz üzerinden takas, Amboss yedekleme
+- **Interface duyarlı**: Koyu/açık temalar ile mobil, tablet ve masaüstü cihazlarla uyumlu
 
 
 
@@ -30,7 +30,7 @@ ThunderHub, **Umbrel**, **Voltage**, **RaspiBlitz** ve **MyNode** ile kolayca en
 
 
 
-**ThunderHub, kanallarını yönetmek, likiditeyi kontrol etmek (yeniden dengeleme), işlemleri izlemek ve Amboss gibi üçüncü taraf hizmetlerini entegre etmek için ergonomik bir Interface arayan operatörler için özellikle uygundur. Güvenlik, yerel veya Tor bağlantısı aracılığıyla sağlanır.
+**ThunderHub, kanallarını yönetmek, likiditeyi kontrol etmek (yeniden dengeleme), işlemleri izlemek ve Amboss gibi üçüncü taraf hizmetlerini entegre etmek için ergonomik bir Interface arayan operatörler için özellikle uygundur.** Güvenlik, yerel veya Tor bağlantısı aracılığıyla sağlanır.
 
 
 
@@ -38,7 +38,7 @@ Henüz bir Lightning düğümünüz yoksa, LND Umbrel eğitimimizi takip etmeniz
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Kurulum
 
@@ -58,8 +58,8 @@ Umbrel, ThunderHub'ı **Uygulama Mağazasına** entegre ederek kurulumu son dere
 
 
 
-- Umbrel kontrol panelini** açın: Umbrel düğümünüzün Interface ağına bağlanın (örneğin, yerel ağınızdaki `http://umbrel.local` veya Tor kullanıyorsanız `.onion` Address üzerinden).
-- App Store'a** erişin: Umbrel'in ana menüsünde "App Store" (veya "App") üzerine tıklayın. Mevcut uygulamalar listesinde **ThunderHub** için arama yapın.
+- **Umbrel kontrol panelini** açın: Umbrel düğümünüzün Interface ağına bağlanın (örneğin, yerel ağınızdaki `http://umbrel.local` veya Tor kullanıyorsanız `.onion` Address üzerinden).
+- App Store'a erişin: Umbrel'in ana menüsünde "App Store" (veya "App") üzerine tıklayın. Mevcut uygulamalar listesinde **ThunderHub** için arama yapın.
 
 
 
@@ -69,13 +69,13 @@ Umbrel, ThunderHub'ı **Uygulama Mağazasına** entegre ederek kurulumu son dere
 
 
 
-- ThunderHub'ı yükleyin**: ThunderHub uygulamasına ve ardından yükle düğmesine tıklayın. Gerekirse onaylayın. Umbrel, ThunderHub'ı düğümünüze otomatik olarak indirecek ve dağıtacaktır.
+- **ThunderHub'ı yükleyin**: ThunderHub uygulamasına ve ardından yükle düğmesine tıklayın. Gerekirse onaylayın. Umbrel, ThunderHub'ı düğümünüze otomatik olarak indirecek ve dağıtacaktır.
 
 
 
 
 
-- Uygulamayı başlatın**: Kurulum tamamlandığında (birkaç on saniye), ThunderHub ana sayfanızda görünür. Açmak için simgeye tıklayın. ThunderHub tarayıcınızda başlatılır.
+- **Uygulamayı başlatın**: Kurulum tamamlandığında (birkaç on saniye), ThunderHub ana sayfanızda görünür. Açmak için simgeye tıklayın. ThunderHub tarayıcınızda başlatılır.
 
 
 
@@ -88,8 +88,8 @@ Umbrel, ThunderHub'ı **Uygulama Mağazasına** entegre ederek kurulumu son dere
 
 
 
-- Bu şifreyi hemen** şifre yöneticinize kaydedin
-- Bir sonraki adımda kullanmak üzere kopyalayın**
+- Bu şifreyi hemen **şifre yöneticinize** kaydedin
+- Bir sonraki adımda kullanmak üzere kopyalayın
 - Parola kaydedildikten sonra "Bunu bir daha gösterme" seçeneğini işaretleyin
 
 
@@ -114,7 +114,7 @@ Umbrel, ThunderHub'a arka planda LND bağlantı bilgilerini (TLS sertifikası, y
 
 
 
-Umbrel dışındaki kullanıcılar için (örneğin kişisel bir sunucuda, RaspiBlitz'li bir Raspberry Pi'de veya *tek başına* bir kurulumda), ThunderHub kurulumu birkaç ekstra adım gerektirir. Aşağıda [resmi ThunderHub belgelerine] (https://docs.thunderhub.io) göre kaynaktan kurulumu ve yapılandırmayı açıklıyoruz.
+Umbrel dışındaki kullanıcılar için (örneğin kişisel bir sunucuda, RaspiBlitz'li bir Raspberry Pi'de veya *tek başına* bir kurulumda), ThunderHub kurulumu birkaç ekstra adım gerektirir. Aşağıda [resmi ThunderHub belgelerine](https://docs.thunderhub.io) göre kaynaktan kurulumu ve yapılandırmayı açıklıyoruz.
 
 
 
@@ -127,8 +127,8 @@ Umbrel dışındaki kullanıcılar için (örneğin kişisel bir sunucuda, Raspi
 
 
 
-- Node.js** sürüm 18 veya üstü
-- npm** yüklü
+- **Node.js** sürüm 18 veya üstü
+- **npm** yüklü
 - LND kimlik doğrulama dosyalarına erişim :
   - LND TLS sertifikası (`tls.cert`)
   - LND yönetim makaronu (`admin.macaroon`)
@@ -136,7 +136,7 @@ Umbrel dışındaki kullanıcılar için (örneğin kişisel bir sunucuda, Raspi
 
 
 
-**1. ThunderHub kodunu alın:** Projenin GitHub deposunu [kurulum belgelerinde] (https://docs.thunderhub.io/installation) açıklandığı gibi klonlayın:
+**1. ThunderHub kodunu alın:** Projenin GitHub deposunu [kurulum belgelerinde](https://docs.thunderhub.io/installation) açıklandığı gibi klonlayın:
 
 
 
@@ -304,8 +304,8 @@ ThunderHub oturum açma sayfası görünür. Yapılandırılmış hesabı seçin
 
 
 
-- Kurulum:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- Yapılandırma:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Kurulum:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
+- **Yapılandırma:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
 
 
 
@@ -327,18 +327,18 @@ Interface ThunderHub, birkaç temel bölümden oluşan bir ana menü (genellikle
 
 
 
-- Ana Sayfa** - Genel gösterge tablosunu içeren Ana Sayfa sekmesi (düğümünüze genel bakış ve hızlı eylemler).
-- Gösterge Tablosu** - Widget'lar ve gelişmiş ölçümlerle özelleştirilebilir gösterge tablosu.
-- Eşler** - Lightning eş yönetimi (diğer düğümlere bağlantılar).
-- Kanallar** - Lightning kanallarının detaylı yönetimi.
-- Rebalance** - Kanal dengeleme aracı (döngüsel ödemeler).
-- İşlemler** - Yıldırım ödeme geçmişi (LN işlemleri).
-- Forwards** - Yönlendirme istatistikleri (düğümünüz tarafından aktarılan ödemeler).
-- Zincir** - Node'un On-Chain Wallet (On-Chain BTC: UTXO'lar, işlemler).
-- Amboss** - Amboss ile entegrasyon (düğüm izleme, yedeklemeler, vb.).
-- Araçlar** - Çeşitli araçlar (yedeklemeler, imzalı mesajlar, makaronlar, raporlar, vb.)
-- Takas** - Boltz aracılığıyla On-Chain/Lightning takas işlevleri.
-- Stats** - Gelişmiş istatistikler ve düğüm performans ölçümleri.
+- **Ana Sayfa** - Genel gösterge tablosunu içeren Ana Sayfa sekmesi (düğümünüze genel bakış ve hızlı eylemler).
+- **Gösterge Tablosu** - Widget'lar ve gelişmiş ölçümlerle özelleştirilebilir gösterge tablosu.
+- **Eşler** - Lightning eş yönetimi (diğer düğümlere bağlantılar).
+- **Kanallar** - Lightning kanallarının detaylı yönetimi.
+- **Rebalance** - Kanal dengeleme aracı (döngüsel ödemeler).
+- **İşlemler** - Yıldırım ödeme geçmişi (LN işlemleri).
+- **Forwards** - Yönlendirme istatistikleri (düğümünüz tarafından aktarılan ödemeler).
+- **Zincir** - Node'un On-Chain Wallet (On-Chain BTC: UTXO'lar, işlemler).
+- **Amboss** - Amboss ile entegrasyon (düğüm izleme, yedeklemeler, vb.).
+- **Araçlar** - Çeşitli araçlar (yedeklemeler, imzalı mesajlar, makaronlar, raporlar, vb.)
+- **Takas** - Boltz aracılığıyla On-Chain/Lightning takas işlevleri.
+- **Stats** - Gelişmiş istatistikler ve düğüm performans ölçümleri.
 
 
 
@@ -360,32 +360,32 @@ ThunderHub'ın **Ana Sayfa** sekmesi, oturum açtıktan sonra görüntülenen an
 
 
 
-- Bakiyeler ve kapasiteler:** Sayfanın üst kısmında ThunderHub mevcut bakiyelerinizi görüntüler. Burada genellikle On-Chain bakiyesini (düğümün Wallet'undaki Bitcoin On-Chain, Anchor ⚓ ile sembolize edilir) ve Lightning bakiyesini (kanallarınızın kapasiteleri, yıldırım Bolt ⚡ ile sembolize edilir) görürsünüz. Bu size On-Chain ve Lightning'de sahip olduğunuz fonlar hakkında anında bir fikir verir. Birden fazla hesabınız veya kanalınız varsa, doğru hesapta olduğunuzdan emin olun (örneğin Mainnet vs Testnet).
+- **Bakiyeler ve kapasiteler:** Sayfanın üst kısmında ThunderHub mevcut bakiyelerinizi görüntüler. Burada genellikle On-Chain bakiyesini (düğümün Wallet'undaki Bitcoin On-Chain, Anchor ⚓ ile sembolize edilir) ve Lightning bakiyesini (kanallarınızın kapasiteleri, yıldırım Bolt ⚡ ile sembolize edilir) görürsünüz. Bu size On-Chain ve Lightning'de sahip olduğunuz fonlar hakkında anında bir fikir verir. Birden fazla hesabınız veya kanalınız varsa, doğru hesapta olduğunuzdan emin olun (örneğin Mainnet vs Testnet).
 
 
 
 
 
-- Temel istatistikler:** Gösterge paneli düğümünüz için bazı genel ölçümleri gösterebilir - örneğin, açık kanal sayısı, bağlı eşlerin sayısı, kazanılan yönlendirme ücretleri (varsa) vb. Bu, düğümün son faaliyetlerinin ve sağlığının bir özetidir.
+- **Temel istatistikler:** Gösterge paneli düğümünüz için bazı genel ölçümleri gösterebilir - örneğin, açık kanal sayısı, bağlı eşlerin sayısı, kazanılan yönlendirme ücretleri (varsa) vb. Bu, düğümün son faaliyetlerinin ve sağlığının bir özetidir.
 
 
 
 
 
-- Hızlı Eylemler:** Kontrol paneli, menüler arasında gezinmek zorunda kalmadan en yaygın görevleri hızlı bir şekilde yürütmek için düğmeler içerir. Bu hızlı eylemler şunları içerir :
+- **Hızlı Eylemler:** Kontrol paneli, menüler arasında gezinmek zorunda kalmadan en yaygın görevleri hızlı bir şekilde yürütmek için düğmeler içerir. Bu hızlı eylemler şunları içerir :
 
 
 
 
 
-  - Hayalet**: Amboss aracılığıyla özel bir Lightning Address kurun.
-  - Bağış yapın**: Lightning üzerinden bağış yapın.
-  - Giriş/Giriş Yap**: Amboss hesabınıza bağlanın (Quick Connect) ve düğümünüzün bilgilerini görüntülemek için doğrudan Amboss.space'e gidin.
-  - Address** : Ödeme yapmak için bir Lightning Address girin.
-  - Aç**: Yeni bir Lightning kanalı açın. Tıklandığında, kanalın açılacağı uzak düğümün URI'sini, miktarı ve varsa kullanılacak maksimum On-Chain ücretini girmek için bir form açılır.
-  - Kod çöz**: Ödeme yapmadan önce ayrıntıları görüntülemek için bir Lightning Invoice veya LNURL kodunu çözün.
-  - LNURL**: Lightning ödemeleri veya para çekme işlemleri için LNURL'leri işleyin.
-  - LnMarkets Giriş**: Ticaret için LnMarkets'e giriş yapın.
+- **Hayalet**: Amboss aracılığıyla özel bir Lightning Address kurun.
+- **Bağış yapın**: Lightning üzerinden bağış yapın.
+- **Giriş/Giriş Yap**: Amboss hesabınıza bağlanın (Quick Connect) ve düğümünüzün bilgilerini görüntülemek için doğrudan Amboss.space'e gidin.
+- **Address**: Ödeme yapmak için bir Lightning Address girin.
+- **Aç**: Yeni bir Lightning kanalı açın. Tıklandığında, kanalın açılacağı uzak düğümün URI'sini, miktarı ve varsa kullanılacak maksimum On-Chain ücretini girmek için bir form açılır.
+- **Kod çöz**: Ödeme yapmadan önce ayrıntıları görüntülemek için bir Lightning Invoice veya LNURL kodunu çözün.
+- **LNURL**: Lightning ödemeleri veya para çekme işlemleri için LNURL'leri işleyin.
+- **LnMarkets Giriş**: Ticaret için LnMarkets'e giriş yapın.
 
 
 
@@ -401,13 +401,13 @@ Kısacası, ThunderHub kontrol paneli düğümünüze **hızlı bir bakış** sa
 
 
 
-Gösterge Panosu** bölümü Ana Sayfa sekmesinden ayrıdır ve daha gelişmiş, özelleştirilebilir bir gösterge panosu sunar. Bu bölüm, bir düğüm operatörü olarak ihtiyaçlarınıza göre belirli widget'larla özelleştirilmiş bir görünüm oluşturmanıza olanak tanır.
+**Gösterge Panosu** bölümü Ana Sayfa sekmesinden ayrıdır ve daha gelişmiş, özelleştirilebilir bir gösterge panosu sunar. Bu bölüm, bir düğüm operatörü olarak ihtiyaçlarınıza göre belirli widget'larla özelleştirilmiş bir görünüm oluşturmanıza olanak tanır.
 
 
 
 
 
-- Özelleştirilebilir widget'lar:** Sabit bir düzene sahip olan Ana sayfanın aksine, Dashboard tam olarak hangi Elements'nin görüntüleneceğini ve bunların nasıl düzenleneceğini seçmenize olanak tanır.
+- **Özelleştirilebilir widget'lar:** Sabit bir düzene sahip olan Ana sayfanın aksine, Dashboard tam olarak hangi Elements'nin görüntüleneceğini ve bunların nasıl düzenleneceğini seçmenize olanak tanır.
 
 
 
@@ -445,19 +445,19 @@ Yapılandırıldıktan sonra, gösterge tablonuz çeşitli grafikler ve metrikle
 
 
 
-- Gelişmiş ölçümler:** Grafikler ve gerçek zamanlı verilerle düğümünüzün performansı hakkında daha ayrıntılı istatistiklere erişin.
+- **Gelişmiş ölçümler:** Grafikler ve gerçek zamanlı verilerle düğümünüzün performansı hakkında daha ayrıntılı istatistiklere erişin.
 
 
 
 
 
-- Yapılandırılabilir genel bakış:** İster sıradan bir kullanıcı ister birden fazla yönlendirme kanalını yöneten profesyonel bir operatör olun, ekranı kendinize göre uyarlayın.
+- **Yapılandırılabilir genel bakış:** İster sıradan bir kullanıcı ister birden fazla yönlendirme kanalını yöneten profesyonel bir operatör olun, ekranı kendinize göre uyarlayın.
 
 
 
 
 
-- Modüler Interface:** Gerektiği gibi widget ekleyin veya kaldırın: ileriye dönük grafikler, likidite ölçümleri, düğüm sağlığı uyarıları vb.
+- **Modüler Interface:** Gerektiği gibi widget ekleyin veya kaldırın: ileriye dönük grafikler, likidite ölçümleri, düğüm sağlığı uyarıları vb.
 
 
 
@@ -469,7 +469,7 @@ Bu bölüm özellikle belirli ölçümleri izlemek veya Lightning düğümlerine
 
 
 
-Eşler** bölümü, eşler olarak size bağlı olan tüm Lightning düğümlerini listeler. Bir **eş**, Lightning Network üzerinde doğrudan düğümden düğüme bağlantıdır. Düğümünüz açık bir kanal olmadan da eşlere bağlanabilir (örneğin, sadece ağdaki Exchange dedikodu bilgilerine) veya elbette her açık kanal otomatik olarak bağlı bir eş anlamına gelir.
+**Eşler** bölümü, eşler olarak size bağlı olan tüm Lightning düğümlerini listeler. Bir **eş**, Lightning Network üzerinde doğrudan düğümden düğüme bağlantıdır. Düğümünüz açık bir kanal olmadan da eşlere bağlanabilir (örneğin, sadece ağdaki *Exchange* dedikodu bilgilerine) veya elbette her açık kanal otomatik olarak bağlı bir eş anlamına gelir.
 
 
 
@@ -483,8 +483,8 @@ Eşler sekmesinde şunu göreceksiniz :
 
 
 
-- Bilgi sütunları:** Interface, senkronizasyon durumu, bağlantı türü (clearnet veya Tor), ping, alınan/gönderilen satoshiler ve değiş tokuş edilen veri hacmi gibi yararlı ayrıntıları görüntüler.
-- Bir eş ekleyin:** ThunderHub, sağ üst köşedeki **"Ekle "** düğmesi aracılığıyla yeni bir eşe manuel olarak bağlanmanıza olanak tanır. Düğümün URI'sini girmeniz gerekir (format `<public_key>@<socket>`). Doğrulandıktan sonra, ThunderHub ilgili `lncli connect` komutunu gönderir. Düğüm çevrimiçi ve erişilebilir durumdaysa, eşler listenize eklenecektir.
+- **Bilgi sütunları:** Interface, senkronizasyon durumu, bağlantı türü (clearnet veya Tor), ping, alınan/gönderilen satoshiler ve değiş tokuş edilen veri hacmi gibi yararlı ayrıntıları görüntüler.
+- **Bir eş ekleyin:** ThunderHub, sağ üst köşedeki **"Ekle"** düğmesi aracılığıyla yeni bir eşe manuel olarak bağlanmanıza olanak tanır. Düğümün URI'sini girmeniz gerekir (format `<public_key>@<socket>`). Doğrulandıktan sonra, ThunderHub ilgili `lncli connect` komutunu gönderir. Düğüm çevrimiçi ve erişilebilir durumdaysa, eşler listenize eklenecektir.
 
 
 
@@ -506,31 +506,31 @@ Kanallar** sekmesi Lightning kanal yönetiminin kalbidir. Muhtemelen en sık ba�
 
 
 
-- Kanal listesi görünümü:** Her açık (veya açılan/kapanan) kanal, genellikle uzak düğümün takma adı, toplam kanal kapasitesi ve yerel ile uzak likiditenin dağılımını gösteren renkli bir çubukla birlikte listelenir. ThunderHub kanal dengesini göstermek için bir renk kodu (genellikle mavi/Green) veya yüzde kullanır: örneğin, yerel payınız için mavi, uzak pay için Green. Bir kanal mükemmel şekilde dengelenmişse (50/50), çubuk her rengin yarısı olacaktır. Bu, hangi kanalların dengesiz olduğunu bir bakışta belirlemenizi sağlar (tüm mavi = neredeyse tüm yerel, tüm Green = neredeyse tüm uzak).
+- **Kanal listesi görünümü:** Her açık (veya açılan/kapanan) kanal, genellikle uzak düğümün takma adı, toplam kanal kapasitesi ve yerel ile uzak likiditenin dağılımını gösteren renkli bir çubukla birlikte listelenir. ThunderHub kanal dengesini göstermek için bir renk kodu (genellikle mavi/Green) veya yüzde kullanır: örneğin, yerel payınız için mavi, uzak pay için Green. Bir kanal mükemmel şekilde dengelenmişse (50/50), çubuk her rengin yarısı olacaktır. Bu, hangi kanalların dengesiz olduğunu bir bakışta belirlemenizi sağlar (tüm mavi = neredeyse tüm yerel, tüm Green = neredeyse tüm uzak).
 
 
 
 
 
-- Bilgi sütunları:** Interface, Durum, Mevcut Eylemler, Eş Bilgisi, Kanal Kimliği, Kapasite, Etkinlik, Ücretler ve Bakiye gibi ayrıntılı sütunları grafik likidite ekranı ile görüntüler.
+- **Bilgi sütunları:** Interface, Durum, Mevcut Eylemler, Eş Bilgisi, Kanal Kimliği, Kapasite, Etkinlik, Ücretler ve Bakiye gibi ayrıntılı sütunları grafik likidite ekranı ile görüntüler.
 
 
 
 
 
-- Ekran yapılandırması:** Sağ üst köşedeki bir dişli çark, kanal ekranını tercihlerinize göre özelleştirmenizi sağlar.
+- **Ekran yapılandırması:** Sağ üst köşedeki bir dişli çark, kanal ekranını tercihlerinize göre özelleştirmenizi sağlar.
 
 
 
 
 
-- Durum:** Ayrıca durum göstergelerini de göreceksiniz - örneğin `Aktif` (kanal açık ve çalışır durumda), `Çevrimdışı` (eşin bağlantısı kesildi, bu nedenle kanal anlık olarak kullanılamıyor), `Beklemede` (On-Chain onayı bekleyen açılışlar veya kapanışlar için).
+- **Durum:** Ayrıca durum göstergelerini de göreceksiniz - örneğin `Aktif` (kanal açık ve çalışır durumda), `Çevrimdışı` (eşin bağlantısı kesildi, bu nedenle kanal anlık olarak kullanılamıyor), `Beklemede` (On-Chain onayı bekleyen açılışlar veya kapanışlar için).
 
 
 
 
 
-- Bir kanaldaki eylemler:** Her kanal için ThunderHub eylem düğmeleri (genellikle simge şeklinde) sağlar:
+- **Bir kanaldaki eylemler:** Her kanal için ThunderHub eylem düğmeleri (genellikle simge şeklinde) sağlar:
 
 
 
@@ -540,9 +540,9 @@ Kanallar** sekmesi Lightning kanal yönetiminin kalbidir. Muhtemelen en sık ba�
 
 
 
-  - Ücretleri düzenleyin:** Interface "Kanal Politikasını Güncelle" tüm kanal parametrelerini ayarlamanızı sağlar: Temel Ücret, Ücret Oranı (ppm cinsinden), CLTV Delta, Maks HTLC ve Min HTLC. Bu, yönlendirme trafiğini çekmek (veya caydırmak) amacıyla ücret politikalarınızı kanal başına ayrı ayrı ayarlamanıza olanak tanır. *(Not: ThunderHub otomatik bir ücret yönetimi aracının yerini tutmaz, ancak manuel ayarlama için çok etkilidir)*
-  - Kapatma Kanalı (*Kapat*)**: Interface "Kapatma Kanalı", ücretleri (Sats/vByte cinsinden) tanımlayarak size **işbirlikçi kapatma** (varsayılan) veya **zorla kapatma** (*Zorla Kapatma*) arasında seçim yapma imkanı verir. **Önemli:** On-Chain mutabakat gecikmelerinden ve daha yüksek ücretlerden kaçınmak için mümkün olduğunda her zaman işbirlikçi kapatmayı tercih edin. ThunderHub eşin çevrimiçi (işbirliği mümkün) olup olmadığını size söyleyecektir. Zorla kapatma durumunda, bu geri döndürülemez olduğundan ve bir zaman kilidiyle (genellikle 144 blok veya Bitcoin Mainnet'de ~ 1 gün) bir süpürme işlemini tetikleyeceğinden onayladığınızdan emin olun.
-  - Yeni bir kanal açın:** Yeni bir kanal açmak için Kanallar sayfasının sağ üst köşesindeki dişli çarka tıklayın ve ardından "Aç "ı seçin. Daha sonra yeni veya mevcut bir eşe bir kanal başlatabilirsiniz. Bu sayfayı kullanmanın avantajı, önünüzde mevcut kanallarınızın bir listesinin bulunmasıdır, bu da yeni bir kanalı nerede açacağınıza karar vermenize yardımcı olabilir.
+- **Ücretleri düzenleyin:** Interface "Kanal Politikasını Güncelle" tüm kanal parametrelerini ayarlamanızı sağlar: Temel Ücret, Ücret Oranı (ppm cinsinden), CLTV Delta, Maks HTLC ve Min HTLC. Bu, yönlendirme trafiğini çekmek (veya caydırmak) amacıyla ücret politikalarınızı kanal başına ayrı ayrı ayarlamanıza olanak tanır. *(Not: ThunderHub otomatik bir ücret yönetimi aracının yerini tutmaz, ancak manuel ayarlama için çok etkilidir)*
+- **Kapatma Kanalı** (*Kapat*): Interface "Kapatma Kanalı", ücretleri (Sats/vByte cinsinden) tanımlayarak size **işbirlikçi kapatma** (varsayılan) veya **zorla kapatma** (*Zorla Kapatma*) arasında seçim yapma imkanı verir. **Önemli:** On-Chain mutabakat gecikmelerinden ve daha yüksek ücretlerden kaçınmak için mümkün olduğunda her zaman işbirlikçi kapatmayı tercih edin. ThunderHub eşin çevrimiçi (işbirliği mümkün) olup olmadığını size söyleyecektir. Zorla kapatma durumunda, bu geri döndürülemez olduğundan ve bir zaman kilidiyle (genellikle 144 blok veya Bitcoin Mainnet'de ~ 1 gün) bir süpürme işlemini tetikleyeceğinden onayladığınızdan emin olun.
+- **Yeni bir kanal açın:** Yeni bir kanal açmak için Kanallar sayfasının sağ üst köşesindeki dişli çarka tıklayın ve ardından "Aç "ı seçin. Daha sonra yeni veya mevcut bir eşe bir kanal başlatabilirsiniz. Bu sayfayı kullanmanın avantajı, önünüzde mevcut kanallarınızın bir listesinin bulunmasıdır, bu da yeni bir kanalı nerede açacağınıza karar vermenize yardımcı olabilir.
 
 
 
@@ -554,7 +554,7 @@ Kısacası, Kanallar bölümü size **her kanal üzerinde ince kontrol** sağlar
 
 
 
-Yeniden Dengeleme** sekmesi **kanal dengelemeye** ayrılmıştır. Dengeleme (veya *yeniden dengeleme*), Lightning Network aracılığıyla kanallarınızdan birinden diğerine **dairesel bir ödeme** yaparak, giden ve gelen kanallarınız arasındaki fon dağılımını yeniden ayarlamayı içerir. Bu, yeni fon getirmeden, likiditeyi çok dolu bir kanaldan çok boş bir kanala kaydırmanıza ve kanallarınızı daha kullanışlı hale getirmenize olanak tanır (dengeli bir kanal hem ödeme gönderebilir hem de alabilir).
+**Yeniden Dengeleme** sekmesi **kanal dengelemeye** ayrılmıştır. Dengeleme (veya *yeniden dengeleme*), Lightning Network aracılığıyla kanallarınızdan birinden diğerine **dairesel bir ödeme** yaparak, giden ve gelen kanallarınız arasındaki fon dağılımını yeniden ayarlamayı içerir. Bu, yeni fon getirmeden, likiditeyi çok dolu bir kanaldan çok boş bir kanala kaydırmanıza ve kanallarınızı daha kullanışlı hale getirmenize olanak tanır (dengeli bir kanal hem ödeme gönderebilir hem de alabilir).
 
 
 
@@ -568,23 +568,23 @@ ThunderHub, aksi takdirde komut satırında sıkıcı olabilecek bu işlemi büy
 
 
 
-- İlk kanal görünümü:** Yeniden Dengeleme'ye girdiğinizde, ThunderHub kanallarınızın bir listesini ve her biri için bir denge göstergesi görüntüler (Kanallar sayfasındakine benzer). Hangi kanalların dengede olmadığını hemen görebilirsiniz. ThunderHub kanalları artan denge sırasına göre sıralayabilir, böylece en dengesiz kanallar listenin en üstünde öne çıkar (0.0 tamamen yerel veya uzak anlamına gelir).
+- **İlk kanal görünümü:** Yeniden Dengeleme'ye girdiğinizde, ThunderHub kanallarınızın bir listesini ve her biri için bir denge göstergesi görüntüler (Kanallar sayfasındakine benzer). Hangi kanalların dengede olmadığını hemen görebilirsiniz. ThunderHub kanalları artan denge sırasına göre sıralayabilir, böylece en dengesiz kanallar listenin en üstünde öne çıkar (0.0 tamamen yerel veya uzak anlamına gelir).
 
 
 
 
 
-- Eş seçimi:** Interface, yeniden dengeleme için giden ve gelen eşlerin seçilmesini kolaylaştırır.
+- **Eş seçimi:** Interface, yeniden dengeleme için giden ve gelen eşlerin seçilmesini kolaylaştırır.
 
 
 
 
 
-- Parametre ayarları:** Ayarlayabilirsiniz :
+- **Parametre ayarları:** Ayarlayabilirsiniz :
   - Ödemeye razı olduğunuz **maksimum ücret** (Sats ve ppm cinsinden)
   - "Sabit" veya "Hedef" seçeneği ile **yeniden dengelenecek miktar**
-  - Yönlendirme yaparken kaçınılması gereken düğümler**
-  - Rota bulma için maksimum deneme süresi**
+- **Yönlendirme yaparken kaçınılması gereken düğümler**
+- **Rota bulma için maksimum deneme süresi**
 
 
 
@@ -602,7 +602,7 @@ ThunderHub, aksi takdirde komut satırında sıkıcı olabilecek bu işlemi büy
 
 
 
-- Ücret miktarını ve toleransı ayarlayın:** Bir form girmenize olanak tanır:
+- **Ücret miktarını ve toleransı ayarlayın:** Bir form girmenize olanak tanır:
 
 
 
@@ -615,19 +615,19 @@ ThunderHub, aksi takdirde komut satırında sıkıcı olabilecek bu işlemi büy
 
 
 
-- Rota Bul:** Bir rota bulmak için düğmeye tıklayın. ThunderHub, kaynak kanalınızdan ağ üzerinden kendi hedef kanalınıza bir rota hesaplamak için LND'u sorgular. Ücret kriterlerinizi karşılayan olası bir rota bulursa, bunu atlamaların ayrıntıları ve ücret maliyetiyle birlikte görüntüler. Örneğin, toplam 2 Sats ücretiyle 3 atlamalı bir yol bulduğunu gösterebilir.
+- **Rota Bul:** Bir rota bulmak için düğmeye tıklayın. ThunderHub, kaynak kanalınızdan ağ üzerinden kendi hedef kanalınıza bir rota hesaplamak için LND'u sorgular. Ücret kriterlerinizi karşılayan olası bir rota bulursa, bunu atlamaların ayrıntıları ve ücret maliyetiyle birlikte görüntüler. Örneğin, toplam 2 Sats ücretiyle 3 atlamalı bir yol bulduğunu gösterebilir.
 
 
 
 
 
-- Yeniden dengelemeyi başlatın:** Önerilen rotadan memnunsanız, **Dengeleme Kanalı** üzerine tıklayın. ThunderHub daha sonra LND üzerinden dairesel ödeme başlatacaktır. Ödeme başarılı olursa, bir başarı bildirimi görürsünüz ve A ve B kanallarının bakiyeleri gerçek zamanlı olarak değiştirilir. ThunderHub bu kanallar için bakiye göstergesini güncelleyecektir (ideal olarak, daha iyi bakiyeyi gösteren öncekinden daha yeşil olacaktır).
+- **Yeniden dengelemeyi başlatın:** Önerilen rotadan memnunsanız, **Dengeleme Kanalı** üzerine tıklayın. ThunderHub daha sonra LND üzerinden dairesel ödeme başlatacaktır. Ödeme başarılı olursa, bir başarı bildirimi görürsünüz ve A ve B kanallarının bakiyeleri gerçek zamanlı olarak değiştirilir. ThunderHub bu kanallar için bakiye göstergesini güncelleyecektir (ideal olarak, daha iyi bakiyeyi gösteren öncekinden daha yeşil olacaktır).
 
 
 
 
 
-- Ayarlamalar ve yinelemeler:** İlk denemede hiçbir rota bulunamazsa (veya çok pahalıysa), parametreleri ayarlayabilirsiniz :
+- **Ayarlamalar ve yinelemeler:** İlk denemede hiçbir rota bulunamazsa (veya çok pahalıysa), parametreleri ayarlayabilirsiniz :
 
 
 
@@ -666,7 +666,7 @@ Bu sekmede şunları bulacaksınız :
 
 
 
-- Invoice grafiği:** Sağ üst köşede, zaman içinde alınan faturaların gelişimini gösteren bir grafik, düğümünüzün etkinliğini görselleştirmenize olanak tanır.
+- **Invoice grafiği:** Sağ üst köşede, zaman içinde alınan faturaların gelişimini gösteren bir grafik, düğümünüzün etkinliğini görselleştirmenize olanak tanır.
 
 
 
@@ -694,7 +694,7 @@ Kısacası, İşlemler bölümü **LN etkinlik günlüğünüz** olarak işlev g
 
 
 
-Yönlendirme** sekmesi düğümünüzün **yönlendirme** faaliyetine, yani kanallarınızdan **geçen** ödemelere (Lightning Network üzerinde aracı düğüm olarak hareket ettiğinizde) ayrılmıştır. Düğümünüzü bir yönlendirme düğümü olarak işletiyorsanız, bu performansınızı izlemek için önemli bir bölümdür.
+**Yönlendirme** sekmesi düğümünüzün **yönlendirme** faaliyetine, yani kanallarınızdan **geçen** ödemelere (Lightning Network üzerinde aracı düğüm olarak hareket ettiğinizde) ayrılmıştır. Düğümünüzü bir yönlendirme düğümü olarak işletiyorsanız, bu performansınızı izlemek için önemli bir bölümdür.
 
 
 
@@ -708,13 +708,13 @@ Forwards'da ThunderHub şunları sunar :
 
 
 
-- Filtreler ve görüntüleme seçenekleri:** Sağ üstteki filtreler, verileri gün/hafta/ay/yıla göre sıralamanıza ve grafik veya tablo görüntüleme arasında seçim yapmanıza olanak tanır.
+- **Filtreler ve görüntüleme seçenekleri:** Sağ üstteki filtreler, verileri gün/hafta/ay/yıla göre sıralamanıza ve grafik veya tablo görüntüleme arasında seçim yapmanıza olanak tanır.
 
 
 
 
 
-- Etkinlik mesajı:** Seçilen dönem boyunca herhangi bir yönlendirme yapılmamışsa, Interface bu örnekte gösterildiği gibi "Bu dönem için yönlendirme yok" mesajını görüntüler.
+- **Etkinlik mesajı:** Seçilen dönem boyunca herhangi bir yönlendirme yapılmamışsa, Interface bu örnekte gösterildiği gibi "Bu dönem için yönlendirme yok" mesajını görüntüler.
 
 
 
@@ -736,7 +736,7 @@ Forwards'da ThunderHub şunları sunar :
 
 
 
-- Toplanmış istatistikler**: ThunderHub, belirli bir dönemdeki (örneğin son 24 saat veya 7 gün vb., bazen yapılandırılabilir) toplamları ve istatistikleri hesaplar ve sayfanın üst kısmında görüntüler.
+- **Toplanmış istatistikler**: ThunderHub, belirli bir dönemdeki (örneğin son 24 saat veya 7 gün vb., bazen yapılandırılabilir) toplamları ve istatistikleri hesaplar ve sayfanın üst kısmında görüntüler.
 
 
 
@@ -748,7 +748,7 @@ Kısacası, Forwards bölümü Lightning düğümünüzün yönlendirme etkinli�
 
 
 
-Zincir** bölümü LND düğümünüzün Bitcoin On-Chain Wallet yönetimine karşılık gelir. Bu Interface, kanal açmak veya kapalı kanallardan fon almak için kullanılan Bitcoin fonlarını görüntülemenizi ve yönetmenizi sağlar.
+**Zincir** bölümü LND düğümünüzün Bitcoin On-Chain Wallet yönetimine karşılık gelir. Bu Interface, kanal açmak veya kapalı kanallardan fon almak için kullanılan Bitcoin fonlarını görüntülemenizi ve yönetmenizi sağlar.
 
 
 
@@ -762,19 +762,19 @@ Chain'de şunları bulacaksınız:
 
 
 
-- Bakiye On-Chain :** Wallet LND'de bulunan toplam BTC bakiyesini görüntüler.
+- **Bakiye On-Chain:** Wallet LND'de bulunan toplam BTC bakiyesini görüntüler.
 
 
 
 
 
-- UTXO'ların Listesi:** Tüm harcanmamış çıktıları (UTXO) miktar, onaylar, Address ve her çıktı için formatla birlikte görüntüleyin.
+- **UTXO'ların Listesi:** Tüm harcanmamış çıktıları (UTXO) miktar, onaylar, Address ve her çıktı için formatla birlikte görüntüleyin.
 
 
 
 
 
-- İşlem geçmişi:** Tüm Bitcoin işlemlerinin tür (giriş/çıkış), tarih, tutar, masraflar, onaylar, dahil etme bloğu, adresler ve txid ile ayrıntılı tablosu.
+- **İşlem geçmişi:** Tüm Bitcoin işlemlerinin tür (giriş/çıkış), tarih, tutar, masraflar, onaylar, dahil etme bloğu, adresler ve txid ile ayrıntılı tablosu.
 
 
 
@@ -796,7 +796,7 @@ ThunderHub'da Amboss bölümü, düğümünüzü Amboss hesabınıza **bağlaman
 
 
 
-- Ghost Address:** Düğümünüz için gelen ödemeleri kolaylaştıran **kişiselleştirilmiş bir Lightning Address** kurun.
+- **Ghost Address:** Düğümünüz için gelen ödemeleri kolaylaştıran **kişiselleştirilmiş bir Lightning Address** kurun.
 
 
 
@@ -808,13 +808,13 @@ ThunderHub'da Amboss bölümü, düğümünüzü Amboss hesabınıza **bağlaman
 
 
 
-- Sağlık Kontrolleri:** Düğümünüzün Amboss'a düzenli ping göndermesini sağlamak için **Amboss Healthcheck = Yes** seçeneğini etkinleştirin. Düğümünüz çevrimdışı görünüyorsa uyarı alırsınız.
+- **Sağlık Kontrolleri:** Düğümünüzün Amboss'a düzenli ping göndermesini sağlamak için **Amboss Healthcheck = Yes** seçeneğini etkinleştirin. Düğümünüz çevrimdışı görünüyorsa uyarı alırsınız.
 
 
 
 
 
-- Diğer özellikler:** Otomatik bakiye aktarımı, **Magma/Hydro** entegrasyonu (likidite piyasası) ve ayrıntılı performans istatistiklerine erişim.
+- **Diğer özellikler:** Otomatik bakiye aktarımı, **Magma/Hydro** entegrasyonu (likidite piyasası) ve ayrıntılı performans istatistiklerine erişim.
 
 
 
@@ -826,7 +826,7 @@ Amboss entegrasyonu, doğrudan ThunderHub'dan erişilebilen otomatik harici yede
 
 
 
-Araçlar** bölümü, düğümünüzü yönetmek için çeşitli gelişmiş araçları bir araya getirir. İşte ana Elements:
+**Araçlar** bölümü, düğümünüzü yönetmek için çeşitli gelişmiş araçları bir araya getirir. İşte ana Elements:
 
 
 
@@ -836,16 +836,16 @@ Araçlar** bölümü, düğümünüzü yönetmek için çeşitli gelişmiş ara�
 
 
 
-- Yedeklemeler:** Kanal yedeklemelerinizi (SCB) manuel olarak yönetin. ThunderHub kanallarınızın **tüm yedek dosyasını** indirmenize izin verir ("Tüm kanalları yedekle -> İndir" seçeneği). Bu `channel-all.bak` dosyasını güvenli bir yerde saklayın - bir çökme durumunda fonlarınızı kurtarmak için gereklidir. Ayrıca bir düğümü yeniden dağıtırken bir yedekleme dosyasını ** içe aktarabilirsiniz**.
+- **Yedeklemeler:** Kanal yedeklemelerinizi (SCB) manuel olarak yönetin. ThunderHub kanallarınızın **tüm yedek dosyasını** indirmenize izin verir ("Tüm kanalları yedekle -> İndir" seçeneği). Bu `channel-all.bak` dosyasını güvenli bir yerde saklayın - bir çökme durumunda fonlarınızı kurtarmak için gereklidir. Ayrıca bir düğümü yeniden dağıtırken bir yedekleme dosyasını **içe aktarabilirsiniz**.
 
 
 
 
 
-- Muhasebe:** Kazanılan/ödenen ücretler ve belirli bir dönem boyunca yönlendirilen hacimler dahil olmak üzere finansal raporlar için dışa aktarma aracı.
-- İmzalı mesajlar:** **Lightning düğümünüzün Ownership'ını kriptografik imza ile kanıtlamak için düğümünüzle mesajları** imzalayın veya doğrulayın.
+- **Muhasebe:** Kazanılan/ödenen ücretler ve belirli bir dönem boyunca yönlendirilen hacimler dahil olmak üzere finansal raporlar için dışa aktarma aracı.
+- **İmzalı mesajlar:** Lightning düğümünüzün Ownership'ını kriptografik imza ile kanıtlamak için düğümünüzle mesajları imzalayın veya doğrulayın.
 - Makaronlar (Fırın bölümü):** Özelleştirilmiş erişim oluşturmak için LND** makaronlarını yönetin. Interface "Fırın" her bir izni tam olarak seçmenize olanak tanır: "Eşler Ekle veya Kaldır", "Zincir Adresleri Oluştur", "Fatura Oluştur", "Makaron Oluştur", "Anahtar Türet", "Erişim Anahtarlarını Al", "Zincir İşlemlerini Al", "Faturaları Al", "Wallet Bilgilerini Al", "Ödemeleri Al", "Eşleri Al", "Faturaları Öde", "Erişim Kimliklerini İptal Et", "Zincir Adreslere Gönder", "Baytları İmzala", "Mesajları İmzala", "daemon'ü Durdur", "Bayt imzasını doğrula", "Mesajları doğrula" vb. Her izin, kişiye özel bir makaron oluşturmak için "Evet/Hayır" düğmeleriyle ayrı ayrı etkinleştirilebilir.
-- Sistem bilgisi:** Wallet sürümünün ve etkinleştirilmiş RPC'lerin görüntülenmesi.
+- **Sistem bilgisi:** Wallet sürümünün ve etkinleştirilmiş RPC'lerin görüntülenmesi.
 
 
 
@@ -871,9 +871,9 @@ ThunderHub'ın **Swap** sekmesi, Boltz hizmeti aracılığıyla Lightning satosh
 
 
 
-- Tutar**: Değiştirilecek tutarı tanımlayın
-- Address** : Bitcoin alımı Address girin
-- Yürütme**: ThunderHub, Exchange'i otomatik olarak işlemek için Boltz ile iletişim kurar
+- **Tutar**: Değiştirilecek tutarı tanımlayın
+- **Address**: Bitcoin alımı Address girin
+- **Yürütme**: ThunderHub, Exchange'i otomatik olarak işlemek için Boltz ile iletişim kurar
 
 
 
@@ -940,6 +940,6 @@ ThunderHub, gelişmiş Lightning düğümü yönetimini demokratikleştirerek da
 
 
 
-- Resmi web sitesi:** [thunderhub.io](https://thunderhub.io)
-- Dokümantasyon:** [docs.thunderhub.io](https://docs.thunderhub.io)
-- GitHub kaynak kodu:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)
+- **Resmi web sitesi:** [thunderhub.io](https://thunderhub.io)
+- **Dokümantasyon:** [docs.thunderhub.io](https://docs.thunderhub.io)
+- **GitHub kaynak kodu:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)

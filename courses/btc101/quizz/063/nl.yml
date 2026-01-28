@@ -1,12 +1,10 @@
-question: Wat is het wiskundige concept dat gebaseerd is op menselijke rationaliteit en gebruikt wordt in Bitcoin?
-answer: Speltheorie.
+question: Hoeveel is de BTC-beloning na de vierde Halving?
+answer: 3.125 BTC.
 wrong_answers:
-  - Waarschijnlijkheidstheorie.
-  - Getaltheorie.
-  - Theorie van verzamelingen.
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
 explanation: |
-  Speltheorie is een wiskundig concept dat gebaseerd is op
-  menselijke rationaliteit. In Bitcoin worden protocolwijzigingen
-  afgedwongen door gebruikers, waardoor elke wijziging aan het Bitcoin
-  protocol zeer complex.
+  Na de vierde Halving, die plaatsvindt op blokhoogte
+  840.000, is de BTC-beloning voor Mining 3,125 BTC.
 reviewed: true

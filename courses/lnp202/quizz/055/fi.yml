@@ -1,0 +1,9 @@
+question: Milloin NWC-virtauksessa salaus tapahtuu sovelluksen puolella?
+answer: Ennen julkaisemista releessä
+wrong_answers:
+  - Kun olet lukenut solmun
+  - Julkaisun jälkeen releellä
+  - Ei koskaan
+explanation: |
+  Sovellus sarjallistaa pyynnön, salaa sen ja julkaisee sen sitten tapahtumana Nostr-releessä.
+reviewed: false

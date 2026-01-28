@@ -1,5 +1,5 @@
 ---
-name: kuwa-BOP
+name: be-BOP
 description: Mwongozo wa vitendo wa kuchuma mapato kwa biashara yako na be-BOP
 ---
 
@@ -7,7 +7,7 @@ description: Mwongozo wa vitendo wa kuchuma mapato kwa biashara yako na be-BOP
 
 
 
-**be-BOP** ni jukwaa la biashara ya mtandaoni lililoundwa kwa ajili ya wajasiriamali wanaotaka kuuza mtandaoni na nje ya mtandao, kwa uhuru kamili, huku wakikubali malipo katika Bitcoin, kupitia akaunti ya benki na kwa Pesa. Suluhisho hilo pia ni muhimu kwa aina yoyote ya shirika linalotaka kukusanya michango au kuchuma mapato kwa shughuli zake mbalimbali.
+**be-BOP** Hili ni jukwaa la biashara ya mtandaoni lililobuniwa kwa ajili ya wajasiriamali wanaotaka kuuza bidhaa au huduma zao kwa njia ya mtandao na kando ya mtandao. Linawapa uhuru kamili wa kukubali malipo, iwe ni kwa kutumia Bitcoin, kupitia akaunti za benki, au kwa Pesa (simu ya mkononi). Zaidi ya hayo, suluhisho hili ni la manufaa kwa shirika lolote linalohitaji kukusanya michango au kupata mapato kutokana na shughuli zake mbalimbali.
 
 
 
@@ -62,10 +62,10 @@ Utahitaji kusanidi ndoo na kutoa habari ifuatayo:
 
 
 
-- S3_BUCKET**: jina la ndoo
-- S3_ENDPOINT_URL**: kiungo cha kufikia huduma yako ya S3
-- S3_KEY_ID** na S3_KEY_SECRET: misimbo yako ya ufikiaji
-- S3_REGION**: eneo la huduma yako ya S3
+- **S3_BUCKET**: jina la bucket
+- **S3_ENDPOINT_URL**: kiungo cha kufikia huduma yako ya S3
+- **S3_KEY_ID** na **S3_KEY_SECRET**: misimbo yako ya ufikiaji
+- **S3_REGION**: eneo la huduma yako ya S3
 
 
 
@@ -94,8 +94,8 @@ Utahitaji vigezo vifuatavyo:
 
 
 
-- MONGODB_URL**: muunganisho wa hifadhidata Address
-- MONGODB_DB**: jina la hifadhidata
+- **MONGODB_URL**: muunganisho wa hifadhidata Address
+- **MONGODB_DB**: jina la hifadhidata
 
 
 
@@ -134,7 +134,7 @@ Mara ya kwanza be-BOP inazinduliwa, akaunti ya **Msimamizi Mkuu** inaundwa. Akau
 
 
 
-Akaunti hii itakupa ufikiaji wa utendakazi wote wa nyuma wa ofisi. Mara baada ya kuundwa, unaweza kuingia kwa kuingiza jina lako la mtumiaji na nenosiri.
+Akaunti hii itakupa ufikiaji wa utendakazi wote wa back office. Baada ya kuundwa, unaweza kuingia kwa kuingiza jina la mtumiaji na nenosiri lako.
 
 
 
@@ -146,7 +146,7 @@ Akaunti hii itakupa ufikiaji wa utendakazi wote wa nyuma wa ofisi. Mara baada ya
 
 
 
-Kabla ya kusanidi muunganisho wako wa Interface wa ofisi ya nyuma, unahitaji kuunda Hash ya kipekee. Hii hutoa ulinzi dhidi ya watendaji hasidi wanaojaribu kuiba kiungo cha muunganisho kwa msimamizi wako wa Interface.
+Kabla ya kusanidi muunganisho wako wa Interface wa back office, unahitaji kuunda Hash ya kipekee. Hii hutoa ulinzi dhidi ya watendaji hasidi wanaoweza kujaribu kuiba kiungo cha muunganisho cha msimamizi wako wa Interface.
 
 
 
@@ -182,7 +182,7 @@ Ikihitajika, unaweza kubainisha orodha ya anwani za IPv4 zilizoidhinishwa (zinaz
 
 
 
-Ili kuwezesha be-BOP kutuma arifa (k.m. kwa maagizo, usajili au ujumbe wa mfumo), unahitaji kusanidi angalau njia moja ya mawasiliano. Chaguzi mbili zinapatikana: barua pepe (SMTP) au Nostr.
+Ili kuwezesha be-BOP kutuma arifa (k.m. za maagizo, usajili au ujumbe wa mfumo), unahitaji kusanidi angalau njia moja ya mawasiliano. Kuna chaguzi mbili zinazopatikana: barua pepe (SMTP) au Nostr.
 
 
 
@@ -202,7 +202,7 @@ SMTP_HOST: Seva ya SMTP Address (k.m. smtp.mailgun.org)
 
 
 
-SMTP_PORT: bandari ya kutumia (mara nyingi 587 au 465)
+SMTP_PORT: port ya kutumia (mara nyingi 587 au 465)
 
 
 
@@ -223,7 +223,7 @@ SMTP_FROM: barua pepe ya Address ambayo itaonekana kama mtumaji
 
 
 
-be-BOP hukuwezesha kutuma arifa kupitia itifaki ya Nostr, miundombinu ya utumaji ujumbe iliyogatuliwa. Ili kufanya hivyo, unahitaji generate au Supply ufunguo wa kibinafsi wa Nostr (NSEC). Unaweza generate ufunguo huu moja kwa moja kupitia be-BOP's Interface, katika sehemu iliyowekwa kwa Nostr. Wakati Elements hizi zimesanidiwa ipasavyo, be-BOP itaweza kutuma ujumbe na arifa kiotomatiki kwa watumiaji wako.
+be-BOP hukuwezesha kutuma arifa kupitia itifaki ya Nostr, miundombinu ya utumaji ujumbe iliyogatuliwa. Ili kufanya hivyo, unahitaji kugenerate au Supply ufunguo wa kibinafsi wa Nostr (NSEC). Unaweza kugenerate ufunguo huu moja kwa moja kupitia be-BOP's Interface, katika sehemu iliyowekwa kwa Nostr. Wakati Elements hizi zimesanidiwa ipasavyo, be-BOP itaweza kutuma ujumbe na arifa kiotomatiki kwa watumiaji wako.
 
 
 
@@ -255,12 +255,13 @@ be-BOP inakuwezesha kukubali malipo ya Bitcoin moja kwa moja kwenye Blockchain (
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Sehemu                  | Maelezo                                               | Mfano wa Kutumia                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Aina ya anwani inayotumiwa                               | BIP84 (kwa anwani katika muundo wa bech32 zinazoanza na `bc1`) |
+| **Ufunguo wa Umma Ulioongezwa** | Zpub yako (au Xpub kulingana na pochi iliyotumiwa)        | `zpub...` (iliyochorwa kutoka kwa pochi yako ya Bitcoin) |
+| **Derivation Index**   | Faharasa ya kuanzia kwa ajili ya kuzalisha anwani         | `1`                                              |
+| **URL ya Mempool**        | URL ya huduma ya mempool inayotumiwa kusambaza miamala | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -290,7 +291,7 @@ Nenda kwenye menyu ya `Mipangilio ya Malipo`, bofya `Phoenixd`
 
 
 
-Kisha utahitaji kuingiza **nenosiri au uthibitishaji wa token** unaokuunganisha kwenye mfano wako wa Phoenixd, mandharinyuma iliyotengenezwa na Acinq ambayo inakuruhusu kudhibiti malipo ya Lightning ukitumia nodi yako mwenyewe, lakini bila ugumu wa kudhibiti njia za malipo.
+Kisha utahitaji kuingiza **nenosiri au uthibitishaji** wa token unaokuunganisha na mfano wako wa Phoenixd—mandharinyuma iliyotengenezwa na Acinq ambayo inakuwezesha kudhibiti malipo ya Lightning kwa kutumia node yako mwenyewe, bila changamoto za kusimamia njia za malipo.
 
 
 
@@ -298,7 +299,7 @@ Kisha utahitaji kuingiza **nenosiri au uthibitishaji wa token** unaokuunganisha 
 
 
 
-Iwapo hutaki kudhibiti eneo la Umeme mwenyewe, **Swiss Bitcoin Pay** ni suluhisho lililo tayari kutumia, na rahisi kusanidi ambalo linafaa kwa kuanza kukubali malipo ya Radi bila miundombinu changamano.
+Iwapo hutaki kudhibiti eneo la Lightning yenyewe, **Swiss Bitcoin Pay** ni suluhisho lililo tayari kutumia, na rahisi kusanidi ambalo linafaa kwa kuanza kukubali malipo ya Lightning  bila miundombinu changamano.
 
 
 
@@ -309,12 +310,12 @@ Hatua za usanidi:
 
 
 - Katika menyu ya "Mipangilio ya Malipo", bofya `Swiss Bitcoin Pay`
-- Ingia katika akaunti yako ya Uswizi ya Bitcoin Pay (au uunde ikiwa bado huna).
+- Ingia katika akaunti yako ya Swiss Bitcoin Pay (au uunde ikiwa bado huna).
 - Weka Ufunguo wa API unaotolewa na Swiss Bitcoin Pay, kisha ubofye "Hifadhi"
 
 
 
-Baada ya kusanidiwa, be-BOP itaweka ankara za generate kiotomatiki kwa wateja wako, na utapokea malipo moja kwa moja kwenye akaunti yako ya Uswizi ya Bitcoin Pay. Suluhisho hili ni bora kwa watumiaji ambao wanataka kuepuka utata wa kiufundi wa nodi ya kibinafsi wakati wa kukubali malipo ya haraka, ya gharama nafuu.
+Baada ya kusanidiwa, be-BOP itaweka ankara za generate kiotomatiki kwa wateja wako, na utapokea malipo moja kwa moja kwenye akaunti yako ya Swiss Bitcoin Pay. Suluhisho hili ni bora kwa watumiaji ambao wanataka kuepuka utata wa kiufundi wa node ya kibinafsi wakati wa kukubali malipo ya haraka, ya gharama nafuu.
 
 
 
@@ -337,10 +338,10 @@ Hatua za usanidi:
 
 
 - Nenda kwenye menyu ya `Mipangilio ya Malipo`
-- Bonyeza kwa `PayPal
+- Bonyeza kwa `PayPal`
 - Katika akaunti yako ya Paypal (sehemu ya msanidi programu), weka `Kitambulisho cha Mteja` na `Siri`
 - Chagua sarafu unayochagua (k.m. **USD**, **EUR**, **XOF**, n.k.)
-- Bonyeza kwa `save
+- Bonyeza kwa `save`
 
 
 
@@ -348,7 +349,7 @@ Hatua za usanidi:
 
 
 
-**Kumbuka:** Lazima uwe na akaunti ya biashara ya PayPal kwa generate vitambulishi hivi. Unaweza kuzipata kupitia tovuti ya [msanidi programu] (https://developer.paypal.com)
+**Kumbuka:** Lazima uwe na akaunti ya biashara ya PayPal kwa generate vitambulishi hivi. Unaweza kuzipata kupitia tovuti ya [msanidi programu](https://developer.paypal.com)
 
 
 
@@ -419,7 +420,7 @@ be-BOP pia inatoa ushirikiano kamili na **Stripe**, mojawapo ya mifumo maarufu y
 
 
 
-Baada ya sarafu zote kusanidiwa kwa usahihi, programu huhakikisha ubadilishaji wa moja kwa moja na sahihi wa shughuli za sarafu nyingi, huku ikidumisha uthabiti wa uhasibu.
+Baada ya sarafu zote kusanidiwa kwa usahihi, programu huhakikisha ubadilishaji wa moja kwa moja na sahihi wa miamala za sarafu nyingi, huku ikidumisha uthabiti wa uhasibu.
 
 
 
@@ -455,7 +456,7 @@ Programu hutoa uwezo wa lugha nyingi kukabiliana na hadhira ya kimataifa na kubo
 
 
 
-**be-BOP** huwapa wabunifu zana zote wanazohitaji ili kuunda tovuti. Hatua ya kwanza ni kufungua sehemu ya `/Msimamizi > Bidhaa > Muundo` katika mipangilio. Anza kwa kusanidi **Upau wa Juu**, Upau wa Urambazaji** na **Nchi**.
+**be-BOP** huwapa wabunifu zana zote wanazohitaji ili kuunda tovuti. Hatua ya kwanza ni kufungua sehemu ya `/Msimamizi > Bidhaa > Muundo` katika mipangilio. Anza kwa kusanidi **Upau wa Juu**, **Upau wa Urambazaji** na **Nchi**.
 
 
 
@@ -474,8 +475,8 @@ Usanidi wa **Upau wa Juu** hukuwezesha kubinafsisha utambulisho unaoonekana wa p
 
 
 - Katika sehemu ya `Jina la Biashara`, weka jina la kampuni, shirika au bidhaa yako. Jina hili litaonekana juu ya Interface na litawakilisha utambulisho wako mkuu wa kuona.
-- Onyesha kichwa cha tovuti**: kichwa kilichochaguliwa kinapaswa kutoa muhtasari wa madhumuni ya jukwaa. Kichwa hiki kinaweza kuonekana kwenye kichwa au kwenye kichupo cha kivinjari.
-- Ongeza maelezo ya Tovuti**: hapa ndipo unapoandika maelezo mafupi ya mpango wako. Maelezo haya husaidia kuweka zana kwa watumiaji muktadha na pia inaweza kutumika kwa madhumuni ya SEO.
+- **Onyesha kichwa cha tovuti**: kichwa kilichochaguliwa kinapaswa kutoa muhtasari wa madhumuni ya jukwaa. Kichwa hiki kinaweza kuonekana kwenye kichwa au kwenye kichupo cha kivinjari.
+- **Ongeza maelezo ya Tovuti**: hapa ndipo unapoandika maelezo mafupi ya mpango wako. Maelezo haya husaidia kuweka zana kwa watumiaji muktadha na pia inaweza kutumika kwa madhumuni ya SEO.
 
 
 
@@ -497,10 +498,10 @@ Sehemu ya `Viungo` ya Upau wa Juu hukuruhusu kuongeza njia za mkato kwa kurasa m
 
 
 
-- Ingiza jina la kiungo (Nakala)**: katika sehemu ya `Maandishi`, weka jina au lebo ya kiungo jinsi itakavyoonekana (k.m. Nyumbani, Anwani, Usaidizi...).
-- Onyesha kiungo Address (Url)**: katika sehemu ya `Url`, weka Address kamili ya ukurasa lengwa (wa ndani au nje).
-- Ongeza viungo vingine ikihitajika**: kila mstari wa usanidi hukuruhusu kuongeza kiungo cha ziada kwa kutumia sehemu za `Maandishi` na `Url`.
-- Hifadhi viungo**: viungo vyote vikishawekwa, bofya kitufe cha "Ongeza upau wa juu" ili kuvihifadhi.
+- **Ingiza jina la kiungo (Nakala)**: katika sehemu ya `Maandishi`, weka jina au lebo ya kiungo jinsi itakavyoonekana (k.m. Nyumbani, Anwani, Usaidizi...).
+- Onyesha kiungo **Address (Url)**: katika sehemu ya `Url`, weka Address kamili ya ukurasa lengwa (wa ndani au nje).
+- **Ongeza viungo vingine ikihitajika**: kila mstari wa usanidi hukuruhusu kuongeza kiungo cha ziada kwa kutumia sehemu za `Maandishi` na `Url`.
+- **Hifadhi viungo**: viungo vyote vikishawekwa, bofya kitufe cha "Ongeza upau wa juu" ili kuvihifadhi.
 
 
 
@@ -522,10 +523,10 @@ Sehemu ya **Upau wa Urambazaji** hukuruhusu kusanidi menyu kuu ya usogezaji ya b
 
 
 
-- Ingiza jina la kiungo (`Nakala`)**: kwenye mstari wa usanidi, anza kwa kujaza sehemu ya `Nakala`. Hii inalingana na jina la kiungo kinachoonyeshwa kwenye upau wa kusogeza (mifano: *Dashibodi*, *Watumiaji*, *Mipangilio*...).
-- Ingiza kiungo Address (`Url`)**: karibu na sehemu ya `Nakala`, utapata sehemu ya `Url`. Katika uwanja huu, ingiza Address ya ukurasa ambao kiungo kinapaswa kuelekeza upya. Hii inaweza kuwa njia ya ndani au kiungo cha ukurasa wa nje.
-- Ongeza viungo vingi ikihitajika**: chini ya mstari wa kwanza, sehemu mpya za `Maandishi` na `Url` zinapatikana kwa kuongeza viungo vingi inavyohitajika. Kila mstari unawakilisha kiungo cha ziada cha kusogeza.
-- Hifadhi viungo**: mara tu unapoingiza Elements zote, bofya kitufe cha `Ongeza upau wa nav` ili kuhifadhi na kuonyesha matokeo katika upau wa kusogeza.
+- Ingiza jina la kiungo (**Nakala**): kwenye mstari wa usanidi, anza kwa kujaza sehemu ya **Nakala**. Hii inalingana na jina la kiungo kinachoonyeshwa kwenye upau wa kusogeza (mifano: *Dashibodi*, *Watumiaji*, *Mipangilio*...).
+- Ingiza kiungo **Address (`Url`)**: karibu na sehemu ya `Nakala`, utapata sehemu ya `Url`. Katika uwanja huu, ingiza Address ya ukurasa ambao kiungo kinapaswa kuelekeza upya. Hii inaweza kuwa njia ya ndani au kiungo cha ukurasa wa nje.
+- **Ongeza viungo vingi ikihitajika**: chini ya mstari wa kwanza, sehemu mpya za `Maandishi` na `Url` zinapatikana kwa kuongeza viungo vingi inavyohitajika. Kila mstari unawakilisha kiungo cha ziada cha kusogeza.
+- **Hifadhi viungo**: mara tu unapoingiza Elements zote, bofya kitufe cha `Ongeza upau wa nav` ili kuhifadhi na kuonyesha matokeo katika upau wa kusogeza.
 
 
 
@@ -547,11 +548,11 @@ Sehemu ya **Chini** hukuwezesha kubinafsisha sehemu ya chini ya ukurasa wa progr
 
 
 
-- Washa onyesho la lebo ya "Powered by be-BOP "**: washa kitufe cha `Onyesha Inaendeshwa na be-BOP` ili kuonyesha lebo hii kwenye kijachini.
-- Ingiza jina la kiungo (`Nakala`)**: jaza sehemu ya `Nakala`, ambayo inalingana na maneno ya kiungo kwenye kijachini (mifano: *Masharti*, *Faragha*, *Mawasiliano*...).
-- Onyesha kiungo Address (`Url`)**: katika sehemu ya `Url`, weka Address ya ukurasa unaolengwa (wa ndani au wa nje).
-- Ongeza viungo zaidi ikihitajika**: tumia mistari ya ziada kuunda viungo vingi unavyopenda.
-- Hifadhi viungo**: bofya kitufe cha "Ongeza kiungo cha chini" ili kuhifadhi viungo.
+- Washa onyesho la lebo ya **"Powered by be-BOP"**: washa kitufe cha `Onyesha Inaendeshwa na be-BOP` ili kuonyesha lebo hii kwenye kijachini.
+- Ingiza jina la kiungo (**Nakala**): jaza sehemu ya `Nakala`, ambayo inalingana na maneno ya kiungo kwenye kijachini (mifano: *Masharti*, *Faragha*, *Mawasiliano*...).
+- Onyesha kiungo **Address (`Url`)**: katika sehemu ya `Url`, weka Address ya ukurasa unaolengwa (wa ndani au wa nje).
+- **Ongeza viungo zaidi ikihitajika**: tumia mistari ya ziada kuunda viungo vingi unavyopenda.
+- **Hifadhi viungo**: bofya kitufe cha "Ongeza kiungo cha chini" ili kuhifadhi viungo.
 
 
 
@@ -641,8 +642,8 @@ Inapatikana kupitia `Msimamizi > Kitambulisho` (au `Mipangilio > Kitambulisho`),
 
 
 
-- Jina la biashara**: jina rasmi la kampuni.
-- Kitambulisho cha biashara**: kitambulisho halali au nambari ya usajili (RCCM, SIRET...).
+- **Jina la biashara**: jina rasmi la kampuni.
+- **Kitambulisho cha biashara**: kitambulisho halali au nambari ya usajili (RCCM, SIRET...).
 
 
 
@@ -652,11 +653,11 @@ Inapatikana kupitia `Msimamizi > Kitambulisho` (au `Mipangilio > Kitambulisho`),
 
 
 
-- Mtaa**: posta Address (mitaani, nambari...).
-- Nchi**: nchi.
-- Jimbo**: mkoa au mkoa.
-- Mji**: mji.
-- Msimbo wa eneo**: msimbo wa posta.
+- **Mtaa**: posta Address (mitaani, nambari...).
+- **Nchi**: nchi.
+- **Jimbo**: mkoa au mkoa.
+- **Mji**: mji.
+- **Msimbo wa eneo**: msimbo wa posta.
 
 
 
@@ -666,8 +667,8 @@ Inapatikana kupitia `Msimamizi > Kitambulisho` (au `Mipangilio > Kitambulisho`),
 
 
 
-- Barua pepe**: barua pepe ya kitaalamu Address.
-- Simu**: nambari ya simu ya kampuni.
+- **Barua pepe**: barua pepe ya kitaalamu Address.
+- **Simu**: nambari ya simu ya kampuni.
 
 
 
@@ -677,10 +678,10 @@ Inapatikana kupitia `Msimamizi > Kitambulisho` (au `Mipangilio > Kitambulisho`),
 
 
 
-- Jina la mwenye akaunti**: jina la mwenye akaunti.
-- Mmiliki wa akaunti Address**: Address ya mmiliki.
-- IBAN**: Nambari ya Akaunti ya Benki ya Kimataifa.
-- BIC**: Msimbo wa SWIFT/BIC.
+- **Jina la mwenye akaunti**: jina la mwenye akaunti.
+- **Mmiliki wa akaunti Address**: Address ya mmiliki.
+- **IBAN**: Nambari ya Akaunti ya Benki ya Kimataifa.
+- **BIC**: Msimbo wa SWIFT/BIC.
 
 
 
@@ -695,7 +696,7 @@ Inapatikana kupitia `Msimamizi > Kitambulisho` (au `Mipangilio > Kitambulisho`),
 
 
 - Bofya kwenye `Jaza na taarifa kuu za duka` ili kujaza data mapema.
-- Taarifa ya mtoaji aliye juu sana**: sehemu ya maelezo ya kisheria/kodi inayoonekana kwenye ankara.
+- **Taarifa ya mtoaji aliye juu sana**: sehemu ya maelezo ya kisheria/kodi inayoonekana kwenye ankara.
 - Bofya `Sasisha` ili kuhifadhi mabadiliko.
 
 
@@ -742,9 +743,9 @@ Nenda kwa `Msimamizi > Bidhaa > Bidhaa` ili kuongeza au kurekebisha bidhaa. Jaza
 
 
 
-- Jina la Bidhaa**: jina la bidhaa (k.m. *BOP T-shirt edition limited*).
-- Slug**: Kitambulisho cha URL bila nafasi (k.m. `tshirt-bop-edition-limitee`).
-- Lakabu** *(si lazima)*: ni muhimu kwa kuongeza haraka kwa kikapu kupitia sehemu maalum.
+- **Jina la Bidhaa**: jina la bidhaa (k.m. *BOP T-shirt edition limited*).
+- **Slug**: Kitambulisho cha URL bila nafasi (k.m. `tshirt-bop-edition-limitee`).
+- **Lakabu** *(si lazima)*: ni muhimu kwa kuongeza haraka kwa kikapu kupitia sehemu maalum.
 
 
 
@@ -758,9 +759,9 @@ Nenda kwa `Msimamizi > Bidhaa > Bidhaa` ili kuongeza au kurekebisha bidhaa. Jaza
 
 
 
-- Bei Kiasi**: bei ya bidhaa (k.m. `25.00`).
-- Sarafu ya Bei**: sarafu (EUR, USD, BTC, n.k.).
-- Bidhaa maalum**:
+- **Bei Kiasi**: bei ya bidhaa (k.m. `25.00`).
+- **Sarafu ya Bei**: sarafu (EUR, USD, BTC, n.k.).
+- **Bidhaa maalum**:
   - hii ni bidhaa ya bure.
   - hii ni bidhaa ya kulipa-unachotaka.
 
@@ -772,14 +773,14 @@ Nenda kwa `Msimamizi > Bidhaa > Bidhaa` ili kuongeza au kurekebisha bidhaa. Jaza
 
 
 
-- Bidhaa moja (`iliyojitegemea`)**: nyongeza moja tu inawezekana kwa kila agizo (k.m. mchango, tikiti ya kuingia).
-- Bidhaa zenye tofauti**:
+- Bidhaa moja (**iliyojitegemea**): nyongeza moja tu inawezekana kwa kila agizo (k.m. mchango, tikiti ya kuingia).
+- **Bidhaa zenye tofauti**:
   - Usiangalie `Inayojitegemea`.
   - Angalia `Bidhaa ina tofauti nyepesi (hakuna tofauti ya hisa)`.
   - Ongeza:
-    - Jina** (k.m. *Ukubwa*),
-    - Thamani** (k.m.: S, M, L, XL),
-    - Tofauti za bei** ikitumika (k.m.: `+2 USD` kwa XL).
+- **Jina** (k.m. *Ukubwa*),
+- **Thamani** (k.m.: S, M, L, XL),
+- **Tofauti za bei** ikitumika (k.m.: `+2 USD` kwa XL).
 
 
 
@@ -809,8 +810,8 @@ Mfumo unasimamia:
 
 
 
-- Hifadhi iliyohifadhiwa** → bidhaa kwenye vikapu bado hazijalipwa
-- Hisa inauzwa** → bidhaa ambazo tayari zimenunuliwa
+- **Hifadhi iliyohifadhiwa** → bidhaa kwenye vikapu bado hazijalipwa
+- **Hisa inauzwa** → bidhaa ambazo tayari zimenunuliwa
 
 
 
@@ -832,8 +833,8 @@ Angalia `Bidhaa ina kipengele halisi ambacho kitasafirishwa kwa Address` ya mtej
 
 
 
-- Tikiti**: weka tiki ikiwa bidhaa ni tikiti ya tukio
-- Kuhifadhi**: angalia ikiwa hii ni nafasi ya kuhifadhi (k.m.: kipindi, miadi)
+- **Tikiti**: weka tiki ikiwa bidhaa ni tikiti ya tukio
+- **Kuhifadhi**: angalia ikiwa hii ni nafasi ya kuhifadhi (k.m.: kipindi, miadi)
 
 
 
@@ -849,12 +850,13 @@ Sehemu hii huamua **wapi** na **jinsi** bidhaa inaweza kutazamwa na kununuliwa:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Jukwaa        | Bidhaa Inayoonekana | Inaweza Kuongezwa kwenye Sebule |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (tovuti ya umma)        | ✔️              | ✔️                  |
+| Retail POS (mahali pa mauzo)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (mauzo kupitia bot)  | ✔️              | ✔️                  |
 
 Angalia tu vituo unavyotaka kutumia.
 
@@ -898,7 +900,7 @@ Unaweza kuongeza kurasa zingine kama inavyohitajika:
 
 
 
-**Kidokezo: Bofya kwenye kila kiungo au ikoni ili kurekebisha **maudhui**, **kichwa**, au **mwonekano wa seo** wa kila ukurasa.
+**Kidokezo: Bofya kwenye kila kiungo au ikoni ili kurekebisha maudhui, kichwa, au mwonekano wa seo wa kila ukurasa.**
 
 
 
@@ -983,7 +985,7 @@ Pia inaweza kubadilishwa katika `Picha`, hukuruhusu kuonyesha **muhtasari au kau
 
 
 
-Wijeti** huboresha kurasa zako za CMS kwa kutumia Elements inayobadilika au inayoonekana.
+**Wijeti** huboresha kurasa zako za CMS kwa kutumia Elements inayobadilika au inayoonekana.
 
 
 
@@ -1001,14 +1003,14 @@ Mifano ya wijeti zinazopatikana:
 
 
 
-- Changamoto**: changamoto au misheni
-- Lebo**: kategoria au maneno muhimu
-- Vitelezi**: majukwaa ya picha
-- Specifications**: Specifications tables
-- Fomu**: fomu (mawasiliano, maoni, n.k.)
-- Muda uliosalia**: vipima muda
-- Matunzio**: matunzio ya picha
-- Ubao wa wanaoongoza**: viwango vya watumiaji
+- **Changamoto**: changamoto au misheni
+- **Lebo**: kategoria au maneno muhimu
+- **Vitelezi**: majukwaa ya picha
+- **Specifications**: Specifications tables
+- **Fomu**: fomu (mawasiliano, maoni, n.k.)
+- **Muda uliosalia**: vipima muda
+- **Matunzio**: matunzio ya picha
+- **Ubao wa wanaoongoza**: viwango vya watumiaji
 
 
 
@@ -1024,14 +1026,15 @@ Tumia **njia fupi** katika maudhui ya kurasa zako za CMS:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Lengo                 | Tagi ya Kuingiza                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Kuonyesha bidhaa      | `[Product=slug?display=img-1]`        |
+| Kuonyesha picha       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Kuunganisha kilinganisha       | `[Slider=slug?autoplay=3000]`         |
+| Kuongeza changamoto     | `[Challenge=slug]`                    |
+| Kuongeza hesabu ya chini | `[Countdown=slug]`                 |
+| Kuunganisha fomu   | `[Form=slug]`                         |
 
 **Vigezo vya sasa**:
 
@@ -1166,9 +1169,9 @@ Ripoti zimegawanywa katika sehemu:
 
 
 
-- Maelezo ya Agizo**: idadi ya maagizo, hali (imethibitishwa, imeghairiwa, inasubiri), mageuzi
-- Maelezo ya Bidhaa**: bidhaa zinazouzwa, kiasi, bidhaa maarufu
-- Maelezo ya Malipo**: kiasi kilichokusanywa, uchanganuzi kwa njia ya malipo
+- **Maelezo ya Agizo**: idadi ya maagizo, hali (imethibitishwa, imeghairiwa, inasubiri), mageuzi
+- **Maelezo ya Bidhaa**: bidhaa zinazouzwa, kiasi, bidhaa maarufu
+- **Maelezo ya Malipo**: kiasi kilichokusanywa, uchanganuzi kwa njia ya malipo
 
 
 
@@ -1310,9 +1313,9 @@ Wakati wa kuunda au kurekebisha mada, unaweza kufafanua:
 
 
 
-- Rangi**: kwa vitufe, mandharinyuma, maandishi, viungo, n.k.
-- Fonti**: chaguo la aina za maandishi kwa mada, aya, menyu
-- Mitindo ya picha**: mipaka, kando, nafasi, maumbo ya kuzuia
+- **Rangi**: kwa vitufe, mandharinyuma, maandishi, viungo, n.k.
+- **Fonti**: chaguo la aina za maandishi kwa mada, aya, menyu
+- **Mitindo ya picha**: mipaka, kando, nafasi, maumbo ya kuzuia
 
 
 
@@ -1326,9 +1329,9 @@ Kila sehemu ya tovuti inaweza kubadilishwa kwa kujitegemea:
 
 
 
-- Kichwa**: upau wa kusogeza wa juu
-- Mwili**: maudhui kuu
-- Kijachini**: chini ya ukurasa
+- **Kichwa**: upau wa kusogeza wa juu
+- **Mwili**: maudhui kuu
+- **Kijachini**: chini ya ukurasa
 
 
 
@@ -1377,8 +1380,8 @@ Kila barua pepe (uthibitisho wa agizo, nenosiri lililosahaulika, n.k.) ina:
 
 
 
-- Mada**: mada ya barua pepe (k.m. "Agizo lako limeidhinishwa")
-- Mwili wa HTML**: Maudhui ya HTML yanaonyeshwa kwenye barua pepe
+- **Mada**: mada ya barua pepe (k.m. "Agizo lako limeidhinishwa")
+- **Mwili wa HTML**: Maudhui ya HTML yanaonyeshwa kwenye barua pepe
 
 
 
@@ -1444,9 +1447,9 @@ Kamilisha nyanja zifuatazo:
 
 
 
-- Jina la lebo**: jina la lebo limeonyeshwa
-- Slug**: kitambulisho cha kipekee (hakuna nafasi au lafudhi)
-- Tag Familia**: vikundi vya lebo kwa kategoria
+- **Jina la lebo**: jina la lebo limeonyeshwa
+- **Slug**: kitambulisho cha kipekee (hakuna nafasi au lafudhi)
+- **Tag Familia**: vikundi vya lebo kwa kategoria
 
 
 
@@ -1479,9 +1482,9 @@ Sehemu hizi zinaweza kutumika kuimarisha lebo kana kwamba ni ukurasa wa maudhui:
 
 - Kichwa
 - Manukuu
-- Maudhui mafupi**
-- Maudhui kamili** (kwa Kifaransa)
-- CTA** (vifungo vya kitendo)
+- **Maudhui mafupi**
+- **Maudhui kamili** (kwa Kifaransa)
+- **CTA** (vifungo vya kitendo)
 
 
 
@@ -1520,8 +1523,8 @@ Ili kutoa hati zinazoweza kupakuliwa kwa wateja wako: `Msimamizi > Bidhaa > Fail
 
 
 
-   - Jina la faili** (k.m. *Mwongozo wa usakinishaji*)
-   - Faili ya kupakia** (PDF, picha, Neno...)
+- **Jina la faili** (k.m. *Mwongozo wa usakinishaji*)
+- **Faili ya kupakia** (PDF, picha, Neno...)
 
 
 
@@ -1539,7 +1542,7 @@ Kiungo hiki kinaweza kuingizwa kwenye:
 
 
 
-- Ukurasa wa CMS** (kama kiungo cha maandishi au kitufe)
+- **Ukurasa wa CMS** (kama kiungo cha maandishi au kitufe)
 - **mteja wa barua pepe** (kupitia kiolezo)
 - **Jedwali la bidhaa** (k.m. upakuaji mwenyewe)
 
@@ -1557,7 +1560,7 @@ Jukwaa linatoa muunganisho wa hali ya juu na itifaki ya **Nostr**, kupitia robot
 
 
 
-Nenda kwa: Usimamizi wa nodi> Nostr
+Nenda kwa: Usimamizi wa node> Nostr
 
 
 
@@ -1635,9 +1638,9 @@ Faili za tafsiri ziko katika JSON. Unaweza:
 
 
 
-- Pakua ** faili za lugha
-- Rekebisha** maandishi yaliyopo
-- Ongeza** tafsiri zako mwenyewe
+- Pakua **faili za lugha**
+- **Rekebisha** maandishi yaliyopo
+- **Ongeza** tafsiri zako mwenyewe
 
 
 
@@ -1678,9 +1681,9 @@ Kila jukumu lina:
 
 
 
-- andika ufikiaji**: ufikiaji wa kuandika
-- ufikiaji wa kusoma**: ufikiaji wa kusoma
-- ufikiaji uliokatazwa**: sehemu interdites
+- **andika ufikiaji**: ufikiaji wa kuandika
+- **ufikiaji wa kusoma**: ufikiaji wa kusoma
+- **ufikiaji uliokatazwa**: sehemu interdites
 
 
 
@@ -1709,7 +1712,7 @@ Weka jukumu lililobainishwa hapo awali.
 
 
 
-Watumiaji wa kusoma tu** wataona menyu katika *italiki* na hawataweza kurekebisha maudhui.
+Watumiaji wa kusoma tu wataona menyu katika *italiki* na hawataweza kurekebisha maudhui.
 
 
 
@@ -1779,8 +1782,8 @@ Chaguzi mbili za hali ya juu zinapatikana:
 
 
 
-- Msamaha wa VAT**: unatumika kwa uhalalishaji (NGOs, wageni...)
-- Punguzo la zawadi**: punguzo la kipekee kwa maoni ya lazima
+- **Msamaha wa VAT**: unatumika kwa uhalalishaji (NGOs, wageni...)
+- **Punguzo la zawadi**: punguzo la kipekee kwa maoni ya lazima
 
 
 
@@ -1813,14 +1816,15 @@ Bango:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Kazi                         | Maelezo                                             |
+|----------------------------------|---------------------------------------------------------|
+| Jukumu la POS                         | Kutengana kupitia ARM                                         |
+| Kiolesura cha Mkuu             | `/pos` au `/pos/touch`                                 |
+| Onyesho la Mteja (Skrini 2)       | `/pos/session`                                         |
+| Malipo                         | Pesa, kadi, Lightning n.k.                         |
+| Kuongeza Bidhaa                    | Jina la jia au kusafishi barcode                              |
+| Punguzo / VAT                    | Wenye uthibitisho wa usimamizi unaohitajika              |
 
 Asante kwa kufuatilia mafunzo haya kwa makini.

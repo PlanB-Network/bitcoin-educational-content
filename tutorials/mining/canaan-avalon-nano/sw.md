@@ -1,5 +1,5 @@
 ---
-name: Kanaani Avalon Nano 3S
+name: Canaan Avalon Nano 3S
 description: Inasanidi Avalon yako ya ASIC kwa ushiriki wa solomining au Miner
 ---
 
@@ -23,7 +23,7 @@ Vifaa hivi vinauzwa kama hita kisaidizi katika hali ya **Avalon Nano 3S (140W)**
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Tafadhali kumbuka kuwa tofauti ya bei na hita za jadi za nguvu sawa, katika hali nyingi, hukuruhusu kupata faida ya kifedha. Satoshi zinazozalishwa na shughuli za Mining hazitawahi kufidia tofauti hii ya bei, isipokuwa unaweza kufikia umeme wa bure (ziada) au nafuu sana.
 
@@ -75,17 +75,18 @@ Lifuatalo ni jedwali linalofupisha maelezo ya jumla ya kiufundi ya Nano 3S:
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Sifa                                      | Thamani                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Kiwango cha Hash                                      | 6 Th/s +- 5%                                            |
+| Matumizi ya Umeme                               | 140 W                                                   |
+| Kelele                                                | 30 - 40 dB                                              |
+| Liwali la Joto la Hewa ya Kutoka                 | 60-70°C (kwa joto la kawaida 25°C)                |
+| Mahitaji ya Joto la Kawaida kwa Matumizi | -5 hadi 30°C                                            |
+| Liwali la Voltage ya Ingizo la Kifaa                         | 28V 5A endelevu                                          |
+| Liwali la Voltage ya Ingizo la Kibadilishaji                       | 110-240V AC 50/60Hz                                     |
+| Ukubwa wa Kifaa                                 | Urefu: 205 mm / Upana: 115 mm / Urefu: 58.5 mm |
+| Uzani wa Kifaa                                  | 0.86 kg                                                 |
 
 ## Kuwasha na kuunganisha kwenye mtandao wa ndani
 
@@ -207,9 +208,9 @@ Kwa maelezo zaidi kuhusu jinsi ya kuunganisha kwenye Mining pool, tafadhali reje
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Kwa muhtasari, tunahitaji
 
@@ -358,4 +359,4 @@ Ili kujua zaidi, angalia mafunzo yetu kuhusu toleo bora la Avalon: Mini 3.
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

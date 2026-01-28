@@ -1,9 +1,8 @@
-question: Wat is de online beschikbaarheid van Bitcoin sinds 2009?
-answer: 99.988%.
+question: Wat is de Bitcoin Blockchain?
+answer: Een openbare en onveranderlijke Ledger van alle Bitcoin transacties.
 wrong_answers:
-  - 100%.
-  - 90.009%.
-  - 80.17%.
-explanation: |
-  De online beschikbaarheid van Bitcoin is 99,988% sinds 2009.
+  - Een private en muteerbare Ledger van alle Bitcoin transacties.
+  - Een openbare en muteerbare Ledger van alle Bitcoin transacties.
+  - Een besloten en onveranderlijke Ledger van alle Bitcoin transacties.
+explanation: >-
 reviewed: true

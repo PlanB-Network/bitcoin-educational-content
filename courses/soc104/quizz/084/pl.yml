@@ -1,0 +1,8 @@
+question: Zgodnie z teorią rozproszonej wiedzy Hayeka, dlaczego centralne planowanie jest zasadniczo wadliwe jako mechanizm koordynacji gospodarczej?
+answer: Wiedza istnieje tylko jako rozproszone fragmenty wśród jednostek, uniemożliwiając centralnym planistom dostęp do pełnych informacji potrzebnych do skutecznej koordynacji
+wrong_answers:
+  - Centralni planiści nie mają moralnego upoważnienia do podejmowania decyzji za innych, nawet jeśli posiadają pełne informacje rynkowe
+  - Korupcja polityczna i własny interes uniemożliwiają centralnym planistom wdrażanie optymalnych ekonomicznie rozwiązań pomimo dostępu do wszystkich niezbędnych danych
+  - Centralne planowanie wymaga zbyt dużej mocy obliczeniowej i technologii, która nie była dostępna w czasach Hayeka, ale mogłaby działać dzisiaj
+explanation: |
+  Krytyka centralnego planowania przez Hayeka ma charakter epistemologiczny, a nie moralny czy technologiczny. Twierdził on, że wiedza nigdy nie istnieje w skoncentrowanej formie, a jedynie jako "rozproszone fragmenty niekompletnej i często sprzecznej wiedzy posiadanej przez wszystkie odrębne jednostki" Ten problem rozproszonej wiedzy oznacza, że centralni planiści nie mogą uzyskać dostępu do subiektywnych kosztów, korzyści i lokalnych preferencji, które posiadają tylko jednostki, uniemożliwiając skuteczną koordynację gospodarczą, niezależnie od ich intencji lub możliwości obliczeniowych.

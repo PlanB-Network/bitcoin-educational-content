@@ -1,0 +1,9 @@
+question: ブロック内のトランザクションを要約するデータ構造は？
+answer: マークルツリー 
+wrong_answers:
+  - ハッシュUTXOテーブル
+  - peers.datファイル
+  - assumeutxoレジスタ
+explanation: |
+  ブロック内のトランザクションはマークルツリーにコミットされ、そのルートはブロックの完全性を保証するためにブロックヘッダに含まれる。
+reviewed: true

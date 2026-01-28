@@ -1,9 +1,9 @@
-question: Ni uwuhe muti wo kubika usabwa ku muntu afise ububiko bw’ibintu?
-answer: A Hardware Wallet.
+question: Ni uwuhe muti wo kubika usabwa ku muntu abika mu buryo bw'igihe kirekire?
+answer: ububiko bw'inyuma y'imbuga.
 wrong_answers:
   - A Hot Wallet.
   - Ibikorwa vyo kubungabunga
-  - Urupapuro Wallet.
+  - Urupapuro rw'ingodo.
 explanation: |
-  Hodler, afise bitcoins igihe kirekire, akwiye gukoresha Hardware Wallet kugira ngo agire umutekano mwinshi.
+  Uwubika vy'igihe kirekire, afise bitcoins igihe kirekire, akwiye gukoresha ububiko inyuma y'imbuga kugira ngo agire umutekano mwinshi.
 reviewed: false

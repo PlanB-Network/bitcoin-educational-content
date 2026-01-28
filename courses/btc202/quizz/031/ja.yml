@@ -1,0 +1,9 @@
+question: Raspberry Piは特に軽量なので、どのディストリビューションが最適でしょうか？
+answer: RaspiBlitz
+wrong_answers:
+  - Umbrel
+  - MyNode
+  - Start9
+explanation: |
+  RaspiBlitzはRaspberry Pi用に最適化されており、これらのマシンには重すぎるUmbrelとは異なり、軽量性を保っている。
+reviewed: true

@@ -1,0 +1,8 @@
+question: Apa yang terjadi pada stack setelah mengeksekusi OP_CHECKSIG ketika verifikasi tanda tangan berhasil?
+answer: Nilai 1 didorong ke tumpukan
+wrong_answers:
+  - Tanda tangan dan kunci publik tetap berada di dalam tumpukan
+  - Tumpukan dihapus dan diatur ulang menjadi kosong
+  - Hash kunci publik didorong ke dalam tumpukan
+explanation: |
+  OP_CHECKSIG adalah sebuah opcode pengubah tumpukan yang menggunakan tanda tangan dan kunci publik dari tumpukan, memverifikasi tanda tangan terhadap sighash transaksi, dan mendorong 1 (untuk valid) atau 0 (untuk tidak valid) ke dalam tumpukan. Tanda tangan asli dan public key akan dihapus selama proses ini. Tumpukan tidak dihapus seluruhnya, dan tidak ada nilai hash yang didorong - hanya hasil boolean dari operasi verifikasi.

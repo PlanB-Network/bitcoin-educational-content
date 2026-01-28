@@ -1,12 +1,12 @@
 ---
-name: Guide to Running the Plan ₿ Network Platform Locally
-description: How can you run the Plan ₿ Network in a local environment to test my content contribution or proofreading/review of educational content on Plan ₿ Network?
+name: Guide to Running the Plan ₿ Academy Platform Locally
+description: How can you run the Plan ₿ Academy in a local environment to test my content contribution or proofreading/review of educational content on Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
 ## In Summary
 
-This tutorial provides step-by-step instructions for setting up the Bitcoin Learning Management System from Plan ₿ Network on your local machine using Docker, dummy keys, and custom repository configurations. 
+This tutorial provides step-by-step instructions for setting up the Bitcoin Learning Management System from Plan ₿ Academy on your local machine using Docker, dummy keys, and custom repository configurations. 
 
 If you didn’t understand the part above, don’t worry—this tutorial is for you!
 
@@ -108,7 +108,7 @@ This will build and start all the necessary containers from dockers.
 Once the containers are running, access the frontend at:  
 \[<http://localhost:8181](http://localhost:8181)>  
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Note: that the app will automatically reload if you change any source files.
 
@@ -143,7 +143,7 @@ then again:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 **10. Customize the Repository (Optional)**  

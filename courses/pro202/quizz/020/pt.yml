@@ -1,0 +1,8 @@
+question: Que problema matemático fornece a base de segurança para as assinaturas ECDSA no Bitcoin?
+answer: O problema do logaritmo discreto da curva elíptica
+wrong_answers:
+  - O problema da factorização de números inteiros
+  - O problema do resíduo quadrático
+  - O problema de colisão de hash
+explanation: |
+  A segurança ECDSA baseia-se no problema do logaritmo discreto da curva elíptica: dado P = eG, calcular P a partir de e e G é fácil, mas derivar a chave privada e da chave pública P é computacionalmente inviável. Esta relação matemática unidirecional permite uma criptografia de chave pública segura com chaves de menor dimensão do que o RSA, que depende da factorização de números inteiros.

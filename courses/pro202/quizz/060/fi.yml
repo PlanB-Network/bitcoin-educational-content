@@ -1,0 +1,8 @@
+question: Millä erityisellä mekanismilla varmistetaan, että SegWit:tä edeltävät solmut hyväksyvät P2WPKH-tapahtumat kelvollisiksi ymmärtämättä todistajien validointisääntöjä?
+answer: SegWit:a edeltävät solmut tulkitsevat OP_0 + 20 tavun hash-skriptin anyone-can-spend-tulosteeksi, joka ei vaadi allekirjoituksen tarkistamista
+wrong_answers:
+  - SegWit:tä edeltävät solmut välittävät P2WPKH-tapahtumat automaattisesti päivitetyille solmuille todistajan validointia varten ennen niiden hyväksymistä
+  - SegWit:ää edeltävät solmut tunnistavat P2WPKH-mallin ja jättävät validoinnin kokonaan väliin ja käsittelevät kaikkia todistajatapahtumia ennalta validoituina
+  - SegWit:a edeltävät solmut muuttavat todistajatiedot takaisin perinteiseen scriptSig-muotoon käyttämällä taaksepäin yhteensopivia muunnossääntöjä
+explanation: |
+  SegWit:n suunnittelun nerokkuus piilee siinä, että siinä hyödynnetään sitä, miten SegWit:ta edeltävät solmut käsittelevät tuntemattomia komentosarjamalleja. Kun nämä vanhemmat solmut kohtaavat P2WPKH-skriptin (OP_0, jota seuraa 20 tavun push), ne eivät tunnista sitä erityiseksi todistusohjelmaksi. Sen sijaan ne arvioivat sen tavalliseksi skriptiksi, joka jättää OP_0:n ja hashin pinoon. Koska Bitcoin:n skriptijärjestelmässä OP_0:n arvoksi tulee false, SegWit:ta edeltävät solmut tulkitsevat tämän anyone-can-spend-ehdoksi, mikä tarkoittaa, että niiden näkökulmasta allekirjoitusten tarkistamista ei tarvita. Näin transaktio voidaan hyväksyä niiden mempooliin ja lohkoihin konsensusta rikkomatta, kun taas SegWit-tietoiset solmut suorittavat varsinaisen kryptografisen validoinnin todistajatietojen avulla.

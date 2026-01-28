@@ -1,0 +1,9 @@
+question: Co podle perkolační teorie zajišťuje překročení kritického prahu?
+answer: Šíření transakcí v síti
+wrong_answers:
+  - Okamžité vytvoření nového bloku
+  - Automatické potlačení nákladů podle uzlů
+  - Blokování transakce sítí
+explanation: |
+  Jakmile je překročen práh průniku, transakce se téměř okamžitě rozšíří po celé síti Bitcoin.
+reviewed: true

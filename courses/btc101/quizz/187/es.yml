@@ -1,9 +1,12 @@
-question: ¿Cuál es una ventaja de aceptar Bitcoin como comerciante?
-answer: Resistencia a la censura.
+question: ¿Cuál es una herramienta para aceptar Bitcoin en grandes organizaciones o entusiastas apasionados de Bitcoin?
+answer: BTCpay Server.
 wrong_answers:
-  - Aumento de las tarifas de transacción.
-  - Protección contra la deflación.
-  - Restricción financiera.
-explanation: >-
-  Aceptar Bitcoin como comerciante tiene varias ventajas, incluyendo resistencia a la censura, reducción de las tarifas de transacción, aumento de la eficiencia, protección contra la inflación, así como libertad financiera y soberanía.
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server es una herramienta para aceptar Bitcoin en
+  grandes estructuras o bitcoiners apasionados. Otras soluciones
+  incluyen OpenNode para negocios en línea simples y Swiss
+  Bitcoin Pay para comerciantes aficionados.
 reviewed: true

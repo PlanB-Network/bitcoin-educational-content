@@ -1,10 +1,9 @@
-question: Kuidas kasutajad kannavad oma raha omandiõiguse üle Bitcoin võrgus?
-answer: Digitaalselt allkirjastades tehinguid oma privaatvõtmetega.
+question: Mis on ribalaiuse nõue Bitcoin'i sõlme käitamiseks, arvestades 1MB suurust plokki iga 10 minuti järel?
+answer: Umbes 5GB kuus
 wrong_answers:
-  - Füüsiliselt üle andes oma Bitcoine.
-  - Saates e-kirja saajale.
-  - Andes oma Bitcoin aadressi saajale.
+  - Umbes 1GB kuus
+  - Umbes 10GB kuus
+  - Umbes 20GB kuus
 explanation: >-
-  Kasutajad Bitcoin võrgus kannavad oma raha omandiõiguse üle digitaalselt
-  allkirjastades tehinguid oma privaatvõtmetega. See tõendab, et nad on
-  Bitcoini(de), mida nad soovivad üle kanda, omanikud.
+  Arvestades 1MB suurust plokki iga 10 minuti järel, nõuab Bitcoin'i sõlme käitamine umbes 5GB kuus ribalaiust.
+reviewed: false

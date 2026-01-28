@@ -1,0 +1,9 @@
+question: 0 XOR 1의 결과는 무엇인가요?
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  XOR을 사용하면 비트가 다르기 때문에 0 XOR 1은 1을 산출합니다.
+reviewed: false

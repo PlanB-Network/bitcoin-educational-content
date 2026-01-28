@@ -1,13 +1,13 @@
-question: Qu'est-ce que la Déclaration de l'Indépendance du Cyberespace ?
-answer: Un texte affirmant que le cyberespace est un domaine distinct de la sphère physique et ne devrait pas être soumis aux mêmes lois.
+question: Pourquoi l'or est-il devenu le standard comme moyen d'échange ?
+answer: En raison de sa rareté, de sa durabilité et de sa divisibilité.
 wrong_answers:
-  - Une déclaration affirmant l'indépendance de Bitcoin des systèmes financiers traditionnels.
-  - Un texte affirmant que le cyberespace devrait être contrôlé par la réglementation gouvernementale.
-  - Une déclaration qui garantit l'indépendance du mouvement pirate de toute réglementation.
+  - En raison de son abondance, de sa durabilité et de son indivisibilité.
+  - En raison de sa rareté, de sa périssabilité et de sa divisibilité.
+  - En raison de son abondance, de sa périssabilité et de son indivisibilité.
 explanation: |
-  La Déclaration de l'Indépendance du Cyberespace a été
-  écrite par John Perry Barlow en 1996. Ce document affirme
-  que le cyberespace est un domaine distinct de la
-  sphère physique, donc les gouvernements industriels ne peuvent pas y imposer
-  leur autorité.
+  L'or est devenu le standard comme moyen d'échange en raison
+  de sa rareté, de sa durabilité et de sa divisibilité : sa rareté empêchait
+  la dévaluation causée par la production, sa durabilité
+  assurait qu'il ne s'éroderait pas avec le temps, et sa divisibilité
+  permettait son utilisation dans des transactions de différentes tailles.
 reviewed: true

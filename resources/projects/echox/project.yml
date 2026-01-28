@@ -1,0 +1,20 @@
+id: 0d0cb36a-a9f4-4698-94b3-94f0942f2090
+name: Echox
+category: service
+
+links:
+  website: https://www.echox.app/
+  twitter: https://twitter.com/Echoxio
+
+tags:
+  - decentralization
+  - business
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-10-13
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

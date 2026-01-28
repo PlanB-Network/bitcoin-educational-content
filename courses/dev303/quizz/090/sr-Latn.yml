@@ -1,0 +1,8 @@
+question: Koje je primarno ograničenje koje programeri moraju zaobići kada koriste UniFFI za razvoj mobilnih aplikacija koje zahtevaju responzivne korisničke interfejse?
+answer: UniFFI podržava samo sinhrone interfejse, zahtevajući od programera da upravljaju asinhronim operacijama putem zasebnih mehanizama za niti.
+wrong_answers:
+  - UniFFI ne može da obradi složene tipove podataka kao što su enumeracije i strukture, što ograničava bogatstvo mobilnih API interfejsa
+  - UniFFI generiše veze koje nisu bezbedne u pogledu memorije preko jezičkih granica, zahtevajući ručno upravljanje memorijom
+  - UniFFI ne podržava prevođenje rukovanja greškama, primoravajući programere da implementiraju prilagođeno rukovanje izuzecima u svakom ciljanom jeziku
+explanation: |
+  Najznačajnije ograničenje UniFFI-ja je nedostatak podrške za asinhrone interfejse - svi generisani povezivači su sinhroni. Ovo stvara izazove za razvoj mobilnih aplikacija gde su odzivne korisničke interfejse kritične, jer programeri moraju implementirati sopstvena rešenja za niti kako bi izbegli blokiranje glavne niti. Pogrešni odgovori su netačni jer UniFFI zapravo briljira u rukovanju složenim tipovima kao što su enumeracije i strukture, pruža automatsko bezbedno prebacivanje memorije preko jezičkih granica i ima sofisticirano prevođenje grešaka koje konvertuje Rust Result tipove u modele izuzetaka za ciljne jezike.

@@ -1,0 +1,9 @@
+question: Chi pensa che l'uomo possa disturbare la natura piuttosto che subirla?
+answer: Cartesio.
+wrong_answers:
+  - Spinoza.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Cartesio credeva che l'uomo potesse disturbare la natura piuttosto che subirla. Questa visione dualistica contrappone l'uomo alla natura e suggerisce che possiamo elevarci al di sopra delle leggi naturali grazie alla nostra volontà.
+reviewed: false

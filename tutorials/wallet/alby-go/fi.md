@@ -16,11 +16,11 @@ description: Alby Go -mobiilisovelluksen opas
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(suositellaan)*
-- Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
-- Coinos** *(testaamaton)*
-- Primal** *(testaamaton)*
-- Minibitit** *(testaamaton)*
+- [Alby Hub](https://albyhub.com/) **(suositellaan)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
+- **Coinos** *(testaamaton)*
+- **Primal** *(testaamaton)*
+- **Minibitit** *(testaamaton)*
 
 
 Useimpien NWC:tä käyttävien palvelujen pitäisi toimia. Jos testaat uutta palvelua, kerro yhteisölle tuloksistasi!
@@ -33,9 +33,9 @@ Saatavilla yleisimmillä alustoilla:
 
 
 
-- iOS:** [Lataa App Storesta](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Lataa Google Playsta](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Lataa App Storesta](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Lataa Google Playsta](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 

@@ -1,9 +1,9 @@
-question: Jaký je status Bitcoinu v Salvadoru?
-answer: Zákonné platidlo.
+question: Jaké riziko podstupuje Lightning uzel, který zveřejní starý stav kanálu?
+answer: Penále
 wrong_answers:
-  - Kriminalizováno.
-  - Neznámé.
-  - Neregulované.
+  - Varování
+  - Dodatečné těžební poplatky
+  - Dočasné zmrazení
 explanation: |
-  Text kurzu uvádí, že některé země zakázaly a kriminalizovaly používání Bitcoinu, což přidává na složitosti přijetí Bitcoinu v závislosti na kulturách, érách a národech. Salvador byl však dost odvážný, aby ho přijal jako zákonné platidlo.
-reviewed: true
+  Protokol stanoví odrazující sankci, která umožňuje druhé straně získat zpět veškeré prostředky.
+reviewed: false

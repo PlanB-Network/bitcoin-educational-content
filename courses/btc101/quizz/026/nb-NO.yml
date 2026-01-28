@@ -1,11 +1,9 @@
-question: Hvorfor kan ikke gull holde tritt i en globalisert og digital verden?
-answer: Det trenger en sentral enhet for å gjøre det delelig og lett utbyttbart
+question: Hvorfor er Bitcoin en ny form for penger?
+answer: Fordi det er digital valuta uten en sentral enhet
 wrong_answers:
-  - Det er ikke verdifullt nok
-  - Det er ikke sjeldent nok
-  - Det eroderer over tid
-explanation: |
-  Gull kan ikke holde tritt i en globalisert og digital verden fordi det trenger
-  en sentral enhet for å gjøre det delelig og lett utbyttbart. Dette gjør det mindre
-  praktisk for bruk i en verden hvor transaksjoner i økende grad er digitale og desentraliserte.
+  - Fordi det er en digital valuta støttet av gull
+  - Fordi det er en valuta som krever en blokkjede
+  - Fordi den amerikanske sentralbanken sier det
+explanation: >-
+  Bitcoin kan ses på som en ny form for penger, ettersom det oppstår fra et peer-to-peer nettverk uten en sentral enhet.
 reviewed: true

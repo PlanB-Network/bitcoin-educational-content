@@ -1,13 +1,8 @@
-question: Lightning Network'ın içerik oluşturucular için potansiyel faydalarından biri nedir?
-answer: Kullanıcıların ilgisini korumak için kaliteli içerik üretmeye teşvik edileceklerdir.
+question: Finansın geleceğine ilişkin ortaya atılan temel sorulardan biri nedir?
+answer: Kullandığımız parayı kim tutmalı, yetkilendirmeli ve izlemelidir?
 wrong_answers:
-  - İçerikleri için daha fazla ücret talep edebileceklerdir.
-  - Daha geniş bir kitleye ulaşabileceklerdir.
-  - Kullanıcıların dikkatini çekmek için daha hızlı içerik üretebileceklerdir.
-explanation: |
-  Lightning Network ile içerik oluşturucular
-  elde tutmak için kaliteli içerik üretmeye teşvik edilir
-  kullanıcıların dikkatini çeker. Kullanıcılar ise yalnızca
-  tükettikleri içerik, böylece ön aboneliği ortadan kaldırır
-  ücretler.
+  - Parayı nasıl tamamen ortadan kaldırabiliriz?
+  - Herkesin aynı miktarda paraya sahip olmasını nasıl sağlayabiliriz?
+  - Parayı nasıl modası geçmiş hale getirebiliriz?
+explanation: >-
 reviewed: true

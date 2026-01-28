@@ -1,0 +1,8 @@
+question: Que tipo de parâmetro um método Rust deve usar se precisar modificar a instância da estrutura enquanto permite que o chamador mantenha a propriedade?
+answer: "&mut self"
+wrong_answers:
+  - "&self"
+  - próprio
+  - mut self
+explanation: |
+  Métodos que precisam modificar uma instância de estrutura enquanto permitem que o chamador mantenha a propriedade devem usar `&mut self` como seu primeiro parâmetro. Isso cria uma referência mutável para a instância, permitindo que o método altere os campos da estrutura sem tirar a propriedade do chamador. Usar `&self` permitiria apenas a leitura da instância, `self` consumiria a instância inteiramente, e `mut self` não é uma sintaxe válida no Rust para parâmetros de métodos.

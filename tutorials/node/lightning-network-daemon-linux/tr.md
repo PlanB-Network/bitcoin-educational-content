@@ -28,13 +28,13 @@ Başka bir deyişle, bu uygulama ile, :
 
 
 
-- Lightning Network** ile etkileşim kurun: Doğrudan makine terminalinizden Lightning cüzdanları oluşturmak, ödeme kanallarını ve rotalarını yönetmek ve çok daha fazlasını yapmak için komut satırlarını kullanabilirsiniz.
-- Uzak bir Bitcoin düğümünü veya kendi Bitcoin core örneğinizi bağlama**: LND, bir Bitcoin örneğini bağlamanıza ve onu arka uç olarak kullanmanıza olanak tanır. Bu uygulamayı kullanmak için makinenizde bir Bitcoin core örneği çalıştırmanıza gerek yoktur.
+- **Lightning Network** ile etkileşim kurun: Doğrudan makine terminalinizden Lightning cüzdanları oluşturmak, ödeme kanallarını ve rotalarını yönetmek ve çok daha fazlasını yapmak için komut satırlarını kullanabilirsiniz.
+- **Uzak bir Bitcoin düğümünü veya kendi Bitcoin core örneğinizi bağlama**: LND, bir Bitcoin örneğini bağlamanıza ve onu arka uç olarak kullanmanıza olanak tanır. Bu uygulamayı kullanmak için makinenizde bir Bitcoin core örneği çalıştırmanıza gerek yoktur.
 
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Neden kendi Lightning düğümünüz var?
 
@@ -57,14 +57,14 @@ Bu anlamda, bir Lightning düğümü çalıştırmak verilerinizin güvenliğini
 
 
 
-- Tam kontrol**: Kendi ödeme kanallarınızı yönetin, kendi bankanız olun ve varlıklarınızın efendisi olun.
-- Gizlilik**: Gizliliğinizi korumak için üçüncü taraflara güvenmeden işlem yapın.
-- Öğrenme ve özerklik**: Lncli` komutları sayesinde, terminalinizden kendiniz uygulayarak Lightning'in altında yatan süreçleri daha iyi anlayabilirsiniz.
-- Adem-i Merkeziyetçilik**: Bitcoin / Lightning Network'ün güçlendirilmesi ve ademi merkezileştirilmesinde aktif rol oynayın.
+- **Tam kontrol**: Kendi ödeme kanallarınızı yönetin, kendi bankanız olun ve varlıklarınızın efendisi olun.
+- **Gizlilik**: Gizliliğinizi korumak için üçüncü taraflara güvenmeden işlem yapın.
+- **Öğrenme ve özerklik**: `lncli` komutları sayesinde, terminalinizden kendiniz uygulayarak Lightning'in altında yatan süreçleri daha iyi anlayabilirsiniz.
+- **Adem-i Merkeziyetçilik**: Bitcoin / Lightning Network'ün güçlendirilmesi ve ademi merkezileştirilmesinde aktif rol oynayın.
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Makinemizde LND uygulamasının bir örneğini çalıştırmak için iki seçeneğiniz vardır. Ortamı kendi makinemizde yerel olarak çalışacak şekilde kurabilir ya da LND'yı bir Docker konteynerinden yükleyebiliriz. Burada ilk seçeneğe odaklanacağız ve Docker ile nasıl ilerleyeceğimizi daha sonraki bir eğitimde göreceğiz.
@@ -83,7 +83,7 @@ LND Go dilinde yazıldığından, Linux makinenizde GoLang ortamına ve gerekli 
 
 
 
-- Donanım gereksinimleri:**
+- **Donanım gereksinimleri:**
 
 
 Sorunsuz ve sorunsuz bir deneyim için, makinenizin LND Lightning düğümünüzü çalıştırmak için gerekli kapasiteye sahip olması gerekir.
@@ -93,7 +93,7 @@ Sorunsuz ve sorunsuz bir deneyim için, makinenizin LND Lightning düğümünüz
 İhtiyacınız olacak :
 
 
-1. *optimum akışkanlık için *8 GB RAM**,
+1. *optimum akışkanlık için* **8 GB RAM**,
 
 
 2. **Düğümünüzün eylemlerini verimli bir şekilde yönetmek için çok çekirdekli bir işlemci (dört çekirdekli veya daha fazla)**,
@@ -105,7 +105,7 @@ Sorunsuz ve sorunsuz bir deneyim için, makinenizin LND Lightning düğümünüz
 
 
 
-- Yararlı bağımlılıkları yükleyin:**
+- **Yararlı bağımlılıkları yükleyin:**
 
 
 Aşağıdaki komut, LND'yi çalıştırmak için ihtiyacınız olan araçları makinenize yüklemenizi sağlayacaktır. Diğer şeylerin yanı sıra, bir sürüm oluşturma aracı olan `Git`i ve LND uygulamasını kaynak koddan çalıştırabilen ve derleyebilen `make`yi yüklemeniz gerekecektir.
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Linux makinenize GoLang yükleyin**
+- **Linux makinenize GoLang yükleyin**
 
 
 
-Bu eğitimin yayınlandığı tarih itibariyle, LND kurulum için Go***'un 1.23.6 sürümünü gerektirmektedir.
+Bu eğitimin yayınlandığı tarih itibariyle, LND kurulum için **Go**'un 1.23.6 sürümünü gerektirmektedir.
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Go** ortam yapılandırması
+- **Go** ortam yapılandırması
 
 
 Go'yu Linux sisteminize eklemek için `~/.bashrc` dosyanızda aşağıdaki ortam değişkenlerini başlatın.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Kurulumun kontrol edilmesi** (Fransızca)
+- **Kurulumun kontrol edilmesi** (Fransızca)
 
 
 ```bash
@@ -239,7 +239,7 @@ make install
 
 
 
-- Kurulumunuzu kontrol etme** (Fransızca)
+- **Kurulumunuzu kontrol etme** (Fransızca)
 
 
 
@@ -334,37 +334,37 @@ LND düğümünüzün doğru ve eksiksiz kurulumu için ihtiyacınız olan minim
 
 
 
-- noseedbackup**: LND'nın cüzdanlarınızın otomatik yedeklemelerini gerçekleştirmesini isteyip istemediğinizi seçmenizi sağlar.  Bu özelliği `0` olarak ayarlamak, geri yükleme bilgilerini kişisel olarak seçilen güvenli bir konuma manuel olarak kaydetmenize olanak tanır.
+- **noseedbackup**: LND'nın cüzdanlarınızın otomatik yedeklemelerini gerçekleştirmesini isteyip istemediğinizi seçmenizi sağlar.  Bu özelliği `0` olarak ayarlamak, geri yükleme bilgilerini kişisel olarak seçilen güvenli bir konuma manuel olarak kaydetmenize olanak tanır.
 
 
 
 
 
-- debuglevel**: Bir eylem sırasında hata oluşması durumunda hataların ve günlüklerin ayrıntı düzeyini tanımlamanızı sağlar.
+- **debuglevel**: Bir eylem sırasında hata oluşması durumunda hataların ve günlüklerin ayrıntı düzeyini tanımlamanızı sağlar.
 
 
 
 
 
-- Bitcoin.active**: LND'e bir Bitcoin düğümü olarak çalışması ve Bitcoin ağıyla etkileşime girmesi talimatını verir.
+- **Bitcoin.active**: LND'e bir Bitcoin düğümü olarak çalışması ve Bitcoin ağıyla etkileşime girmesi talimatını verir.
 
 
 
 
 
-- Bitcoin.Mainnet**: LND'nin Bitcoin'ın ana ağına (Mainnet) bağlanmasını belirtir, Bitcoin Signet ve Bitcoin Regtest ağları için sırasıyla `bitcoind.signet` ve `bitcoind.regtest` değerlerini ayarlayabilirsiniz
+- **Bitcoin.Mainnet**: LND'nin Bitcoin'ın ana ağına (Mainnet) bağlanmasını belirtir, Bitcoin Signet ve Bitcoin Regtest ağları için sırasıyla `bitcoind.signet` ve `bitcoind.regtest` değerlerini ayarlayabilirsiniz
 
 
 
 
 
-- Bitcoin.node**: LND'ün bağlanması gereken Bitcoin düğümünün türünü belirtir.
+- **Bitcoin.node**: LND'ün bağlanması gereken Bitcoin düğümünün türünü belirtir.
 
 
 
 
 
-- Bitcoin.rpcuser** ve **Bitcoin.rpcpassword** : Temsil eder.
+- **Bitcoin.rpcuser** ve **Bitcoin.rpcpassword** : Temsil eder.
 
 
 gW-46 düğümünüze bağlanmak için sırasıyla oturum açma bilgileri (kullanıcı, parola)
@@ -373,7 +373,7 @@ gW-46 düğümünüze bağlanmak için sırasıyla oturum açma bilgileri (kulla
 
 
 
-- bitcoind.zmqpubrawblock** ve **bitcoind.zmqpubrawtx**: sırasıyla Bitcoin ağındaki yeni bloklar ve işlemler hakkında bildirim almak için ZeroMQ uç noktalarını tanımlar.
+- **bitcoind.zmqpubrawblock** ve **bitcoind.zmqpubrawtx**: sırasıyla Bitcoin ağındaki yeni bloklar ve işlemler hakkında bildirim almak için ZeroMQ uç noktalarını tanımlar.
 
 
 
@@ -492,9 +492,9 @@ Bir eşe (Lightning düğümü) bağlanmak için üç parça bilgiye ihtiyacın�
 
 
 
-- Düğümün açık anahtarı**: Bu, düğümün Bitcoin ağındaki benzersiz tanımlayıcısıdır;
-- IP** : Düğümün kurulu olduğu makinenin IP'si;
-- PORT** :  Makinede açık olan ve bu düğümle iletişime izin veren bağlantı noktası.
+- **Düğümün açık anahtarı**: Bu, düğümün Bitcoin ağındaki benzersiz tanımlayıcısıdır;
+- **IP** : Düğümün kurulu olduğu makinenin IP'si;
+- **PORT** :  Makinede açık olan ve bu düğümle iletişime izin veren bağlantı noktası.
 
 
 
@@ -519,25 +519,25 @@ Kendi sisteminizin bütünlüğünü korumak için **güvenilir düğümlere** b
 
 
 
-- Coğrafi çeşitlendirme**: Farklı bölgelerdeki düğümlere bağlanın.
+- **Coğrafi çeşitlendirme**: Farklı bölgelerdeki düğümlere bağlanın.
 
 
 
 
 
-- İtibar**: Kullanılabilirliği iyi olan düğümleri seçin.
+- **İtibar**: Kullanılabilirliği iyi olan düğümleri seçin.
 
 
 
 
 
-- Kapasite**: Likiditesi iyi olan düğümleri seçin.
+- **Kapasite**: Likiditesi iyi olan düğümleri seçin.
 
 
 
 
 
-- Ücretler**: Çek yönlendirme ücretleri.
+- **Ücretler**: Çek yönlendirme ücretleri.
 
 
 ### Bir ödeme kanalı açın
@@ -590,7 +590,7 @@ Mevcut düğümünüzdeki aktif bir kanalı kapatmanın iki yolu vardır.
 
 
 
-- Kooperatif kapanışı**: Bu, node'unuzun ödeme kanalından çekilme isteğini bildirerek devam eden görevlerin tamamlanmasını ve fon kaybını önlemek için verilerin yedeklenmesini sağlar.
+- **Kooperatif kapanışı**: Bu, node'unuzun ödeme kanalından çekilme isteğini bildirerek devam eden görevlerin tamamlanmasını ve fon kaybını önlemek için verilerin yedeklenmesini sağlar.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Zorla kapatma**: ⚠️ Mümkünse kaçınılması gereken bu eylem, ödeme kanalınızda devam eden süreçleri kesintiye uğratır ve fon kaybı riskini artırır.
+- **Zorla kapatma**: ⚠️ Mümkünse kaçınılması gereken bu eylem, ödeme kanalınızda devam eden süreçleri kesintiye uğratır ve fon kaybı riskini artırır.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- bitcoind bağlantı hatası** : RPC giriş bilgilerinizi kontrol edin
-- Senkronizasyon engellendi** : İnternet bağlantınızı kontrol edin
-- İzin hatası**: ~/.LND` klasörünün haklarını kontrol edin
+- **bitcoind bağlantı hatası**: RPC giriş bilgilerinizi kontrol edin
+- **Senkronizasyon engellendi**: İnternet bağlantınızı kontrol edin
+- **İzin hatası**: ~/.LND` klasörünün haklarını kontrol edin
 
 
 
@@ -665,4 +665,4 @@ Bu eğitimin sonuna geldiniz. Lightning hakkında daha fazla bilgi edinmek ister
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

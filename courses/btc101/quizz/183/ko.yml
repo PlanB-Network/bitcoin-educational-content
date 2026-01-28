@@ -1,0 +1,11 @@
+question: AMF란 무엇인가요?
+answer: 오소리티 데 마르쉐 파이낸스.
+wrong_answers:
+  - 미국 통화 기금.
+  - Mining 시설 협회.
+  - 자동화된 자금 흐름.
+explanation: |
+  프랑스 금융감독청(AMF)은 프랑스에서 비트코인 플랫폼을 규제하는
+  비트코인을 구매할 수 있는 플랫폼을 규제하는 기관입니다
+  구매.
+reviewed: true

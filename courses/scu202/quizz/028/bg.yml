@@ -1,0 +1,9 @@
+question: Коя команда може да се използва за инсталиране на софтуер от официалните хранилища на Ubuntu?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - инсталиране на софтуер
+explanation: |
+  Командата "sudo apt install" инсталира софтуерен пакет чрез мениджъра на пакети APT, който е основният метод в Ubuntu.
+reviewed: false

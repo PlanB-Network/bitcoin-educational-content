@@ -1,12 +1,12 @@
-question: Her on dakikada bir Blockchain'a yeni bir blok eklenmesini sağlayan mekanizma nedir?
-answer: Zorluk ayarı.
+question: İlk Halving'dan sonra dolaşımdaki tahmini bitcoin sayısı neydi?
+answer: 10,500,000 BTC.
 wrong_answers:
-  - Hız ayarı.
-  - Zaman ayarı.
-  - Blok ayarı.
+  - 5,250,000 BTC.
+  - 15,750,000 BTC.
+  - 21,000,000 BTC.
 explanation: |
-  Yeni bir bloğun eklenmesini sağlayan mekanizma
-  Her on dakikada bir Blockchain zorluk ayarlamasıdır.
-  Bu ayarlama her 2016 blokta bir veya yaklaşık
-  i̇ki hafta.
+  Blok yüksekliğinde meydana gelen ilk Halving'den sonra
+  210.000, dolaşımdaki tahmini bitcoin sayısı
+  toplam BTC sayısının yarısı olan 10.500.000 BTC idi
+  dolaşımda olacak bitcoinler.
 reviewed: true

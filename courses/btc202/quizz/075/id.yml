@@ -1,0 +1,9 @@
+question: Mengapa ukuran set UTXO cenderung tumbuh secara struktural dari waktu ke waktu?
+answer: Setiap pembayaran umumnya menciptakan dua UTXO baru
+wrong_answers:
+  - Pembayaran konvensional tidak menggunakan input UTXO
+  - Setiap Fork mengalikan jumlah UTXO yang ada
+  - Jumlah bitcoin yang dapat dibuat tidak terbatas
+explanation: |
+  Sebuah transaksi pembayaran menghabiskan satu UTXO dan sering kali menciptakan dua (pembayaran + Exchange), sehingga meningkatkan ukuran total set.
+reviewed: true

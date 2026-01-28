@@ -1,0 +1,9 @@
+question: Hva er den største fordelen med Tailscale fremfor Tor for ekstern tilgang til Umbrel?
+answer: En raskere tilkobling
+wrong_answers:
+  - Sterkere kryptering enn WireGuard
+  - Kompatibilitet med bedriftsrutere
+  - Muligheten til å bruke Electrs offline
+explanation: |
+  Tailscale tilbyr samme sikkerhet som WireGuard, men med hastigheten til en klarnettforbindelse, i motsetning til Tor, som er langsommere.
+reviewed: true

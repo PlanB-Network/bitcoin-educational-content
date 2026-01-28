@@ -1,0 +1,9 @@
+question: Keysend 기술은 어떻게 Invoice 없이 자금 이체를 가능하게 하나요?
+answer: 발신자는 HTLC에 비밀을 생성하여 자금을 잠금 해제합니다
+wrong_answers:
+  - 수취인은 송금의 유효성을 검사하기 위해 Hash를 생성합니다
+  - 결제는 발신자와 수신자 간의 직접 채널을 통해 확인됩니다
+  - 자금은 추가 보안 없이 바로 입금됩니다
+explanation: |
+  Keysend를 사용하면 발신자가 HTLC에 포함된 비밀을 generate로 설정하여 수신자가 Invoice를 발행하지 않고도 자금을 잠금 해제할 수 있습니다.
+reviewed: true

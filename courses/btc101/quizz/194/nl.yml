@@ -1,12 +1,12 @@
-question: Wat is een hulpmiddel voor het accepteren van Bitcoin voor grote organisaties of gepassioneerde Bitcoin liefhebbers?
-answer: BTCpay-server.
+question: Wat is het doel van KYC-regelgeving?
+answer: Terrorismefinanciering, belastingontduiking en witwassen bestrijden.
 wrong_answers:
-  - Bitcoin Wallet.
-  - Bitcoin Exchange.
-  - BTCpay Mining.
+  - Om de prijs van Bitcoin te verhogen en de gebruiker meer belasting te laten betalen.
+  - Om de Supply van Bitcoin te controleren.
+  - Om te voorkomen dat mensen Bitcoin kopen.
 explanation: |
-  BTCpay Server is een hulpmiddel voor het accepteren van Bitcoin voor grote
-  structuren of gepassioneerde bitcoiners. Andere oplossingen
-  zijn OpenNode voor eenvoudige online bedrijven en Swiss
-  Bitcoin Pay voor amateurhandelaars.
+  De cursustekst legt uit dat de KYC-regelgeving (Know Your Customer)
+  regelgeving vereist dat gebruikers zich identificeren om
+  financiering van terrorisme, belastingontduiking en het
+  witwassen.
 reviewed: true

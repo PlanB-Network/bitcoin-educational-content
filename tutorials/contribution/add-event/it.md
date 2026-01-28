@@ -1,21 +1,21 @@
 ---
-name: Aggiungere un evento su Plan ₿ Network
-description: Come aggiungere un nuovo evento su Plan ₿ Network?
+name: Aggiungere un evento su Plan ₿ Academy
+description: Come aggiungere un nuovo evento su Plan ₿ Academy?
 ---
 ![evento](assets/cover.webp)
 
-La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e mantenuti su GitHub, offrendo a chiunque l'opportunità di collaborare all'arricchimento della piattaforma.
+La missione di Plan ₿ Academy è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e mantenuti su GitHub, offrendo a chiunque l'opportunità di collaborare all'arricchimento della piattaforma.
 
-Vuoi aggiungere una conferenza Bitcoin su Plan ₿ Network aumentando la visibilità del tuo evento, ma non sai come fare? Questo tutorial è per te!
+Vuoi aggiungere una conferenza Bitcoin su Plan ₿ Academy aumentando la visibilità del tuo evento, ma non sai come fare? Questo tutorial è per te!
 
 ![evento](assets/01.webp)
 
 - Prima di tutto, devi avere un account su GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) nella sezione `resources/conference/`:
+- Vai al [repository GitHub di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) nella sezione `resources/conference/`:
 
 ![evento](assets/02.webp)
 
@@ -103,7 +103,7 @@ tags:
 ![evento](assets/09.webp)
 Se la tua organizzazione non ha ancora un identificatore "*project*", puoi aggiungerlo seguendo questo altro tutorial.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 - Una volta terminato di apportare modifiche a questo file, salvalo cliccando sul pulsante `Commit changes...`:
@@ -126,7 +126,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![evento](assets/14.webp)
 
-- Seleziona il tuo fork del repository Plan ₿ Network:
+- Seleziona il tuo fork del repository Plan ₿ Academy:
 
 ![evento](assets/15.webp)
 
@@ -170,7 +170,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![evento](assets/25.webp)
 
-- Si aprirà una nuova pagina. Trascina e rilascia un'immagine che rappresenta la tua conferenza e che verrà visualizzata sul sito di Plan ₿ Network:
+- Si aprirà una nuova pagina. Trascina e rilascia un'immagine che rappresenta la tua conferenza e che verrà visualizzata sul sito di Plan ₿ Academy:
 
 ![evento](assets/26.webp)
 
@@ -215,9 +215,9 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![evento](assets/37.webp)
 
-Congratulazioni! La tua PR è stata creata con successo. Un coordinatore la controllerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Network. Dovresti vedere il tuo evento apparire sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un coordinatore la controllerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Academy. Dovresti vedere il tuo evento apparire sul sito web qualche giorno dopo.
 
-Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando la tua PR non è validata, puoi consultarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network:
+Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando la tua PR non è validata, puoi consultarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Academy:
 
 ![evento](assets/38.webp)
 

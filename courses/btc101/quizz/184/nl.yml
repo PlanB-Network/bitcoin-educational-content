@@ -1,8 +1,8 @@
-question: Wat is een van de redenen dat Bitcoin geen zeepbel is die zal verdwijnen?
-answer: Omdat het een valuta is die overal ter wereld wordt gebruikt.
+question: Wat is een factor waarmee je rekening moet houden bij het kiezen van een oplossing om Bitcoin te accepteren voor je bedrijf?
+answer: Het verwachte transactievolume.
 wrong_answers:
-  - Omdat het eigenlijk nergens wordt gebruikt.
-  - Omdat het wordt gecontroleerd door een centrale autoriteit.
-  - Omdat het makkelijk na te maken is.
+  - De kleur van je logo.
+  - Het aantal werknemers.
+  - De locatie van je hoofdkantoor.
 explanation: >-
 reviewed: true

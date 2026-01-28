@@ -1,0 +1,9 @@
+question: Milline neist platvormidest võimaldab teil osta sissetulevat likviidsust?
+answer: Magma
+wrong_answers:
+  - Bitcoin Core
+  - 1ML
+  - Boltz
+explanation: |
+  Magma muudab sissetuleva likviidsuse ostmise lihtsaks automatiseeritud turuplatsi kaudu.
+reviewed: false

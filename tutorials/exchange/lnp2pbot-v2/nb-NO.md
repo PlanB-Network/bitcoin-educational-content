@@ -8,7 +8,7 @@ description: Komplett guide til LNP2PBot og P2P bitcoin-handel
 
 KYC-frie peer-to-peer-børser (P2P) er avgjørende for å bevare brukernes konfidensialitet og økonomiske uavhengighet. De muliggjør direkte transaksjoner mellom enkeltpersoner uten behov for identitetsbekreftelse, noe som er avgjørende for de som verdsetter personvern. For en mer inngående forståelse av de teoretiske konseptene, ta en titt på BTC204-kurset:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Kjøp og salg av bitcoin peer-to-peer (P2P) er en av de mest private metodene for å anskaffe eller avhende bitcoins. LNP2PBot er en Telegram-bot med åpen kildekode som legger til rette for P2P-børser på Lightning-nettverket, noe som muliggjør raske, rimelige og KYC-frie transaksjoner.
 
@@ -43,7 +43,7 @@ Begynn med å installere en kompatibel Lightning-lommebok. Her er våre detaljer
 **Anbefalte porteføljer**
 
 
-- [Breez] (https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Utmerket for nybegynnere
   - Intuitivt, moderne grensesnitt
   - Ikke-forvaring (du beholder kontrollen over midlene dine)
@@ -52,9 +52,9 @@ Begynn med å installere en kompatibel Lightning-lommebok. Her er våre detaljer
 
 Nedenfor finner du lenken til veiledningen for denne lommeboken:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Enkelt og pålitelig
   - Automatisk kanalkonfigurasjon
   - Innebygd støtte for BOLT11-fakturaer
@@ -63,9 +63,9 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 Nedenfor finner du lenken til veiledningen for denne lommeboken:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Mer teknisk, men svært komplett
   - Avanserte konfigurasjonsalternativer
   - Perfekt for erfarne brukere
@@ -74,16 +74,16 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 Nedenfor finner du lenken til veiledningen for denne lommeboken:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Viktige merknader om andre porteføljer**
 
 ⚠️ **Viktig**: Før du selger sats, må du sørge for at porteføljen din støtter "hold"-fakturaer, som brukes av boten som et escrow-system.
 
 
-- Wallet of Satoshi**: Fungerer bra for å motta sats, men kan ha forsinkelser i oppdateringen av saldoen hvis et salg blir kansellert.
-- Muun**: Anbefales ikke, da betalinger kan mislykkes på grunn av begrensningene for rutinggebyr (maks. 0,2 %).
-- Aqua**: Fungerer for å motta sats, men kan ha lange forsinkelser (opptil 48 timer) for saldooppdateringer i tilfelle et salg kanselleres.
+- **Wallet of Satoshi**: Fungerer bra for å motta sats, men kan ha forsinkelser i oppdateringen av saldoen hvis et salg blir kansellert.
+- **Muun**: Anbefales ikke, da betalinger kan mislykkes på grunn av begrensningene for rutinggebyr (maks. 0,2 %).
+- **Aqua**: Fungerer for å motta sats, men kan ha lange forsinkelser (opptil 48 timer) for saldooppdateringer i tilfelle et salg kanselleres.
 
 💡 **Tips**: For en optimal opplevelse bør du velge anbefalte porteføljer (Breez, Phoenix eller Blixt).
 
@@ -91,7 +91,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 ### 2. Kom i gang med Lnp2pbot
 
-1. Klikk på denne lenken for å få tilgang til boten: [@lnp2pBot] (https://t.me/lnp2pbot)
+1. Klikk på denne lenken for å få tilgang til boten: [@lnp2pBot](https://t.me/lnp2pbot)
 
 2. Telegram åpnes automatisk
 
@@ -105,7 +105,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 
 - Bli med på hovedkanalen: [@p2plightning](https://t.me/p2plightning)
-- Support: [@lnp2pbotHelp] (https://t.me/lnp2pbotHelp)
+- Support: [@lnp2pbotHelp](https://t.me/lnp2pbotHelp)
 
 ## Kjøp og salg av Bitcoins
 
@@ -153,7 +153,7 @@ Når fakturaen er sendt, setter boten deg i kontakt med selgeren.
 
 Klikk på selgerens kallenavn for å åpne en privat chattekanal der du kan utveksle fiat-betalingsinformasjon.
 
-**5. Bekreftelse av betaling
+**5. Bekreftelse av betaling**
 
 ![Confirmation du paiement](assets/fr/05.webp)
 
@@ -247,16 +247,16 @@ Lnp2pbot har flere fordeler og ulemper sammenlignet med andre P2P-børsløsninge
 
 
 - Ingen KYC kreves ** : I motsetning til noen plattformer krever Lnp2pbot ikke identitetsbekreftelse, og bevarer dermed brukernes konfidensialitet.
-- Raske transaksjoner**: Takket være Lightning-nettverket er transaksjonene nesten øyeblikkelige.
-- Lave gebyrer** : Transaksjonskostnadene er lavere enn for tradisjonelle børser.
-- Mobil tilgjengelighet**: LNP2PBot er tilgjengelig via Telegram, noe som gjør det enkelt å bruke på mobile enheter.
-- Enkel å bruke** : Lnp2pbots intuitive grensesnitt gjør det enkelt å bruke, selv for mindre erfarne brukere.
+- **Raske transaksjoner**: Takket være Lightning-nettverket er transaksjonene nesten øyeblikkelige.
+- **Lave gebyrer**: Transaksjonskostnadene er lavere enn for tradisjonelle børser.
+- **Mobil tilgjengelighet**: LNP2PBot er tilgjengelig via Telegram, noe som gjør det enkelt å bruke på mobile enheter.
+- **Enkel å bruke**: Lnp2pbots intuitive grensesnitt gjør det enkelt å bruke, selv for mindre erfarne brukere.
 
 ### Ulemper med Lnp2pbot
 
 
-- Telegram-avhengighet**: Bruk av Lnp2pbot krever en Telegram-konto, noe som kanskje ikke passer for alle brukere.
-- Mindre likviditet**: Sammenlignet med mer etablerte plattformer som Bisq, kan likviditeten være mer begrenset.
+- **Telegram-avhengighet**: Bruk av Lnp2pbot krever en Telegram-konto, noe som kanskje ikke passer for alle brukere.
+- **Mindre likviditet**: Sammenlignet med mer etablerte plattformer som Bisq, kan likviditeten være mer begrenset.
 
 Til sammenligning tilbyr løsninger som Bisq større likviditet og et skrivebordsgrensesnitt, men kan innebære høyere gebyrer og lengre transaksjonstid. HodlHodl og Robosat tilbyr også KYC-fri handel, men med ulike gebyrstrukturer og grensesnitt.
 
@@ -266,4 +266,4 @@ Til sammenligning tilbyr løsninger som Bisq større likviditet og et skrivebord
 - Offisiell nettside: https://lnp2pbot.com/
 - Dokumentasjon: https://lnp2pbot.com/learn/
 - GitHub: https://github.com/lnp2pBot/bot
-- Støtte: [@lnp2pbotHelp] (https://t.me/lnp2pbotHelp)
+- Støtte: [@lnp2pbotHelp](https://t.me/lnp2pbotHelp)

@@ -1,10 +1,12 @@
-question: Quel est le rôle de la clé publique dans un portefeuille Bitcoin ?
-answer: Elle est utilisée pour générer des adresses Bitcoin et ainsi recevoir de l'argent.
+question: Quelle est l'analogie utilisée dans ce cours pour expliquer comment vous pouvez recevoir des bitcoins sans permettre à l'expéditeur de voler vos fonds ?
+answer: Une boîte aux lettres
 wrong_answers:
-  - Elle est utilisée pour chiffrer les transactions Bitcoin.
-  - Elle est utilisée pour accéder au portefeuille Bitcoin.
-  - Elle est utilisée pour sauvegarder le portefeuille Bitcoin.
+  - Un compte bancaire
+  - Un coffre-fort
+  - Une maison
 explanation: |
-  La clé publique est dérivée de la clé privée et est utilisée
-  pour générer des adresses Bitcoin afin de recevoir de l'argent.
+  L'analogie utilisée pour expliquer comment vous pouvez recevoir des bitcoins
+  sans permettre à l'expéditeur de voler vos fonds est une
+  boîte aux lettres. Les gens déposent de l'argent dedans, mais vous êtes le seul
+  à pouvoir l'ouvrir.
 reviewed: true

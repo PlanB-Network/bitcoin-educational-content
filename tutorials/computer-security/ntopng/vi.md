@@ -160,9 +160,9 @@ Một lệnh **ip add** đơn giản sẽ trả về kết quả với thông ti
 
 
 
-- Lo**: đây là Interface vòng lặp; nó là một Interface ảo "lặp vòng" qua thiết bị. Về cơ bản, Interface này, với Address là 127.0.0.1 (mặc dù bất kỳ Address nào trong 127.0.0.0/8 cũng được, vì dải này được dành riêng cho mục đích này) được sử dụng để kết nối với chính thiết bị. Nếu bạn đã cài đặt một trang web trên máy trạm (ví dụ: sử dụng WAMPP), có thể bạn đã từng sử dụng Address "*localhost*" để hiển thị trang web được lưu trữ trên máy của mình. Tên máy chủ này được liên kết với Address 127.0.0.1 và do đó với vòng lặp Interface.
-- ens33**: đây là Interface đầu tiên của tôi, đã nhận được Address ở đây từ DHCP của tôi
-- ens36**: Interface thứ hai của tôi
+- **Lo**: đây là Interface vòng lặp; nó là một Interface ảo "lặp vòng" qua thiết bị. Về cơ bản, Interface này, với Address là 127.0.0.1 (mặc dù bất kỳ Address nào trong 127.0.0.0/8 cũng được, vì dải này được dành riêng cho mục đích này) được sử dụng để kết nối với chính thiết bị. Nếu bạn đã cài đặt một trang web trên máy trạm (ví dụ: sử dụng WAMPP), có thể bạn đã từng sử dụng Address "*localhost*" để hiển thị trang web được lưu trữ trên máy của mình. Tên máy chủ này được liên kết với Address 127.0.0.1 và do đó với vòng lặp Interface.
+- **ens33**: đây là Interface đầu tiên của tôi, đã nhận được Address ở đây từ DHCP của tôi
+- **ens36**: Interface thứ hai của tôi
 
 
 
@@ -211,8 +211,8 @@ Sau đây là một số giải thích về những thay đổi đầu tiên nà
 
 
 
-- auto *Interface***: sẽ tự động "khởi động" Interface khi khởi động hệ thống
-- iface *Interface* hướng dẫn sử dụng inet**: sử dụng Interface mà không cần bất kỳ IP nào của Address. Giống như từ khóa "static" để định nghĩa IP tĩnh của Address hoặc "dhcp" để sử dụng địa chỉ động.
+- auto **Interface**: sẽ tự động "khởi động" Interface khi khởi động hệ thống
+- iface *Interface* hướng dẫn sử dụng **inet**: sử dụng Interface mà không cần bất kỳ IP nào của Address. Giống như từ khóa "static" để định nghĩa IP tĩnh của Address hoặc "dhcp" để sử dụng địa chỉ động.
 
 
 
@@ -239,10 +239,10 @@ Một lần nữa, xin đưa ra một vài lời giải thích:
 
 
 
-- iface br0 inet static**: ở đây tôi đã định nghĩa cầu nối Interface (*br0*) của mình bằng Address tĩnh.
-- Address, mặt nạ mạng, cổng **: thông tin địa chỉ bo mạch
-- bridge_ports**: các giao diện sẽ được đưa vào cầu nối
-- bridge_stp**: Giao thức Spanning Tree được sử dụng khi kết nối các switch để phát hiện các liên kết dư thừa và tránh vòng lặp. Vì cầu nối có thể được chèn giữa hai đường dẫn mạng, nó có thể là nguồn gốc của vòng lặp, do đó có thể bật giao thức này. Tôi không cần nó ở đây, vì vậy tôi sẽ tắt nó.
+- iface br0 inet static: ở đây tôi đã định nghĩa cầu nối Interface (*br0*) của mình bằng Address tĩnh.
+- **Address, mặt nạ mạng, cổng**: thông tin địa chỉ bo mạch
+- **bridge_ports**: các giao diện sẽ được đưa vào cầu nối
+- **bridge_stp**: Giao thức Spanning Tree được sử dụng khi kết nối các switch để phát hiện các liên kết dư thừa và tránh vòng lặp. Vì cầu nối có thể được chèn giữa hai đường dẫn mạng, nó có thể là nguồn gốc của vòng lặp, do đó có thể bật giao thức này. Tôi không cần nó ở đây, vì vậy tôi sẽ tắt nó.
 
 
 
@@ -281,8 +281,8 @@ Theo mặc định, nguồn gói chỉ chứa các gói tuân thủ DFSG (*Hư�
 
 
 
-- contrib**: các gói chứa phần mềm tuân thủ DFSG, nhưng sử dụng các phần phụ thuộc không phải là một phần của nhánh **chính**
-- không miễn phí**: chứa các gói không tuân thủ DFSG
+- **contrib**: các gói chứa phần mềm tuân thủ DFSG, nhưng sử dụng các phần phụ thuộc không phải là một phần của nhánh **chính**
+- **không miễn phí**: chứa các gói không tuân thủ DFSG
 
 
 
@@ -300,7 +300,7 @@ Vì vậy, tôi chỉ cần thêm từ **đóng góp** vào những dòng như t
 
 
 
-Các bước còn lại được liệt kê trên trang web [NtopNG] (https://packages.ntop.org/apt/), tại đó, đối với Debian 11, bạn cần thêm nguồn Ntop để cài đặt trong tương lai. Việc bổ sung này được tự động hóa bằng cách sử dụng lệnh:
+Các bước còn lại được liệt kê trên trang web [NtopNG](https://packages.ntop.org/apt/), tại đó, đối với Debian 11, bạn cần thêm nguồn Ntop để cài đặt trong tương lai. Việc bổ sung này được tự động hóa bằng cách sử dụng lệnh:
 
 
 
@@ -442,7 +442,7 @@ NtopNG sử dụng công nghệ có tên DPI để *Kiểm tra gói tin sâu*, c
 
 
 
-**Giao thông đã được nhận diện và phân loại ngay lập tức!
+**Giao thông đã được nhận diện và phân loại ngay lập tức!**
 
 
 

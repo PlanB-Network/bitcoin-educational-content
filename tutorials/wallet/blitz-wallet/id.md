@@ -20,7 +20,7 @@ Blitz Wallet adalah Bitcoin self-custody Wallet yang kode sumbernya tersedia (Op
 
 
 
-[Blitz Wallet] (https://blitz-Wallet.com/) adalah Wallet seluler yang tersedia di Android (Play Store) dan iOS (App Store).
+[Blitz Wallet](https://blitz-Wallet.com/) adalah Wallet seluler yang tersedia di Android (Play Store) dan iOS (App Store).
 
 
 
@@ -44,7 +44,7 @@ Di sini, kita mulai dengan pembuatan portofolio baru. Lihat di bawah ini untuk r
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**PENTING**: Kata-kata pemulihan 12/24 ini sangat penting untuk mengakses bitcoin Anda. Jika Anda kehilangannya, Anda tidak akan lagi diizinkan untuk membelanjakan bitcoin Anda.
 
@@ -93,23 +93,23 @@ Salah satu fitur khusus Blitz Wallet adalah mendukung jaringan dan saluran yang 
 
 
 
-- Lightning Network**: Salah satu overlay Bitcoin yang memungkinkan Anda melakukan transaksi mikro secara instan.
+- **Lightning Network**: Salah satu overlay Bitcoin yang memungkinkan Anda melakukan transaksi mikro secara instan.
 
 
 
 
 
-- Bitcoin Mainnet**: Rantai utama protokol Bitcoin, cocok untuk transaksi bernilai besar.
+- **Bitcoin Mainnet**: Rantai utama protokol Bitcoin, cocok untuk transaksi bernilai besar.
 
 
 
 
 
-- Liquid Network**: Rantai paralel untuk Bitcoin Mainnet yang dikembangkan oleh BlockStream yang menggunakan Bitcoin Liquid untuk melakukan pengiriman cepat, Confidential Transactions.
+- **Liquid Network**: Rantai paralel untuk Bitcoin Mainnet yang dikembangkan oleh BlockStream yang menggunakan Bitcoin Liquid untuk melakukan pengiriman cepat, Confidential Transactions.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Secara default, semua transaksi Anda akan menggunakan Liquid Network, tetapi Blitz memungkinkan Anda menentukan jaringan tempat Anda ingin menerima satoshi dengan mengeklik tombol **Pilih format**.
 
@@ -169,7 +169,7 @@ Selain operasi transfer Bitcoin, Blitz Wallet menawarkan sebuah toko di mana And
 
 
 
-- Mengakses layanan kecerdasan buatan**: Gunakan model kecerdasan buatan generatif seperti: Claude 3-5 soneta, gpt-4o, gpt-4o-mini gemini-flash-1.5 dan membayar langsung dalam bitcoin.
+- **Mengakses layanan kecerdasan buatan**: Gunakan model kecerdasan buatan generatif seperti: Claude 3-5 soneta, gpt-4o, gpt-4o-mini gemini-flash-1.5 dan membayar langsung dalam bitcoin.
 
 
 
@@ -179,7 +179,7 @@ Selain operasi transfer Bitcoin, Blitz Wallet menawarkan sebuah toko di mana And
 
 
 
-- Kirim pesan teks ke mana saja di seluruh dunia**: Di toko Blitz, Anda memiliki akses ke layanan GSM yang memungkinkan Anda mengirim pesan teks secara anonim ke mana saja di seluruh dunia, dengan penagihan langsung di Bitcoin.
+- **Kirim pesan teks ke mana saja di seluruh dunia**: Di toko Blitz, Anda memiliki akses ke layanan GSM yang memungkinkan Anda mengirim pesan teks secara anonim ke mana saja di seluruh dunia, dengan penagihan langsung di Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Selain operasi transfer Bitcoin, Blitz Wallet menawarkan sebuah toko di mana And
 
 
 
-- Berselancar dalam kerahasiaan total**: Bayar langganan VPN (Virtual Private Network) WireGuard di toko Wallet Blitz dengan bitcoin Anda.
+- **Berselancar dalam kerahasiaan total**: Bayar langganan VPN (Virtual Private Network) WireGuard di toko Wallet Blitz dengan bitcoin Anda.
 
 
 
@@ -197,9 +197,9 @@ Selain operasi transfer Bitcoin, Blitz Wallet menawarkan sebuah toko di mana And
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet Blitz di balik layar: Melangkah lebih jauh
 
@@ -221,7 +221,7 @@ Pendekatan ini dibenarkan oleh keinginan untuk memfasilitasi pengalaman awal dan
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Anda dapat melihat rincian saldo Anda di menu **Pengaturan>Info Saldo**.
 
@@ -249,7 +249,7 @@ Dengan mengaktifkan mode Lightning, setelah syarat utama terpenuhi (saldo 500.00
 
 
 
-- Terima Bitcoin di toko Anda**:
+- **Terima Bitcoin di toko Anda**:
 
 
 
@@ -269,5 +269,4 @@ Jika tutorial ini membantu Anda memahami Blitz, kami yakin Anda akan menikmati t
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

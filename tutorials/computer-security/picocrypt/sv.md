@@ -40,7 +40,7 @@ För att följa Picocrypt-projektet finns det bara en Address:
 
 
 
-- [Picocrypt på GitHub] (https://github.com/Picocrypt/Picocrypt)
+- [Picocrypt på GitHub](https://github.com/Picocrypt/Picocrypt)
 
 
 
@@ -52,7 +52,7 @@ PicoCrypt är helt **fritt och med öppen källkod** och finns tillgängligt fö
 
 
 
-Krypteringsprogrammet Picocrypt** presenterar sig som **ett alternativ** till andra välkända lösningar som **VeraCrypt** och **Cryptomator** (*utformade för att kryptera data i molnmiljöer*), eller **AxCrypt**. Förresten, på Picocrypts officiella GitHub, kan du hitta en jämförelse med några konkurrenter:
+Krypteringsprogrammet **Picocrypt** presenterar sig som **ett alternativ** till andra välkända lösningar som **VeraCrypt** och **Cryptomator** (*utformade för att kryptera data i molnmiljöer*), eller **AxCrypt**. Förresten, på Picocrypts officiella GitHub, kan du hitta en jämförelse med några konkurrenter:
 
 
 
@@ -74,7 +74,7 @@ Krypteringsprogrammet Picocrypt** presenterar sig som **ett alternativ** till an
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Källa: [Github.com] (https://github.com/Picocrypt/Picocrypt)
+Källa: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
@@ -84,7 +84,7 @@ Picocrypt är ** mycket lätt**, väger bara ** 3 MB ** och behöver inte instal
 
 
 
-- XChaCha20** krypteringsalgoritm
+- **XChaCha20** krypteringsalgoritm
 - Funktion för förbikoppling av nyckel **Argon2**
 
 
@@ -159,11 +159,11 @@ Innan vi talar om dekryptering av data, här är lite information om några av d
 
 
 
-- Paranoidläge**: använd den högsta säkerhetsnivån som Picocrypt erbjuder. Verktyget kommer att använda flera kaskadkrypteringsalgoritmer (XChaCha20 och Serpent) och HMAC-SHA3 istället för BLAKE2b för dataautentisering.
-- Reed-Solomon**: implementera *Reed-Solomon* felkorrigeringskoder för att underlätta felkorrigering av skadade data. Detta gör att du kan stödja en korruptionsnivå på cirka 3% av din fil.
-- Dela upp i bitar** eller **dela upp i flera delar**: Om du krypterar en stor fil kan du be Picocrypt att dela upp den i flera delar. Detta kan göra filen lättare att överföra.
-- Compress Files** eller **Compress files**: komprimera filer för att minska storleken på krypterade filer.
-- Deleted files** eller **Fichiers supprimés**: ta bort källfiler för att bara behålla den krypterade versionen
+- **Paranoidläge**: använd den högsta säkerhetsnivån som Picocrypt erbjuder. Verktyget kommer att använda flera kaskadkrypteringsalgoritmer (XChaCha20 och Serpent) och HMAC-SHA3 istället för BLAKE2b för dataautentisering.
+- **Reed-Solomon**: implementera *Reed-Solomon* felkorrigeringskoder för att underlätta felkorrigering av skadade data. Detta gör att du kan stödja en korruptionsnivå på cirka 3% av din fil.
+- **Dela upp i bitar** eller **dela upp i flera delar**: Om du krypterar en stor fil kan du be Picocrypt att dela upp den i flera delar. Detta kan göra filen lättare att överföra.
+- **Compress Files** eller **Compress files**: komprimera filer för att minska storleken på krypterade filer.
+- **Deleted files** eller **Fichiers supprimés**: ta bort källfiler för att bara behålla den krypterade versionen
 
 
 
@@ -199,4 +199,4 @@ Se till att använda starka lösenord för att skydda data, och om du använder 
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

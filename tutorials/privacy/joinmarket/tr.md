@@ -167,7 +167,7 @@ saved to wallet.jmdat
 ```
 
 
-bir hata görünmesi durumunda, büyük olasılıkla yukarıda belirtilen 4 RPC alanını yanlış ayarlamışızdır. Bu durumda, orijinal JoinMarket belgelerinde bulunan [bu kılavuzu] (https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) takip etmek yardımcı olabilir.
+bir hata görünmesi durumunda, büyük olasılıkla yukarıda belirtilen 4 RPC alanını yanlış ayarlamışızdır. Bu durumda, orijinal JoinMarket belgelerinde bulunan [bu kılavuzu](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) takip etmek yardımcı olabilir.
 
 
 
@@ -423,7 +423,7 @@ Satoshileriniz CoinJoins yaptıktan sonra, sonuncuya ulaşana kadar karışım d
 
 
 
-İşte sonunda JoinMarket'in en lezzetli kısmına geldik, tumbler! Podcast'i dinlediyseniz, bunun neyle ilgili olduğunu zaten biliyorsunuzdur. Başlamadan önce bir tavsiye: **joinmarket.cfg dosyasındaki limitleri ayarlamayı unutmayın (başlangıçta açıklandığı gibi) ve programı yalnızca zincir içi ücretler nispeten düşük olduğunda (10 Sats/vB'nin altında) çalıştırmayı düşünün.
+İşte sonunda JoinMarket'in en lezzetli kısmına geldik, tumbler! Podcast'i dinlediyseniz, bunun neyle ilgili olduğunu zaten biliyorsunuzdur. Başlamadan önce bir tavsiye: **joinmarket.cfg dosyasındaki limitleri ayarlamayı unutmayın (başlangıçta açıklandığı gibi) ve programı yalnızca zincir içi ücretler nispeten düşük olduğunda (10 Sats/vB'nin altında) çalıştırmayı düşünün.**
 
 
 

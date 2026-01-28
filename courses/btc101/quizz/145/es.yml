@@ -1,11 +1,11 @@
-question: ¿De qué trataba la guerra de bloques en 2017?
-answer: Un conflicto sobre si aumentar el tamaño del bloque para expandir la capacidad de transacción.
+question: ¿Qué es el HashRate?
+answer: El número de cálculos hash que un dispositivo de minería puede realizar por segundo para resolver el Proof of Work (Prueba de Trabajo).
 wrong_answers:
-  - Un conflicto sobre si disminuir el tamaño del bloque para reducir la capacidad de transacción.
-  - Un conflicto sobre si aumentar la recompensa por bloque para incentivar a los mineros.
-  - Un conflicto sobre si disminuir la recompensa por bloque para desincentivar a los mineros.
-explanation: |
-  La guerra de bloques en 2017 fue un conflicto sobre si
-  modificar Bitcoin aumentando el tamaño del bloque para expandir
-  la capacidad de transacción.
+  - La velocidad a la que un dispositivo de minería puede resolver el Proof of Work.
+  - El número total de mineros en la red de Bitcoin.
+  - La cantidad total de bitcoins minados al realizar un cierto número de intentos por segundo para resolver el Proof of Work.
+explanation: >-
+  El HashRate se refiere al número total de intentos que los mineros hacen
+  por segundo para resolver el Proof of Work. Es una medida de la potencia computacional
+  de la red de Bitcoin.
 reviewed: true

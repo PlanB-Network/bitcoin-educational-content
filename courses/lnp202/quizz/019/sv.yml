@@ -1,0 +1,9 @@
+question: Vilka är förutsättningarna för att installera LND på Umbrel?
+answer: Synkroniserad Bitcoin nod
+wrong_answers:
+  - Umbrel Premium-konto
+  - Befintlig blixtkanal
+  - Blixtadress aktiv
+explanation: |
+  LND är beroende av en 100% synkroniserad Bitcoin-nod, vilket är en förutsättning för dess drift.
+reviewed: false

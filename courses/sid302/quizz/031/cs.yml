@@ -1,0 +1,8 @@
+question: Jaký specifický kryptografický prvek umožňuje poskytovateli swapu v rámci swapu Lightning Send submarine uplatnit nárok na zablokované prostředky Liquid po zaplacení faktury Lightning?
+answer: Předobraz platby z bleskové platby slouží jako kryptografický klíč k odemknutí eskontovaných prostředků Liquid
+wrong_answers:
+  - Podpis smlouvy s časovým zámkem hash vytvořený během počáteční uzamykací transakce Liquid poskytuje přístup k
+  - Metadata spojení WebSocket obsahují odemykací klíč, který opravňuje uvolnění prostředků poskytovateli
+  - "Soukromý klíč poskytovatele swapu automaticky odemkne finanční prostředky po obdržení potvrzení platby Lightning."
+explanation: |
+  Předobraz platby je kryptografická stvrzenka, která dokládá úspěšné dokončení platby blesku. V podmořských swapech slouží tento předobraz jako odemykací klíč pro eskontované prostředky Liquid, čímž je zajištěna atomicita - poskytovatel swapu si může nárokovat prostředky Liquid pouze tehdy, pokud skutečně zaplatil fakturu Lightning. Ostatní možnosti popisují buď obecné kryptografické prvky, které neposkytují potřebný specifický důkaz o platbě, nebo nesprávné mechanismy, které by ohrozily nedůvěryhodnou povahu atomického swapu.

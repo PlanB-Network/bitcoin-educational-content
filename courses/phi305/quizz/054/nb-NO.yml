@@ -1,0 +1,9 @@
+question: Hvilken filosof utviklet begrepet nihilisme?
+answer: Nietzsche.
+wrong_answers:
+  - Kant.
+  - Schopenhauer.
+  - Spinoza.
+explanation: |
+  Friedrich Nietzsche (1844-1900) konstruerte og utviklet nihilismebegrepet. For ham representerer nihilismen devalueringen av de høyeste verdiene og tapet av mening i den vestlige kulturen.
+reviewed: false

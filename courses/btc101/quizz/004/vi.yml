@@ -1,11 +1,11 @@
-question: Hai đặc điểm chính của Bitcoin là gì?
-answer: Bitcoin vừa là một giao thức máy tính vừa là một đơn vị tiền tệ.
+question: Bitcoin là một đồng tiền trung lập có nghĩa là gì?
+answer: Nó không bị kiểm soát bởi bất kỳ thực thể hay tổ chức nào.
 wrong_answers:
-  - Bitcoin vừa là một loại tiền tệ vật lý vừa là một ví điện tử.
-  - Bitcoin vừa là một loại cổ phiếu vừa là một loại trái phiếu.
-  - Bitcoin vừa là một loại tiền tệ tập trung vừa là một loại tiền tệ phi tập trung.
+  - Nó được kiểm soát bởi một thực thể hay tổ chức duy nhất.
+  - Nó được quản lý bởi chính phủ.
+  - Nó chỉ được sử dụng cho các giao dịch lớn.
 explanation: |
-  Bitcoin vừa là một giao thức máy tính sử dụng các công nghệ
-  như mã hóa và blockchain, đồng thời cũng là một đơn vị tiền tệ
-  được sử dụng cho các giao dịch.
+  Bitcoin là một đồng tiền trung lập, có nghĩa là nó không bị kiểm soát
+  bởi bất kỳ thực thể hay tổ chức nào, vì vậy mỗi người dùng đều có
+  quyền lợi như nhau. Đây là một khía cạnh quan trọng của tính phi tập trung của nó.
 reviewed: true

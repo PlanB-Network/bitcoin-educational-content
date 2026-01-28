@@ -1,0 +1,9 @@
+question: Prema Ericu Voskuilu u knjizi Cryptoeconomics, sigurnost Bitcoin zasniva se na ekonomskoj teoriji i mehanizmima koji podstiču učesnike da se ponašaju na način koji osigurava integritet i sigurnost sistema.
+answer: Na pojedince
+wrong_answers:
+  - Na Blockchain
+  - O Hash power
+  - O kriptografiji
+explanation: |
+  Eric Voskuil objašnjava da se sigurnost Bitcoin oslanja pre svega na ljude koji preuzimaju rizike kako bi održali sistem.
+reviewed: true

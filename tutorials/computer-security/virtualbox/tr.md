@@ -43,7 +43,7 @@ Benim yapılandırmam: **VirtualBox'ı yükleyeceğim bir Windows 11 iş istasyo
 
 
 
-Bir Windows makinesine kurulum için VirtualBox'ı indirmek için tek bir iyi Address vardır: [resmi VirtualBox web sitesi] (https://www.virtualbox.org/wiki/Downloads) "**Downloads**" bölümünde. Boyutu 100 MB'ın biraz üzerinde olan bu çalıştırılabilir dosyayı indirmeye başlamak için "Windows hosts" seçeneğine tıklamanız yeterlidir.
+Bir Windows makinesine kurulum için VirtualBox'ı indirmek için tek bir iyi Address vardır: [resmi VirtualBox web sitesi](https://www.virtualbox.org/wiki/Downloads) "**Downloads**" bölümünde. Boyutu 100 MB'ın biraz üzerinde olan bu çalıştırılabilir dosyayı indirmeye başlamak için "Windows hosts" seçeneğine tıklamanız yeterlidir.
 
 
 
@@ -59,7 +59,7 @@ Bir Windows makinesine kurulum için VirtualBox'ı indirmek için tek bir iyi Ad
 
 
 
-VirtualBox** kurulumu basittir ve süreç Windows'un tüm sürümleri için aynıdır. Yeni indirdiğiniz VirtualBox çalıştırılabilir dosyasını başlatarak başlayın, ardından "**Sonraki**" üzerine tıklayın.
+**VirtualBox** kurulumu basittir ve süreç Windows'un tüm sürümleri için aynıdır. Yeni indirdiğiniz VirtualBox çalıştırılabilir dosyasını başlatarak başlayın, ardından "**Sonraki**" üzerine tıklayın.
 
 
 
@@ -73,9 +73,9 @@ Bu kurulum özelleştirilebilir, ancak tüm özellikleri yüklemenizi tavsiye ed
 
 
 
-- VirtualBox'ın USB aygıtlarını desteklemesini sağlamak için VirtualBox USB Desteği**
-- Ağ desteğini "Köprü" modunda entegre etmek için VirtualBox Köprülü Ağ** (sanal makine doğrudan yerel ağınıza bağlanabilir)
-- VirtualBox Host-Only Network** "Host-Only" modunda ağ desteğini entegre etmek için (sanal makine bu modda yalnızca Windows 11 fiziksel ana bilgisayarınızla ve diğer sanal makinelerle iletişim kurabilir)
+- VirtualBox'ın USB aygıtlarını desteklemesini sağlamak için **VirtualBox USB Desteği**
+- Ağ desteğini "Köprü" modunda entegre etmek için **VirtualBox Köprülü Ağ** (sanal makine doğrudan yerel ağınıza bağlanabilir)
+- **VirtualBox Host-Only Network** "Host-Only" modunda ağ desteğini entegre etmek için (sanal makine bu modda yalnızca Windows 11 fiziksel ana bilgisayarınızla ve diğer sanal makinelerle iletişim kurabilir)
 
 
 
@@ -165,10 +165,10 @@ VirtualBox üzerinde yeni bir sanal makine oluşturmak için, VM oluşturma sihi
 
 
 
-- Ayarlar**: genel VirtualBox yapılandırması (varsayılan VM klasörü, güncelleme yönetimi, dil, NAT ağları, uzantılar, vb.)
-- İçe Aktar**: OVF biçiminde bir sanal cihazı içe aktarın
-- Dışa Aktar**: sanal bir cihaz oluşturmak için mevcut bir sanal makineyi OVF formatında dışa aktarın
-- Ekle**: VirtualBox envanterinize standart VirtualBox formatında (.vbox) veya XML formatında mevcut bir sanal makine ekleyin
+- **Ayarlar**: genel VirtualBox yapılandırması (varsayılan VM klasörü, güncelleme yönetimi, dil, NAT ağları, uzantılar, vb.)
+- **İçe Aktar**: OVF biçiminde bir sanal cihazı içe aktarın
+- **Dışa Aktar**: sanal bir cihaz oluşturmak için mevcut bir sanal makineyi OVF formatında dışa aktarın
+- **Ekle**: VirtualBox envanterinize standart VirtualBox formatında (.vbox) veya XML formatında mevcut bir sanal makine ekleyin
 
 
 
@@ -184,16 +184,16 @@ Sol taraftaki "**Araçlar**" bölümü, özellikle sanal ağı yönetmek ve ayn�
 
 
 
-**Bir hatırlatma olarak, VirtualBox Windows, Linux ve BSD dahil olmak üzere çok sayıda işletim sistemini desteklemektedir. Bu örnekte, Windows 11 için bir sanal makine oluşturacağım. Birkaç alanın doldurulması gerekiyor:
+**Bir hatırlatma olarak, VirtualBox Windows, Linux ve BSD dahil olmak üzere çok sayıda işletim sistemini desteklemektedir.** Bu örnekte, Windows 11 için bir sanal makine oluşturacağım. Birkaç alanın doldurulması gerekiyor:
 
 
 
 
 
-- Name**: sanal makine adı (bu VirtualBox'ta görüntülenecek addır)
-- Makine klasörü**: sanal makinenin saklanacağı yer, bu konumda sanal makinenin adıyla bir alt klasör oluşturulacağını bilerek
-- Tür**: hangi işletim sistemini yüklemek istediğinize bağlı olarak işletim sisteminin türü
-- Sürüm**: yüklemek istediğiniz sistemin sürümü, bu durumda Windows 11, yani "**Windows11_64**"
+- **Name**: sanal makine adı (bu VirtualBox'ta görüntülenecek addır)
+- **Makine klasörü**: sanal makinenin saklanacağı yer, bu konumda sanal makinenin adıyla bir alt klasör oluşturulacağını bilerek
+- **Tür**: hangi işletim sistemini yüklemek istediğinize bağlı olarak işletim sisteminin türü
+- **Sürüm**: yüklemek istediğiniz sistemin sürümü, bu durumda Windows 11, yani "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Devam etmek için "**Sonraki**" düğmesine tıklayın.
 
 
 
-Bir önceki adımda seçtiğiniz işletim sistemine bağlı olarak, **VirtualBox sanal makineye tahsis edilecek kaynaklar konusunda önerilerde bulunur**. Burada, sanal makineye ayırmak istediğiniz RAM'den bahsediyoruz. 4 GB olduğunu varsayalım, çünkü Windows 11 için gerçekten de bu önerilmektedir, ancak kaynaklarınız yetersizse bunun yerine 2 GB belirtin. **Devam et
+Bir önceki adımda seçtiğiniz işletim sistemine bağlı olarak, **VirtualBox sanal makineye tahsis edilecek kaynaklar konusunda önerilerde bulunur**. Burada, sanal makineye ayırmak istediğiniz RAM'den bahsediyoruz. 4 GB olduğunu varsayalım, çünkü Windows 11 için gerçekten de bu önerilmektedir, ancak kaynaklarınız yetersizse bunun yerine 2 GB belirtin. **Devam et**
 
 
 
@@ -231,9 +231,9 @@ VirtualBox, sanal Hard diskleri için üç farklı formatı destekler; bu, VMwar
 
 
 
-- VDI**, resmi VirtualBox formatı
-- VHD**, resmi Hyper-V formatıdır, ancak yeni VHDX formatı bu günlerde daha sık kullanılmaktadır
-- VMDX** hem VMware Workstation hem de VMware ESXi için resmi VMware formatıdır
+- **VDI**, resmi VirtualBox formatı
+- **VHD**, resmi Hyper-V formatıdır, ancak yeni VHDX formatı bu günlerde daha sık kullanılmaktadır
+- **VMDX** hem VMware Workstation hem de VMware ESXi için resmi VMware formatıdır
 
 
 
@@ -273,7 +273,7 @@ Bu noktada, sanal makine envanterimizdedir, yapılandırılmıştır ancak işle
 
 
 
-Windows 11'i veya başka bir sistemi kurmak için kurulum kaynaklarına ihtiyacımız var. Çoğu durumda, bir işletim sistemi yüklemek için ISO formatında bir disk imajı kullanırız. **Windows 11 ISO imajını VM'mizin sanal DVD sürücüsüne yüklemek gerekir
+Windows 11'i veya başka bir sistemi kurmak için kurulum kaynaklarına ihtiyacımız var. Çoğu durumda, bir işletim sistemi yüklemek için ISO formatında bir disk imajı kullanırız. **Windows 11 ISO imajını VM'mizin sanal DVD sürücüsüne yüklemek gerekir.**
 
 
 
@@ -333,7 +333,7 @@ Benim durumumda, sanal makinenin 2 sanal işlemcisi var:
 
 
 
-**Yapılandırma menüsünün diğer bölümlerine de göz atmaktan çekinmeyin.
+**Yapılandırma menüsünün diğer bölümlerine de göz atmaktan çekinmeyin.**
 
 
 
@@ -368,7 +368,7 @@ Aslında bu normaldir çünkü **sanallaştırma özelliği bilgisayarımda etki
 
 
 
-Beklemeden bilgisayarımı yeniden başlatıyorum ve **ASUS anakartımın BIOS'una** erişmek için "SUPPR" tuşuna basıyorum (tuş makineye göre değişebilir ve örneğin F2 olabilir). Sanallaştırmayı etkinleştirmek için, benim durumumda "SVM Modu" etkinleştirilmelidir. Burada yine, bir anakarttan diğerine, bir üreticiden diğerine, isim değişebilir. AMD-V** (AMD CPU için) ya da **Intel VT-x** (Intel CPU için) ile ilgili bir fonksiyon arayın.
+Beklemeden bilgisayarımı yeniden başlatıyorum ve **ASUS anakartımın BIOS'una** erişmek için "SUPPR" tuşuna basıyorum (tuş makineye göre değişebilir ve örneğin F2 olabilir). Sanallaştırmayı etkinleştirmek için, benim durumumda "SVM Modu" etkinleştirilmelidir. Burada yine, bir anakarttan diğerine, bir üreticiden diğerine, isim değişebilir. **AMD-V** (AMD CPU için) ya da **Intel VT-x** (Intel CPU için) ile ilgili bir fonksiyon arayın.
 
 
 
@@ -390,10 +390,10 @@ VirtualBox'ın kurulu olduğu Windows 11 fiziksel hostumuz üzerinde, Windows 11
 
 
 
-- Sanal makine yapılandırmasına (RAM, CPU, vb.) karşılık gelen VBOX** dosyası (XML biçiminde)
-- VBOX-PREV** dosyası önceki yapılandırmanın bir yedeğidir
-- VDI** dosyası dinamik moddaki sanal Hard diskine karşılık gelir, bu nedenle şu anda yalnızca 13 GB'tır, oysa maksimum boyutu 64 GB'tır
-- NVRAM** dosyası, fiziksel bir makinenin geçici olmayan belleğine eşdeğer olan sanal makinenin BIOS durumunu içerir
+- Sanal makine yapılandırmasına (RAM, CPU, vb.) karşılık gelen **VBOX** dosyası (XML biçiminde)
+- **VBOX-PREV** dosyası önceki yapılandırmanın bir yedeğidir
+- **VDI** dosyası dinamik moddaki sanal Hard diskine karşılık gelir, bu nedenle şu anda yalnızca 13 GB'tır, oysa maksimum boyutu 64 GB'tır
+- **NVRAM** dosyası, fiziksel bir makinenin geçici olmayan belleğine eşdeğer olan sanal makinenin BIOS durumunu içerir
 
 
 

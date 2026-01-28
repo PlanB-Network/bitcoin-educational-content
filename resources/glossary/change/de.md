@@ -6,4 +6,4 @@ Bezieht sich im Zusammenhang mit Bitcoin-Transaktionen auf den UTXO, der mit dem
 
 ![](../../dictionnaire/assets/16.webp)
 
-> ► *Auch wenn es selten verwendet wird, können wir es auch als "Währung" (Wechselgeld) bezeichnen, um über das Wechselgeld zu sprechen
+> ► *Auch wenn es selten verwendet wird, können wir es auch als "Währung" (Wechselgeld) bezeichnen, um über das Wechselgeld zu sprechen*

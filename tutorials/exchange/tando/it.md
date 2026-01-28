@@ -73,15 +73,15 @@ Tando consente di utilizzare i bitcoin per acquistare tutto ciò che M-Pesa può
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- Scansione per pagare** :
+- **Scansione per pagare**:
 
 
 
@@ -95,7 +95,7 @@ Scan to pay è una delle opzioni di pagamento automatico dell'applicazione. Scan
 
 
 
-- Invio di denaro in Kenya** :
+- **Invio di denaro in Kenya**:
 
 
 
@@ -121,7 +121,7 @@ Pagate la fattura dal vostro Lightning Wallet e Tando la convertirà in scellini
 
 
 
-- Pagare le bollette** :
+- **Pagare le bollette**:
 
 
 
@@ -135,7 +135,7 @@ Inserire il numero del Invoice che si desidera pagare, quindi procedere al pagam
 
 
 
-- Acquisto di merci** :
+- **Acquisto di merci**:
 
 
 
@@ -159,4 +159,4 @@ Sempre più iniziative come Tando stanno sorgendo nelle comunità africane, come
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

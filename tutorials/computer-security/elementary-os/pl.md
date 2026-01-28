@@ -1,5 +1,5 @@
 ---
-name: Podstawowy system operacyjny
+name: Elementary OS
 description: Idealny zamiennik dla systemów Windows i MacOS
 ---
 
@@ -11,7 +11,7 @@ Elementary OS to system operacyjny oparty na Ubuntu, zaprojektowany tak, aby by�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Dlaczego warto wybrać Elementary OS
 
@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Prostota i łatwość użytkowania**: Graficzny Interface systemu Elementary OS znajduje się w połowie drogi między systemami MacOs i Windows. To sprawia, że jest on łatwy w obsłudze nawet dla niedoświadczonych użytkowników.
+- **Prostota i łatwość użytkowania**: Graficzny Interface systemu Elementary OS znajduje się w połowie drogi między systemami MacOs i Windows. To sprawia, że jest on łatwy w obsłudze nawet dla niedoświadczonych użytkowników.
 
 
 
 
 
-- Bezpieczeństwo**: Podobnie jak większość dystrybucji Linuksa, Elementary OS korzysta z wysokiego poziomu bezpieczeństwa. Regularne aktualizacje, zarządzanie prawami i brak powszechnych wirusów sprawiają, że jest to niezawodny system.
+- **Bezpieczeństwo**: Podobnie jak większość dystrybucji Linuksa, Elementary OS korzysta z wysokiego poziomu bezpieczeństwa. Regularne aktualizacje, zarządzanie prawami i brak powszechnych wirusów sprawiają, że jest to niezawodny system.
 
 
 
 
 
-- Szybkość**: Elementary OS jest lekką dystrybucją. Wymaga niewielu zasobów, dzięki czemu jest szybki i odpowiedni dla komputerów o skromnych konfiguracjach.
+- **Szybkość**: Elementary OS jest lekką dystrybucją. Wymaga niewielu zasobów, dzięki czemu jest szybki i odpowiedni dla komputerów o skromnych konfiguracjach.
 
 
 
 
 
-- Darmowy**: System jest całkowicie darmowy. Jednak po jego pobraniu możesz przekazać darowiznę, aby wesprzeć programistów.
+- **Darmowy**: System jest całkowicie darmowy. Jednak po jego pobraniu możesz przekazać darowiznę, aby wesprzeć programistów.
 
 
 
 
 
-- Aktywna społeczność**: Społeczność skupiona wokół Elementary OS jest zróżnicowana i elastyczna. Jeśli napotkasz trudności, możesz łatwo znaleźć pomoc na forach lub w sieciach społecznościowych.
+- **Aktywna społeczność**: Społeczność skupiona wokół Elementary OS jest zróżnicowana i elastyczna. Jeśli napotkasz trudności, możesz łatwo znaleźć pomoc na forach lub w sieciach społecznościowych.
 
 
 
@@ -61,7 +61,7 @@ Przed rozpoczęciem instalacji upewnij się, że posiadasz następujący sprzęt
 
 
 - **Klucz USB** o pojemności co najmniej 12 GB
-- Pamięć RAM** o pojemności co najmniej 4 GB
+- Pamięć **RAM** o pojemności co najmniej 4 GB
 - Dysk **Hard o pojemności 20 GB** lub większej do wygodnego użytkowania
 
 
@@ -380,4 +380,4 @@ Elementary OS jest teraz uruchomiony na Twoim komputerze. Jego filozofia prostot
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

@@ -1,0 +1,9 @@
+question: Vad är etologi?
+answer: En vetenskap om sätt att vara.
+wrong_answers:
+  - En naturvetenskap.
+  - En mekanisk vetenskap.
+  - En avart av astrologi.
+explanation: |
+  Etologi är vetenskapen om varande, om beteende. För Spinoza och Deleuze är det studiet av vad en kropp kan göra, av dess affekter och förmåga till handling och passion.
+reviewed: false

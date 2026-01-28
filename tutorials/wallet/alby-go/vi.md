@@ -1,5 +1,5 @@
 ---
-name: Alby đi
+name: Alby Go
 description: Hướng dẫn sử dụng ứng dụng di động Alby Go
 ---
 
@@ -16,11 +16,11 @@ description: Hướng dẫn sử dụng ứng dụng di động Alby Go
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(khuyến nghị)*
-- Ô**, **Start9**, **RaspiBlitz** (thông qua **Alby Hub**)
-- Coinos** *(chưa được kiểm tra)*
-- Nguyên thủy** *(chưa được kiểm tra)*
-- Minibits** *(chưa được kiểm tra)*
+- [Alby Hub](https://albyhub.com/) **(khuyến nghị)**
+- **Ô**, **Start9**, **RaspiBlitz** (thông qua **Alby Hub**)
+- **Coinos** *(chưa được kiểm tra)*
+- **Nguyên thủy** *(chưa được kiểm tra)*
+- **Minibits** *(chưa được kiểm tra)*
 
 
 Hầu hết các dịch vụ hỗ trợ NWC đều hoạt động. Nếu bạn đang thử nghiệm dịch vụ mới, hãy cho cộng đồng biết kết quả của bạn!
@@ -33,9 +33,9 @@ Có sẵn trên các nền tảng chính:
 
 
 
-- iOS:** [Tải xuống từ App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Tải xuống từ Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- Cửa hàng Zap**
+- **iOS:** [Tải xuống từ App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Tải xuống từ Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- Cửa hàng **Zap**
 
 
 

@@ -1,8 +1,8 @@
-question: Ni gute Bitcoin ishobora gufasha mu guhindura ibidukikije?
-answer: Itera imbere gukoresha inguvu za Green.
+question: Ni ubuhe buryo bumwe bwo kugabanya uguhinduka kwa Bitcoin?
+answer: Ivy’ubutunzi (amahera agumaho).
 wrong_answers:
-  - Bigabanya ivyimburwa vy’ibintu.
-  - Iratunganya ingene ubutunzi bukoreshwa.
-  - Bigabanya ivyuka bitera ivyatsi gusa.
+  - Gushiramwo amahera yawe yose muri Bitcoin.
+  - Kwirengagiza imigenderanire y’isoko.
+  - Gugura Bitcoin nyinshi iyo igiciro kigabanutse.
 explanation: >-
 reviewed: true

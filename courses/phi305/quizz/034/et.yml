@@ -1,0 +1,9 @@
+question: Kes on Lamarck?
+answer: Prantsuse loodusteadlane, kes eelnes Darwinile.
+wrong_answers:
+  - Hollandi filosoof.
+  - Spinoza õpilane.
+  - Klassikaline maalikunstnik.
+explanation: |
+  Jean-Baptiste de Lamarck (1744-1829) oli prantsuse loodusteadlane, kes pakkus välja evolutsiooniteooria enne Darwinit. Tema transformismiteooria hõlmas omandatud tunnuste pärilikkust.
+reviewed: false

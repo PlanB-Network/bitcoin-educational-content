@@ -1,0 +1,9 @@
+question: Kto jest właścicielem bitcoinów w usłudze Custodial Lightning wallet?
+answer: Firma
+wrong_answers:
+  - Użytkownik
+  - Sieć Lightning
+  - Rdzeń Bitcoin
+explanation: |
+  W modelu powierniczym firma posiada klucze i kontroluje środki, podczas gdy użytkownik ma jedynie saldo księgowe.
+reviewed: false

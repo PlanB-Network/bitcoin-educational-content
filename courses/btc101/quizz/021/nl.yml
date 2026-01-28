@@ -1,11 +1,13 @@
-question: Wat is een van de nadelen van goud als geld?
-answer: Het is niet gemakkelijk deelbaar.
+question: Wat is het evolutiepad van de huidige valuta?
+answer: Ruwe steen -> Munt -> Bankbiljet -> Bankpas -> Blockchain -> Lightning Network
 wrong_answers:
-  - Het behoudt zijn waarde niet in de ruimte.
-  - Het erodeert na verloop van tijd.
-  - Het is gemakkelijk te produceren.
+  - Ruwe steen -> Munt -> Bankbiljet -> Blockchain -> Lightning Network
+  - Ruwe steen -> Munt -> Bankbiljet -> Bankpas -> Lightning Network
+  - Ruwe steen -> Munt -> Bankpas -> Bankbiljet -> Blockchain -> Lightning Network
 explanation: |
-  Een van de belangrijkste nadelen van goud als vorm van geld is
-  dat het moeilijk is om het in kleine eenheden te verdelen als dat nodig is
-  nodig is, waardoor het minder praktisch in gebruik is.
+  Valuta is een technologie die met de tijd is geëvolueerd,
+  beginnend met ruwe stenen, veranderend
+  in metalen munten, dan in bankbiljetten, bankkaarten en
+  en uiteindelijk in peer-to-peer netwerken met het gebruik van de
+  Bitcoin Blockchain en de Lightning Network.
 reviewed: true

@@ -1,10 +1,10 @@
-question: Mikä on julkinen avain Bitcoin-lompakossa?
-answer: Sitä käytetään Bitcoin-osoitteiden luomiseen ja siten rahan vastaanottamiseen.
+question: Mikä analogiaa käytetään tässä kurssissa selittämään, miten voit vastaanottaa bitcoineja ilman, että annat lähettäjän varastaa varojasi?
+answer: Postilaatikko.
 wrong_answers:
-  - Sitä käytetään Bitcoin-siirtojen salaamiseen.
-  - Sitä käytetään pääsemiseen Bitcoin-lompakkoon.
-  - Sitä käytetään Bitcoin-lompakon varmuuskopioimiseen.
+  - Pankkitili.
+  - Kassakaappi.
+  - Talo.
 explanation: |
-  Julkinen avain johdetaan yksityisestä avaimesta ja sitä käytetään
-  Bitcoin-osoitteiden luomiseen rahan vastaanottamiseksi.
+  Analogia, jota käytetään selittämään, miten voit vastaanottaa bitcoineja
+  ilman, että annat lähettäjän varastaa varojasi, on postilaatikko. Ihmiset voivat tallettaa rahaa siihen, mutta vain sinä voit avata sen.
 reviewed: true

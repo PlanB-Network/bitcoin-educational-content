@@ -1,9 +1,13 @@
-question: Mikä tulisi olla päätavoite omistaessasi bitcoineja?
-answer: Varojesi turvallisuus.
+question: Mikä on suositeltu käyttötarkoitus offline- eli kylmälle fyysiselle lompakolle?
+answer: Suurten summien säilyttäminen.
 wrong_answers:
-  - Bitcoinin arvo dollareissa.
-  - Bitcoinien omistamisen laillisuus.
-  - Lupa käyttää varojasi.
+  - Päivittäisten menojen säilyttäminen.
+  - Pienten summien säilyttäminen.
+  - Lyhytaikaisten säästöjen säilyttäminen.
 explanation: |
-  Omistaessasi bitcoineja, päätavoite on varojesi turvallisuus. Tämä johtuu siitä, että Bitcoin, kuten mikä tahansa muu valuutta, voidaan varastaa tai menettää, jos sitä ei ole asianmukaisesti suojattu.
+  Offline- eli kylmää fyysistä lompakkoa suositellaan
+  suurten summien säilyttämiseen, koska se on vähemmän altis
+  online-uhille kuin kuumat lompakot. Sitä ei kuitenkaan suositella
+  päivittäisiin menoihin, koska se ei ole yhtä helposti saatavilla
+  päivittäisiin transaktioihin.
 reviewed: true

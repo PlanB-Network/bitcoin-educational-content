@@ -18,7 +18,7 @@ Een ***Virtual Private Network*** (VPN) is een systeem om een rechtstreekse verb
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Gebaseerd op dit principe is [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) een open source VPN-service die in 2020 is ontwikkeld door de Mozilla Foundation. Het is beschikbaar op:
 
@@ -153,7 +153,7 @@ Met Mozilla VPN kunt u uw locatie in twee formaten selecteren:
 
 
 
-- Single-Hop: hiermee wordt het IP Address van je computer verplaatst en worden de gegevens versleuteld naar een server in een specifieke geselecteerde regio, in ons voorbeeld Sofia in Wit-Rusland.
+- Single-Hop: hiermee wordt het IP Address van je computer verplaatst en worden de gegevens versleuteld naar een server in een specifieke geselecteerde regio, in ons voorbeeld Sofia in Bulgarije.
 
 
 
@@ -191,4 +191,4 @@ Nu ben je klaar om veilig en vertrouwelijk op het internet te surfen. Als je dez
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

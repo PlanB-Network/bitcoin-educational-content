@@ -93,7 +93,7 @@ Bitcoin Mining dünyasını keşfetmeye ve Attakai'nin pratik mücadelesini üst
 Mining kavramını basitleştirilmiş bir şekilde açıklamak için uygun bir benzetme kullanılabilir: bir bulmaca. Tıpkı bir bulmaca gibi, Mining de gerçekleştirilmesi karmaşık ancak tamamlandığında doğrulanması kolay bir görevdir. Bitcoin Mining bağlamında, madenciler dijital bir bulmacayı hızlı bir şekilde çözmeye çalışır. Bulmacayı çözen ilk Miner, çözümünü tüm ağa sunar ve ağ da bunun geçerliliğini kolayca doğrulayabilir. Bu başarılı doğrulama, Miner'nin yeni bir bloğu doğrulamasına ve Bitcoin Zaman Zincirine eklemesine olanak tanır. Önemli maliyetler içeren çalışmalarının karşılığı olarak Miner belirli sayıda bitcoin ile ödüllendirilir. Bu ödül, madencilerin işlemleri doğrulama ve Bitcoin ağını güvence altına alma çalışmalarına devam etmeleri için finansal bir teşvik görevi görür.
 
 
-![image](assets/en/01.webp)
+![image](assets/en/001.webp)
 
 
 Başlangıçta Bitcoin ağında, madenciler tarafından ortalama her on dakikada bir blok keşfedilmesine paralel olarak, verilen ödül her on dakikada bir 50 bitcoin idi. Bu ödül her 210.000 blokta bir, yani yaklaşık dört yılda bir Halving'e tabi tutulmaktadır. Bu ödül, enerji maliyetine rağmen madencileri Mining sürecine katılmaya teşvik etmek için güçlü bir teşvik görevi görür. Bir ödül olmadan, elektrik yoğun Mining terk edilecek ve tüm Bitcoin ağının güvenliği ve istikrarı tehlikeye girecektir.
@@ -110,7 +110,7 @@ Mining süreci, Bitcoin ağı için kabul edilebilir olan geçerli bir Hash bulm
 Başlangıçta, madencilerin kişisel bilgisayarlarını Bitcoin Mining için kullandıkları CPU dönemi hakimdi. Bu görev için GPU'ların (grafik kartları) avantajlarının keşfedilmesi, Hashrate'ü önemli ölçüde artırarak ve enerji tüketimini azaltarak bir dönüm noktası oldu. Daha sonra FPGA'ların (sahada programlanabilir kapı dizileri) piyasaya sürülmesiyle ilerleme burada da durmadı. FPGA'lar ASIC'lerin (uygulamaya özel entegre devreler) geliştirilmesi için bir platform görevi gördü.
 
 
-![image](assets/en/02.webp)
+![image](assets/en/002.webp)
 
 
 ASIC'ler bir CPU çipi ile karşılaştırılabilir çiplerdir, ancak yalnızca belirli bir hesaplama türünü mümkün olan en verimli şekilde gerçekleştirmek için geliştirilmişlerdir. Başka bir deyişle, bir CPU özellikle bir hesaplama türü için optimize edilmeksizin çok sayıda farklı hesaplama türünü gerçekleştirebilirken, bir ASIC yalnızca tek bir hesaplama türünü, ancak çok verimli bir şekilde gerçekleştirebilir. Bitcoin ASIC'ler söz konusu olduğunda, bunlar SHA256 algoritmasının hesaplanması için tasarlanmıştır.
@@ -127,7 +127,7 @@ Bu sürecin yoğunluğunu göstermek için, saniyede 14 TeraHash veya doğru Has
 Zorluk ayarı, Bitcoin ağının işleyişinde çok önemli bir mekanizmadır ve blokların ortalama her 10 dakikada bir çıkarılmasını sağlar. Bu süre ortalama bir süredir çünkü Mining süreci aslında zorluk derecesi tarafından tanımlanan sayıdan daha düşük bir sayı elde etme umuduyla zar atmaya benzer bir olasılık oyunudur. Her 2016 blokta bir, ağ Mining zorluğunu önceki blokları kazmak için gereken ortalama süreye göre ayarlar. Ortalama süre 10 dakikadan fazlaysa zorluk derecesi azaltılır ve tersine, ortalama süre daha düşükse zorluk derecesi artırılır. Bu ayarlama mekanizması, madenci sayısından veya ağın genel hesaplama gücünden bağımsız olarak yeni bloklar için Mining süresinin zaman içinde sabit kalmasını sağlar. Bu nedenle Bitcoin Blockchain aynı zamanda Zaman Zinciri olarak da adlandırılır.
 
 
-![image](assets/en/03.webp)
+![image](assets/en/003.webp)
 
 
 
@@ -145,7 +145,7 @@ Bitcoin Mining makinelerinin evrimiyle ilgili olarak, bağlamın daha çok gelen
 Mining alanında sürekli teknolojik gelişmelerle karşı karşıya kalan profesyoneller kendilerini stratejik olarak konumlandırmalıdır. Mining endüstrisi, S19'un J versiyonunun yakın zamanda piyasaya sürülmesi ve önemli ölçüde daha yüksek Mining özellikleri sunan S19 XP'nin beklenen sürümünün gösterdiği gibi sürekli yeniliklere tabidir. Ayrıca, iyileştirmeler sadece makinelerin ham performansıyla ilgili değildir. Örneğin, yeni S19 XP modeli, enerji verimliliğinde önemli bir iyileşme sağlayan teknik bir değişiklik olan Liquid soğutma sistemi kullanmaktadır. İnovasyon sabit kalsa da, belirli bir teknolojik inovasyon eşiğine ulaşılması nedeniyle gelecekteki verimlilik kazanımları muhtemelen şimdiye kadar gözlemlenenlere kıyasla daha küçük olacaktır.
 
 
-![image](assets/en/04.webp)
+![image](assets/en/004.webp)
 
 
 Sonuç olarak, Bitcoin Mining endüstrisi uyum sağlamaya ve gelişmeye devam etmektedir ve sektör oyuncuları gelecekte azalan verimlilik kazanımlarını öngörmeli ve stratejilerini buna göre ayarlamalıdır. Gelecekteki teknolojik ilerlemeler, halen mevcut olmakla birlikte, sektörün artan olgunluğunu yansıtacak şekilde, muhtemelen daha küçük ölçekte gerçekleşecektir.
@@ -163,7 +163,7 @@ Sonuç olarak, Bitcoin Mining endüstrisi uyum sağlamaya ve gelişmeye devam et
 Şu anda, Bitcoin Mining ciddi ve önemli bir sektöre dönüşmüştür ve birçok oyuncu artık kamuoyu tarafından bilinmektedir ve önemli madencilerin sayısı giderek artmaktadır. Bu evrim, yeni Mining makineleri edinmenin yüksek maliyeti nedeniyle Mining'yi küçük oyuncular için neredeyse erişilemez hale getirmiştir. Bu durum, Hashrate'in çeşitli piyasa oyuncuları arasında nasıl dağıtılacağı sorusunu gündeme getirmektedir. Durum karmaşıktır çünkü hem Hashrate'in farklı şirketler arasındaki hem de farklı Mining havuzları arasındaki dağılımını incelemek esastır.
 
 
-![image](assets/en/05.webp)
+![image](assets/en/005.webp)
 
 
 Bir Mining pool, Mining şanslarını artırmak için bilgi işlem kaynaklarını birleştiren bir grup madencidir. Bu işbirliği gereklidir çünkü izole edilmiş küçük bir Mining makinesi endüstri devlerine karşı rekabet ederek başarı şansını ihmal edilebilir bir düzeye indirir. Mining bir piyango prensibine göre çalışır ve her on dakikada bir blok (ve dolayısıyla Bitcoin ödülü) kazanma şansı bireysel küçük bir Miner için son derece düşüktür. Madenciler bir araya gelerek hesaplama güçlerini birleştirebilir, blokları daha sık bulabilir ve ardından ödülleri her bir Miner'nın havuza katkısıyla orantılı olarak dağıtabilir.
@@ -175,9 +175,9 @@ Bir Mining pool, Mining şanslarını artırmak için bilgi işlem kaynakların�
 ### Sektör tarafından kullanılan yazılımlar
 
 
-Bitcoin Mining bağlamında, yazılımın rolü donanım kadar önemlidir. Buna bir örnek olarak Antminer S9'u geliştiren üretken bir üretici olan Bitmain'in rolü gösterilebilir. Mining donanımına ek olarak, sektör büyük ölçüde Bitcoin ağının küresel Hashrate'unun yaklaşık %5'ini kontrol eden Brainspool gibi işbirliğine dayalı Mining havuzlarına güvenmektedir.
+Bitcoin Mining bağlamında, yazılımın rolü donanım kadar önemlidir. Buna bir örnek olarak Antminer S9'u geliştiren üretken bir üretici olan Bitmain'in rolü gösterilebilir. Mining donanımına ek olarak, sektör büyük ölçüde Bitcoin ağının küresel Hashrate'unun yaklaşık %5'ini kontrol eden Braiinspool gibi işbirliğine dayalı Mining havuzlarına güvenmektedir.
 
-Bu sektördeki aktörler sürekli olarak donanım ve yazılım yoluyla verimliliği artırma arayışındadır. Örneğin, bu bağlamda kullanılan popüler bir yazılım BrainsOS Plus'tır. Bu yazılım, Mining makinesinin orijinal işletim sisteminin yerini alarak aynı işlemlerin daha verimli bir şekilde gerçekleştirilmesini sağlıyor. Bu tür bir yazılımla, bir Miner makinelerinin verimliliğini %25 oranında artırabilir. Bu, eşdeğer miktarda elektrik için makinenin %25 daha fazla Hashrate üretebileceği ve böylece Miner tarafından alınan ödüllerin artacağı anlamına gelir. Bu yazılım optimizasyonu, Bitcoin Mining'te rekabet gücünün temel bir unsurudur ve verimliliği ve getirileri en üst düzeye çıkarmak için hem donanım hem de yazılım iyileştirmelerini birleştiren entegre bir yaklaşımın önemini göstermektedir.
+Bu sektördeki aktörler sürekli olarak donanım ve yazılım yoluyla verimliliği artırma arayışındadır. Örneğin, bu bağlamda kullanılan popüler bir yazılım BraiinsOS Plus'tır. Bu yazılım, Mining makinesinin orijinal işletim sisteminin yerini alarak aynı işlemlerin daha verimli bir şekilde gerçekleştirilmesini sağlıyor. Bu tür bir yazılımla, bir Miner makinelerinin verimliliğini %25 oranında artırabilir. Bu, eşdeğer miktarda elektrik için makinenin %25 daha fazla Hashrate üretebileceği ve böylece Miner tarafından alınan ödüllerin artacağı anlamına gelir. Bu yazılım optimizasyonu, Bitcoin Mining'te rekabet gücünün temel bir unsurudur ve verimliliği ve getirileri en üst düzeye çıkarmak için hem donanım hem de yazılım iyileştirmelerini birleştiren entegre bir yaklaşımın önemini göstermektedir.
 
 
 ### Yönetmelik ve elektrik tarifeleri
@@ -210,7 +210,7 @@ Mining merkezileşmesi büyük bir zorluk olarak ele alınmaktadır. Foundry gib
 Düzenleme Riski Amerika Birleşik Devletleri gibi bir ülkenin belirli Bitcoin işlemlerini düzenlemeye veya yasaklamaya karar vermesi halinde, özellikle de hash gücünün büyük bir kısmı o ülkede merkezileştirilmişse, bunun ağ üzerinde önemli bir etkisi olabileceği vurgulanmaktadır.
 
 
-![image](assets/en/06.webp)
+![image](assets/en/006.webp)
 
 
 Bu merkezileşme ile mücadele etmek için farklı stratejiler tartışılmaktadır:
@@ -248,7 +248,7 @@ Attakai girişimi, Bitcoin ağına aktif olarak katılmaya hevesli iki arkadaş 
 Attakai'nin mucitleri, projelerini Bitcoin topluluğuna sunduktan ve gördüğü ilgiden sonra, Découvre Bitcoin platformunda ayrıntılı kılavuzlar yayınlamaya karar vererek herkesin kendi evindeki Mining deneyimini kopyalamasına olanak sağladı. Şimdi bu konsepti ev ortamının ötesine taşımayı planlıyorlar. Amaç, modifiye edilmiş bir Miner'nin kış aylarında kullanılabilen sessiz bir yardımcı ısıtıcıya nasıl dönüştürülebileceğini göstermek ve açıklayıcı videolarla gösterilen bu modifikasyonların pratik uygulamasına odaklanan eğitimin ikinci bölümüne yumuşak bir geçiş sağlamaktır. Bununla birlikte, bu girişimin mevcut merkezi Mining yapılarına gerçekçi ve sürdürülebilir bir alternatif sunarak daha büyük ölçekte genişletilip genişletilemeyeceği sorusu hala cevapsızdır.
 
 
-![image](assets/en/07.webp)
+![image](assets/en/007.webp)
 
 
 ### Bu ademi merkeziyetçiliğin sınırı nedir?
@@ -284,7 +284,7 @@ Bir Bitcoin bloğuna nelerin dahil edilmesi gerektiği sorusuyla ilgili olarak, 
 Lightning Network'in beklenen büyümesi ve buna bağlı olarak kanal açılış ve kapanışlarındaki artışla birlikte, Bitcoin bloklarındaki alan giderek daha değerli hale gelecektir. Bitcoin topluluğu halihazırda bu alanın korunmasına değer verme eğilimindedir ve bunun kendine özgü sınırlamasının farkındadır. Bu farkındalık, Blockchain'de gerekli olmadığı düşünülen işlemlerden kaynaklanan "spam" endişeleriyle birlikte blok alanının meşru kullanımı hakkında tartışmalara yol açmıştır.
 
 
-![image](assets/en/08.webp)
+![image](assets/en/008.webp)
 
 
 Blok alanının gelecekteki kullanımına ilişkin spekülasyonlar yapılmakla birlikte, bunun akıllıca kullanılması gereken kıt bir kaynak olduğu genel kabul görmektedir. Blok alanını doldurma arzusu olsa da, gelecekte blok alanına olan talebin artacağını öngörerek Bitcoin ağının uzun vadede yaşayabilirliğini sağlamak için bunu korumak esastır. Her serbest piyasada olduğu gibi, Supply ve talep blok alanının kullanımını düzenleyecektir. Sınırlı Supply ile, paydaşların Bitcoin ağının uzun vadeli verimliliğini ve güvenliğini sağlamak için bu değerli alanın kullanımı konusunda bilinçli seçimler yapmaları gerekecektir.
@@ -305,7 +305,7 @@ Madencilerin Bitcoin ağındaki rolü, blok büyüklüğü savaşları sırasın
 Blok boyutu savaşları sırasında, birçok madenci ağdaki bazı gelişmelere karşı çıkarak ekosistemdeki farklı aktörler arasındaki gerilimi vurgulamıştır. Bitcoin'un uzun vadeli güvenliğini sağlamak için madenciler, node'lar ve kullanıcılar arasında gücün nasıl dengeleneceği sorusu hala cevaplanmayı bekliyor.
 
 
-![image](assets/en/09.webp)
+![image](assets/en/009.webp)
 
 
 Bitcoin'in güvenlik ikilemi hassas bir dengeye dayanmaktadır. Madenciler blokların doğrulanması ve oluşturulmasında çok önemli bir rol oynarken, düğümler işlemleri ve blokları doğrulayarak ve onaylayarak bütünlüğü korur. Yanlış veya hileli bir blok düğümler tarafından reddedilecek, böylece Miner sansürlenecek ve ağın güvenliği korunacaktır. Güç aynı zamanda Bitcoin ağının düğümleri ve kullanıcıları tarafından da elde tutulur. Düğümler doğrulama ve onaylama gücüne sahipken, kullanıcılar hangi Blockchain'yi kullanacaklarını seçme gücüne sahiptir. Bu güç dağılımı Bitcoin ağının dağılımını ve bütünlüğünü sağlar.
@@ -323,7 +323,7 @@ Nihayetinde sorumluluk Bitcoin ağındaki tüm aktörler arasında paylaşılmak
 Satoshi Nakamoto'nun zarif oyun teorisi, Bitcoin ağındaki her bir aktörün hem kendi çıkarlarını hem de diğer katılımcıların çıkarlarını korumak için doğru şekilde hareket etmeye teşvik edildiği bir durum oluşturmuştur. Bu da kötü davranışların kınanabileceği bir denge yaratarak tüm sistemin güvenliğini ve istikrarını arttırmaktadır. Bu dengeye rağmen devletler potansiyel bir tehdit olmaya devam etmektedir. Surfing Bitcoin 2022'deki sunumda da belirtildiği gibi, devletler Mining endüstrisine saldırmaya çalışarak Bitcoin ağını merkezileşme ve saldırı risklerine maruz bırakabilir. Mining donanım üretim tesislerini hedef alan bir askeri saldırı gibi varsayımsal senaryolar, Bitcoin ağının dayanıklılığı için coğrafi ve endüstriyel çeşitliliğin önemini vurgulamaktadır.
 
 
-![image](assets/en/10.webp)
+![image](assets/en/010.webp)
 
 
 Mining donanım üretiminin Çin'de merkezileştirilmesi başka bir risk oluşturmaktadır. Mining makinelerinin ihraç edilmesinin reddedilmesi ya da Çin'in olası bir %51 saldırısı için Hashrate biriktirmesi, Mining donanım üretiminin çeşitlendirilmesi ihtiyacının altını çizmektedir. Bu risklere karşılık olarak Bitcoin topluluğu aktif bir şekilde çözüm arayışına girmiştir. Intel gibi şirketler Amerika Birleşik Devletleri'nde Mining ekipmanı üreterek üretimin dağılımına katkıda bulunmayı düşünüyor. Block'un açık kaynaklı Mining Geliştirme Kiti (MDK) gibi diğer girişimler, Mining donanım tasarımı ve üretiminin tekelini azaltmayı ve Hashrate'ın daha geniş bir dağıtımına izin vermeyi amaçlamaktadır. Bu tartışmaların temelinde Bitcoin'in temel misyonu yatmaktadır: sansüre dayanıklı, değerli bir Exchange ağı olmak. Bitcoin topluluğu sürekli olarak dağıtımı, sansüre karşı direnci ve ağ kırılganlığını güçlendirmek için çabalamakta ve bu temel ilkelerle uyumlu olmayan proof of stake'e geçiş gibi önerileri reddetmektedir.
@@ -335,7 +335,7 @@ Mining donanım üretiminin Çin'de merkezileştirilmesi başka bir risk oluştu
 Proof of Work (PoW), gerçek dünya ile Bitcoin arasındaki fiziksel bağlantıyı temsil ettiği için çok önemlidir. Bitcoinler soyut olmalarına rağmen, üretimleri somut enerji gerektirir, böylece fiziksel ve gerçek dünya ile doğrudan bir bağlantı kurar. Bu bağlantı, bitcoinlerin ve blokların üretiminin ve onaylanmasının gerçek bir enerji maliyetine sahip olmasını sağlar, böylece Bitcoin ağını fiziksel gerçekliğe sabitler ve güçlü varlıklar tarafından tamamen hakimiyet altına alınmasını önler. PoW, merkezileşmeye karşı bir siper görevi görerek ağa katılımın ve işlemlerin doğrulanmasının somut kaynaklara yatırım yapılmasını gerektirmesini sağlar. Bu, ağın, aksi takdirde önemli bir giriş engeli olmadan kontrolü ele geçirebilecek varlıklar tarafından tekelleştirilmesini önler, böylece Bitcoin ağı içinde daha adil bir güç ve etki dağılımı sağlar.
 
 
-![image](assets/en/11.webp)
+![image](assets/en/011.webp)
 
 
 ### Proof of Stake'in sınırlamaları
@@ -365,7 +365,7 @@ Bitcoin'ün fiyatı 69.000 $'lık önceki zirvesine kıyasla 30.000 $'da olması
 Bu durum, genellikle fiyatına göre değerlendirilen Bitcoin'nın dayanıklılığını da göstermektedir. Bununla birlikte, Bitcoin'nın sağlığının daha derin bir analizi, Bitcoin ağındaki saniye başına hesaplamaları ölçen Hash oranının incelenmesini gerektirir. Bitcoin'nın fiyatı dalgalansa da, Mining makinelerini çalıştırmak için gereken elektrikle bağlantılı olan maliyeti, piyasa dinamiklerini anlamak için çok önemlidir. Fiyat yerine maliyete odaklanarak, Bitcoin'nın istikrarı ve uzun vadeli uygulanabilirliği hakkında daha tutarlı bir bakış açısı elde edilir. Genel olarak, Bitcoin'nın maliyeti fiyatıyla orantılıdır ve fiyat dalgalanmalarının ve gelecekteki görünümlerin daha iyi anlaşılmasını sağlar.
 
 
-![image](assets/en/12.webp)
+![image](assets/en/012.webp)
 
 
 ### Hash oranı ve ödülü
@@ -419,7 +419,7 @@ Bununla birlikte, Mining, Bitcoin ekosistemine dahil olmak için benzersiz yolla
 Bu seçeneklere rağmen, Mining önemli zorluklar ortaya koymaktadır. Kripto para dünyasında iyi bilinen bir atasözü olan "Ne anahtarlarınız, ne de Bitcoin'leriniz," Mining dünyasında da benzer bir yankı buluyor: "Ne Hashrate'ünüz, ne de ödülünüz." Hayal kırıklıkları ve bağlantısı kesilen makinelerle ilgili hikayeler yaygındır; birçok oyuncu olağanüstü sonuçlar vaat etmekte ancak bunları yerine getirememektedir. Elektrik Supply ile ilgili sorunlar ve makine arızaları, yatırımcıları kontrol edemedikleri pahalı ekipmanlarla güçsüz bırakabilir. Bu bağlamda, Mining sektörüne girmeden önce dikkatli olmak ve sektörü derinlemesine anlamak çok önemlidir. Kazanç fırsatları mevcut olsa da, riskler önemlidir ve bu karmaşık ve genellikle öngörülemez alanda gezinmek için bilgili ve düşünceli bir yaklaşım şarttır. Bu nedenle, Bitcoin Mining'ye girmeden önce kapsamlı bir araştırma yapmak ve artıları ve eksileri dikkatlice tartmak hayati önem taşımaktadır.
 
 
-![image](assets/en/13.webp)
+![image](assets/en/013.webp)
 
 
 ### Virgin Bitcoins
@@ -440,7 +440,7 @@ Bu bağlamda, Mining'ye özerk ve eğitimli bir yaklaşım seçmek akıllıca g�
 Avrupa'da Mining'nın potansiyel olarak yasaklanması konusuyla birlikte, düzenleme tartışmaları giderek daha önemli hale gelmektedir. Dalgalanan düzenleyici ortam gerçekten de Bitcoin Mining endüstrisini önemli ölçüde etkileyebilir. Avrupa'da Mining'nın yasaklanması, özellikle Çin'deki emsaller göz önüne alındığında, akla yatkın bir senaryodur. Yasağa rağmen Çin'de Mining operasyonları devam etse de, Avrupa da benzer bir yol izleyebilir. Hashrate'ün farklı bölgelere daha geniş bir şekilde dağıtılması, Avrupa'daki Mining topluluğunun güçlenmesine yardımcı olabilir ve Mining, çevresel etkisi ve elektrik şebekesi üzerindeki ayak izi hakkındaki yanlış anlamalara ve yanılgılara etkili bir şekilde karşı koymalarını sağlayabilir.
 
 
-![image](assets/en/14.webp)
+![image](assets/en/014.webp)
 
 
 Greenpeace'inki gibi kampanyalar ve bazı araştırmalardan elde edilen yanıltıcı rakamlar karşısında en iyi silah doğru bilgi olmaya devam etmektedir. Kamuoyunu ve karar vericileri Mining'nin gerçekliği, karmaşıklığı ve nüansları hakkında bilgilendirmek, klişelere ve yanlış bilgilere güvenmelerine izin vermemek çok önemlidir. İnsanlar Mining'nin gerçekte ne olduğu konusunda ne kadar çok bilgilendirilir ve bilinçlendirilirse, sektör de olası kısıtlayıcı düzenlemelere karşı kendini o kadar iyi savunabilir.
@@ -546,7 +546,7 @@ Antminer S9, birinci nesil donanımda küçük değişiklikler yapan çeşitli v
 ASIC'lerin fiyatı, Bitcoin'ın fiyatı, ağ zorluğu, makine verimliliği ve elektrik maliyeti gibi birçok faktöre bağlı olarak değişir. Bu nedenle, kullanılmış bir makinenin satın alınması için doğru bir tahmin vermek zordur. Şubat 2023'te Fransa'da beklenen fiyat genellikle 100 ila 200 € arasında değişmektedir, ancak bu fiyatlar hızla değişebilir.
 
 
-![image](assets/en/15.webp)
+![image](assets/en/015.webp)
 
 
 Antminer S9 aşağıdaki parçalardan oluşmaktadır:
@@ -556,54 +556,54 @@ Antminer S9 aşağıdaki parçalardan oluşmaktadır:
 - 3 hashboard, hash gücünü üreten çipleri içerir.
 
 
-![image](assets/en/16.webp)
+![image](assets/en/016.webp)
 
 
 
 - SD kart için bir yuva, Ethernet bağlantı noktası ve hashboard'lar ve fanlar için konektörler içeren bir kontrol kartı. Bu, ASIC'inizin beynidir.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/017.webp)
 
 
 
 - 3 veri kablosu, hashboard'ları kontrol kartına bağlar.
 
 
-![image](assets/en/18.webp)
+![image](assets/en/018.webp)
 
 
 
 - 220V ile çalışan ve normal bir ev aleti gibi fişe takılabilen Supply gücü.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/019.webp)
 
 
 
 - 2 adet 120mm fan.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/020.webp)
 
 
 
 - Bir erkek C13 kablosu.
 
 
-![image](assets/en/21.webp)
+![image](assets/en/021.webp)
 
 
 Kullanılmış bir makine satın alırken, tüm parçaların dahil ve çalışır durumda olduğunu kontrol etmek önemlidir. Exchange sırasında, düzgün çalışıp çalışmadığını kontrol etmek için satıcıdan makineyi açmasını istemelisiniz. Cihazın doğru şekilde açıldığını doğrulamak ve ardından bir Ethernet kablosu takarak ve aynı yerel ağdaki bir web tarayıcısı aracılığıyla Bitmain oturum açma Interface'e erişerek internet bağlantısını kontrol etmek önemlidir. Bu IP Address'i internet yönlendiriciniz Interface'e bağlanarak ve bağlı cihazları arayarak bulabilirsiniz. Bu Address aşağıdaki formata sahip olmalıdır: 192.168.x.x
 
 
-![image](assets/en/22.webp)
+![image](assets/en/022.webp)
 
 
 Ayrıca, varsayılan kimlik bilgilerinin çalışıp çalışmadığını kontrol edin (kullanıcı adı: root, parola: root). Varsayılan kimlik bilgileri çalışmazsa, makineyi sıfırlamanız gerekecektir.
 
 
-![image](assets/en/23.webp)
+![image](assets/en/023.webp)
 
 
 Bağlandıktan sonra, kontrol panelinde her bir hashboard'un durumunu görebilmeniz gerekir. Miner bir havuza bağlıysa, tüm hashboard'ların çalıştığını görmeniz gerekir. Madencilerin çok fazla ses çıkardığını ve bunun normal olduğunu unutmamak önemlidir. Ayrıca fanların düzgün çalıştığından emin olun.
@@ -638,19 +638,19 @@ Eğer yetenekli bir tamirciyseniz ve bir Miner'i ısıtıcıya dönüştürmek i
 Antminer S9'un orijinal fanları Antminer'ınızı ısıtıcı olarak kullanmak için çok gürültülüdür. Çözüm, bunları daha sessiz fanlarla değiştirmektir. Ekibimiz Noctua markasının çeşitli modellerini test etti ve en iyi uzlaşma olarak Noctua NF-A14 iPPC-2000 PWM'yi seçti. Fanların 12V versiyonunu seçtiğinizden emin olun. Bu 140mm fan, 31 dB'lik teorik gürültü seviyesini korurken 1200W'a kadar ısıtma üretebilir. Bu 140 mm fanları takmak için, DécouvreBitcoin mağazasında bulabileceğiniz 140 mm - 120 mm adaptör kullanmanız gerekecektir. Ayrıca 140mm koruyucu ızgaralar da ekleyeceğiz.
 
 
-![image](assets/en/24.webp)
+![image](assets/en/024.webp)
 
-![image](assets/en/25.webp)
+![image](assets/en/025.webp)
 
-![image](assets/en/26.webp)
+![image](assets/en/026.webp)
 
 
 Supply güç fanı da oldukça gürültülüdür ve değiştirilmesi gerekir. Noctua NF-A6x25 PWM'yi öneriyoruz. Noctua fanlarının konektörlerinin orijinal olanlarla aynı olmadığını unutmayın, bu nedenle bunları bağlamak için bir konektör adaptörüne ihtiyacınız olacaktır. İki tane yeterli olacaktır. Yine, fanın 12V versiyonunu seçtiğinizden emin olun.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/027.webp)
 
-![image](assets/en/28.webp)
+![image](assets/en/028.webp)
 
 
 2. Bir WIFI/Ethernet köprüsü ekleyin
@@ -659,9 +659,9 @@ Supply güç fanı da oldukça gürültülüdür ve değiştirilmesi gerekir. No
 Ethernet kablosu kullanmak yerine, bir WIFI/Ethernet köprüsü ekleyerek Antminer'ınızı WIFI üzerinden bağlayabilirsiniz. Vonets vap11g-300'ü seçtik çünkü WIFI sinyalini İnternet kutunuzdan kolayca almanızı ve bir alt ağ oluşturmadan Ethernet üzerinden Antminer'ınıza iletmenizi sağlar. Elektrik becerileriniz varsa, bir USB şarj cihazı eklemenize gerek kalmadan doğrudan Antminer'ın Supply gücü ile çalıştırabilirsiniz. Bunun için dişi bir 5.5mmx2.1mm jaka ihtiyacınız olacaktır.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/029.webp)
 
-![image](assets/en/30.webp)
+![image](assets/en/030.webp)
 
 
 3. İsteğe bağlı: akıllı priz ekleyin
@@ -670,7 +670,7 @@ Ethernet kablosu kullanmak yerine, bir WIFI/Ethernet köprüsü ekleyerek Antmin
 Antminer'ınızı akıllı telefonunuzdan açıp kapatmak ve güç tüketimini izlemek istiyorsanız, akıllı bir fiş ekleyebilirsiniz. ANTELA fişini smartlife uygulaması ile uyumlu 16A versiyonunda test ettik. Bu akıllı priz, günlük ve aylık güç tüketimini görüntülemenizi sağlar ve WiFi üzerinden doğrudan internet yönlendiricinize bağlanır.
 
 
-![image](assets/en/31.webp)
+![image](assets/en/031.webp)
 
 
 Ekipman listesi ve bağlantılar
@@ -719,19 +719,19 @@ USB üzerinden bağlayarak köprüye güç verin.
 Bilgisayarınızdan 12345678 şifresiyle VONETS\_**\*\*** WIFI ağına bağlanın.
 
 
-![image](assets/en/32.webp)
+![image](assets/en/032.webp)
 
 
 "admin" kullanıcı adı ve "admin" şifresi ile giriş yapın.
 
 
-![image](assets/en/33.webp)
+![image](assets/en/033.webp)
 
 
 Sihirbaz'ı seçin.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/034.webp)
 
 
 Miner'ünüzü bağlamak istediğiniz WIFI ağını seçin ve ardından İleri'ye tıklayın.
@@ -740,7 +740,7 @@ Miner'ünüzü bağlamak istediğiniz WIFI ağını seçin ve ardından İleri'y
 NOT: Vonet köprüsü yalnızca 2.4GHz frekansında çalışır. Günümüzde, yönlendiriciler genellikle biri 2.4GHz ve diğeri 5GHz olmak üzere iki WIFI ağı sunmaktadır.
 
 
-![image](assets/en/35.webp)
+![image](assets/en/035.webp)
 
 
 WIFI ağınızın şifresini "Kaynak WIFI etkin nokta şifresi" alanına girin. WIFI ağınızı genişletmek için Vonet köprünüzü kullanmak istemiyorsanız, "Hotspot'u Devre Dışı Bırak" kutusunu işaretleyin. Aksi takdirde, işaretli bırakmayın.
@@ -771,7 +771,7 @@ Bu yöntem Miner çalıştırıldıktan sonra 2 dakika ile 10 dakika arasında u
 gW-278'i açtıktan 2 dakika sonra, lütfen "Reset" düğmesine 5 saniye boyunca basın ve ardından bırakın. Miner 4 dakika içinde fabrika ayarlarına geri dönecek ve otomatik olarak yeniden başlayacaktır (kapatmaya gerek yoktur).
 
 
-![image](assets/en/36.webp)
+![image](assets/en/036.webp)
 
 
 ## BraiinsOS+'ı bir Antminer S9'a yükleme
@@ -783,7 +783,7 @@ gW-278'i açtıktan 2 dakika sonra, lütfen "Reset" düğmesine 5 saniye boyunca
 Antminer tarafından Mining makinelerine yüklenen orijinal yazılım işlevsellik açısından sınırlıdır. Bu nedenle bu kılavuzda BraiinsOS+ adlı başka bir yazılım yükleyeceğiz. Bu, ilk Bitcoin Mining pool tarafından geliştirilen ve daha fazla özelliğe sahip olan ve örneğin makinenin gücünü değiştirmeye izin veren üçüncü taraf bir yazılımdır.
 
 
-Braiins OS+'ı bir ASIC'ye kurmanın birkaç yolu vardır. Bu kılavuzun yanı sıra [resmi Braiins belgelerine] (https://academy.braiins.com/en/braiins-os/about/) başvurabilirsiniz.
+Braiins OS+'ı bir ASIC'ye kurmanın birkaç yolu vardır. Bu kılavuzun yanı sıra [resmi Braiins belgelerine](https://academy.braiins.com/en/braiins-os/about/) başvurabilirsiniz.
 
 
 Burada, Braiins OS+'yı BOS araç kutusu yazılımını kullanarak doğrudan Antminer'inizin belleğine nasıl kolayca yükleyeceğinizi ve orijinal işletim sistemini aşağıdaki ayrıntılı adımlarla nasıl değiştireceğinizi göreceğiz.
@@ -796,13 +796,13 @@ Burada, Braiins OS+'yı BOS araç kutusu yazılımını kullanarak doğrudan Ant
 3. İndirilen dosyayı açın ve bos-toolbox.bat dosyasını açın. Dili seçin ve birkaç dakika sonra bu pencereyi göreceksiniz:
 
 
-![image](assets/en/37.webp)
+![image](assets/en/037.webp)
 
 
 4. Bos araç kutusu, Antminer'ınızın IP Address'ünü kolayca bulmanızı ve BraiinsOS+'ı yüklemenizi sağlayacaktır. Makinenizin IP Address'ünü zaten biliyorsanız, 8. adıma geçebilirsiniz. Aksi takdirde, tarama sekmesine gidin.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/038.webp)
 
 
 5. Genellikle, ev ağlarında IP Address aralığı 192.168.1.1 ile 192.168.1.255 arasındadır, bu nedenle IP aralığı alanına "192.168.1.0/24" girin. Ağınız farklıysa, lütfen bu adresleri uygun şekilde değiştirin. Ardından "Başlat "a tıklayın.
@@ -814,7 +814,7 @@ Burada, Braiins OS+'yı BOS araç kutusu yazılımını kullanarak doğrudan Ant
 7. Ağınızdaki tüm Antminer'ların burada göründüğünü ve IP Address'in 192.168.1.37 olduğunu görmelisiniz.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/039.webp)
 
 
 8. "Geri" ve ardından "Yükle" sekmesine tıklayın, daha önce bulunan IP Address'yı girin ve "Başlat "a tıklayın.
@@ -822,7 +822,7 @@ Burada, Braiins OS+'yı BOS araç kutusu yazılımını kullanarak doğrudan Ant
 
 > Kurulum çalışmazsa, sıfırlama yapmak ve tekrar denemek gerekebilir (önceki bölüme bakın).
 
-![image](assets/en/40.webp)
+![image](assets/en/040.webp)
 
 
 9. Birkaç dakika sonra Antminer'ınız yeniden başlatılacak ve Braiins OS+ Interface'ye belirtilen IP Address'den, burada 192.168.1.37, doğrudan tarayıcınızın Address çubuğundan erişebileceksiniz. Varsayılan kullanıcı adı "root "tur ve varsayılan şifre yoktur.
@@ -854,7 +854,7 @@ Daha sonra Brains OS+ Gösterge Panosu sizi karşılayacaktır.
 ### Gösterge Tablosu
 
 
-![image](assets/en/41.webp)
+![image](assets/en/041.webp)
 
 
 Bu ilk sayfada, makinenizin gerçek zamanlı performansını gözlemleyebilirsiniz.
@@ -866,7 +866,7 @@ Bu ilk sayfada, makinenizin gerçek zamanlı performansını gözlemleyebilirsin
 - Aşağıda, maksimum hızın yüzdesi olarak fan hızı ve dakika başına dönüş sayısı verilmiştir.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/042.webp)
 
 
 
@@ -879,19 +879,19 @@ Bu ilk sayfada, makinenizin gerçek zamanlı performansını gözlemleyebilirsin
 ### Konfigürasyon
 
 
-![image](assets/en/43.webp)
+![image](assets/en/043.webp)
 
 
 ### Sistem
 
 
-![image](assets/en/44.webp)
+![image](assets/en/044.webp)
 
 
 ### Hızlı eylemler
 
 
-![image](assets/en/45.webp)
+![image](assets/en/045.webp)
 
 
 # Attakai - Fan Modifikasyonu
@@ -908,7 +908,7 @@ Bu ilk sayfada, makinenizin gerçek zamanlı performansını gözlemleyebilirsin
 
 > UYARI: Miner'nıza önceden Braiins OS+ veya makinenizin performansını düşürebilecek başka bir yazılım yüklemiş olmanız çok önemlidir. Bu önlem çok önemlidir çünkü gürültüyü azaltmak için daha az ısı dağıtabilen daha az güçlü fanlar kuracağız.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Gerekli malzemeler
@@ -921,88 +921,88 @@ Bu ilk sayfada, makinenizin gerçek zamanlı performansını gözlemleyebilirsin
 
 > UYARI: Öncelikle, başlamadan önce, herhangi bir elektrik çarpması riskini önlemek için Miner'nizin fişini çektiğinizden emin olun.
 
-![image](assets/en/47.webp)
+![image](assets/en/047.webp)
 
 
 İlk olarak, kasanın yan tarafında bulunan ve kasayı kapalı tutan 6 vidayı çıkarın. Vidalar çıkarıldıktan sonra, bileşenleri kaplayan plastik korumayı çıkarmak için kasayı dikkatlice açın.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/048.webp)
 
-![image](assets/en/49.webp)
+![image](assets/en/049.webp)
 
 
 Ardından, diğer bileşenlere zarar vermemeye dikkat ederek orijinal fanı çıkarmanın zamanı geldi. Bunu yapmak için, yerinde tutan vidaları çıkarın ve konektörü çevreleyen beyaz yapıştırıcıyı yavaşça soyun. Kablolara veya konektörlere zarar vermemek için dikkatli bir şekilde ilerlemek önemlidir.
 
 
-![image](assets/en/50.webp)
+![image](assets/en/050.webp)
 
 
 Orijinal fan çıkarıldıktan sonra, yeni Noctua fanın konektörlerinin orijinal fanınkilerle eşleşmediğini fark edeceksiniz. Aslında, yeni fanın hız kontrolüne izin veren sarı bir kablo da dahil olmak üzere 3 kablosu vardır. Ancak, bu kablo bu özel durumda kullanılmayacaktır. Bu nedenle yeni fanı bağlamak için özel bir adaptör kullanılması önerilir. Ancak, bu adaptörü bulmanın bazen zor olabileceğine dikkat etmek önemlidir.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/051.webp)
 
 
 Bu adaptöre sahip değilseniz, yeni fanı bir elektrikçi şekeri kullanarak bağlamaya devam edebilirsiniz. Bunu yapmak için eski ve yeni fanın kablolarını kesmeniz gerekecektir.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/052.webp)
 
-![image](assets/en/53.webp)
+![image](assets/en/053.webp)
 
 
 Yeni fanda, bir kesici kullanın ve altındaki kabloların kılıflarını kesmeden ana kılıfın konturlarını 1 cm'de dikkatlice kesin.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/054.webp)
 
 
 Ardından, ana kılıfı aşağı doğru çekerek, kırmızı ve siyah kabloların kılıflarını daha önce olduğu gibi kesin. Ve sarı kabloyu aynı hizada kesin.
 
 
-![image](assets/en/55.webp)
+![image](assets/en/055.webp)
 
 
 Eski fanda, kırmızı ve siyah kabloların kılıflarına zarar vermeden ana kılıfı kesmek daha hassastır. Bunun için ana kılıf ile kırmızı ve siyah kablolar arasına kaydırdığımız bir iğne kullandık.
 
 
-![image](assets/en/56.webp)
+![image](assets/en/056.webp)
 
-![image](assets/en/57.webp)
+![image](assets/en/057.webp)
 
 
 Kırmızı ve siyah kablolar ortaya çıktığında, elektrik kablolarına zarar vermemek için kılıfları dikkatlice kesin.
 
 
-![image](assets/en/58.webp)
+![image](assets/en/058.webp)
 
 
 Ardından, kabloları bir şekerle, siyah kabloyu siyahla ve kırmızı kabloyu kırmızıyla bağlayın. Elektrik bandı da ekleyebilirsiniz.
 
 
-![image](assets/en/59.webp)
+![image](assets/en/059.webp)
 
-![image](assets/en/60.webp)
+![image](assets/en/060.webp)
 
 
 Bağlantı yapıldıktan sonra sıra yeni Noctua fanı ızgara ve eski vidalarla birlikte takmaya gelir. Kutudaki yeni vidalar daha sonra tekrar kullanılacaktır. Doğru yönde yerleştirdiğinizden emin olun. Fanın bir tarafında hava akış yönünü gösteren bir ok göreceksiniz. Fanı, bu ok kasanın içini gösterecek şekilde konumlandırmak önemlidir. Ardından fanı yeniden bağlayın.
 
 
-![image](assets/en/61.webp)
+![image](assets/en/061.webp)
 
-![image](assets/en/62.webp)
+![image](assets/en/062.webp)
 
 
 > İsteğe bağlı: Elektrik konusunda bilgiliyseniz, Vonet Wi-Fi köprüsüne doğrudan güç sağlayacak olan 12V güç çıkışına doğrudan bir dişi 5,5 mm jak konektörü ekleyebilirsiniz. Ancak, elektrik becerilerinizden emin değilseniz, kısa devre veya elektrik hasarı riskini önlemek için USB konektörünü akıllı telefon tipi bir şarj cihazı ile kullanmak en iyisidir.
 
-![image](assets/en/63.webp)
+![image](assets/en/063.webp)
 
 
 Bağlantılar yapıldıktan sonra, plastik kapağı kasa plastiğinin üzerine yerleştirin ve içeriye yerleştirmeyin.
 
 
-![image](assets/en/64.webp)
+![image](assets/en/064.webp)
 
 
 Son olarak, kasa kapağını tekrar yerine takın ve her şeyi yerinde tutmak için yanlardaki 6 vidayı vidalayın. Ve işte, power Supply kasanız artık yeni bir fan ile donatılmıştır.
@@ -1016,7 +1016,7 @@ Son olarak, kasa kapağını tekrar yerine takın ve her şeyi yerinde tutmak i�
 
 > UYARI: Miner'unuza önceden Braiins OS+ veya makinenizin performansını düşürebilecek başka bir yazılım yüklemiş olmanız çok önemlidir. Bu önlem çok önemlidir, çünkü gürültüyü azaltmak için daha az ısı dağıtacak daha az güçlü fanlar kuracağız.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Gerekli Malzemeler
@@ -1033,15 +1033,15 @@ Son olarak, kasa kapağını tekrar yerine takın ve her şeyi yerinde tutmak i�
 1. İlk olarak, fanların bağlantısını kesin ve vidalarını sökün.
 
 
-![image](assets/en/65.webp)
+![image](assets/en/065.webp)
 
 
 2. Yeni Noctua fanlarının konektörleri orijinalleriyle eşleşmiyor, ancak endişelenmeyin! Kesicinizi çıkarın ve küçük plastik tırnakları dikkatlice kesin, böylece konektörler Miner'inize mükemmel şekilde oturur.
 
 
-![image](assets/en/66.webp)
+![image](assets/en/066.webp)
 
-![image](assets/en/67.webp)
+![image](assets/en/067.webp)
 
 
 3. 3D parçaları takma zamanı!
@@ -1049,7 +1049,7 @@ Son olarak, kasa kapağını tekrar yerine takın ve her şeyi yerinde tutmak i�
 Fanlardan çıkardığınız vidaları kullanarak bunları Miner'nin her iki tarafına takın. Vida başı 3D parça ile aynı hizaya gelene kadar vidalayın ve güvenli bir şekilde yerine oturtun. Çok fazla sıkmamaya dikkat edin çünkü parçayı deforme edebilir ve vidalardan biri bir kapasitöre değebilir!
 
 
-![image](assets/en/68.webp)
+![image](assets/en/068.webp)
 
 
 4. Şimdi taraftarlara geçelim.
@@ -1058,31 +1058,31 @@ Fanlardan çıkardığınız vidaları kullanarak bunları Miner'nin her iki tar
 Kutuda verilen vidaları kullanarak bunları 3D parçalara takın. Hava akış yönüne dikkat edin, fanların yanlarındaki oklar takip edilecek yönü gösterecektir. Ethernet portu tarafından diğer tarafa doğru gidin. Aşağıdaki fotoğrafa bakın.
 
 
-![image](assets/en/69.webp)
+![image](assets/en/069.webp)
 
-![image](assets/en/70.webp)
+![image](assets/en/070.webp)
 
-![image](assets/en/71.webp)
+![image](assets/en/071.webp)
 
 
 5. Son adım: fanları bağlayın ve ızgaraları Supply fan kutusunda kullanılmayan vidalarla üst tarafa takın. Bunlardan sadece 4 tane var, ancak karşılıklı köşelerde ızgara başına 2 tane yeterli olacaktır. Gerekirse bir hırdavatçıda benzer vidalar da arayabilirsiniz.
 
 
-![image](assets/en/72.webp)
+![image](assets/en/072.webp)
 
-![image](assets/en/73.webp)
+![image](assets/en/073.webp)
 
 
 Yeni ısıtıcınız için daha şık bir kasa sunabilmeyi beklerken, kasayı ve Supply gücünü elektrikçi kablo bağları ile bağlayabilirsiniz.
 
 
-![image](assets/en/74.webp)
+![image](assets/en/074.webp)
 
 
 Ve son dokunuş için Vonet köprüsünü Ethernet bağlantı noktasına ve Supply gücüne bağlayın.
 
 
-![image](assets/en/75.webp)
+![image](assets/en/075.webp)
 
 
 Ve işte oldu, tebrikler! Az önce Miner'nızın tüm mekanik parçasını değiştirdiniz. Artık çok daha az gürültü duyuyor olmalısınız.
@@ -1129,7 +1129,7 @@ Bizi ilgilendiren ödül modeli, "paylaşım başına ödeme" anlamına gelen PP
 Braiins OS+'da bir havuzu yapılandırmak için, seçtiğiniz havuzlardan birinde bir hesap oluşturmanız gerekecektir. Burada Linecoin örneğini ele alacağız:
 
 
-![image](assets/en/76.webp)
+![image](assets/en/076.webp)
 
 
 Hesabınız oluşturulduktan sonra Havuza Bağlan'a tıklayın
@@ -1138,13 +1138,13 @@ Hesabınız oluşturulduktan sonra Havuza Bağlan'a tıklayın
 Ardından Stratum Address'ü ve kullanıcı adınızı kopyalayın:
 
 
-![image](assets/en/77.webp)
+![image](assets/en/077.webp)
 
 
 Şimdi bu kimlik bilgilerini girmek için Braiins OS+ Interface'e geri dönebilirsiniz. Parola için alanı boş bırakabilirsiniz.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/078.webp)
 
 
 ## Antminer S9'unuzun Performansını Optimize Etme

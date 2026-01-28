@@ -6,4 +6,4 @@ wrong_answers:
   - Un lien direct avec chaque autre nœud du réseau
 explanation: |
   L'ouverture en triangle permet à chaque nœud d'obtenir une liquidité équilibrée, tant entrante que sortante, en formant une boucle de canaux entre plusieurs participants.
-reviewed: false
+reviewed: true 

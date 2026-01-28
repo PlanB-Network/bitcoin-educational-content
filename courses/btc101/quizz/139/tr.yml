@@ -1,8 +1,11 @@
-question: Eylül 2023 itibariyle dünya genelinde dağıtılan düğümlerin yaklaşık sayısı nedir?
-answer: 45.000 düğüm.
+question: Bir Bitcoin düğümünün uygun fiyatlı ve olası tüm kullanıcılar için erişilebilir kalması neden önemlidir?
+answer: Çünkü ağın merkezsizleştirilmesini kolaylaştırır.
 wrong_answers:
-  - 10.000 düğüm.
-  - 100.000 düğüm.
-  - 500.000 düğüm.
-explanation: >-
+  - Çünkü ağın işlem kapasitesini artırır.
+  - Çünkü ağın işlem kapasitesini düşürür.
+  - Çünkü madenciler için Block reward'i artırıyor.
+explanation: |
+  Bir Bitcoin düğümünün uygun maliyeti ve erişilebilirliği
+  merkezden uzaklaştırılmasını kolaylaştırdığı için önemlidir
+  ağ.
 reviewed: true

@@ -1,9 +1,9 @@
-question: Qual é a tecnologia usada para gastar fundos de forma segura usando uma Carteira Bitcoin?
-answer: Criptografia de curva elíptica.
+question: Qual é o risco de complicar demais a segurança e a acessibilidade dos seus bitcoins?
+answer: Você pode se prejudicar se manusear incorretamente as carteiras de backup.
 wrong_answers:
-  - Criptografia simétrica.
-  - Criptografia quântica.
-  - Criptografia RSA.
+  - Você pode se prejudicar se manusear incorretamente as carteiras físicas.
+  - Você pode se prejudicar se manusear incorretamente as carteiras digitais.
+  - Você pode se prejudicar se manusear incorretamente as carteiras multisig.
 explanation: |
-  Gastar Bitcoins requer que o proprietário utilize o Algoritmo de Assinatura Digital de Curva Elíptica (ECDSA) para forjar uma assinatura para a propagação de uma transação Bitcoin.
+  Complicar demais a segurança e a acessibilidade dos seus bitcoins pode prejudicá-lo se, por exemplo, você manusear incorretamente os backups das suas carteiras. Isso ocorre porque procedimentos simples de backup são cruciais para recuperar o acesso aos seus fundos em caso de perda do seu telefone ou computador.
 reviewed: true

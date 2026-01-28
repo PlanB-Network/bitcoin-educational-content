@@ -1,10 +1,9 @@
-question: Hvem var den første personen som ble med i Bitcoin-nettverket etter Satoshi Nakamoto?
-answer: Hal Finney
+question: Hva har vært Bitcoins online tilgjengelighet siden 2009?
+answer: 99,988%.
 wrong_answers:
-  - Laszlo Hanyecz
-  - Phil Champagne
-  - Rogzy
+  - 100%.
+  - 90,009%.
+  - 80,17%.
 explanation: |
-  Hal Finney var den første personen som ble med i Bitcoin-nettverket etter Satoshi
-  Nakamoto selv. Han tvitret til og med Running Bitcoin for å markere anledningen.
+  Bitcoins online tilgjengelighet har vært 99,988% siden 2009.
 reviewed: true

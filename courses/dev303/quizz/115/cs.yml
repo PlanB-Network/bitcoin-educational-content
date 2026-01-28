@@ -1,0 +1,8 @@
+question: Jaký zásadní problém, s nímž se potýkají tradiční implementace Lightningu, řeší mechanismus kanálů just-in-time v Breez SDK?
+answer: Při příchodu plateb automaticky vytváří nové kanály s dostatečnou příchozí likviditou, takže uživatelé nemusí ručně spravovat kapacitu kanálů
+wrong_answers:
+  - Zabraňuje nucenému uzavírání kanálů tím, že automaticky vyvažuje prostředky ve více kanálech, když jeden z nich přestane reagovat nebo je vypnutý
+  - Snižuje transakční poplatky dávkováním více malých plateb do větších kanálových operací, které se zpracovávají mimo špičku sítě
+  - Eliminuje potřebu služeb strážní věže tím, že vytváří dočasné kanály, jejichž platnost automaticky vyprší po úspěšném dokončení platby
+explanation: |
+  Mechanismus kanálu just-in-time řeší konkrétně problém řízení likvidity banky Lightning, kdy finanční prostředky mohou proudit pouze směrem, kde existuje kapacita. Když uživatel potřebuje přijmout platbu, ale nemá dostatek příchozí likvidity, LSP automaticky otevře nový kanál v okamžiku, kdy platba dorazí, což se děje plynule bez zásahu uživatele. Špatné odpovědi popisují jiné výzvy systému Lightning, ale ne specifický problém likvidity, který kanály just-in-time řeší.

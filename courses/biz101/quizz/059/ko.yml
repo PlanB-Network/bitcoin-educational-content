@@ -1,0 +1,9 @@
+question: 스타터 프로필에는 어떤 두 가지 Wallet 유형이 고려되나요?
+answer: 보관형 및 비보관형 라이트닝 지갑
+wrong_answers:
+  - Hot 및 Cold 스토리지 Bitcoin 지갑
+  - Multisig 및 종이 Bitcoin 지갑
+  - 하드웨어와 두뇌 라이트닝 지갑
+explanation: |
+  스타터 프로필은 커스터디 또는 비커스터디 라이트닝 지갑을 사용합니다.
+reviewed: true

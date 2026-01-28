@@ -1,0 +1,6 @@
+---
+term: ARK
+
+---
+
+Itegeko rishasha ry’urugero rwa kabiri ryashizwe ahabona n’umuhinga mu bijanye n’ubuhinga yitwa Burak muri Rusama 2023. Cokimwe na Lightning Network, Ark ni ubuhinga bukora hejuru y’uruzitiro nyamukuru rwa Bitcoin, rwagenewe gutuma umuntu ashobora kwishura vuba, atamenyekana, kandi ataco akora ku giciro gitoyi ca off-chain bitcoin. Udakunze Lightning, Ark ntisaba amahera yinjira kugira ngo umuntu aronke amahera, ivyo bikaba bituma umuntu ashobora gukoresha neza cane. Ikindi kandi, itanga ibintu vy’ubuzima bwite bisa n’ivy’ubudandaji bwa coinjoin, mu gihe Lightning ari ikigereranyo gifise intege nke cane mu bijanye no kurinda ubuzima bwite. Ikindi, Ubwato bwoshobora kuba ubudakora iyo amasezerano yongewe kuri Bitcoin. Burak akenshi anegura ubushobozi bwa Lightning bwo gutera imbere kubera ko yizigiye uruzitiro nyamukuru kandi akavuga ko Ark yoshobora gushigikira mu vyiyumviro kwemera kw’ukwibungabunga kw’isi yose. Naho Ark isa n’iyihanganye na Lightning Network, izo protocole zibiri zirashobora mu vy’ukuri kubana kandi zirashobora mbere kwuzuzanya.  Ariko rero, birahambaye kumenya ko Ubwato ubu ari iciyumviro gusa. Burak ubwiwe ntarasohora kode y’ivyo yahinguye.

@@ -1,0 +1,8 @@
+question: Wakati wa kutengeneza makro maalum inayofanana na kitendakazi katika Rust, lengo kuu la kutumia vibainishi vya vipande kama `expr`, `ty`, na `ident` ni lipi katika ulinganishaji wa ruwaza?
+answer: Kufafanua aina ya vipengele vya msimbo vinavyoweza kulinganishwa na kuhakikisha uingizaji halali wa kisintaksia
+wrong_answers:
+  - Ili kubainisha aina ya urejeshaji wa msimbo uliozalishwa na kuboresha utendaji wa mkusanyiko
+  - Kuamua mpangilio wa utekelezaji wa matawi ya macro na kushughulikia ukaguzi wa aina ya muda wa utekelezaji
+  - Ili kudhibiti mifumo ya ugawaji wa kumbukumbu na kufafanua sheria za upimaji tofauti katika msimbo uliopanuliwa
+explanation: |
+  Vipimo vya vipande katika mifumo ya makro hutumika kama vikwazo vya aina vinavyothibitisha sintaksia ya tokeni za kuingiza wakati wa upanuzi wa makro. Vinahakikisha kwamba makro inapokea aina sahihi ya kipengele cha msimbo (usemi, aina, kitambulisho, n.k.) na hutoa ujumbe wazi wa hitilafu wakati sintaksia batili inapopatikana. Hii hutokea wakati wa kukusanya wakati wa kulinganisha ruwaza, si wakati wa utekelezaji wa wakati wa utekelezaji, na havidhibiti moja kwa moja ugawaji wa kumbukumbu, mpangilio wa utekelezaji, au aina za urejeshaji wa msimbo uliozalishwa.

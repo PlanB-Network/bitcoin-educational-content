@@ -1,0 +1,8 @@
+question: Ni gute ubuhinga bwa Rust bwo gukoresha ibikoresho bimwe bimwe biciye muri Cargo butandukanye n’uburyo bukoreshwa mu ndimi za kera nka C++ mu gutegura Bitcoin?
+answer: Cargo itanga uburongozi busanzwe bw’abavyifatamwo, inyubako, igerageza, n’inyandiko mu gikoresho kimwe, bikuraho uguca ibice .
+wrong_answers:
+  - Cargo yibanda cane ku kwemeza umutekano w'ubwenge mu gihe ibikoresho vya C++ bishira imbere gutuma umuvuduko wo gukoranya
+  - Cargo isaba gutunganya n'amaboko ibikoresho vyinshi bitandukanye mu gihe C++ itanga ibidukikije vy'iterambere bihuriweko
+  - Cargo ifasha gusa amasomero yihariye ya Bitcoin mu gihe ibikoresho vya C++ bikorana n'ibikorwa vy'ivy'amahera vy'intumbero rusangi
+explanation: |
+  Ivyuma vya Rust bigereranya uburyo bumwe bwo gucunga umugambi bukora ibikorwa vyose vy’ingenzi vy’iterambere biciye ku gikoresho kimwe, gihuye. Ivyo bikuraho ingorane y’uguca ibice iboneka muri C++ aho ibikoresho vyinshi bihiganwa vyo gucunga, kwubaka, no kugerageza bitera ukudahuza mu migambi yose. Ku bijanye n’iterambere rya Bitcoin, iyo nzira y’ugushinga urugero ni ngirakamaro cane kuko ituma habaho uburyo bwo kwubaka buhuye, gutorera umuti ibibazo vy’ukwizigirwa, n’ugusuzuma uburyo bumwe bw’amakode mu migambi itandukanye n’imigwi, bikagabanya ingorane z’amakosa ajanye n’imiterere yoshobora gutuma umutekano uhungabana.

@@ -1,0 +1,9 @@
+question: Hva er hovedårsaken til at økende blokkstørrelser fører til en høyere sannsynlighet for foreldede blokker i Bitcoin mining?
+answer: Større blokker tar lengre tid å spre og validere på tvers av nettverket, noe som skaper lengre tidsvinduer der utvinnere jobber med utdaterte blokkjedetips
+wrong_answers:
+  - Større blokker krever mer datakraft for å utvinne, noe som fører til at utvinnerne bruker lengre tid på å finne gyldige proof-of-work-løsninger
+  - "Økte blokkstørrelser reduserer effektiviteten til mekanismen for justering av vanskelighetsgrad, noe som fører til uforutsigbare tidsintervaller mellom blokkene."
+  - Større blokker skaper flere transaksjonskonflikter mellom konkurrerende blokker, noe som gjør det vanskeligere å avgjøre hvilken blokk som skal godtas
+explanation: |
+  Det riktige svaret identifiserer kjernemekanismen bak uaktuelle blokker. Når blokkene er større, krever de mer båndbredde å overføre mellom noder og mer tid å validere. I løpet av denne forlengede forplantningsperioden kan flere utvinnere finne konkurrerende blokker i samme høyde, siden de ennå ikke har mottatt den nyeste blokken. Dette skaper en kappløpstilstand der bare én blokk til slutt kan aksepteres, slik at de andre blir foreldet. De gale svarene forveksler dette forplantningsproblemet med mining-vanskeligheter, konsensusmekanismer eller transaksjonskonflikter, som er separate problemer fra tidsproblemet som forårsaker foreldede blokker.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 이전 채널 상태를 게시할 경우 Lightning 노드는 어떤 위험을 감수하게 됩니까?
+answer: 페널티
+wrong_answers:
+  - 경고
+  - 추가 채굴 수수료
+  - 일시적 동결
+explanation: |
+  프로토콜은 상대방이 모든 자금을 회수할 수 있도록 하는 억제적 페널티를 규정합니다。
+reviewed: false

@@ -1,7 +1,9 @@
-question: 文本对于学习比特币的速度有何建议？
-answer: 一次性吸收所有内容很复杂，所以请慢慢来
+question: 哪种机制将侧链与比特币连接起来？
+answer: 双向锚定
 wrong_answers:
-  - 一次性学习所有内容很容易
-  - 学习关于比特币的所有内容是不可能的
-  - 学习关于比特币的所有内容是不必要的
-explanation: 文本建议，由于有太多关于比特币的内容需要探索，一次性吸收所有内容很复杂，因此应该慢慢来。
+  - 支付通道
+  - Proof of Stake
+  - 分片
+explanation: |
+  two-way peg 机制允许将 BTC 锁定在比特币上，并在侧链上进行表示。
+reviewed: false

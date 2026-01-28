@@ -1,0 +1,9 @@
+question: Jaki jest główny powód, dla którego rzeczywista podaż Bitcoin w obiegu będzie znacznie niższa niż teoretyczne maksimum wynoszące około 21 milionów BTC?
+answer: Zgubione klucze prywatne, kradzież wallet i monety wysłane na niewłaściwe adresy trwale usuwają bitcoiny z obiegu
+wrong_answers:
+  - Dostosowania trudności Mining automatycznie zmniejszają całkowitą podaż, aby utrzymać niedobór w czasie
+  - Opłaty transakcyjne są spalane podczas przetwarzania, stopniowo zmniejszając dostępną podaż bitcoinów
+  - "Protokół Bitcoin automatycznie blokuje monety, które nie poruszały się przez dłuższy czas, aby zapobiec inflacji"
+explanation: |
+  Choć teoretyczne maksimum wynosi 20 999 999.9769 BTC, rzeczywista użyteczna podaż jest znacznie niższa z powodu błędów ludzkich i strat. Utracone klucze prywatne czynią bitcoiny trwale niedostępnymi, portfele są kradzione lub zapominane, a monety są czasami wysyłane na nieprawidłowe adresy. Czynniki te prowadzą do trwałego zmniejszenia podaży, z czego korzystają pozostali posiadacze, jak zauważył Satoshi: utracone monety zwiększają wartość monet innych.
+reviewed: false

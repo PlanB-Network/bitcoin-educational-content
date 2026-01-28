@@ -1,0 +1,8 @@
+question: Jaké je největší riziko při použití RC<RefCell<T>> pro sdílený mutabilní stav a jaký mechanismus mu pomáhá zabránit?
+answer: Referenční cykly způsobující úniky paměti, kterým se zabrání použitím slabých referencí
+wrong_answers:
+  - Datové závody mezi vlákny, kterým se zabrání použitím Mutexu místo RefCell
+  - Panika za běhu kvůli porušení výpůjček, kterému se zabrání kontrolou v době kompilace
+  - Přetečení zásobníku z hluboké rekurze, kterému se zabrání omezením hloubky reference
+explanation: |
+  Při použití RC<RefCell<T>> je hlavním nebezpečím vytváření referenčních cyklů, kdy se datové struktury odkazují přímo nebo prostřednictvím řetězců. Tyto cykly zabraňují tomu, aby počet referencí dosáhl nuly, což způsobuje úniky paměti, protože se zdá, že data mají stále aktivní reference. Slabé reference to řeší tím, že nepřispívají k počtu referencí používaných pro správu paměti, čímž přerušují cykly a zároveň zachovávají spojení. Ostatní možnosti jsou nesprávné: RC<RefCell<T>> není thread-safe, takže datové závody nejsou hlavním problémem, RefCell specificky přesouvá kontroly do runtime, místo aby jim zabránil v době kompilace, a přetečení zásobníku nesouvisí s mechanismem počítání referencí.

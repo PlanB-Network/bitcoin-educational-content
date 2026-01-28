@@ -1,0 +1,8 @@
+question: Teknik kriptografi apa yang digunakan Elements untuk menyembunyikan jumlah transaksi sambil tetap memungkinkan validasi jaringan?
+answer: Komitmen Pedersen
+wrong_answers:
+  - Merkle Tree Hashing
+  - Tanda Tangan Kurva Elips
+  - Enkripsi SHA-256
+explanation: |
+  Komitmen Pedersen adalah teknik kriptografi khusus yang digunakan dalam Elements 'Confidential Transactions untuk menyembunyikan jumlah transaksi. Komitmen ini menggantikan jumlah yang terlihat dengan komitmen kriptografi yang masih dapat diverifikasi secara matematis oleh validator tanpa mengungkapkan nilai sebenarnya. Merkle Tree Hashing digunakan untuk mengatur data transaksi dalam blok, Tanda Tangan Kurva Elips digunakan untuk otorisasi transaksi, dan SHA-256 adalah algoritma hashing, tetapi tidak satu pun dari ini yang menyembunyikan jumlah transaksi dengan tetap mempertahankan kemampuan validasi seperti yang dilakukan oleh Komitmen Pedersen.

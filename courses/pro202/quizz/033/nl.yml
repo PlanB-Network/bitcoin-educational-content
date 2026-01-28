@@ -1,0 +1,8 @@
+question: Welk twee-staps validatieproces moet plaatsvinden bij het uitgeven van een P2SH uitgang om de transactie als geldig te beschouwen?
+answer: Controleer eerst of HASH160 van het redeem script overeenkomt met de scriptPubKey hash, voer dan het redeem script uit met de verstrekte gegevens
+wrong_answers:
+  - Voer eerst het redeem script uit met de verstrekte gegevens en controleer dan of de resulterende hash overeenkomt met de scriptPubKey
+  - Controleer eerst of alle handtekeningen geldig zijn tegen hun openbare sleutels en controleer dan of de hash van het redeemscript overeenkomt met
+  - Controleer eerst of het redeemscript geldige opcodes bevat en controleer dan of de uitvoering van het script een waar resultaat oplevert
+explanation: |
+  P2SH validatie vereist een specifiek proces in twee stappen: eerst moet de hash van het verstrekte script overeenkomen met de hash van 20 bytes in de scriptPubKey (HASH160 verificatie), en pas nadat deze verificatie is geslaagd voert het netwerk het script zelf uit met de ontgrendelingsgegevens. Dit ontwerp zorgt ervoor dat alleen het juiste script kan worden gebruikt, terwijl de werkelijke bestedingsvoorwaarden verborgen blijven totdat de besteding plaatsvindt. De andere opties beschrijven plausibele maar onjuiste validatiesequenties die niet het werkelijke P2SH protocol volgen.

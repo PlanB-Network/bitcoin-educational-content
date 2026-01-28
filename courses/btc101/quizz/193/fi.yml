@@ -1,9 +1,11 @@
-question: Mikä on yksi aloitteista, jotka edistävät Bitcoin-talouden saavutettavuutta ja mukavuutta kaikille?
-answer: BTCMap.
+question: Mikä on spontaani ostos?
+answer: Bitcoinin ostaminen välittömästi altistuksen saamiseksi.
 wrong_answers:
-  - Bitcoin-vaihto.
-  - Bitcoin-louhinta.
-  - BTCLottery.
-explanation: >-
-  BTCMap on yksi aloitteista, jotka edistävät Bitcoin-talouden saavutettavuutta ja mukavuutta kaikille. Se on avoimen lähdekoodin ja yhteistyöhön perustuva projekti, joka listaa kaikki kauppiaat, jotka hyväksyvät Bitcoinin maksuvälineenä sekä eri Bitcoin-yhteisöt ympäri maailmaa.
+  - Bitcoinin ostaminen säännöllisin väliajoin.
+  - Bitcoinin ostaminen vain, kun hinta laskee.
+  - Bitcoinin ostaminen vain, kun hinta nousee.
+explanation: |
+  Kurssiteksti selittää, että spontaani ostos tarkoittaa
+  välitöntä altistumista Bitcoinille. Esimerkiksi,
+  se voisi tarkoittaa ostamista romahduksen aikana tai bonuksen hyödyntämistä.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Que ficheiros é que um nó consulta primeiro para encontrar os seus antigos pares quando é reiniciado?
+answer: anchors.dat e peers.dat
+wrong_answers:
+  - Mempool.dat e peers.dat
+  - Mempool.dat e ip.dat
+  - ip.dat e anchors.dat
+explanation: |
+  O Bitcoin core consulta primeiro anchors.dat (anteriores pares de saída) e depois peers.dat (livro conhecido do Address) para restabelecer a ligação.
+reviewed: true

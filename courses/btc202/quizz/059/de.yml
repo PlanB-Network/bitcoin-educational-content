@@ -1,0 +1,9 @@
+question: Welche Methode wird für den Fernzugriff auf Bitcoin Core nicht empfohlen?
+answer: Freigabe des unverschlüsselten RPC-Ports
+wrong_answers:
+  - Tor verwenden
+  - Verwendung eines VPN
+  - Einen Electrum-Server freigeben
+explanation: |
+  Der unverschlüsselte Zugang zum RPC-Port stellt ein großes Sicherheitsrisiko dar. Tor oder VPN sind vorzuziehen.
+reviewed: true

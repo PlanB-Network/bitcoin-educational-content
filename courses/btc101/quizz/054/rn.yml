@@ -1,10 +1,11 @@
-question: Ni igice ca kabiri c’ikintu c’ugutera imbere cane kw’ibiciro ni ikihe?
-answer: Amafaranga arasenyuka & igiciro kiduga.
+question: None igihe impembo ya Mining igabanywamwo igice, ico kintu citwa iki?
+answer: Halving.
 wrong_answers:
-  - Gutakaza Icizigiro.
-  - Uruziga rw’ububisha rwo gucapura amahera.
-  - Ifaranga rishasha rirasohoka.
+  - Gukubita kabiri
+  - Gushiramwo ivyicaro bine
+  - Gukubita gatatu
 explanation: |
-  Icigwa ca kabiri c'ugutera imbere kw'ibiciro ni ugusenyuka kw'amahera &
-  igiciro kiduga, inyuma gato y’Iciciro co Gutakaza Icizigiro.
+  Igihe impembo ya Mining igabanywamwo igice citwa .
+  Halving. Ico kintu gitanga umurongo w’ugusohora amahera a .
+  igishushanyo kimeze nk’ingazi.
 reviewed: true

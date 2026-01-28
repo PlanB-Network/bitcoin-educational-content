@@ -1,11 +1,11 @@
-question: Hva var den første formen for valuta ofte knyttet til?
-answer: Viktige varer som korn, husdyr og andre råvarer
+question: Hva er den største fordelen med Bitcoin sammenlignet med andre valutaformer?
+answer: Den tilbyr en utmerket verdioppbevaring på grunn av sitt strengt begrensede tilbud og nøytralitet.
 wrong_answers:
-  - Gull og sølv
-  - Papirsedler
-  - Digitale eiendeler
+  - Den er udelelig og transportabel
+  - Den er underlagt monetær inflasjon
+  - Den er bredt akseptert i handel
 explanation: |
-  Den første formen for valuta var ofte knyttet til viktige varer som
-  korn, husdyr og andre råvarer. Disse varene hadde imidlertid store ulemper,
-  som for eksempel at de var lettfordervelige, noe som gjorde det vanskelig å bruke dem som et langsiktig sparemedium.
+  Den største fordelen med Bitcoin sammenlignet med andre valutaformer er at den
+  tilbyr en utmerket verdioppbevaring på grunn av sitt strengt begrensede tilbud og mangel på en betrodd part. Dette gjør
+  den til et godt valg for langsiktig sparing.
 reviewed: true

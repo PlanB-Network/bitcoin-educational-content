@@ -1,0 +1,8 @@
+question: Koji je primarni razlog zbog kojeg mehanizam za prilagođavanje težine Bitcoin ograničava promene unutar faktora četiri tokom svakog perioda prilagođavanja od 2016 blokova?
+answer: Da bi se sprečile ekstremne oscilacije koje bi mogle destabilizovati mrežu kada se stopa heširanja dramatično promeni
+wrong_answers:
+  - Kako bi se osiguralo da rudari imaju dovoljno vremena da unaprede svoju opremu pre nego što se težina značajno poveća
+  - Da bi se održala kompatibilnost sa 32-bitnim poljem vremenskog žiga koje postaje nepouzdano sa većim prilagođavanjima
+  - Da se spreči ometanje rasporeda prepolovljavanja subvencije bloka brzim promenama težine
+explanation: |
+  Četvorostruko ograničenje sprečava opasne povratne petlje gde bi ekstremne promene težine mogle izazvati divlje oscilacije u vremenu blokova. Bez ovog ograničenja, nagli pad hash stope mogao bi pokrenuti masovna smanjenja težine, čineći blokove previše lakim i potencijalno destabilizujući konsenzus. Suprotno tome, ogromna povećanja mogla bi učiniti blokove gotovo nemogućim za rudarenje. Ograničenje osigurava postepene, upravljive prilagodbe koje održavaju stabilnost mreže čak i tokom velikih poremećaja kao što su mining zabrane, omogućavajući sistemu da se samostalno ispravi predvidljivo tokom više perioda prilagođavanja umesto da stvara haotične oscilacije.

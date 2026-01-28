@@ -1,13 +1,12 @@
-question: Waar staat KYC voor?
-answer: Ken uw klant.
+question: Wat is het bericht in het eerste blok van de Bitcoin Blockchain?
+answer: 03/jan/2009 Kanselier op rand van tweede reddingsoperatie voor banken.
 wrong_answers:
-  - Bewaar je geld.
-  - Toets uw codes.
-  - Graag nakoming.
+  - We kunnen een grote slag in de wapenwedloop winnen en een nieuw gebied van vrijheid voor enkele jaren veroveren.
+  - Regeringen zijn goed in het afsnijden van de koppen van centraal gecontroleerde netwerken zoals Napster, maar pure P2P netwerken zoals Gnutella en Tor lijken stand te houden.
+  - Geen van bovenstaande.
 explanation: |
-  KYC of Know Your Customer verwijst naar de procedure die
-  bedrijven hanteren om de identiteit van hun klanten te verifiëren.
-  Dit wordt meestal gedaan om naleving van
-  regelgeving en om illegale activiteiten zoals
-  witwassen of fraude te voorkomen.
+  Het eerste blok van de Bitcoin Blockchain, ook bekend als
+  het Genesis blok, bevat het bericht 03/jan/2009
+  Kanselier op rand van tweede reddingsoperatie voor banken, wat de
+  titel van de Tijd die dag naar Timestamp het Genesis blok.
 reviewed: true

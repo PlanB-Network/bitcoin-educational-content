@@ -1,12 +1,11 @@
-question: Bu derse göre Bitcoin devriminin ana hedefi nedir?
-answer: İnsan egemenliğinin bir hak olduğu, mahremiyete varsayılan olarak saygı duyulduğu ve paranın manipüle edilmediği bir dünya yaratmak.
+question: Bu kurs, Bitcoin hakkındaki öğrenme hızı hakkında ne öneriyor?
+answer: Her şeyi bir kerede özümsemek karmaşıktır, bu yüzden acele etmeyin.
 wrong_answers:
-  - Mahremiyetin bir insan hakkı olmadığı ve paranın bankalar tarafından manipüle edildiği bir dünya yaratmak.
-  - Hükümetlerin gücünün olmadığı ve toplumun kaotik olduğu bir dünya yaratmak.
-  - Fiziksel paranın geçersiz olduğu bir dünya yaratmak.
+  - Her şeyi bir kerede öğrenmek kolaydır.
+  - Bitcoin hakkında her şeyi öğrenmek mümkün değildir.
+  - Bitcoin hakkında her şeyi öğrenmek gereksizdir.
 explanation: |
-  Bu kurs metni, Bitcoin'in ana hedefinin
-  devrim, insan egemenliğinin olduğu bir dünya yaratmaktır
-  bir haktır, mahremiyete varsayılan olarak saygı gösterilir ve para
-  manipüle edildi.
+  Kurs, keşfedilecek çok şey olduğunu gösteriyor
+  Bitcoin'teki her şeyi özümsemenin karmaşık olduğunu
+  bir kez, bu yüzden acele etmemek gerekir.
 reviewed: true

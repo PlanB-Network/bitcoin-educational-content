@@ -1,0 +1,8 @@
+---
+term: IMEZA YA HONGO KONG
+---
+
+Ivyabaye mu mateka vy’intambara ya Blocksize yabaye ku wa 20 Ruhuhuma 2016, i Hong Kong. Yari inama ikomeye hagati y’abahinguzi ba Bitcoin core n’abacukuzi b’amabuye y’agaciro kugira ngo baganire ku bijanye n’ingene iyo nzira ishobora gutera imbere n’ingene yoshobora gutera imbere. Imbere y’iyo nama, amahane yari menshi cane cane kubera ukuduga kwa Bitcoin Classic, igitekerezo ca Hard Fork cashigikiwe na Gavin Andressen kigamije kwongera ubunini bw’ibarabara kugera kuri 2 MB. Abantu b’abanyabubasha mu bijanye n’ibidukikije bari muri izo mpari, harimwo Jihan Wu na Micree Zhan, abashinze Bitmain, Adam Back, umukuru wa Blockstream, na Luke Dashjr, Matt Corallo na Peter Todd.
+
+
+Abacukuzi b’amabuye y’agaciro, bacitse intege kubera ata n’iterambere ryateye, barateye ubwoba ko bazoshigikira Bitcoin Classic iyo Hard Fork y’ama MB 2 itazoshirwa mu ngiro. Abahinguzi barwanira SegWit nk’umuti ushoboka. Inyuma y’amasaha menshi y’ibiganiro bikomeye, harashitsweko amasezerano, avuga ko abakora Bitcoin core bazokora Hard Fork inyuma y’aho SegWit ishizwe mu ngiro. Aya masezerano yari akwiye kugabanya amakimbirane, ariko amaherezo yatumye haba ukwizigirana n'uruja n'uruza. Uruhande rumwe rumwe rwasobanura ayo masezerano mu buryo butandukanye, ivyo bikaba vyatumye haba amacakubiri mu kibano. Naho ayo masezerano yatumye Bitcoin Classic igenda buhoro mu gihe gito, benshi babona ko ari umuti udashimishije kandi udasanzwe.

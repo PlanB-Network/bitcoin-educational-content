@@ -1,0 +1,9 @@
+question: Milline on peamine erinevus toore rakendamise ja node-in-a-boxi vahel?
+answer: Interface ja integreeritud rakenduste olemasolu
+wrong_answers:
+  - Võrguga ühilduvus
+  - Blockchain suurus, mis on salvestatud kettale
+  - Kasutatav protokoll ja valuuta
+explanation: |
+  Toores rakendus installib ainult sõlme tarkvara, samas kui node-in-a-box lisab Interface, App Store'i ja integreeritud teenused.
+reviewed: true

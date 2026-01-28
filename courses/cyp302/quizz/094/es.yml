@@ -6,4 +6,4 @@ wrong_answers:
   - Los cifrados de flujo siempre requieren relleno.
 explanation: |
   La confusión surge del hecho de que algunos consideran a los cifrados de bloque solo como algoritmos que utilizan modos de bloqueo específicos, cuando en realidad, pueden incluir esquemas de cifrado como el modo OFB.
-reviewed: false
+reviewed: true

@@ -1,10 +1,9 @@
-question: Quel est un facteur qui rend difficile pour les autorités financières de réguler le Bitcoin ?
-answer: Il fonctionne à l'échelle mondiale, 24 heures sur 24, 7 jours sur 7.
+question: Quel est un avantage d'accepter le Bitcoin en tant que commerçant ?
+answer: Résistance à la censure.
 wrong_answers:
-  - Il est contrôlé par une autorité centrale.
-  - Il n'est utilisé nulle part dans le monde.
-  - Il est facile à contrefaire.
+  - Augmentation des frais de transaction.
+  - Protection contre la déflation.
+  - Restriction financière.
 explanation: >-
-  Le protocole Bitcoin est unique en ce qu'il fonctionne à l'échelle mondiale,
-  24 heures sur 24, 7 jours sur 7, rendant la régulation difficile pour les autorités financières.
+  Accepter le Bitcoin en tant que commerçant présente plusieurs avantages, y compris la résistance à la censure, la réduction des frais de transaction, l'augmentation de l'efficacité, la protection contre l'inflation, ainsi que la liberté financière et la souveraineté.
 reviewed: true

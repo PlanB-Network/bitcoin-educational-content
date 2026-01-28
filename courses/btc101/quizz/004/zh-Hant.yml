@@ -1,11 +1,11 @@
-question: Bitcoin 的兩個主要特徵是什麼？
-answer: Bitcoin 既是一種電腦通訊協定，也是一種貨幣單位。
+question: Bitcoin 成為中性貨幣的意義是什麼？
+answer: 它不受任何實體或機構控制。
 wrong_answers:
-  - Bitcoin 既是實體貨幣，也是數位 Wallet。
-  - Bitcoin 既是一種股票，也是一種債券。
-  - Bitcoin 既是一種集中式貨幣，也是一種分散式貨幣。
+  - 它由單一實體或機構控制。
+  - 它由政府監管。
+  - 它只用於大額交易。
 explanation: |
-  Bitcoin 既是一種使用密碼技術和 Blockchain 等技術的電腦協定，也是一種貨幣協定。
-  和 Blockchain 等技術，同時也是一種用於交易的貨幣單位。
-  交易使用的貨幣單位。
+  Bitcoin 是一種中性貨幣，這意味著它不受任何實體或機構控制。
+  任何實體或機構控制，因此每位使用者都擁有相同的
+  權利。這是其去中心化的一個重要方面。
 reviewed: true

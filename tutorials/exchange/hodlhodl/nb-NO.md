@@ -12,9 +12,8 @@ Hodl Hodl er en desentralisert Bitcoin-børs som prioriterer brukerkontroll og s
 
 https://hodlhodl.com/pages/faq_help
 
-## skriveguide:
+## Start reisen din på Hodl Hodl
 
-Start din reise med HodlHodl: En trinn-for-trinn guide
 
 ![bilde](assets/5.webp)
 
@@ -45,43 +44,43 @@ For å starte med BTC-handel, må du først oppgi din BTC-adresse. Dette kan leg
 
 Guide av Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
-1. Besøk hodlhodl.com og opprett kontoen din. De eneste detaljene du trenger å oppgi er et brukernavn og e-postadresse. Du vil da bli møtt med hjemmesiden.
+- Besøk hodlhodl.com og opprett kontoen din. De eneste detaljene du trenger å oppgi er et brukernavn og e-postadresse. Du vil da bli møtt med hjemmesiden.
 
 ![cover](assets/11.webp)
 
-2. Klikk på ‘Kjøp BTC’ i nettstedets topptekst.
+- Klikk på ‘Kjøp BTC’ i nettstedets topptekst.
 
 ![cover](assets/12.webp)
 
-3. Velg ønsket betalingstype og metode. Du kan også spesifisere et spesifikt beløp her om nødvendig.
+- Velg ønsket betalingstype og metode. Du kan også spesifisere et spesifikt beløp her om nødvendig.
 
 ![cover](assets/13.webp)
 
-4. Velg ønsket tilbud. Du kan deretter se gjennom handelsdetaljene og også lese om den andres aktivitetsrapporter og vurderinger.
+- Velg ønsket tilbud. Du kan deretter se gjennom handelsdetaljene og også lese om den andres aktivitetsrapporter og vurderinger.
 
 ![cover](assets/14.webp)
 
-5. Når du er fornøyd, kan du spesifisere hvor mye du ønsker å kjøpe, oppgi adressen du ønsker at bitcoin skal sendes til og bekrefte betalingsmetoden som selgeren har annonsert. Klikk på ‘Aksepter tilbud og opprett kontrakt’.
+- Når du er fornøyd, kan du spesifisere hvor mye du ønsker å kjøpe, oppgi adressen du ønsker at bitcoin skal sendes til og bekrefte betalingsmetoden som selgeren har annonsert. Klikk på ‘Aksepter tilbud og opprett kontrakt’.
 
 ![cover](assets/15.webp)
 
-6. Du har nå opprettet kontrakten din og må treffe ‘Generer Escrow’ hvor du vil bli bedt om å opprette et betalingspassord. Betalingspassordet er en krypteringsnøkkel for brukerens escrow nøkkelpar. Det brukes for å sette inn eller frigi Bitcoin til eller fra escrow.
+- Du har nå opprettet kontrakten din og må treffe ‘Generer Escrow’ hvor du vil bli bedt om å opprette et betalingspassord. Betalingspassordet er en krypteringsnøkkel for brukerens escrow nøkkelpar. Det brukes for å sette inn eller frigi Bitcoin til eller fra escrow.
 
 ![cover](assets/16.webp)
 
-7. Nå må du vente på at selgeren deponerer sine bitcoin i escrow-lommeboken. Etter å ha startet kontrakten kan du chatte med selgeren ved hjelp av chatteboksen på høyre side av siden.
+- Nå må du vente på at selgeren deponerer sine bitcoin i escrow-lommeboken. Etter å ha startet kontrakten kan du chatte med selgeren ved hjelp av chatteboksen på høyre side av siden.
 
 ![cover](assets/17.webp)
 
-8. Når selgeren har deponert sine midler til escrow, vil du se denne skjermen som råder deg til ikke å sende pengene dine før det har vært et tilstrekkelig antall blockchain-bekreftelser (dette varierer avhengig av handelsbetingelsene). Du kan sjekke fremgangen til selgerens innskuddstransaksjon ved å klikke på den blå lenken ‘Innskuddstransaksjons-ID’.
+- Når selgeren har deponert sine midler til escrow, vil du se denne skjermen som råder deg til ikke å sende pengene dine før det har vært et tilstrekkelig antall blockchain-bekreftelser (dette varierer avhengig av handelsbetingelsene). Du kan sjekke fremgangen til selgerens innskuddstransaksjon ved å klikke på den blå lenken ‘Innskuddstransaksjons-ID’.
 
 ![cover](assets/18.webp)
 
-9. Når bekreftet vil du bli varslet og du kan da sende pengene til selgeren til detaljene de vil gi deg. Når du har gjort dette klikker du på ‘Jeg har sendt betalingen’.
+- Når bekreftet vil du bli varslet og du kan da sende pengene til selgeren til detaljene de vil gi deg. Når du har gjort dette klikker du på ‘Jeg har sendt betalingen’.
 
 ![cover](assets/19.webp)
 
-10. Du må deretter vente på at selgeren bekrefter at de har mottatt pengene, hvorpå bitcoin vil bli frigitt til adressen du spesifiserte ved starten av kontrakten. Du vil også få muligheten til å vurdere din motpart.
+- Du må deretter vente på at selgeren bekrefter at de har mottatt pengene, hvorpå bitcoin vil bli frigitt til adressen du spesifiserte ved starten av kontrakten. Du vil også få muligheten til å vurdere din motpart.
 
 ![cover](assets/20.webp)
 

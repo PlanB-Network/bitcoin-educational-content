@@ -1,0 +1,9 @@
+question: ใครเป็นผู้ก่อตั้งบริการแลกเปลี่ยนครั้งแรกระหว่างบิตคอยน์และดอลลาร์ในเดือนตุลาคม 2009?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  บริการนี้เป็นพื้นฐาน: การแลกเปลี่ยนถูกเจรจาผ่านทางอีเมล และการชำระเงินทำผ่าน PayPal อัตราแลกเปลี่ยนขึ้นอยู่กับต้นทุน mining ของ Newlibertystandard เอง
+reviewed: true

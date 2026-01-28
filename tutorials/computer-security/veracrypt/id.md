@@ -15,7 +15,7 @@ Dengan kata lain, disarankan untuk menyimpan berkas Anda di 3 lokasi berbeda, me
 
 Untuk menerapkan strategi pencadangan 3-2-1 ini dengan mudah, Anda dapat memilih solusi penyimpanan online, dengan menyinkronkan file dari komputer Anda secara otomatis atau berkala dengan file yang ada di cloud Anda. Di antara solusi pencadangan online ini, tentu saja ada yang berasal dari perusahaan digital besar yang Anda kenal: Google Drive, Microsoft OneDrive, atau Apple iCloud. Namun, ini bukan solusi yang terbaik untuk melindungi privasi Anda. Dalam tutorial sebelumnya, saya telah memperkenalkan Anda pada alternatif yang mengenkripsi dokumen Anda untuk privasi yang lebih baik: Proton Drive.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Dengan mengadopsi strategi pencadangan lokal dan cloud ini, Anda sudah memiliki 2 jenis media berbeda untuk data Anda, salah satunya yang beda lokasi. Untuk melengkapi strategi 3-2-1, Anda hanya perlu menambahkan salinan tambahan. Yang saya sarankan adalah Anda secara berkala mengekspor data yang ada di lokal dan di cloud Anda ke media fisik, seperti USB stick atau hard drive eksternal. Dengan cara ini, meskipun server solusi penyimpanan online Anda hancur dan komputer Anda rusak secara bersamaan, Anda masih memiliki salinan ketiga ini di media eksternal agar tidak kehilangan data Anda.
 ![VeraCrypt](assets/notext/01.webp)
@@ -113,7 +113,7 @@ Saya juga menyarankan Anda untuk menyimpan kata sandi Anda di pengelola kata san
 
 Untuk informasi lebih lanjut tentang pengelolaan kata sandi, saya menyarankan Anda untuk melihat tutorial lengkap lainnya berikut ini:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Masukkan kata sandi Anda di 2 kolom yang ditentukan, kemudian klik pada "*Next / lanjut*".
 ![VeraCrypt](assets/notext/25.webp)

@@ -1,12 +1,8 @@
-question: Wat is het belang van de geografische spreiding van Bitcoin knooppunten?
-answer: Het maakt het praktisch onmogelijk om alle kopieën van de Blockchain te vernietigen.
+question: Wat is het geschatte aantal nodes verspreid over de wereld vanaf september 2023?
+answer: 45.000 knooppunten.
 wrong_answers:
-  - Het bepaalt de prijs van Bitcoin in verschillende regio's.
-  - Het beïnvloedt de snelheid van Bitcoin transacties.
-  - Het bepaalt het aantal bitcoins dat in een regio kan worden gemined.
-explanation: |
-  De geografische spreiding van Bitcoin knooppunten maakt het
-  praktisch onmogelijk om alle kopieën van de
-  Blockchain TE VERNIETIGEN. Omdat de knooppunten verspreid zijn, is het moeilijk om ze
-  ze allemaal fysiek in beslag te nemen.
+  - 10.000 knooppunten.
+  - 100.000 knooppunten.
+  - 500.000 knooppunten.
+explanation: >-
 reviewed: true

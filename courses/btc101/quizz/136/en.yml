@@ -1,11 +1,11 @@
-question: How does the Bitcoin network ensure that it is too costly to act maliciously within the Bitcoin protocol?
-answer: Through protocol rules and economic incentives.
+question: What would occur if a node user chose to follow different rules that contradict the existing consensus rules?
+answer: The node will no longer be part of the Bitcoin network.
 wrong_answers:
-  - Through strict regulation and oversight.
-  - Through the use of advanced security measures.
-  - Through the threat of legal action.
-explanation: >-
-  The Bitcoin network ensures that it is too costly to act maliciously
-  within the Bitcoin protocol through protocol rules and economic incentives. This
-  eliminates the need for trust at any step of the bitcoin ownership transfer.
+  - The node will become a part of a different Bitcoin network.
+  - The node will be penalized by the Bitcoin network.
+  - The node will be rewarded by the Bitcoin network.
+explanation: |
+  If a node user decided to follow other rules that
+  invalidate the current consensus rules, then this node
+  would no longer be part of the Bitcoin network.
 reviewed: true

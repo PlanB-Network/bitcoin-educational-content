@@ -1,12 +1,12 @@
-question: What economic principles does Bitcoin align with?
-answer: Principles of Austrian economics.
+question: What are the three main functions of a Bitcoin wallet?
+answer: Receiving bitcoins, sending bitcoins, secure them against hacking and theft attempts.
 wrong_answers:
-  - Principles of Keynesian economics.
-  - Principles of Marxist economics.
-  - Principles of Neoclassical economics.
+  - Store bitcoins, sending bitcoins, secure them against hacking and theft attempts.
+  - Allow receiving bitcoins, store bitcoins, secure them against hacking and theft attempts.
+  - Allow receiving bitcoins, allow sending bitcoins, selling bitcoins.
 explanation: |
-  Bitcoin aligns with the principles of Austrian economics.
-  Its capped quantity and lack of central entity protect it
-  from the inherent risks of inflation that are seen in
-  traditional currencies.
+  A Bitcoin wallet is used to interact with the Bitcoin
+  network. Its three main functions are to allow receiving
+  bitcoins, allow sending bitcoins, and secure them against
+  hacking and theft attempts.
 reviewed: true

@@ -1,11 +1,13 @@
-question: How is sound money created?
-answer: Sound money must naturally emerge from the market and the voluntary consensus.
+question: What is the main objective behind the creation of Bitcoin?
+answer: To separate the State from money.
 wrong_answers:
-  - Sound money needs to be enforced by government by issuing monetary laws.
-  - Sound money has to be imposed by companies through the use of violence.
-  - Sound money can't be created.
+  - To eliminate the gold standard.
+  - To make transactions faster and cheaper.
+  - To make everyone rich.
 explanation: |
-  Sound money is a natural social phenomenon that must emerge
-  from the market and the voluntary consensus. No human or
-  group of humans can create money.
+  Bitcoin was created with the aim of separating the State
+  from money. It is a response to the systemic challenges of
+  the current financial system, where the State has full
+  control over the money supply and can manipulate it to its
+  own advantage.
 reviewed: true

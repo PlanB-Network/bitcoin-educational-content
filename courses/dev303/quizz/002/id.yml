@@ -1,0 +1,8 @@
+question: Apa yang terjadi jika Anda mendeklarasikan sebuah variabel dalam Rust menggunakan 'let x = 5' tanpa kata kunci tambahan?
+answer: Variabel menjadi tidak dapat diubah dan tidak dapat diubah setelah ditetapkan
+wrong_answers:
+  - Variabel menjadi berubah-ubah dan dapat dimodifikasi kapan saja
+  - Variabel secara otomatis dioptimalkan untuk rilis build saja
+  - Variabel membutuhkan anotasi tipe eksplisit agar berhasil dikompilasi
+explanation: |
+  Dalam Rust, variabel tidak dapat diubah secara default ketika dideklarasikan dengan 'let'. Ini berarti setelah Anda memberikan nilai pada sebuah variabel seperti 'let x = 5', Anda tidak dapat mengubah nilai tersebut di kemudian hari di dalam program. Jika Anda mencoba memodifikasinya, kompiler akan menghasilkan kesalahan. Kekekalan default ini adalah fitur keamanan utama yang mencegah banyak bug pemrograman umum yang disebabkan oleh perubahan status yang tidak terduga. Untuk membuat sebuah variabel dapat diubah, Anda harus secara eksplisit menggunakan kata kunci 'mut' seperti 'let mut x = 5'.

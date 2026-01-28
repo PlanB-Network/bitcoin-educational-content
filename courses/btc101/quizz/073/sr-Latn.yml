@@ -1,8 +1,9 @@
-question: Šta je privatni ključ u Bitkoin novčaniku?
-answer: Tajni ključ koji vam omogućava da potpišete svoje transakcije.
+question: Kolika je verovatnoća da neko slučajno pogodi vašu listu od 12 ili 24 reči u Bitkoin novčaniku?
+answer: Astronomski nisko.
 wrong_answers:
-  - Javni ključ korišćen za generisanje Bitkoin adrese.
-  - Tajna lista reči za uništenje novčanika u slučaju potrebe.
-  - Tajni ključ za šifrovanje Bitkoin transakcija.
-explanation: >-
+  - Visoko.
+  - Umereno.
+  - Snažan.
+explanation: |
+  Zahvaljujući kriptografiji korišćenoj za kreiranje novčanika, verovatnoća da neko slučajno pogodi vašu listu od 12 ili 24 reči je astronomski niska. To je kao da pronađete pravi broj između 1 i $2^256$, što je gotovo ekvivalentno pronalaženju određenog atoma u Univerzumu.
 reviewed: true

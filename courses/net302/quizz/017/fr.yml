@@ -6,4 +6,4 @@ wrong_answers:
   - La longueur minimale des entêtes IP sans fragmentation
 explanation: |
   La MTU (Maximum Transmission Unit) définit la taille maximale d’une trame pouvant être transmise sur un segment sans nécessiter de fragmentation.
-reviewed: false
+reviewed: true 

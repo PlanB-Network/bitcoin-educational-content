@@ -6,4 +6,4 @@ wrong_answers:
   - Deli običan tekst na blokove od 128 bita
 explanation: |
   Operacija zamene bajtova (S-Box) u AES-u uvodi konfuziju zamenom svakog bajta različitom vrednošću prema tabeli, čineći šifrovani tekst težim za analizu.
-reviewed: false
+reviewed: true

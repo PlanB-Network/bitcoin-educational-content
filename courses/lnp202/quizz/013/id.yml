@@ -1,0 +1,9 @@
+question: Solusi mana yang memungkinkan Anda untuk menjalankan simpul Lightning yang sesungguhnya pada ponsel?
+answer: Node LN tertanam
+wrong_answers:
+  - Petir Kustodian wallet
+  - Pertukaran atom petir
+  - Saluran federasi
+explanation: |
+  Solusi seperti Phoenix atau Zeus Embedded menyematkan simpul Lightning asli langsung ke dalam aplikasi.
+reviewed: false

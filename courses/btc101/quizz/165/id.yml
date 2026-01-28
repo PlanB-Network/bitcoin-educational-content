@@ -1,9 +1,12 @@
-question: Bagaimana protokol Bitcoin memastikan bahwa waktu rata-rata antara dua blok tetap konstan?
-answer: Kesulitan menemukan hash yang valid disesuaikan setiap 2016 blok
+question: Apa perbedaan utama antara ide ekonomi Keynesian dan ekonomi Austria terkait dengan sistem moneter?
+answer: Ekonomi Keynesian tidak memperhitungkan aspek temporal dan dinamis dari situasi dan sumber daya
 wrong_answers:
-  - Jumlah penambang diatur
-  - Ukuran blok disesuaikan
-  - Hadiah untuk menemukan hash yang valid ditingkatkan
+  - Ekonomi Keynesian mendorong konsumsi berlebihan dan utang
+  - Ekonomi Keynesian tidak mencerminkan kelangkaan sumber daya
+  - Ekonomi Keynesian mendorong inflasi
 explanation: >-
-  Protokol Bitcoin memastikan bahwa waktu rata-rata antara dua blok tetap konstan dengan menyesuaikan kesulitan menemukan hash yang valid setiap 2016 blok. Hal ini terjadi terlepas dari jumlah penambang dan kekuatan komputasi mereka.
+  Perbedaan utama antara ide ekonomi Keynesian dan ekonomi Austria terkait dengan sistem moneter adalah bahwa ekonomi Keynesian tidak
+  memperhitungkan aspek temporal dan dinamis dari situasi dan sumber daya.
+  Dengan kata lain, mata uang yang tidak terbatas tidak dapat secara efektif mencerminkan sumber daya terbatas
+  dari planet kita.
 reviewed: false

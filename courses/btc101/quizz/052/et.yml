@@ -1,10 +1,9 @@
-question: Milline on 20% inflatsiooni mõju ostujõule kolme aasta jooksul?
-answer: Kaotate 50% oma ostujõust
+question: Milline järgnevatest ei ole Bitcoini omadus?
+answer: Seda on lihtne tsenseerida.
 wrong_answers:
-  - Kaotate 100% oma ostujõust
-  - Kaotate 60% oma ostujõust
-  - Kaotate 30% oma ostujõust
+  - See on koheselt ülekantav.
+  - Selle kontrollimise kulud on tühised.
+  - Sellel on fikseeritud rahapoliitika.
 explanation: |
-  20% inflatsiooni korral kaotate peaaegu poole oma ostujõust
-  kolme aasta jooksul.
+  Bitcoinil on kõik vajalikud omadused, et olla tõhus ja terve valuuta: jagatav, koheselt ülekantav, tsenseerimatu, tühised kontrollimise kulud ja rahapoliitika, mis on juba sajandiks ette määratud 21 miljoni ühikuga.
 reviewed: true

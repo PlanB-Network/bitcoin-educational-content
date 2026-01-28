@@ -1,9 +1,9 @@
-question: 最初に記録されたBitcoin取引は何ですか？
-answer: Satoshi NakamotoとHal Finneyの間の10 BTCの取引です。
+question: 最初のBitcoin取引のブロック番号は何ですか？
+answer: ブロック170。
 wrong_answers:
-  - 2つのピザのための10,000 BTCの取引。
-  - Satoshi NakamotoとHal Finneyの間の1 BTCの取引。
-  - Laszlo HanyeczとHal Finneyの間の10,000 BTCの取引。
+  - ブロック1。
+  - ブロック17。
+  - ブロック1700。
 explanation: |
-  最初に記録されたBitcoin取引は、Satoshi NakamotoとHal Finneyの間の10 BTCの取引でした。
+  最初のBitcoin取引は、Satoshi NakamotoとHal Finneyの間で行われた10BTCの取引で、ブロック170に記録されています。
 reviewed: true

@@ -1,0 +1,9 @@
+question: Welche Backups sind für die Wiederherstellung einer Lightning Noder erforderlich?
+answer: Seed und SCB
+wrong_answers:
+  - Seed und txindex-Datei
+  - Seed und öffentliche IP Adresse
+  - Seed und 2FA
+explanation: |
+  Die Wiederherstellung einer Lightning Node erfordert sowohl Seed als auch SCB (Static Channel Backup), ohne die Kanalguthaben nicht wiederhergestellt werden können.
+reviewed: true

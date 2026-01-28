@@ -1,4 +1,4 @@
-question: Je, ni 2 Elements gani zinazounda Block reward katika Coinbase Transaction?
+question: Je, ni Elements gani mbili zinazounda Block reward katika Coinbase Transaction?
 answer: Ruzuku ya kuzuia na ada za muamala.
 wrong_answers:
   - Ruzuku ya kuzuia na bonasi za kasi.
@@ -6,4 +6,4 @@ wrong_answers:
   - Gawio la Mining na ushuru wa mtandao.
 explanation: |
   Miner inapopata kizuizi halali, wana haki ya kupata zawadi inayojumuisha, kwa upande mmoja, ruzuku ya kuzuia, na kwa upande mwingine, ada za miamala ambayo wamejumuisha kwenye kizuizi chao.
-reviewed: false
+reviewed: true

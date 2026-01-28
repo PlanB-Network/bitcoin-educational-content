@@ -1,9 +1,11 @@
-question: Jak Bitcoinová síť zajišťuje, že je příliš nákladné jednat zákeřně v rámci Bitcoinového protokolu?
-answer: Prostřednictvím pravidel protokolu a ekonomických pobídek.
+question: Co by se stalo, pokud by uživatel uzlu rozhodl následovat odlišná pravidla, která by byla v rozporu s existujícími pravidly konsensu?
+answer: Uzel již nebude součástí Bitcoinové sítě.
 wrong_answers:
-  - Prostřednictvím přísné regulace a dohledu.
-  - Použitím pokročilých bezpečnostních opatření.
-  - Přes hrozbu právních kroků.
-explanation: >-
-  Bitcoinová síť zajišťuje, že je příliš nákladné jednat zákeřně v rámci Bitcoinového protokolu prostřednictvím pravidel protokolu a ekonomických pobídek. To eliminuje potřebu důvěry v jakémkoli kroku převodu vlastnictví bitcoinů.
+  - Uzel se stane součástí jiné Bitcoinové sítě.
+  - Uzel bude Bitcoinovou sítí penalizován.
+  - Uzel bude Bitcoinovou sítí odměněn.
+explanation: |
+  Pokud by uživatel uzlu rozhodl následovat jiná pravidla,
+  která by invalidovala současná pravidla konsensu, pak by tento uzel
+  již nebyl součástí Bitcoinové sítě.
 reviewed: true

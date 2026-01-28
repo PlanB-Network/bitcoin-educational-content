@@ -1,0 +1,9 @@
+question: Với thiết bị Lightning wallet được dùng để lưu giữ tài sản, ai là chủ sở hữu của bitcoin?
+answer: Công ty
+wrong_answers:
+  - Người dùng
+  - Mạng lưới Lightning
+  - Lõi Bitcoin
+explanation: |
+  Trong mô hình lưu ký, công ty nắm giữ chìa khóa và kiểm soát tiền, trong khi người dùng chỉ có số dư tài khoản.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qu'est-ce qui sert de pseudonymes dans le système de pseudonymes de Bitcoin ?
+answer: Adresses dérivées des clés publiques
+wrong_answers:
+  - "Des noms d'utilisateur descriptifs comme 'watchme1984'"
+  - Clés privées stockées dans des portefeuilles
+  - ID de transaction sur la blockchain
+explanation: |
+  Bitcoin utilise des adresses dérivées de clés publiques comme pseudonymes plutôt que des noms d'utilisateur arbitraires ou d'autres identifiants. Ce choix de conception répond à plusieurs objectifs importants : il élimine la nécessité d'enregistrer préalablement les pseudonymes sur la blockchain, réduit les incitations à réutiliser le même pseudonyme, évite le gonflement inutile de la blockchain et rend beaucoup plus difficile l'usurpation d'identité par des acteurs malveillants. L'utilisation de noms d'utilisateur descriptifs nécessiterait un système d'enregistrement et créerait des vulnérabilités en matière de sécurité, tandis que les clés privées doivent rester secrètes et que les identifiants de transaction ont une autre fonction dans le système.
+reviewed: false

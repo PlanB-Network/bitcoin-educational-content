@@ -1,10 +1,12 @@
-question: Qual é o papel da chave pública em uma carteira de Bitcoin?
-answer: É usada para gerar endereços de Bitcoin e, assim, receber dinheiro.
+question: Qual é a analogia usada neste curso para explicar como você pode receber bitcoins sem permitir que o remetente roube seus fundos?
+answer: Uma caixa de correio.
 wrong_answers:
-  - É usada para criptografar transações de Bitcoin.
-  - É usada para acessar a carteira de Bitcoin.
-  - É usada para fazer backup da carteira de Bitcoin.
+  - Uma conta bancária.
+  - Um cofre.
+  - Uma casa.
 explanation: |
-  A chave pública é derivada da chave privada e é usada
-  para gerar endereços de Bitcoin a fim de receber dinheiro.
+  A analogia usada para explicar como você pode receber Bitcoins
+  sem permitir que o remetente roube seus fundos é uma
+  caixa de correio. As pessoas depositam dinheiro nela, mas você é o único
+  que pode abri-la.
 reviewed: true

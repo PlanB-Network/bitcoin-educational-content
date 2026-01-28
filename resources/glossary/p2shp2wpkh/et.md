@@ -8,4 +8,4 @@ P2SH-P2WPKH võeti kasutusele koos SegWiti rakendamisega 2017. aasta augustis. S
 
 See skript loodi SegWit'i käivitamisel, et hõlbustada selle kasutuselevõttu. See võimaldab seda uut standardit kasutada isegi teenuste või rahakottidega, mis ei ole veel algselt SegWitiga ühilduvad. Tegemist on omamoodi üleminekuskeptiga uue standardi suunas. Tänapäeval ei ole seetõttu enam väga asjakohane kasutada sedalaadi pakendatud SegWit-skripte, kuna enamik rahakotte on rakendanud natiivse SegWiti. P2SH-P2WPKH-aadressid kirjutatakse `Base58Check` kodeeringut kasutades ja need algavad alati `3`-ga, nagu iga P2SH-aadress.
 
-> ► *`P2SH-P2WPKH` nimetatakse mõnikord ka `P2WPKH-p2SH-siseselt-P2SH`
+> ► *`P2SH-P2WPKH` nimetatakse mõnikord ka `P2WPKH-p2SH-siseselt-P2SH`*

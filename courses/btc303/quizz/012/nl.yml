@@ -1,0 +1,9 @@
+question: Wat is volgens het hoofdstuk de belangrijkste beperking waar zelfs een full node je niet tegen kan beschermen?
+answer: Chain rewrites die je transacties kunnen verdubbelen
+wrong_answers:
+  - Kwaadaardige software die je privésleutels uit het geheugen steelt
+  - "Ongeldige blokken die de consensusregels van Bitcoin niet volgen"
+  - Onjuiste muntuitgifteschema's die het protocol schenden
+explanation: |
+  Hoewel een full node kan verifiëren dat blokken de consensusregels volgen, de uitgifte van ongeldige munten kan voorkomen en protocolovertredingen kan detecteren, kan het niet voorkomen dat de ketting wordt herschreven, waarbij miners de blockchain reorganiseren om transacties dubbel uit te geven. Het hoofdstuk stelt specifiek dat hoe geavanceerd je software ook is, je er nog steeds op moet vertrouwen dat blokken met je munten niet worden herschreven. Daarom is het verdedigingsmechanisme van Bitcoin gebaseerd op het wachten op meerdere bevestigingen om de waarschijnlijkheid van een chain rewrite tot een aanvaardbaar niveau te reduceren.
+reviewed: false

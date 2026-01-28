@@ -1,0 +1,9 @@
+question: Ni ikihe kintu kigena ico urudodo rugira ku mategeko y’uguhurizako?
+answer: Uburemere bwayo bw'ubutunzi
+wrong_answers:
+  - Umubare w'amahuza asohoka
+  - Ubukuru mu rubuga
+  - Ntaco, kuko buri node ifise itora rimwe
+explanation: |
+  Inkurikizi ku mategeko y’uguhurizako zivana n’igikorwa c’ubutunzi gishigikiwe n’urudodo, atari umubare wayo.
+reviewed: true

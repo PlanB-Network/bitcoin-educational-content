@@ -1,0 +1,9 @@
+question: Jenis peralatan apa yang digunakan saat ini untuk menambang Bitcoin secara efisien?
+answer: ASIC
+wrong_answers:
+  - CPU klasik
+  - GPU
+  - FPGA
+explanation: |
+  Saat ini, Bitcoin Mining dilakukan dengan menggunakan ASIC. Ini adalah chip khusus untuk algoritma SHA-256.
+reviewed: true

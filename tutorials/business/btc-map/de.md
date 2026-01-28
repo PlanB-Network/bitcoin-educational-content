@@ -1,5 +1,5 @@
 ---
-name: BTC-Karte
+name: BTC Map
 description: Finden Sie Orte, an denen Sie Ihr Sats ausgeben können
 ---
 ![cover](assets/cover.webp)
@@ -247,7 +247,7 @@ Sie werden sofort die orangefarbenen Bereiche bemerken. Wie Sie sehen können, h
 
 
 
-BTC Map ermöglicht es Ihnen, [Ihre eigene Gemeinschaft hinzuzufügen] (https://btcmap.org/communities/add/), lassen Sie uns einen Blick darauf werfen, Schritt für Schritt:
+BTC Map ermöglicht es Ihnen, [Ihre eigene Gemeinschaft hinzuzufügen](https://btcmap.org/communities/add/), lassen Sie uns einen Blick darauf werfen, Schritt für Schritt:
 
 
 

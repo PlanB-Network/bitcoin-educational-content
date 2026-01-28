@@ -19,25 +19,26 @@ Obecnie Jami jest dostępny na wielu systemach. Słynie z wydajności, płynnoś
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Aplikacja | E2EE 1:1 | Grupy E2EE | Anonimowa rejestracja | Licencja klienta open-source | Licencja serwera open-source | Serwer zdecentralizowany | Rok powstania |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| **Jami**                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (opcjonalnie) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (opcjonalnie) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federacyjny) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (przez e-mail) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federacyjny) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (brak katalogu) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| **Jami** | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = szyfrowanie typu end-to-end*
 
@@ -50,11 +51,11 @@ Obecnie Jami jest dostępny na wielu systemach. Słynie z wydajności, płynnoś
 
 
 
-- Jest to oprogramowanie open-source i całkowicie darmowe**, więc można z niego korzystać bez żadnych kosztów.
-- Komplet przydatnych funkcji**: to oprogramowanie pozwala korzystać z wielu opcji dzięki możliwości łatwego dodawania wtyczek ze sklepu. Możliwe jest nawet tworzenie własnych rozszerzeń dla funkcji bardziej dostosowanych do twoich potrzeb.
-- Łatwy w użyciu i intuicyjny Interface**: pomimo wielu funkcji, które oferuje Jami, nadal jest bardzo łatwy do opanowania.
-- Silne bezpieczeństwo**: Jami wykorzystuje zaawansowany algorytm szyfrowania, który gwarantuje bezpieczeństwo komunikacji przy jednoczesnym poszanowaniu prywatności użytkownika.
-- Wysoka dostępność i szybkość**: oferuje łatwą komunikację nawet przy ograniczonej przepustowości, co zwiększa łatwość obsługi.
+- Jest to oprogramowanie open-source i całkowicie darmowe, więc można z niego korzystać bez żadnych kosztów.
+- **Komplet przydatnych funkcji**: to oprogramowanie pozwala korzystać z wielu opcji dzięki możliwości łatwego dodawania wtyczek ze sklepu. Możliwe jest nawet tworzenie własnych rozszerzeń dla funkcji bardziej dostosowanych do twoich potrzeb.
+- Łatwy w użyciu i intuicyjny **Interface**: pomimo wielu funkcji, które oferuje Jami, nadal jest bardzo łatwy do opanowania.
+- **Silne bezpieczeństwo**: Jami wykorzystuje zaawansowany algorytm szyfrowania, który gwarantuje bezpieczeństwo komunikacji przy jednoczesnym poszanowaniu prywatności użytkownika.
+- **Wysoka dostępność i szybkość**: oferuje łatwą komunikację nawet przy ograniczonej przepustowości, co zwiększa łatwość obsługi.
 
 
 
@@ -140,7 +141,7 @@ To polecenie instaluje narzędzia potrzebne do zarządzania kluczami GPG (gnupg 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -338,9 +339,9 @@ Jami oferuje również **zaawansowane funkcje** dla użytkowników, którzy chc�
 
 
 
-- Utwórz punkt spotkania**: Ta funkcja umożliwia utworzenie **punktu spotkania** dla komunikacji, przydatnego do organizowania bezpiecznych sesji lub wymiany między kilkoma użytkownikami.
-- Połączenie z serwerem Jami**: Możesz połączyć Jami z **serwerem Jami**, co może poprawić wydajność lub dostępność komunikacji, szczególnie w środowiskach profesjonalnych.
-- Konfiguracja konta SIP**: Możesz skonfigurować konto **SIP** (Session Initiation Protocol), umożliwiające integrację Jami z istniejącymi systemami telefonicznymi lub wykonywanie połączeń telefonicznych.
+- **Utwórz punkt spotkania**: Ta funkcja umożliwia utworzenie **punktu spotkania** dla komunikacji, przydatnego do organizowania bezpiecznych sesji lub wymiany między kilkoma użytkownikami.
+- **Połączenie z serwerem Jami**: Możesz połączyć Jami z **serwerem Jami**, co może poprawić wydajność lub dostępność komunikacji, szczególnie w środowiskach profesjonalnych.
+- **Konfiguracja konta SIP**: Możesz skonfigurować konto **SIP** (Session Initiation Protocol), umożliwiające integrację Jami z istniejącymi systemami telefonicznymi lub wykonywanie połączeń telefonicznych.
 
 
 
@@ -360,4 +361,4 @@ Odkryj Tox, zdecentralizowany protokół, który łączy szyfrowanie end-to-end 
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

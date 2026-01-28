@@ -1,0 +1,8 @@
+question: In a Lightning Terminal deployment, what is the fundamental relationship between LND Accounts and the host node's liquidity infrastructure?
+answer: LND Accounts are virtual logic layers that partition access to the host node's existing channels and liquidity without fragmenting the underlying capital
+wrong_answers:
+  - LND Accounts create independent Lightning channels that are pooled together but maintain separate liquidity reserves for each virtual account
+  - "LND Accounts establish dedicated on-chain wallets that automatically rebalance liquidity through atomic swaps with the primary node's channels"
+  - "LND Accounts generate child nodes with their own private keys that inherit a portion of the parent node's channel capacity through hierarchical deterministic derivation"
+explanation: |
+  LND Accounts are purely virtual constructs that create logical partitions within a single node's infrastructure. They do not create separate channels, wallets, or keys - instead, they function as access control layers that allow multiple users or applications to share the host node's existing liquidity and connectivity. This design prevents capital fragmentation while enabling secure multi-tenant access to Lightning Network functionality.

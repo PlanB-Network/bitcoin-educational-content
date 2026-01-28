@@ -1,0 +1,9 @@
+question: Ni akamaro akahe kanini Tailscale ifise kuri Tor ku bijanye no gushika kure kuri Umbrel?
+answer: Ihuriro ryihuta
+wrong_answers:
+  - Ububiko bukomeye kurusha WireGuard
+  - Uguhuza n'ama router y'ikigo
+  - Ubushobozi bwo gukoresha Electrs ata murongo
+explanation: |
+  Tailscale itanga umutekano wa WireGuard, ariko n’umuvuduko w’uruja n’uruza rwa clearnet, bitandukanye na Tor, igenda buhoro.
+reviewed: true

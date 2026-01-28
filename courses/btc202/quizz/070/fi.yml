@@ -1,0 +1,9 @@
+question: Kuka ylläpitää DNS seed -palvelimia, joita käytetään vertaisverkon alustavaan löytämiseen?
+answer: Ekosysteemin kehittäjät
+wrong_answers:
+  - Internet-palvelujen tarjoajat
+  - Satoshi Nakamoto
+  - Mining altaat
+explanation: |
+  DNS-siemeniä ylläpitävät tunnetut kehittäjät (Wuille, Corallo, Dashjr jne.), ja ne tarjoavat aktiivisten solmujen IP-osoitteita yhteyksien aloittamista varten.
+reviewed: true

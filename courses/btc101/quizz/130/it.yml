@@ -1,9 +1,12 @@
-question: Perché il numero di conferme in una transazione Bitcoin è importante?
-answer: Più conferme ha una transazione, più diventa immutabile.
+question: Come trasferiscono la proprietà dei loro soldi gli utenti nella rete Bitcoin?
+answer: Firmando digitalmente le transazioni con le loro chiavi private.
 wrong_answers:
-  - Più conferme ha una transazione, più diventa preziosa.
-  - Più conferme ha una transazione, più velocemente viene elaborata.
-  - Più conferme ha una transazione, meno è sicura.
-explanation: >-
-  Il numero di conferme in una transazione Bitcoin indica quanti blocchi sono stati minati sopra il blocco che contiene la transazione. Più conferme ha una transazione, più diventa immutabile.
+  - Consegnando fisicamente i loro Bitcoin.
+  - Inviando un'email al destinatario.
+  - Fornendo il loro indirizzo Bitcoin al destinatario.
+explanation: |
+  Gli utenti nella rete Bitcoin trasferiscono la proprietà dei loro
+  soldi firmando digitalmente le transazioni con le loro chiavi
+  private. Questo verifica che sono i proprietari dei
+  bitcoin che vogliono trasferire.
 reviewed: true

@@ -1,0 +1,12 @@
+question: Mikä on Wei Dain b-money?
+answer: Anonyymin digitaalisen valuutan idea, jossa petoksen havaitseminen suoritettiin yhteisön arvioijien toimesta keskitetyn viranomaisen sijaan.
+wrong_answers:
+  - Digitaalinen valuutta, jota käytettiin laajalti ennen Bitcoinia ja jota hallinnoi joukko kyberpunkkeja.
+  - Digitaalisen rahan muoto, jonka CIA loi ja jota armeija käytti.
+  - Digitaalinen valuutta, jonka Wei Dai loi kilpailemaan Bitcoinin kanssa ollakseen skaalautuvampi.
+explanation: |
+  Wei Dain b-money oli anonyymin digitaalisen
+  valuutan idea ilman keskitettyä toimijaa, joka suuresti inspiroi
+  Bitcoinin luomista. Itse asiassa se mainitaan Bitcoinin
+  whitepaperissa.
+reviewed: true

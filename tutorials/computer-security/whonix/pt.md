@@ -17,12 +17,12 @@ description: Preservar a sua privacidade e confidencialidade.
 
 
 
-- Grátis**: Como a maioria das distribuições Linux, o Whonix é um sistema de código aberto licenciado de forma totalmente gratuita. Ele é desenvolvido em código aberto, com uma comunidade ativa e transparente.
-- Privacidade, segurança e anonimato**: O principal objetivo do Whonix é oferecer um ambiente ultra-seguro, no qual todos os seus dados estão protegidos e as suas comunicações encriptadas através da rede Tor.
-- Fácil de usar**: O Whonix oferece um Interface gráfico intuitivo e pré-configurado, adequado até mesmo para utilizadores novatos. Não é necessário ser um especialista para beneficiar da proteção avançada.
-- Ambiente ideal para desenvolvimento seguro**: O Whonix permite-lhe desenvolver, testar, auditar ou executar programas sem nunca revelar o seu verdadeiro IP Address ou expor os seus hábitos de navegação ou de comunicação na rede.
-- Sessões descartáveis e modo Live**: O Whonix pode ser iniciado no modo Live ou através de máquinas descartáveis (por exemplo, através do **Qubes OS**), permitindo que tarefas críticas sejam executadas sem deixar vestígios persistentes após o término da sessão.
-- Instalação relativamente simples**: São fornecidas imagens prontas a utilizar para uma instalação rápida em máquinas virtuais (VirtualBox, KVM, Qubes). O sistema está documentado e é atualizado regularmente.
+- **Grátis**: Como a maioria das distribuições Linux, o Whonix é um sistema de código aberto licenciado de forma totalmente gratuita. Ele é desenvolvido em código aberto, com uma comunidade ativa e transparente.
+- **Privacidade, segurança e anonimato**: O principal objetivo do Whonix é oferecer um ambiente ultra-seguro, no qual todos os seus dados estão protegidos e as suas comunicações encriptadas através da rede Tor.
+- **Fácil de usar**: O Whonix oferece um Interface gráfico intuitivo e pré-configurado, adequado até mesmo para utilizadores novatos. Não é necessário ser um especialista para beneficiar da proteção avançada.
+- **Ambiente ideal para desenvolvimento seguro**: O Whonix permite-lhe desenvolver, testar, auditar ou executar programas sem nunca revelar o seu verdadeiro IP Address ou expor os seus hábitos de navegação ou de comunicação na rede.
+- Sessões descartáveis e modo Live: O Whonix pode ser iniciado no modo Live ou através de máquinas descartáveis (por exemplo, através do **Qubes OS**), permitindo que tarefas críticas sejam executadas sem deixar vestígios persistentes após o término da sessão.
+- **Instalação relativamente simples**: São fornecidas imagens prontas a utilizar para uma instalação rápida em máquinas virtuais (VirtualBox, KVM, Qubes). O sistema está documentado e é atualizado regularmente.
 
 
 
@@ -56,9 +56,9 @@ Aqui estão as especificações recomendadas para uma experiência suave e está
 
 
 
-- Memória de acesso aleatório (RAM)**: recomenda-se vivamente um mínimo de **8 GB**. Quanto mais RAM tiver, mais recursos pode atribuir às máquinas virtuais (Gateway e Workstation), melhorando o desempenho.
+- **Memória de acesso aleatório (RAM)**: recomenda-se vivamente um mínimo de **8 GB**. Quanto mais RAM tiver, mais recursos pode atribuir às máquinas virtuais (Gateway e Workstation), melhorando o desempenho.
 - Espaço disponível em disco**: permita pelo menos 30 GB de espaço livre em disco**. Isto inclui o espaço necessário para as duas máquinas virtuais, ficheiros de sistema e quaisquer dados ou instantâneos.
-- Processador**: é recomendado um processador com pelo menos **4 núcleos físicos** (8 threads lógicos), especialmente se pretender executar outros serviços ou ferramentas em paralelo.
+- **Processador**: é recomendado um processador com pelo menos **4 núcleos físicos** (8 threads lógicos), especialmente se pretender executar outros serviços ou ferramentas em paralelo.
 
 
 
@@ -66,7 +66,7 @@ Aqui estão as especificações recomendadas para uma experiência suave e está
 
 
 
-O Whonix está disponível em várias edições, dependendo do tipo de ambiente em que se deseja usá-lo. Para a maioria dos utilizadores (Windows, Linux ou MacOs), a edição VirtualBox é a mais fácil de configurar. Você pode baixar a imagem diretamente do [site oficial] (https://www.whonix.org/wiki/VirtualBox).
+O Whonix está disponível em várias edições, dependendo do tipo de ambiente em que se deseja usá-lo. Para a maioria dos utilizadores (Windows, Linux ou MacOs), a edição VirtualBox é a mais fácil de configurar. Você pode baixar a imagem diretamente do [site oficial](https://www.whonix.org/wiki/VirtualBox).
 
 
 
@@ -86,7 +86,7 @@ Depois de ter descarregado o ficheiro, instale-o como faria com qualquer outro s
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Importando o Whonix
 
 
@@ -205,14 +205,14 @@ sudo apt full-upgrade
 
 
 
-*o *Whonix** é um sistema concebido para proporcionar um ambiente informático **seguro**, **anónimo** e **confidencial**, ideal para navegar na Internet sem comprometer a sua identidade ou os seus dados. Para tal, inclui uma série de aplicações úteis para o dia a dia, concebidas para reforçar a sua segurança digital desde o início.
+**O Whonix** é um sistema concebido para proporcionar um ambiente informático **seguro**, **anónimo** e **confidencial**, ideal para navegar na Internet sem comprometer a sua identidade ou os seus dados. Para tal, inclui uma série de aplicações úteis para o dia a dia, concebidas para reforçar a sua segurança digital desde o início.
 
 
 ### KeepassXC
 
 
 
-*o *KeePassXC** é o gerenciador de senhas integrado do Whonix. Ele permite **criar, armazenar e gerenciar** suas senhas com segurança, sem ter que se lembrar de todas elas manualmente. As senhas são armazenadas em um **banco de dados criptografado**, protegido por uma senha mestra.
+O **KeePassXC** é o gerenciador de senhas integrado do Whonix. Ele permite **criar, armazenar e gerenciar** suas senhas com segurança, sem ter que se lembrar de todas elas manualmente. As senhas são armazenadas em um **banco de dados criptografado**, protegido por uma senha mestra.
 
 
 
@@ -220,11 +220,11 @@ sudo apt full-upgrade
 
 
 
-*o **Tor Browser** é o navegador web padrão do Whonix. Ele depende da rede **Tor**, que redirecciona o seu tráfego através de vários relés em todo o mundo, tornando praticamente impossível identificar o seu verdadeiro IP Address.
+O **Tor Browser** é o navegador web padrão do Whonix. Ele depende da rede **Tor**, que redirecciona o seu tráfego através de vários relés em todo o mundo, tornando praticamente impossível identificar o seu verdadeiro IP Address.
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 O Whonix é mais do que apenas um sistema operativo: é um verdadeiro **ambiente seguro** concebido para proteger o seu anonimato, a sua privacidade e as suas actividades sensíveis. Graças à sua arquitetura baseada no Tor, ao particionamento inteligente entre Gateway e Workstation e às ferramentas pré-instaladas, como o Tor Browser, o KeePassXC e o Electrum, oferece uma solução chave-na-mão para qualquer pessoa que deseje **navegar anonimamente**, **trabalhar em segurança** ou **tratar dados confidenciais**.
 
@@ -244,4 +244,4 @@ Para reforçar a segurança no seu sistema Unix, consulte o nosso tutorial sobre
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

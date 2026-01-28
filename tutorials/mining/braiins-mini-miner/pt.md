@@ -1,12 +1,12 @@
 ---
-name: Mini Miner Braiins
+name: Braiins Mini Miner
 description: Fazer Mining facilmente a partir de casa.
 ---
 ![cover](assets/cover.webp)
 
 
 
-### Introdução
+## Introdução
 
 
 
@@ -14,11 +14,11 @@ O Mini Miner braiins BMM 100 é um produto criado pela Mining pool Braiins. Este
 
 
 
-Também pode encontrar informações muito mais importantes consultando o guia completo diretamente no [sítio do fabricante] (https://braiins.com/hardware/mini-Miner-bmm-100).
+Também pode encontrar informações muito mais importantes consultando o guia completo diretamente no [sítio do fabricante](https://braiins.com/hardware/mini-Miner-bmm-100).
 
 
 
-### Visão geral do BMM 100
+## Visão geral do BMM 100
 
 
 
@@ -46,7 +46,7 @@ enquanto na parte de trás temos: o orifício para a alimentação, espaço para
 
 
 
-### Ligar o Mini Miner
+## Ligar o Mini Miner
 
 
 
@@ -54,7 +54,7 @@ enquanto na parte de trás temos: o orifício para a alimentação, espaço para
 
 
 
-### Configuração
+## Configuração
 
 
 
@@ -74,7 +74,7 @@ Para iniciar a sessão, terá de introduzir `root` como nome de utilizador, pode
 
 
 
-### Definições gerais
+## Definições gerais
 
 
 
@@ -110,7 +110,7 @@ Depois de efetuar as alterações, clique em "Guardar alterações" e verá as a
 
 
 
-### Ligação ao Mining pool
+## Ligação ao Mining pool
 
 
 
@@ -134,15 +134,15 @@ Aqui teremos de decidir qual a piscina a utilizar. Neste tutorial, vou mostrar-v
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 A segunda opção é ligar-nos a um Mining pool que mina a solo, como o Public Pool, seguindo este guia para o fazer:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Piscina Braiins
+### Piscina Braiins
 
 
 
@@ -150,7 +150,7 @@ Para nos ligarmos a esta pool, temos de criar uma conta. Esta pool também efect
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Uma vez feito isso, estamos no painel de controlo do pool Braiins. O que temos de fazer é dizer à pool que queremos ligar-nos a um dos nossos mineiros, por isso, no lado esquerdo do ecrã, encontrará uma série de entradas. Temos de ir a "trabalhadores"
 
@@ -168,7 +168,7 @@ e temos de clicar no botão roxo à direita que diz "Ligar trabalhadores"
 
 
 
-Aqui aparece a janela com a informação de que necessitamos para ligar o nosso mini Miner à piscina. Aqui a única alteração que podemos fazer é escolher Stratum V2. Para saber o que é Stratum v2 veja esta entrada no [glossário](https://planb.network/en/resources/glossary/stratum-v2).
+Aqui aparece a janela com a informação de que necessitamos para ligar o nosso mini Miner à piscina. Aqui a única alteração que podemos fazer é escolher Stratum V2. Para saber o que é Stratum v2 veja esta entrada no [glossário](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 
@@ -236,11 +236,11 @@ se voltarem ao painel de controlo, devem começar a ver movimento no gráfico e 
 
 
 
-#### Piscina pública
+### Piscina pública
 
 
 
-Através deste pool é possível tentar a sorte e minerar sozinho, apoiando-se num pool. Neste caso, não receberemos recompensa, mas receberemos a recompensa total se conseguirmos minerar um bloco. Vamos então ligar-nos à piscina pública, uma piscina apenas para Mining que é completamente open source. Abrimos uma nova janela no navegador e vamos para [web.public-pool.io] (https://web.public-pool.io/#/).
+Através deste pool é possível tentar a sorte e minerar sozinho, apoiando-se num pool. Neste caso, não receberemos recompensa, mas receberemos a recompensa total se conseguirmos minerar um bloco. Vamos então ligar-nos à piscina pública, uma piscina apenas para Mining que é completamente open source. Abrimos uma nova janela no navegador e vamos para [web.public-pool.io](https://web.public-pool.io/#/).
 
 
 

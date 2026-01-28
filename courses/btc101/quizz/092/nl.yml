@@ -1,13 +1,12 @@
-question: Wat is het aanbevolen gebruik van een Multisig Wallet?
-answer: Grote hoeveelheden opslaan voor zakelijk gebruik.
+question: Wat moet je doen als de woorden van je Mnemonic zin eenmaal geschreven zijn?
+answer: Maak een tweede kopie en bewaar deze op een aparte locatie.
 wrong_answers:
-  - Kleine hoeveelheden opslaan voor persoonlijk gebruik.
-  - Middelgrote hoeveelheden opslaan voor gebruik zonder winstoogmerk.
-  - Dagelijkse uitgaven opslaan voor individueel gebruik.
+  - Deel het met een vertrouwde vriend.
+  - E-mail het naar jezelf.
+  - Sla het op in je telefoon.
 explanation: |
-  Een Multisig Wallet wordt aanbevolen voor het opslaan van grote hoeveelheden
-  en voor zakelijk gebruik, omdat er meerdere
-  handtekeningen nodig zijn om een transactie uit te voeren. Dit proces voegt een
-  extra Layer beveiliging toe, omdat één persoon geen
-  transactie uitvoeren zonder de goedkeuring van anderen.
+  Zodra de woorden van je Mnemonic zin geschreven zijn, is het
+  aanbevolen om een tweede kopie te maken en deze op een
+  aparte locatie op te slaan. Dit is een back-up
+  in geval van verlies of een ongeluk met de eerste kopie.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Какая база данных используется в блоках/index/ для хранения метаданных блока?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Беркли БД
+explanation: |
+  Bitcoin core использует LevelDB в блоках/index/ для индексации блоков, что ускоряет поиск и обслуживание пиров.
+reviewed: true

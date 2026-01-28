@@ -1,9 +1,9 @@
-question: Quale dispositivo è consigliato per proteggere i fondi accumulati a lungo termine?
+question: Quale dispositivo è consigliato per proteggere i fondi da accumulare a lungo termine?
 answer: Hardware Wallet
 wrong_answers:
   - Hot Wallet
-  - Fulmine Wallet
+  - Wallet Lightning
   - Piattaforma Exchange
 explanation: |
-  Un Hardware Wallet memorizza le chiavi private offline, garantendo una maggiore sicurezza per importi significativi a lungo termine.
-reviewed: false
+  Un Hardware Wallet memorizza le chiavi private offline, garantendo una maggiore sicurezza per importi significativi da detenere a lungo termine.
+reviewed: true

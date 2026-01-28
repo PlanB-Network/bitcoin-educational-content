@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe rikomeye hagati y’ugushirwa mu ngiro kw’ibintu bitagiramwo ivyatsi n’ugushirwa mu ngiro kw’ibintu bishasha?
+answer: Kuba hariho Interface n'ibikorwa bihuriweko
+wrong_answers:
+  - Ubuhuza n'urubuga
+  - Ingano ya Blockchain ibitswe kuri disiki
+  - Amategeko n'amafaranga vyakoreshejwe
+explanation: |
+  Ishirwa mu ngiro ritagiramwo ibintu rishiramwo gusa porogarama y’uruzitiro, mu gihe uruzitiro-mu-sandugu rwongerako Interface, App Store, n’ibikorwa vy’uruzitiro.
+reviewed: true

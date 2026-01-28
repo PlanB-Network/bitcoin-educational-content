@@ -1,0 +1,9 @@
+question: According to Eric Hughes' Cypherpunk Manifesto, what fundamental principle distinguishes cypherpunks from those who merely hope for privacy protection?
+answer: Cypherpunks actively write code to build anonymous systems rather than waiting for institutions to provide privacy
+wrong_answers:
+  - Cypherpunks focus on political lobbying and legal reforms to establish privacy rights through democratic processes
+  - Cypherpunks believe in working within existing financial institutions to gradually improve their privacy protections
+  - Cypherpunks prioritize educating the public about privacy risks rather than developing technical solutions
+explanation: |
+  The manifesto explicitly states 'Cypherpunks write code' and emphasizes that they don't find comfort in hopes and wishes but actively intervene in events. 
+  Hughes argued that people cannot expect governments, corporations, or other large organizations to guarantee privacy, so cypherpunks must build cryptographic systems themselves. This active, technical approach through code development distinguishes them from passive approaches like lobbying, working within existing systems, or merely educating others without creating concrete technological solutions.

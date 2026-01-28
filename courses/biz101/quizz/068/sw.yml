@@ -1,9 +1,9 @@
-question: Je, Seva ya Malipo ya BTC inawezaje kutumwa katika mazingira ya Kitaalamu?
+question: Je, BTC server Pay inawezaje kutumwa katika mazingira ya Kitaalamu?
 answer: Juu ya majengo au kupitia upangishaji wa wingu
 wrong_answers:
   - Hasa kwenye vifaa maalum vya kujitolea
   - Kupitia huduma kamili ya mtu wa tatu
   - Kama programu ya simu
 explanation: |
-  Unyumbufu wa kupeleka Seva ya Malipo ya BTC kwenye majengo au kwenye wingu huruhusu biashara kuchagua usanidi unaolingana vyema na mahitaji yao ya uendeshaji.
-reviewed: false
+  Unyumbufu wa kupeleka BTC server pay kwenye majengo au kwenye wingu huruhusu biashara kuchagua usanidi unaolingana vyema na mahitaji yao ya uendeshaji.
+reviewed: true

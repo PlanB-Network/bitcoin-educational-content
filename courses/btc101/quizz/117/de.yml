@@ -1,10 +1,10 @@
-question: Wann verschwand Satoshi Nakamoto?
-answer: Im Jahr 2010
+question: Was ist die Version der ersten veröffentlichten Bitcoin-Software?
+answer: Bitcoin-0.1.0.
 wrong_answers:
-  - Im Jahr 2008
-  - Im Jahr 2009
-  - Im Jahr 2023
-explanation: |
-  Satoshi Nakamoto verschwand im Jahr 2010 und überließ seine Schöpfung
-  der Gemeinschaft.
+  - Bitcoin-0.0.1.
+  - Bitcoin-1.0.0.
+  - Bitcoin-0.1.1.
+explanation: >-
+  Die erste veröffentlichte Bitcoin-Software war Bitcoin-0.1.0. Sie wurde
+  von Satoshi Nakamoto am 8. Januar 2009 angekündigt.
 reviewed: true

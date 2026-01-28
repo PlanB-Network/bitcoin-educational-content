@@ -1,0 +1,9 @@
+question: Millega peab Lightning-sõlm ühenduma?
+answer: Bitcoin sõlmpunkt
+wrong_answers:
+  - Kaevur
+  - Plokk explorer
+  - Ühendatud server
+explanation: |
+  Lightning-sõlm sõltub Bitcoin-sõlmest, et pääseda ligi peamise plokiahela teabele.
+reviewed: false

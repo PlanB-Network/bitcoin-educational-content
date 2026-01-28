@@ -1,0 +1,9 @@
+question: Chức năng của tham số assumevalid trong Bitcoin core là gì?
+answer: Bỏ qua xác minh tập lệnh trước khối tham chiếu
+wrong_answers:
+  - Bỏ qua xác minh Proof-of-Work trước khối tham chiếu
+  - Bỏ qua xác minh tiêu đề trước khối tham chiếu
+  - Buộc Tor khám phá ngang hàng
+explanation: |
+  Assumevalid tăng tốc IBD bằng cách bỏ qua xác minh tập lệnh trước một khối đã biết, trong khi vẫn giữ nguyên tất cả các xác thực khác.
+reviewed: true

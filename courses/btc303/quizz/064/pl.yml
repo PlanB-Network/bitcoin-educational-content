@@ -1,0 +1,9 @@
+question: Zgodnie z kompromisem między przepustowością a decentralizacją omówionym przez Gregory'ego Maxwella, co się stanie, gdy wykorzystanie zasobów Bitcoin blockchain stanie się zbyt duże w stosunku do dostępnej technologii?
+answer: Bitcoin traci przewagę konkurencyjną w porównaniu ze starszymi systemami, ponieważ walidacja staje się zbyt kosztowna, wyceniając wielu użytkowników i wymuszając powrót zaufania do systemu
+wrong_answers:
+  - Bitcoin staje się bezpieczniejszy, ponieważ tylko najbardziej zaangażowani użytkownicy z potężnym sprzętem mogą uczestniczyć w walidacji, tworząc silniejszą sieć
+  - Bitcoin automatycznie dostosowuje swój algorytm trudności, aby zmniejszyć zapotrzebowanie na zasoby i utrzymać ten sam poziom decentralizacji wśród wszystkich uczestników
+  - Bitcoin dzieli się na wiele równoległych łańcuchów w celu rozłożenia obciążenia obliczeniowego przy zachowaniu tych samych gwarancji bezpieczeństwa dla wszystkich użytkowników
+explanation: |
+  Maxwell zidentyfikował fundamentalny kompromis, w którym nadmierne wymagania dotyczące zasobów popychają użytkowników w kierunku zaufanych stron trzecich, a nie niezależnej walidacji. Gdy koszty walidacji stają się wygórowane, użytkownicy nie mogą sobie pozwolić na uruchomienie pełnych węzłów i muszą polegać na innych, co podważa pozbawiony zaufania charakter Bitcoin. Nieprawidłowe odpowiedzi błędnie sugerują korzystne wyniki (zwiększone bezpieczeństwo, automatyczne korekty lub utrzymane gwarancje), podczas gdy wysokie wykorzystanie zasobów w rzeczywistości wymusza centralizację i zależności zaufania.
+reviewed: false

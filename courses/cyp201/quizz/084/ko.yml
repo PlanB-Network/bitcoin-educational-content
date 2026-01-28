@@ -1,0 +1,9 @@
+question: 거래에서 Bitcoin Address의 주요 역할은 무엇인가요?
+answer: 스크립트PubKey에서 UTXO를 잠급니다
+wrong_answers:
+  - 스크립트 서명에서 UTXO를 잠금 해제합니다
+  - 거래 종료 신호 보내기
+  - 확인 블록 식별
+explanation: |
+  스크립트PubKey에 Bitcoin Address가 내장되어 UTXO를 잠급니다. 이는 자금 잠금을 해제하는 데 필요한 조건을 결정합니다.
+reviewed: false

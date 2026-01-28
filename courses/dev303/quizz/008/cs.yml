@@ -1,0 +1,8 @@
+question: Jaké bezpečnostní aspekty byste měli mít na paměti při instalaci Rust pomocí nástroje Rustup?
+answer: Instalace zahrnuje stažení a spuštění skriptu, který však používá protokol HTTPS a pochází z oficiálních důvěryhodných zdrojů
+wrong_answers:
+  - Instalace vyžaduje oprávnění správce, což vytváří potenciální zranitelnosti systému
+  - Stabilní řetězec nástrojů obsahuje experimentální funkce, které mohou mít neobjevené bezpečnostní chyby
+  - Instalační proces automaticky povolí všechny cíle kompilace včetně potenciálně nebezpečných architektur
+explanation: |
+  Při instalaci Rustupu stáhnete a spustíte skript z oficiálních webových stránek Rust. Ten používá protokol HTTPS pro zabezpečení transportní vrstvy a balíčky pocházejí z důvěryhodných zdrojů, jako je crates.io. I když je to pro většinu případů použití bezpečné, některé organizace s přísnými bezpečnostními zásadami mohou dát přednost správci balíčků své distribuce, který přidává vlastní podepisovací infrastrukturu distribuce. Ostatní možnosti jsou nesprávné: Rustup se instaluje do domovského adresáře uživatele, aniž by vyžadoval oprávnění správce, stabilní sada nástrojů výslovně vylučuje experimentální funkce a cíle kompilace se přidávají samostatně a nepředstavují inherentní bezpečnostní riziko.

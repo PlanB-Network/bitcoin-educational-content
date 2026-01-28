@@ -1,11 +1,9 @@
-question: Wie kann man die Volatilität von Bitcoin abschwächen?
-answer: Finanzielle Absicherungen (Stablecoins).
+question: Welche der folgenden Eigenschaften trug zur Ausweitung der Nutzung von Bitcoin in Dark-Web-Marktplätzen wie Silk Road bei?
+answer: Seine unkontrollierbare und pseudonyme Natur.
 wrong_answers:
-  - All sein Geld in Bitcoin investieren.
-  - Markttrends ignorieren.
-  - Mehr Bitcoin kaufen, wenn der Preis fällt.
+  - Seine zentralisierte Kontrolle.
+  - Seine Nachverfolgbarkeit und kontrollierbare Natur.
+  - Sein Mangel an Pseudonymität.
 explanation: >-
-  Die Volatilität von Bitcoin kann durch mehrere Lösungen gemildert werden,
-  wie finanzielle Absicherungen (Stablecoins), ein starkes langfristiges Vertrauen (Hodling) oder einfach
-  nicht 100% seines Geldes in Bitcoin zu stecken, ohne irgendetwas zu verstehen.
+  Die Nutzung von Bitcoin in Dark-Web-Marktplätzen wie Silk Road nahm aufgrund seiner unkontrollierbaren und pseudonymen Natur zu.
 reviewed: true

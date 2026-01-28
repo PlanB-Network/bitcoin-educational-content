@@ -1,8 +1,8 @@
-question: Vad är den största fördelen med specialiserade SHA256-maskiner, eller ASICS, i Bitcoin Mining?
-answer: De ökar Hash-värdet per joule.
+question: Vad var en viktig händelse i kryptovalutavärlden under 2017?
+answer: Lanseringen av tusentals ICO:er (Initial Coin Offerings).
 wrong_answers:
-  - De minskar energiförbrukningen.
-  - De ökar hastigheten på transaktionerna.
-  - De ökar säkerheten i nätverket.
+  - Förbudet mot Bitcoin.
+  - Skapandet av Bitcoin.
+  - Försvinnandet av alla kryptovalutor.
 explanation: >-
 reviewed: true

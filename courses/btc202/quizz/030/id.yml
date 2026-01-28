@@ -1,0 +1,9 @@
+question: Apa keuntungan utama dari node-in-a-box dibandingkan dengan implementasi mentah?
+answer: Instalasi yang mudah dan manajemen aplikasi yang terintegrasi
+wrong_answers:
+  - Verifikasi yang lebih ketat terhadap aturan konsensus
+  - Akses langsung ke Blockchain tanpa penyimpanan
+  - Kompatibilitas dengan mata uang selain Bitcoin
+explanation: |
+  Node-in-a-box menyederhanakan instalasi dan pengelolaan berbagai aplikasi tambahan melalui Interface terpadu.
+reviewed: true

@@ -1,13 +1,11 @@
-question: Vad är den rekommenderade användningen av en mobil Wallet?
-answer: Förvaring av dagliga utgifter.
+question: Vad händer om en tredje part får kännedom om din privata nyckel?
+answer: Den tredje parten kan spendera dina bitcoins.
 wrong_answers:
-  - Förvaring av långsiktigt sparande.
-  - Förvaring av medelfristigt sparande.
-  - Förvaring av stora mängder.
+  - Den tredje parten kan bara se din transaktionshistorik.
+  - Den tredje parten kan ändra din privata nyckel.
+  - Den tredje parten kan komma åt dina personuppgifter.
 explanation: |
-  En mobil Wallet rekommenderas för dagliga utgifter eftersom
-  det är lätt att genomföra transaktioner med den. Den är dock
-  rekommenderas dock inte för förvaring av stora belopp eller för
-  långsiktiga besparingar eftersom den är potentiellt sårbar för
-  hot online.
+  Om din privata nyckel avslöjas för en tredje part är de
+  är de tillhörande medlen inte längre säkra, eftersom den privata
+  eftersom den privata nyckeln ger dem tillgång till dina medel.
 reviewed: true

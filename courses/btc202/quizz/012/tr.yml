@@ -1,0 +1,9 @@
+question: Hangi aşama yan dal uzmanının rolünün bir parçasıdır?
+answer: Mempool'dan bir aday blok oluşturma
+wrong_answers:
+  - Mempool'den tüm Blockchain'i doğrulayın
+  - Kullanıcılar için Bitcoin adresleri oluşturma
+  - Cüzdanlar için özel anahtarları saklama
+explanation: |
+  Bir Miner, Mempool'ten işlemleri seçer ve Proof of Work tarafından doğrulanmaya çalışılan bir aday blok oluşturur.
+reviewed: true

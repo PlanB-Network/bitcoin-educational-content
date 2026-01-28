@@ -1,4 +1,4 @@
-question: Kitambulisho muhimu ni nini?
+question: Kitambulisho muhimu ni kipi?
 answer: Uwezo wa kuhusisha kipengele cha utambulisho wa mtumiaji na shughuli ya onchain.
 wrong_answers:
   - Mchakato wa kukabidhi ufunguo wa umma kwa kila shughuli mpya ya onchain.
@@ -6,4 +6,4 @@ wrong_answers:
   - Mchakato ambao ufunguo wa umma hutolewa kutoka kwa ufunguo wa faragha.
 explanation: |
   Utambulisho muhimu unahusisha uwezekano wa kuunganisha kipengele cha utambulisho wa mtumiaji na shughuli ya onchain.
-reviewed: false
+reviewed: true

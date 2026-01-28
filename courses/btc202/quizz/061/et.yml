@@ -1,0 +1,9 @@
+question: Mis on Tailscale'i peamine eelis Toriga võrreldes Umbreli kaugjuurdepääsu puhul?
+answer: Kiirem ühendus
+wrong_answers:
+  - Tugevam krüpteerimine kui WireGuard
+  - Ühilduvus ettevõtte marsruuteritega
+  - Võimalus kasutada Electrs'i võrguühenduseta
+explanation: |
+  Tailscale pakub WireGuardi turvalisust, kuid erinevalt Torist, mis on aeglasem, on see kiirem kui clearnet-ühendus.
+reviewed: true

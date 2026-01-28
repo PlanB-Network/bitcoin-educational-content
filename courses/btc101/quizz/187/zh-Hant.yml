@@ -1,8 +1,12 @@
-question: 接受 Bitcoin 作為商家有什麼好處？
-answer: 抵制審查。
+question: 對於大型組織或熱情的 Bitcoin 愛好者而言，有什麼工具可以接受 Bitcoin？
+answer: BTCpay 伺服器.
 wrong_answers:
-  - 交易費用增加。
-  - 防止通縮。
-  - 財務限制。
-explanation: >-
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining。
+explanation: |
+  BTCpay 伺服器是一個接受 Bitcoin 的工具。
+  結構或熱情的比特幣玩家接受 Bitcoin 的工具。其他解決方案
+  其他解決方案包括適用於簡單線上業務的 OpenNode 和適用於業餘商家的 Swiss
+  Bitcoin Pay 供業餘商家使用。
 reviewed: true

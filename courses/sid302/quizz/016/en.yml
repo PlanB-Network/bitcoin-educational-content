@@ -1,0 +1,8 @@
+question: What is the primary purpose of the 102 confirmation waiting period during the peg-in process from Bitcoin to Liquid?
+answer: To protect against Bitcoin blockchain reorganizations before minting L-BTC
+wrong_answers:
+  - To allow sufficient time for the federation to verify user identity and compliance
+  - To ensure the Liquid network has adequate capacity to process the incoming transaction
+  - To provide time for the 11-of-15 multisignature authorization from federation members
+explanation: |
+  The 102 confirmation waiting period (approximately 17 hours) is specifically designed to protect against Bitcoin blockchain reorganizations. Since Bitcoin operates on probabilistic finality, there's always a small chance that blocks could be reorganized, potentially invalidating transactions. By waiting for 102 confirmations, the system ensures that the Bitcoin transaction sending funds to the federation address is deeply buried and extremely unlikely to be reversed. This prevents the scenario where L-BTC is minted on Liquid but the underlying Bitcoin transaction gets reversed due to a reorganization. The other options are incorrect because: identity verification isn't part of the automated peg-in process, network capacity isn't a limiting factor requiring such delays, and the 11-of-15 multisig authorization is used for peg-outs, not peg-ins.

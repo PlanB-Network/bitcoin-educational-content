@@ -1,0 +1,9 @@
+question: Кто придумал концепцию упрощенной проверки платежей (SPV)?
+answer: Satoshi Накамото
+wrong_answers:
+  - Хэл Финни
+  - Адам Бэк
+  - Питер Вуйль
+explanation: |
+  SPV представлена в части 8 "Белой книги" Satoshi Накамото.
+reviewed: true

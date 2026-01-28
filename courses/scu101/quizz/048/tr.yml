@@ -5,5 +5,7 @@ wrong_answers:
   - Hesap sahibine içinde 10 dakikalık süre sonu kodu bulunan bir e-posta
   - Hesap sahibinin evine gönderilen bir mektup Address
 explanation: |
-  2FA'daki ikinci adım SMS, e-posta yoluyla gönderilen geçici bir kod, bir uygulama tarafından oluşturulan bir kod veya fiziksel bir güvenlik anahtarı olabilir. Ancak, bu yöntemlerin hepsi aynı güvenlik seviyesini korumamıza izin vermez.
+  2FA'daki ikinci adım SMS, e-posta yoluyla gönderilen geçici bir kod, 
+  bir uygulama tarafından oluşturulan bir kod veya fiziksel bir güvenlik anahtarı olabilir. 
+  Ancak, bu yöntemlerin hepsi aynı güvenlik seviyesini korumamıza izin vermez.
 reviewed: true

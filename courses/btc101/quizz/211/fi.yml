@@ -1,9 +1,11 @@
-question: Mihin toimintaan Bitcoin pakottaa yritykset, yliopistot, sääntelijät ja yksilöt?
-answer: Ottamaan sen huomioon.
+question: Mikä on Bitcoinin omaksumisen luonne tässä kurssissa kuvattuna?
+answer: Viruksen kaltainen.
 wrong_answers:
-  - Ohittamaan sen.
-  - Kieltämään sen.
-  - Kriminalisoimaan sen.
-explanation: >-
-  Bitcoinin nousu pakottaa yritykset, yliopistot, sääntelijät ja yksilöt ottamaan tämän uuden teknologian huomioon. Uusia työkaluja on luotava, palveluita on mukautettava ja innovaatioiden on jatkuttava varmistaakseen niiden selviytymisen.
+  - Hidas ja tasainen.
+  - Nopea ja hallitsematon.
+  - Satunnainen ja ennustamaton.
+explanation: |
+  Kurssiteksti kuvailee Bitcoinin omaksumista viruksen kaltaisena,
+  mikä viittaa siihen, että se leviää nopeasti ja laajalti henkilöstä
+  toiseen, paljon kuin virus, mutta hyvässä mielessä.
 reviewed: true

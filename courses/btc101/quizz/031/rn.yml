@@ -1,13 +1,12 @@
-question: Ni ikihe muri ibi bikurikira kitari akamaro ka Bitcoin nk’ifaranga?
-answer: Ikoreshwa mu kwishura imisoro.
+question: Ni igitigiri kingana iki c’ibice vya Bitcoin bishobora kubaho?
+answer: 21 miliyoni.
 wrong_answers:
-  - Ni ikintu gishobora kugabanywa.
-  - Ni ikintu gishobora gutwarwa.
-  - Ni ukutagira uruhusha.
+  - 3 ibihumbi amajana.
+  - miliyoni 100.
+  - Nta n’aho bigarukira.
 explanation: |
-  Bitcoin, kubera imiterere yayo nk’ugucapura kwayo,
-  gusuzuma, uruhusha rudafise uruhusha n'ugutwara,
-  itanga ububiko bwiza cane bw’agaciro. Vyongeye, nk’umuntu atagira aho abogamiye .
-  amafaranga yo kuri internet, aserukira uburyo bwiza bwo gukoresha Exchange.
-  iyo nta mipaka izi.
+  Igitigiri cose ca Supply ca Bitcoin gishobora gushika ku miriyoni 21.
+  Ico ni ikintu nyamukuru kiranga Bitcoin kiyitandukanya .
+  bivuye mu mafaranga y’ivy’ubutunzi, ashobora gucapwa mu 2012.
+  ivyinshi bitagira aho bigarukira n’amabanki akomeye.
 reviewed: true

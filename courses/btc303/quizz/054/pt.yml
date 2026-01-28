@@ -1,0 +1,9 @@
+question: Que caraterística fundamental do processo de desenvolvimento do Bitcoin o torna particularmente vulnerável às tácticas de infiltração descritas nos manuais de sabotagem em tempo de guerra?
+answer: O desenvolvimento do Bitcoin está aberto à participação de qualquer pessoa, sem guardiões
+wrong_answers:
+  - O desenvolvimento do Bitcoin depende de um pequeno grupo de mantenedores do núcleo de confiança
+  - O desenvolvimento do Bitcoin requer a aprovação formal do governo para alterações importantes
+  - O desenvolvimento do Bitcoin utiliza código-fonte fechado que limita as contribuições externas
+explanation: |
+  O processo de desenvolvimento aberto do Bitcoin, embora seja um dos seus maiores pontos fortes para a descentralização e transparência, também cria vulnerabilidade à infiltração de adversários. Uma vez que qualquer pessoa pode participar em discussões, propor alterações e envolver-se no processo de revisão sem necessitar de permissão ou credenciais, os atacantes dedicados podem explorar esta abertura. Podem bloquear o progresso através de preocupações intermináveis sobre questões irrelevantes, regatear sobre formulações exactas, reiterar discussões já estabelecidas ou lançar "ataques sociais Sybil" utilizando várias identidades falsas para criar falsas impressões de resistência. Esta abertura contrasta fortemente com os modelos de desenvolvimento fechados que têm guardiões ou processos de aprovação que poderiam filtrar os maus actores.
+reviewed: false

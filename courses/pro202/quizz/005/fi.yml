@@ -1,0 +1,8 @@
+question: Mikä matemaattinen ominaisuus takaa sen, että jokaisella nollasta poikkeavalla alkion F(p) alkioilla on multiplikatiivinen käänteisluku?
+answer: Kenttä määritellään alkuluvulla p
+wrong_answers:
+  - Kenttä sisältää täsmälleen p-1 elementtiä
+  - Kenttä käyttää modulaarisia aritmeettisia operaatioita
+  - Kenttä tukee yhteen- ja kertolaskua
+explanation: |
+  Äärellinen kenttä F(p) on määriteltävä alkuluvun p avulla, jotta jokaisella nollasta poikkeavalla alkioilla on multiplikatiivinen käänteisluku. Tämä on kenttäteorian perusvaatimus - kun p on alkuluku, kokonaisluvut modulo p muodostavat kentän, jossa jakaminen on aina mahdollista (paitsi nollalla). Jos p olisi komposiitti, joillakin nollasta poikkeavilla alkioilla ei olisi käänteislukuja, mikä rikkoisi kenttärakenteen. Muut vaihtoehdot kuvaavat äärellisten kenttien ominaisuuksia, mutta vain p:n primaarisuus takaa multiplikatiivisten käänteislukujen olemassaolon kaikille nollasta poikkeaville alkioille.

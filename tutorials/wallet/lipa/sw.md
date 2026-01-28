@@ -14,7 +14,7 @@ Pochi za umeme, kama vile pochi zote za rununu, huchukuliwa kuwa pochi za "Hot" 
 Ikiwa ungependa kujifunza zaidi kuhusu Lightning Network na kuelewa jinsi inavyofanya kazi kiufundi, ninapendekeza usome kozi hii:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Katika somo hili, tutakuwa tukiangalia **Lipa**, Radi ya Wallet rahisi na bora iliyotengenezwa nchini Uswizi.
 
@@ -76,10 +76,10 @@ Programu kisha inatoa kazi zake kuu kupitia safu ya skrini za utangulizi:
 
 
 
-- Risiti ya malipo iliyofumwa**: Watumiaji wanaweza kupokea malipo ya Bitcoin hata wakati programu imefungwa, hivyo basi kuhakikishia kutegemewa na urahisi.
-- Anwani zisizodhibitiwa za Umeme**: Lipa sasa inaauni anwani za umeme zisizodhibitiwa, kuboresha faragha na usalama kwa kuwapa watumiaji udhibiti kamili wa bitcoins zao.
-- Udhibiti wa data ya uchanganuzi** : Kwa uwazi na usiri kuu, watumiaji wanaweza kuangalia aina za data iliyokusanywa na kuchagua mapendeleo yao ya kushiriki.
-- Tuma kupitia nambari ya simu**: Hakuna haja ya anwani changamano - chagua tu anwani, weka kiasi, na utume bitcoins moja kwa moja kwa nambari yao ya simu.
+- **Risiti ya malipo iliyofumwa**: Watumiaji wanaweza kupokea malipo ya Bitcoin hata wakati programu imefungwa, hivyo basi kuhakikishia kutegemewa na urahisi.
+- **Anwani zisizodhibitiwa za Umeme**: Lipa sasa inaauni anwani za umeme zisizodhibitiwa, kuboresha faragha na usalama kwa kuwapa watumiaji udhibiti kamili wa bitcoins zao.
+- **Udhibiti wa data ya uchanganuzi**: Kwa uwazi na usiri kuu, watumiaji wanaweza kuangalia aina za data iliyokusanywa na kuchagua mapendeleo yao ya kushiriki.
+- **Tuma kupitia nambari ya simu**: Hakuna haja ya anwani changamano - chagua tu anwani, weka kiasi, na utume bitcoins moja kwa moja kwa nambari yao ya simu.
 
 
 Programu pia inanufaika kutokana na uboreshaji unaoendelea katika suala la uthabiti, usalama na kutegemewa, ili kuhakikisha matumizi bora ya mtumiaji.
@@ -96,10 +96,10 @@ Interface ya Lipa imepangwa karibu na vichupo 4 vikuu vinavyopatikana kupitia up
 
 
 
-- Nyumbani**: Inaonyesha salio lako la sasa na historia ya muamala
-- Kichanganuzi**: Hukuruhusu kuchanganua misimbo ya QR ili kufanya malipo
-- Ramani**: Inaonyesha ramani shirikishi ya biashara zinazokubali Bitcoin katika eneo lako
-- Mipangilio**: Ufikiaji wa mipangilio ya programu, chelezo na mapendeleo
+- **Nyumbani**: Inaonyesha salio lako la sasa na historia ya muamala
+- **Kichanganuzi**: Hukuruhusu kuchanganua misimbo ya QR ili kufanya malipo
+- **Ramani**: Inaonyesha ramani shirikishi ya biashara zinazokubali Bitcoin katika eneo lako
+- **Mipangilio**: Ufikiaji wa mipangilio ya programu, chelezo na mapendeleo
 
 
 Menyu ya ziada inaweza kufikiwa kwa kubomoa skrini ya nyumbani:
@@ -131,7 +131,7 @@ Ili kuhifadhi nakala ya Wallet yako, nenda kwenye kichupo cha "Mipangilio" na uc
 Kwa maelezo zaidi kuhusu jinsi ya kuweka nakala na kudhibiti kifungu chako cha urejeshaji ipasavyo, ninapendekeza sana kufuata mafunzo haya mengine, haswa ikiwa wewe ni mwanzilishi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Pokea bitcoins
 

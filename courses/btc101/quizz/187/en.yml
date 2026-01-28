@@ -1,11 +1,12 @@
-question: What is one advantage of accepting Bitcoin as a merchant?
-answer: Censorship resistance.
+question: What is one tool for accepting Bitcoin for large organizations or passionate Bitcoin enthusiasts?
+answer: BTCpay Server.
 wrong_answers:
-  - Increased transaction fees.
-  - Protection against deflation.
-  - Financial restriction.
-explanation: >-
-  Accepting Bitcoin as a merchant has several advantages, including censorship
-  resistance, reduced transaction fees, increased efficiency, protection against inflation,
-  as well as financial freedom and sovereignty.
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server is a tool for accepting Bitcoin for large
+  structures or passionate bitcoiners. Other solutions
+  include OpenNode for simple online businesses and Swiss
+  Bitcoin Pay for amateur merchants.
 reviewed: true

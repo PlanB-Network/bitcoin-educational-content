@@ -90,7 +90,7 @@ Siete pronti a tuffarvi nel mondo delle reti informatiche? Andiamo!
 **NOTA**: Le descrizioni sono basate su un sistema GNU/Linux CentOS 7. Tuttavia, le configurazioni di rete sono in gran parte le stesse quando si confronta un sistema Debian con uno CentOS. Pertanto, non faremo alcuna distinzione. Quando c'è una distinzione, la prefissiamo con un logo specifico.
 
 
-**N.B.**: Se durante il corso si incontrano termini non familiari, si prega di consultare [il glossario](https://planb.network/resources/glossary) per le definizioni.
+**N.B.**: Se durante il corso si incontrano termini non familiari, si prega di consultare [il glossario](https://planb.academy/resources/glossary) per le definizioni.
 
 
 
@@ -138,7 +138,7 @@ Il vantaggio di questa disposizione risiede nella semplicità del cablaggio e ne
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/it/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Questa disposizione gerarchica funziona particolarmente bene per le reti di gran
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/it/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Il principale vantaggio della topologia a bus è il basso costo di installazione
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/it/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Questa disposizione facilita la gestione e la manutenzione: se un dispositivo pe
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/it/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Il compromesso è che il numero di connessioni da stabilire aumenta rapidamente 
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/it/005.webp)
 
 
 
@@ -240,8 +240,8 @@ La governance e l'evoluzione di questi protocolli sono supervisionate dall'***In
 Questa organizzazione coordina le direzioni tecniche attraverso due strutture principali:
 
 
-- IRTF** (_Internet Research Task Force_), che conduce ricerche a lungo termine sull'evoluzione e il miglioramento dei protocolli.
-- IETF** (_Internet Engineering Task Force_), che sviluppa, standardizza e documenta i protocolli operativi utilizzati in Internet
+- **IRTF** (_Internet Research Task Force_), che conduce ricerche a lungo termine sull'evoluzione e il miglioramento dei protocolli.
+- **IETF** (_Internet Engineering Task Force_), che sviluppa, standardizza e documenta i protocolli operativi utilizzati in Internet
 
 
 La distribuzione delle risorse di rete (intervalli IP Address, numeri di sistemi autonomi, nomi di dominio radice, ecc.) è coordinata a livello internazionale da **IANA/ICANN**. La gestione operativa si basa su: **RIR** (*Regional Internet Registries*): **RIPE NCC** (Europa, Medio Oriente, Asia Centrale), **ARIN**, **APNIC**, **LACNIC** e **AFRINIC**.
@@ -263,7 +263,7 @@ I quattro livelli del modello TCP/IP sono:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/it/006.webp)
 
 
 
@@ -283,11 +283,11 @@ Ogni Layer dello stack TCP/IP fornisce servizi specifici, rendendo possibile Add
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## Protocollo QoS IPv5
 
@@ -306,18 +306,19 @@ Il primo campo dell'intestazione si chiama Versione. Questo valore di 4 bit spec
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Numero di versione | Protocollo | Descrizione della versione | Riferimento |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Riservato | Riservato | |
+| 2–3 | Non assegnato | Non assegnato | |
+| 4 | IP | Protocollo Internet | RFC 791 |
+| **5** | **ST** | **Modalità datagramma ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Protocollo Internet versione 6 | RFC 8200 |
+| 7 | TP/IX | Il prossimo Internet | RFC 1475 |
+| 8 | PIP | Il protocollo Internet P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Non assegnato | Non assegnato | |
+| 15 | Riservato | Riservato | |
 
 Tra questi c'è l'IPv5 che, sebbene sia in gran parte sconosciuto al pubblico, esisteva come ST (_Stream Protocol_). Sviluppato negli anni '80, l'IPv5 è stato progettato per rispondere a un'esigenza sempre più sentita all'epoca: fornire "qualità del servizio" (QoS) a determinati flussi di dati che richiedevano una trasmissione continua e stabile, come il Voice over IP o i flussi multimediali. L'obiettivo era quello di garantire la larghezza di banda e la priorità end-to-end, un concetto simile a quello che oggi offre l'RSVP (_Resource Reservation Protocol_) per riservare dinamicamente le risorse di rete sui router moderni.
 
@@ -328,7 +329,7 @@ Tuttavia, l'IPv5 è rimasto sperimentale ed è stato implementato solo su un num
 Sebbene l'IPv5 non abbia mai avuto un uso diffuso, ha svolto un ruolo importante nel dare forma alle prime idee sulla QoS e sulla gestione del traffico. Oggi è più un indicatore storico che uno standard operativo.
 
 
-**Un protocollo è un insieme di regole di comunicazione: strutture di dati, algoritmi, formati di pacchetti e convenzioni che consentono a dispositivi diversi di trasmettere informazioni in modo affidabile e comprensibile. Un servizio è l'implementazione concreta di un protocollo attraverso programmi specifici (client, server) che seguono queste regole e rendono disponibili le funzionalità a utenti e applicazioni.
+**Un protocollo è un insieme di regole di comunicazione: strutture di dati, algoritmi, formati di pacchetti e convenzioni che consentono a dispositivi diversi di trasmettere informazioni in modo affidabile e comprensibile. Un servizio è l'implementazione concreta di un protocollo attraverso programmi specifici (client, server) che seguono queste regole e rendono disponibili le funzionalità a utenti e applicazioni.**
 
 
 Possiamo ora esaminare più da vicino la struttura e il funzionamento del protocollo IP, la base essenziale di tutte le comunicazioni di rete.
@@ -354,9 +355,9 @@ A livello fisico, la trasmissione si basa su interfacce hardware per stabilire c
 Tre configurazioni di rete Elements determinano il modo in cui un pacchetto viene inviato sul suo percorso:
 
 
-- IP Address**: identifica in modo univoco l'host di destinazione nella rete.
-- Maschera di sottorete**: specifica quale parte del Address identifica la rete e quale l'host, consentendo una divisione logica in sottoreti.
-- Il gateway**: indica il router intermedio attraverso il quale il pacchetto deve passare per raggiungere una rete esterna o un altro segmento della rete locale.
+- **IP Address**: identifica in modo univoco l'host di destinazione nella rete.
+- **Maschera di sottorete**: specifica quale parte del Address identifica la rete e quale l'host, consentendo una divisione logica in sottoreti.
+- Il **gateway**: indica il router intermedio attraverso il quale il pacchetto deve passare per raggiungere una rete esterna o un altro segmento della rete locale.
 
 
 Su Internet, i dati non scorrono come un unico flusso continuo, ma vengono inviati come **datagrammi**: blocchi di dati indipendenti, ciascuno incapsulato con tutte le informazioni necessarie per la consegna. Questo è il principio del **packet switching**, in cui le informazioni vengono suddivise in unità autonome che possono seguire percorsi diversi per raggiungere lo stesso destinatario.
@@ -381,16 +382,16 @@ Quando un datagramma IP deve attraversare una rete la cui capacità di trasmissi
 Ogni tecnologia di rete impone la propria MTU, determinata dalle caratteristiche dell'hardware e del protocollo. I valori comuni includono:
 
 
-- ARPANET**: 1000 byte
-- Ethernet**: 1500 byte
-- FDDI**: 4470 byte
+- **ARPANET**: 1000 byte
+- **Ethernet**: 1500 byte
+- **FDDI**: 4470 byte
 
 
 Quando un datagramma supera l'MTU di un segmento di rete che deve attraversare, le apparecchiature di routing lo dividono in **frammenti** più piccoli che rispettano il limite. Questo accade tipicamente quando si passa da una rete ad alta MTU a una con una capacità inferiore. Ad esempio, un datagramma proveniente da una rete FDDI potrebbe dover essere frammentato prima di essere inviato su un segmento Ethernet.
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/it/007.webp)
 
 
 
@@ -431,7 +432,7 @@ La trasmissione segue quindi un processo strutturato:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/it/008.webp)
 
 
 
@@ -442,21 +443,21 @@ All'arrivo, il processo è invertito: la macchina ricevente riceve il frame dal 
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/it/009.webp)
 
 
 
 La trasformazione dei dati in ogni Layer può essere riassunta come segue:
 
 
-- Messaggio**: blocco di informazioni al Layer dell'applicazione.
-- Segmento**: unità di dati dopo l'incapsulamento da parte del Layer di trasporto.
-- Datagramma**: forma assunta dopo l'aggiunta dell'intestazione IP da parte del Layer di Internet.
-- Frame**: blocco finale pronto per la trasmissione sul mezzo fisico da parte del Layer di accesso alla rete.
+- **Messaggio**: blocco di informazioni al Layer dell'applicazione.
+- **Segmento**: unità di dati dopo l'incapsulamento da parte del Layer di trasporto.
+- **Datagramma**: forma assunta dopo l'aggiunta dell'intestazione IP da parte del Layer di Internet.
+- **Frame**: blocco finale pronto per la trasmissione sul mezzo fisico da parte del Layer di accesso alla rete.
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/it/010.webp)
 
 
 
@@ -475,8 +476,8 @@ In IPv4, un Address IP è codificato su **32 bit** e scritto come quattro numeri
 Un IP Address è composto da due parti:
 
 
-- _netid_**: identifica la rete a cui l'host appartiene
-- _hostid_**: identifica l'host specifico all'interno della rete
+- **netid**: identifica la rete a cui l'host appartiene
+- **hostid**: identifica l'host specifico all'interno della rete
 
 Questa separazione consente di strutturare logicamente l'Internet globale in molte reti interconnesse.
 
@@ -485,14 +486,15 @@ Storicamente, il sistema IPv4 si basava su uno schema basato su classi, etichett
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Classe** | **Intervallo di indirizzi IPv4** | **Utilizzo**                |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x a 126.x.x.x               | Indirizzi unicast            |
+|           | (127.x.x.x riservato al loopback) | Loopback locale              |
+| B         | 128.0.x.x a 191.255.x.x           | Indirizzi unicast            |
+| C         | 192.0.0.x a 223.255.255.x         | Indirizzi unicast            |
+| D         | 224.0.0.0 a 239.255.255.255       | IP Multicast                 |
+| E         | 240.0.0.0 a 255.255.255.255       | Riservato per sperimentazione |
 
 Non tutti i valori possibili possono essere assegnati agli host. Ad esempio, in una **classe C** Address, l'ultimo byte offre 8 bit (256 valori). Ma due di questi sono riservati:
 
@@ -507,16 +509,16 @@ Il numero di indirizzi disponibili varia notevolmente da una classe all'altra: d
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/it/011.webp)
 
 
 
 Alcuni intervalli Address sono riservati per uso privato e non vengono mai instradati direttamente su Internet. Questi sono noti come **indirizzi privati** e sono utilizzati all'interno di organizzazioni, aziende o abitazioni e richiedono la traduzione del Address, in genere NAT (*Network Address Translation*), per raggiungere la rete Internet pubblica. Questi sono:
 
 
-- Classe A**: da 10.0.0.0 a 10.255.255.255
-- Classe B**: da 172.16.0.0 a 172.31.255.255
-- Classe C**: da 192.168.0.0 a 192.168.255.255
+- **Classe A**: da 10.0.0.0 a 10.255.255.255
+- **Classe B**: da 172.16.0.0 a 172.31.255.255
+- **Classe C**: da 192.168.0.0 a 192.168.255.255
 
 
 Quando un dispositivo con un Address privato accede a Internet, un router o un gateway abilitato NAT lo sostituisce con un Address pubblico valido.
@@ -540,9 +542,9 @@ Per ottimizzare l'uso del Address e progettare reti complesse, la **subnetmask**
 Ogni classe ha una maschera predefinita:
 
 
-- 255.0,0,0** per la classe A,
-- 255.255.0.0** per la classe B,
-- 255.255.255.0** per la classe C.
+- **255.0,0,0** per la classe A,
+- **255.255.0.0** per la classe B,
+- **255.255.255.0** per la classe C.
 
 
 Una buona progettazione di rete segue una regola di base: i dispositivi che devono comunicare direttamente devono trovarsi nella stessa rete o sottorete. Per segmentare una rete, si ricorre al subnetting, che consiste nel dividere una rete in sottoreti più piccole utilizzando una maschera più specifica.
@@ -561,7 +563,7 @@ Vogliamo 4 sottoreti con un massimo di 60 host ciascuna.
 **Fase 2**: Trovare la più vicina potenza di 2 ≥ 62. -> 2⁶ = 64.
 
 
-**Fase 3: Regolare la maschera. Mantenere i bit _netid_ e riservare i bit _hostid_ necessari. Otteniamo una maschera binaria che, una volta convertita, dà **255.255.255.192**.
+**Fase 3: Regolare la maschera. Mantenere i bit _netid_ e riservare i bit _hostid_ necessari. Otteniamo una maschera binaria che, una volta convertita, dà** 255.255.255.192.
 
 
 ```
@@ -573,19 +575,20 @@ Vogliamo 4 sottoreti con un massimo di 60 host ciascuna.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID subnet (bit) | Indirizzo subnet | Maschera subnet | Intervallo di indirizzi    | Indirizzo broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
 
-
 **Fase 5**: In questo modo si creano quattro sottoreti, ognuna delle quali supporta fino a 62 macchine, mantenendo efficiente lo schema di indirizzamento complessivo. La parte _hostid_ è divisa in una parte _subnetid_ e una parte host.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/it/012.webp)
 
 
 
@@ -623,7 +626,9 @@ Un blocco /17 contiene 2^(32-17) indirizzi, quindi 2^15 = 32.768 indirizzi total
 Per facilitare la comprensione del dimensionamento CIDR, ecco una tabella dei prefissi più comuni e delle relative maschere di sottorete e indirizzi utilizzabili equivalenti:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Prefisso CIDR | Bit host disponibili | Maschera di sottorete | Indirizzi host utilizzabili |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +640,8 @@ Per facilitare la comprensione del dimensionamento CIDR, ecco una tabella dei pr
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (solo punto-punto)   |
+| /32         | 0                   | 255.255.255.255 | 1 (solo indirizzo host)      |
 
 **NOTA**: Storicamente, l'RFC 950 scoraggiava l'uso della subnet zero, principalmente per evitare confusione nell'instradamento.  Questa restrizione è diventata obsoleta con la RFC 1878, che ne consente pienamente l'uso. La vecchia limitazione era dovuta principalmente all'incompatibilità con l'hardware più vecchio che non poteva gestire correttamente il CIDR. Le apparecchiature moderne non hanno questo problema.
 
@@ -653,7 +657,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Il protocollo TCP
 
@@ -680,7 +684,7 @@ Il TCP è un protocollo orientato alla connessione, cioè stabilisce una relazio
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/it/013.webp)
 
 
 
@@ -688,7 +692,7 @@ Per migliorare l'affidabilità, il TCP utilizza un timer: una volta inviato un s
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/it/014.webp)
 
 
 
@@ -705,20 +709,20 @@ La sincronizzazione della sequenza Exchange si basa sul famoso meccanismo **"*th
 
 1. **SYN:** Il client invia un segmento di sincronizzazione iniziale (**SYN**) con il flag appropriato impostato e un numero di sequenza iniziale (ad esempio, C);
 
-2. **Il server ricevente risponde con un segmento di conferma (**SYN-ACK**), che conferma il numero di sequenza del client e fornisce il proprio numero di sequenza iniziale;
+2. **Il server ricevente risponde con un segmento di conferma (SYN-ACK), che conferma il numero di sequenza del client e fornisce il proprio numero di sequenza iniziale;**
 
-3. **Il client invia una conferma finale (**ACK**) che conferma la ricezione del numero di sequenza del server, finalizzando la sincronizzazione. Il flag SYN è ora disabilitato e il flag ACK rimane impostato, a indicare che la connessione è stabilita.
+3. **Il client invia una conferma finale (ACK) che conferma la ricezione del numero di sequenza del server, finalizzando la sincronizzazione. Il flag SYN è ora disabilitato e il flag ACK rimane impostato, a indicare che la connessione è stabilita.**
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/it/015.webp)
 
 
 
 Questo protocollo Exchange assicura che entrambe le parti condividano la stessa base di numerazione prima di trasmettere i dati del carico utile. Una volta completata la sincronizzazione, la sessione viene aperta: i segmenti possono ora viaggiare in entrambe le direzioni, ciascuno riconosciuto alla ricezione, garantendo la massima affidabilità del flusso di dati.
 
 
-L'handshake a tre vie*** riguarda solo la creazione della connessione. Per la chiusura, il protocollo TCP utilizza un *quadruplo handshake*: FIN → ACK → FIN → ACK, che garantisce che nessun segmento in transito venga perso prima del rilascio completo della connessione.
+L'handshake a tre vie riguarda solo la creazione della connessione. Per la chiusura, il protocollo TCP utilizza un *quadruplo handshake*: FIN → ACK → FIN → ACK, che garantisce che nessun segmento in transito venga perso prima del rilascio completo della connessione.
 
 
 Sebbene sia stato progettato per garantire robustezza e affidabilità, questo processo ha anche dato origine a vulnerabilità sfruttabili. Ad esempio, attacchi come l'**IP Spoofing** mirano a bypassare o a corrompere questa relazione di fiducia spacciandosi per una macchina autorizzata attraverso numeri di sequenza falsificati, creando una breccia che consente l'intercettazione o la manipolazione del flusso di dati.
@@ -734,7 +738,7 @@ In termini pratici, la finestra scorrevole definisce un intervallo di numeri di 
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/it/016.webp)
 
 
 
@@ -751,7 +755,7 @@ Questa gestione precisa, che combina l'instradamento flessibile di IP con il con
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/it/017.webp)
 
 
 
@@ -787,20 +791,20 @@ Ogni Layer si basa sulle capacità di quello sottostante e, a sua volta, fornisc
 Due aspetti fondamentali regolano questi scambi:
 
 
-- Aspetto verticale**: il rapporto tra un Layer e quello sopra o sotto di esso (da Layer N a Layer N+1 e viceversa).
+- **Aspetto verticale**: il rapporto tra un Layer e quello sopra o sotto di esso (da Layer N a Layer N+1 e viceversa).
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/it/018.webp)
 
 
 
 
-- Aspetto orizzontale**: l'interazione tra applicazioni remote, cioè il dialogo tra un **cliente** e un **server**, in entrambe le direzioni.
+- **Aspetto orizzontale**: l'interazione tra applicazioni remote, cioè il dialogo tra un **cliente** e un **server**, in entrambe le direzioni.
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/it/019.webp)
 
 
 
@@ -810,21 +814,22 @@ L'architettura a strati segue il principio secondo cui ogni Layer elabora solo l
 **Ricordo**: Si utilizza una terminologia specifica per descrivere le unità di dati scambiate tra i livelli:
 
 
-- messaggio** per l'applicazione Layer,
-- segmento** per il Layer di trasporto (TCP),
-- datagramma** per Internet Layer (IP),
-- frame** per l'accesso alla rete Layer.
+- **messaggio** per l'applicazione Layer,
+- **segmento** per il Layer di trasporto (TCP),
+- **datagramma** per Internet Layer (IP),
+- **frame** per l'accesso alla rete Layer.
 
 
 La tabella seguente riassume i termini dei contesti TCP e UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Livello TCP/IP       | Nome unità (TCP) | Nome unità (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Livello applicazione | Flusso           | Messaggio        |
+| Livello di trasporto | Segmento         | Pacchetto        |
+| Livello Internet     | Datagramma       | Datagramma       |
+| Livello di accesso alla rete | Frame    | Frame            |
 
 ### Primitive di servizio e unità di dati
 
@@ -836,7 +841,7 @@ Combinando l'aspetto orizzontale (comunicazione tra applicazioni distribuite) co
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/it/020.webp)
 
 
 
@@ -885,18 +890,18 @@ Un IP Address è un identificatore numerico univoco assegnato a ciascun **networ
 Gli indirizzi IP possono essere assegnati in due modi principali:
 
 
-- Statico**: Impostato manualmente sul dispositivo.
-- Dinamico**: Assegnato automaticamente su richiesta da un server DHCP (_Dynamic Host Configuration Protocol_). Il DHCP semplifica la gestione della rete, eliminando la necessità di una configurazione manuale e consentendo un controllo preciso attraverso le prenotazioni e la durata del lease.
+- **Statico**: Impostato manualmente sul dispositivo.
+- **Dinamico**: Assegnato automaticamente su richiesta da un server DHCP (_Dynamic Host Configuration Protocol_). Il DHCP semplifica la gestione della rete, eliminando la necessità di una configurazione manuale e consentendo un controllo preciso attraverso le prenotazioni e la durata del lease.
 
 
-*gli indirizzi *IPv4** sono scritti in un formato a **32 bit** suddiviso in **quattro byte**. Ogni byte contiene 8 bit e rappresenta un numero decimale da 0 a 255. I 4 byte sono separati da punti per formare una notazione chiara e leggibile.
+*gli indirizzi* **IPv4** sono scritti in un formato a **32 bit** suddiviso in **quattro byte**. Ogni byte contiene 8 bit e rappresenta un numero decimale da 0 a 255. I 4 byte sono separati da punti per formare una notazione chiara e leggibile.
 
 
 esempio: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/it/021.webp)
 
 
 
@@ -907,7 +912,8 @@ La tabella seguente illustra questa corrispondenza:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Codice binario | Valori dei bit attivati     | Valore decimale |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -922,7 +928,8 @@ La tabella seguente illustra questa corrispondenza:
 Per convertire il binario in decimale, sommare i pesi dei bit impostati a 1.
 
 
-| Binary     | Decimal Value |
+
+| Binario    | Valore decimale |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -944,8 +951,8 @@ I router leggono questi indirizzi per capire quale sia il percorso migliore per 
 Un Address IPv4 è composto da due parti:
 
 
-- NetID**: identifica la rete
-- HostID**: identifica un dispositivo all'interno della rete
+- **NetID**: identifica la rete
+- **HostID**: identifica un dispositivo all'interno della rete
 
 La **maschera di sottorete** determina dove finisce il NetID e dove inizia l'HostID, specificando quanti bit appartengono a ciascuna porzione. Più lungo è il NetID, maggiore è il numero di sottoreti possibili, ma il numero di host per sottorete diminuisce di conseguenza.
 
@@ -961,28 +968,29 @@ Originariamente, le reti IPv4 erano suddivise in cinque **classi**: (A, B, C, D 
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Classe | Bit iniziali | Intervallo del primo byte | Maschera di sottorete predefinita | Scopo                          |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Reti molto grandi                |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Reti di medie dimensioni         |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Reti piccole                     |
+| D     | 1110         | 224 – 239        | N/A                 | Indirizzi multicast              |
+| E     | 1111         | 240 – 255        | N/A                 | Sperimentale (non usato pubblicamente) |
 
 Indirizzi speciali:
 
 
-- Rete Address**: Identifica la rete stessa (utilizzata nelle tabelle di routing).
-- Broadcast Address**: Invia i dati a tutti i dispositivi della sottorete contemporaneamente (tutti i bit HostID sono impostati su 1).
+- **Rete Address**: Identifica la rete stessa (utilizzata nelle tabelle di routing).
+- **Broadcast Address**: Invia i dati a tutti i dispositivi della sottorete contemporaneamente (tutti i bit HostID sono impostati su 1).
 
 
 I seguenti intervalli sono riservati per uso interno:
 
 
-- 10.0.0.0/8** (Classe privata A)
-- 127.0.0.0/8** (loopback locale o _loopback_)
-- 172.da 16.0.0 a 172.31.255.255** (classe B privata)
-- 192.168.0.0 a 192.168.255.255** (classe C privata)
+- **10.0.0.0/8** (Classe privata A)
+- **127.0.0.0/8** (loopback locale o _loopback_)
+- 172.16.0.0 a 172.31.255.255 **(classe B privata)**
+- 192.168.0.0 a **192.168.255.255** (classe C privata)
 
 
 L'indirizzo **127.0.0.1** e, più in generale, l'intero intervallo 127.0.0.0/8 è utilizzato per i test interni: qualsiasi richiesta inviata ad esso non lascia mai la macchina. È utile per verificare che un servizio di rete locale funzioni senza coinvolgere la rete più ampia.
@@ -995,8 +1003,8 @@ Nelle reti moderne, l'indirizzamento IP è solitamente abbinato ad altri identif
 
 
 
-- nome di dominio** registrato in un **DNS** (_Domain Name System_): Associa un IP numerico Address a un nome di facile accesso.
-- MAC Address**: un identificatore fisico inciso nella scheda di rete, utilizzato per il trasporto locale (_Ethernet_). Quando un pacchetto IP deve essere trasmesso fisicamente, la tabella ARP abbina il Address IP al Address MAC della destinazione.
+- **nome di dominio** registrato in un **DNS** (_Domain Name System_): Associa un IP numerico Address a un nome di facile accesso.
+- **MAC Address**: un identificatore fisico inciso nella scheda di rete, utilizzato per il trasporto locale (_Ethernet_). Quando un pacchetto IP deve essere trasmesso fisicamente, la tabella ARP abbina il Address IP al Address MAC della destinazione.
 
 
 Per far fronte alla carenza di IPv4 Address e per aggiungere un Layer di sicurezza, le reti utilizzano spesso la traduzione Address (_NAT_). La NAT consente a molti dispositivi privati di condividere un unico IP pubblico Address quando accedono a Internet.
@@ -1100,7 +1108,7 @@ Il DNS svolge anche un ruolo nell'instradamento delle e-mail. Ad esempio, un rec
 Grazie alla sua struttura gerarchica e distribuita, il DNS rimane una pietra miliare di Internet, consentendo agli utenti di accedere ai servizi attraverso nomi di dominio chiari e memorizzabili invece di indirizzi IP lunghi e tecnici.
 
 
-Nel prossimo capitolo esploreremo un altro concetto fondamentale: *gli *indirizzi Ethernet**, noti anche come **indirizzi MAC**, che garantiscono la consegna dei dati al Layer fisico delle reti locali.
+Nel prossimo capitolo esploreremo un altro concetto fondamentale: *gli indirizzi Ethernet*, noti anche come **indirizzi MAC**, che garantiscono la consegna dei dati al Layer fisico delle reti locali.
 
 
 
@@ -1183,7 +1191,7 @@ IP Address            MAC Address                Type
 - Esempio visivo di MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/it/022.webp)
 
 
 
@@ -1191,7 +1199,7 @@ IP Address            MAC Address                Type
 - Esempio visivo di un IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/it/023.webp)
 
 
 
@@ -1222,7 +1230,8 @@ La tabella di routing, gestita manualmente (routing statico) o dinamicamente (ro
 La tabella di routing funge da tabella di mappatura tra gli indirizzi IP di destinazione e i gateway successivi. Di solito memorizza gli identificatori di rete (_network ID_) anziché ogni singolo host Address, riducendo così notevolmente le sue dimensioni.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Indirizzo di destinazione | Indirizzo del router di next-hop | Interfaccia |
 | ------------------- | ----------------------- | --------- |
 
 Grazie a queste voci, il router può determinare rapidamente attraverso quale Interface e a quale nodo deve essere inviato ogni datagramma. In combinazione con ARP per la risoluzione degli indirizzi MAC corrispondenti, questo assicura un trasferimento efficiente e affidabile dei dati attraverso la rete.
@@ -1245,7 +1254,7 @@ Infine, i protocolli di routing dinamico includono standard come RIP (_Routing I
 Network Address Translation_ (NAT) è una tecnica sviluppata per Address l'esaurimento graduale degli indirizzi IPv4 disponibili. Progettata come soluzione provvisoria prima dell'adozione generalizzata dell'IPv6, la NAT ha permesso ad aziende e privati di continuare a collegare un gran numero di macchine utilizzando solo un insieme limitato di indirizzi IP pubblici.
 
 
-**Il passaggio da IPv4 a IPv6 risolve teoricamente il problema dell'esaurimento espandendo lo spazio Address da 32 bit a 128 bit, fornendo un numero quasi illimitato di indirizzi (2^128). In pratica, tuttavia, la transizione è ancora incompleta e il NAT rimane ancora oggi ampiamente utilizzato.
+**Il passaggio da IPv4 a IPv6 risolve teoricamente il problema dell'esaurimento espandendo lo spazio Address da 32 bit a 128 bit, fornendo un numero quasi illimitato di indirizzi (2^128). In pratica, tuttavia, la transizione è ancora incompleta e il NAT rimane ancora oggi ampiamente utilizzato.**
 
 
 Il principio alla base del NAT è semplice ma molto efficace: invece di assegnare un unico IP pubblico Address a ogni dispositivo della rete interna, si utilizza un unico Address instradabile (o un piccolo pool di indirizzi) per tutti i dispositivi privati. Il gateway NAT, spesso integrato nel router o nel firewall, traduce dinamicamente l'IP interno Address insieme alle informazioni necessarie per instradare correttamente il traffico verso l'esterno e garantisce che le risposte vengano restituite al mittente originale.
@@ -1258,7 +1267,7 @@ Oltre a risolvere il problema della scarsità di IPv4, il NAT rafforza anche la 
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/it/024.webp)
 
 
 
@@ -1268,16 +1277,16 @@ Oltre a risolvere il problema della scarsità di IPv4, il NAT rafforza anche la 
 Il NAT può essere implementato in modi diversi per soddisfare esigenze specifiche. Le due modalità principali di funzionamento sono la traduzione statica e la traduzione dinamica.
 
 
-*la *traduzione statica** crea una mappatura fissa tra un IP Address privato e un IP Address pubblico. Ogni macchina interna è collegata in modo permanente al suo Address pubblico dedicato. Ad esempio, un dispositivo interno configurato come 192.168.20.1 può essere associato al Address 157.54.130.1 instradabile. Quando un pacchetto in uscita lascia la rete locale, il router sostituisce il Address di origine del pacchetto con il Address pubblico ed esegue l'operazione inversa per il traffico in entrata. Questa traduzione bidirezionale è trasparente per l'utente.
+**La traduzione statica** crea una mappatura fissa tra un IP Address privato e un IP Address pubblico. Ogni macchina interna è collegata in modo permanente al suo Address pubblico dedicato. Ad esempio, un dispositivo interno configurato come 192.168.20.1 può essere associato al Address 157.54.130.1 instradabile. Quando un pacchetto in uscita lascia la rete locale, il router sostituisce il Address di origine del pacchetto con il Address pubblico ed esegue l'operazione inversa per il traffico in entrata. Questa traduzione bidirezionale è trasparente per l'utente.
 
 
 **Attenzione: ** Sebbene questo metodo isoli la rete interna, non risolve la carenza di indirizzi IP pubblici, poiché sono necessari tanti indirizzi pubblici quante sono le macchine da esporre. La traduzione statica è quindi utilizzata principalmente quando alcune risorse interne devono rimanere raggiungibili dall'esterno (server web, server di posta...).
 
 
-*la *traduzione dinamica**, invece, utilizza un pool di indirizzi IP pubblici. Quando un host interno avvia una connessione, il router assegna temporaneamente uno di questi indirizzi pubblici al Address privato dell'host per la durata della sessione. Il collegamento è 1 a 1, ma temporaneo: una volta terminata la connessione, il Address pubblico diventa disponibile per un altro dispositivo. Il NAT dinamico riduce quindi il numero di indirizzi pubblici necessari quando non tutti i computer sono online contemporaneamente, ma richiede comunque un blocco di indirizzi esterni grande almeno quanto il numero massimo di connessioni simultanee.
+**La traduzione dinamica**, invece, utilizza un pool di indirizzi IP pubblici. Quando un host interno avvia una connessione, il router assegna temporaneamente uno di questi indirizzi pubblici all'indirizzo privato dell'host per la durata della sessione. Il collegamento è 1 a 1, ma temporaneo: una volta terminata la connessione, l'indirizzo pubblico diventa disponibile per un altro dispositivo. Il NAT dinamico riduce quindi il numero di indirizzi pubblici necessari quando non tutti i computer sono online contemporaneamente, ma richiede comunque un blocco di indirizzi esterni grande almeno quanto il numero massimo di connessioni simultanee.
 
 
-*la *traduzione di porta** (PAT), nota anche come *sovraccarico NAT* o *masquerading IP*, fa un ulteriore passo avanti: tutti i dispositivi privati condividono un unico IP pubblico Address (o un numero molto ridotto). Per distinguere le sessioni, il gateway modifica non solo il Address di origine, ma anche la porta di origine. Mantiene una tabella che collega ogni coppia *(Address privato, porta privata)* a una coppia unica *(Address pubblico, porta pubblica)*. Questa forma di NAT è utilizzata in quasi tutti i router domestici e consente a decine di dispositivi (computer, smartphone, oggetti connessi, ecc.) di condividere lo stesso IP pubblico Address, mantenendo una comunicazione fluida.
+*La traduzione di porta* (PAT), nota anche come *sovraccarico NAT* o *masquerading IP*, fa un ulteriore passo avanti: tutti i dispositivi privati condividono un unico IP pubblico Address (o un numero molto ridotto). Per distinguere le sessioni, il gateway modifica non solo il Address di origine, ma anche la porta di origine. Mantiene una tabella che collega ogni coppia *(Address privato, porta privata)* a una coppia unica *(Address pubblico, porta pubblica)*. Questa forma di NAT è utilizzata in quasi tutti i router domestici e consente a decine di dispositivi (computer, smartphone, oggetti connessi, ecc.) di condividere lo stesso IP pubblico Address, mantenendo una comunicazione fluida.
 
 
 Il NAT prolunga quindi la durata di vita dell'IPv4, aggiungendo al contempo un prezioso Layer elemento di segmentazione e sicurezza. Tuttavia, con l'aumento dell'adozione dell'IPv6 e la diffusione del suo vasto spazio Address, il ruolo del NAT probabilmente diminuirà, anche se per motivi di compatibilità e controllo sarà ancora utilizzato in alcuni ambienti per segmentare e filtrare il traffico.
@@ -1298,10 +1307,11 @@ Questo principio di traduzione dinamica si basa su una gestione precisa della ta
 esempio di tabella di traduzione NAT semplificata
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP interno | IP esterno | Durata (sec) | Riutilizzabile? |
 | ------------- | -------------- | -------------- | --------- |
 | 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | sì        |
 | 10.100.0.89   | 193.48.100.46  | 0              | no        |
 
 In questo esempio, se per la seconda voce non è transitato alcun pacchetto in oltre un'ora (3.600 secondi), essa viene contrassegnata come riutilizzabile. Al contrario, una durata pari a zero indica una comunicazione attiva, con la mappatura bloccata.
@@ -1331,7 +1341,7 @@ per illustrare il funzionamento pratico di questo sistema, si consideri il segue
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/it/025.webp)
 
 
 
@@ -1379,11 +1389,11 @@ Nel prossimo capitolo, esamineremo in dettaglio la configurazione dell'IP Addres
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Come si configura la rete con `ip`?
@@ -1463,8 +1473,8 @@ ifdown eth2
 File di configurazione (simile a RHEL):
 
 
-- /etc/sysconfig/network**: impostazioni globali (NETWORKING, HOSTNAME, GATEWAY...).
-- ifcfg-**: impostazioni specifiche per ogni Interface.
+- **/etc/sysconfig/network**: impostazioni globali (NETWORKING, HOSTNAME, GATEWAY...).
+- **ifcfg-**: impostazioni specifiche per ogni Interface.
 
 
 Esempio statico (ifcfg-eth0):
@@ -1500,7 +1510,7 @@ Negli ambienti professionali, l'obiettivo è garantire la continuità del serviz
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/it/026.webp)
 
 
 
@@ -1766,13 +1776,14 @@ Un Address IPv6 non specificato è rappresentato da `::` o, più esplicitamente,
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Prefisso indirizzo IPv6 | Descrizione                       |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Indirizzi riservati                         |
+| 2000::/3            | Indirizzi unicast, instradabili su Internet |
+| fc00::/7            | Indirizzi locali univoci (1)                |
+| fe80::/10           | Indirizzi link-local                        |
+| ff00::/8            | Indirizzi multicast                         |
 
 (1): *In una LAN privata, il prefisso `fd00::/8` è preferibile per l'assegnazione di indirizzi interni che non sono instradabili su Internet.*
 
@@ -1783,10 +1794,10 @@ Un Address IPv6 non specificato è rappresentato da `::` o, più esplicitamente,
 Alcuni intervalli IPv6 sono esplicitamente riservati e non devono essere utilizzati come indirizzi globali. Hanno scopi tecnici specifici:
 
 
-- `::/128`**: Address non specificato, mai assegnato in modo permanente a un dispositivo, ma usato come fonte Address da una macchina in attesa di configurazione.
-- `::1/128`**: il _loopback_ Address, l'equivalente diretto di `127.0.0.1` in IPv4, che consente a una macchina di collegarsi al Address stesso.
-- `64:ff9b::/96`**: Riservato ai traduttori di protocollo per consentire l'interconnessione IPv4/IPv6, come definito in RFC 6052.
-- `::ffff:0:0/96`**: blocco di compatibilità per rappresentare un Address IPv4 in una struttura IPv6 specifica, spesso usato internamente dalle applicazioni.
+- `::/128`: Address non specificato, mai assegnato in modo permanente a un dispositivo, ma usato come fonte Address da una macchina in attesa di configurazione.
+- `::1/128`: il _loopback_ Address, l'equivalente diretto di `127.0.0.1` in IPv4, che consente a una macchina di collegarsi al Address stesso.
+- `64:ff9b::/96`: **Riservato ai traduttori di protocollo per consentire l'interconnessione IPv4/IPv6, come definito in RFC 6052.**
+- `::ffff:0:0/96`: **blocco di compatibilità per rappresentare un Address IPv4 in una struttura IPv6 specifica, spesso usato internamente dalle applicazioni.**
 
 
 Questi blocchi garantiscono l'interoperabilità e facilitano la migrazione tra le due versioni del protocollo.
@@ -1801,9 +1812,9 @@ Gli indirizzi unicast globali costituiscono la maggior parte dello spazio IPv6 p
 Alcuni campi hanno usi speciali documentati:
 
 
-- `2001:2::/48`**: Riservato ai test di prestazione e interoperabilità (RFC 5180).
-- `2001:db8::/32`**: Riservato alla documentazione e agli esempi (RFC 3849).
-- `2002::/16`**: Utilizzato per il meccanismo 6to4, che consente al traffico IPv6 di viaggiare attraverso un'infrastruttura IPv4 (utile durante la fase di transizione tra i due protocolli).
+- `2001:2::/48`: **Riservato ai test di prestazione e interoperabilità (RFC 5180).**
+- `2001:db8::/32`: **Riservato alla documentazione e agli esempi (RFC 3849).**
+- `2002::/16`: Utilizzato per il meccanismo 6to4, che consente al traffico IPv6 di viaggiare attraverso un'infrastruttura IPv4 (utile durante la fase di transizione tra i due protocolli).
 
 
 **Nota:** una gran parte degli indirizzi globali rimane inutilizzata e serve come riserva per la futura crescita di Internet.
@@ -1842,7 +1853,7 @@ Combinando questi tipi di Address, l'IPv6 offre una serie completa di opzioni pe
 L'ambito di un Address IPv6 definisce il dominio esatto in cui è valido e unico. La comprensione di questo concetto è fondamentale per padroneggiare l'instradamento dei pacchetti e l'organizzazione logica di una rete IPv6. Gli indirizzi IPv6 sono generalmente raggruppati in tre categorie principali in base al loro ambito e utilizzo: unicast, anycast e multicast.
 
 
-*gli indirizzi *Unicast** sono i più comuni e comprendono diversi sottotipi distinti.
+*gli indirizzi* **Unicast** sono i più comuni e comprendono diversi sottotipi distinti.
 
 Questi includono il Address _loopback_ (`::1`), il cui ambito è limitato all'host che lo utilizza e che viene usato per testare lo stack di rete internamente senza inviare traffico sulla rete fisica.
 
@@ -1854,24 +1865,28 @@ Infine, gli indirizzi locali unici (_ULA_, per _Unique Local Addresses_) sono in
 Concettualmente, gli indirizzi IPv6 sono spesso rappresentati come una struttura binaria in cui la prima metà (i primi 64 bit) identifica il prefisso di rete e la seconda metà (anch'essa di 64 bit) identifica in modo univoco il Interface del dispositivo su quella rete. Questa suddivisione facilita l'autoconfigurazione Address attraverso meccanismi come SLAAC (_Stateless Address Autoconfiguration_), che consentono alle macchine di assegnare automaticamente generate un Address stabile basato sul MAC Address o su un identificatore pseudo-casuale.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Campo     | Prefisso | L | ID globale | Sottorete | ID interfaccia |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Bit       | 7      | 1 | 40        | 16     | 64            |
 
 L'architettura IPv6 segue il modello di routing globale gerarchico dell'attuale Internet. Il partizionamento dei prefissi consente ai registri regionali e agli operatori di rete di gestire l'assegnazione dei Address in modo decentralizzato, garantendo al contempo l'unicità globale. In questo contesto, lo stesso host può possedere contemporaneamente un Address unicast globale per le comunicazioni Internet e un Address link-local per le interazioni locali, ad esempio con il vicinato immediato o per i messaggi di scoperta dei router.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Campo     | Prefisso | Zero | ID interfaccia |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Bit       | 10     | 54   | 64           |
 
 **Gli indirizzi anycast** rappresentano un concetto intermedio che si basa sul modello unicast ma che in alcuni casi può comportarsi come il multicast. Un Address anycast è, in sostanza, un Address unicast assegnato a più interfacce distribuite su diversi nodi di rete. Quando un pacchetto viene inviato a un Address anycast, il protocollo IPv6 mira a consegnarlo a uno degli host che condividono quel Address, in genere quello più vicino in termini di topologia di routing. Questo approccio ottimizza la velocità di elaborazione delle query e migliora la resilienza dei servizi distribuiti. Un esempio classico sono i server DNS root, dove l'indirizzamento anycast indirizza automaticamente le query al punto di presenza più vicino.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Campo     | Prefisso | Subnet | ID interfaccia |
+|-----------|--------|--------|______________|
+| Bit      | 48     | 16     | 64           |
 
 Nell'IPv6, gli **indirizzi multicast** sostituiscono il meccanismo di broadcast, considerato troppo costoso e inadatto a una rete su scala globale. Un Address multicast identifica un gruppo di interfacce, in genere tra più host, che desiderano ricevere gli stessi pacchetti contemporaneamente.
 
@@ -1893,9 +1908,10 @@ La struttura di un Address multicast IPv6 comprende:
 - un campo di identificazione (112 bit) che identifica il numero del gruppo multicast.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Campo      | Prefisso | Flag | Ambito | ID gruppo |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bit       | 8      | 4      | 4      | 112      |
 
 Un noto esempio di multicast IPv6 in azione è il _Neighbor Discovery Protocol_ (NDP). Invece di usare ARP come in IPv4, NDP si basa su indirizzi multicast come `ff02::1:ff00:0/104` per trasmettere richieste di neighbor discovery, indirizzate solo agli host rilevanti sullo stesso link.
 
@@ -1954,7 +1970,7 @@ Per la configurazione automatica esistono diversi metodi:
 Ecco un esempio di come trasformare un MAC Address in EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/it/027.webp)
 
 
 
@@ -1964,8 +1980,8 @@ Tuttavia, a causa delle crescenti preoccupazioni sulla tracciabilità dei dispos
 Come nel caso del DHCP in IPv4, gli indirizzi IPv6 assegnati automaticamente possono avere due durate, definite dai router o dai server DHCPv6:
 
 
-- Durata preferita*: dopo questo periodo, il Address rimane valido, ma non viene più utilizzato per avviare nuove connessioni;
-- Durata valida*: allo scadere di questo tempo, il Address viene completamente rimosso dalla configurazione del Interface.
+- Durata preferita: dopo questo periodo, il Address rimane valido, ma non viene più utilizzato per avviare nuove connessioni;
+- Durata valida: allo scadere di questo tempo, il Address viene completamente rimosso dalla configurazione del Interface.
 
 
 Questo sistema consente di gestire dinamicamente i cambiamenti della rete, ad esempio garantendo una transizione senza problemi da un ISP all'altro. Aggiornando il prefisso annunciato dai router e adattando i record DNS in parallelo, la migrazione IPv6 può essere effettuata senza alcuna interruzione del servizio.
@@ -2013,8 +2029,9 @@ Dal 2006, ogni RIR riceve dalla IANA un blocco IPv6 /12, una dimensione fissa pe
 La gerarchia di allocazione tipica è la seguente:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Cliente | Subnet | Interfaccia |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Con questa abbondanza di indirizzi, il NAT (*Network Address Translation*), un tempo essenziale in IPv4 per far fronte alla carenza di Address, non è più necessario. Ogni host può avere un Address pubblico unico e instradabile a livello globale, semplificando la connettività end-to-end e rendendo più facile l'uso di protocolli come IPSec, VoIP o connessioni in entrata.
@@ -2092,7 +2109,7 @@ Ecco una panoramica dei diversi tipi di intestazioni di estensione definiti da I
 Questa intestazione, se presente, è sempre collocata subito dopo l'intestazione di base. Contiene informazioni che devono essere elaborate da ogni router lungo il percorso del pacchetto, a differenza della maggior parte delle altre intestazioni, che di solito sono gestite solo dal nodo di destinazione. Gli usi tipici includono la segnalazione di parametri globali o la richiesta di specifiche fasi di elaborazione durante il percorso del pacchetto.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/it/028.webp)
 
 
 #### Intestazione di routing
@@ -2108,16 +2125,16 @@ L'intestazione di instradamento specifica un elenco di indirizzi intermedi attra
 I primi quattro campi di questa intestazione di rooting sono:
 
 
-- Intestazione successiva**: identifica il tipo di intestazione successiva;
-- Tipo di instradamento**: definisce il metodo di instradamento (di solito `0`);
-- Segmenti rimasti**: numero di segmenti ancora da attraversare ;
-- Address[n]**: elenco degli indirizzi intermedi.
+- **Intestazione successiva**: identifica il tipo di intestazione successiva;
+- **Tipo di instradamento**: definisce il metodo di instradamento (di solito `0`);
+- **Segmenti rimasti**: numero di segmenti ancora da attraversare ;
+- **Address[n]**: elenco degli indirizzi intermedi.
 
 
 Il campo "Segmenti rimasti" inizia con il numero totale di segmenti rimanenti e viene decrementato di uno a ogni hop.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/it/029.webp)
 
 
 #### Intestazione di frammentazione
@@ -2129,12 +2146,12 @@ In IPv6, solo l'host sorgente è autorizzato a frammentare un datagramma, a diff
 L'intestazione di frammentazione contiene i seguenti campi:
 
 
-- Identificazione**: identificatore unico del datagramma per il riassemblaggio.
-- Fragment Offset**: posizione del frammento all'interno del datagramma originale.
-- Flag M**: indica se seguono altri frammenti.
+- **Identificazione**: identificatore unico del datagramma per il riassemblaggio.
+- **Fragment Offset**: posizione del frammento all'interno del datagramma originale.
+- **Flag M**: indica se seguono altri frammenti.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/it/030.webp)
 
 
 #### Intestazione di autenticazione (AH)
@@ -2146,7 +2163,7 @@ Questa intestazione è progettata per proteggere le comunicazioni verificando si
 In caso di tentativo di modifica fraudolenta, il codice di autenticazione non corrisponderà più e il datagramma potrà essere rifiutato. Questo meccanismo protegge anche dagli attacchi di replay, rilevando le duplicazioni non autorizzate.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/it/031.webp)
 
 
 #### Intestazione delle opzioni di destinazione
@@ -2158,7 +2175,7 @@ Questa intestazione è destinata solo al destinatario finale del datagramma. Pu�
 Inizialmente, il protocollo non prevedeva alcuna opzione di questo tipo. Tuttavia, questa intestazione è stata introdotta durante la progettazione di IPv6, per consentire l'aggiunta di future estensioni senza modificare la struttura complessiva del pacchetto. L'opzione null, ad esempio, viene utilizzata solo per riempire l'intestazione con un multiplo di 8 byte per l'allineamento della memoria.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/it/032.webp)
 
 
 La progettazione dei pacchetti IPv6 si basa su una netta separazione tra un'intestazione di base minima e intestazioni di estensione modulari. Questa architettura garantisce sia prestazioni di elaborazione standard sia la flessibilità necessaria per far evolvere il protocollo e integrare meccanismi di sicurezza, di routing complesso o di qualità del servizio, mantenendo la compatibilità con le infrastrutture future.
@@ -2504,7 +2521,7 @@ Wireshark è disponibile su molti sistemi operativi, compresi Linux e Windows. L
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/it/033.webp)
 
 
 
@@ -2555,7 +2572,7 @@ Questo comando produce un rapporto dettagliato su `enp0s3` Interface, una conven
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/it/034.webp)
 
 
 
@@ -2727,13 +2744,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Ogni riga rappresenta un percorso. I campi chiave includono:
 
 
-- default**: la rotta predefinita, utilizzata quando non esiste una rotta più specifica.
-- via**: il gateway utilizzato per raggiungere la destinazione.
-- dev**: la rete Interface utilizzata.
-- proto**: come è stata creata la rotta (manuale, DHCP, kernel, ecc.).
-- metric**: costo del percorso, usato per dare priorità a più percorsi possibili.
-- scope**: ambito della rotta (ad esempio, `link` per una rotta direttamente collegata).
-- src**: l'IP di origine Address utilizzato per i pacchetti in uscita su questo Interface.
+- **default**: la rotta predefinita, utilizzata quando non esiste una rotta più specifica.
+- **via**: il gateway utilizzato per raggiungere la destinazione.
+- **dev**: la rete Interface utilizzata.
+- **proto**: come è stata creata la rotta (manuale, DHCP, kernel, ecc.).
+- **metric**: costo del percorso, usato per dare priorità a più percorsi possibili.
+- **scope**: ambito della rotta (ad esempio, `link` per una rotta direttamente collegata).
+- **src**: l'IP di origine Address utilizzato per i pacchetti in uscita su questo Interface.
 
 
 #### Aggiunta e cancellazione di percorsi
@@ -3068,7 +3085,7 @@ Le interrogazioni ripetute o intensive a server DNS di terze parti senza autoriz
 Quando si monitora o si mette in sicurezza una rete locale o di grandi dimensioni, è fondamentale identificare i dispositivi attivi e i servizi che espongono. Questo è esattamente ciò che fa lo strumento `nmap` (*Network Mapper*).
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Introduzione a `nmap
 
@@ -3107,20 +3124,20 @@ In questo caso, verranno interrogati tutti gli host nell'intervallo da `192.168.
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/it/035.webp)
 
 
 
 Un amministratore può affidarsi a `nmap` per diversi compiti:
 
 
-- Rilevare gli host attivi**: identificare quali macchine rispondono all'interno di una sottorete;
-- Inventario dei servizi**: garantire l'accesso solo alle porte necessarie (principio del minimo privilegio);
-- Controllo di conformità**: confronta le porte aperte con la politica di sicurezza dell'organizzazione;
-- Prevenzione delle vulnerabilità**: individuare servizi insicuri o non aggiornati in esecuzione su macchine critiche.
+- **Rilevare gli host attivi**: identificare quali macchine rispondono all'interno di una sottorete;
+- **Inventario dei servizi**: garantire l'accesso solo alle porte necessarie (principio del minimo privilegio);
+- **Controllo di conformità**: confronta le porte aperte con la politica di sicurezza dell'organizzazione;
+- **Prevenzione delle vulnerabilità**: individuare servizi insicuri o non aggiornati in esecuzione su macchine critiche.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Strumenti di interrogazione dei processi
 
@@ -3216,10 +3233,10 @@ Questi strumenti offrono agli amministratori un insieme coerente di leve tecnich
 Strumenti che forniscono visibilità diretta su interfacce e frame:
 
 
-- arp / ip neigh**: ispeziona e modifica la cache ARP/NDP per controllare o correggere le associazioni IP-MAC;
-- tcpdump**: cattura dei pacchetti a riga di comando, filtrabile ed esportabile;
-- Wireshark**: analisi grafica dei pacchetti con decodifica profonda dei protocolli;
-- ethtool**: interroga e regola i parametri fisici della scheda Ethernet (velocità, duplex, WoL, ecc.).
+- **arp / ip neigh**: ispeziona e modifica la cache ARP/NDP per controllare o correggere le associazioni IP-MAC;
+- **tcpdump**: cattura dei pacchetti a riga di comando, filtrabile ed esportabile;
+- **Wireshark**: analisi grafica dei pacchetti con decodifica profonda dei protocolli;
+- **ethtool**: interroga e regola i parametri fisici della scheda Ethernet (velocità, duplex, WoL, ecc.).
 
 
 #### Rete Layer
@@ -3228,10 +3245,10 @@ Strumenti che forniscono visibilità diretta su interfacce e frame:
 Strumenti per la valutazione della connettività IP, del routing e del traffico di pacchetti:
 
 
-- ping**: verifica la raggiungibilità e misura la latenza con ICMP;
-- ip route**: ispeziona e modifica la tabella di routing per controllare i percorsi dei pacchetti;
-- traceroute**: identificazione hop-by-hop dei router lungo il percorso verso una destinazione;
-- ss**: inventario dettagliato dei socket TCP/UDP e dei processi associati (successore di netstat).
+- **ping**: verifica la raggiungibilità e misura la latenza con ICMP;
+- **ip route**: ispeziona e modifica la tabella di routing per controllare i percorsi dei pacchetti;
+- **traceroute**: identificazione hop-by-hop dei router lungo il percorso verso una destinazione;
+- **ss**: inventario dettagliato dei socket TCP/UDP e dei processi associati (successore di netstat).
 
 
 #### Livelli di trasporto e applicazione
@@ -3240,9 +3257,9 @@ Strumenti per la valutazione della connettività IP, del routing e del traffico 
 Strumenti per la diagnosi di servizi e processi:
 
 
-- nslookup / dig / host**: Query DNS per convalidare la risoluzione dei nomi e analizzare i record;
-- nmap**: esplora le porte aperte e i servizi esposti per valutare la superficie di attacco;
-- lsof**: elenca i file e i socket aperti dai processi, correlando l'attività del sistema e della rete.
+- **nslookup / dig / host**: Query DNS per convalidare la risoluzione dei nomi e analizzare i record;
+- **nmap**: esplora le porte aperte e i servizi esposti per valutare la superficie di attacco;
+- **lsof**: elenca i file e i socket aperti dai processi, correlando l'attività del sistema e della rete.
 
 
 La padronanza di questi strumenti, ciascuno allineato a una fase specifica del modello TCP/IP, consente un approccio metodico: a partire dal Layer fisico, passando per il routing e fino ai servizi applicativi. Questa catena di competenze consente agli amministratori di diagnosticare, proteggere e ottimizzare l'infrastruttura, garantendo le prestazioni e la disponibilità della rete.

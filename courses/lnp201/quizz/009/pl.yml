@@ -6,4 +6,4 @@ wrong_answers:
   - Tymczasowo blokuje fundusze, aby zapobiec nadmiernym wydatkom
 explanation: |
   Skrypt blokujący nakłada warunki, takie jak podpisanie kluczem prywatnym, w celu odblokowania i wykorzystania środków w transakcji.
-reviewed: false
+reviewed: true

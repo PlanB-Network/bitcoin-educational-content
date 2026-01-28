@@ -1,11 +1,10 @@
-question: Mikä on historiallinen polku, jota instituutiot ovat seuranneet fiat-valuuttojen käyttöönotossa?
-answer: Johtajat keskittävät kullan ja esittelevät uuden valuutan, joka on arvoltaan vastaava kullan kanssa, ja jota sitten vähitellen aliarvostetaan.
+question: Mikä on hyperinflaation ilmiön viimeinen vaihe?
+answer: Uuden valuutan synty.
 wrong_answers:
-  - Johtajat esittelevät uuden valuutan, joka on tuettu kullalla, ja jonka arvoa sitten vähitellen kasvatetaan.
-  - Johtajat esittelevät uuden valuutan, jolla ei ole sisäistä arvoa, ja jonka arvoa sitten vähitellen kasvatetaan.
-  - Johtajat esittelevät uuden valuutan, joka on tuettu hyödykekorilla, ja jonka arvoa pidetään vakiona.
+  - Luottamuksen menetys.
+  - Valuutan romahtaminen & hinnannousu.
+  - Rahanpainamisen noidankehä.
 explanation: |
-  Historiallisesti johtajat ovat keskittäneet kullan ja esitelleet
-  uuden valuutan, joka on arvoltaan vastaava kullan kanssa. Tämä uusi
-  valuutta sitten vähitellen aliarvostetaan, usein kansan edun nimissä.
+  Hyperinflaation viimeinen vaihe tapahtuu, kun uusi
+  valuutta otetaan käyttöön korvaamaan vanha.
 reviewed: true

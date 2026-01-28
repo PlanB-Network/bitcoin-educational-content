@@ -1,0 +1,9 @@
+question: Giới hạn kích thước mặc định của Mempool trong Bitcoin core là gì?
+answer: 300 MB
+wrong_answers:
+  - 256 MB
+  - 512 MB
+  - 1024 MB
+explanation: |
+  Theo mặc định, Bitcoin core giới hạn Mempool ở mức 300 MB. Ngoài ra, nó sẽ loại bỏ các giao dịch ít lợi nhuận hơn.
+reviewed: true

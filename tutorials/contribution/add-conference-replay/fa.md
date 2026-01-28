@@ -14,7 +14,7 @@ description: چگونه یک بازپخش کنفرانس را به شبکه Plan
 با این حال، اگر می‌خواهید کنفرانسی را که در آینده برگزار خواهد شد اضافه کنید، به شما توصیه می‌کنم این آموزش دیگر را بخوانید که در آن توضیح می‌دهیم چگونه یک رویداد جدید به سایت اضافه کنید.
 
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 - اول، شما نیاز دارید که یک حساب کاربری در GitHub داشته باشید. اگر نمی‌دانید چگونه یک حساب کاربری ایجاد کنید، ما یک آموزش جامع برای راهنمایی شما تهیه کرده‌ایم.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -105,7 +105,7 @@ tags:
 اگر هنوز شناسه "*سازنده*" برای سازمان خود ندارید، می‌توانید با دنبال کردن این آموزش دیگر آن را اضافه کنید.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -135,7 +135,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/14.webp)
 
 
-- Fork خود را از مخزن PlanB Network انتخاب کنید:
+- Fork خود را از مخزن Plan ₿ Academy انتخاب کنید:
 
 ![conference](assets/15.webp)
 

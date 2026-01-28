@@ -1,9 +1,9 @@
-question: Mikä on Bitcoinin skaalautuvuusongelma?
-answer: Haaste toteuttaa rahajärjestelmä, joka pystyy käsittelemään yhä kasvavan määrän transaktioita sekunnissa sen käyttöönoton myötä.
+question: Mikä on RGB:n keskeinen periaate?
+answer: Asiakaspuolen validointi
 wrong_answers:
-  - Uusien Bitcoinien louhinnan vaikeus niiden arvon kasvaessa ajan myötä.
-  - Bitcoinin hinnan volatiliteetti, joka kasvaa jokaisen puolittumisen jälkeen.
-  - Bitcoinin sääntelyn puute, mikä tekee transaktioista laittomia.
-explanation: >-
-  Skaalautuvuusongelma viittaa haasteeseen toteuttaa rahajärjestelmä, joka pystyy käsittelemään yhä kasvavan määrän transaktioita sekunnissa sen käyttöönoton myötä.
-reviewed: true
+  - Globaali suoritus lohkoketjussa
+  - Federatiivinen konsensus
+  - Proof-of-Work
+explanation: |
+  RGB perustuu tilojen paikalliseen validointiin, ja lohkoketju toimii vain kryptografisena ankkurina ja suojana kaksinkertaista kulutusta vastaan.
+reviewed: false

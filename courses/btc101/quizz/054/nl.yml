@@ -1,10 +1,11 @@
-question: Wat is de tweede fase van het hyperinflatieverschijnsel?
-answer: Valuta stort in en prijzen stijgen.
+question: Hoe heet de gebeurtenis waarbij de beloning voor Mining wordt gehalveerd?
+answer: Halving
 wrong_answers:
-  - Verlies van vertrouwen.
-  - De vicieuze cirkel van het bijdrukken van geld.
-  - Er ontstaat een nieuwe valuta.
+  - Verdubbeling
+  - Inkwartiering
+  - Verdrievoudiging
 explanation: |
-  De tweede fase van hyperinflatie is het ineenstorten van de valuta &
-  prijsstijging, net na de fase van verlies van vertrouwen.
+  De gebeurtenis waarbij de beloning voor Mining gehalveerd wordt, heet
+  Halving. Deze gebeurtenis geeft de monetaire uitgiftecurve een
+  trapvorm.
 reviewed: true

@@ -18,7 +18,7 @@ _Den här handledningen tillhandahålls endast i utbildnings- och informationssy
 
 > *Bryt länken som dina mynt lämnar efter sig*
 
-Det här är en fråga som jag ofta får. **När man gör coinjoins med Whirlpool, hur många remixer ska man göra för att uppnå tillfredsställande resultat?
+Det här är en fråga som jag ofta får. **När man gör coinjoins med Whirlpool, hur många remixer ska man göra för att uppnå tillfredsställande resultat?**
 
 
 Syftet med CoinJoin är att erbjuda en trovärdig förnekelse genom att blanda ditt mynt med en grupp mynt som inte går att skilja från varandra. Målet med denna åtgärd är att bryta spårbarhetslänkarna, både från det förflutna till nutid och från nutid till det förflutna. Med andra ord bör en analytiker som känner till din initiala transaktion vid ingången av CoinJoin-cyklerna inte definitivt kunna identifiera din UTXO vid utgången av remixcyklerna (analys från ingångscykler till utgångscykler).
@@ -47,7 +47,7 @@ Namnet på denna indikator är "backward anonset" eller "backward-looking metric
 
 ![backward anonset](assets/en/6.webp)
 
-För att lära dig mer om beräkningsmetoden för dessa indikatorer rekommenderar jag att du läser [min Twitter-tråd] (https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) om detta ämne. Vi förbereder också en mer omfattande artikel om PlanB Network.
+För att lära dig mer om beräkningsmetoden för dessa indikatorer rekommenderar jag att du läser [min Twitter-tråd](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) om detta ämne. Vi förbereder också en mer omfattande artikel om Plan ₿ Academy.
 
 
 Jag är medveten om att det givna svaret kan verka otillfredsställande eftersom du hoppades på ett specifikt antal remixer, och jag hänvisar dig till dokumentation. Anledningen till detta är att antalet remixer är en opålitlig indikator för att utvärdera den anonymitet som uppnåtts i CoinJoin-cykler. Därför är det inte möjligt att definiera ett fast antal remixer som en absolut och universell säkerhetströskel.
@@ -80,7 +80,7 @@ Det är därför jag anser att användningen av Whirlpool är särskilt relevant
 Jag hoppas att detta svar har kastat lite ljus över Whirlpool-modellen. Om du vill lära dig mer om hur coinjoins fungerar på Bitcoin rekommenderar jag att du läser min omfattande artikel om detta ämne:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Externa resurser:**
 

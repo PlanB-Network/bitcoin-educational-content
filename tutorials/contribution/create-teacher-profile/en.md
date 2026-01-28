@@ -1,22 +1,22 @@
 ---
-name: Professor Plan ₿ Network
-description: How do I add or modify my teacher profile on Plan ₿ Network?
+name: Professor Plan ₿ Academy
+description: How do I add or modify my teacher profile on Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
-If you plan to contribute to Plan ₿ Network by writing a new tutorial or course, you will need a teacher profile. This profile will enable you to receive the appropriate credits for the content you contribute to the platform.
+If you plan to contribute to Plan ₿ Academy by writing a new tutorial or course, you will need a teacher profile. This profile will enable you to receive the appropriate credits for the content you contribute to the platform.
 
-For those of you who have already been involved in creating educational content on Plan ₿ Network, you probably already have a teacher profile. You can find it in the `/professors` folder [on our GitHub repository](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). If your profile already exists, find your login in the `professor.yml` file.
+For those of you who have already been involved in creating educational content on Plan ₿ Academy, you probably already have a teacher profile. You can find it in the `/professors` folder [on our GitHub repository](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). If your profile already exists, find your login in the `professor.yml` file.
 
 To make changes to your profile, go to the "Edit your teacher profile" section at the end of this tutorial.
 
 ## Add a new teacher with our software
 
-The easiest way to create your teacher profile on Plan ₿ Network is to use our integrated Python tool. Here's how it works.
+The easiest way to create your teacher profile on Plan ₿ Academy is to use our integrated Python tool. Here's how it works.
 
 ### 1 - Configure your local environment
 
-You must have your own Fork from [Plan ₿ Network repository on GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
+You must have your own Fork from [Plan ₿ Academy repository on GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Synchronize the main branch (`dev`) of your Fork with the source repository.
 
@@ -67,7 +67,7 @@ Then launch the software with the command:
 python3 main.py
 ```
 
-Once on the home page, enter the local path to your repository clone, the language you're writing in and your GitHub ID. If you're creating this profile for someone else and already have a Professor's profile, enter your ID in the "*PBN Professor's ID*" field. If you're creating your own profile, you won't have a Professor's ID yet, as you're in the process of creating one, so leave this field blank.
+Once on the home page, enter the local path to your repository clone, the language you're writing in and your GitHub ID. If you're creating this profile for someone else and already have a Professor's profile, enter your ID in the "*Plan ₿ Academy Professor's ID*" field. If you're creating your own profile, you won't have a Professor's ID yet, as you're in the process of creating one, so leave this field blank.
 
 Then click on the "*New Professor*" button.
 
@@ -118,8 +118,8 @@ If you've mastered the use of Git, modify your teacher profile by creating a new
 
 For beginners, I recommend making the modification directly via GitHub's Interface web. Make sure you have a GitHub account. If you don't know how to create one, follow this tutorial:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Go to [the Plan ₿ Network GitHub repository dedicated to data](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Go to [the Plan ₿ Academy GitHub repository dedicated to data](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 
@@ -137,7 +137,7 @@ Once on the file you wish to modify, click on the pencil icon.
 
 ![Image](assets/fr/06.webp)
 
-If you don't already have a Fork from the Plan ₿ Network repository, GitHub will suggest you create one. Click on "*Fork this repository*".
+If you don't already have a Fork from the Plan ₿ Academy repository, GitHub will suggest you create one. Click on "*Fork this repository*".
 
 ![Image](assets/fr/07.webp)
 
@@ -151,17 +151,17 @@ Enter a message describing your change, then select "*Propose changes*".
 
 A summary of your changes will be displayed. If you wish to make further changes to your profile, you can return to the folders and make further commits. When you're finished, click on "*Create pull request*".
 
-A Pull Request is a request made to integrate changes from your branch into the main branch of the Plan ₿ Network repository, allowing review and discussion of changes before they are merged.
+A Pull Request is a request made to integrate changes from your branch into the main branch of the Plan ₿ Academy repository, allowing review and discussion of changes before they are merged.
 
 ![Image](assets/fr/10.webp)
 
-Make sure, at the top of Interface, that your working branch is merged with the `dev` branch of the Plan ₿ Network repository (which is the main branch).
+Make sure, at the top of Interface, that your working branch is merged with the `dev` branch of the Plan ₿ Academy repository (which is the main branch).
 
 Enter a title that briefly summarizes the changes you wish to merge with the source repository. Add a brief comment describing these changes, then click on the green "*Create pull request*" button to confirm the pull request:
 
 ![Image](assets/fr/11.webp)
 
-Your PR will then be visible in the "*Pull Request*" tab of the main Plan ₿ Network repository. All you have to do now is wait for an administrator to merge your modification.
+Your PR will then be visible in the "*Pull Request*" tab of the main Plan ₿ Academy repository. All you have to do now is wait for an administrator to merge your modification.
 
 ![Image](assets/fr/12.webp)
 

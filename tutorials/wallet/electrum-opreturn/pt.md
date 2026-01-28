@@ -22,7 +22,7 @@ Este tutorial passo a passo mostra como escrever uma mensagem no Blockchain Bitc
 - Um computador (Windows, macOS ou Linux).
 - Ligação à Internet.
 - Alguns satoshis (Sats) ou bitcoins (BTC) no seu Wallet para cobrir o montante da transação e as taxas.
-- Um conversor de texto para hexadecimal (por exemplo, um sítio em linha) ou uma ferramenta específica como [este gerador de guião OP_RETURN] (https://resources.davidcoen.it/opreturnelectrum/).
+- Um conversor de texto para hexadecimal (por exemplo, um sítio em linha) ou uma ferramenta específica como [este gerador de guião OP_RETURN](https://resources.davidcoen.it/opreturnelectrum/).
 
 
 
@@ -53,7 +53,7 @@ Este tutorial passo a passo mostra como escrever uma mensagem no Blockchain Bitc
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Isto mostrará uma receção Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ Selecionar a mensagem que se pretende introduzir (por exemplo, "Obrigado Satoshi
 
 
 
-- deixar uma bela expressão da nossa humanidade,*
-- evite introduzir conteúdos de que se possa arrepender*
+- deixar uma bela expressão da nossa humanidade,
+- evite introduzir conteúdos de que se possa arrepender
 
 
 
@@ -164,7 +164,7 @@ Converta a sua mensagem em hexadecimal :
 
 
 
-- Pode utilizar uma [ferramenta em linha] (https://www.rapidtables.com/convert/number/ascii-to-hex.html), mas tenha cuidado para não tratar aí dados sensíveis (embora, em princípio, as informações destinadas a publicação no Blockchain Bitcoin através de um OP_RETURN não apresentem quaisquer problemas de confidencialidade);
+- Pode utilizar uma [ferramenta em linha](https://www.rapidtables.com/convert/number/ascii-to-hex.html), mas tenha cuidado para não tratar aí dados sensíveis (embora, em princípio, as informações destinadas a publicação no Blockchain Bitcoin através de um OP_RETURN não apresentem quaisquer problemas de confidencialidade);
 - Para maior confidencialidade, efectue a conversão localmente utilizando um pequeno ficheiro Python :
 
 
@@ -208,9 +208,9 @@ que é constituído por :
 
 
 
-- Destino Address**: Um Bitcoin Address válido. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Este pode ser o seu próprio Address, caso pretenda devolver os fundos transferidos a si próprio;
-- Montante transferido**: o montante da transação, aqui `0.00001` BTC. **Atenção**: como a unidade usada em Electrum é BTC, o valor indicado no script da transação também deve ser expresso em BTC, e não em Sats ;
-- Script OP_RETURN**: A mensagem convertida para hexadecimal precedida por script(`OP_RETURN <messsage>), 0`. Aqui, `5468616e6b73205361746f736869` para a mensagem em hexadecimal.
+- **Destino Address**: Um Bitcoin Address válido. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Este pode ser o seu próprio Address, caso pretenda devolver os fundos transferidos a si próprio;
+- **Montante transferido**: o montante da transação, aqui `0.00001` BTC. **Atenção**: como a unidade usada em Electrum é BTC, o valor indicado no script da transação também deve ser expresso em BTC, e não em Sats ;
+- Script **OP_RETURN**: A mensagem convertida para hexadecimal precedida por script(`OP_RETURN <messsage>), 0`. Aqui, `5468616e6b73205361746f736869` para a mensagem em hexadecimal.
 
 
 
@@ -218,7 +218,7 @@ que é constituído por :
 
 
 
-Dica: Utiliza a ferramenta [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) para criar automaticamente o script generate. Mesmo que esta ferramenta sugira introduzir o montante em BTC, mantém a unidade configurada em Electrum.
+Dica: Utiliza a ferramenta [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) para criar automaticamente o script generate. Mesmo que esta ferramenta sugira introduzir o montante em BTC, mantém a unidade configurada em Electrum.
 
 
 

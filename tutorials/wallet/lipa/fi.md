@@ -10,7 +10,7 @@ Lightning-lompakoita, kuten kaikkia mobiililompakoita, pidetään "kuumina" lomp
 
 Jos haluat oppia lisää Lightning-verkosta ja ymmärtää, miten se toimii teknisesti, suosittelen osallistumaan tälle kurssille:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Tässä oppaassa tutustumme **Lipaan**, yksinkertaiseen ja tehokkaaseen Sveitsissä kehitettyyn Lightning-lompakkoon.
 
@@ -52,10 +52,10 @@ Kun olet valinnut vaihtoehdon, sovellus pyytää sinua ottamaan ilmoitukset käy
 Tämän jälkeen sovellus esittelee tärkeimmät toimintonsa useiden esittelynäyttöjen avulla:
 
 
-- Saumaton maksun vastaanotto**: Käyttäjät voivat vastaanottaa Bitcoin-maksuja, vaikka sovellus olisi suljettu, mikä takaa luotettavuuden ja mukavuuden.
-- Muiden kuin huoltajien salamaosoitteet**: Tämä parantaa yksityisyyttä ja turvallisuutta antamalla käyttäjille täyden hallinnan bitcoineistaan.
-- Analyyttisten tietojen valvonta** : Läpinäkyvyys ja luottamuksellisuus ovat etusijalla, joten käyttäjät voivat tarkastella kerättyjen tietojen tyyppejä ja valita jakamisasetukset.
-- Lähetä puhelinnumeron kautta**: Valitse yhteyshenkilö, syötä summa ja lähetä bitcoineja suoraan hänen puhelinnumeroonsa.
+- **Saumaton maksun vastaanotto**: Käyttäjät voivat vastaanottaa Bitcoin-maksuja, vaikka sovellus olisi suljettu, mikä takaa luotettavuuden ja mukavuuden.
+- **Muiden kuin huoltajien salamaosoitteet**: Tämä parantaa yksityisyyttä ja turvallisuutta antamalla käyttäjille täyden hallinnan bitcoineistaan.
+- **Analyyttisten tietojen valvonta**: Läpinäkyvyys ja luottamuksellisuus ovat etusijalla, joten käyttäjät voivat tarkastella kerättyjen tietojen tyyppejä ja valita jakamisasetukset.
+- **Lähetä puhelinnumeron kautta**: Valitse yhteyshenkilö, syötä summa ja lähetä bitcoineja suoraan hänen puhelinnumeroonsa.
 
 Sovellus hyötyy myös jatkuvista parannuksista vakauden, turvallisuuden ja luotettavuuden osalta, jotta voidaan taata optimaalinen käyttökokemus.
 
@@ -66,10 +66,10 @@ Lipan käyttöliittymä on järjestetty neljän päävälilehden ympärille, joi
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Koti**: Näyttää nykyisen saldon ja tapahtumahistorian
-- Skanneri**: Mahdollistaa QR-koodien skannaamisen maksujen suorittamiseksi
-- Kartta**: Näyttää interaktiivisen kartan Bitcoinin hyväksyvistä yrityksistä alueellasi
-- Asetukset**: Pääsy sovelluksen asetuksiin, varmuuskopiointiin ja asetuksiin
+- **Koti**: Näyttää nykyisen saldon ja tapahtumahistorian
+- **Skanneri**: Mahdollistaa QR-koodien skannaamisen maksujen suorittamiseksi
+- **Kartta**: Näyttää interaktiivisen kartan Bitcoinin hyväksyvistä yrityksistä alueellasi
+- **Asetukset**: Pääsy sovelluksen asetuksiin, varmuuskopiointiin ja asetuksiin
 
 Lisävalikkoon pääsee vetämällä aloitusnäyttöä alaspäin:
 
@@ -91,7 +91,7 @@ Jos haluat varmuuskopioida lompakkosi, siirry "Asetukset"-välilehdelle ja valit
 
 Jos haluat lisätietoja siitä, miten varmuuskopioida ja hallita palautuslausetta oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Vastaanottaa bitcoineja
 

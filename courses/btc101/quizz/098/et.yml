@@ -1,11 +1,9 @@
-question: Mis on üks soovitatud alternatiivseid lahendusi paberile, et hoida oma mnemoonilist fraasi?
-answer: Graveerimine metallplaadile
+question: Miks on privaatsus Bitcoini kontekstis oluline?
+answer: Et minimeerida oma vahendite jälitamise riske
 wrong_answers:
-  - Hoidmine digitaalses failis
-  - Kirjutamine tahvlile
-  - Salvestamine kontaktina oma telefonis
+  - Et vähendada oma bitcoinide väärtust
+  - Et hoida ära oma bitcoinide varastamist
+  - Et maksta oma bitcoinide eest makse
 explanation: |
-  Üks alternatiivseid lahendusi paberile oma mnemoonilise fraasi hoidmiseks
-  on graveerimine metallplaadile. See võib pakkuda vastupidavamat ja pikaealisemat
-  lahendust.
+  Privaatsus on Bitcoini kontekstis oluline, et minimeerida oma vahendite jälitamise riske, mis võib viia järelevalveni.
 reviewed: true

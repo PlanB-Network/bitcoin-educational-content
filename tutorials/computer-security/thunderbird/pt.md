@@ -17,13 +17,13 @@ O Thunderbird é uma aplicação de correio eletrónico conhecida pela sua flexi
 
 
 
-- Gratuito e de código aberto**: ao contrário de muitas aplicações de mensagens, o Thunderbird é totalmente gratuito. No entanto, pode apoiar a comunidade de programadores enviando-lhes um donativo.
-- Interface intuitivo e fácil de aprender**: A configuração do Thunderbird é, na sua maior parte, simples, pelo que não tem de se preocupar com ela.
-- Adequada para vários tipos de correio eletrónico**: seja Gmail, Yahoo, Outlook ou mesmo correio eletrónico profissional associado a um nome de domínio, esta caixa de correio é muito versátil.
-- Multi-contas**: O Thunderbird permite-lhe ligar-se a várias contas de correio eletrónico em simultâneo, facilitando o acesso a todas as suas mensagens.
-- Funcionalidades de elevado desempenho e escalabilidade**: por defeito, o Thunderbird oferece uma vasta gama de funcionalidades para gerir as suas contas de correio eletrónico e calendário de eventos. No entanto, também lhe permite adicionar mais opções graças às muitas extensões disponíveis.
-- Multi-plataforma**: O Thunderbird está disponível numa variedade de dispositivos (Android, Windows, Linux, macOS), proporcionando-lhe um acesso fácil aos seus e-mails.
-- Segurança**: O Thunderbird é uma aplicação altamente segura, permitindo-lhe beneficiar de encriptação de ponta a ponta baseada em RSA ou ECC (Elliptic Curve) para garantir a confidencialidade dos seus dados.
+- **Gratuito e de código aberto**: ao contrário de muitas aplicações de mensagens, o Thunderbird é totalmente gratuito. No entanto, pode apoiar a comunidade de programadores enviando-lhes um donativo.
+- **Interface intuitivo e fácil de aprender**: A configuração do Thunderbird é, na sua maior parte, simples, pelo que não tem de se preocupar com ela.
+- Adequada para vários tipos de correio eletrónico: seja Gmail, Yahoo, Outlook ou mesmo correio eletrónico profissional associado a um nome de domínio, esta caixa de correio é muito versátil.
+- **Multi-contas**: O Thunderbird permite-lhe ligar-se a várias contas de correio eletrónico em simultâneo, facilitando o acesso a todas as suas mensagens.
+- **Funcionalidades de elevado desempenho e escalabilidade**: por defeito, o Thunderbird oferece uma vasta gama de funcionalidades para gerir as suas contas de correio eletrónico e calendário de eventos. No entanto, também lhe permite adicionar mais opções graças às muitas extensões disponíveis.
+- **Multi-plataforma**: O Thunderbird está disponível numa variedade de dispositivos (Android, Windows, Linux, macOS), proporcionando-lhe um acesso fácil aos seus e-mails.
+- **Segurança**: O Thunderbird é uma aplicação altamente segura, permitindo-lhe beneficiar de encriptação de ponta a ponta baseada em RSA ou ECC (Elliptic Curve) para garantir a confidencialidade dos seus dados.
 
 
 
@@ -34,7 +34,7 @@ O Thunderbird é uma aplicação de correio eletrónico conhecida pela sua flexi
 ### Descarregar
 
 
-Para instalar o Thunderbird, é necessário descarregar o software a partir do [site oficial] (https://www.thunderbird.net/). Note que a aplicação está disponível para diferentes sistemas operativos. No entanto, a versão predefinida será a que for detectada automaticamente pelos dados fornecidos pelo seu browser.
+Para instalar o Thunderbird, é necessário descarregar o software a partir do [site oficial](https://www.thunderbird.net/). Note que a aplicação está disponível para diferentes sistemas operativos. No entanto, a versão predefinida será a que for detectada automaticamente pelos dados fornecidos pelo seu browser.
 
 
 
@@ -42,7 +42,7 @@ Para instalar o Thunderbird, é necessário descarregar o software a partir do [
 
 
 
-Para descarregar uma versão específica do Thunderbird, vá a [esta página] (https://www.thunderbird.net/an/thunderbird/all/). Escolha o seu idioma, o sistema operativo de destino e a arquitetura do processador e, em seguida, inicie o download.
+Para descarregar uma versão específica do Thunderbird, vá a [esta página](https://www.thunderbird.net/an/thunderbird/all/). Escolha o seu idioma, o sistema operativo de destino e a arquitetura do processador e, em seguida, inicie o download.
 
 
 
@@ -59,8 +59,8 @@ No Windows, execute o executável descarregado para iniciar a instalação. Cliq
 
 
 
-- Standard**: permite a instalação direta sem configuração prévia.
-- Personalizado**: permite-lhe escolher a pasta de instalação e se pretende ou não criar atalhos no ambiente de trabalho.
+- **Standard**: permite a instalação direta sem configuração prévia.
+- **Personalizado**: permite-lhe escolher a pasta de instalação e se pretende ou não criar atalhos no ambiente de trabalho.
 
 
 
@@ -213,4 +213,4 @@ Descubra o nosso tutorial sobre o Proton Mail, uma solução de mensagens encrip
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

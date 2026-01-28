@@ -1,0 +1,9 @@
+question: Bitcoin에서 PBKDF2가 사용하는 반복 횟수는 몇 번인가요?
+answer: 2048
+wrong_answers:
+  - 1024
+  - 4096
+  - 512
+explanation: |
+  PBKDF2는 보안을 강화하기 위해 HMAC-SHA512 프로세스를 2048회 반복합니다.
+reviewed: false

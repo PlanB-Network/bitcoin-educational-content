@@ -6,3 +6,4 @@ wrong_answers:
   - Pieter Wuille (sipa)
 explanation: |
   Dieser Bitcoin Block Explorer ermöglichte es den Nutzern, detaillierte Informationen über Blöcke, Adressen und Transaktionen über einen Webbrowser einzusehen.
+reviewed: true 

@@ -1,9 +1,9 @@
 question: Chiến lược đầu tư nào thường được các nhà đầu tư sử dụng?
-answer: Trung bình chi phí đô la
+answer: Chiến lược mua trung bình giá (DCA)
 wrong_answers:
-  - Giao dịch trong ngày
-  - Trọng tài
-  - Tổng số tiền
+  - Mua bán giao dịch trong ngày
+  - Mua bán chênh lệch giá
+  - Mua bán một lần với số lượng lớn (Lump-Sum)
 explanation: |
-  DCA liên quan đến việc đầu tư một số tiền cố định thường xuyên để giảm tác động của biến động thị trường lên danh mục đầu tư.
+  DCA (Chiến lược mua trung bình giá) liên quan đến việc đầu tư một số tiền cố định thường xuyên để giảm tác động của biến động thị trường lên danh mục đầu tư.
 reviewed: false

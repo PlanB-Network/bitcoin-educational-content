@@ -1,0 +1,9 @@
+question: 프로페셔널 Bitcoin 결제 시스템에 적합한 오픈 소스 소프트웨어는 무엇인가요?
+answer: BTC 페이 서버
+wrong_answers:
+  - 스위스 Bitcoin Pay
+  - 노드 열기
+  - 비트코인화 PoS
+explanation: |
+  BTC 페이 서버는 광범위한 통합 옵션과 제어 기능으로 인해 프로페셔널 설정을 위한 핵심 오픈 소스 솔루션으로 이 과정에서 강조됩니다.
+reviewed: true

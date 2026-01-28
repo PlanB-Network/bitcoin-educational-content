@@ -1,9 +1,11 @@
-question: Mikä on Bitcoin-vallankumouksen päätavoite tämän kurssin mukaan?
-answer: Luoda maailma, jossa ihmisen itsemääräämisoikeus on oikeus, yksityisyyttä kunnioitetaan oletusarvoisesti, ja rahaa ei manipuloida.
+question: Mitä tämä kurssi ehdottaa Bitcoinin oppimisen tahdista?
+answer: Kaiken omaksuminen kerralla on monimutkaista, joten ota aikasi.
 wrong_answers:
-  - Luoda maailma, jossa yksityisyys ei ole ihmisoikeus, ja rahaa manipuloivat pankit.
-  - Luoda maailma, jossa hallituksilla ei ole valtaa, ja yhteiskunta on kaoottinen.
-  - Luoda maailma, jossa fyysinen raha on vanhentunutta.
+  - Kaiken oppiminen kerralla on helppoa.
+  - Kaiken Bitcoinista oppiminen on mahdotonta.
+  - Kaiken Bitcoinista oppiminen on tarpeetonta.
 explanation: |
-  Tämän kurssitekstin mukaan Bitcoin-vallankumouksen päätavoite on luoda maailma, jossa ihmisen itsemääräämisoikeus on oikeus, yksityisyyttä kunnioitetaan oletusarvoisesti, ja rahaa ei manipuloida.
+  Kurssi ehdottaa, että Bitcoinin parissa on niin paljon tutkittavaa,
+  että kaiken omaksuminen kerralla on monimutkaista, joten
+  kannattaa ottaa aikaa. 
 reviewed: true

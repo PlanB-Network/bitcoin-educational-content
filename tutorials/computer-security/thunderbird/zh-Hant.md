@@ -1,5 +1,5 @@
 ---
-name: 雷鳥
+name: Thunderbird
 description: 適用於專業人士和私人的安全訊息
 ---
 
@@ -17,13 +17,13 @@ Thunderbird 是一款電子郵件應用程式，以其靈活性和廣泛的功�
 
 
 
-- 免費且開放原始碼**：與許多訊息應用程式不同，Thunderbird 是完全免費的。不過，您可以透過捐款支持開發者社群。
-- 直覺的 Interface，易學易用**：Thunderbird 的設定在大多數情況下都很直接，所以您不必擔心。
-- 適用於多種類型的電子郵件**：無論是 Gmail、Yahoo、Outlook，甚至是與網域名稱相關的商業電子郵件，這個信箱都具有高度的通用性。
+- **免費且開放原始碼**：與許多訊息應用程式不同，Thunderbird 是完全免費的。不過，您可以透過捐款支持開發者社群。
+- 直覺的 Interface，易學易用：Thunderbird 的設定在大多數情況下都很直接，所以您不必擔心。
+- 適用於多種類型的電子郵件：無論是 Gmail、Yahoo、Outlook，甚至是與網域名稱相關的商業電子郵件，這個信箱都具有高度的通用性。
 - 多帳號**：Thunderbird 可讓您同時連接多個電子郵件帳號，讓您輕鬆存取所有郵件。
-- 高效能功能與擴充性**：Thunderbird 預設提供廣泛的功能來管理您的電子郵件帳號與活動行事曆。不過，由於有許多可用的擴充套件，它也能讓您增加更多的選項。
+- **高效能功能與擴充性**：Thunderbird 預設提供廣泛的功能來管理您的電子郵件帳號與活動行事曆。不過，由於有許多可用的擴充套件，它也能讓您增加更多的選項。
 - 多平台**：Thunderbird 適用於多種裝置 (Android、Windows、Linux、macOS)，讓您輕鬆存取電子郵件。
-- 安全性**：Thunderbird 是高度安全的應用程式，讓您受惠於以 RSA 或 ECC (Elliptic Curve) 為基礎的端對端加密，以確保資料的機密性。
+- **安全性**：Thunderbird 是高度安全的應用程式，讓您受惠於以 RSA 或 ECC (Elliptic Curve) 為基礎的端對端加密，以確保資料的機密性。
 
 
 
@@ -59,7 +59,7 @@ Thunderbird 是一款電子郵件應用程式，以其靈活性和廣泛的功�
 
 
 
-- 標準**：允許直接安裝，無需事先設定。
+- **標準**：允許直接安裝，無需事先設定。
 - 自訂**：可讓您選擇安裝資料夾，以及是否建立桌面捷徑。
 
 
@@ -213,4 +213,4 @@ Thunderbird 可讓您變更 Interface 主題。若要執行此動作，請前往
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

@@ -1,12 +1,12 @@
 ---
-name: Opas Plan ₿ Network-alustan käyttämiseen paikallisesti
-description: Miten Plan ₿ Network:tä voidaan käyttää paikallisessa ympäristössä, jotta voidaan testata sisältöön osallistumista tai opetussisällön oikolukemista/arviointia Plan ₿ Network:llä?
+name: Opas Plan ₿ Academy-alustan käyttämiseen paikallisesti
+description: Miten Plan ₿ Academy:tä voidaan käyttää paikallisessa ympäristössä, jotta voidaan testata sisältöön osallistumista tai opetussisällön oikolukemista/arviointia Plan ₿ Academy:llä?
 ---
 ![github](assets/cover.webp)
 
 ## Yhteenveto
 
-Tämä opetusohjelma sisältää vaiheittaiset ohjeet Bitcoin-oppimisen hallintajärjestelmän asentamiseen Plan ₿ Network:sta paikalliselle koneellesi käyttäen Dockeria, valeavaimia ja mukautettuja arkistokokoonpanoja.
+Tämä opetusohjelma sisältää vaiheittaiset ohjeet Bitcoin-oppimisen hallintajärjestelmän asentamiseen Plan ₿ Academy:sta paikalliselle koneellesi käyttäen Dockeria, valeavaimia ja mukautettuja arkistokokoonpanoja.
 
 Jos et ymmärtänyt yllä olevaa kohtaa, älä huoli - tämä ohje on sinua varten!
 
@@ -106,7 +106,7 @@ Kun säiliöt ovat käynnissä, pääset etusivulle osoitteessa:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Huomaa: sovellus latautuu automaattisesti uudelleen, jos muutat lähdetiedostoja.
 
@@ -142,7 +142,7 @@ sitten taas:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Varaston mukauttaminen (valinnainen)**
 

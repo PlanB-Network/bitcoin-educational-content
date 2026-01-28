@@ -1,0 +1,9 @@
+question: Millised on kolm peamist kasu regulaarsetest operatsioonisüsteemi ja rakenduste uuendustest?
+answer: Ohutus, usaldusväärsus, funktsionaalsus
+wrong_answers:
+  - Kiirus, anonüümsus, ühilduvus
+  - Turvalisus, mälu, ladustamine
+  - Konfidentsiaalsus, funktsionaalsus, usaldusväärsus
+explanation: |
+  Uuendused tagavad turvalisuse haavatavuste vastu, ühilduvuse edasiarenduste ja uute funktsioonidega ning süsteemi töökindluse.
+reviewed: true

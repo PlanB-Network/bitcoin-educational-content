@@ -1,9 +1,9 @@
-question: Koja je poslednja faza koja se javlja u fenomenu hiperinflacije?
-answer: Nova valuta se pojavljuje.
+question: Koliko je iznosila inflacija u Zimbabveu u novembru 2008?
+answer: 79,600,000,000%
 wrong_answers:
-  - Gubitak poverenja u valutu.
-  - Kolaps valute & povećanje cena.
-  - Zaoštreni krug štampanja novca.
+  - 796%
+  - 79.600.000.000.000.000%
+  - 100%
 explanation: |
-  Završna faza hiperinflacije nastupa kada se uvede nova valuta koja zamenjuje staru.
+  U novembru 2008. godine, mesečna stopa inflacije zimbabveanske valute dostigla je vrhunac od 79.600.000.000%, što je srozalo vrednost zimbabveanskog dolara na 0.
 reviewed: true

@@ -73,15 +73,15 @@ Tando, Kenya'da M-Pesa'nın satın alabileceği her şeyi satın almak için bit
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- Ödeme için Tara** :
+- Ödeme için **Tara** :
 
 
 
@@ -95,7 +95,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Kenya'ya para gönderme** :
+- **Kenya'ya para gönderme** :
 
 
 
@@ -103,7 +103,7 @@ Tando'nun para havalesi seçeneği, dünyanın herhangi bir yerinden Kenya'ya pa
 
 
 
-Para Gönder** seçeneğini seçin, ardından alıcının numarasını girin. Gönderilecek tutarı girin (15 ile 50.000 KES arasında), ardından bu ödemeyle ilişkili Lightning Invoice'yi oluşturun.
+**Para Gönder** seçeneğini seçin, ardından alıcının numarasını girin. Gönderilecek tutarı girin (15 ile 50.000 KES arasında), ardından bu ödemeyle ilişkili Lightning Invoice'yi oluşturun.
 
 
 
@@ -121,7 +121,7 @@ Faturayı Lightning Wallet'inizden ödeyin ve Tando bunu Kenya şilinine (KES) �
 
 
 
-- Faturalarınızı ödeyin** :
+- **Faturalarınızı ödeyin** :
 
 
 
@@ -135,7 +135,7 @@ Faturayı Lightning Wallet'inizden ödeyin ve Tando bunu Kenya şilinine (KES) �
 
 
 
-- Mal satın almak** :
+- **Mal satın almak** :
 
 
 
@@ -159,4 +159,4 @@ Gana, Nijerya ve Kenya'da ödeme yapmak için Bitcoin'yi kullanmayı amaçlayan 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

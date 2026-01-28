@@ -1,11 +1,9 @@
-question: Tỷ lệ lạm phát ở Hungary vào tháng 7 năm 1946 là bao nhiêu?
-answer: 41,900,000,000,000,000%
+question: Khái niệm toán học nào dựa trên lý trí con người và được sử dụng trong Bitcoin?
+answer: Lý thuyết trò chơi.
 wrong_answers:
-  - 207%
-  - 50%
-  - 100%
+  - Lý thuyết xác suất.
+  - Lý thuyết số.
+  - Lý thuyết tập hợp.
 explanation: |
-  Tháng có tỷ lệ lạm phát cao nhất ở Hungary là tháng 7
-  năm 1946, với mức lạm phát kỷ lục là
-  41,900,000,000,000,000%.
+  Lý thuyết trò chơi là một khái niệm toán học dựa trên lý trí con người. Trong Bitcoin, các thay đổi về giao thức được thực thi bởi người dùng, khiến cho bất kỳ sửa đổi nào đối với giao thức Bitcoin trở nên cực kỳ phức tạp.
 reviewed: true

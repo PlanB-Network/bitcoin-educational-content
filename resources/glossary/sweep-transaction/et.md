@@ -6,4 +6,4 @@ Ahelanalüüsis kasutatav muster või tehingumudel tehingu olemuse kindlaksmää
 
 ![](../../dictionnaire/assets/6.webp)
 
-> ► *Fransi keeles võiks "pühkimistehingut" tõlkida kui "transaction de balayage"
+> ► *Fransi keeles võiks "pühkimistehingut" tõlkida kui "transaction de balayage"*

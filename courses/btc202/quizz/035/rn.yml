@@ -1,0 +1,9 @@
+question: Ni igice ikihe gikenewe kugira ngo umuntu akingire urudodo iyo umuriro wacitse?
+answer: Igihinduzi
+wrong_answers:
+  - Ikarata ya kabiri y'ibishushanyo
+  - Iyindi router
+  - Igikoresho ca USB
+explanation: |
+  Inverter irabuza guhagarara bukwi na bukwi iyo umuriro wacitse kandi igakingira ukudahungabana kw’iyo node.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Quel est l’objectif principal d’un routeur sur Lightning ?
+answer: Gagner de l'argent grâce aux frais de routage
+wrong_answers:
+  - Gagner de l'argent en indiquant la route à prendre
+  - Gagner de l'argent en vendant de la liquidité entrante
+  - Gagner de l'argent en publiant des états obsolètes de ses canaux
+explanation: |
+  Le routeur cherche à acheminer les paiements des autres en percevant des frais de routage.
+reviewed: false

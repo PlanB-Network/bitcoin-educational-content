@@ -1,0 +1,9 @@
+question: Mitä tiedostoja solmu käyttää ensin löytääkseen vanhat vertaisverkkonsa uudelleenkäynnistyksen yhteydessä?
+answer: anchors.dat ja peers.dat
+wrong_answers:
+  - Mempool.dat ja peers.dat
+  - Mempool.dat ja ip.dat
+  - ip.dat ja anchors.dat
+explanation: |
+  Bitcoin core käyttää ensin anchors.dat-tiedostoa (aiemmat lähtevät vertaisverkot) ja sitten peers.dat-tiedostoa (tunnettu Address-kirja) yhteyden muodostamiseksi uudelleen.
+reviewed: true

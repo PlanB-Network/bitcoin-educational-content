@@ -6,4 +6,4 @@ P2MS står for *Pay to Multisig*, som kan oversettes til "betal til flere signat
 
 Dette skriptet ble oppfunnet i 2011 av Gavin Andresen da han tok over vedlikeholdet av den viktigste Bitcoin-klienten. I dag brukes P2MS bare marginalt av noen applikasjoner. De aller fleste moderne multisignaturer bruker andre skript som P2SH eller P2WSH. Sammenlignet med disse er P2MS ekstremt trivielt. De offentlige nøklene den består av, avsløres ved mottak av transaksjonen. Det er også dyrere å bruke P2MS enn andre multisignaturskript.
 
-> p2MS kalles ofte "bare-multisig", som kan oversettes med "naken multisignatur" eller "rå multisignatur". I begynnelsen av 2023 var P2MS-skript i sentrum for en kontrovers på grunn av misbruk av dem i Stamps-protokollen. Deres innvirkning på UTXO-settet ble spesielt påpekt*
+> p2MS kalles ofte "bare-multisig", som kan oversettes med "naken multisignatur" eller "rå multisignatur". I begynnelsen av 2023 var P2MS-skript i sentrum for en kontrovers på grunn av misbruk av dem i Stamps-protokollen. Deres innvirkning på UTXO-settet ble spesielt påpekt.

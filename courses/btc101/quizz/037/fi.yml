@@ -1,12 +1,10 @@
-question: Mitkä tahot ovat vastuussa luottamusvaluuttojen liikkeeseenlaskusta?
-answer: Keskuspankit.
+question: Mikä on mahdollinen seuraus äkillisestä arvonalennuksesta tai luottamuksen menetyksestä luottamusvaluutassa?
+answer: Hyperinflaatio.
 wrong_answers:
-  - Kaupalliset pankit.
-  - Hallitukset.
-  - Yksityiset laitokset.
+  - Deflaatio.
+  - Vakaa talous.
+  - Valuutan arvon nousu.
 explanation: |
-  Keskuspankit ovat tahoja, jotka ovat vastuussa luottamusvaluutan
-  liikkeeseenlaskusta. Ne päättävät rahapolitiikasta ja
-  määrittävät, kuinka paljon rahaa tulisi laskea liikkeeseen tai
-  painaa.
+  Äkillinen devalvaatio tai luottamuksen menetys luottamusvaluutassa voi johtaa hyperinflaatioon. Tämä on tilanne,
+  jossa tavaroiden ja palveluiden hinnat nousevat erittäin nopeasti, usein johtaen taloudelliseen epävakauteen.
 reviewed: true

@@ -1,11 +1,9 @@
-question: Was muss bei der Erstellung eines Erbschaftsplans nicht berücksichtigt werden?
-answer: Der Name des Bitcoin-Wallets, das Sie normalerweise verwenden.
+question: Was ist die Funktion der Schwierigkeitsanpassung im Bitcoin-Netzwerk?
+answer: Sie stellt sicher, dass etwa alle zehn Minuten ein Block zur Blockchain hinzugefügt wird.
 wrong_answers:
-  - Ein handschriftlicher Brief, der Ihre Vermögenswerte auflistet.
-  - Eine Beschreibung, wie auf Ihre Mittel zugegriffen werden kann.
-  - Die Kontaktdaten vertrauenswürdiger Personen.
-explanation: |
-  Die Erstellung eines Erbschaftsplans ist ein entscheidender Schritt, um sicherzustellen, dass Ihre Bitcoins nach Ihrem Tod ordnungsgemäß verwaltet werden.
-  Dieser Plan kann einen handschriftlichen Brief enthalten, der Ihre Vermögenswerte, 
-  ihre Zugriffsmethoden und die Kontaktdaten vertrauenswürdiger Personen auflistet, die kontaktiert werden sollen.
+  - Sie bestimmt den Preis von Bitcoin.
+  - Sie reguliert die Anzahl der Bitcoins, die in der Blockchain geschürft werden können.
+  - Sie bestimmt die Größe eines Blocks.
+explanation: >-
+  Die Schwierigkeitsanpassung im Bitcoin-Netzwerk stellt sicher, dass etwa alle zehn Minuten ein Block hinzugefügt wird. Dies ist Teil der Protokollregeln des Bitcoin-Netzwerks.
 reviewed: true

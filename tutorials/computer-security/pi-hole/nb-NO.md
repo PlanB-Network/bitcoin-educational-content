@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian Duchemin publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Florian Duchemin publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -54,7 +54,7 @@ Så hver gang du skriver inn navnet på et nettsted i nettleseren eller klikker 
 
 
 
-**Pi-Hole vil deretter inspisere disse forespørslene (det er hundrevis av dem hver dag!) og automatisk blokkere de som er kjent for å være vert for reklame eller til og med ondsinnede filer
+**Pi-Hole vil deretter inspisere disse forespørslene (det er hundrevis av dem hver dag!) og automatisk blokkere de som er kjent for å være vert for reklame eller til og med ondsinnede filer**
 
 
 
@@ -62,7 +62,7 @@ Så hver gang du skriver inn navnet på et nettsted i nettleseren eller klikker 
 
 
 
-Med et navn som Pi-Hole kan du med rette anta at du trenger en Raspberry-Pi... Men det er ikke helt sant. **Pi-Hole kan installeres på en hvilken som helst Linux-maskin (Debian, Fedora, Rocky, Ubuntu osv.)
+Med et navn som Pi-Hole kan du med rette anta at du trenger en Raspberry-Pi... Men det er ikke helt sant. **Pi-Hole kan installeres på en hvilken som helst Linux-maskin (Debian, Fedora, Rocky, Ubuntu osv.)**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Merk: På minimale versjoner av Debian 11 er Curl ikke installert, så du må installere det manuelt med kommandoen **apt-get install curl** før du skriver inn kommandoen ovenfor.
+> **Merk: På minimale versjoner av Debian 11 er Curl ikke installert, så du må installere det manuelt med kommandoen** `apt-get install curl` **før du skriver inn kommandoen ovenfor.**
 
 Når skriptet er kjørt, utføres en rekke tester, og selve installasjonen går av seg selv:
 
@@ -124,9 +124,9 @@ Valg av DNS - Pi-Hole
 
 
 
-> **Merk: Hvis du jobber i en bedrift, er det stor sannsynlighet for at din nåværende DNS-server er Active Directory-domenekontrolleren. Men ikke vær redd, du kan senere angi en betinget omdirigering for et domene etter eget valg. Vanligvis vil du kunne omdirigere alle forespørsler som gjelder ditt lokale domene, til DNS-serveren din.
+> **Merk:** Hvis du jobber i en bedrift, er det stor sannsynlighet for at din nåværende DNS-server er Active Directory-domenekontrolleren. Men ikke vær redd, du kan senere angi en betinget omdirigering for et domene etter eget valg. Vanligvis vil du kunne omdirigere alle forespørsler som gjelder ditt lokale domene, til DNS-serveren din.
 
-Du vil legge merke til at noen valg inkluderer et DNSSEC-alternativ. I utgangspunktet er ikke DNS-protokollen sikker (den ble ikke designet med dette i tankene på den tiden). DNSSEC løser dette problemet ved å legge til en Layer av sikkerhet gjennom kryptering og signering av utvekslinger, som forklart i den tilsvarende artikkelen: [DNS-sikkerhet] (https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
+Du vil legge merke til at noen valg inkluderer et DNSSEC-alternativ. I utgangspunktet er ikke DNS-protokollen sikker (den ble ikke designet med dette i tankene på den tiden). DNSSEC løser dette problemet ved å legge til en Layer av sikkerhet gjennom kryptering og signering av utvekslinger, som forklart i den tilsvarende artikkelen: [DNS-sikkerhet](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 
 
 
@@ -278,7 +278,7 @@ For å forenkle administrasjonen har **Pi-Hole** en veldesignet Interface web In
 
 
 
-For min del kommer jeg til å legge til en blokkeringsliste. Som nevnt ovenfor ble bare én liste installert samtidig med Soft. Det finnes mange lister for annonsesider, men det er best å velge minst én som er spesifikk for det landet du bor i. En av de mest kjente listene er **EasyList**, og en av dem er spesifikk for Frankrike: [EasyList-ListFR] (https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/EasyList-Liste-FR.txt)
+For min del kommer jeg til å legge til en blokkeringsliste. Som nevnt ovenfor ble bare én liste installert samtidig med Soft. Det finnes mange lister for annonsesider, men det er best å velge minst én som er spesifikk for det landet du bor i. En av de mest kjente listene er **EasyList**, og en av dem er spesifikk for Frankrike: [EasyList-ListFR](https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/EasyList-Liste-FR.txt)
 
 
 
@@ -345,7 +345,7 @@ Når skriptet er fullført, vises resultatet av skriptet på siden, noe som bety
 
 
 
-Som annonsert i begynnelsen av denne veiledningen, lar Pi-Hole deg også **blokkere domener som er kjent for å distribuere skadelig programvare. For å forsterke denne funksjonen foreslår jeg at du også legger til den jevnlig oppdaterte domenelisten som distribueres av Abuse.ch**, noe som vil styrke sikkerheten i nettverket ditt betydelig, tilgjengelig på [this Address] (https://urlhaus.abuse.ch/downloads/hostfile/).
+Som annonsert i begynnelsen av denne veiledningen, lar Pi-Hole deg også **blokkere domener som er kjent for å distribuere skadelig programvare. For å forsterke denne funksjonen foreslår jeg at du også legger til den jevnlig oppdaterte domenelisten som distribueres av Abuse.ch**, noe som vil styrke sikkerheten i nettverket ditt betydelig, tilgjengelig på [this Address](https://urlhaus.abuse.ch/downloads/hostfile/).
 
 
 

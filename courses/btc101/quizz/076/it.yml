@@ -1,10 +1,11 @@
-question: Qual è il ruolo della chiave pubblica in un wallet Bitcoin?
-answer: Viene utilizzata per generare indirizzi e quindi ricevere bitcoin.
+question: Qual è l'analogia utilizzata in questo corso per spiegare come si possono ricevere bitcoin senza permettere al mittente di rubare i fondi?
+answer: Una cassetta postale.
 wrong_answers:
-  - Viene utilizzata per criptare le transazioni Bitcoin.
-  - Viene utilizzata per accedere al wallet.
-  - Viene utilizzata per fare il backup del wallet.
+  - Un conto bancario.
+  - Una cassaforte.
+  - Una casa.
 explanation: |
-  La chiave pubblica deriva dalla chiave privata ed è utilizzata
-  per generare indirizzi Bitcoin al fine di ricevere fondi.
+  L'analogia utilizzata per spiegare come si possono ricevere Bitcoin
+  senza permettere al mittente di rubare i fondi è una
+  cassetta postale. Le persone depositano denaro al suo interno, ma solo chi ne ha la chiave può aprirla.
 reviewed: vero

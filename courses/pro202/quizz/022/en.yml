@@ -1,0 +1,8 @@
+question: What fundamental limitation of the UTXO model requires specific handling when spending Bitcoin?
+answer: UTXOs must be spent entirely and cannot be partially consumed
+wrong_answers:
+  - UTXOs can only be spent once per block to prevent double spending
+  - UTXOs must be spent in chronological order based on creation time
+  - UTXOs require multiple signatures from different keys to be valid
+explanation: |
+  The UTXO model has a fundamental constraint that unspent transaction outputs must be consumed entirely - there's no mechanism for partial spending. When you need to spend less than the full UTXO amount, you must create a transaction that spends the entire UTXO and includes a change output back to yourself for the remainder. The other options describe non-existent limitations: UTXOs can be spent multiple times per block (different UTXOs), don't require chronological ordering, and typically need only one valid signature unless specifically designed as multisig.

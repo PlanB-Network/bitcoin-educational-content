@@ -1,0 +1,9 @@
+question: Koja komponenta se preporučuje za zaštitu čvora u slučaju nestanka struje?
+answer: Inverter
+wrong_answers:
+  - Druga grafička kartica
+  - Dodatni ruter
+  - USB čvorište
+explanation: |
+  Inverter sprečava iznenadna gašenja u slučaju nestanka struje i štiti stabilnost čvora.
+reviewed: true

@@ -1,0 +1,9 @@
+question: ตัวปรับแต่งคืออะไรที่สามารถรวมกับธง sighash พื้นฐานได้?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY ปรับเปลี่ยน sighash flags ให้ครอบคลุมเฉพาะอินพุตเดียวในขณะที่ปล่อยให้ส่วนที่เหลือสามารถแก้ไขได้
+reviewed: false

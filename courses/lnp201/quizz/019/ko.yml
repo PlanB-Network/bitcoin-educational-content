@@ -1,0 +1,9 @@
+question: Commitment Transaction 시스템은 라이트닝 채널 참가자에게 무엇을 보장하나요?
+answer: 마지막으로 서명된 거래를 게시하여 각자가 자금을 회수할 수 있습니다
+wrong_answers:
+  - 해당 트랜잭션은 Bitcoin Blockchain에서 볼 수 있습니다
+  - 각 트랜잭션에 따라 채널의 용량이 증가합니다
+  - 수수료는 두 참가자가 분담합니다
+explanation: |
+  서명된 Commitment 거래는 채널이 폐쇄될 경우 각 참여자가 최신 버전을 게시하여 자금을 회수할 수 있도록 보장합니다.
+reviewed: true

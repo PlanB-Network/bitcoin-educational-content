@@ -1,0 +1,9 @@
+question: RGB에 사용되는 일회용 씰의 필수 기능은 무엇인가요?
+answer: 한 번만 닫을 수 있습니다
+wrong_answers:
+  - 두 번만 닫을 수 있습니다
+  - 거래의 기밀성을 보장합니다
+  - Blockchain에 대한 합의가 필요하지 않습니다
+explanation: |
+  일회용 씰을 사용하면 고유한 암호화 약정을 생성하여 중복 또는 이중 지출을 방지할 수 있습니다.
+reviewed: false

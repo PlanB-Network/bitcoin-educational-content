@@ -1,0 +1,9 @@
+question: Какие две реализации Lightning Network доступны в Umbrel?
+answer: LND и Core Lightning
+wrong_answers:
+  - Электры и фулькрум
+  - Bitcoin core и Bitcoin Knots
+  - Ride The Lightning и ThunderHub
+explanation: |
+  Umbrel позволяет выбрать между LND и Core Lightning в качестве реализации Lightning Network.
+reviewed: true

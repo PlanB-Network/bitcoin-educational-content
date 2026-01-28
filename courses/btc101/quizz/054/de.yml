@@ -1,10 +1,11 @@
-question: Was ist die zweite Phase des Hyperinflationsphänomens?
-answer: Währungszusammenbruch & Preissteigerung.
+question: Wie heißt das Ereignis, bei dem die Belohnung für das Mining halbiert wird?
+answer: Halving
 wrong_answers:
-  - Verlust des Vertrauens.
-  - Der Teufelskreis des Gelddruckens.
-  - Eine neue Währung entsteht.
+  - Verdopplung
+  - Viertelung
+  - Verdreifachung
 explanation: |
-  Die zweite Phase der Hyperinflation ist der Währungszusammenbruch &
-  Preissteigerung, gleich nach der Phase des Vertrauensverlustes.
+  Das Ereignis, bei dem die Belohnung für das Mining halbiert wird, wird
+  Halving genannt. Dieses Ereignis verleiht der Kurve der Geldausgabe
+  eine treppenartige Form.
 reviewed: true

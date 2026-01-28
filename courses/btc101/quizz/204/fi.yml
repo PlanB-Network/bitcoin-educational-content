@@ -1,11 +1,9 @@
-question: Mikä on yksi seikoista, jotka sinun tulisi ottaa huomioon valitessasi DCA-alustaa?
-answer: Saatavuus omassa maassasi.
+question: Mihin toimintaan Bitcoin pakottaa yritykset, yliopistot, sääntelijät ja yksilöt?
+answer: Ottamaan sen huomioon.
 wrong_answers:
-  - Alustan logon väri.
-  - Käyttäjien määrä alustalla.
-  - Alustan ikä.
-explanation: |
-  Tämän kurssitekstin mukaan DCA-alustaa valittaessa
-  oikea valinta riippuu enemmän sen saatavuudesta
-  omassa maassasi.
+  - Ohittamaan sen.
+  - Kieltämään sen.
+  - Kriminalisoimaan sen.
+explanation: >-
+  Bitcoinin nousu pakottaa yritykset, yliopistot, sääntelijät ja yksilöt ottamaan tämän uuden teknologian huomioon. Uusia työkaluja on luotava, palveluita on mukautettava ja innovaatioiden on jatkuttava varmistaakseen niiden selviytymisen.
 reviewed: true

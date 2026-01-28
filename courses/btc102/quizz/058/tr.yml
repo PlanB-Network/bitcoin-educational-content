@@ -1,9 +1,9 @@
-question: Paranoyak kullanıcılar için hangi Cold depolama çözümü önerilir?
-answer: Hava boşluklu veya DIY Hardware Wallet
+question: Paranoyak kullanıcılar için hangi Cold storage (soğuk, yani borsaya bağlı olmayan depolama çözümü) önerilir?
+answer: Air-grapped (internete bağlı olmayan) veya DIY (do it yourself, kendin yap) Hardware Wallet (donanım cüzdanı)
 wrong_answers:
-  - Mobil Hot Wallet
-  - Exchange platformunda gözetim hizmeti
+  - Mobil Hot Wallet (sıcak, yani borsaya bağlı cüzdan)
+  - Exchange platformunda saklama hizmeti
   - Genel amaçlı kapalı kaynak Hardware Wallet
 explanation: |
-  Paranoyak kullanıcı, maruz kalma riskini en aza indirmek için açık kaynaklı çözümlerle çevrimdışı depolamayı tercih eder.
+  Paranoyak kullanıcı, risk maruziyetini en aza indirmek için açık kaynaklı çözümlerle çevrimdışı saklamayı tercih eder.
 reviewed: false

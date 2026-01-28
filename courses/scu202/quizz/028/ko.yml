@@ -1,0 +1,9 @@
+question: 공식 Ubuntu 리포지토리에서 소프트웨어를 설치하는 데 사용할 수 있는 명령은 무엇인가요?
+answer: sudo apt 설치
+wrong_answers:
+  - sudo yum 설치
+  - sudo 스냅 생성
+  - 설치 소프트웨어
+explanation: |
+  "sudo apt install" 명령은 우분투의 기본 방법인 APT 패키지 관리자를 통해 소프트웨어 패키지를 설치합니다.
+reviewed: false

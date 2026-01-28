@@ -1,0 +1,9 @@
+question: 其中哪个标准对对等互联最重要？
+answer: 在图表中的中心位置
+wrong_answers:
+  - 图中节点的名称
+  - 图表中节点的颜色
+  - 图表中的信息数量
+explanation: |
+  在闪电图中，一个定位准确的节点可以方便地路由到许多目的地。
+reviewed: false

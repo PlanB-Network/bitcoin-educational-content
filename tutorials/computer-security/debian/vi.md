@@ -17,11 +17,11 @@ Debian là một bản phân phối GNU/Linux miễn phí, nổi tiếng với t
 
 
 
-- Miễn phí và mở**: Debian hoàn toàn là mã nguồn mở, đảm bảo tính minh bạch và không có phí cấp phép.
-- Tính ổn định và bảo mật**: mọi bản phát hành đều trải qua quá trình thử nghiệm kỹ lưỡng, khiến Debian trở thành một trong những bản phân phối đáng tin cậy và bảo mật nhất trên thị trường.
-- Cộng đồng năng động**: một cộng đồng rộng lớn và tài liệu đầy đủ luôn sẵn sàng hỗ trợ bạn bất cứ khi nào bạn cần.
-- Nhẹ và có khả năng mở rộng**: bạn có thể cài đặt Debian trên các máy có tài nguyên khiêm tốn trong khi vẫn duy trì hiệu suất tốt.
-- Danh mục phần mềm mở rộng**: hơn 50.000 gói phần mềm chính thức có sẵn thông qua kho lưu trữ.
+- **Miễn phí và mở**: Debian hoàn toàn là mã nguồn mở, đảm bảo tính minh bạch và không có phí cấp phép.
+- **Tính ổn định và bảo mật**: mọi bản phát hành đều trải qua quá trình thử nghiệm kỹ lưỡng, khiến Debian trở thành một trong những bản phân phối đáng tin cậy và bảo mật nhất trên thị trường.
+- **Cộng đồng năng động**: một cộng đồng rộng lớn và tài liệu đầy đủ luôn sẵn sàng hỗ trợ bạn bất cứ khi nào bạn cần.
+- **Nhẹ và có khả năng mở rộng**: bạn có thể cài đặt Debian trên các máy có tài nguyên khiêm tốn trong khi vẫn duy trì hiệu suất tốt.
+- **Danh mục phần mềm mở rộng**: hơn 50.000 gói phần mềm chính thức có sẵn thông qua kho lưu trữ.
 
 
 
@@ -35,12 +35,12 @@ Debian cung cấp một số môi trường máy tính để bàn phù hợp v�
 
 
 
-- GNOME**: Interface hiện đại, trực quan, lý tưởng cho người mới bắt đầu. Giao diện này cung cấp menu đồ họa mượt mà, dễ sử dụng để truy cập các ứng dụng.
-- XFCE**: nhẹ và nhanh, hoàn hảo cho những máy có cấu hình yếu.
-- KDE Plasma**: có khả năng tùy chỉnh cao, với giao diện giống Windows.
-- Cinnamon**: Interface đơn giản, thanh lịch, lấy cảm hứng từ Windows.
-- LXDE / LXQt**: siêu nhẹ, phù hợp với máy tính cũ.
-- MATE**: đơn giản và cổ điển, gần giống với GNOME cũ.
+- **GNOME**: Interface hiện đại, trực quan, lý tưởng cho người mới bắt đầu. Giao diện này cung cấp menu đồ họa mượt mà, dễ sử dụng để truy cập các ứng dụng.
+- **XFCE**: nhẹ và nhanh, hoàn hảo cho những máy có cấu hình yếu.
+- **KDE Plasma**: có khả năng tùy chỉnh cao, với giao diện giống Windows.
+- **Cinnamon**: Interface đơn giản, thanh lịch, lấy cảm hứng từ Windows.
+- **LXDE / LXQt**: siêu nhẹ, phù hợp với máy tính cũ.
+- **MATE**: đơn giản và cổ điển, gần giống với GNOME cũ.
 
 
 
@@ -61,9 +61,9 @@ Trước khi bắt đầu cài đặt, vui lòng đảm bảo rằng bạn có c
 
 
 
-- Ổ USB**: Tối thiểu 8 GB để chứa ảnh ISO có thể khởi động.
-- Bộ nhớ truy cập ngẫu nhiên (RAM)**: 4 GB để cài đặt và vận hành trơn tru.
-- Dung lượng đĩa**: ít nhất 15 GB dung lượng trống cho hệ thống và các bản cập nhật.
+- **Ổ USB**: Tối thiểu 8 GB để chứa ảnh ISO có thể khởi động.
+- **Bộ nhớ truy cập ngẫu nhiên (RAM)**: 4 GB để cài đặt và vận hành trơn tru.
+- **Dung lượng đĩa**: ít nhất 15 GB dung lượng trống cho hệ thống và các bản cập nhật.
 
 
 
@@ -77,9 +77,9 @@ Việc lựa chọn ảnh Debian phụ thuộc vào kiến trúc bộ xử lý c
 
 
 
-- AMD64**: tải xuống phiên bản "live hybrid" từ danh sách [tải xuống] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: lấy ảnh DVD từ trang web chính thức [Debian] (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Các kiến trúc khác**: tìm ISO tương ứng với kiến trúc của bạn [tại đây](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: tải xuống phiên bản "live hybrid" từ danh sách [tải xuống](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: lấy ảnh DVD từ trang web chính thức [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Các kiến trúc khác**: tìm ISO tương ứng với kiến trúc của bạn [tại đây](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ Sau khi tải xuống ảnh ISO phù hợp, hãy tiến hành tạo phương ti�
 
 
 
-- Tải xuống Balena Etcher** từ [trang web chính thức](https://etcher.balena.io/), sau đó lấy tệp nhị phân cho hệ thống của bạn và cài đặt.
+- Tải xuống **Balena Etcher** từ [trang web chính thức](https://etcher.balena.io/), sau đó lấy tệp nhị phân cho hệ thống của bạn và cài đặt.
 
 
 
@@ -106,9 +106,9 @@ Sau khi tải xuống ảnh ISO phù hợp, hãy tiến hành tạo phương ti�
 
 
 
-- Khởi chạy Etcher**: mở phần mềm và chọn ảnh ISO Debian đã tải xuống trước đó.
-- Chọn khóa USB**: chỉ định khóa của bạn (8 GB+) làm mục tiêu.
-- Bắt đầu flash**: nhấp vào **Flash!** và đợi cho đến khi quá trình hoàn tất.
+- **Khởi chạy Etcher**: mở phần mềm và chọn ảnh ISO Debian đã tải xuống trước đó.
+- Chọn khóa USB: chỉ định khóa của bạn (8 GB+) làm mục tiêu.
+- **Bắt đầu flash**: nhấp vào **Flash!** và đợi cho đến khi quá trình hoàn tất.
 
 
 
@@ -133,10 +133,10 @@ Bây giờ USB của bạn đã sẵn sàng để bắt đầu cài đặt Debia
 
 
 
-- Tắt hoàn toàn** máy tính.
-- Khởi động lại** sau đó truy cập BIOS/UEFI bằng cách nhấn ngay `ESC`, `F2`, `F11` (hoặc phím chuyên dụng tùy thuộc vào thương hiệu của bạn).
+- **Tắt hoàn toàn** máy tính.
+- **Khởi động lại** sau đó truy cập BIOS/UEFI bằng cách nhấn ngay `ESC`, `F2`, `F11` (hoặc phím chuyên dụng tùy thuộc vào thương hiệu của bạn).
 - Trong menu khởi động, **chọn ổ USB** của bạn làm thiết bị khởi động.
-- Xác nhận** bằng phím Enter để bắt đầu trên ảnh Debian: thao tác này sẽ đưa bạn đến màn hình chào mừng của trình cài đặt.
+- **Xác nhận** bằng phím Enter để bắt đầu trên ảnh Debian: thao tác này sẽ đưa bạn đến màn hình chào mừng của trình cài đặt.
 
 
 
@@ -157,9 +157,9 @@ Khi khởi động từ ổ USB, màn hình chào mừng của Debian cung cấp
 
 
 
-- Live System**: khởi chạy Debian mà không cần cài đặt, lý tưởng để thử nghiệm môi trường.
-- Khởi động Trình cài đặt**: bắt đầu cài đặt trực tiếp trên đĩa Hard.
-- Tùy chọn cài đặt nâng cao**: cho phép bạn truy cập vào các chế độ cài đặt tùy chỉnh.
+- **Live System**: khởi chạy Debian mà không cần cài đặt, lý tưởng để thử nghiệm môi trường.
+- **Khởi động Trình cài đặt**: bắt đầu cài đặt trực tiếp trên đĩa Hard.
+- **Tùy chọn cài đặt nâng cao**: cho phép bạn truy cập vào các chế độ cài đặt tùy chỉnh.
 
 
 
@@ -173,7 +173,7 @@ Khi khởi động từ ổ USB, màn hình chào mừng của Debian cung cấp
 
 
 
-- Lựa chọn ngôn ngữ** (tùy chọn)
+- Lựa chọn ngôn ngữ (tùy chọn)
 
 
 
@@ -187,7 +187,7 @@ Chọn ngôn ngữ chính của hệ thống Debian từ danh sách, sau đó nh
 
 
 
-- Múi giờ** (GMT)
+- **Múi giờ** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Chọn ngôn ngữ và bố cục bàn phím. Sử dụng trường kiểm tra t
 
 
 
-- Xóa đĩa**: nếu bạn có phân vùng chuyên dụng, tùy chọn này sẽ xóa toàn bộ nội dung của phân vùng đó.
-- Phân vùng thủ công**: chọn tùy chọn này để tạo, thay đổi kích thước hoặc xóa phân vùng theo nhu cầu.
+- **Xóa đĩa**: nếu bạn có phân vùng chuyên dụng, tùy chọn này sẽ xóa toàn bộ nội dung của phân vùng đó.
+- **Phân vùng thủ công**: chọn tùy chọn này để tạo, thay đổi kích thước hoặc xóa phân vùng theo nhu cầu.
 
 
 
@@ -244,7 +244,7 @@ Nhập họ tên đầy đủ, tên tài khoản và mật khẩu mạnh để �
 
 
 
-- Tóm tắt tham số**
+- Tóm tắt tham số
 
 
 
@@ -272,7 +272,7 @@ Nhấp vào **Cài đặt** để bắt đầu sao chép tệp và cấu hình h
 
 
 
-- Khởi động lại**
+- **Khởi động lại**
 
 
 
@@ -426,7 +426,7 @@ sudo apt install ./name.deb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 Hệ thống Debian của bạn hiện đã được cài đặt và sẵn sàng để sử dụng cho các tác vụ hàng ngày.
 
@@ -443,4 +443,4 @@ Bạn cũng có thể thay đổi môi trường máy tính để bàn (ví dụ
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

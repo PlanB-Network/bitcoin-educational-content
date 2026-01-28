@@ -1,0 +1,8 @@
+question: Qual é a principal vantagem de utilizar o Taproot com o MuSig2 para trocas entre camadas em comparação com os HTLCs SegWit v0 herdados?
+answer: As trocas cooperativas aparecem como transacções normais de assinatura única, proporcionando total privacidade e utilização mínima de espaço em bloco
+wrong_answers:
+  - O Taproot elimina a necessidade de bloqueios de tempo, tornando as trocas mais rápidas e mais eficientes do que os HTLCs antigos
+  - O MuSig2 permite a utilização simultânea de vários bloqueios de hash, possibilitando acordos de troca multipartidários mais complexos
+  - As trocas Taproot podem ser concluídas sem revelar quaisquer segredos criptográficos, ao contrário dos HTLCs antigos que expõem sempre as pré-imagens
+explanation: |
+  O Taproot com MuSig2 revoluciona a privacidade do HTLC através da agregação de chaves. No "caminho feliz" cooperativo, ambas as partes combinam as suas chaves numa única chave pública agregada e co-assinam a transação. Isso torna a troca indistinguível de um pagamento regular, consumindo um espaço mínimo de bloco e não revelando condições de troca. Os HTLCs SegWit v0 antigos exigiam a publicação de toda a lógica de script on-chain, tornando-os facilmente identificáveis e mais caros. As outras opções estão incorrectas: os bloqueios de tempo continuam a ser essenciais para a segurança, os bloqueios de hash múltiplos não são a inovação chave, e as pré-imagens continuam a ser reveladas quando se reclamam fundos.

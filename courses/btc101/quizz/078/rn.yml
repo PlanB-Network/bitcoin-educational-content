@@ -1,12 +1,13 @@
-question: Ni iyihe muri izo nzira ari ikinyoma ku bijanye no gutakaza igikoresho ufiseko Bitcoin Wallet yawe?
-answer: Ushobora gusubira kurema Wallet yawe maze ugakoresha Bitcoin yawe mu gusubiramwo ijambobanga ryawe.
+question: Hot Wallet ni iki?
+answer: Bitcoin Wallet iri kuri telefone yawe canke kuri mudasobwa yawe ihuye na internet.
 wrong_answers:
-  - Utakaza Bitcoins zawe zose iyo udafise ijambo Mnemonic.
-  - Ushobora kugenzura n’imfunguruzo zawe za bose ko amafaranga yawe ya bitcoins atakoreshejwe.
-  - Ushobora gusubira kurema Wallet yawe maze ugakoresha Bitcoin yawe ukoresheje ijambo Mnemonic.
+  - Wallet ariyo Hot ku mubiri yo gukorako.
+  - Wallet izwi cane mu bakoresha Bitcoin.
+  - Wallet igenewe kubika amafaranga menshi cane.
 explanation: |
-  Gutakaza igikoresho ufiseko Wallet yawe ntibituma .
-  bisigura vy’ukuri gutakaza Bitcoins zawe. Ni igiki kiguha uburenganzira
-  gusubira kurema Wallet yawe no gukoresha Bitcoin yawe ni
-  Invugo ya Mnemonic.
+  Hot Wallet ni ijambo rikoreshwa mu kudondora Bitcoin Wallet .
+  iyo ibitswe ku gikoresho gifise interineti, nk’akarorero .
+  telefone canke mudasobwa. Muri ubwo buryo, biroroshe gushitsa
+  amafaranga, ariko kandi bisigura ko Wallet ari .
+  bishobora gushikirwa n’iterabwoba ryo kuri Internet.
 reviewed: true

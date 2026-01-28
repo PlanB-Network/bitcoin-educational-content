@@ -1,0 +1,9 @@
+question: Cơ sở dữ liệu nào được sử dụng trong blocks/index/ để lưu trữ siêu dữ liệu khối?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Cơ sở dữ liệu Berkeley
+explanation: |
+  Bitcoin core sử dụng LevelDB trong các khối/chỉ mục/ để lập chỉ mục các khối, tăng tốc độ tìm kiếm và dịch vụ cho các đối tác.
+reviewed: true

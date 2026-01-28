@@ -1,11 +1,13 @@
-question: Kako možete ojačati podrazumevanu sigurnost vašeg Bitkoin novčanika?
-answer: Dodavanjem passphrase vašem Bitkoin novčaniku.
+question: Šta je Cold Wallet (hladni novčanik)?
+answer: Novčanik u fizičkom uređaju koji čuva vaše ključeve i nije povezan na internet.
 wrong_answers:
-  - Dodavanjem drugog privatnog ključa vašem Bitkoin novčaniku.
-  - Dodavanjem drugog javnog ključa vašem Bitoin novčaniku.
-  - Dodavanjem druge Mnemonic fraze vašem Bitkoin novčaniku.
+  - Novčanik koji je fizički Cold (hladan) na dodir.
+  - Novčanik koji nije popularan među korisnicima Bitkoina.
+  - Novčanik koji se preporučuje za čuvanje malih količina bitkoina.
 explanation: |
-  Ako niste zadovoljni podrazumevanom sigurnošću vašeg
-  Bitkoin novčanika, uvek je možete pojačati dodavanjem
-  passphrase.
+  A Cold Wallet (hladni novčanik) je termin koji se koristi za opisivanje Bitkoin novčanika
+  koji je uskladišten na uređaju koji nije povezan na
+  internet. To ga čini manje podložnim online pretnjama,
+  ali takođe znači da je novčanik manje dostupan za
+  dnevne transakcije.
 reviewed: true

@@ -1,11 +1,9 @@
-question: Milloin Bitcoin esiteltiin maailmalle ensimmäistä kertaa?
-answer: 31. lokakuuta 2008.
+question: Kuinka suuren osan ajasta Bitcoin-verkko on ollut toiminnassa sen luomisesta lähtien?
+answer: 99,988 %.
 wrong_answers:
-  - 3. tammikuuta 2009.
-  - 22. marraskuuta 2009.
-  - 12. joulukuuta 2010.
+  - 100 %.
+  - 90,009 %.
+  - 80,17 %.
 explanation: |
-  Bitcoin esiteltiin maailmalle ensimmäistä kertaa 31. lokakuuta
-  2008, kun Satoshi Nakamoto lähetti sähköpostin cypherpunk
-  postituslistalle sisältäen Bitcoinin White Paperin.
+  Bitcoinin verkon online-saatavuus on ollut 99,988 % vuodesta 2009 lähtien.
 reviewed: true

@@ -1,11 +1,10 @@
-question: Mis on kaevandusbasseinide eesmärk?
-answer: Kaevandusbasseinid võimaldavad kaevuritel koondada oma arvutusressursse ja saada väiksemaid, kuid regulaarsemaid tasusid.
+question: Mis on keskmine aeg kahe ploki loomise vahel Bitcoin protokollis?
+answer: 10 minutit
 wrong_answers:
-  - Kaevandusbasseine kasutatakse Bitcoin'i võrgu HashRate'i suurendamiseks.
-  - Kaevandusbasseine kasutatakse kaevandamise raskusastme vähendamiseks.
-  - Kaevandusbasseine kasutatakse kaevandamise tasu suurendamiseks.
+  - 5 minutit
+  - 15 minutit
+  - 20 minutit
 explanation: >-
-  Kaevandusbasseinid on kaevurite rühmad, kes ühendavad oma arvutusvõimsuse,
-  et suurendada oma võimalusi ploki kaevandamiseks. Oma ressursside koondamisega suudavad nad
-  sagedamini plokke kaevandada ja saada väiksemaid, kuid regulaarsemaid tasusid.
+  Keskmiselt luuakse Bitcoin protokollis iga 10 minuti järel uus plokk.
+  See aeg püsib muutumatuna sõltumata kaevurite arvust ja nende arvutusvõimsusest.
 reviewed: false

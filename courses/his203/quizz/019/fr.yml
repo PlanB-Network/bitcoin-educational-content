@@ -1,0 +1,9 @@
+question: À quel niveau environ le prix du bitcoin est-il descendu au terme du marché baissier qui a succédé à la grande bulle de 2011 ?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Après avoir atteint un sommet à 32 $ en juin 2011, le prix du bitcoin a chuté drastiquement à 6 $ début août, puis a continué à baisser pour finalement atteindre environ 2 $ en novembre 2011. Cette baisse représentait une baisse de plus de 90 % par rapport au pic de juin.
+reviewed: false

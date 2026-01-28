@@ -1,10 +1,8 @@
-question: Wat is een van de manieren om bitcoins te verwerven zonder KYC?
-answer: Bitcoin geldautomaten.
+question: Waar lijkt de adoptiecurve van Bitcoin op?
+answer: Een S-curve.
 wrong_answers:
-  - Brokerplatforms.
-  - DCA-platforms.
-  - Bankoverschrijvingen.
-explanation: |
-  De cursustekst vermeldt dat er verschillende manieren zijn om
-  bitcoins te verkrijgen zonder KYC, waaronder Bitcoin geldautomaten.
+  - Een U-curve.
+  - Een V-curve.
+  - Een W-curve.
+explanation: >-
 reviewed: true

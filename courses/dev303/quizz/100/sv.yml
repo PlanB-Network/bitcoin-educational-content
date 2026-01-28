@@ -1,0 +1,8 @@
+question: Vilken är den primära arkitektoniska fördelen som gör att LDK kan fungera i WebAssembly-webbläsarmiljöer där traditionella Lightning-noder inte kan fungera?
+answer: LDK:s designfilosofi utan systemanrop gör att den kan fungera utan direkt tillgång till filsystem, nätverkssocklar eller entropikällor
+wrong_answers:
+  - "LDK:s modulära Rust-biblioteksstruktur ger automatiskt WebAssembly-kompatibilitet genom inbyggda Rust-till-WASM-kompileringsfunktioner"
+  - "LDK:s händelsestyrda arkitektur eliminerar behovet av permanenta anslutningar och kan fungera helt och hållet genom HTTP request-response-cykler"
+  - "LDK:s lättviktiga blockchain-integration minskar minnesanvändningen tillräckligt för att uppfylla WebAssemblys strikta resursbegränsningar och begränsningar"
+explanation: |
+  LDK:s systemanropsfria design är just det som möjliggör webbläsarkompatibilitet. Traditionella Lightning-noder förlitar sig på direkta systemanrop för nätverk, fil-I/O och slumpmässighet, vilket WebAssembly-miljöer förbjuder av säkerhetsskäl. LDK abstraherar dessa beroenden, vilket gör det möjligt för utvecklare att tillhandahålla webbläsarkompatibla implementeringar som använder WebSockets för nätverk och webbläsar-API:er för persistens och slumpmässighet, samtidigt som Lightning-protokollet följs fullt ut.

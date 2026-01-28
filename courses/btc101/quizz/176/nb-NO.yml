@@ -1,9 +1,9 @@
-question: Hva er en unik egenskap ved Bitcoin-protokollen?
-answer: Den opererer på en global skala, 24 timer i døgnet, 7 dager i uken.
+question: Hva er en av grunnene til at Bitcoins pris kan falle med 10-20 eller til og med 50% i løpet av noen få dager?
+answer: Markedsvariasjoner og bullish og bearish markedsfaser.
 wrong_answers:
-  - Den opererer kun i løpet av vanlige arbeidstider.
-  - Den kontrolleres av en sentral myndighet.
-  - Den kan lett hackes.
+  - Antall personer som bruker internett.
+  - Været.
+  - Prisen på gull.
 explanation: >-
-  Bitcoin-protokollen er unik fordi den opererer på en global skala,
-  24 timer i døgnet, 7 dager i uken, noe som gjør regulering vanskelig for finansielle myndigheter.
+  Prisen på Bitcoin er ofte preget av betydelig volatilitet,
+  som kan påvirkes av markedsvariasjoner og bullish og bearish markedsfaser.

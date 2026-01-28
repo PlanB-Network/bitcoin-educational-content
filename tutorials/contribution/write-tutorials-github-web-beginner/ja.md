@@ -6,7 +6,7 @@ description: プランの完全ガイド ₿ GitHub Webを使ったネットワ�
 
 新しいチュートリアルを追加するためのこのチュートリアルに従う前に、いくつかの予備ステップを完了する必要があります。まだ完了していない場合は、まずこの入門チュートリアルをご覧ください：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 あなたはすでに持っている：
 
@@ -18,13 +18,13 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 このチュートリアルでは、Web 版 GitHub を使って Plan ↪Sc_20BF Network にチュートリアルを追加する方法を説明します。すでに Git を使いこなしている方には、この詳細なチュートリアルは必要ないかもしれません。その代わりに、他の2つのチュートリアルのうちの一つをご覧になることをお勧めします。そこでは、従うべきガイドラインや、ローカルの.NET Frameworkから変更を加える手順について詳しく説明しています：
 
 
-- 経験者** ：
+- **経験者**：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- 中級（GitHub Desktop）** ：
+- **中級（GitHub Desktop）**：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## 前提条件
 
@@ -33,22 +33,22 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-desk
 
 - GitHubアカウント](https://github.com/signup)を持っている；
 - Plan ₿ Networkソースリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content)をフォークしてください；
-- Plan ₿ Networkの講師プロフィール](https://planb.network/professors)(完全なチュートリアルを提供する場合のみ)を持っている。
+- Plan ₿ Networkの講師プロフィール](https://planb.academy/professors)(完全なチュートリアルを提供する場合のみ)を持っている。
 
 これらの前提条件を得るのに手助けが必要な場合は、私の他のチュートリアルが役に立つだろう：
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 すべての準備が整い、Plan ₿ Networkリポジトリのフォークができたら、チュートリアルの追加を開始できます。
 
 ## 1 - 新しいブランチを作る
 
-ブラウザを開き、Plan ₿ Network リポジトリのフォークページに移動します。これが GitHub で確立したフォークです。フォークのURLは以下のようになります：https://github.com/[あなたのユーザー名]/bitcoin-educational-content` ：
+ブラウザを開き、Plan ₿ Academy リポジトリのフォークページに移動します。これが GitHub で確立したフォークです。フォークのURLは以下のようになります：https://github.com/[あなたのユーザー名]/bitcoin-educational-content` ：
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -74,11 +74,11 @@ Git のブランチはプロジェクトの並行バージョンを表し、メ�
 
 作業ブランチが作成できたので、いよいよ新しいチュートリアルを統合します。
 
-ブランチファイルの中で、チュートリアルの配置に適切なサブフォルダーを見つける必要があります。フォルダの構成は、Plan ₿ Network ウェブサイトの各セクションを反映しています。この例では、Green Walletに関するチュートリアルを追加するので、次のパスに移動します：これはウェブサイトの `WALLET` セクションに対応します：
+ブランチファイルの中で、チュートリアルの配置に適切なサブフォルダーを見つける必要があります。フォルダの構成は、Plan ₿ Academy ウェブサイトの各セクションを反映しています。この例では、Green Walletに関するチュートリアルを追加するので、次のパスに移動します：これはウェブサイトの `WALLET` セクションに対応します：
 
 ![GITHUB](assets/fr/05.webp)
 
-wallet`フォルダの中に、チュートリアル専用の新しいディレクトリを作成します。このフォルダの名前には、チュートリアルで扱うソフトウェアをハイフンを使って単語と単語をつなげて明示します。私の例では、フォルダ名は `green-wallet` とします。Add File*"をクリックし、次に "*Create new file*"をクリックしてください：
+wallet`フォルダの中に、チュートリアル専用の新しいディレクトリを作成します。このフォルダの名前には、チュートリアルで扱うソフトウェアをハイフンを使って単語と単語をつなげて明示します。私の例では、フォルダ名は `green-wallet` とします。**Add File**をクリックし、次に **Create new file**をクリックしてください：
 
 ![GITHUB](assets/fr/06.webp)
 
@@ -147,11 +147,11 @@ proofreading:
 
 - **id**: チュートリアルを一意に識別する UUID (_Universally Unique Identifier_)。 [オンラインツール](https://www.uuidgenerator.net/version4)を使用して生成できます。 この UUID はランダムである必要があり、プラットフォーム上の他の UUID と競合しないことが条件です;
 
-- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Network は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
+- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Academy は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
 
-- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Network のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
+- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Academy のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
 
-- **category**: Plan ₿ Network サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
+- **category**: Plan ₿ Academy サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
 
 - **level**: チュートリアルの難易度レベル、以下から選択：
     - `beginner`
@@ -172,7 +172,7 @@ proofreading:
 
 教師IDの詳細については、対応するチュートリアルを参照してください：
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -307,7 +307,7 @@ assets`フォルダの中に、記事のサムネイルとなる `logo.webp` と
 
 ![GITHUB](assets/fr/29.webp)
 
-Edit*"と "*Preview*"ビューを交互に表示することで、レンダリングをより見やすくすることができます。
+**Edit**と**Preview**ビューを交互に表示することで、レンダリングをより見やすくすることができます。
 
 ![GITHUB](assets/fr/30.webp)
 
@@ -343,18 +343,18 @@ assets`フォルダの言語サブフォルダ（私の例では `/assets/en`）
 
 ![GITHUB](assets/fr/35.webp)
 
-独自の回路図を作成する場合は、視覚的な一貫性を確保するため、必ず Plan ₿ Network グラフィックのガイドラインに従ってください：
+独自の回路図を作成する場合は、視覚的な一貫性を確保するため、必ず Plan ₿ Academy グラフィックのガイドラインに従ってください：
 
 
-- フォント**：ルービック](https://fonts.google.com/specimen/IBM+Plex+Sans)を使う；
-- カラー** ：
+- フォント：**ルービック**](https://fonts.google.com/specimen/IBM+Plex+Sans)を使う；
+- **カラー** ：
  - オレンジ#FF5C00
  - 黒: #000000
  - ホワイト白：#FFFFFFF
 
 **チュートリアルに組み込まれるすべてのビジュアルは、著作権フリーであるか、ソースファイルのライセンス**を尊重することが不可欠です。そのため、Plan ₿ Networkで公開されるすべての図は、テキストと同様にCC-BY-SAライセンスの下で利用可能です。
 
-**-> ヒント：*** 画像などのファイルを公共の場で共有する場合、余計なメタデータを削除することが重要です。メタデータには、位置情報、作成日、作者の詳細などの機密情報が含まれていることがあります。プライバシーを守るためにも、このメタデータを削除するのは良いアイデアです。この作業を簡単にするために、[Exif Cleaner](https://exifcleaner.com/)のような専用ツールを使用することができます。このツールを使用すると、簡単なドラッグ＆ドロップでドキュメントのメタデータをクリーンアップすることができます。
+**→ ヒント：** 画像などのファイルを公共の場で共有する場合、余計なメタデータを削除することが重要です。メタデータには、位置情報、作成日、作者の詳細などの機密情報が含まれていることがあります。プライバシーを守るためにも、このメタデータを削除するのは良いアイデアです。この作業を簡単にするために、[Exif Cleaner](https://exifcleaner.com/)のような専用ツールを使用することができます。このツールを使用すると、簡単なドラッグ＆ドロップでドキュメントのメタデータをクリーンアップすることができます。
 
 ## 9 - チュートリアルの提案
 
@@ -370,13 +370,13 @@ assets`フォルダの言語サブフォルダ（私の例では `/assets/en`）
 
 ![GITHUB](assets/fr/37.webp)
 
-インターフェイスの先頭で、作業ブランチが Plan ₿ Network リポジトリの `dev` ブランチ（メインブランチ）にマージされていることを確認します。
+インターフェイスの先頭で、作業ブランチが Plan ₿ Academy リポジトリの `dev` ブランチ（メインブランチ）にマージされていることを確認します。
 
 ソースリポジトリにマージしたい変更点を簡潔にまとめたタイトルを入力してください。これらの変更を説明する簡単なコメントを追加し (チュートリアルの作成に関連する課題番号がある場合は、コメントとして `Closes #{課題番号}` と記述することを忘れないでください)、緑色の "*Create pull request*" ボタンをクリックしてマージリクエストを確定します：
 
 ![GITHUB](assets/fr/38.webp)
 
-あなたのPRは、メインの Plan ₿ Network リポジトリの「*Pull Request*」タブに表示されます。あとは、管理者があなたの投稿がマージされたことを確認したり、さらなる修正を依頼したりする連絡を待つだけです。
+あなたのPRは、メインの Plan ₿ Academy リポジトリの「*Pull Request*」タブに表示されます。あとは、管理者があなたの投稿がマージされたことを確認したり、さらなる修正を依頼したりする連絡を待つだけです。
 
 ![GITHUB](assets/fr/39.webp)
 
@@ -388,6 +388,6 @@ PR をメインブランチにマージした後は、作業ブランチ (私の
 
 
 - あなたのPRがまだオープンで、まだマージされていない場合は、同じワークブランチで変更を行ってください。コミットされた変更は、まだオープンなPRに追加されます；
-- あなたの PR がすでにメインブランチにマージされている場合は、新しいブランチを作成し、新しい PR を提出することで、プロセスを最初からやり直す必要があります。先に進む前に、あなたのフォークが `dev` ブランチの Plan ₿ Network ソースリポジトリと同期していることを確認してください。
+- あなたの PR がすでにメインブランチにマージされている場合は、新しいブランチを作成し、新しい PR を提出することで、プロセスを最初からやり直す必要があります。先に進む前に、あなたのフォークが `dev` ブランチの Plan ₿ Academy ソースリポジトリと同期していることを確認してください。
 
 チュートリアルの投稿に技術的な問題がある場合は、遠慮なく[投稿専用のTelegramグループ](https://t.me/PlanBNetwork_ContentBuilder)に助けを求めてください。ありがとうございました！

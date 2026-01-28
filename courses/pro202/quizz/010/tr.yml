@@ -1,0 +1,8 @@
+question: Açık anahtarlardan Bitcoin adresleri oluştururken hash160 (SHA-256 ve ardından RIPEMD-160) kullanmanın temel amacı nedir?
+answer: Bir harcama gerçekleşene kadar açık anahtarı gizlemek ve daha kısa, daha yönetilebilir adresler oluşturmak için
+wrong_answers:
+  - Özel anahtarı şifrelemek ve wallet fonlarına yetkisiz erişimi önlemek için
+  - Blok zincirinde işlem doğrulaması için gereken dijital imzayı generate'ye
+  - Eliptik eğri noktalarını secp256k1 işlemleri için uygun biçime dönüştürmek için
+explanation: |
+  Hash160, Bitcoin adres oluşturmada birden fazla önemli işleve hizmet eder. Açık anahtarı hashleyerek, madeni paralar harcanana kadar gerçek açık anahtarı gizli tutar ve ek bir güvenlik katmanı sağlar. Karıştırma ayrıca 33/65 bayt olan boyutu sadece 20 bayta düşürerek adresleri daha yönetilebilir hale getirir. Yanlış cevaplar bunu özel anahtar şifreleme (ki bu yapılmaz), dijital imzalar (ki bunlar farklı kriptografik işlemler kullanır) veya eğri biçimlendirme (ki bu SEC serileştirmesi sırasında olur, adres oluşturma sırasında değil) ile karıştırmaktadır.

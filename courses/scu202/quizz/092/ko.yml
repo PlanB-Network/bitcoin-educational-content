@@ -1,0 +1,9 @@
+question: 인터넷과 개인 홈 네트워크의 경계 역할을 하는 기기는 무엇인가요?
+answer: 모뎀 라우터
+wrong_answers:
+  - 이더넷 스위치
+  - NAS 서버
+  - USB 허브
+explanation: |
+  모뎀 라우터는 ISP 네트워크를 로컬 네트워크에 연결하고 로컬 IP 주소 할당을 관리합니다.
+reviewed: false

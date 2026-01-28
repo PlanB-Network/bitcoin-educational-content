@@ -1,5 +1,5 @@
 ---
-name: 快閃記憶體
+name: Flash
 description: 借助 Lightning 的力量，100 CFA 法郎起即可購買比特幣。
 ---
 
@@ -39,8 +39,8 @@ Flash 依賴 Lightning Network 這個 Bitcoin 的覆蓋層，安全順暢地執�
 
 
 
-- FlashX**：使用行動貨幣 Exchange 比特幣。
-- FlashPayment**：使用 Bitcoin 進行日常服務。
+- **FlashX**：使用行動貨幣 Exchange 比特幣。
+- **FlashPayment**：使用 Bitcoin 進行日常服務。
 
 
 
@@ -73,9 +73,9 @@ Flash 使用當地的 Mobile Money 進行交易。根據您在西非的位置，
 
 
 
-- 貝寧**：MTN Benin、Moov Benin、Celtiis。
-- 多哥** ：Moov Togo.
-- 布基納法索**：橙色。
+- 貝寧：**MTN Benin、Moov Benin、Celtiis**。
+- **多哥**：Moov Togo.
+- 布基納法索：橙色。
 
 
 
@@ -110,7 +110,7 @@ Flash 使用當地的 Mobile Money 進行交易。根據您在西非的位置，
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 在 Flash 上進行交易平均需要 5 到 10 分鐘才能在您的 Lightning Wallet 上收到比特幣。
 
@@ -157,10 +157,10 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- GSM** 裝置；
-- 網際網路套裝**；
-- 呼叫套裝**；
-- 結合通話與網際網路的套裝**。
+- **GSM** 裝置；
+- 網際網路套裝；
+- 呼叫套裝；
+- 結合通話與網際網路的套裝。
 
 
 
@@ -202,5 +202,4 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

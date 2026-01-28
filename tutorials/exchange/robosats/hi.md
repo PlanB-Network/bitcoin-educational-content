@@ -1,5 +1,5 @@
 ---
-name: रोबोसैट्स
+name: Robosats
 
 description: रोबोसैट्स का उपयोग कैसे करें
 ---

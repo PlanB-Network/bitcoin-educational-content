@@ -1,0 +1,9 @@
+question: Qual é a principal função de um nó Bitcoin?
+answer: Guardar o Blockchain e validar transacções e blocos
+wrong_answers:
+  - Armazenar chaves privadas e criar transacções
+  - Criar novos endereços para os utilizadores
+  - Converter bitcoins em moedas fiduciárias
+explanation: |
+  Um nó Bitcoin mantém uma cópia do Blockchain e participa na validação e retransmissão de transacções e blocos.
+reviewed: true

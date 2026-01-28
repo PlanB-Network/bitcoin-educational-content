@@ -17,10 +17,10 @@ Arch Linux, özellikle geliştirme amaçları için sağlamlığı, performansı
 
 
 
-- Ücretsiz ve açık kaynak**: Çoğu Linux dağıtımı gibi Arch Linux da tamamen ücretsizdir. Lisans ücreti yoktur, bu da onu öğrenciler, serbest çalışanlar veya meraklılar için mükemmel bir seçim haline getirir.
-- KISS** felsefesi: Arch basit, hafif ve verimli olacak şekilde tasarlanmıştır. Yalnızca temel unsurları sağlayarak ortamınızı alakart olarak oluşturmanıza olanak tanır.
-- Pacman** paket yöneticisi: Pacman hızlı, güvenilir ve iyi tasarlanmış bir paket yöneticisidir. Yazılımın verimli bir şekilde kurulmasını ve güncellenmesini sağlar ve bağımlılıkları hassas bir şekilde yönetir.
-- Kapsamlı dokümantasyon ve aktif bir topluluk**: [Arch Wiki] (https://wiki.archlinux.org) muhtemelen Linux dünyasındaki en iyi teknik dokümantasyonlardan biridir. Ne yaptığınızı anlamak için bir altın madeni. Çoğunlukla deneyimli profillerden oluşan topluluk çok aktiftir ve önceden biraz araştırma yapmış olmanız koşuluyla takıldığınızda size yardımcı olabilir.
+- **Ücretsiz ve açık kaynak**: Çoğu Linux dağıtımı gibi Arch Linux da tamamen ücretsizdir. Lisans ücreti yoktur, bu da onu öğrenciler, serbest çalışanlar veya meraklılar için mükemmel bir seçim haline getirir.
+- **KISS** felsefesi: Arch basit, hafif ve verimli olacak şekilde tasarlanmıştır. Yalnızca temel unsurları sağlayarak ortamınızı alakart olarak oluşturmanıza olanak tanır.
+- **Pacman** paket yöneticisi: Pacman hızlı, güvenilir ve iyi tasarlanmış bir paket yöneticisidir. Yazılımın verimli bir şekilde kurulmasını ve güncellenmesini sağlar ve bağımlılıkları hassas bir şekilde yönetir.
+- **Kapsamlı dokümantasyon ve aktif bir topluluk**: [Arch Wiki](https://wiki.archlinux.org) muhtemelen Linux dünyasındaki en iyi teknik dokümantasyonlardan biridir. Ne yaptığınızı anlamak için bir altın madeni. Çoğunlukla deneyimli profillerden oluşan topluluk çok aktiftir ve önceden biraz araştırma yapmış olmanız koşuluyla takıldığınızda size yardımcı olabilir.
 
 
 
@@ -39,7 +39,7 @@ Gerekli malzemeler:
 
 
 - En az **8 GB** boyutunda bir USB anahtarı
-- minimum 2 GB** RAM
+- minimum 2 GB **RAM**
 - En az 20 GB boş disk alanına sahip bir bilgisayar
 
 
@@ -58,7 +58,7 @@ Gerekli malzemeler:
 
 
 
-- ISO görüntüsünün en son resmi sürümünü indirmek için [resmi web sitesini] (https://mir.archlinux.fr/iso/latest/) ziyaret edin.
+- ISO görüntüsünün en son resmi sürümünü indirmek için [resmi web sitesini](https://mir.archlinux.fr/iso/latest/) ziyaret edin.
 
 
 
@@ -72,7 +72,7 @@ Gerekli malzemeler:
 
 
 
-- Balena Etcher'ı [resmi web sitesinden] (https://etcher.balena.io) indirin.
+- Balena Etcher'ı [resmi web sitesinden](https://etcher.balena.io) indirin.
 - Yazılımı başlatın, Arch Linux ISO görüntüsünü seçin.
 - Hedef cihaz olarak USB anahtarınızı seçin.
 - Önyüklenebilir anahtarı oluşturmaya başlamak için **Flash** üzerine tıklayın.
@@ -261,30 +261,32 @@ UEFI'de iseniz **GPT**, BIOS'ta iseniz **DOS** öğesini seçin.
 
 
 
-- UEFI** modunda
+- **UEFI** modunda
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Yüklü sistemde bağlantı noktası | Bölüm                 | Bölüm türü       | Önerilen boyut |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI Sistem Bölümü   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Takas alanı (swap) | En az 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 kök (/) | Diskin geri kalanı |
 
 - BIOS'ta
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Yüklü sistemde bağlantı noktası | Bölüm           | Bölüm türü       | Önerilen boyut |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Takas alanı (swap) | En az 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Diskin geri kalanı |
 
 ![0_10](assets/fr/10.webp)
 
 
 
-Yaz** öğesini seçin, **Evet** yazın ve ardından **Kapat** öğesini seçin.
+**Yaz** öğesini seçin, **Evet** yazın ve ardından **Kapat** öğesini seçin.
 
 
 
@@ -294,7 +296,7 @@ Yaz** öğesini seçin, **Evet** yazın ve ardından **Kapat** öğesini seçin.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +311,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 
@@ -329,7 +331,7 @@ mkfs.ext4 /dev/sda2
 
 
 
-Kök** bölümünü bağlayın:
+**Kök** bölümünü bağlayın:
 
 
 
@@ -378,7 +380,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 
 
-Chroot** ortamına girin:
+**Chroot** ortamına girin:
 
 
 
@@ -472,7 +474,7 @@ pacman -S grub
 
 
 
-- BIOS** için:
+- **BIOS** için:
 
 
 
@@ -489,7 +491,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- UEFI** için:
+- **UEFI** için:
 
 
 
@@ -623,7 +625,7 @@ pacman -S gnome gnome-extra
 
 
 
-Oturum yöneticisini** etkinleştirin:
+**Oturum yöneticisini** etkinleştirin:
 
 
 
@@ -646,7 +648,7 @@ Sistem otomatik olarak yeniden başlatılır ve Interface grafik girişini alır
 
 
 
-Interface GNOME'a** girdikten sonra, daha fazla güvenlik ve daha güvenli, risksiz kullanım için yeni bir kullanıcı oluşturmanız gerekecektir. Uygulamalara girin ve terminali başlatmak için "konsol" seçeneğini seçin.
+Interface **GNOME'a** girdikten sonra, daha fazla güvenlik ve daha güvenli, risksiz kullanım için yeni bir kullanıcı oluşturmanız gerekecektir. Uygulamalara girin ve terminali başlatmak için "konsol" seçeneğini seçin.
 
 
 
@@ -680,7 +682,7 @@ pacman -S sudo
 
 
 
-- Sudo** haklarını etkinleştirin:
+- **Sudo** haklarını etkinleştirin:
 
 
 
@@ -778,6 +780,6 @@ Arch Linux ile başlamaktan keyif aldıysanız, ihtiyaçlarınıza ve kullanıml
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

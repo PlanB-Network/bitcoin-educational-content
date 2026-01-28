@@ -1,0 +1,9 @@
+question: Millist tüüpi seadmeid kasutatakse tänapäeval Bitcoin tõhusaks kaevandamiseks?
+answer: ASIC
+wrong_answers:
+  - Klassikaline protsessor
+  - GPU
+  - FPGA
+explanation: |
+  Tänapäeval kasutatakse Bitcoin Mining puhul ASICi. Need on SHA-256 algoritmi jaoks spetsialiseerunud kiibid.
+reviewed: true

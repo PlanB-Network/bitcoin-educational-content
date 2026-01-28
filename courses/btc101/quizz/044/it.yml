@@ -1,12 +1,10 @@
-question: Qual è il potenziale esito di una improvvisa svalutazione o di una perdita di fiducia in una valuta fiat?
-answer: Iperinflazione.
+question: Qual è l'impatto di un'inflazione del 2% sul potere d'acquisto in 5 anni?
+answer: Si perde il 10% del proprio potere d'acquisto.
 wrong_answers:
-  - Deflazione.
-  - Un'economia stabile.
-  - Un aumento del valore della valuta.
+  - Si perde il 2% del proprio potere d'acquisto.
+  - Si perde il 5% del proprio potere d'acquisto.
+  - Si perde il 20% del proprio potere d'acquisto.
 explanation: |
-  L'improvvisa svalutazione o una perdita di fiducia in una valuta
-  fiat può portare all'iperinflazione. Questa è una situazione
-  in cui i prezzi dei beni e dei servizi aumentano a un tasso
-  estremamente elevato, spesso portando a instabilità economica.
+  Con un'inflazione del 2%, si perde il 2% del proprio potere d'acquisto
+  annualmente, il che equivale al 10% in 5 anni.
 reviewed: true

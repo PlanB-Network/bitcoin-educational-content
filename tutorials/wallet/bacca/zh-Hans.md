@@ -1,5 +1,5 @@
 ---
-name: 巴卡
+name: Bacca
 description: 在没有 Ledger Live 软件的情况下配置分类账
 ---
 ![cover](assets/cover.webp)
@@ -11,7 +11,7 @@ description: 在没有 Ledger Live 软件的情况下配置分类账
 在本教程中，我将教你如何使用该工具，这样你就可以永远不用 Ledger Live 软件，仍然可以享受 Ledger 设备带来的乐趣。它适用于所有设备：Nano S Classic、Nano S Plus、Nano X、Flex 和 Stax。
 
 ---
-*请注意，该工具是一个相当新的工具，其开发者明确指出，它仍处于**测试阶段。他们建议仅将其用于测试目的，而不是用于托管真实比特币钱包的设备，尽管这样做是可能的。在这方面，我建议您遵循该工具开发者的建议，这些建议[在其 GitHub 存储库的 README 中](https://github.com/darosior/ledger_installer).*.
+*请注意，该工具是一个相当新的工具，其开发者明确指出，它仍处于**测试阶段**。他们建议仅将其用于测试目的，而不是用于托管真实比特币钱包的设备，尽管这样做是可能的。在这方面，我建议您遵循该工具开发者的建议，这些建议[在其 GitHub 存储库的 README 中](https://github.com/darosior/ledger_installer)。*
 
 ---
 ## 先决条件
@@ -98,11 +98,11 @@ cargo run -p ledger_manager_gui
 
 开始之前，如果你的 Ledger 是新的，请确保你已经设置了 PIN 码并保存了恢复短语。这些初始步骤不需要 Ledger Live。只需通过 USB 电缆连接 Ledger，为其供电即可。如果你不确定如何进行这两个步骤，可以参考针对你的型号的教程开头部分：
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## 使用巴卡
 
@@ -140,5 +140,4 @@ https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b
 
 我还建议你看看 GnuPG 的这篇教程，其中介绍了如何在安装软件前检查其完整性和真实性。这是一种重要的做法，尤其是在安装 Liana 或 Sparrow 等投资组合管理软件时：
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
-
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc

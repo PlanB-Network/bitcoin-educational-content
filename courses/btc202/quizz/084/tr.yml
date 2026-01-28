@@ -1,0 +1,9 @@
+question: Bir Bitcoin core düğümünün sahip olduğu varsayılan giden bağlantı sayısı nedir?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core varsayılan olarak 10 giden bağlantı tutar (8 tam röle ve 2 yalnızca blok röle).
+reviewed: true

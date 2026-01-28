@@ -6,4 +6,4 @@ wrong_answers:
   - Weil sie spezialisierte Hardware benötigt
 explanation: |
   Satoshi Nakamoto bevorzugte wahrscheinlich die secp256k1-Kurve, da die Parameter von secp256r1 eine versteckte Schwachstelle enthalten könnten.
-reviewed: false
+reviewed: true

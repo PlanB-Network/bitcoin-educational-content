@@ -1,13 +1,8 @@
-question: Jaka jest jedna z potencjalnych korzyści Lightning Network dla twórców treści?
-answer: Będą oni zachęcani do tworzenia wysokiej jakości treści, aby utrzymać uwagę użytkowników.
+question: Jakie jest jedno z głównych pytań dotyczących przyszłości finansów?
+answer: Kto powinien przechowywać, autoryzować i śledzić pieniądze, których używamy?
 wrong_answers:
-  - Będą mogli pobierać wyższe opłaty za swoje treści.
-  - Będą mogli dotrzeć do szerszego grona odbiorców.
-  - Będą w stanie szybciej tworzyć treści, aby utrzymać uwagę użytkowników.
-explanation: |
-  Dzięki Lightning Network twórcy treści byliby
-  motywowani do tworzenia treści dobrej jakości, aby utrzymać uwagę użytkowników
-  uwagę użytkowników. Użytkownicy z kolei płaciliby tylko za treści, które
-  treści, które konsumują, eliminując w ten sposób opłaty abonamentowe
-  opłat abonamentowych.
+  - Jak możemy całkowicie wyeliminować pieniądze?
+  - Jak możemy zagwarantować, że każdy będzie miał tyle samo pieniędzy?
+  - Jak możemy sprawić, że pieniądze staną się przestarzałe?
+explanation: >-
 reviewed: true

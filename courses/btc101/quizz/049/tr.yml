@@ -1,9 +1,11 @@
-question: Hiperenflasyon olgusunda ortaya çıkan ilk aşama nedir?
-answer: Bir para birimine olan güvenin kaybolması.
+question: Temmuz 1946'da Macaristan'da enflasyon oranı ne kadardı?
+answer: 41,900,000,000,000,000%
 wrong_answers:
-  - Para birimi çöküşü ve fiyat artışı.
-  - Para basmanın kısır döngüsü.
-  - Yeni bir para birimi ortaya çıkıyor.
+  - 207%
+  - 50%
+  - 100%
 explanation: |
-  Hiperenflasyonun ilk aşaması bir para birimine olan güvenin kaybolmasıdır.
+  Macaristan'da enflasyonun en yüksek olduğu ay Temmuz oldu
+  1946, rekor fiyat enflasyonu ile
+  41,900,000,000,000,000%.
 reviewed: true

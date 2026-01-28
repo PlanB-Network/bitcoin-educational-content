@@ -1,0 +1,9 @@
+question: ประเภทของระเบียน DNS ที่ใช้ในการค้นหาชื่อที่เกี่ยวข้องกับที่อยู่ IPv6 คืออะไร?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) ช่วยให้สามารถทำการแก้ไขย้อนกลับได้ ซึ่งหมายความว่ามันเชื่อมโยงที่อยู่ IPv6 กับชื่อโดเมน
+reviewed: false

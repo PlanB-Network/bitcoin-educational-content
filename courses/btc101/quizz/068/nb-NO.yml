@@ -1,10 +1,11 @@
-question: Hvor ofte halveres belønningen for gruvedrift?
-answer: Hver 210 000 blokker
+question: Hva er den mnemoniske frasen i en Bitcoin-lommebok?
+answer: En liste med 12 eller 24 ord som er en sikkerhetskopi av din Bitcoin-lommebok
 wrong_answers:
-  - Hver 120 000 blokker
-  - Hver 540 000 blokker
-  - Hver 2 100 000 blokker
+  - Et valgt passord for å få tilgang til Bitcoin-lommeboken
+  - En kode for å kryptere Bitcoin-transaksjonene
+  - En hemmelig gjenopprettingsfrase som ødelegger Bitcoin-lommeboken
 explanation: |
-  Belønningen for gruvedrift er programmert til å halveres hver 210 000 blokker, noe som
-  tilsvarer omtrent hvert fjerde år, en hendelse kjent som halvering.
+  Siden 2017 kan den private nøkkelen kodes i en enkel liste med 12 eller
+  24 ord, kalt den mnemoniske frasen. Denne frasen er en sikkerhetskopi av din Bitcoin-lommebok,
+  det er det som lar deg gjenskape lommeboken din med hvilken som helst Bitcoin-lommebok programvare/app.
 reviewed: true

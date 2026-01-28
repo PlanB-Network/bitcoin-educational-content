@@ -6,4 +6,4 @@ wrong_answers:
   - Alfred Menezes, Minghua Qu und Scott Vanstone
 explanation: |
   Rivest, Shamir und Adleman benannten den RSA-Algorithmus nach ihren drei Initialen.
-reviewed: false
+reviewed: true

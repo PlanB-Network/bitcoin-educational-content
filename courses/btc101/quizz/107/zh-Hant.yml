@@ -1,11 +1,11 @@
-question: 在 Bitcoin 繼承的情況下，公證人的角色是什麼？
-answer: 他們確保符合稅務規定。
+question: Bitcoin 是何時首次面世的？
+answer: 2008 年 10 月 31 日。
 wrong_answers:
-  - 他們會在您死後管理您的 bitcoins。
-  - 他們會修改您的繼承計劃。
-  - 他們會將您的 bitcoins 放在安全的地方。
+  - 2009 年 1 月 3 日。
+  - 2009 年 11 月 22 日。
+  - 2010 年 12 月 12 日。
 explanation: |
-  在 Bitcoin 繼承的情況下，重要的是要
-  與公證人討論比特幣的繼承，以確保
-  符合稅務規定。
-reviewed: false
+  Bitcoin 於 2008 年 10 月 31 日首次呈現在世人面前、
+  2008 年 10 月 31 日，Satoshi Nakamoto 向 Cypherpunk
+  郵寄清單，其中包含 Bitcoin 白皮書。
+reviewed: true

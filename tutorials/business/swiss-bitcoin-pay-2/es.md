@@ -9,11 +9,11 @@ Hoy en día, existen numerosas soluciones para los comerciantes que desean acept
 
 Para aquellos que prefieren no complicarse y recibir fondos en moneda fiat directamente en su cuenta bancaria, existen soluciones de custodia como Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Para los comerciantes dispuestos a involucrarse más y que quieren controlar completamente el proceso, el software BTCPay Server es una excelente opción. Sin embargo, el principal inconveniente de BTCPay Server es que su configuración y gestión requieren tiempo y cierta experiencia técnica:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Entre todas estas soluciones, Swiss Bitcoin Pay parece ser una opción muy interesante que combina facilidad de uso, características y seguridad. Esta solución es adecuada tanto para negocios muy pequeños como para estructuras más grandes. En este tutorial, descubrirás cómo usar fácilmente Swiss Bitcoin Pay para aceptar Bitcoin en tu negocio.
 
@@ -256,4 +256,4 @@ Finalmente, en la pestaña "*Settings*", tienes la opción de modificar la infor
 
 ¡Felicidades! Has configurado un sistema procesador de pagos para aceptar Bitcoin en tu negocio. Si también quieres explorar BTCPay Server, una solución más avanzada y compleja, te recomiendo seguir nuestro entrenamiento completo específicamente dedicado a este software: 
 
-[BTC305](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).
+[BTC305](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).

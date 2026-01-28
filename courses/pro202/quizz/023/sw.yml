@@ -1,0 +1,8 @@
+question: Kusudi kuu la sehemu ya nambari ya mfuatano katika ingizo za miamala ya Bitcoin ni lipi?
+answer: Ili kuwezesha utendakazi wa muda na Ubadilishaji kwa Ada (RBF)
+wrong_answers:
+  - Kubainisha mpangilio ambao pembejeo lazima zishughulikiwe na wachimbaji
+  - Ili kuzuia double-spending kwa kuunda kitambulisho cha kipekee kwa kila ingizo
+  - Kuonyesha kiwango cha kipaumbele cha muamala kwa ajili ya hesabu ya ada
+explanation: |
+  Sehemu ya nambari ya mfuatano katika ingizo za miamala ya Bitcoin hutimiza madhumuni mawili makuu: kutekeleza muda wa kufunga (ambao huchelewesha wakati muamala unaweza kuthibitishwa) na kuwezesha utendaji kazi wa Replace-by-Fee (RBF) (ambayo inaruhusu watumiaji kuongeza ada kwenye miamala ambayo haijathibitishwa). Chaguzi zingine si sahihi kwa sababu: ingizo hazihitaji kusindika kwa mpangilio wowote maalum na wachimbaji, uzuiaji wa double-spending unashughulikiwa na modeli ya UTXO na makubaliano ya blockchain badala ya nambari za mfuatano, na kipaumbele cha miamala huamuliwa na viwango vya ada badala ya nambari za mfuatano.

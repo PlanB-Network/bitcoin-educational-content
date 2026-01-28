@@ -1,0 +1,8 @@
+question: Waarom is het gebruik van expect() op hard gecodeerde waarden die compiler-geverifieerd lijken potentieel problematisch in productiecode?
+answer: Hard gecodeerde waarden kunnen na verloop van tijd veranderen door refactoring, waardoor voorheen geldige waarden veranderen in runtime fouten
+wrong_answers:
+  - De compiler kan de geldigheid van hard gecodeerde waarden niet controleren tijdens het compileren, waardoor expect() onbetrouwbaar is
+  - Hard gecodeerde waarden verbruiken meer geheugen dan dynamische waarden, wat prestatieproblemen veroorzaakt met expect()
+  - De expect() methode voegt onnodige overhead toe in vergelijking met unwrap() als het gaat om bekende geldige waarden
+explanation: |
+  Het juiste antwoord benadrukt een belangrijk inzicht uit het hoofdstuk: zelfs schijnbaar veilige, hard gecodeerde waarden kunnen na verloop van tijd gevaarlijk worden. Het voorbeeld laat zien hoe een geldig IP-adres kan worden omgezet in een constante en later kan worden veranderd in 'localhost', waardoor de oorspronkelijke aanname wordt doorbroken. De foute antwoorden zijn onjuist omdat: de compiler hard-gecodeerde waarden kan verifiëren tijdens het compileren, geheugengebruik niet het probleem is met expect(), en expect() geen significante prestatie-overhead heeft vergeleken met unwrap().

@@ -1,0 +1,8 @@
+question: Đặc điểm cơ bản nào trong triết lý thiết kế thành phần của LDK tạo nên sự khác biệt so với các triển khai nút Lightning nguyên khối như CLightning hoặc LND?
+answer: Mỗi thành phần cung cấp các triển khai mặc định có thể được thay thế riêng lẻ bằng các giải pháp tùy chỉnh trong khi vẫn duy trì sự tuân thủ giao thức.
+wrong_answers:
+  - Tất cả các thành phần phải được các nhà phát triển tự lập trình từ đầu, không có bất kỳ triển khai mặc định nào được cung cấp bởi thư viện.
+  - Các thành phần được khóa chặt với nhau vĩnh viễn và không thể sửa đổi sau khi đã được tích hợp vào kiến trúc ứng dụng.
+  - Thư viện này yêu cầu tất cả các thành phần phải sử dụng cùng một ngôn ngữ lập trình và không hỗ trợ liên kết ngôn ngữ đa nền tảng.
+explanation: |
+  Triết lý cốt lõi của LDK tập trung vào việc cung cấp các thành phần mô-đun với các triển khai mặc định hoạt động mà các nhà phát triển có thể lựa chọn thay thế khi cần. Điều này cho phép tùy chỉnh các chức năng cụ thể (như giám sát blockchain hoặc ký giao dịch) trong khi vẫn giữ nguyên các thành phần khác. Các câu trả lời sai đã hiểu sai cách tiếp cận của LDK: nó cung cấp các giá trị mặc định thay vì yêu cầu mọi thứ phải được xây dựng từ đầu, cho phép thay thế các thành phần thay vì khóa chúng lại với nhau, và hỗ trợ nhiều ngôn ngữ lập trình thông qua hệ thống liên kết của nó.

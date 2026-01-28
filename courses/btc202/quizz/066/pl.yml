@@ -1,0 +1,9 @@
+question: Jakie środki bezpieczeństwa są zdecydowanie zalecane w celu ochrony dostępu do Umbrel?
+answer: Długie hasło i aktywacja 2FA
+wrong_answers:
+  - Podwójna pamięć masowa SSD
+  - Otwórz port RPC zwykłym tekstem
+  - Długie hasło i aktywacja SSH
+explanation: |
+  Połączenie silnego hasła i uwierzytelniania dwuskładnikowego (2FA) skutecznie chroni dostęp do Interface Umbrel.
+reviewed: true

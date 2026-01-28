@@ -5,5 +5,5 @@ wrong_answers:
   - Javni ključ, privatni ključ i algoritam za dešifrovanje
   - Algoritam za šifrovanje, javni ključ i privatni ključ
 explanation: |
-  Šema simetričnog šifrovanja sastoji se od tri Elements: algoritma za generisanje ključa, algoritma za šifrovanje i algoritma za dešifrovanje. Svi koriste isti ključ.
-reviewed: false
+  Šema simetričnog šifrovanja sastoji se od tri elementa: algoritma za generisanje ključa, algoritma za šifrovanje i algoritma za dešifrovanje. Svi koriste isti ključ.
+reviewed: true

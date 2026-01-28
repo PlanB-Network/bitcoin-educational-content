@@ -8,7 +8,7 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoi
 
 Jika Anda ingin menambahkan konferensi Bitcoin ke situs Jaringan PlanB dan meningkatkan visibilitas untuk acara Anda, tetapi tidak tahu bagaimana? Tutorial ini adalah untuk Anda!
 ![event](assets/01.webp)
-- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
+- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Kunjungi [repositori GitHub dari PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) di bagian `resources/conference/`:
 ![event](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, kemudian pada `Create new file`:
@@ -78,7 +78,7 @@ tag:
   - Internasional
 ```
 ![event](assets/09.webp)
-Jika Anda belum memiliki pengenal "*project*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
+Jika Anda belum memiliki pengenal "*project*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
 
 - Setelah Anda selesai melakukan perubahan pada file ini, simpan perubahan tersebut dengan mengklik tombol `Commit changes...`:
 ![event](assets/10.webp)
@@ -90,7 +90,7 @@ Jika Anda belum memiliki pengenal "*project*" untuk organisasi Anda, Anda dapat 
 ![event](assets/13.webp)
 - Klik pada gambar profil GitHub Anda di pojok kanan atas, lalu pada `Your Repositories`:
 ![event](assets/14.webp)
-- Pilih fork Anda dari repositori PlanB Network:
+- Pilih fork Anda dari repositori Plan ₿ Academy:
 ![event](assets/15.webp)
 - Anda seharusnya melihat notifikasi di bagian atas jendela dengan cabang baru Anda. Mungkin disebut `patch-1`. Klik pada itu:
 ![event](assets/16.webp)
@@ -111,7 +111,7 @@ Jika Anda belum memiliki pengenal "*project*" untuk organisasi Anda, Anda dapat 
 - Kembali ke folder `assets`:
 ![event](assets/24.webp)
 - Klik tombol `Add file`, lalu pada `Upload files`: ![event](assets/25.webp)
-- Sebuah halaman baru akan terbuka. Seret dan lepas gambar yang mewakili konferensi Anda dan akan ditampilkan di situs PlanB Network:
+- Sebuah halaman baru akan terbuka. Seret dan lepas gambar yang mewakili konferensi Anda dan akan ditampilkan di situs Plan ₿ Academy:
 ![event](assets/26.webp)
 - Bisa jadi logo, thumbnail, atau bahkan poster:
 ![event](assets/27.webp)
@@ -134,9 +134,9 @@ Jika Anda belum memiliki pengenal "*project*" untuk organisasi Anda, Anda dapat 
 ![event](assets/36.webp)
 - Klik pada tombol `Create pull request`:
 ![event](assets/37.webp)
-Selamat! PR Anda telah berhasil dibuat. Seorang administrator sekarang akan memeriksanya dan, jika semuanya sesuai, menggabungkannya ke dalam repositori utama dari PlanB Network. Anda seharusnya melihat event Anda muncul di situs web beberapa hari kemudian.
+Selamat! PR Anda telah berhasil dibuat. Seorang administrator sekarang akan memeriksanya dan, jika semuanya sesuai, menggabungkannya ke dalam repositori utama dari Plan ₿ Academy. Anda seharusnya melihat event Anda muncul di situs web beberapa hari kemudian.
 
-Pastikan untuk mengikuti perkembangan PR Anda. Seorang administrator mungkin meninggalkan komentar meminta informasi tambahan. Selama PR Anda belum divalidasi, Anda dapat mengkonsultasikannya di tab `Pull requests` pada repositori GitHub PlanB Network:
+Pastikan untuk mengikuti perkembangan PR Anda. Seorang administrator mungkin meninggalkan komentar meminta informasi tambahan. Selama PR Anda belum divalidasi, Anda dapat mengkonsultasikannya di tab `Pull requests` pada repositori GitHub Plan ₿ Academy:
 ![event](assets/38.webp)
 Terima kasih banyak atas kontribusi berharga Anda! :)
 

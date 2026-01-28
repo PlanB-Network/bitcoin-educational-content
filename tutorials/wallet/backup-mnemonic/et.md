@@ -84,11 +84,11 @@ Samuti saate oma varukoopiaid rikastada täiendava teabega, mis on seotud teie r
 
 Teisest küljest, kui kasutate salasõna, veenduge, et te ei kirjuta seda samale kandjale kui teie mnemoonilist fraasi. Salasõna eesmärk on kaitsta teie rahakotti varguse korral. Lisateavet selle kohta, kuidas kasutada paroolfraasi, leiate sellest täiendavast õpetusest:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Kui olete salvestanud oma mälulause füüsilisele andmekandjale, on tungivalt soovitatav teha taastamistest, kui teie äsja loodud rahakott on veel tühi. See test seisneb selles, et kirjutate üles näidisinfo, kustutate tahtlikult tühja rahakoti ja proovite seejärel taastada selle, kasutades ainult oma mnemoonilise fraasi füüsilist varukoopiat. See võimaldab teil kontrollida, et teie varukoopia on täielik ja ilma sisestusvigadeta. Samuti võimaldab see teil tutvuda taastamisprotsessiga. Nii olete tulevikus taastamise vajaduse korral paremini ette valmistatud ja väldite stressi, mis kaasneb esimese katsega reaalses olukorras. Lisateavet selle testi läbiviimise kohta leiate sellest teisest juhendmaterjalist :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Lõpuks on küsimus varukoopiate arvu kohta. See valik sõltub täielikult teie isiklikust olukorrast. Koopiate arvu piiramine, näiteks kirjutades oma mälulause ainult üks kord andmekandjale, vähendab varguse ohtu, kuid suurendab kaotsimineku riski. Vastupidi, mitme koopia tegemine vähendab kaotusohtu, kuid suurendab vargusohtu. Seega on teie otsustada, milline on teie vajadustele sobiv tasakaal ja milline koopiate arv on teie arvates kõige sobivam.
 
@@ -116,8 +116,8 @@ Lõpuks tõstatab mnemofraaside haldamine ka pärimise küsimuse. Seda teemat k�
 
 Et minna sammu võrra kaugemale ja tugevdada oma turvastrateegiat, soovitan teil õppida oma Bitcoini rahakoti tehnilist toimimist. Kui mõistate, kuidas erinevad elemendid omavahel suhtlevad, samuti nende tähtsust ja mõju, saate oma turvastrateegiat täiustada, olles täielikult teadlik sellega seotud riskidest. Eelkõige, kui mõistate tehnilisel tasandil, mida mnemofraas võimaldab, saate aja jooksul kohandada seda, kuidas te seda salvestate, salvestate ja haldate.
 
-Seepärast kutsun teid osalema tasuta CYP201 koolitusel, mida pakub Plan ₿ Network. See koolituskursus selgitab üksikasjalikult kõiki Bitcoini rahakotide tööpõhimõtteid, võimaldades teil omandada tehnilised aspektid, mis on olulised teie vahendite tõhusaks kaitsmiseks :
+Seepärast kutsun teid osalema tasuta CYP201 koolitusel, mida pakub Plan ₿ Academy. See koolituskursus selgitab üksikasjalikult kõiki Bitcoini rahakotide tööpõhimõtteid, võimaldades teil omandada tehnilised aspektid, mis on olulised teie vahendite tõhusaks kaitsmiseks :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Kui leidsid selle õpetuse kasulikuks, oleksin tänulik, kui jätaksid alla rohelise pöidla. Jaga seda artiklit julgelt oma suhtlusvõrgustikes. Tänan teid väga!

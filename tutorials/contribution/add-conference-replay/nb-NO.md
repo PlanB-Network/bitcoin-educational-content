@@ -1,29 +1,29 @@
 ---
 name: Legge til en konferansegjentakelse
-description: Hvordan legge til en konferansegjentakelse på PlanB Network?
+description: Hvordan legge til en konferansegjentakelse på Plan ₿ Academy?
 ---
 ![konferanse](assets/cover.webp)
 
 PlanBs oppdrag er å tilby førsteklasses utdanningsressurser om Bitcoin på så mange språk som mulig. Alt innhold publisert på nettstedet er åpen kildekode og hostet på GitHub, noe som tillater hvem som helst å bidra til plattformens berikelse.
 
-Ønsker du å legge til gjentakelsen av din Bitcoin-konferanse på PlanB Network-nettstedet og gi synlighet til dette arrangementet, men vet ikke hvordan? Denne veiledningen er for deg!
+Ønsker du å legge til gjentakelsen av din Bitcoin-konferanse på Plan ₿ Academy-nettstedet og gi synlighet til dette arrangementet, men vet ikke hvordan? Denne veiledningen er for deg!
 
 Hvis du derimot ønsker å legge til en konferanse som vil finne sted i fremtiden, anbefaler jeg deg å lese denne andre veiledningen der vi forklarer hvordan du legger til et nytt arrangement på nettstedet.
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![konferanse](assets/01.webp)
 - Først må du ha en konto på GitHub. Hvis du ikke vet hvordan du oppretter en konto, har vi laget en detaljert veiledning for å veilede deg.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) i `resources/conference/`-seksjonen:
 ![konferanse](assets/02.webp)
 - Klikk øverst til høyre på `Add file`-knappen, deretter på `Create new file`:
 ![konferanse](assets/03.webp)
-- Hvis du aldri har bidratt til innholdet på PlanB Network før, må du opprette din egen fork av det originale repositoriet. Å forke et repositorium betyr å lage en kopi av det repositoriet på din egen GitHub-konto, noe som lar deg jobbe på prosjektet uten å påvirke det originale repositoriet. Klikk på `Fork this repository`-knappen:
+- Hvis du aldri har bidratt til innholdet på Plan ₿ Academy før, må du opprette din egen fork av det originale repositoriet. Å forke et repositorium betyr å lage en kopi av det repositoriet på din egen GitHub-konto, noe som lar deg jobbe på prosjektet uten å påvirke det originale repositoriet. Klikk på `Fork this repository`-knappen:
 ![konferanse](assets/04.webp)
 - Du vil da komme til GitHub-redigeringssiden:
 ![konferanse](assets/05.webp)
@@ -69,7 +69,7 @@ tags:
 
 ![konferanse](assets/09.webp)
 Hvis du ennå ikke har en "*project*" identifikator for din organisasjon, kan du legge den til ved å følge denne andre opplæringen.
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Når du har fullført endringene i denne filen, lagre dem ved å klikke på `Commit changes...` knappen:
 ![konferanse](assets/10.webp)
@@ -81,7 +81,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![konferanse](assets/13.webp)
 - Klikk på GitHub profilbildet ditt øverst til høyre, deretter på `Your Repositories`:
 ![konferanse](assets/14.webp)
-- Velg din fork av PlanB Network repositoriet:
+- Velg din fork av Plan ₿ Academy repositoriet:
 ![konferanse](assets/15.webp)
 - Du bør se en notifikasjon øverst i vinduet med din nye branch. Den heter sannsynligvis `patch-1`. Klikk på den:
 ![konferanse](assets/16.webp)
@@ -103,7 +103,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![konferanse](assets/24.webp)
 - Klikk på `Add file` knappen, deretter på `Upload files`:
 ![konferanse](assets/25.webp)
-- En ny side vil åpne seg. Dra og slipp et bilde som representerer din konferanse og som vil bli vist på PlanB Network nettstedet: ![konferanse](assets/26.webp)
+- En ny side vil åpne seg. Dra og slipp et bilde som representerer din konferanse og som vil bli vist på Plan ₿ Academy nettstedet: ![konferanse](assets/26.webp)
 - Det kan være en logo, et miniatyrbilde, eller til og med en plakat:
 ![konferanse](assets/27.webp)
 - Når bildet er lastet opp, sjekk at `Commit directly to the patch-1 branch` boksen er merket av, deretter klikk på `Commit changes`:
@@ -177,7 +177,7 @@ Foredragsholder: Satoshi Nakamoto
 ```
 
 ![conference](assets/37.webp)
-- I begynnelsen av dokumentet ditt, i "front matter", fyll inn `name:`-feltet med navnet på konferansen din og året for opptakene. I `description:`-feltet, skriv en kort beskrivelse av arrangementet ditt på filens språk. For eksempel, for en fil med navn `en.md`, bør beskrivelsen være på engelsk. PlanB Network-teamet vil ta seg av å oversette beskrivelsen din ved hjelp av deres modell.
+- I begynnelsen av dokumentet ditt, i "front matter", fyll inn `name:`-feltet med navnet på konferansen din og året for opptakene. I `description:`-feltet, skriv en kort beskrivelse av arrangementet ditt på filens språk. For eksempel, for en fil med navn `en.md`, bør beskrivelsen være på engelsk. Plan ₿ Academy-teamet vil ta seg av å oversette beskrivelsen din ved hjelp av deres modell.
 - Førstenivåstitler, markert med en `#`, brukes til å organisere konferansen etter scener. For eksempel, `# Hovedscene` for hovedscenen og `# Workshoprom` for en scene dedikert til workshops.
 
 - Andre nivåstitler, markert med dobbelt `##`, brukes til å skille de forskjellige opptaksvideoene. Hvis konferansene ble filmet kontinuerlig over en halv dag, indiker, for eksempel, `## Fredag morgen`. Hvis konferansene ble filmet og kringkastet individuelt, navngi konferansen direkte med en andre nivåstittel.
@@ -203,7 +203,7 @@ Foredragsholder: Satoshi Nakamoto
 ![conference](assets/44.webp)
 - Klikk på `Create pull request`-knappen:
 ![conference](assets/45.webp)
-Gratulerer! Din PR har blitt opprettet. En administrator vil nå gjennomgå den og, hvis alt er i orden, flette den inn i hovedlageret til PlanB Network. Du bør se opptakene av konferansen din dukke opp på nettstedet noen dager senere.
+Gratulerer! Din PR har blitt opprettet. En administrator vil nå gjennomgå den og, hvis alt er i orden, flette den inn i hovedlageret til Plan ₿ Academy. Du bør se opptakene av konferansen din dukke opp på nettstedet noen dager senere.
 
 Vennligst sørg for å følge med på fremgangen til din PR. Det er mulig at en administrator kan legge igjen en kommentar som ber om ytterligere informasjon. Så lenge din PR ikke er validert, kan du se den under `Pull requests`-fanen på PlanB Networks GitHub-repositorium:
 ![conference](assets/46.webp)

@@ -1,0 +1,9 @@
+question: Hva er risikoen hvis en Wallet er avhengig av en tredjepartsnode?
+answer: Risiko for overvåking og sensur
+wrong_answers:
+  - Risiko for automatisk Double-spending
+  - Risiko for å miste private nøkler
+  - Risiko for tap og overvåking
+explanation: |
+  En tredjepartsnode kan analysere eller blokkere transaksjonene dine, eller til og med knytte dataene dine til identiteten din.
+reviewed: true

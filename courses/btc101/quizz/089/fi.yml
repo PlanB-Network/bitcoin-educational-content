@@ -1,9 +1,11 @@
-question: Mikä on riski monimutkaistaa liikaa bitcoinien turvallisuutta ja saavutettavuutta?
-answer: Voit vahingoittaa itseäsi, jos käsittelet varmuuskopio-lompakoita väärin.
+question: Mistä yksityinen avain usein koostuu Bitcoin-lompakossa?
+answer: 12 tai 24 sanan listasta.
 wrong_answers:
-  - Voit vahingoittaa itseäsi, jos käsittelet fyysisiä lompakoita väärin.
-  - Voit vahingoittaa itseäsi, jos käsittelet digitaalisia lompakoita väärin.
-  - Voit vahingoittaa itseäsi, jos käsittelet multisig-lompakoita väärin.
+  - 12 tai 48 sanan listasta.
+  - 32 sanan listasta.
+  - 64 sanan listasta.
 explanation: |
-  Bitcoinien turvallisuuden ja saavutettavuuden liiallinen monimutkaistaminen voi vahingoittaa sinua, esimerkiksi jos käsittelet lompakkojesi varmuuskopioita väärin. Tämä johtuu siitä, että yksinkertaiset varmuuskopiointimenettelyt ovat ratkaisevan tärkeitä varojen uudelleensaamiseksi, jos menetät puhelimesi tai tietokoneesi.
+  Bitcoin-lompakossa yksityinen avain esitetään usein
+  12 tai 24 sanan listana, jota kutsutaan myös siemenlauseeksi
+  tai mnemoniseksi lauseeksi.
 reviewed: true

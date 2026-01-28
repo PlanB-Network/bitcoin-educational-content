@@ -392,7 +392,7 @@ Launching it from the shell by typing `tmux` will open a terminal for you that w
 ## Conclusion
 
 
-JoinMarket is boundless and customizable software. In this guide we have discovered the main functions so that it is possible for anyone (or at least I have tried, I realize that using this software is not a walk in the park) to use it. One of the biggest problems with JoinMarket is just that: the number of people using it and being a maker. If few users take advantage of this software, the overall privacy (anon-set) is lowered. That's why I hope this guide will incentivize use and convince you to download and install my favorite software to make CoinJoin. In case you want to go even deeper into some aspects I recommend you to give a read to the various in-depth docs on github, they are vermanete well done and you can find them here.
+JoinMarket is boundless and customizable software. In this guide we have discovered the main functions so that it is possible for anyone (or at least I have tried, I realize that using this software is not a walk in the park) to use it. One of the biggest problems with JoinMarket is just that: the number of people using it and being a maker. If few users take advantage of this software, the overall privacy (anon-set) is lowered. That's why I hope this guide will incentivize use and convince you to download and install my favorite software to make CoinJoin. In case you want to go even deeper into some aspects I recommend you to give a read to the various in-depth docs on github, they are really well done and you can find them here.
 
 
 Happy mixing turtles!🐢 💚

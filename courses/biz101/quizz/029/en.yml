@@ -5,5 +5,5 @@ wrong_answers:
   - Lightning payments only occur if approved by a central bank’s authority.
   - Lightning payments can be reversed at will by the buyer after the sale.
 explanation: |
-  The Lightning Network makes transactions faster and cheaper by allowing off-chain settlement. Merchants can receive funds almost instantly, with minimal fees, and without relying on traditional payment intermediaries.
-reviewed: false
+  The Lightning Network enables faster and cheaper transactions by facilitating off-chain settlement. Merchants can receive funds almost instantly, with minimal fees, and without relying on traditional payment intermediaries.
+reviewed: true

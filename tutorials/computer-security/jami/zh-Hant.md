@@ -1,5 +1,5 @@
 ---
-name: 賈米
+name: Jami
 description: 自由且保密地分享。
 ---
 
@@ -19,25 +19,26 @@ Jami 是一個免費的開放原始碼點對點通訊程式，歷史悠久，功
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| 應用程式 | E2EE 1:1 | E2EE 群組 | 匿名註冊 | 客戶端開源許可證 | 服務端開源許可證 | 去中心化伺服器 | 創建年份 |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| **Jami**                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (可選) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (可選) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (聯邦式) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (透過電子郵件) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (聯邦式) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (無目錄) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| **Jami** | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = 端對端加密 *
 
@@ -50,11 +51,11 @@ Jami 是一個免費的開放原始碼點對點通訊程式，歷史悠久，功
 
 
 
-- 它是開放原始碼且完全免費**，因此您可以免費使用。
-- 完整實用的功能**：本軟體可讓您利用眾多選項，這要歸功於可從商店輕鬆新增外掛程式。您甚至可以建立自己的擴充套件，讓功能更符合您的需求。
-- 易於使用且 Interface 直覺**：儘管 Jami 提供了許多功能，但它仍然非常容易上手。
-- 強大的安全性**：Jami 整合了先進的加密演算法，在尊重您隱私的同時，保證您通訊的安全性。
-- 高度方便、快速**：即使在頻寬有限的情況下，也能提供簡易的通訊方式，增進使用者的便利性。
+- 它是開放原始碼且完全免費，因此您可以免費使用。
+- **完整實用的功能**：本軟體可讓您利用眾多選項，這要歸功於可從商店輕鬆新增外掛程式。您甚至可以建立自己的擴充套件，讓功能更符合您的需求。
+- 易於使用且 **Interface 直覺**：儘管 Jami 提供了許多功能，但它仍然非常容易上手。
+- **強大的安全性**：Jami 整合了先進的加密演算法，在尊重您隱私的同時，保證您通訊的安全性。
+- 高度方便、快速：即使在頻寬有限的情況下，也能提供簡易的通訊方式，增進使用者的便利性。
 
 
 
@@ -140,7 +141,7 @@ sudo apt install gnupg dirmngr ca-certificates curl --no-install-recommends
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -224,7 +225,7 @@ Jami 安裝到系統後，您可以直接從系統功能表啟動它。
 
 
 
-Jami 不使用**識別碼**，也沒有資料庫可連接到您的帳戶。您的所有資料都直接儲存在您的裝置上。為了連線到您的舊帳號，您需要對您的舊帳號進行**備份。
+Jami 不使用**識別碼**，也沒有資料庫可連接到您的帳戶。您的所有資料都直接儲存在您的裝置上。為了連線到您的舊帳號，您需要對您的舊帳號進行**備份**。
 
 
 
@@ -338,9 +339,9 @@ Jami 也提供**進階功能**給希望進一步設定和使用應用程式的�
 
 
 
-- 建立會合點**：此功能可讓您為通訊建立 ** 會合點**，有助於組織安全的會話或多位使用者之間的交換。
-- 連接至 Jami 伺服器**：您可以將 Jami 連接到**Jami 伺服器**，這樣可以提高通訊效能或可用性，尤其是在專業環境中。
-- 建立SIP帳戶**：您可以設定**SIP 帳戶** (Session Initiation Protocol)，讓您可以將 Jami 整合至現有的電話系統或撥打電話。
+- 建立會合點：此功能可讓您為通訊建立**會合點**，有助於組織安全的會話或多位使用者之間的交換。
+- 連接至 **Jami 伺服器**：您可以將 Jami 連接到 **Jami 伺服器**，這樣可以提高通訊效能或可用性，尤其是在專業環境中。
+- 建立SIP帳戶：您可以設定**SIP 帳戶** (Session Initiation Protocol)，讓您可以將 Jami 整合至現有的電話系統或撥打電話。
 
 
 
@@ -360,4 +361,4 @@ Discover Tox 是一個分散式通訊協定，結合了端對端加密 (E2E)、�
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

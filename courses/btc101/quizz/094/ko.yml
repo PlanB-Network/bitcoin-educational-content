@@ -1,0 +1,11 @@
+question: Wallet을 복원하는 표준 방법은 무엇인가요?
+answer: Mnemonic 소프트웨어에 Wallet 문구를 입력합니다.
+wrong_answers:
+  - Mnemonic 문구를 디지털 파일로 저장합니다.
+  - 화이트보드에 Mnemonic 문구를 적습니다.
+  - 신뢰할 수 있는 친구와 Mnemonic 문구를 공유하세요.
+explanation: |
+  개인 키를 백업하는 표준 방법은
+  Bitcoin Wallet 소프트웨어에 Mnemonic 문구를 입력하는 것입니다
+  Wallet 소프트웨어에 입력하는 것입니다. 이렇게 하면 Wallet을 복원할 수 있습니다.
+reviewed: false

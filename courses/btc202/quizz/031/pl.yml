@@ -1,0 +1,9 @@
+question: Która dystrybucja najlepiej nadaje się do Raspberry Pi, ponieważ jest szczególnie lekka?
+answer: RaspiBlitz
+wrong_answers:
+  - Parasol
+  - MyNode
+  - Start9
+explanation: |
+  RaspiBlitz jest zoptymalizowany pod kątem Raspberry Pi i pozostaje lekki, w przeciwieństwie do Umbrel, który stał się zbyt ciężki dla tych maszyn.
+reviewed: true

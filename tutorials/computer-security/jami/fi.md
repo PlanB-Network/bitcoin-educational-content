@@ -19,25 +19,26 @@ Nykyään Jami on saatavilla monissa järjestelmissä. Se on tunnettu suoritusky
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Sovellus | E2EE 1:1 | E2EE-ryhmät | Anonyymi rekisteröityminen | Avoin lähdekoodi (asiakas) | Avoin lähdekoodi (palvelin) | Hajautettu palvelin | Luomisvuosi |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| **Jami**                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (valinnainen) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (valinnainen) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federoitu) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (sähköpostilla) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federoitu) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (ei hakemistoa) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| **Jami** | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = End-to-end-salaus*
 
@@ -50,11 +51,11 @@ Nykyään Jami on saatavilla monissa järjestelmissä. Se on tunnettu suoritusky
 
 
 
-- Se on avoimen lähdekoodin ja täysin ilmainen**, joten voit käyttää sitä ilmaiseksi.
-- Täydellinen ja täynnä hyödyllisiä ominaisuuksia**: tämän ohjelmiston avulla voit hyödyntää lukuisia vaihtoehtoja, koska voit lisätä liitännäisiä helposti kaupasta. On jopa mahdollista luoda omia laajennuksia, jotta saat ominaisuuksia, jotka sopivat paremmin tarpeisiisi.
-- Helppokäyttöinen ja Interface intuitiivinen**: Jamin monista ominaisuuksista huolimatta sen käyttö on erittäin helppoa.
-- Vahva turvallisuus**: Jami sisältää kehittyneen salausalgoritmin, joka takaa viestinnän turvallisuuden ja kunnioittaa samalla yksityisyyttäsi.
-- Erittäin helppokäyttöinen ja nopea**: se tarjoaa helpon yhteydenpidon myös silloin, kun kaistanleveys on rajoitettu, ja lisää näin käyttäjäystävällisyyttä.
+- Se on avoimen lähdekoodin ja täysin **ilmainen**, joten voit käyttää sitä ilmaiseksi.
+- **Täydellinen ja täynnä hyödyllisiä ominaisuuksia**: tämän ohjelmiston avulla voit hyödyntää lukuisia vaihtoehtoja, koska voit lisätä liitännäisiä helposti kaupasta. On jopa mahdollista luoda omia laajennuksia, jotta saat ominaisuuksia, jotka sopivat paremmin tarpeisiisi.
+- **Helppokäyttöinen ja intuitiivinen käyttöliittymä**: Jamin monista ominaisuuksista huolimatta sen käyttö on erittäin helppoa.
+- **Vahva turvallisuus**: Jami sisältää kehittyneen salausalgoritmin, joka takaa viestinnän turvallisuuden ja kunnioittaa samalla yksityisyyttäsi.
+- **Erittäin helppokäyttöinen ja nopea**: se tarjoaa helpon yhteydenpidon myös silloin, kun kaistanleveys on rajoitettu, ja lisää näin käyttäjäystävällisyyttä.
 
 
 
@@ -82,7 +83,7 @@ Sovellus on saatavilla suoraan App Storesta tai Play Storesta. Etsi se yksinkert
 
 
 
-Jos haluat asentaa Jamin laitteeseesi, sinun on ensin käytävä Jamin virallisilla verkkosivuilla. Oletusarvoisesti sivusto näyttää laitteesi käyttöjärjestelmää vastaavan ohjelmiston, ja voit käynnistää sen suoraan latauspainiketta napsauttamalla. Voit kuitenkin myös ladata Windows-ohjelman suoraan [lataussivulta] (https://jami.net/download-jami-windows/).
+Jos haluat asentaa Jamin laitteeseesi, sinun on ensin käytävä Jamin virallisilla verkkosivuilla. Oletusarvoisesti sivusto näyttää laitteesi käyttöjärjestelmää vastaavan ohjelmiston, ja voit käynnistää sen suoraan latauspainiketta napsauttamalla. Voit kuitenkin myös ladata Windows-ohjelman suoraan [lataussivulta](https://jami.net/download-jami-windows/).
 
 
 
@@ -140,7 +141,7 @@ Tämä komento asentaa työkalut, joita tarvitaan GPG-avainten (gnupg ja dirmngr
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -338,9 +339,9 @@ Jami tarjoaa myös **edistyneempiä ominaisuuksia** käyttäjille, jotka haluava
 
 
 
-- Luo kohtaamispaikka**: Tämä toiminto antaa sinulle mahdollisuuden luoda viestinnällesi **treffipisteen**, joka on hyödyllinen useiden käyttäjien välisten turvallisten istuntojen tai vaihtojen järjestämisessä.
-- Yhdistä Jami-palvelimeen**: Voit liittää Jamin **Jami-palvelimeen**, mikä voi parantaa viestinnän suorituskykyä tai saatavuutta erityisesti ammatillisissa ympäristöissä.
-- Määritä SIP-tili**: Voit perustaa **SIP-tilin** (Session Initiation Protocol), jonka avulla voit integroida Jamin olemassa oleviin puhelinjärjestelmiin tai soittaa puheluita.
+- **Luo kohtaamispaikka**: Tämä toiminto antaa sinulle mahdollisuuden luoda viestinnällesi **treffipisteen**, joka on hyödyllinen useiden käyttäjien välisten turvallisten istuntojen tai vaihtojen järjestämisessä.
+- **Yhdistä Jami-palvelimeen**: Voit liittää Jamin **Jami-palvelimeen**, mikä voi parantaa viestinnän suorituskykyä tai saatavuutta erityisesti ammatillisissa ympäristöissä.
+- **Määritä SIP-tili**: Voit perustaa **SIP-tilin** (Session Initiation Protocol), jonka avulla voit integroida Jamin olemassa oleviin puhelinjärjestelmiin tai soittaa puheluita.
 
 
 
@@ -360,4 +361,4 @@ Discover Tox on hajautettu protokolla, jossa yhdistyvät päästä päähän -sa
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

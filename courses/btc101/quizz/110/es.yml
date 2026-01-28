@@ -1,11 +1,10 @@
-question: ¿Qué es un Blockmit en el contexto de la seguridad de Bitcoin?
-answer: Una solución de bajo costo para grabar tu frase mnemotécnica en una pieza de acero.
+question: ¿Cuándo desapareció Satoshi Nakamoto?
+answer: En 2010
 wrong_answers:
-  - Un tipo de billetera de Bitcoin para firmar múltiples transacciones a la vez.
-  - Una solución de bajo costo para minar bitcoins en casa.
-  - Un tipo de billetera de Bitcoin que requiere múltiples firmas para gastar UTXOs.
+  - En 2008
+  - En 2009
+  - En 2023
 explanation: |
-  El Blockmit es una solución de bajo costo para grabar tu
-  frase mnemotécnica en un material resistente como el acero, asegurando así
-  tus bitcoins a largo plazo.
+  Satoshi Nakamoto desapareció en 2010, dejando su creación
+  en manos de la comunidad.
 reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - An automatic accounting record system for transactions from the PoS
 explanation: |
   The PoS app in the Essential profile enables employees to select items from a pre-set menu, streamlining the billing process.
-reviewed: false
+reviewed: true

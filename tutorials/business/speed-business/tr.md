@@ -1,5 +1,5 @@
 ---
-name: Hız Wallet - PoS
+name: Speed Wallet - POS
 description: Bitcoin ve stablecoin ödemelerini işletmenize kolaylıkla entegre edin
 ---
 ![cover](assets/cover.webp)
@@ -28,25 +28,25 @@ Speed, işletmenizin finansal yönlerini kapsayacak geniş bir özellik yelpazes
 
 
 
-- Çevrimiçi ödeme yapılandırması**: Web siteniz sayesinde müşterilerinizden nerede olurlarsa olsunlar ödeme alın.
+- **Çevrimiçi ödeme yapılandırması**: Web siteniz sayesinde müşterilerinizden nerede olurlarsa olsunlar ödeme alın.
 
 
 
 
 
-- Yerinde ödemeler**: Mağaza içinde nakit tahsilatı yapan mağazalar ve işletmeler için idealdir.
+- **Yerinde ödemeler**: Mağaza içinde nakit tahsilatı yapan mağazalar ve işletmeler için idealdir.
 
 
 
 
 
-- Para Çekme**: Varlıklarınızı sorunsuz bir şekilde çekin ve bitcoinlerinizi müşterilerinize ve maaşlarınıza geri ödemek için kullanın.
+- **Para Çekme**: Varlıklarınızı sorunsuz bir şekilde çekin ve bitcoinlerinizi müşterilerinize ve maaşlarınıza geri ödemek için kullanın.
 
 
 
 
 
-- Diğer platformlarla bağlantı**: Ödemelerinizi yönetmek için harici araçlar mı kullanıyorsunuz? Speed, işinizi yansıtan hepsi bir arada bir ekosistem için bunları platformuna bağlama imkanı sunar.
+- **Diğer platformlarla bağlantı**: Ödemelerinizi yönetmek için harici araçlar mı kullanıyorsunuz? Speed, işinizi yansıtan hepsi bir arada bir ekosistem için bunları platformuna bağlama imkanı sunar.
 
 
 
@@ -94,13 +94,13 @@ Test modunu devre dışı bıraktığınızda, çekilen Wallet'inizi yapılandı
 
 
 
-Henüz bir Bitcoin ve/veya Lightning Wallet sahibi değilseniz, [mobil cüzdanlar] eğitimlerimize göz atmanızı öneririz (https://planb.network/tutorials/Wallet).
+Henüz bir Bitcoin ve/veya Lightning Wallet sahibi değilseniz, [mobil cüzdanlar] eğitimlerimize göz atmanızı öneririz (https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **ÖNEMLI**: Wallet'ünüzü yapılandırırken, Bitcoin'te güvenilir onay sağlamak için binlerce avro gibi büyük miktarlar aldığınızda **BTC (On-Chain)** türünü ve işletmenizde anında mikro ödemeler almak istediğinizde **LN Address** türünü seçin.
 
@@ -130,7 +130,7 @@ Varlıklarınızı çekemeyeceğiniz minimum para çekme tutarını ve minimum b
 
 
 
-Ürünler** bölümüne, mağazanızda sattığınız ürünlerden oluşan kataloğunuzu ekleyin.
+**Ürünler** bölümüne, mağazanızda sattığınız ürünlerden oluşan kataloğunuzu ekleyin.
 
 
 
@@ -166,7 +166,7 @@ Speed Wallet, işletmenizde çevrimiçi veya yerinde ödeme almak için birden f
 
 
 
-Ödemeleri Al > Ödemeler** menüsünde, alınan ödemelerin geçmişini ve durumlarını (ödenmiş, süresi dolmuş, ödenmemiş, iptal edilmiş) bulabilirsiniz.
+Ödemeleri Al > **Ödemeler** menüsünde, alınan ödemelerin geçmişini ve durumlarını (ödenmiş, süresi dolmuş, ödenmemiş, iptal edilmiş) bulabilirsiniz.
 
 
 
@@ -229,7 +229,7 @@ Bu Invoice'i PDF formatında, e-posta ile veya generate'yi taranacak bir QR kodu
 
 
 
-- Ödeme Adresleri** menüsü, farklı tutarlarda birden fazla ödeme alabileceğiniz bir Lightning Address ayarlamanıza olanak tanır.
+- **Ödeme Adresleri** menüsü, farklı tutarlarda birden fazla ödeme alabileceğiniz bir Lightning Address ayarlamanıza olanak tanır.
 
 
 
@@ -259,23 +259,23 @@ Speed business sadece işletmeniz için ödeme toplamakla kalmaz, işletmenizin 
 
 
 
-Ödemeleri Gönder** menüsünde, speed'in sunduğu tüm para transferi seçeneklerini bulabilirsiniz.
+**Ödemeleri Gönder** menüsünde, speed'in sunduğu tüm para transferi seçeneklerini bulabilirsiniz.
 
 
 
 
 
-- Anında ödemeler**: Anında Gönder seçeneği ile satıcı hesabınızdan anında güvenli bir şekilde bitcoin gönderin.
+- **Anında ödemeler**: Anında Gönder seçeneği ile satıcı hesabınızdan anında güvenli bir şekilde bitcoin gönderin.
 
 
 
 
 
-- generate para çekme bağlantıları**, ortaklarınızın ve tedarikçilerinizin çevrimiçi varlığınıza ihtiyaç duymadan ödemelerine daha sonraki bir tarihte erişmelerini sağlar.
+- generate para çekme bağlantıları, ortaklarınızın ve tedarikçilerinizin çevrimiçi varlığınıza ihtiyaç duymadan ödemelerine daha sonraki bir tarihte erişmelerini sağlar.
 
 
 
-Para Çekme Bağlantıları** seçeneğinde, yeni bir para çekme bağlantısı oluşturun, ardından para birimini, tutarı ve alıcınızın işlemini güvence altına almak için bir şifre tanımlayarak yapılandırın.
+**Para Çekme Bağlantıları** seçeneğinde, yeni bir para çekme bağlantısı oluşturun, ardından para birimini, tutarı ve alıcınızın işlemini güvence altına almak için bir şifre tanımlayarak yapılandırın.
 
 
 
@@ -289,7 +289,7 @@ Para Çekme Bağlantıları** seçeneğinde, yeni bir para çekme bağlantısı 
 
 
 
-- Ödemeler**: Ödemeler menüsünde, Speed Business bakiyenizden kişisel Wallet'inize para çekme işlemlerini başlatın.
+- **Ödemeler**: Ödemeler menüsünde, Speed Business bakiyenizden kişisel Wallet'inize para çekme işlemlerini başlatın.
 
 
 
@@ -299,7 +299,7 @@ Para Çekme Bağlantıları** seçeneğinde, yeni bir para çekme bağlantısı 
 
 
 
-- İndirimler**: Bonus kazanmak için indirim seçenekleri oluşturarak düzenli müşterilerinizi teşvik edin.
+- **İndirimler**: Bonus kazanmak için indirim seçenekleri oluşturarak düzenli müşterilerinizi teşvik edin.
 
 
 
@@ -315,7 +315,7 @@ Speed Business, tek bir sistem üzerinde ayrı cüzdanlar tutmanıza olanak tan�
 
 
 
-Bakiyeler** seçeneğinde, Bitcoin, USDT ve USDC cüzdanlarınızın bakiyesini bulun.
+**Bakiyeler** seçeneğinde, Bitcoin, USDT ve USDC cüzdanlarınızın bakiyesini bulun.
 
 
 
@@ -331,7 +331,7 @@ Speed Wallet gibi, **Swap** menüsünde Speed Business, Exchange para birimlerin
 
 
 
-Transfer** menüsünde, diğer tüccarlarla iletişim kurun ve Speed ID'lerini kullanarak bitcoinleri kolayca transfer edin.
+**Transfer** menüsünde, diğer tüccarlarla iletişim kurun ve Speed ID'lerini kullanarak bitcoinleri kolayca transfer edin.
 
 
 
@@ -339,7 +339,7 @@ Transfer** menüsünde, diğer tüccarlarla iletişim kurun ve Speed ID'lerini k
 
 
 
-Müşteriler** menüsünde, müşterilerinizin (bireyler veya şirketler) listesini kaydedebilir ve bu listeye başvurabilirsiniz.
+**Müşteriler** menüsünde, müşterilerinizin (bireyler veya şirketler) listesini kaydedebilir ve bu listeye başvurabilirsiniz.
 
 
 
@@ -351,7 +351,7 @@ Speed'in ortaklık programına katılarak ödüller kazanın.
 
 
 
-Ortaklar** menüsünde, satıcıları işlerini Speed business üzerinde kurmaya ve pasif gelir elde etmeye davet edin.
+**Ortaklar** menüsünde, satıcıları işlerini Speed business üzerinde kurmaya ve pasif gelir elde etmeye davet edin.
 
 
 
@@ -367,11 +367,11 @@ Speed Business, ödeme çözümünü kendi web sitenize entegre etmenizi sağlay
 
 
 
-Geliştiriciler** menüsünde, Speed Wallet API yöntemlerini kullanmak için genel ve özel anahtarlarınızı oluşturun.
+**Geliştiriciler** menüsünde, Speed Wallet API yöntemlerini kullanmak için genel ve özel anahtarlarınızı oluşturun.
 
 
 
-Speed Business'ın daha iyi entegrasyonu için [belgelerin] (https://apidocs.tryspeed.com/reference/introduction) tamamını bulun.
+Speed Business'ın daha iyi entegrasyonu için [belgelerin](https://apidocs.tryspeed.com/reference/introduction) tamamını bulun.
 
 
 
@@ -383,11 +383,11 @@ Speed Business'ın daha iyi entegrasyonu için [belgelerin] (https://apidocs.try
 
 
 
-Ayarlar** menüsünde, satıcı profilinizi ve işletme bilgilerinizi yapılandırabilirsiniz.
+**Ayarlar** menüsünde, satıcı profilinizi ve işletme bilgilerinizi yapılandırabilirsiniz.
 
 
 
-İşletme Ayarları** bölümünde:
+**İşletme Ayarları** bölümünde:
 
 
 
@@ -435,4 +435,4 @@ Speed'i iyi bir şekilde kavradınız, Bitcoin'ü işinize entegre edin ve Bitco
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

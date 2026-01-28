@@ -1,9 +1,11 @@
-question: V kterém roce se předpokládá, že dojde k ukončení tvoření bitcoinů?
-answer: 2140
+question: Co je soukromý klíč v Bitcoinové peněžence?
+answer: Tajný klíč, který vám umožňuje podepisovat vaše transakce.
 wrong_answers:
-  - 2050
-  - 2030
-  - 2200
-explanation: |
-  Díky mechanismu halvingu lze matematicky předpovědět, že tvoření bitcoinů skončí v roce 2140, kdy celkový počet bitcoinů dosáhne svého limitu 21 milionů.
+  - Veřejný klíč používaný k generování Bitcoinových adres.
+  - Tajný seznam slov pro zničení peněženky v případě potřeby.
+  - Tajný klíč k šifrování Bitcoinových transakcí.
+explanation: >-
+  Při inicializaci Bitcoinové peněženky je generován tajný seznam slov, nazývaný mnemonické semínko. 
+  Tento seznam pro obnovu je velmi důležitý, protože představuje vlastnictví
+  Bitcoinů a tedy právo je odesílat.
 reviewed: true

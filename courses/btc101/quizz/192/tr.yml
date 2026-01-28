@@ -1,8 +1,13 @@
-question: OpenNode nedir?
-answer: İşletmelerin Bitcoin kabul etmesi için basit bir çevrimiçi çözüm.
+question: Dolar Maliyet Ortalaması Nedir?
+answer: Düzenli aralıklarla küçük miktarlarda Bitcoin satın almak.
 wrong_answers:
-  - Birçok kullanıcı tarafından aynı anda kullanılan bir tür Bitcoin düğümü.
-  - Açık kaynaklı bir Bitcoin Mining yazılımı.
-  - Bir Bitcoin Exchange platformu.
-explanation: >-
+  - Tek seferde büyük miktarda Bitcoin satın almak.
+  - Bitcoin'yi sadece fiyatı düştüğünde satın alıyorum.
+  - Bitcoin'ü sadece fiyat yükseldiğinde satın almak.
+explanation: |
+  Ders metninde Dolar Maliyet Ortalamasının
+  tekniği, küçük miktarlarda Bitcoin satın almayı içerir
+  düzenli aralıklarla. Bu yöntem fiyatı dengeliyor
+  zaman içindeki dalgalanmalar ve sürekli büyüme sağlar
+  sahip olunan Bitcoin miktarı.
 reviewed: true

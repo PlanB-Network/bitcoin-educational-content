@@ -1,0 +1,9 @@
+question: 다음 중 Bitcoin 회계 솔루션이 아닌 소프트웨어는 무엇인가요?
+answer: Sparrow
+wrong_answers:
+  - 코인트래커
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow는 Bitcoin 회계 솔루션이 아닌 반면, 다른 솔루션은 Wallet 소프트웨어입니다.
+reviewed: true

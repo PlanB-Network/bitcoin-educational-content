@@ -1,12 +1,12 @@
-question: Cypherpunklar kim?
-answer: Dijital çağda mahremiyet ve özgürlüğün rolünü derinlemesine sorgulamaya başlayan bir grup insan.
+question: Paranın üç kanonik işlevi nedir?
+answer: Değer deposu, Exchange aracı, Hesap birimi.
 wrong_answers:
-  - Hükümetlerden bilgi çalan bir grup bilgisayar korsanı.
-  - Bitcoin ve diğer kripto para birimlerini icat eden bir grup insan.
-  - Teknoloji kullanımına karşı çıkan bir grup insan.
+  - Değer deposu, Exchange aracı, Üretim aracı.
+  - Değer deposu, Üretim aracı, Hesap birimi.
+  - Exchange aracı, Üretim araçları, Hesap birimi.
 explanation: |
-  Cypherpunk'lar, bir grup insanın
-  kriptografinin bir koruma aracı olarak hizmet edebileceğini
-  hükümetlerin müdahalesine karşı bireysel haklar
-  ve büyük şirketler.
+  Aristoteles'e göre para üç işleve hizmet eder
+  bir değer deposu, bir Exchange aracı ve bir birim
+  hesap. Günümüzde, Exchange işlevinin aracı
+  diğer ikisinden önce ana olarak kabul edilmektedir.
 reviewed: true

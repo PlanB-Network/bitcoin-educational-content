@@ -1,0 +1,10 @@
+question: UTXO를 통합할 때 COIH의 영향을 최소화하려면 어떻게 해야 할까요?
+answer: 동일한 소스의 UTXO만 통합하면 됩니다.
+wrong_answers:
+  - 타사 주소로 UTXO를 전송합니다.
+  - 인식 가능한 패턴을 피하기 위해 UTXO를 무작위로 선택합니다.
+  - 활동이 적은 기간 동안 UTXO를 통합합니다.
+explanation: |
+  비트코인을 통합해야 하는 경우, 동일한 출처의 UTXO를 먼저 통합하는 것을 우선시하세요.
+  
+reviewed: true

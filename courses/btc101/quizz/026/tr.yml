@@ -1,13 +1,10 @@
-question: Küreselleşmiş ve dijital bir dünyada altın neden iyi performans gösteremiyor?
-answer: Çünkü bölünebilir ve kolayca değiştirilebilir olması için merkezi bir varlığa ihtiyacı vardır.
+question: Bitcoin neden yeni bir para biçimi olarak kabul ediliyor?
+answer: Çünkü merkezi bir varlığı olmayan dijital bir paradır.
 wrong_answers:
-  - Çünkü yeterince değerli değil.
-  - Çünkü yeterince nadir değil.
-  - Çünkü zamanla aşınıyor.
+  - Çünkü altınla desteklenen dijital bir para birimidir.
+  - Çünkü banka Blockchain'i gerektiren bir para birimidir.
+  - Çünkü Federal Rezerv öyle diyor.
 explanation: |
-  Altın küreselleşen ve dijitalleşen dünyaya ayak uyduramıyor
-  çünkü bölünebilir olması için merkezi bir varlığa ihtiyaç duyar ve
-  kolayca değiştirilebilir. Bu da onu şu alanlarda kullanmayı daha az pratik hale getirir
-  işlemlerin giderek dijitalleştiği bir dünya ve
-  merkezi olmayan.
+  Bitcoin, ortaya çıktığı şekliyle yeni bir para biçimi olarak görülebilir
+  merkezi bir varlık olmadan eşler arası bir ağdan.
 reviewed: true

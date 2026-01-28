@@ -1,10 +1,12 @@
-question: Wat is het Cypherpunk Manifest?
-answer: Een tekst geschreven door Eric Hughes waarin hij beweert dat privacy een grondrecht is.
+question: Wat zijn de belangrijkste kenmerken van een effectieve valuta?
+answer: Fungibel, Deelbaar, Liquid.
 wrong_answers:
-  - Een boek geschreven door Julian Assange over de toekomst van technologie.
-  - Een document waarin de principes van Bitcoin worden beschreven.
-  - Een manifest geschreven door David Chaum over het belang van digitale valuta.
+  - Vruchtbaar, Deelbaar, Bederfelijk.
+  - Fungibel, Ondeelbaar, Liquid.
+  - Niet ontvlambaar, Deelbaar, Liquid.
 explanation: |
-  Het Cypherpunk Manifest werd in 1993 geschreven door Eric Hughes
-  en stelt dat privacy een grondrecht is.
+  Een effectieve munteenheid moet fungibel (uitwisselbaar
+  zonder waardeverlies), deelbaar (scheidbaar in kleine
+  delen om transacties van verschillende volumes te vergemakkelijken), en
+  Liquid (gemakkelijk converteerbaar in goederen of diensten).
 reviewed: true

@@ -1,0 +1,9 @@
+question: Apa yang terjadi jika sebuah blok melanggar aturan konsensus?
+answer: Ini segera ditolak oleh node
+wrong_answers:
+  - Ini disimpan dalam Mempool menunggu validasi
+  - Ini hanya diteruskan oleh node yang menerima aturan lain
+  - Ini hanya divalidasi oleh dompet
+explanation: |
+  Node secara sistematis menolak setiap blok yang tidak sesuai dengan aturan konsensus.
+reviewed: true

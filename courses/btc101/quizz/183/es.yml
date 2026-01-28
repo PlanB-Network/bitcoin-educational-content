@@ -1,10 +1,9 @@
-question: ¿Cuál es una razón por la cual el precio del Bitcoin puede caer un 10%, 20% o incluso un 50% en solo unos días?
-answer: Fases de mercado alcistas y bajistas.
+question: ¿Qué es la AMF?
+answer: Autorité des Marchés Financiers.
 wrong_answers:
-  - El número de personas que usan internet.
-  - El clima.
-  - El precio del oro.
-explanation: >-
-  El precio del Bitcoin se caracteriza a menudo por una volatilidad significativa,
-  la cual puede ser influenciada por variaciones del mercado y por fases de mercado alcistas y bajistas.
+  - Fondo Monetario Americano.
+  - Asociación de Instalaciones Mineras.
+  - Flujo Automatizado de Dinero.
+explanation: |
+  La AMF, o Autorité des Marchés Financiers, es una organización francesa que regula plataformas donde se pueden comprar bitcoins.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Prema Hajekovoj teoriji disperzovanog znanja, centralno planiranje je suštinski manjkavo kao mehanizam ekonomske koordinacije zato što nijedna centralna vlast ne može prikupiti i obraditi sve informacije potrebne za donošenje efikasnih ekonomskih odluka. Znanje je raspršeno među pojedincima i lokalnim zajednicama, i samo kroz decentralizovane tržišne procese može biti adekvatno iskorišćeno.
+answer: Znanje postoji samo kao raspršeni fragmenti među pojedincima, što onemogućava centralnim planerima pristup kompletnim informacijama potrebnim za efikasnu koordinaciju.
+wrong_answers:
+  - Centralni planeri nemaju moralni autoritet da donose odluke za druge, čak i kada poseduju potpune informacije o tržištu.
+  - Politička korupcija i lični interesi sprečavaju centralne planere da sprovedu ekonomski optimalna rešenja uprkos tome što imaju pristup svim potrebnim podacima
+  - Centralno planiranje zahteva previše računarske snage i tehnologije koja nije bila dostupna u Hayekovo vreme, ali bi mogla funkcionisati danas.
+explanation: |
+  Hayekova kritika centralnog planiranja je epistemološka, a ne moralna ili tehnološka. Tvrdio je da znanje nikada ne postoji u koncentrisanom obliku, već samo kao 'raspršeni fragmenti nepotpunog i često kontradiktornog znanja koje poseduju svi različiti pojedinci.' Ovaj problem raspršenog znanja znači da centralni planeri ne mogu pristupiti subjektivnim troškovima, koristima i lokalnim preferencijama koje poseduju samo pojedinci, što čini efikasnu ekonomsku koordinaciju nemogućom bez obzira na njihove namere ili računarske sposobnosti.

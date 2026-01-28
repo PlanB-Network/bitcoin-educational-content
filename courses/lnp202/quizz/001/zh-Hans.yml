@@ -1,0 +1,9 @@
+question: 什么机制可以防止释放旧的闪电通道状态？
+answer: 撤销密钥
+wrong_answers:
+  - 交易费
+  - 绝对计时器
+  - 网络八卦
+explanation: |
+  撤销密钥用于惩罚试图发布旧通道状态的节点。
+reviewed: false

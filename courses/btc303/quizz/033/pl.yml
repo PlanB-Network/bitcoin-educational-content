@@ -1,0 +1,9 @@
+question: Jaki będzie przybliżony rok, w którym dotacja blokowa Bitcoin osiągnie zero zgodnie z BIP42?
+answer: 2140
+wrong_answers:
+  - 2100
+  - 2064
+  - 2160
+explanation: |
+  Zgodnie z rozdziałem, BIP42 naprawił bardzo długoterminowy błąd inflacji i zapewnia, że dotacja blokowa osiągnie zero około roku 2140. Wtedy to Bitcoin przejdzie z systemu nagród opartego na dotacjach na system oparty wyłącznie na opłatach, zasadniczo zmieniając sposób pokrywania kosztów bezpieczeństwa sieci z posiadaczy płacących poprzez inflację na wydawców płacących poprzez opłaty transakcyjne.
+reviewed: false

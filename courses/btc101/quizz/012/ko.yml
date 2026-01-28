@@ -1,0 +1,12 @@
+question: 화폐의 세 가지 정설적인 기능은 무엇인가요?
+answer: 가치 저장소, Exchange의 매체, 계정 단위.
+wrong_answers:
+  - 가치 저장소, Exchange의 매체, 생산 수단.
+  - 가치 저장소, 생산 수단, 계정 단위.
+  - Exchange의 매체, 생산 수단, 계정 단위.
+explanation: |
+  아리스토텔레스에 따르면 화폐는 다음과 같은 세 가지 기능을 수행합니다
+  가치 저장 수단, Exchange의 매개체, 그리고
+  계정. 오늘날에는 Exchange의 매개체 기능이
+  다른 두 가지 기능에 앞서 주요 기능으로 널리 인식되고 있습니다.
+reviewed: true

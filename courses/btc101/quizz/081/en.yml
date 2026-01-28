@@ -1,12 +1,12 @@
-question: What is the central question to ask yourself when choosing a Bitcoin wallet, in terms of self custody?
-answer: Are you the owner of the funds or do you leave control of your money to a third party?
+question: What is the main risk of using a custodial service to store your bitcoins?
+answer: The trusted third party can restrict your access to your funds at any time.
 wrong_answers:
-  - Is the wallet secured with a passphrase?
-  - Does the wallet allow receiving and sending bitcoins?
-  - Can I share my wallet with another person? 
-explanation: |
-  When choosing a Bitcoin wallet, the central question is:
-  are you the owner of the funds or do you leave control of
-  your money to a third party? This is because the holder of
-  the private key is the owner of the Bitcoins.
+  - The trusted third party can increase the value of your bitcoins at any time.
+  - The trusted third party can decrease the value of your bitcoins at any time.
+  - The trusted third party can't duplicate your bitcoins at any time.
+explanation: >-
+  When you use a custodial service to store your bitcoins, you are not
+  the sole holder of your bitcoins. This means that the trusted third party can restrict
+  your access to your funds at any time, giving you the same level of financial sovereignty
+  as the traditional banking system.
 reviewed: true

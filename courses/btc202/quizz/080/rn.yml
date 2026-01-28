@@ -1,0 +1,9 @@
+question: Ni agaciro akahe k'umurongo w'amahuza maxconnections muri Bitcoin core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections igabanya umubare wose w'amahuza yinjira n'asohoka. Agaciro mburabuzi ni 125.
+reviewed: true

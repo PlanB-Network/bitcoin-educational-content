@@ -1,5 +1,5 @@
 ---
-name: Proste logowanie
+name: Simple Login
 description: Tożsamość chroniona aliasami
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Używając osobistego adresu e-mail Address do każdego logowania, łatwo wyobra
 Deweloperzy narzędzi open-source stworzyli serię pakietów aplikacji, stworzonych właśnie po to, aby użytkownicy odzyskali odrobinę prywatności: nadal będą się logować, ale używając aliasu zamiast narzędzia, które ujawnia ich prywatną tożsamość.
 
 
-Najprostszym z tych, które osobiście wypróbowałem i wciąż testuję, jest [Simple Login](https://simplelogin.io/).
+Najprostszy, spośród tych, które osobiście wypróbowałem i które wciąż testuję, to właśnie [Simple Login](https://simplelogin.io/).
 
 
 ## Alias
@@ -190,7 +190,7 @@ Rezultat jest jednak taki, że zachowaliśmy główny Address, który od momentu
 Pseudonim działa zarówno w przypadku odbierania, jak i wysyłania: inny użytkownik rzeczywiście otrzyma odpowiedź od alias.preoccupy789@8shield.net, jeśli jest to pseudonim wybrany dla tego konkretnego odbiorcy.
 
 
-## Plusy
+## Zalety
 
 
 Ogólnie rzecz biorąc, korzystanie z aliasów jest skutecznym sposobem ochrony tożsamości i prywatności. Adresy e-mail są często gromadzone przez brokerów danych i strony internetowe w celu śledzenia nawyków i zachowań użytkowników. Chociaż alias nie czyni cię całkowicie niemożliwym do wyśledzenia, konsekwentne korzystanie z niego jest pozytywnym krokiem w kierunku ochrony twoich informacji. Co więcej, w naszej "globalnej cyfrowej wiosce", w której hakowanie, sprzedaż danych i naruszenia bezpieczeństwa są zbyt powszechne, jest wysoce prawdopodobne, że adres e-mail używany do rejestracji na różnych stronach internetowych został już naruszony lub stał się celem ataku.

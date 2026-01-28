@@ -1,5 +1,5 @@
 ---
-name: गति Wallet
+name: Speed Wallet
 description: बिटकॉइन और USDT में तुरंत Exchange का भुगतान करें
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ description: बिटकॉइन और USDT में तुरंत Exchang
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## स्पीड Wallet के साथ शुरुआत करना
 
@@ -79,7 +79,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ऐसा करने के लिए, एप्लिकेशन सेटिंग्स पर जाएं, फिर दोहरी प्रमाणीकरण और बायोमेट्रिक सत्यापन सक्रिय करें।
 
@@ -143,7 +143,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- स्पीड Wallet पर भुगतान प्राप्त करना:**
+- **स्पीड Wallet पर भुगतान प्राप्त करना:**
 
 
 
@@ -161,7 +161,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- स्पीड Wallet** के साथ बिटकॉइन भेजें:
+- **स्पीड Wallet** के साथ बिटकॉइन भेजें:
 
 
 
@@ -191,7 +191,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- अपने क्रेडिट कार्ड से Bitcoin खरीदें**: स्पीड Wallet आपके द्वारा प्रतिदिन उपयोग की जाने वाली फिएट मुद्राओं से Bitcoin प्राप्त करना आसान बनाता है। इसमें एक भुगतान एग्रीगेटर शामिल है जो आपको अपने क्रेडिट कार्ड से बिटकॉइन का भुगतान करने की अनुमति देता है।
+- **अपने क्रेडिट कार्ड से Bitcoin खरीदें**: स्पीड Wallet आपके द्वारा प्रतिदिन उपयोग की जाने वाली फिएट मुद्राओं से Bitcoin प्राप्त करना आसान बनाता है। इसमें एक भुगतान एग्रीगेटर शामिल है जो आपको अपने क्रेडिट कार्ड से बिटकॉइन का भुगतान करने की अनुमति देता है।
 
 
 
@@ -201,13 +201,13 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- अन्य क्रिप्टोकरेंसी से Bitcoin खरीदें**: आप अपने Wallet में बिटकॉइन के लिए अपने USDT, USDC को Exchange कर सकते हैं और इसके विपरीत। इस विकल्प के माध्यम से, स्पीड Wallet बाहरी Exchange प्लेटफ़ॉर्म का संदर्भ लिए बिना Bitcoin खरीदने और बेचने की प्रक्रिया को सरल बनाता है। तो आप अपने स्पीड Wallet को छोड़े बिना, मौजूदा दर पर लगभग $20, 20,000 सतोशी के लिए व्यापार कर सकते हैं।
+- **अन्य क्रिप्टोकरेंसी से Bitcoin खरीदें**: आप अपने Wallet में बिटकॉइन के लिए अपने USDT, USDC को Exchange कर सकते हैं और इसके विपरीत। इस विकल्प के माध्यम से, स्पीड Wallet बाहरी Exchange प्लेटफ़ॉर्म का संदर्भ लिए बिना Bitcoin खरीदने और बेचने की प्रक्रिया को सरल बनाता है। तो आप अपने स्पीड Wallet को छोड़े बिना, मौजूदा दर पर लगभग $20, 20,000 सतोशी के लिए व्यापार कर सकते हैं।
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## पुरस्कार अर्जित करें
 
@@ -327,7 +327,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## स्पीड Wallet सिर्फ मोबाइल के लिए नहीं है!
 
@@ -375,25 +375,25 @@ https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-- ऑनलाइन भुगतान**: इस विकल्प के साथ, आप भुगतान लिंक, चालान और सदस्यता के माध्यम से अपने डिजिटल उत्पादों के लिए भुगतान के साधन के रूप में Bitcoin को स्वीकार कर सकते हैं।
+- **ऑनलाइन भुगतान**: इस विकल्प के साथ, आप भुगतान लिंक, चालान और सदस्यता के माध्यम से अपने डिजिटल उत्पादों के लिए भुगतान के साधन के रूप में Bitcoin को स्वीकार कर सकते हैं।
 
 
 
 
 
-- ऑन-साइट भुगतान**: अपने स्टोर में भुगतान एकत्र करने के लिए।
+- **ऑन-साइट भुगतान**: अपने स्टोर में भुगतान एकत्र करने के लिए।
 
 
 
 
 
-- त्वरित भुगतान**: एक विकल्प जो आपको स्पीड बिजनेस Interface से सीधे प्रतिपूर्ति, निकासी, व्यय और कर्मचारी वेतन पर्चियों का प्रबंधन करने देता है।
+- **त्वरित भुगतान**: एक विकल्प जो आपको स्पीड बिजनेस Interface से सीधे प्रतिपूर्ति, निकासी, व्यय और कर्मचारी वेतन पर्चियों का प्रबंधन करने देता है।
 
 
 
 
 
-- प्लेटफ़ॉर्म भुगतान**: अपने स्पीड बिजनेस खाते को उन बाहरी उपकरणों से कनेक्ट करें जिनका उपयोग आप इन प्लेटफ़ॉर्म पर स्थानान्तरण और भुगतान करने के लिए करते हैं।
+- **प्लेटफ़ॉर्म भुगतान**: अपने स्पीड बिजनेस खाते को उन बाहरी उपकरणों से कनेक्ट करें जिनका उपयोग आप इन प्लेटफ़ॉर्म पर स्थानान्तरण और भुगतान करने के लिए करते हैं।
 
 
 
@@ -401,4 +401,4 @@ https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

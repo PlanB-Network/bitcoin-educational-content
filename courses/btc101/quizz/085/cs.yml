@@ -1,13 +1,13 @@
-question: Co je hot wallet?
-answer: Bitcoinová peněženka ve vašem telefonu nebo počítači připojená k internetu.
+question: Jaké je doporučené využití multisig peněženky?
+answer: Uchovávání velkých částek pro firemní použití.
 wrong_answers:
-  - Peněženka, která je fyzicky horká na dotek.
-  - Peněženka, která je populární mezi uživateli Bitcoinu.
-  - Peněženka, která je doporučena pro ukládání velkých množství bitcoinů.
+  - Uchovávání malých částek pro osobní použití.
+  - Uchovávání středních částek pro neziskové použití.
+  - Uchovávání denních výdajů pro individuální použití.
 explanation: |
-  Hot wallet je termín používaný pro popis Bitcoinové peněženky
-  uložené na zařízení s přístupem k internetu, jako je
-  telefon nebo počítač. Tímto způsobem je snadné provádět
-  transakce, ale také to znamená, že peněženka je
-  potenciálně zranitelná vůči online hrozbám.
+  Multisig peněženka je doporučena pro uchovávání velkých částek
+  a pro firemní využití, protože vyžaduje více
+  podpisů pro provedení transakce. Tento proces přidává
+  další vrstvu zabezpečení, protože jednotlivec nemůže
+  provést transakci bez schválení ostatních.
 reviewed: true

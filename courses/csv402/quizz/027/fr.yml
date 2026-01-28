@@ -5,5 +5,5 @@ wrong_answers:
   - L’implémentation d’une interface
   - Le prototypage de méthodes
 explanation: |
-  Le Schema correspond à la définition d’une classe en OOP, qui décrit les propriétés, méthodes et règles de la logique métier.
+  Le Schema correspond à la définition d’une classe en OOP, qui décrit les propriétés, méthodes et règles de la logique métier (business logic).
 reviewed: false

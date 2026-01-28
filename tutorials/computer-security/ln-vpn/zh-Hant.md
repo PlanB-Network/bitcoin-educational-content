@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: 設定您的 VPN
+description: 使用 Lightning 配置 LN VPN，以實現匿名和按需的 VPN
 ---
 
 ![image](assets/cover.webp)
@@ -10,7 +10,7 @@ description: 設定您的 VPN
 LN VPN 是一款只接受閃電付款的客製化 VPN 服務。今天，我將教您如何使用它，並在瀏覽網際網路時減少留下痕跡。
 
 
-有許多優質的 VPN 服務供應商，我們已在本文（超連結）中進行了全面的評論。然而，LN VPN 脫穎而出，我們不能錯過向您介紹它的機會。
+有許多優質的 VPN 服務供應商，但 LN VPN 脫穎而出，我們不能錯過向您介紹它的機會。
 
 
 大多數 VPN 服務供應商，如 ProtonVPN 和 Mullvad，都提供使用 bitcoins 付款的選項，但需要建立帳號並購買較長或較短期限的方案，這可能不符合每個人的預算。
@@ -19,7 +19,7 @@ LN VPN 是一款只接受閃電付款的客製化 VPN 服務。今天，我將�
 LN VPN 透過 Lightning Network 實作 Bitcoin 付款，可在短至一小時內按需使用 VPN。即時和匿名的閃電付款為微額付款開啟了一片天地。
 
 
-注意💡： **本指南說明如何從 Linux Ubuntu 22.04 LTS 系統使用 LN VPN。
+注意💡： **本指南說明如何從 Linux Ubuntu 22.04 LTS 系統使用 LN VPN。**
 
 
 ## 先決條件：護線器

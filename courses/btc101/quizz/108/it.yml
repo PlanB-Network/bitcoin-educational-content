@@ -1,11 +1,11 @@
-question: Qual è lo scopo di un wallet Bitcoin?
-answer: Conservare le chiavi private per effettuare transazioni Bitcoin.
+question: Chi è stata la prima persona ad unirsi alla rete Bitcoin dopo Satoshi Nakamoto?
+answer: Hal Finney.
 wrong_answers:
-  - Utilizzare le risorse del dispositivo per minare bitcoin.
-  - Acquistare bitcoin tramite la chiave pubblica.
-  - Conservare i bitcoin su un dispositivo.
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  I wallet Bitcoin sono un tipo di software utilizzato per
-  conservare le chiavi private, le quali permettono di effettuare transazioni
-  Bitcoin.
-reviewed: true
+  Hal Finney è stata la prima persona ad unirsi alla rete Bitcoin
+  dopo lo stesso Satoshi Nakamoto. Ha persino twittato Running
+  Bitcoin per segnare l'occasione.
+reviewed: vero

@@ -1,12 +1,11 @@
-question: What is a valid hash in the context of block mining in the Bitcoin network?
-answer: A unique fingerprint associated with the block, composed of 256 characters.
+question: What is the cost of running a Bitcoin node on a Raspberry Pi 4 in terms of electricity consumption per year (as of 2023)?
+answer: A little less than 10€ per year.
 wrong_answers:
-  - A unique code used to access the block.
-  - A unique password required to mine the block.
-  - A unique identifier for the miner who mined the block.
+  - A little more than 50€ per year.
+  - A little less than 100€ per year.
+  - About 200€ per year.
 explanation: |
-  In the context of block mining in the Bitcoin network, a
-  valid hash is a unique fingerprint associated with the
-  block, composed of 256 characters. The validity of this
-  hash depends on the difficulty of the Bitcoin network.
+  Running a Bitcoin node on a Raspberry Pi 4 costs a little
+  less than 10€ per year in terms of electricity consumption
+  as of 2023.
 reviewed: true

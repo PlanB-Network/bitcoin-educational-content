@@ -62,10 +62,10 @@ Du måste konfigurera en bucket och ange följande information:
 
 
 
-- S3_BUCKET**: namn på skopan
-- S3_ENDPOINT_URL**: länk till din S3-tjänst
-- S3_KEY_ID** och S3_KEY_SECRET: dina åtkomstkoder
-- S3_REGION**: regionen för din S3-tjänst
+- **S3_BUCKET**: namn på skopan
+- **S3_ENDPOINT_URL**: länk till din S3-tjänst
+- **S3_KEY_ID** och **S3_KEY_SECRET**: dina åtkomstkoder
+- **S3_REGION**: regionen för din S3-tjänst
 
 
 
@@ -94,8 +94,8 @@ Du kommer att behöva följande variabler:
 
 
 
-- MONGODB_URL**: databasanslutning Address
-- MONGODB_DB**: databasens namn
+- **MONGODB_URL**: databasanslutning Address
+- **MONGODB_DB**: databasens namn
 
 
 
@@ -115,7 +115,7 @@ Vissa resurser (t.ex. stora bilder) hanteras via Git LFS (Large File Storage). S
 
 
 
-**En teknisk guide till programvarudistribution finns tillgänglig i en separat handledning.
+**En teknisk guide till programvarudistribution finns tillgänglig i en separat handledning.**
 
 
 
@@ -255,12 +255,13 @@ med be-BOP kan du ta emot Bitcoin-betalningar direkt på Blockchain (On-Chain), 
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Fält                  | Beskrivning                                               | Exempel att Använda                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Typen av adressering som används                               | BIP84 (för adresser i bech32-format som börjar med `bc1`) |
+| **Utökad offentlig nyckel** | Din Zpub (eller Xpub beroende på använd plånbok)        | `zpub...` (extraherad från din Bitcoin-plånbok) |
+| **Derivation Index**   | Startindexet för adressgenerering         | `1`                                              |
+| **Mempool URL**        | URL:en till mempool-tjänsten som används för att spåra transaktioner | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -348,7 +349,7 @@ Konfigurationssteg:
 
 
 
-**Du måste ha ett PayPal-företagskonto för att kunna använda generate för dessa identifierare. Du kan få dem via [developer]-portalen (https://developer.paypal.com)
+**Du måste ha ett PayPal-företagskonto för att kunna använda generate för dessa identifierare. Du kan få dem via [developer]-portalen** (https://developer.paypal.com)
 
 
 
@@ -474,8 +475,8 @@ Med konfigurationen **Top Bar** kan du anpassa din programvaras visuella identit
 
 
 - I fältet "Varumärke" anger du namnet på ditt företag, din organisation eller din produkt. Detta namn kommer att visas högst upp på Interface och kommer att representera din huvudsakliga visuella identitet.
-- Ange webbplatsens titel**: den valda titeln bör sammanfatta syftet med plattformen. Denna titel kan visas i sidhuvudet eller i webbläsarfliken.
-- Add Website description**: här kan du skriva en kort beskrivning av ditt initiativ. Beskrivningen hjälper användarna att sätta verktyget i ett sammanhang och kan även användas för SEO-ändamål.
+- **Ange webbplatsens titel**: den valda titeln bör sammanfatta syftet med plattformen. Denna titel kan visas i sidhuvudet eller i webbläsarfliken.
+- Add Website description: här kan du skriva en kort beskrivning av ditt initiativ. Beskrivningen hjälper användarna att sätta verktyget i ett sammanhang och kan även användas för SEO-ändamål.
 
 
 
@@ -497,10 +498,10 @@ I Top Bars avsnitt "Länkar" kan du lägga till genvägar till viktiga sidor i d
 
 
 
-- Ange länknamn (Text)**: i fältet "Text" anger du namnet eller etiketten på länken så som den kommer att visas (t.ex. Hem, Kontakt, Hjälp...).
-- Ange länk Address (Url)**: i fältet `Url` anger du hela Address för målsidan (intern eller extern).
-- Lägg till andra länkar vid behov**: på varje konfigurationsrad kan du lägga till en ytterligare länk med hjälp av fälten "Text" och "URL".
-- Spara länkar**: När alla länkar har angetts klickar du på knappen "Add top bar link" för att spara dem.
+- **Ange länknamn (Text)**: i fältet "Text" anger du namnet eller etiketten på länken så som den kommer att visas (t.ex. Hem, Kontakt, Hjälp...).
+- Ange länk **Address (Url)**: i fältet `Url` anger du hela Address för målsidan (intern eller extern).
+- **Lägg till andra länkar vid behov**: på varje konfigurationsrad kan du lägga till en ytterligare länk med hjälp av fälten "Text" och "URL".
+- **Spara länkar**: När alla länkar har angetts klickar du på knappen "Add top bar link" för att spara dem.
 
 
 
@@ -522,10 +523,10 @@ I avsnittet **Navbar** kan du konfigurera be-BOP:s huvudmeny för navigering, so
 
 
 
-- Ange länknamn (`Text`)**: På konfigurationsraden börjar du med att fylla i fältet `Text`. Detta motsvarar namnet på den länk som visas i navigeringsfältet (exempel: *Dashboard*, *Users*, *Settings*...).
-- Ange länkens Address (`Url`)**: bredvid fältet `Text` hittar du fältet `Url`. I det här fältet anger du Address för den sida som länken ska omdirigera till. Detta kan vara en intern rutt eller en länk till en extern sida.
-- Lägg till flera länkar om det behövs**: under den första raden finns nya fält för "Text" och "URL" där du kan lägga till så många länkar som behövs. Varje rad representerar ytterligare en navigeringslänk.
-- Spara länkar**: När du har angett alla Elements klickar du på knappen "Lägg till länk i navigeringsfältet" för att spara och visa resultaten i navigeringsfältet.
+- Ange länknamn (`Text`): På konfigurationsraden börjar du med att fylla i fältet `Text`. Detta motsvarar namnet på den länk som visas i navigeringsfältet (exempel: *Dashboard*, *Users*, *Settings*...).
+- Ange länkens Address (`Url`): bredvid fältet `Text` hittar du fältet `Url`. I det här fältet anger du Address för den sida som länken ska omdirigera till. Detta kan vara en intern rutt eller en länk till en extern sida.
+- **Lägg till flera länkar om det behövs**: under den första raden finns nya fält för "Text" och "URL" där du kan lägga till så många länkar som behövs. Varje rad representerar ytterligare en navigeringslänk.
+- **Spara länkar**: När du har angett alla Elements klickar du på knappen "Lägg till länk i navigeringsfältet" för att spara och visa resultaten i navigeringsfältet.
 
 
 
@@ -547,11 +548,11 @@ I avsnittet **Footer** kan du anpassa sidfoten i din programvara och lägga till
 
 
 
-- Aktivera visning av etiketten "Powered by be-BOP"**: aktivera knappen `Display Powered by be-BOP` för att visa denna etikett i sidfoten.
-- Ange namnet på länken (`Text`)**: fyll i fältet `Text`, som motsvarar länkens ordalydelse i sidfoten (exempel: *Villkor*, *Privacy*, *Kontakt*...).
-- Ange länkens Address (`Url`)**: i fältet `Url` anger du målsidans Address (intern eller extern).
-- Lägg till fler länkar om det behövs**: använd de extra raderna för att skapa så många länkar som du vill.
-- Spara länkar**: klicka på knappen "Add footer link" för att spara länkar.
+- Aktivera visning av etiketten "Powered by be-BOP": aktivera knappen `Display Powered by be-BOP` för att visa denna etikett i sidfoten.
+- Ange namnet på länken (`Text`): fyll i fältet `Text`, som motsvarar länkens ordalydelse i sidfoten (exempel: *Villkor*, *Privacy*, *Kontakt*...).
+- Ange länkens Address (`Url`): i fältet `Url` anger du målsidans Address (intern eller extern).
+- **Lägg till fler länkar om det behövs**: använd de extra raderna för att skapa så många länkar som du vill.
+- **Spara länkar**: klicka på knappen "Add footer link" för att spara länkar.
 
 
 
@@ -641,8 +642,8 @@ I det här avsnittet, som nås via `Admin > Identity` (eller `Settings > Identit
 
 
 
-- Företagsnamn**: officiellt företagsnamn.
-- Företagsidentifikation**: juridisk identifikation eller registreringsnummer (RCCM, SIRET...).
+- **Företagsnamn**: officiellt företagsnamn.
+- **Företagsidentifikation**: juridisk identifikation eller registreringsnummer (RCCM, SIRET...).
 
 
 
@@ -652,11 +653,11 @@ I det här avsnittet, som nås via `Admin > Identity` (eller `Settings > Identit
 
 
 
-- Street**: postnummer Address (gata, nummer ...).
-- Land**: land.
-- Delstat**: provins eller region.
-- Stad**: stad.
-- Postnummer**: postnummer.
+- **Street**: postnummer Address (gata, nummer ...).
+- **Land**: land.
+- **Delstat**: provins eller region.
+- **Stad**: stad.
+- **Postnummer**: postnummer.
 
 
 
@@ -666,8 +667,8 @@ I det här avsnittet, som nås via `Admin > Identity` (eller `Settings > Identit
 
 
 
-- E-post**: professionell e-post Address.
-- Phone**: företagets telefonnummer.
+- **E-post**: professionell e-post Address.
+- **Phone**: företagets telefonnummer.
 
 
 
@@ -677,10 +678,10 @@ I det här avsnittet, som nås via `Admin > Identity` (eller `Settings > Identit
 
 
 
-- Kontohavarens namn**: Kontohavarens namn.
-- Kontohavare Address**: innehavarens Address.
-- IBAN**: Internationellt bankkontonummer.
-- BIC**: SWIFT/BIC-kod.
+- **Kontohavarens namn**: Kontohavarens namn.
+- **Kontohavare Address**: innehavarens Address.
+- **IBAN**: Internationellt bankkontonummer.
+- **BIC**: SWIFT/BIC-kod.
 
 
 
@@ -695,12 +696,12 @@ I det här avsnittet, som nås via `Admin > Identity` (eller `Settings > Identit
 
 
 - Klicka på "Fyll i information om huvudbutiken" för att fylla i uppgifterna.
-- Information om utställaren**: fält för juridisk information/skatteinformation som visas på fakturor.
+- **Information om utställaren**: fält för juridisk information/skatteinformation som visas på fakturor.
 - Klicka på `Uppdatera` för att spara ändringarna.
 
 
 
-**Du kan också ange ytterligare information som ska visas på Invoice, beroende på dina behov.
+**Du kan också ange ytterligare information som ska visas på Invoice, beroende på dina behov.**
 
 
 
@@ -742,9 +743,9 @@ Gå till `Admin > Merch > Products` för att lägga till eller ändra en produkt
 
 
 
-- Produktnamn**: Produktens namn (t.ex. *BOP T-shirt limited edition*).
-- Slug**: URL-identifierare utan mellanslag (t.ex. `tshirt-bop-edition-limitee`).
-- Alias** *(valfritt)*: användbart för att snabbt lägga till i korgen via ett särskilt fält.
+- **Produktnamn**: Produktens namn (t.ex. *BOP T-shirt limited edition*).
+- **Slug**: URL-identifierare utan mellanslag (t.ex. `tshirt-bop-edition-limitee`).
+- **Alias** *(valfritt)*: användbart för att snabbt lägga till i korgen via ett särskilt fält.
 
 
 
@@ -758,9 +759,9 @@ Gå till `Admin > Merch > Products` för att lägga till eller ändra en produkt
 
 
 
-- Prisbelopp**: produktpris (t.ex. "25,00").
-- Prisvaluta**: valuta (EUR, USD, BTC, etc.).
-- Specialprodukter**:
+- **Prisbelopp**: produktpris (t.ex. "25,00").
+- **Prisvaluta**: valuta (EUR, USD, BTC, etc.).
+- **Specialprodukter**:
   - detta är en gratis produkt.
   - detta är en betala-vad-du-vill-produkt.
 
@@ -772,14 +773,14 @@ Gå till `Admin > Merch > Products` för att lägga till eller ändra en produkt
 
 
 
-- Enkel produkt (`standalone`)**: endast ett tillägg möjligt per beställning (t.ex. donation, inträdesbiljett).
-- Produkt med variationer**:
+- **Enkel produkt (`standalone`)**: endast ett tillägg möjligt per beställning (t.ex. donation, inträdesbiljett).
+- **Produkt med variationer**:
   - Kolla inte "Standalone".
   - Markera `Produkten har lätta variationer (ingen lagerskillnad)`.
   - Lägg till:
-    - Namn** (t.ex. *Storlek*),
-    - Värden** (t.ex.: S, M, L, XL),
-    - Prisskillnader** om tillämpligt (t.ex.: `+2 USD` för XL).
+- **Namn** (t.ex. *Storlek*),
+- **Värden** (t.ex.: S, M, L, XL),
+- **Prisskillnader** om tillämpligt (t.ex.: `+2 USD` för XL).
 
 
 
@@ -809,8 +810,8 @@ Systemet hanterar:
 
 
 
-- Reserverat lager** → produkter i korgar som ännu inte har betalats
-- Sålt lager** → redan köpta produkter
+- **Reserverat lager** → produkter i korgar som ännu inte har betalats
+- **Sålt lager** → redan köpta produkter
 
 
 
@@ -832,8 +833,8 @@ Markera `Produkten har en fysisk komponent som kommer att skickas till kundens A
 
 
 
-- Ticket**: kryssa i om produkten är en biljett till ett evenemang
-- Bokning**: kontrollera om detta är en bokningsplats (t.ex.: session, möte)
+- **Ticket**: kryssa i om produkten är en biljett till ett evenemang
+- **Bokning**: kontrollera om detta är en bokningsplats (t.ex.: session, möte)
 
 
 
@@ -849,12 +850,13 @@ Detta avsnitt bestämmer **var** och **hur** produkten kan ses och köpas:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Plattform        | Produkt Synlig | Läggas till Varukorgen |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (offentlig webbplats)        | ✔️              | ✔️                  |
+| Retail POS (försäljningsställe)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (försäljning via bot)  | ✔️              | ✔️                  |
 
 Markera endast de kanaler som du vill använda.
 
@@ -898,7 +900,7 @@ Du kan lägga till andra sidor efter behov:
 
 
 
-**Tips: Klicka på varje länk eller ikon för att ändra **innehåll**, **titel** eller **seo synlighet** för varje sida.
+**Tips: Klicka på varje länk eller ikon för att ändra** innehåll, titel eller seo synlighet **för varje sida.**
 
 
 
@@ -983,7 +985,7 @@ Den kan också ändras i `Pictures` och gör att du kan visa en **sammanfattning
 
 
 
-Widgets** berikar dina CMS-sidor med dynamiska eller visuella Elements.
+**Widgets** berikar dina CMS-sidor med dynamiska eller visuella element.
 
 
 
@@ -1001,14 +1003,14 @@ Exempel på tillgängliga widgets:
 
 
 
-- Utmaningar**: utmaningar eller uppdrag
-- Taggar**: kategorier eller nyckelord
-- Sliders**: bildkaruseller
-- Specifikationer**: Specifikationer tabeller
-- Formulär**: formulär (kontakt, feedback, etc.)
-- Nedräkningar**: timers
-- Gallerier**: bildgallerier
-- Ledartavlor**: användarnas ranking
+- **Utmaningar**: utmaningar eller uppdrag
+- **Taggar**: kategorier eller nyckelord
+- **Sliders**: bildkaruseller
+- **Specifikationer**: Specifikationer tabeller
+- **Formulär**: formulär (kontakt, feedback, etc.)
+- **Nedräkningar**: timers
+- **Gallerier**: bildgallerier
+- **Ledartavlor**: användarnas ranking
 
 
 
@@ -1024,14 +1026,15 @@ Använd **shortcodes** i innehållet på dina CMS-sidor:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Mål                 | Tagg att Infoga                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Visa en produkt      | `[Product=slug?display=img-1]`        |
+| Visa en bild       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrera en skjutreglage       | `[Slider=slug?autoplay=3000]`         |
+| Lägg till en utmaning     | `[Challenge=slug]`                    |
+| Lägg till en nedräkning | `[Countdown=slug]`                 |
+| Integrera ett formulär   | `[Form=slug]`                         |
 
 **Aktuella parametrar**:
 
@@ -1166,9 +1169,9 @@ Rapporterna är indelade i avsnitt:
 
 
 
-- Order Detail**: antal order, status (bekräftad, avbokad, pågående), utveckling
-- Produktdetaljer**: sålda produkter, kvantiteter, populära produkter
-- Payment Detail**: inkasserade belopp, uppdelning per betalningsmetod
+- **Order Detail**: antal order, status (bekräftad, avbokad, pågående), utveckling
+- **Produktdetaljer**: sålda produkter, kvantiteter, populära produkter
+- **Payment Detail**: inkasserade belopp, uppdelning per betalningsmetod
 
 
 
@@ -1189,7 +1192,7 @@ Varje avsnitt innehåller en **Export CSV**-knapp, som gör att du kan:
 
 
 
-**Perfekt för resultatuppföljning, redovisning och presentationer.
+**Perfekt för resultatuppföljning, redovisning och presentationer.**
 
 
 
@@ -1310,9 +1313,9 @@ När du skapar eller ändrar ett tema kan du definiera:
 
 
 
-- Färger**: för knappar, bakgrunder, text, länkar etc.
-- Typsnitt**: val av typsnitt för rubriker, stycken, menyer
-- Grafiska stilar**: ramar, marginaler, avstånd, blockformer
+- **Färger**: för knappar, bakgrunder, text, länkar etc.
+- **Typsnitt**: val av typsnitt för rubriker, stycken, menyer
+- **Grafiska stilar**: ramar, marginaler, avstånd, blockformer
 
 
 
@@ -1326,9 +1329,9 @@ Varje del av anläggningen kan justeras oberoende av varandra:
 
 
 
-- Header**: övre navigeringsfältet
-- Body**: huvudinnehåll
-- Sidfot**: längst ner på sidan
+- **Header**: övre navigeringsfältet
+- **Body**: huvudinnehåll
+- **Sidfot**: längst ner på sidan
 
 
 
@@ -1351,7 +1354,7 @@ När temat är konfigurerat:
 
 
 
-**Det aktiva temat är det som kommer att vara synligt för besökare.
+**Det aktiva temat är det som kommer att vara synligt för besökare.**
 
 
 
@@ -1377,12 +1380,12 @@ Varje e-postmeddelande (orderbekräftelse, glömt lösenord etc.) har:
 
 
 
-- Ämne**: ämnet för e-postmeddelandet (t.ex. "Din order har validerats")
-- HTML-kod**: HTML-innehåll som visas i e-postmeddelandet
+- **Ämne**: ämnet för e-postmeddelandet (t.ex. "Din order har validerats")
+- **HTML-kod**: HTML-innehåll som visas i e-postmeddelandet
 
 
 
-**Du kan infoga text, bilder, länkar etc. efter behov.
+**Du kan infoga text, bilder, länkar etc. efter behov.**
 
 
 
@@ -1444,9 +1447,9 @@ Fyll i följande fält:
 
 
 
-- Taggens namn**: taggens namn visas
-- Slug**: unik identifierare (inga mellanslag eller accenter)
-- Taggfamilj**: grupperar taggar efter kategori
+- **Taggens namn**: taggens namn visas
+- **Slug**: unik identifierare (inga mellanslag eller accenter)
+- **Taggfamilj**: grupperar taggar efter kategori
 
 
 
@@ -1479,9 +1482,9 @@ Dessa fält kan användas för att berika en tagg som om den vore en innehållss
 
 - Titel
 - Undertitel
-- Kort** innehåll
-- Fullständigt innehåll** (på franska)
-- CTA** (åtgärdsknappar)
+- **Kort** innehåll
+- **Fullständigt innehåll** (på franska)
+- **CTA** (åtgärdsknappar)
 
 
 
@@ -1520,8 +1523,8 @@ För att erbjuda nedladdningsbara dokument till dina kunder: `Admin > Merch > Fi
 
 
 
-   - Filnamn** (t.ex. *Installationsguide*)
-   - Fil att ladda upp** (PDF, bild, Word...)
+- **Filnamn** (t.ex. *Installationsguide*)
+- **Fil att ladda upp** (PDF, bild, Word...)
 
 
 
@@ -1539,7 +1542,7 @@ Denna länk kan sedan sättas in i:
 
 
 
-- CMS**-sida (som textlänk eller knapp)
+- **CMS**-sida (som textlänk eller knapp)
 - En **e-postklient** (via en mall)
 - Ett **produktblad** (t.ex. nedladdning av bruksanvisning)
 
@@ -1635,9 +1638,9 @@ För att göra detta, gå till: `Inställningar > Språk`
 
 
 
-- Ladda ner** språkfiler
-- Ändra** befintliga texter
-- Lägg till** dina egna översättningar
+- Ladda ner **språkfiler**
+- **Ändra** befintliga texter
+- Lägg till **dina egna översättningar**
 
 
 
@@ -1678,9 +1681,9 @@ Varje roll innehåller:
 
 
 
-- skrivbehörighet**: skrivbehörighet
-- läsbehörighet**: läsbehörighet
-- förbjudet tillträde**: sektioner interdites
+- **skrivbehörighet**: skrivbehörighet
+- **läsbehörighet**: läsbehörighet
+- **förbjudet tillträde**: sektioner interdites
 
 
 
@@ -1709,7 +1712,7 @@ Tilldela en tidigare definierad roll.
 
 
 
-Skrivskyddade** användare ser menyerna i *italic* och kan inte ändra innehållet.
+**Skrivskyddade** användare ser menyerna i *italic* och kan inte ändra innehållet.
 
 
 
@@ -1779,8 +1782,8 @@ Två avancerade alternativ finns tillgängliga:
 
 
 
-- Momsbefrielse**: tillämplig på motivering (icke-statliga organisationer, utlänningar...)
-- Presentrabatt**: exceptionell rabatt med obligatorisk kommentar
+- **Momsbefrielse**: tillämplig på motivering (icke-statliga organisationer, utlänningar...)
+- **Presentrabatt**: exceptionell rabatt med obligatorisk kommentar
 
 
 
@@ -1813,14 +1816,15 @@ Poster:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funktion                         | Beskrivning                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS-roll                         | Tilldelad via ARM                                         |
+| Huvudgränssnitt             | `/pos` eller `/pos/touch`                                 |
+| Kunddisplay (skärm 2)       | `/pos/session`                                         |
+| Betalning                         | Kontanter, kort, Lightning osv.                         |
+| Produkttillägg                    | Alias eller streckkodsskanning                              |
+| Rabatter / moms                    | Med obligatorisk ledningsbegäring              |
 
 Tack för att du följer denna handledning noggrant.

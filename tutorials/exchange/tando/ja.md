@@ -1,5 +1,5 @@
 ---
-name: タンドー
+name: Tando
 description: ケニアのどこでもBitcoinを過ごす。
 ---
 
@@ -11,7 +11,7 @@ Bitcoin技術は、より多くのアフリカの地域社会が、自国の主�
 
 
 
-2023年、**フェミ・ロンゲ**のプレゼンをきっかけに、**アフリカBitcoin会議**でケニアのスーパーアプリ、タンドの冒険が始まる： *アフリカ人はアフリカ人のためのBitcoinソリューションを創造する必要がある。2024年、Tandoはケニアに配備され、Lightning Networkを通じてBitcoinの日常的な利用を促進し続ける。
+2023年、**フェミ・ロンゲ**のプレゼンをきっかけに、**アフリカBitcoin会議**でケニアのスーパーアプリ、タンドの冒険が始まる：*アフリカ人はアフリカ人のためのBitcoinソリューションを創造する必要がある*。2024年、Tandoはケニアに配備され、Lightning Networkを通じてBitcoinの日常的な利用を促進し続ける。
 
 
 
@@ -73,15 +73,15 @@ Tandoでは、ビットコインを使って、ケニアでM-Pesaが購入でき
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- スキャンして支払い** ：
+- **スキャンして支払い**：
 
 
 
@@ -95,7 +95,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- ケニアへの送金** ：
+- **ケニアへの送金**：
 
 
 
@@ -103,7 +103,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-送金**オプションを選択し、受取人の番号を入力します。送金額（15～50,000KES）を入力し、この支払いに関連するライトニングInvoiceを作成します。
+送金**オプション**を選択し、受取人の番号を入力します。送金額（15～50,000KES）を入力し、この支払いに関連するライトニングInvoiceを作成します。
 
 
 
@@ -121,7 +121,7 @@ Lightning Walletから請求書を支払うと、Tandoがケニア・シリン�
 
 
 
-- 請求書の支払い** ：
+- **請求書の支払い**：
 
 
 
@@ -135,7 +135,7 @@ Lightning Walletから請求書を支払うと、Tandoがケニア・シリン�
 
 
 
-- 商品を買う** ：
+- **商品を買う** ：
 
 
 
@@ -159,4 +159,4 @@ Tandoを使って直接買い物をする。加盟店番号とお買い上げ合
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

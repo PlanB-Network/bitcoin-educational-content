@@ -1,0 +1,8 @@
+question: Bitcoin의 채택 곡선은 무엇과 비슷하나요?
+answer: S-커브.
+wrong_answers:
+  - U자 곡선.
+  - V-커브.
+  - W-커브.
+explanation: >-
+reviewed: true

@@ -38,7 +38,7 @@ Green is een bijzonder eenvoudig te gebruiken applicatie, wat het interessant ma
 Blockstream Green ondersteunt ook de Liquid Network, een Bitcoin Sidechain ontwikkeld door Blockstream voor snel, Confidential Transactions buiten de hoofd Blockchain. In deze tutorial richten we ons uitsluitend op Bitcoin, maar ik heb ook een andere tutorial gemaakt om te leren hoe je Liquid op Green kunt gebruiken:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 Multisig optie (2FA)
 
@@ -67,7 +67,7 @@ Een ander nadeel van deze beveiligingsmethode is dat je scriptsjablonen van mind
 Als je de 2FA optie liever niet gebruikt en gewoon een "*singlesig*" wilt opzetten Wallet op Green, dan nodig ik je uit om deze andere tutorial te raadplegen:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Blockstream Green software installeren en configureren
 
@@ -82,13 +82,13 @@ De eerste stap is natuurlijk het downloaden van de Green applicatie. Ga naar uw 
 ![GREEN 2FA MULTISIG](assets/fr/03.webp)
 
 
-Voor Android gebruikers kun je de applicatie ook installeren via het `.apk` bestand [beschikbaar op Blockstream's GitHub] (https://github.com/Blockstream/green_android/releases).
+Voor Android gebruikers kun je de applicatie ook installeren via het `.apk` bestand [beschikbaar op Blockstream's GitHub](https://github.com/Blockstream/green_android/releases).
 
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
 
-Start de applicatie en vink het vakje "Ik accepteer de voorwaarden...*" aan.
+Start de applicatie en vink het vakje "Ik accepteer de voorwaarden..." aan.
 
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
@@ -229,7 +229,7 @@ Klik op de Green knop "*Verhoog de beveiliging van je account door de 2FA toe te
 Je kunt dan de authenticatiemethode kiezen om toegang te krijgen tot de tweede sleutel van je 2/2 Multisig. Voor deze tutorial gebruiken we een authenticatie applicatie. Als je niet bekend bent met dit type applicatie, raad ik je aan onze tutorial over Authy te raadplegen:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Selecteer "*Authenticatietoepassing*".
 
@@ -363,7 +363,7 @@ Kies het betalingsbedrag.
 ![GREEN 2FA MULTISIG](assets/fr/44.webp)
 
 
-Onderaan het scherm kun je het tarief voor deze transactie selecteren. Je hebt de keuze om de aanbevelingen van de applicatie te volgen of je eigen kosten aan te passen. Hoe hoger de vergoeding in verhouding tot andere lopende transacties, hoe sneller uw transactie wordt verwerkt. Voor informatie over de kostenmarkt, zie [Mempool.space] (https://Mempool.space/) in het gedeelte "*Transactiekosten*".
+Onderaan het scherm kun je het tarief voor deze transactie selecteren. Je hebt de keuze om de aanbevelingen van de applicatie te volgen of je eigen kosten aan te passen. Hoe hoger de vergoeding in verhouding tot andere lopende transacties, hoe sneller uw transactie wordt verwerkt. Voor informatie over de kostenmarkt, zie [Mempool.space](https://Mempool.space/) in het gedeelte "*Transactiekosten*".
 
 
 ![GREEN 2FA MULTISIG](assets/fr/45.webp)
@@ -402,4 +402,4 @@ Als je deze tutorial nuttig vond, zou ik je dankbaar zijn als je hieronder een G
 Ik raad je ook aan deze andere uitgebreide tutorial over de Blockstream Green mobiele toepassing te bekijken om een Liquid Wallet in te stellen:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

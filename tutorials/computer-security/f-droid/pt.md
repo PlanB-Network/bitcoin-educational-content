@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: O catálogo de aplicações gratuitas e de código aberto.
 ---
 
@@ -27,7 +27,7 @@ Infelizmente, o F-Droid não é uma aplicação disponível no iOS e contém mui
 
 
 
-Pode descarregar F-droid a partir do [site oficial] (https://f-droid.org/) em formato APK e instalá-lo manualmente no seu telemóvel Android.
+Pode descarregar F-droid a partir do [site oficial](https://f-droid.org/) em formato APK e instalá-lo manualmente no seu telemóvel Android.
 
 
 
@@ -100,7 +100,7 @@ Saiba mais no nosso tutorial do Thunderbird:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 O F-Droid fornece-lhe todas as informações de que necessita para decidir se a utilização de uma aplicação protege os seus dados e aumenta a sua privacidade. Analise todas as aplicações que pretende utilizar e, em seguida, clique no botão **Instalar** para transferir e instalar a sua aplicação.
 
@@ -167,7 +167,7 @@ Deve então preparar um ficheiro YAML (os metadados) que descreva a sua aplicaç
 
 
 
-Na secção **Desenvolvedores** da [documentação] (https://f-droid.org/en/docs/), encontrará todos os recursos de que necessita para publicar e manter as suas aplicações no F-Droid.
+Na secção **Desenvolvedores** da [documentação](https://f-droid.org/en/docs/), encontrará todos os recursos de que necessita para publicar e manter as suas aplicações no F-Droid.
 
 
 
@@ -187,4 +187,4 @@ Se gostou deste tutorial, saiba mais sobre o nosso curso de segurança informát
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

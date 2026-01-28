@@ -84,7 +84,7 @@ Yeni bir Wallet oluştururken yapmanız gereken ilk şeylerden biri 12 kurtarma 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 İfadelerinizi yedeklemek için **Tercihler > Güvenlik** menüsünü ve ardından **Yedek İfadenizi Kontrol Edin** seçeneğini seçin.
 
@@ -161,7 +161,7 @@ Misty Breez Wallet'inizde bir ödeme aldığınızda, göndericiniz size Boltz (
 
 
 
-Bakiye** menüsündeki Interface'ye tıklayın, Yıldırım Invoice'ü ödemek için **Gönder** seçeneğine tıklayın.
+**Bakiye** menüsündeki Interface'ye tıklayın, Yıldırım Invoice'ü ödemek için **Gönder** seçeneğine tıklayın.
 
 
 Lightning Invoice'i, alıcınızın Lightning Address'ünü takın veya ödemenizi yapmak için Invoice'in üzerindeki QR kodunu tarayın.
@@ -213,4 +213,4 @@ Daha ileri gitmek için, Misty Breez ile benzer şekilde çalışan Aqua Wallet 
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

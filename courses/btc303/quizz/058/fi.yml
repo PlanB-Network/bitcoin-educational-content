@@ -1,0 +1,9 @@
+question: Avoimen lähdekoodin määritelmää koskevien vaatimusten mukaan mitä on tapahduttava, kun lähdekoodi on tarkoituksellisesti peitetty avoimen lähdekoodin ohjelmistojakaumassa?
+answer: Tarkoituksellisesti peitelty lähdekoodi rikkoo avoimen lähdekoodin periaatteita, eikä se ole sallittua
+wrong_answers:
+  - Hämärtyneeseen koodiin on liitettävä yksityiskohtainen dokumentaatio, jossa selvitetään sen toiminta
+  - Hämärtynyt koodi voidaan hyväksyä, kunhan myös käännetty binäärikoodi toimitetaan
+  - Hämärtynyt koodi on asetettava saataville erillisenä latauksena, jonka kopiointikustannukset ovat seuraavat
+explanation: |
+  Avoimen lähdekoodin määritelmässä todetaan nimenomaisesti, että "tarkoituksellisesti peitelty lähdekoodi ei ole sallittua" Tämä on perustavanlaatuinen vaatimus, koska peittely estää koodin mielekkään tarkastelun, muokkaamisen ja ymmärtämisen, mikä on vastoin avoimen lähdekoodin ohjelmistojen keskeisiä tarkoituksia. Lähdekoodin on oltava "siinä muodossa, jossa ohjelmoija mieluiten muokkaisi ohjelmaa", joten peittely on ristiriidassa avoimen lähdekoodin periaatteiden kanssa dokumentaatiosta tai jakelutavasta riippumatta.
+reviewed: false

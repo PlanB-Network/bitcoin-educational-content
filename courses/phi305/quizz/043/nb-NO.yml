@@ -1,0 +1,9 @@
+question: Hvem sa at "ondskap er ingenting"?
+answer: Sokrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Descartes.
+explanation: |
+  ondskap er ingenting" er en idé som tilskrives Sokrates og som er tatt opp i den filosofiske tradisjonen. For Sokrates kommer ondskap fra uvitenhet; ingen gjør noe ondt frivillig hvis han virkelig vet hva som er godt.
+reviewed: false

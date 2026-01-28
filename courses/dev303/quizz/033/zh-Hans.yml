@@ -1,0 +1,8 @@
+question: 当 Rust 出现恐慌时，可以设置哪个环境变量来显示完整的调用堆栈跟踪？
+answer: RUST_BACKTRACE
+wrong_answers:
+  - rust_stacktrace
+  - rust_debug_trace
+  - rust_panic_trace
+explanation: |
+  RUST_BACKTRACE 是一个正确的环境变量，它通过显示导致系统崩溃的完整调用堆栈来提供额外的调试信息。这有助于开发人员准确跟踪导致错误的函数调用序列。其他选项（RUST_STACKTRACE、RUST_DEBUG_TRACE 和 RUST_PANIC_TRACE）都不是有效的 Rust 环境变量，在发生 panic 时不会产生任何调试输出。

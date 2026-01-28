@@ -1,5 +1,5 @@
 ---
-name: KAART Q
+name: COLDCARD Q
 description: Een COLDCARD instellen en gebruiken Q
 ---
 ![cover](assets/cover.webp)
@@ -27,7 +27,7 @@ In deze tutorial wil ik je kennis laten maken met zo'n oplossing: de **COLDCARD 
 Omdat de COLDCARD Q een veelheid aan functies biedt, stel ik voor om het gebruik ervan op te splitsen in 2 tutorials. In deze eerste tutorial kijken we naar de eerste configuratie en basisfuncties van het apparaat. Daarna, in een tweede tutorial, bekijken we hoe je gebruik kunt maken van alle geavanceerde opties van je COLDCARD.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## Kennismaking met COLDCARD Q
@@ -50,7 +50,7 @@ Qua hardware is de COLDCARD Q uitgerust met alle functies die nodig zijn voor ee
 - De mogelijkheid om te communiceren via NFC.
 
 
-Naar mijn mening heeft de COLDCARD Q maar twee nadelen. Ten eerste is hij door zijn vele functies vrij volumineus. Hij meet bijna 13 cm lang en 8 cm breed, wat bijna het formaat van een kleine smartphone is. Hij is ook vrij dik vanwege het batterijcompartiment. Als je op zoek bent naar een kleinere, mobielere Hardware Wallet, dan is de veel compactere MK4 misschien een betere optie. Het tweede nadeel is natuurlijk de prijs van het apparaat, die op de officiële website $239,99** kost, dat is $72 meer dan de MK4, waardoor de Q rechtstreeks concurreert met premium hardware wallets zoals de Ledger Flex of Foundation's Passport.
+Naar mijn mening heeft de COLDCARD Q maar twee nadelen. Ten eerste is hij door zijn vele functies vrij volumineus. Hij meet bijna 13 cm lang en 8 cm breed, wat bijna het formaat van een kleine smartphone is. Hij is ook vrij dik vanwege het batterijcompartiment. Als je op zoek bent naar een kleinere, mobielere Hardware Wallet, dan is de veel compactere MK4 misschien een betere optie. Het tweede nadeel is natuurlijk de prijs van het apparaat, die op de officiële website **$239,99** kost, dat is $72 meer dan de MK4, waardoor de Q rechtstreeks concurreert met premium hardware wallets zoals de Ledger Flex of Foundation's Passport.
 
 
 ![CCQ](assets/fr/001.webp)
@@ -74,7 +74,7 @@ Aan de softwarekant is de COLDCARD Q net zo goed uitgerust als de andere apparat
 Kortom, de COLDCARD Q biedt een verbeterde gebruikerservaring ten opzichte van de MK4 en kan ideaal zijn voor gemiddelde tot gevorderde gebruikers die op zoek zijn naar meer gebruiksgemak.
 
 
-De COLDCARD Q is te koop [op de officiële website van Coinkite] (https://store.coinkite.com/store/coldcard). Hij kan ook worden gekocht bij een detailhandelaar.
+De COLDCARD Q is te koop [op de officiële website van Coinkite](https://store.coinkite.com/store/coldcard). Hij kan ook worden gekocht bij een detailhandelaar.
 
 
 ## De zelfstudie voorbereiden
@@ -113,7 +113,7 @@ Als je je COLDCARD liever van stroom voorziet zonder hem op een computer aan te 
 Voor deze tutorial heb je ook Sparrow wallet nodig om je Bitcoin Wallet op je computer te beheren. Download [Sparrow wallet](https://sparrowwallet.com/download/) van de officiële website. Ik raad je sterk aan om zowel de authenticiteit (met GnuPG) als de integriteit (via Hash) te controleren voordat je verder gaat met de installatie. Als je niet weet hoe je dit moet doen, volg dan deze tutorial:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## PIN-code selecteren
 
@@ -220,7 +220,7 @@ Je kunt de huidige firmwareversie van je COLDCARD controleren. In mijn geval is 
 ![CCQ](assets/fr/019.webp)
 
 
-Kijk [op de officiële COLDCARD website] (https://coldcard.com/downloads) om te zien of er een nieuwere versie beschikbaar is. Klik op "*Download*" om de nieuwe firmware te downloaden.
+Kijk [op de officiële COLDCARD website](https://coldcard.com/downloads) om te zien of er een nieuwere versie beschikbaar is. Klik op "*Download*" om de nieuwe firmware te downloaden.
 
 
 ![CCQ](assets/fr/020.webp)
@@ -232,7 +232,7 @@ Op dit punt raden we sterk aan om de integriteit en authenticiteit van de gedown
 Als je niet bekend bent met dit verificatieproces, raad ik je aan deze tutorial te volgen:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Neem een microSD-kaart en zet het firmwarebestand (document in `.dfu`) erop. Plaats de microSD-kaart in een van de poorten van je COLDCARD.
 
@@ -291,7 +291,7 @@ In dit menu vind je verschillende aanpassingsopties, zoals het instellen van de 
 In de volgende tutorial bekijken we andere geavanceerde instellingen:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Een Bitcoin Wallet maken
 
@@ -480,13 +480,13 @@ Uw Wallet is nu ingesteld op Sparrow wallet.
 ![CCQ](assets/fr/051.webp)
 
 
-Voordat je je eerste bitcoins in je Wallet ontvangt, raad ik je sterk aan om een lege hersteltest** uit te voeren. Schrijf wat referentie-informatie op, zoals je xpub, en reset dan je COLDCARD Q terwijl de Wallet nog leeg is. Probeer dan je Wallet op de COLDCARD te herstellen met je papieren back-ups. Controleer of de xpub die na het herstellen wordt gegenereerd, overeenkomt met de xpub die je oorspronkelijk hebt opgeschreven. Als dat zo is, kun je er zeker van zijn dat je papieren back-ups betrouwbaar zijn.
+Voordat je je eerste bitcoins in je Wallet ontvangt, raad ik je sterk aan om een **lege hersteltest** uit te voeren. Schrijf wat referentie-informatie op, zoals je xpub, en reset dan je COLDCARD Q terwijl de Wallet nog leeg is. Probeer dan je Wallet op de COLDCARD te herstellen met je papieren back-ups. Controleer of de xpub die na het herstellen wordt gegenereerd, overeenkomt met de xpub die je oorspronkelijk hebt opgeschreven. Als dat zo is, kun je er zeker van zijn dat je papieren back-ups betrouwbaar zijn.
 
 
 Om meer te leren over hoe je een hersteltest uitvoert, raad ik je aan deze andere tutorial te raadplegen:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Bitcoins ontvangen
 
@@ -563,7 +563,7 @@ Je kunt nu een "*Label*" toevoegen om de bron van bitcoins te beschrijven die be
 Voor meer informatie over labelen raad ik je ook deze andere tutorial aan:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Je kunt deze Address dan gebruiken om bitcoins te ontvangen.
 
@@ -712,4 +712,4 @@ Als je deze tutorial nuttig vond, zou ik je erg dankbaar zijn als je hieronder e
 Ik raad je ook aan om deze andere tutorial te bekijken, waarin we de geavanceerde opties van de COLDCARD Q bespreken:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

@@ -13,10 +13,10 @@ Arch Linux is a distribution renowned for its robustness, performance and adapta
 
 
 
-- Free and open source**: Like most Linux distributions, Arch Linux is totally free. There are no license fees, making it an excellent choice for students, freelancers or enthusiasts.
-- KISS** philosophy: Arch is designed to be simple, light and efficient. It provides only the essentials, allowing you to build your environment à la carte.
-- Pacman** package manager: Pacman is a fast, reliable and well-designed package manager. It enables efficient installation and updating of software, and manages dependencies with precision.
-- Comprehensive documentation and an active community**: the [Arch Wiki](https://wiki.archlinux.org) is probably one of the best technical documentations in the Linux world. It's a gold mine for understanding what you're doing. The community, mostly made up of experienced profiles, is very active and can help you if you get stuck, provided you've done a bit of research beforehand.
+- **Free and open source**: Like most Linux distributions, Arch Linux is totally free. There are no license fees, making it an excellent choice for students, freelancers or enthusiasts.
+- **KISS** philosophy: Arch is designed to be simple, light and efficient. It provides only the essentials, allowing you to build your environment à la carte.
+- **Pacman** package manager: Pacman is a fast, reliable and well-designed package manager. It enables efficient installation and updating of software, and manages dependencies with precision.
+- **Comprehensive documentation and an active community**: the [Arch Wiki](https://wiki.archlinux.org) is probably one of the best technical documentations in the Linux world. It's a gold mine for understanding what you're doing. The community, mostly made up of experienced profiles, is very active and can help you if you get stuck, provided you've done a bit of research beforehand.
 
 
 ## Installation and configuration
@@ -30,7 +30,7 @@ Materials required:
 
 
 - A USB key of at least **8 GB**
-- 2 GB** RAM minimum
+- **2 GB** RAM minimum
 - A computer with at least 20 GB of free disk space
 
 
@@ -196,22 +196,24 @@ Choose **GPT** if you are in UEFI, **DOS** if you are in BIOS.
 #### Scores to create
 
 
-- In UEFI** mode
+- In **UEFI** mode
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Mount point on the installed system | Partition                 | Partition type       | Suggested size |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI System Partition   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Swap space (swap) | At least 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 root (/) | Remainder of disk |
 
 - In BIOS
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Mount point on the installed system | Partition           | Partition type       | Suggested size |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Swap space (swap) | At least 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Remainder of disk |
 
 ![0_10](assets/fr/10.webp)
 
@@ -223,7 +225,7 @@ Select **Write**, type **yes**, then **Quit**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 ```shell
@@ -235,7 +237,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 ```shell
@@ -595,6 +597,6 @@ Arch Linux stands out for its remarkable stability, minimalist philosophy and ro
 If you've enjoyed getting started with Arch Linux, you'll love our tutorial on **Fedora OS**, a modular, secure and robust operating system that adapts to your needs and uses.
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

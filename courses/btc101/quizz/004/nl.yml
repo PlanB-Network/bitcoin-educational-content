@@ -1,11 +1,11 @@
-question: Wat zijn de twee belangrijkste kenmerken van Bitcoin?
-answer: Bitcoin is zowel een computerprotocol als een monetaire eenheid.
+question: Wat betekent het voor Bitcoin om een neutrale valuta te zijn?
+answer: Het wordt door geen enkele entiteit of instelling gecontroleerd.
 wrong_answers:
-  - Bitcoin is zowel een fysieke valuta als een digitale Wallet.
-  - Bitcoin is zowel een soort aandeel als een soort obligatie.
-  - Bitcoin is zowel een gecentraliseerde als een gedecentraliseerde valuta.
+  - Het wordt gecontroleerd door een enkele entiteit of instelling.
+  - Het wordt gereguleerd door de overheid.
+  - Het wordt alleen gebruikt voor grote transacties.
 explanation: |
-  Bitcoin is zowel een computerprotocol dat gebruik maakt van technologieën
-  zoals cryptografie en Blockchain, en ook een monetaire
-  eenheid die wordt gebruikt voor transacties.
+  Bitcoin is een neutrale valuta, wat betekent dat het niet wordt gecontroleerd
+  door geen enkele entiteit of instelling, dus elke gebruiker heeft dezelfde
+  rechten. Dit is een belangrijk aspect van de decentralisatie.
 reviewed: true

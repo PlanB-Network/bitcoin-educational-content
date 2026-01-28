@@ -1,0 +1,9 @@
+question: Apa yang ditekankan oleh konsep harmoni Bitcoin, seperti yang dijelaskan melalui analogi David Harding, terutama tentang operasi jaringan?
+answer: Ribuan node penuh secara independen memverifikasi transaksi untuk mencapai kesepakatan yang harmonis tanpa memerlukan kepercayaan antar operator
+wrong_answers:
+  - Mining pool harus mengoordinasikan upaya mereka untuk menyanyikan lagu yang sama dan menghasilkan blok-blok yang selaras
+  - Pengembang Bitcoin harus mencapai konsensus bulat sebelum mengimplementasikan perubahan atau peningkatan protokol apa pun
+  - Semua pengguna Bitcoin harus menyetujui keabsahan transaksi melalui proses pemungutan suara yang demokratis untuk menjaga stabilitas jaringan
+explanation: |
+  Analogi harmoni David Harding menekankan bahwa kekuatan Bitcoin berasal dari ribuan node independen yang bekerja secara terpisah untuk memverifikasi transaksi, menciptakan kesepakatan yang harmonis tentang status buku besar tanpa operator node yang perlu mempercayai orang lain. Hal ini diibaratkan seperti sebuah paduan suara di mana setiap anggota bernyanyi secara independen tetapi menghasilkan harmoni yang indah bersama-sama. Jawaban yang salah akan menyalahartikan konsep ini dengan menyarankan persyaratan koordinasi antara penambang, pengembang, atau pengguna, yang bertentangan dengan prinsip dasar verifikasi independen yang membuat Bitcoin tidak dapat dipercaya dan terdesentralisasi.
+reviewed: false

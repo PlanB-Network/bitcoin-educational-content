@@ -1,0 +1,8 @@
+question: What is the primary reason P2SH-wrapped SegWit transactions use three layers of validation rules during verification?
+answer: To ensure backward compatibility across pre-BIP16, post-BIP16, and SegWit nodes while maintaining consensus
+wrong_answers:
+  - To triple the security by requiring three separate cryptographic proofs before accepting the transaction
+  - To distribute validation workload across different node types to improve network performance and scalability
+  - To prevent double-spending attacks by validating the same transaction data through three independent methods
+explanation: |
+  P2SH-wrapped SegWit uses three validation layers specifically for backward compatibility: pre-BIP16 nodes accept the redeemScript as valid, post-BIP16 nodes evaluate it leaving OP_0 + hash on stack, and SegWit nodes perform full witness validation. This layered approach ensures all node types can participate in consensus without breaking, unlike the wrong answers which suggest security multiplication, performance distribution, or double-spend prevention as primary motivations.

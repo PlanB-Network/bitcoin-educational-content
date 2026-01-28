@@ -1,12 +1,12 @@
 ---
-name: Panduan untuk Menjalankan Plattform Plan ₿ Network Secara Lokal
-description: Bagaimana cara menjalankan Plan ₿ Network di lingkungan lokal untuk menguji kontribusi konten saya atau mengoreksi/meninjau konten pendidikan di Plan ₿ Network?
+name: Panduan untuk Menjalankan Plattform Plan ₿ Academy Secara Lokal
+description: Bagaimana cara menjalankan Plan ₿ Academy di lingkungan lokal untuk menguji kontribusi konten saya atau mengoreksi/meninjau konten pendidikan di Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
 ## Dalam Ringkasan
 
-Tutorial ini menyediakan petunjuk langkah demi langkah untuk menyiapkan Sistem Manajemen Pembelajaran Bitcoin dari Plan ₿ Network di mesin lokal Anda menggunakan Docker, kunci tiruan, dan konfigurasi repositori khusus.
+Tutorial ini menyediakan petunjuk langkah demi langkah untuk menyiapkan Sistem Manajemen Pembelajaran Bitcoin dari Plan ₿ Academy di mesin lokal Anda menggunakan Docker, kunci tiruan, dan konfigurasi repositori khusus.
 
 Jika Anda tidak memahami bagian di atas, jangan khawatir-tutorial ini cocok untuk Anda!
 
@@ -36,7 +36,7 @@ git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 
-**3. Mengatur Variabel Lingkungan***
+**3. Mengatur Variabel Lingkungan**
 
 1\. Gandakan file `.env.example`:
 
@@ -66,7 +66,7 @@ pastikan Anda telah menginstal versi nodejs yang sesuai. Pada 2024-12, v22.12.0 
 
 ⚠️ repositori Ubuntu 22.04 versi nodejs adalah 12.22.9: terlalu tua untuk memungkinkan Anda menginstal pnpm
 
-Untuk menginstal nodejs, temukan petunjuknya [di sini] (https://nodejs.org/en/download/package-manager); sebagai contoh, Anda dapat memilih untuk menggunakan metode instalasi `nvm`.
+Untuk menginstal nodejs, temukan petunjuknya [di sini](https://nodejs.org/en/download/package-manager); sebagai contoh, Anda dapat memilih untuk menggunakan metode instalasi `nvm`.
 
 ---
 Sebelum memulai tahap instalasi pnpm dari paket-paket yang diperlukan, pastikan semua dependensi telah terinstal, Anda dapat melakukannya dengan menjalankan perintah berikut:
@@ -106,7 +106,7 @@ Setelah kontainer berjalan, akses frontend di:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Catatan: bahwa aplikasi akan secara otomatis memuat ulang jika Anda mengubah file sumber.
 
@@ -142,7 +142,7 @@ kemudian lagi:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Menyesuaikan Repositori (Opsional)**
 

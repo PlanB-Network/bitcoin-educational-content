@@ -1,0 +1,9 @@
+question: Quale scienziato ritiene che la matematica sia il linguaggio dell'universo?
+answer: Galileo.
+wrong_answers:
+  - Keplero.
+  - Newton.
+  - Copernico.
+explanation: |
+  Galileo è famoso per la sua affermazione che "il libro della natura è scritto in linguaggio matematico". Questa visione ha avuto una profonda influenza sulla scienza moderna e sulla filosofia razionalista, compresa quella di Spinoza.
+reviewed: false

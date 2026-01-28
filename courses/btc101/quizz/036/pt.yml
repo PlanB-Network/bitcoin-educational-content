@@ -1,12 +1,12 @@
-question: O que significa o termo fiduciário no contexto das moedas?
-answer: Refere-se a moedas que são valiosas apenas por causa da confiança na instituição central que as regula.
+question: Qual é o caminho histórico seguido pelas instituições na introdução de moedas fiduciárias?
+answer: Líderes centralizam o ouro e introduzem uma nova moeda equivalente ao ouro em valor, que é então gradualmente desvalorizada.
 wrong_answers:
-  - Refere-se a moedas que são respaldadas por ouro e emitidas por pequenos bancos comerciais.
-  - Refere-se a moedas que são valiosas apenas para transações fiduciárias.
-  - Refere-se a moedas que são usadas apenas dentro de uma instituição específica.
+  - Líderes introduzem uma nova moeda respaldada por ouro, que é então gradualmente aumentada em valor.
+  - Líderes introduzem uma nova moeda sem valor intrínseco, que é então gradualmente aumentada em valor.
+  - Líderes introduzem uma nova moeda respaldada por uma cesta de commodities, que é então mantida estável em valor.
 explanation: |
-  Moedas fiduciárias não são respaldadas por uma commodity física
-  como ouro ou prata. Seu valor é derivado da confiança
-  e confiança que as pessoas têm nas instituições que as emitem
-  e regulam.
+  Historicamente, líderes centralizaram o ouro e introduziram
+  uma nova moeda equivalente em valor ao ouro. Esta nova
+  moeda é então gradualmente desvalorizada, muitas vezes sob o pretexto
+  de estar no interesse do povo.
 reviewed: true

@@ -1,9 +1,9 @@
-question: Vấn đề mở rộng quy mô của Bitcoin là gì?
-answer: Thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng.
+question: Nguyên tắc trung tâm của RGB là gì?
+answer: Xác thực phía máy khách
 wrong_answers:
-  - Khó khăn trong việc khai thác Bitcoin mới với giá trị tăng theo thời gian.
-  - Sự biến động của giá Bitcoin sẽ tăng sau mỗi lần halving.
-  - Sự thiếu quy định cho Bitcoin sẽ khiến các giao dịch trở nên bất hợp pháp.
-explanation: >-
-  Vấn đề mở rộng quy mô đề cập đến thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng.
-reviewed: true
+  - Thực thi toàn cục trên blockchain
+  - Đồng thuận liên bang
+  - Proof-of-Work
+explanation: |
+  RGB dựa trên việc xác thực cục bộ các trạng thái, trong đó blockchain chỉ đóng vai trò là mỏ neo mật mã và bảo vệ chống lại việc chi tiêu hai lần.
+reviewed: false

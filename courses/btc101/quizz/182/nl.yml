@@ -1,8 +1,8 @@
-question: Welke van de volgende kenmerken droegen bij aan de uitbreiding van het gebruik van Bitcoin in dark web marktplaatsen zoals Silk Road?
-answer: De oncontroleerbare en pseudonieme aard ervan.
+question: hoe lost Bitcoin het Byzantijnse Generaalsprobleem op?
+answer: Door het gebruik van een Blockchain gebaseerd op Proof of Work met een zwevende moeilijkheidsgraad.
 wrong_answers:
-  - De gecentraliseerde controle.
-  - De traceerbaarheid en controleerbaarheid.
-  - Het gebrek aan pseudonimiteit.
+  - Door het gebruik van digitale handtekeningen.
+  - Door het gebruik van een openbare Ledger.
+  - Door het gebruik van een Proof of Stake-algoritme.
 explanation: >-
 reviewed: true

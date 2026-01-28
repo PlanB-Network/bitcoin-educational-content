@@ -1,5 +1,5 @@
 ---
-name: ساتس‌کارت
+name: Satscard
 description: راه‌اندازی و استفاده از Satscard با Nunchuk
 ---
 ![cover](assets/cover.webp)

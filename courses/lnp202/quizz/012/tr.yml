@@ -1,0 +1,9 @@
+question: LN yerleşik düğümlerle ilgili ana uzlaşma nedir?
+answer: Operatör bağımlılığı
+wrong_answers:
+  - Özel anahtarların kaybı
+  - Kendi kendine velayet yok
+  - Onchain ödemeleri tüm Lightning işlemleri için zorunlu
+explanation: |
+  Kullanıcı, bağlantı ve kanal yönetimi için büyük ölçüde ana operatöre bağımlıdır.
+reviewed: false

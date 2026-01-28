@@ -1,0 +1,8 @@
+question: Điều gì xảy ra khi một biến nằm ngoài phạm vi trong hệ thống sở hữu của Rust?
+answer: Giá trị sẽ tự động bị xóa và bộ nhớ của nó được giải phóng.
+wrong_answers:
+  - Giá trị được chuyển sang phạm vi toàn cầu để tái sử dụng.
+  - Giá trị trở nên bất biến và được lưu giữ trong bộ nhớ.
+  - Giá trị được sao chép vào vị trí sao lưu để đảm bảo an toàn.
+explanation: |
+  Trong hệ thống quản lý quyền sở hữu của Rust, khi một biến nằm ngoài phạm vi (thường là khi quá trình thực thi thoát khỏi một khối được định nghĩa bởi dấu ngoặc nhọn), giá trị của biến đó sẽ tự động bị loại bỏ và bộ nhớ của nó được giải phóng. Việc dọn dẹp tự động này được thực hiện thông qua cơ chế loại bỏ của Rust, trong đó ngôn ngữ tự động gọi một hàm loại bỏ trên các biến nằm ngoài phạm vi. Điều này đảm bảo quản lý tài nguyên hợp lý mà không yêu cầu mã dọn dẹp rõ ràng từ lập trình viên, tuân theo mô hình RAII được mượn từ C++.

@@ -1,12 +1,12 @@
-question: ¿Dónde se almacenan los bitcoins?
-answer: En la blockchain de Bitcoin.
+question: ¿Cuál es la pregunta central que debes hacerte al elegir una cartera de Bitcoin, en términos de auto custodia?
+answer: ¿Eres el propietario de los fondos o dejas el control de tu dinero a un tercero?
 wrong_answers:
-  - En la cartera de Bitcoin.
-  - En el dispositivo donde está instalada la cartera.
-  - En la bóveda de la Reserva Federal.
+  - ¿Está la cartera asegurada con una frase de paso?
+  - ¿Permite la cartera recibir y enviar bitcoins?
+  - ¿Puedo compartir mi cartera con otra persona?
 explanation: |
-  Aunque tus claves privadas se almacenan en tu cartera, los
-  bitcoins en sí están almacenados en la blockchain de Bitcoin,
-  que es el libro mayor distribuido público dentro de la red
-  peer-to-peer de Bitcoin.
+  Al elegir una cartera de Bitcoin, la pregunta central es:
+  ¿eres el propietario de los fondos o dejas el control de
+  tu dinero a un tercero? Esto se debe a que el poseedor de
+  la clave privada es el propietario de los Bitcoins.
 reviewed: true

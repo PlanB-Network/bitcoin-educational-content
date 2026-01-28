@@ -1,0 +1,9 @@
+question: Lightning Network에서 채널을 개설하는 마지막 단계는 무엇인가요?
+answer: Bitcoin Blockchain에 입금 거래를 게시합니다
+wrong_answers:
+  - 출금 거래에 서명하여 자금을 회수합니다
+  - 상대방에게 개설 확인 메시지 보내기
+  - 각 참가자의 자금 잔액 확인
+explanation: |
+  채널 개설의 마지막 단계는 Blockchain에 입금 거래를 게시하여 채널을 공식적으로 개설하는 것입니다.
+reviewed: true

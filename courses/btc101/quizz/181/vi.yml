@@ -1,13 +1,9 @@
-question: Một cách mà Bitcoin đã hòa nhập sâu hơn vào thị trường truyền thống là gì?
-answer: Sự xuất hiện của Bitcoin ETFs.
+question: BTCMap là gì?
+answer: Một nền tảng liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin.
 wrong_answers:
-  - Việc cấm Bitcoin.
-  - Sự biến mất của tất cả các loại tiền mã hóa.
-  - Việc tạo ra Bitcoin.
-explanation: |
-  Bitcoin tiếp tục tồn tại và phát triển hơn nữa bằng cách
-  hòa nhập ngày càng sâu vào thị trường truyền thống.
-  Sự xuất hiện của Bitcoin ETFs, quy định rõ ràng hơn,
-  và việc tiếp cận dễ dàng hơn với các công cụ lưu trữ chỉ khuyến khích
-  xu hướng này.
+  - Bản đồ tất cả các mỏ Bitcoin trên thế giới.
+  - Bản đồ tất cả các sàn giao dịch Bitcoin trên thế giới.
+  - Bản đồ tất cả người dùng Bitcoin trên thế giới.
+explanation: >-
+  BTCMap là một dự án mã nguồn mở và cộng tác liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin cũng như các cộng đồng Bitcoin khác nhau trên thế giới.
 reviewed: true

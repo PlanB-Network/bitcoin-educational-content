@@ -7,17 +7,17 @@ Akronym für "Bitcoin Improvement Proposal" (Bitcoin-Verbesserungsvorschlag) Ein
 Die BIPs werden in drei Hauptkategorien eingeteilt:
 
 
-- Standards Track BIPs*: Betrifft Änderungen, die sich direkt auf Bitcoin-Implementierungen auswirken, wie z.B. Transaktions- und Blockvalidierungsregeln;
-- Informationelle BIPs*: Sie enthalten Informationen oder Empfehlungen, ohne direkte Änderungen am Protokoll vorzuschlagen;
-- BIPs* verarbeiten: Beschreiben Sie Änderungen in den Verfahren rund um Bitcoin, wie z. B. Governance-Prozesse.
+- **Standards Track BIPs**: Betrifft Änderungen, die sich direkt auf Bitcoin-Implementierungen auswirken, wie z.B. Transaktions- und Blockvalidierungsregeln;
+- **Informationelle BIPs**: Sie enthalten Informationen oder Empfehlungen, ohne direkte Änderungen am Protokoll vorzuschlagen;
+- **BIPs** verarbeiten: Beschreiben Sie Änderungen in den Verfahren rund um Bitcoin, wie z. B. Governance-Prozesse.
 
 Standard- und Informations-BIPs werden auch nach "Schicht" klassifiziert:
 
 
-- Konsens-Schicht*: BIPs in dieser Schicht betreffen die Konsensregeln von Bitcoin, wie z.B. Änderungen an den Block- oder Transaktionsvalidierungsregeln. Diese Vorschläge können entweder Soft Forks (rückwärtskompatible Änderungen) oder Hard Forks (nicht rückwärtskompatible Änderungen) sein. Zum Beispiel gehören die BIPs für SegWit und Taproot zu dieser Kategorie;
-- Peer-Dienste*: Diese Schicht befasst sich mit dem Betrieb des Bitcoin-Knotennetzwerks, d.h. damit, wie die Knoten einander im Internet finden und miteinander kommunizieren.
-- API/RPC*: Die BIPs dieser Schicht betreffen die Anwendungsprogrammierschnittstellen (API) und Remote Procedure Calls (RPC), die es Bitcoin-Software ermöglichen, mit den Knoten zu interagieren;
-- Anwendungsschicht*: Diese Schicht bezieht sich auf Anwendungen, die auf Bitcoin aufsetzen. Die BIPs in dieser Kategorie befassen sich typischerweise mit Änderungen auf der Ebene der Bitcoin-Wallet-Standards.
+- **Konsens-Schicht**: BIPs in dieser Schicht betreffen die Konsensregeln von Bitcoin, wie z.B. Änderungen an den Block- oder Transaktionsvalidierungsregeln. Diese Vorschläge können entweder Soft Forks (rückwärtskompatible Änderungen) oder Hard Forks (nicht rückwärtskompatible Änderungen) sein. Zum Beispiel gehören die BIPs für SegWit und Taproot zu dieser Kategorie;
+- **Peer-Dienste**: Diese Schicht befasst sich mit dem Betrieb des Bitcoin-Knotennetzwerks, d.h. damit, wie die Knoten einander im Internet finden und miteinander kommunizieren.
+- **API/RPC**: Die BIPs dieser Schicht betreffen die Anwendungsprogrammierschnittstellen (API) und Remote Procedure Calls (RPC), die es Bitcoin-Software ermöglichen, mit den Knoten zu interagieren;
+- **Anwendungsschicht**: Diese Schicht bezieht sich auf Anwendungen, die auf Bitcoin aufsetzen. Die BIPs in dieser Kategorie befassen sich typischerweise mit Änderungen auf der Ebene der Bitcoin-Wallet-Standards.
 
 Der Prozess der Einreichung eines BIP beginnt mit der Konzeptualisierung und Diskussion der Idee auf der *Bitcoin-dev* Mailingliste. Wenn die Idee vielversprechend ist, entwirft der Autor ein BIP, das einem bestimmten Format folgt, und reicht es über einen Pull Request im Core-Repository auf GitHub ein. Die Redakteure überprüfen diesen Vorschlag, um sicherzustellen, dass er alle Kriterien erfüllt. Das BIP muss technisch durchführbar sein, dem Protokoll nützen, die geforderte Formatierung einhalten und mit der Philosophie von Bitcoin übereinstimmen. Wenn das BIP diese Bedingungen erfüllt, wird es offiziell in das GitHub-Repository der BIPs integriert. Dann wird ihm eine Nummer zugewiesen. Diese Nummer wird in der Regel vom Redakteur, oft Luke Dashjr, festgelegt und logisch vergeben: BIPs, die sich mit ähnlichen Themen befassen, erhalten oft fortlaufende Nummern.
 

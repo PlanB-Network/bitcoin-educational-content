@@ -1,0 +1,9 @@
+question: Jaké jsou tři hlavní výhody pravidelných aktualizací operačního systému a aplikací?
+answer: Bezpečnost, spolehlivost, funkčnost
+wrong_answers:
+  - Rychlost, anonymita, kompatibilita
+  - Zabezpečení, paměť, úložiště
+  - Důvěrnost, funkčnost, spolehlivost
+explanation: |
+  Aktualizace zajišťují zabezpečení proti zranitelnostem, kompatibilitu s vývojem a novými funkcemi a spolehlivost systému.
+reviewed: true

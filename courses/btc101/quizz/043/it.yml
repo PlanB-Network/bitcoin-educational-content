@@ -1,12 +1,10 @@
-question: Qual è il percorso storico seguito dalle istituzioni nell'introduzione delle valute fiat?
-answer: I leader centralizzano l'oro e introducono una nuova valuta equivalente all'oro in valore, che viene poi gradualmente svalutata.
+question: Qual è la fase finale dell'iperinflazione?
+answer: Emerge una nuova valuta.
 wrong_answers:
-  - I leader introducono una nuova valuta supportata dall'oro, che viene poi gradualmente aumentata in valore.
-  - I leader introducono una nuova valuta senza valore intrinseco, che viene poi gradualmente aumentata in valore.
-  - I leader introducono una nuova valuta supportata da un paniere di materie prime, che viene poi mantenuta stabile in valore.
+  - Perdita di fiducia.
+  - Crollo della valuta e aumento dei prezzi.
+  - Il circolo vizioso della stampa di denaro.
 explanation: |
-  Storicamente, i leader hanno centralizzato l'oro e introdotto
-  una nuova valuta equivalente in valore all'oro. Questa nuova
-  valuta viene poi gradualmente svalutata, spesso sotto la pretesa
-  di essere nell'interesse del popolo.
+  La fase finale dell'iperinflazione si verifica quando viene introdotta una nuova
+  valuta per sostituire quella vecchia.
 reviewed: vero

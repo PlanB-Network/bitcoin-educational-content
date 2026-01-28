@@ -1,9 +1,10 @@
-question: Hva er den primære funksjonen til noder i Bitcoin-nettverket?
-answer: Å opprettholde en kopi av Bitcoin-blockchainen, validere transaksjoner, overføre informasjon til andre noder, og håndheve reglene i Bitcoin-protokollen.
+question: Hva handlet blokk-krigen i 2017 om?
+answer: En konflikt om hvorvidt man skulle øke blokkstørrelsen for å øke transaksjonskapasiteten
 wrong_answers:
-  - Kun validere transaksjoner
-  - Kun opprettholde en kopi av Bitcoin-blockchainen
-  - Kun overføre informasjon til andre noder
+  - En konflikt om hvorvidt man skulle redusere blokkstørrelsen for å redusere transaksjonskapasiteten
+  - En konflikt om hvorvidt man skulle øke blokkbelønningen for å motivere gruvearbeidere
+  - En konflikt om hvorvidt man skulle redusere blokkbelønningen for å demotivere gruvearbeidere
 explanation: >-
-  Noder i Bitcoin-nettverket utfører flere avgjørende funksjoner, inkludert å opprettholde en kopi av Bitcoin-blockchainen, validere transaksjoner, overføre informasjon til andre noder, og håndheve reglene i Bitcoin-protokollen.
+  Blokk-krigen i 2017 var en konflikt om hvorvidt man skulle modifisere Bitcoin
+  ved å øke blokkstørrelsen for å øke transaksjonskapasiteten.
 reviewed: false

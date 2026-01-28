@@ -1,8 +1,8 @@
-question: Wat is een manier om de volatiliteit van Bitcoin te beperken?
-answer: Financiële afdekkingen (stablecoins).
+question: Welke van de volgende kenmerken droegen bij aan de uitbreiding van het gebruik van Bitcoin in dark web marktplaatsen zoals Silk Road?
+answer: De oncontroleerbare en pseudonieme aard ervan.
 wrong_answers:
-  - Investeer al je geld in Bitcoin.
-  - Het negeren van markttrends.
-  - Meer Bitcoin kopen als de prijs daalt.
+  - De gecentraliseerde controle.
+  - De traceerbaarheid en controleerbaarheid.
+  - Het gebrek aan pseudonimiteit.
 explanation: >-
 reviewed: true

@@ -1,8 +1,8 @@
-question: Ni ikihe ciza kimwe coshobora kuva mu kwemera ubuhinga bushasha nka Bitcoin?
-answer: Bishobora generate ubutunzi bwinshi kw’isi yose.
+question: Ni imwe mu ngaruka nyamukuru za Bitcoin ku bijanye n’ubuhinga bwa banki?
+answer: Bituma umuntu yidegemvya akava mu nzira y’amabanki.
 wrong_answers:
-  - Bishobora gutuma ubutunzi bw’isi yose busenyuka.
-  - Bishobora gutuma ubwenge bw’umuntu bugabanuka.
-  - Bishobora gutuma akazi kose gakurwaho.
+  - Bituma umuntu ashobora kugenzura uburyo bwo gukora amabanki.
+  - Bituma habaho ugukuraho uburyo bwo gukoresha amabanki.
+  - Bituma haba ibiturire mu bijanye n’amabanki.
 explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Apa yang dapat dilakukan parameter dbcache di Bitcoin core?
+answer: Mengalokasikan RAM untuk mempercepat IBD
+wrong_answers:
+  - Tentukan ukuran Blockchain
+  - Sesuaikan tingkat kesulitan Mining maksimum
+  - Batasi jumlah rekan yang terhubung
+explanation: |
+  Parameter dbcache meningkatkan ruang memori yang digunakan untuk menyimpan sementara set UTXO, yang dapat mempercepat proses sinkronisasi awal.
+reviewed: true

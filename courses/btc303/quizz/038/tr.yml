@@ -1,0 +1,9 @@
+question: Bölüme göre, Bitcoin mutabakat kuralı değişikliklerinde yumuşak fork'i sert fork'den ayıran nedir?
+answer: Yumuşak bir fork tam uyumludur (hem ileri hem de geri uyumlu), sert bir fork ise yalnızca geri uyumludur
+wrong_answers:
+  - Yumuşak fork madenci sinyali aktivasyonu gerektirirken, sert fork bayrak günü aktivasyonunu kullanır
+  - Yumuşak fork mevcut işlem kodlarını değiştirirken, sert fork yalnızca OP_NOP1-OP_NOP10 gibi yeni işlem kodları ekler
+  - Yumuşak bir fork, taahhütlerde gizlice uygulanabilirken, sert bir fork için kamuoyuna duyuru yapılması gerekir
+explanation: |
+  Bu bölüm uyumluluk türlerini açıkça tanımlamaktadır: ileriye dönük uyumluluk eski yazılımın bilinmeyen kısımları göz ardı ederek yeni verileri işlemesini sağlarken, geriye dönük uyumluluk yeni yazılımın eski verileri işlemesini sağlar. Yumuşak bir fork her iki uyumluluk türünü de koruyarak tam uyumlu hale gelir. Sert bir fork yalnızca geriye dönük uyumluluğu korur, yani yeni yazılım eski verileri işleyebilir ancak eski yazılım yükseltilmiş sistemden gelen yeni verileri işleyemez. Bu ayrım, Bitcoin yükseltme mekanizmalarını ve ağ uyumunu korumak için neden yumuşak çatalların tercih edildiğini anlamak için çok önemlidir.
+reviewed: false

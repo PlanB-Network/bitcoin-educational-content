@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan node Bitcoin?
+answer: Komputer yang menjalankan perangkat lunak yang mengimplementasikan protokol Bitcoin
+wrong_answers:
+  - Sebuah Hardware Wallet yang mengimplementasikan jaringan Bitcoin
+  - Miner yang memproduksi blok baru untuk Bitcoin
+  - Server pusat yang mengelola jaringan Bitcoin dan konfirmasi transaksi
+explanation: |
+  Node Bitcoin adalah komputer yang menjalankan perangkat lunak, seperti Bitcoin core, yang mengimplementasikan protokol dan berpartisipasi dalam jaringan Bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ai nói rằng "con người không phải là một đế chế trong một đế chế"?
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Einstein.
+  - Thánh Augustin.
+explanation: |
+  Chính Spinoza đã khẳng định rằng "con người không phải là một đế chế trong một đế chế". Câu nói này thể hiện ý tưởng rằng con người không tách biệt khỏi thiên nhiên, mà là một phần không thể thiếu của thiên nhiên, tuân theo cùng những quy luật đó.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er hensikten med revNNNNNNN.dat-filene som er lagret sammen med blkNNNNNNN.dat?
+answer: Gjenopprett UTXO som ble satt under omorganiseringen
+wrong_answers:
+  - Gjenopprett UTXO som ble satt under en Hard Fork
+  - Gjenopprett Mempool under Hard Fork
+  - Gjenoppretting av Mempool under en omorganisering
+explanation: |
+  Hver revNNNNNNN.dat inneholder dataene som trengs for å oppheve effekten av en blokk på UTXO-settet, noe som gjør det enklere å håndtere omorganiseringer.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Když jsou hashe bloků Bitcoin interpretovány jako malá endiánská celá čísla pro porovnávání cílů, proč se v hexadecimální reprezentaci platných bloků obvykle zobrazuje mnoho koncových nul?
+answer: Protože little-endian interpretace znamená, že nejpravější bajty v hexadecimálním tvaru odpovídají nejvýznamnějším bitům hodnoty celého čísla
+wrong_answers:
+  - Protože algoritmus SHA-256 přirozeně vytváří koncové nuly, pokud vstupní data transakce obsahují opakující se vzory
+  - Protože těžaři záměrně doplňují záhlaví bloku nulovými bajty, aby byl výpočet hashe pro hardware ASIC efektivnější
+  - Protože pole nonce je inkrementováno od nuly nahoru, což způsobuje, že hašovací funkce generate vzory s koncovými nulami
+explanation: |
+  Při little-endian interpretaci se bajty čtou v opačném pořadí, takže nejpravější bajty v hexadecimální soustavě jsou nejvýznamnější částí celého čísla. Aby byl hash nižší než cíl (malé číslo), musí být jeho nejvýznamnější bity nulové, což se v hexadecimálním zobrazení projeví jako koncové nuly. Jedná se o čistě reprezentační artefakt převodu endianity, nikoli o vlastnost hardwaru SHA-256 nebo mining.

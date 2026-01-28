@@ -16,21 +16,21 @@ Relai skiller seg ut for sin enkelhet, tilgjengelighet og fokus på langsiktig B
 ### Trinn 1: Last ned Relai-appen
 
 
-- Hvor du finner den:** Appen er tilgjengelig både i App Store (iOS) og Google Play Store (Android). Søk etter "Relai" og last den ned gratis.
-- Hurtigoppsett:** Når du har installert appen, åpner du den og følger den veiledede oppsettprosessen.
+- **Hvor du finner den:** Appen er tilgjengelig både i App Store (iOS) og Google Play Store (Android). Søk etter "Relai" og last den ned gratis.
+- **Hurtigoppsett:** Når du har installert appen, åpner du den og følger den veiledede oppsettprosessen.
 
 ### Trinn 2: Opprett kontoen din
 
 
-- Obligatorisk KYC:** Relai krever nå en KYC-verifisering (Know Your Customer). Forbered et gyldig ID-dokument og bevis på adresse.
-- Verifiseringsprosess:** Last opp dokumentene dine, ta en selfie for å bekrefte identiteten din, og vent på godkjenning (vanligvis innen 24 timer).
-- Hvorfor KYC?:** Det sikrer etterlevelse av finansregelverket og øker sikkerheten for alle brukere.
+- **Obligatorisk KYC:** Relai krever nå en KYC-verifisering (Know Your Customer). Forbered et gyldig ID-dokument og bevis på adresse.
+- **Verifiseringsprosess:** Last opp dokumentene dine, ta en selfie for å bekrefte identiteten din, og vent på godkjenning (vanligvis innen 24 timer).
+- **Hvorfor KYC?** Det sikrer etterlevelse av finansregelverket og øker sikkerheten for alle brukere.
 
 ### Trinn 3: Sikre lommeboken din
 
 
-- Selvforvaring:** Relai tilbyr en lommebok uten forvaring, noe som betyr at du kontrollerer de private nøklene dine.
-- Ta sikkerhetskopi av nøklene dine:** Skriv ned gjenopprettingsfrasen på 12 ord på papir (ikke digitalt) og oppbevar den på et sikkert sted. Dette er avgjørende for å få tilgang til pengene dine hvis telefonen går tapt eller blir stjålet.
+- **Selvforvaring:** Relai tilbyr en lommebok uten forvaring, noe som betyr at du kontrollerer de private nøklene dine.
+- **Ta sikkerhetskopi av nøklene dine:** Skriv ned gjenopprettingsfrasen på 12 ord på papir (ikke digitalt) og oppbevar den på et sikkert sted. Dette er avgjørende for å få tilgang til pengene dine hvis telefonen går tapt eller blir stjålet.
 
 ---
 ## Hvordan lage en Bitcoin-spareplan
@@ -123,11 +123,11 @@ Relai vil vise gjeldende nettverksavgifter.
 ## Tips for sikker håndtering av Bitcoin
 
 
-- Hold gjenopprettingsfrasen din trygg:** Lagre den offline og unngå å dele den med noen.
-- Aktiver appsikkerhet:** Bruk en sterk PIN-kode eller biometrisk autentisering.
-- Diversifiser lagring:** Vurder å bruke en maskinvarelommebok for store mengder Bitcoin.
-- Oppdater appen jevnlig:** Hold deg beskyttet med de nyeste sikkerhetsoppdateringene og funksjonene.
-- Unngå offentlig Wi-Fi:** Bruk kun sikre nettverk for å få tilgang til lommeboken din.
+- **Hold gjenopprettingsfrasen din trygg:** Lagre den offline og unngå å dele den med noen.
+- **Aktiver appsikkerhet:** Bruk en sterk PIN-kode eller biometrisk autentisering.
+- **Diversifiser lagring:** Vurder å bruke en maskinvarelommebok for store mengder Bitcoin.
+- **Oppdater appen jevnlig:** Hold deg beskyttet med de nyeste sikkerhetsoppdateringene og funksjonene.
+- **Unngå offentlig Wi-Fi:** Bruk kun sikre nettverk for å få tilgang til lommeboken din.
 
 ---
 ## Relai Business Accounts
@@ -135,10 +135,10 @@ Relai vil vise gjeldende nettverksavgifter.
 Relai støtter også bedrifter som ønsker å investere i Bitcoin. Funksjonene inkluderer:
 
 
-- Skreddersydde spareplaner:** Skreddersydde planer som passer bedriftens behov.
-- Tilgang for flere brukere:** Gjør det mulig for flere teammedlemmer å administrere kontoen på en sikker måte.
-- Utvidede grenser:** Invester større beløp sammenlignet med personlige kontoer.
-- Dedikert support:** Få tilgang til prioritert kundeservice for bedrifter.
+- **Skreddersydde spareplaner:** Skreddersydde planer som passer bedriftens behov.
+- **Tilgang for flere brukere:** Gjør det mulig for flere teammedlemmer å administrere kontoen på en sikker måte.
+- **Utvidede grenser:** Invester større beløp sammenlignet med personlige kontoer.
+- **Dedikert support:** Få tilgang til prioritert kundeservice for bedrifter.
 
 For å opprette en bedriftskonto kan du kontakte Relais supportteam via nettstedet deres.
 
@@ -148,9 +148,9 @@ For å opprette en bedriftskonto kan du kontakte Relais supportteam via nettsted
 Relai tilbyr et spennende verveprogram der du kan tjene Bitcoin ved å invitere vennene dine til å bruke appen. Her er hvordan det fungerer:
 
 
-- Del henvisningskoden din:** Hver Relai-bruker får en unik henvisningskode. Del den med vennene dine.
-- Tjen 10 % av gebyrene:** Du tjener 10 % av gebyrene fra dine venners transaksjoner når de bruker koden din.
-- Passiv Bitcoin-inntekt:** Etter hvert som vennene dine fortsetter å handle på Relai, vil du fortsette å tjene Bitcoin. Det er en vinn-vinn-situasjon for både deg og vennene dine.
+- **Del henvisningskoden din:** Hver Relai-bruker får en unik henvisningskode. Del den med vennene dine.
+- **Tjen 10 % av gebyrene:** Du tjener 10 % av gebyrene fra dine venners transaksjoner når de bruker koden din.
+- **Passiv Bitcoin-inntekt:** Etter hvert som vennene dine fortsetter å handle på Relai, vil du fortsette å tjene Bitcoin. Det er en vinn-vinn-situasjon for både deg og vennene dine.
 
 Begynn å dele koden din i dag og få Bitcoin-stakken din til å vokse uten problemer!
 
@@ -161,7 +161,7 @@ Begynn å dele koden din i dag og få Bitcoin-stakken din til å vokse uten prob
 
 
 - Relai tar et konkurransedyktig gebyr på 1 % per transaksjon, eller 0,9 % hvis du bruker en henvisningskode som `REL361712`. Gebyrene vises tydelig før du bekrefter et kjøp.
-- Ingen gebyrer:** Transaksjoner opp til 100 euro eller 100 CHF er helt gebyrfrie.
+- **Ingen gebyrer:** Transaksjoner opp til 100 euro eller 100 CHF er helt gebyrfrie.
 
 ### Kan jeg sette spareplanen min på pause?
 

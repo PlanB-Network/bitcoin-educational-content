@@ -8,4 +8,4 @@ Kontrolní součet je hodnota vypočtená ze souboru dat, která se používá k
 V systému Bitcoin se kontrolní součty používají na úrovni aplikace k zajištění integrity přijímacích adres. Kontrolní součet se vypočítá z užitečného zatížení uživatelské adresy Address a poté se přidá k této adrese Address, aby se zjistily případné chyby na vstupu. Kontrolní součet je také přítomen ve frázích pro obnovení (mnemotechnice).
 
 
-> ►Všeobecně je přijato používat anglický termín "checksum" přímo ve francouzštině.*
+> ►Všeobecně je přijato používat anglický termín "checksum" přímo ve francouzštině.

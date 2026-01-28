@@ -1,5 +1,5 @@
 ---
-name: クラーケン
+name: Kraken
 description: Krakenでビットコインを売買する方法を教えてください。
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ description: Krakenでビットコインを売買する方法を教えてくだ�
 
 
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - Krakenアカウントを作成する
 
@@ -164,7 +164,7 @@ Interfaceは実に地味でカラフルだ。2ファクタ認証を追加して�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 自分に合った方法を選んだら、いよいよ最初のサトシを購入するための入金の準備が整った。
 
@@ -259,7 +259,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-*この例では、21ユーロをKrakenアカウントに入金して、売買の部分をもう少し詳しく説明します。
+*この例では、21ユーロをKrakenアカウントに入金して、売買の部分をもう少し詳しく説明します。*
 
 
 
@@ -329,7 +329,7 @@ Lightning Networkにご興味のある方は、その仕組みを理解するた
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 
@@ -343,11 +343,11 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-お気に入りのWallet Bitcoinで提供されるQRコードをスキャンするか、同じコンピュータでWalletを使用している場合はAddressをコピーしてください。 **資金がKrakenアカウントに入金されるまで、3回の確認が必要です。
+お気に入りのWallet Bitcoinで提供されるQRコードをスキャンするか、同じコンピュータでWalletを使用している場合はAddressをコピーしてください。 **資金がKrakenアカウントに入金されるまで、3回の確認が必要です。**
 
 
 
-*この例では、21ドル相当のビットコインを入金する。
+*この例では、21ドル相当のビットコインを入金する。*
 
 
 
@@ -543,7 +543,7 @@ Krakenでビットコインを取引する最後の方法は、貴重なサト�
 
 
 
-しかし、請求される手数料は、Interfaceの**クラーケン**シンプル***が支払う**1%**よりも低いことは注目に値する。比較すると、**クラーケン・プロ**は、以下に詳述する手数料を提供している。
+しかし、請求される手数料は、Interfaceの**クラーケン**シンプル***が支払う***1%よりも低いことは注目に値する。比較すると、**クラーケン・プロ**は、以下に詳述する手数料を提供している。
 
 
 
@@ -563,7 +563,7 @@ Krakenでビットコインを取引する最後の方法は、貴重なサト�
 
 
 
-Kraken Pro**にアクセスするには、画面右上の四角く並んだ9つの小さな点をクリックし、"Kraken Pro "を選択します。
+Kraken **Pro**にアクセスするには、画面右上の四角く並んだ9つの小さな点をクリックし、"Kraken Pro "を選択します。
 
 
 
@@ -579,7 +579,7 @@ Kraken Pro**にアクセスするには、画面右上の四角く並んだ9つ�
 
 
 
-Kraken Pro**で売買するには、左上の「Trade」をクリックしてください。
+Kraken **Pro** で売買するには、左上の「Trade」をクリックしてください。
 
 
 

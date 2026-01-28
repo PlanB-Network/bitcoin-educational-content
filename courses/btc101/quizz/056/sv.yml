@@ -1,11 +1,12 @@
-question: Hur hög var inflationstakten i Ungern i juli 1946?
-answer: 41,900,000,000,000,000%
+question: Vilket är det matematiska koncept som bygger på mänsklig rationalitet och som används i Bitcoin?
+answer: Spelteori.
 wrong_answers:
-  - 207%
-  - 50%
-  - 100%
+  - Sannolikhetsteori.
+  - Nummerteori.
+  - Mängdteori.
 explanation: |
-  Månaden med den högsta inflationen i Ungern var juli
-  1946, med en rekordhög prisinflation på
-  41,900,000,000,000,000%.
+  Spelteori är ett matematiskt koncept som bygger på
+  mänsklig rationalitet. I Bitcoin är protokolländringar
+  av användarna, vilket gör alla ändringar av Bitcoin-protokollet
+  protokollet mycket komplex.
 reviewed: true

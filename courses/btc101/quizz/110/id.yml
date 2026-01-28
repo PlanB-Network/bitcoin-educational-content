@@ -1,10 +1,9 @@
-question: Apa itu Blockmit dalam konteks keamanan Bitcoin?
-answer: Solusi murah untuk mengukir frasa mnemonik Anda pada baja
+question: Kapan Satoshi Nakamoto menghilang?
+answer: Pada tahun 2010
 wrong_answers:
-  - Sejenis dompet Bitcoin untuk menandatangani beberapa transaksi sekaligus
-  - Solusi murah untuk menambang bitcoin di rumah
-  - Sejenis dompet Bitcoin yang memerlukan beberapa tanda tangan untuk menghabiskan bitcoin
+  - Pada tahun 2008
+  - Pada tahun 2009
+  - Pada tahun 2023
 explanation: |
-  Blockmit adalah solusi murah untuk mengukir frasa mnemonik Anda
-  pada material tahan lama seperti baja, dengan demikian mengamankan bitcoin Anda dalam jangka panjang.
+  Satoshi Nakamoto menghilang pada tahun 2010, meninggalkan ciptaannya di tangan komunitas.
 reviewed: true

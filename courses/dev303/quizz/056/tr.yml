@@ -1,0 +1,8 @@
+question: Özel işlev benzeri bir makroda virgülle ayrılmış sıfır veya daha fazla ifadeyle hangi makro deseni sözdizimi doğru şekilde eşleşir?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  Doğru sözdizimi $($x:expr),*, Rust'ın tekrarlama modelini kullanır; burada dolar işareti bir tekrarlama grubunu tanıtır, $x:expr her ifadeyi expr fragment belirticisiyle eşleştirir, virgül ifadeler arasında ayırıcı görevi görür ve yıldız işareti (*) sıfır veya daha fazla tekrarı belirtir. Yanlış yanıtlar sözdizimi hataları içerir: $($x:expr)*, virgülü tekrar grubunun dışına yerleştirir, $[x:expr],* parantez yerine köşeli parantez kullanır ve x'ten önce dolar işaretini atlar ve ${$x:expr},* tekrar grubu için parantez yerine küme parantezleri kullanır.

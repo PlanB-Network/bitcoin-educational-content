@@ -16,11 +16,11 @@ description: Alby Go mobiilirakenduse juhend
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(soovitatav)*
-- Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
-- Coinos** *(testimata)*
-- Primal** *(testimata)*
-- Minibitid** *(testimata)*
+- [Alby Hub](https://albyhub.com/) **(soovitatav)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
+- **Coinos** *(testimata)*
+- **Primal** *(testimata)*
+- **Minibitid** *(testimata)*
 
 
 Enamik NWC-toega teenuseid peaks toimima. Kui testite uut teenust, andke kogukonnale oma tulemustest teada!
@@ -33,9 +33,9 @@ Saadaval suurematel platvormidel:
 
 
 
-- iOS:** [Lae alla App Store'ist](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Lae alla Google Play'st](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Lae alla App Store'ist](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Lae alla Google Play'st](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 

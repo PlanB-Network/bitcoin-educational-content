@@ -6,4 +6,4 @@ wrong_answers:
   - La apertura de un nuevo canal de pago
 explanation: |
   Una transacción de compromiso representa la distribución actual de fondos en el canal después de cada transacción Lightning, pero no se publica en la blockchain mientras el canal permanezca abierto.
-reviewed: false
+reviewed: true

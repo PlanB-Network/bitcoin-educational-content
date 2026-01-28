@@ -1,12 +1,11 @@
-question: Hvorfor ble gull standard byttemiddel?
-answer: På grunn av dets sjeldenhet, holdbarhet og delelighet
+question: Hva er den største fordelen med gull over andre former for valuta?
+answer: Dets naturlige sjeldenhet gjør det verdifullt, mens dets kjemiske egenskaper gjør at det ikke eroderer over tid
 wrong_answers:
-  - På grunn av dets overflod, holdbarhet og udelelighet
-  - På grunn av dets sjeldenhet, forgjengelighet og delelighet
-  - På grunn av dets overflod, forgjengelighet og udelelighet
+  - Det er lett å dele opp og transportere
+  - Det er underlagt monetær inflasjon
+  - Det er bredt akseptert i handel
 explanation: |
-  Gull ble standard byttemiddel på grunn av dets sjeldenhet, holdbarhet,
-  og delelighet. Dets sjeldenhet forhindrer devaluering fra produksjon, dets holdbarhet sikret at det ikke
-  eroderte over tid, og dets delelighet tillot det å bli brukt i transaksjoner av varierende
-  størrelser.
+  Den største fordelen med gull over andre former for valuta er dets naturlige
+  sjeldenhet, som gjør det verdifullt, og dets kjemiske egenskaper, som gjør at det
+  ikke eroderer over tid.
 reviewed: true

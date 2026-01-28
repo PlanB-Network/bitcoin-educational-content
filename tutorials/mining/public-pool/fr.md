@@ -23,7 +23,7 @@ Dans les premières lignes, on peut voir **Bitaxe** avec 1323 **Bitaxe** connect
 
 Tout en haut de la page, vous pouvez copier l'adresse de la pool **stratum+tcp://public-pool.io:21496**.
 
-Ensuite, pour le champ **user**, renseignez une adresse **Bitcoin** que vous possédez.
+Ensuite, dans le champ **user**, renseignez une adresse **Bitcoin** que vous possédez.
 
 Si vous avez plusieurs mineurs, vous pouvez entrer la même adresse sur tous pour que leurs **hashrates** soient additionnés et apparaissent comme un seul mineur. Vous pouvez également les distinguer en ajoutant un nom distinct à chacun. Pour cela, ajoutez simplement **.workername** après l’adresse **Bitcoin**.
 

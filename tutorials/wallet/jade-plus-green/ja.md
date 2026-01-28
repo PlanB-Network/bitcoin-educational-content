@@ -1,5 +1,5 @@
 ---
-name: ジェイド・プラス - グリーン
+name: Jade Plus - Green
 description: グリーンでジェイドプラスを簡単に設定
 ---
 ![cover](assets/cover.webp)
@@ -36,7 +36,7 @@ Jade Plusは、USB-Cによる有線接続、マイクロSDカード（要アダ�
 
 このチュートリアルでは、Bluetooth接続を介してBlockstreamのGreen WalletモバイルアプリでJade Plusをセットアップして使用します。このセットアップは初心者に最適です。より高度なアプローチをお探しなら、このチュートリアルをご覧になることをお勧めします。このチュートリアルでは、Jade PlusとSparrow WalletをQRコードモードで使用します：
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## ジェイド・プラス安全モデル
 
@@ -89,7 +89,7 @@ JADE PLUSがお手元に届きましたら、箱や封が開封されていな�
 
 ![JADE-PLUS-GREEN](assets/fr/06.webp)
 
-Begin Setup "を選択します。Advanced Setup*"オプションでも同じことができますが、高度な設定にアクセスできます。
+Begin Setup "を選択します。**Advanced Setup**"オプションでも同じことができますが、高度な設定にアクセスできます。
 
 ![JADE-PLUS-GREEN](assets/fr/07.webp)
 
@@ -97,11 +97,11 @@ Begin Setup "を選択します。Advanced Setup*"オプションでも同じこ
 
 ![JADE-PLUS-GREEN](assets/fr/08.webp)
 
-Continue*」ボタンをクリックして、新しいリカバリーフレーズを表示します。
+「**Continue**」ボタンをクリックして、新しいリカバリーフレーズを表示します。
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-あなたのJade Plusは12語のニーモニックフレーズを表示します。 **このニーモニックにより、全てのビットコインに無制限にアクセスすることができます。このニーモニックフレーズを持っている人は、Jade Plusに物理的にアクセスできなくても、あなたの資金を盗むことができます。この12単語のフレーズは、Jadeの紛失、盗難、破損の際にビットコインへのアクセスを回復します。そのため、慎重に保存し、安全な場所に保管することが非常に重要です。
+あなたのJade Plusは12語のニーモニックフレーズを表示します。 **このニーモニックにより、全てのビットコインに無制限にアクセスすることができます。このニーモニックフレーズを持っている人は、Jade Plusに物理的にアクセスできなくても、あなたの資金を盗むことができます。この12単語のフレーズは、Jadeの紛失、盗難、破損の際にビットコインへのアクセスを回復します。そのため、慎重に保存し、安全な場所に保管することが非常に重要です。**
 
 箱の中に入っている厚紙に書いてもいいし、火災や水害、倒壊から守るために、ステンレス製の台座に刻印するのもおすすめだ。
 
@@ -109,9 +109,9 @@ Continue*」ボタンをクリックして、新しいリカバリーフレー�
 
 ニモニックフレーズの保存と管理の適切な方法については、特に初心者の方には、この他のチュートリアルをご覧になることを強くお勧めします：
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***このチュートリアルで私がしているように、これらの言葉をインターネット上で決して共有してはなりません。このサンプルポートフォリオはTestnet上でのみ使用され、チュートリアルが終了した時点で削除されます。
+**このチュートリアルで私がしているように、これらの言葉をインターネット上で決して共有してはなりません。このサンプルポートフォリオはTestnet上でのみ使用され、チュートリアルが終了した時点で削除されます。**
 
 画面右の矢印をクリックすると、以下の言葉が表示される。
 
@@ -125,17 +125,17 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 このチュートリアルでは、Green Walletアプリケーションを使用して、Jade Plus上でホストされているウォレットを管理します。この方法は特に初心者に適しています。より詳細にビットコインウォレットを管理したい場合は、別のチュートリアルで取り上げる Sparrow Wallet を使用することもできます：
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Blockstream Greenアプリケーションのインストールと設定については、このチュートリアルの最初の部分を参照してください：
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ブロックストリーム・グリーンのアプリケーションで、"*Configure a new portfolio*"ボタンをクリックします。
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
 
-On Hardware Wallet*」を選択します。
+On Hardware Wallet」を選択します。
 
 ![JADE-PLUS-GREEN](assets/fr/14.webp)
 
@@ -177,7 +177,7 @@ Greenは、あなたのジェイドが本物であることを確認するため
 
 ## PINコードの設定
 
-Continue*」ボタンをクリックし、ジェイドのPINコードを選択します。
+「Continue」ボタンをクリックし、ジェイドのPINコードを選択します。
 
 ![JADE-PLUS-GREEN](assets/fr/24.webp)
 
@@ -205,9 +205,9 @@ PINコードはジェイドのロックを解除します。したがって、�
 
 ![JADE-PLUS-GREEN](assets/fr/29.webp)
 
-2FA*」オプションの詳細については、こちらのチュートリアルを参照してください：
+2FA」オプションの詳細については、こちらのチュートリアルを参照してください：
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 アカウントが作成されました。
 
@@ -233,7 +233,7 @@ JadeはBlockstreamの「バーチャル・セキュア・エレメント」を�
 
 ウォレットに最初のビットコインを受け取る前に、**空のリカバリーテスト**を行うことを強くお勧めします。あなたのxpubや最初の受け取りアドレスなど、いくつかの参照情報をメモしておき、まだ空の状態でGreenアプリとJade Plus上でウォレットを削除します（`オプション -> デバイス -> 工場出荷時のリセット`）。その後、ニーモニックフレーズの紙のバックアップを使用してウォレットを復元してみてください。リストア後に生成されたクッキー情報が、最初にメモしたものと一致しているか確認してください。一致していれば、紙のバックアップが信頼できるものであることが確認できます。テスト復元を実行する方法の詳細については、この他のチュートリアルを参照してください：
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## ビットコインを受け取る
 
@@ -255,7 +255,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 ## ビットコインを送る
 
-ウォレットにビットコインがあれば、ビットコインを送ることもできます。送信*」をクリックしてください。
+ウォレットにビットコインがあれば、ビットコインを送ることもできます。「送信」をクリックしてください。
 
 ![JADE-PLUS-GREEN](assets/fr/39.webp)
 
@@ -299,5 +299,6 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 このチュートリアルでは、Jade PlusをQRモードのSparrow Walletソフトウェアで設定します。また、ハードウェアウォレットの高度な設定の使い方も学ぶことができます：
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

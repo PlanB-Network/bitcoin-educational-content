@@ -1,0 +1,8 @@
+---
+term: SegWit
+---
+
+SegWit, ni ijambo ry'inyongera risobanura "Icabona gitandukanye," ni ivugurura ry'amasezerano ya Bitcoin yashizweho muri Myandagaro 2017. Agamije gutorera umuti ibibazo vyinshi vy'ubuhinga, harimwo ingorane y'ubushobozi bwo gukorana n'urubuga, ikibazo c'ubushobozi bwo gukorana, no kworohereza amasezerano azohindurwa muri kazoza.
+
+
+Iyi Soft Fork ihindura imiterere y’ibikorwa mu kwimurira amakuru y’umukono mu bubiko butandukanye. Mu buryo bwihariye, na SegWit, imikono irakurwa mu gice nyamukuru maze igashirwa mu gice c’amakuru gitandukanye kiri ku mpera y’igice, kizwi kw’izina ry’abashingantahe. Ukwo gutandukanya gutuma ubushobozi bwa buri bubiko bwongerekana ata guhindura ubunini bw’ububiko ubwabwo, ari bwo 1 MB kuri Bitcoin. Iryo hinduka kandi ritorera umuti ingorane y’uguhinduranya amafaranga. Imbere ya SegWit, imikono yashobora guhindurwa imbere y’uko igikorwa cemezwa, ivyo bikaba vyahindura ikimenyetso c’igicuruzwa. Ivyo vyatuma bigorana kwubaka amasezerano asobanutse, kuko amafaranga ataremejwe yoshobora guhindura ikimenyetso cayo. Mu gutandukanya imikono, SegWit ituma amafaranga adashobora guhinduka, kuko ihinduka ryose ryo mu mikono ubu rigira ico rihinduye gusa ku kimenyetso c’icabona (WTXID), atari ku kimenyetso c’amafaranga (txid). Mu gutorera umuti ikibazo c’ugukomera, SegWit yarateguye inzira y’ibindi bikorwa vyo gutera imbere hejuru y’uburyo bwa Bitcoin, cane cane Lightning Network, ishobora gutuma umuntu ashobora gukora amafaranga yihuta kandi ataco atwara.

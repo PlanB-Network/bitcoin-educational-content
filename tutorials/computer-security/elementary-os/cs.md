@@ -1,5 +1,5 @@
 ---
-name: Základní OS
+name: Elementary OS
 description: Ideální náhrada systému Windows a MacOS
 ---
 
@@ -11,7 +11,7 @@ Elementary OS je operační systém založený na Ubuntu, který je navržen tak
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Proč si vybrat systém Elementary OS
 
@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Jednoduchost a snadnost použití**: Grafický systém Elementary OS Interface je na půli cesty mezi systémy MacOs a Windows. Díky této známosti si jej snadno osvojí i nezkušení uživatelé.
+- **Jednoduchost a snadnost použití**: Grafický systém Elementary OS Interface je na půli cesty mezi systémy MacOs a Windows. Díky této známosti si jej snadno osvojí i nezkušení uživatelé.
 
 
 
 
 
-- Bezpečnost**: Stejně jako většina linuxových distribucí i Elementary OS těží z vysoké úrovně zabezpečení. Pravidelné aktualizace, správa práv a absence běžných virů z něj činí spolehlivý systém.
+- **Bezpečnost**: Stejně jako většina linuxových distribucí i Elementary OS těží z vysoké úrovně zabezpečení. Pravidelné aktualizace, správa práv a absence běžných virů z něj činí spolehlivý systém.
 
 
 
 
 
-- Rychlost**: Elementary OS je lehká distribuce. Vyžaduje málo prostředků, takže je rychlá a vhodná pro počítače se skromnými konfiguracemi.
+- **Rychlost**: Elementary OS je lehká distribuce. Vyžaduje málo prostředků, takže je rychlá a vhodná pro počítače se skromnými konfiguracemi.
 
 
 
 
 
-- Zdarma**: Systém je zcela zdarma. Při jeho stažení však můžete přispět na podporu vývojářů.
+- **Zdarma**: Systém je zcela zdarma. Při jeho stažení však můžete přispět na podporu vývojářů.
 
 
 
 
 
-- Aktivní komunita**: Komunita kolem Elementary OS je rozmanitá a vnímavá. Pokud narazíte na potíže, můžete snadno najít pomoc na fórech nebo sociálních sítích.
+- **Aktivní komunita**: Komunita kolem Elementary OS je rozmanitá a vnímavá. Pokud narazíte na potíže, můžete snadno najít pomoc na fórech nebo sociálních sítích.
 
 
 
@@ -61,7 +61,7 @@ Před zahájením instalace se ujistěte, že máte následující vybavení:
 
 
 - Klíč **USB** o velikosti nejméně 12 GB
-- Paměť RAM** alespoň 4 GB
+- **Paměť RAM** alespoň 4 GB
 - **Disk Hard o velikosti 20 GB** nebo více pro pohodlné používání
 
 
@@ -380,4 +380,4 @@ V počítači je nyní spuštěn operační systém Elementary OS. Jeho filozofi
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

@@ -1,77 +1,150 @@
 ---
-name: Breez myyntipiste
-
-description: Opas bitcoinien vastaanottamisen aloittamiseen käyttäen Breez POS:ia
+name: Breez - POS
+description: Breez helpottaa bitcoin-maksujen keräämistä yrityksellesi.
 ---
 
-![kansi](assets/cover.webp)
+![cover](assets/cover.webp)
 
-_Tämä teksti on peräisin Breezin dokumentaation verkkosivustolta: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
-## Mikä on Breez POS?
 
-**Breez** on täyden palvelun, ei-holhottava Lightning-sovellus. Puretaanpa tämä auki:
+COVID-19-pandemian jälkeen kosketuksettomat digitaaliset maksut ovat levinneet laajalti jopa pienimpiin kauppoihin. Tänä aikana monet yritykset ovat havainneet bitcoin-käteisratkaisujen käytännöllisyyden, minkä ansiosta ne voivat vastaanottaa maksuja kaikkialta maailmasta. Nämä ratkaisut ovat kuitenkin toisinaan vaikeita käyttää tai sopimattomia pienille yrityksille. Tässä opetusohjelmassa tutustumme Breez-maksupäätteeseen, ratkaisuun, joka erottuu edukseen helppokäyttöisyydellään ja antaa sinulle samalla täydellisen hallinnan bitcoinien hallinnasta.
 
-- **Lightning** on bitcoin-maksuverkko, joka vähentää transaktioaikoja minuuteista millisekunteihin ja transaktiomaksuja useista dollareista muutamiin sentteihin tai vähemmän. Lightning muuttaa bitcoinin digitaalisesta kullasta digitaaliseksi valuutaksi säilyttäen samalla kaikki edut, jotka tekevät bitcoinista erinomaisen.
-- **Ei-holhottava** tarkoittaa, että Breez ei ota haltuunsa käyttäjien rahoja. Monet Lightning-sovellukset ottavat haltuunsa käyttäjiensä rahat. Ne ovat käytännössä bitcoin-pankkeja. Ei-holhottavan sovelluksen, kuten Breezin, kanssa kaikki käyttäjät ovat omia pankkejaan.
-- **Täyden palvelun** tarkoittaa, että Breez hoitaa lähes kaikki tekniset toiminnot automaattisesti ja taustalla. Asiat kuten kanavien luonti, sisääntuleva likviditeetti ja reititys pysyvät piilossa. (Mutta Breez on myös avoimen lähdekoodin, joten ne, jotka ovat kiinnostuneita teknologian tarkastelusta, ovat tervetulleita tekemään niin!)
 
-**Breez POS** on lyhenne myyntipistetilastamme. Toisin sanoen, Breez toimii digitaalisena kassakoneena yrityksille ja kauppiaille, jotka haluavat hyväksyä Lightning-maksuja (lisäksi sen "standardi" tila, joka on kuin bitcoinin digitaalinen versio nahkalompakosta, ja seuraavan sukupolven podcast-soitin). Katsotaanpa nyt, miten Breez asetetaan Lightning-kassakoneeksi yrityksellesi.
 
-## Kuinka aloittaa Breezin käyttö?
+## Asenna Breez POS
 
-1. Ensimmäinen askel on sovelluksen lataaminen. Se on saatavilla Androidille ja iOS:lle (asenna TestFlight ja klikkaa linkkiä laitteeltasi).
-2. Breez voi varmuuskopioida itsensä automaattisesti Google Driveen, iCloudiin tai mihin tahansa WebDav-palvelimeen.
-   > Huomaa, että jokainen laite käyttää omaa Lightning-solmuaan. Voit käyttää POS-tilaa niin monella laitteella kuin haluat, mutta saldot pysyvät erillisinä.
-3. Sovelluksen ollessa auki, klikkaa vasemmassa yläkulmassa olevaa kuvaketta löytääksesi Myyntipiste-tilan.
 
-## POS:n asettaminen
 
-1. Klikkaa tuota kuvaketta vasemmassa yläkulmassa ja klikkaa Myyntipiste > POS Asetukset.
+Breez POS on Breez wallet:n tarjoama itsesäilytyspalvelu. Tämän palvelun hyödyllisyys on antaa kauppiaille mahdollisuus kerätä maksuja Bitcoin:n kautta ja pysyä samalla yksinkertaisessa käyttöliittymässä, joka on hyvin samanlainen kuin erilaiset Lightning-lompakot. Breez POS on saatavilla [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) ja [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) -latausalustoilla.
 
-### Managerin Salasana
 
-POS Asetuksissa sinulla on mahdollisuus luoda managerin salasana. Managerin salasana tekee mahdottomaksi lähettää lähteviä maksuja Breez-sovelluksesta ilman valtuutusta. Myyntihenkilöstö voi vain vastaanottaa maksuja laitteella. Huomaa, että jos käytät tätä vaihtoehtoa, saatat myös haluta estää pääsyn Breezin varmuuskopioon, joten ulkoisen WebDav-tilin käyttö (esim. Nextcloud) on suositeltavaa tässä tapauksessa.
 
-### Tuotelista
+![download](assets/fr/01.webp)
 
-Tuotelista on myytävien tuotteiden ja niiden hintojen luettelo. On kaksi tapaa lisätä tuotteita listaan:
 
-- Syöttääksesi tuotteita yksi kerrallaan, klikkaa Items lähellä pää-POS-näkymän yläosaa, sitten "+" merkkiä alhaalla oikealla. Täällä voit syöttää yhden tyyppisen tuotteen nimen, hinnan (näytetään valitsemasi valuutan vasta-arvona) ja SKU:n (valinnainen ainutlaatuinen sisäinen tunniste tuotetyypille).
-- Useiden tuotteiden samanaikaiseen syöttämiseen, klikkaa laskinikonia ylävasemmalla, sitten Valitse Kassapiste > Asetukset > POS-asetukset, ja klikkaa sen jälkeen kolmea pistettä Tuotelistan oikealla puolella, ja sitten Tuo CSV:stä. Tämä mahdollistaa CSV-tiedoston tuonnin, jonka olet valmistellut etukäteen sisältäen tuotteidesi nimet, hinnat ja SKU:t.
-### Fiat-näyttö
 
-Breez lähettää ja vastaanottaa vain bitcoinia, ja useimmissa Lightning-verkon transaktioissa, jotka yleensä ovat pienempiä summia, summa näytetään yleensä Satosheina, eli satseina (1 BTC = 100,000,000 sats). Kuitenkin monet kauppiaat pitävät käytännöllisenä nähdä (ja kertoa asiakkaille) ostoksen arvon paikallisessa fiat-valuutassa.
+![setup](assets/fr/12.webp)
 
-Pääkassanäkymässä näkyvä valuutta on nähtävissä oikealla puolella (oletus on SAT). Siellä on myös pudotusvalikko, josta voi valita muita valuuttoja näytettäväksi. Valuuttojen lisäämiseksi tai poistamiseksi tästä pudotusvalikosta, klikkaa Kassapiste > Asetukset > Fiat-valuutat. Merkitse sen jälkeen rastilla ne valuutat, jotka haluat pudotusvalikkoosi ja poista rasti niistä, jotka haluat jättää pois.
 
-Näytetyt arvot ovat peräisin yadiosta, arvostetusta valuuttakurssidatan lähteestä, ja ne päivittyvät lähes reaaliajassa. Mutta muista: riippumatta siitä, mikä valuutta-arvo on näytössä, maksu itsessään on bitcoinissa.
 
-### Tilauksen veloitus
+⚠️ On tärkeää huomata, että nämä sovellukset ovat vielä kehitteillä ja että toiminnallisuuksien käytössä voi olla virheitä. Suosittelemme maltillista käyttöä.
 
-Tilauksen kokoamiseksi, lisää tuotteita tuotelistasta tai syötä summa näppäimistöllä. Klikkaa sen jälkeen Veloita pääkassanäkymän yläosassa. Näet sitten QR-koodin, jonka asiakas voi skannata Lightning-sovelluksellaan, jonka voit jakaa suoraan toisesta sovelluksesta laitteellasi, tai jonka voit kopioida ja liittää tarvittaessa.
 
-Skannatessaan koodin tai klikatessaan jaetussa/liitetyssä laskussa, asiakas näkee laskun Lightning-sovelluksessaan ja voi maksaa sen ja suorittaa transaktion välittömästi.
 
-Kun näet Maksu hyväksytty! -animaation Breez-sovelluksessa kauppiaan laitteella, voit klikata tulostinkuvaketta luodaksesi kuitin asiakkaalle. Kuittitulostimen käyttämiseen Androidissa, kokeile tätä ajuria. Huomaa, että voit myös tulostaa aiemmat transaktiot Transaktiot-näytöltä.
+Tämän sovelluksen avulla Breez antaa sinulle täydellisen määräysvallan verkon kokoonpanoihin ja maksuasetuksiin ja takaa samalla itsemääräämisoikeutesi bitcoinien hallinnoinnissa.
 
-### Myyntiraportti
 
-Nähdäksesi päivittäisen/viikoittaisen/kuukausittaisen raportin myynneistäsi (kirjanpitoa tai muita tarkoituksia varten), klikkaa kuvaketta ylävasemmalla, ja sitten klikkaa Transaktiot. Klikkaa Raportti-kuvaketta näyttääksesi raportin ja Kalenteri-kuvaketta vaihtaaksesi valitun aikavälin.
 
-### Transaktioiden vienti
+Voit tutustua Breez wallet:n eri vaihtoehtoihin seuraamalla alla olevaa ohjetta. Tämä vaihe auttaa sinua ymmärtämään paremmin myyntipisteen ekosysteemiä ja ottamaan käyttöön parhaat käytännöt, jotta voit turvata tehokkaasti seed:een liittyvät bitcoinit.
 
-Nähdäksesi listan Breezissa vastaanotetuista maksuista, klikkaa kuvaketta ylävasemmalla, ja sitten klikkaa Transaktiot. Klikkaa kolmea pistettä yläoikealla, sitten Vie viedäksesi listan saapuneista maksuista CSV-muodossa. Rajataksesi listan tiettyyn ajanjaksoon, klikkaa kalenterikuvaketta asettaaksesi päivämäärävälin.
 
-### Kuittien tulostus
 
-Myyntikuitin tulostamiseksi, klikkaa tulostinkuvaketta maksuvahvistusdialogin yläoikealla. Vaihtoehtoisesti, klikkaa kuvaketta ylävasemmalla, ja sitten klikkaa Transaktiot. Etsi tulostettava myynti, avaa se, ja klikkaa yläoikean tulostinkuvaketta.
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-> Huom: käytä tätä ajuria tulostaaksesi kannettavalle 58mm/80mm Bluetooth/USB-lämpötulostimelle.
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-## Haluan oppia lisää
 
-- Lisätietoja Lightningista ja Breezista, tutustu meidän [blogiimme](https://breez.technology/blog).
-- Jos haluat lisää teknisiä vinkkejä sovelluksen tehokkaaseen käyttöön ja yleisten toimintojen suorittamiseen, tutustu [dokumentaatioomme](https://breez.technology/documentation).
-- Jos jumitut etkä löydä vastausta mistään tukikirjallisuudestamme, voit löytää meidät [Telegramista](https://t.me/breez_labs) tai lähettää meille [sähköpostia](mailto:support@breez.technology).
-- Jos haluat nähdä joitakin demonstraatiovideoita Breez POS -tilan käytöstä, jonka fanimme ja käyttäjämme ovat tehneet, [tässä](https://www.youtube.com/watch?v=xxxx) on mahtava lyhyt video, ja [tässä](https://www.youtube.com/watch?v=xxxx) on pidempi, yksityiskohtaisempi video.
+## Breez POS:n käyttäminen
+
+
+
+Tässä oppaassa keskitymme "*Myyntipiste*"-osioon, jotta ymmärrät, miten se voidaan integroida maksuvälineeksi yrityksessäsi.
+
+
+
+Myyntipiste on olennainen osa Breezin valikoimaa, ja se perustuu ensisijaisesti Lightning Network:ään maksujen keräämisessä.
+
+
+
+"*Myyntipiste*"-valikossa on suora käyttöliittymä maksujen keräämistä varten. Se on jaettu kahteen osaan:
+
+
+
+### Suoraveloitus
+
+
+
+Ensimmäinen osa on suoraveloitusnäppäimistö. Tämä käyttöliittymä on kätevä, kun haluat kerätä maksun kokonaisuudessaan, kun tiedät asiakkaasi kokonaisostokset tai kun et tarvitse yrityksessäsi kiinteää tuoteluetteloa (esim. freelance-palvelut).
+
+
+
+![keyboard](assets/fr/02.webp)
+
+
+
+Jotta voit käyttää Breez POS -järjestelmää ensimmäistä kertaa, sinun on kerättävä yli 2500 satoshin (noin 3 euroa tämän päivän valuuttakurssilla) suuruinen maksu. Tämä summa, joka maksetaan vain ensimmäisellä käteiskassalla, vastaa maksukanavan luomisen kustannuksia, jotta voit kommunikoida muiden Lightning Network-solmujen kanssa ja lähettää ja vastaanottaa satosheja.
+
+
+
+![channel_fee](assets/fr/03.webp)
+
+
+### Tuoteluettelo
+
+
+
+Toinen osa on tuoteluettelo. Tämä käyttöliittymä on ihanteellinen, kun sinulla on tuoteluettelo, jossa on ennalta määritellyt hinnat. Täällä voit määrittää tuotteesi valmiiksi ja käyttää niitä generate-laskuihin parantaaksesi kassakuittien jäljitettävyyttä.
+
+
+
+![items](assets/fr/04.webp)
+
+
+
+Voit määrittää jokaisen tuotteen manuaalisesti tästä käyttöliittymästä napsauttamalla "**Plus**"-painiketta ja määrittelemällä sitten tuotteen nimen, hinnan ja tunnisteen.
+
+
+
+![add_items](assets/fr/05.webp)
+
+
+
+Tämän jälkeen voit lisätä sen ja määrittää sen määrän ja kerätä siihen liittyvän maksun.
+
+
+
+Kun luettelosi on melko suuri, voi olla hankalaa lisätä tuotteita yksi kerrallaan. Tätä varten voit tuoda ja viedä tuoteluettelosi automaattisesti CSV-tiedostoista kohdassa **Edellytykset > Myyntipisteen asetukset**, valikosta "Tuoteluettelo".
+
+
+
+![import](assets/fr/07.webp)
+
+
+
+Tässä samassa kohdassa voit määrittää Lightning-laskujen voimassaoloajan. Tästä lähtien asiakkaillasi on kaikkien laskujesi osalta `N` sekuntia aikaa suorittaa maksu, muutoin sinun on luotava uusi Lightning-lasku.
+
+
+
+![invoice_time](assets/fr/08.webp)
+
+
+
+Johtajana voit vahvistaa bitcoinien turvallisuutta lisäämällä salasanan, joka vaaditaan kaikkiin wallet:stä lähteviin maksuihin. Tämä ominaisuus on erityisen hyödyllinen, kun et ole ainoa, joka hallinnoi ulostuloa.
+
+
+
+![manager](assets/fr/09.webp)
+
+
+
+**Transaktiot**-valikossa on luettelo kaikista keräämistänne maksuista. Voit myös suodattaa tuloksia tietyn ajanjakson osalta napsauttamalla **Kalenteri**-painiketta.
+
+
+
+![transactions](assets/fr/10.webp)
+
+
+
+Voit myös tarkastella päivittäistä yhteenvetoa myynnistäsi ja kerätystä kokonaissummasta napsauttamalla **Dokumentti**-painiketta.
+
+
+
+![summary](assets/fr/11.webp)
+
+
+
+Sinulla on nyt täydellinen käsitys Breez-sovelluksen tarjoamasta myyntipisteestä, jotta voit integroida Bitcoin:n saumattomasti liiketoimintaasi. Jos pidit tätä opetusohjelmaa hyödyllisenä, suosittelemme opetusohjelmaamme be-BOP:stä, verkkokauppa-alustasta, jonka avulla voit ottaa vastaan maksuja bitcoineilla ja tehdä liiketoiminnastasi rahanarvoista.
+
+
+
+https://planb.academy/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa

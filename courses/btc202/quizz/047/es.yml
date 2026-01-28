@@ -1,0 +1,9 @@
+question: ¿Qué medidas de seguridad se recomiendan encarecidamente al crear una cuenta Umbrel?
+answer: Activar 2FA
+wrong_answers:
+  - Desactivar contraseña
+  - Utilizar un código PIN
+  - Desactivar todas las conexiones
+explanation: |
+  La 2FA añade protección extra y es muy recomendable, especialmente cuando se utiliza un nodo Lightning o un autoalojamiento sensible.
+reviewed: true

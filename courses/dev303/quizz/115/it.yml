@@ -1,0 +1,8 @@
+question: Quale problema critico risolve il meccanismo di canale just-in-time dell'SDK Breez che le implementazioni tradizionali di Lightning si trovano a dover affrontare?
+answer: Crea automaticamente nuovi canali con sufficiente liquidità in entrata quando arrivano i pagamenti, eliminando la necessità per gli utenti di gestire manualmente la capacità dei canali
+wrong_answers:
+  - Previene le chiusure forzate dei canali riequilibrando automaticamente i fondi su più canali quando uno di essi non risponde o va offline
+  - Riduce le commissioni di transazione raggruppando più pagamenti di piccola entità in operazioni di canale più ampie, che vengono elaborate durante le ore di rete non di punta
+  - Elimina la necessità di servizi di watchtower creando canali temporanei che scadono automaticamente dopo il completamento del pagamento
+explanation: |
+  Il meccanismo dei canali just-in-time affronta in modo specifico la sfida della gestione della liquidità di Lightning, dove i fondi possono fluire solo nelle direzioni in cui esiste una capacità. Quando un utente deve ricevere un pagamento ma non ha sufficiente liquidità in entrata, l'LSP apre automaticamente un nuovo canale nel momento in cui arriva il pagamento, senza alcun intervento da parte dell'utente. Le risposte sbagliate descrivono altre sfide di Lightning, ma non il problema specifico della liquidità che i canali just-in-time risolvono.

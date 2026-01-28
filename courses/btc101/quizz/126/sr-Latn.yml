@@ -1,13 +1,8 @@
-question: Šta je Bitkoin transakcija?
-answer: Prijenos vlasništva bitkoina, koristeći kriptografiju.
+question: Kako rudari verifikuju transakcije i uključuju ih u blok?
+answer: Kroz proces Proof of Work (dokaz o radu).
 wrong_answers:
-  - Fizička razmena bitkoina, koristeći notara.
-  - Prenos vlasništva bitkoina, korišćenjem fizičke adrese.
-  - Prenos vlasništva bitkoina, koristeći email adresu.
-explanation: |
-  Bitkoin transakcija je digitalni prenos
-  vlasništva bitkoina, korišćenjem Bitcoin adrese
-  dobijenog zahvaljujući kriptografiji eliptičke krive. Ova
-  adresa je jedinstven za novčanik osobe koja prima
-  bitkoine.
+  - Kroz proces Proof of stake.
+  - Kroz proces Dokaza autoriteta.
+  - Kroz proces Proof of burn.
+explanation: >-
 reviewed: true

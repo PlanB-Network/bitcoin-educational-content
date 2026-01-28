@@ -1,0 +1,10 @@
+question: 다음 중 자신의 독성 변화를 관리하기 위해 권장되지 않는 방법은 무엇인가요?
+answer: Doxxic UTXO를 병합합니다.
+wrong_answers:
+  - 더 작은 풀에서 독성 UTXO를 혼합합니다.
+  - 독성 UTXO를 기부합니다.
+  - 독성 UTXO를 사용할 수 없는 것으로 표시합니다.
+explanation: |
+  Whirlpool에서 사용자의 서로 다른 항목 간에 연결이 이루어질 수 있으므로 doxxic UTXO를 병합하지 않는 것이 좋습니다.
+  
+reviewed: true

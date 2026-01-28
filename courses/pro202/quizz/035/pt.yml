@@ -1,0 +1,8 @@
+question: Ao gerar assinaturas para uma entrada P2SH durante a construção da transação, que script deve ser utilizado no processo de cálculo do sighash?
+answer: O script de resgate deve ser utilizado em vez do scriptPubKey
+wrong_answers:
+  - O scriptPubKey original que contém o hash deve ser utilizado diretamente
+  - Deve ser utilizada uma combinação do scriptPubKey e do script de resgate
+  - Em vez disso, deve ser utilizado o ScriptSig que contém os dados de desbloqueio
+explanation: |
+  Durante a geração da assinatura P2SH, o processo sighash requer a utilização do script redeem em vez do scriptPubKey. Isso é crucial porque o scriptPubKey contém apenas o hash do script redeem, não as condições reais de gasto. O script de resgate contém a lógica real (como requisitos multisig) que determina como a saída pode ser gasta, portanto, as assinaturas devem ser geradas em relação a esse script subjacente para serem válidas. A utilização direta da scriptPubKey falharia porque contém apenas uma comparação de hash e não as condições de despesa reais que têm de ser satisfeitas.

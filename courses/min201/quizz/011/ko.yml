@@ -1,0 +1,12 @@
+question: Bitcoin에서 Mining 중앙 집중화를 막기 위해 논의되는 전략에는 어떤 것이 있나요?
+answer: Bitcoin에서 Mining 중앙 집중화에 맞서기 위해 논의된 전략에는 홈 Mining, 스트라텀 V2 프로토콜, Mining 소프트웨어 오픈소스화, 행위자 및 지역 다각화 등이 있습니다.
+wrong_answers:
+  - Bitcoin에서 Mining 중앙 집중화를 막기 위해 논의된 전략에는 블록 크기 증가, 지분 증명 구현, Mining를 감독할 중앙 기관 설립 등이 있습니다.
+  - Bitcoin에서 Mining 중앙 집중화에 맞서기 위해 논의된 전략에는 Block reward 축소, 거래 수수료 시행, Mining 세금 신설 등이 있습니다.
+  - Bitcoin에서 Mining 집중화를 막기 위해 논의된 전략에는 Mining 난이도 증가, Mining 상한제 시행, Mining 복권 발행 등이 있습니다.
+explanation: |
+  이 장에서는 Mining에 대응하기 위한 몇 가지 전략에 대해 설명합니다
+  gW-11의 중앙 집중화, 홈 Mining를 포함한
+  스트라텀 V2 프로토콜, 오픈소스 Mining 소프트웨어, 그리고
+  행위자 및 지역 다각화.
+reviewed: true

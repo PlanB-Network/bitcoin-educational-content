@@ -1,9 +1,12 @@
-question: Come si chiama il processo che verifica le transazioni sulla rete Bitcoin?
-answer: Mining
+question: Qual è la frequenza dell'aggiustamento della difficoltà?
+answer: Ogni 2016 blocchi.
 wrong_answers:
-  - Digging
-  - Harvesting
-  - Farming
+  - Ogni 1048 blocchi.
+  - Ogni 512 blocchi.
+  - Ogni 4032 blocchi.
 explanation: |
-  Il processo che verifica le transazioni sulla rete Bitcoin si chiama mining. I miner risolvono un problema crittografico e vengono ricompensati con l'emissione di nuovi bitcoin.
-reviewed: vero
+  L'aggiustamento della difficoltà è un meccanismo che si verifica
+  ogni 2016 blocchi, o circa due settimane, per garantire che un
+  nuovo blocco venga aggiunto alla blockchain ogni dieci minuti in
+  media, indipendentemente dal valore di hashrate globale.
+reviewed: true

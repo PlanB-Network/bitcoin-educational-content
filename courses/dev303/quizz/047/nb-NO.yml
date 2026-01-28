@@ -1,0 +1,8 @@
+question: Hva er den største forskjellen mellom hvordan Rust normalt håndhever låneregler og hvordan RefCell håndhever dem?
+answer: Rust håndhever normalt låneregler på kompileringstidspunktet, mens RefCell håndhever dem på kjøretid
+wrong_answers:
+  - Rust tillater normalt flere muterbare referanser, mens RefCell begrenser dem til én
+  - Rust bruker normalt referansetelling for sikkerhet, mens RefCell bruker statisk analyse
+  - Rust krever normalt eksplisitt minnehåndtering, mens RefCell håndterer det automatisk
+explanation: |
+  RefCells viktigste innovasjon er å flytte håndhevelsen av låneregler fra kompileringstid til kjøretid. Normale Rust-referanser sjekkes av kompilatoren under kompilering for å garantere sikkerhet, men RefCell utfører de samme kontrollene mens programmet kjører. Dette gjør det mulig for RefCell å tilby innvendig mutabilitet i situasjoner der kompilatorens statiske analyse er for konservativ, men kommer med en ulempe i form av potensiell panikk under kjøring hvis lånereglene brytes. De andre alternativene beskriver Rusts grunnleggende sikkerhetsmekanismer eller RefCells faktiske oppførsel på feil måte.

@@ -1,8 +1,11 @@
-question: Vad är det ungefärliga antalet noder som är fördelade över hela världen i september 2023?
-answer: 45.000 noder.
+question: Varför är det viktigt att en Bitcoin-nod förblir prisvärd och tillgänglig för alla möjliga användare?
+answer: Eftersom det underlättar decentraliseringen av nätverket.
 wrong_answers:
-  - 10.000 noder.
-  - 100.000 noder.
-  - 500.000 noder.
-explanation: >-
+  - Eftersom det ökar nätverkets transaktionskapacitet.
+  - Eftersom det minskar nätverkets transaktionskapacitet.
+  - Eftersom det ökar Block reward för gruvarbetare.
+explanation: |
+  Den överkomliga kostnaden och tillgängligheten för en Bitcoin-nod är
+  viktigt eftersom det underlättar decentraliseringen av
+  nätverket.
 reviewed: true

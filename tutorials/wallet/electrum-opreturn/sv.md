@@ -22,7 +22,7 @@ Denna steg-för-steg-handledning visar hur du skriver ett meddelande på Blockch
 - En dator (Windows, macOS eller Linux).
 - Internetanslutning.
 - Några satoshis (Sats) eller bitcoins (BTC) i din Wallet för att täcka transaktionsbeloppet och avgifterna.
-- En text-till-hex-omvandlare (t.ex. en webbplats på nätet) eller ett särskilt verktyg som [denna OP_RETURN-skriptgenerator] (https://resources.davidcoen.it/opreturnelectrum/).
+- En text-till-hex-omvandlare (t.ex. en webbplats på nätet) eller ett särskilt verktyg som [denna OP_RETURN-skriptgenerator](https://resources.davidcoen.it/opreturnelectrum/).
 
 
 
@@ -53,7 +53,7 @@ Denna steg-för-steg-handledning visar hur du skriver ett meddelande på Blockch
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Detta kommer att visa en mottagning Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ Välj det meddelande som du vill skriva (t.ex. "Tack Satoshi"). Obs: OP_RETURN-m
 
 
 
-- lämna ett vackert uttryck för vår mänsklighet, *
-- undvik att skriva innehåll som du kan ångra*
+- lämna ett vackert uttryck för vår mänsklighet
+- undvik att skriva innehåll som du kan ångra
 
 
 
@@ -164,7 +164,7 @@ Konvertera ditt meddelande till hexadecimal :
 
 
 
-- Du kan använda ett [onlineverktyg] (https://www.rapidtables.com/convert/number/ascii-to-hex.html), men var försiktig så att du inte behandlar känsliga uppgifter där (även om information som är avsedd att publiceras på Blockchain Bitcoin via en OP_RETURN i princip inte medför några sekretessproblem);
+- Du kan använda ett [onlineverktyg](https://www.rapidtables.com/convert/number/ascii-to-hex.html), men var försiktig så att du inte behandlar känsliga uppgifter där (även om information som är avsedd att publiceras på Blockchain Bitcoin via en OP_RETURN i princip inte medför några sekretessproblem);
 - För större konfidentialitet kan du utföra konverteringen lokalt med hjälp av en liten Python :
 
 
@@ -208,9 +208,9 @@ som består av :
 
 
 
-- Destination Address**: En giltig Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Detta kan vara din egen Address, om du vill återföra de överförda medlen till dig själv;
-- Överfört belopp**: beloppet för transaktionen, här `0.00001` BTC. **Observera**: eftersom enheten som används i Electrum är BTC, måste beloppet som anges i transaktionsskriptet också uttryckas i BTC, och inte i Sats ;
-- Skript OP_RETURN**: Meddelandet omvandlat till hexadecimal föregås av script(`OP_RETURN <messsage>), 0`. Här, `5468616e6b73205361746f736869` för meddelandet i hexadecimal.
+- **Destination Address**: En giltig Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Detta kan vara din egen Address, om du vill återföra de överförda medlen till dig själv;
+- **Överfört belopp**: beloppet för transaktionen, här `0.00001` BTC. **Observera**: eftersom enheten som används i Electrum är BTC, måste beloppet som anges i transaktionsskriptet också uttryckas i BTC, och inte i Sats ;
+- Skript **OP_RETURN**: Meddelandet omvandlat till hexadecimal föregås av script(`OP_RETURN <messsage>), 0`. Här, `5468616e6b73205361746f736869` för meddelandet i hexadecimal.
 
 
 
@@ -218,7 +218,7 @@ som består av :
 
 
 
-Tips: Använd verktyget [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) för att generate skriptet automatiskt. Även om det här verktyget föreslår att du anger beloppet i BTC, behåll enheten konfigurerad i Electrum.
+Tips: Använd verktyget [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) för att generate skriptet automatiskt. Även om det här verktyget föreslår att du anger beloppet i BTC, behåll enheten konfigurerad i Electrum.
 
 
 

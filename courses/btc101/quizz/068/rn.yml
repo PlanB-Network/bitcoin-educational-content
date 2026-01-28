@@ -1,11 +1,13 @@
-question: Ni kangahe impembo ya Mining igabanywa igice?
-answer: Imisi yose y’amabarabara 210.000.
+question: Ni irihe jambo Mnemonic riri muri Bitcoin Wallet?
+answer: Urutonde rw’amajambo 12 canke 24 atuma ushobora gushika ku bitcoins zawe.
 wrong_answers:
-  - Inyuma y’amabarabara 120.000.
-  - Igihe cose amabarabara 540.000.
-  - Igihe cose habaye amabarabara 2.100.000.
+  - Ijambobanga ryatowe kugira ngo ushikire Bitcoin Wallet.
+  - Kode yo gupfuka amafaranga y’ibikorwa vya Bitcoin.
+  - Ijambo ry’ibanga ryo gukira risenya Bitcoin Wallet iyo bikenewe.
 explanation: |
-  Ingororano ya Mining itegekanijwe guca igice c’abantu 210.000 bose .
-  amabuye, ni ukuvuga nk’imyaka ine yose: ikintu
-  izwi kw’izina rya Halving.
+  Kuva mu 2017, urufunguzo rw’ibanga rushobora gushirwa mu rutonde rworoshe
+  y’amajambo 12 canke 24, yitwa ijambo Mnemonic. Iri jambo
+  ni ububiko bwa Bitcoin Wallet yawe, rero biragufasha
+  gushika ku bice vyawe ukoresheje Bitcoin Wallet iyo ari yo yose
+  porogaramu/porogaramu.
 reviewed: true

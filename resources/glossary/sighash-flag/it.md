@@ -16,4 +16,4 @@ Oltre a questi tre flag SigHash, il modificatore `SIGHASH_ANYONECANPAY` (`0x80`)
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): La firma copre un singolo ingresso, senza impegnarsi in alcun output;
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): La firma si applica a un singolo ingresso e solo all'uscita che ha lo stesso indice di questo ingresso.
 
-> *Un sinonimo talvolta usato per "SigHash" è "Signature Hash Types"
+> *Un sinonimo talvolta usato per "SigHash" è "Signature Hash Types"*

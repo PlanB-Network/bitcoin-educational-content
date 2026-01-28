@@ -1,0 +1,9 @@
+question: Jakie jest główne ograniczenie komunikacji Tor z węzłem?
+answer: Powolność
+wrong_answers:
+  - Brak szyfrowania
+  - Spam
+  - Niemożliwość użycia RPC
+explanation: |
+  Połączenia Tor są bezpieczne, ale wolniejsze niż alternatywy, takie jak VPN.
+reviewed: true

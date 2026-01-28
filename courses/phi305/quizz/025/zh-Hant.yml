@@ -1,0 +1,9 @@
+question: René Descartes 相信自由意志嗎？
+answer: 從來沒有
+wrong_answers:
+  - 僅限成人。
+  - 除非我們學過哲學
+  - 在某些條件下。
+explanation: |
+  René Descartes 從不相信自由意志。他認為我們所有的行為都是由先因決定的，儘管他試圖保留某種形式的意志自由。
+reviewed: false

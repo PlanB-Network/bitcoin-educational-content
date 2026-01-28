@@ -1,9 +1,9 @@
 question: Šta znači izraz champ premier ili corps premier?
-answer: Polje sa prostim brojem Elements
+answer: Polje sa prostim brojem elemenata
 wrong_answers:
   - Polje koje sadrži samo proste brojeve
   - Polje definisano isključivo sabiranjem prostih brojeva
   - Polje koje koristi nasumične vektore
 explanation: |
-  Prosto polje sadrži broj Elements jednak prostom broju, što ga čini fundamentalnim poljem za kriptografske operacije.
-reviewed: false
+  Prosto polje koje sadrži broj elemenata jednak prostom broju, što ga čini fundamentalnim poljem za kriptografske operacije.
+reviewed: true

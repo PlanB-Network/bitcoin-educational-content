@@ -1,0 +1,9 @@
+question: Bitcoin'ın blok sübvansiyonu sıfıra yaklaştığında ücret snipingi ile ilgili temel endişe nedir?
+answer: Madenciler mining yeni bloklar yerine yüksek ücretlerle önceki blokları yeniden yazmayı daha karlı bulabilir
+wrong_answers:
+  - İşlem ücretleri normal kullanıcıların Bitcoin işlemlerini karşılayamayacakları kadar pahalı hale gelecektir
+  - Bitcoin'ün toplam arzı, artan mining teşvikleri nedeniyle 21 milyonu aşacaktır
+  - Madenciler mining'i tamamen durduracak çünkü işlem ücretleri tek başına elektrik maliyetlerini karşılayamıyor
+explanation: |
+  Ücret kesme, madenciler zinciri dürüstçe genişletmek yerine yüksek ücretli işlemler içeren önceki blokları yeniden çıkarmaya çalıştığında ortaya çıkar. Bu, önceki bir bloktaki ücretler mevcut mempool'dakileri önemli ölçüde aştığında ekonomik olarak rasyonel hale gelir. Başarı olasılığı dürüst mining'den daha düşük olsa da, potansiyel ödül çok daha yüksek olabilir. Bu davranış özellikle endişe vericidir çünkü daha fazla madencinin dürüst olmayan uygulamalara girdiği ve nihayetinde blok sübvansiyonları azaldığında Bitcoin'nın güvenlik modelini tehdit eden bir kademeli etki yaratabilir.
+reviewed: false

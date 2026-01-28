@@ -1,5 +1,5 @@
 ---
-name: Hub Alby
+name: Alby Hub
 description: Come si fa a lanciare facilmente il proprio nodo Lightning?
 ---
 ![cover](assets/cover.webp)
@@ -20,7 +20,7 @@ Alby Hub è uno strumento altamente adattabile. Può soddisfare le esigenze sia 
 A seconda delle esigenze, Alby Hub è disponibile in 4 configurazioni:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 Ideale per i principianti, questa prima opzione è l'opzione cloud di Alby. Consente di distribuire un Hub direttamente su un server gestito da Alby, accessibile tramite la tua interfaccia Alby Hub. Sebbene Alby gestisca il server, mantieni la sovranità sui tuoi fondi, poiché le tue chiavi sono crittografate utilizzando una password conosciuta solo da te. Tuttavia, le tue chiavi devono rimanere decrittografate nella RAM affinché il nodo possa funzionare, il che teoricamente le espone a rischio se qualcuno accede fisicamente al server. È un compromesso interessante per i principianti, ma è importante essere consapevoli dei rischi.
 
@@ -38,7 +38,7 @@ Se avete già un nodo ospitato, ad esempio su Umbrel o Start9, Alby Hub può ess
 È anche possibile installare Alby Hub direttamente sul tuo PC, anche se questa opzione è meno pratica, poiché il tuo PC deve rimanere attivo in ogni momento per accedere da remoto al nodo Lightning. Tuttavia, questa alternativa potrebbe essere adatta alle tue esigenze specifiche.
 
 
-- Alby Hub su un server personale :**
+- Alby Hub su un server personale:
 
 Per gli utenti avanzati, Alby Hub può essere distribuito su un server personale con un semplice comando. Questa opzione non è trattata in questo tutorial, ma potete trovare istruzioni dedicate [su GitHub di Alby](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 
@@ -54,7 +54,7 @@ Per l'installazione locale sul PC, [scaricare e installare il software in base a
 
 Il primo passo è creare un account Alby. Sebbene non sia indispensabile per utilizzare Alby Hub, consente di sfruttare appieno le opzioni disponibili, compresa la possibilità di ottenere un indirizzo Lightning.
 
-Andate su [il sito ufficiale di Alby] (https://getalby.com/) e cliccate sul pulsante "*Crea account*".
+Andate su [il sito ufficiale di Alby](https://getalby.com/) e cliccate sul pulsante "*Crea account*".
 
 ![ALBY HUB](assets/fr/04.webp)
 
@@ -299,7 +299,7 @@ Tornare all'applicazione Alby Go, scansionare il codice QR o incollare il segret
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Fare clic su "Fine*".
+Fare clic su "Fine".
 
 ![ALBY HUB](assets/fr/51.webp)
 
@@ -368,4 +368,4 @@ Ecco fatto, ora sapete come usare Lightning con il vostro nodo utilizzando lo st
 
 Per comprendere nel dettaglio tutti i meccanismi di Lightning che abbiamo manipolato in questo tutorial, vi consiglio vivamente di scoprire la nostra formazione gratuita sull'argomento:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

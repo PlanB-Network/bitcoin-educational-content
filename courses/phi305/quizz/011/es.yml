@@ -1,0 +1,9 @@
+question: ¿Qué piensa Spinoza del azar?
+answer: No existe.
+wrong_answers:
+  - Existe.
+  - Lo equipara con el fatalismo.
+  - Lo considera superstición.
+explanation: |
+  Para Spinoza, el azar no existe. Todo en el universo sigue leyes necesarias y determinadas. Lo que nos parece casualidad no es más que el resultado de nuestra ignorancia de las verdaderas causas.
+reviewed: false

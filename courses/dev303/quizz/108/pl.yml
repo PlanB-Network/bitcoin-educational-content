@@ -1,0 +1,8 @@
+question: Jaka podstawowa cecha filozofii projektowania komponentów LDK odróżnia ją od monolitycznych implementacji węzłów Lightning, takich jak CLightning lub LND?
+answer: Każdy komponent zapewnia domyślne implementacje, które można indywidualnie zastąpić niestandardowymi rozwiązaniami, zachowując zgodność z protokołem
+wrong_answers:
+  - Wszystkie komponenty muszą zostać zaimplementowane od podstaw przez deweloperów, bez domyślnych implementacji dostarczanych przez bibliotekę
+  - Komponenty są trwale połączone i nie można ich modyfikować po zintegrowaniu z architekturą aplikacji
+  - Biblioteka wymaga, aby wszystkie komponenty korzystały z identycznych języków programowania i nie może obsługiwać międzyplatformowych powiązań językowych
+explanation: |
+  Podstawowa filozofia LDK koncentruje się na dostarczaniu modułowych komponentów z działającymi domyślnymi implementacjami, które programiści mogą selektywnie zastępować w razie potrzeby. Pozwala to na dostosowanie określonych funkcji (takich jak monitorowanie blockchain lub podpisywanie transakcji) przy jednoczesnym zachowaniu innych komponentów bez zmian. Błędne odpowiedzi błędnie przedstawiają podejście LDK: zapewnia domyślne rozwiązania zamiast wymagać wszystkiego od zera, umożliwia wymianę komponentów zamiast blokowania ich razem i obsługuje wiele języków programowania poprzez swój system powiązań.

@@ -11,7 +11,7 @@ Ochrona danych osobowych w erze cyfrowej jest najwyższym priorytetem dla każde
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Rozpoczęcie pracy z PureOS
 
@@ -27,25 +27,25 @@ PureOS to oparty na Debianie system operacyjny opracowany przez firmę Purism. P
 
 
 
-- Prosty, intuicyjny Interface**: GNOME oferuje przejrzysty pulpit Interface, zaprojektowany tak, aby był łatwy w użyciu, nawet dla osób, które nie czują się komfortowo z wierszem poleceń.
+- **Prosty, intuicyjny Interface**: GNOME oferuje przejrzysty pulpit Interface, zaprojektowany tak, aby był łatwy w użyciu, nawet dla osób, które nie czują się komfortowo z wierszem poleceń.
 
 
 
 
 
-- Darmowy**: podobnie jak większość dystrybucji Linuksa, PureOS jest całkowicie darmowy. Dostępna jest jednak miesięczna subskrypcja wspierająca deweloperów.
+- **Darmowy**: podobnie jak większość dystrybucji Linuksa, PureOS jest całkowicie darmowy. Dostępna jest jednak miesięczna subskrypcja wspierająca deweloperów.
 
 
 
 
 
-- Bezpieczeństwo i stabilność**: Architektura i tryb pracy PureOS sprawiają, że jest to wysoce bezpieczna dystrybucja, gwarantująca ochronę danych i stabilność systemu.
+- **Bezpieczeństwo i stabilność**: Architektura i tryb pracy PureOS sprawiają, że jest to wysoce bezpieczna dystrybucja, gwarantująca ochronę danych i stabilność systemu.
 
 
 
 
 
-- Dokumentacja i aktywna społeczność**: PureOS posiada przejrzystą, przystępną dokumentację i zaangażowaną, responsywną społeczność, co ułatwia rozwiązywanie problemów i naukę systemu krok po kroku.
+- **Dokumentacja i aktywna społeczność**: PureOS posiada przejrzystą, przystępną dokumentację i zaangażowaną, responsywną społeczność, co ułatwia rozwiązywanie problemów i naukę systemu krok po kroku.
 
 
 
@@ -64,7 +64,7 @@ Instalacja i konfiguracja PureOS na komputerze będzie wymagać następujących 
 
 
 
-Przejdź do [oficjalnej strony PureOS] (https://pureos.net/), a następnie pobierz obraz ISO systemu operacyjnego zgodnie z architekturą swojego komputera.
+Przejdź do [oficjalnej strony PureOS](https://pureos.net/), a następnie pobierz obraz ISO systemu operacyjnego zgodnie z architekturą swojego komputera.
 
 
 
@@ -181,7 +181,7 @@ Dostępne są dwie opcje partycjonowania dysku Hard:
 
 
 
-- Wymaż dysk**: W celu pełnej instalacji systemu PureOS, usunięcie wszystkich wcześniej istniejących danych na dysku Hard.
+- **Wymaż dysk**: W celu pełnej instalacji systemu PureOS, usunięcie wszystkich wcześniej istniejących danych na dysku Hard.
 
 
 
@@ -191,7 +191,7 @@ Dostępne są dwie opcje partycjonowania dysku Hard:
 
 
 
-- Ręczne partycjonowanie** do tworzenia własnych wyników
+- **Ręczne partycjonowanie** do tworzenia własnych wyników
 
 
 
@@ -260,7 +260,7 @@ Przed rozpoczęciem korzystania z PureOS należy zaktualizować system. Umożliw
 
 
 
-- Aktualizacja poprzez grafikę Interface**:
+- Aktualizacja poprzez grafikę **Interface**:
 
 
 Otwórz aplikację **Oprogramowanie**, a następnie przejdź do zakładki **Aktualizacje**. Dostępne aktualizacje zostaną wyświetlone automatycznie. Kliknij **Pobierz**, a następnie **Zainstaluj** po zakończeniu pobierania.
@@ -269,7 +269,7 @@ Otwórz aplikację **Oprogramowanie**, a następnie przejdź do zakładki **Aktu
 
 
 
-- Aktualizacja przez terminal**:
+- **Aktualizacja przez terminal**:
 
 
 Otwórz terminal, a następnie wprowadź następujące polecenie, aby zaktualizować listę dostępnych pakietów:
@@ -331,9 +331,9 @@ PureOS zawiera również pakiet biurowy **LibreOffice**, który obejmuje:
 
 
 
-- Writer**: kompletny edytor tekstu do tworzenia i edycji dokumentów.
-- Calc**: potężny arkusz kalkulacyjny do zarządzania danymi i obliczeniami.
-- Impress**: narzędzie do tworzenia profesjonalnych prezentacji.
+- **Writer**: kompletny edytor tekstu do tworzenia i edycji dokumentów.
+- **Calc**: potężny arkusz kalkulacyjny do zarządzania danymi i obliczeniami.
+- **Impress**: narzędzie do tworzenia profesjonalnych prezentacji.
 
 
 
@@ -353,4 +353,4 @@ Odkryj nasz kurs na temat wzmacniania bezpieczeństwa i ochrony prywatności cyf
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

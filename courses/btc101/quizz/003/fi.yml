@@ -1,13 +1,12 @@
-question: Mikä on tämän Bitcoin-kurssin tarkoitus?
-answer: Esitellä joitakin Bitcoinin yleisiä rahataloudellisia näkökohtia, miten sitä käytetään ja sen tulevaisuutta.
+question: Mikä on tämän Bitcoin-kurssin pääpaino?
+answer: Bitcoinin rahalliset näkökohdat.
 wrong_answers:
-  - Esitellä, miten Bitcoinia louhitaan.
-  - Esitellä, miten Bitcoinia säännellään.
-  - Esitellä, miten luodaan uusi Bitcoin-protokolla.
+  - Bitcoinin koodausnäkökohdat.
+  - Bitcoinin ekologinen vaikutus.
+  - Bitcoinin sääntelyyn liittyvät näkökohdat.
 explanation: |
-  Tämän Bitcoin-kurssin tarkoituksena on keskustella
-  Bitcoinin yleisistä rahataloudellisista ominaisuuksista, mukaan lukien miten
-  ostaa ja myydä bitcoineja, säilyttää niitä turvallisesti digitaalisissa
-  lompakoissa ja käyttää niitä transaktioissa. Se pyrkii myös
-  tutkimaan Bitcoinin tulevaisuutta.
+  Tämä Bitcoin-kurssi keskittyy Bitcoinin rahallisiin näkökohtiin,
+  mukaan lukien miten ostaa ja myydä bitcoineja, turvallisesti
+  säilyttää niitä digitaalisissa lompakoissa ja käyttää niitä
+  transaktioissa.
 reviewed: true

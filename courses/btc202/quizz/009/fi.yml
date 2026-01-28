@@ -1,0 +1,9 @@
+question: Mikä on Bitcoin-solmun tärkein tehtävä?
+answer: Tallenna Blockchain ja validoi tapahtumat ja lohkot
+wrong_answers:
+  - Tallenna yksityiset avaimet ja rakenna tapahtumia
+  - Luo uusia osoitteita käyttäjille
+  - Muunna bitcoinit fiat-valuutoiksi
+explanation: |
+  Bitcoin-solmu ylläpitää kopiota Blockchain:sta ja osallistuu transaktioiden ja lohkojen validointiin ja välittämiseen.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 디피-헬만 키 Exchange 프로토콜은 무엇을 허용하나요?
+answer: 두 당사자가 공개 정보를 공유하여 공통 비밀 키를 만들 수 있습니다.
+wrong_answers:
+  - 각 세션에 대해 대면 비밀 키 Exchange을 허용합니다.
+  - 암호화에는 공개 키를, 복호화에는 개인 키를 사용할 수 있습니다.
+  - 전자 화폐의 Exchange를 허용합니다.
+explanation: |
+  Diffie-Hellman 프로토콜을 사용하면 두 당사자가 정보를 공개적으로 공유하면서 향후 교환을 보호하기 위해 공통 키를 generate로 설정할 수 있습니다.
+reviewed: false

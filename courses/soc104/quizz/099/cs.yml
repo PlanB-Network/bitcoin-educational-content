@@ -1,0 +1,9 @@
+question: Jaký základní přístup podle manifestu Cypherpunk Erica Hughese odlišuje šifranty od těch, kteří pouze doufají v ochranu soukromí?
+answer: Aktivně píší kód a vytvářejí kryptografické systémy, místo aby čekali, až instituce zajistí soukromí
+wrong_answers:
+  - Zaměřují se na politický lobbing a právní reformy s cílem zavést ústavní práva na soukromí
+  - Prioritou je informovat veřejnost o rizicích dozoru prostřednictvím akademického výzkumu a publikací
+  - Pracují v rámci stávajících finančních institucí a postupně zavádějí technologie pro zachování soukromí
+explanation: |
+  Eric Hughes výslovně uvedl, že "Cypherpunkeři píší kód" je jejich definující metodologie. V manifestu zdůrazňuje, že cypherpunkeři nečekají na vlády, korporace nebo jiné organizace, aby zajistily ochranu soukromí.
+  Namísto toho podnikají přímé kroky vytvářením kryptografických nástrojů a decentralizovaných systémů. Tento aktivní konstrukční přístup, spíše než pasivní doufání nebo institucionální reforma, se stal základem pro inovace jako Bitcoin, které ztělesňují jejich filozofii budování alternativních systémů mimo tradiční mocenské struktury.

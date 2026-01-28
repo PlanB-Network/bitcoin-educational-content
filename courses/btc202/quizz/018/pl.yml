@@ -1,0 +1,9 @@
+question: Jaka jest najczęściej używana implementacja węzła Bitcoin?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  Z około 9 na 10 węzłów w sieci, Bitcoin core jest większościowym klientem.
+reviewed: true

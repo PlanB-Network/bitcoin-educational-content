@@ -1,0 +1,10 @@
+question: What protocol prevented the Silk Road marketplace from being shut down directly by the authorities?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, a lexicalized acronym for The Onion Router, is a protocol supporting a global, decentralized overlay computer network (commonly known as the darknet). 
+ It enables websites to be hosted anonymously and without censorship, and was ideally suited to Ross Ulbricht's project.
+reviewed: true

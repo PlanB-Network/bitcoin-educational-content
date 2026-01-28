@@ -1,11 +1,10 @@
-question: Vilken betydelse har det individuella ansvaret i Bitcoin?
-answer: Det är viktigt eftersom det är du som ansvarar för säkerhetskopiorna.
+question: Vilken är den första Bitcoin-transaktionen som registreras?
+answer: En transaktion på 10 BTC mellan Satoshi Nakamoto och Hal Finney.
 wrong_answers:
-  - Det är viktigt eftersom du måste bryta bitcoins.
-  - Det är viktigt att köpa bitcoins.
-  - Det är avgörande eftersom du är ansvarig för Wallet-temat.
+  - En transaktion på 10 000 BTC för 2 pizzor.
+  - En transaktion på 1 BTC mellan Satoshi Nakamoto och Hal Finney.
+  - En transaktion på 10 000 BTC mellan Laszlo Hanyecz och Hal Finney.
 explanation: |
-  I Bitcoin går ekonomisk suveränitet hand i hand med
-  individuellt ansvar, eftersom du måste självförvara
-  dina medel genom att följa rekommenderade säkerhetskopieringsförfaranden.
+  Den första Bitcoin-transaktionen som registrerades var en transaktion på
+  10 BTC mellan Satoshi Nakamoto och Hal Finney.
 reviewed: true

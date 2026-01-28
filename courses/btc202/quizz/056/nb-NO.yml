@@ -1,0 +1,9 @@
+question: Hvordan kobler jeg enklest en mobil Wallet til Electrs via Umbrel?
+answer: Skann Tor QR-koden
+wrong_answers:
+  - Last ned en cookie-fil
+  - Importer privat nøkkel
+  - Kopier filen Wallet.dat
+explanation: |
+  Umbrel lar deg skanne Tor QR-koden fra Electrs direkte for å konfigurere mobiltilkoblingen din.
+reviewed: true

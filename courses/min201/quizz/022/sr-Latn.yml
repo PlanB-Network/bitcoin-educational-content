@@ -5,7 +5,7 @@ wrong_answers:
   - Rudari će se oslanjati isključivo na potvrde transakcija za nadoknadu.
   - Rudari će se oslanjati isključivo na naknade mreže za kompenzaciju.
 explanation: |
-  Do 2140. godine, neće biti kreirano novih bitkoina. U tom trenutku,
+  Do 2140. godine, neće više biti kreirano novih bitkoina. U tom trenutku,
   rudari će se oslanjati isključivo na naknade za transakcije za
   kompenzaciju.
 reviewed: true

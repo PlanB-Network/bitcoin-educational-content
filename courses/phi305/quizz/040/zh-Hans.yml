@@ -1,0 +1,9 @@
+question: 什么是学术哲学？
+answer: 中世纪的基督教哲学
+wrong_answers:
+  - 一场政治运动
+  - 无政府主义哲学
+  - 理性哲学
+explanation: |
+  经院哲学是中世纪的基督教哲学，在欧洲大学中占主导地位。它试图将基督教信仰与亚里士多德哲学相协调。
+reviewed: false

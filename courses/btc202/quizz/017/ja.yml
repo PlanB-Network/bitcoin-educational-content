@@ -1,0 +1,9 @@
+question: バージョン0.5以降、ビットコインコアと一緒に配布されている2つのコンポーネントは？
+answer: Bitcoin-qtとbitcoind
+wrong_answers:
+  - bitcoin-cliとBitcoin-gui
+  - ビットコインマイナーとビットコインウォレット
+  - ビットコインコアとビットコインノード
+explanation: |
+  バージョン0.5以降、ビットコインコアにはグラフィカルなInterface(Bitcoin-qt)とコマンドラインのInterface(bitcoind)があります。
+reviewed: true

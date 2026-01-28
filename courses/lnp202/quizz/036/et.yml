@@ -1,0 +1,9 @@
+question: Miks on Lightningi marsruutimist raske kasumlikuks muuta?
+answer: Kulud ja konkurents
+wrong_answers:
+  - Kanali piirväärtus
+  - Taotlust ei ole
+  - Ülemaailmse likviidsuse puudumine
+explanation: |
+  Onchain-kulud, konkurents ja tegevusnõuded muudavad marsruutimisäri kasumlikkuse ebakindlaks.
+reviewed: false

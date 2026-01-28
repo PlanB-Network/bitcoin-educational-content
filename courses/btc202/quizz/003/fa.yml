@@ -1,0 +1,9 @@
+question: بر اساس گفته اریک وسکویل در کتاب Cryptoeconomics، امنیت Bitcoin بر چه اساسی است؟
+answer: بر روی افراد
+wrong_answers:
+  - روی Blockchain
+  - درباره قدرت Hash
+  - درباره رمزنگاری
+explanation: |
+  اریک واسکویل توضیح می‌دهد که امنیت Bitcoin بیش از هر چیز به افرادی وابسته است که برای حفظ سیستم ریسک می‌کنند.
+reviewed: true

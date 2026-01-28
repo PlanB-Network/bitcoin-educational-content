@@ -1,0 +1,9 @@
+question: Milliseid andmeid saab Lightning wallet operaator oma kasutajate kohta jälgida?
+answer: Kõik nende voolud
+wrong_answers:
+  - Nende identiteet
+  - Nende maksete metaandmed, kuid ilma summadeta
+  - Nende maksete kulud, kuid ilma summadeta
+explanation: |
+  Operaatoril on juurdepääs kasutaja summadele, sagedustele, saajatele ja makseharjumustele - lühidalt öeldes, ta saab kõike jälgida, kuigi need teenused on sageli KYC-vabad.
+reviewed: false

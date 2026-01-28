@@ -24,25 +24,25 @@ Relai se ističe svojom jednostavnošću, pristupačnošću i fokusom na dugoro�
 
 
 
-- Gde ga pronaći:** Aplikacija je dostupna na App Store-u (iOS) i Google Play Store-u (Android). Potražite “Relai” i preuzmite je besplatno.
-- Brzo podešavanje:** Nakon instalacije, otvorite aplikaciju i pratite vođeni proces podešavanja.
+- **Gde ga pronaći:** Aplikacija je dostupna na App Store-u (iOS) i Google Play Store-u (Android). Potražite "Relai" i preuzmite je besplatno.
+- **Brzo podešavanje:** Nakon instalacije, otvorite aplikaciju i pratite vođeni proces podešavanja.
 
 
 ### Korak 2: Kreirajte svoj nalog
 
 
 
-- Obavezni KYC:** Relai sada zahteva verifikaciju "Upoznaj svog kupca" (KYC). Pripremite važeći ID dokument i dokaz o Address.
-- Proces verifikacije:** Otpremite svoje dokumente, napravite selfi za potvrdu identiteta i sačekajte odobrenje (obično u roku od 24 sata).
-- Zašto KYC?:** Osigurava usklađenost sa finansijskim propisima i povećava sigurnost za sve korisnike.
+- **Obavezni KYC:** Relai sada zahteva verifikaciju "Upoznaj svog kupca" (KYC). Pripremite važeći ID dokument i dokaz o Address.
+- **Proces verifikacije:** Otpremite svoje dokumente, napravite selfi za potvrdu identiteta i sačekajte odobrenje (obično u roku od 24 sata).
+- **Zašto KYC?:** Osigurava usklađenost sa finansijskim propisima i povećava sigurnost za sve korisnike.
 
 
 ### Korak 3: Osigurajte svoj Wallet
 
 
 
-- Samostalno čuvanje:** Relai nudi nekustodijalni Wallet, što znači da vi kontrolišete svoje privatne ključeve.
-- Napravite rezervnu kopiju ključeva:** Zapišite svoju 12-rečnu frazu za oporavak na papir (ne digitalno) i čuvajte je na sigurnom mestu. Ovo je ključno za pristup vašim sredstvima ako vaš telefon bude izgubljen ili ukraden.
+- **Samostalno čuvanje:** Relai nudi nekustodijalni Wallet, što znači da vi kontrolišete svoje privatne ključeve.
+- **Napravite rezervnu kopiju ključeva:** Zapišite svoju 12-rečnu frazu za oporavak na papir (ne digitalno) i čuvajte je na sigurnom mestu. Ovo je ključno za pristup vašim sredstvima ako vaš telefon bude izgubljen ili ukraden.
 
 
 ---
@@ -175,11 +175,11 @@ Relai će prikazati primenljive naknade mreže.
 
 
 
-- Čuvajte svoju frazu za oporavak na sigurnom:** Čuvajte je van mreže i izbegavajte da je delite sa bilo kim.
-- Omogući sigurnost aplikacije:** Koristi jak PIN ili biometrijsku autentifikaciju.
-- Diversify Storage:** Razmotrite korišćenje Hardware Wallet za velike količine Bitcoin.
-- Redovno ažurirajte aplikaciju:** Ostanite zaštićeni uz najnovije sigurnosne zakrpe i funkcije.
-- Izbegavajte javni Wi-Fi:** Pristupajte svom Wallet samo na sigurnim mrežama.
+- **Čuvajte svoju frazu za oporavak na sigurnom:** Čuvajte je van mreže i izbegavajte da je delite sa bilo kim.
+- **Omogući sigurnost aplikacije:** Koristi jak PIN ili biometrijsku autentifikaciju.
+- **Diversify Storage:** Razmotrite korišćenje Hardware Wallet za velike količine Bitcoin.
+- **Redovno ažurirajte aplikaciju:** Ostanite zaštićeni uz najnovije sigurnosne zakrpe i funkcije.
+- **Izbegavajte javni Wi-Fi:** Pristupajte svom Wallet samo na sigurnim mrežama.
 
 
 ---
@@ -191,10 +191,10 @@ Relai takođe podržava preduzeća koja žele da investiraju u Bitcoin. Karakter
 
 
 
-- Prilagođeni planovi štednje:** Planovi prilagođeni potrebama poslovanja.
-- Pristup za više korisnika:** Omogućite više članova tima da bezbedno upravljaju nalogom.
-- Povećani Limiti:** Uložite veće iznose u poređenju sa ličnim računima.
-- Posvećena podrška:** Pristup prioritetnoj korisničkoj službi za preduzeća.
+- **Prilagođeni planovi štednje:** Planovi prilagođeni potrebama poslovanja.
+- **Pristup za više korisnika:** Omogućite više članova tima da bezbedno upravljaju nalogom.
+- **Povećani Limiti:** Uložite veće iznose u poređenju sa ličnim računima.
+- **Posvećena podrška:** Pristup prioritetnoj korisničkoj službi za preduzeća.
 
 
 Da biste postavili poslovni račun, kontaktirajte Relai tim za podršku putem njihove veb stranice.
@@ -209,9 +209,9 @@ Relai nudi uzbudljiv program preporuka gde možete zaraditi Bitcoin pozivanjem p
 
 
 
-- Podeli svoj referalni kod:** Svaki Relai korisnik dobija jedinstveni referalni kod. Podeli ga sa svojim prijateljima.
-- Zaradite 10% naknada:** Zarađujete 10% naknada od transakcija vaših prijatelja kada koriste vaš kod.
-- Pasivni Bitcoin Prihod:** Dok vaši prijatelji nastavljaju trgovati na Relai, vi ćete nastaviti zarađivati Bitcoin. To je win-win situacija za vas i vaše prijatelje.
+- **Podeli svoj referalni kod:** Svaki Relai korisnik dobija jedinstveni referalni kod. Podeli ga sa svojim prijateljima.
+- **Zaradite 10% naknada:** Zarađujete 10% naknada od transakcija vaših prijatelja kada koriste vaš kod.
+- **Pasivni Bitcoin Prihod:** Dok vaši prijatelji nastavljaju trgovati na Relai, vi ćete nastaviti zarađivati Bitcoin. To je win-win situacija za vas i vaše prijatelje.
 
 
 Počnite deliti svoj kod danas i lako povećajte svoj Bitcoin stack!
@@ -227,7 +227,7 @@ Počnite deliti svoj kod danas i lako povećajte svoj Bitcoin stack!
 
 
 - Relai naplaćuje konkurentnu naknadu od 1% po transakciji, ili 0,9% ako koristite referalni kod kao što je `REL361712`. Naknade su transparentno prikazane pre nego što potvrdite kupovinu.
-- Nema naknada:** Transakcije do €100 ili CHF 100 su potpuno bez naknada.
+- **Nema naknada:** Transakcije do €100 ili CHF 100 su potpuno bez naknada.
 
 
 ### Mogu li pauzirati svoj plan štednje?

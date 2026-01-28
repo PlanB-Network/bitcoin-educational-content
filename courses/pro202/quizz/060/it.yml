@@ -1,0 +1,8 @@
+question: Quale meccanismo specifico assicura che i nodi pre-SegWit accettino le transazioni P2WPKH come valide senza comprendere le regole di validazione dei testimoni?
+answer: I nodi pre-SegWit interpretano lo script OP_0 + hash a 20 byte come un output "anyone-can-spend" che non richiede la verifica della firma
+wrong_answers:
+  - I nodi pre-SegWit inoltrano automaticamente le transazioni P2WPKH ai nodi aggiornati per la convalida dei testimoni prima di accettarle
+  - I nodi pre-SegWit riconoscono il modello P2WPKH e saltano completamente la convalida, trattando tutte le transazioni dei testimoni come pre-convalidate
+  - I nodi pre-SegWit riconvertono i dati del testimone nel formato scriptSig tradizionale utilizzando le regole di trasformazione della compatibilità all'indietro
+explanation: |
+  La genialità del design del SegWit sta nello sfruttare il modo in cui i nodi precedenti al SegWit gestiscono gli schemi di script sconosciuti. Quando questi nodi più vecchi incontrano uno script P2WPKH (OP_0 seguito da un push di 20 byte), non lo riconoscono come un programma testimone speciale. Lo valutano invece come uno script standard che lascia OP_0 e l'hash sullo stack. Poiché OP_0 viene valutato come falso nel sistema di scripting di Bitcoin, i nodi pre-SegWit lo interpretano come una condizione "anyone-can-spend", il che significa che dal loro punto di vista non è necessaria alcuna verifica della firma. In questo modo la transazione può essere accettata nella propria mempool e nei blocchi senza interrompere il consenso, mentre i nodi SegWit eseguono l'effettiva convalida crittografica utilizzando i dati dei testimoni.

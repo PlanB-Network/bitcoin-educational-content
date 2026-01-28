@@ -1,0 +1,11 @@
+question: Bitcoin Wallet을 사용하여 자금을 안전하게 사용하는 데 사용되는 기술은 무엇인가요?
+answer: 타원 곡선 암호화.
+wrong_answers:
+  - 대칭 암호화.
+  - 양자 암호화.
+  - RSA 암호화.
+explanation: |
+  비트코인을 사용하려면 소유자가 타원 곡선
+  디지털 서명 알고리즘(ECDSA)을 사용하여 서명을 위조해야 합니다
+  서명을 위조해야 합니다.
+reviewed: true

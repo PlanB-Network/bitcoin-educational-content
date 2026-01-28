@@ -1,6 +1,6 @@
 ---
-name: 本地執行 Plan ₿ Network 平台指南
-description: 如何在本機環境中執行 Plan ₿ Network，以測試我在 Plan ₿ Network 上的內容貢獻或教育內容的校對/審查？
+name: 本地執行 Plan ₿ Academy 平台指南
+description: 如何在本機環境中執行 Plan ₿ Academy，以測試我在 Plan ₿ Academy 上的內容貢獻或教育內容的校對/審查？
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: 如何在本機環境中執行 Plan ₿ Network，以測試我在 P
 ## 總結
 
 
-本教學提供逐步指示，說明如何使用 Docker、假金鑰和自訂儲存庫組態，在本機電腦上從 Plan ₿ Network 設定 Bitcoin 學習管理系統。
+本教學提供逐步指示，說明如何使用 Docker、假金鑰和自訂儲存庫組態，在本機電腦上從 Plan ₿ Academy 設定 Bitcoin 學習管理系統。
 
 
 如果您不瞭解上面的部分，別擔心，本教學就是為您準備的！
@@ -147,7 +147,7 @@ docker compose up -d --build -V
 \[<http://localhost:8181](http://localhost:8181)>
 
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 
 請注意：如果您變更任何原始檔案，應用程式會自動重新載入。
@@ -196,7 +196,7 @@ curl -X POST http://localhost:3000/api/github/sync
 ```
 
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 

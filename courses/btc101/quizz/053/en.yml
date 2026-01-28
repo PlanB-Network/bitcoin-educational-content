@@ -1,11 +1,11 @@
-question: There is an historical case of a daily rate of inflation equivalent to 100%; where and when did it happen?
-answer: In Zimbabwe, 2007.
+question: What is the process that verifies transactions on the Bitcoin network called?
+answer: Mining
 wrong_answers:
-  - In Hungary, 1945.
-  - In China, 1940.
-  - This is actually an unrealistic case that cannot happen.
+  - Digging
+  - Harvesting
+  - Farming
 explanation: |
-  A 100% inflation rate per day is a realistic scenario that
-  happened in Zimbabwe in 2007, where the money value roughly
-  doubled each 24 hours.
+  The process that verifies transactions on the Bitcoin
+  network is called mining. Miners perform a cryptographic
+  task and are rewarded with the issuance of new bitcoins.
 reviewed: true

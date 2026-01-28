@@ -1,0 +1,9 @@
+question: Milline on parim viis Bitcoin core-le kaugjuurdepääsu saamiseks?
+answer: RPC pordi avamine
+wrong_answers:
+  - Tor'i kasutamine
+  - VPN-i kasutamine
+  - Electrumi serveri avalikustamine
+explanation: |
+  RPC portide krüpteerimata avamine kujutab endast suurt turvariski. Soovitatav on kasutada Tor või VPN.
+reviewed: true

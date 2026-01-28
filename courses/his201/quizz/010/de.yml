@@ -1,4 +1,4 @@
-question: Wer war die Hauptpersönlichkeit hinter der Gründung von PayPal?
+question: Wer war die Hauptperson hinter der Gründung von PayPal?
 answer: Peter Thiel
 wrong_answers:
   - Elon Musk
@@ -6,4 +6,4 @@ wrong_answers:
   - Mark Zuckerberg
 explanation: |
   Das PayPal-Produkt wurde 1999 von Confinity Inc. entwickelt, das im Dezember 1998 in San Francisco von Peter Thiel und Max Levchin mitgegründet wurde.
-reviewed: false
+reviewed: true

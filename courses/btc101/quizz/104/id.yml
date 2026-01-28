@@ -1,11 +1,9 @@
-question: Apa yang bukan merupakan frasa mnemonik dalam konteks Bitcoin?
-answer: Sebuah kata sandi untuk dompet Bitcoin Anda
+question: Apa yang dimaksud dengan KYC?
+answer: Kenali Pelanggan Anda
 wrong_answers:
-  - sebuah daftar 12-24 kata dari kamus spesifik
-  - rahasia untuk mengakses dana bitcoin Anda
-  - Kode rahasia untuk mengakses bitcoin Anda
+  - Simpan Uang Anda
+  - Masukkan Kode Anda
+  - Mohon Patuhi
 explanation: |
-  Sebuah frasa mnemonik dalam konteks Bitcoin adalah daftar 12 atau 24 kata
-  yang memungkinkan Anda untuk mengembalikan dompet Anda di aplikasi dompet Bitcoin mana pun. Siapa pun
-  yang memiliki akses ke daftar ini juga memiliki akses ke bitcoin Anda.
+  KYC atau Kenali Pelanggan Anda merujuk pada proses yang dilakukan oleh bisnis untuk memverifikasi identitas klien mereka. Ini biasanya dilakukan untuk memastikan kepatuhan terhadap regulasi dan untuk mencegah aktivitas ilegal seperti pencucian uang atau penipuan.
 reviewed: true

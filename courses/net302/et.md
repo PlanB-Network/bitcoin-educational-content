@@ -90,7 +90,7 @@ Kas olete valmis sukelduma arvutivõrkude maailma? Läheme!
 **MÄRKUS**: Kirjeldused põhinevad GNU/Linux CentOS 7 süsteemil. Siiski on võrgukonfiguratsioonid suures osas samad, kui võrrelda Debiani ja CentOS süsteemi. Seega ei tee me mingit vahet. Kui see on olemas, siis lisame sellele konkreetse logo.
 
 
-**N.B.**: Kui kursuse käigus satute mõne tundmatu terminiga kokku, vaadake [sõnastikust] (https://planb.network/resources/glossary), et leida mõisted.
+**N.B.**: Kui kursuse käigus satute mõne tundmatu terminiga kokku, vaadake [sõnastikust](https://planb.academy/resources/glossary), et leida mõisted.
 
 
 
@@ -138,7 +138,7 @@ Selle korralduse eelis seisneb lihtsas kaabeldamises ja selles, et ei sõltu üh
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/et/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Selline hierarhiline ülesehitus sobib eriti hästi suurte võrkude puhul, mis v
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/et/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Bussitopoloogia peamine eelis on madalad paigalduskulud tänu lihtsustatud kaabe
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/et/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Selline paigutus muudab haldamise ja hoolduse lihtsaks: kui üks välisseade lä
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/et/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Kompromissiks on see, et loodavate ühenduste arv suureneb kiiresti koos termina
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/et/005.webp)
 
 
 
@@ -240,8 +240,8 @@ Nende protokollide juhtimist ja arengut jälgib ***Internet Architecture Board**
 See organisatsioon koordineerib tehnilisi suundumusi kahe peamise struktuuri kaudu:
 
 
-- IRTF** (_Internet Research Task Force_), mis viib läbi pikaajalisi uuringuid protokollide arengu ja täiustamise kohta.
-- IETF** (_Internet Engineering Task Force_), mis töötab välja, standardiseerib ja dokumenteerib Internetis kasutatavad tööprotokollid
+- **IRTF** (_Internet Research Task Force_), mis viib läbi pikaajalisi uuringuid protokollide arengu ja täiustamise kohta.
+- **IETF** (_Internet Engineering Task Force_), mis töötab välja, standardiseerib ja dokumenteerib Internetis kasutatavad tööprotokollid
 
 
 Võrguressursside (IP Address vahemikud, autonoomsete süsteemide numbrid, juurdomeeninimed jne) jaotamist koordineerib rahvusvaheliselt **IANA/ICANN**. Operatiivne juhtimine tugineb: **RIR** (*Regional Internet Registries*): **RIPE NCC** (Euroopa, Lähis-Ida, Kesk-Aasia), **ARIN**, **APNIC**, **LACNIC** ja **AFRINIC**.
@@ -263,7 +263,7 @@ TCP/IP mudeli neli kihti on järgmised:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/et/006.webp)
 
 
 
@@ -283,11 +283,11 @@ Iga TCP/IP virna Layer pakub konkreetseid teenuseid, võimaldades Address erinev
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS protokoll
 
@@ -306,18 +306,19 @@ Kõige esimene väli päises kannab nime Version. See 4-bitine väärtus määra
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versiooni number | Protokoll | Versiooni kirjeldus | Viide |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Reserveeritud | Reserveeritud | |
+| 2–3 | Määramata | Määramata | |
+| 4 | IP | Internetiprotokoll | RFC 791 |
+| **5** | **ST** | **ST datagrammi režiim** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internetiprotokolli versioon 6 | RFC 8200 |
+| 7 | TP/IX | Järgmine internet | RFC 1475 |
+| 8 | PIP | P internetiprotokoll | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Määramata | Määramata | |
+| 15 | Reserveeritud | Reserveeritud | |
 
 Nende hulgas on IPv5, mis on küll avalikkusele suuresti tundmatu, kuid mis oli olemas ST (_Stream Protocol_) nime all. IPv5 töötati välja 1980ndatel aastatel, et tagada "teenuse kvaliteet" (QoS) teatud andmevoogude jaoks, mis nõudsid pidevat ja stabiilset edastamist, näiteks Voice over IP või multimeediavoogude jaoks. Selle eesmärk oli tagada otsest ribalaiust ja prioriteetsust, mis on sarnane kontseptsiooniga, mida RSVP (_Resource Reservation Protocol_) pakub tänapäeval võrguressursside dünaamiliseks reserveerimiseks kaasaegsetes ruuterites.
 
@@ -354,9 +355,9 @@ Füüsilisel tasandil tugineb andmeedastus riistvaraliideseile, et luua sõlmede
 Kolm võrgukonfiguratsiooni Elements määravad, kuidas pakett oma teele saadetakse:
 
 
-- IP Address**: identifitseerib üheselt sihtkoha võrgus.
-- Subnet mask**: määrab kindlaks, milline osa Address tähistab võrku ja milline osa hostit, võimaldades loogilist jaotust alamvõrkudeks.
-- Värav**: näitab vahepealset marsruuterit, mida pakett peaks läbima, et jõuda välisvõrku või kohaliku võrgu teise segmenti.
+- **IP Address**: identifitseerib üheselt sihtkoha võrgus.
+- **Subnet mask**: määrab kindlaks, milline osa Address tähistab võrku ja milline osa hostit, võimaldades loogilist jaotust alamvõrkudeks.
+- **Värav**: näitab vahepealset marsruuterit, mida pakett peaks läbima, et jõuda välisvõrku või kohaliku võrgu teise segmenti.
 
 
 Internetis ei liigu andmed ühe pideva andmevooluna, vaid neid saadetakse **datagrammidena**: iseseisvad andmeplokid, millest igaüks on kapseldatud kogu edastamiseks vajaliku teabega. See on **pakettide vahetamise** põhimõte, kus teave jagatakse iseseisvateks ühikuteks, mis võivad jõuda samale vastuvõtjale eri teid pidi.
@@ -381,16 +382,16 @@ Kui IP-andmeside peab läbima võrku, mille ülekandevõimsus on väiksem kui an
 Iga võrgutehnoloogia kehtestab oma MTU, mis määratakse kindlaks riistvara ja protokolli omaduste alusel. Üldised väärtused on järgmised:
 
 
-- ARPANET**: 1000 baiti
-- Ethernet**: 1500 baiti
-- FDDI**: 4470 baiti
+- **ARPANET**: 1000 baiti
+- **Ethernet**: 1500 baiti
+- **FDDI**: 4470 baiti
 
 
 Kui datagramm ületab võrgusegmendi MTU-d, mida ta peab ületama, jagavad marsruutimisseadmed selle väiksemateks **fragmentideks**, mis vastavad piirangule. See juhtub tavaliselt siis, kui liigutakse suure MTU-ga võrgust väiksema läbilaskevõimega võrku. Näiteks võib FDDI-võrgust tulev datagramm olla vaja enne Ethernet-segmendi kaudu saatmist killustada.
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/et/007.webp)
 
 
 
@@ -431,7 +432,7 @@ Seega järgib edastamine struktureeritud protsessi:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/et/008.webp)
 
 
 
@@ -442,21 +443,21 @@ Saabumisel toimub protsess vastupidi: vastuvõttev masin saab kaadri võrgujuurd
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/et/009.webp)
 
 
 
 Andmete muundamise iga Layer puhul võib kokku võtta järgmiselt:
 
 
-- Teade**: infoblokk Application Layer.
-- Segment**: andmeühik pärast kapseldamist Transport Layer poolt.
-- Datagramm**: vorm, mis võetakse pärast IP-pealkirja lisamist Interneti Layer poolt.
-- Kaader**: lõplik plokk, mis on valmis võrguühendus Layer poolt füüsilise andmekandja kaudu edastamiseks.
+- **Teade**: infoblokk Application Layer.
+- **Segment**: andmeühik pärast kapseldamist Transport Layer poolt.
+- **Datagramm**: vorm, mis võetakse pärast IP-pealkirja lisamist Interneti Layer poolt.
+- **Kaader**: lõplik plokk, mis on valmis võrguühendus Layer poolt füüsilise andmekandja kaudu edastamiseks.
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/et/010.webp)
 
 
 
@@ -475,8 +476,8 @@ IPv4-s on IP Address kodeeritud **32 bitti** ja kirjutatud nelja punktidega eral
 IP Address koosneb kahest osast:
 
 
-- _netid_**: identifitseerib võrgu, millesse host kuulub
-- _hostid_**: identifitseerib konkreetse hosti kõnealuses võrgus
+- **netid**: identifitseerib võrgu, millesse host kuulub
+- **hostid**: identifitseerib konkreetse hosti kõnealuses võrgus
 
 Selline eraldamine võimaldab globaalset Internetti loogiliselt struktureerida paljudeks omavahel ühendatud võrkudeks.
 
@@ -485,14 +486,15 @@ Ajalooliselt tugines IPv4-süsteem klassipõhisele skeemile, mis oli tähistatud
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Klass** | **IPv4-aadressivahemik**          | **Kasutus**                  |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x kuni 126.x.x.x            | Unicast-aadressid            |
+|           | (127.x.x.x reserveeritud loopback'iks)| Kohalik loopback        |
+| B         | 128.0.x.x kuni 191.255.x.x        | Unicast-aadressid            |
+| C         | 192.0.0.x kuni 223.255.255.x      | Unicast-aadressid            |
+| D         | 224.0.0.0 kuni 239.255.255.255    | IP Multicast                 |
+| E         | 240.0.0.0 kuni 255.255.255.255    | Reserveeritud katsetamiseks |
 
 Kõiki võimalikke väärtusi ei saa määrata hostidele. Näiteks **klassi C** Address puhul pakub viimane bait 8 bitti (256 väärtust). Kuid kaks neist on reserveeritud:
 
@@ -507,16 +509,16 @@ Saadaolevate aadresside arv on klassiti väga erinev: alates suurtest avalikest 
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/et/011.webp)
 
 
 
 Mõned Address vahemikud on reserveeritud isiklikuks kasutamiseks ja neid ei suunata kunagi otse Internetti. Neid nimetatakse **privaataadressideks** ja neid kasutatakse organisatsioonide, ettevõtete või kodude sees ning need vajavad Address tõlget, tavaliselt NAT-i (*Network Address Translation*), et jõuda avalikku Internetti. Need on järgmised:
 
 
-- Klass A**: 10.0.0.0 kuni 10.255.255.255.255
-- B-klass**: 172.16.0.0 kuni 172.31.255.255
-- Klass C**: 192.168.0.0 kuni 192.168.255.255
+- **Klass A**: 10.0.0.0 kuni 10.255.255.255
+- **B-klass**: 172.16.0.0 kuni 172.31.255.255
+- **Klass C**: 192.168.0.0 kuni 192.168.255.255
 
 
 Kui seade, millel on privaatne Address, siseneb internetti, asendab NAT-toega ruuter või värav selle kehtiva avaliku Address-ga.
@@ -540,9 +542,9 @@ Address kasutamise optimeerimiseks ja keerukate võrkude projekteerimiseks on **
 Igal klassil on vaikimisi mask:
 
 
-- 255.0,0,0** A-klassi puhul,
-- 255.255.0.0** B-klassi puhul,
-- 255.255.255.0** C-klassi puhul.
+- **255.0,0,0** A-klassi puhul,
+- **255.255.0.0** B-klassi puhul,
+- 255.255.255.0 **C-klassi** puhul.
 
 
 Hea võrgukujundus järgib põhireeglit: seadmed, mis peavad otseselt suhtlema, peaksid olema samas võrgus või alamvõrgus. Võrgu segmenteerimiseks kasutame alamvõrku, jagades võrgu väiksemateks alamvõrkudeks, kasutades spetsiifilisemat maski.
@@ -561,7 +563,7 @@ Soovime 4 alamvõrku, millest igaühes on kuni 60 hosti.
 **Samm 2**: Leia lähim võimsus 2 ≥ 62. -> 2⁶ = 64.
 
 
-**Samm 3: Reguleeri mask. Hoidke _netid_ bitid ja reserveerige vajalikud _hostid_ bitid. Saame binaarse maski, mis pärast teisendamist annab **255.255.255.255.192**.
+**Samm 3: Reguleeri mask. Hoidke _netid_ bitid ja reserveerige vajalikud _hostid_ bitid. Saame binaarse maski, mis pärast teisendamist annab** 255.255.255.192.
 
 
 ```
@@ -573,19 +575,20 @@ Soovime 4 alamvõrku, millest igaühes on kuni 60 hosti.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Alamvõrgu ID (bitid) | Alamvõrgu aadress | Alamvõrgu mask | Aadressivahemik             | Broadcast-aadress |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
 
-
 **Samm 5**: See loob neli alamvõrku, millest igaüks toetab kuni 62 masinat, säilitades samal ajal üldise adresseerimisskeemi tõhususe. _hostid_ osa jagatakse _subnetid_ osaks ja hostide osaks.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/et/012.webp)
 
 
 
@@ -623,7 +626,9 @@ Näide:
 Et CIDRi suuruse määramine oleks lihtsamini arusaadav, on siin tabel tavalistest prefiksitest ja nende vastavatest alamvõrgumaskidest ja kasutatavatest aadressidest:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR-prefiks | Saadaval hosti bitid | Alamvõrgu mask | Kasutatavad hostiaadressid |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +640,8 @@ Et CIDRi suuruse määramine oleks lihtsamini arusaadav, on siin tabel tavaliste
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (ainult point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (ainult hostiaadress)      |
 
 **MÄRKUS**: Ajalooliselt on RFC 950 takistanud alamvõrgu nullmäära kasutamist, peamiselt selleks, et vältida segadust marsruutimisel.  See piirang muutus vananenuks RFC 1878-ga, mis lubab selle kasutamist täielikult. Vana piirang oli peamiselt tingitud vanema riistvara kokkusobimatusest, mis ei suutnud CIDRi korrektselt käsitleda. Kaasaegsetel seadmetel sellist probleemi ei ole.
 
@@ -653,7 +657,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP protokoll
 
@@ -680,7 +684,7 @@ TCP on ühendusele orienteeritud protokoll, mis tähendab, et see loob selgesõn
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/et/013.webp)
 
 
 
@@ -688,7 +692,7 @@ Usaldusväärsuse parandamiseks kasutab TCP taimerit: kui segment on saadetud, a
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/et/014.webp)
 
 
 
@@ -711,7 +715,7 @@ Järjestuse sünkroniseerimine Exchange põhineb kuulsal **"*kolmesuunalise käe
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/et/015.webp)
 
 
 
@@ -734,7 +738,7 @@ Praktikas määratleb libisev aken järjestusnumbrite vahemiku, mis võib vabalt
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/et/016.webp)
 
 
 
@@ -751,7 +755,7 @@ Sellist täpset juhtimist, mis ühendab IP paindliku marsruutimise ja TCP range 
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/et/017.webp)
 
 
 
@@ -787,20 +791,20 @@ Iga Layer tugineb temast allpool asuva Layer võimalustele ja annab omakorda ees
 Neid vahetusi reguleerivad kaks põhiaspekti:
 
 
-- Vertikaalne aspekt**: suhe ühe Layer ja selle kohal või all asuva Layer vahel (Layer N-st Layer N+1-ni ja vastupidi).
+- **Vertikaalne aspekt**: suhe ühe Layer ja selle kohal või all asuva Layer vahel (Layer N-st Layer N+1-ni ja vastupidi).
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/et/018.webp)
 
 
 
 
-- Horisontaalne aspekt**: kaugrakenduste vaheline suhtlus, st dialoog **kliendi** ja **serveri** vahel, mõlemas suunas.
+- **Horisontaalne aspekt**: kaugrakenduste vaheline suhtlus, st dialoog **kliendi** ja **serveri** vahel, mõlemas suunas.
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/et/019.webp)
 
 
 
@@ -810,21 +814,22 @@ Kihiline arhitektuur järgib põhimõtet, et iga Layer töötleb ainult oma regu
 **Meeldetuletus**: Kihtide vahel vahetatavate andmeühikute kirjeldamiseks kasutatakse spetsiifilist terminoloogiat:
 
 
-- sõnum** taotluse Layer kohta,
-- segment** transpordi Layer (TCP) jaoks,
-- datagramm** Interneti Layer (IP) jaoks,
-- raam** võrgujuurdepääsu Layer jaoks.
+- **sõnum** taotluse Layer kohta,
+- segment **transpordi Layer (TCP)** jaoks,
+- datagramm **Interneti Layer (IP)** jaoks,
+- **raam** võrgujuurdepääsu Layer jaoks.
 
 
 Alljärgnevas tabelis on kokkuvõte TCP- ja UDP-kontekstide terminitest:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP kiht          | Üksuse nimi (TCP) | Üksuse nimi (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Rakenduskiht         | Voog             | Sõnum            |
+| Transpordikiht       | Segment          | Pakett           |
+| Internetikiht        | Datagramm        | Datagramm        |
+| Võrgule juurdepääsu kiht | Kaader       | Kaader           |
 
 ### Teenuse primitiivid ja andmeühikud
 
@@ -836,7 +841,7 @@ Selle süsteemi keskmes on **teenuse algmoodulid**, mis toimivad suhtlusliideste
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/et/020.webp)
 
 
 
@@ -885,8 +890,8 @@ IP Address on unikaalne numbriline identifikaator, mis on määratud igale **võ
 IP-aadresse saab määrata peamiselt kahel viisil:
 
 
-- Staatiline**: Seadmes käsitsi seadistatud.
-- Dünaamiline**: DHCP (_Dynamic Host Configuration Protocol_) serveri poolt automaatselt määratud nõudmisel. DHCP lihtsustab võrgu haldamist, kõrvaldades vajaduse käsitsi konfigureerimise järele, võimaldades samal ajal täpset kontrolli reserveerimise ja rendiperioodi kaudu.
+- **Staatiline**: Seadmes käsitsi seadistatud.
+- **Dünaamiline**: DHCP (_Dynamic Host Configuration Protocol_) serveri poolt automaatselt määratud nõudmisel. DHCP lihtsustab võrgu haldamist, kõrvaldades vajaduse käsitsi konfigureerimise järele, võimaldades samal ajal täpset kontrolli reserveerimise ja rendiperioodi kaudu.
 
 
 **IPv4**-aadressid kirjutatakse **32-bitises** formaadis, mis on jagatud **neljaks baidiks**. Iga bait sisaldab 8 bitti ja kujutab kümnendarvu vahemikus 0 kuni 255. Neli baiti on eraldatud punktidega, et moodustada selge ja loetav tähistus.
@@ -896,7 +901,7 @@ näide: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/et/021.webp)
 
 
 
@@ -907,7 +912,8 @@ Järgnev tabel illustreerib seda vastavust:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binaarkood  | Aktiveeritud bittide väärtused | Kümnendväärtus |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -922,7 +928,8 @@ Järgnev tabel illustreerib seda vastavust:
 Binaarsüsteemi teisendamiseks kümnendsüsteemiks tuleb liita nende bittide osakaalud, mis on seatud 1.
 
 
-| Binary     | Decimal Value |
+
+| Binaarne   | Kümnendväärtus |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -944,8 +951,8 @@ Marsruuterid loevad neid aadresse, et leida parim tee paketi saatmiseks, kuni se
 IPv4 Address koosneb kahest osast:
 
 
-- NetID**: identifitseerib võrgu
-- HostID**: identifitseerib seadme kõnealuses võrgus
+- **NetID**: identifitseerib võrgu
+- **HostID**: identifitseerib seadme kõnealuses võrgus
 
 **Alavõrgumask** määrab, kus lõpeb NetID ja algab HostID, määrates, mitu bitti kuulub kummalegi osale. Mida pikem on NetID, seda suurem on võimalike alamvõrkude arv, kuid vastavalt väheneb hostide arv alamvõrgu kohta.
 
@@ -961,28 +968,29 @@ Algselt olid IPv4-võrgud jagatud viide **klassi**: (A, B, C, D ja E). Iga klass
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Klass | Algusbitid | Esimese baidi vahemik | Vaikimisi alamvõrgu mask | Eesmärk                         |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Väga suured võrgud               |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Keskmise suurusega võrgud        |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Väikesed võrgud                  |
+| D     | 1110         | 224 – 239        | Puudub              | Multiedastuse aadressid          |
+| E     | 1111         | 240 – 255        | Puudub              | Eksperimentaalne (avalikult ei kasutata) |
 
 Eriaadressid:
 
 
-- Võrk Address**: Identifitseerib võrku ennast (kasutatakse marsruutimistabelites).
-- Saade Address**: Saadab andmed korraga kõigile seadmetele allvõrgus (kõik HostID bits on seatud 1).
+- **Võrk Address**: Identifitseerib võrku ennast (kasutatakse marsruutimistabelites).
+- **Broadcast Address**: Saadab andmed korraga kõigile seadmetele allvõrgus (kõik HostID bits on seatud 1).
 
 
 Järgmised vahemikud on reserveeritud sisekasutuseks:
 
 
-- 10.0.0.0/8** (A-klassi eraisik)
-- 127.0.0.0/8** (kohalik tagasiside või _loopback_)
-- 172.16.0.0 kuni 172.31.255.255** (privaatne B-klass)
-- 192.168.0.0 kuni 192.168.255.255** (privaatne C-klass)
+- **10.0.0.0/8** (A-klassi eraisik)
+- **127.0.0.0/8** (kohalik tagasiside või _loopback_)
+- 172.16.0.0 kuni **172.31.255.255** (privaatne B-klass)
+- 192.168.0.0 kuni **192.168.255.255** (privaatne C-klass)
 
 
 Aadressid **127.0.0.1** ja üldisemalt kogu 127.0.0.0/8 kasutatakse sisemiseks testimiseks: kõik sinna saadetud päringud ei lahku kunagi masinast. See on kasulik selleks, et kontrollida, kas kohalik võrguteenus töötab ilma laiemat võrku kaasamata.
@@ -995,8 +1003,8 @@ Kaasaegsetes võrkudes on IP-aadressimine tavaliselt ühendatud teiste identifik
 
 
 
-- domeeninimi**, mis on registreeritud **DNSis** (_Domain Name System_): See seostab numbrilise IP Address inimsõbraliku nimega.
-- MAC Address**: võrgukaardile graveeritud füüsiline identifikaator, mida kasutatakse kohalikuks transpordiks (_Ethernet_). Kui IP-paketti on vaja füüsiliselt edastada, siis ARP-tabel võrdleb IP Address sihtkoha MAC Address-ga.
+- **domeeninimi**, mis on registreeritud **DNSis** (_Domain Name System_): See seostab numbrilise IP Address inimsõbraliku nimega.
+- **MAC Address**: võrgukaardile graveeritud füüsiline identifikaator, mida kasutatakse kohalikuks transpordiks (_Ethernet_). Kui IP-paketti on vaja füüsiliselt edastada, siis ARP-tabel võrdleb IP Address sihtkoha MAC Address-ga.
 
 
 IPv4 Address puudujäägi kõrvaldamiseks ja Layer turvalisuse lisamiseks kasutavad võrgud sageli Address tõlget (_NAT_). NAT võimaldab paljudel eraseadmetel jagada Internetti pääsemisel ühte avalikku IP Address.
@@ -1183,7 +1191,7 @@ Oluline on meeles pidada, et MAC Address ja IP Address on kaks täiesti erinevat
 - Visuaalne näide MAC Address kohta:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/et/022.webp)
 
 
 
@@ -1191,7 +1199,7 @@ Oluline on meeles pidada, et MAC Address ja IP Address on kaks täiesti erinevat
 - Visuaalne näide IP Address-st:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/et/023.webp)
 
 
 
@@ -1222,7 +1230,8 @@ Marsruutimistabel, mida hallatakse kas käsitsi (staatiline marsruutimine) või 
 Marsruutimistabel toimib siht-IP-aadresside ja järgmiste väravate vahelise kaardistustabelina. Tavaliselt salvestatakse selles pigem võrgu identifikaatorid (_network ID_) kui iga üksiku host Address, mis vähendab oluliselt selle suurust.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Sihtaadress | Järgmise hüppe marsruuteri aadress | Liides |
 | ------------------- | ----------------------- | --------- |
 
 Nende kirjete abil saab marsruuter kiiresti kindlaks teha, millise Interface kaudu ja millisele sõlmpunktile iga andmeprogramm tuleks saata. Koos ARP-ga sobivate MAC-aadresside lahendamiseks tagab see tõhusa ja usaldusväärse andmeedastuse üle võrgu.
@@ -1258,7 +1267,7 @@ Lisaks IPv4 nappuse lahendamisele tugevdab NAT ka turvalisust, luues esimese loo
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/et/024.webp)
 
 
 
@@ -1298,11 +1307,12 @@ See dünaamilise tõlkimise põhimõte tugineb täpsele tabelihaldusele: iga kir
 näide lihtsustatud NAT-tõlketabelist:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Sisemine IP | Väline IP | Kestus (sek) | Taaskasutatav? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | ei        |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | jah       |
+| 10.100.0.89   | 193.48.100.46  | 0              | ei        |
 
 Selles näites, kui teise kirje puhul ei ole üle tunni aja (3600 sekundit) ükski pakett läbinud, märgitakse see korduvkasutatavaks. Seevastu kestus null tähistab aktiivset sidet, mille kaardistus on lukustatud.
 
@@ -1331,7 +1341,7 @@ selle praktilise toimimise näitlikustamiseks võib tuua järgmise näite:_
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/et/025.webp)
 
 
 
@@ -1379,11 +1389,11 @@ Järgmises peatükis vaatleme üksikasjalikult IP Address konfigureerimist Linux
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Kuidas konfigureerida võrku koos `ip`ga?
@@ -1463,8 +1473,8 @@ ifdown eth2
 Konfiguratsioonifailid (RHEL-taolised):
 
 
-- /etc/sysconfig/network**: globaalsed seaded (NETWORKING, HOSTNAME, GATEWAY...).
-- ifcfg-**: igale Interface-le omased seaded.
+- **/etc/sysconfig/network**: globaalsed seaded (NETWORKING, HOSTNAME, GATEWAY...).
+- **ifcfg-**: igale Interface-le omased seaded.
 
 
 Staatiline näide (ifcfg-eth0):
@@ -1500,7 +1510,7 @@ Professionaalsetes keskkondades on eesmärk tagada teenuse järjepidevus ja/või
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/et/026.webp)
 
 
 
@@ -1731,7 +1741,7 @@ Lisaks sellele võib ühe pideva nullrühmade jada asendada::, mis lühendab Add
 **Hoiatus:** see reegel on range: ainult üks järjestikuste nullide jada võib asendada `::`ga. Kui Address sisaldab mitut nullikombinatsiooni, siis ainult pikim neist kondenseeritakse. See tagab nii unikaalsuse kui ka loetavuse.
 
 
-**Täht `:`, mida kasutatakse kuueteistkümnendsete plokkide eraldamiseks, võib tekitada URL-ides ebaselgust, kuna `:` kasutatakse ka teenuse pordi tähistamiseks. Segaduse vältimiseks tuleb IPv6-aadressid URL-is lisada nurksulgudesse `[ ]`.
+**Täht `:`, mida kasutatakse kuueteistkümnendsete plokkide eraldamiseks, võib tekitada URL-ides ebaselgust, kuna `:` kasutatakse ka teenuse pordi tähistamiseks. Segaduse vältimiseks tuleb IPv6-aadressid URL-is lisada nurksulgudesse `[ ]`.**
 
 
 Näide HTTP-juurdepääsu kohta konkreetsele Address portile `2002:400:2A41:378::34A2:36`:
@@ -1766,13 +1776,14 @@ Täpsustamata IPv6 Address on esitatud kujul `::` või täpsemalt `::0.0.0.0.0`.
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6-aadressi prefiks | Kirjeldus                              |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Reserveeritud aadressid                     |
+| 2000::/3            | Unicast-aadressid, Internetis marsruuditavad |
+| fc00::/7            | Unikaalsed kohalikud aadressid (1)          |
+| fe80::/10           | Lingikohalikud aadressid                    |
+| ff00::/8            | Multicast-aadressid                         |
 
 (1): *Eralühenduses eelistatakse eelisliidet `fd00::/8` siseaadresside määramiseks, mis ei ole marsruutimisvõimalusega Internetis.*
 
@@ -1783,10 +1794,10 @@ Täpsustamata IPv6 Address on esitatud kujul `::` või täpsemalt `::0.0.0.0.0`.
 Teatud IPv6 vahemikud on selgesõnaliselt reserveeritud ja neid ei tohi kasutada globaalsete aadressidena. Neil on konkreetne tehniline otstarve:
 
 
-- `::/128`**: määratlemata Address, mida ei ole kunagi püsivalt seadmele määratud, kuid mida kasutab konfiguratsiooni ootav masin Address allikana.
-- `::1/128`**: _loopback_ Address, mis on otsene vaste `127.0.0.1`-le IPv4-s, mis võimaldab masina Address-le ise.
-- `64:ff9b::/96`**: Reserveeritud protokollide tõlkijatele, et võimaldada IPv4/IPv6 ühendamist, nagu on määratletud RFC 6052-s.
-- `::ffff:0:0/96`**: ühilduvusplokk IPv4 Address esindamiseks konkreetses IPv6 struktuuris, mida rakendused kasutavad sageli sisemiselt.
+- `::/128`: **määratlemata Address, mida ei ole kunagi püsivalt seadmele määratud, kuid mida kasutab konfiguratsiooni ootav masin Address allikana.**
+- `::1/128`: **_loopback_ Address**, mis on otsene vaste `127.0.0.1`-le IPv4-s, mis võimaldab masina Address-le ise.
+- `64:ff9b::/96`: **Reserveeritud protokollide tõlkijatele, et võimaldada IPv4/IPv6 ühendamist, nagu on määratletud RFC 6052-s.**
+- `::ffff:0:0/96`: **ühilduvusplokk IPv4 Address esindamiseks konkreetses IPv6 struktuuris, mida rakendused kasutavad sageli sisemiselt.**
 
 
 Need plokid tagavad koostalitlusvõime ja hõlbustavad üleminekut kahe protokolli versiooni vahel.
@@ -1801,9 +1812,9 @@ Need plokid tagavad koostalitlusvõime ja hõlbustavad üleminekut kahe protokol
 Mõnel vahemikul on dokumenteeritud erikasutusviisid:
 
 
-- `2001:2::/48`**: Reserveeritud jõudluse ja koostalitlusvõime testimiseks (RFC 5180).
-- `2001:db8::/32`**: Reserveeritud dokumentatsiooni ja näidete jaoks (RFC 3849).
-- `2002::/16`**: Kasutatakse 6to4-mehhanismi jaoks, mis võimaldab IPv6-liiklust IPv4-infrastruktuuri kaudu (kasulik üleminekufaasis kahe protokolli vahel).
+- `2001:2::/48`: **Reserveeritud jõudluse ja koostalitlusvõime testimiseks (RFC 5180).**
+- `2001:db8::/32`: **Reserveeritud dokumentatsiooni ja näidete jaoks (RFC 3849).**
+- `2002::/16`: Kasutatakse 6to4-mehhanismi jaoks, mis võimaldab IPv6-liiklust IPv4-infrastruktuuri kaudu (kasulik üleminekufaasis kahe protokolli vahel).
 
 
 **Märkus:** suur osa ülemaailmsetest aadressidest jääb kasutamata, mis on reserviks Interneti tulevase kasvu jaoks.
@@ -1854,24 +1865,28 @@ Lõpuks, unikaalsed kohalikud aadressid (_ULA_, mis tähendab _Unique Local Addr
 Kontseptuaalselt esitatakse IPv6-aadressid sageli binaarse struktuurina, mille esimene pool (esimesed 64 bitti) tähistab võrgu eesliidet ja teine pool (samuti 64 bitti) tähistab üheselt seadme Interface selles võrgus. Selline jagunemine lihtsustab Address autokonfigureerimist selliste mehhanismide abil nagu SLAAC (_Stateless Address Autoconfiguration_), mis võimaldavad masinatel automaatselt generate stabiilset Address MAC Address või pseudosituatsioonilise identifikaatori alusel.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Väli      | Prefiks | L | Globaalne ID | Alamvõrk | Liidese ID |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Bitid     | 7      | 1 | 40        | 16     | 64            |
 
 IPv6 arhitektuur järgib tänase Interneti hierarhilist globaalse marsruutimise mudelit. Prefiksite jaotamine võimaldab piirkondlikel registritel ja võrguoperaatoritel hallata Address jaotamist detsentraliseeritult, tagades samas ülemaailmse unikaalsuse. Selles raamistikus võib üks ja sama host omada samaaegselt globaalset üheaadressi Address Interneti-suhtluseks ja link-lokaalset Address kohalikuks suhtluseks, nt vahetu naabruskonnaga või marsruuteri avastamissõnumite jaoks.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Väli      | Prefiks | Null | Liidese ID |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Bitid     | 10     | 54   | 64           |
 
 **Anycast-aadressid** kujutavad endast vahepealset kontseptsiooni, mis põhineb unicast-mudelil, kuid võib teatud juhtudel käituda nagu multicast. Anycast Address on sisuliselt unicast Address, mis on määratud mitmele eri võrgusõlmedesse jaotatud liidesele. Kui pakett saadetakse anycast Address-le, püüab IPv6-protokoll edastada selle ühele seda Address jagavale hostile, mis on tavaliselt marsruutimistopoloogia poolest kõige lähemal. Selline lähenemisviis optimeerib päringute töötlemise kiirust ja parandab hajutatud teenuste vastupidavust. Klassikaline näide on juur-DNS-serverid, kus anycast-aadressimine suunab päringud automaatselt lähimale kohalolekupunktile.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Väli     | Eesliide | Alamvõrk | Liidese ID |
+|-----------|--------|--------|______________|
+| Bitid      | 48     | 16     | 64           |
 
 IPv6s asendavad **multisaateaadressid** ringhäälingumehhanismi, mida peeti liiga kulukaks ja ülemaailmsete võrkude jaoks ebasobivaks. Multisaate Address identifitseerib grupi liideseid, tavaliselt mitme hosti vahel, mis soovivad saada samu pakette samaaegselt.
 
@@ -1893,9 +1908,10 @@ IPv6 multisaate Address struktuur hõlmab järgmist:
 - identifitseerimisväli (112 bitti), mis identifitseerib multisaadete grupi numbri.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Väli      | Eesliide | Lipud | Ulatusala | Grupi ID |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bitid       | 8      | 4      | 4      | 112      |
 
 Tuntud näide IPv6 multisaadetiste toimimisest on _Neighbor Discovery Protocol_ (NDP). Selle asemel, et kasutada ARP-d nagu IPv4-s, kasutab NDP naabrite avastamise päringute edastamiseks multisaateaadresse, näiteks `ff02::1:ff00:0/104`, mis on suunatud ainult asjaomastele hostidele samal lingil.
 
@@ -1954,7 +1970,7 @@ Automaatseks konfigureerimiseks on olemas mitu meetodit:
 Siin on näide, kuidas muuta MAC Address EUI-64-ks:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/et/027.webp)
 
 
 
@@ -1964,8 +1980,8 @@ Seadmete jälgimise üle kasvava mure tõttu lubavad kaasaegsed operatsioonisüs
 Nagu IPv4-i DHCP puhul, võib automaatselt määratud IPv6-aadressidel olla kaks kasutusiga, mille määravad DHCPv6-ruuterid või -serverid:
 
 
-- Eelistatud eluiga*: pärast seda perioodi jääb Address kehtima, kuid seda ei kasutata enam uute ühenduste algatamiseks;
-- Kehtiv eluiga*: kui see aeg lõpeb, eemaldatakse Address täielikult Interface konfiguratsioonist.
+- **Eelistatud eluiga**: pärast seda perioodi jääb Address kehtima, kuid seda ei kasutata enam uute ühenduste algatamiseks;
+- Kehtiv eluiga: kui see aeg lõpeb, eemaldatakse Address täielikult Interface konfiguratsioonist.
 
 
 See süsteem võimaldab dünaamiliselt hallata võrgumuutusi, näiteks tagada sujuv üleminek ühelt Interneti-teenuse pakkujalt teisele. Uuendades marsruuterite poolt teatatud eesliidet ja kohandades paralleelselt DNS-kirjeid, saab IPv6-le üleminekut teostada ilma teenuse märgatava katkestuseta.
@@ -2013,8 +2029,9 @@ Alates 2006. aastast on iga RIR saanud IANA-lt IPv6 /12 ploki, mis on fikseeritu
 Tüüpiline jaotamise hierarhia näeb välja järgmiselt:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Klient | Alamvõrk | Liides |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Sellise aadresside rohkuse tõttu ei ole NAT (*Network Address Translation*), mis oli kunagi IPv4-s hädavajalik, et tulla toime Address puudusega, enam vajalik. Igal hostil võib olla unikaalne, globaalselt marsruutitav avalik Address, mis lihtsustab otsest ühenduvust ja lihtsustab selliste protokollide nagu IPSec, VoIP või sissetulevate ühenduste kasutamist.
@@ -2092,7 +2109,7 @@ Siin on ülevaade erinevatest IPv6-s määratletud laienduste päistest.
 See päis, kui see on olemas, paigutatakse alati kohe pärast põhipealkirja. See sisaldab teavet, mida peab töötlema iga marsruuter paketi teekonnal, erinevalt enamikust teistest päistest, mida tavaliselt töötleb ainult sihtkoht. Tüüpilised kasutusalad hõlmavad globaalsete parameetrite edastamist või konkreetsete töötlemisetappide taotlemist paketi liikumisel läbi võrgu.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/et/028.webp)
 
 
 #### Marsruudi päis
@@ -2108,16 +2125,16 @@ Marsruudi päises määratakse nimekiri vaheaadressidest, mida pakett peab läbi
 Selle juurdumispealkirja neli esimest välja on järgmised:
 
 
-- Järgmine päis**: määrab järgmise päise tüübi;
-- Marsruudi tüüp**: määrab marsruudi meetodi (tavaliselt "0");
-- Allesjäänud segmendid**: läbimiseks jäänud segmentide arv ;
-- Address[n]**: vahepealsete aadresside loetelu.
+- **Järgmine päis**: määrab järgmise päise tüübi;
+- **Marsruudi tüüp**: määrab marsruudi meetodi (tavaliselt "0");
+- **Allesjäänud segmendid**: läbimiseks jäänud segmentide arv ;
+- **Address[n]**: vahepealsete aadresside loetelu.
 
 
 Väli "Segmendid jäänud" algab allesjäänud segmentide koguarvuga ja seda vähendatakse iga hüppega ühe võrra.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/et/029.webp)
 
 
 #### Fragmenteerimise päis
@@ -2129,12 +2146,12 @@ IPv6-s on ainult lähtekoha hostil lubatud datagrammi fragmenteerida, erinevalt 
 Fragmenteerimise päis sisaldab järgmisi välju:
 
 
-- Identification**: unikaalne datagrammi identifikaator uuesti kokkupanekuks.
-- Fragment Offset**: fragmendi asukoht algses datagrammis.
-- M flag**: näitab, kas järgneb rohkem fragmente.
+- **Identification**: unikaalne datagrammi identifikaator uuesti kokkupanekuks.
+- **Fragment Offset**: fragmendi asukoht algses datagrammis.
+- **M flag**: näitab, kas järgneb rohkem fragmente.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/et/030.webp)
 
 
 #### Autentimispealkiri (AH)
@@ -2146,7 +2163,7 @@ Selle päise eesmärk on tagada side turvalisus, kontrollides nii saatja autents
 Pettusliku muutmiskatse korral ei vasta autentimiskood enam ja andmeprogramm võidakse tagasi lükata. See mehhanism kaitseb ka kordusrünnakute eest, tuvastades volitamata dubleerimisi.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/et/031.webp)
 
 
 #### Sihtkoha valikute päis
@@ -2158,7 +2175,7 @@ See päis on mõeldud ainult andmegrammi lõppsaajale. Seda võib kasutada raken
 Algselt ei olnud sellist võimalust protokollis määratletud. See päis võeti siiski kasutusele IPv6 kavandamisel, et võimaldada tulevikus lisada laiendusi ilma paketi üldist struktuuri muutmata. Näiteks null-optsiooni kasutatakse ainult selleks, et täita päis 8 baidi mitmekordselt mälu joondamise eesmärgil.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/et/032.webp)
 
 
 IPv6-pakettide disain on üles ehitatud minimaalse baaspealkirja ja modulaarsete laienduspealkirjade selgel eraldamisel. Selline ülesehitus tagab nii standardse töötlemisjõudluse kui ka paindlikkuse, mis on vajalik protokolli arendamiseks ja turvalisuse, keerulise marsruutimise või teenuse kvaliteedi mehhanismide integreerimiseks, säilitades samas ühilduvuse tulevaste infrastruktuuridega.
@@ -2504,7 +2521,7 @@ Wireshark on saadaval paljudes operatsioonisüsteemides, sealhulgas Linuxis ja W
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/et/033.webp)
 
 
 
@@ -2555,7 +2572,7 @@ See käsk väljastab üksikasjaliku aruande Interface kohta, mis on CentOS- või
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/et/034.webp)
 
 
 
@@ -2727,13 +2744,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Iga rida tähistab marsruuti. Peamised väljad on järgmised:
 
 
-- default**: vaikimisi marsruut, mida kasutatakse, kui ükski spetsiifilisem marsruut ei vasta.
-- via**: sihtkohta jõudmiseks kasutatud värav.
-- dev**: kasutatud Interface võrk.
-- proto**: kuidas marsruut loodi (käsitsi, DHCP, kernel jne).
-- meetrika**: marsruudi maksumus, mida kasutatakse mitme võimaliku marsruudi prioriseerimiseks.
-- scope**: marsruudi ulatus (nt "link" otseühendusega marsruudi puhul).
-- src**: lähte-IP Address, mida kasutatakse selle Interface väljaminevate pakettide jaoks.
+- **default**: vaikimisi marsruut, mida kasutatakse, kui ükski spetsiifilisem marsruut ei vasta.
+- **via**: sihtkohta jõudmiseks kasutatud värav.
+- **dev**: kasutatud Interface võrk.
+- **proto**: kuidas marsruut loodi (käsitsi, DHCP, kernel jne).
+- **meetrika**: marsruudi maksumus, mida kasutatakse mitme võimaliku marsruudi prioriseerimiseks.
+- **scope**: marsruudi ulatus (nt "link" otseühendusega marsruudi puhul).
+- **src**: lähte-IP Address, mida kasutatakse selle Interface väljaminevate pakettide jaoks.
 
 
 #### Marsruutide lisamine ja kustutamine
@@ -3068,7 +3085,7 @@ Korduvaid või intensiivseid päringuid kolmandate osapoolte DNS-serveritele ilm
 Kohaliku või laivõrgu jälgimisel või kaitsmisel on oluline tuvastada aktiivsed seadmed ja nende poolt pakutavad teenused. Just seda teeb tööriist `nmap` (*Network Mapper*).
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Tutvustame `nmap`
 
@@ -3107,20 +3124,20 @@ Sel juhul küsitakse kõiki hoste vahemikus `192.168.0.0` kuni `192.168.0.255`. 
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/et/035.webp)
 
 
 
 Administraator saab kasutada `nmap`i mitmete ülesannete täitmiseks:
 
 
-- Aktiivsete hostide tuvastamine**: tuvastab, millised masinad reageerivad allvõrgus;
-- Teenuste inventuur**: tagada juurdepääs ainult vajalikele sadamatele (vähimate privileegide põhimõte);
-- Vastavuskontroll**: võrdle avatud porte organisatsiooni turvapoliitikaga;
-- Haavatavuste ennetamine**: kriitilistes masinates töötavate ebaturvaliste või aegunud teenuste tuvastamine.
+- **Aktiivsete hostide tuvastamine**: tuvastab, millised masinad reageerivad allvõrgus;
+- **Teenuste inventuur**: tagada juurdepääs ainult vajalikele sadamatele (vähimate privileegide põhimõte);
+- **Vastavuskontroll**: võrdle avatud porte organisatsiooni turvapoliitikaga;
+- **Haavatavuste ennetamine**: kriitilistes masinates töötavate ebaturvaliste või aegunud teenuste tuvastamine.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Protsessi küsitlusvahendid
 
@@ -3216,10 +3233,10 @@ Need tööriistad annavad administraatoritele ühtse tehniliste hoobade komplekt
 Vahendid, mis pakuvad otsest nähtavust liidestele ja raamidele:
 
 
-- arp / ip neigh**: kontrollib ja muudab ARP/NDP vahemälu, et kontrollida või parandada IP-MAC-ühendusi;
-- tcpdump**: käsurea pakettide salvestamine, filtreeritav ja eksporditav;
-- Wireshark**: graafiline pakettide analüüs koos süvaprotokollide dekodeerimisega;
-- ethtool**: Etherneti kaardi füüsiliste parameetrite (kiirus, dupleks, WoL jne) päring ja reguleerimine.
+- **arp / ip neigh**: kontrollib ja muudab ARP/NDP vahemälu, et kontrollida või parandada IP-MAC-ühendusi;
+- **tcpdump**: käsurea pakettide salvestamine, filtreeritav ja eksporditav;
+- **Wireshark**: graafiline pakettide analüüs koos süvaprotokollide dekodeerimisega;
+- **ethtool**: Etherneti kaardi füüsiliste parameetrite (kiirus, dupleks, WoL jne) päring ja reguleerimine.
 
 
 #### Võrk Layer
@@ -3228,10 +3245,10 @@ Vahendid, mis pakuvad otsest nähtavust liidestele ja raamidele:
 Tööriistad IP-ühenduvuse, marsruutimise ja paketiliikluse hindamiseks:
 
 
-- ping**: saavutatavuse testimine ja ICMP-viivituse mõõtmine;
-- ip route**: kontrollib ja muudab marsruutimistabelit, et kontrollida pakettide teekonda;
-- traceroute**: marsruudi marsruudi marsruudi sihtkohani kulgeva marsruudi identifitseerimine hüppeliigiti;
-- ss**: üksikasjalik ülevaade TCP/UDP-sokkidest ja nendega seotud protsessidest (netstat'i järeltulija).
+- **ping**: saavutatavuse testimine ja ICMP-viivituse mõõtmine;
+- **ip route**: kontrollib ja muudab marsruutimistabelit, et kontrollida pakettide teekonda;
+- **traceroute**: marsruudi marsruudi marsruudi sihtkohani kulgeva marsruudi identifitseerimine hüppeliigiti;
+- **ss**: üksikasjalik ülevaade TCP/UDP-sokkidest ja nendega seotud protsessidest (netstat'i järeltulija).
 
 
 #### Transpordi- ja rakenduskihid
@@ -3240,9 +3257,9 @@ Tööriistad IP-ühenduvuse, marsruutimise ja paketiliikluse hindamiseks:
 Teenuste ja protsesside diagnoosimise vahendid:
 
 
-- nslookup / dig / host**: DNS päringud nimede lahenduse kinnitamiseks ja kirjete analüüsimiseks;
-- nmap**: uurib avatud porte ja avatud teenuseid, et hinnata rünnakupinda;
-- lsof**: loetleb protsesside poolt avatud faile ja sokke, seostades süsteemi ja võrgu aktiivsust.
+- **nslookup / dig / host**: DNS päringud nimede lahenduse kinnitamiseks ja kirjete analüüsimiseks;
+- **nmap**: uurib avatud porte ja avatud teenuseid, et hinnata rünnakupinda;
+- **lsof**: loetleb protsesside poolt avatud faile ja sokke, seostades süsteemi ja võrgu aktiivsust.
 
 
 Nende vahendite, millest igaüks on vastavuses TCP/IP-mudeli konkreetse etapiga, omandamine võimaldab metoodilist lähenemist: alustades füüsilisest Layer-st, liikudes marsruutimise kaudu kuni rakendusteenusteni. See teadmisteahel annab administraatoritele võimaluse diagnoosida, kindlustada ja optimeerida oma infrastruktuuri, tagades nii võrgu jõudluse kui ka kättesaadavuse.

@@ -30,6 +30,8 @@ Théo; đóng góp
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Mục tiêu: Nâng cấp kỹ năng bảo mật của bạn!**
 
 Chào mừng mọi người đến với chương trình đào tạo được thiết kế riêng cho bảo mật số. Khóa học này được thiết kế để ai cũng có thể tiếp cận được, vì vậy không yêu phải có kiến thức về khoa học máy tính để tham gia. Mục tiêu chính của chúng tôi là cung cấp cho bạn những kiến thức và kỹ năng cần thiết để khám phá thế giới số một cách an toàn và riêng tư hơn.
@@ -40,7 +42,7 @@ Khóa học này là nỗ lực hợp tác từ ba giáo sư của chúng tôi:
 
 - Renaud Lifchitz, chuyên gia bảo mật mạng
 - Théo Pantamis, Tiến sĩ toán ứng dụng
-- Rogzy, Người đồng sáng lập Plan ₿ Network
+- Rogzy, Người đồng sáng lập Plan ₿ Academy
 
 Sức khoẻ số của bạn rất quan trọng trong một thế giới ngày càng số hóa. Mặc dù số lượng các vụ hack và giám sát hàng loạt không ngừng tăng lên, không bao giờ là quá muộn để bắt đầu bảo vệ bản thân.
 Trong khóa học này, chúng tôi không có mục tiêu biến bạn thành một chuyên gia, người ẩn danh hoặc không thể bị xâm phạm, vì điều này là không thể. Thay vào đó, chúng tôi cung cấp cho bạn một số giải pháp đơn giản và dễ tiếp cận để bạn bắt đầu thay đổi thói quen trực tuyến của bản thân và lấy lại quyền kiểm soát chủ quyền số của mình.
@@ -53,13 +55,14 @@ Nếu bạn đang tìm kiếm kỹ năng nâng cao hơn về chủ đề này, c
 
 Để bắt đầu, chúng ta sẽ thảo luận về tầm quan trọng của việc chọn một trình duyệt web và những hậu quả của lựa chọn đó đối với vấn đề bảo mật. Sau đó, chúng ta sẽ khám phá các đặc điểm cụ thể của trình duyệt, đặc biệt là về quản lý cookie. Chúng ta cũng sẽ xem xét cách đảm bảo trải nghiệm duyệt web an toàn và ẩn danh hơn, sử dụng các công cụ như TOR. Sau đó, chúng ta sẽ tập trung vào việc sử dụng VPN để tăng cường bảo vệ dữ liệu của bạn. Cuối cùng, chúng ta sẽ kết thúc với các khuyến nghị cho việc sử dụng kết nối WiFi một cách an toàn.
 
-![](assets/en/1.webp)
+![image](assets/vi/001.webp)
 
 **Phần 2: Các thói quen tốt nhất cho việc sử dụng máy tính**
 
 - Chương 3 - Sử dụng máy tính
 - Chương 4 - Hacking & quản lý sao lưu
-  ![](assets/en/1.webp)
+
+![image](assets/vi/002.webp)
 
 **Phần 3: Triển khai giải pháp**
 
@@ -70,7 +73,8 @@ Nếu bạn đang tìm kiếm kỹ năng nâng cao hơn về chủ đề này, c
 Trong phần thứ ba này, chúng ta sẽ chuyển sang triển khai các giải pháp cụ thể của bạn.
 
 Đầu tiên, chúng ta sẽ xem cách bảo vệ hộp thư email của bạn, điều này rất quan trọng cho giao tiếp của bạn và đây là nơi thường xuyên bị hacker nhắm đến. Sau đó, chúng ta sẽ giới thiệu bạn với một trình quản lý mật khẩu: một giải pháp thực tế để không còn bị quên hoặc lẫn lộn mật khẩu của bạn trong khi vẫn giữ chúng an toàn. Cuối cùng, chúng ta sẽ thảo luận về một biện pháp bảo mật bổ sung, xác thực hai yếu tố, nó cung cấp thêm một lớp bảo vệ nữa cho tài khoản của bạn. Mọi thứ sẽ được giải thích một cách rõ ràng và dễ tiếp cận.
-![](assets/en/1.webp)
+
+![image](assets/vi/003.webp)
 
 Sẵn sàng tăng cường bảo mật số của bạn và giành lại quyền kiểm soát dữ liệu của mình chưa? Hãy bắt đầu nào!
 # Tất cả những gì bạn cần biết về duyệt web trực tuyến
@@ -81,18 +85,22 @@ Sẵn sàng tăng cường bảo mật số của bạn và giành lại quyền
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Khi duyệt web trên internet, việc tránh được một số sai lầm phổ biến để bảo vệ an ninh trực tuyến của bạn là rất quan trọng. Dưới đây là một số mẹo để tránh chúng:
 
 ### Hãy cẩn thận với việc tải phần mềm:
 
 Nên tải phần mềm từ trang web chính thức của nhà xuất bản thay vì các trang web chung chung.
 Ví dụ: Sử dụng www.signal.org/download thay vì www.logicieltelechargement.fr/signal.
-![](assets/notext/4.webp)
+
+![image](assets/vi/004.webp)
 
 Cũng nên ưu tiên phần mềm mã nguồn mở vì chúng thường an toàn hơn và không chứa phần mềm độc hại. Phần mềm "mã nguồn mở" là phần mềm có mã code được biết đến và có thể truy cập bởi mọi người. Điều này cho phép chúng được kiểm tra và xác nhận rằng không có quyền truy cập ẩn nào để đánh cắp dữ liệu cá nhân của bạn.
 
 > Bonus: Phần mềm mã nguồn mở thường miễn phí! Trường đại học này 100% mã nguồn mở, vì vậy bạn cũng có thể kiểm tra mã nguồn của chúng tôi trên GitHub của chúng tôi.
-> ![](assets/notext/5.webp)
+
+![image](assets/vi/005.webp)
 
 ### Quản lý cookie: Lỗi và thói quen tốt nhất
 
@@ -104,7 +112,8 @@ Cookie là các tệp tin được tạo bởi các trang web để lưu trữ t
 
 Có hai họ trình duyệt chính: những trình duyệt dựa trên Chrome và những trình duyệt dựa trên Firefox.
 Mặc dù cả hai họ đều cung cấp một mức độ bảo mật tương tự, nên tránh sử dụng trình duyệt Google Chrome do các bộ theo dõi của nó. Các lựa chọn nhẹ hơn cho Chrome, như Chromium hoặc Brave, có thể được ưu tiên. Brave đặc biệt được khuyến nghị vì nó được tích hợp chức năng chặn quảng cáo. Có thể cần sử dụng nhiều trình duyệt để truy cập một số trang web cụ thể.
-![](assets/notext/6.webp)
+
+![image](assets/vi/006.webp)
 
 ### Duyệt web riêng tư, TOR, và các lựa chọn khác cho việc duyệt web an toàn và ẩn danh hơn
 
@@ -113,32 +122,38 @@ Duyệt web ẩn danh, mặc dù không ẩn hoàn toàn hoạt động duyệt 
 Một lựa chọn tiến bộ hơn là mạng TOR (The Onion Router), cung cấp sự ẩn danh bằng cách che giấu địa chỉ IP của người dùng và cho phép truy cập vào Darknet. TOR Browser là một trình duyệt được thiết kế đặc biệt để sử dụng mạng TOR. Nó cho phép bạn truy cập cả các trang web thông thường và các trang web .onion, thường được vận hành bởi các cá nhân và có thể mang tính chất bất hợp pháp.
 
 TOR là hợp pháp và được sử dụng bởi các nhà báo, các nhà hoạt động vì tự do, và những người khác muốn tránh kiểm duyệt ở các quốc gia độc tài. Tuy nhiên, điều quan trọng là phải được hiểu rằng TOR không bảo vệ các trang web được truy cập hoặc chính các máy tính. Ngoài ra, sử dụng TOR có thể làm chậm kết nối internet vì dữ liệu phải đi qua máy tính của ba người khác trước khi đến đích. Cũng cần lưu ý rằng TOR không phải là giải pháp hoàn hảo để đảm bảo 100% ẩn danh và không nên sử dụng TOR cho các hoạt động bất hợp pháp.
-![](assets/notext/7.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+![image](assets/vi/007.webp)
+
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN và kết nối internet
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### VPNs
 
 Bảo vệ kết nối internet của bạn là một khía cạnh quan trọng của bảo mật trực tuyến, và sử dụng mạng riêng ảo (VPNs) là một phương pháp hiệu quả để tăng cường khả năng bảo mật này, cả cho doanh nghiệp và người dùng cá nhân.
 
 VPN là các công cụ mã hóa dữ liệu truyền qua internet, làm cho kết nối an toàn hơn. Trong một bối cảnh chuyên môn, VPNs cho phép nhân viên truy cập an toàn vào mạng nội bộ của công ty từ xa. Dữ liệu trao đổi được mã hóa, làm cho việc can thiệp bởi bên thứ ba trở nên khó khăn hơn nhiều. Ngoài việc bảo mật truy cập vào mạng nội bộ, sử dụng VPN cũng có thể cho phép người dùng định tuyến kết nối internet của họ qua mạng nội bộ của công ty, tạo ra ấn tượng rằng kết nối của họ đến từ công ty. Điều này có thể đặc biệt hữu ích để truy cập các dịch vụ trực tuyến bị hạn chế theo địa lý.
-![](assets/en/8.webp)
+
+![image](assets/vi/008.webp)
 
 ### Các loại VPN
 
 Có hai loại VPN chính: VPN doanh nghiệp và VPN cho người dùng cá nhân, như NordVPN. VPN dành cho doanh nghiệp có xu hướng đắt hơn và phức tạp hơn, trong khi VPN cho người tiêu dùng thường dễ tiếp cận và thân thiện với người dùng hơn. Ví dụ, NordVPN cho phép người dùng kết nối internet thông qua một máy chủ đặt tại một quốc gia khác, có thể vượt qua các hạn chế địa lý.
 
 Tuy nhiên, sử dụng VPN cho người dùng cá nhân không đảm bảo sự ẩn danh hoàn toàn. Nhiều nhà cung cấp VPN giữ lại thông tin về người dùng của họ, có thể tiềm ẩn rủi ro về ẩn danh. Mặc dù VPN có thể hữu ích để cải thiện an ninh trực tuyến, chúng không phải là giải pháp toàn diện. Chúng hiệu quả cho một số mục đích cụ thể, như truy cập dịch vụ bị hạn chế địa lý hoặc cải thiện bảo mật khi đi du lịch, nhưng không đảm bảo sự bảo mật tuyệt đối. Khi chọn VPN, quan trọng là ưu tiên độ tin cậy và tính năng kỹ thuật hơn là sự phổ biến. Các nhà cung cấp VPN thu thập ít thông tin cá nhân nhất thường là an toàn nhất. Dịch vụ như iVPN và Mullvad không thu thập thông tin cá nhân và thậm chí cho phép thanh toán bằng Bitcoin để tăng cường sự riêng tư.
-![](assets/notext/9.webp)
+
+![image](assets/vi/009.webp)
+
 Cuối cùng, VPN cũng có thể được sử dụng để chặn quảng cáo trực tuyến, mang lại trải nghiệm duyệt web thú vị và an toàn hơn. Tuy nhiên, điều quan trọng là phải tự mình nghiên cứu để tìm ra công cụ VPN phù hợp nhất với nhu cầu cụ thể của bạn. Người dùng được khuyến nghị sử dụng VPN để tăng cường bảo mật, ngay cả khi duyệt web tại nhà. Điều này giúp đảm bảo mức độ bảo mật cao hơn cho dữ liệu trao đổi trực tuyến. Cuối cùng, hãy đảm bảo rằng bạn đã kiểm tra URL và biểu tượng ổ khóa nhỏ trong thanh địa chỉ để xác nhận việc bạn đang truy cập vào trang web mà bạn muốn.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & mạng Wi-Fi công cộng
 
@@ -147,7 +162,9 @@ Về bảo mật trực tuyến, điều cần thiết là phải hiểu rằng 
 Tại Liên minh Châu Âu, bảo vệ dữ liệu được quy định bởi Quy định Bảo vệ Dữ liệu Chung (GDPR). Do đó, sử dụng các nhà cung cấp điểm truy cập Wi-Fi của châu Âu, như SNCF, là an toàn hơn, vì họ không bán lại dữ liệu kết nối của người dùng. Tuy nhiên, chỉ riêng việc một trang web hiển thị biểu tượng ổ khóa không đảm bảo tính xác thực của nó. Quan trọng là phải xác minh khóa công khai của trang web bằng cách sử dụng hệ thống chứng chỉ để xác nhận tính xác thực của nó. Mặc dù mã hóa dữ liệu ngăn chặn bên thứ ba can thiệp vào dữ liệu trao đổi, vẫn có khả năng một cá nhân xấu có thể giả mạo trang web và chuyển dữ liệu dưới dạng văn bản rõ ràng.
 
 Để tránh bị lừa đảo trực tuyến, một điều rất quan trọng là bạn cần xác minh danh tính của trang web mình đang duyệt, đặc biệt là kiểm tra phần mở rộng và tên miền. Ngoài ra, hãy cảnh giác với những kẻ lừa đảo sử dụng các chữ cái tương tự trong URL để lừa đảo người dùng.
-![](assets/en/10.webp)
+
+![image](assets/vi/010.webp)
+
 Tóm lại, việc sử dụng VPN có thể cải thiện đáng kể bảo mật trực tuyến, cả cho doanh nghiệp và người dùng cá nhân. Hơn nữa, việc thực hành thói quen duyệt web tốt có thể góp phần vào việc duy trì vệ sinh số hóa tốt hơn. Trong phần tiếp theo của khóa học này, chúng ta sẽ đề cập đến bảo mật máy tính, bao gồm cập nhật, phần mềm diệt virus và quản lý mật khẩu.
 
 # Những thói quen tốt cần có khi sử dụng máy tính
@@ -158,6 +175,8 @@ Tóm lại, việc sử dụng VPN có thể cải thiện đáng kể bảo m�
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
+
 Bảo mật cho máy tính của chúng ta là một mối quan tâm lớn trong thế giới số hóa ngày nay. Hôm nay, chúng ta sẽ đề cập đến ba điểm chính:
 
 - Lựa chọn máy tính
@@ -167,11 +186,14 @@ Bảo mật cho máy tính của chúng ta là một mối quan tâm lớn trong
 ### Lựa chọn máy tính và hệ điều hàn
 
 Về việc lựa chọn máy tính, không có sự khác biệt đáng kể về bảo mật giữa máy tính cũ và mới. Tuy nhiên, có sự khác biệt về bảo mật giữa các hệ điều hành: Windows, Linux và Mac.
-![](assets/notext/11.webp)
+
+![image](assets/vi/011.webp)
+
 Về Windows, bạn được khuyến nghị không sử dụng tài khoản quản trị vào các hoạt động hàng ngày, mà nên tạo hai tài khoản riêng biệt: một tài khoản quản trị và một tài khoản cho việc sử dụng hàng ngày. Windows thường xuyên "phơi mình" trước các phần mềm độc hại hơn do số lượng người dùng lớn và dễ dàng chuyển đổi từ vài trò người dùng sang quản trị. Ngược lại, mối đe dọa này ít phổ biến hơn trên Linux và Mac.
 
 Lựa chọn hệ điều hành nên dựa trên nhu cầu và sở thích của bạn. Hệ thống Linux đã phát triển đáng kể trong những năm gần đây, và trở nên thân thiện với người dùng hơn. Ubuntu là một lựa chọn thú vị cho người mới bắt đầu, với giao diện đồ họa dễ sử dụng. Có thể phân vùng máy tính để thử nghiệm Linux trong khi vẫn giữ hệ điều hành Windows, việc có thể phức tạp một chút. Tốt nhất là có một máy tính chuyên dụng, máy ảo, hoặc USB để thử nghiệm Linux hoặc Ubuntu.
-![](assets/notext/12.webp)
+
+![image](assets/vi/012.webp)
 
 ### Cập nhật phần mềm
 
@@ -189,7 +211,8 @@ Ví dụ như: phần mềm bị bẻ khoá không thể được cập nhật, 
 
 Việc chọn lựa và sử dụng một phần mềm diệt vi rút là rất quan trọng. Windows Defender, phần mềm diệt vi rút tích hợp trong Windows, là một giải pháp an toàn và hiệu quả. Mặc dù là một giải pháp miễn phí, nó rất tốt và tốt hơn nhiều so với nhiều giải pháp miễn phí mà bạn tìm thấy trên internet. Thực vậy, cần phải thận trọng với phần mềm diệt vi rút tải xuống từ Internet, vì chúng có thể là phầm mềm độc hại hoặc lỗi thời.
 Nếu muốn đầu tư vào một phần mềm diệt vi rút trả phí, bạn được khuyến nghị chọn một phần mềm diệt vi rút có sự phân tích kỹ càng các mối đe dọa không rõ và mới nổi, như Kaspersky. Cập nhật phần mềm diệt vi rút là cần thiết để bảo vệ máy tính của bạn khỏi các mối đe dọa mới.
-![](assets/notext/13.webp)
+
+![image](assets/vi/013.webp)
 
 > Lưu ý: Linux và Mac, nhờ hệ thống phân chia quyền người dùng của họ, thường không cần phần mềm chống virus.
 
@@ -202,6 +225,8 @@ Kết luận, việc chọn một hệ điều hành phù hợp với nhu cầu 
 ## Quản lý hacking & sao lưu: Bảo vệ dữ liệu của Bạn
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 ### Hacker tấn công như thế nào?
 
@@ -222,7 +247,9 @@ Quy tắc vàng ở đây là kiểm tra kỹ tên đầy đủ của người g
 ### Tấn công mã độc và các loại tấn công mạng:
 
 Mã độc - ransomware là một loại phần mềm độc hại được dùng để mã hóa dữ liệu của người dùng và yêu cầu tiền chuộc để giải mã. Loại tấn công này ngày càng phổ biến và có thể gây rắc rối lớn cho một công ty hoặc cá nhân. Để bảo vệ bản thân, bạn cần tạo ra các bản sao lưu cho những tệp tin quan trọng nhất! Điều này sẽ không ngăn chặn được những cuộc tấn công mã độc, nhưng nó cho phép bạn phản ứng một cách rất đơn giản, đó là bỏ qua nó.
-![](assets/notext/14.webp)
+
+![image](assets/vi/014.webp)
+
 Bạn cần thường xuyên sao lưu dữ liệu quan trọng của mình vào một thiết bị lưu trữ bên ngoài hoặc một dịch vụ lưu trữ trực tuyến an toàn. Như vậy, trong trường hợp bị tấn công mạng hoặc hỏng hóc phần cứng, bạn có thể khôi phục dữ liệu mà không mất thông tin quan trọng.
 
 Giải pháp đơn giản:
@@ -237,9 +264,9 @@ KHÔNG, nói chung bạn được khuyến khích không trả tiền cho hacker
 
 Nếu bạn phát hiện vi rút trên máy tính, hãy ngắt kết nối khỏi internet, thực hiện quét toàn bộ bằng phần mềm diệt vi rút và xóa các tệp tin bị nhiễm. Sau đó, cập nhật phần mềm và hệ điều hành của bạn, rồi thay đổi mật khẩu để ngăn chặn sự xâm nhập lần sau.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Triển khai giải pháp.
 
@@ -248,6 +275,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Quản lý tài khoản email
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### Thiết lập một tài khoản email mới!
 
@@ -260,7 +289,9 @@ Cho dù chúng ta đã có một tài khoản email, điều quan trọng là c�
 ### Chọn nhà cung cấp dịch vụ email và quản lý địa chỉ email
 
 Việc quản lý địa chỉ email của chúng ta một cách cẩn thận là rất quan trọng để đảm bảo an toàn cho quá trình truy cập trực tuyến của chúng ta. Quan trọng là phải chọn được một nhà cung cấp dịch vụ email an toàn và tôn trọng quyền riêng tư. Ví dụ, ProtonMail là một dịch vụ email an toàn và tôn trọng quyền riêng tư.
-![](assets/notext/15.webp)
+
+![image](assets/vi/015.webp)
+
 Khi chọn một nhà cung cấp email và tạo mật khẩu, bạn cần lưu ý là không bao giờ dùng một mật khẩu chung cho các dịch vụ trực tuyến khác nhau. Nên thường xuyên tạo địa chỉ email mới và phân loại các nhu cầu sử dụng riêng ra bằng cách dùng các địa chỉ email khác nhau. Ưu tiên chọn dịch vụ email an toàn cho các tài khoản quan trọng. Cũng cần lưu ý rằng một số dịch vụ giới hạn độ dài của mật khẩu, vì vậy quan trọng là phải biết về hạn chế này. Ngoài ra, cũng có các dịch vụ có sẵn để tạo địa chỉ email tạm thời, có thể được sử dụng cho các tài khoản có thời hạn.
 
 Quan trọng là phải hiểu rằng các nhà cung cấp email cũ như La Poste, Arobase, Wig, Hotmail, vẫn được sử dụng, nhưng các phương pháp bảo mật của họ có thể không tốt bằng Gmail. Do đó, nên có hai địa chỉ email riêng biệt, một cho giao tiếp chung và một cho khôi phục tài khoản, và loại địa chỉ email sau cần được bảo mật tốt hơn. Tốt nhất là tránh kết hợp địa chỉ email với nhà cung cấp dịch vụ điện thoại hoặc nhà cung cấp dịch vụ internet của bạn, vì điều này có thể trở thành một hướng tấn công tiềm năng.
@@ -268,15 +299,19 @@ Quan trọng là phải hiểu rằng các nhà cung cấp email cũ như La Pos
 ### Tôi có nên thay đổi tài khoản email không?
 
 Nên sử dụng trang web Have I Been Pwned (https://haveibeenpwned.com/) để kiểm tra xem địa chỉ email của chúng ta có bị xâm phạm không và được thông báo về các vi phạm dữ liệu trong tương lai. Một cơ sở dữ liệu bị xâm phạm có thể bị hacker khai thác để gửi email lừa đảo hoặc tái sử dụng mật khẩu bị xâm phạm.
-![](assets/notext/16.webp)
+
+![image](assets/vi/016.webp)
+
 Nói chung, bắt đầu sử dụng một địa chỉ email mới, an toàn hơn không phải là một việc gì đó quá tệ và thậm chí là rất cần thiết nếu muốn bắt đầu lại trên một nền tảng lành mạnh hơn.
 Bitcoin Bonus: Có thể nên tạo một địa chỉ email cụ thể cho các hoạt động Bitcoin của chúng ta (tạo tài khoản giao dịch) để thực sự tách biệt các lĩnh vực trong cuộc sống của chúng ta.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Trình quản lý mật khẩu
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Trình quản lý mật khẩu là gì?
 
@@ -289,15 +324,20 @@ Với trình quản lý mật khẩu, bạn không còn phải lo lắng về vi
 - LastPass: Một trong những trình quản lý phổ biến nhất. Đây là một dịch vụ của bên thứ ba, có nghĩa là mật khẩu của bạn được lưu trữ trên máy chủ của họ. Họ cung cấp một phiên bản miễn phí và một phiên bản trả phí, có giao diện thân thiện với người dùng.
 
 - Dashlane: Cũng là một dịch vụ bên thứ ba, với giao diện trực quan và các tính năng bổ sung như theo dõi thông tin thẻ tín dụng và ghi chú an toàn.
-  ![](assets/notext/17.webp)
+
+  ![image](assets/vi/017.webp)
 
 ### Tự lưu trữ để kiểm soát nhiều hơn:
 
 - Bitwarden: Là một công cụ mã nguồn mở, có nghĩa là bạn có thể xem xét mã nguồn của nó để xác minh tinhs bảo mật. Mặc dù Bitwarden cung cấp một dịch vụ lưu trữ hộ, họ cũng cho phép người dùng tự lưu trữ, có nghĩa là bạn có thể kiểm soát nơi mật khẩu của mình được lưu trữ, có thể mạng lại sự bảo mật và kiểm soát cao hơn.
 
 - KeePass: Là một giải pháp mã nguồn mở chủ yếu dành cho tự lưu trữ. Dữ liệu của bạn được lưu trữ cục bộ theo mặc định, nhưng bạn có thể đồng bộ hóa cơ sở dữ liệu mật khẩu bằng các phương pháp khác nếu bạn muốn. KeePass được công nhận rộng rãi vì khả năng bảo mật và sự linh hoạt của nó, mặc dù nó có thể ít thân thiện với người mới bắt đầu.
-  ![](assets/notext/18.webp)
-  (Note: Việc lựa chọn giữa một dịch vụ của bên thứ ba hoặc một dịch vụ tự lưu trữ phụ thuộc vào mức độ thoải mái và kỹ năng về công nghệ của bạn cũng như thứ tự ưu tiên của bạn giữa sự kiểm soát và tính tiện ích. Dịch vụ của bên thứ ba thường tiện lợi hơn đối với hầu hết mọi người, trong khi tự lưu trữ đòi hỏi kiến thức kỹ thuật cao hơn nhưng có thể mang lại quyền kiểm soát và sự bảo mật cao hơn.)
+
+![image](assets/vi/018.webp)
+
+Đối với các giải pháp tự lưu trữ như KeePass, bạn có thể đồng bộ cơ sở dữ liệu của mình giữa nhiều thiết bị mà không cần sử dụng dịch vụ tập trung của bên thứ ba. Các công cụ như **Syncthing** cho phép đồng bộ hóa được mã hóa và phi tập trung trực tiếp giữa các thiết bị của bạn. Cách tiếp cận này giữ dữ liệu của bạn dưới sự kiểm soát của bạn đồng thời đảm bảo tính sẵn có của chúng trên tất cả các thiết bị của bạn.
+
+(Note: Việc lựa chọn giữa một dịch vụ của bên thứ ba hoặc một dịch vụ tự lưu trữ phụ thuộc vào mức độ thoải mái và kỹ năng về công nghệ của bạn cũng như thứ tự ưu tiên của bạn giữa sự kiểm soát và tính tiện ích. Dịch vụ của bên thứ ba thường tiện lợi hơn đối với hầu hết mọi người, trong khi tự lưu trữ đòi hỏi kiến thức kỹ thuật cao hơn nhưng có thể mang lại quyền kiểm soát và sự bảo mật cao hơn.)
 
 ### Điều gì tạo nên một mật khẩu tốt:
 
@@ -314,13 +354,15 @@ Một mật khẩu tốt thường là:
 
 Mật khẩu được tạo ra một cách ngẫu nhiên cung cấp một mức độ an toàn cao hơn, mặc dù chúng có thể khó nhớ hơn. Các trình quản lý mật khẩu có thể tạo ra mật khẩu ngẫu nhiên an toàn hơn. Bằng cách sử dụng trình quản lý mật khẩu, bạn không cần phải nhớ tất cả mật khẩu của mình. Quan trọng là phải dần dần thay thế mật khẩu cũ của bạn bằng những mật khẩu được trình quản lý tạo ra, vì chúng mạnh mẽ và dài hơn. Đảm bảo rằng mật khẩu chính của trình quản lý mật khẩu của bạn cũng mạnh mẽ và an toàn.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Xác thực hai yếu tố
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Tại sao cần sử dụng xác thực hai yếu tố
 
@@ -332,9 +374,9 @@ Bước thứ hai này có thể là:
 - Một mã được tạo bởi một ứng dụng như Google Authenticator hoặc Authy.
 - Một khóa bảo mật vật lý mà bạn cắm vào máy tính của mình.
 
-  ![](assets/notext/19.webp)
+![image](assets/vi/019.webp)
 
-  Với 2FA, ngay cả khi một hacker có được mật khẩu của bạn, họ cũng không thể nào truy cập vào tài khoản của bạn mà không có yếu tố xác minh thứ hai này. Điều này làm cho 2FA trở nên rất thiết yếu trong việc bảo vệ các tài khoản trực tuyến của bạn nhằm tránh việc truy cập trái phép.
+Với 2FA, ngay cả khi một hacker có được mật khẩu của bạn, họ cũng không thể nào truy cập vào tài khoản của bạn mà không có yếu tố xác minh thứ hai này. Điều này làm cho 2FA trở nên rất thiết yếu trong việc bảo vệ các tài khoản trực tuyến của bạn nhằm tránh việc truy cập trái phép.
 
 ### Lựa chọn phương án nào?
 
@@ -363,9 +405,9 @@ Hãy tiếp tục học hỏi và dần dần thực hiện các hành vi đúng
 
 Quy tắc vàng: An ninh mạng là một mục tiêu động và nó sẽ thích nghi với hành trình học hỏi của bạn!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Phần Thực Hành
 
@@ -377,7 +419,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 Bảo vệ hộp thư điện tử của bạn là một bước quan trọng để đảm bảo an toàn cho các hoạt động trực tuyến và bảo vệ dữ liệu cá nhân của bạn. Hướng dẫn này sẽ hướng dẫn bạn, từng bước một, trong việc tạo và cấu hình tài khoản ProtonMail, một nhà cung cấp được công nhận với mức độ bảo mật cao, cung cấp mã hóa đầu cuối cho các cuộc giao tiếp của bạn. Dù bạn là người mới bắt đầu hay người dùng có kinh nghiệm, các thực hành tốt được đề xuất ở đây sẽ giúp bạn tăng cường bảo mật cho hộp thư điện tử của mình, đồng thời tận dụng các tính năng nâng cao của ProtonMail:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Bảo mật 2FA
 
@@ -385,11 +427,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 Xác thực hai yếu tố (2FA) đã trở nên thiết yếu để bảo vệ các tài khoản trực tuyến của bạn. Trong hướng dẫn này, bạn sẽ học cách thiết lập và sử dụng ứng dụng 2FA Authy, ứng dụng tạo mã động 6 chữ số để bảo vệ các tài khoản của bạn. Authy rất dễ sử dụng và đồng bộ hóa trên nhiều thiết bị. Tìm hiểu cách cài đặt và cấu hình Authy, và do đó tăng cường bảo mật cho các tài khoản trực tuyến của bạn ngay bây giờ:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Một tùy chọn khác là sử dụng khóa bảo mật vật lý. Hướng dẫn bổ sung này cho bạn thấy cách thiết lập và sử dụng khóa bảo mật như một yếu tố xác thực thứ hai:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Tạo quản lý mật khẩu
 
@@ -399,11 +441,11 @@ Quản lý mật khẩu là một thách thức trong kỷ nguyên số. Tất c
 
 Trong hướng dẫn này, hãy tìm hiểu cách cấu hình Bitwarden, một trình quản lý mật khẩu mã nguồn mở, và cách đồng bộ hóa thông tin đăng nhập của bạn trên tất cả các thiết bị để đơn giản hóa việc sử dụng hàng ngày:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Đối với người dùng có kinh nghiệm hơn, tôi cũng cung cấp một hướng dẫn về phần mềm miễn phí và mã nguồn mở khác để sử dụng cục bộ trong việc quản lý mật khẩu của bạn:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Bảo vệ tài khoản của bạn
 
@@ -411,9 +453,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Trong hai hướng dẫn này, tôi cũng hướng dẫn bạn cách bảo vệ các tài khoản trực tuyến của mình và giải thích cách dần dần áp dụng các thực hành an toàn hơn để quản lý mật khẩu hàng ngày.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Thay đổi trình duyệt & VPN
 
@@ -423,13 +465,13 @@ Bảo vệ quyền riêng tư trực tuyến của bạn cũng là một điểm
 
 Tôi đề xuất bạn khám phá hai giải pháp VPN đáng tin cậy và có thể thanh toán bằng bitcoin, đó là IVPN và Mullvad. Những hướng dẫn này sẽ hướng dẫn bạn cách cài đặt, cấu hình và sử dụng Mullvad hoặc IVPN trên tất cả các thiết bị của bạn:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Ngoài ra, hãy tìm hiểu cách sử dụng Tor Browser, một trình duyệt được thiết kế đặc biệt để bảo vệ quyền riêng tư trực tuyến của bạn:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Thiết lập sao lưu
 
@@ -437,11 +479,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Bảo vệ các tệp cá nhân của bạn cũng là một điểm quan trọng. Hướng dẫn này chỉ cho bạn cách triển khai một chiến lược sao lưu hiệu quả nhờ Proton Drive. Tìm hiểu cách sử dụng giải pháp đám mây an toàn này để áp dụng phương pháp 3-2-1: ba bản sao dữ liệu của bạn trên hai phương tiện khác nhau, trong đó một bản sao nằm ngoài địa điểm. Như vậy, bạn đảm bảo khả năng truy cập và an ninh cho các tệp nhạy cảm của mình:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Và để bảo mật các tệp của bạn lưu trữ trên các phương tiện di động như ổ USB hoặc ổ cứng di động, tôi cũng sẽ chỉ cho bạn cách mã hóa và giải mã các phương tiện này dễ dàng bằng VeraCrypt:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Đi sâu hơn
 
@@ -450,6 +492,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Làm thế nào để làm việc trong ngành an ninh mạng
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 ### An ninh mạng: Một lĩnh vực đang phát triển với rất nhiều cơ hội
 
@@ -482,11 +526,14 @@ Sự phát triển liên tục của các mối đe dọa đòi hỏi bạn ph�
 - Quản trị: Tiêu chuẩn ISO, quy định GDPR/CCPA.
 
 Khi thành thạo những kỹ năng và các công cụ này, bạn sẽ được trang bị tốt để gặt hái được thành công trong ngành an ninh mạng.
-![](assets/notext/20.webp)
+
+![image](assets/vi/020.webp)
 
 ## Phỏng vấn với Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Quản lý mật khẩu hiệu quả và xác thực tăng cường: Tiếp cận ở góc độ học thuật
 
@@ -494,7 +541,9 @@ Có ba khía cạnh chính cần xem xét khi nói về trình quản lý mật 
 Thông thường việc sử dụng tiện ích mở rộng trên trình duyệt để tự động điền mật khẩu không được khuyến khích. Những công cụ này có thể làm cho người dùng dễ bị tấn công giả mạo hơn. Renaud, một chuyên gia được công nhận trong lĩnh vực an ninh mạng, ưa thích quản lý thủ công bằng cách sử dụng KeePass, điều này đòi hỏi phải sao chép và dán mật khẩu một cách thủ công. Các tiện ích mở rộng có xu hướng tăng bề mặt tấn công, có thể làm chậm hiệu suất trình duyệt và do đó mang đến một rủi ro đáng kể. Bởi vậy, tốt nhất là chỉ nên sử dụng một số rất ít các tiện ích mở rộng cần thiết trên trình duyệt.
 
 Các trình quản lý mật khẩu thường khuyến khích sử dụng các yếu tố xác thực bổ sung, như xác thực hai yếu tố. Để đảm bảo an ninh tối ưu, nên giữ OTPs (Mật khẩu dùng một lần) trên thiết bị di động của bạn. AndoTP cung cấp một giải pháp mã nguồn mở để tạo và lưu trữ mã OTP trên điện thoại của bạn. Trong khi Google Authenticator cho phép xuất mã gieo xác thực, mức độ tin tưởng vào việc sao lưu trên tài khoản Google vẫn hạn chế. Do đó, các ứng dụng OTI và AndoTP được khuyến nghị cho việc quản lý OTP một cách tự chủ.
-![](assets/notext/21.webp)
+
+![image](assets/vi/021.webp)
+
 Vấn đề về di sản và thừa kế số cho thấy tầm quan trọng của việc có một thủ tục để chuyển giao mật khẩu sau khi một người qua đời. Một trình quản lý mật khẩu giúp quá trình chuyển giao này diễn ra một cách an toàn bằng cách lưu trữ tất cả bí mật số trong một nơi. Trình quản lý mật khẩu cũng cho phép xác định tất cả các tài khoản mở và quản lý việc đóng cửa hoặc chuyển giao chúng. Bạn nên viết mật khẩu chính trên giấy, và nó nên được giữ ở một vị trí kín đáo và an toàn. Nếu ổ cứng được mã hóa và máy tính bị khóa, mật khẩu sẽ không thể truy cập được, ngay cả trong trường hợp bị trộm.
 
 ### Hướng tới kỷ nguyên hậu mật khẩu: Khám phá các lựa chọn thay thế đáng tin cậy
@@ -510,7 +559,9 @@ Xác thực trực tiếp đến dịch vụ liên quan là một lựa chọn t
 ### Bảo mật máy tính: các yêu cầu về thực hành an toàn và rủi ro liên quan đến sự bất cẩn của con người
 
 Bảo mật máy tính có thể bị xâm phạm bởi những hành vi đơn giản và việc sử dụng mật khẩu mặc định, như "admin". Không phải lúc nào cũng cần đến các cuộc tấn công tinh vi để có thể gây nguy hiểm cho bảo mật máy tính. Ví dụ, mật khẩu quản trị của một kênh YouTube được viết trong mã nguồn riêng tư của một công ty. Các lỗ hổng bảo mật thường là kết quả xuất phát từ sự bất cẩn của con người.
+
 Cũng cần lưu ý rằng Internet có tính tập trung cao và phần lớn nằm dưới sự kiểm soát của Mỹ. Máy chủ DNS có thể bị kiểm duyệt và thường sử dụng DNS lừa đảo để chặn quyền truy cập vào một số trang web. DNS là một giao thức cũ và không đủ an toàn, có thể dẫn đến các vấn đề về bảo mật. Các giao thức mới, như DNSsec, đã xuất hiện nhưng vẫn chưa được sử dụng rộng rãi. Để vượt qua kiểm duyệt và chặn quảng cáo, có thể chọn các nhà cung cấp DNS thay thế.
+
 Các phương án thay thế để chống lại quảng cáo xâm nhập bao gồm Google DNS, OpenDNS và các dịch vụ độc lập khác. Giao thức DNS tiêu chuẩn để lộ truy vấn DNS cho nhà cung cấp dịch vụ internet. DOH (DNS qua HTTPS) và DOT (DNS qua TLS) mã hóa kết nối DNS, cung cấp sự riêng tư và bảo mật cao hơn. Các giao thức này được sử dụng rộng rãi trong doanh nghiệp do bảo mật tăng cường và được tự động hỗ trợ bởi Windows, Android và iPhone. Để sử dụng DOH và DOT, cần nhập tên máy chủ TLS thay vì địa chỉ IP. Các nhà cung cấp DOH và DOT miễn phí có sẵn trực tuyến. DOH và DOT cải thiện sự riêng tư và bảo mật bằng cách tránh các cuộc tấn công "người đứng giữa".
 
 Cũng đáng để đề cập đến hệ thống được gọi là "Lightning authentication". Hệ thống này tạo ra một định danh khác nhau cho mỗi dịch vụ, mà không cần cung cấp địa chỉ email hay thông tin cá nhân. Có thể có các danh tính phi tập trung do người dùng kiểm soát, nhưng đang thiếu sự tiêu chuẩn hóa trong các dự án danh tính phi tập trung. Các trình quản lý gói như Nuget và Chocolaté, cho phép tải xuống phần mềm mã nguồn mở ngoài Microsoft Store, được khuyến nghị dùng để tránh các cuộc tấn công độc hại. Tóm lại, DNS rất quan trọng cho bảo mật trực tuyến, nhưng cần phải luôn cảnh giác trước các cuộc tấn công tiềm năng vào máy chủ DNS.

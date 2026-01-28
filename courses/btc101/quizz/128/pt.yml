@@ -1,11 +1,11 @@
-question: Ao criar um plano de herança, o que não é necessário incluir?
-answer: O nome da carteira Bitcoin que você costuma usar.
+question: Qual é a função do ajuste de dificuldade na rede Bitcoin?
+answer: Garante que um bloco seja adicionado à blockchain aproximadamente a cada dez minutos.
 wrong_answers:
-  - Uma carta escrita à mão listando seus ativos.
-  - Uma descrição de como acessar seus fundos.
-  - As informações de contato de pessoas de confiança.
-explanation: |
-  criar um plano de herança é um passo crucial para garantir que seus bitcoins serão devidamente gerenciados após a sua morte.
-  Este plano pode incluir uma carta escrita à mão listando seus ativos,
-  seus métodos de acesso e as informações de contato de pessoas de confiança para serem contatadas.
+  - Determina o preço do Bitcoin.
+  - Regula o número de bitcoins que podem ser minerados na blockchain.
+  - Determina o tamanho de um bloco.
+explanation: >-
+  O ajuste de dificuldade na rede Bitcoin garante que um bloco
+  seja adicionado aproximadamente a cada dez minutos. Isso faz parte das regras do protocolo
+  da rede Bitcoin.
 reviewed: true

@@ -1,10 +1,12 @@
-question: Kuinka suuri on BTC-palkkio neljännen puolittumisen jälkeen?
-answer: 3.125 BTC.
+question: Mikä on riski jakaa Bitcoin-lompakon julkinen avain?
+answer: Yksityisyyden menettäminen.
 wrong_answers:
-  - 1.5625 BTC.
-  - 6.25 BTC.
-  - 12.5 BTC.
+  - Bitcoin-lompakon tuhoaminen.
+  - Bitcoinien menettäminen.
+  - Bitcoin-lompakon hakkerointi.
 explanation: |
-  Neljännen puolittumisen, joka tapahtuu lohkokorkeudessa
-  840,000, jälkeen BTC-palkkio louhinnasta on 3.125 BTC.
+  Julkisen avaimen jakaminen sisältää riskejä yksityisyydelle, mutta ei
+  turvallisuudelle. Tämä johtuu siitä, että julkinen avain käytetään
+  Bitcoin-osoitteiden luomiseen ja siten rahan vastaanottamiseen, mutta se
+  ei edusta omistusoikeutta Bitcoineihin.
 reviewed: true

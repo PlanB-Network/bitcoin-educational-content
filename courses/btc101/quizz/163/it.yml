@@ -1,10 +1,9 @@
-question: Qual è il tempo medio tra la creazione di due blocchi nel protocollo Bitcoin?
-answer: 10 minuti.
+question: Qual è il principale vantaggio delle macchine specializzate SHA256, o ASIC, nel mining di Bitcoin?
+answer: Aumentano il tasso di hash per joule.
 wrong_answers:
-  - 5 minuti.
-  - 15 minuti.
-  - 20 minuti.
+  - Riducono il consumo energetico.
+  - Aumentano la velocità delle transazioni.
+  - Aumentano la sicurezza della rete.
 explanation: >-
-  In media, un blocco viene creato ogni 10 minuti nel protocollo Bitcoin.
-  Questo tempo rimane costante indipendentemente dal numero di miner e dalla loro potenza di calcolo.
-reviewed: vero
+  Le macchine specializzate SHA256, o ASIC, aumentano il tasso di hash per joule nel mining di Bitcoin. Ciò equivale al numero di tentativi al secondo per energia consumata.
+reviewed: true

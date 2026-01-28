@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel Rustupu v ekosystému vývoje Rust?
+answer: Komplexní systém správy řetězce nástrojů pro instalaci a správu Rust
+wrong_answers:
+  - Správce balíčků pro práci se závislostmi v projektech Rust
+  - Pokročilý liner, který analyzuje kód a poskytuje návrhy na zlepšení
+  - Systém sestavení, který kompiluje programy Rust a spravuje strukturu projektu
+explanation: |
+  Rustup je speciálně navržen jako systém pro správu řetězce nástrojů, který se stará o instalaci, aktualizaci a správu samotného systému Rust napříč různými projekty a platformami. Zatímco Cargo slouží jako správce balíčků a sestavovací systém pro projekty Rust a Clippy funguje jako liner pro analýzu kódu, Rustup pracuje na vyšší úrovni tím, že spravuje celé vývojové prostředí Rust. Umožňuje vývojářům instalovat různé verze Rust, spravovat cíle kompilace pro různé platformy a snadno aktualizovat na nová vydání Rust pomocí jednoduchých příkazů jako 'rustup update'.

@@ -1,12 +1,11 @@
-question: Qual è un metodo per proteggere bitcoin a lungo termine?
-answer: Incidere la frase mnemonica su un materiale resistente come l'acciaio.
+question: Qual è l'importanza della responsabilità individuale nell'ambito di Bitcoin?
+answer: È cruciale perché si è responsabili dei backup.
 wrong_answers:
-  - Conservarli in un hot wallet.
-  - Mantenerli su una piattaforma exchange.
-  - Condividere la frase mnemonica con un collega.
+  - È essenziale perché si deve minare bitcoin.
+  - È essenziale per acquistare bitcoin.
+  - È cruciale perché si è responsabili del tema del wallet.
 explanation: |
-  Incidere la frase mnemonica su un materiale resistente come
-  l'acciaio crea un backup fisico delle chiavi che è
-  resistente sia ai danni causati dall'acqua che dal fuoco, garantendo così la protezione dei
-  bitcoin a lungo termine.
+  In Bitcoin la sovranità finanziaria va di pari passo con
+  la responsabilità individuale, poiché si deve custodire personalmente
+  i propri fondi, seguendo le procedure di backup raccomandate.
 reviewed: true

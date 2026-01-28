@@ -1,0 +1,9 @@
+question: Ko je Žil Delöz?
+answer: Profesor filozofije iz 80-ih, specijalizovan za Spinozu.
+wrong_answers:
+  - Političar.
+  - Liberalni ekonomista.
+  - Pronalazač.
+explanation: |
+  Gilles Deleuze (1925-1995) je bio francuski profesor filozofije 1980-ih i poznati stručnjak za Spinozu. Njegova knjiga Spinoza et le problème de l'expression (Spinoza i problem izražavanja) obnovila je naše čitanje Etike.
+reviewed: false

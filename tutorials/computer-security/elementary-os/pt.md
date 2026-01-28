@@ -1,5 +1,5 @@
 ---
-name: SO elementar
+name: Elementary OS
 description: O substituto ideal para Windows e MacOS
 ---
 
@@ -11,7 +11,7 @@ O Elementary OS é um sistema operativo baseado no Ubuntu, concebido para ser si
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Porquê escolher o Elementary OS
 
@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Simplicidade e facilidade de utilização**: A interface gráfica do Elementary OS Interface está a meio caminho entre a do MacOs e a do Windows. Esta familiaridade torna-o fácil de adotar, mesmo para utilizadores inexperientes.
+- **Simplicidade e facilidade de utilização**: A interface gráfica do Elementary OS Interface está a meio caminho entre a do MacOs e a do Windows. Esta familiaridade torna-o fácil de adotar, mesmo para utilizadores inexperientes.
 
 
 
 
 
-- Segurança**: Tal como a maioria das distribuições Linux, o Elementary OS beneficia de um elevado nível de segurança. Actualizações regulares, gestão de direitos e a ausência de vírus comuns fazem dele um sistema fiável.
+- **Segurança**: Tal como a maioria das distribuições Linux, o Elementary OS beneficia de um elevado nível de segurança. Actualizações regulares, gestão de direitos e a ausência de vírus comuns fazem dele um sistema fiável.
 
 
 
 
 
-- Velocidade**: O Elementary OS é uma distribuição leve. Ele requer poucos recursos, tornando-o rápido e adequado para computadores com configurações modestas.
+- **Velocidade**: O Elementary OS é uma distribuição leve. Ele requer poucos recursos, tornando-o rápido e adequado para computadores com configurações modestas.
 
 
 
 
 
-- Gratuito**: O sistema é totalmente gratuito. No entanto, quando o descarregar, pode fazer um donativo para apoiar os criadores.
+- **Gratuito**: O sistema é totalmente gratuito. No entanto, quando o descarregar, pode fazer um donativo para apoiar os criadores.
 
 
 
 
 
-- Comunidade ativa**: A comunidade em torno do Elementary OS é diversificada e reactiva. Se tiver dificuldades, pode facilmente encontrar ajuda nos fóruns ou nas redes sociais.
+- **Comunidade ativa**: A comunidade em torno do Elementary OS é diversificada e reactiva. Se tiver dificuldades, pode facilmente encontrar ajuda nos fóruns ou nas redes sociais.
 
 
 
@@ -61,7 +61,7 @@ Antes de iniciar a instalação, certifique-se de que possui o seguinte equipame
 
 
 - Uma **chave USB** de pelo menos 12 GB
-- Memória RAM** de pelo menos 4 GB
+- **Memória RAM** de pelo menos 4 GB
 - Um disco **Hard de 20 GB** ou mais para uma utilização confortável
 
 
@@ -70,7 +70,7 @@ Antes de iniciar a instalação, certifique-se de que possui o seguinte equipame
 
 
 
-Vá ao sítio Web oficial do sistema operativo [elementary] (https://elementary.io/) e escolha um montante para apoiar o projeto. Este passo é opcional.
+Vá ao sítio Web oficial do sistema operativo [elementary](https://elementary.io/) e escolha um montante para apoiar o projeto. Este passo é opcional.
 
 
 Se desejar descarregar a imagem ISO gratuitamente, introduza 0 no campo **"Outros "** e comece a descarregar a imagem ISO do sistema.
@@ -89,7 +89,7 @@ Depois de descarregar a imagem ISO, terá de a tornar de arranque numa chave USB
 
 
 
-Descarregar um software como o [Balena Etcher] (https://etcher.balena.io/) ou uma ferramenta semelhante e, em seguida, lançar o software.
+Descarregar um software como o [Balena Etcher](https://etcher.balena.io/) ou uma ferramenta semelhante e, em seguida, lançar o software.
 
 
 Selecione a imagem ISO **Elementary OS** previamente descarregada e defina a sua chave USB como destino.
@@ -380,4 +380,4 @@ O Elementary OS está agora instalado e a funcionar na sua máquina. A sua filos
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

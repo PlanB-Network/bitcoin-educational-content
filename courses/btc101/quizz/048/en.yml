@@ -1,12 +1,9 @@
-question: What is the consequence of hyperinflation?
-answer: A drastic decrease in the value of the currency.
+question: What was the approximate inflation rate in Germany in October 1923 at the height of hyperinflation?
+answer: 29,500%
 wrong_answers:
-  - A small decrease in the value of the currency.
-  - A drastic increase in the value of the currency.
-  - A small increase in the value of the currency.
+  - 5,200%
+  - 76%
+  - 110%
 explanation: |
-  Because of hyperinflation, individuals rapidly have a
-  complete loss of confidence in the currency, which leads to
-  a drastic decrease in its value over a short period of
-  time.
-reviewed: true
+  The month with the highest inflation rate in Germany was October 1923, reaching a peak of 29,500%.
+reviewed: false

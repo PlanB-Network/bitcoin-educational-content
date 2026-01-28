@@ -1,0 +1,9 @@
+question: Ku bwa Spinoza, Imana ni?
+answer: Kamere.
+wrong_answers:
+  - Ikiremwa gihawe umugambi.
+  - Umuhinguzi w'isaha.
+  - Inkuru.
+explanation: |
+  Kuri Spinoza, Imana ni Kamere (Deus sive Natura). Si ikiremwa kirenze, c’umuntu ku giti ciwe, ariko ni ikintu kidasanzwe, kitagira iherezo, ikintu cose kiriho kikaba ari uburyo canke ukugaragara kwaco.
+reviewed: false

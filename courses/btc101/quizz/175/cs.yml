@@ -1,9 +1,10 @@
-question: Jakým způsobem lze zmírnit volatilitu Bitcoinu?
-answer: Finanční zajištění (stablecoiny).
+question: Která z následujících vlastností přispěla k rozšíření používání Bitcoinu na tržištích dark webu, jako je Silk Road?
+answer: Jeho nekontrolovatelná a pseudonymní povaha.
 wrong_answers:
-  - Investování všech vašich peněz do Bitcoinu.
-  - Ignorování tržních trendů.
-  - Kupování více Bitcoinů, když jejich cena klesne.
+  - Jeho centralizovaná kontrola.
+  - Jeho sledovatelnost a kontrolovatelná povaha.
+  - Jeho nedostatek pseudonymity.
 explanation: >-
-  Volatilitu Bitcoinu lze zmírnit několika řešeními, jako jsou finanční zajištění (stablecoiny), silné dlouhodobé přesvědčení (hodlování), nebo jednoduše tím, že nevložíte 100% svých peněz do Bitcoinu, aniž byste cokoli rozuměli.
+  Používání Bitcoinu se na tržištích dark webu, jako je Silk Road, rozšířilo
+  díky jeho nekontrolovatelné a pseudonymní povaze.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Cuộc chiến về kích thước khối đã xảy ra vào khi nào?
+answer: Vào năm 2017.
+wrong_answers:
+  - Vào năm 2008.
+  - Vào năm 2010.
+  - Vào năm 2019.
+explanation: >-
+  Cuộc chiến về kích thước khối đã xảy ra vào năm 2017. Xung đột này đối đầu giữa những người muốn chỉnh sửa Bitcoin bằng cách tăng kích thước khối để tăng khả năng xử lý giao dịch, với những người tìm cách bảo vệ độc lập và quyền lực của người dùng bằng cách giữ kích thước ở mức 1 MB.
+reviewed: true

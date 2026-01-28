@@ -1,0 +1,9 @@
+question: 미니 PC에 비해 전용 노트북의 장점은 무엇인가요?
+answer: 배터리가 인버터 역할을 합니다
+wrong_answers:
+  - 더 조용합니다
+  - 더 오래 지속됩니다
+  - 에너지 소비량 감소
+explanation: |
+  노트북의 배터리는 자연스러운 UPS 역할을 하여 정전 시 갑작스러운 작동 중단을 방지합니다.
+reviewed: true

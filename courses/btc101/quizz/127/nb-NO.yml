@@ -1,11 +1,11 @@
-question: Hva er formålet med transaksjonsgebyrer i Bitcoin-transaksjoner?
-answer: De er en insentiv for gruvearbeidere til å inkludere transaksjonen i neste blokk.
+question: Hva er et gyldig hash i sammenheng med å utvinne en blokk i Bitcoin-nettverket?
+answer: Et unikt fingeravtrykk assosiert med blokken, bestående av 256 tegn.
 wrong_answers:
-  - De er en skatt pålagt av regjeringen.
-  - Det er et gebyr belastet av Bitcoin-nettverket for å bruke dets tjenester.
-  - Det er et gebyr belastet av lommebokleverandøren.
-explanation: |
-  Transaksjonsgebyrer i Bitcoin-transaksjoner fungerer som en insentiv for gruvearbeidere
-  til å inkludere transaksjonen i neste blokk. Gebyrene skaper et fritt marked for
-  inkludering av transaksjoner i blokker.
-reviewed: true
+  - En unik kode brukt for å få tilgang til blokken.
+  - Et unikt passord som kreves for å utvinne blokken.
+  - En unik identifikator for gruvearbeideren som utvant blokken.
+explanation: >-
+  I sammenheng med å utvinne en blokk i Bitcoin-nettverket, er et gyldig hash
+  et unikt fingeravtrykk assosiert med blokken, bestående av 256 tegn. Gyldigheten
+  av dette hashet avhenger av vanskelighetsgraden i Bitcoin-nettverket.
+reviewed: false

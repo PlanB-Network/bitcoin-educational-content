@@ -6,15 +6,15 @@ description: Configuración de tu billetera Muun
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) es una billetera auto custodiada para bitcoin y lightning.
+[Muun](https://muun.com/) es una billetera de autocustodia para bitcoin y lightning.
 
-## tutorial en video
+## Tutorial en video
 
 ![tutorial en video](https://youtu.be/t1rxp8InZW8)
 
 ## Billetera Muun - Guía de uso completa
 
-Guía de uso completa (con capturas de pantalla) de la aplicación Muun; una billetera móvil amigable para Bitcoin que te permite realizar transacciones en la Lightning Network.
+Guía completa del usuario (con capturas de pantalla) para la aplicación Muun; una billetera de Bitcoin móvil y fácil de usar que le permite realizar transacciones en la Red Lightning.
 
 ![imagen](assets/0.5.webp)
 
@@ -122,15 +122,15 @@ Aquí está la traducción de las instrucciones:
 
 Este procedimiento de emergencia le ayudará a recuperar sus fondos si no puede utilizar Muun en su dispositivo.
 
-1. Encuentre su código de recuperación
+- Encuentra tu código de recuperación
 
 Ha escrito este código en un trozo de papel antes de crear su kit de emergencia. Lo necesitará más adelante.
 
-2. Descargue la herramienta de recuperación
+- Descarga la herramienta de recuperación
 
 Vaya a la página https://github.com/muun/recovery y descargue la herramienta en su computadora.
 
-3. Recupere sus fondos
+- Recupera tus fondos
 
 Ejecute la herramienta de recuperación y siga los pasos. La herramienta se encargará de transferir sus fondos a una dirección Bitcoin de su elección.
 
@@ -174,7 +174,7 @@ Las opciones de personalización se encuentran en el menú "Configuración de fa
 
 ![image](assets/28.webp)
 
-## Utilizar la función LNURL
+## Usando la función LNURL
 
 La billetera Muun ofrece la posibilidad de utilizar LNURL para recibir transacciones. Esta función, que se activa al presionar el símbolo de escaneo cuadrado ubicado en la parte superior derecha de la página, tiene algunas ventajas, como evitar tener que compartir una factura para recibir una transacción. En su lugar, debe escanear un código QR para recibir la información de pago que luego puede validar para confirmar el proceso de transacción.
 

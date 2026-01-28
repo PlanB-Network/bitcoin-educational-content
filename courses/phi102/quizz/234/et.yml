@@ -1,0 +1,8 @@
+question: Millisele majanduslikule mehhanismile tugineb lepinguvabadus eelkõige, et tagada mõlemale poolele kasu vabatahtlikust vahetusest?
+answer: Iga osapoole subjektiivne hinnang, mis muudab vahetuse eelistatavamaks kui sellest hoidumine
+wrong_answers:
+  - Valitsuse regulatsioon, mis tagab kasu võrdse jaotuse lepingupoolte vahel
+  - Turuhindade kontroll, mis tagab õiglase hüvitise kõigile börsil osalejatele
+  - Objektiivne väärtuse mõõtmine, mis loob mõlemale poolele matemaatiliselt võrdväärse kasu
+explanation: |
+  Vabatahtlikud lepingud tekitavad vastastikust rikastumist, sest iga üksikisik otsustab osaleda ainult siis, kui ta subjektiivselt hindab seda, mida ta saab, rohkem kui seda, millest ta loobub. See subjektiivne eelistus, mitte mingi väline regulatsioon või objektiivne väärtuse mõõtmine, juhib vabatahtliku vahetuse positiivset summat. Riiklik reguleerimine või hinnakontroll õõnestaks tegelikult seda vabatahtlikku mehhanismi, samas kui objektiivne väärtuse mõõtmine eirab isiklikke eelistusi, mis motiveerivad üksikisikuid üldse lepinguid sõlmima.

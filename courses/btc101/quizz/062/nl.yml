@@ -1,12 +1,12 @@
-question: Wat is het mechanisme dat ervoor zorgt dat er elke tien minuten een nieuw blok wordt toegevoegd aan de Blockchain?
-answer: Moeilijkheidsaanpassing.
+question: Wat was het geschatte aantal bitcoins in omloop na de eerste Halving?
+answer: 10.500.000 BTC.
 wrong_answers:
-  - Snelheidsaanpassing.
-  - Tijdsaanpassing.
-  - Blokaanpassing.
+  - 5.250.000 BTC.
+  - 15.750.000 BTC.
+  - 21.000.000 BTC.
 explanation: |
-  Het mechanisme dat ervoor zorgt dat er elke tien minuten een nieuw blok wordt toegevoegd aan de
-  Blockchain elke tien minuten wordt toegevoegd, is de moeilijkheidsaanpassing.
-  Deze aanpassing vindt elke 2016 blokken plaats, of ongeveer
-  twee weken.
+  Na de eerste Halving, die plaatsvond op blokhoogte
+  210.000, was het geschatte aantal bitcoins in omloop
+  10.500.000 BTC, wat de helft is van het totale aantal
+  bitcoins dat in omloop zal zijn.
 reviewed: true

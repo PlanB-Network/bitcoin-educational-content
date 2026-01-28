@@ -1,0 +1,9 @@
+question: Mis on SPV-sõlme juures erilist?
+answer: See säilitab ainult plokkide päised
+wrong_answers:
+  - See säilitab kogu Blockchain, kuna Genesis plokk
+  - See salvestab ainult kõige uuemad plokid
+  - See hoiab ainult UTXO komplekti, mitte Blockchain
+explanation: |
+  SPV-sõlm kontrollib tehinguid plokkide päiste ja Merkle-tõendite abil, salvestamata täielikke andmeid.
+reviewed: true

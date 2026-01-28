@@ -6,4 +6,4 @@ wrong_answers:
   - Créer des scripts de verrouillage pour protéger les bitcoins
 explanation: |
   La clé privée est utilisée pour signer des transactions pour satisfaire un script et déverrouiller les bitcoins.
-reviewed: false
+reviewed: true 

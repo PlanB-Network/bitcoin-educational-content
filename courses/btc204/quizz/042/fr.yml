@@ -6,4 +6,4 @@ wrong_answers:
   - Risque légal.
 explanation: |
    L'échange P2P en cash présente de nombreux risques, mais il ne requiert pas d'effectuer un KYC. Il n'y a donc aucun risque de fuite de données.
-reviewed: false
+reviewed: true 

@@ -116,5 +116,5 @@ Pour avoir une vision globale sur votre compte Mullvad et gérer les différents
 ![MULLVAD VPN](assets/notext/37.webp)
 Et voilà, vous êtes désormais équipé pour profiter pleinement de Mullvad VPN. Si vous souhaitez découvrir un autre fournisseur de VPN similaire à Mullvad, autant en termes de caractéristiques que de tarifs, je vous conseille également de consulter notre tutoriel sur IVPN :
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 

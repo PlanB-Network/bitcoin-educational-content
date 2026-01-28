@@ -1,13 +1,13 @@
 question: Je, ni tofauti gani ya kimsingi kati ya Ongezeko la Bei na Mfumuko wa bei?
 answer: Ongezeko la bei linaweza kuwa mahususi kwa sekta na kusababishwa na mambo mbalimbali, huku mfumuko wa bei ukifafanuliwa na ongezeko la jumla la bei katika anuwai ya bidhaa na huduma.
 wrong_answers:
-  - Ongezeko la bei ni ongezeko la jumla la bei katika anuwai ya bidhaa na huduma, wakati mfumuko wa bei unategemea sekta na unachangiwa na mambo mbalimbali.
+  - Ongezeko la bei ni ongezeko la jumla ya bei katika anuwai ya bidhaa na huduma, wakati mfumuko wa bei unaotegemea sekta na unachangiwa na mambo mbalimbali.
   - Ongezeko la bei na mfumuko wa bei ni sawa, zote zinarejelea ongezeko la jumla la bei katika anuwai ya bidhaa na huduma.
   - Ongezeko la bei linarejelea kupungua kwa bei, wakati mfumuko wa bei unarejelea kuongezeka kwa bei.
 explanation: |
-  Sura inaeleza kuwa ongezeko la bei linaweza kuwa mahususi kwa sekta na
+  Sura inaeleza kuwa ongezeko la bei linaweza kuwa mahususi kwa sekta
   inayotokana na sababu mbalimbali kama vile kupungua kwa uzalishaji wa OPEC kwa mafuta au kutofaa
   hali ya hewa kwa ngano. Mfumuko wa bei, kwa upande mwingine, unafafanuliwa na jumla
   kuongezeka kwa bei katika anuwai ya bidhaa na huduma, sio tu katika mahususi
   sekta.
-reviewed: false
+reviewed: true

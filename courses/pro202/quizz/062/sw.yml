@@ -1,0 +1,8 @@
+question: Katika rundo la mashahidi la muamala wa P2WSH kwa multisig 2 kati ya 3, kwa nini ni lazima kipengele tupu kijumuishwe chini ya rundo la mashahidi?
+answer: Ili kufidia hitilafu ya CHECKMULTISIG inayotokea mara moja ambayo hutumia kipengele cha ziada cha rafu wakati wa utekelezaji
+wrong_answers:
+  - "Kutoa kishikilia nafasi cha sahihi ya tatu ambayo haikutumika katika uthibitishaji wa 2-kati ya 3 multisig"
+  - Kutenganisha data ya sahihi kutoka kwa hati ya shahidi kwa uchanganuzi sahihi wa uthibitisho wa SegWit
+  - Ili kuhakikisha kuwa rundo la shahidi lina idadi sawa ya vipengele kwa ajili ya ujenzi mzuri wa miti ya merkle
+explanation: |
+  Msimbo wa CHECKMULTISIG una hitilafu ya kihistoria ambapo huingiza kipengele kimoja cha ziada kutoka kwenye mrundiko zaidi ya kile kinachopaswa kuhitaji. Hii huathiri miamala yote ya multisig, ikiwa ni pamoja na P2WSH. Kipengele tupu hulipa fidia kwa hitilafu hii, ikihakikisha vipengele vilivyobaki vya mrundiko (saini na hati ya shahidi) vimewekwa vizuri kwa ajili ya uthibitishaji. Chaguzi zingine si sahihi: sahihi zisizotumika haziwakilishwi na vipengele tupu, uchanganuzi wa shahidi hauhitaji vipengele vya utenganisho, na mrundiko wa shahidi hauhitaji hata hesabu za vipengele kwa shughuli za mchanganyiko.

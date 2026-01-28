@@ -1,5 +1,5 @@
 ---
-name: Speichern Sie Ihre Eselsbrücke
+name: Die mnemonische Phrase sichern
 description: Entdecken Sie die besten Methoden zur Sicherung Ihrer Bitcoin-Wallet
 ---
 ![cover](assets/cover.webp)
@@ -42,15 +42,15 @@ Um Ihre Wiederherstellungsphrase zu speichern, müssen Sie sie auf einem physisc
 
 Während das Aufschreiben Ihres Spruchs auf einem einfachen Stück Papier bereits eine gute Praxis ist, bietet die Entscheidung für einen Metallhalter, z. B. aus Edelstahl, zusätzliche Sicherheit. Diese Art von Halterung schützt Ihren Merksatz vor Feuer, Überschwemmung oder Einsturz, die den Aufbewahrungsort beeinträchtigen können.
 
-Für diejenigen, die nach einer kostengünstigen Möglichkeit suchen, ihren Satz auf Metall zu sichern, ist [die DIY-Methode des "*SAFU Ninja*"] (https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) eine ausgezeichnete Lösung. Alles, was Sie tun müssen, ist, Metallscheiben, eine Schraube und eine Mutter im Handel zu kaufen. Dann gravieren Sie die Worte Ihres Satzes auf jede Unterlegscheibe, wobei Sie darauf achten, sie zu nummerieren, und montieren sie auf die Schraube mit der Mutter. Diese kostengünstige Methode bietet bereits eine gute Beständigkeit.
+Für diejenigen, die nach einer kostengünstigen Möglichkeit suchen, ihren Satz auf Metall zu sichern, ist [die DIY-Methode des "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) eine ausgezeichnete Lösung. Alles, was Sie tun müssen, ist, Metallscheiben, eine Schraube und eine Mutter im Handel zu kaufen. Dann gravieren Sie die Worte Ihres Satzes auf jede Unterlegscheibe, wobei Sie darauf achten, sie zu nummerieren, und montieren sie auf die Schraube mit der Mutter. Diese kostengünstige Methode bietet bereits eine gute Beständigkeit.
 
 ![SEED](assets/fr/01.webp)
 
 Bildnachweis: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
-Wenn Sie lieber in ein komplettes Metall-Sicherungsgerät investieren möchten, empfehle ich Ihnen einen Blick auf [Jameson Lopps Widerstandstests] (https://jlopp.github.io/metal-bitcoin-storage-reviews/), in denen die meisten auf dem Markt erhältlichen Lösungen bewertet werden. Ich würde Ihnen raten, sich für einteilige Halterungen zu entscheiden, wie z. B. eine Metallplatte zum Gravieren, Prägen oder Stanzen. Diese Vorrichtungen bieten im Allgemeinen eine viel höhere Widerstandsfähigkeit als Systeme, bei denen einzelne Buchstaben zusammengefügt werden müssen.
+Wenn Sie lieber in ein komplettes Metall-Sicherungsgerät investieren möchten, empfehle ich Ihnen einen Blick auf [Jameson Lopps Widerstandstests](https://jlopp.github.io/metal-bitcoin-storage-reviews/), in denen die meisten auf dem Markt erhältlichen Lösungen bewertet werden. Ich würde Ihnen raten, sich für einteilige Halterungen zu entscheiden, wie z. B. eine Metallplatte zum Gravieren, Prägen oder Stanzen. Diese Vorrichtungen bieten im Allgemeinen eine viel höhere Widerstandsfähigkeit als Systeme, bei denen einzelne Buchstaben zusammengefügt werden müssen.
 
-Wenn Sie sich für eine Brieftasche aus Papier entscheiden, haben Sie mehrere Möglichkeiten: ein einfaches leeres Blatt Papier, die Brieftasche aus Pappe, die oft mit Ihrer Hardware-Brieftasche geliefert wird, oder unsere Vorlage zum Herunterladen, die Sie ausdrucken können [indem Sie hier klicken] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Wenn Sie sich für eine Brieftasche aus Papier entscheiden, haben Sie mehrere Möglichkeiten: ein einfaches leeres Blatt Papier, die Brieftasche aus Pappe, die oft mit Ihrer Hardware-Brieftasche geliefert wird, oder unsere Vorlage zum Herunterladen, die Sie ausdrucken können [indem Sie hier klicken](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 
@@ -84,11 +84,11 @@ Sie können Ihr Backup auch mit zusätzlichen Informationen zu Ihrer Brieftasche
 
 Wenn Sie hingegen eine Passphrase verwenden, achten Sie darauf, dass Sie diese nicht auf demselben Medium wie Ihre Eselsbrücke notieren. Die Passphrase dient dazu, Ihre Brieftasche im Falle eines Diebstahls zu schützen. Weitere Informationen über die Verwendung einer Passphrase finden Sie in dieser ergänzenden Anleitung:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Sobald Sie Ihre mnemonische Phrase auf einem physischen Medium gespeichert haben, sollten Sie unbedingt einen Wiederherstellungstest durchführen, während Ihre neu erstellte Brieftasche noch leer ist. Dieser Test besteht darin, dass Sie eine Beispielinformation aufschreiben, die leere Brieftasche absichtlich löschen und dann versuchen, sie nur mit Ihrer physischen Sicherung der mnemonischen Phrase wiederherzustellen. So können Sie überprüfen, ob Ihre Sicherung vollständig und frei von Eingabefehlern ist. Außerdem können Sie sich so mit dem Wiederherstellungsprozess vertraut machen. Auf diese Weise sind Sie besser vorbereitet, wenn Sie in Zukunft eine Wiederherstellung durchführen müssen, und vermeiden den Stress eines ersten Versuchs in einer realen Situation. Weitere Informationen zur Durchführung dieses Tests finden Sie in diesem anderen Lernprogramm:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Schließlich stellt sich noch die Frage nach der Anzahl der Sicherungen. Diese Entscheidung hängt ganz von Ihrer persönlichen Situation ab. Wenn Sie die Anzahl der Kopien begrenzen, indem Sie z. B. Ihren Merksatz nur einmal auf einen Datenträger schreiben, verringert sich zwar das Diebstahlrisiko, aber das Verlustrisiko steigt. Umgekehrt verringert die Anfertigung mehrerer Kopien das Verlustrisiko, erhöht aber das Diebstahlsrisiko. Es liegt also an Ihnen, das richtige Gleichgewicht für Ihre Bedürfnisse zu finden und die Anzahl der Kopien zu bestimmen, die Sie für am besten geeignet halten.
 
@@ -116,8 +116,8 @@ Schließlich wirft die Verwaltung von Merksätzen auch die Frage der Vererbung a
 
 Um einen Schritt weiter zu gehen und Ihre Sicherheitsstrategie weiter zu stärken, empfehle ich Ihnen, die technische Funktionsweise Ihrer Bitcoin-Wallet zu lernen. Wenn Sie verstehen, wie die verschiedenen Elemente interagieren, sowie deren Bedeutung und Auswirkungen, können Sie Ihre Sicherheitsstrategie mit vollem Bewusstsein für die damit verbundenen Risiken feinabstimmen. Insbesondere wenn Sie auf technischer Ebene verstehen, was die mnemonische Phrase ermöglicht, werden Sie in der Lage sein, die Art und Weise, wie Sie sie aufzeichnen, speichern und verwalten, mit der Zeit anzupassen.
 
-Deshalb lade ich Sie ein, den kostenlosen CYP201-Kurs zu besuchen, der vom Plan ₿ Network angeboten wird. Dieser Kurs erklärt detailliert die Funktionsweise von Bitcoin-Wallets und ermöglicht es Ihnen, die technischen Aspekte zu beherrschen, die für die effektive Sicherung Ihrer Gelder unerlässlich sind:
+Deshalb lade ich Sie ein, den kostenlosen CYP201-Kurs zu besuchen, der vom Plan ₿ Academy angeboten wird. Dieser Kurs erklärt detailliert die Funktionsweise von Bitcoin-Wallets und ermöglicht es Ihnen, die technischen Aspekte zu beherrschen, die für die effektive Sicherung Ihrer Gelder unerlässlich sind:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unten einen grünen Daumen hinterlassen würden. Sie können diesen Artikel auch gerne in Ihren sozialen Netzwerken teilen. Ich danke Ihnen sehr!

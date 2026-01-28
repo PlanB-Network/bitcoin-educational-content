@@ -1,11 +1,11 @@
-question: Qual é o propósito de uma carteira Bitcoin?
-answer: Armazenar chaves privadas para realizar transações com bitcoins.
+question: Quem foi a primeira pessoa a se juntar à rede Bitcoin após Satoshi Nakamoto?
+answer: Hal Finney.
 wrong_answers:
-  - Usar recursos do dispositivo para minerar bitcoins.
-  - Comprar bitcoins através da chave pública.
-  - Armazenar bitcoins em um dispositivo.
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Carteiras Bitcoin são um tipo de software que é usado para
-  armazenar as chaves privadas que permitem a você realizar transações
-  com seus bitcoins.
+  Hal Finney foi a primeira pessoa a se juntar à rede Bitcoin
+  após o próprio Satoshi Nakamoto. Ele até tweetou Running
+  Bitcoin para marcar a ocasião.
 reviewed: true

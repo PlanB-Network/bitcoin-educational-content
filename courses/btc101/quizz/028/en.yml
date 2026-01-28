@@ -1,13 +1,9 @@
-question: What is the evolution path of today's currency?
-answer: Raw stone -> Coin -> Banknote -> Bank card -> Blockchain -> Lightning Network
+question: What is the meaning of fiat money?
+answer: Fiat money is currency that has value because a government maintains it and people have faith in its value, rather than being backed by a physical commodity like gold.
 wrong_answers:
-  - Raw stone -> Coin -> Banknote -> Blockchain -> Lightning Network
-  - Raw stone -> Coin -> Banknote -> Bank card -> Lightning Network
-  - Raw stone -> Coin -> Bank card -> Banknote -> Blockchain -> Lightning Network
+  - Fiat money is currency that is backed by a physical commodity, such as gold or silver, which means its value is directly tied to the worth of that commodity.
+  - Fiat money is a type of cryptocurrency that operates on a decentralized network, allowing for peer-to-peer transactions without the need for a central authority.
+  - Fiat money is currency that has no intrinsic value and cannot be used for transactions, making it essentially worthless in the economy.
 explanation: |
-  Currency is a technology that has evolved with time,
-  starting from being represented by raw stones, changing
-  into metallic coins, then into banknotes, bank cards, and
-  finally into peer-to-peer networks with the use of the
-  Bitcoin blockchain and the Lightning Network.
+  Fiat money is established as legal tender by government decree, and its value is not not derived from any physical commodity.
 reviewed: true

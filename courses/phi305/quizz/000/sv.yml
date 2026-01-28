@@ -1,0 +1,9 @@
+question: Vilken filosofisk strömning är Spinoza en ambassadör för?
+answer: Rationalism.
+wrong_answers:
+  - Den romantiska rörelsen.
+  - Skolasticism.
+  - Strukturalism.
+explanation: |
+  Spinoza anses vara en av de största företrädarna för 1600-talets rationalism, vid sidan av Descartes och Leibniz. Han utvecklade en filosofi baserad på förnuft och logik och försökte förstå världen genom rationella principer snarare än genom tro eller tradition.
+reviewed: false

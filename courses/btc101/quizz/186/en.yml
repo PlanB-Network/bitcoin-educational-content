@@ -1,11 +1,12 @@
-question: What is one way to obtain bitcoins without buying them?
-answer: Accept them as a means of payment for the products or services you offer.
+question: What is one of the initiatives that contribute to making the Bitcoin economy more accessible and convenient for everyone?
+answer: BTCMap.
 wrong_answers:
-  - Borrow them from a friend and never give them back.
-  - Win them in a lottery.
-  - Find them on the street.
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
 explanation: >-
-  One way to obtain bitcoins without buying them is to accept them as a
-  means of payment for the products or services you offer. This allows you to acquire
-  bitcoins through your work.
+  BTCMap is one of the initiatives that contribute to making the Bitcoin
+  economy more accessible and convenient for everyone. It is an open-source and collaborative
+  project that lists all the merchants that accept Bitcoin as well as the different
+  Bitcoin communities around the world.
 reviewed: true

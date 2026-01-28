@@ -1,0 +1,8 @@
+question: Elements ile Liquid Network arasındaki ilişki nedir?
+answer: Liquid, üretim kullanımı için yapılandırılmış bir Elements yan zincirinin belirli bir örneğidir
+wrong_answers:
+  - Elements, Liquid Network'ün test amacıyla yapılandırılmış özel bir örneğidir
+  - Liquid ve Elements farklı kod tabanlarına sahip iki rakip blok zinciri platformudur
+  - "Elements, Liquid Network'in blok doğrulamasına güç veren mutabakat mekanizmasıdır"
+explanation: |
+  Elements açık kaynaklı blockchain platform yazılımıdır, Liquid ise federe mutabakat modeliyle üretimde kullanılmak üzere yapılandırılmış Elements yan zincirinin özel bir uygulaması ya da 'örneğidir'. Elements'u altta yatan teknoloji çerçevesi, Liquid'yi ise bu çerçeve kullanılarak oluşturulmuş belirli bir ağ olarak düşünün. Bu, Bitcoin Core'un Bitcoin ağına güç sağlayan yazılım olmasına benzer - Elements, Liquid ve diğer özel yan zincirlere güç sağlayan yazılım motorudur.

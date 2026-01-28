@@ -1,4 +1,4 @@
-question: Je, ni kizingiti gani cha mfumuko wa bei kulingana na ufafanuzi wa Philip Cagan?
+question: Je, ni kizingiti kipi cha mfumuko wa bei kulingana na ufafanuzi wa Philip Cagan?
 answer: Mfumuko wa bei wa kila mwezi unazidi 50%
 wrong_answers:
   - Mfumuko wa bei wa kila mwezi unazidi 40%
@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Kulingana na ufafanuzi wa Philip Cagan, mfumuko wa bei huanza kila mwezi
   mfumuko wa bei unazidi 50%.
-reviewed: false
+reviewed: true

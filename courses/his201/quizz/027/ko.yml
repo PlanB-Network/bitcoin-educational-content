@@ -1,0 +1,9 @@
+question: 2009년 1월에 Bitcoin Genesis 블록에 포함된 영국 신문의 헤드라인은 어느 것입니까?
+answer: 더 타임즈
+wrong_answers:
+  - 가디언
+  - 인디펜던트
+  - 텔레그래프
+explanation: |
+  정확한 제목은 2009년 1월 3일자 The Times, '은행에 대한 두 번째 구제금융을 앞둔 총리'였습니다.
+reviewed: true

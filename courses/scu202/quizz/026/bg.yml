@@ -1,0 +1,9 @@
+question: Коя команда показва подробното съдържание на дадена папка, включително скритите файлове?
+answer: ls -lah
+wrong_answers:
+  - show-folder
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" показва файлове и папки в детайли, включително скрити файлове (започващи с точка).
+reviewed: false

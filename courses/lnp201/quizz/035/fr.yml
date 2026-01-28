@@ -6,4 +6,4 @@ wrong_answers:
   - Établir des connexions directes entre tous les nœuds du réseau avec leur confiance
 explanation: |
   Les HTLC (Hashed Time-Locked Contracts) permettent de garantir que chaque nœud intermédiaire transmettra le paiement sans garder les fonds, car il ne peut les débloquer qu'en complétant la transaction jusqu'au destinataire final.
-reviewed: false
+reviewed: true 

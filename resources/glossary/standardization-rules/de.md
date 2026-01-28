@@ -8,4 +8,4 @@ Es ist anzumerken, dass die Mehrheit der Nodes die Standardkonfigurationen, wie 
 
 Zum Beispiel ist eine Transaktion, die keine Gebühren zuweist, sowohl nach den Konsensregeln gültig als auch nicht standardmäßig, weil die Standardrichtlinie von Bitcoin Core für den Parameter "minRelayTxFee" "0,00001" (in BTC/kB) ist.
 
-> ► *Der Begriff "mempool rules" wird manchmal auch für die Standardisierungsregeln verwendet
+> ► *Der Begriff "mempool rules" wird manchmal auch für die Standardisierungsregeln verwendet*

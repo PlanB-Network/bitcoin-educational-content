@@ -1,0 +1,8 @@
+question: When generating signatures for a P2SH input during transaction construction, what script must be used in the sighash calculation process?
+answer: The redeem script must be used in place of the scriptPubKey
+wrong_answers:
+  - The original scriptPubKey containing the hash must be used directly
+  - A combination of both the scriptPubKey and redeem script must be used
+  - The ScriptSig containing the unlocking data must be used instead
+explanation: |
+  During P2SH signature generation, the sighash process requires using the redeem script in place of the scriptPubKey. This is crucial because the scriptPubKey only contains the hash of the redeem script, not the actual spending conditions. The redeem script contains the real logic (like multisig requirements) that determines how the output can be spent, so signatures must be generated against this underlying script to be valid. Using the scriptPubKey directly would fail because it only contains a hash comparison, not the actual spending conditions that need to be satisfied.

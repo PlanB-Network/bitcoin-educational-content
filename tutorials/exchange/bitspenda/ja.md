@@ -1,5 +1,5 @@
 ---
-name: ビットスペンダ
+name: BitSpenda
 description: Bitcoinをモバイルマネーに変換する最速の方法。
 ---
 
@@ -98,9 +98,9 @@ BitSpendaアプリケーションの最初のページで、ナイジェリア�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### ケニアのM-Pesa
 
@@ -182,10 +182,10 @@ BitSpendaを通じて、[Bitcoin Dua](https://www.bitcoindua.org/)は、アフ�
 
 
 
-- 秘密厳守**：プラットフォーム上でアカウントを作成する必要はなく、本人確認や個人情報を提供する必要もありません。
-- 自由**：どの国からでもBitSpendaを使ってガーナ、ナイジェリア、ケニアへの取引ができます。
-- スピード**：BitSpendaはLightning決済に依存することで、処理時間を短縮し、取引を瞬時に行うことができるようになりました。
-- 透明性**：BitSpendaで行われたすべての取引は、これらの取引の進捗を追跡し、追跡することを可能にするユニークな識別子に関連付けられています。また、これらの識別子を使用して[Xのアプリケーションサポート](https://x.com/bitspenda)に連絡することもできます。
+- **秘密厳守**：プラットフォーム上でアカウントを作成する必要はなく、本人確認や個人情報を提供する必要もありません。
+- **自由**：どの国からでもBitSpendaを使ってガーナ、ナイジェリア、ケニアへの取引ができます。
+- スピード：BitSpendaはLightning決済に依存することで、処理時間を短縮し、取引を瞬時に行うことができるようになりました。
+- **透明性**：BitSpendaで行われたすべての取引は、これらの取引の進捗を追跡し、追跡することを可能にするユニークな識別子に関連付けられています。また、これらの識別子を使用して[Xのアプリケーションサポート](https://x.com/bitspenda)に連絡することもできます。
 
 
 
@@ -197,4 +197,4 @@ BitSpendaのような取り組みやソリューションは、アフリカの�
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

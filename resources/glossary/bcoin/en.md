@@ -2,4 +2,4 @@
 term: BCOIN
 ---
 
-Alternative Bitcoin protocol implementation developed in JavaScript for Node.js. Unlike Bitcoin Core, which is the majority implementation of Bitcoin nodes (around 99% of the network), Bcoin is geared more towards the needs of enterprises and developers looking to integrate certain Bitcoin-related features into their systems. Bcoin includes a comprehensive set of libraries for integrating a full node, SPV node, HD wallet, indexer and other features.
+An alternative implementation of the Bitcoin protocol, developed in JavaScript for Node.js. Unlike Bitcoin Core, which is the predominant implementation for Bitcoin nodes (approximately 99% of the network), Bcoin is oriented more towards enterprises and developers who aim to integrate specific Bitcoin-related features into their systems. Bcoin provides a comprehensive set of libraries to implement a full node, a SPV node, a HD wallet, an indexer and other related features.

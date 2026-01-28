@@ -1,0 +1,11 @@
+question: Mining은 Bitcoin에 대해 무엇을 설정하나요?
+answer: 바닥 가격
+wrong_answers:
+  - 상한 가격
+  - 고정 가격
+  - 가변 가격
+explanation: |
+  Mining는 Bitcoin의 하한가를 설정하며, 그 이하로 내려가면
+  채굴자는 손해를 보고 판매하게 됩니다. Mining의 비용은
+  의 비용은 Bitcoin의 가격에 큰 영향을 미칩니다.
+reviewed: true

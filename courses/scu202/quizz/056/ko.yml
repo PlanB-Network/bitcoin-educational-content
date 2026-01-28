@@ -1,0 +1,9 @@
+question: 어떤 렌더링 엔진이 KHTML의 Fork에서 생성되어 Safari에 탑재되었나요?
+answer: WebKit
+wrong_answers:
+  - 트라이던트
+  - Gecko
+  - Blink
+explanation: |
+  WebKit은 2003년부터 Apple이 Safari용으로 채택하고 이후 많은 브라우저에서 채택한 KHTML의 Fork입니다.
+reviewed: false

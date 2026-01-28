@@ -1,0 +1,9 @@
+question: Umbrel에서 NWC 연결을 설정하려면 어떤 애플리케이션을 설치해야 하나요?
+answer: Alby Hub
+wrong_answers:
+  - NWC 커넥터
+  - ThunderHub
+  - 제우스 서버
+explanation: |
+  NWC 전용 Umbrel 애플리케이션을 더 이상 사용할 수 없으므로 이제 이 유형의 연결에는 Alby Hub을 사용해야 합니다.
+reviewed: false

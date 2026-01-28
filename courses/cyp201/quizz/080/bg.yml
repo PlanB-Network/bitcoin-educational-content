@@ -1,0 +1,9 @@
+question: Какво кодиране се използва за представяне на адресите SegWit v0?
+answer: bech32
+wrong_answers:
+  - база58чек
+  - bech32m
+  - base64
+explanation: |
+  Адресите на SegWit v0, като тези за P2WPKH и P2WSH, използват кодирането bech32, въведено с SegWit.
+reviewed: false

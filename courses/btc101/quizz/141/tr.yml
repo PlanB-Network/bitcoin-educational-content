@@ -1,11 +1,8 @@
-question: Raspberry Pi 4 üzerinde bir Bitcoin düğümü çalıştırmanın yıllık elektrik tüketimi açısından maliyeti nedir (2023 itibariyle)?
-answer: Yıllık 10€'dan biraz daha az.
+question: 2017'deki blok savaşının sonucu ne oldu?
+answer: Kullanıcılar ve düğümler blok boyutunu artırmak için önerilen değişikliği reddetti ve SegWit adlı bir güncellemeyi etkinleştirdi.
 wrong_answers:
-  - Yıllık 50 Avro'dan biraz daha fazla.
-  - Yıllık 100 Avro'dan biraz daha az.
-  - Yıllık yaklaşık 200 Avro.
-explanation: |
-  Raspberry Pi 4 üzerinde bir Bitcoin düğümü çalıştırmak biraz maliyetlidir
-  elektrik tüketimi açısından yılda 10 €'dan az
-  2023 itibariyle.
+  - Kullanıcılar ve düğümler blok boyutunu artırmak için önerilen değişikliği kabul etti ve SegWit adı verilen bir güncellemeyi etkinleştirdi.
+  - Kullanıcılar ve düğümler blok boyutunu artırmak için önerilen değişikliği reddetmiş ve herhangi bir güncellemeyi etkinleştirmemiştir.
+  - Kullanıcılar ve düğümler blok boyutunu artırmak için önerilen değişikliği kabul etmiş ve herhangi bir güncellemeyi etkinleştirmemiştir.
+explanation: >-
 reviewed: true

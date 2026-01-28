@@ -1,0 +1,9 @@
+question: Koja je razlika između Umbrel Home i umbrelOS?
+answer: Umbrel Home je unapred instalirani mini-server, umbrelOS je uradi-sam instalacija
+wrong_answers:
+  - Umbrel Home je besplatan, umbrelOS nije
+  - Umbrel Home ne podržava Bitcoin; umbrelOS to čini
+  - Umbrel Home je otvorenog koda, umbrelOS je vlasnički
+explanation: |
+  Umbrel Home se prodaje kao gotov proizvod sa već instaliranim umbrelOS-om, dok se umbrelOS može instalirati samostalno na vašem hardveru.
+reviewed: true

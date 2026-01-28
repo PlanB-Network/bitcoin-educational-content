@@ -1,12 +1,8 @@
-question: 使用者如何在 Bitcoin 網路中轉帳 Ownership？
-answer: 透過使用私人金鑰對交易進行數位簽章。
+question: 考慮到每 10 分鐘 1 個 1MB 的區塊，執行 Bitcoin 節點的頻寬需求是多少？
+answer: 每月約 5GB。
 wrong_answers:
-  - 透過實際交出他們的比特幣。
-  - 透過傳送電子郵件給收件人。
-  - 透過提供他們的 Bitcoin Address 給接收者。
-explanation: |
-  Bitcoin 網路中的使用者透過以私人密碼進行數位簽章交易的方式，轉移其 Ownership
-  的數位簽章交易。
-  鑰匙簽署交易。這可以驗證他們是要轉移的比特幣的擁有者。
-  比特幣的擁有者。
+  - 每月約 1GB。
+  - 每月約 10GB。
+  - 每月約 20GB。
+explanation: >-
 reviewed: true

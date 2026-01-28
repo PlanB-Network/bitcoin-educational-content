@@ -1,0 +1,9 @@
+question: چه زمانی یک کاربر باید یک ایندکسر نصب کند؟
+answer: برای اجرای Block explorer
+wrong_answers:
+  - برای Mining بلوک‌ها خود را مسدود می‌کند
+  - برای فعال‌سازی Lightning Network
+  - برای امضای تراکنش‌ها
+explanation: |
+  یک ایندکسر برای استفاده‌های پیشرفته، مانند یک کاوشگر محلی، ضروری می‌شود.
+reviewed: true

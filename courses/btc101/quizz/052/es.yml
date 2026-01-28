@@ -1,10 +1,9 @@
-question: ¿Cuál es el impacto de una inflación del 20% en el poder adquisitivo a lo largo de 3 años?
-answer: Pierdes el 50% de tu poder adquisitivo.
+question: ¿Cuál de las siguientes no es una característica de Bitcoin?
+answer: Se censura fácilmente.
 wrong_answers:
-  - Pierdes el 100% de tu poder adquisitivo.
-  - Pierdes el 60% de tu poder adquisitivo.
-  - Pierdes el 30% de tu poder adquisitivo.
+  - Es instantáneamente transportable.
+  - Tiene costos de verificación insignificantes.
+  - Tiene una política monetaria fija.
 explanation: |
-  Con una inflación del 20%, pierdes casi la mitad de tu poder
-  adquisitivo en 3 años.
+  Bitcoin posee todas las características necesarias para ser una moneda eficiente y saludable: divisible, instantáneamente transportable, incensurable, con un costo de verificación insignificante y con una política monetaria ya establecida para los próximos siglos con 21 millones de unidades.
 reviewed: true

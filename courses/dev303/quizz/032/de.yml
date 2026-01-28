@@ -1,0 +1,8 @@
+question: Was ist der Hauptunterschied zwischen behebbaren und nicht behebbaren Fehlern im Fehlerbehandlungssystem von Rust?
+answer: Behebbare Fehler können so gehandhabt werden, dass Programme fortgesetzt werden können, während nicht behebbare Fehler das Programm beenden
+wrong_answers:
+  - Bei behebbaren Fehlern wird das Makro panic! verwendet, während bei nicht behebbaren Fehlern die Aufzählung Result für eine angemessene Fehlerverwaltung verwendet wird
+  - Behebbare Fehler treten zur Kompilierzeit auf, während nicht behebbare Fehler nur während der Programmausführung auftreten
+  - Behebbare Fehler erfordern das Abwickeln des Stacks, während nicht behebbare Fehler vom aufrufenden Code ignoriert werden können
+explanation: |
+  Rust kategorisiert Fehler danach, ob sich Programme vernünftigerweise von ihnen erholen können. Wiederherstellbare Fehler sind erwartete Fehlerzustände wie fehlende Dateien oder Netzwerkprobleme, die Programme mit Hilfe von Ergebnistypen sicher behandeln können, so dass die Ausführung mit einer geeigneten Fehlerbehandlung fortgesetzt werden kann. Nicht behebbare Fehler weisen auf grundlegende Probleme wie Verletzungen der Speichersicherheit oder Logikfehler hin, bei denen das Programm nicht sicher fortgesetzt werden kann, was Panics auslöst, die die Ausführung beenden, um weitere Beschädigungen zu verhindern.

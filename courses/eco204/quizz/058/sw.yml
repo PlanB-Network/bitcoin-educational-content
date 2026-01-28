@@ -1,4 +1,4 @@
-question: Ni kipengele gani cha kipekee cha noti za ahadi zilizoletwa katika Antwerp Stock Exchange katika karne ya 16?
+question: Ni kipengele kipi cha kipekee cha noti za ahadi zilizoletwa katika Antwerp Stock Exchange katika karne ya 16?
 answer: Walibeba majina na tarehe za ukomavu
 wrong_answers:
   - Zilitengenezwa kwa dhahabu
@@ -9,4 +9,4 @@ explanation: |
   na tarehe za kukomaa. Hii iliwafanya kuwa vigumu kwa Exchange kabla ya tarehe ya kukamilisha. Hata hivyo,
   Exchange ilianzisha utaratibu wa kupunguza noti hizi kabla ya malipo yao
   tarehe, kuwafanya zaidi Liquid na kuanzisha dhana ya thamani ya muda wa fedha.
-reviewed: false
+reviewed: true

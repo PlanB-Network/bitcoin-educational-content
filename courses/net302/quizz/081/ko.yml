@@ -1,0 +1,9 @@
+question: 실시간 분석을 위해 네트워크 트래픽을 캡처하는 명령줄 도구는 무엇인가요?
+answer: tcpdump
+wrong_answers:
+  - dig
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump는 분석을 위해 네트워크 Interface에서 순환하는 패킷을 캡처하고 기록합니다.
+reviewed: false

@@ -1,10 +1,11 @@
-question: Ni nini athari ya mfumuko wa bei wa 2% kwenye nguvu ya ununuzi kwa miaka 5?
-answer: Unapoteza 10% ya uwezo wako wa kununua.
+question: Nini kilifanyika kwa dola ya Zimbabwe mwezi Aprili 2009?
+answer: Waziri wa Fedha alitangaza kusimamishwa kwa dola ya Zimbabwe na kuidhinisha matumizi ya sarafu tofauti za kigeni kwa biashara.
 wrong_answers:
-  - Unapoteza 2% ya uwezo wako wa kununua.
-  - Unapoteza 5% ya uwezo wako wa kununua.
-  - Unapoteza 20% ya uwezo wako wa kununua.
+  - Dola ya Zimbabwe iliporomoka kwa zaidi ya 72%.
+  - Serikali ilikubali kuwafidia maveterani wa vita kwa kiasi sawa na dola milioni 450 za Marekani.
+  - Ilibidi serikali iamue kuendesha mashine ya uchapishaji.
 explanation: |
-  Kwa mfumuko wa bei wa 2%, unapoteza 2% ya uwezo wako wa kununua
-  kila mwaka, ambayo ni sawa na 10% zaidi ya miaka 5.
+  Mnamo Aprili 2009, Waziri wa Fedha alitangaza
+  kusimamishwa kwa dola ya Zimbabwe na kuidhinisha matumizi
+  ya fedha mbalimbali za kigeni kwa ajili ya biashara.
 reviewed: true

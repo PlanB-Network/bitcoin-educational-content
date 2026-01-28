@@ -23,7 +23,7 @@ Questi dispositivi sono commercializzati come riscaldatori ausiliari, nel caso d
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Si noti che la differenza di prezzo con i riscaldatori tradizionali di potenza equivalente non consente, nella stragrande maggioranza dei casi, di ottenere un profitto finanziario. I satoshi generati dall'attività del Mining non compenseranno mai questa differenza di prezzo, a meno che non si abbia accesso a elettricità gratuita (in eccesso) o molto economica.
 
@@ -122,22 +122,23 @@ Di seguito viene riportata una tabella riassuntiva delle specifiche tecniche gen
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Caratteristica                                      | Valore                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Consumo di energia                              | 800 W                                                     |
+| Rumore                                                | 35-55 dB                                                  |
+| Temperatura aria in uscita                       | 60-70°C (a temperatura ambiente 25°C)                  |
+| Requisiti di temperatura ambiente per l'uso | -5° C - 40°C                                              |
+| Intervallo di tensione di ingresso del dispositivo                         | 110V-240V AC 50/60Hz                                      |
+| Dimensioni della macchina                                 | Lunghezza: 760 mm / Profondità: 104 mm / Altezza: 214.5 mm |
+| Peso della macchina                                  |  8.35 kg                                                  |
 
 ## Collegamento a un Mining pool
 
 
 
-**Questa parte è comune ai dispositivi Nano 3 e Mini 3, in quanto i processi sono strettamente identici
+**Questa parte è comune ai dispositivi Nano 3 e Mini 3, in quanto i processi sono strettamente identici**
 
 
 
@@ -181,9 +182,9 @@ Per maggiori dettagli su come collegarsi a un Mining pool, consultare queste ese
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Per riassumere, abbiamo bisogno di
 
@@ -358,4 +359,4 @@ Per saperne di più, date un'occhiata al nostro tutorial sulla versione più pic
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

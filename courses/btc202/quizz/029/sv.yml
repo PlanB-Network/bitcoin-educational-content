@@ -1,0 +1,9 @@
+question: Vad är det viktigaste kännetecknet för en Full node?
+answer: Den laddar ner och validerar hela Blockchain
+wrong_answers:
+  - Den behåller endast blockhuvudet
+  - Den raderar gamla block efter verifiering
+  - Den är beroende av en annan nod för att validera transaktioner
+explanation: |
+  Full node behåller hela Blockchain och validerar varje block och transaktion oberoende av varandra.
+reviewed: true

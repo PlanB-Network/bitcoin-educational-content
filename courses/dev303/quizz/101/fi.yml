@@ -1,0 +1,8 @@
+question: Mikä LDK:n tapahtumapohjaisen arkkitehtuurin erityispiirre mahdollistaa sen, että sovellukset pystyvät erottamaan Lightning-protokollan logiikan ja sovelluskohtaiset vastaukset toisistaan?
+answer: Kaikista merkittävistä toiminnoista ja tilamuutoksista annetaan asynkronisia ilmoituksia, mikä mahdollistaa omien tapahtumankäsittelijöiden toteuttamisen itsenäisesti
+wrong_answers:
+  - Synkroniset takaisinkutsut käynnistetään suoraan kanavahallinnassa, mikä edellyttää välitöntä vastausta protokollan vaatimustenmukaisuuden säilyttämiseksi
+  - Tapahtumakäsittelijät luodaan automaattisesti sovelluksen kokoonpanon perusteella, jolloin ei tarvita mukautettua toteutuslogiikkaa
+  - Kaikki tapahtumat asetetaan jonoon keskitettyyn puskuriin ja käsitellään peräkkäin sovelluksen deterministisen käyttäytymisen varmistamiseksi
+explanation: |
+  LDK:n tapahtumajärjestelmä tarjoaa asynkronisia ilmoituksia kaikista Lightning-toiminnoista, kuten vertaisverkkoyhteyksistä, maksuista ja kanavamuutoksista. Näin kehittäjät voivat toteuttaa mukautettuja tapahtumankäsittelijöitä, jotka reagoivat asianmukaisesti, ja samalla säilyttää LDK:n ydintoiminnallisuuden ja sovelluslogiikan välisen puhtaan erottelun. Muut vaihtoehdot ovat virheellisiä, koska LDK ei käytä synkronisia takaisinkutsuja, jotka estävät protokollatoimintoja, ei automaattisia generate-käsittelijöitä eikä pakota tapahtumien peräkkäistä käsittelyä.

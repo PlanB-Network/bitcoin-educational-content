@@ -1,0 +1,9 @@
+question: Welche Datenbank hält eine Bitcoin Node lokal vor, um nicht verbrauchte Ausgaben zu verfolgen?
+answer: Das UTXO-Set
+wrong_answers:
+  - Den Mempool
+  - Die Blockchain
+  - Die Geschichte der Wallet
+explanation: |
+  Die Node behält das UTXO-Set, d. h. die Menge der nicht verbrauchten Ausgaben, die für künftige Transaktionen zur Verfügung stehen.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaká je hlavní charakteristika modelu Full node?
+answer: Stáhne a ověří celý soubor Blockchain
+wrong_answers:
+  - Zachovává pouze záhlaví bloku
+  - Po ověření odstraní staré bloky
+  - Při ověřování transakcí závisí na jiném uzlu
+explanation: |
+  Systém Full node uchovává celý systém Blockchain a ověřuje každý blok a transakci nezávisle.
+reviewed: true

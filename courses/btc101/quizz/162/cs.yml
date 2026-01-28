@@ -1,9 +1,12 @@
-question: Jaká je role těžařů v protokolu Bitcoinu?
-answer: Zajišťují bezpečnost současné i historické sítě.
+question: Jak Bitcoinový protokol odměňuje horníka, který najde platný hash pro následující blok?
+answer: Odměnou definovanou pravidly konsensu a poplatky ze všech transakcí zahrnutých v platném bloku.
 wrong_answers:
-  - Regulují cenu Bitcoinu.
-  - Kontrolují nabídku Bitcoinu.
-  - Spravují transakce mezi uživateli.
+  - Pevným množstvím bitcoinů, které není definováno pravidly konsensu.
+  - Procentem z celkového množství Bitcoinu a poplatky ze všech transakcí zahrnutých v předchozích blocích.
+  - Poplatky ze všech transakcí zahrnutých v platném bloku.
 explanation: |
-  Těžaři v protokolu Bitcoinu zajišťují bezpečnost jak současné, tak historické sítě. Neregulují cenu Bitcoinu, nekontrolují jeho nabídku ani nespravují transakce mezi uživateli.
+  Bitcoinový protokol odměňuje horníka, který najde platný
+  hash pro následující blok, odměnou, jejíž výše je
+  definována pravidly konsensu, společně s poplatky ze
+  všech transakcí zahrnutých v platném bloku.
 reviewed: true

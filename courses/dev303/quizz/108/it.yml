@@ -1,0 +1,8 @@
+question: Quale caratteristica fondamentale della filosofia di progettazione dei componenti di LDK lo differenzia dalle implementazioni monolitiche dei nodi Lightning come CLightning o LND?
+answer: Ogni componente fornisce implementazioni predefinite che possono essere sostituite individualmente con soluzioni personalizzate, mantenendo la conformità al protocollo
+wrong_answers:
+  - Tutti i componenti devono essere implementati da zero dagli sviluppatori, senza implementazioni predefinite fornite dalla libreria
+  - I componenti sono permanentemente bloccati insieme e non possono essere modificati una volta integrati nell'architettura di un'applicazione
+  - La libreria richiede che tutti i componenti utilizzino linguaggi di programmazione identici e non può supportare binding linguistici multipiattaforma
+explanation: |
+  La filosofia di base di LDK consiste nel fornire componenti modulari con implementazioni predefinite funzionanti che gli sviluppatori possono sostituire selettivamente quando necessario. Ciò consente la personalizzazione di funzionalità specifiche (come il monitoraggio della blockchain o la firma delle transazioni) mantenendo invariati gli altri componenti. Le risposte sbagliate travisano l'approccio di LDK: fornisce dei default invece di richiedere tutto da zero, permette di sostituire i componenti invece di bloccarli insieme e supporta diversi linguaggi di programmazione attraverso il suo sistema di binding.

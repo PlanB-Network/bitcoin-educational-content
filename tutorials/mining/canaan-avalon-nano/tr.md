@@ -23,7 +23,7 @@ Bu cihazlar, **Avalon Nano 3S (140W)** örneğinde olduğu gibi yardımcı ısı
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Lütfen eşdeğer güce sahip geleneksel ısıtıcılarla aradaki fiyat farkının, çoğu durumda finansal bir kâr elde etmenize izin vermediğini unutmayın. Bedava (ihtiyaç fazlası) veya çok ucuz elektriğe erişiminiz olmadığı sürece, Mining'un faaliyeti ile üretilen satoshiler bu fiyat farkını asla telafi etmeyecektir.
 
@@ -75,17 +75,18 @@ Aşağıda Nano 3S'in genel teknik özelliklerini özetleyen bir tablo yer almak
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Özellik                                      | Değer                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hash Hızı                                      | 6 Th/s +- 5%                                            |
+| Güç Tüketimi                               | 140 W                                                   |
+| Gürültü                                                | 30 - 40 dB                                              |
+| Çıkış Hava Sıcaklığı Aralığı                 | 60-70°C (ortam sıcaklığında 25°C)                |
+| Kullanım için Ortam Sıcaklığı Gereksinimleri | -5 ile 30°C                                            |
+| Cihaz Giriş Voltajı Aralığı                         | 28V 5A sürekli                                          |
+| Adaptör Giriş Voltajı Aralığı                       | 110-240V AC 50/60Hz                                     |
+| Cihaz Boyutu                                 | Uzunluk: 205 mm / Genişlik: 115 mm / Yükseklik: 58.5 mm |
+| Cihaz Ağırlığı                                  | 0.86 kg                                                 |
 
 ## Gücü açma ve yerel ağa bağlanma
 
@@ -207,9 +208,9 @@ Bir Mining pool'e nasıl bağlanılacağı hakkında daha fazla ayrıntı için 
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Özetlemek gerekirse, şunlara ihtiyacımız var
 
@@ -358,4 +359,4 @@ Daha fazla bilgi edinmek için Avalon'un bir üst versiyonu olan Mini 3 hakkınd
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

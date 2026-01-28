@@ -1,9 +1,9 @@
-question: 秘密鍵を公開せずにWalletを監視できるツールは？
-answer: Watch-only wallet
+question: 秘密鍵を公開せずにウォレットを監視できるツールは？
+answer: ウォッチオンリー・ウォレット
 wrong_answers:
-  - Hot Wallet
-  - ライトニング Wallet
-  - カストーディアル Wallet
+  - ホットウォレット
+  - ライトニング・ウォレット
+  - カストディアル・ウォレット
 explanation: |
-  Watch-only walletは、残高と取引を表示するために公開鍵のみを使用し、秘密鍵が漏洩するリスクはない。
+  ウォッチオンリー・ウォレットは、残高とトランザクションを表示するために公開鍵のみを使用し、秘密鍵が漏洩するリスクはない。
 reviewed: false

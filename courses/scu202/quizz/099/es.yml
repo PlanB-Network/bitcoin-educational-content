@@ -6,4 +6,4 @@ wrong_answers:
   - SRS rápido
 explanation: |
   WPA3 es el protocolo más reciente y seguro, que corrige los fallos de las versiones anteriores y ofrece mayor protección contra los ataques.
-reviewed: false
+reviewed: true

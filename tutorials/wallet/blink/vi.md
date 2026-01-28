@@ -1,5 +1,5 @@
 ---
-name: Nháy mắt
+name: Blink
 description: Hướng dẫn đầy đủ về Blink Wallet - Gửi, Nhận và Sử dụng Bitcoin một cách Dễ dàng
 ---
 

@@ -1,0 +1,8 @@
+question: Varför uppvisar äldre Bitcoin-transaktionsvalidering kvadratisk tidskomplexitet med avseende på antalet inmatningar?
+answer: Varje inmatning kräver sin egen sighash-beräkning över en struktur som innehåller alla inmatningar i transaktionen
+wrong_answers:
+  - Varje inmatning måste verifiera signaturer mot alla andra inmatningar för att förhindra double-spending inom transaktionen
+  - Den stackbaserade exekveringsmodellen kräver nästlade loopar för att bearbeta opkoder för varje kombination av indata
+  - "Varje ingångs ScriptSig måste valideras mot varje utgångs ScriptPubKey för att hitta rätt matchning"
+explanation: |
+  Den äldre Bitcoin-valideringen skapar kvadratisk komplexitet eftersom varje indata behöver sin egen sighash-beräkning, men varje beräkning bearbetar en transaktionsstruktur som innehåller alla indata. Med n indata skapar detta n×n operationer. SegWit löste detta genom att cachelagra delade delar av sighash-beräkningen, vilket minskade komplexiteten till linjär tid och förhindrade potentiella överbelastningsattacker från stora transaktioner med flera indata.

@@ -1,0 +1,9 @@
+question: Bitcoin에서 UTXO를 잠그는 데 사용되는 키의 유형은 무엇인가요?
+answer: 공개 키
+wrong_answers:
+  - 개인 키
+  - seed Hash
+  - Mnemonic 문구
+explanation: |
+  UTXO는 공개 키 또는 Hash로 잠그고 해당 개인 키로 잠금을 해제합니다.
+reviewed: false

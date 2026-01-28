@@ -1,12 +1,8 @@
-question: Ni mu mwaka uwuhe bivugwa ko uguhingura ama bitcoins bizohagarara?
-answer: 2140
+question: Urufunguzo rw’ibanga ruri muri Bitcoin Wallet ni uruhe?
+answer: Urufunguzo rw’ibanga rugufasha gusinya amafaranga yawe.
 wrong_answers:
-  - 2050
-  - 2030
-  - 2200
-explanation: |
-  Kubera uburyo bwa Halving, bishobora kuba mu mibare
-  yaravuze ko uguhingura ama bitcoins bizohagarara muri 2140, 2014.
-  iyo umubare wose w’ama bitcoins ushitse ku rugero rwawo rwa 21 .
-  miliyoni.
+  - Urufunguzo rwa bose rukoreshwa ku ma aderesi ya generate Bitcoin.
+  - Urutonde rw’ibanga rw’amajambo yo gusenyura Wallet iyo bikenewe.
+  - Urufunguzo rw’ibanga rwo gupfuka amafaranga y’i Bitcoin.
+explanation: >-
 reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Pour spécifier un serveur DNS
 explanation: |
   L’option -u de lsof permet de limiter la sortie aux fichiers ouverts par un utilisateur donné ou un UID spécifique.
-reviewed: false
+reviewed: true 

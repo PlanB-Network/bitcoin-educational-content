@@ -2,8 +2,8 @@ question: Welche Vorrichtung wird empfohlen, um langfristig angesammelte Gelder 
 answer: Hardware Wallet
 wrong_answers:
   - Hot Wallet
-  - Blitzschlag Wallet
+  - Lightning Wallet
   - Exchange-Plattform
 explanation: |
-  Ein Hardware Wallet speichert private Schlüssel offline und bietet damit langfristig eine erhöhte Sicherheit für erhebliche Beträge.
+  Ein Hardware Wallet speichert private Schlüssel offline und bietet damit langfristig eine erhöhte Sicherheit für grössere Beträge.
 reviewed: false

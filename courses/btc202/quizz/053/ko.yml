@@ -1,0 +1,9 @@
+question: txid로 트랜잭션을 찾기 위해 Bitcoin core에서 활성화할 수 있는 선택적 인덱스는 무엇인가요?
+answer: txindex
+wrong_answers:
+  - addrindex
+  - 블록 인덱스
+  - 일렉트럼 인덱스
+explanation: |
+  Txindex=1 옵션은 트랜잭션의 고유 식별자(txid)로 트랜잭션을 쿼리하는 데 사용됩니다.
+reviewed: true

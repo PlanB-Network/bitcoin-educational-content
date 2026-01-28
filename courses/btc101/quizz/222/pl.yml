@@ -1,8 +1,9 @@
-question: Na czym polega problem skalowalności Bitcoin?
-answer: Wyzwanie związane z wdrożeniem systemu monetarnego zdolnego do zapewnienia coraz większej liczby transakcji na sekundę w miarę jego przyjmowania.
+question: Jaka jest centralna zasada RGB?
+answer: Walidacja po stronie klienta
 wrong_answers:
-  - Trudność Mining nowych Bitcoinów o rosnącej wartości w czasie.
-  - Zmienność ceny Bitcoin, która wzrośnie po każdym Halving.
-  - Brak regulacji dla Bitcoin, który sprawi, że transakcje będą nielegalne.
-explanation: >-
-reviewed: true
+  - Globalne wykonanie na blockchainie
+  - Konsensus federacyjny
+  - Proof-of-Work
+explanation: |
+  RGB opiera się na lokalnej walidacji stanów, a blockchain służy jedynie jako kryptograficzne zakotwiczenie i ochrona przed podwójnym wydatkowaniem.
+reviewed: false

@@ -1,10 +1,11 @@
-question: 第一筆 Bitcoin 交易記錄是什麼？
-answer: Satoshi Nakamoto 與 Hal Finney 之間的 10 BTC 交易。
+question: 第一筆 Bitcoin 交易的區塊號碼是多少？
+answer: 區塊 170.
 wrong_answers:
-  - 交易 10,000 BTC 購買 2 個披薩。
-  - Satoshi Nakamoto 與 Hal Finney 之間的 1 BTC 交易。
-  - Laszlo Hanyecz 和 Hal Finney 之間的 10,000 BTC 交易。
+  - 區塊 1.
+  - 區塊 17.
+  - 區塊 1700.
 explanation: |
-  記錄的第一筆 Bitcoin 交易是
-  Satoshi Nakamoto 和 Hal Finney 之間的 10 BTC 交易。
+  第一筆 Bitcoin 交易，也就是
+  是 Satoshi Nakamoto 和 Hal Finney 之間的 10 BTC 交易，記錄在
+  在區塊 170 中。
 reviewed: true

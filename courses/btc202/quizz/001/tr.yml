@@ -1,0 +1,9 @@
+question: Bir Bitcoin uygulaması çalıştıran ve birbirine bağlı makineler kümesine ne ad veriyoruz?
+answer: Bitcoin ağı
+wrong_answers:
+  - Bitcoin protokolü
+  - Bitcoin para birimi
+  - Blockchain Bitcoin
+explanation: |
+  Bitcoin ağı, her biri protokolün farklı bir uygulamasını çalıştıran tüm bağlı düğümlerden oluşur.
+reviewed: true

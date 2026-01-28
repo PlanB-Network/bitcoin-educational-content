@@ -4,6 +4,6 @@ wrong_answers:
   - Kaspersky
   - Norton
   - McAfee
-explanation: |
+explanation: 
   Windows Defender, Windows için yerleşik bir antivirüs programıdır. Sistemi tehditlerden korumak için güvenli ve etkili bir çözümdür.
 reviewed: true

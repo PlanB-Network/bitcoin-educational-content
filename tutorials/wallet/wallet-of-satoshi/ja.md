@@ -1,8 +1,14 @@
 ---
-name: SatoshiのWallet
+name: Wallet of Satoshi
 description: 最もシンプルなカストーディアルWallet
 ---
 ![cover](assets/cover.webp)
+
+---
+
+*注意: 2026年の初め以降、このチュートリアルで紹介されているカストディアルモードのWallet of Satoshiは、欧州連合内では利用できなくなりました。この地域に居住しており、引き続きこのツールを使用したい場合は、EU خارجに設置されたVPNを使用する必要があります。別の選択肢として、Wallet of Satoshiをセルフカストディアルモードで使用する方法があります。専用のチュートリアルは近日中にPlan ₿ Academyで公開される予定です。*
+
+---
 
 このチュートリアルを書いたのは_ [Bitcoinキャンパス](https://linktr.ee/bitcoincampus_)
 
@@ -12,10 +18,10 @@ description: 最もシンプルなカストーディアルWallet
 
 SatoshiのWalletは、Lightning NetworkのWallet、カストーディアル、そして非常にシンプルな使い方。
 
-BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)のコースでは、Redeem Lightning Networkのバウチャーに使用されます。
+BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)のコースでは、Redeem Lightning Networkのバウチャーに使用されます。
 
 
-**いつも忘れないでください：鍵でもコインでもない。
+**いつも忘れないでください：鍵でもコインでもない。**
 
 
 カストディアル・ウォレットは、ユーザーが資金を完全にコントロールすることはできません。初心者を除き、通常は推奨されません。WoSは長期的な資金蓄積のためではなく、過渡的なWalletとして、またはポケットマネーを保持するために使用されるべきです。
@@ -26,7 +32,7 @@ BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f
 SatoshiのWallet（WoS）はカストディ商品だが、一定の評価を受けている。私たちは、たとえば流動性を受け取る能力を高めるために、WoSのようなツールを利用することが合理的にできる。私たちはWoSに、チャンネルの流動性を管理するという「汚れ仕事」を一時的に委任する。一定量に達したら、WoSのOn-Chainを我々の非保管Walletに空ける。
 
 
-**警告⚠️：先に進む前にチュートリアル全体を読むことをお勧めします。
+**警告⚠️：先に進む前にチュートリアル全体を読むことをお勧めします。**
 
 
 ### SatoshiのWalletをダウンロード
@@ -38,7 +44,7 @@ Playストアにアクセスし、WoSをダウンロードする。
 ![image](assets/it/01.webp)
 
 
-**WoSは公式ストアからのみダウンロード可能です。デバイスのOSがプログラムされている場合、WoSを開く前にOS自身による検証部分があります。確認の後、「開く」を選択してください。
+**WoSは公式ストアからのみダウンロード可能です。デバイスのOSがプログラムされている場合、WoSを開く前にOS自身による検証部分があります。確認の後、「開く」を選択してください。**
 
 
 ![image](assets/it/02.webp)
@@ -64,7 +70,7 @@ SatoshiのWalletが以下の画面で開くので、_Start_をクリックする
 
 WoSは管理ツールであるため、WalletをMnemonicのフレーズでバックアップすることはできませんが、モバイルデバイスの紛失や不使用の場合、_ログイン/登録_をクリックすることで、WoSが資金を回収できるようになります。
 
-電子メール Address を入力するウィンドウが表示されます。プロトンメール**（推奨）でも構いませんが、携帯電話の紛失・盗難・破損の際にWallet内の資金を回収できるよう、機能的なものでなければなりません。
+電子メール Address を入力するウィンドウが表示されます。プロトンメール**（推奨）**でも構いませんが、携帯電話の紛失・盗難・破損の際にWallet内の資金を回収できるよう、機能的なものでなければなりません。
 
 
 ![image](assets/it/08.webp)

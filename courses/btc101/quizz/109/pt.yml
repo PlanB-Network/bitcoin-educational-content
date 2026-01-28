@@ -1,11 +1,10 @@
-question: Qual é a importância da responsabilidade individual no Bitcoin?
-answer: É crucial porque você é responsável pelos backups.
+question: Qual foi a primeira transação de Bitcoin registrada?
+answer: Uma transação de 10 BTC entre Satoshi Nakamoto e Hal Finney.
 wrong_answers:
-  - É essencial porque você tem que minerar bitcoins.
-  - É essencial comprar bitcoins.
-  - É crucial porque você é responsável pelo tema da carteira.
+  - Uma transação de 10.000 BTC por 2 pizzas.
+  - Uma transação de 1 BTC entre Satoshi Nakamoto e Hal Finney.
+  - Uma transação de 10.000 BTC entre Laszlo Hanyecz e Hal Finney.
 explanation: |
-  No Bitcoin, a soberania financeira anda de mãos dadas com
-  a responsabilidade individual, pois você deve ter a custódia
-  dos seus fundos seguindo os procedimentos recomendados de backup.
+  A primeira transação de Bitcoin registrada foi uma transação de
+  10 BTC entre Satoshi Nakamoto e Hal Finney.
 reviewed: true

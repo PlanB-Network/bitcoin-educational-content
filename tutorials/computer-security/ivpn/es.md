@@ -109,8 +109,8 @@ En el menú "*AntiTracker*", selecciona el perfil de bloqueo para tu anti-rastre
 ![IVPN](assets/notext/32.webp)
 Y ahí lo tienes, ahora estás equipado para disfrutar plenamente de IVPN. Si también quieres mejorar la seguridad de tus cuentas en línea usando un gestor de contraseñas local, te invitamos a consultar nuestro tutorial sobre KeePass, una solución gratuita y de código abierto:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Si estás interesado en descubrir otro proveedor de VPN similar a IVPN, tanto en términos de características como de precios, también te recomendamos consultar nuestro tutorial sobre Mullvad:
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

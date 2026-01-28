@@ -6,4 +6,4 @@ wrong_answers:
   - Communiquer directement avec tous les nœuds intermédiaires
 explanation: |
   Le nœud émetteur est responsable de calculer la route entière jusqu'au destinataire, car les nœuds intermédiaires ne connaissent que leur voisin immédiat.
-reviewed: false
+reviewed: true 

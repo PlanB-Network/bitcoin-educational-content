@@ -1,0 +1,8 @@
+question: Milline konkreetne krüptograafiline element võimaldab Lightning Send allveevahetuse puhul vahetustehingu pakkujal pärast Lightning-arve tasumist nõuda lukustatud Liquid vahendeid?
+answer: Lightning-makse eelkujutis on krüptograafiline võti, mis vabastab hoiustatud Liquid vahendid
+wrong_answers:
+  - Algse Liquid lukustamistehingu käigus loodud hash-ajalukuga lepingu allkiri annab ligipääsu
+  - WebSocket-ühenduse metaandmed sisaldavad avamisvõtit, mis lubab fondi vabastamist teenusepakkujale
+  - "Vahetuslepingu pakkuja privaatne võti avab raha automaatselt, kui Lightning-makse kinnitus on saadud"
+explanation: |
+  Makse eelpilt on krüptograafiline kviitung, mis tõestab, et Lightning-makse on edukalt sooritatud. Allveelaevavahetuslepingute puhul toimib see eelpilt kui avamisvõti hoiustatud Liquid vahendite jaoks, tagades aatomiilisuse - vahetuslepingu pakkuja saab nõuda Liquid vahendeid ainult siis, kui ta on Lightning-arve tegelikult tasunud. Teised võimalused kirjeldavad kas üldisi krüptograafilisi elemente, mis ei anna vajalikku konkreetset maksetõendit, või ebaõigeid mehhanisme, mis kahjustaksid aatomivahetuse usaldamatust.

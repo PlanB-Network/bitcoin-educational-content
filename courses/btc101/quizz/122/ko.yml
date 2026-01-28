@@ -1,0 +1,8 @@
+question: Bitcoin Blockchain이란 무엇인가요?
+answer: 모든 Bitcoin 트랜잭션의 공개적이고 불변하는 Ledger입니다.
+wrong_answers:
+  - 모든 Bitcoin 트랜잭션의 비공개 및 변경 가능한 Ledger입니다.
+  - 모든 Bitcoin 트랜잭션의 공개 및 변경 가능한 Ledger입니다.
+  - 모든 Bitcoin 트랜잭션의 비공개 및 변경 불가능한 Ledger입니다.
+explanation: >-
+reviewed: true

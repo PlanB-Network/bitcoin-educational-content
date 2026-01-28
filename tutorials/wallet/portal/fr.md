@@ -6,7 +6,7 @@ description: Configurer et utiliser le hardware wallet Portal de TwentyTwo-Devic
 
 Le Portal est un hardware wallet Bitcoin conçu par TwentyTwo Devices, une entreprise spécialisée dans la création de hardware wallet open-source pour les bitcoiners. Fondée par Alekos Filini, créateur du projet Magical Bitcoin ([dorénavant nommé BDK](https://github.com/bitcoindevkit)) et ayant travaillé pour Blockstream et BHB Network, TwentyTwo Devices souhaite mettre l’accent sur l’autonomie, la simplicité et la sécurité des utilisateurs.
 
-Portal se distingue des autres hardware wallets sur le marché par son intégration native aux smartphones. Il fonctionne sans câble, ni batterie. Il utilise la technologie NFC pour s’alimenter et communiquer avec n’importe le portefeuille mobile compatible. Son design intrigant est pensé pour une utilisation ergonomique. La partie ronde vient se placer à l'arrière du smartphone pour laisser dépasser un écran permettant de vérifier les détails de vos transactions avant de les signer avec le bouton dédié.
+Portal se distingue des autres hardware wallets sur le marché par son intégration native aux smartphones. Il fonctionne sans câble, ni batterie. Il utilise la technologie NFC pour s’alimenter et communiquer avec n’importe quel portefeuille mobile compatible. Son design intrigant est pensé pour une utilisation ergonomique. La partie ronde vient se placer à l'arrière du smartphone pour laisser dépasser un écran permettant de vérifier les détails de vos transactions avant de les signer avec le bouton dédié.
 
 ![Image](assets/fr/01.webp)
 
@@ -66,7 +66,7 @@ Vous pouvez l'inscrire sur un morceau de papier, ou bien pour plus de sécurité
 
 Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer votre phrase mnémonique, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 _**Évidemment, vous ne devez jamais partager ces mots sur internet, contrairement à ce que je fais dans ce tutoriel. Ce portefeuille en exemple sera utilisé uniquement sur le Testnet et sera supprimé à l'issue du tutoriel.**_
 
@@ -228,5 +228,5 @@ Félicitations, vous êtes maintenant au point sur l'utilisation du Portal ! Si 
 
 Pour aller plus loin, vous pouvez également découvrir notre formation complète sur le fonctionnement des portefeuilles HD :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 

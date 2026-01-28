@@ -8,7 +8,7 @@ description: Nunua na uuze bitcoins kwenye programu ya Bitstack
 Bitstack ni jukwaa la uwekezaji la Ufaransa la Bitcoin, linalodhibitiwa PSAN na AMF. Inatoa programu inayopatikana kwenye Android na iOS kwa urahisi wa kununua na kuuza Bitcoin.
 
 
-Kinachotenganisha Bitstack ni mfumo wake wa kuzungusha kiotomatiki, ambao husawazisha akaunti ya benki ya mtumiaji ili kubadilisha tofauti kati ya kiasi kinachotozwa wakati wa matumizi ya kila siku na euro ya juu zaidi, moja kwa moja kwenye bitcoins. Mbinu hii hurahisisha utumiaji wa *Wastani wa Gharama ya Dola* (DCA), kuwezesha mlundikano wa taratibu na usio na maumivu wa satoshi. Mbali na kipengele hiki cha awali, jukwaa pia hutoa mfumo wa kawaida wa DCA na uwekezaji wa moja kwa moja, pamoja na ununuzi na uuzaji wa mahali.
+Kinachoitofautisha Bitstack ni mfumo wake wa mzunguko wa kiotomatiki, unaosanidi akaunti ya benki ya mtumiaji kubadilisha tofauti kati ya kiasi kinachokatwa katika matumizi ya kila siku na euro inayofuata moja kwa moja kuwa bitcoin. Njia hii inarahisisha utekelezaji wa *Dollar Cost Averaging* (DCA) kwa kuruhusu ukusanyaji wa hatua kwa hatua na usio na maumivu wa satoshis. Mbali na kipengele hiki cha kipekee, jukwaa pia linatoa mfumo wa kawaida wa DCA wenye uwekezaji wa kiotomatiki, pamoja na ununuzi na uuzaji wa mara moja.
 
 
 ![Image](assets/fr/01.webp)
@@ -28,7 +28,7 @@ Ada za muamala za Bitstack hutofautiana kulingana na kiasi kilichouzwa katika si
 - Zaidi ya €500,000: 0.49
 
 
-Shughuli nyingine zote kwenye jukwaa ni bila malipo, ikiwa ni pamoja na uondoaji wa Bitcoin (na uondoaji wa chini uliowekwa kwenye 100,000 Sats). Kwa hivyo, tofauti na majukwaa mengine ya Exchange, kujiondoa, sema, 0.01 BTC kutoka kwa programu ili kuihamisha kwenye ulinzi wa kibinafsi hakuwezi generate huduma yoyote au ada za Mining, kukuwezesha kupokea 0.01 BTC kwenye kupokea kwako Address.
+Shughuli zingine zote kwenye jukwaa ni bila malipo, ikiwa ni pamoja na uondoaji wa Bitcoin (na uondoaji wa chini uliowekwa kwenye 100,000 Sats). Kwa hivyo, tofauti na majukwaa mengine ya Exchange, kujiondoa, sema, 0.01 BTC kutoka kwa programu ili kuihamisha kwenye ulinzi wa kibinafsi hakuwezi generate huduma yoyote au ada za Mining, kukuwezesha kupokea 0.01 BTC kwenye kupokea kwako Address.
 
 
 ## Pakua programu
@@ -73,10 +73,10 @@ Chagua nenosiri thabiti ili kupata ufikiaji kwa akaunti yako salama, kisha ubofy
 ![Image](assets/fr/06.webp)
 
 
-Kwa usimamizi salama wa nenosiri kila siku, matumizi ya kidhibiti nenosiri yanapendekezwa sana. Kwenye Plan ₿ Network, utapata mafunzo kadhaa juu ya masuluhisho bora yaliyopo, kama vile Bitwarden :
+Kwa usimamizi salama wa nenosiri kila siku, matumizi ya kidhibiti nenosiri yanapendekezwa sana. Kwenye Plan ₿ Academy, utapata mafunzo kadhaa juu ya masuluhisho bora yaliyopo, kama vile Bitwarden :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kisha utaombwa kuthibitisha utambulisho wako (KYC). Kwa mujibu wa kanuni za Kifaransa, utaombwa kutoa maelezo yako ya kibinafsi na uthibitisho wa utambulisho. Jaza kisanduku na jina lako la ukoo, jina la kwanza na tarehe ya kuzaliwa.
 
@@ -160,7 +160,7 @@ Kama ilivyotajwa katika utangulizi, Bitstack inatoa njia 3 za kuwekeza katika Bi
 - Matumizi ya kuzungusha kiotomatiki kwa gharama.
 
 
-### Kununua kwa pesa taslimu
+### Fanya ununuzi wa mara moja
 
 
 Ili kufanya ununuzi wa mara moja wa bitcoins kwa bei ya soko, bonyeza tu kwenye "* Nunua *".
@@ -184,7 +184,7 @@ Muamala wako sasa umethibitishwa.
 ### Kuanzisha DCA
 
 
-Wastani wa Gharama ya Dola* (DCA) ni mkakati wa kuvutia wa uwekezaji wa kukusanya Bitcoin huku ukipunguza hatari zinazohusiana na tete yake. Kwa kununua mara kwa mara kiasi kisichobadilika, bila kujali bei, unaweza kulainisha gharama yako ya upataji na kuepuka kufanya maamuzi kwa msukumo. DCA husaidia kupunguza upendeleo wa kitabia kama vile hofu ya kukosa fursa au hofu iwapo bei itashuka, na hivyo kukuwezesha kudhibiti uokoaji wako wa Bitcoin kwa utulivu na nidhamu.
+**Wastani wa Gharama ya Dola** (DCA) ni mkakati wa kuvutia wa uwekezaji wa kukusanya Bitcoin huku ukipunguza hatari zinazohusiana na tete yake. Kwa kununua mara kwa mara kiasi kisichobadilika, bila kujali bei, unaweza kulainisha gharama yako ya upataji na kuepuka kufanya maamuzi kwa msukumo. DCA husaidia kupunguza upendeleo wa kitabia kama vile hofu ya kukosa fursa au hofu iwapo bei itashuka, na hivyo kukuwezesha kudhibiti uokoaji wako wa Bitcoin kwa utulivu na nidhamu.
 
 
 Ili kusanidi ununuzi unaorudiwa (DCA) kwenye Bitstack, nenda kwenye sehemu ya "*Hifadhi*" ya ukurasa wa nyumbani na uchague "*Inayojirudia*". Kisha bonyeza "*Endelea*".
@@ -199,7 +199,7 @@ Bainisha kiasi cha ununuzi unaorudiwa na njia ya kulipa.
 ![Image](assets/fr/22.webp)
 
 
-Chagua tarehe ya kuanza na marudio ya DCA yako, na chaguo kuanzia kila saa hadi mwezi. Thibitisha kwa kubofya "* Ratiba*".
+Chagua tarehe ya kwanza na marudio ya DCA yako, na chaguo kuanzia kila saa hadi mwezi. Thibitisha kwa kubofya "* Ratiba*".
 
 
 ![Image](assets/fr/23.webp)
@@ -271,7 +271,7 @@ Amua kipaumbele cha muamala. Kwa uondoaji bila ada, chagua kipaumbele cha "*Stan
 ![Image](assets/fr/32.webp)
 
 
-Iwapo hufahamu jinsi Wallet inavyofanya kazi, tunatoa mafunzo kuhusu masuluhisho mengi yanayopatikana [kwenye Plan ₿ Network katika sehemu ya "*Wallet*"](https://planb.network/tutorials/wallet).
+Iwapo hufahamu jinsi Wallet inavyofanya kazi, tunatoa mafunzo kuhusu masuluhisho mengi yanayopatikana [kwenye Plan ₿ Academy katika sehemu ya "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 
 ## Inauza Bitcoin

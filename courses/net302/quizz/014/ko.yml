@@ -1,0 +1,9 @@
+question: IPv5(스트림 프로토콜, ST)의 주요 목적은 무엇인가요?
+answer: 특정 흐름에 대한 서비스 품질 보장
+wrong_answers:
+  - IP 주소 지정 용량 확장
+  - IPv6와의 역호환성 제공
+  - TCP/IP 네트워크 패킷 크기 줄이기
+explanation: |
+  IPv5(ST)는 대역폭과 우선순위를 보장하여 VoIP와 같은 멀티미디어 스트림에 서비스 품질(QoS)을 제공하도록 설계되었습니다.
+reviewed: false

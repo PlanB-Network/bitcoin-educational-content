@@ -1,0 +1,9 @@
+question: Hva er den viktigste egenskapen til en Full node?
+answer: Den laster ned og validerer hele Blockchain
+wrong_answers:
+  - Den beholder bare blokktoppene
+  - Den sletter gamle blokker etter verifisering
+  - Den er avhengig av en annen node for å validere transaksjoner
+explanation: |
+  Full node beholder hele Blockchain og validerer hver blokk og transaksjon uavhengig av hverandre.
+reviewed: true

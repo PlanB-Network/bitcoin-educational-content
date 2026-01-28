@@ -1,0 +1,8 @@
+question: Podczas tworzenia niestandardowego makra funkcyjnego w Rust, jaki jest główny cel używania specyfikatorów fragmentów, takich jak `expr`, `ty` i `ident` w dopasowywaniu wzorców?
+answer: Aby zdefiniować, jakie elementy kodu mogą być dopasowywane i zapewnić poprawność składniową danych wejściowych
+wrong_answers:
+  - Aby określić typ zwracany wygenerowanego kodu i zoptymalizować wydajność kompilacji
+  - Aby określić kolejność wykonywania gałęzi makr i obsługiwać sprawdzanie typów w czasie wykonywania
+  - Aby kontrolować wzorce alokacji pamięci i definiować reguły scopingu zmiennych w rozszerzonym kodzie
+explanation: |
+  Specyfikatory fragmentów we wzorcach makr służą jako ograniczenia typu, które sprawdzają składnię tokenów wejściowych podczas rozwijania makr. Zapewniają, że makro otrzymuje prawidłowy rodzaj elementu kodu (wyrażenie, typ, identyfikator itp.) i dostarczają jasnych komunikatów o błędach w przypadku napotkania nieprawidłowej składni. Dzieje się to w czasie kompilacji podczas dopasowywania wzorców, a nie podczas wykonywania w czasie wykonywania, i nie kontrolują one bezpośrednio alokacji pamięci, kolejności wykonywania ani typów zwracanych wygenerowanego kodu.

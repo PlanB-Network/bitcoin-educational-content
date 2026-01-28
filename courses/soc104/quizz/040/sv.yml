@@ -1,0 +1,9 @@
+question: Enligt Friedmans perspektiv, vad är det främsta problemet med att bedöma socialpolitik utifrån deras uttalade avsikter snarare än deras faktiska resultat?
+answer: Välmenande politiska åtgärder får ofta oavsiktliga konsekvenser som strider mot de ursprungliga målen, t.ex. genom att skapa beroende eller snedvridningar av marknaden
+wrong_answers:
+  - Avsikter är för svåra att mäta objektivt jämfört med resultat, vilket gör policyutvärdering omöjlig för forskare och analytiker
+  - Politikerna använder medvetet falska avsikter för att vilseleda väljarna, vilket gör det nödvändigt att endast fokusera på mätbara ekonomiska indikatorer
+  - Avsikterna ändras för ofta under genomförandet av politiken, medan resultaten förblir konstanta och ger bättre långsiktig vägledning
+explanation: |
+  Friedman menar att en politik som motiveras av generösa avsikter kan få oförutsedda eller skadliga konsekvenser om den inte baseras på en noggrann analys av mänskligt beteende och
+  mänskligt beteende och incitament. I texten nämns specifikt att program som påstås hjälpa de fattiga ofta har motsatt effekt än vad deras välmenande sponsorer önskar, vilket skapar perversa effekter som ekonomiskt beroende. Detta illustrerar varför strukturella definitioner som fokuserar på observerbara egenskaper och mätbara resultat bör ha företräde framför avsiktliga definitioner som baseras på deklarerade motiv.

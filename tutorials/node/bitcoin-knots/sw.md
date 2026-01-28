@@ -1,5 +1,5 @@
 ---
-name: Mafundo ya Bitcoin
+name: Bitcoin Knots
 description: Ninawezaje kuzindua nodi na mteja mbadala wa Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)
@@ -44,7 +44,7 @@ Nenda kwenye [tovuti rasmi ya Bitcoin Knots](https://bitcoinknots.org/#download)
 Kabla ya kusakinisha programu kwenye mashine yako, tunapendekeza sana uangalie uhalisi na uadilifu wake. Ikiwa hujui jinsi gani, angalia mafunzo haya mengine:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Mara tu programu imethibitishwa, isakinishe kwa kufuata hatua zilizoonyeshwa kwenye paneli ya usakinishaji.
 
 
@@ -81,7 +81,7 @@ Kwa mfano, hapa, "*Chukua Halali*" imewekwa kuzuia nambari. 855.
 ![Image](assets/fr/06.webp)
 
 
-Kisha ubofye kitufe cha "*Sawa*" ili kuzindua Upakuaji wa Kuzuia Awali*. Utahitaji kuwa na subira wakati wa ulandanishi wa nodi ya awali. Ikiwa ungependa kuendelea na ulandanishi baadaye, funga programu tu na uzime kompyuta yako. Usawazishaji utaanza tena bila hitilafu wakati mwingine utakapofungua programu.
+Kisha ubofye kitufe cha "*Sawa*" ili kuzindua Upakuaji wa Kuzuia Awali. Utahitaji kuwa na subira wakati wa ulandanishi wa nodi ya awali. Ikiwa ungependa kuendelea na ulandanishi baadaye, funga programu tu na uzime kompyuta yako. Usawazishaji utaanza tena bila hitilafu wakati mwingine utakapofungua programu.
 
 
 ![Image](assets/fr/07.webp)
@@ -170,7 +170,7 @@ Ipe Wallet yako jina. Unaweza pia kuilinda kwa passphrase BIP39 kwa kubofya "*Si
 passphrase BIP39 ni nenosiri la hiari ambalo unaweza kuchagua kwa uhuru, pamoja na maneno yako ya Mnemonic, ili kuongeza usalama wa Wallet yako. Kabla ya kusanidi kipengele hiki, tunakushauri sana kusoma makala ifuatayo, ambayo inaelezea kwa undani jinsi passphrase inavyofanya kazi katika nadharia, na jinsi ya kuepuka makosa ambayo yanaweza kusababisha hasara ya kudumu ya bitcoins zako:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Ikiwa umewezesha chaguo la passphrase, chagua moja imara na uihifadhi kwa uangalifu kwenye vyombo vya habari vya usalama moja au zaidi.
 
 
@@ -314,10 +314,11 @@ Usisahau kuanzisha upya programu baada ya kufanya mabadiliko haya.
 Kisha nenda kwenye programu yako ya usimamizi wa Wallet (k.m. Sparrow Wallet au Liana) na uweke njia ya faili yako ya kidakuzi, ambayo kwa kawaida iko katika folda sawa na `Bitcoin.conf`, kulingana na mfumo wako wa uendeshaji:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -342,10 +343,11 @@ server=1
 Baada ya kuhariri faili, hakikisha umeihifadhi kwenye folda inayofaa kwa mfumo wako wa kufanya kazi:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Operesheni hii pia inaweza kufanywa kupitia michoro ya Interface ya Bitcoin-QT. Nenda kwenye menyu ya "*Mipangilio*", kisha "* Chaguzi...*", na uamilishe chaguo la "* Wezesha seva ya RPC*" kwa kuangalia kisanduku sambamba. Ikiwa faili `Bitcoin.conf` haipo, unaweza kuiunda moja kwa moja kutoka kwa Interface hii kwa kubofya "*Fungua Faili ya Usanidi*".
 
@@ -404,4 +406,4 @@ Ikiwa umepata mafunzo haya kuwa yenye manufaa, ningeshukuru sana ikiwa utaacha k
 Ninapendekeza pia mafunzo haya mengine ambayo ninaelezea jinsi ya kusanidi nodi yako ya Umeme:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

@@ -1,0 +1,9 @@
+question: Koje podešavanje primorava Bitcoin core da se poveže isključivo putem Tor mreže?
+answer: onlynet=onion
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - mreža=tor
+explanation: |
+  Opcija onlynet=onion ograničava sve odlazne veze na Tor mrežu, dok listenonion=1 omogućava samo slušanje dolaznih Tor veza.
+reviewed: true

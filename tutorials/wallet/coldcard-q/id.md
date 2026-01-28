@@ -1,5 +1,5 @@
 ---
-name: KARTU KOLEKSI Q
+name: COLDCARD Q
 description: Menyiapkan dan menggunakan COLDCARD Q
 ---
 ![cover](assets/cover.webp)
@@ -19,7 +19,7 @@ Dalam tutorial ini, saya ingin memperkenalkan kepada Anda, salah satu solusi ter
 ---
 Karena COLDCARD Q menawarkan banyak sekali fungsi, saya mengusulkan untuk membagi penggunaannya ke dalam 2 tutorial. Dalam tutorial pertama ini, kita akan melihat konfigurasi awal dan fungsi dasar perangkat. Kemudian, dalam tutorial kedua, kita akan melihat cara memanfaatkan semua opsi lanjutan COLDCARD Anda.
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## Memperkenalkan COLDCARD Q
@@ -55,7 +55,7 @@ Dari sisi perangkat lunak, COLDCARD Q dilengkapi dengan baik seperti perangkat C
 
 Singkatnya, COLDCARD Q menawarkan pengalaman pengguna yang lebih baik daripada MK4, dan mungkin ideal bagi pengguna tingkat menengah hingga mahir yang mencari kemudahan penggunaan yang lebih baik.
 
-COLDCARD Q tersedia untuk dijual [di situs web resmi Coinkite] (https://store.coinkite.com/store/coldcard). Bisa juga dibeli dari pengecer.
+COLDCARD Q tersedia untuk dijual [di situs web resmi Coinkite](https://store.coinkite.com/store/coldcard). Bisa juga dibeli dari pengecer.
 
 ## Mempersiapkan tutorial
 
@@ -79,9 +79,9 @@ Jika Anda lebih suka memberi daya pada COLDCARD tanpa menghubungkannya ke komput
 
 ![CCQ](assets/fr/005.webp)
 
-Untuk tutorial ini, Anda juga membutuhkan Sparrow Wallet untuk mengelola dompet Bitcoin di komputer Anda. Unduh [Sparrow Wallet] (https://sparrowwallet.com/download/) dari situs web resminya. Saya sangat menyarankan Anda untuk memeriksa keasliannya (dengan GnuPG) dan integritasnya (melalui hash) sebelum melanjutkan instalasi. Jika Anda tidak tahu bagaimana cara melakukannya, ikuti tutorial ini:
+Untuk tutorial ini, Anda juga membutuhkan Sparrow Wallet untuk mengelola dompet Bitcoin di komputer Anda. Unduh [Sparrow Wallet](https://sparrowwallet.com/download/) dari situs web resminya. Saya sangat menyarankan Anda untuk memeriksa keasliannya (dengan GnuPG) dan integritasnya (melalui hash) sebelum melanjutkan instalasi. Jika Anda tidak tahu bagaimana cara melakukannya, ikuti tutorial ini:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Pemilihan kode PIN
 
@@ -153,15 +153,15 @@ Anda dapat memeriksa versi firmware COLDCARD Anda saat ini. Sebagai contoh, dala
 
 ![CCQ](assets/fr/019.webp)
 
-Periksa [di situs web resmi COLDCARD] (https://coldcard.com/downloads) untuk mengetahui apakah versi yang lebih baru tersedia. Klik "*Unduh*" untuk mengunduh firmware baru.
+Periksa [di situs web resmi COLDCARD](https://coldcard.com/downloads) untuk mengetahui apakah versi yang lebih baru tersedia. Klik "*Unduh*" untuk mengunduh firmware baru.
 
 ![CCQ](assets/fr/020.webp)
 
-Pada titik ini, kami sangat menyarankan untuk memeriksa integritas dan keaslian firmware yang diunduh. Untuk melakukan ini, unduh [dokumen yang berisi hash dari semua versi, yang ditandatangani oleh pengembang] (https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifikasi tanda tangan dengan [kunci publik pengembang] (https://keybase.io/dochex), dan pastikan bahwa hash yang ditunjukkan dalam dokumen yang ditandatangani sesuai dengan yang ada pada firmware yang diunduh dari situs. Jika semuanya sudah benar, Anda dapat melanjutkan pembaruan.
+Pada titik ini, kami sangat menyarankan untuk memeriksa integritas dan keaslian firmware yang diunduh. Untuk melakukan ini, unduh [dokumen yang berisi hash dari semua versi, yang ditandatangani oleh pengembang](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifikasi tanda tangan dengan [kunci publik pengembang](https://keybase.io/dochex), dan pastikan bahwa hash yang ditunjukkan dalam dokumen yang ditandatangani sesuai dengan yang ada pada firmware yang diunduh dari situs. Jika semuanya sudah benar, Anda dapat melanjutkan pembaruan.
 
 Jika Anda tidak terbiasa dengan proses verifikasi ini, saya sarankan Anda mengikuti tutorial ini:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Ambil kartu microSD dan transfer file firmware (dokumen dalam format `.dfu`) ke kartu tersebut. Masukkan kartu microSD ke salah satu port COLDCARD Anda.
 
@@ -201,7 +201,7 @@ Dalam menu ini, Anda akan menemukan berbagai opsi penyesuaian, misalnya, mengatu
 
 Kita akan mencermati pengaturan lanjutan lainnya dalam tutorial berikutnya:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Membuat dompet Bitcoin
 
@@ -332,7 +332,7 @@ Sebelum Anda menerima bitcoin pertama Anda di dompet, **Saya sangat menyarankan 
 
 Untuk mempelajari lebih lanjut tentang cara melakukan tes pemulihan, saya sarankan Anda membaca tutorial lain ini:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Menerima bitcoin
 
@@ -384,7 +384,7 @@ Sekarang Anda dapat menambahkan "*Label*" untuk mendeskripsikan sumber bitcoin y
 
 Untuk informasi lebih lanjut mengenai pelabelan, saya juga merekomendasikan tutorial lainnya ini:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Anda kemudian dapat menggunakan alamat ini untuk menerima bitcoin.
 
@@ -484,4 +484,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga menyarankan Anda untuk membaca tutorial lainnya yang membahas opsi lanjutan COLDCARD Q :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

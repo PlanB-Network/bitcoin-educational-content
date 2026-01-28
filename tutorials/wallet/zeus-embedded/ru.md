@@ -13,11 +13,11 @@ description: Как использовать Lightning Zeus Embedded Wallet
 
 
 
-**Именно эту сторону приложения мы будем изучать в этом уроке. Это позволит любому иметь свой собственный узел молнии на мобильном телефоне, без необходимости в выделенном сервере, подобно тому, как ACINQ предлагает свой невероятный Wallet lightning Phoenix.
+**Именно эту сторону приложения мы будем изучать в этом уроке. Это позволит любому иметь свой собственный узел молнии на мобильном телефоне, без необходимости в выделенном сервере, подобно тому, как ACINQ предлагает свой невероятный Wallet lightning Phoenix.**
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Напомним, что Lightning - это сеть, которая работает параллельно с Bitcoin, позволяя обменивать биткоины без необходимости систематически проводить транзакции On-Chain. В результате транзакции осуществляются практически мгновенно, не нужно ждать 10 минут, пока блок будет подтвержден. Это особенно полезно при оплате услуг торговцев в физическом мире. Более того, Lightning обеспечивает замечательный уровень **конфиденциальности**, которым сеть Bitcoin не обладает изначально*.
 
@@ -200,7 +200,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -248,7 +248,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 В этом учебнике мы выберем этот вариант для простоты, но вполне возможно открыть каналы с любым узлом в сети.
 
 
-Можно даже открыть несколько каналов в одной транзакции, выбрав "OPEN ADDITIONAL CHANNEL". *Но об этом мы расскажем в "продвинутой" версии учебника **Zeus Embedded****.
+Можно даже открыть несколько каналов в одной транзакции, выбрав "OPEN ADDITIONAL CHANNEL". *Но об этом мы расскажем в "продвинутой" версии учебника* **Zeus Embedded**.
 
 
 
@@ -345,7 +345,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-Обратите внимание, что в отличие от Wallet, например [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), в Zeus маршрут рассчитывается локально, а не передается третьей стороне (ACINQ в случае с Phoenix). Таким образом, только вы знаете получателя платежа. Мы немного теряем в эффективности (платежи проходят немного дольше, но зато много выигрываем в плане конфиденциальности).
+Обратите внимание, что в отличие от Wallet, например [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), в Zeus маршрут рассчитывается локально, а не передается третьей стороне (ACINQ в случае с Phoenix). Таким образом, только вы знаете получателя платежа. Мы немного теряем в эффективности (платежи проходят немного дольше, но зато много выигрываем в плане конфиденциальности).
 
 
 
@@ -422,8 +422,8 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-Чтобы узнать больше о технической эксплуатации Lightning Network, вы можете найти отличный бесплатный тренинг Фаниса Михалакиса по Plan ₿ Network:
+Чтобы узнать больше о технической эксплуатации Lightning Network, вы можете найти отличный бесплатный тренинг Фаниса Михалакиса по Plan ₿ Academy:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

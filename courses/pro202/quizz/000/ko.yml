@@ -1,0 +1,8 @@
+question: Bitcoin의 secp256k1은 어떤 타원 곡선 방정식을 사용하나요?
+answer: y² = X³ + 7
+wrong_answers:
+  - y² = X³ + AX + B
+  - y² = X³ + 5
+  - y² = X³ + X + 7
+explanation: |
+  Bitcoin은 특히 y² = x³ + 7의 단순화된 방정식을 갖는 secp256k1 타원 곡선을 사용합니다. 이는 일반적인 타원 곡선 형태인 y² = x³ + ax + b의 특수한 경우로, 여기서 a = 0, b = 7입니다. 다른 옵션은 올바르지 않습니다. y² = x³ + ax + b는 일반적인 형태이지만 Bitcoin의 특정 곡선이 아니고, y² = x³ + 5는 잘못된 상수를 사용하고, y² = x³ + x + 7에는 secp256k1에 없는 선형 x 항이 잘못 포함되어 있습니다.

@@ -1,9 +1,11 @@
-question: Jaká je primární funkce uzlů v síti Bitcoin?
-answer: Udržování kopie blockchainu Bitcoinu, validace transakcí, přenos informací ostatním uzlům a vynucování pravidel protokolu Bitcoinu.
+question: O co šlo ve válce o velikost bloků v roce 2017?
+answer: O konflikt, zda zvětšit velikost bloku pro rozšíření kapacity transakcí.
 wrong_answers:
-  - Udržování kopie blockchainu Bitcoinu, validace transakcí, přenos informací vládě a změna pravidel protokolu Bitcoinu.
-  - Pouze udržování kopie blockchainu Bitcoinu.
-  - Pouze přenos informací ostatním uzlům.
-explanation: >-
-  Uzly v síti Bitcoin plní několik klíčových funkcí, včetně udržování kopie blockchainu Bitcoinu, validace transakcí, přenosu informací ostatním uzlům a vynucování pravidel protokolu Bitcoinu.
+  - Konflikt, zda snížit velikost bloku pro snížení kapacity transakcí.
+  - Konflikt, zda zvýšit odměnu za blok pro motivaci těžařů.
+  - Konflikt, zda snížit odměnu za blok pro demotivaci těžařů.
+explanation: |
+  Válka o velikost bloků v roce 2017 byl konflikt o tom, zda
+  upravit Bitcoin zvětšením velikosti bloku pro rozšíření
+  kapacity transakcí.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Who wrote the Cypherpunk manifesto?
+answer: Eric Hughes.
+wrong_answers:
+  - Timothy May.
+  - Satoshi Nakamoto.
+  - Milton Friedman.
+explanation: |
+  Eric Hughes is the author of the Cypherpunk Manifesto (1993). This seminal text defends the use of cryptography to protect privacy in the digital age.
+reviewed: false

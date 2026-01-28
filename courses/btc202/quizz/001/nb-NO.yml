@@ -1,0 +1,9 @@
+question: Hva kaller vi et sett med maskiner som kjører en Bitcoin-implementasjon og er koblet til hverandre?
+answer: Bitcoin-nettverket
+wrong_answers:
+  - Bitcoin-protokollen
+  - Bitcoin valuta
+  - Blockchain Bitcoin
+explanation: |
+  Bitcoin-nettverket består av alle tilkoblede noder, som hver kjører en egen implementering av protokollen.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 사이버 보안에 필요한 네트워크 지식에는 어떤 측면이 있나요?
+answer: TCP/IP, VPN, 방화벽
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  이 장에서는 사이버 보안에 필요한 네트워크 지식의 일부로 TCP/IP, VPN 및 방화벽을 언급합니다.
+reviewed: true

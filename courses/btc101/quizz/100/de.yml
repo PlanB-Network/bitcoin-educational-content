@@ -1,12 +1,11 @@
-question: Was deutet das Fehlen einer mnemonischen Phrase in einer Wallet an?
-answer: Es deutet darauf hin, dass die Wallet nicht sicher für die langfristige Aufbewahrung von Bitcoin ist.
+question: Was ist die Rolle eines Notars im Kontext der Bitcoin-Erbschaft?
+answer: Sie gewährleisten die Steuerkonformität.
 wrong_answers:
-  - Es deutet darauf hin, dass die Wallet vollständig sicher ist und keine Sicherung benötigt.
-  - Es bedeutet, dass die Wallet viele verschiedene Anleihen halten kann.
-  - Es legt nahe, dass die Wallet automatisch durch Ihr Gerät gesichert wird.
+  - Sie verwalten Ihre Bitcoins nach Ihrem Tod.
+  - Sie ändern Ihren Erbschaftsplan.
+  - Sie sichern Ihre Bitcoins in einem Safe.
 explanation: |
-  Das Fehlen einer Liste von 12 oder 24 Wörtern, das ist die
-  mnemonische Phrase, in einer Wallet sollte Sie alarmieren, dass die
-  Wallet nicht sicher ist, da sie nicht den Standard-Backup-
-  Verfahren folgt.
-reviewed: true
+  Im Kontext der Bitcoin-Erbschaft ist es wichtig,
+  die Erbschaft von Bitcoins mit einem Notar zu besprechen, um
+  die Steuerkonformität zu gewährleisten.
+reviewed: false

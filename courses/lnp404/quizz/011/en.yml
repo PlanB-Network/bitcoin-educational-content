@@ -1,0 +1,8 @@
+question: What does the 'Spent Satoshis' metric in Terminal Web track for Lightning Network node operators?
+answer: All operational costs including on-chain transaction fees and rebalancing expenses
+wrong_answers:
+  - Revenue generated from forwarding payments to other network participants
+  - Total amount of bitcoin locked in active channels across all peers
+  - Fees collected from successful routing transactions minus failed attempts
+explanation: |
+  The 'Spent Satoshis' metric specifically aggregates all operational costs that a Lightning Network node incurs during its operations. This includes on-chain transaction fees for opening and closing channels, as well as costs associated with rebalancing liquidity between channels. It represents the expense side of the node's financial equation. The other options are incorrect because revenue from forwarding payments is tracked by 'Earned Satoshis', total locked bitcoin refers to channel capacity rather than spending, and fee collection minus failed attempts is not how the metric is calculated.

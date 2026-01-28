@@ -6,7 +6,7 @@ description: Mua và bán bitcoin trên ứng dụng Bitstack
 
 Bitstack là một nền tảng đầu tư bitcoin của Pháp, được PSAN quản lý bởi AMF. Nó cung cấp một ứng dụng có sẵn trên Android và iOS để dễ dàng mua và bán bitcoin.
 
-Điểm khác biệt của Bitstack là hệ thống làm tròn tự động, đồng bộ hóa tài khoản ngân hàng của người dùng để chuyển đổi sự khác biệt giữa số tiền ghi nợ trong quá trình chi tiêu hàng ngày và đồng euro cao hơn tiếp theo, trực tiếp thành bitcoin. Phương pháp này tạo điều kiện thuận lợi cho việc áp dụng *Trung bình chi phí đô la* (DCA), cho phép tích lũy satoshi dần dần, không đau đớn. Ngoài tính năng ban đầu này, nền tảng này còn cung cấp hệ thống DCA cổ điển với các khoản đầu tư tự động, cũng như mua và bán tại chỗ.
+Điều khiến Bitstack trở nên khác biệt là hệ thống làm tròn tự động của nó, đồng bộ hóa tài khoản ngân hàng của người dùng để chuyển đổi phần chênh lệch giữa số tiền đã chi trong các khoản chi tiêu hàng ngày và đồng euro cao hơn tiếp theo trực tiếp thành bitcoin. Phương pháp này giúp việc áp dụng *Dollar Cost Averaging* (DCA) trở nên dễ dàng hơn, cho phép tích lũy satoshi dần dần và không đau đớn. Ngoài tính năng độc đáo này, nền tảng cũng cung cấp hệ thống DCA cổ điển với các khoản đầu tư tự động, cũng như mua bán một lần.
 
 ![Image](assets/fr/01.webp)
 
@@ -51,9 +51,9 @@ Chọn một mật khẩu mạnh để bảo mật quyền truy cập vào tài 
 
 ![Image](assets/fr/06.webp)
 
-Để quản lý mật khẩu an toàn hàng ngày, việc sử dụng trình quản lý mật khẩu được khuyến khích mạnh mẽ. Trên Plan ₿ Network, bạn sẽ tìm thấy một số hướng dẫn về các giải pháp hiện có tốt nhất, chẳng hạn như Bitwarden:
+Để quản lý mật khẩu an toàn hàng ngày, việc sử dụng trình quản lý mật khẩu được khuyến khích mạnh mẽ. Trên Plan ₿ Academy, bạn sẽ tìm thấy một số hướng dẫn về các giải pháp hiện có tốt nhất, chẳng hạn như Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sau đó, bạn sẽ được yêu cầu xác minh danh tính (KYC). Theo quy định của Pháp, bạn sẽ được yêu cầu cung cấp thông tin cá nhân và bằng chứng về danh tính. Điền vào các ô với họ, tên và ngày sinh của bạn.
 
@@ -110,7 +110,7 @@ Như đã đề cập trong phần giới thiệu, Bitstack cung cấp 3 phươn
 - Cấu hình mua hàng định kỳ (RPC);
 - Sử dụng tính năng làm tròn tự động cho chi phí.
 
-### Mua bằng tiền mặt
+### Thực hiện mua một lần
 
 Để mua bitcoin một lần theo giá thị trường, chỉ cần nhấp vào "*Mua*".
 
@@ -126,7 +126,7 @@ Giao dịch của bạn hiện đã được xác nhận.
 
 ### Thiết lập DCA
 
-Trung bình chi phí đô la* (DCA) là một chiến lược đầu tư hấp dẫn để tích lũy bitcoin trong khi giảm thiểu rủi ro liên quan đến tính biến động của nó. Bằng cách thường xuyên mua một lượng cố định, bất kể giá cả, bạn có thể làm phẳng chi phí mua lại của mình và tránh đưa ra quyết định bốc đồng. DCA giúp giảm bớt các thành kiến về hành vi như nỗi sợ bỏ lỡ cơ hội hoặc hoảng loạn trong trường hợp giá giảm, và do đó cho phép bạn quản lý khoản tiết kiệm bitcoin của mình theo cách thanh thản và có kỷ luật.
+Trung bình chi phí đô la (DCA) là một chiến lược đầu tư hấp dẫn để tích lũy bitcoin trong khi giảm thiểu rủi ro liên quan đến tính biến động của nó. Bằng cách thường xuyên mua một lượng cố định, bất kể giá cả, bạn có thể làm phẳng chi phí mua lại của mình và tránh đưa ra quyết định bốc đồng. DCA giúp giảm bớt các thành kiến về hành vi như nỗi sợ bỏ lỡ cơ hội hoặc hoảng loạn trong trường hợp giá giảm, và do đó cho phép bạn quản lý khoản tiết kiệm bitcoin của mình theo cách thanh thản và có kỷ luật.
 
 Để thiết lập giao dịch mua định kỳ (DCA) trên Bitstack, hãy vào mục "*Tiết kiệm*" trên trang chủ và chọn "*Định kỳ*". Sau đó nhấn "*Tiếp tục*".
 
@@ -184,7 +184,7 @@ Xác định mức độ ưu tiên của giao dịch. Đối với giao dịch r
 
 ![Image](assets/fr/32.webp)
 
-Nếu bạn chưa quen với cách thức hoạt động của danh mục đầu tư tự lưu ký, chúng tôi cung cấp hướng dẫn về hầu hết các giải pháp có sẵn [trên Plan ₿ Network trong phần "*Ví*"](https://planb.network/tutorials/wallet).
+Nếu bạn chưa quen với cách thức hoạt động của danh mục đầu tư tự lưu ký, chúng tôi cung cấp hướng dẫn về hầu hết các giải pháp có sẵn [trên Plan ₿ Academy trong phần "*Ví*"](https://planb.academy/tutorials/wallet).
 
 ## Bán bitcoin
 

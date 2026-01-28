@@ -1,0 +1,8 @@
+question: Qu'est-ce qui détermine le montant des frais de transaction dans une transaction Bitcoin pendant le processus de construction ?
+answer: Différence entre la valeur totale de tous les intrants et la valeur totale de tous les extrants
+wrong_answers:
+  - Un pourcentage fixe de la valeur totale de la transaction calculé par le protocole du réseau
+  - La taille de la transaction en octets multipliée par un taux standard fixé par les mineurs
+  - Le nombre de signatures requises pour toutes les entrées, plus une redevance de réseau de base
+explanation: |
+  Les frais de transaction Bitcoin sont déterminés par la différence entre le total des entrées et le total des sorties. Lors de la construction d'une transaction, vous sélectionnez des UTXO en tant qu'entrées et créez des sorties pour les destinataires et la monnaie. Tout montant restant devient la commission qui incite les mineurs à inclure votre transaction. Les frais ne sont pas calculés en fonction d'un pourcentage, de taux fixes ou du nombre de signatures - il s'agit simplement de ce qui reste non alloué dans le solde de la valeur de la transaction.

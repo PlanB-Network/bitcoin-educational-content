@@ -1,10 +1,8 @@
-question: Satoshi Nakamoto ne zaman ortadan kayboldu?
-answer: 2010 yılında
+question: Yayınlanan ilk Bitcoin yazılımının sürümü nedir?
+answer: Bitcoin-0.1.0.
 wrong_answers:
-  - 2008 yılında
-  - 2009 yılında
-  - 2023 yılında
-explanation: |
-  Satoshi Nakamoto 2010 yılında ortadan kayboldu ve eserini
-  toplumun elindedir.
+  - Bitcoin-0.0.1.
+  - Bitcoin-1.0.0.
+  - Bitcoin-0.1.1.
+explanation: >-
 reviewed: true

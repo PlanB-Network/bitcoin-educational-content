@@ -1,11 +1,12 @@
-question: Wat gebeurde er met de Zimbabwaanse dollar in april 2009?
-answer: De minister van Financiën kondigde de opschorting van de Zimbabwaanse dollar aan en stond het gebruik van verschillende vreemde valuta voor handel toe.
+question: Met welke economische principes stemt Bitcoin overeen?
+answer: Beginselen van Oostenrijkse economie.
 wrong_answers:
-  - De Zimbabwaanse dollar stortte met meer dan 72% in.
-  - De regering stemde ermee in om oorlogsveteranen te compenseren voor een bedrag gelijk aan 450 miljoen US dollar.
-  - De regering moest haar toevlucht nemen tot de drukpers.
+  - Principes van Keynesiaanse economie.
+  - Principes van marxistische economie.
+  - Beginselen van neoklassieke economie.
 explanation: |
-  In april 2009 kondigde de minister van Financiën de
-  schorsing van de Zimbabwaanse dollar aan en stond hij het gebruik van
-  van verschillende vreemde valuta voor de handel.
+  Bitcoin komt overeen met de principes van de Oostenrijkse economie.
+  De afgetopte hoeveelheid en het ontbreken van een centrale entiteit beschermen het
+  tegen de inherente risico's van inflatie die voorkomen bij
+  traditionele valuta.
 reviewed: true

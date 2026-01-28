@@ -1,5 +1,5 @@
 ---
-name: मोज़िला वीपीएन
+name: Mozilla VPN
 description: अपने डिवाइस और इंटरनेट ब्राउज़िंग डेटा को सुरक्षित रखें।
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ description: अपने डिवाइस और इंटरनेट ब्
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 इसी सिद्धांत पर आधारित, [मोज़िला वीपीएन](https://www.mozilla.org/fr/products/vpn/download/) एक ओपन सोर्स वीपीएन सेवा है जिसे मोज़िला फ़ाउंडेशन द्वारा 2020 में विकसित किया गया है। यह यहाँ उपलब्ध है:
 
@@ -153,7 +153,7 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 
-- सिंगल-हॉप: जो आपके कंप्यूटर के आईपी Address को स्थानांतरित करता है और डेटा को एक विशिष्ट चयनित क्षेत्र में सर्वर पर एन्क्रिप्ट करता है, हमारे उदाहरण में बेलारूस में सोफिया।
+- सिंगल-हॉप: जो आपके कंप्यूटर के आईपी Address को स्थानांतरित करता है और डेटा को एक विशिष्ट चयनित क्षेत्र में सर्वर पर एन्क्रिप्ट करता है, हमारे उदाहरण में बुल्गारिया में सोफिया।
 
 
 
@@ -191,4 +191,4 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

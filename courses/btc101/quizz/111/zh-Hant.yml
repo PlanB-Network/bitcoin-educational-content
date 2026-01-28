@@ -1,13 +1,12 @@
-question: KYC 代表什麼？
-answer: 瞭解您的客戶。
+question: Bitcoin Blockchain 的第一個區塊所包含的訊息是什麼？
+answer: 03/jan/2009 英國總理瀕臨第二次救助銀行的邊緣。
 wrong_answers:
-  - 保留您的現金。
-  - 鍵入您的代碼。
-  - 懇請符合規定。
+  - 我們可以在軍備競賽中贏得一場重大戰役，並獲得數年的自由新領土。
+  - 政府擅長砍掉 Napster 這類中央控制網路的頭顱，但 Gnutella 和 Tor 這類純 P2P 網路似乎還能自保。
+  - 以上皆非。
 explanation: |
-  KYC 或「認識您的客戶」指的是
-  企業採用的驗證客戶身份的程序。
-  這通常是為了確保符合
-  法規，並防止非法活動，例如
-  洗錢或欺詐。
+  Bitcoin Blockchain 的第一個區塊，也稱為
+  Genesis 區塊，包含訊息 03/jan/2009
+  總理在第二次救助銀行的邊緣，這是
+  的標題。
 reviewed: true

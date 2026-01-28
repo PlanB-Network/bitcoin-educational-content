@@ -1,10 +1,12 @@
-question: Hur mycket är BTC-belöningen efter den fjärde Halving?
-answer: 3.125 BTC.
+question: Vad är risken med att dela den publika nyckeln för en Bitcoin Wallet?
+answer: Förlorad integritet.
 wrong_answers:
-  - 1.5625 BTC.
-  - 6.25 BTC.
-  - 12.5 BTC.
+  - Förstör Bitcoin Wallet.
+  - Förlorar Bitcoins.
+  - Hackning av Bitcoin Wallet.
 explanation: |
-  Efter den fjärde Halving, som inträffar vid blockhöjden
-  840 000, är BTC-belöningen för Mining 3,125 BTC.
+  Att dela med sig av den publika nyckeln innebär risker för integriteten, men inte
+  för säkerheten. Detta beror på att den publika nyckeln används för att
+  generate Bitcoin adresser och därmed ta emot pengar, men den
+  representerar inte Ownership av bitcoins.
 reviewed: true

@@ -62,10 +62,10 @@ Du må konfigurere en bøtte og oppgi følgende informasjon:
 
 
 
-- S3_BUCKET**: navn på skuffen
-- S3_ENDPOINT_URL**: tilgangslenke til S3-tjenesten din
-- S3_KEY_ID** og S3_KEY_SECRET: tilgangskodene dine
-- S3_REGION**: regionen til S3-tjenesten din
+- **S3_BUCKET**: navn på skuffen
+- **S3_ENDPOINT_URL**: tilgangslenke til S3-tjenesten din
+- **S3_KEY_ID** og **S3_KEY_SECRET**: tilgangskodene dine
+- **S3_REGION**: regionen til S3-tjenesten din
 
 
 
@@ -94,8 +94,8 @@ Du trenger følgende variabler:
 
 
 
-- MONGODB_URL**: databasetilkobling Address
-- MONGODB_DB**: navn på databasen
+- **MONGODB_URL**: databasetilkobling Address
+- **MONGODB_DB**: navn på databasen
 
 
 
@@ -255,12 +255,13 @@ be-BOP lar deg ta imot Bitcoin-betalinger direkte på Blockchain (On-Chain), enk
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Felt                  | Beskrivelse                                               | Eksempel å Bruke                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Typen av adressering som brukes                               | BIP84 (for adresser i bech32-format som begynner med `bc1`) |
+| **Utvidet Offentlig Nøkkel** | Din Zpub (eller Xpub avhengig av brukt lommebok)        | `zpub...` (hentet fra din Bitcoin-lommebok) |
+| **Derivation Index**   | Startindeksen for adressegenerering         | `1`                                              |
+| **Mempool URL**        | URL-en til mempool-tjenesten som brukes til å spore transaksjoner | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -348,7 +349,7 @@ Konfigurasjonstrinn:
 
 
 
-**Du må ha en PayPal-virksomhetskonto for å kunne bruke generate-identifikatorene. Du kan få tak i dem via [developer]-portalen (https://developer.paypal.com)
+**Du må ha en PayPal-virksomhetskonto for å kunne bruke generate-identifikatorene. Du kan få tak i dem via [developer]-portalen** (https://developer.paypal.com)
 
 
 
@@ -474,8 +475,8 @@ Med **Top Bar**-konfigurasjonen kan du tilpasse programvarens visuelle identitet
 
 
 - I feltet "Merkenavn" skriver du inn navnet på bedriften, organisasjonen eller produktet ditt. Dette navnet vil vises øverst på Interface og vil representere din viktigste visuelle identitet.
-- Angi nettstedets tittel**: Tittelen som velges, bør oppsummere formålet med plattformen. Tittelen kan vises i toppteksten eller i nettleserfanen.
-- Legg til beskrivelse av nettstedet**: Her kan du legge inn en kort beskrivelse av initiativet ditt. Denne beskrivelsen bidrar til å kontekstualisere verktøyet for brukerne og kan også brukes til SEO-formål.
+- **Angi nettstedets tittel**: Tittelen som velges, bør oppsummere formålet med plattformen. Tittelen kan vises i toppteksten eller i nettleserfanen.
+- **Legg til beskrivelse av nettstedet**: Her kan du legge inn en kort beskrivelse av initiativet ditt. Denne beskrivelsen bidrar til å kontekstualisere verktøyet for brukerne og kan også brukes til SEO-formål.
 
 
 
@@ -497,10 +498,10 @@ I Topplinjens "Lenker"-del kan du legge til snarveier til viktige sider i applik
 
 
 
-- Skriv inn lenkenavn (tekst)**: I feltet `Tekst` skriver du inn navnet eller etiketten på lenken slik den skal vises (f.eks. Hjem, Kontakt, Hjelp...).
-- Angi lenke Address (Url)**: I feltet `Url` skriver du inn hele Address for målsiden (intern eller ekstern).
-- Legg til andre lenker om nødvendig**: På hver konfigurasjonslinje kan du legge til en ekstra lenke ved hjelp av feltene `Text` og `Url`.
-- Lagre lenker**: Når alle lenkene er lagt inn, klikker du på knappen "Legg til lenke i topplinjen" for å lagre dem.
+- **Skriv inn lenkenavn (tekst)**: I feltet `Tekst` skriver du inn navnet eller etiketten på lenken slik den skal vises (f.eks. Hjem, Kontakt, Hjelp...).
+- **Angi lenke Address (Url)**: I feltet `Url` skriver du inn hele Address for målsiden (intern eller ekstern).
+- **Legg til andre lenker om nødvendig**: På hver konfigurasjonslinje kan du legge til en ekstra lenke ved hjelp av feltene `Text` og `Url`.
+- **Lagre lenker**: Når alle lenkene er lagt inn, klikker du på knappen "Legg til lenke i topplinjen" for å lagre dem.
 
 
 
@@ -522,10 +523,10 @@ I **Navbar**-delen kan du konfigurere be-BOPs hovednavigasjonsmeny, som vanligvi
 
 
 
-- Skriv inn lenkenavn (`Text`)**: På konfigurasjonslinjen begynner du med å fylle ut feltet `Text`. Dette tilsvarer navnet på lenken som vises i navigasjonsfeltet (eksempler: *Dashboard*, *Users*, *Settings*...).
-- Skriv inn lenkens Address (`Url`)**: Ved siden av feltet `Text` finner du feltet `Url`. I dette feltet skriver du inn Address for siden som lenken skal viderekoble til. Dette kan være en intern rute eller en lenke til en ekstern side.
-- Legg til flere lenker om nødvendig**: Under den første linjen er det nye `Text`- og `Url`-felt der du kan legge til så mange lenker som du ønsker. Hver linje representerer en ekstra navigasjonslenke.
-- Lagre lenker**: Når du har lagt inn alle Elements, klikker du på knappen "Legg til lenke i navigeringsfeltet" for å lagre og vise resultatene i navigeringsfeltet.
+- Skriv inn lenkenavn (`Text`): På konfigurasjonslinjen begynner du med å fylle ut feltet `Text`. Dette tilsvarer navnet på lenken som vises i navigasjonsfeltet (eksempler: *Dashboard*, *Users*, *Settings*...).
+- Skriv inn lenkens Address (`Url`): Ved siden av feltet `Text` finner du feltet `Url`. I dette feltet skriver du inn Address for siden som lenken skal viderekoble til. Dette kan være en intern rute eller en lenke til en ekstern side.
+- **Legg til flere lenker om nødvendig**: Under den første linjen er det nye `Text`- og `Url`-felt der du kan legge til så mange lenker som du ønsker. Hver linje representerer en ekstra navigasjonslenke.
+- **Lagre lenker**: Når du har lagt inn alle Elements, klikker du på knappen "Legg til lenke i navigeringsfeltet" for å lagre og vise resultatene i navigeringsfeltet.
 
 
 
@@ -547,11 +548,11 @@ I delen **Foter** kan du tilpasse bunnteksten i programvaren ved å legge til ny
 
 
 
-- Aktiver visning av etiketten "Powered by be-BOP"**: Aktiver knappen "Vis Powered by be-BOP" for å vise denne etiketten i bunnteksten.
-- Skriv inn navnet på lenken (`Text`)**: Fyll ut feltet `Text`, som tilsvarer ordlyden til lenken i bunnteksten (eksempler: *Vilkår*, *Privacy*, *Kontakt*...).
-- Angi lenke Address (`Url`)**: I `Url`-feltet skriver du inn Address for målsiden (intern eller ekstern).
-- Legg til flere lenker ved behov**: Bruk de ekstra linjene til å opprette så mange lenker du vil.
-- Lagre lenker**: Klikk på knappen "Legg til bunntekstlenke" for å lagre lenker.
+- **Aktiver visning av etiketten "Powered by be-BOP"**: Aktiver knappen "Vis Powered by be-BOP" for å vise denne etiketten i bunnteksten.
+- Skriv inn navnet på lenken (`Text`): Fyll ut feltet `Text`, som tilsvarer ordlyden til lenken i bunnteksten (eksempler: *Vilkår*, *Privacy*, *Kontakt*...).
+- Angi lenke Address (`Url`): I `Url`-feltet skriver du inn Address for målsiden (intern eller ekstern).
+- **Legg til flere lenker ved behov**: Bruk de ekstra linjene til å opprette så mange lenker du vil.
+- **Lagre lenker**: Klikk på knappen "Legg til bunntekstlenke" for å lagre lenker.
 
 
 
@@ -641,8 +642,8 @@ Denne delen er tilgjengelig via `Admin > Identitet` (eller `Innstillinger > Iden
 
 
 
-- Firmanavn**: offisielt firmanavn.
-- Virksomhets-ID**: juridisk identifikator eller registreringsnummer (RCCM, SIRET...).
+- **Firmanavn**: offisielt firmanavn.
+- **Virksomhets-ID**: juridisk identifikator eller registreringsnummer (RCCM, SIRET...).
 
 
 
@@ -652,11 +653,11 @@ Denne delen er tilgjengelig via `Admin > Identitet` (eller `Innstillinger > Iden
 
 
 
-- Street**: postadresse Address (gate, nummer...).
-- Land**: land.
-- Delstat**: provins eller region.
-- By**: by.
-- Postnummer**: postnummer.
+- **Street**: postadresse Address (gate, nummer...).
+- **Land**: land.
+- **Delstat**: provins eller region.
+- **By**: by.
+- **Postnummer**: postnummer.
 
 
 
@@ -666,8 +667,8 @@ Denne delen er tilgjengelig via `Admin > Identitet` (eller `Innstillinger > Iden
 
 
 
-- E-post**: profesjonell e-post Address.
-- Telefon**: bedriftens telefonnummer.
+- **E-post**: profesjonell e-post Address.
+- **Telefon**: bedriftens telefonnummer.
 
 
 
@@ -677,10 +678,10 @@ Denne delen er tilgjengelig via `Admin > Identitet` (eller `Innstillinger > Iden
 
 
 
-- Kontoinnehaverens navn**: navnet på kontohaveren.
-- Kontoinnehaver Address**: innehaverens Address.
-- IBAN**: Internasjonalt bankkontonummer.
-- BIC**: SWIFT/BIC-kode.
+- **Kontoinnehaverens navn**: navnet på kontohaveren.
+- **Kontoinnehaver Address**: innehaverens Address.
+- **IBAN**: Internasjonalt bankkontonummer.
+- **BIC**: SWIFT/BIC-kode.
 
 
 
@@ -695,12 +696,12 @@ Denne delen er tilgjengelig via `Admin > Identitet` (eller `Innstillinger > Iden
 
 
 - Klikk på `Fyll ut med hovedbutikkinformasjon` for å forhåndsutfylle dataene.
-- Utstederinformasjon**: felt for juridisk/skattemessig informasjon som er synlig på fakturaer.
+- **Utstederinformasjon**: felt for juridisk/skattemessig informasjon som er synlig på fakturaer.
 - Klikk på `Oppdater` for å lagre endringene.
 
 
 
-**Du kan også legge inn tilleggsinformasjon som skal vises på Invoice, alt etter dine behov.
+**Du kan også legge inn tilleggsinformasjon som skal vises på Invoice, alt etter dine behov.**
 
 
 
@@ -742,9 +743,9 @@ Gå til `Admin > Merch > Produkter` for å legge til eller endre et produkt. Fyl
 
 
 
-- Produktnavn**: navnet på produktet (f.eks. *BOP T-skjorte i begrenset opplag*).
-- Slug**: URL-identifikator uten mellomrom (f.eks. `tshirt-bop-edition-limitee`).
-- Alias** *(valgfritt)*: nyttig for rask tilføyelse til kurven via et eget felt.
+- **Produktnavn**: navnet på produktet (f.eks. *BOP T-skjorte i begrenset opplag*).
+- **Slug**: URL-identifikator uten mellomrom (f.eks. `tshirt-bop-edition-limitee`).
+- **Alias** *(valgfritt)*: nyttig for rask tilføyelse til kurven via et eget felt.
 
 
 
@@ -758,9 +759,9 @@ Gå til `Admin > Merch > Produkter` for å legge til eller endre et produkt. Fyl
 
 
 
-- Prisbeløp**: produktpris (f.eks. `25,00`).
-- Prisvaluta**: valuta (EUR, USD, BTC osv.).
-- Spesialprodukter**:
+- **Prisbeløp**: produktpris (f.eks. `25,00`).
+- **Prisvaluta**: valuta (EUR, USD, BTC osv.).
+- **Spesialprodukter**:
   - dette er et gratis produkt.
   - dette er et betal-hva-du-vil-produkt.
 
@@ -772,14 +773,14 @@ Gå til `Admin > Merch > Produkter` for å legge til eller endre et produkt. Fyl
 
 
 
-- Enkeltprodukt (frittstående)**: kun ett tillegg mulig per bestilling (f.eks. donasjon, inngangsbillett).
-- Produkt med variasjoner**:
+- **Enkeltprodukt (frittstående)**: kun ett tillegg mulig per bestilling (f.eks. donasjon, inngangsbillett).
+- **Produkt med variasjoner**:
   - Ikke sjekk `Standalone`.
   - Kryss av for `Produktet har lette variasjoner (ingen lagerforskjell)`.
   - Legg til:
-    - Navn** (f.eks. *Størrelse*),
-    - Verdier** (f.eks.: S, M, L, XL),
-    - Eventuelle prisforskjeller** (f.eks.: `+2 USD` for XL).
+- **Navn** (f.eks. *Størrelse*),
+- **Verdier** (f.eks.: S, M, L, XL),
+- Eventuelle prisforskjeller (f.eks.: `+2 USD` for XL).
 
 
 
@@ -809,8 +810,8 @@ Systemet administrerer:
 
 
 
-- Reserverte varer** → produkter i kurver som ennå ikke er betalt
-- Solgt lager** → allerede kjøpte produkter
+- **Reserverte varer** → produkter i kurver som ennå ikke er betalt
+- **Solgt lager** → allerede kjøpte produkter
 
 
 
@@ -832,8 +833,8 @@ Kryss av for `Produktet har en fysisk komponent som skal sendes til kundens Addr
 
 
 
-- Billett**: Kryss av hvis produktet er en billett til et arrangement
-- Booking**: sjekk om dette er en reservasjonstid (f.eks. økt, avtale)
+- **Billett**: Kryss av hvis produktet er en billett til et arrangement
+- **Booking**: sjekk om dette er en reservasjonstid (f.eks. økt, avtale)
 
 
 
@@ -849,12 +850,13 @@ Denne delen bestemmer **hvor** og **hvordan** produktet kan vises og kjøpes:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Plattform        | Produkt Synlig | Kan Legges til Kurv |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (offentlig nettsted)        | ✔️              | ✔️                  |
+| Retail POS (salgssted)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (salg via bot)  | ✔️              | ✔️                  |
 
 Kryss bare av for de kanalene du ønsker å bruke.
 
@@ -898,7 +900,7 @@ Du kan legge til andre sider etter behov:
 
 
 
-**Tips: Klikk på hver lenke eller hvert ikon for å endre **innholdet**, **tittelen** eller **synligheten** på hver side.
+**Tips: Klikk på hver lenke eller hvert ikon for å endre innholdet, tittelen eller synligheten på hver side.**
 
 
 
@@ -983,7 +985,7 @@ Den kan også endres i `Pictures`, og lar deg vise et **sammendrag eller slagord
 
 
 
-Widgets** beriker CMS-sidene dine med dynamisk eller visuell Elements.
+**Widgets** beriker CMS-sidene dine med dynamisk eller visuell Elements.
 
 
 
@@ -1001,14 +1003,14 @@ Eksempler på tilgjengelige widgeter:
 
 
 
-- Utfordringer**: utfordringer eller oppdrag
-- Tagger**: kategorier eller nøkkelord
-- Slidere**: bildekaruseller
-- Spesifikasjoner**: Spesifikasjonstabeller
-- Skjemaer**: skjemaer (kontakt, tilbakemelding osv.)
-- Nedtellinger**: tidtakere
-- Gallerier**: bildegallerier
-- Ledertavler**: brukerrangeringer
+- **Utfordringer**: utfordringer eller oppdrag
+- **Tagger**: kategorier eller nøkkelord
+- **Slidere**: bildekaruseller
+- **Spesifikasjoner**: Spesifikasjonstabeller
+- **Skjemaer**: skjemaer (kontakt, tilbakemelding osv.)
+- **Nedtellinger**: tidtakere
+- **Gallerier**: bildegallerier
+- **Ledertavler**: brukerrangeringer
 
 
 
@@ -1024,14 +1026,15 @@ Bruk **kortkoder** i innholdet på CMS-sidene dine:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Mål                 | Tag å Sette Inn                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Vise et produkt      | `[Product=slug?display=img-1]`        |
+| Vise et bilde       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrere en glidebryter       | `[Slider=slug?autoplay=3000]`         |
+| Legge til en utfordring     | `[Challenge=slug]`                    |
+| Legge til en nedtelling | `[Countdown=slug]`                 |
+| Integrere et skjema   | `[Form=slug]`                         |
 
 **Gjeldende parametere**:
 
@@ -1133,7 +1136,7 @@ Du kan:
 
 
 
-**Denne delen er avgjørende for god logistikk og gode kunderelasjoner.
+**Denne delen er avgjørende for god logistikk og gode kunderelasjoner.**
 
 
 
@@ -1166,9 +1169,9 @@ Rapportene er delt inn i seksjoner:
 
 
 
-- Ordredetaljer**: antall ordrer, status (bekreftet, kansellert, ventende), utvikling
-- Produktdetaljer**: solgte produkter, antall, populære produkter
-- Betalingsdetaljer**: innsamlede beløp, fordelt på betalingsmåte
+- **Ordredetaljer**: antall ordrer, status (bekreftet, kansellert, ventende), utvikling
+- **Produktdetaljer**: soldte produkter, antall, populære produkter
+- **Betalingsdetaljer**: innsamlede beløp, fordelt på betalingsmåte
 
 
 
@@ -1189,7 +1192,7 @@ Hver seksjon inneholder en **Eksporter CSV**-knapp, som lar deg:
 
 
 
-**Ideell for resultatoppfølging, regnskap og presentasjoner.
+**Ideell for resultatoppfølging, regnskap og presentasjoner.**
 
 
 
@@ -1310,9 +1313,9 @@ Når du oppretter eller endrer et tema, kan du definere:
 
 
 
-- Farger**: for knapper, bakgrunner, tekst, lenker osv.
-- Skrifttyper**: valg av skrifttyper for titler, avsnitt og menyer
-- Grafiske stiler**: rammer, marginer, mellomrom, blokkformer
+- **Farger**: for knapper, bakgrunner, tekst, lenker osv.
+- **Skrifttyper**: valg av skrifttyper for titler, avsnitt og menyer
+- **Grafiske stiler**: rammer, marginer, mellomrom, blokkformer
 
 
 
@@ -1326,13 +1329,13 @@ Hver del av nettstedet kan justeres uavhengig av hverandre:
 
 
 
-- Header**: øverste navigasjonslinje
-- Brødtekst**: hovedinnhold
-- Footer**: nederst på siden
+- **Header**: øverste navigasjonslinje
+- **Brødtekst**: hovedinnhold
+- **Footer**: nederst på siden
 
 
 
-**Denne detaljeringsgraden sikrer konsistens mellom nettstedets visuelle uttrykk og merkevareidentiteten din.
+**Denne detaljeringsgraden sikrer konsistens mellom nettstedets visuelle uttrykk og merkevareidentiteten din.**
 
 
 
@@ -1351,7 +1354,7 @@ Når temaet er konfigurert:
 
 
 
-**Det aktive temaet er det som vil være synlig for besøkende.
+**Det aktive temaet er det som vil være synlig for besøkende.**
 
 
 
@@ -1377,12 +1380,12 @@ Hver e-post (ordrebekreftelse, glemt passord osv.) har:
 
 
 
-- Emne**: emnet for e-posten (f.eks. "Bestillingen din er validert")
-- HTML-tekst**: HTML-innhold som vises i e-posten
+- **Emne**: emnet for e-posten (f.eks. "Bestillingen din er validert")
+- **HTML-tekst**: HTML-innhold som vises i e-posten
 
 
 
-**Du kan sette inn tekst, bilder, lenker osv. etter behov.
+**Du kan sette inn tekst, bilder, lenker osv. etter behov.**
 
 
 
@@ -1444,9 +1447,9 @@ Fyll ut følgende felter:
 
 
 
-- Tagnavn**: tagnavn som vises
-- Slug**: unik identifikator (ingen mellomrom eller aksenter)
-- Tag Family**: grupperer tagger etter kategori
+- **Tagnavn**: tagnavn som vises
+- **Slug**: unik identifikator (ingen mellomrom eller aksenter)
+- **Tag Family**: grupperer tagger etter kategori
 
 
 
@@ -1479,9 +1482,9 @@ Disse feltene kan brukes til å berike en tagg som om den var en innholdsside:
 
 - Tittel
 - Undertittel
-- Kort** innhold
-- Fullstendig innhold** (på fransk)
-- CTAer** (handlingsknapper)
+- **Kort** innhold
+- **Fullstendig innhold** (på fransk)
+- **CTAer** (handlingsknapper)
 
 
 
@@ -1520,8 +1523,8 @@ For å tilby nedlastbare dokumenter til kundene dine: `Admin > Merch > Files`
 
 
 
-   - Filnavn** (f.eks. *Installasjonsveiledning*)
-   - Fil som skal lastes opp** (PDF, bilde, Word...)
+- **Filnavn** (f.eks. *Installasjonsveiledning*)
+- **Fil som skal lastes opp** (PDF, bilde, Word...)
 
 
 
@@ -1539,7 +1542,7 @@ Denne lenken kan deretter settes inn i:
 
 
 
-- CMS**-side (som tekstlenke eller knapp)
+- **CMS-side** (som tekstlenke eller knapp)
 - En **e-postklient** (via en mal)
 - Et **produktark** (f.eks. nedlasting av bruksanvisning)
 
@@ -1635,9 +1638,9 @@ Oversettelsesfilene er i JSON-format. Du kan:
 
 
 
-- Last ned** språkfiler
-- Endre** eksisterende tekster
-- Legg til** dine egne oversettelser
+- Last ned **språkfiler**
+- **Endre** eksisterende tekster
+- Legg til **dine egne oversettelser**
 
 
 
@@ -1678,9 +1681,9 @@ Hver rolle inneholder:
 
 
 
-- skrivetilgang**: skrivetilgang
-- lesetilgang**: lesetilgang
-- forbudt adgang**: seksjoner interdites
+- **skrivetilgang**: skrivetilgang
+- **lesetilgang**: lesetilgang
+- **forbudt adgang**: seksjoner interdites
 
 
 
@@ -1709,7 +1712,7 @@ Tilordne en tidligere definert rolle.
 
 
 
-Skrivebeskyttede** brukere vil se menyene i *kursiv skrift* og vil ikke kunne endre innholdet.
+**Skrivebeskyttede** brukere vil se menyene i *kursiv skrift* og vil ikke kunne endre innholdet.
 
 
 
@@ -1779,8 +1782,8 @@ To avanserte alternativer er tilgjengelige:
 
 
 
-- Fritak for merverdiavgift**: gjelder på grunnlag av begrunnelse (frivillige organisasjoner, utlendinger...)
-- Gaverabatt**: eksepsjonell rabatt med obligatorisk kommentar
+- **Fritak for merverdiavgift**: gjelder på grunnlag av begrunnelse (frivillige organisasjoner, utlendinger...)
+- **Gaverabatt**: eksepsjonell rabatt med obligatorisk kommentar
 
 
 
@@ -1805,7 +1808,7 @@ Plakat:
 
 
 
-**Kunden følger ordren live, mens selgeren registrerer den på `/pos`.
+**Kunden følger ordren live, mens selgeren registrerer den på `/pos`.**
 
 
 
@@ -1813,14 +1816,15 @@ Plakat:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funksjon                         | Beskrivelse                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS-rolle                         | Tilordnet via ARM                                         |
+| Hovedgrensesnitt             | `/pos` eller `/pos/touch`                                 |
+| Kundedisplay (skjerm 2)       | `/pos/session`                                         |
+| Betaling                         | Kontanter, kort, Lightning osv.                         |
+| Produkttillegg                    | Alias eller strekkodeskanning                              |
+| Rabatter / mva                    | Med obligatorisk ledelsesmessig begrunnelse              |
 
 Takk for at du følger denne veiledningen nøye.

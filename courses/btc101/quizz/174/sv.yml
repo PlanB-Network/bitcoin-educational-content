@@ -1,8 +1,13 @@
-question: Vilka är de typiska kostnaderna för en Miner?
-answer: Elförbrukning och inköp av hårdvara.
+question: På vilket sätt har Bitcoin integrerat sig ytterligare på den traditionella marknaden?
+answer: Ankomsten av Bitcoin ETF:er.
 wrong_answers:
-  - Endast inköp av hårdvara.
-  - Transaktionsavgifter.
-  - Elförbrukning och transaktionsavgifter.
-explanation: >-
-reviewed: false
+  - Förbudet mot Bitcoin.
+  - Försvinnandet av alla kryptovalutor.
+  - Skapandet av Bitcoin.
+explanation: |
+  Bitcoin fortsätter att överleva och växa ännu mer genom att
+  integrera sig mer och mer i den traditionella marknaden
+  marknaden. Ankomsten av Bitcoin ETF: er, tydligare reglering,
+  och bättre förvärv av lagringsverktyg uppmuntrar bara denna
+  trend.
+reviewed: true

@@ -14,7 +14,7 @@ För att uppnå detta skickar användarna sin input och en kryptografiskt blinde
 Denna metod säkerställer att koordinatorn varken kan äventyra deltagarnas anonymitet eller stjäla bitcoins under hela CoinJoin-processen.
 
 
-Det är svårt att med säkerhet avgöra vem som först introducerade idén om CoinJoin på Bitcoin, och vem som hade idén att använda David Chaums blinda signaturer i detta sammanhang. Man tror ofta att Gregory Maxwell var den första som diskuterade det i [ett meddelande på BitcoinTalk 2013] (https://bitcointalk.org/index.php?topic=279249.0):
+Det är svårt att med säkerhet avgöra vem som först introducerade idén om CoinJoin på Bitcoin, och vem som hade idén att använda David Chaums blinda signaturer i detta sammanhang. Man tror ofta att Gregory Maxwell var den första som diskuterade det i [ett meddelande på BitcoinTalk 2013](https://bitcointalk.org/index.php?topic=279249.0):
 
 
 > *"Genom att använda Chaum blinda signaturer: Användare ansluter och tillhandahåller inmatningar (och byter adresser) samt en kryptografiskt blinded-version av Address som de vill skicka sina privata mynt till; servern signerar tokens och returnerar dem. Användarna återansluter anonymt, avmaskerar sina utdataadresser och returnerar dem till servern. Servern kan se att alla utdata har signerats av honom och att alla utdata därför kommer från giltiga deltagare. Senare återansluter människor och signerar."*

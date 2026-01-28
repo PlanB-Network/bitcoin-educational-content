@@ -1,9 +1,9 @@
 question: Ni aina gani mbili za Wallet zinazozingatiwa kwenye wasifu wa Starter?
-answer: Pochi za Umeme zinazotunzwa na zisizo za ulinzi
+answer: Lightning Wallet zinazotunzwa na zisizo za ulinzi
 wrong_answers:
-  - Hot na Cold kuhifadhi pochi Bitcoin
-  - Multisig na pochi za karatasi za Bitcoin
-  - Vifaa na pochi za umeme za ubongo
+  - Hot na Cold kuhifadhi wallet Bitcoin
+  - Multisig na Wallet za karatasi za Bitcoin
+  - Vifaa na Lightning wallet za ubongo
 explanation: |
-  Wasifu wa Starter hutumia pochi za Umeme za uhifadhi au zisizo za ulezi.
-reviewed: false
+  Wasifu wa Starter hutumia Lightning wallet za uhifadhi au zisizo za ulezi.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Co dzieje się podczas konstruowania drzewa Merkle'a z transakcji, jeśli liczba skrótów na dowolnym poziomie jest nieparzysta?
+answer: Ostatni hash jest duplikowany, aby utworzyć parzystą liczbę par dla następnego poziomu
+wrong_answers:
+  - Ostatni hash jest przenoszony bez zmian do następnego poziomu bez parowania
+  - Ostatni skrót jest XORowany z pierwszym skrótem tego poziomu, aby zakończyć parowanie
+  - Ostatni hash jest łączony z hashem null (wszystkie zera), aby utworzyć ostateczną parę
+explanation: |
+  Konstrukcja drzewa Merkle'a Bitcoin wymaga parowania skrótów na każdym poziomie. Gdy istnieje nieparzysta liczba, protokół specjalnie duplikuje ostatni skrót, aby zapewnić prawidłowe parowanie. Pozwala to zachować binarną strukturę drzewa i zapewnia deterministyczne obliczanie korzenia. Inne opcje złamałyby kompatybilność z zasadami konsensusu Bitcoin i utworzyłyby różne korzenie Merkle dla identycznych zestawów transakcji.

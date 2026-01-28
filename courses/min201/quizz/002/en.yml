@@ -5,7 +5,7 @@ wrong_answers:
   - An ASIC is more versatile than a CPU
   - A CPU can perform only one type of calculation, whereas an ASIC can perform a multitude of different types of calculations
 explanation: |
-  ASICs are chips, comparable to a CPU chip, however, they
+  ASICs are chips, comparable to a CPU chip; however, they
   are developed to perform only one specific type of
   calculation in the most efficient way possible. In other
   words, a CPU is capable of performing a multitude of

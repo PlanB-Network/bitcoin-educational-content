@@ -1,0 +1,9 @@
+question: Mikä on Bitcoin Wallet:n päätehtävä?
+answer: Yksityisten avainten tallentaminen ja hallinta
+wrong_answers:
+  - Säilytä ja hallinnoi koko Blockchain
+  - Tarkista lohkon kelpoisuus
+  - Relay-verkon tapahtumat
+explanation: |
+  Bitcoin Wallet hallinnoi yksityisiä avaimia, joiden avulla bitcoineja voidaan käyttää, mutta ei suorita solmun toimintoja.
+reviewed: true

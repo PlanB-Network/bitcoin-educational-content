@@ -1,8 +1,0 @@
-question: Bitcoin protokolünün temel özelliklerinden biri nedir?
-answer: Tüm kullanıcılarına karşı tarafsızdır.
-wrong_answers:
-  - Belirli kullanıcıları diğerlerine göre kayırır.
-  - Belirli kullanıcılara karşı önyargılıdır.
-  - Sadece seçkin bir kullanıcı grubuna fayda sağlar.
-explanation: >-
-reviewed: true

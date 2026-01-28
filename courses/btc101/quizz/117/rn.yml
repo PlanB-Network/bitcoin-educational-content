@@ -1,10 +1,8 @@
-question: None Satoshi Nakamoto yazimiye ryari?
-answer: Muri 2010
+question: Ni iyihe verisiyo ya porogarama ya mbere ya Bitcoin yasohotse?
+answer: Bitcoin-0,1,0.
 wrong_answers:
-  - Muri 2008
-  - Muri 2009
-  - Muri 2023
-explanation: |
-  Satoshi Nakamoto yazimiye mu 2010, asiga ivyo yaremye .
-  mu maboko y’abanyagihugu.
+  - Bitcoin-0,0.1.
+  - Bitcoin-1,0,0.
+  - Bitcoin-0.1.1.
+explanation: >-
 reviewed: true

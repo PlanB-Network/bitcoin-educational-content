@@ -1,0 +1,9 @@
+question: 부정 행위 시 해지 키로 무엇을 할 수 있나요?
+answer: 사기꾼을 처벌하여 모든 자금을 회수하세요
+wrong_answers:
+  - Commitment Transaction 취소
+  - 채널 용량 두 배로 늘리기
+  - 채널에서 추가 트랜잭션 방지
+explanation: |
+  취소 키를 사용하면 상대방이 부정 행위를 시도하는 경우 문제를 제기한 당사자가 모든 자금을 회수할 수 있습니다.
+reviewed: true

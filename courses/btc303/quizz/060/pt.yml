@@ -1,0 +1,9 @@
+question: De acordo com a definição de código aberto, qual é o principal requisito relativo a taxas quando se redistribui software de código aberto como parte de uma distribuição agregada de software?
+answer: A licença não exigirá royalties ou outras taxas por essa venda
+wrong_answers:
+  - Deve ser cobrado um custo de reprodução razoável para cobrir as despesas de desenvolvimento
+  - As taxas de royalties são permitidas, mas não podem exceder 5% do preço de distribuição
+  - Podem ser exigidas taxas administrativas, mas apenas para redistribuições comerciais
+explanation: |
+  A definição de software de código aberto afirma explicitamente em "Redistribuição livre" que "A licença não deve exigir royalties ou outras taxas para tal venda" Isto significa que o software de código aberto deve ser livremente redistribuível sem taxas ou royalties obrigatórios. As outras opções sugerem incorretamente que são permitidos vários tipos de taxas, o que violaria o princípio fundamental da redistribuição livre que define o software de fonte aberta.
+reviewed: false

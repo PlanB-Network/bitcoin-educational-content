@@ -1,0 +1,8 @@
+question: Tại sao P2WSH sử dụng hàm băm SHA256 thay vì hàm băm SHA160 (RIPEMD160+SHA256) để xác thực kịch bản trong các chương trình chứng thực?
+answer: SHA256 cung cấp một hàm băm 32 byte giúp phân biệt P2WSH với hàm băm 20 byte của P2WPKH160 và mang lại tính bảo mật mạnh mẽ hơn cho các kịch bản phức tạp.
+wrong_answers:
+  - SHA256 có tốc độ tính toán nhanh hơn hash160, giúp giảm thời gian xác thực cho các giao dịch đa chữ ký phức tạp trong các kịch bản có thông lượng cao.
+  - "Hash160 đã bị loại bỏ trong SegWit do các lỗ hổng xung đột tiềm ẩn được phát hiện trong giai đoạn phát triển ban đầu của Bitcoin."
+  - SHA256 cho phép các tập lệnh chứng thực có kích thước lớn hơn 520 byte, trong khi hash160 áp đặt các giới hạn kích thước nghiêm ngặt đối với độ phức tạp của tập lệnh.
+explanation: |
+  P2WSH sử dụng SHA256 để tạo ra các mã băm 32 byte nhằm phân biệt rõ ràng với mã băm 20 byte hash160 của P2WPKH, cho phép các node xác định ngay lập tức phiên bản chương trình chứng thực. Mã băm dài hơn cũng cung cấp tính bảo mật nâng cao cho các kịch bản phức tạp có thể có giá trị cao hơn hoặc nhiều bề mặt tấn công hơn. Các lựa chọn khác không chính xác: SHA256 không nhất thiết nhanh hơn hash160, hash160 không bị loại bỏ do các lỗ hổng bảo mật, và việc lựa chọn hàm băm không ảnh hưởng đến giới hạn kích thước kịch bản.

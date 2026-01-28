@@ -6,4 +6,4 @@ wrong_answers:
   - Open a new Lightning channel
 explanation: |
   A Lightning invoice is a payment request, transmitted by the receiving node to the sending node to initiate a payment on the Lightning Network.
-reviewed: false
+reviewed: true

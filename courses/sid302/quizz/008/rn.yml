@@ -1,0 +1,8 @@
+question: Umuhinguzi ashaka kugerageza gutanga umutungo kuri Elements ata biva hanze canke arindiriye ivyemezo vy’amabuye - ni ubuhe buryo bakwiye gukoresha?
+answer: Gushiraho uruzitiro=elementsregtest kugira ngo ureme ibidukikije vy'igerageza ry'aho hantu n'uguhingura ububiko bw'aho hantu
+wrong_answers:
+  - Gushinga urudodo=liquidv1 kugira ngo uhuze n'urubuga rwa Liquid kugira ngo ugerageze vuba
+  - Koresha itegeko rya issueasset RPC n'ibendera rya --testmode ku bijanye n'iterambere ryitandukanije
+  - "Gutunganya uruzitiro=bitcoin-regtest kugira ngo ushikire ibiranga Elements mu bidukikije vy'igerageza vya Bitcoin"
+explanation: |
+  Ivyo bikoresho bituma haba ahantu ho kugerageza ivy’ugusubira inyuma aho abahinguzi bashobora gukora amabuye ya generate ubwo nyene bakoresheje amabwirizwa nka generateblock, bikabafasha kugerageza ugutanga umutungo n’ibindi bintu batarindiriye kwemezwa n’urubuga canke bivanye n’ibihimba vyo hanze. Gushinga uruzitiro=liquidv1 bifatanya n'urubuga rw'ubuhinga Liquid rufise ibihe vy'iminota 1 n'ibiva hanze. Itegeko rya issueasset ntirifise ibendera rya --testmode, kandi bitcoin-regtest ni irya Bitcoin Core, si ibikorwa vya Elements.

@@ -1,11 +1,9 @@
-question: Co je HashRate?
-answer: Počet výpočtů hash, které těžební zařízení může provést za sekundu pro vyřešení Proof of Work.
+question: Jaký význam má spotřeba energie při těžbě Bitcoinu?
+answer: Spotřeba energie je nezbytná pro vytvoření informací, ale ověření informací má zanedbatelné náklady. Tato asymetrie zaručuje bezpečnost sítě.
 wrong_answers:
-  - Rychlost, s jakou těžební zařízení může vyřešit Proof of Work.
-  - Celkový počet těžařů v síti Bitcoin.
-  - Celkové množství bitcoinů vytěžených prováděním určitého počtu pokusů za sekundu pro vyřešení Proof of Work.
+  - Náklady na energii jsou nezbytné pro napájení strojů ASIC používaných při těžbě, a ověření informací má vysoké náklady.
+  - Spotřeba energie je nezbytná pro udržení sítě Bitcoinu, a ověření informací má proměnlivé náklady.
+  - Náklady na energii nejsou nezbytné pro vytvoření nových bitcoinů.
 explanation: >-
-  HashRate odkazuje na celkový počet pokusů, které těžaři dělají
-  za sekundu pro vyřešení Proof of Work. Jedná se o míru výpočetního výkonu
-  sítě Bitcoin.
-reviewed: true
+  Náklady na energii při těžbě Bitcoinu jsou klíčovým aspektem bezpečnosti sítě. Vysoké náklady na energii při těžbě činí manipulaci s blockchainem extrémně drahou pro zákeřné aktéry, zatímco nízké náklady na ověřování transakcí zajišťují, že se kdokoli může zapojit do sítě.
+reviewed: false

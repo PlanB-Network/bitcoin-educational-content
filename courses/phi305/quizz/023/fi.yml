@@ -1,0 +1,9 @@
+question: Mitä on determinismi?
+answer: Käsitys maailmasta, jossa ei ole sattumanvaraisuutta eikä sattumaa.
+wrong_answers:
+  - Jumalan määräämä maailmankuva.
+  - Ateismin muoto.
+  - Taikausko.
+explanation: |
+  Determinismi on maailmankatsomus, jossa ei ole sattumanvaraisuutta eikä sattumaa. Jokainen tapahtuma on välttämätön seuraus edeltävistä syistä muuttumattomien luonnonlakien mukaisesti.
+reviewed: false

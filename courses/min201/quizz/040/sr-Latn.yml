@@ -1,9 +1,9 @@
-question: Šta Mining uspostavlja za Bitcoin?
-answer: Minimalna cena
+question: Šta rudarenje uspostavlja za Bitcoin?
+answer: Minimalnu cenu
 wrong_answers:
-  - Maksimalna cena
-  - Fiksna cena
-  - Promenljiva cena
+  - Maksimalnu cenu
+  - Fiksnu cenu
+  - Promenljivu ceni
 explanation: |
-  Mining uspostavlja minimalnu cenu za Bitcoin, ispod koje bi rudari prodavali sa gubitkom. Trošak Mining značajno utiče na cenu Bitcoin.
+  Rudarenje uspostavlja minimalnu cenu za Bitcoin, ispod koje bi rudari prodavali sa gubitkom. Trošak rudarenja značajno utiče na cenu Bitcoina.
 reviewed: true

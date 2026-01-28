@@ -19,7 +19,7 @@ Alby Hub on erittäin mukautuva työkalu. Se pystyy vastaamaan sekä aloittelijo
 Alby Hub on saatavana neljässä eri kokoonpanossa tarpeidesi mukaan:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 Ihanteellinen aloittelijoille, tämä ensimmäinen vaihtoehto on Albyn pilvivaihtoehto. Se mahdollistaa Hubin käyttöönoton suoraan Albyn hallinnoimalla palvelimella, johon pääsee Alby Hub -käyttöliittymän kautta. Vaikka Alby hallinnoi palvelinta, säilytät suvereniteetin varoihisi, koska avaimesi on salattu salasanalla, jonka vain sinä tiedät. Avaimet on kuitenkin pidettävä salauksenpurkamattomina RAM-muistissa, jotta solmu voi toimia, mikä teoreettisesti altistaa ne riskille, jos joku pääsee fyysisesti palvelimelle. Tämä on mielenkiintoinen kompromissi aloittelijoille, mutta on tärkeää olla tietoinen riskeistä.
 
@@ -53,7 +53,7 @@ Jos haluat asentaa paikallisesti tietokoneeseen, [lataa ja asenna ohjelmisto kä
 
 Ensimmäinen vaihe on luoda Alby-tili. Vaikka tämä ei ole välttämätöntä Alby Hubin käyttämiseksi, sen avulla voit hyödyntää kaikkia käytettävissä olevia vaihtoehtoja, kuten mahdollisuutta saada Lightning-osoite.
 
-Mene [Albyn viralliselle verkkosivustolle] (https://getalby.com/) ja napsauta "*Luo tili*" -painiketta.
+Mene [Albyn viralliselle verkkosivustolle](https://getalby.com/) ja napsauta "*Luo tili*" -painiketta.
 
 ![ALBY HUB](assets/fr/04.webp)
 
@@ -298,7 +298,7 @@ Palaa takaisin Alby Go -sovellukseen, skannaa QR-koodi tai liitä salaisuus.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Napsauta "Valmis*".
+Napsauta "Valmis".
 
 ![ALBY HUB](assets/fr/51.webp)
 
@@ -367,4 +367,4 @@ Nyt tiedät, miten Lightningia käytetään omassa solmussa Alby Hub -työkalun 
 
 Jotta ymmärtäisit yksityiskohtaisesti kaikki Salama-mekanismit, joita olemme käsitelleet tässä opetusohjelmassa, suosittelen sinua tutustumaan ilmaiseen koulutukseemme aiheesta :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

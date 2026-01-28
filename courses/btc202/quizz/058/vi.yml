@@ -1,0 +1,9 @@
+question: Hạn chế chính của giao tiếp Tor với nút của bạn là gì?
+answer: Sự chậm chạp
+wrong_answers:
+  - Thiếu mã hóa
+  - Thư rác
+  - Sự bất khả thi của việc sử dụng RPC
+explanation: |
+  Kết nối Tor an toàn nhưng chậm hơn so với các giải pháp thay thế như VPN.
+reviewed: true

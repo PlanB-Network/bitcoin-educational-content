@@ -1,0 +1,9 @@
+question: René Descartes?
+answer: Prethodi Spinozi.
+wrong_answers:
+  - Je naslednik Spinoze.
+  - Je švajcarski filozof.
+  - Je ateistički filozof.
+explanation: |
+  René Descartes (1596-1650) prethodi Spinozi i smatra se ocem modernog racionalizma. Spinoza je bio pod uticajem Descartesa, ali je razvio filozofski sistem koji se značajno razlikovao od kartezijanizma.
+reviewed: false

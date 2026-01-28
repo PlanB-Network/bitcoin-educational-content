@@ -1,0 +1,8 @@
+question: According to Rust's ownership system, how many owners can a value have at any given moment?
+answer: Exactly one owner
+wrong_answers:
+  - Multiple owners are allowed
+  - Two owners maximum
+  - No owners until accessed
+explanation: |
+  Rust's ownership system operates on three fundamental rules, with the first being that every value has exactly one owner at any given moment. This single ownership principle is crucial for memory safety because it prevents multiple parts of the program from trying to free the same memory or modify data simultaneously. Having multiple owners would lead to use-after-free bugs and data races, while having no owners would mean memory could never be properly cleaned up.

@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi surovou implementací a uzlem v krabici?
+answer: Přítomnost Interface a integrovaných aplikací
+wrong_answers:
+  - Kompatibilita se sítí
+  - Velikost Blockchain uložená na disku
+  - Použitý protokol a měna
+explanation: |
+  V případě surové implementace se instaluje pouze software uzlu, zatímco uzel v krabici přidává Interface, App Store a integrované služby.
+reviewed: true

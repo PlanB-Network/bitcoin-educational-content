@@ -1,0 +1,9 @@
+question: Igitabo cera ca Satoshi Nakamoto casohowe mu 2008 citwa ikihe?
+answer: Bitcoin Uburyo bwo gutanga amahera mu buryo bw'ubuhinga bwa none
+wrong_answers:
+  - Bitcoin Uburyo bw'inzahabu bw'ubuhinga bwa none
+  - Bitcoin Kazoza k'amahera
+  - Bitcoin Urubuga rwo kwishura rushingiye kuri Blockchain
+explanation: |
+  Igitabo cera ca Satoshi Nakamoto, Bitcoin Uburyo bwo gukoresha amahera y'ubuhinga bwa none, casohowe mu 2008.
+reviewed: true

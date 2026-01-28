@@ -1,12 +1,10 @@
-question: Güvene dayalı bir para biriminde ani bir değer kaybı veya güven kaybının potansiyel sonucu nedir?
-answer: Hiperenflasyon.
+question: 2'lik enflasyonun 5 yıl boyunca satın alma gücü üzerindeki etkisi nedir?
+answer: Satın alma gücünüzün %10'unu kaybedersiniz.
 wrong_answers:
-  - Deflasyon.
-  - İstikrarlı bir ekonomi.
-  - Para biriminin değerinde bir artış.
+  - Satın alma gücünüzün %2'sini kaybedersiniz.
+  - Satın alma gücünüzün %5'ini kaybedersiniz.
+  - Satın alma gücünüzün %20'sini kaybedersiniz.
 explanation: |
-  Ani bir değer kaybı ya da güvene dayalı bir kuruluşa duyulan güvenin azalması
-  para birimi hiperenflasyona yol açabilir. Bu bir durumdur
-  mal ve hizmet fiyatlarının yüksek bir oranda arttığı
-  son derece yüksektir ve genellikle ekonomik istikrarsızlığa yol açmaktadır.
+  2 enflasyon ile satın alma gücünüzün %2'sini kaybedersiniz
+  bu da 5 yılda %10'a denk gelmektedir.
 reviewed: true

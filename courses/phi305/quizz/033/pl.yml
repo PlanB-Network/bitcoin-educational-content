@@ -1,0 +1,9 @@
+question: Czy skutkiem jest inflacja strukturalna?
+answer: Zwiększenie pieniędzy Supply.
+wrong_answers:
+  - Wzrost cen
+  - Polityka fiskalna.
+  - Środki antyliberalne.
+explanation: |
+  Inflacja strukturalna jest wynikiem wzrostu ilości pieniądza Supply. Gdy ilość pieniądza w obiegu rośnie szybciej niż produkcja towarów i usług, prowadzi to do ogólnego wzrostu cen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Что такое узел Bitcoin?
+answer: Компьютер с программным обеспечением, реализующим протокол Bitcoin
+wrong_answers:
+  - Hardware Wallet, реализующий сеть Bitcoin
+  - Miner, производящий новые блоки для Bitcoin
+  - Центральный сервер, управляющий сетью Bitcoin и подтверждающий транзакции
+explanation: |
+  Узел Bitcoin - это компьютер с программным обеспечением, например, Bitcoin core, который реализует протокол и участвует в сети Bitcoin.
+reviewed: true

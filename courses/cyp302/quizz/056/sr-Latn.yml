@@ -5,5 +5,5 @@ wrong_answers:
   - Prsten
   - Matrica
 explanation: |
-  Grupa je fundamentalna algebarska struktura na kojoj se zasniva apstraktna algebra, definisana skupom Elements i binarnom operacijom koja poštuje određena svojstva.
-reviewed: false
+  Grupa je fundamentalna algebarska struktura na kojoj se zasniva apstraktna algebra, definisana skupom elemenata i binarnom operacijom koja poštuje određena svojstva.
+reviewed: true

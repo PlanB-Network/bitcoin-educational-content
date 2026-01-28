@@ -1,0 +1,9 @@
+question: Ni igiki gihambaye co gusenyera ku mugozi umwe n’ibihimba vy’umubiri biri ku bwato vya LN?
+answer: Ukwisunga umukoresha
+wrong_answers:
+  - Gutakaza imfunguruzo z'ibanga
+  - Nta kwirinda
+  - Ukwishura kuri onchain ni ngombwa ku bikorwa vyose vya Lightning
+explanation: |
+  Uwukoresha yizigira cane umukoresha mukuru ku bijanye n’uguhuza n’ugucungera imirongo.
+reviewed: false

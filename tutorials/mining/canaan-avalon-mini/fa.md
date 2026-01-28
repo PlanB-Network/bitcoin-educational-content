@@ -1,5 +1,5 @@
 ---
-name: کنعان آوالون مینی 3
+name: Canaan Avalon Mini 3
 description: پیکربندی ASIC Avalon برای استخراج انفرادی یا Miner pooling
 ---
 
@@ -23,7 +23,7 @@ description: پیکربندی ASIC Avalon برای استخراج انفرادی
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 لطفاً توجه داشته باشید که تفاوت قیمت با بخاری‌های سنتی با قدرت معادل، در اکثر موارد، به شما اجازه نمی‌دهد که سود مالی کسب کنید. ساتوشی‌های تولید شده توسط فعالیت Mining هرگز این تفاوت قیمت را جبران نخواهند کرد، مگر اینکه به برق رایگان (مازاد) یا بسیار ارزان دسترسی داشته باشید.
 
@@ -122,16 +122,17 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| ویژگی                                      | مقدار                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
-| Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| نرخ هش                                             | 37.5 Th/s +- 5%                                           |
+| مصرف برق                              | 800 W                                                     |
+| سر و صدا                                                | 35-55 dB                                                  |
+| دمای هوای خروجی                       | 60-70°C (در دمای محیط 25°C)                  |
+| نیازمندی های دمای محیط برای استفاده | -5° C - 40°C                                              |
+| محدوده ولتاژ ورودی دستگاه                         | 110V-240V AC 50/60Hz                                      |
+| اندازه دستگاه                                 | طول: 760 میلی متر / عمق: 104 میلی متر / ارتفاع: 214.5 میلی متر |
+| وزن دستگاه                                  |  8.35 kg                                                  |
 
 ## اتصال به Mining pool
 
@@ -181,9 +182,9 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 در مجموع، ما نیاز داریم به
 
@@ -358,4 +359,4 @@ https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

@@ -1,12 +1,12 @@
 ---
-name: COLDCARD Q - Avansert
+name: COLDCARD Q - Ekspert
 description: Bruke COLDCARD Qs avanserte alternativer
 ---
 ![cover](assets/cover.webp)
 
 I en tidligere veiledning gjennomgikk vi den første konfigurasjonen av COLDCARD Q og de grunnleggende funksjonene for nybegynnere. Hvis du nettopp har mottatt COLDCARD Q og ikke har konfigurert det ennå, anbefaler jeg at du starter med den veiledningen før du fortsetter her:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Denne nye veiledningen er dedikert til COLDCARD Qs avanserte alternativer, designet for avanserte og paranoide brukere. COLDCARDs skiller seg faktisk fra andre maskinvarelommebøker ved sine mange avanserte sikkerhetsfunksjoner. Du trenger selvfølgelig ikke å bruke alle disse alternativene. Bare velg de som passer din sikkerhetsstrategi.
 
@@ -20,7 +20,7 @@ Før du begynner, må du sørge for at du har tilgang til en fysisk sikkerhetsko
 
 Hvis du ikke vet hva en BIP39-passordfrase er, eller hvis det ikke er helt klart for deg hvordan den fungerer, anbefaler jeg på det sterkeste at du tar en titt på denne veiledningen på forhånd, som dekker det teoretiske grunnlaget som trengs for å forstå risikoen forbundet med å bruke en passordfrase :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Husk at når du har satt opp passordfrasen i lommeboken din, vil ikke huskeregelen alene være nok til å få tilgang til bitcoinsene dine igjen. Du trenger både huskeregelen og passordfrasen. I tillegg må du oppgi passordfrasen hver gang du låser opp COLDCARD Q. Dette øker sikkerheten ved å gjøre fysisk tilgang til COLDCARD og kjennskap til PIN-koden utilstrekkelig uten passordfrasen.
 
@@ -28,7 +28,7 @@ På COLDCARDs har du to alternativer for å administrere passordfrasen din:
 
 1. **Klassisk inntasting:** Du taster inn passordfrasen manuelt hver gang du bruker maskinvarelommeboken, akkurat som du gjør med andre maskinvarelommebøker. COLDCARD Q forenkler denne oppgaven med sitt komplette tastatur.
 
-2. **Du kan velge å kryptere passordfrasen og lagre den på et microSD-kort. I så fall må du sette microSD-kortet inn i COLDCARD Q hver gang du bruker det. Vær oppmerksom på at dette microSD-kortet bare fungerer på COLDCARD Q og ikke er en sikkerhetskopi. Det er derfor svært viktig at du også oppbevarer en kopi av passordfrasen din på et fysisk medium, for eksempel papir eller metall.
+2. **Du kan velge å kryptere passordfrasen og lagre den på et microSD-kort. I så fall må du sette microSD-kortet inn i COLDCARD Q hver gang du bruker det. Vær oppmerksom på at dette microSD-kortet bare fungerer på COLDCARD Q og ikke er en sikkerhetskopi. Det er derfor svært viktig at du også oppbevarer en kopi av passordfrasen din på et fysisk medium, for eksempel papir eller metall.**
 
 For å angi passordfrasen for BIP39 går du til menyen "*Passphrase*".
 
@@ -68,7 +68,7 @@ Bekreft at fingeravtrykket som vises, stemmer overens med lommeboken din, og kli
 
 Husk at bruk av en passordfrase betyr at du må importere et nytt sett med nøkler som er avledet fra kombinasjonen av den mnemoniske frasen og passordfrasen i lommebokadministrasjonsprogramvaren din (som Sparrow Wallet). For å gjøre dette, følg trinnet "*Konfigurer en ny lommebok på Sparrow*" i denne andre veiledningen :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Låser opp alternativer
 
@@ -112,7 +112,7 @@ Velg deretter handlingen som skal utføres automatisk hver gang du taster inn de
 ![CCQ](assets/fr/16.webp)
 
 
-- "*Nedtelling ved innlogging*": Denne menyen grupperer handlinger med en nedtelling før de utføres. **Noen av dem kan ødelegge enheten din eller føre til tap av bitcoins. Her er de tilgjengelige underhandlingene:
+- **Nedtelling ved innlogging**: Denne menyen grupperer handlinger med en nedtelling før de utføres. **Noen av dem kan ødelegge enheten din eller føre til tap av bitcoins.** Her er de tilgjengelige underhandlingene:
  - "*Wipe & Countdown* : Sletter seed fra minnet på COLDCARD, og starter deretter en nedtelling på én time. Hvis du ikke lagrer mnemonikken eller passordfrasen din, vil bitcoinsene dine gå tapt. Dette alternativet er utformet for å lure en angriper til å tro at enheten vil låses opp ved slutten av nedtellingen, mens den i virkeligheten vil tilbakestilles til fabrikkinnstillingene.
  - "*Nedtelling og murstein*": Starter en nedtelling på én time, og på slutten av nedtellingen ødelegger COLDCARD sine to sikkerhetsbrikker, noe som gjør det permanent ubrukelig. Uten backup vil bitcoinsene dine gå tapt. Denne handlingen er utformet for å lure en angriper, som tror at han venter på en opplåsing, mens enheten i virkeligheten vil selvdestruere.
  - "*Just Countdown* : Utløser en enkel nedtelling på én time, hvoretter COLDCARD starter på nytt uten ytterligere tiltak. Frøet slettes ikke, og enheten forblir intakt. Vær forsiktig så du ikke forveksler denne handlingen med alternativet "*Login Countdown*", som omtales i de følgende avsnittene, og som legger til en nedtelling til hoved-PIN-koden samtidig som det gir tilgang til den virkelige lommeboken.
@@ -202,7 +202,7 @@ Fra nå av vises en fungerende kalkulator med grunnleggende kommandoer hver gang
 
 ![CCQ](assets/fr/34.webp)
 
-Du kan for eksempel beregne SHA256-hashingen av "*Plan B Network*".
+Du kan for eksempel beregne SHA256-hashingen av "*Plan ₿ Academy*".
 
 ![CCQ](assets/fr/35.webp)
 
@@ -247,4 +247,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være veldig takknemlig hvis d
 
 Jeg anbefaler også denne andre veiledningen, der vi diskuterer bruken av en direkte konkurrent til CCQ, Ledger Flex :
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

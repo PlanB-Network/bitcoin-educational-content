@@ -16,11 +16,11 @@ description: Alby Go mobil uygulaması için kılavuz
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(tavsiye edilir)*
-- Umbrel**, **Start9**, **RaspiBlitz** (**Alby Hub** aracılığıyla)
-- Coinos** *(test edilmemiş)*
-- Primal** *(test edilmemiş)*
-- Minibits** *(test edilmemiş)*
+- [Alby Hub](https://albyhub.com/) **(tavsiye edilir)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (**Alby Hub** aracılığıyla)
+- **Coinos** *(test edilmemiş)*
+- **Primal** *(test edilmemiş)*
+- **Minibits** *(test edilmemiş)*
 
 
 NWC özellikli hizmetlerin çoğu çalışmalıdır. Yeni bir tanesini test ediyorsanız, sonuçlarınızı topluluğa bildirin!
@@ -33,9 +33,9 @@ Büyük platformlarda mevcuttur:
 
 
 
-- iOS:** [App Store'dan indirin](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Google Play'den indirin](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [App Store'dan indirin](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Google Play'den indirin](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 
@@ -123,6 +123,6 @@ Bitcoin'ünüzü gittiğiniz her yere götürün.
 - 🧷 Cüzdan ekleme, kaldırma ve dışa aktarma
 
 
-**💡 Yardıma mı ihtiyacınız var?
+**💡 Yardıma mı ihtiyacınız var?**
 
 Destek ve güncellemeler için getalby.com adresini ziyaret edin.

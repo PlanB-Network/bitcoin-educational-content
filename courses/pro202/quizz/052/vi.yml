@@ -1,0 +1,8 @@
+question: Ưu điểm chính mà bằng chứng Merkle mang lại cho khách hàng SPV (Xác minh thanh toán đơn giản) khi xác thực giao dịch là gì?
+answer: Chúng cho phép xác minh việc bao gồm giao dịch mà không cần tải xuống toàn bộ khối, chỉ cần vài trăm byte ngay cả đối với các khối có hàng nghìn giao dịch.
+wrong_answers:
+  - Chúng loại bỏ nhu cầu xác minh mã băm khối so với mục tiêu độ khó, giảm yêu cầu tính toán cho các máy khách nhẹ.
+  - Chúng cung cấp bằng chứng mật mã giúp ngăn chặn các cuộc tấn công double-spending bằng cách xác thực tất cả các dữ liệu đầu vào giao dịch trong khối.
+  - Chúng cho phép các khách hàng SPV tái tạo lại toàn bộ lịch sử giao dịch mà không cần kết nối đồng thời với nhiều nút đầy đủ.
+explanation: |
+  Bằng chứng Merkle khai thác thuộc tính tăng trưởng logarit của cây Merkle, cho phép các máy khách SPV xác minh việc bao gồm giao dịch chỉ bằng các hàm băm anh em dọc theo đường dẫn đến gốc. Điều này chỉ yêu cầu vài trăm byte bất kể kích thước khối, làm cho nó trở nên thiết thực đối với các máy khách nhẹ. Các câu trả lời sai nhầm lẫn bằng chứng Merkle với các cơ chế Bitcoin khác - chúng không loại bỏ việc xác minh độ khó, không ngăn chặn double-spending trực tiếp và không tái tạo lịch sử giao dịch.

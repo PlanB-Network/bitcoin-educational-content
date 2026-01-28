@@ -5,7 +5,7 @@ description: Installatie van je RoninDojo v2 Bitcoin knooppunt op een Raspberry 
 ![cover RoninDojo v2](assets/cover.webp)
 
 
-***WAARSCHUWING:** Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, zijn bepaalde functies van RoninDojo, zoals Whirlpool, niet langer operationeel. Het is echter mogelijk dat deze tools in de komende weken worden hersteld of op een andere manier opnieuw worden gelanceerd. Bovendien, omdat de RoninDojo code werd gehost op Samourai's GitLab, dat ook in beslag werd genomen, is het momenteel niet mogelijk om de code op afstand te downloaden. De RoninDojo teams werken waarschijnlijk aan het opnieuw publiceren van de code.*
+**WAARSCHUWING:** Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, zijn bepaalde functies van RoninDojo, zoals Whirlpool, niet langer operationeel. Het is echter mogelijk dat deze tools in de komende weken worden hersteld of op een andere manier opnieuw worden gelanceerd. Bovendien, omdat de RoninDojo code werd gehost op Samourai's GitLab, dat ook in beslag werd genomen, is het momenteel niet mogelijk om de code op afstand te downloaden. De RoninDojo teams werken waarschijnlijk aan het opnieuw publiceren van de code.*
 
 
 we volgen de ontwikkelingen van deze zaak en de ontwikkelingen met betrekking tot de bijbehorende tools op de voet. Wees gerust dat we deze handleiding zullen bijwerken zodra er nieuwe informatie beschikbaar is._
@@ -20,7 +20,7 @@ deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. W
 
 In een vorige tutorial hebben we al uitgelegd hoe je RoninDojo v1 installeert en gebruikt. Het afgelopen jaar hebben de RoninDojo teams echter versie 2 van hun implementatie gelanceerd, wat een belangrijk keerpunt betekende in de architectuur van de software. Ze zijn namelijk afgestapt van de Linux Manjaro distributie ten gunste van Debian. Daarom bieden ze niet langer een voorgeconfigureerd image voor automatische installatie op de Raspberry Pi. Maar er is nog wel een methode voor handmatige installatie. Dit is wat ik heb gebruikt voor mijn eigen node, en sindsdien werkt RoninDojo v2 fantastisch op mijn Raspberry Pi 4. Daarom bied ik een nieuwe tutorial aan over hoe je RoninDojo v2 handmatig installeert op een Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## Inhoudsopgave:
 
@@ -56,7 +56,7 @@ Nu we RoninDojo hebben geschetst, laten we samen kijken hoe we dit knooppunt kun
 
 ## Welke hardware moet ik kiezen om RoninDojo v2 te installeren?
 
-RoninDojo biedt een afbeelding voor de automatische installatie van zijn software op een [RockPro64] (https://ronindojo.io/en/download). Onze handleiding richt zich echter op de handmatige installatieprocedure op een Raspberry Pi 4. Hoewel de Raspberry Pi 5 onlangs gelanceerd is, en deze handleiding theoretisch compatibel zou moeten zijn met dit nieuwe model, heb ik nog niet de kans gehad om het persoonlijk te testen, en ik heb geen feedback uit de gemeenschap gevonden. Zodra ik de Pi 5 en compatibele onderdelen heb, zal ik deze handleiding bijwerken om jullie op de hoogte te houden. In de tussentijd raad ik aan om voorrang te geven aan de Pi 4, omdat die perfect werkt voor mijn knooppunt.
+RoninDojo biedt een afbeelding voor de automatische installatie van zijn software op een [RockPro64](https://ronindojo.io/en/download). Onze handleiding richt zich echter op de handmatige installatieprocedure op een Raspberry Pi 4. Hoewel de Raspberry Pi 5 onlangs gelanceerd is, en deze handleiding theoretisch compatibel zou moeten zijn met dit nieuwe model, heb ik nog niet de kans gehad om het persoonlijk te testen, en ik heb geen feedback uit de gemeenschap gevonden. Zodra ik de Pi 5 en compatibele onderdelen heb, zal ik deze handleiding bijwerken om jullie op de hoogte te houden. In de tussentijd raad ik aan om voorrang te geven aan de Pi 4, omdat die perfect werkt voor mijn knooppunt.
 
 Zelf draai ik RoninDojo op een Raspberry Pi met 8 GB RAM. Hoewel sommige leden van de gemeenschap erin geslaagd zijn om het werkend te krijgen op apparaten met slechts 4 GB RAM, heb ik deze configuratie zelf niet getest. Gezien het kleine prijsverschil lijkt het verstandig om te kiezen voor de 8 GB RAM versie. Dit kan ook handig zijn als je van plan bent om je Raspberry Pi in de toekomst voor andere doeleinden te gebruiken.
 
@@ -333,7 +333,7 @@ Eenmaal op de RoninUI homepage, zal je gevraagd worden om de setup te starten. K
 ![lets start](assets/notext/25.webp)
 
 
-In dit stadium geeft RoninUI je je `root` wachtwoord. Het is essentieel om het veilig te bewaren. Je kunt kiezen voor een fysieke back-up, op papier, of sla het op in een [wachtwoordmanager] (https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+In dit stadium geeft RoninUI je je `root` wachtwoord. Het is essentieel om het veilig te bewaren. Je kunt kiezen voor een fysieke back-up, op papier, of sla het op in een [wachtwoordmanager](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 
 ![root password](assets/notext/26.webp)
@@ -391,7 +391,7 @@ Gefeliciteerd! Je RoninDojo v2 knooppunt is nu geconfigureerd en klaar voor gebr
 **Als je migreert van een oud RoninDojo v1 knooppunt** naar deze nieuwe versie met deze tutorial en je behoudt dezelfde SSD, dan zou je knooppunt automatisch de bestaande gegevens op de schijf moeten detecteren en hergebruiken, zodat je de IBD niet opnieuw hoeft uit te voeren. In dit geval hoef je alleen maar te wachten tot je node opnieuw synchroniseert met de nieuwste blokken.
 
 
-### Stap 8: "veth* fix"
+### Stap 8: "veth fix"
 
 Als je een bug tegenkomt met je RoninDojo v2 op Raspberry Pi, waar na een probleemloze installatie, je node plotseling onbereikbaar wordt via SSH maar herstelt na een eenvoudige herstart, dan moet je deze stap 8 volgen. Deze veelvoorkomende bug kan eenvoudig verholpen worden met een oplossing ontwikkeld door de gemeenschap: de "_veth fix_". Deze kleine correctie verhelpt de abrupte verbroken verbinding permanent. Dit is hoe je het toepast.
 
@@ -409,7 +409,7 @@ Als bijvoorbeeld het IP Address van je knooppunt `192.168.1.40` is, dan zou het 
 U wordt gevraagd om het gebruikerswachtwoord in te voeren. Voer het in en druk op `enter` om te bevestigen. Je krijgt dan toegang tot de RoninCLI Interface. Gebruik de pijltjes van je toetsenbord om naar de `Exit RoninDojo` optie te gaan en druk op `enter` om deze te selecteren.
 
 
-Op dit punt ben je in de terminal van je node, met een opdrachtprompt die lijkt op: `ronindojo@RoninDojo:~ $`. Om de veth* fix toe te passen typ je het volgende commando en druk je op `enter`:
+Op dit punt ben je in de terminal van je node, met een opdrachtprompt die lijkt op: `ronindojo@RoninDojo:~ $`. Om de **veth** fix toe te passen typ je het volgende commando en druk je op `enter`:
 
 `sudo nano /etc/dhcpcd.conf`
 
@@ -479,7 +479,7 @@ Om je Samourai Wallet aan je Dojo te koppelen, scan je gewoon deze QR-code tijde
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-Als je al een Samourai Wallet had voordat je je Ronin Dojo instelde, is het nodig om een back-up te maken van je Wallet, de Samourai Wallet app te verwijderen en vervolgens opnieuw te installeren, voordat je je Wallet herstelt. Na het starten van de opnieuw geïnstalleerde app, heb je de optie om verbinding te maken met een nieuwe Dojo. **Zorg ervoor dat je de back-up van je Samourai Wallet in je bestanden hebt en controleer de geldigheid van je passphrase via `Instellingen > Problemen oplossen > passphrase`. Het is ook belangrijk om een leesbare back-up van je herstelzin en je passphrase te hebben. Voor meer precisie in deze handeling, is het aan te raden om deze gedetailleerde tutorial te volgen: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Als je al een Samourai Wallet had voordat je je Ronin Dojo instelde, is het nodig om een back-up te maken van je Wallet, de Samourai Wallet app te verwijderen en vervolgens opnieuw te installeren, voordat je je Wallet herstelt. Na het starten van de opnieuw geïnstalleerde app, heb je de optie om verbinding te maken met een nieuwe Dojo. **Zorg ervoor dat je de back-up van je Samourai Wallet in je bestanden hebt en controleer de geldigheid van je passphrase via** `Instellingen > Problemen oplossen > passphrase`. **Het is ook belangrijk om een leesbare back-up van je herstelzin en je passphrase te hebben. Voor meer precisie in deze handeling, is het aan te raden om deze gedetailleerde tutorial te volgen:** [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
 
 
 ### Uw eigen Mempool.ruimte Block explorer gebruiken
@@ -532,7 +532,7 @@ Een gedetailleerde tutorial is in voorbereiding om je stap voor stap door het pr
 Voor een dieper begrip van CoinJoin en het gebruik ervan op Bitcoin, nodig ik je ook uit om dit andere artikel te raadplegen: CoinJoin begrijpen en gebruiken op Bitcoin, waar ik alles wat je moet weten over deze techniek in detail beschrijf.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Whirlpool Stat Tool (WST) gebruiken
 
@@ -543,7 +543,7 @@ Na het uitvoeren van coinjoins met Whirlpool is het handig om het bereikte priva
 Om de berekeningsmechanismen van deze anonsets beter te begrijpen, raad ik je aan het artikel te lezen: REMIX - Whirlpool, waarin de werking van deze indices gedetailleerd wordt beschreven.
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 
@@ -746,7 +746,7 @@ Hier zien we dat de kans dat elke output afkomstig is van input 0 100% is. Een l
 Een transactie van het Whirlpool type bijvoorbeeld heeft geen deterministische koppelingen en heeft daarom een indicator en ratio van 0%. Aan de andere kant, in onze tweede onderzochte transactie (met één input en twee outputs), is de indicator ingesteld op 2 en de ratio bereikt 100%. Een nulindicator duidt dus op een uitstekende privacy dankzij de afwezigheid van directe en onbetwistbare links tussen inputs en outputs.
 
 
-**Hoe krijg ik toegang tot de Boltzmann Calculator op RoninDojo?
+**Hoe krijg ik toegang tot de Boltzmann Calculator op RoninDojo?**
 
 Om toegang te krijgen tot het gereedschap *Boltzmann Calculator* ga je naar RoninCLI. Open hiervoor een terminal op je computer en maak een SSH-verbinding met je knooppunt met het volgende commando: `SSH ronindojo@[IP]`
 
@@ -807,9 +807,9 @@ Controleer of alle transacties correct zijn vermeld. Het is ook belangrijk om te
 Naast deze tool zit het tabblad `Onderhoud` van RoninUI vol met andere handige functies:
 
 
-- Transactietool*: Hiermee kunnen de details van een bepaalde transactie worden bekeken;
-- Address-tool*: Hiermee kun je de tracking van een bepaalde Address door je Dojo bevestigen;
-- Blokken opnieuw scannen*: Forceert je knooppunt om een nieuwe scan uit te voeren van een opgegeven blokbereik.
+- **Transactietool**: Hiermee kunnen de details van een bepaalde transactie worden bekeken;
+- **Address-tool**: Hiermee kun je de tracking van een bepaalde Address door je Dojo bevestigen;
+- **Blokken opnieuw scannen**: Forceert je knooppunt om een nieuwe scan uit te voeren van een opgegeven blokbereik.
 
 
 De `Push Tx` tab is een andere interessante functie van RoninUI, die het mogelijk maakt om een ondertekende transactie uit te zenden op het Bitcoin netwerk. De transactie moet in hexadecimale vorm worden ingevoerd.
@@ -835,3 +835,4 @@ Daar heb je het! Bedankt dat je deze tutorial tot het einde hebt gevolgd. Als je
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

@@ -1,0 +1,9 @@
+question: PRNG와 TRNG의 주요 차이점은 무엇인가요?
+answer: PRNG는 결정론적이지만 TRNG는 진정한 난수를 생성합니다.
+wrong_answers:
+  - PRNG는 많은 수의 경우 TRNG보다 빠릅니다.
+  - PRNG는 TRNG가 아닌 암호화에만 사용됩니다.
+  - PRNG는 개인 키를 사용하고, TRNG는 공개 키를 사용합니다.
+explanation: |
+  PRNG는 결정론적이기 때문에 TRNG와 달리 초기 상태의 시퀀스를 재생산할 수 있습니다.
+reviewed: false

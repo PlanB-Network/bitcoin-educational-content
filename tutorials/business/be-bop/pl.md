@@ -62,10 +62,10 @@ Konieczne będzie skonfigurowanie zasobnika i podanie następujących informacji
 
 
 
-- S3_BUCKET**: nazwa zasobnika
-- S3_ENDPOINT_URL**: link dostępu do usługi S3
-- S3_KEY_ID** i S3_KEY_SECRET: kody dostępu
-- S3_REGION**: region usługi S3
+- **S3_BUCKET**: nazwa zasobnika
+- **S3_ENDPOINT_URL**: link dostępu do usługi S3
+- **S3_KEY_ID** i **S3_KEY_SECRET**: kody dostępu
+- **S3_REGION**: region usługi S3
 
 
 
@@ -94,8 +94,8 @@ Potrzebne będą następujące zmienne:
 
 
 
-- MONGODB_URL**: połączenie z bazą danych Address
-- MONGODB_DB**: nazwa bazy danych
+- **MONGODB_URL**: połączenie z bazą danych Address
+- **MONGODB_DB**: nazwa bazy danych
 
 
 
@@ -255,12 +255,13 @@ be-BOP umożliwia przyjmowanie płatności Bitcoin bezpośrednio na Blockchain (
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Pole                  | Opis                                               | Przykład do Użytku                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **Standard BIP**       | Typ używanego adresowania                               | BIP84 (dla adresów w formacie bech32 zaczynających się od `bc1`) |
+| **Rozszerzony Klucz Publiczny** | Twój Zpub (lub Xpub w zależności od używanego portfela)        | `zpub...` (wyodrębniony z Twojego portfela Bitcoin) |
+| **Derivation Index**   | Indeks początkowy do generowania adresów         | `1`                                              |
+| **Adres URL Mempool**        | Adres URL usługi mempool używanej do śledzenia transakcji | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -348,7 +349,7 @@ Kroki konfiguracji:
 
 
 
-**Uwaga:** Musisz mieć konto firmowe PayPal, aby generate te identyfikatory. Można je uzyskać za pośrednictwem portalu [deweloperskiego] (https://developer.paypal.com)
+**Uwaga:** Musisz mieć konto firmowe PayPal, aby generate te identyfikatory. Można je uzyskać za pośrednictwem portalu [deweloperskiego](https://developer.paypal.com)
 
 
 
@@ -474,8 +475,8 @@ Konfiguracja **Top Bar** pozwala spersonalizować identyfikację wizualną oprog
 
 
 - W polu `Nazwa marki` wprowadź nazwę swojej firmy, organizacji lub produktu. Nazwa ta pojawi się w górnej części Interface i będzie reprezentować główną identyfikację wizualną.
-- Wskaż tytuł strony**: wybrany tytuł powinien podsumowywać cel platformy. Tytuł ten może pojawić się w nagłówku lub na karcie przeglądarki.
-- Dodaj opis witryny**: w tym miejscu należy wprowadzić krótki opis swojej inicjatywy. Opis ten pomaga kontekstualizować narzędzie dla użytkowników i może być również wykorzystywany do celów SEO.
+- **Wskaż tytuł strony**: wybrany tytuł powinien podsumowywać cel platformy. Tytuł ten może pojawić się w nagłówku lub na karcie przeglądarki.
+- **Dodaj opis witryny**: w tym miejscu należy wprowadzić krótki opis swojej inicjatywy. Opis ten pomaga kontekstualizować narzędzie dla użytkowników i może być również wykorzystywany do celów SEO.
 
 
 
@@ -497,10 +498,10 @@ Sekcja `Links` na górnym pasku umożliwia dodawanie skrótów do ważnych stron
 
 
 
-- Wprowadź nazwę linku (tekst)**: w polu `Text` wprowadź nazwę lub etykietę linku, tak jak będzie się ona wyświetlać (np. Strona główna, Kontakt, Pomoc...).
-- Wskaż link Address (Url)**: w polu `Url` wprowadź pełny Address strony docelowej (wewnętrznej lub zewnętrznej).
-- Dodaj inne linki, jeśli to konieczne**: każda linia konfiguracji pozwala dodać dodatkowy link przy użyciu pól `Text` i `Url`.
-- Zapisz linki**: po wprowadzeniu wszystkich linków kliknij przycisk "Dodaj link na górnym pasku", aby je zapisać.
+- **Wprowadź nazwę linku (tekst)**: w polu `Text` wprowadź nazwę lub etykietę linku, tak jak będzie się ona wyświetlać (np. Strona główna, Kontakt, Pomoc...).
+- Wskaź link **Address (Url)**: w polu `Url` wprowadź pełny Address strony docelowej (wewnętrznej lub zewnętrznej).
+- Dodaj inne linki, jeśli to konieczne: każda linia konfiguracji pozwala dodać dodatkowy link przy użyciu pól `Text` i `Url`.
+- Zapisz linki: po wprowadzeniu wszystkich linków kliknij przycisk **"Dodaj link na górnym pasku"**, aby je zapisać.
 
 
 
@@ -522,10 +523,10 @@ Sekcja **Navbar** pozwala skonfigurować główne menu nawigacyjne be-BOP, zwykl
 
 
 
-- Wprowadź nazwę linku (`Text`)**: w linii konfiguracji zacznij od wypełnienia pola `Text`. Odpowiada to nazwie linku wyświetlanego na pasku nawigacyjnym (przykłady: *Dashboard*, *Users*, *Settings*...).
-- Wprowadź link Address (`Url`)**: obok pola `Text` znajduje się pole `Url`. W tym polu wprowadź Address strony, do której link powinien przekierowywać. Może to być trasa wewnętrzna lub link do strony zewnętrznej.
-- Dodaj wiele linków w razie potrzeby**: poniżej pierwszej linii dostępne są nowe pola `Text` i `Url`, umożliwiające dodanie dowolnej liczby linków. Każda linia reprezentuje dodatkowy link nawigacyjny.
-- Zapisz linki**: po wprowadzeniu wszystkich Elements, kliknij przycisk `Dodaj link paska nawigacyjnego`, aby zapisać i wyświetlić wyniki na pasku nawigacyjnym.
+- Wprowadź nazwę linku (`Text`): w linii konfiguracji zacznij od wypełnienia pola `Text`. Odpowiada to nazwie linku wyświetlanego na pasku nawigacyjnym (przykłady: *Dashboard*, *Users*, *Settings*...).
+- Wprowadź link Address (`Url`): obok pola `Text` znajduje się pole `Url`. W tym polu wprowadź Address strony, do której link powinien przekierowywać. Może to być trasa wewnętrzna lub link do strony zewnętrznej.
+- **Dodaj wiele linków w razie potrzeby**: poniżej pierwszej linii dostępne są nowe pola `Text` i `Url`, umożliwiające dodanie dowolnej liczby linków. Każda linia reprezentuje dodatkowy link nawigacyjny.
+- Zapisz linki: po wprowadzeniu wszystkich Elements, kliknij przycisk `Dodaj link paska nawigacyjnego`, aby zapisać i wyświetlić wyniki na pasku nawigacyjnym.
 
 
 
@@ -547,11 +548,11 @@ Sekcja **Stopka** pozwala dostosować stopkę oprogramowania, dodając przydatne
 
 
 
-- Włącz wyświetlanie etykiety "Powered by be-BOP "**: aktywuj przycisk `Wyświetl Powered by be-BOP`, aby wyświetlić tę etykietę w stopce.
-- Wprowadź nazwę linku (`Text`)**: wypełnij pole `Text`, które odpowiada treści linku w stopce (przykłady: *Terms*, *Privacy*, *Contact*...).
-- Wskaż link Address (`Url`)**: w polu `Url` wprowadź Address strony docelowej (wewnętrznej lub zewnętrznej).
-- Dodaj więcej linków w razie potrzeby**: użyj dodatkowych linii, aby utworzyć dowolną liczbę linków.
-- Zapisz linki**: kliknij przycisk "Dodaj link stopki", aby zapisać linki.
+- Włącz wyświetlanie etykiety **"Powered by be-BOP"**: aktywuj przycisk `Wyświetl Powered by be-BOP`, aby wyświetlić tę etykietę w stopce.
+- Wprowadź nazwę linku (**Text**): wypełnij pole `Text`, które odpowiada treści linku w stopce (przykłady: *Terms*, *Privacy*, *Contact*...).
+- Wskaż link Address (`Url`): w polu `Url` wprowadź Address strony docelowej (wewnętrznej lub zewnętrznej).
+- **Dodaj więcej linków w razie potrzeby**: użyj dodatkowych linii, aby utworzyć dowolną liczbę linków.
+- **Zapisz linki**: kliknij przycisk "Dodaj link stopki", aby zapisać linki.
 
 
 
@@ -641,8 +642,8 @@ Dostępna poprzez `Admin > Identity` (lub `Settings > Identity`), sekcja ta pozw
 
 
 
-- Nazwa firmy**: oficjalna nazwa firmy.
-- Identyfikator firmy**: identyfikator prawny lub numer rejestracyjny (RCCM, SIRET...).
+- **Nazwa firmy**: oficjalna nazwa firmy.
+- **Identyfikator firmy**: identyfikator prawny lub numer rejestracyjny (RCCM, SIRET...).
 
 
 
@@ -652,11 +653,11 @@ Dostępna poprzez `Admin > Identity` (lub `Settings > Identity`), sekcja ta pozw
 
 
 
-- Ulica**: adres pocztowy Address (ulica, numer...).
-- Kraj**: kraj.
-- Stan**: prowincja lub region.
-- Miasto**: miasto.
-- Kod pocztowy**: kod pocztowy.
+- **Ulica**: adres pocztowy Address (ulica, numer...).
+- **Kraj**: kraj.
+- **Stan**: prowincja lub region.
+- **Miasto**: miasto.
+- **Kod pocztowy**: kod pocztowy.
 
 
 
@@ -666,8 +667,8 @@ Dostępna poprzez `Admin > Identity` (lub `Settings > Identity`), sekcja ta pozw
 
 
 
-- E-mail**: profesjonalny e-mail Address.
-- Telefon**: numer telefonu firmy.
+- **E-mail**: profesjonalny e-mail Address.
+- **Telefon**: numer telefonu firmy.
 
 
 
@@ -677,10 +678,10 @@ Dostępna poprzez `Admin > Identity` (lub `Settings > Identity`), sekcja ta pozw
 
 
 
-- Nazwa posiadacza rachunku**: nazwa posiadacza rachunku.
-- Posiadacz rachunku Address**: Address posiadacza.
-- IBAN**: Międzynarodowy numer rachunku bankowego.
-- BIC**: Kod SWIFT/BIC.
+- **Nazwa posiadacza rachunku**: nazwa posiadacza rachunku.
+- Posiadacz rachunku **Address**: Address posiadacza.
+- **IBAN**: Międzynarodowy numer rachunku bankowego.
+- **BIC**: Kod SWIFT/BIC.
 
 
 
@@ -695,7 +696,7 @@ Dostępna poprzez `Admin > Identity` (lub `Settings > Identity`), sekcja ta pozw
 
 
 - Kliknij `Wypełnij głównymi informacjami o sklepie`, aby wstępnie wypełnić dane.
-- Very-top-right issuer information**: pole na informacje prawne/podatkowe widoczne na fakturach.
+- **Very-top-right issuer information**: pole na informacje prawne/podatkowe widoczne na fakturach.
 - Kliknij `Update`, aby zapisać zmiany.
 
 
@@ -742,9 +743,9 @@ Przejdź do `Admin > Merch > Products`, aby dodać lub zmodyfikować produkt. Wy
 
 
 
-- Nazwa produktu**: nazwa produktu (np. *BOP T-shirt edycja limitowana*).
-- Slug**: Identyfikator URL bez spacji (np. `tshirt-bop-edition-limitee`).
-- Alias** *(opcjonalnie)*: przydatny do szybkiego dodawania do koszyka za pośrednictwem dedykowanego pola.
+- **Nazwa produktu**: nazwa produktu (np. *BOP T-shirt edycja limitowana*).
+- **Slug**: Identyfikator URL bez spacji (np. `tshirt-bop-edition-limitee`).
+- **Alias** *(opcjonalnie)*: przydatny do szybkiego dodawania do koszyka za pośrednictwem dedykowanego pola.
 
 
 
@@ -758,9 +759,9 @@ Przejdź do `Admin > Merch > Products`, aby dodać lub zmodyfikować produkt. Wy
 
 
 
-- Cena**: cena produktu (np. `25.00`).
-- Waluta ceny**: waluta (EUR, USD, BTC itp.).
-- Produkty specjalne**:
+- **Cena**: cena produktu (np. `25.00`).
+- **Waluta ceny**: waluta (EUR, USD, BTC itp.).
+- **Produkty specjalne**:
   - jest to produkt bezpłatny.
   - jest to produkt typu "płać ile chcesz".
 
@@ -772,14 +773,14 @@ Przejdź do `Admin > Merch > Products`, aby dodać lub zmodyfikować produkt. Wy
 
 
 
-- Pojedynczy produkt (`standalone`)**: możliwy tylko jeden dodatek na zamówienie (np. darowizna, bilet wstępu).
-- Produkt z odmianami**:
+- Pojedynczy produkt (`standalone`): możliwy tylko jeden dodatek na zamówienie (np. darowizna, bilet wstępu).
+- **Produkt z odmianami**:
   - Nie sprawdzaj `Standalone`.
   - Zaznacz `Product has light variations (no stock difference)`.
   - Dodaj:
-    - Nazwa** (np. *Rozmiar*),
-    - Wartości** (np.: S, M, L, XL),
-    - Różnice w cenie**, jeśli dotyczy (np.: `+2 USD` dla XL).
+- **Nazwa** (np. *Rozmiar*),
+- **Wartości** (np.: S, M, L, XL),
+- Różnice w cenie, jeśli dotyczy (np.: `+2 USD` dla XL).
 
 
 
@@ -809,8 +810,8 @@ System zarządza:
 
 
 
-- Zapas zarezerwowany** → produkty w koszykach, za które jeszcze nie zapłacono
-- Zapasy sprzedane** → produkty już zakupione
+- **Zapas zarezerwowany** → produkty w koszykach, za które jeszcze nie zapłacono
+- **Zapasy sprzedane** → produkty już zakupione
 
 
 
@@ -832,8 +833,8 @@ Zaznacz `Produkt ma fizyczny komponent, który zostanie wysłany do Address klie
 
 
 
-- Bilet**: zaznacz, jeśli produkt jest biletem na wydarzenie
-- Rezerwacja**: sprawdź, czy jest to slot rezerwacji (np. sesja, spotkanie)
+- **Bilet**: zaznacz, jeśli produkt jest biletem na wydarzenie
+- **Rezerwacja**: sprawdź, czy jest to slot rezerwacji (np. sesja, spotkanie)
 
 
 
@@ -849,12 +850,13 @@ Ta sekcja określa **gdzie** i **jak** produkt może być oglądany i kupowany:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platforma        | Produkt Widoczny | Możliwy do Dodania do Koszyka |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (strona publiczna)        | ✔️              | ✔️                  |
+| Retail POS (punkt sprzedaży)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (sprzedaż przez bota)  | ✔️              | ✔️                  |
 
 Zaznacz tylko te kanały, których chcesz używać.
 
@@ -898,7 +900,7 @@ W razie potrzeby można dodać inne strony:
 
 
 
-**Wskazówka: Kliknij każdy link lub ikonę, aby zmodyfikować **treść**, **tytuł** lub **widoczność** każdej strony.
+**Wskazówka: Kliknij każdy link lub ikonę, aby zmodyfikować** treść, tytuł lub widoczność **każdej strony.**
 
 
 
@@ -983,7 +985,7 @@ Również modyfikowalny w `Pictures`, pozwala na wyświetlenie **podsumowania lu
 
 
 
-Widgety** wzbogacają strony CMS o dynamiczne lub wizualne Elements.
+**Widgety** wzbogacają strony CMS o dynamiczne lub wizualne elementy.
 
 
 
@@ -1001,14 +1003,14 @@ Przykłady dostępnych widżetów:
 
 
 
-- Wyzwania**: wyzwania lub misje
-- Tagi**: kategorie lub słowa kluczowe
-- Slidery**: karuzele obrazów
-- Specyfikacje**: Tabele specyfikacji
-- Formularze**: formularze (kontaktowe, opinii itp.)
-- Odliczanie**: liczniki czasu
-- Galerie**: galerie obrazów
-- Tablice wyników**: rankingi użytkowników
+- **Wyzwania**: wyzwania lub misje
+- **Tagi**: kategorie lub słowa kluczowe
+- **Slidery**: karuzele obrazów
+- **Specyfikacje**: Tabele specyfikacji
+- **Formularze**: formularze (kontaktowe, opinii itp.)
+- **Odliczanie**: liczniki czasu
+- **Galerie**: galerie obrazów
+- **Tablice wyników**: rankingi użytkowników
 
 
 
@@ -1024,14 +1026,15 @@ Używaj **kodów skrótów** w treści stron CMS:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Cel                 | Tag do Wstawienia                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Wyświetl produkt      | `[Product=slug?display=img-1]`        |
+| Wyświetl obraz       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Zintegruj suwak       | `[Slider=slug?autoplay=3000]`         |
+| Dodaj wyzwanie     | `[Challenge=slug]`                    |
+| Dodaj odliczanie | `[Countdown=slug]`                 |
+| Zintegruj formularz   | `[Form=slug]`                         |
 
 **Aktualne parametry**:
 
@@ -1166,9 +1169,9 @@ Raporty są podzielone na sekcje:
 
 
 
-- Szczegóły zamówienia**: liczba zamówień, status (potwierdzone, anulowane, oczekujące), ewolucja
-- Szczegóły produktu**: sprzedane produkty, ilości, popularne produkty
-- Szczegóły płatności**: zebrane kwoty w podziale na metody płatności
+- **Szczegóły zamówienia**: liczba zamówień, status (potwierdzone, anulowane, oczekujące), ewolucja
+- **Szczegóły produktu**: sprzedane produkty, ilości, popularne produkty
+- **Szczegóły płatności**: zebrane kwoty w podziale na metody płatności
 
 
 
@@ -1310,9 +1313,9 @@ Podczas tworzenia lub modyfikowania motywu można zdefiniować:
 
 
 
-- Kolory**: dla przycisków, tła, tekstu, linków itp.
-- Czcionki**: wybór krojów pisma dla tytułów, akapitów, menu
-- Style graficzne**: obramowania, marginesy, odstępy, kształty bloków
+- **Kolory**: dla przycisków, tła, tekstu, linków itp.
+- **Czcionki**: wybór krojów pisma dla tytułów, akapitów, menu
+- **Style graficzne**: obramowania, marginesy, odstępy, kształty bloków
 
 
 
@@ -1326,9 +1329,9 @@ Każda część strony może być regulowana niezależnie:
 
 
 
-- Nagłówek**: górny pasek nawigacyjny
-- Body**: treść główna
-- Stopka**: na dole strony
+- **Nagłówek**: górny pasek nawigacyjny
+- **Body**: treść główna
+- **Stopka**: na dole strony
 
 
 
@@ -1377,8 +1380,8 @@ Każda wiadomość e-mail (potwierdzenie zamówienia, zapomniane hasło itp.) ma
 
 
 
-- Temat**: temat wiadomości e-mail (np. "Twoje zamówienie zostało zatwierdzone")
-- HTML Body**: Zawartość HTML wyświetlana w wiadomości e-mail
+- **Temat**: temat wiadomości e-mail (np. "Twoje zamówienie zostało zatwierdzone")
+- **HTML Body**: Zawartość HTML wyświetlana w wiadomości e-mail
 
 
 
@@ -1444,9 +1447,9 @@ Wypełnij następujące pola:
 
 
 
-- Nazwa tagu**: wyświetlana nazwa tagu
-- Slug**: unikalny identyfikator (bez spacji i akcentów)
-- Rodzina tagów**: grupuje tagi według kategorii
+- **Nazwa tagu**: wyświetlana nazwa tagu
+- **Slug**: unikalny identyfikator (bez spacji i akcentów)
+- **Rodzina tagów**: grupuje tagi według kategorii
 
 
 
@@ -1479,9 +1482,9 @@ Pola te mogą być użyte do wzbogacenia tagu tak, jakby był stroną z treści�
 
 - Tytuł
 - Podtytuł
-- Krótka** treść
-- Pełna treść** (w języku francuskim)
-- CTA** (przyciski akcji)
+- **Krótka** treść
+- **Pełna treść** (w języku francuskim)
+- **CTA** (przyciski akcji)
 
 
 
@@ -1520,8 +1523,8 @@ Aby zaoferować klientom dokumenty do pobrania: `Admin > Merch > Files`
 
 
 
-   - Nazwa pliku** (np. *Podręcznik instalacji*)
-   - Plik do przesłania** (PDF, obraz, Word...)
+- **Nazwa pliku** (np. *Podręcznik instalacji*)
+- **Plik do przesłania** (PDF, obraz, Word...)
 
 
 
@@ -1539,7 +1542,7 @@ Link ten można następnie wstawić do:
 
 
 
-- Strona CMS** (jako link tekstowy lub przycisk)
+- Strona **CMS** (jako link tekstowy lub przycisk)
 - Klient **e-mail** (za pośrednictwem szablonu)
 - **arkusz produktu** (np. pobrana instrukcja obsługi)
 
@@ -1635,9 +1638,9 @@ Pliki tłumaczeń są w formacie JSON. Można:
 
 
 
-- Pobierz** pliki językowe
-- Modyfikowanie** istniejących tekstów
-- Dodaj** własne tłumaczenia
+- **Pobierz** pliki językowe
+- **Modyfikowanie** istniejących tekstów
+- Dodaj **własne tłumaczenia**
 
 
 
@@ -1678,9 +1681,9 @@ Każda rola zawiera:
 
 
 
-- dostęp do zapisu**: dostęp do zapisu
-- dostęp do odczytu**: dostęp do odczytu
-- dostęp wzbroniony**: sekcje pośrednie
+- **dostęp do zapisu**: dostęp do zapisu
+- **dostęp do odczytu**: dostęp do odczytu
+- **dostęp wzbroniony**: sekcje pośrednie
 
 
 
@@ -1709,7 +1712,7 @@ Przypisanie wcześniej zdefiniowanej roli.
 
 
 
-Użytkownicy tylko do odczytu** będą widzieć menu w formacie *italic* i nie będą mogli modyfikować zawartości.
+Użytkownicy **tylko do odczytu** będą widzieć menu w formacie *italic* i nie będą mogli modyfikować zawartości.
 
 
 
@@ -1779,8 +1782,8 @@ Dostępne są dwie opcje zaawansowane:
 
 
 
-- Zwolnienie z VAT**: dotyczy uzasadnienia (organizacje pozarządowe, cudzoziemcy...)
-- Zniżka na prezent**: wyjątkowa zniżka z obowiązkowym komentarzem
+- **Zwolnienie z VAT**: dotyczy uzasadnienia (organizacje pozarządowe, cudzoziemcy...)
+- **Zniżka na prezent**: wyjątkowa zniżka z obowiązkowym komentarzem
 
 
 
@@ -1813,14 +1816,15 @@ Plakat:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funkcja                         | Opis                                             |
+|----------------------------------|---------------------------------------------------------|
+| Rola POS                         | Przypisana za pośrednictwem ARM                                         |
+| Interfejs główny             | `/pos` lub `/pos/touch`                                 |
+| Wyświetlacz klienta (ekran 2)       | `/pos/session`                                         |
+| Płatność                         | Gotówka, karta, Lightning itp.                         |
+| Dodanie produktu                    | Alias lub skanowanie kodu kreskowego                              |
+| Rabaty / VAT                    | Z obowiązkowym uzasadnieniem zarządczym              |
 
 Dziękujemy za uważne śledzenie tego samouczka.

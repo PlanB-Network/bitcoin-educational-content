@@ -1,0 +1,9 @@
+question: RGB에서 Single-Use Seal을 정의하는 데 어떤 방법이 사용되나요?
+answer: 특정 아웃포인트
+wrong_answers:
+  - 특정 공개 키
+  - 특정 Bitcoin Address
+  - 여러 UTXO의 조합
+explanation: |
+  RGB은 Single-Use Seal를 특정 아웃포인트로 정의하고, 이 아웃포인트의 지출(txid + 출력 번호)로 닫을 수 있습니다.
+reviewed: false

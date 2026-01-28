@@ -1,11 +1,12 @@
-question: None muri Hongiriya muri Mukakaro 1946, igitigiri c’ibiciro cari giteye gute?
-answer: 41.900.000.000.000.000%
+question: Ni iciyumviro ikihe c’imibare gishingiye ku bwenge bw’umuntu kandi gikoreshwa muri Bitcoin?
+answer: Ivyiyumviro vy’urukino.
 wrong_answers:
-  - 207%
-  - 50%
-  - 100%
+  - Ivyiyumviro vy’ibishoboka.
+  - Ivyiyumviro vy’imibare.
+  - Ivyiyumviro vy’Ishirahamwe.
 explanation: |
-  Ukwezi kwari gutera imbere cane muri Hongiriya kwari muri Nyakanga 2019.
-  1946, n’ugutera imbere kw’ibiciro kw’ibiciro kw’ibice 1946.
-  41.900.000.000.000.000%.
+  Ivyiyumviro vy’urukino ni iciyumviro c’imibare gishingiye ku
+  ivyiyumviro vy’umuntu. Muri Bitcoin, amahinduka y’amategeko ni
+  gukurikizwa n’abakoresha, bagahindura ivyo ari vyo vyose kuri Bitcoin.
+  protocole igoye cane.
 reviewed: true

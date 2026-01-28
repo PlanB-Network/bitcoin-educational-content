@@ -1,11 +1,10 @@
-question: Qual é um fator a considerar ao escolher uma solução para aceitar Bitcoin no seu negócio?
-answer: O volume de transações esperado.
+question: Qual é uma das coisas que você deve ter antes de comprar Bitcoin?
+answer: Uma carteira segura.
 wrong_answers:
-  - A cor do seu logotipo.
-  - O número de funcionários.
-  - A localização da sua sede.
-explanation: >-
-  Ao escolher uma solução para aceitar Bitcoin no seu negócio, vários
-  fatores devem ser levados em conta, como o volume de transações esperado, o orçamento
-  alocado e o tipo de negócio (online ou físico).
+  - Um cofre físico.
+  - Uma conta bancária.
+  - Um cartão de crédito.
+explanation: |
+  O texto do curso menciona que, antes de comprar Bitcoin, você
+  deve ter uma carteira segura onde guardará suas chaves.
 reviewed: true

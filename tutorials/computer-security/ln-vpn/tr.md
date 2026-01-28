@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: VPN'inizi kurun
+description: Anonim ve isteğe bağlı bir VPN için LN VPN'i Lightning ile yapılandırın
 ---
 
 ![image](assets/cover.webp)
@@ -10,7 +10,7 @@ description: VPN'inizi kurun
 LN VPN, yalnızca yıldırım ödemelerini kabul eden özelleştirilebilir bir VPN hizmetidir. Bugün size onu nasıl kullanacağınızı ve internette gezinirken nasıl daha az iz bırakacağınızı göstereceğim.
 
 
-Birçok kaliteli VPN hizmet sağlayıcısı vardır ve bu makalede kapsamlı bir inceleme yaptık (köprü). Ancak, LN VPN öne çıkıyor ve onu size tanıtma fırsatını kaçıramazdık.
+Birçok kaliteli VPN hizmet sağlayıcısı vardır, ancak LN VPN öne çıkıyor ve onu size tanıtma fırsatını kaçıramazdık.
 
 
 ProtonVPN ve Mullvad gibi çoğu VPN hizmet sağlayıcısı, bitcoin ile ödeme seçeneği sunar, ancak bir hesap oluşturmayı ve daha uzun veya daha kısa bir süre için bir plan satın almayı gerektirir, bu da herkesin bütçesine uymayabilir.
@@ -19,7 +19,7 @@ ProtonVPN ve Mullvad gibi çoğu VPN hizmet sağlayıcısı, bitcoin ile ödeme 
 LN VPN, Bitcoin ödemelerinin Lightning Network üzerinden uygulanması sayesinde bir saat gibi kısa bir süre için isteğe bağlı VPN kullanımına olanak tanır. Anında ve anonim olan yıldırım ödemeleri, mikro ödemeler için bir olasılıklar dünyasının kapılarını açıyor.
 
 
-Not💡: **Bu kılavuz, LN VPN'in bir Linux Ubuntu 22.04 LTS sisteminden nasıl kullanılacağını açıklamaktadır
+Not💡: **Bu kılavuz, LN VPN'in bir Linux Ubuntu 22.04 LTS sisteminden nasıl kullanılacağını açıklamaktadır**
 
 
 ## Önkoşullar: Wireguard

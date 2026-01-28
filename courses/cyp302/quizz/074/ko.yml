@@ -1,0 +1,9 @@
+question: 키 7을 사용하여 CAT라는 단어를 암호화하면 어떻게 되나요?
+answer: 단어는 JHA가 됩니다
+wrong_answers:
+  - 단어는 JBA가 됩니다
+  - 단어는 JHB가 됩니다
+  - 단어는 ZHA가 됩니다
+explanation: |
+  키가 7이면 CAT라는 단어의 각 문자가 알파벳에서 7자리씩 이동하여 암호화된 단어 JHA가 생성됩니다.
+reviewed: false

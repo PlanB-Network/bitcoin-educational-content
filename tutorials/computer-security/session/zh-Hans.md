@@ -1,5 +1,5 @@
 ---
-name: 会议
+name: Session
 description: 发送加密信息，而非元数据
 ---
 ![cover](assets/cover.webp)
@@ -26,25 +26,26 @@ description: 发送加密信息，而非元数据
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| 应用 | E2EE 1:1 | E2EE 群组 | 匿名注册 | 客户端开源许可证 | 服务端开源许可证 | 去中心化服务器 | 创建年份 |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (可选) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (可选) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (联邦) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (通过邮件) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (联邦) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (无名录) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = 端到端加密*。
 
@@ -99,13 +100,13 @@ description: 发送加密信息，而非元数据
 
 
 
-- 快速模式（"*Firebase Cloud Messaging/Apple Push Notification Service*"）**：借助谷歌或苹果（取决于您的系统）提供的通知服务，您可以近乎实时地接收消息通知。为此，你的 IP Address 和一个唯一的通知 ID 会被传送到谷歌或苹果，会话账户 ID 也会在 STF 服务器上注册（通过 Tor）。这种模式会暴露元数据（诚然微乎其微），但不会泄露信息内容或联系人，也不会让你的实际活动被追踪到。因此，这种模式的响应速度更快，但依赖于集中式基础设施，保密性稍差。
+- 快速模式（**Firebase Cloud Messaging/Apple Push Notification Service**）：借助谷歌或苹果（取决于您的系统）提供的通知服务，您可以近乎实时地接收消息通知。为此，你的 IP Address 和一个唯一的通知 ID 会被传送到谷歌或苹果，会话账户 ID 也会在 STF 服务器上注册（通过 Tor）。这种模式会暴露元数据（诚然微乎其微），但不会泄露信息内容或联系人，也不会让你的实际活动被追踪到。因此，这种模式的响应速度更快，但依赖于集中式基础设施，保密性稍差。
 
 
 
 
 
-- 慢速模式（*后台轮询*）**：会话应用程序在后台保持激活状态，定期轮询网络以获取新信息。这种方式比第一种方式更能保证保密性，因为数据不会传输到第三方服务器；谷歌、苹果或 STF 服务器都不会收到任何信息。另一方面，这种模式也有两个缺点：通知可能会延迟（长达几分钟），而且由于应用程序在后台活动，能耗通常会更高。
+- 慢速模式（**后台轮询**）：会话应用程序在后台保持激活状态，定期轮询网络以获取新信息。这种方式比第一种方式更能保证保密性，因为数据不会传输到第三方服务器；谷歌、苹果或 STF 服务器都不会收到任何信息。另一方面，这种模式也有两个缺点：通知可能会延迟（长达几分钟），而且由于应用程序在后台活动，能耗通常会更高。
 
 
 
@@ -145,7 +146,7 @@ description: 发送加密信息，而非元数据
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **请注意**：与 Bitcoin 作品集中使用的 Mnemonic 短语不同，在会话中，**您绝对必须保存每个单词的完整**。前 4 个字母是不够的！
 
@@ -299,4 +300,4 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

@@ -1,0 +1,12 @@
+question: 다음 중 Bitcoin Wallet이 장착된 기기를 분실했을 때 어떤 옵션이 거짓인가요?
+answer: 비밀번호를 재설정하여 Wallet를 다시 생성하고 Bitcoin를 사용할 수 있습니다.
+wrong_answers:
+  - Mnemonic 문구가 없으면 모든 비트코인을 잃게 됩니다.
+  - 공개 키로 비트코인이 사용되지 않았는지 확인할 수 있습니다.
+  - Wallet을 다시 생성하고 Mnemonic 문구를 사용하여 Bitcoin을 사용할 수 있습니다.
+explanation: |
+  Wallet이 있는 기기를 분실한다고 해서
+  반드시 비트코인의 손실을 의미하지는 않습니다. Wallet을 다시 생성하고
+  gW-10을 다시 생성하고 Bitcoin을 사용할 수 있는 것은
+  Mnemonic 문구입니다.
+reviewed: true

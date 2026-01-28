@@ -1,0 +1,8 @@
+question: Các khối mới được tạo ra trong Liquid Network với tần suất như thế nào?
+answer: Mỗi phút
+wrong_answers:
+  - Cứ mỗi 10 phút
+  - Cứ sau 30 giây
+  - Cứ sau 5 phút
+explanation: |
+  Liquid Network tạo ra các khối mỗi phút theo phương thức luân phiên xác định, nhanh hơn và dễ dự đoán hơn nhiều so với chu kỳ 10 phút ngẫu nhiên của Bitcoin. Thời gian chính xác một phút này rất quan trọng đối với các trường hợp sử dụng mạng như giao dịch chênh lệch giá và thanh toán liên sàn nhanh chóng, cung cấp tốc độ cần thiết cho các hoạt động giao dịch của các tổ chức.

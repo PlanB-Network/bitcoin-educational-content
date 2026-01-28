@@ -1,10 +1,9 @@
-question: Mis on hüperinflatsiooni viimane faas?
-answer: Uue valuuta teke
+question: Mis oli Zimbabwe inflatsioonimäär november 2008?
+answer: 79,600,000,000%
 wrong_answers:
-  - Usalduse kaotus
-  - Valuuta kokkukukkumine & hinnatõus
-  - Raha trükkimise nõiaring
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
 explanation: |
-  Hüperinflatsiooni viimane faas on siis, kui tutvustatakse uut valuutat,
-  et asendada vana.
+  November 2008, Zimbabwe valuuta kuu inflatsioonimäär tõusis 79,600,000,000%-ni, mis viis Zimbabwe dollari väärtuse nullini.
 reviewed: true

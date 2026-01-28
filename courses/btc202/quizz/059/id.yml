@@ -1,0 +1,9 @@
+question: Apa cara terbaik untuk mengakses Bitcoin core dari jarak jauh?
+answer: Mengekspos port RPC
+wrong_answers:
+  - Menggunakan Tor
+  - Menggunakan VPN
+  - Mengekspos server Electrum
+explanation: |
+  Mengekspos port RPC yang tidak terenkripsi akan menimbulkan risiko keamanan yang besar. Tor atau VPN lebih disukai.
+reviewed: true

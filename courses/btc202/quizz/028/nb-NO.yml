@@ -1,0 +1,9 @@
+question: Hva skiller en pruned-node fra en Full node?
+answer: Den eliminerer gradvis de gamle blokkene
+wrong_answers:
+  - Den validerer ikke eldre transaksjoner
+  - Den kan ikke videresende hele blokker
+  - Den beholder ikke noen lokal kopi av Blockchain, bare UTXO-settet
+explanation: |
+  pruned-noden validerer hele kjeden, men beholder bare en nylig del av blokkene for å begrense lagringen.
+reviewed: true

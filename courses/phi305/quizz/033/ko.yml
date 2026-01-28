@@ -1,0 +1,9 @@
+question: 구조적 인플레이션의 결과인가요?
+answer: 돈 Supply이 증가합니다.
+wrong_answers:
+  - 가격 인상
+  - 재정 정책.
+  - 반자유주의 조치.
+explanation: |
+  구조적 인플레이션은 통화량 Supply의 증가로 인한 결과입니다. 유통되는 화폐의 양이 상품과 서비스의 생산량보다 빠르게 증가하면 전반적인 가격 상승으로 이어집니다.
+reviewed: false

@@ -1,10 +1,11 @@
-question: Apa itu Lightning Network?
-answer: Jaringan pembayaran Bitcoin instan yang menggunakan blockchain Bitcoin
+question: Apa tujuan dari mining pool?
+answer: Mining pool memungkinkan penambang untuk menggabungkan sumber daya komputasi mereka dan menerima imbalan yang lebih kecil tetapi lebih teratur.
 wrong_answers:
-  - Sebuah jaringan blockchain terpisah dari blockchain Bitcoin
-  - Jaringan para penambang Bitcoin
-  - Jaringan bursa Bitcoin
+  - Mining pool digunakan untuk meningkatkan HashRate dari keseluruhan jaringan Bitcoin.
+  - Mining pool digunakan untuk mengurangi kesulitan penambangan.
+  - Mining pool digunakan untuk meningkatkan imbalan penambangan.
 explanation: >-
-  Lightning Network adalah jaringan pembayaran Bitcoin instan yang menggunakan
-  blockchain Bitcoin.
-reviewed: false
+  Mining pool adalah kelompok penambang yang menggabungkan daya komputasi mereka
+  untuk meningkatkan peluang mereka menambang blok. Dengan menggabungkan sumber daya mereka, mereka dapat
+  menambang blok lebih sering dan menerima imbalan yang lebih kecil tetapi lebih teratur.
+reviewed: true

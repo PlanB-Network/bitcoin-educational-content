@@ -14,9 +14,9 @@ Bitcoin'ün ilk günlerinde, komut satırlarından ağı sorgulamak için uygun 
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Bu nedenle, Bitcoin topluluğunu genişletmek ve bir node'a sahip olmayan ve/veya gerekli teknik becerilere sahip olmayan herkes için daha erişilebilir hale getirmek için projeler başlatıldı.
 
@@ -46,13 +46,13 @@ Ekosistemde giderek yaygınlaşan kullanım ve Mempool.space'in açık kaynak ol
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Mempool.space'in temelleri
 
 
 
-Yukarıda belirtildiği gibi, [Mempool.space] (https://Mempool.space), işlemlerinizi ve bunların seçilen Bitcoin ağındaki yayılımını grafiksel bir Interface'den gerçek zamanlı olarak izlemenizi sağlayan bir Bitcoin protokol gezginidir.
+Yukarıda belirtildiği gibi, [Mempool.space](https://Mempool.space), işlemlerinizi ve bunların seçilen Bitcoin ağındaki yayılımını grafiksel bir Interface'den gerçek zamanlı olarak izlemenizi sağlayan bir Bitcoin protokol gezginidir.
 
 
 
@@ -64,10 +64,10 @@ Menü çubuğunda aşağıdaki ağları bulacaksınız:
 
 
 
-- Mainnet** : Gerçek Bitcoin işlemlerinin gerçekleştiği ana Bitcoin ağı.
-- Signet**: Ana ağın gerektirdiği kaynakları gerektirmeden blokları doğrulamak için dijital imzaları kullanan bir test ağı.
-- Testnet 3**: Bitcoin protokolü üzerinde risksiz bir test ve geliştirme ağı.
-- Testnet 4** : Testnet 3'ün yeni sürümü, test ortamına daha fazla kararlılık ve yeni mutabakat kuralları getiriyor.
+- **Mainnet**: Gerçek Bitcoin işlemlerinin gerçekleştiği ana Bitcoin ağı.
+- **Signet**: Ana ağın gerektirdiği kaynakları gerektirmeden blokları doğrulamak için dijital imzaları kullanan bir test ağı.
+- **Testnet 3**: Bitcoin protokolü üzerinde risksiz bir test ve geliştirme ağı.
+- **Testnet 4**: Testnet 3'ün yeni sürümü, test ortamına daha fazla kararlılık ve yeni mutabakat kuralları getiriyor.
 
 
 
@@ -86,7 +86,7 @@ Morumsu renkte, sağ tarafta, Bitcoin'da çıkarılan son blokları bulacaksın�
 
 
 
-İşlem Ücretleri** bölümü bir işlem ücreti tahmin edicisidir. İşleminize tahsis edilen ücretler ne kadar yüksekse, işleminizin çıkarılmaya hazır bir sonraki bloğa eklenme olasılığı o kadar yüksektir.
+**İşlem Ücretleri** bölümü bir işlem ücreti tahmin edicisidir. İşleminize tahsis edilen ücretler ne kadar yüksekse, işleminizin çıkarılmaya hazır bir sonraki bloğa eklenme olasılığı o kadar yüksektir.
 
 
 İşlem ücretleri, bir Miner'nin işleminizi Mining için aday bir bloğa eklemek için sizden alacağı maliyeti temsil eder. İşleminizin aday blokta kaplayacağı alan için ödediğiniz satoshis sayısını temsil eden sat/vB (Satoshi/Sanal Bayt) oranı ile tanımlanır.
@@ -142,9 +142,9 @@ Mempool.space arama çubuğuna, geçmişiniz hakkında daha fazla bilgi edinmek 
 
 
 
-- Durum**: Bir bloğa eklendiğinde onaylandı, bir Mempool'de beklerken onaylanmadı.
-- İşlem ücretleri**.
-- Tahmini varış süresi (ETA)** :  İşleminizin bir bloğa eklenmesi için geçecek yaklaşık süre. Bu işlemle ilişkili ücretleri oluşturan orana göre hesaplanır.
+- **Durum**: Bir bloğa eklendiğinde onaylandı, bir Mempool'de beklerken onaylanmadı.
+- **İşlem ücretleri**.
+- **Tahmini varış süresi (ETA)**: İşleminizin bir bloğa eklenmesi için geçecek yaklaşık süre. Bu işlemle ilişkili ücretleri oluşturan orana göre hesaplanır.
 
 
 
@@ -152,7 +152,7 @@ Mempool.space arama çubuğuna, geçmişiniz hakkında daha fazla bilgi edinmek 
 
 
 
-Akış** bölümü, işlem bileşenlerinizin bir grafiğini gösterir.
+**Akış** bölümü, işlem bileşenlerinizin bir grafiğini gösterir.
 
 
 
@@ -176,7 +176,7 @@ Gizliliğinizi artırmak için farklı Bitcoin işlem şemalarını keşfedin.
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## İşlemlerinizi hızlandırın
 
@@ -192,7 +192,7 @@ Neyse ki, işleminizin onaylanmasını hızlandırmak için Bitcoin ağında iki
 
 
 
-- RBF** - Ücrete Göre Değiştirme: Düşük ücretli işleminizle aynı girişleri harcamanıza izin veren bir yöntem, ancak bu sefer doğrulamayı hızlandırmak için işlem ücretini artırarak. Yeni işleminiz daha hızlı bir şekilde onaylanacak ve düşük ücretli işlemi geçersiz kılarak bir bloğa dahil edilecektir.
+- **RBF** - Ücrete Göre Değiştirme: Düşük ücretli işleminizle aynı girişleri harcamanıza izin veren bir yöntem, ancak bu sefer doğrulamayı hızlandırmak için işlem ücretini artırarak. Yeni işleminiz daha hızlı bir şekilde onaylanacak ve düşük ücretli işlemi geçersiz kılarak bir bloğa dahil edilecektir.
 
 
 
@@ -200,11 +200,11 @@ Bu mekanizmayı kabul eden cüzdanlarla bir ücret değiştirme işlemi gerçekl
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
-- CPFP** - Child pay for parent: RBF'ten esinlenen bir yaklaşım, ancak alıcı tarafında. Alıcısı olduğunuz işlem bir Mempool'de bloke edildiğinde, henüz onaylanmamış olmasına rağmen, bu yeni işleme daha fazla ücret tahsis ederek bu işlemin çıktılarını (UTXO'ları) harcama seçeneğiniz vardır, böylece ortalama ücretler - alıcısı olduğunuz işlemin ve başlatılan işlemin - madencileri her iki işlemi de bir bloğa dahil etmeye teşvik eder.
+- **CPFP** - Child pay for parent: RBF'ten esinlenen bir yaklaşım, ancak alıcı tarafında. Alıcısı olduğunuz işlem bir Mempool'de bloke edildiğinde, henüz onaylanmamış olmasına rağmen, bu yeni işleme daha fazla ücret tahsis ederek bu işlemin çıktılarını (UTXO'ları) harcama seçeneğiniz vardır, böylece ortalama ücretler - alıcısı olduğunuz işlemin ve başlatılan işlemin - madencileri her iki işlemi de bir bloğa dahil etmeye teşvik eder.
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Tüm bu terimler biraz fazla teknik görünüyorsa, Bitcoin ve ekosistemiyle ilgili tüm teknik terimlerin tanımlarını içeren [sözlüğümüze] (https://planb.network/resources/glossary) başvurmanızı tavsiye ederim.
+Tüm bu terimler biraz fazla teknik görünüyorsa, Bitcoin ve ekosistemiyle ilgili tüm teknik terimlerin tanımlarını içeren [sözlüğümüze](https://planb.academy/resources/glossary) başvurmanızı tavsiye ederim.
 
 
 
@@ -235,7 +235,7 @@ Bir Miner, bir madeni yöneten bir kişiyi, yani Proof-of-Work'a katılmaktan ol
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 madenciler, işlemleri doğrulayan ve bloklar halinde gruplandıran "doğrulayıcılar" gibidir. Bitcoin ağına yeni bir blok eklemek için karmaşık bir matematiksel bulmacayı (Proof-of-Work) çözmeleri gerekir. Bulmacayı çözen ilk Miner, bir Bitcoin ödülü kazanır (blok hibesi + bloğa dahil edilen işlemler için ücretler).
 
@@ -286,7 +286,7 @@ Mempool sadece Bitcoin'nin ağ altyapısı (ana zincir) hakkında bilgi sağlama
 
 
 
-Lightning** bölümünde, Lightning düğümleri arasındaki mevcut tüm bağlantıları görüntüleyebilirsiniz.
+**Lightning** bölümünde, Lightning düğümleri arasındaki mevcut tüm bağlantıları görüntüleyebilirsiniz.
 
 
 
@@ -344,7 +344,7 @@ Mempool.space, Bitcoin protokol ağlarıyla etkileşimin keyfini çıkarmak içi
 
 
 
-Grafikler** bölümünde, Bitcoin ağı hakkındaki temel verileri görüntüleyebilirsiniz:
+**Grafikler** bölümünde, Bitcoin ağı hakkındaki temel verileri görüntüleyebilirsiniz:
 
 
 
@@ -372,4 +372,4 @@ Artık Mempool.space'deki yolculuğunuzun sonuna geldiğinize göre, kendi kaşi
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

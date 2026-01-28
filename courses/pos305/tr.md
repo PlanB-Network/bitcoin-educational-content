@@ -1,31 +1,18 @@
 ---
-name: Bitcoin ve BTC Ödeme Sunucusu
-goal: İşletmeniz için BTC Pay Sunucusu kurun
-objectives: 
-
-  - Btcpayserver'ın ne olduğunu anlayın.
-  - BTC Pay Server'ı kendiniz barındırın ve yapılandırın.
-  - Günlük işlerinizde btcpayserver kullanın.
-
+name: BTC Pay Server'da Uzmanlaşma
+goal: Yerel bir işletme için BTC Pay Server örneği yapılandırın
+objectives:
+- BTCPay Server'ın ödeme işlemedeki rolünün temellerini anlayın
+- BTCPay Server yapılandırma sürecinin iç işleyişinde ustalaşın
+- BTCPay Server'ı bulut ve düğüm tabanlı ortamlarda dağıtın
+- BTC Pay Server operatörü olun
 ---
+# Finansal Egemenliğe Yolculuk
 
-# Bitcoin ve BTCPay Sunucusu
+Güven kırılgandır, özellikle para söz konusu olduğunda. Bu giriş kursu, üçüncü taraflara güvenmeden Bitcoin ödemelerini kabul etmenizi sağlayan güçlü bir araç olan BTCPay Server konusunda size rehberlik eder. BTCPay Server operatörü olmanın temellerini öğreneceksiniz
 
-
-Bu, Alekos ve Bas tarafından yazılan ve melontwist ve asi0 tarafından Plan ₿ Kurs Formatı için uyarlanan BTCPay Sunucu Operatörü üzerine bir giriş kursudur.
-
-
-BITMEMIŞ BIR HIKAYE
-
-
-"Bu Yalan, Sana Olan Güvenim Kırıldı, Seni Modası Geçmiş Yapacağım".
-
-
-BTCPay Server Foundation tarafından üretilmiştir
-
-
+Alekos ve Bas tarafından oluşturulmuş ve melontwist ile asi0 tarafından uyarlanmış bu kurs, bireylerin ve işletmelerin geleneksel ödeme sistemlerine nasıl alternatifler inşa ettiğini ortaya koyuyor. İster Bitcoin hakkında meraklı olun ister işletmeler için ödeme altyapıları yönetmeye hazır olun, statükoyu sorgulayan pratik beceriler keşfedeceksiniz. Finansal bağımsızlığın gerçekte neye benzediğini keşfetmeye hazır mısınız?
 +++
-
 # Giriş
 
 
@@ -167,7 +154,7 @@ Müşteriler mağazadan Bitcoin ile bir ürün satın alır.
 
 
 - Hazırlan:
-  - Ekteki Figjam - [Etkinlik Şeması] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
+  - Ekteki Figjam - [Etkinlik Şeması](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
   - Müşteri (Alice), Tüccar (Bob) ve Banka rollerini oynayacak üç gönüllü öğrenci bulun.
 - Olayların sırasını canlandırın:
   - Müşteri - mağazayı online olarak gezer ve istediği 25$'lık bir ürünü bulur ve satın almak istediğini satıcıya bildirir
@@ -189,7 +176,7 @@ Müşteriler mağazadan Bitcoin ile bir ürün satın alır.
 
 
 - Hazırlan:
-  - Ekteki Figjam - [Etkinlik Şeması] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
+  - Ekteki Figjam - [Etkinlik Şeması](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
   - Bankanın yerine geçecek bir ağda Bilgisayar (Bitcoin Düğümler/Minerler) rolünü oynayacak dokuz öğrenci ile Bankayı değiştirin.
 - 9 Bilgisayarın her biri, şimdiye kadar yapılmış tüm geçmiş işlemlerin eksiksiz bir tarihsel kaydına (böylece sahtecilik olmadan doğru bakiyeler) ve bir dizi kurala sahiptir:
   - İşlemin düzgün imzalandığını doğrulayın (thekeyfitsthelock)
@@ -291,7 +278,7 @@ BTCPay Server'daki seçeneklerin çoğu, Bitcoin Wallet ile ilgili diğer yazıl
 Demo ortamına hoş geldiniz derken, sizden 'Oturum açmanız' veya 'Hesabınızı oluşturmanız' istenir Sunucu yöneticileri güvenlik nedeniyle yeni hesap oluşturma özelliğini devre dışı bırakabilir. BTCPay Server Açık Kaynak Yazılımı olduğu için BTCPay Server logoları ve düğme renkleri değiştirilebilir. Üçüncü taraf bir sunucu yazılımı beyaz etiketleyebilir ve tüm görünümü değiştirebilir.
 
 
-![image](assets/en/0.webp)
+![image](assets/en/001.webp)
 
 
 ### Hesap Oluştur penceresi
@@ -306,7 +293,7 @@ Parolanın harfler, sayılar ve karakterler dahil olmak üzere en az 8 karakter 
 E-posta ve Şifre alanlarının her ikisi de doğru şekilde doldurulduğunda, 'Hesap Oluştur' düğmesine tıklayın. Bu, E-posta ve şifreyi eğitmenin BTCPay Sunucu örneğine kaydedecektir.
 
 
-![image](assets/en/1.webp)
+![image](assets/en/002.webp)
 
 
 **!Not!**
@@ -321,7 +308,7 @@ Bu kursu bağımsız olarak takip ederseniz, bu hesabı oluşturmak muhtemelen �
 BTCPay Sunucu Örneğinin Yöneticisi de BTCPay Sunucusu için hesaplar oluşturabilir. BTCPay Sunucu örneğinin Yöneticisi 'Sunucu Ayarları'na (1) tıklayabilir, 'Kullanıcılar' sekmesine (2) tıklayabilir ve Kullanıcılar sekmesinin sağ üst köşesindeki "+ Kullanıcı Ekle" düğmesine (3) tıklayabilir. Amaç (4.3) bölümünde, Hesapların yönetici kontrolü hakkında daha fazla bilgi edineceksiniz.
 
 
-![image](assets/en/2.webp)
+![image](assets/en/003.webp)
 
 
 Yönetici olarak, kullanıcının Address e-posta adresine ihtiyacınız olacak ve standart bir parola belirleyeceksiniz. Yöneticinin güvenlik nedeniyle hesabı kullanmadan önce kullanıcıyı bu parolayı değiştirmesi konusunda bilgilendirmesi önerilir. Yönetici bir Parola belirlemezse ve sunucuda SMTP yapılandırılmışsa, kullanıcı kendi hesabını oluşturması ve bir parola belirlemesi için bir davet bağlantısı içeren bir e-posta alacaktır.
@@ -383,7 +370,7 @@ Bir mağaza sahibi hesabını oluşturduktan sonra, BTCPay Sunucu Kullanıcı Ar
 - Hesabı Yönet.
 
 
-![image](assets/en/3.webp)
+![image](assets/en/004.webp)
 
 
 ### Koyu ve Açık mod
@@ -413,7 +400,7 @@ Kullanıcı hesabı oluşturulduktan sonra, parolaların, 2FA'nın veya API anah
 Bir kullanıcı tüm hesabını silmeye karar verebilir. Bu, Hesap sekmesindeki sil düğmesine tıklanarak yapılabilir.
 
 
-![image](assets/en/4.webp)
+![image](assets/en/005.webp)
 
 
 **!Not!**
@@ -428,7 +415,7 @@ E-posta değiştirildikten sonra, hesabın kullanıcı adı değişmeyecektir. D
 Bir öğrenci şifresini değiştirmek isteyebilir. Bunu Parola sekmesine giderek yapabilir. Burada, eski şifresini yazması gerekir ve bunu yeni bir şifreyle değiştirebilir.
 
 
-![image](assets/en/5.webp)
+![image](assets/en/006.webp)
 
 
 ### İki Faktörlü Kimlik Doğrulama (2fa)
@@ -462,7 +449,7 @@ Cep telefonunuzun İşletim Sistemine (Android veya iOS) bağlı olarak, kullan�
 3. Authenticator uygulaması size benzersiz bir kod sağlayacaktır. Kurulumu doğrulamak için benzersiz kodu BTCPay Server'a girin ve işlemi tamamlamak için doğrula'ya tıklayın.
 
 
-![image](assets/en/6.webp)
+![image](assets/en/007.webp)
 
 
 ### Beceri Özeti
@@ -497,7 +484,7 @@ Uygulama tabanlı 2FA'nın hesabınızın güvenliğini sağlamaya nasıl yardı
 Yeni bir kullanıcı BTCPay Server'a giriş yaptığında, ortam boştur ve ilk mağazaya ihtiyaç duyar. BTCPay Server'ın giriş sihirbazı kullanıcıya 'Mağazanızı oluşturun' seçeneğini sunacaktır (1). Bir Mağaza, Bitcoin ihtiyaçlarınız için bir Ev olarak görülebilir. Yeni bir BTCPay Sunucu Düğümü, Bitcoin Blockchain'i senkronize ederek başlayacaktır (2). BTCPay Server'ı hangi altyapıda çalıştırdığınıza bağlı olarak, bu birkaç saat ile birkaç gün arasında değişebilir. Örneğin geçerli sürümü BTCPay Server kullanıcı arayüzünüzün sağ alt köşesinde gösterilir. Bu, sorun giderme sırasında referans için kullanışlıdır.
 
 
-![image](assets/en/7.webp)
+![image](assets/en/008.webp)
 
 
 ### Mağaza sihirbazınızı oluşturun
@@ -509,7 +496,7 @@ Bu kursu takip etmeye bir önceki sayfadan biraz farklı bir ekranla başlayacak
 Bir kullanıcı tüm hesabını silmeye karar verebilir. Bu, Hesap sekmesindeki sil düğmesine tıklanarak yapılabilir.
 
 
-![image](assets/en/8.webp)
+![image](assets/en/009.webp)
 
 
 **!Not!**
@@ -524,7 +511,7 @@ BTCPay Server hesapları sınırsız sayıda mağaza oluşturabilir. Her mağaza
 "Mağazanızı oluşturun" seçeneğine tıklayarak başlayın.
 
 
-![image](assets/en/9.webp)
+![image](assets/en/010.webp)
 
 
 Bu, BTCPay Sunucusunu kullanmak için ilk Evinizi ve gösterge tablonuzu oluşturacaktır.
@@ -533,31 +520,31 @@ Bu, BTCPay Sunucusunu kullanmak için ilk Evinizi ve gösterge tablonuzu oluştu
 (1) "Mağazanızı oluşturun" seçeneğine tıkladıktan sonra, BTCPay Sunucusu mağazayı adlandırmanızı isteyecektir; bu sizin için yararlı herhangi bir şey olabilir.
 
 
-![image](assets/en/10.webp)
+![image](assets/en/011.webp)
 
 
 (2) Daha sonra varsayılan bir mağaza para birimi ayarlanmalıdır, ya fiat para birimi ya da Bitcoin veya Sats cinsinden bir para birimi. Demo ortamı için bunu USD olarak ayarlayacağız.
 
 
-![image](assets/en/11.webp)
+![image](assets/en/012.webp)
 
 
 (3) Mağaza kurulumunda son bir parametre olarak BTCPay Server, Bitcoin'un fiyatını mevcut fiat fiyatıyla karşılaştırmak için bir "Tercih edilen fiyat kaynağı" ayarlamanızı gerektirir, böylece mağazanız Bitcoin ile mağaza tarafından belirlenen fiat para birimi arasında doğru Exchange oranını görüntüler. Demo örneğinde varsayılana bağlı kalacağız ve bunu Kraken Exchange olarak ayarlayacağız. BTCPay Server, Exchange oranlarını kontrol etmek için Kraken API'sini kullanır.
 
 
-![image](assets/en/12.webp)
+![image](assets/en/013.webp)
 
 
 (4) Artık bu mağaza parametreleri ayarlandığına göre, Oluştur düğmesine tıklayın ve BTCPay Server, sihirbazın devam edeceği ilk mağazanızın kontrol panelini oluşturacaktır.
 
 
-![image](assets/en/13.webp)
+![image](assets/en/014.webp)
 
 
 Tebrikler, ilk mağazanızı oluşturdunuz ve bu alıştırmayı tamamladınız.
 
 
-![image](assets/en/14.webp)
+![image](assets/en/015.webp)
 
 
 ### Beceri Özeti
@@ -592,7 +579,7 @@ Bitcoin cüzdanları oluşturulduklarında "seed" olarak adlandırılan bir cüz
 seed üretimi "Hiyerarşik Deterministik" (HD) çerçevesi olarak bilinen endüstri standardına göre gerçekleştirilir.
 
 
-![image](assets/en/15.webp)
+![image](assets/en/016.webp)
 
 
 ### Adresler
@@ -740,14 +727,15 @@ BTCPay Sunucusu aşağıdaki standart Wallet özelliklerinden oluşur:
 Yöneticiler, işlemler görünümünde bu belirli mağazaya bağlı On-Chain Wallet için gelen ve giden işlemleri görebilir. Her işlemde alınan ve gönderilen tutarlar arasında bir ayrım vardır. Alınan Green ve giden işlemler kırmızı olacaktır. BTCPay Server işlem görünümünde, yöneticiler bir dizi standart etiket de göreceklerdir.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| İşlem Türü | Açıklama                                           |
+| ----------- | -------------------------------------------------- |
+| Uygulama    | Ödeme, uygulama tarafından oluşturulan bir fatura aracılığıyla alındı |
+| Fatura      | Ödeme bir fatura aracılığıyla alındı               |
+| Payjoin     | Ödenmedi, fatura zamanlayıcısı henüz dolmadı       |
+| Payjoin-açığa çıkarıldı | UTXO, faturadaki bir payjoin teklifi aracılığıyla açığa çıkarıldı |
+| Ödeme talebi | Ödeme bir ödeme talebi aracılığıyla alındı        |
+| Ödeme       | Ödeme bir ödeme veya iade yoluyla gönderildi      |
 
 ### Nasıl Gönderilir
 
@@ -807,7 +795,7 @@ Replace-by-fee (RBF), daha önce yayınlanmış bir işlemi (hala onaylanmamış
 RBF seçeneklerini görüntülemek için "Gelişmiş Ayarlar" düğmesine basın.
 
 
-![image](assets/en/16.webp)
+![image](assets/en/017.webp)
 
 
 
@@ -837,10 +825,10 @@ BTCPay Server'da al düğmesine tıklandığında, ödemeleri almak için kullan
 BTCPay Sunucusu, Address'nin yeniden kullanılmasını önlemek için her zaman sizden bir sonraki mevcut Address'yi generate yapmanızı isteyecektir. "generate sonraki mevcut BTC Address" seçeneğine tıkladıktan sonra BTCPay Server yeni bir Address ve QR oluşturur. Ayrıca, adreslerinizin daha iyi yönetimi için Address'ye doğrudan bir Etiket ayarlamanıza olanak tanır.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/018.webp)
 
 
-![image](assets/en/18.webp)
+![image](assets/en/019.webp)
 
 
 #### Yeniden tarama
@@ -865,7 +853,7 @@ Bir yönetici bu ayarı devre dışı bırakmak isteyebilir. Aşağıdaki dize i
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 
@@ -875,13 +863,13 @@ BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
 BTCPay Server içindeki Wallet ayarları, Wallet'nızın genel ayarlarına açık ve özlü bir genel bakış sağlar. Wallet BTCPay Server ile oluşturulmuşsa, tüm bu ayarlar önceden doldurulmuştur.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/020.webp)
 
 
 BTCPay Server'daki Wallet ayarları, Wallet'inizin genel ayarlarına açık ve özlü bir genel bakış sağlar. Wallet BTCPay Server ile oluşturulmuşsa, tüm bu ayarlar önceden doldurulmuştur. BTCPay Server'ın Wallet ayarları Wallet durumu ile başlar. Yalnızca İzle mi yoksa Hot Wallet mi? Wallet türüne bağlı olarak, Wallet'in eksik işlemler için yeniden taranması, geçmişten eski işlemlerin budanması, ödeme bağlantıları için Wallet'in kaydedilmesi veya mağazaya bağlı mevcut Wallet'in değiştirilmesi ve silinmesi gibi eylemler değişebilir. BTCPay Server'ın Wallet ayarlarında, yöneticiler daha iyi Wallet yönetimi için Wallet için bir Etiket ayarlayabilirler. Burada, Yönetici ayrıca Türetme Şemasını, hesap anahtarını (xpub), Parmak İzini ve Anahtar Yolunu görebilecektir. Wallet ayarlarındaki ödemelerin yalnızca iki ana ayarı vardır. İşlem, Invoice'nin sona ermesinden sonra (ayarlanan dakika) içinde onaylanmazsa ödeme geçersizdir. Ödeme işlemi X miktarda onay aldığında Invoice'nin onaylandığını kabul edin. Yöneticiler ayrıca ödeme ekranında önerilen ücretleri görüntülemek için bir geçiş ayarlayabilir veya blok sayısında manuel bir onay hedefi belirleyebilir.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/021.webp)
 
 
 **!Not!**
@@ -911,13 +899,13 @@ BTCPay Server'ın yeni bir Wallet oluşturmada sunduğu ikinci seçenek bir Watc
 Son bölümde yeni bir 'Mağaza' oluşturdunuz. Kurulum sihirbazı "Bir Wallet kurun" veya "Bir Lightning düğümü kurun" diye sorarak devam edecektir. Bu örnekte, "Bir Wallet kur" sihirbaz sürecini takip edeceksiniz (1).
 
 
-![image](assets/en/21.webp)
+![image](assets/en/022.webp)
 
 
 "Bir Wallet kur" seçeneğine tıkladıktan sonra, sihirbaz nasıl devam etmek istediğinizi sorarak devam edecektir; BTCPay Server şimdi mevcut bir Bitcoin Wallet'i yeni mağazanıza bağlama seçeneği sunuyor. Eğer bir Wallet'iniz yoksa, BTCPay Server yeni bir tane oluşturmanızı önerir. Bu örnekte "yeni bir Wallet oluşturma" (2) adımları izlenecektir. "Mevcut bir Wallet'i nasıl bağlayacağınızı öğrenmek için adımları izleyin (1).
 
 
-![image](assets/en/22.webp)
+![image](assets/en/023.webp)
 
 
 **!Not!**
@@ -929,16 +917,16 @@ Bu kursu bir sınıfta alıyorsanız, oluşturduğumuz mevcut örneğin ve seed'
 (1) "Yeni bir Wallet oluştur" düğmesine tıklayarak "Yeni Wallet" sihirbazına devam edin.
 
 
-![image](assets/en/23.webp)
+![image](assets/en/024.webp)
 
 
 (2) "Yeni bir Wallet oluştur" seçeneğine tıkladıktan sonra, sihirbazdaki bir sonraki pencerede "Hot Wallet" ve "Watch-only wallet" seçenekleri sunulacaktır Bir eğitmenle birlikte takip ediyorsanız, ortamınız paylaşılan bir Demo'dur ve yalnızca bir Watch-only wallet oluşturabilirsiniz. Aşağıdaki iki şekil arasındaki farka dikkat edin. Demo ortamındayken, eğitmenle birlikte takip ederken, bir "Watch-only wallet" oluşturun ve "Yeni Wallet" sihirbazıyla devam edin.
 
 
-![image](assets/en/24.webp)
+![image](assets/en/025.webp)
 
 
-![image](assets/en/25.webp)
+![image](assets/en/026.webp)
 
 
 (3) Yeni Wallet sihirbazına devam ederken, şu anda BTC Watch-only wallet Oluşturma bölümündesiniz. Burada, Wallet'un "Address türünü" ayarlayacağız BTCPay Server tercih ettiğiniz Address türünü seçmenize olanak tanır; bu dersin yazıldığı tarih itibariyle, hala bech32 adreslerinin kullanılması önerilmektedir. Bu bölümün ilk kısmında adresler hakkında daha ayrıntılı bilgi edinebilirsiniz.
@@ -962,31 +950,31 @@ Bu kursu bir sınıfta alıyorsanız, oluşturduğumuz mevcut örneğin ve seed'
 Tercih ettiğiniz Wallet Address tipi olarak SegWit'yi (önerilen) seçin.
 
 
-![image](assets/en/26.webp)
+![image](assets/en/027.webp)
 
 
 (4) Wallet için parametre ayarlarken, BTCPay Sunucusu kullanıcıların BIP39 aracılığıyla isteğe bağlı bir passphrase ayarlamasına izin verir; şifrenizi onayladığınızdan emin olun.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/028.webp)
 
 
 (5) Wallet'ün Address türünü ve muhtemelen bazı gelişmiş seçenekleri ayarladıktan sonra Oluştur'a tıklayın ve BTCPay Sunucusu yeni Wallet'ünüzü generate yapacaktır. Bunun seed ifadenizi oluşturmadan önceki son adım olduğunu unutmayın. Bunu yalnızca birisinin ekranınıza bakarak seed ifadesini çalamayacağı bir ortamda yaptığınızdan emin olun.
 
 
-![image](assets/en/28.webp)
+![image](assets/en/029.webp)
 
 
 (6) Sihirbazın aşağıdaki ekranında, BTCPay Server size yeni oluşturduğunuz Wallet için Kurtarma seed ifadesini gösterir; bunlar Wallet'nızı kurtarmanın ve işlemleri imzalamanın anahtarlarıdır. BTCPay Server 12 kelimeden oluşan bir seed cümlesi oluşturur. Bu kelimeler, bu kurulum ekranından sonra sunucudan silinecektir. Bu Wallet özellikle bir Watch-only wallet'tir. Bu seed ifadesinin dijital olarak veya fotoğrafik görüntü ile saklanmaması tavsiye edilir. Kullanıcılar ancak seed cümlesini yazdıklarını aktif olarak onayladıkları takdirde sihirbazda daha ileri gidebilirler.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/030.webp)
 
 
 (7) Bitti'ye tıkladıktan ve yeni oluşturulan Bitcoin seed ifadesini güvence altına aldıktan sonra, BTCPay Sunucusu mağazanızı ekli yeni Wallet ile güncelleyecek ve ödeme almaya hazır olacaktır. Kullanıcı Interface'de, sol gezinti menüsünde, Bitcoin'un artık Wallet altında nasıl vurgulandığına ve etkinleştirildiğine dikkat edin.
 
 
-![image](assets/en/30.webp)
+![image](assets/en/031.webp)
 
 
 ### Örnek: Bir seed cümlesinin yazılması
@@ -1090,7 +1078,7 @@ BTCPay Sunucusu bağlantı bilgileri gerektirir; önceden hazırlanmış (veya s
 - REST API aracılığıyla LNDhub
 
 
-![image](assets/en/31.webp)
+![image](assets/en/032.webp)
 
 
 Bağlantı ayrıntılarını doğru girdiğinizden emin olmak için "bağlantıyı test et" seçeneğine tıklayın. Bağlantının iyi olduğu onaylandıktan sonra, 'Kaydet'e tıklayın ve BTCPay Server mağazanın bir Lightning Node ile güncellendiğini gösterir.
@@ -1146,7 +1134,7 @@ Sol menü çubuğundaki Lightning Wallet seçeneğinde, sunucu yöneticileri RTL
 Sunucu yöneticileri, sunucu durumlarını (Çevrimiçi/Çevrimdışı) ve Clearnet veya Tor için bağlantı dizesini görüntülemek için dahili düğüm bilgilerine tıklayabilirler.
 
 
-![image](assets/en/32.webp)
+![image](assets/en/033.webp)
 
 
 #### Bağlantıyı değiştir
@@ -1155,7 +1143,7 @@ Sunucu yöneticileri, sunucu durumlarını (Çevrimiçi/Çevrimdışı) ve Clear
 Harici Lightning düğümünü değiştirmek için "Lightning Ayarları "na gidin ve "Bağlantıyı değiştir "e ("Genel Düğüm bilgisi "nin yanında) tıklayın. Bu, mevcut kurulumu sıfırlar. Yeni düğüm ayrıntılarını girin, Kaydet'e tıklayın ve mağaza buna göre güncellenecektir.
 
 
-![image](assets/en/33.webp)
+![image](assets/en/034.webp)
 
 
 #### Hizmetler
@@ -1170,7 +1158,7 @@ Sunucu yöneticisi Lightning uygulaması için birden fazla hizmet kurmaya karar
 Önceki adımda Lightning düğümünü mağazaya ekledikten sonra mağaza sahipleri, Lightning ayarlarının üst kısmındaki Geçiş özelliğini kullanarak mağazaları için bu düğümü devre dışı bırakmayı seçebilirler.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/035.webp)
 
 
 #### Lightning Ödeme seçenekleri
@@ -1245,7 +1233,7 @@ Tüm lightning düğüm yönetimi RTL ile standart olarak yapılır (bir LND uyg
 Alby gibi bir emanetçiyle bağlantı kurarken, mağaza sahipleri önce bir hesap oluşturmalı ve https://getalby.com/ adresini ziyaret etmelidir
 
 
-![image](assets/en/35.webp)
+![image](assets/en/036.webp)
 
 
 Alby hesabını oluşturduktan sonra BTCPay Sunucu mağazanıza gidin.
@@ -1254,25 +1242,25 @@ Alby hesabını oluşturduktan sonra BTCPay Sunucu mağazanıza gidin.
 Adım 1: Gösterge Panosunda 'Lightning düğümü kur' veya cüzdanların altındaki 'Lightning' seçeneğine tıklayın.
 
 
-![image](assets/en/36.webp)
+![image](assets/en/037.webp)
 
 
 Adım 2: Alby tarafından sağlanan Wallet bağlantı kimlik bilgilerinizi girin. Alby'nin Kontrol Panelinde, Wallet'ye tıklayın. Burada "Wallet Bağlantı Kimlik Bilgileri "ni bulacaksınız. Bu kimlik bilgilerini kopyalayın. Alby'den gelen kimlik bilgilerini BTCPay Server'daki Bağlantı yapılandırma alanına yapıştırın.
 
 
-![image](assets/en/37.webp)
+![image](assets/en/038.webp)
 
 
 Adım 3: BTCPay Sunucusuna Bağlantı ayrıntılarını verdikten sonra, bağlantının düzgün çalıştığından emin olmak için "Bağlantıyı Test Et" düğmesine tıklayın. Ekranınızın üst kısmındaki "Yıldırım düğümüne bağlantı başarılı" mesajına dikkat edin. Bu, her şeyin beklendiği gibi çalıştığını onaylar.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/039.webp)
 
 
 4. Adım: "Kaydet "e tıkladığınızda mağazanız artık Alby tarafından bir Lightning düğümüne bağlanır.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/040.webp)
 
 
 **!Not!**
@@ -1337,7 +1325,7 @@ BTCPay Sunucu panosunun ana görünümünde birkaç standart kutucuk mevcuttur. 
 Wallet Bakiye kutucuğu, Wallet'nizin fonlarına ve performansına hızlı bir genel bakış sağlar. Haftalık, aylık veya yıllık bir grafikte BTC veya Fiat para birimi cinsinden görüntülenebilir.
 
 
-![image](assets/en/40.webp)
+![image](assets/en/041.webp)
 
 
 ### İşlem faaliyeti
@@ -1346,7 +1334,7 @@ Wallet Bakiye kutucuğu, Wallet'nizin fonlarına ve performansına hızlı bir g
 BTCPay Server, Wallet Bakiye kutucuğunun yanında bekleyen Ödemeler, son 7 gündeki İşlemlerin sayısı ve mağazanızın herhangi bir geri ödeme yapıp yapmadığına dair hızlı bir genel bakış gösterir. Yönet düğmesine tıklamak sizi bekleyen ödemelerin yönetimine götürür (BTCPay Server - Ödemeler bölümünde ödemeler hakkında daha fazla bilgi edinin).
 
 
-![image](assets/en/41.webp)
+![image](assets/en/042.webp)
 
 
 ### Yıldırım Dengesi
@@ -1358,7 +1346,7 @@ Bu yalnızca Lightning etkinleştirildiğinde görünür.
 Yönetici Lightning Network erişimine izin verdiğinde, BTCPay Sunucu panosunda artık Lightning düğümü bilgilerinizi içeren yeni bir kutucuk vardır. Kanallarda ne kadar BTC olduğu, bunun yerel veya uzaktan nasıl dengelendiği (gelen veya giden likidite), kanalların kapanıp kapanmadığı ve yıldırım düğümünde ne kadar Bitcoin On-Chain tutulduğu.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/043.webp)
 
 
 ### Yıldırım Hizmetleri
@@ -1370,7 +1358,7 @@ Bu yalnızca yıldırım aktif olduğunda görünür.
 BTCPay Server panosunda Lightning bakiyenizi görmenin yanı sıra, yöneticiler Lightning Hizmetleri kutucuğunu da göreceklerdir. Burada, yöneticiler Lightning düğümlerini yönetmek için kullandıkları araçlar için hızlı düğmeler bulabilirler; örneğin, Ride the Lightning, Lightning düğümü yönetimi için BTCPay Server ile standart araçlardan biridir.
 
 
-![image](assets/en/43.webp)
+![image](assets/en/044.webp)
 
 
 ### Son İşlemler
@@ -1379,7 +1367,7 @@ BTCPay Server panosunda Lightning bakiyenizi görmenin yanı sıra, yöneticiler
 Son İşlemler kutucuğu mağazanızın en son işlemlerini görüntüler. BTCPay Sunucu örneğinin Yöneticisi artık tek bir tıklamayla en son işlemi görebilir ve buna dikkat edilmesi gerekip gerekmediğini görebilir.
 
 
-![image](assets/en/44.webp)
+![image](assets/en/045.webp)
 
 
 ### Son faturalar
@@ -1388,7 +1376,7 @@ Son İşlemler kutucuğu mağazanızın en son işlemlerini görüntüler. BTCPa
 Son Faturalar kutucuğu, Durum ve Invoice tutarı dahil olmak üzere BTCPay Sunucunuz tarafından oluşturulan en son 6 faturayı görüntüler. Kutucukta ayrıca Invoice genel görünümünün tamamına kolayca erişmek için bir "Tümünü görüntüle" düğmesi bulunur.
 
 
-![image](assets/en/45.webp)
+![image](assets/en/046.webp)
 
 
 ### Satış Noktası ve Kitle Fonları
@@ -1397,13 +1385,13 @@ Son Faturalar kutucuğu, Durum ve Invoice tutarı dahil olmak üzere BTCPay Sunu
 BTCPay Server bir dizi standart eklenti veya uygulama sunduğundan, Satış Noktası ve Kitle Fonlaması BTCPay Server'ın iki ana eklentisidir. Her mağaza ve Wallet ile, bir BTCPay Server kullanıcısı uygun gördüğü sayıda Satış Noktası veya Kitle Fonlaması generate yapabilir. Her biri, eklentilerin performansını gösteren yeni bir gösterge tablosu kutucuğu oluşturacaktır.
 
 
-![image](assets/en/46.webp)
+![image](assets/en/047.webp)
 
 
 Satış Noktası ve Kitle Fonlaması kutucukları arasındaki küçük farka dikkat edin. Yönetici, Satış Noktası kutucuğunda en çok satılan öğeleri görür. Kitle Fonlaması kutucuğunda bu, En İyi Avantajlar olur. Her iki kutucukta da ilgili uygulamayı yönetmek ve en iyi ürünler veya en iyi avantajlar tarafından oluşturulan son faturaları görüntülemek için hızlı düğmeler bulunur.
 
 
-![image](assets/en/47.webp)
+![image](assets/en/048.webp)
 
 
 **!Not!**
@@ -1544,7 +1532,7 @@ Varsayılan ödeme yöntemleri. BTCPay Sunucusu, standart yapılandırmasında �
 Mağazamız için, bir müşterinin yalnızca fiyat X tutarından az olduğunda Lightning ile etkileşime gireceği parametreleri ayarlayabiliriz ve On-Chain işlemleri için tam tersi, X Y'den büyük olduğunda her zaman On-Chain ödeme seçeneğini sunabiliriz.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/049.webp)
 
 
 #### Ödeme
@@ -1553,7 +1541,7 @@ Mağazamız için, bir müşterinin yalnızca fiyat X tutarından az olduğunda 
 BTCPay Server 1.7 sürümünden itibaren, yeni bir Checkout Interface, Checkout V2 tanıtıldı. Sürüm 1.9 standartlaştırıldığından, yöneticiler ve mağaza sahipleri kasayı hala önceki sürüme ayarlayabilirler. Bir mağaza sahibi, "Klasik kasayı kullan" geçişini kullanarak mağazayı önceki ödeme deneyimine geri döndürebilir. BTCPay Server ayrıca Çevrimiçi ticaret veya mağaza içi deneyim için belirli bir dizi ön ayara sahiptir.
 
 
-![image](assets/en/49.webp)
+![image](assets/en/050.webp)
 
 
 Bir müşteri mağaza ile etkileşime girdiğinde ve bir Invoice oluşturduğunda, Invoice için bir sona erme süresi vardır. Varsayılan olarak, BTCPay Server bunu 5 dakikaya ayarlar ve yöneticiler bunu tercihlerine göre ayarlayabilir. Ödeme sayfası, aşağıdaki parametreler kontrol edilerek daha da özelleştirilebilir:
@@ -1568,25 +1556,25 @@ Bir müşteri mağaza ile etkileşime girdiğinde ve bir Invoice oluşturduğund
 - Ödeme sırasında dili otomatik algılama
 
 
-![image](assets/en/50.webp)
+![image](assets/en/051.webp)
 
 
 Otomatik algılama dili ayarlanmadığında, BTCPay Sunucusu varsayılan olarak İngilizce görüntüleyecektir. Bir mağaza sahibi bu varsayılanı tercih ettiği dile değiştirebilir.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/052.webp)
 
 
 Açılır menüye tıkladığınızda Mağaza sahipleri, ödeme sayfasında görüntülenecek bir Özel HTML başlığı ayarlayabilir.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/053.webp)
 
 
 Müşterilerin ödeme yöntemlerini bilmelerini sağlamak için, bir mağaza sahibi ödeme işlemlerini her zaman kullanıcıların tercih ettikleri ödeme yöntemini seçmelerini gerektirecek şekilde açıkça ayarlayabilir. Invoice ödendikten sonra, BTCPay Server müşterinin web mağazasına geri dönmesine izin verir. Mağaza sahipleri bu yönlendirmeyi müşteri ödeme yaptıktan sonra otomatik olarak uygulanacak şekilde ayarlayabilir.
 
 
-![image](assets/en/53.webp)
+![image](assets/en/054.webp)
 
 
 #### Kamu makbuzu
@@ -1595,7 +1583,7 @@ Müşterilerin ödeme yöntemlerini bilmelerini sağlamak için, bir mağaza sah
 Genel makbuz ayarlarında, bir mağaza sahibi makbuz sayfalarını herkese açık olacak şekilde ayarlayabilir, makbuz sayfasında ödeme listesini ve müşterinin kolayca erişebilmesi için QR kodunu görüntüleyebilir.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/055.webp)
 
 
 ### Erişim Belirteçleri
@@ -1604,7 +1592,7 @@ Genel makbuz ayarlarında, bir mağaza sahibi makbuz sayfalarını herkese açı
 Erişim belirteçleri, belirli e-ticaret entegrasyonları veya özel olarak oluşturulmuş entegrasyonlarla eşleştirmek için kullanılır.
 
 
-![image](assets/en/55.webp)
+![image](assets/en/056.webp)
 
 
 ### Kullanıcılar
@@ -1613,7 +1601,7 @@ Erişim belirteçleri, belirli e-ticaret entegrasyonları veya özel olarak olu�
 Mağaza kullanıcıları, mağaza sahibinin personel üyelerini, hesaplarını ve mağazaya erişimlerini yönetebildiği yerdir. Personel üyeleri hesaplarını oluşturduktan sonra, mağaza sahibi belirli kullanıcıları Misafir kullanıcılar veya sahipler olarak mağazaya ekleyebilir. Personelin rolünü daha fazla tanımlamak için "BTCPay Server Mağaza ayarları - Roller" başlıklı bir sonraki bölüme bakın
 
 
-![image](assets/en/56.webp)
+![image](assets/en/057.webp)
 
 
 ### Roller
@@ -1625,13 +1613,13 @@ Bir mağaza sahibi, kullanıcının standart rollerini yeterince önemli bulmaya
 (1) Yeni bir rol oluşturmak için "+ Rol ekle" düğmesine tıklayın.
 
 
-![image](assets/en/57.webp)
+![image](assets/en/058.webp)
 
 
 (2) Bir Rol adı girin, örneğin "Kasiyer".
 
 
-![image](assets/en/58.webp)
+![image](assets/en/059.webp)
 
 
 (3) Rol için bireysel izinleri yapılandırın.
@@ -1665,7 +1653,7 @@ Bir mağaza sahibi, kullanıcının standart rollerini yeterince önemli bulmaya
 Rol oluşturulduğunda adı sabitlenir ve düzenleme moduna geçtikten sonra değiştirilemez.
 
 
-![image](assets/en/59.webp)
+![image](assets/en/060.webp)
 
 
 ### Webhooks
@@ -1674,13 +1662,13 @@ Rol oluşturulduğunda adı sabitlenir ve düzenleme moduna geçtikten sonra de�
 BTCPay Server'da yeni bir "Webhook" oluşturmak oldukça kolaydır. BTCPay Server Mağaza ayarları - Webhooks sekmesinde, bir mağaza sahibi "+ Webhook Oluştur" seçeneğine tıklayarak kolayca yeni bir webhook oluşturabilir. Webhooks, BTCPay Server'ın mağazanızla ilgili HTTP olaylarını diğer sunuculara veya e-ticaret entegrasyonlarına göndermesini sağlar.
 
 
-![image](assets/en/60.webp)
+![image](assets/en/061.webp)
 
 
 Şimdi bir Webhook oluşturma görünümündesiniz. Yük URL'nizi bildiğinizden emin olun ve bunu BTCPay Sunucunuza yapıştırın. Yük URL'sini yapıştırdığınızda, altında web kancası sırrı gösterilir. Webhook sırrını kopyalayın ve uç noktada sağlayın. Her şey ayarlandığında, BTCPay Server'da "Otomatik yeniden teslimat" seçeneğine geçebilirsiniz BTCPay Server, başarısız olan herhangi bir teslimatı 10 saniye, 1 dakika ve 10 dakika sonra en fazla 6 kez yeniden teslim etmeye çalışacaktır. Her olay arasında geçiş yapabilir veya ihtiyaçlarınıza göre olayları belirleyebilirsiniz. Web kancasını etkinleştirdiğinizden emin olun ve kaydetmek için "Web kancası ekle" düğmesine basın.
 
 
-![image](assets/en/61.webp)
+![image](assets/en/062.webp)
 
 
 Web kancalarının Bitpay API ile uyumlu olması amaçlanmamıştır. BTCPay Server'da iki ayrı IPN (BitPay terimleriyle: "Anında Ödeme Bildirimleri") vardır.
@@ -1703,15 +1691,15 @@ Bildirim URL'sini yalnızca Bitpay API aracılığıyla fatura oluşturduğunuzd
 Mağaza sahibi her iki ödeme işlemcisini ayrı ayrı tıklayıp yapılandırabilir. Bir mağaza sahibi On-Chain işlemcisini yalnızca her X saatte bir çalıştırmak isteyebilirken off-chain işlemcisi birkaç dakikada bir çalışabilir. On-Chain için hangi bloğun dahil edilmesi gerektiğine dair bir hedef de belirleyebilirsiniz. Varsayılan olarak, bu 1 (veya mevcut bir sonraki blok) olarak ayarlanmıştır. off-chain ödeme işlemcisinin ayarlanmasında yalnızca aralık zamanlayıcısının bulunduğuna ve blok hedefinin bulunmadığına dikkat edin. Lightning Network ödemeleri anlıktır.
 
 
-![image](assets/en/62.webp)
+![image](assets/en/063.webp)
 
-![image](assets/en/63.webp)
+![image](assets/en/064.webp)
 
 
 Mağaza sahipleri On-Chain işlemcisini yalnızca mağazalarına bağlı bir Hot Wallet varsa yapılandırabilir.
 
 
-![image](assets/en/64.webp)
+![image](assets/en/065.webp)
 
 
 Bir Ödeme işlemcisi kurduktan sonra, BTCPay Sunucu Mağazası ayarlarındaki Ödeme işlemcisi sekmesine geri dönerek bunu hızlı bir şekilde kaldırabilir veya değiştirebilirsiniz.
@@ -1729,7 +1717,7 @@ Bir Ödeme işlemcisi kurduktan sonra, BTCPay Sunucu Mağazası ayarlarındaki �
 BTCPay Server, Bildirimler için veya doğru ayarlandığında, örnekte oluşturulan hesapları kurtarmak için E-postaları kullanabilir. Standart olarak, BTCPay Server, örneğin şifre kaybolduğunda bir e-posta göndermez.
 
 
-![image](assets/en/65.webp)
+![image](assets/en/066.webp)
 
 
 Bir mağaza sahibi, mağazasındaki belirli olayları tetiklemek için E-posta kuralları belirlemeden önce, bazı temel e-posta ayarlarını yapmalıdır. BTCPay Server, mağazanızla ilgili olaylar veya şifre sıfırlamaları için e-posta göndermek üzere bu ayarlara ihtiyaç duyar.
@@ -1749,7 +1737,7 @@ BTCPay Sunucusu, "Hızlı Doldurma" Seçeneğini kullanarak bu bilgileri doldurm
 BTCPay Server, hızlı doldurma seçeneğini kullanarak SMTP sunucusu ve bağlantı noktası için alanları önceden dolduracaktır. Şimdi, mağaza sahibinin yalnızca E-posta Address, Oturum Açma (genellikle e-posta Address'ünüze eşittir) ve şifresi dahil olmak üzere kimlik bilgilerini doldurması gerekir. BTCPay Sunucusu e-posta ayarlarındaki gelişmiş seçenek, TLS Sertifikası güvenlik kontrollerini Devre Dışı Bırakmaktır; varsayılan olarak bu etkindir.
 
 
-![image](assets/en/66.webp)
+![image](assets/en/067.webp)
 
 
 E-posta kuralları ile bir mağaza sahibi, belirli e-posta adreslerine e-postaları tetiklemek için belirli olayları ayarlayabilir.
@@ -1768,7 +1756,7 @@ E-posta kuralları ile bir mağaza sahibi, belirli e-posta adreslerine e-postala
 Müşteri bir E-posta Address sağlamışsa, bu tetikleyiciler bilgileri müşteriye de gönderebilir. Mağaza sahipleri, bu E-postanın neden oluştuğunu ve neyin tetiklediğini netleştirmek için Konu satırını önceden doldurabilir.
 
 
-![image](assets/en/67.webp)
+![image](assets/en/068.webp)
 
 
 ### Formlar
@@ -1780,13 +1768,13 @@ BTCPay Server herhangi bir veri toplamadığından, bir mağaza sahibi ödeme de
 Yeni bir form oluştururken, BTCPay Server yeni formunuzun ne sormasını istediğinize ilişkin temel bilgileri talep eden yeni bir pencere açar. İlk olarak, mağaza sahibinin yeni formu için net bir isim vermesi gerekir; bu isim belirlendikten sonra değiştirilemez.
 
 
-![image](assets/en/68.webp)
+![image](assets/en/069.webp)
 
 
 Mağaza sahibi forma bir ad verdikten sonra, "Formun genel kullanımına izin ver" anahtarını AÇIK konuma getirebilirsiniz; böylece form Green'e dönüşecektir. Bu, formun müşteriye dönük her konumda kullanılmasını sağlar. Örneğin, bir mağaza sahibi Satış Noktası üzerinden değil de ayrı bir Invoice oluşturursa, yine de müşteriden bilgi toplamak isteyebilir. Bu geçiş, bu bilgilerin toplanmasını sağlar.
 
 
-![image](assets/en/69.webp)
+![image](assets/en/070.webp)
 
 
 Her form en az 1 Yeni form alanı ile başlar. Bir mağaza sahibi bunun ne tür bir alan olması gerektiğini seçebilir.
@@ -1809,7 +1797,7 @@ Her form en az 1 Yeni form alanı ile başlar. Bir mağaza sahibi bunun ne tür 
 Her tür, doldurulması gereken parametreleriyle birlikte gelir. Mağaza sahibi bunu kendi isteğine göre ayarlayabilir. İlk oluşturulan alanın altında, mağaza sahipleri bu forma yeni alanlar ekleyebilir.
 
 
-![image](assets/en/70.webp)
+![image](assets/en/071.webp)
 
 
 #### Gelişmiş özel formlar
@@ -1818,28 +1806,30 @@ Her tür, doldurulması gereken parametreleriyle birlikte gelir. Mağaza sahibi 
 BTCPay Server ayrıca kod içinde Formlar oluşturmanıza da olanak tanır. Özellikle JSON. Mağaza sahipleri editöre bakmak yerine, editörün hemen yanındaki KOD düğmesine tıklayabilir ve Formlarının koduna girebilirler. Bir alan tanımında yalnızca aşağıdaki alanlar ayarlanabilir; alanların değerleri Invoice'in meta verilerinde saklanır:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Alan | Açıklama |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Eğer true ise, .value form tanımında ayarlanmalıdır ve kullanıcı alanın değerini değiştiremeyecektir. (örnek: form tanımının versiyonu) |
+| .fields.type | HTML girdi türü: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Eğer .fields.type select ise, seçilebilir değerlerin listesi |
+| .fields.options.text | Bu seçenek için görüntülenen metin |
+| .fields.options.value | Bu seçenek seçilirse alanın değeri |
+| .fields.type=fieldset | Alt .fields.fields öğelerinin etrafında bir HTML fieldset oluşturun (aşağıya bakın) |
+| .fields.name | Alanın fatura meta verilerinde görüneceği JSON özellik adı |
+| .fields.value | Alanın varsayılan değeri |
+| .fields.required | eğer true ise, alan zorunlu olacaktır |
+| .fields.label | Alanın etiketi |
+| .fields.helpText | Alan için bir açıklama sağlamak üzere ek metin. |
+| .fields.fields | Alanlarınızı bir hiyerarşi içinde düzenleyebilir, alt alanların fatura meta verileri içinde iç içe geçmesine olanak tanıyabilirsiniz. Bu yapı, toplanan bilgileri daha iyi organize etmenize ve yönetmenize yardımcı olarak erişimi ve yorumlamayı kolaylaştırabilir. Örneğin, müşteri bilgilerini toplayan bir formunuz varsa, alanları customer adlı bir ana alan altında gruplandırabilirsiniz. Bu ana alan içinde name, Email ve address gibi alt alanlarınız olabilir. |
 
 Alan adı, kullanıcı tarafından sağlanan değeri Invoice'nın meta verilerinde saklayan JSON özellik adını temsil eder. Bazı iyi bilinen isimler yorumlanabilir ve Invoice'nın ayarlarını yapmak için değiştirilebilir.
 
 
-| Field name       | Description            |
+
+| Alan adı         | Açıklama              |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Fatura tutarı         |
+| invoice_currency | Fatura para birimi    |
 
 Formun URL'sine "?your_field=value" gibi sorgu dizeleri ekleyerek bir Invoice'nin alanlarını otomatik olarak önceden doldurabilirsiniz.
 
@@ -1905,7 +1895,7 @@ BTCPay Server iki farklı ayar görünümünden oluşur. Biri Mağaza ayarların
 BTCPay Server iki tür özel role sahiptir: BTCPay Server ayarlarında mağazaya özgü özel roller ve sunucu genelinde Özel roller. Her ikisi de benzer izinlere sahiptir; ancak, BTCpay Sunucu Ayarları - Roller sekmesi aracılığıyla ayarlanırsa, uygulanan rol sunucu genelinde olacak ve birden fazla mağaza için geçerli olacaktır. Sunucu ayarlarındaki özel roller için "Sunucu çapında" etiketine dikkat edin.
 
 
-![image](assets/en/71.webp)
+![image](assets/en/072.webp)
 
 
 ### Sunucu genelinde özel Roller
@@ -1951,7 +1941,7 @@ Rol oluşturulduğunda adı sabitlenir ve düzenleme moduna geçtikten sonra de�
 Sunucu genelinde E-posta ayarları, Mağazaya özel e-posta ayarlarındakilere benzer. Bununla birlikte, bu kurulum yalnızca mağazalar veya yönetici günlükleri için tetikleyicileri değil, aynı zamanda diğer olaylar için tetikleyicileri de işler. Bu E-posta kurulumu ayrıca BTCPay Sunucusunda Oturum Açma sırasında parola kurtarmayı da mümkün kılar. Mağazaya özel ayarlara benzer şekilde çalışır; yöneticiler E-posta parametrelerini hızlı bir şekilde doldurabilir ve e-posta kimlik bilgilerini girerek sunucunun e-posta göndermesine izin verebilir.
 
 
-![image](assets/en/72.webp)
+![image](assets/en/073.webp)
 
 
 ### Politikalar
@@ -1960,7 +1950,7 @@ Sunucu genelinde E-posta ayarları, Mağazaya özel e-posta ayarlarındakilere b
 BTCPay Server politika yöneticileri, Mevcut Kullanıcı ayarları, Yeni Kullanıcı ayarları, Bildirim ayarları ve Bakım ayarları gibi konularda çeşitli ayarlar yapabilirler. Bunlar, yeni kullanıcıları yönetici veya normal kullanıcı olarak kaydetmek veya BTCPay Sunucusunu sunucu başlığınıza ekleyerek arama motorlarından gizlemek için tasarlanmıştır.
 
 
-![image](assets/en/73.webp)
+![image](assets/en/074.webp)
 
 
 #### Mevcut kullanıcı Ayarları
@@ -1978,7 +1968,7 @@ Burada bulunan seçenekler özel rollerden ayrıdır. Bu ek izinler, bir mağaza
   - Önceki Hot cüzdanları oluşturma konusuna benzer şekilde, bu ilke Hot cüzdanları oluşturma bölümünde belirtilen aynı tehlikelerle birlikte bir Hot Wallet'in içe aktarılmasına izin verir.
 
 
-![image](assets/en/74.webp)
+![image](assets/en/075.webp)
 
 
 #### Yeni kullanıcı ayarları
@@ -1997,13 +1987,13 @@ Sunucuya gelen yeni kullanıcıları yönetmek için bazı önemli ayarlar yapab
 Varsayılan olarak, BTCPay Server "Sunucuda yeni kullanıcı kaydını devre dışı bırak" seçeneğini işaretlemiş ve yönetici olmayanların kullanıcı oluşturma API uç noktasına erişimini kapatmıştır. Bu güvenlik içindir, böylece BTCPay giriş bilgilerinize rastlayan rastgele kişiler hesap oluşturamaz.
 
 
-![image](assets/en/75.webp)
+![image](assets/en/076.webp)
 
 
 #### Bildirim Ayarları
 
 
-![image](assets/en/76.webp)
+![image](assets/en/077.webp)
 
 
 #### Bakım Ayarları
@@ -2018,7 +2008,7 @@ BTCPay Server, GitHub'da yaşayan bir Açık Kaynak projesidir. BTCPay Server ya
 - Deneysel özellikleri etkinleştirin.
 
 
-![image](assets/en/77.webp)
+![image](assets/en/078.webp)
 
 
 #### Eklentiler
@@ -2027,7 +2017,7 @@ BTCPay Server, GitHub'da yaşayan bir Açık Kaynak projesidir. BTCPay Server ya
 BTCPay Server Eklentiler ekleyebilir ve özellik setini genişletebilir. Eklentiler varsayılan olarak BTCPay Server eklenti oluşturucu deposundan yüklenir. Bununla birlikte, bir yönetici eklentileri Yayın Öncesi durumunda görmeyi seçebilir ve eklenti geliştiricisi izin verirse, sunucu yöneticisi artık eklentilerin beta sürümlerini yükleyebilir.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/079.webp)
 
 
 ##### Özelleştirme Ayarları
@@ -2041,7 +2031,7 @@ Standart bir BTCPay Server dağıtımına kurulum sırasında ayarlanan etki ala
   - Kök etki alanında gösterilecek olası uygulamaların bir listesini görüntüler.
 
 
-![image](assets/en/79.webp)
+![image](assets/en/080.webp)
 
 
 
@@ -2049,7 +2039,7 @@ Standart bir BTCPay Server dağıtımına kurulum sırasında ayarlanan etki ala
   - Belirli uygulamalar için belirli bir etki alanı ayarlamak üzere tıkladığınızda, Yönetici belirli uygulamalara işaret eden gerektiği kadar etki alanı ayarlayabilir.
 
 
-![image](assets/en/80.webp)
+![image](assets/en/081.webp)
 
 
 #### Blok kaşifleri
@@ -2058,7 +2048,7 @@ Standart bir BTCPay Server dağıtımına kurulum sırasında ayarlanan etki ala
 BTCPay Server, standart olarak, işlemler için Mempool olarak Block explorer.space ile birlikte gelir. BTCPay Server yeni bir Invoice oluşturduğunda ve buna bir işlem bağlandığında, mağaza sahibi işlemi açmak için tıklayabilir. BTCPay Server varsayılan olarak Mempool.space'i Block explorer olarak işaret edecektir; ancak, bir sunucu Yöneticisi bunu tercih ettiği seçeneğe değiştirebilir.
 
 
-![image](assets/en/81.webp)
+![image](assets/en/082.webp)
 
 
 ### Hizmetler
@@ -2070,7 +2060,7 @@ BTCPay Server, standart olarak, işlemler için Mempool olarak Block explorer.sp
 Bir BTCPay Sunucu Yöneticisi, her bir hizmetin arkasındaki "Bilgileri gör "e tıklayarak hizmeti açabilir ve belirli ayarları yapabilir.
 
 
-![image](assets/en/82.webp)
+![image](assets/en/083.webp)
 
 
 #### LND (gRPC)
@@ -2095,7 +2085,7 @@ Sunucu yöneticileri daha fazla ayrıntı görmek için açabilir.
 #### LND (REST)
 
 
-BTCPay, LND'in REST hizmetini dış tüketim için sunar; bağlantı bilgilerini burada bulacaksınız; uyumlu cüzdanlar burada listelenmiştir. Uyumlu cüzdanlar arasında Joule, Alby ve ZeusLN bulunmaktadır. BTCPay Sunucusu, bağlantı için uyumlu bir Wallet'de taranabilen ve uygulanabilen bir QR kodu sağlar.
+BTCPay, LND'in REST hizmetini dış tüketim için sunar; bağlantı bilgilerini [burada](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay) bulacaksınız; uyumlu cüzdanlar [burada](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server) listelenmiştir. Uyumlu cüzdanlar arasında Joule, Alby ve ZeusLN bulunmaktadır. BTCPay Sunucusu, bağlantı için uyumlu bir Wallet'de taranabilen ve uygulanabilen bir QR kodu sağlar.
 
 
 
@@ -2157,7 +2147,7 @@ BTCPay Server, standart olarak iki tema ile birlikte gelir: Açık ve Koyu modla
 Yöneticiler kendi özel CSS'lerini ekleyerek veya özel temalarını tam özel olarak ayarlayarak Açık/Koyu temasını genişletebilirler.
 
 
-![image](assets/en/83.webp)
+![image](assets/en/084.webp)
 
 
 #### Sunucu Markası
@@ -2166,7 +2156,7 @@ Yöneticiler kendi özel CSS'lerini ekleyerek veya özel temalarını tam özel 
 Sunucu yöneticileri, şirketinizin Sunucu çapında bir markasını belirleyerek BTCPay Sunucu markasını değiştirebilir. BTCPay Server FOSS olduğundan, sunucu yöneticileri yazılımı beyaz etiketleyebilir ve görünümü kendi işlerine uyacak şekilde özelleştirebilir.
 
 
-![image](assets/en/84.webp)
+![image](assets/en/085.webp)
 
 
 ### Bakım
@@ -2178,7 +2168,7 @@ Bir sunucu yöneticisi olarak, kullanıcılarınız sizden Sunucuya iyi bakmanı
 BTCPay Server bir Açık Kaynak projesidir ve sık sık güncellenir. Her yeni sürüm, BTCPay Server Bildirimleriniz veya BTCPay Server'ın iletişim kurduğu resmi Kanallar aracılığıyla duyurulur.
 
 
-![image](assets/en/85.webp)
+![image](assets/en/086.webp)
 
 
 #### Alan adı
@@ -2187,7 +2177,7 @@ BTCPay Server bir Açık Kaynak projesidir ve sık sık güncellenir. Her yeni s
 BTCPay Sunucusu kurulduktan sonra, bir yönetici orijinal Etki Alanından uzaklaşmak isteyebilir. Bakım sekmesinde, yönetici Etki Alanını değiştirebilir. Onayla'ya tıkladıktan ve Etki Alanında uygun DNS kayıtlarını ayarladıktan sonra, BTCPay Server yeni Etki Alanına dönmek için güncellenir ve yeniden başlatılır.
 
 
-![image](assets/en/86.webp)
+![image](assets/en/087.webp)
 
 
 #### Yeniden Başlat
@@ -2196,7 +2186,7 @@ BTCPay Sunucusu kurulduktan sonra, bir yönetici orijinal Etki Alanından uzakla
 BTCPay Sunucusunu ve ilgili hizmetleri yeniden başlatın.
 
 
-![image](assets/en/87.webp)
+![image](assets/en/088.webp)
 
 
 #### Temiz
@@ -2205,7 +2195,7 @@ BTCPay Sunucusunu ve ilgili hizmetleri yeniden başlatın.
 BTCPay Server Docker bileşenleri ile çalışır; güncellemelerle birlikte Docker imajları, geçici dosyalar vb. kalıntılar olabilir. Sunucu yöneticileri Clean betiğini çalıştırarak yer açabilirler.
 
 
-![image](assets/en/88.webp)
+![image](assets/en/089.webp)
 
 
 #### Güncelleme
@@ -2214,7 +2204,7 @@ BTCPay Server Docker bileşenleri ile çalışır; güncellemelerle birlikte Doc
 Bakım sekmesindeki en önemli seçenektir. BTCPay Server topluluk tarafından oluşturulmuştur ve bu nedenle güncelleme döngüleri çoğu yazılım ürününden daha sıktır. BTCPay Server yeni bir sürüme sahip olduğunda, yöneticiler bildirim merkezlerinde bilgilendirilecektir. Güncelleme düğmesine tıklandığında, BTCPay Server en son sürüm için GitHub'ı kontrol edecek, Sunucuyu güncelleyecek ve yeniden başlatacaktır. Güncellemeden önce, sunucu yöneticilerine her zaman BTCPay Server'ın resmi kanalları aracılığıyla dağıtılan sürüm notlarını okumaları tavsiye edilir.
 
 
-![image](assets/en/89.webp)
+![image](assets/en/090.webp)
 
 
 ### Günlükler
@@ -2235,7 +2225,7 @@ Sorunun tanımlanması çok önemlidir.
 ##### Sunucunun güncellenmesi
 
 
-BTCPay Server sürümünüzün BTCPay Server'ın [en son sürümünden] (https://github.com/btcpayserver/btcpayserver/releases) çok daha eski olup olmadığını kontrol edin. Sunucunuzu güncellemek sorunu çözebilir.
+BTCPay Server sürümünüzün BTCPay Server'ın [en son sürümünden](https://github.com/btcpayserver/btcpayserver/releases) çok daha eski olup olmadığını kontrol edin. Sunucunuzu güncellemek sorunu çözebilir.
 
 
 ##### Sunucuyu yeniden başlatma
@@ -2289,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Loglar        | Konteyner Adı                      |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2408,10 +2399,10 @@ BTCPay Sunucusu, mağaza (ürün) varlıklarını, Logoları ve markaları doğr
 Sunucu yöneticisi Dosya Depolama sekmesindeyken, doğrudan Sunucunuza yüklemek veya dosya depolama sağlayıcısını bir Yerel dosya sistemi veya Azure Blob Depolama olarak değiştirmek mümkündür.
 
 
-![image](assets/en/90.webp)
+![image](assets/en/091.webp)
 
 
-![image](assets/en/91.webp)
+![image](assets/en/092.webp)
 
 
 ### Beceri Özeti
@@ -2468,7 +2459,7 @@ BTCPay Server'ın özü, bir Bitcoin Invoice yönetim sistemi olarak hareket etm
 Ödemeleri manuel olarak almak için yerleşik bir [Wallet](https://docs.btcpayserver.org/Wallet/) kullanmadığınız sürece, bir mağazadaki tüm ödemeler Faturalar sayfasında gösterilecektir. Bu sayfa ödemeleri tarihe göre kümülatif olarak sıralar ve Invoice yönetimi ve ödeme sorunlarının giderilmesi için merkezi bir kaynak görevi görür.
 
 
-![image](assets/en/92.webp)
+![image](assets/en/093.webp)
 
 
 ### Genel
@@ -2480,21 +2471,22 @@ BTCPay Server'ın özü, bir Bitcoin Invoice yönetim sistemi olarak hareket etm
 Aşağıdaki tabloda BTCPay'deki standart Invoice durumları, önerilen ortak eylemlerle birlikte listelenmekte ve açıklanmaktadır. Eylemler sadece tavsiyedir. Kendi kullanım durumları ve işleri için en iyi eylem planını tanımlamak kullanıcılara bağlıdır.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Fatura Durumu | Açıklama | İşlem |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ödenmedi, fatura zamanlayıcısı henüz dolmadı | Yok |
+| New (paidPartial) | Kısmen ödendi, fatura zamanlayıcısı henüz dolmadı | Yok |
+| Expired | Ödenmedi, fatura zamanlayıcısı doldu | Yok |
+| Expired (paidPartial) ** | Kısmen ödendi ve süresi doldu | İade ayarlamak için alıcıyla iletişime geçin veya bakiyeyi ödemesini isteyin. İsteğe bağlı olarak settled veya invalid işaretleyin |
+| Expired (paidLate) | Fatura süresi dolduktan sonra tam tutar ödendi | İade için alıcıyla iletişime geçin veya geç onaylar kabul ediliyorsa siparişi işleme alın. |
+| Settled (paidOver) | Fatura tutarından fazla ödendi, kapatıldı, yeterli onay alındı | Fazla tutarın iadesi için alıcıyla iletişime geçin veya alıcının size ulaşmasını bekleyin |
+| Processing | Tam ödendi ancak mağaza ayarlarında belirtilen onay sayısına henüz ulaşmadı | Fazla tutarın iadesi için alıcıyla iletişime geçin veya alıcının size ulaşmasını bekleyin |
+| Processing (paidOver) | Fatura tutarından fazla ödendi, yeterli onay alınmadı | settled olmasını bekleyin, sonra iade için alıcıyla iletişime geçin veya alıcının ulaşmasını bekleyin |
+| Settled | Tam ödendi, mağazada yeterli onay alındı | Siparişi tamamlayın |
+| Settled (marked) | Durum, processing veya invalid'den manuel olarak settled'a çevrildi | Mağaza yöneticisi ödemeyi settled olarak işaretledi |
+| Invalid* | Ödendi ancak mağaza ayarlarındaki süre içinde yeterli onay alınamadı | İşlemi bir blok zinciri gezgininde kontrol edin; yeterli onay varsa settled olarak işaretleyin |
+| Invalid (marked) | Durum, settled veya expired'dan manuel olarak invalid'e çevrildi | Mağaza yöneticisi ödemeyi invalid olarak işaretledi |
+| Invalid (paidOver) | Fatura tutarından fazla ödendi ancak süre içinde yeterli onay alınamadı | İşlemi bir blok zinciri gezgininde kontrol edin; yeterli onay varsa settled olarak işaretleyin |
 
 #### Invoice ayrıntıları
 
@@ -2586,7 +2578,7 @@ Mağaza sahipleri, kayıt tutma ve muhasebe için ödeme taleplerini yazdırabil
 - Görünüm - CSS Temaları ile Renk ve Stil
 
 
-![image](assets/en/93.webp)
+![image](assets/en/094.webp)
 
 
 #### Ödeme Talebi Oluşturun
@@ -2595,7 +2587,7 @@ Mağaza sahipleri, kayıt tutma ve muhasebe için ödeme taleplerini yazdırabil
 Sol menüden Ödeme Talebi'ne gidin ve "Ödeme Talebi Oluştur "a tıklayın.
 
 
-![image](assets/en/94.webp)
+![image](assets/en/095.webp)
 
 
 Talep Adı, Tutar, Gösterge Değeri, İlişkili Mağaza, Son Kullanma Süresi ve Açıklama (İsteğe Bağlı)
@@ -2610,7 +2602,7 @@ Kısmi ödemelere izin vermek istiyorsanız Alacaklının kendi mezhebinde fatur
 BTCPay ödeme talebi için bir URL oluşturur. Ödeme talebinizi görüntülemek için bu URL'yi paylaşın. Aynı talepten birden fazlasına mı ihtiyacınız var? Ana menüdeki Klonla seçeneğini kullanarak ödeme taleplerini çoğaltabilirsiniz.
 
 
-![image](assets/en/95.webp)
+![image](assets/en/096.webp)
 
 
 **UYARI**
@@ -2625,7 +2617,7 @@ BTCPay ödeme talebi için bir URL oluşturur. Ödeme talebinizi görüntülemek
 Alacaklı ve talep eden, ödeme gönderildikten sonra ödeme talebinin durumunu görüntüleyebilir. Ödeme tam olarak alınmışsa durum Anlaşıldı olarak görünecektir. Yalnızca kısmi ödemeler yapılmışsa, Ödenmesi Gereken Tutar kalan bakiyeyi gösterecektir.
 
 
-![image](assets/en/96.webp)
+![image](assets/en/097.webp)
 
 
 #### Ödeme Taleplerini Özelleştirin
@@ -2634,7 +2626,7 @@ Alacaklı ve talep eden, ödeme gönderildikten sonra ödeme talebinin durumunu 
 Açıklama içeriği, ödeme talebinin metin düzenleyicisi kullanılarak düzenlenebilir. Ek renk temaları veya özel CSS stilleri kullanmak istiyorsanız her iki seçenek de mevcuttur.
 
 
-Teknik olmayan kullanıcılar bir [bootstrap teması] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes) kullanabilir. Aşağıda gösterildiği gibi ek CSS kodu sağlayarak daha fazla özelleştirme yapılabilir.
+Teknik olmayan kullanıcılar bir [bootstrap teması](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes) kullanabilir. Aşağıda gösterildiği gibi ek CSS kodu sağlayarak daha fazla özelleştirme yapılabilir.
 
 
 ```css
@@ -2683,13 +2675,13 @@ Peki ya gönderici ödemeyi itmek yerine, alıcının uygun gördüğü bir zama
 ### Ödemeler
 
 
-Ödeme işlevi [Pull Payments] (https://docs.btcpayserver.org/PullPayments/) özelliğine bağlıdır. Bu özellik, BTCPay'inizde ödeme oluşturmanıza olanak tanır. Bu özellik, çekme ödemelerini (geri ödemeler, maaş ödemeleri veya para çekme işlemleri) işleme koymanıza olanak tanır.
+Ödeme işlevi [Pull Payments](https://docs.btcpayserver.org/PullPayments/) özelliğine bağlıdır. Bu özellik, BTCPay'inizde ödeme oluşturmanıza olanak tanır. Bu özellik, çekme ödemelerini (geri ödemeler, maaş ödemeleri veya para çekme işlemleri) işleme koymanıza olanak tanır.
 
 
 #### Örnek 1: Para İadesi
 
 
-Para iadesi örneğiyle başlayalım. Müşteri mağazanızdan bir ürün satın aldı, ancak ne yazık ki iade etmek zorunda. Para iadesi istiyorlar. BTCPay'de bir [Refund] (https://docs.btcpayserver.org/Refund/) oluşturabilir ve müşteriye fonlarını talep etmesi için bağlantı sağlayabilirsiniz. Müşteri Address'ünü girdikten ve parayı talep ettikten sonra, Ödemeler bölümünde görüntülenecektir.
+Para iadesi örneğiyle başlayalım. Müşteri mağazanızdan bir ürün satın aldı, ancak ne yazık ki iade etmek zorunda. Para iadesi istiyorlar. BTCPay'de bir [Refund](https://docs.btcpayserver.org/Refund/) oluşturabilir ve müşteriye fonlarını talep etmesi için bağlantı sağlayabilirsiniz. Müşteri Address'ünü girdikten ve parayı talep ettikten sonra, Ödemeler bölümünde görüntülenecektir.
 
 
 Sahip olduğu ilk durum Onay Bekliyor'dur. Mağaza görevlileri birden fazla bekleyen olup olmadığını kontrol edebilir ve seçimi yaptıktan sonra Eylemler düğmesini kullanırsınız.
@@ -2713,7 +2705,7 @@ Müşteri artık Talep sayfasında güncellenir. Kendisine bir Block explorer ba
 #### Örnek 2: Maaş
 
 
-Şimdi Maaş ödemesine geçelim, çünkü bu Müşterinin talebine göre değil, mağazanın içinden yönlendirilir. Temel konsept aynıdır; çekme ödemelerini kullanır. Ancak bir geri ödeme oluşturmak yerine, bir [Çekme Ödemesi] (https://docs.btcpayserver.org/PullPayments/) yapacağız.
+Şimdi Maaş ödemesine geçelim, çünkü bu Müşterinin talebine göre değil, mağazanın içinden yönlendirilir. Temel konsept aynıdır; çekme ödemelerini kullanır. Ancak bir geri ödeme oluşturmak yerine, bir [Çekme Ödemesi](https://docs.btcpayserver.org/PullPayments/) yapacağız.
 
 
 BTCPay sunucunuzdaki Çekme Ödemeleri sekmesine gidin. Sağ üstte, Çekme Ödemesi Oluştur Düğmesine tıklayın.
@@ -2757,7 +2749,7 @@ Bundan sonra, gönderici alıcı ile bir bağlantı kullanarak çekme ödemesini
 Bir ödeme oluşturulduktan sonra, mevcut dönem için çekme ödemesi limitine sayılacaktır. Gönderen daha sonra ödemenin gönderileceği oranı ayarlayarak ödemeyi onaylayacak ve ödemeye devam edecektir.
 
 
-Gönderen için, [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/) üzerinden birden fazla ödemeyi toplu hale getirmek için kullanımı kolay bir yöntem sunuyoruz.
+Gönderen için, [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/) üzerinden birden fazla ödemeyi toplu hale getirmek için kullanımı kolay bir yöntem sunuyoruz.
 
 
 #### Greenfield API
@@ -2823,7 +2815,7 @@ BTCPay Server, mağaza sahiplerinin birden fazla düzende hızlı bir şekilde S
 Mağaza sahibi sol menü çubuğunda "Satış Noktası" üzerine tıkladığında, BTCPay Sunucusu şimdi bir isim isteyecektir; bu isim sol menü çubuğunda görünecektir. PoS'u oluşturmak için Oluştur'a tıklayın.
 
 
-![image](assets/en/97.webp)
+![image](assets/en/098.webp)
 
 
 #### Yeni oluşturulan Satış Noktasını güncelleyin
@@ -2844,7 +2836,7 @@ Burada Satış Noktanıza verilen isim BTCPay Sunucusunun ana menüsünde görü
 Halk ziyaret ederken mağazanızın başlığını veya adını görecektir. BTCPay Server, varsayılan olarak mağazanızı "Çay dükkanı" olarak adlandırır Bunu mağazanızın adı ile değiştirin.
 
 
-![image](assets/en/98.webp)
+![image](assets/en/099.webp)
 
 
 #### Satış Noktası Stilini Seçin
@@ -2864,31 +2856,31 @@ BTCPay Sunucusu, Satış Noktasını birden fazla şekilde görüntüleyebilir.
   - Ürün listenizi her zaman dijital olarak görüntüleyemiyorsanız, ürünler için "çevrimdışı" bir çözüme ihtiyacınız var; BTCPay Server, Çevrimdışı mağaza olarak işlev görmek için bir baskı ekranına sahiptir.
 
 
-![image](assets/en/99.webp)
+![image](assets/en/100.webp)
 
 
 #### Satış Noktası Stili - Ürün listesi
 
 
-![image](assets/en/100.webp)
+![image](assets/en/101.webp)
 
 
 #### Satış Noktası Stili - Ürün listesi + Sepet
 
 
-![image](assets/en/101.webp)
+![image](assets/en/102.webp)
 
 
 #### Satış Noktası Stili - Sadece Tuş Takımı
 
 
-![image](assets/en/102.webp)
+![image](assets/en/103.webp)
 
 
 #### Satış Noktası Stili - Baskı ekranı
 
 
-![image](assets/en/103.webp)
+![image](assets/en/104.webp)
 
 
 #### Para Birimi
@@ -2903,7 +2895,7 @@ Mağaza sahibi, Satış Noktası için genel olarak ayarlanmış varsayılan par
 Dünyaya dükkanınızdan bahsedin; ne satıyorsunuz ve ne kadara satıyorsunuz? Dükkanınızı anlatan her şey burada.
 
 
-![image](assets/en/104.webp)
+![image](assets/en/105.webp)
 
 
 #### Ürünler
@@ -2932,7 +2924,7 @@ Mağaza sahibi tüm yeni ürün alanlarını doldurduktan sonra kaydet'e tıklay
 Mağaza sahipleri ürünlerini yapılandırmak için "Ham Düzenleyici "yi de kullanabilir. Ham düzenleyici, JSON yapılarının temel düzeyde anlaşılmasını gerektirir.
 
 
-![image](assets/en/105.webp)
+![image](assets/en/106.webp)
 
 
 #### Ödeme
@@ -2983,7 +2975,7 @@ Satış Noktası eklentisinin yanında, BTCPay Server bir kitle fonlaması oluş
 BTCPay Sunucunuzun solundaki ana menüden, Eklenti bölümünün altındaki Crowdfund eklentisine tıklayın. BTCPay Sunucusu şimdi Kitle Fonlaması için bir ad isteyecektir; bu ad Sol menü çubuğunda da görüntülenecektir.
 
 
-![image](assets/en/106.webp)
+![image](assets/en/107.webp)
 
 
 #### Yeni oluşturulan Satış Noktasını güncelleyin
@@ -3010,7 +3002,7 @@ Kitle Fonuna halk için unvan verilmiştir.
 Kitle fonuna, bağış kampanyasının ne hakkında olduğunu belirten tek satırlık bir açıklama ekleyin.
 
 
-![image](assets/en/107.webp)
+![image](assets/en/108.webp)
 
 
 #### Öne Çıkan Görsel URL'si
@@ -3031,7 +3023,7 @@ Bu geçiş, Kitle Fonunuzu halka açık hale getirir ve böylece dış dünya ta
 Dünyaya Kitle Fonunuzdan bahsedin. Ne için fon topluyorsunuz? Kitle fonunuzu açıklayan her şey burada.
 
 
-![image](assets/en/108.webp)
+![image](assets/en/109.webp)
 
 
 #### Kitlesel Fon Hedefi
@@ -3040,7 +3032,7 @@ Dünyaya Kitle Fonunuzdan bahsedin. Ne için fon topluyorsunuz? Kitle fonunuzu a
 Bağış toplayan kişinin proje için ne kadar kazanması gerektiğine ve hedefin hangi para birimi cinsinden olması gerektiğine dair bir hedef belirleyin. Hedefleriniz tarihler arasında belirleniyorsa, bu hedef ve bitiş tarihlerini Kitle Fonlamasında Hedefler bölümüne ekleyin.
 
 
-![image](assets/en/109.webp)
+![image](assets/en/110.webp)
 
 
 #### Avantajlar
@@ -3066,7 +3058,7 @@ Yeni bir avantaj oluşturmak aşağıdaki alanlardan oluşur.
 Mağaza sahibi yeni avantajın tüm alanlarını doldurduktan sonra kaydet'e tıklayın ve Kitle Fonları'ndaki Avantajlar bölümünün artık doldurulduğunu göreceksiniz.
 
 
-![image](assets/en/110.webp)
+![image](assets/en/111.webp)
 
 
 ### BTCPay Sunucusu - Satış Noktası
@@ -3324,13 +3316,13 @@ https://docs.btcpayserver.org.
 İlk olarak, yeni bir hesap oluşturacağımız LunaNode.com web sitesine gidin. Sağ üstteki Kaydol'a tıklayın veya ana sayfalarındaki Başlayın sihirbazını kullanın.
 
 
-![image](assets/en/111.webp)
+![image](assets/en/112.webp)
 
 
 Yeni hesabınızı oluşturduktan sonra, LunaNode bir doğrulama e-postası gönderir. Hesabı doğruladıktan sonra, Voltage ile karşılaştırıldığında, hemen hesap bakiyenizi yükleme seçeneği sunulur. Bu bakiye, sunucu alanı ve barındırma maliyetlerini karşılamak için gereklidir.
 
 
-![image](assets/en/112.webp)
+![image](assets/en/113.webp)
 
 
 #### LunaNode hesabınıza kredi ekleyin
@@ -3354,7 +3346,7 @@ LunaNode kontrol panelinizde, sağ üstteki API'ye tıklayın. Bu yeni bir sayfa
 API kimlik bilgilerini oluşturduktan sonra, uzun bir harf ve karakter dizisi elde edersiniz. Bu sizin API anahtarınızdır.
 
 
-![image](assets/en/113.webp)
+![image](assets/en/114.webp)
 
 
 #### Yeni bir sunucu nasıl dağıtılır?
@@ -3369,7 +3361,7 @@ Burada sizden API anahtarınızı ve API kimliğinizi girmeniz istenecektir. Bu,
 Başlatıcı'nın bulunduğu sayfaya geri dönebilir, API anahtarınız ve ID'niz ile alanları doldurabilir ve devam et'e tıklayabilirsiniz.
 
 
-![image](assets/en/114.webp)
+![image](assets/en/115.webp)
 
 
 Bir sonraki adımda, bir alan adı sağlayabilirsiniz. Zaten bir alan adınız varsa ve bunu BTCPay Sunucusu için kullanmak istiyorsanız, alan adınıza DNS kaydını (`A` kaydı olarak adlandırılır) da eklediğinizden emin olun. Bir alan adınız yoksa, bunun yerine LunaNode tarafından sağlanan alan adını kullanın (bunu daha sonra BTCPay Server ayarlarından değiştirebilirsiniz) ve Devam'a tıklayın.
@@ -3390,7 +3382,7 @@ Bu kılavuz bir Mainnet ortamı (gerçek dünya Bitcoin) kurmayı amaçlamaktad�
 Lightning uygulamanızı seçebilirsiniz. LunaNode, LND ve Core Lightning olmak üzere iki farklı uygulama sunar. Bu kılavuz için LND'i ele alacağız. Her iki uygulamada da az ama gerçek farklılıklar vardır; bu konuda daha fazla bilgi için kapsamlı belgeleri okumanızı öneririz: https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
 
 
-![image](assets/en/115.webp)
+![image](assets/en/116.webp)
 
 
 LunaNode birden fazla Sanal Makine (VM) planı sunar. Bunlar fiyat aralığı ve sunucu özellikleri açısından farklılık gösterir. Bu kılavuz için m2 planı yeterli olacaktır; ancak para birimi olarak Bitcoin'dan daha fazlasını seçtiyseniz en az m4 kullanmayı düşünün.
@@ -3405,7 +3397,7 @@ Formu doldurduktan sonra Launch VM'ye tıklamanız gerekir ve Lunanode, üzerind
 Oluşturma işleminden sonra, BTCPay Sunucunuzun bağlantısına tıklayın; burada bir Yönetici hesabı oluşturmanız istenecektir.
 
 
-![image](assets/en/116.webp)
+![image](assets/en/117.webp)
 
 
 ### Beceri Özeti
@@ -3448,19 +3440,19 @@ https://docs.btcpayserver.org.
 İlk olarak, Voltage.cloud web sitesine gidin ve yeni bir hesap için kaydolun. Bir hesap oluştururken, 7 günlük ücretsiz deneme için kaydolabilirsiniz. Ya sağ üstteki Kaydol'a tıklayın ya da ana sayfadaki "7 günlük ücretsiz deneme sürümünü deneyin" seçeneğini kullanın.
 
 
-![image](assets/en/117.webp)
+![image](assets/en/118.webp)
 
 
 Bir hesap oluşturduktan sonra, kontrol panelinizdeki `NODES` düğmesine tıklayın. Düğümler'i seçtikten ve yeni bir düğüm oluşturduktan sonra, olası düğümlerin Voltage teklifleri bize sunulur. Bu kılavuz Lightning Network'ü de kapsayacağından, Voltage'da bir BTCPay Sunucusu oluşturmadan önce Lightning uygulamamızı seçmemiz gerekiyor. LightningNode üzerine tıklayın.
 
 
-![image](assets/en/118.webp)
+![image](assets/en/119.webp)
 
 
 Burada, ne tür bir Yıldırım düğümü istediğinizi seçmeniz gerekecektir. Voltage, aydınlatma kurulumunuz için çeşitli seçeneklere sahiptir. Bu, örneğin LunaNode ile dağıtım yaparken farklıdır. Bu kılavuzun amacı için bir Lite Node yeterli olacaktır. Voltage.cloud'daki farklılıklar hakkında daha fazla bilgi edinin.
 
 
-![image](assets/en/119.webp)
+![image](assets/en/120.webp)
 
 
 Düğümünüze bir Ad verin, bir parola belirleyin ve bu parolayı güvence altına alın. Bu parola kaybolursa, yedeklerinize erişiminizi kaybedersiniz ve Voltage bunu kurtaramaz. Düğümü oluşturun ve Voltage size ilerlemeyi gösterir. Voltage Lightning Node'unuzu oluşturdu. Artık BTCPay Sunucu örneğini oluşturabilir ve Lightning Network'e doğrudan erişebiliriz.
@@ -3472,7 +3464,7 @@ Kontrol panelinizin sol üst köşesindeki Düğümler'e tıklayın. Burada BTCP
 Voltaj size ABD Batı bölgesinde barındırılan BTCPay Sunucunuzun coğrafi konumunu gösterir. Burada ayrıca sunucuyu barındırmanın maliyetini de göreceksiniz. Oluştur'a tıklayın ve BTCPay Sunucunuza bir ad verin. Lightning'i etkinleştirin ve Voltage size önceki adımda oluşturulan Lightning düğümünü gösterir. Oluştur'a tıklayın ve Voltage bir BTCPay Sunucu örneği oluşturacaktır.
 
 
-![image](assets/en/120.webp)
+![image](assets/en/121.webp)
 
 
 Oluştur düğmesine bastıktan sonra, Voltage size varsayılan kullanıcı adı ve şifreyi sunar. Bunlar, Voltage'da daha önce belirlediğiniz parolaya benzer. Sizi BTCPay Sunucunuza yönlendirmek için Hesaba Giriş düğmesine tıklayın.
@@ -3513,7 +3505,7 @@ Bu adımların sonunda, yerel ağınızdaki BTCPay mağazanıza yıldırım öde
 https://umbrel.com/
 
 
-![image](assets/en/121.webp)
+![image](assets/en/122.webp)
 
 
 ### BTCPay Sunucusu - Umbrel dağıtımı
@@ -3522,13 +3514,13 @@ https://umbrel.com/
 Umbrel düğümünüz Bitcoin Blockchain ile tamamen senkronize olduktan sonra, Umbrel Uygulama Mağazasına gidin ve Uygulamalar altında BTCPay Sunucusunu arayın.
 
 
-![image](assets/en/122.webp)
+![image](assets/en/123.webp)
 
 
 Uygulama ayrıntılarını görmek için BTCPay Server'a tıklayın. BTCPay Sunucusunun ayrıntıları açıkken, sağ alt köşede Uygulamanın düzgün çalışması için gerekenler gösterilir. Bir Bitcoin ve Lightning düğümü gerektirdiğini gösterir. Lightning Node'u Umbrel'inize yüklemediyseniz, Yükle'ye tıklayın. Bu işlem birkaç dakika sürebilir.
 
 
-![image](assets/en/123.webp)
+![image](assets/en/124.webp)
 
 
 Lightning Node'unuzu yükledikten sonra:
@@ -3541,7 +3533,7 @@ Lightning Node'unuzu yükledikten sonra:
 3. Bunları yaz.
 
 
-![image](assets/en/124.webp)
+![image](assets/en/125.webp)
 
 
 Umbrel, az önce yazılan kelimelerin doğrulanmasını isteyecektir. Lightning düğümü kurulduktan sonra Umbrel App Store'a dönün ve BTCPay Server'ı bulun. Yükle düğmesine tıklayın ve Umbrel gerekli bileşenlerin yüklü olup olmadığını ve BTCPay Server'ın bu bileşenlere erişim gerektirdiğini gösterecektir. Kurulumdan sonra, Uygulama ayrıntılarının sağ üst kısmındaki Aç'a tıklayın veya Umbrels kontrol paneliniz aracılığıyla BTCPay Server'ı açın.
@@ -3550,7 +3542,7 @@ Umbrel, az önce yazılan kelimelerin doğrulanmasını isteyecektir. Lightning 
 Umbrel, az önce yazılan kelimelerin doğrulanmasını isteyecektir.
 
 
-![image](assets/en/125.webp)
+![image](assets/en/126.webp)
 
 
 **!Not!**
@@ -3562,13 +3554,13 @@ Anahtarları saklarken daha önce öğrendiğiniz gibi bunları da güvenli bir 
 Lightning düğümü kurulduktan sonra Umbrel App Store'a dönün ve BTCPay Server'ı bulun. Yükle düğmesine tıklayın ve Umbrel, gerekli bileşenlerin yüklü olup olmadığını ve BTCPay Server'ın bu bileşenlere erişim gerektirdiğini gösterecektir.
 
 
-![image](assets/en/126.webp)
+![image](assets/en/127.webp)
 
 
 Kurulumdan sonra, Uygulama ayrıntılarının sağ üst köşesindeki Aç'a tıklayın veya Umbrels kontrol panelinizden BTCPay Sunucusunu açın.
 
 
-![image](assets/en/127.webp)
+![image](assets/en/128.webp)
 
 
 ### Beceri Özeti

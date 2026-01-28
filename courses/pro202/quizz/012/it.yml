@@ -1,0 +1,8 @@
+question: Quale proprietà matematica garantisce che i punti della curva ellittica possano essere sommati in modo coerente e prevedibile nelle operazioni crittografiche?
+answer: I punti formano un gruppo matematico con chiusura, associatività, identità e inversione
+wrong_answers:
+  - I punti mantengono curve continue e lisce che preservano le relazioni geometriche
+  - I punti seguono schemi di progressione lineare che creano sequenze prevedibili
+  - I punti utilizzano un'aritmetica modulare che previene automaticamente gli errori di calcolo
+explanation: |
+  I punti delle curve ellittiche formano un gruppo matematico sotto forma di addizione, il che significa che soddisfano quattro proprietà essenziali: la chiusura (sommando due punti si ottiene un altro punto della curva), l'associatività (l'ordine delle operazioni non ha importanza), l'identità (il punto all'infinito si comporta come lo zero) e l'inversione (ogni punto ha una riflessione che lo annulla). Queste proprietà del gruppo fanno sì che la crittografia a curve ellittiche funzioni in modo affidabile e che operazioni come la moltiplicazione scalare si comportino in modo coerente, indipendentemente dal fatto che si lavori con curve reali lisce o con punti discreti di un campo finito.

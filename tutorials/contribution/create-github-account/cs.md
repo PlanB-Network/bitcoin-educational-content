@@ -27,7 +27,7 @@ Nejprve je důležité pochopit, že GitHub je postaven na Gitu (o kterém jsme 
 
 Představte si Git jako jakýsi deník, který každý vývojář používá na svém vlastním počítači k zaznamenání všech změn ve svém projektu. GitHub na druhou stranu je jako veřejná knihovna, kde všechny tyto deníky mohou být sdíleny, porovnávány a kombinovány.
 Základní rozdíl mezi Git a GitHub spočívá ve jejich funkci: Git je nástroj používaný lokálně každým vývojářem pro správu verzí jejich kódu, zatímco GitHub je online platforma, která tyto verze hostuje a usnadňuje spolupráci.
-GitHub je mnohem více než jen služba pro hostování kódu. Je to platforma pro spolupráci, která umožňuje vývojářům efektivně spolupracovat. A skutečně, PlanB Network používá tuto platformu nejen pro hostování veškerého kódu, který pohání webovou stránku, ale také, a to nás zajímá, veškerého obsahu (tutoriály, školení, zdroje...).
+GitHub je mnohem více než jen služba pro hostování kódu. Je to platforma pro spolupráci, která umožňuje vývojářům efektivně spolupracovat. A skutečně, Plan ₿ Academy používá tuto platformu nejen pro hostování veškerého kódu, který pohání webovou stránku, ale také, a to nás zajímá, veškerého obsahu (tutoriály, školení, zdroje...).
 
 ## Některé technické termíny
 

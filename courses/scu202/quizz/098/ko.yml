@@ -1,0 +1,9 @@
+question: 홈 네트워크에서 VLAN 기반 네트워크 세분화의 주요 용도는 무엇인가요?
+answer: 서로 다른 유형의 기기 또는 용도 분리하기
+wrong_answers:
+  - 디바이스의 Wi-Fi 범위 확대
+  - 각 장치에 대해 개별적으로 네트워크 연결 암호화
+  - WPA3 자동 활성화
+explanation: |
+  VLAN을 사용하여 장치를 구획화하여 세그먼트 간 공격의 확산을 제한할 수 있습니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa yang istimewa dari simpul SPV?
+answer: Ini hanya mempertahankan header blok
+wrong_answers:
+  - Ini mempertahankan seluruh Blockchain sejak blok Genesis
+  - Ini hanya menyimpan blok terbaru
+  - Ini hanya menyimpan set UTXO, bukan Blockchain
+explanation: |
+  Node SPV memverifikasi transaksi melalui header blok dan bukti Merkle, tanpa menyimpan data lengkap.
+reviewed: true

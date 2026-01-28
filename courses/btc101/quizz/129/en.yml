@@ -1,10 +1,11 @@
-question: What is the Bitcoin blockchain?
-answer: A public and immutable ledger of all Bitcoin transactions.
+question: How does the Bitcoin network ensure that it is too costly to act maliciously within the Bitcoin protocol?
+answer: Through protocol rules and economic incentives.
 wrong_answers:
-  - A private and mutable ledger of all Bitcoin transactions.
-  - A public and mutable ledger of all Bitcoin transactions.
-  - A private and immutable ledger of all Bitcoin transactions.
+  - Through strict regulation and oversight.
+  - Through the use of advanced security measures.
+  - Through the threat of legal action.
 explanation: >-
-  The Bitcoin blockchain is a public and immutable ledger of all Bitcoin
-  transactions. It is a common ledger for all Bitcoin users.
+  The Bitcoin network ensures that it is too costly to act maliciously
+  within the Bitcoin protocol through protocol rules and economic incentives. This
+  eliminates the need for trust at any step of the bitcoin ownership transfer.
 reviewed: true

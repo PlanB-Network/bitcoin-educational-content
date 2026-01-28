@@ -6,4 +6,4 @@ wrong_answers:
   - Validation through proof of work
 explanation: |
   Coinjoins have the effect of breaking the history of a coin, which helps you counteract the risk of tracking associated with KYC.
-reviewed: false
+reviewed: true

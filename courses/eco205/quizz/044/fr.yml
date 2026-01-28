@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quelle est la raison principale pour laquelle les modèles d'équilibre général mathématique sont rejetés ?
+answer: Ils présupposent une constance des préférences et des comportements qui n'existe pas dans la réalité
+wrong_answers:
+  - "Ils sont trop complexes mathématiquement pour être appliqués à l'économie pratique"
+  - Ils nécessitent des données statistiques trop coûteuses à collecter et analyser
+  - Ils ont été développés par des écoles économiques concurrentes et rivales
+explanation: |
+  L'école autrichienne rejette les modèles d'équilibre général mathématique parce qu'ils supposent que les préférences et comportements humains restent constants, ce qui contredit la nature fondamentalement changeante et créatrice de l'action humaine. Ces modèles créent une illusion de scientificité en sacrifiant la compréhension véritable de l'homme qui apprend, évolue et modifie ses stratégies. Les autres options concernent des aspects techniques ou politiques, mais pas le cœur du problème méthodologique soulevé par les Autrichiens.

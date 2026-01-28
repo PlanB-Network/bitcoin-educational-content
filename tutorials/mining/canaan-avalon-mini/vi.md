@@ -1,5 +1,5 @@
 ---
-name: Xe ô tô Canaan Avalon Mini 3
+name: Canaan Avalon Mini 3
 description: Cấu hình ASIC Avalon của bạn để khai thác đơn lẻ hoặc nhóm Miner
 ---
 
@@ -23,7 +23,7 @@ Các thiết bị này được tiếp thị dưới dạng máy sưởi phụ t
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Xin lưu ý rằng sự chênh lệch giá với các máy sưởi truyền thống có công suất tương đương không, trong phần lớn các trường hợp, cho phép bạn kiếm được lợi nhuận tài chính. Satoshi do hoạt động của Mining tạo ra sẽ không bao giờ bù đắp được sự chênh lệch giá này, trừ khi bạn có quyền truy cập vào điện miễn phí (thặng dư) hoặc rất rẻ.
 
@@ -122,16 +122,17 @@ Dưới đây là bảng tóm tắt thông số kỹ thuật chung của Mini 3:
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Đặc tính                                      | Giá trị                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Tiêu thụ điện năng                              | 800 W                                                     |
+| Tiếng ồn                                                | 35-55 dB                                                  |
+| Nhiệt độ không khí ra                       | 60-70°C (ở nhiệt độ môi trường 25°C)                  |
+| Yêu cầu nhiệt độ môi trường để sử dụng | -5° C - 40°C                                              |
+| Dải điện áp đầu vào thiết bị                         | 110V-240V AC 50/60Hz                                      |
+| Kích thước máy                                 | Chiều dài: 760 mm / Chiều sâu: 104 mm / Chiều cao: 214.5 mm |
+| Trọng lượng máy                                  |  8.35 kg                                                  |
 
 ## Kết nối với Mining pool
 
@@ -181,9 +182,9 @@ Trong trường hợp của chúng tôi, chúng tôi chọn:
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Tóm lại, chúng ta cần
 
@@ -358,4 +359,4 @@ Chúng ta đã đến phần cuối của hướng dẫn này, hướng dẫn c�
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

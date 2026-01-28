@@ -1,0 +1,9 @@
+question: SPV（簡素化された支払い検証）のコンセプトを考案したのは誰ですか？
+answer: サトシ・ナカモト
+wrong_answers:
+  - ハル・フィニー
+  - アダム・バック
+  - ピーテル・ウイユ
+explanation: |
+  SPVはサトシ・ナカモトのホワイトペーパーのパート8で紹介されている。
+reviewed: true

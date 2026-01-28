@@ -1,0 +1,9 @@
+question: What database does a Bitcoin node keep locally to track unspent output?
+answer: The UTXO set
+wrong_answers:
+  - The Mempool
+  - The Blockchain
+  - The Wallet History
+explanation: |
+  The node keeps the UTXO set, which is the set of unspent outputs available for future transactions.
+reviewed: true

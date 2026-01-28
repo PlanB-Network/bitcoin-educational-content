@@ -1,0 +1,9 @@
+question: Điều gì xảy ra khi người dùng thuê ngoài việc xác minh giao dịch Bitcoin của họ cho bên thứ ba thay vì tự chạy các nút đầy đủ của mình?
+answer: Tính phi tập trung của Bitcoin bị suy yếu khi ít người thực thi các quy tắc mạng một cách độc lập
+wrong_answers:
+  - Giao dịch Bitcoin trở nên nhanh hơn và hiệu quả hơn cho tất cả những người tham gia mạng
+  - Mạng Bitcoin tự động tạo thêm nhiều nút mining để bù đắp cho việc xác thực bị mất
+  - Các dịch vụ của bên thứ ba có khả năng tạo ra bitcoin mới ngoài lịch phát hành thông thường
+explanation: |
+  Khi người dùng không vận hành full node của riêng mình, họ sẽ chuyển giao quyền thực thi các quy tắc của Bitcoin cho người khác. Điều này làm suy yếu tính phi tập trung của Bitcoin do ít bên độc lập hơn trong việc xác thực giao dịch và khối. Như David Harding giải thích, điều này tạo ra tình huống một số ít thợ đào và nhà cung cấp dịch vụ có khả năng thay đổi các quy tắc của Bitcoin đối với những người dùng không xác minh, trong khi những người dùng đó sẽ không thể giao dịch với những người vận hành full node xác thực từ chối những thay đổi quy tắc đó.
+reviewed: false

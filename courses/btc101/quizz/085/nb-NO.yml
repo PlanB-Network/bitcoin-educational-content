@@ -1,12 +1,12 @@
-question: Hva er en hot wallet?
-answer: En Bitcoin-lommebok på telefonen eller datamaskinen din som er koblet til internett
+question: Hva er den anbefalte bruken av en multisig-lommebok?
+answer: For store beløp for bedriftsbruk
 wrong_answers:
-  - En lommebok som er fysisk varm å ta på
-  - En lommebok som er populær blant Bitcoin-brukere
-  - En lommebok som anbefales for lagring av store mengder bitcoins
+  - For små beløp for personlig bruk
+  - For mellomstore beløp for ideell bruk
+  - For daglige utgifter for individuell bruk
 explanation: |
-  En hot wallet er et uttrykk som brukes for å beskrive en Bitcoin-lommebok som er lagret
-  på en enhet med internett-tilgang, slik som en telefon eller datamaskin. Dette gjør det enkelt
-  å gjennomføre transaksjoner, men det betyr også at lommeboken potensielt er sårbar
-  for trusler på nettet.
+  En multisig-lommebok anbefales for store beløp og bedriftsbruk
+  fordi den krever flere signaturer for å utføre en transaksjon. Dette legger til et ekstra
+  sikkerhetslag, ettersom det betyr at en enkelt person ikke kan utføre en transaksjon
+  uten godkjenning fra andre.
 reviewed: true

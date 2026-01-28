@@ -10,4 +10,4 @@ Retrospektiivne levik on seevastu teie teose retrospektiivse anonset'i ja enne t
 
 Neid kahte näitajat kasutatakse selleks, et hinnata teie tüki segamise tõhusust võrreldes basseini pakutava potentsiaaliga. Väike perspektiivne erinevus, näiteks 5%, näitab märkimisväärset varu võimalike täiendavate segude abil tehtavate paranduste jaoks. Seevastu suur potentsiaalne levik, näiteks 97%, tähendab, et täiendavate liitmistega on võimalik saavutada vähe täiendavat anonset.
 
-> ► *Inglise keeles võib "spread" tõlkida "leviku kiiruse" või "leviku kiirusega"
+> ► *Inglise keeles võib "spread" tõlkida "leviku kiiruse" või "leviku kiirusega"*

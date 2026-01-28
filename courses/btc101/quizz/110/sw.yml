@@ -1,11 +1,10 @@
-question: Blockmit ni nini katika muktadha wa usalama wa Bitcoin?
-answer: Suluhisho la gharama nafuu la kuchonga maneno yako ya Mnemonic kwenye kipande cha chuma.
+question: Satoshi Nakamoto ilipotea lini?
+answer: Mwaka 2010
 wrong_answers:
-  - Aina ya Bitcoin Wallet ya kusaini shughuli nyingi kwa wakati mmoja.
-  - Suluhisho la gharama nafuu la kuchimba bitcoins nyumbani.
-  - Aina ya Bitcoin Wallet ambayo inahitaji sahihi nyingi ili kutumia UTXO.
+  - Mwaka 2008
+  - Mwaka 2009
+  - Mnamo 2023
 explanation: |
-  Blockmit ni suluhisho la gharama nafuu la kuchonga yako
-  Maneno ya Mnemonic kwenye nyenzo sugu kama chuma, kwa hivyo
-  kupata bitcoins zako kwa muda mrefu.
+  Satoshi Nakamoto ilipotea mnamo 2010, ikiacha uumbaji wake
+  mikononi mwa jamii.
 reviewed: true

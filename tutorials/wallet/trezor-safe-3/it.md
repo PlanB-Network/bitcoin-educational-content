@@ -18,7 +18,7 @@ Il Safe 3 non ha una batteria e funziona esclusivamente tramite una connessione 
 
 ![Image](assets/fr/01.webp)
 
-Il Safe 3 offre tutte le caratteristiche essenziali che ci si aspetta da un buon hardware wallet, compresa un'eccellente integrazione della [passphrase BIP39](https://planb.network/resources/glossary/passphrase-bip39). Tuttavia, non supporta ancora [Miniscript](https://planb.network/resources/glossary/miniscript).
+Il Safe 3 offre tutte le caratteristiche essenziali che ci si aspetta da un buon hardware wallet, compresa un'eccellente integrazione della [passphrase BIP39](https://planb.academy/resources/glossary/passphrase-bip39). Tuttavia, non supporta ancora [Miniscript](https://planb.academy/resources/glossary/miniscript).
 
 Questo modello è particolarmente adatto ai principianti e potrebbe addirittura essere l'hardware wallet che consiglierei a un nuovo utente. È adatto anche agli utenti intermedi. D'altra parte, potrebbe non soddisfare tutte le aspettative degli utenti avanzati che cercano funzioni più specifiche, disponibili su dispositivi come Coldcard. Tuttavia, se non hai bisogno di queste opzioni avanzate, Trezor Safe 3 può essere una scelta eccellente.
 
@@ -78,7 +78,7 @@ In questo tutorial ti mostrerò come utilizzare Trezor Safe 3 con [Sparrow](http
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 È inoltre necessario il software Trezor Suite per configurare il Safe 3, verificarne l'autenticità e installare il firmware. Utilizzeremo questo software solo per questo, e in seguito sarà necessario solo per gli aggiornamenti del firmware. Per la gestione quotidiana del wallet, utilizzeremo esclusivamente Sparrow, in quanto è ottimizzato per bitcoin e facile da usare, anche per i principianti (Sparrow supporta solo bitcoin, non le altcoin).
 
@@ -96,7 +96,7 @@ Per entrambi i programmi, consiglio vivamente di verificarne l'autenticità (con
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Avvio di Trezor Safe 3
 
@@ -194,7 +194,7 @@ Se vuoi saperne di più sulle altre opzioni di backup disponibili su Trezor, tra
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 ![Image](assets/fr/16.webp)
 
@@ -260,7 +260,7 @@ Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemo
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/21.webp)
 
@@ -342,7 +342,7 @@ Inizia scaricando e installando Sparrow [dal sito ufficiale](https://sparrowwall
 
 Una volta aperto Sparrow, assicurati che il software sia collegato a un nodo Bitcoin, indicato dal segno di spunta nell'angolo in basso a destra dell'interfaccia. Se hai problemi a collegare Sparrow, ti consiglio di leggere l'inizio di questa guida:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Fai clic sulla scheda "*File*", quindi su "*New wallet*".
 
@@ -382,7 +382,7 @@ Prima di ricevere i primi bitcoin, **consiglio vivamente di eseguire un test di 
 
 Per saperne di più su come eseguire un test di ripristino, ti suggerisco di consultare quest'altro tutorial:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Come posso ricevere bitcoin con Trezor Safe 3?
 
@@ -414,7 +414,7 @@ Ora che hai ricevuto i tuoi primi sats sul tuo Safe 3, puoi anche spenderli! Col
 
 ![Image](assets/fr/45.webp)
 
-Se desideri fare *coin control*, ossia scegliere specificamente quali [UTXO](https://planb.network/resources/glossary/utxo) utilizzare nella transazione, vai alla scheda "*UTXO*". Seleziona gli UTXO che desideri spendere, quindi fai clic su "*Send Selected*". Verrai reindirizzato alla stessa schermata della scheda "*Send*", ma con gli UTXO già selezionati per la transazione.
+Se desideri fare *coin control*, ossia scegliere specificamente quali [UTXO](https://planb.academy/resources/glossary/utxo) utilizzare nella transazione, vai alla scheda "*UTXO*". Seleziona gli UTXO che desideri spendere, quindi fai clic su "*Send Selected*". Verrai reindirizzato alla stessa schermata della scheda "*Send*", ma con gli UTXO già selezionati per la transazione.
 
 ![Image](assets/fr/46.webp)
 
@@ -462,6 +462,6 @@ Si trova nella scheda "*Transactions*" di Sparrow.
 
 Congratulazioni, ora sai come usare Trezor Safe 3 con Sparrow! Per fare un ulteriore passo avanti, ti consiglio questo tutorial completo sull'uso di Trezor con passphrase BIP39 per ottenere maggiore sicurezza:
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Se questo tutorial è stato utile, ti sarei grato se lasciassi un pollice verde qui sotto. Sentiti libero di condividere questo articolo sui tuoi social network. Grazie mille!

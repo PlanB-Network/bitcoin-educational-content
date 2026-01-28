@@ -1,8 +1,8 @@
-question: Je, ni kazi gani ya kurekebisha ugumu katika mtandao wa Bitcoin?
-answer: Inahakikisha kuwa kizuizi kinaongezwa kwa Blockchain takriban kila dakika kumi.
+question: Ni nini nodi iliyokatwa katika muktadha wa Bitcoin?
+answer: Njia ambayo huweka tu vitalu vya N mwisho kwenye kumbukumbu.
 wrong_answers:
-  - Huamua bei ya Bitcoin.
-  - Inasimamia idadi ya bitcoins ambazo zinaweza kuchimbwa katika Blockchain.
-  - Inaamua ukubwa wa block.
+  - Njia ambayo inathibitisha shughuli pekee.
+  - Nodi ambayo hupeleka habari kwa nodi zingine tu.
+  - Nodi ambayo inatekeleza tu sheria za itifaki ya Bitcoin.
 explanation: >-
 reviewed: true

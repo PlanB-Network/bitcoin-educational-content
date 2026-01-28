@@ -1,0 +1,9 @@
+question: มีผู้ดูแลกี่คนใน Bitcoin Core ในปี 2025?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  ในปี 2025 มีผู้ดูแลห้าคน: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao, และ Ryan Ofsky.
+reviewed: false

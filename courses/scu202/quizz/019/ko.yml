@@ -1,0 +1,9 @@
+question: Linux 배포판이란 무엇인가요?
+answer: Linux 커널을 중심으로 구축된 완벽한 운영 체제
+wrong_answers:
+  - 패키지 관리자
+  - Linux 데스크톱 환경
+  - Linux 운영 체제를 위한 자동화된 설치 스크립트
+explanation: |
+  Linux 배포판은 커널, 시스템 도구, 소프트웨어, 부트로더 및 패키지 관리를 통합하여 바로 사용할 수 있는 시스템을 제공합니다.
+reviewed: false

@@ -1,0 +1,23 @@
+id: 5c8aeeb5-3c5a-4579-85f8-82796ad44322
+year: 2025-10
+name: lightning++ Berlin 2025
+project_id: 81e4a931-705b-4d28-bbe7-4f4de3196034
+location: Berlin, Germany
+language:
+  - en
+links:
+  twitter: https://x.com/btcplusplus
+  website: https://btcpp.dev/
+tags:
+  - lightning
+  - software
+  - technical
+#proofreading_metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: '2025-10-05'
+    urgency: 0
+    contributor_names:
+      - jramos0
+    reward: 0.05

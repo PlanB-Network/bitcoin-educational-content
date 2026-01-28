@@ -1,5 +1,5 @@
 ---
-name: Phiên họp
+name: Session
 description: Gửi tin nhắn được mã hóa, không phải siêu dữ liệu
 ---
 ![cover](assets/cover.webp)
@@ -26,25 +26,26 @@ Phiên bản này chủ yếu hướng đến những người dùng coi trọng
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Ứng dụng | E2EE 1:1 | Nhóm E2EE | Đăng ký ẩn danh | Giấy phép máy khách nguồn mở | Giấy phép máy chủ nguồn mở | Máy chủ phi tập trung | Năm tạo |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (tùy chọn) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (tùy chọn) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (liên kết) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (qua email) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (liên kết) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (không có thư bạ) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = Mã hóa đầu cuối*
 
@@ -99,13 +100,13 @@ Sau đó, bạn sẽ phải chọn giữa hai chế độ quản lý thông báo
 
 
 
-- Chế độ nhanh ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: cho phép bạn nhận thông báo tin nhắn gần như theo thời gian thực, nhờ vào các dịch vụ thông báo do Google hoặc Apple cung cấp (tùy thuộc vào hệ thống của bạn). Để làm được điều này, IP Address của bạn và ID thông báo duy nhất được truyền đến Google hoặc Apple và ID tài khoản Phiên cũng được đăng ký với máy chủ STF (qua Tor). Chế độ này liên quan đến việc tiết lộ siêu dữ liệu (thừa nhận là tối thiểu), nhưng không làm ảnh hưởng đến nội dung tin nhắn hoặc danh bạ, và không cho phép theo dõi hoạt động thực tế của bạn. Do đó, chế độ này hiệu quả hơn về khả năng phản hồi, nhưng dựa vào cơ sở hạ tầng tập trung và kém hiệu quả hơn một chút về mặt bảo mật.
+- Chế độ nhanh ("*Firebase Cloud Messaging/Apple Push Notification Service*"): cho phép bạn nhận thông báo tin nhắn gần như theo thời gian thực, nhờ vào các dịch vụ thông báo do Google hoặc Apple cung cấp (tùy thuộc vào hệ thống của bạn). Để làm được điều này, IP Address của bạn và ID thông báo duy nhất được truyền đến Google hoặc Apple và ID tài khoản Phiên cũng được đăng ký với máy chủ STF (qua Tor). Chế độ này liên quan đến việc tiết lộ siêu dữ liệu (thừa nhận là tối thiểu), nhưng không làm ảnh hưởng đến nội dung tin nhắn hoặc danh bạ, và không cho phép theo dõi hoạt động thực tế của bạn. Do đó, chế độ này hiệu quả hơn về khả năng phản hồi, nhưng dựa vào cơ
 
 
 
 
 
-- Chế độ chậm (*background polling*)**: Ứng dụng Session vẫn hoạt động ở chế độ nền, định kỳ thăm dò mạng để tìm tin nhắn mới. Cách tiếp cận này đảm bảo tính bảo mật cao hơn so với cách đầu tiên, vì không có dữ liệu nào được truyền đến máy chủ của bên thứ ba; cả máy chủ Google, Apple và STF đều không nhận được bất kỳ thông tin nào. Mặt khác, chế độ này có hai nhược điểm: thông báo có thể bị trì hoãn (lên đến vài phút) và mức tiêu thụ năng lượng thường cao hơn do hoạt động của ứng dụng ở chế độ nền.
+- Chế độ chậm (**background polling**): Ứng dụng Session vẫn hoạt động ở chế độ nền, định kỳ thăm dò mạng để tìm tin nhắn mới. Cách tiếp cận này đảm bảo tính bảo mật cao hơn so với cách đầu tiên, vì không có dữ liệu nào được truyền đến máy chủ của bên thứ ba; cả máy chủ Google, Apple và STF đều không nhận được bất kỳ thông tin nào. Mặt khác, chế độ này có hai nhược điểm: thông báo có thể bị trì hoãn (lên đến vài phút) và mức tiêu thụ năng lượng thường cao hơn do hoạt động của ứng dụng ở chế độ nền.
 
 
 
@@ -145,7 +146,7 @@ Cụm từ này hoạt động theo cách tương tự như cụm từ Mnemonic 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Xin lưu ý**: Không giống như các cụm từ Mnemonic được sử dụng trong danh mục đầu tư Bitcoin, trong Session, **bạn hoàn toàn phải lưu toàn bộ từng từ**. 4 chữ cái đầu tiên là không đủ!
 
@@ -191,7 +192,7 @@ Cuối cùng, hãy vào menu "*Giao diện*" để điều chỉnh Interface the
 
 
 
-Để liên hệ với người khác, hãy nhấp vào nút "**+*" trên trang chủ.
+Để liên hệ với người khác, hãy nhấp vào nút "**+**" trên trang chủ.
 
 
 
@@ -299,4 +300,4 @@ Tôi cũng giới thiệu hướng dẫn khác này, trong đó tôi giới thi�
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

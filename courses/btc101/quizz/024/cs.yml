@@ -1,9 +1,13 @@
-question: Jaká je hlavní nevýhoda fiat měn?
-answer: Jejich hodnota je neustále snižována měnovou inflací.
+question: Která z následujících možností není výhodou Bitcoinu jako měny?
+answer: Používá se k placení daní.
 wrong_answers:
-  - Nejsou snadno přenosné.
-  - Jejich hodnota je neustále zvyšována měnovou inflací.
-  - Nejsou dělitelné.
+  - Je dělitelný.
+  - Je přenosný.
+  - Nevyžaduje povolení.
 explanation: |
-  Hlavní nevýhoda fiat měn, jako je dolar a euro, spočívá v tom, že jejich hodnota je neustále snižována měnovou inflací. To je způsobeno devalvací způsobenou entitami, které je kontrolují (král, centrální banka, císař, diktátor).
+  Bitcoin díky svým vlastnostem, jako je dělitelnost,
+  ověřitelnost, aspekt nevyžadující povolení a přenosnost,
+  nabízí vynikající uchování hodnoty. Navíc jako neutrální
+  internetová měna představuje dobrý prostředek výměny,
+  který nezná hranice.
 reviewed: true

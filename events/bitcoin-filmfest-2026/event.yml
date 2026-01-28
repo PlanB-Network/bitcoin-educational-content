@@ -1,0 +1,24 @@
+id: 99b8e304-9caf-11f0-9548-1fecc7d3fe32
+
+start_date: 2026-06-04
+end_date: 2026-06-07
+
+address_city_country: Warsaw, Poland
+address_line_2: Palace of Culture and Science
+address_line_3: 
+
+name: Bitcoin FilmFest 2026
+type: conference
+
+book_online: false
+book_in_person: false
+
+description: |
+  Bitcoin FilmFest returns to Warsaw (June 4-7, 2026) for four days of films, music, community, workshops, and creative energy at the heart of the Bitcoin culture.
+language: 
+  - en
+
+links:
+  website: https://bitcoinfilmfest.com/bff26
+
+tags: 

@@ -1,0 +1,8 @@
+question: Kullanıcıların Elements'in Confidential Transactions sisteminde yoktan para yaratmasını engelleyen nedir?
+answer: Gizli değerlerin geçerli aralıklar içinde pozitif tamsayılar olduğunu matematiksel olarak kanıtlayan Aralık Kanıtları
+wrong_answers:
+  - Pedersen İşlem tutarlarını kriptografik olarak açık anahtarlara bağlayan taahhütler
+  - Tüm işlem tutarlarını kayıtlı varlık limitlerine göre kontrol eden Varlık Kayıt doğrulaması
+  - Tüm gizli işlem tutarlarının şifresini çözen ve doğrulayan birleştirilmiş mutabakat düğümleri
+explanation: |
+  Aralık İspatları, kullanıcıların yoktan para yaratmak için negatif sayılar veya geçersiz tutarlar kullanarak gizli işlem sistemini istismar etmelerini önleyen özel bir kriptografik mekanizmadır. Pedersen Taahhütleri gerçek tutarları gizlerken, Aralık Kanıtları gizli değerlerin meşru aralıklar içinde olduğunu kanıtlayarak matematiksel bütünlüğü sağlar. Varlık Kayıt Defteri yalnızca varlık kimliklerini insan tarafından okunabilir isimlerle eşleştirir ve miktarları doğrulamaz ve federe düğümler gizli işlemlerin şifresini çözmez - gerçek değerleri görmeden bunları doğrularlar.

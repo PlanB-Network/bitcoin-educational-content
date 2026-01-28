@@ -1,0 +1,9 @@
+question: Wallet이 타사 노드에 의존하는 경우 어떤 위험이 있나요?
+answer: 감시 및 검열 위험
+wrong_answers:
+  - 자동 Double-spending의 위험
+  - 개인 키 분실 위험
+  - 손실 위험 및 모니터링
+explanation: |
+  타사 노드는 회원님의 거래를 분석하거나 차단할 수 있으며, 심지어 회원님의 데이터를 신원과 연결할 수도 있습니다.
+reviewed: true

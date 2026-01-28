@@ -1,5 +1,5 @@
 ---
-name: Paraply LND
+name: Umbrel LND
 description: Avancerad handledning om installation och konfiguration av Lightning Network Daemon (LND) på Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -27,7 +27,7 @@ För att installera Umbrel och konfigurera din Bitcoin-nod rekommenderar vi att 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Se till att din Bitcoin-nod är uppdaterad och fungerar korrekt, eftersom Lightning Network förlitar sig på den för alla off-chain-transaktioner.
 
@@ -57,7 +57,7 @@ För en fullständig teoretisk introduktion till Lightning Network rekommenderar
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Den här kursen ger dig en grundlig genomgång av de grundläggande begreppen i Lightning Network, innan du går vidare till att öva med din LND-nod.
 
@@ -154,7 +154,7 @@ Du kan välja mellan att skapa en ny nod eller att återställa en nod från en 
 
 
 
-**Note: På de senaste versionerna av Umbrel ger installationen av Lightning-appen detta 24 ord seed (själva Umbrel-noden Bitcoin gör det inte).
+**Note:** På de senaste versionerna av Umbrel ger installationen av Lightning-appen detta 24 ord seed (själva Umbrel-noden Bitcoin gör det inte).
 
 
 
@@ -221,7 +221,7 @@ När LND är igång kan du öppna din första Lightning-kanal. För att hitta kv
 
 
 
-Till exempel är [ACINQ-noden] (https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) en erkänd nod med utmärkt tillgänglighets- och likviditetsstatistik.
+Till exempel är [ACINQ-noden](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) en erkänd nod med utmärkt tillgänglighets- och likviditetsstatistik.
 
 
 
@@ -229,7 +229,7 @@ Till exempel är [ACINQ-noden] (https://amboss.space/node/03864ef025fde8fb587d98
 
 
 
-För denna handledning öppnar vi en kanal med [Swiss Bitcoin Pay] (https://amboss.space/node/03c181e13a09a649c13f60ea3ddbeefc66123c43280da8eebc19f54445f35173ca). Informationen som krävs för anslutning (pubkey@ip:port) ges på deras Amboss sida.
+För denna handledning öppnar vi en kanal med [Swiss Bitcoin Pay](https://amboss.space/node/03c181e13a09a649c13f60ea3ddbeefc66123c43280da8eebc19f54445f35173ca). Informationen som krävs för anslutning (pubkey@ip:port) ges på deras Amboss sida.
 
 
 
@@ -496,11 +496,11 @@ Din Lightning Umbrel-nod kräver två typer av säkerhetskopior:
 
 - Innehåller information om Lightning-kanalen
 - Möjliggör tvingad stängning av kanalen i händelse av en krasch
-- Viktigt:** Spara aldrig filen `channel.db` manuellt (risk för påföljder)
+- **Viktigt:** Spara aldrig filen `channel.db` manuellt (risk för påföljder)
 
 
 
-**Manuellt förfarande för säkerhetskopiering
+**Manuellt förfarande för säkerhetskopiering**
 
 
 
@@ -613,17 +613,17 @@ Om du vill veta mer om hur du konfigurerar och använder vakttorn rekommenderar 
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Andra bästa metoder
 
 
 
 
 
-- Programuppdateringar:** Håll Umbrel och LND uppdaterade (säkerhetsfixar)
-- Hårdvaruskydd:** Använd ett stabilt system (Raspberry Pi med SSD, mini-PC) och en UPS
-- Nätverkssäkerhet:** Behåll standardkonfigurationen för Tor, ändra lösenordet för Umbrels administratör (standard: "moneyprintergobrrr")
-- Kryptering:** Aktivera diskkryptering om möjligt
+- **Programuppdateringar:** Håll Umbrel och LND uppdaterade (säkerhetsfixar)
+- **Hårdvaruskydd:** Använd ett stabilt system (Raspberry Pi med SSD, mini-PC) och en UPS
+- **Nätverkssäkerhet:** Behåll standardkonfigurationen för Tor, ändra lösenordet för Umbrels administratör (standard: "moneyprintergobrrr")
+- **Kryptering:** Aktivera diskkryptering om möjligt
 
 
 
@@ -691,10 +691,10 @@ RTL är en komplett "schweizisk armékniv" för att administrera en Lightning-no
 
 
 
-- Lightning Shell** : Kommandorad (lncli) via webbläsare
-- BTC RPC Explorer & Mempool** : Övervakning Blockchain
-- LNmetrics & Torq**: Analys av routningsprestanda
-- Amboss & 1ML**: "Social" hantering av din nod (alias, kontakter, nätverksanalys)
+- **Lightning Shell**: Kommandorad (lncli) via webbläsare
+- **BTC RPC Explorer & Mempool**: Övervakning Blockchain
+- **LNmetrics & Torq**: Analys av routningsprestanda
+- **Amboss & 1ML**: "Social" hantering av din nod (alias, kontakter, nätverksanalys)
 
 
 

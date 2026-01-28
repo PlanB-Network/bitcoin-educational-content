@@ -299,7 +299,7 @@ Vuelve a la aplicación Alby Go, escanea el código QR o pega el código único.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Haz clic en "Finalizar*".
+Haz clic en "Finalizar".
 
 ![ALBY HUB](assets/fr/51.webp)
 
@@ -368,4 +368,4 @@ Y eso es todo, ahora ya sabes cómo usar Lightning con tu propio nodo usando la 
 
 Para comprender en detalle todos los mecanismos de Lightning que hemos manejado en este tutorial, te aconsejamos encarecidamente que entres a nuestra formación gratuita sobre el tema:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -1,5 +1,5 @@
 ---
-name: Tín hiệu
+name: Signal
 description: Hãy tự do thể hiện bản thân
 ---
 ![cover](assets/cover.webp)
@@ -273,4 +273,4 @@ Tôi cũng giới thiệu cho bạn hướng dẫn khác này, trong đó tôi g
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

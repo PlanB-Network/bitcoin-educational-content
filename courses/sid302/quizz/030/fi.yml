@@ -1,0 +1,8 @@
+question: Mikä on ECDH-avaimenvaihtomekanismin ensisijainen tarkoitus Liquid:n Confidential Transactions-arkkitehtuurissa?
+answer: Mahdollistaa lähettäjille varojen määrien ja tyyppien salaaminen vastaanottajan sokeuttavalla julkisella avaimella ja samalla todennettavien todisteiden tuottaminen
+wrong_answers:
+  - Suojattujen viestintäkanavien luominen AMP-palvelimien ja wallet -asiakkaiden välille tapahtumien valtuutusprosessien aikana
+  - Luoda jaettuja salaisuuksia monialkikirjoituskuvaajien rekisteröintiä varten lompakoiden ja AMP-palvelininfrastruktuurin välille
+  - generate:n kryptografiset allekirjoitukset, jotka todistavat omaisuuden omistajuuden paljastamatta taustalla olevia yksityisiä avaintietoja
+explanation: |
+  Liquid:n Confidential Transactions:ssä oleva ECDH-avaimenvaihto (Elliptic Curve Diffie-Hellman) mahdollistaa erityisesti yksityisyyden säilyttämisen omaisuuden siirroissa sallimalla lähettäjien salata transaktion lähtöarvot käyttämällä vastaanottajan sokeuttavaa julkista avainta. Näin luodaan jaettu salaisuus, jonka vain vastaanottaja voi purkaa yksityisellä salausavaimellaan, ja samalla luodaan todisteet, joiden avulla verkon validoijat voivat tarkistaa tapahtuman oikeellisuuden näkemättä todellisia summia. Muissa vaihtoehdoissa ECDH:n kuvataan virheellisesti palvelevan viestinnän turvallisuutta, kuvaajien rekisteröintiä tai omistusoikeustodistuksia, jotka hoidetaan Liquid-ekosysteemissä eri salausmekanismeilla.

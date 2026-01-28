@@ -1,0 +1,9 @@
+question: Vem uppfann konceptet med förenklad betalningsverifiering (SPV)?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Pieter Wuille
+explanation: |
+  SPV presenteras i del 8 av Satoshi Nakamotos White Paper.
+reviewed: true

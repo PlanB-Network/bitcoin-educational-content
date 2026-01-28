@@ -1,9 +1,12 @@
-question: Kolika je verovatnoća da neko slučajno pogodi vašu listu od 12 ili 24 reči u Bitkoin novčaniku?
-answer: Astronomski nisko.
+question: Šta je Multisig novčanik?
+answer: Skup novčanika koji zahteva više potpisa za obavljanje transakcije.
 wrong_answers:
-  - Visoko.
-  - Umereno.
-  - Snažan.
+  - Novčanik koji zahteva jedan potpis za obavljanje transakcije.
+  - Novčanik koji ne zahteva potpise za obavljanje transakcije.
+  - Novčanik koji zahteva fizički potpis za obavljanje transakcije.
 explanation: |
-  Zahvaljujući kriptografiji korišćenoj za kreiranje novčanika, verovatnoća da neko slučajno pogodi vašu listu od 12 ili 24 reči je astronomski niska. To je kao da pronađete pravi broj između 1 i $2^256$, što je gotovo ekvivalentno pronalaženju određenog atoma u Univerzumu.
+  Multisig novčanik je tip BitKoin novčanikA koji zahteva
+  višestruke potpise za obavljanje transakcije. Ovo dodaje
+  dodatni sloj sigurnosti, jer znači da jedna osoba
+  ne može obaviti transakciju bez odobrenja drugih.
 reviewed: true

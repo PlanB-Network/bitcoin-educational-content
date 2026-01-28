@@ -1,11 +1,11 @@
-question: What is a standard method for restoring your wallet?
-answer: Entering your mnemonic phrase into any wallet software.
+question: What is the purpose of a Bitcoin wallet?
+answer: To store private keys in order to transact bitcoins.
 wrong_answers:
-  - Saving your mnemonic phrase in a digital file.
-  - Writing your mnemonic phrase on a whiteboard.
-  - Sharing your mnemonic phrase with a trusted friend.
+  - To use device resources to mine bitcoins.
+  - To buy bitcoins through the public key.
+  - To store bitcoins on a device.
 explanation: |
-  The standard method of backing up the private key in a
-  Bitcoin wallet is by entering your mnemonic phrase into any
-  wallet software. This allows you to restore your wallet.
-reviewed: false
+  Bitcoin wallets are a type of software that is used to
+  store the private keys that allow you to transact your
+  bitcoins.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Zeus Iliyopachikwa
+name: Zeus Embedded
 description: Jinsi ya kutumia Zeus ya Umeme Iliyopachikwa Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,11 +13,11 @@ Lakini programu pia ina "nodi Iliyopachikwa".
 
 
 
-**Ni kipengele hiki cha matumizi ambacho tutakuwa tukichunguza katika mafunzo haya. Hii inaruhusu mtu yeyote kuwa na nodi yake ya umeme kwenye rununu, bila hitaji la seva iliyojitolea, kwa njia sawa na ACINQ inavyotoa umeme wake wa ajabu wa Wallet Phoenix.
+**Ni kipengele hiki cha matumizi ambacho tutakuwa tukichunguza katika mafunzo haya.** Hii inaruhusu mtu yeyote kuwa na nodi yake ya umeme kwenye rununu, bila hitaji la seva iliyojitolea, kwa njia sawa na ACINQ inavyotoa umeme wake wa ajabu wa Wallet Phoenix.
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Kama ukumbusho, Umeme ni mtandao unaofanya kazi sambamba na Bitcoin, unaowezesha bitcoins kubadilishwa bila kulazimika kutekeleza miamala ya On-Chain kwa utaratibu. Matokeo yake ni shughuli za karibu za papo hapo, na hakuna haja ya kusubiri dakika 10 ili kuzuia kuthibitishwa. Hii ni muhimu hasa unapomlipa mfanyabiashara katika ulimwengu wa kimwili. Zaidi ya hayo, Umeme hutoa kiwango cha ajabu cha **usiri** ambacho mtandao wa Bitcoin hauna asili*.
 
@@ -200,7 +200,7 @@ Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mn
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -248,7 +248,7 @@ Kwenye skrini inayofuata, unaombwa kufungua kituo kwa ushirikiano na **"Olympus 
 Kwa mafunzo haya, tutachagua chaguo hili kwa ajili ya unyenyekevu, lakini inawezekana kabisa kufungua vituo na nodi yoyote kwenye mtandao.
 
 
-Inawezekana hata kufungua chaneli kadhaa katika muamala mmoja kwa kuchagua "FUNGUA CHANNEL YA ZIADA". *Lakini tutaangalia hili katika toleo la "juu" la mafunzo ya **Zeus Embedded****.
+Inawezekana hata kufungua chaneli kadhaa katika muamala mmoja kwa kuchagua "FUNGUA CHANNEL YA ZIADA". *Lakini tutaangalia hili katika toleo la "juu" la mafunzo ya* **Zeus Embedded**.
 
 
 
@@ -345,7 +345,7 @@ Kisha Zeus hukuruhusu kuongeza dokezo ili kuashiria malipo yako, au kutazama nji
 
 
 
-Kumbuka kuwa tofauti na Wallet kama [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), huku Zeus ikitumiwa kwa njia ya karibu na AC kukokotwa kwenye njia ya tatu na Q. ya Phoenix). Kwa hivyo ni wewe pekee unayejua mpokeaji wa malipo. Tunapoteza ufanisi kidogo (malipo huchukua muda mrefu zaidi kukamilika, lakini tunapata mengi katika suala la faragha).
+Kumbuka kuwa tofauti na Wallet kama [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), huku Zeus ikitumiwa kwa njia ya karibu na AC kukokotwa kwenye njia ya tatu na Q. ya Phoenix). Kwa hivyo ni wewe pekee unayejua mpokeaji wa malipo. Tunapoteza ufanisi kidogo (malipo huchukua muda mrefu zaidi kukamilika, lakini tunapata mengi katika suala la faragha).
 
 
 
@@ -422,8 +422,8 @@ Hongera, sasa uko tayari kutumia Zeus Embedded, mfumo wa mwanga wa simu wa Walle
 
 
 
-Ili kujua zaidi kuhusu utendakazi wa kiufundi wa Lightning Network, unaweza kupata mafunzo bora ya bure ya Plan ₿ Network ya Fanis Michalakis:
+Ili kujua zaidi kuhusu utendakazi wa kiufundi wa Lightning Network, unaweza kupata mafunzo bora ya bure ya Plan ₿ Academy ya Fanis Michalakis:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

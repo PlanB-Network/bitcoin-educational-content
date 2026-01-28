@@ -1,9 +1,14 @@
-question: Welche der folgenden Eigenschaften trug zur Ausweitung der Nutzung von Bitcoin in Dark-Web-Marktplätzen wie Silk Road bei?
-answer: Seine unkontrollierbare und pseudonyme Natur.
+question: Wie löst Bitcoin das Byzantinische Generäle-Problem?
+answer: Durch die Verwendung einer Blockchain, die auf Proof of Work mit einer variablen Schwierigkeit basiert.
 wrong_answers:
-  - Seine zentralisierte Kontrolle.
-  - Seine Nachverfolgbarkeit und kontrollierbare Natur.
-  - Sein Mangel an Pseudonymität.
+  - Durch die Verwendung von digitalen Signaturen.
+  - Durch die Verwendung eines öffentlichen Registers.
+  - Durch die Verwendung eines Proof of Stake-Algorithmus.
 explanation: >-
-  Die Nutzung von Bitcoin in Dark-Web-Marktplätzen wie Silk Road nahm aufgrund seiner unkontrollierbaren und pseudonymen Natur zu.
+  Das Byzantinische Generäle-Problem ist ein klassisches Problem in
+  der verteilten Datenverarbeitung, das das Erreichen eines Konsenses
+  in einem Netzwerk betrifft, in dem einige der Knoten fehlerhaft oder
+  bösartig sein können. Bitcoin löst dieses Problem durch die Verwendung einer
+  Blockchain, die auf Proof of Work basiert, was sicherstellt, dass alle
+  Knoten über den Zustand der Transaktionshistorie übereinstimmen.
 reviewed: true

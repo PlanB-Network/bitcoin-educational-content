@@ -1,0 +1,9 @@
+question: Koji mehanizam sprečava objavljivanje starog stanja Lightning kanala?
+answer: Ključ za opoziv
+wrong_answers:
+  - Naknade za transakcije
+  - Apsolutne vremenske brave
+  - Mreža tračeva
+explanation: |
+  Ključevi za opoziv koriste se za kažnjavanje čvora koji pokušava da objavi staro stanje kanala.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilke sikkerhetstiltak anbefales på det sterkeste for å beskytte tilgangen til Umbrel?
+answer: Langt passord og 2FA-aktivering
+wrong_answers:
+  - Dobbel SSD-lagring
+  - Åpne RPC-port i ren tekst
+  - Langt passord og SSH-aktivering
+explanation: |
+  Kombinasjonen av et sterkt passord og tofaktorautentisering (2FA) beskytter tilgangen til Interface Umbrel på en effektiv måte.
+reviewed: true

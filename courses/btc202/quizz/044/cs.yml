@@ -1,0 +1,9 @@
+question: Jakou technologii používá společnost Umbrel k izolaci a správě svých aplikací?
+answer: Kontejnery Docker
+wrong_answers:
+  - Virtuální počítače VirtualBox
+  - Skripty Bash
+  - Clustery Kubernetes
+explanation: |
+  Každá aplikace v systému Umbrel běží v kontejneru Docker, což umožňuje nezávislou správu a izolaci.
+reviewed: true

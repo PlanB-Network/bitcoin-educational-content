@@ -1,0 +1,9 @@
+question: Czym jest filozofia scholastyczna?
+answer: Chrześcijańska filozofia średniowiecza.
+wrong_answers:
+  - Ruch polityczny.
+  - Filozofia anarchistyczna.
+  - Racjonalna filozofia.
+explanation: |
+  Filozofia scholastyczna była chrześcijańską filozofią średniowiecza, która zdominowała europejskie uniwersytety. Jej celem było zharmonizowanie wiary chrześcijańskiej z filozofią arystotelesowską.
+reviewed: false

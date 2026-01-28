@@ -1,0 +1,11 @@
+question: Bitcoin'ın iki temel özelliği nedir?
+answer: Bitcoin hem bir bilgisayar protokolü hem de parasal bir birimdir.
+wrong_answers:
+  - Bitcoin hem fiziksel bir para birimi hem de dijital bir Wallet'tür.
+  - Bitcoin hem bir tür hisse senedi hem de bir tür tahvildir.
+  - Bitcoin hem merkezi hem de merkezi olmayan bir para birimidir.
+explanation: |
+  Bitcoin hem teknolojileri kullanan bir bilgisayar protokolüdür
+  kriptografi ve Blockchain gibi ve ayrıca parasal
+  işlemler için kullanılan birim.
+reviewed: true

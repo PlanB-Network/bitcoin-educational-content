@@ -1,0 +1,10 @@
+question: Bitcoin의 근본적인 임무는 무엇인가요?
+answer: 검열에 강한 가치의 Exchange 네트워크가 되려면.
+wrong_answers:
+  - 기존 통화를 대체합니다.
+  - 거래를 익명으로 처리합니다.
+  - 새로운 형태의 투자를 창출합니다.
+explanation: |
+  Bitcoin의 기본 임무는 검열에 강한 가치의 Exchange 네트워크가 되는 것입니다. Bitcoin
+  커뮤니티는 배포, 검열 저항성, 네트워크의 취약성 방지를 강화하기 위해 끊임없이 노력하고 있습니다.
+reviewed: true

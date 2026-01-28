@@ -6,7 +6,7 @@ description: Průvodce pro pokročilé uživatele, který nabízí výukový pro
 
 Než se pustíte do tohoto návodu na přidání nového tutoriálu, musíte provést několik předběžných kroků. Pokud jste tak ještě neučinili, podívejte se nejprve na tento úvodní návod a pak se vraťte sem:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Již máte:
 
@@ -15,53 +15,53 @@ Již máte:
 - Kontaktoval tým sítě Plan ₿ prostřednictvím [skupiny Telegram](https://t.me/PlanBNetwork_ContentBuilder) nebo paolo@planb.network ;
 - Vyberte si nástroje pro přispívání.
 
-V tomto tutoriálu pro zkušené uživatele systému Git stručně shrneme klíčové kroky a základní pokyny pro nabídku nového tutoriálu Plan ₿ Network. Pokud se v systému Git a GitHub nevyznáte, doporučuji vám raději sledovat jeden z těchto dalších 2 podrobnějších tutoriálů, které vás provedou krok za krokem:
+V tomto tutoriálu pro zkušené uživatele systému Git stručně shrneme klíčové kroky a základní pokyny pro nabídku nového tutoriálu Plan ₿ Academy. Pokud se v systému Git a GitHub nevyznáte, doporučuji vám raději sledovat jeden z těchto dalších 2 podrobnějších tutoriálů, které vás provedou krok za krokem:
 
 
-- Středně pokročilý (GitHub Desktop)**:
+- **Středně pokročilý (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Začátečníci (webové rozhraní)**:
+- **Začátečníci (webové rozhraní)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Navrhované nástroje
 
 Pro úpravu souborů Markdown:
 
 
-- Obsidian** (zdarma, ne open-source)
-- Mark Text** (zdarma, open-source)
-- Zettlr** (zdarma, open-source)
-- Typora** (Payware, ~15 EUR, není open-source)
+- **Obsidian** (zdarma, ne open-source)
+- **Mark Text** (zdarma, open-source)
+- **Zettlr** (zdarma, open-source)
+- **Typora** (Payware, ~15 EUR, není open-source)
 
 Pro Git:
 
 
-- Git** (zdarma, open-source)
-- GitHub Desktop** (zdarma, open-source)
-- Sourcetree** (zdarma, ne open-source)
+- **Git** (zdarma, open-source)
+- **GitHub Desktop** (zdarma, open-source)
+- **Sourcetree** (zdarma, ne open-source)
 
 Pro úpravu souborů YAML:
 
 
-- Visual Studio Code** (zdarma, open-source)
-- Sublime Text** (zdarma s omezeními, není open-source)
+- **Visual Studio Code** (zdarma, open-source)
+- **Sublime Text** (zdarma s omezeními, není open-source)
 
 Vytváření diagramů a vizualizací:
 
 
-- Canva** (zdarma s placenými možnostmi, ne open-source)
-- Inkscape** (zdarma, open-source)
-- Penpot** (zdarma, open-source)
+- **Canva** (zdarma s placenými možnostmi, ne open-source)
+- **Inkscape** (zdarma, open-source)
+- **Penpot** (zdarma, open-source)
 
 ## Pracovní postupy
 
 ### 1 - Konfigurace místního prostředí
 
 
-- Musíte mít vlastní fork repozitáře [Plan ₿ Network na GitHubu](https://github.com/PlanB-Network/bitcoin-educational-content).
+- Musíte mít vlastní fork repozitáře [Plan ₿ Academy na GitHubu](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Synchronizujte hlavní větev (`dev`) svého forku se zdrojovým úložištěm.
 - Aktualizujte svůj místní klon.
 
@@ -166,11 +166,11 @@ Zde jsou povinná pole:
 
 - **id**: UUID (_Universally Unique Identifier_) umožňující jedinečně identifikovat tutoriál. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jedinou podmínkou je, aby toto UUID bylo náhodné, aby se zabránilo konfliktu s jiným UUID na platformě;
 
-- **project_id**: UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například pokud vytváříte tutoriál o softwaru Green Wallet, můžete najít `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Network udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` subjektu spojeného s vaším tutoriálem vytváříte vazbu mezi těmito dvěma prvky;
+- **project_id**: UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například pokud vytváříte tutoriál o softwaru Green Wallet, můžete najít `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Academy udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` subjektu spojeného s vaším tutoriálem vytváříte vazbu mezi těmito dvěma prvky;
 
-- **tags**: 2 nebo 3 relevantní klíčová slova související s obsahem tutoriálu, vybraná výhradně [ze seznamu značek Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 nebo 3 relevantní klíčová slova související s obsahem tutoriálu, vybraná výhradně [ze seznamu značek Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Podkategorie odpovídající obsahu tutoriálu podle struktury stránky Plan ₿ Network (například pro peněženky: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Podkategorie odpovídající obsahu tutoriálu podle struktury stránky Plan ₿ Academy (například pro peněženky: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Úroveň obtížnosti tutoriálu, vybraná z následujících možností:
     - `beginner`
@@ -191,7 +191,7 @@ Zde jsou povinná pole:
 
 Další podrobnosti o ID učitele naleznete v příslušném výukovém kurzu:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## Standardy pro tvorbu obsahu
 
 
-- Formátování podporované platformou**:
+- **Formátování podporované platformou**:
     - Klasický Markdown: seznamy, odkazy, obrázky, citace, tučné písmo, kurzíva atd.
     - LaTeX (pouze blokově, ne inline): ohraničeno `$$`.
     - Řádkový kód: Syntaxe s jedním zpětným zaškrtnutím.
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- Ilustrace a schémata**:
+- **Ilustrace a schémata**:
     - Všechny obrázky musí být ve formátu WebP. V případě potřeby použijte tento bezplatný nástroj pro jejich konverzi: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Pojmenujte vizuály pomocí 2 nebo 3 číslic (např. `001.webp`, `002.webp`).
     - Pro výukové programy pro mobilní nebo hardwarové peněženky používejte makety.
     - Používejte pouze vizuály vytvořené vlastními silami nebo bez nároku na honorář.
     - Ujistěte se, že jsou relevantní a kvalitní.
-- Grafická karta**:
+- **Grafická karta**:
     - Písmo: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Barvy Plán ₿ Síť:
         - Oranžová: `#FF5C00`

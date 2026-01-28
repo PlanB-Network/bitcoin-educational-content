@@ -1,0 +1,8 @@
+question: Worin besteht der entscheidende Unterschied zwischen dem Design der Persistenzschicht von LDK und der traditionellen Lightning-Knoten-Datenverwaltung, die eine plattformübergreifende Einsatzflexibilität ermöglicht?
+answer: LDK bietet abstrakte binäre Datenblöcke zur Speicherung, während Anwendungen ihre eigenen Speichermechanismen implementieren
+wrong_answers:
+  - LDK verwendet standardisierte SQL-Datenbanken, während herkömmliche Knoten kundenspezifische Dateisystemimplementierungen erfordern
+  - LDK synchronisiert Daten automatisch über mehrere Plattformen hinweg, während herkömmliche Knoten Daten nur lokal speichern
+  - LDK verschlüsselt standardmäßig alle Persistenzdaten, während herkömmliche Knoten auf die Verschlüsselung auf Anwendungsebene angewiesen sind
+explanation: |
+  Die Persistenzschicht von LDK abstrahiert die Speicherung, indem sie Anwendungen serialisierte Binärdatenblöcke zur Verfügung stellt, die zuverlässig gespeichert und abgerufen werden müssen, während die gesamte Komplexität der Serialisierung von Lightning-Kanalzuständen und Netzwerkdaten intern gehandhabt wird. Dadurch können Anwendungen jede beliebige Speicherlösung (Dateisysteme, Cloud-Speicher, Datenbanken) wählen, die ihren Plattformanforderungen entspricht. Herkömmliche Lightning-Knoten implementieren in der Regel ihre eigenen spezifischen Datenverwaltungssysteme, die an bestimmte Speichermechanismen gebunden sind, was sie in verschiedenen Einsatzumgebungen weniger flexibel macht.

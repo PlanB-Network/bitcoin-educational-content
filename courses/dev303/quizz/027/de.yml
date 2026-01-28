@@ -1,0 +1,8 @@
+question: Welche Möglichkeiten bietet die Syntax für die Strukturaktualisierung beim Anlegen neuer Strukturinstanzen in Rust?
+answer: Erstellen Sie eine neue Instanz, indem Sie nur die geänderten Felder angeben und die übrigen Felder aus einer bestehenden Instanz kopieren
+wrong_answers:
+  - Vorhandene Strukturfelder an Ort und Stelle ändern, ohne eine neue Instanz zu erstellen
+  - Automatische generate-Standardwerte für nicht spezifizierte Felder unter Verwendung der Eigenschaft Standard
+  - Mehrere Strukturinstanzen zu einer einzigen kombinierten Instanz zusammenführen
+explanation: |
+  Die Syntax für die Strukturaktualisierung in Rust ermöglicht es Ihnen, eine neue Strukturinstanz zu erstellen, indem Sie nur die Felder angeben, die Sie ändern möchten, während alle anderen Felder automatisch aus einer bestehenden Instanz kopiert werden. Dies geschieht mit der Syntax `..existing_instance`. Die anderen Optionen sind nicht korrekt: Die Syntax für die Strukturaktualisierung erstellt immer eine neue Instanz, anstatt bestehende Instanzen zu ändern, sie verwendet nicht die generate-Standardwerte, sondern kopiert von bestehenden Instanzen, und sie arbeitet mit einer Quellinstanz, anstatt mehrere Instanzen zusammenzuführen.

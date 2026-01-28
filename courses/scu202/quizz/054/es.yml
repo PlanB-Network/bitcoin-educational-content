@@ -6,4 +6,4 @@ wrong_answers:
   - Últimos resultados antivirus
 explanation: |
   Los metadatos EXIF de una foto suelen contener información contextual detallada sobre la toma y la cámara.
-reviewed: false
+reviewed: true

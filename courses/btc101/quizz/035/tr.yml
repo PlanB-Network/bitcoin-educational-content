@@ -1,9 +1,13 @@
-question: İtibari paranın anlamı nedir?
-answer: İtibari para, altın gibi fiziksel bir emtia ile desteklenmek yerine, bir hükümet tarafından korunduğu ve insanlar değerine inandığı için değeri olan para birimidir.
+question: Merkez bankası dijital para birimlerinin (CBDC'ler) potansiyel dezavantajı nedir?
+answer: Bireylerin mali özgürlüğünü engelleyebilir ve otoriter suiistimalleri kolaylaştırabilirler.
 wrong_answers:
-  - İtibari para, altın veya gümüş gibi fiziksel bir emtia ile desteklenen para birimidir; bu da değerinin doğrudan bu emtianın değerine bağlı olduğu anlamına gelir.
-  - İtibari para, merkezi olmayan bir ağ üzerinde çalışan ve merkezi bir otoriteye ihtiyaç duymadan eşler arası işlemlere izin veren bir kripto para türüdür.
-  - İtibari para, gerçek bir değeri olmayan ve işlemler için kullanılamayan para birimidir, bu da onu ekonomide esasen değersiz kılar.
+  - Supply parasında bir düşüşe yol açabilirler.
+  - Bunlar Bitcoin değerinde bir düşüşe yol açabilir.
+  - Bunlar altının değerinin düşmesine yol açabilir.
 explanation: |
-  İtibari para, hükümet kararnamesiyle yasal ödeme aracı olarak belirlenir ve değeri herhangi bir fiziksel maldan türetilmez.
+  Merkez bankası dijital para birimleri (CBDC'ler) potansiyel olarak
+  bireylerin finansal özgürlüğünü engellemekte ve
+  otoriter suistimaller. Bunun nedeni, onların bir
+  merkez bankası ile daha merkezi planlı bir ekonomi
+  gW-2'nin parası üzerinde daha fazla kontrol sahibi olmak.
 reviewed: true

@@ -1,11 +1,9 @@
-question: Hva symboliserer Bitcoin utover sin teknologi?
-answer: En revolusjon mot tradisjonelle finanssystemer og et alternativ basert på transparens, desentralisering og individuell suverenitet.
+question: Hva er den største ulempen med fiatvalutaer?
+answer: Verdien deres blir stadig erodert av monetær inflasjon
 wrong_answers:
-  - En ny form for digital valuta som er mer effektiv enn tradisjonelle valutaer.
-  - En måte for individer å tjene penger på gjennom mining.
-  - Et verktøy for kriminelle for å gjennomføre ulovlige transaksjoner.
+  - De er ikke lett transportable
+  - Verdien deres blir stadig verdsatt av monetær inflasjon
+  - De er ikke delbare
 explanation: |
-  Utover sin teknologi symboliserer Bitcoin en revolusjon mot tradisjonelle
-  finanssystemer ettersom protokollen håndhevet et nytt monetært system uten noen
-  sentral enhet.
+  Den største ulempen med fiatvalutaer, som dollar og euro, er at verdien deres stadig blir erodert av monetær inflasjon. Dette skyldes at enhetene som kontrollerer dem (konge, sentralbank, keiser, diktator) stadig devaluerer dem.
 reviewed: true

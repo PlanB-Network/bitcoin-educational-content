@@ -1,8 +1,8 @@
-question: Vad är BTCMap?
-answer: En plattform som listar alla handlare som accepterar Bitcoin.
+question: Vilken av följande åtgärder kan hjälpa dem som vill använda Bitcoin i vardagen?
+answer: Ha en lista över alla handlare som accepterar Bitcoin.
 wrong_answers:
-  - En karta över alla Bitcoin-gruvor i världen.
-  - En karta över alla Bitcoin-börser i världen.
-  - En karta över alla Bitcoin-användare i världen.
+  - Höja priset på Bitcoin.
+  - Minska antalet Bitcoins.
+  - Begränsa användningen av Bitcoin.
 explanation: >-
 reviewed: true

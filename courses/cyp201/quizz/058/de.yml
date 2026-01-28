@@ -6,4 +6,4 @@ wrong_answers:
   - AES-256
 explanation: |
   Der Seed wird mit der Funktion PBKDF2 mit HMAC-SHA512 und 2048 Iterationen aus der mnemonischen Phrase und der Passphrase generiert.
-reviewed: false
+reviewed: true

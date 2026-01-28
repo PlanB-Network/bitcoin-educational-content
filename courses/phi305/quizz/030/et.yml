@@ -1,0 +1,9 @@
+question: Kes ütleb, et "inimene ei ole impeerium impeeriumi sees"?
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Spinoza oli see, kes väitis, et "inimene ei ole impeerium impeeriumi sees". See lause väljendab ideed, et inimene ei ole loodusest eraldiseisev, vaid selle lahutamatu osa, mis allub samadele seadustele.
+reviewed: false

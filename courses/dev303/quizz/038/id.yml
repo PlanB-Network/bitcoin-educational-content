@@ -1,0 +1,8 @@
+question: Sintaks apa yang digunakan untuk mendefinisikan parameter dalam penutupan Rust?
+answer: Karakter pipa (|) untuk mengapit parameter
+wrong_answers:
+  - Tanda kurung () untuk mengapit parameter
+  - Tanda kurung siku [] untuk mengapit parameter
+  - Kurung kurawal {} untuk mengapit parameter
+explanation: |
+  Penutupan Rust menggunakan karakter pipa (|) untuk mendefinisikan parameter, yang membedakannya dari fungsi biasa yang menggunakan tanda kurung. Sebagai contoh, sebuah closure tanpa parameter dituliskan sebagai ||, sedangkan closure dengan parameter terlihat seperti |x, y|. Sintaks yang unik ini membuat closure mudah dikenali dan membedakannya dari definisi fungsi. Tanda kurung digunakan untuk fungsi biasa, sedangkan tanda kurung siku dan kurung kurawal memiliki tujuan lain dalam sintaks Rust.

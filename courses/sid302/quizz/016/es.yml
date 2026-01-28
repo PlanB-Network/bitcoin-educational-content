@@ -1,0 +1,8 @@
+question: ¿Cuál es el objetivo principal del periodo de espera de 102 confirmaciones durante el proceso de enclavamiento de Bitcoin a Liquid?
+answer: Para protegerse de las reorganizaciones de la cadena de bloques Bitcoin antes de acuñar L-BTC
+wrong_answers:
+  - Dar tiempo suficiente a la federación para verificar la identidad y el cumplimiento de los usuarios
+  - Para garantizar que la red Liquid tiene capacidad suficiente para procesar la transacción entrante
+  - Para dar tiempo a la autorización multifirma de 11 de 15 miembros de la federación
+explanation: |
+  El período de espera de confirmación de 102 (aproximadamente 17 horas) está diseñado específicamente para proteger contra las reorganizaciones del blockchain de Bitcoin. Dado que Bitcoin opera sobre la finalidad probabilística, siempre existe una pequeña posibilidad de que los bloques se reorganicen, invalidando potencialmente las transacciones. Al esperar 102 confirmaciones, el sistema garantiza que la transacción Bitcoin que envía fondos a la dirección de la federación está profundamente enterrada y es extremadamente improbable que se anule. Esto evita el escenario en el que L-BTC se acuña en Liquid pero la transacción Bitcoin subyacente se anula debido a una reorganización. Las otras opciones son incorrectas porque: la verificación de identidad no es parte del proceso automatizado de peg-in, la capacidad de la red no es un factor limitante que requiera tales retrasos, y la autorización multisig 11-de-15 se utiliza para peg-outs, no para peg-ins.

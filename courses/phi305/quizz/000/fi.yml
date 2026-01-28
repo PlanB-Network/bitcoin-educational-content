@@ -1,0 +1,9 @@
+question: Minkä filosofisen suuntauksen puolestapuhuja Spinoza on?
+answer: Rationalismi.
+wrong_answers:
+  - Romanttinen liike.
+  - Skolastiikka.
+  - Strukturalismi.
+explanation: |
+  Spinozaa pidetään Descartesin ja Leibnizin ohella yhtenä 1600-luvun rationalismin suurimmista edustajista. Hän kehitti järkeen ja logiikkaan perustuvan filosofian, jossa hän pyrki ymmärtämään maailmaa rationaalisten periaatteiden eikä uskon tai perinteen avulla.
+reviewed: false

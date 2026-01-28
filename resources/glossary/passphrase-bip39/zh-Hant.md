@@ -11,4 +11,4 @@ term: passphrase (BIP39)
 passphrase 是任意的，可以是使用者選擇的任何字元組合。使用 passphrase 有幾個優點。首先，它減少了與復原短語洩露相關的風險，因為它需要第二個因素來存取資金。其次，它可以被策略性地用於創建包含少量比特幣的誘餌錢包，以防被實體威脅盜取您的資金。最後，當希望控制 HD Wallet seed 產生的隨機性時，它的使用是很有趣的。passphrase 必須有足夠的複雜性來抵抗暴力攻擊，而且必須可靠地保存。遺失 passphrase 會導致無法存取資金，就像遺失復原短語一樣。
 
 
-> ► *passphrase有時也被稱為："two-factor seed phrase"、"password"、"seed extension"、"extension word「，甚至 」13th or 25th word"。值得注意的是，Bitcoin 上有兩種密碼短語。最為人熟知的是上述依賴於 BIP-39 的密碼，它允許保護整個 HD Wallet。不過，BIP-38 也指定了一種方法，可以用 passphrase 來保護獨一無二的私密金鑰。第二種 passphrase 目前幾乎已不再使用。
+> ► *passphrase*有時也被稱為："two-factor seed phrase"、"password"、"seed extension"、"extension word"，甚至"13th or 25th word"。值得注意的是，Bitcoin 上有兩種密碼短語。最為人熟知的是上述依賴於 BIP-39 的密碼，它允許保護整個 HD Wallet。不過，BIP-38 也指定了一種方法，可以用 passphrase 來保護獨一無二的私密金鑰。第二種 passphrase 目前幾乎已不再使用。

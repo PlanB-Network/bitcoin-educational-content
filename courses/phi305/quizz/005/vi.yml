@@ -1,0 +1,9 @@
+question: Nhà khoa học nào tin rằng toán học là ngôn ngữ của vũ trụ?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Copernicus.
+explanation: |
+  Galileo nổi tiếng với khẳng định "cuốn sách của tự nhiên được viết bằng ngôn ngữ toán học". Tầm nhìn này đã có ảnh hưởng sâu sắc đến khoa học hiện đại và triết học duy lý, bao gồm cả Spinoza.
+reviewed: false

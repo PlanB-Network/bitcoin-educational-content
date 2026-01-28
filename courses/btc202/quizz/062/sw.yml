@@ -1,0 +1,9 @@
+question: Ni programu gani ya Umbrel inayokuruhusu kudhibiti node yako ya Lightning na Interface ya hali ya juu?
+answer: Ride The Lightning 
+wrong_answers:
+  - Lightning wa BTCPay
+  - Relay ya Nostr
+  - Bitfeed
+explanation: |
+  Ride The Lightning na ThunderHub hutoa Interface kamili ya wavuti kwa kusimamia nodi ya Umeme.
+reviewed: true

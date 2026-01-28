@@ -1,0 +1,9 @@
+question: Mikä on blkNNNNNNN.dat-tiedoston enimmäiskoko ennen uuden tiedoston luomista?
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256 GiB
+  - 128 GiB
+explanation: |
+  BlkNNNNNNN.dat-tiedostot tallentavat lohkot peräkkäin ja saavuttavat noin 128 MiB:n koon ennen kuin Bitcoin core avaa seuraavan lohkon.
+reviewed: true

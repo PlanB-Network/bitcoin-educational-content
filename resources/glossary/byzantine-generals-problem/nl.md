@@ -22,4 +22,4 @@ Bovendien kan een generaal alleen met een andere generaal communiceren via beric
 Als we het dilemma toepassen op de context van de Bitcoin Blockchain, dan vertegenwoordigt elke generaal een knooppunt in het netwerk, dat een consensus moet bereiken over de toestand van het systeem. Met andere woorden, de meerderheid van de deelnemers in een gedistribueerd netwerk moet het eens zijn en dezelfde actie uitvoeren om een totale mislukking te voorkomen. De enige manier om een consensus te bereiken in dit type gedistribueerd systeem is om minstens 2/3 van de netwerkknooppunten betrouwbaar en eerlijk te laten zijn. Daarom is het systeem kwetsbaar als de meerderheid van het netwerk besluit om kwaadwillig te handelen.
 
 
-> ► *Dit dilemma wordt soms ook "Het probleem van betrouwbaar uitzenden" genoemd
+> ► *Dit dilemma wordt soms ook "Het probleem van betrouwbaar uitzenden" genoemd*

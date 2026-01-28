@@ -1,0 +1,8 @@
+question: Paul Leroy-Beaulieun vuonna 1883 tekemän analyysin mukaan miten kollektivistiset järjestelmät tyypillisesti hankkivat teknologisia ja menettelyihin liittyviä innovaatioita?
+answer: Ne kopioivat vapaiden markkinayhteiskuntien ulkoisesti kehittämiä innovaatioita, koska ne eivät pysty generate:n sisäiseen innovointiin
+wrong_answers:
+  - Ne kehittävät innovaatioita keskitettyjen tutkimuskomiteoiden kautta, jotka koordinoivat tieteellistä edistymistä
+  - Ne luovat innovaatioita yhdistämällä kollektiivista tietämystä ja poistamalla yhteistyön kilpailullisia esteitä
+  - Ne generate innovaatiot valtion rahoittamien laitosten kautta, jotka keskittävät resursseja järjestelmälliseen parantamiseen
+explanation: |
+  Paul Leroy-Beaulieu ennusti, että kollektivistiset järjestelmät ovat rakenteellisesti kykenemättömiä sisäiseen innovointiin, koska ne ovat byrokraattisia ja yksilölliset kannustimet puuttuvat. Hän ennakoi aivan oikein, että kommunistiset yhteiskunnat luottaisivat vapaiden yhteiskuntien innovaatioiden kopiointiin sen sijaan, että ne loisivat omia innovaatioita, koska henkilökohtaisten palkitsemismekanismien puuttuminen ja jäykät sääntelypuitteet estävät aidon innovaation edellyttämän riskinoton ja luovan aloitteellisuuden.

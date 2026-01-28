@@ -1,8 +1,9 @@
-question: Hur validerar miners transaktioner och inkluderar dem i ett block?
-answer: Genom processen med Proof of Work.
+question: Vilken är den nuvarande storleken på Bitcoin Blockchain?
+answer: Cirka 660GB
 wrong_answers:
-  - Genom processen för bevis på insats.
-  - Genom processen för bevis på auktoritet.
-  - Genom processen för bevis på bränning.
-explanation: >-
+  - Cirka 110GB
+  - Cirka 1TB
+  - Cirka 2TB
+explanation: |
+  Bitcoin Blockchain har en storlek på cirka 660GB år 2025.
 reviewed: true

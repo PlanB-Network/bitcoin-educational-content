@@ -16,4 +16,4 @@ term: CIOH
 ![](../../dictionnaire/assets/13.webp)
 
 
-> ► *在英文中，「CIOH」可譯為「Common Input Ownership Heuristic」。
+> ► *在英文中，「CIOH」可譯為「Common Input Ownership Heuristic」。*

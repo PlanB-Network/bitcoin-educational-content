@@ -1,0 +1,9 @@
+question: Které nastavení nutí Bitcoin core připojovat se pouze prostřednictvím sítě Tor?
+answer: onlynet=onion
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - net=tor
+explanation: |
+  Volba onlynet=onion omezuje všechna odchozí připojení k síti Tor, zatímco volba listenonion=1 umožňuje pouze poslouchat příchozí připojení k síti Tor.
+reviewed: true

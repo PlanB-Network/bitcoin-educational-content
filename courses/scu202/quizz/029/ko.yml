@@ -1,0 +1,9 @@
+question: 안정성과 지원 기간으로 볼 때 초보자에게 추천하는 우분투 버전은 무엇인가요?
+answer: LTS(장기 지원)
+wrong_answers:
+  - 롤링 릴리스
+  - 첫 번째 버전
+  - 알파 릴리스
+explanation: |
+  우분투의 LTS 버전은 5년 동안 유지되며 안정성이 높아 초보 사용자에게 이상적입니다.
+reviewed: false

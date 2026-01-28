@@ -1,11 +1,13 @@
-question: Como você pode fortalecer a segurança padrão da sua carteira Bitcoin?
-answer: Adicionando uma frase-senha à sua carteira Bitcoin.
+question: O que é uma carteira fria?
+answer: Uma carteira em um dispositivo físico que armazena suas chaves e não está conectada à internet.
 wrong_answers:
-  - Adicionando uma segunda chave privada à sua carteira Bitcoin.
-  - Adicionando uma segunda chave pública à sua carteira Bitcoin.
-  - Adicionando uma segunda frase mnemônica à sua carteira Bitcoin.
+  - Uma carteira que é fisicamente fria ao toque.
+  - Uma carteira que é impopular entre os usuários de Bitcoin.
+  - Uma carteira que é recomendada para armazenar pequenas quantidades de bitcoins.
 explanation: |
-  Se você não está satisfeito com a segurança padrão da sua
-  carteira Bitcoin, você sempre pode fortalecê-la adicionando uma
-  frase-senha à sua carteira Bitcoin.
+  Uma carteira fria é um termo usado para descrever uma carteira de Bitcoin
+  que é armazenada em um dispositivo que não está conectado à
+  internet. Isso a torna menos vulnerável a ameaças online,
+  mas também significa que a carteira é menos acessível para
+  transações diárias.
 reviewed: true

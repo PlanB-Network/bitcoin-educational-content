@@ -8,7 +8,7 @@ description: Complete guide to using Bisq 2 and exchanging bitcoins P2P
 
 KYC-free peer-to-peer (P2P) exchanges are essential for preserving users' privacy and financial autonomy. They enable direct transactions between individuals without the need for identity verification, which is crucial for those who value privacy. For a more in-depth understanding of the theoretical concepts, take a look at the BTC204 course:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### What is Bisq 2?
 
@@ -23,7 +23,7 @@ Bisq 2 is the new version of the popular decentralized Bisq exchange, launched i
 - Support for multiple wallet types
 - Role system with compulsory deposit in BSQ
 
-This guide focuses exclusively on "Bisq Easy", the only protocol currently available. Bisq Easy has been designed specifically for new Bitcoin users. This protocol enables users to buy and sell Bitcoins against fiat currencies on a decentralized peer-to-peer platform. Transactions are limited to the equivalent of 600 USD (with a minimum of 6 USD), and exchange security relies on the reputation of BTC sellers. Bisq Easy has no trading fees or security deposit requirements. Bisq Easy is expected to replace Bisq 1 for cash exchanges below 600 USD (or equivalent).
+This guide focuses exclusively on "Bisq Easy", the only protocol currently available. Bisq Easy was specifically designed for new Bitcoin users. This protocol allows users to buy and sell bitcoins for fiat currencies on a decentralized peer-to-peer platform. Transactions are limited to the equivalent of 600 USD (with a minimum of 6 USD), and trade security relies on the reputation of BTC sellers. Bisq Easy has no trading fees or security deposit requirements. It is expected that Bisq Easy will replace Bisq 1 for fiat trades below 600 USD (or equivalent).
 
 **Main features:**
 
@@ -62,7 +62,7 @@ This guide focuses exclusively on "Bisq Easy", the only protocol currently avail
 - The creator of the offer defines the terms of the exchange
 - Once the traders have agreed on the terms (payment method and price), the exchange begins
 - The seller sends his bank details to the buyer, and the buyer sends his Bitcoin address to the seller
-- Buyer makes payment in cash and notifies seller
+- The buyer makes the payment in fiat currency and notifies the seller
 - Once payment has been received, the seller sends the bitcoins to the buyer's address
 - The exchange is complete when the buyer receives the bitcoins
 
@@ -86,7 +86,7 @@ This guide focuses exclusively on "Bisq Easy", the only protocol currently avail
 - Download the Bisq 2 version corresponding to your operating system (scroll down the page)
 - Verify the authenticity of the downloaded file (strongly recommended). For a detailed guide to signature verification, see the following tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installation according to your system
 
@@ -327,37 +327,37 @@ To enhance your reputation on Bisq as a seller, conduct regular transactions and
 ### Benefits of Bisq 2
 
 
-- Maximum privacy**: No KYC, use of Tor
-- Decentralization**: No central server
-- Security**: Open source, non-custodial code
-- Intuitive interface**: simpler than Bisq 1
-- Flexibility**: Multiple exchange protocols
+- **Maximum privacy**: No KYC, use of Tor
+- **Decentralization**: No central server
+- **Security**: Open source, non-custodial code
+- **Intuitive interface**: simpler than Bisq 1
+- **Flexibility**: Multiple exchange protocols
 
 ### Bisq 2 disadvantages
 
 
-- Limited liquidity** (for the moment) :
+- **Limited liquidity** (for the moment) :
  - New protocol in start-up phase
  - Few sales offers available
  - Potentially long waiting times to find a buyer
-- Trading limits**: Maximum of USD 600 per transaction (with Bisq easy)
-- Desktop only**: No mobile application
+- **Trading limits**: Maximum of USD 600 per transaction (with Bisq easy)
+- **Desktop only**: No mobile application
 
 ## Future Protocols
 
 Although Bisq Easy is currently the only protocol available, several other protocols are under development for Bisq 2 :
 
 
-- Bisq Lightning**: Exchange protocol based on an escrow system using multiparty computation cryptography on the Lightning network.
-- Bisq MuSig**: Migration of the main protocol from Bisq 1 to Bisq 2, using a 2-on-2 multisig with security deposits.
-- BSQ Swaps**: Instant atomic swaps between BSQ and BTC.
-- Liquid Swaps**: Exchange of assets on the Liquid network (USDT, BTC-L) via atomic swaps.
-- Monero Swaps**: Atomic exchanges between Bitcoin and Monero.
-- Liquid MuSig**: Version of the multisig protocol using L-BTC for lower costs and greater privacy.
-- Submarine Swaps**: Exchanges between Bitcoin on the Lightning network and Bitcoin on-chain.
-- Stablecoin Swaps**: Atomic exchanges between Bitcoin and USD stablecoins.
-- Multisig Options**: Creation of P2P put and call options with BTC blocking in an on-chain multisig transaction.
-- Multisig Open Contracts**: Enables the creation of customized conditional contracts using a 2-on-3 multisig system with arbitrage.
+- **Bisq Lightning**: Exchange protocol based on an escrow system using multiparty computation cryptography on the Lightning network.
+- **Bisq MuSig**: Migration of the main protocol from Bisq 1 to Bisq 2, using a 2-on-2 multisig with security deposits.
+- **BSQ Swaps**: Instant atomic swaps between BSQ and BTC.
+- **Liquid Swaps**: Exchange of assets on the Liquid network (USDT, BTC-L) via atomic swaps.
+- **Monero Swaps**: Atomic exchanges between Bitcoin and Monero.
+- **Liquid MuSig**: Version of the multisig protocol using L-BTC for lower costs and greater privacy.
+- **Submarine Swaps**: Exchanges between Bitcoin on the Lightning network and Bitcoin on-chain.
+- **Stablecoin Swaps**: Atomic exchanges between Bitcoin and USD stablecoins.
+- **Multisig Options**: Creation of P2P put and call options with BTC blocking in an on-chain multisig transaction.
+- **Multisig Open Contracts**: Enables the creation of customized conditional contracts using a 2-on-3 multisig system with arbitrage.
 
 These protocols are currently under development and will be progressively integrated into Bisq 2, offering greater flexibility to users according to their specific needs.
 

@@ -1,11 +1,9 @@
-question: Cosa suggerisce questo corso riguardo alla curva di apprendimento studiando Bitcoin?
-answer: È complicato assimilare tutto in una volta, quindi prendersi il tempo necessario.
+question: Quale meccanismo collega una sidechain a Bitcoin?
+answer: Ancoraggio bidirezionale
 wrong_answers:
-  - È facile imparare tutto in una volta.
-  - È impossibile imparare tutto su Bitcoin.
-  - Non è necessario imparare tutto su Bitcoin.
+  - Canale di pagamento
+  - Proof of Stake
+  - Sharding
 explanation: |
-  Il corso suggerisce che c'è così tanto da esplorare con
-  Bitcoin che è complicato assimilare tutto in
-  una volta, quindi si dovrebbe riservare il tempo necessario.
-reviewed: vero
+  Il meccanismo di two-way peg consente di bloccare i BTC su Bitcoin e rappresentarli sulla sidechain.
+reviewed: false

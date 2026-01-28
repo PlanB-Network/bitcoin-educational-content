@@ -1,0 +1,8 @@
+question: block size war 發生於何時？
+answer: 在 2017 年。
+wrong_answers:
+  - 2008 年。
+  - 2010 年。
+  - 2019 年。
+explanation: >-
+reviewed: true

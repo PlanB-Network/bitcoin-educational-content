@@ -1,12 +1,13 @@
-question: Koja je analogija korišćena u ovom kursu da objasni kako možete primiti bitkoine bez omogućavanja pošiljaocu da ukrade vaša sredstva?
-answer: Poštansko sanduče.
+question: Koja je preporučena upotreba mobilnog novčanika?
+answer: Čuvanje dnevnih troškova.
 wrong_answers:
-  - Bankovni račun.
-  - Sigurno.
-  - Kuća.
+  - Čuvanje dugoročnih ušteda.
+  - Čuvanje srednjoročnih ušteda.
+  - Skladištenje velikih količina.
 explanation: |
-  Analogija korišćena da objasni kako možete primiti Bitkoine
-  bez omogućavanja pošiljaocu da ukrade vaša sredstva je
-  poštansko sanduče. Ljudi u njega ubacuju novac, ali samo vi
-  možete da ga otvorite.
+  Mobilni novčanik se preporučuje za dnevne troškove jer je
+  lako obavljati transakcije s njim. Međutim, ne
+  preporučuje se za čuvanje velikih iznosa ili za
+  dugoročne uštede jer je potencijalno ranjiv na
+  online pretnje.
 reviewed: true

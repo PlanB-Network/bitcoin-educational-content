@@ -1,0 +1,9 @@
+question: Jaki jest cel plików revNNNN.dat przechowywanych razem z blkNNNN.dat?
+answer: Przywrócenie UTXO ustawionego podczas reorganizacji
+wrong_answers:
+  - Przywrócenie UTXO ustawionego podczas Hard Fork
+  - Przywrócenie Mempool podczas Hard Fork
+  - Przywracanie Mempool podczas reorganizacji
+explanation: |
+  Każdy revNNNNN.dat zawiera dane potrzebne do cofnięcia wpływu bloku na zestaw UTXO, co ułatwia zarządzanie reorganizacjami.
+reviewed: true

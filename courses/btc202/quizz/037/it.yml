@@ -1,0 +1,9 @@
+question: Quale tipo di macchina viene presentata come il miglior compromesso per un nodo domestico Bitcoin?
+answer: Un mini-PC di tipo NUC
+wrong_answers:
+  - Computer portatile
+  - Un supercomputer
+  - Una console di gioco
+explanation: |
+  I mini-PC (NUC, Tiny, OptiPlex Micro...) sono a basso consumo energetico, affidabili e facili da adattare, il che li rende il compromesso ideale.
+reviewed: true

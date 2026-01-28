@@ -1,0 +1,11 @@
+question: Satoshi 나카모토 이후 Bitcoin 네트워크에 최초로 가입한 사람은 누구인가요?
+answer: 할 피니.
+wrong_answers:
+  - 라즐로 하녜츠.
+  - 필 샴페인.
+  - Rogzy.
+explanation: |
+  할 피니는 Bitcoin 네트워크에 최초로 합류한 사람으로
+  gW-3 나카모토 이후 처음으로 네트워크에 가입했습니다. 그는 이를 기념하기 위해 Running
+  Bitcoin라는 트윗을 올리기도 했습니다.
+reviewed: true

@@ -1,10 +1,12 @@
-question: Hvorfor er det tilrådelig å unngå å la dine Bitcoins være på børsplattformer?
-answer: De kan være sårbare for hackerangrep
+question: Hvorfor kan ikke alle bruke den samme Bitcoin-lommeboken?
+answer: Fordi ulike individer betyr ulike bruksområder.
 wrong_answers:
-  - Børsplattformer tar tilfeldige gebyrer
-  - Bitcoins mister verdi på børsplattformer
-  - Børsplattformer er ikke regulerte institusjoner
+  - Fordi det er dyrt å bruke en Bitcoin-lommebok
+  - Fordi det er ulovlig å bruke en Bitcoin-lommebok
+  - Fordi folk aldri vil bli enige om navnet på en slik lommebok
 explanation: |
-  Det er tilrådelig å unngå å la dine Bitcoins være på børsplattformer
-  fordi de kan være sårbare for hackerangrep.
+  Mens én person kanskje prioriterer sikkerhet, kan en annen verdsette 
+  brukervennlighet eller spesifikke funksjoner. Derfor kan ikke én enkelt 
+  Bitcoin-lommebok dekke alles behov, noe som gjør det nødvendig 
+  med flere lommebokalternativer.
 reviewed: true

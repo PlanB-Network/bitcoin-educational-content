@@ -25,11 +25,11 @@ Banxaas linatokana na lahaja ya Senegali (Wolof) ikimaanisha tawi. Kiitikadi, tu
 
 
 
-- Banxaas ni jukwaa lisilo la ulinzi: huhitaji kufungua akaunti au kumiliki Wallet kwenye jukwaa. Unabaki katika udhibiti wa pesa zako, na kutokujulikana kwako kunaimarishwa.
+- Banxaas ni jukwaa lisilo la ulinzi: hauhitaji kufungua akaunti au kumiliki Wallet kwenye jukwaa. Unabaki katika udhibiti wa pesa zako, na kutokujulikana kwako kunaimarishwa.
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 
 
@@ -37,7 +37,7 @@ https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Biashara kwa mara ya kwanza na Banxaas
 
@@ -73,7 +73,7 @@ Mfumo wa wavuti wa Banxaas ni rahisi na angavu, hukuruhusu kukamilisha ununuzi w
 
 
 
-- Kutoka faranga za CFA hadi satoshi** :
+- **Kutoka faranga za CFA hadi satoshi** :
 
 
 
@@ -92,9 +92,9 @@ Unapoanzisha ubadilishaji kutoka faranga za CFA hadi Bitcoin, utaongeza Umeme wa
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 Banxaas hukuruhusu kuangalia usahihi wa mapokezi yako ya Bitcoin Address kwa kubofya kitufe cha **Thibitisha unakoenda**.
 
@@ -114,7 +114,7 @@ Thibitisha muamala wako kwa kubofya kitufe cha **Troc** ili kununua bitcoins kut
 
 
 
-- Kutoka Satoshis hadi CFA faranga**
+- **Kutoka Satoshis hadi CFA faranga**
 
 
 
@@ -182,7 +182,7 @@ Timu ya Banxaas iko tayari kukusaidia kwa matatizo yoyote ambayo unaweza kukutan
 ![support](assets/fr/09.webp)
 
 
-Sasa umepata jukwaa la Banxaas kwa Exchange bitcoins zako na unaweza kutuma pesa Senegal kwa kutumia satoshi zako.
+Sasa umepata jukwaa la Banxaas kwa kuExchange bitcoins zako na unaweza kutuma pesa Senegal kwa kutumia satoshi zako.
 
 
 
@@ -190,4 +190,4 @@ Pia angalia mafunzo yetu kuhusu Peach, jukwaa la rika-kwa-rika la Exchange ambal
 
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874

@@ -1,10 +1,9 @@
 question: Linux ve Mac genellikle antivirüse ihtiyaç duyar mı?
-answer: Bu yanlış
+answer: Hayır.
 wrong_answers:
-  - Bu doğru
+  - Evet.
   - Sadece Linux'un antivirüse ihtiyacı vardır.
   - Sadece Mac'in antivirüse ihtiyacı vardır.
 explanation: |
-  Linux ve Mac, kullanıcı hakları ayrımı sayesinde
-  sistemi, genellikle antivirüse ihtiyaç duymaz.
+  Linux ve Mac, kullanıcı hakları ayrımı sistemi sayesinde, genellikle antivirüse ihtiyaç duymaz.
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamir Sicherung
+name: Trezor Shamir Backup
 description: Mnemonic-Sätze mit einem oder mehreren Anteilen auf Trezor
 ---
 ![cover](assets/cover.webp)
@@ -34,7 +34,7 @@ Benutzer, die ein Portfolio mit *Single-Share Backup* erstellt haben, können je
 
 
 
-Multi-Share Backup* ist auf dem Trezor Model T, Safe 3 und Safe 5 verfügbar. Diese Funktion wird vom Trezor Model One nicht unterstützt.
+Multi-Share Backup ist auf dem Trezor Model T, Safe 3 und Safe 5 verfügbar. Diese Funktion wird vom Trezor Model One nicht unterstützt.
 
 
 
@@ -85,11 +85,11 @@ Wenn Sie Hilfe bei der Ersteinrichtung Ihres Geräts benötigen, haben wir für 
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### Über ein neues Portfolio
 
@@ -139,13 +139,13 @@ Für weitere Informationen über die richtige Art und Weise, Ihre Mnemonic-Sätz
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Wählen Sie auf dem Trezor die Gesamtzahl der Anteile, die Sie konfigurieren möchten. Die gebräuchlichsten Konfigurationen sind 2-de-3 und 3-de-5. Für dieses Beispiel werde ich ein 2-de-3 erstellen, also 3 Anteile auswählen. Jeder Anteil steht für einen Mnemonic-Satz mit 20 Wörtern.
 
 
 
-*Bei Safe 5-Benutzern steht zwar auf dem Bildschirm "*Tippen, um fortzufahren*", aber Sie müssen zur Bestätigung nach oben wischen
+*Bei Safe 5-Benutzern steht zwar auf dem Bildschirm "Tippen, um fortzufahren", aber Sie müssen zur Bestätigung nach oben wischen*
 
 
 
@@ -173,7 +173,7 @@ Am oberen Rand des Bildschirms sehen Sie, welche Freigabe Sie gerade sehen.
 
 
 
-natürlich dürfen Sie diese Wörter niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Beispiel Wallet wird nur auf dem Testnet verwendet werden und wird am Ende des Tutorials gelöscht werden.**_
+natürlich dürfen Sie diese Wörter niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Beispiel Wallet wird nur auf dem Testnet verwendet werden und wird am Ende des Tutorials gelöscht werden.
 
 
 
@@ -273,7 +273,7 @@ Herzlichen Glückwunsch, Sie sind jetzt auf dem Laufenden, was die Verwendung vo
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unten einen Green-Daumen hinterlassen würden. Sie können diesen Artikel auch gerne in Ihren sozialen Netzwerken teilen. Ich danke Ihnen sehr!
 
@@ -285,6 +285,6 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unt
 
 
 
-- [SLIP-0039: Shamir's Secret-Sharing für Mnemonic Codes] (https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
+- [SLIP-0039: Shamir's Secret-Sharing für Mnemonic Codes](https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
 - [Multi-share Backup auf Trezor](https://trezor.io/learn/a/multi-share-backup-on-trezor);
-- [Wikipedia: Shamirs geheime Teilung] (https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).
+- [Wikipedia: Shamirs geheime Teilung](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).

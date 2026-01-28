@@ -1,0 +1,9 @@
+question: De acordo com o Manifesto Cypherpunk de Eric Hughes, qual é a principal responsabilidade pela proteção da privacidade numa sociedade eletrónica aberta?
+answer: Os indivíduos devem defender ativamente a sua própria privacidade, em vez de dependerem dos governos ou das empresas para a garantir
+wrong_answers:
+  - Os governos devem estabelecer regulamentos abrangentes em matéria de privacidade para proteger os cidadãos da vigilância das empresas
+  - As grandes organizações devem implementar voluntariamente protecções de privacidade como parte da sua responsabilidade social empresarial
+  - Devem ser negociados tratados internacionais para criar normas universais em matéria de privacidade aplicadas por organismos supranacionais
+explanation: |
+  Hughes declarou explicitamente que 'Não podemos esperar que governos, corporações ou outras grandes organizações anónimas nos garantam confidencialidade' e que o principal objetivo dos Cypherpunks é 'fazer com que as pessoas defendam a sua confidencialidade, em vez de dependerem de outra pessoa para a fornecer'.
+  Isto reflecte a filosofia cypherpunk de responsabilidade individual e desconfiança em relação a instituições centralizadas. O movimento acreditava que as ferramentas criptográficas deveriam capacitar os indivíduos para se protegerem a si próprios, em vez de dependerem das próprias instituições que viam como potenciais ameaças à privacidade e à liberdade.

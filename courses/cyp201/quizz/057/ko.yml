@@ -1,0 +1,9 @@
+question: PBKDF2에서 생성되는 seed의 크기는 얼마인가요?
+answer: 512비트
+wrong_answers:
+  - 128비트
+  - 256비트
+  - Mnemonic 문구의 길이에 따라 달라질 수 있습니다
+explanation: |
+  Mnemonic 구문의 길이에 관계없이 PBKDF2는 항상 512비트 seed을 생성합니다.
+reviewed: false

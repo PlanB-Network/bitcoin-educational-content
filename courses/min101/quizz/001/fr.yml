@@ -1,0 +1,9 @@
+question: Après vérification, que fait un nœud Bitcoin avec une transaction valide, mais non-confirmée ?
+answer: Il la relaie à ses pairs
+wrong_answers:
+  - Il l'ajoute dans sa copie locale de la blockchain
+  - Il la signe avec sa clé privée
+  - Il la chiffre avec sa clé publique
+explanation: |
+  Dans le réseau Bitcoin, chaque nœud propage les transactions valides aux nœuds avec lesquels il est connectés.
+reviewed: false

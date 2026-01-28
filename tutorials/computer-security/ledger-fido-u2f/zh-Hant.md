@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: 使用 Ledger 加強您的線上安全性
 ---
 ![cover](assets/cover.webp)
@@ -180,4 +180,4 @@ U2F (Universal 2nd Factor) 協定於 2014 年由 Google 和 Yubico 推出，之�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

@@ -1,0 +1,9 @@
+question: ข้อจำกัดเฉพาะบน Android ที่กล่าวถึงเกี่ยวกับการใช้ Tailscale คืออะไร?
+answer: หนึ่ง VPN ต่อครั้ง
+wrong_answers:
+  - บลูทูธจำเป็นสำหรับ VPN
+  - DNS-over-HTTPS ไม่เข้ากัน
+  - ต้องการการรูทโทรศัพท์
+explanation: |
+  Android ไม่อนุญาตให้คุณใช้ VPN สองตัวพร้อมกัน ดังนั้นคุณจำเป็นต้องปิดใช้งาน VPN อื่นที่กำลังใช้งานอยู่ก่อนที่จะใช้ Tailscale
+reviewed: false

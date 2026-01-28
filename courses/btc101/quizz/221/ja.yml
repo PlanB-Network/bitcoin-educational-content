@@ -1,9 +1,9 @@
-question: Lightning Networkとは何ですか？
-answer: Bitcoinプロトコルを使用して、稲妻のように速い取引を可能にする支払いネットワークです。
+question: 受け取りにおいて、Ark は Lightning と比べてどのような利点がありますか？
+answer: インバウンド流動性が不要
 wrong_answers:
-  - 新しいタイプの暗号通貨です。
-  - 将来的にBitcoinを置き換える新しいブロックチェーン技術です。
-  - Bitcoinを採掘する方法です。
+  - 支払いの即時確定
+  - 取引手数料が不要
+  - ウォレットが不要
 explanation: |
-  Lightning Networkは、Bitcoinプロトコルを使用して高速な取引を可能にする支払いネットワークです。別の暗号通貨ではなく、Bitcoinを採掘する方法でもありません。
-reviewed: true
+  Ark は、事前にインバウンドの流動性を用意せずに支払いを受け取ることを可能にします。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hashrate이란 무엇인가요?
+answer: Mining 장치가 Proof of Work을 풀기 위해 초당 수행할 수 있는 Hash 계산의 수입니다.
+wrong_answers:
+  - Mining 디바이스가 Proof of Work를 해결할 수 있는 속도입니다.
+  - Bitcoin 네트워크의 총 채굴자 수입니다.
+  - 초당 특정 횟수만큼 Proof of Work을 풀기 위해 시도하여 채굴한 비트코인의 총량입니다.
+explanation: >-
+reviewed: true

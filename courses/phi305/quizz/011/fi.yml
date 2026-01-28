@@ -1,0 +1,9 @@
+question: Mitä Spinoza ajattelee sattumasta?
+answer: Sitä ei ole olemassa.
+wrong_answers:
+  - Se on olemassa.
+  - Hän rinnastaa sen fatalismiin.
+  - Hän pitää sitä taikauskona.
+explanation: |
+  Spinozalle sattumaa ei ole olemassa. Kaikki maailmankaikkeudessa noudattaa välttämättömiä ja määrättyjä lakeja. Se, mikä näyttää meille sattumalta, on vain seurausta tietämättömyydestämme todellisista syistä.
+reviewed: false

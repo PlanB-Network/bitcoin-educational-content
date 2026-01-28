@@ -1,8 +1,9 @@
-question: Mis on protsess, mille abil kaevurid valideerivad tehinguid ja lisavad need plokki?
-answer: Töötõend
+question: Mis on Bitcoin'i plokiahela suurus?
+answer: Umbes 660GB
 wrong_answers:
-  - Panusetõend
-  - Autoriteeditõend
-  - Põletustõend
-explanation: >-
-  Kaevurid valideerivad tehinguid ja lisavad need plokki protsessi abil, mida nimetatakse töötõendiks. See hõlmab krüptograafilise mõistatuse lahendamist.
+  - Umbes 110GB
+  - Umbes 1TB
+  - Umbes 2TB
+explanation: |
+  Bitcoin'i plokiahela suurus on umbes 660GB aastal 2025.
+reviewed: true

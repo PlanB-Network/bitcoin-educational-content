@@ -5,5 +5,5 @@ wrong_answers:
   - Zato što koristi brojeve sa pokretnim zarezom u svojoj konstrukciji
   - Jer je generisano isključivo iz prirodnih događaja
 explanation: |
-  Pseudonasumičan niz je dizajniran da blisko podseća na pravi nasumičan niz, čineći razliku nemogućom bez pristupa seed ili algoritmu koji je korišćen.
-reviewed: false
+  Pseudonasumičan niz je dizajniran da blisko podseća na pravi nasumičan niz, čineći razliku nemogućom bez pristupa seed-u ili algoritmu koji je korišćen.
+reviewed: true

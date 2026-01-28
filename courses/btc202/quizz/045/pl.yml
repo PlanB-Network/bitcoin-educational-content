@@ -1,0 +1,9 @@
+question: Jakie kroki należy wykonać przed zainstalowaniem systemu UmbrelOS?
+answer: Utwórz bootowalny klucz USB z obrazem
+wrong_answers:
+  - Kompilacja kodu źródłowego Bitcoin core
+  - Formatowanie Blockchain
+  - Utwórz konto na stronie umbrel.com
+explanation: |
+  Instalacja rozpoczyna się od przygotowania bootowalnego klucza USB z systemem UmbrelOS za pośrednictwem Balena Etcher.
+reviewed: true

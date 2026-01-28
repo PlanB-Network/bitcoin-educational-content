@@ -1,19 +1,19 @@
 ---
-name: एलेक्ट्रम
+name: Electrum
 
-description: पूर्ण इलेक्ट्रम गाइड, 0 से हीरो तक
+description: संपूर्ण Electrum मार्गदर्शिका, शून्य से विशेषज्ञ तक
 ---
 
 ![cover](assets/cover.webp)
 
 
-इलेक्ट्रम के लिए कुछ विवरण स्रोत नीचे देखें:
+नीचे Electrum के लिए कुछ विवरण स्रोत दिए गए हैं:
 
 
 
 - [X](https://twitter.com/ElectrumWallet)
-- [इलेक्ट्रम वेबसाइट](https://electrum.org/)
-- [इलेक्ट्रम दस्तावेज़ीकरण](https://electrum.readthedocs.io/)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 
 इस ट्यूटोरियल के बारे में रॉजी का विचार इस प्रकार है:

@@ -1,0 +1,2 @@
+description: |
+  Täysin hajautettu peer-to-peer-viestisovellus, joka toimii Bluetooth mesh -verkossa ilman Internetiä, palvelimia tai puhelinnumeroita. Jokainen laite toimii itsenäisenä releenä, mikä mahdollistaa paikallisen viestinnän, joka kestää sensuuria, valvontaa ja verkkokatkoksia.

@@ -1,5 +1,5 @@
 ---
-name: بیت‌استمپ
+name: Bitstamp
 
 description: نحوه استفاده از Bitstamp
 ---

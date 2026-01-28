@@ -1,0 +1,9 @@
+question: 强制关闭的主要缺点是什么？
+answer: 因时间限制而被冻结的资金
+wrong_answers:
+  - 部分资金损失
+  - 闪电节点的过时
+  - 闪电节点不同步
+explanation: |
+  资金被时间锁冻结，费用往往很高。
+reviewed: false

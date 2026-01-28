@@ -1,0 +1,9 @@
+question: Bir blok mutabakat kurallarını ihlal ederse ne olur?
+answer: Düğümler tarafından hemen reddedilir
+wrong_answers:
+  - Mempool'da saklanmakta ve onaylanmayı beklemektedir
+  - Yalnızca diğer kuralları kabul eden düğümler tarafından iletilir
+  - Sadece cüzdanlar tarafından onaylanır
+explanation: |
+  Düğümler, mutabakat kurallarına uymayan herhangi bir bloğu sistematik olarak reddeder.
+reviewed: true

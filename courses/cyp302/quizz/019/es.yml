@@ -6,4 +6,4 @@ wrong_answers:
   - Se aplica solo a variables continuas.
 explanation: |
   El teorema de Bayes permite el cálculo de la probabilidad de un evento A dado B invirtiendo las probabilidades y es esencial en la teoría de la probabilidad.
-reviewed: false
+reviewed: true

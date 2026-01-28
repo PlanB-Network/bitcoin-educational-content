@@ -1,5 +1,5 @@
 ---
-name: Vilkku
+name: Blink
 description: Täydellinen Blink Wallet -opetusohjelma - lähetä, vastaanota ja käytä Bitcoin:ta helpoiten
 ---
 
@@ -79,7 +79,7 @@ Tämä on se, mikä järkytti monia käyttäjiä: Blinkin perustaminen on nopeam
 ![image](assets/fr/02.webp)
 
 
-Kun avaat [Blink Wallet] (https://blink.sv/) ensimmäistä kertaa, näet jotain virkistävän puhdasta. Ei huutavia kaavioita, ei vilkkuvia numeroita, vain saldosi ja muutama yksinkertainen painike.
+Kun avaat [Blink Wallet](https://blink.sv/) ensimmäistä kertaa, näet jotain virkistävän puhdasta. Ei huutavia kaavioita, ei vilkkuvia numeroita, vain saldosi ja muutama yksinkertainen painike.
 
 
 ### Päänäytön yleiskatsaus

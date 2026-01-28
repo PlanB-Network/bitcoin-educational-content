@@ -25,11 +25,13 @@ Kozi hii, bila shaka, inazingatia takwimu ya Satoshi Nakamoto, ambayo maneno na 
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Kozi hii inalenga kukuambia hadithi ya kuundwa kwa Bitcoin kwa njia ambayo hujawahi kusoma hapo awali. Mara nyingi hupuuzwa, licha ya kujazwa na maelezo ya kuvutia. Tutajitahidi kuielezea katika ugumu wake wote, tangu ilipotungwa na Satoshi Nakamoto hadi kutoweka kwake mapema na kukabidhiwa kwa jamii.
 
 ### Muhtasari mfupi
 
-Bitcoin iliundwa na mtu binafsi (au kikundi) kwa kutumia jina bandia la Satoshi Nakamoto. Mnamo Oktoba 31, 2008, alishiriki karatasi nyeupe inayoelezea mtindo wake kupitia orodha ya barua pepe isiyojulikana kwenye mtandao. Mnamo Januari 8, 2008, alitekeleza dhana yake kwa kuchapisha msimbo wa chanzo cha programu na kuzindua mtandao kwa Mining vitalu vya kwanza vya mnyororo. Akiwa na shauku ya kuvutia idadi kubwa ya watumiaji, alitangaza uundaji wake katika njia mbalimbali za mawasiliano.
+Bitcoin ilibuniwa na mtu binafsi (au kundi) aliyekuwa akitumia jina la bandia Satoshi Nakamoto. Tarehe 31 Oktoba 2008, alishiriki waraka mweupe unaoelezea mfano wake kupitia orodha ya usambazaji wa barua pepe isiyojulikana sana mtandaoni. Tarehe 8 Januari 2009, alitekeleza dhana yake kwa kuchapisha msimbo chanzo wa programu na kuzindua mtandao kupitia uchimbaji wa vitalu vya kwanza vya mnyororo. Akiwa na lengo la kuvutia idadi muhimu ya watumiaji, alitangaza uumbaji wake kupitia njia mbalimbali za mawasiliano.
 
 Baada ya kuanza kwa shida, uwekaji upya wa mfumo hatimaye ulifanyika Oktoba 2009, wakati kitengo cha akaunti - pia kinaitwa Bitcoin - kilipopata bei. Huduma za kwanza za mfanyabiashara zilianza kuonekana mwanzoni mwa 2010, kuanzia na huduma za Exchange zilizoingia kwenye dola. Ilikuwa pia wakati huu ambapo Mining yenye kadi ya graphics, yenye ufanisi zaidi, ilitekelezwa hapo awali, na ya kwanza ya Exchange kwa manufaa ya kimwili, hasa pizza, ilifanyika, kufuatia mpango wa Laszlo Hanyecz.
 
@@ -47,13 +49,12 @@ Katika kubuni Bitcoin, Satoshi Nakamoto ilitiwa moyo sana na modeli ya eCash, dh
 
 Bitcoin iliibuka katika muktadha mahususi: kufungwa na serikali ya shirikisho ya Marekani kwa mifumo ya fedha za kibinafsi, kama vile sarafu ya kidijitali ya dhahabu ya kielektroniki mwaka wa 2008 na mfumo wa Liberty Reserve mwaka wa 2013. Kwa kutegemea mtindo uliosambaza hatari miongoni mwa washiriki wake, sawa na mifumo ya kushirikiana kati ya wenzao kama vile BitTorant ya Gmotor ambayo muundo wa kidijitali ungeweza kuunda mifumo ya kidijitali ya NavTorrent. kuhimili mashambulizi ya moja kwa moja kutoka kwa serikali.
 
-Kuundwa kwa Bitcoin pia kulikuwa katika muktadha wa kufungwa kwa serikali kwa mifumo ya sarafu za kibinafsi kama vile e-gold na Liberty Reserve. Ilijumuisha muundo thabiti wa sarafu ya kidijitali ambayo inaweza kupinga mashambulizi ya moja kwa moja kutoka kwa serikali ya shirikisho ya Marekani. Kwa kusambaza hatari miongoni mwa washiriki wake, sawa na mifumo ya kushiriki kati-ka-rika kama BitTorrent, ilihakikisha uhai wake yenyewe.
 
 Hatimaye, mradi wa Bitcoin ndio mrithi wa maadili ya vuguvugu la Cypherpunk, vuguvugu la waandishi wa habari waasi kutoka miaka ya 90, ambao walitaka kuhifadhi ufaragha na uhuru wa watu kwenye Mtandao kupitia matumizi ya haraka ya kriptografia. Bitcoin inalingana na miradi kama vile b-pesa, dhahabu kidogo, au RPOW iliyowaziwa na watu hawa mwishoni mwa miaka ya 90 na mwanzoni mwa miaka ya 2000. Satoshi Nakamoto aliwataja, ingawa hakuwafahamu kabla ya kuunda Bitcoin na pengine hakuwa sehemu ya harakati za awali.
 
 ### Muhtasari wa Kozi
 
-Kozi hii imegawanywa katika sehemu nne, ambazo kwa mtiririko huo zinazingatia asili ya Bitcoin (sura 3), kuibuka kwake polepole (sura 3), kuongezeka kwake kwa awali (sura 3), na malezi ya jumuiya yake (sura 4). Kwa jumla, inajumuisha sura 12 ambazo ni kama ifuatavyo (kipindi kinachohusika pia kimebainishwa):
+Kozi hii imegawanywa katika sehemu nne, zinazoshughulikia kwa mtiririko asili ya Bitcoin (sura 3), kuibuka kwake polepole (sura 3), ukuaji wake wa awali (sura 3) na uundaji wa jamii yake (sura 4). Jumla yake ina sura 13 ambazo ni hizi zifuatazo (kwa pia kutaja kipindi kinachohusika):
 
 
 - eCash: Pesa ya kielektroniki ya Chaumian (1976-1998)
@@ -93,6 +94,8 @@ Kumbuka kuwa kwa toleo lisilo la Kiingereza la kozi hii, nukuu nyingi hutoka kwa
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 Kabla ya kuzama katika hadithi halisi ya uundaji wa Bitcoin na Satoshi Nakamoto, inafaa kujadili kilichotangulia. Tutafanya Address mada katika hatua tatu: kwanza, tutaanzisha dhana ya pesa taslimu ya kidijitali ya Chaumian inayojulikana kwa kawaida *eCash*; basi, tutazungumza juu ya sarafu za kibinafsi kulingana na mifumo ya kati kama vile e-dhahabu; hatimaye, tutaelezea mifano ya kiufundi ambayo ilifikiriwa kabla ya utekelezaji wa mfumo wa kusambazwa imara ambao ni Bitcoin.
 
 Wacha tuanze na wazo la kwanza, eCash. eCash inatokana na kazi ya David Chaum, mwanasayansi wa kompyuta wa Marekani na mwandishi wa siri aliyezaliwa mwaka wa 1955, aliyechukuliwa kuwa waanzilishi katika uwanja wa mawasiliano bila majina na mtangulizi wa cypherpunks. Alitoa mchango mkubwa katika maendeleo ya cryptography katika miaka ya 1980. Alitengeneza kielelezo chake cha pesa taslimu kidijitali (kinachojulikana kama "Chaumian") wakati huo huo na kujaribu kuutekeleza katika miaka ya 1990 kupitia kampuni yake ya DigiCash.
@@ -111,30 +114,32 @@ Ili kutatua tatizo hili, kriptografia ya *asymmetric*, inayojulikana pia kama kr
 
 Aina hii ya cryptography inaruhusu utekelezaji wa algoriti zote mbili za usimbaji fiche na michakato ya saini. Usimbaji fiche usiolinganishwa unahusisha kutumia ufunguo wa umma kama ufunguo wa usimbaji fiche na ufunguo wa faragha kama ufunguo wa kusimbua. Mtumiaji hutengeneza jozi ya funguo, huweka ufunguo wa faragha, na kushiriki ufunguo wa umma na waandishi wao ili waweze kutuma ujumbe. Aina hii ya usimbaji fiche ni sawa na kisanduku cha barua ambacho mpokeaji hutumia kupokea barua na ambaye yeye pekee ndiye ana ufunguo.
 
-![Asymmetric encryption](assets/en/01.webp)
+![Asymmetric encryption](assets/sw/001.webp)
 
 Sahihi za kidijitali, kwa upande mwingine, zinategemea kutumia ufunguo wa faragha kama ufunguo wa sahihi na ufunguo wa umma kama ufunguo wa uthibitishaji. Mtumiaji hutengeneza jozi ya funguo, hutia saini ujumbe kwa ufunguo wa faragha, na kuutuma kwa waandishi wao, ambao wanaweza kuthibitisha uhalisi wake kwa kutumia ufunguo wa umma. Kwa hivyo, hawahitaji kamwe kujua ufunguo wa kibinafsi.
 
-![Digital signature](assets/en/02.webp)
+![Digital signature](assets/sw/002.webp)
 
-Fiche isiyo ya kawaida iligunduliwa kwa kujitegemea na watafiti kadhaa katika miaka ya 1970. Walakini, wa kwanza kuwasilisha kile walichopata walikuwa Whitfield Diffie na Martin Hellman, waandishi wawili wa maandishi kutoka Chuo Kikuu cha Stanford. Mnamo Novemba 1976, walichapisha karatasi iliyoitwa "[Mielekeo Mipya katika Crystalgraphy](https://ee.stanford.edu/~hellman/publications/24.pdf)" katika jarida la *IEEE Transactions on Information Theory*, ambalo lilielezea algoriti kuu ya Exchange (inayokusudiwa utumaji wa funguo za siri za usimbaji saini za kidijitali) pamoja na mchakato wa usimbaji wa ulinganifu. Katika utangulizi wa karatasi hii, waliandika:
+Kriptografia isiyo sawia iligunduliwa kwa kujitegemea na makundi kadhaa ya watafiti katika miaka ya 70. Hata hivyo, wa kwanza kuwasilisha yale waliyogundua walikuwa Whitfield Diffie na Martin Hellman, wanakriptografia wawili kutoka Chuo Kikuu cha Stanford. Mnamo Novemba 1976, walichapisha makala iliyoitwa “ [New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf) ” katika jarida la *IEEE Transactions on Information Theory*, ambayo ilieleza algoriti ya kubadilishana funguo (iliyokusudiwa kwa upelekaji wa funguo fiche kwa usimbaji sawia) pamoja na mbinu ya sahihi ya dijitali. Katika utangulizi wa makala hiyo, waliandika:
 
 > "Tunasimama leo ukingoni mwa mapinduzi ya kriptografia. Ukuzaji wa maunzi ya bei nafuu ya kidijitali kumeiweka huru kutoka kwa mapungufu ya muundo wa kompyuta ya kimakanika na kuleta gharama ya vifaa vya hali ya juu vya kriptografia hadi mahali vinaweza kutumika katika matumizi ya kibiashara kama vile vitoa pesa vya mbali na vituo vya kompyuta. Kwa upande wake, maombi kama haya yanaleta hitaji la aina mpya za mifumo ya kriptografia ambayo inapunguza ulazima wa usambazaji wa ufunguo wa GW na usambazaji muhimu wa GW. Wakati huo huo, maendeleo ya kinadharia katika nadharia ya habari na sayansi ya kompyuta yanaonyesha ahadi ya kutoa mifumo salama ya siri, kubadilisha sanaa hii ya zamani kuwa sayansi."
 Hapa kuna picha kutoka 1977, iliyopigwa na Chuck Painter kwa Huduma ya Habari ya Stanford, ambapo unaweza kuona Whitfield Diffie (upande wa kulia) na Martin Hellman (katikati). Mtu wa kushoto ni mwandikaji wa maandishi Ralph Merkle, ambaye alikuwa akikaribia kufanya ugunduzi huo.
 
-![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/03.webp)
+![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/sw/003.webp)
 
 Makala ya Diffie na Hellman yalifungua njia kwa wingi wa ubunifu. Mojawapo ya hizi ilikuwa [RSA cryptosystem](https://people.csail.mit.edu/rivest/Rsapaper.pdf), ambayo iliundwa mwaka wa 1977 na waandishi wa fiche Ronald Rivest, Adi Shamir, na Leonard Adleman (ambao waliipa majina yao) na iliyoidhinishwa na MIT mwaka wa 1983. Mfumo huu wa utiaji saini, huruhusu ubadilishaji wa ujumbe kwa njia fiche. funguo. RSA iliwasilishwa hadharani kwa mara ya kwanza katika [makala ya Martin Gardner](https://simson.net/ref/1977/Gardner_RSA.pdf) iliyochapishwa katika jarida la *Scientific American* mnamo Agosti 1977, ambalo liliitwa "Michezo ya Hisabati: Aina mpya ya sifa ambayo ingechukua mamilioni ya miaka kukatika."
 
 Ugunduzi wa cryptography asymmetric pia ulihamasisha uundaji wa kazi za njia moja, zinazojulikana kwa kufanya hesabu ya picha (mwelekeo wa mbele) rahisi sana na kupata picha ya awali (mwelekeo wa nyuma) vigumu sana. Hasa, ilisababisha maendeleo ya kazi za kwanza za kriptografia za Hash, ambazo zilibadilisha ujumbe wa ukubwa tofauti kuwa digest ya saizi isiyobadilika. Kati ya 1989 na 1991, algorithms kadhaa za hashing (MD2, MD4, na MD5) ziliundwa na Ronald Rivest kwa MIT.
 
-Msingi wa kriptografia Elements ya Bitcoin inatokana na utafiti huu. Mpango wa sahihi wa ECDSA, unaoruhusu uidhinishaji wa matumizi ya shughuli za kitamaduni, uliundwa mnamo 1992 kwa NIST. Chaguo za kukokotoa za SHA-256 Hash, zinazotumika katika sehemu nyingi katika itifaki, zilichapishwa mwaka wa 2001 kama sehemu ya safu ya kanuni za SHA-2 iliyotangazwa kwa umma na NSA. Kwa maelezo zaidi kuhusu mada hii, unaweza kurejelea kozi [Crypto 301](../crypto301/fr.md) iliyowasilishwa na Loïc Morel.
+Msingi wa kriptografia Elements ya Bitcoin inatokana na utafiti huu. Mpango wa sahihi wa ECDSA, unaoruhusu uidhinishaji wa matumizi ya shughuli za kitamaduni, uliundwa mnamo 1992 kwa NIST. Chaguo za kukokotoa za SHA-256 Hash, zinazotumika katika sehemu nyingi katika itifaki, zilichapishwa mwaka wa 2001 kama sehemu ya safu ya kanuni za SHA-2 iliyotangazwa kwa umma na NSA. Kwa maelezo zaidi kuhusu mada hii, unaweza kurejelea kozi CYP201 iliyowasilishwa na Loïc Morel.
+
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Sahihi Vipofu na Pesa za Kielektroniki
 
 Mapinduzi haya katika uwanja wa cryptography pia yalimtia moyo kijana David Chaum, mwanasayansi wa kompyuta kutoka Pwani ya Magharibi na kisha mwanafunzi wa udaktari katika Chuo Kikuu cha Berkeley. Haraka akawa na shauku ya ulinzi wa faragha. Kwa hakika alikuwa na wasiwasi sana juu ya mustakabali wa uhuru na usiri katika jamii ambayo ilikuwa inazidi kuwa na kompyuta.
 
-![David Chaum in the 90s](assets/en/04.webp)
+![David Chaum in the 90s](assets/sw/004.webp)
 
 David Chaum katika miaka ya 90 (chanzo: [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
@@ -154,7 +159,7 @@ Katika utendakazi wake wa kiufundi, kielelezo cha eCash kinatokana na mchakato w
 
 Huu hapa ni kielelezo cha hatua tofauti zinazohusika katika uundaji na uingizwaji wa noti ya Chaumian (kutoka *L'Élégance de Bitcoin*):
 
-![Creation and replacement of a Chaumian note](assets/en/05.webp)
+![Creation and replacement of a Chaumian note](assets/sw/005.webp)
 
 Vitendo (kila moja inalingana na operesheni ya hisabati au upitishaji wa habari) ni kama ifuatavyo.
 
@@ -186,19 +191,19 @@ Haya yote yanamaanisha kuwa hakuna benki katika mfumo inayoweza kuunganisha mali
 
 Mnamo 1990, David Chaum alianzisha kampuni yake mwenyewe, DigiCash B.V., ili kutekeleza wazo lake la pesa za kielektroniki. Kampuni hii ilikuwa na makao yake huko Amsterdam, Uholanzi, na ilikuwa na hati miliki za uvumbuzi wake. Wakati huo, mtandao ulikuwa bado changa (Mtandao bado ulikuwa chini ya maendeleo) na biashara ya e-commerce haikuwepo; kwa hivyo, mtindo wa eCash ulijumuisha fursa ya kutisha.
 
-![DigiCash Logo](assets/en/06.webp)
+![DigiCash Logo](assets/sw/006.webp)
 
 Hata hivyo, haikuwa kampuni ya David Chaum iliyojaribu kwanza mfano huo: ni cypherpunks ambao walitekeleza bila kuzingatia hati miliki na ambao hawakuomba ruhusa ya kufanya hivyo. Kwa hivyo, itifaki inayoitwa Magic Money [ilipendekezwa](https://cypherpunks.venona.com/date/1994/02/msg00247.html) kwenye orodha ya barua pepe ya cypherpunks mnamo Februari 4, 1994, na msanidi programu asiyejulikana anayeitwa Pr0duct Cypher. Itifaki hii iliruhusu kuunda sarafu ya mtu mwenyewe kwa kutumia seva ya barua pepe ambayo ilitumika kama sarafu ya eCash. Cypherpunks walifurahiya nayo, na kuunda kila aina ya vitengo vya akaunti kama Tacky Tokeni, GhostMarks, DigiFrancs, na NexusBucks. Hata hivyo, matumizi ya ishara hizi ilikuwa ndogo, na kubadilishana kulikuwa nadra sana.
 
 Kwa upande wa DigiCash, baada ya miaka michache ya maendeleo, mfano [ulitolewa](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) mnamo Mei 1994 katika Mkutano wa Kimataifa wa WideRN kwenye World Wide Geneva. Kampuni hiyo kisha ilifanya majaribio ambayo yalianza Oktoba 19 ya mwaka huo, kwa kutoa vitengo vinavyoitwa "CyberBucks" ambavyo havikuungwa mkono na sarafu nyingine yoyote. Wafanyabiashara mbalimbali walikubali CyberBucks kama sehemu ya jaribio hili. Cypherpunks pia waliichukua, wakitumia kufanya ubadilishanaji wa kweli. Kwa hivyo, CyberBucks ilipata thamani kwenye soko. Hata hivyo, thamani hii iliporomoka wakati eCash ilipowekwa katika mfumo wa kawaida wa benki.
 
-![Photo (blurry) of the DigiCash team in 1995](assets/en/07.webp)
+![Photo (blurry) of the DigiCash team in 1995](assets/sw/007.webp)
 
 Picha (ya ukungu) ya timu ya DigiCash mwaka wa 1995: David Chaum yuko upande wa kushoto kabisa (chanzo: [Chaum.com](https://chaum.com/ecash/))
 
 Kuanzishwa kwa eCash katika mfumo wa benki kulianza Oktoba 1995 na kuanza kwa ushirikiano wa DigiCash na Benki ya Mark Twain, benki ndogo huko Missouri. Tofauti na kesi ya CyberBucks ambayo kiwango cha Exchange kilikuwa kikielea, kitengo cha akaunti kiliungwa mkono na dola ya Marekani. Kati ya 1996 na 1998, benki sita zilifuata Benki ya Mark Twain: Benki ya Merita nchini Finland, Benki ya Deutsche nchini Ujerumani, Benki ya Advance nchini Australia, Benki ya Austria nchini Austria, Benki ya Den norske nchini Norway, na Credit Suisse nchini Uswizi. Vyombo vya habari basi viliahidi mustakabali mzuri wa mfumo huu.
 
-Walakini, mambo hayakwenda kama ilivyopangwa. Kwa sababu ya tabia yake ya ukaidi na ya kutiliwa shaka, David Chaum alitaka kudhibiti kampuni yake na alikataa ushirikiano na wahusika wakuu wa kifedha kama ING na ABN AMRO, Visa, Netscape, na Microsoft. Aliacha wadhifa wake mnamo 1997, na mwaka huo huo kampuni ilihamisha makao yake makuu hadi California. Wakati wa 1998, benki washirika zilitangaza kuwa zinatelekeza eCash. DigiCash hatimaye ilifilisika mnamo Novemba 1998, na kumaliza utekelezaji huu wa pesa taslimu ya kielektroniki ya Chaumian.
+Hata hivyo, si kila kitu kilienda kama ilivyopangwa. Kwa sababu ya tabia yake ya ukaidi na mashaka, David Chaum alitaka kudumisha udhibiti wa kampuni yake na alikataa ushirikiano na wadau wakubwa kama ING, ABN AMRO, Visa, Netscape, na Microsoft. Aliondoka kwenye wadhifa wake mnamo 1997 na mwaka huo huo kampuni ilihamisha makao makuu yake kwenda California. Katika mwaka wa 1998, benki washirika zilitangaza kuachana na eCash. Hatimaye DigiCash ilifilisika mnamo Novemba 1998, na kukomesha utekelezaji huu wa pesa taslimu za kielektroniki za Chaumian.
 
 ### Urithi wa Mfano wa David Chaum
 
@@ -210,7 +215,7 @@ Mifumo mingine mbadala ya kati pia ilionekana sambamba, kama vile e-gold na Libe
 
 Kisha, eCash iliwahimiza cypherpunks ambao walitengeneza miundo yao kama vile b-pesa, dhahabu kidogo na RPOW. Waliongeza Proof of Work na Elements nyingine, ambayo baadaye ilipatikana katika Bitcoin. Tutajifunza dhana hizi katika Sura ya 3.
 
-Hatimaye, mtindo wa David Chaum uliathiri sana Satoshi Nakamoto alipokuza dhana yake ya sarafu. Hili linathibitishwa na marejeleo mengi katika [karatasi nyeupe](assets/pdf/Bitcoin-20090324.pdf) (kichwa, maelezo ya tatizo katika sehemu ya 2, jina la PDF [iliyotumwa](https://gwern.net/doc/Bitcoin/2008-nakamoto) kwa Wei 20 kwa faragha kama Agosti 208 kama faragha. Kwa maana hii, eCash ndiyo mtangulizi mkuu wa Bitcoin, hata kama sio pekee.
+Hatimaye, mtindo wa David Chaum uliathiri sana Satoshi Nakamoto alipokuza dhana yake ya sarafu. Hili linathibitishwa na marejeleo mengi katika [karatasi nyeupe](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) (kichwa, maelezo ya tatizo katika sehemu ya 2, jina la PDF [iliyotumwa](https://gwern.net/doc/Bitcoin/2008-nakamoto) kwa Wei 20 kwa faragha kama Agosti 208 kama faragha. Kwa maana hii, eCash ndiyo mtangulizi mkuu wa Bitcoin, hata kama sio pekee.
 
 Kwa Bitcoin, Satoshi Nakamoto iliunda sarafu thabiti na ya siri ya dijiti, pesa taslimu halisi ya kielektroniki. Kwa kufanya hivyo, alitambua [utabiri](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) wa Milton Friedman, Tuzo ya Nobel ya Uchumi na mwanzilishi wa Shule ya Chicago, ambaye alisema katika mahojiano na Wakfu wa Kitaifa wa Muungano wa Walipa Ushuru mnamo 1999:
 
@@ -218,6 +223,8 @@ Kwa Bitcoin, Satoshi Nakamoto iliunda sarafu thabiti na ya siri ya dijiti, pesa 
 ## Sarafu za Kibinafsi za Dijiti
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
+
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
 
 Katika sura iliyotangulia, tuligundua aina ya kwanza ya pesa taslimu ya kielektroniki iliyoibuka kutokana na ujio wa Mtandao na mfumo wa kisasa wa fiche: mfano wa eCash wa David Chaum. Mtindo huu uliathiri sana Satoshi Nakamoto na ulikuwa hatua muhimu kwenye njia iliyoongoza kwa Bitcoin. Hata hivyo, hadithi ya asili ya cryptocurrency haiishii na eCash; pia inajumuisha majaribio na sarafu za kibinafsi zinazofanya kazi kwenye Mtandao, zilizotengenezwa kutoka mwishoni mwa miaka ya 1990.
 
@@ -239,7 +246,7 @@ Hali ikawa ngumu zaidi baadaye. Benki kuu, inayoitwa Hifadhi ya Shirikisho ya Ma
 
 Kwa kubatilishwa kwa marufuku ya umiliki wa dhahabu na maendeleo ya Mtandao kuanzia miaka ya 1970, wazo la kupeleka sarafu za kibinafsi liliibuka tena. Hivi ndivyo ilivyokuwa kwa Bernard von NotHaus, ambaye alizindua Dola ya Uhuru mwaka 1998, sarafu inayotokana na dhahabu na fedha ambayo inaweza kupatikana kwa namna ya sarafu za fedha na noti za mwakilishi. Mfumo huu ulisimamiwa na shirika lisilo la faida liitwalo NORFED (kifupi cha Shirika la Kitaifa la Kufuta Hifadhi ya Shirikisho na Kanuni ya Mapato ya Ndani). Kuanzia mwaka wa 2003, Dola ya Uhuru pia ilipatikana katika mfumo wa kidijitali, kupitia mfumo wa akaunti sawa na e-gold (tazama sehemu ifuatayo). Mfumo ulipata kiwango fulani cha mafanikio. Kando na sarafu zinazozunguka, ghala za NORFED zilikuwa na takriban dola milioni 8 za madini ya thamani ili kuhakikisha ubadilishaji wa sarafu, ikijumuisha milioni 6 kusaidia kitengo cha dijitali.
 
-![2003 Silver Liberty Dollar](assets/en/08.webp)
+![2003 Silver Liberty Dollar](assets/sw/008.webp)
 
 Liberty Dollar (dola 10) katika fedha kutoka 2003 (chanzo: [Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
@@ -253,7 +260,7 @@ Kanuni ilikuwa kwamba kila kitengo cha e-dhahabu kinaweza kubadilishwa kuwa dhah
 
 Mfumo wa e-dhahabu ulichukua fursa ya Wavuti iliyoanza, na haswa kivinjari cha hivi karibuni cha Netscape. Kila mteja angeweza kufikia akaunti yake kutoka kwa tovuti, badala ya kulazimika kutumia programu maalum. Kwa wakati huo, jukwaa lilikuwa na utendaji wa juu sana, likitumia mfumo wa malipo ya pato la wakati halisi uliochochewa na uhamishaji wa benki. Hivi ndivyo kutuma e-gold kulionekana kama 2005 (picha kutoka kwa [mafunzo](https://www.geocities.ws/rizuan_mahrol/setpbystep.html) ya wakati huo):
 
-![Sending on e-gold in 2005](assets/en/09.webp)
+![Sending on e-gold in 2005](assets/sw/009.webp)
 
 Mfumo wa dhahabu wa kielektroniki ulipata mafanikio makubwa: katika kilele chake mnamo 2006, [ulihakikishiwa](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) tani 3.6 za dhahabu, yenye thamani ya zaidi ya dola milioni 80, [imechakatwa](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) miamala 75,000 kwa siku, kwa kiasi cha kila mwaka cha dola bilioni 3, na kudhibiti zaidi ya akaunti milioni 2.7.
 
@@ -265,13 +272,13 @@ Mifumo mingine iliundwa kwa kufuata mtindo huo. Tunaweza kutaja GoldMoney, iliyo
 
 Mfano mwingine wa mfumo wa kati wa sarafu ya kibinafsi ni Liberty Reserve, ambayo iliruhusu watumiaji wake kushikilia na kuhamisha sarafu za kielektroniki zilizowekwa kwenye dola ya Kimarekani, euro au dhahabu. Mfumo huu uliundwa na Arthur Budovsky, Mmarekani mwenye asili ya Kiukreni, na Vladimir Kats, mhamiaji wa Kirusi kutoka Saint Petersburg. Mnamo 2006, Arthur Budovsky alihamia Kosta Rika, kisha kuchukuliwa kama mahali pa ushuru, ambapo alisajili kampuni yake, Liberty Reserve S.A.
 
-![Liberty Reserve logo in 2009](assets/en/10.webp)
+![Liberty Reserve logo in 2009](assets/sw/010.webp)
 
 Nembo ya Liberty Reserve mwaka wa 2009 (chanzo: [Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 
 Mfumo huo ulikuwa sawa kabisa na e-gold, isipokuwa kwamba fedha (hasa kwa dola) zilishikiliwa katika akaunti za benki za nje ya nchi, badala ya katika vyumba vya faragha. Liberty Reserve ilinufaika sana kutokana na kuzimwa kwa e-gold mnamo Aprili 2007 kufuatia kushtakiwa kwa Douglas Jackson na washirika wake. Mnamo Mei 2013, [kulingana na Idara ya Haki ya Marekani](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment.0 Indictment%p one overdacted%20), jukwaa la watumiaji lilikuwa na watumiaji zaidi ya milioni 20 duniani kote, ikiwa ni pamoja na zaidi ya 200,000 nchini Marekani, na kuchakata miamala ya kifedha milioni 12 kila mwaka, kwa kiasi cha pamoja cha zaidi ya dola bilioni 1.4. Matumizi haya yalikuwa kwa ajili ya shughuli za uhalifu, lakini [haukuzuiwa](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/) haya pia yalitumiwa na Liberty Trade Reserves kwa biashara ya Liberty Forex.
 
-Hata hivyo, mfumo huo hatimaye ulikutana na hatima sawa na e-dhahabu. Mnamo 2009, *Superintendencia General de Entidades Financieras* wa Kostarika* alichukua riba katika Hifadhi ya Uhuru, akiiomba kupata leseni (jambo ambalo kampuni ilishindwa kufanya). Kisha, mnamo Novemba 2011, U.S. FinCEN ilitoa [notisi](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indict0%20%20Indictment_pdapd) ikisema kuwa mfumo huo "ulitumiwa na wahalifu kufanya miamala isiyojulikana ili kuhamisha pesa ulimwenguni." Hatimaye, Hifadhi ya Uhuru ilifungwa mwishoni mwa operesheni ya kimataifa: Mei 24, 2013, Arthur Budovsky na washirika wake wakuu walishtakiwa na kukamatwa katika maeneo tofauti (Hispania, Marekani, Costa Rica) na tovuti kuu ilichukuliwa na Idara ya Haki. Mnamo 2016, baada ya kurejeshwa nchini Merika, Arthur Budovsky alihukumiwa kifungo cha miaka 20 jela kwa utapeli wa pesa.
+Hata hivyo, mfumo huo hatimaye ulikutana na hatima sawa na e-dhahabu. Mnamo 2009, **Superintendencia General de Entidades Financieras** wa Kostarika alichukua riba katika Hifadhi ya Uhuru, akiiomba kupata leseni (jambo ambalo kampuni ilishindwa kufanya). Kisha, mnamo Novemba 2011, U.S. FinCEN ilitoa [notisi](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indict0%20%20Indictment_pdapd) ikisema kuwa mfumo huo "ulitumiwa na wahalifu kufanya miamala isiyojulikana ili kuhamisha pesa ulimwenguni." Hatimaye, Hifadhi ya Uhuru ilifungwa mwishoni mwa operesheni ya kimataifa: Mei 24, 2013, Arthur Budovsky na washirika wake wakuu walishtakiwa na kukamatwa katika
 
 Kwa hivyo mfano huu unaonyesha kuwa usuluhishi wa mamlaka hautoshi kulinda sarafu dhidi ya serikali kuingilia kati.
 
@@ -286,7 +293,7 @@ Kadiri kiputo cha Mtandao kilivyokuwa katika kilele chake, bidhaa ilipata ukuaji
 Maono ya awali ya PayPal yalikuwa ya mapinduzi, kulingana na maono ya uhuru ya Peter Thiel. Haya ndiyo aliyoyasema katika msimu wa vuli wa 1999, kama ilivyoripotiwa na Eric Jackson mnamo 2012 katika *The PayPal Wars*:
 
 > "Bila shaka, kile tunachokiita 'rahisi' kwa watumiaji wa Marekani kitakuwa cha mapinduzi kwa ulimwengu unaoendelea. Serikali nyingi za nchi hizi zinacheza haraka na zisizo na pesa na sarafu zao. Zinatumia mfumuko wa bei na wakati mwingine upunguzaji wa thamani ya sarafu ya jumla, kama tulivyoona nchini Urusi na nchi kadhaa za Kusini-mashariki mwa Asia mwaka jana, ili kuchukua mali kutoka kwa raia wao. Watu wengi wa kawaida huko hawana fursa ya kufungua au kufungua akaunti zao nje ya nchi. sarafu thabiti kama vile dola za Marekani Hatimaye, PayPal itaweza kubadilisha hali hii Katika siku zijazo, tutakapofanya huduma yetu ipatikane nje ya Marekani na jinsi mtandao unavyoendelea kupanuka kwa viwango vyote vya kiuchumi vya watu, PayPal itawapa raia duniani kote udhibiti wa moja kwa moja wa sarafu zao kuliko walivyokuwa hapo awali. au Yen, kwa kweli inatupa pesa za ndani zisizo na thamani kwa kitu salama zaidi."
-![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/11.webp)
+![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/sw/011.webp)
 
 Peter Thiel mnamo Oktoba 20, 1999, wakati wa hotuba yake huko Oakland, California kwa Taasisi Huru (chanzo: [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
@@ -304,6 +311,8 @@ Ni kwa sababu ya udhaifu huu wa mifumo ya serikali kuu ambapo watetezi wa uhuru 
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 Bitcoin inawakilisha muundo uliogatuliwa wa sarafu ya kidijitali. Kwa kufanya hivyo, inaepuka hitaji la mtu wa tatu anayeaminika, ambayo inaweza kuunda hatua moja ya kutofaulu katika mfumo. Kama inavyoonyeshwa na mifano ya eCash, sarafu za dhahabu za kidijitali, na Hifadhi ya Uhuru, kuwekwa kati kwa mfumo unaonuia kuwa mbadala wa mfumo uliopo bila shaka husababisha kufungwa kwake, kwa njia moja au nyingine.
 
 Bitcoin, hata hivyo, haikuwa dhana ya kwanza ya ugatuzi wa fedha kupendekezwa. Tangu mwishoni mwa miaka ya 1990, mifano kama hiyo ilikuwa imeelezewa na cypherpunks, ambao walikuwa wakizingatia uhuru na faragha ya watu binafsi kwenye mtandao, na ambao waliamini (kama David Chaum) kwamba mifumo iliyofuatiliwa ilisababisha siku zijazo za dystopian. [ziliitwa](https://cypherpunks.venona.com/date/1993/03/msg00392.html) kwa "misimbo ya kuandikia" na zilizingatia "fedha za kielektroniki" kama kipengele muhimu cha ubora wao. (*asili: "Cypherpunks andika msimbo. (...) Tunalinda ufaragha wetu kwa njia fiche, kwa mifumo ya usambazaji barua isiyojulikana, kwa sahihi za dijitali, na kwa pesa za kielektroniki."*)
@@ -314,7 +323,7 @@ Katika sura hii, tutajifunza kuibuka kwa aina mbalimbali za kiufundi za Elements
 
 Kwa kuibuka kwa kompyuta katika miaka ya 1950, uwezekano wa kuwaunganisha kwa kila mmoja ulionekana. Hivi ndivyo mitandao ya kwanza ya kompyuta iliundwa, na kusababisha maendeleo ya mtandao, "mtandao wa mitandao," katika miaka ya 1970. Swali la miundombinu ya mitandao hii bila shaka liliibuka. Ndiyo maana mwanasayansi wa kompyuta wa Kipolishi-Amerika Paul Baran, katika makala yake ya msingi ya 1964 (inayoelezea ubadilishaji wa pakiti), aliorodhesha aina tatu za mitandao: mtandao wa kati, unaotegemea nodi moja; mtandao uliosambazwa, ambapo kila hatua ni node; mtandao uliogatuliwa (usiosambazwa), unaotegemea mtandao uliosambazwa wa nodi nyingi.
 
-![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/12.webp)
+![Centralized, decentralized, and distributed networks according to Paul Baran](assets/sw/012.webp)
 
 Mifano mbili safi zinaweza kutolewa kutoka kwa masuala haya: mfano wa seva ya mteja, ambapo seva ya kati hujibu maombi ya wateja, na mfano wa rika-kwa-rika, ambapo kila nodi ina jukumu sawa katika mfumo. Mtindo huu wa mwisho ulikuwa muhimu sana kwa kushiriki faili katika miaka ya 2000, na kuundwa kwa BitTorrent na itifaki zingine zinazofanana. Mtandao wa Tor umegatuliwa, sio tu kati-ka-rika.
 
@@ -322,11 +331,11 @@ Tatizo lililojitokeza katika usanifu uliosambazwa ni suala la makubaliano yaliyo
 
 Tatizo linasemwa kwa namna ya sitiari inayohusisha majenerali wa jeshi la Milki ya Byzantine, ambao wanauzingira mji wa adui na askari wao wanaokusudia kushambulia na wanaweza kuwasiliana tu kupitia wajumbe. Lengo ni kutafuta mkakati (yaani, algoriti) ambayo inaweza kudhibiti uwepo wa wasaliti na kuhakikisha kwamba majenerali wote waaminifu wanakubaliana juu ya mpango wa vita ili shambulio lifaulu. Huu hapa ni mfano (chanzo: *L'Élégance de Bitcoin*):
 
-![The Byzantine Generals Problem](assets/en/13.webp)
+![The Byzantine Generals Problem](assets/sw/013.webp)
 
 Kutatua tatizo hili ni muhimu kwa mifumo iliyosambazwa ambayo ingesimamia kitengo cha akaunti. Mifumo kama hii kwa kweli inahitaji kwamba washiriki wakubaliane juu ya Ownership ya vitengo vya akaunti, ambayo ni, juu ya nani anamiliki nini.
 
-Kabla ya Bitcoin, tatizo lilitatuliwa kabisa na kinachojulikana kama algorithms ya "classical" ambayo ilihitaji nodes kujulikana mapema na kwamba wawili kati yao wawe waaminifu. Inayojulikana zaidi kati ya hizi labda ni kanuni ya makubaliano [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (kifupi cha Uvumilivu wa Makosa wa Byzantine kwa Vitendo), ambayo ilitengenezwa na Miguel Castro na Barbara 99 walikubaliwa kwa idadi ya 199999 ya maombi kwa sekunde yenye kusubiri kwa chini ya milisekunde moja.
+Kabla ya Bitcoin, tatizo lilitatuliwa kwa njia kamili na algoriti zinazoitwa “za kawaida” ambazo zilihitaji nodi zijulikane mapema na theluthi mbili kati yao ziwe za uaminifu. Inayojulikana zaidi kati ya hizi pengine ni algoriti ya makubaliano ya [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (kifupisho cha *Practical Byzantine Fault Tolerance*), ambayo ilitengenezwa na Miguel Castro na Barbara Liskov mwaka 1999 na ambayo iliruhusu idadi fulani ya washiriki kukubaliana kwa kushughulikia maelfu ya maombi kwa sekunde kwa kusubiri kwa chini ya milisekunde moja.
 
 Kwa algoriti ya makubaliano ya Bitcoin, Satoshi Nakamoto ilitatua kwa njia inayowezekana, ikiruhusu kuondolewa kwa vikwazo fulani kwa kutoa hatima ya ukamilifu wa miamala. Mnamo Novemba 13, 2008, [aliandika](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html) kwamba "msururu wa Proof-of-Work ni suluhisho kwa Tatizo la Majenerali wa Byzantine."
 
@@ -338,13 +347,13 @@ Hata hivyo, kuweka alama za nyakati ni muhimu sana katika ulimwengu wa kidijital
 
 Mnamo 1991, mbinu ya siri na salama ya kuweka nyakati ilipendekezwa na Stuart Haber na Scott Stornetta, watafiti wawili wanaofanya kazi katika Bell Communications Research Inc. (inayojulikana kwa kawaida "Bellcore"), muungano wa R&D ulioko New Jersey. Katika [majarida yao](http://www.staroceans.org/e-book/Haber_Stornetta.pdf), yenye kichwa "Jinsi ya kuweka muhuri kwa wakati hati dijitali", walieleza jinsi huduma iliyoidhinishwa ya kuweka muhuri wa nyakati inaweza kutumia utendaji wa njia moja (kama vile utendaji wa MD4 Hash) na algoriti ya saini ili kuongeza uhalali wa hati za mteja na uthibitishaji. Hasa, wazo lilikuwa kuweka habari kwa kuhusisha Timestamp iliyopita katika utumiaji wa kazi ya njia moja.
 
-![Example of certified timestamping](assets/en/14.webp)
+![Example of certified timestamping](assets/sw/014.webp)
 
 Mfano wa uwekaji alama wa nyakati ulioidhinishwa (chanzo: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 Haber na Stornetta walitekeleza wazo lao kwa kuchapisha alama za vidole za siri (zilizotokana na hashing data muhimu) katika matangazo yaliyoainishwa ya New York Times kuanzia 1992. Kisha wakaanzisha kampuni yao mnamo 1994, Surety Technologies, kwa lengo la kujitolea kikamilifu kwa shughuli hii. Kwa hivyo [zinajulikana](https://www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain) kwa kuunda mnyororo wa kwanza wa Timestamp, na alama za vidole za hapo awali zikizingatiwa katika hesabu ya alama mpya ya vidole itakayochapishwa kwenye gazeti, ambayo ilikuwa kivuli cha Bitcoin GW-8.
 
-Karatasi tatu za Haber na Stornetta zilinukuliwa na Satoshi Nakamoto katika [Bitcoin karatasi nyeupe](assets/pdf/Bitcoin-20090324.pdf): karatasi iliyotajwa hapo awali ya 1991, [karatasi](https://www.math.columbia.edu/~Timestampd. 1993 ambayo iliboresha itifaki zilizopendekezwa katika ile ya awali, haswa kupitia matumizi ya miti ya Merkle, na [paper](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) kutoka 1997 ambayo iliwasilisha njia ya kutaja faili ulimwenguni kote kwa kutumia vitendaji vya njia moja. Pia ilinukuliwa [karatasi](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) inayoelezea mfumo mpya wa kuweka alama wa nyakati ulioandikwa mwaka wa 1999 na Henri Massas, Xavier Serret-Avila, na Jean-Jacques Quisquater, wanaume watatu wanaofanya kazi katika kikundi cha utafiti cha cryptography katika Chuo Kikuu cha Louva cha Ubelgiji.
+Karatasi tatu za Haber na Stornetta zilinukuliwa na Satoshi Nakamoto katika [Bitcoin karatasi nyeupe](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf): karatasi iliyotajwa hapo awali ya 1991, [karatasi](https://www.math.columbia.edu/~Timestampd. 1993 ambayo iliboresha itifaki zilizopendekezwa katika ile ya awali, haswa kupitia matumizi ya miti ya Merkle, na [paper](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) kutoka 1997 ambayo iliwasilisha njia ya kutaja faili ulimwenguni kote kwa kutumia vitendaji vya njia moja. Pia ilinukuliwa [karatasi](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) inayoelezea mfumo mpya wa kuweka alama wa nyakati ulioandikwa mwaka wa 1999 na Henri Massas, Xavier Serret-Avila, na Jean-Jacques Quisquater, wanaume watatu wanaofanya kazi katika kikundi cha utafiti cha cryptography katika Chuo Kikuu cha Louva cha Ubelgiji.
 
 ### Proof of Work na Hashcash
 
@@ -354,7 +363,7 @@ Dhana ya 'Proof of Work' ilielezewa kwa mara ya kwanza mwaka wa 1992 na wanasaya
 
 Pamoja na umaarufu wa mtandao katika miaka ya 1990, tatizo la barua pepe zisizohitajika lilizidi kuwa kubwa, ikiwa ni pamoja na kwenye orodha ya barua pepe ya cypherpunks. Hii ndiyo sababu dhana ya Dwork na Naor [ilitekelezwa](https://cypherpunks.venona.com/date/1997/03/msg00774.html) na kijana Mwingereza Cypherpunk Adam Nyuma mnamo 1997 akiwa na Hashcash, algoriti inayozalisha uthibitisho rahisi wa kazi kwa kutumia kitendakazi cha Hash. Hasa zaidi, inahusisha kupata mgongano wa sehemu ya kazi inayozingatiwa ya Hash, ambayo ni, kupata jumbe mbili ambazo zina alama ya miguu kuanzia na vipande sawa vya data (kumbuka: kutoka toleo la 1.0 iliyotolewa mwaka wa 2002, inahusisha kugundua mgongano wa sehemu kwa chapa ya sifuri, ambayo ni kutafuta picha ya awali ambayo nyayo yake huanza na nambari ya sifuri iliyoamuliwa). Kwa kuwa kazi ya Hash ni ya njia moja, mafanikio hayo yanaweza kupatikana tu kwa kupima uwezekano tofauti mmoja baada ya mwingine, ambao unahitaji matumizi ya nishati.
 
-![Adam Back in 2001](assets/en/15.webp)
+![Adam Back in 2001](assets/sw/015.webp)
 
 Adam Nyuma mnamo 2001 (chanzo: [hifadhi ya ukurasa wa kibinafsi wa Adam Back](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
@@ -376,15 +385,15 @@ Ingawa ni werevu sana, wazo la b-pesa lililowasilishwa na Wei Dai halikufanya ka
 
 Baada ya kuchapishwa kwake kwenye orodha, b-money ilivutia umakini wa cypherpunks, na haswa [ile ya Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Hata hivyo, Wei Dai hakuwahi kutekeleza mtindo wake, si kwa sababu tu haukuwa na kazi, bali pia kutokana na [kukatishwa tamaa](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d ya crypto-cryptor. Hata hivyo, b-pesa iliishia kutajwa katika karatasi nyeupe ya Bitcoin, na kuifanya kuwa mojawapo ya watangulizi wake.
 
-![Citation of b-money in the Bitcoin white paper](assets/en/16.webp)
+![Citation of b-money in the Bitcoin white paper](assets/sw/016.webp)
 
 ### dhahabu kidogo: dhahabu ya dijiti kabla ya Bitcoin
 
-Mfano wa pili ulioibuka kutoka kwa mawazo ya cypherpunks ulikuwa wazo la dhahabu kidogo iliyofikiriwa na Nick Szabo mwaka wa 1998. Alikuwa mwanasayansi wa kompyuta wa Marekani wa asili ya Hungarian, ambaye alikuwa amefanya kazi kama mshauri wa DigiCash kwa miezi sita. Cypherpunk, anajulikana kwa kurasimisha wazo la Smart contract mnamo 1995.
+Mfumo wa pili uliotokana na mawazo ya cypherpunks ulikuwa dhana ya bit gold iliyobuniwa na Nick Szabo mnamo 1998. Huyu wa mwisho alikuwa mwanasayansi wa kompyuta wa Amerika mwenye asili ya Hungaria, ambaye hasa alifanya kazi kama mshauri wa DigiCash kwa miezi sita. Kama Cypherpunk, anajulikana kwa kufanya dhana ya *smart contract* (mkataba mahiri) kuwa rasmi mnamo 1995.
 
 Mnamo 1994, Nick Szabo alikuwa ameunda orodha ya barua pepe ya kibinafsi iitwayo libtech-l, ambayo ililenga, kama jina lake linavyopendekeza, kuandaa mijadala kuhusu mbinu za ukombozi, kuruhusu ulinzi wa uhuru wa mtu binafsi dhidi ya mashambulizi ya mamlaka. Cypherpunk kama Wei Dai na Hal Finney walipata ufikiaji, na vile vile wanauchumi Larry White na George Selgin, watetezi wa ushindani wa sarafu ya Hayeki na huduma ya benki bila malipo.
 
-![Nick Szabo in 1997](assets/en/17.webp)
+![Nick Szabo in 1997](assets/sw/017.webp)
 
 Nick Szabo mwaka wa 1997 (chanzo: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
@@ -396,7 +405,7 @@ Kipengele cha kati cha itifaki ilikuwa kwamba uumbaji wa pesa ulifanyika kwa nji
 
 Kufanana kwa dhahabu kidogo na Bitcoin ni ya kushangaza. Sehemu tatu za Elements za mfumo (uzalishaji wa vithibitisho vya kazi, kuweka alama za nyakati, na usimamizi wa sajili ya mali), ambazo zilitenganishwa kwa dhahabu kidogo, zinapatikana katika Bitcoin kama dhana moja: Blockchain. Hii ndiyo sababu wengi wameiona kama rasimu ya Bitcoin na kukisia kwamba Nick Szabo anaweza kuwa Satoshi.
 
-Hata hivyo, maono ya watu hao wawili yalitofautiana. Katika dhahabu kidogo, jinsi vipande vya dhahabu vya dijiti vilitolewa ilimaanisha kuwa haviwezi kuunganishwa, kumaanisha kwamba havingeweza kuchanganywa kila kimoja: vilipaswa kutathminiwa kwenye soko la nje ili mfumo huo utumike kama msingi wa kitengo halisi cha akaunti. Kwa hivyo mfano wa dhahabu kidogo ulichukuliwa kama mfumo wa malipo wa kudhibiti sarafu ya akiba ya nadra, ambayo juu yake uchumi wa benki bila malipo ungejengwa, ikiwezekana kwa kutumia mfano wa Chaumian. Hivyo, mwezi Aprili 2008, katika [maoni](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c374184392339 Nickbo bado alikuwa akiuliza blogu yake6 kwenye blogu yake. kusaidia kutekeleza dhana yake. Hata hivyo, utekelezaji huu haukufanyika kamwe.
+Hata hivyo, maono ya wanaume hao wawili yalikuwa tofauti. Katika bit gold, njia ambayo vipande vya dhahabu ya kidijitali vilitolewa ilimaanisha kwamba havikubadilishana, yaani, havikuruhusiwa kuchanganywa: kwa hiyo ilibidi viweze kutathminiwa katika soko la nje ya mfumo ili kutumika kama msingi wa kitengo halisi cha hesabu kinachofanana. Mfumo wa bit gold hivyo ulifikiriwa kama mfumo wa malipo unaoruhusu usimamizi wa sarafu adimu ya akiba, na juu yake uchumi huru wa kibenki ungejengwa, ikiwezekana kutumia mfumo wa Chaumian. Hivyo, mnamo Aprili 2008, katika [maoni](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269) kwenye blogu yake, Nick Szabo bado aliomba msaada ili kutekeleza wazo lake. Hata hivyo, utekelezaji huu haukuwahi kufanyika.
 
 ### RPOW: Uthibitisho wa Kazi unaoweza kutumika tena
 
@@ -408,7 +417,7 @@ Tokeni zinazoweza kutumika tena za Proof of Work zilidhibitiwa na seva, ambayo i
 
 Huu hapa ni mchoro [ulioundwa](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) na Hal Finney mwenyewe:
 
-![Exchange in RPOW](assets/en/18.webp)
+![Exchange in RPOW](assets/sw/018.webp)
 
 Hal Finney hakuunda tu modeli bali pia aliitekeleza yeye binafsi. Mnamo Agosti 15, 2004, [alitangaza](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) uzinduzi wa mfumo wa RPOW kwenye orodha ya utumaji barua ya cypherpunks, pamoja na kurekodi utendakazi wake kwenye tovuti maalum (rpow. Kisha [aliwasilisha](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) katika kongamano la CodeCon 2005 lililofanyika San Francisco, ambapo alijadili matumizi yanayoweza kutokea kwa ishara za Proof-of-Work, kama vile uhamishaji wa thamani wa mtandaoni, kama vile uhamishaji wa thamani wa video, biashara ya mtandaoni. poker, na anti-leeching kwenye itifaki za kushiriki faili kama BitTorrent.
 
@@ -424,7 +433,7 @@ Kwa hivyo, matumizi halisi ya RPOW yalikuwa ya ajabu, lakini Hal Finney anastahi
 
 Mfano mwingine wa mtangulizi wa Bitcoin ambao haujulikani sana, lakini muhimu hapa, ni itifaki ya mkopo iliyosambazwa ya Ripple, iliyoundwa na msanidi programu wa Kanada Ryan Fugger mnamo 2004. Kijana huyo wa Kanada alitiwa moyo na dhana ya [biashara ya ndani ya Exchange. system](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS), jambo ambalo alikuwa amepitia Vancouver kabla ya kuunda itifaki yake. Alichapisha Ripple [karatasi nyeupe](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf) mnamo Aprili 14, 2004, na kisha akaitekeleza kupitia uthibitisho wa dhana inayoitwa RipplePay, ambayo iliruhusu watumiaji kuunganisha barua pepe na seva kuu ya G5 tu.
 
-![Ryan Fugger circa 2010](assets/en/19.webp)
+![Ryan Fugger circa 2010](assets/sw/019.webp)
 
 Ryan Fugger mnamo 2010 (chanzo: [Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
@@ -456,6 +465,8 @@ Kwa hivyo Bitcoin inaunda kilele cha utafutaji wa sarafu ya mtandaoni, sarafu il
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 Baada ya kujifunza mahali Bitcoin ilitoka, sasa tutazingatia historia yake yenyewe. Hili limekuwa mada ya vifungu vingi, podikasti, na video kwa miaka mingi, kiasi kwamba imekuwa karibu kuwa aina ya hadithi ya mwanzilishi. Kama tulivyoona, Bitcoin haiwezi kutenganishwa na muktadha ambamo iliundwa; ndivyo ilivyo kwa matukio yaliyotukia wakati wa miaka yake ya mapema, ambayo yametengeneza jinsi ilivyo leo, kwa sifa na kasoro zake.
 
 Bitcoin iliundwa na Satoshi Nakamoto, mtu asiyejulikana anayedai kuwa Mjapani, ambaye alichukua muda kuiunda kwa uangalifu kabla ya kuifungua kwa umma. Baadaye, walifanya kila kitu ili kuhakikisha kwamba Bitcoin ilizinduliwa chini ya hali bora zaidi, kwamba iliwasilishwa vizuri katika majadiliano, na kwamba ilitumiwa na idadi inayoongezeka ya watu. Hatimaye, juhudi za muundaji ziko katika kuanzishwa kwa mfumo wa kiuchumi kama ilivyo katika muundo wake wa awali, ikiwa sivyo zaidi.
@@ -476,7 +487,7 @@ Mnamo Agosti 2008, Satoshi iliamua kujiandaa kwa uzinduzi wa Bitcoin. Mnamo tare
 
 Mnamo tarehe 20 Agosti, mtayarishaji wa Bitcoin [aliwasiliana](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) Adam Back kwa kumtumia barua pepe akiomba ushauri wa jinsi ya kunukuu karatasi yake ya Hashcash kwenye karatasi nyeupe. Ni Hard kutoona hii kama kisingizio cha kuhakikisha kwamba mvumbuzi wa Hashcash anafahamu mfumo wake mpya.
 
-![Adam Back in 2012](assets/en/20.webp)
+![Adam Back in 2012](assets/sw/020.webp)
 
 Adam Nyuma mnamo 2012 (chanzo: [ukurasa wa kibinafsi wa Adam Back](http://www.cypherspace.org/adam/))
 
@@ -492,7 +503,7 @@ Kwa upande wake, Satoshi inamaliza kujiandaa kufanya uvumbuzi wake hadharani. Mn
 
 ### Kuchapishwa kwa karatasi nyeupe
 
-Mnamo Oktoba 31, 2008, Satoshi Nakamoto ilichapisha [toleo la kwanza la karatasi nyeupe](assets/pdf/Bitcoin-20081003.pdf) kwenye orodha ya barua pepe iliyojitolea kwa cryptography, inayoitwa kwa urahisi "orodha ya utumaji barua pepe." Orodha hii imesimamiwa na msanidi programu Perry Metzger tangu 1996, [iliyoundwa](https://cypherpunks.venona.com/date/1996/12/msg00102.html), na imepangishwa kwenye tovuti yake ya kibinafsi, Metdowd.com, tangu [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). Ni mrithi wa orodha ya cypherpunks, na tofauti kwamba iko chini ya udhibiti mkali. Mnamo 2008, cypherpunks kadhaa za zamani bado zilishiriki, kama vile John Gilmore, Hal Finney, na Len Sassaman.
+Mnamo Oktoba 31, 2008, Satoshi Nakamoto ilichapisha [toleo la kwanza la karatasi nyeupe](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) kwenye orodha ya barua pepe iliyojitolea kwa cryptography, inayoitwa kwa urahisi "orodha ya utumaji barua pepe." Orodha hii imesimamiwa na msanidi programu Perry Metzger tangu 1996, [iliyoundwa](https://cypherpunks.venona.com/date/1996/12/msg00102.html), na imepangishwa kwenye tovuti yake ya kibinafsi, Metdowd.com, tangu [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). Ni mrithi wa orodha ya cypherpunks, na tofauti kwamba iko chini ya udhibiti mkali. Mnamo 2008, cypherpunks kadhaa za zamani bado zilishiriki, kama vile John Gilmore, Hal Finney, na Len Sassaman.
 
 Katika [barua pepe] yake ya kwanza (https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) iliyoshughulikiwa kwa orodha, Satoshi inaandika kwa urahisi:
 
@@ -508,7 +519,7 @@ Pia inaorodhesha mali kuu ya mfano wake:
 
 Katika barua pepe yake, anajumuisha kiunga cha karatasi nyeupe, ambayo tayari imeandaliwa kwenye Bitcoin.org, ambayo ni hati fupi ya kurasa 9, iliyotolewa kama nakala ya kisayansi, inayoelezea utendakazi wa kiufundi wa Bitcoin. Hati hii inazingatia tatizo la malipo ya mtandaoni.
 
-![Title and summary of the first version of the white paper (October 2008)](assets/en/21.webp)
+![Title and summary of the first version of the white paper (October 2008)](assets/sw/021.webp)
 
 Kufuatia tangazo hili, Satoshi inapokea majibu machache, lakini mengi yao yana mashaka. Anashutumiwa sana kwa mambo matatu:
 
@@ -519,7 +530,7 @@ Kufuatia tangazo hili, Satoshi inapokea majibu machache, lakini mengi yao yana m
 
 Ingawa kutilia shaka ndio mtazamo mkuu kwenye orodha, haishirikiwi na kila mtu aliyejisajili kwenye orodha ya wanaopokea barua pepe. Hasa, mtu mmoja anasimama kutoka kwa wengine kwa shauku yao: Hal Finney, ambaye ana mtazamo mzuri wa siku zijazo na ambaye hakuwahi kukata tamaa juu ya wazo la fedha za elektroniki, licha ya kushindwa kwa miaka ya 90. Yeye [alisema](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) kuhusu suala hili miaka michache baadaye kwamba "ndevu za kificho [...] huwa na tabia ya kudharau" lakini kwamba "alikuwa na mtazamo mzuri zaidi" akiwa na "kila mara kupenda kriptografia." (*awali: "Nimegundua kwamba ndevu za siri (nilikuwa na umri wa kati ya miaka 50) huwa na tabia ya kudharauliwa. Nilikuwa mtu wa kudhania zaidi; sikuzote nimependa siri ya siri, fumbo na kitendawili chake."*) Hivyo, mnamo Novemba 7, aliandika katika [barua pepe](https://www.metzdowd.com/20/20202020201681/2011/2011/2011/2016/2016/2011) orodha ambayo "Bitcoin inaonekana kuwa wazo la kuahidi sana" na inalinganisha mfano wa Satoshi na dhahabu kidogo ya Nick Szabo. (*asili: "Bitcoin inaonekana kuwa wazo la kuahidi sana."*)
 
-![Hal Finney in 2007](assets/en/22.webp)
+![Hal Finney in 2007](assets/sw/022.webp)
 
 Hal Finney mnamo 2007
 
@@ -529,7 +540,7 @@ Bitcoin hutumia algoriti ya makubaliano iliyosambazwa ambayo inaruhusu nodi zote
 
 Utaratibu huu wa makubaliano unaruhusu kuwekwa kwa kila aina ya sheria na motisha (kutumia kifungu cha mwisho cha karatasi nyeupe) ndani ya mfumo. Kwa kuwa Bitcoin inajumuisha huduma iliyosambazwa ya kuweka muhuri wa nyakati, inawezekana pia kuwa na sheria hizi kuingiliana na kupita kwa muda. Kwa hiyo algorithm ya kurekebisha ugumu ambayo inakuja kusimamia uzalishaji wa vitalu vipya na bitcoins zinazohusiana nao: ikiwa idadi ya vitalu vinavyozalishwa kwa kipindi fulani ni kubwa sana, basi ugumu wa uzalishaji huongezeka; katika kesi kinyume, inapungua. Bitcoin kwa hivyo inatofautiana na RPOW, ambapo uthibitisho wa kazi wenyewe uliunda vitengo vya akaunti.
 
-Shukrani kwa urekebishaji huu wa ugumu, Bitcoin kwa hivyo inaweza kuwa na sera ya fedha, kumaanisha kuwa kiasi cha vitengo vipya vilivyotolewa na itifaki kinaweza kuamuliwa mapema. Hapo awali, imepangwa kwa utoaji wa fedha kuwa mara kwa mara, ili kuhimiza uzalishaji wa nodi ili kuchangia nguvu zao za kompyuta kwenye mtandao, na hakuna ada za shughuli. Kama Satoshi Nakamoto anavyoandika katika sehemu ya "Motisha" ya [karatasi nyeupe](assets/pdf/Bitcoin-20081003.pdf):
+Shukrani kwa urekebishaji huu wa ugumu, Bitcoin kwa hivyo inaweza kuwa na sera ya fedha, kumaanisha kuwa kiasi cha vitengo vipya vilivyotolewa na itifaki kinaweza kuamuliwa mapema. Hapo awali, imepangwa kwa utoaji wa fedha kuwa mara kwa mara, ili kuhimiza uzalishaji wa nodi ili kuchangia nguvu zao za kompyuta kwenye mtandao, na hakuna ada za shughuli. Kama Satoshi Nakamoto anavyoandika katika sehemu ya "Motisha" ya [karatasi nyeupe](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf):
 
 > "Ongezeko la mara kwa mara la kiasi cha sarafu mpya ni sawa na wachimbaji wa dhahabu wanaotumia rasilimali kuongeza dhahabu kwenye mzunguko."
 Mali hii, iliyothibitishwa na Satoshi [kwenye orodha ya wanaotuma](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) na [katika mawasiliano yake ya kibinafsi](https://mmalmi.github.io/Satoshi/#email-3), haiepukiki James A. Donald. Mnamo Novemba 9, [anakosoa](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html) "kazi ya kufuatilia ni nani anamiliki nini" (yaani, Mining) kwa "kulipwa na mshtuko wa fedha" na kwa "kuhitaji mfumuko wa bei," ingawa kupata punguzo la mfumuko wa bei ni pingamizi hilo la mfumuko wa bei. walizunguka mara kwa mara kuhamisha mali kutoka eneo moja la kupigia kura hadi lingine." (*awali: "katika mfumo unaopendekezwa kazi ya kufuatilia ni nani anayemiliki sarafu zinazolipwa na kukamata fedha, ambayo inahitaji mfumuko wa bei. Hili si dosari isiyoweza kuvumilika - mfumuko wa bei unaoweza kutabirika hauna mashaka kidogo kuliko mfumuko wa bei ambao unazorota mara kwa mara ili kuhamisha mali kutoka kizuizi kimoja hadi kingine."*) Zaidi ya hayo, yeye alisema. [madokezo](https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html) ambayo nodi ya Mining ambayo "inapuuza matumizi yote ambayo haijali" haina madhara "hakuna madhara," hivyo basi kuangazia tatizo la udhibiti. (*asili: "Ikiwa nodi moja inapuuza matumizi yote ambayo haijali, haina madhara yoyote."*)
@@ -573,7 +584,7 @@ Kutoka kwa mabadilishano haya kati ya Satoshi na Hal Finney kuliibuka toleo la 0
 
 Lakini Hal Finney sio mtu pekee anayejaribu Bitcoin wakati huo. Hivi ndivyo ilivyo pia kwa Dustin D. Trammell, mtafiti wa usalama wa kompyuta wa Marekani ambaye wakati huo alivutiwa na sarafu za kidijitali (na hasa toleo la kielektroniki la Liberty Dollar) ambaye aligundua Bitcoin kupitia orodha ya wanaopokea barua pepe. Mnamo Januari 11, yeye huendesha programu kwenye mojawapo ya mashine zake za kazi (lakini haichimbaji [kizuizi] chake cha kwanza (https://Mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65e 9ab5005b5465a9 tatizo). Wakati wa usiku wa Januari 11 hadi 12, anawasiliana na Satoshi, ambayo [huwasiliana] nayo (https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) kwa muda mrefu katika siku zifuatazo. Mnamo Januari 15, Dustin Trammell [anapokea](https://Mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) pia kutoka kwake.
 
-![Dustin Trammell](assets/en/23.webp)
+![Dustin Trammell](assets/sw/023.webp)
 
 Dustin Trammell (chanzo: [kumbukumbu ya blogu ya Dustin Trammell](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
 
@@ -590,6 +601,8 @@ Walakini, kazi hii haikutosha, na ilichukua uvumilivu kutoka kwa Satoshi kuanza 
 ## Uwasilishaji kwa Ulimwengu
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 Baada ya kuchunguza jinsi Bitcoin ilivyoundwa na kuzinduliwa na Satoshi Nakamoto, hebu tuzingatie jinsi ilivyowasilishwa hadharani. Kufuatia kuzinduliwa kwake mwanzoni mwa 2009, mtandao ulikuwa ukifanya kazi, lakini kulikuwa na nodi chache za kuzalisha (Satoshi ilichimba sehemu kubwa ya vitalu) na shughuli ilikuwa haipo kabisa (shughuli 32 halisi zilifanyika wakati wa mwezi wa Januari). Mradi ulikuwa na tovuti ya msingi tu na ukurasa wa SourceForge wa kupakua programu. Zaidi ya hayo, mawasiliano kuhusu Bitcoin yalipunguzwa kwenye orodha ya barua pepe ya Metzdowd Cryptography, ikifuatwa vyema na mamia machache ya watu wanaopenda usimbaji fiche.
 
@@ -613,7 +626,7 @@ Hiki ndicho kichwa cha habari cha gazeti la Uingereza *The Times* siku hiyo, kik
 - Kwa upande mmoja, inazuia kurudisha nyuma uanzishwaji wa mtandao huo kwa kuthibitisha kwamba mfumo haungeweza kuanza kabla ya Januari 3, kwa kuwa Satoshi haikuweza kujua kuhusu kichwa cha habari kabla ya gazeti kuchapishwa;
 - Kwa upande mwingine, inaonyesha kiishara kile Bitcoin inasimama dhidi yake kwa kurejelea muktadha wa kifedha na kifedha wa wakati huo.
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/24.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/sw/024.webp)
 
 Wakati huo, ulimwengu ulikuwa unahisi athari kamili ya shida ya kifedha iliyoanza mnamo 2007 na kupasuka kwa kiputo kidogo huko Merika. Serikali zilitoa dhamana kwa taasisi za kifedha ili kuzuia kufilisika zaidi baada ya kuanguka kwa benki ya uwekezaji ya Lehman Brothers mnamo Septemba 15, 2008, na benki kuu zilijishughulisha na upunguzaji wa kiasi kwa kuingiza ukwasi katika masoko ya fedha. Matumizi haya ya pesa za umma yaliyoundwa kwa hafla hiyo yalikuwa na athari ya kuwasumbua wananchi kadhaa ambao waligundua kuwa mfumo wa benki ni wa faida ya kibinafsi na hasara ya kijamii.
 
@@ -636,7 +649,7 @@ Hii inatuleta kwenye kipengele cha pili kilichowasilishwa na Satoshi siku ya uzi
 > Hilo likiisha, mfumo unaweza kusaidia ada za muamala ikiwa ni lazima. &nbsp;Inategemea ushindani wa soko huria, na pengine kila mara kutakuwa na nodi zilizo tayari kuchakata miamala bila malipo."
 Siku chache baadaye, Hal Finney [alijibu](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) alifurahia sera hii ya fedha kwenye orodha ya wanaotuma barua pepe, akifurahishwa na ukweli kwamba "mfumo unaweza kusanidiwa ili kuruhusu tu idadi fulani ya juu zaidi ya vitengo kuzalishwa." Katika barua pepe yake, alikadiria kwamba ikiwa Bitcoin itakuwa "mfumo mkuu wa malipo unaotumiwa duniani kote," kila kitengo kitakuwa na "thamani ya takriban $ 10 milioni." Alihitimisha kwa kuandika kwamba "uwezekano wa kuzalisha vitengo leo na senti chache za muda wa compute" inaweza kuwa "bet nzuri sana." Hata kama kadirio linaweza kujadiliwa (kwani linategemea hesabu ya Bitcoin ambayo inaweza kuwa sawa na jumla ya utajiri wa kimataifa), hoja hiyo ni nzuri.
 
-Mnamo Januari 16, Satoshi ilirejelea wazo hili la "uwekezaji wa muda mrefu" katika barua pepe aliyoshiriki na orodha ya wanaotuma barua pepe, ambapo alielezea kesi zinazowezekana za utumiaji. Yeye [alisema](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) basi kwamba "inaweza kuwa na maana kupata baadhi ikiwa itatokea. Ikiwa watu wa kutosha watafikiri kwa njia sawa, huo unakuwa unabii wa kujitimiza." [alisisitiza](https://p2pfoundation.ning.com/xn/detail/2003008:Maoni:9562) dai hili mwezi mmoja baadaye, akieleza kuwa kiasi kidogo cha vitengo kinaweza kuunda "kitanzi chanya cha maoni" kwa maana kwamba "kadiri watumiaji wanavyoongezeka, ndivyo thamani inavyoongezeka, ambayo inaweza kuvutia watumiaji zaidi kutaka kunufaika." Kwa hivyo, kipengele cha kubahatisha kipo tangu mwanzo, kwa lengo la kuanzisha mfumo.
+Mnamo Januari 16, Satoshi anarudia wazo hili la “uwekezaji wa muda mrefu” katika barua pepe iliyotumwa kwa orodha ya barua pepe, ambapo anaelezea matumizi yanayowezekana ya Bitcoin. Kisha [anasema](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) kwamba “inaweza kuwa busara kuwa na kiasi fulani iwapo itapata umaarufu” na kwamba “ikiwa watu wa kutosha watafikiri vivyo hivyo, hiyo inakuwa unabii unaojitimizia”. [Alisisitiza](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) uthibitisho huu mwezi mmoja baadaye kwa kueleza kuwa kiasi kidogo cha vitengo kuna uwezekano wa kuunda “kitanzi chanya cha maoni” kwa maana kwamba “kadri watumiaji wanavyoongezeka, ndivyo thamani inavyoongezeka, jambo ambalo linaweza kuvutia watumiaji wengi zaidi wenye hamu ya kufaidika na thamani inayoongezeka”. Kwa sababu ya ukweli huu, kipengele cha uvumi kipo tangu mwanzo, kwa lengo la kuanzisha mfumo.
 
 ### Udhibiti, Mitandao ya Zombie, na Ikolojia
 
@@ -650,7 +663,7 @@ Kisha, katika barua pepe hiyo hiyo, Jonathan Thornburg anajadili mada ya mitanda
 
 Hatimaye, maoni ya mwisho yanatoka kwa John Gilmore, mwanachama mwanzilishi wa cypherpunks na mlinzi wa orodha ya kwanza ya barua za vuguvugu kutoka 1992 hadi 1997. Katika barua pepe iliyotumwa Januari 25, anaangazia matokeo ya kiikolojia ya Bitcoin na [anaandika](https://www.metzdowd.com/0/20/20/2019/2011/2011/1997/1997/1997/1992/1992/1997/1997/1999/ "Jambo la mwisho tunalohitaji ni kupeleka mfumo ulioundwa ili kuchoma mizunguko yote inayopatikana, kuteketeza umeme na kuzalisha kaboni dioksidi, kote kwenye mtandao, ili kuzalisha kiasi kidogo cha bitbux ili kupata barua pepe au barua taka kupitia." Satoshi [anajibu](https://mmalmi.github.io/Satoshi/#email-3) kwake kwa faragha kwamba "itakuwa kinaya kuchagua kati ya uhuru wa kiuchumi na uhifadhi wa mazingira." Anaongeza kuwa "Proof of Work ndiyo suluhisho pekee [alilopata] kufanya mfumo wa kielektroniki wa rika-kwa-rika ufanye kazi" na kwamba, hata kama ingetumia nishati nyingi, "bado ingepoteza chini ya kazi na shughuli za kawaida za benki zinazohitaji rasilimali nyingi ambazo ingechukua nafasi yake."
 
-![John Gilmore in 2007](assets/en/25.webp)
+![John Gilmore in 2007](assets/sw/025.webp)
 
 John Gilmore mwaka wa 2007 (chanzo: [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
@@ -670,7 +683,7 @@ Mnamo tarehe 11 Februari, Satoshi ilichapisha [ujumbe wa utangulizi](https://p2p
 > "Tatizo la msingi la sarafu ya kawaida ni uaminifu wote unaohitajika ili kuifanya ifanye kazi. Ni lazima tuamini benki kuu haitadhalilisha sarafu, lakini historia ya sarafu ya fiat imejaa ukiukaji wa uaminifu huo. Ni lazima tuamini benki kushikilia pesa zetu na kuzihamisha kwa njia ya kielektroniki, lakini wanazikopesha kwa mawimbi ya mapovu ya mkopo kwa sehemu ndogo, na tusiwaruhusu wezi wetu kuwa na akiba. akaunti zetu. Gharama kubwa za malipo ya ziada hufanya malipo madogo yasiwezekane."
 Kwenye [wasifu] wake (https://p2pfoundation.ning.com/profile/SatoshiNakamoto), anadai kuwa mwanamume wa Japani, lakini si hivyo tu. Sasisho la Interface mwaka wa 2011 lilifichua umri wake: umri wa miaka 35, ambayo ina maana kwamba alikuwa na umri wa miaka 32 au 33 mwaka wa 2009. Kisha, mwaka wa 2014, [iligunduliwa](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_moto/happy_moto_happy_birth Tarehe ya kuzaliwa: Aprili 5, 1975. Tarehe hii, inayoonekana kutokuwa na hatia, yaelekea ni marejeleo ya pamoja ya katazo la raia wa Marekani kumiliki dhahabu kati ya 1933 na 1975 nchini Marekani. Siku ya tarehe 5 Aprili inahusiana na siku ambayo katazo hili lilianzishwa na [Agizo la Utendaji 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates on April 2019, Frank Delta-president-certificates) 1933, na mwaka wa 1975 unalingana na kufutwa kwake kwa kupitishwa kwa [Sheria ya Umma 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). Maelezo haya ni muhimu sana kwa kuwa katazo hili lilimaliza kiwango cha dhahabu cha kitambo (ambapo mtu angeweza kupata dhahabu katika Exchange kwa muswada wa mwakilishi), iliruhusu kushuka kwa thamani ya dola (kupitia Sheria ya Hifadhi ya Dhahabu mnamo 1934), na kuwezesha uanzishwaji wa mfumo wa fedha unaoelea wa Exchange ambao tunajua kufuatia Mshtuko wa Nixon wa 1971.
 
-![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/26.webp)
+![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/sw/026.webp)
 
 Wasifu wa Satoshi Nakamoto kwenye jukwaa la P2P Foundation tarehe 17 Machi 2011 (chanzo: [nasa ya jukwaa](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto)
 
@@ -686,11 +699,11 @@ Haya yote yanaonyesha kuwa mtayarishaji wa Bitcoin anatafuta kuzoea hadhira yake
 
 ### Mike Hearn na milioni 21
 
-Mbinu ya mawasiliano ya Satoshi inazaa matunda taratibu. Mnamo Aprili 2009, watu wengine walianza kupendezwa na uvumbuzi wake. Hii inajumuisha Mike Hearn, msanidi programu wa Uingereza anayefanya kazi na Google nchini Uswizi, ambaye hutumia wakati wake wa bure kwenye programu huria. Kisha akapendezwa na mifumo ya malipo ya dijiti, haswa katika Ripple, mradi wa Ryan Fugger. Ilikuwa ni kwenye Kikundi cha Google cha Ripple ambapo alisikia kuhusu Bitcoin kupitia [mazungumzo](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) iliyoundwa Machi na Charles N. Wyble, mwanasayansi wa kompyuta na mjasiriamali Mmarekani.
+Mkakati wa mawasiliano wa Satoshi unazaa matunda hatua kwa hatua. Mwezi wa Aprili 2009, watu wengine walianza kupendezwa na uvumbuzi wake. Hii ni kesi ya Mike Hearn, msanidi programu wa Uingereza mwenye umri wa miaka 24 anayefanya kazi kwa Google kutoka Uswizi, na anayejitolea kwa programu huria katika muda wake wa bure. Huyu wa mwisho alikuwa akipendezwa na mifumo ya malipo ya kidijitali, na hasa Ripple, mradi wa Ryan Fugger. Na ilikuwa hasa kwenye Google Group ya Ripple ambapo alisikia kuhusu Bitcoin kupitia [ujumbe wa majadiliano](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) ulioanzishwa mwezi Machi na Charles N. Wyble, mwanasayansi wa kompyuta kijana na mjasiriamali wa Marekani.
 
 Mnamo Aprili 12, Mike Hearn alituma [barua pepe](https://plan99.net/~mike/Satoshi-emails/thread1.html) kwa Satoshi ambapo aliuliza mfululizo wa maswali kuhusu Bitcoin. Alibainisha kuwa "ni nadra kukutana na mawazo ya kimapinduzi kweli" na hakukosa kumtaja Ripple.
 
-![Mike Hearn](assets/en/27.webp)
+![Mike Hearn](assets/sw/027.webp)
 
 Mike Hearn na Satoshi Nakamoto walijadili vipengele mbalimbali vya Bitcoin kama vile kuongeza, malipo madogo, jinsi programu inavyofanya kazi, na kutokuwepo kwa urejeshaji malipo. Hasa, Mike Hearn aliuliza Satoshi kwa nini alichagua kiasi cha "milioni 24" (*sic*) kwa jumla ya bitcoins na ikiwa zinaweza kugawanywa. Satoshi kisha ilitoa maelezo yafuatayo:
 
@@ -704,7 +717,7 @@ Baada ya kuwasiliana na Satoshi, Mike Hearn alianza kutumia programu kwenye komp
 Mawasiliano ya Satoshi pia yalivutia usikivu wa mwanafunzi mdogo wa sayansi ya kompyuta kutoka Finland anayeitwa Martti Malmi. Aligundua Bitcoin mapema Aprili, kupitia maandishi kwenye jukwaa la P2P Foundation. Mnamo tarehe 9, alianza kutumia programu na kuchimba block yake ya kwanza (block 10,351). Jioni, aliandika uwasilishaji mfupi wa Bitcoin ambapo aliunga mkono nadharia ya anarchist kwamba "P2P Currency inaweza kufanya serikali kutoweka?" Alichapisha maandishi yake chini ya jina bandia la Trickster(n) kwenye mabaraza mawili ya wapenda uhuru wenye hisia tofauti: anti-state.com (ASC) na jukwaa la Freedomain Radio (vyombo vya habari vya Stefan Molyneux). Martin aliandika:
 
 > "Mfumo huo haujulikani, na hakuna serikali inayoweza kutoza ushuru au kuzuia shughuli hizo. Hakuna benki kuu inayoweza kudhalilisha sarafu kwa kuunda pesa mpya bila kikomo. Kupitishwa kwa mfumo kama huo kunaonekana kama kitu ambacho kinaweza kuwa na athari mbaya kwa uwezo wa serikali kulisha raia wake."
-![Martti Malmi in 2013](assets/en/28.webp)
+![Martti Malmi in 2013](assets/sw/028.webp)
 
 Martti Malmi mwaka wa 2013 (chanzo: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
@@ -739,7 +752,7 @@ Baada ya baadhi ya majadiliano kuhusu suluhu la kiufundi la kutumia, Martti Malm
 
 Watumiaji wa kwanza wanaanza kujiandikisha mwanzoni mwa mwezi unaofuata. Mnamo tarehe 9 Desemba, [ujumbe wa kwanza](https://bitcointalk.org/index.php?topic=12.msg40#msg40) uliochapishwa na mtu mwingine mbali na Satoshi unaonekana, ambao kwa hakika unaanza majadiliano. Kama kielelezo, hapa kuna [picha ya skrini](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/) ya kongamano la tarehe 29 Mei 2010:
 
-![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/29.webp)
+![Screenshot of the Bitcoin forum from May 29, 2010](assets/sw/029.webp)
 
 Uzinduzi wa jukwaa jipya ulikuwa fursa ya kutoa [toleo la 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) ya programu, ambayo Satoshi Nakamoto na Martti Malmi walikuwa wakizifanyia kazi kwa miezi kadhaa, jambo ambalo lilifanywa Desemba 16. Toleo hili linajumuisha uboreshaji wa upau wa kazi, uanzishaji wa kiotomatiki au uboreshaji Uzalishaji wa Mining. Programu pia ilibadilishwa kwa ajili ya Linux, shukrani kwa mchango wa Malmi na majaribio yaliyofanywa na NewLibertyStandard iliyowasili hivi karibuni (ambayo kesi yake itashughulikiwa katika sura inayofuata).
 
@@ -756,6 +769,8 @@ Mnamo msimu wa 2009, ilionekana kuwa Bitcoin ilikuwa tayari kukua. Na ilikuwa wa
 ## Uanzishaji wa Cryptocurrency
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
 
 Katika sura zilizopita, tuliona jinsi Satoshi Nakamoto ilivyotekeleza wazo lake na jinsi alivyowasiliana kulihusu ili kutambulisha Bitcoin kwa ulimwengu. Walakini, sio kila kitu kilimtegemea: ilikuwa muhimu pia kwa watu kugawa dhamana kwa kitengo cha akaunti. Kwa kuwa hii iliruhusu malipo ya wachimba migodi kupitia ada za miamala na wafanyabiashara waliozawadiwa kupitia upunguzaji wa bei asilia, uthamini huo ulikuwa muhimu kwa usalama wa mfumo.
 
@@ -790,16 +805,16 @@ Sababu mbili za mwisho ni muhimu zaidi kwani zinawahimiza watu kuendelea kuchimb
 
 ### Huduma ya kwanza ya Exchange na bei ya kwanza
 
-Mwishoni mwa Septemba 2009, mtu anayetumia jina bandia la NewLibertyStandard (ambalo tutalifupisha kama NLS) aligundua Bitcoin. Anajaribu programu na kuanza Mining. kitalu cha kwanza anachotoa ni [block 23,940](https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). Yeye ni mtumiaji wa Linux na kwa hivyo hutumia "emulator" Mvinyo kuendesha programu. Anavutiwa na uhuru wa kisiasa na madini ya thamani, kama inavyothibitishwa na [avatar] (https://bitcointalk.org/index.php?action=profile;u=26) kwenye kongamano ambalo linaonyesha Tai wa Marekani ambapo neno "uhuru" limeandikwa. Kwa hivyo anaona Bitcoin kama sawa na dhahabu katika ulimwengu wa kidijitali: kwenye [ukurasa wake wa kibinafsi](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/), anawasilisha Satoshi kama mapinduzi ya kidijitali ya Nakamoto kama "mapinduzi ya kidijitali" kama "mapinduzi ya kiuchumi ya Nakamoto."
+Mwishoni mwa Septemba 2009, mtu anayetumia jina bandia la NewLibertyStandard (ambalo tutalifupisha kama NLS) aligundua Bitcoin. Anajaribu programu na kuanza Mining. kitalu cha kwanza anachotoa ni [block 23,940](https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). Yeye ni mtumiaji wa Linux na kwa hivyo hutumia "emulator" Mvinyo kuendesha programu. Anavutiwa na uhuru wa kisiasa na madini ya thamani, kama inavyothibitishwa na [avatar](https://bitcointalk.org/index.php?action=profile;u=26) kwenye kongamano ambalo linaonyesha Tai wa Marekani ambapo neno "uhuru" limeandikwa. Kwa hivyo anaona Bitcoin kama sawa na dhahabu katika ulimwengu wa kidijitali: kwenye [ukurasa wake wa kibinafsi](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/), anawasilisha Satoshi kama mapinduzi ya kidijitali ya Nakamoto kama "mapinduzi ya kidijitali" kama "mapinduzi ya kiuchumi ya Nakamoto."
 
-![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/30.webp)
+![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/sw/030.webp)
 
 Mnamo Oktoba 2009, huduma ya kwanza ya sarafu ya Exchange ilianzishwa, ikiruhusu watu kubadilisha dollar zao kuwa bitcoins na bitcoins zao kurudi kwenye dola. Muumbaji alijiandikisha kwenye jukwaa lililowekwa wakfu la Bitcoin kwenye SourceForge na akatangaza kufunguliwa kwa huduma yake huko. Ili kukadiria kiwango cha Exchange, alizingatia gharama ya nishati inayohitajika kupata kitengo, akizingatia bei ya umeme katika eneo lake na mzunguko wa uzalishaji wake binafsi. Kwenye ukurasa wake, [aliandika](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
 
 > "Kiwango chetu cha Exchange kinahesabiwa kwa kugawanya $1.00 kwa wastani wa kiasi cha umeme kinachohitajika kuendesha kompyuta yenye matumizi ya juu ya CPU kwa mwaka, 1331.5 kWh, ikizidishwa na gharama ya wastani ya makazi ya umeme nchini Marekani kwa mwaka uliopita, $0.1136, yote yamegawanywa kwa miezi 12, ikigawanywa na idadi ya siku 3 za bitcoins zinazozalishwa na kompyuta yangu iliyopita."
 Hapa kuna viwango elekezi vya Exchange vya huduma ya NLS, vilivyochapishwa pia kwenye ukurasa wa kibinafsi wa NLS:
 
-![Indicative exchange rates of the NLS service](assets/en/31.webp)
+![Indicative exchange rates of the NLS service](assets/sw/031.webp)
 
 Shughuli za malipo hutatuliwa kupitia barua pepe kwa newlibertystandard@gmail.com. Uhamisho wa dola hufanywa kupitia PayPal pekee, na ada hutozwa kwa operesheni hiyo.
 
@@ -807,7 +822,7 @@ Mnamo Oktoba 8, Martti Malmi [aliarifu](https://mmalmi.github.io/Satoshi/#email-
 
 "Inatia moyo kuona watu wengi wakivutiwa kama vile tovuti hiyo ya NewLibertyStandard. Ninapenda mbinu yake ya kukadiria thamani kulingana na umeme. Inaelimisha kuona ni maelezo gani ambayo watu huchukua. Wanaweza kusaidia kugundua njia iliyorahisishwa ya kuelewa [Bitcoin] inayoifanya iweze kufikiwa na watu wengi zaidi. Dhana nyingi changamano duniani za ufafanuzi, watu 0% na ufafanuzi kamili 0% na ufafanuzi kamili 0% wa watu wana saplistiki kamili duniani. maelezo ambayo yanatosheleza 20% wengine wanaoona dosari katika maelezo rahisi."
 
-Kufuatia tangazo la NLS, Martti Malmi aliwasiliana naye. Wawili hao walikubali kutengeneza Exchange. Usiku wa Oktoba 11 hadi 12, 2009, mauzo ya kwanza ya bitcoins kwa dola yalikamilishwa: Martti [kuhamishwa] (https://twitter.com/marttimalmi/status/423455561703624704) bitcoins 5,050 kutoka kwa juhudi zake za Mining hadi NLS akaunti yake ya $5. Hii inalingana na bei ya kitengo cha takriban $0.001.
+Kufuatia tangazo la NLS, Martti Malmi aliwasiliana naye. Wawili hao walikubali kutengeneza Exchange. Usiku wa Oktoba 11 hadi 12, 2009, mauzo ya kwanza ya bitcoins kwa dola yalikamilishwa: Martti [kuhamishwa](https://twitter.com/marttimalmi/status/423455561703624704) bitcoins 5,050 kutoka kwa juhudi zake za Mining hadi NLS akaunti yake ya $5. Hii inalingana na bei ya kitengo cha takriban $0.001.
 
 Katika wiki zifuatazo, NLS ilikusanya bitcoins zaidi kwa Supply huduma yake. Mnamo Novemba 19, mtu [alinunua](https://Mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756) baadhi ya bitcoins 22,507 alimiliki mauzo yake ya kwanza 22,507. Saa chache baadaye, Satoshi ilifurahishwa na operesheni hii ya kifedha katika [barua pepe](https://mmalmi.github.io/Satoshi/#email-99) iliyoandikwa kwa Martti Malmi.
 
@@ -822,9 +837,9 @@ Juhudi za uratibu hufanywa hasa kwenye jukwaa. Mnamo Januari 27, mtumiaji wa Uho
 
 Mnamo Februari 5, NLS [imependekezwa](https://bitcointalk.org/index.php?topic=41.msg238#msg238) kwamba Bitcoin, kama sarafu zinazouzwa kwenye soko la kigeni la Exchange, itatumia alama ya tiki ya BTC na ishara ya baht ya Thai (฿). Hadi wakati huo, hakukuwa na mazoezi yaliyothibitishwa: kwa mfano, Satoshi na Martti walitumia herufi `bc` kuelezea vitengo katika [mawasiliano](https://mmalmi.github.io/Satoshi/#email-119). Utumiaji wa ishara ya BTC haraka ukawa sanifu. Mnamo Februari 24, ishara ya sarafu (jina kuu B lilivuka kwa pau mbili wima) [iliundwa](https://bitcointalk.org/index.php?topic=64.msg504#msg504) na Satoshi, ambaye kisha akaunda nembo halisi ya kwanza ya Bitcoin.
 
-![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/32.webp)
+![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/sw/032.webp)
 
-Hatua kwa hatua, watu walianza kukubali Bitcoin. Hivi ndivyo ilivyokuwa kwa mtumiaji SmokeTooMuch mnamo Desemba 2009, ambaye alikuwa amewasili hivi punde na [kuripoti kuwepo] (https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65#msg65#msg65#msg65#msg65#msg65/huduma ya mauzo ya kadi ya PMSG65) Huduma hiyo baadaye [ilitajwa](https://mmalmi.github.io/Satoshi/#email-141) na Satoshi mnamo Februari 4, 2010. Hivi ndivyo ilivyokuwa pia kwa NLS ambao, Februari 9, [ilifunguliwa](https://bitcointalk.org/index.php.msg30)50 Duka la Kubadilishana kwa Uhuru, ambapo alitoa mihuri na vibandiko vya kuuza.
+Hatua kwa hatua, watu walianza kukubali Bitcoin. Hivi ndivyo ilivyokuwa kwa mtumiaji SmokeTooMuch mnamo Desemba 2009, ambaye alikuwa amewasili hivi punde na [kuripoti kuwepo](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65#msg65#msg65#msg65#msg65#msg65/huduma ya mauzo ya kadi ya PMSG65) Huduma hiyo baadaye [ilitajwa](https://mmalmi.github.io/Satoshi/#email-141) na Satoshi mnamo Februari 4, 2010. Hivi ndivyo ilivyokuwa pia kwa NLS ambao, Februari 9, [ilifunguliwa](https://bitcointalk.org/index.php.msg30)50 Duka la Kubadilishana kwa Uhuru, ambapo alitoa mihuri na vibandiko vya kuuza.
 
 Exchange yenye dola pia ilitengenezwa, na ndani ya miezi miwili, si chini ya majukwaa matatu yalifungua milango yao:
 
@@ -833,7 +848,7 @@ Exchange yenye dola pia ilitengenezwa, na ndani ya miezi miwili, si chini ya maj
 - BitcoinExchange (bitcoinexchange.com), jukwaa la Martti Malmi, ambalo kwa namna ya kipekee [vipimo](https://mmalmi.github.io/Satoshi/#email-25) Supply na mahitaji kwa kuzingatia euro na bitcoins zilizowekwa na watumiaji, na ambayo [imefunguliwa kwa public](https://bitcointalk.org/index.php?topic=68.msg591#msg591) mnamo Machi 2, 2010;
 - Bitcoin Market (bitcoinmarket.com), soko la rika-kwa-rika kwa kutumia PayPal ambayo [ilizinduliwa](https://bitcointalk.org/index.php?topic=20.msg726#msg726) na mtu aitwaye dwdollar mnamo Machi 16, na ambayo itapata mafanikio makubwa kabla ya kuibuka kwa Mt.
 
-![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/33.webp)
+![Later capture of the Bitcoin Market interface, August 26, 2011](assets/sw/033.webp)
 
 [Nasa](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) ya Soko la Bitcoin Interface baadaye (Agosti 2011)
 
@@ -843,7 +858,7 @@ Huduma nyingine zinazokubali Bitcoin zitaibuka kama vile huduma ya sauti kupitia
 
 Huduma ya kwanza ya ulezi iliyojitolea ya Bitcoin pia inaonekana: ni MyBitcoin, programu ya wavuti inayowezesha matumizi rahisi na ya utulivu ya cryptocurrency, haswa kwenye simu. Shukrani kwa huduma hii, watumiaji hawahitaji kupakua data kamili ya msururu kutuma na kupokea miamala, wala kuweka bitcoins zao wenyewe kwa kuhifadhi funguo zao za faragha.
 
-![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/34.webp)
+![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/sw/034.webp)
 
 Wakati huo, pochi za uzani mwepesi (zinazojulikana kama "SPV") hazikuwepo, kwa hivyo Satoshi Nakamoto mwenyewe aliona kuwa inakubalika kutumia aina hii ya programu, ingawa utumizi huu ulienda kinyume na kanuni ya kutenganisha katikati ya Bitcoin. Mnamo Mei 18, 2010, [aliandika](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) kwenye kongamano:
 
@@ -881,6 +896,8 @@ Hata hivyo, swali hili kamwe halikusumbua Satoshi, ambao waliona uanzishaji wa s
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 Katika sehemu iliyotangulia, tulichunguza jinsi Bitcoin ilivyotokea, jinsi ilivyotambulishwa kwa umma, na jinsi ilivyoanzishwa kiuchumi. Katika chemchemi ya 2010, kama biashara ya bitcoins ilikuwa inaanza kuchanua, lengo la Satoshi Nakamoto na watu wachache wanaomuunga mkono lilikuwa kuweka moto. Kwa bahati nzuri, watu wengine walijiunga na juhudi, haswa Miner Laszlo Hanyecz na msanidi programu Gavin Andresen, ambao walijitokeza kwa vitendo vyao.
 
 Katika sura hii, tutaangalia kupelekwa kwa kwanza kwa Mining na kitengo cha usindikaji wa picha (GPU), bahati iliyokusanywa na Satoshi Nakamoto, ununuzi wa kwanza wa bidhaa za kimwili na bitcoins, uanzishwaji wa Bitcoin Faucet kutoa vitengo vya bure, na mageuzi ya programu na mtandao kabla ya Slashdot.
@@ -891,7 +908,7 @@ Mahitaji ya kuongezeka kwa Bitcoin yaliambatana na ongezeko la taratibu katika s
 
 Satoshi Nakamoto ilikuwa na wasiwasi mkubwa kuhusu ongezeko hili la ugumu na ilidumisha [historia](https://bitcointalk.org/index.php?topic=43.msg249#msg249) kwenye kongamano kuanzia Februari 2010. Hivi ndivyo ilivyokuwa:
 
-![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/35.webp)
+![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/sw/035.webp)
 
 Licha ya shauku hii juu ya kuongezeka kwa nguvu za kompyuta kwenye mtandao, Satoshi hata hivyo ilikuwa ikitafuta kupunguza kasi ya utaalam wa Mining ili kupendelea usambazaji wa vitengo. Hadi wakati huo, wachimbaji madini walikuwa wakitumia vitengo vyao vya usindikaji kuu (CPU) kutoa bitcoins mpya. Hata hivyo, vichakataji hivi vilionyesha kutokuwa na ufanisi kwa kufanya utendakazi unaojirudia, ikilinganishwa na vitengo vya uchakataji wa michoro (GPU) ambavyo vinafaa zaidi kwa aina hii ya ukokotoaji unaorudiwa. Kwa hivyo, kila mtu alijua wakati huo kwamba mageuzi haya hayawezi kuepukika, pamoja na Satoshi mwenyewe. Mnamo Desemba 19, 2009, [alisema](https://bitcointalk.org/index.php?topic=12.msg54#msg54) kama ifuatavyo:
 
@@ -899,7 +916,7 @@ Licha ya shauku hii juu ya kuongezeka kwa nguvu za kompyuta kwenye mtandao, Sato
 
 Hata hivyo, miezi michache baadaye, sanduku la Pandora lilifunguliwa. Msumbufu ni Laszlo Hanyecz, Mmarekani mwenye umri wa miaka 28 msanidi programu mwenye asili ya Kihungaria, anayeishi Florida. Aligundua Bitcoin mwezi wa Aprili 2010. Mnamo tarehe 9, [alipata](https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12b9a10103 3 bitcoins) NLS kwa takriban $20, kisha ikajaribu mfumo kwa kufanya uhamisho machache. Mnamo tarehe 18, alijaribu kuusonga mtandao kwa kuzidisha miamala kutoka [ya umma Address](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), lakini ilisimama.
 
-![Laszlo Hanyecz with his son in May 2018](assets/en/36.webp)
+![Laszlo Hanyecz with his son in May 2018](assets/sw/036.webp)
 
 Laszlo Hanyecz akiwa na mwanawe mnamo Mei 2018 (chanzo: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-leo/)
 
@@ -916,7 +933,7 @@ Kupanda huku kwa Mining pia kulikuwa na matokeo muhimu: Satoshi iliacha kutengen
 
 Shughuli ya Satoshi ya Mining ina mchoro tofauti, unaowezesha kutambua vizuizi ambavyo huenda alipata, vikiwa na chanya chache za uwongo. Mchoro huu wa Mining uliangaziwa na msanidi Sergio Lerner mwaka wa 2013 na umepewa jina la Muundo wa Patoshi.
 
-![Patoshi Pattern between blocks 0 and 50,000](assets/en/37.webp)
+![Patoshi Pattern between blocks 0 and 50,000](assets/sw/037.webp)
 
 Mchoro wa Patoshi kati ya vitalu 0 na 50,000 kama inavyoonekana kwenye tovuti [satoshiblocks.info](http://satoshiblocks.info/): kila nukta inalingana na kizuizi, mistari ya buluu imeundwa kutoka kwa vizuizi vya Satoshi, mistari mingine inawakilisha matokeo ya wachimbaji wengine.
 
@@ -924,11 +941,11 @@ Kulingana na utafiti wa Whale Alert iliyochapishwa mnamo 2020, Satoshi ilichimba
 
 Kwa kuongezeka kwa nguvu za kompyuta katika msimu wa joto wa 2009, sehemu ya nguvu ya kompyuta ya Satoshi ikilinganishwa na nguvu ya mtandao ilipungua polepole. Ilikwenda kutoka 75% Machi 2009 hadi 60% Septemba, kisha chini hadi 15% mwezi Desemba, na kufikia 0% mwezi Mei. Ifuatayo ni grafu iliyotengenezwa na [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html) mwaka wa 2014:
 
-![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/38.webp)
+![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/sw/038.webp)
 
 Zaidi ya hayo, kushuka kwa utawala wa Satoshi wa Mining sio tu: yeye mwenyewe hupunguza kasi ya uzalishaji wake katika kipindi hicho. Hakika, lengo lililotajwa la Satoshi ni kwamba kila mtu ashiriki: haichimba madini kwa faida ya kifedha, lakini kuhakikisha uendeshaji wa mtandao hadi motisha ianze kutumika. Kwa hiyo, anapunguza kiwango chake cha Hash (idadi ya mahesabu yaliyofanywa kila pili) mara tatu wakati wa kipindi hiki cha Mining: mara ya kwanza kutoka 4.5 hadi 2.5 MH / s mwezi Juni 2009, mara ya pili kutoka 2.5 hadi 1 MH / s mwezi Oktoba, na mara ya tatu kutoka 1 hadi 0 MH / s 5 ya kiwango cha Mei 2010 ya GW yake ya Mei 2009. katika kipindi hiki ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
-![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/39.webp)
+![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/sw/039.webp)
 
 Satoshi ya Mining kwa hivyo ni ya kujitolea, kama [Jameson Lopp anavyoonyesha](https://blog.lopp.net/was-Satoshi-a-greedy-Miner/). Atakaposimamisha Mining mnamo Mei 3, 2010 (kizuizi chake cha mwisho ni [block 54,316](https://Mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4a4) upataji mwingine) maendeleo ya polepole ya Bitcoin: uchukuaji wa uthibitishaji wa shughuli na watendaji wa kiuchumi.
 
@@ -939,13 +956,13 @@ Mei 2010 pia ni alama ya tukio la msingi: ununuzi wa kwanza wa nzuri ya kimwili 
 > "Nitalipa bitcoins 10,000 kwa pizza kadhaa... kama labda 2 kubwa ili nibaki na baadhi ya siku inayofuata. Ninapenda kubaki na pizza ili ninywe baadaye. Unaweza kutengeneza pizza mwenyewe na kuleta nyumbani kwangu au kuniagiza kutoka mahali pa kujifungua, lakini ninacholenga ni kuletewa chakula katika Exchange kwa ajili ya kuagiza, kuagiza au kutayarisha bitcoins mwenyewe. sahani' kwenye hoteli au kitu kingine, wanakuletea tu chakula na unafurahi (...) Ikiwa una nia tafadhali nijulishe na tunaweza kufanya biashara."
 Ofa hii ilichukuliwa baada ya siku nne. Alikuwa kijana wa California anayeitwa Jeremy Sturdivant ambaye alikubali Exchange kwenye huduma ya ujumbe wa papo hapo ya IRC.
 
-![Jeremy Sturdivant in May 2018](assets/en/40.webp)
+![Jeremy Sturdivant in May 2018](assets/sw/040.webp)
 
 Jeremy Sturdivant mnamo Mei 2018 (chanzo: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-leo/))
 
 Mnamo Mei 22, aliagiza pizza mbili kutoka kwa Papa John's ambazo zililetwa Laszlo huko Jacksonville, Florida. [Alipokea](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10,000 bitcoins 4 katika GW-4 ya thamani ya $4 ya GW-4 katika GW-4 ya thamani ya takriban $4 katika GW-63 kwenye Soko kiwango. Hii hapa picha ya pizza hizi mbili, [iliyoshirikiwa](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/) na Laszlo mwenyewe:
 
-![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/41.webp)
+![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/sw/041.webp)
 
 Hii inahitimisha ununuzi wa kwanza wa bidhaa halisi na bitcoins, hata kama ununuzi huu sio wa moja kwa moja. Laszlo anapongezwa na [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196) ambaye anaandika kwamba "hatua kubwa imepigwa." NLS pia huongeza [maoni chanya](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) kuhusu suala hili.
 
@@ -960,7 +977,7 @@ Hata hivyo, ongezeko la uwezo wa kununua wa sarafu-fiche halikuzuia ishara ya tu
 
 Kipindi hiki pia kilishuhudia kuwasili kwa mtu mkuu katika historia ya Bitcoin: Gavin Andresen, msanidi programu mwenye umri wa miaka 44 aliyezaliwa Australia ambaye [alinunua](https://gavinthink.blogspot.com/2007/06/miaka-seven-iliyopita-leo.html) Raia wa U.S. mnamo 2004 wakati huo alikuwa akiishi Massachusetts Amherst. Akirejea kutoka kwa safari ya kwenda Australia na bila kazi kwa muda, aligundua Bitcoin mwishoni mwa Mei kupitia [makala](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) na Neil McAllister iliyochapishwa kwenye Info. Makala haya yaliwasilisha mradi wa Satoshi Nakamoto kama "ubunifu wa chanzo huria."
 
-![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/42.webp)
+![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/sw/042.webp)
 
 Gavin Andresen akiwa Townsville, Queensland, Australia (chanzo: [kumbukumbu ya CIO](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin)_
 
@@ -984,6 +1001,8 @@ Walakini, hadi mwisho wa Juni, shughuli ilibaki ya kawaida kwenye mtandao. Kulik
 ## Slashdotting Kubwa
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
+
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
 
 Mwanzoni mwa msimu wa joto wa 2010, licha ya maendeleo ya awali ya kutia moyo, Bitcoin ilikuwa msingi wa msingi unaotetemeka. Programu ilikuwa na watengenezaji wachache isipokuwa Satoshi Nakamoto. Wachimba migodi walikuwa wasomi kwenye kompyuta zao za kibinafsi. Kulikuwa na huduma zipatazo ishirini zinazohusiana na Bitcoin, na ubadilishanaji halisi ulikuwa nadra sana. Walakini, mambo yalikuwa karibu kubadilika sana katika nusu ya pili ya mwaka.
 
@@ -1025,7 +1044,7 @@ Baadaye, Teppy alisasisha wasilisho kwa kuzingatia mapendekezo. Kwa hivyo, mwanz
 Mnamo Julai 11, 2010, toleo lililosahihishwa la wasilisho la Bitcoin lililoandikwa na Teppy [lilichapishwa](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) kwenye Slashdot. Ilisomeka hivi:
 
 > "Je, hii ni kwa teknolojia ya usumbufu? Bitcoin ni sarafu ya rika-kwa-rika, yenye msingi wa mtandao wa digital na hakuna benki kuu, na hakuna ada za ununuzi. Kwa kutumia dhana ya Proof-of-Work, nodes huchoma mizunguko ya CPU kutafuta vifurushi vya sarafu, kutangaza matokeo yao kwa mtandao. Uchambuzi wa matumizi ya nishati unaonyesha kuwa thamani ya soko ya GW2 tayari inahitajika, thamani ya GW2 ya soko ni GW2. ikionyesha mahitaji ya kiafya Jumuiya ina matumaini kuwa sarafu hiyo itasalia nje ya uwezo wa serikali yoyote."
-![Slashdot Logo in 2010](assets/en/43.webp)
+![Slashdot Logo in 2010](assets/sw/043.webp)
 
 Chapisho hilo liligunduliwa, na karibu maoni 500 yalichapishwa katika siku chache. Kwa Bitcoin, mafanikio haya yalisababisha wimbi kubwa la wageni kwenye tovuti na jukwaa. Matumizi ya Blockchain yaliongezeka: idadi ya miamala iliyofanywa kwenye mtandao iliongezeka kutoka 42 mnamo Julai 10 hadi 1,641 mnamo 12, na kufikia 5,554 mnamo 14, kiwango cha juu cha wakati wote. Mfumo ulisimama licha ya mzigo ulioongezeka. Mnamo tarehe 14, msanidi programu Gavin Andresen [aliandika](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) kwenye kongamano:
 
@@ -1038,13 +1057,13 @@ Athari nyingine ya kufurika kwa watu kutoka Slashdot ni kuongezeka kwa nguvu za 
 
 Miongoni mwa waliogundua shukrani ya Bitcoin kwa Slashdot ni Jed McCaleb, mjasiriamali wa Marekani na mtayarishaji programu mwenye umri wa miaka 35 anayejulikana kwa kuanzisha na kuendeleza programu ya kushiriki faili-kwa-rika eDonkey2000 katika miaka ya 2000. Akitambua jinsi ilivyokuwa vigumu kupata Bitcoin katika Exchange kwa dola, aliamua "kwa hiari" kuunda soko la ufanisi. Ili kufanya hivyo, alinunua tena moja ya miradi yake ya zamani iliyoanzishwa mwaka wa 2007: Magic The Gathering Online Exchange (MTGOX), tovuti ambayo iliruhusu kununua na kuuza kadi za mchezo wa mtandaoni *Uchawi: Kukusanya Mtandaoni*. Alitumia tena jina la kikoa la mradi huu (mtgox.com), ambalo lilikuja kuwa jina la jukwaa jipya: Mlima Gox, linalotamkwa "Mount Gox".
 
-![Jed McCaleb in 2013](assets/en/44.webp)
+![Jed McCaleb in 2013](assets/sw/044.webp)
 
 Jed McCaleb mnamo 2013 (chanzo: Ariel Zambelich kwa [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/)
 
 Wiki moja baadaye, Julai 18, Jed McCaleb alizindua jukwaa lake la Exchange na [kutangaza](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) kwenye jukwaa. Shukrani kwa utaalam wake, alihakikisha kuwa jukwaa linafanya kazi kama soko la kiotomatiki, sawa na ubadilishanaji wa kisasa wa mtandaoni. [Kulingana naye](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), ilitofautishwa na Soko la Bitcoin kwa sababu "ilikuwa mtandaoni kila wakati, ikijiendesha kiotomatiki," "tovuti ilikuwa ya haraka na ilikuwa na upangishaji maalum," na "Interface ilikuwa rahisi watumiaji." Kama matokeo, Mlima Gox haraka ikawa njia kuu ya kupata Bitcoin, ikijiweka kama alama ya nukuu za dola.
 
-![Interface of the Mt. Gox platform in February 2011](assets/en/45.webp)
+![Interface of the Mt. Gox platform in February 2011](assets/sw/045.webp)
 
 Kiolesura ya jukwaa la Mt. Gox mnamo Februari 2011 (chanzo: [Kumbukumbu ya Mt. Gox](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
@@ -1060,6 +1079,8 @@ Katika miezi iliyofuata, uboreshaji wa kiufundi, kiuchumi, na Mining uliendelea 
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
 
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
+
 Kama ilivyotajwa katika sura ya mwisho, utitiri wa watumiaji kutoka Slashdot mnamo Julai 11, 2010, ulisababisha wimbi kubwa la shauku katika mradi wa Satoshi Nakamoto. Matumizi ya mtandao yalipuka; kiwango cha Exchange kiliongezeka mara kumi, kama vile nguvu ya kompyuta iliyowekwa kwa mfumo. Kwa hivyo, Bitcoin ilipata ukuaji ambao haujawahi kufanywa katika msimu wa joto.
 
 Hata hivyo, mafanikio haya yaliambatana na masuala ya kiufundi, na ugunduzi wa udhaifu kadhaa katika programu. Umaarufu mkubwa kwa hakika ulimaanisha idadi kubwa zaidi ya watu wanaokagua msimbo na uwezekano mkubwa wa hitilafu za kiutendaji. Na hii ndio hasa ilifanyika mnamo Agosti 15 na tukio la kufurika kwa thamani, "kuvunjika" kwa kwanza katika historia ya Bitcoin, ambayo ilidumu kama masaa 15. Kipindi hiki kiliwekwa alama ya uboreshaji wa programu, ili kutarajia vitisho mbalimbali na kurekebisha makosa iwezekanavyo.
@@ -1072,13 +1093,13 @@ Hata hivyo, muundaji wa Bitcoin hafanyi kazi kwa kanuni peke yake. Anaweza kumte
 
 Hatimaye, tunaweza kumtaja Jeff Garzik (kwa kutumia jina bandia la jgarzik kwenye jukwaa), ambaye ni msanidi programu wa Marekani, mchangiaji katika ulimwengu wa programu zisizolipishwa, hasa kwa usambazaji wa Red Hat, na mfuasi wa libertarian wa shule ya uchumi ya Austria. Aligundua Bitcoin kupitia makala iliyochapishwa kwenye Slashdot na karibu mara moja akajihusisha na Bitcoin.
 
-![Jeff Garzik in 2013](assets/en/46.webp)
+![Jeff Garzik in 2013](assets/sw/046.webp)
 
 Jeff Garzik mwaka wa 2013 (chanzo: [Benson Samuel](https://bensonsamuel.com/Bitcoin-3/talking-Bitcoin-with-jeff-garzik/))
 
 Lengo la kwanza la Satoshi ni kufanya programu na itifaki kuwa salama zaidi, ili kukabiliana na ongezeko la hivi majuzi la matumizi. Pamoja na Gavin Andresen, wanazingatia mashambulizi mbalimbali yanayoweza kutokea (ikiwa ni pamoja na kunyimwa mashambulizi ya huduma) na kujitahidi kurekebisha udhaifu uliogunduliwa. Hivi ndivyo mfumo wa vituo vya ukaguzi unavyoongezwa tarehe 17 Julai ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)), kuzuia msururu kuandikwa upya kabla ya tarehe fulani, na dhana ya kazi itaunganishwa tarehe 25 Julai. ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)) ili kuboresha utaratibu wa kuchagua msururu sahihi kwa nodi.
 
-Gavin na Satoshi pia walirekebisha hitilafu kadhaa. Moja kuu kati ya hizi ni "1 RETURN bug," udhaifu katika mfumo wa hati ambayo ilifanya iwezekane kutumia bitcoins kutoka kwa Address yoyote kwa kutumia hati maalum. Udhaifu huu uliripotiwa na ArtForz mnamo Julai 28, ambaye, badala ya kutumia dosari hiyo na kujitajirisha kwa busara, alichagua kushiriki ugunduzi wake na Satoshi na Gavin. Satoshi ilijumuisha urekebishaji kwa haraka kwenye programu ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) na ilipendekeza watumiaji wote wasasishe. Kwa hivyo, Bitcoin iliokolewa kutoka kwa hali inayoweza kuwa mbaya. Athari hii ilirekodiwa baadaye katika MITER chini ya kitambulisho [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141).
+Gavin na Satoshi pia wanarekebisha hitilafu kadhaa. Ya msingi zaidi ni "*1 RETURN bug*" (hitilafu ya kurudi 1), udhaifu katika mfumo wa uandishi (scripting system) ambao unafanya iwezekane kutumia bitcoins kutoka anwani yoyote shukrani kwa script maalum. Udhaifu huu unaripotiwa na ArtForz mnamo Julai 28, ambaye badala ya kutumia kasoro hiyo na kujitajirisha kwa siri, anachagua kushiriki ugunduzi wake na Satoshi na Gavin. Satoshi anaharakisha kujumuisha marekebisho katika programu ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) na anapendekeza watumiaji wote kufanya sasisho. Bitcoin hivyo inaepuka hali mbaya zaidi. Udhaifu huu baadaye utarekodiwa na Shirika la MITRE chini ya kitambulisho [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141).
 
 Lengo la pili lilikuwa kuboresha utendaji wa mfumo kwa kufanya marekebisho kwa itifaki au kuboresha uendeshaji wa programu. Ni katika aina hii ambapo nyongeza ya misimbo ya utendakazi ya `OP_NOP` kwenye mfumo wa hati ya ndani huanguka, ikitekelezwa kwa busara na Satoshi mnamo Julai 29 (v0.3.6), huku [maoni] pekee (https://sourceforge.net/p/Bitcoin/code/119/) likiwa neno "upanuzi." Nambari hizi za utendakazi ni maagizo ya kimya ambayo hayana athari ikiwa yapo kwenye hati lakini pia hayabatilishi muamala. Kwa hivyo, mtu anaweza kurekebisha tabia ya maagizo haya bila kufanya hati ziendane na toleo la zamani la itifaki, kwa hivyo maoni ya Satoshi. Nambari hizi za utendakazi zingeruhusu kile ambacho kingeitwa "forks za Soft" mnamo 2015 na 2016, kwa kubadilisha maagizo `OP_NOP2` na `OP_NOP3` kuwa `OP_CHECKLOCKTIMEVERIFY` na `OP_CHECKSEQUENCEVERIFY` (mtawalia).
 
@@ -1088,7 +1109,7 @@ Maboresho haya yote yanamaanisha kuwa Bitcoin inaimarika siku baada ya siku, kat
 
 ### Tukio la Kuzidi kwa Thamani
 
-Mnamo Agosti 15, 2010, karibu 5 PM (UTC), kizuizi kilicho na shughuli iliyounda zaidi ya bitcoins *bilioni 184 kiliongezwa kwenye mnyororo kwa urefu wa 74,638. Utoaji huu wa juu sana ulitumia uwezekano wa kuathiriwa na kumbukumbu katika uwasilishaji wa idadi: mvamizi aliunda matokeo mawili ya muamala ya 92,233,720,368.54277039 BTC kila moja, kiasi ambacho ni karibu na vitengo vya juu zaidi vinavyoweza kuwakilishwa na umbizo la biti 64 lililotiwa saini (muundo kamili wa biti 64).
+Mnamo Agosti 15, 2010, karibu 5 PM (UTC), kizuizi kilicho na shughuli iliyounda zaidi ya bitcoins **bilioni 184** kiliongezwa kwenye mnyororo kwa urefu wa 74,638. Utoaji huu wa juu sana ulitumia uwezekano wa kuathiriwa na kumbukumbu katika uwasilishaji wa idadi: mvamizi aliunda matokeo mawili ya muamala ya 92,233,720,368.54277039 BTC kila moja, kiasi ambacho ni karibu na vitengo vya juu zaidi vinavyoweza kuwakilishwa na umbizo la biti 64 lililotiwa saini (muundo kamili wa biti 64).
 
 Saa moja baadaye, tatizo lilionekana na Jeff Garzik, ambaye [alionya](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) jumuiya kwenye kongamano kuhusu "kizuizi cha ajabu". Jibu la Satoshi lilikuja karibu saa 9:00: yeye [alichapishwa](https://bitcointalk.org/index.php?topic=823.msg9530#msg9530) marekebisho ya awali ya msimbo kwenye jukwaa na [ilishauriwa](https://bitcointalk.org/index.php?topic=953stop people#8231#msg95301. kuzalisha". Baada ya kufanya masahihisho na kuyapakia kwenye Sourceforge, hatimaye [alitoa](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) kiraka cha Windows, Linux, na Mac OS X saa 11:48 PM.
 
@@ -1115,7 +1136,7 @@ Ingawa Satoshi haikutaja kuwepo kwa kikomo cha ukubwa wa kitalu, watu kadhaa wal
 
 Hatimaye, uwepo wa kigezo hiki unaathiri Jeff Garzik ambaye [anatangaza](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) kuwa "wasiwasi zaidi kuhusu hatari kuliko kufungwa kwa serikali" na ambaye [inauliza](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) jinsi inavyowezekana "kuuza Bitcoin kwa wawekezaji makini, na vikwazo vilivyojumuishwa kama vile miamala 463 kwa kila dakika." Kwa hivyo, mnamo Oktoba 3, anapendekeza kiraka kwenye kongamano ili kuongeza kikomo cha ukubwa wa block hadi 7.168 MB ili "kulingana na kiwango cha wastani cha muamala wa PayPal." Theymos anajibu kwa kusema kwamba "kutumia kiraka hiki kutakufanya utofautiane na wateja wengine wa Bitcoin." Ujumbe huu umeidhinishwa na Satoshi Nakamoto ambaye [anapendekeza](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) bila kutumia kiraka na inasema: "Tunaweza kubadilisha mabadiliko baadaye ikiwa tutakaribia kuhitaji." Mwisho [hufafanua](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) mawazo yake siku iliyofuata kwa kutoa mwongozo wa jinsi ya kufanya mabadiliko hayo ya itifaki.
 
-![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/47.webp)
+![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/sw/047.webp)
 
 Majadiliano haya yanaashiria mwanzo wa mjadala juu ya hatari, ambayo hatimaye ingesababisha vita vya kweli vya wenyewe kwa wenyewe kati ya 2015 na 2017, vinavyojulikana kama vita vya blocksize.
 
@@ -1145,6 +1166,8 @@ Katika miezi iliyofuata, maboresho ya kiufundi, kiuchumi, na Mining yaliendelea 
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 Katika sehemu iliyotangulia, tulisoma athari ambayo uchapishaji wa wasilisho la Bitcoin kwenye Slashdot (slashdotting) lilikuwa na jinsi matatizo ya awali ya kiufundi yalivyosimamiwa na Satoshi na wasaidizi wake. Kufikia mwisho wa kiangazi, mradi ulikuwa umestahimili dhoruba na ulikuwa tayari kukaribisha idadi inayoongezeka ya watu. Kuanguka kwa 2010 kwa hivyo kulionyesha kipindi cha mafanikio kwa Bitcoin.
 
 Kipindi hiki kilikuwa enzi ya dhahabu kwa Mining, ambayo iliona maboresho makubwa kwa kuibuka kwa mashamba ya kwanza ya GPU na ushirika wa kwanza. Rasilimali zilizotumwa zilikuwa zikiongezeka, na utendakazi wa algoriti maalum ulikuwa ukiboreka. Ilikuwa "haraka ya dijitali ya dhahabu," kama mwanablogu wa wakati huo (akitumia jina pseudonym jimbobway) [aliandika](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold), bila kutumia mtandao wa "rush.html".html Mining bitcoins "kwa matumaini ya bahati" na kwamba wengi wao walikuwa wakijaribu "kutengeneza zana za programu na maunzi ili kuchimba bitcoins kwa ufanisi zaidi" kwa matumaini ya kuwa matajiri wachafu. (*asili: "Bitcoins: A New Digital Gold Rush (...) Maelfu ya watumiaji kwenye Mtandao sasa ni Mining kwa bitcoins kwa matumaini ya bahati nzuri. Wengi wanajaribu kutengeneza programu na zana za vifaa vya kuchimba bitcoins kwa ufanisi zaidi kwa matumaini ya kuwa matajiri wachafu."*)
@@ -1153,7 +1176,7 @@ Kipindi hiki kilikuwa enzi ya dhahabu kwa Mining, ambayo iliona maboresho makubw
 
 Baada ya Bitcoin kupunguzwa mnamo Julai 2010, malipo ya juu ya kifedha yaliyoletwa na ongezeko la bei na uwezekano wa ukuaji wa siku zijazo uliwahimiza watu binafsi kujitolea kuzalisha bitcoins kwa bidii zaidi. Ndiyo maana [kiwango cha Hash](https://bitinfocharts.com/comparison/Bitcoin-Hashrate.html#alltime) cha mtandao, ambacho kilikuwa 0.22 GH/s mnamo Julai 11, kilipanda hadi 2.78 GH/s mnamo tarehe 17, kisha hadi 5/9 Agosti hadi 5, 9 mnamo Agosti 9. GH/s mnamo Septemba 19 na hatimaye 12.58 GH/s mnamo Septemba 29.
 
-![Total network hash rate from July 11 to October 5, 2010](assets/en/48.webp)
+![Total network hash rate from July 11 to October 5, 2010](assets/sw/048.webp)
 
 Jumla ya bei ya mtandao ya Hash kuanzia Julai 11 hadi Oktoba 5, 2010 (chanzo: [CoinWarz](https://www.coinwarz.com/Mining/Bitcoin/Hashrate-chati))
 
@@ -1161,7 +1184,7 @@ Miner kubwa zaidi ya kipindi hiki ilikuwa msanidi programu wa Ujerumani ambaye a
 
 Alianza kuzalisha bitcoins mnamo Julai 19. Mnamo Julai 25, katika mazungumzo yaliyowachunguza watumiaji kuhusu mali zao za Bitcoin, ArtForz [ilisema](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=5617msg5 bitcoins 1,700 kwa siku 6, ambayo inalingana na 4% ya kiwango cha Hash, au 80 MH / s. Hatua kwa hatua, alijenga shamba kubwa la Mining, ambalo lingejulikana kama "ArtFarm." Mnamo Agosti, shamba lake [lilijumuisha](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-Bitcoin-Mining/) 6 ATI Radeon HD 5770s, na kumruhusu kuongezeka kutoka 76 MH/3 hadi 4 hivi mnamo Agosti 59.
 
-![ArtForz's mining production between August and October 2010](assets/en/49.webp)
+![ArtForz's mining production between August and October 2010](assets/sw/049.webp)
 
 Uzalishaji wa Mining wa ArtForz kati ya Agosti na Oktoba 2010 (chanzo: Blackburn et al., "[Ushirikiano kati ya kikundi kisichojulikana kililinda Bitcoin wakati wa kushindwa kwa ugatuaji](https://arxiv.org/pdf/2206.02871)")
 
@@ -1177,7 +1200,7 @@ Mnamo tarehe 2 Septemba, Miner puddinpop [ilishiriki](https://bitcointalk.org/in
 
 Mnamo Septemba 6, kufuatia pendekezo kutoka kwa mwanachama wa jukwaa, [alisema](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107) kwamba "labda atakuwa tayari kufanya msimbo kuwa chanzo wazi" ikiwa atapokea "mchango muhimu." Mnamo tarehe 15, Jeff Garzik alitoa [ofa](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921) kuhusiana na hili, akipendekeza kutoa puddinpop bitcoins 10,000, ambayo ilikuwa takriban $600 wakati huo. Puddinpop ilikubaliwa: muamala ulifanyika [ulifanyika](https://Mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea) tarehe 18, [iliyochapishwa](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135) chini ya leseni isiyolipishwa na puddinpop muda mfupi baadaye.
 
-Algorithms zingine ziliwekwa wazi kwa wakati mmoja. Mnamo Septemba 9, mshiriki wa jukwaa anayekwenda kwa jina nelisky [alishiriki](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) algoriti yao ya Mining kwa kutumia CUDA. Tarehe 1 Oktoba, mtu aliyemtaja m0mchil, ambaye alijiunga na kongamano mwezi wa Februari, [iliyochapishwa](https://web.archive.org/web/20101206143359/http://www.Bitcoin.org/smf/index.php?topic=1334.0) algoriti yao (POCL6ngBM) kama kanuni ya "OCL6" raia."
+Algorithms nyingine zinawekwa hadharani wakati huohuo. Mnamo Septemba 9, mwanachama wa jukwaa anayejiita nelisky [anashiriki](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) algorithm yake mwenyewe ya uchimbaji akitumia CUDA. Mnamo Oktoba 1, mtu mmoja aitwaye Momchil Georgiev, ambaye alijiunga na jukwaa mwezi Februari na anatumia jina bandia m0mchil, [anachapisha](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0) algorithm yake (POCLBM) akiita “mchimbaji wa OpenCL kwa ajili ya umma.”
 
 Uboreshaji huu uliruhusu watu wenye ujuzi zaidi wa kiufundi kwa kuzalisha bitcoins nyingi. Kando na ArtForz, Nils Schneider (tcatm) alikua mmoja wa wachimbaji wakuu wa kipindi hiki. Mnamo Oktoba 3, 2010, [alidai](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111) kuwa na kasi ya hashing ya 983 MH/s inayozalishwa na vichakataji 3 vya michoro. Nambari hii ilikuwa na athari ya [astonishing](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) Satoshi mwenyewe.
 
@@ -1185,7 +1208,7 @@ Uboreshaji huu uliruhusu watu wenye ujuzi zaidi wa kiufundi kwa kuzalisha bitcoi
 
 Ongezeko kubwa la kiwango cha Hash kutokana na utaalamu wa Mining ulisababisha kuwa vigumu kwa kuzalisha bitcoins na processor kuu, ambayo ikawa chini na chini ya bei nafuu. Hakika, uwezekano wa kuzalisha bitcoins ulitegemea zaidi tofauti, na watu wengine hawakuweza kuzalisha kitalu. Suluhisho la tatizo hili ni ushirikiano wa Mining.
 
-Mnamo Oktoba 1, m0mchil [iliyochapishwa](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) marekebisho ya API ambayo huruhusu nodi za mteja kupata kizuizi cha mgombea kupitia njia mpya ya kukokotoa inayoitwa `getwork` na kurudisha Proof of Work suluhu ikipatikana. Aliandika kwamba marekebisho haya "hufungua njia kwa wachimbaji wa Bitcoin wa nje" na "kuruhusu usanidi wa wachimbaji wengi kwa mteja mmoja."
+Tarehe 1 Oktoba, Momchil [anachapisha](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) marekebisho ya API ambayo inaruhusu nodi za mteja kupata kizuizi kinachowezekana kupitia kazi mpya iitwayo `getwork` na kurudisha uthibitisho wa kazi ikiwa suluhisho limepatikana. Anaandika kwamba marekebisho haya “yanafungua njia kwa wachimbaji wa bitcoin wa nje” na “inaruhusu usakinishaji wa wachimbaji wengi kwa mteja mmoja.”
 
 Siku hiyo hiyo, wazo la "Mining iliyojumuishwa" [lilitajwa](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838) kwa mara ya kwanza na mshiriki wa jukwaa katika mazungumzo yenye kichwa "Jinsi ya kupindua Oligarchs za GPU". Mnamo Oktoba 13, puddinpop [ilipendekezwa](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906) mfano wa aina hii. Nguvu ya kompyuta ya Miner inapimwa kwa kutumia meta-Hash, ambayo ni alama ya buffer ikiwa ni pamoja na byte ya kwanza ya kila block Hash. Seva inaweza kisha kuthibitisha mara kwa mara kuwa mteja anafanya hesabu kama ilivyofafanuliwa. Muundo huu ni changamano na [hauruhusu makosa](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015).
 
@@ -1195,19 +1218,19 @@ Mnamo Novemba 23, toleo lililobadilishwa la chaguo la kukokotoa la `getwork` lil
 
 Mnamo tarehe 27 Novemba, msanidi programu mchanga wa Kicheki aitwaye Marek Palatinus, akitumia jina bandia slush, [iliyochapishwa](https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976 mtindo unaotumia `getwork` na mantiki ya Jeff Garzik. Mtindo huu unatokana na uthibitisho wa sehemu ya kazi zinazozalishwa na wachimbaji (pay-per-share). Siku iliyofuata, Satoshi Nakamoto [imeidhinishwa](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) dhana.
 
-![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/50.webp)
+![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/sw/050.webp)
 
 Marek Palatinus (mlegevu) kwenye mkutano wa Z-DAY huko Prague mnamo Mei 11, 2013
 
-Aina mbili za makadirio zilitekelezwa mnamo Desemba. Kwanza, dhana ya puddinpop ilitumiwa tarehe 1 Desemba na mtumiaji doublec ambaye [alialika](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) watu kuunganisha kwenye seva yake iliyounganishwa ya Mining. Kikundi kiliunda [kilichozalishwa](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) kizuizi chake cha kwanza (95,420) mnamo Desemba 4. Baada ya kutengeneza kitalu cha ziada siku chache baadaye, seva ya doublec [ilizimwa](https://bluishcoder.co.nz/Bitcoin-pool/) tarehe 15. Huduma hiyo ilifunga milango yake kabisa tarehe 17, kwa sababu ya kuibuka kwa ushirika wenye ufanisi zaidi: Bitcoin.cz Mining.
+Miundo miwili ya makadirio inatekelezwa mnamo Desemba. Kwanza, dhana ya puddinpop inatekelezwa mnamo Desemba 1 na mtumiaji doublec ambaye [anaalika](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) watu kuungana na seva yake ya uchimbaji wa madini ya kikundi. Kundi lililoundwa hivyo [linazalisha](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) blocki yake ya kwanza (95,420) mnamo Desemba 4. Baada ya kutoa blocki ya ziada siku chache baadaye, seva ya doublec [inasimamishwa](https://bluishcoder.co.nz/bitcoin-pool/) tarehe 15. Huduma inafunga milango yake kabisa tarehe 17, kutokana na kuibuka kwa ushirika wenye ufanisi zaidi: BitcoinCZ Mining.
 
-Baada ya kukagua mkutano huo, Marek Palatinus aliamua kutekeleza mfano wake wa ushirika wa Mining na haswa alifanya majaribio kwenye mtandao wa majaribio. Pia alihakikisha kuwa seva inaweza kufikiwa na wachimba madini wa CPU (wanaotumia programu ya Jeff Garzik) na wachimbaji wa GPU (wanaotumia wateja kutoka m0mchil na puddinpop).
+Baada ya kuchunguza jukwaa, Marek Palatinus anaamua kutekeleza mfumo wake wa ushirika wa uchimbaji madini na hasa anafanya majaribio kwenye mtandao wa majaribio. Pia anahakikisha kwamba seva inaweza kupatikana kwa wachimbaji wa CPU (wanaotumia programu ya Jeff Garzik) na wachimbaji wa GPU (wanaotumia wateja wa Momchil na puddinpop).
 
 Wakati wa usiku wa Desemba 15 hadi 16, ushirika hatimaye [ulizinduliwa](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) na Marek Palatinus kwenye mtandao mkuu. Sehemu ya kwanza [ilipatikana](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) asubuhi ya tarehe 16. Baadaye, vitalu vingine vingi vilitolewa. Kundi la Mining lilikutana na mafanikio tangu mwanzo: katika siku chache, kiwango chake cha Hash kilifikia 4 GH / s, ambayo ni 3.5% ya jumla ya nguvu za mtandao.
 
-Ushirika ungekuwa alama katika Bitcoin Mining. [Imebebwa](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) majina kadhaa katika kipindi cha miaka mingi: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, na hatimaye Slush Pool, kwa kurejelea kwa Muundaji wake. Ikawa Braiins Pool mnamo Septemba 2022.
+Ushirika huo utakuwa rejeleo linapokuja suala la uchimbaji wa Bitcoin. [Utabeba](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) majina kadhaa kwa miaka mingi: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, na hatimaye Slush Pool, kwa kurejelea muundaji wake. Utakuwa Braiins Pool mnamo Septemba 2022.
 
-![Logo of Slush's cooperative in September 2011](assets/en/51.webp)
+![Logo of Slush's cooperative in September 2011](assets/sw/051.webp)
 
 Nembo ya ushirika wa Slush mnamo Septemba 2011 (chanzo: [archive](https://web.archive.org/web/20110923151034/http://Mining.Bitcoin.cz:80/) ya tovuti)
 
@@ -1220,6 +1243,8 @@ Walakini, kuanguka hakufanikiwa tu kwa Mining. Ilikuwa pia mafanikio kwa jamii n
 ## Kuchanua kwa Mfumo ikolojia
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 Katika sura iliyotangulia, tulichunguza jinsi Mining ilivyotengenezwa katika nusu ya pili ya mwaka wa 2010. Kufikia msimu wa joto, maendeleo haya yalithibitishwa vyema. Walakini, Mining haikuwa sehemu pekee ya Bitcoin iliyopata mafanikio: mfumo wake wa ikolojia ulifanya vile vile.
 
@@ -1236,11 +1261,13 @@ Ilikuwa ni pamoja na jumuiya ya Wafaransa ambapo mambo yalibadilika, hasa kupiti
 > "\[G\]osh siwezi kulala ! Ninaendelea kufikiria kuhusu mambo haya mazuri. Kwangu Bitcoin ni "cyperspace gold" \[sic\]. Ninashangaa tu."
 Siku chache baadaye, tarehe 30, alichapisha [taarifa ya habari](https://linuxfr.org/news/connaissez-vous-les-bitcoins) kwa Kifaransa kwenye LinuxFr.org (DLFP). Toleo hili, linaloitwa "Je! unajua kuhusu bitcoins?", Pengine ni uwasilishaji wa kwanza wa Bitcoin iliyoandikwa kwa lugha ya Molière. Nakala hiyo ilifikia idadi kubwa ya watu, ikitoa maoni karibu 350. Hii hapa aya ya kwanza kama [ilivyoonekana](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) wakati huo:
 
-![Do you know about bitcoins?](assets/en/52.webp)
+![Do you know about bitcoins?](assets/sw/052.webp)
+
+> **Makala: Je, unajua kuhusu bitcoins?** Bitcoin ni sarafu ya kielektroniki iliyoundwa mnamo 2009 na mtu fulani aitwaye Satoshi Nakamoto. Sarafu hii inatofautiana na sarafu nyingine za kielektroniki kwa asili yake iliyo huru kabisa ya peer-to-peer na matumizi yake ya busara ya dhana za msingi za usimbaji fiche. Inategemea programu iliyoandikwa kwa C++ na kuchapishwa chini ya leseni huru ya MIT.
 
 Hasa, utumaji huu una athari ya kuvutia umakini wa Ploum fulani, jina halisi Lionel Dricot, mwanablogu wa Ubelgiji mwenye umri wa miaka 29 na mtetezi wa programu za bure. Mnamo Oktoba 25, [alichapisha](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) makala kwenye blogu yake, yenye kichwa "Geek Currency, Monkey Money?", ambamo anatetea ugatuaji na kuunga mkono kanuni ya Bitcoin. Watumiaji wengi wa intaneti wanaozungumza Kifaransa walisikia kuhusu Bitcoin kupitia njia hii, ikiwa ni pamoja na [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/abc5/dmal9), kuunda GW5/dmal9 Pesa mwaka 2017.
 
-![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/53.webp)
+![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/sw/053.webp)
 
 Lionel Dricot (Ploum) mwaka wa 2012, kisha mgombea chini ya bendera ya Chama cha Maharamia kwa uchaguzi wa jumuiya na mkoa wa Ubelgiji (chanzo: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/)
 
@@ -1250,17 +1277,17 @@ Siku hiyo hiyo, Ploum alifungua [mazungumzo](https://bitcointalk.org/index.php?t
 
 Mbali na maendeleo ya jumuiya za lugha, kuna uvumbuzi fulani katika mbinu zinazotumiwa kwa mawasiliano kuhusu Bitcoin. Mnamo tarehe 4 Oktoba, Mwaustralia mwenye umri wa miaka 38 akitumia jina bandia la noagendamarket [ilizinduliwa](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) mpango unaoitwa BitcoinMedia. Wazo ni kukuza Bitcoin kwa kuunda maudhui mbalimbali na kuyatangaza katika maeneo ambayo yanaweza kuvutia hadhira. Ingawa mpango huu haukufikia mafanikio yaliyotarajiwa, una sifa ya kuongoza kwa utengenezaji wa video za kwanza zinazozungumza juu ya Bitcoin. Video ya kwanza ya kituo, [iliyochapishwa](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) tarehe 5 Oktoba, ni Hadithi ya Utafutaji wa Google, iliyoundwa kwa kutumia zana ya YouTube (angalia picha ya skrini hapa chini). Video zingine zitatolewa kwa Xtranormal, zana rahisi ya kuunda mifuatano ya video kutoka kwa seti ya herufi na mipangilio iliyoundwa awali.
 
-![First video on Bitcoin (Google Search Story)](assets/en/54.webp)
+![First video on Bitcoin (Google Search Story)](assets/sw/054.webp)
 
 Machapisho ya blogu kuhusu Bitcoin yanaongezeka katika kipindi hiki. Hivi ndivyo hali halisi ilivyo kwa Jon Matonis, ambaye anaendesha blogu ya *The Monetary Future* ambapo anajadili mada zinazohusiana na sarafu za kidijitali, huduma za benki bila malipo na cryptography. Aligundua Bitcoin mwezi Machi na [kubadilishana](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-Satoshi/#entry-516 ilianza kuandika baada ya mada hiyo. Mnamo Oktoba, anachapisha [makala ya tatu](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html) ambapo anazungumza kuhusu ongezeko la bei na kufafanua mambo mapya ya mfumo ikolojia.
 
-![Profile picture of Jon Matonis in 2011](assets/en/55.webp)
+![Profile picture of Jon Matonis in 2011](assets/sw/055.webp)
 
 Picha ya wasifu wa Jon Matonis mwaka wa 2011 (chanzo: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
 Pia ni wakati huu ambapo nembo mpya ya Bitcoin inapendekezwa. Mnamo tarehe 1 Novemba, mshiriki wa baraza akitumia jina bandia la bitboy [iliyochapishwa](https://bitcointalk.org/index.php?topic=1631.0) mchoro wa Elements ili kuangazia sarafu-fiche. Mojawapo ya hizi Elements ni nembo ya chungwa na B iliyovuka na kuinamisha kidogo:
 
-![Bitcoin logo designed by bitboy, November 2010](assets/en/56.webp)
+![Bitcoin logo designed by bitboy, November 2010](assets/sw/056.webp)
 
 ### Ukuaji wa Uchumi
 
@@ -1268,7 +1295,7 @@ Kipindi hiki pia kinaonyeshwa na ukuaji wa ajabu wa mfumo wa ikolojia katika nga
 
 Elements hizi zote husababisha bei kuongezeka kwa kiasi kikubwa. Wakati inatulia karibu 6¢ tangu Agosti, huanza kuongezeka mwanzoni mwa Oktoba. Inaenda kwa 10 ¢, kufikia 20 ¢ mwishoni mwa mwezi. Mnamo Novemba 6, itazidi hata 50¢, ambayo haikosi [kuwasisimua](https://bitcointalk.org/index.php?topic=1681.0) wanachama wa mijadala.
 
-![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/57.webp)
+![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/sw/057.webp)
 
 Bei ya BTC kati ya tarehe 18 Julai na Oktoba 18, 2010 kwenye Mt. Gox (chanzo: [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html)
 
@@ -1285,9 +1312,9 @@ Kipengele kimoja cha mwisho kinachoonyesha mafanikio ya Bitcoin ni ukweli kwamba
 
 ### Electronic Frontier Foundation inakubali Bitcoin
 
-Tukio muhimu mwishoni mwa 2010 lilikuwa kukubalika kwa Bitcoin na Electronic Frontier Foundation, shirika la kimataifa la kulinda uhuru kwenye Mtandao, lililoanzishwa mwaka wa 1900 na Mitch Kapor, John Gilmore, na John Perry Barlow. Hii ilikuwa muhimu hasa kwa waasili wa mapema wa Bitcoin, ambao walikuwa cypherpunks moyoni. Walikuwa na nia ya kuikubali Bitcoin.
+Tukio muhimu mwishoni mwa mwaka 2010 ni kukubaliwa kwa bitcoin na *Electronic Frontier Foundation*, shirika la kimataifa la kulinda uhuru wa mtandaoni, lililoanzishwa mwaka 1990 na Mitch Kapor, John Gilmore, na John Perry Barlow. Shirika hili ni la thamani kwa wafuasi wa kwanza wa Bitcoin, cypherpunks mioyoni mwao. Kwa hivyo, walikuwa na hamu ya shirika hilo kukubali bitcoin.
 
-![Logo of the Electronic Frontier Foundation](assets/en/58.webp)
+![Logo of the Electronic Frontier Foundation](assets/sw/058.webp)
 
 Alikuwa mjumbe wa jukwaa aitwaye Kiba ambaye alichukua hatua hiyo mnamo Agosti 13, 2010, kwa [kupendekeza](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) kuwasiliana na EFF na kupendekeza wakubali mchango, [zimekusanywa](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) kutoka kwa jumuiya. Kwa kusudi hili, alianzisha [akaunti](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) kwenye MyBitcoin ambapo alikusanya pesa na akataka kuhamisha ufikiaji kwa EFF. Aliandika barua pepe (iliyosahihishwa na jumuiya) ambayo alituma mwishoni mwa Agosti.
 
@@ -1324,6 +1351,8 @@ Katika msimu wa vuli wa 2010, mfumo wa ikolojia unaozunguka Bitcoin ulibadilika 
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
 
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
+
 Tuliona jinsi Bitcoin ilivyoruka kufuatia uchapishaji wa maandishi kwenye Slashdot mnamo Julai 2010. Katika msimu wa joto, pamoja na maendeleo mbalimbali ya programu, Mining, na uchumi, ilihisi kuwa mradi huo ulikuwa kwenye njia sahihi. Ndiyo maana kipindi hiki kiliambatana na uondoaji wa taratibu wa Satoshi Nakamoto.
 
 Kuondoka kwa muundaji wa Bitcoin kulichangiwa na sababu mbili: kwa upande mmoja, changamoto inayoongezeka kwa hadhi yake, ikitaka ugatuzi zaidi na usimamizi wa makubaliano; kwa upande mwingine, hofu yake karibu ya mshangao ya mamlaka za serikali. Motisha hii ya mwisho ilionyeshwa haswa mnamo Desemba 2010 katika muktadha wa kizuizi cha kifedha cha WikiLeaks, ambayo haikuweza tena kupokea pesa kupitia njia za jadi na ambao Bitcoin ilitoa njia mbadala inayofaa. Katika sura hii, tutaelezea kwa undani kufichuka kwa upotevu huu.
@@ -1339,7 +1368,7 @@ Satoshi kwa hakika ndiye kiongozi aliyeteuliwa wa mradi, kile kinachojulikana ka
 Walakini, msimbo wa chanzo wa Bitcoin unabaki bure, kwa hivyo mtu yeyote anaweza kunakili na kuirekebisha, ambayo inazuia mageuzi ya itifaki kuwa ya kiholela kabisa. Kama [ilivyoonyeshwa](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-19.html#l-1538) na Jeff Garzik mnamo Novemba 19:
 
 > "Satoshi ilikuja na nambari za uchawi nje ya hewa nyembamba, na kwa pamoja tunaunga mkono mwelekeo huo. [...] Dakika ya Satoshi inafanya jambo la kichaa ambalo haliungwi mkono na jumuiya, ni wakati ambapo itifaki/codebase inapigwa kwa kweli."
-Kwa hivyo, nafasi ya Satoshi kama kiongozi haizuii ukosoaji kutokea. Hii ndio sababu mivutano inaibuka polepole katika jamii kuanzia Julai. Kwa mfano, pingamizi huzuka wakati wa [bitcointalk.org/index.php?topic=898.msg10745#msg10745) ya mfumo wa arifa mnamo Agosti au [marekebisho](https://bitcointalk.org/index.php?topic=19050505000msg240msg2450mg2450mg245mg245mg245mg245mg245mg245mg245 msg2mchi) Onyesho la `getwork` mnamo Novemba. Kufadhaika kuhusu uamuzi huu wa kidikteta wakati mwingine huonyeshwa [kwa uwazi zaidi](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-24.html#l-384) kwenye IRC.
+Hivyo, jukumu la uongozi la Satoshi halizuii ukosoaji kutokea. Hii ndio sababu mivutano inaonekana polepole katika jumuiya kuanzia mwezi wa Julai. Kwa mfano, maandamano yanajitokeza wakati wa [kuwekwa](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) kwa mfumo wa tahadhari mnamo Agosti au [marekebisho](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) ya kazi ya `getwork` ya Momchil mnamo Novemba. Kukata tamaa kuhusu maamuzi haya ya kiimla huonyeshwa wakati mwingine [waziwazi zaidi](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384) kwenye IRC.
 
 Gavin, ambaye yuko karibu na Satoshi lakini pia anajadiliana na watengenezaji wengine, anaona kwa uwazi tatizo linaloletwa na hali hii. Mnamo Septemba 27, 2010, kwenye IRC, Gavin [anatangaza](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-522) kwamba angependa "kuweza kushawishi \[Satoshi\] kubadili mtindo wa maendeleo shirikishi." (*asili: "Ningetamani tu ningemshawishi atumie muundo shirikishi wa maendeleo."*) Mnamo Oktoba, Gavin [anapata](https://sourceforge.net/p/Bitcoin/code/165/) kuandika ufikiaji wa hazina kwenye SourceForge, ambayo huboresha mambo. Na mnamo Desemba, tatizo linatatuliwa kwa kujitoa kwa ghafla kwa Satoshi kufuatia mlipuko wa jambo la WikiLeaks.
 
@@ -1347,13 +1376,13 @@ Gavin, ambaye yuko karibu na Satoshi lakini pia anajadiliana na watengenezaji we
 
 Tukio la kuchochea la kuondoka kwa Satoshi ni suala la WikiLeaks. WikiLeaks ni shirika lisilo la kiserikali lililoanzishwa na Cypherpunk Julian Assange mnamo 2006, likilenga kutoa sauti kwa watoa taarifa na uvujaji wa habari huku wakilinda vyanzo vyao. Katika mwaka wa 2010, nyaraka za siri zilizofichuliwa na NGO zinawasilishwa na vyombo vya habari na kusababisha mtafaruku katika maoni ya umma. Haya yanatia wasiwasi, hasa, vitendo vya kupindukia vya jeshi la Marekani, kama vile mauaji ya raia na mateso yaliyofanywa, nchini Afghanistan (Shajara ya Vita vya Afghanistan) na Iraq (Magogo ya Vita vya Iraq).
 
-![WikiLeaks logo in November 2010](assets/en/59.webp)
+![WikiLeaks logo in November 2010](assets/sw/059.webp)
 
-Ufadhili wa WikiLeaks unategemea hasa michango ya umma, kwa hivyo shirika linategemea wachakataji malipo kupokea malipo ya mtandaoni. Walakini, kufuatia ufunuo huu, shinikizo linawekwa kwa waamuzi hawa ambao wanaogopa majibu ya mdhibiti. Hii ndiyo sababu kampuni ya malipo ya mtandaoni Moneybookers [yafungiwa](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) akaunti ya NGO tarehe 14 Oktoba.
+Ufadhili wa WikiLeaks unategemea hasa michango ya umma, hivyo shirika hilo linategemea waendesha malipo kupokea malipo ya mtandaoni. Hata hivyo, kufuatia ufichuzi huu, shinikizo linawekwa kwa wahusika hawa wa tatu ambao wanaogopa majibu ya mdhibiti. Hii ndio sababu kampuni ya malipo ya mtandaoni Moneybookers [inazuia](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) akaunti ya shirika lisilo la kiserikali mnamo Oktoba 14.
 
 Hali hii inafungua njia ya kifalme kwa matumizi ya Bitcoin, ambayo haitegemei mtu wa tatu anayeaminika na ingepinga udhibiti wa kifedha bora zaidi. Dhana hiyo ilifunguliwa kwenye kongamano mnamo Novemba na Amir Taaki, Muingereza mwenye umri wa miaka 22 mwenye asili ya Irani akitumia jina bandia la genjix.
 
-![Amir Taaki in December 2012 in Bratislava](assets/en/60.webp)
+![Amir Taaki in December 2012 in Bratislava](assets/sw/060.webp)
 
 Amir Taaki mnamo Desemba 2012 huko Bratislava (chanzo: [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 
@@ -1405,7 +1434,7 @@ Miongoni mwa watu wa mwisho kuwasiliana na Satoshi pia alikuwa Mike Hearn, mhand
 Mnamo Aprili 26, 2011, Satoshi ilituma [ujumbe wa mwisho](http://gavinandresen.ninja/eleven-years-ago-today) kupitia barua pepe kwa Gavin, ambapo aliandika:
 
 > "Natamani usingeendelea kunizungumzia kama mtu asiyeeleweka, vyombo vya habari vinageuza hilo kuwa pembe ya sarafu ya maharamia. &nbsp;Labda badala yake uelezee kuhusu mradi wa chanzo huria na kuwapa sifa zaidi wachangiaji wako wa usanidi; inasaidia kuwapa motisha."
-Hapa, Satoshi ilikuwa inarejelea [makala](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) ya Andy Greenberg iliyochapishwa kwenye tovuti ya Forbes siku chache mapema, ambamo aliwasilishwa kama "fiche-ya ajabu" (takwimu ya siri) takwimu za ajabu, zinazozingatia faragha"*) na ambapo Bitcoin iliangaziwa kama njia ya kupata dawa haramu (kwa hakika, hiki ndicho kilikuwa kipindi ambapo jukwaa la Njia ya Hariri lilianza kupata mafanikio). Katika barua pepe yake kwa Gavin, Satoshi pia iliambatanisha ufunguo wa tahadhari, ambao unaweza kutumika kuonya mtandao ikiwa kuna matatizo ya kiufundi.
+Hapa, Satoshi ilikuwa inarejelea [makala](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) ya Andy Greenberg iliyochapishwa kwenye tovuti ya Forbes siku chache mapema, ambamo aliwasilishwa kama **"fiche-ya ajabu" (takwimu ya siri) takwimu za ajabu, zinazozingatia faragha"** na ambapo Bitcoin iliangaziwa kama njia ya kupata dawa haramu (kwa hakika, hiki ndicho kilikuwa kipindi ambacho jukwaa la Njia ya Hariri lilianza kupata mafanikio). Katika barua pepe yake kwa Gavin, Satoshi pia iliambatanisha ufunguo wa tahadhari, ambao unaweza kutumika kuonya mtandao ikiwa kuna matatizo ya kiufundi.
 
 Hatimaye, mapema Mei, pia alisema kwaheri yake kwa Martti. Maneno yake ya mwisho kwa mtu wake wa kwanza wa kulia yalikuwa:
 
@@ -1443,6 +1472,8 @@ Kipengele hiki cha ajabu kinachomzunguka mtayarishaji wa Bitcoin kilitolewa kwa 
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
+
 Baada ya kuondoka kwa Satoshi Nakamoto, ikawa muhimu kuendelea bila yeye. Kwa bahati nzuri, Bitcoin ilikuwa mradi wazi, ambao mtu yeyote angeweza kuchangia, hivyo kutoweka kwa mwanzilishi wake haikuwa mbaya kwa ajili yake. Kama msanidi programu Jeff Garzik aliandika mnamo Julai 2010 (kuhusu uwezekano wa kutokuwepo kwa mwanzilishi):
 
 > "Watu wana wasiwasi sana kuhusu sheria na utungaji sheria. Lakini hakuna haja ya kuendesha mpango wowote wa Mwendelezo wa Mpango wa Serikali, hapa. Maadamu kanuni ya chanzo inabaki wazi, hiyo inatosha. Ikiwa kuna haja, na maslahi ya kutosha, jumuiya itatoa. Imani katika jumuiya."
@@ -1472,25 +1503,25 @@ Lakini kimsingi ni usimamizi wa tovuti ambao Martti anahitaji kukabidhi. Mwishon
 
 Muonekano wake pia ulibadilika. Mnamo Desemba 2010, tovuti bado ilionekana kama ilivyokuwa wakati wa Satoshi. Hii hapa [picha](https://web.archive.org/web/20101110005546/http://www.Bitcoin.org/) kutoka Desemba 5:
 
-![Snapshot of Bitcoin.org from December 5, 2010](assets/en/61.webp)
+![Snapshot of Bitcoin.org from December 5, 2010](assets/sw/061.webp)
 
 Kwa hivyo, mguso wa rangi [uliongezwa](https://web.archive.org/web/20110216125441/http://www.Bitcoin.org/) mapema 2011:
 
-![Snapshot of Bitcoin.org from February 16, 2011](assets/en/62.webp)
+![Snapshot of Bitcoin.org from February 16, 2011](assets/sw/062.webp)
 
 Mnamo Aprili, kufuatia usanifu upya [uliopangwa](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) na jumuiya, mpangilio wa tovuti ulibadilika. Hivi ndivyo ilivyokuwa [ilionekana]( https://web.archive.org/web/20110411071904/http://www.Bitcoin.org/) basi:
 
-![Snapshot of Bitcoin.org from April 11, 2011](assets/en/63.webp)
+![Snapshot of Bitcoin.org from April 11, 2011](assets/sw/063.webp)
 
 Hatimaye, mnamo Septemba 2011, mabadiliko mapya [yalifanywa](https://buildingbitcoin.org/Bitcoin-dev/log-2011-08-31.html#l-691) na Nils Schneider. Hazina mpya ya GitHub [iliundwa](https://github.com/Bitcoin/Bitcoin.org) kwa hafla hiyo. Muundo huu ungedumu kwa muda mrefu zaidi: haungebadilishwa hadi 2013. Hii hapa (kumbuka kwamba Bitcoin-the-software basi inafafanuliwa kama "mradi wa chanzo huria unaoendeshwa na jumuiya"):
 
-![Snapshot of Bitcoin.org from September 23, 2011](assets/en/64.webp)
+![Snapshot of Bitcoin.org from September 23, 2011](assets/sw/064.webp)
 
 Kuhusu wiki, hapo awali ilitegemea DokuWiki, injini isiyolipishwa iliyojumuishwa kwenye tovuti. Hata hivyo, mnamo Desemba 2010, Mark Karpelès, msanidi programu Mfaransa anayeishi Japani na akitumia jina bandia la MagicalTux kwenye kongamano, aliunda wiki mpya katika Address Bitcoin.it. Wiki hii inategemea injini ya MediaWiki, ambayo anaona kifahari zaidi na rahisi kutumia. Wazo la awali si kuchukua nafasi ya hati zilizopo, lakini, kama Mark [anavyoeleza](https://buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848) kwenye IRC, ili kuunda "wiki isiyo rasmi, yenye mwelekeo wa jamii zaidi."
 
 Wiki hii mpya inawavutia [Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) na [Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg315), ili waifanye wiki kuu kwa haraka. Hii hapa ni [picha](https://web.archive.org/web/20110521044430/https://en.Bitcoin.it/wiki/Main_Page) iliyopigwa Mei 21:
 
-![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/65.webp)
+![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/sw/065.webp)
 
 Siku chache baada ya uzinduzi, kiungo kinachoitwa "wiki" kwenye ukurasa wa nyumbani wa Bitcoin.org [pointi](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) kwenda kwa Bitcoin.it. Maudhui huhamishwa hatua kwa hatua kutoka kwa toleo la DokuWiki. Mnamo Januari 31, Martti [anaonyesha](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) kwenye jukwaa kwamba hii ndiyo wiki mpya.
 
@@ -1502,7 +1533,7 @@ Kwa kupanda kwa thamani katika msimu wa joto wa 2011, Martti Malmi [aliuzwa](htt
 
 Sio tu upande wa kiufundi unaoathiriwa na kuondoka kwa mwanzilishi na haja ya kushirikiana: pia kuna kipengele cha kijamii, ambacho husaidia kuimarisha jumuiya kwa kuunda viungo kati ya wanachama. Ndiyo maana mikutano na mikutano hupangwa "katika maisha halisi". Matukio haya pia yana faida ya kutambulisha Bitcoin kwa watu ambao wanaweza kuwa sugu kwa maudhui ya mtandaoni.
 
-Mikutano ya kwanza ya watumiaji wa Bitcoin ilianzishwa na Bruce Wagner, mtangazaji wa [YouTube channel] (https://www.youtube.com/@vlogwrap) iliyoonyeshwa kwenye televisheni, ambapo aliunda kipindi kilichoitwa *Bitcoin Show* Aprili 2011. Mkutano wa kwanza kabisa [ulifanyika] mahali](https://bitcointalk.org/index.php?topic=1891.msg29174#msg29174) mjini New York mnamo Desemba 11, 2010 (UTC). Baadaye, mkutano wa aina sawa [ulifanyika](https://web.archive.org/web/20110413231434/http://Bitcoin.meetup.com/) huko Washington D.C. Mkutano pia ulifanyika [iliyopangwa](https://bitcointalk.org/index.php?topic=2716.msg36886#msg36886) mnamo Februari 5, 2011, mjini Zurich, Uswizi na Mike Hearn, huku Christian Decker na Stefan Thomas (justmoon) wakijiunga.
+Mikutano ya kwanza ya watumiaji wa Bitcoin ilianzishwa na Bruce Wagner, mtangazaji wa [YouTube channel](https://www.youtube.com/@vlogwrap) iliyoonyeshwa kwenye televisheni, ambapo aliunda kipindi kilichoitwa *Bitcoin Show* Aprili 2011. Mkutano wa kwanza kabisa [ulifanyika] mahali](https://bitcointalk.org/index.php?topic=1891.msg29174#msg29174) mjini New York mnamo Desemba 11, 2010 (UTC). Baadaye, mkutano wa aina sawa [ulifanyika](https://web.archive.org/web/20110413231434/http://Bitcoin.meetup.com/) huko Washington D.C. Mkutano pia ulifanyika [iliyopangwa](https://bitcointalk.org/index.php?topic=2716.msg36886#msg36886) mnamo Februari 5, 2011, mjini Zurich, Uswizi na Mike Hearn, huku Christian Decker na Stefan Thomas (justmoon) wakijiunga.
 
 Februari pia ni alama ya [wasilisho la kwanza lililorekodiwa](https://www.youtube.com/watch?v=koIq58UoNfE) la Bitcoin, lililoendeshwa na Gavin Andresen tarehe 8 wakati wa hafla iliyoandaliwa katika mji wake wa Amherst, Massachusetts. Inayoitwa "Kutengeneza Pesa," wasilisho la msimamizi mpya wa mradi ni pamoja na lugha nyingi za Elements ambazo zingebainisha jinsi sarafu-fiche inavyowasilishwa katika miaka inayofuata.
 
@@ -1510,13 +1541,13 @@ Februari pia ni alama ya [wasilisho la kwanza lililorekodiwa](https://www.youtub
 
 Ingawa matukio ya kwanza yalifanyika Marekani, jumuiya ya Wafaransa haikuachwa nyuma. Mnamo Mei 25, kuashiria ziara ya Gavin Andresen huko Paris, chakula cha mchana kiliandaliwa katika wilaya ya La Défense, iliyohudhuriwa na watu mashuhuri kama vile Lucien Grondin, David François, na Jon Matonis (ambaye pia alikuwa akitembelea).
 
-![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/66.webp)
+![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/sw/066.webp)
 
 Mkutano huko La Défense mjini Paris na Gavin Andresen, mwenye shati la waridi (chanzo: [kumbukumbu ya jukwaa](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40)
 
 Mwezi mmoja baadaye, tarehe 15 Juni, onyesho la kwanza la umma la Bitcoin katika Kifaransa [lilifanyika](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831), tena huko Paris. Ilifanywa na Renaud Lifchitz (nono2357), mtaalam mchanga wa usalama wa mtandao ambaye alikuwa amegundua Bitcoin mwaka mmoja mapema. [Maudhui yaliyowasilishwa](https://prezi.com/tikwkjt9ouey/Bitcoin-une-monnaie-electronique-pour-tous/) yalikuwa ya ubora wa juu sana, na idadi ya waliohudhuria ilikuwa nzuri sana hivi kwamba chumba kilikuwa kimejaa.
 
-![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/67.webp)
+![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/sw/067.webp)
 
 Wasilisho la Bitcoin na Renaud Lifchitz mnamo Juni 15, 2011 (chanzo: [kumbukumbu ya jukwaa](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
@@ -1538,7 +1569,7 @@ Kwanza, video juu ya mada hiyo zilianza kuenea kwenye Youtube. Mnamo Machi 22, v
 
 Mnamo Aprili, mada ya sarafu ya kidijitali ilishughulikiwa na vyombo vikuu vya habari kama vile [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Gazeti](https://techland.time.com/2011/04/16/online-cash-Bitcoin-could-challenge-governments/), na [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-bitcoins-currency-bitcoins-). Mnamo Mei, harakati hiyo ilishika kasi, na Bitcoin ilitajwa karibu kila mahali, haswa katika [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/P2P-GW), [Slate](https://slate.com/business/2011/05/Bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), kwenye [Gizmodo](https://gizmodo.com/what-is-Bitcoin) [TechCrunch](https://techcrunch.com/2011/05/20/Bitcoin-ven-and-the-end-of-currency/).
 
-![Gavin Andresen in Forbes in April 2011](assets/en/68.webp)
+![Gavin Andresen in Forbes in April 2011](assets/sw/068.webp)
 
 Gavin Andresen katika Forbes mnamo Aprili 2011 (chanzo: [Jalada la Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-bitcoins-currency-crypto
 
@@ -1550,13 +1581,13 @@ Wanablogu binafsi pia wanavutiwa. Hivi ndivyo ilivyo kwa Rick Falkvinge, mwanzil
 
 Umaarufu wa Bitcoin unamaanisha kuwa bei yake inaongezeka sana. Ingawa ilikuwa imeshuka hadi senti 20 mnamo Desemba 2010, ilifikia usawa na dola mnamo Februari 9, 2011. Wakati huo, Hal Finney [alisema](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) kwamba wanajamii waliobahatika kuwa mwanzo wa mwanzo wa milipuko jambo." Alikuwa na silika nzuri, kwani kinachofuata ni haraka haraka.
 
-![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/69.webp)
+![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/sw/069.webp)
 
 Picha iliyochapishwa na jimbobway kwenye jukwaa siku ya usawa na dola (chanzo: [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
 Hakika, mshtuko wa vyombo vya habari vya majira ya kuchipua husababisha hatua kwa hatua kuunda jambo la kubahatisha ambalo halijawahi kutokea. Baada ya kudumaa karibu $1 kwa miezi kadhaa, bei hupanda na kufikia $3 mwishoni mwa Aprili. Mnamo Mei, ni $8. Hatimaye, mnamo Juni 8, bei ya Bitcoin inafikia juu ya kihistoria ya $ 32 kwenye Mlima Gox! Ongezeko hili linalingana na ongezeko la mara 160 ndani ya miezi 6.
 
-![Average price of BTC between January 1 and June 30, 2011](assets/en/70.webp)
+![Average price of BTC between January 1 and June 30, 2011](assets/sw/070.webp)
 
 Bei ya wastani ya BTC kati ya tarehe 1 Januari na Juni 30, 2011 (chanzo: [Bitbo.io](https://calendar.bitbo.io/price/))
 

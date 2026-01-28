@@ -1,13 +1,12 @@
-question: Co to jest Hot Wallet?
-answer: Bitcoin Wallet na telefonie lub komputerze podłączonym do Internetu.
+question: Jakie jest zalecane zastosowanie portfela wielopodpisowego?
+answer: Przechowywanie dużych ilości pieniędzy do użytku korporacyjnego.
 wrong_answers:
-  - Wallet, który jest fizycznie Hot w dotyku.
-  - Wallet, który jest popularny wśród użytkowników Bitcoin.
-  - Wallet, który jest zalecany do przechowywania dużych ilości bitcoinów.
+  - Przechowywanie niewielkich ilości pieniędzy na własny użytek.
+  - Przechowywanie średnich ilości pieniędzy do użytku non-profit.
+  - Przechowywanie pieniędzy na codzienne wydatki do indywidualnego użytku.
 explanation: |
-  Hot Wallet to termin używany do opisania Bitcoin Wallet
-  który jest przechowywany na urządzeniu z dostępem do Internetu, takim jak
-  telefon lub komputer. W ten sposób można łatwo przeprowadzać
-  transakcji, ale oznacza to również, że Wallet jest potencjalnie
-  potencjalnie podatny na zagrożenia internetowe.
+  Portfel wielopodpisowy jest zalecany do przechowywania dużych ilości danych
+  i do użytku korporacyjnego, ponieważ do wykonania transakcji wymaga wielu
+  podpisów. Ten proces dodaje dodatkową warstwę bezpieczeństwa, ponieważ pojedyncza osoba nie może
+  przeprowadzić transakcji bez zgody innych osób.
 reviewed: true

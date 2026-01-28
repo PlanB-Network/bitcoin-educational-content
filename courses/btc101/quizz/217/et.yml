@@ -1,11 +1,9 @@
-question: Millistes valdkondades tekitab Bitcoin küsimusi?
-answer: Krüptograafia, mänguteooria, majandus ja rahapoliitika, arvutiteadus, filosoofia, energia, seadused ja regulatsioonid
+question: Mis on Lightning Networki peamine eesmärk?
+answer: Võimaldada offchain-makseid, mis on kiired ja odavad
 wrong_answers:
-  - Ainult arvutiteadus ja majandus
-  - Ainult krüptograafia ja mänguteooria
-  - Ainult filosoofia ja energia
-explanation: >-
-  Bitcoin on multidistsiplinaarne objekt, mis tekitab küsimusi seoses
-  mitmete valdkondadega, sealhulgas krüptograafia, mänguteooria, majandus ja rahapoliitika,
-  arvutiteadus, filosoofia, energia, seadused ja regulatsioonid.
+  - Suurendada Bitcoini plokiahela plokkide suurust
+  - Asendada Bitcoini plokiahel järk-järgult tõhusama süsteemiga
+  - Teha kaevandusfarmid väga rikkaks
+explanation: |
+  Lightning Networki eesmärk on võimaldada peaaegu koheseid bitcoini makseid madalate tasudega, koormamata põhivõrku.
 reviewed: false

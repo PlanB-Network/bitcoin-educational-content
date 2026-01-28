@@ -1,11 +1,9 @@
-question: Hva er én måte å legge til rette for bruk av Bitcoin i daglige transaksjoner?
-answer: Liste opp alle forhandlere som aksepterer Bitcoin
+question: Hva er en av måtene å skaffe Bitcoins uten KYC?
+answer: Bitcoin-automater.
 wrong_answers:
-  - Øke prisen på Bitcoin
-  - Redusere antallet Bitcoins
-  - Begrense bruken av Bitcoin
+  - Meglerplattformer.
+  - DCA-plattformer.
+  - Bankoverføringer.
 explanation: >-
-  Én måte å legge til rette for bruk av Bitcoin i daglige transaksjoner på,
-  er å liste opp alle forhandlere som aksepterer Bitcoin. Dette kan gjøres gjennom plattformer
-  som BTCMap.
+  Teksten nevner at det er flere måter å skaffe Bitcoins uten KYC, hvorav en er Bitcoin-automater.
 reviewed: false

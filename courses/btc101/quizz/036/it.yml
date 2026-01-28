@@ -1,9 +1,12 @@
-question: Cosa significa il termine fiduciario nel contesto delle valute?
-answer: Si riferisce a valute che sono considerate di valore solo a causa della fiducia nell'istituzione centrale che le regola.
+question: Qual è il percorso storico seguito dalle istituzioni nell'introduzione delle valute fiat?
+answer: I leader centralizzano l'oro e introducono una nuova valuta equivalente all'oro in valore, che viene poi gradualmente svalutata.
 wrong_answers:
-  - Si riferisce a valute che sono supportate dall'oro e sono emesse da piccole banche commerciali.
-  - Si riferisce a valute che hanno valore solo per transazioni fiduciarie.
-  - Si riferisce a valute che sono utilizzate solo all'interno di una specifica istituzione.
+  - I leader introducono una nuova valuta supportata dall'oro, che viene poi gradualmente aumentata in valore.
+  - I leader introducono una nuova valuta senza valore intrinseco, che viene poi gradualmente aumentata in valore.
+  - I leader introducono una nuova valuta supportata da un paniere di materie prime, che viene poi mantenuta stabile in valore.
 explanation: |
-  Le valute fiduciarie non sono supportate da una merce fisica come l'oro o l'argento. Il loro valore deriva dalla fiducia che le persone hanno nelle istituzioni che le emettono e le regolano.
-reviewed: true
+  Storicamente, i leader hanno centralizzato l'oro e introdotto
+  una nuova valuta equivalente in valore all'oro. Questa nuova
+  valuta viene poi gradualmente svalutata, spesso sotto la pretesa
+  di essere nell'interesse del popolo.
+reviewed: vero

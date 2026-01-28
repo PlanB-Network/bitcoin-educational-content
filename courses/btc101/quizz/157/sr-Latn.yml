@@ -1,14 +1,8 @@
-question: Šta je problem vizantijskih generala?
-answer: To je problem koordinacije informacija u sistemu gde se raznim akterima ne može verovati.
+question: Koja je glavna prednost Bitkoina za pojedince koji žive pod finansijskom represijom ili diktatorskim režimima?
+answer: Imati priliku da izbegneš cenzuru i bankarska ograničenja.
 wrong_answers:
-  - To je problem verifikacije transakcija u decentralizovanoj mreži.
-  - To je problem sprečavanja dvostrukog trošenja u digitalnoj valuti.
-  - To je problem održavanja konsenzusa u centralizovanoj mreži.
-explanation: |
-  Problem Vizantijskih generala je klasičan problem u
-  distribuiranom računarstvu, koji uključuje postizanje konsenzusa
-  u mreži gde neki od čvorova mogu biti neispravni ili
-  zlonamerni. Bitkoin rešava ovaj problem korišćenjem
-  Blockchain zasnovanog na Proof of Work, što osigurava da svi
-  čvorovi postignu saglasnost o stanju istorije transakcija.
+  - Korišćenje stabilne valute koja ima fiksnu vrednost.
+  - Dozvoljavanje anonimnih transakcija.
+  - Dobijanje visokih prinosa na investicije.
+explanation: >-
 reviewed: true

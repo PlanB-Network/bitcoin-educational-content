@@ -8,4 +8,4 @@ Byzantine error ehk Byzantine behavior tähendab süsteemi mis tahes käitumist,
 
 Autentimine, allkirjastamine ja konsensus krüptograafiliste vahendite ja "Byzantine Fault Tolerant (BFT)" algoritmide abil aitavad neid probleeme leevendada.
 
-> ► *Bütsantsi ebaõnnestumine viitab Bütsantsi kindralite probleemile, mis on metafoor, mis käsitleb ülekannete usaldusväärsuse ja osapoolte aususe kahtluse alla seadmist
+> ► *Bütsantsi ebaõnnestumine viitab Bütsantsi kindralite probleemile, mis on metafoor, mis käsitleb ülekannete usaldusväärsuse ja osapoolte aususe kahtluse alla seadmist*

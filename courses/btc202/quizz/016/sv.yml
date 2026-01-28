@@ -1,0 +1,9 @@
+question: Vem var den sista huvudunderhållaren för Bitcoin core innan denna roll avskaffades 2023?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan innehade denna roll från 2014 till 2023, som efterträdare till Gavin Andresen och innan rollen upphörde.
+reviewed: true

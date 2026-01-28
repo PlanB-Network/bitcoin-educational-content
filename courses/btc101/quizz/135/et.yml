@@ -1,9 +1,9 @@
-question: Mis on raskusastme kohandamise tähtsus Bitcoin'i võrgus?
-answer: See tagab, et plokk lisatakse ligikaudu iga kümne minuti järel.
+question: Mis on kärbitud sõlm Bitcoin'i kontekstis?
+answer: Sõlm, mis hoiab mälus ainult viimaseid N plokke
 wrong_answers:
-  - See määrab Bitcoin'i hinna.
-  - See reguleerib, mitu Bitcoin'i saab kaevandada.
-  - See määrab ploki suuruse.
+  - Sõlm, mis valideerib ainult tehinguid
+  - Sõlm, mis edastab informatsiooni ainult teistele sõlmedele
+  - Sõlm, mis jõustab ainult Bitcoin'i protokolli reegleid
 explanation: >-
-  Raskusastme kohandamine Bitcoin'i võrgus tagab, et plokk lisatakse ligikaudu iga kümne minuti järel. See on osa Bitcoin'i võrgu protokolli reeglitest.
+  Kärbitud sõlm Bitcoin'i kontekstis on sõlm, mis hoiab mälus ainult viimaseid N plokke.
 reviewed: false

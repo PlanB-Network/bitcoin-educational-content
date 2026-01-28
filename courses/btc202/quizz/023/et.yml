@@ -1,0 +1,9 @@
+question: Mis vahe on konsensusreeglitel ja releereeglitel?
+answer: Konsensus määratleb kehtivuse, edastab tehingute levitamise
+wrong_answers:
+  - Konsensus määratleb tasud, relee määratleb aadressid
+  - Konsensus haldab Blockchain, relee haldab isiklikke võtmeid
+  - Konsensus valib kaevurid, relee valib kaupmehed
+explanation: |
+  Konsensusreeglid määravad kindlaks, mis on Bitcoin-s kehtiv, samas kui releereeglid haldavad sõlmede vahelisi tehinguid.
+reviewed: true

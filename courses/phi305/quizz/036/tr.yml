@@ -1,0 +1,9 @@
+question: Gilles Deleuze kimdir?
+answer: 80'lerde Spinoza üzerine uzmanlaşmış bir felsefe öğretmeni.
+wrong_answers:
+  - Bir politikacı.
+  - Liberal bir ekonomist.
+  - Bir mucit.
+explanation: |
+  Gilles Deleuze (1925-1995) 1980'lerde Fransız bir felsefe profesörü ve ünlü bir Spinoza uzmanıydı. Spinoza et le problème de l'expression (Spinoza ve İfade Sorunu) adlı kitabı Etika okumalarımızı yeniledi.
+reviewed: false

@@ -11,7 +11,7 @@ A proteção das informações pessoais na era digital é uma prioridade máxima
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Introdução ao PureOS
 
@@ -27,25 +27,25 @@ PureOS é um sistema operativo baseado em Debian desenvolvido pela Purism. O Pur
 
 
 
-- Interface** simples e intuitivo: O GNOME oferece um ambiente de trabalho Interface claro, concebido para ser fácil de utilizar, mesmo para pessoas que não se sentem confortáveis com a linha de comandos.
+- **Interface simples e intuitivo**: O GNOME oferece um ambiente de trabalho claro, concebido para ser fácil de utilizar, mesmo para pessoas que não se sentem confortáveis com a linha de comandos.
 
 
 
 
 
-- Gratuito**: tal como a maioria das distribuições Linux, o PureOS é de utilização totalmente gratuita. No entanto, está disponível uma subscrição mensal para apoiar os programadores.
+- **Gratuito**: tal como a maioria das distribuições Linux, o PureOS é de utilização totalmente gratuita. No entanto, está disponível uma subscrição mensal para apoiar os programadores.
 
 
 
 
 
-- Segurança e estabilidade**: A arquitetura e o modo de funcionamento do PureOS fazem dele uma distribuição altamente segura, garantindo a proteção dos dados e a estabilidade do sistema.
+- **Segurança e estabilidade**: A arquitetura e o modo de funcionamento do PureOS fazem dele uma distribuição altamente segura, garantindo a proteção dos dados e a estabilidade do sistema.
 
 
 
 
 
-- Documentação e comunidade ativa**: O PureOS tem uma documentação clara e acessível e uma comunidade empenhada e recetiva, facilitando a resolução de problemas e a aprendizagem do sistema passo a passo.
+- **Documentação e comunidade ativa**: O PureOS tem uma documentação clara e acessível e uma comunidade empenhada e recetiva, facilitando a resolução de problemas e a aprendizagem do sistema passo a passo.
 
 
 
@@ -64,11 +64,11 @@ A instalação e configuração do PureOS no seu computador exigirá as seguinte
 
 
 
-Aceda ao [sítio Web oficial do PureOS] (https://pureos.net/) e transfira a imagem ISO do sistema operativo de acordo com a arquitetura da sua máquina.
+Aceda ao [sítio Web oficial do PureOS](https://pureos.net/) e transfira a imagem ISO do sistema operativo de acordo com a arquitetura da sua máquina.
 
 
 
-Para iniciar a instalação do PureOS, é necessário criar uma chave USB de arranque utilizando um software flash como o [Balena Etcher] (https://www.balena.io/etcher).
+Para iniciar a instalação do PureOS, é necessário criar uma chave USB de arranque utilizando um software flash como o [Balena Etcher](https://www.balena.io/etcher).
 
 
 
@@ -181,7 +181,7 @@ Existem duas opções para particionar o disco Hard:
 
 
 
-- Apagar disco**: Para uma instalação completa do PureOS, eliminando todos os dados pré-existentes no seu disco Hard.
+- **Apagar disco**: Para uma instalação completa do PureOS, eliminando todos os dados pré-existentes no seu disco Hard.
 
 
 
@@ -191,7 +191,7 @@ Existem duas opções para particionar o disco Hard:
 
 
 
-- Particionamento manual** para criar as suas próprias partituras
+- **Particionamento manual** para criar as suas próprias partituras
 
 
 
@@ -260,7 +260,7 @@ Antes de começar a utilizar o PureOS, é essencial atualizar o seu sistema. Ist
 
 
 
-- Atualização através do gráfico Interface**:
+- Atualização através do gráfico **Interface**:
 
 
 Abra a aplicação **Software** e, em seguida, aceda ao separador **Atualizações**. As actualizações disponíveis são automaticamente apresentadas. Clique em **Download** e, em seguida, em **Instalar** quando o download estiver concluído.
@@ -269,7 +269,7 @@ Abra a aplicação **Software** e, em seguida, aceda ao separador **Atualizaçõ
 
 
 
-- Atualização através do terminal**:
+- **Atualização através do terminal**:
 
 
 Abra o terminal e introduza o seguinte comando para atualizar a lista de pacotes disponíveis:
@@ -331,9 +331,9 @@ O PureOS também inclui a suite de escritório **LibreOffice**, que inclui:
 
 
 
-- Writer**: um processador de texto completo para criar e editar documentos.
-- Calc**: um poderoso programa de folha de cálculo para gerir os seus dados e cálculos.
-- Impress**: uma ferramenta para criar apresentações profissionais.
+- **Writer**: um processador de texto completo para criar e editar documentos.
+- **Calc**: um poderoso programa de folha de cálculo para gerir os seus dados e cálculos.
+- **Impress**: uma ferramenta para criar apresentações profissionais.
 
 
 
@@ -353,4 +353,4 @@ Descubra o nosso curso sobre como reforçar a sua segurança e proteger a sua pr
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

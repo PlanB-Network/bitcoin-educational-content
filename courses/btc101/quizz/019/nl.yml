@@ -1,12 +1,13 @@
-question: Wat zijn de drie canonieke functies van geld?
-answer: Waardeopslag, Medium van Exchange, Rekeneenheid.
+question: Waarom kan goud niet goed presteren in een geglobaliseerde en digitale wereld?
+answer: Omdat het een centrale entiteit nodig heeft om het deelbaar en gemakkelijk uitwisselbaar te maken.
 wrong_answers:
-  - Waardeopslag, Medium van Exchange, Productiemiddel.
-  - Waardeopslag, Productiemiddel, Rekeneenheid.
-  - Exchange, productiemiddel, rekeneenheid.
+  - Omdat het niet waardevol genoeg is.
+  - Omdat het niet zeldzaam genoeg is.
+  - Omdat het na verloop van tijd erodeert.
 explanation: |
-  Volgens Aristoteles heeft geld drie functies: het is
-  een opslagplaats van waarde, een medium van Exchange en een rekeneenheid
-  rekeneenheid. Tegenwoordig wordt de functie van Exchange
-  algemeen erkend als de belangrijkste, vóór de andere twee.
+  Goud kan niet bijblijven in een geglobaliseerde en digitale wereld
+  omdat het een centrale entiteit nodig heeft om het deelbaar en
+  gemakkelijk uitwisselbaar te maken. Dit maakt het minder praktisch om te gebruiken in
+  een wereld waar transacties steeds meer digitaal en
+  gedecentraliseerd.
 reviewed: true

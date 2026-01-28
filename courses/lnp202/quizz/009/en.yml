@@ -1,0 +1,9 @@
+question: What power does a custodial operator have over its users' payments?
+answer: Power of censorship
+wrong_answers:
+  - Mining power
+  - Power of consensus
+  - Halving power
+explanation: |
+  An operator who controls funds and channels can block, delay or filter payments.
+reviewed: false

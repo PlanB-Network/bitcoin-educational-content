@@ -1,0 +1,8 @@
+question: 哪種方法可讓您從 Result 擷取數值，同時在發生錯誤時提供自訂的恐慌訊息？
+answer: 預期
+wrong_answers:
+  - unwrap_or_else
+  - 解除包含訊息的包裝
+  - 恐慌
+explanation: |
+  expect 方法專門設計用來從 Result 擷取成功值，同時允許您提供自訂的恐慌訊息，以便在發生錯誤時顯示。與使用一般恐慌訊息的 unwrap 相比，這讓除錯變得更容易。unwrap_or_else 方法不會恐慌，而是在發生錯誤時執行一個閉鎖。其他選項（unwrap_with_message 和 panic_with）並非處理結果類型的實際 Rust 方法。

@@ -1,11 +1,9 @@
-question: Ni ryari Bitcoin yashikirijwe isi ubwa mbere?
-answer: Ukwakira 2008.
+question: Kuva ryaremwa, ni igihe kingana iki urubuga rwa Bitcoin rwamaze rukora?
+answer: 99,988%.
 wrong_answers:
-  - Mukakaro 2009.
-  - Ukwakira 22, 2009.
-  - Ukuboza 2010.
+  - 100%.
+  - 90,009%.
+  - 80,17%.
 explanation: |
-  Bitcoin yashikirijwe isi ubwa mbere kw’igenekerezo rya 31 Gitugutu 2019.
-  2008, igihe Satoshi Nakamoto yohereza ubutumwa kuri Cypherpunk.
-  urutonde rw’ivyoherezwa rurimwo Igitabu Cera ca Bitcoin.
+  Uguboneka kuri internet kwa Bitcoin ni 99.988% kuva mu 2009.
 reviewed: true

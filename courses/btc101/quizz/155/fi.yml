@@ -1,9 +1,12 @@
-question: Mikä on coinbase-transaktio?
-answer: Lohkon ensimmäinen transaktio, joka sisältää louhijan palkkion.
+question: Mikä on louhijoiden rooli Bitcoin-protokollassa?
+answer: He turvaavat nykyisen ja historiallisen verkon.
 wrong_answers:
-  - Transaktio, joka suoritetaan pörssissä Coinbase.
-  - Lohkon toinen transaktio, joka sisältää korkeimmat maksut.
-  - Transaktio, jonka louhija suorittaa saatuaan palkkion.
-explanation: >-
-  Coinbase-transaktio on aina lohkon ensimmäinen transaktio. Se sisältää louhijan palkkion validointityön suorittamisesta.
+  - He säätelevät Bitcoinin hintaa.
+  - He hallitsevat Bitcoinin tarjontaa.
+  - He hallinnoivat käyttäjien välisiä transaktioita.
+explanation: |
+  Louhijat Bitcoin-protokollassa turvaavat sekä nykyisen että
+  historiallisen verkon. He eivät säätele Bitcoinin hintaa,
+  hallitse sen tarjontaa, eivätkä hallinnoi transaktioita
+  käyttäjien välillä.
 reviewed: true

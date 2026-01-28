@@ -1,0 +1,9 @@
+question: Che cos'è il determinismo?
+answer: Una concezione del mondo in cui non esistono né la contingenza né il caso.
+wrong_answers:
+  - Una visione del mondo determinata da Dio.
+  - Una forma di ateismo.
+  - Una superstizione.
+explanation: |
+  Il determinismo è una visione del mondo in cui non esistono né la contingenza né il caso. Ogni evento è la conseguenza necessaria di cause precedenti, secondo leggi naturali immutabili.
+reviewed: false

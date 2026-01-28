@@ -1,0 +1,8 @@
+question: Apa yang terjadi pada privasi kondisi pembelanjaan transaksi P2SH dari waktu ke waktu?
+answer: Kondisi pembelanjaan tetap tersembunyi hingga pembelanjaan pertama, kemudian menjadi terlihat secara permanen on-chain
+wrong_answers:
+  - Kondisi pembelanjaan tetap bersifat pribadi secara permanen bahkan setelah beberapa transaksi dilakukan
+  - Kondisi pengeluaran segera terlihat ketika alamat P2SH pertama kali dibuat
+  - Kondisi pengeluaran menjadi terlihat sementara selama pengeluaran tetapi disembunyikan lagi setelahnya
+explanation: |
+  P2SH memberikan privasi dengan menyembunyikan kondisi pengeluaran yang sebenarnya (redeem script) di balik hash dalam scriptPubKey. Hanya hash 20-byte yang terlihat pada awalnya, menyembunyikan apakah itu multisig, timelock, atau kondisi kompleks lainnya. Akan tetapi, ketika output P2SH pertama kali dibelanjakan, skrip penukaran penuh harus diungkap on-chain untuk validasi, sehingga kondisi pembelanjaan dapat dilihat secara permanen oleh semua partisipan jaringan. Pengungkapan satu kali ini adalah pengorbanan yang dilakukan P2SH antara privasi dan fungsionalitas.

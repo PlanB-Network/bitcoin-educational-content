@@ -1,5 +1,5 @@
 ---
-name: Etiquetado de UTXO
+name: Labelling UTXO
 description: ¿Cómo etiquetar correctamente tu UTXO?
 ---
 ![cover](assets/cover.webp)

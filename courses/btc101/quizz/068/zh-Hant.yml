@@ -1,11 +1,13 @@
-question: Mining 的獎勵多久會減半？
-answer: 每 210,000 個區塊。
+question: Bitcoin Wallet 中的 Mnemonic 詞組是什麼？
+answer: 由 12 或 24 個字組成的清單，可讓您存取您的 bitcoins。
 wrong_answers:
-  - 每 120,000 個區塊。
-  - 每 540,000 個區塊。
-  - 每 2,100,000 個區塊。
+  - 存取 Bitcoin Wallet 的選定密碼。
+  - 加密 Bitcoin 交易的代碼。
+  - 可在需要時銷毀 Bitcoin Wallet 的秘密恢復詞組。
 explanation: |
-  Mining 的獎勵設定為每 210,000 個區塊減半，大約每四年減半一次。
-  區塊減半，大約每四年一次：這個事件被稱為
-  稱為 Halving。
+  自 2017 年起，私人密碼匙可編碼為一個簡單的清單
+  12 或 24 個單詞，稱為 Mnemonic 詞組。此短語
+  是您的 Bitcoin Wallet 的備份，因此它允許您使用任何 Bitcoin Wallet
+  使用任何 Bitcoin Wallet
+  軟體/應用程式存取您的比特幣。
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: Czym jest Watch-only wallet i jak z niego korzystać?
 ---
 
@@ -8,7 +8,7 @@ description: Czym jest Watch-only wallet i jak z niego korzystać?
 
 ---
 
-**\*OSTRZEŻENIE: Po aresztowaniu założycieli Samourai Wallet i przejęciu ich serwerów 24 kwietnia, aplikacja Sentinel nadal działa, ale **obowiązkowe jest korzystanie z własnego Dojo** w celu uzyskania dostępu do informacji Blockchain i transmisji transakcji
+**OSTRZEŻENIE: Po aresztowaniu założycieli Samourai Wallet i przejęciu ich serwerów 24 kwietnia, aplikacja Sentinel nadal działa, ale **obowiązkowe jest korzystanie z własnego Dojo** w celu uzyskania dostępu do informacji Blockchain i transmisji transakcji**
 
 
 uważnie śledzimy rozwój tej sprawy, a także rozwój związany z powiązanymi narzędziami. Zapewniamy, że będziemy aktualizować ten poradnik w miarę pojawiania się nowych informacji
@@ -84,7 +84,7 @@ Po pierwszym otwarciu aplikacji użytkownik ma możliwość wyboru pomiędzy:
 Dojo, opracowane przez zespół Samourai, to pełna wersja węzła Bitcoin, którą można zainstalować samodzielnie lub dodać jednym kliknięciem do rozwiązań node-in-box, takich jak [Umbrel](https://umbrel.com/) i [RoninDojo](https://ronindojo.io/).
 
 
-[**-> Dowiedz się, jak zainstalować RoninDojo v2 na Raspberry Pi.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> Dowiedz się, jak zainstalować RoninDojo v2 na Raspberry Pi.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
 Jeśli posiadasz własne Dojo, możesz je podłączyć na tym etapie. W ten sposób skorzystasz z najwyższego poziomu prywatności podczas sprawdzania informacji o transakcjach w sieci Bitcoin.

@@ -1,0 +1,12 @@
+question: Bitcoin 네트워크에서 Bitcoin 노드의 역할은 무엇인가요?
+answer: 새 블록과 포함된 트랜잭션의 유효성을 검사합니다.
+wrong_answers:
+  - 새로운 비트코인을 생성하여 블록에 넣습니다.
+  - Bitcoin의 가격을 규제합니다.
+  - Bitcoin 네트워크를 관리합니다.
+explanation: |
+  Bitcoin 네트워크의 Bitcoin 노드는 다음을 처리합니다
+  새 블록과 포함된 트랜잭션의 유효성 검사를 처리합니다. 바로
+  이 Bitcoin 노드 네트워크가 진정한 의미의
+  탈중앙화.
+reviewed: true

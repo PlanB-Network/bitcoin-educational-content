@@ -1,0 +1,9 @@
+question: 완전히 오픈 소스로 유지되며 커뮤니티에서 감사할 수 있는 Android 구성 요소는 무엇인가요?
+answer: AOSP
+wrong_answers:
+  - Google 모바일 서비스
+  - Play 스토어
+  - IOSP
+explanation: |
+  Android의 AOSP 기반만 무료입니다. 널리 사용되는 Google 모바일 서비스는 독점적이며 감사할 수 없습니다.
+reviewed: false

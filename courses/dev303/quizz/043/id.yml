@@ -1,0 +1,8 @@
+question: Kata kunci apa yang digunakan untuk memaksa penutupan untuk mengambil kepemilikan variabel yang ditangkap alih-alih meminjamnya?
+answer: bergerak
+wrong_answers:
+  - sendiri
+  - menangkap
+  - mengambil
+explanation: |
+  Kata kunci `move` digunakan sebelum parameter penutupan untuk memaksa penutupan mengambil alih semua variabel yang ditangkap dari lingkungannya. Hal ini sangat penting ketika closure mungkin lebih lama dari ruang lingkup di mana variabel-variabel tersebut pada awalnya didefinisikan, seperti ketika memunculkan thread. Tanpa `move`, closure biasanya menangkap dengan metode yang paling tidak membatasi (referensi yang tidak dapat diubah, lalu referensi yang dapat diubah, lalu kepemilikan), tetapi `move` mengesampingkan perilaku otomatis ini untuk memastikan transfer kepemilikan. Pilihan lain (`memiliki`, `menangkap`, `mengambil`) bukanlah kata kunci Rust yang valid untuk tujuan ini.

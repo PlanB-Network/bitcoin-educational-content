@@ -1,12 +1,9 @@
-question: Was ist ein gültiger Hash im Kontext des Block-Minings im Bitcoin-Netzwerk?
-answer: Ein einzigartiger Fingerabdruck, der mit dem Block verbunden ist und aus 256 Zeichen besteht.
+question: Was sind die Kosten für den Betrieb eines Bitcoin-Knotens auf einem Raspberry Pi 4 in Bezug auf den Stromverbrauch pro Jahr (Stand 2023)?
+answer: Ein wenig weniger als 10€ pro Jahr.
 wrong_answers:
-  - Ein einzigartiger Code, der zum Zugriff auf den Block verwendet wird.
-  - Ein einzigartiges Passwort, das zum Minen des Blocks erforderlich ist.
-  - Ein einzigartiger Identifikator für den Miner, der den Block gemined hat.
+  - Ein wenig mehr als 50€ pro Jahr.
+  - Ein wenig weniger als 100€ pro Jahr.
+  - Ungefähr 200€ pro Jahr.
 explanation: |
-  Im Kontext des Block-Minings im Bitcoin-Netzwerk ist ein
-  gültiger Hash ein einzigartiger Fingerabdruck, der mit dem
-  Block verbunden ist und aus 256 Zeichen besteht. Die Gültigkeit
-  dieses Hashs hängt von der Schwierigkeit des Bitcoin-Netzwerks ab.
+  Der Betrieb eines Bitcoin-Knotens auf einem Raspberry Pi 4 kostet in Bezug auf den Stromverbrauch Stand 2023 ein wenig weniger als 10€ pro Jahr.
 reviewed: true

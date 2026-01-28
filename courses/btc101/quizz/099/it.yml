@@ -1,12 +1,9 @@
-question: Cosa si dovrebbe fare una volta scritte le parole della frase mnemonica?
-answer: Fare una seconda copia e conservarla in un luogo separato.
+question: Perché è consigliabile evitare di lasciare i propri Bitcoin sulle piattaforme exchange?
+answer: Possono essere suscettibili ad attacchi hacker.
 wrong_answers:
-  - Condividerla con un amico di fiducia.
-  - Inviarla a sé stessi via email.
-  - Conservarla nel proprio telefono.
+  - Le piattaforme exchange applicano commissioni casuali.
+  - Bitcoin perde valore su queste piattaforme.
+  - Gli exchange non sono istituzioni regolamentate.
 explanation: |
-  Una volta scritte le parole della frase mnemonica, si
-  raccomanda di fare una seconda copia e di conservarla in un
-  luogo separato rispetto alla prima. Questo fornisce una copia di sicurezza
-  in caso di perdita o incidente con la prima copia.
-reviewed: vero
+  È consigliabile evitare di lasciare i propri Bitcoin sulle piattaforme exchange perché possono essere suscettibili ad attacchi hacker.
+reviewed: true

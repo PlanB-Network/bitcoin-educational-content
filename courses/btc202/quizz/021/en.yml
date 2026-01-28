@@ -1,0 +1,9 @@
+question: What factor determines a node's influence on consensus rules?
+answer: Its economic weight
+wrong_answers:
+  - Its number of outgoing connections
+  - Seniority in the network
+  - Nothing, because each node has one vote
+explanation: |
+  The influence on consensus rules depends on the economic activity supported by the node, not its number.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 대체 가능한 토큰을 정의하는 데 사용되는 RGB 표준은 무엇인가요?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20은 RGB 프로토콜을 통해 대체 가능한 토큰을 생성하고 관리하는 데 사용되는 표준입니다.
+reviewed: false

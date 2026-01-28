@@ -1,0 +1,9 @@
+question: Vilken typ av maskin presenteras som den bästa kompromissen för en Bitcoin hemnod?
+answer: En mini-PC av NUC-typ
+wrong_answers:
+  - Bärbar dator
+  - En superdator
+  - En spelkonsol
+explanation: |
+  Mini-PC:er (NUC, Tiny, OptiPlex Micro...) har låg strömförbrukning, är tillförlitliga och lätta att anpassa, vilket gör dem till den perfekta kompromissen.
+reviewed: true

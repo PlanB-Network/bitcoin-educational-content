@@ -1,0 +1,9 @@
+question: Milline teadlane usub, et matemaatika on universumi keel?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Kopernik.
+explanation: |
+  Galilei on kuulus oma väite poolest, et "looduse raamat on kirjutatud matemaatilises keeles". See nägemus on avaldanud sügavat mõju tänapäeva teadusele ja ratsionalistlikule filosoofiale, sealhulgas Spinoza filosoofiale.
+reviewed: false

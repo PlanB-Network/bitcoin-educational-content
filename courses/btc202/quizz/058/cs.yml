@@ -1,0 +1,9 @@
+question: Jaké je hlavní omezení komunikace Tor s vaším uzlem?
+answer: Pomalost
+wrong_answers:
+  - Nedostatek šifrování
+  - Spam
+  - Nemožnost použití RPC
+explanation: |
+  Připojení přes Tor jsou bezpečná, ale pomalejší než alternativy, jako je VPN.
+reviewed: true

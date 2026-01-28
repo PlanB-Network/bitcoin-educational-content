@@ -1,0 +1,9 @@
+question: Mitä eroa on konsensussäännöillä ja relesäännöillä?
+answer: Konsensus määrittelee pätevyyden, välittää transaktioiden levittämisen
+wrong_answers:
+  - Konsensus määrittelee maksut, rele määrittelee osoitteet
+  - Konsensus hallinnoi Blockchain:ta, rele hallinnoi yksityisiä avaimia
+  - Konsensus valitsee kaivostyöläiset, rele valitsee kauppiaat
+explanation: |
+  Konsensussäännöt määrittelevät, mikä Bitcoin:ssä on voimassa, kun taas välityssäännöt hallinnoivat solmujen välisiä tapahtumia.
+reviewed: true

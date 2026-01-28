@@ -1,5 +1,5 @@
 ---
-name: Eenvoudig aanmelden
+name: Simple Login
 description: Identiteit beschermd met aliassen
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Wanneer iemand zijn persoonlijke e-mail Address gebruikt voor elke login, is het
 Ontwikkelaars van open-source tools hebben een reeks applicatiesuites gemaakt, precies om gebruikers een beetje privacy terug te geven: ze loggen nog steeds in, maar gebruiken een alias in plaats van de tool die hun privé-identiteit onthult.
 
 
-De eenvoudigste die ik persoonlijk heb geprobeerd en nog steeds test is [Eenvoudige aanmelding] (https://simplelogin.io/).
+De eenvoudigste, van degenen die ik persoonlijk heb geprobeerd en nog steeds test, is precies [Simple Login](https://simplelogin.io/).
 
 
 ## Alias

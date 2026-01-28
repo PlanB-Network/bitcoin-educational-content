@@ -1,0 +1,9 @@
+question: Ifølge Hayeks teori om spredt kunnskap, hvorfor sliter planøkonomier med prisfastsettelse sammenlignet med frie markeder?
+answer: Sentrale planleggere har ikke tilgang til den subjektive, lokale kunnskapen om individuelle kostnader, fordeler og preferanser som bare markedsaktørene besitter
+wrong_answers:
+  - Sentrale planleggere mangler tilstrekkelig datakraft og avanserte algoritmer til å behandle alle de økonomiske dataene de har tilgang til
+  - Sentrale planleggere er iboende korrupte og setter priser til fordel for seg selv snarere enn for samfunnet, i motsetning til markedsaktører som er altruistiske
+  - Sentralplanleggerne fokuserer for mye på langsiktig økonomisk stabilitet i stedet for å reagere på umiddelbare svingninger i tilbud og etterspørsel
+explanation: |
+  Hayeks hovedinnsikt er at kunnskap bare eksisterer som "fragmenter av ufullstendig og ofte motstridende kunnskap som alle enkeltindivider besitter" Denne kunnskapen er subjektiv og lokalisert - det er bare enkeltindivider som kjenner sine egne kostnader, fordeler og preferanser. Frie markeder med frivillig utveksling og prisforhandlinger gjør det mulig for denne spredte kunnskapen å vokse frem og koordinere økonomisk aktivitet.
+  Sentrale planleggere, uansett intensjoner eller evner, har ikke tilgang til denne subjektive, spredte informasjonen som finnes i millioner av individers hoder, noe som gjør effektiv prissetting umulig.

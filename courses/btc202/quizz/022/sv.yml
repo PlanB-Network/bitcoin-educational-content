@@ -1,0 +1,9 @@
+question: Enligt perkolationsteorin, vad innebär ett överskridande av den kritiska tröskeln?
+answer: Transaktionsspridning i hela nätverket
+wrong_answers:
+  - Omedelbart skapande av ett nytt block
+  - Automatisk kostnadsundertryckning av noder
+  - Blockering av en transaktion av nätverket
+explanation: |
+  När perkolationströskeln har överskridits sprids en transaktion nästan omedelbart genom Bitcoin-nätverket.
+reviewed: true

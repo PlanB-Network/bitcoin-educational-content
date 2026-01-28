@@ -1,5 +1,5 @@
 ---
-name: Spara din Mnemonic-fras
+name: Spara den mnemoniska frasen
 description: Upptäck bästa praxis för att skydda din Bitcoin Wallet
 ---
 ![cover](assets/cover.webp)
@@ -68,13 +68,13 @@ För den som letar efter ett ekonomiskt alternativ för att backa upp sin fras p
 ![SEED](assets/fr/01.webp)
 
 
-Bildkredit: [*SAFU Ninja Review*, Jameson Lopp] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/).
+Bildkredit: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/).
 
 
-Om du föredrar att investera i en komplett metallsäkringsenhet rekommenderar jag att du tittar på [Jameson Lopps motståndstester] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/), som utvärderar de flesta av de lösningar som finns på marknaden. Jag skulle råda dig att välja fästen i ett stycke, till exempel en metallplatta för gravyr, stansning eller stansning. Dessa anordningar erbjuder i allmänhet mycket större motstånd än system som använder oberoende bokstäver som ska monteras.
+Om du föredrar att investera i en komplett metallsäkringsenhet rekommenderar jag att du tittar på [Jameson Lopps motståndstester](https://jlopp.github.io/metal-Bitcoin-storage-reviews/), som utvärderar de flesta av de lösningar som finns på marknaden. Jag skulle råda dig att välja fästen i ett stycke, till exempel en metallplatta för gravyr, stansning eller stansning. Dessa anordningar erbjuder i allmänhet mycket större motstånd än system som använder oberoende bokstäver som ska monteras.
 
 
-Om du väljer en Wallet i papper har du flera alternativ: ett enkelt tomt pappersark, den Wallet i kartong som ofta medföljer din Hardware Wallet, eller vår nedladdningsbara mall som du kan skriva ut [genom att klicka här] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
+Om du väljer en Wallet i papper har du flera alternativ: ett enkelt tomt pappersark, den Wallet i kartong som ofta medföljer din Hardware Wallet, eller vår nedladdningsbara mall som du kan skriva ut [genom att klicka här](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
 
 
 ![SEED](assets/fr/02.webp)
@@ -124,12 +124,12 @@ Du kan också komplettera din säkerhetskopia med ytterligare information som r�
 Om du däremot använder en passphrase, se till att du inte skriver ner den på samma medium som din Mnemonic-fras. Syftet med passphrase är att skydda din Wallet i händelse av stöld. För att ta reda på mer om hur du använder en passphrase, ta en titt på denna kompletterande handledning:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 När du har sparat din Mnemonic-fras på fysiska medier rekommenderas det starkt att du utför ett återställningstest medan din nyskapade Wallet fortfarande är tom. Detta test består av att skriva ner ett exempel på information, avsiktligt radera den tomma Wallet och sedan försöka återställa den med hjälp av endast din fysiska säkerhetskopia av Mnemonic-frasen. På så sätt kan du kontrollera att din säkerhetskopia är fullständig och fri från inmatningsfel. Det gör det också möjligt för dig att bekanta dig med återställningsprocessen. På så sätt är du bättre förberedd om du behöver återställa i framtiden och undviker den stress som ett första försök i en verklig situation innebär. För att ta reda på mer om hur du utför detta test, se den här andra handledningen :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Slutligen är det frågan om antalet säkerhetskopior. Detta val beror helt på din personliga situation. Om du begränsar antalet kopior, t.ex. genom att skriva din Mnemonic-fras endast en gång på ett medium, minskar risken för stöld, men ökar risken för förlust. Omvänt minskar risken för förlust, men ökar risken för stöld, om man gör flera kopior. Så det är upp till dig att hitta rätt balans för dina behov och bestämma det antal kopior som du tycker är lämpligast.
 
@@ -170,9 +170,9 @@ Slutligen väcker Mnemonic:s frashantering också frågan om arv. Detta ämne ko
 För att gå ett steg längre och ytterligare stärka din säkerhetsstrategi rekommenderar jag att du lär dig det tekniska arbetet med din Bitcoin Wallet. Genom att förstå hur de olika Elements interagerar, liksom deras betydelse och konsekvenser, kommer du att kunna finjustera din säkerhetsstrategi med full medvetenhet om de risker som är inblandade. I synnerhet om du på teknisk nivå förstår vad Mnemonic-frasen möjliggör, kommer du att kunna justera hur du registrerar, lagrar och hanterar den över tiden.
 
 
-Det är därför jag inbjuder dig att ta den kostnadsfria CYP201-utbildningskursen som erbjuds av Plan ₿ Network. Denna utbildning förklarar i detalj alla funktioner i Bitcoin plånböcker, så att du kan behärska de tekniska aspekterna som är nödvändiga för att effektivt säkra dina medel :
+Det är därför jag inbjuder dig att ta den kostnadsfria CYP201-utbildningskursen som erbjuds av Plan ₿ Academy. Denna utbildning förklarar i detalj alla funktioner i Bitcoin plånböcker, så att du kan behärska de tekniska aspekterna som är nödvändiga för att effektivt säkra dina medel :
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Om du tyckte att den här handledningen var användbar skulle jag vara tacksam om du lämnar en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!

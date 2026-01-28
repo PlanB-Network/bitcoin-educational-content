@@ -1,0 +1,9 @@
+question: 節點在重新開機時會先查詢哪些檔案來尋找舊對等？
+answer: anchors.dat 和 peers.dat
+wrong_answers:
+  - Mempool.dat 和 peers.dat
+  - Mempool.dat 和 ip.dat
+  - ip.dat 和 anchors.dat
+explanation: |
+  Bitcoin core 先查詢 anchors.dat（先前的出發對等），然後查詢 peers.dat（已知的 Address 書）以重新連線。
+reviewed: true

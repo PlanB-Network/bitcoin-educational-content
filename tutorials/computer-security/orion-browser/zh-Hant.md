@@ -1,5 +1,5 @@
 ---
-name: Orion 瀏覽器
+name: Orion Browser
 description: 如何在 Mac 和 iPhone 上使用 Orion 瀏覽器保護您的隱私？
 ---
 
@@ -26,7 +26,7 @@ description: 如何在 Mac 和 iPhone 上使用 Orion 瀏覽器保護您的隱�
 
 
 
-它的獨特之處是什麼？Orion 是唯一可安裝 Chrome 和 Firefox 擴充套件的 WebKit**瀏覽器，提供兩者的最佳效能。這種相容性，加上比其他瀏覽器低 2 到 3 倍的記憶體消耗，以及與 Apple 生態系統 (iCloud、Keychain) 的無縫整合，使其成為注重隱私的 Mac 和 iPhone 使用者的理想選擇。
+它的獨特之處是什麼？Orion 是唯一可安裝 Chrome 和 Firefox 擴充套件的 WebKit **瀏覽器**，提供兩者的最佳效能。這種相容性，加上比其他瀏覽器低 2 到 3 倍的記憶體消耗，以及與 Apple 生態系統 (iCloud、Keychain) 的無縫整合，使其成為注重隱私的 Mac 和 iPhone 使用者的理想選擇。
 
 
 
@@ -38,7 +38,7 @@ description: 如何在 Mac 和 iPhone 上使用 Orion 瀏覽器保護您的隱�
 
 
 
-**開箱即享最大保護**：Orion 預設會封鎖 99.9% 的廣告 (包括 YouTube) 以及所有第一方和第三方追蹤者。其技術結合了 WebKit 的 Intelligent Tracking Prevention 與 EasyPrivacy 清單，以達到最高效率。獨特功能：Orion 可在執行指紋腳本之前**將其封鎖，讓追蹤無法實現 - 這比其他僅嘗試「遮罩」資料的瀏覽器更激進。
+**開箱即享最大保護**：Orion 預設會封鎖 99.9% 的廣告 (包括 YouTube) 以及所有第一方和第三方追蹤者。其技術結合了 WebKit 的 Intelligent Tracking Prevention 與 EasyPrivacy 清單，以達到最高效率。獨特功能：Orion 可在執行指紋腳本之前**將其封鎖**，讓追蹤無法實現 - 這比其他僅嘗試「遮罩」資料的瀏覽器更激進。
 
 
 
@@ -50,7 +50,7 @@ description: 如何在 Mac 和 iPhone 上使用 Orion 瀏覽器保護您的隱�
 
 
 
-*** 全球擴充套件支援**：作為一項重大創新，Orion 允許您從 Chrome Web Store **和**Mozilla 附加元件安裝擴充套件。WebExtensions 支援目前是實驗性的，目標是在 beta 版發佈時達到 100% 相容。您甚至可以在 iPhone 上使用許多熱門的擴充套件，例如 uBlock Origin、Bitwarden - 這是 iOS 上的全球首創，雖然有些可能無法完美運作。
+**全球擴充套件支援**：作為一項重大創新，Orion 允許您從 Chrome Web Store **和** Mozilla 附加元件安裝擴充套件。WebExtensions 支援目前是實驗性的，目標是在 beta 版發佈時達到 100% 相容。您甚至可以在 iPhone 上使用許多熱門的擴充套件，例如 uBlock Origin、Bitwarden - 這是 iOS 上的全球首創，雖然有些可能無法完美運作。
 
 
 
@@ -60,11 +60,11 @@ description: 如何在 Mac 和 iPhone 上使用 Orion 瀏覽器保護您的隱�
 
 
 
-- 供應有限**：目前保留給 macOS 和 iOS/iPadOS。Linux 版本已達到開發里程碑 (2025 年達到里程碑 2)，但尚未提供公開版本。由於資源不足，Windows 和 Android 尚未進行開發。
-- 封閉的原始碼**：雖然有些元件是開放原始碼，但 Orion 仍以專屬程式為主，這也是隱私權社群爭論的焦點。
-- 實驗性擴充套件** ：擴充套件支援仍處於測試階段，經常發生不相容的情況。擴充套件可能會影響效能，有些甚至完全無法運作。
-- WebKit 安全性**：與 Chromium 不同，WebKit 並未提供如此強大的每網站程序隔離功能，在某些情況下可能會造成安全風險。
-- 封鎖測試**：Orion 在線上廣告測試中故意表現不佳 (26-35%)，因為 Kagi 認為這些測試是「有基本缺陷」的。日常使用中的實際效能遠勝於此。
+- 供應有限：目前保留給 macOS 和 iOS/iPadOS。Linux 版本已達到開發里程碑 (2025 年達到里程碑 2)，但尚未提供公開版本。由於資源不足，Windows 和 Android 尚未進行開發。
+- **封閉的原始碼**：雖然有些元件是開放原始碼，但 Orion 仍以專屬程式為主，這也是隱私權社群爭論的焦點。
+- **實驗性擴充套件**：擴充套件支援仍處於測試階段，經常發生不相容的情況。擴充套件可能會影響效能，有些甚至完全無法運作。
+- **WebKit 安全性**：與 Chromium 不同，WebKit 並未提供如此強大的每網站程序隔離功能，在某些情況下可能會造成安全風險。
+- 封鎖測試：Orion 在線上廣告測試中故意表現不佳 (26-35%)，因為 Kagi 認為這些測試是「有基本缺陷」的。日常使用中的實際效能遠勝於此。
 
 
 
@@ -134,7 +134,7 @@ brew install --cask orion
 
 
 
-**1.歡迎畫面
+**1.歡迎畫面**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ brew install --cask orion
 
 
 
-- 資料匯入**：從 Safari、Chrome 或 Firefox 輕鬆傳輸我的最愛和密碼
-- ICloud 同步**：啟用後可在所有 Apple 裝置上找到您的最愛和標籤
+- 資料匯入：從 Safari、Chrome 或 Firefox 輕鬆傳輸我的最愛和密碼
+- ICloud 同步：啟用後可在所有 Apple 裝置上找到您的最愛和標籤
 
 
 
@@ -171,7 +171,7 @@ brew install --cask orion
 
 
 
-**4.Interface 歡迎與必備工具
+**4. Interface 歡迎與必備工具**
 
 
 
@@ -188,9 +188,9 @@ brew install --cask orion
 
 
 
-- Shield 🛡️**：顯示隱私權報告，其中包含目前頁面上被封鎖的項目數量
-- 刷 🖌️**：自訂頁面顯示（主題、字型、移除分心的 Elements）
-- Gear ⚙️**：設定網站特定參數 (權限、封鎖等)
+- Shield 🛡️**：顯示隱私權報告，其中包含目前頁面上被封鎖的項目數量**
+- 刷 🖌️：自訂頁面顯示（主題、字型、移除分心的 Elements）
+- Gear ⚙️：設定網站特定參數 (權限、封鎖等)
 
 
 
@@ -251,7 +251,7 @@ Orion+ 保證專案的獨立性："您的財務貢獻可協助我們保持獨立
 
 
 
-- 預設引擎**：選擇 **DuckDuckGo**、**Startpage** 或 **Kagi**，以獲得最佳隱私（避免使用 Google/Bing）。
+- 預設引擎：選擇 **DuckDuckGo**、**Startpage** 或 **Kagi**，以獲得最佳隱私（避免使用 Google/Bing）。
 - 搜尋建議**：停用搜尋建議，以防止鍵盤敲擊洩漏至搜尋引擎伺服器
 
 
@@ -272,9 +272,9 @@ Orion+ 保證專案的獨立性："您的財務貢獻可協助我們保持獨立
 
 
 
-- EasyList** ：119k+ 廣告封鎖規則
-- EasyPrivacy**：防追蹤保護
-- 管理篩選清單**：新增其他清單（建議使用 Hagezi）
+- **EasyList** ：119k+ 廣告封鎖規則
+- **EasyPrivacy**：防追蹤保護
+- 管理篩選清單：新增其他清單（建議使用 **Hagezi**）
 
 
 
@@ -283,9 +283,9 @@ Orion+ 保證專案的獨立性："您的財務貢獻可協助我們保持獨立
 
 
 
-- 從 URL 移除追蹤者**："僅供私人瀏覽」可清除複製的連結
-- 分享碰撞報告**："請求批准後」尊重您的同意
-- 自訂使用者代理**：可修改以繞過某些封鎖
+- 從 URL 移除追蹤者：**「僅供私人瀏覽」可清除複製的連結**
+- 分享碰撞報告**：「請求批准後」尊重您的同意**
+- 自訂使用者代理：可修改以繞過某些封鎖
 
 
 
@@ -312,10 +312,10 @@ Orion+ 保證專案的獨立性："您的財務貢獻可協助我們保持獨立
 
 
 
-- 相容性模式**：透過暫停擴充功能解決顯示問題
-- 內容封鎖程式**：必要時停用特定網站的封鎖功能
-- JavaScript/Cookies**：按網站進行粒度控制
-- 權限**：攝影機、麥克風、個別設定的位置
+- **相容性模式**：透過暫停擴充功能解決顯示問題
+- 內容封鎖程式：必要時停用特定網站的封鎖功能
+- **JavaScript/Cookies**：按網站進行粒度控制
+- 權限：攝影機、麥克風、個別設定的位置
 
 
 
@@ -338,7 +338,7 @@ Orion+ 保證專案的獨立性："您的財務貢獻可協助我們保持獨立
 
 
 
-**提示：請造訪 [FilterLists.com](https://filterlists.com)，取得數以千計隨時可用的專用清單。
+**提示：請造訪 [FilterLists.com](https://filterlists.com)，取得數以千計隨時可用的專用清單。**
 
 
 
@@ -355,9 +355,9 @@ Orion 原生支援 Chrome 和 Firefox 擴充套件。請直接從官方商店安
 
 
 
-- uBlock Origin**：為原生封鎖程式加入細粒度控制
-- Bitwarden**：開放原始碼密碼管理器
-- ClearURLs**：刪除 URL 追蹤參數
+- **uBlock Origin**：為原生封鎖程式加入細粒度控制
+- **Bitwarden**：開放原始碼密碼管理器
+- **ClearURLs**：刪除 URL 追蹤參數
 
 
 
@@ -366,9 +366,9 @@ Orion 原生支援 Chrome 和 Firefox 擴充套件。請直接從官方商店安
 
 
 
-- LocalCDN**：在本機服務共用程式庫
-- Cookie AutoDelete**：關閉標籤頁後自動刪除 cookie
-- NoScript**：完全控制 JavaScript 執行 (進階使用者)
+- **LocalCDN**：在本機服務共用程式庫
+- **Cookie AutoDelete**：關閉標籤頁後自動刪除 cookie
+- **NoScript**：完全控制 JavaScript 執行 (進階使用者)
 
 
 
@@ -426,8 +426,8 @@ Orion 的 **brush** 工具是一項獨特功能，可讓您自訂每個網站的
 
 
 
-- 字體大小**：使用 A- 和 A+ 按鈕調整可讀性
-- 字體樣式**：變更字型系列 (預設或自訂)
+- 字體大小：使用 A- 和 A+ 按鈕調整可讀性
+- 字體樣式：變更字型系列 (預設或自訂)
 
 
 
@@ -436,8 +436,8 @@ Orion 的 **brush** 工具是一項獨特功能，可讓您自訂每個網站的
 
 
 
-- 停用黏住的標題**：移除捲動時停留在頂端的標題
-- 刪除 Elements**：永久移除惱人的 Elements（廣告、快顯、cookie 廣告橫幅）
+- 停用黏住的標題：移除捲動時停留在頂端的標題
+- 刪除 **Elements**：永久移除惱人的 Elements（廣告、快顯、cookie 廣告橫幅）
   - 按一下「+ 刪除」，然後選擇要隱藏的項目
   - 對於有持續性廣告或可視化追蹤 GW 的網站非常有用-13
 
@@ -452,10 +452,10 @@ Orion 的 **brush** 工具是一項獨特功能，可讓您自訂每個網站的
 
 
 
-- 垂直標籤**：透過功能表列啟動 (側邊標籤功能)
-- 壓縮標籤** ：在偏好設定 → 標籤 → 佈局「精簡」，以節省空間
-- 標籤群組**：依主題組織您的課程
-- 多重設定檔**：透過功能表列 (設定檔功能) 建立完全獨立資料的個人身分
+- 垂直標籤：透過功能表列啟動 (側邊標籤功能)
+- **壓縮標籤**：在偏好設定 → 標籤 → 佈局「精簡」，以節省空間
+- 標籤群組：依主題組織您的課程
+- 多重設定檔：透過功能表列 (設定檔功能) 建立完全獨立資料的個人身分
 
 
 
@@ -468,13 +468,13 @@ Orion 的 **brush** 工具是一項獨特功能，可讓您自訂每個網站的
 
 
 
-- 編輯頁面上的文字**：暫時修改任何文字（編輯功能表）
-- 允許複製與貼上**：繞過複製限制（編輯功能表）
-- 複製清潔連結**：在連結上按滑鼠右鍵移除追蹤參數
-- 焦點模式**：免分心、全螢幕導航
-- 畫中畫**：在浮動視窗中觀看影片
+- 編輯頁面上的文字：暫時修改任何文字（編輯功能表）
+- 允許複製與貼上：繞過複製限制（編輯功能表）
+- 複製清潔連結：在連結上按滑鼠右鍵移除追蹤參數
+- **焦點模式**：免分心、全螢幕導航
+- 畫中畫：在浮動視窗中觀看影片
 - 在 Internet Archive 中開啟**：直接存取存檔版本
-- 隱私權報告**：按一下遮罩 🛡️，以查看各頁面所封鎖的項目
+- **隱私權報告**：按一下遮罩 🛡️，以查看各頁面所封鎖的項目
 
 
 
@@ -507,14 +507,14 @@ Orion 的私人導航 (⌘⇧N) 提供：
 
 
 
-- 擴充** ：限制至最低限度 (可能會降低效能)
-- 低耗電模式**：長時間使用時啟動 (可節省 90% 電力)
-- 隱私報告**：按一下防護罩 🛡️ 即時查看阻塞情況
-- 視覺自訂**：使用 🖌️ 筆刷調整顯示，並移除分心的 Elements
-- 複製清潔連結**：按滑鼠右鍵複製沒有追蹤器的連結
-- 獨立設定檔**：使用專屬的設定檔來分隔您的活動
-- 網站設定**：按一下齒輪 ⚙️，依網站調整權限
-- 定期清理**：透過 Orion 清除快取 → 清除瀏覽資料
+- **擴充**：限制至最低限度 (可能會降低效能)
+- **低耗電模式**：長時間使用時啟動 (可節省 90% 電力)
+- **隱私報告**：按一下防護罩 🛡️ 即時查看阻塞情況
+- 視覺自訂：使用 🖌️ 筆刷調整顯示，並移除分心的 **Elements**
+- 複製清潔連結：按滑鼠右鍵複製沒有追蹤器的連結
+- **獨立設定檔**：使用專屬的設定檔來分隔您的活動
+- 網站設定：按一下齒輪 ⚙️，依網站調整權限
+- 定期清理：透過 Orion 清除快取 → 清除瀏覽資料
 
 
 
@@ -522,15 +522,16 @@ Orion 的私人導航 (⌘⇧N) 提供：
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| 標準 | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **遙測** | 無 | 最少 | 廣泛 | 適度 | 最少 |
+| **原生阻止程序** | 99.9% 有效 | 基礎 | 不存在 | 部分 | 完整 |
+| **擴展** | Chrome + Firefox | 有限 | 僅 Chrome | 僅 Firefox | 僅 Chrome |
+| **Mac 性能** | 卓越 | 卓越 | 良好 | 平均 | 良好 |
+| **RAM 消耗** | 非常低 | 低 | 高 | 平均 | 平均 |
+| **開源** | 部分 | 部分 (WebKit) | 部分 | 完整 | 完整 |
+| **平台** | Mac/iOS | Mac/iOS | 全部 | 全部 | 全部 |
 
 **對比 Safari**：Orion 以其先進的封鎖程式和擴充支援提供優異的保護，同時維持 WebKit 的效能。
 
@@ -605,9 +606,9 @@ Orion 的私人導航 (⌘⇧N) 提供：
 
 
 
-- 自動更新**：Orion 透過 Sparkle 在 macOS 上自動更新
-- 漏洞追蹤**：定期檢查版本注意事項中的安全修補程式
-- 錯誤回報**：使用 [orionfeedback.org](https://orionfeedback.org) 回報問題
+- 自動更新：Orion 透過 Sparkle 在 macOS 上自動更新
+- 漏洞追蹤：定期檢查版本注意事項中的安全修補程式
+- 錯誤回報：使用 [orionfeedback.org](https://orionfeedback.org) 回報問題
 
 
 
@@ -641,12 +642,12 @@ Orion Browser 代表著 macOS 和 iOS 上的隱私權向前邁進了一大步。
 
 
 
-- 官方網站**：[kagi.com/orion](https://kagi.com/orion/)
-- 完整常見問題**：[browser.kagi.com/faq](https://browser.kagi.com/faq)
-- 社區論壇**：[community.kagi.com](https://community.kagi.com)
-- 錯誤追蹤**：[orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** ：[github.com/OrionBrowser](https://github.com/OrionBrowser) - 開源元件
-- 博客 Kagi** ：[blog.kagi.com](https://blog.kagi.com) - 新聞與更新
+- 官方網站：[kagi.com/orion](https://kagi.com/orion/)
+- 完整常見問題：[browser.kagi.com/faq](https://browser.kagi.com/faq)
+- 社區論壇：[community.kagi.com](https://community.kagi.com)
+- **錯誤追蹤**：[orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**：[github.com/OrionBrowser](https://github.com/OrionBrowser) - 開源元件
+- 博客 **Kagi**：[blog.kagi.com](https://blog.kagi.com) - 新聞與更新
 
 
 
@@ -665,7 +666,7 @@ Orion Browser 代表著 macOS 和 iOS 上的隱私權向前邁進了一大步。
 
 
 
-### Plan ₿ Network 的替代方案
+### Plan ₿ Academy 的替代方案
 
 
 若要獲得最大程度的保護，請參閱我們的其他指南：
@@ -673,14 +674,14 @@ Orion Browser 代表著 macOS 和 iOS 上的隱私權向前邁進了一大步。
 
 
 
-- [Firefox Hardened](https://planb.network/tutorials/computer-security/firefox) - 進階多平台設定
-- [Tor 瀏覽器](https://planb.network/tutorials/computer-security/tor-browser) - 完整的網路匿名性
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/mullvad-browser) - 最大程度的指紋保護
+- [Firefox Hardened](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - 進階多平台設定
+- [Tor 瀏覽器](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - 完整的網路匿名性
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - 最大程度的指紋保護
 
 
 
-如果您想進一步瞭解瀏覽器的歷史和操作，以及日常生活中的主要數位物件，我邀請您探索我們新的免費培訓課程 SCU 202，可在 Plan ₿ Network 上獲得：
+如果您想進一步瞭解瀏覽器的歷史和操作，以及日常生活中的主要數位物件，我邀請您探索我們新的免費培訓課程 SCU 202，可在 Plan ₿ Academy 上獲得：
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

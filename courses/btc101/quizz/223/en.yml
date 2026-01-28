@@ -1,11 +1,9 @@
-question: What is the blockchain trilemma?
-answer: A protocol based on a blockchain can only satisfy two out of the criteria of decentralization, security, and scalability.
+question: What are the bitcoins used on Liquid called?
+answer: L-BTC
 wrong_answers:
-  - A protocol based on a blockchain can only satisfy one out of the criteria of decentralization, security, and scalability.
-  - A protocol based on a blockchain can satisfy all of the criteria of decentralization, security, and scalability.
-  - A protocol based on a blockchain cannot satisfy any of the criteria of decentralization, security, and scalability.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  The blockchain trilemma refers to the challenge that a
-  protocol based on a blockchain can only satisfy two criteria out of
-  decentralization, security, and scalability.
-reviewed: true
+  On Liquid, bitcoins are represented by L-BTC, pegged 1 to 1 to BTC.
+reviewed: false

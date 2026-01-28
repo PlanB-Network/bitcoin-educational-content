@@ -167,7 +167,7 @@ saved to wallet.jmdat
 ```
 
 
-w przypadku pojawienia się błędu najprawdopodobniej nieprawidłowo ustawiliśmy 4 pola RPC określone powyżej. W takim przypadku pomocne może być skorzystanie z [tego przewodnika] (https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) znajdującego się w oryginalnej dokumentacji JoinMarket.
+w przypadku pojawienia się błędu najprawdopodobniej nieprawidłowo ustawiliśmy 4 pola RPC określone powyżej. W takim przypadku pomocne może być skorzystanie z [tego przewodnika](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) znajdującego się w oryginalnej dokumentacji JoinMarket.
 
 
 
@@ -423,7 +423,7 @@ Gdy Satoshis wykonają CoinJoins, będą przenosić się z mixdepth do mixdepth,
 
 
 
-Oto w końcu jesteśmy w najbardziej soczystej części JoinMarket, tumblrze! Jeśli słuchałeś podcastu, wiesz już, o co w tym wszystkim chodzi. Jedno zalecenie, zanim zaczniemy: **Uważaj na opłaty! Pamiętaj, aby ustawić limity w pliku joinmarket.cfg (jak wyjaśniono na początku) i rozważ uruchomienie programu tylko wtedy, gdy opłaty onchain są stosunkowo niskie (poniżej 10 Sats/vB).
+Oto w końcu jesteśmy w najbardziej soczystej części JoinMarket, tumblrze! Jeśli słuchałeś podcastu, wiesz już, o co w tym wszystkim chodzi. Jedno zalecenie, zanim zaczniemy: **Uważaj na opłaty! Pamiętaj, aby ustawić limity w pliku joinmarket.cfg (jak wyjaśniono na początku) i rozważ uruchomienie programu tylko wtedy, gdy opłaty onchain są stosunkowo niskie (poniżej 10 Sats/vB).**
 
 
 

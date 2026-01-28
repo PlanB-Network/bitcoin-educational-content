@@ -1,5 +1,5 @@
 ---
-name: 纯操作系统
+name: PureOS
 description: 让你掌控数字生活的 Linux 发行版。
 ---
 
@@ -11,7 +11,7 @@ description: 让你掌控数字生活的 Linux 发行版。
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## 开始使用 PureOS
 
@@ -27,25 +27,25 @@ PureOS 是 Purism 开发的基于 Debian 的操作系统。PureOS 既适合 IT �
 
 
 
-- 简单、直观的 Interface**：GNOME 提供清晰的 Interface 桌面，即使是不熟悉命令行的人也能轻松使用。
+- 简单、直观的 **Interface**：GNOME 提供清晰的 Interface 桌面，即使是不熟悉命令行的人也能轻松使用。
 
 
 
 
 
-- 免费**：与大多数 Linux 发行版一样，PureOS 的使用完全免费。不过，为支持开发者，可按月订购。
+- **免费**：与大多数 Linux 发行版一样，PureOS 的使用完全免费。不过，为支持开发者，可按月订购。
 
 
 
 
 
-- 安全性和稳定性**：PureOS 的架构和运行模式使其成为一个高度安全的发行版，保证了数据保护和系统稳定性。
+- **安全性和稳定性**：PureOS 的架构和运行模式使其成为一个高度安全的发行版，保证了数据保护和系统稳定性。
 
 
 
 
 
-- 文档和活跃的社区**：PureOS 有清晰易懂的文档，还有一个热心、积极响应的社区，让您可以轻松解决问题，逐步学习系统。
+- **文档和活跃的社区**：PureOS 有清晰易懂的文档，还有一个热心、积极响应的社区，让您可以轻松解决问题，逐步学习系统。
 
 
 
@@ -120,7 +120,7 @@ PureOS 提供多种启动操作系统的选项。选择 ** 测试或安装 PureO
 
 
 
-允许或拒绝应用程序访问您的**地理位置，以便根据您所在的区域提供个性化推荐。
+允许或拒绝应用程序访问您的**地理位置**，以便根据您所在的区域提供个性化推荐。
 
 
 
@@ -181,7 +181,7 @@ PureOS 提供多种启动操作系统的选项。选择 ** 测试或安装 PureO
 
 
 
-- 擦除磁盘**：完全安装 PureOS，删除 Hard 磁盘上的所有现有数据。
+- 擦除磁盘：完全安装 PureOS，删除 Hard 磁盘上的所有现有数据。
 
 
 
@@ -191,7 +191,7 @@ PureOS 提供多种启动操作系统的选项。选择 ** 测试或安装 PureO
 
 
 
-- 手动分区**，创建自己的乐谱
+- 手动分区，创建自己的乐谱
 
 
 
@@ -260,7 +260,7 @@ PureOS 提供多种启动操作系统的选项。选择 ** 测试或安装 PureO
 
 
 
-- 通过 Interface 图形更新** ：
+- 通过 **Interface 图形更新**：
 
 
 打开**软件**应用程序，然后转到**更新**选项卡。系统会自动显示可用的更新。点击**下载**，下载完成后点击**安装**。
@@ -331,9 +331,9 @@ PureOS 还包含**LibreOffice**办公套件，其中包括 .NET 和 .NET Framewo
 
 
 
-- Writer**：用于创建和编辑文档的完整文字处理器。
-- Calc**：功能强大的电子表格程序，用于管理数据和计算。
-- Impress**：制作专业演示文稿的工具。
+- **Writer**：用于创建和编辑文档的完整文字处理器。
+- **Calc**：功能强大的电子表格程序，用于管理数据和计算。
+- **Impress**：制作专业演示文稿的工具。
 
 
 
@@ -353,4 +353,4 @@ PureOS 可通过本地访问基本工具、强大的软件包管理器和丰富�
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

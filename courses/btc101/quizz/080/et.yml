@@ -1,12 +1,11 @@
-question: Kui suur on tõenäosus, et keegi juhuslikult arvab ära teie 12 või 24 sõnast koosneva nimekirja Bitcoin'i rahakotis?
-answer: Astronoomiliselt madal
+question: Mis on multisig rahakott?
+answer: Rahakottide kogum, mis nõuab tehingu sooritamiseks mitut allkirja
 wrong_answers:
-  - Kõrge
-  - Mõõdukas
-  - Madal
-explanation: >-
-  Tänu krüptograafiale, mida kasutatakse rahakoti loomiseks, on tõenäosus,
-  et keegi juhuslikult arvab ära teie 12 või 24 sõnast koosneva nimekirja, astronoomiliselt madal.
-  See on nagu leida õige number vahemikus 1 kuni $2^256$, mis on peaaegu võrdne
-  määratletud aatomi leidmisega Universumis.
+  - Rahakott, mis nõuab tehingu sooritamiseks ühte allkirja
+  - Rahakott, mis ei nõua tehingu sooritamiseks ühtegi allkirja
+  - Rahakott, mis nõuab tehingu sooritamiseks füüsilist allkirja
+explanation: |
+  Multisig rahakott on Bitcoin'i rahakoti tüüp, mis nõuab tehingu sooritamiseks mitut
+  allkirja. See lisab lisakihi turvalisust, kuna see tähendab, et üksikisik ei saa
+  tehingut sooritada ilma teiste nõusolekuta.
 reviewed: true

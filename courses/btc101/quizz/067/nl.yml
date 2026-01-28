@@ -1,12 +1,12 @@
-question: Wat is de frequentie van de moeilijkheidsaanpassing?
-answer: Elke 2016 blokken.
+question: Waar worden de bitcoins opgeslagen?
+answer: In de Bitcoin Blockchain.
 wrong_answers:
-  - Elke 1048 blokken.
-  - Elke 512 blokken.
-  - Elke 4032 blokken.
+  - In de Bitcoin Wallet.
+  - Op het apparaat waar de Wallet is geïnstalleerd.
+  - In de kluis van de Federal Reserve.
 explanation: |
-  De moeilijkheidsaanpassing is een mechanisme dat
-  elke 2016 blokken, of ongeveer twee weken, om ervoor te zorgen dat een
-  er gemiddeld elke tien minuten een nieuw blok wordt toegevoegd aan de Blockchain, ongeacht de globale Hashrate
-  gemiddeld, ongeacht de globale Hashrate.
+  Hoewel je privésleutels zijn opgeslagen in je Wallet, zijn de
+  worden de bitcoins zelf opgeslagen in Bitcoin
+  Blockchain, wat de openbare gedistribueerde Ledger is binnen
+  het Bitcoin peer-to-peer netwerk.
 reviewed: true

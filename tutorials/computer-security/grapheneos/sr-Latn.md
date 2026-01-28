@@ -1,13 +1,16 @@
 ---
 name: GrapheneOS
 
-description: Grafen OS vodič
+description: Mobilni operativni sistem fokusiran na bezbednost i privatnost zasnovan na Androidu
 ---
 
-> [GrapheneOS](https://grapheneos.org/) je mobilni operativni sistem fokusiran na privatnost i sigurnost sa kompatibilnošću za Android aplikacije, razvijen kao neprofitni open source projekat.
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) je neprofitni, otvorenog koda mobilni operativni sistem, dizajniran da pruži visok nivo privatnosti i bezbednosti, dok ostaje potpuno kompatibilan sa Android aplikacijama.
 
 GrapheneOS, koji je prvobitno osnovan 2014. godine pod imenom 'CopperheadOS', zasniva se na standardnom Android kodu (AOSP), ali s brojnim izmenama i poboljšanjima usmerenim ka unapređenju privatnosti i bezbednosti korisnika. GrapheneOS stavlja korisnika u kontrolu nad svojim telefonom, a ne velike tehnološke kompanije.
 
+
+![video](https://youtu.be/VnumtalYLFI)
 
 ### Rezime:
 
@@ -21,7 +24,7 @@ GrapheneOS, koji je prvobitno osnovan 2014. godine pod imenom 'CopperheadOS', za
 - Korisne informacije
 
 
-Vodič na https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Ovaj vodič je adaptacija originalnog sadržaja objavljenog od strane [BitcoinQnA na Bitcoiner.Guide pod MIT licencom](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kojem pripadaju sve zasluge za početni rad na pisanju.*
 
 
 ## Zašto koristiti GrapheneOS?
@@ -119,7 +122,7 @@ Hajde da zaronimo u to:
 10. Kada vidite reč `Start`, potvrdite to dugmetom za napajanje i uređaj će se pokrenuti u vašem novom operativnom sistemu bez Google-a.
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 Ekran za pokretanje GrapheneOS-a
 
@@ -138,7 +141,7 @@ Video koji detaljno prikazuje jednostavne korake navedene iznad
 
 
 
-Ako ti jednostavni koraci deluju kao previše, možete razmisliti o kupovini Pixel telefona sa GrapheneOS softverom [pre-instaliranim](https://ronindojo.io/en/roninmobile). Samo budite svesni da time ukazujete malu količinu poverenja dobavljaču.
+Ako ti jednostavni koraci deluju kao previše, možete razmisliti o kupovini Pixel telefona sa GrapheneOS softverom pre-instaliranim (postoje kompanije koje ih prodaju). Samo budite svesni da time ukazujete malu količinu poverenja dobavljaču.
 
 
 ### Unapred instalirane aplikacije
@@ -147,7 +150,7 @@ Ako ti jednostavni koraci deluju kao previše, možete razmisliti o kupovini Pix
 Sada kada ste postavili, možda ćete primetiti koliko GrapheneOS izgleda osnovno pri prvoj instalaciji. Podrazumevano ćete imati instalirane ove aplikacije:
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 Podrazumevane aplikacije
@@ -196,7 +199,7 @@ Idite na **Podešavanja** > **Baterija**, zatim omogućite **Prikaži procenat b
 Kada imate VCF datoteku, možete je preneti na svoj GrapheneOS uređaj pomoću opcije spoljašnje memorije kao što je microSD kartica ili USB drajv. Ako nemate nijednu od tih opcija pri ruci, možete se odlučiti za deljenje putem jedne od mnogih aplikacija navedenih ispod.
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 Personalizovani početni ekran
@@ -224,11 +227,13 @@ Da biste instalirali F-Droid, jednostavno idite na njihovu veb stranicu putem pr
 Pored aplikacija koje se nalaze u podrazumevanom repozitorijumu F-Droid-a, mnogi open-source projekti takođe hostuju sopstvene repozitorijume koji se mogu dodati u podešavanjima F-Droid aplikacije. Ako je to slučaj, projekat o kojem je reč će vas provesti kroz veoma jednostavne korake potrebne da to postignete na njihovoj veb stranici.
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 Početni ekran F-Droid
 
+
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora Store
 
@@ -251,11 +256,13 @@ Aurora takođe ima neke potencijalne vektore napada, jer "anonimni nalozi" su za
 **Top savet** -  Ponekad Aurora Store može naići na ograničenje učestalosti zahteva (rate limiting), što može ograničiti vašu mogućnost pretrage i instalacije aplikacija. Da biste to zaobišli, idite na **Settings** > **Apps** > **Aurora** > **Open by default**, zatim dodajte domen  `play.google.com`. Sada će se, kad god posetite veb-sajt nekog proizvoda ili servisa koji ima link „Preuzmi putem Play prodavnice“, taj link automatski otvoriti u aplikaciji Aurora i omogućiti vam preuzimanje.
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 Početni ekran Aurora Store
 
+
+https://planb.academy/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### Preuzimanje APK
 
@@ -266,7 +273,7 @@ Aplikacije na Androidu mogu se preuzeti i instalirati putem `.apk` fajla. Ovo je
 Nedostatak ovog pristupa je što ne dobijate automatska ažuriranja, pa ćete morati pratiti komunikacione kanale te usluge kako biste saznali o novim izdanjima. Međutim, postoji sjajan projekat pod nazivom Obtanium koji ima za cilj da to reši. [Obtainium](https://github.com/ImranR98/Obtainium) vam omogućava da instalirate i ažurirate aplikacije otvorenog koda direktno sa njihovih stranica izdanja, i primate obaveštenja kada su nova izdanja dostupna.
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 Obtanium pregled
@@ -284,7 +291,7 @@ Da biste to postigli u Vanadiumu, izvornom pregledaču GrapheneOS-a, jednostavno
 Jedina mana ovog pristupa je što, pošto je ovo samo obeležena veb stranica, nećete dobiti nikakve obaveštenja. Iako bi neki to mogli videti kao pozitivnu stvar!
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 Twitter PWA
@@ -305,14 +312,15 @@ Za slučajeve kada treba da pristupite Tor nativnim `.onion` sajtovima, možete 
 Da biste zaštitili svoju online aktivnost od vašeg znatiželjnog internet provajdera (ISP), aplikacija za Virtuelnu Privatnu Mrežu (VPN) je dobra opcija. VPN šalje vaš internet saobraćaj kroz šifrovani tunel do deljene IP adrese koju kontroliše provajder VPN usluge kako bi se osiguralo da aktivnost vašeg uređaja ne može biti povezana sa vama.
 
 
-Sledeće 3 su dobro poštovane opcije koje vam omogućavaju da platite za uslugu u bitcoinima i bez pružanja bilo kakvih ličnih informacija. Sve 3 opcije su dostupne putem F-Droid-a.
+Evo dve priznate opcije koje omogućavaju plaćanje usluge Bitcoinom bez pružanja ikakvih ličnih podataka. Oba su dostupna na F-Droidu.
 
 
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
 
+
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Poruke
 
@@ -324,30 +332,39 @@ Većina ljudi koji nisu zainteresovani za privatnost verovatno koristi WhatsApp 
 
 
 
-- [Signal](https://signal.org/) je jedan od popularnijih end-to-end enkriptovanih (E2EE) mesindžera koji ima dobar dosadašnji učinak i bogat skup funkcija. Signal zahteva broj telefona za registraciju, tako da ako planirate da ćaskate sa ljudima za koje biste radije da ne znaju vaš broj telefona, možda bi trebalo da razmotrite neke od alternativa. Signal mora biti preuzet putem Aurora Store-a.
+- [Signal](https://signal.org/) je jedan od popularnijih end-to-end enkriptovanih (E2EE) mesindžera koji ima dobar dosadašnji učinak i bogat skup funkcija. Signal zahteva broj telefona za registraciju, tako da ako planirate da ćaskate sa ljudima za koje biste radije da ne znaju vaš broj telefona, možda bi trebalo da razmotrite neke od alternativa **_[ili sakrijte svoj broj u podešavanjima profila](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames)_**. Signal mora biti preuzet putem Aurora Store-a.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) je prilično nov E2EE mesindžer. Nema korisnički ID, ne zahteva broj telefona ili lične informacije. Ljudi vas pronalaze skeniranjem vašeg ličnog QR koda ili posetom vašeg jedinstvenog linka. Simplex takođe omogućava naprednim korisnicima da pokrenu sopstveni server kako bi dodatno smanjili oslanjanje na bilo koji centralizovani entitet. Simplex nema desktop klijent, pa možda nije pogodan ako vam je multi-uređaj na listi prioriteta. Simplex za Android je dostupan putem F-Droid.
 - [Threema](https://threema.ch/en/faq/libre_installation) nudi slično iskustvo kao Simplex, ali postoji duže vreme i kao rezultat toga, deluje malo uglađenije. Threema nije besplatan, doživotna licenca košta $4.99 i može se kupiti sa bitcoinom. Threema nudi web klijent i izvorne desktop aplikacije. Android aplikacija je dostupna putem F-Droid.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) je nezvanični FOSS fork zvanične Telegram aplikacije za Android. Telegram ima E2EE 'tajne četove', ali podrazumevana opcija nije privatna. Telegram FOSS se može preuzeti sa F-Droid.
+- [Mercurygram](https://f-droid.org/en/packages/it.belloworld.mercurygram/) je nezvanični FOSS fork zvanične Telegram aplikacije za Android. Telegram ima E2EE 'tajne četove', ali podrazumevana opcija nije privatna. Mercurygram se može preuzeti sa F-Droid.
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 Levo: Threema, Desno: Simplex
 
+
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Mediji
 
 
 
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) je višeplatformski Spotify klijent koji ne zahteva Premium nalog. Spotube je dostupan putem F-Droid-a.
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) je fantastična aplikacija za strimovanje bilo koje muzike sa YouTube Music, besplatno. ViMusic je dostupan na F-Droid.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) nudi YouTube iskustvo bez dosadnih reklama i sumnjivih dozvola. Sa NewPipe možete se pretplatiti na kanale, slušati u pozadini, pa čak i preuzeti za gledanje van mreže. NewPipe je dostupan putem F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) je plejer za podkaste koji vam omogućava da se pretplatite i upravljate svim vašim omiljenim emisijama. AntennaPod je dostupan putem F-Droid-a.
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
-Levo: Spotube, Desno: ViMusic
+Spotube
 
 
 ### Mape
@@ -362,7 +379,7 @@ Ako želite glasovnu pomoć dok vozite i koristite aplikaciju za mape u Graphene
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) je još jedna odlična alternativa za mape koja podržava sve gore navedene funkcije.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Levo: Magic Earth, Desno: Organic Maps
 
@@ -376,7 +393,7 @@ Levo: Magic Earth, Desno: Organic Maps
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) je klijent za e-poštu otvorenog koda koji radi sa gotovo svim provajderima e-pošte. Podržava više naloga, objedinjeni prijemni sandučić i OpenPGP standard enkripcije.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Levo: Proton Mail, Desno: Tutanota
 
@@ -385,7 +402,7 @@ Levo: Proton Mail, Desno: Tutanota
 
 
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) je program za sinhronizaciju fajlova. Sinhronizuje fajlove između dva ili više uređaja u realnom vremenu, sigurno zaštićeno od znatiželjnih očiju. Vaši podaci su samo vaši i zaslužujete da izaberete gde će biti uskladišteni, da li će biti podeljeni sa nekom trećom stranom i kako će biti preneti preko interneta. Syncthing je dostupan putem F-Droid-a.
+- [Syncthing Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingfork/) je fork programa za sinhronizaciju fajlova. Sinhronizuje fajlove između dva ili više uređaja u realnom vremenu, sigurno zaštićeno od znatiželjnih očiju. Vaši podaci su samo vaši i zaslužujete da izaberete gde će biti uskladišteni, da li će biti podeljeni sa nekom trećom stranom i kako će biti preneti preko interneta. Syncthing Fork je dostupan putem F-Droid-a.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) povezuje sve vaše uređaje kako bi lako komunicirali jedni s drugima kada su povezani na vašu kućnu mrežu. Jednostavno šaljite datoteke, fotografije, podatke iz međuspremnika na sve vaše uređaje (čak i na iOS!). KDE Connect se može preuzeti sa F-Droid.
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) je E2EE aplikacija za beleške koja omogućava sinhronizaciju vaših misli i lista zadataka na svim vašim uređajima. Njihov besplatni plan bi trebalo da pokrije većinu ličnih potreba. Notesnook je dostupan na F-Droid.
 - [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) je veoma sličan Notesnook-u, ali zahteva plaćeni plan da bi se podudaralo sa skupom funkcija. Standard Notes je dostupan putem F-Droid-a.
@@ -393,7 +410,7 @@ Levo: Proton Mail, Desno: Tutanota
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) je podrazumevana Google tastatura aplikacija. Po mom iskustvu, nudi ubedljivo najbolje iskustvo kucanja i prevlačenja. Ako preuzmete ovu aplikaciju, obavezno potpuno onemogućite sve dozvole vezane za mrežu. Može se preuzeti putem Aurore.
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Levo: Notesnook, Desno: KDE Connect
 
@@ -402,13 +419,13 @@ Levo: Notesnook, Desno: KDE Connect
 
 
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) je prelepo dizajnirana aplikacija za vremensku prognozu otvorenog koda dostupna putem F-Droid-a. Takođe podržava mnogo različitih veličina widgeta, tako da možete videti vremensku prognozu za izabranu lokaciju direktno sa vašeg početnog ekrana.
+- [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) je aplikacija za vremensku prognozu otvorenog koda bogata funkcijama sa Material 3 Expressive interfejsom; nudi promišljene vizualizacije, prognoze, uslove u realnom vremenu, kvalitet vazduha, polen, vremenska upozorenja iz preko 50 izvora.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) je aplikacija otvorenog koda koja čuva privatnost i podržava više od 200 jezika. Translate You je dostupan putem F-Droid-a.
 - [Proton Calendar](https://proton.me/calendar/download) je jednostavan za korišćenje E2EE koji besprekorno komunicira sa vašim Proton email nalozima. Proton Calendar se može preuzeti kao APK ili putem Aurora prodavnice.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) je aplikacija za prikazivanje i čuvanje boarding karata, kupona, karata za filmove i članskih kartica itd. Jednostavno preuzmite odgovarajući `pkpass` ili `espass` fajl i otvorite ga pomoću aplikacije. PassAndroid je dostupan putem F-Droid-a.
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 Levo: Geometrijsko vreme, Desno: Proton kalendar
 
@@ -421,13 +438,22 @@ Levo: Geometrijsko vreme, Desno: Proton kalendar
 - [Proton Pass](https://proton.me/pass/download) nudi sličnu besplatnu uslugu kao Bitwarden, ali korisnici [Proton Unlimited](https://proton.me/pricing) mogu pristupiti dodatnim naprednim funkcijama. Proton Pass je dostupan putem APK ili Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) je aplikacija za dvofaktorsku autentifikaciju za sisteme koji koriste protokole jednokratnih lozinki. Tokeni se mogu lako dodati skeniranjem QR koda. FreeOTP je dostupan putem F-Droid-a.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) je besplatna, sigurna i otvorenog koda aplikacija za Android za upravljanje vašim tokenima za dvostepenu verifikaciju za vaše onlajn usluge. Aegis je dostupan putem F-Droid-a.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) je plaćena, višeplatformska usluga koja šifrira vaše podatke lokalno kako biste ih mogli sigurno otpremiti na vašu omiljenu uslugu u oblaku. Cryptomator se može preuzeti putem F-Droid-a.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) je besplatna višeplatformska usluga (_plaćena samo putem Google Play na Android-u_) koja šifrira vaše podatke lokalno kako biste ih mogli sigurno otpremiti na vašu omiljenu uslugu u oblaku. Cryptomator se može preuzeti putem F-Droid-a.
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
-Levo: Proton Pass, Desno: Bitwarden
+Levo: Proton Pass,
+Desno: Bitwarden
 
+
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### Cloud rešenja
 
@@ -439,10 +465,12 @@ Levo: Proton Pass, Desno: Bitwarden
 - [Cryptpad](https://cryptpad.fr/) nudi besplatnu, web baziranu, E2EE alternativu za Google Docs.
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Drive
 
+
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## Nedostaci
 
@@ -475,7 +503,7 @@ Pre nego što požurite da ih instalirate prvog dana, pozivam vas da vidite koli
 Ako želite da ih instalirate, jednostavno dodirnite unapred instaliranu aplikaciju 'Apps', a zatim 'Google Play Services'. Razmislite o njihovoj instalaciji zajedno sa onim manje privatnim aplikacijama bez kojih ne možete da živite, unutar potpuno odvojenog korisničkog profila kako biste obezbedili dodatni Layer nivo razdvajanja od ostatka vašeg telefona.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Ekran za instalaciju Play usluga
 
@@ -494,7 +522,7 @@ Više o ovom slučaju upotrebe možete pročitati [ovde](https://discuss.graphen
 Ako odlučite da dodate poseban profil koji odgovara vašem slučaju upotrebe, aplikacija [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) može vam biti korisna. Insular vam omogućava da lako klonirate bilo koju od vaših postojećih aplikacija na novi profil bez potrebe da prolazite kroz bilo koji od tradicionalnih puteva instalacije pokrivenih ranije u ovom vodiču. Insular takođe omogućava da brzo 'zamrznete' bilo koju od tih aplikacija kako biste potpuno onemogućili sve pozadinske servise te aplikacije da se pokreću.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Ekran za upravljanje korisničkim profilom
 
@@ -532,7 +560,7 @@ Da biste kreirali svoju prvu rezervnu kopiju:
 4. Dodirnite tri tačke u gornjem desnom uglu i izaberite **Backup now**.
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 Rezervna kopija ekrana
@@ -575,4 +603,6 @@ GrapheneOS je zečja rupa kojom bi svako mogao lako provesti nedelje istražuju�
 - [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast od 'Watchman Privacy'
 
 
-puna zasluga: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Ovaj vodič je adaptacija originalnog sadržaja objavljenog od strane [BitcoinQnA na Bitcoiner.Guide pod MIT licencom](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), kojem pripadaju sve zasluge za početni rad na pisanju.*
+
+

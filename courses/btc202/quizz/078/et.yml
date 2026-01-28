@@ -1,0 +1,9 @@
+question: Mis on blkNNNNNNN.dat failide kõrval salvestatud revNNNNN.dat failide otstarve?
+answer: Taastab UTXO komplekti reorganiseerimise ajal
+wrong_answers:
+  - Hard Fork ajal seatud UTXO taastamine
+  - Mempool taastamine Hard Fork ajal
+  - Mempool taastamine reorganiseerimise ajal
+explanation: |
+  Iga revNNNNNNN.dat sisaldab andmeid, mis on vajalikud ploki mõju tühistamiseks UTXO komplektile, mis lihtsustab reorganiseerimiste haldamist.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni suluhisho gani la bure la ukwasi unaoingia linalotegemea ushirikiano?
+answer: LN+
+wrong_answers:
+  - Magma
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus hutoa ukwasi unaoingia kupitia fursa za njia za mviringo.
+reviewed: false

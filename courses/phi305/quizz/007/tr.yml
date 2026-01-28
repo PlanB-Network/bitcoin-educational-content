@@ -1,0 +1,9 @@
+question: Spinoza'nın mesleki faaliyeti neydi?
+answer: Astronomi dürbünleri için parlatıcı.
+wrong_answers:
+  - Perakendeci.
+  - Felsefe profesörü.
+  - Yayıncı.
+explanation: |
+  Spinoza geçimini sağlamak için astronomik teleskoplar için mercek parlatıcı olarak çalıştı. Bu el emeği, zamanının bilimsel ilerlemesine katkıda bulunurken entelektüel bağımsızlığını korumasını sağladı.
+reviewed: false

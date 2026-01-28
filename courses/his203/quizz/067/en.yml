@@ -1,0 +1,10 @@
+question: What approximate proportion of bitcoins in circulation represented the money managed by the Bitcoin Savings & Trust fund at its peak?
+answer: Approx. 5%
+wrong_answers:
+  - Approx. 0.05
+  - Approx. 0.5
+  - Approx. 50%
+explanation: |
+ At its peak in August 2012, Trendon Shavers' (aka PirateAt40) fund managed over 500,000 bitcoins, which represented around 5% of the 9.7 million bitcoins in
+ circulation! Bitcoin Savings & Trust collapsed just afterwards, as confidence evaporated.
+reviewed: true

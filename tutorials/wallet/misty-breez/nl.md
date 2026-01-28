@@ -84,7 +84,7 @@ Hier volgen enkele tips voor het maken van een back-up van je back-upzin.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Om een back-up te maken van uw zinnen, selecteert u het menu **Voorkeuren > Beveiliging** en vervolgens de optie **Controleer uw back-upzinnen**.
 
@@ -213,4 +213,4 @@ Om verder te gaan, raad ik je ook aan onze tutorial over de Aqua Wallet te ontde
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

@@ -14,9 +14,9 @@ tags:
   - self-sovereignty
 original_language: en
 proofreading:
-- language: en
-  last_contribution_date: '2025-08-16'
-  urgency: 0
-  contributor_names:
-  - jramos0
-  reward: 0
+  - language: en
+    last_contribution_date: '2025-08-16'
+    urgency: 0
+    contributor_names:
+      - jramos0
+    reward: 0.05

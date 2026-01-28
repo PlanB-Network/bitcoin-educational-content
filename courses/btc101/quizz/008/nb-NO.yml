@@ -1,10 +1,9 @@
-question: Hva betyr det at Bitcoin er en nøytral valuta?
-answer: Den er ikke kontrollert av noen enhet eller institusjon.
+question: Hva er Uavhengighetserklæringen for Cyberspace?
+answer: En tekst som hevder at cyberspace er et eget rike adskilt fra den fysiske sfæren og ikke bør være underlagt de samme lovene.
 wrong_answers:
-  - Den er kontrollert av en enkelt enhet eller institusjon.
-  - Den er regulert av regjeringen.
-  - Den brukes kun for nøytrale transaksjoner.
+  - En erklæring om Bitcoins uavhengighet fra tradisjonelle finanssystemer.
+  - En tekst som hevder at internettet bør være fritt for statlig regulering.
+  - En erklæring om piratbevegelsens uavhengighet fra enhver regulering.
 explanation: |
-  Bitcoin er en nøytral valuta, noe som betyr at den ikke er kontrollert av noen enhet
-  eller institusjon, og hver bruker har de samme rettighetene. Dette er et nøkkelaspekt ved dens desentralisering.
+  Uavhengighetserklæringen for Cyberspace ble skrevet av John Perry Barlow i 1996, og hevder at cyberspace er et eget rike adskilt fra den fysiske sfæren der industrielle regjeringer ikke kan håndheve sin autoritet.
 reviewed: true

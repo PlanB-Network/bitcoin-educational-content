@@ -1,0 +1,8 @@
+question: Jakou hlavní obchodní výhodu oproti tradičním finančním systémům přináší dvouminutová doba vypořádání Liquid?
+answer: Snižuje riziko protistrany tím, že umožňuje atomické vypořádání, kdy k dodání a platbě dochází současně
+wrong_answers:
+  - Eliminuje potřebu dodržování předpisů a požadavků KYC při obchodování s aktivy
+  - Umožňuje neomezenou škálovatelnost pro vysokofrekvenční obchodování bez transakčních poplatků
+  - Umožňuje automatické zjišťování cen prostřednictvím integrovaných algoritmů tvorby trhu
+explanation: |
+  Dvouminutové vypořádání Liquid umožňuje atomické vypořádání, které je klíčové pro snížení rizika protistrany, protože obě strany obdrží to, co jim náleží, současně, čímž se eliminuje mezera, kdy by jedna strana mohla selhat. Tradiční vypořádání T+2 vytváří okno, ve kterém existuje riziko protistrany. Ostatní možnosti jsou nesprávné: Liquid stále vyžaduje splnění podmínek prostřednictvím AMP, má transakční poplatky a limity škálování a neposkytuje automatickou tvorbu trhu.

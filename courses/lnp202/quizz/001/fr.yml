@@ -1,0 +1,9 @@
+question: Quel mécanisme empêche la diffusion d’un ancien état du canal Lightning ?
+answer: La clé de révocation
+wrong_answers:
+  - Les frais de transaction
+  - Les timelocks absolus
+  - Le gossip du réseau
+explanation: |
+  Les clés de révocation permettent de pénaliser un nœud qui tenterait de publier un ancien état du canal.
+reviewed: false

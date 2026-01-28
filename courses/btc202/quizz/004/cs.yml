@@ -1,0 +1,9 @@
+question: Co je to uzel Bitcoin?
+answer: Počítač se softwarem implementujícím protokol Bitcoin
+wrong_answers:
+  - A Hardware Wallet implementující síť Bitcoin
+  - A Miner vyrábějící nové bloky pro Bitcoin
+  - Centrální server spravující síť Bitcoin a potvrzování transakcí
+explanation: |
+  Uzel Bitcoin je počítač se softwarem, například Bitcoin core, který implementuje protokol a účastní se sítě Bitcoin.
+reviewed: true

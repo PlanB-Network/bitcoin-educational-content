@@ -28,7 +28,7 @@ Go to [the official Sparrow Wallet download page](https://sparrowwallet.com/down
 
 It's important to check the integrity and authenticity of the software before installing it. If you don't know how to do this, you'll find a complete tutorial here :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Once Sparrow has been installed, you can skip the initial explanatory screens and go straight to the connection management screen.
 
@@ -75,9 +75,9 @@ Please note that if you use a pruned Bitcoin Core node, you won't be able to res
 
 To configure a Bitcoin Core node, you can consult one of the following tutorials, depending on your operating system:
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 On Sparrow, go to the "*Bitcoin Core*" tab.
 
@@ -101,13 +101,14 @@ Don't forget to restart the software after making these changes.
 
 Then return to Sparrow Wallet and enter the path to your cookie file, usually located in the same folder as `Bitcoin.conf`, depending on your operating system:
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -129,13 +130,14 @@ server=1
 
 After editing the file, make sure you save it in the appropriate folder for your operating system:
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 This operation can also be performed via the Bitcoin-QT Interface graphical interface. Go to the "*Settings*" menu, then "*Options...*", and activate the "*Enable RPC server*" option by checking the corresponding box. If the `Bitcoin.conf` file doesn't exist, you can create it directly from this Interface by clicking on "*Open Configuration File*".
 
@@ -228,7 +230,7 @@ You can inscribe it on paper or, for added security, engrave it on stainless ste
 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -236,7 +238,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 You can also choose to add a passphrase BIP39 by clicking on the "*Use passphrase*" box. Warning: using a passphrase can be very useful, but if you don't understand how it works, it can be very risky. That's why I strongly advise you to read this short theoretical article on the subject:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Once you've saved your mnemonic and any passphrase to a physical medium, click on "*Confirm Backup*".
 
@@ -272,7 +274,7 @@ There are two main ways to connect your Hardware Wallet to Sparrow:
 
 Sparrow supports all these communication methods and is compatible with most hardware wallets on the market.
 
-For this tutorial, I'll be using a Ledger Nano S with a cable, but the procedure is similar in Air-Gap mode. You'll find details specific to your Hardware Wallet in its dedicated tutorial on Plan ₿ Network.
+For this tutorial, I'll be using a Ledger Nano S with a cable, but the procedure is similar in Air-Gap mode. You'll find details specific to your Hardware Wallet in its dedicated tutorial on Plan ₿ Academy.
 
 Before starting, make sure that the wallet is already configured on your Hardware Wallet. If you're using a wired connection, connect it to your computer via the cable.
 
@@ -334,7 +336,7 @@ If you're using a Hardware Wallet, it's very important to check the address on t
 
 ![Image](assets/fr/44.webp)
 
-For Hardware Wallet Air-Gap users, address verification varies according to device model. See the dedicated Plan ₿ Network tutorial for precise instructions.
+For Hardware Wallet Air-Gap users, address verification varies according to device model. See the dedicated Plan ₿ Academy tutorial for precise instructions.
 
 Once the transaction has been broadcast by the payer, you'll see it appear in the "*Transactions*" tab. You can click on it for more details, such as the txid.
 
@@ -388,7 +390,7 @@ This takes you to a page detailing the elements of your transaction. Check that 
 
 It's important to keep the default Sighash. To understand why, take a look at this training course, in which I explain everything you need to know about Sighash:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 On the next screen, the options vary according to the type of wallet you are using:
 
@@ -468,4 +470,4 @@ If you found this tutorial useful, I'd be very grateful if you'd leave a green t
 
 I also recommend this other tutorial in which I explain how to configure the Hardware Wallet COLDCARD Q with Sparrow Wallet :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

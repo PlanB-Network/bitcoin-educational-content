@@ -1,0 +1,9 @@
+question: Pour quel motif principal le mouvement Occupy Wall Street a-t-il commencé à accepter les dons en bitcoins en septembre 2011 ?
+answer: Contourner la censure financière
+wrong_answers:
+  - Bénéficier d'une réserve de valeur à long terme
+  - Inscrire des informations sur la chaine de blocs
+  - Acheter des fournitures sur Silk Road
+explanation: |
+  Ce mouvement a adopté Bitcoin pour échapper à la censure financière après que certains de ses comptes PayPal aient été gelés. L'assemblée générale des manifestants à New York a ainsi reçu des dons dès le 19 septembre, pour un total de 686 BTC soit plus de 3 000 $ au moment de la réception.
+reviewed: false

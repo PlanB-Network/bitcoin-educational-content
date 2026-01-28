@@ -6,15 +6,15 @@ description: Seadista oma Muun rahakott
 
 ![kaas](assets/cover.webp)
 
-Muun (https://muun.com/) on isehaldatav rahakott Bitcoinile ja Lightning võrgule.
+[Muun](https://muun.com/) on isehoitav rahakott bitcoini ja lightningi jaoks.
 
-## videoõpetus
+## Videotutoriaal
 
 ![videoõpetus](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Rahakott - Täielik Kasutusjuhend
 
-Täielik kasutusjuhend (koos ekraanipiltidega) Muun rakendusele; kasutajasõbralik mobiilne Bitcoin rahakott, mis võimaldab teil teha tehinguid Lightning võrgus.
+Täielik kasutusjuhend (ekraanipiltidega) Muun rakenduse jaoks; kasutajasõbralik mobiilne Bitcoini rahakott, mis võimaldab teil teha tehinguid Lightning võrgus.
 
 ![pilt](assets/0.5.webp)
 
@@ -118,15 +118,15 @@ Siin on juhiste tõlge:
 
 See hädaabiprotseduur aitab teil taastada oma vahendid, kui te ei saa Muuni oma seadmes kasutada.
 
-1. Leidke oma taastekood
+- Leia oma taastamiskood
 
 Kirjutasite selle koodi paberitükile enne oma hädaabikomplekti loomist. Teil läheb seda hiljem vaja.
 
-2. Laadige alla taastamisvahend
+- Laadige alla taastetööriist
 
 Minge lehele https://github.com/muun/recovery ja laadige vahend oma arvutisse alla.
 
-3. Taastage oma vahendid
+- Taasta oma vahendid
 
 Käivitage taastamisvahend ja järgige samme. Vahend kannab teie vahendid teie valitud Bitcoin aadressile.
 
@@ -168,7 +168,7 @@ Kohandamisvõimalused leiate "Arve seaded" menüüst. Siin saate muuta aadressig
 
 ![image](assets/28.webp)
 
-## LNURL funktsiooni kasutamine
+## LNURL-funktsiooni kasutamine
 Muun rahakott pakub võimalust kasutada LNURL-i tehingute vastuvõtmiseks. See funktsioon, mida aktiveeritakse lehekülje paremas ülanurgas asuva ruudukujulise skannimissümboli puudutamisega, pakub mitmeid eeliseid, sealhulgas vajaduse vältimist jagada arvet tehingu vastuvõtmiseks. Selle asemel peate skannima QR-koodi, et vastu võtta makseinfo, mida saate seejärel kinnitada tehinguprotsessi lõpuleviimiseks.
 ![image](assets/29.webp)
 

@@ -1,0 +1,8 @@
+question: When defining callback interfaces in UniFFI, what additional Rust trait bounds are typically required on the callback trait to ensure safe cross-language invocation?
+answer: Send and Sync bounds are required because callbacks may cross thread boundaries between Rust and target languages
+wrong_answers:
+  - Clone and Copy bounds are required to allow the callback data to be duplicated across language boundaries
+  - Debug and Display bounds are required to enable proper error reporting when callbacks fail during execution
+  - Serialize and Deserialize bounds are required to marshal callback parameters between different language runtimes
+explanation: |
+  Callback interfaces in UniFFI require Send and Sync bounds because they enable bidirectional communication where Rust code calls back into application code written in target languages. Since these callbacks may cross thread boundaries during execution, Rust's type system requires Send (safe to transfer between threads) and Sync (safe to share references between threads) bounds to ensure memory safety. The other options are incorrect: Clone/Copy are not needed for cross-language calls, Debug/Display are for formatting not safety, and Serialize/Deserialize are handled automatically by UniFFI's marshaling system.

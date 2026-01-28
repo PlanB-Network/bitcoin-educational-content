@@ -1,0 +1,9 @@
+question: 버락 오바마는 Bitcoin을 어떻게 설명했나요?
+answer: 주머니 속 스위스 은행
+wrong_answers:
+  - 디지털 골드
+  - 투기성이 높은 자산
+  - 탈중앙화 통화
+explanation: |
+  버락 오바마 대통령은 Bitcoin를 "주머니 속의 스위스 은행"이라고 표현한 적이 있습니다 실제로 Bitcoin는 신분에 관계없이 모든 사람에게 동일한 기회를 제공하며 Confidential Transactions을 허용합니다.
+reviewed: false

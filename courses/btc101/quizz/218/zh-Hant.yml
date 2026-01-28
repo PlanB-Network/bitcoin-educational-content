@@ -1,11 +1,9 @@
-question: 本課程所述的 Bitcoin 採用的性質為何？
-answer: 病毒式傳播。
+question: 為什麼 Lightning 通道在某一個方向上可能無法使用？
+answer: 流動性不足
 wrong_answers:
-  - 緩慢而穩定。
-  - 快速且無法控制。
-  - 零星且不可預測。
+  - 區塊過新
+  - HTLC 已過期
+  - 節點未同步
 explanation: |
-  課程文字將 Bitcoin 的採用描述為病毒式、
-  這表示它會從一個人迅速廣泛地傳播到另一個人，就像病毒一樣，但卻是好的病毒。
-  病毒一樣，不過是一種好的病毒。
-reviewed: true
+  即使容量很大，通道也只有在正確一側具備足夠流動性時才能進行支付。
+reviewed: false

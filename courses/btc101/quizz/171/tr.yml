@@ -1,13 +1,8 @@
-question: Bitcoin protokolü sansüre karşı direncini ve esnekliğini nasıl sağlıyor?
-answer: Protokolün her bir bileşeni coğrafi olarak dünya genelinde dağıtılmıştır.
+question: Sınırlı Supply ve Halving süreci dikkate alındığında Bitcoin'ın genel eğilimi nedir?
+answer: Genel bir yükseliş eğilimi.
 wrong_answers:
-  - Avrupa'da dağıtılmış düğümlerden oluşan yerel bir ağ kullanır.
-  - İşlemleri doğrulamak için karmaşık bir algoritma kullanır.
-  - Yüksek düzeyde şifreleme kullanır.
-explanation: |
-  Bitcoin protokolü sansüre karşı dayanıklılığını ve
-  esneklik çünkü protokolün her bir bileşeni
-  dünya genelinde coğrafi olarak dağıtılmıştır. Örneğin,
-  genelinde yaklaşık 40.000 Bitcoin düğümü bulunmaktadır
-  kıtalar.
+  - Genel bir düşüş eğilimi.
+  - Hiç trend yok.
+  - Fark edilebilir bir model olmaksızın çılgınca dalgalanan bir trend.
+explanation: >-
 reviewed: true

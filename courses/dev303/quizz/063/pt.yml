@@ -1,0 +1,8 @@
+question: Quando uma macro usa o padrão `$($x:expr),*` em sua definição, o que esse padrão faz?
+answer: Corresponde a zero ou mais expressões separadas por vírgulas, permitindo listas de argumentos de comprimento variável
+wrong_answers:
+  - Corresponde exatamente a uma expressão e repete a expansão da macro várias vezes
+  - Corresponde a qualquer número de definições de tipo separadas por ponto e vírgula para geração de código
+  - Cria um ciclo que executa a macro em tempo de execução com diferentes valores de expressão
+explanation: |
+  O padrão `$($x:expr),*` utiliza a sintaxe de repetição de macros do Rust onde o quantificador `*` significa 'zero ou mais', `$x:expr` captura cada expressão, e a vírgula especifica o separador entre as expressões. Isto permite que macros como `vec!` aceitem qualquer número de argumentos: `vec![1, 2, 3]` ou `vec![]`. As outras opções estão incorretas porque: o padrão lida com múltiplas expressões e não apenas uma, ele corresponde especificamente a expressões e não a definições de tipos e utiliza vírgulas e não ponto e vírgula, e as macros são executadas em tempo de compilação durante a geração de código e não em tempo de execução.

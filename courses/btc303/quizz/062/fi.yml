@@ -1,0 +1,9 @@
+question: Avoimen lähdekoodin määritelmän mukaan mikä on johdettujen teosten ja niiden lisenssiehtojen välinen suhde alkuperäiseen ohjelmistoon verrattuna?
+answer: Johdettujen teosten jakelun on oltava sallittua samoin ehdoin kuin alkuperäisen ohjelmiston lisenssin
+wrong_answers:
+  - Johdettuja teoksia on jaettava alkuperäistä ohjelmistoa rajoittavammilla lisenssiehdoilla
+  - Johdetut teokset on julkaistava täysin erilaisella lisenssillä, joka ei ole yhteensopiva alkuperäisen kanssa
+  - Johdettuja teoksia voidaan levittää vain tekijänoikeudellisten lisenssien nojalla, jotka edellyttävät rojaltien maksamista
+explanation: |
+  Avoimen lähdekoodin määritelmässä todetaan nimenomaisesti, että "lisenssin on sallittava muutokset ja johdetut teokset ja että niitä on voitava levittää samoin ehdoin kuin alkuperäisen ohjelmiston lisenssiä." Näin varmistetaan, että johdannaisteokset säilyttävät samat vapaudet kuin alkuperäinen ohjelmisto, mikä estää jotakuta ottamasta avoimen lähdekoodin koodia ja tekemästä siitä patentoitua. Muut vaihtoehdot rikkovat tätä perusperiaatetta joko rajoittamalla vapautta tai muuttamalla lisenssien yhteensopivuutta.
+reviewed: false

@@ -13,17 +13,17 @@ Mas a aplicação também inclui um "nó incorporado".
 
 
 
-**É esta faceta da aplicação que vamos explorar neste tutorial. Isto permite a qualquer pessoa ter o seu próprio nó de relâmpago no telemóvel, sem necessidade de um servidor dedicado, da mesma forma que a ACINQ oferece o seu incrível Wallet lightning Phoenix.
+**É esta faceta da aplicação que vamos explorar neste tutorial.** Isto permite a qualquer pessoa ter o seu próprio nó de relâmpago no telemóvel, sem necessidade de um servidor dedicado, da mesma forma que a ACINQ oferece o seu incrível Wallet lightning Phoenix.
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Relembrando, a Lightning é uma rede que funciona em paralelo com a Bitcoin, permitindo a troca de bitcoins sem ter de efetuar sistematicamente transacções On-Chain. O resultado são transacções quase instantâneas, sem necessidade de esperar 10 minutos para que um bloco seja validado. Isto é particularmente útil para pagar a um comerciante no mundo físico. Além disso, Lightning oferece um nível notável de **confidencialidade** que a rede Bitcoin não possui nativamente*.
 
 
 
-*o *Zeus "Integrated "** destina-se aos utilizadores de Bitcoin que pretendem maximizar a sua privacidade e autonomia.
+**O Zeus "Integrated"** destina-se aos utilizadores de Bitcoin que pretendem maximizar a sua privacidade e autonomia.
 
 
 Em suma, é **potencialmente** o telemóvel Wallet dos sonhos dos cypherpunks. Mesmo que ainda esteja na sua infância (versão alfa) e sujeito a alguns bugs, as suas funcionalidades são imensas e não há dúvida de que fará as delícias dos mais intrépidos de entre nós, que querem o máximo de controlo e de opções.
@@ -38,7 +38,7 @@ Por outro lado, não me parece que seja atualmente adequado para principiantes q
 
 
 
-Ir para [o sítio Web do projeto] (https://zeusln.com/) para descarregar a aplicação para o sistema operativo do seu smartphone:
+Ir para [o sítio Web do projeto](https://zeusln.com/) para descarregar a aplicação para o sistema operativo do seu smartphone:
 
 
 
@@ -200,7 +200,7 @@ Para mais informações sobre a forma correta de guardar e gerir a sua frase Mne
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -248,7 +248,7 @@ No ecrã seguinte, é-lhe pedido que abra um canal em colaboração com **"Olymp
 Para este tutorial, vamos escolher esta opção por uma questão de simplicidade, mas é perfeitamente possível abrir canais com qualquer nó na rede.
 
 
-É mesmo possível abrir vários canais numa única transação, selecionando "OPEN ADDITIONAL CHANNEL". *Mas veremos isso numa versão "avançada" do tutorial **Zeus Embedded****.
+É mesmo possível abrir vários canais numa única transação, selecionando "OPEN ADDITIONAL CHANNEL". *Mas veremos isso numa versão "avançada" do tutorial **Zeus Embedded***.
 
 
 
@@ -345,7 +345,7 @@ O Zeus permite-lhe então adicionar uma nota para denominar o seu pagamento, ou 
 
 
 
-Note-se que, ao contrário de um Wallet como [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), com Zeus a rota é calculada localmente e não delegada a um terceiro (ACINQ no caso de Phoenix). Assim, só o utilizador conhece o destinatário do pagamento. Perde-se um pouco de eficácia (os pagamentos demoram um pouco mais a ser efectuados, mas ganha-se muito em termos de privacidade).
+Note-se que, ao contrário de um Wallet como [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), com Zeus a rota é calculada localmente e não delegada a um terceiro (ACINQ no caso de Phoenix). Assim, só o utilizador conhece o destinatário do pagamento. Perde-se um pouco de eficácia (os pagamentos demoram um pouco mais a ser efectuados, mas ganha-se muito em termos de privacidade).
 
 
 
@@ -422,8 +422,8 @@ Parabéns, está agora pronto para utilizar o Zeus Embedded, o sistema de ilumin
 
 
 
-Para saber mais sobre o funcionamento técnico do Lightning Network, pode encontrar a excelente formação gratuita de Fanis Michalakis sobre o Plan ₿ Network:
+Para saber mais sobre o funcionamento técnico do Lightning Network, pode encontrar a excelente formação gratuita de Fanis Michalakis sobre o Plan ₿ Academy:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

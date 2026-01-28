@@ -1,11 +1,9 @@
-question: Šta je AMF?
-answer: Autorité des Marchés Financiers.
+question: Koji je jedan od rizika povezanih sa kupovinom Bitkoina?
+answer: Njegova cena može pasti na 0.
 wrong_answers:
-  - Američki monetarni fond.
-  - Asocijacija Mining objekata.
-  - Automatizovani Tok Novca.
+  - Može se lako ukrasti.
+  - Može se duplicirati.
+  - Može se fizički izgubiti.
 explanation: |
-  AMF, ili Autorité des Marchés Financiers, je francuska
-  organizacija koja reguliše platforme na kojima se bitkoini mogu
-  kupovati.
+  Tekst kursa pominje da je Bitkoin visoko volatilna finansijska imovina, i da njena cena može pasti na 0, što je jedan od rizika povezanih sa kupovinom Bitkoina.
 reviewed: true

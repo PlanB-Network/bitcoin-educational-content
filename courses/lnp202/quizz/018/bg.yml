@@ -1,0 +1,9 @@
+question: Колко думи съдържа мнемоничната фраза LND?
+answer: 24 думи
+wrong_answers:
+  - 10 думи
+  - 18 думи
+  - 36 думи
+explanation: |
+  LND generate е мнемонична фраза от 24 думи за архивиране и възстановяване на възли.
+reviewed: false

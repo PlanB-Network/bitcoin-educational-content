@@ -1,9 +1,11 @@
-question: Jaký je potenciální dopad současného finančního systému na politické aktéry?
-answer: Nejsou motivováni k provádění radikálních změn, což umožňuje systému pokračovat ve svém kurzu až do možné imploze.
+question: Existuje historický případ, kdy denní míra inflace dosáhla ekvivalentu 100 %; kde a kdy se to stalo?
+answer: Ve Zimbabwe, 2007.
 wrong_answers:
-  - Jsou motivováni k provádění radikálních změn, aby předešli možné implozi.
-  - Nejsou motivováni udržovat status quo, aby zajistili vlastní bohatství.
-  - Jsou motivováni myslet dlouhodobě.
+  - V Maďarsku, 1945.
+  - V Číně, 1940.
+  - Jedná se ve skutečnosti o nerealistický případ, který se nemůže stát.
 explanation: |
-  Jelikož političtí aktéři těží ze současného finančního systému, nejsou motivováni k provádění radikálních změn. To umožňuje systému pokračovat ve svém kurzu až do možné imploze, jelikož systém je regulován a omezen, aby se zabránilo jeho vlastnímu kolapsu.
+  Denní míra inflace 100 % je realistický scénář, který
+  se odehrál ve Zimbabwe v roce 2007, kde hodnota peněz se přibližně
+  zdvojnásobila každých 24 hodin.
 reviewed: true

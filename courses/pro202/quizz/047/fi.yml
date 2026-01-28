@@ -1,0 +1,8 @@
+question: Millä matemaattisella kaavalla lasketaan lohkotuki tietyllä lohkon korkeudella h Bitcoin:n pöytäkirjassa?
+answer: tuki = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - tuki = 50_000_000_000 / (2^(h / 210_000))
+  - tuki = 5_000_000_000 * (0.5^(h % 210_000))
+  - tuki = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  Oikeassa kaavassa käytetään bittien siirto-operaatioita, joissa 5_000_000_000_000 edustaa 50 BTC:tä satosheina, ja oikealle siirto-operaattori >> jakaa tehokkaasti potensseilla 2. Lattiajako h // 210_000 määrittää, kuinka monta puolitusjaksoa on tapahtunut. Ensimmäisessä väärässä vastauksessa käytetään tavallista jakoa bittien siirtämisen sijasta ja aloitetaan virheellisestä perusarvosta. Toisessa vastauksessa käytetään moduulijakoa floor-divisioonan sijasta, mikä aiheuttaisi syklisen kuvion progressiivisen puolituksen sijasta. Kolmannessa käytetään modulo-operaatiota, joka nollaisi puolituslaskurin joka 210 000 lohkon välein sen sijaan, että puolitukset kasaantuisivat ajan mittaan.

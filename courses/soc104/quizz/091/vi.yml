@@ -1,0 +1,10 @@
+question: Theo lời phê bình cơ bản của Satoshi Nakamoto, vấn đề cốt lõi của các loại tiền tệ pháp định truyền thống mà Bitcoin được thiết kế để giải quyết là gì?
+answer: Sự tin tưởng thái quá đặt vào các thể chế tập trung, những thể chế trong lịch sử đã nhiều lần vi phạm lòng tin đó bằng cách làm giảm giá trị tiền tệ.
+wrong_answers:
+  - Việc thiếu cơ sở hạ tầng kỹ thuật số và thời gian xử lý giao dịch chậm so với các hệ thống thanh toán hiện đại.
+  - Việc không thể thực hiện các giao dịch quốc tế mà không cần đến các trung gian đắt đỏ và phí chuyển đổi tiền tệ là một trở ngại.
+  - Sự dễ bị tổn thương trước nạn làm giả và trộm cắp tiền mặt do phụ thuộc vào tiền giấy và việc lưu trữ tiền mặt.
+explanation: |
+  Satoshi Nakamoto đã khẳng định rõ ràng rằng "vấn đề cốt lõi của tiền tệ truyền thống là tất cả niềm tin cần thiết để nó hoạt động" và "lịch sử của tiền tệ pháp định đầy rẫy những vi phạm niềm tin đó".
+  
+  Nền tảng triết học này đã thúc đẩy thiết kế của Bitcoin như một hệ thống không cần niềm tin, không yêu cầu sự tin tưởng vào ngân hàng trung ương hoặc chính phủ để duy trì sự ổn định tiền tệ, trực tiếp giải quyết mô hình lịch sử về sự mất giá tiền tệ thông qua việc in tiền quá mức.

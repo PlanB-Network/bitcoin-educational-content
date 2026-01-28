@@ -30,7 +30,7 @@ Untuk pembuatan frase pemulihan Anda secara manual, Anda akan memerlukan:
 - Selembar kertas;
 - Sebuah pena atau pensil, idealnya dengan warna yang berbeda untuk memudahkan organisasi;
 - Beberapa dadu, untuk meminimalkan risiko bias yang terkait dengan dadu yang tidak seimbang;
-- [Daftar 2048 kata BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) yang dicetak.
+- [Daftar 2048 kata BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/wallet/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) yang dicetak.
 
 Selanjutnya, penggunaan komputer dengan terminal akan menjadi perlu untuk perhitungan checksum. Ini adalah alasan tepat mengapa saya menyarankan terhadap generasi manual frase mnemonik. Menurut saya, intervensi komputer, bahkan di bawah tindakan pencegahan yang disebutkan dalam tutorial ini, secara signifikan meningkatkan kerentanan dompet.
 Untuk pendekatan eksperimental mengenai "dompet fiktif", Anda dapat menggunakan komputer biasa dan terminalnya. Namun, untuk pendekatan yang lebih ketat yang bertujuan untuk membatasi risiko kompromi frasa Anda, idealnya adalah menggunakan PC yang terputus dari internet (lebih disukai tanpa komponen wifi atau koneksi kabel RJ45), dilengkapi dengan minimum periferal (semua harus terhubung melalui kabel, untuk menghindari Bluetooth), dan yang terpenting, berjalan pada distribusi Linux amnesik seperti [Tails](https://tails.boum.org/index.fr.html), yang dimulai dari media yang dapat dilepas.
@@ -70,7 +70,7 @@ Setiap paket ini mewakili sebuah angka dalam biner yang kemudian akan dikonversi
 
 ![mnemonic](assets/notext/5.webp)
 
-Akhirnya, angka dalam desimal memberitahu kita posisi kata yang sesuai dalam [daftar 2048 kata BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Yang tersisa hanyalah memilih kata-kata ini untuk menyusun frasa pemulihan untuk dompet kita.
+Akhirnya, angka dalam desimal memberitahu kita posisi kata yang sesuai dalam [daftar 2048 kata BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/wallet/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Yang tersisa hanyalah memilih kata-kata ini untuk menyusun frasa pemulihan untuk dompet kita.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -91,7 +91,7 @@ Seperti yang Anda lihat dalam contoh saya, kata kedua belas saat ini hanya terdi
 
 ## Langkah 2: Menghitung checksum
 
-Langkah ini adalah yang paling kritis dalam pembuatan frasa mnemonic secara manual, karena memerlukan penggunaan komputer. Seperti yang disebutkan sebelumnya, checksum sesuai dengan awal dari hash SHA256 yang dihasilkan dari entropi. Meskipun secara teoritis mungkin untuk menghitung SHA256 dengan tangan untuk input 128 atau 256 bit, tugas ini bisa memakan waktu seluruh minggu. Lebih lagi, kesalahan apa pun dalam perhitungan manual hanya akan teridentifikasi di akhir proses, memaksa Anda untuk memulai dari awal lagi. Oleh karena itu, tidak dapat dibayangkan untuk melakukan langkah ini hanya dengan selembar kertas dan sebuah pena. Komputer hampir wajib digunakan. Jika Anda masih ingin belajar cara melakukan SHA256 dengan tangan, kami menjelaskan cara melakukannya di [kursus CRYPTO301](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+Langkah ini adalah yang paling kritis dalam pembuatan frasa mnemonic secara manual, karena memerlukan penggunaan komputer. Seperti yang disebutkan sebelumnya, checksum sesuai dengan awal dari hash SHA256 yang dihasilkan dari entropi. Meskipun secara teoritis mungkin untuk menghitung SHA256 dengan tangan untuk input 128 atau 256 bit, tugas ini bisa memakan waktu seluruh minggu. Lebih lagi, kesalahan apa pun dalam perhitungan manual hanya akan teridentifikasi di akhir proses, memaksa Anda untuk memulai dari awal lagi. Oleh karena itu, tidak dapat dibayangkan untuk melakukan langkah ini hanya dengan selembar kertas dan sebuah pena. Komputer hampir wajib digunakan. Jika Anda masih ingin belajar cara melakukan SHA256 dengan tangan, kami menjelaskan cara melakukannya di [kursus CRYPTO301](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 Untuk alasan ini, saya sangat menyarankan agar tidak membuat frasa manual untuk dompet aktual. Menurut saya, menggunakan komputer pada tahap ini, bahkan dengan semua tindakan pencegahan yang diperlukan, tidak masuk akal meningkatkan permukaan serangan dari dompet.
 Untuk menghitung checksum sambil meninggalkan sedikit jejak sebisa mungkin, kami akan menggunakan distribusi Linux amnesik dari drive yang dapat dilepas bernama **Tails**. Sistem operasi ini boot dari USB stick dan beroperasi sepenuhnya pada RAM komputer, tanpa berinteraksi dengan hard drive. Dengan demikian, secara teori, tidak meninggalkan jejak apa pun pada komputer setelah dimatikan. Harap dicatat bahwa Tails hanya kompatibel dengan prosesor tipe x86_64, dan tidak dengan prosesor tipe ARM.
@@ -219,7 +219,7 @@ Dengan angka desimal yang diperoleh, kita sekarang dapat menemukan kata-kata yan
 
 ![mnemonic](assets/notext/24.webp)
 Setelah penyesuaian ini, Anda memiliki peringkat setiap kata dalam daftar. Yang tersisa hanyalah mengidentifikasi setiap kata berdasarkan nomornya. Jelas, seperti semua langkah lainnya, Anda tidak boleh menggunakan komputer Anda untuk melakukan konversi ini. Oleh karena itu, pastikan Anda telah mencetak daftar tersebut sebelumnya.
-[**-> Cetak daftar BIP39 dalam format A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
+[**-> Cetak daftar BIP39 dalam format A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/wallet/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Sebagai contoh, jika nomor yang diperoleh dari baris pertama adalah 1721, kata yang sesuai akan menjadi kata ke-1721 dalam daftar:
 

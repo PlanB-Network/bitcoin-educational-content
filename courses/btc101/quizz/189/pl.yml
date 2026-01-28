@@ -1,8 +1,8 @@
-question: jak Bitcoin rozwiązuje problem bizantyjskich generałów?
-answer: Dzięki zastosowaniu Blockchain opartego na Proof of Work ze zmiennym poziomem trudności.
+question: Czym jest Swiss Bitcoin Pay?
+answer: Rozwiązanie dla sprzedawców amatorów do akceptowania bitcoina.
 wrong_answers:
-  - Dzięki wykorzystaniu podpisów cyfrowych.
-  - Poprzez wykorzystanie publicznego Ledger.
-  - Dzięki wykorzystaniu algorytmu Proof of Stake.
+  - Szwajcarski bank akceptujący bitcoina.
+  - Giełda bitcoina ze Szwajcarii.
+  - Firma wydobywcza, która działa w Szwajcarii.
 explanation: >-
 reviewed: true

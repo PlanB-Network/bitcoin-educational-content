@@ -1,0 +1,8 @@
+question: Welche mathematische Eigenschaft stellt sicher, dass Punkte einer elliptischen Kurve bei kryptografischen Operationen konsistent und vorhersagbar addiert werden können?
+answer: Punkte bilden eine mathematische Gruppe mit Abschluss, Assoziativität, Identität und Inversen
+wrong_answers:
+  - Punkte erhalten kontinuierliche, glatte Kurven, die geometrische Beziehungen bewahren
+  - Punkte folgen linearen Verlaufsmustern, die vorhersehbare Sequenzen erzeugen
+  - Punkte verwenden modulare Arithmetik, die automatisch Rechenfehler verhindert
+explanation: |
+  Punkte elliptischer Kurven bilden eine mathematische Gruppe unter Addition, was bedeutet, dass sie vier wesentliche Eigenschaften erfüllen: Schließung (die Addition zweier Punkte ergibt einen weiteren Punkt auf der Kurve), Assoziativität (die Reihenfolge der Operationen spielt keine Rolle), Identität (der Punkt im Unendlichen verhält sich wie die Null) und Inversen (jeder Punkt hat eine Spiegelung, die ihn aufhebt). Diese Gruppeneigenschaften sorgen dafür, dass die Kryptographie mit elliptischen Kurven zuverlässig funktioniert und Operationen wie die Skalarmultiplikation sich konsistent verhalten, unabhängig davon, ob wir mit glatten reellen Kurven oder diskreten Punkten eines endlichen Feldes arbeiten.

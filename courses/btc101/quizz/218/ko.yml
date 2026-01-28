@@ -1,0 +1,9 @@
+question: Lightning 채널이 한 방향에서 사용할 수 없을 수 있는 이유는 무엇입니까?
+answer: 유동성이 충분하지 않음
+wrong_answers:
+  - 너무 최근의 블록
+  - 만료된 HTLC
+  - 동기화되지 않은 노드
+explanation: |
+  용량이 크더라도, 올바른 쪽에 충분한 유동성이 있을 때만 채널에서 결제가 가능합니다.
+reviewed: false

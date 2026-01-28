@@ -17,7 +17,7 @@ Bitfinex ondersteunt actief de ontwikkeling van Bitcoin, investeert in technolog
 ## 1 - Een Bitfinex account aanmaken
 
 
-Ga naar [de officiële website van Bitfinex] (https://www.bitfinex.com/). Zoek en klik op de startpagina op de optie "*Aanmelden*" om te beginnen met het aanmaken van uw account.
+Ga naar [de officiële website van Bitfinex](https://www.bitfinex.com/). Zoek en klik op de startpagina op de optie "*Aanmelden*" om te beginnen met het aanmaken van uw account.
 
 
 ![BITFINEX](assets/fr/01.webp)
@@ -32,12 +32,12 @@ Vul de vereiste informatie in: voer uw e-mailadres Address en land van verblijf 
 Voor tips over het gebruik en de beveiliging van sterke, unieke wachtwoorden, zie ook deze tutorial :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 We gaan nu de 2FA configureren om het account te beveiligen. Gebruik een authenticatietoepassing op je smartphone, zoals Google Authenticator of Authy. Je vindt een tutorial over deze tool hier :
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scan de QR-code met je app en voer de 6 cijfers in.
 
@@ -77,10 +77,10 @@ Bitfinex past een verificatieproces (KYC) toe dat voldoet aan de huidige regelge
 
 
 
-- Basic* is een modus met alleen weergave, waarmee je het platform kunt raadplegen zonder bewerkingen uit te voeren;
-- Basic Plus* biedt toegang tot essentiële functies, waaronder contante markttransacties en geselecteerde stortings- en opnameopties;
-- Intermediate* ontsluit geavanceerde diensten zoals margehandel, leningen, P2P en OTC-transacties, en biedt kortere stortingstermijnen;
-- Full* geeft je toegang tot internationale bankoverschrijvingen en alle functies van het platform.
+- **Basic** is een modus met alleen weergave, waarmee je het platform kunt raadplegen zonder bewerkingen uit te voeren;
+- **Basic Plus** biedt toegang tot essentiële functies, waaronder contante markttransacties en geselecteerde stortings- en opnameopties;
+- **Intermediate** ontsluit geavanceerde diensten zoals margehandel, leningen, P2P en OTC-transacties, en biedt kortere stortingstermijnen;
+- **Full** geeft je toegang tot internationale bankoverschrijvingen en alle functies van het platform.
 
 
 Voor elk niveau zijn aanvullende documenten nodig voor verificatie. Voor de meeste gebruikers zijn *Basic Plus* of *Intermediate* accounts over het algemeen voldoende.
@@ -115,11 +115,11 @@ Eenmaal ingelogd zie je bovenaan de Interface een navigatiebalk met: "*Trading*"
 
 
 
-- Handel**: "*klassieke*" markt waar je orders kunt plaatsen om cryptocurrencies (inclusief Bitcoin) te kopen en verkopen;
-- OTC**: Over-The-Counter dienst voor het rechtstreeks verhandelen van grote volumes met een andere speler, buiten de openbare orderboeken om;
-- Financiering**: Ruimte gewijd aan kredietverlening en marginfinanciering;
-- Derivaten**: Sectie voor derivaten (futures, etc.), bedoeld voor ervaren handelaren;
-- P2P**: Hiermee kun je crypto's van andere gebruikers kopen of verkopen op peer-to-peer basis.
+- **Handel**: "*klassieke*" markt waar je orders kunt plaatsen om cryptocurrencies (inclusief Bitcoin) te kopen en verkopen;
+- **OTC**: Over-The-Counter dienst voor het rechtstreeks verhandelen van grote volumes met een andere speler, buiten de openbare orderboeken om;
+- **Financiering**: Ruimte gewijd aan kredietverlening en marginfinanciering;
+- **Derivaten**: Sectie voor derivaten (futures, etc.), bedoeld voor ervaren handelaren;
+- **P2P**: Hiermee kun je crypto's van andere gebruikers kopen of verkopen op peer-to-peer basis.
 
 
 Voor standaardgebruik (bitcoins kopen/verkopen en stortingen/opnames) gebruik je voornamelijk de tab "*Trading*" en de secties "*Wallet*", "*Deposit*" en "*Withdraw*".
@@ -245,9 +245,9 @@ Bitfinex biedt ook stortings- en opnamemogelijkheden via de Lightning Network, w
 Als je geïnteresseerd bent in de Lightning Network, hebben we ook een complete training om je te helpen begrijpen hoe het werkt:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Nadat je je eerste bitcoins hebt gekocht, heb je natuurlijk de optie om ze op het platform te laten, maar ik raad sterk aan om ze over te zetten naar je eigen Wallet in zelfbewaarneming. Als je nog niet weet hoe je een Bitcoin Wallet moet gebruiken, nodig ik je uit om [de "Wallet" sectie op Plan ₿ Network] te verkennen (https://planb.network/tutorials/Wallet).
+Nadat je je eerste bitcoins hebt gekocht, heb je natuurlijk de optie om ze op het platform te laten, maar ik raad sterk aan om ze over te zetten naar je eigen Wallet in zelfbewaarneming. Als je nog niet weet hoe je een Bitcoin Wallet moet gebruiken, nodig ik je uit om [de "Wallet" sectie op Plan ₿ Academy] te verkennen (https://planb.academy/tutorials/wallet).
 
 
 ## 6 - Bitcoins kopen en verkopen op Bitfinex

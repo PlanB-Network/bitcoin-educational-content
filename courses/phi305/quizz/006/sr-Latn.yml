@@ -1,0 +1,9 @@
+question: Da li je Immanuel Kant filozof?
+answer: Nemački.
+wrong_answers:
+  - Engleski.
+  - Poljski.
+  - Holandski.
+explanation: |
+  Immanuel Kant (1724-1804) bio je nemački filozof, smatran jednim od najvažnijih mislilaca prosvetiteljstva. Razvio je kritičku filozofiju koja je nastojala da pomiri racionalizam i empirizam.
+reviewed: false

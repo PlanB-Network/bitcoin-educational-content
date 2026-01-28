@@ -86,7 +86,7 @@ Em seguida, siga as instruções para confirmar a sua cópia de segurança e lig
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **IMPORTANTE**: Para adicionar um Layer extra de segurança ao seu Breez Wallet, pode definir um código PIN e configurá-lo para autenticar que o acesso ao Wallet está autorizado.
 
@@ -103,9 +103,9 @@ O Breez oferece-lhe três opções:
 
 
 
-- Receber por Lightning ou ID** Invoice: generate e Invoice e receber o pagamento.
-- Receber através de um Bitcoin Address**: Receber bitcoins com transacções na rede principal Bitcoin.
-- Comprar Bitcoin**: Breez incorpora uma forma de obter Bitcoin diretamente de moedas fiduciárias.
+- Receber por Lightning ou ID **Invoice**: generate e Invoice e receber o pagamento.
+- **Receber através de um Bitcoin Address**: Receber bitcoins com transacções na rede principal Bitcoin.
+- **Comprar Bitcoin**: Breez incorpora uma forma de obter Bitcoin diretamente de moedas fiduciárias.
 
 
 
@@ -139,9 +139,9 @@ O Breez oferece-lhe três opções para enviar bitcoins.
 
 
 
-- Colar o Invoice ou o ID de utilizador**: Pagar um Lightning Invoice.
-- Ligar para pagar**: Crie uma sessão e convide o seu destinatário a juntar-se à sessão para lhe enviar bitcoins.
-- Enviar para BTC Address**: Transacionar na rede principal Bitcoin.
+- **Colar o Invoice ou o ID de utilizador**: Pagar um Lightning Invoice.
+- **Ligar para pagar**: Crie uma sessão e convide o seu destinatário a juntar-se à sessão para lhe enviar bitcoins.
+- Enviar para **BTC Address**: Transacionar na rede principal Bitcoin.
 
 
 
@@ -169,7 +169,7 @@ Encontrará serviços úteis diretamente na aplicação.
 
 
 
-- Ouvir podcasts**: O Breez é um leitor de podcasts 2.0 que lhe permite apoiar os criadores de que gosta com donativos Bitcoin.
+- **Ouvir podcasts**: O Breez é um leitor de podcasts 2.0 que lhe permite apoiar os criadores de que gosta com donativos Bitcoin.
 
 
 No menu, selecione **Podcasts** e, em seguida, encontre, descubra e ouça os seus criadores de conteúdos favoritos.
@@ -186,7 +186,7 @@ Apoie o trabalho dos criadores de conteúdos que adora fazendo donativos.
 
 
 
-- Um ponto de venda**: O Breez adapta-se perfeitamente ao seu negócio, permitindo-lhe gerir um ponto de venda dentro da aplicação. Pode gerir o inventário da sua loja, receber pagamentos dos seus clientes e facturas imprimíveis generate para cada compra efectuada. Além disso, pode encontrar as suas moedas locais na multiplicidade de moedas suportadas pelo Breez.
+- **Um ponto de venda**: O Breez adapta-se perfeitamente ao seu negócio, permitindo-lhe gerir um ponto de venda dentro da aplicação. Pode gerir o inventário da sua loja, receber pagamentos dos seus clientes e facturas imprimíveis generate para cada compra efectuada. Além disso, pode encontrar as suas moedas locais na multiplicidade de moedas suportadas pelo Breez.
 
 
 
@@ -210,7 +210,7 @@ Quando o seu inventário estiver completo, pode facilmente adquirir estes produt
 
 
 
-- Aceder a serviços de terceiros**: O Breez integra serviços de terceiros que lhe permitem tomar mais medidas sem ter de sair da carteira. Estes incluem Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- **Aceder a serviços de terceiros**: O Breez integra serviços de terceiros que lhe permitem tomar mais medidas sem ter de sair da carteira. Estes incluem Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)

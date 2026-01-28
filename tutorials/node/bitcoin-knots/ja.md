@@ -1,5 +1,5 @@
 ---
-name: Bitcoin ノット
+name: Bitcoin Knots
 description: Bitcoin Knots代替クライアントでノードを起動するには？
 ---
 ![cover](assets/cover.webp)
@@ -19,8 +19,8 @@ Bitcoinの歴史を通じて、Satoshiナカモトが開発した初期ソフト
 Coreの代わりにKnotsのような代替クライアントを使う主な理由は2つある：
 
 
-- テクニカル**：これらのクライアントはCoreに異なるオプションを提供することが多く、特にMempool管理に関しては、どのトランザクションを受け入れ、ノードにブロードキャストするかを決定する。
-- ポリシー**：Knotsのような代替クライアントを使うことを好む人もいますが、それは技術的な理由ではなく、Coreの代替クライアントをサポートすることで、Coreの独占を減らすためです。もしCoreが危険にさらされるようなことがあれば、しっかりした、よく整備された代替クライアントを持つだけでなく、その使い方を知っておくことも有用でしょう。また、Coreの開発者への信頼を失ったり、多数派のクライアントの運営に不服があったりするため、抗議の目的でKnotsを使う人もいる。
+- テクニカル：これらのクライアントはCoreに異なるオプションを提供することが多く、特にMempool管理に関しては、どのトランザクションを受け入れ、ノードにブロードキャストするかを決定する。
+- **ポリシー**：Knotsのような代替クライアントを使うことを好む人もいますが、それは技術的な理由ではなく、Coreの代替クライアントをサポートすることで、Coreの独占を減らすためです。もしCoreが危険にさらされるようなことがあれば、しっかりした、よく整備された代替クライアントを持つだけでなく、その使い方を知っておくことも有用でしょう。また、Coreの開発者への信頼を失ったり、多数派のクライアントの運営に不服があったりするため、抗議の目的でKnotsを使う人もいる。
 
 ## Bitcoinノットの取り付け方法は？
 
@@ -30,7 +30,7 @@ Bitcoin Knots公式ウェブサイト](https://bitcoinknots.org/#download)にア
 
 あなたのマシンにソフトウェアをインストールする前に、その真正性と完全性をチェックすることを強くお勧めします。方法がわからない場合は、こちらのチュートリアルをご覧ください：
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 ソフトウェアが確認されたら、インストールパネルに表示されている手順に従ってインストールしてください。
 
 ![Image](assets/fr/03.webp)
@@ -75,7 +75,7 @@ Main*"タブでは、ノードの主なパラメーターにアクセスしま�
 
 ![Image](assets/fr/09.webp)
 
-Wallet*」タブには、後でKnotsで作成できる統合ポートフォリオの設定があります。RBFとコインコントロールを有効にしておくことをお勧めします。また、使用するスクリプトの種類を定義することもできます。
+「**Wallet**」タブには、後でKnotsで作成できる統合ポートフォリオの設定があります。RBFとコインコントロールを有効にしておくことをお勧めします。また、使用するスクリプトの種類を定義することもできます。
 
 ![Image](assets/fr/10.webp)
 
@@ -83,7 +83,7 @@ Network*"タブにはネットワーク・パラメーターが含まれてお�
 
 ![Image](assets/fr/11.webp)
 
-Mempool*」タブでは、*メモリープール*、つまりメモリーに保存された未確認トランザクションの管理と、この機能に割り当てられる最大サイズ（デフォルトでは300MB）を設定できる。
+Mempool」タブでは、**メモリープール**、つまりメモリーに保存された未確認トランザクションの管理と、この機能に割り当てられる最大サイズ（デフォルトでは300MB）を設定できる。
 
 ![Image](assets/fr/12.webp)
 
@@ -115,7 +115,7 @@ Walletに名前をつけてください。また、"*Encrypt Wallet*"をクリ�
 
 passphrase BIP39 は、Wallet のセキュリティを向上させるために、Mnemonic のフレーズに加えて自由に選択できるオプションのパスワードです。この機能を設定する前に、passphraseが理論的にどのように機能するのか、また、ビットコインの永久的な損失につながる可能性のある間違いをどのように避けるかについて詳しく説明している以下の記事を読むことを強くお勧めします：
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 passphraseオプションを有効にしている場合は、堅牢なものを選び、1つ以上の安全な物理メディアに慎重に保存すること。
 
 ![Image](assets/fr/18.webp)
@@ -156,7 +156,7 @@ Bitcoin Knotsは、受信Addressを表示し、コピーまたはスキャンし
 
 ![Image](assets/fr/25.webp)
 
-入力...*」ボタンをクリックして、この取引に使用する正確なUTXOを選択します。
+入力...」ボタンをクリックして、この取引に使用する正確なUTXOを選択します。
 
 ![Image](assets/fr/26.webp)
 
@@ -212,13 +212,14 @@ Bitcoin-QTのInterfaceグラフィックから、"*設定*">"*オプション...
 
 その後、ポートフォリオ管理ソフト（Sparrow WalletやLianaなど）にアクセスし、Cookieファイルのパスを入力します。OSにもよりますが、通常は`Bitcoin.conf`と同じフォルダにあります：
 
-|**macOS**|~/Library/Application Support/Bitcoin|をご覧ください。
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|〜/.Bitcoin|｜｜｜Bitcoin
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,13 +237,14 @@ server=1
 
 ファイルを編集したら、お使いのオペレーティングシステムに適したフォルダに保存してください：
 
-|**macOS**|~/Library/Application Support/Bitcoin|Library/Application Support/Bitcoin|Library/Application Support/Bitcoin
 
+
+
+
+|**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|〜/.Bitcoin|｜｜｜Bitcoin
+|**Linux**|~/.bitcoin|
 
 この操作は、Bitcoin-QT の Interface グラフィックスからも行うことができます。メニューの "*設定*"から "*オプション...*"に進み、"*RPCサーバーを有効にする*"オプションにチェックを入れて有効にします。Bitcoin.conf`ファイルが存在しない場合は、"*Open Configuration File*"をクリックして、このInterfaceから直接作成することができます。
 
@@ -285,4 +287,4 @@ rpcpassword=my_password
 
 Lightningノードのセットアップ方法については、こちらのチュートリアルもおすすめだ：
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

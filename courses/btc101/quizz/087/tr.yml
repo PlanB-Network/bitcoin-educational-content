@@ -1,13 +1,14 @@
-question: Multisig Wallet nedir?
-answer: Bir işlem gerçekleştirmek için birden fazla imza gerektiren bir cüzdan seti.
+question: Multisig Wallet kullanmanın riski nedir?
+answer: Yeterli sayıda bireysel özel anahtara veya yedek bileşene erişimin olmaması.
 wrong_answers:
-  - Bir işlemi gerçekleştirmek için tek bir imza gerektiren bir Wallet.
-  - Bir işlemi gerçekleştirmek için imza gerektirmeyen bir Wallet.
-  - Bir işlemi gerçekleştirmek için fiziksel imza gerektiren bir Wallet.
+  - Yeterli sayıda bireysel özel anahtara veya yedek bileşene erişime sahip olmak.
+  - Özel anahtarlarınızı diğer taraflarla paylaşma.
+  - Açık anahtarlarınızı diğer taraflarla paylaşma.
 explanation: |
-  Bir Multisig Wallet, aşağıdakileri gerektiren bir Bitcoin Wallet türüdür
-  bir işlemi gerçekleştirmek için birden fazla imza. Bu bir ekler
-  ekstra Layer güvenlik, çünkü tek bir kişinin
-  onayı olmadan bir işlem gerçekleştiremez
-  diğerleri.
+  Bir Multisig Wallet kullandığınızda, her bir özel anahtar
+  Multisig farklı yerlerde depolanmalıdır. Bu
+  çünkü Multisig'nin taşınması için birden fazla imza gerekmektedir
+  bir işlem gerçekleştirir, bu nedenle belirli sayıda cüzdan
+  ihtiyaç duyulmaktadır. Böylece, her bir parçanın farklı bir yerde depolanması
+  ekstra bir Layer güvenlik ekler.
 reviewed: true

@@ -1,0 +1,9 @@
+question: RGB에서 트랜지션의 시간적 일관성을 보장하는 구조는 무엇인가요?
+answer: DAG(Directed Acyclic Graph)
+wrong_answers:
+  - 간단한 선형 체인
+  - 동적 피어 투 피어 네트워크
+  - UTXO를 위한 바이너리 트리
+explanation: |
+  DAG를 사용하면 상태 전환을 구조화할 수 있으며, 불일치 없이 병렬적으로 진화할 수 있습니다.
+reviewed: false

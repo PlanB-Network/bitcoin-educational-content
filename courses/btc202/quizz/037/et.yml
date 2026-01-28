@@ -1,0 +1,9 @@
+question: Millist tüüpi masinat esitatakse parima kompromissina Bitcoin kodusõlme jaoks?
+answer: NUC-tüüpi mini-PC
+wrong_answers:
+  - Sülearvuti
+  - Superarvuti
+  - Mängukonsool
+explanation: |
+  Mini-PC-d (NUC, Tiny, OptiPlex Micro...) on madala energiatarbimisega, usaldusväärsed ja kergesti kohandatavad, mistõttu on nad ideaalne kompromiss.
+reviewed: true

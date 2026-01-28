@@ -1,0 +1,9 @@
+question: Ai là người duy trì dự án Bitcoin Knots?
+answer: Luke Dashjr
+wrong_answers:
+  - Gavin Andresen
+  - Wladimir J. Van Der Laan
+  - Pieter Wuille
+explanation: |
+  Bitcoin Knots được Luke Dashjr bảo trì và đóng vai trò là máy khách thay thế chính cho Bitcoin core.
+reviewed: true

@@ -1,0 +1,9 @@
+question: IP 프로토콜 버전 번호는 어느 조직에서 할당하나요?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  인터넷 할당 번호 기관(IANA)은 IP 프로토콜 버전 번호의 Assignment과 프로토콜 범위 할당을 관리합니다.
+reviewed: false

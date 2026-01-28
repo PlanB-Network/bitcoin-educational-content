@@ -1,0 +1,11 @@
+question: Who was indirectly responsible for the last Bitcoinica hack that took place in July 2012?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ He released the platform's full source code on July 7, which contained the password to Bitcoinica's LastPass safe, which in turn contained the password to his 
+ Mt. Gox account. 40,000 bitcoins and 40,000 LR-USD were withdrawn. Amir Taaki acknowledged this action, but placed the blame on Bitcoinica's management, 
+ with whom he was in conflict.
+reviewed: true

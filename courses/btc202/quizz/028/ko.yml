@@ -1,0 +1,9 @@
+question: pruned 노드가 Full node과 다른 점은 무엇인가요?
+answer: 오래된 블록을 점차적으로 제거합니다
+wrong_answers:
+  - 이전 거래의 유효성을 검사하지 않습니다
+  - 전체 블록을 중계할 수 없습니다
+  - Blockchain의 로컬 복사본은 보관하지 않고 UTXO 세트만 보관합니다
+explanation: |
+  pruned 노드는 전체 체인의 유효성을 검사하지만, 저장을 제한하기 위해 최근 블록의 일부만 유지합니다.
+reviewed: true

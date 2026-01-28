@@ -1,0 +1,8 @@
+question: Milline on Rust funktsionaalse programmeerimise funktsioonide peamine eelis, mis säilitab nullkokkupuute abstraktsioone?
+answer: Nad toodavad tõhusat masinkoodi, mis on võrreldav traditsiooniliste tsüklipõhiste lähenemisviisidega, ilma et see kaotaks jõudluse
+wrong_answers:
+  - Nad tegelevad automaatselt mälu eraldamise ja eraldamise lõpetamisega, et vältida tööaja ülekoormust täielikult
+  - Nad kaotavad vajaduse tüübikontrolli järele kompileerimise ajal, säilitades samal ajal ohutustagatised
+  - Nad pakuvad prügikoristusfunktsiooni, mis töötab ilma programmi täitmise kiirust mõjutamata
+explanation: |
+  Rust funktsionaalse programmeerimise funktsioonide nullkulu abstraktsioonid tähendavad, et sulgemiste ja iteraatorite kasutamine ei ohverda jõudlust väljendusrikkuse arvelt. Rust kompilaator optimeerib neid kõrgetasemelisi konstruktsioone, et toota masinakoodi, mis on sama hästi toimiv kui käsitsi kirjutatud traditsioonilised tsüklid. See võimaldab arendajatel kirjutada ekspressiivsemat ja loetavamat koodi, ilma et see mõjutaks tööaja jõudlust, mis on Rust disaini filosoofia põhiprintsiip.

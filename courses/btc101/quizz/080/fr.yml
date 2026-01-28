@@ -1,13 +1,13 @@
-question: Quelle est la probabilité que quelqu'un devine accidentellement votre liste de 12 ou 24 mots dans un portefeuille Bitcoin ?
-answer: Extrêmement faible.
+question: Qu'est-ce qu'un portefeuille multisig ?
+answer: Un ensemble de portefeuilles qui nécessite plusieurs signatures pour effectuer une transaction.
 wrong_answers:
-  - Élevée.
-  - Modérée.
-  - Forte.
+  - Un portefeuille qui nécessite une seule signature pour effectuer une transaction.
+  - Un portefeuille qui ne nécessite aucune signature pour effectuer une transaction.
+  - Un portefeuille qui nécessite une signature physique pour effectuer une transaction.
 explanation: |
-  Grâce à la cryptographie utilisée pour créer le portefeuille, la
-  probabilité que quelqu'un devine accidentellement votre liste de
-  12 ou 24 mots est extrêmement faible. C'est comme trouver
-  le bon numéro entre 1 et $2^256$, ce qui est presque
-  équivalent à trouver un atome défini dans l'Univers.
+  Un portefeuille multisig est un type de portefeuille Bitcoin qui requiert
+  plusieurs signatures pour réaliser une transaction. Cela ajoute une
+  couche supplémentaire de sécurité, car cela signifie qu'une seule personne
+  ne peut pas effectuer une transaction sans l'approbation des
+  autres.
 reviewed: true

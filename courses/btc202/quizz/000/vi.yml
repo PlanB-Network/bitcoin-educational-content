@@ -1,0 +1,9 @@
+question: Tiêu đề của Sách trắng Satoshi Nakamoto được xuất bản năm 2008 là gì?
+answer: Bitcoin Hệ thống tiền mặt điện tử ngang hàng
+wrong_answers:
+  - Bitcoin - Hệ thống vàng kỹ thuật số phi tập trung
+  - Bitcoin Tương lai của tiền tệ
+  - Bitcoin Mạng thanh toán dựa trên Blockchain
+explanation: |
+  Sách trắng của Satoshi Nakamoto, Bitcoin Hệ thống tiền mặt điện tử ngang hàng, được xuất bản vào năm 2008.
+reviewed: true

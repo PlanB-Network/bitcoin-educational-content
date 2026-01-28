@@ -1,6 +1,6 @@
 ---
 name: Konferans Tekrarı Ekleme
-description: PlanB Network'e konferans tekrarı nasıl eklenir?
+description: Plan ₿ Academy'e konferans tekrarı nasıl eklenir?
 ---
 ![conference](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: PlanB Network'e konferans tekrarı nasıl eklenir?
 PlanB'nin misyonu, Bitcoin hakkında mümkün olduğunca çok dilde üst düzey eğitim kaynakları sağlamaktır. Sitede yayınlanan tüm içerik açık kaynaklıdır ve GitHub'da barındırılarak herkesin platformun zenginleşmesine katkıda bulunmasına olanak tanır.
 
 
-Bitcoin konferansınızın tekrarını PlanB Network sitesine eklemek ve bu etkinliğe görünürlük kazandırmak istiyor ama nasıl yapacağınızı bilmiyor musunuz? Bu eğitim tam size göre!
+Bitcoin konferansınızın tekrarını Plan ₿ Academy sitesine eklemek ve bu etkinliğe görünürlük kazandırmak istiyor ama nasıl yapacağınızı bilmiyor musunuz? Bu eğitim tam size göre!
 
 
 Ancak, gelecekte gerçekleşecek bir konferans eklemek istiyorsanız, siteye yeni bir etkinliğin nasıl ekleneceğini açıkladığımız bu diğer öğreticiyi okumanızı tavsiye ederim.
 
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 - İlk olarak, GitHub'da bir hesabınızın olması gerekir. Nasıl hesap oluşturacağınızı bilmiyorsanız, size rehberlik edecek ayrıntılı bir eğitim hazırladık.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![conference](assets/03.webp)
 
 
-- PlanB Network'ün içeriğine daha önce hiç katkıda bulunmadıysanız, orijinal deponun Fork'ünü oluşturmanız gerekecektir. Bir depoyu çatallamak, kendi GitHub hesabınızda o deponun bir kopyasını oluşturmak anlamına gelir ve bu da orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork this repository` düğmesine tıklayın:
+- Plan ₿ Academy'ün içeriğine daha önce hiç katkıda bulunmadıysanız, orijinal deponun Fork'ünü oluşturmanız gerekecektir. Bir depoyu çatallamak, kendi GitHub hesabınızda o deponun bir kopyasını oluşturmak anlamına gelir ve bu da orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork this repository` düğmesine tıklayın:
 
 ![conference](assets/04.webp)
 
@@ -105,7 +105,7 @@ tags:
 Kuruluşunuz için henüz bir "*proje*" tanımlayıcınız yoksa, bu diğer öğreticiyi izleyerek ekleyebilirsiniz.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -190,7 +190,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/25.webp)
 
 
-- Yeni bir sayfa açılacaktır. Konferansınızı temsil eden ve PlanB Network sitesinde görüntülenecek bir resmi sürükleyip bırakın: ![conference](assets/26.webp)
+- Yeni bir sayfa açılacaktır. Konferansınızı temsil eden ve Plan ₿ Academy sitesinde görüntülenecek bir resmi sürükleyip bırakın: ![conference](assets/26.webp)
 - Bir logo, bir küçük resim veya hatta bir poster olabilir:
 
 ![conference](assets/27.webp)
@@ -299,7 +299,7 @@ Speaker: Satoshi Nakamoto
 ![conference](assets/37.webp)
 
 
-- Belgenizin başında, "önsöz" bölümünde, `name:` alanını konferansınızın adı ve tekrarların yılı ile doldurun. Açıklama:` alanına, etkinliğinizin kısa bir açıklamasını dosyanın dilinde yazın. Örneğin, `en.md` adlı bir dosya için açıklama İngilizce olmalıdır. PlanB Network ekibi, kendi modellerini kullanarak açıklamanızın çevirisiyle ilgilenecektir.
+- Belgenizin başında, "önsöz" bölümünde, `name:` alanını konferansınızın adı ve tekrarların yılı ile doldurun. Açıklama:` alanına, etkinliğinizin kısa bir açıklamasını dosyanın dilinde yazın. Örneğin, `en.md` adlı bir dosya için açıklama İngilizce olmalıdır. Plan ₿ Academy ekibi, kendi modellerini kullanarak açıklamanızın çevirisiyle ilgilenecektir.
 - Bir `#` ile işaretlenen birinci seviye başlıklar, konferansı sahnelere göre düzenlemek için kullanılır. Örneğin, ana sahne için `# Ana Sahne` ve atölye çalışmalarına ayrılmış bir sahne için `# Atölye Odası`.
 
 
@@ -357,10 +357,10 @@ Speaker: Satoshi Nakamoto
 
 ![conference](assets/45.webp)
 
-Tebrikler! Halkla İlişkileriniz başarıyla oluşturuldu. Şimdi bir yönetici bunu inceleyecek ve her şey yolundaysa PlanB Network'ün ana havuzuyla birleştirecek. Konferansınızın tekrarlarının birkaç gün sonra web sitesinde göründüğünü göreceksiniz.
+Tebrikler! Halkla İlişkileriniz başarıyla oluşturuldu. Şimdi bir yönetici bunu inceleyecek ve her şey yolundaysa Plan ₿ Academy'ün ana havuzuyla birleştirecek. Konferansınızın tekrarlarının birkaç gün sonra web sitesinde göründüğünü göreceksiniz.
 
 
-Lütfen halkla ilişkilerinizin ilerleyişini takip ettiğinizden emin olun. Bir yöneticinin ek bilgi isteyen bir yorum bırakması mümkündür. PR'niz onaylanmadığı sürece, PlanB Network'ün GitHub deposundaki `Pull requests' sekmesi altında görüntüleyebilirsiniz:
+Lütfen halkla ilişkilerinizin ilerleyişini takip ettiğinizden emin olun. Bir yöneticinin ek bilgi isteyen bir yorum bırakması mümkündür. PR'niz onaylanmadığı sürece, Plan ₿ Academy'ün GitHub deposundaki `Pull requests' sekmesi altında görüntüleyebilirsiniz:
 
 ![conference](assets/46.webp)
 

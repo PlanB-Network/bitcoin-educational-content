@@ -1,9 +1,9 @@
-question: Why is scarcity an essential property of a good currency?
-answer: It preserves value
+question: Tại sao tính khan hiếm lại là đặc tính thiết yếu của một loại tiền tệ tốt?
+answer: Nó bảo tồn giá trị
 wrong_answers:
-  - It guarantees that only physical assets can be used as currency
-  - It ensures that the currency is widely available to every individual
-  - It ensures that the currency must always be backed by a commodity like gold
+  - Nó đảm bảo rằng chỉ có tài sản vật chất mới có thể được sử dụng làm tiền tệ
+  - Nó đảm bảo rằng tiền tệ có sẵn rộng rãi cho mọi cá nhân
+  - Nó đảm bảo rằng tiền tệ phải luôn được hỗ trợ bởi một hàng hóa như vàng
 explanation: |
-  Scarcity prevents the excessive creation of currency, thereby maintaining its value and purchasing power over time.
-reviewed: false
+  Sự khan hiếm ngăn chặn việc tạo ra quá nhiều tiền tệ, do đó duy trì giá trị và sức mua của tiền tệ theo thời gian.
+reviewed: true

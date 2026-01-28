@@ -78,7 +78,7 @@ Bu tekniğin avantajı ek donanım gerektirmemesidir. Öte yandan, kaynak kullan
 
 
 
-Bir **tap**, içinden geçen trafiği kopyalayan ve başka bir cihaza gönderen bir ağ cihazıdır.** Bu cihazın avantajı, mevcut altyapıda herhangi bir değişiklik gerektirmemesi ve belirli ağ bölümlerini izlemek için herhangi bir yere veya İnternet'e giden / gelen trafiği analiz etmek için çekirdek anahtar ile kenar yönlendirici arasına yerleştirilebilmesidir.
+Bir **tap**, içinden geçen trafiği kopyalayan ve başka bir cihaza gönderen bir ağ cihazıdır. Bu cihazın avantajı, mevcut altyapıda herhangi bir değişiklik gerektirmemesi ve belirli ağ bölümlerini izlemek için herhangi bir yere veya İnternet'e giden / gelen trafiği analiz etmek için çekirdek anahtar ile kenar yönlendirici arasına yerleştirilebilmesidir.
 
 
 
@@ -86,7 +86,7 @@ Bu tür ekipmanın en büyük dezavantajı maliyetidir. Günümüzün Gigabit a�
 
 
 
-Port yansıtma** olarak da bilinen **SPAN** modu, trafiği bir porttan diğerine iletmek için bir anahtar tarafından kullanılır. Bu benim açık ara tercih ettiğim yöntemdir, çünkü kurulumu kolaydır ve tap gibi, ağın bir bölümünü veya tüm ağı istediğiniz zaman izlemenize olanak tanır. Bununla birlikte, iki dezavantajı vardır: anahtarın bu işlevi entegre etmesi gerekir ve kullanımı anahtar üzerindeki işlemci yükünü artırabilir.
+**Port yansıtma** olarak da bilinen **SPAN** modu, trafiği bir porttan diğerine iletmek için bir anahtar tarafından kullanılır. Bu benim açık ara tercih ettiğim yöntemdir, çünkü kurulumu kolaydır ve tap gibi, ağın bir bölümünü veya tüm ağı istediğiniz zaman izlemenize olanak tanır. Bununla birlikte, iki dezavantajı vardır: anahtarın bu işlevi entegre etmesi gerekir ve kullanımı anahtar üzerindeki işlemci yükünü artırabilir.
 
 
 
@@ -98,7 +98,7 @@ Linux altında bir yönlendirici monte etmek ve üzerine ntopng yüklemek tamame
 
 
 
-Not: [Raspberry Pi ve RaspAP ile bir Wifi yönlendirici oluşturun] (https://www.it-connect.fr/creer-un-routeur-wifi-avec-un-raspberry-pi-et-raspap/) makalesini okuyanlar için, doğru istatistikler elde etmek için Rpi'nize ntopng yüklemek tamamen mümkündür!
+Not: [Raspberry Pi ve RaspAP ile bir Wifi yönlendirici oluşturun](https://www.it-connect.fr/creer-un-routeur-wifi-avec-un-raspberry-pi-et-raspap/) makalesini okuyanlar için, doğru istatistikler elde etmek için Rpi'nize ntopng yüklemek tamamen mümkündür!
 
 
 
@@ -160,9 +160,9 @@ Burada 3 arayüz görüyorum:
 
 
 
-- Lo**: bu geri döngü Interface'üdür; ekipman üzerinde "döngü" yapan sanal bir Interface'tür. Temel olarak, Address'ü 127.0.0.1 olan bu Interface (bu aralık bu amaç için ayrıldığından 127.0.0.0/8'deki herhangi bir Address işe yarayacaktır) ekipmanın kendisiyle iletişim kurmak için kullanılır. Eğer iş istasyonunuza bir web sitesi kurduysanız (örneğin WAMPP kullanarak), muhtemelen "*localhost*" Kendi makinenizde barındırılan siteyi görüntülemek için bir seferde Address. Bu ana bilgisayar adı Address 127.0.0.1 ve dolayısıyla Interface loopback ile ilişkilidir.
-- ens33**: bu benim ilk Interface'im, burada DHCP'den bir Address aldı
-- ens36**: ikinci Interface'm
+- **Loopback**: bu geri döngü Interface'üdür; ekipman üzerinde "döngü" yapan sanal bir Interface'tür. Temel olarak, Address'ü 127.0.0.1 olan bu Interface (bu aralık bu amaç için ayrıldığından 127.0.0.0/8'deki herhangi bir Address işe yarayacaktır) ekipmanın kendisiyle iletişim kurmak için kullanılır. Eğer iş istasyonunuza bir web sitesi kurduysanız (örneğin WAMPP kullanarak), muhtemelen "*localhost*" Kendi makinenizde barındırılan siteyi görüntülemek için bir seferde Address. Bu ana bilgisayar adı Address 127.0.0.1 ve dolayısıyla Interface loopback ile ilişkilidir.
+- **ens33**: bu benim ilk Interface'im, burada DHCP'den bir Address aldı
+- **ens36**: ikinci Interface'm
 
 
 
@@ -211,8 +211,8 @@ iface ens36 inet manual
 
 
 
-- auto *Interface***: sistem başlangıcında Interface'u otomatik olarak "başlatır"
-- iface *Interface* inet manual**: Interface'u herhangi bir IP Address olmadan kullanmak için. Statik bir IP Address tanımlamak için "static" veya dinamik adresleme kullanmak için "dhcp" anahtar kelimesi gibi
+- auto **Interface**: sistem başlangıcında Interface'u otomatik olarak "başlatır"
+- iface *Interface* inet **manual**: Interface'u herhangi bir IP Address olmadan kullanmak için. Statik bir IP Address tanımlamak için "static" veya dinamik adresleme kullanmak için "dhcp" anahtar kelimesi gibi
 
 
 
@@ -239,10 +239,10 @@ bridge_stp off
 
 
 
-- iface br0 inet static**: burada Interface köprümü (*br0*) statik bir Address ile tanımladım.
-- Address, netmask, gateway**: kart adresleme bilgileri
-- bridge_ports**: köprüye dahil edilecek arayüzler
-- bridge_stp**: Yayılan Ağaç protokolü, yedek bağlantıları tespit etmek ve döngülerden kaçınmak için anahtarları birbirine bağlarken kullanılır. Bir köprü iki ağ yolu arasına yerleştirilebildiğinden, bir döngünün kaynağı olabilir, dolayısıyla bu protokolü etkinleştirme olasılığı vardır. Burada buna ihtiyacım yok, bu yüzden devre dışı bırakıyorum.
+- **iface br0 inet static**: burada Interface köprümü (*br0*) statik bir Address ile tanımladım.
+- **Address, netmask, gateway**: kart adresleme bilgileri
+- **bridge_ports**: köprüye dahil edilecek arayüzler
+- **bridge_stp**: Yayılan Ağaç protokolü, yedek bağlantıları tespit etmek ve döngülerden kaçınmak için anahtarları birbirine bağlarken kullanılır. Bir köprü iki ağ yolu arasına yerleştirilebildiğinden, bir döngünün kaynağı olabilir, dolayısıyla bu protokolü etkinleştirme olasılığı vardır. Burada buna ihtiyacım yok, bu yüzden devre dışı bırakıyorum.
 
 
 
@@ -263,7 +263,7 @@ Değişiklikleri kontrol etmek için **ip** add komutunun sonucunu tekrar görü
 ![Image](assets/fr/021.webp)
 
 
-Yeni Interface "*br0*" ile ona atadığım IP Address'yı açıkça görebilirsiniz.** Bu arada, iki fiziksel arayüzümün gerçekten "UP" olduğunu, ancak IP Address'ya sahip olmadığını da görebilirsiniz.
+Yeni Interface **br0** ile ona atadığım IP Address'yı açıkça görebilirsiniz. Bu arada, iki fiziksel arayüzümün gerçekten "UP" olduğunu, ancak IP Address'ya sahip olmadığını da görebilirsiniz.
 
 
 
@@ -281,8 +281,8 @@ Varsayılan olarak, paket kaynakları yalnızca **main** anahtar sözcüğü ile
 
 
 
-- contrib**: DFSG uyumlu yazılım içeren, ancak **ana** dalın parçası olmayan bağımlılıkları kullanan paketler
-- non-free**: DFSG uyumlu olmayan paketler içerir
+- **contrib**: DFSG uyumlu yazılım içeren, ancak **ana** dalın parçası olmayan bağımlılıkları kullanan paketler
+- **non-free**: DFSG uyumlu olmayan paketler içerir
 
 
 
@@ -442,7 +442,7 @@ Göstermek için ana bilgisayarımda bir YouTube videosu başlatıyorum:
 
 
 
-**Trafik hemen fark edildi ve kategorize edildi!
+**Trafik hemen fark edildi ve kategorize edildi!**
 
 
 

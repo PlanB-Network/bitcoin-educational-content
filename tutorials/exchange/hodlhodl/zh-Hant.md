@@ -1,5 +1,5 @@
 ---
-name: HODL HODL
+name: Hodl Hodl
 
 description: HODLHODL 分步指南
 ---
@@ -16,10 +16,9 @@ HODL HODL 是一個分散式的 Bitcoin Exchange，以使用者控制和安全�
 https://hodlhodl.com/pages/faq_help
 
 
-## 寫作指南：
+## 在 Hodl Hodl 開始您的旅程
 
 
-開始您的 HodlHodl 之旅：逐步指南
 
 
 ![image](assets/5.webp)

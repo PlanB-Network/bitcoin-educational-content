@@ -6,4 +6,4 @@ wrong_answers:
   - It ensures that the currency must always be backed by a commodity like gold
 explanation: |
   Scarcity prevents the excessive creation of currency, thereby maintaining its value and purchasing power over time.
-reviewed: false
+reviewed: true

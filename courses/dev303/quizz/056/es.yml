@@ -1,0 +1,8 @@
+question: ¿Qué sintaxis de patrón de macro coincidiría correctamente con cero o más expresiones separadas por comas en una macro de tipo función personalizada?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  La sintaxis correcta $($x:expr),* utiliza el patrón de repetición de Rust donde el signo de dólar introduce un grupo de repetición, $x:expr coincide con cada expresión con el especificador de fragmento expr, la coma actúa como separador entre expresiones y el asterisco (*) indica cero o más repeticiones. Las respuestas incorrectas contienen errores de sintaxis: $($x:expr)*, coloca la coma fuera del grupo de repetición, $[x:expr],* utiliza corchetes en lugar de paréntesis y omite el signo del dólar antes de x, y ${$x:expr},* utiliza llaves en lugar de paréntesis para el grupo de repetición.

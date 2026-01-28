@@ -1,12 +1,11 @@
-question: Koji su entiteti zaduženi za izdavanje fiducijarnih valuta?
-answer: Centralne banke.
+question: Koji je potencijalni ishod nagle deprecijacije ili gubitka poverenja u fiducijarnu valutu?
+answer: Hiperinflacija.
 wrong_answers:
-  - Komercijalne banke.
-  - Vlade.
-  - Privatne institucije.
+  - Deflacija.
+  - Stabilna ekonomija.
+  - Povećanje vrednosti valute.
 explanation: |
-  Centralne banke su entiteti zaduženi za izdavanje
-  fiducijarne valute. One odlučuju o monetarnoj politici i
-  određuju koliko novca treba pustiti u opticaj ili
-  odštampati.
+  Iznenadna devalvacija ili gubitak poverenja u fiducijarnu
+  valutu može dovesti do hiperinflacije. Ovo je situacija
+  gde cene dobara i usluga rastu izuzetno visokim tempom, često dovodeći do ekonomske nestabilnosti.
 reviewed: true

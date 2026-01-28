@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Chainalysis is not at all an implementation of coinjoin, as it is a blockchain analysis company.
 
-reviewed: false
+reviewed: true

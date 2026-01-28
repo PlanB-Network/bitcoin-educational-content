@@ -1,0 +1,9 @@
+question: چه مکانیزمی می‌توان برای بارگذاری یک اسنپ‌شات از مجموعه UTXO استفاده کرد تا یک نود به سرعت قابل استفاده شود؟
+answer: فرض کن utxo
+wrong_answers:
+  - assumechainstate
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo یک عکس فوری از مجموعه UTXO را بارگذاری می‌کند تا گره به سرعت راه‌اندازی شود، در حالی که مجموعه کامل UTXO را در پس‌زمینه بازسازی می‌کند.
+reviewed: true

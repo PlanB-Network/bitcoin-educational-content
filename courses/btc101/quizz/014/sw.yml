@@ -1,10 +1,11 @@
-question: Je, mradi wa DigiCash ulikuwa nini?
-answer: Jaribio la kuunda pesa za kielektroniki zisizojulikana na David Chaum.
+question: Ni nini moja ya hasara za dhahabu kama aina ya pesa?
+answer: Haigawanyiki kwa urahisi.
 wrong_answers:
-  - Mradi wa kuunda Wallet ya kidijitali kwa Bitcoin.
-  - Jaribio la kuweka pesa taslimu zote kidijitali na Hifadhi ya Shirikisho.
-  - Mradi wa kuunda cryptocurrency kulingana na Bitcoin.
+  - Haihifadhi thamani yake katika nafasi.
+  - Inamomonyoka kwa muda.
+  - Ni rahisi kuzalisha.
 explanation: |
-  David Chaum alianzisha dhana ya elektroniki isiyojulikana
-  pesa na mradi wake DigiCash katika miaka ya 1980.
+  Moja ya hasara kuu za dhahabu kama aina ya pesa ni
+  kuwa ngumu kugawanya katika vitengo vidogo kama hitaji
+  hutokea, ambayo inafanya kuwa chini ya vitendo kutumia.
 reviewed: true

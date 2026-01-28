@@ -1,0 +1,9 @@
+question: โปรโตคอลสมัยใหม่ใดที่มีฟังก์ชันการทำงานคล้ายกับที่ IPv5 มุ่งหวังในการจัดการคุณภาพการบริการของเครือข่าย?
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  RSVP (Resource Reservation Protocol) ช่วยให้สามารถจองทรัพยากรเครือข่ายแบบไดนามิกเพื่อรับประกันคุณภาพการบริการ (QoS) ซึ่งเป็นเป้าหมายดั้งเดิมของ IPv5
+reviewed: false

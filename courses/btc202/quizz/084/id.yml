@@ -1,0 +1,9 @@
+question: Berapa jumlah default koneksi keluar yang dipertahankan oleh node Bitcoin core?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core mempertahankan 10 koneksi keluar secara default (8 relai penuh dan 2 relai blok saja).
+reviewed: true

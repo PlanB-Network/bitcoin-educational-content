@@ -44,7 +44,7 @@ Vì Blitz Wallet là danh mục tự lưu giữ của Bitcoin nên bạn có th�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**QUAN TRỌNG**: 12/24 từ khôi phục này rất cần thiết để truy cập vào bitcoin của bạn. Nếu bạn mất chúng, bạn sẽ không còn được phép chi tiêu bitcoin của mình nữa.
 
@@ -93,23 +93,23 @@ Một trong những tính năng đặc biệt của Blitz Wallet là nó hỗ tr
 
 
 
-- Lightning Network**: Một trong những lớp phủ Bitcoin cho phép bạn thực hiện các giao dịch nhỏ ngay lập tức.
+- **Lightning Network**: Một trong những lớp phủ Bitcoin cho phép bạn thực hiện các giao dịch nhỏ ngay lập tức.
 
 
 
 
 
-- Bitcoin Mainnet**: Chuỗi chính của giao thức Bitcoin, phù hợp với các giao dịch có giá trị lớn.
+- **Bitcoin Mainnet**: Chuỗi chính của giao thức Bitcoin, phù hợp với các giao dịch có giá trị lớn.
 
 
 
 
 
-- Liquid Network**: Chuỗi song song với Bitcoin Mainnet do BlockStream phát triển, sử dụng Bitcoin Liquid để thực hiện Confidential Transactions nhanh chóng.
+- **Liquid Network**: Chuỗi song song với Bitcoin Mainnet do BlockStream phát triển, sử dụng Bitcoin Liquid để thực hiện Confidential Transactions nhanh chóng.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Theo mặc định, tất cả các giao dịch của bạn sẽ được thực hiện trên Liquid Network, nhưng Blitz cho phép bạn xác định mạng mà bạn muốn nhận satoshi bằng cách nhấp vào nút **Chọn định dạng**.
 
@@ -169,7 +169,7 @@ Ngoài hoạt động chuyển tiền Bitcoin, Blitz Wallet còn cung cấp cho 
 
 
 
-- Truy cập các dịch vụ AI**: Sử dụng các mô hình trí tuệ nhân tạo tạo sinh như: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 và thanh toán trực tiếp bằng bitcoin.
+- **Truy cập các dịch vụ AI**: Sử dụng các mô hình trí tuệ nhân tạo tạo sinh như: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 và thanh toán trực tiếp bằng bitcoin.
 
 
 
@@ -179,7 +179,7 @@ Ngoài hoạt động chuyển tiền Bitcoin, Blitz Wallet còn cung cấp cho 
 
 
 
-- Gửi tin nhắn văn bản đến bất kỳ nơi nào trên thế giới**: Trong cửa hàng Blitz, bạn có thể truy cập vào dịch vụ GSM cho phép bạn gửi tin nhắn văn bản ẩn danh đến bất kỳ nơi nào trên thế giới, với tính năng thanh toán trực tiếp tại Bitcoin.
+- **Gửi tin nhắn văn bản đến bất kỳ nơi nào trên thế giới**: Trong cửa hàng Blitz, bạn có thể truy cập vào dịch vụ GSM cho phép bạn gửi tin nhắn văn bản ẩn danh đến bất kỳ nơi nào trên thế giới, với tính năng thanh toán trực tiếp tại Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Ngoài hoạt động chuyển tiền Bitcoin, Blitz Wallet còn cung cấp cho 
 
 
 
-- Lướt web hoàn toàn bảo mật**: Thanh toán cho gói đăng ký WireGuard VPN (Mạng riêng ảo) trong cửa hàng Wallet Blitz bằng bitcoin của bạn.
+- **Lướt web hoàn toàn bảo mật**: Thanh toán cho gói đăng ký WireGuard VPN (Mạng riêng ảo) trong cửa hàng Wallet Blitz bằng bitcoin của bạn.
 
 
 
@@ -197,9 +197,9 @@ Ngoài hoạt động chuyển tiền Bitcoin, Blitz Wallet còn cung cấp cho 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet Blitz hậu trường: Tiến xa hơn
 
@@ -221,7 +221,7 @@ Cách tiếp cận này được biện minh bởi mong muốn tạo điều ki�
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Bạn có thể xem chi tiết số dư của mình trong menu **Cài đặt>Thông tin số dư**.
 
@@ -249,7 +249,7 @@ Bằng cách kích hoạt chế độ Lightning, sau khi điều kiện chính �
 
 
 
-- Chấp nhận Bitcoin tại cửa hàng của bạn**:
+- **Chấp nhận Bitcoin tại cửa hàng của bạn**:
 
 
 
@@ -269,5 +269,4 @@ Nếu hướng dẫn này giúp bạn làm quen với Blitz, chúng tôi chắc 
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

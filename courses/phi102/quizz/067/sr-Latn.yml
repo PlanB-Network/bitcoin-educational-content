@@ -1,0 +1,8 @@
+question: Prema tekstu, koji paradoks postoji između bezbednosti i ekonomskog napretka?
+answer: Bezbednost je i preduslov za razvoj i posledica razvoja.
+wrong_answers:
+  - Bezbednost uvek dolazi nakon što je ekonomski razvoj postignut
+  - Ekonomski napredak prirodno eliminiše potrebu za merama bezbednosti
+  - Bezbednost i ekonomski napredak su potpuno nezavisni jedno od drugog
+explanation: |
+  Poglavlje objašnjava da bezbednost i ekonomski napredak stvaraju paradoksalan odnos: bezbednost je potrebna pre nego što razvoj može da se dogodi (ne možete inovirati ili dugoročno ulagati bez nje), ali vam je takođe potreban ekonomski višak iz proizvodnje da biste finansirali institucije koje obezbeđuju bezbednost. Ovo stvara težak ciklus za pokretanje, ali kada se jednom započne, postaje samoodrživ. Ostali odgovori su pogrešni jer sugerišu jednostavan jednosmerni odnos ili nezavisnost, umesto ove složene međuzavisnosti.

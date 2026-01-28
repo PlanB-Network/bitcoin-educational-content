@@ -1,0 +1,9 @@
+question: Bitcoin HD Wallet에서 Mnemonic 문구의 용도는 무엇인가요?
+answer: 모든 키를 결정론적으로 도출하려면
+wrong_answers:
+  - 거래에 직접 서명하려면
+  - Bitcoin 주소를 암호화하려면
+  - generate에서 UTXO를 위한 Hash로
+explanation: |
+  Mnemonic 문구를 사용하면 Wallet에서 모든 개인 키와 공개 키를 파생할 수 있으므로 백업 및 복구가 용이합니다.
+reviewed: false

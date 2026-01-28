@@ -1,0 +1,11 @@
+question: What was the pseudonym of the original creator of the SatoshiDICE online dice game?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason, aka Fireduck, was a 30-year-old American developer. After programming a few software tools for Bitcoin, he developed the SatoshiDICE bitcoin 
+ casino (which presented itself as a dice game) on April 9, 2012. A few weeks later, he sold the platform to Erik Voorhees (Evoorhees) for 40 bitcoins, or 
+ around $200.
+reviewed: true

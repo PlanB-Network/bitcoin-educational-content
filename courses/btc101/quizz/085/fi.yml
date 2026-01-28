@@ -1,13 +1,13 @@
-question: Mikä on hot wallet?
-answer: Bitcoin-lompakko puhelimessasi tai tietokoneellasi, joka on yhdistetty internetiin.
+question: Mikä on suositeltu käyttötarkoitus multisig-lompakolle?
+answer: Suurten summien säilyttäminen yrityskäyttöön.
 wrong_answers:
-  - Lompakko, joka on fyysisesti kuuma koskettaa.
-  - Lompakko, joka on suosittu Bitcoin-käyttäjien keskuudessa.
-  - Lompakko, jota suositellaan suurien määrien bitcoinien säilyttämiseen.
+  - Pienten summien säilyttäminen henkilökohtaiseen käyttöön.
+  - Keskisuurten summien säilyttäminen voittoa tavoittelemattomaan käyttöön.
+  - Päivittäisten menojen säilyttäminen yksilön käyttöön.
 explanation: |
-  Hot wallet on termi, jota käytetään kuvaamaan Bitcoin-lompakkoa,
-  joka on tallennettu laitteelle, jolla on internetyhteys, kuten
-  puhelin tai tietokone. Näin ollen on helppo suorittaa
-  transaktioita, mutta se myös tarkoittaa, että lompakko on
-  potentiaalisesti altis online-uhille.
+  Multisig-lompakkoa suositellaan suurten summien säilyttämiseen
+  ja yrityskäyttöön, koska se vaatii useita
+  allekirjoituksia tapahtuman suorittamiseksi. Tämä prosessi lisää
+  ylimääräisen turvallisuustason, koska yksittäinen henkilö ei voi
+  suorittaa tapahtumaa ilman muiden hyväksyntää.
 reviewed: true

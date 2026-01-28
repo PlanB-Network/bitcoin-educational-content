@@ -6,4 +6,4 @@ wrong_answers:
   - Safari
 explanation: |
   Netscape Navigator je integrisao JavaScript jezik, koji je razvio Brendan Eich 1995. godine, kako bi omogućio dinamičku interaktivnost na web stranicama.
-reviewed: false
+reviewed: true

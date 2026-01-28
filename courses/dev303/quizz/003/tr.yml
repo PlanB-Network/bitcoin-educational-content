@@ -1,0 +1,8 @@
+question: Hangi Cargo komutu çalıştırılabilir bir dosya oluşturmadan derleme kontrolleri gerçekleştirir?
+answer: kargo kontrolü
+wrong_answers:
+  - kargo yapısı
+  - kargo koşusu
+  - kargo testi̇
+explanation: |
+  'cargo check' komutu tüm derleme kontrollerini gerçekleştirir ve son çalıştırılabilir dosyayı oluşturmadan kodunuzun doğru derlendiğini doğrular. Bu, sadece kod doğruluğunu doğrulamak istediğinizde tam bir derlemeden önemli ölçüde daha hızlı olmasını sağlar. Buna karşılık, 'cargo build' derler ve çalıştırılabilir dosyalar oluşturur, 'cargo run' hem programı derler hem de çalıştırır ve 'cargo test' derler ve testleri çalıştırır.

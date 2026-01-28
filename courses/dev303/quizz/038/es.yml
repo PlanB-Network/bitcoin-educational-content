@@ -1,0 +1,8 @@
+question: ¿Qué sintaxis se utiliza para definir parámetros en los cierres Rust?
+answer: Caracteres de tubo (|) para encerrar parámetros
+wrong_answers:
+  - Paréntesis () para encerrar parámetros
+  - Paréntesis cuadrados [] para encerrar parámetros
+  - Llaves {} para encerrar parámetros
+explanation: |
+  Los cierres de Rust utilizan caracteres de tubo (|) para definir parámetros, lo que los distingue de las funciones normales que utilizan paréntesis. Por ejemplo, un cierre sin parámetros se escribe como ||, mientras que un cierre con parámetros parece |x, y|. Esta sintaxis única hace que los cierres sean fácilmente reconocibles y los diferencia de las definiciones de funciones. Los paréntesis se usan para funciones regulares, mientras que los corchetes y llaves sirven para otros propósitos en la sintaxis de Rust.

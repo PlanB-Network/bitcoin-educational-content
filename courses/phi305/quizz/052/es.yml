@@ -1,0 +1,9 @@
+question: ¿Quién escribió el manifiesto de Cypherpunk?
+answer: Eric Hughes.
+wrong_answers:
+  - Timothy May.
+  - Satoshi Nakamoto.
+  - Milton Friedman.
+explanation: |
+  Eric Hughes es el autor del Manifiesto Cypherpunk (1993). Este texto seminal defiende el uso de la criptografía para proteger la privacidad en la era digital.
+reviewed: false

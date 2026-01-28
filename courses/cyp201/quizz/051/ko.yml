@@ -1,0 +1,9 @@
+question: passphrase과 Bitcoin Wallet의 PIN 코드의 주요 차이점은 무엇인가요?
+answer: passphrase는 PIN 코드가 아닌 키 도출을 수정합니다
+wrong_answers:
+  - PIN 코드는 Mnemonic 문구에 연결됩니다
+  - PIN 코드는 거래를 암호화하는 데 사용되지만 passphrase는 암호화하지 않습니다
+  - PIN 코드는 Bitcoin 주소를 생성합니다
+explanation: |
+  PIN 코드와 달리 passphrase은 키 파생 프로세스에 직접 관여하여 Wallet 키를 변경합니다.
+reviewed: false

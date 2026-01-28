@@ -1,0 +1,9 @@
+question: Mis on välkkaupmehe peamine prioriteet?
+answer: Sissetuleva likviidsuse omandamine
+wrong_answers:
+  - Väljamineva likviidsuse hankimine
+  - Säästud marsruutimiskuludelt
+  - Heade LN+ ülevaadete hankimine
+explanation: |
+  Kaupmees peab olema võimeline ebaõnnestumatult raha sisse nõudma, mis eeldab piisavat sissetulevat likviidsust.
+reviewed: false

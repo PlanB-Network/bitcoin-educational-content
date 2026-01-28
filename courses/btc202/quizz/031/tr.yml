@@ -1,0 +1,9 @@
+question: Özellikle hafif olduğu için Raspberry Pi'ye en uygun dağıtım hangisidir?
+answer: RaspiBlitz
+wrong_answers:
+  - Şemsiye
+  - MyNode
+  - Start9
+explanation: |
+  RaspiBlitz, Raspberry Pi için optimize edilmiştir ve bu makineler için çok ağır hale gelen Umbrel'in aksine hafif kalmaktadır.
+reviewed: true

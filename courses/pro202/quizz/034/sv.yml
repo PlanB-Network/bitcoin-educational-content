@@ -1,0 +1,8 @@
+question: Vilket specifikt element måste ingå i en P2SH ScriptSig som skiljer den från vanliga transaktionsinmatningar?
+answer: Det fullständiga inlösningsskriptet tillsammans med upplåsningsdata
+wrong_answers:
+  - HASH160 för redeem-skriptet och de publika nycklarna
+  - Endast de signaturer och publika nycklar som behövs för att uppfylla villkoren
+  - Versionsbyte och adresskodning för P2SH-validering
+explanation: |
+  P2SH-ingångar kräver både upplåsningsdata (signaturer etc.) OCH det fullständiga inlösningsskriptet i ScriptSig. Detta är unikt eftersom inlösenskriptet tidigare var dolt bakom en hash och nu måste avslöjas för validering. I det första valideringssteget kontrolleras att HASH160(redeem_script) matchar hashen i scriptPubKey, och därefter körs inlösenskriptet med de tillhandahållna upplåsningsuppgifterna. De andra alternativen är felaktiga: hashen finns redan i den ursprungliga scriptPubKey, enbart signaturer är inte tillräckliga utan skriptet och versionsbytes används för adresskodning, inte för utgiftsvalidering.

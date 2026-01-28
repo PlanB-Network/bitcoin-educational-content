@@ -1,13 +1,13 @@
-question: 大約每四年，Bitcoin 網路中的 Mining 獎勵會發生什麼變化？
-answer: 它經過 Halving
+question: 大約每四年，Bitcoin 網路中的挖礦獎勵會發生什麼變化？
+answer: 減半
 wrong_answers:
-  - 它能將
+  - 兩倍
   - 三倍
   - 保持不變
 explanation: |
-  Bitcoin 網路中的 Mining 獎勵經歷了一個
-  Halving 每 210,000 個區塊，大約每四個
+  Bitcoin 網路中的挖礦獎勵每 210,000 個區塊
+  經歷一個減半，大約每四
   年。這筆報酬可作為強大的激勵因素，促使
-  鼓勵礦工參與 Mining 流程
+  鼓勵礦工參與挖礦流程
   儘管其能源成本高昂。
 reviewed: true

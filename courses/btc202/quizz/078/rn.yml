@@ -1,0 +1,9 @@
+question: Ni igiki gifise intumbero y’amadosiye ya revNNNNN.dat abitswe iruhande ya blkNNNNN.dat?
+answer: Kugarura UTXO yashizweho mu gihe co gusubira gutunganya
+wrong_answers:
+  - Gusubizaho UTXO yashizweho mu gihe ca Hard Fork.
+  - Gusubiza Mempool mu gihe ca Hard Fork.
+  - Gusubizaho Mempool mu gihe co gusubira gutunganya
+explanation: |
+  Buri revNNNNN.dat irimwo amakuru akenewe kugira ngo umuntu akureho ingaruka z’ibarabara ku rutonde rwa UTXO, bikaba bituma vyoroha gucunga ugusubira gutunganya.
+reviewed: true

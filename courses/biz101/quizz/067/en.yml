@@ -6,4 +6,4 @@ wrong_answers:
   - They serve as basic POS systems
 explanation: |
   Zaprite and Musqet add customization and reporting refinements to the checkout process, complementing the core payment infrastructure.
-reviewed: false
+reviewed: true

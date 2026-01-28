@@ -1,0 +1,8 @@
+question: Hva er hovedformålet med sekvensnummerfeltet i Bitcoin-transaksjonsinndata?
+answer: Slik aktiverer du tidslås og Replace-by-Fee-funksjonalitet (RBF)
+wrong_answers:
+  - For å spesifisere i hvilken rekkefølge inndataene må behandles av utvinnerne
+  - For å forhindre double-spending ved å opprette en unik identifikator for hver inngang
+  - For å angi transaksjonens prioritetsnivå for gebyrberegning
+explanation: |
+  Sekvensnummerfeltet i Bitcoin-transaksjonsinnganger tjener to hovedformål: implementering av tidssperrer (som forsinker når en transaksjon kan bekreftes) og aktivering av Replace-by-Fee-funksjonalitet (RBF) (som gjør det mulig for brukere å øke avgiftene på ubekreftede transaksjoner). De andre alternativene er feil fordi: inndata ikke trenger å behandles i noen bestemt rekkefølge av utvinnere, double-spending-forebygging håndteres av UTXO-modellen og blokkjedekonsensus i stedet for sekvensnumre, og transaksjonsprioritet bestemmes av gebyrsatser i stedet for sekvensnumre.

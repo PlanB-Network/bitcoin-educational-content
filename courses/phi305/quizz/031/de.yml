@@ -1,0 +1,9 @@
+question: Was ist Finalismus?
+answer: Die Umkehrung von Ursache und Wirkung, um etwas zu verstehen.
+wrong_answers:
+  - Eine politische Theorie.
+  - Ein Rezept zum Kochen.
+  - Ein Prinzip der Psychoanalyse.
+explanation: |
+  Finalismus ist die Umkehrung von Ursache und Wirkung, um etwas zu verstehen. Es geht darum, ein Phänomen durch seinen vermeintlichen Zweck zu erklären und nicht durch seine tatsächlichen Ursachen, was Spinoza als Illusion kritisiert.
+reviewed: false

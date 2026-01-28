@@ -1,13 +1,14 @@
-question: What is a multisig wallet?
-answer: A set of wallets that requires multiple signatures to perform a transaction.
+question: What is the risk of using a multisig wallet?
+answer: Not having access to enough individual private keys or backup components.
 wrong_answers:
-  - A wallet that requires a single signature to perform a transaction.
-  - A wallet that requires no signatures to perform a transaction.
-  - A wallet that requires a physical signature to perform a transaction.
+  - Having access to enough individual private keys or backup components.
+  - Sharing your private keys with other parties.
+  - Sharing your public keys with other parties.
 explanation: |
-  A multisig wallet is a type of Bitcoin wallet that requires
-  multiple signatures to perform a transaction. This adds an
-  extra layer of security, as it means that a single person
-  cannot perform a transaction without the approval of
-  others.
+  When you use a multisig wallet, each private key of the
+  multisig should be stored in different locations. This is
+  because the multisig requires multiple signatures to carry
+  out a transaction, so a certain number of wallets are
+  needed. Thus, storing each part in a different location
+  adds an extra layer of security.
 reviewed: true

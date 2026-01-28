@@ -61,9 +61,9 @@ Nmaps styrkor är många:
 
 
 
-- Kraftfull och flexibel**: Nmap kan skanna stora nätverk och använda avancerade detekteringstekniker. Den stöder UDP, TCP, ICMP, IPv4 och IPv6 och kan utföra versionsdetektering, sårbarhetsskanningar eller protokollspecifika interaktioner. Dess arkitektur är modulär, särskilt tack vare NSE-skript (Nmap Scripting Engine), som vi kommer att titta på senare i denna handledning.
-- Användarvänlighet**: Den officiella dokumentationen är riklig och av högsta kvalitet. Det finns också många resurser tillgängliga för att hjälpa dig att komma igång.
-- Popularitet och lång livslängd**: Nmap har varit en referens inom sitt område sedan 1998. Den aktuella versionen, vid tidpunkten för den här uppdateringen, är 7.95. Även om det finns andra verktyg för specifika uppgifter är Nmap fortfarande ett måste för kartläggning och analys av nätverk.
+- **Kraftfull och flexibel**: Nmap kan skanna stora nätverk och använda avancerade detekteringstekniker. Den stöder UDP, TCP, ICMP, IPv4 och IPv6 och kan utföra versionsdetektering, sårbarhetsskanningar eller protokollspecifika interaktioner. Dess arkitektur är modulär, särskilt tack vare NSE-skript (Nmap Scripting Engine), som vi kommer att titta på senare i denna handledning.
+- **Användarvänlighet**: Den officiella dokumentationen är riklig och av högsta kvalitet. Det finns också många resurser tillgängliga för att hjälpa dig att komma igång.
+- **Popularitet och lång livslängd**: Nmap har varit en referens inom sitt område sedan 1998. Den aktuella versionen, vid tidpunkten för den här uppdateringen, är 7.95. Även om det finns andra verktyg för specifika uppgifter är Nmap fortfarande ett måste för kartläggning och analys av nätverk.
 
 
 
@@ -87,7 +87,7 @@ Han förekommer också i andra filmverk.
 
 
 
-**Återkoppling
+**Återkoppling**
 
 
 
@@ -165,7 +165,7 @@ I det här avsnittet tar vi en titt på de viktigaste användningsområdena för
 
 
 
-Nmap kan användas för nätverksdiagnostik och, mer allmänt, för övervakning. På samma sätt som en ping kan användas för att avgöra om två värdar kommunicerar, kan Nmap användas för att snabbt avgöra om en värd är aktiv eller om en viss tjänst är i drift. Tack vare [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kan vi få exakta uppgifter om en värds svarstid, den väg som paketen tar, det svar som en viss tjänst ger osv.
+Nmap kan användas för nätverksdiagnostik och, mer allmänt, för övervakning. På samma sätt som en ping kan användas för att avgöra om två värdar kommunicerar, kan Nmap användas för att snabbt avgöra om en värd är aktiv eller om en viss tjänst är i drift. Tack vare [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kan vi få exakta uppgifter om en värds svarstid, den väg som paketen tar, det svar som en viss tjänst ger osv.
 
 
 
@@ -183,7 +183,7 @@ nmap --open -p 80 192.168.1.18
 
 
 
-*Använd Nmap för att hämta webbtjänststatus från en fjärrserver
+*Använd Nmap för att hämta webbtjänststatus från en fjärrserver*
 
 
 
@@ -312,7 +312,7 @@ I det här avsnittet lär vi oss hur du installerar nätverksskanningsverktyget 
 
 
 
-Nmap utformades ursprungligen för att köras på GNU/Linux-operativsystem. Som ett resultat av detta, och tack vare dess långa livslängd och popularitet, hittar du det i alla officiella arkiv för de stora Unix-distributionerna. I den här handledningen kommer jag att använda ett Debian-baserat operativsystem [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Men du kan använda det på exakt samma sätt från en klassisk Debian, CentOS, Red Hat eller vad som helst!
+Nmap utformades ursprungligen för att köras på GNU/Linux-operativsystem. Som ett resultat av detta, och tack vare dess långa livslängd och popularitet, hittar du det i alla officiella arkiv för de stora Unix-distributionerna. I den här handledningen kommer jag att använda ett Debian-baserat operativsystem [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Men du kan använda det på exakt samma sätt från en klassisk Debian, CentOS, Red Hat eller vad som helst!
 
 
 
@@ -463,7 +463,7 @@ Nmap är nu installerat på Windows. Du kan använda det på exakt samma sätt s
 
 
 
-Men förresten, när du använder Nmap, **är det nödvändigt att ha förhöjda lokala behörigheter på systemet? **det beror på**.
+Men förresten, när du använder Nmap, **är det nödvändigt att ha förhöjda lokala behörigheter på systemet?** **Det beror på**.
 
 
 
@@ -485,25 +485,25 @@ Oavsett om du använder Linux eller Windows finns det många fall där Nmap komm
 
 
 
-- Konstruera "råa" nätverkspaket**: Nmap kan använda ett brett spektrum av skanningsmetoder, inklusive avancerad paketmanipulation och paketkonstruktion. Detta är till exempel fallet när vi vill utföra TCP SYN-skanningar, som inte respekterar den klassiska _trevägshandskakningen_ i TCP-utbyten. För att göra detta måste Nmap använda andra funktioner än de som är inbyggda i operativsystem, som bara vet hur man respekterar god praxis i nätverkskommunikation (det anropar biblioteken "Npcap" och "libcap" som ses ovan). Det är för att Nmap inte gör saker på det "vanliga" sättet som den kan härleda viss information om operativsystem, tjänster och vissa sårbarheter.
+- Konstruera "råa" nätverkspaket: Nmap kan använda ett brett spektrum av skanningsmetoder, inklusive avancerad paketmanipulation och paketkonstruktion. Detta är till exempel fallet när vi vill utföra TCP SYN-skanningar, som inte respekterar den klassiska *trevägshandskakningen* i TCP-utbyten. För att göra detta måste Nmap använda andra funktioner än de som är inbyggda i operativsystem, som bara vet hur man respekterar god praxis i nätverkskommunikation (det anropar biblioteken "Npcap" och "libcap" som ses ovan). Det är för att Nmap inte gör saker på det "vanliga" sättet som den kan härleda viss information om operativsystem, tjänster och vissa sårbarheter.
 
 
 
 
 
-- Lyssna på nätverkstrafik**: vissa av Nmaps alternativ kräver att den lyssnar på nätverket för att kunna hämta viss information. Denna åtgärd anses vara känslig på operativsystem, eftersom den också gör det möjligt att lyssna på kommunikationen från andra applikationer på systemet. Precis som Wireshark behöver Nmap särskilda behörigheter för att göra detta, vilka är lättare att få genom att vara direkt i en privilegierad session.
+- Lyssna på nätverkstrafik: vissa av Nmaps alternativ kräver att den lyssnar på nätverket för att kunna hämta viss information. Denna åtgärd anses vara känslig på operativsystem, eftersom den också gör det möjligt att lyssna på kommunikationen från andra applikationer på systemet. Precis som Wireshark behöver Nmap särskilda behörigheter för att göra detta, vilka är lättare att få genom att vara direkt i en privilegierad session.
 
 
 
 
 
-- Lyssna på privilegierade portar**: På operativsystem sägs portar från 0 till 1024 (TCP såväl som UDP) vara privilegierade, dvs. de är på något sätt reserverade för mycket specifika användningsområden och därför skyddade. Även om detta är ett något föråldrat skäl idag, är det fortfarande nödvändigt att ha vissa privilegier för att lyssna på dessa portar, vilket Nmap kan behöva göra beroende på hur det kommer att användas.
+- **Lyssna på privilegierade portar**: På operativsystem sägs portar från 0 till 1024 (TCP såväl som UDP) vara privilegierade, dvs. de är på något sätt reserverade för mycket specifika användningsområden och därför skyddade. Även om detta är ett något föråldrat skäl idag, är det fortfarande nödvändigt att ha vissa privilegier för att lyssna på dessa portar, vilket Nmap kan behöva göra beroende på hur det kommer att användas.
 
 
 
 
 
-- Skicka UDP-paket:** På samma sätt kräver lyssnande på en nätverksapplikation på UDP-portar (ett statslöst protokoll) privilegierade rättigheter på operativsystemen. En privilegierad session krävs därför om du vill utföra en UDP-sökning, för vilken Nmap måste lyssna efter ett svar för att kunna analysera svaren på dess sökningar.
+- Skicka UDP-paket: På samma sätt kräver lyssnande på en nätverksapplikation på UDP-portar (ett statslöst protokoll) privilegierade rättigheter på operativsystemen. En privilegierad session krävs därför om du vill utföra en UDP-sökning, för vilken Nmap måste lyssna efter ett svar för att kunna analysera svaren på dess sökningar.
 
 
 
@@ -551,7 +551,7 @@ Från och med nu ska du komma ihåg att endast skanna värdar i en kontrollerad 
 
 
 
-- Som en påminnelse: [Brottsbalken: Kapitel III: Angrepp på system för automatisk databehandling] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Som en påminnelse: [Brottsbalken: Kapitel III: Angrepp på system för automatisk databehandling](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -562,13 +562,13 @@ Från och med nu ska du komma ihåg att endast skanna värdar i en kontrollerad 
 
 
 
-- [Hack The Box] (https://app.hackthebox.com/ "Hack The Box")**: Hacking-utbildningsplattformen Hack The Box tillhandahåller ständigt sårbara system som du kan attackera efter eget gottfinnande. Flera hundra system finns tillgängliga, men en förnyad pool med 20 maskiner erbjuds gratis året runt, med åtkomst via en OpenVPN VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Hacking-utbildningsplattformen Hack The Box tillhandahåller ständigt sårbara system som du kan attackera efter eget gottfinnande. Flera hundra system finns tillgängliga, men en förnyad pool med 20 maskiner erbjuds gratis året runt, med åtkomst via en OpenVPN VPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Denna plattform erbjuder många avsiktligt sårbara system för nedladdning, som kan användas via VirtualBox (även en gratis lösning) eller på andra sätt. När du har laddat ner finns det inget behov av VPN - allt är lokalt.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Denna plattform erbjuder många avsiktligt sårbara system för nedladdning, som kan användas via VirtualBox (även en gratis lösning) eller på andra sätt. När du har laddat ner finns det inget behov av VPN - allt är lokalt.
 
 
 
@@ -815,7 +815,7 @@ svar på ett TCP SYN-paket som skickas på port 22, aktivt på skanningsmålet
 
 
 
-I skärmdumpen ovan ser vi ett TCP SYN/ACK-paket som skickas av målvärden**. Porten är aktiv och exponerar en tjänst. Nmap bekräftar mottagandet av svaret och avslutar sedan anslutningen (TCP RST/ACK). **Det var så den visste att port TCP/22 var aktiv**.
+I skärmdumpen ovan ser vi ett TCP SYN/ACK-paket som skickas av målvärden. Porten är aktiv och exponerar en tjänst. Nmap bekräftar mottagandet av svaret och avslutar sedan anslutningen (TCP RST/ACK). **Det var så den visste att port TCP/22 var aktiv**.
 
 
 
@@ -901,7 +901,7 @@ sändning av uDP-paket och mottagning av ICMP (port inte nåbar) under Nmap-sök
 
 
 
-På skärmdumpen ovan kan vi se att Nmap skickar ett stort antal UDP-paket och får ett ICMP-paket "Destination unreachable (Port unreachable)" som svar på de flesta av dem. Detta är normalt, eftersom det är det lämpliga svar som definieras av [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") när en UDP-port inte kan nås:
+På skärmdumpen ovan kan vi se att Nmap skickar ett stort antal UDP-paket och får ett ICMP-paket "Destination unreachable (Port unreachable)" som svar på de flesta av dem. Detta är normalt, eftersom det är det lämpliga svar som definieras av [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") när en UDP-port inte kan nås:
 
 
 
@@ -976,7 +976,7 @@ Som vi har sett väljer Nmap själv det antal och de portar som ska skannas om d
 
 
 
-**Hur väljs dessa portar ut?
+**Hur väljs dessa portar ut?**
 
 
 
@@ -1060,7 +1060,7 @@ Oavsett ordning kommer Nmap att kontrollera alla dessa portar, och bara de på d
 
 
 
-**Skanna en rad olika portar
+**Skanna en rad olika portar**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Skanning av TCP- och UDP-portar
+**Skanning av TCP- och UDP-portar**
 
 
 
@@ -1134,7 +1134,7 @@ Det är ett intressant sätt att anpassa dina skanningar!
 
 
 
-**Skanna alla portar
+**Skanna alla portar**
 
 
 
@@ -1347,7 +1347,7 @@ Men det är mer än så. Du kan se i Wireshark-fångsten ovan att **TCP SYN**-pa
 
 
 
-**Varför skicka TCP-paket till portar som en del av nätverksupptäckten?
+**Varför skicka TCP-paket till portar som en del av nätverksupptäckten?**
 
 
 
@@ -1636,7 +1636,7 @@ I det här avsnittet lär vi oss hur man använder Nmap för att upptäcka och e
 
 
 
-Som vi har sett i tidigare avsnitt av den här handledningen kommer Nmap som standard inte att se efter vilken tjänst som är exponerad på de portar som den skannar och anser vara öppna. Så om du lyssnar på en webbtjänst på port TCP/22 kommer Nmap att fortsätta att rapportera den som öppen, men som en `SSH`-tjänst. Detta beror på att den använder en [databas] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) lokalt i ditt system för att leta efter en relation mellan en port/ett protokoll och namnet på en tjänst (filen `/etc/services/`).
+Som vi har sett i tidigare avsnitt av den här handledningen kommer Nmap som standard inte att se efter vilken tjänst som är exponerad på de portar som den skannar och anser vara öppna. Så om du lyssnar på en webbtjänst på port TCP/22 kommer Nmap att fortsätta att rapportera den som öppen, men som en `SSH`-tjänst. Detta beror på att den använder en [databas](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) lokalt i ditt system för att leta efter en relation mellan en port/ett protokoll och namnet på en tjänst (filen `/etc/services/`).
 
 
 
@@ -2165,31 +2165,31 @@ Låt oss vara tydliga: Nmap kan inte utföra ett fullständigt penetrationstest 
 
 
 
-- Begränsad täckning**: även om Nmaps NSE-skript är kraftfulla kan deras testtäckning vara begränsad jämfört med andra specialiserade verktyg för upptäckt av sårbarheter. Vissa sårbarheter kanske inte täcks av de NSE-skript som finns tillgängliga, t.ex. Active Directory-sårbarheter, exponering av känsliga data eller mer avancerade fall av sårbara webbapplikationer.
+- **Begränsad täckning**: även om Nmaps NSE-skript är kraftfulla kan deras testtäckning vara begränsad jämfört med andra specialiserade verktyg för upptäckt av sårbarheter. Vissa sårbarheter kanske inte täcks av de NSE-skript som finns tillgängliga, t.ex. Active Directory-sårbarheter, exponering av känsliga data eller mer avancerade fall av sårbara webbapplikationer.
 
 
 
 
 
-- Sårbarhetens komplexitet**: vissa typer av sårbarheter kan vara svåra att upptäcka med hjälp av NSE-skript på grund av deras komplexitet. Till exempel kan sårbarheter som kräver komplex interaktion med en fjärrtjänst kanske inte upptäckas effektivt av Nmap (som i fallet med överdrivna behörigheter i en fildelning eller ett behörighetskontrollfel i en webbapplikation).
+- **Sårbarhetens komplexitet**: vissa typer av sårbarheter kan vara svåra att upptäcka med hjälp av NSE-skript på grund av deras komplexitet. Till exempel kan sårbarheter som kräver komplex interaktion med en fjärrtjänst kanske inte upptäckas effektivt av Nmap (som i fallet med överdrivna behörigheter i en fildelning eller ett behörighetskontrollfel i en webbapplikation).
 
 
 
 
 
-- Passiv detektering**: Nmap fokuserar främst på aktiva skanningar för att upptäcka sårbarheter, vilket innebär att den kanske inte effektivt upptäcker potentiella sårbarheter utan att upprätta en aktiv anslutning till målvärdarna. Sårbarheter som inte manifesterar sig under en aktiv skanning kan därför missas (som i fallet med en kodinjektion i en webbapplikation).
+- **Passiv detektering**: Nmap fokuserar främst på aktiva skanningar för att upptäcka sårbarheter, vilket innebär att den kanske inte effektivt upptäcker potentiella sårbarheter utan att upprätta en aktiv anslutning till målvärdarna. Sårbarheter som inte manifesterar sig under en aktiv skanning kan därför missas (som i fallet med en kodinjektion i en webbapplikation).
 
 
 
 
 
-- Beroende av uppdateringar**: Nmaps [databas](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) med NSE-skript utvecklas ständigt, men det kan gå en tid mellan upptäckten av en ny sårbarhet och tillägget av ett motsvarande skript till Nmap. Därför kanske Nmap inte alltid är uppdaterat med de senaste sårbarheterna.
+- **Beroende av uppdateringar**: Nmaps [databas](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) med NSE-skript utvecklas ständigt, men det kan gå en tid mellan upptäckten av en ny sårbarhet och tillägget av ett motsvarande skript till Nmap. Därför kanske Nmap inte alltid är uppdaterat med de senaste sårbarheterna.
 
 
 
 
 
-- Falska positiva och falska negativa resultat**: Som med alla säkerhetsverktyg kan Nmaps NSE-skript ge falska positiva resultat (falska varningar om sårbarheter) eller falska negativa resultat (verkliga sårbarheter som inte upptäcks). Detta är något man bör ha i åtanke när man analyserar Nmap-resultat.
+- **Falska positiva och falska negativa resultat**: Som med alla säkerhetsverktyg kan Nmaps NSE-skript ge falska positiva resultat (falska varningar om sårbarheter) eller falska negativa resultat (verkliga sårbarheter som inte upptäcks). Detta är något man bör ha i åtanke när man analyserar Nmap-resultat.
 
 
 
@@ -2238,23 +2238,24 @@ Skripten är indelade i kategorier och ett och samma manus kan tillhöra flera k
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| Kategori | Beskrivning |
+|----------------|-------------|
+| **auth** | Innehåller skript relaterade till autentisering på tjänster, inklusive anonym åtkomst eller enumerering av användare. Exempel: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast** | Innehåller skript relaterade till broadcast-operationer på nätverket, särskilt i syfte att utnyttja och upptäcka vissa tjänster, värdar eller protokoll som baseras på broadcast (IPv6, wake on lan, IGMP, etc.). Exempel: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute** | Innehåller skript relaterade till brute force-operationer för autentisering på tjänster (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exempel: `ssh-brute`, `vnc-brute`. |
+| **default** | Innehåller de skript som används i standardfallet (vid användning av `-sC`). Flera kriterier används för att validera att ett skript inkluderas i denna kategori, inklusive körhastighet, utdatastruktur, testets tillförlitlighet, om det är ”intrusivt” eller ”riskabelt”, etc. |
+| **discovery** | Innehåller skript relaterade till avancerad nätverks- och tjänsteupptäckt. Här finns till exempel enumerering av innehållet i en SMB-delning, version av en VNC-tjänst, SNMP-förfrågningar, etc. Exempel: `mysql-info`, `http-security-headers`. |
+| **dos** | Innehåller skript som kan orsaka överbelastningsattacker (denial of service). Det kan handla om skript skapade för att utnyttja en sårbarhet av typen denial of service eller skript som har denial of service som en bieffekt. Var därför försiktig (de är exkluderade från kategorin `default`). Exempel: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit** | Innehåller skript skapade för att direkt utnyttja en sårbarhet. Exempel: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external** | Innehåller skript som kräver användning av en tredjepartsresurs, som en online-informationsdatabas. Detta indikerar särskilt ett försök till anslutning utåt (var uppmärksam på sekretess). Exempel: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer** | Innehåller skript utformade för att skicka oväntade ramar, paket eller parametrar till en tjänst. Detta gör det särskilt möjligt att orsaka fel eller funktionsstörningar för att få spår av sårbarheter eller teknisk information. Exempel: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive** | Innehåller skript som kategoriseras som ”riskabla” ur ett tillgänglighets- eller detektionsperspektiv. De kan orsaka en systemkrasch eller upptäckas som skadliga av en säkerhetslösning. Detta är den motsatta kategorin till `safe`. Exempel: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware** | Innehåller skript utformade för att upptäcka närvaron av karakteristiska element för skadlig kod, såsom en lyssnande port som vanligtvis används av en känd bakdörr (backdoor). Exempel: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe** | Innehåller skript som anses vara säkra ur ett detektions- eller stabilitetsperspektiv. Detta är den motsatta kategorin till `intrusive` och innehåller till största del avancerade skript för versionsidentifiering eller insamling av konfigurationselement. Exempel: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version** | Innehåller skript som möjliggör avancerad versionsdetektering. De kan användas som komplement till tidigare studerade Probes och Matchs när detektering av en version kräver lite mer komplexa operationer. Exempel: `http-php-version`, `vmware-version`. |
+| **vuln** | Innehåller skript utformade för att upptäcka närvaron av kända sårbarheter (CVE) utan att nödvändigtvis utnyttja dem (till skillnad från kategorin `exploit`). De nöjer sig i allmänhet med att rapportera om en tjänst är ”sårbar” eller inte. Exempel: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 Tekniskt sett anges de kategorier som ett manus tillhör direkt i dess kod.
 
@@ -2936,7 +2937,7 @@ information som visas av Nmaps alternativ `--stats-every`
 
 
 
-I synnerhet kan vi få en procentandel av framstegen, samt en indikation på vilken fas den befinner sig i: host discovery-fas via [ping] (https://www.it-connect.fr/le-ping-pour-les-debutants/), discovery-fas av exponerade TCP-portar, etc. Denna information kan också erhållas i terminalutmatningen genom att trycka på "Enter" under en skanning.
+I synnerhet kan vi få en procentandel av framstegen, samt en indikation på vilken fas den befinner sig i: host discovery-fas via [ping](https://www.it-connect.fr/le-ping-pour-les-debutants/), discovery-fas av exponerade TCP-portar, etc. Denna information kan också erhållas i terminalutmatningen genom att trycka på "Enter" under en skanning.
 
 
 
@@ -2973,7 +2974,7 @@ Möjligheten att spara Nmap-scanningsresultat i XML gör att data blir kompatibl
 
 
 
-Jag kommer att nämna några offensiva verktyg utan att i detalj gå in på hur de används eller hur de fungerar. Jag förutsätter att läsaren känner till deras grundläggande användning och att de redan är i drift. Detta avsnitt kommer att vara av särskilt intresse för yrkesverksamma inom [cybersäkerhet] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), personer under utbildning eller de som har beslutat sig för att fördjupa sig i ämnet.
+Jag kommer att nämna några offensiva verktyg utan att i detalj gå in på hur de används eller hur de fungerar. Jag förutsätter att läsaren känner till deras grundläggande användning och att de redan är i drift. Detta avsnitt kommer att vara av särskilt intresse för yrkesverksamma inom [cybersäkerhet](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), personer under utbildning eller de som har beslutat sig för att fördjupa sig i ämnet.
 
 
 
@@ -2989,7 +2990,7 @@ Metasploit är ett ramverk för exploateringar och attacker. Det är en gratis l
 
 
 
-I synnerhet kan detta välkända och allmänt använda operativsystem arbeta med en postgreSQL [databas] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) där värdar, portar, tjänster, autentiseringsinformation och mer lagras.
+I synnerhet kan detta välkända och allmänt använda operativsystem arbeta med en postgreSQL [databas](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) där värdar, portar, tjänster, autentiseringsinformation och mer lagras.
 
 
 
@@ -3096,7 +3097,7 @@ Precis som med Metasploit kan Aquatone direkt bearbeta Nmaps XML-format och anv�
 
 
 
-- Verktygslänk: [Github - Michenriksen/aquatone] (https://github.com/michenriksen/aquatone)
+- Verktygslänk: [Github - Michenriksen/aquatone](https://github.com/michenriksen/aquatone)
 
 
 
@@ -3385,7 +3386,7 @@ Innan du skannar ett nätverk eller system måste du se till att du har erhålli
 
 
 
-- Som en påminnelse: [Brottsbalken: Kapitel III: Angrepp på system för automatisk databehandling] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Som en påminnelse: [Brottsbalken: Kapitel III: Angrepp på system för automatisk databehandling](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -3398,7 +3399,7 @@ De resultat som Nmap producerar kan betraktas som känsliga, särskilt när de i
 
 
 
-Vi har också sett att, beroende på vilka NSE-skript som används, kan NSE-skanningsresultaten från [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) också innehålla identifierare.
+Vi har också sett att, beroende på vilka NSE-skript som används, kan NSE-skanningsresultaten från [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) också innehålla identifierare.
 
 
 
@@ -3437,7 +3438,7 @@ Som vi har sett i den här handledningen kan Nmap vara mycket utförlig på nät
 
 
 
-För att undvika incidenter måste du behärska Nmaps beteende och veta hur du anpassar det till det sammanhang där det används, med hjälp av de olika alternativ som diskuteras i den här handledningen. Vi kommer inte nödvändigtvis att använda Nmap på samma sätt i ett informationssystem som innehåller industriell [hårdvara] (https://www.it-connect.fr/actualites/actu-materiel/) som i ett användarnätverk som består av Windows-system som skyddas av en lokal brandvägg eller i en nätverkskärna.
+För att undvika incidenter måste du behärska Nmaps beteende och veta hur du anpassar det till det sammanhang där det används, med hjälp av de olika alternativ som diskuteras i den här handledningen. Vi kommer inte nödvändigtvis att använda Nmap på samma sätt i ett informationssystem som innehåller industriell [hårdvara](https://www.it-connect.fr/actualites/actu-materiel/) som i ett användarnätverk som består av Windows-system som skyddas av en lokal brandvägg eller i en nätverkskärna.
 
 
 
@@ -3521,7 +3522,7 @@ Tanken är att vi ska förklara några av dessa metoder och hjälpa dig att för
 
 
 
-Den första typen av TCP-skanning som vi ska titta på är `TCP SYN Scan`, även känd som `Half Open Scan`. Om du kommer ihåg de nätverksskanningar vi gjorde efter våra första portskanningar, är detta den typ av skanning som används som standard av [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) när den körs med root-rättigheter.
+Den första typen av TCP-skanning som vi ska titta på är `TCP SYN Scan`, även känd som `Half Open Scan`. Om du kommer ihåg de nätverksskanningar vi gjorde efter våra första portskanningar, är detta den typ av skanning som används som standard av [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) när den körs med root-rättigheter.
 
 
 

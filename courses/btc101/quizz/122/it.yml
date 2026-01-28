@@ -1,9 +1,10 @@
-question: Qual è stata la disponibilità online di Bitcoin dal 2009?
-answer: 99,988%.
+question: Cos'è la blockchain di Bitcoin?
+answer: Un registro pubblico e immutabile di tutte le transazioni Bitcoin.
 wrong_answers:
-  - 100%.
-  - 90,009%.
-  - 80,17%.
-explanation: |
-  La disponibilità online di Bitcoin è del 99,988% dal 2009.
+  - Un registro privato e modificabile di tutte le transazioni Bitcoin.
+  - Un registro pubblico e modificabile di tutte le transazioni Bitcoin.
+  - Un registro privato e immutabile di tutte le transazioni Bitcoin.
+explanation: >-
+  La blockchain di Bitcoin è un registro pubblico e immutabile di tutte le
+  transazioni Bitcoin. È un registro comune per tutti gli utenti Bitcoin.
 reviewed: vero

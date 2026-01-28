@@ -1,7 +1,7 @@
 question: Why is Proof of Work essential in the Bitcoin network?
-answer: It represents the physical link between the real world and Bitcoin, requiring tangible energy for production and validation of bitcoins and blocks.
+answer: It represents the physical link between the real world and Bitcoin, requiring tangible energy for the production and validation of Bitcoins and blocks.
 wrong_answers:
-  - It allows for small-scale participation of miners, expecially for those in high-censored locations.
+  - It allows for small-scale participation of miners, especially for those in high-censored locations.
   - It guarantees protection against centralization.
   - It reflects existing power inequalities in society.
 explanation: |

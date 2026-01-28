@@ -6,4 +6,4 @@ wrong_answers:
   - Fin du support du DHCP
 explanation: |
   L’épuisement des adresses IPv4 a motivé la transition vers IPv6, qui offre un espace d’adressage immense.
-reviewed: false
+reviewed: true 

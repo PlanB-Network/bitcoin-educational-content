@@ -1,12 +1,8 @@
-question: Ni uruhara uruhe rw’uruzitiro rwa Bitcoin mu rubuga rwa Bitcoin?
-answer: Iremeza amabuye mashasha n’ibikorwa vyashizwemwo.
+question: Ni igiki gikorwa nyamukuru c’ibihimba vyo mu murongo wa Bitcoin?
+answer: Kubungabunga kopi ya Bitcoin Blockchain, kwemeza amafaranga, gutanga amakuru ku zindi nzira, no gukurikiza amategeko y’amasezerano ya Bitcoin.
 wrong_answers:
-  - Irema Bitcoins nshasha ikazishira mu ma blocs.
-  - Igenzura igiciro ca Bitcoin.
-  - Ni ryo ricungera urubuga rwa Bitcoin.
-explanation: |
-  Igikoresho ca Bitcoin kiri mu rubuga rwa Bitcoin gikora
-  kwemeza amabuye mashasha n’ibikorwa vy’ubudandaji birimwo. Ni vyo
-  uru rubuga rw'ibihimba vya Bitcoin bituma vy'ukuri
-  ry’inzego zitandukanye.
+  - Gucungera kopi ya Bitcoin Blockchain, kwemeza amafaranga, gutanga amakuru kuri leta, no guhindura amategeko y’amasezerano ya Bitcoin.
+  - Gukomeza gusa kopi ya Bitcoin Blockchain.
+  - Gutanga amakuru ku zindi nzira gusa.
+explanation: >-
 reviewed: true

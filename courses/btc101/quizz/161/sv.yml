@@ -1,8 +1,8 @@
-question: Vad är den största farhågan när det gäller miljökostnaderna för Bitcoin Mining?
-answer: Energiförbrukningen.
+question: Hur kan Bitcoin potentiellt hjälpa till med den ekologiska omställningen?
+answer: Det främjar användningen av Green-energi.
 wrong_answers:
-  - Produktion av ASICs.
-  - Återvinning av ASICs.
-  - Kostnaden för elektricitet.
+  - Det minskar produktionen av varor.
+  - Den reglerar förbrukningen av resurser.
+  - Den begränsar endast utsläppen av växthusgaser.
 explanation: >-
 reviewed: true

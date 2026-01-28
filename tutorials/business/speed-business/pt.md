@@ -1,5 +1,5 @@
 ---
-name: Velocidade Wallet - PoS
+name: Speed Wallet - POS
 description: Integre facilmente os pagamentos com Bitcoin e stablecoin na sua empresa
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ A adoção mundial do Bitcoin baseia-se em casos de utilização tangíveis na v
 
 
 
-a [Speed Business] (https://www.tryspeed.com/) é uma plataforma desenvolvida pela [Speed Wallet] (https://www.speed.app/) que permite a qualquer comerciante integrar pagamentos instantâneos e de baixo custo em Bitcoin e stablecoin.
+a [Speed Business](https://www.tryspeed.com/) é uma plataforma desenvolvida pela [Speed Wallet](https://www.speed.app/) que permite a qualquer comerciante integrar pagamentos instantâneos e de baixo custo em Bitcoin e stablecoin.
 
 
 
@@ -28,25 +28,25 @@ O Speed dispõe de uma vasta gama de funcionalidades para cobrir os aspectos fin
 
 
 
-- Configuração de pagamento online**: Receba os pagamentos dos seus clientes onde quer que estejam, graças ao seu sítio Web.
+- **Configuração de pagamento online**: Receba os pagamentos dos seus clientes onde quer que estejam, graças ao seu sítio Web.
 
 
 
 
 
-- Pagamentos no local**: Ideal para lojas e empresas que cobram dinheiro na loja.
+- **Pagamentos no local**: Ideal para lojas e empresas que cobram dinheiro na loja.
 
 
 
 
 
-- Levantamentos**: Retire os seus activos sem problemas e utilize os seus bitcoins para pagar aos seus clientes e salários.
+- **Levantamentos**: Retire os seus activos sem problemas e utilize os seus bitcoins para pagar aos seus clientes e salários.
 
 
 
 
 
-- Ligação com outras plataformas**: Utiliza ferramentas externas para gerir os seus pagamentos? O Speed oferece-lhe a possibilidade de as ligar à sua plataforma, para um ecossistema tudo-em-um que reflecte a sua atividade.
+- **Ligação com outras plataformas**: Utiliza ferramentas externas para gerir os seus pagamentos? O Speed oferece-lhe a possibilidade de as ligar à sua plataforma, para um ecossistema tudo-em-um que reflecte a sua atividade.
 
 
 
@@ -94,13 +94,13 @@ Quando se desactiva o modo de teste, é necessário configurar a carteira de lev
 
 
 
-Se ainda não possui uma Bitcoin e/ou Lightning Wallet, recomendamos que consulte os nossos tutoriais sobre [carteiras móveis] (https://planb.network/tutorials/wallet).
+Se ainda não possui uma Bitcoin e/ou Lightning Wallet, recomendamos que consulte os nossos tutoriais sobre [carteiras móveis](https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **IMPORTANTE**: Ao configurar a sua carteira, escolha o tipo **BTC (On-Chain)** quando receber grandes montantes, da ordem dos milhares de euros, para garantir uma confirmação fiável no Bitcoin, e o tipo **LN Address** quando desejar receber micro-pagamentos instantâneos na sua atividade.
 
@@ -265,13 +265,13 @@ No menu **Enviar pagamentos**, encontrará todas as opções de transferência d
 
 
 
-- Pagamentos instantâneos**: Com a opção Instant Send, envie bitcoins instantaneamente e com segurança a partir da sua conta de comerciante.
+- **Pagamentos instantâneos**: Com a opção Instant Send, envie bitcoins instantaneamente e com segurança a partir da sua conta de comerciante.
 
 
 
 
 
-- Ligações de levantamento generate** para permitir aos seus parceiros e fornecedores acederem ao seu pagamento numa data posterior sem necessitarem da sua presença em linha.
+- Ligações de levantamento **generate** para permitir aos seus parceiros e fornecedores acederem ao seu pagamento numa data posterior sem necessitarem da sua presença em linha.
 
 
 
@@ -289,7 +289,7 @@ Na opção **Ligações de levantamento**, crie uma nova ligação de levantamen
 
 
 
-- Pagamentos**: No menu Pagamentos, inicie os levantamentos do seu saldo Speed Business para o seu Wallet pessoal.
+- **Pagamentos**: No menu Pagamentos, inicie os levantamentos do seu saldo Speed Business para o seu Wallet pessoal.
 
 
 
@@ -299,7 +299,7 @@ Na opção **Ligações de levantamento**, crie uma nova ligação de levantamen
 
 
 
-- Descontos**: Incentive os seus clientes habituais, definindo opções de desconto para ganhar bónus.
+- **Descontos**: Incentive os seus clientes habituais, definindo opções de desconto para ganhar bónus.
 
 
 
@@ -435,5 +435,4 @@ Já tem uma boa noção de Speed, integre o Bitcoin no seu negócio e desenvolva
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

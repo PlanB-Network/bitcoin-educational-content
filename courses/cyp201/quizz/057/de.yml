@@ -6,4 +6,4 @@ wrong_answers:
   - Variabel, abhängig von der Länge der mnemonischen Phrase
 explanation: |
   Unabhängig von der Länge der mnemonischen Phrase generiert PBKDF2 immer einen 512-Bit-Seed.
-reviewed: false
+reviewed: true

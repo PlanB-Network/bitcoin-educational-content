@@ -42,7 +42,7 @@ Cryptomator je alternativou k jiným aplikacím, zejména k Picocryptu, který b
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Aplikace Cryptomator je k dispozici pro systémy **Windows** (exe / msi), **Linux**, **macOS,** ale také **Android** a **iOS**. Mimochodem, všechny aplikace jsou zdarma, s výjimkou aplikace pro Android, za kterou je třeba zaplatit (14,99 eur).
 
@@ -114,7 +114,7 @@ Dále můžete upravit možnost v části expertní nastavení.
 
 
 
-Dále je třeba definovat **heslo odpovídající šifrovacímu klíči**. Toto heslo vám umožní **odemknout trezor Cryptomator** a získat přístup k jeho datům. **Pokud ho ztratíte, ztratíte přístup k datům**. Nakonec máte ještě možnost **vytvořit záložní klíč** zaškrtnutím možnosti "**Ano, raději bezpečně, než litovat**", podobně jako u klíče pro obnovení [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). To se doporučuje, ale neukládejte tento záložní klíč v kořenovém adresáři služby OneDrive!
+Dále je třeba definovat **heslo odpovídající šifrovacímu klíči**. Toto heslo vám umožní **odemknout trezor Cryptomator** a získat přístup k jeho datům. **Pokud ho ztratíte, ztratíte přístup k datům**. Nakonec máte ještě možnost **vytvořit záložní klíč** zaškrtnutím možnosti "**Ano, raději bezpečně, než litovat**", podobně jako u klíče pro obnovení [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). To se doporučuje, ale neukládejte tento záložní klíč v kořenovém adresáři služby OneDrive!
 
 
 
@@ -170,7 +170,7 @@ Pro odemknutí trezoru je nutné zadat heslo. Poté klikněte na "**Uvolnit jedn
 
 
 
-Na straně OneDrive nemůžeme procházet přímo trezor Cryptomatoru. Nemůžeme vidět data (ani názvy souborů, ani jejich obsah). To znamená, že nemusíte přidávat data do trezoru Cryptomator prostřednictvím obvyklého zástupce OneDrive. **Data musíte přidat pomocí virtuální jednotky aplikace Cryptomator
+Na straně OneDrive nemůžeme procházet přímo trezor Cryptomatoru. Nemůžeme vidět data (ani názvy souborů, ani jejich obsah). To znamená, že nemusíte přidávat data do trezoru Cryptomator prostřednictvím obvyklého zástupce OneDrive. **Data musíte přidat pomocí virtuální jednotky aplikace Cryptomator.**
 
 
 

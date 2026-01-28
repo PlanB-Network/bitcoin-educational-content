@@ -1,0 +1,8 @@
+question: ชื่อของการแทนที่ Bitcoin ที่ใช้ภายใน Liquid Network คืออะไร?
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - Wrapped Bitcoin (WBTC)
+  - Sidechain Bitcoin (SBTC)
+  - เฟเดอเรเต็ด Bitcoin (FBTC)
+explanation: |
+  Liquid Bitcoin (LBTC) เป็นชื่อที่ถูกต้องสำหรับ Bitcoin เมื่อมันมีอยู่บน Liquid sidechain เมื่อผู้ใช้ peg-in Bitcoin ของพวกเขาไปยัง Liquid พวกเขาจะได้รับจำนวน LBTC ที่เทียบเท่าซึ่งสามารถใช้สำหรับการทำธุรกรรมภายใน Liquid Network WBTC เป็น Bitcoin token ที่ใช้บน Ethereum ในขณะที่ SBTC และ FBTC ไม่ใช่ตัวแทน Bitcoin ที่ใช้ในเครือข่ายหลักใด ๆ

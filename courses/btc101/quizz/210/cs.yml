@@ -1,10 +1,12 @@
-question: Která země prohlásila Bitcoin za zákonné platidlo?
-answer: Salvador.
+question: V jakých oborech vyvolává Bitcoin otázky?
+answer: Kryptografie, teorie her, ekonomie a měnová politika, informatika, filozofie, energetika, právo a regulace.
 wrong_answers:
-  - Spojené státy.
-  - Čína.
-  - Indie.
-explanation: >-
-  Salvador učinil odvážný krok přijetím Bitcoinu v plném rozsahu,
-  prohlásil jej za zákonné platidlo.
+  - Pouze informatika a ekonomie
+  - Pouze kryptografie a teorie her.
+  - Pouze filozofie a energetika.
+explanation: |
+  Bitcoin je multidisciplinární téma, které vyvolává
+  otázky související s různými obory, včetně
+  kryptografie, teorie her, ekonomie a měnové politiky,
+  informatiky, filozofie, energetiky, práva a regulace.
 reviewed: true

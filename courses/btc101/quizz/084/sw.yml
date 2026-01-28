@@ -1,11 +1,13 @@
-question: Je, jambo kuu linapaswa kuwa nini unapomiliki Bitcoin?
-answer: Usalama wa fedha zako.
+question: Je, ni matumizi gani yanayopendekezwa ya Wallet ya nje ya mtandao, au Cold, halisi?
+answer: Kuhifadhi kiasi kikubwa.
 wrong_answers:
-  - Thamani ya Bitcoin katika masharti ya dola.
-  - Uhalali wa kumiliki bitcoins.
-  - Ruhusa ya kutumia pesa zako.
+  - Kuhifadhi gharama za kila siku.
+  - Kuhifadhi kiasi kidogo.
+  - Kuhifadhi akiba ya muda mfupi.
 explanation: |
-  Unapomiliki bitcoins, jambo la msingi ni usalama
-  ya fedha zako. Hii ni kwa sababu Bitcoin, kama aina nyingine yoyote
-  ya fedha, inaweza kuibiwa au kupotea ikiwa haijalindwa ipasavyo.
+  Wallet ya nje ya mtandao, au Cold, halisi inapendekezwa
+  kuhifadhi kiasi kikubwa kwa sababu ni chini ya hatari
+  vitisho vya mtandaoni kuliko pochi za Hot. Hata hivyo, sivyo
+  inapendekezwa kwa matumizi ya kila siku kwa sababu ni kidogo
+  kupatikana kwa shughuli za kila siku.
 reviewed: true

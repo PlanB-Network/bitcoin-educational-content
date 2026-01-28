@@ -1,0 +1,8 @@
+question: Wie viele Eigentümer kann ein Wert nach dem Rust-Eigentümersystem zu einem bestimmten Zeitpunkt haben?
+answer: Genau ein Eigentümer
+wrong_answers:
+  - Mehrere Eigentümer sind erlaubt
+  - Maximal zwei Besitzer
+  - Keine Eigentümer bis zum Zugriff
+explanation: |
+  Das Eigentumssystem von Rust beruht auf drei grundlegenden Regeln, wobei die erste besagt, dass jeder Wert zu jedem Zeitpunkt genau einen Eigentümer hat. Dieses Prinzip des einzigen Eigentümers ist für die Speichersicherheit von entscheidender Bedeutung, da es verhindert, dass mehrere Teile des Programms gleichzeitig versuchen, denselben Speicher freizugeben oder Daten zu ändern. Mehrere Eigentümer würden zu "Use-after-free"-Fehlern und Datenwettläufen führen, während keine Eigentümer bedeuten würden, dass der Speicher nie richtig aufgeräumt werden könnte.

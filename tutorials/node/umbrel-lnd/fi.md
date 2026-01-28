@@ -1,5 +1,5 @@
 ---
-name: Sateenvarjo LND
+name: Umbrel LND
 description: Edistyneempi ohje Lightning Network Daemon:n (LND) asentamiseen ja konfigurointiin Umbrelissa
 ---
 ![cover](assets/cover.webp)
@@ -27,7 +27,7 @@ Umbrelin asentamiseksi ja Bitcoin-solmun konfiguroimiseksi suosittelemme seuraam
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Varmista, että Bitcoin-solmusi on ajan tasalla ja toimii oikein, sillä Lightning Network käyttää sitä kaikissa off-chain-tapahtumissa.
 
@@ -57,7 +57,7 @@ Jos haluat täydellisen teoreettisen johdatuksen Lightning Network:een, suositte
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Tällä kurssilla saat perusteellisen perehdytyksen Lightning Network:n peruskäsitteisiin, ennen kuin siirryt harjoittelemaan LND-solmun kanssa.
 
@@ -154,7 +154,7 @@ Voit valita, luotko uuden solmun vai palautatko solmun varmuuskopiosta/seed. Kun
 
 
 
-**Huomaa: Umbrelin uusimmissa versioissa Lightning-sovelluksen asennus tarjoaa tämän 24-sanaisen seed:n (itse Bitcoin Umbrel-solmu ei tarjoa).
+**Huomaa: Umbrelin uusimmissa versioissa Lightning-sovelluksen asennus tarjoaa tämän 24-sanaisen seed:n (itse Bitcoin Umbrel-solmu ei tarjoa).**
 
 
 
@@ -221,7 +221,7 @@ Kun LND on toiminnassa, voit avata ensimmäisen Lightning-kanavasi. Löydät laa
 
 
 
-Esimerkiksi [ACINQ-solmu] (https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) on tunnustettu solmu, jolla on erinomaiset saatavuus- ja likviditeettitilastot.
+Esimerkiksi [ACINQ-solmu](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) on tunnustettu solmu, jolla on erinomaiset saatavuus- ja likviditeettitilastot.
 
 
 
@@ -496,11 +496,11 @@ Lightning Umbrel -solmusi tarvitsee kahdenlaisia varmuuskopioita:
 
 - Sisältää salamakanavan tiedot
 - Mahdollistaa pakotetun kanavan sulkemisen kaatumisen yhteydessä
-- Tärkeää:** Älä koskaan tallenna `channel.db`-tiedostoa manuaalisesti (rangaistusten vaara)
+- **Tärkeää:** Älä koskaan tallenna `channel.db`-tiedostoa manuaalisesti (rangaistusten vaara)
 
 
 
-**Manuaalinen varmuuskopiointimenettely
+**Manuaalinen varmuuskopiointimenettely**
 
 
 
@@ -613,17 +613,17 @@ Jos haluat tietää lisää Watchtowerin konfiguroinnista ja käytöstä, suosit
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Muut parhaat käytännöt
 
 
 
 
 
-- Ohjelmistopäivitykset:** Pidä Umbrel ja LND ajan tasalla (tietoturvakorjaukset)
-- Laitteiston suojaus:** Käytä vakaata järjestelmää (Raspberry Pi SSD-levyllä, mini-PC) ja UPS:ää
-- Verkkoturvallisuus:** Pidä Torin oletuskonfiguraatio, vaihda Umbrelin ylläpitäjän salasana (oletus: "moneyprintergobrrr")
-- Salaus:** Ota levyn salaus käyttöön, jos mahdollista
+- **Ohjelmistopäivitykset:** Pidä Umbrel ja LND ajan tasalla (tietoturvakorjaukset)
+- **Laitteiston suojaus:** Käytä vakaata järjestelmää (Raspberry Pi SSD-levyllä, mini-PC) ja UPS:ää
+- **Verkkoturvallisuus:** Pidä Torin oletuskonfiguraatio, vaihda Umbrelin ylläpitäjän salasana (oletus: "moneyprintergobrrr")
+- **Salaus:** Ota levyn salaus käyttöön, jos mahdollista
 
 
 
@@ -691,10 +691,10 @@ RTL on täydellinen "sveitsiläinen armeijan veitsi" Lightning-solmun hallintaan
 
 
 
-- Lightning Shell** : Komentorivi (lncli) selaimen kautta
-- BTC RPC Explorer & Mempool** : Seuranta Blockchain
-- LNmetrics & Torq**: Reitityksen suorituskykyanalyysi
-- Amboss & 1ML**: solmun "sosiaalinen" hallinta (aliakset, yhteystiedot, verkostoanalyysi)
+- **Lightning Shell**: Komentorivi (lncli) selaimen kautta
+- **BTC RPC Explorer & Mempool**: Seuranta Blockchain
+- **LNmetrics & Torq**: Reitityksen suorituskykyanalyysi
+- **Amboss & 1ML**: solmun "sosiaalinen" hallinta (aliakset, yhteystiedot, verkostoanalyysi)
 
 
 

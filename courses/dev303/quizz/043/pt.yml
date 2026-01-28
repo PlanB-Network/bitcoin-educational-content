@@ -1,0 +1,8 @@
+question: Que palavra-chave é usada para forçar uma closure a se apropriar de variáveis capturadas em vez de pegá-las emprestadas?
+answer: deslocação
+wrong_answers:
+  - próprio
+  - captura
+  - tomar
+explanation: |
+  A palavra-chave `move` é utilizada antes dos parâmetros da closure para forçar a closure a tomar posse de todas as variáveis capturadas de seu ambiente. Isto é essencial quando a closure pode ultrapassar o escopo onde as variáveis foram originalmente definidas, como por exemplo, ao gerar threads. Sem `move`, as closures tipicamente capturam pelo método menos restritivo (referência imutável, depois referência mutável, depois propriedade), mas `move` substitui este comportamento automático para garantir a transferência de propriedade. As outras opções (`own`, `capture`, `take`) não são palavras-chave válidas no Rust para este propósito.

@@ -1,0 +1,9 @@
+question: 로컬 네트워크에서 MAC Address의 주요 기능은 무엇인가요?
+answer: 네트워크 Interface 고유 식별
+wrong_answers:
+  - 도메인 이름을 IP Address로 번역하기
+  - 호스트에 IP Address 동적으로 할당하기
+  - 인터넷 연결 속도 확인
+explanation: |
+  MAC Address는 각 네트워크 Interface의 고유 하드웨어 식별자 역할을 하여 로컬 네트워크에서 디바이스를 물리적으로 구분할 수 있도록 합니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er standard antall utgående tilkoblinger en Bitcoin core-node opprettholder?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core opprettholder 10 utgående tilkoblinger som standard (8 full relay og 2 kun block-relay).
+reviewed: true

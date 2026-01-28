@@ -1,0 +1,8 @@
+question: Mu bijanye n’ibiyunguruzo vy’amabuye y’agaciro (BIP158) ku bakiriya b’umuco bazigama ubuzima bwite, ni igiki gihambaye gituma bikora neza ku buzima bwite bwa wallet?
+answer: Bishobora gutanga ivyiza vy’ibinyoma ariko ntivyigere bitanga ibibi vy’ibinyoma, bikaba bituma abaguzi bashobora gukuraho amabuye ashobora kuba ataco amaze batamenyesheje amaderesi yihariye .
+wrong_answers:
+  - Bashobora gutanga ibinyoma vy’ibinyoma ariko ntibazokwigera batanga ibinyoma vy’ibinyoma, bikaba vyemeza ko abaguzi bashobora gukuraho gusa amabuye arimwo amafaranga yabo .
+  - Bakuraho ivyiza vy’ibinyoma n’ivyiza vy’ibinyoma bakoresheje uburyo bwo kuyungurura bushingiye ku maderesi ya wallet .
+  - "Bitanga ivyiza vy'ibinyoma n'ibibi vy'ibinyoma mu rugero rungana kugira ngo bipfuke uburyo nyabwo bw'ugucuruza kw'umukiriya"
+explanation: |
+  Amayunguruzo y’amabuye akomeye akozwe n’akarorero k’ikosa ry’uburinganire: ashobora kwerekana ko amabuye arimwo ibikorwa bibereye igihe ataco akora (ivyiza vy’ibinyoma), ariko ntazokwigera abura ibuye ririmwo ibikorwa bibereye (nta makosa y’ibinyoma). Iyi nzira ni ngirakamaro cane kubera ko amajambo y’ibinyoma yoba asobanura ko ata n’umwe yishuye, mu gihe amajambo y’ibinyoma yotuma gusa umuntu akuraho amabuye adakenewe. Igitigiri c’ivyiza vy’ikinyoma kiratanga ubuzima bwite mu guhatira abaguzi gukuraho amabuye amwamwe ataco amaze, bikaba bituma abarorerezi badashobora kumenya amabuye arimwo vy’ukuri amafaranga y’umukiriya.

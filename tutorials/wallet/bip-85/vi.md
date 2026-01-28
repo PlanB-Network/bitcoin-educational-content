@@ -91,9 +91,9 @@ BIP-85 cho phép bạn tạo nhiều danh mục đầu tư Bitcoin từ một c�
 
 
 
-- Tình huống**: Bạn sử dụng Wallet "Hot Wallet" (được cài đặt trên thiết bị có kết nối Internet) cho các giao dịch hàng ngày.
-- Giải pháp BIP-85**: Bạn tạo cụm từ phụ seed dành riêng cho danh mục đầu tư này.
-- Ưu điểm so với BIP-32**: Bạn không cần nhập cụm từ chính seed vào điện thoại, giúp giảm thiểu nguy cơ bị hack. Chỉ cụm từ phụ seed bị xâm phạm, bảo vệ các ví khác của bạn. Với BIP-32, bạn cần sử dụng cụm từ chính seed và một đường dẫn bỏ qua, khiến toàn bộ tiền của bạn bị lộ.
+- **Tình huống**: Bạn sử dụng Wallet "Hot Wallet" (được cài đặt trên thiết bị có kết nối Internet) cho các giao dịch hàng ngày.
+- **Giải pháp BIP-85**: Bạn tạo cụm từ phụ seed dành riêng cho danh mục đầu tư này.
+- **Ưu điểm so với BIP-32**: Bạn không cần nhập cụm từ chính seed vào điện thoại, giúp giảm thiểu nguy cơ bị hack. Chỉ cụm từ phụ seed bị xâm phạm, bảo vệ các ví khác của bạn. Với BIP-32, bạn cần sử dụng cụm từ chính seed và một đường dẫn bỏ qua, khiến toàn bộ tiền của bạn bị lộ.
 
 
 
@@ -103,9 +103,9 @@ BIP-85 cho phép bạn tạo nhiều danh mục đầu tư Bitcoin từ một c�
 
 
 
-- Tình huống**: Bạn thiết lập Bitcoin Wallet cho một người thân thiết với bạn (ví dụ: mẹ bạn), đồng thời có thể khôi phục lại nếu họ làm mất.
-- Giải pháp BIP-85**: Bạn tạo một câu phụ seed chuyên dụng và chỉ chia sẻ câu này.
-- Ưu điểm so với BIP-32**: Với BIP-32, việc tạo tài khoản cho người thân yêu yêu cầu bạn phải chia sẻ cụm từ seed chính của mình, mạo hiểm toàn bộ tiền của mình và làm phức tạp việc quản lý cho người thân yêu (quản lý các đường dẫn nhánh) hoặc tạo một cụm từ seed mới để lưu ngoài cụm từ seed chính của bạn.
+- **Tình huống**: Bạn thiết lập Bitcoin Wallet cho một người thân thiết với bạn (ví dụ: mẹ bạn), đồng thời có thể khôi phục lại nếu họ làm mất.
+- **Giải pháp BIP-85**: Bạn tạo một câu phụ seed chuyên dụng và chỉ chia sẻ câu này.
+- **Ưu điểm so với BIP-32**: Với BIP-32, việc tạo tài khoản cho người thân yêu yêu cầu bạn phải chia sẻ cụm từ seed chính của mình, mạo hiểm toàn bộ tiền của mình và làm phức tạp việc quản lý cho người thân yêu (quản lý các đường dẫn nhánh) hoặc tạo một cụm từ seed mới để lưu ngoài cụm từ seed chính của bạn.
 
 
 
@@ -115,9 +115,9 @@ BIP-85 cho phép bạn tạo nhiều danh mục đầu tư Bitcoin từ một c�
 
 
 
-- Kịch bản**: Bạn tách riêng số bitcoin của mình cho các mục đích khác nhau (ví dụ: tiết kiệm dài hạn, quỹ không KYC).
-- Giải pháp BIP-85**: Bạn tạo các cụm từ phụ seed dành riêng cho từng mục tiêu.
-- Ưu điểm so với BIP-32**: Với BIP-32, tất cả các tài khoản đều sử dụng chung một cụm từ seed, điều này làm phức tạp việc quản lý danh mục đầu tư của bên thứ ba do yêu cầu phải quản lý các đường dẫn phái sinh như `m/44'/0'/0'`. Ngoài ra, không thể chỉ định một tài khoản riêng cho mỗi thiết bị (ví dụ: "tiết kiệm trên Coldcard", "hàng ngày trên thiết bị di động", "kỳ nghỉ trên Trezor"). BIP-85 chỉ định một cụm từ phụ seed duy nhất cho mỗi mục tiêu, dễ dàng xác định và nhập riêng trên mỗi thiết bị.
+- **Kịch bản**: Bạn tách riêng số bitcoin của mình cho các mục đích khác nhau (ví dụ: tiết kiệm dài hạn, quỹ không KYC).
+- **Giải pháp BIP-85**: Bạn tạo các cụm từ phụ seed dành riêng cho từng mục tiêu.
+- **Ưu điểm so với BIP-32**: Với BIP-32, tất cả các tài khoản đều sử dụng chung một cụm từ seed, điều này làm phức tạp việc quản lý danh mục đầu tư của bên thứ ba do yêu cầu phải quản lý các đường dẫn phái sinh như `m/44'/0'/0'`. Ngoài ra, không thể chỉ định một tài khoản riêng cho mỗi thiết bị (ví dụ: "tiết kiệm trên Coldcard", "hàng ngày trên thiết bị di động", "kỳ nghỉ trên Trezor"). BIP-85 chỉ định một cụm từ phụ seed duy nhất cho mỗi mục tiêu, dễ dàng xác định và nhập riêng trên mỗi thiết bị.
 
 
 
@@ -127,9 +127,9 @@ BIP-85 cho phép bạn tạo nhiều danh mục đầu tư Bitcoin từ một c�
 
 
 
-- Kịch bản**: Bạn cần một danh mục đầu tư tạm thời cho một giao dịch một lần hoặc để bảo mật (ví dụ: trộn tiền, tương tác với Exchange KYC, v.v.).
-- Giải pháp BIP-85**: Bạn tạo một câu phụ seed, sử dụng nó cho giao dịch, sau đó hủy nó nếu cần, vì biết rằng nó có thể được tạo lại.
-- Ưu điểm so với BIP-32**: Với BIP-32, tài khoản tạm thời phụ thuộc vào câu chính seed, khiến toàn bộ tiền của bạn bị lộ nếu bị xâm phạm.
+- **Kịch bản**: Bạn cần một danh mục đầu tư tạm thời cho một giao dịch một lần hoặc để bảo mật (ví dụ: trộn tiền, tương tác với Exchange KYC, v.v.).
+- **Giải pháp BIP-85**: Bạn tạo một câu phụ seed, sử dụng nó cho giao dịch, sau đó hủy nó nếu cần, vì biết rằng nó có thể được tạo lại.
+- **Ưu điểm so với BIP-32**: Với BIP-32, tài khoản tạm thời phụ thuộc vào câu chính seed, khiến toàn bộ tiền của bạn bị lộ nếu bị xâm phạm.
 
 
 
@@ -141,7 +141,7 @@ BIP-85 cho phép bạn tạo nhiều danh mục đầu tư Bitcoin từ một c�
 
 
 
-- Phần cứng** (tùy chọn)
+- **Phần cứng** (tùy chọn)
  - Coldcard Mk4 hoặc Q1
  - Thẻ nhớ MicroSD
 
@@ -158,7 +158,7 @@ BIP-85 cho phép bạn tạo nhiều danh mục đầu tư Bitcoin từ một c�
 
 
 
-- Phần mềm tương thích**
+- **Phần mềm tương thích**
  - Sparrow wallet (máy tính, chỉ để theo dõi hoặc quản lý nâng cao)
  - Nunchuck (di động, dành cho nhiều chữ ký)
  - BlueWallet (di động)
@@ -168,7 +168,7 @@ BIP-85 cho phép bạn tạo nhiều danh mục đầu tư Bitcoin từ một c�
 
 
 
-- 3.4 Cấu hình Coldcard**
+- 3.4 Cấu hình **Coldcard**
  - Khởi tạo một câu seed gồm 24 từ trên Coldcard.
  - Tùy chọn: Thêm passphrase để bảo mật quyền truy cập vào các nhánh BIP-85.
  - Kích hoạt các tùy chọn hữu ích: NFC (để xuất), tắt USB trên pin (bảo mật).
@@ -197,7 +197,7 @@ Bật Coldcard, nhập mã PIN.
 
 
 
-- 1. Nếu bạn đã áp dụng passphrase cho seed chính của mình:**
+- 1. Nếu bạn đã áp dụng passphrase cho seed chính của mình:
  - Từ màn hình chính, hãy vào `passphrase`.
     - Chọn `Thêm từ` và nhập mật khẩu của bạn.
     - Nhấn `Áp dụng`.
@@ -207,7 +207,7 @@ Bật Coldcard, nhập mã PIN.
 
 
 
-- 2. Vào menu BIP-85**
+- 2. Vào menu **BIP-85**
  - Từ màn hình chính, hãy vào `Nâng cao > Derive seed B85`
  - Đọc cảnh báo và xác nhận.
 
@@ -246,7 +246,7 @@ Chọn định dạng cụm từ seed: 12, 18 hoặc 24 từ. Kiểm tra số l�
 
 
 
-- 5. Ghi chú hoặc xuất seed câu phụ**
+- 5. Ghi chú hoặc xuất seed câu phụ
 
 
 ColdCard hiện hiển thị câu phụ seed mới. Bạn có thể:
@@ -415,13 +415,13 @@ Thêm tài nguyên trong Phụ lục.
 
 
 
-- [BÍP](https://planb.network/resources/glossary/bip)
-- [BIP-32](https://planb.network/resources/glossary/bip0032)
-- [BIP-39](https://planb.network/resources/glossary/bip0039)
-- [BIP-85](https://planb.network/resources/glossary/bip0085)
-- [Cụm từ seed](https://planb.network/resources/glossary/recovery-phrase)
-- [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [BÍP](https://planb.academy/resources/glossary/bip)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
+- [BIP-85](https://planb.academy/resources/glossary/bip0085)
+- [Cụm từ seed](https://planb.academy/resources/glossary/recovery-phrase)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 
@@ -430,18 +430,18 @@ Thêm tài nguyên trong Phụ lục.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 ### A.3 Hiểu về passphrase BIP39
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
 ### A.4 Danh mục đầu tư Bitcoin hoạt động như thế nào
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

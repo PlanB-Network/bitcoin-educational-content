@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između Electrs i Fulcrum?
+answer: Electrs je kompaktniji, Fulcrum je moćniji
+wrong_answers:
+  - Electrs nije besplatan, Fulcrum je besplatan
+  - Fulcrum ne podržava Electrum protokol
+  - Electrs je vlasnički, Fulcrum je otvorenog koda
+explanation: |
+  Electrs koristi manje prostora na disku, dok Fulcrum brže odgovara na zahteve, ali troši više resursa.
+reviewed: true

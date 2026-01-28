@@ -1,84 +1,81 @@
 ---
 name: Đóng góp - GitHub Web hướng dẫn (người mới bắt đầu)
-description: Hướng dẫn đầy đủ về hướng dẫn Plan ₿ Network với GitHub Web
+description: Hướng dẫn đầy đủ về hướng dẫn Plan ₿ Academy với GitHub Web
 ---
 ![cover](assets/cover.webp)
 
-Trước khi làm theo hướng dẫn này để thêm hướng dẫn mới, bạn cần hoàn thành một vài bước sơ bộ. Nếu bạn chưa làm, vui lòng xem hướng dẫn giới thiệu này trước, sau đó quay lại đây:
+Trước khi theo dõi bài hướng dẫn về cách thêm nội dung mới này, bạn cần hoàn thành một vài bước chuẩn bị sơ bộ. Nếu bạn chưa thực hiện, vui lòng xem bài hướng dẫn dưới đây trước, sau đó quay lại đây.
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Bạn đã có:
 
+- Chủ đề cho bài hướng dẫn.
+- Đã liên hệ với đội ngũ Plan ₿ Academy qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc paolo@planb.network.
+- Lựa chọn công cụ đóng góp.
 
-- Chọn một chủ đề cho bài hướng dẫn của bạn;
-- Đã liên hệ với nhóm Plan ₿ Network qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc paolo@planb.network ;
-- Chọn công cụ đóng góp của bạn.
+Trong bài hướng dẫn này, chúng ta sẽ tìm hiểu cách thêm bài hướng dẫn vào Plan ₿ Academy bằng phiên bản web của GitHub. Nếu bạn đã thành thạo Git, bài hướng dẫn chi tiết này có thể không cần thiết. Thay vào đó, tôi khuyên bạn nên xem một trong hai bài hướng dẫn còn lại, nơi tôi đề cập chi tiết các quy tắc cần tuân thủ và các bước thực hiện thay đổi từ môi trường cục bộ:
 
-Trong hướng dẫn này, chúng ta sẽ xem cách thêm hướng dẫn của bạn vào Plan ₿ Network bằng phiên bản web của GitHub. Nếu bạn đã thành thạo Git, hướng dẫn rất chi tiết này có thể không cần thiết đối với bạn. Thay vào đó, tôi khuyên bạn nên xem một trong 2 hướng dẫn khác này, trong đó tôi trình bày chi tiết các hướng dẫn cần tuân theo và các bước thực hiện thay đổi từ bản địa phương:
+- **Người dùng có kinh nghiệm**:
 
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Người dùng có kinh nghiệm**:
+- **Trung cấp (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Trung cấp (GitHub Desktop)**:
+## Các bước chuẩn bị cần thiết
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+Trước khi bắt đầu:
 
-## Điều kiện tiên quyết
+- Có một [tài khoản GitHub](https://github.com/signup);
+- Đã fork [repository gốc của Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Có [hồ sơ giảng viên trên Plan ₿ Academy](https://planb.academy/professors) (chỉ cần khi bạn muốn đề xuất một bài hướng dẫn đầy đủ).
 
-Điều kiện tiên quyết trước khi bắt đầu hướng dẫn:
+Nếu bạn cần trợ giúp về các bước này, hãy xem các bài hướng dẫn sau:
 
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-- Có [tài khoản GitHub](https://github.com/signup);
-- Có một nhánh của [Kho lưu trữ nguồn Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content);
-- Có [hồ sơ giáo viên trên Plan₿ Network](https://planb.network/professors) (chỉ khi bạn cung cấp hướng dẫn đầy đủ).
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-Nếu bạn cần trợ giúp để đáp ứng các điều kiện tiên quyết này, các hướng dẫn khác của tôi sẽ giúp ích:
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
-
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-
-Khi mọi thứ đã sẵn sàng và bạn đã có nhánh của kho lưu trữ Plan ₿ Network, bạn có thể bắt đầu thêm phần hướng dẫn.
+Khi mọi thứ đã sẵn sàng và bạn đã có bản fork của mình, bạn có thể bắt đầu thêm bài hướng dẫn.
 
 ## 1 - Tạo một nhánh mới
 
-Mở trình duyệt của bạn và điều hướng đến trang fork của bạn trong kho lưu trữ Plan ₿ Network. Đây là fork bạn đã thiết lập trên GitHub. URL của fork của bạn sẽ trông như thế này: `https://github.com/[your-username]/bitcoin-educational-content`:
+Mở trình duyệt và truy cập bản fork của bạn. URL sẽ có dạng: `https://github.com/[your-username]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
-Đảm bảo bạn đang ở nhánh `dev` chính, sau đó nhấp vào nút "*Sync fork*". Nếu fork của bạn chưa được cập nhật, GitHub sẽ yêu cầu bạn cập nhật nhánh của mình. Tiến hành cập nhật này:
+Đảm bảo bạn đang ở nhánh chính `dev`, sau đó nhấn vào nút "*Sync fork*". Nếu bản fork chưa cập nhật, GitHub sẽ yêu cầu bạn cập nhật. Hãy tiến hành cập nhật:
 
 ![GITHUB](assets/fr/02.webp)
 
-Nhấp vào nhánh `dev`, sau đó đặt tên cho nhánh đang hoạt động của bạn sao cho tiêu đề phản ánh rõ mục đích của nó, sử dụng dấu gạch ngang để phân tách các từ. Ví dụ, nếu mục đích của chúng ta là viết hướng dẫn về cách sử dụng Green Wallet, nhánh có thể được gọi là: `tuto-green-wallet-loic`. Sau khi nhập tên phù hợp, hãy nhấp vào "*Create branch*" để xác nhận việc tạo nhánh mới của bạn dựa trên `dev`:
+Nhấp vào nhánh `dev`, sau đó đặt tên cho nhánh làm việc mới sao cho tiêu đề phản ánh rõ mục đích, sử dụng dấu gạch ngang để ngăn cách các từ. Ví dụ, tôi muốn viết hướng dẫn về cách sử dụng Green Wallet, nhánh sẽ có tên là: `tuto-green-wallet-loic`. Sau khi nhập tên phù hợp, nhấn vào "*Create branch*" để tạo nhánh dựa trên `dev`:
 
 ![GITHUB](assets/fr/03.webp)
 
-Bây giờ bạn sẽ chuyển sang nhánh công việc mới của mình:
+Hiện tại bạn đang ở trên nhánh làm việc mới:
 
 ![GITHUB](assets/fr/04.webp)
 
-Điều này có nghĩa là mọi thay đổi bạn thực hiện sẽ chỉ được lưu trên nhánh cụ thể đó.
+Bất kỳ thay đổi nào bạn thực hiện sẽ chỉ được lưu trên nhánh cụ thể này. 
 
-Đối với mỗi bài viết mới mà bạn dự định xuất bản, hãy tạo một nhánh mới từ `dev`.
+Đối với mỗi bài viết mới, hãy luôn tạo một nhánh mới từ `dev`.
 
-Nhánh trong Git đại diện cho phiên bản song song của dự án, cho phép bạn làm việc trên các sửa đổi mà không ảnh hưởng đến nhánh chính, cho đến khi công việc của bạn sẵn sàng để tích hợp.
+Trong Git, nhánh đại diện cho một phiên bản song song của dự án, cho phép bạn thực hiện các chỉnh sửa mà không ảnh hưởng đến nhánh chính, cho đến khi công việc của bạn sẵn sàng để tích hợp.
 
-## 2 - Thêm tệp hướng dẫn
+## 2 - Thêm các files cho bài hướng dẫn
 
-Bây giờ nhánh làm việc đã được tạo, đã đến lúc tích hợp hướng dẫn mới của bạn.
+Bây giờ nhánh làm việc đã được tạo, giờ chúng ta cần thiết lập cấu trúc thư mục và files cho bài hướng dẫn.
 
-Trong các tệp nhánh của bạn, bạn sẽ cần tìm thư mục con phù hợp để đặt hướng dẫn của mình. Việc sắp xếp các thư mục phản ánh các phần khác nhau của trang web Plan ₿ Network. Trong ví dụ của chúng tôi, vì chúng tôi đang thêm hướng dẫn về Green Wallet, hãy đi đến đường dẫn sau: `bitcoin-educational-content\tutorials\wallet` tương ứng với phần `WALLET` của trang web:
+[//]: # (TODO)
+Trong các tệp nhánh của bạn, bạn sẽ cần tìm thư mục con phù hợp để đặt hướng dẫn của mình. Việc sắp xếp các thư mục phản ánh các phần khác nhau của trang web Plan ₿ Academy. Trong ví dụ của chúng tôi, vì chúng tôi đang thêm hướng dẫn về Green Wallet, hãy đi đến đường dẫn sau: `bitcoin-educational-content\tutorials\wallet` tương ứng với phần `WALLET` của trang web:
 
 ![GITHUB](assets/fr/05.webp)
 
-Trong thư mục `wallet`, tạo một thư mục mới dành riêng cho hướng dẫn của bạn. Tên của thư mục này phải chỉ rõ phần mềm được đề cập trong hướng dẫn, sử dụng dấu gạch nối để kết nối các từ. Đối với ví dụ của tôi, thư mục sẽ có tên là `green-wallet`. Nhấp vào "*Add File*" sau đó vào "*Create new file*":
+Trong thư mục `wallet`, tạo một thư mục mới dành riêng cho bài hướng dẫn của bạn. Tên thư mục nên chỉ rõ tên phần mềm/công cụ sẽ được đề cập trong bài hướng dẫn, sử dụng dấu gạch ngang để ngăn cách các từ, ví dụ `green-wallet`. Nhấn "*Add File*" rồi chọn "*Create new file*":
 
 ![GITHUB](assets/fr/06.webp)
 
@@ -86,34 +83,33 @@ Nhập tên thư mục theo sau là dấu gạch chéo `/` để xác nhận vi�
 
 ![GITHUB](assets/fr/07.webp)
 
-Trong thư mục con mới dành riêng cho hướng dẫn của bạn, bạn cần thêm một số mục:
+Trong thư mục mới này, bạn cần thêm các mục sau:
 
+- Thư mục `assets` để lưu trữ tất cả các hình ảnh minh họa cần thiết.
+- Trong thư mục `assets` này, tạo thư mục con theo mã ngôn ngữ gốc (ví dụ: `vi` cho tiếng Việt, `en` cho tiếng Anh). Đặt tất cả hình ảnh minh họa (sơ đồ, ảnh chụp màn hình...) vào đây.
+- Một file `tutorial.yml` để ghi lại metadata.
+- Một file Markdown (`.md`) chứa nội dung chính, tên tệp là mã ngôn ngữ của bài hướng dẫn mà bạn sẽ viết tới đây (ví dụ: tiếng Việt sẽ là `vi.md`).
 
-- Tạo một thư mục `assets` để lưu trữ tất cả các hình ảnh minh họa cần thiết cho bài hướng dẫn của bạn;
-- Trong thư mục `assets` này, hãy tạo một thư mục con được đặt tên theo mã ngôn ngữ gốc của hướng dẫn. Ví dụ, nếu hướng dẫn được viết bằng tiếng Anh, thư mục con này phải được đặt tên là `en`. Đặt tất cả các hình ảnh của hướng dẫn (sơ đồ, hình ảnh, ảnh chụp màn hình, v.v.) vào thư mục này.
-- Bạn phải tạo một tệp `tutorial.yml` để ghi lại thông tin chi tiết về hướng dẫn của mình;
-- Một tệp markdown phải được tạo để viết nội dung thực tế của hướng dẫn của bạn. Tệp này phải được đặt tên theo mã của ngôn ngữ mà nó được viết. Ví dụ, đối với một hướng dẫn được viết bằng tiếng Pháp, tệp phải được gọi là `fr.md`.
-
-Tóm lại, đây là hệ thống phân cấp tệp (chúng ta sẽ tiếp tục tạo chúng ở phần tiếp theo):
+Sơ đồ cấu trúc thư mục và files sẽ trông như thế này:
 
 ```
 bitcoin-educational-content/
 └── tutorials/
-└── wallet/ (à modifier avec la bonne catégorie)
-└── green-wallet/ (à modifier avec le nom du tuto)
-├── assets/
-│   ├── fr/ (à modifier selon le code de langue approprié)
-├── tutorial.yml
-└── fr.md (à modifier selon le code de langue approprié)
+    └── wallet/
+        └── green-wallet/
+            ├── assets/
+            │   ├── vi/
+            ├── tutorial.yml
+            └── vi.md
 ```
 
-## 3 - Điền vào tệp YAML
+## 3 - Điền thông tin vào file YAML
 
-Chúng ta hãy bắt đầu với tệp YAML. Trong hộp để tạo tệp mới, nhập `tutorial.yml`:
+Trong hộp để tạo file mới, nhập `tutorial.yml`:
 
 ![GITHUB](assets/fr/08.webp)
 
-Điền vào tệp `tutorial.yml` bằng cách sao chép mẫu sau:
+Sao chép và điền thông tin theo mẫu sau vào file `tutorial.yml`:
 
 ```
 id: 
@@ -143,15 +139,15 @@ proofreading:
     reward:
 ```
 
-Dưới đây là các trường bắt buộc:
+Các trường bắt buộc:
 
 - **id**: Một UUID (_Universally Unique Identifier_) cho phép xác định duy nhất hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Điều kiện duy nhất là UUID này phải ngẫu nhiên để tránh xung đột với một UUID khác trên nền tảng;
 
-- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Network duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
+- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Academy duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
 
-- **tags**: 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Danh mục con tương ứng với nội dung của hướng dẫn, theo cấu trúc của trang Plan ₿ Network (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Danh mục con tương ứng với nội dung của hướng dẫn, theo cấu trúc của trang Plan ₿ Academy (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Mức độ khó của hướng dẫn, được chọn từ:
     - `beginner`
@@ -172,7 +168,7 @@ Dưới đây là các trường bắt buộc:
 
 Để biết thêm chi tiết về ID giáo viên của bạn, vui lòng tham khảo hướng dẫn tương ứng:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -202,17 +198,17 @@ proofreading:
     reward: 0
 ```
 
-Sau khi hoàn tất việc sửa đổi tệp `tutorial.yml`, hãy lưu tài liệu bằng cách nhấp vào nút "*Cam kết thay đổi...*":
+Sau khi điền xong, nhấn `Commit changes...`:
 
 ![GITHUB](assets/fr/09.webp)
 
-Thêm tiêu đề và mô tả, và đảm bảo rằng cam kết được thực hiện với nhánh bạn đã tạo khi bắt đầu hướng dẫn này. Sau đó xác nhận bằng cách nhấp vào "*Cam kết thay đổi*".
+Thêm tiêu đề và mô tả cho commit. Sau đó xác nhận bằng cách nhấp vào `Commit changes` để lưu lại các thay đổi vào nhánh của bạn.
 
 ![GITHUB](assets/fr/10.webp)
 
 ## 4 - Tạo thư mục con cho hình ảnh
 
-Nhấp vào "*Thêm tệp*" một lần nữa rồi nhấp vào "*Tạo tệp mới*":
+Nhấp vào `Add file` một lần nữa rồi chọn `Create new file`:
 
 ![GITHUB](assets/fr/11.webp)
 
@@ -224,44 +220,44 @@ Lặp lại bước này trong thư mục `/assets` để tạo thư mục con n
 
 ![GITHUB](assets/fr/13.webp)
 
-Trong thư mục này, hãy tạo một tệp giả để buộc GitHub giữ thư mục của bạn (nếu không thì thư mục này sẽ trống). Đặt tên cho tệp này là `.gitkeep`. Sau đó nhấp vào "*Commit changes...*".
+Trong thư mục này, Tạo một file ảo tên là `.gitkeep` để GitHub giữ lại thư mục trống này. Sau đó nhấp vào `Commit changes...`.
 
 ![GITHUB](assets/fr/14.webp)
 
-Kiểm tra lại xem bạn đã vào đúng nhánh chưa, sau đó nhấp vào "*Xác nhận thay đổi*".
+Kiểm tra lại xem bạn đang ở đúng nhánh chưa, sau đó nhấp vào `Commit changes`.
 
 ![GITHUB](assets/fr/15.webp)
 
-## 5 - Tạo tệp Markdown
+## 5 - Tạo file Markdown
 
-Bây giờ chúng ta sẽ tạo tệp sẽ lưu trữ hướng dẫn của bạn, được đặt tên theo mã ngôn ngữ của bạn, ví dụ `fr.md` nếu chúng ta viết bằng tiếng Pháp. Đi đến thư mục hướng dẫn của bạn:
+Giờ chúng ta sẽ tạo file Markdown để lưu nội dung của bài hướng dẫn:
 
 ![GITHUB](assets/fr/16.webp)
 
-Nhấp vào "Thêm tệp*", sau đó nhấp vào "Tạo tệp mới*".
+Nhấp vào `Add file` một lần nữa rồi chọn `Create new file`:
 
 ![GITHUB](assets/fr/17.webp)
 
-Đặt tên tệp bằng mã ngôn ngữ của bạn. Trong trường hợp của tôi, vì hướng dẫn được viết bằng tiếng Pháp, tôi đặt tên tệp của mình là `fr.md`. Phần mở rộng `.md` cho biết tệp ở định dạng Markdown.
+Tạo tệp theo mã ngôn ngữ của bạn, ví dụ `fr.md` vì tôi sẽ viết bằng tiếng Pháp. Đi đến thư mục của bài hướng dẫn:
 
 ![GITHUB](assets/fr/18.webp)
 
-Chúng ta bắt đầu bằng cách điền vào phần `Properties` ở đầu tài liệu. Thêm và điền thủ công khối mã sau (các khóa `name:` và `description:` phải được giữ bằng tiếng Anh, nhưng giá trị của chúng phải được viết bằng ngôn ngữ được sử dụng cho hướng dẫn của bạn):
+Ở đầu tệp, thêm phần `Properties` (giữ tên nguyên tên biến `name` và `description` bằng tiếng Anh), sau đó nhập tiêu đề và mô tả của bạn sau các biến này:
 
 ```
 ---
-name: [Titre]
-description: [Description]
+name: [Tiêu đề]
+description: [Mô tả]
 ---
 ```
 
 ![GITHUB](assets/fr/19.webp)
 
-Điền tên hướng dẫn của bạn và mô tả ngắn gọn:
+Nhập tiêu đề bài hướng dẫn kèm một mô tả ngắn gọn:
 
 ![GITHUB](assets/fr/20.webp)
 
-Sau đó thêm đường dẫn đến ảnh bìa ở đầu hướng dẫn của bạn. Để thực hiện việc này, hãy lưu ý:
+Thêm đường dẫn ảnh bìa ngay sau đó:
 
 ```
 ![cover-green](assets/cover.webp)
@@ -343,16 +339,16 @@ Dấu chấm than ở đầu chỉ ra một hình ảnh. Văn bản thay thế, 
 
 ![GITHUB](assets/fr/35.webp)
 
-Nếu bạn muốn tạo sơ đồ của riêng mình, hãy đảm bảo tuân theo hướng dẫn đồ họa của Plan ₿ Network để đảm bảo tính nhất quán về mặt hình ảnh:
+Nếu bạn muốn tạo sơ đồ của riêng mình, hãy đảm bảo tuân theo hướng dẫn đồ họa của Plan ₿ Academy để đảm bảo tính nhất quán về mặt hình ảnh:
 
 
-- Phông chữ**: Sử dụng [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Màu sắc**:
+- **Phông chữ**: Sử dụng [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Màu sắc**:
  - Màu cam: #FF5C00
  - Đen: #000000
  - Trắng: #FFFFFF
 
-**Điều bắt buộc là tất cả hình ảnh tích hợp vào hướng dẫn của bạn phải không có bản quyền hoặc tôn trọng giấy phép tệp nguồn**. Do đó, tất cả các sơ đồ được xuất bản trên Plan ₿ Network đều được cung cấp theo giấy phép CC-BY-SA, giống như văn bản.
+**Điều bắt buộc là tất cả hình ảnh tích hợp vào hướng dẫn của bạn phải không có bản quyền hoặc tôn trọng giấy phép tệp nguồn**. Do đó, tất cả các sơ đồ được xuất bản trên Plan ₿ Academy đều được cung cấp theo giấy phép CC-BY-SA, giống như văn bản.
 
 **-> Mẹo:** Khi chia sẻ tệp ở nơi công cộng, chẳng hạn như hình ảnh, điều quan trọng là phải xóa siêu dữ liệu không cần thiết. Siêu dữ liệu này có thể chứa thông tin nhạy cảm, chẳng hạn như dữ liệu vị trí, ngày tạo và thông tin chi tiết về tác giả. Để bảo vệ quyền riêng tư của bạn, bạn nên xóa siêu dữ liệu này. Để đơn giản hóa thao tác này, bạn có thể sử dụng các công cụ chuyên dụng như [Exif Cleaner](https://exifcleaner.com/), cho phép bạn dọn dẹp siêu dữ liệu của tài liệu chỉ bằng thao tác kéo và thả đơn giản.
 
@@ -364,19 +360,19 @@ Sau khi bạn hoàn thành việc viết hướng dẫn bằng ngôn ngữ bạn
 
 ![GITHUB](assets/fr/36.webp)
 
-Yêu cầu kéo là yêu cầu được thực hiện để tích hợp các thay đổi từ nhánh của bạn vào nhánh chính của kho lưu trữ Plan ₿ Network, cho phép xem xét và thảo luận về các thay đổi trước khi chúng được hợp nhất.
+Yêu cầu kéo là yêu cầu được thực hiện để tích hợp các thay đổi từ nhánh của bạn vào nhánh chính của kho lưu trữ Plan ₿ Academy, cho phép xem xét và thảo luận về các thay đổi trước khi chúng được hợp nhất.
 
 Trước khi tiếp tục, hãy kiểm tra cẩn thận ở cuối giao diện để đảm bảo những thay đổi này là những gì bạn mong đợi:
 
 ![GITHUB](assets/fr/37.webp)
 
-Đảm bảo rằng ở đầu giao diện, nhánh làm việc của bạn đã được hợp nhất vào nhánh `dev` của kho lưu trữ Plan ₿ Network (là nhánh chính).
+Đảm bảo rằng ở đầu giao diện, nhánh làm việc của bạn đã được hợp nhất vào nhánh `dev` của kho lưu trữ Plan ₿ Academy (là nhánh chính).
 
 Nhập tiêu đề tóm tắt ngắn gọn những thay đổi bạn muốn hợp nhất với kho lưu trữ nguồn. Thêm bình luận ngắn gọn mô tả những thay đổi này (nếu bạn có số vấn đề liên quan đến việc tạo hướng dẫn của mình, hãy nhớ ghi chú `Đóng #{số vấn đề}` làm bình luận), sau đó nhấp vào nút "*Tạo yêu cầu kéo*" màu xanh lá cây để xác nhận yêu cầu hợp nhất:
 
 ![GITHUB](assets/fr/38.webp)
 
-PR của bạn sau đó sẽ hiển thị trong tab "*Pull Request*" của kho lưu trữ Plan ₿ Network chính. Tất cả những gì bạn phải làm bây giờ là đợi cho đến khi quản trị viên liên hệ với bạn để xác nhận rằng đóng góp của bạn đã được hợp nhất hoặc yêu cầu bất kỳ sửa đổi nào khác.
+PR của bạn sau đó sẽ hiển thị trong tab "*Pull Request*" của kho lưu trữ Plan ₿ Academy chính. Tất cả những gì bạn phải làm bây giờ là đợi cho đến khi quản trị viên liên hệ với bạn để xác nhận rằng đóng góp của bạn đã được hợp nhất hoặc yêu cầu bất kỳ sửa đổi nào khác.
 
 ![GITHUB](assets/fr/39.webp)
 
@@ -388,6 +384,6 @@ Nếu bạn muốn thay đổi nội dung đóng góp của mình sau khi đã g
 
 
 - Nếu PR của bạn vẫn mở và chưa được hợp nhất, hãy thực hiện các thay đổi trên cùng một nhánh công việc. Các thay đổi cam kết sẽ được thêm vào PR vẫn mở của bạn;
-- Trong trường hợp PR của bạn đã được hợp nhất với nhánh chính, bạn sẽ cần phải thực hiện lại quy trình từ đầu bằng cách tạo nhánh mới, sau đó gửi PR mới. Đảm bảo nhánh của bạn được đồng bộ hóa với kho lưu trữ nguồn Plan ₿ Network trên nhánh `dev` trước khi tiếp tục.
+- Trong trường hợp PR của bạn đã được hợp nhất với nhánh chính, bạn sẽ cần phải thực hiện lại quy trình từ đầu bằng cách tạo nhánh mới, sau đó gửi PR mới. Đảm bảo nhánh của bạn được đồng bộ hóa với kho lưu trữ nguồn Plan ₿ Academy trên nhánh `dev` trước khi tiếp tục.
 
 Nếu bạn gặp khó khăn về mặt kỹ thuật khi gửi hướng dẫn, vui lòng đừng ngần ngại yêu cầu trợ giúp trên [nhóm Telegram chuyên dụng của chúng tôi để đóng góp](https://t.me/PlanBNetwork_ContentBuilder). Cảm ơn bạn rất nhiều!

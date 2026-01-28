@@ -1,0 +1,9 @@
+question: ビットコインコアはどの言語で書かれているのですか？
+answer: C++
+wrong_answers:
+  - Go
+  - JavaScript
+  - Rust
+explanation: |
+  ビットコインコアはC++で書かれ、大規模なオープンソース・コミュニティによって保守されている。
+reviewed: true

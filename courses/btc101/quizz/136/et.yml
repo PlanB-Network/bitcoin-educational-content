@@ -1,10 +1,11 @@
-question: Kuidas tagab Bitcoin võrk, et pahatahtlikult käitumine Bitcoin protokolli raames on liiga kulukas?
-answer: Protokolli reeglite ja majanduslike stiimulite kaudu.
+question: Mis juhtuks, kui kasutaja otsustab järgida teisi reegleid, mis tühistavad praegused konsensuse reeglid?
+answer: Sõlm ei ole enam osa Bitcoin võrgustikust
 wrong_answers:
-  - Range regulatsiooni ja järelevalve kaudu.
-  - Kasutades edasijõudnud turvameetmeid.
-  - Õiguslike sanktsioonide ähvarduse kaudu.
+  - Sõlm saab osaks erinevast Bitcoin võrgustikust
+  - Sõlme karistatakse Bitcoin võrgustiku poolt
+  - Sõlme premeeritakse Bitcoin võrgustiku poolt
 explanation: >-
-  Bitcoin võrk tagab, et pahatahtlikult käitumine Bitcoin protokolli raames on liiga kulukas protokolli reeglite ja majanduslike stiimulite kaudu. See
-  kõrvaldab vajaduse usalduse järele bitcoinide omandiõiguse üleandmise igal sammul.
+  Kui kasutaja otsustab järgida teisi reegleid, mis tühistavad praegused
+  konsensuse
+  reeglid, siis see sõlm ei ole enam osa Bitcoin võrgustikust.
 reviewed: false

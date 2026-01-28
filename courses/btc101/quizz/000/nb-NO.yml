@@ -1,0 +1,9 @@
+question: Når fant blokkstørrelseskrigen sted?
+answer: I 2017.
+wrong_answers:
+  - I 2008.
+  - I 2010.
+  - I 2019.
+explanation: |
+  Blokkstørrelseskrigen fant sted i 2017. Denne konflikten satte aktører som ønsket å modifisere Bitcoin ved å øke blokkstørrelsen for å øke transaksjonskapasiteten, opp mot de som søkte å bevare brukernes uavhengighet og makt ved å holde størrelsen på 1 MB.
+reviewed: true

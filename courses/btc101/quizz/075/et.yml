@@ -1,11 +1,10 @@
-question: Mis on mnemooniline fraas Bitcoin'i rahakotis?
-answer: 12 või 24 sõnast koosnev nimekiri, mis on sinu Bitcoin'i rahakoti varukoopia
+question: Millist tehnoloogiat kasutatakse Bitcoin'i rahakotis vahendite kulutamise turvamiseks Bitcoin'i rahakotis?
+answer: Elliptilise kõvera krüptograafia
 wrong_answers:
-  - Valitud parool Bitcoin'i rahakoti ligipääsuks
-  - Kood Bitcoin'i tehingute krüpteerimiseks
-  - Salajane taastefraas, mis hävitab Bitcoin'i rahakoti
+  - Sümmeetriline krüptograafia
+  - Kvantkrüptograafia
+  - RSA krüptograafia
 explanation: |
-  Alates 2017. aastast saab privaatvõtit kodeerida lihtsasse 12 või
-  24 sõnast koosnevasse nimekirja, mida nimetatakse mnemooniliseks fraasiks. See fraas on sinu Bitcoin'i rahakoti varukoopia,
-  see võimaldab sul taastada oma rahakoti ükskõik millise Bitcoin'i rahakoti tarkvara/rakendusega.
+  Bitcoin'ide kulutamiseks peab omanik kasutama elliptilisi kõveraid, et luua allkiri
+  Bitcoin'i tehingu jaoks.
 reviewed: true

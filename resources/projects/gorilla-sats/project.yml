@@ -4,24 +4,24 @@ name: Gorilla Sats
 
 address_line_1: Kampala, Uganda
 address_line_2:
-address_line_3: 
+address_line_3:
 
 links:
   website: https://www.gorilla-sats.com/
   twitter: https://x.com/GorillaSats
-  Github: 
-  youtube: 
+  Github:
+  youtube:
 
-category: tourism
+category: service
 
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2025-06-16
-    urgency: 
+    urgency: 1
     contributor_names:
       - Gloirew
-    reward: 
+    reward: 0.01
 
 tags:
   - tourism

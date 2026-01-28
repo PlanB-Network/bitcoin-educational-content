@@ -19,7 +19,7 @@ I denne veiledningen vil jeg introdusere deg for en slik løsning: **COLDCARD Q*
 ---
 COLDCARD Q har mange funksjoner, og jeg foreslår derfor å dele bruken av COLDCARD Q inn i to veiledninger. I denne første veiledningen tar vi for oss den første konfigurasjonen og de grunnleggende funksjonene til enheten. Deretter, i den andre veiledningen, ser vi på hvordan du kan dra nytte av alle COLDCARDs avanserte alternativer.
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## Vi introduserer COLDCARD Q
@@ -55,7 +55,7 @@ På programvaresiden er COLDCARD Q like godt utstyrt som Coinkites andre enheter
 
 COLDCARD Q gir kort sagt en bedre brukeropplevelse enn MK4, og kan være ideelt for middels til avanserte brukere som ønsker større brukervennlighet.
 
-COLDCARD Q er tilgjengelig for salg [på Coinkites offisielle nettsted] (https://store.coinkite.com/store/coldcard). Det kan også kjøpes hos en forhandler.
+COLDCARD Q er tilgjengelig for salg [på Coinkites offisielle nettsted](https://store.coinkite.com/store/coldcard). Det kan også kjøpes hos en forhandler.
 
 ## Forbereder opplæringen
 
@@ -79,9 +79,9 @@ Hvis du foretrekker å drive COLDCARD uten å koble det til en datamaskin (air-g
 
 ![CCQ](assets/fr/005.webp)
 
-For denne opplæringen trenger du også Sparrow Wallet for å administrere Bitcoin-lommeboken din på datamaskinen din. Last ned [Sparrow Wallet] (https://sparrowwallet.com/download/) fra den offisielle nettsiden. Jeg anbefaler på det sterkeste at du sjekker både autentisiteten (med GnuPG) og integriteten (via hash) før du fortsetter med installasjonen. Hvis du ikke vet hvordan du gjør dette, kan du følge denne veiledningen:
+For denne opplæringen trenger du også Sparrow Wallet for å administrere Bitcoin-lommeboken din på datamaskinen din. Last ned [Sparrow Wallet](https://sparrowwallet.com/download/) fra den offisielle nettsiden. Jeg anbefaler på det sterkeste at du sjekker både autentisiteten (med GnuPG) og integriteten (via hash) før du fortsetter med installasjonen. Hvis du ikke vet hvordan du gjør dette, kan du følge denne veiledningen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Valg av PIN-kode
 
@@ -153,15 +153,15 @@ Du kan sjekke den gjeldende fastvareversjonen av COLDCARD. I mitt tilfelle er ve
 
 ![CCQ](assets/fr/019.webp)
 
-Sjekk [på det offisielle COLDCARD-nettstedet] (https://coldcard.com/downloads) for å se om en nyere versjon er tilgjengelig. Klikk på "*Download*" for å laste ned den nye fastvaren.
+Sjekk [på det offisielle COLDCARD-nettstedet](https://coldcard.com/downloads) for å se om en nyere versjon er tilgjengelig. Klikk på "*Download*" for å laste ned den nye fastvaren.
 
 ![CCQ](assets/fr/020.webp)
 
-På dette tidspunktet anbefaler vi på det sterkeste at du kontrollerer integriteten og ektheten til den nedlastede fastvaren. Dette gjør du ved å laste ned [dokumentet som inneholder hash-verdier for alle versjoner, signert av utviklerne] (https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifisere signaturen med [utviklerens offentlige nøkkel] (https://keybase.io/dochex), og kontrollere at hash-verdien som er angitt i det signerte dokumentet, stemmer overens med fastvaren som er lastet ned fra nettstedet. Hvis alt stemmer, kan du fortsette med oppdateringen.
+På dette tidspunktet anbefaler vi på det sterkeste at du kontrollerer integriteten og ektheten til den nedlastede fastvaren. Dette gjør du ved å laste ned [dokumentet som inneholder hash-verdier for alle versjoner, signert av utviklerne](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifisere signaturen med [utviklerens offentlige nøkkel](https://keybase.io/dochex), og kontrollere at hash-verdien som er angitt i det signerte dokumentet, stemmer overens med fastvaren som er lastet ned fra nettstedet. Hvis alt stemmer, kan du fortsette med oppdateringen.
 
 Hvis du ikke er kjent med denne verifiseringsprosessen, anbefaler jeg at du følger denne veiledningen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Ta et microSD-kort og overfør fastvarefilen (dokument i `.dfu`) til det. Sett microSD-kortet inn i en av portene på COLDCARD.
 
@@ -201,7 +201,7 @@ I denne menyen finner du ulike tilpasningsalternativer, for eksempel innstilling
 
 Vi skal se på andre avanserte innstillinger i neste veiledning:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Opprette en Bitcoin-lommebok
 
@@ -242,7 +242,7 @@ Du kan skrive det ned på kartongen som følger med COLDCARD, eller for ekstra s
 
 Skriv ned ordene som vises på skjermen, på det fysiske mediet du ønsker. Avhengig av sikkerhetsstrategien din kan du vurdere å lage flere fullstendige fysiske kopier av setningen (men ikke del den opp). Det er viktig at ordene er nummererte og står i rekkefølge.
 
-Du må selvsagt aldri dele disse ordene** på Internett, i motsetning til i denne veiledningen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen.
+Du må selvsagt aldri dele disse ordene på Internett, i motsetning til i denne veiledningen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen.
 
 Når du har skrevet ned ordene, trykker du på "*ENTER*".
 
@@ -332,7 +332,7 @@ Før du mottar dine første bitcoins i lommeboken din, ** anbefaler jeg deg på 
 
 Hvis du vil lære mer om hvordan du utfører en gjenopprettingstest, anbefaler jeg at du leser denne andre veiledningen:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Motta bitcoins
 
@@ -384,7 +384,7 @@ Du kan nå legge til en "*Label*" for å beskrive kilden til bitcoins som skal s
 
 Hvis du vil ha mer informasjon om merking, anbefaler jeg også denne andre veiledningen:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Du kan deretter bruke denne adressen til å motta bitcoins.
 
@@ -484,4 +484,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være veldig takknemlig hvis d
 
 Jeg anbefaler også at du tar en titt på denne andre veiledningen, der vi diskuterer de avanserte alternativene i COLDCARD Q :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

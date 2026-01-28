@@ -1,5 +1,5 @@
-question: Phương pháp phân lớp mang lại lợi thế chính nào cho Bitcoin?
-answer: Duy trì tính bảo mật của giao thức cơ sở
+question: Phương pháp phân lớp kiến trúc hạ tầng mang lại lợi thế chính nào cho Bitcoin?
+answer: Duy trì tính bảo mật của giao thức cơ sở (lớp hạ tầng thứ nhất)
 wrong_answers:
   - Tăng cường tập trung mạng lưới chính
   - Đổi mới nhanh chóng trên giao thức cơ sở

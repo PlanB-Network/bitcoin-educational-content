@@ -1,0 +1,8 @@
+question: Ni kuki ivyemezo vy’ibikorwa vya kera vya Bitcoin vyerekana igihe gikomeye c’ibice bine ku bijanye n’umubare w’ibintu vyinjijwe?
+answer: Igikoresho cose gisaba guharura kwaco bwite ku mibumbe irimwo ibintu vyose vyinjijwe mu gucuruza .
+wrong_answers:
+  - Igikoresho cose gitegerezwa kugenzura imikono ku bindi vyose kugira ngo kibuze double-spending mu gihe c'ugucuruza .
+  - Igishushanyo c'ugushirwa mu ngiro gishingiye ku kirundo gisaba inziga zishizwe mu nzira kugira ngo zikoreshe opcodes ku nzira yose y'inyungu
+  - "ScriptSig y'injiza yose itegerezwa kwemezwa n'inyandiko PubKey y'isohoka ryose kugira ngo uronke ihuye ryiza"
+explanation: |
+  Ivyemezo vya kera vya Bitcoin bituma habaho ugusobanuka kw’ibice bine kubera ko ikintu cose cinjijwe gikeneye ibara ryaco ry’umuvuduko, ariko igiharuro cose gikora imiterere y’ibikorwa irimwo ibintu vyose vyinjijwe. N inputs, ivyo bituma habaho ibikorwa n×n. SegWit yatorera umuti ivyo mu gushiramwo ibice vyasangiwe vy’ibara rya sighash, igabanya ubugoyagoye ku gihe c’umurongo no kubuza ibitero bishobora guterwa n’uguhakana ibikorwa biva ku bikorwa vyinshi vy’inyungu.

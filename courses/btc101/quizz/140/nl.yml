@@ -1,9 +1,16 @@
-question: Wat is de huidige grootte van de Bitcoin Blockchain?
-answer: Ongeveer 500 GB.
+question: Wat zouden de gevolgen zijn voor Bitcoin gebruikers als de blokken 100 keer zwaarder zouden zijn?
+answer: Het runnen van een Bitcoin node zou niet toegankelijk zijn voor de gemiddelde persoon, wat de decentralisatie van het protocol en de onveranderlijkheid van zowel transacties als consensusregels in gevaar brengt.
 wrong_answers:
-  - Ongeveer 100 GB.
-  - Ongeveer 1 TB.
-  - Ongeveer 2TB.
+  - Het runnen van een Bitcoin node zou toegankelijker zijn voor de gemiddelde persoon, wat de decentralisatie van het protocol en de onveranderlijkheid van zowel transacties als consensusregels ten goede komt.
+  - De transactiecapaciteit van het netwerk zou afnemen.
+  - De Block reward voor mijnwerkers zou toenemen.
 explanation: |
-  De Bitcoin Blockchain is ongeveer 500 GB groot vanaf 2023.
+  Als de blokken 100 keer zwaarder zouden zijn, zou een Bitcoin
+  node een Hard schijf van 50 TB nodig hebben, een bandbreedte van meer dan
+  500GB/maand en hardware die honderdduizenden transacties in minder dan 10 minuten kan valideren
+  transacties te valideren in minder dan 10 minuten. Deze
+  zou het runnen van een Bitcoin node ontoegankelijk maken voor de gemiddelde persoon
+  gemiddelde persoon, waardoor de decentralisatie van het
+  protocol en de onveranderlijkheid van transacties en consensusregels
+  regels.
 reviewed: true

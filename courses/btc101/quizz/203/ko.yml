@@ -1,0 +1,8 @@
+question: Bitcoin을 법정 화폐로 선언한 국가는 어디인가요?
+answer: 엘살바도르.
+wrong_answers:
+  - 미국.
+  - 중국.
+  - 인도.
+explanation: >-
+reviewed: true

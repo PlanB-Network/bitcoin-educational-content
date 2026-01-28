@@ -1,0 +1,8 @@
+question: Quale tecnica crittografica utilizza Elements per nascondere gli importi delle transazioni pur consentendo la convalida della rete?
+answer: Impegni di Pedersen
+wrong_answers:
+  - Merkle Tree Hashing
+  - Firme a curva ellittica
+  - Crittografia SHA-256
+explanation: |
+  Gli impegni Pedersen sono la tecnica crittografica specifica utilizzata in Elements' Confidential Transactions per nascondere gli importi delle transazioni. Questi impegni sostituiscono gli importi visibili con impegni crittografici che possono essere verificati matematicamente dai validatori senza rivelare i valori reali. Il Merkle Tree Hashing è usato per organizzare i dati delle transazioni in blocchi, le Firme a Curva Ellittica sono usate per l'autorizzazione delle transazioni e SHA-256 è un algoritmo di hashing, ma nessuno di questi nasconde gli importi delle transazioni mantenendo la capacità di validazione come gli Impegni Pedersen.

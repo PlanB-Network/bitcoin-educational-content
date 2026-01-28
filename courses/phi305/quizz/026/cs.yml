@@ -1,0 +1,9 @@
+question: Kdo si myslí, že člověk může přírodu spíše rušit, než aby se jí podřizoval?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Descartes věřil, že člověk může přírodu spíše narušovat, než jí podléhat. Tato dualistická vize staví člověka proti přírodě a naznačuje, že se nad přírodní zákony můžeme povznést svou vůlí.
+reviewed: false

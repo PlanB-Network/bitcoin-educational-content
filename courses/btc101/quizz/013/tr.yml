@@ -1,10 +1,12 @@
-question: Cypherpunk Manifestosu nedir?
-answer: Eric Hughes tarafından kaleme alınan ve mahremiyetin temel bir hak olduğunu savunan bir metin.
+question: Etkin bir para biriminin temel özellikleri nelerdir?
+answer: Fungible, Divisible, Liquid.
 wrong_answers:
-  - Julian Assange tarafından teknolojinin geleceği hakkında yazılmış bir kitap.
-  - Bitcoin'in ilkelerini özetleyen bir belge.
-  - David Chaum tarafından dijital para biriminin önemi hakkında yazılmış bir manifesto.
+  - Değiştirilebilir, Bölünebilir, Bozulabilir.
+  - Değişebilir, Bölünemez, Liquid.
+  - Değiştirilemez, Bölünebilir, Liquid.
 explanation: |
-  Cypherpunk Manifestosu 1993 yılında Eric Hughes tarafından yazılmıştır
-  ve mahremiyetin temel bir hak olduğunu ileri sürmektedir.
+  Etkin bir para birimi değiştirilebilir olmalıdır (değiştirilebilir
+  değer kaybı olmadan), bölünebilir (küçük parçalara ayrılabilir
+  farklı hacimlerdeki işlemleri kolaylaştırmak için parçalar) ve
+  Liquid (mal veya hizmete kolayca dönüştürülebilir).
 reviewed: true

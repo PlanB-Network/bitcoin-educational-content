@@ -17,4 +17,4 @@ term: 陳舊
 ![](../../dictionnaire/assets/9.webp)
 
 
-> ► *在英文中，它被稱為 "Stale Block"。在法語中，它也可以被稱為 "bloc périmé「 或 」bloc abandonné"。雖然我不同意這種用法，但有些 bitcoiners 使用 "bloc orphelin" 來指代實際上是過時的區塊。
+> ► *在英文中，它被稱為 "Stale Block"。在法語中，它也可以被稱為 "bloc périmé" 或 "bloc abandonné"。雖然我不同意這種用法，但有些 bitcoiners 使用 "bloc orphelin" 來指代實際上是過時的區塊。*

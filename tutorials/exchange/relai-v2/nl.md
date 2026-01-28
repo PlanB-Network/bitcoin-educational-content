@@ -24,25 +24,25 @@ Relai onderscheidt zich door haar eenvoud, toegankelijkheid en focus op lange te
 
 
 
-- Waar te vinden:** De app is beschikbaar in zowel de App Store (iOS) als de Google Play Store (Android). Zoek naar "Relai" en download hem gratis.
-- Snelle installatie:** Eenmaal geïnstalleerd, open je de app en volg je het begeleide installatieproces.
+- **Waar te vinden:** De app is beschikbaar in zowel de App Store (iOS) als de Google Play Store (Android). Zoek naar "Relai" en download hem gratis.
+- **Snelle installatie:** Eenmaal geïnstalleerd, open je de app en volg je het begeleide installatieproces.
 
 
 ### Stap 2: Maak uw account aan
 
 
 
-- Verplicht KYC:** Relai vereist nu een Know Your Customer (KYC) verificatie. Zorg voor een geldig identiteitsbewijs en een bewijs van Address.
-- Verificatieproces:** Upload je documenten, neem een selfie voor identiteitsbevestiging en wacht op goedkeuring (meestal binnen 24 uur).
-- Waarom KYC?:** Het zorgt voor naleving van financiële regelgeving en verhoogt de veiligheid voor alle gebruikers.
+- **Verplicht KYC:** Relai vereist nu een Know Your Customer (KYC) verificatie. Zorg voor een geldig identiteitsbewijs en een bewijs van Address.
+- **Verificatieproces:** Upload je documenten, neem een selfie voor identiteitsbevestiging en wacht op goedkeuring (meestal binnen 24 uur).
+- **Waarom KYC?** Het zorgt voor naleving van financiële regelgeving en verhoogt de veiligheid voor alle gebruikers.
 
 
 ### Stap 3: Beveilig uw Wallet
 
 
 
-- Self-Custody:** Relai biedt een niet-custodial Wallet, wat betekent dat jij de controle hebt over je privésleutels.
-- Maak een back-up van je sleutels:** Schrijf je 12-woord herstelzin op papier (niet digitaal) en bewaar deze goed. Dit is cruciaal voor toegang tot je geld als je telefoon zoekraakt of wordt gestolen.
+- **Self-Custody:** Relai biedt een niet-custodial Wallet, wat betekent dat jij de controle hebt over je privésleutels.
+- Maak een back-up van je sleutels: Schrijf je 12-woord herstelzin op papier (niet digitaal) en bewaar deze goed. Dit is cruciaal voor toegang tot je geld als je telefoon zoekraakt of wordt gestolen.
 
 
 ---
@@ -175,11 +175,11 @@ Relai zal de toepasselijke netwerkkosten weergeven.
 
 
 
-- Houd uw herstelfrase veilig:** Sla het offline op en voorkom dat u het met iemand deelt.
-- App Beveiliging Inschakelen:** Gebruik een sterke PIN of biometrische verificatie.
-- Opslag diversifiëren:** Overweeg het gebruik van een Hardware Wallet voor grote hoeveelheden Bitcoin.
-- Update de app regelmatig:** Blijf beschermd met de nieuwste beveiligingspatches en -functies.
-- Vermijd openbare Wi-Fi:** Open uw Wallet alleen op beveiligde netwerken.
+- **Houd uw herstelfrase veilig:** Sla het offline op en voorkom dat u het met iemand deelt.
+- **App Beveiliging Inschakelen:** Gebruik een sterke PIN of biometrische verificatie.
+- **Opslag diversifiëren:** Overweeg het gebruik van een Hardware Wallet voor grote hoeveelheden Bitcoin.
+- **Update de app regelmatig:** Blijf beschermd met de nieuwste beveiligingspatches en -functies.
+- **Vermijd openbare Wi-Fi:** Open uw Wallet alleen op beveiligde netwerken.
 
 
 ---
@@ -191,10 +191,10 @@ Relai ondersteunt ook bedrijven die willen investeren in Bitcoin. De functies om
 
 
 
-- Aangepaste spaarplannen:** Op maat gemaakte plannen voor zakelijke behoeften.
-- Toegang voor meerdere gebruikers:** Stel meerdere teamleden in staat om de account veilig te beheren.
-- Verhoogde limieten:** Beleg grotere bedragen in vergelijking met persoonlijke rekeningen.
-- Toegewijde ondersteuning:** Toegang tot klantenservice met prioriteit voor bedrijven.
+- **Aangepaste spaarplannen:** Op maat gemaakte plannen voor zakelijke behoeften.
+- **Toegang voor meerdere gebruikers:** Stel meerdere teamleden in staat om de account veilig te beheren.
+- **Verhoogde limieten:** Beleg grotere bedragen in vergelijking met persoonlijke rekeningen.
+- **Toegewijde ondersteuning:** Toegang tot klantenservice met prioriteit voor bedrijven.
 
 
 Om een zakelijke account aan te maken, kun je contact opnemen met het ondersteuningsteam van Relai via hun website.
@@ -209,9 +209,9 @@ Relai biedt een spannend doorverwijzingsprogramma waarbij je Bitcoin kunt verdie
 
 
 
-- Deel je verwijzingscode:** Elke Relai-gebruiker krijgt een unieke verwijzingscode. Deel deze met je vrienden.
-- Verdien 10% van de kosten:** Je verdient 10% van de kosten van de transacties van je vrienden als ze je code gebruiken.
-- Passief Bitcoin inkomen:** Als jouw vrienden blijven handelen op Relai, blijf jij Bitcoin verdienen. Het is een win-win situatie voor jou en je vrienden.
+- **Deel je verwijzingscode:** Elke Relai-gebruiker krijgt een unieke verwijzingscode. Deel deze met je vrienden.
+- **Verdien 10% van de kosten:** Je verdient 10% van de kosten van de transacties van je vrienden als ze je code gebruiken.
+- **Passief Bitcoin inkomen:** Als jouw vrienden blijven handelen op Relai, blijf jij Bitcoin verdienen. Het is een win-win situatie voor jou en je vrienden.
 
 
 Begin vandaag nog met het delen van uw code en laat uw Bitcoin stack moeiteloos groeien!
@@ -227,7 +227,7 @@ Begin vandaag nog met het delen van uw code en laat uw Bitcoin stack moeiteloos 
 
 
 - Relai rekent een concurrerende vergoeding van 1% per transactie, of 0,9% als je een verwijzingscode zoals `REL361712` gebruikt. Kosten worden transparant weergegeven voordat je een aankoop bevestigt.
-- Nul kosten:** Transacties tot €100 of CHF 100 zijn volledig kostenvrij.
+- **Nul kosten:** Transacties tot €100 of CHF 100 zijn volledig kostenvrij.
 
 
 ### Kan ik mijn spaarplan pauzeren?

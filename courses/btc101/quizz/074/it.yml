@@ -1,10 +1,10 @@
-question: Dove sono conservati i bitcoin?
-answer: Nella blockchain di Bitcoin.
+question: Qual è la domanda centrale da porsi quando si sceglie un portafoglio Bitcoin, in termini di auto custodia?
+answer: Siamo i proprietari dei fondi o lasciamo il controllo del denaro a un terzo?
 wrong_answers:
-  - Nel wallet.
-  - Sul dispositivo dove è installato il wallet.
-  - Nella cassaforte della Federal Reserve.
+  - Il wallet è protetto con una passphrase?
+  - Il wallet permette di ricevere e inviare bitcoin?
+  - È possibile condividere il wallet con un'altra persona?
 explanation: |
-  Sebbene le chiavi private siano memorizzate nel wallet, i
-  bitcoin in realtà sono conservati nella blockchain, che è il registro pubblico decentralizzato all'interno della rete peer-to-peer di Bitcoin.
-reviewed: vero
+  Quando si sceglie un portafoglio Bitcoin, la domanda centrale è:
+  siamo i proprietari dei fondi o lasciamo il controllo del denaro a un terzo? Questo perché chi possiede la chiave privata è il proprietario dei Bitcoin.
+reviewed: true

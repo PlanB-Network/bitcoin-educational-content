@@ -1,5 +1,5 @@
 ---
-name: セッション
+name: Session
 description: メタデータではなく、暗号化されたメッセージを送信する
 ---
 ![cover](assets/cover.webp)
@@ -26,25 +26,26 @@ Sessionは、機密保持を最優先するユーザーを対象としている�
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| アプリケーション | 1対1のE2EE | グループE2EE | 匿名登録 | クライアントのオープンソースライセンス | サーバーのオープンソースライセンス | 分散型サーバー | 設立年 |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (任意) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (任意) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (フェデレーション) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (メール経由) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (フェデレーション) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (名簿なし) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = エンド・ツー・エンドの暗号化*。
 
@@ -99,13 +100,13 @@ Androidでは、[APK経由でインストール](https://github.com/session-foun
 
 
 
-- Fast mode ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: GoogleまたはAppleが提供する通知サービスにより、ほぼリアルタイムでメッセージ通知を受け取ることができます（システムによって異なります）。これが機能するためには、あなたのIP Addressとユニークな通知IDがGoogleまたはAppleに送信され、セッションアカウントIDも（Tor経由で）STFサーバーに登録されます。このモードはメタデータの(確かに最小限の)露出を伴いますが、メッセージの内容や連絡先を損なうことはなく、実際の活動を追跡されることもありません。したがって、このモードは応答性という点ではより効率的ですが、集中型のインフラに依存しており、機密性という点ではやや劣ります。
+- Fast mode ("*Firebase Cloud Messaging/Apple Push Notification Service*"): GoogleまたはAppleが提供する通知サービスにより、ほぼリアルタイムでメッセージ通知を受け取ることができます（システムによって異なります）。これが機能するためには、あなたのIP Addressとユニークな通知IDがGoogleまたはAppleに送信され、セッションアカウントIDも（Tor経由で）STFサーバーに登録されます。このモードはメタデータの(確かに最小限の)露出を伴いますが、メッセージの内容や連絡先を損なうことはなく、実際の活動を追跡されることもありません。したがって、このモードは応答性という点ではより効率的ですが、集中型のインフラに依存しており、機密性という点ではやや劣ります。
 
 
 
 
 
-- Slow mode (*background polling*)**: Sessionアプリケーションはバックグラウンドでアクティブなまま、定期的に新しいメッ セージをネットワークにポーリングします。このアプローチは、データがサードパーティのサーバに送信されないため、最初の方法よりも高い機密性を保証します。一方、このモードには2つの欠点があります：通知が遅れることがある（最大数分）、バックグラウンドでのアプリケーション活動のため、一般的にエネルギー消費が高くなる。
+- Slow mode (**background polling**): Sessionアプリケーションはバックグラウンドでアクティブなまま、定期的に新しいメッ セージをネットワークにポーリングします。このアプローチは、データがサードパーティのサーバに送信されないため、最初の方法よりも高い機密性を保証します。一方、このモードには2つの欠点があります：通知が遅れることがある（最大数分）、バックグラウンドでのアプリケーション活動のため、一般的にエネルギー消費が高くなる。
 
 
 
@@ -145,9 +146,9 @@ Androidでは、[APK経由でインストール](https://github.com/session-foun
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-**ご注意ください：Bitcoinのポートフォリオで使用されるMnemonicのフレーズとは異なり、セッションでは、**各単語を完全に保存する必要があります**。最初の4文字だけでは不十分です！
+**ご注意ください：Bitcoinのポートフォリオで使用されるMnemonicのフレーズとは異なり、セッションでは、各単語を完全に保存する必要があります**。最初の4文字だけでは不十分です！
 
 
 
@@ -299,4 +300,4 @@ Notification*"メニューでは、"*Fast Mode*"と "*Slow Mode*"が選択でき
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

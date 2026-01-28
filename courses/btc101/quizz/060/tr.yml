@@ -1,11 +1,12 @@
-question: Bitcoin ağındaki işlemleri doğrulayan sürece ne denir?
-answer: Mining
+question: Zorluk ayarının sıklığı nedir?
+answer: Her 2016 blokta.
 wrong_answers:
-  - Kazma
-  - Hasat
-  - Çiftçilik
+  - Her 1048 blokta bir.
+  - Her 512 blokta bir.
+  - Her 4032 blokta bir.
 explanation: |
-  Bitcoin üzerindeki işlemleri doğrulayan süreç
-  ağına Mining adı verilir. Madenciler kriptografik bir
-  ve yeni bitcoinlerin verilmesiyle ödüllendirilirler.
+  Zorluk ayarı, aşağıdaki durumlarda gerçekleşen bir mekanizmadır
+  her 2016 blokta bir veya yaklaşık iki haftada bir
+  her on dakikada bir Blockchain'a yeni blok eklenir
+  küresel Hashrate'den bağımsız olarak ortalama.
 reviewed: true

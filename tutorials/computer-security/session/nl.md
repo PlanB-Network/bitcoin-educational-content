@@ -1,5 +1,5 @@
 ---
-name: Sessie
+name: Session
 description: Versleutelde berichten verzenden, geen metagegevens
 ---
 ![cover](assets/cover.webp)
@@ -26,25 +26,26 @@ Session richt zich vooral op gebruikers die vertrouwelijkheid hoog in het vaande
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Applicatie | E2EE 1:1 | E2EE groepen | Anonieme registratie | Open-source clientlicentie | Open-source serverlicentie | Gecentraliseerde server | Jaar van oprichting |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (optioneel) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (optioneel) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federatief) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (via e-mail) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federatief) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (geen directory) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = End-to-endencryptie*
 
@@ -65,7 +66,7 @@ Session is beschikbaar op alle platforms. Je kunt de applicatie rechtstreeks dow
 
 
 
-Op Android is het ook mogelijk om [te installeren via APK] (https://github.com/session-foundation/session-android/releases).
+Op Android is het ook mogelijk om [te installeren via APK](https://github.com/session-foundation/session-android/releases).
 
 
 
@@ -99,13 +100,13 @@ Je moet dan kiezen tussen twee beheermodi voor meldingen:
 
 
 
-- Snelle modus ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: stelt je in staat om bijna in realtime berichtmeldingen te ontvangen, dankzij de notificatiediensten van Google of Apple (afhankelijk van je systeem). Om dit te laten werken, worden je IP Address en een unieke notificatie-ID doorgestuurd naar Google of Apple, en de Session account-ID wordt ook geregistreerd bij een STF-server (via Tor). Deze modus brengt (weliswaar minimale) blootstelling van metadata met zich mee, maar compromitteert de inhoud van berichten of contacten niet en staat niet toe dat je werkelijke activiteit wordt getraceerd. Deze modus is daarom efficiënter in termen van reactiesnelheid, maar is afhankelijk van een gecentraliseerde infrastructuur en is iets minder effectief in termen van vertrouwelijkheid.
+- Snelle modus (**Firebase Cloud Messaging/Apple Push Notification Service**): stelt je in staat om bijna in realtime berichtmeldingen te ontvangen, dankzij de notificatiediensten van Google of Apple (afhankelijk van je systeem). Om dit te laten werken, worden je IP Address en een unieke notificatie-ID doorgestuurd naar Google of Apple, en de Session account-ID wordt ook geregistreerd bij een STF-server (via Tor). Deze modus brengt (weliswaar minimale) blootstelling van metadata met zich mee, maar compromitteert de inhoud van berichten of contacten niet en staat niet toe dat je werkelijke activiteit wordt getraceerd. Deze modus is daarom efficiënter in termen van reactiesnelheid, maar is afhankelijk van een gecentraliseerde infrastructuur en is iets minder effectief in termen van vertrouwelijkheid.
 
 
 
 
 
-- Langzame modus (*background polling*)**: de Session-toepassing blijft actief op de achtergrond en peilt periodiek het netwerk naar nieuwe berichten. Deze aanpak garandeert een grotere vertrouwelijkheid dan de eerste, omdat er geen gegevens worden verzonden naar servers van derden; noch Google, Apple of STF-servers ontvangen enige informatie. Aan de andere kant heeft deze modus twee nadelen: meldingen kunnen vertraagd zijn (tot enkele minuten) en het energieverbruik is over het algemeen hoger door de activiteit van de applicatie op de achtergrond.
+- Langzame modus (**background polling**): de Session-toepassing blijft actief op de achtergrond en peilt periodiek het netwerk naar nieuwe berichten. Deze aanpak garandeert een grotere vertrouwelijkheid dan de eerste, omdat er geen gegevens worden verzonden naar servers van derden; noch Google, Apple of STF-servers ontvangen enige informatie. Aan de andere kant heeft deze modus twee nadelen: meldingen kunnen vertraagd zijn (tot enkele minuten) en het energieverbruik is over het algemeen hoger door de activiteit van de applicatie op de achtergrond.
 
 
 
@@ -145,7 +146,7 @@ Deze zin werkt op dezelfde manier als de Mnemonic zinnen die gebruikt worden in 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Let op**: In tegenstelling tot de Mnemonic zinnen die gebruikt worden op Bitcoin portemonnees, moet je bij Session **elk woord absoluut in zijn geheel opslaan**. De eerste 4 letters zijn niet genoeg!
 
@@ -299,4 +300,4 @@ Ik raad ook deze andere tutorial aan, waarin ik Threema presenteer, een ander in
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

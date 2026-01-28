@@ -1,0 +1,9 @@
+question: Kwa nini Miner inahitaji node ya Bitcoin?
+answer: Ili kuingiliana na mtandao na kusambaza blocks zako
+wrong_answers:
+  - Kwa saini za kidijitali za generate
+  - Ili kuingiza utoaji wako wa Address katika Coinbase Transaction
+  - Ili kupunguza ugumu wa Mining
+explanation: |
+  Miners hutumia node kuwasiliana na mtandao, kupitisha blocks zao, na kupokea muamala.
+reviewed: true

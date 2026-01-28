@@ -1,14 +1,11 @@
-question: Mikä on Bysantin kenraalien ongelma?
-answer: Se on ongelma tiedon koordinoinnissa järjestelmässä, jossa eri toimijoita ei voida luottaa.
+question: Mikä on Bitcoinin pääetu yksilöille, jotka elävät taloudellisen sortovallan tai diktatuuristen hallintojen alaisuudessa?
+answer: Mahdollisuus välttää sensuuria ja pankkirajoituksia.
 wrong_answers:
-  - Se on ongelma transaktioiden vahvistamisessa hajautetussa verkossa.
-  - Se on ongelma estää kaksoiskulutus digitaalisessa valuutassa.
-  - Se on ongelma yhteisymmärryksen ylläpitämisessä keskitetyssä verkossa.
-explanation: |
-  Bysantin kenraalien ongelma on klassinen ongelma
-  hajautetussa laskennassa, joka käsittää yhteisymmärryksen
-  saavuttamisen verkossa, jossa jotkut solmuista voivat olla viallisia tai
-  ilkeämielisiä. Bitcoin ratkaisee tämän ongelman käyttämällä
-  lohkoketjua, joka perustuu Proof of Work -menetelmään, mikä varmistaa, että kaikki
-  solmut ovat yhtä mieltä transaktiohistorian tilasta.
+  - Käyttämällä vakaata valuuttaa, jolla on kiinteä arvo.
+  - Mahdollistamalla nimettömät transaktiot.
+  - Saamalla suuria tuottoja sijoitukselle.
+explanation: >-
+  Bitcoin tarjoaa taloudellisen vapauden muodon välttämällä sensuuria ja
+  pankkirajoituksia. Tämä on erityisen hyödyllistä yksilöille, jotka elävät
+  taloudellisen sortovallan tai diktatuuristen hallintojen alaisuudessa.
 reviewed: true

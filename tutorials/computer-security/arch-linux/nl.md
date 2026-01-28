@@ -17,10 +17,10 @@ Arch Linux is een distributie die bekend staat om zijn robuustheid, prestaties e
 
 
 
-- Gratis en open source**: Net als de meeste Linux-distributies is Arch Linux helemaal gratis. Er zijn geen licentiekosten, waardoor het een uitstekende keuze is voor studenten, freelancers of enthousiastelingen.
-- KISS** filosofie: Arch is ontworpen om eenvoudig, licht en efficiënt te zijn. Het biedt alleen het essentiële, zodat je je omgeving à la carte kunt opbouwen.
-- Pacman** pakketbeheerder: Pacman is een snelle, betrouwbare en goed ontworpen pakketbeheerder. Het maakt efficiënte installatie en updaten van software mogelijk en beheert afhankelijkheden met precisie.
-- Uitgebreide documentatie en een actieve gemeenschap**: de [Arch Wiki](https://wiki.archlinux.org) is waarschijnlijk een van de beste technische documentaties in de Linux-wereld. Het is een goudmijn om te begrijpen wat je aan het doen bent. De gemeenschap, die voornamelijk bestaat uit ervaren profielen, is erg actief en kan je helpen als je vastloopt, op voorwaarde dat je van tevoren wat onderzoek hebt gedaan.
+- **Gratis en open source**: Net als de meeste Linux-distributies is Arch Linux helemaal gratis. Er zijn geen licentiekosten, waardoor het een uitstekende keuze is voor studenten, freelancers of enthousiastelingen.
+- **KISS** filosofie: Arch is ontworpen om eenvoudig, licht en efficiënt te zijn. Het biedt alleen het essentiële, zodat je je omgeving à la carte kunt opbouwen.
+- **Pacman pakketbeheerder**: Pacman is een snelle, betrouwbare en goed ontworpen pakketbeheerder. Het maakt efficiënte installatie en updaten van software mogelijk en beheert afhankelijkheden met precisie.
+- **Uitgebreide documentatie en een actieve gemeenschap**: de [Arch Wiki](https://wiki.archlinux.org) is waarschijnlijk een van de beste technische documentaties in de Linux-wereld. Het is een goudmijn om te begrijpen wat je aan het doen bent. De gemeenschap, die voornamelijk bestaat uit ervaren profielen, is erg actief en kan je helpen als je vastloopt, op voorwaarde dat je van tevoren wat onderzoek hebt gedaan.
 
 
 
@@ -39,7 +39,7 @@ Benodigde materialen:
 
 
 - Een USB-sleutel van minstens **8 GB**
-- minimaal 2 GB** RAM
+- minimaal 2 GB **RAM**
 - Een computer met minstens 20 GB vrije schijfruimte
 
 
@@ -72,7 +72,7 @@ Om een bootable USB flash drive te maken, kun je een tool zoals **Balena Etcher*
 
 
 
-- Download Balena Etcher van de [officiële website] (https://etcher.balena.io).
+- Download Balena Etcher van de [officiële website](https://etcher.balena.io).
 - Start de software en selecteer de Arch Linux ISO image.
 - Kies je USB-sleutel als doelapparaat.
 - Klik op **Flash** om te beginnen met het maken van de opstartbare sleutel.
@@ -261,24 +261,26 @@ Kies **GPT** als je in UEFI zit, **DOS** als je in BIOS zit.
 
 
 
-- In UEFI**-modus
+- In **UEFI**-modus
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Koppelingspunt op het geïnstalleerde systeem | Partitie                 | Partitietype       | Aanbevolen grootte |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI-systeempartitie   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Wisselgeheugen (swap) | Minstens 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 root (/) | Rest van schijf |
 
 - In BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Koppelingspunt op het geïnstalleerde systeem | Partitie           | Partitietype       | Aanbevolen grootte |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Wisselgeheugen (swap) | Minstens 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Rest van schijf |
 
 ![0_10](assets/fr/10.webp)
 
@@ -294,7 +296,7 @@ Selecteer **Schrijven**, typ **ja** en vervolgens **Afsluiten**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +311,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 
@@ -778,6 +780,6 @@ Als je het leuk vond om met Arch Linux aan de slag te gaan, vind je onze tutoria
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

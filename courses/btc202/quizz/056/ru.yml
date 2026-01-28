@@ -1,0 +1,9 @@
+question: Как проще всего подключить мобильный Wallet к Electrs через Umbrel?
+answer: Сканируйте QR-код Tor
+wrong_answers:
+  - Загрузите файл cookie
+  - Импорт закрытого ключа
+  - Скопируйте файл Wallet.dat
+explanation: |
+  Umbrel позволяет напрямую сканировать QR-код Tor, предоставленный Electrs для настройки мобильного соединения.
+reviewed: true

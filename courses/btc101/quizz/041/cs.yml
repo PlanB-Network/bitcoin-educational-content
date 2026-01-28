@@ -1,9 +1,10 @@
-question: Jaký je důsledek tisku peněz?
-answer: Vede to k inflaci, která postupně zchuduje populaci.
+question: Jaký je důsledek hyperinflace?
+answer: Drastický pokles hodnoty měny.
 wrong_answers:
-  - Vede to k deflaci, která postupně obohacuje populaci.
-  - Vede to ke stabilní ekonomice bez inflace nebo deflace.
-  - Vede to ke snížení peněžní zásoby.
+  - Malý pokles hodnoty měny.
+  - Drastický nárůst hodnoty měny.
+  - Malý nárůst hodnoty měny.
 explanation: |
-  Tisk peněz, neboli tvorba nových peněz centrálními bankami, vede k inflaci. Důvodem je, že zvýšení peněžní zásoby snižuje kupní sílu peněz, což vede k vyšším cenám a snížení hodnoty úspor.
+  Kvůli hyperinflaci lidé rychle ztrácejí důvěru v měnu, což vede k
+  drastickému poklesu její hodnoty v krátkém časovém období.
 reviewed: true

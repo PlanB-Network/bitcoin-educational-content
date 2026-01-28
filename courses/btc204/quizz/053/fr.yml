@@ -1,4 +1,4 @@
-question: À quoi servent les Labels dans les Silent Payments ?
+question: À quoi servent les labels dans les Silent Payments ?
 
 answer: À utiliser plusieurs adresses statiques différentes sans pour autant augmenter irraisonnablement le travail de scanning.
 
@@ -8,6 +8,7 @@ wrong_answers:
   - À apposer une étiquette visible sur la blockchain pour identifier les Silent Payments à la manière d'une référence de paiement.
 
 explanation: |
-  Les labels servent à générer plusieurs adresses statiques à partir de l'adresse statique principale, ce qui facilite l'organisation du portefeuille. Cependant, un observateur extérieur pourrait facilement établir un lien entre ces adresses statiques labellisées, puisque la clé publique de scan est la même pour toutes.
+  Les labels servent à générer plusieurs adresses statiques à partir de l'adresse statique principale, ce qui facilite l'organisation du portefeuille. Cependant, un observateur extérieur pourrait facilement établir un lien entre ces adresses statiques labellisées, 
+  puisque la clé publique de scan est la même pour toutes.
 
-reviewed: false
+reviewed: true 

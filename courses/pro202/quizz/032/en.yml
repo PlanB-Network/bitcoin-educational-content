@@ -1,0 +1,8 @@
+question: What is the primary reason why bare multisig transactions were largely superseded by P2SH for complex spending conditions?
+answer: Bare multisig exposes all public keys on-chain, making transactions large, expensive, and difficult to encode as addresses
+wrong_answers:
+  - Bare multisig requires more signatures than P2SH to achieve the same security level for multi-party transactions
+  - Bare multisig cannot handle time-locked transactions or conditional spending requirements like P2SH can
+  - Bare multisig signatures are incompatible with modern wallet software and cannot be broadcast to current nodes
+explanation: |
+  P2SH was introduced specifically to address bare multisig's inefficiencies. Bare multisig requires all public keys to be visible in the scriptPubKey, creating large transaction sizes that cost more in fees and are difficult to represent as user-friendly addresses. P2SH solves this by hiding the complex script behind a 20-byte hash, only revealing the actual spending conditions when the output is spent. This reduces on-chain footprint, improves privacy, and enables standard address formats while maintaining the same security guarantees.

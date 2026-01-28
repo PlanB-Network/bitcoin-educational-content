@@ -1,0 +1,8 @@
+question: Ikiwa utaratibu wa kurekebisha ugumu wa Bitcoin utakutana na hali ambapo vitalu vya awali vya 2016 vilichukua wiki 6 haswa kuchimba badala ya wiki 2 zilizotarajiwa, ni kipengele gani cha marekebisho kitatumika?
+answer: Ugumu ungepunguzwa kwa kipengele cha 4 (upungufu wa juu unaoruhusiwa)
+wrong_answers:
+  - Ugumu ungepunguzwa kwa mara 3 (wiki 6 ÷ wiki 2)
+  - Ugumu ungepunguzwa kwa kiwango cha 2.5 ili kuzuia marekebisho kupita kiasi
+  - Ugumu ungepunguzwa kwa kipengele cha 6 kulingana na uwiano wa wakati
+explanation: |
+  Marekebisho ya ugumu wa Bitcoin yana mipaka iliyojengewa ndani ambayo huzuia mabadiliko kuwa ndani ya kipengele cha nne katika pande zote mbili. Ingawa wiki 6 ÷ wiki 2 = 3, ikipendekeza kupunguzwa mara 3, itifaki inaweka marekebisho katika kiwango cha 4x ili kuzuia tete kubwa. Utaratibu huu wa usalama huhakikisha uthabiti wa mtandao wakati wa mabadiliko makubwa ya kiwango cha hashi, kama vile marufuku ya mining au hitilafu za vifaa, kwa kuzuia marekebisho kupita kiasi ambayo yanaweza kudhoofisha muda wa kuzuia.

@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Kurtarma
+name: Samourai Wallet - Recover
 description: Samourai Wallet'de sıkışan bitcoinler nasıl kurtarılır?
 ---
 
@@ -29,7 +29,7 @@ Samourai Wallet sayfasının artık Google Play Store'da mevcut olmadığı göz
 
 Samourai Wallet akıllı telefonunuzda zaten yüklüyse, uygulamaya yine de erişebilmeniz gerekir. Samourai'nin Wallet işlevselliğini kullanmak için bir Dojo'ya bağlanmak şarttır. Önceden, kişisel Dojo'su olmayan kullanıcılar Bitcoin Blockchain bilgilerine erişmek ve işlemleri yayınlamak için Samourai'nin sunucularına bağlıydı. Bu sunucuların ele geçirilmesiyle, uygulama artık bu verilere erişemiyor.
 
-Daha önce bağlı bir Dojo'nuz yoksa ancak şimdi bir Dojo'nuz varsa, Samourai uygulamanızı tekrar kullanacak şekilde ayarlayabilirsiniz. Bunun için yedeklerinizi kontrol etmeniz, Wallet'ü (uygulamayı değil, Wallet'ü) silmeniz ve Dojo'nuzu uygulamaya bağlayarak Wallet'ü kurtarmanız gerekir. Bu adımlarla ilgili daha fazla ayrıntı için [bu eğitimin "_Samourai Cüzdanınızı Hazırlama_" bölümüne bakabilirsiniz: CoinJoin - DOJO](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
+Daha önce bağlı bir Dojo'nuz yoksa ancak şimdi bir Dojo'nuz varsa, Samourai uygulamanızı tekrar kullanacak şekilde ayarlayabilirsiniz. Bunun için yedeklerinizi kontrol etmeniz, Wallet'ü (uygulamayı değil, Wallet'ü) silmeniz ve Dojo'nuzu uygulamaya bağlayarak Wallet'ü kurtarmanız gerekir. Bu adımlarla ilgili daha fazla ayrıntı için bu eğitimin "_Samourai Cüzdanınızı Hazırlama_" bölümüne bakabilirsiniz: CoinJoin - DOJO.
 
 Samourai uygulamanız zaten kendi Dojo'nuza bağlıysa, Wallet kısmı sizin için mükemmel şekilde çalışır. Bakiyenizi ve yayın işlemlerinizi hala görebilirsiniz. Olan biten her şeye rağmen, Samourai Wallet'ün şu anda en iyi mobil Wallet yazılımı olmaya devam ettiğini düşünüyorum. Şahsen ben kullanmaya devam etmeyi planlıyorum.
 
@@ -48,12 +48,12 @@ Bireysel harcama araçlarıyla ilgili olarak, elbette kendi Dojo'nuzun olması k
 
 Twitter'da yapılan yorumlar, bir Stonewall işleminin sunduğu gizliliğin artık azalabileceğinin altını çizdi. Bir Stonewall işleminin katma değeri, yapı bakımından bir Stonewall x2 işleminden ayırt edilemez olmasında yatmaktadır. Bir analist bu özel modelle karşılaştığında, bunun tek kullanıcılı standart bir Stonewall mu yoksa iki kullanıcılı bir Stonewall x2 mi olduğunu belirleyemez. Ancak, ilerleyen paragraflarda göreceğimiz üzere, Soroban'ın kullanılamaması nedeniyle Stonewall x2 işlemlerinin gerçekleştirilmesi daha karmaşık hale gelmiştir. Bu nedenle bazıları, bir analistin artık bu yapıdaki herhangi bir işlemin normal bir Stonewall olduğunu varsayabileceğini düşünmektedir. Şahsen ben bu varsayımı paylaşmıyorum. Stonewall x2 işlemlerine daha az rastlanıyor olsa da (ki bence bu olaydan önce de bu tür işlemlere rastlanıyordu), bu işlemlerin hala mümkün olduğu gerçeği, bu işlemlerin mümkün olmadığı varsayımına dayanan tüm bir analizi geçersiz kılabilir.
 
-**[-> Stonewall işlemleri hakkında daha fazla bilgi edinin.](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Stonewall işlemleri hakkında daha fazla bilgi edinin.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 
 Ricochet ile ilgili olarak, Testnet üzerinde bir Dojo'ya sahip olmadığım için hizmetin hala çalışır durumda olup olmadığını doğrulayamadım ve yetkililer tarafından kontrol edilebilecek bir Wallet için `100 000 Sats` harcama riskini almayı tercih etmiyorum. Bu aracı yakın zamanda test etme fırsatınız olduysa, bu makaleyi güncelleyebilmemiz için sizi benimle iletişime geçmeye davet ediyorum.
 
 
-Ricochet kullanmanız gerekiyorsa, bu işlemi herhangi bir Wallet yazılımı ile her zaman manuel olarak gerçekleştirebileceğinizi unutmayın. Çeşitli atlamaların manuel olarak nasıl düzgün bir şekilde gerçekleştirileceğini öğrenmek için bu diğer makaleye başvurmanızı tavsiye ederim: [**RICOCHET**](https://planb.network/tutorials/privacy/On-Chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
+Ricochet kullanmanız gerekiyorsa, bu işlemi herhangi bir Wallet yazılımı ile her zaman manuel olarak gerçekleştirebileceğinizi unutmayın. Çeşitli atlamaların manuel olarak nasıl düzgün bir şekilde gerçekleştirileceğini öğrenmek için bu diğer makaleye başvurmanızı tavsiye ederim: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
 
 
 JoinBot aracı, tamamen Samourai tarafından yönetilen bir Wallet'in katılımına bağlı olduğu için artık çalışmamaktadır.
@@ -75,10 +75,10 @@ Birkaç testten sonra Soroban'ın artık çalışmadığı anlaşıldı. Bu orta
 - İşbirliği yaptığınız kişiden uzaktaysanız, PSBT'leri uygulamaya harici bir iletişim kanalı aracılığıyla Exchange yapabilirsiniz. Ancak, bu PSBT'lerde yer alan veriler gizlilik açısından hassas olduğundan dikkatli olun. Exchange'un gizliliğini sağlamak için şifreli bir mesajlaşma hizmeti kullanmanızı öneririm.
 
 
-**[-> Stonewall x2 işlemleri hakkında daha fazla bilgi edinin.](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Stonewall x2 işlemleri hakkında daha fazla bilgi edinin.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 
-**[-> Stowaway işlemleri hakkında daha fazla bilgi edinin.](https://planb.network/tutorials/privacy/On-Chain/PayJoin-samourai-Wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Stowaway işlemleri hakkında daha fazla bilgi edinin.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 
 Whirlpool'e gelince, protokol artık kendi Dojo'ları olan kullanıcılar için bile çalışmıyor gibi görünüyor. Son birkaç gündür RoninDojo'mu izliyordum ve bazı temel manipülasyonları denedim, ancak Whirlpool CLI sunucu kapatıldığından beri bağlanamadı.
@@ -105,7 +105,7 @@ KYCP.org sitesine şu anda erişilememektedir.
 Boltzmann Calculator Python aracının kodunu barındıran GitLab da ele geçirilmiştir. Bu nedenle, şu anda bu aracı indirmek artık mümkün değildir. Ancak bir RoninDojo'nuz varsa, Boltzmann Calculator'ı daha önce olduğu gibi kullanmaya devam edebilirsiniz.
 
 
-RoninDojo'ya gelince, bu node-in-box yazılımı Whirlpool CLI ve WST gibi belirli araçların kullanılamamasına rağmen doğru şekilde çalışmaya devam etmektedir. Fulcrum veya Electrs sayesinde diğer Wallet yazılımları için hala kullanılabilir. RoninDojo hakkında daha fazla bilgi edinmek isterseniz veya özel sorularınız varsa, [Telegram gruplarına] (https://t.me/RoninDojoNode) katılmanızı tavsiye ederim.
+RoninDojo'ya gelince, bu node-in-box yazılımı Whirlpool CLI ve WST gibi belirli araçların kullanılamamasına rağmen doğru şekilde çalışmaya devam etmektedir. Fulcrum veya Electrs sayesinde diğer Wallet yazılımları için hala kullanılabilir. RoninDojo hakkında daha fazla bilgi edinmek isterseniz veya özel sorularınız varsa, [Telegram gruplarına](https://t.me/RoninDojoNode) katılmanızı tavsiye ederim.
 
 
 Ancak, RoninDojo'nun kaynak kodu Samourai'nin GitLab'ında barındırıldığı için artık erişilebilir değil. Bu nedenle şu anda bir Raspberry Pi'ye manuel olarak yüklemek mümkün değildir.
@@ -240,7 +240,7 @@ Samourai Wallet'ünüzü kurtarmak için Electrum gibi Sparrow'ten farklı bir y
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Artık bitcoinlerinize Sparrow üzerinden erişebilirsiniz. Sparrow wallet'i kullanmak için yardıma ihtiyacınız varsa, [özel eğitimimize] (https://planb.network/tutorials/Wallet/desktop/Sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) de göz atabilirsiniz.
+Artık bitcoinlerinize Sparrow üzerinden erişebilirsiniz. Sparrow wallet'i kullanmak için yardıma ihtiyacınız varsa, [özel eğitimimize](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) de göz atabilirsiniz.
 
 
 Ayrıca Samourai'deki UTXO'larınızla ilişkilendirdiğiniz etiketleri manuel olarak içe aktarmanızı tavsiye ederim. Bu, daha sonra Sparrow üzerinde etkili Coin kontrolü yapmanıza olanak sağlayacaktır.
@@ -329,7 +329,7 @@ Samourai Wallet'ünüzü kurtarmak için Electrum gibi başka bir yazılım kull
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Artık Sparrow'da bitcoinlerinize erişebilirsiniz. Sparrow wallet'i kullanmak için yardıma ihtiyacınız varsa, [özel eğitimimize] (https://planb.network/tutorials/Wallet/desktop/Sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) de başvurabilirsiniz.
+Artık Sparrow'da bitcoinlerinize erişebilirsiniz. Sparrow wallet'i kullanmak için yardıma ihtiyacınız varsa, [özel eğitimimize](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) de başvurabilirsiniz.
 
 
 Ayrıca Samourai'deki UTXO'larınızla ilişkilendirdiğiniz etiketleri manuel olarak içe aktarmanızı tavsiye ederim. Bu, daha sonra Sparrow üzerinde etkili Coin kontrolü yapmanıza olanak sağlayacaktır.
@@ -425,7 +425,7 @@ Sonlandırmak için `Uygula` üzerine tıklayın. Sparrow daha sonra daha fazla 
 ![samourai](assets/36.webp)
 
 
-Bu, son birkaç gün içinde karşılaştığım çeşitli kurtarma sorunlarını kapsıyor. Tüm bu çözümleri denedikten sonra hala sorun yaşıyorsanız, sizi yardım istemek için [Discover Bitcoin Discord] (https://discord.gg/xKKm29XGBb) adresine katılmaya davet ediyorum. Bu Discord'u düzenli olarak ziyaret ediyorum ve eğer bir çözümüm varsa yardımcı olmaktan memnuniyet duyarım. Diğer bitcoin kullanıcıları da deneyimlerini paylaşabilir ve yardımlarını sunabilirler. **Her durumda, kurtarma ifadenizi, yedekleme dosyanızı ve passphrase'ünüzü gizli tutmanız çok önemlidir**. Bunları kimseyle paylaşmayın, çünkü bu bitcoinlerinizi çalmalarına izin verebilir.
+Bu, son birkaç gün içinde karşılaştığım çeşitli kurtarma sorunlarını kapsıyor. Tüm bu çözümleri denedikten sonra hala sorun yaşıyorsanız, sizi yardım istemek için [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) adresine katılmaya davet ediyorum. Bu Discord'u düzenli olarak ziyaret ediyorum ve eğer bir çözümüm varsa yardımcı olmaktan memnuniyet duyarım. Diğer bitcoin kullanıcıları da deneyimlerini paylaşabilir ve yardımlarını sunabilirler. **Her durumda, kurtarma ifadenizi, yedekleme dosyanızı ve passphrase'ünüzü gizli tutmanız çok önemlidir**. Bunları kimseyle paylaşmayın, çünkü bu bitcoinlerinizi çalmalarına izin verebilir.
 
 
 Kurtarma işlemi tamamlandığında, artık bitcoinlerinize erişebilirsiniz. Bu iyi bir şey, ancak yeterli olmayabilir. Aslında, sunucuların ele geçirilmesi gizliliğiniz için yeni potansiyel riskler ortaya çıkarmaktadır. Aşağıdaki bölümde bu riskleri ayrıntılı olarak inceleyecek ve gizliliğinizi korumak için almanız gereken önlemleri özetleyeceğiz.
@@ -512,7 +512,7 @@ Son olarak, sunucuya el konulmadan önce Coin'nizin ilk anonsetini dikkate almak
 
 OXT.me'nin kapatılmasının ardından WST aracı artık hizmet dışı olduğundan, bu anonsetleri yalnızca tahmin edebilirsiniz. Geriye dönük anonset için endişelenecek çok fazla şey yok çünkü Whirlpool modeli, emsallerinizin mirası sayesinde ilk CoinJoin'dan çok yüksek olmasını sağlıyor. Bunun sorun yaratabileceği tek durum, Coin'ınızın birkaç yıldır remikslenmemiş olması ve bir havuzun lansmanının başında mikslenmiş olmasıdır. Muhtemel anonset ile ilgili olarak, Coin'ınızın coinjoins için mevcut olduğu süreyi inceleyebilirsiniz. Birkaç ay olmuşsa, muhtemelen son derece yüksek bir olası anonset değerine sahiptir. Tersine, sunucular ele geçirilmeden yalnızca birkaç saat önce bir havuza eklenmişse, o zaman olası anons süresi muhtemelen çok düşüktür.
 
-[**-> Anonsetler ve hesaplama yöntemleri hakkında daha fazla bilgi edinin.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+**-> Anonsetler ve hesaplama yöntemleri hakkında daha fazla bilgi edinin.**
 
 
 Dikkate alınması gereken bir diğer husus da konsolidasyonların karışık coin anonsları üzerindeki etkisidir. Whirlpool hesaplarına artık Samourai uygulaması üzerinden erişilemediği göz önüne alındığında, birçok kullanıcının Wallet'lerini başka bir yazılıma aktarmış ve fonlarını Whirlpool'den çekmeye çalışmış olması muhtemeldir. Özellikle, Bitcoin ağındaki işlem ücretlerinin nispeten yüksek olduğu geçen hafta sonu, karışım sonrası coinleri birleştirmek için güçlü bir teknik ve ekonomik teşvik vardı. Bu da birçok kullanıcının önemli ölçüde konsolidasyon yapmış olabileceği anlamına gelmektedir.
@@ -533,4 +533,4 @@ Dojo'nuzu Sentinel ile değil de Samourai ile kullanıyor olmanız durumunda, xp
 ## Sonuç
 
 
-Bu makaleyi sonuna kadar okuduğunuz için teşekkür ederim. Bilgilerin eksik olduğunu düşünüyorsanız veya önerileriniz varsa, lütfen düşüncelerinizi paylaşmak için benimle iletişime geçmekten çekinmeyin. Ayrıca, bu eğitime rağmen Samourai Wallet'unuzu kurtarmak için daha fazla yardıma ihtiyacınız varsa, sizi yardım istemek için [Bitcoin Discord'u Keşfet] (https://discord.gg/xKKm29XGBb) adresine katılmaya davet ediyorum. Bu Discord'u düzenli olarak ziyaret ediyorum ve eğer bir çözüm bulabilirsem size yardımcı olmaktan memnuniyet duyarım. Diğer bitcoin kullanıcıları da deneyimlerini paylaşabilir ve desteklerini sunabilirler. **Her durumda, kurtarma ifadenizi, yedekleme dosyanızı ve passphrase'nizi gizli tutmanız çok önemlidir**. Bunları kimseyle paylaşmayın, çünkü bu bitcoinlerinizi çalmalarını sağlayabilir.
+Bu makaleyi sonuna kadar okuduğunuz için teşekkür ederim. Bilgilerin eksik olduğunu düşünüyorsanız veya önerileriniz varsa, lütfen düşüncelerinizi paylaşmak için benimle iletişime geçmekten çekinmeyin. Ayrıca, bu eğitime rağmen Samourai Wallet'unuzu kurtarmak için daha fazla yardıma ihtiyacınız varsa, sizi yardım istemek için [Bitcoin Discord'u Keşfet](https://discord.gg/xKKm29XGBb) adresine katılmaya davet ediyorum. Bu Discord'u düzenli olarak ziyaret ediyorum ve eğer bir çözüm bulabilirsem size yardımcı olmaktan memnuniyet duyarım. Diğer bitcoin kullanıcıları da deneyimlerini paylaşabilir ve desteklerini sunabilirler. **Her durumda, kurtarma ifadenizi, yedekleme dosyanızı ve passphrase'nizi gizli tutmanız çok önemlidir**. Bunları kimseyle paylaşmayın, çünkü bu bitcoinlerinizi çalmalarını sağlayabilir.

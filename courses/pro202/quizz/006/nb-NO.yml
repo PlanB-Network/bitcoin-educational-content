@@ -1,0 +1,8 @@
+question: Hva er identitetselementet i den elliptiske kurvegruppen som brukes til punktadderingsoperasjoner?
+answer: Punktet i uendeligheten
+wrong_answers:
+  - Opprinnelsespunktet (0,0)
+  - Generatorpunktet G
+  - Kurveparameteren a
+explanation: |
+  Punktet i uendelig fungerer som identitetselementet i elliptiske kurvegrupper, noe som betyr at hvis man legger til et hvilket som helst punkt P til punktet i uendelig, blir P uendret. Dette er analogt med hvordan addisjon av null fungerer i vanlig aritmetikk. Opprinnelsen (0,0) ligger ikke nødvendigvis på kurven, generatorpunktet G brukes til å lage offentlige nøkler, og kurveparameteren a er bare en koeffisient i kurvelikningen, ikke et identitetselement.

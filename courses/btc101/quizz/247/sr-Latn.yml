@@ -1,8 +1,9 @@
-question: Koje je jedno od glavnih pitanja koja se postavljaju u vezi sa budućnošću finansija?
-answer: Ko bi trebalo da drži, odobrava i prati novac koji koristimo?
+question: Koji je praktičan način za nabavku Bitkoina?
+answer: Kupovina preko regulisanih ili neregulisanih platformi.
 wrong_answers:
-  - Kako možemo potpuno eliminisati novac?
-  - Kako možemo osigurati da svi imaju istu količinu novca?
-  - Kako možemo učiniti novac zastarelim?
-explanation: >-
+  - Rudariti ih koristeći laptop.
+  - Pronalaženje njih u fizičkom svetu.
+  - Kreiranje pomoću specijalnog softvera.
+explanation: |
+  Tekst pominje da korisnici mogu dobiti Bitkoin prihvatanjem za trgovinu ili kupovinom putem regulisanih ili neregulisanih platformi.
 reviewed: true

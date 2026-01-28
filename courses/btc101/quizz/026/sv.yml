@@ -1,13 +1,10 @@
-question: Varför kan inte guld prestera bra i en globaliserad och digital värld?
-answer: Eftersom det behövs en central enhet för att göra den delbar och lätt att byta ut.
+question: Varför betraktas Bitcoin som en ny form av pengar?
+answer: Eftersom det är digitala pengar utan någon central enhet.
 wrong_answers:
-  - För att den inte är tillräckligt värdefull.
-  - För att det inte är tillräckligt sällsynt.
-  - För att det eroderar med tiden.
+  - Eftersom det är en digital valuta som backas upp av guld.
+  - Eftersom det är en valuta som kräver banken Blockchain.
+  - För att Federal Reserve säger det.
 explanation: |
-  Guld kan inte hänga med i en globaliserad och digital värld
-  eftersom det behöver en central enhet för att göra det delbart och
-  lätt utbytbart. Detta gör det mindre praktiskt att använda i
-  en värld där transaktionerna blir alltmer digitala och
-  decentraliserade.
+  Bitcoin kan ses som en ny form av pengar, eftersom de uppstår i ett
+  från ett peer-to-peer-nätverk utan någon central enhet.
 reviewed: true

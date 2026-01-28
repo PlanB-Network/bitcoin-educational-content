@@ -1,0 +1,8 @@
+question: 다음 중 실크로드와 같은 다크 웹 마켓플레이스에서 Bitcoin의 사용 확대에 기여한 기능은 무엇인가요?
+answer: 통제할 수 없는 익명성이 특징입니다.
+wrong_answers:
+  - 중앙 집중식 제어.
+  - 추적 및 제어가 가능합니다.
+  - 익명성이 부족합니다.
+explanation: >-
+reviewed: true

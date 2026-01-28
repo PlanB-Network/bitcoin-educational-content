@@ -1,0 +1,8 @@
+question: Koja je primarna arhitektonska razlika između Blockstream AMP Verzije 1 i Verzije 2 u pogledu konstrukcije transakcija i zahteva za čvorove?
+answer: Verzija 2 prebacuje složenost na server koji upravlja konstrukcijom transakcija i predstavlja izdavačima PSET-ove, eliminišući potrebu za full node sinhronizacijom.
+wrong_answers:
+  - Verzija 2 zahteva od izdavaoca da pokreću više sinhronizovanih Elements čvorova radi redundancije, dok je Verzija 1 zahtevala samo jednu vezu čvora.
+  - Verzija 2 premešta sve kriptografske operacije na klijentske hardverske novčanike, dok je Verzija 1 obavljala sve operacije potpisivanja na serverskoj infrastrukturi.
+  - Verzija 2 u potpunosti eliminiše zahtev za sa-potpisivanjem i omogućava direktne peer-to-peer transfere dok je Verzija 1 zahtevala autorizaciju servera za svaku transakciju
+explanation: |
+  Evolucija sa AMP Verzije 1 na Verziju 2 predstavlja fundamentalni pomak sa modela 'pametni klijent, kompleksna infrastruktura' na pristup 'pametni server, pojednostavljeni klijent'. Verzija 1 je zahtevala od izdavača da održavaju potpuno sinhronizovane Elements čvorove i da se u velikoj meri oslanjaju na monolitni Green SDK, stvarajući visoke tehničke barijere. Verzija 2 premešta složenost na stranu servera, gde AMP server upravlja konstrukcijom transakcija, izborom UTXO i obračunom naknada, a zatim izdavačima predstavlja Delimično Potpisane Elements Transakcije (PSETs) koje zahtevaju samo potpise. Ovo eliminiše potrebu za punim čvorovima i omogućava standardne wallet integracije.

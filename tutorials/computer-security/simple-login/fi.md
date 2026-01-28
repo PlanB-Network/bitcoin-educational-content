@@ -1,5 +1,5 @@
 ---
-name: Yksinkertainen kirjautuminen
+name: Simple Login
 description: Identiteetti suojattu peitenimillä
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Kun henkilökohtaista Address-sähköpostia käytetään jokaiseen kirjautumisee
 Avoimen lähdekoodin työkalujen kehittäjät ovat luoneet joukon sovellussarjoja, jotka on luotu juuri siksi, että käyttäjät saisivat hieman yksityisyyttä takaisin: he kirjautuvat edelleen sisään, mutta käyttävät peitenimeä sen sijaan, että käyttäisivät työkalua, joka paljastaa heidän yksityisen identiteettinsä.
 
 
-Yksinkertaisin niistä, joita olen itse kokeillut ja testaan edelleen, on [Simple Login](https://simplelogin.io/).
+Yksinkertaisin niistä, joita olen henkilökohtaisesti kokeillut ja joita edelleen testaan, on juuri [Simple Login](https://simplelogin.io/).
 
 
 ## Alias
@@ -190,7 +190,7 @@ Tuloksena on kuitenkin se, että olemme säilyttäneet tärkeimmän Address:n, j
 Peitenimi toimii sekä vastaanotossa että lähetyksessä: toinen käyttäjä saa todellakin vastauksen osoitteesta alias.preoccupy789@8shield.net, jos tämä on kyseiselle vastaanottajalle valittu salanimi.
 
 
-## Plussaa
+## Edut
 
 
 Kaiken kaikkiaan peitenimien käyttö on tehokas tapa suojata henkilöllisyyttä ja yksityisyyttä. Tietojen välittäjät ja verkkosivustot keräävät usein sähköpostiosoitteita käyttäjien tottumusten ja käyttäytymisen seuraamiseksi. Vaikka peitenimi ei tee sinusta täysin jäljittämätöntä, sen johdonmukainen käyttö on myönteinen askel kohti tietojesi suojaamista. Lisäksi "globaalissa digitaalisessa kylässämme", jossa hakkerointi, tietojen myynti ja tietoturvaloukkaukset ovat aivan liian yleisiä, on erittäin todennäköistä, että sähköpostiosoite, jota käytät rekisteröityessäsi eri verkkosivustoille, on jo vaarantunut tai joutunut kohteeksi.
@@ -210,7 +210,7 @@ Simple Login -työkalulla on seuraavat ominaisuudet:
 - alan ilmaisten suunnitelmien joukossa, mahdollisuus käyttää peitenimiä "virallisempien" sähköpostilaatikoiden kanssa. Muut kilpailijat rajoittavat vain yhteen.
 
 
-## Miinukset
+## Haitat
 
 
 - 10 peitenimeä ei ehkä riitä, jos aiot käyttää Simple Loginia laajasti. Tässä tapauksessa maksullinen paketti, joka on melko edullinen, on hyödyllinen, jos haluat lisätä mahdollisten peitenimien määrää.

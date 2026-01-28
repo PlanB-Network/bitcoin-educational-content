@@ -1,0 +1,9 @@
+question: Alice이 출금 거래에 대해 Bob의 서명을 받지 못하면 어떻게 되나요?
+answer: 다중 서명 Address에 예치된 자금에 대한 액세스 권한을 잃을 위험이 있습니다
+wrong_answers:
+  - 그녀는 더 이상 Lightning Network에서 Bob와 통신할 수 없습니다
+  - 채널이 제한된 용량으로 열립니다
+  - Bob는 채널에서 자동으로 자금을 수신합니다
+explanation: |
+  출금 거래에 Bob의 서명이 없으면 Alice은 문제 발생 시 자금 회수를 보장할 수 없으므로 손실 위험이 있습니다.
+reviewed: true

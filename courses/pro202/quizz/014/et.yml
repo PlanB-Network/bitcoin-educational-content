@@ -1,0 +1,8 @@
+question: Milline on topelt- ja liitmisalgoritmi peamine eelis skalaarkordistamise puhul elliptilise kõveraga krüptograafias?
+answer: See vähendab arvutuste keerukust O(n) operatsioonilt O(log n) operatsioonini
+wrong_answers:
+  - See kõrvaldab vajaduse modulaarse aritmeetika järele piiratud väljadel
+  - See teisendab diskreetse logaritmi probleemi polünoomiajaliseks lahenduseks
+  - See võimaldab privaatvõtmete otsest arvutamist avalikest võtmetest
+explanation: |
+  Topelt-ja-lisandamise algoritm parandab märkimisväärselt tõhusust, vähendades arvutuskomplekssust O(n) lineaarselt liitmise operatsioonilt O(log n) operatsioonile. See toimib nii, et skaleeri binaarset esitust skaneeritakse, igal sammul kahekordistatakse punkt ja liidetakse generaatori punkt ainult siis, kui bitt on 1. Teised võimalused on valed: modulaararitmeetika on endiselt vajalik piiratud väljadel, diskreetse logaritmi probleem jääb arvutuslikult teostamatuks (mis on turvalisuse seisukohalt oluline) ja avalike võtmete põhjal ei saa avalikke võtmeid arvutada sõltumata kasutatavast korrutamisalgoritmist.

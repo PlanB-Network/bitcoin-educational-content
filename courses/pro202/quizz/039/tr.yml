@@ -1,0 +1,8 @@
+question: Fon geri kazanımı açısından P2SH'i standart Bitcoin işlemlerinden temelde farklı kılan birincil güvenlik riski nedir?
+answer: Kurtarma komut dosyasını kaybetmek, özel anahtarlara sahip olsanız bile fonları kalıcı olarak kilitler
+wrong_answers:
+  - Kurtarma betiği çok basitse, 20 baytlık özet kaba kuvvetle oluşturulabilir
+  - P2SH adresleri belirli bir blok yüksekliğinden sonra sona erer ve fonları kurtarılamaz hale getirir
+  - İki aşamalı doğrulama süreci rastgele başarısız olabilir ve kalıcı fon kaybına neden olabilir
+explanation: |
+  P2SH benzersiz bir güvenlik gereksinimi getirmektedir: fonları harcamak için hem özel anahtarlar hem de kullanma komut dosyası gereklidir. Yalnızca özel anahtarların gerekli olduğu standart işlemlerin aksine, P2SH harcama sırasında gerçek kurtarma komut dosyasının sağlanmasını gerektirir. Kullanma komut dosyası kaybolursa, doğru özel anahtarlara sahip olunsa da fonlara kalıcı olarak erişilemez, çünkü harcama koşulları yeniden oluşturulamaz veya doğrulanamaz.

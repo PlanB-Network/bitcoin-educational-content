@@ -1,0 +1,9 @@
+question: 1 로 시작하고 레거시 표준에 속하는 Address 유형은 무엇인가요?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  Base58check로 인코딩된 P2PKH 주소는 레거시 표준을 따르며 숫자 '1'로 시작합니다.
+reviewed: false

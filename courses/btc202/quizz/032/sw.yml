@@ -1,0 +1,9 @@
+question: Ni suluhisho gani la node-in-a-box ndilo linaloongoza soko leo?
+answer: Umbrel
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel ni suluhisho maarufu zaidi la nodi-in-a-box, shukrani kwa urahisi wa usakinishaji na Duka la Programu tajiri.
+reviewed: true

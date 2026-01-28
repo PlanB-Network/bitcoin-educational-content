@@ -1,0 +1,9 @@
+question: 這些工具中，哪一個不能在 Lightning 上識別相關的同儕？
+answer: Electrum
+wrong_answers:
+  - 避雷器端子
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum 不是用來取得網路節點資訊的 Lightning explorer。而其他三個工具則能很好地執行此功能。
+reviewed: false

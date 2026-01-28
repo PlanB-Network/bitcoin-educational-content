@@ -1,0 +1,8 @@
+question: 제한된 Supply와 Halving 프로세스를 고려할 때 Bitcoin의 전반적인 추세는 어떻게 되나요?
+answer: 일반적인 상승 추세입니다.
+wrong_answers:
+  - 일반적인 하락 추세입니다.
+  - 트렌드가 전혀 없습니다.
+  - 뚜렷한 패턴 없이 큰 폭으로 변동하는 추세입니다.
+explanation: >-
+reviewed: true

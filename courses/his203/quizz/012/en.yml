@@ -1,0 +1,10 @@
+question: How many bitcoins were transferred by Mark Karpelès to prove the solvency of the Mt. Gox platform on June 23, 2011?
+answer: 424,242 bitcoins
+wrong_answers:
+  - 666 bitcoins
+  - 1,337 bitcoins
+  - 21,210 bitcoins
+explanation: |
+ This was roughly the number of bitcoins the company owned at the time. The number 42 is the answer to "the great question about life, the Universe and 
+ everything else" in H2G2.
+reviewed: true

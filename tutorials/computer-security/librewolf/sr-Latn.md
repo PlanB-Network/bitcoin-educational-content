@@ -52,10 +52,10 @@ LibreWolf ima za cilj maksimiziranje zaštite protiv praćenja i otiska prsta, d
 
 
 
-- Eliminišite svu telemetriju i prikupljanje podataka** u Firefoxu
-- Onemogući funkcije koje su u suprotnosti sa slobodom korisnika**, kao što su vlasnički DRM moduli
-- Primeni postavke privatnosti/bezbednosti** i specifične zakrpe od samog početka
-- Razvoj zajednice garantuje transparentnost i nezavisnost** od komercijalnih interesa
+- Eliminišite svu telemetriju i prikupljanje podataka u Firefoxu
+- Onemogući funkcije koje su u suprotnosti sa slobodom korisnika, kao što su vlasnički DRM moduli
+- Primeni **postavke privatnosti/bezbednosti** i specifične zakrpe od samog početka
+- Razvoj zajednice garantuje **transparentnost i nezavisnost** od komercijalnih interesa
 
 
 
@@ -90,7 +90,7 @@ Od samog početka, LibreWolf nudi niz funkcija usmerenih na privatnost:
 ![LIBREWOLF](assets/fr/07.webp)
 
 
-*EFF test stranica [Cover Your Tracks](https://coveryourtracks.eff.org/) sa dugmetom TEST YOUR BROWSER. Ova stranica se koristi za procenu zaštite protiv praćenja i otiska prsta.
+**EFF test stranica** [Cover Your Tracks](https://coveryourtracks.eff.org/) sa dugmetom TEST YOUR BROWSER. Ova stranica se koristi za procenu zaštite protiv praćenja i otiska prsta.
 
 
 
@@ -101,7 +101,7 @@ Od samog početka, LibreWolf nudi niz funkcija usmerenih na privatnost:
 
 
 
-**LibreWolf aktivira stroga sigurnosna podešavanja po podrazumevanoj vrednosti. Firefoxova Poboljšana zaštita od praćenja je postavljena na Strogi nivo kako bi blokirala hiljade tragača, kolačića trećih strana i zlonamerni sadržaj. Takođe aktivira izolaciju sajtova i kolačića (*Total Cookie Protection*) kako bi particionisala podatke za svaku domenu, i ograničava WebRTC (ograničavajući *ICE kandidate* i rutiranje preko proxy-ja kada je proxy prisutan) kako bi smanjila rizik od curenja IP Address.
+**LibreWolf aktivira stroga sigurnosna podešavanja po podrazumevanoj vrednosti. Firefoxova Poboljšana zaštita od praćenja je postavljena na Strogi nivo kako bi blokirala hiljade tragača, kolačića trećih strana i zlonamerni sadržaj. Takođe aktivira izolaciju sajtova i kolačića (*Total Cookie Protection*) kako bi particionisala podatke za svaku domenu, i ograničava WebRTC (ograničavajući *ICE kandidate* i rutiranje preko proxy-ja kada je proxy prisutan) kako bi smanjila rizik od curenja IP Address.**
 
 
 
@@ -119,37 +119,37 @@ Od samog početka, LibreWolf nudi niz funkcija usmerenih na privatnost:
 
 
 
-- Nema telemetrije ili neželjenih veza:** LibreWolf ne prenosi podatke o korišćenju, osiguravajući potpunu zaštitu vaše privatnosti.
+- **Nema telemetrije ili neželjenih veza:** LibreWolf ne prenosi podatke o korišćenju, osiguravajući potpunu zaštitu vaše privatnosti.
 
 
 
 
 
-- Otvoreni kod i zasnovan na zajednici:** Projekat je 100% otvorenog koda i održavaju ga volonteri. Ova nezavisnost garantuje da nijedan reklamni model neće uticati na razvoj.
+- **Otvoreni kod i zasnovan na zajednici:** Projekat je 100% otvorenog koda i održavaju ga volonteri. Ova nezavisnost garantuje da nijedan reklamni model neće uticati na razvoj.
 
 
 
 
 
-- Pre-konfigurisano za privatnost:** LibreWolf vam štedi dragoceno vreme: nema potrebe da provodite sate podešavajući Firefox postavke, sve je već urađeno.
+- **Pre-konfigurisano za privatnost:** LibreWolf vam štedi dragoceno vreme: nema potrebe da provodite sate podešavajući Firefox postavke, sve je već urađeno.
 
 
 
 
 
-- Izvorni blokator oglasa/tragača:** uBlock Origin je integrisan kao standard, tako da ne morate ništa da radite kako biste se zaštitili od oglasa i grešaka.
+- **Izvorni blokator oglasa/tragača:** uBlock Origin je integrisan kao standard, tako da ne morate ništa da radite kako biste se zaštitili od oglasa i grešaka.
 
 
 
 
 
-- Izvrsna zaštita od otisaka prstiju:** Zahvaljujući RFP-u i brojnim postavkama privatnosti, LibreWolf drastično smanjuje vaš jedinstveni digitalni otisak na internetu.
+- **Izvrsna zaštita od otisaka prstiju:** Zahvaljujući RFP-u i brojnim postavkama privatnosti, LibreWolf drastično smanjuje vaš jedinstveni digitalni otisak na internetu.
 
 
 
 
 
-- Poboljšane performanse i mala težina:** Uklanjanjem telemetrije i određenih neesencijalnih funkcija, LibreWolf može biti nešto brži i manje zahtevati energiju od standardnog Firefoxa.
+- **Poboljšane performanse i mala težina:** Uklanjanjem telemetrije i određenih neesencijalnih funkcija, LibreWolf može biti nešto brži i manje zahtevati energiju od standardnog Firefoxa.
 
 
 
@@ -159,31 +159,31 @@ Od samog početka, LibreWolf nudi niz funkcija usmerenih na privatnost:
 
 
 
-- Nema ugrađenih automatskih ažuriranja:** LibreWolf se ne ažurira sam. Na vama je da instalirate nove verzije čim budu objavljene, kako biste ostali bezbedni.
+- **Nema ugrađenih automatskih ažuriranja:** LibreWolf se ne ažurira sam. Na vama je da instalirate nove verzije čim budu objavljene, kako biste ostali bezbedni.
 
 
 
 
 
-- Smanjena kompatibilnost sa određenim uslugama:** Zbog veoma strogih podešavanja, LibreWolf može naići na probleme na određenim veb-sajtovima. Streaming platforme kao što su Netflix i Disney+ neće raditi, jer LibreWolf podrazumevano onemogućava Widevine DRM.
+- **Smanjena kompatibilnost sa određenim uslugama:** Zbog veoma strogih podešavanja, LibreWolf može naići na probleme na određenim veb-sajtovima. Streaming platforme kao što su Netflix i Disney+ neće raditi, jer LibreWolf podrazumevano onemogućava Widevine DRM.
 
 
 
 
 
-- Nema ugrađenu anonimnu mrežu:** Za razliku od Tor Browser-a, LibreWolf ne usmerava saobraćaj putem Tor-a ili VPN-a samostalno. Ako vam je potrebna mrežna anonimnost, moraćete ručno da konfigurišete proxy/VPN.
+- Nema ugrađenu anonimnu mrežu: Za razliku od Tor Browser-a, LibreWolf ne usmerava saobraćaj putem Tor-a ili VPN-a samostalno. Ako vam je potrebna mrežna anonimnost, moraćete ručno da konfigurišete proxy/VPN.
 
 
 
 
 
-- Kolačići koji nisu trajni i sesije (podrazumevano):** Iz razloga poverljivosti, LibreWolf briše kolačiće, istoriju i podatke sa sajtova svaki put kada zatvorite svoj pregledač. Moraćete ponovo da se prijavite na svoje naloge svaki put kada se prijavite.
+- **Kolačići koji nisu trajni i sesije (podrazumevano):** Iz razloga poverljivosti, LibreWolf briše kolačiće, istoriju i podatke sa sajtova svaki put kada zatvorite svoj pregledač. Moraćete ponovo da se prijavite na svoje naloge svaki put kada se prijavite.
 
 
 
 
 
-- Nema mobilne verzije ili sinhronizacije sa oblakom:** LibreWolf je dostupan samo na desktopu (Windows, Linux, macOS). Ne postoji mobilna aplikacija, i stoga nema sinhronizacije naloga ili obeleživača putem oblaka.
+- **Nema mobilne verzije ili sinhronizacije sa oblakom:** LibreWolf je dostupan samo na desktopu (Windows, Linux, macOS). Ne postoji mobilna aplikacija, i stoga nema sinhronizacije naloga ili obeleživača putem oblaka.
 
 
 
@@ -241,8 +241,8 @@ Preuzmite instalacioni program (.exe) sa zvaničnog sajta ili koristite:
 
 
 
-- Chocolatey:** `choco install librewolf`
-- WinGet:** `winget install librewolf`
+- **Chocolatey:** `choco install librewolf`
+- **WinGet:** `winget install librewolf`
 
 
 
@@ -265,7 +265,7 @@ Prilikom prvog pokretanja, primetićete poznati Firefox Interface, osim što je 
 ![LIBREWOLF](assets/fr/04.webp)
 
 
-*Početna stranica LibreWolf-a sa ekstenzijama i menijem. Plava strelica u gornjem desnom uglu označava ikonu menija (tri horizontalne linije)
+*Početna stranica LibreWolf-a sa ekstenzijama i menijem. Plava strelica u gornjem desnom uglu označava ikonu menija (tri horizontalne linije)*
 
 
 
@@ -325,8 +325,8 @@ U principu, LibreWolf obeshrabruje dodavanje nepotrebnih ekstenzija, jer svaka e
 
 
 
-- Firefox Multi-Account Containers** (by Mozilla) za pregledanje u odvojenim kontejnerima
-- Decentraleyes** ili **LocalCDN** za lokalno posluživanje uobičajenih biblioteka
+- **Firefox Multi-Account Containers** (by Mozilla) za pregledanje u odvojenim kontejnerima
+- **Decentraleyes** ili **LocalCDN** za lokalno posluživanje uobičajenih biblioteka
 
 
 
@@ -402,7 +402,7 @@ LibreWolf je deo "alatke" pregledača usmerenih na privatnost:
 
 
 
-**Brave koristi Chrome/Chromium kod i integriše poslovni model putem svog opcionalnog reklamnog programa. LibreWolf, kao zajednica Fork za Firefox, zadržava Mozillin slobodan ekosistem i nema veze sa Google-om.
+**Brave koristi Chrome/Chromium kod i integriše poslovni model putem svog opcionalnog reklamnog programa.** LibreWolf, kao zajednica Fork za Firefox, zadržava Mozillin slobodan ekosistem i nema veze sa Google-om.
 
 
 

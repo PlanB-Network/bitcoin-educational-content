@@ -1,0 +1,9 @@
+question: 다운로드한 소프트웨어의 무결성을 확인하려면 흔히 SHA256SUMS 또는 MANIFEST라고 불리는 어떤 문서가 필요하나요?
+answer: 소프트웨어 풋프린트 목록 파일
+wrong_answers:
+  - 사용자 설명서
+  - 개발자의 서명이 나열된 파일
+  - 전체 프로젝트 소스 코드
+explanation: |
+  매니페스트 또는 SHA256SUMS 파일에는 프로젝트에서 배포한 각 파일의 Hash이 포함되어 있으며, 무결성을 확인할 수 있습니다.
+reviewed: false

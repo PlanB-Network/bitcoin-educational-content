@@ -6,4 +6,4 @@ Il totale dei bitcoin ricevuti da un miner quando trova un blocco valido su Bitc
 
 La ricompensa del blocco viene distribuita all'interno di una transazione specifica chiamata "coinbase". I bitcoin estratti sono automaticamente bloccati per un periodo di 100 blocchi. Questo periodo viene definito "periodo di maturità".
 
-> *La traduzione inglese è "Block Reward"
+> *La traduzione inglese è "Block Reward"*

@@ -151,4 +151,4 @@ Om een overzicht te krijgen van je Mullvad account en de verschillende aangeslot
 En daar heb je het, je bent nu uitgerust om ten volle te genieten van Mullvad VPN. Als je geïnteresseerd bent in het ontdekken van een andere VPN-provider die vergelijkbaar is met Mullvad, zowel wat betreft functies als prijzen, raad ik je ook aan om onze tutorial over IVPN te bekijken:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

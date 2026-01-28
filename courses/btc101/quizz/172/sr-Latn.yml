@@ -1,8 +1,8 @@
-question: Koja je glavna razlika između kejnzijanske ekonomije i austrijske ekonomije u pogledu monetarnog sistema?
-answer: Kejnzijanska ekonomija ne uzima u obzir vremenske i dinamičke aspekte situacija i resursa.
+question: Koji je jedan od razloga zašto Bitkoin doživljava toliko spekulativnih balona?
+answer: Zbog njegove ograničene ponude u kombinaciji sa visokom potražnjom.
 wrong_answers:
-  - Kejnzijanska ekonomija promoviše prekomernu potrošnju valuta.
-  - Kejnzijanska ekonomija priznaje oskudicu situacija i resursa.
-  - Kejnzijanska ekonomija podstiče inflaciju.
+  - Zato što se Bitkoin zapravo nigde ne koristi.
+  - Jer Bitkoin je balon koji će nestati.
+  - Jer Bitkoin nije podložan ekonomskim ciklusima.
 explanation: >-
 reviewed: true

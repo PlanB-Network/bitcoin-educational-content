@@ -17,11 +17,11 @@ Debian ist eine freie GNU/Linux-Distribution, die für ihre Robustheit und Zuver
 
 
 
-- Frei und offen**: Debian ist vollständig quelloffen, was Transparenz und keine Lizenzgebühren garantiert.
-- Stabilität und Sicherheit**: Jede Veröffentlichung durchläuft einen gründlichen Testprozess, was Debian zu einer der zuverlässigsten und sichersten Distributionen auf dem Markt macht.
-- Aktive Community**: Eine große Community und eine umfangreiche Dokumentation stehen Ihnen zur Verfügung, wenn Sie Unterstützung benötigen.
-- Leichtgewichtig und skalierbar**: Sie können Debian auf Rechnern mit bescheidenen Ressourcen installieren und dabei eine gute Leistung beibehalten.
-- Umfangreicher Softwarekatalog**: Über 50.000 offizielle Pakete sind über die Repositories verfügbar.
+- **Frei und offen**: Debian ist vollständig quelloffen, was Transparenz und keine Lizenzgebühren garantiert.
+- **Stabilität und Sicherheit**: Jede Veröffentlichung durchläuft einen gründlichen Testprozess, was Debian zu einer der zuverlässigsten und sichersten Distributionen auf dem Markt macht.
+- **Aktive Community**: Eine große Community und eine umfangreiche Dokumentation stehen Ihnen zur Verfügung, wenn Sie Unterstützung benötigen.
+- **Leichtgewichtig und skalierbar**: Sie können Debian auf Rechnern mit bescheidenen Ressourcen installieren und dabei eine gute Leistung beibehalten.
+- **Umfangreicher Softwarekatalog**: Über 50.000 offizielle Pakete sind über die Repositories verfügbar.
 
 
 
@@ -35,12 +35,12 @@ Debian bietet mehrere Desktop-Umgebungen, die Ihren Bedürfnissen entsprechen:
 
 
 
-- GNOME**: moderner, intuitiver Interface, ideal für Anfänger. Es bietet ein flüssiges, einfach zu bedienendes grafisches Menü für den Zugriff auf Anwendungen.
-- XFCE**: leicht und schnell, perfekt für weniger leistungsstarke Rechner.
-- KDE Plasma**: hochgradig anpassbar, mit einem Windows-ähnlichen Erscheinungsbild.
-- Cinnamon**: einfacher, eleganter Interface, inspiriert von Windows.
-- LXDE / LXQt**: ultraleicht, geeignet für ältere Computer.
-- MATE**: einfach und klassisch, ähnlich dem alten GNOME.
+- **GNOME**: moderner, intuitiver Interface, ideal für Anfänger. Es bietet ein flüssiges, einfach zu bedienendes grafisches Menü für den Zugriff auf Anwendungen.
+- **XFCE**: leicht und schnell, perfekt für weniger leistungsstarke Rechner.
+- **KDE Plasma**: hochgradig anpassbar, mit einem Windows-ähnlichen Erscheinungsbild.
+- **Cinnamon**: einfacher, eleganter Interface, inspiriert von Windows.
+- **LXDE / LXQt**: ultraleicht, geeignet für ältere Computer.
+- **MATE**: einfach und klassisch, ähnlich dem alten GNOME.
 
 
 
@@ -61,9 +61,9 @@ Bevor Sie mit der Installation beginnen, vergewissern Sie sich bitte, dass Sie �
 
 
 
-- USB-Stick**: mindestens 8 GB, um das bootfähige ISO-Image zu speichern.
-- Speicher mit wahlfreiem Zugriff (RAM)**: 4 GB für eine reibungslose Installation und Bedienung.
-- Festplattenspeicher**: Mindestens 15 GB freier Speicherplatz für das System und die Updates.
+- **USB-Stick**: mindestens 8 GB, um das bootfähige ISO-Image zu speichern.
+- **Speicher mit wahlfreiem Zugriff (RAM)**: 4 GB für eine reibungslose Installation und Bedienung.
+- **Festplattenspeicher**: Mindestens 15 GB freier Speicherplatz für das System und die Updates.
 
 
 
@@ -77,9 +77,9 @@ Die Wahl des Debian-Images hängt von Ihrer Prozessorarchitektur ab:
 
 
 
-- AMD64**: Laden Sie die "Live-Hybrid"-Edition von der [Download]-Liste herunter (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: Holen Sie sich das DVD-Image von der offiziellen [Debian]-Website (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Andere Architekturen**: finden Sie die ISO, die Ihrer Architektur entspricht, [hier] (https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: Laden Sie die "Live-Hybrid"-Edition von der [Download]-Liste herunter (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: Holen Sie sich das DVD-Image von der offiziellen [Debian]-Website (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Andere Architekturen**: finden Sie die ISO, die Ihrer Architektur entspricht, [hier](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ Sobald Sie das entsprechende ISO-Image heruntergeladen haben, erstellen Sie Ihr 
 
 
 
-- Laden Sie Balena Etcher** von der [offiziellen Website] (https://etcher.balena.io/) herunter, holen Sie sich die Binärdatei für Ihr System und installieren Sie sie.
+- Laden Sie **Balena Etcher** von der [offiziellen Website](https://etcher.balena.io/) herunter, holen Sie sich die Binärdatei für Ihr System und installieren Sie sie.
 
 
 
@@ -106,9 +106,9 @@ Sobald Sie das entsprechende ISO-Image heruntergeladen haben, erstellen Sie Ihr 
 
 
 
-- Starten Sie Etcher**: Öffnen Sie die Software und wählen Sie das zuvor heruntergeladene Debian-ISO-Image.
-- Wählen Sie den USB-Stick**: Geben Sie Ihren Stick (8 GB+) als Ziel an.
-- Flash starten**: Klicken Sie auf **Flash!** und warten Sie, bis der Vorgang abgeschlossen ist.
+- **Starten Sie Etcher**: Öffnen Sie die Software und wählen Sie das zuvor heruntergeladene Debian-ISO-Image.
+- **Wählen Sie den USB-Stick**: Geben Sie Ihren Stick (8 GB+) als Ziel an.
+- **Flash starten**: Klicken Sie auf **Flash!** und warten Sie, bis der Vorgang abgeschlossen ist.
 
 
 
@@ -133,10 +133,10 @@ So starten Sie die Installation von Ihrem USB-Stick:
 
 
 
-- Schalten Sie** den Computer vollständig aus.
-- Starten Sie** neu und rufen Sie dann BIOS/UEFI auf, indem Sie sofort `ESC`, `F2`, `F11` (oder die entsprechende Taste je nach Hersteller) drücken.
+- Schalten Sie den Computer vollständig **aus**.
+- **Starten Sie neu** und rufen Sie dann BIOS/UEFI auf, indem Sie sofort `ESC`, `F2`, `F11` (oder die entsprechende Taste je nach Hersteller) drücken.
 - Wählen Sie im Boot-Menü **Ihren USB-Stick** als Boot-Gerät aus.
-- Bestätigen Sie** mit der Eingabetaste, um das Debian-Image zu starten: Dies führt Sie zum Willkommensbildschirm des Installers.
+- **Bestätigen Sie** mit der Eingabetaste, um das Debian-Image zu starten: Dies führt Sie zum Willkommensbildschirm des Installers.
 
 
 
@@ -157,9 +157,9 @@ Wenn Sie vom USB-Stick booten, bietet der Debian-Begrüßungsbildschirm mehrere 
 
 
 
-- Live-System**: Startet Debian ohne Installation, ideal zum Testen der Umgebung.
-- Start Installer**: startet die Installation direkt auf der Hard-Diskette.
-- Erweiterte Installationsoptionen**: ermöglicht Ihnen den Zugriff auf benutzerdefinierte Installationsmodi.
+- **Live-System**: Startet Debian ohne Installation, ideal zum Testen der Umgebung.
+- **Start Installer**: startet die Installation direkt auf der Hard-Diskette.
+- **Erweiterte Installationsoptionen**: ermöglicht Ihnen den Zugriff auf benutzerdefinierte Installationsmodi.
 
 
 
@@ -173,7 +173,7 @@ Um Debian im Live-Modus zu erkunden, wählen Sie **Live-System** und bestätigen
 
 
 
-- Sprachauswahl** (optional)
+- **Sprachauswahl** (optional)
 
 
 
@@ -187,7 +187,7 @@ Wählen Sie die Hauptsprache Ihres Debian-Systems aus der Liste und klicken Sie 
 
 
 
-- Zeitzone** (GMT)
+- **Zeitzone** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Wählen Sie die Sprache und das Layout Ihrer Tastatur. Verwenden Sie das integri
 
 
 
-- Datenträger löschen**: Wenn Sie eine eigene Partition haben, wird mit dieser Option der gesamte Inhalt gelöscht.
-- Manuelle Partitionierung**: Wählen Sie diese Option, um Partitionen nach Bedarf zu erstellen, ihre Größe zu ändern oder zu löschen.
+- **Datenträger löschen**: Wenn Sie eine eigene Partition haben, wird mit dieser Option der gesamte Inhalt gelöscht.
+- **Manuelle Partitionierung**: Wählen Sie diese Option, um Partitionen nach Bedarf zu erstellen, ihre Größe zu ändern oder zu löschen.
 
 
 
@@ -244,7 +244,7 @@ Geben Sie Ihren vollständigen Namen, Ihren Kontonamen und ein sicheres Passwort
 
 
 
-- Zusammenfassung der Parameter**
+- **Zusammenfassung der Parameter**
 
 
 
@@ -272,7 +272,7 @@ Klicken Sie auf **Installieren**, um mit dem Kopieren der Dateien und der Konfig
 
 
 
-- Neustart**
+- **Neustart**
 
 
 
@@ -426,7 +426,7 @@ sudo apt install ./name.deb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 Ihr Debian-System ist nun installiert und kann für Ihre täglichen Aufgaben verwendet werden.
 
@@ -443,4 +443,4 @@ Um mehr über Debian und allgemein über GNU/Linux-Distributionen zu erfahren, e
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

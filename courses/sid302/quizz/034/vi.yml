@@ -1,0 +1,8 @@
+question: Cơ chế kiến trúc nào cho phép SDK Breez thực hiện chuyển dữ liệu từ Liquid sang Bitcoin mà không cần dựa vào các cổng federated peg-out hoặc các điểm trao đổi tập trung?
+answer: Một cơ chế hoán đổi kép với các giao dịch khóa đồng thời trên cả hai chuỗi, trong đó người gửi nhận tiền Bitcoin và người nhận nhận tiền Liquid.
+wrong_answers:
+  - Một giao dịch hoán đổi tàu ngầm duy nhất, trong đó tiền Bitcoin được khóa trước rồi mới được yêu cầu bằng cách sử dụng ảnh trước của khoản thanh toán Lightning từ giao dịch Liquid.
+  - Một kiến trúc hoán đổi tàu ngầm ngược, trong đó Liquid Network đóng vai trò là cầu nối trung gian để xác thực các giao dịch Bitcoin và mainchain.
+  - Một hệ thống ký quỹ đa chữ ký liên kết do Boltz quản lý, điều phối các giao dịch hoán đổi nguyên tử giữa Liquid và Bitcoin bằng cách sử dụng các hợp đồng khóa thời gian.
+explanation: |
+  Cơ chế hoán đổi kép được thiết kế đặc biệt cho các giao dịch chuyển khoản Bitcoin xuyên chuỗi, bao gồm các giao dịch khóa đồng thời trên cả mạng Liquid và Bitcoin. Cách tiếp cận không cần tin tưởng này cho phép kết nối trực tiếp mà không cần federated peg-out. Các tùy chọn khác mô tả không chính xác các giao dịch hoán đổi ngầm một chiều, xuyên tạc vai trò của Liquid Network, hoặc gợi ý sai về sự phụ thuộc vào các hệ thống liên kết mà SDK đã tránh một cách rõ ràng.

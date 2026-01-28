@@ -1,5 +1,5 @@
 ---
-name: Serwer BTCPay - USDT
+name: BTCPay Server - USDT
 description: Kroki konfiguracji wtyczki USDT
 ---
 ![cover](assets/cover.webp)

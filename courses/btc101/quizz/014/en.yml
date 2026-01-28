@@ -1,10 +1,11 @@
-question: What was the DigiCash project?
-answer: An attempt to create anonymous electronic money by David Chaum.
+question: What is one of the disadvantages of gold as a form of money?
+answer: It is not easily divisible.
 wrong_answers:
-  - A project to create a digital wallet for Bitcoin.
-  - An attempt to digitize all physical cash by the Federal Reserve.
-  - A project to create a cryptocurrency based on Bitcoin.
+  - It does not keep its value across space.
+  - It erodes over time.
+  - It easy to produce.
 explanation: |
-  David Chaum introduced the concept of anonymous electronic
-  money with his project DigiCash in the 1980s.
+  One of the main disadvantages of gold as a form of money is
+  to be difficult to divide into small units as the need
+  occurs, which makes it less practical to use.
 reviewed: true

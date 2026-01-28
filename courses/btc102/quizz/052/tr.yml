@@ -1,4 +1,4 @@
-question: Kendi Bitcoin düğümünüzü çalıştırmak ne gibi avantajlar sağlıyor?
+question: Kendi Bitcoin node'unuzu (düğümünüzü) çalıştırmak ne gibi avantajlar sağlıyor?
 answer: Bağımsızlık
 wrong_answers:
   - Likidite

@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: Ücretsiz ve açık kaynaklı uygulamaların kataloğu.
 ---
 
@@ -27,7 +27,7 @@ Ne yazık ki, F-Droid iOS'ta kullanılabilen bir uygulama değildir ve Android s
 
 
 
-F-droid'i [resmi web sitesinden] (https://f-droid.org/) APK formatında indirebilir ve Android telefonunuza manuel olarak yükleyebilirsiniz.
+F-droid'i [resmi web sitesinden](https://f-droid.org/) APK formatında indirebilir ve Android telefonunuza manuel olarak yükleyebilirsiniz.
 
 
 
@@ -55,11 +55,11 @@ Artık Google Play Store'a gitmeden telefonunuza uygulama yükleyebilirsiniz.
 
 
 
-Uygulama Mağazasında, ihtiyaçlarınıza uygun çeşitli uygulama kategorileri bulacaksınız. Kategoriler** sekmesinde, tarayıcılardan ücretsiz metin düzenleyicilere kadar 20'den fazla uygulama türü bulacaksınız ve hepsi sizin tarafınızdan en az miktarda bilgi gerektiriyor.
+Uygulama Mağazasında, ihtiyaçlarınıza uygun çeşitli uygulama kategorileri bulacaksınız. **Kategoriler** sekmesinde, tarayıcılardan ücretsiz metin düzenleyicilere kadar 20'den fazla uygulama türü bulacaksınız ve hepsi sizin tarafınızdan en az miktarda bilgi gerektiriyor.
 
 
 
-Belirli bir uygulamayı yüklemek ister misiniz? Ara** düğmesine tıklayın, ardından aradığınız uygulamanın adını girin.
+Belirli bir uygulamayı yüklemek ister misiniz? **Ara** düğmesine tıklayın, ardından aradığınız uygulamanın adını girin.
 
 
 
@@ -100,7 +100,7 @@ Thunderbird eğitimimizde daha fazlasını öğrenin:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid, bir uygulamayı kullanmanın verilerinizi koruyup korumadığına ve gizliliğinizi artırıp artırmadığına karar vermek için ihtiyacınız olan tüm bilgileri verir. Kullanmak istediğiniz tüm uygulamaları tarayın, ardından uygulamanızı indirmek ve yüklemek için **Yükle** düğmesine tıklayın.
 
@@ -140,7 +140,7 @@ Bu seçenekle, Android telefonunuzda yüklü uygulamaları sadece birkaç adımd
 
 
 
-Güncelle** sekmesinde, mevcut güncellemelerin listesine bakın ve kullandığınız sürümdeki önemli değişiklikleri öğrenmek için her uygulamanın yeni sürümleri hakkındaki bilgileri de okuduğunuzdan emin olun.
+**Güncelle** sekmesinde, mevcut güncellemelerin listesine bakın ve kullandığınız sürümdeki önemli değişiklikleri öğrenmek için her uygulamanın yeni sürümleri hakkındaki bilgileri de okuduğunuzdan emin olun.
 
 
 
@@ -163,7 +163,7 @@ F-Droid, kullanıcı gizliliğine öncelik veren uygulamalara katkıları teşvi
 Uygulamanız açık kaynak kodlu olmalı, örneğin kaynak kodu GitHub veya GitLab'da herkese açık olmalıdır.
 
 
-Daha sonra, F-Droid tarafından önerilen [metadata template] (https://f-droid.org/docs/Build_Metadata_Reference/)'i izleyerek, kullanım için gerekli tüm bilgileri ve izinleri içeren, uygulamanızı açıklayan bir YAML dosyası (metadata) hazırlamanız gerekir.
+Daha sonra, F-Droid tarafından önerilen [metadata template](https://f-droid.org/docs/Build_Metadata_Reference/)'i izleyerek, kullanım için gerekli tüm bilgileri ve izinleri içeren, uygulamanızı açıklayan bir YAML dosyası (metadata) hazırlamanız gerekir.
 
 
 
@@ -187,4 +187,4 @@ Bu eğitimi beğendiyseniz BT güvenliği ve veri yönetimi kursumuz hakkında d
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

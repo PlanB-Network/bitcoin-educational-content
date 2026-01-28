@@ -1,31 +1,18 @@
 ---
-name: Bitcoin och BTC Pay Server
-goal: Installera BTC Pay Server för ditt företag
-objectives: 
-
-  - Förstå vad btcpayserver är.
-  - Självhantera och konfigurera BTC Pay Server.
-  - Använd btcpayserver i din dagliga verksamhet.
-
+name: Bemästra BTC Pay Server
+goal: Konfigurera en BTC Pay Server-instans för ett lokalt företag
+objectives:
+- Förstå grunderna i BTCPay Servers roll i betalningshantering
+- Bemästra den inre funktionen av BTCPay Server-konfigurationsprocessen
+- Distribuera BTCPay Server i moln- och nodbaserade miljöer
+- Bli en BTC Pay Server-operatör
 ---
+# Resan till finansiell suveränitet
 
-# Bitcoin och BTCPay-server
+Förtroende är bräckligt, särskilt när det gäller pengar. Denna introduktionskurs guidar dig genom BTCPay Server, ett kraftfullt verktyg som låter dig acceptera Bitcoin-betalningar utan att förlita dig på tredje parter. Du kommer att lära dig grunderna i att bli en BTCPay Server-operatör
 
-
-Detta är en introduktionskurs om BTCPay Server Operator, skriven av Alekos och Bas, som anpassades för Plan ₿ Course Format av melontwist och asi0.
-
-
-EN OAVSLUTAD HISTORIA
-
-
-"Det här är lögn, mitt förtroende för dig är förbrukat, jag ska göra dig obsolet".
-
-
-Producerad av BTCPay Server Foundation
-
-
+Skapad av Alekos och Bas, och anpassad av melontwist och asi0, avslöjar denna kurs hur individer och företag bygger alternativ till traditionella betalningssystem. Oavsett om du är nyfiken på Bitcoin eller redo att driva betalningsinfrastrukturer för företag, kommer du att upptäcka praktiska färdigheter som utmanar status quo. Redo att utforska hur finansiell oberoende faktiskt ser ut?
 +++
-
 # Inledning
 
 
@@ -167,7 +154,7 @@ Kunderna köper en produkt från butiken med Bitcoin.
 
 
 - Ställ upp:
-  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Be tre frivilliga studenter att spela rollerna som kund (Alice), handlare (Bob) och bank.
 - Spela upp händelseförloppet:
   - Kund - surfar i butiken på nätet och hittar en vara för 25 USD som han eller hon vill ha och meddelar handlaren att han eller hon vill köpa den
@@ -189,7 +176,7 @@ Kunderna köper en produkt från butiken med Bitcoin.
 
 
 - Ställ upp:
-  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Ersätt banken med nio studenter som ska spela rollen som en dator (Bitcoin Nodes/Miners) i ett nätverk som ska ersätta banken.
 - Var och en av de 9 datorerna har en fullständig historik över alla tidigare transaktioner som någonsin gjorts (vilket innebär korrekta saldon utan förfalskningar), samt en uppsättning regler:
   - Verifiera att transaktionen är korrekt signerad (thekeyfitsthelock)
@@ -291,7 +278,7 @@ Många av alternativen i BTCPay Server finns i en eller annan form i annan Bitco
 När du välkomnas till Demo-miljön ombeds du att "Logga in" eller "Skapa ditt konto" Serveradministratörer kan av säkerhetsskäl inaktivera funktionen för att skapa nya konton. BTCPay Servers logotyper och knappfärger kan ändras eftersom BTCPay Server är programvara med öppen källkod. En tredjepartsvärd kan vitmärka programvaran och ändra hela utseendet.
 
 
-![image](assets/en/0.webp)
+![image](assets/en/001.webp)
 
 
 ### Fönstret Skapa ett konto
@@ -306,7 +293,7 @@ Lösenordet måste vara minst 8 tecken långt och innehålla bokstäver, siffror
 När både e-post- och lösenordsfälten är korrekt ifyllda klickar du på knappen "Skapa konto". Detta sparar e-postadressen och lösenordet på instruktörens BTCPay Server-instans.
 
 
-![image](assets/en/1.webp)
+![image](assets/en/002.webp)
 
 
 **!Obs!**
@@ -321,7 +308,7 @@ Om du följer den här kursen på egen hand kommer du sannolikt att skapa det h�
 Administratören för BTCPay Server-instansen kan också skapa konton för BTCPay Server. Administratören för BTCPay Server-instansen kan klicka på "Serverinställningar" (1), klicka på fliken "Användare" (2) och klicka på knappen "+ Lägg till användare" (3) längst upp till höger på fliken Användare. I mål (4.3) kommer du att lära dig mer om administratörens kontroll av konton.
 
 
-![image](assets/en/2.webp)
+![image](assets/en/003.webp)
 
 
 Som administratör behöver du användarens e-post Address och ställa in ett standardlösenord. Av säkerhetsskäl rekommenderar vi att administratören informerar användaren om att ändra lösenordet innan kontot används. Om administratören inte anger något lösenord och SMTP har konfigurerats på servern kommer användaren att få ett e-postmeddelande med en inbjudningslänk för att skapa sitt konto och ange ett lösenord själv.
@@ -383,7 +370,7 @@ När en butiksägare har skapat sitt konto kan de hantera det längst ner till v
 - Hantera konto.
 
 
-![image](assets/en/3.webp)
+![image](assets/en/004.webp)
 
 
 ### Mörkt och ljust läge
@@ -413,7 +400,7 @@ Uppdatera eventuellt ditt konto med en annan e-post Address. För att säkerstä
 En användare kan välja att radera hela sitt konto. Detta kan göras genom att klicka på knappen Ta bort på fliken Konto.
 
 
-![image](assets/en/4.webp)
+![image](assets/en/005.webp)
 
 
 **!Obs!**
@@ -428,7 +415,7 @@ När du har ändrat e-postadressen ändras inte användarnamnet för kontot. Den
 En student kanske vill ändra sitt lösenord. Det kan han göra genom att gå till fliken Lösenord. Här måste han eller hon skriva in sitt gamla lösenord och kan ändra det till ett nytt.
 
 
-![image](assets/en/5.webp)
+![image](assets/en/006.webp)
 
 
 ### Tvåfaktorsautentisering (2fa)
@@ -449,9 +436,9 @@ Baserat på din mobiltelefons operativsystem (Android eller iOS) kan du välja m
 1. Ladda ner en tvåfaktorsautentisering.
 
 
-   - Authy för [Android] (https://play.google.com/store/apps/details?id=com.authy.authy) eller [iOS] (https://apps.apple.com/us/app/authy/id494168017)
-   - Microsoft Authenticator för [Android] (https://play.google.com/store/apps/details?id=com.azure.authenticator) eller [iOS] (https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
-   - Google Authenticator för [Android] (https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) eller [iOS] (https://apps.apple.com/us/app/google-authenticator/id388497605)
+   - Authy för [Android](https://play.google.com/store/apps/details?id=com.authy.authy) eller [iOS](https://apps.apple.com/us/app/authy/id494168017)
+   - Microsoft Authenticator för [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) eller [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
+   - Google Authenticator för [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) eller [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605)
 
 2. Efter nedladdning och installation av Authenticator-appen.
 
@@ -462,7 +449,7 @@ Baserat på din mobiltelefons operativsystem (Android eller iOS) kan du välja m
 3. Authenticator-appen kommer att ge dig en unik kod. Ange den unika koden i BTCPay Server för att verifiera installationen och klicka på Verifiera för att slutföra processen.
 
 
-![image](assets/en/6.webp)
+![image](assets/en/007.webp)
 
 
 ### Sammanfattning av färdigheter
@@ -497,7 +484,7 @@ Beskriv hur appbaserad 2FA hjälper till att skydda ditt konto.
 När en ny användare loggar in på BTCPay Server är miljön tom och behöver en första butik. Introduktionsguiden för BTCPay Server ger användaren möjlighet att "Skapa din butik" (1). En butik kan ses som ett hem för dina Bitcoin-behov. En ny BTCPay Server-nod kommer att börja med att synkronisera Bitcoin Blockchain (2). Beroende på vilken infrastruktur du kör BTCPay Server på kan det ta allt från några timmar till några dagar. Instansens aktuella version visas i det nedre högra hörnet av ditt BTCPay Server-gränssnitt. Detta är användbart för referens vid felsökning.
 
 
-![image](assets/en/7.webp)
+![image](assets/en/008.webp)
 
 
 ### Skapa din butiksguide
@@ -509,7 +496,7 @@ När du följer den här kursen kommer du att börja med en skärm som skiljer s
 En användare kan välja att radera hela sitt konto. Detta kan göras genom att klicka på knappen Ta bort på fliken Konto.
 
 
-![image](assets/en/8.webp)
+![image](assets/en/009.webp)
 
 
 **!Obs!**
@@ -524,7 +511,7 @@ BTCPay Server-konton kan skapa ett obegränsat antal butiker. Varje butik är en
 Börja med att klicka på "Skapa din butik".
 
 
-![image](assets/en/9.webp)
+![image](assets/en/010.webp)
 
 
 Detta kommer att skapa ditt första hem och instrumentpanel för att använda BTCPay Server.
@@ -533,31 +520,31 @@ Detta kommer att skapa ditt första hem och instrumentpanel för att använda BT
 (1) Efter att ha klickat på "Skapa din butik" kommer BTCPay Server att kräva att du namnger butiken; detta kan vara något användbart för dig.
 
 
-![image](assets/en/10.webp)
+![image](assets/en/011.webp)
 
 
 (2) En standardvaluta för butiken måste ställas in härnäst, antingen en fiatvaluta eller en valuta denominerad i Bitcoin eller Sats. För demomiljön kommer vi att ställa in den till USD.
 
 
-![image](assets/en/11.webp)
+![image](assets/en/012.webp)
 
 
 (3) Som en sista parameter i butiksinställningen kräver BTCPay Server att du ställer in en "Preferred price source" för att jämföra Bitcoin:s pris mot det aktuella fiat-priset så att din butik visar rätt Exchange-kurs mellan Bitcoin och den butiksinställda fiat-valutan. Vi kommer att hålla oss till standardvärdet i demoexemplet och ställa in detta till Kraken Exchange. BTCPay Server använder Kraken API för att kontrollera Exchange-kurserna.
 
 
-![image](assets/en/12.webp)
+![image](assets/en/013.webp)
 
 
 (4) Nu när dessa butiksparametrar har ställts in klickar du på knappen Skapa och BTCPay Server skapar din första butiks instrumentpanel, där guiden fortsätter.
 
 
-![image](assets/en/13.webp)
+![image](assets/en/014.webp)
 
 
 Gratulerar, du har skapat din första butik och därmed är övningen avslutad.
 
 
-![image](assets/en/14.webp)
+![image](assets/en/015.webp)
 
 
 ### Sammanfattning av färdigheter
@@ -592,7 +579,7 @@ Bitcoin plånböcker, när de skapas, skapa en så kallad "seed". I det sista m�
 seed-generationen utförs enligt den industristandard som kallas "Hierarchical Deterministic" (HD)-ramverket.
 
 
-![image](assets/en/15.webp)
+![image](assets/en/016.webp)
 
 
 ### Adresser
@@ -740,14 +727,15 @@ BTCPay Server består av följande standardfunktioner enligt Wallet:
 Administratörer kan se de inkommande och utgående transaktionerna för On-Chain Wallet som är anslutna till den här specifika butiken i transaktionsvyn. Varje transaktion har en distinktion mellan de mottagna och skickade beloppen. Mottagna kommer att vara Green och utgående transaktioner kommer att vara röda. I transaktionsvyn för BTCPay Server ser administratörerna också en uppsättning standardetiketter.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Transaktionstyp | Beskrivning                                      |
+| ---------------- | ------------------------------------------------ |
+| App              | Betalning mottogs via en app-skapad faktura      |
+| Faktura          | Betalning mottogs via en faktura                 |
+| Payjoin          | Ej betald, fakturatimern har ännu inte löpt ut   |
+| Payjoin-exponerad | UTXO exponerades via ett payjoin-förslag i en faktura |
+| Betalningsförfrågan | Betalning mottogs via en betalningsförfrågan   |
+| Utbetalning      | Betalning skickades via en utbetalning eller återbetalning |
 
 ### Hur man skickar
 
@@ -807,7 +795,7 @@ Replace-by-fee (RBF) är en Bitcoin-protokollfunktion som gör att du kan ersät
 Tryck på knappen "Advanced Settings" för att visa alternativen för RBF.
 
 
-![image](assets/en/16.webp)
+![image](assets/en/017.webp)
 
 
 
@@ -837,10 +825,10 @@ När du klickar på mottagningsknappen i BTCPay Server genereras en oanvänd Add
 BTCPay Server kommer alltid att uppmana dig att generate följande tillgängliga Address för att förhindra återanvändning av Address. Efter att ha klickat på "generate nästa tillgängliga BTC Address" genererade BTCPay Server en ny Address och QR. Det låter dig också direkt ställa in en etikett till Address för bättre hantering av dina adresser.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/018.webp)
 
 
-![image](assets/en/18.webp)
+![image](assets/en/019.webp)
 
 
 #### Skanna om
@@ -865,7 +853,7 @@ En administratör kanske vill välja bort den här inställningen. Med följande
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 
@@ -875,13 +863,13 @@ BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
 Wallet-inställningar i BTCPay Server ger en tydlig och kortfattad översikt över Wallet:s allmänna inställningar. Alla dessa inställningar är förifyllda om Wallet skapades med BTCPay Server.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/020.webp)
 
 
 Wallet-inställningar i BTCPay Server ger en tydlig och koncis översikt över din Wallet:s allmänna inställningar. Alla dessa inställningar är förifyllda om Wallet skapades med BTCPay Server. BTCPay Servers Wallet-inställningar börjar med Wallet-statusen. Är det en Watch-only eller en Hot Wallet? Beroende på Wallet-typen kan åtgärderna variera, inklusive att skanna om Wallet för saknade transaktioner, ta bort gamla transaktioner från historiken, registrera Wallet för betalningslänkar eller ersätta och ta bort den aktuella Wallet som är kopplad till butiken. I BTCPay Servers Wallet-inställningar kan administratörer ställa in en etikett för Wallet för bättre Wallet-hantering. Här kommer administratören också att kunna se avledningsschema, kontonyckel (xpub), fingeravtryck och nyckelstig. Betalningar i Wallet-inställningar har endast två huvudinställningar. Betalningen är ogiltig om transaktionen inte bekräftas inom (inställda minuter) efter att Invoice har löpt ut. Betrakta Invoice som bekräftad när betalningstransaktionen har X antal bekräftelser. Administratörer kan också ställa in en växling för att visa rekommenderade avgifter på betalningsskärmen eller ställa in ett mål för manuell bekräftelse i antalet block.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/021.webp)
 
 
 **!Obs!**
@@ -911,13 +899,13 @@ Det andra alternativet som BTCPay Server erbjuder för att generera en ny Wallet
 Du skapade en ny "Store" i den sista delen. Installationsguiden fortsätter med att fråga om du vill "Konfigurera en Wallet" eller "Konfigurera en Lightning-nod". I det här exemplet kommer du att följa guiden "Konfigurera en Wallet" (1).
 
 
-![image](assets/en/21.webp)
+![image](assets/en/022.webp)
 
 
 Efter att ha klickat på "Konfigurera en Wallet" fortsätter guiden med att fråga hur du vill fortsätta; BTCPay Server erbjuder nu möjligheten att ansluta en befintlig Bitcoin Wallet till din nya butik. Om du inte har en Wallet föreslår BTCPay Server att du skapar en ny. Detta exempel följer stegen för att "skapa en ny Wallet" (2). Följ stegen för att lära dig hur du "ansluter en befintlig Wallet" (1).
 
 
-![image](assets/en/22.webp)
+![image](assets/en/023.webp)
 
 
 **!Obs!**
@@ -929,16 +917,16 @@ Om du går den här kursen i ett klassrum, observera att det aktuella exemplet o
 (1) Fortsätt guiden "Ny Wallet" genom att klicka på knappen "Skapa en ny Wallet".
 
 
-![image](assets/en/23.webp)
+![image](assets/en/024.webp)
 
 
 (2) När du klickar på "Skapa en ny Wallet" kommer nästa fönster i guiden att ge alternativen "Hot Wallet" och "Watch-only wallet" Om du följer med en instruktör är din miljö en delad Demo, och du kan bara skapa en Watch-only wallet. Lägg märke till skillnaden mellan de två figurerna nedan. När du befinner dig i Demo-miljön och följer med instruktören skapar du en "Watch-only wallet" och fortsätter med guiden "Ny Wallet".
 
 
-![image](assets/en/24.webp)
+![image](assets/en/025.webp)
 
 
-![image](assets/en/25.webp)
+![image](assets/en/026.webp)
 
 
 (3) Fortsätter du med den nya Wallet-guiden är du nu i avsnittet Skapa BTC Watch-only wallet. Här får vi ställa in Wallet: s "Address-typ" BTCPay Server låter dig välja din föredragna Address-typ; när den här kursen skrivs rekommenderas det fortfarande att använda bech32-adresser. Du kan lära dig mer i detalj om adresser i det första kapitlet i den här delen.
@@ -962,31 +950,31 @@ Om du går den här kursen i ett klassrum, observera att det aktuella exemplet o
 Välj SegWit (rekommenderas) som din föredragna Wallet Address-typ.
 
 
-![image](assets/en/26.webp)
+![image](assets/en/027.webp)
 
 
 (4) När du ställer in parametern för Wallet tillåter BTCPay Server användarna att ställa in en valfri passphrase via BIP39; se till att bekräfta ditt lösenord.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/028.webp)
 
 
 (5) När du har ställt in Wallet:s Address-typ och eventuellt ställt in några avancerade alternativ klickar du på Skapa och BTCPay Server kommer att generate din nya Wallet. Observera att detta är det sista steget innan du genererar din seed-fras. Se till att du bara gör detta i en miljö där någon kanske inte kan stjäla seed-frasen genom att titta på din skärm.
 
 
-![image](assets/en/28.webp)
+![image](assets/en/029.webp)
 
 
 (6) På följande skärm i guiden visar BTCPay Server dig Recovery seed-frasen för din nyligen genererade Wallet; dessa är nycklarna till att återställa din Wallet och signera transaktioner. BTCPay Server genererar en seed-fras med 12 ord. Dessa ord kommer att raderas från servern efter den här inställningsskärmen. Denna Wallet är specifikt en Watch-only wallet. Det rekommenderas att inte lagra denna seed-fras digitalt eller med fotografisk bild. Användare kan endast gå vidare i guiden om de aktivt bekräftar att de skrivit ner sin seed-fras.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/030.webp)
 
 
 (7) Efter att ha klickat på Done och säkrat den nyligen genererade Bitcoin seed-frasen kommer BTCPay Server att uppdatera din butik med den bifogade nya Wallet och är redo att ta emot betalningar. I användaren Interface, i den vänstra navigeringsmenyn, märker du hur Bitcoin nu är markerad och aktiverad under Wallet.
 
 
-![image](assets/en/30.webp)
+![image](assets/en/031.webp)
 
 
 ### Exempel: Skriva ner en seed-fras
@@ -1090,7 +1078,7 @@ BTCPay Server kräver anslutningsinformation; den förtillverkade (eller depåf�
 - LNDhub via REST API
 
 
-![image](assets/en/31.webp)
+![image](assets/en/032.webp)
 
 
 Klicka på "testa anslutning" för att säkerställa att du har angett anslutningsuppgifterna korrekt. När anslutningen har bekräftats vara bra klickar du på "Spara" och BTCPay Server visar att butiken har uppdaterats med en Lightning Node.
@@ -1120,7 +1108,7 @@ Efter att ha anslutit den interna Lightning-noden kommer serveradministratörer 
 Genom att klicka antingen på Ride the Lightning-logotypen i rutan "Lightning-tjänster" eller på "Lightning" under plånböckerna i vänstermenyn kan serveradministratörer nå RTL för hantering av Lightning-noder.
 
 
-**Notera!
+**Notera!**
 
 
 Anslutning av den interna Lightning Noden misslyckas - Om den interna anslutningen misslyckas, bekräfta:
@@ -1146,7 +1134,7 @@ Inom alternativet Lightning Wallet i den vänstra menyraden hittar serveradminis
 Serveradministratörer kan klicka på den interna nodinformationen för att se serverns status (Online/Offline) och anslutningssträng för Clearnet eller Tor.
 
 
-![image](assets/en/32.webp)
+![image](assets/en/033.webp)
 
 
 #### Ändra anslutning
@@ -1155,7 +1143,7 @@ Serveradministratörer kan klicka på den interna nodinformationen för att se s
 För att ändra den externa Lightning-noden, gå till "Lightning Settings" och klicka på "Change connection" (bredvid "Public Node info"). Detta återställer den befintliga inställningen. Ange de nya noduppgifterna, klicka på Spara och butiken uppdateras i enlighet med detta.
 
 
-![image](assets/en/33.webp)
+![image](assets/en/034.webp)
 
 
 #### Tjänster
@@ -1170,7 +1158,7 @@ Om serveradministratören bestämmer sig för att installera flera tjänster fö
 Efter att ha lagt till Lightning-noden i butiken i ett tidigare steg kan butiksägare fortfarande välja att avaktivera den för sin butik genom att använda reglaget längst upp i Lightning-inställningarna.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/035.webp)
 
 
 #### Lightning Betalningsalternativ
@@ -1245,7 +1233,7 @@ All hantering av Lightning-noder görs som standard med RTL (förutsatt att du k
 När du ansluter dig till en depåbank som Alby bör butiksägare först skapa ett konto och besöka https://getalby.com/
 
 
-![image](assets/en/35.webp)
+![image](assets/en/036.webp)
 
 
 När du har skapat Alby-kontot går du till din BTCPay Server-butik.
@@ -1254,25 +1242,25 @@ När du har skapat Alby-kontot går du till din BTCPay Server-butik.
 Steg 1: Klicka på "Set up a Lightning node" på Dashboard eller på "Lightning" under wallets.
 
 
-![image](assets/en/36.webp)
+![image](assets/en/037.webp)
 
 
 Steg 2: Sätt in dina Wallet-anslutningsuppgifter som tillhandahålls av Alby. Klicka på Wallet på instrumentpanelen i Alby. Här hittar du "Wallet Connection Credentials". Kopiera dessa autentiseringsuppgifter. Klistra in autentiseringsuppgifterna från Alby i fältet Connection configuration i BTCPay Server.
 
 
-![image](assets/en/37.webp)
+![image](assets/en/038.webp)
 
 
 Steg 3: När du har gett BTCPay Server anslutningsuppgifterna klickar du på knappen "Test Connection" för att säkerställa att anslutningen fungerar korrekt. Lägg märke till meddelandet "Connection to lightning node successful" högst upp på skärmen. Detta bekräftar att allt fungerar som förväntat.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/039.webp)
 
 
 Steg 4: Klicka på "Spara" och din butik är nu ansluten till en Lightning-nod av Alby.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/040.webp)
 
 
 **!Obs!**
@@ -1337,7 +1325,7 @@ I huvudvyn på BTCPay Server-instrumentpanelen finns ett par standardplattor til
 Wallet:s balansplatta ger en snabb översikt över din Wallet:s medel och prestanda. Det kan visas i antingen BTC eller Fiat-valuta i en vecko-, månads- eller årsgraf.
 
 
-![image](assets/en/40.webp)
+![image](assets/en/041.webp)
 
 
 ### Transaktionsaktivitet
@@ -1346,7 +1334,7 @@ Wallet:s balansplatta ger en snabb översikt över din Wallet:s medel och presta
 Bredvid rutan Wallet Saldo visar BTCPay Server en snabb översikt över väntande utbetalningar, antalet transaktioner under de senaste 7 dagarna och om din butik har utfärdat några återbetalningar. Om du klickar på knappen Hantera kommer du till hanteringen av väntande utbetalningar (läs mer om utbetalningar i kapitlet BTCPay Server - Betalningar).
 
 
-![image](assets/en/41.webp)
+![image](assets/en/042.webp)
 
 
 ### Balans mellan blixtar
@@ -1358,7 +1346,7 @@ Detta syns endast när Lightning är aktiverat.
 När administratören har tillåtit Lightning Network-åtkomst har BTCPay Server-instrumentpanelen nu en ny kakelplatta med din Lightning-nodinformation. Hur mycket BTC som finns i kanaler, hur detta balanseras lokalt eller på distans (inkommande eller utgående likviditet), om kanaler stängs eller öppnas och hur mycket Bitcoin som hålls On-Chain på Lightning-noden.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/043.webp)
 
 
 ### Blixttjänster
@@ -1370,7 +1358,7 @@ Detta syns bara när blixten är aktiv.
 Förutom att se ditt Lightning-saldo på BTCPay Server-instrumentpanelen kommer administratörer också att se brickan för Lightning Services. Här kan administratörer hitta snabbknappar för verktyg som de använder för att hantera sin Lightning-nod; till exempel är Ride the Lightning ett av standardverktygen med BTCPay Server för Lightning-nodhantering.
 
 
-![image](assets/en/43.webp)
+![image](assets/en/044.webp)
 
 
 ### Nyligen genomförda transaktioner
@@ -1379,7 +1367,7 @@ Förutom att se ditt Lightning-saldo på BTCPay Server-instrumentpanelen kommer 
 Kaklet Recent Transactions visar din butiks senaste transaktioner. Med ett klick kan administratören för BTCPay Server-instansen nu se den senaste transaktionen och se om den behöver uppmärksammas.
 
 
-![image](assets/en/44.webp)
+![image](assets/en/045.webp)
 
 
 ### Senaste fakturorna
@@ -1388,7 +1376,7 @@ Kaklet Recent Transactions visar din butiks senaste transaktioner. Med ett klick
 Kakelplattan Recent Invoices visar de 6 senaste fakturorna som genererats av din BTCPay-server, inklusive status och Invoice-belopp. Kakeln innehåller också en "Visa alla"-knapp för att enkelt få tillgång till hela Invoice-översikten.
 
 
-![image](assets/en/45.webp)
+![image](assets/en/046.webp)
 
 
 ### Försäljningsställen och crowdfundings
@@ -1397,13 +1385,13 @@ Kakelplattan Recent Invoices visar de 6 senaste fakturorna som genererats av din
 Eftersom BTCPay Server levererar en uppsättning standardplugins eller appar är Point Of Sale och Crowdfund de två viktigaste pluginsna i BTCPay Server. Med varje butik och Wallet kan en BTCPay Server-användare generate så många försäljningsställen eller Crowdfunds som de tycker passar. Var och en kommer att skapa en ny instrumentpanelplatta som visar plugin-programmens prestanda.
 
 
-![image](assets/en/46.webp)
+![image](assets/en/047.webp)
 
 
 Lägg märke till den lilla skillnaden mellan en Point of Sale- och Crowdfund-kakelplatta. Administratören ser de mest sålda artiklarna i Point of Sales-rutan. I Crowdfund-rutan blir detta Top Perks. Båda plattorna har snabbknappar för att hantera respektive app och visa de senaste fakturorna som skapats av toppartiklar eller toppförmåner.
 
 
-![image](assets/en/47.webp)
+![image](assets/en/048.webp)
 
 
 **!?Note!?**
@@ -1544,7 +1532,7 @@ Standardbetalningsmetoder. BTCPay-servern erbjuder i sin standardkonfiguration t
 Vi kan ställa in parametrar för vår butik, där en kund endast kommer att interagera med Lightning när priset är mindre än X belopp, och vice versa för On-Chain-transaktioner, när X är större än Y, alltid presentera betalningsalternativet On-Chain.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/049.webp)
 
 
 #### Checka ut
@@ -1553,7 +1541,7 @@ Vi kan ställa in parametrar för vår butik, där en kund endast kommer att int
 Från och med BTCPay Server release 1.7 introducerades en ny Checkout Interface, Checkout V2. Sedan version 1.9 standardiserades kan administratörer och butiksägare fortfarande ställa in kassan till den tidigare versionen. Genom att använda växlingen "Använd den klassiska kassan" kan en butiksägare återställa butiken till sin tidigare kassaupplevelse. BTCPay Server har också en utvald uppsättning förinställningar för onlinehandel eller en butiksupplevelse.
 
 
-![image](assets/en/49.webp)
+![image](assets/en/050.webp)
 
 
 När en kund interagerar med butiken och genererar en Invoice finns det en utgångstid för Invoice. Som standard ställer BTCPay Server in detta på 5 minuter, och administratörer kan justera det efter eget önskemål. Kassasidan kan anpassas ytterligare genom att kontrollera följande parametrar:
@@ -1568,25 +1556,25 @@ När en kund interagerar med butiken och genererar en Invoice finns det en utgå
 - Automatisk detektering av språk i kassan
 
 
-![image](assets/en/50.webp)
+![image](assets/en/051.webp)
 
 
 När Autodetektera språk inte är inställt kommer BTCPay Server som standard att visa engelska. En butiksägare kan ändra denna standard till det språk han eller hon föredrar.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/052.webp)
 
 
 Klicka på rullgardinsmenyn så kan butiksägare ange en anpassad HTML-titel som ska visas på kassasidan.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/053.webp)
 
 
 För att säkerställa att kunderna känner till sin betalningsmetod kan en butiksägare uttryckligen ställa in sin kassa så att användarna alltid måste välja önskad betalningsmetod. När Invoice har betalats tillåter BTCPay Server kunden att återvända till webbshoppen. Butiksägare kan ställa in att denna omdirigering ska tillämpas automatiskt efter att kunden har betalat.
 
 
-![image](assets/en/53.webp)
+![image](assets/en/054.webp)
 
 
 #### Offentligt kvitto
@@ -1595,7 +1583,7 @@ För att säkerställa att kunderna känner till sin betalningsmetod kan en buti
 I inställningarna för offentliga kvitton kan butiksägaren göra kvittosidorna offentliga och visa betalningslistan på kvittosidan och QR-koden så att kunden enkelt kan komma åt den.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/055.webp)
 
 
 ### Åtkomsttokens
@@ -1604,7 +1592,7 @@ I inställningarna för offentliga kvitton kan butiksägaren göra kvittosidorna
 Access-tokens används för att koppla ihop med vissa e-handelsintegrationer eller specialbyggda integrationer.
 
 
-![image](assets/en/55.webp)
+![image](assets/en/056.webp)
 
 
 ### Användare
@@ -1613,7 +1601,7 @@ Access-tokens används för att koppla ihop med vissa e-handelsintegrationer ell
 Butiksanvändare är där butiksägaren kan hantera sina anställda, deras konton och åtkomst till butiken. När personalen har skapat sina konton kan butiksägaren lägga till specifika användare i butiken som gästanvändare eller ägare. För att ytterligare definiera personalens roll, se nästa avsnitt om "BTCPay Server Butiksinställningar - Roller"
 
 
-![image](assets/en/56.webp)
+![image](assets/en/057.webp)
 
 
 ### Roller
@@ -1625,13 +1613,13 @@ En butiksägare kanske inte tycker att användarens standardroller är tillräck
 (1) För att skapa en ny roll klickar du på knappen "+ Lägg till roll".
 
 
-![image](assets/en/57.webp)
+![image](assets/en/058.webp)
 
 
 (2) Ange ett rollnamn, t.ex. "Kassörska".
 
 
-![image](assets/en/58.webp)
+![image](assets/en/059.webp)
 
 
 (3) Konfigurera de individuella behörigheterna för rollen.
@@ -1665,7 +1653,7 @@ En butiksägare kanske inte tycker att användarens standardroller är tillräck
 När rollen skapas är namnet fast och kan inte ändras efter att den har varit i redigeringsläge.
 
 
-![image](assets/en/59.webp)
+![image](assets/en/060.webp)
 
 
 ### Webhooks
@@ -1674,13 +1662,13 @@ När rollen skapas är namnet fast och kan inte ändras efter att den har varit 
 Inom BTCPay Server är det ganska enkelt att skapa en ny "Webhook". I BTCPay Server Store settings - Webhooks-fliken kan en butiksägare enkelt skapa en ny webhook genom att klicka på "+ Create Webhook". Webhooks gör det möjligt för BTCPay Server att skicka HTTP-händelser relaterade till din butik till andra servrar eller e-handelsintegrationer.
 
 
-![image](assets/en/60.webp)
+![image](assets/en/061.webp)
 
 
 Du är nu i vyn för att skapa en Webhook. Se till att du känner till din nyttolast-URL och klistra in den i din BTCPay-server. Medan du klistrade in URL: n för nyttolasten, under den visar webhook-hemligheten. Kopiera webhook-hemligheten och ange den på slutpunkten. När allt har ställts in kan du växla i BTCPay Server till "Automatisk omleverans" BTCPay Server kommer att försöka omleverera en misslyckad leverans efter 10 sekunder, 1 minut och upp till 6 gånger efter 10 minuter. Du kan växla mellan varje händelse eller ange händelserna för dina behov. Se till att aktivera webhook och tryck på knappen "Add webhook" för att spara den.
 
 
-![image](assets/en/61.webp)
+![image](assets/en/062.webp)
 
 
 Webhooks är inte avsedda att vara kompatibla med Bitpay API. Det finns två separata IPN:er (i BitPay-termer: "Instant Payment Notifications") i BTCPay Server.
@@ -1703,15 +1691,15 @@ Utbetalningsprocessorer arbetar tillsammans med konceptet Utbetalningar i BTCPay
 Butiksägaren kan klicka på och konfigurera båda utbetalningsprocessorerna separat. En butiksägare kanske bara vill köra On-Chain-processorn en gång var X:e timme, medan off-chain-processorn kanske körs med några minuters mellanrum. För On-Chain kan du också ställa in ett mål för vilket block det ska inkluderas. Som standard är detta inställt på 1 (eller nästa tillgängliga block). Observera att inställningen av off-chain-utbetalningsprocessorn endast har intervalltimern och inget blockmål. Lightning Network-betalningar är omedelbara.
 
 
-![image](assets/en/62.webp)
+![image](assets/en/063.webp)
 
-![image](assets/en/63.webp)
+![image](assets/en/064.webp)
 
 
 Butiksägare kan endast konfigurera On-Chain-processorn om de har en Hot Wallet ansluten till sin butik.
 
 
-![image](assets/en/64.webp)
+![image](assets/en/065.webp)
 
 
 När du har konfigurerat en utbetalningsprocessor kan du snabbt ta bort eller ändra den genom att gå tillbaka till fliken Utbetalningsprocessor i BTCPay Server Store-inställningarna.
@@ -1729,7 +1717,7 @@ Utbetalningsprocessor On-Chain - Utbetalningsprocessorn On-Chain kan endast fung
 BTCPay Server kan använda e-postmeddelanden för aviseringar eller, när det är korrekt inställt, för att återställa konton som skapats på instansen. Som standard skickar BTCPay Server inte ett e-postmeddelande när t.ex. lösenordet förloras.
 
 
-![image](assets/en/65.webp)
+![image](assets/en/066.webp)
 
 
 Innan en butiksägare kan ställa in e-postregler för att utlösa specifika händelser i sin butik måste de först ställa in några grundläggande e-postinställningar. BTCPay Server kräver dessa inställningar för att skicka e-postmeddelanden för händelser relaterade till din butik eller för återställning av lösenord.
@@ -1749,7 +1737,7 @@ BTCPay Server gjorde det enklare att fylla i denna information genom att använd
 Genom att använda alternativet snabb ifyllning kommer BTCPay Server att fylla i fälten för SMTP-servern och porten. Nu behöver butiksägaren bara fylla i sina referenser, inklusive en e-post Address, inloggning (som vanligtvis är lika med din e-post Address) och deras lösenord. Det avancerade alternativet i e-postinställningarna för BTCPay Server är att inaktivera säkerhetskontroller för TLS-certifikat; som standard är detta aktiverat.
 
 
-![image](assets/en/66.webp)
+![image](assets/en/067.webp)
 
 
 Med e-postregler kan en butiksägare ställa in specifika händelser så att de utlöser e-postmeddelanden till specifika e-postadresser.
@@ -1768,7 +1756,7 @@ Med e-postregler kan en butiksägare ställa in specifika händelser så att de 
 Om kunden har angett ett e-postmeddelande Address kan dessa utlösare också skicka informationen till kunden. Butiksägare kan förifylla ämnesraden för att klargöra varför det här e-postmeddelandet inträffade och vad som utlöste det.
 
 
-![image](assets/en/67.webp)
+![image](assets/en/068.webp)
 
 
 ### Formulär
@@ -1780,13 +1768,13 @@ Eftersom BTCPay Server inte samlar in några data kanske en butiksägare vill l�
 När du skapar ett nytt formulär öppnar BTCPay Server ett nytt fönster där du får grundläggande information om vad du vill att ditt nya formulär ska fråga om. Först måste butiksägaren ange ett tydligt namn för det nya formuläret; detta namn kan inte ändras efter att det har ställts in.
 
 
-![image](assets/en/68.webp)
+![image](assets/en/069.webp)
 
 
 När butiksägaren har gett formuläret ett namn kan du också vrida omkopplaren för "Tillåt formulär för allmän användning" till ON, så att Green tänds. Detta säkerställer att formuläret används på alla platser som vänder sig till kunder. Om en butiksägare till exempel skapar en separat Invoice som inte finns på försäljningsstället, kanske de ändå vill samla in information från kunden. Den här växlingen gör det möjligt att samla in den informationen.
 
 
-![image](assets/en/69.webp)
+![image](assets/en/070.webp)
 
 
 Varje formulär börjar med minst 1 nytt formulärfält. En butiksägare kan välja vilken typ av fält det ska vara.
@@ -1809,7 +1797,7 @@ Varje formulär börjar med minst 1 nytt formulärfält. En butiksägare kan vä
 Varje typ kommer med sina parametrar att fylla i. Butiksägaren kan ställa in dem efter eget tycke och smak. Under det första skapade fältet kan butiksägaren lägga till nya fält i formuläret.
 
 
-![image](assets/en/70.webp)
+![image](assets/en/071.webp)
 
 
 #### Avancerade anpassade formulär
@@ -1818,28 +1806,30 @@ Varje typ kommer med sina parametrar att fylla i. Butiksägaren kan ställa in d
 BTCPay Server låter dig också bygga formulär i kod. JSON, i synnerhet. Istället för att titta på redigeraren kan butiksägare klicka på CODE-knappen precis bredvid redigeraren och komma in i koden för sina formulär. I en fältdefinition kan endast följande fält ställas in; värdena för fälten lagras i metadata för Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Fält | Beskrivning |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Om true, måste .value anges i formulärdefinitionen, och användaren kommer inte att kunna ändra fältets värde. (exempel: formulärdefinitionens version) |
+| .fields.type | HTML-indatatypen: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Om .fields.type är select, listan över valbara värden |
+| .fields.options.text | Texten som visas för detta alternativ |
+| .fields.options.value | Värdet på fältet om detta alternativ väljs |
+| .fields.type=fieldset | Skapa ett HTML-fieldset runt barnen .fields.fields (se nedan) |
+| .fields.name | JSON-egenskapsnamnet för fältet så som det kommer att visas i fakturans metadata |
+| .fields.value | Standardvärdet för fältet |
+| .fields.required | om true, kommer fältet att vara obligatoriskt |
+| .fields.label | Fältets etikett |
+| .fields.helpText | Ytterligare text för att ge en förklaring till fältet. |
+| .fields.fields | Du kan organisera dina fält i en hierarki, vilket gör att underfält kan bäddas in i fakturans metadata. Denna struktur kan hjälpa dig att bättre organisera och hantera den insamlade informationen, vilket gör den lättare att komma åt och tolka. Om du till exempel har ett formulär som samlar in kundinformation kan du gruppera fälten under ett föräldrafält som heter customer. Inom detta föräldrafält kan du ha underfält som name, Email och address. |
 
 Fältnamnet representerar det JSON-egenskapsnamn som lagrar det användartillhandahållna värdet i Invoice:s metadata. Vissa välkända namn kan tolkas och modifieras för att justera Invoice:s inställningar.
 
 
-| Field name       | Description            |
+
+| Fältnamn         | Beskrivning           |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Fakturabelopp         |
+| invoice_currency | Fakturavaluta         |
 
 Du kan förfylla fälten i en Invoice automatiskt genom att lägga till frågesträngar i formulärets URL, t.ex. "?your_field=value".
 
@@ -1905,7 +1895,7 @@ Som nämndes i föregående avsnitt kan serveradministratörer bjuda in använda
 BTCPay Server har två typer av anpassade roller: butiksspecifika anpassade roller och serveromfattande anpassade roller i BTCPay Server-inställningarna. Båda har en liknande uppsättning behörigheter; men om den ställs in via fliken BTCpay Serverinställningar - Roller kommer den tillämpade rollen att vara serveromfattande och gälla för flera butiker. Lägg märke till en "Server-wide"-tagg för de anpassade rollerna i Serverinställningar.
 
 
-![image](assets/en/71.webp)
+![image](assets/en/072.webp)
 
 
 ### Anpassade roller för hela servern
@@ -1951,7 +1941,7 @@ När rollen skapas är namnet fast och kan inte ändras efter att den har varit 
 De serveromfattande e-postinställningarna liknar dem i de butiksspecifika e-postinställningarna. Den här inställningen hanterar dock inte bara utlösare för butiker eller administratörsloggar, utan även utlösare för andra händelser. Denna e-postinställning gör också lösenordsåterställning tillgänglig på BTCPay Server vid inloggning. Det fungerar på samma sätt som de butiksspecifika inställningarna; administratörer kan snabbt fylla i sina e-postparametrar och ange sina e-postuppgifter, så att servern kan skicka e-post.
 
 
-![image](assets/en/72.webp)
+![image](assets/en/073.webp)
 
 
 ### Policys
@@ -1960,7 +1950,7 @@ De serveromfattande e-postinställningarna liknar dem i de butiksspecifika e-pos
 Policyadministratörer för BTCPay Server kan ange olika inställningar för ämnen som inställningar för befintliga användare, inställningar för nya användare, inställningar för meddelanden och inställningar för underhåll. Dessa är avsedda för att registrera nya användare som administratörer eller vanliga användare, eller för att dölja BTCPay Server från sökmotorer genom att lägga till den i serverhuvudet.
 
 
-![image](assets/en/73.webp)
+![image](assets/en/074.webp)
 
 
 #### Befintlig användare Inställningar
@@ -1978,7 +1968,7 @@ De alternativ som finns här är skilda från anpassade roller. Dessa ytterligar
   - I likhet med det tidigare ämnet om att skapa Hot-plånböcker tillåter denna policy import av en Hot Wallet, med samma faror som nämns i avsnittet om att skapa Hot-plånböcker.
 
 
-![image](assets/en/74.webp)
+![image](assets/en/075.webp)
 
 
 #### Nya användarinställningar
@@ -1997,13 +1987,13 @@ Vi kan ställa in några viktiga inställningar för att hantera nya användare 
 Som standard har BTCPay Server aktiverat "Inaktivera registrering av nya användare på servern" och stängt av icke-administratörers åtkomst till API-slutpunkten för skapande av användare. Detta är av säkerhetsskäl, så att slumpmässiga personer som snubblar över din BTCPay-inloggning inte kan skapa konton.
 
 
-![image](assets/en/75.webp)
+![image](assets/en/076.webp)
 
 
 #### Inställningar för aviseringar
 
 
-![image](assets/en/76.webp)
+![image](assets/en/077.webp)
 
 
 #### Inställningar för underhåll
@@ -2018,7 +2008,7 @@ BTCPay Server är ett Open Source-projekt som lever på GitHub. När BTCPay Serv
 - Aktivera experimentella funktioner.
 
 
-![image](assets/en/77.webp)
+![image](assets/en/078.webp)
 
 
 #### Plugins
@@ -2027,7 +2017,7 @@ BTCPay Server är ett Open Source-projekt som lever på GitHub. När BTCPay Serv
 BTCPay Server kan lägga till plugins och utöka sin funktionsuppsättning. Plugins laddas som standard från BTCPay Server plugin-builder repository. En administratör kan dock välja att se plugins i ett Pre-release-tillstånd, och om plugin-utvecklaren tillåter det kan serveradministratören nu installera betaversioner av plugins.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/079.webp)
 
 
 ##### Inställningar för anpassning
@@ -2041,7 +2031,7 @@ En standarddistribution av BTCPay Server kommer att vara tillgänglig via den do
   - Visar en lista över möjliga appar som kan visas på rotdomänen.
 
 
-![image](assets/en/79.webp)
+![image](assets/en/080.webp)
 
 
 
@@ -2049,7 +2039,7 @@ En standarddistribution av BTCPay Server kommer att vara tillgänglig via den do
   - När du klickar på för att konfigurera en specifik domän för specifika appar kan administratören konfigurera så många domäner som pekar på specifika appar som behövs.
 
 
-![image](assets/en/80.webp)
+![image](assets/en/081.webp)
 
 
 #### Blockutforskare
@@ -2058,7 +2048,7 @@ En standarddistribution av BTCPay Server kommer att vara tillgänglig via den do
 BTCPay Server kommer som standard med Mempool.space som sin Block explorer för transaktioner. När BTCPay Server genererar en ny Invoice och en transaktion är knuten till den kan butiksägaren klicka för att öppna transaktionen. BTCPay Server kommer som standard att peka mot Mempool.space som Block explorer, men en serveradministratör kan ändra detta till önskat alternativ.
 
 
-![image](assets/en/81.webp)
+![image](assets/en/082.webp)
 
 
 ### Tjänster
@@ -2070,7 +2060,7 @@ Fliken "Inställningar för BTCPay Server: Tjänster" är en översikt över de 
 En BTCPay-serveradministratör kan klicka på "Se information" bakom varje tjänst för att öppna den och ställa in specifika inställningar.
 
 
-![image](assets/en/82.webp)
+![image](assets/en/083.webp)
 
 
 #### LND (gRPC)
@@ -2095,7 +2085,7 @@ Serveradministratörer kan öppna fler detaljer för att se.
 #### LND (REST)
 
 
-BTCPay exponerar LND:s REST-tjänst för extern konsumtion; du hittar anslutningsinformation här; kompatibla plånböcker listas här. Bland de kompatibla plånböckerna finns Joule, Alby och ZeusLN. BTCPay Server tillhandahåller en QR-kod för anslutning, som kan skannas och användas i en kompatibel Wallet.
+BTCPay exponerar LND:s REST-tjänst för extern konsumtion; du hittar anslutningsinformation [här]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); kompatibla plånböcker listas [här](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Bland de kompatibla plånböckerna finns Joule, Alby och ZeusLN. BTCPay Server tillhandahåller en QR-kod för anslutning, som kan skannas och användas i en kompatibel Wallet.
 
 
 
@@ -2157,7 +2147,7 @@ BTCPay Server levereras som standard med två teman: Ljusa och mörka lägen. De
 Administratörer kan utöka Light/Dark-temat genom att lägga till sin egen anpassade CSS eller ställa in sitt anpassade tema som en fullständig anpassning.
 
 
-![image](assets/en/83.webp)
+![image](assets/en/084.webp)
 
 
 #### Servervarumärke
@@ -2166,7 +2156,7 @@ Administratörer kan utöka Light/Dark-temat genom att lägga till sin egen anpa
 Serveradministratörer kan ändra BTCPay Server-varumärket genom att ställa in ett varumärke för hela servern för ditt företag. Eftersom BTCPay Server är FOSS kan serveradministratörer vitmärka programvaran och anpassa utseendet så att det passar deras verksamhet.
 
 
-![image](assets/en/84.webp)
+![image](assets/en/085.webp)
 
 
 ### Underhåll
@@ -2178,7 +2168,7 @@ Som serveradministratör förväntar sig dina användare att du tar väl hand om
 BTCPay Server är ett projekt med öppen källkod och uppdateras ofta. Varje ny version meddelas antingen via dina BTCPay Server-meddelanden eller på de officiella kanalerna som BTCPay Server kommunicerar via.
 
 
-![image](assets/en/85.webp)
+![image](assets/en/086.webp)
 
 
 #### Domännamn
@@ -2187,7 +2177,7 @@ BTCPay Server är ett projekt med öppen källkod och uppdateras ofta. Varje ny 
 När BTCPay Server har konfigurerats kanske en administratör vill byta bort sin ursprungliga domän. På fliken Underhåll kan administratören ändra domänen. Efter att ha klickat på bekräfta och ställt in rätt DNS-poster på domänen uppdateras och startas BTCPay Server om för att återgå till den nya domänen.
 
 
-![image](assets/en/86.webp)
+![image](assets/en/087.webp)
 
 
 #### Omstart
@@ -2196,7 +2186,7 @@ När BTCPay Server har konfigurerats kanske en administratör vill byta bort sin
 Starta om BTCPay Server och relaterade tjänster.
 
 
-![image](assets/en/87.webp)
+![image](assets/en/088.webp)
 
 
 #### Ren
@@ -2205,7 +2195,7 @@ Starta om BTCPay Server och relaterade tjänster.
 BTCPay Server körs med Docker-komponenter; med uppdateringar kan det finnas rester av Docker-bilder, temp-filer etc. Serveradministratörer kan frigöra utrymme genom att köra Clean-skriptet.
 
 
-![image](assets/en/88.webp)
+![image](assets/en/089.webp)
 
 
 #### Uppdatering
@@ -2214,7 +2204,7 @@ BTCPay Server körs med Docker-komponenter; med uppdateringar kan det finnas res
 Det är det viktigaste alternativet på fliken Underhåll. BTCPay Server är byggd av samhället, och därför är dess uppdateringscykler mer frekventa än de flesta programvaruprodukter. När BTCPay Server har en ny release kommer administratörer att meddelas i deras meddelandecenter. Genom att klicka på uppdateringsknappen kommer BTCPay Server att kontrollera GitHub för den senaste versionen, uppdatera servern och starta om. Innan uppdatering rekommenderas serveradministratörer alltid att läsa de utgivningsanteckningar som distribueras via de officiella kanalerna för BTCPay Server.
 
 
-![image](assets/en/89.webp)
+![image](assets/en/090.webp)
 
 
 ### Loggar
@@ -2235,7 +2225,7 @@ Försök först och främst att avgöra när problemet uppstår. Försök att re
 ##### Uppdatering av servern
 
 
-Kontrollera din version av BTCPay Server om den är mycket äldre än den [senaste versionen] (https://github.com/btcpayserver/btcpayserver/releases) av BTCPay Server. Uppdatering av din server kan lösa problemet.
+Kontrollera din version av BTCPay Server om den är mycket äldre än den [senaste versionen](https://github.com/btcpayserver/btcpayserver/releases) av BTCPay Server. Uppdatering av din server kan lösa problemet.
 
 
 ##### Starta om servern
@@ -2289,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Loggar för    | Behållarnamn                       |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2408,10 +2399,10 @@ BTCPay Server har ett lokalt filsystem som gör det möjligt att ladda upp butik
 När serveradministratören befinner sig på fliken File Storage är det möjligt att ladda upp direkt till din server eller ändra fillagringsleverantören till ett lokalt filsystem eller Azure Blob Storage.
 
 
-![image](assets/en/90.webp)
+![image](assets/en/091.webp)
 
 
-![image](assets/en/91.webp)
+![image](assets/en/092.webp)
 
 
 ### Sammanfattning av färdigheter
@@ -2468,7 +2459,7 @@ Kärnan i BTCPay Server är förmågan att fungera som ett Bitcoin Invoice-hante
 Om du inte använder en inbyggd [Wallet](https://docs.btcpayserver.org/Wallet/) för att ta emot betalningar manuellt visas alla betalningar inom en butik på sidan Fakturor. Den här sidan sorterar betalningar efter datum och fungerar som en central resurs för Invoice-hantering och felsökning av betalningar.
 
 
-![image](assets/en/92.webp)
+![image](assets/en/093.webp)
 
 
 ### Allmänt
@@ -2480,21 +2471,22 @@ Om du inte använder en inbyggd [Wallet](https://docs.btcpayserver.org/Wallet/) 
 Tabellen nedan listar och beskriver standard Invoice-statusarna i BTCPay, tillsammans med förslag på vanliga åtgärder. Åtgärderna är bara rekommendationer. Det är upp till användarna att definiera det bästa tillvägagångssättet för deras användningsfall och verksamhet.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Fakturastatus | Beskrivning | Åtgärd |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ej betald, fakturatimern har ännu inte gått ut | Ingen |
+| New (paidPartial) | Betald delvis, fakturatimern har ännu inte gått ut | Ingen |
+| Expired | Ej betald, fakturatimern har gått ut | Ingen |
+| Expired (paidPartial) ** | Betald delvis och har gått ut | Kontakta köparen för återbetalning eller be dem betala resterande. Markera ev. fakturan som settled eller invalid |
+| Expired (paidLate) | Betald i sin helhet efter att fakturatimern gått ut | Kontakta köpare för återbetalning eller hantera ordern om sena bekräftelser accepteras. |
+| Settled (paidOver) | Betalat mer än fakturabeloppet, reglerad, fått tillräckligt med bekräftelser | Kontakta köparen för återbetalning av överskottet, eller vänta på att köparen kontaktar dig |
+| Processing | Betald helt, men har inte fått tillräckligt med bekräftelser enligt inställningarna | Kontakta köparen för återbetalning av överskottet, eller vänta på कि köparen kontaktar dig |
+| Processing (paidOver) | Betalat mer än fakturabeloppet, inte fått tillräckligt med bekräftelser | Vänta på att den blir settled, kontakta sedan köparen för återbetalning eller vänta på kontakt |
+| Settled | Betald helt, fått tillräckligt med bekräftelser i butiken | Leverera ordern |
+| Settled (marked) | Status ändrades manuellt till settled från status processing eller invalid | Butiksadministratören har markerat betalningen som settled |
+| Invalid* | Betald, men fick inte tillräckligt med bekräftelser inom angiven tid | Kontrollera transaktionen i en blockchain-explorer; om den har fått nog med bekräftelser, markera som settled |
+| Invalid (marked) | Status ändrades manuellt till invalid från status settled eller expired | Butiksadministratören har markerat betalningen som invalid |
+| Invalid (paidOver) | Betalat mer än fakturabeloppet, men fick inte nog med bekräftelser inom angiven tid | Kontrollera transaktionen i en blockchain-explorer; om den har fått nog med bekräftelser, markera som settled |
 
 #### Invoice detaljer
 
@@ -2586,7 +2578,7 @@ Butiksägare kan skriva ut betalningsförfrågningar (eller exportera Invoice-da
 - Utseende - Färg och stil med CSS-teman
 
 
-![image](assets/en/93.webp)
+![image](assets/en/094.webp)
 
 
 #### Skapa en betalningsbegäran
@@ -2595,7 +2587,7 @@ Butiksägare kan skriva ut betalningsförfrågningar (eller exportera Invoice-da
 I menyn till vänster går du till Betalningsuppdrag och klickar på "Skapa betalningsuppdrag".
 
 
-![image](assets/en/94.webp)
+![image](assets/en/095.webp)
 
 
 Ange namn på begäran, belopp, visad valör, associerad butik, utgångstid och beskrivning (valfritt)
@@ -2610,7 +2602,7 @@ Klicka på Save & View för att granska din betalningsbegäran.
 BTCPay skapar en URL för betalningsbegäran. Dela den här URL:en för att visa din betalningsbegäran. Behöver du flera av samma begäran? Du kan duplicera betalningsbegäranden med hjälp av alternativet Clone i huvudmenyn.
 
 
-![image](assets/en/95.webp)
+![image](assets/en/096.webp)
 
 
 **VARNING**
@@ -2625,7 +2617,7 @@ Betalningsbegäran är butiksberoende, vilket innebär att varje betalningsbegä
 Betalningsmottagaren och uppdragsgivaren kan se status för betalningsuppdraget efter att betalningen har skickats. Statusen visas som Settled om hela betalningen har mottagits. Om endast delbetalningar har gjorts visas det återstående saldot under Amount Due.
 
 
-![image](assets/en/96.webp)
+![image](assets/en/097.webp)
 
 
 #### Anpassa betalningsförfrågningar
@@ -2634,7 +2626,7 @@ Betalningsmottagaren och uppdragsgivaren kan se status för betalningsuppdraget 
 Innehållet i beskrivningen kan redigeras med hjälp av betalningsbegärans textredigerare. Båda alternativen är tillgängliga om du vill använda ytterligare färgteman eller anpassad CSS-styling.
 
 
-Icke-tekniska användare kan använda ett [bootstrap-tema] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Ytterligare anpassning kan göras genom att tillhandahålla ytterligare CSS-kod, som visas nedan.
+Icke-tekniska användare kan använda ett [bootstrap-tema](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Ytterligare anpassning kan göras genom att tillhandahålla ytterligare CSS-kod, som visas nedan.
 
 
 ```css
@@ -2683,13 +2675,13 @@ Vad händer om avsändaren, i stället för att skicka betalningen, låter motta
 ### Utbetalningar
 
 
-Utbetalningsfunktionen är kopplad till funktionen [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). Med den här funktionen kan du skapa utbetalningar i din BTCPay. Med den här funktionen kan du behandla pull-betalningar (återbetalningar, löneutbetalningar eller uttag).
+Utbetalningsfunktionen är kopplad till funktionen [Pull Payments](https://docs.btcpayserver.org/PullPayments/). Med den här funktionen kan du skapa utbetalningar i din BTCPay. Med den här funktionen kan du behandla pull-betalningar (återbetalningar, löneutbetalningar eller uttag).
 
 
 #### Exempel 1: Återbetalning
 
 
-Låt oss börja med exemplet med återbetalningen. Kunden har köpt en vara i din butik, men måste tyvärr returnera den. De vill ha en återbetalning. Inom BTCPay kan du skapa en [Återbetalning] (https://docs.btcpayserver.org/Refund/) och förse kunden med länken för att göra anspråk på sina pengar. När kunden har angett sitt Address och gjort anspråk på pengarna kommer de att visas i avsnittet Utbetalningar.
+Låt oss börja med exemplet med återbetalningen. Kunden har köpt en vara i din butik, men måste tyvärr returnera den. De vill ha en återbetalning. Inom BTCPay kan du skapa en [Återbetalning](https://docs.btcpayserver.org/Refund/) och förse kunden med länken för att göra anspråk på sina pengar. När kunden har angett sitt Address och gjort anspråk på pengarna kommer de att visas i avsnittet Utbetalningar.
 
 
 Den första statusen den har är Väntar på godkännande. Butikspersonal kan kontrollera om flera väntar, och efter att ha gjort valet använder du knappen Åtgärder.
@@ -2713,7 +2705,7 @@ Kunden blir nu uppdaterad på sidan Claiming. Han kan följa transaktionen efter
 #### Exempel 2: Lön
 
 
-Låt oss nu gå in på löneutbetalningen, eftersom denna styrs inifrån butiken och inte enligt kundens begäran. Det underliggande konceptet är detsamma; det utnyttjar pull-betalningar. Men istället för att skapa en återbetalning kommer vi att göra en [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Låt oss nu gå in på löneutbetalningen, eftersom denna styrs inifrån butiken och inte enligt kundens begäran. Det underliggande konceptet är detsamma; det utnyttjar pull-betalningar. Men istället för att skapa en återbetalning kommer vi att göra en [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Gå till fliken Pull Payments i din BTCPay-server. Klicka på knappen Skapa Pull-betalning längst upp till höger.
@@ -2757,7 +2749,7 @@ Efter detta kan avsändaren dela pull-betalningen med mottagaren via en länk, s
 När en utbetalning har skapats kommer den att räknas av mot pull-betalningens gräns för den aktuella perioden. Avsändaren kommer sedan att godkänna utbetalningen genom att ställa in den hastighet som utbetalningen ska skickas med och fortsätta med betalningen.
 
 
-För avsändaren tillhandahåller vi en lättanvänd metod för att gruppera flera utbetalningar från [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+För avsändaren tillhandahåller vi en lättanvänd metod för att gruppera flera utbetalningar från [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### Greenfield API
@@ -2823,7 +2815,7 @@ BTCPay Server gör det möjligt för butiksägare att snabbt skapa en försäljn
 När butiksägaren klickar på "Point of Sale" i sin vänstra menyrad kommer BTCPay Server nu att fråga efter ett namn; detta namn kommer att synas i den vänstra menyraden. Klicka på Create för att skapa PoS.
 
 
-![image](assets/en/97.webp)
+![image](assets/en/098.webp)
 
 
 #### Uppdatera den nyligen skapade kassan
@@ -2844,7 +2836,7 @@ Det namn som ges här till din försäljningspunkt kommer att synas i huvudmenyn
 Allmänheten kommer att se titeln eller namnet på din butik när de besöker den. BTCPay Server namnger som standard din butik "Tea shop" Ersätt detta med din butiks namn.
 
 
-![image](assets/en/98.webp)
+![image](assets/en/099.webp)
 
 
 #### Välj stil för försäljningsstället
@@ -2864,31 +2856,31 @@ BTCPay Server kan visa sin Point of Sale på flera sätt.
   - Om du inte alltid kan visa din produktlista digitalt behöver du en "offline"-lösning för produkter; BTCPay Server har en utskriftsdisplay för att fungera som en offlinebutik.
 
 
-![image](assets/en/99.webp)
+![image](assets/en/100.webp)
 
 
 #### Point Of Sale Style - Produktlista
 
 
-![image](assets/en/100.webp)
+![image](assets/en/101.webp)
 
 
 #### Point of Sale-stil - Produktlista + kundvagn
 
 
-![image](assets/en/101.webp)
+![image](assets/en/102.webp)
 
 
 #### Point Of Sale Style - endast knappsats
 
 
-![image](assets/en/102.webp)
+![image](assets/en/103.webp)
 
 
 #### Point of Sale Style - Display för utskrift
 
 
-![image](assets/en/103.webp)
+![image](assets/en/104.webp)
 
 
 #### Valuta
@@ -2903,7 +2895,7 @@ Butiksägaren kan ange en annan valuta för sin Point of Sale än den övergripa
 Berätta för världen om din butik; vad säljer du och för hur mycket? Allt som förklarar din butik hamnar här.
 
 
-![image](assets/en/104.webp)
+![image](assets/en/105.webp)
 
 
 #### Produkter
@@ -2932,7 +2924,7 @@ När butiksägaren har fyllt i alla nya produktfält klickar du på spara och du
 Butiksägare kan också använda "Raw Editor" för att konfigurera sina produkter. Raw Editor kräver en grundläggande förståelse för JSON-strukturer.
 
 
-![image](assets/en/105.webp)
+![image](assets/en/106.webp)
 
 
 #### Checka ut
@@ -2983,7 +2975,7 @@ Bredvid Point of Sale-plugin har BTCPay Server möjlighet att skapa en crowdfund
 Klicka på Crowdfund-plugin via huvudmenyn till vänster på din BTCPay Server, under Plugin-sektionen. BTCPay Server kommer nu att begära ett namn för Crowdfund; detta namn kommer också att visas i det vänstra menyfältet.
 
 
-![image](assets/en/106.webp)
+![image](assets/en/107.webp)
 
 
 #### Uppdatera den nyligen skapade kassan
@@ -3010,7 +3002,7 @@ Titeln ges till Crowdfund för allmänheten.
 Ge crowdfundaren en one-liner för att känna igen vad insamlingen handlar om.
 
 
-![image](assets/en/107.webp)
+![image](assets/en/108.webp)
 
 
 #### URL för utvald bild
@@ -3031,7 +3023,7 @@ Med den här knappen blir din crowdfund offentlig och därmed synlig för omvär
 Berätta för världen om din Crowdfund. Vad samlar du in pengar till? Allt som förklarar din crowdfund går här.
 
 
-![image](assets/en/108.webp)
+![image](assets/en/109.webp)
 
 
 #### Crowdfunding Mål
@@ -3040,7 +3032,7 @@ Berätta för världen om din Crowdfund. Vad samlar du in pengar till? Allt som 
 Sätt upp ett mål för vad insamlaren ska tjäna till projektet och vilken valuta målet ska vara i. Se till att om dina mål är satta mellan datum, inkludera dessa mål- och slutdatum under Mål i crowdfund.
 
 
-![image](assets/en/109.webp)
+![image](assets/en/110.webp)
 
 
 #### Förmåner
@@ -3066,7 +3058,7 @@ Att skapa en ny förmån består av följande fält.
 När butiksägaren har fyllt i alla fält för den nya förmånen klickar du på spara och du kommer att märka att avsnittet Förmåner i Crowdfunds nu fylls i.
 
 
-![image](assets/en/110.webp)
+![image](assets/en/111.webp)
 
 
 ### BTCPay Server - Försäljningsställe
@@ -3324,13 +3316,13 @@ https://docs.btcpayserver.org.
 Gå först till LunaNode.com:s webbplats, där vi skapar ett nytt konto. Klicka på Sign Up uppe till höger eller använd guiden Get Started på hemsidan.
 
 
-![image](assets/en/111.webp)
+![image](assets/en/112.webp)
 
 
 Efter att du har skapat ditt nya konto skickar LunaNode ett verifieringsmejl. När du har verifierat kontot, jämfört med Voltage, får du omedelbart möjlighet att fylla på ditt kontosaldo. Detta saldo är nödvändigt för att täcka serverutrymmet och värdkostnaderna.
 
 
-![image](assets/en/112.webp)
+![image](assets/en/113.webp)
 
 
 #### Lägg till kredit på ditt LunaNode-konto
@@ -3354,7 +3346,7 @@ I din LunaNode-instrumentpanel klickar du på API längst upp till höger. Detta
 När du har skapat API-autentiseringsuppgifterna får du en lång sträng med bokstäver och tecken. Detta är din API-nyckel.
 
 
-![image](assets/en/113.webp)
+![image](assets/en/114.webp)
 
 
 #### Hur distribuerar jag en ny server?
@@ -3369,7 +3361,7 @@ Här kommer du att bli ombedd att ange din API-nyckel och API-ID. Detta är för
 Du kan gå tillbaka till sidan med Launcher, fylla i fälten med din API-nyckel och ditt ID och klicka på fortsätt.
 
 
-![image](assets/en/114.webp)
+![image](assets/en/115.webp)
 
 
 I nästa steg kan du ange ett domännamn. Om du redan äger en domän och vill använda den för BTCPay Server, se till att du också lägger till DNS-posten (kallas en "A"-post) på din domän. Om du inte äger en domän använder du istället den domän som LunaNode tillhandahåller (du kan ändra detta senare i inställningarna för BTCPay Server) och klickar på Fortsätt.
@@ -3390,7 +3382,7 @@ Den här guiden syftar till att ställa in en Mainnet-miljö (Bitcoin i verkligh
 Du kan välja din Lightning-implementering. LunaNode erbjuder två olika implementationer, LND och Core Lightning. I den här guiden kommer vi att använda LND. Det finns få men verkliga skillnader i båda implementationerna; för mer om detta rekommenderar vi att du läser den omfattande dokumentationen: https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
 
 
-![image](assets/en/115.webp)
+![image](assets/en/116.webp)
 
 
 LunaNode erbjuder flera planer för virtuella maskiner (VM). Dessa skiljer sig åt när det gäller prisintervall och serverspecifikationer. I den här guiden räcker det med en m2-plan, men om du har valt mer än bara Bitcoin som valuta bör du överväga att använda minst en m4.
@@ -3405,7 +3397,7 @@ När du har fyllt i formuläret måste du klicka på Launch VM, och Lunanode bö
 Efter skapandeprocessen klickar du på länken till din BTCPay-server; här kommer du att bli ombedd att skapa ett administratörskonto.
 
 
-![image](assets/en/116.webp)
+![image](assets/en/117.webp)
 
 
 ### Sammanfattning av färdigheter
@@ -3448,19 +3440,19 @@ https://docs.btcpayserver.org.
 Först går du till webbplatsen Voltage.cloud och registrerar dig för ett nytt konto. När du skapar ett konto kan du registrera dig för en 7-dagars gratis provperiod. Klicka antingen på Sign Up uppe till höger eller använd "Prova en gratis 7-dagars provperiod" på deras hemsida.
 
 
-![image](assets/en/117.webp)
+![image](assets/en/118.webp)
 
 
 När du har skapat ett konto klickar du på knappen "NODES" på din instrumentpanel. När vi har valt Nodes och skapat en ny nod får vi presenterat de möjliga nodernas Voltage-erbjudanden. Eftersom den här guiden också kommer att täcka Lightning Network, vid Voltage, måste vi först välja vår Lightning-implementering innan vi skapar en BTCPay-server. Klicka på LightningNode.
 
 
-![image](assets/en/118.webp)
+![image](assets/en/119.webp)
 
 
 Här måste du välja vilken typ av Lightning-nod du vill ha. Voltage har en mängd olika alternativ för din belysningsinstallation. Detta är annorlunda när du distribuerar med till exempel LunaNode. För avsikten med denna guide räcker det med en Lite Node. Läs mer om skillnaderna i Voltage.cloud.
 
 
-![image](assets/en/119.webp)
+![image](assets/en/120.webp)
 
 
 Ge din nod ett namn, ange ett lösenord och säkra lösenordet. Om lösenordet försvinner förlorar du åtkomst till dina säkerhetskopior och Voltage kan inte återställa det. Skapa noden och Voltage visar dig hur det går. Voltage har skapat din Lightning Node. Vi kan nu skapa BTCPay Server-instansen och få direkt åtkomst till Lightning Network.
@@ -3472,7 +3464,7 @@ Klicka på Nodes längst upp till vänster på instrumentpanelen. Här kan du st
 Voltage visar dig geolokaliseringen av din BTCPay-server, som är hostad i US West-regionen. Här ser du också kostnaden för att vara värd för servern. Klicka på Skapa och ge din BTCPay-server ett namn. Aktivera Lightning och Voltage visar dig Lightning-noden som skapades i föregående steg. Klicka på Create och Voltage skapar en BTCPay Server-instans.
 
 
-![image](assets/en/120.webp)
+![image](assets/en/121.webp)
 
 
 När du har tryckt på create visar Voltage ett standardanvändarnamn och ett standardlösenord. Dessa liknar ditt tidigare inställda lösenord i Voltage. Klicka på knappen Logga in på konto för att omdirigera dig till din BTCPay-server.
@@ -3513,7 +3505,7 @@ I slutet av dessa steg kan du acceptera blixtbetalningar till din BTCPay-butik i
 https://umbrel.com/
 
 
-![image](assets/en/121.webp)
+![image](assets/en/122.webp)
 
 
 ### BTCPay Server - Umbrel-distribution
@@ -3522,13 +3514,13 @@ https://umbrel.com/
 När din Umbrel-nod har synkroniserats helt med Bitcoin Blockchain går du till Umbrel App Store och söker efter BTCPay Server under Apps.
 
 
-![image](assets/en/122.webp)
+![image](assets/en/123.webp)
 
 
 Klicka på BTCPay Server för att se appens detaljer. När detaljerna för BTCPay Server är öppna visar det nedre högra hörnet kraven för att appen ska fungera korrekt. Det visar att det krävs en Bitcoin och Lightning-nod. Om du inte har installerat Lightning-noden på din Umbrel klickar du på Installera. Denna process kan ta ett par minuter.
 
 
-![image](assets/en/123.webp)
+![image](assets/en/124.webp)
 
 
 Efter att ha installerat din Lightning Node:
@@ -3541,7 +3533,7 @@ Efter att ha installerat din Lightning Node:
 3. Skriv ner dessa.
 
 
-![image](assets/en/124.webp)
+![image](assets/en/125.webp)
 
 
 Umbrel kommer att be om verifiering av de ord som just skrivits ner. När Lightning-noden är konfigurerad, gå tillbaka till Umbrel App Store och leta upp BTCPay Server. Klicka på installationsknappen och Umbrel kommer att visa om de nödvändiga komponenterna är installerade och att BTCPay Server kräver åtkomst till dessa komponenter. Efter installationen klickar du på Open uppe till höger i App details eller öppnar BTCPay Server via din Umbrels instrumentpanel.
@@ -3550,7 +3542,7 @@ Umbrel kommer att be om verifiering av de ord som just skrivits ner. När Lightn
 Umbrel kommer att be om verifiering av de ord som just skrivits ner.
 
 
-![image](assets/en/125.webp)
+![image](assets/en/126.webp)
 
 
 **!?Note!?**
@@ -3562,13 +3554,13 @@ Se till att förvara dessa på ett säkert ställe, på samma sätt som du tidig
 När Lightning-noden är konfigurerad, gå tillbaka till Umbrel App Store och leta upp BTCPay Server. Klicka på installationsknappen och Umbrel kommer att visa om de nödvändiga komponenterna är installerade och att BTCPay Server kräver åtkomst till dessa komponenter.
 
 
-![image](assets/en/126.webp)
+![image](assets/en/127.webp)
 
 
 Efter installationen klickar du på Öppna längst upp till höger i appdetaljerna eller öppnar BTCPay Server via din Umbrels-instrumentpanel.
 
 
-![image](assets/en/127.webp)
+![image](assets/en/128.webp)
 
 
 ### Sammanfattning av färdigheter

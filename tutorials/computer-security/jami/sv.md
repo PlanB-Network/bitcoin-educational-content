@@ -19,25 +19,26 @@ Idag finns Jami tillgängligt på många system. Det är känt för sin prestand
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Applikation | E2EE 1:1 | E2EE-grupper | Anonym registrering | Klientlicens (öppen källkod) | Serverlicens (öppen källkod) | Decentraliserad server | Grundat år |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| **Jami**                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (valfritt) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (valfritt) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federerad) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (via e-post) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federerad) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (ingen katalog) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| **Jami** | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = End-to-end-kryptering*
 
@@ -50,11 +51,11 @@ Idag finns Jami tillgängligt på många system. Det är känt för sin prestand
 
 
 
-- Det är öppen källkod och helt gratis**, så du kan använda det utan kostnad.
-- Komplett med användbara funktioner**: Med den här programvaran kan du dra nytta av många alternativ tack vare möjligheten att enkelt lägga till plugins från butiken. Det är även möjligt att skapa egna tillägg för funktioner som är mer anpassade till dina behov.
-- Lätt att använda och Interface intuitivt**: trots de många funktioner som Jami har att erbjuda är det fortfarande mycket enkelt att komma igång.
-- Stark säkerhet**: Jami innehåller en avancerad krypteringsalgoritm som garanterar säkerheten för din kommunikation samtidigt som den respekterar din integritet.
-- Mycket lättillgänglig och snabb**: den erbjuder enkel kommunikation även när bandbredden är begränsad, vilket ger ökad användarvänlighet.
+- Det är öppen källkod och helt gratis, så du kan använda det utan kostnad.
+- **Komplett med användbara funktioner**: Med den här programvaran kan du dra nytta av många alternativ tack vare möjligheten att enkelt lägga till plugins från butiken. Det är även möjligt att skapa egna tillägg för funktioner som är mer anpassade till dina behov.
+- **Lätt att använda och Interface intuitivt**: trots de många funktioner som Jami har att erbjuda är det fortfarande mycket enkelt att komma igång.
+- **Stark säkerhet**: Jami innehåller en avancerad krypteringsalgoritm som garanterar säkerheten för din kommunikation samtidigt som den respekterar din integritet.
+- **Mycket lättillgänglig och snabb**: den erbjuder enkel kommunikation även när bandbredden är begränsad, vilket ger ökad användarvänlighet.
 
 
 
@@ -82,7 +83,7 @@ Applikationen finns tillgänglig direkt från App Store eller Play Store. Sök b
 
 
 
-För att installera Jami på din enhet måste du först besöka den officiella Jami-webbplatsen. Som standard visar webbplatsen den programvara som motsvarar din enhets operativsystem, och du kan klicka direkt på nedladdningsknappen för att starta den. Du kan dock också ladda ner den körbara Windows-filen direkt från [nedladdningssidan] (https://jami.net/download-jami-windows/).
+För att installera Jami på din enhet måste du först besöka den officiella Jami-webbplatsen. Som standard visar webbplatsen den programvara som motsvarar din enhets operativsystem, och du kan klicka direkt på nedladdningsknappen för att starta den. Du kan dock också ladda ner den körbara Windows-filen direkt från [nedladdningssidan](https://jami.net/download-jami-windows/).
 
 
 
@@ -90,7 +91,7 @@ För att installera Jami på din enhet måste du först besöka den officiella J
 
 
 
-För macOS-användare är filen också tillgänglig från [macOS download page] (https://jami.net/download-jami-macos/).
+För macOS-användare är filen också tillgänglig från [macOS download page](https://jami.net/download-jami-macos/).
 
 
 
@@ -118,7 +119,7 @@ För att installera Jami på Linux är det bäst att använda kommandoraden. Det
 
 
 
-När du har valt din distribution kan du installera systemet. Du måste installera de beroenden som krävs för att köra Jami på ditt Linux-operativsystem. Kommandona är direkt tillgängliga på [den här sidan] (https://jami.net/download-jami-linux/).
+När du har valt din distribution kan du installera systemet. Du måste installera de beroenden som krävs för att köra Jami på ditt Linux-operativsystem. Kommandona är direkt tillgängliga på [den här sidan](https://jami.net/download-jami-linux/).
 
 
 
@@ -140,7 +141,7 @@ Detta kommando installerar de verktyg som behövs för att hantera GPG-nycklar (
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -312,7 +313,7 @@ När lösenordet har angetts kommer enheten automatiskt att ansluta till kontot 
 
 
 
-En av Jamis intressanta funktioner är dess förmåga att integrera nya alternativ via tillägg (plugins). Plugins är inbyggda moduler (C/C++); SDK tillhandahåller verktyg och skript (särskilt i Python) för att hjälpa till att skapa dem. Vissa plugins är tillgängliga direkt [här] (https://jami.net/extensions/).
+En av Jamis intressanta funktioner är dess förmåga att integrera nya alternativ via tillägg (plugins). Plugins är inbyggda moduler (C/C++); SDK tillhandahåller verktyg och skript (särskilt i Python) för att hjälpa till att skapa dem. Vissa plugins är tillgängliga direkt [här](https://jami.net/extensions/).
 
 
 
@@ -338,9 +339,9 @@ Jami erbjuder också **avancerade funktioner** för användare som vill gå län
 
 
 
-- Skapa en rendezvouspunkt**: Med den här funktionen kan du skapa en **mötesplats** för din kommunikation, vilket är användbart för att organisera säkra sessioner eller utbyten mellan flera användare.
-- Anslut till en Jami-server**: Du kan ansluta Jami till en **Jami-server**, vilket kan förbättra prestandan eller tillgängligheten för kommunikation, särskilt i professionella miljöer.
-- Skapa ett SIP-konto**: Du kan skapa ett **SIP-konto** (Session Initiation Protocol), vilket gör att du kan integrera Jami med befintliga telefonsystem eller ringa telefonsamtal.
+- Skapa en **rendezvouspunkt**: Med den här funktionen kan du skapa en **mötesplats** för din kommunikation, vilket är användbart för att organisera säkra sessioner eller utbyten mellan flera användare.
+- **Anslut till en Jami-server**: Du kan ansluta Jami till en **Jami-server**, vilket kan förbättra prestandan eller tillgängligheten för kommunikation, särskilt i professionella miljöer.
+- **Skapa ett SIP-konto**: Du kan skapa ett **SIP-konto** (Session Initiation Protocol), vilket gör att du kan integrera Jami med befintliga telefonsystem eller ringa telefonsamtal.
 
 
 
@@ -360,4 +361,4 @@ Discover Tox, ett decentraliserat protokoll som kombinerar end-to-end-kryptering
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

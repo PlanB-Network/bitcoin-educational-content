@@ -1,12 +1,12 @@
-question: What is the mechanism that ensures a new block is added to the blockchain every ten minutes?
-answer: Difficulty adjustment.
+question: What was the estimated number of bitcoins in circulation after the first halving?
+answer: 10,500,000 BTC.
 wrong_answers:
-  - Speed adjustment.
-  - Time adjustment.
-  - Block adjustment.
+  - 5,250,000 BTC.
+  - 15,750,000 BTC.
+  - 21,000,000 BTC.
 explanation: |
-  The mechanism that ensures a new block is added to the
-  blockchain every ten minutes is the difficulty adjustment.
-  This adjustment takes place every 2016 blocks, or around
-  two weeks.
+  After the first halving, which occurred at block height
+  210,000, the estimated number of bitcoins in circulation
+  was 10,500,000 BTC, which is half of the total number of
+  bitcoins that will be in circulation.
 reviewed: true

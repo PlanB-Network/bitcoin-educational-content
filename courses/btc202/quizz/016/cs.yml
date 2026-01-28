@@ -1,0 +1,9 @@
+question: Kdo byl posledním hlavním správcem Bitcoin core, než byla tato funkce v roce 2023 zrušena?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan zastával tuto funkci od roku 2014 do roku 2023, kdy vystřídal Gavina Andresena a předcházel ukončení této funkce.
+reviewed: true

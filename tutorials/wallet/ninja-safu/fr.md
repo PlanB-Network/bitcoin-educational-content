@@ -8,7 +8,7 @@ description: Sauvegarder sa seed avec la méthode SAFU Ninja
 
 La méthode **Ninja SAFU** est une solution **DIY (Do It Yourself)** qui vous permet de créer une sauvegarde **durable, sécurisée et discrète** de votre **seed phrase** (phrase mnémonique de 12 ou 24 mots définie par la norme **BIP-39**). Cette phrase est indispensable pour restaurer un portefeuille Bitcoin ou tout autre portefeuille compatible.
 
-Au lieu de noter vos mots sur du papier – une méthode simple mais vulnérable – vous allez les graver sur des **rondelles en acier inoxydable**, assemblées sur un **boulon**. Le résultat est une sauvegarde compacte, résistante au feu, à la corrosion, à l’eau et aux chocs. Contrairement au papier, qui peut être détruit par les flammes, l’humidité ou le temps, l’acier inoxydable garantit une conservation à long terme, même dans des conditions extrêmes (jusqu’à 1300°C ou 20 tonnes de pression).
+Au lieu de noter vos mots sur du papier, une méthode simple mais vulnérable, vous allez les graver sur des **rondelles en acier inoxydable**, assemblées sur un **boulon**. Le résultat est une sauvegarde compacte, résistante au feu, à la corrosion, à l’eau et aux chocs. Contrairement au papier, qui peut être détruit par les flammes, l’humidité ou le temps, l’acier inoxydable garantit une conservation à long terme, même dans des conditions extrêmes (jusqu’à 1300°C ou 20 tonnes de pression).
 
 L’approche Ninja SAFU présente plusieurs avantages :
 
@@ -151,15 +151,15 @@ Même bien stockée, votre sauvegarde nécessite un **contrôle régulier** :
 
 ### A.1 Sauvegarder sa phrase de récupération
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### A.2 Comprendre la Passphrase BIP39
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ### A.3 Les rouages des portefeuilles Bitcoin
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### A.4 Classement de la méthode Ninja SAFU

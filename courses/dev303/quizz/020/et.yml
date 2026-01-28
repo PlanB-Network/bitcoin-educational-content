@@ -1,0 +1,8 @@
+question: Mis on peamine erinevus meetodite ja nendega seotud funktsioonide vahel Rust struktuurides?
+answer: Meetodid võtavad esimese parameetrina iseennast, kuid seotud funktsioonid mitte
+wrong_answers:
+  - Meetodid on vaikimisi avalikud, samas kui nendega seotud funktsioonid on vaikimisi privaatsed
+  - Meetodid saavad ainult andmeid lugeda, kuid seotud funktsioonid saavad struktuuri välju muuta
+  - Meetodite kutsumiseks kasutatakse punktmärkust, seotud funktsioonid aga noolemärkust
+explanation: |
+  Rust meetodid on funktsioonid, mis on defineeritud impl-blokis, mis võtavad esimese parameetrina mingi vormi self (self, &self või &mut self), mis võimaldab neil tegutseda struktuuri instantsidega. Seotud funktsioonid on samuti defineeritud impl plokkides, kuid ei võta parameetrina self'i, mistõttu on need sarnased teiste keelte staatiliste meetoditega. Assotsieerunud funktsioone kutsutakse topeltkolli süntaksiga (Type::function_name()) ja neid kasutatakse tavaliselt konstruktoritena, samas kui meetodeid kutsutakse instantside puhul punktmärkega. Teised valikud on valed, sest nii meetodid kui ka seotud funktsioonid järgivad samu nähtavusreegleid, mõlemad võivad olla mõeldud andmete muutmiseks või lugemiseks sõltuvalt nende rakendusest ja seotud funktsioonid kasutavad topeltkakandikolonni süntaksit, mitte noole notatsiooni.

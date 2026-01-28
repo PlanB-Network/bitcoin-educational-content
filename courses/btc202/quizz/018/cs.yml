@@ -1,0 +1,9 @@
+question: Jaká je nejrozšířenější implementace uzlu Bitcoin?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  S přibližně 9 z 10 uzlů v síti je Bitcoin core většinovým zákazníkem.
+reviewed: true

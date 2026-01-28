@@ -1,0 +1,9 @@
+question: Minkä mekanismin avulla voidaan ladata tilannekuva UTXO-sarjasta, jotta solmusta saadaan nopeasti käyttökelpoinen?
+answer: assumeutxo
+wrong_answers:
+  - assumechainstate
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo lataa tilannekuvan UTXO-joukosta, jotta solmu saadaan nopeasti toimintaan, samalla kun koko UTXO-joukko rakennetaan uudelleen taustalla.
+reviewed: true

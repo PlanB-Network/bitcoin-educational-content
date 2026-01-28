@@ -1,9 +1,9 @@
-question: Kuidas kaevurid oma töö eest tasu saavad?
-answer: Kaevurid saavad tasu läbi ploki sees sisalduva preemia ja tehingutasude kaudu.
+question: Mis on kaevurite roll Bitcoin protokollis?
+answer: Nad tagavad praeguse ja ajaloolise võrgu turvalisuse
 wrong_answers:
-  - Kaevurid saavad tasu Bitcoin võrgustikult.
-  - Kaevurid saavad oma töö eest fikseeritud palka.
-  - Kaevurid kompenseeritakse uute bitcoinidega.
+  - Nad reguleerivad Bitcoini hinda
+  - Nad kontrollivad Bitcoini pakkumist
+  - Nad haldavad kasutajatevahelisi tehinguid
 explanation: >-
-  Kui kaevur edukalt kaevandab ploki, saavad nad preemiana uusi bitcoine. See preemia on lisatud plokki, mille nad kaevandasid. Lisaks saavad kaevurid ka tehingutasusid tehingutelt, mis on plokis sisalduvad.
+  Kaevurid Bitcoin protokollis tagavad nii praeguse kui ka ajaloolise võrgu turvalisuse. Nad ei reguleeri Bitcoini hinda, ei kontrolli selle pakkumist ega halda kasutajatevahelisi tehinguid.
 reviewed: false

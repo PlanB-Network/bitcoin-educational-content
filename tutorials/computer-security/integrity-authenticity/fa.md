@@ -234,4 +234,4 @@ sparrow_2.0.0-1_amd64.deb: OK
 من همچنین توصیه می‌کنم این آموزش دیگر درباره VeraCrypt را بررسی کنید، نرم‌افزاری که به شما امکان رمزگذاری و رمزگشایی دستگاه‌های ذخیره‌سازی را می‌دهد.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

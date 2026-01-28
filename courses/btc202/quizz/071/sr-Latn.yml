@@ -1,0 +1,9 @@
+question: Koje datoteke čvor prvo konsultuje da pronađe svoje stare peer-ove pri ponovnom pokretanju?
+answer: anchors.dat i peers.dat
+wrong_answers:
+  - Mempool.dat i peers.dat
+  - Mempool.dat i ip.dat
+  - ip.dat i anchors.dat
+explanation: |
+  Bitcoin core prvo konsultuje anchors.dat (prethodni odlazni čvorovi), zatim peers.dat (poznata Address knjiga) da bi se ponovo povezao.
+reviewed: true

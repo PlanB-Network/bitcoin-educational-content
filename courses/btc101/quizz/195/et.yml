@@ -1,11 +1,9 @@
-question: Mis on üks viis, kuidas hõlbustada Bitcoini kasutamist igapäevastes tehingutes?
-answer: Loetle kõik kaupmehed, kes aktsepteerivad Bitcoini
+question: Mis on üks viisidest saada Bitcoine ilma KYC-ta?
+answer: Bitcoin'i automaadid.
 wrong_answers:
-  - Tõsta Bitcoini hinda
-  - Vähenda Bitcoini kogust
-  - Piira Bitcoini kasutamist
+  - Maaklerplatvormid.
+  - DCA platvormid.
+  - Pangatehingud.
 explanation: >-
-  Üks viis, kuidas hõlbustada Bitcoini kasutamist igapäevastes tehingutes, on
-  loetleda kõik kaupmehed, kes aktsepteerivad Bitcoini. Seda saab teha platvormide
-  kaudu nagu BTCMap.
+  Tekstis mainitakse, et on mitmeid viise saada Bitcoine ilma KYC-ta, millest üks on Bitcoin'i automaadid.
 reviewed: false

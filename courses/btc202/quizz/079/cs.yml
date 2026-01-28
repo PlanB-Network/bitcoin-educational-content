@@ -1,0 +1,9 @@
+question: Jaká je maximální velikost souboru blkNNNNN.dat před vytvořením nového souboru?
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256 GiB
+  - 128 GiB
+explanation: |
+  Soubory blkNNNNN.dat ukládají bloky postupně a dosahují velikosti přibližně 128 MiB, než Bitcoin core otevře další.
+reviewed: true

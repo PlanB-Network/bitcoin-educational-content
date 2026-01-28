@@ -1,12 +1,9 @@
-question: None Milton Friedman yari yaravuze iki mu 1999?
-answer: Gutegura amafaranga y’ubuhinga bwa none yizigirwa.
+question: Ni ikihe muri ibi bikorwa vya Lightning vyandikwa onchain?
+answer: Gufungura umuyoboro
 wrong_answers:
-  - Uguhera kw’amahera y’umubiri.
-  - Ukwiyongera kwa Bitcoin.
-  - Iherezo ry’ubugenzuzi bwa Leta ku mahera.
+  - Ukwishura hagati
+  - Kuvugurura uko ibintu bimeze
+  - Gucisha mu mihanda myinshi
 explanation: |
-  Milton Friedman, umuhinga mu vy’ubutunzi azwi cane, yaravuze imbere y’igihe mu 1999 .
-  ko amahera yo kwizigirwa yo kuri interineti yoca ategurwa vuba, uburyo .
-  aho kuri Internet ushobora gukura amahera kuri A ukaja kuri B,
-  ata A azi B canke ibihushanye n’ivyo.
-reviewed: true
+  Gufungura no gufunga umuyoboro wa Lightning ni vyo gusa bihuye n’ibikorwa vya Bitcoin bishirwa kuri blockchain.
+reviewed: false

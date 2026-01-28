@@ -1,0 +1,8 @@
+question: Metin, ilk toplumlardan modern üretime kadar insanoğlunun ekonomik faaliyetlerine ilişkin hangi tarihsel ilerlemeyi tanımlıyor?
+answer: Toplumlar avcılık, balıkçılık ve toplayıcılık yoluyla pasif toplayıcılıktan yeni hizmet ve araçların aktif olarak yaratılmasına doğru evrilmiştir
+wrong_answers:
+  - Toplumlar bireysel geçimlik tarımdan büyük ölçekli endüstriyel imalat ve seri üretime doğru ilerledi
+  - İnsan faaliyetleri takas sistemlerinden parasal değiş tokuşa ve nihayetinde karmaşık finansal piyasalara doğru gelişti
+  - Ekonomik gelişme, ortak mülkiyetten özel mülkiyete ve ardından kurumsal yapılara doğru ilerledi
+explanation: |
+  Metin özellikle üretimi tarihsel bir fetih olarak tanımlamakta ve ilk insan toplumlarının avcılık, balıkçılık ve toplayıcılık yoluyla mevcut kaynakları toplamakla sınırlı olduğunu ve asgari düzeyde üretken faaliyette bulunduklarını açıklamaktadır. Kilit geçiş, bu pasif toplamadan, metnin yeni fayda yaratmak ve başkalarına veya kendine hizmet sağlamak olarak tanımladığı aktif üretime geçişti. Bu, sadece doğanın sunduklarını toplamaktan, daha önce var olmayan değer ve faydayı aktif olarak yaratmaya doğru temel bir geçişi temsil etmektedir.

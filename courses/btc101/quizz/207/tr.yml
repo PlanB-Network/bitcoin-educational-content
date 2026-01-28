@@ -1,8 +1,12 @@
-question: Bitcoin'inizi bir Exchange platformunda bırakmanın potansiyel risklerinden biri nedir?
-answer: Bilgisayar korsanlığı ve fon engelleme riskleri.
+question: Milton Friedman 1999 yılında ne öngörmüştü?
+answer: Güvenilir bir e-nakit geliştirilmesi.
 wrong_answers:
-  - Platformun Bitcoin'nin fiyatını artırma riski.
-  - Bitcoin'ün Supply'ünü kontrol eden platformun riski.
-  - Bitcoin'in fiyatının bir kripto para birimi tarafından aşılması riski.
-explanation: >-
+  - Fiziksel paranın ölümü.
+  - Bitcoin'ın yükselişi.
+  - Devletin para üzerindeki kontrolünün sonu.
+explanation: |
+  Ünlü ekonomist Milton Friedman 1999 yılında şu öngörüde bulunmuştur
+  güvenilir bir e-paranın yakında geliştirileceğini, bir yöntemin
+  bu sayede internet üzerinden A'dan B'ye para transferi yapabilirsiniz,
+  a, B'yi bilmeden ya da tam tersi.
 reviewed: true

@@ -1,8 +1,8 @@
-question: Wat is de Hashrate?
-answer: Het aantal Hash berekeningen dat een Mining apparaat per seconde kan uitvoeren om de Proof of Work op te lossen.
+question: Wat is de betekenis van de energie-uitgaven in Bitcoin Mining?
+answer: Er is energie nodig om de informatie te produceren, maar de verificatie van de informatie heeft verwaarloosbare kosten. Deze asymmetrie garandeert de veiligheid van het netwerk.
 wrong_answers:
-  - De snelheid waarmee een Mining apparaat de Proof of Work kan oplossen.
-  - Het totale aantal mijnwerkers in het Bitcoin netwerk.
-  - Het totale aantal bitcoins dat is gemined door een bepaald aantal pogingen per seconde uit te voeren om de Proof of Work op te lossen.
+  - De energiekosten zijn nodig om de ASIC machines die gebruikt worden in Mining van energie te voorzien, en de verificatie van informatie heeft hoge kosten.
+  - De energie-uitgaven zijn nodig om het Bitcoin netwerk te onderhouden en de verificatie van informatie heeft variabele kosten.
+  - De energiekosten zijn niet nodig om nieuwe bitcoins te maken.
 explanation: >-
-reviewed: true
+reviewed: false

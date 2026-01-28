@@ -1,13 +1,13 @@
-question: Altının bir para birimi olarak temel avantajı nedir?
-answer: İnanılmaz derecede dayanıklıdır.
+question: Para basmanın sonucu nedir?
+answer: Enflasyona yol açarak halkı giderek yoksullaştırır.
 wrong_answers:
-  - Kolayca bölünebilir veya uzun mesafelere taşınabilir.
-  - Kolayca doğrulanabilir.
-  - Hükümet tarafından düzenlenmemektedir.
+  - Deflasyona yol açarak nüfusu kademeli olarak zenginleştirir.
+  - Enflasyon ya da deflasyonun olmadığı istikrarlı bir ekonomiye yol açar.
+  - Bu da Supply parasının azalmasına yol açar.
 explanation: |
-  Kolayca bölünebilir veya taşınabilir olmamasına rağmen
-  uzun mesafelerde altın çok dayanıklı bir malzemedir
-  onu iyi bir değer deposu yapar. Altın sikkeler
-  geçmişte para birimi, ancak aynı şekilde hizmet etmeyeceklerdi
-  günümüzün dijital çağında bir amaç.
+  Para basımı ya da merkezi yönetim tarafından yeni para yaratılması
+  enflasyona yol açmaktadır. Bunun nedeni, aşağıdaki artışlardır
+  para Supply paranın satın alma gücünü azaltır,
+  fiyatların yükselmesine ve malların değerinin düşmesine yol açacaktır
+  tasarruf.
 reviewed: true

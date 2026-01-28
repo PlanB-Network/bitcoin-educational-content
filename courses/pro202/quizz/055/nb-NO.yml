@@ -1,0 +1,8 @@
+question: Når en Bitcoin-node ber om blokkoverskrifter ved hjelp av kommandoen getheaders, hva er det maksimale antallet overskrifter som kan returneres i ett enkelt svar, og hva følger etter hver 80-byte-overskrift?
+answer: Opptil 2000 overskrifter kan returneres, hver etterfulgt av et dummy-transaksjonstall på null
+wrong_answers:
+  - Opptil 1000 overskrifter kan returneres, hver etterfulgt av det faktiske antallet transaksjoner som en varint
+  - Opptil 2000 overskrifter kan returneres, hver etterfulgt av en 4 byte sjekksum av overskriftsdataene
+  - Opptil 500 overskrifter kan returneres, hver etterfulgt av Merkle root hash for verifisering
+explanation: |
+  Bitcoins P2P-protokoll begrenser spesifikt getheaders-svar til maksimalt 2000 headere for å forhindre at noder overveldes med massive svar. Hvert header er på nøyaktig 80 byte og etterfølges av et transaksjonsantallfelt som er satt til null, siden meldinger som bare inneholder headere, ikke inneholder faktiske transaksjoner. Denne utformingen muliggjør effektiv kjedesynkronisering, der noder raskt kan laste ned og verifisere proof-of-work-kjedestrukturen før de ber om fullstendige blokkdata.

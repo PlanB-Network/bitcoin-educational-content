@@ -6,4 +6,4 @@ wrong_answers:
   - Clave pública
 explanation: |
   El cifrado de bloque divide los datos en bloques de tamaño fijo y los cifra de manera independiente.
-reviewed: false
+reviewed: true

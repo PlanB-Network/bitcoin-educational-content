@@ -1,0 +1,8 @@
+question: Jaký je hlavní důvod zranitelnosti skriptových hádanek, které se spoléhají pouze na veřejná data bez kontroly podpisu, v systému Bitcoin?
+answer: Těžaři mohou zkopírovat řešení z mempoolu a přesměrovat výplatu na sebe
+wrong_answers:
+  - Provádění skriptu je v různých uzlech sítě nedeterministické
+  - Doba ověření transakce roste kvadraticky se složitostí skládačky
+  - Model provádění založený na zásobníku nedokáže bezpečně zpracovat složité matematické operace
+explanation: |
+  Skriptové hádanky, které se spoléhají pouze na veřejná data (například matematické úlohy nebo předobrazy hashů) bez kontroly podpisu, jsou zranitelné vůči front-runningu těžařů. Jakmile se v mempoolu objeví platné řešení, může ho kterýkoli těžař zpozorovat, zkopírovat řešení a vytvořit vlastní transakci, která přesměruje výplatu na jeho adresu. To je důvod, proč reálné smlouvy Bitcoin téměř vždy obsahují podpisové kontroly - podpisy vážou řešení na konkrétní stranu a brání ostatním v krádeži výplaty, čímž zachovávají správnou motivaci pro řešitele hádanek.

@@ -1,0 +1,9 @@
+question: 어떤 메커니즘이 사이드체인을 비트코인과 연결합니까?
+answer: 양방향 페그
+wrong_answers:
+  - 결제 채널
+  - Proof of Stake
+  - 샤딩
+explanation: |
+  two-way peg 메커니즘은 비트코인에서 BTC를 잠그고 사이드체인에서 이를 표현할 수 있게 합니다.
+reviewed: false

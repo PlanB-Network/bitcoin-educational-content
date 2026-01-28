@@ -1,0 +1,9 @@
+question: 완전히 오프라인에서 사용할 수 있고 광고 추적이 포함되지 않는 매핑 서비스는 무엇인가요?
+answer: 오가닉 맵
+wrong_answers:
+  - Google 지도
+  - Waze
+  - 시티매퍼
+explanation: |
+  오가닉 맵은 독점적인 대안과 달리 트래커나 데이터 수집 없이 오프라인에서 작동하는 오픈스트리트맵 기반의 오픈 소스 애플리케이션입니다.
+reviewed: false

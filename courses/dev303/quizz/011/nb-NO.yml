@@ -1,0 +1,8 @@
+question: Hva er den største fordelen med Rusts tilnærming til minnesikkerhet i kompileringstiden sammenlignet med garbage collection?
+answer: Det eliminerer overhead og uforutsigbare ytelsespauser
+wrong_answers:
+  - Den bruker mer minne, men gir bedre sikkerhetsgarantier
+  - Det krever mindre kode å skrive, men går tregere enn søppeloppsamling
+  - Den forhindrer alle kjøretidsfeil, men bruker mer CPU under kjøringen
+explanation: |
+  Rusts tilnærming til minnesikkerhet under kompilering analyserer koden under kompilering for å sikre minnesikkerhet uten at det koster noe på kjøretiden. I motsetning til søppeloppsamling som brukes i språk som Java og Go, som introduserer ytelsesoverhead og kan forårsake uforutsigbare pauser under programutførelsen, har Rusts system ingen innvirkning på kjøretiden. De andre alternativene er feil fordi Rust faktisk bruker minnet mer effektivt (ikke mer), ikke kjører saktere (det kjører raskere uten kjøretidssjekker) og ikke bruker mer CPU under kjøring (arbeidet gjøres på kompileringstidspunktet).

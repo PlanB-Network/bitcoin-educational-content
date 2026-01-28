@@ -14,9 +14,9 @@ In den Anfängen von Bitcoin war es notwendig, einen Bitcoin-Knoten zu betreiben
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Daher wurden Projekte ins Leben gerufen, um die Bitcoin-Gemeinschaft zu erweitern und sie für alle zugänglich zu machen, die keinen Knoten besitzen und/oder nicht über die erforderlichen technischen Kenntnisse verfügen.
 
@@ -46,13 +46,13 @@ Die zunehmende Verbreitung im Ökosystem und die Tatsache, dass Mempool.space Op
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Die Grundlagen von Mempool.space
 
 
 
-Wie bereits erwähnt, ist [Mempool.space] (https://Mempool.space) ein Bitcoin-Protokoll-Explorer, mit dem Sie Ihre Transaktionen und deren Ausbreitung im gewählten Bitcoin-Netzwerk in Echtzeit von einem grafischen Interface aus überwachen können.
+Wie bereits erwähnt, ist [Mempool.space](https://Mempool.space) ein Bitcoin-Protokoll-Explorer, mit dem Sie Ihre Transaktionen und deren Ausbreitung im gewählten Bitcoin-Netzwerk in Echtzeit von einem grafischen Interface aus überwachen können.
 
 
 
@@ -64,10 +64,10 @@ In der Menüleiste finden Sie die folgenden Netzwerke:
 
 
 
-- Mainnet** : Das wichtigste Bitcoin-Netz, in dem echte Bitcoin-Transaktionen stattfinden.
-- Signet**: Ein Testnetz, das digitale Signaturen zur Validierung von Blöcken verwendet, ohne die vom Hauptnetz benötigten Ressourcen zu benötigen.
-- Testnet 3**: Ein risikofreies Test- und Entwicklungsnetz auf Basis des Bitcoin-Protokolls.
-- Testnet 4** : Die neue Version von Testnet 3 bringt mehr Stabilität und neue Konsensregeln in die Testumgebung.
+- **Mainnet**: Das wichtigste Bitcoin-Netz, in dem echte Bitcoin-Transaktionen stattfinden.
+- **Signet**: Ein Testnetz, das digitale Signaturen zur Validierung von Blöcken verwendet, ohne die vom Hauptnetz benötigten Ressourcen zu benötigen.
+- **Testnet 3**: Ein risikofreies Test- und Entwicklungsnetz auf Basis des Bitcoin-Protokolls.
+- **Testnet 4**: Die neue Version von Testnet 3 bringt mehr Stabilität und neue Konsensregeln in die Testumgebung.
 
 
 
@@ -142,9 +142,9 @@ Auf der Seite mit den Transaktionsdetails finden Sie allgemeine Informationen zu
 
 
 
-- Status**: Bestätigt, wenn zu einem Block hinzugefügt, unbestätigt, wenn in einem Mempool wartend.
-- Transaktionsgebühren**.
-- Geschätzte Ankunftszeit (ETA)** :  Die ungefähre Zeit, die es dauert, bis Ihre Transaktion zu einem Block hinzugefügt wird. Sie wird nach dem Verhältnis berechnet, das die mit dieser Transaktion verbundenen Gebühren ausmacht.
+- **Status**: Bestätigt, wenn zu einem Block hinzugefügt, unbestätigt, wenn in einem Mempool wartend.
+- **Transaktionsgebühren**.
+- **Geschätzte Ankunftszeit (ETA)**: Die ungefähre Zeit, die es dauert, bis Ihre Transaktion zu einem Block hinzugefügt wird. Sie wird nach dem Verhältnis berechnet, das die mit dieser Transaktion verbundenen Gebühren ausmacht.
 
 
 
@@ -176,7 +176,7 @@ Entdecken Sie die verschiedenen Bitcoin-Transaktionsschemata, um Ihre Vertraulic
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Beschleunigen Sie Ihre Transaktionen
 
@@ -192,7 +192,7 @@ Zum Glück gibt es im Bitcoin-Netz zwei Methoden, um die Bestätigung Ihrer Tran
 
 
 
-- RBF** - Ersetzung durch Gebühr: Eine Methode, die es Ihnen ermöglicht, dieselben Einträge wie bei der Transaktion mit niedriger Gebühr auszugeben, aber dieses Mal durch Erhöhung der Transaktionsgebühr, um die Validierung zu beschleunigen. Ihre neue Transaktion wird schneller validiert und in einen Block aufgenommen, wodurch die Transaktion mit niedriger Gebühr ungültig wird.
+- **RBF** - Ersetzung durch Gebühr: Eine Methode, die es Ihnen ermöglicht, dieselben Einträge wie bei der Transaktion mit niedriger Gebühr auszugeben, aber dieses Mal durch Erhöhung der Transaktionsgebühr, um die Validierung zu beschleunigen. Ihre neue Transaktion wird schneller validiert und in einen Block aufgenommen, wodurch die Transaktion mit niedriger Gebühr ungültig wird.
 
 
 
@@ -200,11 +200,11 @@ Sie können mit Portfolios, die diesen Mechanismus akzeptieren, eine Gebührener
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
-- CPFP** - Child pay for parent: Ein Ansatz, der sich an RBF anlehnt, aber auf der Seite des Empfängers. Wenn die Transaktion, bei der Sie der Empfänger sind, in einem Mempool blockiert wird, haben Sie die Möglichkeit, die Outputs (UTXOs) dieser Transaktion auszugeben, obwohl sie noch nicht bestätigt wurde, indem Sie dieser neuen Transaktion mehr Gebühren zuweisen, so dass die durchschnittlichen Gebühren - der Transaktion, bei der Sie der Empfänger sind, und der initiierten Transaktion - die Miner dazu veranlassen, beide Transaktionen in einen Block aufzunehmen.
+- **CPFP** - Child pay for parent: Ein Ansatz, der sich an RBF anlehnt, aber auf der Seite des Empfängers. Wenn die Transaktion, bei der Sie der Empfänger sind, in einem Mempool blockiert wird, haben Sie die Möglichkeit, die Outputs (UTXOs) dieser Transaktion auszugeben, obwohl sie noch nicht bestätigt wurde, indem Sie dieser neuen Transaktion mehr Gebühren zuweisen, so dass die durchschnittlichen Gebühren - der Transaktion, bei der Sie der Empfänger sind, und der initiierten Transaktion - die Miner dazu veranlassen, beide Transaktionen in einen Block aufzunehmen.
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Wenn Ihnen all diese Begriffe etwas zu technisch erscheinen, empfehle ich Ihnen, [unser Glossar](https://planb.network/resources/glossary) zu konsultieren, das Definitionen aller Fachbegriffe im Zusammenhang mit Bitcoin und seinem Ökosystem enthält.
+Wenn Ihnen all diese Begriffe etwas zu technisch erscheinen, empfehle ich Ihnen, [unser Glossar](https://planb.academy/resources/glossary) zu konsultieren, das Definitionen aller Fachbegriffe im Zusammenhang mit Bitcoin und seinem Ökosystem enthält.
 
 
 
@@ -235,7 +235,7 @@ Ein Miner bezieht sich auf eine Person, die eine Mine verwaltet, d. h. einen Com
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 miner sind wie "Validierer", die Transaktionen überprüfen und zu Blöcken zusammenfassen. Um dem Bitcoin-Netzwerk einen neuen Block hinzuzufügen, müssen sie ein komplexes mathematisches Rätsel lösen (das Proof-of-Work). Der erste Miner, der das Rätsel löst, gewinnt eine Bitcoin-Belohnung (Blockzuschuss + Gebühren für die im Block enthaltenen Transaktionen).
 
@@ -372,4 +372,4 @@ Jetzt, wo Sie das Ende Ihrer Reise auf Mempool.space erreicht haben, können Sie
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

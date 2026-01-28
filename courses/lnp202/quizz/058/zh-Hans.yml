@@ -1,0 +1,9 @@
+question: 在 NWC 协议中，应用程序和节点之间使用什么机制传输请求？
+answer: Nostr 继电器上的事件
+wrong_answers:
+  - 直接 REST 调用 LND
+  - 点对点 VPN 连接
+  - 加密的 DNS 请求
+explanation: |
+  请求经过加密，然后作为一个事件发布到 Nostr 中继器上，节点读取该事件以执行操作。
+reviewed: false

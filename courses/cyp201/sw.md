@@ -1,13 +1,11 @@
 ---
-name: Utendaji wa Ndani wa Pochi za Bitcoin
+name: Usanifu wa Pochi ya Bitcoin
 goal: Ingia kwenye kanuni za kriptografia zinazotumia pochi za Bitcoin.
-objectives: 
-
-  - Bainisha dhana za Kina (depth)dharia zinazohitajika ili kuelewa algoriti za kriptografia zinazotumika katika Bitcoin.
-  - Kuelewa kikamilifu ujenzi wa Wallet ya kuamua na ya daraja.
-  - Jua jinsi ya kutambua na kupunguza hatari zinazohusiana na kusimamia Wallet.
-  - Elewa kanuni za utendaji wa Hash, funguo za kriptografia na sahihi za dijitali.
-
+objectives:
+- Bainisha dhana za Kina (depth)dharia zinazohitajika ili kuelewa algoriti za kriptografia zinazotumika katika Bitcoin.
+- Kuelewa kikamilifu ujenzi wa Wallet ya kuamua na ya daraja.
+- Jua jinsi ya kutambua na kupunguza hatari zinazohusiana na kusimamia Wallet.
+- Elewa kanuni za utendaji wa Hash, funguo za kriptografia na sahihi za dijitali.
 ---
 # Safari ndani ya Moyo wa Pochi za Bitcoin
 
@@ -28,33 +26,63 @@ Kwa ufundishaji wazi, zaidi ya michoro 60 za ufafanuzi, na mifano halisi, CYP201
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 Karibu kwenye kozi ya CYP201, ambapo tutachunguza kwa Kina (depth) utendakazi wa pochi za HD Bitcoin. Kozi hii imeundwa kwa ajili ya mtu yeyote ambaye anataka kuelewa misingi ya kiufundi ya kutumia Bitcoin, iwe ni watumiaji wa kawaida, wapenzi walioelimika, au wataalam wa siku zijazo.
 
 Lengo la mafunzo haya ni kukupa funguo za kufahamu zana unazotumia kila siku. Pochi za HD Bitcoin, ambazo ndizo msingi wa uzoefu wako wa mtumiaji, zinatokana na dhana changamano wakati fulani, ambazo tutajaribu kuzifanya zipatikane. Kwa pamoja, tutawaondoa!
 
 Kabla ya kupiga mbizi katika maelezo ya ujenzi na uendeshaji wa pochi za Bitcoin, tutaanza na sura chache juu ya primitives ya cryptographic kujua nini Kina (depth)fuata.
 
-Tutaanza na kazi za kriptografia za Hash, za msingi kwa pochi zote mbili na itifaki ya Bitcoin yenyewe. Utagundua sifa zao kuu, kazi maalum zinazotumiwa katika Bitcoin, na katika sura ya kiufundi zaidi, utajifunza kwa undani kuhusu kazi za malkia wa kazi za Hash: SHA256.
+Tutaanza na kazi za kriptografia za Hash, za msingi kwa pochi zote mbili na itifaki ya Bitcoin yenyewe. Utagundua sifa zao kuu, kazi maalum zinazotumiwa katika Bitcoin, na katika sura ya kiufundi zaidi, utajifunza kwa undani kuhusu kazi za malkia wa kazi za Hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/001.webp)
 
 Kisha, tutajadili utendakazi wa kanuni za sahihi za kidijitali unazotumia kila siku kulinda UTXO zako. Bitcoin inatumia mbili: ECDSA na itifaki ya Schnorr. Utajifunza ni kanuni zipi za hisabati zinazozingatia kanuni hizi na jinsi zinavyohakikisha usalama wa miamala.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/002.webp)
 
 Mara tu tunapokuwa na ufahamu mzuri wa Elements hizi za kriptografia, hatimaye tutaendelea hadi kiini cha mafunzo: pochi za kuamua na za hierarchical! Kwanza, kuna sehemu iliyowekwa kwa misemo ya Mnemonic, mlolongo huu wa maneno 12 au 24 ambayo inakuwezesha kuunda na kurejesha pochi zako. Utagundua jinsi maneno haya yanatolewa kutoka kwa chanzo cha entropy na jinsi yanavyowezesha matumizi ya Bitcoin.
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/003.webp)
 
-Mafunzo yataendelea na utafiti wa BIP39 passphrase, seed (bila kuchanganyikiwa na maneno ya Mnemonic), msimbo wa mnyororo mkuu, na Ufunguo (Key) mkuu. Tutaona kwa undani Elements hizi ni nini, majukumu yao husika, na jinsi zinavyohesabiwa.
+Mafunzo yataendelea na utafiti wa [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase, seed (bila kuchanganyikiwa na maneno ya Mnemonic), msimbo wa mnyororo mkuu, na Ufunguo (Key) mkuu. Tutaona kwa undani Elements hizi ni nini, majukumu yao husika, na jinsi zinavyohesabiwa.
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/004.webp)
 
 Hatimaye, kutoka kwa Ufunguo (Key) mkuu, tutagundua jinsi jozi za funguo za kriptografia zinavyotolewa kwa njia ya kubainisha na ya kidaraja hadi anwani zinazopokea.
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/005.webp)
 
 Mafunzo haya yatakuwezesha kutumia programu yako ya Wallet kwa kujiamini, huku ukiboresha ujuzi wako wa kutambua na kupunguza hatari. Jitayarishe kuwa mtaalam wa kweli katika pochi za Bitcoin!
+
+Jedwali hili linakupa tafsiri ya maneno muhimu ya Kiingereza yanayotumika, ili kukurahisishia kuelewa michoro na nyaraka za kiufundi zinazotumika katika kozi ya CYP 201.
+
+| Kiingereza      | Tafsiri / Maelezo                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Hashi ya ufunguo wa umma (inayotumika kutengeneza anuani ya Bitcoin).                               |
+| *public key*    | Ufunguo wa umma (hutumika kupokea fedha, umetokana na ufunguo wa faragha).                          |
+| *signature*     | Sahihi ya kidijitali (uthibitisho wa kicryptografia kuwa ujumbe umetoka kwa mwenye ufunguo wa faragha). |
+| *scriptPubKey*  | Script ya kufunga (inafafanua masharti ya kutumia output).                                          |
+| *scriptSig*     | Script ya kufungua (hutoa data inayohitajika kutimiza *scriptPubKey*).                              |
+| *Stack*         | Stacki (muundo wa data unaotumiwa na *Bitcoin Script*).                                             |
+| *input*         | Ingizo la muamala (marejeleo ya output ya awali iliyotumika kama chanzo).                           |
+| *output*        | Tokeo la muamala (linafafanua mpokeaji na kiasi).                                                   |
+| *transaction*   | Muamala wa Bitcoin (seti ya vigezo vya ingizo na matokeo vinavyohalalisha uhamisho).                |
+| *XOR*           | Opereta wa kimaantiki "AU ya kipekee", unaotumika kwenye baadhi ya mbinu za kicryptografia.        |
+| *HMAC*          | Nambari ya uthibitishaji wa ujumbe inayotegemea hashi na ufunguo wa siri.                          |
+| *ECDSA*         | Algoriti ya sahihi ya kidijitali inayotumia mikunjo ya elliptic.                                    |
+| *hash*          | Hashi (alama ya kipekee na isiyobadilika ya data).                                                  |
+| *SigHash*       | Aina ya hashi ya sahihi (inafafanua sehemu za muamala zinazowekwa sahihi).                          |
+| *HD Wallet*     | Walleti ya kithabiti ya kihierarkia (huzalisha funguo nyingi kutoka kwenye mbegu moja).             |
+| *Random Number* | Nambari ya kubahatisha (hutumika kuzalisha funguo za faragha salama).                               |
+| *State*         | Hali (thamani ya kati katika mchakato wa kicryptografia).                                           |
+| *Entropy*       | Entropi (kipimo cha kubahatisha, kinachotumika kuzalisha mbegu za walleti).                         |
+| *Mnemonic*      | Mnemoniki (mlolongo wa maneno unaorahisisha kuhifadhi na kurejesha mbegu).                          |
+| *Wordlist*      | Orodha ya maneno (seti iliyowekwa awali inayotumika kutengeneza mnemoniki za BIP39).                |
+| *Seed*          | Mbegu (thamani ya awali inayoruhusu kutengeneza funguo zote za HD Wallet).                          |
+| *Address*       | Anuani ya Bitcoin (kitambulisho kinachosomwa kinachotumika kupokea fedha, kimezalishwa kutoka kwenye ufunguo wa umma). |
+| *Leaf*          | Jani (nodi ya mwisho kwenye mti wa derivation).                                                     |
 
 # Kazi za Hash
 
@@ -63,6 +91,8 @@ Mafunzo haya yatakuwezesha kutumia programu yako ya Wallet kwa kujiamini, huku u
 ## Utangulizi wa Kazi za Hash
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 Aina ya kwanza ya algorithms ya kriptografia inayotumiwa kwenye Bitcoin inajumuisha kazi za Hash. Wanachukua jukumu muhimu katika viwango tofauti vya itifaki, lakini pia ndani ya pochi za Bitcoin. Hebu tugundue pamoja kazi ya Hash ni nini na inatumika kwa nini katika Bitcoin.
 
@@ -78,7 +108,7 @@ Kwa mfano, kazi ya SHA256 Hash inazalisha Hash ya urefu uliowekwa wa bits 256. K
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
-![CYP201](assets/fr/001.webp)
+![CYP201](assets/en/006.webp)
 
 ### Tabia za Kazi za Hash
 
@@ -96,7 +126,7 @@ Kutoweza kutenduliwa kunamaanisha kuwa ni rahisi kuhesabu Hash kutoka kwa taarif
 
 Katika mfano uliotolewa, kupata Hash `24f1b9…` kwa kujua ingizo "_PlanB_" ni rahisi na haraka. Hata hivyo, kupata ujumbe "_PlanB_" kwa kujua tu `24f1b9…` haiwezekani.
 
-![CYP201](assets/fr/002.webp)
+![CYP201](assets/en/007.webp)
 
 Kwa hivyo, haiwezekani kupata taswira ya awali $m$ kwa Hash $h$ kiasi kwamba $h = \text{Hash}(m)$, ambapo $\text{Hash}$ ni kazi ya kriptografia ya Hash.
 
@@ -116,7 +146,7 @@ Ikiwa tutafanya mabadiliko kidogo sana kwa ingizo kwa kutumia "_Planb_" wakati h
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
-![CYP201](assets/fr/003.webp)
+![CYP201](assets/en/008.webp)
 
 Mali hii inahakikisha kwamba hata mabadiliko madogo ya ujumbe wa awali yanaonekana mara moja, kwani haibadilishi tu sehemu ndogo ya Hash, lakini Hash nzima. Hii inaweza kuwa ya manufaa katika nyanja mbalimbali ili kuthibitisha uadilifu wa ujumbe, programu, au hata miamala ya Bitcoin.
 
@@ -128,7 +158,7 @@ $$
 \text{HASH}(m_1) = \text{HASH}(m_2)
 $$
 
-![CYP201](assets/fr/004.webp)
+![CYP201](assets/en/009.webp)
 
 Kwa uhalisia, ni kihisabati kuepukika kwamba migongano ipo kwa kazi za Hash, kwa sababu saizi ya pembejeo inaweza kuwa kubwa kuliko saizi ya matokeo. Hii inajulikana kama kanuni ya droo ya Dirichlet: ikiwa vitu $n$ vitasambazwa katika droo za $m$, na $m <n$, basi angalau droo moja itakuwa na vitu viwili au zaidi. Kwa chaguo za kukokotoa za Hash, kanuni hii inatumika kwa sababu idadi ya ujumbe unaowezekana (karibu) haina kikomo, ilhali idadi ya heshi zinazowezekana ni kikomo ($2^{256}$ katika kesi ya SHA256).
 
@@ -146,7 +176,7 @@ $$
 
 Kwa hivyo, upinzani dhidi ya taswira ya pili ni sawa na upinzani wa mgongano, isipokuwa hapa, shambulio ni gumu zaidi kwa sababu mshambuliaji hawezi kuchagua $m_1$ kwa uhuru.
 
-![CYP201](assets/fr/005.webp)
+![CYP201](assets/en/010.webp)
 
 ### Maombi ya Kazi za Hash katika Bitcoin
 
@@ -179,6 +209,8 @@ Sasa unajua misingi muhimu kuhusu utendaji wa hashing kwa yale yafuatayo. Katika
 ## Kazi za Ndani za SHA256
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
 Tumeona hapo awali kuwa vitendaji vya hashing vina sifa muhimu zinazohalalisha matumizi yao kwenye Bitcoin. Wacha sasa tuchunguze mifumo ya ndani ya kazi hizi za hashing ambazo huwapa mali hizi, na kwa kufanya hivyo, napendekeza kutenganisha operesheni ya SHA256.
 
@@ -246,7 +278,7 @@ Saizi hii ya pedi huongezwa kufuatia pedi kidogo. Kwa hivyo, ujumbe baada ya usi
 - `1` kidogo ikifuatiwa na biti kadhaa `0` ili kuunda pedi;
 - Uwakilishi wa biti 64 wa urefu wa $M$ ili kuunda pedi yenye ukubwa.
 
-![CYP201](assets/fr/006.webp)
+![CYP201](assets/en/011.webp)
 
 ### Uanzishaji wa Vigezo
 
@@ -386,7 +418,7 @@ $$
 
 Kwa utaratibu, operesheni sahihi ya mabadiliko inaweza kuonekana kama hii:
 
-![CYP201](assets/fr/007.webp)
+![CYP201](assets/en/012.webp)
 
 Operesheni nyingine inayotumika katika SHA256 kwa upotoshaji kidogo ni mzunguko wa kulia wa duara, unaoashiria $RotR_n(x)$, ambao huhamisha bits za $x$ kwenda kulia kwa nafasi $n$, na kuingiza tena biti zilizohamishwa mwanzoni mwa mfuatano.
 
@@ -398,7 +430,7 @@ $$
 
 Kwa utaratibu, operesheni sahihi ya kuhama kwa mviringo inaweza kuonekana kama hii:
 
-![CYP201](assets/fr/008.webp)
+![CYP201](assets/en/013.webp)
 
 ### Kazi ya Ukandamizaji
 
@@ -429,7 +461,7 @@ Katika hali hii, $x$ ni sawa na $W_{i-15}$ kwa $\sigma_0(x)$ na $W_{i-2}$ kwa $\
 
 Baada ya kuamua maneno yote $W_i$ kwa kipande chetu cha 512-bit, tunaweza kuendelea na kitendakazi cha kubana, ambacho Kina (depth)jumuisha kufanya mizunguko 64.
 
-![CYP201](assets/fr/009.webp)
+![CYP201](assets/en/014.webp)
 
 Kwa kila mzunguko $i$ kutoka 0 hadi 63, tuna aina tatu tofauti za pembejeo. Kwanza, $W_i$ ambayo tumebaini hivi punde, ikiwa ni pamoja na kipande cha ujumbe wetu $P_n$. Ifuatayo, viunga 64 $K_i$. Hatimaye, tunatumia viasili vya hali $A$, $B$, $C$, $D$, $E$, $F$, $G$, na $H$, ambavyo vitabadilika katika mchakato wa hashing na kurekebishwa kwa kila kitendakazi cha kubana. Hata hivyo, kwa kipande cha kwanza $P_1$, tunatumia viasili vya mwanzo vilivyotolewa hapo awali.
 
@@ -450,14 +482,14 @@ $$
 $$
 
 
-- Chaguo za kukokotoa $Ch$ ("_Choose_"):**
+- Chaguo za kukokotoa $Ch$ ("_Choose_")**:**
 
 $$
 Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
 $$
 
 
-- Kazi $Maj$ ("_Majority_"):**
+- Kazi **Maj** ("_Majority_"):
 
 $$
 Maj(A, B, C) = (A \land B) \oplus (A \land C) \oplus (B \land C)
@@ -496,7 +528,7 @@ $$
 
 Mchoro ufuatao unawakilisha duru ya kazi ya ukandamizaji ya SHA256 kama tulivyoelezea hivi punde:
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/015.webp)
 
 
 - Mishale inaonyesha mtiririko wa data;
@@ -581,13 +613,15 @@ Sasa kwa kuwa tumeangalia kwa Kina (depth) utendakazi wa vitendaji vya Hash, has
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 Katika Bitcoin katika kiwango cha maombi, pamoja na kazi za Hash, algorithi ya derivation ya kriptografia hutumiwa kwa data salama ya generate kutoka kwa pembejeo za awali. Ingawa algoriti hizi hutegemea utendakazi wa Hash, hutumikia malengo tofauti, haswa katika suala la uthibitishaji na utengenezaji muhimu. Kanuni hizi huhifadhi baadhi ya sifa za chaguo za kukokotoa za Hash, kama vile kutoweza kutenduliwa, upinzani wa kubadilika na kuhimili mgongano.
 
 Kwenye wallets za Bitcoin, algorithms 2 za derivation hutumiwa:
 
 
-- HMAC (Msimbo wa Uthibitishaji wa Ujumbe_msingi wa Hash_)**
-- PBKDF2 (_Matendo ya Utoaji wa Ufunguo (Key) 2_ kwa Msingi wa Nenosiri 2_)**
+- **HMAC (Msimbo wa Uthibitishaji wa Ujumbe msingi wa Hash)**
+- **PBKDF2** (_Matendo ya Utoaji wa Ufunguo (Key) 2_ kwa Msingi wa Nenosiri 2_)
 
 Tutachunguza kwa pamoja utendaji na jukumu la kila mmoja wao.
 
@@ -597,7 +631,7 @@ HMAC ni algoriti ya kriptografia inayokokotoa msimbo wa uthibitishaji kulingana 
 
 Huu hapa ni mpango wake wa uendeshaji wa jumla $m$ ukiwa ujumbe wa ingizo na $K$ Ufunguo (Key) wa siri:
 
-![CYP201](assets/fr/011.webp)
+![CYP201](assets/en/016.webp)
 
 Wacha tujifunze kwa undani zaidi kile Kina (depth)chotokea katika kisanduku hiki cheusi cha HMAC-SHA512. Kazi ya HMAC-SHA512 iliyo na:
 
@@ -637,7 +671,7 @@ Equation hii imegawanywa katika hatua zifuatazo:
 
 Hatua hizi zinaweza kufupishwa kwa mpangilio kama ifuatavyo:
 
-![CYP201](assets/fr/012.webp)
+![CYP201](assets/en/017.webp)
 
 HMAC inatumika katika Bitcoin haswa kwa utokezi muhimu katika pochi za HD (Hierarchical Deterministic) (tutazungumza juu ya hili kwa undani zaidi katika sura zinazokuja) na kama sehemu ya PBKDF2.
 
@@ -662,7 +696,7 @@ $$
 
 Kwa utaratibu, PBKDF2 inaweza kuwakilishwa kama ifuatavyo:
 
-![CYP201](assets/fr/013.webp)
+![CYP201](assets/en/018.webp)
 
 Katika sura hii, tumechunguza chaguo za kukokotoa za HMAC-SHA512 na PBKDF2, ambazo hutumia kipengele cha kukokotoa ili kuhakikisha uadilifu na usalama wa vitu muhimu katika itifaki ya Bitcoin. Katika sehemu inayofuata, tutaangalia saini za dijiti, njia nyingine ya kriptografia inayotumiwa sana katika Bitcoin.
 
@@ -673,6 +707,8 @@ Katika sura hii, tumechunguza chaguo za kukokotoa za HMAC-SHA512 na PBKDF2, amba
 ## Sahihi za Dijiti na Mikunjo ya Mviringo
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
+
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
 
 Njia ya pili ya kriptografia inayotumiwa katika Bitcoin inahusisha kanuni za saini za dijiti. Wacha tuchunguze hii inahusu nini na jinsi inavyofanya kazi.
 
@@ -690,7 +726,7 @@ Kwa hivyo, mtumiaji anayetaka kufanya muamala wa Bitcoin lazima aunde sahihi ya 
 
 Kwa hivyo, mtumiaji ambaye anamiliki bitcoins zilizofungwa kwa Ufunguo (Key) wa umma lazima atafute njia ya kuhifadhi kwa usalama kile Kina (depth)choruhusu kufungua fedha zao: Ufunguo (Key) wa kibinafsi. Bitcoin Wallet ni kifaa haswa ambacho kitakuruhusu kuweka funguo zako zote kwa urahisi bila watu wengine kuzifikia. Kwa hivyo ni kama chain ya vitufe kuliko Wallet.
 
-Kiungo cha hisabati kati ya Ufunguo (Key) wa umma na Ufunguo (Key) wa faragha, pamoja na uwezo wa kutia sahihi ili kuthibitisha umiliki wa Ufunguo (Key) wa faragha bila kuufunua, huwezeshwa na algoriti ya sahihi ya dijiti. Katika itifaki ya Bitcoin, algoriti 2 za sahihi zinatumika: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) na **Mpango wa sahihi wa Schnorr**. ECDSA ni itifaki ya sahihi ya dijiti iliyotumiwa katika Bitcoin tangu mwanzo. Schnorr ni ya hivi majuzi zaidi katika Bitcoin, kama ilianzishwa mnamo Novemba 2021 na sasisho la Taproot.
+Kiungo cha hisabati kati ya Ufunguo (Key) wa umma na Ufunguo (Key) wa faragha, pamoja na uwezo wa kutia sahihi ili kuthibitisha umiliki wa Ufunguo (Key) wa faragha bila kuufunua, huwezeshwa na algoriti ya sahihi ya dijiti. Katika itifaki ya Bitcoin, algoriti 2 za sahihi zinatumika: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) na **Mpango wa sahihi wa Schnorr**. ECDSA ni itifaki ya sahihi ya dijiti iliyotumiwa katika Bitcoin tangu mwanzo. Schnorr ni ya hivi majuzi zaidi katika Bitcoin, kama ilianzishwa mnamo Novemba 2021 na sasisho la Taproot.
 
 Algorithms hizi mbili zinafanana kabisa katika mifumo yao. Zote mbili zinatokana na kriptografia ya curve ya elliptical. Tofauti kuu kati ya itifaki hizi mbili iko katika muundo wa saini na baadhi ya sifa maalum za hisabati. Kwa hivyo tutasoma utendakazi wa kanuni hizi, tukianza na za zamani zaidi: ECDSA.
 
@@ -702,7 +738,7 @@ Sifa muhimu ya mikunjo hii ni kwamba zina ulinganifu kwa heshima na mhimili wa x
 
 Hapa kuna uwakilishi wa curve ya duaradufu juu ya uwanja wa nambari halisi:
 
-![CYP201](assets/fr/014.webp)
+![CYP201](assets/en/019.webp)
 
 Kila curve ya duaradufu inafafanuliwa na equation ya fomu:
 
@@ -722,7 +758,7 @@ $$
 
 Uwakilishi wake wa picha juu ya uwanja wa nambari halisi inaonekana kama hii:
 
-![CYP201](assets/fr/015.webp)
+![CYP201](assets/en/020.webp)
 
 Hata hivyo, katika kriptografia, tunafanya kazi na seti zenye kikomo za nambari. Hasa zaidi, tunafanya kazi kwenye sehemu ya mwisho $\mathbb{F}_p$, ambayo ni sehemu ya nambari kamili ya nambari kuu $p$.
 
@@ -750,7 +786,7 @@ $$
 
 Ikizingatiwa kuwa mduara huu umefafanuliwa juu ya uga finyu $\mathbb{F}_p$, haufanani tena na mkunjo unaoendelea bali seti tofauti ya pointi. Kwa mfano, hivi ndivyo curve inayotumika katika Bitcoin inavyoonekana kwa $p = 17$ ndogo sana:
 
-![CYP201](assets/fr/016.webp)
+![CYP201](assets/en/021.webp)
 
 Katika mfano huu, nimepunguza kimaKusudi (Purpose) sehemu ya mwisho iwe $p = 17$ kwa sababu za kielimu, lakini ni lazima mtu afikirie kuwa ile inayotumika katika Bitcoin ni kubwa zaidi, karibu $2^{256}$.
 
@@ -758,12 +794,14 @@ Tunatumia sehemu yenye kikomo ya nambari kamili modulo $p$ ili kuhakikisha usahi
 
 Hisabati ya mikondo ya duaradufu juu ya sehemu zenye ukomo ni sawa na zile zilizo juu ya uwanja wa nambari halisi, kwa urekebishaji kwamba shughuli zote hufanywa modulo $p$. Ili kurahisisha maelezo, tutaendelea katika sura zifuatazo ili kuelezea dhana kwa kutumia curve iliyofafanuliwa juu ya nambari halisi, huku tukikumbuka kwamba, katika mazoezi, curve inafafanuliwa juu ya uwanja wa mwisho.
 
-Ikiwa ungependa kujifunza zaidi kuhusu misingi ya hisabati ya kriptografia ya kisasa, ninapendekeza pia kushauriana na kozi hii nyingine kwenye Plan ₿ Network:
+Ikiwa ungependa kujifunza zaidi kuhusu misingi ya hisabati ya kriptografia ya kisasa, ninapendekeza pia kushauriana na kozi hii nyingine kwenye Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 ## Kuhesabu Ufunguo (Key) wa Umma kutoka kwa Ufunguo (Key) wa Kibinafsi
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
 Kama inavyoonekana hapo awali, algorithm za sahihi za dijiti kwenye Bitcoin zinatokana na jozi ya funguo za kibinafsi na za umma ambazo zimeunganishwa kihisabati. Hebu tuchunguze pamoja kiungo hiki cha hisabati ni nini na jinsi vinavyozalishwa.
 
@@ -804,11 +842,11 @@ wapi:
 
 Ukweli kwamba hatua hii $G$ ni ya kawaida kwa funguo zote za umma kwenye Bitcoin huturuhusu kuwa na uhakika kwamba Ufunguo (Key) sawa wa faragha $k$ utatupatia kila mara Ufunguo (Key) sawa wa umma $K$:
 
-![CYP201](assets/fr/017.webp)
+![CYP201](assets/en/022.webp)
 
 Tabia kuu ya operesheni hii ni kwamba ni kazi ya njia moja. Ni rahisi kukokotoa Ufunguo (Key) wa umma $K$ ukijua Ufunguo (Key) wa faragha $k$ na nukta ya jenereta $G$, lakini kwa kweli haiwezekani kukokotoa Ufunguo (Key) wa faragha $k$ ukijua tu Ufunguo (Key) wa umma $K$ na nukta ya jenereta $G$. Kupata $k$ kutoka $K$ na $G$ kunalingana na kusuluhisha tatizo la logarithm tofauti kwenye mikunjo ya duaradufu, tatizo gumu kihisabati ambalo hakuna algoriti bora inayojulikana. Hata vikokotoo vya nguvu zaidi vya sasa haviwezi kutatua tatizo hili kwa wakati unaofaa.
 
-![CYP201](assets/fr/018.webp)
+![CYP201](assets/en/023.webp)
 
 ### Kuongeza na kuzidisha maradufu kwa Pointi kwenye Mikondo ya elliptic 
 
@@ -820,7 +858,7 @@ $$
 
 Kielelezo, hii inaweza kuwakilishwa kama ifuatavyo:
 
-![CYP201](assets/fr/019.webp)
+![CYP201](assets/en/024.webp)
 
 Kwa kurudia mara mbili kwa nukta, hiyo ni operesheni $P + P$, tunachora tangent kwa curve kwa uhakika $P $. Tanjenti hii inakatiza mkunjo katika hatua nyingine $S'$. Kisha tunachukua picha ya kioo ya hatua hii kwa heshima na mhimili wa x ili kupata uhakika $S$, ambayo ni matokeo ya kuzidisha maradufu:
 
@@ -830,7 +868,7 @@ $$
 
 Kielelezo, hii inaonyeshwa kama:
 
-![CYP201](assets/fr/020.webp)
+![CYP201](assets/en/025.webp)
 
 Kwa kutumia utendakazi huu wa kujumlisha na kuzidisha maradufu, tunaweza kufanya kuzidisha kwa ukubwa wa nukta kwa nambari kamili $k$, inayoashiria $kP$, kwa kutekeleza marudio na nyongeza mara kwa mara.
 
@@ -846,7 +884,7 @@ Kwa picha, hii inalingana na kufanya safu ya nyongeza na mara mbili:
 - Kokotoa $2G$ kwa kuongeza $G$ mara mbili.
 - Kokotoa $4G$ kwa kuongeza $2G$ mara mbili.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/026.webp)
 
 Ikiwa tunataka, kwa mfano, kukokotoa pointi $3G$, ni lazima kwanza tuhesabu pointi $2G$ kwa kuongeza pointi $G$ mara mbili, kisha tuongeze $G$ na $2G$. Ili kuongeza $G$ na $2G$, chora tu mstari unaounganisha pointi hizi mbili, rudisha sehemu ya kipekee $-3G$ kwenye makutano kati ya mstari huu na mkunjo wa duaradufu, na kisha ubaini $3G$ kama kinyume cha $-3G$.
 
@@ -862,7 +900,7 @@ $$
 
 Kielelezo, hii itawakilishwa kama ifuatavyo:
 
-![CYP201](assets/fr/022.webp)
+![CYP201](assets/en/027.webp)
 
 ### Kazi ya Njia Moja
 
@@ -883,6 +921,8 @@ Kwa kweli, katika mfano huu uliorahisishwa na $k = 4$, itawezekana kupata $k$ ku
 ## Kusaini kwa Ufunguo (Key) wa Faragha
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 Sasa kwa kuwa unajua jinsi ya kupata Ufunguo (Key) wa umma kutoka kwa Ufunguo (Key) wa kibinafsi, unaweza tayari kupokea bitcoins kwa kutumia jozi ya funguo kama hali ya matumizi. Lakini jinsi ya kuzitumia? Ili kutumia bitcoins, utahitaji kufungua _scriptPubKey_ iliyoambatishwa kwenye UTXO yako ili kuthibitisha kuwa wewe ni mmiliki wake halali. Ili kufanya hivyo, ni lazima utoe sahihi $s$ inayolingana na Ufunguo (Key) wa umma $K$ uliopo kwenye _scriptPubKey_ ukitumia Ufunguo (Key) wa faragha $k$ ambao ulitumika awali kukokotoa $K$. Kwa hivyo, sahihi ya dijiti ni uthibitisho usioweza kukanushwa kuwa una Ufunguo (Key) wa faragha unaohusishwa na Ufunguo (Key) wa umma unaodai.
 
@@ -1021,7 +1061,7 @@ $$
 
 Hatua ya kwanza kwa kutengeneza saini ni Hash ujumbe. Lakini tofauti na ECDSA, inafanywa na maadili mengine na kitendakazi kilicho na lebo ya Hash Kina (depth)tumika ili kuzuia migongano katika miktadha tofauti. Chaguo za kukokotoa zilizo na lebo ya Hash huhusisha tu kuongeza lebo kiholela kwa ingizo za chaguo za kukokotoa za Hash pamoja na data ya ujumbe.
 
-![CYP201](assets/fr/023.webp)
+![CYP201](assets/en/028.webp)
 
 Kando na ujumbe huo, kiratibu cha $x$ cha Ufunguo (Key) wa umma $K_x$, pamoja na pointi $R$ iliyokokotwa kutoka kwa Nonce $r$ ($R=r \cdot G$) ambayo yenyewe ni nambari kamili ya kipekee kwa kila sahihi, iliyokokotwa kwa kuamua kutoka kwa Ufunguo (Key) wa faragha na ujumbe wa kuepuka udhaifu unaohusiana na Nonce pia hupitishwa kwenye kipengele cha matumizi. Kama tu kwa Ufunguo (Key) wa umma, kiratibu cha $x$ pekee cha nukta ya Nonce $R_x$ ndicho Kina (depth)chobaki kuelezea uhakika.
 
@@ -1089,11 +1129,11 @@ $$
 
 Mpango wa saini wa Schnorr unatoa faida kadhaa kwa Bitcoin juu ya algoriti asilia ya ECDSA. Kwanza, Schnorr inaruhusu ujumlisho wa funguo na saini. Hii inamaanisha kuwa funguo nyingi za umma zinaweza kuunganishwa kuwa Ufunguo (Key) mmoja.
 
-![CYP201](assets/fr/024.webp)
+![CYP201](assets/en/029.webp)
 
 Na vile vile, sahihi nyingi zinaweza kujumlishwa kuwa sahihi moja halali. Kwa hivyo, katika kesi ya shughuli ya saini nyingi, seti ya washiriki inaweza kusaini na saini moja na Ufunguo (Key) mmoja wa umma uliojumlishwa. Hii inapunguza kwa kiasi kikubwa gharama za kuhifadhi na kukokotoa kwa mtandao, kwani kila nodi inahitaji tu kuthibitisha saini moja.
 
-![CYP201](assets/fr/025.webp)
+![CYP201](assets/en/030.webp)
 
 Zaidi ya hayo, ujumlishaji wa saini huboresha faragha. Kwa Schnorr, inakuwa vigumu kutofautisha muamala wa saini nyingi kutoka kwa muamala wa kawaida wa sahihi moja. Ufanano huu unafanya uchambuzi wa chain kuwa mgumu zaidi, kwani inapunguza uwezo wa kutambua alama za vidole za Wallet.
 
@@ -1110,6 +1150,8 @@ Kweli, hatujui kwa nini Satoshi haikuichagua, lakini dhana inayowezekana ni kwam
 ## Bendera za sighash
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
+
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
 
 Kama tulivyoona katika sura zilizopita, saini za dijiti mara nyingi hutumiwa kufungua hati ya ingizo. Katika mchakato wa kutia saini, ni muhimu kujumuisha data iliyotiwa sahihi katika hesabu, iliyobainishwa katika mifano yetu kwa ujumbe $m$. Data hii, ikishatiwa saini, haiwezi kurekebishwa bila kufanya sahihi kuwa batili. Hakika, iwe kwa ECDSA au Schnorr, kithibitishaji sahihi lazima kijumuishe katika hesabu ya ujumbe sawa $m$. Iwapo itatofautiana na ujumbe $m$ uliotumiwa mwanzoni na mtu aliyetia sahihi, matokeo yatakuwa si sahihi na sahihi itachukuliwa kuwa batili. Kisha inasemekana kuwa saini inashughulikia data fulani na kuilinda, kwa njia, dhidi ya marekebisho yasiyoidhinishwa.
 
@@ -1130,36 +1172,36 @@ Kwenye Bitcoin, kuna kwanza kabisa bendera 3 za kimsingi za sighash:
 
 - `SIGHASH_ALL` (`0x01`): Sahihi inatumika kwa ingizo zote na matokeo yote ya muamala. Kwa hivyo shughuli hiyo inafunikwa kabisa na sahihi na haiwezi kurekebishwa tena. `SIGHASH_ALL` ndiyo sighash inayotumika sana katika shughuli za kila siku wakati mtu anataka tu kufanya muamala bila kurekebishwa.
 
-![CYP201](assets/fr/026.webp)
+![CYP201](assets/en/031.webp)
 
 Katika michoro zote za sura hii, rangi ya machungwa inawakilisha Elements iliyofunikwa na saini, wakati rangi nyeusi inaonyesha wale ambao sio.
 
 
 - `SIGHASH_NONE` (`0x02`): Sahihi inashughulikia ingizo zote lakini hakuna towe, hivyo basi kuruhusu urekebishaji wa matokeo baada ya sahihi. Kwa maneno madhubuti, hii ni sawa na hundi tupu. Mtia saini hufungua UTXO katika pembejeo lakini huacha uga wa matokeo uweze kurekebishwa kabisa. Mtu yeyote anayejua shughuli hii anaweza kuongeza matokeo ya uchaguzi wao, kwa mfano kwa kubainisha kupokea Address kukusanya fedha zinazotumiwa na pembejeo, na kisha kutangaza shughuli ili kurejesha bitcoins. Sahihi ya mmiliki wa pembejeo haitabatilishwa, kwani inashughulikia pembejeo tu.
 
-![CYP201](assets/fr/027.webp)
+![CYP201](assets/en/032.webp)
 
 
 - `SIGHASH_SINGLE` (`0x03`): Sahihi inashughulikia ingizo zote pamoja na towe moja, sambamba na faharasa ya ingizo lililotiwa sahihi. Kwa mfano, ikiwa sahihi itafungua _scriptPubKey_ ya ingizo #0, basi itashughulikia pia pato #0. Sahihi pia hulinda pembejeo zingine zote, ambazo haziwezi kurekebishwa tena. Walakini, mtu yeyote anaweza kuongeza pato la ziada bila kubatilisha saini, mradi pato #0, ambalo ndilo pekee lililofunikwa nayo, halijabadilishwa.
 
-![CYP201](assets/fr/028.webp)
+![CYP201](assets/en/033.webp)
 
 Kando na bendera hizi tatu za sighash, pia kuna kirekebishaji `SIGHASH_ANYONECANPAY` (`0x80`). Kirekebishaji hiki Kina (depth)weza kuunganishwa na bendera ya msingi ya sighash ili kuunda bendera tatu mpya za sighash:
 
 
 - `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): Sahihi inashughulikia ingizo moja huku ikijumuisha matokeo yote ya muamala. Bendera hii ya pamoja ya sighash inaruhusu, kwa mfano, kuundwa kwa shughuli ya ufadhili wa watu wengi. Mratibu hutayarisha pato kwa kutumia Address yao na kiasi Kina (depth)cholengwa, na kila mwekezaji anaweza kuongeza pembejeo ili kufadhili pato hili. Pesa za kutosha zinapokusanywa ili kukidhi matokeo, shughuli hiyo inaweza kutangazwa.
 
-![CYP201](assets/fr/029.webp)
+![CYP201](assets/en/034.webp)
 
 
 - `SIGHASH_HAKUNA | SIGHASH_ANYONECANPAY` (`0x82`): Sahihi inashughulikia ingizo moja, bila kujitolea kutoa matokeo yoyote;
 
-![CYP201](assets/fr/030.webp)
+![CYP201](assets/en/035.webp)
 
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Sahihi inashughulikia ingizo moja pamoja na towe lenye faharasa sawa na ingizo hili. Kwa mfano, ikiwa sahihi itafungua _scriptPubKey_ ya ingizo #3, itafunika pia pato #3. Muamala uliosalia unabaki kurekebishwa, kulingana na pembejeo zingine na matokeo mengine.
 
-![CYP201](assets/fr/031.webp)
+![CYP201](assets/en/036.webp)
 
 ### Miradi ya Kuongeza Bendera Mpya za Sighash
 
@@ -1167,7 +1209,7 @@ Kwa sasa (2024), ni bendera za sighash pekee zilizowasilishwa katika sehemu iliy
 
 Bendera hizi mbili za sighash zinaweza kutoa uwezekano wa ziada kwenye Bitcoin: kuunda sahihi ambazo hazijumuishi ingizo lolote mahususi la muamala.
 
-![CYP201](assets/fr/032.webp)
+![CYP201](assets/en/037.webp)
 
 Wazo hili lilitayarishwa awali na Joseph Poon na Thaddeus Dryja katika Karatasi Nyeupe ya Lightning. Kabla ya kubadilishwa jina, bendera hii ya sighash iliitwa `SIGHASH_NOINPUT`.
 
@@ -1175,7 +1217,7 @@ Ikiwa bendera hii ya sighash itaunganishwa katika Bitcoin, itawezesha matumizi y
 
 Ili kuongeza ujuzi wako wa Lightning Network, baada ya kozi ya CYP201, ninapendekeza sana kozi ya LNP201 na Fanis Michalakis, ambayo inashughulikia mada kwa undani:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 Katika sehemu inayofuata, ninapendekeza kugundua jinsi maneno ya Mnemonic kwenye msingi wa Bitcoin Wallet yako inavyofanya kazi.
 
 # Maneno ya Mnemonic
@@ -1185,6 +1227,8 @@ Katika sehemu inayofuata, ninapendekeza kugundua jinsi maneno ya Mnemonic kwenye
 ## Mageuzi ya Wallet za Bitcoin
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 Kwa kuwa sasa tumechunguza utendakazi wa kazi za Hash na sahihi za dijitali, tunaweza kusoma jinsi wallet za Bitcoin zinavyofanya kazi. Lengo litakuwa kufikiria jinsi Wallet kwenye Bitcoin inavyoundwa, jinsi inavyotengana, na vipande tofauti vya habari vinavyoiunda vinatumika kwa matumizi gani. Uelewa huu wa taratibu za Wallet utakuruhusu kuboresha matumizi yako ya Bitcoin katika masuala ya usalama na faragha.
 
@@ -1202,20 +1246,20 @@ Jukumu la Bitcoin Wallet ni kudhibiti funguo hizi za faragha kwa usalama. Kwa kw
 
 Pochi za kwanza zilizotumika kwenye Bitcoin zilikuwa pochi za JBOK (_Just a Bunch Of Keys_), ambazo ziliweka pamoja funguo zilizoundwa kwa faragha kwa kujitegemea na bila kiungo chochote kati yao. Pochi hizi zilifanya kazi kwa muundo rahisi ambapo kila Ufunguo (Key) wa faragha ungeweza kufungua Bitcoin ya kipekee inayopokea Address.
 
-![CYP201](assets/fr/033.webp)
+![CYP201](assets/en/038.webp)
 
 Iwapo mtu alitaka kutumia funguo nyingi za faragha, basi ilikuwa ni lazima kutengeneza nakala nyingi ili kuhakikisha ufikiaji wa pesa ikiwa kuna matatizo na kifaa Kina (depth)chopangisha Wallet. Ikiwa unatumia Ufunguo (Key) mmoja wa kibinafsi, muundo huu wa Wallet unaweza kutosha, kwani hifadhi moja inatosha. Walakini, hii inaleta shida: kwenye Bitcoin, inashauriwa sana dhidi ya kila wakati kutumia Ufunguo (Key) sawa wa kibinafsi. Hakika, Ufunguo (Key) wa faragha unahusishwa na Address ya kipekee, na anwani za kupokea za Bitcoin kwa kawaida zimeundwa kwa matumizi ya mara moja. Kila wakati unapopokea pesa, unapaswa generate mpya tupu Address.
 
 Kizuizi hiki Kina (depth)tokana na mtindo wa faragha wa Bitcoin. Kwa kutumia tena Address sawa, hurahisisha waangalizi wa nje kufuatilia miamala yangu yote ya Bitcoin. Ndiyo maana kutumia tena kupokea Address kumekatishwa tamaa sana. Hata hivyo, ili kuwa na anwani nyingi na kutenganisha shughuli zetu hadharani, ni muhimu kudhibiti funguo nyingi za faragha. Kwa upande wa pochi za JBOK, hii inamaanisha kuunda nakala rudufu nyingi kwani kuna jozi mpya za funguo, kazi ambayo inaweza kuwa ngumu na ngumu kudumisha kwa watumiaji haraka.
 
-Ili kupata maelezo zaidi kuhusu muundo wa faragha wa Bitcoin na kugundua mbinu za kulinda faragha yako, ninapendekeza pia kufuata kozi yangu ya BTC204 kwenye Plan ₿ Network:
+Ili kupata maelezo zaidi kuhusu muundo wa faragha wa Bitcoin na kugundua mbinu za kulinda faragha yako, ninapendekeza pia kufuata kozi yangu ya BTC204 kwenye Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### wallet za HD (_Hierarchical Deterministic_)
 
 Kwa Address kizuizi cha pochi za JBOK, muundo mpya wa Wallet ulitumiwa baadaye. Mnamo mwaka wa 2012, Pieter Wuille alianzisha uboreshaji na BIP32, ambayo inaleta pochi za uamuzi wa hierarkia. Kanuni ya HD Wallet ni kupata funguo zote za kibinafsi kutoka kwa chanzo kimoja cha habari, Kina (depth)choitwa seed, kwa njia ya kuamua na ya hierarchical. seed hii inatolewa kwa nasibu wakati Wallet inapoundwa na kuunda hifadhi rudufu ya kipekee inayoruhusu uundaji wa funguo zote za faragha za Wallet. Kwa hivyo, mtumiaji anaweza generate idadi kubwa sana ya funguo za faragha ili kuepuka kutumia tena Address na kuhifadhi faragha yao, huku akihitaji tu kufanya nakala moja ya Wallet yao kupitia seed.
 
-![CYP201](assets/fr/034.webp)
+![CYP201](assets/en/039.webp)
 
 Katika pochi za HD, utokaji wa Ufunguo (Key) unafanywa kulingana na muundo wa kidaraja unaoruhusu funguo kupangwa katika nafasi ndogo zinazotoka, kila nafasi ndogo inaweza kugawanywa zaidi, ili kuwezesha usimamizi wa hazina na ushirikiano kati ya programu tofauti za Wallet. Siku hizi, kiwango hiki Kina (depth)kubaliwa na idadi kubwa ya watumiaji wa Bitcoin. Kwa sababu hii, tutaichunguza kwa undani katika sura zifuatazo.
 
@@ -1231,7 +1275,9 @@ Katika sura zijazo, tutachunguza utendakazi wa ndani wa pochi za HD, ikijumuisha
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 
-Mikoba ya kisasa ya HD (ya kuamua na ya daraja) hutegemea taarifa moja ya awali inayoitwa "entropy" ili kubainisha generate seti nzima ya funguo za Wallet. Entropy hii ni nambari ya pseudo-random ambayo kiwango cha machafuko huamua usalama wa Wallet.
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
+Mikoba ya kisasa ya HD (ya kuamua na ya daraja) hutegemea taarifa moja ya awali inayoitwa "[entropy](https://planb.academy/resources/glossary/entropy)" ili kubainisha generate seti nzima ya funguo za Wallet. Entropy hii ni nambari ya pseudo-random ambayo kiwango cha machafuko huamua usalama wa Wallet.
 
 ### Ufafanuzi wa Entropy
 
@@ -1249,7 +1295,7 @@ Entropy ya awali inayotumika kwa HD Wallet kwa ujumla ni biti 128 au biti 256, a
 
 Mara nyingi, nambari hii ya nasibu huzalishwa kiotomatiki na programu ya Wallet kwa kutumia PRNG (_Pseudo-Random Number Generator_). PRNG ni kategoria ya algoriti zinazotumiwa kwa mfuatano wa kuzalishwa wa nambari kutoka hali ya awali, ambayo ina sifa zinazokaribia ile ya nambari nasibu, bila kuwa moja. PRNG nzuri lazima iwe na sifa kama vile usawa wa matokeo, kutotabirika, na upinzani dhidi ya mashambulizi ya kutabiri. Tofauti na jenereta za kweli za nambari nasibu (TRNG), PRNG zinaweza kubainishwa na zinaweza kuzaliana tena.
 
-![CYP201](assets/fr/035.webp)
+![CYP201](assets/en/040.webp)
 
 Njia mbadala ni kuzalisha entropy mwenyewe, ambayo inatoa udhibiti bora lakini pia ni hatari zaidi. Ninashauri sana dhidi ya kutengeneza entropy ya HD yako Wallet wewe mwenyewe.
 
@@ -1258,6 +1304,8 @@ Katika sura inayofuata, tutaona jinsi tunavyotoka kwa nambari isiyo ya kawaida h
 ## Maneno ya Mnemonic
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
 Kifungu cha maneno cha Mnemonic, pia Kina (depth)itwa "maneno ya seed", "maneno ya kurejesha", "maneno ya siri", au "maneno ya maneno 24", ni mlolongo kwa kawaida unaojumuisha maneno 12 au 24, ambayo hutolewa kutoka kwa entropy. Inatumika kupata funguo zote za HD Wallet. Hii ina maana kwamba kutokana na kifungu hiki, inawezekana kubainisha generate na kuunda upya funguo zote za kibinafsi na za umma za Bitcoin Wallet, na hivyo kufikia pesa ambazo zinalindwa nayo. Madhumuni ya maneno ya Mnemonic ni kutoa njia ya kuhifadhi na kurejesha bitcoins ambayo ni salama na rahisi kutumia. Ilianzishwa katika viwango mwaka 2013 na BIP39.
 
@@ -1283,7 +1331,7 @@ $$
 
 Mara tu hundi inapokokotolewa, inaunganishwa na entropy ili kupata mlolongo wa biti uliopanuliwa uliobainishwa $\text{ENT} \Vert \text{CS}$ ("concatenate" inamaanisha kuweka mwisho-hadi-mwisho).
 
-![CYP201](assets/fr/036.webp)
+![CYP201](assets/en/041.webp)
 
 ### Mawasiliano kati ya Entropy na Neno la Mnemonic
 
@@ -1312,21 +1360,21 @@ Kwa mfano, kwa entropy ya 256-bit, matokeo $\text{ENT} \Vert \text{CS}$ ni biti 
 
 ### Ubadilishaji wa Mfuatano wa Nambari kuwa Neno la Mnemonic
 
-Mfuatano wa bits $\text{ENT} \Vert \text{CS}$ kisha umegawanywa katika sehemu za biti 11. Kila sehemu ya biti 11, ikibadilishwa kuwa desimali, inalingana na nambari kati ya 0 na 2047, ambayo huashiria nafasi ya neno [katika orodha ya maneno 2048 yaliyosanifiwa na BIP39](https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Mfuatano wa bits $\text{ENT} \Vert \text{CS}$ kisha umegawanywa katika sehemu za biti 11. Kila sehemu ya biti 11, ikibadilishwa kuwa desimali, inalingana na nambari kati ya 0 na 2047, ambayo huashiria nafasi ya neno [katika orodha ya maneno 2048 yaliyosanifiwa na BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
-![CYP201](assets/fr/037.webp)
+![CYP201](assets/en/042.webp)
 
 Kwa mfano, kwa entropy ya 128-bits, checksum ni bits 4, na hivyo mlolongo wa jumla hupima bits 132. Imegawanywa katika sehemu 12 za bits 11 (biti za machungwa hutaja cheki):
 
-![CYP201](assets/fr/038.webp)
+![CYP201](assets/en/043.webp)
 
 Kisha kila sehemu inabadilishwa kuwa nambari ya desimali inayowakilisha neno katika orodha. Kwa mfano, sehemu ya jozi `01011010001` ni sawa katika desimali na `721`. Kwa kuongeza 1 ili kupatanisha na faharasa ya orodha (ambayo huanza 1 na si 0), hii inatoa neno cheo `722`, ambalo ni "_focus_" katika orodha.
 
-![CYP201](assets/fr/039.webp)
+![CYP201](assets/en/044.webp)
 
 Mawasiliano haya yanarudiwa kwa kila moja ya sehemu 12, ili kupata kifungu cha maneno 12.
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/045.webp)
 
 ### Sifa za Orodha ya Maneno ya BIP39
 
@@ -1354,12 +1402,14 @@ Kifungu cha maneno 12, ambacho pia hutoa bits 128 za usalama, kwa hivyo kwa sasa
 
 Ili kwenda mbali zaidi na kujifunza kwa uwazi jinsi ya kutengeneza maneno ya generate ya jaribio la Mnemonic, nakushauri ugundue somo hili:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 Kabla ya kuendelea na upataji wa Wallet kutoka kwa kifungu hiki cha Mnemonic, nitakujulisha, katika sura inayofuata, kwa BIP39 passphrase, kwani ina jukumu katika mchakato wa uundaji, na iko katika kiwango sawa na kifungu cha Mnemonic.
 
 ## passphrase
 
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 Kama tulivyoona hivi punde wallet za HD hutengenezwa kutoka kwa maneno ya Mnemonic ambayo kwa kawaida huwa na maneno 12 au 24. Maneno haya ni muhimu sana kwa sababu inaruhusu kurejeshwa kwa funguo zote za Wallet ikiwa kifaa chake cha kimwili (kama Hardware Wallet, kwa mfano) Kina (depth)potea. Hata hivyo, ni hatua moja ya kushindwa, kwa sababu ikiwa imeathiriwa, mshambuliaji anaweza kuiba bitcoins zote. Hapa ndipo BIP39 passphrase inapotumika.
 
@@ -1371,7 +1421,7 @@ Kuwa mwangalifu, passphrase haipaswi kuchanganyikiwa na msimbo wa PIN wa Hardwar
 
 passphrase inafanya kazi sanjari na maneno ya Mnemonic, kurekebisha seed ambayo funguo hutolewa. Kwa hivyo, hata kama mtu atapata kifungu chako cha maneno 12 au 24, bila passphrase, hawezi kufikia pesa zako. Kutumia passphrase kimsingi huunda Wallet mpya na funguo tofauti. Kurekebisha (hata kidogo) passphrase itakuwa generate tofauti Wallet.
 
-![CYP201](assets/fr/041.webp)
+![CYP201](assets/en/046.webp)
 
 ### Kwa nini utumie passphrase?
 
@@ -1387,7 +1437,7 @@ Ili passphrase iwe na ufanisi, lazima iwe ndefu na isiyo ya kawaida vya kutosha.
 
 Pia ni muhimu kuokoa vizuri passphrase hii, kwa njia sawa na maneno ya Mnemonic. **Kuipoteza kunamaanisha kupoteza ufikiaji wa bitcoins zako**. Ninashauri sana dhidi ya kukumbuka kwa moyo tu, kwani hii inaongeza hatari ya kupoteza bila sababu. Bora ni kuiandika kwenye nyenzo ya kimwili (karatasi au chuma) tofauti na maneno ya Mnemonic. Nakala hii lazima ihifadhiwe mahali tofauti na ambapo maneno yako ya Mnemonic yamehifadhiwa ili kuzuia zote mbili zisiathiriwe kwa wakati mmoja.
 
-![CYP201](assets/fr/042.webp)
+![CYP201](assets/en/047.webp)
 
 Katika sehemu ifuatayo, tutagundua jinsi Elements hizi mbili kwenye msingi wa Wallet yako - maneno ya Mnemonic na passphrase - hutumika kupata jozi muhimu zinazotumiwa katika _scriptPubKey_ zinazofunga UTXO zako.
 
@@ -1399,9 +1449,11 @@ Katika sehemu ifuatayo, tutagundua jinsi Elements hizi mbili kwenye msingi wa Wa
 
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
 
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
+
 Mara tu maneno ya Mnemonic na passphrase ya hiari yanapozalishwa, mchakato wa kupata Bitcoin HD Wallet unaweza kuanza. Kifungu cha maneno cha Mnemonic Kina (depth)badilishwa kwanza kuwa seed ambayo ni msingi wa funguo zote za Wallet.
 
-![CYP201](assets/fr/043.webp)
+![CYP201](assets/en/048.webp)
 
 ### seed ya HD Wallet
 
@@ -1423,7 +1475,7 @@ $$
 s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 $$
 
-![CYP201](assets/fr/044.webp)
+![CYP201](assets/en/049.webp)
 
 Thamani ya seed inaathiriwa na thamani ya maneno ya Mnemonic na passphrase. Kwa kubadilisha passphrase, seed tofauti inapatikana. Hata hivyo, kwa maneno sawa ya Mnemonic na passphrase, seed sawa daima huzalishwa, kwani PBKDF2 ni kazi ya kuamua. Hii inahakikisha kwamba jozi sawa za funguo zinaweza kurejeshwa kupitia nakala zetu.
 
@@ -1462,7 +1514,7 @@ $$
 C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 $$
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/050.webp)
 
 ### Jukumu la Ufunguo Mkuu (Master Key)na Msimbo wa Mnyororo
 
@@ -1476,9 +1528,11 @@ Kabla ya kuendelea na utengenezaji wa HD Wallet na Elements ifuatayo, napenda, k
 
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
 
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
+
 Ufunguo (Key) uliopanuliwa ni muunganisho wa Ufunguo (Key) (iwe wa faragha au wa umma) na msimbo wake wa mnyororo unaohusishwa. Msimbo huu wa mnyororo ni muhimu kwa upataji wa funguo za watoto kwa sababu, bila hiyo, haiwezekani kupata funguo za watoto kutoka kwa Ufunguo (Key) wa mzazi, lakini tutagundua mchakato huu kwa usahihi zaidi katika sura inayofuata. Vifunguo hivi vilivyopanuliwa hivyo huruhusu kujumlisha taarifa zote muhimu ili kupata funguo za watoto, na hivyo kurahisisha usimamizi wa Akaunti (Account) ndani ya HD Wallet.
 
-![CYP201](assets/fr/046.webp)
+![CYP201](assets/en/051.webp)
 
 Ufunguo (Key) uliopanuliwa una sehemu mbili:
 
@@ -1506,7 +1560,7 @@ Kwa yafuatayo, tutapitisha nukuu ifuatayo:
 - $K_{\text{CHD}}^h$: Ufunguo (Key) mgumu wa umma wa mtoto;
 - $k_{\text{CHD}}^h$: Ufunguo (Key) mgumu wa faragha wa mtoto.
 
-![CYP201](assets/fr/047.webp)
+![CYP201](assets/en/052.webp)
 
 ### Ujenzi wa Ufunguo (Key) Uliopanuliwa
 
@@ -1563,14 +1617,14 @@ Huu hapa ni muhtasari wa viambishi awali vilivyotumika na maana zake:
 Ili kuelewa vyema muundo wa ndani wa Ufunguo (Key) uliopanuliwa, hebu tuchukue moja kama mfano na kuivunja. Hapa kuna Ufunguo (Key) uliopanuliwa:
 
 
-- Katika Base58**:
+- Katika **Base58**:
 
 ```text
 xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2rUCukSiDQFa7roTwzjiAhyQAdPLEjqHT
 ```
 
 
-- Katika heksadesimali**:
+- Katika heksadesimali:
 
 ```text
 0488B21E036D5601AD80000000C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A89303772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF50658051F067C3A
@@ -1608,11 +1662,13 @@ Katika sura hii, tuligundua kuwa kuna aina mbili tofauti za funguo za watoto. Pi
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
 
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
+
 Utoaji wa jozi za funguo za watoto katika pochi za Bitcoin HD hutegemea muundo wa kidaraja unaoruhusu kutoa idadi kubwa ya funguo, huku ukipanga jozi hizi katika vikundi tofauti kupitia matawi. Kila jozi ya watoto inayotokana na jozi ya wazazi inaweza kutumika moja kwa moja katika *scriptPubKey* kufunga bitcoins, au kama sehemu ya kuanzia kwa funguo zaidi za watoto za generate, na kadhalika, kuunda mti wa funguo.
 
 MaToleo (version) haya yote huanza na Ufunguo Mkuu (Master Key)na msimbo mkuu, ambao ni wazazi wa kwanza katika kiwango cha Kina (depth) cha 0. Wao ni, kwa njia fulani, Adamu na Hawa wa funguo za Wallet yako, mababu wa kawaida wa funguo zote zinazotolewa.
 
-![CYP201](assets/fr/048.webp)
+![CYP201](assets/en/053.webp)
 
 Wacha tuchunguze jinsi uvumbuzi huu wa kiakili unavyofanya kazi.
 
@@ -1636,7 +1692,7 @@ Utoaji wa kila Ufunguo (Key) wa mtoto unatokana na chaguo za kukokotoa za HMAC-S
 
 Katika mahesabu yetu yote, nitaashiria $\text{Hash}$ pato la kazi ya HMAC-SHA512.
 
-![CYP201](assets/fr/049.webp)
+![CYP201](assets/en/054.webp)
 
 #### Utoaji wa Ufunguo (Key) wa Faragha wa Mtoto kutoka kwa Ufunguo (Key) wa Faragha wa Mzazi
 
@@ -1678,7 +1734,7 @@ $$
 
 Hapa kuna uwakilishi wa kimkakati wa derivation ya jumla:
 
-![CYP201](assets/fr/050.webp)
+![CYP201](assets/en/055.webp)
 
 Kwa **Ufunguo (Key) mgumu wa mtoto** ($i \geq 2^{31}$), hesabu ya $\text{Hash}$ ni kama ifuatavyo:
 
@@ -1712,7 +1768,7 @@ $$
 
 Hapa kuna uwakilishi wa kimkakati wa derivation ya jumla:
 
-![CYP201](assets/fr/051.webp)
+![CYP201](assets/en/056.webp)
 
 Tunaweza kuona kwamba unyambulishaji wa kawaida na utendakazi wa utokaji mgumu kwa njia ile ile, na tofauti hii: unyambulishaji wa kawaida hutumia Ufunguo (Key) wa umma wa mzazi kama ingizo la chaguo la kukokotoa la HMAC, ilhali unyambulishaji mgumu hutumia Ufunguo (Key) wa kibinafsi wa mzazi.
 
@@ -1756,7 +1812,7 @@ $$
 
 Hapa kuna uwakilishi wa kimkakati wa derivation ya jumla:
 
-![CYP201](assets/fr/052.webp)
+![CYP201](assets/en/057.webp)
 
 ### Mawasiliano kati ya funguo za umma na za kibinafsi za watoto
 
@@ -1790,6 +1846,8 @@ Kwa muhtasari, hadi sasa umejifunza kuunda Elements ya msingi ya HD Wallet: mane
 ## Wallet Muundo na Njia za Utoaji
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
+
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
 
 Muundo wa hierarkia wa pochi za HD kwenye Bitcoin inaruhusu shirika la jozi muhimu kwa njia mbalimbali. Wazo ni kupata, kutoka kwa Ufunguo Mkuu (Master Key)wa kibinafsi na nambari ya mnyororo mkuu, viwango kadhaa vya Kina (depth). Kila ngazi iliyoongezwa inalingana na kupatikana kwa jozi ya Ufunguo (Key) wa mtoto kutoka kwa jozi ya Ufunguo (Key) wa mzazi.
 
@@ -1842,7 +1900,7 @@ Kila Akaunti (Account) iliyofafanuliwa kwa Kina (depth) 3 basi imeundwa katika m
 
 Hatimaye, Kina (depth) cha 5 Kina (depth)wakilisha hatua ya mwisho ya utokaji katika Wallet. Ingawa kitaalam inawezekana kuendelea kwa muda usiojulikana, viwango vya sasa vinakomea hapa. Katika Kina (depth) hiki cha mwisho, jozi za funguo ambazo kwa kweli zitatumika kufunga na kufungua UTXO zimetolewa. Kila index inaruhusu kutofautisha kati ya jozi muhimu za ndugu: kwa hivyo, ya kwanza kupokea Address itatumia index $/0/$, pili index $/1/$, na kadhalika.
 
-![CYP201](assets/fr/053.webp)
+![CYP201](assets/en/058.webp)
 
 ### Nukuu ya Njia za Utokaji
 
@@ -1888,6 +1946,8 @@ Katika sura inayofuata, tutagundua "*vielezi vya hati ya pato*" ni nini, uvumbuz
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
 
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Mara nyingi huambiwa kwamba maneno ya Mnemonic pekee yanatosha kurejesha upatikanaji wa Wallet. Kwa kweli, mambo ni magumu zaidi. Katika sura iliyopita, tuliangalia muundo wa derivation wa HD Wallet, na unaweza kuwa umeona kuwa mchakato huu ni ngumu sana. Njia za utokaji huambia programu mwelekeo wa kufuata ili kupata funguo za mtumiaji. Hata hivyo, wakati wa kurejesha Bitcoin Wallet, ikiwa mtu hajui njia hizi, maneno ya Mnemonic pekee haitoshi. Inaruhusu kupata Ufunguo Mkuu (Master Key)na msimbo mkuu wa chain, lakini ni muhimu kujua faharasa zinazotumiwa kufikia funguo za mtoto.
 
 Kina (depth)dharia, itakuwa muhimu kuokoa sio tu maneno ya Mnemonic ya Wallet yetu lakini pia njia za Akaunti (Account) tunazotumia. Katika mazoezi, mara nyingi inawezekana kurejesha upatikanaji wa funguo za mtoto bila habari hii, ikiwa ni pamoja na kwamba viwango vimefuatwa. Kwa kupima kila kiwango moja baada ya nyingine, kwa ujumla inawezekana kupata tena upatikanaji wa bitcoins. Walakini, hii haijahakikishwa na ni ngumu sana kwa Kompyuta. Pia, pamoja na mseto wa aina za hati na kuibuka kwa usanidi changamano zaidi, maelezo haya yanaweza kuwa magumu kueleza, hivyo basi kubadilisha data hii kuwa taarifa ya faragha na vigumu kurejesha kwa nguvu ya kikatili. Hii ndiyo sababu uvumbuzi umeanzishwa hivi majuzi na unaanza kuunganishwa kwenye programu yako uipendayo ya Wallet: *vielezi vya hati ya pato*.
@@ -1903,7 +1963,7 @@ Faida kuu ya Descriptor iko katika uwezo wao wa kuingiza taarifa zote muhimu ili
 Descriptor ina Elements kadhaa:
 
 
-- Hati za kufanya kazi kama vile `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh`-GW-GW-8`, `wsh`-GW-8, `Wsh-Pay-8' (*-Wness-8) (*Pay-to-Taproot*), `multi` (*Sahihi nyingi*), na `sortedmulti` (*Sahihi nyingi zenye vitufe vilivyopangwa*);
+- Hati za kufanya kazi kama vile `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Sahihi nyingi*), na `sortedmulti` (*Sahihi nyingi zenye vitufe vilivyopangwa*);
 - Njia za utokaji, kwa mfano, `[d34db33f/44h/0h/0h]` ambayo inaonyesha njia ya Akaunti (Account) inayotolewa na alama ya vidole ya Ufunguo Mkuu (Master Key)mahususi;
 - Vifunguo katika miundo mbalimbali kama vile vitufe vya umma vya heksadesimali au vitufe vilivyopanuliwa vya umma (`xpub`);
 - Cheki, ikitanguliwa na ishara ya Hash, ili kuthibitisha uadilifu wa kifafanuzi.
@@ -1938,6 +1998,8 @@ Sasa unajua kila kitu kuhusu uendeshaji wa HD Wallet kwenye Bitcoin na mchakato 
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
+
 Anwani za kupokea ni vipande vya maelezo yaliyopachikwa katika *scriptPubKey* ili kufunga UTXO zilizoundwa upya. Kuweka tu, Address hutumikia kupokea bitcoins. Hebu tuchunguze utendaji wao kuhusiana na yale ambayo tumejifunza katika sura zilizopita.
 
 ### Jukumu la Anwani za Bitcoin katika Hati
@@ -1946,23 +2008,25 @@ Kama ilivyoelezwa hapo awali, jukumu la shughuli ni kuhamisha Umiliki wa bitcoin
 
 Mtumiaji anapopokea bitcoins, mtumaji huunda Toleo (version) la UTXO na kuifunga kwa *scriptPubKey*. Hati hii ina sheria zinazobainisha saini na funguo za umma zinazohitajika ili kufungua UTXO hii. Ili kutumia UTXO hii katika muamala mpya, ni lazima mtumiaji atoe maelezo yaliyoombwa kupitia *scriptSig*. Utekelezaji wa *scriptSig* pamoja na *scriptPubKey* lazima urejeshe "kweli" au `1`. Ikiwa hali hii itafikiwa, UTXO inaweza kutumika kuunda UTXO mpya, yenyewe imefungwa na *scriptPubKey* mpya, na kadhalika.
 
-![CYP201](assets/fr/054.webp)
+![CYP201](assets/en/059.webp)
 
 Ni katika *scriptPubKey* ambapo anwani za kupokea zinapatikana. Walakini, matumizi yao hutofautiana kulingana na kiwango cha maandishi kilichopitishwa. Hapa kuna jedwali la muhtasari wa maelezo yaliyo katika *scriptPubKey* kulingana na kiwango Kina (depth)chotumiwa, pamoja na maelezo yanayotarajiwa katika *scriptSig* ili kufungua *scriptPubKey*.
 
-| Standard (Kawaida) | *scriptPubKey*                                              | *scriptSig*                     | *Hati ya Redeem (redeem script)*     | *shahidi (witness)*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <Hati ya Redeem (redeem script) >` | Arbitrary data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<Hati ya Redeem (redeem script) >`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<Hati ya Redeem (redeem script) >`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Chanzo: Klabu ya ukaguzi ya Bitcoin Core PR, Julai 7, 2021 - Gloria Zhao*
+
+| Kiwango             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ---------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Data holela | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Chanzo: Klabu ya Bitcoin Core PR review ya tarehe 7 Julai 2021 – Gloria Zhao_
 
 Opcodes zinazotumiwa katika hati zimeundwa ili kudhibiti habari, na, ikiwa ni lazima, kulinganisha au kuipima. Wacha tuchukue mfano wa hati ya P2PKH, ambayo ni kama ifuatavyo.
 
@@ -1983,41 +2047,41 @@ Utekelezaji wa hati niliyotoa kama mfano unafuata mchakato huu:
 
 - Tunayo *scriptSig*, *ScriptPubKey*, na stack:
 
-![CYP201](assets/fr/055.webp)
+![CYP201](assets/en/060.webp)
 
 
 - *scriptSig* inasukumwa kwenye rafu:
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/061.webp)
 
 
 - `OP_DUP` inanakili Ufunguo (Key) wa umma uliotolewa katika *scriptSig* kwenye rafu:
 
-![CYP201](assets/fr/057.webp)
+![CYP201](assets/en/062.webp)
 
 
 - `OP_HASH160` hurejesha Hash ya Ufunguo (Key) wa umma ambao umenakiliwa hivi punde:
 
-![CYP201](assets/fr/058.webp)
+![CYP201](assets/en/063.webp)
 
 
 - `OP_PUSHBYTES_20 <pubKeyHash>` husukuma Bitcoin Address iliyo katika *scriptPubKey* kwenye rafu:
 
-![CYP201](assets/fr/059.webp)
+![CYP201](assets/en/064.webp)
 
 
 - `OP_EQUALVERIFY` inathibitisha kuwa Ufunguo (Key) wa umma uliopokewa unalingana na upokeaji wa Address uliotolewa:
 
-![CYP201](assets/fr/060.webp)
+![CYP201](assets/en/065.webp)
 
 `OP_CHECKSIG` hukagua saini iliyo katika *scriptSig* kwa kutumia Kitufe cha umma (Public Key). Opcode hii kimsingi hufanya uthibitishaji wa sahihi kama tulivyoeleza katika sehemu ya 3 ya mafunzo haya:
 
-![CYP201](assets/fr/061.webp)
+![CYP201](assets/en/066.webp)
 
 
 - Ikiwa `1` itasalia kwenye rafu, basi hati ni halali:
 
-![CYP201](assets/fr/062.webp)
+![CYP201](assets/en/067.webp)
 
 Kwa hivyo, kwa muhtasari, hati hii inaruhusu uthibitishaji, kwa usaidizi wa sahihi ya dijiti, kwamba mtumiaji anayedai Ownership ya UTXO hii na anayetaka kuitumia ana Ufunguo (Key) wa faragha unaohusishwa na kupokea Address iliyotumiwa wakati wa kuunda UTXO hii.
 
@@ -2061,7 +2125,7 @@ Kitaalam, hati ya P2TR hufunga bitcoins kwenye Ufunguo (Key) wa kipekee wa umma 
 
 P2TR kwa hivyo inatoa unyumbufu mkubwa, kwani inaruhusu kufunga bitcoins ama kwa Ufunguo (Key) wa kipekee wa umma, na maandishi kadhaa ya chaguo, au zote mbili kwa wakati mmoja. Faida ya muundo huu wa Merkle Tree ni kwamba hati ya matumizi tu inayotumiwa inafichuliwa wakati wa shughuli, lakini maandishi mengine yote mbadala yanabaki kuwa siri.
 
-![CYP201](assets/fr/063.webp)
+![CYP201](assets/en/068.webp)
 
 P2TR inalingana na Toleo (version) la 1 la matokeo ya SegWit, ambayo ina maana kwamba sahihi za pembejeo za P2TR zimehifadhiwa katika sehemu ya shughuli ya *shahidi (witness)*, na si katika *scriptSig*. Anwani za P2TR hutumia usimbaji wa *bech32m* na huanza na `bc1p`, lakini ni za kipekee kabisa kwa sababu hazitumii chaguo za kukokotoa za Hash kwa ujenzi wake. Kwa kweli, zinawakilisha moja kwa moja Ufunguo (Key) wa umma $Q$ ambao umeundwa tu na metadata. Kwa hivyo, ni mfano wa maandishi karibu na P2PK.
 
@@ -2070,6 +2134,8 @@ Sasa kwa kuwa tumefunika nadharia, wacha tuendelee kufanya mazoezi! Katika sura 
 ## Utoaji wa Address
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 Hebu tuchunguze pamoja jinsi ya generate kupokea Address kutoka kwa jozi ya funguo ziko, kwa mfano, kwa Kina (depth) cha 5 cha HD Wallet. Address hii basi inaweza kutumika katika programu ya Wallet kufunga UTXO.
 
@@ -2085,7 +2151,7 @@ Ufunguo (Key) wa umma kwenye Bitcoin ni sehemu ya $K$ iliyo kwenye mkunjo wa dua
 
 Hata hivyo, mikunjo ya duaradufu ina sifa ya ulinganifu kwa heshima ya mhimili wa x: kwa $x$ ya kuratibu, kuna thamani mbili tu zinazowezekana za $y$: $y$ na $-y$. Pointi hizi mbili ziko kila upande wa mhimili wa x. Kwa maneno mengine, ikiwa tunajua $x$, inatosha kubainisha ikiwa $y$ ni sawa au isiyo ya kawaida ili kutambua uhakika halisi kwenye mkunjo.
 
-![CYP201](assets/fr/064.webp)
+![CYP201](assets/en/069.webp)
 
 Ili kubana Ufunguo (Key) wa umma, $x$ pekee ndiyo iliyosimbwa, ambayo inachukua biti 256, na kiambishi awali Kina (depth)ongezwa ili kubainisha usawa wa $y$. Njia hii inapunguza ukubwa wa Ufunguo (Key) wa umma hadi biti 264 badala ya 520 ya awali. Kiambishi awali `0x02` Kina (depth)onyesha kuwa $y$ ni sawa, na kiambishi awali `0x03` Kina (depth)onyesha kuwa $y$ ni isiyo ya kawaida.
 
@@ -2194,7 +2260,7 @@ Katika muktadha wa Bitcoin, misimbo ya BCH hutoa maelewano bora kati ya ukubwa n
 Ili kuhesabu cheki na nambari za BCH, tunahitaji kuandaa Elements kadhaa:
 
 
-- HRP (*Sehemu Inayosomeka kwa Binadamu*)**: Kwa Bitcoin Mainnet, HRP ni `bc`;
+- **HRP (*Sehemu Inayosomeka kwa Binadamu*)**: Kwa Bitcoin Mainnet, HRP ni `bc`;
 
 HRP lazima ipanuliwe kwa kutenganisha kila herufi katika sehemu mbili:
 
@@ -2284,7 +2350,7 @@ Umaalumu wa alfabeti hii ya _bech32_ ni kwamba inajumuisha herufi zote za alphan
 
 Kwa muhtasari, hapa kuna mchakato wa kupata:
 
-![CYP201](assets/fr/065.webp)
+![CYP201](assets/en/070.webp)
 
 Hivi ndivyo jinsi ya kupata P2WPKH (SegWit v0) kupokea Address kutoka kwa jozi ya funguo. Hebu sasa tuendelee hadi kwenye anwani za P2TR (SegWit v1 / Taproot) na tugundue mchakato wa uzalishaji wao.
 
@@ -2317,7 +2383,7 @@ $$
 wapi:
 
 
-- $\text{H}_{\text{TapTweak}}$** ni chaguo za kukokotoa za SHA256 Hash zilizowekwa lebo ya `TapTweak`. Iwapo hufahamu kipengele cha kukokotoa chenye alama ya Hash ni nini, ninakualika uangalie sura ya 3.3;
+- $\text{H}_{\text{TapTweak}}$ ni chaguo za kukokotoa za SHA256 Hash zilizowekwa lebo ya `TapTweak`. Iwapo hufahamu kipengele cha kukokotoa chenye alama ya Hash ni nini, ninakualika uangalie sura ya 3.3;
 - $P$ ni Ufunguo (Key) wa ndani wa umma, unaowakilishwa katika umbizo lake la biti-256 lililobanwa, kwa kutumia kiratibu cha $x$ pekee.
 
 Ufunguo (Key) wa umma wa Taproot $Q$ kisha hukokotolewa kwa kuongeza kibano $t$, Kina (depth)chozidishwa na jenereta ya mkunjo wa duaradufu $G$, kwa Ufunguo (Key) wa ndani wa umma $P$:
@@ -2366,7 +2432,7 @@ $$
 
 Kisha tunaendelea kwa kuunganisha matokeo mawili baada ya mawili, tukiyapitisha kwa kila hatua kupitia chaguo la kukokotoa la Hash `TapBranch`, hadi tupate mzizi wa Merkle Tree:
 
-![CYP201](assets/fr/066.webp)
+![CYP201](assets/en/071.webp)
 
 Mara tu Merkle Root $h_{\text{root}}$ inakokotolewa, tunaweza kuhesabu tweak. Kwa hili, tunaunganisha Ufunguo (Key) wa ndani wa umma wa Wallet $P$ na mzizi $h_{\text{root}}$, na kisha tupitishe yote kupitia chaguo la kukokotoa la Hash `TapTweak` lililowekwa lebo:
 

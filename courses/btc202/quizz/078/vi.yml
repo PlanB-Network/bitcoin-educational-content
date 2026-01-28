@@ -1,0 +1,9 @@
+question: Mục đích của các tệp revNNNNNN.dat được lưu trữ cùng với blkNNNNN.dat là gì?
+answer: Khôi phục bộ UTXO trong quá trình tổ chức lại
+wrong_answers:
+  - Khôi phục bộ UTXO trong Hard Fork
+  - Khôi phục Mempool trong Hard Fork
+  - Khôi phục Mempool trong quá trình tổ chức lại
+explanation: |
+  Mỗi revNNNNNN.dat chứa dữ liệu cần thiết để hoàn tác tác động của khối trên tập hợp UTXO, giúp quản lý việc sắp xếp lại dễ dàng hơn.
+reviewed: true

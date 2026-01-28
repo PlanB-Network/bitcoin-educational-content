@@ -1,0 +1,9 @@
+question: 사용자가 비트코인을 진정으로 소유하려면 무엇을 보관해야 할까요?
+answer: 개인 키
+wrong_answers:
+  - 수신 주소
+  - Exchange 플랫폼 비밀번호
+  - Blockchain 블록
+explanation: |
+  개인 키를 보유하지 않으면 비트코인을 진정으로 소유한 것이 아닙니다.
+reviewed: false

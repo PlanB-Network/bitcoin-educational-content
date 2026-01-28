@@ -1,9 +1,11 @@
-question: Quel est le nombre approximatif de nœuds répartis à travers le monde en septembre 2023 ?
-answer: 45 000 nœuds
+question: Pourquoi est-il important qu'un nœud Bitcoin reste abordable et accessible à tous les utilisateurs possibles ?
+answer: Parce que cela facilite la décentralisation du réseau.
 wrong_answers:
-  - 10 000 nœuds
-  - 100 000 nœuds
-  - 500 000 nœuds
-explanation: >-
-  En septembre 2023, il y a environ 45 000 nœuds répartis à travers le monde.
+  - Parce que cela augmente la capacité de transaction du réseau.
+  - Parce que cela diminue la capacité de transaction du réseau.
+  - Parce que cela augmente la récompense de bloc pour les mineurs.
+explanation: |
+  Le coût abordable et l'accessibilité d'un nœud Bitcoin sont
+  importants car ils facilitent la décentralisation du
+  réseau.
 reviewed: true

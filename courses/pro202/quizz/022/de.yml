@@ -1,0 +1,8 @@
+question: Welche grundlegende Einschränkung des UTXO-Modells erfordert eine besondere Handhabung bei der Ausgabe von Bitcoin?
+answer: UTXOs müssen vollständig ausgegeben werden und können nicht teilweise verbraucht werden
+wrong_answers:
+  - UTXOs können nur einmal pro Block ausgegeben werden, um Doppelausgaben zu vermeiden
+  - UTXOs müssen in chronologischer Reihenfolge, basierend auf der Erstellungszeit, ausgegeben werden
+  - UTXOs erfordern mehrere Signaturen von verschiedenen Schlüsseln, um gültig zu sein
+explanation: |
+  Das UTXO-Modell hat die grundlegende Einschränkung, dass nicht ausgegebene Transaktionsausgaben vollständig verbraucht werden müssen - es gibt keinen Mechanismus für Teilausgaben. Wenn Sie weniger als den vollen UTXO-Betrag ausgeben müssen, müssen Sie eine Transaktion erstellen, die den gesamten UTXO-Betrag ausgibt und eine Änderungsausgabe für den Rest an Sie selbst enthält. Die anderen Optionen beschreiben nicht existierende Beschränkungen: UTXOs können mehrfach pro Block ausgegeben werden (verschiedene UTXOs), erfordern keine chronologische Reihenfolge und benötigen in der Regel nur eine gültige Signatur, es sei denn, sie sind speziell als Multisig konzipiert.

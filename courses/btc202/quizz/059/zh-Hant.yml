@@ -1,0 +1,9 @@
+question: 遠端存取 Bitcoin core 的最佳方式是什麼？
+answer: 公開 RPC 連接埠
+wrong_answers:
+  - 使用 Tor
+  - 使用 VPN
+  - 公開 Electrum 伺服器
+explanation: |
+  在未加密的情況下開啟 RPC 連接埠有很大的安全風險。最好使用 Tor 或 VPN。
+reviewed: true

@@ -1,0 +1,14 @@
+question: ประเภทหลักของ stablecoins ที่กล่าวถึงในข้อความคืออะไร?
+answer: Fiat-backed, commodity-backed, and algorithmic stablecoins.
+wrong_answers:
+  - Stablecoin ดิจิทัลและกายภาพ
+  - Stablecoin แบบรวมศูนย์และแบบกระจายอำนาจ
+  - Stablecoins ที่ได้รับการสนับสนุนโดยธนาคารและ stablecoins ที่ได้รับการสนับสนุนโดยบุคคล
+explanation: |
+  ในบทก่อนหน้านี้ เราได้เห็นประเภทหลักสามประเภทของ stablecoins; 
+  fiat-backed stablecoins ซึ่งได้รับการสนับสนุนโดยสกุลเงินดั้งเดิม 
+  เช่น ดอลลาร์สหรัฐ; commodity-backed stablecoins ซึ่งได้รับการสนับสนุนโดย 
+  สินค้าโภคภัณฑ์เช่นทองคำหรือน้ำมัน; และ algorithmic stablecoins ซึ่งพึ่งพา 
+  ชุดของกฎหรืออัลกอริทึมเพื่อรักษามูลค่าของพวกเขา อย่างไรก็ตาม 
+  มีการบันทึกว่า algorithmic stablecoins ที่ประสบความสำเร็จยังไม่เข้าสู่ตลาด
+reviewed: true

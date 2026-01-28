@@ -1,11 +1,15 @@
-question: Ni kuki ubuzima bwite buhambaye mu bijanye na Bitcoin?
-answer: Kugira ngo ugabanye ingorane zo gukurikirana amahera yawe.
+question: Ni kuki ukwiye kugura ama bitcoins atari KYC?
+answer: Kugira ngo ubone ubuzima bwite bwawe.
 wrong_answers:
-  - Kugira ngo ugabanye agaciro k’ama bitcoins yawe.
-  - Kugira ngo ama bitcoins yawe ntiyibwe.
-  - Kugira ngo wishyure imisoro ku bitcoins zawe.
+  - Kugira ngo abakoresha Bitcoin bose bandikwe.
+  - Kugura kugiciro gito.
+  - Kugurisha kugiciro gito.
 explanation: |
-  Ubuzima bwite burahambaye mu bijanye na Bitcoin kugira ngo ugabanye
-  ingorane zo gukurikirana amafaranga yawe, bishobora kworohereza
-  ubugenzuzi bwawe.
+  Gugura ama bitcoins atari KYC bisigura kuronka ama bitcoins ata .
+  guca mu rugero rwo kumenya umukiriya wawe
+  uburyo bwo kugenzura ko amahinguriro menshi n'ibibanza
+  bisaba. Imvo nyamukuru imwe yotuma abantu bashobora guhitamwo ibi
+  inzira ni ukubungabunga ubuzima bwite bwabo, kugira ngo .
+  amakuru yerekeye umuntu n'ibikorwa vy'amahera biragumaho
+  ntivyamenyekanye.
 reviewed: true

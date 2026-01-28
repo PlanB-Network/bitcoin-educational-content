@@ -1,13 +1,9 @@
-question: Koja je potencijalna mana digitalnih valuta centralnih banaka (CBDC)?
-answer: Mogle bi ometati finansijsku slobodu pojedinaca i olakšati autoritarne zloupotrebe.
+question: Koja je prva faza koja se javlja u fenomenu hiperinflacije?
+answer: Gubitak poverenja u valutu.
 wrong_answers:
-  - One bi mogle dovesti do smanjenja ponude novca.
-  - One bi mogle dovesti do smanjenja vrednosti Bitkoina.
-  - One bi mogle dovesti do smanjenja vrednosti zlata.
+  - Kolaps valute i povećanje cena.
+  - Zaoštreni krug štampanja novca.
+  - Nova valuta se pojavljuje.
 explanation: |
-  Digitalne valute centralnih banaka (CBDC) mogle bi potencijalno
-  ometati finansijsku slobodu pojedinaca i olakšati
-  autoritarne zloupotrebe. To je zato što bi one nudile
-  više centralno planiranu ekonomiju, pri čemu bi centralna banka
-  imala još veću kontrolu nad ponudom novca.
+  Prva faza hiperinflacije je gubitak poverenja u valutu.
 reviewed: true

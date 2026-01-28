@@ -1,0 +1,9 @@
+question: ทางเลือกใดในการแก้ปัญหา Swiss Bitcoin Pay เพื่อยอมรับการชำระเงิน Bitcoin สำหรับโปรไฟล์ Essential ที่เป็นการดูแลรักษา 100%?
+answer: Open Node
+wrong_answers:
+  - BTCPay Server
+  - Bitcoinize PoS
+  - Phoenix Wallet
+explanation: |
+  Open Node มีลักษณะเป็นโซลูชันที่ดูแลรักษาเต็มรูปแบบ แตกต่างจากลักษณะไฮบริดของ Swiss Bitcoin Pay
+reviewed: true

@@ -15,4 +15,4 @@ Bezieht sich auf einen Block ohne Kinder: ein gültiger Block, der aber von der 
 
 ![](../../dictionnaire/assets/9.webp)
 
-> ► *Im Englischen wird er als "Stale Block" bezeichnet. Im Französischen kann er auch als "bloc périmé" oder "bloc abandonné" bezeichnet werden. Obwohl ich mit dieser Verwendung nicht einverstanden bin, verwenden einige Bitcoiner den Begriff "bloc orphelin", um einen veralteten Block zu bezeichnen
+> ► *Im Englischen wird er als "Stale Block" bezeichnet. Im Französischen kann er auch als "bloc périmé" oder "bloc abandonné" bezeichnet werden. Obwohl ich mit dieser Verwendung nicht einverstanden bin, verwenden einige Bitcoiner den Begriff "bloc orphelin", um einen veralteten Block zu bezeichnen.*

@@ -1,0 +1,9 @@
+question: Worauf bezieht sich der Datenschutz in der Blockchain im Zusammenhang mit Bitcoin?
+answer: Die Informationen, die Sie bei Transaktionen auf der Blockchain preisgeben
+wrong_answers:
+  - Die Verschlüsselung der in Ihrem wallet gespeicherten privaten Schlüssel
+  - Der Schutz Ihrer Internetverbindung bei der Nutzung von Bitcoin
+  - Die Anonymität, die durch die Verwendung mehrerer wallet-Adressen gewährleistet wird
+explanation: |
+  Blockchain-Datenschutz bezieht sich speziell auf die Informationen, die Sie bei Transaktionen auf der Blockchain preisgeben, was für alle Transaktionen gilt, die Sie senden und empfangen. Dies unterscheidet sich von der wallet-Verschlüsselung (die gespeicherte Schlüssel schützt), der Sicherheit der Internetverbindung (die off-chain-Datenschutz ist) oder dem Irrglauben, dass mehrere Adressen Anonymität bieten. Lecks in der Privatsphäre auf der Kette entstehen durch die Wiederverwendung von Adressen und das Clustering, bei dem Transaktionen miteinander verknüpft werden können, um Muster über die finanziellen Aktivitäten der Nutzer aufzudecken.
+reviewed: false

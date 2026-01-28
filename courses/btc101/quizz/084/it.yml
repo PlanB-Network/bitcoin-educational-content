@@ -1,11 +1,13 @@
-question: Quale dovrebbe essere la principale preoccupazione quando si possiedono bitcoin?
-answer: La sicurezza dei propri fondi.
+question: Qual è l'uso consigliato per un wallet fisico offline, o cold?
+answer: Conservare grandi quantità di bitcoin.
 wrong_answers:
-  - Il valore di Bitcoin in termini di dollari.
-  - La legalità del possesso di bitcoin.
-  - Il permesso di spendere i propri fondi.
+  - Utilizzarlo per le le spese quotidiane.
+  - Conservare piccole quantità di bitcoin.
+  - Conservare risparmi a breve termine.
 explanation: |
-  Quando si possiedono bitcoin, la preoccupazione principale è la sicurezza
-  dei propri fondi. Questo perché Bitcoin, come qualsiasi altra forma
-  di valuta, può essere rubato o perso se non adeguatamente protetto.
+  Un wallet fisico offline, o cold, è consigliato per
+  conservare grandi quantità perché è meno vulnerabile a
+  minacce online rispetto agli hot wallet. Non è
+  consigliato per le spese quotidiane, perché è meno
+  accessibile per transazioni frequenti.
 reviewed: true

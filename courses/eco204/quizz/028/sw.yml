@@ -1,4 +1,4 @@
-question: Ni nini mfanano wa kawaida katika matokeo ya mfumuko mkubwa wa bei nchini Zimbabwe na Jamhuri ya Weimar?
+question: Ni upi mfanano wa kawaida katika matokeo ya mfumuko mkubwa wa bei nchini Zimbabwe na Jamhuri ya Weimar?
 answer: Utekelezaji wa mfumo wa mgao wa kudhibiti usambazaji wa bidhaa muhimu.
 wrong_answers:
   - Kuongezeka kwa uwekezaji wa kigeni.
@@ -9,4 +9,4 @@ explanation: |
   serikali zinaweza kutekeleza mifumo ya mgao ili kudhibiti usambazaji wa vitu muhimu
   bidhaa. Hii ni pamoja na matumizi ya kuponi au vocha ili kudhibiti ununuzi wa
   petroli au mafuta.
-reviewed: false
+reviewed: true

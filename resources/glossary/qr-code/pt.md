@@ -6,4 +6,4 @@ Um tipo de código de barras bidimensional que pode ser rapidamente lido por dis
 
 O código QR é amplamente utilizado na Bitcoin para facilitar a transmissão de informações entre dois dispositivos. É utilizado principalmente para partilhar endereços de receção, codificados no formato URI em conformidade com o BIP21. No entanto, a sua utilização estende-se também a chaves alargadas, PSBT, facturas Lightning, etc.
 
-> ► *O código QR significa "Quick Response Code" (código de resposta rápida)
+> ► *O código QR significa "Quick Response Code" (código de resposta rápida)*

@@ -42,7 +42,7 @@ Cryptomator là một lựa chọn thay thế cho các ứng dụng khác, đặ
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Ứng dụng Cryptomator có sẵn trên **Windows** (exe / msi), **Linux**, **macOS,** cũng như **Android** và **iOS**. Nhân tiện, tất cả các ứng dụng đều miễn phí, ngoại trừ ứng dụng Android, bạn phải trả phí (14,99 euro).
 
@@ -114,7 +114,7 @@ Tiếp theo, bạn có thể điều chỉnh tùy chọn trong cài đặt chuy�
 
 
 
-Tiếp theo, bạn cần định nghĩa **mật khẩu tương ứng với khóa mã hóa**. Mật khẩu này sẽ cho phép bạn **mở khóa két Cryptomator** và truy cập dữ liệu bên trong. **Nếu bạn làm mất nó, bạn sẽ mất quyền truy cập vào dữ liệu**. Cuối cùng, bạn vẫn có tùy chọn **tạo khóa dự phòng** bằng cách chọn tùy chọn "**Đúng vậy, phòng còn hơn chữa bệnh**", tương tự như khóa khôi phục [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Điều này rất đáng làm, nhưng đừng lưu khóa dự phòng này ở thư mục gốc của OneDrive!
+Tiếp theo, bạn cần định nghĩa **mật khẩu tương ứng với khóa mã hóa**. Mật khẩu này sẽ cho phép bạn **mở khóa két Cryptomator** và truy cập dữ liệu bên trong. **Nếu bạn làm mất nó, bạn sẽ mất quyền truy cập vào dữ liệu**. Cuối cùng, bạn vẫn có tùy chọn **tạo khóa dự phòng** bằng cách chọn tùy chọn "**Đúng vậy, phòng còn hơn chữa bệnh**", tương tự như khóa khôi phục [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Điều này rất đáng làm, nhưng đừng lưu khóa dự phòng này ở thư mục gốc của OneDrive!
 
 
 
@@ -170,7 +170,7 @@ Bạn phải nhập mật khẩu để mở khóa két. Sau đó nhấp vào "**
 
 
 
-Về phía OneDrive, chúng ta không thể duyệt trực tiếp kho lưu trữ Cryptomator. Chúng ta không thể xem dữ liệu (cả tên tệp lẫn nội dung). Điều này có nghĩa là bạn không cần phải thêm dữ liệu vào kho lưu trữ Cryptomator thông qua phím tắt OneDrive thông thường. **Bạn phải thêm dữ liệu bằng ổ đĩa ảo của Cryptomator
+Về phía OneDrive, chúng ta không thể duyệt trực tiếp kho lưu trữ Cryptomator. Chúng ta không thể xem dữ liệu (cả tên tệp lẫn nội dung). Điều này có nghĩa là bạn không cần phải thêm dữ liệu vào kho lưu trữ Cryptomator thông qua phím tắt OneDrive thông thường. **Bạn phải thêm dữ liệu bằng ổ đĩa ảo của Cryptomator.**
 
 
 

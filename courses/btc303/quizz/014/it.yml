@@ -1,0 +1,9 @@
+question: Quale problema con i sistemi finanziari tradizionali individua Satoshi Nakamoto nell'introduzione del whitepaper Bitcoin?
+answer: Le istituzioni finanziarie non possono evitare di mediare le controversie, rendendo impossibili le transazioni completamente non reversibili
+wrong_answers:
+  - Le banche applicano commissioni eccessive che rendono tutte le transazioni elettroniche non redditizie per i consumatori
+  - Le società di carte di credito si rifiutano di elaborare pagamenti per beni digitali e servizi online
+  - Le normative governative impediscono alle istituzioni finanziarie di operare oltre i confini internazionali
+explanation: |
+  Il Satoshi identifica specificamente che le istituzioni finanziarie che fungono da terze parti fidate non possono evitare di mediare le controversie, il che impedisce transazioni completamente non reversibili. Ciò crea debolezze intrinseche nel modello basato sulla fiducia, aumenta i costi di mediazione e costringe i commercianti a diffidare dei clienti. Le altre opzioni descrivono problemi diversi non menzionati nell'analisi del Satoshi sui sistemi di pagamento tradizionali.
+reviewed: false

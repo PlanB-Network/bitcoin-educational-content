@@ -34,7 +34,7 @@ Kwa maneno mengine, na utekelezaji huu, unaweza:
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Kwa nini uwe na nodi yako ya Umeme?
 
@@ -64,7 +64,7 @@ Kwa maana hii, kuendesha nodi ya Umeme huongeza usalama na uadilifu wa data yako
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Una chaguzi mbili za kuendesha mfano wa utekelezaji wa LND kwenye mashine yetu. Tunaweza kusanidi mazingira kwenye mashine yetu wenyewe ili kuendeshwa ndani ya nchi, au kusakinisha LND kutoka kwa chombo cha Docker. Hapa, tutazingatia chaguo la kwanza, na kuona jinsi ya kuendelea na Docker katika mafunzo ya baadaye.
@@ -128,7 +128,7 @@ sudo apt install -y build-essential git make
 
 
 
-Kuanzia tarehe ya mafunzo haya, LND inahitaji toleo la 1.23.6 la Go*** kwa ajili ya kusakinisha.
+Kuanzia tarehe ya mafunzo haya, LND inahitaji toleo la 1.23.6 la **Go** kwa ajili ya kusakinisha.
 
 
 
@@ -475,7 +475,7 @@ lncli listpeers
 
 
 
-**Chaneli ya Umeme hukuruhusu kuwa na ** muunganisho wa moja kwa moja, wa jozi-kwa-jozi na nodi nyingine kwenye Lightning Network**. Katika chaneli hii, unaweza kwa uhuru Exchange Satoshis hadi uwezo wa kituo.
+**Chaneli ya Umeme hukuruhusu kuwa na muunganisho wa moja kwa moja, wa jozi-kwa-jozi na nodi nyingine kwenye Lightning Network**. Katika chaneli hii, unaweza kwa uhuru Exchange Satoshis hadi uwezo wa kituo.
 
 
 
@@ -665,4 +665,4 @@ Kwa hivyo umefika mwisho wa somo hili. Iwapo ungependa kupata maelezo zaidi kuhu
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -1,0 +1,8 @@
+question: ¿Qué impide a los usuarios crear dinero de la nada en el sistema Elements' Confidential Transactions?
+answer: Rango Pruebas que demuestran matemáticamente que los valores ocultos son enteros positivos dentro de rangos válidos
+wrong_answers:
+  - Pedersen Compromisos que vinculan criptográficamente los importes de las transacciones a claves públicas
+  - Validación del Registro de Activos que comprueba todos los importes de las transacciones con los límites de activos registrados
+  - Nodos de consenso federados que descifran y verifican todos los importes confidenciales de las transacciones
+explanation: |
+  Las Pruebas de Rango son el mecanismo criptográfico específico que impide a los usuarios explotar el sistema de transacciones confidenciales utilizando números negativos o cantidades no válidas para crear dinero de la nada. Mientras que los Compromisos de Pedersen ocultan las cantidades reales, las Pruebas de Rango garantizan la integridad matemática demostrando que los valores ocultos se encuentran dentro de rangos legítimos. El Registro de Activos sólo asigna los ID de los activos a nombres legibles por humanos y no valida las cantidades, y los nodos federados no descifran las transacciones confidenciales, sino que las verifican sin ver los valores reales.

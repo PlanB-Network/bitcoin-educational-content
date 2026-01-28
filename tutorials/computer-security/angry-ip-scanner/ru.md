@@ -1,5 +1,5 @@
 ---
-name: Сердитый IP-сканер
+name: Angry IP Scanner
 description: Простой способ сканирования сети
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ ___
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Начало работы с Angry IP Scanner
 
@@ -84,8 +84,8 @@ https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6d
 
 
 
-- Feeder**: модуль, отвечающий за генерацию списков IP-адресов для сканирования, из случайного диапазона IP-адресов или файла со списком IP-адресов.
-- Fetcher**: набор модулей для получения информации о хостах в сети. Например, существуют фетчеры для определения MAC-адресов, сканирования портов, определения имен хостов или отправки HTTP-запросов.
+- **Feeder**: модуль, отвечающий за генерацию списков IP-адресов для сканирования, из случайного диапазона IP-адресов или файла со списком IP-адресов.
+- **Fetcher**: набор модулей для получения информации о хостах в сети. Например, существуют фетчеры для определения MAC-адресов, сканирования портов, определения имен хостов или отправки HTTP-запросов.
 
 
 
@@ -181,4 +181,4 @@ https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6d
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

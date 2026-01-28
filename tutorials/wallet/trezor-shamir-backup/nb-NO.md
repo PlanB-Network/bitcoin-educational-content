@@ -34,7 +34,7 @@ Brukere som har opprettet en portefølje med *Single-share Backup*, kan når som
 
 
 
-Multi-share Backup* er tilgjengelig på Trezor Model T, Safe 3 og Safe 5. Denne funksjonen støttes ikke av Trezor Model One.
+Multi-share Backup er tilgjengelig på Trezor Model T, Safe 3 og Safe 5. Denne funksjonen støttes ikke av Trezor Model One.
 
 
 
@@ -85,11 +85,11 @@ Hvis du trenger hjelp med det første oppsettet av enheten din, har vi også en 
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### På en ny portefølje
 
@@ -139,13 +139,13 @@ Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer Mnemonic-fr
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 På Trezor velger du det totale antallet aksjer du ønsker å konfigurere. De vanligste konfigurasjonene er 2-de-3 og 3-de-5. I dette eksemplet vil jeg opprette en 2-de-3, så jeg velger 3 delinger. Hver deling vil representere en Mnemonic-frase på 20 ord.
 
 
 
-*For Safe 5-brukere vil det stå "*Trykk for å fortsette*" på skjermen, men du må faktisk sveipe opp for å bekrefte
+*For Safe 5-brukere vil det stå "Trykk for å fortsette" på skjermen, men du må faktisk sveipe opp for å bekrefte*
 
 
 
@@ -173,7 +173,7 @@ Jeg anbefaler at du noterer ned hver deling på et separat medium og administrer
 
 
 
-du må selvfølgelig aldri dele disse ordene på Internett, slik jeg gjør i denne veiledningen. Dette eksemplet Wallet vil bare bli brukt på Testnet og vil bli slettet på slutten av opplæringen.**_
+du må selvfølgelig aldri dele disse ordene på Internett, slik jeg gjør i denne veiledningen. Dette eksemplet Wallet vil bare bli brukt på Testnet og vil bli slettet på slutten av opplæringen.
 
 
 
@@ -273,7 +273,7 @@ Gratulerer, du er nå oppdatert på bruken av Single-share- og Multi-share-sikke
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legger igjen en Green-tommel nedenfor. Del gjerne denne artikkelen på dine sosiale nettverk. Tusen takk skal du ha!
 
@@ -285,6 +285,6 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 
 
 
-- [SLIP-0039: Shamirs hemmelighetsdeling for Mnemonic-koder] (https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
-- [Multi-share Backup på Trezor] (https://trezor.io/learn/a/multi-share-backup-on-trezor);
-- [Wikipedia: Shamirs hemmelige deling] (https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).
+- [SLIP-0039: Shamirs hemmelighetsdeling for Mnemonic-koder](https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
+- [Multi-share Backup på Trezor](https://trezor.io/learn/a/multi-share-backup-on-trezor);
+- [Wikipedia: Shamirs hemmelige deling](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).

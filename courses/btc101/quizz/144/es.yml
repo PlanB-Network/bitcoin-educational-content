@@ -1,10 +1,11 @@
-question: ¿Cuál es el requisito de ancho de banda para ejecutar un nodo de Bitcoin, considerando 1 bloque de 1MB cada 10 minutos?
-answer: Aproximadamente 5GB por mes.
+question: ¿Qué es la Prueba de Trabajo (POW)?
+answer: Es el consenso de seguridad del protocolo Bitcoin.
 wrong_answers:
-  - Aproximadamente 1GB por mes.
-  - Aproximadamente 10GB por mes.
-  - Aproximadamente 20GB por mes.
+  - Es el proceso de crear nuevos bitcoins.
+  - Es el método para verificar transacciones de Bitcoin.
+  - Es el algoritmo utilizado para minar bitcoins.
 explanation: >-
-  Considerando 1 bloque de 1MB cada 10 minutos, ejecutar un nodo de Bitcoin requiere
-  aproximadamente 5GB por mes en ancho de banda.
+  La Prueba de Trabajo es un algoritmo de consenso utilizado en la red de Bitcoin
+  para validar transacciones y crear nuevos bloques. Requiere que los mineros resuelvan problemas
+  matemáticos complejos, asegurando la seguridad e integridad de la red.
 reviewed: true

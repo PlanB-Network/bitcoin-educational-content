@@ -62,10 +62,10 @@ Je moet een emmer configureren en de volgende informatie opgeven:
 
 
 
-- S3_BUCKET**: emmernaam
-- S3_ENDPOINT_URL**: toegangslink naar je S3-service
-- S3_KEY_ID** en S3_KEY_SECRET: uw toegangscodes
-- S3_REGION**: de regio van uw S3-service
+- **S3_BUCKET**: emmernaam
+- **S3_ENDPOINT_URL**: toegangslink naar je S3-service
+- **S3_KEY_ID** en **S3_KEY_SECRET**: uw toegangscodes
+- **S3_REGION**: de regio van uw S3-service
 
 
 
@@ -94,8 +94,8 @@ Je hebt de volgende variabelen nodig:
 
 
 
-- MONGODB_URL**: databaseverbinding Address
-- MONGODB_DB**: databasenaam
+- **MONGODB_URL**: databaseverbinding Address
+- **MONGODB_DB**: databasenaam
 
 
 
@@ -255,12 +255,13 @@ met be-BOP kunt u Bitcoin betalingen rechtstreeks op de Blockchain (On-Chain) ac
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Veld                  | Beschrijving                                               | Voorbeeld om Te Gebruiken                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP-standaard**       | Het type adressering dat wordt gebruikt                               | BIP84 (voor adressen in bech32-indeling die beginnen met `bc1`) |
+| **Uitgebreide Openbare Sleutel** | Uw Zpub (of Xpub afhankelijk van de gebruikte portefeuille)        | `zpub...` (geëxtraheerd uit uw Bitcoin-portefeuille) |
+| **Derivation Index**   | De startindex voor adresgeneratie         | `1`                                              |
+| **Mempool URL**        | De URL van de mempool-service die wordt gebruikt om transacties bij te houden | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -348,7 +349,7 @@ Configuratiestappen:
 
 
 
-**Noot:** U moet een zakelijke PayPal-rekening hebben om generate te kunnen gebruiken. U kunt ze verkrijgen via de portal [ontwikkelaar] (https://developer.paypal.com)
+**Noot:** U moet een zakelijke PayPal-rekening hebben om generate te kunnen gebruiken. U kunt ze verkrijgen via de portal [ontwikkelaar](https://developer.paypal.com)
 
 
 
@@ -474,8 +475,8 @@ Met de configuratie **Top Bar** kun je de visuele identiteit van je software per
 
 
 - Voer in het veld `merknaam` de naam van je bedrijf, organisatie of product in. Deze naam verschijnt bovenaan de Interface en vertegenwoordigt je belangrijkste visuele identiteit.
-- Vermeld de websitetitel**: de gekozen titel moet het doel van het platform samenvatten. Deze titel kan in de header of in het browsertabblad verschijnen.
-- Website beschrijving toevoegen**: hier kun je een korte beschrijving van je initiatief invoeren. Deze beschrijving helpt bij het contextualiseren van de tool voor gebruikers en kan ook worden gebruikt voor SEO-doeleinden.
+- Vermeld de **websitetitel**: de gekozen titel moet het doel van het platform samenvatten. Deze titel kan in de header of in het browsertabblad verschijnen.
+- **Website beschrijving toevoegen**: hier kun je een korte beschrijving van je initiatief invoeren. Deze beschrijving helpt bij het contextualiseren van de tool voor gebruikers en kan ook worden gebruikt voor SEO-doeleinden.
 
 
 
@@ -497,10 +498,10 @@ Met de sectie `Links` van de Topbalk kunt u snelkoppelingen toevoegen naar belan
 
 
 
-- Linknaam invoeren (Tekst)**: voer in het veld `Tekst` de naam of het label van de link in zoals deze zal verschijnen (bijv. Home, Contact, Help...).
-- Link Address (Url)** aangeven: voer in het `Url` veld de volledige Address van de doelpagina in (intern of extern).
-- Voeg indien nodig andere links toe**: in elke configuratieregel kun je een extra link toevoegen met de velden `Tekst` en `Url`.
-- Links opslaan**: zodra alle links zijn ingevoerd, klik je op de knop "Link toevoegen aan bovenbalk" om ze op te slaan.
+- **Linknaam invoeren (Tekst)**: voer in het veld `Tekst` de naam of het label van de link in zoals deze zal verschijnen (bijv. Home, Contact, Help...).
+- **Link Address (Url)** aangeven: voer in het `Url` veld de volledige Address van de doelpagina in (intern of extern).
+- **Voeg indien nodig andere links toe**: in elke configuratieregel kun je een extra link toevoegen met de velden `Tekst` en `Url`.
+- **Links opslaan**: zodra alle links zijn ingevoerd, klik je op de knop "Link toevoegen aan bovenbalk" om ze op te slaan.
 
 
 
@@ -522,10 +523,10 @@ In de **Navbar** kunt u het hoofdnavigatiemenu van uw be-BOP configureren, dat m
 
 
 
-- Linknaam invoeren (`Tekst`)**: begin op de configuratieregel met het invullen van het veld `Tekst`. Dit komt overeen met de naam van de link die wordt weergegeven in de navigatiebalk (voorbeelden: *Dashboard*, *Gebruikers*, *Instellingen*...).
-- Voer de link Address (`Url`)** in: naast het `Tekst` veld staat het `Url` veld. Voer in dit veld de Address in van de pagina waarnaar de link moet verwijzen. Dit kan een interne route zijn of een link naar een externe pagina.
-- Voeg meerdere links toe indien nodig**: onder de eerste regel zijn nieuwe `Tekst` en `Url` velden beschikbaar voor het toevoegen van zoveel links als nodig. Elke regel vertegenwoordigt een extra navigatielink.
-- Links opslaan**: als je alle Elements hebt ingevoerd, klik je op de knop `Navellink toevoegen` om de resultaten op te slaan en weer te geven in de navigatiebalk.
+- **Linknaam invoeren (`Tekst`)**: begin op de configuratieregel met het invullen van het veld `Tekst`. Dit komt overeen met de naam van de link die wordt weergegeven in de navigatiebalk (voorbeelden: *Dashboard*, *Gebruikers*, *Instellingen*...).
+- Voer de link Address (`Url`) in: naast het `Tekst` veld staat het `Url` veld. Voer in dit veld de Address in van de pagina waarnaar de link moet verwijzen. Dit kan een interne route zijn of een link naar een externe pagina.
+- **Voeg meerdere links toe indien nodig**: onder de eerste regel zijn nieuwe `Tekst` en `Url` velden beschikbaar voor het toevoegen van zoveel links als nodig. Elke regel vertegenwoordigt een extra navigatielink.
+- **Links opslaan**: als je alle Elements hebt ingevoerd, klik je op de knop `Navellink toevoegen` om de resultaten op te slaan en weer te geven in de navigatiebalk.
 
 
 
@@ -547,11 +548,11 @@ In de **Voetregel** kun je de voettekst van je software aanpassen door nuttige i
 
 
 
-- De weergave van het label "Powered by be-BOP"** inschakelen: activeer de knop `Display Powered by be-BOP` om dit label in de voettekst weer te geven.
-- Voer de naam van de link in (`Tekst`)**: vul het `Tekst` veld in, dat overeenkomt met de tekst van de link in de voettekst (voorbeelden: *Voorwaarden*, *Privacy*, *Contact*...).
-- Link Address aangeven (`Url`)**: voer in het veld `Url` de Address van de doelpagina in (intern of extern).
-- Voeg indien nodig meer links toe**: gebruik de extra regels om zoveel links te maken als je wilt.
-- Links opslaan**: klik op de knop "Voettekstlink toevoegen" om links op te slaan.
+- De weergave van het label "Powered by be-BOP" inschakelen: activeer de knop `Display Powered by be-BOP` om dit label in de voettekst weer te geven.
+- Voer de naam van de link in (**Tekst**): vul het `Tekst` veld in, dat overeenkomt met de tekst van de link in de voettekst (voorbeelden: *Voorwaarden*, *Privacy*, *Contact*...).
+- **Link Address aangeven (`Url`)**: voer in het veld `Url` de Address van de doelpagina in (intern of extern).
+- **Voeg indien nodig meer links toe**: gebruik de extra regels om zoveel links te maken als je wilt.
+- **Links opslaan**: klik op de knop "Voettekstlink toevoegen" om links op te slaan.
 
 
 
@@ -641,8 +642,8 @@ Dit gedeelte is toegankelijk via `Admin > Identity` (of `Settings > Identity`) e
 
 
 
-- Bedrijfsnaam**: officiële bedrijfsnaam.
-- Bedrijfs-ID**: wettelijke identificatiecode of registratienummer (RCCM, SIRET...).
+- **Bedrijfsnaam**: officiële bedrijfsnaam.
+- **Bedrijfs-ID**: wettelijke identificatiecode of registratienummer (RCCM, SIRET...).
 
 
 
@@ -652,11 +653,11 @@ Dit gedeelte is toegankelijk via `Admin > Identity` (of `Settings > Identity`) e
 
 
 
-- Straat**: post Address (straat, nummer...).
-- Land**: land.
-- Staat**: provincie of regio.
-- Stad**: city.
-- Postcode**: postcode.
+- **Straat**: post Address (straat, nummer...).
+- **Land**: land.
+- **Staat**: provincie of regio.
+- **Stad**: city.
+- **Postcode**: postcode.
 
 
 
@@ -666,8 +667,8 @@ Dit gedeelte is toegankelijk via `Admin > Identity` (of `Settings > Identity`) e
 
 
 
-- E-mail**: professionele e-mail Address.
-- Telefoon**: telefoonnummer bedrijf.
+- **E-mail**: professionele e-mail Address.
+- **Telefoon**: telefoonnummer bedrijf.
 
 
 
@@ -677,10 +678,10 @@ Dit gedeelte is toegankelijk via `Admin > Identity` (of `Settings > Identity`) e
 
 
 
-- Naam rekeninghouder**: naam van de rekeninghouder.
-- Rekeninghouder Address**: Address van de houder.
-- IBAN**: Internationaal bankrekeningnummer.
-- BIC**: SWIFT/BIC code.
+- **Naam rekeninghouder**: naam van de rekeninghouder.
+- **Rekeninghouder Address**: Address van de houder.
+- **IBAN**: Internationaal bankrekeningnummer.
+- **BIC**: SWIFT/BIC code.
 
 
 
@@ -695,7 +696,7 @@ Dit gedeelte is toegankelijk via `Admin > Identity` (of `Settings > Identity`) e
 
 
 - Klik op `Vul met hoofdwinkelgegevens` om de gegevens vooraf in te vullen.
-- Issuer information Very-top-right**: veld voor juridische/fiscale informatie zichtbaar op facturen.
+- Issuer information **Very-top-right**: veld voor juridische/fiscale informatie zichtbaar op facturen.
 - Klik op `Update` om de wijzigingen op te slaan.
 
 
@@ -742,9 +743,9 @@ Ga naar `Admin > Merch > Producten` om een product toe te voegen of te wijzigen.
 
 
 
-- Productnaam**: naam van het product (bijv. *BOP T-shirt limited edition*).
-- Slug**: URL-identifier zonder spaties (bijvoorbeeld `tshirt-bop-edition-limitee`).
-- Alias** *(optioneel)*: handig om snel toe te voegen aan het winkelmandje via een speciaal veld.
+- **Productnaam**: naam van het product (bijv. *BOP T-shirt limited edition*).
+- **Slug**: URL-identifier zonder spaties (bijvoorbeeld `tshirt-bop-edition-limitee`).
+- **Alias** *(optioneel)*: handig om snel toe te voegen aan het winkelmandje via een speciaal veld.
 
 
 
@@ -758,9 +759,9 @@ Ga naar `Admin > Merch > Producten` om een product toe te voegen of te wijzigen.
 
 
 
-- Prijsbedrag**: productprijs (bijv. `25,00`).
-- Prijsvaluta**: valuta (EUR, USD, BTC, enz.).
-- Speciale producten**:
+- **Prijsbedrag**: productprijs (bijv. `25,00`).
+- **Prijsvaluta**: valuta (EUR, USD, BTC, enz.).
+- **Speciale producten**:
   - dit is een gratis product.
   - dit is een betaal-wat-je-wilt product.
 
@@ -772,14 +773,14 @@ Ga naar `Admin > Merch > Producten` om een product toe te voegen of te wijzigen.
 
 
 
-- Enkelvoudig product (`standalone`)**: slechts één toevoeging mogelijk per bestelling (bijv. donatie, toegangsbewijs).
-- Product met variaties**:
+- **Enkelvoudig product (`standalone`)**: slechts één toevoeging mogelijk per bestelling (bijv. donatie, toegangsbewijs).
+- **Product met variaties**:
   - Controleer `Standalone` niet.
   - Vink `Product heeft lichte variaties (geen voorraadverschil)` aan.
   - Toevoegen:
-    - Naam** (bijv. *Grootte*),
-    - Waarden** (bijv.: S, M, L, XL),
-    - Prijsverschillen** indien van toepassing (bijv.: `+2 USD` voor XL).
+- **Naam** (bijv. *Grootte*),
+- **Waarden** (bijv.: S, M, L, XL),
+- **Prijsverschillen** indien van toepassing (bijv.: `+2 USD` voor XL).
 
 
 
@@ -809,8 +810,8 @@ Het systeem beheert:
 
 
 
-- Gereserveerde voorraad** → nog niet betaalde producten in manden
-- Verkochte voorraad** → reeds gekochte producten
+- **Gereserveerde voorraad** → nog niet betaalde producten in manden
+- **Verkochte voorraad** → reeds gekochte producten
 
 
 
@@ -832,8 +833,8 @@ Vink `Het product heeft een fysieke component die naar de Address van de klant w
 
 
 
-- Ticket**: vink aan als het product een ticket voor een evenement is
-- Reservering**: controleer of dit een reserveringsslot is (bijv.: sessie, afspraak)
+- **Ticket**: vink aan als het product een ticket voor een evenement is
+- **Reservering**: controleer of dit een reserveringsslot is (bijv.: sessie, afspraak)
 
 
 
@@ -849,12 +850,13 @@ Dit gedeelte bepaalt **waar** en **hoe** het product kan worden bekeken en gekoc
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platform        | Product Zichtbaar | Toevoegbaar aan Winkelwagen |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (openbare website)        | ✔️              | ✔️                  |
+| Retail POS (verkooppunt)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (verkoop via bot)  | ✔️              | ✔️                  |
 
 Vink alleen de kanalen aan die je wilt gebruiken.
 
@@ -898,7 +900,7 @@ Je kunt naar wens andere pagina's toevoegen:
 
 
 
-**Tip: Klik op elke link of icoon om de **inhoud**, **titel** of **zichtbaarheid** van elke pagina aan te passen.
+**Tip: Klik op elke link of icoon om de inhoud, titel of zichtbaarheid van elke pagina aan te passen.**
 
 
 
@@ -983,7 +985,7 @@ Ook aanpasbaar in `Foto's`, hiermee kun je een **samenvatting of slogan** weerge
 
 
 
-Widgets** verrijken je CMS-pagina's met dynamische of visuele Elements.
+**Widgets** verrijken je CMS-pagina's met dynamische of visuele Elements.
 
 
 
@@ -1001,14 +1003,14 @@ Voorbeelden van beschikbare widgets:
 
 
 
-- Uitdagingen**: uitdagingen of missies
-- Tags**: categorieën of trefwoorden
-- Schuifbalken**: afbeeldingscarrousels
-- Specificaties**: Specificaties tabellen
-- Formulieren**: formulieren (contact, feedback, enz.)
-- Countdowns**: timers
-- Galerijen**: afbeeldingsgalerijen
-- Leaderboards**: klassementen van gebruikers
+- **Uitdagingen**: uitdagingen of missies
+- **Tags**: categorieën of trefwoorden
+- **Schuifbalken**: afbeeldingscarrousels
+- **Specificaties**: Specificaties tabellen
+- **Formulieren**: formulieren (contact, feedback, enz.)
+- **Countdowns**: timers
+- **Galerijen**: afbeeldingsgalerijen
+- **Leaderboards**: klassementen van gebruikers
 
 
 
@@ -1024,14 +1026,15 @@ Gebruik **shortcodes** in de inhoud van uw CMS pagina's:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Doel                 | Tag om In Te Voegen                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Een product weergeven      | `[Product=slug?display=img-1]`        |
+| Een afbeelding weergeven       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Een schuifregelaar integreren       | `[Slider=slug?autoplay=3000]`         |
+| Een uitdaging toevoegen     | `[Challenge=slug]`                    |
+| Een aftelling toevoegen | `[Countdown=slug]`                 |
+| Een formulier integreren   | `[Form=slug]`                         |
 
 **Huidige parameters**:
 
@@ -1166,9 +1169,9 @@ De rapporten zijn onderverdeeld in secties:
 
 
 
-- Order Detail**: aantal orders, status (bevestigd, geannuleerd, in behandeling), evolutie
-- Productgegevens**: verkochte producten, hoeveelheden, populaire producten
-- Detail betalingen**: geïnde bedragen, uitsplitsing naar betalingsmethode
+- **Order Detail**: aantal orders, status (bevestigd, geannuleerd, in behandeling), evolutie
+- **Productgegevens**: verkochte producten, hoeveelheden, populaire producten
+- **Detail betalingen**: geïnde bedragen, uitsplitsing naar betalingsmethode
 
 
 
@@ -1310,9 +1313,9 @@ Bij het maken of wijzigen van een thema kun je:
 
 
 
-- Kleuren**: voor knoppen, achtergronden, tekst, links, enz.
-- Lettertypen**: keuze uit lettertypen voor titels, paragrafen, menu's
-- Grafische stijlen**: randen, marges, spatiëring, blokvormen
+- **Kleuren**: voor knoppen, achtergronden, tekst, links, enz.
+- **Lettertypen**: keuze uit lettertypen voor titels, paragrafen, menu's
+- **Grafische stijlen**: randen, marges, spatiëring, blokvormen
 
 
 
@@ -1326,9 +1329,9 @@ Elk deel van de site kan onafhankelijk worden aangepast:
 
 
 
-- Koptekst**: bovenste navigatiebalk
-- Body**: hoofdinhoud
-- Footer**: onderaan de pagina
+- **Koptekst**: bovenste navigatiebalk
+- **Body**: hoofdinhoud
+- **Footer**: onderaan de pagina
 
 
 
@@ -1377,8 +1380,8 @@ Elke e-mail (orderbevestiging, vergeten wachtwoord, enz.) heeft:
 
 
 
-- Onderwerp**: het onderwerp van de e-mail (bijv. "Uw bestelling is gevalideerd")
-- HTML-lichaam**: HTML-inhoud die in de e-mail wordt weergegeven
+- **Onderwerp**: het onderwerp van de e-mail (bijv. "Uw bestelling is gevalideerd")
+- **HTML-lichaam**: HTML-inhoud die in de e-mail wordt weergegeven
 
 
 
@@ -1444,9 +1447,9 @@ Vul de volgende velden in:
 
 
 
-- Tagnaam**: weergegeven tagnaam
-- Slug**: unieke identificatie (geen spaties of accenten)
-- Tag Family**: groepeert tags per categorie
+- **Tagnaam**: weergegeven tagnaam
+- **Slug**: unieke identificatie (geen spaties of accenten)
+- **Tag Family**: groepeert tags per categorie
 
 
 
@@ -1479,9 +1482,9 @@ Deze velden kunnen worden gebruikt om een tag te verrijken alsof het een inhouds
 
 - Titel
 - Ondertitel
-- Korte** inhoud
-- Volledige inhoud** (in het Frans)
-- CTA's** (actieknoppen)
+- **Korte** inhoud
+- **Volledige inhoud** (in het Frans)
+- **CTA's** (actieknoppen)
 
 
 
@@ -1520,8 +1523,8 @@ Om downloadbare documenten aan te bieden aan uw klanten: `Admin > Merch > Bestan
 
 
 
-   - Bestandsnaam** (bijv. *Installatiegids*)
-   - Te uploaden bestand** (PDF, afbeelding, Word...)
+- **Bestandsnaam** (bijv. *Installatiegids*)
+- **Te uploaden bestand** (PDF, afbeelding, Word...)
 
 
 
@@ -1539,7 +1542,7 @@ Deze link kan vervolgens worden ingevoegd in:
 
 
 
-- CMS** pagina (als tekstlink of knop)
+- **CMS** pagina (als tekstlink of knop)
 - Een **e-mailclient** (via een sjabloon)
 - Een **productblad** (bijvoorbeeld een handleiding downloaden)
 
@@ -1635,9 +1638,9 @@ Vertaalbestanden zijn in JSON. Je kunt:
 
 
 
-- Download** taalbestanden
-- Bestaande teksten wijzigen**
-- Je eigen vertalingen toevoegen**
+- Download **taalbestanden**
+- **Bestaande teksten wijzigen**
+- **Je eigen vertalingen toevoegen**
 
 
 
@@ -1678,9 +1681,9 @@ Elke rol bevat:
 
 
 
-- schrijftoegang**: schrijftoegang
-- leestoegang**: leestoegang
-- verboden toegang**: secties interdites
+- **schrijftoegang**: schrijftoegang
+- **leestoegang**: leestoegang
+- **verboden toegang**: secties interdites
 
 
 
@@ -1709,7 +1712,7 @@ Een eerder gedefinieerde rol toewijzen.
 
 
 
-Alleen-lezen** gebruikers zien menu's in *italic* en kunnen de inhoud niet wijzigen.
+**Alleen-lezen** gebruikers zien menu's in *italic* en kunnen de inhoud niet wijzigen.
 
 
 
@@ -1779,8 +1782,8 @@ Er zijn twee geavanceerde opties beschikbaar:
 
 
 
-- BTW-vrijstelling**: van toepassing op rechtvaardiging (NGO's, buitenlanders...)
-- Geschenkkorting**: uitzonderlijke korting met verplichte opmerking
+- **BTW-vrijstelling**: van toepassing op rechtvaardiging (NGO's, buitenlanders...)
+- **Geschenkkorting**: uitzonderlijke korting met verplichte opmerking
 
 
 
@@ -1813,14 +1816,15 @@ Poster:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Functie                         | Beschrijving                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS-rol                         | Toegewezen via ARM                                         |
+| Hoofdinterface             | `/pos` of `/pos/touch`                                 |
+| Klantendisplay (scherm 2)       | `/pos/session`                                         |
+| Betaling                         | Contant geld, kaart, Lightning enz.                         |
+| Producttoevoeging                    | Alias of barcodescan                              |
+| Kortingen / btw                    | Met verplichte managementbasis              |
 
 Bedankt voor het aandachtig volgen van deze handleiding.

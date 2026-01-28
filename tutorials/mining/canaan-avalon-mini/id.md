@@ -23,13 +23,13 @@ Perangkat ini dipasarkan sebagai pemanas tambahan dalam kasus **Avalon Nano 3S (
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Harap dicatat bahwa perbedaan harga dengan pemanas tradisional dengan daya yang setara, dalam sebagian besar kasus, tidak memungkinkan Anda untuk mendapatkan keuntungan finansial. Satoshi yang dihasilkan oleh aktivitas Mining tidak akan pernah mengimbangi perbedaan harga ini, kecuali jika Anda memiliki akses ke listrik gratis (surplus) atau listrik yang sangat murah.
 
 
 
-Menurut pendapat saya, perangkat ini harus dilihat lebih sebagai cara sederhana untuk Miner di rumah bagi mereka yang ingin melakukannya karena alasan pribadi: *mendapatkan Satss non-KYC / memainkan "lotre" dengan menyendiri / berpartisipasi dalam desentralisasi Hashrate dll., sambil mendapatkan keuntungan **sebagai bonus** dari panas yang dihasilkan untuk menghangatkan ruangan di musim dingin. Tetapi bukan sebagai cara untuk menghemat uang setidaknya dalam banyak kasus (negara-negara Barat).
+Menurut pendapat saya, perangkat ini harus dilihat lebih sebagai cara sederhana untuk Miner di rumah bagi mereka yang ingin melakukannya karena alasan pribadi: *mendapatkan Satss non-KYC / memainkan "lotre" dengan menyendiri / berpartisipasi dalam desentralisasi Hashrate dll.*, sambil mendapatkan keuntungan **sebagai bonus** dari panas yang dihasilkan untuk menghangatkan ruangan di musim dingin. Tetapi bukan sebagai cara untuk menghemat uang setidaknya dalam banyak kasus (negara-negara Barat).
 
 
 
@@ -122,16 +122,17 @@ Di bawah ini adalah tabel ringkasan spesifikasi teknis umum Mini 3:
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Fitur                                      | Nilai                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Konsumsi Daya                              | 800 W                                                     |
+| Kebisingan                                                | 35-55 dB                                                  |
+| Temperatur Udara Keluaran                       | 60-70°C (pada suhu lingkungan 25°C)                  |
+| Persyaratan Suhu Ambien untuk Penggunaan | -5° C - 40°C                                              |
+| Rentang Tegangan Input Perangkat                         | 110V-240V AC 50/60Hz                                      |
+| Ukuran Mesin                                 | Panjang: 760 mm / Kedalaman: 104 mm / Tinggi: 214.5 mm |
+| Berat Mesin                                  |  8.35 kg                                                  |
 
 ## Menghubungkan ke Mining pool
 
@@ -181,9 +182,9 @@ Untuk detail lebih lanjut mengenai cara menghubungkan ke Mining pool, silakan ba
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Singkatnya, kita membutuhkan
 
@@ -358,4 +359,4 @@ Untuk mengetahui lebih lanjut, lihat tutorial kami mengenai versi yang lebih kec
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

@@ -1,0 +1,9 @@
+question: Menurut praktik pengungkapan yang bertanggung jawab dari Bitcoin Core, kapan detail kerentanan harus diungkapkan kepada publik setelah perbaikan diterapkan?
+answer: Setelah lebih dari 80% node Bitcoin telah menerapkan perbaikan
+wrong_answers:
+  - Segera setelah patch dirilis untuk mencegah asumsi keamanan yang salah
+  - Setelah semua altcoin utama diberitahu dan memperbarui implementasinya
+  - Setelah periode embargo standar 90 hari terlepas dari status penempatan
+explanation: |
+  Bitcoin Core mengikuti garis waktu pengungkapan berbasis penyebaran daripada periode waktu yang tetap. Ambang batas 80% memastikan bahwa sebagian besar jaringan terlindungi sebelum penyerang dapat mempelajari kerentanan dari pengungkapan publik. Pendekatan ini memprioritaskan keamanan jaringan di atas jadwal yang sewenang-wenang, karena pengungkapan dini dapat mengekspos 20% node yang tersisa ke serangan yang ditargetkan. Opsi lainnya mewakili praktik umum dalam keamanan perangkat lunak tradisional tetapi tidak memperhitungkan sifat desentralisasi Bitcoin di mana pengguna harus secara sukarela mengupgrade node mereka.
+reviewed: false

@@ -1,11 +1,12 @@
-question: Quel est le principal avantage de Bitcoin pour les individus vivant sous une oppression financière ou des régimes dictatoriaux ?
-answer: Avoir la possibilité d'échapper à la censure et aux restrictions bancaires.
+question: Comment le protocole Bitcoin assure-t-il sa résistance à la censure et sa résilience ?
+answer: Chaque composant du protocole est géographiquement distribué à travers le monde.
 wrong_answers:
-  - Utiliser une monnaie stable qui a une valeur fixe.
-  - Permettre des transactions anonymes.
-  - Obtenir des rendements élevés sur l'investissement.
-explanation: >-
-  Bitcoin offre une forme de liberté financière en échappant à la censure et
-  aux restrictions bancaires. Cela est particulièrement bénéfique pour les individus vivant sous
-  une oppression financière ou un régime dictatorial.
+  - Il utilise un réseau local de nœuds distribués en Europe.
+  - Il utilise un algorithme complexe pour valider les transactions.
+  - Il utilise un haut niveau de cryptage.
+explanation: |
+  Le protocole Bitcoin assure sa résistance à la censure et
+  sa résilience parce que chaque composant du protocole est
+  distribué géographiquement à travers le monde. Par exemple,
+  il y a environ 45 000 nœuds Bitcoin sur l'ensemble des continents.
 reviewed: true

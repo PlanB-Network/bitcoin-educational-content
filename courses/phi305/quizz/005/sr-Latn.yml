@@ -1,0 +1,9 @@
+question: Koji naučnik veruje da je matematika jezik univerzuma?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Njutn.
+  - Kopernik.
+explanation: |
+  Galileo je poznat po svojoj tvrdnji da je "knjiga prirode napisana matematičkim jezikom". Ova vizija imala je dubok uticaj na modernu nauku i racionalističku filozofiju, uključujući i Spinozinu.
+reviewed: false

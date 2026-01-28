@@ -1,0 +1,9 @@
+question: Millä Umbrel-sovelluksella voit hallita Lightning-solmua kehittyneellä Interface:lla?
+answer: Ride The Lightning
+wrong_answers:
+  - BTCPay Lightning
+  - Nostr Relay
+  - Bitfeed
+explanation: |
+  Ride The Lightning ja ThunderHub tarjoavat täydellisen verkkopohjaisen Interface:n Lightning-solmun hallintaan.
+reviewed: true

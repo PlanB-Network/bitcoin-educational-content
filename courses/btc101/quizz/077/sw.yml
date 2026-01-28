@@ -1,12 +1,11 @@
-question: Kuna hatari gani ya kushiriki ufunguo wa umma wa Bitcoin Wallet?
-answer: Kupoteza faragha.
+question: Je, jambo kuu linapaswa kuwa nini unapomiliki Bitcoin?
+answer: Usalama wa fedha zako.
 wrong_answers:
-  - Kuharibu Bitcoin Wallet.
-  - Kupoteza Bitcoins.
-  - Kudukuliwa kwa Bitcoin Wallet.
+  - Thamani ya Bitcoin katika masharti ya dola.
+  - Uhalali wa kumiliki bitcoins.
+  - Ruhusa ya kutumia pesa zako.
 explanation: |
-  Kushiriki ufunguo wa umma kunahusisha hatari kwa faragha, lakini sivyo
-  kwa usalama. Hii ni kwa sababu ufunguo wa umma hutumiwa
-  generate Bitcoin anwani na hivyo kupokea fedha, lakini ni
-  haiwakilishi Ownership ya Bitcoins.
+  Unapomiliki bitcoins, jambo la msingi ni usalama
+  ya fedha zako. Hii ni kwa sababu Bitcoin, kama aina nyingine yoyote
+  ya fedha, inaweza kuibiwa au kupotea ikiwa haijalindwa ipasavyo.
 reviewed: true

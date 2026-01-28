@@ -1,0 +1,9 @@
+question: Wat is een Lightning-kanaal vanuit het oogpunt van Bitcoin onchain?
+answer: Multisignatuurlijke uitgang 2/2
+wrong_answers:
+  - Script P2MS 2/2
+  - UTXO enkel
+  - Federaal contract
+explanation: |
+  Onchain wordt een Lightning-kanaal weergegeven door een uitvoer met meerdere handtekeningen waarvoor de handtekeningen van beide deelnemers vereist zijn.
+reviewed: false

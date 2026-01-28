@@ -1,0 +1,10 @@
+question: Bitcoin을 구매할 때 해당 국가의 규정을 따르지 않을 경우 발생할 수 있는 결과 중 하나는 무엇인가요?
+answer: 스스로를 위험에 빠뜨릴 수 있습니다.
+wrong_answers:
+  - Bitcoin의 가격을 인상할 수 있습니다.
+  - Bitcoin의 Supply을 제어할 수 있습니다.
+  - 다른 사람이 Bitcoin를 구매하지 못하도록 차단할 수 있습니다.
+explanation: |
+  강좌 텍스트에는 Bitcoin를 구매할 때 해당 국가의 규정
+  을 따르지 않으면 위험에 처할 수 있다고 언급하고 있습니다.
+reviewed: true

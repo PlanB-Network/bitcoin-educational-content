@@ -1,8 +1,11 @@
-question: Vilken är den primära funktionen för noderna i Bitcoin-nätverket?
-answer: Upprätthåller en kopia av Bitcoin Blockchain, validerar transaktioner, överför information till andra noder och upprätthåller reglerna i Bitcoin-protokollet.
+question: Vad handlade blockkriget 2017 om?
+answer: En konflikt om huruvida blockstorleken ska ökas för att öka transaktionskapaciteten.
 wrong_answers:
-  - Upprätthålla en kopia av Bitcoin Blockchain, validera transaktioner, överföra information till regeringen och ändra reglerna för Bitcoin-protokollet.
-  - Förvarar endast en kopia av Bitcoin Blockchain.
-  - Överför endast information till andra noder.
-explanation: >-
+  - En konflikt om huruvida man ska minska blockstorleken för att minska transaktionskapaciteten.
+  - En konflikt om huruvida Block reward ska höjas för att stimulera gruvarbetare.
+  - En konflikt om huruvida Block reward ska sänkas för att avskräcka gruvarbetare.
+explanation: |
+  Blockkriget under 2017 var en konflikt om huruvida man skulle
+  modifiera Bitcoin genom att öka blockstorleken för att utöka
+  transaktionskapacitet.
 reviewed: true

@@ -14,4 +14,4 @@ Otro método para poner el Address equivocado delante de la víctima es el uso d
 Para protegerse contra estos diferentes métodos de ataque, es importante comprobar varios caracteres del Address, especialmente su suma de comprobación (al final), en la pantalla del dispositivo de firma antes de firmar la transacción.
 
 
-> ► *Este ataque también se conoce a veces como Envenenamiento Address
+> ► *Este ataque también se conoce a veces como Envenenamiento Address*

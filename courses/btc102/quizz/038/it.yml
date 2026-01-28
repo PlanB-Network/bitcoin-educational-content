@@ -1,9 +1,9 @@
-question: Quale profilo favorisce l'acquisizione senza KYC e l'uso di portafogli altamente sicuri?
+question: Quale profilo favorisce l'acquisto senza KYC e l'uso di wallet altamente sicuri?
 answer: Il paranoico
 wrong_answers:
   - L'hodler
-  - L'impilatore
+  - Lo stacker
   - L'utente attivo
 explanation: |
-  Il paranoico dà priorità alla privacy e alla sicurezza, utilizzando metodi di acquisizione e archiviazione altamente sicuri.
-reviewed: false
+  Il paranoico dà priorità alla privacy e alla sicurezza, utilizzando metodi di acquisto e conservazione altamente sicuri.
+reviewed: true

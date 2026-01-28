@@ -1,0 +1,8 @@
+question: 10분마다 1MB의 1블록을 고려할 때 Bitcoin 노드를 실행하는 데 필요한 대역폭은 얼마인가요?
+answer: 한 달에 약 5GB입니다.
+wrong_answers:
+  - 한 달에 약 1GB입니다.
+  - 한 달에 약 10GB입니다.
+  - 한 달에 약 20GB입니다.
+explanation: >-
+reviewed: true

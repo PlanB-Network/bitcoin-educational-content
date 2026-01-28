@@ -1,12 +1,9 @@
-question: ¿Qué deberías hacer una vez que las palabras de tu frase mnemotécnica estén escritas?
-answer: Hacer una segunda copia y guardarla en un lugar separado.
+question: ¿Por qué es aconsejable evitar dejar tus Bitcoins en plataformas de intercambio?
+answer: Pueden ser susceptibles a ataques de hackers.
 wrong_answers:
-  - Compartirla con un amigo de confianza.
-  - Enviártela por correo electrónico.
-  - Guardarla en tu teléfono.
+  - Las plataformas de intercambio cobran tarifas aleatorias.
+  - Bitcoin pierde valor en las plataformas de intercambio.
+  - Las plataformas de intercambio no son instituciones reguladas.
 explanation: |
-  Una vez que las palabras de tu frase mnemotécnica estén escritas, se
-  recomienda hacer una segunda copia y guardarla en un
-  lugar separado de la primera. Esto proporciona una copia de seguridad en
-  caso de pérdida o accidente con la primera copia.
+  Es aconsejable evitar dejar tus Bitcoins en plataformas de intercambio porque pueden ser susceptibles a ataques de hackers.
 reviewed: true

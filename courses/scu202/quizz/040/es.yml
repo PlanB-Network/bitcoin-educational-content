@@ -6,4 +6,4 @@ wrong_answers:
   - 7-Zip
 explanation: |
   GnuPG (gpg) es la herramienta de referencia para la verificación de firmas digitales y la gestión de claves públicas.
-reviewed: false
+reviewed: true

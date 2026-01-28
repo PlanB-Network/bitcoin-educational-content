@@ -1,11 +1,8 @@
-question: Vita vya kuzuia vilihusu nini mnamo 2017?
-answer: Mzozo kuhusu kama kuongeza ukubwa wa kizuizi ili kupanua uwezo wa muamala.
+question: Hashrate ni nini?
+answer: Idadi ya mahesabu ya Hash ambayo kifaa cha Mining kinaweza kufanya kwa sekunde kutatua Proof of Work.
 wrong_answers:
-  - Mzozo kuhusu kupunguza ukubwa wa block ili kupunguza uwezo wa muamala.
-  - Mgogoro kuhusu kama kuongeza Block reward ili kutoa motisha kwa wachimbaji.
-  - Mgogoro kuhusu kupunguza Block reward ili kuwakatisha tamaa wachimbaji.
-explanation: |
-  Vita vya kuzuia mnamo 2017 vilikuwa mzozo kuhusu ikiwa itafanyika
-  rekebisha Bitcoin kwa kuongeza ukubwa wa block ili kupanua
-  uwezo wa muamala.
+  - Kasi ambayo kifaa cha Mining kinaweza kutatua Proof of Work.
+  - Jumla ya wachimbaji madini katika mtandao wa Bitcoin.
+  - Jumla ya bitcoins kuchimbwa kwa kufanya idadi fulani ya majaribio kwa sekunde kutatua Proof of Work.
+explanation: >-
 reviewed: true

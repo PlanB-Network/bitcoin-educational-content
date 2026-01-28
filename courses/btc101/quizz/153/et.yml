@@ -1,13 +1,12 @@
-question: Mis on raskusastme kohandamise eesmärk Bitcoin'i kaevandamises?
-answer: See tasakaalustab ülemaailmset kaevandamismängu lähtudes osalejate arvust.
+question: Mis juhtub 51% rünnaku korral Bitcoin'i võrgus?
+answer: Agent omab rohkem kui poolt võrgu hashrate'ist ja võib proovida muuta blockchaini.
 wrong_answers:
-  - See suurendab kaevandamise eest saadavat tasu.
-  - See vähendab ringluses olevate bitcoinide arvu.
-  - See suurendab Bitcoin'i võrgu turvalisust.
+  - Agent saavutab kontrolli rohkem kui poole ringluses olevate bitcoinide üle.
+  - Agent saavutab kontrolli rohkem kui poole Bitcoin'i võrgu sõlmedest.
+  - Agent saavutab kontrolli rohkem kui poole Bitcoin'i võrgu kaevandusbasseinidest.
 explanation: >-
-  Raskusastme kohandamine Bitcoin'i kaevandamises on kavandatud tagamaks, et
-  bloki kaevandamiseks kuluv aeg püsib ligikaudu konstantne, olenemata
-  võrgu koguarvutusvõimsusest. See kohandab matemaatilise
-  probleemi raskusastet, mida kaevurid peavad lahendama, lähtudes kaevurite arvust
-  võrgus.
+  51% rünnaku korral võib agent, kellel on rohkem kui pool võrgu hashrate'ist,
+  potentsiaalselt manipuleerida blockchaini, luues alternatiivse ahela plokke.
+  Siiski oleks selline rünnak äärmiselt kulukas ja tõenäoliselt mitte kasumlik,
+  muutes selle ebatõenäoliseks stsenaariumiks.
 reviewed: false

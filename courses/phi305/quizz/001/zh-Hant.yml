@@ -1,0 +1,9 @@
+question: 斯賓諾莎是哲學家嗎？
+answer: 來自 17 世紀。
+wrong_answers:
+  - 來自 16 世紀。
+  - 來自 18 世紀。
+  - 來自古代。
+explanation: |
+  斯賓諾莎生活於 1632 年至 1677 年，是 17 世紀的哲學家。這段時期被稱為理性時代 (Age of Reason)，見證了現代理性主義的興起，以及用新的科學方法來理解世界。
+reviewed: false

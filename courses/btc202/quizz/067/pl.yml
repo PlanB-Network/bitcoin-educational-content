@@ -1,0 +1,9 @@
+question: Jakie kopie zapasowe są wymagane do przywrócenia węzła Lightning?
+answer: seed i SCB
+wrong_answers:
+  - seed i plik txindex
+  - seed i publiczny adres IP Address
+  - seed i 2FA
+explanation: |
+  Przywrócenie węzła Lightning wymaga zarówno seed, jak i SCB (Static Channel Backup), bez których nie można odzyskać środków kanału.
+reviewed: true

@@ -1,12 +1,10 @@
-question: O que é uma compra espontânea?
-answer: Comprar Bitcoin imediatamente para obter exposição.
+question: Qual é um dos riscos potenciais de deixar seus Bitcoins em uma plataforma de câmbio?
+answer: Os riscos de hacking e bloqueio de fundos.
 wrong_answers:
-  - Comprar Bitcoin em intervalos regulares.
-  - Comprar Bitcoin apenas quando o preço cai.
-  - Comprar Bitcoin apenas quando o preço sobe.
-explanation: |
-  O texto do curso explica que uma compra espontânea é
-  usada para obter exposição imediata ao Bitcoin. Por exemplo,
-  isso poderia significar comprar durante uma queda ou aproveitar
-  um bônus.
+  - O risco da plataforma aumentar o preço do Bitcoin.
+  - O risco da plataforma controlar o fornecimento de Bitcoin.
+  - O risco do Bitcoin ser superado em preço por uma criptomoeda.
+explanation: >-
+  O texto menciona que deixar seus Bitcoins em uma plataforma de câmbio pode
+  expô-lo aos riscos de hacking e bloqueio de fundos.
 reviewed: true

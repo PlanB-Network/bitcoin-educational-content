@@ -1,0 +1,22 @@
+id: 89238b9f-00dc-47e1-aa86-49b531101134
+start_date: 2025-11-22 00:30:00
+end_date: 2025-11-22 09:00:00
+timezone: Asia/Tokyo
+address_city_country: Tokyo, Japan
+address_line_2: Tokyo, Shinjuku City, Kabukicho, 2 Chome−19−15 6階
+name: NostrAsia 2025
+type: conference
+description: |
+  "Nostrasia 2025 is the world's biggest Nostr festival, held in Japan.
+  It's a day for learning and having fun.
+  Meet friends from all over the world, join talks and hands-on activities, visit the Nostr Shrine to try a fortune, and make new friends.
+  Enjoy a free drink, and at night, hear laughter fill the air like a festival."
+language:
+  - ja
+  - en
+links:
+  website: https://nostrasia.com/
+tags:
+  - market-trends
+  - investment
+  - adoption

@@ -1,0 +1,8 @@
+question: Jaký kryptografický mechanismus umožňuje společnosti Liquid Network ověřit, že vstupy transakcí se rovnají výstupům plus poplatky, aniž by byly skutečné částky zveřejněny?
+answer: Pedersenovy závazky a důkazy rozsahu
+wrong_answers:
+  - Merklovy stromy a digitální podpisy
+  - Hash Smlouvy s časovým zámkem a vícepodpisy
+  - Schnorrovy podpisy a skripty Taproot
+explanation: |
+  Pedersenovy závazky a důkazy rozsahu jsou specifické kryptografické primitivy, které umožňují Liquid Confidential Transactions skrývat částky a zároveň umožňují matematické ověření. Pedersenovy závazky se kryptograficky vážou k hodnotám, aniž by je odhalovaly, zatímco Range Proofs zajišťují, že všechny částky jsou kladná celá čísla, a brání tak uživatelům vytvářet peníze prostřednictvím záporných hodnot. Ostatní možnosti jsou legitimními kryptografickými nástroji Bitcoin, ale neposkytují zaslepující schopnosti potřebné pro důvěrné transakce, kde částky zůstávají skryté, ale zároveň ověřitelné.

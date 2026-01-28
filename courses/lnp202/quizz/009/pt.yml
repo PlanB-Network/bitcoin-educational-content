@@ -1,0 +1,9 @@
+question: Que poder tem um operador de custódia sobre os pagamentos dos seus utilizadores?
+answer: Poder da censura
+wrong_answers:
+  - Potência Mining
+  - Poder do consenso
+  - Potência Halving
+explanation: |
+  Um operador que controle os fundos e os canais pode bloquear, atrasar ou filtrar os pagamentos.
+reviewed: false

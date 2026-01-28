@@ -1,5 +1,5 @@
 ---
-name: Mnemonic ifadenizi kaydedin
+name: Mnemonik ifadenizi yedekleyin
 description: Bitcoin Wallet'nizi korumak için en iyi uygulamaları keşfedin
 ---
 ![cover](assets/cover.webp)
@@ -62,7 +62,7 @@ Kurtarma cümlenizi kaydetmek için, kağıt veya metal gibi fiziksel bir ortama
 İfadenizi basit bir kağıda yazmak zaten iyi bir uygulama olsa da, paslanmaz çelik gibi metal bir tutucu tercih etmek daha fazla güvenlik sağlar. Bu tür bir tutucu, Mnemonic ifadenizi, saklama yerini etkileyebilecek yangın, sel veya çökme risklerinden korur.
 
 
-İfadelerini metal üzerinde desteklemek için ekonomik bir seçenek arayanlar için [*SAFU Ninja'nın* DIY yöntemi] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) mükemmel bir çözümdür. Tek yapmanız gereken mağazalardan metal pullar, bir vida ve bir somun satın almak. Daha sonra her bir pulun üzerine cümlenizin kelimelerini kazıyarak numaralandırmak ve bunları somunla birlikte vidaya monte etmek. Bu düşük maliyetli yöntem zaten iyi bir direnç sunuyor.
+İfadelerini metal üzerinde desteklemek için ekonomik bir seçenek arayanlar için [*SAFU Ninja'nın* DIY yöntemi](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) mükemmel bir çözümdür. Tek yapmanız gereken mağazalardan metal pullar, bir vida ve bir somun satın almak. Daha sonra her bir pulun üzerine cümlenizin kelimelerini kazıyarak numaralandırmak ve bunları somunla birlikte vidaya monte etmek. Bu düşük maliyetli yöntem zaten iyi bir direnç sunuyor.
 
 
 ![SEED](assets/fr/01.webp)
@@ -71,7 +71,7 @@ Kurtarma cümlenizi kaydetmek için, kağıt veya metal gibi fiziksel bir ortama
 Resim kredisi: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/).
 
 
-Komple bir metal yedekleme cihazına yatırım yapmayı tercih ediyorsanız, piyasada bulunan çözümlerin çoğunu değerlendiren [Jameson Lopp'un direnç testlerine] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/) göz atmanızı tavsiye ederim. Gravür, damgalama veya delme için metal plaka gibi tek parça destekleri tercih etmenizi tavsiye ederim. Bu cihazlar genellikle monte edilecek bağımsız harfler kullanan sistemlerden çok daha fazla direnç sunar.
+Komple bir metal yedekleme cihazına yatırım yapmayı tercih ediyorsanız, piyasada bulunan çözümlerin çoğunu değerlendiren [Jameson Lopp'un direnç testlerine](https://jlopp.github.io/metal-Bitcoin-storage-reviews/) göz atmanızı tavsiye ederim. Gravür, damgalama veya delme için metal plaka gibi tek parça destekleri tercih etmenizi tavsiye ederim. Bu cihazlar genellikle monte edilecek bağımsız harfler kullanan sistemlerden çok daha fazla direnç sunar.
 
 
 Kağıt Wallet'yi tercih ederseniz, birkaç seçeneğiniz vardır: basit bir boş kağıt, genellikle Hardware Wallet'unuzla birlikte verilen karton Wallet veya [buraya tıklayarak] yazdırabileceğiniz indirilebilir şablonumuz (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
@@ -124,12 +124,12 @@ Yedeklemenizi Wallet desteğinizle ilgili ek bilgilerle de zenginleştirebilirsi
 Öte yandan, bir passphrase kullanıyorsanız, bunu Mnemonic ifadenizle aynı ortama yazmadığınızdan emin olun. passphrase'ün amacı hırsızlık durumunda Wallet'inizi korumaktır. passphrase'ün nasıl kullanılacağı hakkında daha fazla bilgi edinmek için bu tamamlayıcı eğitime göz atın:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Mnemonic ifadenizi fiziksel ortama kaydettikten sonra, yeni oluşturduğunuz Wallet hala boşken bir kurtarma testi yapmanız şiddetle tavsiye edilir. Bu test, örnek bir bilgi parçasının yazılması, boş Wallet'nin kasıtlı olarak silinmesi ve ardından yalnızca Mnemonic ifadesinin fiziksel yedeğini kullanarak geri yüklemeye çalışmaktan oluşur. Bu, yedeklemenizin eksiksiz olduğunu ve giriş hataları içermediğini kontrol etmenizi sağlayacaktır. Ayrıca kurtarma işlemine aşina olmanızı da sağlar. Bu şekilde, gelecekte kurtarmanız gerekirse, daha iyi hazırlanmış olursunuz ve gerçek hayatta karşılaşacağınız ilk denemenin stresinden kaçınırsınız. Bu testin nasıl yapılacağı hakkında daha fazla bilgi edinmek için bu diğer eğitime bakın:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Son olarak, yedekleme sayısı sorusu var. Bu seçim tamamen kişisel durumunuza bağlıdır. Kopya sayısını sınırlamak, örneğin Mnemonic ifadenizi bir ortama yalnızca bir kez yazmak, hırsızlık riskini azaltır, ancak kayıp riskini artırır. Tersine, birden fazla kopya çıkarmak kayıp riskini azaltır, ancak hırsızlık riskini artırır. Dolayısıyla, ihtiyaçlarınız için doğru dengeyi bulmak ve en uygun olduğunu düşündüğünüz kopya sayısını belirlemek size kalmıştır.
 
@@ -170,9 +170,9 @@ Son olarak, Mnemonic ifade yönetimi kalıtım sorununu da gündeme getirmektedi
 Bir adım daha ileri gitmek ve güvenlik stratejinizi daha da güçlendirmek için, Bitcoin Wallet'unuzun teknik işleyişini öğrenmenizi tavsiye ederim. Çeşitli Elements'ların nasıl etkileşime girdiğini, önemlerini ve etkilerini anlayarak, güvenlik stratejinizi ilgili risklerin tam farkındalığıyla hassas bir şekilde ayarlayabileceksiniz. Özellikle, Mnemonic ifadesinin neyi mümkün kıldığını teknik düzeyde anlarsanız, zaman içinde kaydetme, saklama ve yönetme şeklinizi ayarlayabilirsiniz.
 
 
-Bu nedenle sizi Plan ₿ Network tarafından sunulan ücretsiz CYP201 eğitim kursuna katılmaya davet ediyorum. Bu eğitim kursu, Bitcoin cüzdanlarının tüm işleyişini ayrıntılı olarak açıklayarak, fonlarınızı etkili bir şekilde güvence altına almak için gerekli olan teknik konularda uzmanlaşmanızı sağlar:
+Bu nedenle sizi Plan ₿ Academy tarafından sunulan ücretsiz CYP201 eğitim kursuna katılmaya davet ediyorum. Bu eğitim kursu, Bitcoin cüzdanlarının tüm işleyişini ayrıntılı olarak açıklayarak, fonlarınızı etkili bir şekilde güvence altına almak için gerekli olan teknik konularda uzmanlaşmanızı sağlar:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Bu öğreticiyi faydalı bulduysanız, aşağıya bir Green başparmağı bırakırsanız minnettar olurum. Bu makaleyi sosyal ağlarınızda paylaşmaktan çekinmeyin. Çok teşekkür ederim!

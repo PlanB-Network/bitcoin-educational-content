@@ -1,0 +1,9 @@
+question: Apa protokol yang digunakan oleh Electrs dan Fulcrum untuk menghubungkan dompet?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - API JSON
+  - Petir gRPC
+explanation: |
+  Paket perangkat lunak ini mengekspos server Electrum, standar yang digunakan oleh banyak dompet seperti Sparrow atau Electrum Wallet.
+reviewed: true

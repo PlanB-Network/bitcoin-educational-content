@@ -1,0 +1,9 @@
+question: Quel mécanisme étend l’espace de recherche quand le nonce de 32 bits est épuisé ?
+answer: L’extra-nonce
+wrong_answers:
+  - Le super-nonce
+  - Le coinbase-nonce
+  - Le double-nonce
+explanation: |
+  En modifiant l’extra-nonce dans le scriptSig de la coinbase, on change la racine de Merkle et donc l’entête.
+reviewed: false

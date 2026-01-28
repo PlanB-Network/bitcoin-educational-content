@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal característica que hace que los cierres sean potentes en Rust?
+answer: Su capacidad para captar variables del entorno
+wrong_answers:
+  - Su capacidad para funcionar más rápido que las funciones normales
+  - Su capacidad para gestionar automáticamente la asignación de memoria
+  - Su capacidad para ejecutar código en hilos paralelos
+explanation: |
+  La característica fundamental que hace potentes a los cierres es su capacidad de "cerrar sobre" su entorno, lo que significa que pueden acceder y utilizar variables que existen en el ámbito en el que se define el cierre. Esta capacidad de captura permite a los cierres mantener el estado y el contexto de su entorno de creación, lo que los hace mucho más flexibles que las funciones normales. Aunque los cierres pueden optimizarse para mejorar el rendimiento y utilizarse en contextos de subprocesos, estas ventajas son secundarias: su principal ventaja reside en la captura de variables del entorno.

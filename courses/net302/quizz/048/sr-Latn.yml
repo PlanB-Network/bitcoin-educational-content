@@ -1,9 +1,9 @@
-question: Kojem Layer OSI modela pripada MAC Address?
-answer: Veza podataka Layer
+question: Kojem sloju OSI modela pripada MAC adresa?
+answer: Sloj podatkovne veze (eng. data link layer)
 wrong_answers:
-  - Aplikacija Layer
-  - Transport Layer
-  - Mreža Layer
+  - Aplikacioni sloj
+  - Transportni sloj
+  - Mrežni sloj (eng. network layer)
 explanation: |
-  MAC Address radi na Layer 2 OSI modela, poznatom kao "data link Layer", gde se koristi za hardversko adresiranje frejmova.
-reviewed: false
+  MAC adresa funkcioniše na sloju 2 OSI modela, poznatom kao „sloj podatkovne veze“, gde se koristi za hardversko adresiranje okvira (frames).
+reviewed: true

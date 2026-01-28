@@ -1,0 +1,9 @@
+question: Kapan pengguna harus memasang pengindeks?
+answer: Untuk menjalankan Block explorer
+wrong_answers:
+  - Untuk blok Mining sendiri
+  - Untuk mengaktifkan Lightning Network
+  - Untuk menandatangani transaksi
+explanation: |
+  Pengindeks menjadi sangat penting untuk penggunaan tingkat lanjut, seperti penjelajah lokal.
+reviewed: true

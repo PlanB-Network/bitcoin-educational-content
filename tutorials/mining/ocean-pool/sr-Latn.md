@@ -125,19 +125,19 @@ Da biste dodali radnika, počnite izborom šablona bloka. Ovaj izbor će odredit
 
 
 
-- CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
-- CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
-- OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
-- DATA-FREE**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
+- **CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
+- **CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
+- **OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
+- **DATA-FREE**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
 
 
 Dalje, za polje korisnika unesite Bitcoin Address koji posedujete. Ovde je lista kompatibilnih tipova Address:
 
 
-- P2PKH** (Originalni tip Address. Počinje sa „1”)
-- P2SH** (Multisignature ili P2SH-SegWit. Počinje sa “3”)
-- Bech32** (SegWit. Počinje sa „bc“.)
-- Bech32m** (Taproot. Počinje sa „bc“. Duže od Bech32.)
+- **P2PKH** (Originalni tip Address. Počinje sa „1")
+- **P2SH** (Multisignature ili P2SH-SegWit. Počinje sa "3")
+- **Bech32** (SegWit. Počinje sa „bc".)
+- **Bech32m** (Taproot. Počinje sa „bc". Duže od Bech32.)
 
 
 Ako imate više rudara, možete uneti isti Address za sve njih kako bi se njihove Hash stope kombinovale i prikazale kao jedan Miner. Takođe ih možete razlikovati dodavanjem različitog imena svakom. Da biste to uradili, jednostavno dodajte “.ime_radnika” nakon Bitcoin Address.
@@ -152,9 +152,9 @@ Ako izaberete šablon **OCEAN**, vaš Bitcoin Address je `bc1q2ed8zxq8njqsznkp7g
 
 
 
-- URL**: `stratum+tcp://mine.ocean.xyz:3334`
-- KORISNIK**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
-- LOZINKA**: `x`
+- **URL**: `stratum+tcp://mine.ocean.xyz:3334`
+- **KORISNIK**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
+- **LOZINKA**: `x`
 
 
 Nekoliko minuta nakon pokretanja Mining, moći ćete da vidite svoje podatke na Ocean sajtu pretraživanjem vašeg Address.
@@ -163,9 +163,9 @@ Nekoliko minuta nakon pokretanja Mining, moći ćete da vidite svoje podatke na 
 ### Pregled kontrolne table
 
 
-- Akcije u Reward Window**: Ovi podaci pokazuju broj akcija, rad koji ste poslali u bazen u okviru poslednjih 8 blokova koje je bazen iskopao.
-- Procijenjene nagrade u Windows**: Procjena broja Sats koje ćete zaraditi sa već obavljenim poslom. Ovo ne uzima u obzir transakcione naknade, već samo coinbase, nove bitcoine koje izdaje mreža.
-- Procena Zarade Sledećeg Bloka**: Procena broja Sats zarađenih ako se blok iskopa sada. Zapamtite, ako je ova vrednost manja od 1,048,576 Sats, nećete direktno primiti Sats na vaš Address. Oni će biti poslati na Oceanov Address dok vaša zarada ne premaši ovaj prag.
+- **Akcije u Reward Window**: Ovi podaci pokazuju broj akcija, rad koji ste poslali u bazen u okviru poslednjih 8 blokova koje je bazen iskopao.
+- **Procijenjene nagrade u Windows**: Procjena broja Sats koje ćete zaraditi sa već obavljenim poslom. Ovo ne uzima u obzir transakcione naknade, već samo coinbase, nove bitcoine koje izdaje mreža.
+- **Procena Zarade Sledećeg Bloka**: Procena broja Sats zarađenih ako se blok iskopa sada. Zapamtite, ako je ova vrednost manja od 1,048,576 Sats, nećete direktno primiti Sats na vaš Address. Oni će biti poslati na Oceanov Address dok vaša zarada ne premaši ovaj prag.
 
 
 Ispod, imate grafikon koji prikazuje vašu Hashrate istoriju do 6 meseci.

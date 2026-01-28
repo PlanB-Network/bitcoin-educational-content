@@ -5,5 +5,5 @@ wrong_answers:
   - Coinjoin
   - Batch spending
 explanation: |
-  The interpretation of this structure is that we are in the presence of a sweep, meaning a self-transfer of bitcoins.
-reviewed: false
+  The interpretation of this structure suggests that we are in the presence of a sweep, which involves a self-transfer of bitcoins.
+reviewed: true

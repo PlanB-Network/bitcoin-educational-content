@@ -1,0 +1,9 @@
+question: Hva er den viktigste grunnen til at alle kjente svakheter i Bitcoin må utbedres i stedet for å akseptere et visst risikonivå, ifølge den kontradiktoriske tankegangen?
+answer: Bitcoin opererer i et pseudonymt nettmiljø der motstandere kan utnytte svakheter uten å bli tatt eller stilt til ansvar
+wrong_answers:
+  - "Bitcoins formelle sikkerhetsmodell krever matematisk bevis på at alle potensielle angrepsvektorer er eliminert"
+  - Bitcoins distribuerte natur betyr at selv små svakheter kan føre til systemfeil på tvers av alle noder
+  - "Bitcoins faste forsyning gjør det økonomisk umulig å absorbere tap fra vellykkede angrep, i motsetning til tradisjonelle finansielle systemer."
+explanation: |
+  Det riktige svaret gjenspeiler Andrew Poelstras nøkkelinnsikt om nettbaserte systemer kontra fysiske systemer. I motsetning til bygninger, der vi aksepterer en viss risiko og stoler på rettshåndhevelse, opererer Bitcoin i et pseudonymt miljø der angriperne kan handle uten innsyn eller konsekvenser. Denne grunnleggende forskjellen betyr at enhver kjent svakhet uunngåelig vil bli utnyttet, noe som gjør omfattende sikkerhet til en nødvendighet snarere enn en valgfri risikostyring.
+reviewed: false

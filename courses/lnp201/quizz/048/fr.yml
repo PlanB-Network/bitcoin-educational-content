@@ -6,4 +6,4 @@ wrong_answers:
   - Les fonds sont directement crédités sans sécurité supplémentaire
 explanation: |
   Keysend permet à l'émetteur de générer un secret intégré aux HTLC, permettant au destinataire de débloquer les fonds sans avoir émis d'invoice.
-reviewed: false
+reviewed: true 

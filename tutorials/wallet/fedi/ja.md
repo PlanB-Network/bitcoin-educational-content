@@ -1,5 +1,5 @@
 ---
-name: フェディ
+name: Fedi
 description: あなたのBitcoin super Wallet powered by コミュニティ
 ---
 
@@ -33,23 +33,23 @@ Fedi Walletは、Android（Google Play Store）とiOS（Apple Store）で利用�
 
 
 
-- カストディアル**：あなたは、ポートフォリオ開発者である外部エンティティに信託することを決定し、ポートフォリオ開発者はあなたのためにあなたのポートフォリオのリカバリーワードを保管します。あなたはBitcoinポートフォリオにアクセスすることも、エクスポートすることもできません。
+- カストディアル：あなたは、ポートフォリオ開発者である外部エンティティに信託することを決定し、ポートフォリオ開発者はあなたのためにあなたのポートフォリオのリカバリーワードを保管します。あなたはBitcoinポートフォリオにアクセスすることも、エクスポートすることもできません。
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
-
-
-
-- セルフカストーディアル** ：このアプリケーションは、Walletを作成するとすぐにリカバリーワードにアクセスできます。そのため、自分のビットコインを自分に合ったWalletに自由にエクスポートすることができます。
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **セルフカストーディアル**：このアプリケーションは、Walletを作成するとすぐにリカバリーワードにアクセスできます。そのため、自分のビットコインを自分に合ったWalletに自由にエクスポートすることができます。
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 その代わりに、Fedi Walletが提供するフェデレーション・アプローチでは、自分のポートフォリオ・キーの管理を任せられる信頼できる人々のグループに参加することができる。Fediが提案する一般的なフェデレーションに参加することもできるし、QRコードをスキャンするか、フェデレーションの招待コードを貼り付けることで、地域のフェデレーションに参加することもできる。
 
@@ -75,7 +75,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 各連盟に参加するごとに、Fediは個別のウォレットを作成し、ビットコインを区別します。
 
@@ -103,7 +103,7 @@ Federations**メニューでフェデレーションまでスクロールダウ�
 
 
 
-- フェディ**でビットコインを受け取る：ホームページで、ビットコインを受け取るために使用したいフェデレーションを選択し、**Receive**ボタンをクリックして、受け取る金額でライトニングInvoiceを作成します。
+- フェディでビットコインを受け取る：ホームページで、ビットコインを受け取るために使用したいフェデレーションを選択し、**Receive**ボタンをクリックして、受け取る金額でライトニングInvoiceを作成します。
 
 
 
@@ -125,7 +125,7 @@ Fedi Walletの特徴のひとつは、オフラインで送金できることだ
 
 
 
-オフラインで送信**をクリックし、送信したいサトシの量を設定します。
+オフラインで**送信**をクリックし、送信したいサトシの量を設定します。
 
 
 
@@ -141,7 +141,7 @@ Fedi Walletの特徴のひとつは、オフラインで送金できることだ
 
 
 
-オフライン決済は主に[e-cash](https://planb.network/resources/glossary/ecash-david-chaum)を使って行われる。取引は携帯電話に保存され、インターネットにアクセスするとすぐに取引の確認が自動的に行われます。また、**Confirm transaction**をクリックすることで、手動で支払いを確認することもできます。
+オフライン決済は主に[e-cash](https://planb.academy/resources/glossary/ecash-david-chaum)を使って行われる。取引は携帯電話に保存され、インターネットにアクセスするとすぐに取引の確認が自動的に行われます。また、**Confirm transaction**をクリックすることで、手動で支払いを確認することもできます。
 
 
 
@@ -165,7 +165,7 @@ Fediユーザーとディスカッションを始めるには、ログイン情�
 
 
 
-Wallet**アイコンをクリックし、サトシの量を設定することで、会話から離れることなくこのユーザーにサトシを送ることができます。
+**Wallet**アイコンをクリックし、サトシの量を設定することで、会話から離れることなくこのユーザーにサトシを送ることができます。
 
 
 
@@ -181,7 +181,7 @@ Fediのモジュール式メニューで、コミュニティで使用されて�
 
 
 
-Mods**メニューには、以下のようなアプリケーションがあります：
+**Mods**メニューには、以下のようなアプリケーションがあります：
 
 
 
@@ -191,7 +191,7 @@ Mods**メニューには、以下のようなアプリケーションがあり�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -215,11 +215,11 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-Mods**メニューでは、自分のコミュニティに独自の連盟を作るよう要求することができます。
+**Mods**メニューでは、自分のコミュニティに独自の連盟を作るよう要求することができます。
 
 
 
-フェデレーションの作成**モジュールをクリックし、フェデレーションの作成プロセスを開始します。Fediによって検証された連盟の作成には、BitcoinメンターとFediチームが主導するメンタリング・トレーニング・セッションが含まれ、開始者がコミュニティの目標、連盟の具体的な実施について話し合うことができます。このプログラムの主な目的は、コミュニティ内でのBitcoinの建設的な使用を確実にするために、フェデレーション・イニシアチブを審査することです。
+フェデレーションの作成**モジュール**をクリックし、フェデレーションの作成プロセスを開始します。Fediによって検証された連盟の作成には、BitcoinメンターとFediチームが主導するメンタリング・トレーニング・セッションが含まれ、開始者がコミュニティの目標、連盟の具体的な実施について話し合うことができます。このプログラムの主な目的は、コミュニティ内でのBitcoinの建設的な使用を確実にするために、フェデレーション・イニシアチブを審査することです。
 
 
 
@@ -231,5 +231,4 @@ FediのWalletツアーに参加された皆さんは、今、ご自分のコミ�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

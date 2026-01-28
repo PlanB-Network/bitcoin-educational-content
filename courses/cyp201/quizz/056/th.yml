@@ -1,0 +1,8 @@
+question: ใช้ค่าคงที่ใดในการสร้างคีย์ส่วนตัวหลักจาก seed?
+answer: Bitcoin Seed
+wrong_answers:
+  - มาสเตอร์คีย์
+  - HD Wallet Seed
+  - Blockchain Root
+explanation: |
+  Bitcoin Seed ค่าคงที่ถูกใช้เป็นกุญแจในฟังก์ชัน HMAC-SHA512 เพื่อสร้างกุญแจส่วนตัวหลักและ chain code หลัก

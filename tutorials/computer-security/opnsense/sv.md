@@ -56,55 +56,55 @@ Här är några av OPNsense's viktigaste funktioner:
 
 
 
-- Brandvägg och NAT**: OPNsense tillhandahåller avancerad stateful brandväggsfunktionalitet med stateful filtrering samt NAT-funktioner (Network Address Translation).
+- **Brandvägg och NAT**: OPNsense tillhandahåller avancerad stateful brandväggsfunktionalitet med stateful filtrering samt NAT-funktioner (Network Address Translation).
 
 
 
 
 
-- DNS/DHCP**: OPNsense kan konfigureras för att hantera DNS- och DHCP-tjänster i nätverket. Den kan fungera som en DHCP-server, men kan också användas som en DNS-resolver för maskiner i det lokala nätverket. Dnsmasq är också integrerat som standard.
+- **DNS/DHCP**: OPNsense kan konfigureras för att hantera DNS- och DHCP-tjänster i nätverket. Den kan fungera som en DHCP-server, men kan också användas som en DNS-resolver för maskiner i det lokala nätverket. Dnsmasq är också integrerat som standard.
 
 
 
 
 
-- VPN**: OPNsense stöder flera VPN-protokoll, inklusive IPsec, OpenVPN och WireGuard, vilket möjliggör säkra anslutningar för fjärråtkomst till mobila arbetsstationer eller sammankoppling av webbplatser.
+- **VPN**: OPNsense stöder flera VPN-protokoll, inklusive IPsec, OpenVPN och WireGuard, vilket möjliggör säkra anslutningar för fjärråtkomst till mobila arbetsstationer eller sammankoppling av webbplatser.
 
 
 
 
 
-- Webbproxy**: OPNsense innehåller en webbproxy för att kontrollera och filtrera internetåtkomst. Den kan också användas för att filtrera innehåll och hantera nätverksåtkomst.
+- **Webbproxy**: OPNsense innehåller en webbproxy för att kontrollera och filtrera internetåtkomst. Den kan också användas för att filtrera innehåll och hantera nätverksåtkomst.
 
 
 
 
 
-- Hantering av bandbredd (QoS)**: OPNsense erbjuder QoS-hanteringsfunktioner (Quality of Service) för att prioritera nätverkstrafik och bättre hantera nätverksbandbredd.
+- **Hantering av bandbredd (QoS)**: OPNsense erbjuder QoS-hanteringsfunktioner (Quality of Service) för att prioritera nätverkstrafik och bättre hantera nätverksbandbredd.
 
 
 
 
 
-- Captive portal**: Med den här funktionen kan du hantera användarnas åtkomst till nätverket via en autentiseringssida (lokal bas, vouchers etc.). Det är en funktion som ofta används för offentliga Wi-Fi-nätverk.
+- **Captive portal**: Med den här funktionen kan du hantera användarnas åtkomst till nätverket via en autentiseringssida (lokal bas, vouchers etc.). Det är en funktion som ofta används för offentliga Wi-Fi-nätverk.
 
 
 
 
 
-- IDS/IPS**: OPNsense integrerar Suricata för att erbjuda funktioner för upptäckt och förebyggande av intrång (IDS/IPS) för att skydda nätverket mot attacker.
+- **IDS/IPS**: OPNsense integrerar Suricata för att erbjuda funktioner för upptäckt och förebyggande av intrång (IDS/IPS) för att skydda nätverket mot attacker.
 
 
 
 
 
-- Hög tillgänglighet (CARP)**: OPNsense har stöd för CARP (*Common Address Redundancy Protocol*) för hög tillgänglighet mellan flera OPNsense-brandväggar, vilket säkerställer att tjänsten förblir aktiv även vid maskinvarufel.
+- **Hög tillgänglighet (CARP)**: OPNsense har stöd för CARP (*Common Address Redundancy Protocol*) för hög tillgänglighet mellan flera OPNsense-brandväggar, vilket säkerställer att tjänsten förblir aktiv även vid maskinvarufel.
 
 
 
 
 
-- Rapportering och övervakning**: OPNsense tillhandahåller rapporterings- och övervakningsverktyg i realtid för att spåra nätverksprestanda (med NetFlow) och upptäcka potentiella problem tack vare skapandet av loggar. Detta inkluderar grafik. Verktyget Monit är integrerat i OPNsense och möjliggör övervakning av själva brandväggen.
+- **Rapportering och övervakning**: OPNsense tillhandahåller rapporterings- och övervakningsverktyg i realtid för att spåra nätverksprestanda (med NetFlow) och upptäcka potentiella problem tack vare skapandet av loggar. Detta inkluderar grafik. Verktyget Monit är integrerat i OPNsense och möjliggör övervakning av själva brandväggen.
 
 
 
@@ -139,7 +139,7 @@ Du kan också köpa **en OPNsense rackmonterbar apparat** via vår webbutik.
 
 
 
-Du måste ta hänsyn till de maskinvaruresurser som krävs för att köra OPNsense. Detta beskrivs närmare på [den här dokumentationssidan] (https://docs.opnsense.org/manual/hardware.html).
+Du måste ta hänsyn till de maskinvaruresurser som krävs för att köra OPNsense. Detta beskrivs närmare på [den här dokumentationssidan](https://docs.opnsense.org/manual/hardware.html).
 
 
 
@@ -147,17 +147,18 @@ Du måste ta hänsyn till de maskinvaruresurser som krävs för att köra OPNsen
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Funktioner | Minimum | Rekommendation |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Processor | 1 GHz - 2 kärnor | 1.5 GHz - Multi-core |
+| RAM | 2 GB | 8 GB |
+| Lagringsutrymme för systemet | Hårddisk, SSD eller SD-kort (4 GB) | 120 GB på SSD |
 
 Slutligen beror **dina resurskrav framför allt på antalet anslutningar som ska hanteras**, och därmed på **dina bandbreddskrav**. Dessutom måste du **ha i åtanke de tjänster som kommer att aktiveras och användas** (proxy, intrångsdetektering, etc.) eftersom de kan vara CPU- och/eller RAM-krävande.
 
 
 
-Du behöver också ISO-avbildningen för OPNsense-installationen, som du kan hämta från [den officiella webbplatsen] (https://opnsense.org/download/). För installation på en virtuell dator väljer du "**dvd**" som avbildningstyp för att få en ISO-avbildning (och gör vad du vill med den...). För installation via en startbar USB-nyckel, välj alternativet "**vga**" för att få en "**.img**"-fil.
+Du behöver också ISO-avbildningen för OPNsense-installationen, som du kan hämta från [den officiella webbplatsen](https://opnsense.org/download/). För installation på en virtuell dator väljer du "**dvd**" som avbildningstyp för att få en ISO-avbildning (och gör vad du vill med den...). För installation via en startbar USB-nyckel, välj alternativet "**vga**" för att få en "**.img**"-fil.
 
 
 
@@ -179,11 +180,11 @@ Vårt mål är att
 
 
 
-- Skapa ett internt virtuellt nätverk (192.168.10.0/24 - LAN)**, som kan komma åt Internet via OPNsense-brandväggen. För produktionsanvändning kan detta vara ditt lokala nätverk, kabel och/eller Wi-Fi.
-- Aktivera och konfigurera NAT** så att virtuella datorer i det interna virtuella nätverket kan komma åt Internet
-- Aktivera och konfigurera DHCP-servern på OPNsense** för att distribuera en IP-konfiguration till framtida maskiner som är anslutna till det interna virtuella nätverket
-- Konfigurera brandväggen** så att den endast tillåter utgående flöden från LAN till WAN i HTTP (80) och HTTPS (443).
-- Konfigurera brandväggen** så att det virtuella LAN:et kan använda OPNsense som DNS-resolver (53).
+- Skapa ett internt virtuellt nätverk (192.168.10.0/24 - LAN), som kan komma åt Internet via OPNsense-brandväggen. För produktionsanvändning kan detta vara ditt lokala nätverk, kabel och/eller Wi-Fi.
+- Aktivera och konfigurera **NAT** så att virtuella datorer i det interna virtuella nätverket kan komma åt Internet
+- Aktivera och konfigurera DHCP-servern på **OPNsense** för att distribuera en IP-konfiguration till framtida maskiner som är anslutna till det interna virtuella nätverket
+- Konfigurera **brandväggen** så att den endast tillåter utgående flöden från LAN till WAN i HTTP (80) och HTTPS (443).
+- Konfigurera **brandväggen** så att det virtuella LAN:et kan använda OPNsense som DNS-resolver (53).
 
 
 
@@ -213,7 +214,7 @@ Efter nedladdningen får du **ett arkiv som innehåller en bild i formatet ".img
 
 
 
-- [Ladda ner balenaEtcher] (https://etcher.balena.io/)
+- [Ladda ner balenaEtcher](https://etcher.balena.io/)
 
 
 
@@ -257,7 +258,7 @@ Då kommer du till en Interface som liknar den nedan. Logga in med inloggning "*
 
 
 
-En ny guide visas på skärmen. Det första steget är att välja den tangentbordslayout som motsvarar din konfiguration. För ett AZERTY-tangentbord väljer du alternativet "**French (accent keys)**" i listan och dubbelklickar sedan på**.
+En ny guide visas på skärmen. Det första steget är att välja den tangentbordslayout som motsvarar din konfiguration. För ett AZERTY-tangentbord väljer du alternativet **French (accent keys)** i listan och dubbelklickar sedan på den.
 
 
 
@@ -382,7 +383,7 @@ pfctl -d
 
 
 
-OPNsense Administration Interface kan nås via HTTPS, med hjälp av IP Address i LAN** Interface (eller WAN). Din webbläsare kommer att ta dig till en inloggningssida. Logga in med kontot "root" och lösenordet som du valde tidigare.
+OPNsense Administration Interface kan nås via HTTPS, med hjälp av IP Address i **LAN Interface** (eller WAN). Din webbläsare kommer att ta dig till en inloggningssida. Logga in med kontot "root" och lösenordet som du valde tidigare.
 
 
 
@@ -566,7 +567,7 @@ Detta ger följande resultat:
 
 
 
-Allt som återstår är att klicka på "**Apply changes**" för att flytta över de nya brandväggsreglerna till produktionen. **Observera att alla flöden som inte uttryckligen är auktoriserade kommer att blockeras som standard
+Allt som återstår är att klicka på "**Apply changes**" för att flytta över de nya brandväggsreglerna till produktionen. **Observera att alla flöden som inte uttryckligen är auktoriserade kommer att blockeras som standard.**
 
 
 

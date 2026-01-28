@@ -1,0 +1,9 @@
+question: Vilken datastruktur sammanfattar transaktionerna i ett block?
+answer: Merkle Tree
+wrong_answers:
+  - Hash UTXO-tabellen
+  - Filen peers.dat
+  - Registret över antaganden
+explanation: |
+  Transaktionerna i ett block överförs till en Merkle Tree, vars rot ingår i blockhuvudet för att säkerställa blockets integritet.
+reviewed: true

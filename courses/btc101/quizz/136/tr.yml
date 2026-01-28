@@ -1,8 +1,11 @@
-question: Bitcoin ağı, Bitcoin protokolü içinde kötü niyetli davranmanın çok maliyetli olmasını nasıl sağlar?
-answer: Protokol kuralları ve ekonomik teşvikler aracılığıyla.
+question: Bir düğüm kullanıcısı mevcut mutabakat kurallarıyla çelişen farklı kurallara uymayı seçerse ne olur?
+answer: Düğüm artık Bitcoin ağının bir parçası olmayacaktır.
 wrong_answers:
-  - Sıkı düzenleme ve gözetim yoluyla.
-  - Gelişmiş güvenlik önlemlerinin kullanılması yoluyla.
-  - Yasal işlem tehdidiyle.
-explanation: >-
+  - Düğüm farklı bir Bitcoin ağının parçası haline gelecektir.
+  - Düğüm Bitcoin ağı tarafından cezalandırılacaktır.
+  - Düğüm Bitcoin ağı tarafından ödüllendirilecektir.
+explanation: |
+  Bir düğüm kullanıcısı aşağıdaki diğer kurallara uymaya karar verirse
+  mevcut mutabakat kurallarını geçersiz kılarsa, bu düğüm
+  artık Bitcoin ağının bir parçası olmayacaktır.
 reviewed: true

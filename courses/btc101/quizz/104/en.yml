@@ -1,12 +1,13 @@
-question: What is not a mnemonic phrase in the context of Bitcoin?
-answer: A password for your Bitcoin wallet.
+question: What does KYC stand for?
+answer: Know Your Customer.
 wrong_answers:
-  - A list of 12 words from a specific dictionary.
-  - A list of 24 words from a specific dictionary.
-  - The secret to access your bitcoin fund.
+  - Keep Your Cash.
+  - Key Your Codes.
+  - Kindly Yield Compliance.
 explanation: |
-  A mnemonic phrase in the context of Bitcoin is a list of 12
-  or 24 words that allows you to restore your wallet on any
-  Bitcoin wallet application. Anyone with access to this list
-  cal also access your bitcoins.
+  KYC or Know Your Customer refers to the procedure that
+  businesses adopt to verify the identity of their clients.
+  This is typically done to ensure compliance with
+  regulations and to prevent illegal activities such as money
+  laundering or fraud.
 reviewed: true

@@ -1,4 +1,4 @@
-question: Quelle est la principale différence entre lesopérations ShR et RotR ?
+question: Quelle est la principale différence entre les opérations ShR et RotR ?
 answer: ShR décale les bits en ajoutant des zéros, RotR réinsère les bits décalés
 wrong_answers:
   - ShR supprime les bits décalés, RotR multiplie leur valeur

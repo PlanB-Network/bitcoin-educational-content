@@ -1,0 +1,9 @@
+question: Mitä Wallet:n on tehtävä nähdäkseen Blockchain:n tilan?
+answer: Yhteyden muodostaminen paikalliseen tai etäsolmuun
+wrong_answers:
+  - Kysy muilta verkoston lompakoista
+  - Verkon kaivostyöntekijöiden haastattelu
+  - Yhdistäminen verkossa olevaan Exchange-alustaan
+explanation: |
+  Wallet:n on muodostettava yhteys solmuun, jotta se voi saada Blockchain:n tilan ja lähettää tapahtumia.
+reviewed: true

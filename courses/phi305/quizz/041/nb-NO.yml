@@ -1,0 +1,9 @@
+question: Hvem er Saint-Augustin?
+answer: En av kirkefedrene.
+wrong_answers:
+  - En av opplysningstidens filosofer.
+  - En astronom.
+  - En oppfinner.
+explanation: |
+  Augustin (354-430) er en av kirkefedrene. Han var filosof og teolog, og med verker som "Bekjennelser" og "Guds by" har han hatt stor innflytelse på vestlig kristen tenkning.
+reviewed: false

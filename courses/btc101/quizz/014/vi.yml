@@ -1,10 +1,11 @@
-question: Dự án DigiCash là gì?
-answer: Một nỗ lực tạo ra tiền điện tử ẩn danh bởi David Chaum.
+question: Một trong những nhược điểm của vàng khi được sử dụng như một hình thức tiền tệ là gì?
+answer: Nó không dễ dàng chia nhỏ.
 wrong_answers:
-  - Một dự án tạo ví điện tử cho Bitcoin.
-  - Một nỗ lực số hóa toàn bộ tiền mặt vật lý bởi Cục Dự trữ Liên bang.
-  - Một dự án tạo ra một loại tiền mã hóa dựa trên Bitcoin.
+  - Nó không giữ giá trị qua không gian.
+  - Nó bị ăn mòn theo thời gian.
+  - Nó dễ sản xuất.
 explanation: |
-  David Chaum đã giới thiệu khái niệm về tiền điện tử ẩn danh
-  với dự án DigiCash của mình vào những năm 1980.
+  Một trong những nhược điểm chính của vàng khi được sử dụng như một hình thức tiền tệ là
+  khó để chia nhỏ thành các đơn vị nhỏ khi cần thiết,
+  điều này làm cho việc sử dụng nó trở nên kém tiện lợi.
 reviewed: true

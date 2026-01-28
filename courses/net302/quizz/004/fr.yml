@@ -6,4 +6,4 @@ wrong_answers:
   - À la marque des routeurs utilisés sur un réseau
 explanation: |
   La topologie désigne la structure physique ou logique d’un réseau et la manière dont ses composants sont reliés.
-reviewed: false
+reviewed: true 

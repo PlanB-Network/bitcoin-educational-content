@@ -1,0 +1,8 @@
+question: Why does legacy Bitcoin transaction validation exhibit quadratic time complexity with respect to the number of inputs?
+answer: Each input requires its own sighash computation over a structure that includes all inputs in the transaction
+wrong_answers:
+  - Each input must verify signatures against all other inputs to prevent double-spending within the transaction
+  - The stack-based execution model requires nested loops to process opcodes for each input combination
+  - "Each input's ScriptSig must be validated against every output's ScriptPubKey to find the correct match"
+explanation: |
+  Legacy Bitcoin validation creates quadratic complexity because every input needs its own sighash calculation, but each calculation processes a transaction structure containing all inputs. With n inputs, this creates n×n operations. SegWit solved this by caching shared parts of the sighash computation, reducing complexity to linear time and preventing potential denial-of-service attacks from large multi-input transactions.

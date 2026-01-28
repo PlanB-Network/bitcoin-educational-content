@@ -1,0 +1,9 @@
+question: Er Spinoza en filosof?
+answer: Fra 1600-tallet.
+wrong_answers:
+  - Fra 1500-tallet.
+  - Fra 1700-tallet.
+  - Fra antikken.
+explanation: |
+  Spinoza levde fra 1632 til 1677, og er dermed en av 1600-tallets filosofer. I denne perioden, kjent som fornuftens tidsalder, vokste den moderne rasjonalismen og nye vitenskapelige tilnærminger til å forstå verden frem.
+reviewed: false

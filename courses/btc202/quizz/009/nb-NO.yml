@@ -1,0 +1,9 @@
+question: Hva er hovedfunksjonen til en Bitcoin-node?
+answer: Lagre Blockchain og validere transaksjoner og blokker
+wrong_answers:
+  - Lagre private nøkler og bygge transaksjoner
+  - Opprett nye adresser for brukere
+  - Konverter bitcoins til fiat-valutaer
+explanation: |
+  En Bitcoin-node opprettholder en kopi av Blockchain og deltar i validering og videresending av transaksjoner og blokker.
+reviewed: true

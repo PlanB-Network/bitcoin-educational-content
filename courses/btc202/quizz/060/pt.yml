@@ -1,0 +1,9 @@
+question: Qual é o papel de um relé Nostr instalado na Umbrel?
+answer: Alojar as suas publicações localmente
+wrong_answers:
+  - Verificar transacções Bitcoin
+  - Criar canais Nostr com os seus contactos
+  - Cópia de segurança local do Blockchain Nostr
+explanation: |
+  Um retransmissor Nostr na Umbrel permite alojar os dados localmente, garantindo a disponibilidade e a soberania.
+reviewed: true

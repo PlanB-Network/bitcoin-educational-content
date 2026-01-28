@@ -6,7 +6,7 @@ description: Acquistare e vendere bitcoin sull'applicazione Bitstack
 
 Bitstack è una piattaforma di investimento in bitcoin francese, regolamentata PSAN dall'AMF. Offre un'applicazione disponibile su Android e iOS per acquistare e vendere facilmente bitcoin.
 
-Ciò che distingue Bitstack è il suo sistema di arrotondamento automatico, che sincronizza il conto bancario dell'utente per convertire la differenza tra l'importo addebitato durante la spesa giornaliera e l'euro immediatamente superiore, direttamente in bitcoin. Questo metodo facilita l'applicazione del *Dollar Cost Averaging* (DCA), consentendo un accumulo graduale e indolore di satoshis. Oltre a questa funzione originale, la piattaforma offre anche un sistema classico di DCA con investimenti automatici, nonché acquisti e vendite a pronti.
+Ciò che distingue Bitstack è il suo sistema di arrotondamento automatico, che sincronizza il conto bancario dell’utente per convertire la differenza tra l’importo addebitato nelle spese quotidiane e l’euro superiore direttamente in bitcoin. Questo metodo facilita l’applicazione del *Dollar Cost Averaging* (DCA), consentendo un accumulo progressivo e indolore di satoshi. Oltre a questa funzione originale, la piattaforma offre anche un sistema DCA classico con investimenti automatici, nonché acquisti e vendite occasionali.
 
 ![Image](assets/fr/01.webp)
 
@@ -51,9 +51,9 @@ Scegliete una password forte per proteggere l'accesso al vostro account, quindi 
 
 ![Image](assets/fr/06.webp)
 
-Per una gestione sicura delle password su base quotidiana, l'uso di un password manager è altamente raccomandato. Su Plan ₿ Network, troverete diversi tutorial sulle migliori soluzioni esistenti, come Bitwarden :
+Per una gestione sicura delle password su base quotidiana, l'uso di un password manager è altamente raccomandato. Su Plan ₿ Academy, troverete diversi tutorial sulle migliori soluzioni esistenti, come Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Vi verrà quindi chiesto di verificare la vostra identità (KYC). In conformità alla normativa francese, vi verrà chiesto di fornire i vostri dati personali e un documento di identità. Compilate le caselle con il vostro cognome, nome e data di nascita.
 
@@ -110,7 +110,7 @@ Come accennato nell'introduzione, Bitstack offre 3 metodi per investire in Bitco
 - Configurazione acquisti ricorrenti (RPC) ;
 - L'uso dell'arrotondamento automatico delle spese.
 
-### Acquisto in contanti
+### Effettuare un acquisto occasionale
 
 Per effettuare un acquisto una tantum di bitcoin al prezzo di mercato, è sufficiente cliccare su "*Acquista*".
 
@@ -126,7 +126,7 @@ La transazione è ora confermata.
 
 ### Impostazione di un DCA
 
-Il Dollar Cost Averaging* (DCA) è una strategia di investimento interessante per accumulare bitcoin riducendo i rischi associati alla sua volatilità. Acquistando regolarmente una quantità fissa, a prescindere dal prezzo, è possibile ammortizzare il costo di acquisizione ed evitare decisioni impulsive. La DCA aiuta a ridurre i pregiudizi comportamentali, come la paura di perdere un'opportunità o il panico in caso di calo dei prezzi, e consente quindi di gestire i propri risparmi in bitcoin in modo sereno e disciplinato.
+Il **Dollar Cost Averaging** (DCA) è una strategia di investimento interessante per accumulare bitcoin riducendo i rischi associati alla sua volatilità. Acquistando regolarmente una quantità fissa, a prescindere dal prezzo, è possibile ammortizzare il costo di acquisizione ed evitare decisioni impulsive. La DCA aiuta a ridurre i pregiudizi comportamentali, come la paura di perdere un'opportunità o il panico in caso di calo dei prezzi, e consente quindi di gestire i propri risparmi in bitcoin in modo sereno e disciplinato.
 
 Per impostare un acquisto ricorrente (DCA) su Bitstack, andate nella sezione "*Risparmio*" della home page e selezionate "*Ricorrenti*". Quindi premere "*Continua*".
 
@@ -184,7 +184,7 @@ Determinare la priorità della transazione. Per un prelievo senza commissioni, s
 
 ![Image](assets/fr/32.webp)
 
-Se non avete familiarità con il funzionamento di un portafoglio di autocustodia, offriamo tutorial sulla maggior parte delle soluzioni disponibili [sulla Rete Plan ₿ nella sezione "*Portafoglio*"](https://planb.network/tutorials/wallet).
+Se non avete familiarità con il funzionamento di un portafoglio di autocustodia, offriamo tutorial sulla maggior parte delle soluzioni disponibili [sulla Rete Plan ₿ nella sezione "*Portafoglio*"](https://planb.academy/tutorials/wallet).
 
 ## Vendere bitcoin
 

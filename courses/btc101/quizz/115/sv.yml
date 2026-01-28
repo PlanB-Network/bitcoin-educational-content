@@ -1,11 +1,9 @@
-question: Vem var den första personen som anslöt sig till Bitcoin-nätverket efter Satoshi Nakamoto?
-answer: Hal Finney.
+question: Hur stor har online-tillgängligheten för Bitcoin varit sedan 2009?
+answer: 99.988%.
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Hal Finney var den första personen att gå med i Bitcoin-nätverket
-  efter Satoshi Nakamoto själv. Han twittrade till och med Running
-  Bitcoin för att markera tillfället.
+  Tillgängligheten online för Bitcoin är 99,988% sedan 2009.
 reviewed: true

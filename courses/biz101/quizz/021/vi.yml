@@ -1,9 +1,9 @@
-question: Why might a company consider holding Bitcoin over traditional "safe" assets like real estate?
-answer: Bitcoin can potentially outpace real inflation and is not tied to the illiquidity and maintenance costs of real estate.
+question: Tại sao một công ty lại cân nhắc nắm giữ Bitcoin thay vì các tài sản "an toàn" truyền thống như bất động sản?
+answer: Bitcoin có khả năng vượt xa lạm phát thực tế và không liên quan đến tính thanh khoản thấp và chi phí bảo trì bất động sản.
 wrong_answers:
-  - Real estate is always cheaper than Bitcoin and never needs maintenance.
-  - Bitcoin provides government-backed guarantees that real estate does not.
-  - Real estate appreciates faster than Bitcoin under all market conditions.
+  - Bất động sản luôn rẻ hơn Bitcoin và không bao giờ cần bảo trì.
+  - Bitcoin cung cấp sự bảo lãnh do chính phủ bảo lãnh mà bất động sản không có.
+  - Giá bất động sản tăng nhanh hơn Bitcoin trong mọi điều kiện thị trường.
 explanation: |
-  Real estate often involves liquidity constraints and ongoing costs, and may not keep pace with the hidden inflation in a debt-based monetary system. Bitcoin’s scarcity and global reach offer a distinct store-of-value proposition that may outperform traditional assets in the long run.
-reviewed: false
+  Bất động sản thường liên quan đến những hạn chế về thanh khoản và chi phí liên tục, và có thể không theo kịp lạm phát tiềm ẩn trong hệ thống tiền tệ dựa trên nợ. Sự khan hiếm và phạm vi toàn cầu của Bitcoin mang lại một đề xuất lưu trữ giá trị riêng biệt, có thể vượt trội hơn các tài sản truyền thống về lâu dài.
+reviewed: true

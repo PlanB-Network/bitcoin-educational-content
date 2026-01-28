@@ -1,0 +1,9 @@
+question: ชื่อเว็บไซต์ที่มีส่วนสำคัญในการทำให้ Bitcoin เป็นที่รู้จักในเดือนกรกฎาคม 2010 คืออะไร?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  เมื่อวันที่ 11 กรกฎาคม 2010 Teppy ได้เผยแพร่การนำเสนอเกี่ยวกับ Bitcoin บนเว็บไซต์ยอดนิยมนี้ ซึ่งนำไปสู่การหลั่งไหลเข้ามาของผู้ใช้จำนวนมาก
+reviewed: true

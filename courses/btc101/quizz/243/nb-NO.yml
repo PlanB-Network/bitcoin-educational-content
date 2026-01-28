@@ -1,12 +1,8 @@
-question: Hva er en av de potensielle forretningsmulighetene som følger av Lightning Network?
-answer: Nye økonomiske modeller der forbrukere betaler for innhold basert på hva de forbruker
+question: Hva er en av de største bekymringene om banksystemet?
+answer: Reglene for banksystemet er ikke gjennomsiktige og forståelige for alle.
 wrong_answers:
-  - Nye kryptovalutaer
-  - Nye blokkjedeteknologier
-  - Nye betalingsmetoder
+  - Banksystemet er for lett å forstå.
+  - Banksystemet er for gjennomsiktig.
+  - Banksystemet er for desentralisert.
 explanation: >-
-  Lightning Network åpner opp for en rekke spennende bruksområder for
-  Bitcoin-brukere. De resulterende økonomiske modellene og forretningsmulighetene er mange
-  og varierte, inkludert nye økonomiske modeller der forbrukere betaler for innhold basert
-  på hva de forbruker.
-reviewed: false
+  Teksten nevner at spørsmålet om hvem som skal kontrollere banksystemet er avgjørende fordi reglene for banksystemet ikke er gjennomsiktige og forståelige for alle.

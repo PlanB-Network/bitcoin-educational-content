@@ -1,5 +1,5 @@
 ---
-name: Голубой Wallet
+name: Blue Wallet
 
 description: Bitcoin Радикально простой и мощный портфель
 ---
@@ -11,11 +11,10 @@ description: Bitcoin Радикально простой и мощный пор�
 
 
 
-В этом уроке мы рассмотрим Blue Wallet, простую, но очень эффективную Bitcoin Wallet, которая позволяет управлять биткоинами лично, а также создавать управляющие кооперативы на основе [Multisig](https://planb.network/resources/glossary/multisig) (не волнуйтесь, мы к ней еще вернемся).
+В этом уроке мы рассмотрим Blue Wallet, простую, но очень эффективную Bitcoin Wallet, которая позволяет управлять биткоинами лично, а также создавать управляющие кооперативы на основе [Multisig](https://planb.academy/resources/glossary/multisig) (не волнуйтесь, мы к ней еще вернемся).
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Blue Wallet - это самодостаточный Bitcoin Wallet с откры
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 С помощью Blue Wallet вы можете создавать отдельные, специализированные портфели Bitcoin. Например, вы можете иметь один Wallet для сбережений, а другой - для ежедневных расходов, и все это в одном приложении.
 
@@ -65,10 +64,10 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Blue Wallet's Bitcoin Wallet представляет собой стандартный Wallet в экосистеме Bitcoin. Вы можете тратить биткоины до тех пор, пока у вас есть слова восстановления, которые обеспечат действительную подпись в сети, подтверждающую, что вы являетесь владельцем биткоинов.
 
@@ -122,7 +121,7 @@ Blue Wallet позволяет настраивать параметры гру�
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -152,7 +151,7 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-- Завышенные комиссии**: Вы совершили транзакцию, которая долго не подтверждается? Включив функцию раздувания комиссии, вы можете добавить дополнительные сборы за транзакцию к ожидающей операции, чтобы ускорить ее подтверждение.
+- **Завышенные комиссии**: Вы совершили транзакцию, которая долго не подтверждается? Включив функцию раздувания комиссии, вы можете добавить дополнительные сборы за транзакцию к ожидающей операции, чтобы ускорить ее подтверждение.
 
 
 
@@ -220,7 +219,7 @@ Multisig (мультиподпись) Wallet представляет собой
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) или Pay to Witness Script Hash** - это метод блокировки, который фиксирует исходящие биткоины (Outputs) вашей транзакции на Hash пользовательского скрипта, который устанавливает Blue Wallet. Основное преимущество этого типа блокировки заключается в том, что он уменьшает размер данных транзакции и неявно позволяет вам платить меньшие комиссии за транзакции.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) или Pay to Witness Script Hash** - это метод блокировки, который фиксирует исходящие биткоины (Outputs) вашей транзакции на Hash пользовательского скрипта, который устанавливает Blue Wallet. Основное преимущество этого типа блокировки заключается в том, что он уменьшает размер данных транзакции и неявно позволяет вам платить меньшие комиссии за транзакции.
 
 
 
@@ -248,7 +247,7 @@ Multisig (мультиподпись) Wallet представляет собой
 
 
 
-- Отправить биткойны** :
+- **Отправить биткойны**:
 
 
 
@@ -264,7 +263,7 @@ Multisig (мультиподпись) Wallet представляет собой
 
 
 
-Второй подписант Wallet, если он также является пользователем, может подписать транзакцию, даже если он находится вне Интернета (без Wi-Fi, без мобильных данных), отсканировав QR-код только что созданной [частично подписанной транзакции](https://planb.network/resources/glossary/psbt).
+Второй подписант Wallet, если он также является пользователем, может подписать транзакцию, даже если он находится вне Интернета (без Wi-Fi, без мобильных данных), отсканировав QR-код только что созданной [частично подписанной транзакции](https://planb.academy/resources/glossary/psbt).
 
 
 
@@ -274,7 +273,7 @@ Multisig (мультиподпись) Wallet представляет собой
 
 
 
-- Идите дальше с портфелем Multi signature**:
+- Идите дальше с портфелем **Multi signature**:
 
 
 
@@ -330,12 +329,12 @@ Lightning Network больше не поддерживается в прилож
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Теперь вы завершили экскурсию по Blue Wallet и готовы использовать Bitcoin во всей его простоте и мощи. Мы рекомендуем вам сделать следующий шаг и узнать, как вы можете принимать платежи Bitcoin в своих магазинах благодаря силе Lightning.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

@@ -1,0 +1,9 @@
+question: Vilken mekanism kan användas för att ladda en ögonblicksbild av UTXO-uppsättningen för att göra en nod snabbt användbar?
+answer: antautxo
+wrong_answers:
+  - anta kedjestat
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo laddar en ögonblicksbild av UTXO-uppsättningen för att få igång noden snabbt, medan den fullständiga UTXO-uppsättningen byggs upp på nytt i bakgrunden.
+reviewed: true

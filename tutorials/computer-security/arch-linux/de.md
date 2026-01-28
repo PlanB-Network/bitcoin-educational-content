@@ -17,10 +17,10 @@ Arch Linux ist eine Distribution, die für ihre Robustheit, Leistung und Anpassu
 
 
 
-- Frei und quelloffen**: Wie die meisten Linux-Distributionen ist auch Arch Linux völlig kostenlos. Es fallen keine Lizenzgebühren an, was es zu einer hervorragenden Wahl für Studenten, Freiberufler oder Enthusiasten macht.
-- KISS**-Philosophie: Arch ist so konzipiert, dass es einfach, leicht und effizient ist. Es bietet nur das Wesentliche und ermöglicht es Ihnen, Ihre Umgebung à la carte zu gestalten.
-- Pacman** Paketmanager: Pacman ist ein schneller, zuverlässiger und gut durchdachter Paketmanager. Er ermöglicht eine effiziente Installation und Aktualisierung von Software und verwaltet Abhängigkeiten mit Präzision.
-- Umfassende Dokumentation und eine aktive Gemeinschaft**: Das [Arch Wiki] (https://wiki.archlinux.org) ist wahrscheinlich eine der besten technischen Dokumentationen in der Linux-Welt. Es ist eine Goldmine, um zu verstehen, was Sie tun. Die Gemeinschaft, die hauptsächlich aus erfahrenen Profilen besteht, ist sehr aktiv und kann Ihnen helfen, wenn Sie nicht weiterkommen, vorausgesetzt, Sie haben vorher ein wenig recherchiert.
+- **Frei und quelloffen**: Wie die meisten Linux-Distributionen ist auch Arch Linux völlig kostenlos. Es fallen keine Lizenzgebühren an, was es zu einer hervorragenden Wahl für Studenten, Freiberufler oder Enthusiasten macht.
+- **KISS-Philosophie**: Arch ist so konzipiert, dass es einfach, leicht und effizient ist. Es bietet nur das Wesentliche und ermöglicht es Ihnen, Ihre Umgebung à la carte zu gestalten.
+- **Pacman** Paketmanager: Pacman ist ein schneller, zuverlässiger und gut durchdachter Paketmanager. Er ermöglicht eine effiziente Installation und Aktualisierung von Software und verwaltet Abhängigkeiten mit Präzision.
+- **Umfassende Dokumentation und eine aktive Gemeinschaft**: Das [Arch Wiki](https://wiki.archlinux.org) ist wahrscheinlich eine der besten technischen Dokumentationen in der Linux-Welt. Es ist eine Goldmine, um zu verstehen, was Sie tun. Die Gemeinschaft, die hauptsächlich aus erfahrenen Profilen besteht, ist sehr aktiv und kann Ihnen helfen, wenn Sie nicht weiterkommen, vorausgesetzt, Sie haben vorher ein wenig recherchiert.
 
 
 
@@ -39,7 +39,7 @@ Erforderliche Materialien:
 
 
 - Ein USB-Stick mit mindestens **8 GB**
-- mindestens 2 GB** RAM
+- mindestens 2 GB RAM
 - Ein Computer mit mindestens 20 GB freiem Speicherplatz
 
 
@@ -261,24 +261,26 @@ Wählen Sie **GPT**, wenn Sie sich in UEFI befinden, **DOS**, wenn Sie sich in B
 
 
 
-- Im UEFI**-Modus
+- Im **UEFI**-Modus
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Einhängepunkt auf dem installierten System | Partition                 | Partitionstyp       | Empfohlene Größe |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI-Systempartition   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Swap-Speicher (swap) | Mindestens 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 Root (/) | Rest der Festplatte |
 
 - Im BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Einhängepunkt auf dem installierten System | Partition           | Partitionstyp       | Empfohlene Größe |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Swap-Speicher (swap) | Mindestens 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Rest der Festplatte |
 
 ![0_10](assets/fr/10.webp)
 
@@ -294,7 +296,7 @@ Wählen Sie **Schreiben**, geben Sie **Ja** und dann **Beenden** ein.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +311,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 
@@ -778,6 +780,6 @@ Wenn Ihnen der Einstieg in Arch Linux gefallen hat, wird Ihnen unser Tutorial ü
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -1,8 +1,12 @@
-question: Koja zemlja je proglasila Bitkoin kao zakonsko sredstvo plaćanja?
-answer: El Salvador.
+question: U kojim oblastima Bitkoin postavlja pitanja?
+answer: Kriptografija, teorija igara, ekonomija i monetarna politika, računarstvo, filozofija, energija, zakoni i regulativa.
 wrong_answers:
-  - Sjedinjene Američke Države.
-  - Kina.
-  - Indija.
-explanation: >-
+  - Samo računarstvo i ekonomija
+  - Samo kriptografija i teorija igara.
+  - Samo filozofija i energija.
+explanation: |
+  Bitkoin je multidisciplinarna tema koja postavlja
+  pitanja vezana za različite oblasti, uključujući
+  kriptografiju, teoriju igara, ekonomiju i monetarnu politiku,
+  računarske nauke, filozofiju, energiju, zakone i regulative.
 reviewed: true

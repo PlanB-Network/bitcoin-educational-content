@@ -1,0 +1,8 @@
+question: Que propriedade matemática torna computacionalmente inviável a inversão da operação k-P numa curva elíptica?
+answer: O problema do logaritmo discreto
+wrong_answers:
+  - A aritmética modular de campo finito
+  - A propriedade do ponto no infinito
+  - A equação da curva y² = x³ + 7
+explanation: |
+  O problema do logaritmo discreto é a base matemática que torna a criptografia da curva elíptica segura. Enquanto calcular k-P (multiplicação por escalar) é computacionalmente fácil, encontrar k quando se dá P e k-P é extremamente difícil - isto é conhecido como o problema do logaritmo discreto da curva elíptica. As outras opções são componentes matemáticos importantes, mas não constituem a barreira de segurança: a aritmética de campo finito permite as operações, o ponto no infinito serve como elemento de identidade e a equação da curva define a estrutura, mas nenhuma delas cria a inviabilidade computacional que protege a segurança criptográfica do Bitcoin.

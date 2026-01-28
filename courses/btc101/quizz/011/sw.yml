@@ -1,0 +1,13 @@
+question: Aina za kwanza za sarafu zilikuwa zipi?
+answer: Bidhaa kama vile nafaka na mifugo.
+wrong_answers:
+  - Dhahabu na fedha.
+  - Vidokezo vya karatasi.
+  - Mali ya dijiti.
+explanation: |
+  Aina za kwanza za sarafu mara nyingi zilihusishwa na muhimu
+  bidhaa kama vile nafaka, mifugo na bidhaa nyinginezo.
+  Walakini, bidhaa hizi zilikuwa na mapungufu makubwa, kama vile
+  kuharibika, na kufanya kuwa vigumu kuzitumia kama a
+  njia ya akiba ya muda mrefu.
+reviewed: true

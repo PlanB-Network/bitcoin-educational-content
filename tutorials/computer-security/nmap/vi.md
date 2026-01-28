@@ -1,5 +1,5 @@
 ---
-name: Bản đồ Nmap
+name: Nmap
 description: Master Nmap để lập bản đồ mạng và quét lỗ hổng
 ---
 
@@ -61,9 +61,9 @@ Nmap có nhiều điểm mạnh:
 
 
 
-- Mạnh mẽ và linh hoạt**: Nmap có thể quét các mạng lớn và sử dụng các kỹ thuật phát hiện tiên tiến. Nó hỗ trợ UDP, TCP, ICMP, IPv4 và IPv6, đồng thời có thể thực hiện phát hiện phiên bản, quét lỗ hổng hoặc tương tác theo giao thức cụ thể. Kiến trúc của nó được thiết kế theo dạng mô-đun, đặc biệt là nhờ các tập lệnh NSE (Nmap Scripting Engine), mà chúng ta sẽ tìm hiểu sau trong hướng dẫn này.
-- Dễ sử dụng**: tài liệu chính thức rất phong phú và chất lượng cao. Ngoài ra còn có nhiều tài nguyên cộng đồng để giúp bạn bắt đầu.
-- Độ phổ biến và tuổi thọ**: Nmap đã là một công cụ tham khảo trong lĩnh vực này kể từ năm 1998. Phiên bản hiện tại, tại thời điểm cập nhật này, là 7.95. Mặc dù có nhiều công cụ khác cho các tác vụ cụ thể, Nmap vẫn là công cụ không thể thiếu cho việc lập bản đồ và phân tích mạng.
+- **Mạnh mẽ và linh hoạt**: Nmap có thể quét các mạng lớn và sử dụng các kỹ thuật phát hiện tiên tiến. Nó hỗ trợ UDP, TCP, ICMP, IPv4 và IPv6, đồng thời có thể thực hiện phát hiện phiên bản, quét lỗ hổng hoặc tương tác theo giao thức cụ thể. Kiến trúc của nó được thiết kế theo dạng mô-đun, đặc biệt là nhờ các tập lệnh NSE (Nmap Scripting Engine), mà chúng ta sẽ tìm hiểu sau trong hướng dẫn này.
+- **Dễ sử dụng**: tài liệu chính thức rất phong phú và chất lượng cao. Ngoài ra còn có nhiều tài nguyên cộng đồng để giúp bạn bắt đầu.
+- **Độ phổ biến và tuổi thọ**: Nmap đã là một công cụ tham khảo trong lĩnh vực này kể từ năm 1998. Phiên bản hiện tại, tại thời điểm cập nhật này, là 7.95. Mặc dù có nhiều công cụ khác cho các tác vụ cụ thể, Nmap vẫn là công cụ không thể thiếu cho việc lập bản đồ và phân tích mạng.
 
 
 
@@ -87,7 +87,7 @@ ma trận: Cảnh được tải lại có Nmap
 
 
 
-**Nhận xét
+**Nhận xét**
 
 
 
@@ -433,7 +433,7 @@ cài đặt thư viện "Npcap" khi cài đặt Nmap trên Windows
 
 
 
-Tương tự như Linux, bạn có thể xác thực Nmap đã được cài đặt bằng cách mở Dấu nhắc lệnh hoặc thiết bị đầu cuối [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") và nhập lệnh sau:
+Tương tự như Linux, bạn có thể xác thực Nmap đã được cài đặt bằng cách mở Dấu nhắc lệnh hoặc thiết bị đầu cuối [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") và nhập lệnh sau:
 
 
 
@@ -485,25 +485,25 @@ Dù trên Linux hay Windows, có nhiều trường hợp Nmap sẽ yêu cầu b�
 
 
 
-- Xây dựng các gói tin mạng "thô"**: Nmap có khả năng thực hiện nhiều phương pháp quét, bao gồm cả việc xử lý và xây dựng gói tin nâng cao. Ví dụ, trường hợp này xảy ra khi chúng ta muốn thực hiện quét TCP SYN, vốn không tuân thủ cơ chế bắt tay ba bước cổ điển của các trao đổi TCP. Để làm được điều này, Nmap cần sử dụng các hàm khác ngoài các hàm gốc của hệ điều hành, vốn chỉ biết cách tuân thủ các thông lệ tốt trong giao tiếp mạng (nó gọi đến các thư viện "Npcap" và "libcap" đã đề cập ở trên). Chính vì Nmap không hoạt động theo cách "chuẩn" nên nó có thể suy ra một số thông tin nhất định về hệ điều hành, dịch vụ và một số lỗ hổng bảo mật.
+- **Xây dựng các gói tin mạng "thô"**: Nmap có khả năng thực hiện nhiều phương pháp quét, bao gồm cả việc xử lý và xây dựng gói tin nâng cao. Ví dụ, trường hợp này xảy ra khi chúng ta muốn thực hiện quét TCP SYN, vốn không tuân thủ cơ chế bắt tay ba bước cổ điển của các trao đổi TCP. Để làm được điều này, Nmap cần sử dụng các hàm khác ngoài các hàm gốc của hệ điều hành, vốn chỉ biết cách tuân thủ các thông lệ tốt trong giao tiếp mạng (nó gọi đến các thư viện "Npcap" và "libcap" đã đề cập ở trên). Chính vì Nmap không hoạt động theo cách "chuẩn" nên nó có thể suy ra một số thông tin nhất định về hệ
 
 
 
 
 
-- Nghe lưu lượng mạng**: một số tùy chọn của Nmap yêu cầu nó phải nghe lưu lượng mạng để thu thập thông tin nhất định. Thao tác này được coi là nhạy cảm trên các hệ điều hành, vì nó cũng cho phép bạn nghe lén các giao tiếp của các ứng dụng khác trên hệ thống. Cũng giống như Wireshark, Nmap cần các đặc quyền cụ thể để thực hiện việc này, và việc này dễ dàng hơn khi bạn đang ở trong một phiên làm việc đặc quyền.
+- **Nghe lưu lượng mạng**: một số tùy chọn của Nmap yêu cầu nó phải nghe lưu lượng mạng để thu thập thông tin nhất định. Thao tác này được coi là nhạy cảm trên các hệ điều hành, vì nó cũng cho phép bạn nghe lén các giao tiếp của các ứng dụng khác trên hệ thống. Cũng giống như Wireshark, Nmap cần các đặc quyền cụ thể để thực hiện việc này, và việc này dễ dàng hơn khi bạn đang ở trong một phiên làm việc đặc quyền.
 
 
 
 
 
-- Nghe trên các cổng đặc quyền**: trên các hệ điều hành, các cổng từ 0 đến 1024 (cả TCP và UDP) được coi là đặc quyền, tức là chúng được dành riêng cho các mục đích sử dụng rất cụ thể và do đó được bảo vệ. Mặc dù lý do này đã lỗi thời ngày nay, nhưng vẫn cần có một số đặc quyền nhất định để nghe trên các cổng này, và Nmap có thể phải làm điều này tùy thuộc vào cách sử dụng.
+- **Nghe trên các cổng đặc quyền**: trên các hệ điều hành, các cổng từ 0 đến 1024 (cả TCP và UDP) được coi là đặc quyền, tức là chúng được dành riêng cho các mục đích sử dụng rất cụ thể và do đó được bảo vệ. Mặc dù lý do này đã lỗi thời ngày nay, nhưng vẫn cần có một số đặc quyền nhất định để nghe trên các cổng này, và Nmap có thể phải làm điều này tùy thuộc vào cách sử dụng.
 
 
 
 
 
-- Gửi gói tin UDP:** Tương tự, việc lắng nghe một ứng dụng mạng trên các cổng UDP (một giao thức không trạng thái) yêu cầu quyền đặc quyền trên hệ điều hành. Do đó, cần có một phiên đặc quyền nếu bạn muốn thực hiện quét UDP, trong đó Nmap sẽ phải lắng nghe phản hồi để phân tích các phản hồi cho các lần quét của nó.
+- Gửi gói tin UDP: Tương tự, việc lắng nghe một ứng dụng mạng trên các cổng UDP (một giao thức không trạng thái) yêu cầu quyền đặc quyền trên hệ điều hành. Do đó, cần có một phiên đặc quyền nếu bạn muốn thực hiện quét UDP, trong đó Nmap sẽ phải lắng nghe phản hồi để phân tích các phản hồi cho các lần quét của nó.
 
 
 
@@ -562,13 +562,13 @@ Từ bây giờ, hãy nhớ chỉ quét các máy chủ trong môi trường đ�
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Nền tảng đào tạo hack, Hack The Box liên tục cung cấp các hệ thống dễ bị tấn công để bạn tùy ý tấn công. Có hàng trăm hệ thống, nhưng một nhóm 20 máy mới được cung cấp miễn phí quanh năm, với quyền truy cập thông qua VPN OpenVPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Nền tảng đào tạo hack, Hack The Box liên tục cung cấp các hệ thống dễ bị tấn công để bạn tùy ý tấn công. Có hàng trăm hệ thống, nhưng một nhóm 20 máy mới được cung cấp miễn phí quanh năm, với quyền truy cập thông qua VPN OpenVPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Nền tảng này cung cấp nhiều hệ thống dễ bị tấn công để tải xuống, có thể sử dụng thông qua VirtualBox (cũng là một giải pháp miễn phí) hoặc các phương tiện khác. Sau khi tải xuống, không cần VPN - mọi thứ đều được thực hiện cục bộ.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Nền tảng này cung cấp nhiều hệ thống dễ bị tấn công để tải xuống, có thể sử dụng thông qua VirtualBox (cũng là một giải pháp miễn phí) hoặc các phương tiện khác. Sau khi tải xuống, không cần VPN - mọi thứ đều được thực hiện cục bộ.
 
 
 
@@ -815,7 +815,7 @@ phản hồi cho gói tin TCP SYN được gửi trên cổng 22, đang hoạt �
 
 
 
-Trong ảnh chụp màn hình ở trên, chúng ta thấy một gói tin TCP SYN/ACK được gửi bởi máy chủ đích**. Cổng đang hoạt động và hiển thị một dịch vụ. Nmap xác nhận đã nhận được phản hồi, sau đó chấm dứt kết nối (TCP RST/ACK). **Đây là cách nó biết rằng cổng TCP/22 đang hoạt động**.
+Trong ảnh chụp màn hình ở trên, chúng ta thấy một gói tin TCP SYN/ACK được gửi bởi máy chủ đích. Cổng đang hoạt động và hiển thị một dịch vụ. Nmap xác nhận đã nhận được phản hồi, sau đó chấm dứt kết nối (TCP RST/ACK). **Đây là cách nó biết rằng cổng TCP/22 đang hoạt động**.
 
 
 
@@ -976,7 +976,7 @@ Như chúng ta đã thấy, Nmap tự động chọn số lượng và cổng đ
 
 
 
-**Những cổng này được chọn như thế nào?
+**Những cổng này được chọn như thế nào?**
 
 
 
@@ -1060,7 +1060,7 @@ Bất kể thứ tự nào, Nmap sẽ kiểm tra tất cả các cổng này, v�
 
 
 
-**Quét một loạt các cổng
+**Quét một loạt các cổng**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Quét cổng TCP và UDP
+**Quét cổng TCP và UDP**
 
 
 
@@ -1134,7 +1134,7 @@ Trong ví dụ cuối cùng này, bạn sẽ thấy sự hiện diện của "U:
 
 
 
-**Quét tất cả các cổng
+**Quét tất cả các cổng**
 
 
 
@@ -1347,7 +1347,7 @@ Nhưng còn hơn thế nữa. Bạn có thể thấy trong ảnh chụp Wireshar
 
 
 
-**Tại sao lại gửi các gói tin TCP đến các cổng như một phần của quá trình khám phá mạng?
+**Tại sao lại gửi các gói tin TCP đến các cổng như một phần của quá trình khám phá mạng?**
 
 
 
@@ -2165,31 +2165,31 @@ Cần nói rõ: Nmap không có khả năng thực hiện kiểm tra xâm nhập
 
 
 
-- Phạm vi bao phủ hạn chế**: Mặc dù các tập lệnh NSE của Nmap rất mạnh mẽ, phạm vi kiểm tra của chúng có thể bị hạn chế so với các công cụ phát hiện lỗ hổng chuyên dụng khác. Một số lỗ hổng có thể không được các tập lệnh NSE hiện có bao phủ, chẳng hạn như lỗ hổng Active Directory, rò rỉ dữ liệu nhạy cảm hoặc các trường hợp ứng dụng web dễ bị tấn công phức tạp hơn.
+- **Phạm vi bao phủ hạn chế**: Mặc dù các tập lệnh NSE của Nmap rất mạnh mẽ, phạm vi kiểm tra của chúng có thể bị hạn chế so với các công cụ phát hiện lỗ hổng chuyên dụng khác. Một số lỗ hổng có thể không được các tập lệnh NSE hiện có bao phủ, chẳng hạn như lỗ hổng Active Directory, rò rỉ dữ liệu nhạy cảm hoặc các trường hợp ứng dụng web dễ bị tấn công phức tạp hơn.
 
 
 
 
 
-- Độ phức tạp của lỗ hổng**: một số loại lỗ hổng có thể khó phát hiện bằng các tập lệnh NSE do tính phức tạp của chúng. Ví dụ, các lỗ hổng đòi hỏi tương tác phức tạp với dịch vụ từ xa có thể không được Nmap phát hiện hiệu quả (như trong trường hợp cấp quá nhiều quyền trong chia sẻ tệp hoặc lỗi kiểm soát quyền trong ứng dụng web).
+- **Độ phức tạp của lỗ hổng**: một số loại lỗ hổng có thể khó phát hiện bằng các tập lệnh NSE do tính phức tạp của chúng. Ví dụ, các lỗ hổng đòi hỏi tương tác phức tạp với dịch vụ từ xa có thể không được Nmap phát hiện hiệu quả (như trong trường hợp cấp quá nhiều quyền trong chia sẻ tệp hoặc lỗi kiểm soát quyền trong ứng dụng web).
 
 
 
 
 
-- Phát hiện thụ động**: Nmap chủ yếu tập trung vào quét chủ động để phát hiện lỗ hổng, nghĩa là nó có thể không phát hiện hiệu quả các lỗ hổng tiềm ẩn nếu không thiết lập kết nối chủ động với máy chủ mục tiêu. Do đó, các lỗ hổng không tự biểu hiện trong quá trình quét chủ động có thể bị bỏ sót (như trường hợp chèn mã độc vào ứng dụng web).
+- **Phát hiện thụ động**: Nmap chủ yếu tập trung vào quét chủ động để phát hiện lỗ hổng, nghĩa là nó có thể không phát hiện hiệu quả các lỗ hổng tiềm ẩn nếu không thiết lập kết nối chủ động với máy chủ mục tiêu. Do đó, các lỗ hổng không tự biểu hiện trong quá trình quét chủ động có thể bị bỏ sót (như trường hợp chèn mã độc vào ứng dụng web).
 
 
 
 
 
-- Phụ thuộc vào các bản cập nhật**: [Cơ sở dữ liệu](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) của Nmap về các tập lệnh NSE liên tục được cập nhật, nhưng có thể có độ trễ giữa thời điểm phát hiện ra lỗ hổng mới và thời điểm thêm tập lệnh tương ứng vào Nmap. Do đó, Nmap có thể không phải lúc nào cũng được cập nhật với các lỗ hổng mới nhất.
+- **Phụ thuộc vào các bản cập nhật**: [Cơ sở dữ liệu](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) của Nmap về các tập lệnh NSE liên tục được cập nhật, nhưng có thể có độ trễ giữa thời điểm phát hiện ra lỗ hổng mới và thời điểm thêm tập lệnh tương ứng vào Nmap. Do đó, Nmap có thể không phải lúc nào cũng được cập nhật với các lỗ hổng mới nhất.
 
 
 
 
 
-- Kết quả dương tính giả và kết quả âm tính giả**: Giống như bất kỳ công cụ bảo mật nào, các tập lệnh NSE của Nmap có thể tạo ra kết quả dương tính giả (cảnh báo lỗ hổng bảo mật giả) hoặc kết quả âm tính giả (lỗ hổng thực sự không được phát hiện). Đây là điều cần lưu ý khi phân tích kết quả Nmap.
+- **Kết quả dương tính giả và kết quả âm tính giả**: Giống như bất kỳ công cụ bảo mật nào, các tập lệnh NSE của Nmap có thể tạo ra kết quả dương tính giả (cảnh báo lỗ hổng bảo mật giả) hoặc kết quả âm tính giả (lỗ hổng thực sự không được phát hiện). Đây là điều cần lưu ý khi phân tích kết quả Nmap.
 
 
 
@@ -2198,7 +2198,7 @@ Vì vậy, điều quan trọng là phải hiểu Nmap làm được gì và kh�
 
 
 
-Cho dù bạn là quản trị viên hệ thống mạng, kỹ sư bảo mật hay thậm chí là CISO, việc sử dụng Nmap sẽ cung cấp cho bạn cái nhìn tổng quan về tình trạng bảo mật của một hệ thống thông tin. Đây là bước đầu tiên quan trọng trong việc bảo mật hệ thống, có thể được đội ngũ CNTT thực hiện thường xuyên. Tuy nhiên, nó không thể thay thế sự can thiệp và tư vấn của các chuyên gia [an ninh mạng] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), những người có khả năng phát hiện điểm yếu toàn diện hơn nhiều so với Nmap.
+Cho dù bạn là quản trị viên hệ thống mạng, kỹ sư bảo mật hay thậm chí là CISO, việc sử dụng Nmap sẽ cung cấp cho bạn cái nhìn tổng quan về tình trạng bảo mật của một hệ thống thông tin. Đây là bước đầu tiên quan trọng trong việc bảo mật hệ thống, có thể được đội ngũ CNTT thực hiện thường xuyên. Tuy nhiên, nó không thể thay thế sự can thiệp và tư vấn của các chuyên gia [an ninh mạng](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), những người có khả năng phát hiện điểm yếu toàn diện hơn nhiều so với Nmap.
 
 
 
@@ -2238,23 +2238,24 @@ Các tập lệnh này được sắp xếp theo danh mục và một tập lệ
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| Danh mục | Mô tả |
+|----------------|-------------|
+| **auth** | Chứa các tập lệnh liên quan đến xác thực trên các dịch vụ, bao gồm truy cập ẩn danh hoặc liệt kê người dùng. Ví dụ: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast** | Chứa các tập lệnh liên quan đến các hoạt động quảng bá (broadcast) trên mạng, đặc biệt nhằm khai thác và khám phá một số dịch vụ, máy chủ hoặc giao thức dựa trên broadcast (IPv6, wake on lan, IGMP, v.v.). Ví dụ: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute** | Chứa các tập lệnh liên quan đến các hoạt động brute force xác thực trên các dịch vụ (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, v.v.). Ví dụ: `ssh-brute`, `vnc-brute`. |
+| **default** | Chứa các tập lệnh được sử dụng trong trường hợp mặc định (sử dụng `-sC`). Nhiều tiêu chí được sử dụng để xác thực việc đưa một tập lệnh vào danh mục này, bao gồm tốc độ thực thi, cấu trúc đầu ra, độ tin cậy của bài kiểm tra, tính chất “xâm nhập” hoặc “rủi ro”, v.v. |
+| **discovery** | Chứa các tập lệnh liên quan đến việc khám phá mạng và dịch vụ nâng cao. Tại đây, chúng ta tìm thấy ví dụ như liệt kê nội dung của một chia sẻ SMB, phiên bản của dịch vụ VNC, các truy vấn SNMP, v.v. Ví dụ: `mysql-info`, `http-security-headers`. |
+| **dos** | Chứa các tập lệnh có thể gây ra từ chối dịch vụ (denial of service). Đó có thể là các tập lệnh được tạo ra để khai thác lỗ hổng loại từ chối dịch vụ hoặc các tập lệnh có tác dụng phụ là từ chối dịch vụ. Vì vậy hãy thận trọng (chúng bị loại trừ khỏi danh mục `default`). Ví dụ: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit** | Chứa các tập lệnh được tạo ra để khai thác trực tiếp một lỗ hổng. Ví dụ: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external** | Chứa các tập lệnh yêu cầu sử dụng tài nguyên của bên thứ ba, chẳng hạn như cơ sở dữ liệu thông tin trực tuyến. Điều này đặc biệt cho thấy một nỗ lực kết nối ra bên ngoài (chú ý đến tính bảo mật). Ví dụ: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer** | Chứa các tập lệnh được thiết kế để gửi các khung hình, gói tin hoặc tham số không mong muốn bởi một dịch vụ. Điều này đặc biệt cho phép gây ra lỗi hoặc trục trặc để có được các manh mối về lỗ hổng hoặc thông tin kỹ thuật. Ví dụ: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive** | Chứa các tập lệnh được phân loại là “rủi ro” từ góc độ tính khả dụng hoặc phát hiện. Chúng có thể gây ra sự cố hệ thống hoặc bị phát hiện là độc hại bởi một giải pháp bảo mật. Đây là danh mục ngược lại với `safe`. Ví dụ: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware** | Chứa các tập lệnh được thiết kế để phát hiện sự hiện diện của các yếu tố đặc trưng của phần mềm độc hại, chẳng hạn như một cổng đang lắng nghe thường được sử dụng bởi một cửa sau (backdoor) đã biết. Ví dụ: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe** | Chứa các tập lệnh được coi là an toàn từ góc độ phát hiện hoặc ổn định. Đây là danh mục ngược lại với `intrusive` và phần lớn chứa các tập lệnh nâng cao để nhận dạng phiên bản hoặc thu thập các yếu tố cấu hình. Ví dụ: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version** | Chứa các tập lệnh cho phép phát hiện phiên bản nâng cao. Chúng có thể được sử dụng bổ sung cho các Probes và Matchs đã nghiên cứu trước đó khi việc phát hiện phiên bản yêu cầu các thao tác phức tạp hơn một chút. Ví dụ: `http-php-version`, `vmware-version`. |
+| **vuln** | Chứa các tập lệnh được thiết kế để phát hiện sự hiện diện của các lỗ hổng đã biết (CVE) mà không nhất thiết phải khai thác chúng (ngược lại với danh mục `exploit`). Chúng thường chỉ dừng lại ở việc báo cáo trạng thái “có lỗ hổng” hoặc không của một dịch vụ. Ví dụ: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 Về mặt kỹ thuật, các danh mục mà một tập lệnh thuộc về được chỉ ra trực tiếp trong mã của nó.
 
@@ -2973,7 +2974,7 @@ Khả năng lưu kết quả quét Nmap dưới dạng XML giúp dữ liệu tư
 
 
 
-Tôi sẽ đề cập đến một số công cụ tấn công mà không đi sâu vào chi tiết cách sử dụng hoặc cách thức hoạt động của chúng. Tôi giả định rằng người đọc đã quen thuộc với cách sử dụng cơ bản và đã vận hành thành thạo. Phần này sẽ đặc biệt hữu ích cho các chuyên gia [an ninh mạng] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), những người đang được đào tạo hoặc những người đã quyết định tìm hiểu sâu hơn về chủ đề này.
+Tôi sẽ đề cập đến một số công cụ tấn công mà không đi sâu vào chi tiết cách sử dụng hoặc cách thức hoạt động của chúng. Tôi giả định rằng người đọc đã quen thuộc với cách sử dụng cơ bản và đã vận hành thành thạo. Phần này sẽ đặc biệt hữu ích cho các chuyên gia [an ninh mạng](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), những người đang được đào tạo hoặc những người đã quyết định tìm hiểu sâu hơn về chủ đề này.
 
 
 
@@ -3062,7 +3063,7 @@ danh sách các dịch vụ được nhập từ tệp XML vào cơ sở dữ li
 
 
 
-Cuối cùng, chúng ta có thể nhanh chóng và dễ dàng tái sử dụng dữ liệu này trong một mô-đun nhờ tùy chọn `-R`, tùy chọn này sẽ "chuyển đổi" danh sách các dịch vụ thu được làm đầu vào cho chỉ thị `RHOSTS`, được sử dụng để chỉ định mục tiêu tấn công. Dưới đây là một ví dụ với mô-đun `ssh_login`, cho phép bạn thực hiện một cuộc tấn công brute force vào các dịch vụ [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Cuối cùng, chúng ta có thể nhanh chóng và dễ dàng tái sử dụng dữ liệu này trong một mô-đun nhờ tùy chọn `-R`, tùy chọn này sẽ "chuyển đổi" danh sách các dịch vụ thu được làm đầu vào cho chỉ thị `RHOSTS`, được sử dụng để chỉ định mục tiêu tấn công. Dưới đây là một ví dụ với mô-đun `ssh_login`, cho phép bạn thực hiện một cuộc tấn công brute force vào các dịch vụ [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 
@@ -3394,7 +3395,7 @@ Trước khi quét mạng hoặc hệ thống, hãy đảm bảo bạn đã đư
 
 
 
-Kết quả do Nmap tạo ra có thể được coi là nhạy cảm, đặc biệt khi chúng chứa thông tin về các điểm yếu trong hệ thống thông tin có thể bị kẻ tấn công khai thác. Tuy nhiên, kết quả cũng có thể bị coi là nhạy cảm khi liên quan đến các hệ thống không phải ai cũng có thể truy cập (ví dụ: hệ thống thông tin nhạy cảm, công nghiệp, y tế hoặc [dự phòng] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
+Kết quả do Nmap tạo ra có thể được coi là nhạy cảm, đặc biệt khi chúng chứa thông tin về các điểm yếu trong hệ thống thông tin có thể bị kẻ tấn công khai thác. Tuy nhiên, kết quả cũng có thể bị coi là nhạy cảm khi liên quan đến các hệ thống không phải ai cũng có thể truy cập (ví dụ: hệ thống thông tin nhạy cảm, công nghiệp, y tế hoặc [dự phòng](https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
 
 
 

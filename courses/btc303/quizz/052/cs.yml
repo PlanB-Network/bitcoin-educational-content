@@ -1,0 +1,9 @@
+question: Jaký základní předpoklad musí být podle axiomu odporu Erica Voskuila přijat, aby systém Bitcoin dával smysl?
+answer: Že je možné, aby systém odolal státní kontrole
+wrong_answers:
+  - Že většina síťové síly zůstane vždy poctivá
+  - Že kryptografické algoritmy nebudou nikdy prolomeny kvantovou výpočetní technikou
+  - Že uživatelé budou vždy upřednostňovat decentralizaci před pohodlím
+explanation: |
+  Axiom odporu předpokládá, že systémy mohou odolat státní kontrole, což je základem účelu Bitcoin jako peněz bez povolení. Bez tohoto předpokladu se celý předpoklad Bitcoin hroutí, protože by byl nevyhnutelně kontrolován státy. Ostatní možnosti, ačkoli jsou pro bezpečnost Bitcoin relevantní, nejsou součástí Voskuilova axiomu odolnosti, který se konkrétně zabývá filozofickým základem, že odolnost vůči státní kontrole je možná.
+reviewed: false

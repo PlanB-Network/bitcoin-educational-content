@@ -1,9 +1,13 @@
-question: Šta nije Mnemonic fraza u kontekstu Bitkoina?
-answer: Lozinka za vaš Bitkoin novčanik.
+question: Šta znači KYC?
+answer: Upoznaj Svog Kupca (Know your customer).
 wrong_answers:
-  - Spisak od 12 reči iz određenog rečnika.
-  - Lista od 24 reči iz određenog rečnika.
-  - Tajna za pristup vašem Bitkoin fondu.
+  - Zadrži svoj novac.
+  - Unesite Vaše Kodove.
+  - Ljubazno ustupite usklađenost.
 explanation: |
-  Fraza Mnemonic u kontekstu Bitkoina je lista od 12 ili 24 reči koja vam omogućava da povratite vaš novčanik na bilo kojoj Bitkoin aplikaciji za novčanike. Svako ko ima pristup ovoj listi takođe može pristupiti vašim bitkoinima.
+  KYC ili Upoznaj Svog Kupca odnosi se na proceduru koju
+  poslovni subjekti usvajaju kako bi verifikovali identitet svojih klijenata.
+  Ovo se obično radi kako bi se osigurala usklađenost sa
+  propisima i sprečile ilegalne aktivnosti kao što su pranje
+  novca ili prevara.
 reviewed: true

@@ -8,18 +8,18 @@ term: BIP
 BIP'ler üç ana kategoride sınıflandırılmaktadır:
 
 
-- Standart İzleme BIP'leri*: İşlem ve blok doğrulama kuralları gibi Bitcoin uygulamalarını doğrudan etkileyen değişikliklerle ilgilidir;
-- Bilgilendirici BIP'ler*: Protokolde doğrudan değişiklik önermeden bilgi veya tavsiyeler sağlar;
-- Süreç BIP'leri*: Yönetişim süreçleri gibi Bitcoin'ü çevreleyen prosedürlerdeki değişiklikleri tanımlayın.
+- **Standart İzleme BIP'leri**: İşlem ve blok doğrulama kuralları gibi Bitcoin uygulamalarını doğrudan etkileyen değişikliklerle ilgilidir;
+- **Bilgilendirici BIP'ler**: Protokolde doğrudan değişiklik önermeden bilgi veya tavsiyeler sağlar;
+- Süreç BIP'leri: Yönetişim süreçleri gibi Bitcoin'ü çevreleyen prosedürlerdeki değişiklikleri tanımlayın.
 
 
 Standart İzleme ve Bilgilendirici BIP'ler de "Layer" ile sınıflandırılır:
 
 
-- Konsensüs Layer*: Bu Layer'daki BIP'ler, blok veya işlem doğrulama kurallarında yapılan değişiklikler gibi Bitcoin'nın mutabakat kuralları ile ilgilidir. Bu teklifler Soft çatalları (geriye dönük uyumlu değişiklikler) veya Hard çatalları (geriye dönük uyumlu olmayan değişiklikler) olabilir. Örneğin, SegWit ve Taproot için BIP'ler bu kategoriye aittir;
-- Eş Hizmetler*: Bu Layer, Bitcoin düğüm ağının çalışmasıyla, yani düğümlerin İnternet üzerinde birbirlerini nasıl buldukları ve iletişim kurdukları ile ilgilidir.
-- API/RPC*: Bu Layer'in BIP'leri, Bitcoin yazılımının düğümlerle etkileşime girmesini sağlayan Uygulama Programlama Arayüzleri (API) ve Uzaktan Prosedür Çağrıları (RPC) ile ilgilidir;
-- Uygulamalar Layer*: Bu Layer, Bitcoin üzerine inşa edilen uygulamalarla ilgilidir. Bu kategorideki BIP'ler genellikle Bitcoin Wallet standartları seviyesindeki değişikliklerle ilgilenir.
+- **Konsensüs Layer**: Bu Layer'daki BIP'ler, blok veya işlem doğrulama kurallarında yapılan değişiklikler gibi Bitcoin'nın mutabakat kuralları ile ilgilidir. Bu teklifler Soft çatalları (geriye dönük uyumlu değişiklikler) veya Hard çatalları (geriye dönük uyumlu olmayan değişiklikler) olabilir. Örneğin, SegWit ve Taproot için BIP'ler bu kategoriye aittir;
+- **Eş Hizmetler**: Bu Layer, Bitcoin düğüm ağının çalışmasıyla, yani düğümlerin İnternet üzerinde birbirlerini nasıl buldukları ve iletişim kurdukları ile ilgilidir.
+- **API/RPC**: Bu Layer'in BIP'leri, Bitcoin yazılımının düğümlerle etkileşime girmesini sağlayan Uygulama Programlama Arayüzleri (API) ve Uzaktan Prosedür Çağrıları (RPC) ile ilgilidir;
+- **Uygulamalar Layer**: Bu Layer, Bitcoin üzerine inşa edilen uygulamalarla ilgilidir. Bu kategorideki BIP'ler genellikle Bitcoin Wallet standartları seviyesindeki değişikliklerle ilgilenir.
 
 
 Bir BIP gönderme süreci, fikrin kavramsallaştırılması ve *Bitcoin-dev* posta listesinde tartışılmasıyla başlar. Fikir umut vericiyse, yazar belirli bir formatı izleyerek bir BIP taslağı hazırlar ve Core GitHub deposuna bir Çekme İsteği yoluyla gönderir. Editörler, tüm kriterleri karşıladığını doğrulamak için bu öneriyi inceler. BIP teknik olarak uygulanabilir, protokol için faydalı, gerekli formata uygun ve Bitcoin'nin felsefesine uygun olmalıdır. BIP bu koşulları karşılıyorsa, resmi olarak BIP'lerin GitHub deposuna entegre edilir. Daha sonra bir numara atanır. Bu numara genellikle editör, genellikle Luke Dashjr, tarafından belirlenir ve mantıksal olarak atanır: Benzer konuları ele alan BIP'ler genellikle ardışık numaralar alır.

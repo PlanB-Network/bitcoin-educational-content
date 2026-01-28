@@ -1,0 +1,9 @@
+question: Mis juhtub, kui plokk rikub konsensusreegleid?
+answer: Sõlmed lükkavad selle kohe tagasi
+wrong_answers:
+  - See on salvestatud Mempool-s ja ootab kinnitamist
+  - Seda edastavad ainult need sõlmed, mis aktsepteerivad teisi reegleid
+  - Seda kinnitavad ainult rahakotid
+explanation: |
+  Sõlmed lükkavad süstemaatiliselt tagasi kõik plokid, mis ei vasta konsensusreeglitele.
+reviewed: true

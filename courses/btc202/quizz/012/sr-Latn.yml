@@ -1,0 +1,9 @@
+question: Koja faza je deo uloge maloletnika?
+answer: Izgradnja bloka kandidata iz Mempool
+wrong_answers:
+  - Potvrdite ceo Blockchain iz Mempool
+  - Kreiraj Bitcoin adrese za korisnike
+  - Čuvajte privatne ključeve za novčanike
+explanation: |
+  Miner bira transakcije iz Mempool i gradi kandidatski blok, koji pokušava da validira pomoću Proof of Work.
+reviewed: true

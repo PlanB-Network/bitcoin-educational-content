@@ -1,5 +1,5 @@
 ---
-name: Kecepatan Wallet
+name: Speed Wallet
 description: Bayar dan Exchange dalam bitcoin dan USDT secara instan
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ Dalam tutorial ini, kami akan memandu Anda melalui setiap aspek ini untuk membua
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Memulai dengan Speed Wallet
 
@@ -63,7 +63,7 @@ Speed Wallet tersedia sebagai aplikasi seluler di platform Android (Google Play 
 
 
 
-Anda dapat menemukan tautan untuk mengunduh platform di situs web resmi [Speed Wallet] (https://speed.app).
+Anda dapat menemukan tautan untuk mengunduh platform di situs web resmi [Speed Wallet](https://speed.app).
 
 
 
@@ -79,7 +79,7 @@ Speed Wallet memerlukan pembuatan akun pengguna. Anda dapat membuatnya dari akun
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Setelah akun Anda dibuat, kami sarankan Anda menyiapkan sistem autentikasi ganda
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Untuk melakukannya, buka pengaturan aplikasi, lalu aktifkan autentikasi ganda dan verifikasi biometrik.
 
@@ -143,7 +143,7 @@ Pada halaman beranda **Wallet**, Anda akan menemukan :
 
 
 
-- Menerima pembayaran pada Speed Wallet :**
+- Menerima pembayaran pada Speed Wallet:
 
 
 
@@ -161,7 +161,7 @@ Anda juga bisa menggunakan Lightning Address ketika Anda ingin memberikan fleksi
 
 
 
-- Kirim bitcoin dengan Kecepatan Wallet**:
+- Kirim bitcoin dengan **Kecepatan Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Opsi **Buy** dan **Swap** memungkinkan Anda menukarkan bitcoin Exchange dengan m
 
 
 
-- Beli Bitcoin dengan kartu kredit Anda**: Speed Wallet memudahkan Anda memperoleh Bitcoin dari mata uang fiat yang Anda gunakan setiap hari. Ini menggabungkan agregator pembayaran yang memungkinkan Anda membayar bitcoin dengan kartu kredit Anda.
+- **Beli Bitcoin dengan kartu kredit Anda**: Speed Wallet memudahkan Anda memperoleh Bitcoin dari mata uang fiat yang Anda gunakan setiap hari. Ini menggabungkan agregator pembayaran yang memungkinkan Anda membayar bitcoin dengan kartu kredit Anda.
 
 
 
@@ -201,13 +201,13 @@ Opsi **Buy** dan **Swap** memungkinkan Anda menukarkan bitcoin Exchange dengan m
 
 
 
-- Beli Bitcoin dari mata uang kripto lainnya**: Anda dapat menukarkan USDT, USDC Anda dengan bitcoin di Wallet dan sebaliknya. Melalui opsi ini, Speed Wallet menyederhanakan proses pembelian dan penjualan Bitcoin tanpa mengacu pada platform Exchange eksternal. Jadi, Anda dapat melakukan jual beli hanya dengan 20.000 satoshi, sekitar $20 dengan kurs saat ini, tanpa harus meninggalkan Speed Wallet Anda.
+- **Beli Bitcoin dari mata uang kripto lainnya**: Anda dapat menukarkan USDT, USDC Anda dengan bitcoin di Wallet dan sebaliknya. Melalui opsi ini, Speed Wallet menyederhanakan proses pembelian dan penjualan Bitcoin tanpa mengacu pada platform Exchange eksternal. Jadi, Anda dapat melakukan jual beli hanya dengan 20.000 satoshi, sekitar $20 dengan kurs saat ini, tanpa harus meninggalkan Speed Wallet Anda.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Lihat tutorial kami tentang cara memulai Bitrefill di bawah ini.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Dapatkan hadiah
 
@@ -327,13 +327,13 @@ Pada opsi **Settings** pada halaman **Wallet**, bagian **Mini Apps** memungkinka
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Speed Wallet tidak hanya untuk Ponsel!
 
 
 
-Selain aplikasi seluler, Speed Wallet juga menawarkan [ekstensi Web Chrome] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) yang dapat Anda tambahkan ke browser Google Chrome komputer Anda untuk transaksi yang aman.
+Selain aplikasi seluler, Speed Wallet juga menawarkan [ekstensi Web Chrome](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) yang dapat Anda tambahkan ke browser Google Chrome komputer Anda untuk transaksi yang aman.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet memberikan penekanan khusus pada integrasi dan penggunaan Bitcoin d
 
 
 
-Dari [Speed Business] (https://www.tryspeed.com/), Anda memiliki agregator pembayaran terpadu untuk menerima Bitcoin, yang didukung oleh Lightning Network yang dapat Anda gunakan di toko Anda, baik secara online maupun fisik.
+Dari [Speed Business](https://www.tryspeed.com/), Anda memiliki agregator pembayaran terpadu untuk menerima Bitcoin, yang didukung oleh Lightning Network yang dapat Anda gunakan di toko Anda, baik secara online maupun fisik.
 
 
 
@@ -375,25 +375,25 @@ Pada dasarnya berfokus pada pembayaran, Anda akan menemukan opsi-opsi berikut in
 
 
 
-- Pembayaran online**: Dengan opsi ini, Anda dapat menerima Bitcoin sebagai alat pembayaran untuk produk digital Anda, melalui tautan pembayaran, faktur, dan langganan.
+- **Pembayaran online**: Dengan opsi ini, Anda dapat menerima Bitcoin sebagai alat pembayaran untuk produk digital Anda, melalui tautan pembayaran, faktur, dan langganan.
 
 
 
 
 
-- Pembayaran di tempat**: Untuk mengumpulkan pembayaran di toko Anda.
+- **Pembayaran di tempat**: Untuk mengumpulkan pembayaran di toko Anda.
 
 
 
 
 
-- Pembayaran instan**: Opsi yang memungkinkan Anda mengelola penggantian biaya, penarikan, pengeluaran, dan slip gaji karyawan secara langsung dari Speed Business Interface.
+- **Pembayaran instan**: Opsi yang memungkinkan Anda mengelola penggantian biaya, penarikan, pengeluaran, dan slip gaji karyawan secara langsung dari Speed Business Interface.
 
 
 
 
 
-- Pembayaran platform**: Hubungkan akun Speed Business Anda ke alat bantu eksternal yang Anda gunakan untuk melakukan transfer dan pembayaran ke platform ini.
+- **Pembayaran platform**: Hubungkan akun Speed Business Anda ke alat bantu eksternal yang Anda gunakan untuk melakukan transfer dan pembayaran ke platform ini.
 
 
 
@@ -401,4 +401,4 @@ Anda telah mencapai akhir dari tutorial Speed Wallet. Jika Anda merasa tutorial 
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

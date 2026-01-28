@@ -1,0 +1,9 @@
+question: Electrs ve Fulcrum tarafından cüzdanları bağlamak için kullanılan protokol nedir?
+answer: Elektrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - Lightning gRPC
+explanation: |
+  Bu yazılım paketleri, Sparrow veya Electrum Wallet gibi birçok cüzdan tarafından kullanılan standart olan bir Electrum sunucusunu ortaya çıkarır.
+reviewed: true

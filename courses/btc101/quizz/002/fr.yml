@@ -1,0 +1,11 @@
+question: Quelles sont les deux principales caractéristiques du Bitcoin ?
+answer: Le Bitcoin est à la fois un protocole informatique et une unité monétaire.
+wrong_answers:
+  - Le Bitcoin est à la fois une monnaie physique et un portefeuille numérique.
+  - Le Bitcoin est à la fois un type d'action et un type d'obligation.
+  - Le Bitcoin est à la fois une monnaie centralisée et décentralisée.
+explanation: |
+  Le Bitcoin est à la fois un protocole informatique qui utilise des technologies
+  comme la cryptographie et la blockchain, et aussi une unité
+  monétaire qui est utilisée pour les transactions.
+reviewed: true

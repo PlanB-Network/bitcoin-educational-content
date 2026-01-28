@@ -1,10 +1,11 @@
-question: None umugambi wa DigiCash wari uwuhe?
-answer: Igerageza ryo kurema amahera y’ubuhinga bwa none atamenyekana ryakozwe na David Chaum.
+question: Ni kimwe mu bibazo ibihe vy’inzahabu nk’uburyo bw’amahera?
+answer: Ntivyoroshe gucapura.
 wrong_answers:
-  - Umugambi wo gukora Wallet ya Bitcoin.
-  - Igerageza ryo guhindura amafaranga yose aboneka mu buryo bwa digitale n’Ikigega ca Leta Zunze Ubumwe za Amerika.
-  - Umugambi wo kurema amafaranga y'ibanga ashingiye kuri Bitcoin.
+  - Ntigumana agaciro kayo mu kirere cose.
+  - Birasenyuka uko igihe kigenda kirarenga.
+  - Biroroshe kubihingura.
 explanation: |
-  David Chaum yashizeho iciyumviro c'ubuhinga bwa none butazwi
-  amahera n’umugambi wiwe DigiCash mu myaka ya 1980.
+  Kimwe mu bibazo nyamukuru vy’inzahabu nk’uburyo bw’amahera ni .
+  kuba bigoye gucapura mu bice bitobito nk’uko bikenewe .
+  birashika, ivyo bikaba bituma bidashoboka gukoresha.
 reviewed: true

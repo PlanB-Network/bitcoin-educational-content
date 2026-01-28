@@ -1,0 +1,9 @@
+question: Kulingana na kaulimbiu ya Eric Voskuil ya upinzani, ni dhana gani ya kimsingi lazima ikubalike kwa Bitcoin ili kuleta maana kama mfumo?
+answer: Kwamba inawezekana kwa mfumo kupinga udhibiti wa serikali
+wrong_answers:
+  - Kwamba wengi wa hashpower mtandao daima kubaki waaminifu
+  - Algorithms hiyo ya kriptografia haitavunjwa kamwe na kompyuta ya quantum
+  - Kwamba watumiaji daima watapa kipaumbele ugatuaji kuliko urahisi
+explanation: |
+  Mtazamo wa upinzani unadhania kuwa mifumo inaweza kupinga udhibiti wa serikali, ambayo ni ya msingi kwa madhumuni ya Bitcoin kama pesa zisizo na ruhusa. Bila dhana hii, msingi mzima wa Bitcoin huanguka kwani bila shaka ungedhibitiwa na mataifa. Chaguzi zingine, ingawa zinafaa kwa usalama wa Bitcoin, sio sehemu ya axiom ya upinzani ya Voskuil, ambayo inashughulikia haswa msingi wa kifalsafa kwamba upinzani dhidi ya udhibiti wa serikali unawezekana.
+reviewed: false

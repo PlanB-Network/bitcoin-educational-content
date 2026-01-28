@@ -39,8 +39,8 @@ There are two main services offered by the platform:
 
 
 
-- FlashX**: Exchange bitcoins with Mobile Money.
-- FlashPayment**: Use Bitcoin for everyday services.
+- **FlashX**: Exchange bitcoins with Mobile Money.
+- **FlashPayment**: Use Bitcoin for everyday services.
 
 
 
@@ -73,9 +73,9 @@ Flash operates its transactions using local Mobile Money. Depending on your loca
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Orange.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Orange.
 
 
 
@@ -110,7 +110,7 @@ Proceed to payment, then enter your Lightning Address to validate your Exchange.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Making a transaction on Flash will take you an average of 5 to 10 minutes to receive your bitcoins on your Lightning Wallet.
 
@@ -157,10 +157,10 @@ In addition to buying and selling bitcoins, Flash offers its community contextua
 
 
 
-- GSM** units;
-- Internet packages**;
-- Calling packages**;
-- A combination of call and Internet package**.
+- **GSM** units;
+- **Internet packages**;
+- Calling **packages**;
+- A combination of call and Internet package.
 
 
 
@@ -202,5 +202,4 @@ If you found this tutorial helpful in getting to grips with Flash, please give u
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

@@ -1,12 +1,12 @@
-question: Co znamená KYC?
-answer: Poznej svého zákazníka.
+question: Jaké je poselství obsažené v prvním bloku Bitcoin blockchainu?
+answer: 03/led/2009 Kancelář na pokraji druhého záchranného balíčku pro banky.
 wrong_answers:
-  - Nech si své peníze.
-  - Zadej své kódy.
-  - Laskavě dodržuj pravidla.
+  - Můžeme vyhrát velkou bitvu v závodě ve zbrojení a získat nové území svobody na několik let.
+  - Vlády jsou dobré v odstřihávání hlav centrálně řízených sítí jako Napster, ale čisté P2P sítě jako Gnutella a Tor se zdají držet si své pozice.
+  - Žádná z výše uvedených.
 explanation: |
-  KYC nebo Poznej svého zákazníka odkazuje na proceduru,
-  kterou podniky přijímají k ověření identity svých klientů.
-  To se obvykle dělá za účelem dodržení předpisů a prevence
-  proti nelegálním aktivitám, jako je praní peněz nebo podvod.
+  První blok Bitcoin blockchainu, známý také jako
+  genesis blok, obsahuje zprávu 03/led/2009
+  Kancelář na pokraji druhého záchranného balíčku pro banky, což je
+  titulek z časopisu Time toho dne, který slouží jako časové razítko genesis bloku.
 reviewed: true

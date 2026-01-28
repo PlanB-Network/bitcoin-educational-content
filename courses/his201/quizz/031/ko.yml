@@ -1,0 +1,9 @@
+question: 구글 엔지니어 마이크 헌은 Bitcoin을 발견하기 전에 어떤 디지털 화폐 시스템에 관심을 가졌나요?
+answer: 리플
+wrong_answers:
+  - 리버티 리저브
+  - eLD
+  - RPOW
+explanation: |
+  라이언 퍼거는 2009년 4월에 Google 그룹 프로젝트에서 Bitcoin에 대해 처음 들었습니다. 그는 즉시 Satoshi에 연락하여 질문을 했습니다.
+reviewed: true

@@ -23,7 +23,7 @@ Neid seadmeid turustatakse kas **Avalon Nano 3S (140W)** puhul lisakütteseadmen
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Pange tähele, et hinnavahe traditsiooniliste samaväärse võimsusega kütteseadmetega ei võimalda teil enamasti rahalist kasumit teenida. Mining tegevusega genereeritud satoshid ei kompenseeri kunagi seda hinnavahe, kui teil ei ole juurdepääsu tasuta (ülejäävale) või väga odavale elektrile.
 
@@ -75,17 +75,18 @@ Allpool on esitatud tabel, mis võtab kokku Nano 3S üldised tehnilised näitaja
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Omadus                                      | Väärtus                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hashi määr                                      | 6 Th/s +- 5%                                            |
+| Elektritarbimine                               | 140 W                                                   |
+| Müra                                                | 30 - 40 dB                                              |
+| Väljundõhu temperatuuri vahemik                 | 60-70°C (ümbritseva temperatuuri juures 25°C)                |
+| Kasutamise ümbritseva temperatuuri nõuded | -5 kuni 30°C                                            |
+| Seadme sisendpinge vahemik                         | 28V 5A pidev                                          |
+| Adapteri sisendpinge vahemik                       | 110-240V AC 50/60Hz                                     |
+| Seadme suurus                                 | Pikkus: 205 mm / Laius: 115 mm / Kõrgus: 58.5 mm |
+| Seadme mass                                  | 0.86 kg                                                 |
 
 ## Lokaalse võrgu sisselülitamine ja ühendamine kohaliku võrguga
 
@@ -207,9 +208,9 @@ Lisateavet Mining pool-ga ühendamise kohta leiate nendest juhendmaterjalidest :
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Kokkuvõttes on meil vaja
 
@@ -358,4 +359,4 @@ Kui soovite rohkem teada saada, vaadake meie õpetust Avaloni paremast versiooni
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

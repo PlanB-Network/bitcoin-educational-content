@@ -23,7 +23,7 @@ Vifaa hivi vinauzwa kama hita kisaidizi katika hali ya **Avalon Nano 3S (140W)**
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Tafadhali kumbuka kuwa tofauti ya bei na hita za jadi za nguvu sawa hazikuruhusu kupata faida ya kifedha katika hali nyingi. Satoshi zinazozalishwa na shughuli za Mining hazitawahi kufidia tofauti hii ya bei, isipokuwa kama unaweza kupata umeme wa bure (ziada) au nafuu sana.
 
@@ -122,16 +122,17 @@ lifuatalo ni jedwali la muhtasari wa maelezo ya jumla ya kiufundi ya Mini 3:
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Sifa                                      | Thamani                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Matumizi ya Umeme                              | 800 W                                                     |
+| Kelele                                                | 35-55 dB                                                  |
+| Joto la Hewa ya Kutoka                       | 60-70°C (kwa joto la kawaida 25°C)                  |
+| Mahitaji ya Joto la Kawaida kwa Matumizi | -5° C - 40°C                                              |
+| Liwali la Voltage ya Ingizo la Kifaa                         | 110V-240V AC 50/60Hz                                      |
+| Ukubwa wa Mashine                                 | Urefu: 760 mm / Kina: 104 mm / Urefu: 214.5 mm |
+| Uzani wa Mashine                                  |  8.35 kg                                                  |
 
 ## Inaunganisha kwa Mining pool
 
@@ -181,9 +182,9 @@ Kwa maelezo zaidi kuhusu jinsi ya kuunganisha kwenye Mining pool, tafadhali reje
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Kwa muhtasari, tunahitaji
 
@@ -358,4 +359,4 @@ Ili kujua zaidi, angalia mafunzo yetu kuhusu toleo dogo la Avalon: Nano 3S.
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

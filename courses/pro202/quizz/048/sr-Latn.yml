@@ -1,0 +1,8 @@
+question: Šta se dešava kada se konstruira Merkle stablo iz transakcija ako je broj heševa na bilo kom nivou neparan?
+answer: Poslednji hash je dupliran kako bi se stvorio paran broj parova za sledeći nivo
+wrong_answers:
+  - Poslednji heš se prenosi nepromenjen na sledeći nivo bez uparivanja
+  - Poslednji heš se XOR-uje sa prvim hešom tog nivoa da bi se završilo uparivanje
+  - Poslednji heš se kombinuje sa null hešom (sve nule) da bi se kreirao konačni par
+explanation: |
+  Izgradnja Merkleovog stabla u Bitcoin zahteva uparivanje heševa na svakom nivou. Kada postoji neparan broj, protokol specifično duplira poslednji heš kako bi osigurao pravilno uparivanje. Ovo održava binarnu strukturu stabla i osigurava deterministički proračun korena. Druge opcije bi narušile kompatibilnost sa Bitcoin pravilima konsenzusa i stvorile različite Merkle korene za identične skupove transakcija.

@@ -1,0 +1,9 @@
+question: Da li je strukturna inflacija rezultat?
+answer: Povećanje novca Supply.
+wrong_answers:
+  - Povećanje cena
+  - Fiskalna politika.
+  - Antiliberalne mere.
+explanation: |
+  Strukturna inflacija je rezultat povećanja novčane mase Supply. Kada količina novca u opticaju raste brže od proizvodnje dobara i usluga, to dovodi do opšteg rasta cena.
+reviewed: false

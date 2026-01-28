@@ -1,0 +1,8 @@
+question: Qual é a principal vantagem de utilizar macros derivadas como #[derive(Debug)] em comparação com a implementação manual de caraterísticas para tipos personalizados?
+answer: Eles automaticamente generate implementações completas de caraterísticas em tempo de compilação, reduzindo o código boilerplate
+wrong_answers:
+  - Proporcionam um melhor desempenho em tempo de execução, optimizando as chamadas de métodos de caraterísticas durante a execução
+  - Permitem que as caraterísticas sejam implementadas várias vezes para o mesmo tipo com comportamentos diferentes
+  - Permitem a implementação de caraterísticas dinâmicas que podem ser modificadas em tempo de execução com base no estado do programa
+explanation: |
+  As macros Derive automaticamente implementações de caraterísticas generate durante a compilação, eliminando a necessidade de escrever manualmente o código repetitivo de boilerplate. Quando você usa #[derive(Debug)], o compilador gera toda a lógica de formatação necessária para essa caraterística. As respostas erradas estão incorrectas porque: as macros derivadas não melhoram o desempenho em tempo de execução (elas generate o mesmo código que escreveria manualmente), as caraterísticas só podem ser implementadas uma vez por tipo, independentemente da forma como são implementadas, e as macros derivadas generate código estático em tempo de compilação em vez de permitir modificações em tempo de execução.

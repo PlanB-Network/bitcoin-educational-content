@@ -6,4 +6,4 @@ wrong_answers:
   - L'ouverture d'un nouveau canal de paiement
 explanation: |
   Une transaction d'engagement représente la répartition actuelle des fonds dans le canal après chaque transaction Lightning, mais n'est pas publiée sur la blockchain tant que le canal reste ouvert.
-reviewed: false
+reviewed: true 

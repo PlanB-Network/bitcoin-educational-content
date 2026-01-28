@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Knopen
+name: Bitcoin Knots
 description: Hoe start ik een knooppunt met de Bitcoin Knots alternatieve client?
 ---
 ![cover](assets/cover.webp)
@@ -31,8 +31,8 @@ Er zijn twee belangrijke redenen om een alternatieve client zoals Knots te gebru
 
 
 
-- Technisch**: Deze clients bieden vaak verschillende opties voor Core, met name op het gebied van Mempool beheer, door te bepalen welke transacties worden geaccepteerd en uitgezonden door jouw knooppunt.
-- Beleid**: Sommige mensen gebruiken alternatieve clients zoals Knots om niet-technische redenen, met name om een alternatief voor Core te ondersteunen en zo zijn monopolie te verkleinen. Als Core ooit gecompromitteerd zou worden, zou het niet alleen handig zijn om solide, goed onderhouden alternatieve clients te hebben, maar ook om te weten hoe je ze moet gebruiken. Anderen gebruiken Knots uit protest, omdat ze het vertrouwen in de ontwikkelaars van Core hebben verloren of het beheer van de meerderheidsclient afkeuren.
+- **Technisch**: Deze clients bieden vaak verschillende opties voor Core, met name op het gebied van Mempool beheer, door te bepalen welke transacties worden geaccepteerd en uitgezonden door jouw knooppunt.
+- **Beleid**: Sommige mensen gebruiken alternatieve clients zoals Knots om niet-technische redenen, met name om een alternatief voor Core te ondersteunen en zo zijn monopolie te verkleinen. Als Core ooit gecompromitteerd zou worden, zou het niet alleen handig zijn om solide, goed onderhouden alternatieve clients te hebben, maar ook om te weten hoe je ze moet gebruiken. Anderen gebruiken Knots uit protest, omdat ze het vertrouwen in de ontwikkelaars van Core hebben verloren of het beheer van de meerderheidsclient afkeuren.
 
 
 ## Hoe installeer ik Bitcoin Knopen?
@@ -47,7 +47,7 @@ Ga naar [de officiële Bitcoin Knots website](https://bitcoinknots.org/#download
 Voordat je de software op je machine installeert, raden we je sterk aan om de authenticiteit en integriteit ervan te controleren. Als je niet weet hoe, bekijk dan deze andere tutorial:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Zodra de software is geverifieerd, installeer je deze door de stappen in het installatiepaneel te volgen.
 
 
@@ -173,7 +173,7 @@ Geef je Wallet een naam. Je kunt het ook beveiligen met een passphrase BIP39 doo
 De passphrase BIP39 is een optioneel wachtwoord dat u vrij kunt kiezen, naast uw Mnemonic zinsdeel, om de beveiliging van uw Wallet te verhogen. Voordat u deze functie configureert, raden wij u aan het volgende artikel te lezen, waarin in detail wordt uitgelegd hoe de passphrase in theorie werkt, en hoe u fouten kunt vermijden die kunnen leiden tot het permanente verlies van uw bitcoins:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Als je de passphrase optie hebt geactiveerd, kies dan een robuuste optie en sla deze zorgvuldig op een of meer beveiligde fysieke media op.
 
 
@@ -317,10 +317,11 @@ Vergeet niet om de software opnieuw op te starten nadat je deze wijzigingen hebt
 Ga dan naar je Wallet beheersoftware (bijv. Sparrow wallet of Liana) en voer het pad naar je cookie-bestand in, meestal in dezelfde map als de `Bitcoin.conf`, afhankelijk van je besturingssysteem:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -345,10 +346,11 @@ server=1
 Nadat je het bestand hebt bewerkt, moet je ervoor zorgen dat je het opslaat in de juiste map voor je besturingssysteem:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Deze handeling kan ook worden uitgevoerd via Bitcoin-QT's Interface graphics. Ga naar het "*Instellingen*" menu, dan "*Opties...*", en activeer de "*RPC server inschakelen*" optie door het overeenkomstige vakje aan te vinken. Als het `Bitcoin.conf` bestand niet bestaat, kun je het direct vanuit deze Interface aanmaken door op "*Open Configuration File*" te klikken.
 
@@ -356,7 +358,7 @@ Deze handeling kan ook worden uitgevoerd via Bitcoin-QT's Interface graphics. Ga
 ![Image](assets/fr/37.webp)
 
 
-Zoek het IP Address van de machine die Bitcoin Knots host op uw lokale netwerk. Hiervoor kunt u een tool zoals [Angry IP Scanner] (https://angryip.org/) gebruiken. Laten we omwille van het argument aannemen dat het IP Address van uw knooppunt `192.168.1.18` is.
+Zoek het IP Address van de machine die Bitcoin Knots host op uw lokale netwerk. Hiervoor kunt u een tool zoals [Angry IP Scanner](https://angryip.org/) gebruiken. Laten we omwille van het argument aannemen dat het IP Address van uw knooppunt `192.168.1.18` is.
 
 
 Voeg in het `Bitcoin.conf` bestand de volgende regels toe, waarbij je `rpcbind=192.168.1.18` instelt om overeen te komen met het IP Address van je node.
@@ -407,4 +409,4 @@ Als je deze tutorial nuttig vond, zou ik je erg dankbaar zijn als je hieronder e
 Ik raad ook deze andere tutorial aan waarin ik uitleg hoe je je eigen Lightning-node kunt opzetten:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

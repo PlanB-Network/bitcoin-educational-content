@@ -1,0 +1,9 @@
+question: RGB은 디지털 자산 관리에서 기밀성을 어떻게 보장하나요?
+answer: Blockchain에 암호화 약정만 등록하여
+wrong_answers:
+  - Blockchain의 모든 엔드투엔드 트랜잭션을 암호화하여
+  - 분산형 믹서를 통해 사용자의 신원을 숨겨서
+  - 각 전송에 임시 Bitcoin 주소만 사용
+explanation: |
+  On-Chain 암호화 증거만 저장함으로써 RGB는 민감한 Contract 및 전송 정보를 기밀로 유지합니다.
+reviewed: false

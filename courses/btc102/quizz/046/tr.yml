@@ -1,9 +1,9 @@
 question: Özel anahtarlarınızı ifşa etmeden Wallet'ınızı izlemenizi sağlayan araç hangisidir?
-answer: Watch-only wallet
+answer: Watch-only wallet (yalnızca izleme cüzdanı)
 wrong_answers:
   - Hot Wallet
-  - Yıldırım Wallet
-  - Gözetim Wallet
+  - Lightning Wallet 
+  - Emanet Wallet
 explanation: |
   Bir Watch-only wallet, bakiyeleri ve işlemleri görüntülemek için özel anahtarların açığa çıkma riski olmadan yalnızca genel anahtarları kullanır.
 reviewed: false

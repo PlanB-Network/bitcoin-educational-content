@@ -1,12 +1,11 @@
-question: Vad ska du göra när orden i din Mnemonic-fras är skrivna?
-answer: Gör en andra kopia och förvara den på en annan plats.
+question: Varför är det tillrådligt att undvika att lämna dina Bitcoins på Exchange-plattformar?
+answer: De kan vara mottagliga för hackerattacker.
 wrong_answers:
-  - Dela den med en betrodd vän.
-  - Mejla det till dig själv.
-  - Förvara den i din telefon.
+  - Exchange-plattformar tar ut slumpmässiga avgifter.
+  - Bitcoin förlorar i värde på Exchange-plattformar.
+  - Exchange-plattformar är inte reglerade institutioner.
 explanation: |
-  När orden i din Mnemonic-fras är skrivna rekommenderas det att du
-  rekommenderas att du gör en andra kopia och lagrar den på en
-  separat plats från den första. Detta ger en säkerhetskopia i
-  vid förlust eller olycka med den första kopian.
+  Det är tillrådligt att undvika att lämna dina Bitcoins på Exchange
+  plattformar eftersom de kan vara mottagliga för hacker
+  attacker.
 reviewed: true

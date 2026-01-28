@@ -1,12 +1,9 @@
-question: Bitcoin đặt ra những câu hỏi trong những lĩnh vực nào?
-answer: Mật mã học, lý thuyết trò chơi, kinh tế và chính sách tiền tệ, khoa học máy tính, triết học, năng lượng, luật và quy định.
+question: Mục tiêu chính của Lightning Network là gì?
+answer: Cho phép các khoản thanh toán offchain nhanh chóng và chi phí thấp
 wrong_answers:
-  - Chỉ khoa học máy tính và kinh tế
-  - Chỉ mật mã học và lý thuyết trò chơi.
-  - Chỉ triết học và năng lượng.
+  - Tăng kích thước khối của blockchain Bitcoin
+  - Dần dần thay thế blockchain Bitcoin bằng một hệ thống hiệu quả hơn
+  - Làm cho các trang trại khai thác trở nên rất giàu
 explanation: |
-  Bitcoin là một chủ đề đa ngành, đặt ra
-  các câu hỏi liên quan đến nhiều lĩnh vực, bao gồm
-  mật mã học, lý thuyết trò chơi, kinh tế và chính sách tiền tệ,
-  khoa học máy tính, triết học, năng lượng, luật và quy định.
-reviewed: true
+  Lightning Network nhằm cho phép các khoản thanh toán bitcoin gần như tức thì với phí thấp, mà không làm quá tải blockchain chính.
+reviewed: false

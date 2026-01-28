@@ -62,10 +62,10 @@ Peate konfigureerima ämbri ja esitama järgmise teabe:
 
 
 
-- S3_BUCKET**: ämbri nimi
-- S3_ENDPOINT_URL**: juurdepääsulink teie S3-teenusele
-- S3_KEY_ID** ja S3_KEY_SECRET: teie juurdepääsukoodid
-- S3_REGION**: teie S3-teenuse piirkond
+- **S3_BUCKET**: ämbri nimi
+- **S3_ENDPOINT_URL**: juurdepääsulink teie S3-teenusele
+- **S3_KEY_ID** ja **S3_KEY_SECRET**: teie juurdepääsukoodid
+- **S3_REGION**: teie S3-teenuse piirkond
 
 
 
@@ -94,8 +94,8 @@ Teil on vaja järgmisi muutujaid:
 
 
 
-- MONGODB_URL**: andmebaasiühendus Address
-- MONGODB_DB**: andmebaasi nimi
+- **MONGODB_URL**: andmebaasiühendus Address
+- **MONGODB_DB**: andmebaasi nimi
 
 
 
@@ -255,12 +255,13 @@ be-BOP võimaldab teil lihtsalt ja turvaliselt vastu võtta Bitcoin makseid otse
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Väli                  | Kirjeldus                                               | Kasutatav Näide                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Kasutatava adresseerimise tüüp                               | BIP84 (aadressid bech32 vormingus, mis algavad `bc1`-ga) |
+| **Laiendatud avalik võti** | Teie Zpub (või Xpub olenevalt kasutatavast rahakotist)        | `zpub...` (teie Bitcoin rahakotist eraldatud) |
+| **Derivation Index**   | Aadresside loomise algusindeks         | `1`                                              |
+| **Mempool URL**        | Mempool teenuse URL, mida kasutatakse tehingute jälgimiseks | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -474,8 +475,8 @@ Konfiguratsioon **Top Bar** võimaldab teil isikupärastada oma tarkvara visuaal
 
 
 - Sisestage väljale `Brändi nimi` oma ettevõtte, organisatsiooni või toote nimi. See nimi ilmub Interface ülaosas ja esindab teie peamist visuaalset identiteeti.
-- Märkige veebisaidi pealkiri**: valitud pealkiri peaks kokku võtma platvormi eesmärgi. See pealkiri võib ilmuda päises või brauseri vahekaardil.
-- Lisa veebisaidi kirjeldus**: siia sisestate oma algatuse lühikirjelduse. See kirjeldus aitab kasutajatele konteksti luua ja seda saab kasutada ka SEO eesmärkidel.
+- **Märkige veebisaidi pealkiri**: valitud pealkiri peaks kokku võtma platvormi eesmärgi. See pealkiri võib ilmuda päises või brauseri vahekaardil.
+- **Lisa veebisaidi kirjeldus**: siia sisestate oma algatuse lühikirjelduse. See kirjeldus aitab kasutajatele konteksti luua ja seda saab kasutada ka SEO eesmärkidel.
 
 
 
@@ -497,10 +498,10 @@ Kui see teave on sisestatud, kuvatakse **Topbaril** teie lahenduse selge, profes
 
 
 
-- Sisestage lingi nimi (Tekst)**: sisestage lahtrisse "Tekst" lingi nimi või märgistus, nagu see kuvatakse (nt Avaleht, Kontakt, Abi...).
-- Märkige link Address (Url)**: sisestage väljal `Url` sihtlehe (sisemine või väline) täielik Address.
-- Vajaduse korral lisage muid linke**: iga konfiguratsioonirea võimaldab teil lisada täiendava lingi, kasutades välju "Tekst" ja "URL".
-- Salvesta lingid**: kui kõik lingid on sisestatud, klõpsake nende salvestamiseks nupule "Lisa ülemise riba link".
+- Sisestage lingi nimi **(Tekst)**: sisestage lahtrisse "Tekst" lingi nimi või märgistus, nagu see kuvatakse (nt Avaleht, Kontakt, Abi...).
+- Märkige link **Address (Url)**: sisestage väljal `Url` sihtlehe (sisemine või väline) täielik Address.
+- Vajaduse korral lisage muid linke: iga konfiguratsioonirea võimaldab teil lisada täiendava lingi, kasutades välju "Tekst" ja "URL".
+- **Salvesta lingid**: kui kõik lingid on sisestatud, klõpsake nende salvestamiseks nupule "Lisa ülemise riba link".
 
 
 
@@ -522,10 +523,10 @@ Jaotises **Navbar** saate konfigureerida oma be-BOPi põhinavigatsioonimenüüd,
 
 
 
-- Sisestage lingi nimi (`Text`)**: alustage konfiguratsioonireal lahtri `Text` täitmisega. See vastab navigatsiooniribal kuvatava lingi nimele (näited: *Dashboard*, *Users*, *Settings*...).
-- Sisestage link Address (`Url`)**: lahtri `Text` kõrval on väli `Url`. Sellele väljale sisestage selle lehekülje Address, kuhu link peaks ümber suunama. See võib olla sisemine marsruut või link välisele lehele.
-- Vajaduse korral lisage mitu linki**: esimese rea all on saadaval uued väljad "Tekst" ja "URL", kuhu saab lisada nii palju linke kui vaja. Iga rida tähistab täiendavat navigatsioonilinki.
-- Salvesta lingid**: kui oled sisestanud kõik Elements, klõpsa nupule "Lisa navigatsiooniriba link", et salvestada ja kuvada tulemused navigatsiooniribal.
+- Sisestage lingi nimi (`Text`): alustage konfiguratsioonireal lahtri `Text` täitmisega. See vastab navigatsiooniribal kuvatava lingi nimele (näited: *Dashboard*, *Users*, *Settings*...).
+- Sisestage link Address (`Url`): lahtri `Text` kõrval on väli `Url`. Sellele väljale sisestage selle lehekülje Address, kuhu link peaks ümber suunama. See võib olla sisemine marsruut või link välisele lehele.
+- Vajaduse korral lisage mitu linki: esimese rea all on saadaval uued väljad "Tekst" ja "URL", kuhu saab lisada nii palju linke kui vaja. Iga rida tähistab täiendavat navigatsioonilinki.
+- **Salvesta lingid**: kui oled sisestanud kõik Elements, klõpsa nupule "Lisa navigatsiooniriba link", et salvestada ja kuvada tulemused navigatsiooniribal.
 
 
 
@@ -547,11 +548,11 @@ Jaotises **Jalapealkiri** saate kohandada oma tarkvara jalapealkirja, lisades si
 
 
 
-- Sildi "Powered by be-BOP "** kuvamise lubamine: aktiveerige nupp "Powered by be-BOP", et kuvada see silt jalusesse.
-- Sisestage lingi nimi (`Text`)**: täitke väli `Text`, mis vastab lingi sõnastusele jaluses (näited: *Tingimused*, *Privaatsus*, *Kontakt*...).
-- Märkige link Address (`Url`)**: sisestage väljal `Url` sihtlehe Address (sisemine või väline).
-- Vajaduse korral lisage rohkem linke**: kasutage lisaridu, et luua nii palju linke kui soovite.
-- Linkide salvestamine**: klõpsake linkide salvestamiseks nupule "Lisa jaluslehe link".
+- Sildi **"Powered by be-BOP"** kuvamise lubamine: aktiveerige nupp "Powered by be-BOP", et kuvada see silt jalusesse.
+- Sisestage lingi nimi (`Text`): täitke väli `Text`, mis vastab lingi sõnastusele jaluses (näited: *Tingimused*, *Privaatsus*, *Kontakt*...).
+- Märkige link **Address (`Url`)**: sisestage väljal `Url` sihtlehe Address (sisemine või väline).
+- Vajaduse korral lisage rohkem linke: kasutage lisaridu, et luua nii palju linke kui soovite.
+- **Linkide salvestamine**: klõpsake linkide salvestamiseks nupule "Lisa jaluslehe link".
 
 
 
@@ -641,8 +642,8 @@ See jaotis, millele pääseb ligi menüüst `Admin > Identity` (või `Settings >
 
 
 
-- Ärinimi**: ettevõtte ametlik nimi.
-- Äriühingu ID**: juriidiline tunnus või registreerimisnumber (RCCM, SIRET...).
+- **Ärinimi**: ettevõtte ametlik nimi.
+- **Äriühingu ID**: juriidiline tunnus või registreerimisnumber (RCCM, SIRET...).
 
 
 
@@ -652,11 +653,11 @@ See jaotis, millele pääseb ligi menüüst `Admin > Identity` (või `Settings >
 
 
 
-- Tänav**: posti Address (tänav, number...).
-- Riik**: riik.
-- Riik**: provints või piirkond.
-- Linn**: linn.
-- Postiindeks**: postiindeks.
+- **Tänav**: posti Address (tänav, number...).
+- **Riik**: riik.
+- **Riik**: provints või piirkond.
+- **Linn**: linn.
+- **Postiindeks**: postiindeks.
 
 
 
@@ -666,8 +667,8 @@ See jaotis, millele pääseb ligi menüüst `Admin > Identity` (või `Settings >
 
 
 
-- E-post**: professionaalne e-post Address.
-- Telefon**: ettevõtte telefoninumber.
+- **E-post**: professionaalne e-post Address.
+- **Telefon**: ettevõtte telefoninumber.
 
 
 
@@ -677,10 +678,10 @@ See jaotis, millele pääseb ligi menüüst `Admin > Identity` (või `Settings >
 
 
 
-- Kontoomaniku nimi**: kontoomaniku nimi.
-- Kontoomanik Address**: kontoomaniku Address.
-- IBAN**: Rahvusvaheline pangakonto number.
-- BIC**: SWIFT/BIC-kood.
+- **Kontoomaniku nimi**: kontoomaniku nimi.
+- **Kontoomanik Address**: kontoomaniku Address.
+- **IBAN**: Rahvusvaheline pangakonto number.
+- **BIC**: SWIFT/BIC-kood.
 
 
 
@@ -695,7 +696,7 @@ See jaotis, millele pääseb ligi menüüst `Admin > Identity` (või `Settings >
 
 
 - Andmete eeltäitmiseks klõpsake nuppu "Täida kaupluse põhiteabega".
-- Very-top-right issuer information**: väli juriidilise/maksualase teabe jaoks, mis on arvetel nähtav.
+- **Very-top-right issuer information**: väli juriidilise/maksualase teabe jaoks, mis on arvetel nähtav.
 - Muudatuste salvestamiseks klõpsake nuppu `Update`.
 
 
@@ -742,9 +743,9 @@ Toote lisamiseks või muutmiseks minge menüüsse `Admin > Kaup > Tooted`. Täit
 
 
 
-- Toote nimi**: toote nimi (nt *BOP T-särk piiratud tiraažiga*).
-- Lutsu**: URL-i identifikaator ilma tühikuteta (nt `tshirt-bop-edition-limitee`).
-- Alias** *(valikuline)*: kasulik kiireks lisamiseks korvi spetsiaalse välja kaudu.
+- **Toote nimi**: toote nimi (nt *BOP T-särk piiratud tiraažiga*).
+- **Lutsu**: URL-i identifikaator ilma tühikuteta (nt `tshirt-bop-edition-limitee`).
+- **Alias** *(valikuline)*: kasulik kiireks lisamiseks korvi spetsiaalse välja kaudu.
 
 
 
@@ -758,9 +759,9 @@ Toote lisamiseks või muutmiseks minge menüüsse `Admin > Kaup > Tooted`. Täit
 
 
 
-- Hinnasumma**: toote hind (nt "25.00").
-- Hind Valuuta**: valuuta (EUR, USD, BTC jne).
-- Eritooted**:
+- **Hinnasumma**: toote hind (nt "25.00").
+- **Hind Valuuta**: valuuta (EUR, USD, BTC jne).
+- **Eritooted**:
   - see on tasuta toode.
   - see on tasuline toode.
 
@@ -772,14 +773,14 @@ Toote lisamiseks või muutmiseks minge menüüsse `Admin > Kaup > Tooted`. Täit
 
 
 
-- Üksiktoode (standalone)**: ühe tellimuse kohta on võimalik ainult üks lisa (nt annetus, sissepääsupilet).
-- Variatsioonidega toode**:
+- **Üksiktoode (standalone)**: ühe tellimuse kohta on võimalik ainult üks lisa (nt annetus, sissepääsupilet).
+- **Variatsioonidega toode**:
   - Ärge kontrollige `Standalone`.
   - Kontrollida `Toode on kerge varieeruvusega (ei ole varude erinevus)`.
   - Lisa:
-    - Nimi** (nt *Size*),
-    - Väärtused** (nt: S, M, L, XL),
-    - Vajaduse korral hinnavahe** (nt: "+ 2 USD" XL-i puhul).
+- **Nimi** (nt *Size*),
+- **Väärtused** (nt: S, M, L, XL),
+- Vajaduse korral **hinnavahe** (nt: "+ 2 USD" XL-i puhul).
 
 
 
@@ -809,8 +810,8 @@ Süsteem haldab:
 
 
 
-- Reserveeritud varud** → tooted korvis, mille eest ei ole veel tasutud
-- Müüdud varud** → juba ostetud tooted
+- **Reserveeritud varud** → tooted korvis, mille eest ei ole veel tasutud
+- **Müüdud varud** → juba ostetud tooted
 
 
 
@@ -832,8 +833,8 @@ Märkige "Tootel on füüsiline komponent, mis tarnitakse kliendi Address-le". S
 
 
 
-- Pilet**: märkige, kui toode on pilet üritusele
-- Broneering**: kontrollige, kas tegemist on broneeringuajaga (nt: seanss, kohtumine)
+- **Pilet**: märkige, kui toode on pilet üritusele
+- **Broneering**: kontrollige, kas tegemist on broneeringuajaga (nt: seanss, kohtumine)
 
 
 
@@ -849,12 +850,13 @@ Selles jaotises määratakse kindlaks, **kuidas** ja **kuidas** saab toodet vaad
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platvorm        | Toode nähtav | Ostukorvi lisamiseks sobiv |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (avalik sait)        | ✔️              | ✔️                  |
+| Retail POS (kassa)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (müük boti kaudu)  | ✔️              | ✔️                  |
 
 Märkige ainult need kanalid, mida soovite kasutada.
 
@@ -898,7 +900,7 @@ Te võite lisada muid lehekülgi vastavalt vajadusele:
 
 
 
-**Nipp: klõpsake igal lingil või ikoonil, et muuta iga lehekülje **sisu**, **pealkirja** või **soe nähtavust**.
+**Nipp: klõpsake igal lingil või ikoonil, et muuta iga lehekülje sisu, pealkirja või soe nähtavust.**
 
 
 
@@ -983,7 +985,7 @@ Samuti on võimalik muuta "Piltide" all, see võimaldab teil kuvada **summareid 
 
 
 
-Vidinad** rikastavad teie CMS-i lehekülgi dünaamilise või visuaalse Elements-ga.
+**Vidinad** rikastavad teie CMS-i lehekülgi dünaamilise või visuaalse **Elements-ga**.
 
 
 
@@ -1001,14 +1003,14 @@ Näiteid saadaval olevatest vidinatest:
 
 
 
-- Väljakutsed**: väljakutsed või missioonid
-- Sildid**: kategooriad või märksõnad
-- Liugurid**: pildikarussellid
-- Spetsifikatsioonid**: Spetsifikatsioonide tabelid
-- Vormid**: vormid (kontakt, tagasiside jne.)
-- Tagasiarvamised**: taimerid
-- Galeriid**: pildigaleriid
-- Edetabelid**: kasutajate edetabelid
+- **Väljakutsed**: väljakutsed või missioonid
+- **Sildid**: kategooriad või märksõnad
+- **Liugurid**: pildikarussellid
+- **Spetsifikatsioonid**: Spetsifikatsioonide tabelid
+- **Vormid**: vormid (kontakt, tagasiside jne.)
+- **Tagasiarvamised**: taimerid
+- **Galeriid**: pildigaleriid
+- **Edetabelid**: kasutajate edetabelid
 
 
 
@@ -1024,14 +1026,15 @@ Kasutage oma CMS-lehtede sisus **shortcodes**:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Eesmärk                 | Lisatav silt                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Toote kuvamine      | `[Product=slug?display=img-1]`        |
+| Pildi kuvamine       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Liuguri integreerimine       | `[Slider=slug?autoplay=3000]`         |
+| Väljakutse lisamine     | `[Challenge=slug]`                    |
+| Taandarvu lisamine | `[Countdown=slug]`                 |
+| Vormi integreerimine   | `[Form=slug]`                         |
 
 **Parameetrid**:
 
@@ -1166,9 +1169,9 @@ Aruanded on jagatud osadeks:
 
 
 
-- Tellimuse üksikasjad**: tellimuste arv, staatus (kinnitatud, tühistatud, pooleliolev), areng
-- Toote üksikasjad**: müüdud tooted, kogused, populaarsed tooted
-- Maksete üksikasjad**: kogutud summad, jaotus makseviiside kaupa
+- **Tellimuse üksikasjad**: tellimuste arv, staatus (kinnitatud, tühistatud, pooleliolev), areng
+- **Toote üksikasjad**: müüdud tooted, kogused, populaarsed tooted
+- **Maksete üksikasjad**: kogutud summad, jaotus makseviiside kaupa
 
 
 
@@ -1310,9 +1313,9 @@ Teema loomisel või muutmisel saate määrata:
 
 
 
-- Värvid**: nuppude, taustade, teksti, linkide jne jaoks.
-- Kirjatüübid**: kirjatüüpide valik pealkirjade, lõigete ja menüüde jaoks
-- Graafilised stiilid**: piirid, marginaalid, vahekaugused, plokkide kuju
+- **Värvid**: nuppude, taustade, teksti, linkide jne jaoks.
+- **Kirjatüübid**: kirjatüüpide valik pealkirjade, lõigete ja menüüde jaoks
+- **Graafilised stiilid**: piirid, marginaalid, vahekaugused, plokkide kuju
 
 
 
@@ -1326,9 +1329,9 @@ Saidi iga osa saab reguleerida iseseisvalt:
 
 
 
-- Pealkiri**: ülemine navigatsiooniriba
-- Body**: peamine sisu
-- Alumine osa**: lehekülje alumine osa
+- **Pealkiri**: ülemine navigatsiooniriba
+- **Body**: peamine sisu
+- **Alumine osa**: lehekülje alumine osa
 
 
 
@@ -1377,8 +1380,8 @@ Iga e-kiri (tellimuse kinnitus, unustatud parool jne) on:
 
 
 
-- Teema**: e-kirja teema (nt "Teie tellimus on kinnitatud")
-- HTML Body**: E-kirjas kuvatav HTML-sisu
+- **Teema**: e-kirja teema (nt "Teie tellimus on kinnitatud")
+- **HTML Body**: E-kirjas kuvatav HTML-sisu
 
 
 
@@ -1444,9 +1447,9 @@ Täitke järgmised väljad:
 
 
 
-- Sildi nimi**: kuvatud sildi nimi
-- Slug**: unikaalne identifikaator (ilma tühikute ja aktsentideta)
-- Siltide perekond**: rühmitab sildid kategooriate kaupa
+- **Sildi nimi**: kuvatud sildi nimi
+- **Slug**: unikaalne identifikaator (ilma tühikute ja aktsentideta)
+- **Siltide perekond**: rühmitab sildid kategooriate kaupa
 
 
 
@@ -1479,9 +1482,9 @@ Neid välju saab kasutada sildi rikastamiseks, nagu oleks tegemist sisulehega:
 
 - Pealkiri
 - Alapealkiri
-- Lühike** sisu
-- Täielik sisu** (prantsuse keeles)
-- CTA-d** (tegevusnupud)
+- **Lühike** sisu
+- **Täielik sisu** (prantsuse keeles)
+- **CTA-d** (tegevusnupud)
 
 
 
@@ -1520,8 +1523,8 @@ Et pakkuda oma klientidele allalaaditavaid dokumente: `Admin > Kaup > Failid`
 
 
 
-   - Faili nimi** (nt *Installatsioonijuhend*)
-   - Üleslaetav fail** (PDF, pilt, Word...)
+- **Faili nimi** (nt *Installatsioonijuhend*)
+- **Üleslaetav fail** (PDF, pilt, Word...)
 
 
 
@@ -1539,7 +1542,7 @@ Selle lingi saab seejärel sisestada:
 
 
 
-- CMS** lehekülg (tekstilink või nupp)
+- **CMS** lehekülg (tekstilink või nupp)
 - **e-maili klient** (malli kaudu)
 - **tootelehe** (nt kasutusjuhendi allalaadimine)
 
@@ -1635,9 +1638,9 @@ Tõlkefailid on JSONis. Saate:
 
 
 
-- Allalaadimine** keelefailid
-- Olemasolevate tekstide muutmine**
-- Lisage** oma tõlked
+- **Allalaadimine** keelefailid
+- **Olemasolevate tekstide muutmine**
+- **Lisage** oma tõlked
 
 
 
@@ -1678,9 +1681,9 @@ Iga roll sisaldab:
 
 
 
-- kirjutamisjuurdepääs**: kirjutamisjuurdepääs
-- lugemisjuurdepääs**: lugemisjuurdepääs
-- keelatud juurdepääs**: lõigudevahelised lõigud
+- **kirjutamisjuurdepääs**: kirjutamisjuurdepääs
+- **lugemisjuurdepääs**: lugemisjuurdepääs
+- **keelatud juurdepääs**: lõigudevahelised lõigud
 
 
 
@@ -1709,7 +1712,7 @@ Määrake eelnevalt määratletud roll.
 
 
 
-Ainult lugemisõigusega** kasutajad näevad menüüd *kriitiliselt* ja ei saa sisu muuta.
+**Ainult lugemisõigusega** kasutajad näevad menüüd *kriitiliselt* ja ei saa sisu muuta.
 
 
 
@@ -1779,8 +1782,8 @@ Saadaval on kaks täiustatud valikut:
 
 
 
-- Käibemaksuvabastus**: kohaldatakse põhjenduse korral (valitsusvälised organisatsioonid, välismaalased...)
-- Kinkesoodustus**: erakorraline allahindlus koos kohustusliku märkusega
+- **Käibemaksuvabastus**: kohaldatakse põhjenduse korral (valitsusvälised organisatsioonid, välismaalased...)
+- **Kinkesoodustus**: erakorraline allahindlus koos kohustusliku märkusega
 
 
 
@@ -1813,14 +1816,15 @@ Plakat:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funktsioon                         | Kirjeldus                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS roll                         | Määratud ARM-i kaudu                                         |
+| Peamine liides             | `/pos` või `/pos/touch`                                 |
+| Kliendi kuva (ekraan 2)       | `/pos/session`                                         |
+| Makse                         | Sularaha, kaart, Lightning jne.                         |
+| Toote lisamine                    | Pseudonüüm või vöötkoodi skaneerimine                              |
+| Allahindlused / käibemaks                    | Kohustusliku juhtimise põhjendusega              |
 
 Täname teid selle õpetuse hoolika jälgimise eest.

@@ -1,11 +1,13 @@
-question: Pourquoi est-il important qu'un nœud Bitcoin reste abordable et accessible à tous les utilisateurs possibles ?
-answer: Parce que cela facilite la décentralisation du réseau.
+question: Quel est le but de l'ajustement de difficulté dans le minage de Bitcoin ?
+answer: Il rééquilibre le jeu mondial de minage en fonction du nombre de participants.
 wrong_answers:
-  - Parce que cela augmente la capacité de transaction du réseau.
-  - Parce que cela diminue la capacité de transaction du réseau.
-  - Parce que cela augmente la récompense de bloc pour les mineurs.
-explanation: |
-  Le coût abordable et l'accessibilité d'un nœud Bitcoin sont
-  importants car ils facilitent la décentralisation du
+  - Il augmente la récompense de minage.
+  - Il diminue le nombre de bitcoins en circulation.
+  - Il augmente la sécurité du réseau Bitcoin.
+explanation: >-
+  L'ajustement de difficulté dans le minage de Bitcoin est conçu pour garantir que
+  le temps nécessaire pour miner un bloc reste approximativement constant, indépendamment de
+  la puissance de calcul totale du réseau. Il ajuste la difficulté du problème mathématique
+  que les mineurs doivent résoudre, en fonction du nombre de mineurs participant au
   réseau.
 reviewed: true

@@ -1,13 +1,8 @@
-question: Igiciro c’Idolari ni ikihe?
-answer: Gugura amafaranga makeyi ya Bitcoin mu bihe bitandukanye.
+question: None FOMO na FUD ni ibiki?
+answer: Inyiyumvo zishobora gutuma umuntu afata ingingo ata co yiyumvira kandi zishobora kumugirira nabi.
 wrong_answers:
-  - Gugura Bitcoin nyinshi icarimwe.
-  - Gugura Bitcoin iyo igiciro kigabanutse gusa.
-  - Gugura Bitcoin iyo igiciro kiduze gusa.
-explanation: |
-  Ivyanditswe vy’inyigisho bisigura ko igiciro c’idolari .
-  ubuhinga bujanye n’ugugura amahera makeyi ya Bitcoin ku 100.000.
-  ibihe bihoraho. Ubu buryo buraringaniza igiciro
-  guhinduka uko igihe kigenda kirarenga kandi bikaba bituma haba ugukura gukomeye mu
-  umubare w’amahera Bitcoin afise.
+  - Ubwoko bw’amasakoshi ya Bitcoin.
+  - Ingamba zo kugura Bitcoin.
+  - Amabwirizwa yerekeye Bitcoin.
+explanation: >-
 reviewed: true

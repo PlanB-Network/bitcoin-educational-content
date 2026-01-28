@@ -44,7 +44,7 @@ Tutaj zaczynamy od utworzenia nowego portfolio. Poniżej znajdują się nasze za
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**WAŻNE**: Te 12 / 24 słowa odzyskiwania są niezbędne do uzyskania dostępu do bitcoinów. Jeśli je utracisz, nie będziesz już uprawniony do wydawania swoich bitcoinów.
 
@@ -93,23 +93,23 @@ Jedną ze szczególnych cech Blitz Wallet jest to, że obsługuje różne sieci 
 
 
 
-- Lightning Network** : Jedna z nakładek Bitcoin, która umożliwia natychmiastowe wykonywanie mikrotransakcji.
+- **Lightning Network**: Jedna z nakładek Bitcoin, która umożliwia natychmiastowe wykonywanie mikrotransakcji.
 
 
 
 
 
-- Bitcoin Mainnet** : Główny łańcuch protokołu Bitcoin, odpowiedni do transakcji o dużej wartości.
+- **Bitcoin Mainnet**: Główny łańcuch protokołu Bitcoin, odpowiedni do transakcji o dużej wartości.
 
 
 
 
 
-- Liquid Network**: Łańcuch równoległy do Bitcoin Mainnet opracowany przez BlockStream, który wykorzystuje Liquid Bitcoinów do przeprowadzania szybkich, Confidential Transactions.
+- **Liquid Network**: Łańcuch równoległy do Bitcoin Mainnet opracowany przez BlockStream, który wykorzystuje Liquid Bitcoinów do przeprowadzania szybkich, Confidential Transactions.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Domyślnie wszystkie transakcje będą dokonywane w Liquid Network, ale Blitz pozwala zdefiniować sieć, w której chcesz otrzymywać satoshis, klikając przycisk **Wybierz format**.
 
@@ -169,7 +169,7 @@ Oprócz operacji transferu Bitcoin, Blitz Wallet oferuje sklep, w którym można
 
 
 
-- Dostęp do usług AI**: Korzystaj z generatywnych modeli sztucznej inteligencji, takich jak: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 i płać bezpośrednio w bitcoinach.
+- **Dostęp do usług AI**: Korzystaj z generatywnych modeli sztucznej inteligencji, takich jak: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 i płać bezpośrednio w bitcoinach.
 
 
 
@@ -179,7 +179,7 @@ Oprócz operacji transferu Bitcoin, Blitz Wallet oferuje sklep, w którym można
 
 
 
-- Wysyłaj wiadomości tekstowe w dowolne miejsce na świecie**: W sklepie Blitz masz dostęp do usługi GSM, która umożliwia anonimowe wysyłanie wiadomości tekstowych w dowolne miejsce na świecie, z bezpośrednim rozliczeniem w Bitcoin.
+- **Wysyłaj wiadomości tekstowe w dowolne miejsce na świecie**: W sklepie Blitz masz dostęp do usługi GSM, która umożliwia anonimowe wysyłanie wiadomości tekstowych w dowolne miejsce na świecie, z bezpośrednim rozliczeniem w Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Oprócz operacji transferu Bitcoin, Blitz Wallet oferuje sklep, w którym można
 
 
 
-- Surfuj w całkowitej poufności**: Zapłać za subskrypcję WireGuard VPN (Virtual Private Network) w sklepie Wallet Blitz swoimi bitcoinami.
+- **Surfuj w całkowitej poufności**: Zapłać za subskrypcję WireGuard VPN (Virtual Private Network) w sklepie Wallet Blitz swoimi bitcoinami.
 
 
 
@@ -197,9 +197,9 @@ Oprócz operacji transferu Bitcoin, Blitz Wallet oferuje sklep, w którym można
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet Blitz za kulisami: Idąc dalej
 
@@ -221,7 +221,7 @@ Podejście to jest uzasadnione chęcią ułatwienia startu i pomocy nowym użytk
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Podział salda można zobaczyć w menu **Ustawienia>Informacje o saldzie**.
 
@@ -249,7 +249,7 @@ Aktywując tryb Lightning, po spełnieniu głównego warunku (saldo 500 000 sato
 
 
 
-- Akceptuj Bitcoin w swoim sklepie** :
+- **Akceptuj Bitcoin w swoim sklepie**:
 
 
 
@@ -269,5 +269,4 @@ Jeśli ten samouczek pomógł ci w opanowaniu Blitz, jesteśmy pewni, że tak sa
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

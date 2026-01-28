@@ -1,8 +1,8 @@
-question: Ni imwe mu mpamvu ituma Bitcoin igira ibibumbano vyinshi vy’ugutekereza ku bintu?
-answer: Kubera ko Supply yayo ari ntoyi ifatanijwe n’ugusaba cane.
+question: Ni ubuhe buryo bumwe bwo kuronka ama bitcoins ataco aguze?
+answer: Niwemere nk’uburyo bwo kwishura ibintu canke ibikorwa utanga.
 wrong_answers:
-  - Kuko Bitcoin mu vy’ukuri ntaho ikoreshwa.
-  - Kuko Bitcoin ni igihu kizozimangana.
-  - Kuko Bitcoin ntiyigera igira inzinguzingu z’ubutunzi.
+  - Bigurize umugenzi kandi ntuzokwigere ubisubiza.
+  - Batsinde mu gutora.
+  - Mubaronke mu nzira.
 explanation: >-
 reviewed: true

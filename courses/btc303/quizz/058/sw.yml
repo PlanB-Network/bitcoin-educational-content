@@ -1,0 +1,9 @@
+question: Kulingana na mahitaji ya ufafanuzi wa chanzo huria, ni nini lazima kifanyike msimbo wa chanzo unapofichwa kimakusudi katika usambazaji wa programu huria?
+answer: Msimbo wa chanzo uliofichwa kimakusudi unakiuka kanuni za chanzo huria na hairuhusiwi
+wrong_answers:
+  - Nambari iliyofichwa lazima iambatane na nyaraka za kina zinazoelezea utendakazi wake
+  - Nambari iliyofichwa inakubalika mradi jozi zilizokusanywa pia zimetolewa
+  - Msimbo uliofichwa lazima upatikane kupitia upakuaji tofauti na gharama za utayarishaji
+explanation: |
+  Ufafanuzi wa chanzo huria unasema kwa uwazi kuwa 'msimbo wa chanzo uliofichwa kwa makusudi hauruhusiwi.' Hili ni hitaji la msingi kwa sababu ufichuzi huzuia uchunguzi wa maana, urekebishaji na uelewa wa msimbo, ambao unakiuka madhumuni ya msingi ya programu huria. Msimbo wa chanzo lazima uwe katika 'njia inayopendelewa ambayo mtayarishaji programu angerekebisha programu,' na kufanya ufichuzi kutopatana na kanuni za chanzo huria bila kujali uhifadhi wa hati au mbinu za usambazaji.
+reviewed: false

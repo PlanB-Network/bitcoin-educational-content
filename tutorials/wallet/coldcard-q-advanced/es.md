@@ -1,12 +1,12 @@
 ---
-name: COLDCARD Q - Avanzada
+name: COLDCARD Q - Experto
 description: Uso de las opciones avanzadas de COLDCARD Q
 ---
 ![cover](assets/cover.webp)
 
 En un tutorial anterior, cubrimos la configuración inicial de la COLDCARD Q y sus funciones básicas para principiantes. Si acabas de recibir tu COLDCARD Q y aún no la has configurado, te recomiendo que empieces por ese tutorial antes de continuar aquí:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Este nuevo tutorial está dedicado a las opciones avanzadas de COLDCARD Q, diseñadas para usuarios avanzados y paranoicos. De hecho, las COLDCARD se distinguen de otros monederos hardware por sus numerosas funciones de seguridad avanzadas. Por supuesto, no tiene por qué utilizar todas estas opciones. Sólo tiene que elegir las que se adapten a su estrategia de seguridad.
 
@@ -20,7 +20,7 @@ Antes de empezar, asegúrate de que tienes acceso a una copia de seguridad físi
 
 Si no sabes qué es una frase de contraseña BIP39, o si no te queda del todo claro cómo funciona, te recomiendo encarecidamente que eches un vistazo antes a este tutorial, que cubre las bases teóricas necesarias para entender los riesgos asociados al uso de una frase de contraseña :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Ten en cuenta que una vez que hayas configurado la frase de contraseña en tu monedero, tu mnemotécnica por sí sola no será suficiente para recuperar el acceso a tus bitcoins. Necesitarás tanto la mnemotecnia como la frase de contraseña. Es más, tendrá que introducir la frase de contraseña cada vez que desbloquee su COLDCARD Q. Esto refuerza la seguridad haciendo que el acceso físico a la COLDCARD y el conocimiento del PIN sean insuficientes sin la frase de contraseña.
 
@@ -28,7 +28,7 @@ En las COLDCARD, tiene dos opciones para gestionar su frase de contraseña:
 
 1. **Entrada clásica:** Usted introduce la frase de contraseña manualmente cada vez que utiliza su monedero físico, al igual que hace con otros monederos físicos. COLDCARD Q simplifica esta tarea con su teclado completo.
 
-2. **Puedes elegir encriptar tu frase de contraseña y almacenarla en una tarjeta microSD. En este caso, tendrá que insertar la microSD en la COLDCARD Q cada vez que la utilice. Tenga en cuenta que esta microSD sólo funcionará en su COLDCARD Q y no es una copia de seguridad. Por lo tanto, es muy importante que también guarde una copia de su frase de contraseña en un soporte físico, como papel o metal.
+2. **Puedes elegir encriptar tu frase de contraseña y almacenarla en una tarjeta microSD. En este caso, tendrá que insertar la microSD en la COLDCARD Q cada vez que la utilice. Tenga en cuenta que esta microSD sólo funcionará en su COLDCARD Q y no es una copia de seguridad. Por lo tanto, es muy importante que también guarde una copia de su frase de contraseña en un soporte físico, como papel o metal.**
 
 Para configurar su frase de contraseña BIP39, acceda al menú "*Frase de contraseña*".
 
@@ -68,7 +68,7 @@ Confirme que la huella digital mostrada coincide con la de su monedero y haga cl
 
 Ten en cuenta que utilizar una frase de contraseña significa que tendrás que importar un nuevo conjunto de claves derivadas de la combinación de tu frase mnemotécnica y la frase de contraseña a tu software de gestión de monederos (como Sparrow Wallet). Para ello, sigue el paso "*Configurar un nuevo monedero en Sparrow*" en este otro tutorial :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Opciones de desbloqueo
 
@@ -102,7 +102,7 @@ A continuación, elija la acción que se realizará automáticamente cada vez qu
  - "*Wipe & Reboot* : Elimina la semilla y reinicia la COLDCARD sin mostrar ninguna información en la pantalla.
  - "Borrado Silencioso": Borra silenciosamente la semilla, y desbloquea la COLDCARD en una cartera falsa aleatoria como si nada hubiera pasado.
  - "*Wipe -> Wallet*": Elimina la semilla discretamente y desbloquea la COLDCARD en un monedero secundario preconfigurado, diseñado como cebo. Este monedero puede contener una pequeña parte de tus ahorros en bitcoins para satisfacer a un atacante.
- - "Semilla borrada, Stop*": Borra la semilla y muestra en pantalla el mensaje `Se ha borrado la semilla, Stop`.
+- "Semilla borrada, Stop": Borra la semilla y muestra en pantalla el mensaje `Se ha borrado la semilla, Stop`.
 
 ![CCQ](assets/fr/15.webp)
 
@@ -247,4 +247,4 @@ Si este tutorial te ha resultado útil, te agradecería mucho que dejaras un pul
 
 También recomiendo este otro tutorial, en el que se discute el uso de un competidor directo de CCQ, Ledger Flex :
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

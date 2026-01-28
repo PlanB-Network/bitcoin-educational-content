@@ -1,11 +1,15 @@
-question: Pourquoi la confidentialité est-elle importante dans le contexte du Bitcoin ?
-answer: Pour minimiser le risque que vos fonds soient tracés.
+question: Pourquoi devriez-vous acheter des bitcoins non-KYC ?
+answer: Pour garantir votre vie privée.
 wrong_answers:
-  - Pour diminuer la valeur de vos bitcoins.
-  - Pour empêcher vos bitcoins d'être volés.
-  - Pour payer des impôts sur vos bitcoins.
+  - Pour garantir l'enregistrement de tous les utilisateurs de Bitcoin.
+  - Pour acheter à bas prix.
+  - Pour vendre à bas prix.
 explanation: |
-  La confidentialité est importante dans le contexte du Bitcoin pour minimiser
-  les risques que vos fonds soient tracés, ce qui peut faciliter
-  votre surveillance.
+  Acheter des bitcoins non-KYC signifie acquérir des bitcoins sans
+  passer par les procédures de vérification standard Connaître Votre Client
+  (Know Your Customer) que de nombreuses bourses et plateformes
+  exigent. Une raison principale pour laquelle les individus pourraient choisir cette
+  voie est de maintenir leur vie privée, en s'assurant que leurs
+  informations personnelles et activités financières restent
+  non divulgués.
 reviewed: true

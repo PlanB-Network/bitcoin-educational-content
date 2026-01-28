@@ -14,13 +14,13 @@ Veri toplamanın dijital çağında, çevrimiçi gizlilik biz İnternet kullanı
 
 
 
-Sanal Özel Ağ*** (VPN), farklı yerel ağlara bağlı uzak bilgisayarlar arasında doğrudan bir bağlantı oluşturmak için kullanılan bir sistemdir. Başka bir deyişle, alışverişlerinizi İnternet'teki trafiğin geri kalanından izole eden ve şifreleyen bir sistemdir. VPN'ler, kullanımları ve kullanmanın faydaları hakkında daha fazla bilgi edinmek için SCU 101 kursuna bir göz atın:
+**Sanal Özel Ağ** (VPN), farklı yerel ağlara bağlı uzak bilgisayarlar arasında doğrudan bir bağlantı oluşturmak için kullanılan bir sistemdir. Başka bir deyişle, alışverişlerinizi İnternet'teki trafiğin geri kalanından izole eden ve şifreleyen bir sistemdir. VPN'ler, kullanımları ve kullanmanın faydaları hakkında daha fazla bilgi edinmek için SCU 101 kursuna bir göz atın:
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Bu ilkeye dayanan [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/), 2020 yılında Mozilla Vakfı tarafından geliştirilen açık kaynaklı bir VPN hizmetidir. Üzerinde mevcuttur:
+Bu ilkeye dayanan [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/), 2020 yılında Mozilla Vakfı tarafından geliştirilen açık kaynaklı bir VPN hizmetidir. Üzerinde mevcuttur:
 
 
 
@@ -153,7 +153,7 @@ Mozilla VPN, konumunuzu iki biçimde seçmenize olanak tanır:
 
 
 
-- Single-Hop: bilgisayarınızın IP Address'sını yeniden konumlandırır ve verileri seçilen belirli bir bölgedeki (örneğimizde Belarus'taki Sofya) bir sunucuya şifreler.
+- Single-Hop: bilgisayarınızın IP Address'sını yeniden konumlandırır ve verileri seçilen belirli bir bölgedeki (örneğimizde Bulgaristan'daki Sofya) bir sunucuya şifreler.
 
 
 
@@ -191,4 +191,4 @@ Artık internette güvenli ve gizli bir şekilde gezinmeye hazırsınız. Bu eğ
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

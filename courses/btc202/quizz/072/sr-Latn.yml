@@ -1,0 +1,9 @@
+question: Koji mehanizam se može koristiti za učitavanje snimka UTXO seta kako bi čvor brzo bio upotrebljiv?
+answer: assumeutxo
+wrong_answers:
+  - pretpostavljastanjelanac
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo učitava snimak UTXO skupa kako bi čvor brzo počeo sa radom, dok u pozadini obnavlja kompletan UTXO skup.
+reviewed: true

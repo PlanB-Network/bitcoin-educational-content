@@ -1,11 +1,10 @@
-question: Hva er de tre hovedfunksjonene til en Bitcoin-lommebok?
-answer: Motta bitcoins, sende bitcoins, sikre dem mot hacking og tyveriforsøk
+question: Hvordan kan du styrke standard sikkerheten til din Bitcoin-lommebok?
+answer: Ved å legge til en passfrase til din Bitcoin-lommebok
 wrong_answers:
-  - Lagre bitcoins, tillate sending av bitcoins, sikre dem mot hacking og tyveriforsøk
-  - Tillate mottak av bitcoins, lagre bitcoins, sikre dem mot hacking og tyveriforsøk
-  - Tillate mottak av bitcoins, tillate sending av bitcoins, selge bitcoins
+  - Ved å legge til en andre privatnøkkel til din Bitcoin-lommebok
+  - Ved å legge til en andre offentlig nøkkel til din Bitcoin-lommebok
+  - Ved å legge til en andre mnemonic frase til din Bitcoin-lommebok
 explanation: |
-  En Bitcoin-lommebok brukes til å samhandle med Bitcoin-nettverket. Dens tre
-  hovedfunksjoner er å tillate mottak av bitcoins, tillate sending av bitcoins, og sikre
-  dem mot hacking og tyveriforsøk.
+  Hvis du ikke er fornøyd med standard sikkerheten til din Bitcoin-lommebok,
+  kan du alltid styrke den ved å legge til en passfrase til din Bitcoin-lommebok.
 reviewed: true

@@ -1,12 +1,12 @@
-question: What are the entities in charge of issuing fiduciary currencies?
-answer: Central banks.
+question: What is the potential outcome of a sudden depreciation or a loss of confidence in a fiduciary currency?
+answer: Hyperinflation.
 wrong_answers:
-  - Commercial banks.
-  - Governments.
-  - Private Institutions.
+  - Deflation.
+  - A stable economy.
+  - An increase in the value of the currency.
 explanation: |
-  Central banks are the entities in charge of issuing a
-  fiduciary currency. They decide the monetary policy and
-  determine how much money should be put into circulation or
-  printed.
+  A sudden devaluation or a loss of confidence in a fiduciary
+  currency can lead to hyperinflation. This is a situation
+  where the prices of goods and services increase at an
+  extremely high rate, often leading to economic instability.
 reviewed: true

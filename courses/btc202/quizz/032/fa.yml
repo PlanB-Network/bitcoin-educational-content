@@ -1,0 +1,9 @@
+question: کدام راه‌حل node-in-a-box امروز رهبر بازار است؟
+answer: Umbrel
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  آمبرل به دلیل سهولت نصب و فروشگاه برنامه غنی خود، محبوب‌ترین راه‌حل نود-در-یک-جعبه است.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen etu Taproot:n ja MuSig2:n käyttämisessä kerrosten väliseen vaihtoon verrattuna vanhoihin SegWit v0 HTLC:iin?
+answer: Yhteistoiminnalliset swapit näkyvät tavanomaisina yhden allekirjoituksen transaktioina, mikä takaa täydellisen yksityisyyden ja minimaalisen lohkotilan käytön
+wrong_answers:
+  - Taproot eliminoi aikalukkojen tarpeen, mikä tekee vaihdoista nopeampia ja tehokkaampia kuin perinteiset HTLC:t
+  - MuSig2 mahdollistaa useiden hash-lukkojen samanaikaisen käytön, mikä mahdollistaa monimutkaisemmat monen osapuolen swap-järjestelyt
+  - Taproot-vaihdot voidaan suorittaa paljastamatta kryptografisia salaisuuksia, toisin kuin perinteiset HTLC:t, jotka paljastavat aina ennakkokuvat
+explanation: |
+  Taproot ja MuSig2 mullistavat HTLC:n yksityisyyden suojan avainten yhdistämisen avulla. Yhteistyöhön perustuvassa "onnellisessa polussa" molemmat osapuolet yhdistävät avaimensa yhdeksi yhdistetyksi julkiseksi avaimeksi ja allekirjoittavat tapahtuman yhdessä. Näin vaihtoa ei voi erottaa tavallisesta maksusta, ja se vie vain vähän lohkotilaa eikä paljasta vaihto-olosuhteita. Vanhat SegWit v0 HTLC:t edellyttivät koko on-chain-skriptilogiikan julkaisemista, mikä teki niistä helposti tunnistettavia ja kalliimpia. Muut vaihtoehdot ovat virheellisiä: aikalukot ovat edelleen välttämättömiä turvallisuuden kannalta, useat hash-lukot eivät ole keskeinen uudistus, ja ennakkokuvat paljastuvat edelleen varoja vaadittaessa.

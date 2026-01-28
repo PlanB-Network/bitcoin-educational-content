@@ -1,0 +1,9 @@
+question: 하위 키를 도출할 때 인덱스의 목적은 무엇인가요?
+answer: 형제 키 쌍 구별하기
+wrong_answers:
+  - 키의 특성(공개 또는 비공개)을 식별합니다
+  - 키의 보안 수준 지정
+  - 추가 Layer의 보안 추가
+explanation: |
+  인덱스를 사용하면 동일한 부모 쌍에서 파생된 자식 키를 구분할 수 있습니다.
+reviewed: false

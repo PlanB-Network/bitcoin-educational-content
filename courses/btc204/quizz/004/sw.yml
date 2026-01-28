@@ -6,4 +6,4 @@ wrong_answers:
   - Kupitia uthibitishaji wa kitambulisho cha mtumiaji.
 explanation: |
   Matokeo ya muamala wa Bitcoin ni UTXO ambazo zimelindwa kwa hati. Hati hii inahitaji masharti ya matumizi yaliyofafanuliwa awali yatimizwe ili kutumia UTXO.
-reviewed: false
+reviewed: true

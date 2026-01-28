@@ -1,0 +1,8 @@
+question: Katika mchakato wa uthibitishaji wa sahihi wa ECDSA, ni uhusiano gani wa kihisabati ambao lazima udumu ili sahihi ionekane kuwa halali?
+answer: Kiwia-x cha UG + VP lazima kiwe sawa na R, ambapo U = Z/S na V = R/S
+wrong_answers:
+  - Kiwia-y cha UG + VP lazima kiwe sawa na S, ambapo U = R/Z na V = S/Z
+  - Kiwia-x cha KG + ZP lazima kiwe sawa na S, ambapo K ni nonce na Z ni hash
+  - Jumla ya R + S lazima iwe sawa na mratibu wa x wa nukta muhimu ya umma P
+explanation: |
+  Uthibitishaji wa ECDSA hufanya kazi kwa kujenga upya nukta asili KG kupitia mlinganyo UG + VP, ambapo U = Z/S (hashi imegawanywa na S) na V = R/S. Ikiwa mratibu wa x wa nukta hii iliyojengwa upya ni sawa na R kutoka kwa sahihi, uthibitisho unafanikiwa. Uhusiano huu wa hisabati huruhusu uthibitisho bila kujua ufunguo wa kibinafsi au nonce K, kwani aljebra hujenga upya K moja kwa moja kupitia vipengele vya ufunguo wa umma na sahihi.

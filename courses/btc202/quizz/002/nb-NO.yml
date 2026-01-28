@@ -1,0 +1,9 @@
+question: Hvilken database har en Bitcoin-node lokalt for å spore ubrukt produksjon?
+answer: UTXO-settet
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Wallets historie
+explanation: |
+  Noden beholder UTXO-settet, som er settet med ubrukte utganger som er tilgjengelige for fremtidige transaksjoner.
+reviewed: true

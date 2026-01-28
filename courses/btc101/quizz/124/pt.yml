@@ -1,10 +1,12 @@
-question: Qual é a versão do primeiro software Bitcoin lançado?
-answer: Bitcoin-0.1.0.
+question: Qual é o papel de um nó Bitcoin na rede Bitcoin?
+answer: Ele valida novos blocos e transações incluídas.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
-  O primeiro software Bitcoin lançado foi o Bitcoin-0.1.0. Foi anunciado
-  por Satoshi Nakamoto em 8 de janeiro de 2009.
+  - Ele cria novos Bitcoins e os coloca nos blocos.
+  - Ele regula o preço do Bitcoin.
+  - Ele gerencia a rede Bitcoin.
+explanation: |
+  Um nó Bitcoin na rede Bitcoin lida com a
+  validação de novos blocos e transações incluídas. É
+  esta rede de nós Bitcoin que a torna verdadeiramente
+  descentralizada.
 reviewed: true

@@ -1,8 +1,0 @@
-question: Kakvu mrežu kreira Lightning mreža?
-answer: Mreža platnih kanala.
-wrong_answers:
-  - Mreža rudarskih čvorova.
-  - Mreža Blockchain čvorova.
-  - Mreža kriptovalutnih berzi.
-explanation: >-
-reviewed: true

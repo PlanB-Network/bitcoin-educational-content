@@ -1,14 +1,14 @@
 ---
-name: Profesa Plan ₿ Network
-description: Je, ninawezaje kuongeza au kurekebisha wasifu wangu wa mwalimu kwenye Plan ₿ Network?
+name: Profesa Plan ₿ Academy
+description: Je, ninawezaje kuongeza au kurekebisha wasifu wangu wa mwalimu kwenye Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
 
-Ikiwa unapanga kuchangia Plan ₿ Network kwa kuandika mafunzo au kozi mpya, utahitaji wasifu wa mwalimu. Wasifu huu utakuwezesha kupokea mikopo inayofaa kwa maudhui unayochangia kwenye jukwaa.
+Ikiwa unapanga kuchangia Plan ₿ Academy kwa kuandika mafunzo au kozi mpya, utahitaji wasifu wa mwalimu. Wasifu huu utakuwezesha kupokea mikopo inayofaa kwa maudhui unayochangia kwenye jukwaa.
 
 
-Kwa wale ambao tayari wamehusika katika kuunda maudhui ya elimu kwenye Plan ₿ Network, labda tayari una wasifu wa mwalimu. Unaweza kuipata kwenye folda ya `/maprofesa` [kwenye hazina yetu ya GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Ikiwa wasifu wako tayari upo, tafuta kuingia kwako katika faili ya `professor.yml`.
+Kwa wale ambao tayari wamehusika katika kuunda maudhui ya elimu kwenye Plan ₿ Academy, labda tayari una wasifu wa mwalimu. Unaweza kuipata kwenye folda ya `/maprofesa` [kwenye hazina yetu ya GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Ikiwa wasifu wako tayari upo, tafuta kuingia kwako katika faili ya `professor.yml`.
 
 
 Ili kufanya mabadiliko kwenye wasifu wako, nenda kwenye sehemu ya "Hariri wasifu wako wa mwalimu" mwishoni mwa mafunzo haya.
@@ -17,13 +17,13 @@ Ili kufanya mabadiliko kwenye wasifu wako, nenda kwenye sehemu ya "Hariri wasifu
 ## Ongeza mwalimu mpya na programu yetu
 
 
-Njia rahisi zaidi ya kuunda wasifu wako wa mwalimu kwenye Plan ₿ Network ni kutumia zana iliyojumuishwa ya Python. Hivi ndivyo inavyofanya kazi.
+Njia rahisi zaidi ya kuunda wasifu wako wa mwalimu kwenye Plan ₿ Academy ni kutumia zana iliyojumuishwa ya Python. Hivi ndivyo inavyofanya kazi.
 
 
 ### 1 - Sanidi mazingira ya eneo lako
 
 
-Ni lazima uwe na Fork yako mwenyewe kutoka [Plan ₿ Network hazina kwenye GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
+Ni lazima uwe na Fork yako mwenyewe kutoka [Plan ₿ Academy hazina kwenye GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Sawazisha tawi kuu (`dev`) la Fork yako na hazina ya chanzo.
@@ -87,7 +87,7 @@ python3 main.py
 ```
 
 
-Ukiwa kwenye ukurasa wa nyumbani, ingiza njia ya ndani ya hifadhi yako, lugha unayoandika na kitambulisho chako cha GitHub. Ikiwa unaunda wasifu huu kwa ajili ya mtu mwingine na tayari una wasifu wa Profesa, weka kitambulisho chako katika sehemu ya "*Kitambulisho cha Profesa wa PBN*". Ikiwa unaunda wasifu wako mwenyewe, bado hutakuwa na kitambulisho cha Profesa, kwa kuwa uko katika harakati za kuunda, kwa hivyo acha sehemu hii wazi.
+Ukiwa kwenye ukurasa wa nyumbani, ingiza njia ya ndani ya hifadhi yako, lugha unayoandika na kitambulisho chako cha GitHub. Ikiwa unaunda wasifu huu kwa ajili ya mtu mwingine na tayari una wasifu wa Profesa, weka kitambulisho chako katika sehemu ya "*Kitambulisho cha Profesa wa Plan ₿ Academy*". Ikiwa unaunda wasifu wako mwenyewe, bado hutakuwa na kitambulisho cha Profesa, kwa kuwa uko katika harakati za kuunda, kwa hivyo acha sehemu hii wazi.
 
 
 Kisha bonyeza kitufe cha "*Profesa Mpya*".
@@ -156,8 +156,8 @@ Ikiwa umefahamu matumizi ya Git, rekebisha wasifu wako wa mwalimu kwa kuunda taw
 Kwa wanaoanza, ninapendekeza kufanya marekebisho moja kwa moja kupitia mtandao wa Interface wa GitHub. Hakikisha una akaunti ya GitHub. Ikiwa hujui jinsi ya kuunda moja, fuata mafunzo haya:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Nenda kwenye [hakuna ya Plan ₿ Network ya GitHub iliyowekwa kwa data](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Nenda kwenye [hakuna ya Plan ₿ Academy ya GitHub iliyowekwa kwa data](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 
 ![Image](assets/fr/03.webp)
@@ -184,7 +184,7 @@ Mara tu kwenye faili unayotaka kurekebisha, bonyeza kwenye ikoni ya penseli.
 ![Image](assets/fr/06.webp)
 
 
-Ikiwa tayari huna Fork kutoka hazina ya Plan ₿ Network, GitHub itapendekeza uunde moja. Bonyeza "*Fork hazina hii*".
+Ikiwa tayari huna Fork kutoka hazina ya Plan ₿ Academy, GitHub itapendekeza uunde moja. Bonyeza "*Fork hazina hii*".
 
 
 ![Image](assets/fr/07.webp)
@@ -205,13 +205,13 @@ Ingiza ujumbe unaoelezea mabadiliko yako, kisha uchague "*Pendekeza mabadiliko*"
 Muhtasari wa mabadiliko yako utaonyeshwa. Ikiwa ungependa kufanya mabadiliko zaidi kwenye wasifu wako, unaweza kurudi kwenye folda na kufanya ahadi zaidi. Ukimaliza, bofya "*Unda ombi la kuvuta*".
 
 
-Ombi la Kuvuta ni ombi linalofanywa ili kujumuisha mabadiliko kutoka kwa tawi lako hadi tawi kuu la hazina ya Plan ₿ Network, ikiruhusu ukaguzi na majadiliano ya mabadiliko kabla ya kuunganishwa.
+Ombi la Kuvuta ni ombi linalofanywa ili kujumuisha mabadiliko kutoka kwa tawi lako hadi tawi kuu la hazina ya Plan ₿ Academy, ikiruhusu ukaguzi na majadiliano ya mabadiliko kabla ya kuunganishwa.
 
 
 ![Image](assets/fr/10.webp)
 
 
-Hakikisha, katika sehemu ya juu ya Interface, kwamba tawi lako la kazi limeunganishwa na tawi la `dev` la hazina ya Plan ₿ Network (ambalo ndilo tawi kuu).
+Hakikisha, katika sehemu ya juu ya Interface, kwamba tawi lako la kazi limeunganishwa na tawi la `dev` la hazina ya Plan ₿ Academy (ambalo ndilo tawi kuu).
 
 
 Weka jina ambalo linatoa muhtasari wa mabadiliko unayotaka kuunganisha na hazina ya chanzo. Ongeza maoni mafupi yanayoelezea mabadiliko haya, kisha ubofye kitufe cha Green "*Unda ombi la kuvuta*" ili kuthibitisha ombi la kuvuta:
@@ -220,7 +220,7 @@ Weka jina ambalo linatoa muhtasari wa mabadiliko unayotaka kuunganisha na hazina
 ![Image](assets/fr/11.webp)
 
 
-PR yako kisha itaonekana kwenye kichupo cha "*Vuta Ombi*" cha hazina kuu ya Plan ₿ Network. Unachotakiwa kufanya sasa ni kusubiri msimamizi aunganishe urekebishaji wako.
+PR yako kisha itaonekana kwenye kichupo cha "*Vuta Ombi*" cha hazina kuu ya Plan ₿ Academy. Unachotakiwa kufanya sasa ni kusubiri msimamizi aunganishe urekebishaji wako.
 
 
 ![Image](assets/fr/12.webp)

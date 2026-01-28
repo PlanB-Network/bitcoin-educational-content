@@ -1,0 +1,9 @@
+question: Milline komponent on soovitatav sõlme kaitsmiseks voolukatkestuse korral?
+answer: Inverter
+wrong_answers:
+  - Teine graafikakaart
+  - Täiendav marsruuter
+  - USB-keskjaam
+explanation: |
+  Inverter takistab ootamatuid väljalülitusi voolukatkestuse korral ja kaitseb sõlme stabiilsust.
+reviewed: true

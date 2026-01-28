@@ -5,5 +5,5 @@ wrong_answers:
   - Watumiaji lazima wapate idhini kutoka kwa vyombo vingi vya serikali ili kukamilisha muamala.
   - Mshiriki yeyote anaweza kuhariri miamala ya awali atakavyo, ikiwa ana msimbo maalum.
 explanation: |
-  Bitcoin s Blockchain ni Ledger isiyoweza kuchezewa. Baada ya shughuli kuthibitishwa na kujumuishwa kwenye kizuizi, inakuwa sehemu ya rekodi ya kudumu, ambayo inahakikisha ukamilifu.
-reviewed: false
+  Bitcoin  Blockchain ni Ledger isiyoweza kuchezewa. Baada ya muamala kuthibitishwa na kujumuishwa kwenye block, inakuwa sehemu ya rekodi ya kudumu, ambayo inahakikisha ukamilifu.
+reviewed: true

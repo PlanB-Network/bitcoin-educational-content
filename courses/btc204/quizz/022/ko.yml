@@ -1,0 +1,9 @@
+question: 입력에 단일 UTXO, 출력에 단일 UTXO으로 구성된 패턴의 이름은 무엇인가요?
+answer: 스윕
+wrong_answers:
+  - 통합
+  - CoinJoin
+  - 일괄 지출
+explanation: |
+  이 구조에 대한 해석은 비트코인의 자체 전송을 포함하는 스윕이 진행되고 있음을 시사합니다.
+reviewed: true

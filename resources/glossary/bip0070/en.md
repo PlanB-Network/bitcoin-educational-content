@@ -2,4 +2,8 @@
 term: BIP0070
 ---
 
-Interactive payment protocol for Bitcoin. It enables the sending of payment requests and the secure and standardized receipt of payments. In this protocol, the client clicks on a Bitcoin URI (BIP21) extended with an additional parameter (described in BIP72). The payment request is signed with the merchant's SSL certificate. Upon receiving and validating this request, the payment details are automatically filled in the client's wallet transaction interface. This protocol provides payment confirmation and enhances security and user experience by clarifying the payment's beneficiary entity. This method proposed in BIP70 was never widely adopted by merchants.
+Interactive payment protocol for Bitcoin. 
+It enables merchants to send payment requests and receive payments in a secure and standardized way. 
+In this protocol, the customer clicks on a Bitcoin URI (BIP21) extended with an additional parameter (described in BIP72). The payment request is signed with the merchant's SSL certificate. Once the wallet receives and validates this request, the payment details are automatically populated in the customer's wallet interface. 
+This protocol provides payment confirmation and improves both security and user experience by clearly identifying the payment recipient.
+However, BIP70 was never widely adopted by merchants.

@@ -1,11 +1,12 @@
-question: Nini kilifanyika kwa dola ya Zimbabwe mwezi Aprili 2009?
-answer: Waziri wa Fedha alitangaza kusimamishwa kwa dola ya Zimbabwe na kuidhinisha matumizi ya sarafu tofauti za kigeni kwa biashara.
+question: Bitcoin inalingana na kanuni gani za kiuchumi?
+answer: Kanuni za uchumi wa Austria.
 wrong_answers:
-  - Dola ya Zimbabwe iliporomoka kwa zaidi ya 72%.
-  - Serikali ilikubali kuwafidia maveterani wa vita kwa kiasi sawa na dola milioni 450 za Marekani.
-  - Ilibidi serikali iamue kuendesha mashine ya uchapishaji.
+  - Kanuni za uchumi wa Keynesi.
+  - Kanuni za uchumi wa Kimaksi.
+  - Kanuni za Uchumi wa Neoclassical.
 explanation: |
-  Mnamo Aprili 2009, Waziri wa Fedha alitangaza
-  kusimamishwa kwa dola ya Zimbabwe na kuidhinisha matumizi
-  ya fedha mbalimbali za kigeni kwa ajili ya biashara.
+  Bitcoin inalingana na kanuni za uchumi wa Austria.
+  Kiasi chake kilichofungwa na ukosefu wa chombo kikuu huilinda
+  kutokana na hatari za asili za mfumuko wa bei zinazoonekana
+  sarafu za jadi.
 reviewed: true

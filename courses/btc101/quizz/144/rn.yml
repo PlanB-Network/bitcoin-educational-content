@@ -1,8 +1,8 @@
-question: Ni ubuhe bandwidth ikenewe kugira ngo umuntu akoreshe node ya Bitcoin, uzirikanye block 1 ya 1MB buri minota 10?
-answer: Nk’ibice 5GB ku kwezi.
+question: None Proof of Work (POW) ni iki?
+answer: Ni ukwiyumvira kw’umutekano kw’amasezerano ya Bitcoin.
 wrong_answers:
-  - Nk’i 1GB ku kwezi.
-  - Nk’ibice 10GB ku kwezi.
-  - Nk’ama 20GB ku kwezi.
+  - Ni inzira yo kurema ama bitcoins mashasha.
+  - Ni uburyo bwo kugenzura amafaranga y’ibikorwa vya Bitcoin.
+  - Ni ubuhinga bukoreshwa mu gucukura ama bitcoins.
 explanation: >-
 reviewed: true

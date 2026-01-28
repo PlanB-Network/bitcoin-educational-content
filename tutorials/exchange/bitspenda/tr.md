@@ -35,7 +35,7 @@ BitSpenda, gizliliğinizi koruyarak Exchange Bitcoin ve Mobil Para işlemleriniz
 
 
 
-BitSpenda ile işlem yapmak oldukça sezgiseldir ve birkaç adım gerektirir. Resmi BitSpenda [web sitesinde] (https://bitspenda.app), "Başlat" düğmesine tıklayın ve Interface Exchange'a yönlendirileceksiniz.
+BitSpenda ile işlem yapmak oldukça sezgiseldir ve birkaç adım gerektirir. Resmi BitSpenda [web sitesinde](https://bitspenda.app), "Başlat" düğmesine tıklayın ve Interface Exchange'a yönlendirileceksiniz.
 
 
 
@@ -98,9 +98,9 @@ Ardından Exchange'inizi onaylamak için doldurduğunuz bilgileri kontrol edin.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### Kenya'da M-Pesa
 
@@ -177,15 +177,15 @@ Exchange numaranızı ve tutarınızı kontrol edip onaylayın, ardından Exchan
 
 
 
-BitSpenda aracılığıyla [Bitcoin Dua] (https://www.bitcoindua.org/), Afrika'da Bitcoin'nin benimsenmesi için ideal bir çerçeve oluşturmayı amaçlamaktadır. BitSpenda esas olarak şunun için öne çıkmaktadır:
+BitSpenda aracılığıyla [Bitcoin Dua](https://www.bitcoindua.org/), Afrika'da Bitcoin'nin benimsenmesi için ideal bir çerçeve oluşturmayı amaçlamaktadır. BitSpenda esas olarak şunun için öne çıkmaktadır:
 
 
 
 
-- Gizlilik**: Platformda bir hesap oluşturmanız gerekmez, kimliğinizi doğrulamanız gerekmez ve herhangi bir kişisel bilgi vermeniz gerekmez.
-- Özgürlük**: BitSpenda'yı herhangi bir ülkeden Gana, Nijerya ve Kenya'ya işlem yapmak için kullanabilirsiniz.
-- Hız**: Lightning ödemelerine güvenmek, BitSpenda'nın işlem sürelerini azaltmasını ve işlemleri anlık hale getirmesini sağladı.
-- Şeffaflık**: BitSpenda'da gerçekleştirdiğiniz tüm işlemler, bu işlemlerin ilerleyişini izlemenizi ve takip etmenizi sağlayan benzersiz tanımlayıcılarla ilişkilendirilir. Bu tanımlayıcıları [X'teki uygulama desteği] (https://x.com/bitspenda) ile iletişime geçmek için de kullanabilirsiniz.
+- **Gizlilik**: Platformda bir hesap oluşturmanız gerekmez, kimliğinizi doğrulamanız gerekmez ve herhangi bir kişisel bilgi vermeniz gerekmez.
+- **Özgürlük**: BitSpenda'yı herhangi bir ülkeden Gana, Nijerya ve Kenya'ya işlem yapmak için kullanabilirsiniz.
+- **Hız**: Lightning ödemelerine güvenmek, BitSpenda'nın işlem sürelerini azaltmasını ve işlemleri anlık hale getirmesini sağladı.
+- **Şeffaflık**: BitSpenda'da gerçekleştirdiğiniz tüm işlemler, bu işlemlerin ilerleyişini izlemenizi ve takip etmenizi sağlayan benzersiz tanımlayıcılarla ilişkilendirilir. Bu tanımlayıcıları [X'teki uygulama desteği](https://x.com/bitspenda) ile iletişime geçmek için de kullanabilirsiniz.
 
 
 
@@ -197,4 +197,4 @@ Afrika topluluklarında BitSpenda gibi birçok başka girişim ve çözüm ortay
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

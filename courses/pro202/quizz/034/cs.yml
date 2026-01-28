@@ -1,0 +1,8 @@
+question: Jaký specifický prvek musí být obsažen v P2SH ScriptSig, který jej odlišuje od běžných transakčních vstupů?
+answer: Kompletní skript pro vykoupení spolu s údaji pro odemknutí
+wrong_answers:
+  - HASH160 skriptu redeem a veřejných klíčů
+  - Pouze podpisy a veřejné klíče potřebné ke splnění podmínek
+  - Bajt verze a kódování adresy pro ověření P2SH
+explanation: |
+  Vstupy P2SH vyžadují odemykací údaje (podpisy atd.) A kompletní skript pro vykoupení v modulu ScriptSig. To je jedinečné, protože skript vykoupení byl dříve skryt za hashem a nyní musí být pro ověření odhalen. V prvním kroku ověření se zkontroluje, zda HASH160(redeem_script) odpovídá hash ve scriptPubKey, a poté se spustí skript redeem s poskytnutými odemykacími údaji. Ostatní možnosti jsou nesprávné: hash je již v původním skriptPubKey, samotné podpisy bez skriptu nestačí a bajty verze se používají pro kódování adresy, nikoli pro ověření výdajů.

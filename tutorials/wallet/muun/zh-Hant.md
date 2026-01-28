@@ -7,10 +7,10 @@ description: 設定您的 Muun Wallet
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) 是 Bitcoin 和閃電的自我監護 Wallet。
+[Muun](https://muun.com/) 是一個比特幣和閃電網路的自我託管錢包。
 
 
-## 視訊教學
+## 視頻教學
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
@@ -19,7 +19,7 @@ Muun (https://muun.com/) 是 Bitcoin 和閃電的自我監護 Wallet。
 ## Muun Wallet - 完整使用指南
 
 
-Muun 應用程式的完整使用者指南 (含螢幕截圖)；方便使用的行動版 Bitcoin Wallet，可讓您在 Lightning Network 上進行交易。
+Muun 應用程式的完整使用者指南（含螢幕截圖）；一個使用者友好的行動比特幣錢包，讓您能夠在閃電網路上進行交易。
 
 
 ![image](assets/0.5.webp)
@@ -182,19 +182,19 @@ Wallet 回收
 如果您無法在裝置上使用 Muun，此緊急程序將協助您取回資金。
 
 
-1.尋找您的復原碼
+- 找到您的恢復代碼
 
 
 在建立您的應急包之前，您在一張紙上寫下了這個代碼。您稍後會用到它。
 
 
-2.下載復原工具
+- 下載恢復工具
 
 
 前往 https://github.com/muun/recovery 頁面，將工具下載到您的電腦。
 
 
-3.收回您的資金
+- 恢復您的資金
 
 
 執行復原工具並按照步驟操作。該工具會將您的資金轉移到您選擇的 Bitcoin Address。
@@ -260,7 +260,7 @@ Wallet 回收
 ![image](assets/28.webp)
 
 
-## 使用 LNURL 函式
+## 使用LNURL功能
 
 
 Muun Wallet 提供使用 LNURL 接收交易的功能。點選位於頁面右上方的方形掃描符號即可啟動此功能，此功能有多項優點，包括可避免共用 Invoice 來接收交易。取而代之的是，您需要掃描 QR 碼來接收付款資訊，然後您可以驗證該 QR 碼來確認交易流程。

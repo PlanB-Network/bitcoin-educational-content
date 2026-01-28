@@ -1,12 +1,8 @@
-question: Madenciler henüz şebekeye bağlı olmayan enerji santralleri için ne yapabilir?
-answer: Son çare alıcı olarak hareket edebilirler.
+question: Bitcoin'ın belirli gruplar için cazip olmasının nedenlerinden biri nedir?
+answer: Trustless elektronik para, sansüre karşı direnç veya şeffaf ve değişmez para politikası gibi çözümler sunma yeteneği.
 wrong_answers:
-  - Enerji santrallerine elektrik sağlayabilirler.
-  - Enerji santrallerini şebekeye bağlayabilirler.
-  - Elektrik fiyatlarını düzenleyebilirler.
-explanation: |
-  Madenciler, enerji santralleri için son çare alıcı olarak hareket edebilirler
-  henüz şebekeye bağlı değildir. Bu sayede enerji santralleri
-  bağlanmadan önce bile finansman sağlamak için
-  elektrik şebekesi.
+  - Sahtesini yapmak kolaydır ve basit bir tıklama ile daha fazla para almak için çözümler yaratabilir.
+  - Sermayeyi kullanıcılara serbestçe dağıtan merkezi bir otorite tarafından kontrol edilir.
+  - Takma isimli değildir, bu nedenle her kullanıcı iyi bilinir ve güvenilirdir.
+explanation: >-
 reviewed: true

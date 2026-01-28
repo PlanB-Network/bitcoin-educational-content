@@ -1,13 +1,13 @@
-question: Qu'est-ce qu'un portefeuille chaud ?
-answer: Un portefeuille Bitcoin sur votre téléphone ou ordinateur connecté à internet.
+question: Quel est l'usage recommandé d'un portefeuille multisig ?
+answer: Stocker de grandes quantités pour un usage corporatif.
 wrong_answers:
-  - Un portefeuille qui est physiquement chaud au toucher.
-  - Un portefeuille qui est populaire parmi les utilisateurs de Bitcoin.
-  - Un portefeuille qui est recommandé pour stocker de grandes quantités de bitcoins.
+  - Stocker de petites quantités pour un usage personnel.
+  - Stocker des quantités moyennes pour un usage à but non lucratif.
+  - Stocker les dépenses quotidiennes pour un usage individuel.
 explanation: |
-  Un portefeuille chaud est un terme utilisé pour décrire un portefeuille Bitcoin
-  qui est stocké sur un appareil ayant accès à internet, tel qu'un
-  téléphone ou un ordinateur. De cette manière, il est facile de réaliser
-  des transactions, mais cela signifie également que le portefeuille est
-  potentiellement vulnérable aux menaces en ligne.
+  Un portefeuille multisig est recommandé pour stocker de grandes quantités
+  et pour un usage corporatif car il nécessite plusieurs
+  signatures pour effectuer une transaction. Ce processus ajoute une
+  couche supplémentaire de sécurité, car une seule personne ne peut pas
+  réaliser une transaction sans l'approbation des autres.
 reviewed: true

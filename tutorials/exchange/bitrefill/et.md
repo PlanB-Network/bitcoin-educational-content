@@ -6,7 +6,7 @@ description: Kuidas osta kaupu ja teenuseid BTC-ga kasutades Bitrefilli?
 
 Kuigi Bitcoini peetakse peamiselt säästmisvahendiks, on see siiski valuuta, mille kasulikkus seisneb selle võimes liikuda käest kätte. Kui kaupmehed teie ümber aktsepteerivad Bitcoini makseviisina, on teil võimalus seda otse nendega kulutada. Kahjuks ei ole see praktika veel laialt levinud ja enamik kaupmehi ei aktsepteeri BTC-d veel omal algatusel.
 
-Parim lahendus jääb kohalike kaupmeeste "oranžiks pilliks" muutmiseks, et panna neid Bitcoini aktsepteerima, selgitades selle süsteemi eeliseid. Saate toetuseks kasutada meie saidi jaotises ["*kaupmehed*"](https://planb.network/tutorials/merchant) saadaolevaid õpetusi. See strateegia võib olla tõhus väikeste iseseisvate kaupmeeste puhul, kuid suurte rahvuslike kettide puhul osutub see keerulisemaks, kuna kohapealsed kontaktid ei ole üldiselt need, kes otsustavad makseviiside üle.
+Parim lahendus jääb kohalike kaupmeeste "oranžiks pilliks" muutmiseks, et panna neid Bitcoini aktsepteerima, selgitades selle süsteemi eeliseid. Saate toetuseks kasutada meie saidi jaotises ["*kaupmehed*"](https://planb.academy/tutorials/merchant) saadaolevaid õpetusi. See strateegia võib olla tõhus väikeste iseseisvate kaupmeeste puhul, kuid suurte rahvuslike kettide puhul osutub see keerulisemaks, kuna kohapealsed kontaktid ei ole üldiselt need, kes otsustavad makseviiside üle.
 
 Oodates nende kettide laiemat omaksvõttu, saate oma bitcoine kulutada kasutades vahendajat: kinkekaarte. Ja just seda Bitrefill teile pakubki.
 
@@ -28,9 +28,9 @@ Sisestage e-posti aadress. Kui soovite oma konto anonüümseks jätta, veenduge,
 ![BITREFILL](assets/notext/05.webp)
 Kui soovite teada, kuidas hõlpsalt luua turvaline e-posti kast ja kuidas hallata oma paroole, soovitan konsulteerida nende kahe muu õpetusega:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Seejärel klõpsake nupul "*Loo konto*".
 ![BITREFILL](assets/notext/06.webp)
@@ -49,7 +49,7 @@ Jaotises "*Two factor authentication*" klõpsake nupul "*Enable*" ja järgige se
 ![BITREFILL](assets/notext/13.webp)
 Et rohkem teada saada, kuidas kahefaktorilist autentimist kasutades oma veebikontosid turvata, soovitan tutvuda selle teise õpetusega:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Kuidas osta Bitrefillis BTC eest kinkekaarti?
 
@@ -88,4 +88,4 @@ Ja nüüd teate, kuidas kulutada oma bitcoine ilma KYC-ta suurtes jaemüügikoht
 
 Kui soovite kaasa aidata Bitcoini populariseerimisele ja julgustada sõltumatut kaupmeest seda maksemeetodit omaks võtma, soovitan tutvuda meie täieliku õpetusega Swiss Bitcoin Pay kohta. See on kõik-ühes lahendus BTC maksetöötlejatele, lihtne paigaldada ja igapäevaselt hallata:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

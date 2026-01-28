@@ -1,12 +1,12 @@
-question: Ni itegeko irihe ryo kugenzura umubare w’ama bitcoins ariko aragendagenda ku nzira ya Bitcoin?
-answer: bitcoin-cli ironka amakuru y'inyuma.
+question: None Halving ya 7 izobera mu mwaka uwuhe?
+answer: 2036
 wrong_answers:
-  - bitcoin-cli kuronka amakuru y'uruzitiro.
-  - bitcoin-cli getwalletinfo.
-  - bitcoin-cli kuronka amakuru y'urubuga.
+  - 2032
+  - 2028
+  - 2048
 explanation: |
-  Itegeko ryo kugenzura umubare w’ama bitcoins mu 2019.
-  n’ugutembera ku nzira ya Bitcoin ni bitcoin-cli.
-  kuronka amakuru. Iri tegeko ritanga uguseruka kandi .
-  ubushobozi bwo kugenzura, gukomeza ukwizigira ubuhinga bwa Bitcoin.
+  Halving ya 7 ikwiye kuba mu 2036, kandi bigereranywa ko
+  igitigiri c’ibitabu Bitcoin bizokoreshwa kizoba ari 20.835.937,5, 20.00.
+  ivyo bizoba bihuye n’ibice 99,22 kw’ijana vy’ivyo vyose
+  Supply.
 reviewed: true

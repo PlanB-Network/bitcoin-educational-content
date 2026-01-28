@@ -3,6 +3,7 @@ id: 922b0564-84c6-11f0-8121-b7a29b946d30
 
 topic: protocol
 subtopic: client side validation
+type: practice
 level: expert
 hours: 14
 test_only: true
@@ -22,9 +23,199 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 1
+    reward: 7.26
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.74
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.53
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.53
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.74
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.74
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.74
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.53
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 36.17
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 28.96
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.53
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 36.17
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 28.96
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.74
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.74
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.74
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.53
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 36.17
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.74
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 28.96
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.53
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.74
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 28.96
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 36.17
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 28.96
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 28.96
 tags:
   - protocols
   - complex-DIY
   - technical-analysis
 
+videos:
+  - id: f45eeea0-6583-498b-af6a-c148cbe0ed00
+    youtube: []
+    peertube:
+      - en: fhfFF7SZJSdYqL4SdWYA8N
+  - id: aa81d3c5-27a6-46a2-9f7d-5097c2aa63ec
+    youtube: []
+    peertube:
+      - en: rQuTfJjASzq34tsan7VxV2
+  - id: 939fd065-61ec-42e0-9f19-543d7bb4f3fd
+    youtube: []
+    peertube:
+      - en: dpLSZpcyGEYk79ejXn2eft
+  - id: 70e894f7-3759-48fc-9fcb-a3a1b33a3214
+    youtube: []
+    peertube:
+      - en: mA2x1KboohWJmXUDJ9SQZf
+  - id: 30cca1f1-d4c8-4d9b-88d0-d8e9e4f4986b
+    youtube: []
+    peertube:
+      - en: mcPAU6CfXJXLfXEcLxVMaG
+  - id: c488fe53-5110-4e43-8b9c-7773d9969078
+    youtube: []
+    peertube:
+      - en: eXQFEHkp4hEpdYnYnMvFZd
+  - id: 42e7cc5c-18cf-47b0-9d42-879f14733cd5
+    youtube: []
+    peertube:
+      - en: ocXrhEsZQa4oa5sCQsSPbZ
+  - id: 3bc078b4-183d-4970-b63e-66862a452566
+    youtube: []
+    peertube:
+      - en: ityAbqrEZfPs93iawuDjoe
+  - id: 89819d63-3011-4ac6-a1f7-66babd2134b8
+    youtube: []
+    peertube:
+      - en: cHgAkdbDVYk48cqXgcuxfj
+  - id: 88cdc6ce-22f6-4ddd-90a3-da345a85eef1
+    youtube: []
+    peertube:
+      - en: aTm6QdPxbyppfLeCjfbh85
+  - id: db1c8655-eb0b-49a1-83e8-dc0b16a35582
+    youtube: []
+    peertube:
+      - en: 5vAeFUtoMWDQX8Qu7byGgh
+  - id: a9a437a4-1664-4786-a4a8-6e78082abe59
+    youtube: []
+    peertube:
+      - en: v7pAUKB85wcMy6D57ueJjc
+  - id: 03e4464a-7ce8-4fb1-889c-83f8a52ac315
+    youtube: []
+    peertube:
+      - en: jFzTjuZN22z35NNhNpcDHi
+  - id: df88fe13-4a2f-4251-82db-89ce07131947
+    youtube: []
+    peertube:
+      - en: mQmPyo5Z1S832UWykk2hAm
+  - id: 9b884ff3-fca1-4488-bdd9-bb1d27ed5af4
+    youtube: []
+    peertube:
+      - en: mHZmJo6wBXojdbwU8dRnLV
+  - id: 1694f29f-e009-4f0d-99d7-5cedb540c81a
+    youtube: []
+    peertube:
+      - en: vxWLYZxxNTBYAsR5V16Ahz

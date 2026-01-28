@@ -1,9 +1,11 @@
-question: Giai đoạn đầu tiên của hiện tượng lạm phát cực đoan là gì?
-answer: Mất niềm tin.
+question: Tỷ lệ lạm phát ở Hungary vào tháng 7 năm 1946 là bao nhiêu?
+answer: 41,900,000,000,000,000%
 wrong_answers:
-  - Sụp đổ của tiền tệ & tăng giá.
-  - Vòng luẩn quẩn của việc in tiền.
-  - Một đồng tiền mới xuất hiện.
+  - 207%
+  - 50%
+  - 100%
 explanation: |
-  Giai đoạn đầu tiên của lạm phát cực đoan là sự mất niềm tin vào một đồng tiền.
+  Tháng có tỷ lệ lạm phát cao nhất ở Hungary là tháng 7
+  năm 1946, với mức lạm phát kỷ lục là
+  41,900,000,000,000,000%.
 reviewed: true

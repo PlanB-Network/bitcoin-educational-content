@@ -1,0 +1,9 @@
+question: Hvilken faktor avgjør en nodes innflytelse på konsensusreglene?
+answer: Den økonomiske tyngden
+wrong_answers:
+  - Antall utgående forbindelser
+  - Ansiennitet i nettverket
+  - Ingenting, fordi hver node har én stemme
+explanation: |
+  Påvirkningen på konsensusreglene avhenger av den økonomiske aktiviteten som støttes av noden, ikke av antallet.
+reviewed: true

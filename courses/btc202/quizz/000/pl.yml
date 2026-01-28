@@ -1,0 +1,9 @@
+question: Jaki tytuł nosi biała księga Satoshi Nakamoto opublikowana w 2008 roku?
+answer: Bitcoin Elektroniczny system gotówkowy peer-to-peer
+wrong_answers:
+  - Bitcoin Zdecentralizowany cyfrowy system złota
+  - Bitcoin Przyszłość pieniądza
+  - Bitcoin A Sieć płatności oparta na Blockchain
+explanation: |
+  Biała księga Satoshi Nakamoto, Bitcoin A Peer-to-Peer Electronic Cash System, została opublikowana w 2008 roku.
+reviewed: true

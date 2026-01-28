@@ -1,0 +1,9 @@
+question: 哪裡有最活躍的 Umbrel 社區？
+answer: 關於 Discord 和線上論壇
+wrong_answers:
+  - 在 Instagram 上
+  - 關於 LinkedIn 和線上論壇
+  - 在 IRC 上
+explanation: |
+  Umbrel 在 Discord 及其線上論壇上擁有非常活躍的社群，使用者可在此獲得 Exchange 協助與支援。
+reviewed: true

@@ -1,9 +1,12 @@
-question: Qual é uma das iniciativas que contribuem para tornar a economia do Bitcoin mais acessível e conveniente para todos?
-answer: BTCMap.
+question: O que é uma compra espontânea?
+answer: Comprar Bitcoin imediatamente para obter exposição.
 wrong_answers:
-  - Bitcoin Exchange.
-  - Bitcoin Mining.
-  - BTCLottery.
-explanation: >-
-  BTCMap é uma das iniciativas que contribuem para tornar a economia do Bitcoin mais acessível e conveniente para todos. É um projeto de código aberto e colaborativo que lista todos os comerciantes que aceitam Bitcoin, bem como as diferentes comunidades de Bitcoin ao redor do mundo.
+  - Comprar Bitcoin em intervalos regulares.
+  - Comprar Bitcoin apenas quando o preço cai.
+  - Comprar Bitcoin apenas quando o preço sobe.
+explanation: |
+  O texto do curso explica que uma compra espontânea é
+  usada para obter exposição imediata ao Bitcoin. Por exemplo,
+  isso poderia significar comprar durante uma queda ou aproveitar
+  um bônus.
 reviewed: true

@@ -1,9 +1,12 @@
-question: Jaké jsou hlavní charakteristiky efektivní měny?
-answer: Směnitelná, Dělitelná, Likvidní.
+question: Proč Bitcoin není dnes široce přijímán v obchodě?
+answer: Protože není široce přijímán jednotlivci.
 wrong_answers:
-  - Směnitelná, Dělitelná, Kazitelná.
-  - Směnitelná, Nedělitelná, Likvidní.
-  - Nesměnitelná, Dělitelná, Likvidní.
+  - Protože není přenosný.
+  - Protože není dělitelný na malé jednotky.
+  - Protože není likvidní.
 explanation: |
-  Efektivní měna musí být směnitelná (vyměnitelná bez ztráty hodnoty), dělitelná (rozložitelná na malé části pro usnadnění transakcí různých objemů) a likvidní (snadno přeměnitelná na zboží nebo služby).
+  Navzdory svým vlastnostem, jako je striktně omezená
+  nabídka, Bitcoin stále není široce přijímán v obchodě
+  dnes, kvůli nedostatku přijetí jednotlivci, takže
+  obchodníci nejsou motivováni jej přijímat.
 reviewed: true

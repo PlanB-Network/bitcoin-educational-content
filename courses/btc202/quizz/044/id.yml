@@ -1,0 +1,9 @@
+question: Teknologi apa yang digunakan Umbrel untuk mengisolasi dan mengelola aplikasinya?
+answer: Wadah docker
+wrong_answers:
+  - Mesin virtual VirtualBox
+  - Skrip Bash
+  - Kluster Kubernetes
+explanation: |
+  Setiap aplikasi dalam Umbrel berjalan dalam kontainer Docker, memungkinkan pengelolaan dan isolasi independen.
+reviewed: true

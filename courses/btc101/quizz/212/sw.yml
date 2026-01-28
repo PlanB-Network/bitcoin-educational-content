@@ -1,12 +1,10 @@
-question: Je, kozi hii inaelezeaje Bitcoin?
-answer: Somo la fani nyingi.
+question: Je, kozi hii inapendekeza nini kuhusu mustakabali wa Bitcoin?
+answer: Si kwenda kutoweka.
 wrong_answers:
-  - Somo rahisi.
-  - Somo la kimwili.
-  - Somo la nidhamu moja.
+  - Itabadilishwa na teknolojia bora.
+  - Itapigwa marufuku duniani kote.
+  - Itapoteza thamani yake.
 explanation: |
-  Bitcoin inaelezewa kama somo la fani nyingi kwa sababu
-  inazua maswali kuhusiana na nyanja mbalimbali, ikiwa ni pamoja na
-  kriptografia, nadharia ya mchezo, uchumi na sera ya fedha,
-  sayansi ya kompyuta, falsafa, nishati, sheria, na kanuni.
+  Maandishi ya kozi yanapendekeza kuwa Bitcoin haitaenda
+  kutoweka. Kinyume chake, mapinduzi ndiyo yameanza.
 reviewed: true

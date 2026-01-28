@@ -1,11 +1,8 @@
-question: Ni iyihe nomero y’ibarabara ry’isoko rya mbere rya Bitcoin?
-answer: Igipande ca 170.
+question: Ni kuki igitigiri c’ivyemezo mu gucuruza Bitcoin gihambaye?
+answer: Uko igikorwa gifise ivyemezo vyinshi, ni ko kigenda kidahinduka.
 wrong_answers:
-  - Igipande ca 1.
-  - Igipande ca 17.
-  - Igipande ca 1700.
-explanation: |
-  Isoko rya mbere rya Bitcoin, ryari isoko ry’umwaka w’1990.
-  10 BTC hagati ya Satoshi Nakamoto na Hal Finney, ni vyo vyanditswe
-  mu gice ca 170.
+  - Uko igikorwa gifise ivyemezo vyinshi, ni ko kirushiriza kugira agaciro.
+  - Uko igikorwa gifise ivyemezo vyinshi, ni ko gica gikorwa ningoga.
+  - Uko igikorwa gifise ivyemezo vyinshi, ni ko n’umutekano ugenda ugabanuka.
+explanation: >-
 reviewed: true

@@ -23,13 +23,13 @@ Tato zařízení se prodávají buď jako přídavné topení v případě model
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Vezměte prosím na vědomí, že cenový rozdíl oproti tradičním ohřívačům stejného výkonu vám v naprosté většině případů neumožní dosáhnout finančního zisku. Saturace vygenerovaná činností Mining tento cenový rozdíl nikdy nevyrovná, pokud nemáte přístup k bezplatné (přebytečné) nebo velmi levné elektřině.
 
 
 
-Podle mého názoru by tato zařízení měla být vnímána spíše jako jednoduchý způsob, jak doma používat Miner pro ty, kteří si to přejí z osobních důvodů: *a zároveň **jako bonus** využívat teplo vyrobené k vytápění svého pokoje v zimě. Nikoliv však jako způsob úspory peněz, alespoň ve většině případů (západní země).
+Podle mého názoru by tato zařízení měla být vnímána spíše jako jednoduchý způsob, jak doma používat Miner pro ty, kteří si to přejí z osobních důvodů: *a zároveň **jako bonus** využívat teplo vyrobené k vytápění svého pokoje v zimě.* Nikoliv však jako způsob úspory peněz, alespoň ve většině případů (západní země).
 
 
 
@@ -75,17 +75,18 @@ Níže je uvedena tabulka shrnující obecné technické specifikace modelu Nano
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Charakteristika                                      | Hodnota                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hashrate                                      | 6 Th/s +- 5%                                            |
+| Spotřeba energie                               | 140 W                                                   |
+| Hluk                                                | 30 - 40 dB                                              |
+| Rozsah teploty výstupního vzduchu                 | 60-70°C (při okolní teplotě 25°C)                |
+| Požadavky na teplotu okolí pro použití | od -5 do 30°C                                            |
+| Rozsah vstupního napětí zařízení                         | 28V 5A nepřetržitě                                          |
+| Rozsah vstupního napětí adaptéru                       | 110-240V AC 50/60Hz                                     |
+| Rozměry zařízení                                 | Délka: 205 mm / Šířka: 115 mm / Výška: 58.5 mm |
+| Hmotnost zařízení                                  | 0.86 kg                                                 |
 
 ## Zapnutí a připojení k místní síti
 
@@ -207,9 +208,9 @@ Podrobnější informace o připojení k zařízení Mining pool naleznete v tě
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Abychom to shrnuli, potřebujeme
 
@@ -358,4 +359,4 @@ Chcete-li se dozvědět více, podívejte se na náš návod k vyšší verzi mo
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

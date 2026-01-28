@@ -1,0 +1,8 @@
+question: Tại sao BIP34 yêu cầu nhúng chiều cao khối vào trường scriptSig của giao dịch Coinbase?
+answer: Để đảm bảo mỗi Coinbase transaction ID đều là duy nhất trên tất cả các khối.
+wrong_answers:
+  - Để cung cấp thêm entropy cho thợ đào khi không gian nonce cạn kiệt.
+  - Để cho phép các ứng dụng khách nhẹ xác minh thứ tự khối mà không cần tải xuống toàn bộ khối.
+  - Để ngăn chặn các thợ đào yêu cầu trợ cấp khối vượt quá số lượng cho phép.
+explanation: |
+  BIP34 quy định việc đưa chiều cao khối vào scriptSig của Coinbase nhằm đảm bảo tính duy nhất của mỗi Coinbase transaction ID. Nếu không có yêu cầu này, về mặt lý thuyết, hai khối ở các chiều cao khác nhau có thể có các giao dịch Coinbase giống hệt nhau, tạo ra các txid trùng lặp, vi phạm giả định về tính duy nhất của giao dịch Bitcoin và có khả năng gây ra xung đột cơ sở dữ liệu trong các triển khai lập chỉ mục theo txid.

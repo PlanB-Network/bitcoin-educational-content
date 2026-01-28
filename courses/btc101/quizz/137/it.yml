@@ -1,12 +1,8 @@
-question: Come trasferiscono la proprietà dei loro soldi gli utenti nella rete Bitcoin?
-answer: Firmando digitalmente le transazioni con le loro chiavi private.
+question: Qual è il requisito di banda per eseguire un nodo Bitcoin, considerando 1 blocco di 1MB ogni 10 minuti?
+answer: Circa 5GB al mese.
 wrong_answers:
-  - Consegnando fisicamente i loro Bitcoin.
-  - Inviando un'email al destinatario.
-  - Fornendo il loro indirizzo Bitcoin al destinatario.
-explanation: |
-  Gli utenti nella rete Bitcoin trasferiscono la proprietà dei loro
-  soldi firmando digitalmente le transazioni con le loro chiavi
-  private. Questo verifica che sono i proprietari dei
-  bitcoin che vogliono trasferire.
-reviewed: true
+  - Circa 1GB al mese.
+  - Circa 10GB al mese.
+  - Circa 20GB al mese.
+explanation: Considerando 1 blocco di 1MB ogni 10 minuti, eseguire un nodo Bitcoin richiede circa 5GB al mese di banda.
+reviewed: vero

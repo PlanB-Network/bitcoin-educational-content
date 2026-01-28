@@ -1,0 +1,9 @@
+question: Hvilke to komponenter har blitt distribuert med Bitcoin core siden versjon 0.5?
+answer: Bitcoin-qt og bitcoind
+wrong_answers:
+  - bitcoin-cli og Bitcoin-gui
+  - Bitcoin-Miner og Bitcoin-Wallet
+  - Bitcoin-kjerne og Bitcoin-node
+explanation: |
+  Siden versjon 0.5 har Bitcoin core inkludert en grafisk Interface (Bitcoin-qt) og en kommandolinje-Interface (bitcoind).
+reviewed: true

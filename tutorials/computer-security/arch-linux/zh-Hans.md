@@ -17,10 +17,10 @@ Arch Linux 是一款以其稳健性、性能和适应性而著称的发行版，
 
 
 
-- 免费开源**：与大多数 Linux 发行版一样，Arch Linux 完全免费。没有许可证费用，是学生、自由职业者或爱好者的绝佳选择。
-- KISS** 理念：Arch 设计简单、轻便、高效。它只提供必要的功能，让您可以按需构建自己的环境。
-- Pacman** 软件包管理器Pacman 是一款快速、可靠、精心设计的软件包管理器。它能高效安装和更新软件，并精确管理依赖关系。
-- 全面的文档和活跃的社区**：[Arch Wiki](https://wiki.archlinux.org)可能是 Linux 世界中最好的技术文档之一。它是了解你正在做什么的金矿。社区成员大多是经验丰富的程序员，他们非常活跃，如果你遇到困难，只要事先做了一些研究，他们就能提供帮助。
+- **免费开源**：与大多数 Linux 发行版一样，Arch Linux 完全免费。没有许可证费用，是学生、自由职业者或爱好者的绝佳选择。
+- **KISS** 理念：Arch 设计简单、轻便、高效。它只提供必要的功能，让您可以按需构建自己的环境。
+- **Pacman** 软件包管理器Pacman 是一款快速、可靠、精心设计的软件包管理器。它能高效安装和更新软件，并精确管理依赖关系。
+- 全面的文档和活跃的社区：[Arch Wiki](https://wiki.archlinux.org)可能是 Linux 世界中最好的技术文档之一。它是了解你正在做什么的金矿。社区成员大多是经验丰富的程序员，他们非常活跃，如果你遇到困难，只要事先做了一些研究，他们就能提供帮助。
 
 
 
@@ -39,7 +39,7 @@ Arch Linux 是一款以其稳健性、性能和适应性而著称的发行版，
 
 
 - 至少**8 GB**的 USB 密钥
-- 最低 2 GB** 内存
+- 最低 **2 GB** 内存
 - 至少有 20 GB 可用磁盘空间的电脑
 
 
@@ -261,24 +261,26 @@ cfdisk /dev/nom-du-disque
 
 
 
-- 在 UEFI** 模式下
+- 在 **UEFI** 模式下
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| 安装系统上的挂载点 | 分区                 | 分区类型       | 建议大小 |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI系统分区   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | 交换空间 (swap) | 至少 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 根 (/) | 磁盘的其余部分 |
 
 - 在 BIOS 中
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| 安装系统上的挂载点 | 分区           | 分区类型       | 建议大小 |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | 交换空间 (swap) | 至少 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | 磁盘的其余部分 |
 
 ![0_10](assets/fr/10.webp)
 
@@ -294,7 +296,7 @@ cfdisk /dev/nom-du-disque
 
 
 
-- UEFI** ：
+- **UEFI**：
 
 
 
@@ -309,7 +311,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** ：
+- **BIOS**：
 
 
 
@@ -778,6 +780,6 @@ Arch Linux 以其卓越的稳定性、简约的理念和强大的功能脱颖而
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -1,11 +1,12 @@
-question: Bigenda gute iyo urufunguzo rwawe rw’ibanga ruhishuriwe uwundi muntu?
-answer: Uwugira gatatu arashobora gukoresha ama bitcoins yawe.
+question: Ni igiki kitari ijambo Mnemonic mu bijanye n’ijambo Bitcoin?
+answer: Ijambobanga rya Bitcoin Wallet yawe.
 wrong_answers:
-  - Uwundi muntu ashobora gusa kuraba amateka yawe y’ibikorwa.
-  - Uwundi muntu ashobora guhindura urufunguzo rwawe rw’ibanga.
-  - Uwundi muntu arashobora kuronka amakuru yawe bwite.
+  - Urutonde rw’amajambo 12 yo mu nkoranyamagambo yihariye.
+  - Urutonde rw’amajambo 24 yo mu nkoranyamagambo yihariye.
+  - Ibanga ryo gushika ku kigega cawe ca Bitcoin.
 explanation: |
-  Iyo urufunguzo rwawe rw’ibanga ruhishuriwe uwundi muntu,
-  amafaranga ajanye n’ivyo ntagitekanye, kubera ko abakozi b’abikorera ku giti cabo .
-  urufunguzo rutuma bashobora kuronka amahera yawe.
+  Invugo ya Mnemonic iri mu rwego rwa Bitcoin ni urutonde rw’ibintu 12 .
+  canke amajambo 24 atuma ushobora kugarura Wallet yawe ku .
+  Bitcoin Gukoresha Wallet. Umuntu wese afise uburenganzira bwo gushika kuri uru rutonde
+  cal kandi ushobora gushika ku bitcoins zawe.
 reviewed: true

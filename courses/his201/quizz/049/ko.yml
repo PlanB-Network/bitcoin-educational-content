@@ -1,0 +1,9 @@
+question: 슬래시닷에 소개된 후 일주일 동안 Bitcoin의 가격 변동은 어떻게 되었나요?
+answer: 0.008에서 $0.08까지
+wrong_answers:
+  - 0.001에서 $0.008까지
+  - 0.08~$0.50
+  - 0.50~$1
+explanation: |
+  이 변화는 10배의 증가에 해당합니다! Hash 비율도 비슷한 급증을 경험했습니다.
+reviewed: true

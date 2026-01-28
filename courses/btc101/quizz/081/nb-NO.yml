@@ -1,9 +1,12 @@
-question: Hva er det sentrale spørsmålet om selvforvaltning når man velger en Bitcoin-lommebok?
-answer: Er du eieren av midlene eller overlater du kontrollen over pengene dine til en tredjepart?
+question: Hva er den største risikoen ved å bruke en forvaltningstjeneste for å lagre dine bitcoins?
+answer: Den betrodde tredjeparten kan begrense din tilgang til dine midler når som helst
 wrong_answers:
-  - Er lommeboken sikret med en passfrase?
-  - Tillater lommeboken å motta og sende bitcoins?
-  - Kan jeg dele lommeboken min med en annen person?
-explanation: |
-  Når man velger en Bitcoin-lommebok, er det sentrale spørsmålet: Er du eieren av midlene eller overlater du kontrollen over pengene dine til en tredjepart? Dette er fordi innehaveren av den private nøkkelen er eieren av Bitcoins.
+  - Den betrodde tredjeparten kan øke verdien av dine bitcoins når som helst
+  - Den betrodde tredjeparten kan redusere verdien av dine bitcoins når som helst
+  - Den betrodde tredjeparten kan ikke duplisere dine bitcoins når som helst
+explanation: >-
+  Når du bruker en forvaltningstjeneste for å lagre dine bitcoins, er du ikke
+  den eneste innehaveren av dine bitcoins. Dette betyr at den betrodde tredjeparten kan begrense
+  din tilgang til dine midler når som helst, noe som gir deg samme nivå av finansiell suverenitet
+  som med det tradisjonelle banksystemet.
 reviewed: true

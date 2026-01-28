@@ -1,0 +1,9 @@
+question: कौन सा Sparrow wallet सर्वर विकल्प RPC कनेक्शन से मेल खाता है?
+answer: Bitcoin Core
+wrong_answers:
+  - Public Server
+  - Private Electrum
+  - Remote API
+explanation: |
+  Sparrow में, Bitcoin core विकल्प RPC के माध्यम से नोड से सीधे कनेक्शन के अनुरूप है।
+reviewed: true

@@ -20,7 +20,7 @@ Alby Hub ist ein äußerst anpassungsfähiges Werkzeug. Es kann sowohl die Bedü
 Je nach Bedarf ist der Alby Hub in 4 Konfigurationen erhältlich:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 Ideal für Anfänger ist diese erste Option die Alby-Cloud-Option. Sie ermöglicht es Ihnen, einen Hub direkt auf einem von Alby verwalteten Server bereitzustellen, der über Ihre Alby Hub-Oberfläche zugänglich ist. Obwohl Alby den Server verwaltet, behalten Sie die Souveränität über Ihre Gelder, da Ihre Schlüssel mit einem nur Ihnen bekannten Passwort verschlüsselt werden. Allerdings müssen Ihre Schlüssel im RAM entschlüsselt bleiben, damit der Knoten funktioniert, was sie theoretisch einem Risiko aussetzt, wenn jemand physischen Zugriff auf den Server hat. Es ist ein interessanter Kompromiss für Anfänger, aber es ist wichtig, sich der Risiken bewusst zu sein.
 
@@ -29,7 +29,7 @@ Der große Vorteil dieser Option ist, dass Sie einen Lightning-Knoten rund um di
 Alby Cloud ist ein kostenpflichtiger Dienst [Überprüfen Sie ihre Preise](https://albyhub.com/#pricing) für weitere Details. Die Gebühr wird automatisch aus Ihrer Wallet über eine von Alby ausgestellte Lightning-Rechnung abgezogen. Dies geschieht über eine NWC-Verbindung, die Ihren Knoten so konfiguriert, dass Alby-Rechnungen im Zusammenhang mit Ihrem Abonnement automatisch bezahlt werden.
 
 
-- Alby Hub mit einem bestehenden Knotenpunkt :**
+- Alby Hub mit einem bestehenden Knotenpunkt:
 
 Wenn Sie bereits einen Knoten haben, der z.B. auf Umbrel oder Start9 gehostet wird, kann Alby Hub als erweiterte Verwaltungsschnittstelle verwendet werden, genau wie ThunderHub oder RTL.
 
@@ -47,7 +47,7 @@ Dieses Tutorial konzentriert sich hauptsächlich auf die Schnittstelle, die unab
 
 ![ALBY HUB](assets/fr/02.webp)
 
-Für eine lokale Installation auf Ihrem PC, [laden Sie die Software entsprechend Ihrem Betriebssystem herunter und installieren Sie sie] (https://github.com/getAlby/hub/releases), und folgen Sie dann den Anweisungen auf der Benutzeroberfläche.
+Für eine lokale Installation auf Ihrem PC, [laden Sie die Software entsprechend Ihrem Betriebssystem herunter und installieren Sie sie](https://github.com/getAlby/hub/releases), und folgen Sie dann den Anweisungen auf der Benutzeroberfläche.
 
 ![ALBY HUB](assets/fr/03.webp)
 
@@ -55,7 +55,7 @@ Für eine lokale Installation auf Ihrem PC, [laden Sie die Software entsprechend
 
 Der erste Schritt besteht darin, ein Alby-Konto zu erstellen. Dies ist zwar für die Nutzung von Alby Hub nicht unbedingt erforderlich, aber es ermöglicht Ihnen, alle verfügbaren Optionen zu nutzen, einschließlich der Möglichkeit, eine Lightning-Adresse zu erhalten.
 
-Gehen Sie auf [die offizielle Alby-Website] (https://getalby.com/) und klicken Sie auf die Schaltfläche "*Konto erstellen*".
+Gehen Sie auf [die offizielle Alby-Website](https://getalby.com/) und klicken Sie auf die Schaltfläche "*Konto erstellen*".
 
 ![ALBY HUB](assets/fr/04.webp)
 
@@ -272,12 +272,12 @@ In diesem Tutorial empfehle ich Ihnen, sich für Alby Go zu entscheiden, das seh
 Um Alby Go zu installieren, rufen Sie den Anwendungsspeicher Ihres Geräts auf:
 
 
-- [Für Android] (https://play.google.com/store/apps/details?id=com.getalby.mobile);
-- [Für Apple] (https://apps.apple.com/us/app/alby-go/id6471335774).
+- [Für Android](https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [Für Apple](https://apps.apple.com/us/app/alby-go/id6471335774).
 
 ![ALBY HUB](assets/fr/44.webp)
 
-Android-Benutzer können die App auch über die `.apk`-Datei [verfügbar auf Alby's GitHub] (https://github.com/getAlby/go/releases) installieren.
+Android-Benutzer können die App auch über die `.apk`-Datei [verfügbar auf Alby's GitHub](https://github.com/getAlby/go/releases) installieren.
 
 ![ALBY HUB](assets/fr/45.webp)
 
@@ -300,7 +300,7 @@ Gehen Sie zurück zur Anwendung Alby Go, scannen Sie den QR-Code oder fügen Sie
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Klicken Sie auf "Fertigstellen*".
+Klicken Sie auf "Fertigstellen".
 
 ![ALBY HUB](assets/fr/51.webp)
 
@@ -369,4 +369,4 @@ Und das war's. Sie wissen jetzt, wie Sie Lightning mit Ihrem eigenen Knotenpunkt
 
 Um alle Lightning-Mechanismen, die wir in diesem Tutorial behandelt haben, im Detail zu verstehen, empfehle ich Ihnen dringend, unsere kostenlose Schulung zu diesem Thema zu besuchen:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

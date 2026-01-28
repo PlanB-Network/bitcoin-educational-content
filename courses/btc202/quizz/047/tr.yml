@@ -1,0 +1,9 @@
+question: Bir Umbrel hesabı oluştururken hangi güvenlik önlemlerinin alınması şiddetle tavsiye edilir?
+answer: 2FA'yı Etkinleştir
+wrong_answers:
+  - Şifreyi devre dışı bırak
+  - PIN kodu kullanma
+  - Tüm bağlantıları devre dışı bırak
+explanation: |
+  2FA ekstra koruma sağlar ve özellikle bir Lightning düğümü veya hassas kendi kendine barındırma kullanırken şiddetle tavsiye edilir.
+reviewed: true

@@ -53,7 +53,7 @@ Tento návod vám krok za krokem ukáže, jak napsat zprávu na Blockchain Bitco
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Zobrazí se příjem Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ Vyberte zprávu, kterou chcete zadat (např. `Díky Satoshi`). Poznámka: Zpráv
 
 
 
-- zanechat krásný výraz naší lidskosti,*
-- vyhněte se zadávání obsahu, kterého byste mohli litovat*
+- zanechat krásný výraz naší lidskosti,
+- vyhněte se zadávání obsahu, kterého byste mohli litovat
 
 
 
@@ -208,9 +208,9 @@ který se skládá z :
 
 
 
-- Cílová destinace Address**: Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Může to být váš vlastní Address, pokud si přejete převáděné prostředky vrátit sami sobě;
-- Převedená částka**: částka transakce, zde `0.00001` BTC. **Upozornění**: Vzhledem k tomu, že jednotkou používanou v systému Electrum je BTC, musí být částka uvedená ve skriptu transakce rovněž vyjádřena v BTC, a nikoli v Sats ;
-- Skript OP_RETURN**: Zpráva převedená do hexadecimální podoby, které předchází script(`OP_RETURN <messsage>), 0`. Zde `5468616e6b73205361746f736869` pro zprávu v šestnáctkové soustavě.
+- Cílová destinace **Address**: Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Může to být váš vlastní Address, pokud si přejete převáděné prostředky vrátit sami sobě;
+- **Převedená částka**: částka transakce, zde `0.00001` BTC. **Upozornění**: Vzhledem k tomu, že jednotkou používanou v systému Electrum je BTC, musí být částka uvedená ve skriptu transakce rovněž vyjádřena v BTC, a nikoli v Sats ;
+- Skript **OP_RETURN**: Zpráva převedená do hexadecimální podoby, které předchází script(`OP_RETURN <messsage>), 0`. Zde `5468616e6b73205361746f736869` pro zprávu v šestnáctkové soustavě.
 
 
 
@@ -218,7 +218,7 @@ který se skládá z :
 
 
 
-Tip: Pomocí nástroje [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) můžete skript generate vytvořit automaticky. I když tento nástroj navrhuje zadat částku v BTC, ponechte jednotku nakonfigurovanou v Electrum.
+Tip: Pomocí nástroje [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) můžete skript generate vytvořit automaticky. I když tento nástroj navrhuje zadat částku v BTC, ponechte jednotku nakonfigurovanou v Electrum.
 
 
 

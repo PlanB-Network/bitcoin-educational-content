@@ -1,0 +1,9 @@
+question: Jaki jest pierwszy krok, który należy podjąć w przypadku wystąpienia błędu w Umbrel?
+answer: generate pakiet diagnostyczny
+wrong_answers:
+  - Ponowna instalacja Bitcoin core i ponowne wykonanie IBD
+  - Wyczyść pamięć podręczną
+  - Wyłącz 2FA
+explanation: |
+  W przypadku wystąpienia problemu rozpoczynamy od wygenerowania pakietu diagnostycznego w sekcji rozwiązywania problemów, aby przeanalizować problem i zachować zapis.
+reviewed: true

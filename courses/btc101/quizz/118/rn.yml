@@ -1,12 +1,11 @@
-question: Ni ubutumwa ubuhe buri mu gice ca mbere ca Bitcoin Blockchain?
-answer: 03/jan/2009 Umukuru w’igihugu ari ku ruhande rw’ugutabara ubwa kabiri amabanki.
+question: Ni itariki iyihe ubutumwa bwihariye bwa nyuma buzwi bwa Satoshi Nakamoto biciye kuri email?
+answer: Ndamukiza 2011.
 wrong_answers:
-  - Turashobora gutsinda intambara ikomeye mu mahiganwa y’ibirwanisho maze tukaronka akarere gashasha k’umwidegemvyo mu myaka myinshi.
-  - Intwaro zirazi neza guca imitwe y’imihora igenzurwa hagati nka Napster, ariko imihora ya P2P isukuye nka Gnutella na Tor isa n’iyifise iyayo.
-  - Nta na kimwe muri ivyo bivugwa haruguru.
+  - Ukuboza 2010.
+  - Mukakaro 2009.
+  - Ukwakira 2008.
 explanation: |
-  Igipande ca mbere c’indege Bitcoin Blockchain, kizwi kandi kw’izina rya
-  igice ca Genesis, kirimwo ubutumwa 03/munyonyo/2009
-  Chancelier ari ku ruhande rw’ugufasha amabanki ubwa kabiri, ari vyo
-  umutwe w’Igihe uwo musi ku Timestamp igice ca Genesis.
+  Itariki y’ubutumwa bw’ibanga bwa nyuma buzwi bwa Satoshi.
+  Nakamoto biciye kuri email ni 23 Ndamukiza 2011. Yarungitswe ku
+  umuhinguzi Mike Hearn.
 reviewed: true

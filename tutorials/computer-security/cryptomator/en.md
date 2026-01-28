@@ -32,7 +32,7 @@ In this demonstration, a Windows 11 22H2 machine with OneDrive will be used, but
 Cryptomator is an alternative to other applications, notably Picocrypt presented in another article, which looks different, but is equally simple to use. Cryptomator is also **open source**, RGPD compliant, and will **encrypt data with the AES-256 bit encryption algorithm**. In contrast, Picocrypt relies on the faster XChaCha20 algorithm (also 256-bit).
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 The Cryptomator application is available on **Windows** (exe / msi), **Linux**, **macOS,** but also **Android** and **iOS**. By the way, all applications are free of charge, except for the Android application, which you have to pay for (14.99 euros).
 
@@ -128,7 +128,7 @@ You must enter your password to unlock the safe. Then click on "**Release drive*
 ![Image](assets/fr/017.webp)
 
 
-On the OneDrive side, we can't browse the Cryptomator vault directly. We can't see the data (neither the file names nor the contents). This means you don't need to add data to your Cryptomator vault via the usual OneDrive shortcut. **You must add your data using Cryptomator's virtual drive
+On the OneDrive side, we can't browse the Cryptomator vault directly. We can't see the data (neither the file names nor the contents). This means you don't need to add data to your Cryptomator vault via the usual OneDrive shortcut. **You must add your data using Cryptomator's virtual drive.**
 
 
 ![Image](assets/fr/012.webp)

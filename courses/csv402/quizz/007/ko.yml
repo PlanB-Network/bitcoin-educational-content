@@ -1,0 +1,9 @@
+question: RGB는 어떻게 가시성을 최소화하나요?
+answer: Taproot(타프렛)
+wrong_answers:
+  - OP_RETURN(Opret)
+  - 서명 조정
+  - 주요 조정 사항
+explanation: |
+  Taproot(타프렛)을 사용하면 현재 표준과의 호환성을 보장하면서 신중하고 효율적으로 트랜잭션에 커밋을 삽입할 수 있습니다.
+reviewed: false

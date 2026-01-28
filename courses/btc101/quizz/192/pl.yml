@@ -1,8 +1,11 @@
-question: Czym jest OpenNode?
-answer: Proste rozwiązanie online dla firm do akceptowania Bitcoin.
+question: Co to jest zakup bitcoina po średnim koszcie dolara?
+answer: Kupowanie niewielkich ilości bitcoina w regularnych odstępach czasu.
 wrong_answers:
-  - Typ węzła Bitcoin, który jest używany jednocześnie przez wielu użytkowników.
-  - Oprogramowanie Bitcoin Mining o otwartym kodzie źródłowym.
-  - Platforma Bitcoin Exchange.
-explanation: >-
+  - Zakup dużej ilości bitcoina na raz.
+  - Zakup bitcoina tylko wtedy, gdy cena spadnie.
+  - Kupowanie bitcoina tylko wtedy, gdy cena wzrośnie.
+explanation: |
+  W tekście kursu wyjaśniono, że technika Dollar Cost Average
+  polega na kupowaniu niewielkich ilości bitcoina w
+  regularnych odstępach czasu. Metoda ta wyrównuje wahania jego ceny w czasie i zapewnia ciągły wzrost ilości posiadanych bitcoinów.
 reviewed: true

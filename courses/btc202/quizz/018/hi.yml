@@ -1,0 +1,9 @@
+question: सबसे व्यापक रूप से प्रयुक्त Bitcoin नोड कार्यान्वयन क्या है?
+answer: जीडब्ल्यू-1
+wrong_answers:
+  - जीडब्ल्यू-2
+  - Bitcoin क्लासिक
+  - बीकॉइन
+explanation: |
+  नेटवर्क पर 10 में से लगभग 9 नोड्स के साथ, Bitcoin core बहुसंख्यक ग्राहक है।
+reviewed: true

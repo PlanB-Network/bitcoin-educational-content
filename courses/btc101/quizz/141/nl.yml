@@ -1,11 +1,8 @@
-question: Wat zijn de kosten van een Bitcoin knooppunt op een Raspberry Pi 4 in termen van elektriciteitsverbruik per jaar (vanaf 2023)?
-answer: Iets minder dan € 10 per jaar.
+question: Wat was de uitkomst van de blokkenoorlog in 2017?
+answer: Gebruikers en knooppunten verwierpen de voorgestelde verandering om de blokgrootte te vergroten en activeerden een update met de naam SegWit.
 wrong_answers:
-  - Iets meer dan 50€ per jaar.
-  - Iets minder dan € 100 per jaar.
-  - Ongeveer 200€ per jaar.
-explanation: |
-  Het draaien van een Bitcoin node op een Raspberry Pi 4 kost iets
-  minder dan 10€ per jaar in termen van elektriciteitsverbruik
-  vanaf 2023.
+  - Gebruikers en knooppunten accepteerden de voorgestelde verandering om de blokgrootte te vergroten en activeerden een update met de naam SegWit.
+  - Gebruikers en knooppunten verwierpen de voorgestelde wijziging om de blokgrootte te vergroten en activeerden geen updates.
+  - Gebruikers en knooppunten accepteerden de voorgestelde wijziging om de blokgrootte te vergroten en activeerden geen updates.
+explanation: >-
 reviewed: true

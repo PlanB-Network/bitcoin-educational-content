@@ -1,5 +1,5 @@
 ---
-name: Трезор Шамир Резервная копия
+name: Trezor Shamir Backup
 description: Одноактные и многоактные фразы Mnemonic на Trezor
 ---
 ![cover](assets/cover.webp)
@@ -85,11 +85,11 @@ SLIP39 использует эту схему для распределения 
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### О новом портфолио
 
@@ -139,13 +139,13 @@ https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 На Trezor выберите общее количество долей, которые вы хотите настроить. Наиболее распространенными конфигурациями являются 2-de-3 и 3-de-5. В этом примере я создам 2-de-3, поэтому выберу 3 доли. Каждая доля будет представлять собой фразу Mnemonic из 20 слов.
 
 
 
-*Для пользователей Safe 5, хотя на экране будет написано "*Тапните, чтобы продолжить*", на самом деле вам нужно будет провести пальцем вверх для подтверждения
+*Для пользователей Safe 5, хотя на экране будет написано "Тапните, чтобы продолжить", на самом деле вам нужно будет провести пальцем вверх для подтверждения*
 
 
 
@@ -173,7 +173,7 @@ Trezor создаст ваши различные акции (фразы Mnemoni
 
 
 
-конечно, вы никогда не должны делиться этими словами в Интернете, как это делаю я в данном руководстве. Этот пример Wallet будет использоваться только на Testnet и будет удален в конце урока.**_
+конечно, вы никогда не должны делиться этими словами в Интернете, как это делаю я в данном руководстве. Этот пример Wallet будет использоваться только на Testnet и будет удален в конце урока.
 
 
 
@@ -273,7 +273,7 @@ Trezor создаст ваши различные акции (фразы Mnemoni
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Если вы нашли это руководство полезным, я буду благодарен, если вы оставите комментарий Green ниже. Не стесняйтесь поделиться этой статьей в своих социальных сетях. Большое спасибо!
 
@@ -287,4 +287,4 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 - [SLIP-0039: Shamir's Secret-Sharing for Mnemonic Codes](https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
 - [Multi-share Backup on Trezor](https://trezor.io/learn/a/multi-share-backup-on-trezor);
-- [Wikipedia: Shamir's secret sharing] (https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).
+- [Wikipedia: Shamir's secret sharing](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).

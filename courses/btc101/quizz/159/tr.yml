@@ -1,8 +1,12 @@
-question: Bitcoin Mining'de enerji harcamasının önemi nedir?
-answer: Bilgiyi üretmek için enerji harcanması gerekir, ancak bilginin doğrulanması ihmal edilebilir bir maliyete sahiptir. Bu asimetri ağın güvenliğini garanti eder.
+question: Madenciler henüz şebekeye bağlı olmayan enerji santralleri için ne yapabilir?
+answer: Son çare alıcı olarak hareket edebilirler.
 wrong_answers:
-  - Mining'de kullanılan ASIC makinelerine güç sağlamak için enerji maliyeti gereklidir ve bilgilerin doğrulanmasının yüksek bir maliyeti vardır.
-  - Bitcoin ağının bakımı için enerji harcaması gereklidir ve bilgilerin doğrulanmasının değişken maliyetleri vardır.
-  - Yeni bitcoinler yaratmak için enerji maliyetine gerek yoktur.
-explanation: >-
-reviewed: false
+  - Enerji santrallerine elektrik sağlayabilirler.
+  - Enerji santrallerini şebekeye bağlayabilirler.
+  - Elektrik fiyatlarını düzenleyebilirler.
+explanation: |
+  Madenciler, enerji santralleri için son çare alıcı olarak hareket edebilirler
+  henüz şebekeye bağlı değildir. Bu sayede enerji santralleri
+  bağlanmadan önce bile finansman sağlamak için
+  elektrik şebekesi.
+reviewed: true

@@ -1,12 +1,11 @@
-question: Hva er risikoen ved å bruke en multisig-lommebok?
-answer: Å ikke ha tilgang til nok distinkte deler av multisig-sikkerhetskopien
+question: Hva er den standard metoden for å ta sikkerhetskopi av den private nøkkelen i en Bitcoin-lommebok?
+answer: Å skrive inn din mnemoniske frase i hvilken som helst lommebokprogramvare
 wrong_answers:
-  - Å ha tilgang til nok distinkte deler av multisig-sikkerhetskopien
-  - Å dele nøkler med andre parter
-  - Å ikke dele nøkler med andre parter
+  - Å lagre din mnemoniske frase i en digital fil
+  - Å skrive din mnemoniske frase på en whiteboard
+  - Å dele din mnemoniske frase med en betrodd venn
 explanation: |
-  Når du bruker en multisig-lommebok, bør hver del av multisigen lagres
-  på forskjellige steder. Dette er fordi multisigen krever flere signaturer
-  for å utføre en transaksjon, så et visst antall lommebøker er nødvendig, og å lagre hver del på et forskjellig sted tilfører et
-  ekstra lag med sikkerhet.
+  Den standard metoden for å ta sikkerhetskopi av den private nøkkelen i en Bitcoin-lommebok
+  er ved å skrive inn din mnemoniske frase i hvilken som helst lommebokprogramvare. Dette lar deg
+  gjenopprette lommeboken din.
 reviewed: true

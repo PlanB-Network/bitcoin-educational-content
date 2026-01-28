@@ -1,0 +1,8 @@
+question: What happens to the ScriptSig fields of all inputs during the sighash construction process for legacy ECDSA signature verification?
+answer: All ScriptSig fields are emptied, then the current input's ScriptSig is replaced with its corresponding ScriptPubKey
+wrong_answers:
+  - All ScriptSig fields remain unchanged and are included in their original form in the sighash calculation
+  - "Only the current input's ScriptSig is kept while all other inputs' ScriptSig fields are removed from the transaction"
+  - All ScriptSig fields are replaced with their corresponding ScriptPubKey values from the referenced outputs
+explanation: |
+  During sighash construction for legacy transactions, the process specifically empties all ScriptSig fields first, then replaces only the current input being validated with its corresponding ScriptPubKey from the output it's spending. This ensures the signature commits to the spending conditions without creating circular dependencies where signatures would need to sign themselves. The other options are incorrect because they either leave signatures in place (creating logical impossibilities) or modify all inputs uniformly (which wouldn't properly isolate the current input's validation context).

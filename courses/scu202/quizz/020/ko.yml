@@ -1,0 +1,9 @@
+question: 다음 중 구형 또는 성능이 낮은 컴퓨터에 특히 권장되는 데스크톱 환경은 무엇인가요?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - 시나몬
+  - KDE 플라즈마
+explanation: |
+  LXQt는 Xfce와 마찬가지로 리소스를 거의 소비하지 않으며 저성능 하드웨어에서 효율적으로 실행되도록 설계되었습니다.
+reviewed: false

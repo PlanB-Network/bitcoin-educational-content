@@ -14,25 +14,26 @@ Session memungkinkan Anda mengirim pesan, file, pesan suara, panggilan audio, se
 
 Session utamanya ditujukan bagi pengguna yang memprioritaskan kerahasiaan dalam komunikasi mereka. Layanan pesan ini merupakan alternatif yang lebih baik terhadap WhatsApp, dengan arsitektur yang dirancang untuk menghadapi model pengawasan modern.
 
-| Aplikasi             | E2EE 1:1       | E2EE grup      | Pendaftaran anonim  | Lisensi open-source Pengguna | Lisensi open-source Server | Server terdesentralisasi | Tahun pembuatan   |
-| -------------------- | -------------- | -------------- | ------------------- | ------------------------- | -------------------------- | ------------------------ | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                         | ❌                          | ❌                        | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                         | ❌                          | ❌                        | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (opsional) | ❌                   | ❌                         | ❌                          | ❌                        | 2011              |
-| Telegram             | 🟡 (opsional) | ❌              | 🟡                  | ✅                         | ❌                          | ❌                        | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                         | ❌                          | ❌                        | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                         | ✅                          | ❌                        | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                         | ❌                          | ❌                        | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                         | ✅                          | 🟡 (gabungan)        | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                         | N/A                        | 🟡 (melalui email)      | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                         | ✅                          | 🟡 (gabungan)        | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                         | ✅                          | ✅                        | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                         | ✅                          | ✅                        | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                         | ❌                          | 🟡(tidak ada direktori pusat) | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                         | N/A                        | ✅                        | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2013              |
+
+| Aplikasi | E2EE 1:1 | Grup E2EE | Pendaftaran anonim | Lisensi klien open-source | Lisensi server open-source | Server terdesentralisasi | Tahun pembuatan |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (opsional) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (opsional) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federasi) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (melalui email) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federasi) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (tanpa direktori) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = Enkripsi End-to-end (End-to-end encryption)*
 
@@ -58,8 +59,8 @@ Pilih nama tampilan untuk profil Anda. Nama ini dapat berupa nama samaran atau n
 ![Image](assets/fr/03.webp)
 
 Anda kemudian harus memilih di antara dua mode pengaturan notifikasi:
-- Mode Cepat ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: Mode ini memungkinkan Anda menerima notifikasi pesan secara nyaris real-time, berkat layanan notifikasi yang disediakan oleh Google atau Apple (tergantung sistem Anda). Untuk fungsi ini, alamat IP Anda dan ID notifikasi unik akan ditransmisikan kepada Google atau Apple, dan ID akun Session juga akan didaftarkan pada server STF (melalui Tor). Mode ini melibatkan paparan metadata (meskipun minimal), namun tidak mengorbankan konten pesan atau kontak, serta tidak memungkinkan aktivitas Anda yang sebenarnya terlacak. Oleh karena itu, mode ini lebih efisien dalam hal responsivitas, tetapi bergantung pada infrastruktur terpusat dan sedikit kurang efektif dalam hal kerahasiaan.
-- Mode Lambat ("*Background Polling*")**: Pada mode ini, aplikasi Session tetap aktif di latar belakang, secara berkala memeriksa jaringan untuk mencari pesan baru. Pendekatan ini menjamin kerahasiaan yang lebih tinggi dibandingkan mode cepat, karena tidak ada data yang ditransmisikan kepada server pihak ketiga; baik Google, Apple, maupun server STF tidak menerima informasi apa pun. Di sisi lain, mode ini memiliki dua kekurangan: notifikasi dapat tertunda (hingga beberapa menit), dan konsumsi energi umumnya lebih tinggi akibat aktivitas aplikasi di latar belakang.
+- Mode Cepat (**Firebase Cloud Messaging/Apple Push Notification Service**): Mode ini memungkinkan Anda menerima notifikasi pesan secara nyaris real-time, berkat layanan notifikasi yang disediakan oleh Google atau Apple (tergantung sistem Anda). Untuk fungsi ini, alamat IP Anda dan ID notifikasi unik akan ditransmisikan kepada Google atau Apple, dan ID akun Session juga akan didaftarkan pada server STF (melalui Tor). Mode ini melibatkan paparan metadata (meskipun minimal), namun tidak mengorbankan konten pesan atau kontak, serta tidak memungkinkan aktivitas Anda yang sebenarnya terlacak. Oleh karena itu, mode ini lebih efisien dalam hal responsivitas, tetapi bergantung pada infrastruktur terpusat dan sedikit kurang efektif dalam hal kerahasiaan.
+- Mode Lambat (**Background Polling**): Pada mode ini, aplikasi Session tetap aktif di latar belakang, secara berkala memeriksa jaringan untuk mencari pesan baru. Pendekatan ini menjamin kerahasiaan yang lebih tinggi dibandingkan mode cepat, karena tidak ada data yang ditransmisikan kepada server pihak ketiga; baik Google, Apple, maupun server STF tidak menerima informasi apa pun. Di sisi lain, mode ini memiliki dua kekurangan: notifikasi dapat tertunda (hingga beberapa menit), dan konsumsi energi umumnya lebih tinggi akibat aktivitas aplikasi di latar belakang.
 
 ![Image](assets/fr/04.webp)
 
@@ -81,7 +82,7 @@ Session kemudian akan menampilkan frasa mnemonik. Salin frasa tersebut dengan ha
 
 Frasa ini berfungsi serupa dengan frasa mnemonik yang digunakan dalam dompet Bitcoin. Oleh karena itu, saya merekomendasikan Anda untuk melihat tutorial lain ini, di mana saya menjelaskan praktik terbaik untuk menyimpan frasa mnemonik:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Harap diperhatikan**: Tidak seperti frasa Mnemonic yang digunakan pada dompet Bitcoin, pada Session, **Anda harus menyimpan setiap kata secara keseluruhan**. Empat huruf pertama saja tidak cukup!
 
@@ -213,4 +214,4 @@ Sekarang Anda dapat mengakses percakapan Anda dari komputer.
 Selamat, Anda sekarang sudah mahir menggunakan aplikasi Session, sebuah alternatif yang sangat baik dari pada WathsApp!
 Saya juga merekomendasikan tutorial lain ini, di mana saya menjelaskan tentang Threema, alternatif lain yang menarik untuk aplikasi kirim pesan Anda:
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

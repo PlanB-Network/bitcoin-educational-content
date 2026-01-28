@@ -1,9 +1,9 @@
-question: Mis on notari roll Bitcoin'i pärandi kontekstis?
-answer: Tagada maksudega kooskõla
+question: Millal esitleti Bitcoini esmakordselt maailmale?
+answer: 31. oktoober 2008
 wrong_answers:
-  - Hallata sinu bitcoine pärast sinu surma
-  - Koostada sinu pärandiplaani
-  - Turvata sinu bitcoine
+  - 3. jaanuar 2009
+  - 22. november 2009
+  - 12. detsember 2010
 explanation: |
-  Bitcoin'i pärandi kontekstis on oluline arutada bitcoine pärandamist notariga, et tagada maksudega kooskõla.
-reviewed: false
+  Bitcoin esitleti maailmale esmakordselt 31. oktoobril 2008, kui Satoshi Nakamoto saatis e-kirja cypherpunkide postiloendisse, mis sisaldas Bitcoini Valge Raamatu.
+reviewed: true

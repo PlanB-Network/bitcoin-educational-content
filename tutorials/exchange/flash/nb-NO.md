@@ -23,7 +23,7 @@ I denne veiledningen tar vi en titt på Flash, en beninsk løsning som lar deg k
 
 
 
-Flash er en Exchange-plattform utviklet av [BlockSolut] (https://bitcoinflash.xyz) som opererer i flere vestafrikanske land. Flashs hovedoppgave er å legge til rette for anskaffelse, Exchange og bruk av Bitcoin i hverdagen.
+Flash er en Exchange-plattform utviklet av [BlockSolut](https://bitcoinflash.xyz) som opererer i flere vestafrikanske land. Flashs hovedoppgave er å legge til rette for anskaffelse, Exchange og bruk av Bitcoin i hverdagen.
 
 
 Flash er avhengig av Lightning Network, et Bitcoin-overlegg, for å utføre Bitcoin-transaksjoner på en sikker og smidig måte, og viser samfunnet kraften i Bitcoin i hverdagen.
@@ -39,8 +39,8 @@ Plattformen tilbyr to hovedtjenester:
 
 
 
-- FlashX**: Exchange bitcoins med Mobile Money.
-- FlashPayment**: Bruk Bitcoin til dagligdagse tjenester.
+- **FlashX**: Exchange bitcoins med Mobile Money.
+- **FlashPayment**: Bruk Bitcoin til dagligdagse tjenester.
 
 
 
@@ -73,9 +73,9 @@ Flash utfører transaksjonene sine ved hjelp av lokale Mobile Money. Avhengig av
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Oransje.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Oransje.
 
 
 
@@ -110,7 +110,7 @@ Gå videre til betaling, og skriv deretter inn din Lightning Address for å vali
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Hvis du foretar en transaksjon på Flash, tar det i gjennomsnitt 5 til 10 minutter før du mottar bitcoins på Lightning Wallet.
 
@@ -157,10 +157,10 @@ I tillegg til å kjøpe og selge bitcoins, tilbyr Flash samfunnet kontekstuell b
 
 
 
-- GSM**-enheter;
-- Internett-pakker**;
-- Anroper pakker**;
-- En kombinasjon av samtale- og internettpakke**.
+- **GSM-enheter**;
+- **Internett-pakker**;
+- Anroper **pakker**;
+- En kombinasjon av samtale- og internettpakke.
 
 
 
@@ -202,5 +202,4 @@ Hvis du synes denne veiledningen var nyttig for å få grep om Flash, vennligst 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

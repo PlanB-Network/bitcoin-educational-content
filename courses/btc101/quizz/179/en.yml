@@ -1,10 +1,11 @@
-question: What is one of the reasons why Bitcoin experiences so many speculative bubbles?
-answer: Because of its limited supply combined with high demand.
+question: What is one way to obtain bitcoins without buying them?
+answer: Accept them as a means of payment for the products or services you offer.
 wrong_answers:
-  - Because Bitcoin is not actually used anywhere.
-  - Because Bitcoin is a bubble that will disappear.
-  - Because Bitcoin is not subject to economic cycles.
+  - Borrow them from a friend and never give them back.
+  - Win them in a lottery.
+  - Find them on the street.
 explanation: >-
-  Bitcoin experiences many speculative bubbles because it is a currency
-  that is actually used everywhere in the world.
+  One way to obtain bitcoins without buying them is to accept them as a
+  means of payment for the products or services you offer. This allows you to acquire
+  bitcoins through your work.
 reviewed: true

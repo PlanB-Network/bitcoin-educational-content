@@ -1,11 +1,13 @@
-question: ¿Con qué frecuencia se reduce a la mitad la recompensa por minar?
-answer: Cada 210,000 bloques.
+question: ¿Qué es la frase mnemotécnica en una cartera de Bitcoin?
+answer: Una lista de 12 o 24 palabras que te permite acceder a tus bitcoins.
 wrong_answers:
-  - Cada 120,000 bloques.
-  - Cada 540,000 bloques.
-  - Cada 2,100,000 bloques.
+  - Una contraseña elegida para acceder a la cartera de Bitcoin.
+  - Un código para cifrar las transacciones de Bitcoin.
+  - Una frase de recuperación secreta que destruye la cartera de Bitcoin en caso de necesidad.
 explanation: |
-  La recompensa por minar está programada para reducirse a la mitad cada 210,000
-  bloques, lo que ocurre aproximadamente cada cuatro años: un evento
-  conocido como halving.
+  Desde 2017, la clave privada puede codificarse en una simple lista
+  de 12 o 24 palabras, llamada frase mnemotécnica. Esta frase
+  es una copia de seguridad de tu cartera de Bitcoin, por lo que te permite
+  acceder a tus bitcoins utilizando cualquier software/aplicación
+  de cartera de Bitcoin.
 reviewed: true

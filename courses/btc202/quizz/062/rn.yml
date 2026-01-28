@@ -1,0 +1,9 @@
+question: Ni iyihe porogarama ya Umbrel ishobora kugufasha gucunga node yawe ya Lightning ukoresheje Interface iteye imbere?
+answer: Gutwara umuravyo
+wrong_answers:
+  - BTCPay Umuravyo
+  - Nostr gusubirana
+  - Bitfeed
+explanation: |
+  Ride Umuravyo na ThunderHub bitanga Interface yuzuye ishingiye ku rubuga yo gutwara urudodo rw’umuravyo.
+reviewed: true

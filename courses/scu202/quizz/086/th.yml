@@ -1,0 +1,9 @@
+question: แอปพลิเคชันแปลภาษาโอเพ่นซอร์สใดที่ทำงานร่วมกับเอนจินต่างๆ และไม่เก็บข้อความที่คุณแปล?
+answer: TranslateYou
+wrong_answers:
+  - Google แปลภาษา
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  TranslateYou ทำหน้าที่เป็น Interface สำหรับเครื่องยนต์หลายตัว โดยไม่ติดตามหรือรวบรวมข้อมูลส่วนบุคคล แตกต่างจากบริการที่เป็นกรรมสิทธิ์
+reviewed: false

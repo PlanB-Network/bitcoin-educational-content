@@ -1,0 +1,9 @@
+question: Jaký je nejlepší způsob vzdáleného přístupu ke službě Bitcoin core?
+answer: Odhalení portu RPC
+wrong_answers:
+  - Používání sítě Tor
+  - Používání sítě VPN
+  - Vystavení serveru Electrum
+explanation: |
+  Vystavení nešifrovaného portu RPC představuje velké bezpečnostní riziko. Lepší je použít Tor nebo VPN.
+reviewed: true

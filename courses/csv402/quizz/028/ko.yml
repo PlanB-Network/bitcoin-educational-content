@@ -1,0 +1,9 @@
+question: RGB Contract에서 Interface의 기능은 무엇인가요?
+answer: Contract 데이터를 쉽게 읽고 조작할 수 있도록 지원
+wrong_answers:
+  - Blockchain에서 유효성 검사 스크립트 실행하기
+  - 고객 측에 Genesis 데이터 저장
+  - 보고서에 대한 엄격한 유형 시스템 정의
+explanation: |
+  Interface의 목표는 Business Logic에 영향을 주지 않으면서 사용자와 소프트웨어가 명확하게 이해할 수 있는 방식으로 Contract 정보를 제시하는 것입니다.
+reviewed: false

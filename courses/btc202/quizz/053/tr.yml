@@ -1,0 +1,9 @@
+question: Bir işlemi txid'ine göre bulmak için Bitcoin core'da hangi isteğe bağlı dizin etkinleştirilebilir?
+answer: txindex
+wrong_answers:
+  - addrindex
+  - blockindex
+  - electrumindex
+explanation: |
+  Txindex=1 seçeneği, bir işlemi benzersiz tanımlayıcısına (txid) göre sorgulamak için kullanılır.
+reviewed: true

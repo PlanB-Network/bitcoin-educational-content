@@ -1,8 +1,8 @@
-question: Ni tofauti gani kuu kati ya uchumi wa Keynesi na uchumi wa Austria kuhusu mfumo wa fedha?
-answer: Uchumi wa Keynesi hauzingatii vipengele vya muda na vya nguvu vya hali na rasilimali.
+question: Je, ni ipi mojawapo ya sababu zinazofanya Bitcoin kupata viputo vingi vya kubahatisha?
+answer: Kwa sababu ya Supply yake ndogo pamoja na mahitaji makubwa.
 wrong_answers:
-  - Uchumi wa Keynesi unakuza matumizi ya fedha kupita kiasi.
-  - Uchumi wa Keynesi unakubali uhaba wa hali na rasilimali.
-  - Uchumi wa Keynesi unahimiza mfumuko wa bei.
+  - Kwa sababu Bitcoin haitumiki popote.
+  - Kwa sababu Bitcoin ni Bubble ambayo itatoweka.
+  - Kwa sababu Bitcoin haiko chini ya mizunguko ya kiuchumi.
 explanation: >-
 reviewed: true

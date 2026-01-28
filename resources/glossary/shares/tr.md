@@ -25,4 +25,4 @@ Bu paylaşım sistemi, bir Miner tarafından üretilen tüm karmaları ayrı ayr
 Mining havuzları doğrulama yükünü dengelemek için paylaşımların zorluğunu ayarlar ve küçük ya da büyük her Miner'nin yaklaşık birkaç saniyede bir paylaşım göndermesini sağlar. Bu, her bir Miner'nin Hashrate'sinin doğru bir şekilde hesaplanmasına ve seçilen tazminat hesaplama yöntemine (PPS, PPLNS, TIDES...) göre ödüllerin dağıtılmasına olanak tanır.
 
 
-> ► *Fransızca'da "shares" kelimesi "part" olarak çevrilebilir
+> ► *Fransızca'da "shares" kelimesi "part" olarak çevrilebilir*

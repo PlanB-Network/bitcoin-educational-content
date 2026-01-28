@@ -1,0 +1,9 @@
+question: 호들러라는 용어의 어원은 무엇인가요?
+answer: 보류의 철자가 잘못되었습니다
+wrong_answers:
+  - 보류의 약어
+  - Hot Wallet의 약자
+  - HODL 사슬의 축소
+explanation: |
+  '호들러'라는 용어는 Bitcoin 토크에서 장기 보유를 표현하기 위해 'hold'를 'HODL'로 잘못 표기한 오타에서 유래했습니다.
+reviewed: false

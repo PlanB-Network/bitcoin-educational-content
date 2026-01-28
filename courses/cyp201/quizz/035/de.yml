@@ -6,4 +6,4 @@ wrong_answers:
   - BIP141
 explanation: |
   BIP32 definiert den Betrieb von HD-Wallets, die eine hierarchische Ableitung von privaten Schlüsseln aus einem Seed ermöglichen.
-reviewed: false
+reviewed: true

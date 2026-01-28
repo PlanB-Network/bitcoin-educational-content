@@ -1,0 +1,9 @@
+question: Nini kitatokea ikiwa block inakiuka sheria za makubaliano?
+answer: Inakataliwa mara moja na nodes
+wrong_answers:
+  - Imehifadhiwa katika Mempool ikingoja uthibitisho
+  - Inapitishwa tu na node zinazokubali sheria zingine
+  - Inathibitishwa tu na wallet
+explanation: |
+  Nodi kwa utaratibu hukataa block yoyote ambacho haiizingatii sheria za makubaliano.
+reviewed: true

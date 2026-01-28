@@ -1,9 +1,11 @@
-question: Mis on ribalaiuse nõue Bitcoin'i sõlme käitamiseks, arvestades 1MB suurust plokki iga 10 minuti järel?
-answer: Umbes 5GB kuus
+question: Mis on Proof of Work (POW)?
+answer: See on Bitcoin protokolli turvakonsensus.
 wrong_answers:
-  - Umbes 1GB kuus
-  - Umbes 10GB kuus
-  - Umbes 20GB kuus
+  - See on uute bitcoinide loomise protsess.
+  - See on Bitcoin tehingute kinnitamise meetod.
+  - See on algoritm, mida kasutatakse bitcoinide kaevandamiseks.
 explanation: >-
-  Arvestades 1MB suurust plokki iga 10 minuti järel, nõuab Bitcoin'i sõlme käitamine umbes 5GB kuus ribalaiust.
+  Proof of Work on konsensusalgoritm, mida kasutatakse Bitcoin võrgus
+  tehingute valideerimiseks ja uute plokkide loomiseks. See nõuab kaevuritelt keerukate
+  matemaatiliste probleemide lahendamist, tagades võrgu turvalisuse ja terviklikkuse.
 reviewed: false

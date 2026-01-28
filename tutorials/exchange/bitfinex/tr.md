@@ -32,12 +32,12 @@ Gerekli bilgileri tamamlayın: e-posta adresinizi Address ve ikamet ettiğiniz �
 Güçlü, benzersiz parolaların kullanımı ve korunmasına ilişkin ipuçları için bu eğitime de bakın:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Şimdi hesabı güvence altına almak için 2FA'yı yapılandıracağız. Akıllı telefonunuzda Google Authenticator veya Authy gibi bir kimlik doğrulama uygulaması kullanın. Bu araçla ilgili bir öğreticiyi burada bulabilirsiniz:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 QR kodunu uygulamanızla tarayın ve verilen 6 haneyi girin.
 
@@ -77,10 +77,10 @@ Bitfinex, mevcut düzenlemelere uygun bir doğrulama süreci (KYC) uygulamaktad�
 
 
 
-- Basic* sadece ekran modudur ve herhangi bir işlem yapmadan platforma bakmanıza olanak tanır;
-- Basic Plus*, spot piyasa işlemleri ve belirli para yatırma ve çekme seçenekleri dahil olmak üzere temel işlevlere erişim sağlar;
-- Intermediate* marj ticareti, krediler, P2P ve OTC işlemleri gibi gelişmiş hizmetlerin kilidini açar ve daha düşük para yatırma süreleri sunar;
-- Full* size uluslararası banka transferlerine ve platformun tüm özelliklerine erişim sağlar.
+- **Basic** sadece ekran modudur ve herhangi bir işlem yapmadan platforma bakmanıza olanak tanır;
+- **Basic Plus**, spot piyasa işlemleri ve belirli para yatırma ve çekme seçenekleri dahil olmak üzere temel işlevlere erişim sağlar;
+- **Intermediate** marj ticareti, krediler, P2P ve OTC işlemleri gibi gelişmiş hizmetlerin kilidini açar ve daha düşük para yatırma süreleri sunar;
+- **Full** size uluslararası banka transferlerine ve platformun tüm özelliklerine erişim sağlar.
 
 
 Her seviye için doğrulama amacıyla ek belgeler gerekmektedir. Çoğu kullanıcı için *Basic Plus* veya *Intermediate* hesapları genellikle yeterlidir.
@@ -115,11 +115,11 @@ Giriş yaptıktan sonra, Interface'un üst kısmında bir gezinme çubuğu göre
 
 
 
-- Ticaret**: kripto para birimleri (Bitcoin dahil) almak ve satmak için emir verebileceğiniz "*klasik*" piyasa;
-- OTC**: Halka açık emir defterlerinin dışında, doğrudan başka bir oyuncuyla büyük hacimli alım satım yapmak için Tezgah Üstü hizmet;
-- Fonlama**: Borç verme ve marj fonlamasına ayrılmış alan;
-- Türevler**: Türev ürünler (vadeli işlemler vb.) bölümü, deneyimli tüccarlara yöneliktir;
-- P2P**: Eşler arası temelde diğer kullanıcılardan kripto almanıza veya satmanıza olanak tanır.
+- **Ticaret**: kripto para birimleri (Bitcoin dahil) almak ve satmak için emir verebileceğiniz "*klasik*" piyasa;
+- **OTC**: Halka açık emir defterlerinin dışında, doğrudan başka bir oyuncuyla büyük hacimli alım satım yapmak için Tezgah Üstü hizmet;
+- **Fonlama**: Borç verme ve marj fonlamasına ayrılmış alan;
+- **Türevler**: Türev ürünler (vadeli işlemler vb.) bölümü, deneyimli tüccarlara yöneliktir;
+- **P2P**: Eşler arası temelde diğer kullanıcılardan kripto almanıza veya satmanıza olanak tanır.
 
 
 Standart kullanım için (bitcoin satın alma/satma ve para yatırma/çekme), esas olarak "*Trading*" sekmesinin yanı sıra "*Wallet*", "*Deposit*" ve "*Withdraw*" bölümlerini kullanacaksınız.
@@ -245,9 +245,9 @@ Bitfinex ayrıca Lightning Network üzerinden para yatırma ve çekme seçenekle
 Lightning Network ile ilgileniyorsanız, nasıl çalıştığını anlamanıza yardımcı olacak eksiksiz bir eğitim kursumuz da var:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-İlk bitcoinlerinizi satın aldıktan sonra, elbette bunları platformda bırakma seçeneğiniz var, ancak bunları kendi Wallet'inize aktarmanızı şiddetle tavsiye ederim. Henüz bir Bitcoin Wallet'i nasıl kullanacağınızı bilmiyorsanız, sizi [Plan ₿ Network'daki "Wallet" bölümünü] (https://planb.network/tutorials/Wallet) keşfetmeye davet ediyorum.
+İlk bitcoinlerinizi satın aldıktan sonra, elbette bunları platformda bırakma seçeneğiniz var, ancak bunları kendi Wallet'inize aktarmanızı şiddetle tavsiye ederim. Henüz bir Bitcoin Wallet'i nasıl kullanacağınızı bilmiyorsanız, sizi [Plan ₿ Academy'daki "Wallet" bölümünü](https://planb.academy/tutorials/wallet) keşfetmeye davet ediyorum.
 
 
 ## 6 - Bitfinex'te bitcoin alım satımı

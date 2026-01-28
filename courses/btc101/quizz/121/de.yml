@@ -1,9 +1,11 @@
-question: Seit seiner Erstellung, wie hoch ist der Prozentsatz der Zeit, in der das Bitcoin-Netzwerk funktionsfähig war?
-answer: 99,988 %.
+question: Was muss bei der Erstellung eines Erbschaftsplans nicht berücksichtigt werden?
+answer: Der Name des Bitcoin-Wallets, das Sie normalerweise verwenden.
 wrong_answers:
-  - 100 %.
-  - 90,009 %.
-  - 80,17 %.
+  - Ein handschriftlicher Brief, der Ihre Vermögenswerte auflistet.
+  - Eine Beschreibung, wie auf Ihre Mittel zugegriffen werden kann.
+  - Die Kontaktdaten vertrauenswürdiger Personen.
 explanation: |
-  Die Online-Verfügbarkeit von Bitcoin beträgt seit 2009 99,988 %.
+  Die Erstellung eines Erbschaftsplans ist ein entscheidender Schritt, um sicherzustellen, dass Ihre Bitcoins nach Ihrem Tod ordnungsgemäß verwaltet werden.
+  Dieser Plan kann einen handschriftlichen Brief enthalten, der Ihre Vermögenswerte, 
+  ihre Zugriffsmethoden und die Kontaktdaten vertrauenswürdiger Personen auflistet, die kontaktiert werden sollen.
 reviewed: true

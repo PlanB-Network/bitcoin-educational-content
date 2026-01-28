@@ -1,0 +1,9 @@
+question: Hva er determinisme?
+answer: En verdensanskuelse der det verken finnes tilfeldigheter eller tilfeldigheter.
+wrong_answers:
+  - Et verdensbilde bestemt av Gud.
+  - En form for ateisme.
+  - En overtro.
+explanation: |
+  Determinisme er et verdensbilde der det verken finnes tilfeldigheter eller kontingens. Enhver hendelse er en nødvendig konsekvens av forutgående årsaker, i henhold til uforanderlige naturlover.
+reviewed: false

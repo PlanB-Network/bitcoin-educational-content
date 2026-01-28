@@ -1,0 +1,9 @@
+question: ビットコインコアのmaxconnectionsパラメータのデフォルト値は？
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnectionsは、受信および送信接続の総数を制限する。デフォルト値は125である。
+reviewed: true

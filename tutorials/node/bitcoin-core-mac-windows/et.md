@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS & Windows)
 description: Paigalda Bitcoin Core Macile või Windowsile
 ---
 
+![cover](assets/cover.webp)
+
 Bitcoin Core paigaldamine tavakasutaja arvutisse on võimalik, kuid see pole ideaalne. Kui sul pole midagi selle vastu, et jätta oma arvuti tööle 24/7, siis see töötab hästi. Kui on vaja arvutit välja lülitada, muutub tüütuks oodata tarkvara sünkroniseerimist iga kord, kui selle uuesti sisse lülitad.
 
 Juhised on mõeldud Maci või Windowsi kasutajatele. Linuxi kasutajad tõenäoliselt ei vaja minu abi, kuid Linuxi juhised on Maciga väga sarnased.
@@ -17,7 +19,7 @@ Sa kas võid puhastada vana arvuti ja kasutada seda pühendatud Bitcoin arvutina
 
 Bitcoin Core võtab sinu draivil umbes 400 gigabaiti andmeid ja see maht jätkab kasvamist. Sa võid kasutada oma sisemist draivi, kuid võid ka ühendada välist kõvaketast. Ma selgitan mõlemat võimalust. Ideaalis peaksid kasutama tahkis-draivi. Kui sul on vana arvuti, siis tõenäoliselt ei ole sellist sees. Lihtsalt osta 1 või 2 terabaidine väline SSD ja kasuta seda. Tavaline draiv tõenäoliselt töötab, kuid võid kohata probleeme ja see on palju aeglasem.
 
-![pilt](assets/1.webp)
+![pilt](assets/fr/01.webp)
 
 ## Laadi alla Bitcoin Core
 
@@ -25,15 +27,15 @@ Mine lehele bitcoin.org (veendu, et sa ei läheks bitcoin.com, mis on shitcoin s
 
 Kui oled seal, ei ole imelikul kombel ilmne, kust tarkvara saada. Mine ressursside menüüsse ja klõpsa "Bitcoin Core", nagu allpool näidatud:
 
-![pilt](assets/2.webp)
+![pilt](assets/fr/02.webp)
 
 See viib sind allalaadimise lehele:
 
-![pilt](assets/3.webp)
+![pilt](assets/fr/03.webp)
 
 Klõpsa oranžil nupul Laadi alla Bitcoin Core:
 
-![pilt](assets/4.webp)
+![pilt](assets/fr/04.webp)
 
 Valikuid on mitu, sõltuvalt sinu arvutist. Esimesed kaks on selle juhendi jaoks asjakohased; vali vasakul ribal Windows või Mac. Pärast klõpsamist algab allalaadimine, tõenäoliselt sinu Allalaadimiste kausta.
 
@@ -41,7 +43,7 @@ Valikuid on mitu, sõltuvalt sinu arvutist. Esimesed kaks on selle juhendi jaoks
 
 Vajad faili, mis sisaldab erinevate väljalasete räsiväärtusi. See fail oli varem bitcoin.org allalaadimislehel, kuid on nüüd liikunud lehele bitcoincore.org/en/download:
 
-![pilt](assets/5.webp)
+![pilt](assets/fr/05.webp)
 
 Vajad SHA256 binaarseid räsiväärtusi sisaldavat faili. See fail sisaldab Bitcoin Core'i erinevate allalaadimispakettide SHA256 räsiväärtusi.
 
@@ -64,7 +66,7 @@ Selleks vaadake minu SHA256/gpg juhendit ja kerige umbes poole peale jaotiseni "
 
 Tagasi allalaadimislehel, hankige SHA256 räsi allkirjade fail
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 Klõpsake seda ja salvestage fail kettale, eelistatavalt Kaustadesse Allalaadimised.
 
@@ -99,7 +101,7 @@ Esimene loetletud fail on allkirjafaili täpne kirjapilt. Teine loetletud fail p
 
 See on väljund, mida peaksite saama
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 HOIATUSE sõnumit on ohutu ignoreerida – see lihtsalt meenutab teile, et te pole Wladimiriga võtmepoolel isiklikult kohtunud ega küsinud temalt, mis on tema avalik võti, ning seejärel öelnud oma arvutile, et usaldab seda võtit täielikult.
 
@@ -109,39 +111,40 @@ Kui saite selle sõnumi, teate nüüd, et SHA256SUMS.asc faili ei ole pärast Wl
 
 Te ei tohiks vajada detailseid juhiseid programmi installimiseks.
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 ## Käivitage Bitcoin Core
 
 Macis võite saada hoiatuse (Apple on endiselt Bitcoinile vastu)
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 Klõpsake OK ja seejärel avage oma Süsteemieelistused
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 Klõpsake Turvalisuse ja Privaatsuse ikoonil:
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Seejärel klõpsake "ava igal juhul":
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 Viga ilmub uuesti, kuid seekord on teil saadaval AVA nupp. Klõpsake seda.
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Bitcoin Core peaks laadima ja teile kuvatakse mõned valikud:
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 Siin saate valida, kas kasutada vaikimisi teed, kuhu plokiahel alla laaditakse, või võite valida oma välist draivi. Kui kavatsete kasutada sisemist draivi, soovitan vaikimisi teed mitte muuta, see teeb asjade seadistamise lihtsamaks, kui installite teisi tarkvarasid, mis suhtlevad Bitcoin Core'iga.
 Võite valida kärbitud sõlme käitamise, see säästab ruumi, kuid piirab, mida oma sõlmega teha saate. Igatahes laadite alla terve plokiahela ja kontrollite seda niikuinii, nii et kui teil on ruumi, hoidke alla laaditud andmeid ja ärge kärpige, kui vähegi võimalik.
 
 Kui olete kinnitanud, hakkab plokiahel alla laadima. See võtab mitu päeva.
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Võite arvuti välja lülitada ja hiljem allalaadimise juurde tagasi tulla, see ei tee midagi halba.
+

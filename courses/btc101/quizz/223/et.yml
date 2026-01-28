@@ -1,9 +1,9 @@
-question: Mis on plokiahela trilemma?
-answer: Plokiahelal põhinev protokoll suudab rahuldada ainult kahte aspekti kolmest; detsentraliseeritus, turvalisus ja skaleeritavus.
+question: Kuidas nimetatakse Liquidis kasutatavaid bitcoine?
+answer: L-BTC
 wrong_answers:
-  - Plokiahelal põhinev protokoll suudab rahuldada ainult ühte aspekti kolmest: detsentraliseeritus, turvalisus ja skaleeritavus.
-  - Plokiahelal põhinev protokoll suudab rahuldada kõiki kolme aspekti: detsentraliseeritus, turvalisus ja skaleeritavus.
-  - Plokiahelal põhinev protokoll ei suuda rahuldada ühtegi aspekti: detsentraliseeritus, turvalisus ja skaleeritavus.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Plokiahela trilemma viitab väljakutsele, et plokiahelal põhinev protokoll suudab rahuldada ainult kahte aspekti kolmest: detsentraliseeritus, turvalisus ja skaleeritavus.
+  Liquidis on bitcoinid esindatud L-BTC-dena, mis on 1:1 seotud BTC-ga.
 reviewed: false

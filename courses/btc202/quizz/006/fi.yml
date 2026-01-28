@@ -1,0 +1,9 @@
+question: Miksi yksittäistä Wallet:tä ei pidetä Bitcoin-verkon osallistujana?
+answer: Koska se ei validoi transaktioita tai lohkoja
+wrong_answers:
+  - Koska se ei voi generate:n yksityisiä avaimia
+  - Koska se ei voi luoda Bitcoin-osoitteita
+  - Koska se ei validoi myyntiä tai osoitteita
+explanation: |
+  Wallet ei validoi suoraan lohkoja ja transaktioita, vaan se vain hallinnoi avaimia ja on riippuvainen solmuista.
+reviewed: true

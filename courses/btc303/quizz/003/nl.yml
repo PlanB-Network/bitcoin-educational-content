@@ -1,0 +1,9 @@
+question: Welk probleem loste Bitcoin op dat eerdere digitale munteenheden niet konden oplossen?
+answer: Het double-spending probleem op een gedecentraliseerde manier
+wrong_answers:
+  - Het versleutelingsprobleem in peer-to-peer netwerken
+  - Het opslagprobleem voor digitale transacties
+  - Het snelheidsprobleem bij online betalingen
+explanation: |
+  De doorbraak van Bitcoin was het oplossen van het double-spending probleem zonder een centrale autoriteit nodig te hebben. Het double-spending probleem is de uitdaging om te voorkomen dat iemand dezelfde digitale munt twee keer uitgeeft. Eerdere digitale munten faalden omdat ze afhankelijk waren van centrale servers of vertrouwde autoriteiten, wat ze kwetsbaar maakte voor censuur en single points of failure. Bitcoin loste dit op door zijn peer-to-peer gedistribueerde tijdstempelserver die proof-of-work gebruikt, waardoor het netwerk overeenstemming kan bereiken over het ordenen van transacties zonder centrale controle.
+reviewed: false

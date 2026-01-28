@@ -22,7 +22,7 @@ Dit mechanisme verhoogt de vertrouwelijkheid van transacties zonder dat er aanpa
 ```
 
 
-Het is moeilijk om met zekerheid vast te stellen wie als eerste het idee van CoinJoin op Bitcoin introduceerde, en wie het idee had om de blinde handtekeningen van David Chaum in deze context te gebruiken. Vaak wordt gedacht dat Gregory Maxwell het als eerste besprak in [een bericht op BitcoinTalk in 2013] (https://bitcointalk.org/index.php?topic=279249.0):
+Het is moeilijk om met zekerheid vast te stellen wie als eerste het idee van CoinJoin op Bitcoin introduceerde, en wie het idee had om de blinde handtekeningen van David Chaum in deze context te gebruiken. Vaak wordt gedacht dat Gregory Maxwell het als eerste besprak in [een bericht op BitcoinTalk in 2013](https://bitcointalk.org/index.php?topic=279249.0):
 
 Chaum blinde handtekeningen gebruiken: Gebruikers maken verbinding en geven inputs (en veranderen van adres) evenals een cryptografisch blinded versie van de Address waarnaar ze hun privémunten willen sturen; de server ondertekent de tokens en stuurt ze terug. Gebruikers maken opnieuw anoniem verbinding, ontmaskeren hun uitvoeradressen en sturen ze terug naar de server. De server kan zien dat alle outputs door hem zijn ondertekend en dat alle outputs dus afkomstig zijn van geldige deelnemers. Later maken mensen opnieuw verbinding en ondertekenen ze.
 

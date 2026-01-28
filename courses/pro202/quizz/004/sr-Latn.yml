@@ -1,0 +1,8 @@
+question: Koja matematička operacija se koristi za pronalaženje tačke P + Q na eliptičnoj krivoj?
+answer: Nacrtaj liniju kroz tačke P i Q, pronađi treću tačku preseka R, zatim reflektuj R preko x-ose.
+wrong_answers:
+  - Dodajte x-koordinate i y-koordinate tačaka P i Q direktno koristeći modularnu aritmetiku.
+  - Pomnožite koordinate tačaka P i Q i primenite jednačinu krive da biste pronašli rezultat.
+  - Izračunaj srednju tačku između P i Q, a zatim primeni metodu tangente da dobiješ zbir.
+explanation: |
+  Dodavanje tačaka na eliptičnoj krivi prati specifično geometrijsko pravilo: povucite pravu liniju kroz dve tačke P i Q, koja seče krivu u trećoj tački R, zatim reflektujte R preko x-ose da biste dobili P + Q. Ova geometrijska operacija postaje algebarska kada se radi nad konačnim poljima, ali zadržava isti osnovni princip. Druge opcije opisuju netačne metode koje ne prate uspostavljeni grupni zakon za eliptične krive.

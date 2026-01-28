@@ -1,13 +1,9 @@
-question: Why did gold become the standard medium of exchange?
-answer: Due to its rarity, durability, and divisibility.
+question: Why is gold not a portable material?
+answer: Because it is dense and heavy, making it cumbersome to carry in large quantities.
 wrong_answers:
-  - Due to its abundance, durability, and indivisibility.
-  - Due to its rarity, perishability, and divisibility.
-  - Due to its abundance, perishability, and indivisibility.
+  - Because it is too valuable to be moved.
+  - Because it cannot be easily shaped into smaller forms.
+  - Because it is a liquid at room temperature.
 explanation: |
-  Gold became the standard medium of exchange due to its
-  rarity, durability, and divisibility: its rarity prevented
-  the devaluation caused by production; its durability
-  ensured it would not erode over time, and its divisibility
-  allowed the usage in transactions of different sizes.
+  Gold is dense and heavy, which means that carrying large amounts of it can be physically challenging. This weight makes it less convenient for transport compared to lighter materials.
 reviewed: true

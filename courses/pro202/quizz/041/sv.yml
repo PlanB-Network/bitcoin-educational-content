@@ -1,0 +1,8 @@
+question: Vad skulle hända med Bitcoin:s totala utbud om gruvarbetare konsekvent gjorde anspråk på endast 90 % av den tillåtna blocksubventionen i alla block?
+answer: Det totala utbudet skulle permanent reduceras till under 21 miljoner BTC, eftersom icke utkrävda subventioner går förlorade för alltid
+wrong_answers:
+  - De återstående 10% skulle samlas i en reservpool för framtida gruvarbetare att göra anspråk på under perioder med låga avgifter
+  - Mekanismen för justering av svårighetsgraden skulle kompensera genom att öka framtida blockbelöningar för att bibehålla taket på 21 miljoner
+  - De icke utkrävda subventionerna skulle omfördelas proportionellt mellan mottagarna av transaktionsavgifter i efterföljande block
+explanation: |
+  Bitcoin:s protokoll tillåter gruvarbetare att göra anspråk på mindre än den maximalt tillåtna subventionen, men alla belopp som inte begärs ut är permanent förlorade - det finns ingen mekanism för att omfördela eller återvinna dem senare. Subventionsformeln och halveringsschemat bestämmer det teoretiska maximumet på ~ 21 miljoner BTC, men det faktiska utbudet beror på att gruvarbetarna gör anspråk på hela sin rätt. Till skillnad från svårighetsjusteringen som svarar mot mining-förhållanden finns det ingen kompensationsmekanism för icke utkrävda belöningar, vilket gör att den totala tillgången potentiellt kan vara deflatorisk om gruvarbetare konsekvent underkräver.

@@ -1,9 +1,12 @@
-question: Neno HODL linamaanisha nini?
-answer: HODL ni istilahi ya lugha potofu katika jumuiya ya sarafu-fiche ambayo inamaanisha kushikilia uwekezaji wako badala ya kuuuza, haswa wakati wa kuyumba kwa soko.
+question: Ni njia gani moja ya kupata bitcoins zako kwa muda mrefu?
+answer: Kuchora maneno yako ya Mnemonic kwenye nyenzo sugu kama vile chuma.
 wrong_answers:
-  - HODL inarejelea aina ya sarafu ya crypto ambayo inatumika kufanya biashara pekee.
-  - HODL ni neno linalomaanisha kuuza cryptocurrency yako yote kwa bei ya juu.
-  - HODL ni mkakati wa biashara ya siku ambayo inahusisha kununua na kuuza mara kwa mara.
+  - Kuwahifadhi katika Hot Wallet.
+  - Kuwaweka kwenye jukwaa la Exchange.
+  - Kushiriki maneno yako ya Mnemonic na mfanyakazi mwenzako.
 explanation: |
-  Neno HODL lilitokana na chapisho lisiloandikwa mtandaoni mwaka wa 2013 kwenye jukwaa la Bitcoin. Baada ya muda, HODL imebadilika ili kuwakilisha mkakati mpana wa uwekezaji. Inahimiza wawekezaji kushikilia pesa zao za siri kwa muda mrefu, bila kujali mabadiliko ya soko.
+  Kuchora maneno yako ya Mnemonic kwenye nyenzo sugu kama
+  chuma huunda nakala rudufu ya funguo zako ambazo ni
+  sugu kwa uharibifu wa maji na moto, na hivyo kupata yako
+  bitcoins kwa muda mrefu.
 reviewed: true

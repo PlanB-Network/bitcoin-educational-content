@@ -1,0 +1,8 @@
+question: Rust:n omistusjärjestelmän mukaan kuinka monta omistajaa arvolla voi olla milloinkin?
+answer: Tarkalleen yksi omistaja
+wrong_answers:
+  - Useita omistajia sallitaan
+  - Enintään kaksi omistajaa
+  - Ei omistajia, kunnes käytetään
+explanation: |
+  Rust:n omistusjärjestelmä perustuu kolmeen perussääntöön, joista ensimmäinen on se, että jokaisella arvolla on täsmälleen yksi omistaja tiettynä hetkenä. Tämä yhden omistajan periaate on ratkaisevan tärkeä muistin turvallisuuden kannalta, koska se estää useita ohjelman osia yrittämästä vapauttaa samaa muistia tai muuttaa dataa samanaikaisesti. Jos omistajia olisi useita, se johtaisi usean omistajan jälkeen vapautuviin virheisiin ja datakilpailuihin, kun taas jos omistajia ei olisi lainkaan, muistia ei voisi koskaan siivota kunnolla.

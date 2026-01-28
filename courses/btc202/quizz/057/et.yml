@@ -1,0 +1,9 @@
+question: Milline Sparrow wallet serveri valik vastab RPC ühendusele?
+answer: Bitcoin Core
+wrong_answers:
+  - Public Server
+  - Private Electrum
+  - Remote API
+explanation: |
+  Sparrow puhul vastab Bitcoin core valik RPC kaudu otseühendusele sõlmpunktiga.
+reviewed: true

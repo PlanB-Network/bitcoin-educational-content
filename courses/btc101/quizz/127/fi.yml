@@ -1,9 +1,9 @@
-question: Mikä on siirtomaksujen tarkoitus Bitcoin-siirroissa?
-answer: Ne ovat kannustin louhijoille sisällyttää siirto seuraavaan lohkoon.
+question: Mikä on kelvollinen hash Bitcoin-verkon lohkon louhinnan yhteydessä?
+answer: Ainutlaatuinen sormenjälki, joka liittyy lohkoon ja koostuu 256 merkistä.
 wrong_answers:
-  - Ne ovat hallituksen määräämä vero.
-  - Ne ovat maksu, jonka Bitcoin-verkko perii palveluidensa käytöstä.
-  - Ne ovat maksu, jonka lompakon tarjoaja perii.
+  - Ainutlaatuinen koodi, jota käytetään pääsemään käsiksi lohkoon.
+  - Ainutlaatuinen salasana, joka vaaditaan lohkon louhimiseen.
+  - Ainutlaatuinen tunniste louhijalle, joka louhi lohkon.
 explanation: |
-  Siirtomaksut Bitcoin-siirroissa toimivat kannustimena louhijoille sisällyttää siirto seuraavaan lohkoon. Maksut luovat vapaan markkinan siirtojen sisällyttämiselle lohkoihin.
+  Bitcoin-verkon lohkon louhinnan yhteydessä kelvollinen hash on ainutlaatuinen sormenjälki, joka liittyy lohkoon ja koostuu 256 merkistä. Tämän hashin kelvollisuus riippuu Bitcoin-verkon vaikeustasosta.
 reviewed: true

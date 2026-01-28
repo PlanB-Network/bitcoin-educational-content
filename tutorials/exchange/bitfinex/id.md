@@ -12,7 +12,7 @@ Bitfinex secara aktif mendukung pengembangan Bitcoin, berinvestasi dalam teknolo
 
 ## 1 - Membuat akun Bitfinex
 
-Kunjungi [situs web resmi Bitfinex] (https://www.bitfinex.com/). Di halaman beranda, cari dan klik opsi "*Daftar*" untuk mulai membuat akun Anda.
+Kunjungi [situs web resmi Bitfinex](https://www.bitfinex.com/). Di halaman beranda, cari dan klik opsi "*Daftar*" untuk mulai membuat akun Anda.
 
 ![BITFINEX](assets/fr/01.webp)
 
@@ -22,11 +22,11 @@ Lengkapi informasi yang diperlukan: masukkan alamat email dan negara tempat ting
 
 Untuk tips menggunakan dan melindungi kata sandi yang kuat dan unik, lihat juga tutorial ini:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sekarang kita akan mengonfigurasi 2FA untuk mengamankan akun. Gunakan aplikasi otentikasi pada ponsel cerdas Anda, seperti Google Authenticator atau Authy misalnya. Anda akan menemukan tutorial tentang alat ini di sini:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pindai kode QR dengan aplikasi Anda dan masukkan 6 digit yang disediakan.
 
@@ -53,10 +53,10 @@ Akun Anda sekarang sudah dibuat. Klik "*Masuk*" untuk mengakses platform.
 Bitfinex menerapkan proses verifikasi (KYC) yang sesuai dengan peraturan yang berlaku saat ini. Dalam mode "Basic", tidak mungkin untuk melakukan setoran, penarikan, atau transaksi, yang membuatnya penting untuk mendapatkan setidaknya tingkat verifikasi "Basic Plus", atau bahkan "Menengah" atau "Penuh" jika perlu:
 
 
-- Basic* adalah mode tampilan saja, yang memungkinkan Anda untuk berkonsultasi dengan platform tanpa melakukan operasi apa pun;
-- Basic Plus* menyediakan akses ke berbagai fungsi penting, termasuk transaksi pasar spot dan opsi setoran dan penarikan yang dipilih;
-- Intermediate* membuka layanan lanjutan seperti perdagangan margin, pinjaman, transaksi P2P dan OTC, dan menawarkan pengurangan tenggat waktu setoran;
-- Full* memberi Anda akses ke transfer bank internasional dan semua fitur platform.
+- **Basic** adalah mode tampilan saja, yang memungkinkan Anda untuk berkonsultasi dengan platform tanpa melakukan operasi apa pun;
+- **Basic Plus** menyediakan akses ke berbagai fungsi penting, termasuk transaksi pasar spot dan opsi setoran dan penarikan yang dipilih;
+- **Intermediate** membuka layanan lanjutan seperti perdagangan margin, pinjaman, transaksi P2P dan OTC, dan menawarkan pengurangan tenggat waktu setoran;
+- **Full** memberi Anda akses ke transfer bank internasional dan semua fitur platform.
 
 Untuk setiap level, diperlukan dokumen tambahan untuk verifikasi. Untuk sebagian besar pengguna, akun *Basic Plus* atau *Intermediate* pada umumnya sudah cukup.
 
@@ -79,11 +79,11 @@ Selesaikan langkah-langkahnya dengan memberikan informasi dan dokumen yang dimin
 Setelah masuk, Anda akan melihat bilah navigasi di bagian atas antarmuka dengan: "*Trading*", "*Derivatif*", "*Pendanaan*", "*OTC*", "*P2P*", "*Dompet*", dll. Bitfinex menawarkan berbagai fungsi, termasuk:
 
 
-- Perdagangan**: pasar "*klasik*" tempat Anda bisa melakukan order untuk membeli dan menjual mata uang kripto (termasuk bitcoin);
-- OTC**: Layanan Over-The-Counter untuk memperdagangkan volume besar secara langsung dengan pemain lain, di luar buku pesanan publik;
-- Pendanaan**: Area yang didedikasikan untuk pinjaman dan pendanaan margin;
-- Derivatif**: Bagian untuk produk derivatif (futures, dll.), ditujukan untuk trader berpengalaman;
-- P2P**: Memungkinkan Anda membeli atau menjual kripto dari pengguna lain secara peer-to-peer.
+- **Perdagangan**: pasar "*klasik*" tempat Anda bisa melakukan order untuk membeli dan menjual mata uang kripto (termasuk bitcoin);
+- **OTC**: Layanan Over-The-Counter untuk memperdagangkan volume besar secara langsung dengan pemain lain, di luar buku pesanan publik;
+- **Pendanaan**: Area yang didedikasikan untuk pinjaman dan pendanaan margin;
+- **Derivatif**: Bagian untuk produk derivatif (futures, dll.), ditujukan untuk trader berpengalaman;
+- **P2P**: Memungkinkan Anda membeli atau menjual kripto dari pengguna lain secara peer-to-peer.
 
 Untuk penggunaan standar (membeli/menjual bitcoin dan deposit/penarikan), Anda terutama akan menggunakan tab "*Trading*", serta bagian "*Wallet*", "*Deposit*", dan "*Withdraw*".
 
@@ -167,9 +167,9 @@ Bitfinex juga menawarkan opsi setoran dan penarikan melalui Lightning Network, m
 
 Jika Anda tertarik dengan Lightning Network, kami juga memiliki kursus pelatihan lengkap untuk membantu Anda memahami cara kerjanya:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Setelah membeli bitcoin pertama Anda, Anda tentu saja memiliki opsi untuk meninggalkannya di platform, tetapi saya sangat menyarankan untuk mentransfernya ke dompet Anda sendiri dalam penitipan mandiri. Jika Anda belum tahu cara menggunakan dompet Bitcoin, saya mengundang Anda untuk menjelajahi [bagian "Dompet" di Plan ₿ Network] (https://planb.network/tutorials/wallet).
+Setelah membeli bitcoin pertama Anda, Anda tentu saja memiliki opsi untuk meninggalkannya di platform, tetapi saya sangat menyarankan untuk mentransfernya ke dompet Anda sendiri dalam penitipan mandiri. Jika Anda belum tahu cara menggunakan dompet Bitcoin, saya mengundang Anda untuk menjelajahi [bagian "Dompet" di Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 ## 6 - Membeli dan menjual bitcoin di Bitfinex
 

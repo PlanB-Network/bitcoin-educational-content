@@ -1,5 +1,5 @@
 ---
-name: Paraplu LND
+name: Umbrel LND
 description: Gevorderde tutorial over het installeren en configureren van Lightning Network Daemon (LND) op Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -27,7 +27,7 @@ Om Umbrel te installeren en uw Bitcoin node te configureren, raden we u aan onze
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Zorg ervoor dat je Bitcoin node up-to-date is en goed werkt, want Lightning Network vertrouwt erop voor alle off-chain transacties.
 
@@ -57,7 +57,7 @@ Voor een volledige theoretische inleiding tot Lightning Network raden we je aan 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Deze cursus geeft je een grondige basis in de fundamentele concepten van Lightning Network, voordat je verder gaat met oefenen met je LND node.
 
@@ -154,7 +154,7 @@ Je kunt kiezen tussen het aanmaken van een nieuw knooppunt of het herstellen van
 
 
 
-**Noot: Op recente versies van Umbrel levert de installatie van de Lightning app dit 24-woord seed (het Bitcoin Umbrel knooppunt zelf niet).
+**Noot:** Op recente versies van Umbrel levert de installatie van de Lightning app dit 24-woord seed (het Bitcoin Umbrel knooppunt zelf niet).
 
 
 
@@ -496,11 +496,11 @@ Voor uw Lightning Umbrel knooppunt zijn twee soorten back-ups nodig:
 
 - Bevat informatie over het Lightning-kanaal
 - Maakt geforceerde kanaalsluiting mogelijk in het geval van een crash
-- Belangrijk:** Sla het `channel.db` bestand nooit handmatig op (risico op boetes)
+- **Belangrijk:** Sla het `channel.db` bestand nooit handmatig op (risico op boetes)
 
 
 
-**Handmatige back-upprocedure
+**Handmatige back-upprocedure**
 
 
 
@@ -613,17 +613,17 @@ Om meer te weten te komen over het configureren en gebruiken van uitkijktorens, 
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Andere best practices
 
 
 
 
 
-- Software-updates:** Umbrel en LND up-to-date houden (beveiligingsfixes)
-- Hardwarebescherming:** Gebruik een stabiel systeem (Raspberry Pi met SSD, mini-PC) en een UPS
-- Netwerkbeveiliging:** Behoud de standaard Tor-configuratie, wijzig het Umbrel admin-wachtwoord (standaard: "moneyprintergobrrr")
-- Versleuteling:** Schakel indien mogelijk schijfversleuteling in
+- **Software-updates:** Umbrel en LND up-to-date houden (beveiligingsfixes)
+- **Hardwarebescherming:** Gebruik een stabiel systeem (Raspberry Pi met SSD, mini-PC) en een UPS
+- **Netwerkbeveiliging:** Behoud de standaard Tor-configuratie, wijzig het Umbrel admin-wachtwoord (standaard: "moneyprintergobrrr")
+- **Versleuteling:** Schakel indien mogelijk schijfversleuteling in
 
 
 
@@ -691,10 +691,10 @@ RTL is een compleet "Zwitsers zakmes" voor het beheren van een Lightning-node me
 
 
 
-- Lightning Shell** : Opdrachtregel (lncli) via browser
-- BTC RPC Verkenner & Mempool** : Controle Blockchain
-- LNmetrics & Torq**: Analyse van routeprestaties
-- Amboss & 1ML**: "Sociaal" beheer van uw knooppunt (aliassen, contacten, netwerkanalyse)
+- **Lightning Shell**: Opdrachtregel (lncli) via browser
+- **BTC RPC Verkenner & Mempool**: Controle Blockchain
+- **LNmetrics & Torq**: Analyse van routeprestaties
+- **Amboss & 1ML**: "Sociaal" beheer van uw knooppunt (aliassen, contacten, netwerkanalyse)
 
 
 

@@ -1,14 +1,11 @@
-question: Quel est le problème des généraux byzantins ?
-answer: C'est un problème de coordination des informations dans un système où les différents acteurs ne peuvent pas être considérés comme fiables.
+question: Quel est le principal avantage de Bitcoin pour les individus vivant sous une oppression financière ou des régimes dictatoriaux ?
+answer: Avoir la possibilité d'échapper à la censure et aux restrictions bancaires.
 wrong_answers:
-  - C'est un problème de vérification des transactions dans un réseau décentralisé.
-  - C'est un problème d'empêchement du double paiement dans une monnaie numérique.
-  - C'est un problème de maintien du consensus dans un réseau centralisé.
-explanation: |
-  Le problème des généraux byzantins est un problème classique en
-  informatique distribuée, qui implique d'atteindre un consensus
-  dans un réseau où certains des nœuds peuvent être défectueux ou
-  malveillants. Bitcoin résout ce problème grâce à l'utilisation d'une
-  blockchain basée sur la Preuve de Travail, qui assure que tous
-  les nœuds sont d'accord sur l'état de l'historique des transactions.
+  - Utiliser une monnaie stable qui a une valeur fixe.
+  - Permettre des transactions anonymes.
+  - Obtenir des rendements élevés sur l'investissement.
+explanation: >-
+  Bitcoin offre une forme de liberté financière en échappant à la censure et
+  aux restrictions bancaires. Cela est particulièrement bénéfique pour les individus vivant sous
+  une oppression financière ou un régime dictatorial.
 reviewed: true

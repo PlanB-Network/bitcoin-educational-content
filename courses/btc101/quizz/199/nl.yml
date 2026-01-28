@@ -1,13 +1,8 @@
-question: Wat is Dollar Cost Average?
-answer: Regelmatig kleine hoeveelheden Bitcoin kopen.
+question: Wat zijn FOMO en FUD?
+answer: Emoties die kunnen leiden tot impulsieve en mogelijk schadelijke besluitvorming.
 wrong_answers:
-  - Een grote hoeveelheid Bitcoin in één keer kopen.
-  - Bitcoin koop ik alleen als de prijs daalt.
-  - Bitcoin alleen kopen als de prijs stijgt.
-explanation: |
-  De cursustekst legt uit dat de Dollar Cost Average
-  techniek bestaat uit het kopen van kleine hoeveelheden Bitcoin met
-  regelmatige intervallen. Deze methode egaliseert de prijs
-  schommelingen in de tijd uit en zorgt voor een continue groei van de
-  hoeveelheid Bitcoin in bezit.
+  - Soorten Bitcoin portemonnees.
+  - Strategieën voor het kopen van Bitcoin.
+  - Voorschriften met betrekking tot Bitcoin.
+explanation: >-
 reviewed: true

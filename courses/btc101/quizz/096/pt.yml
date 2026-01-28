@@ -1,11 +1,13 @@
-question: O que a chave privada é frequentemente representada em uma carteira Bitcoin?
-answer: Uma lista de 12 ou 24 palavras.
+question: Qual é o propósito de criar um plano de herança para seus bitcoins?
+answer: Garantir que seus bitcoins sejam adequadamente gerenciados após a sua morte.
 wrong_answers:
-  - Uma lista de 12 ou 48 palavras.
-  - Uma lista de 32 palavras.
-  - Uma lista de 64 palavras.
+  - Para evitar impostos sobre seus bitcoins.
+  - Para diminuir o valor dos seus bitcoins.
+  - Para prevenir que seus bitcoins sejam roubados.
 explanation: |
-  Em uma carteira Bitcoin, a chave privada é frequentemente representada
-  por uma lista de 12 ou 24 palavras, também conhecida como frase-semente
-  ou frase mnemônica. 
+  Um plano de herança garante que seus bitcoins serão
+  adequadamente gerenciados após a sua morte. Ele pode incluir uma
+  carta escrita à mão detalhando seus ativos, seus métodos de acesso,
+  e as informações de contato de pessoas de confiança
+  para serem contatadas.
 reviewed: true

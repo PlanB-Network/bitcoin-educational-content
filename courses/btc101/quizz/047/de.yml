@@ -1,12 +1,10 @@
-question: Was ist Hyperinflation?
-answer: Ein drastischer Anstieg der Geldmenge.
+question: Was ist die zweite Phase des Hyperinflationsphänomens?
+answer: Währungszusammenbruch & Preissteigerung.
 wrong_answers:
-  - Ein kleiner Anstieg der Geldmenge.
-  - Ein drastischer Rückgang der Geldmenge.
-  - Ein kleiner Rückgang der Geldmenge.
+  - Verlust des Vertrauens.
+  - Der Teufelskreis des Gelddruckens.
+  - Eine neue Währung entsteht.
 explanation: |
-  Hyperinflation ist ein monetäres Phänomen, das durch einen
-  drastischen Anstieg der Inflation durch das Drucken von Geld
-  durch die Behörden gekennzeichnet ist, was zu einem vollständigen Verlust des
-  Vertrauens in eine Währung führt.
+  Die zweite Phase der Hyperinflation ist der Währungszusammenbruch &
+  Preissteigerung, gleich nach der Phase des Vertrauensverlustes.
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: 翡翠
+name: Jade
 
 description: 如何設定您的 JADE 裝置
 ---

@@ -1,9 +1,9 @@
-question: Jaká je funkce úpravy obtížnosti v síti Bitcoin?
-answer: Zajišťuje, že blok je přidán do blockchainu přibližně každých deset minut.
+question: Co je to zredukovaný uzel v kontextu Bitcoinu?
+answer: Uzel, který si v paměti uchovává pouze posledních N bloků.
 wrong_answers:
-  - Určuje cenu Bitcoinu.
-  - Reguluje počet bitcoinů, které mohou být vytěženy v blockchainu.
-  - Určuje velikost bloku.
+  - Uzel, který ověřuje pouze transakce.
+  - Uzel, který pouze přenáší informace ostatním uzlům.
+  - Uzel, který pouze vynucuje pravidla protokolu Bitcoinu.
 explanation: >-
-  Úprava obtížnosti v síti Bitcoin zajišťuje, že blok je přidán přibližně každých deset minut. To je součástí pravidel protokolu sítě Bitcoin.
+  Zredukovaný uzel v kontextu Bitcoinu je uzel, který si v paměti uchovává pouze posledních N bloků.
 reviewed: true

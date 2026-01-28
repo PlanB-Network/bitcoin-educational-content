@@ -1,0 +1,8 @@
+question: Šta uzrokuje grešku za jedan u OP_CHECKMULTISIG koja zahteva dodatni OP_0 u golim multisig ScriptSig-ovima?
+answer: OP_CHECKMULTISIG troši dodatni element steka izvan očekivanih potpisa i javnih ključeva
+wrong_answers:
+  - Proces verifikacije potpisa zahteva dodatni bajt kako bi ispravna ECDSA validacija funkcionisala pravilno.
+  - "Implementacija steka Bitcoin ima proveru granica koja zahteva element za popunjavanje radi poravnanja memorije"
+  - Prag višestrukog potpisivanja počinje od nule umesto od jedan, zahtevajući vrednost za pomeraj kao rezervisano mesto
+explanation: |
+  OP_CHECKMULTISIG opcode ima grešku u implementaciji gde tokom izvršavanja skida jedan element više sa steka nego što bi trebalo. To znači da, pored potrebnih m potpisa i n javnih ključeva, troši dodatni element steka. Da bi se sprečilo da operacija ne uspe, ScriptSig-ovi za čisti multisig moraju uključivati početni OP_0 (koji gura prazan niz bajtova) kako bi zadovoljili ovo neočekivano trošenje steka. Druge opcije opisuju tehničke probleme koji zvuče verovatno, ali nisu stvarni uzrok ove dobro poznate Bitcoin osobenosti.

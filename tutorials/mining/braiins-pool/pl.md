@@ -1,5 +1,5 @@
 ---
-name: Basen Braiins
+name: Braiins Pool
 
 description: Wprowadzenie do Braiins Pool
 ---
@@ -54,7 +54,7 @@ Wypłaty mogą być uruchamiane według przedziału czasowego lub kwoty.
 ## Tworzenie konta
 
 
-Aby rozpocząć korzystanie z Braiins Pool [przejdź do ich strony internetowej] (https://braiins.com/pool) i kliknij "SIGN UP" w prawym górnym rogu
+Aby rozpocząć korzystanie z Braiins Pool [przejdź do ich strony internetowej](https://braiins.com/pool) i kliknij "SIGN UP" w prawym górnym rogu
 
 
 

@@ -132,9 +132,9 @@ La seed phrase de 12 mots sera affichée pour que vous la sauvegardiez.
 
 **! Ce point est critique**. Pour plus d’informations sur la sauvegarde :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 4.3. Confirmer la seed phrase
 
@@ -142,7 +142,7 @@ Avant d'envoyer des fonds sur une adresse associée à cette seed phrase, vous d
 
 Pour cela nous allons noter une référence, supprimer le wallet, le restaurer avec la sauvegarde, et vérifier que la référence est inchangée.
 
-- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub ([clé publique étendue](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)) :
+- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub ([clé publique étendue](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)) :
 
 ![image](assets/fr/09.webp)
 
@@ -152,7 +152,7 @@ Nota : une adresse zpub peut être importée dans votre application Blockstream 
 
 - Pour en savoir plus sur comment effectuer un test de récupération, voici un tutoriel dédié :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 4.5. Sécuriser l'accès à l'application
 
@@ -217,7 +217,7 @@ Verrouillez l'accès à l'application par un code PIN robuste :
 
 ![image](assets/fr/15.webp)
 
-- Tant que la transaction n'est pas confirmée, la fonction "Replace by fee" (voir Annexe) vous permet d'accélérer sa prise en charge en augmentant les fees de transaction :
+- Tant que la transaction n'est pas confirmée, la fonction "Replace by fee" (voir Annexe) vous permet d'accélérer sa prise en charge en augmentant les frais de transaction :
 
 ![image](assets/fr/16.webp)
 
@@ -228,15 +228,15 @@ Verrouillez l'accès à l'application par un code PIN robuste :
 
 Utilisation du réseau Liquid
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Importer et suivre un wallet en "Watch Only"
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Version Desktop (ordinateur)
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 ### A2. Explication de Replace-by-Fee (RBF)
@@ -248,22 +248,22 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 * La transaction initiale doit être marquée comme RBF-compatible lors de sa création, ce que Blockstream App fait automatiquement.
 
 **Plus d'info :** 
-- [Glossaire](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
+- [Glossaire](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 ### A3. Bonnes pratiques
 
 Pour utiliser **Blockstream App** de manière sécurisée et efficace, suivez ces recommandations. Elles vous aideront à protéger vos fonds, optimiser vos transactions, et préserver votre confidentialité sur les réseaux **Bitcoin (onchain)**, **Liquid**, et **Lightning**.
 
-* **Sécurisez votre phrase de récupération** :
+**Sécurisez votre phrase de récupération** :
 	* Tutoriel : Sauvegarder sa phrase mnémonique
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
-* **Utilisez l’authentification sécurisée** : 
+**Utilisez l'authentification sécurisée** :
 	* Activez un **code PIN robuste** ou l’**authentification biométrique** (empreinte digitale ou reconnaissance faciale) pour protéger l’accès à l’application.
 	* Ne partagez jamais votre PIN ou vos données biométriques.
 
@@ -272,49 +272,48 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 	- Activez les fonctions "Confidentialité renforcée", "Tor", et "SPV".
 	- Pour une confidentialité maximale, connectez votre wallet à votre propre nœud Bitcoin via un serveur Electrum au lieu d’utiliser le nœud public 
 
-* **Choisissez le réseau adapté à vos besoins** : 
+**Choisissez le réseau adapté à vos besoins** :
 	* **Onchain** : Privilégiez pour la conservation à long terme ou les transactions de montants élevés (frais négligeables par rapport au montant).
 	* **Liquid** : Utilisez pour des transferts rapides, à faible coût et avec une confidentialité renforcée.
 	* **Lightning** : Optez pour des transferts instantanés et très économiques pour de faibles montants. 
   
-* **Vérifiez toujours les adresses d'envoi** :
+**Vérifiez toujours les adresses d'envoi** :
 	* Avant d’envoyer des fonds, vérifiez soigneusement l’adresse. Les fonds envoyés à une mauvaise adresse sont perdus à jamais. Utilisez un copier/coller ou le scan de QR code, ne recopiez / modifiez jamais une adresse à la main. 
 
-* **Optimisez les frais** :
+**Optimisez les frais** :
 	* Pour les transactions onchain, choisissez des frais adaptés (lente, moyenne, rapide) en fonction de l’urgence et de la congestion du réseau.
 	* Utilisez Liquid, ou Lightning pour les petits montants.
 
-* **Tenez l'application à jour**
+**Tenez l'application à jour**
 
 
 ### A4. Ressources supplémentaires
 
-* **Liens officiels :** 
+**Liens officiels :**
 	* **[Site officiel](https://blockstream.com/)**
 	* **[Support pour l'application mobile](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : documentation et tchat
 	- **[GitHub](https://github.com/Blockstream/green_android)**
 
-* **Explorateurs de blocs :**
+**Explorateurs de blocs :**
 	* On chain : **[Mempool.space](https://mempool.space/)**
 	* Liquid : **[Blockstream Info](https://blockstream.info/liquid)**
 	* Lightning : **[1ML (Lightning Network)](https://1ml.com/)** 
 
-* **Apprentissage et tutoriels :** **[Plan ₿ Network](https://planb.network/)** : 
+**Apprentissage et tutoriels :** **[Plan ₿ Academy](https://planb.academy/)** :
 	* **Sécuriser sa phrase de récupération**
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - **Liquid Network** :
-	- **[Glossaire](https://planb.network/fr/resources/glossary/liquid-network)**
+	- **[Glossaire](https://planb.academy/fr/resources/glossary/liquid-network)**
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - **Lightning Network** :
-	- **[Glossaire](https://planb.network/fr/resources/glossary/lightning-network)**
+	- **[Glossaire](https://planb.academy/fr/resources/glossary/lightning-network)**
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
-
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

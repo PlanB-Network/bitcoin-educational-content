@@ -1,10 +1,11 @@
-question: Hva er én potensiell konsekvens av fremgangen innen AI-teknologier?
-answer: Over 80% av jobbene vil forsvinne på grunn av AI og automatisering.
+question: Hva er en av de viktigste fordelene med Bitcoin for folk uten bankkonto?
+answer: Bitcoin muliggjør likhet i transaksjoner, uavhengig av din sosiale status eller politiske posisjon.
 wrong_answers:
-  - AI-teknologier vil gjøre mennesker overflødige.
-  - AI-teknologier vil føre til en nedgang i menneskelig intelligens.
-  - AI-teknologier vil forårsake en global økonomisk kollaps.
+  - Bitcoin muliggjør ulikhet i transaksjoner.
+  - Bitcoin gagner kun folk med bankkonto.
+  - Bitcoin gagner kun folk med høy sosial status.
 explanation: >-
-  Teksten nevner at én potensiell konsekvens av fremgangen innen
-  AI-teknologier er at over 80% av jobbene vil forsvinne på grunn av AI og automatisering.
+  Teksten nevner at det er 2,4 milliarder mennesker i verden uten
+  bankkonto, og Bitcoin muliggjør likhet i transaksjoner, uavhengig av din
+  sosiale status eller politiske posisjon.
 reviewed: false

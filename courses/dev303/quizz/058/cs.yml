@@ -1,0 +1,8 @@
+question: Která kombinace specifikátoru fragmentu a vzoru opakování by byla nejvhodnější při vytváření vlastního makra podobného funkci, které musí zpracovávat různé počty vstupních argumentů?
+answer: Použijte $($x:expr),* pro porovnání s nulou nebo více výrazy oddělenými čárkami
+wrong_answers:
+  - Použijte $($x:ident)+ pro přiřazení jednoho nebo více identifikátorů bez oddělovačů
+  - Použijte $($x:ty);* pro porovnání s nulou nebo více typy oddělenými středníky
+  - Použijte $($x:expr)? pro přiřazení nepovinného jednoduchého výrazu bez opakování
+explanation: |
+  Vzor $($x:expr),* je určen speciálně pro makra s proměnnými argumenty, kde expr odpovídá libovolnému výrazu a syntaxe ,* zvládá nula nebo více opakování oddělených čárkami. To je přesně to, co je potřeba pro makra jako vec!, která mohou přijímat různý počet argumentů. Ostatní možnosti jsou nesprávné, protože: ident odpovídá pouze identifikátorům (ne celým výrazům), ty odpovídá typům (ne hodnotám) a ? odpovídá spíše jednotlivým nepovinným položkám než opakování proměnných.

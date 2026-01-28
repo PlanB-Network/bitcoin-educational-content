@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Jak začít používat výkonný uzel LN v mobilním telefonu?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Tato příručka je věnována všem novým uživatelům, kteří chtějí začít používat Bitcoin Lightning Network (LN) ZDARMA OPEN SOURCE, ÚPLNĚ NEKUSTODIÁLNÍM způsobem.
@@ -22,7 +22,7 @@ Pokud jste nikdy nepoužili Bitcoin Lightning Network, než začnete, [přečtě
 
 
 
-- Blixt používá LND (aezeed) jako backend Wallet, takže se do něj nepokoušejte importovat jiné typy peněženek Bitcoin. [Zde jste vysvětlili typy semen Wallet Mnemonic] (https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). A zde je [rozsáhlejší seznam všech typů peněženek](https://walletsrecovery.org/). Pokud jste tedy dříve měli uzel LND, můžete do Blixt importovat seed a záložní.kanály, [jak je vysvětleno v této příručce](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt používá LND (aezeed) jako backend Wallet, takže se do něj nepokoušejte importovat jiné typy peněženek Bitcoin. [Zde jste vysvětlili typy semen Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). A zde je [rozsáhlejší seznam všech typů peněženek](https://walletsrecovery.org/). Pokud jste tedy dříve měli uzel LND, můžete do Blixt importovat seed a záložní.kanály, [jak je vysvětleno v této příručce](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
 
 
 
@@ -206,7 +206,7 @@ Jaké máte možnosti, pokud chcete získat více Sats než LN?
 
 
 
-- Otevřete kanál Dunder s uzlem Blixt nebo jiným poskytovatelem LSP Dunder. Kanál Dunder je jednoduchý způsob, jak získat nějakou likviditu INBOUND, ale zároveň do tohoto kanálu vložíte nějaký Sats. Je také dobré, protože otevře kanál s [UTXO](https://en.Bitcoin.it/wiki/UTXO), který není z vašeho Blixt Wallet. To přidá trochu soukromí. Je také dobré, protože pokud nemáte Sats do onchainu Wallet, abyste otevřeli normální kanál LN, ale máte je do jiného LN Wallet, můžete prostě zaplatit z tohoto jiného Wallet prostřednictvím LN otevření a vklad (na vaší straně) tohoto dunderského kanálu. [Více informací o tom, jak Dunder funguje a jak provozovat vlastní server, najdete zde] (https://github.com/hsjoberg/dunder-lsp).
+- Otevřete kanál Dunder s uzlem Blixt nebo jiným poskytovatelem LSP Dunder. Kanál Dunder je jednoduchý způsob, jak získat nějakou likviditu INBOUND, ale zároveň do tohoto kanálu vložíte nějaký Sats. Je také dobré, protože otevře kanál s [UTXO](https://en.Bitcoin.it/wiki/UTXO), který není z vašeho Blixt Wallet. To přidá trochu soukromí. Je také dobré, protože pokud nemáte Sats do onchainu Wallet, abyste otevřeli normální kanál LN, ale máte je do jiného LN Wallet, můžete prostě zaplatit z tohoto jiného Wallet prostřednictvím LN otevření a vklad (na vaší straně) tohoto dunderského kanálu. [Více informací o tom, jak Dunder funguje a jak provozovat vlastní server, najdete zde](https://github.com/hsjoberg/dunder-lsp).
 
 
 ![blixt](assets/en/11.webp)
@@ -328,7 +328,7 @@ Nyní můžete přejít do zásuvky Magic Drawer (menu vlevo nahoře) - Lightnin
 ![blixt](assets/en/18.webp)
 
 
-Tento blok číslo 764272 je okamžik, kdy budou prostředky použitelné ve vašem řetězci Bitcoin onchain Address. A může to trvat až 144 bloků od 1. potvrzovacího bloku, než budou uvolněny. [Takže si to zkontrolujte v Mempool] (https://Mempool.space/).
+Tento blok číslo 764272 je okamžik, kdy budou prostředky použitelné ve vašem řetězci Bitcoin onchain Address. A může to trvat až 144 bloků od 1. potvrzovacího bloku, než budou uvolněny. [Takže si to zkontrolujte v Mempool](https://Mempool.space/).
 
 
 A to je vše. Stačí trpělivě počkat, až se uzavřou všechny kanály a prostředky se vrátí zpět do řetězce Wallet.
@@ -546,7 +546,7 @@ asia.blixtwallet.com
 Dalším způsobem je vybrat jeden z tohoto seznamu uzlů oznamujících "kompaktní filtry" (BIP157 / neutrino) - [Bitnodes Page Neutrino filter](https://bitnodes.io/nodes/?q=NODE_COMPACT_FILTERS). Vyberte si ten, který je blíže vaší zeměpisné poloze.
 
 
-Dalším způsobem (nejlepším) je připojení k místnímu komunitnímu uzlu, který provozuje váš přítel nebo skupina, kterou znáte a která nabízí neutrinové připojení. [Zde je návod, jak to udělat] (https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) Jejich uzel nebude nijak ovlivněn, potřebují jen stabilní a veřejné připojení.
+Dalším způsobem (nejlepším) je připojení k místnímu komunitnímu uzlu, který provozuje váš přítel nebo skupina, kterou znáte a která nabízí neutrinové připojení. [Zde je návod, jak to udělat](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) Jejich uzel nebude nijak ovlivněn, potřebují jen stabilní a veřejné připojení.
 
 
 V regionu LATAM je potřeba více neutrinových serverů pro lepší a rychlejší synchronizaci. Zorganizujte se proto, prosím, s místní komunitou Bitcoin a rozhodněte, kdo a kde provozuje jádro Bitcoin + neutrino pro vlastní potřebu. Stačí k tomu jen veřejná IP adresa. Pokud nemáte přístup k veřejné IP, můžete použít IP VPS a vytvořit wireguard tunel do svého domovského uzlu. Tímto způsobem přesměrujete veškerý provoz na místní IP adresu VPS, aniž byste odhalili jakékoli soukromé informace o svém domácím uzlu.
@@ -673,7 +673,7 @@ Mezitím zde najdete všechny odkazy na tento úžasný bleskový uzel Bitcoin:
 *Vývojáři této aplikace mě nijak neplatí ani nepodporují. Tuto příručku jsem napsal, protože jsem viděl, že zájem o tuto aplikaci Wallet roste a noví uživatelé stále nechápou, jak s ní začít pracovat. Také proto, abych pomohl Hampusovi (hlavnímu vývojáři) s dokumentací o používání tohoto uzlu Wallet.*
 
 
-*Nemám žádný jiný zájem na propagaci této aplikace LN, než prosazovat přijetí Bitcoin a LN. To je jediná cesta!
+*Nemám žádný jiný zájem na propagaci této aplikace LN, než prosazovat přijetí Bitcoin a LN. To je jediná cesta!*
 
 
 ---

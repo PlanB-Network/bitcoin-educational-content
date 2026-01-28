@@ -10,7 +10,7 @@ ___
 
 
 
-*Este tutorial é baseado no conteúdo original de Florian BURNEL publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original
+*Este tutorial é baseado no conteúdo original de Florian BURNEL publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original.*
 
 
 
@@ -42,7 +42,7 @@ O Cryptomator é uma alternativa a outras aplicações, nomeadamente ao Picocryp
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 A aplicação Cryptomator está disponível para **Windows** (exe / msi), **Linux**, **macOS,** mas também **Android** e **iOS**. A propósito, todas as aplicações são gratuitas, exceto a aplicação para Android, que tem de ser paga (14,99 euros).
 
@@ -60,7 +60,7 @@ No seu computador, o **Cryptomator criará uma pasta na qual criará um cofre**.
 
 
 
-Para começar, é necessário **descarregar** e **instalar** **Cryptomator**. Quando o download estiver completo, bastam alguns cliques para completar a instalação. Tal como o [Rclone] (https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), o Cryptomator baseia-se no WinFsp para **montar uma unidade virtual na sua máquina Windows**.
+Para começar, é necessário **descarregar** e **instalar** **Cryptomator**. Quando o download estiver completo, bastam alguns cliques para completar a instalação. Tal como o [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), o Cryptomator baseia-se no WinFsp para **montar uma unidade virtual na sua máquina Windows**.
 
 
 
@@ -114,7 +114,7 @@ Em seguida, pode ajustar uma opção nas definições de especialistas.
 
 
 
-Em seguida, é necessário definir **uma palavra-passe correspondente à chave de encriptação**. Esta palavra-passe permitir-lhe-á **desbloquear o seu cofre Cryptomator** e aceder aos seus dados. **Se a perder, perde o acesso aos seus dados**. Por fim, tem ainda a opção de **criar uma chave de segurança**, marcando a opção "**Sim, mais vale prevenir do que remediar**", no mesmo espírito da chave de recuperação [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Isto é aconselhável, mas não guarde esta chave de cópia de segurança na raiz do seu OneDrive!
+Em seguida, é necessário definir **uma palavra-passe correspondente à chave de encriptação**. Esta palavra-passe permitir-lhe-á **desbloquear o seu cofre Cryptomator** e aceder aos seus dados. **Se a perder, perde o acesso aos seus dados**. Por fim, tem ainda a opção de **criar uma chave de segurança**, marcando a opção "**Sim, mais vale prevenir do que remediar**", no mesmo espírito da chave de recuperação [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Isto é aconselhável, mas não guarde esta chave de cópia de segurança na raiz do seu OneDrive!
 
 
 
@@ -162,7 +162,7 @@ Tem de introduzir a sua palavra-passe para desbloquear o cofre. Em seguida, cliq
 
 
 
-**Esta unidade, que aqui herda a letra E, dá-lhe acesso aos seus dados (em texto simples, uma vez que o cofre está desbloqueado).
+**Esta unidade, que aqui herda a letra E, dá-lhe acesso aos seus dados (em texto simples, uma vez que o cofre está desbloqueado).**
 
 
 
@@ -170,7 +170,7 @@ Tem de introduzir a sua palavra-passe para desbloquear o cofre. Em seguida, cliq
 
 
 
-No lado do OneDrive, não podemos navegar diretamente no cofre do Cryptomator. Não podemos ver os dados (nem os nomes dos ficheiros nem o seu conteúdo). Isto significa que não é necessário adicionar dados ao cofre do Cryptomator através do atalho habitual do OneDrive. **Tem de adicionar os seus dados utilizando a unidade virtual do Cryptomator
+No lado do OneDrive, não podemos navegar diretamente no cofre do Cryptomator. Não podemos ver os dados (nem os nomes dos ficheiros nem o seu conteúdo). Isto significa que não é necessário adicionar dados ao cofre do Cryptomator através do atalho habitual do OneDrive. **Tem de adicionar os seus dados utilizando a unidade virtual do Cryptomator.**
 
 
 

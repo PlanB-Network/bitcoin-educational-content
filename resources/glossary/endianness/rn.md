@@ -1,0 +1,5 @@
+---
+term: UBUHERA
+---
+
+Yerekeza ku rutonde rw'urutonde rw'amabyte rutunganijwe kandi rugasobanurwamwo mu guharura. Hari ubwoko bubiri: "big-endian", aho byte ihambaye cane ibanza kubikwa, na "little-endian", aho byte ihambaye cane ibanza kubikwa.

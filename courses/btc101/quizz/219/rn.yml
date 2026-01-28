@@ -1,10 +1,9 @@
-question: None iyi nyigisho ivuga iki ku bijanye n’akazoza ka Bitcoin?
-answer: Ntibizozimangana.
+question: Ni ubuhe buryo butunganya ihinduka rya Bitcoin risobanuwe muri iki gice?
+answer: Ihinduka mu nzego
 wrong_answers:
-  - Izosubirizwa n’ubuhinga bwiza kuruta.
-  - Izobuzwa kw’isi yose.
-  - Bizotakaza agaciro kavyo.
+  - Blockchain imwe rukumbi
+  - Sharding kavukire
+  - Gushyira mu bikorwa onchain rusangi
 explanation: |
-  Ivyanditswe vy’amashure vyerekana ko Bitcoin itazoja .
-  guhunga. Ahubwo, iyo mpinduka irahejeje gutangura.
-reviewed: true
+  Bitcoin igumana urwego shingiro rworoshe kandi rukomeye, mu gihe porotokole zo hejuru zongeramo imikorere yihariye.
+reviewed: false

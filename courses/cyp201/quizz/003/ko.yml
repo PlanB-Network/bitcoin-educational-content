@@ -1,0 +1,9 @@
+question: SHA256과 RIPEMD160의 주요 차이점은 무엇인가요?
+answer: RIPEMD160은 SHA256보다 짧은 해시를 생성합니다
+wrong_answers:
+  - SHA256은 RIPEMD160과 달리 더 이상 사용되지 않습니다
+  - RIPEMD160은 Proof-of-Work 메커니즘에서만 사용됩니다
+  - SHA256은 다른 해싱 함수와 결합되지 않습니다
+explanation: |
+  RIPEMD160은 160비트 해시를 생성하고 SHA256은 256비트 해시를 생성합니다.
+reviewed: false

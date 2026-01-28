@@ -156,7 +156,7 @@ Jste připraveni plně převzít kontrolu nad svým IT zabezpečením, posílit 
 
 
 
-*N.B.: Pokud se v průběhu kurzu setkáte s neznámými pojmy, podívejte se do [slovníčku pojmů](https://planb.network/resources/glossary), kde najdete jejich definice
+*N.B.: Pokud se v průběhu kurzu setkáte s neznámými pojmy, podívejte se do [slovníčku pojmů](https://planb.academy/resources/glossary), kde najdete jejich definice.*
 
 
 
@@ -179,7 +179,7 @@ Kurz SCU101 byl úvodním kurzem, jehož cílem bylo vytvořit solidní základ 
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Bezpečné procházení online
 
@@ -694,7 +694,7 @@ Richard Stallman otevřeně kritizuje používání termínu "open source" a pov
 
 
 
-*Zdroj: Nathaniel Welch
+**Zdroj: Nathaniel Welch**
 
 
 
@@ -794,7 +794,7 @@ Tyto první snahy stály u zrodu distribucí Linuxu:
 
 
 
-- Únor 1992: MCC Interim Linux**
+- Únor 1992: MCC Interim Linux
 
 
 
@@ -804,7 +804,7 @@ MCC Interim Linux byl vyvinut na univerzitě v Manchesteru a je považován za p
 
 
 
-- Květen 1992: Softlanding Linux System (SLS)**
+- Květen 1992: **Softlanding Linux System (SLS)**
 
 
 
@@ -826,7 +826,7 @@ SLS již neexistuje. Jeho poslední známá verze pochází z konce roku 1994.
 
 
 
-- Červenec 1993: Slackware**
+- Červenec 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware je dodnes udržován a je tak nejstarší stále používanou linuxovo
 
 
 
-- Srpen 1993: Debian**
+- Srpen 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ Debian se tak stal jedním z technických a ideových pilířů světa GNU/Linux
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -974,7 +974,7 @@ Tento přístup je založen na modelu *rolling release*, kdy jsou balíčky prů
 
 Arch Linux je určen především pokročilým uživatelům, kteří chtějí mít nad svým prostředím naprostou kontrolu a zároveň se smířit s určitou složitostí instalace a údržby. Tento technický požadavek vedl ke vzniku několika odvozených distribucí, jejichž cílem je demokratizovat jeho používání.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Nejznámější je Manjaro, které si zachovává technický základ Arch a nabízí zjednodušenou instalaci, předkonfigurovaná desktopová prostředí a mírně opožděný cyklus vydávání aktualizací, aby se stabilizoval.
 
@@ -1050,7 +1050,7 @@ Výběr distribuce Linuxu závisí na vašich konkrétních potřebách, technic
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1062,11 +1062,11 @@ Ubuntu, vyvinuté společností Canonical a uvedené na trh v roce 2004, je jedn
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint je distribuce odvozená od Ubuntu, která byla uvedena na trh v roce 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint vyniká svou jednoduchostí, výchozí přítomností multimediálních kodeků a dobře navrženým aktualizačním nástrojem. Na druhou stranu se do značné míry spoléhá na infrastrukturu Ubuntu, takže je závislý na technických rozhodnutích Ubuntu (zejména na úrovni jádra a repozitářů). Mint je vhodný zejména pro netechnické uživatele nebo pro ty, kteří chtějí systém připravený k použití, který nevyžaduje příliš mnoho učení.
 
@@ -1086,7 +1086,7 @@ Mint vyniká svou jednoduchostí, výchozí přítomností multimediálních kod
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1104,11 +1104,11 @@ Instalace je bezproblémová, základní software je předinstalován a verze "L
 
 
 
-- základní OS**:
+- **základní OS**:
 
 Elementary OS, který byl uveden na trh v roce 2011, je distribuce založená na Ubuntu, která se zaměřuje především na design a konzistenci Interface. Její desktopové prostředí Pantheon, inspirované systémem macOS, je minimalistické, elegantní a plynulé. Systém však zůstává méně přizpůsobitelný než jiné distribuce a někteří pokročilí uživatelé se mohou cítit omezeni možnostmi Interface a jeho záměrně uzavřenou strukturou. Je vhodný pro esteticky citlivé uživatele, kteří hledají jednoduchý a ucelený systém pro každodenní používání.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1140,7 +1140,7 @@ Systém Pop!OS, který vyvinula americká společnost System76, je rovněž zalo
 
 
 
-- Fedora** (pracovní stanice nebo KDE Plasma):
+- **Fedora** (pracovní stanice nebo KDE Plasma):
 
 
 
@@ -1151,10 +1151,10 @@ Fedora je distribuce podporovaná společností Red Hat, orientovaná na nejnov�
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed nebo Leap):
+- **openSUSE** (Tumbleweed nebo Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE je k dispozici jako rolling release nebo stabilní distribuce. Obsahuje
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1179,10 +1179,10 @@ Debian existuje v několika větvích, včetně *Stable* (velmi spolehlivý, ale
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1196,7 +1196,7 @@ Manjaro je založeno na systému Arch a zpřístupňuje Arch Linux. Tato distrib
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1208,11 +1208,11 @@ Arch Linux je minimalistická, průběžně aktualizovatelná distribuce, dodáv
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Specializovaná distribuce
 
-- Kali Linux**:
+- **Kali Linux**:
 
 Kali Linux je distribuce založená na Debianu a určená pro penetrační testování a bezpečnostní audit. Obsahuje stovky nástrojů pro pentestování. Tato distribuce není příliš vhodná jako hlavní systém pro každodenní použití.
 
@@ -1224,7 +1224,7 @@ Kali Linux je distribuce založená na Debianu a určená pro penetrační testo
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1238,7 +1238,7 @@ Systém Parrot OS je rovněž odvozen od Debianu. Nabízí prostředí pro pente
 
 
 
-- Ocas**:
+- **Ocas**:
 
 
 
@@ -1246,7 +1246,7 @@ Tails je live distribuce založená na Debianu a zaměřená na ochranu soukrom�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Poznámka:** Live distribuce je operační systém Linux, který lze používat přímo z USB flash disku nebo CD bez instalace na disk Hard.
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1272,7 +1272,7 @@ Operační systém Qubes je založen na platformě Fedora a používá virtualiz
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch je pentestově orientované rozšíření systému Arch Linux (podobn�
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1300,9 +1300,9 @@ PureOS je distribuce odvozená od Debianu, vyvinutá společností Purism, zcela
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-- Operační systém Raspberry Pi**:
+- **Operační systém Raspberry Pi**:
 
 Raspberry Pi OS (dříve Raspbian) je distribuce optimalizovaná pro mikropočítače Raspberry Pi. Je založena na Debianu, ale balíčky jsou překompilovány pro architekturu ARM. Lze ji použít pro vzdělávací projekty, testování elektroniky nebo malé osobní servery.
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS (dříve Raspbian) je distribuce optimalizovaná pro mikropočí
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1326,7 +1326,7 @@ Whonix kombinuje Debian se sítí Tor v architektuře dvou virtuálních počít
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Toto panorama vám poskytne přehled o současném ekosystému linuxových distribucí a umožní vám vybrat si distribuci, která nejlépe vyhovuje vašemu technickému profilu a cílům.
 
@@ -1362,55 +1362,55 @@ Pracovní prostředí v distribuci Linuxu není jediná aplikace, ale ucelená s
 
 
 
-- Správce oken**: kreslí okraje oken, spravuje jejich umístění, změnu velikosti a přechodové efekty... Například: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Správce oken**: kreslí okraje oken, spravuje jejich umístění, změnu velikosti a přechodové efekty... Například: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Správce souborů**: umožňuje procházet stromem adresářů, kopírovat, přesouvat nebo mazat soubory vizuálně. Příklady: Příklady: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Správce souborů**: umožňuje procházet stromem adresářů, kopírovat, přesouvat nebo mazat soubory vizuálně. Příklady: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Konfigurační centrum**: jedná se o sadu nástrojů, které uživateli umožňují měnit parametry systému bez použití příkazového řádku: vzhled, tapety, správa uživatelů, síť, periferie...
+- **Konfigurační centrum**: jedná se o sadu nástrojů, které uživateli umožňují měnit parametry systému bez použití příkazového řádku: vzhled, tapety, správa uživatelů, síť, periferie...
 
 
 
 
 
-- Systémové applety**: jsou to malé ikony a interaktivní moduly na hlavním panelu (nebo "panelu"), například ovládání zvuku, úroveň nabití baterie, připojení k síti, hodiny...
+- **Systémové applety**: jsou to malé ikony a interaktivní moduly na hlavním panelu (nebo "panelu"), například ovládání zvuku, úroveň nabití baterie, připojení k síti, hodiny...
 
 
 
 
 
-- Panel nebo ovládací panel**: viditelný panel, často v horní nebo dolní části obrazovky, který obsahuje hlavní nabídku, systémové aplety, zástupce, oznamovací zónu atd.
+- **Panel nebo ovládací panel**: viditelný panel, často v horní nebo dolní části obrazovky, který obsahuje hlavní nabídku, systémové aplety, zástupce, oznamovací zónu atd.
 
 
 
 
 
-- Správce relací**: spustí se při spuštění, zobrazí přihlašovací obrazovku a spustí zvolenou grafickou relaci. Například: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Správce relací**: spustí se při spuštění, zobrazí přihlašovací obrazovku a spustí zvolenou grafickou relaci. Například: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Správce oznámení**: spravuje zobrazování systémových oznámení (zpráv, upozornění, aktualizací atd.). Například: dunst, Plasma-notifier, xfce4-notifyd.
+- **Správce oznámení**: spravuje zobrazování systémových oznámení (zpráv, upozornění, aktualizací atd.). Například: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- Kompozitor X11 (volitelný)**: přidává vizuální efekty (stíny, průhlednost, animace) v prostředích, kde správce oken nepodporuje kompozici. Například: Compton, Picom.
+- **Kompozitor X11 (volitelný)**: přidává vizuální efekty (stíny, průhlednost, animace) v prostředích, kde správce oken nepodporuje kompozici. Například: Compton, Picom.
 
 
 
 
 
-- Zobrazovací server**: jedná se o software, který zajišťuje komunikaci mezi systémem (prostřednictvím jádra a grafických ovladačů) a grafickými aplikacemi. Zobrazuje okna na obrazovce a spravuje vstupy z klávesnice a myši. Zobrazovací server je často jinou součástí desktopového prostředí, ale stále více systémů používá Wayland, moderní protokol, kde roli zobrazovacího serveru může převzít přímo správce oken (např. Mutter v prostředí GNOME nebo KWin v prostředí KDE). To se pak označuje jako "Wayland compositing".
+- **Zobrazovací server**: jedná se o software, který zajišťuje komunikaci mezi systémem (prostřednictvím jádra a grafických ovladačů) a grafickými aplikacemi. Zobrazuje okna na obrazovce a spravuje vstupy z klávesnice a myši. Zobrazovací server je často jinou součástí desktopového prostředí, ale stále více systémů používá Wayland, moderní protokol, kde roli zobrazovacího serveru může převzít přímo správce oken (např. Mutter v prostředí GNOME nebo KWin v prostředí KDE). To se pak označuje jako "Wayland compositing".
 
 
 
@@ -1877,7 +1877,7 @@ Po spuštění Ubuntu vás průvodce instalací provede krok za krokem. Postupuj
 
 
 
-- Instalace vedle systému Windows (*duální spouštění*)**
+- Instalace vedle systému Windows (*duální spouštění*)
 
 
 
@@ -1902,7 +1902,7 @@ Abyste to udělali správně, doporučuji nejprve vytvořit nepřidělený oddí
 
 
 
-- Kompletní výměna oken**
+- **Kompletní výměna oken**
 
 
 
@@ -1938,7 +1938,7 @@ Další informace o instalačním programu Ubuntu naleznete v tomto návodu:
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Po dokončení instalace vyjměte na výzvu klíč USB a restartujte počítač. Ubuntu bude nyní na vašem počítači nainstalováno a připraveno k použití.
 
@@ -2020,10 +2020,10 @@ Každé úložiště je rozděleno do sekcí. Ve výchozím nastavení Ubuntu ak
 
 
 
-- main**: svobodný software oficiálně spravovaný společností Canonical. Příklady: Firefox, LibreOffice, bash
-- omezený**: nesvobodný software, který je nezbytný pro správnou funkci hardwaru. Příklady: Příklady: ovladače NVIDIA, firmware Wi-Fi, proprietární kodeky
-- universe**: svobodný software spravovaný komunitou. Příklady: Příklady: GIMP, Inkscape, Audacity
-- multiverse**: software podléhající právním omezením (patenty, nesvobodné licence). Dostupnost se může v jednotlivých zemích lišit. Příklady: některé audio/video kodeky, služba Steam
+- **main**: svobodný software oficiálně spravovaný společností Canonical. Příklady: Firefox, LibreOffice, bash
+- **omezený**: nesvobodný software, který je nezbytný pro správnou funkci hardwaru. Příklady: ovladače NVIDIA, firmware Wi-Fi, proprietární kodeky
+- **universe**: svobodný software spravovaný komunitou. Příklady: GIMP, Inkscape, Audacity
+- **multiverse**: software podléhající právním omezením (patenty, nesvobodné licence). Dostupnost se může v jednotlivých zemích lišit. Příklady: některé audio/video kodeky, služba Steam
 
 
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kancelářský balík
 
 
@@ -3114,13 +3114,13 @@ Kromě těchto několika základních nástrojů doporučuji nainstalovat také 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Na závěr této kapitoly uvádíme několik osvědčených postupů, kterými se můžete denně řídit:
 
@@ -3212,9 +3212,9 @@ Složité heslo bude jistě obtížné si zapamatovat. Proto doporučuji použí
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 A nakonec toto heslo pravidelně měňte - každé 3 až 6 měsíců - zejména pokud je počítač používán ve sdíleném nebo mobilním prostředí.
 
@@ -3314,13 +3314,13 @@ Jedním z nejdůležitějších opatření na ochranu před krádeží je aktiva
 - Distribuce Linuxu disk automaticky nešifrují, pokud tuto možnost nezvolíte při instalaci. K zašifrování disku můžete použít LUKS
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Ve všech případech musí být dešifrovací heslo silné, odlišné od systémového hesla a uložené v bezpečném správci hesel. Pokud používáte externí disk nebo USB klíč s citlivými daty, zvažte také jejich samostatné šifrování pomocí nástrojů, jako je VeraCrypt.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Zásada nejmenšího privilegia
 
@@ -3417,7 +3417,7 @@ Tato technologie je založena na hypervizoru, což je softwarový program, kter�
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 Z hlediska bezpečnosti IT je jednou z velkých výhod virtuálních počítačů jejich schopnost rozdělení. Virtuální počítač nesdílí své soubory, procesy ani přístup k síti s hostitelským systémem, pokud tyto výměny výslovně nenakonfigurujete. Pokud je tedy virtuální počítač infikován malwarem nebo pokud v něm testujete citlivý software, dopad zůstane omezen na tento virtuální počítač: váš hlavní systém zůstane nedotčen, pokud jsou dodrženy parametry izolace (žádné sdílené adresáře, žádná zařízení USB předávaná virtuálnímu počítači...).
 
@@ -3541,7 +3541,7 @@ I když jsou v systému povoleny automatické aktualizace, je důležité v prav
 
 
 
-- Operační systém Windows*
+- Operační systém **Windows**
 
 
 
@@ -3565,7 +3565,7 @@ Nezapomeňte ve stejné nabídce zkontrolovat volitelné aktualizace.
 
 
 
-- Operační systém Linux*
+- Operační systém *Linux*
 
 
 
@@ -3618,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- Operační systém MacOS*
+- Operační systém **MacOS**
 
 
 
@@ -3654,25 +3654,25 @@ Některý software je citlivější než jiný, protože přímo komunikuje s vn
 
 
 
-- Webové prohlížeče*: jsou v první linii útoků, protože zpracovávají neověřený obsah v reálném čase a mají obzvláště velký prostor pro útoky. Navíc hrají ústřední roli při ochraně vašich osobních údajů. A především mají tendenci nahrazovat mnoho softwarových aplikací, které se dříve používaly lokálně (e-mailoví klienti, kancelářské balíky, přehrávače médií...). K tomuto bodu se však vrátíme v další části kurzu SCU202;
+- Webové prohlížeče: jsou v první linii útoků, protože zpracovávají neověřený obsah v reálném čase a mají obzvláště velký prostor pro útoky. Navíc hrají ústřední roli při ochraně vašich osobních údajů. A především mají tendenci nahrazovat mnoho softwarových aplikací, které se dříve používaly lokálně (e-mailoví klienti, kancelářské balíky, přehrávače médií...). K tomuto bodu se však vrátíme v další části kurzu SCU202;
 
 
 
 
 
-- Poštovní klienti*: přijímají přílohy nebo odkazy z externích zdrojů, které jsou nekontrolovatelné, a tudíž rizikové;
+- Poštovní klienti: přijímají přílohy nebo odkazy z externích zdrojů, které jsou nekontrolovatelné, a tudíž rizikové;
 
 
 
 
 
-- Komunikační nástroje* (TeamViewer, Zoom, Signal, Teams...): vzhledem ke své interaktivní povaze jsou cílem špionážních útoků nebo pokusů o vzdálené ovládání. Stejně jako e-mailoví klienti mohou komunikační nástroje sloužit jako vektory pro pokusy o phishing nebo distribuci škodlivých příloh;
+- **Komunikační nástroje** (TeamViewer, Zoom, Signal, Teams...): vzhledem ke své interaktivní povaze jsou cílem špionážních útoků nebo pokusů o vzdálené ovládání. Stejně jako e-mailoví klienti mohou komunikační nástroje sloužit jako vektory pro pokusy o phishing nebo distribuci škodlivých příloh;
 
 
 
 
 
-- Antivirové programy, brány firewall a další detekční řešení*: tyto nástroje mají obvykle zvýšená práva, protože neustále skenují soubory, procesy a síťová připojení. Zastaralá základna signatur, špatná konfigurace nebo zranitelnost samotného softwaru může umožnit, aby malware zůstal neodhalen, nebo dokonce získal zvýšená oprávnění.
+- Antivirové programy, brány firewall a další detekční řešení: tyto nástroje mají obvykle zvýšená práva, protože neustále skenují soubory, procesy a síťová připojení. Zastaralá základna signatur, špatná konfigurace nebo zranitelnost samotného softwaru může umožnit, aby malware zůstal neodhalen, nebo dokonce získal zvýšená oprávnění.
 
 
 
@@ -3893,7 +3893,7 @@ Jak jsme viděli v předchozí části, systém Windows byl v minulosti více vy
 
 
 
-- Microsoft Defender*: V systému Windows je kvalitní antivirový program základním předpokladem. Po mnoho let byl Microsoft Defender (dříve Windows Defender), integrovaný antivirus systému, považován za nespolehlivý a místo něj byla doporučována řešení třetích stran. Tento software se však postupem času výrazně zlepšil a nyní podle mého názoru postačuje k zajištění základní ochrany pro osobní použití. Přesto nesmíme roli antivirového softwaru přeceňovat: bezpečnost zajišťují především vaše vlastní digitální postupy. Jednou z předností programu Defender je jeho nativní integrace se systémem Windows. Kromě ochrany v reálném čase nabízí komplexní skenování, které můžete naplánovat na týden nebo spouštět ručně v pravidelných intervalech.
+- **Microsoft Defender**: V systému Windows je kvalitní antivirový program základním předpokladem. Po mnoho let byl Microsoft Defender (dříve Windows Defender), integrovaný antivirus systému, považován za nespolehlivý a místo něj byla doporučována řešení třetích stran. Tento software se však postupem času výrazně zlepšil a nyní podle mého názoru postačuje k zajištění základní ochrany pro osobní použití. Přesto nesmíme roli antivirového softwaru přeceňovat: bezpečnost zajišťují především vaše vlastní digitální postupy. Jednou z předností programu Defender je jeho nativní integrace se systémem Windows. Kromě ochrany v reálném čase nabízí komplexní skenování, které můžete naplánovat na týden nebo spouštět ručně v pravidelných intervalech.
 
 
 
@@ -3903,12 +3903,12 @@ Jak jsme viděli v předchozí části, systém Windows byl v minulosti více vy
 
 
 
-- Sada Sysinternals Suite*: jedná se o mnohem pokročilejší sadu nástrojů nabízených společností Microsoft pro diagnostiku, monitorování a řešení problémů systému Windows. Zde jsou hlavní nástroje této sady:
-    - Process Monitor*: umožňuje sledovat aktivní procesy, přístupy k souborům, registry atd. v reálném čase;
-    - Autoruns*: zobrazí všechny programy spuštěné při startu a pomůže vám rychle odhalit přetrvávající malware nebo aplikace, které by neměly být spuštěny;
-    - Process Explorer*: monitoruje procesy a detekuje podezřelé chování;
-    - TCPView*: vizualizuje aktivní síťová připojení (detekce abnormálních připojení) ;
-    - Sigcheck*: kontroluje digitální podpisy souborů na přítomnost škodlivého kódu.
+- **Sada Sysinternals Suite**: jedná se o mnohem pokročilejší sadu nástrojů nabízených společností Microsoft pro diagnostiku, monitorování a řešení problémů systému Windows. Zde jsou hlavní nástroje této sady:
+- **Process Monitor**: umožňuje sledovat aktivní procesy, přístupy k souborům, registry atd. v reálném čase;
+- **Autoruns**: zobrazí všechny programy spuštěné při startu a pomůže vám rychle odhalit přetrvávající malware nebo aplikace, které by neměly být spuštěny;
+- **Process Explorer**: monitoruje procesy a detekuje podezřelé chování;
+- **TCPView**: vizualizuje aktivní síťová připojení (detekce abnormálních připojení) ;
+- **Sigcheck**: kontroluje digitální podpisy souborů na přítomnost škodlivého kódu.
 
 
 
@@ -3918,7 +3918,7 @@ Jak jsme viděli v předchozí části, systém Windows byl v minulosti více vy
 
 
 
-- GlassWire*: nástroj pro monitorování sítě. Sleduje příchozí a odchozí připojení v reálném čase a upozorňuje na neobvyklé aktivity.
+- **GlassWire**: nástroj pro monitorování sítě. Sleduje příchozí a odchozí připojení v reálném čase a upozorňuje na neobvyklé aktivity.
 
 
 
@@ -3936,7 +3936,7 @@ Na dobře udržovaném počítači se systémem Linux používaném pro osobní 
 
 
 
-- Fail2ban*: sleduje systémové protokoly pro neúspěšné pokusy o přístup (například pokusy o přihlášení SSH hrubou silou). Při zjištění podezřelého chování dočasně zakáže útočící IP adresu Address prostřednictvím `iptables` ;
+- **Fail2ban**: sleduje systémové protokoly pro neúspěšné pokusy o přístup (například pokusy o přihlášení SSH hrubou silou). Při zjištění podezřelého chování dočasně zakáže útočící IP adresu Address prostřednictvím `iptables` ;
 
 
 
@@ -3946,14 +3946,14 @@ Na dobře udržovaném počítači se systémem Linux používaném pro osobní 
 
 
 
-- Lynis*: komplexní nástroj pro audit zabezpečení, který analyzuje váš systém a hledá chybné konfigurace, známé slabiny nebo odchylky od osvědčených postupů. Vytvoří přehlednou zprávu s bezpečnostním skóre a doporučeními.
+- **Lynis**: komplexní nástroj pro audit zabezpečení, který analyzuje váš systém a hledá chybné konfigurace, známé slabiny nebo odchylky od osvědčených postupů. Vytvoří přehlednou zprávu s bezpečnostním skóre a doporučeními.
 
 
 
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### V systému macOS
 
@@ -3965,7 +3965,7 @@ systém macOS je proslulý svým zabezpečením, zejména díky zásadám podepi
 
 
 
-- KnockKnock*: prohledá všechny moduly Elements nakonfigurované ke spuštění při startu (agenti, démoni, moduly jádra...) a identifikuje ty, které jsou potenciálně podezřelé, nepodepsané nebo neznámé. Umožňuje rychle identifikovat škodlivé persistence v systému.
+- **KnockKnock**: prohledá všechny moduly Elements nakonfigurované ke spuštění při startu (agenti, démoni, moduly jádra...) a identifikuje ty, které jsou potenciálně podezřelé, nepodepsané nebo neznámé. Umožňuje rychle identifikovat škodlivé persistence v systému.
 
 
 
@@ -4061,11 +4061,11 @@ Tento systém se opírá o asymetrickou kryptografii a nástroje, jako je GnuPG 
 
 
 
-Chcete-li se dozvědět více o kryptografických funkcích Hash a digitálních podpisech, zvu vás na bezplatný kurz CYP 201 nabízený na Plan ₿ Network:
+Chcete-li se dozvědět více o kryptografických funkcích Hash a digitálních podpisech, zvu vás na bezplatný kurz CYP 201 nabízený na Plan ₿ Academy:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Ověření integrity a pravosti softwaru
 
@@ -4469,7 +4469,7 @@ Při této konfiguraci je již Alice chráněn proti mnoha běžným hrozbám. J
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice tak dodržuje pravidlo 3-2-1: má 3 kopie svých souborů (počítač, USB klíč, cloud), uložené na nejméně 2 různých médiích (interní disk, USB klíč, vzdálený server), přičemž nejméně 1 kopie je mimo pracoviště (cloudový server).
 
@@ -4549,14 +4549,14 @@ Kromě ochrany osobních údajů mohou vaše soubory představovat také skuteč
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
 V systému Linux je standardním řešením LUKS (*Linux Unified Key Setup*). LUKS je systém správy šifrovaných svazků integrovaný do většiny distribucí. Při první instalaci systému budete zpravidla vyzváni k zašifrování celého disku počítače. Tuto možnost samozřejmě důrazně doporučuji aktivovat. Po aktivaci šifrování bude systém žádat o zadání hesla při každém spuštění, a to i před načtením operačního systému. Tím je zajištěno, že fyzický přístup k disku nemůže obejít zabezpečení.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Pokud chcete zašifrovat externí disk nebo USB disk, můžete to provést také z příkazového řádku nebo pomocí grafického rozhraní Interface. Disk bude muset být naformátován, takže všechna stávající data budou ztracena, pokud nebudou nejprve zálohována.
 
@@ -4808,7 +4808,7 @@ Nakonec klikněte na tlačítko ve tvaru šipky v pravém horním rohu, abyste k
 
 
 
-- Windows:**
+- **Windows:**
 
 
 
@@ -4832,7 +4832,7 @@ Chcete-li se o tomto řešení dozvědět více, přečtěte si tento kompletní
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4854,7 +4854,7 @@ Po aktivaci služby FileVault je třeba zvolit metodu obnovy v případě ztrát
 U externích paměťových médií (disky Hard, klíčenky USB atd.) se šifrování provádí pomocí diskového nástroje. Svazek bude nutné kompletně přeformátovat:
 
 - Vyberte zařízení, klikněte na "*Odstranit*"
-- Vyberte schéma "Tabulka oddílů GUID*"
+- Vyberte schéma "Tabulka oddílů GUID"
 - Pak vyberte formát šifrovaného souborového systému (*APFS* nebo *Mac OS extended*)
 - Zvolte si silné heslo
 - Klikněte na "*Delete*", poté na "*OK*" a šifrování je dokončeno
@@ -4877,7 +4877,7 @@ Tento protokol je ideální pro bezpečnou výměnu citlivých souborů s ostatn
 
 Vynikající alternativou je Cryptomator. Tento software s otevřeným zdrojovým kódem umožňuje vytvořit trezor: speciální adresář, ve kterém jsou všechny uložené soubory automaticky zašifrovány. Tento trezor lze synchronizovat s cloudovými službami, jako je Dropbox, Disk Google nebo Nextcloud, aniž by měl poskytovatel přístup k nezašifrovaným datům. Aplikace je dostupná ve všech operačních systémech, včetně Androidu a iOS, a její používání nevyžaduje žádné zvláštní technické dovednosti.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 VeraCrypt je také možné používat v režimu kontejneru, který vytvoří soubor fungující jako šifrovaný archiv připojitelný jako disk.
 
@@ -4934,7 +4934,7 @@ Tento balíček nainstaluje nástroj `exiftool`, který pak můžete používat 
 
 
 
-- Krok 2: Zobrazení metadat souborů** (ve francouzštině)
+- Krok 2: **Zobrazení metadat souborů** (ve francouzštině)
 
 
 
@@ -4943,18 +4943,18 @@ Chcete-li zobrazit všechna metadata obsažená v souboru, použijte následují
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Nahraďte `jméno.jpg` skutečným názvem souboru. Také se ujistěte, že jste umístěni v adresáři obsahujícím tento obrázek. Pokud mám například fotografii sochy Satoshi Nakamoto v adresáři `/Downloads`, mohu zobrazit její metadata spuštěním následujícího příkazu:
+Nahraďte `jméno.webp` skutečným názvem souboru. Také se ujistěte, že jste umístěni v adresáři obsahujícím tento obrázek. Pokud mám například fotografii sochy Satoshi Nakamoto v adresáři `/Downloads`, mohu zobrazit její metadata spuštěním následujícího příkazu:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Chcete-li ze souboru odstranit všechna nepotřebná metadata, použijte příka
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Pokud nechcete původní soubor zachovat, můžete jej odstranit příkazem:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Pokud máte ve stejném adresáři několik souborů ke zpracování, můžete p
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Tím se odstraní metadata všech souborů JPEG v aktuálním adresáři. Příponu můžete upravit podle svých potřeb (`*.png`, `*.pdf`...).
+Tím se odstraní metadata všech souborů JPEG v aktuálním adresáři. Příponu můžete upravit podle svých potřeb (`*.webp`, `*.pdf`...).
 
 
 
@@ -5580,9 +5580,9 @@ Proto bych nedoporučoval používat Google Chrome, ať už osobně nebo profesi
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Brave
 
@@ -5680,7 +5680,7 @@ Mezi prohlížeče založené na Blinku patří také řada okrajovějších pro
 
 
 
-- Oblouk** :
+- **Oblouk**:
 
 
 
@@ -5698,7 +5698,7 @@ Z technického hlediska je Arc založen na Chromiu, ale zůstává proprietárn�
 
 
 
-- Polypan** :
+- **Polypan** :
 
 
 
@@ -5742,7 +5742,7 @@ Firefox zůstává měřítkem bezpečnosti a ochrany soukromí, přestože v n�
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Prohlížeč Tor
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Nevýhodou je výrazné snížení výkonu (vysoká latence) a omezená kompatibilita s některými webovými stránkami. Tor Browser je ideální pro citlivé činnosti (žurnalistika, aktivismus...), ale méně vhodný pro běžné každodenní použití.
 
@@ -5765,11 +5765,11 @@ Nevýhodou je výrazné snížení výkonu (vysoká latence) a omezená kompatib
 
 [Mullvad Browser](https://mullvad.net/en/browser) je výsledkem spolupráce mezi Tor Foundation a Mullvad VPN. Je založen na prohlížeči Tor, který je sám odvozen od Firefoxu ESR. Mullvad Browser je navržen tak, aby maximalizoval soukromí uživatelů. Ve výchozím nastavení obsahuje pokročilou ochranu proti otiskům prstů, sledovacím zařízením a skriptům třetích stran.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Má většinu funkcí zabezpečení a ochrany soukromí, které nabízí Tor Browser, s jedním rozdílem: nepřesměrovává provoz přes síť Tor. Chcete-li se vyhnout únikům IP Address, můžete jej používat v kombinaci s VPN (ideálně Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Prohlížeč Mullvad je vynikajícím řešením, pokud máte obavy o své soukromí, ať už jste začátečník nebo pokročilý uživatel.
 
@@ -5795,7 +5795,7 @@ Ve výchozím nastavení LibreWolf aktivuje pokročilá nastavení zabezpečení
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Prohlížeč Zen Browser
 
@@ -5813,7 +5813,7 @@ Z hlediska zabezpečení a ochrany soukromí nabízí Zen nativní blokování s
 
 Zen Browser je zajímavou alternativou, pokud hledáte svobodné, inovativní, nenáročné a soukromí respektující prostředí Gecko.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Prohlížeče založené na WebKitu
 
@@ -5855,7 +5855,7 @@ Orion je kompletně vyvinutý týmem Kagi (známým pro svůj vyhledávač bez r
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Prohlížeče bez vykreslovacích motorů
 
 
@@ -6035,9 +6035,9 @@ Správce hesel bezpečně generuje a ukládá silná hesla, která vám umožní
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Používání správce hesel má řadu výhod: zjednodušuje každodenní život tím, že si nemusíte pamatovat množství hesel, a minimalizuje hlavní slabinu ověřování: samotného uživatele.
 
@@ -6047,13 +6047,13 @@ Pokud jde o ověřování, je třeba doplnit používání správce hesel o dvou
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Používání sítě VPN
 
@@ -6087,11 +6087,11 @@ Dobrá VPN by měla mít jasnou politiku zákazu logování, nabízet moderní t
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Vysoce prestižním VPN se vyhněte. Navzdory agresivnímu marketingu zůstávají centralizovanými komerčními službami, které často sídlí v méně ochranářských jurisdikcích a jejichž skutečný technický provoz je zřídkakdy transparentní.
 
@@ -6190,25 +6190,25 @@ Abyste se těmto útokům při procházení internetu vyhnuli, je důležité do
 
 
 
-- Analýza adresy URL**: útočníci často používají adresy velmi podobné původním (např. `micr0soft-support.com`, `paypal-verif.net` atd.). Někteří také nahrazují vizuálně podobné znaky a využívají znaky Unicode. Ověřte, zda kód Address přesně odpovídá očekávanému webu, bez podezřelých předpon nebo přípon.
+- **Analýza adresy URL**: útočníci často používají adresy velmi podobné původním (např. `micr0soft-support.com`, `paypal-verif.net` atd.). Někteří také nahrazují vizuálně podobné znaky a využívají znaky Unicode. Ověřte, zda kód Address přesně odpovídá očekávanému webu, bez podezřelých předpon nebo přípon.
 
 
 
 
 
-- Vyhněte se zkráceným odkazům**: služby jako `bit.ly` nebo `t.co` mohou maskovat konečný kód Address. Pokud obdržíte zkrácený odkaz, buďte podezřívaví nebo použijte službu pro rozšíření URL a zkontrolujte jeho cíl.
+- **Vyhněte se zkráceným odkazům**: služby jako `bit.ly` nebo `t.co` mohou maskovat konečný kód Address. Pokud obdržíte zkrácený odkaz, buďte podezřívaví nebo použijte službu pro rozšíření URL a zkontrolujte jeho cíl.
 
 
 
 
 
-- Pozor na poplašné zprávy**: pokusy o phishing často využívají silných emocí (naléhavost, hrozba, odměna, zvědavost...). E-mail, který tvrdí, že váš účet bude brzy zablokován nebo že zásilka nemůže být doručena, je přirozeně podezřelý.
+- **Pozor na poplašné zprávy**: pokusy o phishing často využívají silných emocí (naléhavost, hrozba, odměna, zvědavost...). E-mail, který tvrdí, že váš účet bude brzy zablokován nebo že zásilka nemůže být doručena, je přirozeně podezřelý.
 
 
 
 
 
-- Nikdy nepřenášejte citlivé informace prostřednictvím přijatého spojení**: Legitimní instituce po vás nikdy nebude chtít heslo, ověřovací kód nebo naskenovanou kopii vašeho průkazu totožnosti prostřednictvím jednoduchého e-mailu nebo SMS.
+- Nikdy nepřenášejte citlivé informace prostřednictvím přijatého spojení: Legitimní instituce po vás nikdy nebude chtít heslo, ověřovací kód nebo naskenovanou kopii vašeho průkazu totožnosti prostřednictvím jednoduchého e-mailu nebo SMS.
 
 
 
@@ -6218,7 +6218,7 @@ A zde je několik preventivních opatření, která můžete zavést přímo v p
 
 
 
-- Přístup k důležitým webům prostřednictvím záložek**:
+- **Přístup k důležitým webům prostřednictvím záložek**:
 
 
 
@@ -6232,7 +6232,7 @@ Obdrželi jste od finančního úřadu e-mail s odkazem? Neklikejte na něj. Mí
 
 
 
-- Dodržujte správné postupy ověřování** :
+- Dodržujte správné postupy **ověřování**:
 
 
 
@@ -6250,7 +6250,7 @@ Kromě těchto opatření vás před falešnými webovými stránkami může och
 
 
 
-- Kontrola certifikátů SSL/TLS**:
+- **Kontrola certifikátů SSL/TLS**:
 
 
 
@@ -6296,19 +6296,19 @@ Cíl je jednoduchý: zabránit tomu, aby incident zahrnující konkrétní aktiv
 
 
 
-- Používejte několik různých prohlížečů**: například Firefox pro osobní použití, Tor nebo Mullvad pro citlivé činnosti a Chromium pro profesionální úkoly. Každý prohlížeč používá vlastní instanci úložiště, která zcela izoluje soubory cookie, relace a rozšíření. To vám také umožňuje přizpůsobit nastavení prohlížeče konkrétním případům použití.
+- **Používejte několik různých prohlížečů**: například Firefox pro osobní použití, Tor nebo Mullvad pro citlivé činnosti a Chromium pro profesionální úkoly. Každý prohlížeč používá vlastní instanci úložiště, která zcela izoluje soubory cookie, relace a rozšíření. To vám také umožňuje přizpůsobit nastavení prohlížeče konkrétním případům použití.
 
 
 
 
 
-- Vytvoření více profilů v rámci jednoho prohlížeče**: některé prohlížeče umožňují vytvářet nezávislé profily, každý s vlastní historií, relacemi, rozšířeními a nastaveními. Toto řešení je o něco méně omezující než používání několika samostatných prohlížečů, ale stále méně efektivní.
+- **Vytvoření více profilů v rámci jednoho prohlížeče**: některé prohlížeče umožňují vytvářet nezávislé profily, každý s vlastní historií, relacemi, rozšířeními a nastaveními. Toto řešení je o něco méně omezující než používání několika samostatných prohlížečů, ale stále méně efektivní.
 
 
 
 
 
-- Používejte vestavěné kontejnery**: Firefox nabízí rozšíření [Kontejnery pro více účtů] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), které umožňuje otevřít samostatné karty, každou s vlastním přihlášením a soubory cookie. Určité weby můžete také automaticky přiřadit k určitému kontejneru, aby byly při každém otevření odděleny.
+- **Používejte vestavěné kontejnery**: Firefox nabízí rozšíření [Kontejnery pro více účtů](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), které umožňuje otevřít samostatné karty, každou s vlastním přihlášením a soubory cookie. Určité weby můžete také automaticky přiřadit k určitému kontejneru, aby byly při každém otevření odděleny.
 
 
 
@@ -6318,7 +6318,7 @@ Cíl je jednoduchý: zabránit tomu, aby incident zahrnující konkrétní aktiv
 
 
 
-- Použijte izolované systémové prostředí**: Pro obzvláště citlivé použití můžete prohlížeč spustit také ve virtuálním počítači nebo kontejneru Docker, aby byl zcela oddělen od hlavního prostředí.
+- **Použijte izolované systémové prostředí**: Pro obzvláště citlivé použití můžete prohlížeč spustit také ve virtuálním počítači nebo kontejneru Docker, aby byl zcela oddělen od hlavního prostředí.
 
 
 
@@ -6626,7 +6626,7 @@ GrapheneOS neobsahuje žádné proprietární komponenty. Služby Google si mů�
 Graphene je kompatibilní pouze s nejnovějšími Pixely Google (Pixel 6, 7, 8 a 9).
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6842,11 +6842,11 @@ Veřejné sítě Wi-Fi, například v kavárnách, hotelech nebo ve veřejné do
 Chcete-li se chránit, jednoduše se vyhněte používání těchto veřejných sítí nebo použijte VPN, která vytvoří šifrovaný tunel mezi vaším zařízením a vzdáleným serverem. Tento tunel zapouzdří vaše data, takže je velmi obtížné je zachytit nebo upravit.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Pokud jde o domácí síť Wi-Fi, o té si povíme v poslední části kurzu SCU 202.
 
@@ -6921,7 +6921,7 @@ Pravidelné zálohování dat smartphonu je velmi důležité pro vaši bezpečn
 Za tímto účelem byste měli použít šifrovaná místní řešení, jako je externí disk nebo šifrovaný klíč USB (např. pomocí Veracryptu). Pokud se vám to nepodaří, můžete využít samostatně hostovaná cloudová řešení, jako je *Syncthing* nebo *Nextcloud*, která vám umožní zálohovat data na osobním serveru a zároveň si zachovat plnou kontrolu nad přístupem a důvěrností. Na rozdíl od komerčních cloudových služeb (Disk Google, iCloud...) tato řešení výrazně omezují vystavení vašich informací třetím stranám.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Vzdálené stírání
 
@@ -7019,7 +7019,7 @@ Signal má však slabé místo, pokud jde o anonymitu: aplikace vyžaduje platn�
 Signál je zkrátka velmi dobré řešení pro zasílání zpráv, ale bohužel vyžaduje připojení z telefonního čísla.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7042,7 @@ Telegram je díky své ergonomii a funkcím (veřejné kanály, boti, velké sku
 Telegram tak může technicky přistupovat k obsahu většiny konverzací, které nejsou výslovně chráněny. I když společnost zaujímá pevný postoj vůči státním orgánům, není Telegram optimálním řešením pro důvěrné nebo citlivé výměny, pokud výslovně nepoužíváte jeho "tajné výměny", které jsou na každodenní bázi mnohem méně praktické.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7065,7 +7065,7 @@ Dalším důležitým aspektem Threemy je její obchodní model: aplikace není 
 Myslím, že toto řešení pro zasílání zpráv je vynikající, ale jeho hlavní nevýhodou je, že zdrojový kód jeho serverů zůstává proprietární.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX Chat
 
@@ -7088,7 +7088,7 @@ Kontakty se přidávají prostřednictvím dočasných odkazů nebo statických 
 Z hlediska zabezpečení a důvěrnosti jde SimpleX dále než většina stávajících systémů pro zasílání zpráv, protože omezuje metadata na minimum a odstraňuje jakoukoli závislost na centrálním adresáři nebo jedinečném identifikátoru. Tato architektura však přináší řadu kompromisů, pokud jde o uživatelskou přívětivost: někdy méně intuitivní ergonomii, potřebu mírné počáteční křivky učení a závislost na dostupnosti relay serverů.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Relace
 
@@ -7105,7 +7105,7 @@ Technicky Session implementuje end-to-end šifrování pro zprávy, soubory, zvu
 Klient a server relací jsou open-source. Software je k dispozici pro operační systémy Android, iOS, Windows, macOS a Linux, s možností synchronizace mezi zařízeními prostřednictvím fráze Mnemonic podobné té, která se používá v peněženkách Bitcoin. Tato fráze dává uživateli výhradní kontrolu nad jeho daty, ale také ukládá značnou odpovědnost z hlediska zálohování.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7125,7 +7125,7 @@ Na druhou stranu, ačkoli jsou některé komponenty (kryptografie a síť) zveř
 Keet je k dispozici pro systémy Android, iOS, Windows, macOS a Linux a lze jej synchronizovat mezi zařízeními pomocí fráze Mnemonic.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7162,7 +7162,7 @@ Aplikace je certifikována ANSSI (*Agence Nationale de la Sécurité des Systèm
 Olvid je kompatibilní se systémy Android, iOS, Windows, macOS a Linux. Jeho ergonomie zůstává jednoduchá a přístupná. Aplikace také obsahuje systém šifrovaného zálohování klíčů a kontaktů, takže můžete účet obnovit na novém zařízení.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Aplikace pro zasílání zpráv, kterým je třeba se vyhnout
 
@@ -7260,7 +7260,7 @@ Thunderbird Mobile je mobilní verze oblíbeného e-mailového klienta s otevře
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Bitwarden je jedním z nejkomplexnějších dostupných správců hesel s otevř
 Můžete použít servery společnosti Bitwarden nebo si je hostovat sami, pokud chcete mít vše pod kontrolou. Jeho mobilní aplikace Interface je přehledná a plynulá, s bezproblémovou integrací do systému Android nebo iOS.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePass je správce historických hesel založený na šifrování místních so
 K dispozici je také [KeePassium](https://keepassium.com/) pro iOS, dobře integrovaná aplikace v ekosystému Apple, kompatibilní s formátem KeePass a s otevřeným zdrojovým kódem. Další alternativou klienta KeePass pro iOS je Strongbox, ale tento software již několik let není open-source.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ Ne všechny sítě VPN jsou však stejné. Populární služby jako NordVPN nebo
 Mullvad je jednou z nejlepších VPN z hlediska ochrany soukromí. Nevyžaduje žádný e-mail ani heslo: váš účet je spojen s jednoduchým náhodným číslem. Platbu lze provést v bitcoinech nebo v hotovosti. Mobilní klient je open-source, snadno se používá a je výkonný. Mullvad neuchovává žádné záznamy, nesleduje své uživatele a pravidelně zveřejňuje nezávislé bezpečnostní audity.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Další vynikající alternativou zaměřenou na ochranu soukromí je IVPN. Nabízí jednoduchý a efektivní mobilní Interface, neshromažďuje žádné protokoly a umožňuje anonymní registraci. Můžete také platit v bitcoinech. Aplikace obsahuje firewall blokující veškerý provoz, který není součástí sítě VPN, což může být na chytrém telefonu velmi užitečné. Klienti mají otevřený zdrojový kód.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ Aegis je komplexní open-source aplikace. Šifruje databázi 2FA pomocí hesla, 
 Ente Auth je moderní multiplatformní řešení s otevřeným zdrojovým kódem a end-to-end šifrovaným zálohováním. Umožňuje bezpečnou synchronizaci kódů 2FA na mobilních zařízeních, počítačích a webu. Můžete jej používat i offline, bez cloudového zálohování nebo vytváření účtu.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth nabízí mnoho dalších funkcí: Ente Ente nabízí: uspořádání podle značek, vlastní ikony pro každou službu, poznámky, oblíbené položky, integrované vyhledávání, bezpečné sdílení týmového kódu.
 
 
@@ -7609,13 +7609,13 @@ Ente Auth nabízí mnoho dalších funkcí: Ente Ente nabízí: uspořádání p
 Authy nabízí synchronizaci 2FA mezi více zařízeními, což může být užitečné, ale aplikace není open-source a pro registraci vyžaduje telefonní číslo. Pro začátečníky je však kompletnější než Google Authenticator, zejména díky funkci zálohování do cloudu.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Pokud se chcete dozvědět více o správcích hesel, ověřování 2FA a VPN, doporučuji vám přečíst si kapitoly věnované kurzu SCU-101:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Počasí
 
@@ -8070,8 +8070,8 @@ Internetová infrastruktura je založena především na dvou protokolech:
 
 
 
-- IP** (*Internet Protocol*) Identifikuje každé připojené zařízení a směruje datové pakety.
-- TCP** (*Protokol řízení přenosu*) Segmentuje tok, kontroluje chyby a segmenty opět seřadí.
+- **IP** (*Internet Protocol*) Identifikuje každé připojené zařízení a směruje datové pakety.
+- **TCP** (*Protokol řízení přenosu*) Segmentuje tok, kontroluje chyby a segmenty opět seřadí.
 
 
 → Pro použití v reálném čase, kde je spolehlivost méně důležitá než latence (VoIP, DNS, streamování atd.), se místo TCP často používá jiný přenosový protokol: UDP (*User Datagram Protocol*).
@@ -8105,14 +8105,14 @@ Toto zařízení kombinuje 2 hlavní funkce:
 
 
 
-- Role modemu**
+- Role modemu
 
 
 Modem (zkratka pro "*modulátor-demodulátor*") je součást, která propojuje síť poskytovatele internetu s vaší domácností. Upravuje elektrické nebo optické signály přijímané (optickým vláknem, koaxiálním kabelem, ADSL nebo mobilní sítí) na digitální signály, kterým rozumí vaše zařízení. Naopak převádí data z vašich zařízení do formátu, který lze přenášet přes infrastrukturu operátora. Tento krok je nezbytný, pokud má vaše domácí síť komunikovat s internetem.
 
 
 
-- Role směrovače**
+- Role směrovače
 
 
 Směrovač je srdcem místní sítě. Distribuuje internetové připojení do všech vašich zařízení: Počítače, chytré telefony, připojené objekty, tiskárny atd. Každému z nich přiřazuje místní IP adresu Address (odlišnou od vaší veřejné IP adresy viditelné na internetu). Směrovač pak organizuje příchozí a odchozí provoz a zajišťuje, aby se data dostala ke správnému zařízení. Může také integrovat bránu firewall, filtrovat síťové pakety nebo spravovat pravidla pro přesměrování portů. NAT maskuje vaši místní síť před zraky internetu a používá jedinou veřejnou IP adresu Address, která reprezentuje všechna vaše zařízení. Pouze směrovač ví, které místní zařízení iniciovalo který požadavek.
@@ -8267,7 +8267,7 @@ Jak jsme zjistili v předchozí kapitole, zabezpečení domácí sítě je velmi
 Po přehledu teoretických základů vás tato kapitola provede jasnými, praktickými a účinnými kroky ke zvýšení bezpečnosti vaší místní sítě.
 
 
-*Upozornění: Zde uvedené informace jsou obecné, protože Plan ₿ Network je určen mezinárodnímu publiku. V závislosti na místních podmínkách a poskytovateli internetových služeb zde nemusí být některé osvědčené postupy uvedeny nebo se mohou uplatnit jiným způsobem.*
+*Upozornění: Zde uvedené informace jsou obecné, protože Plan ₿ Academy je určen mezinárodnímu publiku. V závislosti na místních podmínkách a poskytovateli internetových služeb zde nemusí být některé osvědčené postupy uvedeny nebo se mohou uplatnit jiným způsobem.*
 
 
 ### Výběr a zabezpečení síťového zařízení
@@ -8282,10 +8282,16 @@ Je důležité vybrat si moderní zařízení, které je udržováno výrobcem a
 Směrovač kompatibilní s Wi-Fi 6, Wi-Fi 6E nebo Wi-Fi 7 vám poskytne vyšší rychlost a především nativní podporu moderních bezpečnostních technologií. Naopak velmi stará zařízení, zejména ta, která již nedostávají aktualizace softwaru, mohou obsahovat známé, neopravené zranitelnosti. Představují proto riziko pro celou vaši síť, a to i v případě, že je správně nakonfigurujete. Ve srovnání s mobilními telefony nebo počítači jsou směrovače zařízení, která máme tendenci uchovávat po mnoho let. Může však být dobré je pravidelněji vyměňovat, abychom mohli využívat výhod modernějšího a bezpečnějšího modelu.
 
 
+**Pozor**: Obecně platí, že směrovače poskytované poskytovateli internetových služeb mohou postrádat základní funkci aktualizace a také možnosti personalizace. V některých případech mohou mít poskytovatelé internetových služeb také neomezený přístup k interní síti koncového uživatele.
+
 Proto se ujistěte, že firmware routeru systematicky aktualizujete. Tyto aktualizace opravují zranitelnosti, přidávají nové funkce a zvyšují celkovou stabilitu systému. Někteří výrobci nabízejí automatické aktualizace, ale v některých případech je třeba provést kontrolu ručně prostřednictvím nástroje pro správu routeru Interface. Stejně jako u telefonu, počítače, operačního systému a softwaru je důležité pravidelně aktualizovat směrovač. Můžete to zařadit do své týdenní rutiny - například každou neděli - a sestavit si seznam všech položek, které je třeba zkontrolovat a aktualizovat.
 
 
-Pokud váš směrovač již není udržován, ale z hlediska hardwaru stále funguje správně, můžete nainstalovat alternativní firmware s otevřeným zdrojovým kódem, např.:
+Alternativně můžete povolit automatické aktualizace nebo alespoň automatické skenování nových aktualizací firmwaru, pokud dáváte přednost ručnímu jednání. I když funkce automatických aktualizací může stále představovat bezpečnostní hrozbu, neprovedení pravidelných aktualizací firmwaru směrovače vystaví vaši lokální síť veřejně známým zranitelnostem.
+
+**Příklad**: Při nákupu vlastního směrovače může být dobrý nápad hledat zavedené firmy v oboru, které dlouhodobě poskytují směrovače na trhu. Například směrovače Fritz!Box mají dlouholetou pověst zařízení typu plug-and-play, vhodných pro použití jak v rodinném prostředí, tak v malých firmách. Jejich politika aktualizací softwaru obvykle trvá několik let.
+
+Pokud váš směrovač není již udržován, ale stále funguje správně z hlediska hardwaru, možná budete schopni nainstalovat alternativní open-source firmware, jako například:
 
 
 
@@ -8293,13 +8299,15 @@ Pokud váš směrovač již není udržován, ale z hlediska hardwaru stále fun
 - pfSense a OPNsense, dva systémy založené na FreeBSD (podobné Unixu) pro firewally a směrovače x86
 
 
+**Poznámka**: Někteří poskytovatelé internetu dodávají svým zákazníkům hromadné routery vyráběné jednou společností, která současně poskytuje služby mnoha různým ISP po celém světě. Může se stát, že pro instalaci jednoho z alternativních firmware na routeru už někdo jiný objevil, jak to udělat, i když je na druhé straně světa.
+
 ![Image](assets/fr/196.webp)
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Tyto systémy umožňují jemnější kontrolu pravidel brány firewall, odchozích a příchozích připojení, segmentaci sítě (VLAN) a správu DNS, ale jsou určeny spíše pro pokročilé uživatele.
 
@@ -8336,9 +8344,9 @@ Proto je nutné, abyste ihned po instalaci směrovače změnili své identifiká
 Toto heslo musí být dlouhé (40 znaků), složité (čísla, malá a velká písmena a symboly), jedinečné (nesmí být použito jinde) a náhodné. Samozřejmě doporučuji používat správce hesel pro bezpečné uložení těchto údajů generate.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Upozornění: Nezaměňujte heslo pro správu směrovače (které chrání přístup ke konfiguraci) s heslem Wi-Fi (které umožňuje připojení k bezdrátové síti). Jedná se o dvě různá hesla Elements a obě je třeba změnit.
 
@@ -8356,37 +8364,37 @@ Některým funkcím je třeba se vyhnout nebo je systematicky deaktivovat:
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Tato funkce umožňuje zařízením v síti požádat směrovač o automatické otevření portů. To sice usnadňuje některé způsoby použití (online hry, připojené kamery atd.), ale také otevírá dveře škodlivým aplikacím, které mohou bez vašeho svolení měnit konfiguraci sítě. UPnP je jednou z hlavních příčin neúmyslného vystavení interních služeb vnějšímu světu.
 
 
 
-- WPS (*Wi-Fi Protected Setup*)**:
+- WPS (*Wi-Fi Protected Setup*):
 
 
 Tento systém, který byl původně navržen pro zjednodušení připojování zařízení k síti Wi-Fi bez zadávání hesla, je založen na kódu PIN, který je často slabý a snadno napadnutelný hrubou silou. Doporučuji jej zakázat.
 
 
 
-- Vzdálený přístup (*Vzdálená správa*)**:
+- Vzdálený přístup (**Vzdálená správa**):
 
 
 Některé směrovače umožňují připojit se k jejich správě Interface zvenčí, prostřednictvím internetu. Tato funkce nepřiměřeně zvyšuje plochu pro útoky na váš směrovač. Zcela ji zakažte, pokud nemáte specifickou potřebu vzdálené správy. I v takovém případě vždy používejte síť VPN.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Zastaralé nebo nezabezpečené protokoly**:
+- **Zastaralé nebo nezabezpečené protokoly**:
 
 
 Zakažte všechny služby správy, které používají protokoly s otevřeným textem, jako je Telnet, FTP, nešifrovaný protokol HTTP nebo SMBv1. Tyto protokoly nezajišťují důvěrnost ani integritu vyměňovaných dat a často se stávají cílem malwaru. Pokud potřebujete místní nebo vzdálený přístup, používejte pouze připojení přes protokol HTTPS (šifrovaný Interface), SSH nebo SFTP, podle potřeby.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Některé směrovače ve výchozím nastavení odpovídají na požadavky ICMP odeslané zvenčí (příkaz `ping`). Útočník tak může zkontrolovat, zda je vaše síť aktivní a přístupná. Pokud to nepotřebujete, zakažte tuto odpověď ve firewallu směrovače.
@@ -8475,15 +8483,15 @@ Dále aktivujte protokol šifrování dotazů DNS, abyste zabránili zachycení 
 
 
 
-- DoH (*DNS přes HTTPS*)**: Zapouzdřuje požadavky DNS do protokolu HTTPS, takže jsou k nerozeznání od běžného šifrovaného webového provozu
+- DoH (**DNS přes HTTPS**): Zapouzdřuje požadavky DNS do protokolu HTTPS, takže jsou k nerozeznání od běžného šifrovaného webového provozu
 
 
 
-- DoT (*DNS přes TLS*)**: Vytvoří specifický šifrovaný kanál mezi vaším zařízením a serverem DNS
+- DoT (**DNS přes TLS**): Vytvoří specifický šifrovaný kanál mezi vaším zařízením a serverem DNS
 
 
 
-- DoQ (*DNS over QUIC*)**: Přenáší požadavky DNS prostřednictvím protokolu QUIC založeného na protokolu UDP
+- **DoQ (*DNS over QUIC*)**: Přenáší požadavky DNS prostřednictvím protokolu QUIC založeného na protokolu UDP
 
 
 V praxi lze šifrování DNS a přepínání serverů realizovat na různých úrovních:
@@ -8497,7 +8505,7 @@ V praxi lze šifrování DNS a přepínání serverů realizovat na různých ú
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Na úrovni operačního systému: Některé operační systémy mají nativně integrovanou podporu šifrovaného DNS (DoT nebo DoH), která zabezpečuje všechny požadavky DNS procházející síťovým zásobníkem systému. Tím však není zabezpečen celý počítač nebo telefon: Aplikace mohou toto nastavení obejít, pokud jsou nakonfigurovány tak, aby používaly jiný resolver DNS nebo protokol.
 
 
@@ -8512,7 +8520,7 @@ Modemové směrovače dodávané poskytovatelem internetu také ne vždy podporu
 Chcete-li jít ještě dál, můžete také nastavit místní řešení filtrování DNS, například Pi-hole nebo AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Tyto nástroje fungují jako malý server DNS v síti a blokují požadavky na domény, o nichž je známo, že hostí reklamu, sledovací programy prohlížeče, phishingové nebo škodlivé stránky. Tyto nástroje také umožňují vytvářet vlastní blokační seznamy nebo přizpůsobit filtrování podle připojených zařízení.
 
@@ -8533,19 +8541,19 @@ Dvě hlavní řešení pro soukromé zákazníky jsou:
 - WireGuard: Moderní, rychlý a lehký
 - OpenVPN: Starší, ale velmi vyspělá a konfigurovatelná síť
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Zde je kompletní návod na Tailscale, snadno konfigurovatelné řešení VPN, které používá WireGuard:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Tuto síť VPN můžete hostovat přímo na kompatibilním směrovači, v malém počítači (například Raspberry Pi) nebo na vyhrazeném domácím serveru. Můžete ji také nainstalovat jako klienta přímo do libovolného zařízení.
 
 VPN však neslouží jen ke vzdálenému přístupu. Můžete také používat klasického klienta VPN na svých zařízeních a šifrovat veškerý odchozí provoz, i když jste mimo domov (veřejná Wi-Fi, hotel, univerzita atd.). V takovém případě se vaše zařízení připojí k serveru VPN třetí strany (komerčnímu nebo hostovanému na vlastní pěst), který pak předává vaše připojení k internetu. Tím se před poskytovatelem internetu skryje vaše skutečná IP adresa Address, vaše data jsou chráněna před místním špehováním a vyhnete se některým formám cenzury.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 A konečně je také možné nastavit VPN přímo na routeru, což vám umožní chránit všechna zařízení v domácnosti, aniž byste museli na každé z nich instalovat klienta VPN.
 
@@ -8555,17 +8563,17 @@ Po správné konfiguraci a segmentaci sítě je důležité překročit rámec p
 
 Prvním krokem je centralizace bezpečnostních protokolů. Každé zařízení připojené k síti generuje protokoly obsahující informace o připojeních, chybách nebo podezřelých aktivitách. Místo toho, abyste tyto protokoly konzultovali jednotlivě, doporučuji je odesílat na server, který je schopen je seskupovat, třídit a analyzovat. Řešení, jako je Graylog nebo Elastic Stack (ELK), umožňují sdružovat tyto protokoly do grafického prostředí Interface, kde můžete vyhledávat konkrétní události, vytvářet upozornění nebo vizualizovat síťovou aktivitu.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Dále provádějte pravidelné aktivní skenování místní sítě, například pomocí programu Nmap. Získáte tak přehled o všech zařízeních v síti a o portech, které mají otevřeny. Pokud identifikujete neznámé zařízení nebo neobvyklou službu, může to být známkou útoku.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Chcete-li jít ještě dál, můžete nainstalovat systém IDS (*Intrusion Detection System*) nebo dokonce IPS (*Intrusion Prevention System*). Tyto nástroje, například Suricata nebo Snort, monitorují síťové toky v reálném čase a detekují signatury známých útoků (skenování portů, injektáže, podezřelá připojení atd.). Systém IDS varuje, zatímco systém IPS může určité akce automaticky blokovat.
 
 Sledování spotřeby šířky pásma je také dobrým indikátorem abnormální aktivity. Pokud zařízení bez zjevného důvodu náhle spotřebuje velké množství dat, může to prozrazovat neoprávněné stahování, únik dat nebo dokonce napadení zařízení. Nástroje jako ntopng nebo vnStat umožňují zobrazit příchozí a odchozí toky podle zařízení.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Zálohování a odolnost
 
@@ -8598,3 +8606,4 @@ Dodržením těchto několika kroků vytvoříte robustní a bezpečné síťov�
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

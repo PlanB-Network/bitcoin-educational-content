@@ -1,33 +1,46 @@
 ---
 name: Neutrino
-description: LND Neutrino asennusopas
+description: LND Neutrino Asennusopas
 ---
+![image](assets/cover.webp)
 
-# Raspberry Pi -konfigurointi LND:n kanssa
 
-1. Lataa Raspberry Pi OS Lite
+## Raspberry Pi -konfiguraatio LND:n kanssa
 
-Lataa Raspberry Pi OS Lite, ohjeet kuvatiedoston lataamiseen ja asentamiseen microSD-kortille Windowsissa, Macissa ja Linuxissa löytyvät [tältä sivulta](https://www.raspberrypi.org/software/operating-systems/).
 
-2. Alusta SD-kortti
+### 1. Lataa Raspberry Pi OS Lite
 
-Alusta SD-kortti käyttäen Raspberry Pi Imageria tai balenaEtcheria.
 
-> HUOM: Symbolia `$` käytetään kehotteena, joka sallii käyttäjän syöttää komentoja tietokoneeseen, komentoja tulkitaan bashissa Linuxissa. Rivin alussa oleva symboli `#` osoittaa, että seuraava teksti on kommentti.
+Ohjeet imagon lataamiseen ja asentamiseen micro SD-kortille Windowsissa, Macissa ja Linuxissa löytyvät [tältä sivulta](https://www.raspberrypi.org/software/operating-systems/).
 
-3. Ota SSH käyttöön
 
-Ennen kuin aloitamme Raspberry Pin käyttämisen alustetulla muistilla, meidän on lisättävä siihen kaksi tiedostoa, jotka mahdollistavat etäyhteyden muodostamisen. Käyttämällä `touch`-komentoa, luomme tyhjän tiedoston /boot-osioon, joka mahdollistaa SSH-yhteyden ensimmäisellä käynnistyksellä tuoreesti alustetulle SD-kortille.
+### 2. SD-kortin alustaminen
+
+
+Käytä Raspberry Pi Imageria tai balenaEtcheriä.
+
+
+**Huomautus:** Symbolia `$` käytetään kehotteena ja sen avulla käyttäjä voi syöttää komentoja tietokoneelle, komentoja tulkitsee Linuxin bash. Symboli `#` rivin alussa osoittaa, että seuraava teksti on kommentti.
+
+
+### 3. Ota SSH käyttöön
+
+
+Ennen kuin Raspberry Pi käynnistetään alustetulla muistilla, meidän on asetettava se tietokoneeseen ja luotava kaksi tiedostoa, joiden avulla voimme muodostaa etäyhteyden. Käyttämällä komentoa `touch` luomme tyhjän tiedoston /boot-osioon, mikä mahdollistaa SSH-yhteyden muodostamisen ensimmäisellä käynnistyskerralla juuri alustetulla SD-kortilla.
+
 
 ```
-# HUOM: Jos microSD-kortti on liitetty kohteeseen /media/microSD, komennon
-# tulisi olla $ sudo touch /media/microSD/boot/ssh
+# NOTE: If the microSD card has been mounted at /media/microSD, the command
+# should be $ sudo touch /media/microSD/boot/ssh
 $ touch /boot/ssh
 ```
 
-4. Käyttäen nano-komentoa
 
-luomme wpa_supplicant.conf-tiedoston ja aloitamme sen muokkaamisen suoraan. Tähän tiedostoon meidän on kopioitava wifi-konfiguraatio, kopioimalla teksti START ja END väliltä, ja muokkaamalla haluamasi wifin SSID ja salasana.
+### 4. Luo tiedosto Wi-Fi-yhteyttä varten
+
+
+Käyttämällä nano-komentoa luomme tiedoston `wpa_supplicant.conf` ja aloitamme suoraan sen muokkaamisen. Tässä tiedostossa meidän täytyy kopioida wlan-konfiguraatio, kopioida teksti STARTin ja ENDin väliin ja muuttaa sen wlanin SSID ja salasana, johon haluat muodostaa yhteyden.
+
 
 ```
 $ nano /boot/wpa_supplicant.conf
@@ -38,74 +51,91 @@ update_config=1
 ctrl_interface=/var/run/wpa_supplicant
 
 network={
- ssid="MyNetworkSSID"
- psk="password"
+ssid="MyNetworkSSID"
+psk="password"
 }
 ------ END -------
 ```
 
-5. Yhteys
 
-Tämän jälkeen asetamme SD-kortin Raspberry Pi:hin ja yhdistämme Pi:n virtalähteeseen käynnistääksemme käyttöjärjestelmän. Meidän on tunnistettava se verkossa, ja mDNS-protokolla todennäköisesti antaa sille nimen raspberrypi.local. Yritetään yhdistää SSH:n kautta.
+### 5. Yhteys
+
+
+Sitten asetamme SD-kortin Raspberry Pi:hen ja kytkemme Piin virtalähteeseen käyttöjärjestelmän käynnistämiseksi. Meidän on tunnistettava se verkossa, ja mDNS-protokolla antaa sille todennäköisesti nimen raspberrypi.local. Yritetään muodostaa yhteys SSH:n kautta.
+
 
 ```
 $ ssh pi@raspberrypi.local
-salasana: raspberry
+password: raspberry
 ```
 
-Jos se ei toimi, meidän on selvitettävä verkko. Selvitetään mihin IP-osoitteeseen olemme yhdistetty.
+
+Jos se ei toimi, meidän on selvitettävä verkko. Selvitetään IP Address, johon olemme yhteydessä.
+
 
 ```
 $ ifconfig
 ```
 
-Esimerkiksi, jos se on 192.168.0.0, käytä nmapia löytääksesi Pi:n.
+
+Jos se on esimerkiksi 192.168.0.0, käytä nmapia Pi:n etsimiseen.
+
 
 ```
 nmap -v 192.168.0.0/24
 ```
 
-Olettaen, että löydämme uuden IP:n verkostamme, yritetään kirjautua sisään SSH:n kautta.
+
+Oletetaan, että löydämme uuden IP-osoitteen verkostostamme, ja mennään sisään SSH:n kautta.
+
 
 ```
 $ ssh pi@192.168.0.30
-salasana: raspberry
+password: raspberry
 ```
 
-1. Konfiguroi Pi
+
+### 6. Määritä Pi
+
 
 ```
 $ sudo raspi-config
 ```
 
+
 - Valitse vaihtoehto (1) ja vaihda käyttäjän pi salasana.
 - Valitsemme vaihtoehdon (8) päivittääksemme konfigurointityökalun uusimpaan versioon
-- Valitsemme vaihtoehdon (4) valitaksemme aikavyöhykkeemme
+- Valitsemalla vaihtoehdon (4) valitsemme aikavyöhykkeen
 - Valitsemme vaihtoehdon (7) ja sitten Laajenna tiedostojärjestelmä
-- Lopeta
+- Viimeistely
 
-  7.- Päivitämme käyttöjärjestelmän
+
+### 7. Päivitä nyt käyttöjärjestelmä
+
 
 ```
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim --install-recommends -y
 ```
 
-8.- Lisäämme bitcoin-käyttäjän
+
+### 8. Lisää Bitcoin-käyttäjä
+
 
 ```
 $ sudo adduser bitcoin
 ```
 
-9.- Turvaamme rpi:n
+
+### 9. Suojaa rpi
+
 
 ```
 $ sudo apt install ufw
-```
 $ sudo ufw default deny incoming
 $ sudo ufw default allow outgoing
-$ sudo ufw allow 22 comment 'salli SSH LAN:sta'
-$ sudo ufw allow 9735 comment 'salli Lightning'
+$ sudo ufw allow 22 comment 'allow SSH from LAN'
+$ sudo ufw allow 9735 comment 'allow Lightning'
 $ sudo ufw allow 10009 comment 'Lightning gRPC'
 $ sudo ufw enable
 $ sudo systemctl enable ufw
@@ -113,8 +143,12 @@ $ sudo ufw status
 $ sudo apt install fail2ban
 ```
 
-```
-10.- Asennamme go:n: jos et käytä raspberry pi:tä, lataa go arkkitehtuurillesi täältä (https://golang.org/dl/)
+
+### 10. Asenna Go
+
+
+Jos et käytä raspberry pi, lataa go for your architecture [täällä](https://golang.org/dl/).
+
 
 ```
 $ wget https://golang.org/dl/go1.15.linux-armv6l.tar.gz
@@ -123,11 +157,12 @@ $ echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
 $ echo "export GOPATH=$HOME/go" >> ~/.bashrc
 $ echo "export PATH=$PATH:$GOPATH/bin" >> ~/.bashrc
 $ source ~/.bashrc
-$ go version # pitäisi näyttää seuraava viesti 'go version go1.13.5 linux/arm'
+$ go version # should display the following message 'go version go1.13.5 linux/arm'
 ```
 
-```
-11.- Käännämme ja asennamme lnd:n
+
+### 11. Käännä ja asenna LND
+
 
 ```
 $ git clone https://github.com/lightningnetwork/lnd.git
@@ -140,8 +175,12 @@ $ lncli --version
 lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c1a7b97746f
 ```
 
-```
-12.- Luomme lnd:n konfiguraatiotiedoston, tämä tulisi tehdä 'bitcoin'-käyttäjänä
+
+### 12. Luo LND conf-tiedosto
+
+
+Luo LND:n konfigurointitiedosto, tämä on tehtävä Bitcoin-käyttäjällä
+
 
 ```
 $ sudo su - bitcoin
@@ -149,14 +188,15 @@ $ mkdir .lnd
 $ nano .lnd/lnd.conf
 ```
 
+
 ```
 [Application Options]
-# ota vastaan spontaanit maksut
+# enable spontaneous payments
 accept-keysend=1
 
-# solmun julkinen nimi
-alias=SINUN_ALIAS
-# julkinen väri heksadesimaalina
+# Public name of the node
+alias=YOUR_ALIAS
+# Public color in hexadecimal
 color=#000000
 debuglevel=info
 maxpendingchannels=5
@@ -173,14 +213,18 @@ bitcoin.node=neutrino
 neutrino.connect=bb2.breez.technology
 ```
 
-```
-13.- Jotta LND käynnistyisi rpi:n bootin jälkeen, meidän täytyy luoda .service-tiedosto systemd:lle.
-Jos olemme kirjautuneet sisään bitcoin-käyttäjänä ja haluamme vaihtaa takaisin pi-käyttäjään, kirjoitamme vain 'exit'
+
+### 13. LND service autostart
+
+
+Jotta LND käynnistyy rpi-käynnistyksen jälkeen, meidän on luotava .service-tiedosto systemd:hen. Jos olemme kirjautuneet sisään Bitcoin-käyttäjänä ja haluamme siirtyä takaisin pi-käyttäjäksi, kirjoitamme yksinkertaisesti 'exit'
+
 
 ```
 $ exit
 $ sudo nano /etc/systemd/system/lnd.service
 ```
+
 
 ```
 [Unit]
@@ -189,13 +233,13 @@ After=network.target
 
 [Service]
 
-# Palvelun suoritus
+# Service execution
 ###################
 
 ExecStart=/usr/local/bin/lnd
 
 
-# Prosessinhallinta
+# Process management
 ####################
 
 Type=simple
@@ -204,10 +248,10 @@ RestartSec=30
 TimeoutSec=240
 LimitNOFILE=128000
 
-# Hakemiston luonti ja oikeudet
-################################
+# Directory creation and permissions
+####################################
 
-# Suorita bitcoin:bitcoin käyttäjänä
+# Run as bitcoin:bitcoin
 User=bitcoin
 Group=bitcoin
 
@@ -215,30 +259,30 @@ Group=bitcoin
 RuntimeDirectory=lightningd
 RuntimeDirectoryMode=0710
 
-# Turvatoimet
-#############
+# Hardening measures
+####################
 
-# Tarjoa yksityinen /tmp ja /var/tmp.
-```
-```
+# Provide a private /tmp and /var/tmp.
 PrivateTmp=true
-# Liitä /usr, /boot/ ja /etc vain luku -tilassa prosessille.
+
+# Mount /usr, /boot/ and /etc read-only for the process.
 ProtectSystem=full
 
-# Estä prosessia ja sen kaikkia lapsiprosesseja saamasta
-# uusia oikeuksia execve()-komennon kautta.
+# Disallow the process and all of its children to gain
+# new privileges through execve().
 NoNewPrivileges=true
 
-# Käytä uutta /dev nimiavaruutta, joka sisältää vain API:n pseudo-laitteita
-# kuten /dev/null, /dev/zero ja /dev/random.
+# Use a new /dev namespace only populated with API pseudo devices
+# such as /dev/null, /dev/zero and /dev/random.
 PrivateDevices=true
 
-# Kiellä kirjoitettavien ja suoritettavien muistialueiden luominen.
+# Deny the creation of writable and executable memory mappings.
 MemoryDenyWriteExecute=true
 
 [Install]
 WantedBy=multi-user.target
 ```
+
 
 ```
 $ sudo systemctl enable lnd
@@ -246,95 +290,123 @@ $ sudo systemctl start lnd
 $ systemctl status lnd
 ```
 
-Lokien tarkastelu komennolla journalctl
+
+Voimme tarkastella lokitietoja suorittamalla komennon journalctl
+
 
 ```
 $ sudo journalctl -f -u lnd
 ```
 
-14. Nyt käynnistämme lnd:n
+
+### 14. Nyt aloitamme LND:n
+
 
 ```
 $ sudo su - bitcoin
 $ lncli create
 ```
 
-15. Lisää varoja solmuun
+
+### 15. Lisää varoja solmuun
+
 
 ```
 $ lncli newaddress p2wkh
 ```
 
-Lähetä btc osoitteeseen, jonka lnd palauttaa
+Voit nyt lähettää btc:tä LND:n palauttamaan Address:een.
 
-Tarkista saldo
+
+tällä komennolla voit tarkistaa saldon:
+
 
 ```
 $ lncli walletbalance
 {
-    "total_balance": "500000",
-    "confirmed_balance": "0",
-    "unconfirmed_balance": "500000"
+"total_balance": "500000",
+"confirmed_balance": "0",
+"unconfirmed_balance": "500000"
 }
 ```
 
-Kun siirto on vahvistettu, voimme avata kanavan. Jos et tiedä, minkä solmun kanssa kanavan avaisit, voit mennä osoitteeseen 1ml.com ja valita solmun.
+
+Kun tapahtuma on vahvistettu, voimme avata kanavan. Jos et tiedä, millä solmulla kanava avataan, voit mennä osoitteeseen 1ml.com ja valita solmun.
+
 
 Avaa yhteys solmuun:
+
 
 ```
 $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0@212.129.58.219:9735
 ```
 
-Avaa sen jälkeen kanava
+
+Avaa sitten kanava:
+
 
 ```
 $ lncli openchannel 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0 1000000 0
 ```
 
-Tarkista varat
+
+Tarkista rahastomme:
+
 
 ```
 $ lncli walletbalance
 $ lncli channelbalance
 ```
 
-Voimme tarkastella odottavia ja aktiivisia kanavia
+
+Voimme tarkastella vireillä olevia ja aktiivisia kanavia:
+
 
 ```
 $ lncli pendingchannels
 $ lncli listchannels
 ```
 
-Maksamaan lightning-laskun
+
+Maksamaan salaman Invoice:
+
 
 ```
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
-Vastaanottaaksesi maksun, luo lasku tiettyä summaa varten
+
+Jos haluat vastaanottaa maksun, luo Invoice tiettyä summaa varten:
+
 
 ```
-$ lncli addinvoice --memo 'ensimmäinen maksuni LN:ssä' --amt 100
+$ lncli addinvoice --memo 'my first payment on LN' --amt 100
 ```
 
-Nähdäksesi tietoja solmustani
+
+Voit tarkastella tietoja solmusta:
+
 
 ```
 $ lncli getinfo
 ```
 
-Koko komentolista näkyy yksinkertaisesti suorittamalla lncli
+
+Täydellinen luettelo komennoista on nähtävissä yksinkertaisesti suorittamalla komento lncli:
+
 
 ```
 $ lncli
 ```
 
-Lopuksi, tehdäksesi kutsuja lnd API:lle
+
+Lopuksi, LND API:n kutsuminen:
+
 
 ```
 $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/bitcoin/mainnet/admin.macaroon)"
 $ curl -X GET --cacert .lnd/tls.cert --header "$MACAROON_HEADER" https://localhost:8080/v1/getinfo |jq
 ```
 
-> LOPPU
+
+Oppaan LOPPU!

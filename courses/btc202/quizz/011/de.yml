@@ -1,0 +1,9 @@
+question: Warum braucht ein Miner eine Bitcoin Node?
+answer: Um mit dem Netzwerk zu interagieren und seine Blöcke zu verteilen
+wrong_answers:
+  - Um digitale Signaturen zu generieren
+  - Um die Adresse in der Coinbase-Transaktion einzugeben
+  - Um den Schwierigkeitsgrad von Mining zu verringern
+explanation: |
+  Miner verwenden eine Node, um mit dem Netzwerk zu kommunizieren, ihre Blöcke zu verteilen und Transaktionen zu empfangen.
+reviewed: true

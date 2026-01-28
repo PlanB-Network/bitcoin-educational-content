@@ -10,7 +10,7 @@ ___
 
 
 
-*Este tutorial é baseado no conteúdo original de Mickael Dorigny publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original
+*Este tutorial é baseado no conteúdo original de Mickael Dorigny publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original.*
 
 
 
@@ -131,7 +131,7 @@ Vamos agora apagar todos os dados da nossa pen USB. A operação consiste em pre
 
 
 
-**Certifique-se de que está a utilizar o ficheiro de dispositivo correto!
+**Certifique-se de que está a utilizar o ficheiro de dispositivo correto!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Aqui, o subcomando "`luksFormat`" inicializa e formata o dispositivo para usar a encriptação LUKS. Ser-lhe-á pedido que confirme esta operação escrevendo `YES` em maiúsculas, depois defina um *passphrase*. **Escolha um *passphrase* robusto para garantir que, em caso de perda, o atacante não possa descobri-lo através de ataques de força bruta.
+Aqui, o subcomando "`luksFormat`" inicializa e formata o dispositivo para usar a encriptação LUKS. Ser-lhe-á pedido que confirme esta operação escrevendo `YES` em maiúsculas, depois defina um *passphrase*. **Escolha um *passphrase* robusto para garantir que, em caso de perda, o atacante não possa descobri-lo através de ataques de força bruta.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Aqui, a localização de destino** é especificada como "**/dev/mappe/usbkey1**"**, porquê?
+**Aqui, a localização de destino** é especificada como "**/dev/mappe/usbkey1**", porquê?
 
 
 

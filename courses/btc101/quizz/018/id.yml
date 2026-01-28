@@ -1,9 +1,11 @@
-question: Apa bentuk pertama dari mata uang yang sering dikaitkan dengan?
-answer: Barang-barang esensial seperti biji-bijian, ternak, dan komoditas lainnya
+question: Apa keuntungan utama Bitcoin dibandingkan dengan bentuk mata uang lainnya?
+answer: Ini menawarkan penyimpanan nilai yang sangat baik karena pasokannya yang sangat terbatas dan neutalitasnya.
 wrong_answers:
-  - Emas dan perak
-  - Uang kertas
-  - Aset digital
+  - Ini tidak dapat dibagi dan dapat diangkut
+  - Ini tunduk pada inflasi moneter
+  - Ini secara luas diterima dalam perdagangan
 explanation: |
-  Bentuk pertama dari mata uang sering kali dikaitkan dengan barang-barang esensial seperti biji-bijian, ternak, dan komoditas lainnya. Namun, barang-barang ini memiliki kelemahan utama, seperti kemudahan rusak, yang membuatnya sulit digunakan sebagai media tabungan jangka panjang.
+  Keuntungan utama Bitcoin dibandingkan dengan bentuk mata uang lainnya adalah bahwa itu
+  menawarkan penyimpanan nilai yang sangat baik karena pasokannya yang sangat terbatas dan ketiadaan pihak yang dipercaya. Ini membuat
+  itu pilihan yang baik untuk tabungan jangka panjang.
 reviewed: true

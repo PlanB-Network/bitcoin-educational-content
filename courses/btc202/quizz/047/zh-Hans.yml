@@ -1,0 +1,9 @@
+question: 创建 Umbrel 帐户时强烈建议采取哪些安全措施？
+answer: 激活 2FA
+wrong_answers:
+  - 禁用密码
+  - 使用 PIN 码
+  - 禁用所有连接
+explanation: |
+  2FA 增加了额外的保护，强烈建议使用，尤其是在使用闪电节点或敏感的自托管时。
+reviewed: true

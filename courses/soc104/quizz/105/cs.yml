@@ -1,0 +1,9 @@
+question: Jaký je podle libertariánské filozofie základní rozdíl mezi státními a tržními penězi z hlediska jejich vzniku a vlastností?
+answer: Státní peníze jsou nucené a centralizované, jejich snadná tvorba vede ke ztrátě hodnoty, zatímco tržní peníze vznikají dobrovolně a udržují si dlouhodobou hodnotu
+wrong_answers:
+  - Státní peníze jsou demokraticky kontrolované a stabilní, zatímco tržní peníze jsou manipulovány soukromými zájmy a jsou velmi nestabilní
+  - Státní peníze slouží veřejnému blahobytu prostřednictvím přerozdělovacích mechanismů, zatímco tržní peníze přinášejí prospěch pouze bohatým investorům a těm, kdo je přijali dříve
+  - Státní peníze poskytují ekonomickou jistotu díky vládní podpoře, zatímco tržní peníze vytvářejí nejistotu kvůli chybějící institucionální podpoře
+explanation: |
+  Text jasně rozlišuje mezi státními (fiat) penězi jako donucovacím, centralizovaným systémem, který se snadno vytváří a má tendenci ztrácet hodnotu, a tržními penězi (jako je historicky zlato a v současnosti Bitcoin), které vznikají dobrovolně, spontánně a dlouhodobě si uchovávají hodnotu.
+  To odráží širší libertariánský princip upřednostňující dobrovolné, decentralizované systémy před vnucenými, centralizovanými. Špatné odpovědi odrážejí běžné mylné představy o výhodách státní kontroly oproti tržním mechanismům.

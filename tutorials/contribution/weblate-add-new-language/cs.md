@@ -1,10 +1,10 @@
 ---
 name: Weblate - přidání nového jazyka
-description: Jak můžete do sítě Plan ₿ Network nový jazyk?
+description: Jak můžete do sítě Plan ₿ Academy nový jazyk?
 ---
 ![cover](assets/cover.webp)
 
-Posláním sítě Plan ₿ Network je poskytovat prvotřídní vzdělávací zdroje o Bitcoinu a překládat je do co největšího počtu jazyků. Velká část obsahu zveřejněného na webu je open-source a je umístěna na GitHubu, což umožňuje komukoli podílet se na obohacování platformy. Příspěvky mohou mít různou podobu: opravy a korektury stávajícího obsahu, aktualizace informací nebo vytváření nových výukových materiálů, které se na platformu přidají.
+Posláním sítě Plan ₿ Academy je poskytovat prvotřídní vzdělávací zdroje o Bitcoinu a překládat je do co největšího počtu jazyků. Velká část obsahu zveřejněného na webu je open-source a je umístěna na GitHubu, což umožňuje komukoli podílet se na obohacování platformy. Příspěvky mohou mít různou podobu: opravy a korektury stávajícího obsahu, aktualizace informací nebo vytváření nových výukových materiálů, které se na platformu přidají.
 
 Na našich webových stránkách je v současné době k dispozici řada jazyků a neustále pracujeme na přidávání dalších. Pro zlepšení procesu překladu pro náš frontend používáme nástroj Weblate, který nám pomáhá efektivně spolupracovat a spravovat překlady. Je to uživatelsky přívětivý nástroj.
 
@@ -28,7 +28,7 @@ Chcete-li zjistit, zda váš jazyk již patří mezi jazyky, na kterých pracuje
 
 Pokud je váš jazyk v tomto seznamu, nemusíte jej znovu přidávat. Chcete-li přispět korekturou weblate, objevte následující návod:
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Pokud tam váš jazyk není, přidejte ho podle níže uvedeného návodu.
 
 ## Přidání nového jazyka do sítě plánu ₿
@@ -64,7 +64,7 @@ Pokud tam váš jazyk není, přidejte ho podle níže uvedeného návodu.
 
 Chcete-li se nechat provést procesem překladu, podívejte se na náš specializovaný návod zde:
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Gratulujeme, zahájili jste proces překladu statických prvků na webových stránkách sítě Plan ₿!
 
 Zahrnují všechny řetězce na webu, kromě vzdělávacího obsahu (kurzy, výukové programy...), pro který používáme jinou poloautomatickou metodu (překlad umělou inteligencí + korektury přispěvatelů).

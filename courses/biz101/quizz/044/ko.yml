@@ -1,0 +1,9 @@
+question: Lightning Network을 사용하는 판매자가 얻을 수 있는 주요 이점은 무엇인가요?
+answer: 거래 수수료 절감
+wrong_answers:
+  - 은행이 보증하는 결제
+  - 매출 자동 증가
+  - 상업세 면제
+explanation: |
+  Lightning Network의 거래 수수료는 매우 낮기 때문에 판매자에게 비용 효율적인 솔루션입니다.  
+reviewed: true

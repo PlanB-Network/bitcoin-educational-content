@@ -1,0 +1,9 @@
+question: Is Spinoza een filosoof?
+answer: Uit de 17e eeuw.
+wrong_answers:
+  - Uit de 16e eeuw.
+  - Uit de 18e eeuw.
+  - Uit de oudheid.
+explanation: |
+  Spinoza leefde van 1632 tot 1677 en is daarmee een filosoof uit de 17e eeuw. Deze periode, die bekend staat als het Tijdperk van de Rede, zag de opkomst van het moderne rationalisme en nieuwe wetenschappelijke benaderingen om de wereld te begrijpen.
+reviewed: false

@@ -1,13 +1,9 @@
-question: Šta je DCA platforma?
-answer: Usluga koja omogućava korisnicima da investiraju fiksni iznos novca u imovinu u redovnim intervalima.
+question: Koja je jedna od glavnih karakteristika Bitkoina?
+answer: Može se razmeniti bilo gde u svetu bez ikakvog odobrenja bilo koje entitete.
 wrong_answers:
-  - Vrsta razmene kriptovalute koja omogućava trgovanje samo Bitkoin.
-  - Finansijska usluga koja pruža zajmove investitorima za margina trgovanje.
-  - Softverski alat koji prati cene akcija u realnom vremenu bez ikakvih investicionih funkcija.
+  - Može ga koristiti samo odabrana grupa ljudi.
+  - Za korišćenje je potrebna autorizacija centralnog autoriteta.
+  - Može se koristiti samo u određenim zemljama.
 explanation: |
-  DCA platforma odnosi se na platformu koja omogućava
-  Dollar-Cost Averaging (DCA), investicionu strategiju gde
-  pojedinac investira fiksni iznos novca u
-  određeni aset u redovnim intervalima, bez obzira na
-  cenu aseta.
+  Tekst pominje da je Bitkoin pseudoniman i da se može razmenjivati bilo gde u svetu bez odobrenja bilo kog entiteta.
 reviewed: true

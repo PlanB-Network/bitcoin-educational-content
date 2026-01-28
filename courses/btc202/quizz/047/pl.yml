@@ -1,0 +1,9 @@
+question: Jakie środki bezpieczeństwa są zdecydowanie zalecane podczas tworzenia konta Umbrel?
+answer: Aktywacja 2FA
+wrong_answers:
+  - Wyłącz hasło
+  - Korzystanie z kodu PIN
+  - Wyłączenie wszystkich połączeń
+explanation: |
+  2FA zapewnia dodatkową ochronę i jest wysoce zalecane, szczególnie w przypadku korzystania z węzła Lightning lub wrażliwego hostingu własnego.
+reviewed: true

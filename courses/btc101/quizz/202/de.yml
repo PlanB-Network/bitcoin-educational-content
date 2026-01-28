@@ -1,10 +1,11 @@
-question: Was ist eine der Möglichkeiten, Bitcoins ohne KYC zu erwerben?
-answer: Bitcoin-Automaten.
+question: Womit ist die Adoptionskurve von Bitcoin vergleichbar?
+answer: Eine S-Kurve.
 wrong_answers:
-  - Broker-Plattformen.
-  - DCA-Plattformen.
-  - Banküberweisungen.
-explanation: |
-  Im Kursmaterial wird erwähnt, dass es mehrere Möglichkeiten gibt,
-  Bitcoins ohne KYC zu erwerben, eine davon sind Bitcoin-Automaten.
+  - Eine U-Kurve.
+  - Eine V-Kurve.
+  - Eine W-Kurve.
+explanation: >-
+  Die Adoption von Bitcoin, wie bei jeder neuen Technologie, folgt einer S-Kurve.
+  Dies ist ein gängiges Muster für die Adoption neuer Technologien, bei dem die Adoption
+  langsam beginnt, dann beschleunigt, bevor sie verlangsamt, wenn die Sättigung erreicht ist.
 reviewed: true

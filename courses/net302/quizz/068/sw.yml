@@ -6,4 +6,4 @@ wrong_answers:
   - DNSSEC64
 explanation: |
   Utaratibu wa EUI-64 hubadilisha 48-bit MAC Address kuwa kitambulisho cha biti 64, kinachotumika katika usanidi otomatiki wa IPv6.
-reviewed: false
+reviewed: true

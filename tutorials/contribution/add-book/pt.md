@@ -10,7 +10,7 @@ A missão da PlanB é fornecer recursos educacionais de primeira linha sobre Bit
 ![book](assets/01.webp)
 - Primeiro, você precisa ter uma conta no GitHub. Se você não sabe como criar uma conta, fizemos um tutorial detalhado para guiá-lo.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) na seção `resources/books/`:
@@ -70,7 +70,7 @@ tags:
 ![livro](assets/13.webp)
 - Clique na foto do seu perfil do GitHub no canto superior direito, depois em `Your Repositories` (Seus Repositórios):
 ![livro](assets/14.webp)
-- Selecione o seu fork do repositório PlanB Network:
+- Selecione o seu fork do repositório Plan ₿ Academy:
 ![livro](assets/15.webp)
 - Você deverá ver uma notificação no topo da janela com o seu novo branch. Provavelmente se chama `patch-1`. Clique nele:
 ![livro](assets/16.webp)
@@ -92,7 +92,7 @@ tags:
 ![livro](assets/24.webp)
 - Clique no botão `Add file` (Adicionar arquivo), depois em `Upload files` (Carregar arquivos):
 ![livro](assets/25.webp)
-- Uma nova página será aberta. Arraste e solte a imagem de capa do seu livro na área. Esta imagem será exibida no site da PlanB Network:
+- Uma nova página será aberta. Arraste e solte a imagem de capa do seu livro na área. Esta imagem será exibida no site da Plan ₿ Academy:
 ![livro](assets/26.webp)
 - Tenha cuidado, a imagem deve estar no formato de um livro, para melhor se adaptar ao nosso site, como por exemplo:
 ![livro](assets/27.webp)

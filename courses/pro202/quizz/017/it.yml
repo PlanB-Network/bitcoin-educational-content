@@ -1,0 +1,8 @@
+question: Quale requisito di sicurezza critico deve essere soddisfatto quando si genera il nonce K nella creazione della firma ECDSA?
+answer: K deve essere unico e imprevedibile per ogni firma, per evitare la compromissione della chiave privata
+wrong_answers:
+  - K deve essere derivato dalla chiave pubblica per garantire il corretto funzionamento della verifica della firma
+  - K deve essere lo stesso in più firme per mantenere la coerenza del processo di firma
+  - K deve essere uguale alla chiave privata moltiplicata per l'hash del messaggio per correttezza matematica
+explanation: |
+  Il nonce K deve essere unico e imprevedibile per ogni firma, perché il riutilizzo di K o la sua prevedibilità consentono agli aggressori di recuperare la chiave privata. Se lo stesso K viene usato due volte con messaggi diversi, una semplice algebra può rivelare la chiave privata. Le moderne implementazioni utilizzano la generazione deterministica di K (RFC 6979) per evitare guasti al generatore di numeri casuali e garantire al contempo l'unicità. Le altre opzioni non sono corrette: K non deve mai essere derivato dalla chiave pubblica, non deve mai essere riutilizzato e non deve mai essere uguale alla chiave privata per l'hash del messaggio.

@@ -53,7 +53,7 @@ description: Зарегистрировать сообщение о Blockchain B
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-- оставить прекрасное выражение нашей человечности, *
-- избегайте ввода информации, о которой вы можете пожалеть*
+- оставить прекрасное выражение нашей человечности,
+- избегайте ввода информации, о которой вы можете пожалеть
 
 
 
@@ -208,9 +208,9 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-- Пункт назначения Address**: Действительный Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Это может быть ваш собственный Address, если вы хотите вернуть себе переведенные средства;
-- Сумма перевода**: сумма транзакции, здесь `0.00001` BTC. **Примечание**: поскольку единицей измерения в Electrum является BTC, сумма, указанная в скрипте транзакции, также должна быть выражена в BTC, а не в Sats;
-- Скрипт OP_RETURN**: Сообщение, преобразованное в шестнадцатеричную систему, которому предшествует script(`OP_RETURN <messsage>), 0`. Здесь `5468616e6b73205361746f736869` для сообщения в шестнадцатеричной системе.
+- Пункт назначения **Address**: Действительный Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Это может быть ваш собственный Address, если вы хотите вернуть себе переведенные средства;
+- **Сумма перевода**: сумма транзакции, здесь `0.00001` BTC. **Примечание**: поскольку единицей измерения в Electrum является BTC, сумма, указанная в скрипте транзакции, также должна быть выражена в BTC, а не в Sats;
+- **Скрипт OP_RETURN**: Сообщение, преобразованное в шестнадцатеричную систему, которому предшествует script(`OP_RETURN <messsage>), 0`. Здесь `5468616e6b73205361746f736869` для сообщения в шестнадцатеричной системе.
 
 
 
@@ -218,7 +218,7 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-Совет: используйте инструмент [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) для автоматического создания скрипта generate. Даже если этот инструмент предлагает ввести сумму в BTC, сохраните единицу измерения в Electrum.
+Совет: используйте инструмент [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) для автоматического создания скрипта generate. Даже если этот инструмент предлагает ввести сумму в BTC, сохраните единицу измерения в Electrum.
 
 
 

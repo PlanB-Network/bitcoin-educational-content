@@ -6,4 +6,4 @@ wrong_answers:
   - Résolution secondaire
 explanation: |
   Pour la résolution inverse, chaque nibble de l’adresse IPv6 complète est inversé et séparé par des points avant d’être suffixé par ip6.arpa.
-reviewed: false
+reviewed: true 

@@ -1,8 +1,8 @@
-question: Wat is de gemiddelde tijd tussen het aanmaken van twee blokken in het Bitcoin protocol?
-answer: 10 minuten.
+question: Wat is het belangrijkste voordeel van gespecialiseerde SHA256 machines, of ASICS, in Bitcoin Mining?
+answer: Ze verhogen de Hash-snelheid per joule.
 wrong_answers:
-  - 5 minuten.
-  - 15 minuten.
-  - 20 minuten.
+  - Ze verminderen het energieverbruik.
+  - Ze verhogen de snelheid van transacties.
+  - Ze verhogen de veiligheid van het netwerk.
 explanation: >-
 reviewed: true

@@ -1,9 +1,11 @@
-question: Bitwarden veya KeePass gibi kendi kendine barındırılan bir parola yöneticisi kullanmanın avantajı nedir?
+question: Bitwarden veya KeePass gibi kendi sunucunda barındırılan bir parola yöneticisi kullanmanın avantajı nedir?
 answer: Parolalarınızın nerede saklandığını kontrol ederek daha fazla güvenlik ve kontrol sağlayabilirsiniz.
 wrong_answers:
   - Üçüncü taraf hizmetlere göre kullanımı daha kolay ve her zaman daha güvenlidir.
   - Daha pahalı olmalarına rağmen genellikle üçüncü taraf hizmetlerden daha fazla özellik sunarlar.
   - Üçüncü taraf hizmetlerden daha ucuz ve daha hızlıdırlar.
 explanation: |
-  Bitwarden veya KeePass gibi kendi kendine barındırılan parola yöneticileri, parolalarınızın nerede saklandığını kontrol etmenize olanak tanıyarak potansiyel olarak daha fazla güvenlik ve kontrol sunar. Ancak bunların kullanımı daha fazla teknik bilgi gerektirebilir.
+  Bitwarden veya KeePass gibi kendi sunucunda barındırılan parola yöneticileri, 
+  parolalarınızın nerede saklandığını kontrol etmenize olanak tanıyarak potansiyel olarak daha fazla güvenlik ve kontrol sunar. 
+  Ancak bunların kullanımı daha fazla teknik bilgi gerektirebilir.
 reviewed: true

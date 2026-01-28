@@ -1,13 +1,13 @@
-question: Ni ingaruka izihe zica ziza iyo inyungu zigabanutse bivuye ku kwiyongera kw’inguzanyo hakurikijwe inyigisho y’Ubucuruzi y’Ubudagi?
-answer: Abanyamigambi barashobora kugurana ubutunzi bwinshi gutyo bagahingura inzira z’uguhingura ziri ku rutonde rwo hejuru. Ukwo kwagura imiterere y’ubuhinga ntikuzotuma ugukoresha kugabanuka kuko nta gusubiramwo kw’abaguzi kw’ugukoresha ubu. Mu yandi majambo, GDP irakura.
+question: Ni ingaruka izihe zica ziza iyo inyungu zigabanutse bivuye ku kwiyongera kw’ingurane hakurikijwe inyigisho y’Ubucuruzi y’abanya otirishi?
+answer: Abanyamigambi barashobora kugurana ubutunzi bwinshi ivyo bikarema inzira z’uguhingura ziri ku rutonde rwo hejuru. Ukwo kwagura uko ubuhinga buteye ntikuzotuma ugukoresha kugabanuka kuko nta gusubiramwo kw’abaguzi kw’ugukoresha ubu. Mu yandi majambo, GDP irakura.
 wrong_answers:
-  - Abanyamigambi barashobora kugurana ubutunzi bukeyi gutyo bagahingura inzira z’uguhingura ziri mu rutonde rwo hasi. Ukwo kwagura imiterere y’ibikorwa bizotuma habaho ukwiyongera kw’ugukoresha kuko hariho ugusubiramwo kw’abaguzi kw’ugukoresha ubu. Mu yandi majambo, GDP iragabanuka.
-  - Abanyamigambi barashobora kugurana ubutunzi bwinshi gutyo bagahingura inzira z’uguhingura ziri mu rutonde rwo hasi. Ukwo kwagura imiterere y’ibikorwa bizovamwo ukugabanya ugukoresha kuko ata gusubiramwo kw’abaguzi kw’ugukoresha ubu. Mu yandi majambo, GDP iragabanuka.
-  - Abanyamigambi barashobora kugurana ubutunzi bukeyi gutyo bagahingura inzira z’uguhingura ziri ku rutonde rwo hejuru. Ukwo kwagura imiterere y’ibikorwa bizotuma habaho ukwiyongera kw’ugukoresha kuko hariho ugusubiramwo kw’abaguzi kw’ugukoresha ubu. Mu yandi majambo, GDP irakura.
+  - Abanyamigambi barashobora kugurana ubutunzi bukeyi kubwivyo bakarema inzira z’uguhingura ziri mu rutonde rwo hasi. Ukwo kwagura uko ubuhinga buteye bizotuma habaho ukwiyongera kw’ugukoresha kuko hariho ugusubiramwo kw’abaguzi kw’ugukoresha ubu. Mu yandi majambo, GDP iragabanuka.
+  - Abanyamigambi barashobora kugurana ubutunzi bwinshi kubwivyo bakarema inzira z’uguhingura ziri mu rutonde rwo hasi. Ukwo kwagura uko ibikorwa bitunganije bizovamwo ukugabanya ugukoresha kuko ata gusubiramwo kw’abaguzi kw’ugukoresha ubu. Mu yandi majambo, GDP iragabanuka.
+  - Abanyamigambi barashobora kugurana ubutunzi bukeyi kubwivyo bakarema inzira z’uguhingura ziri ku rutonde rwo hejuru. Ukwo kwagura uko ibikorwa ibikorwa bitunganije bizotuma habaho ukwiyongera kw’ugukoresha kuko hariho ugusubiramwo kw’abaguzi kw’ugukoresha ubu. Mu yandi majambo, GDP irakura.
 explanation: |
-  Dukurikije inyigisho y’i Otirishiya yerekeye uruzitiro rw’ubudandaji, iyo hari .
-  igabanuka ry'inyungu bitewe n'ukwiyongera kw'inguzanyo, abacuruzi barashobora kugurana
-  ubutunzi bwinshi kandi gutyo bigatuma habaho inzira z’uguhingura ziri ku rutonde rwo hejuru. Ukwo kwagura kwa
-  imiterere y'ibikorwa ntizotuma habaho ukugabanya ugukoresha kuko hariho .
+  Dukurikije inyigisho y’i Otirishi yerekeye uruzitiro rw’ubudandaji, iyo hari .
+  igabanuka ry'inyungu bitewe n'ukwiyongera kw'ingurane, abacuruzi barashobora kugurana
+  ubutunzi bwinshi kandi ivyo bigatuma habaho inzira z’uguhingura ziri ku rutonde rwo hejuru. Ukwo kwagura kwa
+  uko ibikorwa biteye ntibizotuma habaho ukugabanya ugukoresha kuko.
   nta n’umwe yasubije inyuma abaguzi ivyo bakoresha ubu. Mu yandi majambo, GDP irakura.
 reviewed: true

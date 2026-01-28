@@ -1,10 +1,12 @@
-question: Pourquoi Bitcoin est-il considéré comme une nouvelle forme d'argent ?
-answer: Parce que c'est une monnaie numérique sans entité centrale.
+question: Quelle est la stratégie utilisée par les entités centrales pour dévaluer une monnaie fiduciaire ?
+answer: Elles augmentent la masse monétaire de quelques pourcents chaque année.
 wrong_answers:
-  - Parce que c'est une monnaie numérique garantie par l'or.
-  - Parce que c'est une monnaie qui nécessite la blockchain bancaire.
-  - Parce que la Réserve Fédérale le dit.
+  - Elles diminuent la masse monétaire de quelques pourcents chaque année.
+  - Elles maintiennent sa masse monétaire constante par rapport à la masse initiale.
+  - Elles font fluctuer aléatoirement sa masse monétaire par rapport à la masse initiale.
 explanation: |
-  Bitcoin peut être vu comme une nouvelle forme d'argent, car il émerge
-  d'un réseau pair-à-pair sans entité centrale.
+  Les entités centrales dévaluent souvent une monnaie en augmentant sa
+  masse monétaire par rapport à la masse initiale de quelques pourcents
+  chaque année. Cette dévaluation silencieuse est souvent justifiée comme
+  étant dans l'intérêt du peuple.
 reviewed: true

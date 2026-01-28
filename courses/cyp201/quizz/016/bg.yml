@@ -1,0 +1,9 @@
+question: Кой алгоритъм за подписване е въведен в Bitcoin с Taproot?
+answer: Схема за подписване на Шнорр
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Схемата за подписване Schnorr беше въведена през ноември 2021 г. с актуализацията Taproot.
+reviewed: false

@@ -5,5 +5,6 @@ wrong_answers:
   - Parola yöneticileri yalnızca sınırlı sayıda parolayı saklayabilir.
   - Parola yöneticileri tüm parolaların kendileri tarafından oluşturulmasını gerektirir.
 explanation: |
-  Bir parola yöneticisi daha güçlü ve daha uzun parolalar üreterek daha fazla güvenlik sunar. Eski şifrelerinizi yavaş yavaş bunlarla değiştirerek çevrimiçi hesaplarınızın güvenliğini artırabilirsiniz.
+  Bir parola yöneticisi daha güçlü ve daha uzun parolalar üreterek daha fazla güvenlik sunar. 
+  Eski şifrelerinizi yavaş yavaş bunlarla değiştirerek çevrimiçi hesaplarınızın güvenliğini artırabilirsiniz.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Wat gebeurt er volgens het hoofdstuk als je onzorgvuldig bent met je eigen Bitcoin privacypraktijken?
+answer: Het kan ook de privacy van andere Bitcoin gebruikers verminderen
+wrong_answers:
+  - Het heeft alleen invloed op je eigen transacties en niet op die van anderen
+  - Het maakt het hele Bitcoin netwerk veiliger voor iedereen
+  - Het helpt de algemene anonimiteit van het Bitcoin systeem te verbeteren
+explanation: |
+  Bitcoin privacy is onderling verbonden tussen gebruikers. Als één persoon slordig omgaat met zijn privacy, kan dat een negatieve invloed hebben op de privacy van andere gebruikers met wie hij transacties doet. Dit gebeurt omdat transactiepatronen, adres clustering en andere blockchain analysetechnieken informatie kunnen onthullen over meerdere partijen die betrokken zijn bij transacties. Het hoofdstuk benadrukt dat privacymaatregelen die u neemt niet alleen uzelf beschermen - ze helpen ook de bredere Bitcoin gemeenschap te beschermen, waardoor privacy een collectieve verantwoordelijkheid wordt in plaats van een individuele zorg.
+reviewed: false

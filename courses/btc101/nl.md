@@ -13,7 +13,7 @@ objectives:
 
 In deze cursus leggen we in 25 hoofdstukken de basis van Bitcoin uit, zodat je deze technologie op een eenvoudige en effectieve manier kunt begrijpen. De cursus verkent de basisprincipes van de industrie als geheel, waaronder onderwerpen als mining, wallets, koop-/verkoopplatformen en meer. Tijdens de hele cursus is er extra educatief materiaal beschikbaar, en we nodigen je ook uit om de "21 Posters" in de bronnensectie te bekijken nadat je deze cursus hebt afgerond.
 
-Je hebt geen specifieke kennis nodig om te beginnen. In feite is alle inhoud toegankelijk voor studenten van alle niveaus, en het duurt ongeveer 15 uur om het te voltooien.
+Er is geen voorkennis vereist om met deze cursus te beginnen. BTC 101 is ontworpen om voor iedereen toegankelijk te zijn, ongeacht je ervaringsniveau.
 
 +++
 
@@ -29,59 +29,32 @@ Welkom bij de BTC101-cursus!
 
 Bitcoin is een technologische en monetaire revolutie, die in staat is onze relatie met geld en de maatschappij in twijfel te trekken. In feite is Bitcoin (ook wel BTC genoemd) een **neutrale** en **decentrale** valuta, wat betekent dat het niet gecontroleerd wordt door een entiteit of instelling. Het is een innovatie die verder gaat dan een gewone "internetvaluta": het is zowel een computerprotocol (Bitcoin) als een munteenheid (bitcoin).
 
-Het Bitcoin protocol maakt gebruik van onderliggende technologieën zoals cryptografie, netwerkcommunicatie en de beroemde "blockchain", terwijl de bitcoin munteenheid dient als de noodzakelijke valuta voor het goed functioneren van dit protocol. In het dagelijks leven gebruiken Salvadoranen en bitcoiners over de hele wereld de bitcoin valuta om goederen en diensten te kopen en verkopen, vertrouwend op deze technologie om hun leven te verbeteren.
+Het Bitcoin protocol maakt gebruik van onderliggende technologieën zoals cryptografie, netwerkcommunicatie en de beroemde "[blockchain](https://planb.academy/resources/glossary/blockchain)", terwijl de bitcoin munteenheid dient als de noodzakelijke valuta voor het goed functioneren van dit protocol. In het dagelijks leven gebruiken Salvadoranen en bitcoiners over de hele wereld de bitcoin valuta om goederen en diensten te kopen en verkopen, vertrouwend op deze technologie om hun leven te verbeteren.
 
 **Een uitgebreid maar toegankelijk curriculum:**
 
 In deze cursus zullen we enkele monetaire aspecten van Bitcoin bespreken, waaronder hoe bitcoins te kopen en verkopen, ze veilig op te slaan in digitale wallets (portefeuilles) en ze te gebruiken voor transacties. We zullen ook de rol van miners onderzoeken, die essentieel is voor het creëren van nieuwe bitcoins en het beveiligen van het Bitcoin netwerk. Tot slot onderzoeken we de toekomst van Bitcoin en hoe de Lightning Network technologie Bitcoin transacties kan verbeteren.
 
-![image](assets/en/01.webp)
+![image](assets/nl/001.webp)
 
 Het is essentieel om te begrijpen dat Bitcoin een nieuw monetair systeem is dat onze relatie met geld volledig verandert, dus leren hoe je het kunt gebruiken is een noodzakelijke vaardigheid voor iedereen die controle wil hebben over zijn/haar eigen tegoeden.
 
-**Sectie 1 - Inleiding**
-- Hoofdstuk 1 - Cursusoverzicht
-- Hoofdstuk 2 - De Voorgeschiedenis Van Bitcoin
 
-**Deel 2 - Geld**
-- Hoofdstuk 3 - Geld Door De Geschiedenis Heen
-- Hoofdstuk 4 - Fiatvaluta's
-- Hoofdstuk 5 - Hyperinflatie
-- Hoofdstuk 6 - 21 Miljoen Bitcoins
 
-**Deel 3 - Bitcoin Wallets**
-- Hoofdstuk 7 - Wat Is Een Bitcoin Wallet?
-- Hoofdstuk 8 - Bitcoin Wallets En Beveiliging
-- Hoofdstuk 9 - Een Wallet Instellen
-- Hoofdstuk 10 - De Tand Des Tijds Doorstaan
 
-**Deel 4 - De Technische Aspecten Van Bitcoin**
-- Hoofdstuk 11 - Bitcoin Lanceren
-- Hoofdstuk 12 - Bitcoin Transacties
-- Hoofdstuk 13 - Bitcoin Nodes
-- Hoofdstuk 14 - Miners
-- Hoofdstuk 15 - Bitcoin En Ecologie
 
-**Sectie 5 - Hoe Kom Ik Aan Bitcoins?**
-- Hoofdstuk 16 - Bitcoin Slaapt Nooit!
-- Hoofdstuk 17 - Bitcoins Verdienen Door Werk
-- Hoofdstuk 18 - Sparen Met Bitcoin
-- Hoofdstuk 19 - Hyperbitcoinisatie
 
-**Deel 6 - De Toekomst Van Bitcoin: Het Lightning Network**
-- Hoofdstuk 20 - Een Korte Introductie Tot Het Lightning Network
-- Hoofdstuk 21 - Lightning Network Usecases
-- Hoofdstuk 22 - Rode Pil Of Blauwe Pil?
 
 Voordat we de definitie van geld en de functie ervan binnen de maatschappij introduceren (Hoofdstuk 1), moeten we beginnen bij de oorsprong van Bitcoin. Bitcoin werd in 2009 gelanceerd en is een relatief nieuwe technologie, die met niets te vergelijken is. Het is daarom normaal dat je niet alles in één keer begrijpt. In werkelijkheid hoef je, net als bij het leren gebruiken van internet of autorijden, niet meteen alle technische details te weten: je kunt beginnen met leren hoe je bitcoins ontvangt, verstuurt en beveiligt, vervolgens kun je kleine stapjes nemen om je er verder in te verdiepen.
 
 We staan immers nog maar aan het begin van de adoptiefase, want we zijn de opstartfase voorbij: je bent net op tijd om zoveel kennis te vergaren als je wilt over deze belangrijke innovatie.
 
-![image](assets/en/02.webp)
+![image](assets/nl/002.webp)
 
 Het belangrijkste punt hier is om deze nieuwe technologie op een algemene manier te begrijpen, dus we hopen dat je veel plezier beleeft aan deze cursus en vooruitgang blijft boeken in dit nieuwe wereldwijde monetaire paradigma.
 
 Ben je er klaar voor om in de fascinerende wereld van Bitcoin te duiken en alles over de werking ervan te leren? Let's go!
+
 
 ## De Voorgeschiedenis Van Bitcoin
 
@@ -91,25 +64,28 @@ Voordat de term "Bitcoin" synoniem werd met digitale valuta en financiële trans
 
 ### Cypherpunks: visionairs van de digitale wereld
 
-![image](assets/en/03.webp)
+![image](assets/nl/003.webp)
 In het hart van de technologische evolutie van de jaren '80 en '90 begon een groep mensen zich vragen te stellen over de rol van privacy en vrijheid in het digitale tijdperk. Deze personen, die later bekend zouden worden als "cypherpunks", geloofden stellig dat cryptografie kon dienen als hulpmiddel om individuele rechten te beschermen tegen de inmenging van overheden en grote bedrijven.
 
 Iconische figuren zoals Julian Assange, Wei Dai, Tim May en David Chaum speelden een centrale rol in het vormen van de filosofie en visie van de beweging. Deze denkers deelden hun ideeën op een invloedrijke mailinglijst, waar deelnemers van over de hele wereld debatteerden over de beste manieren om technologie in te zetten voor meer persoonlijke vrijheid.
 
 ### De drie fundamentele artikelen van de Cypherpunks
 
-![image](assets/en/04.webp)
+![image](assets/nl/004.webp)
 
 De Cypherpunk beweging, diep geworteld in digitaal activisme en cryptografie, baseerde zich op verschillende fundamentele teksten om haar principes en toekomstvisie te verwoorden. Drie van deze geschriften springen er in het bijzonder uit:
 
 - "A Cypherpunk's Manifesto (Een Cypherpunk Manifest)":
-  geschreven door Eric Hughes in 1993, stelt dat privacy een grondrecht is. De auteur stelt dat de mogelijkheid om vrij en vertrouwelijk te communiceren essentieel is voor een vrije samenleving. Het manifest stelt: "We kunnen niet verwachten dat overheden, bedrijven of andere grote, gezichtsloze organisaties ons privacy verlenen [...]. We moeten onze eigen privacy verdedigen als we die willen hebben".
+
+geschreven door Eric Hughes in 1993, stelt dat privacy een grondrecht is. De auteur stelt dat de mogelijkheid om vrij en vertrouwelijk te communiceren essentieel is voor een vrije samenleving. Het manifest stelt: "We kunnen niet verwachten dat overheden, bedrijven of andere grote, gezichtsloze organisaties ons privacy verlenen [...]. We moeten onze eigen privacy verdedigen als we die willen hebben".
 
 - "The Crypto Anarchist Manifesto (Het Crypto-Anarchistisch Manifest)":
-  geschreven door Timothy C. May in 1992, dit document legt uit hoe het gebruik van cryptografie zou kunnen leiden tot een tijdperk van cryptografische anarchie waarin overheden machteloos zouden zijn om zich te mengen in de privézaken van burgers. May zag een toekomst voor zich waarin mensen anoniem informatie en geld uitwisselen zonder tussenkomst van een derde partij.
+
+geschreven door Timothy C. May in 1992, dit document legt uit hoe het gebruik van cryptografie zou kunnen leiden tot een tijdperk van cryptografische anarchie waarin overheden machteloos zouden zijn om zich te mengen in de privézaken van burgers. May zag een toekomst voor zich waarin mensen anoniem informatie en geld uitwisselen zonder tussenkomst van een derde partij.
 
 - "A Declaration of the Independence of Cyberspace (Een Verklaring Van De Onafhankelijkheid Van Cyberspace)":
-  hoewel het niet uitsluitend Cypherpunk is, weerspiegelt deze tekst de gevoelens van veel deelnemers aan de beweging. De verklaring werd in 1996 geschreven door John Perry Barlow en is een reactie op de toenemende regulering van het internet door overheden. De verklaring stelt dat cyberspace een ander domein is dan de fysieke sfeer en niet onderworpen zou moeten zijn aan dezelfde wetten. Er staat: "We hebben geen gekozen regering en het is ook niet waarschijnlijk dat we er een zullen krijgen".
+
+hoewel het niet uitsluitend Cypherpunk is, weerspiegelt deze tekst de gevoelens van veel deelnemers aan de beweging. De verklaring werd in 1996 geschreven door John Perry Barlow en is een reactie op de toenemende regulering van het internet door overheden. De verklaring stelt dat cyberspace een ander domein is dan de fysieke sfeer en niet onderworpen zou moeten zijn aan dezelfde wetten. Er staat: "We hebben geen gekozen regering en het is ook niet waarschijnlijk dat we er een zullen krijgen".
 
 ### De voorgangers van Bitcoin
 
@@ -119,9 +95,9 @@ Een andere belangrijke voorloper is "B-money" van Wei Dai. Hoewel het nooit werd
 
 De afbeelding hieronder illustreert duidelijk de ontwikkeling van de beweging door de vele technologische innovaties.
 
-![image](assets/en/05.webp)
+![image](assets/nl/005.webp)
 
-In deze vruchtbare omgeving publiceerde de mysterieuze Satoshi Nakamoto in 2008 de Bitcoin whitepaper. In dit document combineerde hij verschillende ideeën uit de Cypherpunk beweging, zoals proof of work en cryptografische tijdstempels, om gedecentraliseerd en censuurbestendig digitaal geld te creëren.
+In deze vruchtbare omgeving publiceerde de mysterieuze Satoshi Nakamoto in 2008 de Bitcoin whitepaper. In dit document combineerde hij verschillende ideeën uit de Cypherpunk beweging, zoals [proof of work](https://planb.academy/resources/glossary/proof-of-work) en cryptografische tijdstempels, om gedecentraliseerd en censuurbestendig digitaal geld te creëren.
 
 Bitcoin was echter meer dan dat: het vertegenwoordigde de verwezenlijking van de Cypherpunk idealen. Naast de technologie symboliseerde het een revolutie tegen traditionele financiële systemen en bood het een alternatief gebaseerd op transparantie, decentralisatie en individuele soevereiniteit.
 
@@ -135,7 +111,7 @@ Maar is Bitcoin "echt" geld? Om dit te begrijpen, moeten we eerst het concept va
 
 Als je de geschiedenis van Bitcoin in meer detail wilt verkennen, raden we je onze HIS 201-cursus aan, waarin je de oorsprong en de geleidelijke opkomst van Bitcoin ontdekt, evenals het begin van zijn geschiedenis en gemeenschap. Deze cursus is volledig gedocumenteerd en voorzien van bronnen, met natuurlijk veel anekdotes:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Geld
 
@@ -147,14 +123,14 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 De evolutie van geld is een fascinerend aspect van de geschiedenis van de mens dat de vindingrijkheid van beschavingen door de eeuwen heen weerspiegelt, en bijdraagt aan het voorzien in voortdurend veranderende economische behoeften.
 
-![image](assets/en/06.webp)
+![image](assets/nl/006.webp)
 
 ### Van schelpen naar bankrekeningen
 
 Oorspronkelijk was geld een tastbaar goed, zoals graan, vee of een andere grondstof. Deze goederen hadden echter het grote nadeel dat ze vergankelijk waren, waardoor het moeilijk was om ze te gebruiken als spaarmiddel voor de lange termijn. Slechte oogsten of ziekte van dieren konden bijvoorbeeld iemands vermogen van de ene dag op de andere vernietigen.
 Naarmate beschavingen zich ontwikkelden en handel zich uitbreidde naar nieuwe gebieden, ontstond de behoefte aan een universeel ruilmiddel (medium of exchange). Mensen experimenteerden eerst met voorwerpen zoals schelpen en edelstenen, maar die waren niet zo duurzaam of schaars als ze dachten. Uiteindelijk werd goud de standaard, vanwege zijn zeldzaamheid, duurzaamheid en deelbaarheid. Het was, en is nog steeds, een symbool van rijkdom en macht.
 
-![image](assets/en/07.webp)
+![image](assets/nl/007.webp)
 
 ### Wat is de rol van geld?
 
@@ -172,9 +148,9 @@ Om deze redenen is goud als geld het resultaat van 4000 jaar monetair Darwinisme
 - **Medium of Exchange (Ruilmiddel)**: geld kan als ruilmiddel voor goederen en diensten gebruikt worden in plaats van ruilhandel, waardoor het toevallig samenvallen van behoeften (coincidence of wants) tussen verschillende partijen wordt vermeden;
 - **Unit of Account (Rekeneenheid)**: geld stelt ons ook in staat om de waarde van verschillende goederen te vergelijken om hun relatieve bruikbaarheid beter te begrijpen.
 
-![image](assets/en/08.webp)
-![image](assets/en/09.webp)
-![image](assets/en/10.webp)
+![image](assets/nl/008.webp)
+![image](assets/nl/009.webp)
+![image](assets/nl/010.webp)
 
 ### De kenmerken van geld
 
@@ -184,7 +160,7 @@ Anderzijds zijn fiduciaire staatsvaluta's (fiat) gemakkelijk te gebruiken, maar 
 
 Om dit concept beter uit te leggen, zullen we de kenmerken van een effectieve valuta onderzoeken:
 
-![image](assets/en/11.webp)
+![image](assets/nl/011.webp)
 
 - **Fungibiliteit**, wat betekent dat het uitwisselbaar is met een andere eenheid van dezelfde soort zonder waardeverlies;
 - **Deelbaarheid**, omdat het kan worden opgedeeld in kleinere eenheden om transacties van verschillende volumes te vergemakkelijken;
@@ -198,7 +174,7 @@ Om aan deze criteria te voldoen, heeft valuta zich historisch ontwikkeld door ve
 
 Geld evolueert tot op de dag van vandaag en past zijn vorm aan om te voldoen aan verschillende gebruikssituaties. Zoals we al zeiden, hoewel goud een uitstekend waardeopslagmiddel (store of value) is, is het niet langer geschikt voor de huidige geglobaliseerde economie. Op dezelfde manier zijn fiduciaire valuta's zoals de dollar en de euro erg liquide en makkelijk transporteerbaar omdat ze nu grotendeels digitaal zijn, maar hun waarde wordt constant verlaagd door monetaire inflatie.
 
-Aan de andere kant biedt Bitcoin nieuwe mogelijkheden. Zijn eigenschappen, zoals de strikt gelimiteerde voorraad, maken het een uitstekend waardeopslagmiddel. Bovendien, als neutrale internetvaluta is het een realistisch **ruilmiddel** dat grensoverstijgend is. Het wordt vandaag de dag echter nog steeds niet algemeen geaccepteerd in commercie, ondanks zijn [constante adoptie] (https://btcmap.org/map).
+Anderzijds opent Bitcoin nieuwe perspectieven. Zijn eigenschappen, met name een strikt beperkt aanbod, maken het tot een uitstekende waardeopslag. Bovendien vormt het, als neutrale internetvaluta, een levensvatbaar **ruilmiddel** dat grenzen kan overstijgen. Desondanks wordt het, ondanks een voortdurende adoptie (zoals geïllustreerd door [de BTCmap-kaart](https://btcmap.org/map)), vandaag de dag nog niet breed geaccepteerd in de handel.
 
 ## Fiduciaire valuta's
 
@@ -214,7 +190,7 @@ Vandaag de dag worden belangrijke valuta's zoals de euro en de dollar als fiduci
 
 Een fiduciaire valuta is een vorm van geld die als zodanig is verordend door een instelling, d.w.z. een staat, zoals China met de Yuan, of een politiek-economische unie, zoals de Europese Unie met de Euro. De entiteit die verantwoordelijk is voor de uitgifte ervan is de centrale bank (we kunnen bijvoorbeeld de People's Bank of China, de Federal Reserve van de Verenigde Staten of de Centrale Bank van de Republiek Guinee noemen). Het zijn precies deze entiteiten die verantwoordelijk zijn voor het formuleren van het monetaire beleid en dus hoeveel geld er in omloop moet worden gebracht of gedrukt moet worden.
 
-![image](assets/en/12.webp)
+![image](assets/nl/012.webp)
 
 ### Monetaire devaluatie: een strategie zo oud als het Romeinse Rijk
 
@@ -224,7 +200,7 @@ Het mechanisme is eenvoudig en is geïnspireerd op praktijken die al bestaan sin
 
 Deze leiders beginnen de nieuwe munteenheid echter geleidelijk te devalueren, waarbij de waarde de facto elk jaar met een paar procent daalt ten opzichte van de oorspronkelijke goudprijs. Deze stille devaluatie wordt vaak gerechtvaardigd als zijnde in het belang van het volk. In werkelijkheid zien degenen die sparen in deze fiduciaire munt de waarde van hun spaargeld afnemen, terwijl de staat zijn projecten financiert door middel van inflatie. Bovendien maakt deze devaluatie het makkelijker om schulden terug te betalen.
 
-![image](assets/en/13.webp)
+![image](assets/nl/013.webp)
 
 Op een doorslaggevend moment doet de leider de aankondiging: de munt wordt niet langer gedekt door goud. Het publiek, nu gewend aan de fiduciaire munt en vaak verkeerd geïnformeerd over financiële zaken, accepteert deze realiteit, waardoor de staat vrijelijk de geldhoeveelheid kan manipuleren en enorme sommen geld kan drukken, bijna zonder kosten.
 
@@ -236,17 +212,16 @@ Uiteindelijk heeft de munt geen enkele koppeling meer met goud, zoals Romeinse m
 
 Vandaag zijn we getuige van een historisch keerpunt. De dollar, die lange tijd heeft gedomineerd, lijkt in verval te raken, terwijl goud zijn centrale rol heeft verloren. We staan aan de vooravond van een nieuwe monetaire cyclus, die ons eraan herinnert dat de lessen van de geschiedenis vaak vergeten worden.
 
-![image](assets/en/14.webp)
+![image](assets/nl/014.webp)
 
 ### Is Bitcoin een oplossing?
 
 Vanwege deze uitgangspunten wint de Bitcoin revolutie het aan momentum. In tegenstelling tot eerdere valuta's is er **geen vertrouwde derde partij** nodig en is het de bedoeling om een scheiding tussen Staat en geld te creëren.
 
-![image](assets/en/15.webp)
 
 In feite presenteert Bitcoin zichzelf als een antwoord op deze systemische uitdagingen door een gedecentraliseerde oplossing en een nieuw parallel monetair systeem aan te bieden. Historisch gezien was goud de favoriete vorm van geld vanwege zijn weerstand tegen vervalsing, maar Bitcoin kan op dezelfde manier niet vervalst worden. Bovendien is het beperkt tot 21 miljoen eenheden dankzij het gedecentraliseerde en cryptografische karakter. Bitcoin is een vorm van geld die vertrouwt op transparantie en neutraliteit, en biedt een aantrekkelijk alternatief voor het huidige gecentraliseerde monetaire systeem.
 
-![image](assets/en/16.webp)
+![image](assets/nl/015.webp)
 
 Een andere reden waarom Bitcoin aandacht heeft gekregen is de opkomst van digitale valuta's van centrale banken, of CBDC's, die onvermijdelijk lijkt. Deze nieuwe vorm van geld zal leiden tot een nog meer centraal geplande economie, die zowel de financiële vrijheid van individuen kunnen belemmeren als autoritair misbruik kunnen faciliteren.
 We kunnen dit hoofdstuk afsluiten met een citaat van Nobelprijswinnaar F.A Hayek uit 1984:
@@ -255,7 +230,7 @@ We kunnen dit hoofdstuk afsluiten met een citaat van Nobelprijswinnaar F.A Hayek
 
 Om meer te leren over economische drogredenen en vrijheid, nodigen we je uit om onze ECO 102-cursus te ontdekken. Deze cursus beschrijft het leven en de ideeën van Frédéric Bastiat, een 19e-eeuwse Franse denker die de opkomst van Bitcoin zeker zou hebben gewaardeerd:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hyperinflatie
 
@@ -275,11 +250,11 @@ Wanneer hyperinflatie optreedt, hebben we het niet langer over 20% per jaar, maa
 
 Het is cruciaal om te begrijpen dat hyperinflatie niet ontstaat door toeval, door kapitalisme of door politieke aanvallen van tegenstanders. Hyperinflatie is het directe gevolg van slechte monetaire beslissingen van centrale bankiers en politici. De nasleep ervan beïnvloedt elke burger en zelfs volgende generaties. We nodigen je uit om vijf minuten te spenderen aan het lezen van de volgende tabel om je volledig bewust te worden van de werkelijke impact van dit fenomeen (de ECO204 cursus gaat dieper in op dit onderwerp). Zoals je kunt zien, is geen enkel land of valuta potentieel veilig.
 
-![image](assets/en/17.webp)
+![image](assets/nl/016.webp)
 
 ### Wat zijn de fasen van hyperinflatie?
 
-![image](assets/en/18.webp)
+![image](assets/nl/017.webp)
 
 Voor hyperinflatie moeten bepaalde gebeurtenissen plaatsvinden.
 
@@ -295,7 +270,7 @@ Fase 3 - De vicieuze cirkel van geld printen
 
 - Er zijn dus steeds meer biljetten nodig om goederen te kopen waardoor papiergeld schaarser wordt. In reactie hierop gaan overheden meer biljetten drukken, wat de inflatie nog verder aanwakkert.
 
-![image](assets/en/19.webp)
+![image](assets/nl/018.webp)
 
 Fase 4 - De opkomst van een nieuwe valuta
 
@@ -314,7 +289,7 @@ Om een hyperinflatiecrisis op te lossen zijn vaak radicale veranderingen nodig, 
 
 Uiteindelijk creëerden de autoriteiten een nieuwe valuta, gedekt door de schulden van Duitsland, Frankrijk en Engeland en gegarandeerd door Duits land.
 
-![image](assets/en/20.webp)
+![image](assets/nl/019.webp)
 
 - Hongarije, 1945-1946
 
@@ -324,7 +299,7 @@ Uiteindelijk creëerden de autoriteiten een nieuwe valuta, gedekt door de schuld
 
   Het laatste bankbiljet dat in omloop werd gebracht was een 100 miljoen miljard Pengo (100.000.000.000.000.000) in 1946.
 
-![image](assets/en/21.webp)
+![image](assets/nl/020.webp)
 
 - Zimbabwe, 2007-2008
 
@@ -336,14 +311,13 @@ Uiteindelijk creëerden de autoriteiten een nieuwe valuta, gedekt door de schuld
 
   In april 2009 kondigde de minister van Financiën de opschorting van de Zimbabwaanse dollar aan en stond hij het gebruik van verschillende buitenlandse valuta toe voor de handel. Alle bankrekeningen, pensioenen en financiële instellingen zagen hun tegoeden van de ene op de andere dag verdampen.
 
-![image](assets/en/15.webp)
 
 Tot slot heeft hyperinflatie het effect dat de waarde van de valuta snel afneemt, wat leidt tot erosie van spaargelden en verlies van vertrouwen in het monetaire systeem. Zoals Voltaire ooit suggereerde, zal een fiatvaluta uiteindelijk altijd zijn intrinsieke waarde verliezen en naar nul convergeren.
 Een valuta die afhankelijk is van een vertrouwde derde partij zoals een financiële instelling is in de praktijk en op de lange termijn een defecte valuta, omdat het niet in staat is om koopkracht te garanderen of spaartegoeden te behouden.
 
 Om dieper in te gaan op het onderwerp hyperinflatie, raden we je de ECO 204-cursus van David St-Onge aan, waarin je leert wat hyperinflatoire cycli zijn en wat hun werkelijke impact is op ons leven. Je zult ook de overeenkomsten tussen deze cycli ontdekken en, nog belangrijker, hoe je jezelf ertegen kunt beschermen.
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 miljoen bitcoins
 
@@ -353,7 +327,7 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Bitcoin is een gedecentraliseerde digitale valuta met een vooraf gedefinieerde maximale hoeveelheid van **21 miljoen eenheden**. Deze intrinsieke eigenschap van schaarste wordt bepaald door de computercode en versterkt door de consensus van alle gebruikers die deelnemen aan het protocol.
 
-![image](assets/en/22.webp)
+![image](assets/nl/021.webp)
 
 De monetaire uitgifte ervan kan worden geïllustreerd door een curve die de hoeveelheid bitcoins weergeeft die in de loop van de tijd worden gecreëerd. In 2022 waren er bijvoorbeeld ongeveer 18,5 miljoen bitcoins in omloop. Prognoses geven aan dat er in 2025 ongeveer 19,5 miljoen bitcoins zullen zijn, wat neerkomt op ongeveer 93% van de totale voorraad, en in 2037 zal dit aantal oplopen tot 20,4 miljoen.
 
@@ -361,7 +335,7 @@ De monetaire uitgifte ervan kan worden geïllustreerd door een curve die de hoev
 
 De creatie van nieuwe bitcoins is het resultaat van het mining proces. In een notendop gebruiken miners krachtige computers die complexe wiskundige problemen oplossen (hash), die transacties valideren en beveiligen. Zodra een probleem is opgelost (of een geldige hash is gevonden), voegt de miner een nieuw blok met transacties toe aan de blockchain, een gedecentraliseerde en gedistribueerde ledger (grootboek) die alle transacties op het netwerk registreert. De blockchain zorgt voor transparantie en veiligheid, omdat elk blok gelinkt is aan het vorige, waardoor het bijna onmogelijk is om gegevens uit het verleden te wijzigen zonder consensus van het netwerk.
 
-![image](assets/en/23.webp)
+![image](assets/nl/022.webp)
 
 Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloond met de uitgifte van nieuwe bitcoins. Deze beloning is geprogrammeerd om elke 210.000 blokken te halveren, wat ongeveer elke vier jaar is (een gebeurtenis die bekend staat als "halving (halvering)"), waardoor de monetaire uitgiftecurve een trapvorm krijgt. Door dit mechanisme kan wiskundig worden voorspeld dat de creatie van nieuwe bitcoins zal stoppen tegen het jaar 2140, wanneer het totale aantal de limiet van 21 miljoen bereikt.
 
@@ -388,7 +362,7 @@ Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloon
 | 19               | 3,990,000   | 0.000095367431640625 BTC  | 20,999,959.946 BTC                   |
 | 20               | 4,200,000   | 0.0000476837158203125 BTC | 20,999,979.973 BTC                   |
 
-We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitale schaarste garanderen
 
@@ -398,7 +372,7 @@ De grens van 21 miljoen is de basis van de schaarste van Bitcoin en wordt gegara
 
 De moeilijkheidsgraad van het vinden van een geldig hash volgt een soort cyclus: als het aantal miners toeneemt en meer blokken sneller gevonden worden, zorgt dit voor een daling van de gemiddelde tijd om een blok te vinden en wordt de moeilijkheidsgraad dus verhoogd. Als gevolg daarvan wordt het aantal blokken dat miners vinden verlaagd, wat betekent dat het mechanisme teruggaat naar het gemiddelde van 10 minuten per blok. Zie de afbeelding hieronder voor een visuele weergave.
 
-![image](assets/en/24.webp)
+![image](assets/nl/023.webp)
 
 Omgekeerd, als minder miners werken en blokken langer duren, neemt de mining moeilijkheidsgraad af, waardoor de gemiddelde bloktijd weer versnelt.
 
@@ -408,7 +382,7 @@ Dus als het aantal uitgegeven bitcoins de limiet van 21 miljoen nadert, zullen m
 
 - Speltheorie is een wiskundig concept dat gebaseerd is op menselijke rationaliteit. Het gaat ervan uit dat individuen logisch handelen en proberen hun eigen voordelen te maximaliseren, terwijl ze rekening houden met de mogelijke beslissingen van anderen. In Bitcoin helpt de speltheorie om ervoor te zorgen dat de meerderheid van de miners en gebruikers in het belang van het netwerk handelt. Omdat er bij protocolwijzigingen gestemd wordt door de gebruikers, zou elke wijziging aan het Bitcoin protocol de instemming vereisen van de gehele gemeenschap van gebruikers, wat zeer complex is. Dus, als iemand een 22 miljoen Bitcoin zou willen creëren, zou hij alle gebruikers moeten overtuigen om vrijwillig hun eigen spaargeld te devalueren, wat waarschijnlijk niet zal gebeuren omdat Bitcoin wereldwijd is en niet wordt bestuurd door een centrale groep.
 
-![image](assets/en/25.webp)
+![image](assets/nl/024.webp)
 
 Het idee om de valuta te devalueren druist in tegen de fundamentele filosofie van Bitcoin, dus een verandering van de totale hoeveelheid zal hoogstwaarschijnlijk niet gebeuren.
 
@@ -416,7 +390,7 @@ Het idee om de valuta te devalueren druist in tegen de fundamentele filosofie va
 
 De schaarste van Bitcoin is een belangrijke troef en de maximale hoeveelheid van 21 miljoen bitcoins in omloop is openbaar en kan door iedereen geverifieerd worden.
 
-In feite kan iedereen dit doen via een Bitcoin node (d.w.z. een transactie validator) door simpelweg het volgende commando in te voeren: `bitcoin-cli gettxoutsetinfo`. Deze transparantie versterkt het vertrouwen in het Bitcoin systeem, dat niet gebaseerd is op centrale instituten of individuen, maar eerder op de wiskundige en cryptografische garanties die inherent zijn aan het protocol (Je zult leren hoe je dit eenvoudig kunt doen in LNP201).
+In feite kan iedereen dit doen via een Bitcoin [node](https://planb.academy/resources/glossary/node) (d.w.z. een transactie validator) door simpelweg het volgende commando in te voeren: `bitcoin-cli gettxoutsetinfo`. Deze transparantie versterkt het vertrouwen in het Bitcoin systeem, dat niet gebaseerd is op centrale instituten of individuen, maar eerder op de wiskundige en cryptografische garanties die inherent zijn aan het protocol (Je zult leren hoe je dit eenvoudig kunt doen in LNP201).
 
 ```json
 {
@@ -458,7 +432,7 @@ Een Bitcoin wallet kan vele vormen hebben: software op je computer, een applicat
 
 Wallets kunnen dus worden onderverdeeld in brede gebruiksfamilies, waarbij steeds een belangrijke vraag centraal staat: ben je de eigenaar van je tegoeden of laat je de controle over je tegoeden over aan een derde partij? In het volgende hoofdstuk gaan we hier dieper op in, maar de vraag blijft eenvoudig: zit het geld in jouw zak of in de zak van je bankier?
 
-![image](assets/en/26.webp)
+![image](assets/nl/025.webp)
 
 ### Hoe werkt een Bitcoin wallet?
 
@@ -480,13 +454,13 @@ Of het nu je Bitcoin "bankier" is of jezelf, de overgrote meerderheid van Bitcoi
 
 Samengevat stelt deze technologie ons in staat om bitcoins te ontvangen zonder dat de ontvanger ons geld kan stelen! Een brievenbus zou een passende metafoor kunnen zijn: mensen kunnen er geld in storten, maar jij bent de enige die hem kan openen.
 
-![image](assets/en/27.webp)
+![image](assets/nl/026.webp)
 
 ### Zitten bitcoins in de wallet?
 
 Hoewel je sleutels opgeslagen zijn in je wallet, zijn de bitcoins zelf eigenlijk "opgeslagen" in de Bitcoin blockchain, wat een publieke gedistribueerde ledger (grootboek) is binnen het Bitcoin peer-to-peer netwerk (we zullen er dieper op ingaan in hoofdstuk 3). Dit betekent dat het verlies van het apparaat dat jouw wallet bevat, niet per definitie resulteert in het verlies van jouw bitcoins. Wat je in staat stelt om je wallet opnieuw aan te maken en je bitcoin uit te geven, is eigenlijk de privésleutel, dus denk er altijd aan om deze goed te beveiligen!
 
-![image](assets/en/28.webp)
+![image](assets/nl/027.webp)
 
 Gelukkig kan de privésleutel sinds 2017 worden weergegeven door een eenvoudige lijst van 12 of 24 woorden, ook bekend als 'mnemonische zin', die vrij eenvoudig kan worden opgeslagen. Deze zin dient als back-up voor je geld en stelt je in staat om je wallet opnieuw te maken met elke Bitcoin wallet software of app. Daarom kan iedereen die deze lijst met woorden vindt, toegang krijgen tot je bitcoins.
 
@@ -494,15 +468,15 @@ Gelukkig kan de privésleutel sinds 2017 worden weergegeven door een eenvoudige 
 
 Wat als iemand per ongeluk onze lijst van 12 of 24 woorden raadt? Het korte antwoord is dat dit hoogst onwaarschijnlijk is, dankzij de cryptografie die gebruikt is om de wallet te maken. Om het in perspectief te zetten, per toeval dezelfde mnemonische zin ontdekken is vergelijkbaar met het vinden van het "juiste" getal tussen 1 en 2 tot de macht 256, wat bijna gelijk staat aan het vinden van het "juiste" atoom in het universum. Als je echter niet tevreden bent met deze standaard beveiliging, kun je het altijd verbeteren door een wachtwoordzin (een extra woord) toe te voegen aan je Bitcoin wallet.
 
-![image](assets/en/29.webp)
+![image](assets/nl/028.webp)
 
 De kans dat je Bitcoin wallet gehackt wordt is dus astronomisch klein als je de goede beveiligingspraktijken volgt die we in het volgende hoofdstuk zullen beschrijven.
 
-Kies de juiste wallet voor jouw behoeften en gebruik: gedetailleerde tutorials over het beheren en beveiligen van verschillende wallets zijn beschikbaar in de [tutorialsectie van onze universiteit](https://planb.network/tutorials/wallet).
+Kies de juiste wallet voor jouw behoeften en gebruik: gedetailleerde tutorials over het beheren en beveiligen van verschillende wallets zijn beschikbaar in de [tutorialsectie van onze universiteit](https://planb.academy/tutorials/wallet).
 
 Als je tijdens je reis door het konijnenhol meer wilt leren over het bouwen van een Bitcoin wallet, van entropie tot het ontvangstaddressen, raden we je de CYP 201 cursus aan die aan dit onderwerp is gewijd:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitcoin Wallets En Veiligheid
 
@@ -519,7 +493,7 @@ Als je bitcoins bezit, is de veiligheid van je tegoeden een grote zorg. De beste
 
 Er is eigenlijk geen universeel antwoord of oplossing, dus neem de tijd om deze vragen te beantwoorden, want het zal je helpen om je beveiligingsmaatregelen af te stemmen op je behoeften.
 
-![image](assets/en/30.webp)
+![image](assets/nl/029.webp)
 
 ### Denken over Bitcoin wallets in termen van complexiteit
 
@@ -527,37 +501,37 @@ Hieronder zullen we verschillende beveiligingsniveaus definiëren:
 
 - **Niveau 0**, je gebruikt een zogenaamde "custodial service (bewaardienst)" waarbij je niet de enige houder bent van je bitcoins. Wees je ervan bewust dat deze vertrouwde derde partij je toegang tot jouw tegoeden op elk moment kan beperken. In dit geval is je niveau van financiële soevereiniteit vergelijkbaar met dat van een traditioneel banksysteem met een bankrekening.
 
-![image](assets/en/31.webp)
+![image](assets/nl/030.webp)
 
 - **Niveau 1**, je gebruikt een Bitcoin wallet op je telefoon of computer, waar je de enige houder van je bitcoins bent en je gemakkelijk je transacties kunt uitvoeren. Deze oplossing wordt een "hot wallet" genoemd, omdat de privésleutel wordt opgeslagen op een apparaat met internettoegang. In dit geval is het cruciaal om een back-up te maken van je mnemonische zin om weer toegang te krijgen tot je tegoeden in het geval dat je je telefoon of computer verliest.
 
 Je kunt bijvoorbeeld Sparrow Wallet gebruiken als hot wallet:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **Niveau 2**, je gebruikt een fysieke wallet en je hebt je lijst van 12/24 woorden beveiligd. Dit wordt doorgaans een "cold wallet" genoemd, omdat je sleutels opgeslagen zijn op een apparaat dat niet verbonden is met het internet. In dit geval moet je elke transactie altijd ondertekenen met je apparaat, waardoor je tegoeden dagelijks minder toegankelijk is.
 
 Je kunt bijvoorbeeld een Ledger, een Satochip of een Tapsigner gebruiken:
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
-![image](assets/en/32.webp)
+![image](assets/nl/031.webp)
 
 - **Niveau 3**, je gebruikt een wallet van niveau 1 of 2, maar je hebt een extra passphrase (wachtwoordzin) toegevoegd. In dit geval moet je een back-up maken van zowel de lijst met 12/24 woorden **als** je passphrase. Idealiter worden deze twee stukken informatie op twee verschillende plaatsen opgeslagen.
 
 Om meer te weten te komen over het gebruik en de werking van de BIP39 passphrase (wachtwoordzin):
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![image](assets/en/33.webp)
+![image](assets/nl/032.webp)
 
 - **Niveau 4**, je gebruikt een groep wallets om een "multisig (multi-handtekening)" wallet te maken, wat betekent dat er meerdere handtekeningen nodig zijn om een transactie uit te voeren. In dit geval moet je er rekening mee houden dat elk deel van de multisig op verschillende locaties moet worden opgeslagen. Deze aanpak wordt vaak beschouwd als een geavanceerd gebruik van Bitcoin, voornamelijk voor het beheer van grote bedragen en voor bedrijfsdoeleinden.
 
-![image](assets/en/34.webp)
+![image](assets/nl/033.webp)
 
 Natuurlijk vereisen verschillende gebruikssituaties ook verschillende Bitcoin wallets en is er geen pasklare oplossing.
 
@@ -577,7 +551,7 @@ De veiligheid van je bitcoins is van cruciaal belang en een simpele fout kan des
 
 Houd er rekening mee dat de BTC102-cursus je door deze stap zal begeleiden.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### Deze stap is geen grap!
 
@@ -594,13 +568,13 @@ Je moet letterlijk een blanco vel papier nemen of dit [sjabloon](https://bitcoin
 
 Hieronder vind je een voorbeeld van hoe je het papier moet samenstellen: de woorden zijn nep, dus gebruik ze niet!
 
-![image](assets/en/35.webp)
+![image](assets/nl/034.webp)
 
 ### Onze tips om het goed te doen
 
 Zorg ervoor dat je geen fouten maakt bij het duidelijk en leesbaar kopiëren van de mnemonische zin, anders hebben je erfgenamen misschien moeite om het te lezen en kunnen ze je tegoeden misschien niet terugkrijgen. Zodra je de woorden hebt opgeslagen, is het raadzaam om een tweede kopie te maken en deze op een andere locatie op te slaan dan de eerste. Zo heb je een back-up voor het geval het origineel verloren gaat of beschadigd raakt.
 
-![image](assets/en/36.webp)
+![image](assets/nl/035.webp)
 
 De woordenlijsten moeten worden bewaard op een veilige plek die je gemakkelijk kunt onthouden. Vermijd het maken van te ingewikkelde verstopplannen waardoor je ze kwijt kunt raken.
 
@@ -612,7 +586,7 @@ Zowel 'cold' als 'hot' wallets gebruiken de woordenlijstmethode als standaard vo
 
 Als je stap voor stap wilt ontdekken hoe je je eigen wallet kunt opzetten en je eerste bitcoins kunt krijgen, raden we je aan deze cursus te volgen:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## De Tand Des Tijds Doorstaan
 
@@ -624,17 +598,17 @@ Zoals elke vorm van rijkdom, moeten je bitcoins beschermd worden tegen verlies, 
 
 Een methode om je bitcoins op de lange termijn te beveiligen is om je mnemonische zin te graveren op een extreem duurzaam materiaal zoals staal. Hierdoor creëer je een fysieke back-up van je sleutels die bestand is tegen water- en brandschade.
 
-Er zijn verschillende oplossingen beschikbaar: sommige zijn goedkoop, zoals de "Blockmit", terwijl andere meer gespecialiseerde apparatuur vereisen. Je kunt je verder in dit onderwerp verdiepen in de [tutorials](https://planb.network/en/tutorials/wallet) sectie van onze academie.
+Er zijn verschillende oplossingen beschikbaar: sommige zijn goedkoop, zoals de "Blockmit", terwijl andere meer gespecialiseerde apparatuur vereisen. Je kunt je verder in dit onderwerp verdiepen in de [tutorials](https://planb.academy/en/tutorials/wallet) sectie van onze academie.
 
-![image](assets/en/37.webp)
+![image](assets/nl/036.webp)
 
 ### Denk aan de volgende generatie!
 
 Naast deze eerste stap is het opstellen van een nalatenschapsplan een cruciale stap om ervoor te zorgen dat je bitcoins goed worden beheerd na je dood. Dit plan houdt in dat je met de hand een brief schrijft waarin je de aard van je bezittingen beschrijft, hun toegangsmethoden en de contactgegevens van de vertrouwenspersonen die er verantwoordelijk voor zijn. Het is ook belangrijk om de erfenis van bitcoins te bespreken met een accountant en/of notaris om ervoor te zorgen dat de belastingwetgeving wordt nageleefd, zelfs als deze persoon nooit direct moet worden belast met het beheer van je bitcoins.
 
-Als je je verder wilt verdiepen in het onderwerp van het erfenisplan voor je bitcoins, raden we je aan het boek [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) van Pamela Morgan te lezen of je in te schrijven voor de BTC102-cursus, waarin we begeleiding bieden bij het opstellen van je plan.
+Als je je verder wilt verdiepen in het onderwerp van het erfenisplan voor je bitcoins, raden we je aan het boek [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) van Pamela Morgan te lezen of je in te schrijven voor de BTC102-cursus, waarin we begeleiding bieden bij het opstellen van je plan.
 
-![image](assets/en/38.webp)
+![image](assets/nl/037.webp)
 
 ### Privacy is belangrijk
 
@@ -672,35 +646,35 @@ Nu we de basisprincipes van Bitcoin wallets en de beste methodes om ze te beveil
 
 ### Laten we beginnen met een stukje geschiedenis.
 
-![image](assets/en/39.webp)
+![image](assets/nl/038.webp)
 
-31 oktober 2008 markeert de geboorte van de nieuwe financiële technologie die Bitcoin is. Op deze dag presenteerde de anonieme Satoshi Nakamoto zijn innovatie aan de wereld via een e-mail naar de mailinglijst van de cypherpunks, een gemeenschap van liefhebbers van cryptografie die privacy op het internet promoten. Deze e-mail bevatte een document met de naam "White Paper", waarin werd uitgelegd hoe Bitcoin werkte.
+31 oktober 2008 markeert de geboorte van de nieuwe financiële technologie die Bitcoin is. Op deze dag presenteerde de anonieme Satoshi Nakamoto zijn innovatie aan de wereld via een e-mail naar de mailinglijst van de cypherpunks, een gemeenschap van liefhebbers van cryptografie die privacy op het internet promoten. Deze e-mail bevatte een document met de naam "[White Paper](https://planb.academy/resources/glossary/white-paper)", waarin werd uitgelegd hoe Bitcoin werkte.
 
 Dit initiatief wekte niet meteen enthousiasme op, waarschijnlijk vanwege de eerdere mislukkingen in de pogingen om een digitaal geldsysteem te creëren. Desondanks werd deze whitepaper uiteindelijk een referentie voor Bitcoin gebruikers en is het door de jaren heen het onderwerp geweest van vele debatten in het Bitcoin ecosysteem.
 
-![image](assets/en/40.webp)
+![image](assets/nl/039.webp)
 
 Op 3 januari 2009 opende Satoshi officieel het Bitcoin netwerk door het eerste blok te creëren, ook bekend als het "Genesis blok". Dit blok bevat een veelzeggende boodschap die de missie van Bitcoin weergeeft: "03/jan/2009 Kanselier op rand van tweede reddingsoperatie voor banken."
 
-![image](assets/en/41.webp)
+![image](assets/nl/040.webp)
 
 > "We kunnen een belangrijke slag winnen in de wapenwedloop en een
 > nieuw territorium van vrijheid voor meerdere jaren verwerven." - Satoshi Nakamoto
 
-![image](assets/en/44.webp)
+![image](assets/nl/041.webp)
 
 ### Het Bitcoin protocol komt tot leven
 
 Op 9 januari 2009 kondigde Satoshi de release aan van de Bitcoin 0.1.0 versie. Kort daarna kreeg Hal Finney de software in handen en sloot zich aan bij het netwerk, wat de aanwezigheid van twee nodes en dus twee miners in het netwerk betekende. Finney vereeuwigde deze stap zelfs door te tweeten: 'Running Bitcoin'. Op 12 januari 2009 werd de eerste Bitcoin transactie van 10 BTC gedaan tussen Satoshi en Hal Finney. Je kunt de transactie gemakkelijk terugvinden als je teruggaat naar blok 170.
 
-![image](assets/en/43.webp)
+![image](assets/nl/042.webp)
 
 De interesse in Bitcoin groeide snel, waardoor veel mensen het gingen testen, discussies gingen voeren, bugs wilden oplossen en wilden nadenken over de ethische, economische en filosofische aspecten ervan. Mensen waren zo geboeid dat Satoshi op 22 november 2009 het BitcoinTalk-forum oprichtte om dit soort communicatie mogelijk te maken.
 Het forum werd al snel de favoriete plaats voor discussie onder Bitcoin gebruikers, zozeer zelfs dat er beroemde memes en symbolen uit voortkwamen die geassocieerd werden met Bitcoin, zoals het [Bitcoin logo](https://bitcointalk.org/index.php?topic=64.0), de beroemde [HODL](https://bitcointalk.org/index.php?topic=375643.0), of zelfs [Pizza dag](https://bitcointalk.org/index.php?topic=137.msg1195).
 
 **Wist je dat?** Op 22 mei 2010 schreef Laszlo Hanyecz geschiedenis door 10.000 BTC aan te bieden om twee pizza's te kopen: het was de eerste keer dat Bitcoin werd gebruikt om fysieke goederen te kopen.
 
-![image](assets/en/42.webp)
+![image](assets/nl/043.webp)
 
 ### De verdwijning van Satoshi Nakamoto
 
@@ -714,9 +688,9 @@ Ondanks de afwezigheid van Satoshi ging de ontwikkeling van Bitcoin door: de ges
 
 Voor sommigen wordt Bitcoin gedefinieerd als een schimmelachtige entiteit zoals een [mycelium](https://brandonquittem.com/Bitcoin-is-the-mycelium-of-money/), terwijl anderen het beschrijven als een [zwart gat](https://dergigi.com/). Of je het nu leuk vindt of niet, Bitcoin blijft bestaan, met zijn constante ritme van 10 minuten per blok, als de hartslag van een nieuw monetair systeem.
 
-Om meer te weten te komen over de geschriften van Satoshi Nakamoto, raden we ["The Book of Satoshi"](https://planb.network/en/resources/books/98) aan van Phil Champagne of de ARTE documentaire "Le mystaire Satoshi" te lezen.
+Om de geschriften van Satoshi Nakamoto verder te verdiepen, raad ik het lezen aan van [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) van Phil Champagne, dat zijn belangrijkste teksten bundelt en in context plaatst, evenals de ARTE-documentaire [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), die een toegankelijke en goed gedocumenteerde zoektocht naar zijn identiteit en nalatenschap biedt.
 
-![image](assets/en/45.webp)
+![image](assets/nl/044.webp)
 
 > "Het kernprobleem van conventionele valuta is het vertrouwen dat nodig is om het te laten werken. De centrale bank moet vertrouwd worden om de munt niet te devalueren, maar de geschiedenis van de fiatvaluta staat bol van de schendingen van dat vertrouwen. Banken moeten vertrouwd worden om ons geld vast te houden en het elektronisch over te dragen, maar ze lenen het uit in golven van kredietbellen met nauwelijks een fractie in reserve" - [Satoshi Nakamoto](https://Satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 
@@ -738,7 +712,7 @@ Daarna maakt Bob de transactie door zijn Bitcoin wallet te openen en op "verzend
 
 Om de transactie af te ronden, moet Bob deze ondertekenen met zijn privésleutel om te verifiëren dat hij de eigenaar is van de bitcoins die hij wil overdragen. Deze stap is meestal automatisch op mobiele wallets, of het neemt de vorm aan van een bevestiging op je fysieke wallet: "Weet je zeker dat je X naar Y wilt sturen? Ja of nee".
 
-![image](assets/en/46.webp)
+![image](assets/nl/045.webp)
 
 **Waarom betalen we fees (vergoedingen)?** Vergoedingen zijn essentieel om een vrije markt te creëren voor het opnemen van transacties in blokken. In feite heeft een blok een grootte van 1 MB (die werd uitgebreid naar 4 MB na de SegWit update), dus het aantal transacties dat in een blok kan worden "geplaatst" is beperkt tot een paar duizend transacties per blok. De grootte van een transactie hangt af van de complexiteit ervan. Complexere transacties brengen hogere kosten met zich mee.
 
@@ -746,25 +720,25 @@ Om de transactie af te ronden, moet Bob deze ondertekenen met zijn privésleutel
 
 In dit stadium is de transactie aangemaakt en Bob's Wallet zal deze delen met het Bitcoin netwerk. Om dit te doen, communiceert zijn wallet met een node van het Bitcoin netwerk, dat deze informatie doorgeeft aan andere nodes. Door dit soort proces kan het hele netwerk deze nieuwe transactie zien en er rekening mee houden.
 
-![image](assets/en/47.webp)
+![image](assets/nl/046.webp)
 
 Op dit moment, ook al is deze transactie bij iedereen bekend (via een tool genaamd Mempool), kan het niet als bevestigd worden beschouwd totdat het wordt ingevoegd in een blok door een miner, die de enige is die transacties valideert door ze op te nemen in de blockchain.
 
 In feite hebben miners de taak om geldige en onbevestigde transacties te verzamelen om ze samen te voegen tot een blok. In een notendop moeten ze een cryptografische puzzel oplossen in een proces dat "proof of work" wordt genoemd, zodat hun blok de volgende in de Bitcoin blockchain wordt.
 
-![image](assets/en/48.webp)
+![image](assets/nl/047.webp)
 
 ### Stap 3: De transactie wordt gemined in een blok door een miner.
 
 Het proof of work systeem vereist het vinden van een geldige "hash" voor het blok in kwestie: zie het als een unieke vingerafdruk geassocieerd met het blok, bestaande uit 256 karakters. De geldigheid van deze hash hangt af van de moeilijkheidsgraad van het Bitcoin netwerk (we gaan hier later dieper op in). Voor nu, stel dat een miner een geldig blok heeft gevonden, en dat Bob's transactie naar Alice erin is opgenomen. Dan wordt het nieuwe geldige blok toegevoegd aan de blockchain, de gemeenschappelijke ledger (grootboek) voor alle Bitcoin gebruikers.
 
-![image](assets/en/49.webp)
+![image](assets/nl/048.webp)
 
 ### Stap 4: Het blok is geldig en geverifieerd door de referentie-node van Alice.
 
 In dit stadium wordt de transactie als geldig beschouwd: de miner zal dan het nieuwe blok naar het netwerk verspreiden via hun node en Alice's wallet zal worden bijgewerkt.
 
-![image](assets/en/50.webp)
+![image](assets/nl/049.webp)
 
 **Opmerking:** Zelfs als Alice bericht krijgt dat ze bitcoins heeft ontvangen op een van haar adressen, is het raadzaam om de transactie pas als onveranderbaar te beschouwen nadat ze **zes** bevestigingen heeft ontvangen. Dit betekent dat er zes extra blokken gemined moeten worden bovenop het blok met Bob's transactie. Met andere woorden, hoe ouder een transactie is in de blockchain, hoe onveranderlijker ze wordt.
 
@@ -793,7 +767,7 @@ Nodes zijn een fundamenteel element van de Bitcoin netwerkarchitectuur omdat ze 
 
 Daarom draagt elk apparaat dat een stuk Bitcoin software draait, een Bitcoin node genoemd (vaak met [Bitcoin Core](https://Bitcoin.org/en/Bitcoin-core/)), bij aan de decentralisatie van het netwerk.
 
-![image](assets/en/51.webp)
+![image](assets/nl/050.webp)
 
 ### Nodes vormen de centrale kern van Bitcoin.
 
@@ -801,7 +775,7 @@ Elke node heeft een kopie van Blockchain, waardoor transacties kunnen worden gev
 
 Nodes zijn in staat om de geldigheid van blokken en transacties te verifiëren, omdat ze de regels van de Bitcoin consensus volgen. Deze regels bepalen het monetaire beleid van Bitcoin, zoals het beloningsbedrag voor miners (dat we in het volgende deel in meer detail bespreken) en de hoeveelheid Bitcoin in circulatie. Nodes fungeren in zekere zin als het rechtssysteem van het netwerk, omdat ze de regels van Bitcoin handhaven en het netwerk neutraal houden. Consensusregels variëren niet of nauwelijks, omdat voor veranderingen de goedkeuring van alle nodes nodig is.
 
-![image](assets/en/52.webp)
+![image](assets/nl/051.webp)
 
 Governance (bestuur) binnen het protocol valt buiten het bereik van deze basiscursus, maar het is belangrijk om op te merken dat elke gebruiker die een Bitcoin node beheert, kan beslissen welke regels hij volgt. Een gebruiker kan ervoor kiezen om andere regels te volgen (d.w.z. wijzigingen aanbrengen in de code), maar als deze wijzigingen de huidige consensusregels ongeldig maken, zal die node niet langer deel uitmaken van het Bitcoin netwerk. Als gevolg hiervan zijn grote wijzigingen zeldzaam en vereisen ze significante coördinatie tussen duizenden deelnemers met verschillende ideologieën en belangen, wat hen dwingt om updates aan te bieden die door alle Bitcoin gebruikers als 'beter' worden beschouwd.
 
@@ -809,7 +783,7 @@ Governance (bestuur) binnen het protocol valt buiten het bereik van deze basiscu
 
 Er zijn verschillende opties beschikbaar als je je eigen node wilt installeren, met verschillende onderhoudskosten. Je kunt eenvoudigweg de Bitcoin Core software op je computer draaien, maar dat vereist een aanzienlijke hoeveelheid opslagruimte, aangezien de blockchain ongeveer ~500GB groot is. Om deze beperking te omzeilen, kun je ervoor kiezen om alleen de laatste N blokken in het geheugen te bewaren door een "pruned node (afgeslankte node)" te maken. Voor deze tweede oplossing zijn de kosten te verwaarlozen, omdat de node alleen actief is als je het nodig hebt.
 
-![image](assets/en/53.webp)
+![image](assets/nl/052.webp)
 
 Een tweede optie is om hiervoor speciale hardware te gebruiken, zoals een Raspberry Pi 4 met een voldoende grote SSD (ongeveer ~2TB). Deze andere optie is duurder als je de hardware moet kopen, maar het vertegenwoordigt iets minder dan €10,00 per jaar in termen van elektriciteitsverbruik.
 Vanuit het oogpunt van bandbreedte komt 1 blok van 1MB elke 10 minuten ongeveer overeen met 5GB per maand.
@@ -820,7 +794,7 @@ De betaalbare kosten en toegankelijkheid van een Bitcoin node in termen van hard
 
 Iedereen heeft wel een goede reden om een node te runnen! De kosten en inspanningen zijn minimaal in vergelijking met het voordeel dat je krijgt. Je hoeft alleen maar het avontuur aan te gaan en je aan te sluiten bij duizenden andere bitcoiners om samen het Bitcoin netwerk te vormen.
 
-![image](assets/en/54.webp)
+![image](assets/nl/053.webp)
 
 Integendeel, als de blokken 100 keer zo zwaar zouden zijn, zouden we zeker 100 keer meer transacties per 10 minuten kunnen doen, maar het draaien van een Bitcoin node zou een 50TB Hard schijf vereisen, een bandbreedte van meer dan 500GB/maand en een stuk hardware dat honderdduizenden transacties in minder dan 10 minuten kan valideren. In deze hypothetische situatie met 100 keer grotere blokken, zou het draaien van een Bitcoin node niet toegankelijk zijn voor de gemiddelde persoon, wat zowel de decentralisatie van het protocol als de onveranderlijkheid van transacties en consensusregels in gevaar zou brengen.
 
@@ -832,9 +806,9 @@ Na deze overwinning activeerden de nodes een update genaamd SegWit, die de weg v
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners beveiligen het netwerk en voegen transacties toe aan de blokken. Ze gebruiken elektriciteit via ASIC machines om de Bitcoin proof of work op te lossen.**
+**Miners beveiligen het netwerk en voegen transacties toe aan de blokken. Ze gebruiken elektriciteit via [ASIC](https://planb.academy/resources/glossary/asic) machines om de Bitcoin proof of work op te lossen.**
 
-![image](assets/en/55.webp)
+![image](assets/nl/054.webp)
 
 ### Uitleg van Proof of Work
 
@@ -849,17 +823,17 @@ De machines werken continu en na gemiddeld 10 minuten komt er een winnaar uit de
 
 Elke 2016 blokken (ongeveer elke twee weken), herbalanceert de **moeilijkheidsaanpassing** het globale mining spel gebaseerd op het aantal deelnemers. Deze aanpassing is nodig omdat het aantal miners en hun gecombineerde rekenkracht aanzienlijk kan variëren over tijd. Om de nagestreefde bloktijd te handhaven, past het netwerk de moeilijkheidsgraad aan op basis van hoe snel de laatste 2016 blokken werden gemined. Als ze te snel werden gemined, neemt de moeilijkheidsgraad toe, waardoor het moeilijker wordt om de juiste hash te vinden. Als ze daarentegen te langzaam werden gemined, neemt de moeilijkheidsgraad af, waardoor het minen makkelijker wordt.
 
-![image](assets/en/24.webp)
+![image](assets/nl/055.webp)
 
 ### Mining evolueert voortdurend
 
 In de loop der jaren hebben miners zich uitgerust met steeds efficiëntere computerhardware om zoveel mogelijk hashes per seconde te produceren (HashRate) terwijl ze zo min mogelijk energie verbruiken op een zo kosteneffectief mogelijke manier. De eerste miners, zoals Satoshi of Hal Finney, mineden alleen met hun CPU, daarna begonnen anderen met minen via hun grafische kaarten. Tegenwoordig gebruiken miners ASIC's (Application-Specific Integrated Circuit): machines die enkel ontworpen zijn om het SHA256 algoritme toe te passen.
 
-![image](assets/en/56.webp)
+![image](assets/nl/056.webp)
 
 De hashrate van het Bitcoin netwerk vertegenwoordigt het aantal pogingen per seconde om het volgende blok te vinden. Vandaag de dag overschrijdt de hashrate 500 TH/s, wat neerkomt op 500.000 miljard pogingen per seconde! Hoe hoger de wereldwijde hashrate, hoe moeilijker het is voor een kwaadwillende actor om de middelen te monopoliseren die nodig zijn om de meerderheid van de hashkracht te verkrijgen en hun tegoeden meer dan eens uit te geven (dubbele uitgave probleem). Het is daarom economischer om de regels van het Bitcoin protocol te volgen dan er tegen in te gaan.
 
-![image](assets/en/57.webp)
+![image](assets/nl/057.webp)
 
 ### Wat kun je vinden in een blok?
 
@@ -878,11 +852,11 @@ De hoogte van de subsidie wordt bepaald door de consensusregels en is afhankelij
 
 Voor de eerste blokken was de bloksubsidie 50 bitcoins. Elke 210.000 blokken (ongeveer elke 4 jaar) wordt dit bedrag gehalveerd. Vandaag (in 2024) zitten we in de 5e Epoch, wat betekent dat de subsidie 3,125 bitcoins is. In het kort is dit het automatische mechanisme dat nieuwe bitcoins vrijgeeft in het systeem. De subsidie neemt in de loop van de tijd af, totdat de limiet van 21 miljoen bitcoins is bereikt. Er zijn al meer dan 19,4 miljoen bitcoins in omloop, dat is meer dan 92%.
 
-![image](assets/en/58.webp)
+![image](assets/nl/058.webp)
 
 De tweede compensatiemethode wordt bepaald door het bedrag dat gebruikers kiezen voor transactiekosten, die de urgentie van de gebruiker aangeven om hun transactie in het volgende blok op te nemen. Aangezien miners hun inkomen willen maximaliseren, zullen ze geneigd zijn om transacties met hoge transactiekosten voorrang te geven.
 
-![image](assets/en/59.webp)
+![image](assets/nl/059.webp)
 
 Om hun bedrijfsmodel te stabiliseren, dat gebaseerd is op de beloningen die ze ontvangen voor elk geldig blok, creëren miners vaak groepen via "mining pools", waar ze hun rekenkracht bundelen.
 
@@ -892,7 +866,7 @@ Kortom, de innovatie van Bitcoin is het bieden van een oplossing voor het proble
 
 Maar hoe kan dit zonder een vertrouwde tussenpersoon? Dit probleem wordt goed omschreven door het probleem van de Byzantijnse generaals, een probleem van het coördineren van informatie in een systeem waarin verschillende actoren niet te vertrouwen zijn. In het probleem van de Byzantijnse generaals moet een groep generaals een aanval op een stad coördineren, maar sommigen kunnen verraders zijn die het plan proberen te verstoren. De uitdaging voor de loyale generaals is om een consensus te bereiken over het al dan niet aanvallen of terugtrekken, ondanks het ontvangen van mogelijk misleidende berichten van de verraders.
 
-![image](assets/en/60.webp)
+![image](assets/nl/060.webp)
 
 Bitcoin is daarom een soort oplossing voor dit probleem, of op zijn minst om het te omzeilen. De "generaals" van Bitcoin, of miners, produceren blokken (van informatie) en Bitcoin nodes verifiëren financiële transacties met behulp van consensusregels om de authenticiteit van de informatie te garanderen. De asymmetrie in de energiekosten tussen informatieproductie en verificatie zorgt voor de betrouwbaarheid van de informatie, zonder een betrouwbare derde partij.
 
@@ -906,7 +880,7 @@ De speltheorie toegepast op Bitcoin elimineert oneerlijke miners, die ASIC machi
 
 Als je dieper wilt ingaan op het specifieke onderwerp Bitcoin mining, kun je onze MIN 201 cursus raadplegen. Je ontdekt de werking en de rol van Proof-of-Work, evenals de mechanismen van de mining industrie. We leggen ook uit hoe je een ASIC kunt ombouwen tot een verwarming, zodat je je eerste satoshis kunt minen terwijl je je huis verwarmt!
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin en Ecologie
 
@@ -918,7 +892,7 @@ In de vorige paragraaf leerden we dat de veiligheid van het Bitcoin protocol afh
 
 Laten we eerst de milieukosten van mining kwalitatief beoordelen. Een miner moet een machine hebben zoals een ASIC en een energiebron in de vorm van elektriciteit om deze machines aan te drijven. ASIC's zijn meestal gemaakt van aluminium en kunnen worden gerecycled of hergebruikt voor een tweede doel (zoals wordt aangetoond door het Attakaï project dat wordt beschreven in onze cursus MIN201), waarbij een Antminer S9 wordt omgevormd tot een ruimteverwarmer). De grootste zorg is dus het energieverbruik.
 
-![image](assets/en/61.webp)
+![image](assets/nl/061.webp)
 
 Het elektriciteitsverbruik vertegenwoordigt bijna alle kosten voor een miner. Daarom worden ze aangemoedigd om een goedkope bron van elektriciteit te vinden, zodat ze naar plaatsen kunnen gaan waar elektriciteitscentrales zijn geïnstalleerd maar nog niet zijn aangesloten op het elektriciteitsnet van het gebied. In dit geval fungeren miners als een laatste redmiddel, waardoor energiecentrales financiering kunnen krijgen nog voordat ze op het elektriciteitsnet zijn aangesloten. Wanneer ze worden aangesloten, zal de vraag naar elektriciteit toenemen, waardoor de prijs zal stijgen en het voor miners minder rendabel wordt om op deze plaatsen elektriciteit te kopen. Aangezien de machines gemakkelijk verplaatst kunnen worden, zullen miners dan beslissen om hun installatie mee te nemen en zich verder weg te vestigen waar de vraag laag is en de prijs dus ook, meestal in gebieden waar ze energie kunnen krijgen van groene energiecentrales.
 
@@ -928,9 +902,9 @@ Het debat over de ecologische impact van Bitcoin is dus vaak misleidend, voornam
 
 Het is belangrijk om te benadrukken dat Bitcoin, als revolutionaire uitvinding, individuen die onder financiële onderdrukking of dictatoriale regimes leven een middel biedt om voor hun vrijheid te vechten. Als laatste redmiddel biedt Bitcoin een weg naar financiële onafhankelijkheid door censuur en bankbeperkingen te omzeilen. Bitcoin is meer dan alleen een munteenheid, het dient als een vorm van communicatie en een symbool van vrijheid, en de energie die miners erin steken speelt een cruciale rol in het verdedigen van deze vrijheid, waardoor emancipatie mogelijk wordt van een financieel systeem dat gedomineerd wordt door schulden en buitensporige printen van geld door centrale banken.
 
-![image](assets/en/62.webp)
-![image](assets/en/63.webp)
-![image](assets/en/64.webp)
+![image](assets/nl/062.webp)
+![image](assets/nl/063.webp)
+![image](assets/nl/064.webp)
 
 Voor mensen die in landen met een hoge inflatie leven, is Bitcoin een kwestie van overleven. Het biedt een middel om te overleven in precaire financiële situaties. Bovendien biedt Bitcoin een rechtvaardiger en onpartijdiger financieel systeem, waardoor miljarden mensen wereldwijd toegang krijgen tot financiële middelen. Is het energieverbruik vanuit dit perspectief gerechtvaardigd?
 
@@ -940,19 +914,19 @@ Tot slot is het essentieel om de economische en milieugevolgen van het gebruik v
 
 Als we het vergelijken met het huidige financiële systeem, dan stelt deze, door zijn aanmoediging van overconsumptie en schulden, ons voor ernstige problemen. Factoren zoals gemakkelijke toegang tot krediet, de uitgifte van geld door banken en de praktijk van 'fractional reserve banking (fractioneel bankieren)' dragen allemaal bij tot overmatige schuldenlast en, als gevolg daarvan, overconsumptie.
 
-![image](assets/en/65.webp)
+![image](assets/nl/065.webp)
 
 Het is noodzakelijk om het monetaire systeem te hervormen om de schaarste van onze grondstoffen te weerspiegelen met de schaarste van ons geld. Dit zal aanzetten tot meer verantwoorde consumptie en een langetermijnvisie. Omgekeerd heeft inflatie, door consumptie en investeringen aan te moedigen, een negatief langetermijneffect op het milieu.
 
 Het huidige financiële systeem sluit aan bij de ideeën van de Keynesiaanse economische theorie die, in tegenstelling tot die van de Oostenrijkse economische theorie, geen rekening houdt met de tijdelijke en dynamische aspecten van situaties en middelen. Met andere woorden, een onbeperkte valuta kan de beperkte middelen van onze planeet niet effectief vertegenwoordigen.
 
-![image](assets/en/66.webp)
+![image](assets/nl/066.webp)
 
 Politici hebben meestal een kortetermijnvisie en ze hebben economische groei nodig om herkozen te worden, dus zijn ze niet in staat om ecologische problemen op lange termijn op te lossen. Het invoeren van een gezonde munteenheid zoals Bitcoin is een potentieel alternatief dat mensen economisch sterker kan maken.
 
 Critici erkennen niet dat Bitcoin het gebruik van groene energie bevordert. De vlammen die in oliebronnen worden ontstoken om methaan te verbranden en vervuiling te voorkomen, kunnen bijvoorbeeld worden gedoofd door Bitcoin miners, omdat methaan kan worden omgezet in elektriciteit om mining machines aan te drijven, wat goed is voor het milieu.
 
-**Volg één van de stelregels van Bitcoin: Vertrouw niet, controleer zelf!
+**Volg één van de stelregels van Bitcoin: Vertrouw niet, controleer zelf!**
 
 ### Korte samenvatting van de technische kenmerken van Bitcoin
 
@@ -974,7 +948,7 @@ Het Bitcoin protocol is dus een niet te censureren en niet te stoppen monetair s
 
 De prijs van Bitcoin wordt vaak gekenmerkt door een aanzienlijke volatiliteit. De waarde kan aanzienlijk fluctueren afhankelijk van marktschommelingen of stijgende en dalende fasen, net als elke andere financiële markt.
 
-![image](assets/en/67.webp)
+![image](assets/nl/067.webp)
 
 Simpel gezegd hebben mensen de neiging om alles tegelijk te kopen en alles tegelijk te verkopen. **Bitcoin is niet immuun voor de menselijke natuur.**
 
@@ -982,7 +956,7 @@ Simpel gezegd hebben mensen de neiging om alles tegelijk te kopen en alles tegel
 
 Zowel de ontwikkeling als de evolutie van Bitcoin zijn grotendeels verbonden met de verschillende groepen actoren die geleidelijk in het ecosysteem zijn geïntegreerd.
 
-![image](assets/en/68.webp)
+![image](assets/nl/068.webp)
 
 - De gelovers:
 
@@ -1008,7 +982,7 @@ Deze grote schommelingen hebben Bitcoin de reputatie gegeven van een zeer volati
 
 Deze aanzienlijke volatiliteit wordt tegenwoordig volledig geaccepteerd door Bitcoin gebruikers en kan worden beperkt door verschillende oplossingen, zoals financiële hedges (stablecoins), een sterk langetermijngeloof (hodling), of simpelweg het vermijden van het risico om 100% van je tegoeden in Bitcoin te investeren zonder een voldoende kennis. Begrijpen waarom de prijs van Bitcoin zo fluctueert is daarom essentieel om vooruitgang te boeken in deze industrie, want het zijn uiteindelijk de prijsbewegingen en cycli die de markt tot op zekere hoogte helpen temperen en reguleren. Het is echter van fundamenteel belang op te merken dat naarmate Bitcoin groeit en volwassener wordt, de volatiliteit minder impact heeft.
 
-![image](assets/en/69.webp)
+![image](assets/nl/069.webp)
 
 Hoewel het btc/dollar paar op korte termijn fluctueert, volgt Bitcoin, vanwege de beperkte hoeveelheid van 21 miljoen bitcoins en het halveringsproces (halvering van monetaire creatie gemiddeld elke 4 jaar), een algemene opwaartse trend op een quasi-mechanische manier. Natuurlijk is Bitcoin, net als elke financieel activa, onderhevig aan economische cycli, waaronder perioden van euforie, speculatieve zeepbellen en correcties. Dit fenomeen komt vaak voor bij opkomende technologieën, waar de markt niet altijd rationeel of efficiënt is.
 
@@ -1016,11 +990,11 @@ Hoewel het btc/dollar paar op korte termijn fluctueert, volgt Bitcoin, vanwege d
 
 Deze cycli van speculatieve zeepbellen zijn vrij uniek in de wereld, want het komt zelden voor dat één activum zo'n reeks zeepbellen na elkaar doormaakt. Dit fenomeen kan worden toegeschreven aan het feit dat Bitcoin niet zomaar een zeepbel is die gedoemd is om uiteen te spatten. Het functioneert eerder als een munteenheid die wereldwijd actief wordt gebruikt. Het Bitcoin protocol onderscheidt zich door zijn vermogen om 24/7 op wereldschaal te opereren, wat aanzienlijke uitdagingen met zich meebrengt voor financiële autoriteiten die het proberen te reguleren.
 
-![image](assets/en/70.webp)
+![image](assets/nl/070.webp)
 
 Vandaag de dag blijft Bitcoin overleven en zelfs groeien doordat het meer en meer geïntegreerd wordt in de traditionele markt, en de introductie van Bitcoin ETF's, duidelijkere regelgeving en verbeterde hulpmiddelen voor aankoop en opslag dragen allemaal bij aan dit positieve momentum. Bitcoin heeft opnieuw zijn speculatieve zeepbel overleefd, dus misschien is het toch niet alleen maar gebakken lucht!
 
-![image](assets/en/71.webp)
+![image](assets/nl/071.webp)
 
 ## Bitcoins verkrijgen door te werken
 
@@ -1034,7 +1008,9 @@ De Bitcoin economie bestaat en ontwikkelt zich in bepaalde regio's van de wereld
 
 Toch zijn er in El Salvador en in andere delen van de wereld steeds meer individuen, bedrijven en organisaties die Bitcoin accepteren als betaalmiddel voor hun producten of diensten.
 
-![image](assets/en/72.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Bron : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Daarnaast is er een open-source en samenwerkingsproject gelanceerd, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), om het gebruik van Bitcoin in alledaagse transacties te vergemakkelijken. Dit platform geeft een overzicht van alle bedrijven, winkeliers en handelaren die Bitcoin accepteren, evenals de verschillende Bitcoin gemeenschappen over de hele wereld, dus je kunt hun website bezoeken om het Bitcoin ecosysteem om je heen te ontdekken. Dus, ondanks de moeilijkheden en aarzelingen, zijn er initiatieven zoals BTCMap die bijdragen aan het toegankelijker en gemakkelijker maken van de Bitcoin economie voor iedereen.
 
@@ -1044,7 +1020,7 @@ Om bitcoins te verkrijgen, kun je ze kopen op platforms die gereguleerd zijn doo
 
 Verder heeft het accepteren van Bitcoin als bedrijf, winkelier of handelaar verschillende voordelen, waaronder censuurbestendigheid, lagere transactiekosten, verhoogde efficiëntie, bescherming tegen inflatie en financiële vrijheid en soevereiniteit.
 
-![image](assets/en/73.webp)
+![image](assets/nl/073.webp)
 
 ### Hoe kun je verdergaan?
 
@@ -1054,17 +1030,17 @@ We zullen dit onderwerp in detail behandelen in een andere cursus, maar om het e
 
 - Eenvoudige online oplossing: OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Oplossing voor amateurwinkeliers: Swiss Bitcoin Pay
 - 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Oplossing voor grote organisaties of gepassioneerde bitcoiners: BTCpay Server
 
 Om dit onderwerp verder uit te diepen, raden wij je onze BIZ101 cursus aan! Ontdek hoe je Bitcoin effectief kunt integreren in de treasury van jouw bedrijf, hoe je Bitcoin kunt accepteren als betaalmiddel volgens het profiel van jouw organisatie en hoe je de bijbehorende belasting- en boekhoudvereisten kunt begrijpen:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Sparen Met Bitcoin
 
@@ -1079,7 +1055,7 @@ Bitcoin is een belangrijk financieel activum geworden, vooral omdat de hoeveelhe
 - In het verleden behaalde resultaten zijn geen betrouwbare indicator voor toekomstige resultaten.
 - Neem indien nodig contact op met je financieel adviseur.
 
-**Plan ₿ Network geeft geen beleggingsadvies en niets wat hier staat moet als zodanig worden beschouwd**
+**Plan ₿ Academy geeft geen beleggingsadvies en niets wat hier staat moet als zodanig worden beschouwd**
 
 ### Mini checklist voordat je de sprong waagt
 
@@ -1103,11 +1079,11 @@ Concreet gezien zijn er twee vragen die je jezelf moet stellen:
 
 Deze geleidelijke strategie bestaat uit periodiek aankopen, wat betekent dat je regelmatig kleine hoeveelheden Bitcoin koopt. Deze methode vereffent de prijs in de loop van de tijd en zorgt voor een continue groei in de hoeveelheid Bitcoin die je bezit. Het is een ideale oplossing voor sparen op lange termijn en verlicht de zorgen over de prijsvolatiliteit van Bitcoin. Eenmaal ingesteld, kun je het gewoon vergeten en je investering zien groeien.
 
-![image](assets/en/74.webp)
+![image](assets/nl/074.webp)
 
 **Pas op voor UTXO's**: Vergeet niet om je UTXO's in je wallet van tijd tot tijd te consolideren. Deze praktijk is essentieel voor het effectief beheren van je bitcoins en het vermijden van onnodige kosten tijdens transacties.
 
-Een [UTXO](https://planb.network/en/resources/glossary/utxo) is een output van een transactie die nog niet is uitgegeven, wat betekent dat het niet is gebruikt als input voor een nieuwe transactie. Consolideren betekent het samenvoegen van verschillende kleine UTXO's tot één grotere, om het "gewicht" van de transactie te verminderen en dus lagere kosten te betalen.
+Een [UTXO](https://planb.academy/en/resources/glossary/utxo) is een output van een transactie die nog niet is uitgegeven, wat betekent dat het niet is gebruikt als input voor een nieuwe transactie. Consolideren betekent het samenvoegen van verschillende kleine UTXO's tot één grotere, om het "gewicht" van de transactie te verminderen en dus lagere kosten te betalen.
 
 - Spontane aankoop
 
@@ -1121,7 +1097,7 @@ Er zijn verschillende manieren om bitcoins aan te schaffen, elke manier is onder
 
 - DCA-platforms
 
-Zoals we hierboven introduceerden, is een veelgebruikte methode om bitcoins te verzamelen Dollar Cost Averaging (DCA), waarbij regelmatig kleine hoeveelheden worden gekocht. Verschillende platforms bieden deze service aan, zoals die op onze [speciale pagina](https://planb.network/tutorials/exchange). Naast de eenvoud van het opzetten van een DCA, zijn opnames van tegoeden uit je wallet over het algemeen automatisch, wat betekent dat je altijd controle over je vermogen hebt.
+Zoals we hierboven introduceerden, is een veelgebruikte methode om bitcoins te verzamelen Dollar Cost Averaging (DCA), waarbij regelmatig kleine hoeveelheden worden gekocht. Verschillende platforms bieden deze service aan, zoals die op onze [speciale pagina](https://planb.academy/tutorials/exchange). Naast de eenvoud van het opzetten van een DCA, zijn opnames van tegoeden uit je wallet over het algemeen automatisch, wat betekent dat je altijd controle over je vermogen hebt.
 
 Tegenwoordig zijn bijna alle DCA-oplossingen relatief efficiënt en hebben ze bijna dezelfde tarieven, dus de keuze zal meer afhangen van de beschikbaarheid in jouw land.
 
@@ -1136,7 +1112,7 @@ Het gebruik ervan is eenvoudig en voor iedereen toegankelijk:
 3. Bitcoin kopen
 4. Bitcoin opnemen naar op je wallet
 
-![image](assets/en/75.webp)
+![image](assets/nl/075.webp)
 
 Na aankoop is het raadzaam om de bitcoins onmiddellijk op te nemen van het exchange platform om de risico's van hacking en blokering van tegoeden te minimaliseren. Houd er rekening mee dat de opnamekosten hoog kunnen zijn, soms wel 25 euro afhankelijk van het platform.
 
@@ -1146,7 +1122,7 @@ Het is essentieel om te erkennen dat KYC een belangrijk onderwerp van discussie 
 
 ### Niet-KYC-oplossingen
 
-Daarnaast zijn er verschillende [marktplaatsen](https://planb.network/tutorials/exchange) waar je bitcoins kunt kopen en verkopen in een peer-to-peer exchange. Over het algemeen kun je de volgende overwegen:
+Daarnaast zijn er verschillende [marktplaatsen](https://planb.academy/tutorials/exchange) waar je bitcoins kunt kopen en verkopen in een peer-to-peer exchange. Over het algemeen kun je de volgende overwegen:
 
 - Bitcoin geldautomaten
 - Fysieke ontmoetingen met andere Bitcoin enthousiastelingen
@@ -1154,9 +1130,13 @@ Daarnaast zijn er verschillende [marktplaatsen](https://planb.network/tutorials/
 - Peer-to-peer matchmaking-oplossingen
 - Neobanken die actief zijn in Bitcoin-vriendelijke landen.
 
-![image](assets/en/76.webp)
+![image](assets/nl/076.webp)
 
 Tot slot is het belangrijk op te merken dat belastingverplichtingen kunnen variëren afhankelijk van de jurisdictie, dus we raden je ten zeerste aan de regelgeving in je land te raadplegen voordat je acties onderneemt die je in gevaar kunnen brengen.
+
+Als u uw kennis wilt verdiepen over strategieën voor het kopen, gebruiken en beveiligen van uw bitcoins, raad ik u ten zeerste aan om na deze cursus de cursus **BTC 102** te volgen. Daar ontdekt u onder andere aanbevelingen voor hulpmiddelen die zijn afgestemd op uw profiel, behoeften en persoonlijke doelen:
+
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinisatie
 
@@ -1166,101 +1146,217 @@ Tot slot is het belangrijk op te merken dat belastingverplichtingen kunnen vari�
 
 Zoals elke nieuwe technologie, volgt de adoptie van Bitcoin een S-curve, die de progressie van vroege gebruikers naar bredere acceptatie illustreert. We zijn het tijdperk van de vroege gebruikers voorbij en de indicatoren wijzen op een mogelijke democratisering van Bitcoin. Het is immers een virale technologie die niet gemakkelijk gestopt kan worden. Aan de ene kant heeft El Salvador de moedige stap genomen om Bitcoin volledig als wettig betaalmiddel in te voeren. Aan de andere kant hebben andere landen gereageerd door het te verbieden en het gebruik ervan te criminaliseren, wat aantoont dat de adoptie van Bitcoin complex is en onderhevig is aan de invloed van culturele, historische en nationale factoren.
 
-![image](assets/en/02.webp)
+![image](assets/nl/077.webp)
 
 De opkomst van Bitcoin dwingt bedrijven, universiteiten, regelgevers en individuen om rekening te houden met deze nieuwe technologie. Er moeten nieuwe tools worden gemaakt, diensten moeten worden aangepast en innovatie moet doorgaan om te overleven. Deze context roept veel vragen op met betrekking tot verschillende gebieden, waaronder cryptografie, speltheorie, economie en monetair beleid, computerwetenschap, filosofie, energie, wetten en regelgeving. Kortom, Bitcoin is een multidisciplinair onderwerp.
 
-![image](assets/en/01.webp)
+![image](assets/nl/078.webp)
 
 ### Bitcoin is een 0 tot 1
 
 Uiteindelijk nodigen we je uit om na te denken over deze nieuwe monetaire revolutie. Er is zoveel te ontdekken met Bitcoin dat het ingewikkeld is om alles in één keer te verwerken. Neem de tijd, Bitcoin zal niet verdwijnen. Integendeel, de revolutie is net begonnen. Wij geloven dat we in staat zijn om een wereld te creëren die we aan onze kinderen kunnen toevertrouwen: een wereld waar menselijke soevereiniteit een recht is, waar privacy standaard wordt gerespecteerd en waar geld niet wordt gemanipuleerd. We hopen dat we dit samen zullen bereiken.
 
-![image](assets/en/77.webp)
+![image](assets/nl/079.webp)
 
-Als je je kennis over Bitcoin wilt uitbreiden, dan is dit het juiste moment: een groot aantal auteurs, denkers en essayisten hebben educatieve inhoud over Bitcoin gemaakt. De afgelopen jaren hebben we deze werken op een rijtje gezet en gecategoriseerd om een [bibliotheek van bronnen](https://planb.network/resources) aan te bieden aan de meest nieuwsgierigen onder jullie. In deze sectie vind je de beste podcasts, websites, artikelen, tutorials, boeken en andere inhoud.
+Als je je kennis over Bitcoin wilt uitbreiden, dan is dit het juiste moment: een groot aantal auteurs, denkers en essayisten hebben educatieve inhoud over Bitcoin gemaakt. De afgelopen jaren hebben we deze werken op een rijtje gezet en gecategoriseerd om een [bibliotheek van bronnen](https://planb.academy/resources) aan te bieden aan de meest nieuwsgierigen onder jullie. In deze sectie vind je de beste podcasts, websites, artikelen, tutorials, boeken en andere inhoud.
 
 > "Ik denk dat het internet een van de belangrijkste krachten zal zijn om de rol van de overheid te verkleinen. Het enige dat nog ontbreekt, maar dat snel ontwikkeld zal worden, is een betrouwbare e-cash - een methode waarbij je op het internetgeld kunt overmaken van A naar B zonder dat A B kent of B A kent." - Voorspelling van Milton Friedman in 1999
 
-# De Toekomst van Bitcoin: Het Lightning Network
+
+# De toekomst van Bitcoin
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Een korte introductie van het Lightning Network
+## Het Lightning-netwerk: snel betalen met bitcoin, tegen lage kosten
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Nu we de basis van het Bitcoin protocol kennen, zullen we een betalingsnetwerk introduceren dat het Bitcoin protocol gebruikt om bliksemsnelle transacties mogelijk te maken: het Lightning Network!
+Nu u de basis van het Bitcoin-protocol kent, introduceren we het belangrijkste betalingsnetwerk dat bovenop Bitcoin is gebouwd: het Lightning Network (vaak afgekort als "LN"). Het doel is eenvoudig: betalingen in BTC mogelijk maken met een quasi-onmiddellijke finaliteit, zonder de blockchain te verzadigen, en met doorgaans zeer lage kosten.
 
-Houd er rekening mee dat het volgende slechts een algemene beschrijving is, dus als je het in meer detail wilt begrijpen, nodigen we je uit om onze LNP201 cursus te volgen.
+### De blockchain kan niet alles doen
 
-### In een notendop
+De Bitcoin-blockchain is ontworpen om door zo veel mogelijk mensen verifieerbaar te zijn, zonder toestemming en zonder vertrouwen. Deze vereiste brengt structurele beperkingen met zich mee: de blockchain kan geen onbeperkte hoeveelheid transacties verwerken, omdat blokken redelijk moeten blijven om te downloaden, op te slaan en te verifiëren door onafhankelijke nodes, zonder te moeten investeren in te dure hardware. Dit compromis wordt vaak samengevat in het trilemma: decentralisatie, veiligheid en schaalbaarheid. Een op blockchain gebaseerd systeem kan deze drie eigenschappen niet tegelijkertijd maximaliseren. Bitcoin geeft prioriteit aan decentralisatie en veiligheid, wat de mogelijke onchain-transactiecapaciteit vanzelf beperkt.
 
-Het Lightning Network is een revolutionaire technologie die onze perceptie van Bitcoin ingrijpend heeft veranderd, omdat het het schaalbaarheidsprobleem van Bitcoin aanpakt.
+![image](assets/nl/081.webp)
 
-Om het Lightning Network volledig te begrijpen, is het cruciaal om te begrijpen hoe Bitcoin evolueert en de infrastructuur zich ontwikkelt in lagen: de eerste laag is de blockchain, en de tweede is het Lightning Network.
+Binnen Bitcoin hebben ontwikkelaars bewuste keuzes gemaakt om dit te waarborgen. Enerzijds maken een blokgrootte die beperkt is tot 1 MB en een gemiddelde tijd van 10 minuten tussen twee blokken het mogelijk om een Bitcoin-node tegen lage kosten te draaien, wat de decentralisatie van het netwerk bevordert. Anderzijds maakt blokproductie via proof-of-work elke poging tot fraude extreem kostbaar, terwijl dit tegelijk de verificatie door nodes vergemakkelijkt en de algehele veiligheid van het protocol versterkt.
 
-![image](assets/en/78.webp)
+Deze keuzes brengen echter ook een belangrijke beperking met zich mee: het aantal transacties dat in elk blok kan worden opgenomen is beperkt. Dit komt neer op slechts enkele transacties per seconde. Dit cijfer is verwaarloosbaar in vergelijking met de capaciteit van gecentraliseerde betalingssystemen zoals VISA (dat een theoretische maximale capaciteit heeft van ongeveer 65.000 transacties per seconde), maar deze beperking is de prijs die wordt betaald om transacties zonder censuur en zonder vertrouwde derde partij mogelijk te maken.
 
-### Een blockchain kan niet onbeperkt groeien
+Concreet betekent dit twee zeer belangrijke zaken voor het dagelijks gebruik van Bitcoin:
+* wanneer de vraag naar blokruimte toeneemt, kunnen de onchain-kosten zeer hoog oplopen;
+* onchain-betalingen vereisen bevestigingen, wat niet altijd geschikt is voor dagelijkse aankopen.
 
-Het Lightning Network werd in 2017 gevalideerd en geïmplementeerd om het schaalbaarheidsprobleem van Bitcoin op te lossen, omdat het directe, goedkope Bitcoin-transacties mogelijk maakt.
+Het Lightning Network is precies een antwoord op deze problemen. Het idee achter Lightning past binnen een gelaagde benadering: Bitcoin blijft de basislaag (de afwikkelingslaag, robuust en zeer veilig), terwijl Lightning fungeert als een snelle betalingslaag daarboven.
 
-Het schaalbaarheidsprobleem verwijst naar de uitdaging om een monetair systeem te implementeren dat in staat is om een steeds groter aantal transacties per seconde te verrichten in reactie op een toenemende adoptie. Dit probleem houdt verband met het blockchain trilemma. Stel je een driehoek voor met decentralisatie, veiligheid en schaalbaarheid als hoekpunten.
+![image](assets/nl/080.webp)
 
-![image](assets/en/79.webp)
+### Betalingskanalen verankerd in Bitcoin
 
-Volgens dit voorbeeld kan een protocol gebaseerd op een blockchain slechts aan twee van deze drie eigenschappen voldoen. Binnen het Bitcoin protocol hebben ontwikkelaars keuzes gemaakt ten gunste van decentralisatie en veiligheid. Aan de ene kant maken de blokgrootte van 1MB en de tijd tussen twee blokken (gemiddeld 10 minuten) het mogelijk om een Bitcoin node tegen lagere kosten te laten draaien, wat decentralisatie bevordert. Aan de andere kant maakt de productie van blokken via Proof-of-Work fraude binnen het protocol extreem duur, terwijl het verificatie door nodes in het netwerk vergemakkelijkt en veiligheid bevordert. Deze keuzes leggen echter een limiet op aan het gemiddelde aantal transacties in een blok, wat ruwweg overeenkomt met een paar transacties per seconde. Dit aantal is ontzettend laag als je het vergelijkt met de rekencapaciteit van betalingsverwerkers zoals VISA (1700/s), maar deze limiet is noodzakelijk om transacties met Bitcoin op een censuurbestendige manier en zonder noodzaak tot vertrouwen te kunnen doen. Desondanks hebben de ontwikkelaars van Bitcoin vanaf het begin over dit probleem nagedacht.
+Lightning is gebaseerd op bidirectionele betalingskanalen. Een kanaal is een technische relatie tussen twee deelnemers, die hen in staat stelt sats offchain uit te wisselen, dat wil zeggen zonder elke betaling op de blockchain vast te leggen.
 
-### Lightning als een laag erbovenop
+Vanuit het perspectief van Bitcoin (onchain) betekent het openen van een kanaal dat fondsen worden vergrendeld in een speciale transactie. Dit kan worden gezien als een vorm van escrow: de fondsen worden zo geblokkeerd dat alleen een geldige sluiting van het kanaal ze opnieuw kan verdelen.
 
-Na jaren van nadenken en meerdere pogingen is het Lightning-protocol ontstaan. Met behulp van een bepaald aantal specificaties bouwt dit protocol een peer-to-peer betalingsnetwerk door gebruik te maken van de veiligheid en programmeerbaarheid van het Bitcoin transactieprotocol. De Lightning Network fungeert als een netwerk van betaalkanalen, waardoor directe transacties met lage kosten voor de verzender mogelijk zijn, en het creëert zelfs routes voor transacties tussen individuen die geen directe kanaalverbinding hebben.
+Vanuit het perspectief van Lightning wordt ditzelfde mechanisme een kanaal waarin beide partijen de verdelingstoestand van de sats zo vaak als ze willen kunnen bijwerken, vrijwel onmiddellijk en zonder elke betaling op de hoofdblockchain te hoeven registreren.
 
-![image](assets/en/80.webp)
+Het mechanisme werkt dus als volgt:
+* het openen en sluiten van een Lightning-kanaal zijn Bitcoin-transacties (en worden dus onchain gepubliceerd);
+* de betalingen tussen opening en sluiting zijn offchain-updates, die niet zichtbaar zijn op de hoofdblockchain.
 
-Traditionele geldtransferdiensten zoals Western Union, centrale banken, Visa en Mastercard kunnen verdwijnen als ze de Lightning Network technologie niet overnemen, die efficiënter en kosteneffectiever is dan de huidige betalingssystemen. In feite maakt het Lightning Network bijna ongelimiteerde transacties mogelijk tussen twee peers die een kanaal delen, waarbij er alleen energiekosten verbonden zijn aan de transactie om de creatie van het kanaal aan te kondigen, in plaats van aan elke individuele transactie.
+![image](assets/nl/083.webp)
 
-![image](assets/en/81.webp)
+Zo kunnen twee personen die een Lightning-kanaal delen een zeer groot aantal betalingen uitvoeren zonder telkens een onchain-transactie te doen. Hier zien we opnieuw een schaalbaarheidslogica: de blockchain wordt gereserveerd voor zeldzame en belangrijke operaties (het openen en sluiten van kanalen, met andere woorden de definitieve afwikkeling), terwijl de overige kleine tussentijdse betalingen worden verplaatst naar een efficiëntere laag.
 
-Transacties worden beveiligd door cryptografie en indirect door de energie die miners op Bitcoin verbruiken. Ze kunnen onmiddellijk worden uitgevoerd, zonder geografische beperkingen, met extreem lage kosten (vaak minder dan 0,5%).
+### Een netwerk van onderling verbonden kanalen
 
-Samengevat is het Lightning Network een veelbelovende poging om een efficiënt betalingssysteem te implementeren om te kopen en verkopen in Bitcoin. Er zijn al talloze Lightning wallets beschikbaar, die je kunt ontdekken in onze tutorialsectie of via onze Lightning Network cursussen.
+Lightning is niet slechts een verzameling geïsoleerde kanalen. Het is een netwerk: duizenden nodes zijn via kanalen met elkaar verbonden en vormen zo een verbindingsgrafiek.
 
-Als je verder wilt gaan dan deze inleiding en alle werkingen van het Lightning Network wilt begrijpen, raden we je aan deze uitstekende cursus van Fanis Michalakis over dit onderwerp te volgen:
+![image](assets/nl/082.webp)
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+Dankzij dit netwerk kunt u een ontvanger betalen, zelfs als u geen direct kanaal met hem hebt, zolang er een pad van kanalen bestaat dat de betaling kan routeren. De betaling gaat dan via meerdere tussenliggende nodes, sprong voor sprong.
 
-## Lightning Network Usecases
+Hier verschijnt een belangrijk Lightning-begrip: liquiditeit. De capaciteit van een kanaal komt overeen met het totale bedrag aan fondsen dat in dat kanaal is vergrendeld, en liquiditeit verwijst naar de verdeling van deze fondsen tussen de twee zijden van het kanaal, en dus naar de richting waarin sats kunnen stromen. Met andere woorden, een kanaal kan een grote capaciteit hebben, maar in een bepaalde richting onbruikbaar zijn als de liquiditeit zich aan de verkeerde kant bevindt. Het slagen van betalingen hangt dus niet alleen af van het bestaan van een pad, maar ook van de beschikbare liquiditeit langs het volledige pad.
+
+### Een betaling routeren zonder tussenpersonen te vertrouwen
+
+Lightning is ontworpen om betalingen via tussenpersonen mogelijk te maken zonder hen te hoeven vertrouwen. Hiervoor gebruikt het protocol slimme contracten die HTLC’s (*Hashed Time-Locked Contracts*) worden genoemd. Zonder in alle details te treden, is het algemene mechanisme als volgt:
+* de betaling is afhankelijk van de onthulling van een geheim (een preimage);
+* als de uiteindelijke ontvanger dit geheim onthult, ontvangt hij de fondsen, en kunnen de tussenpersonen op hun beurt ontvangen wat hun toekomt;
+* als de betaling mislukt, verlopen de tijdslimieten en krijgt iedereen zijn fondsen terug.
+
+Deze werking levert een essentiële eigenschap op: de betaling is atomair. Ofwel slaagt zij volledig, ofwel mislukt zij zonder tussentijds verlies.
+
+Tot slot bevat Lightning een strafmechanisme: als een van de deelnemers probeert te frauderen door een oude kanaalstatus te publiceren (die de werkelijkheid niet meer weerspiegelt), kan de ander hem straffen en alle fondsen terugvorderen. Deze regel moedigt sterk aan om eerlijk te blijven, zelfs in een vijandige omgeving.
+
+### Lightning-node, Lightning-wallet: wat betekent dat?
+
+Bij Bitcoin onchain is een wallet een softwareprogramma dat sleutels beheert en transacties opstelt. Bij Lightning is de situatie ambiguër, omdat echt niet-custodiaal gebruik steunt op een Lightning-node (zelfs als die node verborgen is achter een eenvoudige interface).
+
+In de praktijk zijn er twee grote categorieën toepassingen om Lightning te gebruiken:
+* Custodiale diensten: de applicatie toont u een saldo, maar de fondsen worden beheerd door een dienstverlener. Uw saldo is een boekhoudkundige vermelding in hun systeem, vergelijkbaar met een handelsplatform;
+* Niet-custodiale oplossingen: u beheert daadwerkelijk de sleutels en de mogelijkheid om uw fondsen terug te krijgen. Dit kan een applicatie zijn die een node bevat met minimale beheerslast, wat de gebruikerservaring vereenvoudigt (bijvoorbeeld Phoenix, Zeus…), of een volwaardige Lightning-node die u volledig zelf beheert.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+Tegenwoordig bestaan er ook self-custodial wallets die Lightning-betalingen indirect kunnen ondersteunen, door gebruik te maken van atomische swaps die op verzoek worden geactiveerd voor elke inkomende of uitgaande betaling (bijvoorbeeld Bull Bitcoin Wallet, Aqua…). Deze wallets gebruiken doorgaans de Liquid-sidechain als afwikkelingslaag (we zullen in het volgende hoofdstuk zien wat dit inhoudt).
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+### Concrete gebruiksscenario’s: wat Lightning eindelijk mogelijk maakt
+
+Lightning ontsluit een reeks gebruikstoepassingen die voorheen onpraktisch of zelfs onmogelijk waren met alleen Bitcoin onchain.
+
+- **Dagelijkse betalingen (online en fysiek)**
+
+Voor een betaling aan de kassa of een online aankoop biedt Lightning een quasi-onmiddellijke finaliteit, met doorgaans lage kosten. Dit maakt bitcoin bruikbaar voor kleine bedragen, zelfs wanneer de hoofdblockchain druk bezet is.
+
+- **Microbetalingen en streaming money**
+
+De mogelijkheid om zeer kleine bedragen te versturen opent nieuwe economische modellen: betalen per gebruik, betalen per minuut, terugkerende donaties, fooien… Dit is het idee van “streaming money”: betalen in verhouding tot het daadwerkelijke verbruik van een inhoud of dienst, in plaats van via een vast abonnement.
+
+- **Contentmakers, podcasts en donaties**
+
+Lightning wordt vaak gebruikt voor microdonaties of beloningsmechanismen. Applicaties zoals Fountain of Rumble illustreren deze logica goed: de betaling wordt fijnmazig en integraal onderdeel van de ervaring, in plaats van een zware en sporadische handeling. Deze logica hebben we ook geïntegreerd in Plan ₿ Academy, aangezien u eenvoudig kleine donaties kunt sturen naar uw favoriete docenten om hen te bedanken.
+
+- **Games en digitale economieën**
+
+Videogames en digitale omgevingen lenen zich van nature voor microtransacties: kleine inzetten, beloningen, virtuele objecten… Het introduceren van een minimale monetaire inzet kan ook de kosten van spam en bepaalde vormen van misbruik (bots) verhogen, terwijl het toegankelijk blijft.
+
+![image](assets/nl/085.webp)
+
+### De belangrijkste Lightning-implementaties
+
+Net als bij Bitcoin is Lightning een protocol, geen enkele software. Meerdere implementaties bestaan naast elkaar en blijven interoperabel dankzij gemeenschappelijke specificaties (de BOLT’s):
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* enz.
+
+### Lightning als onderdeel van de evolutie van Bitcoin
+
+Lightning vervangt de Bitcoin-blockchain niet: het vult haar aan. De blockchain blijft de uiteindelijke afwikkelingslaag, traag maar zeer robuust. Lightning is de snelle betalingslaag, ontworpen voor frequent gebruik en kleine bedragen.
+
+In 2025 is Lightning toegankelijker dan in de beginfase, dankzij wallets en diensten die een deel van de complexiteit verbergen. Maar het blijft gepaard gaan met compromissen: liquiditeit, onchain-kosten voor kanalen en soms afwegingen tussen eenvoud, soevereiniteit en privacy.
+
+Als u Lightning diepgaand wilt begrijpen (kanalen, liquiditeit, routing, risicobeheer), raad ik de volledige theoretische cursus LNP 201 van Fanis Michalakis aan:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+En als u zich wilt wagen aan het avontuur van het beheren van uw eigen Lightning-node, bieden wij ook de praktische cursus LNP 202 aan, die specifiek aan dit onderwerp is gewijd:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Verder dan Lightning: andere protocollen om Bitcoin te laten evolueren
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
-Zoals we zojuist hebben gezien, heeft het Bitcoin protocol, hoewel revolutionair, te kampen met aanzienlijke uitdagingen als het gaat om de schaalbaarheid die nodig is om al onze dagelijkse transacties te verwerken. Om deze problemen op te lossen, werd het Lightning Network voorgesteld en sindsdien heeft het zich ontwikkeld tot verschillende implementaties, die allemaal interoperabel zijn:
+Zoals we in de voorgaande hoofdstukken hebben gezien, is Bitcoin ontworpen als een uiterst robuuste basislaag: een openbaar register, eenvoudig en veilig, maar van nature beperkt in snelheid, programmeerbaarheid en betalingsdoorvoer. In plaats van deze laag te dwingen alles te doen (zoals bijvoorbeeld bij Ethereum), heeft het Bitcoin-ecosysteem geleidelijk een gelaagde benadering aangenomen: de blockchain fungeert als fundament (definitieve afwikkeling), terwijl hogere lagen nieuwe eigenschappen toevoegen, zoals snellere betalingen, meer privacy of de uitgifte van activa (stablecoins, getokeniseerde effecten…).
 
-- Core-lightning door Blockstream
-- Eclair door Acinq
-- LND door Lightning strike
+Bitcoin evolueert niet alleen door zijn basisprotocol te wijzigen. Het evolueert ook door erop voort te bouwen, met oplossingen die verschillende compromissen sluiten afhankelijk van het nagestreefde doel. Sommige richten zich op de schaalbaarheid van betalingen, andere op programmeerbaarheid (in brede zin) en activauitgifte, en weer andere proberen beide te combineren.
 
-Dit peer-to-peer netwerk is bedoeld om microtransacties (transacties met zeer lage waarde) mogelijk te maken die anders onpraktisch zouden zijn vanwege de hoge kosten en lange bevestigingstijden op de Bitcoin blockchain.
+In dit hoofdstuk introduceren we vier belangrijke protocollen die elk nieuwe mogelijkheden op Bitcoin bieden: sidechains (waaronder Liquid), Ark, RGB en Taproot Assets.
 
-### Wat zijn de usecases van het netwerk?
+### Sidechains: parallelle blockchains verbonden met Bitcoin
 
-Deze technologie opent de deur naar een breed scala aan potentiële toepassingen voor Bitcoin die voorheen buiten bereik lagen vanwege de noodzakelijke beperkingen om de veiligheid en decentralisatie van Bitcoin te garanderen. Onder deze alledaagse toepassingen vallen bijvoorbeeld directe facturering in zowel fysieke als online handel, streaming van geld voor real-time betalingen en micro-donaties voor contentmakers. Door een netwerk van bijna directe, veilige en goedkope transacties (gemiddeld minder dan 0,5%) mogelijk te maken, kunnen veel voorheen ondenkbare bedrijfsmodellen worden gerealiseerd. Dit is mogelijk omdat het Lightning Network werkt met satoshis (sats), de kleinste eenheid van Bitcoin.
+Een sidechain is een blockchain die gescheiden is van die van Bitcoin, ontworpen om parallel te functioneren, met eigen regels en een eigen consensusmechanisme. Ze is verbonden met Bitcoin via een tweezijdig verankeringsmechanisme (*2WP*), dat het in de praktijk mogelijk maakt om bitcoins op de sidechain te gebruiken in een representatieve vorm (vaak een bitcoin die op Bitcoin is vergrendeld en op de sidechain opnieuw wordt gecreëerd), en deze later weer naar de hoofdketen terug te brengen.
 
-![image](assets/en/82.webp)
+Het voordeel van een sidechain is dat ze functionaliteiten kan bieden die moeilijk rechtstreeks op Bitcoin te realiseren zijn: snellere transacties, activafunctionaliteiten, verbeterde privacy of grotere ontwikkelingsflexibiliteit. Daartegenover staat dat een sidechain altijd compromissen sluit ten opzichte van Bitcoin, met name op het gebied van het vertrouwensmodel of decentralisatie.
 
-De videogame-industrie biedt een bijzonder interessant voorbeeld van hoe het Lightning Network kan worden gebruikt om bestaande bedrijfsmodellen te transformeren. Het concept van "skin in the game" is een idee dat recentelijk aan populariteit heeft gewonnen in deze context. In wezen betekent het dat je een financieel belang hebt bij de uitkomst van een spel. In feite stelt het Lightning Network spelers in staat om zeer kleine bedragen in te zetten bij het spelen van spellen, zoals een paar satoshis (ongeveer een fractie van een eurocent) om een inzet te creëren die de concurrentie stimuleert en tegelijkertijd de kosten voor het gebruik van bots aanzienlijk verhoogt.
+De bekendste sidechain op Bitcoin is waarschijnlijk **Liquid**, ontwikkeld door Blockstream. Deze is met name ontworpen om bepaalde gebruiksscenario’s te versnellen: snelle overdrachten tussen platforms, frequentere afwikkelingen en de uitgifte van activa (stablecoins, effecten…), met verbeterde privacy. Op Liquid heten de gebruikte bitcoins L-BTC: ze zijn ontworpen om 1-op-1 aan BTC gekoppeld te zijn via een tweezijdig verankeringsmechanisme.
 
-![image](assets/en/83.webp)
+![image](assets/nl/088.webp)
 
-Samengevat ziet de toekomst van microtransacties met Bitcoin er veelbelovend uit dankzij innovaties zoals het Lightning Network. Naarmate deze technologieën zich verder ontwikkelen en volwassen worden, kunnen we in de nabije toekomst nieuwe en spannende toepassingen verwachten.
+Het belangrijkste verschil met Bitcoin ligt in het veiligheids- en decentralisatiemodel: Liquid is niet gebaseerd op Bitcoins proof-of-work, maar op een federatie van operatoren (een geïdentificeerde groep) die instaat voor de blokproductie en de werking van bruggen tussen BTC en L-BTC.
 
-![image](assets/en/84.webp)
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
 
-Een ander voorbeeld zou "money streaming (geld streaming)" kunnen zijn: via het Lightning Network kunnen we elke minuut microtransacties doen (mogelijk zonder vertrouwde derde partij), wat de deur opent om te experimenteren met economische modellen waarbij consumenten betalen voor content op basis van hun daadwerkelijke consumptie. Het is zelfs denkbaar om dit systeem te gebruiken voor het huren van goederen. In zo'n systeem wordt geld automatisch verdeeld, op basis van een vooraf bepaald percentage, onder de verschillende partijen die bijdragen aan een dienst of product. Dit zou een revolutie teweeg kunnen brengen in de manier waarop we denken over betalingsmodellen: in plaats van een maandelijks abonnement te betalen voor een dienst, zouden gebruikers per minuut of zelfs per seconde kunnen worden afgerekend voor de tijd die ze besteden aan het gebruik van de dienst. Zo'n economisch model zou ingrijpende gevolgen kunnen hebben voor makers van inhoud, die gestimuleerd zouden worden om kwalitatief goede inhoud te produceren om de aandacht van gebruikers vast te houden.
+### Ark: UTXO’s delen om kosten te verlagen en de ervaring te verbeteren
 
-![image](assets/en/85.webp)
+Ark verwijst naar een familie van voorstellen en implementaties die erop gericht zijn de schaalbaarheid van Bitcoin te verbeteren door veel gebruikersoperaties te bundelen in een beperkt aantal Bitcoin-transacties. Het idee is vrij eenvoudig: in plaats van per gebruiker één onchain-transactie te creëren, wordt één onchain-transactie gecreëerd die een batch vertegenwoordigt, waarna de rechten van elke deelnemer voornamelijk offchain evolueren, tot het moment waarop men definitief op Bitcoin wil afrekenen.
 
-Concluderend, het Lightning Network opent een veelheid aan opwindende gebruikssituaties voor Bitcoin gebruikers. De resulterende economische modellen en zakelijke mogelijkheden zijn talrijk en gevarieerd, en we moedigen je aan om het zelf te controleren door de podcasttoepassing [Fountain](https://www.fountain.fm/) te proberen, waarmee je beloond kunt worden met een paar sats voor het luisteren naar je favoriete podcasts!
+Dit idee van een tweede-laagsprotocol werd in mei 2023 onthuld door Burak. Net als het Lightning Network is Ark een systeem dat bovenop de hoofdketen van Bitcoin wordt uitgerold. Het zou snelle, anonieme en goedkope bitcoinbetalingen buiten de keten mogelijk maken. In vergelijking met Lightning vereist Ark geen inkomende liquiditeit om betalingen te ontvangen, wat de gebruikerservaring aanzienlijk verbetert. Bovendien biedt het een privacy-niveau dat dicht in de buurt komt van coinjoin-transacties. Ark zou ook niet-interactief kunnen zijn als covenants aan Bitcoin worden toegevoegd.
+
+Burak bekritiseert vaak het schaalvermogen van Lightning vanwege de afhankelijkheid van de hoofdketen en suggereert dat Ark theoretisch de volledige wereldbevolking in self-custody zou kunnen integreren. Hoewel Ark kan worden gezien als een concurrerend protocol voor het Lightning Network, kunnen de twee in werkelijkheid naast elkaar bestaan. Ze zouden zelfs complementair kunnen zijn.
+
+Ark blijft een zeer actief maar nog jong domein: het doel is veelbelovend (het drastisch verminderen van de onchain-voetafdruk per gebruiker), maar men moet in gedachten houden dat het een complexere architectuur betreft, met aannames en risico’s die verschillen van die van Bitcoin en Lightning.
+
+### RGB: contracten en activa met validatie aan de clientzijde
+
+RGB is een systeem van slimme contracten en activa op Bitcoin dat een radicaal andere benadering hanteert dan algemene blockchains. Het centrale idee is validatie aan de clientzijde: in plaats van de volledige toestand van een contract op een globale blockchain te publiceren, bewaren en valideren deelnemers lokaal de geschiedenissen die voor hen relevant zijn, terwijl de Bitcoin-blockchain alleen dient om cryptografische verbintenissen te verankeren en dubbel uitgeven te voorkomen.
+
+Met andere woorden:
+* de Bitcoin-blockchain fungeert als tijdstempelbasis en minimale arbiter;
+* gedetailleerde gegevens (contractregels, toestanden, overgangen) circuleren offchain tussen de betrokken partijen;
+* verificatie gebeurt lokaal, wat de schaalbaarheid verbetert en ook de privacy kan verbeteren, aangezien er geen wereldwijd register bestaat van alle RGB-activiteiten dat voor iedereen zichtbaar is.
+
+![image](assets/nl/089.webp)
+
+RGB kan dienen als basis voor het uitgeven en beheren van een grote verscheidenheid aan activa: tokens (inclusief stablecoins), NFT’s of digitale effecten, of zelfs voor het bouwen van complexere contractlogica, allemaal zonder de basislaag te verzwaren.
+
+De keerzijde is gegevensbeheer: als u aan de clientzijde moet valideren, moet u ook correct opslaan en back-ups maken van het bewijs van uw rechten.
+
+RGB is een protocol dat al vele jaren in ontwikkeling is. De vooruitgang is geleidelijk, maar vandaag bestaan er al concrete toepassingen die gebruikmaken van RGB. Om verder te gaan, bieden wij op Plan ₿ Academy een cursus op expertniveau aan die de werking van dit protocol diepgaand behandelt:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: activa uitgeven op Bitcoin en ze verplaatsen via Lightning
+
+Taproot Assets (voorheen "Taro") is een protocol ontwikkeld door Lightning Labs, dat tot doel heeft de uitgifte van activa op Bitcoin mogelijk te maken, met de mogelijkheid om deze vervolgens via het Lightning-netwerk te verplaatsen voor snelle en goedkope transacties.
+
+Het wordt vaak genoemd als bouwsteen in het verhaal van “programmable money” op Bitcoin: niet omdat Bitcoin een wereldwijde computer wordt, maar omdat financiële instrumenten (activa) bovenop het Bitcoin-fundament kunnen worden gelegd en vervolgens efficiënt via Lightning kunnen circuleren.
+
+### Bitcoin wordt sterker door hogere lagen te laten innoveren
+
+Tegenwoordig is het meest treffende beeld van het Bitcoin-ecosysteem niet dat van een vaststaand protocol, noch dat van een superblockchain die alles doet, zoals Ethereum. Het is eerder een bewust conservatief fundament, omringd door lagen en protocollen die experimenteren en innovatie mogelijk maken met een minimaal risico.
+
+
+
 
 ## Rode Pil Of Blauwe Pil?
 
@@ -1350,3 +1446,6 @@ Ben je klaar om mee te doen?
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
+
+

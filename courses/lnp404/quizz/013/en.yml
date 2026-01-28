@@ -1,0 +1,8 @@
+question: When analyzing routing traffic patterns, what is the key distinction between 'Top Outbound' and 'Top Inbound' categories in Terminal Web?
+answer: Top Outbound identifies peers that primarily receive liquidity from your node, while Top Inbound identifies peers that primarily send liquidity to your node
+wrong_answers:
+  - Top Outbound shows the highest fee-earning routes, while Top Inbound shows the lowest fee-earning routes for comparison purposes
+  - Top Outbound displays channels with the most available local balance, while Top Inbound shows channels with the least local balance
+  - Top Outbound tracks successful payment forwards, while Top Inbound monitors failed routing attempts that need troubleshooting
+explanation: |
+  The Top Outbound and Top Inbound categories help operators understand traffic directionality by distinguishing between peers that act as liquidity sources versus sinks. Top Outbound shows peers where your node frequently sends payments (liquidity flows out), while Top Inbound shows peers that frequently send payments through your node (liquidity flows in). This directional analysis is crucial for predicting liquidity exhaustion patterns and optimizing rebalancing strategies, rather than measuring fees, balance amounts, or success rates.

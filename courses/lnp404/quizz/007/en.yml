@@ -1,0 +1,8 @@
+question: How many active channels does Lightning Terminal recommend for adequate connectivity in routing operations?
+answer: Approximately fourteen active channels
+wrong_answers:
+  - Approximately seven active channels
+  - Approximately twenty-one active channels
+  - Approximately ten active channels
+explanation: |
+  According to the Health Checks framework, approximately fourteen active channels demonstrates adequate connectivity for routing operations. This number represents the threshold used by Lightning Terminal's Channel Count metric to evaluate whether a node maintains sufficient active channels for effective routing. Having fewer channels like seven or ten would limit routing opportunities, while twenty-one channels, though not harmful, exceeds the baseline requirement for adequate connectivity that the system uses to evaluate routing node performance.

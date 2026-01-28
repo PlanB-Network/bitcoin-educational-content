@@ -1,6 +1,7 @@
 id: 99c46148-7080-4915-a7e0-9df0e145cd47
 topic: security
 subtopic: security
+type: practice
 level: beginner
 hours: 6
 
@@ -16,130 +17,161 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 11.78
   - language: de
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 7.06
+      - maggo83
+    reward: 3.94
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - 2raj2raj
-    reward: 3.53
+    reward: 3.94
   - language: es
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - lutxoitalico
-    reward: 3.53
+    reward: 3.94
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
     contributor_names:
       - KryptoKeskus
-    reward: 4.69
+    reward: 5.89
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 3.53
+    reward: 3.94
   - language: it
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - TinF0ilHat1
       - Bitman-ops
-    reward: 1.77
+    reward: 0
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.02
+    reward: 19.57
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.06
+    reward: 7.89
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 11.78
   - language: vi
     last_contribution_date: 2024-05-05
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 7.01
+    reward: 9.79
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 11.78
   - language: id
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - MilankovicProtocol
       - AgoesRichie
-    reward: 2.93
+    reward: 0
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.7
+    reward: 15.68
   - language: nb-NO
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - turdsferguson
-    reward: 4.69
+    reward: 5.89
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 11.78
   - language: hi
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 16.34
+      - amolutxo
+    reward: 9.79
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 15.68
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - Arianebtc
       - monyangi10
-    reward: 2.35
+    reward: 0
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.7
+    reward: 15.68
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.38
+    reward: 11.78
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.06
+    reward: 7.89
   - language: nl
     last_contribution_date: 2025-08-24
     urgency: 1
     contributor_names:
       - rogerbracket
-    reward: 4.69
+    reward: 5.89
+  - language: tr
+    last_contribution_date: 2025-10-31
+    urgency: 1
+    contributor_names:
+      - H5RV
+    reward: 7.84
+  - language: ko
+    last_contribution_date: 2025-10-31
+    urgency: 1
+    contributor_names:
+      - 4xvgal
+    reward: 7.84
+  - language: rn
+    last_contribution_date: 2025-12-04
+    urgency: 1
+    contributor_names:
+      - miguelandy875
+    reward: 9.79
+  - language: bg
+    last_contribution_date: 2025-12-04
+    urgency: 1
+    contributor_names:
+      - dnabg
+    reward: 5.89
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.68
 tags:
   - personal-security
   - privacy
@@ -148,27 +180,67 @@ videos:
   - id: de7236a0-2985-41ef-86f7-3fa0b7f94531
     youtube:
       - fr: DqLf72XBJUg
+    peertube:
+      - en: 5t9Bei237piyR8YUSZkBfz
+      - es: w9H7zRajoDWJ4933nWXSD7
+      - it: eryL2EH6eAvJUdezSK1ZwF
+      - ja: gv5d4VggEP6tXbn51U5GFd
   - id: f1cead27-ed41-4ca2-afd2-b08a994d0119
     youtube:
       - fr: BEK7vGnkO64
+    peertube:
+      - en: 85vQ8XiFZpHDo5vC1raqJp
+      - es: r1NmHWn3DdpuiSTEEhJwrW
+      - it: ozmK8rLbc91QwzHDY4Mtgn
+      - ja: gEvDhqWRQ9shbL7LPkmh2f
   - id: 737d30ac-43d8-4a69-afda-89b9d7e8c4e1
     youtube:
       - fr: oRO7sGexvzo
+    peertube:
+      - en: eeTiFKvKkG1WrtTaAa2662
+      - es: tNAiugjJBYe4GLdZ6zEkPn
+      - it: owiNxWjHamnWezCbworQ3C
+      - ja: oTgh4ffVj98MmX8GfVJjLj
   - id: 35892007-5ea5-4956-bf80-3363d69c96d5
     youtube:
       - fr: lzJr5CIulSU
+    peertube:
+      - en: 6goJg34RjdGRiASckU3W46
+      - es: obGEGksWmGpo3p2pZebnHb
+      - it: obYws4TiYop2mPLrbLhNBb
+      - ja: ki2CSrZPMdi6pFm46x1jyv
   - id: c6a2c152-f1ae-492c-8993-304d64cdda45
     youtube:
       - fr: CJDjWPV3PeU
+    peertube:
+      - en: bhHud3kgmT9RrixBzMvkyw
+      - es: gybW43PN6WwEST4t6qWQmU
+      - it: v66WzTRksW5YgkqQpqTsNa
+      - ja: qapnr4SApUBYGPdY6hdNKR
   - id: 75cc914d-9c11-4d3f-86a7-6faf2077f00f
     youtube:
       - fr: WjqH882f4cY
+    peertube:
+      - en: m37EFM2JxstabDjrTQ12Af
+      - es: pSZP2zLyqvUcREEanYmfNh
+      - it: pmmC4KsyCEZQeNqmwwdoaV
+      - ja: gTGUz3gzGCCDQjwxLmnKZb
   - id: 106b6f17-a5c1-4155-abdf-043ce469d45b
     youtube:
       - fr: HzLuZ6noePY
+    peertube:
+      - en: eEXf21JXUWY49b5vFZuKXF
+      - es: ni5Qpwb2CA4HznhTDhqDUG
+      - it: vqMzC5nxorM3h6KkFQ5g2u
+      - ja: wUQnchB8BUeRQfjkXBTbqC
   - id: 10fede6f-c839-4455-b324-e887c502667e
     youtube:
       - fr: 863n4N1XNjk
+    peertube:
+      - en: nhyr7PWmWsobz6tRpQqCY5
+      - es: cFne39jiFFX9weazHWXqK8
+      - it: ePReWDA7RjUwnDCYnvvcBk
+      - ja: p4w4Gf1BwaNmvQredgexQ2
   - id: a3a6d421-e4a3-4b80-834e-18c10a37b9b3
     youtube:
       - fr: vpYJYWhmEZg
@@ -190,6 +262,11 @@ videos:
   - id: 4c818b5c-ea5d-496a-8e82-bc5d96d91430
     youtube:
       - fr: YZ2EKaPvoZU
+    peertube:
+      - en: aTkzMSmq8Bwao84segTBMW
+      - es: b5Bav1zG9K2Q6ZadYoZBSW
+      - it: ot8Q8qeDcneQLZMhRDgTT6
+      - ja: eDbycvJAsAzEF6XPmWC7yQ
   - id: ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8
     youtube:
       - fr: RVjE-KOSKDs

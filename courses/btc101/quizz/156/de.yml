@@ -1,11 +1,9 @@
-question: Was ist der Zweck von Mining-Pools?
-answer: Mining-Pools ermöglichen es Minern, ihre Rechenressourcen zu bündeln und kleinere, aber regelmäßigere Belohnungen zu erhalten.
+question: Wie lange beträgt die durchschnittliche Zeit zwischen der Erstellung von zwei Blöcken im Bitcoin-Protokoll?
+answer: 10 Minuten.
 wrong_answers:
-  - Mining-Pools werden verwendet, um die HashRate des gesamten Bitcoin-Netzwerks zu erhöhen.
-  - Mining-Pools werden verwendet, um die Schwierigkeit des Minings zu verringern.
-  - Mining-Pools werden verwendet, um die Belohnung für das Mining zu erhöhen.
+  - 5 Minuten.
+  - 15 Minuten.
+  - 20 Minuten.
 explanation: >-
-  Mining-Pools sind Gruppen von Minern, die ihre Rechenleistung kombinieren,
-  um ihre Chancen zu erhöhen, einen Block zu minen. Indem sie ihre Ressourcen bündeln, können sie
-  Blöcke häufiger minen und kleinere, aber regelmäßigere Belohnungen erhalten.
+  Im Durchschnitt wird alle 10 Minuten ein Block im Bitcoin-Protokoll erstellt. Diese Zeit bleibt konstant, unabhängig von der Anzahl der Miner und ihrer Rechenleistung.
 reviewed: true

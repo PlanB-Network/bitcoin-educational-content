@@ -1,12 +1,12 @@
-question: Welche der folgenden Methoden ist eine gute und sichere Methode in der 2-Faktor-Authentifizierung?
+question: Welche der folgenden Methoden ist eine gute und sichere Methode für 2-Faktor-Authentifizierung?
 answer: Ein durch eine Anwendung wie Google Authenticator oder Authy generierter Code.
 wrong_answers:
   - Ein Anruf oder ein SMS-Code an den Kontoinhaber
-  - Eine E-Mail mit einem 10 Minuten ablaufenden Code darin an den Kontoinhaber
+  - Eine E-Mail mit einem nach 10 Minuten ablaufenden Code an den Kontoinhaber
   - Ein Brief, der an die Wohnadresse des Kontoinhabers gesendet wird
 explanation: |
   Der zweite Schritt in der 2FA kann ein temporärer Code sein, der
-  via SMS, E-Mail, ein durch eine Anwendung generierter Code oder ein
-  physischer Sicherheitsschlüssel sein. Allerdings erlauben nicht alle diese Methoden,
-  das gleiche Sicherheitsniveau beizubehalten.
+  via SMS oder E-Mail verschickt wird, ein durch eine Anwendung generierter Code oder ein
+  physischer Sicherheitsschlüssel sein. Allerdings ermöglichen es nicht alle diese Methoden,
+  das gleiche Sicherheitsniveau zu erzielen.
 reviewed: true

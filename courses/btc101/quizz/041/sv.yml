@@ -1,13 +1,12 @@
-question: Vad är konsekvensen av att trycka pengar?
-answer: Det leder till inflation, vilket gradvis utarmar befolkningen.
+question: Vad är konsekvensen av hyperinflation?
+answer: En drastisk minskning av värdet på valutan.
 wrong_answers:
-  - Det leder till deflation, vilket gradvis berikar befolkningen.
-  - Det leder till en stabil ekonomi utan vare sig inflation eller deflation.
-  - Det leder till en minskning av penningmängden Supply.
+  - En liten minskning av värdet på valutan.
+  - En drastisk ökning av värdet på valutan.
+  - En liten ökning av värdet på valutan.
 explanation: |
-  Penningtryckning, det vill säga att centralbanker skapar nya pengar
-  centralbanker, leder till inflation. Detta beror på att ökningen av
-  gW-1 minskar pengarnas köpkraft,
-  vilket leder till högre priser och en minskning av värdet på
-  sparande.
+  På grund av hyperinflation förlorar individer snabbt
+  fullständigt förtroende för valutan, vilket leder till att
+  en drastisk minskning av dess värde under en kort tidsperiod
+  tid.
 reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Cuál de los métodos de conexión mencionados entre un nodo Rayo y un cliente móvil no se recomienda explícitamente para este uso?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet Conectar
+  - Ninguno
+explanation: |
+  Tor funciona muy mal en la práctica para este propósito, con fallos y latencia que hacen que la experiencia del usuario sea pobre.
+reviewed: false

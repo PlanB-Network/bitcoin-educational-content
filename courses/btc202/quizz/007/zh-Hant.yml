@@ -1,0 +1,9 @@
+question: Wallet 需要做什麼才能檢視 Blockchain 的狀態？
+answer: 連線至本機或遠端節點
+wrong_answers:
+  - 詢問網路中的其他錢包
+  - 訪問網路礦工
+  - 連接至線上 Exchange 平台
+explanation: |
+  Wallet 必須連線到節點，才能存取 Blockchain 狀態並廣播其交易。
+reviewed: true

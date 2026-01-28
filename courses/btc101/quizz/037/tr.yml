@@ -1,12 +1,12 @@
-question: Güvene dayalı para birimlerini ihraç etmekten sorumlu kuruluşlar hangileridir?
-answer: Merkez bankaları.
+question: Güvene dayalı bir para biriminde ani bir değer kaybı veya güven kaybının potansiyel sonucu nedir?
+answer: Hiperenflasyon.
 wrong_answers:
-  - Ticari bankalar.
-  - Hükümetler.
-  - Özel Kurumlar.
+  - Deflasyon.
+  - İstikrarlı bir ekonomi.
+  - Para biriminin değerinde bir artış.
 explanation: |
-  Merkez bankaları, para basmaktan sorumlu kuruluşlardır
-  güvene dayalı para birimi. Para politikasına karar verirler ve
-  ne kadar paranın dolaşıma sokulması gerektiğini belirlemek veya
-  basılı.
+  Ani bir değer kaybı ya da güvene dayalı bir kuruluşa duyulan güvenin azalması
+  para birimi hiperenflasyona yol açabilir. Bu bir durumdur
+  mal ve hizmet fiyatlarının yüksek bir oranda arttığı
+  son derece yüksektir ve genellikle ekonomik istikrarsızlığa yol açmaktadır.
 reviewed: true

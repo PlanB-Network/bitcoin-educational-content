@@ -1,0 +1,9 @@
+question: 誰是 Gilles Deleuze？
+answer: 80 年代的哲學老師，專門教授斯賓諾莎。
+wrong_answers:
+  - 一個政治家
+  - 一位自由經濟學家。
+  - 發明家
+explanation: |
+  Gilles Deleuze (1925-1995) 是 1980 年代的法國哲學教授，也是著名的 Spinoza 專家。他的著作 Spinoza et le problème de l'expression (Spinoza and the problem of expression) 更新了我們對《倫理論》的閱讀。
+reviewed: false

@@ -1,12 +1,12 @@
-question: Koja je strategija koju centralne banke koriste za devalvaciju fiat valute?
-answer: Oni povećavaju monetarnu masu za nekoliko procenata svake godine.
+question: Šta je hiperinflacija?
+answer: Drastično povećanje monetarne mase.
 wrong_answers:
-  - Oni smanjuju monetarnu masu za nekoliko procenata svake godine.
-  - Oni održavaju njegovu monetarnu masu konstantnom u poređenju sa početnom masom.
-  - Oni imaju svoju monetarnu masu koja nasumično fluktuira u poređenju sa početnom masom.
+  - Malo povećanje monetarne mase.
+  - Drastično smanjenje monetarne mase.
+  - Malo smanjenje monetarne mase.
 explanation: |
-  Centralne banke često devalviraju valutu povećanjem njene
-  monetarne mase u poređenju sa početnom za nekoliko procenata
-  svake godine. Ova tiha devalvacija se često opravdava kao
-  da je u interesu naroda.
+  Hiperinflacija je monetarni fenomen karakterisan
+  drastičnim povećanjem inflacije kroz monetarno štampanje
+  od strane vlasti, što dovodi do potpunog gubitka
+  poverenja u valutu.
 reviewed: true

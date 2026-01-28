@@ -1,12 +1,9 @@
-question: In what fields does Bitcoin raise questions?
-answer: Cryptography, game theory, economics and monetary policy, computer science, philosophy, energy, laws, and regulation.
+question: What is the main objective of the Lightning Network?
+answer: Enable offchain payments that are fast and low-cost
 wrong_answers:
-  - Only computer science and economics
-  - Only cryptography and game theory.
-  - Only philosophy and energy.
+  - Increase the block size of the Bitcoin blockchain
+  - Gradually replace the Bitcoin blockchain with a more efficient system
+  - Make mining farms very rich
 explanation: |
-  Bitcoin is a multidisciplinary subject that raises
-  questions related to various fields, including
-  cryptography, game theory, economics and monetary policy,
-  computer science, philosophy, energy, laws, and regulation.
-reviewed: true
+  The Lightning Network aims to enable near-instant Bitcoin payments with low fees, without overloading the main blockchain.
+reviewed: false

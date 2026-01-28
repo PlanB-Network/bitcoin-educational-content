@@ -1,0 +1,13 @@
+question: Bitcoin Mining의 맥락에서 아타카이의 원칙은 무엇인가요?
+answer: 아타카이의 원리는 Bitcoin Mining에서 발생하는 열을 생산적으로 사용하는 것을 말합니다.
+wrong_answers:
+  - 아타카이의 원칙은 Bitcoin Mining에 재생 에너지원을 사용하는 것을 말합니다.
+  - Attakai의 원칙은 Bitcoin Mining에서 고급 냉각 시스템을 사용하는 것을 말합니다.
+  - Attakai의 원칙은 Bitcoin Mining에서 에너지 소비가 적은 하드웨어를 사용하는 것을 말합니다.
+explanation: |
+  아타카이의 원칙은 다음과 같은 아이디어를 말합니다
+  생산적인 사용을 통해 Mining을 분산시키는 아이디어를 말합니다
+  열을 생산적으로 사용한다는 개념입니다. 이 개념은 에너지 집약적인
+  시설에서 생산된 열을
+  광부들이 생산한 열로 시설을 데울 수 있다는 것입니다.
+reviewed: true

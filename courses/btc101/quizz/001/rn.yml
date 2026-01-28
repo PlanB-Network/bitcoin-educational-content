@@ -1,8 +1,9 @@
-question: None block size war yabaye ryari?
-answer: Muri 2017.
+question: Ni kuki twishura amafaranga muri Bitcoin?
+answer: Kugira ngo haboneke isoko ry’ubuntu ryo gushiramwo amafaranga mu bice.
 wrong_answers:
-  - Mu 2008.
-  - Muri 2010.
-  - Muri 2019.
-explanation: >-
+  - Kugira ngo tumenyeshe ingene twocukura Bitcoin.
+  - Kugira ngo abatunzi barihe vyinshi.
+  - Kugira ngo intwaro zibe muri iyo nzira.
+explanation: |
+  Amafaranga ni ngombwa kugira ngo haboneke isoko ry’ubuntu ryo gushiramwo amafaranga mu bice. Nkako, igice gifise ubunini bwa 1 MB (ico cagutse kikaja kuri 4MB inyuma y'ivugurura rya SegWit), rero umubare w'ibikorwa bishobora "kwinjizwa" mu gice ugarukira ku bihumbi bikeyi vy'ibikorwa ku gice.
 reviewed: true

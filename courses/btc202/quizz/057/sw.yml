@@ -1,0 +1,9 @@
+question: Ni chaguo gani la server ya Sparrow wallet inalingana na muunganisho wa RPC?
+answer: Bitcoin Core
+wrong_answers:
+  - Public Server
+  - Private Electrum
+  - Remote API
+explanation: |
+  Katika Sparrow, chaguo la Bitcoin core linalingana na uunganisho wa moja kwa moja kwenye node kupitia RPC.
+reviewed: true

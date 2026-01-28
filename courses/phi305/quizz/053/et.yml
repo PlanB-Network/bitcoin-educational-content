@@ -1,0 +1,9 @@
+question: Mida esitab Satoshi Nakamoto valge raamat?
+answer: Exchange detsentraliseeritud vahend internetis.
+wrong_answers:
+  - Uus liberaalne poliitika.
+  - Tsentraliseeritud Exchange protokoll.
+  - Poliitiline programm.
+explanation: |
+  Satoshi valge raamat Nakamoto esitab Bitcoin kui Exchange detsentraliseeritud meediumi internetis. Ta pakub välja peer-to-peer elektroonilise maksesüsteemi, millel puudub keskne asutus.
+reviewed: false

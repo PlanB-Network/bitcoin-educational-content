@@ -1,10 +1,9 @@
-question: Na co byste měli myslet při výběru platformy pro DCA?
-answer: Dostupnost ve vaší zemi.
+question: Jakou akci Bitcoin nutí společnosti, univerzity, regulátory a jednotlivce provést?
+answer: Zohlednit ho.
 wrong_answers:
-  - Barva loga platformy.
-  - Počet uživatelů na platformě.
-  - Stáří platformy.
-explanation: |
-  Tento kurzovní text zmíní, že při výběru platformy pro DCA
-  je správná volba více závislá na její dostupnosti ve vaší zemi.
+  - Ignorovat ho.
+  - Zakázat ho.
+  - Kriminalizovat ho.
+explanation: >-
+  Rozvoj Bitcoinu nutí společnosti, univerzity, regulátory a jednotlivce zohlednit tuto novou technologii. Musí být vytvořeny nové nástroje, služby je třeba přizpůsobit a inovace musí pokračovat, aby zajistily jejich přežití.
 reviewed: true

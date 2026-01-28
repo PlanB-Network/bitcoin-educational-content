@@ -1,9 +1,9 @@
 question: Bitcoin miras mektubunun bir miras planındaki rolü nedir?
 answer: Varislere fonlara erişim konusunda rehberlik etmek
 wrong_answers:
-  - Bitcoinlerin mirasçılara aktarılması için bir Contract olarak hizmet etmek
+  - Bitcoinlerin mirasçılara aktarılması için bir anlaşma olması
   - Varlıkların vergi dağılımını belirlemek için
-  - Cüzdanlar arasındaki transfer ücretlerini optimize etmek için
+  - Cüzdanlar arası transfer ücretlerini optimize etmek için
 explanation: |
   Miras mektubu, sevdiklerinin bitcoinleri geri alabilmesi için açık ve kesin talimatlar sağlar.
 reviewed: false

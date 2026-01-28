@@ -1,0 +1,9 @@
+question: René Descartes?
+answer: Gaat vooraf aan Spinoza.
+wrong_answers:
+  - Is een erfgenaam van Spinoza.
+  - Is een Zwitserse filosoof.
+  - Is een atheïstische filosoof.
+explanation: |
+  René Descartes (1596-1650) is ouder dan Spinoza en wordt beschouwd als de vader van het moderne rationalisme. Spinoza werd beïnvloed door Descartes, maar ontwikkelde een filosofisch systeem dat sterk afweek van het Cartesianisme.
+reviewed: false

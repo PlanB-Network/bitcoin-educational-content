@@ -1,10 +1,9 @@
-question: Hva er rollen til en Bitcoin-node i Bitcoin-nettverket?
-answer: Den håndterer valideringen av nye blokker og inkluderte transaksjoner.
+question: Hva er den primære funksjonen til noder i Bitcoin-nettverket?
+answer: Å opprettholde en kopi av Bitcoin-blockchainen, validere transaksjoner, overføre informasjon til andre noder, og håndheve reglene i Bitcoin-protokollen.
 wrong_answers:
-  - Den skaper nye Bitcoins.
-  - Den regulerer prisen på Bitcoin.
-  - Den styrer Bitcoin-nettverket.
+  - Kun validere transaksjoner
+  - Kun opprettholde en kopi av Bitcoin-blockchainen
+  - Kun overføre informasjon til andre noder
 explanation: >-
-  En Bitcoin-node i Bitcoin-nettverket håndterer valideringen av nye blokker
-  og inkluderte transaksjoner. Det er gjennom dette nettverket av Bitcoin-noder at
-  nettverket er virkelig desentralisert.
+  Noder i Bitcoin-nettverket utfører flere avgjørende funksjoner, inkludert å opprettholde en kopi av Bitcoin-blockchainen, validere transaksjoner, overføre informasjon til andre noder, og håndheve reglene i Bitcoin-protokollen.
+reviewed: false

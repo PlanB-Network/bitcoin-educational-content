@@ -1,11 +1,11 @@
-question: Hva er den største fordelen med fiatvalutaer?
-answer: De er lett delbare
+question: Hvilken enhet er ansvarlig for å utstede fidusiær valuta?
+answer: Sentralbank
 wrong_answers:
-  - De kontrolleres av en sentral part
-  - De er ikke lett transportable
-  - De er effektive for å holde verdi over tid
+  - Kommersiell Bank
+  - Regjering
+  - Private Institusjoner
 explanation: |
-  Fiatvalutaer, som dollar og euro, er veldig likvide og
-  lett transportable fordi de nå for det meste er digitale. Deres verdi blir imidlertid
-  konstant erodert av monetær inflasjon.
+  Sentralbanker er enhetene som er ansvarlige for å utstede fidusiær
+  valuta. De bestemmer pengepolitikken og avgjør hvor mye penger som skal
+  settes i omløp eller trykkes.
 reviewed: true

@@ -1,10 +1,10 @@
 question: Siber güvenlik alanında ihtiyaç duyulan bazı beceriler nelerdir?
-answer: Günlük analizi, olay müdahalesi
+answer: Günlük (log) analizi, olay müdahalesi
 wrong_answers:
   - Grafik tasarım, video düzenleme
   - Satış, pazarlama
   - Pişirme, fırınlama
 explanation: |
-  Bölümde günlük analizi ve olay müdahalesinden şu şekilde bahsedilmektedir
-  siber güvenlikte ihtiyaç duyulan bazı beceriler.
+  Bölümde günlük (log) analizi ve olay müdahalesinin,
+  siber güvenlikte ihtiyaç duyulan bazı beceriler olduğundan bahsedilmektedir.
 reviewed: true

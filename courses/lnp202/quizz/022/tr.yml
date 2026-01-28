@@ -1,0 +1,9 @@
+question: LND seed kendi başına neleri geri yükleyebilir?
+answer: Onchain wallet
+wrong_answers:
+  - Açık kanallar
+  - Kanal durumları
+  - Hiçbir şey
+explanation: |
+  seed, Bitcoin zincirindeki wallet'ü alır, ancak aktif Lightning kanallarını almaz.
+reviewed: false

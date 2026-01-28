@@ -1,0 +1,9 @@
+question: Каково ограничение размера Mempool по умолчанию в Bitcoin core?
+answer: 300 МБ
+wrong_answers:
+  - 256 МБ
+  - 512 МБ
+  - 1024 МБ
+explanation: |
+  По умолчанию Bitcoin core ограничивает Mempool до 300 МБ. При превышении этого значения он отбрасывает менее выгодные транзакции.
+reviewed: true

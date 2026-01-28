@@ -1,10 +1,11 @@
-question: Mis kuupäeval toimus viimane teadaolev privaatne e-kirjavahetus Satoshi Nakamoto'ga?
-answer: 23. aprill 2011
+question: Mis on Bitcoin'i sõlmpunktide geograafilise jaotuse tähtsus?
+answer: See muudab praktiliselt võimatuks kõikide plokiahela koopiate hävitamise.
 wrong_answers:
-  - 12. detsember 2010
-  - 8. jaanuar 2009
-  - 31. oktoober 2008
+  - See määrab Bitcoin'i hinna erinevates piirkondades.
+  - See mõjutab Bitcoin'i tehingute kiirust.
+  - See määrab, mitu Bitcoini saab piirkonnas kaevandada.
 explanation: >-
-  Viimase teadaoleva privaatse e-kirjavahetuse kuupäev Satoshi Nakamoto'ga e-posti teel
-  on 23. aprill 2011, arendaja Mike Hearniga.
-reviewed: true
+  Bitcoin'i sõlmpunktide geograafilise jaotuse tõttu on praktiliselt võimatu
+  hävitada kõiki plokiahela koopiaid. See on seetõttu, et sõlmpunktid on laiali
+  ja nende kõigi füüsiliselt kätte saamine oleks keeruline.
+reviewed: false

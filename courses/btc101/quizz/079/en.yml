@@ -1,11 +1,13 @@
-question: How can you strengthen the default security of your Bitcoin wallet?
-answer: By adding a passphrase to your Bitcoin wallet.
+question: What is a cold wallet?
+answer: A wallet in a physical device that stores your keys and is not connected to the internet.
 wrong_answers:
-  - By adding a second private key to your Bitcoin wallet.
-  - By adding a second public key to your Bitcoin wallet.
-  - By adding a second mnemonic phrase to your Bitcoin wallet.
+  - A wallet that is physically cold to touch.
+  - A wallet that is unpopular among Bitcoin users.
+  - A wallet that is recommended for storing small amounts of bitcoins.
 explanation: |
-  If you are not satisfied with the default security of your
-  Bitcoin wallet, you can always strengthen it by adding a
-  passphrase to your Bitcoin wallet.
+  A cold wallet is a term used to describe a Bitcoin wallet
+  which is stored on a device that is not connected to the
+  internet. This makes it less vulnerable to online threats,
+  but it also means that the wallet is less accessible for
+  daily transactions.
 reviewed: true

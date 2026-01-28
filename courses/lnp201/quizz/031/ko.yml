@@ -1,0 +1,9 @@
+question: Lightning Network의 간접 지급액 한도는 어떻게 되나요?
+answer: 선택한 경로의 채널에서 사용 가능한 최소 유동성
+wrong_answers:
+  - 관련된 중개 노드 수
+  - Lightning Network의 총 용량
+  - 각 노드에서 설정한 라우팅 수수료
+explanation: |
+  간접 결제에서 이체할 수 있는 최대 금액은 각 채널에서 자금을 조정해야 하므로 사용하는 채널에서 사용 가능한 최저 유동성에 따라 달라집니다.
+reviewed: true

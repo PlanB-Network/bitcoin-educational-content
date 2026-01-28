@@ -1,5 +1,5 @@
 ---
-name: آبی Wallet
+name: Blue Wallet
 
 description: Bitcoin پرتفوی به‌طور رادیکال ساده و قدرتمند
 ---
@@ -11,11 +11,10 @@ description: Bitcoin پرتفوی به‌طور رادیکال ساده و قد�
 
 
 
-در این آموزش، ما به بررسی Blue Wallet خواهیم پرداخت، یک Bitcoin Wallet ساده اما بسیار مؤثر که به شما امکان می‌دهد بیت‌کوین‌های خود را به صورت شخصی مدیریت کنید و همچنین تعاونی‌های مدیریتی مبتنی بر [Multisig](https://planb.network/resources/glossary/multisig) ایجاد کنید (نگران نباشید، به آن باز خواهیم گشت).
+در این آموزش، ما به بررسی Blue Wallet خواهیم پرداخت، یک Bitcoin Wallet ساده اما بسیار مؤثر که به شما امکان می‌دهد بیت‌کوین‌های خود را به صورت شخصی مدیریت کنید و همچنین تعاونی‌های مدیریتی مبتنی بر [Multisig](https://planb.academy/resources/glossary/multisig) ایجاد کنید (نگران نباشید، به آن باز خواهیم گشت).
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ description: Bitcoin پرتفوی به‌طور رادیکال ساده و قد�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 با Blue Wallet می‌توانید پرتفوی‌های جداگانه و اختصاصی Bitcoin ایجاد کنید. به عنوان مثال، می‌توانید یک Wallet برای پس‌انداز و دیگری برای هزینه‌های روزانه خود داشته باشید، همه در یک برنامه.
 
@@ -65,10 +64,10 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 آبی Wallet's Bitcoin Wallet نمایانگر استاندارد Wallet در اکوسیستم Bitcoin است. شما می‌توانید بیت‌کوین‌ها را خرج کنید تا زمانی که کلمات بازیابی را در اختیار دارید که امضای معتبری در شبکه ارائه می‌دهند تا تأیید کند که شما مالک بیت‌کوین‌ها هستید.
 
@@ -122,7 +121,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -152,7 +151,7 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-- افزایش کارمزدها**: آیا تراکنشی انجام داده‌اید که مدت زیادی طول می‌کشد تا تأیید شود؟ با فعال کردن افزایش کارمزد، می‌توانید کارمزدهای اضافی به تراکنش در حال انتظار خود اضافه کنید تا تأیید آن سریع‌تر انجام شود.
+- **افزایش کارمزدها**: آیا تراکنشی انجام داده‌اید که مدت زیادی طول می‌کشد تا تأیید شود؟ با فعال کردن افزایش کارمزد، می‌توانید کارمزدهای اضافی به تراکنش در حال انتظار خود اضافه کنید تا تأیید آن سریع‌تر انجام شود.
 
 
 
@@ -220,7 +219,7 @@ Multisig (چند امضایی) Wallet نشان‌دهنده یک Wallet است �
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) یا Pay to Witness Script Hash** یک روش قفل‌گذاری است که بیت‌کوین‌های خروجی تراکنش شما (Outputs) را به Hash یک اسکریپت سفارشی که Blue Wallet تنظیم می‌کند، قفل می‌کند. مزیت اصلی این نوع قفل‌گذاری این است که اندازه داده‌های تراکنش را کاهش می‌دهد و به طور ضمنی به شما اجازه می‌دهد تا کارمزدهای تراکنش کمتری پرداخت کنید.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) یا Pay to Witness Script Hash** یک روش قفل‌گذاری است که بیت‌کوین‌های خروجی تراکنش شما (Outputs) را به Hash یک اسکریپت سفارشی که Blue Wallet تنظیم می‌کند، قفل می‌کند. مزیت اصلی این نوع قفل‌گذاری این است که اندازه داده‌های تراکنش را کاهش می‌دهد و به طور ضمنی به شما اجازه می‌دهد تا کارمزدهای تراکنش کمتری پرداخت کنید.
 
 
 
@@ -248,7 +247,7 @@ Multisig (چند امضایی) Wallet نشان‌دهنده یک Wallet است �
 
 
 
-- ارسال بیت‌کوین‌ها** :
+- **ارسال بیت‌کوین‌ها** :
 
 
 
@@ -264,7 +263,7 @@ Multisig (چند امضایی) Wallet نشان‌دهنده یک Wallet است �
 
 
 
-امضاکننده دوم Wallet، اگر او نیز یک کاربر باشد، می‌تواند تراکنش را حتی اگر به اینترنت متصل نباشد (بدون وای‌فای، بدون داده موبایل) با اسکن کد QR [تراکنش نیمه‌امضا شده](https://planb.network/resources/glossary/psbt) که شما به تازگی ایجاد کرده‌اید، امضا کند.
+امضاکننده دوم Wallet، اگر او نیز یک کاربر باشد، می‌تواند تراکنش را حتی اگر به اینترنت متصل نباشد (بدون وای‌فای، بدون داده موبایل) با اسکن کد QR [تراکنش نیمه‌امضا شده](https://planb.academy/resources/glossary/psbt) که شما به تازگی ایجاد کرده‌اید، امضا کند.
 
 
 
@@ -274,7 +273,7 @@ Multisig (چند امضایی) Wallet نشان‌دهنده یک Wallet است �
 
 
 
-- با پرتفوی چند امضایی** فراتر بروید:
+- با **پرتفوی چند امضایی** فراتر بروید:
 
 
 
@@ -330,12 +329,12 @@ Multisig (چند امضایی) Wallet نشان‌دهنده یک Wallet است �
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 اکنون تور Blue Wallet را به پایان رسانده‌اید و آماده‌اید تا از Bitcoin با تمام سادگی و قدرتش استفاده کنید. ما توصیه می‌کنیم که گام بعدی را بردارید و کشف کنید که چگونه می‌توانید پرداخت‌های Bitcoin را در فروشگاه‌های خود بپذیرید، به لطف قدرت Lightning.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

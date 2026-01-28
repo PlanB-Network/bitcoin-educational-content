@@ -1,0 +1,13 @@
+question: Bitcoin Mining에서 ASIC의 역할은 무엇인가요?
+answer: ASIC은 Mining 프로세스에서 SHA256 알고리즘을 적용하기 위해 설계된 기계입니다.
+wrong_answers:
+  - ASIC은 검증 프로세스에서 SHA256 알고리즘을 적용하여 Bitcoin 트랜잭션을 검증하는 데 사용됩니다.
+  - ASIC은 새로운 비트코인을 임의로 생성하는 데 사용됩니다.
+  - ASIC은 Bitcoin 네트워크 보안에 사용됩니다.
+explanation: |
+  ASIC(애플리케이션별 집적 회로)는
+  gW-6을 위해 특별히 설계된 특수 하드웨어
+  Mining. 이는 채굴자의 수학 문제인 SHA256 해싱
+  기능을 수행하도록 최적화되어 있습니다
+  해시 함수를 수행하도록 최적화되어 있습니다.
+reviewed: true

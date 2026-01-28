@@ -1,0 +1,8 @@
+question: Wat gebeurt er als je een RC<T> instantie kloont die een grote gegevensstructuur bevat?
+answer: Alleen de referentie wordt gekopieerd en de referentieteller wordt verhoogd, waarbij de oorspronkelijke gegevens ongewijzigd blijven
+wrong_answers:
+  - De volledige gegevensstructuur wordt gedupliceerd in het geheugen en beide kopieën onderhouden afzonderlijke referentietellers
+  - Er wordt een ondiepe kopie gemaakt waarbij primitieve velden worden gekopieerd maar complexe velden gedeelde referenties blijven
+  - De gegevens worden verplaatst naar een nieuwe geheugenlocatie en de oorspronkelijke RC wordt ongeldig totdat deze opnieuw wordt geïnitialiseerd
+explanation: |
+  Bij het klonen van een RC, kopieert Rust alleen de referentie-aanwijzer en verhoogt de interne referentieteller, waardoor de operatie extreem efficiënt is, ongeacht de datagrootte. De onderliggende data blijft op dezelfde geheugenlocatie en wordt gedeeld tussen alle RC instanties. Dit is fundamenteel anders dan het klonen van de eigenlijke data, wat het doel van gedeeld eigendom zou tenietdoen en geheugen zou verspillen.

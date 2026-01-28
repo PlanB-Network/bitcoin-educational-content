@@ -1,9 +1,10 @@
-question: Oltalama girişimlerinin amacı nedir?
-answer: Kimlik bilgileriniz ve parolalarınız gibi hassas bilgileri elde etmek için.
+question: Oltalama (phishing) girişimlerinin amacı nedir?
+answer: Kimlik bilgileriniz ve parolalarınız gibi hassas bilgileri elde etmek.
 wrong_answers:
-  - Size spam e-postalar göndermek için.
-  - Size ürün veya hizmet satmak için.
-  - Sizi etkinliklere veya web seminerlerine davet etmek için.
+  - Size spam e-postalar göndermek.
+  - Size ürün veya hizmet satmak.
+  - Sizi etkinliklere veya web seminerlerine davet etmek.
 explanation: |
-  Kimlik avı girişimleri, kimlik bilgileriniz ve parolalarınız gibi hassas bilgileri elde etmeyi amaçlar. Bilgisayar korsanları, bilgilerinizi ifşa etmeniz için sizi kandırmak amacıyla sahte e-postalar gibi çeşitli taktikler kullanır.
+  Kimlik avı girişimleri, kimlik bilgileriniz ve parolalarınız gibi hassas bilgileri elde etmeyi amaçlar. 
+  Bilgisayar korsanları, bilgilerinizi ifşa etmeniz için sizi kandırmak amacıyla sahte e-postalar gibi çeşitli taktikler kullanır.
 reviewed: true

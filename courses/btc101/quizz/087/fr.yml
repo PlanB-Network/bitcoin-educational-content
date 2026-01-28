@@ -1,13 +1,14 @@
-question: Qu'est-ce qu'un portefeuille multisig ?
-answer: Un ensemble de portefeuilles qui nécessite plusieurs signatures pour effectuer une transaction.
+question: Quel est le risque d'utiliser un portefeuille multisig ?
+answer: Ne pas avoir accès à suffisamment de clés privées individuelles ou de composants de sauvegarde.
 wrong_answers:
-  - Un portefeuille qui nécessite une seule signature pour effectuer une transaction.
-  - Un portefeuille qui ne nécessite aucune signature pour effectuer une transaction.
-  - Un portefeuille qui nécessite une signature physique pour effectuer une transaction.
+  - Avoir accès à suffisamment de clés privées individuelles ou de composants de sauvegarde.
+  - Partager vos clés privées avec d'autres parties.
+  - Partager vos clés publiques avec d'autres parties.
 explanation: |
-  Un portefeuille multisig est un type de portefeuille Bitcoin qui requiert
-  plusieurs signatures pour réaliser une transaction. Cela ajoute une
-  couche supplémentaire de sécurité, car cela signifie qu'une seule personne
-  ne peut pas effectuer une transaction sans l'approbation des
-  autres.
+  Lorsque vous utilisez un portefeuille multisig, chaque clé privée du
+  multisig devrait être stockée dans des emplacements différents. Cela est
+  dû au fait que le multisig nécessite plusieurs signatures pour réaliser
+  une transaction, donc un certain nombre de portefeuilles sont
+  nécessaires. Ainsi, stocker chaque partie dans un emplacement différent
+  ajoute une couche supplémentaire de sécurité.
 reviewed: true

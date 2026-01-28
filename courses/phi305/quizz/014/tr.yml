@@ -1,0 +1,9 @@
+question: Spinoza'ya göre Doğa niyetle donatılmış mıdır?
+answer: Asla.
+wrong_answers:
+  - Döneme bağlı olarak değişir.
+  - Söz konusu şirkete bağlı olarak.
+  - Bunu sadece dindarlar belirleyebilir.
+explanation: |
+  Spinoza'ya göre Doğa hiçbir zaman niyetle donatılmamıştır. Hedefi ya da amacı olmaksızın, zorunlu ve değişmez yasalara göre hareket eder. Doğaya niyet atfetmek yanıltıcı bir antropomorfik projeksiyondur.
+reviewed: false

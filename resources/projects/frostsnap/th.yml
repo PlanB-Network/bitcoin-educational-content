@@ -1,0 +1,2 @@
+description: |
+  Frostsnap เป็นระบบรักษาความปลอดภัยสำหรับบิตคอยน์ของคุณโดยอิงตามโมเดลลายเซ็นหลายตัวที่กระจายออกไป ซึ่งช่วยขจัดจุดบกพร่องเพียงจุดเดียว Frostsnap ใช้โปรโตคอล FROST (Flexible Round-Optimized Schnorr Threshold Signatures)

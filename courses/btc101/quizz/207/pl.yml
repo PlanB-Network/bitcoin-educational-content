@@ -1,8 +1,11 @@
-question: Jakie jest jedno z potencjalnych zagrożeń związanych z pozostawieniem Bitcoin na platformie Exchange?
-answer: Ryzyko hakowania i blokowania funduszy.
+question: Co przewidział Milton Friedman w 1999 roku?
+answer: Rozwój niezawodnej e-gotówki.
 wrong_answers:
-  - Ryzyko wzrostu ceny Bitcoin przez platformę.
-  - Ryzyko platformy kontrolującej Supply z Bitcoin.
-  - Ryzyko prześcignięcia Bitcoin pod względem ceny przez kryptowalutę.
-explanation: >-
+  - Upadek fizycznych pieniędzy.
+  - Powstanie Bitcoina.
+  - Koniec rządowej kontroli nad pieniędzmi.
+explanation: |
+  Milton Friedman, znany ekonomista, przewidział w 1999 roku
+  że wkrótce zostanie opracowana niezawodna e-gotówka, metoda
+  dzięki której w Internecie można będzie przesyłać środki od osoby A do osoby B, przy czym nie muszą się one znać.
 reviewed: true

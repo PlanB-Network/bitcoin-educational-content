@@ -1,0 +1,9 @@
+question: Tại sao Miner lại cần một nút Bitcoin?
+answer: Để tương tác với mạng và phân phối các khối của bạn
+wrong_answers:
+  - Đến chữ ký số generate
+  - Để nhập giao hàng Address của bạn vào Coinbase Transaction
+  - Để giảm độ khó của Mining
+explanation: |
+  Người khai thác sử dụng một nút để giao tiếp với mạng, truyền khối của họ và nhận giao dịch.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Co je to determinismus?
+answer: Pojetí světa, v němž neexistuje ani nahodilost, ani náhoda.
+wrong_answers:
+  - Světonázor určený Bohem.
+  - Forma ateismu.
+  - Pověra.
+explanation: |
+  Determinismus je světonázor, v němž neexistuje ani nahodilost, ani náhoda. Každá událost je nutným důsledkem předchozích příčin podle neměnných přírodních zákonů.
+reviewed: false

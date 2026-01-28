@@ -91,7 +91,7 @@ description: 如何使用 2FA 應用程式？
 要透過 Authy 等應用程式在帳戶上設定 2FA 認證碼，該帳戶必須支援此功能。現在，大多數的線上服務都提供 2FA 選項，但情況並不總是如此。讓我們以我在另一篇教學中介紹的 Proton 郵件帳號為例：
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![AUTHY 2FA](assets/notext/13.webp)
 

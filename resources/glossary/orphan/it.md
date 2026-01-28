@@ -8,4 +8,4 @@ Tuttavia, nell'uso comune, il termine "blocco orfano" si riferisce spesso a un b
 
 ![](../../dictionnaire/assets/9.webp)
 
-> personalmente, preferisco usare il termine "blocco orfano" per parlare di un blocco senza genitore e il termine "blocco stantio" per riferirsi a un blocco che non ha un figlio. Lo trovo più logico e comprensibile, anche se la maggior parte dei bitcoiners non segue questo uso.*
+> personalmente, preferisco usare il termine "blocco orfano" per parlare di un blocco senza genitore e il termine "blocco stantio" per riferirsi a un blocco che non ha un figlio. Lo trovo più logico e comprensibile, anche se la maggior parte dei bitcoiners non segue questo uso.

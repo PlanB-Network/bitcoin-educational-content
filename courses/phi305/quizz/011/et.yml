@@ -1,0 +1,9 @@
+question: Mida arvab Spinoza juhusest?
+answer: Seda ei ole olemas.
+wrong_answers:
+  - See on olemas.
+  - Ta võrdsustab seda fatalismiga.
+  - Ta peab seda ebausuks.
+explanation: |
+  Spinoza jaoks ei ole olemas sellist asja nagu juhus. Kõik universumis järgib vajalikke ja kindlaid seadusi. See, mis meile näib juhusena, on üksnes meie teadmatuse tulemus tõelistest põhjustest.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: SatoshiのWallet - ポイント・オブ・セールス
+name: Wallet of Satoshi - POS
 description: Lightning Networkを経由してBitcoinをビジネスに導入する。
 ---
 
@@ -18,7 +18,7 @@ Bitcoinのエコシステムの中で、SatoshiのWalletはライトニング決
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 SatoshiのWalletでは、世界中のコミュニティでBitcoinの導入を促進するため、Bitcoinを使った商品やサービスの売買という、コミュニティで実績のある使い方をユーザーに見つけてもらうための販売所も設置した。
 
@@ -41,7 +41,7 @@ SatoshiのWalletが提供する販売時点情報管理（POS）体験は、主�
 
 
 
-⚠️ **重要**：重要**：データの完全性と資金の安全性を保証するために、公式プラットフォームまたは公式ウェブサイトから直接アプリケーションをダウンロードすることが不可欠です。
+⚠️ **重要**：データの完全性と資金の安全性を保証するために、公式プラットフォームまたは公式ウェブサイトから直接アプリケーションをダウンロードすることが不可欠です。
 
 
 
@@ -57,7 +57,7 @@ SatoshiのWalletが提供する販売時点情報管理（POS）体験は、主�
 
 
 
-キーボード**セクションでは、トレーサビリティを向上させるために、商品の金額を挿入し、メモを追加することで、直接Invoice購入することができます。
+キーボード**セクション**では、トレーサビリティを向上させるために、商品の金額を挿入し、メモを追加することで、直接Invoice購入することができます。
 
 
 
@@ -81,7 +81,7 @@ POSをより良く構成するために、販売する商品の名前と価格�
 
 
 
-チャージ**ボタンをクリックすると、顧客の購入に関連付けられたライトニングInvoiceがgenerateになります。顧客はLightning Walletから、またはNFC経由のBoltカードで即座に請求書を支払うことができます。
+チャージ**ボタン**をクリックすると、顧客の購入に関連付けられたライトニングInvoiceがgenerateになります。顧客はLightning Walletから、またはNFC経由のBoltカードで即座に請求書を支払うことができます。
 
 
 
@@ -89,7 +89,7 @@ POSをより良く構成するために、販売する商品の名前と価格�
 
 
 
-履歴**メニューでは、ポイント・オブ・セールで発生した各Invoiceの支払いのリストを見つけることができます。この履歴は、WalletのSatoshiアカウントのデフォルトの履歴とは異なります。
+履歴**メニュー**では、ポイント・オブ・セールで発生した各Invoiceの支払いのリストを見つけることができます。この履歴は、WalletのSatoshiアカウントのデフォルトの履歴とは異なります。
 
 
 
@@ -174,16 +174,16 @@ Bitcoinをあなたのビジネスでわずか数分で利用できるツール�
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 また、中小企業に適した完全なPOSをお探しなら、スイスのBitcoinペイをお勧めします：
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 最後に、ビジネスのためのBitcoin支払いとキャッシュフローの基礎を学ぶための完全なトレーニングコースをご覧ください：
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

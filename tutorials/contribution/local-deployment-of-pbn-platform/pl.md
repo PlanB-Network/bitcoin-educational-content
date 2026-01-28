@@ -1,6 +1,6 @@
 ---
-name: Przewodnik po lokalnym uruchamianiu platformy Plan ₿ Network
-description: W jaki sposób można uruchomić Plan ₿ Network w środowisku lokalnym, aby przetestować mój wkład w treść lub korektę/przegląd treści edukacyjnych na Plan ₿ Network?
+name: Przewodnik po lokalnym uruchamianiu platformy Plan ₿ Academy
+description: W jaki sposób można uruchomić Plan ₿ Academy w środowisku lokalnym, aby przetestować mój wkład w treść lub korektę/przegląd treści edukacyjnych na Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: W jaki sposób można uruchomić Plan ₿ Network w środowisku lok
 ## Podsumowanie
 
 
-Ten samouczek zawiera instrukcje krok po kroku dotyczące konfigurowania systemu zarządzania nauczaniem Bitcoin z Plan ₿ Network na komputerze lokalnym przy użyciu Dockera, fikcyjnych kluczy i niestandardowych konfiguracji repozytorium.
+Ten samouczek zawiera instrukcje krok po kroku dotyczące konfigurowania systemu zarządzania nauczaniem Bitcoin z Plan ₿ Academy na komputerze lokalnym przy użyciu Dockera, fikcyjnych kluczy i niestandardowych konfiguracji repozytorium.
 
 
 Jeśli nie zrozumiałeś powyższej części, nie martw się - ten poradnik jest dla Ciebie!
@@ -147,7 +147,7 @@ Po uruchomieniu kontenerów można uzyskać dostęp do frontendu pod adresem:
 \[<http://localhost:8181](http://localhost:8181)>
 
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 
 Uwaga: aplikacja automatycznie przeładuje się, jeśli zmienisz jakiekolwiek pliki źródłowe.
@@ -196,7 +196,7 @@ curl -X POST http://localhost:3000/api/github/sync
 ```
 
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 

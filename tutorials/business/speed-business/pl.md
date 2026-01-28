@@ -1,5 +1,5 @@
 ---
-name: Prędkość Wallet - PoS
+name: Speed Wallet - POS
 description: Z łatwością zintegruj płatności Bitcoin i stablecoin w swojej firmie
 ---
 ![cover](assets/cover.webp)
@@ -28,25 +28,25 @@ Speed posiada szeroki zakres funkcji obejmujących finansowe aspekty działalno�
 
 
 
-- Konfiguracja płatności online**: Otrzymuj płatności od swoich klientów gdziekolwiek są, dzięki swojej stronie internetowej.
+- **Konfiguracja płatności online**: Otrzymuj płatności od swoich klientów gdziekolwiek są, dzięki swojej stronie internetowej.
 
 
 
 
 
-- Płatności na miejscu**: Idealny dla sklepów i firm, które pobierają gotówkę w sklepie.
+- **Płatności na miejscu**: Idealny dla sklepów i firm, które pobierają gotówkę w sklepie.
 
 
 
 
 
-- Wypłaty**: Wypłacaj swoje aktywa płynnie i używaj bitcoinów do spłacania swoich klientów i wynagrodzeń.
+- **Wypłaty**: Wypłacaj swoje aktywa płynnie i używaj bitcoinów do spłacania swoich klientów i wynagrodzeń.
 
 
 
 
 
-- Połączenie z innymi platformami**: Korzystasz z zewnętrznych narzędzi do zarządzania płatnościami? Speed oferuje możliwość podłączenia ich do swojej platformy, aby uzyskać kompleksowy ekosystem, który odzwierciedla Twoją działalność.
+- **Połączenie z innymi platformami**: Korzystasz z zewnętrznych narzędzi do zarządzania płatnościami? Speed oferuje możliwość podłączenia ich do swojej platformy, aby uzyskać kompleksowy ekosystem, który odzwierciedla Twoją działalność.
 
 
 
@@ -94,13 +94,13 @@ Po dezaktywacji trybu testowego należy skonfigurować portfel wypłat.
 
 
 
-Jeśli nie posiadasz jeszcze Bitcoin i/lub Lightning Wallet, zalecamy zapoznanie się z naszymi samouczkami [portfele mobilne] (https://planb.network/tutorials/wallet).
+Jeśli nie posiadasz jeszcze Bitcoin i/lub Lightning Wallet, zalecamy zapoznanie się z naszymi samouczkami [portfele mobilne](https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **WAŻNE**: Podczas konfigurowania portfela wybierz typ **BTC (On-Chain)**, gdy otrzymujesz duże kwoty, rzędu tysięcy euro, aby zapewnić wiarygodne potwierdzenie na Bitcoin, oraz typ **LN Address**, gdy chcesz otrzymywać natychmiastowe mikropłatności w swojej firmie.
 
@@ -265,13 +265,13 @@ W menu **Wyślij płatność** znajdziesz wszystkie opcje przelewów pieniężny
 
 
 
-- Natychmiastowe płatności**: Opcja natychmiastowego wysyłania umożliwia bezpieczne wysyłanie bitcoinów z konta sprzedawcy.
+- **Natychmiastowe płatności**: Opcja natychmiastowego wysyłania umożliwia bezpieczne wysyłanie bitcoinów z konta sprzedawcy.
 
 
 
 
 
-- Łącza do wypłat generate** umożliwiające partnerom i dostawcom dostęp do płatności w późniejszym terminie bez konieczności obecności online.
+- Łącza do wypłat **generate** umożliwiające partnerom i dostawcom dostęp do płatności w późniejszym terminie bez konieczności obecności online.
 
 
 
@@ -289,7 +289,7 @@ linki do wypłaty ⚠️Les mogą być użyte tylko raz, zdecydowanie zalecamy u
 
 
 
-- Wypłaty**: W menu Wypłaty zainicjuj wypłaty z salda Speed Business do osobistego Wallet.
+- **Wypłaty**: W menu Wypłaty zainicjuj wypłaty z salda Speed Business do osobistego Wallet.
 
 
 
@@ -299,7 +299,7 @@ linki do wypłaty ⚠️Les mogą być użyte tylko raz, zdecydowanie zalecamy u
 
 
 
-- Rabaty**: Zachęcaj swoich stałych klientów, ustawiając opcje rabatowe, aby zdobywać bonusy.
+- **Rabaty**: Zachęcaj swoich stałych klientów, ustawiając opcje rabatowe, aby zdobywać bonusy.
 
 
 
@@ -371,7 +371,7 @@ W menu **Developers** utwórz klucze publiczne i prywatne, aby korzystać z meto
 
 
 
-Znajdź pełną [dokumentację] (https://apidocs.tryspeed.com/reference/introduction) dla lepszej integracji Speed Business.
+Znajdź pełną [dokumentację](https://apidocs.tryspeed.com/reference/introduction) dla lepszej integracji Speed Business.
 
 
 
@@ -435,5 +435,4 @@ Masz już dobre pojęcie o Speed, zintegruj Bitcoin ze swoją firmą i rozwijaj 
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

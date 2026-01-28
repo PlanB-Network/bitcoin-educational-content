@@ -1,0 +1,9 @@
+question: Muri izo porogarama zo kuri telefone ngendanwa, ni iyihe ihuye n’amahuza ya NWC?
+answer: Alby Go
+wrong_answers:
+  - Phoenix
+  - Wallet of Satoshi
+  - Muun
+explanation: |
+  Mu vyiyumviro, Alby Go yonyene ni yo ihuye na NWC, naho n’izindi porogarama nka Zeus na zo nyene zihuye.
+reviewed: false

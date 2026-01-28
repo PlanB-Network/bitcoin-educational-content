@@ -1,9 +1,11 @@
-question: Mitä termi hodl tarkoittaa?
-answer: Hodl on slangi-ilmaisu kryptovaluuttayhteisössä, joka tarkoittaa sijoitusten pitämistä myymättä niitä, erityisesti markkinoiden volatiliteetin aikana.
+question: Mikä on yksi menetelmä turvata bitcoinsi pitkällä aikavälillä?
+answer: Kaiverruttamalla muistisanesi kestävälle materiaalille, kuten teräkselle.
 wrong_answers:
-  - Hodl viittaa erityyppiseen kryptovaluuttaan, jota käytetään vain kaupankäyntiin.
-  - Hodl on termi, joka tarkoittaa kaikkien kryptovaluuttojesi myymistä korkeaan hintaan.
-  - Hodl on päiväkaupankäynnin strategia, joka sisältää usein ostamisen ja myymisen.
+  - Säilyttämällä niitä kuumassa lompakossa.
+  - Pitämällä niitä vaihtoalustalla.
+  - Jakamalla muistisanesi työkaverin kanssa.
 explanation: |
-  Termi hodl sai alkunsa väärin kirjoitetusta verkkopostista vuonna 2013 Bitcoin-foorumilla. Ajan myötä hodl on kehittynyt edustamaan laajempaa sijoitusstrategiaa. Se kannustaa sijoittajia pitämään kiinni kryptovaluutoistaan pitkällä aikavälillä, markkinoiden vaihtelusta riippumatta.
+  Muistisanesi kaiverruttaminen kestävälle materiaalille, kuten
+  teräkselle, luo fyysisen varmuuskopion avaimistasi, joka on
+  kestävä sekä vesivahinkoja että tulipaloa vastaan, näin ollen turvaten bitcoinsisi pitkällä aikavälillä.
 reviewed: true

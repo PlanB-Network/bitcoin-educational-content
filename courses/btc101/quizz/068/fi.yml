@@ -1,11 +1,13 @@
-question: Kuinka usein louhinnan palkkio puolittuu?
-answer: Joka 210 000 lohkon jälkeen.
+question: Mikä on mnemoninen lauseke Bitcoin-lompakossa?
+answer: 12 tai 24 sanan lista, jonka avulla voit päästä käsiksi bitcoineihisi.
 wrong_answers:
-  - Joka 120 000 lohkon jälkeen.
-  - Joka 540 000 lohkon jälkeen.
-  - Joka 2 100 000 lohkon jälkeen.
+  - Valittu salasana Bitcoin-lompakon käyttöön.
+  - Koodi Bitcoin-siirtojen salaamiseen.
+  - Salainen palautuslauseke, joka tuhoaa Bitcoin-lompakon tarvittaessa.
 explanation: |
-  Louhinnan palkkio on ohjelmoitu puolittumaan joka 210 000
-  lohkon jälkeen, mikä vastaa suunnilleen neljää vuotta: tapahtumaa,
-  jota kutsutaan halvingiksi.
+  Vuodesta 2017 lähtien yksityinen avain voidaan koodata yksinkertaiseen
+  12 tai 24 sanan listaan, jota kutsutaan mnemoniseksi lausekkeeksi. Tämä lauseke
+  on varmuuskopio Bitcoin-lompakostasi, joten se mahdollistaa
+  pääsyn bitcoineihisi käyttämällä mitä tahansa Bitcoin-lompakko
+  ohjelmistoa/sovellusta.
 reviewed: true

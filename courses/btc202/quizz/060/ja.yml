@@ -1,0 +1,9 @@
+question: UmbrelにインストールされたNostrリレーの役割は何ですか？
+answer: パブリッシング（発信）をローカルでホスティングすること
+wrong_answers:
+  - ビットコイントランザクションをチェックすること
+  - コンタクトとNostrチャンネルを作成すること
+  - ブロックチェーンNostrのローカルバックアップ
+explanation: |
+  Umbrel上のNostrリレーは、データをローカルにホストすることを可能にし、可用性と主権を保証する。
+reviewed: true

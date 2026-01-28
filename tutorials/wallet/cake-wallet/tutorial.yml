@@ -1,0 +1,167 @@
+id: fdf7b138-e743-406c-9b36-6007cc16aa1b
+
+last_update_date: 2025-09-18
+
+tags:
+  - privacy
+  - onchain
+  - wallets
+  - guides
+
+category: mobile
+
+level: beginner
+
+professor_id: d6587ae8-ea52-483d-b0ac-52ec3ab7f9f4
+
+project_id: d095b0c8-b4b8-4b9f-b2e7-a59d1f74914a
+
+license: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-09-18
+    urgency: 1
+    contributor_names:
+      - runningbitcoin21
+    reward: 0.98
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.9
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.97
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.97
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.9
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.9
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.9
+  - language: fr
+    last_contribution_date: '2025-12-29'
+    urgency: 1
+    contributor_names:
+      - nrak10
+    reward: 0.98
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.77
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.84
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.97
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.77
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.84
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.9
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.9
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.9
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.97
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.77
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.9
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.84
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.97
+  - language: sw
+    last_contribution_date: '2025-12-29'
+    urgency: 1
+    contributor_names:
+      - Tinnah924
+    reward: 1.45
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.84
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.77
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.84
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.84
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.9
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.84

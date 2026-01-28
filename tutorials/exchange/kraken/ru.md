@@ -1,5 +1,5 @@
 ---
-name: Кракен
+name: Kraken
 description: Как я могу покупать и продавать биткоины на Kraken?
 ---
 ![cover](assets/cover.webp)
@@ -22,13 +22,13 @@ Kraken - одна из старейших в мире Bitcoin и криптов�
 
 
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - Создайте учетную запись Kraken
 
 
 
-Перейдите на [официальный сайт Kraken] (https://www.kraken.com/). На главной странице найдите и нажмите на опцию "Sign Up" в правом верхнем углу, чтобы начать создавать свой аккаунт.
+Перейдите на [официальный сайт Kraken](https://www.kraken.com/). На главной странице найдите и нажмите на опцию "Sign Up" в правом верхнем углу, чтобы начать создавать свой аккаунт.
 
 
 
@@ -164,7 +164,7 @@ Interface действительно выглядит довольно трез�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Выбрав наиболее подходящий для вас способ, мы наконец готовы внести деньги, чтобы купить свои первые сатоши.
 
@@ -329,7 +329,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 

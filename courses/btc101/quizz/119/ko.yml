@@ -1,0 +1,13 @@
+question: Bitcoin 트랜잭션이란 무엇인가요?
+answer: 암호화를 사용하여 비트코인의 Ownership을 전송합니다.
+wrong_answers:
+  - 공증인을 사용한 실제 비트코인 Exchange입니다.
+  - 실제 Address를 사용하여 비트코인의 Ownership을 전송합니다.
+  - 이메일 Address을 사용하여 Ownership 비트코인을 송금합니다.
+explanation: |
+  Bitcoin 트랜잭션은 Ownership 비트코인의 디지털 전송입니다
+  비트코인의 Ownership을 Bitcoin로 디지털 전송하는 것입니다
+  타원 곡선 암호화 덕분에 파생된 것입니다. 이
+  Address은 비트코인을 받는 사람의 Wallet에 고유합니다
+  비트코인을
+reviewed: true

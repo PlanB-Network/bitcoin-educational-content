@@ -6,4 +6,4 @@ wrong_answers:
   - It requires multiple approving entities, just like current bank transfers.
 explanation: |
   By enabling off-chain transactions and finalizing payments nearly instantaneously, Lightning offers a speed and efficiency advantage over traditional methods that rely on several intermediaries.
-reviewed: false
+reviewed: true

@@ -1,0 +1,8 @@
+question: Miks on vanade Bitcoin tehingute valideerimise ajaline keerukus kvadraatiline võrreldes sisendite arvuga?
+answer: Iga sisend nõuab omaette sighash-arvutust struktuuris, mis sisaldab kõiki tehingu sisendeid
+wrong_answers:
+  - Iga sisend peab kontrollima allkirja kõigi teiste sisendite suhtes, et vältida double-spending tehingusiseseid allkirju
+  - Korstnapõhine täitmismudel nõuab sisendatud tsükleid, et töödelda opkoode iga sisendkombinatsiooni jaoks
+  - "Iga sisendi ScriptSig tuleb kontrollida iga väljundi ScriptPubKey vastu, et leida õige vastavus"
+explanation: |
+  Legacy Bitcoin valideerimine tekitab kvadraatilise keerukuse, sest iga sisend vajab omaette sighash-arvutust, kuid iga arvutus töötleb kõiki sisendeid sisaldavat tehingustruktuuri. N sisendi puhul tekitab see n×n operatsiooni. SegWit lahendas selle probleemi sighash-arvutuse jagatud osade vahemällu salvestamisega, mis vähendab keerukust lineaarse ajani ja hoiab ära suurte mitmest sisendist koosnevate tehingute võimalikud teenusetõkestusrünnakud.

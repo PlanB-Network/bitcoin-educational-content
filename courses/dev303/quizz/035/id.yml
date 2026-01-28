@@ -1,0 +1,8 @@
+question: Apa yang dilakukan metode unwrap ketika dipanggil pada tipe Result di Rust?
+answer: Mengekstrak nilai keberhasilan tetapi panik jika terjadi kesalahan
+wrong_answers:
+  - Mengembalikan Tidak Ada jika terjadi kesalahan dan Beberapa jika berhasil
+  - Mengubah kesalahan menjadi pesan peringatan dan melanjutkan eksekusi
+  - Secara otomatis menyebarkan kesalahan ke fungsi pemanggilan
+explanation: |
+  Metode unwrap mengekstrak nilai keberhasilan dari sebuah Hasil tetapi menyebabkan program panik jika terjadi kesalahan. Hal ini membuatnya berguna untuk pembuatan prototipe cepat atau situasi di mana Anda yakin operasi akan berhasil. Opsi-opsi lain menjelaskan perilaku yang berbeda: mengembalikan None/Some menjelaskan tipe-tipe Option, mengubah kesalahan menjadi peringatan bukanlah pola Rust standar, dan perambatan kesalahan secara otomatis dilakukan oleh operator tanda tanya (?), bukan unwrap.

@@ -1,10 +1,9 @@
-question: Apa keuntungan utama dari mata uang fiat?
-answer: Mereka mudah dibagi
+question: Apa entitas yang bertanggung jawab atas penerbitan mata uang fidusia?
+answer: Bank Sentral
 wrong_answers:
-  - Mereka dikendalikan oleh pihak pusat
-  - Mereka tidak mudah dibawa
-  - Mereka efektif untuk menjaga nilai sepanjang waktu
+  - Bank Komersial
+  - Pemerintah
+  - Lembaga Swasta
 explanation: |
-  Mata uang fiat, seperti dolar dan euro, sangat likuid dan
-  mudah dibawa karena sekarang sebagian besar digital. Namun, nilai mereka terus
-  terkikis oleh inflasi moneter.
+  Bank sentral adalah entitas yang bertanggung jawab atas penerbitan mata uang fidusia. Mereka menentukan kebijakan moneter dan menentukan berapa banyak uang yang harus dikeluarkan atau dicetak.
+reviewed: true

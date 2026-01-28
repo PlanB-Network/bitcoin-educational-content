@@ -1,9 +1,10 @@
-question: Hva er en av de potensielle risikoene ved å la dine Bitcoin være på en børsplattform?
-answer: Risikoen for hacking og blokkering av midler.
+question: Hva forutså Milton Friedman i 1999?
+answer: Utviklingen av en pålitelig e-kontanter
 wrong_answers:
-  - Risikoen for at plattformen øker prisen på Bitcoin.
-  - Risikoen for at plattformen kontrollerer tilførselen av Bitcoin.
-  - Risikoen for at plattformen hindrer deg i å kjøpe mer Bitcoin.
+  - Nedgangen av fysisk penger
+  - Oppgangen av Bitcoin
+  - Slutten på statlig kontroll over penger
 explanation: >-
-  Teksten nevner at det å la dine Bitcoin være på en børsplattform kan
-  eksponere deg for risikoene for hacking og blokkering av midler.
+  Milton Friedman, en anerkjent økonom, forutså i 1999 at en pålitelig e-kontanter snart ville bli utviklet, en metode hvor på Internett du kan overføre
+  midler fra A til B uten at A kjenner B eller B kjenner A.
+reviewed: false

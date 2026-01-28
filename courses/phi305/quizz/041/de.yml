@@ -1,0 +1,9 @@
+question: Wer ist Saint-Augustin?
+answer: Einer der Kirchenväter.
+wrong_answers:
+  - Ein Philosoph der Aufklärung.
+  - Ein Astronom.
+  - Ein Erfinder.
+explanation: |
+  Der heilige Augustinus (354-430) ist einer der Kirchenväter. Der Philosoph und Theologe hat mit Werken wie "Die Bekenntnisse" und "Die Stadt Gottes" das westliche christliche Denken tiefgreifend beeinflusst.
+reviewed: false

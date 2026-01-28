@@ -40,7 +40,7 @@ Ova operacija vam omogućava da postavite različite konfiguracije, uključujuć
 
 
 
-- Plan sukcesije (ili nasleđa), koji omogućava naslednicima da povrate sredstva u slučaju smrti korisnika. Za više informacija o ovoj temi, preporučujemo čitanje [dela 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kursa BTC102.
+- Plan sukcesije (ili nasleđa), koji omogućava naslednicima da povrate sredstva u slučaju smrti korisnika. Za više informacija o ovoj temi, preporučujemo čitanje [dela 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kursa BTC102.
 - Ojačana rezervna kopija sa vremenom oporavka, koja korisniku daje mogućnost korišćenja njegovog Wallet bez potrebe da čuva odgovarajuću tajnu frazu i rizikuje da bude ukradena, na primer tokom provale.
 - Sigurnosna mreža za ljude koji počinju sa Bitcoin: oni će upravljati svojim Wallet, a njihov "čuvar" (na primer, rođak) će zadržati pravo da povrati njihova sredstva nakon određenog perioda.
 - Šema sa više potpisa (*Multisig*) sa smanjenim zahtevima tokom vremena, kako bi se izborila sa nestankom jednog ili više učesnika, kao što su partneri kompanije.
@@ -66,13 +66,13 @@ U ovom vodiču, postavićemo plan sukcesije. Koristićemo:
 - Ledger Nano S Plus, za svakodnevne troškove;
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 
 - Blockstream Jade, korišćen za povraćaj sredstava;
 
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 
 - Dva skladišna medija (USB stikovi) za čuvanje Wallet deskriptora;
@@ -92,7 +92,7 @@ Posetite zvaničnu Wizardsardine veb stranicu i preuzmite Liana na https://wizar
 Da biste saznali kako ručno proveriti autentičnost i integritet softvera pre instalacije, preporučujemo da pogledate ovaj vodič :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Instalirajte softver na svoj uređaj i pokrenite ga. Izaberite opciju "*Create a new Liana Wallet*" da biste konfigurisali svoj Wallet.
 
@@ -283,7 +283,7 @@ Možete proveriti status isteka vaših sredstava odlaskom na karticu "*Coins*". 
 Da biste bolje razumeli model reprezentacije UTXO korišćen u Bitcoin, možete se konsultovati sa prvim delom kursa o poverljivosti u Bitcoin koji je napisao Loïc Morel :
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Trenutni izdaci
 
@@ -492,7 +492,7 @@ Skripte koje kreira ovaj Wallet imaće sledeći oblik:
 ```
 
 
-Pošto sigurnost vašeg Bitcoin Wallet takođe zavisi od vašeg razumevanja kako funkcioniše, predlažem da detaljno proučite mehanizme determinističkih i hijerarhijskih novčanika pohađanjem ovog besplatnog kursa obuke na Plan ₿ Network :
+Pošto sigurnost vašeg Bitcoin Wallet takođe zavisi od vašeg razumevanja kako funkcioniše, predlažem da detaljno proučite mehanizme determinističkih i hijerarhijskih novčanika pohađanjem ovog besplatnog kursa obuke na Plan ₿ Academy :
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

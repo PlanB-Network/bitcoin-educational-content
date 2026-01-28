@@ -1,0 +1,9 @@
+question: RGB 프로토콜에서 Client-side Validation이란 무엇인가요?
+answer: Contract 데이터 및 전환의 로컬 검증
+wrong_answers:
+  - Bitcoin Blockchain에서 직접 스마트 컨트랙트 실행하기
+  - 트랜잭션 검증을 위한 중앙 집중식 노드 독점 사용
+  - 불일치 시 Contract 기록 자동 초기화
+explanation: |
+  Client-side Validation을 통해 각 참가자는 수신된 데이터가 RGB Contract에서 정의한 규칙을 준수하는지 독립적으로 확인할 수 있습니다.
+reviewed: false

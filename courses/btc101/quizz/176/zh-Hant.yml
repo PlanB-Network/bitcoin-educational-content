@@ -1,8 +1,8 @@
-question: Bitcoin 通訊協定的獨特性是什麼？
-answer: 它在全球範圍內全天候運作。
+question: Bitcoin 的價格可以在短短幾天內下跌 10%、20%，甚至 50%，原因何在？
+answer: 看漲和看跌的市場階段。
 wrong_answers:
-  - 它只在營業時間運作。
-  - 它由中央機構控制。
-  - 它很容易被駭客入侵。
+  - 使用網際網路的人數。
+  - 天氣
+  - 黃金價格
 explanation: >-
 reviewed: true

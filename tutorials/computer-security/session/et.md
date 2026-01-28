@@ -1,5 +1,5 @@
 ---
-name: Sessioon
+name: Session
 description: Saatke krüpteeritud sõnumeid, mitte metaandmeid
 ---
 ![cover](assets/cover.webp)
@@ -26,25 +26,26 @@ Sessioon on suunatud eelkõige kasutajatele, kes seavad konfidentsiaalsuse oma p
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Rakendus | E2EE 1:1 | E2EE grupid | Anonüümne registreerimine | Avatud lähtekoodiga klient | Avatud lähtekoodiga server | Detsentraliseeritud server | Loomisaasta |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (valikuline) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (valikuline) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (föderatiivne) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (e-posti kaudu) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (föderatiivne) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (ilma kataloogita) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = End-to-end krüpteerimine*
 
@@ -99,13 +100,13 @@ Seejärel peate valima kahe teate haldamise režiimi vahel:
 
 
 
-- Kiire režiim ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: võimaldab teil saada teateid peaaegu reaalajas tänu Google'i või Apple'i (sõltuvalt teie süsteemist) pakutavatele teavitusteenustele. Selle toimimiseks edastatakse Google'ile või Apple'ile teie IP Address ja unikaalne teate ID ning STF-serveris (Tori kaudu) registreeritakse ka seansikonto ID. See režiim hõlmab metaandmete (küll minimaalset) paljastamist, kuid ei ohusta sõnumite sisu ega kontakte ning ei võimalda teie tegelikku tegevust jälgida. See režiim on seega reageerimisvõime poolest tõhusam, kuid tugineb tsentraliseeritud infrastruktuurile ja on konfidentsiaalsuse seisukohast veidi vähem tõhus.
+- Kiire režiim (**Firebase Cloud Messaging/Apple Push Notification Service**): võimaldab teil saada teateid peaaegu reaalajas tänu Google'i või Apple'i (sõltuvalt teie süsteemist) pakutavatele teavitusteenustele. Selle toimimiseks edastatakse Google'ile või Apple'ile teie IP Address ja unikaalne teate ID ning STF-serveris (Tori kaudu) registreeritakse ka seansikonto ID. See režiim hõlmab metaandmete (küll minimaalset) paljastamist, kuid ei ohusta sõnumite sisu ega kontakte ning ei võimalda teie tegelikku tegevust jälgida. See režiim on seega reageerimisvõime poolest tõhusam, kuid tugineb tsentraliseeritud infrastruktuurile ja on konfidentsiaalsuse seisukohast veidi vähem tõhus.
 
 
 
 
 
-- Aeglane režiim (*taustaküsitlus*)**: Seansirakendus jääb taustal aktiivseks, küsitledes perioodiliselt võrku uute sõnumite saamiseks. See lähenemisviis tagab suurema konfidentsiaalsuse kui esimene, kuna andmeid ei edastata kolmandatele serveritele; ei Google, Apple ega STF-i serverid ei saa mingit teavet. Teisest küljest on sellel režiimil kaks puudust: teated võivad hilineda (kuni mitu minutit) ja energiatarbimine on üldiselt suurem, kuna rakendus tegutseb taustal.
+- Aeglane režiim (**taustaküsitlus**): Seansirakendus jääb taustal aktiivseks, küsitledes perioodiliselt võrku uute sõnumite saamiseks. See lähenemisviis tagab suurema konfidentsiaalsuse kui esimene, kuna andmeid ei edastata kolmandatele serveritele; ei Google, Apple ega STF-i serverid ei saa mingit teavet. Teisest küljest on sellel režiimil kaks puudust: teated võivad hilineda (kuni mitu minutit) ja energiatarbimine on üldiselt suurem, kuna rakendus tegutseb taustal.
 
 
 
@@ -145,7 +146,7 @@ See fraas toimib sarnaselt Mnemonic fraasidega, mida kasutatakse Bitcoin portfel
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Pöörake tähelepanu**: Erinevalt Bitcoin portfoolios kasutatavatest Mnemonic fraasidest, peate Sessioni puhul **tingimata salvestama iga sõna tervikuna**. Esimesed 4 tähte ei piisa!
 
@@ -299,4 +300,4 @@ Soovitan ka seda teist õpetust, kus ma tutvustan Threema't, mis on veel üks hu
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

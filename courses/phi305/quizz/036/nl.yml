@@ -1,0 +1,9 @@
+question: Wie is Gilles Deleuze?
+answer: Een filosofieleraar uit de jaren 80, gespecialiseerd in Spinoza.
+wrong_answers:
+  - Een politicus.
+  - Een liberale econoom.
+  - Een uitvinder.
+explanation: |
+  Gilles Deleuze (1925-1995) was in de jaren tachtig een Franse hoogleraar filosofie en een vermaard Spinoza-specialist. Zijn boek Spinoza et le problème de l'expression (Spinoza en het probleem van de expressie) vernieuwde onze lezing van de Ethica.
+reviewed: false

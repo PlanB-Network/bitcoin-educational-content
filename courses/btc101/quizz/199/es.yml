@@ -1,12 +1,12 @@
-question: ¿Qué es el Promedio de Costo en Dólares?
-answer: Comprar pequeñas cantidades de Bitcoin a intervalos regulares.
+question: ¿Qué son FOMO y FUD?
+answer: Emociones que pueden llevar a la toma de decisiones impulsivas y potencialmente perjudiciales.
 wrong_answers:
-  - Comprar una gran cantidad de Bitcoin de una sola vez.
-  - Comprar Bitcoin solo cuando el precio baja.
-  - Comprar Bitcoin solo cuando el precio sube.
-explanation: |
-  El texto del curso explica que la técnica del Promedio de Costo en Dólares
-  implica comprar pequeñas cantidades de Bitcoin a intervalos regulares. Este método
-  nivela las fluctuaciones de precio a lo largo del tiempo y asegura un crecimiento
-  continuo en la cantidad de Bitcoin poseída.
+  - Tipos de monederos Bitcoin.
+  - Estrategias para comprar Bitcoin.
+  - Regulaciones relacionadas con Bitcoin.
+explanation: >-
+  El texto explica que FOMO (Miedo a Quedarse Fuera) y FUD (Miedo,
+  Incertidumbre,
+  Duda) son emociones que pueden llevar a la toma de decisiones impulsivas y potencialmente perjudiciales
+  al comprar Bitcoin.
 reviewed: true

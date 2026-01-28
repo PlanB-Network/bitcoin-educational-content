@@ -1,0 +1,9 @@
+question: 由于轻量且占用资源少，哪款发行版最适合在 Raspberry Pi 上运行？
+answer: RaspiBlitz
+wrong_answers:
+  - Umbrel
+  - MyNode
+  - S tart9
+explanation: |
+  RaspiBlitz 软件专门为 Raspberry Pi 的硬件和性能特点做了调整，与 Umbrel 不同的是，RaspiBlitz 仍然很轻巧，而 Umbrel 对这些机器来说已经太重了。
+reviewed: true

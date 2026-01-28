@@ -6,4 +6,4 @@ wrong_answers:
   - Para especificar un servidor DNS
 explanation: |
   La opción -u de lsof restringe la salida a los archivos abiertos por un usuario o UID específico.
-reviewed: false
+reviewed: true

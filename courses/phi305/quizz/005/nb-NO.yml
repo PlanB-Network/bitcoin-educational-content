@@ -1,0 +1,9 @@
+question: Hvilken forsker mener at matematikk er universets språk?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Kopernikus.
+explanation: |
+  Galilei er berømt for sin påstand om at "naturens bok er skrevet i et matematisk språk". Denne visjonen har hatt stor innflytelse på moderne vitenskap og rasjonalistisk filosofi, inkludert Spinozas.
+reviewed: false

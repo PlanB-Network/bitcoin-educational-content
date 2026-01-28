@@ -1,0 +1,9 @@
+question: Theo Tuyên ngôn Cypherpunk của Eric Hughes, phương pháp cơ bản nào phân biệt những người theo chủ nghĩa cypherpunk với những người chỉ đơn thuần mong muốn bảo vệ quyền riêng tư?
+answer: Họ chủ động viết mã để xây dựng các hệ thống mã hóa thay vì chờ đợi các tổ chức cung cấp quyền riêng tư.
+wrong_answers:
+  - Họ tập trung vào vận động hành lang chính trị và cải cách pháp luật để thiết lập các quyền riêng tư theo hiến pháp.
+  - Họ ưu tiên việc giáo dục công chúng về những rủi ro do giám sát gây ra thông qua các nghiên cứu học thuật và các ấn phẩm.
+  - Họ làm việc trong các tổ chức tài chính hiện có để từng bước triển khai các công nghệ bảo vệ quyền riêng tư.
+explanation: |
+  Eric Hughes đã tuyên bố rõ ràng rằng "Những người theo chủ nghĩa cypherpunk viết mã" là phương pháp luận cốt lõi của họ. Bản tuyên ngôn nhấn mạnh rằng những người theo chủ nghĩa cypherpunk không chờ đợi chính phủ, tập đoàn hay các tổ chức khác cung cấp sự bảo vệ quyền riêng tư.
+  Thay vào đó, họ hành động trực tiếp bằng cách tạo ra các công cụ mã hóa và hệ thống phi tập trung. Cách tiếp cận xây dựng chủ động này, thay vì hy vọng thụ động hay cải cách thể chế, đã trở thành nền tảng cho những đổi mới như Bitcoin, thể hiện triết lý của họ về việc xây dựng các hệ thống thay thế bên ngoài các cấu trúc quyền lực truyền thống.

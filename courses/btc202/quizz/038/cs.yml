@@ -1,0 +1,9 @@
+question: Proč se pro uzel Bitcoin nedoporučuje pevný disk?
+answer: Protože výrazně zpomaluje IBD a obecné použití
+wrong_answers:
+  - Protože nelze ukládat soubory Blockchain
+  - Protože spotřebovává příliš málo energie a hrozí, že exploduje
+  - Protože je nekompatibilní se systémem Bitcoin core
+explanation: |
+  Mechanické disky omezují výkon, výrazně prodlužují IBD a při zatížení uzlem se rychle opotřebovávají.
+reviewed: true

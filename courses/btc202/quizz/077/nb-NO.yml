@@ -1,0 +1,9 @@
+question: Hvilken database brukes i blocks/index/ til å lagre blokkmetadata?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Berkeley DB
+explanation: |
+  Bitcoin core bruker LevelDB i blocks/index/ for å indeksere blokker, noe som gjør det raskere å søke og yte service til andre brukere.
+reviewed: true

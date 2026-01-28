@@ -1,0 +1,9 @@
+question: Layer 네트워크의 기본 Bitcoin은 흔히 무엇이라고 하나요?
+answer: 정착지 Layer
+wrong_answers:
+  - 트랜잭션 Layer
+  - 보안 Layer
+  - 컨센서스 Layer
+explanation: |
+  Lightning Network이 결제 채널을 열고 닫을 때 의존하는 Bitcoin 네트워크의 기본 Layer을 결제 Layer이라고도 합니다.
+reviewed: true

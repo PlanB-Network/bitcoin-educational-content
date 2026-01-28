@@ -37,7 +37,7 @@ Jade Plus is compatibel met de meeste Wallet beheersoftware. Hier is een overzic
 In deze tutorial gaan we de Jade Plus instellen en gebruiken met Blockstream's Green Wallet mobiele app via een Bluetooth verbinding. Deze opstelling is ideaal voor beginners. Als je op zoek bent naar een meer geavanceerde aanpak, raad ik je aan deze tutorial te bekijken, waarin we de Jade Plus gebruiken met Sparrow wallet in QR-codes modus:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Het Jade Plus-veiligheidsmodel
 
@@ -130,7 +130,7 @@ Klik op de knop "*Doorgaan*" om je nieuwe herstelzin weer te geven.
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
 
-Je Jade Plus toont je 12-woorden Mnemonic zin. **Deze Mnemonic geeft u volledige, onbeperkte toegang tot al uw bitcoins. Iedereen die in het bezit is van deze zin kan uw fondsen stelen, zelfs zonder fysieke toegang tot uw Jade Plus. De 12-woorden zin herstelt de toegang tot uw bitcoins in geval van verlies, diefstal of breuk van uw Jade. Het is daarom erg belangrijk om het zorgvuldig te bewaren en op een veilige locatie op te bergen.
+Je Jade Plus toont je 12-woorden Mnemonic zin. **Deze Mnemonic geeft u volledige, onbeperkte toegang tot al uw bitcoins. Iedereen die in het bezit is van deze zin kan uw fondsen stelen, zelfs zonder fysieke toegang tot uw Jade Plus. De 12-woorden zin herstelt de toegang tot uw bitcoins in geval van verlies, diefstal of breuk van uw Jade. Het is daarom erg belangrijk om het zorgvuldig te bewaren en op een veilige locatie op te bergen.**
 
 
 Je kunt het op het meegeleverde karton schrijven, of voor extra veiligheid raad ik aan om het op een roestvrijstalen basis te graveren om het te beschermen tegen brand, overstroming of instorting.
@@ -142,9 +142,9 @@ Je kunt het op het meegeleverde karton schrijven, of voor extra veiligheid raad 
 Voor meer informatie over de juiste manier om je Mnemonic zin op te slaan en te beheren, raad ik je aan om deze andere tutorial te volgen, vooral als je een beginner bent:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Het spreekt voor zich dat je deze woorden nooit mag delen op het Internet, zoals ik doe in deze tutorial. Dit voorbeeld Wallet wordt alleen gebruikt op Testnet en wordt verwijderd aan het einde van de tutorial
+**Het spreekt voor zich dat je deze woorden nooit mag delen op het Internet, zoals ik doe in deze tutorial. Dit voorbeeld Wallet wordt alleen gebruikt op Testnet en wordt verwijderd aan het einde van de tutorial**
 
 
 Klik op de pijl aan de rechterkant van het scherm om de volgende woorden weer te geven.
@@ -165,12 +165,12 @@ Zodra je je zin hebt opgeslagen, vraagt Jade Plus je om de zin te bevestigen. Se
 In deze tutorial gebruiken we de Green Wallet toepassing om de Wallet gehost op de Jade Plus te beheren. Deze methode is vooral geschikt voor beginners. Als je je Bitcoin Wallet gedetailleerder wilt beheren, kun je ook Sparrow wallet gebruiken, die we in een aparte tutorial behandelen:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Voor instructies over het installeren en instellen van de Blockstream Green toepassing, zie het eerste deel van deze andere tutorial:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Klik in de Blockstream Green-toepassing op de knop '*Een nieuwe Wallet configureren*'.
 
@@ -286,7 +286,7 @@ Kies "*Standaard*" als u een klassieke single-sig Wallet wilt maken.
 Voor meer informatie over de "*2FA*" optie kun je deze andere tutorial volgen:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Je account is aangemaakt.
 
@@ -318,13 +318,13 @@ Voer vervolgens de pincode op je Jade in en je bent weer verbonden.
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
 
-Je Jade wordt ontgrendeld via Blockstream's "virtuele secure element" (zie het eerste deel van deze tutorial). Dit vereist een Bluetooth-verbinding met de Green-toepassing. Als u problemen ondervindt met de Bluetooth-verbinding tijdens het ontgrendelen, probeer dan de twee apparaten te ontkoppelen en opnieuw te koppelen. Als het probleem zich blijft voordoen, kunt u toch uw Jade ontgrendelen door de optie "*QR Scan*" te selecteren en de instructies te volgen die beschikbaar zijn [op de Blockstream website] (https://jadefw.blockstream.com/pinqr/index.html).
+Je Jade wordt ontgrendeld via Blockstream's "virtuele secure element" (zie het eerste deel van deze tutorial). Dit vereist een Bluetooth-verbinding met de Green-toepassing. Als u problemen ondervindt met de Bluetooth-verbinding tijdens het ontgrendelen, probeer dan de twee apparaten te ontkoppelen en opnieuw te koppelen. Als het probleem zich blijft voordoen, kunt u toch uw Jade ontgrendelen door de optie "*QR Scan*" te selecteren en de instructies te volgen die beschikbaar zijn [op de Blockstream website](https://jadefw.blockstream.com/pinqr/index.html).
 
 
 Voordat je je eerste bitcoins ontvangt in je Wallet, **raad ik je sterk aan om een lege hersteltest uit te voeren**. Maak een notitie van wat referentie-informatie, zoals je xpub of de eerste Address die je ontvangt, wis dan je Wallet op de Green app en op de Jade Plus terwijl hij nog leeg is (`Options -> Device -> Factory Reset`). Probeer vervolgens je Wallet te herstellen met je papieren back-ups van de Mnemonic-zin. Controleer of de cookie-informatie die na het herstellen wordt gegenereerd, overeenkomt met de informatie die je oorspronkelijk hebt opgeschreven. Als dit het geval is, kunt u er zeker van zijn dat uw papieren back-ups betrouwbaar zijn. Om meer te weten te komen over hoe je een testherstel uitvoert, kun je deze andere tutorial raadplegen:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Bitcoins ontvangen
 
@@ -374,7 +374,7 @@ Kies het betalingsbedrag.
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
 
-Onderaan het scherm kun je het tarief voor deze transactie selecteren. Je hebt de keuze om de aanbevelingen van de applicatie te volgen of je eigen kosten aan te passen. Hoe hoger de vergoeding in verhouding tot andere lopende transacties, hoe sneller uw transactie wordt verwerkt. Voor informatie over de kostenmarkt, ga naar [Mempool.space] (https://Mempool.space/) in het gedeelte "*Transactiekosten*".
+Onderaan het scherm kun je het tarief voor deze transactie selecteren. Je hebt de keuze om de aanbevelingen van de applicatie te volgen of je eigen kosten aan te passen. Hoe hoger de vergoeding in verhouding tot andere lopende transacties, hoe sneller uw transactie wordt verwerkt. Voor informatie over de kostenmarkt, ga naar [Mempool.space](https://Mempool.space/) in het gedeelte "*Transactiekosten*".
 
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)
@@ -422,4 +422,4 @@ Gefeliciteerd, je weet nu hoe je de Jade Plus kunt instellen en gebruiken met de
 Om nog een stapje verder te gaan, raad ik je deze tutorial over de Jade Plus aan, waarin we hem configureren met Sparrow wallet software in QR-modus. Je leert ook hoe je de geavanceerde instellingen van je Hardware Wallet kunt gebruiken:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

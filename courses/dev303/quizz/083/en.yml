@@ -1,0 +1,8 @@
+question: How does UniFFI handle error propagation from Rust functions to target languages like Kotlin and Python?
+answer: Functions returning Result types are marked with 'throws' in UDL and generate native exceptions in target languages
+wrong_answers:
+  - Error types are automatically converted to string messages and returned as optional values in all target languages
+  - All Rust errors are wrapped in a generic UniFFI error type that must be manually unwrapped by developers
+  - Error handling requires developers to manually implement error translation code for each target language platform
+explanation: |
+  UniFFI provides sophisticated error handling that preserves Rust's Result-based error model while translating it appropriately for each target language. Functions that return Result types in Rust are marked with the 'throws' keyword in UDL, and these generate native exception handling in target languages - Kotlin methods throw exceptions following Java/Kotlin conventions, while Python uses Python's exception model. This ensures error handling feels natural and idiomatic in each language while preserving the semantic meaning of the original Rust error types, unlike generic wrappers or manual translation approaches.

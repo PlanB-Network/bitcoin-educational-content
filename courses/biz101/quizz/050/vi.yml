@@ -1,9 +1,9 @@
-question: How does a credit card transaction typically differ from a simple cash transaction?
-answer: It involves multiple intermediaries
+question: Giao dịch thẻ tín dụng thường khác với giao dịch tiền mặt đơn giản như thế nào?
+answer: Nó liên quan đến nhiều trung gian
 wrong_answers:
-  - It happens instantly with no intermediary involvement
-  - It requires the physical exchange of currency only
-  - It mandates that both parties produce identical goods
+  - Nó xảy ra ngay lập tức mà không cần sự tham gia trung gian
+  - Nó chỉ yêu cầu trao đổi tiền tệ vật lý
+  - Nó yêu cầu cả hai bên phải sản xuất hàng hóa giống hệt nhau
 explanation: |
-  Unlike cash, which is exchanged immediately, credit card transactions go through a series of steps involving banks, card networks, and clearing processes, resulting in delays and extra costs.
-reviewed: false
+  Không giống như tiền mặt, được trao đổi ngay lập tức, các giao dịch thẻ tín dụng trải qua một loạt các bước liên quan đến ngân hàng, mạng lưới thẻ và quy trình thanh toán, dẫn đến sự chậm trễ và chi phí bổ sung.
+reviewed: true

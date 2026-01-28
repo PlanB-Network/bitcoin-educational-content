@@ -1,0 +1,9 @@
+question: ใครคือผู้ดูแลหลักคนสุดท้ายของ Bitcoin Core ก่อนที่บทบาทนี้จะถูกยกเลิกในปี 2023?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - กาวิน แอนเดรเซน
+  - ปีเตอร์ วีลล์
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan ดำรงตำแหน่งนี้ตั้งแต่ปี 2014 ถึง 2023 ต่อจาก Gavin Andresen และก่อนการยกเลิกตำแหน่งนี้
+reviewed: true

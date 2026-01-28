@@ -1,0 +1,8 @@
+question: What is the key advantage of using derive macros like #[derive(Debug)] compared to manually implementing traits for custom types?
+answer: They automatically generate complete trait implementations at compile time, reducing boilerplate code
+wrong_answers:
+  - They provide better runtime performance by optimizing trait method calls during execution
+  - They allow traits to be implemented multiple times for the same type with different behaviors
+  - They enable dynamic trait implementation that can be modified at runtime based on program state
+explanation: |
+  Derive macros automatically generate trait implementations during compilation, eliminating the need to write repetitive boilerplate code manually. When you use #[derive(Debug)], the compiler generates all the necessary formatting logic for that trait. The wrong answers are incorrect because: derive macros don't improve runtime performance (they generate the same code you'd write manually), traits can only be implemented once per type regardless of how they're implemented, and derive macros generate static code at compile time rather than enabling runtime modifications.

@@ -5,5 +5,5 @@ wrong_answers:
   - To provide a permissioned network controlled by a single entity.
   - To slow down transactions to ensure they remain fully traceable by governments.
 explanation: |
-  The Lightning Network is a “second-layer” protocol that allows participants to create payment channels, transact off-chain, and only settle the final net balance on the Bitcoin blockchain. This design achieves faster speeds and lower costs.
-reviewed: false
+  The Lightning Network is a “second-layer” protocol that enables participants to create payment channels, transact off-chain, and settle the final net balance only on the Bitcoin blockchain. This design achieves faster speeds and lower costs.
+reviewed: true

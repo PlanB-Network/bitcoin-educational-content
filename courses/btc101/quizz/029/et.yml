@@ -1,11 +1,9 @@
-question: Mis on kulla peamine eelis teiste valuutavormide ees?
-answer: Selle loomulik haruldus muudab selle väärtuslikuks, samas kui selle keemilised omadused võimaldavad sellel aja jooksul mitte erodeeruda
+question: Mida tähendab termin fiduciary valuutade kontekstis?
+answer: See viitab valuutadele, millel puudub sisemine väärtus ja mis sõltuvad usaldusest nende reguleerivate institutsioonide vastu.
 wrong_answers:
-  - See on kergesti jagatav ja transporditav
-  - See on rahalise inflatsiooni suhtes
-  - See on laialdaselt aktsepteeritud kaubanduses
+  - See viitab valuutadele, mida toetab kuld.
+  - See viitab valuutadele, mida kasutatakse ainult fidutsiaarseteks tehinguteks.
+  - See viitab valuutadele, mida kasutatakse ainult kindlas institutsioonis.
 explanation: |
-  Kulla peamine eelis teiste valuutavormide ees on selle loomulik
-  haruldus, mis muudab selle väärtuslikuks, ja selle keemilised omadused, mis võimaldavad sellel
-  aja jooksul mitte erodeeruda.
+  Fidutsiaarsed valuutad on need, mida ei toeta füüsiline kaup nagu kuld või hõbe. Nende väärtus tuleneb inimeste usaldusest ja kindlustundest institutsioonide vastu, mis neid väljastavad ja reguleerivad.
 reviewed: true

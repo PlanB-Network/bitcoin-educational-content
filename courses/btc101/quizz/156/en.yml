@@ -1,11 +1,11 @@
-question: What is the purpose of mining pools?
-answer: Mining pools allow miners to pool their computing resources and receive smaller but more regular rewards.
+question: What is the average time between the creation of two blocks in the Bitcoin protocol?
+answer: 10 minutes.
 wrong_answers:
-  - Mining pools are used to increase the HashRate of the overall Bitcoin network.
-  - Mining pools are used to decrease the difficulty of mining.
-  - Mining pools are used to increase the reward for mining.
+  - 5 minutes.
+  - 15 minutes.
+  - 20 minutes.
 explanation: >-
-  Mining pools are groups of miners who combine their computational power
-  to increase their chances of mining a block. By pooling their resources, they can
-  mine blocks more frequently and receive smaller but more regular rewards.
+  On average, a block is created every 10 minutes in the Bitcoin protocol.
+  This time remains constant regardless of the number of miners and their computing
+  power.
 reviewed: true

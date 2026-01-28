@@ -1,5 +1,5 @@
 ---
-name: Bitcoin knopar
+name: Bitcoin Knots
 description: Hur startar jag en nod med den alternativa klienten Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)
@@ -31,14 +31,14 @@ Det finns två huvudsakliga skäl till att använda en alternativ klient som Kno
 
 
 
-- Tekniska**: Dessa klienter erbjuder ofta olika alternativ till Core, särskilt när det gäller Mempool-hantering, genom att bestämma vilka transaktioner som accepteras och sänds av din nod.
-- Policy**: En del människor föredrar att använda alternativa klienter som Knots av icke-tekniska skäl, framför allt för att stödja ett alternativ till Core och därmed minska dess monopol. Om Core någonsin skulle äventyras skulle det vara användbart att inte bara ha solida, väl underhållna alternativa klienter, utan också att veta hur man använder dem. Andra använder Knots i protestsyfte, eftersom de har tappat förtroendet för Core-utvecklarna eller ogillar majoritetsklientens hantering.
+- **Tekniska**: Dessa klienter erbjuder ofta olika alternativ till Core, särskilt när det gäller Mempool-hantering, genom att bestämma vilka transaktioner som accepteras och sänds av din nod.
+- **Policy**: En del människor föredrar att använda alternativa klienter som Knots av icke-tekniska skäl, framför allt för att stödja ett alternativ till Core och därmed minska dess monopol. Om Core någonsin skulle äventyras skulle det vara användbart att inte bara ha solida, väl underhållna alternativa klienter, utan också att veta hur man använder dem. Andra använder Knots i protestsyfte, eftersom de har tappat förtroendet för Core-utvecklarna eller ogillar majoritetsklientens hantering.
 
 
 ## Hur installerar jag Bitcoin Knots?
 
 
-Gå till [den officiella webbplatsen för Bitcoin Knots] (https://bitcoinknots.org/#download) för att ladda ner versionen för ditt operativsystem. Glöm inte att ladda ner fingeravtryck och signaturer för att verifiera programvaran. Dessa filer finns också tillgängliga [på Bitcoin Knots GitHub repository](https://github.com/bitcoinknots/Bitcoin).
+Gå till [den officiella webbplatsen för Bitcoin Knots](https://bitcoinknots.org/#download) för att ladda ner versionen för ditt operativsystem. Glöm inte att ladda ner fingeravtryck och signaturer för att verifiera programvaran. Dessa filer finns också tillgängliga [på Bitcoin Knots GitHub repository](https://github.com/bitcoinknots/Bitcoin).
 
 
 ![Image](assets/fr/02.webp)
@@ -47,7 +47,7 @@ Gå till [den officiella webbplatsen för Bitcoin Knots] (https://bitcoinknots.o
 Innan du installerar programvaran på din maskin rekommenderar vi starkt att du kontrollerar dess äkthet och integritet. Om du inte vet hur du gör kan du titta på den här andra handledningen:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 När programvaran har verifierats installerar du den genom att följa de steg som anges i installationspanelen.
 
 
@@ -173,7 +173,7 @@ Ge din Wallet ett namn. Du kan också skydda den med en passphrase BIP39 genom a
 passphrase BIP39 är ett valfritt lösenord som du kan välja fritt, utöver din Mnemonic-fras, för att öka säkerheten för din Wallet. Innan du konfigurerar den här funktionen rekommenderar vi starkt att du läser följande artikel, som förklarar i detalj hur passphrase fungerar i teorin och hur du undviker misstag som kan leda till permanent förlust av dina bitcoins:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Om du har aktiverat alternativet passphrase ska du välja ett robust alternativ och spara det noggrant på ett eller flera säkra fysiska medier.
 
 
@@ -317,10 +317,11 @@ Glöm inte att starta om programvaran efter att du har gjort dessa ändringar.
 Gå sedan till din Wallet-hanteringsprogramvara (t.ex. Sparrow wallet eller Liana) och ange sökvägen till din cookie-fil, som vanligtvis finns i samma mapp som `Bitcoin.conf`, beroende på ditt operativsystem:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -345,10 +346,11 @@ server=1
 När du har redigerat filen ska du se till att spara den i rätt mapp för ditt operativsystem:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Denna operation kan också utföras via Bitcoin-QT:s Interface-grafik. Gå till menyn "*Settings*", sedan "*Options...*" och aktivera alternativet "*Enable RPC server*" genom att markera motsvarande ruta. Om filen `Bitcoin.conf` inte finns, kan du skapa den direkt från denna Interface genom att klicka på "*Open Configuration File*".
 
@@ -356,7 +358,7 @@ Denna operation kan också utföras via Bitcoin-QT:s Interface-grafik. Gå till 
 ![Image](assets/fr/37.webp)
 
 
-Hitta IP Address för den maskin som är värd för Bitcoin Knots i ditt lokala nätverk. För att göra detta kan du använda ett verktyg som [Angry IP Scanner] (https://angryip.org/). Låt oss anta, för argumentets skull, att IP Address för din nod är `192.168.1.18`.
+Hitta IP Address för den maskin som är värd för Bitcoin Knots i ditt lokala nätverk. För att göra detta kan du använda ett verktyg som [Angry IP Scanner](https://angryip.org/). Låt oss anta, för argumentets skull, att IP Address för din nod är `192.168.1.18`.
 
 
 I filen `Bitcoin.conf` lägger du till följande rader och ställer in `rpcbind=192.168.1.18` så att den matchar IP Address för din nod.
@@ -407,4 +409,4 @@ Om du tyckte att den här handledningen var användbar skulle jag vara mycket ta
 Jag rekommenderar också den här andra handledningen där jag förklarar hur du ställer in din egen Lightning-nod:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

@@ -1,0 +1,11 @@
+question: 분업에서 직접 Exchange의 문제에 대한 해결책은 무엇인가요?
+answer: 돈에 의해 촉진되는 간접적 Exchange.
+wrong_answers:
+  - 물물교환을 통해 직접 Exchange를 활성화합니다.
+  - 물물교환을 통한 간접적 Exchange.
+  - 돈으로 직접 Exchange를 촉진합니다.
+explanation: |
+  화폐는 개인이 다른 사람에게서 구매할 수 있는 간접 Exchange를 허용합니다
+  다른 사람에게서 구매하고 판매자는 해당 화폐 단위를 사용할 수 있습니다
+  다른 곳에서, 다른 시간에, 다른 사람과 함께 사용할 수 있습니다.
+reviewed: true

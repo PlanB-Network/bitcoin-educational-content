@@ -1,0 +1,9 @@
+question: Izina ry’uburyo bwa seed bwihariye kuri LND ni irihe?
+answer: aezed
+wrong_answers:
+  - BIP39
+  - Imbuto
+  - BIP32
+explanation: |
+  LND ikoresha seed yihariye yitwa aezeed, itandukanye n'iya kera BIP39 seed.
+reviewed: false

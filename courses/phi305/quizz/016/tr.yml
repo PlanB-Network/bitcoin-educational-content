@@ -1,0 +1,9 @@
+question: Spinoza için Tanrı nedir?
+answer: Doğa.
+wrong_answers:
+  - Niyet ile donatılmış bir varlık.
+  - Bir saatçi.
+  - Kurgu.
+explanation: |
+  Spinoza için Tanrı Doğa'dır (Deus sive Natura). O, aşkın, kişisel bir varlık değil, var olan her şeyin bir modu ya da tezahürü olduğu eşsiz, sonsuz tözdür.
+reviewed: false

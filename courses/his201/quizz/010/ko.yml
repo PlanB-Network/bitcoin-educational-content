@@ -1,0 +1,9 @@
+question: PayPal을 만든 주인공은 누구인가요?
+answer: 피터 틸
+wrong_answers:
+  - 엘론 머스크
+  - 마크 안드레센
+  - 마크 주커버그
+explanation: |
+  페이팔은 1998년 12월 샌프란시스코에서 피터 틸과 맥스 레브친이 공동 설립한 컨피니티(Confinity Inc.)가 1999년에 개발한 제품입니다.
+reviewed: true

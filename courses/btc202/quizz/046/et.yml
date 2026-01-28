@@ -1,0 +1,9 @@
+question: Mida saab parameeter dbcache teha Bitcoin core-s?
+answer: Eraldada RAM-mälu IBD kiirendamiseks
+wrong_answers:
+  - Blockchain suuruse määratlemine
+  - Reguleeri maksimaalne Mining raskusaste
+  - Ühendatud eakaaslaste arvu piiramine
+explanation: |
+  Parameeter dbcache suurendab UTXO komplekti ajutiseks salvestamiseks kasutatavat mäluruumi, mis võib kiirendada esialgset sünkroniseerimisprotsessi.
+reviewed: true

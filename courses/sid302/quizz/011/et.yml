@@ -1,0 +1,8 @@
+question: Mis juhtub, kui teenusepakkuja maksab Lightningi arve, et viia lõpule Liquid-Lightningi vahetamine HTLCde abil?
+answer: Teenusepakkuja saab välkmakse eelpildi, mida ta saab kasutada L-BTC avamiseks ja nõudmiseks HTLC-lt
+wrong_answers:
+  - Teenuseosutaja peab ootama, kuni ajalukk lõpeb, enne kui ta saab juurdepääsu HTLC lepingus lukustatud L-BTC-le
+  - "Klient saab automaatselt eelkujutise ja kasutab seda L-BTC vabastamiseks otse teenusepakkuja Liquid wallet"
+  - HTLC leping täidetakse automaatselt ja kannab L-BTC teenusepakkujale üle ilma täiendava krüptograafilise tõendamiseta
+explanation: |
+  HTLC-d loovad aatomivahetusi krüptograafilise sidumise kaudu, kasutades mõlemas võrgus sama hash-lukku. Kui teenusepakkuja maksab edukalt Lightning-arve, saab ta eelkujutise (saladuse), mis vastab hash-lukule. See eelpilt on krüptograafiline võti, mis võimaldab neil avada L-BTC, mis oli eelnevalt lukustatud HTLC-s. Teised valikud on valed, sest need ei kajasta HTLC-de aatomset olemust - ajalukk on ainult varumehhanism, kliendid ei tegele eelkujutise jagamisega ja HTLC-d nõuavad pigem aktiivset krüptograafilist tõestust kui automaatset täitmist.

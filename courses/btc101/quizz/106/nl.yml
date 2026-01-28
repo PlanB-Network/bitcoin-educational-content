@@ -1,11 +1,13 @@
-question: Waarom is het aan te raden om uw Bitcoins niet achter te laten op Exchange-platforms?
-answer: Ze kunnen gevoelig zijn voor aanvallen van hackers.
+question: Wat weerhoudt iedereen ervan om dezelfde Bitcoin Wallet te gebruiken?
+answer: Verschillende individuen hebben verschillende use-cases nodig.
 wrong_answers:
-  - Exchange platformen brengen willekeurige kosten in rekening.
-  - Bitcoin verliest waarde op Exchange platforms.
-  - Exchange platforms zijn geen gereguleerde instelling.
+  - Het is duur om een Bitcoin Wallet te gebruiken.
+  - Het is illegaal om een Bitcoin Wallet te gebruiken.
+  - Mensen zullen het nooit eens worden over de naam van zo'n Wallet.
 explanation: |
-  Het is aan te raden om uw Bitcoins niet achter te laten op Exchange
-  platformen omdat ze gevoelig kunnen zijn voor hacker
-  aanvallen.
+  Terwijl de ene persoon veiligheid belangrijk vindt, kan een ander
+  waarde hechten aan gebruiksvriendelijkheid of specifieke functies. Een
+  enkele Bitcoin Wallet misschien niet aan ieders
+  eisen, waardoor er meerdere Wallet
+  opties bestaan.
 reviewed: true

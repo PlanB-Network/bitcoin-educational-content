@@ -1,10 +1,11 @@
-question: Mis on valuuta arengulugu?
-answer: Toores kivi -> Münt -> Pangatäht -> Pangakaart -> Plokiahel -> Lightning Network
+question: Milline neist variantidest ei ole fiat-valuutade eelis?
+answer: Nad on rahalise inflatsiooni suhtes haavatavad
 wrong_answers:
-  - Toores kivi -> Münt -> Pangatäht -> Plokiahel -> Lightning Network
-  - Toores kivi -> Münt -> Pangatäht -> Pangakaart -> Lightning Network
-  - Toores kivi -> Münt -> Pangatäht -> Pangakaart -> Plokiahel
+  - Neid on kerge transportida
+  - Neid on kerge jagada
+  - Kõik riigid aktsepteerivad neid
 explanation: |
-  Valuuta, nagu iga tehnoloogia, on arenenud toorest kivist
-  metallmündiks, seejärel pangatäheks, pangakaardiks ja lõpuks eakaaslastevahelisteks võrgustikeks Bitcoin'i plokiahelaga ja Lightning Network'iga.
+  Fiat-valuutad, nagu dollar ja euro, on väga likviidsed ja
+  kergesti transporditavad, kuna need on nüüd peamiselt digitaalsed. Siiski nende väärtust
+  kahandab pidevalt rahaline inflatsioon.
 reviewed: true

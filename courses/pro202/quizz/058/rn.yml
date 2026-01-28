@@ -1,0 +1,8 @@
+question: Igihe Bitcoin wallet isuzuma amabuye y’amahera yinjira, ni kuki gukuraho amabuye yose ari vyo vyiza kuruta gusaba amafaranga y’umuntu ku giti ciwe ku bagenzi bawe bo ku rubuga?
+answer: Gukuraho amabuye yose biratanga uburinzi bwiza bw’ubuzima bwite mu kutahishura amafaranga yihariye canke aderesi wallet ishaka gukurikirana .
+wrong_answers:
+  - Gukuraho amabuye yose birakora neza cane mu vy'ubuhinga bw'ibarabara kuko bisaba ibikorwa bikeyi vy'ubuhinga bwa hash kugira ngo umuntu asuzume ukuri kw'ibikorwa
+  - Gukuraho amabuye yose bituma haba uguhuza vyihuta kuko abo mu runganwe bashobora kohereza amakuru y'amabuye aho gutanga inyishu z'ibikorwa vy'umuntu ku giti ciwe
+  - Gukuraho amabuye yose biratanga umutekano mwiza kubera ko bituma wallet igenzura proof-of-work yose ku bijanye n’ugucuruza kwose .
+explanation: |
+  Ubuzima bwite ni akamaro nyamukuru k’ugukuraho ibintu bishingiye ku mabarabara. Iyo wallet isaba amafaranga yihariye, itanga ibimenyetso bikomeye ku bikorwa vy'ukoresha kandi igahishura aderesi z'iyo wallet. Gukuraho amabuye yose bipfuka inyungu nyazo za wallet mu bikorwa vyose vy’amabuye. Inyishu zitari zo zishimika ku bushobozi, umuvuduko, canke inyungu z’umutekano zitari izo ntumbero nyamukuru - ibisabwa vy’ugucuruza vy’umuntu ku giti ciwe vyoshobora kuba bitekanye canke bikora neza, ariko mu vy’ukuri bitera ingorane ubuzima bwite mu guhishura uburyo bwo kugenzura bwa wallet ku bagenzi bawe bo ku rubuga.

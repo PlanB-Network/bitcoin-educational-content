@@ -1,11 +1,9 @@
-question: Czym jest trylemat Blockchain?
-answer: Protokół oparty na Blockchain może spełnić tylko dwa z kryteriów decentralizacji, bezpieczeństwa i skalowalności.
+question: Jak nazywają się bitcoiny używane w Liquid?
+answer: L-BTC
 wrong_answers:
-  - Protokół oparty na Blockchain może spełnić tylko jedno z kryteriów decentralizacji, bezpieczeństwa i skalowalności.
-  - Protokół oparty na Blockchain może spełnić wszystkie kryteria decentralizacji, bezpieczeństwa i skalowalności.
-  - Protokół oparty na Blockchain nie może spełnić żadnego z kryteriów decentralizacji, bezpieczeństwa i skalowalności.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Trylemat Blockchain odnosi się do wyzwania polegającego na tym, że
-  protokół oparty na Blockchain może spełnić tylko dwa kryteria spośród
-  decentralizacji, bezpieczeństwa i skalowalności.
-reviewed: true
+  W Liquid bitcoiny są reprezentowane jako L-BTC, powiązane w stosunku 1 do 1 z BTC.
+reviewed: false

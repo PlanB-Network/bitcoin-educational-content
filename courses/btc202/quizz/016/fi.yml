@@ -1,0 +1,9 @@
+question: Kuka oli viimeinen Bitcoin core:n pääylläpitäjä ennen kuin tämä tehtävä lakkautettiin vuonna 2023?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan toimi tässä tehtävässä Gavin Andresenin seuraajana vuosina 2014-2023 ja ennen tehtävän lakkauttamista.
+reviewed: true

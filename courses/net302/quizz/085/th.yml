@@ -1,0 +1,9 @@
+question: คำสั่งใดที่สามารถใช้เพื่อตรวจสอบว่าแพ็กเก็ตไปยัง 8.8.8.8 จะถูกส่งผ่านอินเทอร์เฟซและเกตเวย์ใด?
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> แสดงเส้นทางที่แน่นอนที่แพ็กเก็ตจะใช้เพื่อไปยังปลายทางที่เฉพาะเจาะจง
+reviewed: false

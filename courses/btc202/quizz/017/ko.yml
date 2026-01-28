@@ -1,0 +1,9 @@
+question: 버전 0.5부터 Bitcoin core과 함께 배포된 두 가지 컴포넌트는 무엇인가요?
+answer: Bitcoin-qt 및 bitcoind
+wrong_answers:
+  - bitcoin-cli 및 Bitcoin-gui
+  - Bitcoin-Miner 및 Bitcoin-Wallet
+  - Bitcoin 코어 및 Bitcoin 노드
+explanation: |
+  버전 0.5부터 Bitcoin core에는 그래픽 Interface(Bitcoin-qt)과 명령줄 Interface(bitcoind)이 포함되어 있습니다.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Bitcoin의 가격이 단 며칠 만에 10%, 20%, 심지어 50%까지 하락할 수 있는 이유는 무엇일까요?
+answer: 강세장 및 약세장 단계.
+wrong_answers:
+  - 인터넷을 사용하는 사람들의 수입니다.
+  - 날씨.
+  - 금의 가격입니다.
+explanation: >-
+reviewed: true

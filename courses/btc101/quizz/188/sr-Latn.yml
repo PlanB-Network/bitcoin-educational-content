@@ -1,8 +1,8 @@
-question: Šta je BTCMap?
-answer: Platforma koja navodi sve trgovce koji prihvataju Bitkoin.
+question: Koje od sledećih akcija mogu pomoći onima koji žele da koriste Bitkoin u svakodnevnom životu?
+answer: Imate listu svih trgovaca koji prihvataju Bitkoin.
 wrong_answers:
-  - Mapa svih Bitkoin rudnika u svetu.
-  - Mapa svih Bitkoin menjačnica na svetu.
-  - Mapa svih korisnika Bitkoina u svetu.
+  - Povećaj cenu Bitkoina.
+  - Smanji broj Bitkoina.
+  - Ograniči upotrebu Bitkoina.
 explanation: >-
 reviewed: true

@@ -3,7 +3,7 @@ answer: Oni omogućavaju kreiranje kriptografskih sistema zasnovanih na generato
 wrong_answers:
   - Oni pojednostavljuju množenje enkripcijskih ključeva
   - Oni povećavaju sigurnost javnih komunikacionih kanala
-  - Oni su navikli na Hash poruke direktno kako bi sačuvali njihov integritet
+  - Oni su navikli na heš poruke direktno kako bi sačuvali njihov integritet
 explanation: |
   U kriptografiji, ciklične grupe, koje imaju generatore, su ključne za uspostavljanje baza za enkripcijske ključeve, posebno u sistemima javnog ključa.
-reviewed: false
+reviewed: true

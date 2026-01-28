@@ -1,13 +1,16 @@
 ---
-name: GrafeenOS
+name: GrapheneOS
 
-description: Graphene OS tutorial
+description: Een mobiel besturingssysteem gericht op veiligheid en privacy, gebaseerd op Android
 ---
 
-> [GrapheneOS](https://grapheneos.org/) is een privacy- en beveiligingsgericht mobiel besturingssysteem met Android app-compatibiliteit, ontwikkeld als een non-profit open source project.
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) is een non-profit open-source mobiel besturingssysteem dat is ontworpen om een hoog niveau van privacy en veiligheid te bieden, terwijl het volledig compatibel blijft met Android-applicaties.
 
 GrapheneOS, oorspronkelijk opgericht in 2014 als 'CopperheadOS' is gebaseerd op de traditionele Android Code (AOSP), maar met veel veranderingen en verbeteringen gericht op het verbeteren van de privacy en veiligheid van de gebruiker. GrapheneOS geeft de gebruiker de controle over zijn telefoon, niet de grote techbedrijven.
 
+
+![video](https://youtu.be/VnumtalYLFI)
 
 ### Sommaire:
 
@@ -21,7 +24,7 @@ GrapheneOS, oorspronkelijk opgericht in 2014 als 'CopperheadOS' is gebaseerd op 
 - Nuttige info
 
 
-Gids door https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Deze handleiding is een bewerking van de originele inhoud gepubliceerd door [BitcoinQnA op Bitcoiner.Guide onder MIT-licentie](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), aan wie de volledige eer toekomt voor het oorspronkelijke schrijfwerk.*
 
 
 ## Waarom GrapheneOS gebruiken?
@@ -42,7 +45,7 @@ GrapheneOS biedt extra beveiliging voor je Android-ervaring door middel van een 
 3. **Sandbox containment** - GrapheneOS versterkt bestaande Android sandboxes, waardoor het vermogen van elke app om te communiceren met de rest van je telefoon verder wordt vergrendeld.
 
 
-Lees meer over de technische details van de GrapheneOS-functieset [hier] (https://grapheneos.org/features).
+Lees meer over de technische details van de GrapheneOS-functieset [hier](https://grapheneos.org/features).
 
 
 ### De overgang vergemakkelijken
@@ -69,7 +72,7 @@ GrapheneOS is momenteel alleen in productie voor _(nogal ironisch)_ de serie [Go
 ### Een apparaat kiezen
 
 
-Zorg er bij het kiezen van de Pixel waarop je GrapheneOS wilt installeren voor dat je aanvinkt hoe lang het apparaat standaard [beveiligingsupdates] (https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g) blijft ontvangen.
+Zorg er bij het kiezen van de Pixel waarop je GrapheneOS wilt installeren voor dat je aanvinkt hoe lang het apparaat standaard [beveiligingsupdates](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g) blijft ontvangen.
 
 
 Op het moment van schrijven is de Pixel 6a het goedkoopste model dat beschikbaar is met goede langetermijnondersteuning, gegarandeerd tot juli 2027. Als je voor dit model kiest, werkt OEM unlocking niet met de versie van het standaard OS uit de fabriek. Je moet het updaten naar de release van juni 2022 of later via een over-the-air update. Nadat je het hebt bijgewerkt, moet je het toestel ook resetten naar de fabriek om OEM-ontgrendeling te herstellen. Alle andere modellen die carrier unlocked zijn, zullen direct uit de doos klaar zijn voor GrapheneOS.
@@ -119,7 +122,7 @@ Laten we er eens in duiken:
 10. Wanneer je het woord `Start` ziet, bevestig dit dan met de aan/uit-knop en het apparaat zal opstarten in je nieuwe Google-vrije besturingssysteem.
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 GrapheneOS startscherm
 
@@ -138,7 +141,7 @@ Video met details van de eenvoudige stappen hierboven
 
 
 
-Als deze eenvoudige stappen een stap te ver lijken, kun je overwegen om een Pixel te kopen met de GrapheneOS software [voorgeïnstalleerd] (https://ronindojo.io/en/roninmobile). Wees je er wel van bewust dat je een klein beetje vertrouwen stelt in de leverancier.
+Als deze eenvoudige stappen een stap te ver lijken, kun je overwegen om een Pixel te kopen met de GrapheneOS software voorgeïnstalleerd (er zijn bedrijven die ze verkopen). Wees je er wel van bewust dat je een klein beetje vertrouwen stelt in de leverancier.
 
 
 ### Vooraf geïnstalleerde apps
@@ -147,7 +150,7 @@ Als deze eenvoudige stappen een stap te ver lijken, kun je overwegen om een Pixe
 Nu je alles hebt ingesteld, valt het je misschien op hoe kaal GrapheneOS er uitziet bij de eerste installatie. Standaard zijn deze apps geïnstalleerd:
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 Standaard apps
@@ -157,7 +160,7 @@ De enige twee die je misschien niet kent zijn 'Auditor' en 'Vanadium'.
 
 
 
-- De [Auditor app] (https://play.google.com/store/apps/details?id=app.attestation.auditor) maakt gebruik van op hardware gebaseerde beveiligingsfuncties om de identiteit van een apparaat te valideren, samen met de authenticiteit en integriteit van het besturingssysteem. Het controleert of het apparaat het standaard besturingssysteem draait met de bootloader vergrendeld en of er niet met het besturingssysteem geknoeid is.
+- De [Auditor app](https://play.google.com/store/apps/details?id=app.attestation.auditor) maakt gebruik van op hardware gebaseerde beveiligingsfuncties om de identiteit van een apparaat te valideren, samen met de authenticiteit en integriteit van het besturingssysteem. Het controleert of het apparaat het standaard besturingssysteem draait met de bootloader vergrendeld en of er niet met het besturingssysteem geknoeid is.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) is een privacy- en beveiligingsbestendige variant van de webbrowser Chromium.
 
 
@@ -196,7 +199,7 @@ Ga naar **Instellingen** > **Batterij** en schakel **Batterijpercentage weergeve
 Zodra je het VCF-bestand hebt, kun je het overzetten naar je GrapheneOS-apparaat met een externe opslagmogelijkheid zoals een microSD-kaart of USB-stick. Als je die niet bij de hand hebt, kun je ervoor kiezen om te delen via een van de vele apps hieronder.
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 Gepersonaliseerd startscherm
@@ -224,11 +227,13 @@ Om F-Droid te installeren ga je gewoon naar hun website via een browser op je Gr
 Naast de applicaties die te vinden zijn in de standaard repository in F-Droid, hosten veel Open Source projecten ook hun eigen repository die kan worden toegevoegd in de F-Droid app instellingen. Als dit het geval is, zal het project in kwestie je door de eenvoudige stappen leiden die nodig zijn om dit te bereiken op hun website.
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 F-Droid startscherm
 
+
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora-winkel
 
@@ -252,11 +257,13 @@ Aurora heeft ook een aantal potentiële aanvalsvectoren, omdat de "anonieme acco
 
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 Beginscherm Aurora Store
 
+
+https://planb.academy/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### APK downloaden
 
@@ -267,7 +274,7 @@ Apps op Android kunnen ook worden gedownload en geïnstalleerd via een `.apk` be
 Het nadeel van deze aanpak is dat je geen automatische updates krijgt, dus je moet de communicatiekanalen van die service in de gaten houden om op de hoogte te blijven van nieuwe releases. Er is echter een geweldig project genaamd Obtanium dat dit probeert op te lossen. [Obtainium](https://github.com/ImranR98/Obtainium) stelt je in staat om Open-Source apps direct vanaf hun releases pagina's te installeren en bij te werken, en meldingen te ontvangen wanneer er nieuwe releases beschikbaar zijn.
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 Obtanium preview
@@ -285,7 +292,7 @@ Om dit te bereiken in Vanadium, GrapheneOS' eigen browser, navigeer je gewoon na
 Het enige nadeel van deze aanpak is dat je geen meldingen krijgt omdat dit gewoon een bladwijzer is. Maar sommigen zien dat misschien als een voordeel!
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 Twitter PWA
@@ -306,14 +313,15 @@ Voor momenten dat je toegang nodig hebt tot Tor native `.onion` sites, kun je de
 Om je online activiteiten te beschermen tegen je snooping internet service provider (ISP), is een Virtual Private Network (VPN) app een goede optie. Een VPN stuurt je internetverkeer in een versleutelde tunnel naar een gedeeld IP Address dat wordt beheerd door de VPN-serviceprovider om ervoor te zorgen dat de activiteiten van je apparaat niet aan jou kunnen worden gekoppeld.
 
 
-Hieronder staan 3 gerespecteerde opties waarmee je in Bitcoin kunt betalen zonder persoonlijke gegevens te verstrekken. Alle 3 de opties zijn beschikbaar via F-Droid.
+Hier zijn twee erkende opties waarmee je de dienst kunt betalen met Bitcoin zonder enige persoonlijke informatie te verstrekken. Beide zijn beschikbaar op F-Droid.
 
 
 
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
 
+
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Berichten
 
@@ -325,30 +333,39 @@ De meeste mensen die niet geïnteresseerd zijn in privacy, gebruiken waarschijnl
 
 
 
-- [Signal](https://signal.org/) is een van de populairdere end-to-end versleutelde (E2EE) messengers met een sterke staat van dienst en uitgebreide functies. Signal vereist een telefoonnummer om je aan te melden, dus als je van plan bent om te chatten met mensen waarvan je liever niet hebt dat ze je telefoonnummer weten, kijk dan eens naar alternatieven. Signal moet worden gedownload via de Aurora Store.
+- [Signal](https://signal.org/) is een van de populairdere end-to-end versleutelde (E2EE) messengers met een sterke staat van dienst en uitgebreide functies. Signal vereist een telefoonnummer om je aan te melden, dus als je van plan bent om te chatten met mensen waarvan je liever niet hebt dat ze je telefoonnummer weten, kijk dan eens naar alternatieven **_[of verberg je nummer in je profielinstellingen](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames)_**. Signal moet worden gedownload via de Aurora Store.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) is een vrij nieuwe E2EE messenger. Het heeft geen gebruikers-ID, vereist geen telefoonnummer of persoonlijke informatie. Mensen vinden je door je persoonlijke QR-code te scannen of door je unieke link te bezoeken. Simplex staat geavanceerde gebruikers ook toe om hun eigen server te draaien om de afhankelijkheid van een gecentraliseerde entiteit verder te verminderen. Simplex heeft geen desktop client, dus is misschien niet geschikt als multi-device op je prioriteitenlijst staat. Simplex voor Android is beschikbaar via F-Droid.
 - [Threema](https://threema.ch/en/faq/libre_installation) biedt een soortgelijke ervaring als Simplex, maar bestaat al langer en voelt daardoor wat meer gepolijst aan. Threema is niet gratis, een levenslange licentie kost $4,99 en kan worden gekocht met Bitcoin. Threema biedt een webclient en native desktopapplicaties. De Android applicatie is beschikbaar via F-Droid.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) is een onofficiële FOSS Fork van de officiële Telegram-app voor Android. Telegram heeft E2EE 'geheime chats', maar de standaardoptie is niet privé. Telegram FOSS kan worden gedownload van F-Droid.
+- [Mercurygram](https://f-droid.org/en/packages/it.belloworld.mercurygram/) is een onofficiële FOSS Fork van de officiële Telegram-app voor Android. Telegram heeft E2EE 'geheime chats', maar de standaardoptie is niet privé. Mercurygram kan worden gedownload van F-Droid.
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 Links: Threema, rechts: Simplex
 
+
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Media
 
 
 
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) is een cross-platform Spotify-client waarvoor je geen Premium-account nodig hebt. Spotube is beschikbaar via F-Droid.
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) is een fantastische applicatie voor het gratis streamen van muziek van YouTube. ViMusic is verkrijgbaar bij F-Droid.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) biedt een YouTube-ervaring zonder de vervelende advertenties en twijfelachtige toestemmingen. Met NewPipe kun je je abonneren op kanalen, op de achtergrond luisteren en zelfs downloaden om offline te bekijken. NewPipe is toegankelijk via F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) is een podcastspeler waarmee je je kunt abonneren op al je favoriete shows en deze kunt beheren. AntennaPod is beschikbaar via F-Droid.
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
-Links: Spotube, rechts: ViMusic
+Spotube
 
 
 ### Kaarten
@@ -363,7 +380,7 @@ Als je stemassistentie wilt tijdens het rijden en het gebruik van een kaarten-ap
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) is een ander geweldig alternatief voor kaarten dat alle bovenstaande functies ondersteunt.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Links: Magische aarde, rechts: Organische kaarten
 
@@ -377,7 +394,7 @@ Links: Magische aarde, rechts: Organische kaarten
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) is een open source e-mailclient die met vrijwel elke e-mailprovider werkt. Het ondersteunt meerdere accounts, een verenigde inbox en de OpenPGP encryptiestandaard.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Links: Proton Mail, rechts: Tutanota
 
@@ -386,7 +403,7 @@ Links: Proton Mail, rechts: Tutanota
 
 
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) is een bestandssynchronisatieprogramma. Het synchroniseert bestanden tussen twee of meer apparaten in realtime, veilig beschermd tegen nieuwsgierige ogen. Uw gegevens zijn alleen uw gegevens en u verdient het om te kiezen waar het wordt opgeslagen, of het wordt gedeeld met een derde partij, en hoe het wordt verzonden via het internet. Syncthing is beschikbaar via F-Droid.
+- [Syncthing Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingfork/) is een fork van het bestandssynchronisatieprogramma. Het synchroniseert bestanden tussen twee of meer apparaten in realtime, veilig beschermd tegen nieuwsgierige ogen. Uw gegevens zijn alleen uw gegevens en u verdient het om te kiezen waar het wordt opgeslagen, of het wordt gedeeld met een derde partij, en hoe het wordt verzonden via het internet. Syncthing Fork is beschikbaar via F-Droid.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) al je apparaten om gemakkelijk met elkaar te praten wanneer ze verbonden zijn met je thuisnetwerk. Verstuur eenvoudig bestanden, foto's en klembordgegevens over al je apparaten (zelfs op iOS!). KDE connect kan worden gedownload van F-Droid.
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) is een E2EE notitie applicatie voor het synchroniseren van je gedachten en to-do lijsten op al je apparaten. Hun gratis plan zou de meeste persoonlijke gebruikssituaties moeten dekken. Notesnook is beschikbaar op F-Droid.
 - [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) lijkt erg op Notesnook, maar vereist een betaald abonnement voor de functieset. Standard Notes is beschikbaar via F-Droid.
@@ -394,7 +411,7 @@ Links: Proton Mail, rechts: Tutanota
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) is de standaard Google-toetsenbord-app. In mijn ervaring biedt het veruit de beste type- en veegervaring. Als je deze app downloadt, zorg er dan voor dat je alle netwerkgerelateerde toestemmingen volledig uitschakelt. Hij kan worden gedownload via Aurora.
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Links: Notesnook, rechts: KDE Connect
 
@@ -403,13 +420,13 @@ Links: Notesnook, rechts: KDE Connect
 
 
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) is een prachtig ontworpen Open Source weer-app die beschikbaar is via F-Droid. Het ondersteunt ook widgets in verschillende formaten, zodat je het weer op de door jou gekozen locatie rechtstreeks vanaf je startscherm kunt zien.
+- [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) is een functierijke open source weer-app met Material 3 Expressive interface; het biedt doordachte visualisaties, voorspellingen, realtime condities, luchtkwaliteit, pollen, weerwaarschuwingen van meer dan 50 bronnen.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) is een Open Source en privacy beschermende vertaal app die meer dan 200 talen ondersteunt. Translate You is beschikbaar via F-Droid.
 - [Proton Calendar](https://proton.me/calendar/download) is een eenvoudig te gebruiken E2EE die naadloos samenwerkt met je Proton e-mailaccounts. Proton Calendar kan worden gedownload als een APK of via de Aurora store.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) is een app voor het weergeven en opslaan van instapkaarten, coupons, bioscoopkaartjes en lidmaatschapskaarten etc. Download gewoon het relevante `pkpass` of `espass` bestand en open het met de app. PassAndroid is beschikbaar via F-Droid.
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 Links: Geometrisch weer, rechts: Protonkalender
 
@@ -422,13 +439,22 @@ Links: Geometrisch weer, rechts: Protonkalender
 - [Proton Pass](https://proton.me/pass/download) biedt een vergelijkbare gratis service als Bitwarden, maar [Proton Unlimited](https://proton.me/pricing) klanten hebben toegang tot extra geavanceerde functies. Proton Pass is beschikbaar via APK of Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) is een tweefactorauthenticatietoepassing voor systemen die gebruikmaken van eenmalige wachtwoordprotocollen. Tokens kunnen eenvoudig worden toegevoegd door een QR-code te scannen. FreeOTP is beschikbaar via F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) is een gratis, veilige en Open Source app voor Android om je 2-staps verificatie tokens voor je online diensten te beheren. Aegis is beschikbaar via F-Droid.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) is een betaalde, platformonafhankelijke service die je gegevens lokaal versleutelt zodat je ze veilig kunt uploaden naar je favoriete cloudservice. Cryptomator kan worden gedownload via F-Droid.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) is een gratis platformonafhankelijke service (_alleen betaald via Google Play op Android_) die je gegevens lokaal versleutelt zodat je ze veilig kunt uploaden naar je favoriete cloudservice. Cryptomator kan worden gedownload via F-Droid.
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
-Links: Proton Pass, rechts: Bitwarden
+Links: Proton Pass,
+rechts: Bitwarden
 
+
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### Cloud Oplossingen
 
@@ -440,10 +466,12 @@ Links: Proton Pass, rechts: Bitwarden
 - [Cryptpad](https://cryptpad.fr/) biedt een gratis, webgebaseerd, E2EE alternatief voor Google Docs.
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Aandrijving
 
+
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## De nadelen
 
@@ -455,10 +483,10 @@ Maar als je overstapt op GrapheneOS, zijn er een aantal gemakken die je moet opg
 
 
 
-- Apple CarPlay/Android Auto** - Je zult het bij ouderwetse Bluetooth, USB of Aux moeten houden.
-- Apple/Google Pay** - Bijna iedereen heeft toch al zijn Wallet bij zich!
-- Bankieren-apps** - Het is niet zo dat deze helemaal niet werken. Sommige werken perfect. Andere werken alleen als Google Play Services is ingeschakeld (lees daar hieronder meer over) en weer andere werken gewoon helemaal niet. Lees het rapport over jouw bank [hier](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) om de huidige stand van zaken te zien. Vrees niet als de jouwe op de lijst staat die niet werkt, vergeet niet dat je de URL gewoon kunt opslaan als een webapp op je startscherm.
-- Pushmeldingen** - De meeste applicaties die je updates sturen wanneer je een specifieke app niet gebruikt, doen dit via Google Play Services. Deze zijn niet standaard geïnstalleerd bij GrapheneOS, dus als je merkt dat je niet meteen een melding krijgt als je vriend je een e-mail stuurt, is dit waarschijnlijk de reden. Het goede nieuws is dat sommige van de hierboven genoemde apps hun eigen verbinding op de achtergrond hebben geïmplementeerd om periodiek te controleren op updates en je dan een melding te geven indien nodig
+- **Apple CarPlay/Android Auto** - Je zult het bij ouderwetse Bluetooth, USB of Aux moeten houden.
+- **Apple/Google Pay** - Bijna iedereen heeft toch al zijn Wallet bij zich!
+- **Bankieren-apps** - Het is niet zo dat deze helemaal niet werken. Sommige werken perfect. Andere werken alleen als Google Play Services is ingeschakeld (lees daar hieronder meer over) en weer andere werken gewoon helemaal niet. Lees het rapport over jouw bank [hier](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) om de huidige stand van zaken te zien. Vrees niet als de jouwe op de lijst staat die niet werkt, vergeet niet dat je de URL gewoon kunt opslaan als een webapp op je startscherm.
+- **Pushmeldingen** - De meeste applicaties die je updates sturen wanneer je een specifieke app niet gebruikt, doen dit via Google Play Services. Deze zijn niet standaard geïnstalleerd bij GrapheneOS, dus als je merkt dat je niet meteen een melding krijgt als je vriend je een e-mail stuurt, is dit waarschijnlijk de reden. Het goede nieuws is dat sommige van de hierboven genoemde apps hun eigen verbinding op de achtergrond hebben geïmplementeerd om periodiek te controleren op updates en je dan een melding te geven indien nodig
 
 
 ### Sandboxed Google Play
@@ -476,7 +504,7 @@ Voordat je je haast om deze op dag 1 te installeren, dring ik er bij je op aan o
 Als je ze toch wilt installeren, tik je gewoon op de vooraf geïnstalleerde applicatie 'Apps' gevolgd door 'Google Play Services'. Overweeg om ze te installeren naast de minder privé-apps waar je niet zonder kunt, binnen een volledig apart gebruikersprofiel om die extra Layer van afscheiding van de rest van je telefoon te bieden.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Installatiescherm Play Services
 
@@ -492,10 +520,10 @@ Als je maar een of twee van die must have-apps hebt die Play Services nodig hebb
 Je kunt [hier] meer lezen over deze use case (https://discuss.grapheneos.org/d/168-ideas-for-user-profiles/2).
 
 
-Als u besluit om een apart profiel toe te voegen voor uw gebruik, kan de app [Insular] (https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) nuttig voor u zijn. Met Insular kunt u eenvoudig al uw bestaande apps klonen naar het nieuwe profiel zonder dat u de traditionele installatieroutes hoeft te volgen die eerder in deze handleiding zijn beschreven. Met Insular kun je die apps ook snel 'bevriezen' om alle achtergronddiensten van die app volledig uit te schakelen.
+Als u besluit om een apart profiel toe te voegen voor uw gebruik, kan de app [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) nuttig voor u zijn. Met Insular kunt u eenvoudig al uw bestaande apps klonen naar het nieuwe profiel zonder dat u de traditionele installatieroutes hoeft te volgen die eerder in deze handleiding zijn beschreven. Met Insular kun je die apps ook snel 'bevriezen' om alle achtergronddiensten van die app volledig uit te schakelen.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Scherm voor gebruikersprofielbeheer
 
@@ -506,7 +534,7 @@ Scherm voor gebruikersprofielbeheer
 Als je de privacy van je telefoon naar een hoger niveau wilt tillen en een mobiele dienst wilt hebben die losstaat van je echte identiteit, dan is een eSIM misschien iets voor jou. Een eSIM is een virtuele SIM die je online kunt kopen en aan je telefoon kunt toevoegen via een QR-code. Bedrijven die dergelijke diensten aanbieden die anoniem betaald kunnen worden met Bitcoin zijn onder andere [Silent.Link](https://silent.link/) en [Bitrefill](https://www.bitrefill.com/gb/en/esims/).
 
 
-eSIM's moeten niet worden gezien als een volledig wondermiddel voor telefoonprivacy. In de juiste handen kunnen ze een nuttig hulpmiddel zijn, maar doe alsjeblieft onderzoek naar de [tradeoffs] (https://grapheneos.org/faq#cellular-tracking) van het gebruik van elk type mobiele service als je van plan bent om volledig 'off grid' te gaan.
+eSIM's moeten niet worden gezien als een volledig wondermiddel voor telefoonprivacy. In de juiste handen kunnen ze een nuttig hulpmiddel zijn, maar doe alsjeblieft onderzoek naar de [tradeoffs](https://grapheneos.org/faq#cellular-tracking) van het gebruik van elk type mobiele service als je van plan bent om volledig 'off grid' te gaan.
 
 
 Sandboxed Play Services moeten worden geïnstalleerd voor eSIM provisioning in GrapheneOS.
@@ -533,7 +561,7 @@ Om uw eerste back-up te maken:
 4. Tik op de drie puntjes rechtsboven en kies **Backup nu**.
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 Back-up scherm
@@ -576,4 +604,4 @@ GrapheneOS is een konijnenhol waar je gemakkelijk weken in kunt duiken. Er is zo
 - [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast door 'Watchman Privacy'
 
 
-volledige eer aan: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Deze handleiding is een bewerking van de originele inhoud gepubliceerd door [BitcoinQnA op Bitcoiner.Guide onder MIT-licentie](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), aan wie de volledige eer toekomt voor het oorspronkelijke schrijfwerk.*

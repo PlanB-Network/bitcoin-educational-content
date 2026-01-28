@@ -1,0 +1,9 @@
+question: Hayeki hajutatud teadmiste teooria kohaselt, miks ei suuda tsentraalne plaanimajandus saavutada tõhusat ressursside jaotust võrreldes vabaturusüsteemidega?
+answer: Kesksed planeerijad ei pääse ligi killustatud ja kohalikele teadmistele, mida omavad ainult üksikud turuosalised oma konkreetsete vajaduste, eelistuste ja asjaolude kohta
+wrong_answers:
+  - Keskplaneerijatel puudub arvutusvõimsus ja täiustatud algoritmid, mis on vajalikud kõigi optimaalseks ressursside jaotamiseks vajalike majandusandmete töötlemiseks
+  - Keskplaneerijad on loomupäraselt korrumpeerunud ja omakasupüüdlikud, seades oma isikliku kasu esikohale ühiskonna kui terviku heaolu ees
+  - Kesksed planeerijad on ideoloogiliselt kallutatud ja keelduvad turupõhiste lahenduste rakendamisest isegi siis, kui nad tunnistavad nende paremat tõhusust
+explanation: |
+  Hayeki põhiline arusaam hajutatud teadmistest näitab, et teave individuaalsete eelistuste, kohalike tingimuste ja subjektiivsete väärtushinnangute kohta on miljonite inimeste seas olemas ainult killustatud kujul. Neid teadmisi ei saa tsentraalselt koguda ega koondada, sest need on vaikivad, pidevalt muutuvad ja sageli vastuolulised. Vabad turud lahendavad selle probleemi hinnamehhanismi kaudu, mis kooskõlastab spontaanselt seda hajutatud teavet vabatahtliku vahetuse kaudu.
+  Teised võimalused keskenduvad ebaõigesti tehnilistele piirangutele, moraalsetele puudustele või ideoloogilistele eelarvamustele, mitte aga peamisele epistemoloogilisele probleemile, et ükski keskne asutus ei saa omada tõhusaks koordineerimiseks vajalikke hajutatud teadmisi.

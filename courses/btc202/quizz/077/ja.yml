@@ -1,0 +1,9 @@
+question: bocks/index/でブロックのメタデータを格納するために使用されるデータベースは？
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Berkeley DB
+explanation: |
+  ビットコインコアは、ブロックのインデックスを生成するために、blocks/index/でLevelDBを使用し、検索とピアへのサービスを高速化している。
+reviewed: true

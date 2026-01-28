@@ -1,0 +1,9 @@
+question: Mitä itse isännöiviä sovelluksia voidaan asentaa Umbrelin kautta?
+answer: Nextcloud
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel tarjoaa App Store -sovelluskaupan, jossa on Nextcloudin kaltaisia itsepalvelupalveluja, joiden avulla voit tallentaa ja synkronoida tiedostoja itse.
+reviewed: true

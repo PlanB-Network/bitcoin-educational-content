@@ -44,7 +44,7 @@ Hapa, tunaanza na kuunda kwingineko mpya. Tazama hapa chini kwa mapendekezo yetu
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**MUHIMU**: Maneno haya ya urejeshaji 12/24 ni muhimu kwa ufikiaji wa bitcoins zako. Ukizipoteza, hutaruhusiwa tena kutumia bitcoins zako.
 
@@ -67,7 +67,7 @@ Kisha unda msimbo wa PIN ili kuthibitisha ufikiaji wa Wallet yako.
 
 
 
-Biashara na Blitz ni angavu zaidi kuliko pochi zingine nyingi za Bitcoin.
+Biashara na Blitz ni angavu zaidi kuliko Wallet zingine nyingi za Bitcoin.
 
 
 
@@ -93,23 +93,23 @@ Mojawapo ya sifa maalum za Blitz Wallet ni kwamba inasaidia mitandao na chaneli 
 
 
 
-- Lightning Network** : Mojawapo ya viwekeleo vya Bitcoin ambavyo hukuwezesha kufanya shughuli ndogo ndogo papo hapo.
+- **Lightning Network**: Mojawapo ya viwekeleo vya Bitcoin ambavyo hukuwezesha kufanya shughuli ndogo ndogo papo hapo.
 
 
 
 
 
-- Bitcoin Mainnet** : Msururu mkuu wa itifaki ya Bitcoin, inayofaa kwa shughuli za thamani kubwa.
+- **Bitcoin Mainnet**: Msururu mkuu wa itifaki ya Bitcoin, inayofaa kwa shughuli za thamani kubwa.
 
 
 
 
 
-- Liquid Network**: Msururu sambamba na Bitcoin Mainnet uliotengenezwa na BlockStream inayotumia Liquid Bitcoins kutekeleza haraka, Confidential Transactions.
+- **Liquid Network**: Msururu sambamba na Bitcoin Mainnet uliotengenezwa na BlockStream inayotumia Liquid Bitcoins kutekeleza haraka, Confidential Transactions.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Kwa chaguo-msingi, miamala yako yote itakuwa kwenye Liquid Network, lakini Blitz hukuruhusu kufafanua mtandao ambao ungependa kupokea satoshi kwa kubofya kitufe cha **Chagua umbizo**.
 
@@ -127,7 +127,7 @@ Blitz Wallet hukurahisishia kutuma bitcoins kutoka Wallet yake.
 
 
 
-Katika menyu ya **Anwani**, unaweza kusajili majina ya watumiaji ya Blitz au URL za Umeme unazotumia kuwasiliana nazo zaidi.
+Katika menyu ya **address**, unaweza kusajili majina ya watumiaji ya Blitz au URL za Umeme unazotumia kuwasiliana nazo zaidi.
 
 
 
@@ -163,13 +163,13 @@ Kiasi cha chini cha kutuma Bitcoin katika Blitz Wallet kwa sasa ni satoshi 1,000
 
 
 
-Kando na shughuli za uhamishaji za Bitcoin, Blitz Wallet inakupa duka ambapo unaweza kutumia bitcoins zako kulipia huduma za kidijitali.
+Kando na miamala ya uhamishaji za Bitcoin, Blitz Wallet inakupa duka ambapo unaweza kutumia bitcoins zako kulipia huduma za kidijitali.
 
 
 
 
 
-- Fikia huduma za AI**: Tumia miundo ya kijasusi ya bandia kama vile: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 na ulipe moja kwa moja kwa bitcoins.
+- **Fikia huduma za AI**: Tumia miundo ya kijasusi ya bandia kama vile: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 na ulipe moja kwa moja kwa bitcoins.
 
 
 
@@ -179,7 +179,7 @@ Kando na shughuli za uhamishaji za Bitcoin, Blitz Wallet inakupa duka ambapo una
 
 
 
-- Tuma SMS popote duniani**: Katika duka la Blitz, unaweza kufikia huduma ya GSM inayokuruhusu kutuma ujumbe mfupi bila kukutambulisha popote duniani, ukitumia malipo ya moja kwa moja katika Bitcoin.
+- **Tuma SMS popote duniani**: Katika duka la Blitz, unaweza kufikia huduma ya GSM inayokuruhusu kutuma ujumbe mfupi bila kukutambulisha popote duniani, ukitumia malipo ya moja kwa moja katika Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Kando na shughuli za uhamishaji za Bitcoin, Blitz Wallet inakupa duka ambapo una
 
 
 
-- Tumia usiri kamili**: Lipia usajili wa WireGuard VPN (Mtandao wa Kibinafsi wa Kawaida) katika duka la Wallet Blitz na bitcoins zako.
+- **Tumia usiri kamili**: Lipia usajili wa WireGuard VPN (Mtandao wa Kibinafsi wa Kawaida) katika duka la Wallet Blitz na bitcoins zako.
 
 
 
@@ -197,11 +197,11 @@ Kando na shughuli za uhamishaji za Bitcoin, Blitz Wallet inakupa duka ambapo una
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
-## Wallet Blitz nyuma ya pazia: Kwenda mbele zaidi
+## Wallet Blitz nyuma ya pazia: Kuenda mbele zaidi
 
 
 
@@ -221,7 +221,7 @@ Mbinu hii inathibitishwa na hamu ya kuwezesha matumizi ya uanzishaji na kusaidia
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Unaweza kuona uchanganuzi wa salio lako kwenye menyu **Mipangilio>Maelezo ya Salio**.
 
@@ -235,7 +235,7 @@ Blitz Wallet, hata hivyo, hukupa wepesi wa kuwezesha hali ya Mwanga, ambayo itak
 
 
 
-Ili kuamilisha hali ya Umeme, nenda kwa **Mipangilio**, kisha katika sehemu ya **Mipangilio ya Kiufundi**, bofya kwenye chaguo la **Maelezo ya Nodi**.
+Ili kuamilisha hali ya Umeme, nenda kwa **Mipangilio**, kisha katika sehemu ya **Mipangilio ya Kiufundi**, bofya kwenye chaguo la **Maelezo ya Node**.
 
 
 
@@ -243,13 +243,13 @@ Ili kuamilisha hali ya Umeme, nenda kwa **Mipangilio**, kisha katika sehemu ya *
 
 
 
-Kwa kuwezesha hali ya Umeme, mara tu hali kuu itakapotimizwa (salio la satoshi 500,000 au 0.005 Bitcoin), utaweza kufanya miamala kwenye Lightning Network na hutalazimika tena kupitia Liquid Network ya BlockStream.
+Kwa kuwezesha hali ya Lightning, mara tu hali kuu itakapotimizwa (salio la satoshi 500,000 au 0.005 Bitcoin), utaweza kufanya miamala kwenye Lightning Network na hutalazimika tena kupitia Liquid Network ya BlockStream.
 
 
 
 
 
-- Kubali Bitcoin kwenye duka lako** :
+- **Kubali Bitcoin kwenye duka lako** :
 
 
 
@@ -269,5 +269,4 @@ Ikiwa somo hili lilikusaidia kuelewa Blitz, tuna uhakika kwamba utafurahia mafun
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

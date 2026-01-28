@@ -1,5 +1,5 @@
 ---
-name: Thẻ Coincards
+name: Coincards
 description: Làm thế nào tôi có thể mua hàng hóa và dịch vụ bằng BTC với Coincards?
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Giống như người anh lớn Bitrefill và các đối thủ cạnh tranh (C�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards cung cấp nhiều lựa chọn, từ bán lẻ đến thức ăn nhanh, nền tảng phát trực tuyến, trò chơi trực tuyến, trang web thương mại điện tử, v.v.
 
@@ -67,7 +67,7 @@ Coincards cam kết bảo vệ quyền riêng tư của bạn. Họ cho phép b�
 
 
 
-Bạn có thể tìm thấy một số hướng dẫn về danh mục đầu tư Lightning chính (Phoenix, Breez, BitKit, Zeus...) tại đây: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+Bạn có thể tìm thấy một số hướng dẫn về danh mục đầu tư Lightning chính (Phoenix, Breez, BitKit, Zeus...) tại đây: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ Nếu bạn muốn tìm hiểu thêm về cách thức hoạt động của Ligh
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Làm thế nào để mua thẻ quà tặng BTC trên Coincards?
 
@@ -244,4 +244,4 @@ Nếu bạn muốn góp phần phổ biến Bitcoin và khuyến khích một nh
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

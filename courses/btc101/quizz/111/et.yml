@@ -1,9 +1,9 @@
-question: Mida tähendab KYC?
-answer: Tunne Oma Klienti
+question: Mis sõnum on sisaldunud Bitcoin'i plokiahela esimeses plokis?
+answer: 03/jaan/2009 Rahandusminister panganduse teise päästepaketi äärel.
 wrong_answers:
-  - Hoia Oma Raha
-  - Sisesta Oma Koode
-  - Lahkelt Järgi Nõudeid
+  - Me võime võita suure lahingu relvavõidujooksus ja saavutada mitmeks aastaks uue vabaduse territooriumi.
+  - Valitsused on osavad lõikama maha tsentraalselt juhitud võrkude, nagu Napster, pead, kuid puhtad P2P võrgud nagu Gnutella ja Tor näivad endiselt vastu pidavat.
+  - Mitte ükski ülaltoodust
 explanation: |
-  KYC ehk Tunne Oma Klienti viitab protsessile, mida ettevõtted läbivad oma klientide isikusamasuse tuvastamiseks. See tehakse tavaliselt regulatsioonidele vastavuse tagamiseks ja ebaseaduslike tegevuste, nagu rahapesu või pettuste, ärahoidmiseks.
+  Bitcoin'i plokiahela esimene plokk, tuntud ka kui algusplokk, sisaldab sõnumit 03/jaan/2009 Rahandusminister panganduse teise päästepaketi äärel, mis on selle päeva Time ajakirja pealkiri, et ajatempliga märkida algusplokki.
 reviewed: true

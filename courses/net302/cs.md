@@ -90,7 +90,7 @@ Jste připraveni ponořit se do světa počítačových sítí? Jdeme na to!
 **POZNÁMKA**: Popisy jsou založeny na systému GNU/Linux CentOS 7. Síťové konfigurace jsou však při porovnání systému Debian a CentOS z velké části stejné. Nebudeme tedy dělat žádné rozdíly. Pokud nějaké bude, uvedeme před něj specifické logo.
 
 
-**N.B.**: Pokud se v průběhu kurzu setkáte s neznámými pojmy, vyhledejte si jejich definice ve [slovníčku pojmů](https://planb.network/resources/glossary).
+**N.B.**: Pokud se v průběhu kurzu setkáte s neznámými pojmy, vyhledejte si jejich definice ve [slovníčku pojmů](https://planb.academy/resources/glossary).
 
 
 
@@ -138,7 +138,7 @@ Výhodou tohoto uspořádání je jednoduchost kabeláže a absence závislosti 
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/cs/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Toto hierarchické uspořádání se osvědčuje zejména u velkých sítí, kte
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/cs/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Hlavní výhodou sběrnicové topologie jsou nízké náklady na instalaci díky
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/cs/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Toto uspořádání usnadňuje správu a údržbu: pokud dojde k poruše jednoho
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/cs/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Kompromisem je, že s počtem terminálů rychle roste počet navazovaných spoj
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/cs/005.webp)
 
 
 
@@ -240,8 +240,8 @@ Na řízení a vývoj těchto protokolů dohlíží ***Internet Architecture Boa
 Tato organizace koordinuje technické směry prostřednictvím dvou hlavních struktur:
 
 
-- IRTF** (_Internet Research Task Force_), která provádí dlouhodobý výzkum vývoje a zdokonalování protokolů.
-- IETF** (_Internet Engineering Task Force_), která vyvíjí, standardizuje a dokumentuje operační protokoly používané na internetu
+- **IRTF** (_Internet Research Task Force_), která provádí dlouhodobý výzkum vývoje a zdokonalování protokolů.
+- **IETF** (_Internet Engineering Task Force_), která vyvíjí, standardizuje a dokumentuje operační protokoly používané na internetu
 
 
 Distribuci síťových prostředků (rozsahy IP Address, čísla autonomních systémů, kořenová doménová jména atd.) koordinuje na mezinárodní úrovni **IANA/ICANN**. Provozní řízení se opírá o: **RIR** (*Regionální internetové registry*): **RIPE NCC** (Evropa, Střední východ, Střední Asie), **ARIN**, **APNIC**, **LACNIC** a **AFRINIC**.
@@ -263,7 +263,7 @@ Zásobník TCP/IP je často představován jako zásobník čtyř funkčních vr
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/cs/006.webp)
 
 
 
@@ -283,11 +283,11 @@ Každá část Layer zásobníku TCP/IP poskytuje specifické služby, což umo�
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## Protokol IPv5 QoS
 
@@ -306,18 +306,19 @@ Záhlaví paketu IP je základní datová struktura rozdělená do několika pol
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Číslo verze | Protokol | Popis verze | Reference |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Rezervováno | Rezervováno | |
+| 2–3 | Nepřiřazeno | Nepřiřazeno | |
+| 4 | IP | Internet Protocol | RFC 791 |
+| **5** | **ST** | **ST režim datagramů** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internet Protocol verze 6 | RFC 8200 |
+| 7 | TP/IX | Příští internet | RFC 1475 |
+| 8 | PIP | P Internet Protocol | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Nepřiřazeno | Nepřiřazeno | |
+| 15 | Rezervováno | Rezervováno | |
 
 Mezi ně patří IPv5, který, ačkoli je veřejnosti z velké části neznámý, existoval jako ST (_Stream Protocol_). Protokol IPv5, vyvinutý v 80. letech 20. století, byl navržen jako Address, což byla v té době rostoucí potřeba: poskytovat "_kvalitu služby_" (QoS) pro určité datové toky, které vyžadovaly nepřetržitý a stabilní přenos, jako například přenos hlasu přes IP nebo multimediální toky. Jeho cílem bylo zaručit koncovou šířku pásma a prioritu, což je podobný koncept, jaký dnes nabízí protokol RSVP (_Resource Reservation Protocol_) pro dynamické rezervování síťových zdrojů v moderních směrovačích.
 
@@ -354,9 +355,9 @@ Na fyzické úrovni se přenos opírá o hardwarová rozhraní, která vytváře
 Tři konfigurace sítě Elements určují, jakým způsobem bude paket odeslán na svou cestu:
 
 
-- IP Address**: jednoznačně identifikuje cílového hostitele v síti.
-- Maska podsítě**: určuje, která část čísla Address identifikuje síť a která část hostitele, což umožňuje logické rozdělení do podsítí.
-- Brána**: označuje zprostředkující směrovač, přes který má paket projít, aby se dostal do vnější sítě nebo jiného segmentu místní sítě.
+- **IP Address**: jednoznačně identifikuje cílového hostitele v síti.
+- **Maska podsítě**: určuje, která část čísla Address identifikuje síť a která část hostitele, což umožňuje logické rozdělení do podsítí.
+- **Brána**: označuje zprostředkující směrovač, přes který má paket projít, aby se dostal do vnější sítě nebo jiného segmentu místní sítě.
 
 
 Na internetu neproudí data jako jeden souvislý proud, ale posílají se jako **datagramy**: nezávislé bloky dat, z nichž každý obsahuje všechny informace potřebné k doručení. Jedná se o princip **přepínání paketů**, kdy jsou informace rozděleny do samostatných jednotek, které mohou k jednomu příjemci dojít různými cestami.
@@ -381,16 +382,16 @@ Pokud má datagram IP projít sítí, jejíž přenosová kapacita je menší ne
 Každá síťová technologie má svou vlastní MTU, která je určena vlastnostmi hardwaru a protokolu. Mezi běžné hodnoty patří:
 
 
-- ARPANET**: 1000 bajtů
-- Ethernet**: 1500 bajtů
-- FDDI**: 4470 bajtů
+- **ARPANET**: 1000 bajtů
+- **Ethernet**: 1500 bajtů
+- **FDDI**: 4470 bajtů
 
 
 Pokud datagram překročí MTU síťového segmentu, kterým musí projít, směrovací zařízení jej rozdělí na menší **fragmenty**, které splňují limit. K tomu obvykle dochází při přechodu ze sítě s vysokou MTU na síť s nižší kapacitou. Například datagram přicházející ze sítě FDDI může být nutné před odesláním přes segment sítě Ethernet fragmentovat.
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/cs/007.webp)
 
 
 
@@ -427,11 +428,11 @@ Předávání se tedy řídí strukturovaným procesem:
 - Aplikace Layer vytvoří počáteční **zprávu** obsahující nezpracovaná data.
 - Transportní modul Layer jej zapouzdří do **segmentu** a přidá zdrojový a cílový port, sekvenční čísla a mechanismy řízení toku.
 - Internet Layer přidá k segmentu hlavičku IP a vytvoří tak **datagram**, v němž jsou uvedeny zdrojová a cílová adresa IP.
-- Přístup k síti Layer zabalí datagram do rámce**, přidá adresy MAC a kontrolní kódy integrity (CRC).
+- Přístup k síti Layer zabalí datagram do **rámce**, přidá adresy MAC a kontrolní kódy integrity (CRC).
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/cs/008.webp)
 
 
 
@@ -442,21 +443,21 @@ Po příchodu je proces obrácený: přijímací stroj dostane rámec do zaříz
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/cs/009.webp)
 
 
 
 Transformaci dat u každého Layer lze shrnout takto:
 
 
-- Zpráva**: blok informací v aplikaci Layer.
-- Segment**: datová jednotka po zapouzdření transportní jednotkou Layer.
-- Datagram**: forma, která vznikne po přidání hlavičky IP internetovou službou Layer.
-- Rámec**: konečný blok připravený k přenosu přes fyzické médium prostřednictvím zařízení Network Access Layer.
+- **Zpráva**: blok informací v aplikaci Layer.
+- **Segment**: datová jednotka po zapouzdření transportní jednotkou Layer.
+- **Datagram**: forma, která vznikne po přidání hlavičky IP internetovou službou Layer.
+- **Rámec**: konečný blok připravený k přenosu přes fyzické médium prostřednictvím zařízení Network Access Layer.
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/cs/010.webp)
 
 
 
@@ -475,8 +476,8 @@ V protokolu IPv4 je IP adresa Address kódována na **32 bitů** a zapsána jako
 Protokol IP Address má dvě části:
 
 
-- _netid_**: identifikuje síť, do které hostitel patří
-- _hostid_**: identifikuje konkrétního hostitele v dané síti
+- **netid**: identifikuje síť, do které hostitel patří
+- **hostid**: identifikuje konkrétního hostitele v dané síti
 
 Toto rozdělení umožňuje logicky strukturovat globální internet do mnoha vzájemně propojených sítí.
 
@@ -485,14 +486,15 @@ Historicky se systém IPv4 opíral o schéma založené na třídách s označen
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Třída** | **Rozsah IPv4 adres**            | **Použití**                  |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x až 126.x.x.x              | Unicast adresy               |
+|           | (127.x.x.x vyhrazeno pro loopback)| Lokální loopback             |
+| B         | 128.0.x.x až 191.255.x.x          | Unicast adresy               |
+| C         | 192.0.0.x až 223.255.255.x        | Unicast adresy               |
+| D         | 224.0.0.0 až 239.255.255.255      | IP Multicast                 |
+| E         | 240.0.0.0 až 255.255.255.255      | Vyhrazeno pro experimenty    |
 
 Hostitelům nelze přiřadit všechny možné hodnoty. Například v **třídě C** Address nabízí poslední bajt 8 bitů (256 hodnot). Dva z nich jsou však vyhrazeny:
 
@@ -507,16 +509,16 @@ Počet dostupných adres se v jednotlivých třídách značně liší: od velk�
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/cs/011.webp)
 
 
 
 Některé rozsahy Address jsou vyhrazeny pro soukromé použití a nikdy nejsou směrovány přímo do internetu. Tyto adresy se označují jako **soukromé adresy** a používají se uvnitř organizací, podniků nebo domácností a pro přístup do veřejného Internetu vyžadují překlad Address, obvykle NAT (*Network Address Translation*). Jedná se o tyto adresy:
 
 
-- Třída A**: od 10.0.0.0 do 10.255.255.255
-- Třída B**: od 172.16.0.0 do 172.31.255.255
-- Třída C**: od 192.168.0.0 do 192.168.255.255
+- **Třída A**: od 10.0.0.0 do 10.255.255.255
+- **Třída B**: od 172.16.0.0 do 172.31.255.255
+- **Třída C**: od 192.168.0.0 do 192.168.255.255
 
 
 Když zařízení s privátním kódem Address přistupuje k Internetu, směrovač nebo brána s podporou NAT jej nahradí platným veřejným kódem Address.
@@ -540,9 +542,9 @@ Pro optimalizaci použití Address a návrh složitých sítí je důležitá **
 Každá třída má výchozí masku:
 
 
-- 255.0,0,0** pro třídu A,
-- 255.255.0.0** pro třídu B,
-- 255.255.255.0** pro třídu C.
+- **255.0,0,0** pro třídu A,
+- **255.255.0.0** pro třídu B,
+- **255.255.255.0** pro třídu C.
 
 
 Správný návrh sítě se řídí základním pravidlem: zařízení, která musí komunikovat přímo, by měla být ve stejné síti nebo podsíti. K segmentaci sítě používáme podsíťování, tedy rozdělení sítě na menší podsítě pomocí specifičtější masky.
@@ -561,7 +563,7 @@ Chceme 4 podsítě po 60 hostitelích.
 **Krok 2**: Najděte nejbližší mocninu čísla 2 ≥ 62. -> 2⁶ = 64.
 
 
-**Krok 3: Upravte masku. Ponechte bity _netid_ a vyhraďte potřebné bity _hostid_. Získáme binární masku, která po převodu dává **255.255.255.192**.
+**Krok 3: Upravte masku. Ponechte bity _netid_ a vyhraďte potřebné bity _hostid_. Získáme binární masku, která po převodu dává** 255.255.255.192.
 
 
 ```
@@ -573,19 +575,20 @@ Chceme 4 podsítě po 60 hostitelích.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID podsítě (bity) | Adresa podsítě | Maska podsítě | Rozsah adres                 | Broadcast adresa |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
 
-
 **Krok 5**: Tím se vytvoří čtyři podsítě, z nichž každá podporuje až 62 strojů, přičemž celkové adresovací schéma zůstane efektivní. Část _hostid_ je rozdělena na část _subnetid_ a část hostitele.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/cs/012.webp)
 
 
 
@@ -623,7 +626,9 @@ Blok /17 obsahuje 2^(32-17) adres, takže 2^15 = 32 768 celkových adres. Po ode
 Pro snazší pochopení velikosti CIDR uvádíme tabulku běžných prefixů a jejich ekvivalentních masek podsítí a použitelných adres:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Prefix CIDR | Dostupné bity hosta | Maska podsítě | Použitelné adresy hostů |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +640,8 @@ Pro snazší pochopení velikosti CIDR uvádíme tabulku běžných prefixů a j
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (pouze point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (pouze adresa hosta)        |
 
 **POZNÁMKA**: Historicky se v RFC 950 nedoporučovalo používat podsíťovou nulu, hlavně proto, aby se předešlo zmatkům při směrování.  Toto omezení se stalo zastaralým s RFC 1878, které jeho použití plně povoluje. Staré omezení bylo způsobeno především nekompatibilitou se starším hardwarem, který neuměl správně zpracovávat CIDR. Moderní zařízení takový problém nemají.
 
@@ -653,7 +657,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Protokol TCP
 
@@ -680,7 +684,7 @@ Protokol TCP je protokol orientovaný na připojení, což znamená, že vytvá�
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/cs/013.webp)
 
 
 
@@ -688,7 +692,7 @@ Pro zvýšení spolehlivosti používá protokol TCP časovač: po odeslání se
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/cs/014.webp)
 
 
 
@@ -711,7 +715,7 @@ Synchronizace sekvence Exchange je založena na známém mechanismu **"*třístr
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/cs/015.webp)
 
 
 
@@ -734,7 +738,7 @@ Z praktického hlediska definuje klouzavé okno rozsah sekvenčních čísel, kt
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/cs/016.webp)
 
 
 
@@ -751,7 +755,7 @@ Toto přesné řízení, které kombinuje flexibilní směrování protokolu IP 
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/cs/017.webp)
 
 
 
@@ -787,20 +791,20 @@ Každá jednotka Layer staví na schopnostech té, která je pod ní, a na oplá
 Tyto výměny se řídí dvěma klíčovými aspekty:
 
 
-- Vertikální aspekt**: vztah mezi jedním Layer a nad ním nebo pod ním (od Layer N ke Layer N+1 a naopak).
+- **Vertikální aspekt**: vztah mezi jedním Layer a nad ním nebo pod ním (od Layer N ke Layer N+1 a naopak).
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/cs/018.webp)
 
 
 
 
-- Horizontální aspekt**: interakce mezi vzdálenými aplikacemi, tj. dialog mezi **klientem** a **serverem**, a to v obou směrech.
+- **Horizontální aspekt**: interakce mezi vzdálenými aplikacemi, tj. dialog mezi **klientem** a **serverem**, a to v obou směrech.
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/cs/019.webp)
 
 
 
@@ -810,21 +814,22 @@ Vrstevnatá architektura se řídí zásadou, že každý systém Layer zpracov�
 **Připomínka**: Pro popis datových jednotek vyměňovaných mezi vrstvami se používá specifická terminologie:
 
 
-- zpráva** pro aplikaci Layer,
-- segment** pro Transport Layer (TCP),
-- datagram** pro internet Layer (IP),
-- rámce** pro zařízení Network Access Layer.
+- **zpráva** pro aplikaci Layer,
+- **segment** pro Transport Layer (TCP),
+- datagram **pro internet Layer (IP)**,
+- **rámce** pro zařízení Network Access Layer.
 
 
 Níže uvedená tabulka shrnuje pojmy pro kontexty TCP a UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Vrstva TCP/IP        | Název jednotky (TCP) | Název jednotky (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Aplikační vrstva     | Proud            | Zpráva           |
+| Transportní vrstva   | Segment          | Paket            |
+| Internetová vrstva   | Datagram         | Datagram         |
+| Vrstva přístupu k síti | Rámec          | Rámec            |
 
 ### Primitiva služeb a datové jednotky
 
@@ -836,7 +841,7 @@ Kombinací horizontálního aspektu (komunikace mezi distribuovanými aplikacemi
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/cs/020.webp)
 
 
 
@@ -885,18 +890,18 @@ IP Address je jedinečný číselný identifikátor přidělený každému **sí
 IP adresy lze přidělovat dvěma hlavními způsoby:
 
 
-- Statické**: Ruční nastavení v zařízení.
-- Dynamický**: DHCP (_Dynamic Host Configuration Protocol_). Protokol DHCP zjednodušuje správu sítě, protože eliminuje nutnost ruční konfigurace a zároveň umožňuje přesnou kontrolu prostřednictvím rezervací a doby trvání pronájmu.
+- **Statické**: Ruční nastavení v zařízení.
+- **Dynamický**: DHCP (_Dynamic Host Configuration Protocol_). Protokol DHCP zjednodušuje správu sítě, protože eliminuje nutnost ruční konfigurace a zároveň umožňuje přesnou kontrolu prostřednictvím rezervací a doby trvání pronájmu.
 
 
-*adresy *IPv4** se zapisují v **32bitovém** formátu rozděleném na **čtyři bajty**. Každý bajt obsahuje 8 bitů a představuje desítkové číslo od 0 do 255. Tyto 4 bajty jsou odděleny tečkami, aby tvořily jasný a čitelný zápis.
+*Adresy* **IPv4** se zapisují v **32bitovém** formátu rozděleném na **čtyři bajty**. Každý bajt obsahuje 8 bitů a představuje desítkové číslo od 0 do 255. Tyto 4 bajty jsou odděleny tečkami, aby tvořily jasný a čitelný zápis.
 
 
 příklad: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/cs/021.webp)
 
 
 
@@ -907,7 +912,8 @@ Tuto shodu ilustruje následující tabulka:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binární kód | Aktivované hodnoty bitů       | Desítková hodnota |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -922,7 +928,8 @@ Tuto shodu ilustruje následující tabulka:
 Chcete-li převést binární číslo na desítkové, sečtěte váhy bitů, které jsou nastaveny na 1.
 
 
-| Binary     | Decimal Value |
+
+| Binární    | Desítková hodnota |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -944,10 +951,10 @@ Směrovače tyto adresy čtou a určují nejlepší cestu pro odeslání paketu,
 Protokol IPv4 Address má dvě části:
 
 
-- NetID**: identifikuje síť
-- HostID**: identifikuje zařízení v dané síti
+- **NetID**: identifikuje síť
+- **HostID**: identifikuje zařízení v dané síti
 
-Maska podsítě** určuje, kde končí NetID a začíná HostID, a určuje, kolik bitů patří každé části. Čím delší je NetID, tím větší je počet možných podsítí, ale počet hostitelů na podsíť se odpovídajícím způsobem snižuje.
+**Maska podsítě** určuje, kde končí NetID a začíná HostID, a určuje, kolik bitů patří každé části. Čím delší je NetID, tím větší je počet možných podsítí, ale počet hostitelů na podsíť se odpovídajícím způsobem snižuje.
 
 
 Původně byly sítě IPv4 rozděleny do pěti **tříd**: (A, B, C, D a E). Každá třída odpovídá určitému rozsahu NetID a definuje pevnou granularitu:
@@ -961,28 +968,29 @@ Původně byly sítě IPv4 rozděleny do pěti **tříd**: (A, B, C, D a E). Ka�
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Třída | Úvodní bity | Rozsah prvního bajtu | Výchozí maska podsítě | Účel                           |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Velmi velké sítě                 |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Středně velké sítě               |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Malé sítě                        |
+| D     | 1110         | 224 – 239        | N/A                 | Multicastové adresy              |
+| E     | 1111         | 240 – 255        | N/A                 | Experimentální (neveřejně používané) |
 
 Zvláštní adresy:
 
 
-- Síť Address**: Identifikuje samotnou síť (používá se ve směrovacích tabulkách).
-- Vysílání Address**: Odesílá data všem zařízením v podsíti najednou (všechny bity HostID nastaveny na 1).
+- **Síť Address**: Identifikuje samotnou síť (používá se ve směrovacích tabulkách).
+- **Vysílání Address**: Odesílá data všem zařízením v podsíti najednou (všechny bity HostID nastaveny na 1).
 
 
 Následující rozsahy jsou vyhrazeny pro interní použití:
 
 
-- 10.0.0.0/8** (soukromá třída A)
-- 127.0.0.0/8** (místní zpětná smyčka nebo _loopback_)
-- 172.16.0.0 až 172.31.255.255** (privátní třída B)
-- 192.168.0.0 až 192.168.255.255** (privátní třída C)
+- **10.0.0.0/8** (soukromá třída A)
+- **127.0.0.0/8** (místní zpětná smyčka nebo _loopback_)
+- **172.16.0.0 až 172.31.255.255** (privátní třída B)
+- 192.168.0.0 až 192.168.255.255 **(privátní třída C)**
 
 
 Adresy **127.0.0.1** a obecněji celý rozsah 127.0.0.0/8 slouží k internímu testování: jakýkoli požadavek na ně zaslaný nikdy neopustí počítač. To je užitečné pro kontrolu, zda místní síťová služba funguje, aniž by se zapojila širší síť.
@@ -995,8 +1003,8 @@ V moderních sítích je IP adresa obvykle spojena s dalšími identifikátory:
 
 
 
-- název domény** registrovaný v **DNS** (_Systém doménových jmen_): Přiřazuje číselnou IP adresu Address k názvu, který je vhodný pro člověka.
-- MAC Address**: fyzický identifikátor vyrytý do síťové karty, používaný pro místní přenos (_Ethernet_). Když je třeba fyzicky přenést paket IP, tabulka ARP porovná IP Address s MAC Address cíle.
+- **název domény** registrovaný v **DNS** (_Systém doménových jmen_): Přiřazuje číselnou IP adresu Address k názvu, který je vhodný pro člověka.
+- **MAC Address**: fyzický identifikátor vyrytý do síťové karty, používaný pro místní přenos (_Ethernet_). Když je třeba fyzicky přenést paket IP, tabulka ARP porovná IP Address s MAC Address cíle.
 
 
 Pro řešení nedostatku protokolu IPv4 Address a pro zvýšení bezpečnosti Layer se v sítích často používá překlad Address (_NAT_). NAT umožňuje mnoha soukromým zařízením sdílet při přístupu k internetu jednu veřejnou IP adresu Address.
@@ -1183,7 +1191,7 @@ Je důležité si uvědomit, že MAC Address a IP Address jsou dva zcela odlišn
 - Vizuální příklad MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/cs/022.webp)
 
 
 
@@ -1191,7 +1199,7 @@ Je důležité si uvědomit, že MAC Address a IP Address jsou dva zcela odlišn
 - Vizuální příklad IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/cs/023.webp)
 
 
 
@@ -1222,7 +1230,8 @@ Směrovací tabulka, která je spravována buď ručně (statické směrování)
 Směrovací tabulka slouží jako mapovací tabulka mezi cílovými IP adresami a dalšími branami. Obvykle jsou v ní uloženy identifikátory sítě (_network ID_), nikoli každý jednotlivý hostitel Address, což značně snižuje její velikost.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Cílová adresa | Adresa dalšího směrovače | Rozhraní |
 | ------------------- | ----------------------- | --------- |
 
 Pomocí těchto záznamů může směrovač rychle určit, přes který Interface a do kterého uzlu má být každý datagram odeslán. V kombinaci s ARP pro překlad odpovídajících adres MAC je tak zajištěn efektivní a spolehlivý přenos dat v síti.
@@ -1258,7 +1267,7 @@ Kromě řešení nedostatku IPv4 posiluje NAT také bezpečnost tím, že vytvá
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/cs/024.webp)
 
 
 
@@ -1298,11 +1307,12 @@ Tento princip dynamického překladu se opírá o přesnou správu tabulek: kaž
 _Příklad zjednodušené překladové tabulky NAT:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Interní IP | Externí IP | Doba trvání (sek) | Znovupoužitelné? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | ne        |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ano       |
+| 10.100.0.89   | 193.48.100.46  | 0              | ne        |
 
 Pokud v tomto příkladu neprošel u druhé položky žádný paket za více než hodinu (3600 sekund), je označena jako opakovaně použitelná. Naopak doba trvání nula znamená aktivní komunikaci s uzamčeným mapováním.
 
@@ -1331,7 +1341,7 @@ _Pro ilustraci, jak to funguje v praxi, uveďme následující příklad:_
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/cs/025.webp)
 
 
 
@@ -1379,11 +1389,11 @@ V příští kapitole se podrobně podíváme na konfiguraci protokolu IP Addres
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Jak nakonfigurovat síť pomocí `ip`?
@@ -1463,8 +1473,8 @@ ifdown eth2
 Konfigurační soubory (podobné systému RHEL):
 
 
-- /etc/sysconfig/network**: globální nastavení (NETWORKING, HOSTNAME, GATEWAY...).
-- ifcfg-**: nastavení specifické pro každý Interface.
+- **/etc/sysconfig/network**: globální nastavení (NETWORKING, HOSTNAME, GATEWAY...).
+- **ifcfg-**: nastavení specifické pro každý Interface.
 
 
 Statický příklad (ifcfg-eth0):
@@ -1500,7 +1510,7 @@ V profesionálních prostředích je cílem zajistit kontinuitu služeb a/nebo a
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/cs/026.webp)
 
 
 
@@ -1766,15 +1776,16 @@ Nespecifikovaný IPv6 Address je reprezentován znakem `::` nebo explicitněji `
 
 
 
-| IPv6 Address Prefix | Description                                 |
-| ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
 
-(1): *V privátní síti LAN se pro přidělování interních adres, které nejsou směrovatelné v Internetu, upřednostňuje prefix `fd00::/8`
+| Prefix adresy IPv6 | Popis                                     |
+| ------------------- | ------------------------------------------- |
+|::/8                | Rezervované adresy                          |
+| 2000::/3            | Unicast adresy, směrovatelné na Internetu   |
+| fc00::/7            | Jedinečné lokální adresy (1)                |
+| fe80::/10           | Link-local adresy                           |
+| ff00::/8            | Multicast adresy                            |
+
+(1): *V privátní síti LAN se pro přidělování interních adres, které nejsou směrovatelné v Internetu, upřednostňuje prefix `fd00::/8`*
 
 
 #### Vyhrazené adresy
@@ -1783,10 +1794,10 @@ Nespecifikovaný IPv6 Address je reprezentován znakem `::` nebo explicitněji `
 Některé rozsahy protokolu IPv6 jsou výslovně vyhrazeny a nesmí se používat jako globální adresy. Mají specifické technické účely:
 
 
-- `::/128`**: nespecifikovaný Address, nikdy trvale nepřidělený zařízení, ale používaný jako zdrojový Address počítačem čekajícím na konfiguraci.
-- `::1/128`**: _loopback_ Address, přímý ekvivalent `127.0.0.1` v IPv4, který umožňuje počítači připojit se k Address.
-- `64:ff9b::/96`**: Vyhrazeno pro překladače protokolů umožňující propojení IPv4/IPv6, jak je definováno v RFC 6052.
-- `::ffff:0:0/96`**: blok kompatibility pro reprezentaci IPv4 Address ve specifické struktuře IPv6, často používaný interně aplikacemi.
+- `::/128`: **nespecifikovaný Address, nikdy trvale nepřidělený zařízení, ale používaný jako zdrojový Address počítačem čekajícím na konfiguraci.**
+- `::1/128`: **_loopback_ Address**, přímý ekvivalent `127.0.0.1` v IPv4, který umožňuje počítači připojit se k Address.
+- `64:ff9b::/96`: **Vyhrazeno pro překladače protokolů umožňující propojení IPv4/IPv6, jak je definováno v RFC 6052.**
+- `::ffff:0:0/96`: **blok kompatibility pro reprezentaci IPv4 Address ve specifické struktuře IPv6, často používaný interně aplikacemi.**
 
 
 Tyto bloky zaručují interoperabilitu a usnadňují přechod mezi oběma verzemi protokolu.
@@ -1801,9 +1812,9 @@ Většinu veřejně směrovatelného prostoru IPv6 tvoří globální jednosměr
 Některé rozsahy mají zvláštní dokumentované použití:
 
 
-- `2001:2::/48`**: Vyhrazeno pro testování výkonu a interoperability (RFC 5180).
-- `2001:db8::/32`**: Vyhrazeno pro dokumentaci a příklady (RFC 3849).
-- `2002::/16`**: Používá se pro mechanismus 6to4, který umožňuje přenos IPv6 přes infrastrukturu IPv4 (užitečné ve fázi přechodu mezi oběma protokoly).
+- `2001:2::/48`: **Vyhrazeno pro testování výkonu a interoperability (RFC 5180).**
+- `2001:db8::/32`: **Vyhrazeno pro dokumentaci a příklady (RFC 3849).**
+- `2002::/16`: Používá se pro mechanismus 6to4, který umožňuje přenos IPv6 přes infrastrukturu IPv4 (užitečné ve fázi přechodu mezi oběma protokoly).
 
 
 **Poznámka:** velká část globálních adres zůstává nevyužita a slouží jako rezerva pro budoucí růst internetu.
@@ -1842,7 +1853,7 @@ Kombinací těchto typů Address poskytuje IPv6 kompletní sadu možností, kter
 Rozsah IPv6 Address přesně definuje doménu, ve které je platný a jedinečný. Pochopení tohoto konceptu je klíčem ke zvládnutí směrování paketů a logické organizace sítě IPv6. Adresy IPv6 se obecně dělí do tří hlavních kategorií podle rozsahu a použití: unicast, anycast a multicast.
 
 
-*nejběžnější jsou adresy *Unicast**, které zahrnují několik různých podtypů.
+*nejběžnější jsou adresy **Unicast**, které zahrnují několik různých podtypů.*
 
 Patří mezi ně _loopback_ (`::1`) Address, jehož rozsah je omezen na hostitele, který jej používá, a který se používá k internímu testování síťového zásobníku bez odesílání provozu po fyzické síti.
 
@@ -1854,24 +1865,28 @@ A konečně, jedinečné místní adresy (_ULA_, zkratka _Unique Local Addresses
 Koncepčně jsou adresy IPv6 často reprezentovány jako binární struktura, kde první polovina (prvních 64 bitů) identifikuje předponu sítě a druhá polovina (rovněž 64 bitů) jednoznačně identifikuje zařízení Interface v dané síti. Toto rozdělení usnadňuje automatickou konfiguraci Address pomocí mechanismů, jako je SLAAC (_Stateless Address Autoconfiguration_), které umožňují strojům automaticky generate stabilní Address na základě MAC Address nebo pseudonáhodného identifikátoru.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Pole      | Prefix | L | Globální ID | Podsíť | ID rozhraní |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Bity      | 7      | 1 | 40        | 16     | 64            |
 
 Architektura IPv6 se řídí hierarchickým modelem globálního směrování dnešního internetu. Rozdělení prefixů umožňuje regionálním registrům a provozovatelům sítí řídit přidělování Address decentralizovaným způsobem a zároveň zajišťuje globální jedinečnost. V tomto rámci může mít tentýž hostitel současně globální jednosměrový Address pro internetovou komunikaci a linkový lokální Address pro místní interakce, např. s nejbližším okolím nebo pro zprávy o vyhledávání směrovačů.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Pole      | Prefix | Nula | ID rozhraní |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Bity      | 10     | 54   | 64           |
 
 **Anycast adresy** představují přechodný koncept, který vychází z modelu unicast, ale v určitých případech se může chovat jako multicast. Anycast Address je v podstatě unicast Address přiřazený několika rozhraním rozmístěným v různých uzlech sítě. Když je paket odeslán na anycast Address, cílem protokolu IPv6 je doručit jej jednomu z hostitelů sdílejících tento Address, obvykle tomu, který je z hlediska topologie směrování nejblíže. Tento přístup optimalizuje rychlost zpracování dotazů a zvyšuje odolnost distribuovaných služeb. Klasickým příkladem jsou kořenové servery DNS, kde anycastové adresování automaticky směřuje dotazy na nejbližší místo výskytu.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Pole     | Předpona | Podsíť | ID rozhraní |
+|-----------|--------|--------|______________|
+| Bity      | 48     | 16     | 64           |
 
 V protokolu IPv6 nahrazují **multicastové adresy** mechanismus broadcast, který byl považován za příliš nákladný a nevhodný pro sítě globálního rozsahu. Vícesměrové vysílání Address identifikuje skupinu rozhraní, obvykle na více hostitelských počítačích, která si přejí přijímat stejné pakety současně.
 
@@ -1893,9 +1908,10 @@ Struktura vícesměrového vysílání IPv6 Address zahrnuje:
 - identifikační pole (112 bitů) identifikující číslo skupiny vícesměrového vysílání.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Pole      | Předpona | Příznaky | Rozsah | ID skupiny |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bity       | 8      | 4      | 4      | 112      |
 
 Známým příkladem vícesměrového vysílání IPv6 v praxi je protokol _Neighbor Discovery Protocol_ (NDP). Namísto použití protokolu ARP jako v protokolu IPv4 se protokol NDP spoléhá na vícesměrové adresy, jako je `ff02::1:ff00:0/104`, které vysílají požadavky na vyhledání sousedů a zaměřují se pouze na příslušné hostitele na stejné lince.
 
@@ -1954,7 +1970,7 @@ Pro automatickou konfiguraci existuje několik metod:
 Zde je příklad transformace MAC Address na EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/cs/027.webp)
 
 
 
@@ -1965,7 +1981,7 @@ Stejně jako u protokolu DHCP v protokolu IPv4 mohou mít automaticky přidělen
 
 
 - Preferovaná doba životnosti*: po uplynutí této doby zůstává Address platný, ale již se nepoužívá k navazování nových spojení;
-- Platná doba životnosti*: po uplynutí této doby je Address zcela odstraněn z konfigurace Interface.
+- Platná doba životnosti: po uplynutí této doby je Address zcela odstraněn z konfigurace Interface.
 
 
 Tento systém umožňuje dynamicky řídit změny v síti, například zajistit hladký přechod od jednoho poskytovatele internetových služeb k jinému. Aktualizací prefixu ohlašovaného směrovači a souběžnou úpravou záznamů DNS lze provést migraci na IPv6 bez znatelného přerušení služeb.
@@ -2013,8 +2029,9 @@ Od roku 2006 dostává každý RIR od IANA blok IPv6 /12, jehož pevná velikost
 Typická hierarchie přidělování vypadá takto:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Zákazník | Podsíť | Rozhraní |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Díky tomuto množství adres již není nutné používat NAT (*Network Address Translation*), který byl v IPv4 nezbytný pro řešení nedostatku adres Address. Každý hostitel může mít jedinečnou, globálně směrovatelnou veřejnou adresu Address, což zjednodušuje konektivitu mezi koncovými body a usnadňuje používání protokolů, jako je IPSec, VoIP nebo příchozí připojení.
@@ -2092,7 +2109,7 @@ Zde je přehled různých typů rozšiřujících hlaviček definovaných protok
 Toto záhlaví, pokud je přítomno, je vždy umístěno bezprostředně za základním záhlavím. Obsahuje informace, které musí zpracovat každý směrovač na cestě paketu, na rozdíl od většiny ostatních hlaviček, které obvykle zpracovává pouze cílový uzel. Typické použití zahrnuje signalizaci globálních parametrů nebo požadavek na konkrétní kroky zpracování při průchodu paketu sítí.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/cs/028.webp)
 
 
 #### Záhlaví směrování
@@ -2108,16 +2125,16 @@ Směrovací hlavička určuje seznam mezilehlých adres, kterými musí paket pr
 První čtyři pole této kořenové hlavičky jsou:
 
 
-- Next Header**: určuje typ dalšího záhlaví;
-- Routing Type**: definuje metodu směrování (obvykle `0`);
-- Zbývající segmenty**: počet segmentů, které zbývá projít ;
-- Address[n]**: seznam zprostředkujících adres.
+- **Next Header**: určuje typ dalšího záhlaví;
+- **Routing Type**: definuje metodu směrování (obvykle `0`);
+- **Zbývající segmenty**: počet segmentů, které zbývá projít ;
+- **Address[n]**: seznam zprostředkujících adres.
 
 
 Pole "Zbývající segmenty" začíná celkovým počtem zbývajících segmentů a při každém skoku se snižuje o jedničku.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/cs/029.webp)
 
 
 #### Fragmentační hlavička
@@ -2129,12 +2146,12 @@ V protokolu IPv6 smí datagram fragmentovat pouze zdrojový hostitel, na rozdíl
 Fragmentační hlavička obsahuje následující pole:
 
 
-- Identifikace**: jedinečný identifikátor datagramu pro opětovné sestavení.
-- Fragment Offset**: pozice fragmentu v původním datagramu.
-- M flag**: označuje, zda následují další fragmenty.
+- **Identifikace**: jedinečný identifikátor datagramu pro opětovné sestavení.
+- **Fragment Offset**: pozice fragmentu v původním datagramu.
+- **M flag**: označuje, zda následují další fragmenty.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/cs/030.webp)
 
 
 #### Ověřovací hlavička (AH)
@@ -2146,7 +2163,7 @@ Tato hlavička je určena k zabezpečení komunikace ověřením pravosti odesí
 V případě pokusu o podvodnou modifikaci již nebude ověřovací kód odpovídat a datagram může být odmítnut. Tento mechanismus také chrání před útoky typu replay tím, že detekuje neoprávněné duplikace.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/cs/031.webp)
 
 
 #### Záhlaví možností cíle
@@ -2158,7 +2175,7 @@ Tato hlavička je určena pouze konečnému příjemci datagramu. Může být po
 Původně taková možnost v protokolu definována nebyla. Tato hlavička však byla zavedena při návrhu protokolu IPv6, aby bylo možné v budoucnu přidávat rozšíření, aniž by se změnila celková struktura paketu. Například volba null se používá pouze k vyplnění záhlaví na násobek 8 bajtů pro účely zarovnání paměti.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/cs/032.webp)
 
 
 Návrh paketů IPv6 je založen na jasném oddělení minimální základní hlavičky a modulárních rozšiřujících hlaviček. Tato architektura zajišťuje jak standardní výkon zpracování, tak flexibilitu potřebnou pro vývoj protokolu a integraci zabezpečení, komplexního směrování nebo mechanismů kvality služby při zachování kompatibility s budoucími infrastrukturami.
@@ -2504,7 +2521,7 @@ Wireshark je k dispozici v mnoha operačních systémech včetně Linuxu a Windo
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/cs/033.webp)
 
 
 
@@ -2555,7 +2572,7 @@ Tento příkaz vypíše podrobnou zprávu o `enp0s3` Interface, což je běžná
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/cs/034.webp)
 
 
 
@@ -2727,13 +2744,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Každý řádek představuje trasu. Klíčová pole zahrnují:
 
 
-- výchozí**: výchozí trasa, která se použije, pokud neodpovídá žádná specifičtější trasa.
-- via**: brána použitá k dosažení cíle.
-- dev**: použitá síť Interface.
-- proto**: jak byla trasa vytvořena (ručně, DHCP, jádro atd.).
-- metric**: náklady na trasu, které se používají k určení priority více možných cest.
-- scope**: rozsah trasy (např. `link` pro přímo připojenou trasu).
-- src**: zdrojová IP Address používaná pro odchozí pakety na tomto Interface.
+- **výchozí**: výchozí trasa, která se použije, pokud neodpovídá žádná specifičtější trasa.
+- **via**: brána použitá k dosažení cíle.
+- **dev**: použitá síť Interface.
+- **proto**: jak byla trasa vytvořena (ručně, DHCP, jádro atd.).
+- **metric**: náklady na trasu, které se používají k určení priority více možných cest.
+- **scope**: rozsah trasy (např. `link` pro přímo připojenou trasu).
+- **src**: zdrojová IP Address používaná pro odchozí pakety na tomto Interface.
 
 
 #### Přidávání a odstraňování tras
@@ -3068,7 +3085,7 @@ Opakované nebo intenzivní dotazy na servery DNS třetích stran bez povolení 
 Při monitorování nebo zabezpečení místní nebo rozsáhlé sítě je zásadní identifikovat aktivní zařízení a jimi poskytované služby. Přesně k tomu slouží nástroj `nmap` (*Network Mapper*).
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Představujeme `nmap`
 
@@ -3107,20 +3124,20 @@ V tomto případě budou dotazováni všichni hostitelé v rozsahu `192.168.0.0`
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/cs/035.webp)
 
 
 
 Správce se může na `nmap` spolehnout při několika úkolech:
 
 
-- Zjišťování aktivních hostitelů**: zjištění, které počítače reagují v rámci podsítě;
-- Soupis služeb**: zajistěte, aby byly přístupné pouze nezbytné porty (princip nejmenších oprávnění);
-- Kontrola shody**: porovnání otevřených portů se zásadami zabezpečení organizace;
-- Prevence zranitelností**: odhalení nezabezpečených nebo zastaralých služeb spuštěných na kritických počítačích.
+- **Zjišťování aktivních hostitelů**: zjištění, které počítače reagují v rámci podsítě;
+- **Soupis služeb**: zajistěte, aby byly přístupné pouze nezbytné porty (princip nejmenších oprávnění);
+- **Kontrola shody**: porovnání otevřených portů se zásadami zabezpečení organizace;
+- **Prevence zranitelností**: odhalení nezabezpečených nebo zastaralých služeb spuštěných na kritických počítačích.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Nástroje pro dotazování procesů
 
@@ -3216,10 +3233,10 @@ Tyto nástroje poskytují správcům ucelenou sadu technických nástrojů pro m
 Nástroje poskytující přímý přehled o rozhraních a rámcích:
 
 
-- arp / ip neigh**: kontrola a úprava mezipaměti ARP/NDP za účelem kontroly nebo opravy asociací IP-MAC;
-- tcpdump**: zachytávání paketů z příkazového řádku, možnost filtrování a exportu;
-- Wireshark**: grafická analýza paketů s hloubkovým dekódováním protokolů;
-- ethtool**: dotaz a nastavení fyzických parametrů karty Ethernet (rychlost, duplex, WoL atd.).
+- **arp / ip neigh**: kontrola a úprava mezipaměti ARP/NDP za účelem kontroly nebo opravy asociací IP-MAC;
+- **tcpdump**: zachytávání paketů z příkazového řádku, možnost filtrování a exportu;
+- **Wireshark**: grafická analýza paketů s hloubkovým dekódováním protokolů;
+- **ethtool**: dotaz a nastavení fyzických parametrů karty Ethernet (rychlost, duplex, WoL atd.).
 
 
 #### Síť Layer
@@ -3228,10 +3245,10 @@ Nástroje poskytující přímý přehled o rozhraních a rámcích:
 Nástroje pro vyhodnocování připojení IP, směrování a paketového provozu:
 
 
-- ping**: testování dosažitelnosti a měření latence pomocí protokolu ICMP;
-- ip route**: kontrola a úprava směrovací tabulky za účelem kontroly cest paketů;
-- traceroute**: identifikace směrovačů na trase k cíli hop po hopu;
-- ss**: podrobný soupis soketů TCP/UDP a souvisejících procesů (nástupce netstatu).
+- **ping**: testování dosažitelnosti a měření latence pomocí protokolu ICMP;
+- **ip route**: kontrola a úprava směrovací tabulky za účelem kontroly cest paketů;
+- **traceroute**: identifikace směrovačů na trase k cíli hop po hopu;
+- **ss**: podrobný soupis soketů TCP/UDP a souvisejících procesů (nástupce netstatu).
 
 
 #### Transportní a aplikační vrstva
@@ -3240,9 +3257,9 @@ Nástroje pro vyhodnocování připojení IP, směrování a paketového provozu
 Nástroje pro diagnostiku služeb a procesů:
 
 
-- nslookup / dig / host**: Dotazy DNS k ověření rozlišení názvů a analýze záznamů;
-- nmap**: prozkoumá otevřené porty a vystavené služby a vyhodnotí povrch útoku;
-- lsof**: výpis souborů a soketů otevřených procesy, korelace systémové a síťové aktivity.
+- **nslookup / dig / host**: Dotazy DNS k ověření rozlišení názvů a analýze záznamů;
+- **nmap**: prozkoumá otevřené porty a vystavené služby a vyhodnotí povrch útoku;
+- **lsof**: výpis souborů a soketů otevřených procesy, korelace systémové a síťové aktivity.
 
 
 Zvládnutí těchto nástrojů, z nichž každý odpovídá určité fázi modelu TCP/IP, umožňuje metodický přístup: počínaje fyzickým Layer, přes směrování až po aplikační služby. Tento řetězec odborných znalostí vybavuje správce k diagnostice, zabezpečení a optimalizaci jejich infrastruktury a zajišťuje výkonnost i dostupnost sítě.

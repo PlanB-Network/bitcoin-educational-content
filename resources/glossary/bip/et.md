@@ -7,17 +7,17 @@ Akronüüm "Bitcoin Improvement Proposal" (Bitcoini täiustamise ettepanek) Bitc
 Piirangud jagunevad kolme põhikategooriasse:
 
 
-- Standardite jälgimise piiripunktid*: Puudutavad muudatusi, mis mõjutavad otseselt Bitcoini rakendusi, näiteks tehingu- ja plokkide valideerimise reegleid;
-- Informatiivsed piiripunktid*: Anda teavet või anda soovitusi, ilma et pakutaks välja otseseid muudatusi protokollile;
-- Protsessi piiripunktid*: Kirjeldage muudatusi Bitcoini ümbritsevates menetlustes, näiteks juhtimisprotsessides.
+- Standardite jälgimise piiripunktid: Puudutavad muudatusi, mis mõjutavad otseselt Bitcoini rakendusi, näiteks tehingu- ja plokkide valideerimise reegleid;
+- **Informatiivsed piiripunktid**: Anda teavet või anda soovitusi, ilma et pakutaks välja otseseid muudatusi protokollile;
+- Protsessi piiripunktid: Kirjeldage muudatusi Bitcoini ümbritsevates menetlustes, näiteks juhtimisprotsessides.
 
 Standardite jälgimise ja teavitamise piiripunktid on samuti liigitatud "kihi" järgi:
 
 
-- Konsensuskihi*: Selles kihis olevad BIP-d puudutavad Bitcoini konsensusreegleid, näiteks ploki või tehingu valideerimise reeglite muutmist. Need ettepanekud võivad olla kas pehmed hargnemised (tagasiühilduvad muudatused) või kõvad hargnemised (mitte tagasiühilduvad muudatused). Sellesse kategooriasse kuuluvad näiteks SegWit ja Taproot BIP-d;
-- Vastastikused teenused*: See kiht on seotud Bitcoini sõlmede võrgu toimimisega, st kuidas sõlmed leiavad üksteist ja suhtlevad omavahel Internetis.
-- API/RPC*: Selle kihi piiripunktid puudutavad rakendusprogrammeerimise liideseid (API) ja kaugprotseduurikõnesid (RPC), mis võimaldavad Bitcoini tarkvaral suhelda sõlmedega;
-- Rakenduskihi*: See kiht puudutab Bitcoini peal ehitatud rakendusi. Selle kategooria piiripunktid tegelevad tavaliselt muudatustega Bitcoini rahakoti standardite tasandil.
+- Konsensuskiht: Selles kihis olevad BIP-d puudutavad Bitcoini konsensusreegleid, näiteks ploki või tehingu valideerimise reeglite muutmist. Need ettepanekud võivad olla kas pehmed hargnemised (tagasiühilduvad muudatused) või kõvad hargnemised (mitte tagasiühilduvad muudatused). Sellesse kategooriasse kuuluvad näiteks SegWit ja Taproot BIP-d;
+- **Vastastikused teenused**: See kiht on seotud Bitcoini sõlmede võrgu toimimisega, st kuidas sõlmed leiavad üksteist ja suhtlevad omavahel Internetis.
+- **API/RPC**: Selle kihi piiripunktid puudutavad rakendusprogrammeerimise liideseid (API) ja kaugprotseduurikõnesid (RPC), mis võimaldavad Bitcoini tarkvaral suhelda sõlmedega;
+- **Rakenduskiht**: See kiht puudutab Bitcoini peal ehitatud rakendusi. Selle kategooria piiripunktid tegelevad tavaliselt muudatustega Bitcoini rahakoti standardite tasandil.
 
 Piiranguprogrammi esitamise protsess algab idee kavandamise ja arutamisega *Bitcoin-dev* meililistis. Kui idee on paljutõotav, koostab autor BIPi konkreetse formaadi järgi ja esitab selle Pull Request'i kaudu Core GitHubi repositooriumis. Redaktorid vaatavad selle ettepaneku läbi, et kontrollida, kas see vastab kõigile kriteeriumidele. BIP peab olema tehniliselt teostatav, protokollile kasulik, vastama nõutavale vormingule ja olema kooskõlas Bitcoini filosoofiaga. Kui BIP vastab nendele tingimustele, integreeritakse see ametlikult GitHubi BIPide repositooriumi. Seejärel antakse sellele number. Selle numbri otsustab tavaliselt toimetaja, sageli Luke Dashjr, ja see määratakse loogiliselt: Sarnaseid teemasid käsitlevad veebisaidid saavad sageli järjestikused numbrid.
 

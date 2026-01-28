@@ -1,0 +1,8 @@
+question: block size war เกิดขึ้นเมื่อไหร่?
+answer: ในปี 2017.
+wrong_answers:
+  - ในปี 2008.
+  - ในปี 2010.
+  - ในปี 2019.
+explanation: >-
+reviewed: true

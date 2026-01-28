@@ -1,0 +1,9 @@
+question: Wat maakt online systemen zoals Bitcoin fundamenteel anders dan fysieke systemen als het gaat om vijandige bedreigingen?
+answer: Online systemen hebben te maken met pseudonieme en anonieme tegenstanders die elke zwakke plek kunnen uitbuiten zonder zichtbaar of betrapt te worden
+wrong_answers:
+  - Online systemen hebben complexere cryptografische algoritmen die moeilijker te analyseren zijn op zwakke plekken in de beveiliging
+  - Fysieke systemen kunnen worden beschermd door wetshandhavers, terwijl online systemen alleen op wiskundige bewijzen kunnen vertrouwen
+  - Online systemen verwerken transacties sneller, waardoor het voor tegenstanders gemakkelijker wordt om gecoördineerde aanvallen uit te voeren
+explanation: |
+  Het belangrijkste onderscheid dat Andrew Poelstra benadrukt, is dat fysieke systemen kunnen vertrouwen op wetshandhaving en de zichtbaarheid van tegenstanders om aanvallen af te schrikken, waarbij zelfs bepaalde risico's zoals het platbranden van gebouwen worden geaccepteerd. Online systemen zoals Bitcoin opereren echter in een omgeving waar tegenstanders pseudoniem of anoniem kunnen handelen, overal vandaan verbinding kunnen maken en zwakheden kunnen uitbuiten zonder geïdentificeerd of betrapt te worden. Dit fundamentele verschil betekent dat alle bekende zwakke plekken in Bitcoin aangepakt moeten worden, omdat ze onvermijdelijk uitgebuit zullen worden door onzichtbare tegenstanders die geen gevolgen in de echte wereld ondervinden.
+reviewed: false

@@ -5,5 +5,5 @@ wrong_answers:
   - To increase the capacity of each payment channel
   - To establish direct connections between all network nodes with their trust
 explanation: |
-  HTLCs (Hashed Time-Locked Contracts) ensure that each intermediary node will transfer the payment without keeping the funds, as it can only unlock them by completing the transaction up to the final recipient.
-reviewed: false
+  HTLCs (Hashed Time-Locked Contracts) ensure that each intermediary node transfers the payment without retaining the funds, as it can only unlock them by completing the transaction up to the final recipient.
+reviewed: true

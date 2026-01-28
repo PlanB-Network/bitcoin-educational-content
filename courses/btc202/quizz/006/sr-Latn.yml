@@ -1,0 +1,9 @@
+question: Zašto se jedan Wallet ne smatra učesnikom Bitcoin mreže?
+answer: Zato što ne validira transakcije ili blokove
+wrong_answers:
+  - Zato što ne može generate privatni ključevi
+  - Zato što ne može da kreira Bitcoin adrese
+  - Zato što ne validira prodaje ili adrese
+explanation: |
+  Wallet ne validira direktno blokove i transakcije; on jednostavno upravlja ključevima i zavisi od čvorova za ostalo.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bitcoin 的什麼基本屬性會在保管中喪失？
+answer: 貨幣主權
+wrong_answers:
+  - 貨幣伸縮性
+  - 快速付款
+  - 貨幣互通性
+explanation: |
+  沒有金鑰控制，使用者就放棄了 Bitcoin 的核心支柱 - 貨幣主權。
+reviewed: false

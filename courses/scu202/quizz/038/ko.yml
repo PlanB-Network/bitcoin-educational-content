@@ -1,0 +1,9 @@
+question: Ubuntu 배포판의 모든 패키지를 업데이트하는 데 사용할 수 있는 명령은 무엇인가요?
+answer: sudo apt 업데이트 && sudo apt 업그레이드
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf 업그레이드
+  - sudo update-all
+explanation: |
+  우분투(및 데비안)에서는 "sudo apt update && sudo apt upgrade" 명령으로 패키지 목록을 동기화하여 사용 가능한 모든 업데이트를 설치합니다.
+reviewed: false

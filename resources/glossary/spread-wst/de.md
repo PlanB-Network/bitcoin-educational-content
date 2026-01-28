@@ -10,4 +10,4 @@ Die retrospektive Streuung hingegen ist das Verhältnis zwischen dem retrospekti
 
 Diese beiden Indikatoren werden verwendet, um die Effektivität der Mischung Ihres Stücks im Verhältnis zum Potenzial des Pools zu bewerten. Eine niedrige voraussichtliche Streuung, wie z. B. 5 %, deutet auf einen erheblichen Spielraum für mögliche Verbesserungen durch zusätzliche Mischungen hin. Umgekehrt bedeutet eine hohe voraussichtliche Streuung, z. B. 97 %, dass durch zusätzliche Coinjoins nur wenig zusätzliche Anonset erzielt werden kann.
 
-> ► *Im Englischen könnte "spread" mit "Ausbreitungsrate" oder "Ausbreitungsgeschwindigkeit" übersetzt werden
+> ► *Im Englischen könnte "spread" mit "Ausbreitungsrate" oder "Ausbreitungsgeschwindigkeit" übersetzt werden*

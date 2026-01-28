@@ -1,9 +1,10 @@
-question: Mikä on Bitcoin-protokollan ainutlaatuinen ominaisuus?
-answer: Se toimii maailmanlaajuisesti 24 tuntia vuorokaudessa, 7 päivää viikossa.
+question: Mikä on yksi syy siihen, miksi Bitcoinin hinta voi laskea 10%, 20% tai jopa 50% vain muutamassa päivässä?
+answer: Härkä- ja karhumarkkinavaiheet.
 wrong_answers:
-  - Se toimii vain työaikana.
-  - Sitä kontrolloi keskitetty auktoriteetti.
-  - Sen voi helposti hakkeroida.
+  - Internetin käyttäjien määrä.
+  - Sää.
+  - Kullan hinta.
 explanation: >-
-  Bitcoin-protokolla on ainutlaatuinen, koska se toimii maailmanlaajuisesti 24 tuntia vuorokaudessa, 7 päivää viikossa, mikä tekee sen sääntelystä vaikeaa talousviranomaisille.
+  Bitcoinin hinta on usein merkittävän volatiliteetin leimaamaa,
+  johon voi vaikuttaa markkinavaihtelut sekä härkä- ja karhumarkkinavaiheet.
 reviewed: true

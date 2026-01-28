@@ -10,7 +10,7 @@ ___
 
 
 
-*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。
+*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。*
 
 
 
@@ -26,11 +26,11 @@ ___
 
 
 
-在开始之前，你应该知道**OPNsense和pfSense都是基于FreeBSD的开源防火墙。我们可以说，pfSense算是OPNsense的老大哥，因为后者是2015年创建的Fork。最后，需要指出的是，自 2017 年起，**OPNsense 已改用 HardenedBSD 而非 FreeBSD**。HardenedBSD 是 FreeBSD 的增强版本，具有高级安全功能
+在开始之前，你应该知道**OPNsense和pfSense都是基于FreeBSD的开源防火墙**。我们可以说，pfSense算是OPNsense的老大哥，因为后者是2015年创建的Fork。最后，需要指出的是，自 2017 年起，**OPNsense 已改用 HardenedBSD 而非 FreeBSD**。HardenedBSD 是 FreeBSD 的增强版本，具有高级安全功能
 
 
 
-OPNsense 因其更现代化的用户界面（Interface）和**更频繁的更新频率而脱颖而出。事实上，OPNsense的更新计划包括每年发布两个主要版本，每两周左右更新一次（导致发布次要版本）。如果我们看一下这些解决方案的社区版本，就会发现与pfSense相比，OPNsense的后续行动非常有趣。
+OPNsense 因其更现代化的用户界面（Interface）和**更频繁的更新频率**而脱颖而出。事实上，OPNsense的更新计划包括每年发布两个主要版本，每两周左右更新一次（导致发布次要版本）。如果我们看一下这些解决方案的社区版本，就会发现与pfSense相比，OPNsense的后续行动非常有趣。
 
 
 
@@ -56,55 +56,55 @@ OPNsense 是一种操作系统，旨在充当防火墙和路由器，但其功�
 
 
 
-- 防火墙和 NAT**：OPNsense 提供先进的状态防火墙功能，具有状态过滤和网络 Address 转换（NAT）功能。
+- 防火墙和 **NAT**：OPNsense 提供先进的状态防火墙功能，具有状态过滤和网络 Address 转换（NAT）功能。
 
 
 
 
 
-- DNS/DHCP**：可将 OPNsense 配置为管理网络上的 DNS 和 DHCP 服务。它可以充当 DHCP 服务器，也可以用作本地网络上机器的 DNS 解析器。默认情况下还集成了 Dnsmasq。
+- **DNS/DHCP**：可将 OPNsense 配置为管理网络上的 DNS 和 DHCP 服务。它可以充当 DHCP 服务器，也可以用作本地网络上机器的 DNS 解析器。默认情况下还集成了 Dnsmasq。
 
 
 
 
 
-- VPN**：OPNsense支持多种VPN协议，包括IPsec、OpenVPN和WireGuard，可实现远程访问移动工作站或站点互连的安全连接。
+- **VPN**：OPNsense支持多种VPN协议，包括IPsec、OpenVPN和WireGuard，可实现远程访问移动工作站或站点互连的安全连接。
 
 
 
 
 
-- 网络代理服务器**：OPNsense 包括一个网络代理服务器，用于控制和过滤互联网访问。它还可用于过滤内容和管理网络访问。
+- 网络代理服务器：OPNsense 包括一个网络代理服务器，用于控制和过滤互联网访问。它还可用于过滤内容和管理网络访问。
 
 
 
 
 
-- 带宽管理（QoS）**：OPNsense 提供服务质量（QoS）管理功能，可对网络流量进行优先排序，更好地管理网络带宽。
+- 带宽管理（QoS）：OPNsense 提供服务质量（QoS）管理功能，可对网络流量进行优先排序，更好地管理网络带宽。
 
 
 
 
 
-- 专属门户**：该功能可让您通过认证页面（本地基地、凭证等）管理用户对网络的访问。这是公共 Wi-Fi 网络常用的一项功能。
+- **专属门户**：该功能可让您通过认证页面（本地基地、凭证等）管理用户对网络的访问。这是公共 Wi-Fi 网络常用的一项功能。
 
 
 
 
 
-- IDS/IPS**：OPNsense集成了Suricata，提供入侵检测和防御（IDS/IPS）功能，保护网络免受攻击。
+- **IDS/IPS**：OPNsense集成了Suricata，提供入侵检测和防御（IDS/IPS）功能，保护网络免受攻击。
 
 
 
 
 
-- 高可用性（CARP）**：OPNsense支持CARP（*通用Address冗余协议*），以实现多个OPNsense防火墙之间的高可用性，确保即使在硬件故障的情况下，服务也能保持激活状态。
+- 高可用性（CARP）：OPNsense支持CARP（*通用Address冗余协议*），以实现多个OPNsense防火墙之间的高可用性，确保即使在硬件故障的情况下，服务也能保持激活状态。
 
 
 
 
 
-- 报告和监控**：OPNsense 提供实时报告和监控工具，以跟踪网络性能（使用 NetFlow），并通过创建日志发现潜在问题。其中包括图形。Monit 工具已集成到 OPNsense 中，可对防火墙本身进行监控。
+- 报告和监控：OPNsense 提供实时报告和监控工具，以跟踪网络性能（使用 NetFlow），并通过创建日志发现潜在问题。其中包括图形。Monit 工具已集成到 OPNsense 中，可对防火墙本身进行监控。
 
 
 
@@ -112,7 +112,7 @@ OPNsense 是一种操作系统，旨在充当防火墙和路由器，但其功�
 
 
 
-这只是 OPNsense 提供的功能概览。此外，通过 OPNsense 管理 Interface 中的**软件包目录**，您还可以**附加功能来丰富防火墙。这些功能包括 ACME 客户端、Wazuh 代理、NTP Chrony 服务以及作为反向代理的 Caddy。
+这只是 OPNsense 提供的功能概览。此外，通过 OPNsense 管理 Interface 中的**软件包目录**，您还可以**附加功能来丰富防火墙**。这些功能包括 ACME 客户端、Wazuh 代理、NTP Chrony 服务以及作为反向代理的 Caddy。
 
 
 
@@ -147,11 +147,12 @@ OPNsense 是一种操作系统，旨在充当防火墙和路由器，但其功�
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| 功能 | 最低 | 建议 |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| 处理器 | 1 GHz - 2 核 | 1.5 GHz - 多核 |
+| RAM | 2 GB | 8 GB |
+| 系统存储空间 | 硬盘、SSD 或 SD 卡 (4 GB) | SSD 上的 120 GB |
 
 最后，**您的资源需求首先取决于需要管理的连接数**，因此也取决于**您的带宽需求**。此外，您还需要**记住将要激活和使用的服务**（代理、入侵检测等......），因为它们可能会占用 CPU 和/或内存。
 
@@ -179,11 +180,11 @@ OPNsense 是一种操作系统，旨在充当防火墙和路由器，但其功�
 
 
 
-- 创建一个内部虚拟网络（192.168.10.0/24 - 局域网）**，可通过 OPNsense 防火墙访问互联网。在生产使用中，这可以是您的本地网络、有线网络和/或 Wi-Fi 网络。
-- 激活并配置 NAT**，以便内部虚拟网络中的虚拟机可以访问互联网
-- 激活并配置 OPNsense** 上的 DHCP 服务器，以便向未来连接到内部虚拟网络的机器分发 IP 配置
-- 配置防火墙**，只允许 HTTP (80) 和 HTTPS (443) 从局域网流向广域网。
-- 配置防火墙**，允许虚拟局域网使用 OPNsense 作为 DNS 解析器 (53)。
+- 创建一个内部虚拟网络（192.168.10.0/24 - 局域网），可通过 OPNsense 防火墙访问互联网。在生产使用中，这可以是您的本地网络、有线网络和/或 Wi-Fi 网络。
+- 激活并配置 **NAT**，以便内部虚拟网络中的虚拟机可以访问互联网
+- 激活并配置 **OPNsense** 上的 DHCP 服务器，以便向未来连接到内部虚拟网络的机器分发 IP 配置
+- 配置防火墙，只允许 HTTP (80) 和 HTTPS (443) 从局域网流向广域网。
+- 配置防火墙，允许虚拟局域网使用 OPNsense 作为 DNS 解析器 (53)。
 
 
 
@@ -257,7 +258,7 @@ OPNsense 是一种操作系统，旨在充当防火墙和路由器，但其功�
 
 
 
-屏幕上会出现一个新向导。第一步是选择与您的配置相对应的键盘布局。对于 AZERTY 键盘，请从列表中选择 "**法语（重音符号键）**"选项，然后双击**。
+屏幕上会出现一个新向导。第一步是选择与您的配置相对应的键盘布局。对于 AZERTY 键盘，请从列表中选择 **"法语（重音符号键）"** 选项，然后双击。
 
 
 
@@ -382,7 +383,7 @@ pfctl -d
 
 
 
-可使用局域网** Interface（或广域网）的 IP Address 通过 HTTPS 访问 OPNsense 管理 Interface。浏览器将带您进入登录页面。使用之前选择的 "root "账户和密码登录。
+可使用局域网 **Interface**（或广域网）的 IP Address 通过 HTTPS 访问 OPNsense 管理 Interface。浏览器将带您进入登录页面。使用之前选择的 **root** 账户和密码登录。
 
 
 
@@ -422,7 +423,7 @@ pfctl -d
 
 
 
-还是在 Interface 广域网配置页面，如果广域网侧的网络使用私有寻址，则需要取消选中 "**Block access to private networks via WAN**"（**阻止通过广域网访问私有网络）选项。如果您运行的是实验室，则可能会出现这种情况，因此可能会阻止您访问互联网。
+还是在 Interface 广域网配置页面，如果广域网侧的网络使用私有寻址，则需要取消选中 "**Block access to private networks via WAN**"（**阻止通过广域网访问私有网络**）选项。如果您运行的是实验室，则可能会出现这种情况，因此可能会阻止您访问互联网。
 
 
 
@@ -566,7 +567,7 @@ https://192.168.1.10
 
 
 
-剩下的工作就是点击 "**应用更改**"，将新的防火墙规则切换到生产中。 **请注意，所有未明确授权的流量默认都将被阻止
+剩下的工作就是点击 "**应用更改**"，将新的防火墙规则切换到生产中。 **请注意，所有未明确授权的流量默认都将被阻止**
 
 
 

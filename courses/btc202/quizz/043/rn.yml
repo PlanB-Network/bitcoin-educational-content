@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe riri hagati ya Umbrel Home na umbrelOS?
+answer: Umbrel Home ni umukozi mutoyi yashizweho mbere, umbrelOS ni ugushiraho
+wrong_answers:
+  - Inzu y'umutaka ni ubuntu, umbrelOS ntabwo ari
+  - Inzu y’umutaka ntishigikira Bitcoin; umutaka
+  - Umbrel Home ni inkomoko yuguruye, umbrelOS ni umunyagihugu
+explanation: |
+  Umbrel Home igurishwa turnkey n’umbrelOS isanzwe ishizwemwo, mu gihe umbrelOS ishobora gushirwako DIY ku bikoresho vyawe bwite.
+reviewed: true

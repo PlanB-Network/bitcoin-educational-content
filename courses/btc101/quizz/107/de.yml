@@ -1,11 +1,9 @@
-question: Was ist die Rolle eines Notars im Kontext der Bitcoin-Erbschaft?
-answer: Sie gewährleisten die Steuerkonformität.
+question: Wann wurde Bitcoin erstmals der Welt vorgestellt?
+answer: 31. Oktober 2008.
 wrong_answers:
-  - Sie verwalten Ihre Bitcoins nach Ihrem Tod.
-  - Sie ändern Ihren Erbschaftsplan.
-  - Sie sichern Ihre Bitcoins in einem Safe.
+  - 3. Januar 2009.
+  - 22. November 2009.
+  - 12. Dezember 2010.
 explanation: |
-  Im Kontext der Bitcoin-Erbschaft ist es wichtig,
-  die Erbschaft von Bitcoins mit einem Notar zu besprechen, um
-  die Steuerkonformität zu gewährleisten.
-reviewed: false
+  Bitcoin wurde der Welt erstmals am 31. Oktober 2008 vorgestellt, als Satoshi Nakamoto eine E-Mail an die Cypherpunk-Mailingliste schickte, die das Bitcoin-Whitepaper enthielt.
+reviewed: true

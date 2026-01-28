@@ -1,127 +1,224 @@
 ---
 name: Bitcoin Core (Linux)
-description: Oma noden pyörittäminen Bitcoin Corella
+description: Oman solmun käyttäminen Bitcoin core:llä Linuxissa
 ---
 
-![kansi](assets/cover.webp)
+![cover](assets/cover.webp)
 
-# Oma noden pyörittäminen Bitcoin Corella
 
-Johdanto Bitcoiniin ja noden konseptiin, täydennettynä kattavalla asennusoppaalla Linuxille.
+## Oman solmun käyttäminen Bitcoin core:lla
 
-Yksi Bitcoinin jännittävimmistä ehdotuksista on kyky ajaa ohjelmaa itse ja siten osallistua hienojakoisella tasolla verkostoon ja julkisen tapahtumakirjan vahvistamiseen.
 
-Bitcoin, avoimen lähdekoodin projekti, on ollut julkisesti jaettavissa ja saatavilla ilmaiseksi vuodesta 2009 lähtien. Lähes 15 vuotta sen perustamisen jälkeen Bitcoin on nyt vankka ja pysäyttämätön digitaalinen rahaverkosto, joka hyötyy voimakkaasta orgaanisesta verkostovaikutuksesta. Heidän ponnisteluistaan ja näkemyksestään Satoshi Nakamoto ansaitsee kiitoksemme. Muuten, me isännöimme Bitcoinin whitepaperia täällä Agora 256:ssa (huom: myös yliopistolla).
+Johdatus Bitcoin:een ja solmun käsitteeseen, jota täydentää kattava asennusopas Linuxille.
 
-## Tulemaan omaksi pankiksesi
 
-Oman noden pyörittäminen on tullut olennaiseksi Bitcoinin periaatteen kannattajille. Kysymättä kenenkään lupaa, on mahdollista ladata lohkoketju alusta alkaen ja siten vahvistaa kaikki tapahtumat A:sta Z:aan Bitcoin-protokollan mukaisesti.
+Yksi Bitcoin:n jännittävimmistä puolista on mahdollisuus ajaa ohjelmaa itse ja siten osallistua rakeisella tasolla verkkoon ja julkisen transaktion Ledger todentamiseen.
 
-Ohjelmaan sisältyy myös oma lompakko. Näin meillä on hallinta siitä, mitä tapahtumia lähetämme loppuverkostoon, ilman välikäsiä tai kolmansia osapuolia. Olet oma pankkisi.
 
-Tämän artikkelin loppuosa on siis opas Bitcoin Coren asentamiseen — laajimmin käytetty Bitcoin-ohjelmistoversio — erityisesti Debian-yhteensopiville Linux-jakeluille, kuten Ubuntu ja Pop!_OS. Seuraa tätä opasta ottaaksesi askeleen lähemmäksi yksilöllistä suvereniteettiasi.
+Bitcoin on ollut avoimen lähdekoodin projektina vapaasti saatavilla ja julkisesti jaossa vuodesta 2009 lähtien. Lähes 17 vuotta perustamisensa jälkeen Bitcoin on nyt vankka ja pysäyttämätön digitaalinen rahaverkko, joka hyötyy voimakkaasta orgaanisesta verkostovaikutuksesta. Satoshi Nakamoto ansaitsee kiitoksemme ponnisteluistaan ja näkemyksestään. Muuten, me isännöimme Bitcoin:n whitepaperia täällä Agora 256:ssa (huom. myös yliopistossa).
 
-## Bitcoin Coren asennusopas Debian/Ubuntu
 
-> Edellytykset
->
-> - Vähintään 6GB tallennustilaa (karsittu node) — 1TB tallennustilaa (täysi node)
-> - Varaa vähintään 24 tuntia Alkuperäisen Lohkon Latauksen (IBD) suorittamiseen. Tämä toimenpide on pakollinen jopa karsitulle nodelle.
-> - Varaa ~600GB kaistanleveyttä IBD:lle, jopa karsitulle nodelle.
+### Oman pankin perustaminen
 
-> 💡 Seuraavat komennot on määritelty Bitcoin Coren versiolle 24.1.
 
-## Tiedostojen lataaminen ja tarkistaminen
+Oman solmun pyörittämisestä on tullut olennaisen tärkeää Bitcoin-etiikan kannattajille. Kyselemättä keneltäkään lupaa on mahdollista ladata Blockchain alusta alkaen ja siten todentaa kaikki transaktiot A:sta Z:hen Bitcoin-protokollan mukaisesti.
 
-1. Lataa bitcoin-24.1-x86_64-linux-gnu.tar.gz sekä SHA256SUMS ja SHA256SUMS.asc tiedostot. (https://bitcoincore.org/bin/bitcoin-core-24.1/bitcoin-24.1-x86_64-linux-gnu.tar.gz)
 
-2. Avaa terminaali hakemistossa, jossa ladatut tiedostot sijaitsevat. Esim., cd ~/Lataukset/.
-3. Varmista, että version tiedoston tarkistussumma on lueteltu tarkistussummatiedostossa komennolla sha256sum --ignore-missing --check SHA256SUMS.
-4. Tämän komennon tuloksen pitäisi sisältää ladatun version tiedostonimi seurattuna "OK". Esimerkki: bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK.
+Ohjelmaan kuuluu myös oma Wallet. Siten voimme valvoa tapahtumia, joita lähetämme muuhun verkkoon, ilman välikäsiä tai kolmansia osapuolia. Sinä olet oma pankkisi.
 
-5. Asenna git käyttäen komentoa sudo install git. Sen jälkeen, kloonaa repositorio, joka sisältää Bitcoin Coren allekirjoittajien PGP-avaimet käyttäen komentoa git clone https://github.com/bitcoin-core/guix.sigs.
-6. Tuo kaikkien allekirjoittajien PGP-avaimet käyttäen komentoa gpg --import guix.sigs/builder-keys/\*
-7. Varmista, että tarkistussummatiedosto on allekirjoitettu allekirjoittajien PGP-avaimilla käyttäen komentoa gpg --verify SHA256SUMS.asc.
-Jokainen allekirjoitus palauttaa rivin, joka alkaa: gpg: Hyvä allekirjoitus ja toisen rivin, joka päättyy Pääavaimen sormenjälkeen: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320 (esimerkki Pieter Wuillen PGP-avaimen sormenjäljestä).
-> 💡 Kaikkien allekirjoittajien avainten ei tarvitse palauttaa "OK". Itse asiassa vain yksi voi olla tarpeellinen. Käyttäjän on itse määriteltävä oma validointikynnyksensä PGP-vahvistusta varten.
->
-> Voit jättää huomiotta viestit VAROITUS: Tätä avainta ei ole varmennettu luotetulla allekirjoituksella!
 
-> Ei ole merkkiä siitä, että allekirjoitus kuuluisi omistajalle.
+Tämän artikkelin loppuosa on siis opas Bitcoin core:n - yleisimmin käytetyn Bitcoin-ohjelmistoversion - asentamiseen erityisesti Debian-yhteensopiviin Linux-jakeluihin, kuten Ubuntuun ja Pop!OS:ään. Seuraa tätä opasta ottaaksesi askeleen lähemmäs yksilöllistä itsemääräämisoikeuttasi.
 
-## Bitcoin Coren graafisen käyttöliittymän asennus
 
-1. Terminaalissa, edelleen hakemistossa, jossa Bitcoin Coren version tiedosto sijaitsee, käytä komentoa tar xzf bitcoin-24.1-x86_64-linux-gnu.tar.gz purkaaksesi arkistossa olevat tiedostot.
+## Bitcoin core Asennusopas Debian/Ubuntu -käyttöjärjestelmälle
 
-2. Asenna aiemmin puretut tiedostot käyttämällä komentoa sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-24.1/bin//\*
 
-3. Asenna tarvittavat riippuvuudet käyttämällä komentoa sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools qtwayland5 libqrencode-dev
+**Edellytykset**
 
-4. Käynnistä bitcoin-qt (Bitcoin Coren graafinen käyttöliittymä) käyttämällä komentoa bitcoin-qt.
 
-5. Valitaksesi karsitun solmun, valitse Rajoita lohkoketjun tallennustilaa ja määritä tallennettavan datan raja:
+- Vähintään 6 Gt tallennustilaa (pruned-solmu) - 1 Tt tallennustilaa (Full node)
+- Odota, että *Initial Block Download* (IBD) kestää vähintään 24 tuntia. Tämä toiminto on pakollinen jopa pruned-solmulle.
+- Anna IBD:lle ~600 Gt kaistanleveyttä, jopa pruned-solmulle.
 
-![welcome](assets/1.webp)
 
-## Yhteenveto Osa 1: Asennusopas
+**Huomautus:💡** seuraavat komennot on määritetty valmiiksi Bitcoin core-versiossa 24.1.
 
-Kun Bitcoin Core on asennettu, on suositeltavaa pitää se käynnissä mahdollisimman paljon osallistuaksesi Bitcoin-verkkoon vahvistamalla transaktioita ja lähettämällä uusia lohkoja muille vertaisille.
 
-Kuitenkin, solmun ajoittainen käynnistäminen ja synkronointi, jopa vain vastaanotettujen ja lähetettyjen transaktioiden validointia varten, on hyvä käytäntö.
+### Tiedostojen lataaminen ja tarkistaminen
 
-![Creation wallet](assets/2.webp)
 
-# Torin konfigurointi Bitcoin Core -solmulle
 
-> 💡 Tämä opas on suunniteltu Bitcoin Core 24.0.1:lle Ubuntu/Debian-yhteensopivilla Linux-jakeluilla.
+- [Lataa](https://bitcoincore.org/en/download/) `Bitcoin-24.1-x86_64-linux-gnu.tar.gz`, sekä `SHA256SUMS` ja `SHA256SUMS.asc`-tiedostot (sinun on luonnollisesti ladattava uusin versio ohjelmistosta).
 
-## Torin asentaminen ja konfigurointi Bitcoin Corelle
 
-Ensimmäiseksi meidän on asennettava Tor-palvelu (The Onion Router), verkko anonyymiin kommunikaatioon, mikä mahdollistaa vuorovaikutuksemme anonymisoinnin Bitcoin-verkon kanssa. Online-yksityisyydensuojatyökalujen, mukaan lukien Tor, esittelyyn voit tutustua artikkelissamme aiheesta.
 
-Torin asentamiseksi avaa terminaali ja syötä sudo apt -y install tor. Asennuksen valmistuttua palvelun pitäisi yleensä käynnistyä automaattisesti taustalla. Tarkista, että se toimii oikein komennolla sudo systemctl status tor. Vastauksen pitäisi näyttää Active: active (exited). Poistu tästä toiminnosta painamalla Ctrl+C.
+- Avaa pääte siihen hakemistoon, jossa ladatut tiedostot sijaitsevat. Esimerkki: `cd ~/Downloads/`.
 
-> Tarvittaessa voit käyttää seuraavia komentoja terminaalissa Torin käynnistämiseen, pysäyttämiseen tai uudelleenkäynnistämiseen:
 
-```
+
+- Tarkista, että versiotiedoston tarkistussumma on lueteltu tarkistussummatiedostossa komennolla `sha256sum --ignore-missing --check SHA256SUMS`.
+
+
+
+- Tämän komennon tulosteessa pitäisi olla ladatun versiotiedoston nimi ja sen jälkeen `OK`. Example: `Bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK`.
+
+
+
+- Asenna git komennolla `sudo apt install git`. Kloonaa sitten Bitcoin core-signaajien PGP-avaimet sisältävä arkisto komennolla `git clone https://github.com/Bitcoin-core/guix.sigs`.
+
+
+
+- Tuo kaikkien allekirjoittajien PGP-avaimet komennolla `gpg --import guix.sigs/builder-keys/*`
+
+
+
+- Tarkista, että tarkistussummatiedosto on allekirjoitettu allekirjoittajien PGP-avaimilla komennolla `gpg --verify SHA256SUMS.asc`.
+
+
+
+Jokaisessa kelvollisessa allekirjoituksessa näkyy rivi, joka alkaa seuraavalla: `gpg: Hyvä allekirjoitus` ja toinen rivi, joka päättyy: `Primary key fingerprint: b794 860F EB80 4E66 9320` (esimerkki Pieter Wuillen PGP-avaimen sormenjäljestä).
+
+
+**Huomautus💡:** Kaikkien allekirjoitusavainten ei tarvitse palauttaa "OK". Itse asiassa vain yksi voi olla tarpeen. Käyttäjä voi itse määritellä PGP-varmistuksen validointikynnyksen.
+
+
+Voit jättää varoitukset huomiotta:
+
+
+
+- "Tätä avainta ei ole varmennettu luotettavalla allekirjoituksella!
+
+
+
+- "Ei ole mitään viitteitä siitä, että allekirjoitus kuuluisi omistajalle
+
+
+### Bitcoin core:n graafisen Interface:n asennus
+
+
+
+- Pura arkiston sisältämät tiedostot päätelaitteessa, edelleen siinä hakemistossa, jossa Bitcoin core-versiotiedosto sijaitsee, komennolla `tar xzf Bitcoin-24.1-x86_64-linux-gnu.tar.gz`.
+
+
+
+- Asenna aiemmin puretut tiedostot komennolla `sudo install -m 0755 -o root -g root -t /usr/local/bin Bitcoin-24.1/bin/*`
+
+
+
+- Asenna tarvittavat riippuvuudet komennolla `sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools qtwayland5 libqrencode-dev`
+
+
+
+- Käynnistä _bitcoin-qt_ (Bitcoin core graafinen Interface) komennolla `Bitcoin-qt`.
+
+
+
+- Jos haluat valita pruned-solmun, valitse _Limit Blockchain storage_ ja määritä tallennettavan tiedon raja:
+
+
+![welcome](assets/fr/02.webp)
+
+
+### Osa 1: Asennusopas
+
+
+Kun Bitcoin core on asennettu, on suositeltavaa pitää se käynnissä mahdollisimman paljon, jotta se voi osallistua Bitcoin-verkon toimintaan tarkistamalla transaktioita ja lähettämällä uusia lohkoja muille vertaisverkoille.
+
+
+Solmun ajaminen ja synkronointi ajoittain, vaikka vain vastaanotettujen ja lähetettyjen tapahtumien validoimiseksi, on kuitenkin edelleen hyvä käytäntö.
+
+
+![Creation wallet](assets/fr/03.webp)
+
+
+## Torin määrittäminen Bitcoin core-solmulle
+
+
+**Huomautus💡:** Tämä opas on suunniteltu Bitcoin core 24.0.1:lle Ubuntu/Debian-yhteensopivissa Linux-jakeluissa.
+
+
+### Torin asentaminen ja määrittäminen Bitcoin core:lle
+
+
+Ensin meidän on asennettava Tor-palvelu (The Onion Router), anonyymiin viestintään käytettävä verkko, jonka avulla voimme anonymisoida vuorovaikutuksemme Bitcoin-verkon kanssa. Tutustu yksityisyydensuojatyökaluihin verkossa, Tor mukaan lukien, tätä aihetta käsittelevässä artikkelissamme.
+
+
+Asenna Tor avaamalla terminaali ja kirjoittamalla `sudo apt -y install tor`. Kun asennus on valmis, palvelu käynnistyy normaalisti automaattisesti taustalla. Tarkista, että se toimii oikein komennolla `sudo systemctl status tor`. Vastauksena pitäisi näkyä `Active: active (exited)`. Poistu tästä toiminnosta painamalla `Ctrl+C`.
+
+
+**Vinkki:** Voit joka tapauksessa käyttää seuraavia komentoja terminaalissa Torin käynnistämiseen, pysäyttämiseen tai uudelleenkäynnistämiseen:
+
+
+```shell
 sudo systemctl start tor
 sudo systemctl stop tor
 sudo systemctl restart tor
 ```
 
-Seuraavaksi käynnistetään Bitcoin Coren graafinen käyttöliittymä komennolla bitcoin-qt. Sen jälkeen otetaan käyttöön ohjelmiston automatisoitu toiminto reitittää yhteytemme Tor-välityspalvelimen kautta: Asetukset > Verkko, ja sieltä voimme valita Yhdistä SOCKS5-välityspalvelimen kautta (oletusvälityspalvelin) sekä Käytä erillistä SOCKS5-välityspalvelinta tavoittaaksesi vertaiset Tor-onion-palveluiden kautta.
 
-![option](assets/3.webp)
+Seuraavaksi käynnistetään Bitcoin core-grafinen Interface komennolla `Bitcoin-qt`. Ota sitten käyttöön ohjelmiston automaattinen ominaisuus reitittää yhteytemme Tor-välityspalvelimen kautta: _Settings > Network_, ja valitse sieltä _Connect through SOCKS5 proxy (default proxy)_ sekä _Use a separate SOCKS5 proxy to reach peers via Tor onion services_.
 
-Bitcoin Core automaattisesti havaitsee, jos Tor on asennettu ja, jos näin on, luo oletuksena ulospäin suuntautuvia yhteyksiä muihin myös Toria käyttäviin solmuihin, lisäksi yhteyksiin solmuihin käyttäen IPv4/IPv6-verkkoja (clearnet).
-> 💡 Vaihtaaksesi näyttökielen ranskaksi, mene Näyttö-välilehteen Asetuksissa.
-## Edistynyt Tor-konfiguraatio (valinnainen)
 
-On mahdollista konfiguroida Bitcoin Core käyttämään ainoastaan Tor-verkkoa yhteyksien muodostamiseen vertaisten kanssa, näin optimoiden anonymiteettimme nodemme kautta. Koska graafisessa käyttöliittymässä ei ole sisäänrakennettua toiminnallisuutta tähän, meidän täytyy manuaalisesti luoda konfiguraatiotiedosto. Mene Asetuksiin, sitten Vaihtoehdot.
+![option](assets/fr/04.webp)
 
-![vaihtoehto 2](assets/4.webp)
 
-Täällä, klikkaa Avaa konfiguraatiotiedosto. Kun olet bitcoin.conf-tekstitiedostossa, lisää vain rivi onlynet=onion ja tallenna tiedosto. Sinun täytyy käynnistää Bitcoin Core uudelleen, jotta tämä komento tulee voimaan.
-Konfiguroimme sitten Tor-palvelun niin, että Bitcoin Core voi vastaanottaa saapuvia yhteyksiä välityspalvelimen kautta, sallien muiden verkoston nodien käyttää nodettamme lohkoketjun datan lataamiseen vaarantamatta koneemme turvallisuutta.
+Bitcoin core havaitsee automaattisesti, onko Tor asennettu, ja jos on, se luo oletusarvoisesti lähteviä yhteyksiä muihin solmuihin, jotka myös käyttävät Toria, sekä yhteyksiä solmuihin, jotka käyttävät IPv4/IPv6-verkkoja (clearnet).
 
-Terminaalissa, syötä sudo nano /etc/tor/torrc päästäksesi Tor-palvelun konfiguraatiotiedostoon. Tässä tiedostossa, etsi rivi #ControlPort 9051 ja poista # ottaaksesi sen käyttöön. Lisää nyt kaksi uutta riviä tiedostoon: HiddenServiceDir /var/lib/tor/bitcoin-service/ ja HiddenServicePort 8333 127.0.0.1:8334. Poistuaksesi tiedostosta tallentaen sen, paina Ctrl+X > Y > Enter. Takaisin terminaalissa, käynnistä Tor uudelleen syöttämällä komento sudo systemctl restart tor.
 
-Tällä konfiguraatiolla, Bitcoin Core pystyy muodostamaan saapuvia ja lähteviä yhteyksiä muiden verkoston nodien kanssa ainoastaan Tor-verkon (Onion) kautta. Vahvistaaksesi tämän, klikkaa Ikkuna-välilehteä, sitten Vertaiset.
+**Huomautus💡:** Jos haluat vaihtaa näyttökielen ranskaksi, siirry Asetukset-välilehdelle Näyttö.
 
-![Nodet Ikkuna](assets/5.webp)
 
-## Lisäresurssit
+### Edistynyt Tor-konfiguraatio (valinnainen)
 
-Lopulta, käyttämällä ainoastaan Tor-verkkoa (onlynet=onion) saatat olla haavoittuvainen Sybil-hyökkäykselle. Siksi jotkut suosittelevat moniverkkokonfiguraation ylläpitämistä tällaisen riskin lieventämiseksi. Lisäksi, kaikki IPv4/IPv6-yhteydet reititetään Tor-välityspalvelimen kautta, kun se on konfiguroitu, kuten aiemmin mainittiin.
 
-Vaihtoehtoisesti, pysyäksesi ainoastaan Tor-verkossa ja lieventääksesi Sybil-hyökkäyksen riskiä, voit lisätä toisen luotetun noden osoitteen bitcoin.conf-tiedostoosi lisäämällä rivin addnode=trusted_address.onion. Voit lisätä tämän rivin useita kertoja, jos haluat yhdistää useisiin luotettuihin nodeihin.
+Bitcoin core on mahdollista konfiguroida käyttämään vain Tor-verkkoa yhteyden muodostamiseen vertaisverkkoihin, jolloin anonymiteettimme solmun kautta optimoituu. Koska graafisessa Interface:ssä ei ole tätä varten sisäänrakennettua toimintoa, meidän on luotava manuaalisesti konfigurointitiedosto. Siirry kohtaan Asetukset ja sitten Asetukset.
 
-Nähdäksesi Bitcoin-nodesi lokit erityisesti sen vuorovaikutuksesta Torin kanssa, lisää debug=tor bitcoin.conf-tiedostoosi. Nyt sinulla on relevanttia Tor-tietoa debug-lokissasi, jonka voit tarkastella Tiedot-ikkunassa Debug File -painikkeella. On myös mahdollista tarkastella näitä lokeja suoraan terminaalissa komennolla bitcoind -debug=tor.
 
-> 💡 Joitakin kiinnostavia linkkejä:
->
-> - Wiki-sivu, joka selittää Torin ja sen suhteen Bitcoinin kanssa
-> - Bitcoin Coren konfiguraatiotiedoston generaattori Jameson Loppilta
-> - Torin konfiguraatio-opas Jon Atackilta
+![option 2](assets/fr/05.webp)
 
-Kuten aina, jos sinulla on kysymyksiä, jaa ne vapaasti Agora256-yhteisön kanssa. Opimme yhdessä olemaan huomenna parempia kuin tänään!
+
+Napsauta tässä kohtaa _Open configuration file_. Kun olet `Bitcoin.conf`-tekstitiedostossa, lisää rivi `onlynet=onion` ja tallenna tiedosto. Sinun on käynnistettävä Bitcoin core uudelleen, jotta tämä komento tulee voimaan.
+
+
+Tämän jälkeen konfiguroimme Tor-palvelun niin, että Bitcoin core voi vastaanottaa saapuvia yhteyksiä välityspalvelimen kautta, jolloin muut verkon solmut voivat käyttää solmua Blockchain:n tietojen lataamiseen vaarantamatta koneemme turvallisuutta.
+
+
+Kirjoita päätelaitteessa `sudo nano /etc/tor/torrc` päästäksesi käsiksi Tor-palvelun asetustiedostoon. Etsi tiedostosta rivi `#ControlPort 9051` ja poista `#` ottaaksesi sen käyttöön. Lisää nyt tiedostoon kaksi uutta riviä:
+
+
+```
+HiddenServiceDir /var/lib/tor/bitcoin-service/
+HiddenServicePort 8333 127.0.0.1:8334
+```
+
+
+Voit poistua tiedostosta tallentamisen aikana painamalla `Ctrl+X > Y > Enter`. Käynnistä Tor uudelleen terminaalissa komennolla `sudo systemctl restart tor`.
+
+
+Tällä kokoonpanolla Bitcoin core pystyy luomaan saapuvia ja lähteviä yhteyksiä muihin verkon solmuihin vain Tor-verkon (Onion) kautta. Vahvista tämä napsauttamalla _Window_-välilehteä ja sitten _Peers_.
+
+
+![Nodes Window](assets/fr/06.webp)
+
+
+### Lisäresurssit
+
+
+Jos käytät vain Tor-verkkoa (`onlynet=onion`), voit olla altis Sybil Attack:lle. Siksi jotkut suosittelevat usean verkon konfiguraation ylläpitämistä tämäntyyppisten riskien vähentämiseksi. Lisäksi kaikki IPv4/IPv6-yhteydet ohjataan Tor-välityspalvelimen kautta, kun se on konfiguroitu, kuten aiemmin todettiin.
+
+
+Vaihtoehtoisesti, jos haluat pysyä pelkästään Tor-verkossa ja vähentää Sybil Attack:n riskiä, voit lisätä toisen luotetun solmun Address:n Bitcoin.conf-tiedostoosi lisäämällä rivin `addnode=trusted_address.onion`. Voit lisätä tämän rivin useita kertoja, jos haluat muodostaa yhteyden useisiin luotettuihin solmuihin.
+
+
+Jos haluat tarkastella Bitcoin-solmusi lokitietoja, jotka liittyvät erityisesti sen vuorovaikutukseen Torin kanssa, lisää `debug=tor` Bitcoin.conf-tiedostoon. Debug-lokissasi on nyt Toriin liittyviä tietoja, joita voit tarkastella _Information_-ikkunassa _Debug File_-painikkeella. Näitä lokeja on mahdollista tarkastella myös suoraan terminaalissa komennolla `bitcoind -debug=tor`.
+
+
+**Vinkki💡:** Tässä on muutamia mielenkiintoisia linkkejä:
+
+
+- [Wikisivu, jossa selitetään Tor ja sen suhde Bitcoin:een](https://en.Bitcoin.it/wiki/Tor)
+- [Bitcoin core konfigurointitiedoston generaattori Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Jon Atackin Tor-konfigurointiopas](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
+
+
+Kuten aina, jos sinulla on kysyttävää, voit jakaa sen Agora256-yhteisön kanssa. Opimme yhdessä, jotta voisimme olla huomenna parempia kuin tänään!

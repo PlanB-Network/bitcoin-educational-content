@@ -1,0 +1,9 @@
+question: 비트코인에 대한 액세스 권한을 전달할 때 권장하지 않는 사항은 무엇인가요?
+answer: 한 사람에게 Mnemonic 문구 전달하기
+wrong_answers:
+  - 여러 사람에게 정보 나누기
+  - 봉인된 불투명 봉투 사용
+  - 설명 편지 작성하기
+explanation: |
+  추가 보안 없이 한 사람에게 Mnemonic 문구를 맡기면 평생 동안 도난의 위험이 크게 증가합니다.
+reviewed: false

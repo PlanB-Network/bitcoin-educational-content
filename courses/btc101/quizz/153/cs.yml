@@ -1,13 +1,13 @@
-question: Jaký je účel úpravy obtížnosti při těžbě Bitcoinu?
-answer: Vyvažuje globální hru těžby na základě počtu účastníků.
+question: Co se stane při 51% útoku na síť Bitcoinu?
+answer: Útočník vlastní více než polovinu hashrate a může se pokusit upravit blockchain.
 wrong_answers:
-  - Zvyšuje odměnu za těžbu.
-  - Sníží počet bitcoinů v oběhu.
-  - Zvyšuje bezpečnost sítě Bitcoin.
-explanation: >-
-  Úprava obtížnosti při těžbě Bitcoinu je navržena tak, aby zajistila, že
-  čas potřebný k vytěžení bloku zůstává přibližně konstantní, bez ohledu na
-  celkový výpočetní výkon sítě. Upravuje obtížnost matematického
-  problému, který musí těžaři vyřešit, na základě počtu těžařů účastnících se v
-  síti.
+  - Útočník získá kontrolu nad více než polovinou bitcoinů v oběhu.
+  - Útočník získá kontrolu nad více než polovinou uzlů v síti Bitcoin.
+  - Útočník získá kontrolu nad více než polovinou těžebních poolů v síti Bitcoin.
+explanation: |
+  Při 51% útoku může útočník, který vlastní více než polovinu
+  výpočetního výkonu sítě, potenciálně manipulovat s
+  blockchainem vytvořením alternativního řetězce bloků.
+  Nicméně, takový útok by byl extrémně nákladný a
+  nepravděpodobně by byl ziskový, což z něj činí nepravděpodobný scénář.
 reviewed: true

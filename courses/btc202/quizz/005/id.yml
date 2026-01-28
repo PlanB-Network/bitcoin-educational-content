@@ -1,0 +1,9 @@
+question: Perangkat lunak mana yang memadukan fungsi Full node dan Wallet?
+answer: Bitcoin core
+wrong_answers:
+  - Sparrow wallet
+  - Ashigaru
+  - Wallet dari Satoshi
+explanation: |
+  Bitcoin core bertindak sebagai Full node dan Wallet, tidak seperti paket perangkat lunak lainnya, yang hanya merupakan perangkat lunak manajemen Wallet.
+reviewed: true

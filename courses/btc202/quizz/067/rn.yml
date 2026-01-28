@@ -1,0 +1,9 @@
+question: Ni ibihe bikoresho bisabwa kugira ngo umuntu asubire kuronka urudodo rw’umuravyo?
+answer: seed na SCB
+wrong_answers:
+  - seed na dosiye ya txindex
+  - seed na IP ya bose Address.
+  - seed na 2FA
+explanation: |
+  Gusubizaho urudodo rw’umuravyo bisaba seed na SCB (Static Channel Backup), iyo atavyo amahera y’umurongo ntashobora gusubirwamwo.
+reviewed: true

@@ -23,7 +23,7 @@ Deze apparaten worden op de markt gebracht als een extra verwarming in het geval
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Houd er rekening mee dat het prijsverschil met traditionele kachels met een gelijkwaardig vermogen je in de meeste gevallen niet in staat stelt om financiële winst te maken. De satoshis die worden gegenereerd door de activiteit van Mining zullen dit prijsverschil nooit compenseren, tenzij je toegang hebt tot gratis (overtollige) of zeer goedkope elektriciteit.
 
@@ -75,17 +75,18 @@ Hieronder vindt u een tabel met een overzicht van de algemene technische specifi
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Kenmerk                                      | Waarde                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hashsnelheid                                      | 6 Th/s +- 5%                                            |
+| Stroomverbruik                               | 140 W                                                   |
+| Geluid                                                | 30 - 40 dB                                              |
+| Bereik uitgangsluchttemperatuur                 | 60-70°C (bij omgevingstemperatuur 25°C)                |
+| Omgevingstemperatuureisen voor gebruik | -5 tot 30°C                                            |
+| Ingangsspanningsbereik apparaat                         | 28V 5A continu                                          |
+| Ingangsspanningsbereik adapter                       | 110-240V AC 50/60Hz                                     |
+| Apparaatgrootte                                 | Lengte: 205 mm / Breedte: 115 mm / Hoogte: 58.5 mm |
+| Apparaatgewicht                                  | 0.86 kg                                                 |
 
 ## Inschakelen en verbinding maken met het lokale netwerk
 
@@ -207,9 +208,9 @@ Voor meer details over hoe je verbinding maakt met een Mining pool, kun je deze 
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Samengevat hebben we het volgende nodig
 
@@ -358,4 +359,4 @@ Bekijk voor meer informatie onze handleiding over de superieure versie van de Av
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

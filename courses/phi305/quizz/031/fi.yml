@@ -1,0 +1,9 @@
+question: Mitä finalismi on?
+answer: Syyn ja seurauksen kääntäminen toisinpäin jonkin asian ymmärtämiseksi.
+wrong_answers:
+  - Poliittinen teoria.
+  - Resepti ruoanlaittoon.
+  - Psykoanalyysin periaate.
+explanation: |
+  Finalismi on syyn ja seurauksen käänteistä kääntämistä jonkin asian ymmärtämiseksi. Se selittää ilmiötä sen oletetun tarkoituksen eikä sen todellisten syiden avulla, mitä Spinoza kritisoi harhakuvitelmana.
+reviewed: false

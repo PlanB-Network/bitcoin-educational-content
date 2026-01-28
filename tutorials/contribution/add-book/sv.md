@@ -1,6 +1,6 @@
 ---
-name: Lägga till en bok i PlanB Network
-description: Hur lägger man till en ny bok i PlanB Network?
+name: Lägga till en bok i Plan ₿ Academy
+description: Hur lägger man till en ny bok i Plan ₿ Academy?
 ---
 ![book](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Hur lägger man till en ny bok i PlanB Network?
 PlanB:s uppdrag är att tillhandahålla förstklassiga utbildningsresurser om Bitcoin på så många språk som möjligt. Allt innehåll som publiceras på webbplatsen är öppen källkod och värd på GitHub, så att alla kan bidra till att berika plattformen.
 
 
-**Vill du lägga till en bok relaterad till Bitcoin på PlanB Network-webbplatsen och öka synligheten för ditt arbete, men vet inte hur? Den här handledningen är för dig!**
+**Vill du lägga till en bok relaterad till Bitcoin på Plan ₿ Academy-webbplatsen och öka synligheten för ditt arbete, men vet inte hur? Den här handledningen är för dig!**
 
 ![book](assets/01.webp)
 
@@ -16,7 +16,7 @@ PlanB:s uppdrag är att tillhandahålla förstklassiga utbildningsresurser om Bi
 - Först måste du ha ett GitHub-konto. Om du inte vet hur du skapar ett konto har vi gjort en detaljerad handledning för att vägleda dig.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![book](assets/03.webp)
 
 
-- Om du aldrig har bidragit till innehållet i PlanB Network tidigare måste du skapa din Fork av det ursprungliga förvaret. Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, så att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Klicka på knappen `Fork this repository`:
+- Om du aldrig har bidragit till innehållet i Plan ₿ Academy tidigare måste du skapa din Fork av det ursprungliga förvaret. Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, så att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Klicka på knappen `Fork this repository`:
 
 ![book](assets/04.webp)
 
@@ -70,12 +70,12 @@ tags:
 Här är de uppgifter som ska fyllas i för varje fält:
 
 
-- `författare`**: Ange namnet på bokens författare.
-- nivå**: Ange den nivå som krävs för att kunna läsa och förstå boken på ett bra sätt. Välj en nivå bland följande:
+- **`författare`**: Ange namnet på bokens författare.
+- **Nivå**: Ange den nivå som krävs för att kunna läsa och förstå boken på ett bra sätt. Välj en nivå bland följande:
  - "nybörjare
  - "mellanliggande
 - "avancerad" - "expert
-- `taggar`**: Lägg till två eller tre taggar som är relaterade till din bok. Till exempel:
+- `taggar`**: Lägg till två eller tre taggar som är relaterade till din bok. Till exempel:**
     - `Bitcoin`
     - `historia`
     - teknik
@@ -123,7 +123,7 @@ tags:
 ![book](assets/14.webp)
 
 
-- Välj din Fork i PlanB Network-förvaret:
+- Välj din Fork i Plan ₿ Academy-förvaret:
 
 ![book](assets/15.webp)
 
@@ -178,7 +178,7 @@ tags:
 ![book](assets/25.webp)
 
 
-- En ny sida öppnas. Dra och släpp omslagsbilden för din bok i området. Denna bild kommer att visas på PlanB Network-webbplatsen:
+- En ny sida öppnas. Dra och släpp omslagsbilden för din bok i området. Denna bild kommer att visas på Plan ₿ Academy-webbplatsen:
 
 ![book](assets/26.webp)
 
@@ -247,11 +247,11 @@ contributors:
 Här är de uppgifter som ska fyllas i för varje fält:
 
 
-- `title`**: Ange bokens namn inom citationstecken.
-- `publication_year`**: Anger det år boken publicerades.
-- `cover`**: Ange namnet på den fil som motsvarar omslagsbilden, i enlighet med språket i den YAML-fil som du för närvarande redigerar. Om du t.ex. redigerar filen `en.yml` och du tidigare har lagt till den engelska omslagsbilden med titeln `cover_en.webp`, anger du bara `cover_en.webp` i det här fältet.
-- `Beskrivning`**: Lägg till ett kort stycke som beskriver boken. Beskrivningen måste vara på samma språk som anges i titeln på YAML-filen.
-- `bidragsgivare`**: Lägg till ditt bidragsgivar-ID om du har ett.
+- `title`: **Ange bokens namn inom citationstecken.**
+- `publication_year`: Anger det år boken publicerades.
+- `cover`: Ange namnet på den fil som motsvarar omslagsbilden, i enlighet med språket i den YAML-fil som du för närvarande redigerar. Om du t.ex. redigerar filen `en.yml` och du tidigare har lagt till den engelska omslagsbilden med titeln `cover_en.webp`, anger du bara `cover_en.webp` i det här fältet.
+- `Beskrivning`: Lägg till ett kort stycke som beskriver boken. Beskrivningen måste vara på samma språk som anges i titeln på YAML-filen.
+- **`bidragsgivare`**: Lägg till ditt bidragsgivar-ID om du har ett.
 
 
 Din YAML-fil kan till exempel se ut så här:

@@ -1,9 +1,11 @@
-question: Wie hoch ist die ungefähre Anzahl der weltweit verteilten Knotenpunkte Stand September 2023?
-answer: 45.000 Knotenpunkte.
+question: Warum ist es wichtig, dass ein Bitcoin-Knoten erschwinglich und für alle möglichen Nutzer zugänglich bleibt?
+answer: Weil es die Dezentralisierung des Netzwerks fördert.
 wrong_answers:
-  - 10.000 Knotenpunkte.
-  - 100.000 Knotenpunkte.
-  - 500.000 Knotenpunkte.
-explanation: >-
-  Stand September 2023 gibt es ungefähr 45.000 weltweit verteilte Knotenpunkte.
+  - Weil es die Transaktionskapazität des Netzwerks erhöht.
+  - Weil es die Transaktionskapazität des Netzwerks verringert.
+  - Weil es die Blockbelohnung für Miner erhöht.
+explanation: |
+  Die erschwinglichen Kosten und die Zugänglichkeit eines Bitcoin-Knotens sind
+  wichtig, weil sie die Dezentralisierung des
+  Netzwerks fördern.
 reviewed: true

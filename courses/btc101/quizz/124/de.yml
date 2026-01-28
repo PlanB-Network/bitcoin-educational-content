@@ -1,10 +1,12 @@
-question: Was ist die Version der ersten veröffentlichten Bitcoin-Software?
-answer: Bitcoin-0.1.0.
+question: Was ist die Rolle eines Bitcoin-Knotens im Bitcoin-Netzwerk?
+answer: Er validiert neue Blöcke und die enthaltenen Transaktionen.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
-  Die erste veröffentlichte Bitcoin-Software war Bitcoin-0.1.0. Sie wurde
-  von Satoshi Nakamoto am 8. Januar 2009 angekündigt.
+  - Er erstellt neue Bitcoins und fügt sie den Blöcken hinzu.
+  - Er reguliert den Preis von Bitcoin.
+  - Er verwaltet das Bitcoin-Netzwerk.
+explanation: |
+  Ein Bitcoin-Knoten im Bitcoin-Netzwerk kümmert sich um
+  die Validierung von neuen Blöcken und den enthaltenen Transaktionen. Es ist
+  dieses Netzwerk von Bitcoin-Knoten, das es wahrhaftig
+  dezentralisiert macht.
 reviewed: true

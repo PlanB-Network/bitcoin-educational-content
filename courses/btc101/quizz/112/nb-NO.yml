@@ -1,12 +1,10 @@
-question: Hvorfor kjøpe bitcoins uten KYC?
-answer: For å sikre ditt personvern
+question: Hva er BitcoinTalk?
+answer: Et diskusjonsforum for Bitcoin-brukere
 wrong_answers:
-  - For å sikre registreringen av alle Bitcoin-brukere
-  - For å kjøpe til en lav pris
-  - For å selge til en lav pris
-explanation: >-
-  Å kjøpe bitcoins uten KYC betyr å anskaffe bitcoins uten å gå gjennom de standard 
-  Know Your Customer verifiseringsprosedyrene som mange børser og plattformer krever. 
-  En primær grunn til at individer kan velge denne veien er for å opprettholde sitt personvern, 
-  og sørge for at deres personlige detaljer og finansielle aktiviteter forblir uoffentlige.
+  - En Bitcoin-mining programvare
+  - En Bitcoin-lommebok
+  - En Bitcoin-konferanse
+explanation: |
+  BitcoinTalk-forumet er et diskusjonsforum for Bitcoin-brukere. Det
+  ble opprettet av Satoshi Nakamoto den 22. november 2009.
 reviewed: true

@@ -1,8 +1,9 @@
-question: Kakvog je izgleda kriva usvajanja Bitkoina?
-answer: S-krivulja.
+question: Kakav je status Bitkoina u El Salvadoru?
+answer: Zakonsko sredstvo plaćanja.
 wrong_answers:
-  - Kriva U-oblik.
-  - V-krivulja.
-  - W-krivulja.
-explanation: >-
+  - Kriminalizovano.
+  - Nepoznato.
+  - Neregulisano.
+explanation: |
+  Tekst kursa pominje da su neke zemlje zabranile i kriminalizovale upotrebu Bitkoina, što dodaje složenost usvajanju Bitkoina zasnovanom na kulturama, epohama i nacijama. Međutim, El Salvador je bio dovoljno hrabar da ga usvoji kao zakonsko sredstvo plaćanja.
 reviewed: true

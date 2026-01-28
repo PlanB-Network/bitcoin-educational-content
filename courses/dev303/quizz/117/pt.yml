@@ -1,0 +1,8 @@
+question: Qual é a razão fundamental pela qual a arquitetura do Breez SDK evita os obstáculos regulamentares que normalmente afectam os serviços Lightning de custódia?
+answer: Os utilizadores mantêm o controlo total sobre as suas chaves privadas, que nunca saem dos seus dispositivos, tornando-o um software sem custódia
+wrong_answers:
+  - O SDK funciona através de LSPs descentralizados que distribuem a responsabilidade regulamentar por várias jurisdições
+  - A infraestrutura Greenlight está alojada em jurisdições que respeitam a regulamentação e que isentam os serviços Lightning baseados na nuvem
+  - O mecanismo de canal just-in-time cria canais de pagamento temporários que não se enquadram nos regulamentos financeiros tradicionais
+explanation: |
+  O SDK Breez evita os obstáculos regulamentares porque mantém princípios de não custódia - as chaves privadas dos utilizadores nunca saem dos seus dispositivos e a Greenlight não pode aceder aos fundos dos utilizadores nem efetuar operações não autorizadas. Esta arquitetura sem custódia significa que o software não detém os fundos dos clientes, ao contrário dos serviços de custódia que enfrentam requisitos regulamentares significativos, uma vez que controlam os activos dos utilizadores. As outras opções sugerem incorretamente que as vantagens regulamentares advêm de caraterísticas técnicas ou estratégias jurisdicionais, quando a principal vantagem é simplesmente o facto de o software sem custódia enfrentar menos barreiras regulamentares a nível global.

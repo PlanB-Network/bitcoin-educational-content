@@ -1,0 +1,10 @@
+question: Bitcoin의 맥락에서 리쳇이란 무엇인가요?
+answer: 자신에게 여러 거래를 하는 기술
+wrong_answers:
+  - 여러 참가자가 참여하는 공동 작업 거래
+  - 잠재적 익명성을 높이기 위해 비트코인을 혼합하는 방법
+  - 특정 Exchange 플랫폼에 특정한 CoinJoin 유형
+explanation: |
+  리코쳇은 가상의 거래를 여러 번 자신에게 하는(스위핑) 기법입니다.
+  
+reviewed: true

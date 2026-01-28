@@ -1,11 +1,11 @@
-question: None igihe impembo ya Mining igabanywamwo igice, ico kintu citwa iki?
-answer: Halving.
+question: Ni kangahe impembo ya Mining igabanywa igice?
+answer: Imisi yose y’amabarabara 210.000.
 wrong_answers:
-  - Gukubita kabiri
-  - Gushiramwo ivyicaro bine
-  - Gukubita gatatu
+  - Inyuma y’amabarabara 120.000.
+  - Igihe cose amabarabara 540.000.
+  - Igihe cose habaye amabarabara 2.100.000.
 explanation: |
-  Igihe impembo ya Mining igabanywamwo igice citwa .
-  Halving. Ico kintu gitanga umurongo w’ugusohora amahera a .
-  igishushanyo kimeze nk’ingazi.
+  Ingororano ya Mining itegekanijwe guca igice c’abantu 210.000 bose .
+  amabuye, ni ukuvuga nk’imyaka ine yose: ikintu
+  izwi kw’izina rya Halving.
 reviewed: true

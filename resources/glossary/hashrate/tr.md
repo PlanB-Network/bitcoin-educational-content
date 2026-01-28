@@ -8,4 +8,4 @@ Saniye başına hash (H/s) cinsinden ölçülen, ağın hesaplama gücünün gö
 Hashrate aynı zamanda madenciler arasındaki rekabetin de bir göstergesidir: Hashrate ne kadar yüksekse, ödüllerin dağılımını ve dolayısıyla madencilerin karlılığını etkileyen Mining zorluğu da o kadar yüksek olur. Bu nedenle Bitcoin sisteminin sağlığı ve güvenliğinin önemli bir göstergesidir. Hashrate, Bitcoin ağının genel hesaplama gücünü ölçmek için kullanıldığı gibi, bir makinenin, bir Mining çiftliğinin veya bir Mining pool'ün hesaplama gücünü ölçmek için de kullanılabilir.
 
 
-> ► *Fransızca'da "taux de hachage" olarak adlandırılır, ancak günlük dilde "Hashrate" terimi yaygın olarak kullanılmaktadır
+> ► *Fransızca'da "taux de hachage" olarak adlandırılır, ancak günlük dilde "Hashrate" terimi yaygın olarak kullanılmaktadır.*

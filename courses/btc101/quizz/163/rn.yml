@@ -1,8 +1,8 @@
-question: Ni igihe kingana iki kiri hagati y’uguhingura amabuye abiri muri porotokole ya Bitcoin?
-answer: Iminota 10.
+question: Ni akamaro akahe nyamukuru k’amamashini yihariye SHA256, canke ASICS, muri Bitcoin Mining?
+answer: Barongera igipimo ca Hash ku joule.
 wrong_answers:
-  - Iminota 5.
-  - Iminota 15.
-  - Iminota 20.
+  - Bigabanya inguvu zikoreshwa.
+  - Birongera umuvuduko w’ugucuruza.
+  - Birongera umutekano w’urubuga.
 explanation: >-
 reviewed: true

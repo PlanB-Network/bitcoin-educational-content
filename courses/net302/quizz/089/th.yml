@@ -1,0 +1,9 @@
+question: คำสั่ง ping ใช้โปรโตคอลใดในการทดสอบการเชื่อมต่อเครือข่าย?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  คำสั่ง ping ใช้โปรโตคอล ICMP เพื่อส่งคำขอ echo และวัดความหน่วงของเครือข่าย
+reviewed: false

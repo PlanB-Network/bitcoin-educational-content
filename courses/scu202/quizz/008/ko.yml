@@ -1,0 +1,9 @@
+question: MacOS 에코시스템의 주요 단점은 무엇인가요?
+answer: Apple에 대한 감금과 의존
+wrong_answers:
+  - 지나친 소프트웨어 개방성
+  - 약한 그래픽 최적화
+  - 업데이트 부족
+explanation: |
+  MacOS와 Apple 하드웨어의 긴밀한 통합은 브랜드의 독점적인 에코시스템에 대한 종속성과 종속성으로 이어집니다.
+reviewed: false

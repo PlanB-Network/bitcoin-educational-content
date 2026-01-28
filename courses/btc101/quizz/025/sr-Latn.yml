@@ -1,12 +1,9 @@
-question: Koja je glavna prednost Bitkoina u odnosu na druge oblike valute?
-answer: Nudi odličnu vrednost zbog strogo ograničene ponude i neutralnosti.
+question: Kako se stvara zdrav novac?
+answer: Zdrav novac mora prirodno proizaći iz tržišta i dobrovoljnog konsenzusa.
 wrong_answers:
-  - To je nedeljivo i ne može se preneti.
-  - To je odličan primer valute koja trpi monetarnu inflaciju.
-  - To je široko prihvaćeno u trgovini od strane svih trgovaca na svetu.
+  - Zdrav novac treba da bude sproveden od strane vlade izdavanjem monetarnih zakona.
+  - Zdrav novac mora biti nametnut od strane kompanija kroz upotrebu nasilja.
+  - Zdrav novac se ne može stvoriti.
 explanation: |
-  Glavna prednost Bitkoina u odnosu na druge oblike valute
-  je što nudi odličnu čuvanje vrednosti zahvaljujući svojoj
-  strogo ograničenoj ponudi i nedostatku poverljive strane. Ovo
-  ga čini dobrim izborom za dugoročne uštede.
+  Zdrav novac je prirodni društveni fenomen koji mora proizaći iz tržišta i dobrovoljnog konsenzusa. Nijedan čovek ili grupa ljudi ne može stvoriti novac.
 reviewed: true

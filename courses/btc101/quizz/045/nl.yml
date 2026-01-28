@@ -1,13 +1,10 @@
-question: Wat is een belangrijk kenmerk van Bitcoin dat het onderscheidt van fiatvaluta's?
-answer: Het monetaire beleid wordt afgedwongen door een algemene consensus.
+question: Wat is de impact van 20% inflatie op de koopkracht over 3 jaar?
+answer: Je verliest 50% van je koopkracht.
 wrong_answers:
-  - Het kan in onbeperkte hoeveelheden worden gedrukt door centrale banken.
-  - Het wordt gedekt door een fysieke grondstof zoals goud of zilver.
-  - Het wordt gereguleerd door een centrale bank.
+  - Je verliest 100% van je koopkracht.
+  - Je verliest 60% van je koopkracht.
+  - Je verliest 30% van je koopkracht.
 explanation: |
-  Vanwege de gedecentraliseerde en cryptografische aard,
-  Bitcoin kan niet vervalst worden en is beperkt tot 21 miljoen
-  eenheden. Dit is een belangrijk kenmerk dat het onderscheidt van
-  fiatvaluta's, die een monetair beleid volgen dat kan worden
-  kan worden veranderd door centrale banken.
+  Met 20% inflatie verlies je bijna de helft van je koopkracht in 3 jaar
+  koopkracht in 3 jaar.
 reviewed: true

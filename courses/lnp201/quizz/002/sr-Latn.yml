@@ -6,4 +6,4 @@ wrong_answers:
   - 140.000 satoshija
 explanation: |
   Nakon slanja 40.000 satoshija, Alisin saldo u kanalu je 60.000 satoshija.
-reviewed: false
+reviewed: true

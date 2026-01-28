@@ -1,9 +1,12 @@
-question: Koja je komanda za proveru količine bitkoina u opticaju na Bitkoin čvoru?
-answer: bitcoin-cli gettxoutsetinfo.
+question: U kojoj godini će se desiti 7. Halving?
+answer: 2036.
 wrong_answers:
-  - bitcoin-cli getblockchaininfo.
-  - bitcoin-cli getwalletinfo.
-  - bitcoin-cli getnetworkinfo.
+  - 2032.
+  - 2028.
+  - 2048.
 explanation: |
-  Komanda za proveru količine bitkoina u opticaju na Bitkoin čvoru je bitcoin-cli gettxoutsetinfo. Ova komanda pruža transparentnost i proverljivost, jačajući poverenje u Bitkoin sistem.
+  7. Halving bi trebalo da se dogodi 2036. godine, a procenjeni
+  broj Bitkoina u opticaju će biti 20,835,937.5,
+  što će otprilike odgovarati 99.22% od ukupne
+  ponude.
 reviewed: true

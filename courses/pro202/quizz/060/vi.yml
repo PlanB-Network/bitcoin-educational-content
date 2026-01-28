@@ -1,0 +1,8 @@
+question: Cơ chế cụ thể nào đảm bảo rằng các nút trước SegWit chấp nhận các giao dịch P2WPKH là hợp lệ mà không cần hiểu các quy tắc xác thực của nhân chứng?
+answer: Các nút trước SegWit diễn giải tập lệnh băm OP_0 + 20 byte là đầu ra 'anyone-can-spend' không yêu cầu xác minh chữ ký.
+wrong_answers:
+  - Các node trước SegWit tự động chuyển tiếp các giao dịch P2WPKH đến các node đã nâng cấp để xác thực chứng thực trước khi chấp nhận chúng.
+  - Các node trước SegWit nhận dạng mẫu P2WPKH và bỏ qua hoàn toàn quá trình xác thực, coi tất cả các giao dịch chứng thực là đã được xác thực trước.
+  - Các node trước SegWit chuyển đổi dữ liệu chứng thực trở lại định dạng scriptSig truyền thống bằng cách sử dụng các quy tắc chuyển đổi tương thích ngược.
+explanation: |
+  Điểm mấu chốt trong thiết kế của SegWit nằm ở việc khai thác cách các node trước SegWit xử lý các mẫu kịch bản không xác định. Khi các node cũ hơn này gặp một kịch bản P2WPKH (OP_0 theo sau là một lệnh đẩy 20 byte), chúng không nhận ra đó là một chương trình chứng thực đặc biệt. Thay vào đó, chúng đánh giá nó như một kịch bản tiêu chuẩn để lại OP_0 và mã băm trên ngăn xếp. Vì OP_0 được đánh giá là sai trong hệ thống kịch bản của Bitcoin, các node trước SegWit diễn giải điều này là một điều kiện 'anyone-can-spend' - nghĩa là không cần xác minh chữ ký từ quan điểm của chúng. Điều này cho phép giao dịch được chấp nhận vào mempool và các khối của chúng mà không phá vỡ sự đồng thuận, trong khi các node nhận biết SegWit thực hiện việc xác thực mật mã thực tế bằng cách sử dụng dữ liệu chứng thực.

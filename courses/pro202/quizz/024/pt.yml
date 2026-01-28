@@ -1,0 +1,8 @@
+question: Qual é a principal razão pela qual os puzzles de script que dependem apenas de dados públicos sem verificações de assinatura são vulneráveis no Bitcoin?
+answer: Os mineiros podem copiar a solução do mempool e redirecionar o pagamento para si próprios
+wrong_answers:
+  - A execução do script torna-se não-determinística em diferentes nós da rede
+  - O tempo de validação da transação aumenta quadraticamente com a complexidade do puzzle
+  - O modelo de execução baseado em pilhas não consegue lidar com operações matemáticas complexas de forma segura
+explanation: |
+  Os puzzles de script que dependem apenas de dados públicos (como problemas matemáticos ou pré-imagens de hash) sem verificações de assinatura são vulneráveis ao front-running dos mineiros. Assim que uma solução válida aparece no mempool, qualquer mineiro pode observá-la, copiar a solução e criar a sua própria transação redireccionando o pagamento para o seu endereço. É por isso que os contratos Bitcoin do mundo real quase sempre incluem verificações de assinatura - as assinaturas vinculam a solução a uma parte específica e impedem que outros roubem o pagamento, preservando os incentivos adequados para os solucionadores de puzzles.

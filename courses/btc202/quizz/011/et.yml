@@ -1,0 +1,9 @@
+question: Miks on Miner-l vaja Bitcoin-sõlme?
+answer: Võrguga suhtlemiseks ja oma plokkide levitamiseks
+wrong_answers:
+  - generate digitaalallkirjade jaoks
+  - Address tarne sisestamine Coinbase Transaction-sse
+  - Mining raskuse vähendamiseks
+explanation: |
+  Kaevandajad kasutavad võrguga suhtlemiseks, oma plokkide edastamiseks ja tehingute vastuvõtmiseks sõlme.
+reviewed: true

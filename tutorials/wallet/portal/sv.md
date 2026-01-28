@@ -14,7 +14,7 @@ Det som skiljer Portal från andra hårdvaruplånböcker på marknaden är dess 
 ![Image](assets/fr/01.webp)
 
 
-Portalen, som är helt öppen källkod, är baserad på firmware skriven i Rust och använder BDK (Bitcoin Dev Kit) för nyckel- och transaktionshantering. Den säljs för €89 [på den officiella webbplatsen] (https://store.twenty-two.xyz/products/portal-hardware-Wallet).
+Portalen, som är helt öppen källkod, är baserad på firmware skriven i Rust och använder BDK (Bitcoin Dev Kit) för nyckel- och transaktionshantering. Den säljs för €89 [på den officiella webbplatsen](https://store.twenty-two.xyz/products/portal-hardware-Wallet).
 
 
 I skrivande stund är portalen kompatibel med applikationerna Nunchuk och Bitcoin Keeper. I denna handledning kommer vi att konfigurera den med Nunchuk.
@@ -35,7 +35,7 @@ Se till att Seal är intakt för att bekräfta att påsen inte har öppnats. Det
 ## Installation av Nunchuk
 
 
-För att hantera Wallet på portalen kommer vi att använda Nunchuk-applikationen. Ladda ner applikationen från [Google Play Store] (https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store] (https://apps.apple.com/us/app/nunchuk-Bitcoin-Wallet/id1563190073) eller direkt via dess [fil `.apk`] (https://github.com/nunchuk-io/nunchuk-android/releases).
+För att hantera Wallet på portalen kommer vi att använda Nunchuk-applikationen. Ladda ner applikationen från [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-Bitcoin-Wallet/id1563190073) eller direkt via dess [fil `.apk`](https://github.com/nunchuk-io/nunchuk-android/releases).
 
 
 ![Image](assets/fr/03.webp)
@@ -98,9 +98,9 @@ Du kan gravera den på ett papper, eller för extra säkerhet rekommenderar jag 
 För mer information om det rätta sättet att spara och hantera din Mnemonic-fras rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.**_
+du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.
 
 
 Tryck hårt på knappen på din Portal för att gå vidare till nästa ord. Se till att placera hela fingret på knappen och håll trycket i några sekunder, så att interaktionen upptäcks korrekt.
@@ -340,4 +340,4 @@ Grattis, du har nu fått kläm på hur du använder Portal! Om du tyckte att den
 Om du vill veta mer kan du ta en titt på vår kompletta utbildning om hur HD-plånböcker fungerar:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

@@ -1,0 +1,8 @@
+question: Miks peetakse esitatud liberaalse kriitika kohaselt Montesquieu määratlust vabadusest kui "õigust teha kõike, mida seadused lubavad" põhimõtteliselt ohtlikuks?
+answer: See lubab üksikute süütute vabaduste mis tahes rikkumist, kui seadus lubab selliseid rikkumisi
+wrong_answers:
+  - Selles ei tehta vahet eri liiki seaduste ja nende erineva õiguspärasuse vahel
+  - See loob liiga piirava raamistiku, mis takistab valitsuse vajalikku sekkumist turgudele
+  - See kehtestab liiga laiaulatusliku individuaalse tegutsemise ulatuse, mis õõnestab sotsiaalset ühtekuuluvust ja kollektiivset heaolu
+explanation: |
+  Montesquieu määratlust kritiseeritakse, sest see seab vabaduse täielikult sõltuvusse õiguslikust loast, mis tähendab, et iga seadus - ükskõik kui rõhuv - võib õigustatult piirata üksikisiku vabadust. See kontseptsioon ei tunnista, et peaks olema olemas süütute individuaalsete tegevuste sfäär, mis jääb vabaks sõltumata sellest, mida seadused võivad öelda. Liberaalsed mõtlejad nagu Destutt de Tracy ja Benjamin Constant väitsid, et tõeline vabadus eeldab, et tehakse vahet seadusliku valitsuse võimu ja individuaalsete õiguste puutumatu sfääri vahel, selle asemel, et muuta vabadus sõltuvaks õiguslikust loast.

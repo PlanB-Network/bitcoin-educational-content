@@ -1,7 +1,7 @@
-id: 511b4c48-370a-43b1-ba5b-28b0a9bab8fa
-chapterId: c838e64d-d59f-5703-8c74-ea5e8c4fdd31
-difficulty: intermediate
-duration: 30
+id: 2289201f-e8bb-4150-b30c-dd2f55a392c5
+chapterId: 25151d46-7db1-5b48-8bba-cbde1944555a
+difficulty: easy
+duration: 15
 author: DecouvreBitcoin
 original_language: en
 proofreading:
@@ -9,7 +9,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: de
     last_contribution_date:
     urgency: 1
@@ -30,13 +30,14 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: fr
-    last_contribution_date: '2025-08-18'
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - ProfScofield21
-    reward: 0.08
+      - nrak10
+    reward: 0.04
   - language: it
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -47,22 +48,23 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.23
+    reward: 0.24
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
   - language: vi
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 0.23
+      - Anh-La
+    reward: 0.12
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: id
     last_contribution_date:
     urgency: 1
@@ -72,38 +74,39 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
   - language: pl
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.19
+      - MisinhaP
+    reward: 0.09
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.24
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - sanja993
-    reward: 0.09
+    reward: 0.11
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -113,7 +116,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -123,4 +126,30 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.24
+  - language: bg
+    last_contribution_date: '2025-12-04'
+    urgency: 1
+    contributor_names:
+      - dnabg
+    reward: 0.09
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21

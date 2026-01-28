@@ -1,0 +1,9 @@
+question: 각 전송 후 새 채널 상태는 어떻게 생성되나요?
+answer: 업데이트된 배포로 새 Commitment Transaction을 생성하면 다음과 같이 됩니다
+wrong_answers:
+  - 각 전송 후 On-Chain 트랜잭션을 게시하여
+  - 채널의 총 용량을 늘리면
+  - 각 거래 후 채널을 닫았다가 다시 열면 다음과 같이 됩니다
+explanation: |
+  채널 내의 각 트랜잭션은 두 참여자 간의 현재 자금 분배를 반영하여 채널의 상태를 새로운 Commitment Transaction로 업데이트합니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Etik yayınlandı mı?
+answer: Ölümünden sonra.
+wrong_answers:
+  - Hayattayken.
+  - Basın makalelerinden oluşan bir koleksiyondur.
+  - Yazarın yazışmalarıyla birlikte.
+explanation: |
+  Spinoza'nın en önemli eseri olan Etika, ölümünden birkaç ay sonra, 1677'de ölümünden sonra yayımlandı. Eser, Spinoza hayattayken zulüm riski olmadan yayınlanamayacak kadar tartışmalıydı.
+reviewed: false

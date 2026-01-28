@@ -1,0 +1,9 @@
+question: Según el Manifiesto Cypherpunk de Eric Hughes, ¿qué principio fundamental distingue a los cypherpunks de quienes se limitan a esperar la protección de la privacidad?
+answer: Los cypherpunks escriben código para crear sistemas anónimos en lugar de esperar a que las instituciones proporcionen privacidad
+wrong_answers:
+  - Los Cypherpunks se centran en la presión política y las reformas legales para establecer derechos de privacidad a través de procesos democráticos
+  - Los Cypherpunks creen en el trabajo dentro de las instituciones financieras existentes para mejorar gradualmente sus protecciones de la privacidad
+  - Los cypherpunks dan prioridad a educar al público sobre los riesgos para la privacidad antes que a desarrollar soluciones técnicas
+explanation: |
+  El manifiesto afirma explícitamente que "los cypherpunks escriben código" y subraya que no encuentran consuelo en esperanzas y deseos, sino que intervienen activamente en los acontecimientos.
+  Hughes argumenta que la gente no puede esperar que gobiernos, corporaciones u otras grandes organizaciones garanticen la privacidad, por lo que los cypherpunks deben construir sistemas criptográficos por sí mismos. Este enfoque activo y técnico a través del desarrollo de código les distingue de enfoques pasivos como presionar, trabajar dentro de los sistemas existentes o simplemente educar a otros sin crear soluciones tecnológicas concretas.

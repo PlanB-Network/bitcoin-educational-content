@@ -1,0 +1,8 @@
+question: What is the primary purpose of the three-step Connect, Prepare, and Execute process in the Breez SDK's developer interface?
+answer: To standardize complex financial flows by syncing wallets, calculating all fees upfront, and then constructing transactions
+wrong_answers:
+  - To establish redundant backup connections across multiple swap providers before initiating any atomic operations
+  - To create separate cryptographic signatures for each network involved in cross-chain submarine swap transactions
+  - To validate payment preimages against time-locked contracts before releasing funds from escrow mechanisms
+explanation: |
+  The Connect, Prepare, Execute pattern simplifies development by breaking complex operations into manageable steps: Connect initializes wallets and establishes monitoring connections, Prepare calculates and displays all costs transparently to users, and Execute handles the actual transaction construction and broadcasting. This standardization abstracts away the underlying complexity of submarine swaps and cross-chain operations, making it easier for developers to integrate Bitcoin functionality without managing low-level details.

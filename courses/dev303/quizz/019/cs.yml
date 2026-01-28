@@ -1,0 +1,8 @@
+question: Jakou konvenci pojmenování uplatňuje Rust pro názvy struktur a polí?
+answer: CamelCase pro názvy struktur a snake_case pro názvy polí
+wrong_answers:
+  - snake_case pro názvy struktur a CamelCase pro názvy polí
+  - kebab-case pro názvy struktur a camelCase pro názvy polí
+  - UPPER_CASE pro názvy struktur a malá písmena pro názvy polí
+explanation: |
+  Rust dodržuje specifické konvence pojmenování, které překladač vynucuje pomocí varování. Názvy struktur by měly používat CamelCase (známé také jako PascalCase), kde každé slovo začíná velkým písmenem, například "MyStruct". Názvy polí uvnitř struktur by měly používat hadí_písmeno s podtržítky oddělujícími slova, jako například "my_field". Tato konvence udržuje konzistenci napříč kódovými bázemi Rust a zlepšuje čitelnost pro vývojáře.

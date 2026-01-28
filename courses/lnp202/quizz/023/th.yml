@@ -1,0 +1,9 @@
+question: ชื่อของรูปแบบ seed ที่เฉพาะเจาะจงสำหรับ LND คืออะไร?
+answer: aezeed
+wrong_answers:
+  - BIP39
+  - lnseed
+  - BIP32
+explanation: |
+  LND ใช้ seed เฉพาะที่เรียกว่า aezeed ซึ่งแตกต่างจาก BIP39 seed แบบคลาสสิก
+reviewed: false

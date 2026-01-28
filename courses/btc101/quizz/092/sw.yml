@@ -1,13 +1,12 @@
-question: Je, ni matumizi gani yanayopendekezwa ya Multisig Wallet?
-answer: Kuhifadhi kiasi kikubwa kwa matumizi ya ushirika.
+question: Je, unapaswa kufanya nini mara tu maneno ya kifungu chako cha Mnemonic yanapoandikwa?
+answer: Tengeneza nakala ya pili na uihifadhi mahali tofauti.
 wrong_answers:
-  - Kuhifadhi kiasi kidogo kwa matumizi ya kibinafsi.
-  - Kuhifadhi kiasi cha wastani kwa matumizi yasiyo ya faida.
-  - Kuhifadhi gharama za kila siku kwa matumizi ya mtu binafsi.
+  - Shiriki na rafiki unayemwamini.
+  - Tuma barua pepe kwako.
+  - Hifadhi kwenye simu yako.
 explanation: |
-  Multisig Wallet inapendekezwa kwa kuhifadhi kiasi kikubwa
-  na kwa matumizi ya kampuni kwa sababu inahitaji nyingi
-  saini za kufanya shughuli. Utaratibu huu unaongeza
-  ziada ya Layer ya usalama, kwa sababu mtu mmoja hawezi
-  kufanya shughuli bila idhini ya wengine.
+  Mara tu maneno ya kifungu chako cha Mnemonic yanapoandikwa, ndivyo inavyokuwa
+  ilipendekeza kutengeneza nakala ya pili na kuihifadhi katika a
+  eneo tofauti na la kwanza. Hii hutoa chelezo katika
+  kesi ya hasara au ajali na nakala ya kwanza.
 reviewed: true

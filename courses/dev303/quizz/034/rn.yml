@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo bugufasha gukura agaciro mu Gisubizo mu gihe utanga ubutumwa bw’ubwoba busanzwe iyo habaye ikosa?
+answer: kwitega
+wrong_answers:
+  - Gufungura_canke_ahandi
+  - gufungura_n'ubutumwa
+  - ubwoba_na
+explanation: |
+  Uburyo bwo kwitega bwagenewe canecane gukura agaciro k'uguterimbere mu Gisubizo mu gihe buguha uburenganzira bwo gutanga ubutumwa bw'ubwoba buzogaragara iyo habaye ikosa. Ivyo bituma gukosora vyoroha ugereranyije no gufungura, bikoresha ubutumwa bw’ubwoba rusangi. Uburyo bwa unwrap_or_else ntibutera ubwoba ahubwo burakora igikorwa co gufunga iyo habaye ikosa. Ayandi mahitamwo (gufungura_n'ubutumwa_n'ubwoba_n') si uburyo nyabwo bwa Rust bwo gufata ubwoko bw'Ibisubizo.

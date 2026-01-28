@@ -1,0 +1,23 @@
+id: c4622245-110a-444a-ba2f-f1b9d29e0e06
+start_date: 2025-10-29 09:00:00
+end_date: 2025-10-31 18:00:00
+timezone: Africa/Dakar
+address_city_country: Dakar, Senegal
+name: Hackathon Bitcoin A Dakar
+type: workshop
+description: |
+  "The hackathon will be a public non-profit event gathering more
+  than 100 participants to develop business and technical innovative solutions
+  using Bitcoin FOSS and close source tools, during 1 month. For this event,
+  organizers are volunteers and results are open-source.
+  
+  With this hackathon, we will try to tackle some issues that our population
+  faces on a day-to-day basis and that we think Bitcoin can solve. The hackathon
+  will be 100% online."
+language:
+  - fr
+links:
+  website: dakar-bitcoin-hack-26476.devpost.com
+tags:
+  - development
+  - software

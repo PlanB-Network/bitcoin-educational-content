@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   L'entropie maximale correspond à l'entropie la plus élevée qu'une structure de transaction spécifique puisse théoriquement atteindre.
 
-reviewed: false
+reviewed: true 

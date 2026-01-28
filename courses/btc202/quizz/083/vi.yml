@@ -1,0 +1,9 @@
+question: Cài đặt nào buộc Bitcoin core chỉ kết nối qua mạng Tor?
+answer: onlynet=hành tây
+wrong_answers:
+  - lắng nghe=1
+  - torononly=1
+  - mạng=tor
+explanation: |
+  Tùy chọn onlynet=onion hạn chế mọi kết nối đi đến mạng Tor, trong khi listenonion=1 chỉ cho phép bạn theo dõi các kết nối Tor đến.
+reviewed: true

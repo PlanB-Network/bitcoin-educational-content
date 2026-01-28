@@ -125,19 +125,19 @@ Aby dodać pracownika, zacznij od wybrania szablonu bloku. Wybór ten określi a
 
 
 
-- CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
-- CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
-- OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
-- DATA-FREE**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
+- **CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
+- **CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
+- **OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
+- **DATA-FREE**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
 
 
 Następnie w polu użytkownika wprowadź posiadany Bitcoin Address. Oto lista kompatybilnych typów Address:
 
 
-- P2PKH** (Oryginalny typ Address. Zaczyna się od "1")
-- P2SH** (Wielopodpis lub P2SH-SegWit. Zaczyna się od "3")
-- Bech32** (SegWit. Zaczyna się od "bc")
-- Bech32m** (Taproot. Zaczyna się od "bc". Dłuższy niż Bech32)
+- **P2PKH** (Oryginalny typ Address. Zaczyna się od "1")
+- **P2SH** (Wielopodpis lub P2SH-SegWit. Zaczyna się od "3")
+- **Bech32** (SegWit. Zaczyna się od "bc")
+- **Bech32m** (Taproot. Zaczyna się od "bc". Dłuższy niż Bech32)
 
 
 Jeśli masz wielu górników, możesz wprowadzić ten sam Address dla wszystkich z nich, aby ich stawki Hash zostały połączone i wyświetlane jako pojedynczy Miner. Można je również rozróżnić, dodając odrębną nazwę dla każdego z nich. Aby to zrobić, wystarczy dodać ".workername" po Bitcoin Address.
@@ -152,9 +152,9 @@ Jeśli wybierzesz szablon **OCEAN**, twój Bitcoin Address to `bc1q2ed8zxq8njqsz
 
 
 
-- URL**: `stratum+tcp://mine.ocean.xyz:3334`
-- USER**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
-- HASŁO**: `x`
+- **URL**: `stratum+tcp://mine.ocean.xyz:3334`
+- **USER**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
+- **HASŁO**: `x`
 
 
 Kilka minut po uruchomieniu Mining będziesz mógł zobaczyć swoje dane na stronie Ocean, wyszukując Address.
@@ -163,9 +163,9 @@ Kilka minut po uruchomieniu Mining będziesz mógł zobaczyć swoje dane na stro
 ### Przegląd pulpitu nawigacyjnego
 
 
-- Udziały w oknie nagród**: Te dane wskazują liczbę udziałów, pracy wysłanej do puli w oknie ostatnich 8 bloków wydobytych przez pulę.
-- Szacowane nagrody w systemie Windows**: Szacunkowa liczba Sats, które zarobisz dzięki już wykonanej pracy. Nie uwzględnia to opłat transakcyjnych, a jedynie coinbase, nowe bitcoiny emitowane przez sieć.
-- Szacowany zarobek w następnym bloku**: Szacunkowa liczba zarobionych Sats, jeśli blok zostanie wydobyty teraz. Pamiętaj, że jeśli ta wartość jest mniejsza niż 1 048 576 Sats, nie otrzymasz Sats bezpośrednio do swojego Address. Będą one wysyłane do Address Oceanu, dopóki Twoje zarobki nie przekroczą tego progu.
+- **Udziały w oknie nagród**: Te dane wskazują liczbę udziałów, pracy wysłanej do puli w oknie ostatnich 8 bloków wydobytych przez pulę.
+- **Szacowane nagrody w systemie Windows**: Szacunkowa liczba Sats, które zarobisz dzięki już wykonanej pracy. Nie uwzględnia to opłat transakcyjnych, a jedynie coinbase, nowe bitcoiny emitowane przez sieć.
+- **Szacowany zarobek w następnym bloku**: Szacunkowa liczba zarobionych Sats, jeśli blok zostanie wydobyty teraz. Pamiętaj, że jeśli ta wartość jest mniejsza niż 1 048 576 Sats, nie otrzymasz Sats bezpośrednio do swojego Address. Będą one wysyłane do Address Oceanu, dopóki Twoje zarobki nie przekroczą tego progu.
 
 
 Poniżej znajduje się wykres przedstawiający historię Hashrate do 6 miesięcy.

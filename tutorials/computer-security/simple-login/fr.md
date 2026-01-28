@@ -1,5 +1,5 @@
 ---
-name: Connexion simple
+name: Simple Login
 description: Identité protégée par des alias
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Lorsque l'on utilise son email personnel Address à chaque connexion, il est fac
 Les développeurs d'outils open-source ont créé une série de suites d'applications, conçues précisément pour permettre aux utilisateurs de retrouver un peu de leur vie privée : ils se connecteront toujours, mais en utilisant un alias au lieu de l'outil qui révèle leur identité privée.
 
 
-Le plus simple de ceux que j'ai personnellement essayés et que je teste encore est [Simple Login] (https://simplelogin.io/).
+Le plus simple, parmi ceux que j’ai testés personnellement et que je continue d’évaluer, est justement [Simple Login](https://simplelogin.io/).
 
 
 ## Alias
@@ -190,7 +190,7 @@ Le résultat, cependant, est que nous avons conservé le Address principal qui, 
 Un alias fonctionne à la fois pour la réception et l'envoi : un autre utilisateur recevra en effet la réponse de alias.preoccupy789@8shield.net, s'il s'agit du pseudonyme choisi pour ce destinataire particulier.
 
 
-## Pour
+## Avantages
 
 
 Dans l'ensemble, l'utilisation d'alias est un moyen efficace de protéger son identité et sa vie privée. Les adresses électroniques sont souvent collectées par des courtiers en données et des sites web pour suivre les habitudes et les comportements des utilisateurs. Bien qu'un pseudonyme ne vous rende pas totalement intraçable, l'utilisation systématique d'un pseudonyme est un pas positif vers la protection de vos informations. De plus, dans notre "village numérique mondial", où le piratage, la vente de données et les failles de sécurité sont monnaie courante, il est fort probable que l'adresse électronique que vous utilisez pour vous inscrire sur divers sites web ait déjà été compromise ou ciblée.
@@ -210,7 +210,7 @@ En ce qui concerne Simple Login, cet outil présente les caractéristiques suiva
 - parmi les offres gratuites du secteur, la possibilité d'utiliser des alias avec plus de boîtes aux lettres "officielles". D'autres concurrents se limitent à une seule.
 
 
-## Cons
+## Inconvénients
 
 
 - 10 alias peuvent ne pas être suffisants si vous envisagez d'utiliser Simple Login de manière intensive. Dans ce cas, le plan payant, qui est assez abordable, est utile pour augmenter le nombre d'alias possibles.

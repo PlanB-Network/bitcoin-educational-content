@@ -1,11 +1,9 @@
-question: Bitcoin Nakamoto'dan sonra Satoshi ağına katılan ilk kişi kimdi?
-answer: Hal Finney.
+question: 2009'dan bu yana Bitcoin'ın çevrimiçi kullanılabilirliği ne durumda?
+answer: 99.988%.
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Hal Finney Bitcoin ağına katılan ilk kişiydi
-  gW-3 Nakamoto'nun kendisinden sonra. Hatta Running'i tweetledi
-  Bitcoin'yi kutlamak için.
+  Bitcoin'in çevrimiçi kullanılabilirliği 2009'dan bu yana %99,988'dir.
 reviewed: true

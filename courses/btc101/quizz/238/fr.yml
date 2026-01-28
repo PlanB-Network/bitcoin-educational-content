@@ -1,11 +1,10 @@
-question: Quel est le concept de money streaming dans le contexte du Lightning Network ?
-answer: Effectuer des micropaiements continus, en temps réel.
+question: Quelle est une implication potentielle de l'avancement des technologies IA ?
+answer: Les technologies IA entraîneront la disparition de plus de 80 % des emplois actuels.
 wrong_answers:
-  - Convertir des Bitcoins en espèces dans un emplacement physique à l'aide d'un distributeur automatique.
-  - Diffuser du contenu audio ou vidéo pour des bitcoins.
-  - Créer de nouveaux bitcoins par des opérations de minage qui se déroulent en temps réel.
+  - Les technologies IA détruiront tous les ordinateurs.
+  - Les technologies IA entraîneront une diminution de l'intelligence humaine.
+  - Les technologies IA provoqueront un effondrement économique mondial.
 explanation: >-
-  Avec le Lightning Network, nous pouvons effectuer des micro-transactions chaque minute,
-  ce qui ouvre la porte à l'expérimentation de modèles économiques où les consommateurs paient pour
-  le contenu en fonction de ce qu'ils consomment.
+  Une implication potentielle de l'avancement des technologies IA est que plus de 80 % des 
+  emplois disparaîtront en raison de l'IA et de l'automatisation.
 reviewed: true

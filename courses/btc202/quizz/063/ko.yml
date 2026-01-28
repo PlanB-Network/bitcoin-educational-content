@@ -1,0 +1,9 @@
+question: 엄브렐에서 사용할 수 있는 두 가지 Lightning Network 구현은 무엇인가요?
+answer: LND 및 코어 라이트닝
+wrong_answers:
+  - 일렉트르와 지렛대
+  - Bitcoin core 및 Bitcoin Knots
+  - 라이트닝과 썬더허브 타기
+explanation: |
+  엄브렐을 사용하면 Lightning Network의 구현으로 LND와 코어 라이트닝 중에서 선택할 수 있습니다.
+reviewed: true

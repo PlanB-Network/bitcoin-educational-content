@@ -1,0 +1,9 @@
+question: Koji je glavni rizik koji osmatračnica nastoji da spreči?
+answer: Varanje sa starom državom
+wrong_answers:
+  - 51% napad
+  - Krađa semena
+  - Varati sa novom državom
+explanation: |
+  Stražarnica štiti od objavljivanja starog stanja kanala usmerenog na proneveru sredstava.
+reviewed: false

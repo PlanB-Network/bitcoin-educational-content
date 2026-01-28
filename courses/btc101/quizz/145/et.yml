@@ -1,10 +1,9 @@
-question: Milles seisnes 2017. aasta plokkide sõda?
-answer: Konflikt selle üle, kas suurendada ploki suurust, et tõsta tehingute mahtu
+question: Mis on HashRate?
+answer: Koguhulk katseid leida õige number Proof of Work'is.
 wrong_answers:
-  - Konflikt selle üle, kas vähendada ploki suurust, et vähendada tehingute mahtu
-  - Konflikt selle üle, kas suurendada ploki preemiat, et motiveerida kaevureid
-  - Konflikt selle üle, kas vähendada ploki preemiat, et demotiveerida kaevureid
+  - Kiirus, millega kaevur saab lahendada Proof of Work'i.
+  - Kaevurite koguarv Bitcoin'i võrgustikus.
+  - Kaevandatud bitcoinide koguhulk.
 explanation: >-
-  2017. aasta plokkide sõda oli konflikt selle üle, kas muuta Bitcoin'i,
-  suurendades ploki suurust, et tõsta tehingute mahtu.
+  HashRate viitab kaevurite poolt sekundis tehtavate katsete koguarvule lahendada Proof of Work. See on mõõdupuu Bitcoin'i võrgustiku arvutusvõimsuse kohta.
 reviewed: false

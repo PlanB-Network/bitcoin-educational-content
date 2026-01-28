@@ -1,5 +1,5 @@
 ---
-name: ウォニックス
+name: Whonix
 description: プライバシーと守秘義務を守る。
 ---
 
@@ -17,12 +17,12 @@ description: プライバシーと守秘義務を守る。
 
 
 
-- 無料**です：ほとんどのLinuxディストリビューションと同様に、Whonixは完全に無料でライセンスされたオープンソースシステムです。オープンソースで開発されており、活発で透明性の高いコミュニティがあります。
-- プライバシー、セキュリティ、匿名性** ：Whonixの主な目的は、すべてのデータが保護され、Torネットワークを介して通信が暗号化された、超セキュアな環境を提供することです。
-- 使いやすい**：Whonixは、直感的で設定済みのグラフィカルなInterfaceを提供し、初心者ユーザーにも適しています。専門家でなくても、高度な保護の恩恵を受けることができます。
-- セキュアな開発に最適な環境**：Whonixでは、実際のIP Addressを公開したり、ブラウジングやネットワーク通信の習慣を公開したりすることなく、プログラムの開発、テスト、監査、実行を行うことができます。
-- 使い捨てセッションとライブモード**：Whonixは、ライブモードまたは使い捨てマシン（例：**Qubes OS**経由）で起動することができ、セッションが終了した後、永続的な痕跡を残すことなく重要なタスクを実行することができます。
-- 比較的簡単なインストール**：仮想マシン（VirtualBox、KVM、Qubes）に素早くインストールできるよう、すぐに使えるイメージが提供されます。システムは文書化されており、定期的に更新されます。
+- **無料です**：ほとんどのLinuxディストリビューションと同様に、Whonixは完全に無料でライセンスされたオープンソースシステムです。オープンソースで開発されており、活発で透明性の高いコミュニティがあります。
+- **プライバシー、セキュリティ、匿名性**：Whonixの主な目的は、すべてのデータが保護され、Torネットワークを介して通信が暗号化された、超セキュアな環境を提供することです。
+- 使いやすい：Whonixは、直感的で設定済みのグラフィカルな**Interface**を提供し、初心者ユーザーにも適しています。専門家でなくても、高度な保護の恩恵を受けることができます。
+- セキュアな開発に最適な環境：Whonixでは、実際のIP Addressを公開したり、ブラウジングやネットワーク通信の習慣を公開したりすることなく、プログラムの開発、テスト、監査、実行を行うことができます。
+- 使い捨てセッションとライブモード：Whonixは、ライブモードまたは使い捨てマシン（例：**Qubes OS**経由）で起動することができ、セッションが終了した後、永続的な痕跡を残すことなく重要なタスクを実行することができます。
+- 比較的簡単なインストール：仮想マシン（VirtualBox、KVM、Qubes）に素早くインストールできるよう、すぐに使えるイメージが提供されます。システムは文書化されており、定期的に更新されます。
 
 
 
@@ -38,7 +38,7 @@ Whonixのインストールに進む前に、このディストリビューシ�
 
 
 
-長期的に安定して使用するためには、**仮想化が現在公式に推奨されている唯一の方法**です。VirtualBox**（Whonix-GatewayおよびWhonix-Workstation）を使用してWhonixを実行するか、**Qubes OS**のようなシステムに統合することができます。このチュートリアルでは、VirtualBoxのインストールに焦点を当てます。
+長期的に安定して使用するためには、**仮想化が現在公式に推奨されている唯一の方法**です。**VirtualBox**（Whonix-GatewayおよびWhonix-Workstation）を使用してWhonixを実行するか、**Qubes OS**のようなシステムに統合することができます。このチュートリアルでは、VirtualBoxのインストールに焦点を当てます。
 
 
 
@@ -56,9 +56,9 @@ Whonixをスムーズかつ安定的にご利用いただくための推奨ス�
 
 
 
-- ランダムアクセスメモリ（RAM）**：最低**8 GB**を強く推奨します。RAMが多いほど、仮想マシン（GatewayとWorkstation）に割り当てられるリソースが多くなり、パフォーマンスが向上します。
+- ランダムアクセスメモリ（RAM）：最低**8 GB**を強く推奨します。RAMが多いほど、仮想マシン（GatewayとWorkstation）に割り当てられるリソースが多くなり、パフォーマンスが向上します。
 - 利用可能なディスク容量**：少なくとも30GBの空きディスク容量**を確保してください。これには、2台の仮想マシン、システムファイル、データまたはスナップショットに必要な容量が含まれます。
-- プロセッサ**：少なくとも**4物理コア**（8論理スレッド）のプロセッサを推奨する。
+- プロセッサ：少なくとも**4物理コア（8論理スレッド）**のプロセッサを推奨する。
 
 
 
@@ -86,7 +86,7 @@ Whonixを実行するには、VirtualBox、Qubes、KVMなどの**ハイパーバ
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Whonixのインポート
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### エレクトラム Bitcoin Wallet
 
@@ -234,9 +234,9 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
-Whonixは単なるオペレーティングシステムではありません。あなたの匿名性、プライバシー、機密活動を保護するために設計された本物の**安全な環境**です。Torベースのアーキテクチャ、GatewayとWorkstation間のインテリジェントなパーティショニング、Tor Browser、KeePassXC、Electrumなどのプリインストールツールにより、**匿名でのブラウジング**、**安全な作業**、*機密データの取り扱い**を望むすべての人にターンキーソリューションを提供します。
+Whonixは単なるオペレーティングシステムではありません。あなたの匿名性、プライバシー、機密活動を保護するために設計された本物の**安全な環境**です。Torベースのアーキテクチャ、GatewayとWorkstation間のインテリジェントなパーティショニング、Tor Browser、KeePassXC、Electrumなどのプリインストールツールにより、**匿名でのブラウジング**、**安全な作業**、**機密データの取り扱い**を望むすべての人にターンキーソリューションを提供します。
 
 
 
@@ -244,4 +244,4 @@ Unixシステムのセキュリティを強化するために、マシンの監�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

@@ -1,9 +1,9 @@
-question: Mikä on 20% inflaation vaikutus ostovoimaan kolmen vuoden aikana?
-answer: Menetät 50% ostovoimastasi.
+question: Mikä seuraavista ei ole Bitcoinin ominaisuus?
+answer: Sitä on helppo sensuroida.
 wrong_answers:
-  - Menetät 100% ostovoimastasi.
-  - Menetät 60% ostovoimastasi.
-  - Menetät 30% ostovoimastasi.
+  - Se on välittömästi siirrettävissä.
+  - Sen varmentamisen kustannukset ovat merkityksettömät.
+  - Sillä on kiinteä rahapolitiikka.
 explanation: |
-  20% inflaation myötä menetät lähes puolet ostovoimastasi kolmen vuoden aikana.
+  Bitcoinilla on kaikki tarvittavat ominaisuudet ollakseen tehokas ja terve valuutta: jaettavissa, välittömästi siirrettävissä, sensuroimaton, varmentamisen kustannukset ovat merkityksettömät, ja sillä on jo vuosisadoiksi asetettu rahapolitiikka 21 miljoonan yksikön kanssa.
 reviewed: true

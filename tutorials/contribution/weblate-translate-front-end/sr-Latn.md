@@ -5,7 +5,7 @@ description: Kako možete učestvovati u prevođenju statičkog Elements na plan
 ![cover](assets/cover.webp)
 
 
-Misija Plan ₿ Network je da obezbedi prvoklasne obrazovne resurse o Bitcoin i prevede ih na što više jezika. Veći deo sadržaja objavljenog na sajtu je otvorenog koda i hostovan na GitHub-u, omogućavajući svakome da učestvuje u obogaćivanju platforme. Doprinosi mogu biti u raznim oblicima: ispravljanje i lektura postojećeg sadržaja, ažuriranje informacija ili kreiranje novih tutorijala za dodavanje na platformu.
+Misija Plan ₿ Academy je da obezbedi prvoklasne obrazovne resurse o Bitcoin i prevede ih na što više jezika. Veći deo sadržaja objavljenog na sajtu je otvorenog koda i hostovan na GitHub-u, omogućavajući svakome da učestvuje u obogaćivanju platforme. Doprinosi mogu biti u raznim oblicima: ispravljanje i lektura postojećeg sadržaja, ažuriranje informacija ili kreiranje novih tutorijala za dodavanje na platformu.
 
 
 U ovom vodiču pokazaćemo vam kako lako doprineti prevođenju statičkog Elements na našem sajtu. Podaci na platformi su podeljeni u dve glavne kategorije:
@@ -18,12 +18,12 @@ U ovom vodiču pokazaćemo vam kako lako doprineti prevođenju statičkog Elemen
 Da bismo preveli obrazovni sadržaj, koristimo [veštačku inteligenciju](https://github.com/Asi0Flammeus/LLM-Translator). Zatim, da bismo ispravili eventualne greške u ovim fajlovima, pozivamo lektore da doprinesu. Ako želite da lektorišete neki sadržaj, pogledajte sledeći tutorijal:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 S druge strane, ako ste zainteresovani za prevođenje statičkog Elements sajta (isključujući edukativni sadržaj), na pravom ste mestu! Za efikasno prevođenje frontend-a koristimo alat Weblate, koji je veoma jednostavan za korišćenje i olakšava pristup prevođenju.
 
 
-Ako želite da dodate potpuno novi jezik u Plan ₿ Network, obavezno kontaktirajte Plan ₿ Network tim putem naše [Telegram grupe](https://t.me/PlanBNetwork_ContentBuilder). Ako nemate telegram, možete poslati e-mail na mari@planb.network. Obavezno napišite malu prezentaciju o tome ko ste i koje jezike govorite.
+Ako želite da dodate potpuno novi jezik u Plan ₿ Academy, obavezno kontaktirajte Plan ₿ Academy tim putem naše [Telegram grupe](https://t.me/PlanBNetwork_ContentBuilder). Ako nemate telegram, možete poslati e-mail na mari@planb.network. Obavezno napišite malu prezentaciju o tome ko ste i koje jezike govorite.
 
 Članovi našeg tima će vam dati specifična uputstva i otvoriće povezane "issues" na Githubu kako bi koordinisali vaš rad.
 
@@ -31,7 +31,7 @@ Ako želite da dodate potpuno novi jezik u Plan ₿ Network, obavezno kontaktira
 Pre nego što pratite ovaj specifičan vodič za dodavanje novog jezika u Weblate.
 
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 Kada budete spremni da počnete sa prevođenjem, vratite se ovom vodiču i prođite kroz sledeće tačke.
 
@@ -40,7 +40,7 @@ Kada budete spremni da počnete sa prevođenjem, vratite se ovom vodiču i prođ
 
 
 
-- Idite na [samohostovani Weblate Plan ₿ Network](https://weblate.planb.network/):
+- Idite na [samohostovani Weblate Plan ₿ Academy](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -70,7 +70,7 @@ Kada budete spremni da počnete sa prevođenjem, vratite se ovom vodiču i prođ
 ![weblate](assets/06.webp)
 
 
-- Sada se možete vratiti na Plan ₿ Network kontrolnu tablu:
+- Sada se možete vratiti na Plan ₿ Academy kontrolnu tablu:
 
 ![weblate](assets/07.webp)
 
@@ -159,7 +159,7 @@ Kada budete spremni da počnete sa prevođenjem, vratite se ovom vodiču i prođ
 
 
 - Kada pronađete reči umetnute unutar vitičastih zagrada "{", ne morate ih prevoditi. Na primer, u rečenici "Vaš nalog je kreiran, {{userName}}!", prevešćete celu rečenicu, ali ćete zadržati "userName" na engleskom.
-- Kada pronađete "Plan ₿ Network" u nizu, pobrinite se da NE prevodite reč "network" (smatrajte Plan ₿ Network kao zaštitni znak). Osim toga, uvek koristite Bitcoin's ₿!
+- Kada pronađete "Plan ₿ Academy" u nizu, pobrinite se da NE prevodite reč "network" (smatrajte Plan ₿ Academy kao zaštitni znak). Osim toga, uvek koristite Bitcoin's ₿!
 - Ako pronađete reč "network" samu, možete je prevesti, umesto toga.
 - Ne prevodite "B-CERT", jer je to još jedna fiksna reč.
 - Ako pronađeš stringove koji se završavaju razmakom, možeš ih ostaviti.
@@ -174,4 +174,4 @@ Kada budete spremni da počnete sa prevođenjem, vratite se ovom vodiču i prođ
 ![weblate](assets/23.webp)
 
 
-Hvala unapred na vašem doprinosu prevodu Plan ₿ Network! Ako imate bilo kakva specifična pitanja ili komentare za nas, slobodno nas kontaktirajte putem [Telegram grupe](https://t.me/PlanBNetwork_ContentBuilder).
+Hvala unapred na vašem doprinosu prevodu Plan ₿ Academy! Ako imate bilo kakva specifična pitanja ili komentare za nas, slobodno nas kontaktirajte putem [Telegram grupe](https://t.me/PlanBNetwork_ContentBuilder).

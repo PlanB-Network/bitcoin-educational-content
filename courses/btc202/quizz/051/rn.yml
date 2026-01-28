@@ -1,0 +1,9 @@
+question: Ni ryari umukoresha ategerezwa gushiramwo indexer?
+answer: Kugira ngo ukoreshe Block explorer.
+wrong_answers:
+  - Kuko Mining yizibira
+  - Kugira ngo ukoreshe Lightning Network.
+  - Gushira umukono ku mafaranga
+explanation: |
+  Indexer iba ikintu gikenewe cane ku mikoreshereze iteye imbere, nk’umugenzuzi wo mu karere.
+reviewed: true

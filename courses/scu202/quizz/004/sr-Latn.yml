@@ -6,4 +6,4 @@ wrong_answers:
   - SQL injekcija
 explanation: |
   Phishing koristi obmanjujuće e-poruke ili poruke kako bi naveo ljude da otkriju poverljive informacije ili instaliraju malver.
-reviewed: false
+reviewed: true

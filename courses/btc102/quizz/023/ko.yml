@@ -1,0 +1,9 @@
+question: 통화 위기 상황에서 Bitcoin의 주요 장점은 무엇인가요?
+answer: 인플레이션에 대비한 저축액 보존
+wrong_answers:
+  - 금리 인상
+  - 고정 수익 보장
+  - 은행 보험 제공
+explanation: |
+  Bitcoin은 예측 가능한 발행 정책으로 통화 평가절하로부터 보호합니다.
+reviewed: false

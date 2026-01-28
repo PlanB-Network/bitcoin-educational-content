@@ -1,0 +1,9 @@
+question: Mikä näistä Lightning-operaatioista edellyttää onchain-transaktion julkaisemista?
+answer: Kanavan avaaminen
+wrong_answers:
+  - Salamamaksu
+  - Multi-hop-reititys
+  - Mobiiliasiakasyhteys
+explanation: |
+  Kanavan avaaminen vastaa lohkoketjussa julkaistua Bitcoin-tapahtumaa.
+reviewed: false

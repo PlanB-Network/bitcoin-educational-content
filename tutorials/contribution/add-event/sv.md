@@ -1,6 +1,6 @@
 ---
-name: Lägg till ett evenemang på PlanB Network
-description: Hur föreslår jag att man lägger till ett nytt evenemang på PlanB Network?
+name: Lägg till ett evenemang på Plan ₿ Academy
+description: Hur föreslår jag att man lägger till ett nytt evenemang på Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Hur föreslår jag att man lägger till ett nytt evenemang på Plan
 PlanB:s uppdrag är att tillhandahålla förstklassiga utbildningsresurser om Bitcoin på så många språk som möjligt. Allt innehåll som publiceras på webbplatsen är öppen källkod och värd på GitHub, vilket ger alla möjlighet att bidra till berikningen av plattformen.
 
 
-Om du vill lägga till en Bitcoin-konferens på PlanB Network-webbplatsen och öka synligheten för ditt evenemang, men inte vet hur? Den här handledningen är för dig!
+Om du vill lägga till en Bitcoin-konferens på Plan ₿ Academy-webbplatsen och öka synligheten för ditt evenemang, men inte vet hur? Den här handledningen är för dig!
 
 ![event](assets/01.webp)
 
@@ -16,7 +16,7 @@ Om du vill lägga till en Bitcoin-konferens på PlanB Network-webbplatsen och ö
 - Först måste du ha ett konto på GitHub. Om du inte vet hur du skapar ett konto har vi gjort en detaljerad handledning för att vägleda dig.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Om du aldrig har bidragit till innehållet i PlanB Network tidigare måste du skapa din Fork av det ursprungliga förvaret. Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, så att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Klicka på knappen `Fork this repository`:
+- Om du aldrig har bidragit till innehållet i Plan ₿ Academy tidigare måste du skapa din Fork av det ursprungliga förvaret. Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, så att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Klicka på knappen `Fork this repository`:
 
 ![event](assets/04.webp)
 
@@ -118,7 +118,7 @@ tags:
 Om du ännu inte har en "*project*"-identifierare för din organisation kan du lägga till den genom att följa denna andra handledning.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -148,7 +148,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![event](assets/14.webp)
 
 
-- Välj din Fork i PlanB Network-förvaret:
+- Välj din Fork i Plan ₿ Academy-förvaret:
 
 ![event](assets/15.webp)
 
@@ -199,7 +199,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 - Klicka på knappen "Lägg till fil" och sedan på "Ladda upp filer": ![event](assets/25.webp)
-- En ny sida kommer att öppnas. Dra och släpp en bild som representerar din konferens och som kommer att visas på PlanB Network-webbplatsen:
+- En ny sida kommer att öppnas. Dra och släpp en bild som representerar din konferens och som kommer att visas på Plan ₿ Academy-webbplatsen:
 
 ![event](assets/26.webp)
 
@@ -261,7 +261,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Gratulerar till din PR! Din PR har skapats på ett framgångsrikt sätt. En administratör kommer nu att kontrollera den och, om allt är i sin ordning, sammanfoga den till PlanB Networks huvudarkiv. Du bör se ditt evenemang visas på webbplatsen några dagar senare.
 
 
-Var noga med att följa utvecklingen av din PR. En administratör kan lämna en kommentar där han eller hon ber om ytterligare information. Så länge din PR inte är validerad kan du se den under fliken "Pull requests" på PlanB Network GitHub-arkivet:
+Var noga med att följa utvecklingen av din PR. En administratör kan lämna en kommentar där han eller hon ber om ytterligare information. Så länge din PR inte är validerad kan du se den under fliken "Pull requests" på Plan ₿ Academy GitHub-arkivet:
 
 ![event](assets/38.webp)
 

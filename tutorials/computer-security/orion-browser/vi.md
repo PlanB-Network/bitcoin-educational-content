@@ -1,5 +1,5 @@
 ---
-name: Trình duyệt Orion
+name: Orion Browser
 description: Làm thế nào để sử dụng Orion Browser để bảo vệ quyền riêng tư của bạn trên Mac và iPhone?
 ---
 
@@ -60,11 +60,11 @@ Tính năng độc đáo của nó? Orion là trình duyệt **dành riêng cho 
 
 
 
-- Khả năng sử dụng có hạn**: Hiện tại chỉ dành cho macOS và iOS/iPadOS. Phiên bản Linux đang đạt đến các mốc phát triển (Milestone 2 vào năm 2025), nhưng chưa có bản dựng công khai nào. Windows và Android hiện chưa được phát triển do thiếu nguồn lực.
-- Mã nguồn đóng**: Mặc dù một số thành phần là mã nguồn mở, Orion vẫn chủ yếu là độc quyền, một điểm gây tranh cãi trong cộng đồng bảo mật.
-- Tiện ích mở rộng thử nghiệm**: Hỗ trợ tiện ích mở rộng vẫn đang trong giai đoạn thử nghiệm, thường xuyên xảy ra lỗi không tương thích. Tiện ích mở rộng có thể ảnh hưởng đến hiệu suất và một số thậm chí không hoạt động.
-- Bảo mật WebKit**: Không giống như Chromium, WebKit không cung cấp khả năng cô lập quy trình trên từng trang web mạnh mẽ, điều này có thể gây ra rủi ro bảo mật trong một số trường hợp nhất định.
-- Kiểm tra chặn**: Orion cố tình thể hiện kém trong các bài kiểm tra quảng cáo trực tuyến (26-35%), vì Kagi cho rằng các bài kiểm tra này "có sai sót cơ bản". Hiệu quả thực tế khi sử dụng hàng ngày vượt trội hơn hẳn.
+- **Khả năng sử dụng có hạn**: Hiện tại chỉ dành cho macOS và iOS/iPadOS. Phiên bản Linux đang đạt đến các mốc phát triển (Milestone 2 vào năm 2025), nhưng chưa có bản dựng công khai nào. Windows và Android hiện chưa được phát triển do thiếu nguồn lực.
+- **Mã nguồn đóng**: Mặc dù một số thành phần là mã nguồn mở, Orion vẫn chủ yếu là độc quyền, một điểm gây tranh cãi trong cộng đồng bảo mật.
+- **Tiện ích mở rộng thử nghiệm**: Hỗ trợ tiện ích mở rộng vẫn đang trong giai đoạn thử nghiệm, thường xuyên xảy ra lỗi không tương thích. Tiện ích mở rộng có thể ảnh hưởng đến hiệu suất và một số thậm chí không hoạt động.
+- **Bảo mật WebKit**: Không giống như Chromium, WebKit không cung cấp khả năng cô lập quy trình trên từng trang web mạnh mẽ, điều này có thể gây ra rủi ro bảo mật trong một số trường hợp nhất định.
+- **Kiểm tra chặn**: Orion cố tình thể hiện kém trong các bài kiểm tra quảng cáo trực tuyến (26-35%), vì Kagi cho rằng các bài kiểm tra này "có sai sót cơ bản". Hiệu quả thực tế khi sử dụng hàng ngày vượt trội hơn hẳn.
 
 
 
@@ -134,7 +134,7 @@ Khi khởi chạy lần đầu, Orion sẽ hướng dẫn bạn qua một số b
 
 
 
-**1. Màn hình chào mừng
+**1. Màn hình chào mừng**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ Khi khởi chạy lần đầu, Orion sẽ hướng dẫn bạn qua một số b
 
 
 
-- Nhập dữ liệu**: Dễ dàng chuyển mục yêu thích và mật khẩu từ Safari, Chrome hoặc Firefox
-- Đồng bộ hóa iCloud**: Kích hoạt để tìm mục yêu thích và tab trên tất cả các thiết bị Apple của bạn
+- **Nhập dữ liệu**: Dễ dàng chuyển mục yêu thích và mật khẩu từ Safari, Chrome hoặc Firefox
+- **Đồng bộ hóa iCloud**: Kích hoạt để tìm mục yêu thích và tab trên tất cả các thiết bị Apple của bạn
 
 
 
@@ -171,7 +171,7 @@ Khi khởi chạy lần đầu, Orion sẽ hướng dẫn bạn qua một số b
 
 
 
-**4. Chào mừng Interface và các công cụ thiết yếu
+**4. Chào mừng Interface và các công cụ thiết yếu**
 
 
 
@@ -188,9 +188,9 @@ Sau khi cấu hình hoàn tất, bạn sẽ khám phá Interface được sắp 
 
 
 
-- Shield 🛡️**: Hiển thị Báo cáo quyền riêng tư với số lượng mục bị chặn trên trang hiện tại
-- Brush 🖌️**: Tùy chỉnh hiển thị trang (chủ đề, phông chữ, xóa Elements gây mất tập trung)
-- Thiết bị ⚙️**: Cấu hình các thông số cụ thể của trang web (quyền, chặn, v.v.)
+- **Shield 🛡️**: Hiển thị Báo cáo quyền riêng tư với số lượng mục bị chặn trên trang hiện tại
+- **Brush 🖌️**: Tùy chỉnh hiển thị trang (chủ đề, phông chữ, xóa Elements gây mất tập trung)
+- **Thiết bị ⚙️**: Cấu hình các thông số cụ thể của trang web (quyền, chặn, v.v.)
 
 
 
@@ -251,8 +251,8 @@ Truy cập tùy chọn thông qua **Orion → Tùy chọn** (hoặc ⌘,):
 
 
 
-- Công cụ tìm kiếm mặc định**: Chọn **DuckDuckGo**, **Startpage** hoặc **Kagi** để có quyền riêng tư tối ưu (tránh Google/Bing)
-- Gợi ý tìm kiếm**: Tắt chúng để ngăn chặn việc rò rỉ thông tin phím bấm vào máy chủ của công cụ tìm kiếm
+- **Công cụ tìm kiếm mặc định**: Chọn **DuckDuckGo**, **Startpage** hoặc **Kagi** để có quyền riêng tư tối ưu (tránh Google/Bing)
+- **Gợi ý tìm kiếm**: Tắt chúng để ngăn chặn việc rò rỉ thông tin phím bấm vào máy chủ của công cụ tìm kiếm
 
 
 
@@ -272,9 +272,9 @@ Truy cập tùy chọn thông qua **Orion → Tùy chọn** (hoặc ⌘,):
 
 
 
-- EasyList**: Hơn 119 nghìn quy tắc chặn quảng cáo
-- EasyPrivacy**: Bảo vệ chống theo dõi
-- Quản lý danh sách bộ lọc**: Thêm danh sách bổ sung (khuyến nghị Hagezi)
+- **EasyList**: Hơn 119 nghìn quy tắc chặn quảng cáo
+- **EasyPrivacy**: Bảo vệ chống theo dõi
+- **Quản lý danh sách bộ lọc**: Thêm danh sách bổ sung (khuyến nghị Hagezi)
 
 
 
@@ -283,9 +283,9 @@ Truy cập tùy chọn thông qua **Orion → Tùy chọn** (hoặc ⌘,):
 
 
 
-- Xóa trình theo dõi khỏi URL**: "Chỉ dành cho Duyệt web riêng tư" sẽ xóa các liên kết đã sao chép
-- Chia sẻ báo cáo sự cố**: "Sau khi yêu cầu phê duyệt" tôn trọng sự đồng ý của bạn
-- Trình duyệt người dùng tùy chỉnh**: Có thể được sửa đổi để bỏ qua một số tình trạng chặn
+- Xóa trình theo dõi khỏi URL: "Chỉ dành cho Duyệt web riêng tư" sẽ xóa các liên kết đã sao chép
+- Chia sẻ báo cáo sự cố: **"Sau khi yêu cầu phê duyệt"** tôn trọng sự đồng ý của bạn
+- **Trình duyệt người dùng tùy chỉnh**: Có thể được sửa đổi để bỏ qua một số tình trạng chặn
 
 
 
@@ -312,10 +312,10 @@ Truy cập tùy chọn thông qua **Orion → Tùy chọn** (hoặc ⌘,):
 
 
 
-- Chế độ tương thích**: Giải quyết các vấn đề hiển thị bằng cách tạm dừng tiện ích mở rộng
-- Trình chặn nội dung**: Tắt chức năng chặn đối với một trang web cụ thể nếu cần
-- JavaScript/Cookie**: Kiểm soát chi tiết theo trang web
-- Quyền**: Camera, micrô, vị trí được cấu hình riêng
+- **Chế độ tương thích**: Giải quyết các vấn đề hiển thị bằng cách tạm dừng tiện ích mở rộng
+- **Trình chặn nội dung**: Tắt chức năng chặn đối với một trang web cụ thể nếu cần
+- **JavaScript/Cookie**: Kiểm soát chi tiết theo trang web
+- **Quyền**: Camera, micrô, vị trí được cấu hình riêng
 
 
 
@@ -338,7 +338,7 @@ Truy cập tùy chọn thông qua **Orion → Tùy chọn** (hoặc ⌘,):
 
 
 
-**Mẹo: Truy cập [FilterLists.com](https://filterlists.com) để xem hàng ngàn danh sách chuyên biệt có sẵn để sử dụng.
+**Mẹo:** Truy cập [FilterLists.com](https://filterlists.com) để xem hàng ngàn danh sách chuyên biệt có sẵn để sử dụng.
 
 
 
@@ -355,9 +355,9 @@ Orion hỗ trợ sẵn tiện ích mở rộng của Chrome và Firefox. Cài đ
 
 
 
-- uBlock Origin**: Thêm khả năng kiểm soát chi tiết vào trình chặn gốc
-- Bitwarden**: Trình quản lý mật khẩu nguồn mở
-- ClearURLs**: Xóa các tham số theo dõi URL
+- **uBlock Origin**: Thêm khả năng kiểm soát chi tiết vào trình chặn gốc
+- **Bitwarden**: Trình quản lý mật khẩu nguồn mở
+- **ClearURLs**: Xóa các tham số theo dõi URL
 
 
 
@@ -366,9 +366,9 @@ Orion hỗ trợ sẵn tiện ích mở rộng của Chrome và Firefox. Cài đ
 
 
 
-- LocalCDN**: Phục vụ các thư viện chia sẻ cục bộ
-- Cookie AutoDelete**: Tự động xóa cookie sau khi đóng các tab
-- NoScript**: Kiểm soát hoàn toàn việc thực thi JavaScript (người dùng nâng cao)
+- **LocalCDN**: Phục vụ các thư viện chia sẻ cục bộ
+- **Cookie AutoDelete**: Tự động xóa cookie sau khi đóng các tab
+- **NoScript**: Kiểm soát hoàn toàn việc thực thi JavaScript (người dùng nâng cao)
 
 
 
@@ -426,8 +426,8 @@ Công cụ **cọ** của Orion là một tính năng độc đáo cho phép b�
 
 
 
-- Kích thước phông chữ**: Điều chỉnh độ dễ đọc bằng các nút A- và A+
-- Kiểu phông chữ**: Thay đổi họ phông chữ (mặc định hoặc tùy chỉnh)
+- **Kích thước phông chữ**: Điều chỉnh độ dễ đọc bằng các nút A- và A+
+- **Kiểu phông chữ**: Thay đổi họ phông chữ (mặc định hoặc tùy chỉnh)
 
 
 
@@ -436,8 +436,8 @@ Công cụ **cọ** của Orion là một tính năng độc đáo cho phép b�
 
 
 
-- Vô hiệu hóa tiêu đề cố định**: Xóa các tiêu đề vẫn bị kẹt ở trên cùng khi cuộn
-- Xóa Elements**: Xóa vĩnh viễn Elements gây phiền nhiễu (quảng cáo, cửa sổ bật lên, biểu ngữ cookie)
+- **Vô hiệu hóa tiêu đề cố định**: Xóa các tiêu đề vẫn bị kẹt ở trên cùng khi cuộn
+- **Xóa Elements**: Xóa vĩnh viễn Elements gây phiền nhiễu (quảng cáo, cửa sổ bật lên, biểu ngữ cookie)
   - Nhấp vào "+ Xóa" sau đó chọn mục cần ẩn
   - Rất hữu ích cho các trang web có quảng cáo liên tục hoặc theo dõi trực quan Elements
 
@@ -452,10 +452,10 @@ Công cụ **cọ** của Orion là một tính năng độc đáo cho phép b�
 
 
 
-- Tab dọc**: Kích hoạt thông qua thanh menu (Chức năng Tab ở bên cạnh)
-- Thu gọn tab**: Trong Tùy chọn → Tab → Bố cục, hãy chọn "Thu gọn" để tiết kiệm không gian
-- Nhóm tab**: Sắp xếp các phiên của bạn theo chủ đề
-- Nhiều hồ sơ**: Tạo các danh tính riêng biệt thông qua thanh menu (chức năng Hồ sơ) với dữ liệu hoàn toàn riêng biệt
+- **Tab dọc**: Kích hoạt thông qua thanh menu (Chức năng Tab ở bên cạnh)
+- **Thu gọn tab**: Trong Tùy chọn → Tab → Bố cục, hãy chọn "Thu gọn" để tiết kiệm không gian
+- **Nhóm tab**: Sắp xếp các phiên của bạn theo chủ đề
+- **Nhiều hồ sơ**: Tạo các danh tính riêng biệt thông qua thanh menu (chức năng Hồ sơ) với dữ liệu hoàn toàn riêng biệt
 
 
 
@@ -468,13 +468,13 @@ Công cụ **cọ** của Orion là một tính năng độc đáo cho phép b�
 
 
 
-- Chỉnh sửa văn bản trên trang**: tạm thời sửa đổi bất kỳ văn bản nào (menu Chỉnh sửa)
-- Cho phép sao chép và dán**: Bỏ qua các hạn chế sao chép (menu Chỉnh sửa)
-- Sao chép liên kết sạch**: Nhấp chuột phải vào liên kết để xóa các tham số theo dõi
-- Chế độ tập trung**: điều hướng toàn màn hình, không bị phân tâm
-- Picture-in-Picture**: Xem video trong cửa sổ nổi
-- Mở trong Kho lưu trữ Internet**: Truy cập trực tiếp vào các phiên bản đã lưu trữ
-- Báo cáo quyền riêng tư**: Nhấp vào biểu tượng khiên 🛡️ để xem các mục bị trang chặn
+- **Chỉnh sửa văn bản trên trang**: tạm thời sửa đổi bất kỳ văn bản nào (menu Chỉnh sửa)
+- **Cho phép sao chép và dán**: Bỏ qua các hạn chế sao chép (menu Chỉnh sửa)
+- **Sao chép liên kết sạch**: Nhấp chuột phải vào liên kết để xóa các tham số theo dõi
+- **Chế độ tập trung**: điều hướng toàn màn hình, không bị phân tâm
+- **Picture-in-Picture**: Xem video trong cửa sổ nổi
+- **Mở trong Kho lưu trữ Internet**: Truy cập trực tiếp vào các phiên bản đã lưu trữ
+- **Báo cáo quyền riêng tư**: Nhấp vào biểu tượng khiên 🛡️ để xem các mục bị trang chặn
 
 
 
@@ -507,14 +507,14 @@ Hệ thống dẫn đường riêng của Orion (⌘⇧N) cung cấp:
 
 
 
-- Tiện ích mở rộng**: Giới hạn ở mức tối thiểu nghiêm ngặt (có thể làm giảm hiệu suất)
-- Chế độ tiết kiệm điện**: Kích hoạt cho các phiên làm việc dài (có thể tiết kiệm 90%)
-- Báo cáo quyền riêng tư**: Nhấp vào biểu tượng khiên 🛡️ để xem các nội dung bị chặn theo thời gian thực
-- Tùy chỉnh hình ảnh**: Sử dụng cọ 🖌️ để điều chỉnh màn hình và loại bỏ Elements gây mất tập trung
-- Sao chép liên kết sạch**: Nhấp chuột phải để sao chép liên kết không có trình theo dõi
-- Hồ sơ riêng biệt**: Sử dụng hồ sơ chuyên dụng để phân chia các hoạt động của bạn
-- Cài đặt trang web**: Nhấp vào bánh răng ⚙️ để điều chỉnh quyền theo trang web
-- Vệ sinh thường xuyên**: Xóa bộ nhớ đệm thông qua Orion → Xóa dữ liệu duyệt web
+- **Tiện ích mở rộng**: Giới hạn ở mức tối thiểu nghiêm ngặt (có thể làm giảm hiệu suất)
+- **Chế độ tiết kiệm điện**: Kích hoạt cho các phiên làm việc dài (có thể tiết kiệm 90%)
+- **Báo cáo quyền riêng tư**: Nhấp vào biểu tượng khiên 🛡️ để xem các nội dung bị chặn theo thời gian thực
+- **Tùy chỉnh hình ảnh**: Sử dụng cọ 🖌️ để điều chỉnh màn hình và loại bỏ Elements gây mất tập trung
+- **Sao chép liên kết sạch**: Nhấp chuột phải để sao chép liên kết không có trình theo dõi
+- **Hồ sơ riêng biệt**: Sử dụng hồ sơ chuyên dụng để phân chia các hoạt động của bạn
+- **Cài đặt trang web**: Nhấp vào bánh răng ⚙️ để điều chỉnh quyền theo trang web
+- **Vệ sinh thường xuyên**: Xóa bộ nhớ đệm thông qua Orion → Xóa dữ liệu duyệt web
 
 
 
@@ -522,15 +522,16 @@ Hệ thống dẫn đường riêng của Orion (⌘⇧N) cung cấp:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Tiêu chí | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Đo tầm xa** | Không có | Tối thiểu | Rộng rãi | Vừa phải | Tối thiểu |
+| **Trình chặn gốc** | 99,9% hiệu quả | Cơ bản | Không có | Một phần | Hoàn chỉnh |
+| **Tiện ích mở rộng** | Chrome + Firefox | Hạn chế | Chỉ Chrome | Chỉ Firefox | Chỉ Chrome |
+| **Hiệu suất Mac** | Xuất sắc | Xuất sắc | Tốt | Trung bình | Tốt |
+| **Tiêu thụ RAM** | Rất thấp | Thấp | Cao | Trung bình | Trung bình |
+| **Mã nguồn mở** | Một phần | Một phần (WebKit) | Một phần | Hoàn chỉnh | Hoàn chỉnh |
+| **Nền tảng** | Mac/iOS | Mac/iOS | Tất cả | Tất cả | Tất cả |
 
 **So với Safari**: Orion cung cấp khả năng bảo vệ vượt trội với trình chặn tiên tiến và hỗ trợ tiện ích mở rộng, đồng thời vẫn duy trì hiệu suất WebKit.
 
@@ -605,9 +606,9 @@ Hệ thống dẫn đường riêng của Orion (⌘⇧N) cung cấp:
 
 
 
-- Cập nhật tự động**: Orion tự động cập nhật trên macOS thông qua Sparkle
-- Theo dõi lỗ hổng**: Thường xuyên kiểm tra ghi chú phát hành để biết các bản vá bảo mật
-- Báo cáo lỗi**: Sử dụng [orionfeedback.org](https://orionfeedback.org) để báo cáo sự cố
+- **Cập nhật tự động**: Orion tự động cập nhật trên macOS thông qua Sparkle
+- **Theo dõi lỗ hổng**: Thường xuyên kiểm tra ghi chú phát hành để biết các bản vá bảo mật
+- **Báo cáo lỗi**: Sử dụng [orionfeedback.org](https://orionfeedback.org) để báo cáo sự cố
 
 
 
@@ -641,12 +642,12 @@ Hãy nhớ: bảo vệ quyền riêng tư của bạn không chỉ phụ thuộc
 
 
 
-- Trang web chính thức**: [kagi.com/orion](https://kagi.com/orion/)
-- Câu hỏi thường gặp đầy đủ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Diễn đàn cộng đồng**: [community.kagi.com](https://community.kagi.com)
-- Theo dõi lỗi**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Các thành phần nguồn mở
-- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Tin tức và cập nhật
+- **Trang web chính thức**: [kagi.com/orion](https://kagi.com/orion/)
+- **Câu hỏi thường gặp đầy đủ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Diễn đàn cộng đồng**: [community.kagi.com](https://community.kagi.com)
+- **Theo dõi lỗi**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Các thành phần nguồn mở
+- **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Tin tức và cập nhật
 
 
 
@@ -665,7 +666,7 @@ Sau khi cấu hình, hãy kiểm tra thiết lập của bạn:
 
 
 
-### Các lựa chọn thay thế trên Plan ₿ Network
+### Các lựa chọn thay thế trên Plan ₿ Academy
 
 
 Để được bảo vệ tối đa, hãy tham khảo các hướng dẫn khác của chúng tôi:
@@ -673,14 +674,14 @@ Sau khi cấu hình, hãy kiểm tra thiết lập của bạn:
 
 
 
-- [Firefox được tăng cường](https://planb.network/tutorials/computer-security/firefox) - Cấu hình đa nền tảng nâng cao
-- [Trình duyệt Tor](https://planb.network/tutorials/computer-security/tor-browser) - Ẩn danh mạng hoàn toàn
-- [Trình duyệt Mullvad](https://planb.network/tutorials/computer-security/mullvad-browser) - Bảo vệ dấu vân tay tối đa
+- [Firefox được tăng cường](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Cấu hình đa nền tảng nâng cao
+- [Trình duyệt Tor](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Ẩn danh mạng hoàn toàn
+- [Trình duyệt Mullvad](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Bảo vệ dấu vân tay tối đa
 
 
 
-Nếu bạn muốn tìm hiểu thêm về lịch sử và hoạt động của trình duyệt, cũng như các đối tượng kỹ thuật số chính trong cuộc sống hàng ngày, tôi mời bạn khám phá khóa đào tạo miễn phí mới của chúng tôi SCU 202, có sẵn trên Plan ₿ Network:
+Nếu bạn muốn tìm hiểu thêm về lịch sử và hoạt động của trình duyệt, cũng như các đối tượng kỹ thuật số chính trong cuộc sống hàng ngày, tôi mời bạn khám phá khóa đào tạo miễn phí mới của chúng tôi SCU 202, có sẵn trên Plan ₿ Academy:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

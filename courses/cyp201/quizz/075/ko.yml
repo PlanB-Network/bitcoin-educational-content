@@ -1,0 +1,9 @@
+question: 표준 Descriptor에서 SegWit v0 계정에는 어떤 파생 경로가 사용되나요?
+answer: 84시간/0시간/0시간
+wrong_answers:
+  - 44시간/0시간/0시간
+  - 86시간/0시간/0시간
+  - 84/0/0
+explanation: |
+  경로 84h/0h/0h는 P2WPKH로 SegWit v0 주소를 파생하는 계정의 경우 BIP84에 정의되어 있습니다.
+reviewed: false

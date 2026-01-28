@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamirin varmuuskopiointi
+name: Trezor Shamir Backup
 description: Yhden ja useamman osakkeen Mnemonic-lauseet Trezorissa
 ---
 ![cover](assets/cover.webp)
@@ -85,11 +85,11 @@ Jos tarvitset apua laitteesi alkuasennuksessa, meillä on myös yksityiskohtaine
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### Uudesta salkusta
 
@@ -139,13 +139,13 @@ Jos haluat lisätietoja oikeasta tavasta tallentaa ja hallita Mnemonic-lauseita,
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Valitse Trezorissa niiden osakkeiden kokonaismäärä, jotka haluat määrittää. Yleisimmät määritykset ovat 2-de-3 ja 3-de-5. Tässä esimerkissä luon 2-de-3-kokoonpanon, joten valitsen 3 osaketta. Kukin osake edustaa 20 sanan Mnemonic-lausetta.
 
 
 
-*Safe 5 -käyttäjille, vaikka näytöllä lukee "*Tap jatka*", sinun on itse asiassa pyyhkäistävä ylöspäin vahvistaaksesi
+**Safe 5 -käyttäjille**, vaikka näytöllä lukee "*Tap jatka*", sinun on itse asiassa pyyhkäistävä ylöspäin vahvistaaksesi
 
 
 
@@ -173,7 +173,7 @@ Näytön yläreunassa näkyy, mitä jakoa parhaillaan katselet.
 
 
 
-näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkiä Wallet käytetään vain Testnet:ssa ja se poistetaan opetusohjelman lopussa.**_
+näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkiä Wallet käytetään vain Testnet:ssa ja se poistetaan opetusohjelman lopussa.
 
 
 
@@ -273,7 +273,7 @@ Onneksi olkoon, olet nyt perillä Trezor-laitteiston lompakoiden Single-share- j
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit Green peukalon alle. Voit vapaasti jakaa tämän artikkelin sosiaalisissa verkostoissa. Kiitos paljon!
 

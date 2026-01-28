@@ -1,0 +1,9 @@
+question: Was ist eine Bitcoin Node?
+answer: Ein Computer, auf dem Software zur Implementierung des Bitcoin-Protokolls läuft
+wrong_answers:
+  - Eine Hardware Wallet zur Implementierung des Bitcoin-Netzwerks
+  - Ein Miner der neue Blöcke für Bitcoin produziert
+  - Ein zentraler Server, der das Bitcoin-Netzwerk und die Transaktionsbestätigung verwaltet
+explanation: |
+  Eine Bitcoin Node ist ein Computer, auf dem eine Software wie Bitcoin Core läuft, die das Protokoll implementiert und am Bitcoin-Netzwerk teilnimmt.
+reviewed: true

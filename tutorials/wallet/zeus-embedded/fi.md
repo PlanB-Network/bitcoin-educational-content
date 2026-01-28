@@ -13,11 +13,11 @@ Sovelluksessa on kuitenkin myös "Sulautettu solmu".
 
 
 
-**Tässä opetusohjelmassa tutustumme juuri tähän sovelluksen osa-alueeseen. Näin kenellä tahansa voi olla oma salamasolmunsa matkapuhelimessa ilman erillistä palvelinta, samalla tavalla kuin ACINQ tarjoaa uskomatonta Wallet-salamaa Phoenix.
+**Tässä opetusohjelmassa tutustumme juuri tähän sovelluksen osa-alueeseen. Näin kenellä tahansa voi olla oma salamasolmunsa matkapuhelimessa ilman erillistä palvelinta, samalla tavalla kuin ACINQ tarjoaa uskomatonta Wallet-salamaa Phoenix.**
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Muistutettakoon, että Lightning on verkko, joka toimii rinnakkain Bitcoin:n kanssa ja mahdollistaa bitcoinien vaihdon ilman On-Chain:n järjestelmällisiä transaktioita. Tuloksena on lähes välittömiä transaktioita, eikä lohkon validointia tarvitse odottaa 10 minuuttia. Tämä on erityisen hyödyllistä, kun maksetaan kauppiaalle fyysisessä maailmassa. Lisäksi Lightning tarjoaa huomattavan tason **luottamuksellisuutta**, jota Bitcoin-verkossa ei ole*.
 
@@ -38,7 +38,7 @@ Toisaalta en usko, että se soveltuu tällä hetkellä aloittelijoille, jotka ei
 
 
 
-Siirry [hankkeen verkkosivustolle] (https://zeusln.com/) ja lataa sovellus älypuhelimesi käyttöjärjestelmään:
+Siirry [hankkeen verkkosivustolle](https://zeusln.com/) ja lataa sovellus älypuhelimesi käyttöjärjestelmään:
 
 
 
@@ -200,7 +200,7 @@ Jos haluat lisätietoja oikeasta tavasta tallentaa ja hallita Mnemonic-lauseesi,
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -248,7 +248,7 @@ Seuraavassa näytössä sinua pyydetään avaamaan kanava yhteistyössä **"Olym
 Tässä oppaassa valitsemme tämän vaihtoehdon yksinkertaisuuden vuoksi, mutta on täysin mahdollista avata kanavia mihin tahansa verkon solmuun.
 
 
-On jopa mahdollista avata useita kanavia yhdellä tapahtumalla valitsemalla "OPEN ADDITIONAL CHANNEL". *Mutta tarkastelemme tätä **Zeus Embedded**** -oppikirjan "edistyneemmissä" versioissa.
+On jopa mahdollista avata useita kanavia yhdellä tapahtumalla valitsemalla "OPEN ADDITIONAL CHANNEL". *Mutta tarkastelemme tätä* **Zeus Embedded** *-oppikirjan "edistyneemmissä" versioissa.*
 
 
 
@@ -345,7 +345,7 @@ Zeuksen avulla voit sitten lisätä maksun nimellisarvoksi setelin tai tarkastel
 
 
 
-Huomaa, että toisin kuin Wallet:ssa, kuten [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), Zeuksen tapauksessa reitti lasketaan paikallisesti eikä sitä delegoida kolmannelle osapuolelle (Phoenixin tapauksessa ACINQ:lle). Olet siis ainoa, joka tietää maksun vastaanottajan. Menetämme hieman tehokkuutta (maksujen suorittaminen kestää hieman kauemmin, mutta voitamme paljon yksityisyyden kannalta).
+Huomaa, että toisin kuin Wallet:ssa, kuten [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), Zeuksen tapauksessa reitti lasketaan paikallisesti eikä sitä delegoida kolmannelle osapuolelle (Phoenixin tapauksessa ACINQ:lle). Olet siis ainoa, joka tietää maksun vastaanottajan. Menetämme hieman tehokkuutta (maksujen suorittaminen kestää hieman kauemmin, mutta voitamme paljon yksityisyyden kannalta).
 
 
 
@@ -422,8 +422,8 @@ Onneksi olkoon, olet nyt valmis käyttämään Zeus Embeddediä, Wallet-mobiiliv
 
 
 
-Jos haluat lisätietoja Lightning Network:n teknisestä toiminnasta, löydät Fanis Michalakisin erinomaisen ilmaisen Plan ₿ Network-koulutuksen:
+Jos haluat lisätietoja Lightning Network:n teknisestä toiminnasta, löydät Fanis Michalakisin erinomaisen ilmaisen Plan ₿ Academy-koulutuksen:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

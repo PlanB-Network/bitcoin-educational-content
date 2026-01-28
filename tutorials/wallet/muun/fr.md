@@ -6,15 +6,15 @@ description: Mise en place de votre portefeuille Muun
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
+[Muun](https://muun.com/) est un portefeuille en auto-garde pour bitcoin et lightning.
 
-## video tutorial
+## Tutoriel vidéo
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Wallet - Guide d'utilisation complet
 
-Guide d'utilisation complet (avec captures d'écran) de l'application Muun; un portefeuille mobile Bitcoin convivial vous permettant de transiger sur le Lightning Network.
+Guide utilisateur complet (avec captures d’écran) pour l’application Muun ; un portefeuille Bitcoin mobile convivial qui vous permet de réaliser des transactions sur le Lightning Network.
 
 ![image](assets/0.5.webp)
 
@@ -122,15 +122,15 @@ Voici la traduction des instructions :
 
 Cette procédure d’urgence vous aidera à récupérer vos fonds si vous n’êtes pas en mesure d’utiliser Muun sur votre appareil.
 
-1. Trouvez votre code de récupération
+- Trouvez votre code de récupération
 
 Vous avez écrit ce code sur un bout de papier avant de créer votre kit d’urgence. Vous en aurez besoin plus tard.
 
-2. Téléchargez l’outil de recouvrement
+- Téléchargez l’outil de récupération
 
 Allez sur la page https://github.com/muun/recovery et téléchargez l’outil sur votre ordinateur
 
-3. Récupérez vos fonds
+- Récupérez vos fonds
 
 Exécutez l’outil de récupération et suivez les étapes. L’outil se chargera de transférer vos fonds à une adresse Bitcoin de votre choix.
 
@@ -174,13 +174,13 @@ Les options de personnalisation se trouvent sous le menu “Invoice settings”.
 
 ![image](assets/28.webp)
 
-##Utiliser la fonction LNURL
+## Utilisation de la fonction LNURL
 
 Le portefeuille Muun offre la possibilité d’utiliser LNURL pour recevoir des transactions. Cette fonction, qui s’active en appuyant sur le symbole carré de balayage (scan) situé en haut à droite de la page, comporte quelques avantages dont celle de vous éviter d’avoir à partager une facture pour recevoir une transaction. Plutôt, vous devez balayer un code QR pour recevoir les informations de paiement que vous pourrez ensuite valider pour confirmer le procédé transactionnel.
 
 ![image](assets/29.webp)
 
-Muun vous montrera initialement une page explicative (voir capture d’écran ci-haut) puis vous demandera d’activer la saisie de caméra de votre appareil, une étape nécessaire à l’utilisation de l’application.Sachez que les adresses LNURL ne sont actuellement pas supportées par tous les portefeuilles Lightning. Ceux qui le supportent n’offrent en général que la possibilité d’utiliser LNURL pour recevoir des transactions et non d’en émettre.
+Muun vous montrera initialement une page explicative (voir capture d’écran ci-haut) puis vous demandera d’activer la saisie de caméra de votre appareil, une étape nécessaire à l’utilisation de l’application. Sachez que les adresses LNURL ne sont actuellement pas supportées par tous les portefeuilles Lightning. Ceux qui le supportent n’offrent en général que la possibilité d’utiliser LNURL pour recevoir des transactions et non d’en émettre.
 
 ![image](assets/30.webp)
 
@@ -198,7 +198,7 @@ Lorsque vous arrivez sur la page “Send”, si vous avez déjà une adresse en 
 ![image](assets/33.webp)
 ![image](assets/34.webp)
 
-Lors de la préparation d’une transaction Bitcoin, il vous faut inscrire le montant à émettre. Assurez-vous que l’adresse de destination affichée au haut de l’écran correspond bien à l’adresse copiée auparavant. Sous le montant à envoyer, Muun affiche le solde de votre portefeuille et vous donne l’option d’utiliser tous vos fonds (“Use all funds”), une fonctionnalité fort utile si vous souhaitez vider votre portefeuille complètement en évitant qu’il ne reste des “poussières” (quelques satoshis).
+Lors de la préparation d’une transaction Bitcoin, il vous faut inscrire le montant à émettre. Assurez-vous que l’adresse de destination affichée en au haut de l’écran correspond bien à l’adresse copiée auparavant. Sous le montant à envoyer, Muun affiche le solde de votre portefeuille et vous donne l’option d’utiliser tous vos fonds (“Use all funds”), une fonctionnalité fort utile si vous souhaitez vider votre portefeuille complètement en évitant qu’il ne reste des “poussières” (quelques satoshis).
 
 ![image](assets/35.webp)
 
@@ -228,7 +228,7 @@ Appuyez sur une entrée pour consulter les détails d’une transaction en parti
 
 ## Via le réseau Lightning
 
-Utilisons maintenant une facture Bolt 11 (“invoice” Lightning traditionnel/par défaut) pour effectuer une transaction. Copiez ou balayez une adresse Lightning dans la page “Send”. Vous serez redirigé vers une nouvelle page vous présentant les détails de la facture courante. Les montants de la transaction s’afficheront (incluant les frais du réseau), la note ou description inscrite à la facture, ainsi que la minuterie d’expiration tout au bas. Notez que les frais de transaction ne sont pas modifiables pour les transactions Lightning, Ils sont déterminés par la route de canal/canaux qu’elles devront emprunter pour aboutir au destinataire.
+Utilisons maintenant une facture Bolt 11 (“invoice” Lightning traditionnel/par défaut) pour effectuer une transaction. Copiez ou balayez une adresse Lightning dans la page “Send”. Vous serez redirigé vers une nouvelle page vous présentant les détails de la facture courante. Les montants de la transaction s’afficheront (incluant les frais du réseau), la note ou description inscrite à la facture, ainsi que la minuterie d’expiration tout au bas. Notez que les frais de transaction ne sont pas modifiables pour les transactions Lightning, ils sont déterminés par la route de canal/canaux qu’elles devront emprunter pour aboutir au destinataire.
 
 ![image](assets/42.webp)
 
@@ -282,7 +282,7 @@ La section avancée des paramètres (“Advanced settings”) contient deux entr
 
 Pour comprendre ce qu’on appelle les Turbo channels, nous devons d’abord savoir que les transactions Lightning s’effectuent via des canaux d’un utilisateur à l’autre, et que ces canaux doivent initialement être financés par une transaction sur la chaîne Bitcoin.
 
-Les Turbo channels permettent de pouvoir commencer à transiger sur le réseau Lightning avant même que quelque transaction on-chain que ce soit n’ait été confirmée. Désactiver cette fonction fera en sorte que vous devrez patienter significativement plus longtemps pour pouvoir transiger sur le réseau Lightning, au profit d'une sécurité accrue de vos fonds, puisque qu'autrement vous devez faire confiance que Muun n'agira pas malicieusement (un double-spend très publique) le temps que votre transaction ne soit confirmée sur la blockchain.
+Les Turbo channels permettent de pouvoir commencer à transiger sur le réseau Lightning avant même que quelque transaction on-chain que ce soit n’ait été confirmée. Désactiver cette fonction fera en sorte que vous devrez patienter significativement plus longtemps pour pouvoir transiger sur le réseau Lightning, au profit d'une sécurité accrue de vos fonds, puisqu'autrement vous devez faire confiance que Muun n'agira pas malicieusement (un double-spend très publique) le temps que votre transaction ne soit confirmée sur la blockchain.
 
 Au bas de la page des paramètres se trouve l’option “Log out”. Vous pouvez utiliser cette fonction si vous souhaitez que l’application déconnecte le portefeuille présentement reconnu par celle-ci. Cela vous permettra de créer un nouveau portefeuille ou bien d’en importer ou de récupérer un existant.
 

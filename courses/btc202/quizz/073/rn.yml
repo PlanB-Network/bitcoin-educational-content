@@ -1,0 +1,9 @@
+question: Ni igiki gikorwa n'umurongo w'ivy'ukuri muri Bitcoin core?
+answer: Kwirengagiza igenzura ry'inyandiko imbere y'ububiko bw'inyandiko
+wrong_answers:
+  - Kwirengagiza igenzura rya Proof-of-Work imbere y'igice c'ishingiro
+  - Kwirengagiza igenzura ry'umutwe imbere y'ububiko bw'ishingiro
+  - Guhatira Tor ku kuvumbura urunganwe
+explanation: |
+  Assumevalid yihutisha IBD mu kwirengagiza igenzura ry'inyandiko imbere y'ibarabara rizwi, mu gihe igumya ibindi vyemezo vyose.
+reviewed: true

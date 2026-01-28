@@ -1,0 +1,9 @@
+question: TCP/IP 프로토콜 사양에 대한 기술 참조 문서로 사용되는 문서는 무엇인가요?
+answer: RFC
+wrong_answers:
+  - 백서
+  - ISO
+  - IIP
+explanation: |
+  RFC(Request For Comments)는 TCP/IP 프로토콜 사양을 정의하는 참조 문서입니다.
+reviewed: false

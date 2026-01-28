@@ -20,7 +20,7 @@ Alby Hub er et svært tilpasningsdyktig verktøy. Det kan dekke behovene til bå
 Avhengig av dine behov er Alby Hub tilgjengelig i fire konfigurasjoner:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 Ideell for nybegynnere, dette første alternativet er Alby-skyalternativet. Det lar deg distribuere en Hub direkte på en Alby-administrert server, tilgjengelig via din Alby Hub-grensesnitt. Selv om Alby administrerer serveren, beholder du suvereniteten over midlene dine, ettersom nøklene dine er kryptert med et passord som bare du kjenner. Imidlertid må nøklene dine forbli dekryptert i RAM for at noden skal fungere, noe som teoretisk sett utsetter dem for risiko hvis noen fysisk får tilgang til serveren. Det er et interessant kompromiss for nybegynnere, men det er viktig å være klar over risikoene.
 
@@ -41,13 +41,13 @@ Det er også mulig å installere Alby Hub direkte på PC-en din, selv om dette a
 
 - Alby Hub på en personlig server :**
 
-For avanserte brukere kan Alby Hub distribueres på en personlig server med en enkel kommando. Dette alternativet er ikke dekket i denne veiledningen, men du kan finne dedikerte instruksjoner [på Albys GitHub] (https://github.com/getAlby/hub?tab=readme-ov-file#docker).
+For avanserte brukere kan Alby Hub distribueres på en personlig server med en enkel kommando. Dette alternativet er ikke dekket i denne veiledningen, men du kan finne dedikerte instruksjoner [på Albys GitHub](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 
 Denne veiledningen fokuserer hovedsakelig på grensesnittet, som vil være det samme uansett hvilket alternativ du velger. Vi ser også på hvordan du distribuerer Alby Hub med det betalte skyalternativet, og deretter med node-in-box-alternativet (Umbrel eller Start9).
 
 ![ALBY HUB](assets/fr/02.webp)
 
-For lokal installasjon på PC-en din, [last ned og installer programvaren i henhold til operativsystemet] (https://github.com/getAlby/hub/releases), og følg deretter de samme instruksjonene på grensesnittet.
+For lokal installasjon på PC-en din, [last ned og installer programvaren i henhold til operativsystemet](https://github.com/getAlby/hub/releases), og følg deretter de samme instruksjonene på grensesnittet.
 
 ![ALBY HUB](assets/fr/03.webp)
 
@@ -55,7 +55,7 @@ For lokal installasjon på PC-en din, [last ned og installer programvaren i henh
 
 Det første trinnet er å opprette en Alby-konto. Selv om dette ikke er avgjørende for å kunne bruke Alby Hub, gir det deg muligheten til å dra full nytte av de tilgjengelige alternativene, inkludert muligheten til å få en Lightning-adresse.
 
-Gå til [det offisielle Alby-nettstedet] (https://getalby.com/) og klikk på "*Opprett konto*"-knappen.
+Gå til [det offisielle Alby-nettstedet](https://getalby.com/) og klikk på "*Opprett konto*"-knappen.
 
 ![ALBY HUB](assets/fr/04.webp)
 
@@ -271,12 +271,12 @@ I denne veiledningen anbefaler jeg at du velger Alby Go, som er veldig enkelt å
 Gå til applikasjonsbutikken på enheten din for å installere Alby Go:
 
 
-- [For Android] (https://play.google.com/store/apps/details?id=com.getalby.mobile);
-- [For Apple] (https://apps.apple.com/us/app/alby-go/id6471335774).
+- [For Android](https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [For Apple](https://apps.apple.com/us/app/alby-go/id6471335774).
 
 ![ALBY HUB](assets/fr/44.webp)
 
-Android-brukere kan også installere appen via `.apk`-filen [tilgjengelig på Albys GitHub] (https://github.com/getAlby/go/releases).
+Android-brukere kan også installere appen via `.apk`-filen [tilgjengelig på Albys GitHub](https://github.com/getAlby/go/releases).
 
 ![ALBY HUB](assets/fr/45.webp)
 
@@ -299,7 +299,7 @@ Gå tilbake til Alby Go-applikasjonen, skann QR-koden eller lim inn hemmelighete
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Klikk på "Fullfør*".
+Klikk på "Fullfør".
 
 ![ALBY HUB](assets/fr/51.webp)
 
@@ -368,4 +368,4 @@ Nå vet du hvordan du bruker Lightning med din egen node ved hjelp av Alby Hub-v
 
 For å forstå i detalj alle Lightning-mekanismene som vi har manipulert i denne opplæringen, anbefaler jeg deg på det sterkeste å oppdage vår gratis opplæring om emnet :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

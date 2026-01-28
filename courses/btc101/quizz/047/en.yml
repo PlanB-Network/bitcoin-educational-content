@@ -1,12 +1,10 @@
-question: What is hyperinflation?
-answer: A drastic increase in the monetary mass.
+question: What is the second phase of the hyperinflation phenomenon?
+answer: Currency collapse & price increase.
 wrong_answers:
-  - A small increase in the monetary mass.
-  - A drastic decrease in the monetary mass.
-  - A small decrease in the monetary mass.
+  - Loss of Confidence.
+  - The vicious circle of money printing.
+  - A new currency emerges.
 explanation: |
-  Hyperinflation is a monetary phenomenon characterized by a
-  drastic increase in inflation through the monetary printing
-  by authorities, which leads to a complete loss of
-  confidence in a currency.
+  The second phase of hyperinflation is currency collapse &
+  price increase, just after the Loss of Confidence Phase.
 reviewed: true

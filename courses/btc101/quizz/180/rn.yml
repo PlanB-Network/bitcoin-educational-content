@@ -1,8 +1,8 @@
-question: Ni ikintu kimwe ikihe gituma abajejwe ivy’imari bagorwa no gutegeka Bitcoin?
-answer: Ikora kw’isi yose, amasaha 24 ku musi, imisi 7 ku ndwi.
+question: Ni akamaro akahe kamwe ko kwemera Bitcoin nk’umucuruzi?
+answer: Uguhangana n’ugucengera.
 wrong_answers:
-  - Igenzurwa n’ubutegetsi buhambaye.
-  - Nta hantu hose kw’isi rikoreshwa.
-  - Biroroshe kwigana.
+  - Amafaranga y’ugucuruza yongerewe.
+  - Uburinzi ku bijanye n’ugutakaza agaciro.
+  - Uguhagarika amahera.
 explanation: >-
 reviewed: true

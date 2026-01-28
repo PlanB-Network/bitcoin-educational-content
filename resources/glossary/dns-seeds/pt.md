@@ -18,4 +18,4 @@ Pontos de conexão inicial para novos nós Bitcoin que se juntam à rede. Essas 
 
 Sementes DNS são o segundo método, em ordem de prioridade, para um nó Bitcoin estabelecer conexões. O primeiro método envolve o uso do arquivo peers.dat que o próprio nó criou. Este ficheiro está naturalmente vazio no caso de um novo nó, a menos que o utilizador o tenha modificado manualmente.
 
-> ► *Nota: as sementes DNS não devem ser confundidas com os "nós de sementes", que são a terceira forma de estabelecer ligações
+> ► *Nota: as sementes DNS não devem ser confundidas com os "nós de sementes", que são a terceira forma de estabelecer ligações*

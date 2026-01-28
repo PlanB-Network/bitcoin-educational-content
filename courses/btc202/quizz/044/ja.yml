@@ -1,0 +1,9 @@
+question: Umbrelはアプリケーションの分離と管理にどのようなテクノロジーを使っていますか？
+answer: Dockerコンテナ
+wrong_answers:
+  - VirtualBox仮想マシン
+  - バッシュスクリプト
+  - Kubernetesクラスタ
+explanation: |
+  Umbrelの各アプリケーションはDockerコンテナで実行され、独立した管理と分離が可能です。
+reviewed: true

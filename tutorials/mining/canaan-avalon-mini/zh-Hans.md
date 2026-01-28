@@ -1,5 +1,5 @@
 ---
-name: 迦南阿瓦隆迷你 3
+name: Canaan Avalon Mini 3
 description: 将 ASIC Avalon 配置为独矿或 Miner 矿池
 ---
 
@@ -23,7 +23,7 @@ description: 将 ASIC Avalon 配置为独矿或 Miner 矿池
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 请注意，在绝大多数情况下，与同等功率的传统加热器之间的价格差异不会让您获得经济利润。除非您能获得免费（剩余）或非常便宜的电力，否则 Mining 活动所产生的 satoshis 永远无法弥补这种价格差异。
 
@@ -122,16 +122,17 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| 特征                                      | 值                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
-| Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| 哈希率                                             | 37.5 Th/s +- 5%                                           |
+| 功耗                              | 800 W                                                     |
+| 噪音                                                | 35-55 dB                                                  |
+| 出风口空气温度                       | 60-70°C (环境温度 25°C)                  |
+| 使用环境温度要求 | -5° C - 40°C                                              |
+| 设备输入电压范围                         | 110V-240V AC 50/60Hz                                      |
+| 机器尺寸                                 | 长度: 760 毫米 / 深度: 104 毫米 / 高度: 214.5 毫米 |
+| 机器重量                                  |  8.35 kg                                                  |
 
 ## 连接到 Mining pool
 
@@ -181,9 +182,9 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 总之，我们需要
 
@@ -358,4 +359,4 @@ https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

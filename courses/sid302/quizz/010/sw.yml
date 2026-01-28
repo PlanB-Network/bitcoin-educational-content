@@ -1,0 +1,8 @@
+question: Ni nini kinachowazuia watumiaji kupata pesa kwa njia isiyo ya kawaida katika mfumo wa Elements' Confidential Transactions?
+answer: Ushahidi wa Masafa unaothibitisha kimahesabu thamani zilizofichwa ni nambari kamili chanya ndani ya masafa halali
+wrong_answers:
+  - Ahadi za Pedersen zinazofunga miamala kwa njia ya kisiri zinafikia funguo za umma
+  - Uthibitisho wa Usajili wa Mali unaoangalia kiasi cha miamala yote dhidi ya mipaka ya mali iliyosajiliwa
+  - Nodi za makubaliano ya pamoja zinazoondoa na kuthibitisha kiasi chote cha miamala ya siri
+explanation: |
+  Uthibitisho wa Masafa ni utaratibu maalum wa kriptografia unaowazuia watumiaji kutumia vibaya mfumo wa miamala ya siri kwa kutumia nambari hasi au kiasi batili ili kupata pesa kutoka kwa kitu chochote. Ingawa Pedersen Commitments huficha kiasi halisi, Uthibitisho wa Masafa huhakikisha uadilifu wa kihesabu kwa kuthibitisha thamani zilizofichwa ziko ndani ya masafa halali. Usajili wa Mali huunganisha tu vitambulisho vya mali na majina yanayoweza kusomwa na binadamu na hauthibitishi kiasi, na nodi zilizoshirikishwa haziondoi miamala ya siri - zinathibitisha bila kuona thamani halisi.

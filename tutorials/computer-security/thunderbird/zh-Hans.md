@@ -1,5 +1,5 @@
 ---
-name: 雷鸟
+name: Thunderbird
 description: 为专业人士和个人提供安全信息
 ---
 
@@ -17,13 +17,13 @@ Thunderbird 是一款电子邮件应用程序，以其灵活性和广泛的功�
 
 
 
-- 免费和开源**：与许多信息应用程序不同，Thunderbird 是完全免费的。不过，你可以通过向开发者社区捐款来支持他们。
-- 直观的 Interface，简单易学**：Thunderbird 的配置大多简单明了，因此您无需担心。
-- 适用于多种类型的电子邮件**：无论是 Gmail、Yahoo、Outlook 还是与域名相关的商业电子邮件，该邮箱都具有高度的通用性。
-- 多账户**：Thunderbird 可让你同时连接多个电子邮件账户，方便你访问所有邮件。
-- 高性能功能和可扩展性**：默认情况下，Thunderbird 提供了一系列用于管理电子邮件账户和活动日历的功能。不过，由于有许多扩展功能可用，您还可以添加更多选项。
-- 多平台**：Thunderbird 适用于各种设备（Android、Windows、Linux、macOS），让您轻松访问电子邮件。
-- 安全性**：Thunderbird 是一款高度安全的应用程序，您可以使用基于 RSA 或 ECC（椭圆曲线）的端到端加密技术，确保数据的机密性。
+- **免费和开源**：与许多信息应用程序不同，Thunderbird 是完全免费的。不过，你可以通过向开发者社区捐款来支持他们。
+- 直观的 Interface，简单易学：Thunderbird 的配置大多简单明了，因此您无需担心。
+- 适用于多种类型的电子邮件：无论是 Gmail、Yahoo、Outlook 还是与域名相关的商业电子邮件，该邮箱都具有高度的通用性。
+- **多账户**：Thunderbird 可让你同时连接多个电子邮件账户，方便你访问所有邮件。
+- **高性能功能和可扩展性**：默认情况下，Thunderbird 提供了一系列用于管理电子邮件账户和活动日历的功能。不过，由于有许多扩展功能可用，您还可以添加更多选项。
+- **多平台**：Thunderbird 适用于各种设备（Android、Windows、Linux、macOS），让您轻松访问电子邮件。
+- **安全性**：Thunderbird 是一款高度安全的应用程序，您可以使用基于 RSA 或 ECC（椭圆曲线）的端到端加密技术，确保数据的机密性。
 
 
 
@@ -59,8 +59,8 @@ Thunderbird 是一款电子邮件应用程序，以其灵活性和广泛的功�
 
 
 
-- 标准**：可直接安装，无需事先配置。
-- 自定义**：可让您选择安装文件夹以及是否创建桌面快捷方式。
+- **标准**：可直接安装，无需事先配置。
+- **自定义**：可让您选择安装文件夹以及是否创建桌面快捷方式。
 
 
 
@@ -213,4 +213,4 @@ Thunderbird 并不局限于电子邮件管理。你还可以添加聊天、Feeds
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

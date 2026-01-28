@@ -1,0 +1,8 @@
+question: Vilken mekanism använder Rust för att automatiskt rensa upp variabler och deras resurser när de går utanför räckvidden?
+answer: Drop-mekanismen som anropar drop-funktioner på variabler
+wrong_answers:
+  - En skräpsamlare som regelbundet söker efter oanvänt minne
+  - Manuell minnesdeallokering genom explicit anrop av free()-funktionen
+  - Referensräkning som spårar hur många pekare som refererar till varje värde
+explanation: |
+  Rust använder drop-mekanismen för att automatiskt rensa upp resurser när variabler går utanför scope. Detta system anropar implicit en drop-funktion på varje variabel när den går utanför scope, markerar minne som tillgängligt för återanvändning och utför alla nödvändiga rensningsoperationer som att stänga filhandtag. Detta tillvägagångssätt, som lånats från C++:s RAII-mönster, säkerställer automatisk resurshantering utan att kräva garbage collection, manuell minneshantering eller referensräkningssystem som används av andra språk.

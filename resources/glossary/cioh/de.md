@@ -11,4 +11,4 @@ Auch heute noch ist CIOH neben der Adresswiederverwendung die wichtigste Heurist
 
 ![](../../dictionnaire/assets/13.webp)
 
-> ► *Im Englischen könnte "CIOH" mit "Common Input Ownership Heuristic" übersetzt werden
+> ► *Im Englischen könnte "CIOH" mit "Common Input Ownership Heuristic" übersetzt werden*

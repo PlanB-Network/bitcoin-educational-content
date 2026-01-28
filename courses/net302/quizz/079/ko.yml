@@ -1,0 +1,9 @@
+question: 도메인 이름을 IPv6 Address으로 매핑하는 데 사용되는 DNS 레코드 유형은 무엇인가요?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  AAAA(쿼드-A) 유형은 도메인 네임을 IPv6 Address에 매핑하는 데 사용되며, A 유형은 IPv4용으로 예약되어 있습니다.
+reviewed: false

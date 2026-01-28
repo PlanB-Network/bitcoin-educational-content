@@ -1,5 +1,5 @@
 ---
-name: 麻雀 Wallet
+name: Sparrow Wallet
 description: 安裝、配置和使用 Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
@@ -38,7 +38,7 @@ Sparrow 支援單一簽章和多重簽章的錢包，並能流暢地管理多個
 在安裝軟體之前，檢查軟體的完整性和真實性非常重要。如果您不知道如何執行，您可以在這裡找到完整的教學 ：
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow 安裝完成後，您可以跳過最初的說明畫面，直接進入連線管理畫面。
 
@@ -107,9 +107,9 @@ Sparrow 安裝完成後，您可以跳過最初的說明畫面，直接進入連
 若要設定 Bitcoin Core 節點，您可以根據作業系統，參考下列其中一個教學：
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 在 Sparrow 上，移至「*Bitcoin Core*」標籤。
 
@@ -143,10 +143,11 @@ server=1
 然後回到 Sparrow Wallet，輸入 cookie 檔案的路徑，通常與 `Bitcoin.conf`位於同一資料夾，視您的作業系統而定：
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -177,10 +178,11 @@ server=1
 編輯檔案後，請確保將其儲存到您作業系統的適當資料夾：
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 此操作也可透過 Bitcoin-QT Interface 圖形化 Interface 執行。進入「*設定*」功能表，然後選擇「*選項...*」，勾選對應的方塊來啟動「*啟用 RPC 伺服器*」選項。如果「Bitcoin.conf」檔案不存在，您可以點選「*Open Configuration File*」，直接從這個 Interface 建立該檔案。
 
@@ -314,18 +316,18 @@ rpcpassword=my_password
 如需更多關於儲存和管理 Mnemonic 詞組的正確方法的資訊，我強烈建議您參考這篇教學，尤其是對於初學者而言：
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
 
-**顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。本範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。
+**顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。本範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。**
 
 
 您也可以按一下「*使用 passphrase*」方塊，選擇加入 passphrase BIP39。警告：使用 passphrase 可能非常有用，但如果您不瞭解它的運作方式，就可能會有很大的風險。所以我強烈建議您閱讀這篇相關的理論短文：
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 將 Mnemonic 和任何 passphrase 儲存到實體媒體後，按一下「*確認備份*」。
 
@@ -378,7 +380,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 Sparrow 支援所有這些通訊方式，並與市面上大多數的硬體錢包相容。
 
 
-在本教學中，我將使用 Ledger Nano S 連接線，但在 Air-Gap 模式下的步驟也類似。您可以在 Plan ₿ Network 的專用教學中找到 Hardware Wallet 的具體細節。
+在本教學中，我將使用 Ledger Nano S 連接線，但在 Air-Gap 模式下的步驟也類似。您可以在 Plan ₿ Academy 的專用教學中找到 Hardware Wallet 的具體細節。
 
 
 開始之前，請確認 Wallet 已在您的 Hardware Wallet 上設定好。如果您使用有線連接，請透過連接線與電腦連接。
@@ -471,7 +473,7 @@ Sparrow 會在您的 Wallet 中顯示第一個未使用的 Address。您可以�
 ![Image](assets/fr/44.webp)
 
 
-對於 Hardware Wallet Air-Gap 使用者，Address 驗證依裝置型號而有所不同。請參閱專用的 Plan ₿ Network 教學以獲得精確指示。
+對於 Hardware Wallet Air-Gap 使用者，Address 驗證依裝置型號而有所不同。請參閱專用的 Plan ₿ Academy 教學以獲得精確指示。
 
 
 一旦付款人廣播了交易，您就會看到它出現在 「*交易*」標籤中。您可以按一下以取得更多詳細資訊，例如 txid。
@@ -552,7 +554,7 @@ Sparrow 會顯示一個摘要圖表，顯示您的輸入、輸出和交易費用
 保持預設的 Sighash 是很重要的。若要瞭解原因，請參閱本訓練課程，其中我會說明您需要瞭解的所有關於 Sighash 的資訊：
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 在下一個畫面中，選項會依您使用的 Wallet 類型而有所不同：
 
@@ -668,4 +670,4 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 我也推薦這篇教學，我在其中說明如何設定 Hardware Wallet COLDCARD Q 與 Sparrow Wallet ：
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

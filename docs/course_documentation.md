@@ -6,7 +6,7 @@ The name of folder for any course represents its unique identifier known as the 
 
 This folder has a specific structure that is extensively detailed in the next section.
 
-You can find complete specifications about courses in the [PBN Template Repo](/PBN-template-repo/courses/) folder with full examples of folder and files structure and extensive comments inside all files to understand how to properly format your course.
+You can find complete specifications about courses in the [Plan ₿ Academy Template Repo](/PBN-template-repo/courses/) folder with full examples of folder and files structure and extensive comments inside all files to understand how to properly format your course.
 
 # Course Folder Structure
 
@@ -103,7 +103,7 @@ En el marco de este curso, discutiremos los aspectos monetarios de Bitcoin, incl
 […]
 ```
 
-The markdown course file is divided in 3 parts. The first two parts would be used to build the presentation page of the course (see this [example](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966)):
+The markdown course file is divided in 3 parts. The first two parts would be used to build the presentation page of the course (see this [example](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966)):
 
 1. The **Course Header** which contains language-specific metadata and is delimited by `---` and must contain the following properties:
    - `name`: define the name of the course
@@ -133,7 +133,7 @@ These are the rules for properly formatting course content:
 
 #### Chapter ID
 
-The **Chapter ID** is a unique identifier for each chapter. This ID is a simply three words from the BIP39 wordlist. You can either generate these ids by yourself by following this [tutorial](./how-to-generate-a-bip39-id.md) or ask to one the PlanB reviewers to do it for you. This ID will allow you to link your chapter with questions present in the [quizz folder](#quizz-folder) of your course, but also let you re-order your chapters after the first publication without breaking our database for PlanB Network website.
+The **Chapter ID** is a unique identifier for each chapter. This ID is a simply three words from the BIP39 wordlist. You can either generate these ids by yourself by following this [tutorial](./how-to-generate-a-bip39-id.md) or ask to one the PlanB reviewers to do it for you. This ID will allow you to link your chapter with questions present in the [quizz folder](#quizz-folder) of your course, but also let you re-order your chapters after the first publication without breaking our database for Plan ₿ Academy website.
 
 ## Assets course folder
 
@@ -144,7 +144,7 @@ The `/assets` subfolder contains all the images used in the course. In order to 
    - Although you are free to structure language-specific folders, the structure MUST remain the same between two different language. This rule makes it easier to automatically update the image path in the corresponding markdown file.
    - If you create a course, you can simply create image with text in English and later on start the [image translation process](how-to-translate-image.md)
 
-Additionally in the `assets/` folder a `thumbnail.webp` file is required, it will be used as the course's thumbnail, like the one used for the [btc101 course](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966).
+Additionally in the `assets/` folder a `thumbnail.webp` file is required, it will be used as the course's thumbnail, like the one used for the [btc101 course](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966).
 
 ## Optional folders within course folder
 

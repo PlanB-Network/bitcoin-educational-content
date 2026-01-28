@@ -1,13 +1,11 @@
-question: Wat is het aanbevolen gebruik van een mobiele Wallet?
-answer: Dagelijkse uitgaven opslaan.
+question: Wat gebeurt er als uw privésleutel wordt onthuld aan een derde partij?
+answer: De derde partij kan jouw bitcoins uitgeven.
 wrong_answers:
-  - Sparen op lange termijn.
-  - Sparen op middellange termijn.
-  - Grote hoeveelheden opslaan.
+  - De derde partij kan alleen je transactiegeschiedenis bekijken.
+  - De derde partij kan je privésleutel wijzigen.
+  - De derde partij heeft toegang tot uw persoonlijke gegevens.
 explanation: |
-  Een mobiele Wallet wordt aanbevolen voor dagelijkse uitgaven omdat
-  het gemakkelijk is om er transacties mee uit te voeren. Het
-  niet aanbevolen voor het opslaan van grote bedragen of voor
-  langetermijnsparen, omdat het potentieel kwetsbaar is voor
-  online bedreigingen.
+  Als uw privésleutel bekend wordt gemaakt aan een derde partij, zijn de bijbehorende
+  geassocieerde fondsen niet langer veilig, omdat de privé
+  sleutel hen toegang geeft tot uw fondsen.
 reviewed: true

@@ -7,7 +7,7 @@ description: Master Nmap 用於網路映射與弱點掃描
 
 
 
-*本教學依據 Mickael Dorigny 於 [IT-Connect](https://www.it-connect.fr/) 發表的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。已對原文進行修改。
+*本教學依據 Mickael Dorigny 於 [IT-Connect](https://www.it-connect.fr/) 發表的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。已對原文進行修改。*
 
 
 
@@ -61,9 +61,9 @@ Nmap 的優勢有很多：
 
 
 
-- 功能強大且靈活**：Nmap 可以掃描大型網路，並使用先進的偵測技術。它支援 UDP、TCP、ICMP、IPv4 和 IPv6，並能執行版本偵測、弱點掃描或特定通訊協定的互動。它的架構是模組化的，這特別要歸功於 NSE (Nmap Scripting Engine) 腳本，我們稍後會在本教程中介紹。
-- 易於使用**：官方文件豐富且品質一流。大量的社群資源也可協助您開始使用。
-- 受歡迎且歷史悠久**：Nmap 自 1998 年以來一直是其領域的參考。在此更新時，目前的版本是 7.95。雖然有其他工具可用於特定任務，但 Nmap 仍是網路映射與分析的必備工具。
+- 功能強大且靈活：Nmap 可以掃描大型網路，並使用先進的偵測技術。它支援 UDP、TCP、ICMP、IPv4 和 IPv6，並能執行版本偵測、弱點掃描或特定通訊協定的互動。它的架構是模組化的，這特別要歸功於 NSE (Nmap Scripting Engine) 腳本，我們稍後會在本教程中介紹。
+- 易於使用：官方文件豐富且品質一流。大量的社群資源也可協助您開始使用。
+- 受歡迎且歷史悠久：Nmap 自 1998 年以來一直是其領域的參考。在此更新時，目前的版本是 7.95。雖然有其他工具可用於特定任務，但 Nmap 仍是網路映射與分析的必備工具。
 
 
 
@@ -87,11 +87,11 @@ Nmap 是少數在大眾中有一定知名度的安全工具之一。它出現在
 
 
 
-**意見回饋
+**意見回饋**
 
 
 
-身為系統管理員、網路安全稽核員及 pentester，我幾乎每天**都會使用 Nmap，而且我**經常將它推薦**給希望加強網路指揮能力及提升診斷能力的系統管理員。
+身為系統管理員、網路安全稽核員及 pentester，我幾乎每天**都會使用 Nmap，而且我經常將它推薦給希望加強網路指揮能力及提升診斷能力的系統管理員**。
 
 
 
@@ -133,7 +133,7 @@ Nmap 的使用就像傳統的二進位工具，例如 `ls` 或 `ip`。某些進�
 
 - 它可以在短時間內傳送**千甚至百萬個封包**，使某些網路基礎設施達到飽和。
 - 它可以 generate ** 畸形或非標準**封包，很可能會擾亂某些設備（特別是工業系統）。
-- 它可以產生類似攻擊的**行為，觸發安全系統 (防火牆、IDS/IPS 等) 的警示。
+- 它可以產生類似攻擊的**行為，觸發安全系統 (防火牆、IDS/IPS 等) 的警示**。
 
 
 
@@ -209,7 +209,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-*注意： `-sP`選項已經過時，由`-sn`取代。
+**注意：** `-sP`選項已經過時，由`-sn`取代。
 
 
 
@@ -253,7 +253,7 @@ Nmap 的優點在於它是以事實為依歸：它的結果讓確立具體的發
 
 
 
-Nmap 對於安全評估**、滲透測試 (pentests) 有許多有用的功能，不幸的是，對於攻擊者也是如此。
+Nmap 對於安全評估**、滲透測試 (pentests)** 有許多有用的功能，不幸的是，對於攻擊者也是如此。
 
 
 
@@ -463,7 +463,7 @@ Nmap 現在已經安裝在 Windows 上。您可以按照本教程，以與 Linux
 
 
 
-但順帶一提，當使用 Nmap 時，**是否需要在系統上擁有較高的本機權限？ **視情況而定**。
+但順帶一提，當使用 Nmap 時，**是否需要在系統上擁有較高的本機權限？** **視情況而定**。
 
 
 
@@ -485,25 +485,25 @@ Nmap 現在已經安裝在 Windows 上。您可以按照本教程，以與 Linux
 
 
 
-- 建構「原始」網路封包**：Nmap 可以使用廣泛的掃描方法，包括進階的封包處理和建構。舉例來說，當我們要執行 TCP SYN 掃描時，就會出現這種情況，因為 TCP SYN 掃描並不尊重 TCP 交換的經典 _Three-way handshake_。為了做到這一點，Nmap 需要使用作業系統原生以外的函數，因為作業系統只知道如何尊重網路通訊的良好作法 (它呼叫上面看到的 "Npcap「 和 」libcap" 函式庫)。正因為 Nmap 並非以 「標準 」的方式做事，所以它才能推斷出某些關於作業系統、服務和某些弱點的資訊。
+- 建構「原始」網路封包：**Nmap** 可以使用廣泛的掃描方法，包括進階的封包處理和建構。舉例來說，當我們要執行 **TCP SYN** 掃描時，就會出現這種情況，因為 **TCP SYN** 掃描並不尊重 **TCP** 交換的經典 *Three-way handshake*。為了做到這一點，**Nmap** 需要使用作業系統原生以外的函數，因為作業系統只知道如何尊重網路通訊的良好作法 (它呼叫上面看到的 **Npcap** 和 **libcap** 函式庫)。正因為 **Nmap** 並非以「標準」的方式做事，所以它才能推斷出某些關於作業系統、服務和某些弱點的資訊。
 
 
 
 
 
-- 監聽網路流量**：Nmap 的某些選項要求它監聽網路，以便擷取某些資訊。這個動作在作業系統上被認為是敏感的，因為它也允許您監聽系統上其他應用程式的通訊。就像 Wireshark 一樣，Nmap 需要特定的權限才能執行此動作，直接進入權限會話會比較容易取得這些權限。
+- 監聽網路流量：Nmap 的某些選項要求它監聽網路，以便擷取某些資訊。這個動作在作業系統上被認為是敏感的，因為它也允許您監聽系統上其他應用程式的通訊。就像 Wireshark 一樣，Nmap 需要特定的權限才能執行此動作，直接進入權限會話會比較容易取得這些權限。
 
 
 
 
 
-- 在有權限的連接埠上監聽**：在作業系統上，從 0 到 1024 的連接埠（TCP 以及 UDP）被稱為有權限的連接埠，也就是說，它們在某種程度上被保留給非常特殊的用途，因此受到保護。儘管這個理由在今天已經有點過時了，但仍然需要有一定的權限來監聽這些連接埠，Nmap可能必須這樣做，這取決於它將如何被使用。
+- 在有權限的連接埠上監聽：在作業系統上，從 0 到 1024 的連接埠（TCP 以及 UDP）被稱為有權限的連接埠，也就是說，它們在某種程度上被保留給非常特殊的用途，因此受到保護。儘管這個理由在今天已經有點過時了，但仍然需要有一定的權限來監聽這些連接埠，Nmap可能必須這樣做，這取決於它將如何被使用。
 
 
 
 
 
-- 發送 UDP 封包：** 同樣地，在 UDP 連接埠上監聽網路應用程式（一個無狀態協定）需要操作系統上的特權。因此，如果您要執行 UDP 掃描，Nmap 將必須聆聽回應，以分析掃描的回覆，就需要有權限的會話。
+- 發送 UDP 封包：**同樣地，在 UDP 連接埠上監聽網路應用程式（一個無狀態協定）需要操作系統上的特權。因此，如果您要執行 UDP 掃描，Nmap 將必須聆聽回應，以分析掃描的回覆，就需要有權限的會話。**
 
 
 
@@ -562,18 +562,18 @@ Nmap 現在已經安裝在 Windows 上。您可以按照本教程，以與 Linux
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")** ：黑客訓練平台 Hack The Box 不斷提供易受攻擊的系統，讓您隨心所欲地進行攻擊。有幾百個系統可供使用，但更新的 20 台機器全年免費提供，可透過 OpenVPN VPN 存取。
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")：黑客訓練平台 Hack The Box 不斷提供易受攻擊的系統，讓您隨心所欲地進行攻擊。有幾百個系統可供使用，但更新的 20 台機器全年免費提供，可透過 OpenVPN VPN 存取。
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** ：此平台提供許多故意易受攻擊的系統供下載，可透過 VirtualBox (也是免費的解決方案) 或其他方式使用。一旦下載，就不需要 VPN - 一切都在本地。
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")：此平台提供許多故意易受攻擊的系統供下載，可透過 VirtualBox (也是免費的解決方案) 或其他方式使用。一旦下載，就不需要 VPN - 一切都在本地。
 
 
 
 
-此外，您也可以在您喜愛的作業系統上***建立虛擬機器，並在上面安裝各種服務作為測試目標。這樣做的好處是，您也可以在掃描時看到伺服器端發生了什麼事，尤其是使用 Wireshark，而且當我們進行更進階的測試時，您也可以在本機防火牆上插上一隻手。
+此外，您也可以在您喜愛的作業系統上**建立虛擬機器，並在上面安裝各種服務作為測試目標。這樣做的好處是，您也可以在掃描時看到伺服器端發生了什麼事，尤其是使用 Wireshark，而且當我們進行更進階的測試時，您也可以在本機防火牆上插上一隻手。**
 
 
 
@@ -815,7 +815,7 @@ Nmap 掃描目標的 dNS 解析度
 
 
 
-在上面的截圖中，我們看到目標主機**傳送的 TCP SYN/ACK 封包。這個連接埠是活動的，並暴露了一個服務。Nmap 確認收到回應，然後終止連線 (TCP RST/ACK)。 **這就是它如何知道 TCP/22 連接埠是活動的**。
+在上面的截圖中，我們看到目標主機**傳送的 TCP SYN/ACK 封包。這個連接埠是活動的，並暴露了一個服務。Nmap 確認收到回應，然後終止連線 (TCP RST/ACK)。** **這就是它如何知道 TCP/22 連接埠是活動的**。
 
 
 
@@ -913,7 +913,7 @@ UDP 的第二個難點是**服務並不總是回應進入的封包**，很簡單
 
 
 
-讓我們仔細看看這個 Wireshark 擷取，它顯示了 UDP 中***的三種可能情況：
+讓我們仔細看看這個 Wireshark 擷取，它顯示了 UDP 中的三種可能情況：
 
 
 
@@ -931,7 +931,7 @@ UDP 的第二個難點是**服務並不總是回應進入的封包**，很簡單
 
 
 
-- 第一個 Exchange 由封包 No.3、4 和 8、9。Nmap 在傳統 SNMP 連接埠上傳送 UDP 封包，因此**會事先構成符合通訊協定的封包。然後從伺服器取得回應 (封包編號 8 和 9)。結果：Nmap 收到回應，服務「開放」。
+- 第一個 Exchange 由封包 No.3、4 和 8、9。Nmap 在傳統 SNMP 連接埠上傳送 UDP 封包，因此**會事先構成符合通訊協定的封包**。然後從伺服器取得回應 (封包編號 8 和 9)。結果：Nmap 收到回應，服務「開放」。
 
 
 
@@ -976,7 +976,7 @@ UDP 的第二個難點是**服務並不總是回應進入的封包**，很簡單
 
 
 
-** 如何選擇這些連接埠？
+**如何選擇這些連接埠？**
 
 
 
@@ -1056,11 +1056,11 @@ nmap -sU 192.168.1.19 -p 161,23,69
 
 
 
-*Nmap TCP 掃描指定連接埠的結果。
+**Nmap TCP 掃描指定連接埠的結果。**
 
 
 
-**掃描一系列連接埠
+**掃描一系列連接埠**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**TCP 和 UDP 連接埠掃描
+**TCP 和 UDP 連接埠掃描**
 
 
 
@@ -1134,7 +1134,7 @@ sudo nmap 192.168.1.19 -sT -sU -p U:161,T:22
 
 
 
-**掃描所有連接埠
+**掃描所有連接埠**
 
 
 
@@ -1174,7 +1174,7 @@ nmap 192.168.1.19 -p-
 
 
 
-*注意：「-p-」選項是掃描所有 TCP 連接埠的建議方法。對於 UDP 掃描，基於效能考量，建議限制埠數，因為完整掃描所有 UDP 埠可能需要很長的時間。
+**注意：「-p-」選項是掃描所有 TCP 連接埠的建議方法。對於 UDP 掃描，基於效能考量，建議限制埠數，因為完整掃描所有 UDP 埠可能需要很長的時間。**
 
 
 
@@ -1347,15 +1347,15 @@ Nmap done: 512 IP addresses (5 hosts up) scanned in 21.43 seconds
 
 
 
-**為何要傳送 TCP 封包到連接埠作為網路發現的一部分？
+**為何要傳送 TCP 封包到連接埠作為網路發現的一部分？**
 
 
 
-傳送 SYN 封包到指定的連接埠，讓 Nmap 可以 ** 判斷該連接埠上是否有服務在聆聽。如果主機以 SYN/ACK 封包回應 SYN 封包，這表示它是活動的，而且有服務在該連接埠上進行監聽。因此，Nmap 會在此服務上嘗試運氣，**即使沒有得到 ping 的回應**。
+傳送 SYN 封包到指定的連接埠，讓 Nmap 可以**判斷該連接埠上是否有服務在聆聽**。如果主機以 SYN/ACK 封包回應 SYN 封包，這表示它是活動的，而且有服務在該連接埠上進行監聽。因此，Nmap 會在此服務上嘗試運氣，**即使沒有得到 ping 的回應**。
 
 
 
-傳送一個 ACK 封包到指定的連接埠，讓 Nmap 可以**判斷該主機上是否有防火牆。如果主機以 RST (Reset) 封包回應 ACK 封包，這表示該主機上可能有防火牆，並封鎖未請求的流量。因此，即使主機沒有回應其他請求，也會暴露它在網路上的存在。
+傳送一個 ACK 封包到指定的連接埠，讓 Nmap 可以**判斷該主機上是否有防火牆**。如果主機以 RST (Reset) 封包回應 ACK 封包，這表示該主機上可能有防火牆，並封鎖未請求的流量。因此，即使主機沒有回應其他請求，也會暴露它在網路上的存在。
 
 
 
@@ -1371,7 +1371,7 @@ Nmap done: 512 IP addresses (5 hosts up) scanned in 21.43 seconds
 
 
 
-您可能已經注意到了，在預設情況下，Nmap 會在發現一個活動的主機後**執行一個連接埠掃描，這會增加大量的封包和等待我們掃描的回應。如果您的網路上有 5 台主機，Nmap 會嘗試檢查大約 5,000 個連接埠的狀態，這會花費更長的時間。
+您可能已經注意到了，在預設情況下，Nmap 會在發現一個活動的主機後**執行一個連接埠掃描**，這會增加大量的封包和等待我們掃描的回應。如果您的網路上有 5 台主機，Nmap 會嘗試檢查大約 5,000 個連接埠的狀態，這會花費更長的時間。
 
 
 
@@ -2165,31 +2165,31 @@ nmap -sV -sC -p- 192.168.0.0/24 192.168.1.13 192.168.2.10-20 --exclude 192.168.0
 
 
 
-- 有限的覆蓋範圍**：雖然Nmap的NSE腳本功能強大，但與其他專門的漏洞發現工具相比，其測試覆蓋範圍可能有限。某些弱點可能無法被可用的 NSE 腳本涵蓋，例如 Active Directory 弱點、敏感資料曝光或更進階的 Web 應用程式弱點案例。
+- 有限的覆蓋範圍：雖然Nmap的NSE腳本功能強大，但與其他專門的漏洞發現工具相比，其測試覆蓋範圍可能有限。某些弱點可能無法被可用的 NSE 腳本涵蓋，例如 Active Directory 弱點、敏感資料曝光或更進階的 Web 應用程式弱點案例。
 
 
 
 
 
-- 漏洞複雜性**：某些類型的漏洞可能會因為其複雜性而很難使用 NSE 腳本偵測到。例如，需要與遠端服務進行複雜互動的漏洞可能無法被 Nmap 有效偵測（例如檔案共用中的過多權限或 Web 應用程式中的權限控制漏洞）。
+- 漏洞複雜性：某些類型的漏洞可能會因為其複雜性而很難使用 NSE 腳本偵測到。例如，需要與遠端服務進行複雜互動的漏洞可能無法被 Nmap 有效偵測（例如檔案共用中的過多權限或 Web 應用程式中的權限控制漏洞）。
 
 
 
 
 
-- 被動偵測**：Nmap 主要專注於主動掃描來檢測漏洞，這意味著它可能無法在沒有與目標主機建立主動連接的情況下有效地檢測潛在漏洞。因此，在主動掃描期間沒有顯現的漏洞可能會被遺漏（例如 web 應用程式中的程式碼注入）。
+- **被動偵測**：Nmap 主要專注於主動掃描來檢測漏洞，這意味著它可能無法在沒有與目標主機建立主動連接的情況下有效地檢測潛在漏洞。因此，在主動掃描期間沒有顯現的漏洞可能會被遺漏（例如 web 應用程式中的程式碼注入）。
 
 
 
 
 
-- 依賴更新**：Nmap的NSE腳本[資料庫](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/)是不斷演進的，但是在發現新的弱點和增加相應的腳本到Nmap之間可能會有延遲。因此，Nmap 並不總是最新的漏洞。
+- 依賴更新：Nmap的NSE腳本[資料庫](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/)是不斷演進的，但是在發現新的弱點和增加相應的腳本到Nmap之間可能會有延遲。因此，Nmap 並不總是最新的漏洞。
 
 
 
 
 
-- 假陽性和假陰性**：和任何安全工具一樣，Nmap 的 NSE 腳本可能產生假陽性（假漏洞警報）或假陰性（未檢測到真漏洞）。這是分析 Nmap 結果時要注意的。
+- 假陽性和假陰性：和任何安全工具一樣，Nmap 的 NSE 腳本可能產生假陽性（假漏洞警報）或假陰性（未檢測到真漏洞）。這是分析 Nmap 結果時要注意的。
 
 
 
@@ -2238,23 +2238,24 @@ Nmap 的 NSE 腳本允許您以一種高度靈活的方式來擴展它的功能�
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| 類別 | 描述 |
+|----------------|-------------|
+| **auth** | 包含與服務身份驗證相關的腳本，包括匿名訪問或用戶枚舉。示例：`oracle-enum-users`、`ftp-anon`。 |
+| **broadcast** | 包含與網絡廣播操作相關的腳本，特別是為了利用和發現某些基於廣播的服務、主機或協議（IPv6、網路喚醒、IGMP 等）。示例：`broadcast-dhcp6-discover`、`broadcast-ospf2-discover`。 |
+| **brute** | 包含與服務身份驗證暴力破解操作相關的腳本（暴力破解 [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/)、MSSQL 等）。示例：`ssh-brute`、`vnc-brute`。 |
+| **default** | 包含在默認情況下使用的腳本（使用 `-sC`）。使用多個標準來驗證腳本是否進入此類別，包括執行速度、輸出結構、測試可靠性、「侵入性」或「風險性」等。 |
+| **discovery** | 包含與網絡和服務高級發現相關的腳本。例如，其中包括 SMB 共享內容的枚舉、VNC 服務的版本、SNMP 查詢等。示例：`mysql-info`、`http-security-headers`。 |
+| **dos** | 包含可能導致拒絕服務（denial of service）的腳本。這些腳本可能是為了利用拒絕服務漏洞而創建的，或者是副作用為導致拒絕服務的腳本。因此請謹慎使用（它們被排除在 `default` 類別之外）。示例：`http-slowloris`、`ipv6-ra-flood`。 |
+| **exploit** | 包含專門為直接利用漏洞而創建的腳本。示例：`http-shellsock`、`smb-vuln-ms08-067`。 |
+| **external** | 包含需要使用第三方資源（如在線信息庫）的腳本。這尤其表示嘗試向外部連接（注意保密性）。示例：`whois-ip`、`dns-blacklist`、`ip-geolocation-geoplugin`。 |
+| **fuzzer** | 包含設計用於向服務發送非預期幀、數據包或參數的腳本。這尤其允許通過引起錯誤或功能故障來獲取漏洞線索或技術信息。示例：`dns-fuzz`、`http-form-fuzzer`。 |
+| **intrusive** | 包含在可用性或檢測方面被分類為「有風險」的腳本。它們可能導致系統崩潰或被安全解決方案檢測為惡意腳本。這是與 `safe` 相反的類別。示例：`smtp-brute`、`smb-vuln-ms08-067`、`smb-psexec`。 |
+| **malware** | 包含設計用於檢測惡意軟件特徵元素的腳本，例如已知後門程序常用的監聽端口。示例：`ftp-proftpd-backdoor`、`smtp-strangeport`。 |
+| **safe** | 包含在檢測或穩定性方面被視為安全的腳本。這是與 `intrusive` 相反的類別，其中絕大多數是用於版本識別或配置元素調查的高級腳本。示例：`html-title`、`smb2-security-mode`、`ms-sql-info`。 |
+| **version** | 包含允許高級版本檢測的腳本。當版本檢測需要稍微複雜一些的操作時，它們可以作為之前研究的 Probes 和 Matchs 的補充。示例：`http-php-version`、`vmware-version`。 |
+| **vuln** | 包含設計用於檢測已知漏洞 (CVE) 存在但不進行利用的腳本（與 `exploit` 類別相反）。它們通常僅限於報告服務的「易受攻擊」狀態與否。示例：`smb-vuln-ms17-010` (eternal blue)、`http-phpmyadmin-dir-traversal`。 |
 
 技術上來說，腳本所屬的類別會直接在其程式碼中顯示。
 

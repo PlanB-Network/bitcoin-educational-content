@@ -1,10 +1,9 @@
-question: Qual é o impacto de 20% de inflação no poder de compra ao longo de 3 anos?
-answer: Você perde 50% do seu poder de compra.
+question: Qual das seguintes não é uma característica do Bitcoin?
+answer: É facilmente censurado.
 wrong_answers:
-  - Você perde 100% do seu poder de compra.
-  - Você perde 60% do seu poder de compra.
-  - Você perde 30% do seu poder de compra.
+  - É instantaneamente transportável.
+  - Tem custos negligenciáveis de verificação.
+  - Tem uma política monetária fixa.
 explanation: |
-  Com 20% de inflação, você perde quase metade do seu poder
-  de compra em 3 anos.
+  O Bitcoin possui todas as características necessárias para ser uma moeda eficiente e saudável: divisível, instantaneamente transportável, incensurável, custo negligenciável para verificação e com uma política monetária já estabelecida para os séculos vindouros com 21 milhões de unidades.
 reviewed: true

@@ -1,9 +1,10 @@
-question: Ni igiki gikenewe kugira ngo umuntu akoreshe konti y’umuyobozi kuri Windows?
-answer: Rema konti zibiri zitandukanye - konti y'umuyobozi n'iyikoreshwa ku musi ku musi.
+question: Ni ubuhe buryo bwiza bwo gukoresha konti y’umuyobozi kuri Windows?
+answer: Rema konti zibiri zitandukanye, imwe y’ibikorwa bijanye n'umuyobozi n’iyindi yibikorwa vya minsi yose.
 wrong_answers:
-  - Koresha konti y’umuyobozi ku musi ku musi nimba PC idahuye na internet.
-  - Rema konti zibiri zitandukanye z'abarongozi - imwe yo gukoresha ku musi ku musi n'iyindi yo gukoresha ubuhinga bwo gukoresha.
-  - Ntushireho konti y'umuyobozi.
+  - Koresha konti y’umuyobozi ku musi ku musi nimba PC itari kuri interineti.
+  - Rema konti zibiri zitandukanye z'umuyobozi - imwe yo gukoresha ku musi ku musi n'iyindi y'umuyobozi wa sisiteme.
+  - Ntu reme konti y'umuyobozi.
 explanation: |
-  Gukoresha konti y’umuyobozi kugira ngo ukoreshe ku musi ku musi kuri Windows birashobora gutuma iyo sisitemu igira ingorane nyinshi z’umutekano. Hakwiye gushirwaho amakonti abiri atandukanye: imwe y’ibikorwa vy’ubutegetsi, iyindi y’ugukoresha ku musi ku musi.
+  Gukoresha konti y’umuyobozi ku musi ku musi kuri Windows birashobora gushira sisiteme mukaga muvy'umutekano.
+  Hakwiye gushirwaho amakonti abiri atandukanye: imwe y’ibikorwa bijanye n'umuyobozi n’iyindi yibikorwa vya minsi yose.
 reviewed: true

@@ -1,14 +1,14 @@
 ---
 name: LN VPN
 
-description: Seadista oma VPN
+description: Seadista LN VPN Lightninguga anonüümseks ja kohandatud VPN-iks
 ---
 
 ![pilt](assets/cover.webp)
 
 LN VPN on kohandatav VPN-teenus, mis aktsepteerib ainult välgu makseid. Täna näitan teile, kuidas seda kasutada ja jätta veebis surfates vähem jälgi.
 
-Kvaliteetseid VPN-teenuse pakkujaid on palju ja oleme selles artiklis teinud põhjaliku ülevaate (hyperlink). Siiski paistab LN VPN silma ja me ei saanud kasutamata jätta võimalust seda teile tutvustada.
+Kvaliteetseid VPN-teenuse pakkujaid on palju, kuid LN VPN paistab silma ja me ei saanud kasutamata jätta võimalust seda teile tutvustada.
 
 Enamik VPN-teenuse pakkujaid, nagu ProtonVPN ja Mullvad, pakuvad võimalust maksta bitcoinidega, kuid nõuavad konto loomist ja plaani ostmist pikemaks või lühemaks ajaks, mis ei pruugi sobida kõigi eelarvega.
 

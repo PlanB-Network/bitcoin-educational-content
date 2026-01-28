@@ -1,0 +1,9 @@
+question: Satoshi 나카모토가 Bitcoin 백서에서 언급한 체인 분석 휴리스틱은 무엇인가요? (한 가지 답변만 가능)
+answer: CIOH 및 Address 재사용.
+wrong_answers:
+  - 서명 및 시간 상관관계에 따른 클러스터링.
+  - 라운드 번호 결제와 대규모 출력.
+  - 볼륨 분석 및 스크립트 유사성.
+explanation: |
+  Bitcoin 백서의 파트 10에서 Satoshi 나카모토는 CIOH(공통 입력 Ownership 휴리스틱)와 동일한 키 쌍의 재사용에 대해 사용자에게 경고합니다.
+reviewed: true

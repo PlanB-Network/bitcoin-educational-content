@@ -1,0 +1,9 @@
+question: Кой инструмент за macOS позволява пълно криптиране на системния диск?
+answer: FileVault
+wrong_answers:
+  - Помощна програма за дискове
+  - ключова папка на iCloud
+  - BitLocker
+explanation: |
+  FileVault е вграденото в macOS решение за криптиране на дискове.
+reviewed: false

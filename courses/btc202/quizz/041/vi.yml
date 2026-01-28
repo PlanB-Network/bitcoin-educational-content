@@ -1,0 +1,9 @@
+question: Những ứng dụng tự lưu trữ nào có thể được cài đặt thông qua Umbrel?
+answer: Nextcloud
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel cung cấp App Store với các dịch vụ tự lưu trữ, chẳng hạn như Nextcloud, để bạn tự lưu trữ và đồng bộ hóa các tệp.
+reviewed: true

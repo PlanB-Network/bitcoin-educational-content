@@ -10,7 +10,7 @@ ___
 
 
 
-*本教學是根據 Florian BURNEL 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有變更。
+*本教學是根據 Florian BURNEL 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有變更。*
 
 
 
@@ -30,7 +30,7 @@ ___
 
 
 
-OPNsense 以其更現代化的使用者 Interface 及更頻繁的更新頻率**而脫穎而出。事實上，OPNsense的更新時間表包括每年兩個主要版本，每兩週左右更新一次（導致次要版本）。如果我們看看這些解決方案的社群版本，與 pfSense 相較之下，這個後續行動是非常有趣的。
+OPNsense 以其更現代化的使用者 Interface 及更頻繁的更新頻率**而脫穎而出**。事實上，OPNsense的更新時間表包括每年兩個主要版本，每兩週左右更新一次（導致次要版本）。如果我們看看這些解決方案的社群版本，與 pfSense 相較之下，這個後續行動是非常有趣的。
 
 
 
@@ -56,55 +56,55 @@ OPNsense 是一個設計用來當作防火牆和路由器的作業系統，雖�
 
 
 
-- 防火牆與 NAT**：OPNsense 提供進階的狀態過濾防火牆功能，以及網路 Address 轉換 (NAT) 功能。
+- 防火牆與 **NAT**：OPNsense 提供進階的狀態過濾防火牆功能，以及網路 Address 轉換 (NAT) 功能。
 
 
 
 
 
-- DNS/DHCP**：OPNsense 可設定為管理網路上的 DNS 和 DHCP 服務。它可以當作 DHCP 伺服器，也可以當作本機網路上機器的 DNS 解析器。預設也整合了 Dnsmasq。
+- **DNS/DHCP**：OPNsense 可設定為管理網路上的 DNS 和 DHCP 服務。它可以當作 DHCP 伺服器，也可以當作本機網路上機器的 DNS 解析器。預設也整合了 Dnsmasq。
 
 
 
 
 
-- VPN**：OPNsense 支援多種 VPN 通訊協定，包括 IPsec、OpenVPN 及 WireGuard，可為遠端存取行動工作站或網站互連提供安全連線。
+- **VPN**：OPNsense 支援多種 VPN 通訊協定，包括 IPsec、OpenVPN 及 WireGuard，可為遠端存取行動工作站或網站互連提供安全連線。
 
 
 
 
 
-- 網頁代理**：OPNsense 內含網路代理，可控制並過濾網際網路存取。它也可用於過濾內容和管理網路存取。
+- 網頁代理：OPNsense 內含網路代理，可控制並過濾網際網路存取。它也可用於過濾內容和管理網路存取。
 
 
 
 
 
-- 頻寬管理 (QoS)**：OPNsense 提供服務品質（QoS）管理功能，可為網路流量排定優先順序，並更好地管理網路頻寬。
+- 頻寬管理 (QoS)：OPNsense 提供服務品質（QoS）管理功能，可為網路流量排定優先順序，並更好地管理網路頻寬。
 
 
 
 
 
-- Captive portal**：此功能可讓您透過認證頁面（本機基地台、憑證等）管理使用者對網路的存取。這是公共 Wi-Fi 網路常部署的功能。
+- **Captive portal**：此功能可讓您透過認證頁面（本機基地台、憑證等）管理使用者對網路的存取。這是公共 Wi-Fi 網路常部署的功能。
 
 
 
 
 
-- IDS/IPS**：OPNsense 整合 Suricata 以提供入侵偵測與防禦 (IDS/IPS) 功能，保護網路免受攻擊。
+- **IDS/IPS**：OPNsense 整合 Suricata 以提供入侵偵測與防禦 (IDS/IPS) 功能，保護網路免受攻擊。
 
 
 
 
 
-- 高可用性（CARP）**：OPNsense 支援 CARP (*Common Address Redundancy Protocol*)，可在多個 OPNsense 防火牆之間提供高可用性，即使發生硬體故障，也能確保服務維持運作。
+- 高可用性（CARP）：OPNsense 支援 CARP (*Common Address Redundancy Protocol*)，可在多個 OPNsense 防火牆之間提供高可用性，即使發生硬體故障，也能確保服務維持運作。
 
 
 
 
 
-- 報告與監控**：OPNsense 提供即時報告與監控工具，藉由建立日誌來追蹤網路效能 (使用 NetFlow) 並偵測潛在問題。這包括圖形。Monit 工具已整合至 OPNsense，並可監控防火牆本身。
+- 報告與監控：OPNsense 提供即時報告與監控工具，藉由建立日誌來追蹤網路效能 (使用 NetFlow) 並偵測潛在問題。這包括圖形。Monit 工具已整合至 OPNsense，並可監控防火牆本身。
 
 
 
@@ -147,11 +147,12 @@ OPNsense 是一個設計用來當作防火牆和路由器的作業系統，雖�
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| 功能 | 最低 | 建議 |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| 處理器 | 1 GHz - 2 核 | 1.5 GHz - 多核 |
+| RAM | 2 GB | 8 GB |
+| 系統存儲空間 | 硬盤、SSD 或 SD 卡 (4 GB) | SSD 上的 120 GB |
 
 最後，**您的資源需求首先取決於要管理的連線數量**，因此也取決於**您的頻寬需求**。此外，您需要**記住將會啟動和使用的服務**（代理伺服器、入侵偵測等...），因為這些服務可能會消耗 CPU 和/或 RAM。
 
@@ -179,11 +180,11 @@ OPNsense 是一個設計用來當作防火牆和路由器的作業系統，雖�
 
 
 
-- 建立內部虛擬網路 (192.168.10.0/24 - LAN)** ，可透過 OPNsense 防火牆存取網際網路。對於生產用途，這可以是您的本機網路、有線網路和/或 Wi-Fi。
-- 啟動並設定 NAT**，讓內部虛擬網路中的虛擬機器可以存取網際網路
-- 啟動並設定 OPNsense** 上的 DHCP 伺服器，以便將 IP 設定分發給未來連接至內部虛擬網路的機器
-- 設定防火牆**，僅允許 HTTP (80) 和 HTTPS (443) 的 LAN 至 WAN 流量流出。
-- 設定防火牆**，允許虛擬區域網路使用 OPNsense 作為 DNS 解析器 (53)。
+- 建立內部虛擬網路 **(192.168.10.0/24 - LAN)**，可透過 OPNsense 防火牆存取網際網路。對於生產用途，這可以是您的本機網路、有線網路和/或 Wi-Fi。
+- 啟動並設定 **NAT**，讓內部虛擬網路中的虛擬機器可以存取網際網路
+- 啟動並設定 **OPNsense** 上的 DHCP 伺服器，以便將 IP 設定分發給未來連接至內部虛擬網路的機器
+- 設定防火牆，僅允許 HTTP (80) 和 HTTPS (443) 的 LAN 至 WAN 流量流出。
+- 設定防火牆，允許虛擬區域網路使用 OPNsense 作為 DNS 解析器 (53)。
 
 
 
@@ -207,7 +208,7 @@ OPNsense 是一個設計用來當作防火牆和路由器的作業系統，雖�
 
 
 
-下載之後，您會得到一個包含".img "**格式映像的存檔。您可以使用各種應用程式**建立可開機 USB 隨身碟**，其中包括**balenaEtcher**：使用超簡單。更重要的是，該應用程式會識別存檔中的映像，因此您無需事先解壓縮。
+下載之後，您會得到一個包含".img "**格式映像的存檔**。您可以使用各種應用程式**建立可開機 USB 隨身碟**，其中包括**balenaEtcher**：使用超簡單。更重要的是，該應用程式會識別存檔中的映像，因此您無需事先解壓縮。
 
 
 
@@ -257,7 +258,7 @@ OPNsense 映像會載入機器，因此可以在「**live**」模式下存取系
 
 
 
-螢幕上會出現新的精靈。第一步是選擇與您的配置相對應的鍵盤配置。若要使用 AZERTY 鍵盤，請從清單中選擇「**French (accent keys)**」選項，然後按兩下**。
+螢幕上會出現新的精靈。第一步是選擇與您的配置相對應的鍵盤配置。若要使用 AZERTY 鍵盤，請從清單中選擇「**French (accent keys)**」選項，然後按兩下。
 
 
 
@@ -382,7 +383,7 @@ pfctl -d
 
 
 
-可透過 HTTPS，使用 LAN** Interface（或 WAN）的 IP Address 存取 OPNsense 管理 Interface。瀏覽器會帶您進入登入頁面。使用您之前選擇的 "root "帳號和密碼登入。
+可透過 HTTPS，使用 LAN **Interface**（或 WAN）的 IP Address 存取 OPNsense 管理 Interface。瀏覽器會帶您進入登入頁面。使用您之前選擇的 "root" 帳號和密碼登入。
 
 
 
@@ -468,7 +469,7 @@ Services > ISC DHCPv4 > [LAN]
 
 
 
-*** 如您所見，DHCP 在區域網路的預設值已經啟用 ** 如果您對這項服務不感興趣，就應該停用它。儘管它已經啟用，而且我們想要使用它，但仍有必要檢閱其設定。
+**如您所見，DHCP 在區域網路的預設值已經啟用。** 如果您對這項服務不感興趣，就應該停用它。儘管它已經啟用，而且我們想要使用它，但仍有必要檢閱其設定。
 
 
 
@@ -566,7 +567,7 @@ https://192.168.1.10
 
 
 
-剩下的工作就是按一下「**套用變更**」，將新的防火牆規則切換到生產中。 **請注意，預設會封鎖所有未明確授權的流量。
+剩下的工作就是按一下「**套用變更**」，將新的防火牆規則切換到生產中。**請注意，預設會封鎖所有未明確授權的流量。**
 
 
 

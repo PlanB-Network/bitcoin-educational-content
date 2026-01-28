@@ -1,0 +1,9 @@
+question: Ai đã nói "Cái ác chẳng là gì cả"?
+answer: Socrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Descartes.
+explanation: |
+  "Cái ác chẳng là gì cả" là một ý tưởng được cho là của Socrates và được tiếp thu trong truyền thống triết học. Đối với Socrates, cái ác xuất phát từ sự thiếu hiểu biết; không ai tự nguyện làm điều ác nếu họ thực sự biết điều gì là tốt.
+reviewed: false

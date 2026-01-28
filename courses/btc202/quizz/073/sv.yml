@@ -1,0 +1,9 @@
+question: Vad är funktionen för parametern assumevalid i Bitcoin core?
+answer: Ignorera skriptverifiering före ett referensblock
+wrong_answers:
+  - Ignorera Proof-of-Work-verifiering före ett referensblock
+  - Ignorera header-verifiering före ett referensblock
+  - Tvinga fram Tor för peer discovery
+explanation: |
+  Assumevalid snabbar upp IBD genom att ignorera skriptverifiering före ett känt block, samtidigt som alla andra valideringar behålls.
+reviewed: true

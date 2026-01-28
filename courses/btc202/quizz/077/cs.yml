@@ -1,0 +1,9 @@
+question: Která databáze se používá v blocích/index/ k ukládání metadat bloků?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Berkeley DB
+explanation: |
+  Bitcoin core používá LevelDB v blocks/index/ k indexování bloků, čímž urychluje vyhledávání a obsluhu vrstevníků.
+reviewed: true

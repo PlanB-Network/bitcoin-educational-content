@@ -1,67 +1,67 @@
 ---
 name: Beitrag - Git-Tutorial (Fortgeschrittene)
-description: Leitfaden für fortgeschrittene Benutzer, der ein Tutorial zu Plan ₿ Network mit Git bietet
+description: Leitfaden für fortgeschrittene Benutzer, der ein Tutorial zu Plan ₿ Academy mit Git bietet
 ---
 ![cover](assets/cover.webp)
 
 Bevor Sie dieses Tutorial zum Hinzufügen eines neuen Tutorials lesen, müssen Sie einige vorbereitende Schritte durchgeführt haben. Falls Sie dies noch nicht getan haben, sehen Sie sich bitte zuerst dieses einführende Tutorial an und kommen Sie dann hierher zurück:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Sie haben bereits:
 
 
 - Wählen Sie ein Thema für Ihr Lernprogramm;
-- Kontaktieren Sie das Plan ₿ Network Team über [Telegram group] (https://t.me/PlanBNetwork_ContentBuilder) oder paolo@planb.network;
+- Kontaktieren Sie das Plan ₿ Academy Team über [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) oder paolo@planb.network;
 - Wählen Sie Ihre Beitragstools.
 
-In diesem Tutorial für erfahrene Git-Benutzer fassen wir kurz die wichtigsten Schritte und Richtlinien für das Anbieten eines neuen Plan ₿ Network Tutorials zusammen. Wenn Sie mit Git und GitHub nicht vertraut sind, empfehle ich Ihnen, stattdessen eines dieser beiden anderen, detaillierteren Tutorials zu besuchen, die Sie Schritt für Schritt führen:
+In diesem Tutorial für erfahrene Git-Benutzer fassen wir kurz die wichtigsten Schritte und Richtlinien für das Anbieten eines neuen Plan ₿ Academy Tutorials zusammen. Wenn Sie mit Git und GitHub nicht vertraut sind, empfehle ich Ihnen, stattdessen eines dieser beiden anderen, detaillierteren Tutorials zu besuchen, die Sie Schritt für Schritt führen:
 
 
-- Fortgeschrittene (GitHub Desktop)**:
+- **Fortgeschrittene (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Anfänger (Webschnittstelle)**:
+- **Anfänger (Webschnittstelle)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Empfohlene Werkzeuge
 
 Zur Bearbeitung von Markdown-Dateien:
 
 
-- Obsidian** (kostenlos, nicht quelloffen)
-- Mark Text** (kostenlos, Open-Source)
-- Zettlr** (kostenlos, Open-Source)
-- Typora** (Payware, ~€15, nicht Open-Source)
+- **Obsidian** (kostenlos, nicht quelloffen)
+- **Mark Text** (kostenlos, Open-Source)
+- **Zettlr** (kostenlos, Open-Source)
+- **Typora** (Payware, ~€15, nicht Open-Source)
 
 Für Git:
 
 
-- Git** (kostenlos, Open-Source)
-- GitHub Desktop** (kostenlos, Open-Source)
-- Sourcetree** (kostenlos, nicht Open-Source)
+- **Git** (kostenlos, Open-Source)
+- **GitHub Desktop** (kostenlos, Open-Source)
+- **Sourcetree** (kostenlos, nicht Open-Source)
 
 Zur Bearbeitung von YAML-Dateien:
 
 
-- Visual Studio Code** (kostenlos, Open-Source)
-- Sublime Text** (kostenlos mit Einschränkungen, nicht Open-Source)
+- **Visual Studio Code** (kostenlos, Open-Source)
+- **Sublime Text** (kostenlos mit Einschränkungen, nicht Open-Source)
 
 Erstellen von Diagrammen und visuellen Darstellungen:
 
 
-- Canva** (kostenlos mit kostenpflichtigen Optionen, nicht Open-Source)
-- Inkscape** (Kostenlos, Open-Source)
-- Penpot** (kostenlos, Open-Source)
+- **Canva** (kostenlos mit kostenpflichtigen Optionen, nicht Open-Source)
+- **Inkscape** (Kostenlos, Open-Source)
+- **Penpot** (kostenlos, Open-Source)
 
 ## Arbeitsabläufe
 
 ### 1 - Konfigurieren Sie Ihre lokale Umgebung
 
 
-- Sie müssen Ihren eigenen Fork des [Plan ₿ Network Repository auf GitHub] (https://github.com/PlanB-Network/bitcoin-educational-content) haben.
+- Sie müssen Ihren eigenen Fork des [Plan ₿ Academy Repository auf GitHub](https://github.com/PlanB-Network/bitcoin-educational-content) haben.
 - Synchronisieren Sie den Hauptzweig (`dev`) Ihrer Abspaltung mit dem Quell-Repository.
 - Aktualisieren Sie Ihren lokalen Klon.
 
@@ -99,7 +99,7 @@ git push -u origin tuto-green-wallet-loic
 
 ### 3 - Fügen Sie die Dokumente des Tutorials hinzu
 
-***Hinweis:*** Sie können die Schritte 3 und 4 mit [meinem Python-GUI-Skript] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) automatisieren. Führen Sie das Skript direkt aus seinem Ordner in Ihrem lokalen Klon aus und füllen Sie dann die erforderlichen Felder in der grafischen Benutzeroberfläche aus. Weitere Informationen zur Installation und Verwendung des Skripts finden Sie in der [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Hinweis:*** Sie können die Schritte 3 und 4 mit [meinem Python-GUI-Skript](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) automatisieren. Führen Sie das Skript direkt aus seinem Ordner in Ihrem lokalen Klon aus und füllen Sie dann die erforderlichen Felder in der grafischen Benutzeroberfläche aus. Weitere Informationen zur Installation und Verwendung des Skripts finden Sie in der [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 Wenn Sie es lieber manuell machen möchten, folgen Sie diesen Schritten:
 
@@ -166,11 +166,11 @@ Hier sind die erforderlichen Felder:
 
 - **id**: Ein UUID (_Universally Unique Identifier_), der das Tutorial eindeutig identifiziert. Sie können ihn mit [einem Online-Tool](https://www.uuidgenerator.net/version4) generieren. Die einzige Bedingung ist, dass diese UUID zufällig ist, um Konflikte mit anderen UUIDs auf der Plattform zu vermeiden;
 
-- **project_id**: Die UUID des Unternehmens oder der Organisation hinter dem in dem Tutorial vorgestellten Tool [aus der Projektliste](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Wenn Sie zum Beispiel ein Tutorial über die Software Green Wallet erstellen, können Sie das `project_id` in der folgenden Datei finden: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Diese Information wird zur YAML-Datei Ihres Tutorials hinzugefügt, da Plan ₿ Network eine Datenbank aller Unternehmen und Organisationen, die auf Bitcoin oder verwandten Projekten arbeiten, unterhält. Durch das Hinzufügen des `project_id` der mit Ihrem Tutorial verbundenen Entität erstellen Sie eine Verbindung zwischen den beiden Elementen;
+- **project_id**: Die UUID des Unternehmens oder der Organisation hinter dem in dem Tutorial vorgestellten Tool [aus der Projektliste](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Wenn Sie zum Beispiel ein Tutorial über die Software Green Wallet erstellen, können Sie das `project_id` in der folgenden Datei finden: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Diese Information wird zur YAML-Datei Ihres Tutorials hinzugefügt, da Plan ₿ Academy eine Datenbank aller Unternehmen und Organisationen, die auf Bitcoin oder verwandten Projekten arbeiten, unterhält. Durch das Hinzufügen des `project_id` der mit Ihrem Tutorial verbundenen Entität erstellen Sie eine Verbindung zwischen den beiden Elementen;
 
-- **tags**: 2 oder 3 relevante Schlüsselwörter im Zusammenhang mit dem Tutorial-Inhalt, ausschließlich ausgewählt [aus der Liste der Tags von Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 oder 3 relevante Schlüsselwörter im Zusammenhang mit dem Tutorial-Inhalt, ausschließlich ausgewählt [aus der Liste der Tags von Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Die Unterkategorie, die dem Inhalt des Tutorials entspricht, gemäß der Struktur der Plan ₿ Network-Website (zum Beispiel für Wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Die Unterkategorie, die dem Inhalt des Tutorials entspricht, gemäß der Struktur der Plan ₿ Academy-Website (zum Beispiel für Wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Der Schwierigkeitsgrad des Tutorials, aus folgenden Optionen ausgewählt:
     - `beginner`
@@ -191,7 +191,7 @@ Hier sind die erforderlichen Felder:
 
 Weitere Einzelheiten zu Ihrer Lehrer-ID finden Sie in der entsprechenden Anleitung:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## Standards für die Erstellung von Inhalten
 
 
-- Von der Plattform unterstützte Formatierung**:
+- **Von der Plattform unterstützte Formatierung**:
     - Klassisches Markdown: Listen, Links, Bilder, Zitate, Fett- und Kursivdruck usw.
     - LaTeX (nur Block, nicht Inline): abgegrenzt durch `$$`.
     - Inline-Code: Syntax mit einem einzigen Backtick.
@@ -292,17 +292,17 @@ print("Hello, Bitcoin!")
 ```
 
 
-- Illustrationen und Diagramme**:
+- **Illustrationen und Diagramme**:
     - Alle Bilder müssen im WebP-Format vorliegen. Verwenden Sie dieses kostenlose Tool, um sie bei Bedarf zu konvertieren: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Benennen Sie Bildmaterial mit 2 oder 3 Ziffern (z. B. "001.webp", "002.webp").
     - Verwenden Sie für Tutorials zu mobilen oder Hardware-Geldbörsen Modelle.
     - Verwenden Sie nur selbst erstelltes oder lizenzfreies Bildmaterial.
     - Stellen Sie sicher, dass sie relevant und von hoher Qualität sind.
-- Grafische Charta**:
+- **Grafische Charta**:
     - Schriftart: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Farben Plan ₿ Netzwerk:
         - Orange: "#FF5C00"
         - Schwarz: `#000000`
         - Weiß: "#FFFFFF
 
-Wenn Sie technische Schwierigkeiten haben, Ihr Tutorial einzureichen, zögern Sie bitte nicht, auf [unserer speziellen Telegram-Gruppe für Beiträge] (https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Herzlichen Dank!
+Wenn Sie technische Schwierigkeiten haben, Ihr Tutorial einzureichen, zögern Sie bitte nicht, auf [unserer speziellen Telegram-Gruppe für Beiträge](https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Herzlichen Dank!

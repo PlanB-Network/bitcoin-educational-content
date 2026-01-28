@@ -1,12 +1,11 @@
-question: Bir Wallet'de Mnemonic ifadesinin bulunmaması neyi gösterir?
-answer: Bu da Wallet'ün Bitcoin'nin uzun süreli depolanması için güvenli olmadığını göstermektedir.
+question: Bitcoin miras bağlamında noterin rolü nedir?
+answer: Vergi uyumluluğunu sağlarlar.
 wrong_answers:
-  - Wallet'ün tamamen güvenli olduğunu ve herhangi bir yedekleme gerektirmediğini gösterir.
-  - Bu, Wallet'in birçok farklı tahvili tutabileceği anlamına gelir.
-  - Bu, Wallet'nın cihazınız tarafından otomatik olarak yedeklendiğini gösterir.
+  - Siz öldükten sonra bitcoinlerinizi yönetirler.
+  - Miras planınızı değiştirirler.
+  - Bitcoinlerinizi bir kasada güvence altına alırlar.
 explanation: |
-  12 veya 24 kelimelik bir listenin olmaması, yani
-  Mnemonic ifadesi, bir Wallet'de sizi şu konuda uyarmalıdır
-  Wallet standart yedeklemeyi takip etmediği için güvenli değildir
-  prosedürler.
-reviewed: true
+  Bitcoin kalıtımı bağlamında, aşağıdakilerin yapılması önemlidir
+  emin olmak için bitcoinlerin mirasını bir noter ile görüşün
+  vergi uyumu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 애플리케이션 Layer(TCP/IP)에서 교환되는 데이터 단위의 이름은 무엇인가요?
+answer: 메시지
+wrong_answers:
+  - 프레임
+  - 세그먼트
+  - 데이터그램
+explanation: |
+  TCP/IP 모델에서는 애플리케이션 Layer에서 교환되는 데이터를 메시지(또는 컨텍스트에 따라 스트림)라고 합니다.
+reviewed: false

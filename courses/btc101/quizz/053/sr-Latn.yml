@@ -1,9 +1,9 @@
-question: Postoji istorijski slučaj dnevne stope inflacije ekvivalentne 100%; gde i kada se to dogodilo?
-answer: U Zimbabveu, 2007.
+question: Koji je proces koji verifikuje transakcije na Bitkoin mreži?
+answer: Rudarenje
 wrong_answers:
-  - U Mađarskoj, 1945.
-  - U Kini, 1940.
-  - Ovo je zapravo nerealan slučaj koji se ne može dogoditi.
+  - Kopanje
+  - Žetva
+  - Poljoprivreda
 explanation: |
-  Stopa inflacije od 100% dnevno je realističan scenario koji se desio u Zimbabveu 2007. godine, gde se vrednost novca otprilike udvostručavala svakih 24 sata.
+  Proces koji verifikuje transakcije na Bitkoin mreži naziva se Rudarenje. Rudari obavljaju kriptografski zadatak i nagrađuju se izdavanjem novih bitkoina.
 reviewed: true

@@ -1,10 +1,9 @@
-question: Jaké jsou typické náklady pro těžaře?
-answer: Spotřeba elektřiny a nákup hardware.
+question: Jakým způsobem se Bitcoin dále integroval do tradičního trhu?
+answer: Příchodem Bitcoin ETF.
 wrong_answers:
-  - Pouze nákup hardware.
-  - Transakční poplatky.
-  - Spotřeba elektřiny a transakční poplatky.
-explanation: >-
-  Těžba Bitcoinu vyžaduje značný výpočetní výkon, což zase spotřebovává elektřinu.
-  Kromě toho musí těžaři investovat do specializovaného hardware, aby mohli efektivně těžit.
-reviewed: false
+  - Zákaz Bitcoinu.
+  - Zmizení všech kryptoměn.
+  - Vytvoření Bitcoinu.
+explanation: |
+  Bitcoin pokračuje ve svém přežívání a dalším růstu tím, že se stále více integruje do tradičního trhu. Příchod Bitcoin ETF, jasnější regulace a lepší získávání nástrojů pro uchovávání pouze podporují tento trend.
+reviewed: true

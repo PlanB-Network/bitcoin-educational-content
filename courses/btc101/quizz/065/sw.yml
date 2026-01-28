@@ -1,12 +1,12 @@
-question: Bitcoin inalingana na kanuni gani za kiuchumi?
-answer: Kanuni za uchumi wa Austria.
+question: Je, kazi kuu tatu za Bitcoin Wallet ni zipi?
+answer: Kupokea bitcoins, kutuma bitcoins, kuwalinda dhidi ya majaribio ya hacking na wizi.
 wrong_answers:
-  - Kanuni za uchumi wa Keynesi.
-  - Kanuni za uchumi wa Kimaksi.
-  - Kanuni za Uchumi wa Neoclassical.
+  - Hifadhi bitcoins, kutuma bitcoins, salama dhidi ya majaribio ya udukuzi na wizi.
+  - Ruhusu kupokea bitcoins, hifadhi bitcoins, zihifadhi dhidi ya udukuzi na majaribio ya wizi.
+  - Ruhusu kupokea bitcoins, kuruhusu kutuma bitcoins, kuuza bitcoins.
 explanation: |
-  Bitcoin inalingana na kanuni za uchumi wa Austria.
-  Kiasi chake kilichofungwa na ukosefu wa chombo kikuu huilinda
-  kutokana na hatari za asili za mfumuko wa bei zinazoonekana
-  sarafu za jadi.
+  Bitcoin Wallet hutumiwa kuingiliana na Bitcoin
+  mtandao. Kazi zake kuu tatu ni kuruhusu kupokea
+  bitcoins, kuruhusu kutuma bitcoins, na kuzilinda dhidi ya
+  majaribio ya udukuzi na wizi.
 reviewed: true

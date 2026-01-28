@@ -30,6 +30,8 @@ Théo; 貢献
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **目標:セキュリティスキルを更新する！**
 
 デジタルセキュリティに特化したこの教育プログラムへようこそ。このトレーニングは、誰でもアクセスできるように設計されており、コンピュータサイエンスの事前知識は必要ありません。私たちの主な目標は、デジタル世界をより安全かつプライベートにナビゲートするために必要な知識とスキルを提供することです。
@@ -52,13 +54,17 @@ Théo; 貢献
 - チャプター2 - インターネットの安全な使用
 
 まず、ウェブブラウザを選択することの重要性と、それがセキュリティに与える影響について話し合います。次に、特にクッキー管理に関するブラウザの特性を探ります。その後、TORなどのツールを使用して、より安全で匿名のブラウジング体験を実現する方法について見ていきます。その後、データの保護を強化するためのVPNの使用に焦点を当てます。最後に、WiFi接続の安全な使用に関する推奨事項で終わります。
-![](assets/ja/1.webp)
+
+![image](assets/ja/001.webp)
 
 **セクション2: コンピュータ使用のベストプラクティス**
 
 - チャプター3 - コンピュータ使用
 - チャプター4 - ハッキング & バックアップ管理
-  このセクションでは、コンピューターセキュリティの3つの主要な領域を取り上げます。まず、異なるオペレーティングシステム:Mac、PC、Linuxについて探求し、それぞれの特性と強みを強調します。次に、ハッキング試みに効果的に対抗し、デバイスのセキュリティを強化する方法について詳しく説明します。最後に、データの損失やランサムウェアを防ぐために、定期的にデータを保護しバックアップすることの重要性を強調します。![](assets/ja/2.webp)
+
+このセクションでは、コンピューターセキュリティの3つの主要な領域を取り上げます。まず、異なるオペレーティングシステム:Mac、PC、Linuxについて探求し、それぞれの特性と強みを強調します。次に、ハッキング試みに効果的に対抗し、デバイスのセキュリティを強化する方法について詳しく説明します。最後に、データの損失やランサムウェアを防ぐために、定期的にデータを保護しバックアップすることの重要性を強調します。
+  
+![image](assets/ja/002.webp)
 
 **セクション3:ソリューションの実装**
 
@@ -69,7 +75,8 @@ Théo; 貢献
 この実践的な第3セクションでは、具体的なソリューションの実装に移ります。
 
 まず、通信に不可欠であり、しばしばハッカーの標的となるメール受信箱を保護する方法を見ていきます。次に、パスワードマネージャーを紹介します。これは、パスワードを忘れたり混同したりすることなく、安全に保管するための実用的なソリューションです。最後に、アカウントに追加の保護層を加えるセキュリティ対策、二要素認証について話し合います。すべてが明確かつアクセスしやすい方法で説明されます。
-![](assets/ja/3.webp)
+
+![image](assets/ja/003.webp)
 
 デジタルセキュリティを強化し、データを取り戻す準備はできましたか？さあ、始めましょう！
 # オンラインブラウジングについて知っておくべきすべて
@@ -80,18 +87,22 @@ Théo; 貢献
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 インターネットを閲覧する際には、オンラインセキュリティを保護するために、特定の一般的な間違いを避けることが重要です。これらを避けるためのいくつかのヒントは以下の通りです:
 
 ### ソフトウェアのダウンロードに注意する:
 
 公式のウェブサイトからソフトウェアをダウンロードすることを推奨します。
 例:www.logicieltelechargement.fr/signalの代わりにwww.signal.org/downloadを使用してください。
-![](assets/notext/4.webp)
+
+![image](assets/ja/004.webp)
 
 また、オープンソースソフトウェアを優先することが望ましいです。これらは通常、より安全であり、悪意のあるソフトウェアから自由です。「オープンソース」ソフトウェアは、そのコードが誰にでも知られ、アクセス可能であるソフトウェアです。これにより、個人データを盗むための隠されたアクセスがないことなどを確認することができます。
 
 > ボーナス:オープンソースソフトウェアはしばしば無料です！この大学は100%オープンソースなので、私たちのコードもGitHubでチェックできます。
-> ![](assets/notext/5.webp)
+
+![image](assets/ja/005.webp)
 
 ### クッキー管理:エラーとベストプラクティス
 
@@ -103,7 +114,8 @@ Théo; 貢献
 
 ブラウザーには2つの主要なファミリーがあります:ChromeベースのものとFirefoxベースのものです。
 両ファミリーとも同様のセキュリティレベルを提供しますが、トラッカーのためにGoogle Chromeブラウザーの使用は避けることを推奨します。ChromiumやBraveなどのChromeの軽量代替品が好ましいかもしれません。特に内蔵の広告ブロッカーを備えたBraveが推奨されます。特定のウェブサイトにアクセスするために複数のブラウザーを使用する必要がある場合もあります。
-![](assets/notext/6.webp)
+
+![image](assets/ja/006.webp)
 
 ### プライベートブラウジング、TOR、より安全で匿名のブラウジングのための他の代替手段
 
@@ -112,32 +124,38 @@ Théo; 貢献
 より高度な代替手段は、TOR（The Onion Router）ネットワークであり、ユーザーのIPアドレスをマスキングし、ダークネットへのアクセスを可能にすることで匿名性を提供します。TORブラウザは、TORネットワークを使用するために特別に設計されたブラウザです。これにより、従来のウェブサイトと.onionウェブサイトの両方を訪問することができます。.onionウェブサイトは通常、個人によって運営され、違法な性質を持つことがあります。
 
 TORは合法であり、ジャーナリスト、自由活動家、検閲を逃れたいと願う権威主義国の人々によって使用されています。しかし、TORが訪問したサイトやコンピュータ自体を保護するわけではないことを理解することが重要です。さらに、データが目的地に到達する前に他の3人のコンピュータを通過するため、TORを使用するとインターネット接続が遅くなる可能性があります。また、TORは100％の匿名性を保証する万能の解決策ではなく、違法活動には使用すべきではないことに注意することが重要です。
-![](assets/notext/7.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+![image](assets/ja/007.webp)
+
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPNとインターネット接続
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### VPN
 
 インターネット接続を保護することは、オンラインセキュリティの重要な側面であり、仮想プライベートネットワーク（VPN）の使用は、ビジネスおよび個人ユーザーの両方にとって、このセキュリティを強化する効果的な方法です。
 
 'VPNは、インターネット上で送信されるデータを暗号化するツールであり、接続をより安全にします。プロフェッショナルなコンテキストでは、VPNを使用することで従業員は会社の内部ネットワークに安全にリモートアクセスできます。交換されるデータは暗号化され、第三者による傍受がはるかに困難になります。内部ネットワークへの安全なアクセスを確保するだけでなく、VPNを使用することで、ユーザーは自分のインターネット接続を会社の内部ネットワークを通じてルーティングし、その接続が会社から来ているように見せることができます。これは、地理的に制限されたオンラインサービスにアクセスする際に特に便利です。
-![](assets/ja/8.webp)
+
+![image](assets/ja/008.webp)
 
 ### VPNの種類
 
 VPNには主に2つのタイプがあります:企業向けVPNと消費者向けVPN（例:NordVPN）。企業向けVPNは一般的により高価で複雑であり、消費者向けVPNは一般的によりアクセスしやすくユーザーフレンドリーです。例えば、NordVPNを使用すると、ユーザーは別の国にあるサーバーを介してインターネットに接続することができ、地理的制限を回避することができます。
 
 しかし、消費者向けVPNを使用しても完全な匿名性は保証されません。多くのVPNプロバイダーはユーザーに関する情報を保持しており、それによって匿名性が損なわれる可能性があります。VPNはオンラインセキュリティを向上させるために役立つかもしれませんが、万能の解決策ではありません。地理的に制限されたサービスにアクセスする場合や旅行中のセキュリティを向上させる場合など、特定の特定の使用には効果的ですが、完全なセキュリティを保証するものではありません。VPNを選択する際は、人気よりも信頼性と技術性を優先することが重要です。最も少ない個人情報を収集するVPNプロバイダーが一般的に最も安全です。iVPNやMullvadのようなサービスは個人情報を収集せず、プライバシーを高めるためにBitcoinでの支払いを許可しています。
-![](assets/notext/9.webp)
+
+![image](assets/ja/009.webp)
+
 最終的に、VPNはオンライン広告をブロックするためにも使用でき、より楽しく安全なブラウジング体験を提供します。しかし、特定のニーズに最適なVPNを見つけるためには、自分自身で調査を行うことが重要です。自宅でインターネットを閲覧する際でも、セキュリティを強化するためにVPNの使用を推奨します。これにより、オンラインで交換されるデータのセキュリティレベルが高まります。最後に、訪問しようとしているサイトに実際にアクセスしていることを確認するために、URLとアドレスバーの小さな南京錠をチェックしてください。
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & 公共Wi-Fiネットワーク
 
@@ -146,7 +164,9 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 欧州連合では、データ保護は一般データ保護規則（GDPR）によって規制されています。したがって、SNCFのようにユーザーの接続データを再販しない欧州のWi-Fiアクセスポイントプロバイダーを使用する方が安全です。しかし、サイトに南京錠が表示されているという事実だけでは、その真正性を保証するものではありません。サイトの公開鍵を証明書システムを使用して確認し、その真正性を確認することが重要です。データの暗号化は第三者によるデータの傍受を防ぎますが、悪意のある個人がサイトを偽装してデータを平文で転送する可能性は依然としてあります。
 
 オンライン詐欺を避けるためには、特に拡張子とドメイン名をチェックすることで、閲覧しているサイトの身元を確認することが重要です。さらに、URL内で似たような文字を使用してユーザーを欺く詐欺師に対して警戒することが重要です。
-![](assets/ja/10.webp)
+
+![image](assets/ja/010.webp)
+
 要約すると、VPNの使用は、ビジネスユーザーと個人ユーザーの両方にとって、オンラインセキュリティを大幅に向上させることができます。さらに、良好なブラウジング習慣を実践することは、より良いデジタル衛生に貢献することができます。このコースの次のセグメントでは、アップデート、アンチウイルス、パスワード管理を含むコンピュータセキュリティについて取り上げます。
 
 # コンピュータ使用のベストプラクティス
@@ -157,6 +177,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
+
 今日のデジタル世界では、私たちのコンピュータのセキュリティが大きな懸念事項です。今日は、以下の三つの重要なポイントについて取り上げます:
 
 - コンピュータの選択
@@ -166,11 +188,14 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 ### コンピュータとオペレーティングシステムの選択
 
 コンピュータの選択に関しては、古いコンピュータと新しいコンピュータの間にセキュリティに関する顕著な違いはありません。しかし、オペレーティングシステム間ではセキュリティの違いが存在します:Windows、Linux、Mac。
-![](assets/notext/11.webp)
+
+![image](assets/ja/011.webp)
+
 Windowsに関しては、日常的に管理者アカウントを使用しないことが推奨されますが、管理者アカウントと日常使用のための別のアカウントを作成することが望ましいです。Windowsは、そのユーザー数の多さとユーザーから管理者への切り替えの容易さのため、マルウェアにより多くさらされることがあります。一方、LinuxとMacでは脅威はあまり一般的ではありません。
 
 オペレーティングシステムの選択は、あなたのニーズと好みに基づいて行うべきです。Linuxシステムは近年大きく進化し、ますますユーザーフレンドリーになっています。Ubuntuは、使いやすいグラフィカルインターフェイスを備えた初心者にとって興味深い代替手段です。Windowsを保持しながらLinuxを試すためにコンピュータをパーティション分割することは可能ですが、これは複雑になることがあります。専用のコンピュータ、仮想マシン、またはUSBキーを使用してLinuxやUbuntuをテストすることが、しばしば好ましいです。
-![](assets/notext/12.webp)
+
+![image](assets/ja/012.webp)
 
 ### ソフトウェアアップデート
 
@@ -188,8 +213,10 @@ Windows 10では、アップデートはほぼ連続しており、それらを�
 - 支払う必要がありますか？ それは状況次第です！
 
 アンチウイルスの選択と実装は重要です。Windows Defender、Windowsに組み込まれたアンチウイルスは、安全で効果的な解決策です。無料のソリューションとしては非常に優れており、オンラインで見つかる多くの無料ソリューションよりもはるかに優れています。実際、インターネットからダウンロードしたアンチウイルスには注意が必要で、それらは悪意のあるものであったり、時代遅れであったりする可能性があります。
+
 有料のアンチウイルスに投資したい場合は、Kasperskyのように未知の脅威や新興の脅威を知的に分析するアンチウイルスを選択することをお勧めします。アンチウイルスのアップデートは、新しい脅威に対する保護に不可欠です。
-![](assets/notext/13.webp)
+
+![image](assets/ja/013.webp)
 
 > 注:LinuxとMacは、ユーザー権限の分離システムのおかげで、しばしばアンチウイルスが必要ありません。
 
@@ -203,6 +230,8 @@ Windows 10では、アップデートはほぼ連続しており、それらを�
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### ハッカーはどのように攻撃しますか？
 
 自分をよく守るためには、ハッカーがどのようにしてあなたのコンピュータに侵入しようとするかを理解することが不可欠です。実際、ウイルスはしばしば魔法のように現れるわけではなく、意図せずとも私たちの行動の結果です！
@@ -215,14 +244,17 @@ Windows 10では、アップデートはほぼ連続しており、それらを�
 
 - 資格情報やパスワードなどの機密情報を抽出しようとするフィッシング試みに警戒してください。怪しいリンクをクリックしたり、送信者の正当性を確認せずに個人情報を共有したりしないでください。
 - メールの添付ファイルや画像に注意してください:
-  メールの添付ファイルや画像にはマルウェアが含まれている可能性があります。不明または怪しい送信者からの添付ファイルをダウンロードしたり開いたりしないでください。また、アンチウイルスが最新の状態であることを確認してください。
+
+メールの添付ファイルや画像にはマルウェアが含まれている可能性があります。不明または怪しい送信者からの添付ファイルをダウンロードしたり開いたりしないでください。また、アンチウイルスが最新の状態であることを確認してください。
 
 ここでの黄金律は、送信者のフルネームとメールの出所を慎重に確認することです。疑問がある場合は、削除してください！
 
 ### ランサムウェアとサイバー攻撃の種類:
 
 ランサムウェアは、ユーザーデータを暗号化し、それを復号するための身代金を要求するタイプの悪意のあるソフトウェアです。このタイプの攻撃はますます一般的になっており、企業や個人にとって非常に厄介なものになり得ます。自分を守るためには、最も機密性の高いファイルのバックアップを作成することが不可欠です！これによりランサムウェアを止めることはできませんが、それを単に無視することができます。
-![](assets/notext/14.webp)
+
+![image](assets/ja/014.webp)
+
 重要なデータを定期的に外部ストレージデバイスや安全なオンラインストレージサービスにバックアップしてください。このようにして、サイバー攻撃やハードウェアの故障が発生した場合でも、重要な情報を失うことなくデータを回復することができます。
 
 シンプルな解決策:
@@ -237,9 +269,9 @@ Windows 10では、アップデートはほぼ連続しており、それらを�
 
 コンピューターにウイルスが検出された場合は、インターネットから切断し、完全なアンチウイルススキャンを実行し、感染したファイルを削除してください。その後、ソフトウェアとオペレーティングシステムを更新し、さらなる侵入を防ぐためにパスワードを変更してください。
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 解決策の実装。
 
@@ -248,6 +280,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## メールアカウントの管理
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### 新しいメールアカウントの設定！
 
@@ -260,7 +294,9 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ### メールプロバイダーの選択とメールアドレスの管理
 
 オンラインアクセスのセキュリティを確保するためには、メールアドレスの適切な管理が不可欠です。安全でプライバシーを尊重するメールプロバイダーを選択することが重要です。例えば、ProtonMailは安全でプライバシーを尊重するメールサービスです。
-![](assets/notext/15.webp)
+
+![image](assets/ja/015.webp)
+
 メールプロバイダーを選択し、パスワードを作成する際には、異なるオンラインサービスで同じパスワードを再利用しないことが重要です。定期的に新しいメールアドレスを作成し、異なるメールアドレスを使用して用途を分けることが推奨されます。重要なアカウントには、セキュアなメールサービスを選択することが望ましいです。また、一部のサービスではパスワードの長さに制限があるため、この制限を認識しておくことが重要です。期間限定のアカウントに使用できる一時的なメールアドレスを作成するサービスも利用可能です。
 
 La Poste、Arobase、Wig、Hotmailなどの古いメールプロバイダーがまだ使用されていますが、そのセキュリティ対策はGmailのようなものほど良くないかもしれないということを考慮することが重要です。そのため、一般的な通信用とアカウント回復用の2つの別々のメールアドレスを持つことが推奨されます。後者はより安全に保護されるべきです。メールアドレスを電話オペレーターやインターネットサービスプロバイダーと混同することは避けるべきです。これは攻撃のベクトルになり得ます。
@@ -268,15 +304,19 @@ La Poste、Arobase、Wig、Hotmailなどの古いメールプロバイダーが�
 ### メールアカウントを変更すべきか？
 
 Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用して、メールアドレスが侵害されたかどうかを確認し、将来のデータ侵害について通知を受けることが望ましいです。ハッキングされたデータベースは、フィッシングメールを送信したり、侵害されたパスワードを再利用したりするためにハッカーによって悪用される可能性があります。
-![](assets/notext/16.webp)
+
+![image](assets/ja/016.webp)
+
 一般的に、新しい、よりセキュアなメールアドレスの使用を開始することは悪い習慣ではなく、健全な基盤で新たに始めたい場合には必要です。
 ボーナスBitcoin:Bitcoin活動（取引所アカウントの作成など）のために特定のメールアドレスを作成することが望ましい場合があります。これにより、私たちの生活の活動領域を真に分離することができます。
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## パスワードマネージャー
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### パスワードマネージャーとは何ですか？
 
@@ -289,15 +329,20 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 - LastPass:最も人気のあるマネージャーの1つです。サードパーティのサービスであり、パスワードがそのサーバーに保存されます。無料版と有料版があり、ユーザーフレンドリーなインターフェースを提供しています。
 
 - Dashlane:これもサードパーティのサービスで、直感的なインターフェースと、クレジットカード情報の追跡やセキュアノートなどの追加機能を提供しています。
-  ![](assets/notext/17.webp)
+
+![image](assets/ja/017.webp)
 
 ### より多くのコントロールのためのセルフホスティング:
 
 - Bitwarden:オープンソースのツールであり、そのコードをレビューしてセキュリティを確認することができます。Bitwardenはホステッドサービスを提供していますが、ユーザーがセルフホスティングすることも可能で、パスワードが保存される場所をコントロールでき、より多くのセキュリティとコントロールを提供する可能性があります。
 
 - KeePass:主にセルフホスティングを意図したオープンソースソリューションです。データはデフォルトでローカルに保存されますが、希望する場合は異なる方法を使用してパスワードデータベースを同期させることができます。KeePassはそのセキュリティと柔軟性で広く認識されていますが、初心者にとってはややユーザーフレンドリーではないかもしれません。
-  ![](assets/notext/18.webp)
-  サードパーティのサービスと自己ホスティングのサービスの選択は、技術的な快適さのレベルと、制御と便利さをどのように優先するかによって異なります。サードパーティのサービスは一般的にほとんどの人にとってより便利ですが、自己ホスティングはより多くの技術的知識を要求しますが、セキュリティの面でより多くの制御と安心を提供することができます。
+
+![image](assets/ja/018.webp)
+
+KeePass のようなセルフホスト型ソリューションでは、集中型のサードパーティサービスを使用せずに複数のデバイス間でデータベースを同期することが可能です。**Syncthing** のようなツールは、デバイス間で直接暗号化された分散型同期を可能にします。この方法は、データを自分の管理下に置きつつ、すべてのデバイスで利用可能にします。
+
+サードパーティのサービスと自己ホスティングのサービスの選択は、技術的な快適さのレベルと、制御と便利さをどのように優先するかによって異なります。サードパーティのサービスは一般的にほとんどの人にとってより便利ですが、自己ホスティングはより多くの技術的知識を要求しますが、セキュリティの面でより多くの制御と安心を提供することができます。
 
 ### 良いパスワードとは:
 
@@ -314,13 +359,15 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 ランダムに生成されたパスワードはより高いレベルのセキュリティを提供しますが、覚えにくい可能性があります。パスワードマネージャーは、より安全なランダムパスワードを生成することができます。パスワードマネージャーを使用することで、すべてのパスワードを記憶する必要はありません。マネージャーによって生成されたものに古いパスワードを徐々に置き換えることが重要です。これらはより強力で長いからです。パスワードマネージャーのマスターパスワードも強力で安全であることを確認してください。
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 二要素認証
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### 2FAを実装する理由
 
@@ -332,9 +379,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 - Google AuthenticatorやAuthyのようなアプリケーションによって生成されるコード。
 - コンピュータに挿入する物理的なセキュリティキー。
 
-  ![](assets/notext/19.webp)
+![image](assets/ja/019.webp)
 
-  2FAを使用すると、ハッカーがパスワードを入手しても、この第二の検証要素がなければアカウントにアクセスすることができません。これにより、2FAは不正アクセスからオンラインアカウントを保護するために不可欠です。
+2FAを使用すると、ハッカーがパスワードを入手しても、この第二の検証要素がなければアカウントにアクセスすることができません。これにより、2FAは不正アクセスからオンラインアカウントを保護するために不可欠です。
 
 ### どのオプションを選ぶべきか？
 
@@ -363,9 +410,9 @@ SIMカードを使用した二要素認証（2FA）に対する潜在的な脅�
 
 黄金律:サイバーセキュリティは、あなたの学習の旅に適応する移動目標です！
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # 実践セクション
 
@@ -377,7 +424,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 メールボックスを保護することは、オンラインでの活動を安全にし、個人データを守るための重要なステップです。このチュートリアルでは、高いセキュリティレベルで知られ、通信のエンドツーエンド暗号化を提供するプロバイダーであるProtonMailのアカウントの作成と設定を、一歩ずつガイドします。初心者でも経験豊富なユーザーでも、ここで提案されているベストプラクティスは、ProtonMailの高度な機能を活用しながら、メールのセキュリティを強化するのに役立ちます：
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 2FAでのセキュリティ強化
 
@@ -385,11 +432,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 二要素認証（2FA）は、オンラインアカウントを保護するために不可欠となっています。このチュートリアルでは、アカウントを保護するために6桁の動的コードを生成する2FAアプリAuthyの設定と使用方法を学びます。Authyは非常に使いやすく、複数のデバイスで同期できます。Authyのインストールと設定方法を確認し、今すぐオンラインアカウントのセキュリティを強化しましょう：
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 もう一つのオプションは、物理的なセキュリティキーを使用することです。この別のチュートリアルでは、セキュリティキーを第二の認証要素として設定および使用する方法を示します：
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## パスワードマネージャーの作成
 
@@ -399,11 +446,11 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 このチュートリアルでは、オープンソースのパスワードマネージャーであるBitwardenの設定方法と、日常の使用を簡素化するためにすべてのデバイスで資格情報を同期する方法を学びます：
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 より上級のユーザー向けに、パスワードをローカルで管理するために使用できる別の無料かつオープンソースのソフトウェアに関するチュートリアルも提供しています：
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## アカウントのセキュリティ強化
 
@@ -411,9 +458,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 この2つのチュートリアルでは、オンラインアカウントのセキュリティ確保についてもガイドし、日常的なパスワード管理のためにより安全な方法を徐々に採用する方法を説明します。
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## ブラウザとVPNの変更
 
@@ -423,13 +470,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 ビットコインで支払える信頼性の高いVPNソリューションであるIVPNとMullvadの二つをご紹介します。これらのチュートリアルでは、MullvadまたはIVPNをすべてのデバイスにインストール、設定、および使用する方法をご案内します：
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 また、オンラインでのプライバシーを保護するために特別に設計されたブラウザであるTor Browserの使用方法についても学びましょう：
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## バックアップの設定
 
@@ -437,11 +484,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 個人ファイルを保護することも重要なポイントです。このチュートリアルでは、Proton Driveを使用して効果的なバックアップ戦略を構築する方法を紹介します。この安全なクラウドソリューションを使用して、3-2-1メソッドを適用する方法を学びましょう：データの3つのコピーを2つの異なるメディアに保存し、そのうち1つはオフサイトに保管します。これにより、機密ファイルのアクセス性とセキュリティが確保されます：
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 また、USBメモリや外付けハードディスクなどのリムーバブルメディアに保存されたファイルを保護するために、VeraCryptを使用してこれらのメディアを簡単に暗号化および復号化する方法も紹介します：
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # より深く掘り下げる
 
@@ -450,6 +497,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## サイバーセキュリティ業界での働き方
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 ### サイバーセキュリティ:無限の機会を持つ成長分野
 
@@ -482,11 +531,14 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 - ガバナンス:ISO標準、GDPR/CCPA規制。
 
 これらのスキルとツールを習得することで、サイバーセキュリティの世界を成功裏に航海するために十分な装備が整います。
-![](assets/notext/20.webp)
+
+![image](assets/ja/020.webp)
 
 ## レノーとのインタビュー
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### 効率的なパスワード管理と認証強化:学術的アプローチ
 
@@ -494,7 +546,9 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 一般的に、自動パスワード入力のためのブラウザ拡張機能の使用は推奨されません。これらのツールは、ユーザーをフィッシング攻撃に対してより脆弱にする可能性があります。サイバーセキュリティの認定専門家であるRenaudは、KeePassを使用した手動管理を好みます。これには、パスワードを手動でコピー＆ペーストする作業が含まれます。拡張機能は攻撃面を増加させる傾向があり、ブラウザのパフォーマンスを低下させる可能性があり、したがって重大なリスクを提示します。したがって、ブラウザ上での拡張機能の最小限の使用が推奨される実践です。
 
 パスワードマネージャーは一般的に、2要素認証などの追加の認証要素の使用を奨励します。最適なセキュリティのためには、モバイルデバイス上でOTP（ワンタイムパスワード）を保持することが望ましいです。AndoTPは、電話上でOTPコードを生成および保存するためのオープンソースソリューションを提供します。Google Authenticatorは認証コードのシードをエクスポートすることを可能にしますが、Googleアカウントへのバックアップに対する信頼は限定的です。したがって、OTIおよびAndoTPアプリケーションは、自律的なOTP管理のために推奨されます。
-![](assets/notext/21.webp)
+
+![image](assets/ja/021.webp)
+
 デジタル相続とデジタル喪に関する問題は、人の死後にパスワードを伝達する手順を持つことの重要性を高めます。パスワードマネージャーは、すべてのデジタルシークレットを一か所で安全に保管することにより、この移行を容易にします。パスワードマネージャーはまた、すべてのオープンアカウントを特定し、それらの閉鎖または移行を管理することを可能にします。マスターパスワードを紙に書き留めることが推奨されますが、それは隠された安全な場所に保管されるべきです。ハードドライブが暗号化され、コンピュータがロックされている場合、盗難の場合でもパスワードはアクセス不可能です。
 
 ### パスワードポスト時代に向けて:信頼できる代替手段の探求
@@ -510,7 +564,9 @@ Passkizは、パスワード管理のための別の実行可能で安全な代�
 ### コンピュータセキュリティ:安全な実践の必須事項と人間の過失に関連するリスク
 
 コンピュータセキュリティは、「admin」のようなデフォルトパスワードの使用や単純な実践によって危険にさらされることがあります。複雑な攻撃が常にコンピュータセキュリティを危険にさらすわけではありません。例えば、YouTubeチャンネルの管理者パスワードが、ある会社のプライベートソースコードに書かれていました。セキュリティの脆弱性は、しばしば人間の過失の結果です。
+
 インターネットは非常に集中化されており、大部分がアメリカの管理下にあるということに留意する必要があります。DNSサーバーは検閲の対象となることがあり、特定のサイトへのアクセスをブロックするために欺瞞的なDNSを頻繁に使用します。DNSは古く、十分に安全ではないプロトコルであり、セキュリティ問題につながる可能性があります。DNSsecのような新しいプロトコルが登場していますが、まだ広く使用されていません。検閲や広告ブロックを回避するために、代替のDNSプロバイダーを選択することが可能です。
+
 侵入的な広告の代替手段には、Google DNS、OpenDNS、その他の独立したサービスが含まれます。標準のDNSプロトコルでは、DNSクエリがインターネットサービスプロバイダーに見える状態になります。DOH（DNS over HTTPS）とDOT（DNS over TLS）はDNS接続を暗号化し、より高いプライバシーとセキュリティを提供します。これらのプロトコルは、強化されたセキュリティのために企業で広く使用されており、Windows、Android、iPhoneにネイティブでサポートされています。DOHとDOTを使用するには、IPアドレスの代わりにTLSホスト名を入力する必要があります。無料のDOHとDOTプロバイダーはオンラインで利用可能です。DOHとDOTは「中間者攻撃」を避けることでプライバシーとセキュリティを向上させます。その他の重要な考慮事項
 
 「Lightning authentication」と呼ばれるシステムについても言及する価値があります。。このシステムは、メールアドレスや個人情報を提供する必要なく、各サービスに異なる識別子を生成します。ユーザーが制御する分散型アイデンティティが可能ですが、分散型アイデンティティプロジェクトには標準化と正規化が不足しています。Microsoft Storeの外でオープンソースソフトウェアをダウンロードすることを可能にするパッケージマネージャー、例えばNugetやChocolatéは、悪意のある攻撃を避けるために推奨されます。要約すると、DNSはオンラインセキュリティにとって重要ですが、DNSサーバーに対する潜在的な攻撃に対して警戒を続ける必要があります。

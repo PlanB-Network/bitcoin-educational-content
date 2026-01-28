@@ -1,0 +1,9 @@
+question: 2011년 8월 1일에 Bitcoin 포럼이 어떤 도메인 네임으로 이전되었나요?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.Bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  5월 17일 포럼.Bitcoin.org로 이전한 후, 8월 1일부터는 URL bitcointalk.org로 전환되었습니다. 이후 몇 년 동안 비트코인톡으로 알려지게 되었습니다.
+reviewed: true

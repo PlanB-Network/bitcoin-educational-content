@@ -1,26 +1,18 @@
 ---
-name: Avusturya Ekonomisine Giriş
-goal: Avusturya ekonomik düşünce okulunu keşfedin. Toplum ve makro/mikro-ekonomik gerçeklikler hakkındaki görüşlerini inceleyin.
-objectives: 
-
-  - Keynesçiliğe bir alternatif
-  - Hard para biriminin önemi
-  - Ekonomik döngülerimiz neden ve nasıl oluşuyor?
-  - Merkez bankacıları neden çıldırdı?
-
+name: Avusturya ekonomi okulu temelleri
+goal: Piyasaları ve bireysel karar vermeyi analiz etmek için alternatif bir çerçeve olarak Avusturya iktisadını keşfedin
+objectives:
+- Para, kredi ve merkez bankacılığı sistemlerinin işlevlerini analiz etmek
+- Öznel değer teorisi ve zaman tercihini piyasa davranışına uygulamak
+- Avusturya iş döngüsü teorisini ve nedenlerini anlamak
+- Avusturya metodolojisini ana akım ekonomik yaklaşımlarla karşılaştırmak
 ---
+# Avusturya Ekonomisine Yolculuk
 
-# Ekonomiye Bir Yolculuk
+Hiç bazı ekonomistlerin piyasalar, özgürlük ve insan davranışı hakkında neden farklı düşündüğünü merak ettiniz mi? Avusturya ekonomisi, sizi ekonomik düşüncenin merkezine yerleştiren ferahlatıcı bir bakış açısı sunar. Ağır matematik ve soyut modeller yerine, bu yaklaşım mantığa, insan seçimine ve gerçek insanların günlük yaşamlarında nasıl karar verdiklerine odaklanır. Özgürlük, rasyonellik ve kişisel eylem merceğinden ekonomidir.
 
-
-Théo Mogenet'in kursuna hoş geldiniz! Ekonomi, tarih, edebiyat, siyaset bilimi ve teknoloji konularında tutkulu olan Théo Mogenet, Avusturya ekonomisi hakkındaki bilgilerini sizlerle paylaşmaya karar verdi. Ekonomide daha az bilinen bu dal, insan rasyonalitesine ve özgür aktör davranışına dayanır. Matematikte daha az yoğun olan bu dal, her şeyden önce bir mantık ve sosyal çalışma meselesidir.
-
-
-Bu düşünce ekolünün arkasında birkaç asırlık bir zaman dilimi ve bir yazarlar, düşünceler ve ekonomistler panoraması vardır. Hayek, Rothbard, Mises, Bastiat veya Menger gibi ekonominin büyük isimleri bu akımı uzun süre savunmuşlardır. Günümüzün her yerde karşımıza çıkan Keynesçiliğinin aksine Avusturya okulu daha liberal, kapitalist ve hatta anarşist bir yaklaşımla bireyi yeniden denklemin merkezine koymaktadır.
-
-
+Bu düşünce okulu, Hayek, Mises ve Bastiat gibi etkili düşünürler sayesinde yüzyıllardır tartışmaları şekillendirmiştir. Ana akım Keynesyen ekonomi bugünün politika tartışmalarına hâkim olsa da, Avusturya geleneği farklı sorular sorar: Bireysel özgürlüğe öncelik verdiğimizde ne olur? İnsanlar seçme özgürlüğüne sahip olduğunda serbest piyasalar gerçekte nasıl çalışır? Piyasalar, toplum ve özgürlük hakkında düşünmenin alternatif yollarını merak ediyorsanız, standart ders kitaplarında bulamayacağınız fikirleri keşfetmek için bu sizin şansınız.
 +++
-
 # Giriş
 
 
@@ -96,7 +88,7 @@ Bir finans kuruluşunun bankacılık lisansına sahip olması, esasen "müşteri
 Evi satın aldıktan sonra, bankacınıza satıcının hesabına para aktarması talimatını verirsiniz. Satıcının hesabı farklı bir bankadaysa, bankacınız diğer kurumdaki ilgili bankacıya bildirimde bulunarak satıcının hesabının uygun şekilde alacaklandırılmasını ve sizin hesabınızın da ilgili tutar kadar borçlandırılmasını sağlar.
 
 
-![image](assets/en/01.webp)
+![image](assets/tr/001.webp)
 
 
 Şekil 1: Defter Tutma Girişleri Olarak Para Yaratımı
@@ -123,7 +115,7 @@ Bu muamma modern merkez bankalarının doğmasına neden olmuştur. 19. yüzyıl
 Merkez bankaları, finansal istikrarı korumanın yanı sıra temel politika faiz oranlarını belirlemekten de sorumludur. Bu oranlar, lisanslı bankaların merkez bankasından borç alabilecekleri maliyeti belirler ve esasen ekonomilerimizde borç vermede çok önemli bir rol oynayan finansal kurumlar için likidite maliyetini tanımlar. Dolayısıyla bu oranlar tüm finansal sistem için bir ölçüt görevi görür. Bir birey olarak, konut krediniz için ödediğiniz faiz oranları, politika faizi ve bankanın marjı olarak ayrıştırılabilir.
 
 
-![image](assets/en/02.webp)
+![image](assets/tr/002.webp)
 
 
 Şekil2: Lehman Brothers'ın İflası (15/09/2008)
@@ -135,7 +127,7 @@ Merkez bankaları, finansal istikrarı korumanın yanı sıra temel politika fai
 Bu önlemler iflasların artmasını önlese de, ardından gelen ekonomik yavaşlamayı hafifletmek için çok az şey yaptı. Milyonlarca kişi işini ve evini kaybetti, tüketici harcamaları düştü, işletmeler battı ve bankalar önemli zararlara uğradı. Tarihsel olarak düşük faiz oranlarına rağmen, çok az kişi borç almaya istekli oldu ve bu da harcama ve yatırımlardaki ilk düşüşün kendini pekiştirdiği bir kısır döngüye neden oldu. Sonuç olarak, merkez bankacıları Niceliksel Gevşeme (QE) programlarını uygulayarak daha ileri adımlar attılar. Bu programlar, merkez bankalarının merkez bankası rezervleriyle ticari bankalardan devlet tahvilleri ve ipoteğe dayalı menkul kıymetler satın almasını içeriyordu.
 
 
-![image](assets/en/03.webp)
+![image](assets/tr/003.webp)
 
 
 Şekil3 : Başlıca Ekonomilerde Faiz Oranları / Kaynak: AMB
@@ -150,7 +142,7 @@ Birçok beklentinin aksine, QE programları ekonomik büyümeyi önemli ölçüd
 Bununla birlikte, bu olaydan temel bir ekonomik ilke çıkarılabilir: yeni para yaratıldığında, başlangıçta paranın kaynağına en yakın olanlara fayda sağlarken, daha uzaktakilerin zararına olur. Bu ekonomik kavrayış, Richard Cantillon'un "Genel Olarak Ticaretin Doğası Üzerine Deneme" adlı eserinde ana hatlarıyla ortaya koyduğu 18. yüzyıla kadar uzanmaktadır Günümüzde halk arasında "Cantillon Etkisi" olarak anılmaktadır.
 
 
-![image](assets/en/04.webp)
+![image](assets/tr/004.webp)
 
 
 Şekil4: Özetle Cantillon Etkisi / Kaynak: River Financial
@@ -162,7 +154,7 @@ Bu durumda bankacılar, banka yöneticileri, hisse senedi ve tahvil sahipleri, e
 Özünde, sistem çarpıktır. Bankalar doğaları gereği istikrarsızdır, ancak başarısızlıkları tüm ekonomiyi tehlikeye atabilir. Bu ahlaki tehlike, banka yöneticilerini, merkez bankasının eninde sonunda onları kurtaracağını ve maliyeti vergi mükelleflerine yükleyeceğini bilerek, bankalarının gelirini en üst düzeye çıkarmak için aşırı risk almaya teşvik eder. Bu tür senaryolarda merkez bankacıları, satın alma gücünün çalışkan bireylerden ve tasarruf sahiplerinden varlık sahiplerine ve finansal sistemle bağlantılı olanlara büyük ölçüde aktarılması için koşullar yaratır ve böylece servet yaratma sürecini servet birikiminden ayırır.
 
 
-![image](assets/en/05.webp)
+![image](assets/tr/005.webp)
 
 
 Şekil5: Çin + Avrupa + ABD'de Servet Dağılımı / Kaynak: OECD
@@ -177,7 +169,7 @@ Uzun süreli Sıfır Faiz Oranı Politikaları (ZIRP) sırasında bankaların ö
 ZIRP'ın bir başka istenmeyen sonucu da hükümetleri kapsamlı harcamalar yapmaya teşvik etmesidir. Hükümetler borçlanma maliyetleriyle karşılaşmadıkları ve QE programları aracılığıyla tahvillerini satın almak için merkez bankalarına güvenebildikleri için, özellikle harcamaların oy getirebileceği demokratik ortamlarda, mümkün olduğunca çok harcama yapmak için doğal bir teşvike sahiptirler. Bu eğilim genellikle bu tür mali savurganlığın uzun vadeli sonuçlarını göz ardı etmekte ve Küresel Finansal Kriz'den (KFK) bu yana gelişmiş ekonomilerde kamu borç seviyelerinde önemli bir artışa yol açmaktadır.
 
 
-![image](assets/en/06.webp)
+![image](assets/tr/006.webp)
 
 
 Şekil 6: GSYİH'nin Yüzdesi Olarak Kamu ve Özel Borçlar (Dünya, ülke başına GSYİH'ye göre ağırlıklandırılmış) / Kaynak IMF
@@ -234,7 +226,7 @@ Bu tür sorular yüzyıllar boyunca ekonomistleri ve filozofları meşgul etmiş
 Fizyokratların tüm değerin topraktan geldiğini öne süren toprak değeri teorisi, klasik iktisatçıların bir malın değerinin üretimine harcanan emek miktarından kaynaklandığını öne süren emek değeri teorisi tarafından çürütüldükten sonra, sıra marjinal değer teorisinin yerini almaya geldi. 1870'lerde, klasik iktisatçıların sonuncusu olan Marx'ın ardından, marjinal değer teorisi etrafında neredeyse eş zamanlı olarak üç yeni iktisadi düşünce okulu ortaya çıktı: Léon Walras ile Lozan okulu, William Stanley Jevons ile modern veya neoklasik okul ve Carl Menger ile Avusturya okulu. Değer teorisindeki bu devrim, ekonomik düşüncede önemli bir yenilenme oluşturmuştur.
 
 
-![image](assets/en/07.webp)
+![image](assets/tr/007.webp)
 
 
 Soldan Sağa: William Stanley Jevons, Carl Menger, Léon Walras
@@ -249,7 +241,7 @@ Bu üç okulun marjinalizmini benzer olarak sunmak yaygındır. Gerçekten de Wa
 ### Öznel Değer
 
 
-![image](assets/en/08.webp)
+![image](assets/tr/008.webp)
 
 
 Avusturyalı iktisatçı, Adam Smith'in haleflerinin anlayışını reddederek, bir malın değerinin üretiminde kullanılan emek miktarından kaynaklandığı fikrini terk eder ve değerinin, her bağlamda, bir mal veya hizmetin belirli bir miktarına ilişkin zihinsel bir değer biçme eylemi gerçekleştiren birey tarafından belirlendiği fikrini tercih eder. Menger tarafından yapılan bu entelektüel sıçrama, değerin nesnelliğine meydan okumaktadır: ona göre değer, malların nesnel bir özelliği değildir; yalnızca bireyin o şeyle kurduğu ilişkinin bir sonucudur: "değer, insan bilincinin dışında var olmaz."
@@ -285,7 +277,7 @@ Bireyin hedefleri ve bu hedeflere ulaşmak için kullandığı araçlarla kurdu�
 ### İş Bölümü
 
 
-![image](assets/en/09.webp)
+![image](assets/tr/009.webp)
 
 
 Bir Çivi Fabrikasını Ziyaret, Léonard Defrance (18. yüzyıl)
@@ -380,7 +372,7 @@ Bu oyun, gerçek hayatta sıklıkla karşılaşılan bir sorunu örneklemektedir
 ### Koordinasyon Sorunlarını Çözmek için Para
 
 
-![image](assets/en/10.webp)
+![image](assets/tr/010.webp)
 
 
 Bu sorun küçük topluluklarda (örneğin aile, arkadaş çevreleri) daha az etkiye sahiptir çünkü bu gibi durumlarda herkes birbirini doğrudan tanır ve bu da birbirlerinin katkılarını hatırlamayı mümkün kılar. Topluluktan ayrılmanın (firar etmenin) bir maliyeti olduğunu varsayarsak, bireysel ajanların hafızasına dayalı bir itibar sistemi genellikle mahkum ikileminin yarattığı tuzaklardan kaçınmak için yeterlidir.
@@ -410,7 +402,7 @@ Medeniyet öncesi dönemlerde bu teknolojiler mevcut değildi. Dolayısıyla, at
 ### İstekler ve Satılabilirliğin Çifte Tesadüfü
 
 
-![image](assets/en/11.webp)
+![image](assets/tr/011.webp)
 
 
 Para, atalarımızın Address için keşfettiği, ekonomistlerin "isteklerin çifte çakışması" sorunu olarak adlandırdığı bir çözüm olarak görülebilir. Bu sorunun üç boyutu vardır: mekânsal, zamansal ve kişiler arası.
@@ -479,7 +471,7 @@ Gelecekteki malların şimdiki mallara kıyasla değerine ilişkin bu öznel de�
 Gelecekteki malların şimdiki mallara göre göreceli olarak değerlenmesi kavramı, faiz olgusunun temelinde yatmaktadır. Gerçekten de, manipüle edilmemiş sermaye piyasalarına sahip bir ekonomide, referans faiz oranları (temerrüt riskinden arındırılmış olarak kabul edilir) sermaye Supply ve talebin kesiştiği noktada belirlenir. Bu nedenle, bu oranlar tüm ekonomi için zaman tercihlerinin durumunu temsil eder: faiz oranındaki bir artış, Supply'e kıyasla sermaye talebindeki nispi bir artıştan kaynaklanır ve daha yüksek zaman tercihlerini gösterir. Tersine, faiz oranlarındaki bir düşüş tasarruflardaki bir artıştan kaynaklanır ki bu da sermayenin Supply'ündeki bir artış olup zaman tercihlerinde bir azalmaya işaret eder.
 
 
-![image](assets/en/12.webp)
+![image](assets/tr/012.webp)
 
 
 Faiz oranlarının merkez bankası tarafından manipüle edilmediği bir ekonomide, yukarı doğru eğimli bir getiri eğrisi gözlemleme eğiliminde oluruz: borcun vadesi uzadıkça faiz oranı da artar. Bunun tersi bir durum söz konusu olamaz çünkü bu, geleceğin bugünden daha kesin olmasını gerektirir ki bu da mantıksal olarak imkansızdır.
@@ -491,7 +483,7 @@ Zaman tercihi kavramı ve kendi zaman tercihimizi tüketim ve tasarruf eylemleri
 ### Sermaye Teorisi
 
 
-![image](assets/en/13.webp)
+![image](assets/tr/013.webp)
 
 
 Bu dersin başında, Carl Menger'e göre malların yalnızca bireyler tarafından seçilen ve değer verilen amaçlara hizmet ettikleri için ekonomik mallar (değerli) olarak kabul edildiğini gördük. Bu görüşe göre, tüm ekonomik analizler tüketim etrafında döner, çünkü tüketim nihayetinde tüm ekonomik faaliyetlerin arkasındaki motive edici amaçtır. Dolayısıyla Menger için ekonomik analizin başlangıç noktası, ekonomik faaliyetin nihai amacını temsil ettikleri için tüketim malları ya da nihai mallardır. Ekonomideki "ara mallar" olarak adlandırabileceğimiz diğer tüm mallar, yalnızca bireylerin bu tüketim mallarını elde etmelerini sağladıkları için bir değere sahiptir: bunlar diğer malların üretiminde kullanılan mallardır.
@@ -515,7 +507,7 @@ Bundan böyle, bireyler zorunlu olarak pozitif zaman tercihlerine sahip olduklar
 Bu noktayı açıklamak için Böhm-Bawerk'in "Sermaye ve Faiz" adlı çalışmasında verdiği örneği tekrar hatırlayalım:
 
 
-![image](assets/en/14.webp)
+![image](assets/tr/014.webp)
 
 
 Eugen von Böhm-Bawerk (1851-1914)
@@ -524,7 +516,7 @@ Eugen von Böhm-Bawerk (1851-1914)
 ### Robinson Crusoe ve Production Detour/Roundabout:
 
 
-![image](assets/en/15.webp)
+![image](assets/tr/015.webp)
 
 
 Robinson Crusoe Enkazından Çıkarma Malzemeleri, John Alexander Gilfillan (1793-1864)
@@ -560,7 +552,7 @@ Bu basit de olsa cezbedici bir kavramdır: üretim yapısındaki herhangi bir ge
 Bu durum aşağıdaki grafikte mükemmel bir şekilde gösterilmektedir: uzun oranlar kısa oranlardan daha düşüktür. Birincisi, bu kesinlikle mantıklı değildir, çünkü geleceğin bugünden daha kesin olmasını gerektirir. İkinci olarak, bu durum sermaye tahsisine ilişkin sonuçların sorgulanmasını gerektirmektedir: eğer herkes tasarruf bolmuş gibi davranmaya teşvik edilirken, tasarruf sahipleri tasarruf ettikleri için ödüllendirilmedikleri için hiçbir yerde bulunamazlarsa, bu durum ekonomi için ne gibi sonuçlar doğurabilir?
 
 
-![image](assets/en/16.webp)
+![image](assets/tr/016.webp)
 
 
 Avusturya İş Döngüsü Teorisi'ne ayrılmış bir sonraki bölümde öğreneceğimiz şey budur!
@@ -605,7 +597,7 @@ Bu zamansal koordinasyon bozukluğu olgusunu ve sonuçlarını olabildiğince a�
 Açıklamamızı kolaylaştırmak için, Menger'in mal sınıflandırmasına geri döneceğiz ve üretken yapıyı keyfi sayıda aşamadan oluşan bir diyagram üzerinde temsil edeceğiz:
 
 
-![image](assets/en/17.webp)
+![image](assets/tr/017.webp)
 
 
 Yukarıdaki diyagramda, başlangıçtaki kaynaklar üretimin çeşitli aşamalarından geçerek onları nihai tüketim malları durumuna yaklaştıran dönüşümlerden geçer (orijinal üretim faktörleriyle etkileşim yoluyla: zaman, toprak, emek). Üçgenin sağ tarafının yüksekliği, bir dönemde satılan tüm tüketim mallarının toplamını ifade ettiği için şematik olarak GSYH'yi temsil etmektedir. Her bir çubuk arasındaki fark, sürecin her bir aşaması tarafından yaratılan katma değere (parasal olarak) karşılık gelir. Bu fark aynı zamanda her bir aşama ile ilişkili gelir olarak da görülebilir (gelirler - maliyetler).
@@ -617,7 +609,7 @@ Eğer toplam düzeyde ekonomik aktörler tasarruflarını arttırırlarsa, tüke
 Bu durumda, aşağıdaki diyagramla niteliksel olarak temsil edilebilecek bir değişiklik olan genişletilmiş bir üretim yapısı elde edeceğiz:
 
 
-![image](assets/en/18.webp)
+![image](assets/tr/018.webp)
 
 
 Burada, talep edilen tüketim mallarının parasal değeri azalmış ve ek bir üretim aşamasının yaratılması için kaynaklar serbest kalmıştır. Faiz oranlarındaki düşüşün azalan tüketimin, yani artan tasarrufların bir sonucu olduğu bu senaryoda, dolaşımdaki para miktarını temsil eden üçgenin alanı değişmeden kalır. Üretim yapısındaki dönüşüm (uzama) basitçe satın alma gücünün yapının bir bölümünden diğerine aktarılmasından kaynaklanmaktadır.
@@ -641,7 +633,7 @@ Daha düşük faiz oranları ile girişimciler daha fazla kaynak borçlanabilir 
 Bunun kredi genişlemesinin tamamen mantıklı bir sonucu olduğuna dikkat ediniz. Bankalar kredi vererek güvene dayalı medya ürettikleri ölçüde, doğal olarak toplam satın alma gücünün artması beklenmelidir.
 
 
-![image](assets/en/19.webp)
+![image](assets/tr/019.webp)
 
 
 Kredi, girişimcilere verilen krediler yoluyla ekonomiye girdikçe, tüketimden uzak üretim sektörlerindeki karlarda bir artış ve tüketime yakın sektörlerdeki göreli karlarda bir düşüş gözlemlemeliyiz. Bu yüksek karlılık daha sonra sermayenin bu yeni, daha sermaye yoğun aşamalara (gemi yapımı, otomotiv, inşaat, ileri teknolojiler, vb.) doğru yeniden tahsis edilmesini ve tüketime daha yakın sektörlerdeki yatırımların azalmasını destekler.
@@ -665,7 +657,7 @@ Böyle bir ayarlama, eksik tasarrufları yeniden inşa etmek için eksik tüketi
 Ne yazık ki bu depresif mekanizma, açık harcamalar ve kolay para politikası yoluyla ekonomiyi "canlandırmaya" çalışan siyasi iktidar ve merkez bankaları tarafından sık sık kesintiye uğratılmaktadır.
 
 
-![image](assets/en/20.webp)
+![image](assets/tr/020.webp)
 
 
 Hem monetaristler hem de Keynesyenler için depresyonun nedeni yetersiz toplam taleptir, bu nedenle her ikisi de, gördüğümüz gibi, sorunun özü olan göreli fiyatların gelişimine dikkat etmemektedir. Bu nedenle, kredi genişlemesi için teşvik sağlamanın (faiz oranlarını düşürmek) ve talebi artırmak için devletin açık kapasitesini kullanmanın toparlanmayı başlatacağına inanıyorlar. Kısa vadede, bu tür önlemler istenen etkileri yaratıyor gibi görünebilir: açık harcamaları desteklerken, faiz oranlarındaki düşüş daha yüksek varlık fiyatlarına yol açar ve bu da varlık sahiplerini harcamalarını artırmaya teşvik eder. Ancak, yapısal sorun devam ederken ve hatta yapay olarak düşük faiz oranları sayesinde sermayenin yanlış tahsisi devam ederken, bu destek eninde sonunda azalır, hatta daha da kötüleşir.
@@ -724,7 +716,7 @@ Mises makalesi ile tartışmaya yeni bir boyut getirmiştir. Ekonomi politiğin 
 ### Ekonomik Hesaplamanın İmkansızlığını Açıklamak
 
 
-![image](assets/en/21.webp)
+![image](assets/tr/021.webp)
 
 
 Mises'in argümanları hakkındaki yanlıĢ anlamaların çoğu, kapitalist bir ekonomide yönetici ve giriĢimci sınıfların oynadığı rollerin yanlıĢ anlaĢılmasından kaynaklanmaktadır. Mises, yöneticilerin kendi operasyonları içinde verimli üretim planları tasarlama yeteneklerini asla reddetmemiştir. Bunun yerine, üretim araçlarının sahipleri olarak sermayeyi farklı endüstrilere tahsis eden ve böylece yöneticilerin ekonomik hesaplamalarında girdi olarak hizmet eden fiyatları oluşturan girişimcilerin ve hissedarların önemini vurgulamıştır.
@@ -751,7 +743,7 @@ Bu süreç, üretim faktörlerinin en verimli kullanımlarına tahsis edilmesini
 Bu açıdan bakıldığında, merkezi olarak planlanan bir ekonomi kaçınılmaz olarak sermayenin yanlış tahsisini tecrübe edecektir. Kısa ve orta vadede, bu tür yanlış tahsisler fark edilmeyebilir çünkü bunları ortaya çıkaracak piyasa fiyatları veya iflaslar yoktur. Ancak, geri besleme (fiyatlar) ve yeniden tahsis mekanizmalarının (iflaslar) yokluğu nedeniyle, israf yaşam koşullarında önemli bir düşüşle belirgin hale gelene kadar hatalar birikecektir.
 
 
-![image](assets/en/22.webp)
+![image](assets/tr/022.webp)
 
 
 ### Avusturya Perspektifi ve Diğer Ekonomi Okullarının Başarısızlıkları
@@ -766,7 +758,7 @@ Bu etkileyici öngörülere ve sosyalizm altında ekonomik hesaplamanın imkans�
 ### Sosyalizmde Ekonomik Hesaplamanın İmkansızlığının Özel Bir Örneği Olarak Avusturya İş Çevrimi Teorisi
 
 
-![image](assets/en/23.webp)
+![image](assets/tr/023.webp)
 
 
 Bir önceki bölümde, merkez bankalarının faiz oranı manipülasyonundan kaynaklanan aşırı yatırım ve sermayenin yanlış tahsisi dinamiklerine açıklık getirmiştik. Esasen, açıkladığımız şey, sosyalizm altında ekonomik hesaplamanın imkansızlığının para piyasaları alanına uygulanmış özel bir durumu olarak görülebilir. Fiyatlar piyasa değerlerinin dışında sabitlendiğinde, girişimciler ve sermaye tahsis edenler, tasarruf eksikliği nedeniyle uzun vadede sürdürülemeyecek yatırımlara girişmeye teşvik edilirler. Merkezi planlamacılar (bu durumda merkez bankacıları) fiyat sistemine müdahale ederek ekonomik aktörler arasında bir koordinasyonsuzluk yaratırlar. Bu örnekte, zamanlararası yanlış koordinasyon, daha yüksek dereceli yatırım mallarına aşırı yatırım yapılmasını ve daha düşük dereceli yatırım mallarına yetersiz yatırım yapılmasını gerektirir ki bu da endüstriler arasında sermaye yanlış dağılımının özel bir tezahürünü temsil eder.
@@ -778,10 +770,9 @@ Bu yanlış tahsisin sonuçları arasında finansal ve ekonomik krizler, ekonomi
 Günümüzde ekonomik hesaplama tartışması, öncelikle Green gündemi tarafından yönlendirilen yanlış yatırımların giderek daha belirgin hale geldiği enerji tartışmalarında yeniden ortaya çıkmaktadır. Avusturyalı iktisatçılar, ana akım iktisatçıların öngöremediği 2008 krizinin, uzun süreli düşük faiz oranları nedeniyle konut piyasasına aşırı yatırım yapılmasıyla karakterize edilen klasik bir patlama ve çöküş döngüsü olduğuna işaret ederek, para piyasalarıyla ilgili tartışmalarda da ortaya çıkmaktadır. Dahası, neo-Marksistler ve diğer sosyalist gruplar, yapay zekanın ortaya çıkışının ekonomik hesaplama sorununu çözebileceği fikrini yaymaktadır. Ancak bu bakış açısı, konunun hatalı bir şekilde anlaşılmasından kaynaklanmaktadır; ekonomik hesaplama sorunu bir hesaplama gücü meselesi değil, üretim ve kaynak tahsisi ile ilgili bilgi üretme ve dağıtma meselesidir. Bu bilgi yalnızca uzmanlaşmış bilgiye sahip ve sonuçtan çıkar sağlayan aracılar tarafından yerel olarak üretilebilir. Yapay zeka bu aşağıdan yukarıya sürecin yerini alamaz ve bu nedenle merkezi planlamacılara kaynak tahsisi sorununda yardımcı olamaz. Ne yazık ki, yüzyıllık bir yanlış anlama nedeniyle, YZ'nin serbest piyasaların başarısızlıklarını düzeltebilecek aydınlanmış merkezi planlamacılar tarafından yönetilen yeni bir ekonomik refah çağını başlatacağına dair iddiaların çoğalmasını bekliyoruz.
 
 
-Ekonomik hesaplama probleminin güncel bir duruma somut bir uygulaması için, modern Çin'de kaynak tahsisi sorununu ele alan bu makaleye başvurabilirsiniz.
+Ekonomik hesaplama sorununu çağdaş bir duruma somut biçimde uygulamak için, modern Çin’de kaynak tahsisini ele alan bu makaleye başvurabilirsiniz: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, Théo Mogenet tarafından.
 
 
-> Finansal Baskıya Giden Yol: Kağıttan Kaplan Çin, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Sonuç

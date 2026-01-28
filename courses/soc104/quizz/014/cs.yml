@@ -1,0 +1,9 @@
+question: Co představuje pravá strana ekonomické osy (směrem k číslu 100) ve dvourozměrném politickém diagramu?
+answer: Preference ekonomické svobody s menšími zásahy státu, nižšími daněmi a volným trhem
+wrong_answers:
+  - Preference silných státních zásahů do ekonomiky s vysokými daněmi a regulacemi
+  - Preference osobních svobod a společenské tolerance s minimálními morálními omezeními
+  - Preference tradičních hodnot, pořádku a bezpečnosti se státem prosazovanými morálními normami
+explanation: |
+  Pravá strana ekonomické osy představuje ekonomickou svobodu, která se vyznačuje minimálními zásahy státu do ekonomiky, nižšími regulacemi a daněmi,
+  a důrazem na volný trh, soukromé vlastnictví a hospodářskou soutěž. To kontrastuje s levou stranou, která upřednostňuje silné státní zásahy do ekonomiky. Ostatní možnosti popisují buď levicový ekonomický postoj, nebo pozice na ose osobních svobod (nahoře pro individuální svobodu, dole pro tradiční řád).

@@ -1,13 +1,13 @@
-question: Qual è la probabilità che qualcuno indovini accidentalmente la lista di 12 o 24 parole di un wallet Bitcoin?
-answer: Estremamente bassa.
+question: Cos'è un wallet multisig?
+answer: Un insieme di wallet che richiede più firme per autorizzare una transazione.
 wrong_answers:
-  - Alta.
-  - Moderata.
-  - Forte.
+  - Un wallet che richiede una singola firma per autorizzare una transazione.
+  - Un wallet che non richiede firme per autorizzare una transazione.
+  - Un wallet che richiede una firma fisica per autorizzare una transazione.
 explanation: |
-  Grazie alla crittografia utilizzata per creare il wallet, la
-  probabilità che qualcuno indovini accidentalmente la lista di
-  12 o 24 parole è estremamente bassa. È come trovare
-  il numero giusto tra 1 e $2^256$, che è quasi
-  equivalente a trovare un atomo definito nell'universo.
+  Un wallet multisig è un tipo di wallet Bitcoin che richiede
+  più firme per autorizzare una transazione. Questo aggiunge un
+  ulteriore livello di sicurezza, in quanto significa che una singola persona
+  non può eseguire disporre dei fondi senza l'approvazione di
+  altri.
 reviewed: true

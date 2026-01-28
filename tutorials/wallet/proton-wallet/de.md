@@ -1,5 +1,5 @@
 ---
-name: Proton-Geldbörse
+name: Proton Wallet
 description: Installieren und Verwenden der Proton Bitcoin Wallet
 ---
 ![cover](assets/cover.webp)
@@ -14,11 +14,11 @@ Die Besonderheit dieser Wallet ist die Möglichkeit, Bitcoins mit der E-Mail-Adr
 
 Um Proton Wallet nutzen zu können, benötigen Sie ein Proton-Konto. Sie können ein solches kostenlos erstellen, indem Sie die ersten Schritte dieses Tutorials zur Erstellung eines Proton-Postfachs befolgen (nur den Abschnitt "*Erstellung eines Proton-Kontos*"). Sobald Ihr Konto eingerichtet ist, können Sie mit dem Rest des Tutorials fortfahren.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Verbindung zu Proton Wallet
 
-Gehen Sie auf [die Proton Wallet Website] (https://proton.me/wallet) und klicken Sie auf die Schaltfläche "*Get Proton Wallet*".
+Gehen Sie auf [die Proton Wallet Website](https://proton.me/wallet) und klicken Sie auf die Schaltfläche "*Get Proton Wallet*".
 
 ![Image](assets/fr/01.webp)
 
@@ -68,9 +68,9 @@ Sie können ihn auf ein Stück Papier schreiben, oder für zusätzliche Sicherhe
 
 Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemotechnische Phrase speichern und verwalten können, empfehle ich Ihnen, diese andere Anleitung zu lesen, insbesondere wenn Sie Anfänger sind:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-natürlich sollten Sie diese Wörter niemals fotografieren, anders als ich es in diesem Tutorial tue.**_
+natürlich sollten Sie diese Wörter niemals fotografieren, anders als ich es in diesem Tutorial tue.
 
 Klicken Sie auf die Schaltfläche "*Erledigt*", sobald Sie Ihre Phrase gespeichert haben.
 
@@ -96,7 +96,7 @@ Hier können Sie eine BIP39-Passphrase zu einer neuen Brieftasche hinzufügen.
 
 Um Ihr Wissen über die Passphrase zu vertiefen, empfehle ich Ihnen diesen Lehrgang:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Bitcoins erhalten
 
@@ -145,7 +145,7 @@ Neben dem Web-Client ist die Proton Wallet auch über eine mobile Anwendung zug�
 Laden Sie Proton Wallet aus Ihrem Anwendungsspeicher herunter:
 
 
-- [Im App Store] (https://apps.apple.com/us/app/proton-wallet-secure-btc/id6479609548);
+- [Im App Store](https://apps.apple.com/us/app/proton-wallet-secure-btc/id6479609548);
 - [Im Google Play Store](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 ![Image](assets/fr/26.webp)
@@ -162,4 +162,4 @@ Herzlichen Glückwunsch, Sie wissen jetzt, wie Sie Proton Wallet einrichten und 
 
 Um weiter zu gehen, empfehle ich dieses Tutorial über Jade Plus, die neueste Hardware-Wallet von Blockstream:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

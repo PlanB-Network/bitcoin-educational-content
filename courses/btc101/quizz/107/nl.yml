@@ -1,11 +1,11 @@
-question: Wat is de rol van een notaris in de context van Bitcoin erfenissen?
-answer: Ze zorgen voor naleving van de belastingwetgeving.
+question: Wanneer werd Bitcoin voor het eerst aan de wereld gepresenteerd?
+answer: 31 oktober 2008.
 wrong_answers:
-  - Ze beheren je bitcoins na je dood.
-  - Ze wijzigen je erfenisplan.
-  - Ze beveiligen je bitcoins in een kluis.
+  - 3 januari 2009.
+  - 22 november 2009.
+  - 12 december 2010.
 explanation: |
-  In de context van Bitcoin erfenissen is het belangrijk om
-  de erfenis van bitcoins te bespreken met een notaris om ervoor te zorgen dat
-  fiscale naleving.
-reviewed: false
+  Bitcoin werd voor het eerst aan de wereld gepresenteerd op 31 oktober,
+  2008, toen Satoshi Nakamoto een e-mail stuurde naar de Cypherpunk
+  mailinglijst met daarin het Bitcoin Witboek.
+reviewed: true

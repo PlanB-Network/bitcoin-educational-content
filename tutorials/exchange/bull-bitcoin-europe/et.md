@@ -48,7 +48,7 @@ Skaneerige QR-kood oma autentimisrakendusega, sisestage 6-kohaline kood ja klõp
 
 Kui te ei ole 2FA autentimisrakenduste kasutamisega tuttav, siis soovitan vaadata seda Authy rakenduse õpetust:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Kinnitamiseks sisestage oma parool.
 
@@ -125,9 +125,9 @@ Sisestage summa, mida soovite osta. Samuti peate valima, kuidas soovite oma sats
 
 Kui te ei ole kursis Bitcoini, Lightningi või Liquid rahakoti kasutamisega, soovitan teil läbida meie spetsiaalne koolituskursus:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Võite uurida ka [meie üksikasjalikke õpetusi parimate Bitcoini rahakottide kohta](https://planb.network/tutorials/wallet).
+Võite uurida ka [meie üksikasjalikke õpetusi parimate Bitcoini rahakottide kohta](https://planb.academy/tutorials/wallet).
 
 Seejärel kinnitage oma ostu, klõpsates "*Kinnitage ostu*".
 
@@ -196,8 +196,16 @@ Et jälgida kõiki oma tehinguid, saate vaadata ajalugu menüüs "*Viimased tehi
 
 ![BULL](assets/fr/36.webp)
 
+## Käivita automaatne korduv ost (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Loo limiitkorraldus
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Nüüd teate, kuidas osta ja müüa Bitcoini lihtsalt Bull Bitcoiniga. Kui leidsid selle õpetuse kasulikuks, oleksin väga tänulik, kui paneksid alla rohelise pöidla. Jaga seda artiklit julgelt oma sotsiaalsetes võrgustikes. Tänan teid väga!
 
 Samuti soovitan teil vaadata seda teist põhjalikku õpetust, et õppida, kuidas oma mnemofraasi õigesti hallata:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

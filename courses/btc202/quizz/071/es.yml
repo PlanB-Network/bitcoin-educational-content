@@ -1,0 +1,9 @@
+question: ¿Qué archivos consulta primero un nodo para encontrar a sus antiguos compañeros al reiniciarse?
+answer: anclas.dat y pares.dat
+wrong_answers:
+  - Mempool.dat y peers.dat
+  - Mempool.dat e ip.dat
+  - ip.dat y anclas.dat
+explanation: |
+  Bitcoin core consulta primero anchors.dat (pares salientes anteriores) y luego peers.dat (libro Address conocido) para volver a conectarse.
+reviewed: true

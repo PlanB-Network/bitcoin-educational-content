@@ -1,5 +1,5 @@
 question: Al automatizar las copias de seguridad, ¿qué precauciones esenciales hay que tomar regularmente?
-answer: Prueba de restauración
+answer: Comprobar que se pueden restaurar
 wrong_answers:
   - Cambiar de proveedor de Internet
   - Desactivar las copias de seguridad de vacaciones

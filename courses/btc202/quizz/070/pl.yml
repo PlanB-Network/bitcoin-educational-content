@@ -1,0 +1,9 @@
+question: Kto utrzymuje serwery DNS seed używane do początkowego wykrywania peerów?
+answer: Twórcy ekosystemów
+wrong_answers:
+  - Dostawcy usług internetowych
+  - Satoshi Nakamoto
+  - Pule Mining
+explanation: |
+  Nasiona DNS są utrzymywane przez znanych deweloperów (Wuille, Corallo, Dashjr itp.) i zapewniają aktywne adresy IP węzłów do inicjowania połączeń.
+reviewed: true

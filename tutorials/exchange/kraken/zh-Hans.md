@@ -1,5 +1,5 @@
 ---
-name: 克拉肯
+name: Kraken
 description: 如何在 Kraken 上买卖比特币？
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Kraken 是世界上历史最悠久的 Bitcoin 和加密货币 Exchange 平台之
 
 
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - 创建 Kraken 账户
 
@@ -164,7 +164,7 @@ Interface 的色彩确实比较素雅。在添加双因素身份验证方法以�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 选择了最适合您的方法后，我们终于可以存钱购买我们的第一个卫星币了。
 
@@ -329,7 +329,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 

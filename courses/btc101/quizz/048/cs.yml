@@ -1,10 +1,9 @@
-question: Jaký je důsledek hyperinflace?
-answer: Drastický pokles hodnoty měny.
+question: Jaká byla přibližná míra inflace v Německu v říjnu 1923, kdy hyperinflace dosáhla vrcholu?
+answer: 29 500 %
 wrong_answers:
-  - Malý pokles hodnoty měny.
-  - Drastický nárůst hodnoty měny.
-  - Malý nárůst hodnoty měny.
+  - 5 200 %
+  - 76 %
+  - 110 %
 explanation: |
-  Kvůli hyperinflaci lidé rychle ztrácejí důvěru v měnu, což vede k
-  drastickému poklesu její hodnoty v krátkém časovém období.
-reviewed: true
+  Měsícem s nejvyšší mírou inflace v Německu byl říjen 1923, kdy inflace dosáhla vrcholu 29 500 %.
+reviewed: false

@@ -1,8 +1,8 @@
-question: Bitcoinleri satın almadan elde etmenin bir yolu nedir?
-answer: Sunduğunuz ürün veya hizmetler için bir ödeme aracı olarak kabul edin.
+question: Bitcoin ekonomisinin herkes için daha erişilebilir ve uygun hale getirilmesine katkıda bulunan girişimlerden biri nedir?
+answer: BTCMap.
 wrong_answers:
-  - Onları bir arkadaşınızdan ödünç alın ve asla geri vermeyin.
-  - Piyangodan kazan.
-  - Onları sokakta bul.
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
 explanation: >-
 reviewed: true

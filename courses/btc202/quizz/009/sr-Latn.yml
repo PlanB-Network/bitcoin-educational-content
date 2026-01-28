@@ -1,0 +1,9 @@
+question: Koja je glavna funkcija Bitcoin čvora?
+answer: Sačuvaj Blockchain i validiraj transakcije i blokove
+wrong_answers:
+  - Čuvajte privatne ključeve i kreirajte transakcije
+  - Kreiraj nove adrese za korisnike
+  - Pretvorite bitkoine u fiat valute
+explanation: |
+  Čvor Bitcoin održava kopiju Blockchain i učestvuje u validaciji i prenosu transakcija i blokova.
+reviewed: true

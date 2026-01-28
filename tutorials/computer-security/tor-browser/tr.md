@@ -1,5 +1,5 @@
 ---
-name: Tor Tarayıcı
+name: Tor Browser
 description: Tor Browser nasıl kullanılır?
 ---
 ![cover](assets/cover.webp)
@@ -68,7 +68,7 @@ Tor ağı sadece Tor tarayıcısı tarafından kullanılmaz. İletişimlerini g�
 ## Tor Browser nasıl kurulur?
 
 
-Tor Browser bilgisayarlarda Windows, Linux ve macOS için, akıllı telefonlarda ise Android için kullanılabilir. Tor Browser'ı bilgisayarınıza yüklemek için [resmi Tor Projesi web sitesini] (https://www.torproject.org/) ziyaret edin.
+Tor Browser bilgisayarlarda Windows, Linux ve macOS için, akıllı telefonlarda ise Android için kullanılabilir. Tor Browser'ı bilgisayarınıza yüklemek için [resmi Tor Projesi web sitesini](https://www.torproject.org/) ziyaret edin.
 
 ![TOR BROWSER](assets/notext/05.webp)
 
@@ -204,4 +204,4 @@ Farklı web sitelerine verdiğiniz erişim izinlerini de yönetebilirsiniz.
 Tarayıcınızın genel güvenliği için "*Safer*" ve "*Safest*" modları, ziyaret ettiğiniz siteler tarafından yürütülen web işlevlerini ve komut dosyalarını ayarlamanıza olanak tanır. Bu, güvenlik açıklarından yararlanma risklerini en aza indirir, ancak karşılığında sitelerin görüntüsünü ve etkileşimini de etkileyecektir. ![TOR BROWSER](assets/notext/36.webp) Tehlikeli içerik engelleyici ve sitelerle bağlantıların sürekli olarak bu protokole uymasını sağlayan yalnızca HTTPS modu dahil olmak üzere diğer güvenlik seçeneklerini bulacaksınız. ![TOR BROWSER](assets/notext/37.webp) Son olarak, "*Connection*" sekmesinde Tor ağına bağlanmakla ilgili tüm ayarları bulacaksınız. Burası, Tor'a erişimin sansürlenebileceği bölgelerden erişmek için bir köprü yapılandırabileceğiniz yerdir. ![TOR BROWSER](assets/notext/38.webp) Ve işte, artık internette daha güvenli ve daha gizli bir şekilde gezinmeye hazırsınız! Çevrimiçi gizlilik ilginizi çeken bir konuysa, Mullvad VPN hakkındaki bu diğer öğreticiyi de keşfetmenizi tavsiye ederim:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

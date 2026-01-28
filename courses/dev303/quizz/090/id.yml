@@ -1,0 +1,8 @@
+question: Apa batasan utama yang harus disiasati oleh para pengembang ketika menggunakan UniFFI untuk pengembangan aplikasi seluler yang membutuhkan antarmuka pengguna yang responsif?
+answer: UniFFI hanya mendukung antarmuka sinkron, yang mengharuskan pengembang untuk menangani operasi asinkron melalui mekanisme threading yang terpisah
+wrong_answers:
+  - UniFFI tidak dapat menangani tipe data yang kompleks seperti enum dan struktur, sehingga membatasi kekayaan antarmuka API seluler
+  - UniFFI menghasilkan binding yang tidak aman secara memori di seluruh batas bahasa, sehingga membutuhkan manajemen memori manual
+  - UniFFI tidak mendukung penerjemahan penanganan kesalahan, sehingga memaksa pengembang untuk mengimplementasikan penanganan pengecualian khusus dalam setiap bahasa target
+explanation: |
+  Keterbatasan UniFFI yang paling signifikan adalah kurangnya dukungan untuk antarmuka asinkron - semua binding yang dihasilkan bersifat sinkron. Hal ini menciptakan tantangan bagi pengembangan mobile di mana UI yang responsif sangat penting, karena pengembang harus mengimplementasikan solusi threading mereka sendiri untuk menghindari pemblokiran utas utama. Jawaban yang salah tersebut tidak benar karena UniFFI sebenarnya unggul dalam menangani tipe-tipe kompleks seperti enum dan struct, menyediakan marshalling yang aman untuk memori secara otomatis melintasi batas-batas bahasa, dan memiliki penerjemahan penanganan kesalahan yang canggih yang mengonversi tipe HasRust menjadi model pengecualian asli untuk bahasa target.

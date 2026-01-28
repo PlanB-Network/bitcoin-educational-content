@@ -1,0 +1,9 @@
+question: Är skolastik?
+answer: En filosofi från medeltiden.
+wrong_answers:
+  - En filosofi för den moderna tiden.
+  - En gammal filosofi.
+  - En ateistisk filosofi.
+explanation: |
+  Skolasticismen var en medeltida filosofi som försökte förena den kristna tron med aristotelisk filosofi. Den dominerade de europeiska universiteten innan den moderna filosofin växte fram.
+reviewed: false

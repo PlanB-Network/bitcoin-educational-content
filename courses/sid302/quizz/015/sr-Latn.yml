@@ -1,0 +1,8 @@
+question: U Taproot-omogućenoj HTLC, koja informacija se otkriva Bitcoin mreži kada zamena ne uspe i jedna strana treba da povrati svoja sredstva kroz adversarijalni put?
+answer: Samo određena grana Merkle stabla koja sadrži uslove zaključavanja heša/vremena potrebne za povrat sredstava
+wrong_answers:
+  - "Kompletna logika skripte uključujući sve moguće putanje izvršavanja i pojedinačne javne ključeve obe strane"
+  - Tajna preimage i svi agregirani javni ključevi korišćeni u procesu kombinovanja ključeva MuSig2
+  - Ceo ugovor o HTLC uključujući iznose zamene, vremenske okvire i adrese za Lightning i Liquid
+explanation: |
+  Taproot organizuje HTLC uslove u strukturi Merkle stabla, omogućavajući selektivno otkrivanje. Kada saradnja ne uspe, otkriva se samo specifična grana potrebna za dokazivanje prava na povraćaj sredstava, dok ostali detalji ugovora ostaju skriveni. Ovo je za razliku od nasleđenih HTLC-ova koji su otkrivali kompletne skripte, i razlikuje se od slučajeva saradnje gde se uopšte ne otkrivaju detalji skripte.

@@ -1,0 +1,8 @@
+question: What makes the consequences of political decisions particularly difficult for individual citizens to evaluate compared to personal economic choices?
+answer: Political consequences are collective and temporally dispersed, making it impossible for individuals to directly observe their complete impact on unseen affected parties
+wrong_answers:
+  - Political decisions require specialized knowledge that only trained economists and policy experts can adequately comprehend and evaluate
+  - Political choices involve moral considerations that transcend rational calculation, unlike economic decisions which are purely utilitarian
+  - Political systems deliberately obscure information to maintain power, while markets provide transparent pricing signals for all participants
+explanation: |
+  The text specifically explains that political decisions have collective consequences that are 'difficult to examine for each individual' and that 'a political measure can perfectly harm people that the citizen does not see directly.' This temporal and spatial separation from consequences, combined with their collective nature, makes political choices inherently more difficult to evaluate than immediate, personal economic decisions where results are directly observable and adjustable.

@@ -1,0 +1,9 @@
+question: HD 지갑의 계층 구조에서 깊이 0은 무엇을 의미하나요?
+answer: 마스터 키와 마스터 chain code
+wrong_answers:
+  - 외부 주소 체인
+  - 기본 계정
+  - 통화 유형
+explanation: |
+  깊이 0은 마스터 키와 마스터 chain code에 해당하며, 이는 HD Wallet에서 모든 파생의 시작점입니다.
+reviewed: false

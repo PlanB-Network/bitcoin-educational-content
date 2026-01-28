@@ -1,0 +1,9 @@
+question: ¿Se ha publicado alguna vez el Traité théologico-politique?
+answer: De forma anónima.
+wrong_answers:
+  - En 1677.
+  - A título póstumo.
+  - Autopublicación.
+explanation: |
+  El Tratado teológico-político se publicó de forma anónima en 1670 para proteger a Spinoza de la persecución. La obra no tardó en ser prohibida en muchos países por sus revolucionarias ideas sobre religión y política.
+reviewed: false

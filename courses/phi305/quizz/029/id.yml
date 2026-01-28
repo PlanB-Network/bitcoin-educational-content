@@ -1,0 +1,9 @@
+question: Siapa Ayn Rand?
+answer: Penulis "La Grève" dan "La Source Vive".
+wrong_answers:
+  - Pendamping Spinoza.
+  - Politisi Inggris.
+  - Seorang penulis yang romantis.
+explanation: |
+  Ayn Rand (1905-1982) adalah penulis Atlas Shrugged dan The Fountainhead. Dia mengembangkan filosofi yang disebut Objektivisme, yang menganjurkan individualisme dan kapitalisme rasional.
+reviewed: false

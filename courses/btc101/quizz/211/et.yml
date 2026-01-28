@@ -1,9 +1,10 @@
-question: Mida sunnib Bitcoin ettevõtteid, ülikoole, regulaatoreid ja üksikisikuid tegema?
-answer: Arvestama seda uut tehnoloogiat
+question: Mis on teksti järgi Bitcoini omaksvõtu olemus?
+answer: Viiruslik
 wrong_answers:
-  - Eirama seda
-  - Keelustama seda
-  - Kriminaliseerima seda
+  - Aeglane ja stabiilne
+  - Kiire ja kontrollimatu
+  - Hüplik ja ettearvamatu
 explanation: >-
-  Bitcoini tõusu tõttu on ettevõtted, ülikoolid, regulaatorid ja üksikisikud sunnitud seda uut tehnoloogiat arvesse võtma. Uute tööriistade loomine, teenuste kohandamine ja innovatsiooni jätkamine on vajalik nende ellujäämise tagamiseks.
+  Tekst kirjeldab Bitcoini omaksvõttu kui viiruslikku, vihjates, et see levib
+  kiiresti ja laialdaselt ühelt inimeselt teisele, palju nagu viirus.
 reviewed: false

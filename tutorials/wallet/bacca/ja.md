@@ -1,5 +1,5 @@
 ---
-name: バッカ
+name: Bacca
 description: Ledger LiveソフトウェアなしでLedgerを設定する
 ---
 ![cover](assets/cover.webp)
@@ -24,7 +24,7 @@ Ledgerの初期設定中にLedger Liveを使用する必要性を回避するに
 
 すでにインストールしてある場合は、このステップはスキップできる。
 
-**リナックス
+**リナックス**
 
 Linuxディストリビューションでは、Gitは通常プリインストールされています。Gitがシステムにインストールされているかどうかを確認するには、ターミナルで次のコマンドを入力します：
 
@@ -44,7 +44,7 @@ sudo apt install git
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-**ウィンドウズ
+**ウィンドウズ**
 
 Gitをインストールするには、[プロジェクトの公式ウェブサイト](https://git-scm.com/)にアクセスしてください。ソフトウェアをダウンロードし、インストール手順に従ってください。
 
@@ -98,11 +98,11 @@ cargo run -p ledger_manager_gui
 
 始める前に、Ledgerが新しい場合は、PINコードを設定し、リカバリーフレーズを保存していることを確認してください。これらの初期ステップにはLedger Liveは必要ありません。USBケーブルでLedgerを接続し、電源を入れるだけです。この2つのステップの進め方がわからない場合は、お使いのモデルに特化したチュートリアルの冒頭を参照してください：
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 
 ## バッカの使用
@@ -142,5 +142,4 @@ Baccaは、あなたのLedgerが本物かどうかをお知らせします。本
 また、GnuPGのチュートリアルでは、ソフトウェアをインストールする前に、そのソフトウェアの完全性と真正性をチェックする方法について説明していますので、こちらもご覧になることをお勧めします。これは、特にLianaやSparrowのようなポートフォリオ管理ソフトウェアをインストールする際に重要な習慣です：
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
-
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc

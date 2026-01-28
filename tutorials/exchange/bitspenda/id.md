@@ -98,9 +98,9 @@ Setelah transaksi Anda dikonfirmasi, bayarlah Lightning Invoice yang terkait. Tr
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### M-Pesa di Kenya
 
@@ -177,15 +177,15 @@ Periksa dan konfirmasikan nomor dan jumlah Exchange Anda, lalu bayar Lightning I
 
 
 
-Melalui BitSpenda, [Bitcoin Dua] (https://www.bitcoindua.org/) bertujuan untuk membuat kerangka kerja yang ideal untuk adopsi Bitcoin di Afrika. BitSpenda menonjol terutama untuk :
+Melalui BitSpenda, [Bitcoin Dua](https://www.bitcoindua.org/) bertujuan untuk membuat kerangka kerja yang ideal untuk adopsi Bitcoin di Afrika. BitSpenda menonjol terutama untuk :
 
 
 
 
-- Kerahasiaan**: Anda tidak perlu membuat akun di platform, tidak perlu memverifikasi identitas, dan tidak perlu memberikan informasi pribadi apa pun.
-- Kebebasan**: Anda dapat menggunakan BitSpenda dari negara mana pun untuk melakukan transaksi ke Ghana, Nigeria, dan Kenya.
-- Kecepatan**: Mengandalkan pembayaran Lightning telah memungkinkan BitSpenda untuk mengurangi waktu pemrosesan dan membuat transaksi menjadi instan.
-- Transparansi**: Semua transaksi yang telah Anda lakukan di BitSpenda dikaitkan dengan pengidentifikasi unik yang memungkinkan Anda untuk melacak dan melacak kemajuan transaksi ini. Anda juga dapat menggunakan pengidentifikasi ini untuk menghubungi [dukungan aplikasi di X] (https://x.com/bitspenda).
+- **Kerahasiaan**: Anda tidak perlu membuat akun di platform, tidak perlu memverifikasi identitas, dan tidak perlu memberikan informasi pribadi apa pun.
+- **Kebebasan**: Anda dapat menggunakan BitSpenda dari negara mana pun untuk melakukan transaksi ke Ghana, Nigeria, dan Kenya.
+- **Kecepatan**: Mengandalkan pembayaran Lightning telah memungkinkan BitSpenda untuk mengurangi waktu pemrosesan dan membuat transaksi menjadi instan.
+- **Transparansi**: Semua transaksi yang telah Anda lakukan di BitSpenda dikaitkan dengan pengidentifikasi unik yang memungkinkan Anda untuk melacak dan melacak kemajuan transaksi ini. Anda juga dapat menggunakan pengidentifikasi ini untuk menghubungi [dukungan aplikasi di X](https://x.com/bitspenda).
 
 
 
@@ -197,4 +197,4 @@ Banyak inisiatif dan solusi lain seperti BitSpenda yang muncul di komunitas Afri
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

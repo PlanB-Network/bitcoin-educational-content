@@ -1,12 +1,10 @@
-question: Jaká je historická cesta, kterou instituce sledovaly při zavádění fiat měn?
-answer: Vůdci centralizují zlato a zavádějí novou měnu ekvivalentní hodnotě zlata, která je poté postupně devalvována.
+question: Jaká je poslední fáze fenoménu hyperinflace?
+answer: Vzniká nová měna.
 wrong_answers:
-  - Vůdci zavádějí novou měnu krytou zlatem, která je poté postupně zvyšována v hodnotě.
-  - Vůdci zavádějí novou měnu bez vnitřní hodnoty, která je poté postupně zvyšována v hodnotě.
-  - Vůdci zavádějí novou měnu krytou košem komodit, která je poté udržována stabilní v hodnotě.
+  - Ztráta důvěry.
+  - Kolaps měny & nárůst cen.
+  - Zlý kruh tisku peněz.
 explanation: |
-  Historicky vůdci centralizovali zlato a zavedli
-  novou měnu ekvivalentní v hodnotě ke zlatu. Tato nová
-  měna je poté postupně devalvována, často pod záminkou,
-  že je to v zájmu lidí.
+  Poslední fáze hyperinflace nastává, když je zavedena nová
+  měna, která nahrazuje starou.
 reviewed: true

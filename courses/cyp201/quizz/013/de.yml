@@ -6,4 +6,4 @@ wrong_answers:
   - Erstellung von Bitcoin-Adressen
 explanation: |
   PBKDF2 wird verwendet, um aus einer mnemonischen Phrase und einer optionalen Passphrase einen Seed abzuleiten.
-reviewed: false
+reviewed: true

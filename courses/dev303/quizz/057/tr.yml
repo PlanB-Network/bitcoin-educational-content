@@ -1,0 +1,8 @@
+question: Rust'da bir makro adını takip eden ünlem işaretinin (!) birincil amacı nedir?
+answer: Çalışma zamanı işlev çağrısı yerine derleme zamanı kod üretiminin gerçekleştiğinin görsel bir göstergesi olarak hizmet eder
+wrong_answers:
+  - Yürütme sırasında geçersiz giriş parametreleri verilirse makronun panik yapacağını belirtir
+  - Makroyu güvensiz olarak işaretler ve olası bellek güvenliği sorunlarının açıkça kabul edilmesini gerektirir
+  - Makronun, hata denetimi ile ele alınması gereken bir Sonuç türü döndürdüğünü belirtir
+explanation: |
+  Rust makro sözdizimindeki ünlem işareti, makroları işlevlerden görsel olarak ayıran kasıtlı bir tasarım seçimidir. Println!()` veya `vec![]` ifadesini gördüğünüzde, `!` hemen bir çalışma zamanı fonksiyon çağrısının değil, derleme zamanı kod genişletmesinin gerçekleşeceğini işaret eder. Bu ayrım çok önemlidir çünkü makrolar temelde fonksiyonlardan farklı çalışırlar - derleme sırasında kalıp eşleştirme ve genişletme yoluyla generate kodu oluştururlar. Yanlış cevaplar bunu panikleme, güvenli olmayan işlemler veya hata işleme gibi çalışma zamanı davranışlarıyla karıştırır, ancak ünlem işareti özellikle makroların derleme zamanı metaprogramlama doğasını gösterir.

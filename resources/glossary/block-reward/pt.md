@@ -6,4 +6,4 @@ O total de bitcoins recebidos por um mineiro quando encontra um bloco válido na
 
 A recompensa do bloco é distribuída no âmbito de uma transação específica denominada "coinbase". Os bitcoins extraídos desta transação são automaticamente bloqueados por um período de 100 blocos. Este período é designado por período de maturidade.
 
-> ► *A tradução inglesa é "Block Reward"
+> ► *A tradução inglesa é "Block Reward"*

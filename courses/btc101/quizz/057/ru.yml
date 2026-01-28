@@ -1,10 +1,9 @@
-question: Какова была инфляция в Зимбабве в ноябре 2008 года?
-answer: 79 600 000 000%
+question: Какая команда используется для проверки количества биткойнов в обращении на узле Bitcoin?
+answer: bitcoin-cli gettxoutsetinfo
 wrong_answers:
-  - 796%
-  - 79 600 000 000 000 000%
-  - 100%
+  - bitcoin-cli getblockchaininfo
+  - bitcoin-cli getwalletinfo
+  - bitcoin-cli getnetworkinfo
 explanation: |
-  В ноябре 2008 года месячная инфляция валюты Зимбабве достигла пика в 79 600 000 000%, что обесценило
-  доллар Зимбабве до нуля.
+  Команда для проверки количества биткойнов в обращении на узле Bitcoin - это bitcoin-cli gettxoutsetinfo. Эта команда обеспечивает прозрачность и возможность проверки, укрепляя доверие к системе Bitcoin.
 reviewed: true

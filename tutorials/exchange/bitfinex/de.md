@@ -12,7 +12,7 @@ Bitfinex unterstützt aktiv die Entwicklung von Bitcoin, investiert in Technolog
 
 ## 1 - Erstellen eines Bitfinex-Kontos
 
-Gehen Sie auf [die offizielle Bitfinex-Website] (https://www.bitfinex.com/). Klicken Sie auf der Startseite auf die Option "*Sign Up*", um Ihr Konto einzurichten.
+Gehen Sie auf [die offizielle Bitfinex-Website](https://www.bitfinex.com/). Klicken Sie auf der Startseite auf die Option "*Sign Up*", um Ihr Konto einzurichten.
 
 ![BITFINEX](assets/fr/01.webp)
 
@@ -22,11 +22,11 @@ Füllen Sie die erforderlichen Informationen aus: Geben Sie Ihre E-Mail-Adresse 
 
 Tipps zur Verwendung und Sicherung starker, eindeutiger Passwörter finden Sie auch in diesem Tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Wir werden nun die 2FA konfigurieren, um das Konto zu sichern. Verwenden Sie eine Authentifizierungsanwendung auf Ihrem Smartphone, wie z. B. Google Authenticator oder Authy. Eine Anleitung zu diesem Tool finden Sie hier:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scannen Sie den QR-Code mit Ihrer App und geben Sie die angegebenen 6 Ziffern ein.
 
@@ -53,10 +53,10 @@ Ihr Konto ist nun erstellt. Klicken Sie auf "*Anmelden*", um auf die Plattform z
 Bitfinex wendet ein Verifizierungsverfahren (KYC) an, das den geltenden Vorschriften entspricht. Im "Basic"-Modus ist es nicht möglich, Einzahlungen, Abhebungen oder Transaktionen vorzunehmen. Daher ist es unabdingbar, mindestens die Verifizierungsstufe "Basic Plus" zu erhalten, oder sogar "Intermediate" oder "Full", falls erforderlich:
 
 
-- Basic* ist ein reiner Anzeigemodus, in dem Sie die Plattform konsultieren können, ohne irgendwelche Operationen durchzuführen;
-- Basic Plus* bietet Zugang zu den wichtigsten Funktionen, einschließlich Kassamarkttransaktionen und ausgewählten Ein- und Auszahlungsoptionen;
-- Intermediate* schaltet fortgeschrittene Dienste wie Margenhandel, Kredite, P2P- und OTC-Transaktionen frei und bietet kürzere Einzahlungsfristen;
-- Full* bietet Ihnen Zugang zu internationalen Banküberweisungen und allen Funktionen der Plattform.
+- **Basic** ist ein reiner Anzeigemodus, in dem Sie die Plattform konsultieren können, ohne irgendwelche Operationen durchzuführen;
+- **Basic Plus** bietet Zugang zu den wichtigsten Funktionen, einschließlich Kassamarkttransaktionen und ausgewählten Ein- und Auszahlungsoptionen;
+- **Intermediate** schaltet fortgeschrittene Dienste wie Margenhandel, Kredite, P2P- und OTC-Transaktionen frei und bietet kürzere Einzahlungsfristen;
+- **Full** bietet Ihnen Zugang zu internationalen Banküberweisungen und allen Funktionen der Plattform.
 
 Für jede Stufe werden zusätzliche Dokumente zur Überprüfung benötigt. Für die meisten Nutzer sind die Konten *Basic Plus* oder *Intermediate* in der Regel ausreichend.
 
@@ -79,11 +79,11 @@ Schließen Sie die Schritte ab, indem Sie die angeforderten Informationen und Do
 Sobald Sie angemeldet sind, sehen Sie oben auf der Oberfläche eine Navigationsleiste mit: "*Handel*", "*Derivate*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", usw. Bitfinex bietet eine breite Palette von Funktionalitäten, einschließlich :
 
 
-- Handel**: "*klassischer*" Markt, auf dem Sie Aufträge zum Kauf und Verkauf von Kryptowährungen (einschließlich Bitcoin) erteilen können;
-- OTC**: Over-The-Counter-Dienst für den direkten Handel großer Volumina mit einem anderen Marktteilnehmer, außerhalb der öffentlichen Orderbücher;
-- Finanzierungen**: Bereich, der der Kreditvergabe und der Margenfinanzierung gewidmet ist;
-- Derivate**: Abschnitt für Derivate (Termingeschäfte usw.), der für erfahrene Händler gedacht ist;
-- P2P**: Ermöglicht es Ihnen, Kryptos von anderen Nutzern auf Peer-to-Peer-Basis zu kaufen oder zu verkaufen.
+- **Handel**: "*klassischer*" Markt, auf dem Sie Aufträge zum Kauf und Verkauf von Kryptowährungen (einschließlich Bitcoin) erteilen können;
+- **OTC**: Over-The-Counter-Dienst für den direkten Handel großer Volumina mit einem anderen Marktteilnehmer, außerhalb der öffentlichen Orderbücher;
+- **Finanzierungen**: Bereich, der der Kreditvergabe und der Margenfinanzierung gewidmet ist;
+- **Derivate**: Abschnitt für Derivate (Termingeschäfte usw.), der für erfahrene Händler gedacht ist;
+- **P2P**: Ermöglicht es Ihnen, Kryptos von anderen Nutzern auf Peer-to-Peer-Basis zu kaufen oder zu verkaufen.
 
 Für den normalen Gebrauch (Kauf/Verkauf von Bitcoins und Einzahlungen/Abhebungen) werden Sie hauptsächlich die Registerkarte "*Handel*" sowie die Bereiche "*Wallet*", "*Einzahlung*" und "*Abhebung*" verwenden.
 
@@ -167,9 +167,9 @@ Bitfinex bietet auch Ein- und Auszahlungsmöglichkeiten über das Lightning Netw
 
 Wenn Sie sich für das Lightning Network interessieren, bieten wir Ihnen einen kompletten Schulungskurs an, damit Sie verstehen, wie es funktioniert:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Nachdem Sie Ihre ersten Bitcoins gekauft haben, haben Sie natürlich die Möglichkeit, sie auf der Plattform zu belassen, aber ich empfehle Ihnen dringend, sie in Ihr eigenes Wallet zu transferieren und selbst zu verwahren. Wenn Sie noch nicht wissen, wie man eine Bitcoin-Wallet benutzt, lade ich Sie ein, [den Abschnitt "Wallet" auf Plan ₿ Network](https://planb.network/tutorials/wallet) zu erkunden.
+Nachdem Sie Ihre ersten Bitcoins gekauft haben, haben Sie natürlich die Möglichkeit, sie auf der Plattform zu belassen, aber ich empfehle Ihnen dringend, sie in Ihr eigenes Wallet zu transferieren und selbst zu verwahren. Wenn Sie noch nicht wissen, wie man eine Bitcoin-Wallet benutzt, lade ich Sie ein, [den Abschnitt "Wallet" auf Plan ₿ Academy](https://planb.academy/tutorials/wallet) zu erkunden.
 
 ## 6 - Kauf und Verkauf von Bitcoins auf Bitfinex
 

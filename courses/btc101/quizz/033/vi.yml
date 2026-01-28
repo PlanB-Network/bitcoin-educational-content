@@ -1,9 +1,9 @@
-question: Tại sao Bitcoin được coi là một hình thức tiền tệ mới?
-answer: Bởi vì đó là một loại tiền tệ số không có cơ quan trung ương nào quản lý.
+question: Chiến lược nào được các cơ quan trung ương sử dụng để làm giảm giá trị của một đồng tiền tệ?
+answer: Họ tăng khối lượng tiền tệ một vài phần trăm mỗi năm.
 wrong_answers:
-  - Bởi vì đó là một loại tiền tệ số được bảo chứng bởi vàng.
-  - Bởi vì đó là một loại tiền tệ yêu cầu blockchain của ngân hàng.
-  - Bởi vì Cục Dự trữ Liên bang nói vậy.
+  - Họ giảm khối lượng tiền tệ một vài phần trăm mỗi năm.
+  - Họ giữ khối lượng tiền tệ của mình ổn định so với khối lượng ban đầu.
+  - Họ khiến khối lượng tiền tệ của mình dao động một cách ngẫu nhiên so với khối lượng ban đầu.
 explanation: |
-  Bitcoin có thể được xem như một hình thức tiền tệ mới, khi nó xuất phát từ một mạng lưới ngang hàng mà không có cơ quan trung ương nào.
+  Các cơ quan trung ương thường làm giảm giá trị của một đồng tiền bằng cách tăng khối lượng tiền tệ của nó so với khối lượng ban đầu một vài phần trăm mỗi năm. Sự giảm giá trị âm thầm này thường được biện minh là vì lợi ích của người dân.
 reviewed: true

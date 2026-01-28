@@ -1,0 +1,9 @@
+question: Según la definición de código abierto, ¿cuál es el principal requisito en materia de tasas cuando se redistribuye software de código abierto como parte de una distribución agregada de software?
+answer: La licencia no exigirá el pago de cánones u otros derechos por dicha venta
+wrong_answers:
+  - Debe cobrarse un coste de reproducción razonable para cubrir los gastos de desarrollo
+  - Los cánones están permitidos, pero no deben superar el 5% del precio de distribución
+  - Pueden exigirse tasas administrativas, pero sólo para redistribuciones comerciales
+explanation: |
+  La definición de código abierto establece explícitamente en "Redistribución libre" que "La licencia no exigirá un canon u otra tasa por dicha venta" Esto significa que el software de código abierto debe ser de libre redistribución sin tasas ni royalties obligatorios. Las otras opciones sugieren incorrectamente que se permiten varios tipos de tasas, lo que violaría el principio fundamental de libre redistribución que define el software de código abierto.
+reviewed: false

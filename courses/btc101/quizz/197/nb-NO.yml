@@ -1,9 +1,8 @@
-question: Hva er en av risikoene forbundet med å kjøpe Bitcoin?
-answer: Prisen kan falle til 0.
+question: Hva er en av tingene du bør vurdere når du velger en DCA-plattform?
+answer: Tilgjengelighet i ditt land.
 wrong_answers:
-  - Den kan lett bli stjålet.
-  - Den kan dupliseres.
-  - Den kan gå fysisk tapt.
+  - Fargen på plattformens logo.
+  - Antall brukere på plattformen.
+  - Alderen på plattformen.
 explanation: >-
-  Teksten nevner at Bitcoin er en svært volatil finansiell eiendel og
-  prisen kan falle til 0. Dette er en av risikoene forbundet med å kjøpe Bitcoin.
+  Teksten nevner at når du velger en DCA-plattform, vil valget avhenge mer av tilgjengelighet i ditt land.

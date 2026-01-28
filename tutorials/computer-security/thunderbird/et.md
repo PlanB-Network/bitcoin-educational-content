@@ -17,13 +17,13 @@ Thunderbird on e-posti rakendus, mis on tuntud oma paindlikkuse ja laiade funkts
 
 
 
-- Tasuta ja avatud lähtekoodiga**: erinevalt paljudest sõnumirakendustest on Thunderbird täiesti tasuta. Siiski saate toetada arendajate kogukonda, saates neile annetuse.
-- Intuitiivne Interface ja kergesti õpitav**: Thunderbirdi konfigureerimine on enamasti lihtne, nii et te ei pea selle pärast muretsema.
-- See postkast sobib mitut tüüpi e-kirjade** jaoks: kas Gmail, Yahoo, Outlook või isegi domeeninimega seotud ärie-kirjad, see postkast on väga mitmekülgne.
-- Mitme konto**: Thunderbird võimaldab teil ühendada mitu e-posti kontot korraga, mis teeb juurdepääsu kõigile teie sõnumitele lihtsaks.
-- Suure jõudlusega funktsioonid ja skaleeritavus**: Thunderbird pakub vaikimisi laia valikut funktsioone oma e-posti kontode ja sündmuste kalendri haldamiseks. Siiski võimaldab see tänu paljudele olemasolevatele laiendustele lisada täiendavaid võimalusi.
-- Multiplatvorm**: Thunderbird on saadaval mitmetes seadmetes (Android, Windows, Linux, macOS), võimaldades teile hõlpsasti ligipääsu oma e-kirjadele.
-- Turvalisus**: Thunderbird on väga turvaline rakendus, mis võimaldab teil kasutada RSA või ECC (Elliptic Curve) põhinevat läbivat krüpteerimist, et tagada teie andmete konfidentsiaalsus.
+- **Tasuta ja avatud lähtekoodiga**: erinevalt paljudest sõnumirakendustest on Thunderbird täiesti tasuta. Siiski saate toetada arendajate kogukonda, saates neile annetuse.
+- **Intuitiivne Interface ja kergesti õpitav**: Thunderbirdi konfigureerimine on enamasti lihtne, nii et te ei pea selle pärast muretsema.
+- See postkast sobib mitut tüüpi **e-kirjade** jaoks: kas Gmail, Yahoo, Outlook või isegi domeeninimega seotud ärie-kirjad, see postkast on väga mitmekülgne.
+- **Mitme konto**: Thunderbird võimaldab teil ühendada mitu e-posti kontot korraga, mis teeb juurdepääsu kõigile teie sõnumitele lihtsaks.
+- **Suure jõudlusega funktsioonid ja skaleeritavus**: Thunderbird pakub vaikimisi laia valikut funktsioone oma e-posti kontode ja sündmuste kalendri haldamiseks. Siiski võimaldab see tänu paljudele olemasolevatele laiendustele lisada täiendavaid võimalusi.
+- **Multiplatvorm**: Thunderbird on saadaval mitmetes seadmetes (Android, Windows, Linux, macOS), võimaldades teile hõlpsasti ligipääsu oma e-kirjadele.
+- **Turvalisus**: Thunderbird on väga turvaline rakendus, mis võimaldab teil kasutada RSA või ECC (Elliptic Curve) põhinevat läbivat krüpteerimist, et tagada teie andmete konfidentsiaalsus.
 
 
 
@@ -59,8 +59,8 @@ Windowsis käivitage allalaaditud käivitatav fail, et alustada installimist. J�
 
 
 
-- Standard**: võimaldab otsest paigaldamist ilma eelneva konfigureerimiseta.
-- Kohandatud**: võimaldab valida paigalduskausta ja seda, kas luua töölaua otseteed või mitte.
+- **Standard**: võimaldab otsest paigaldamist ilma eelneva konfigureerimiseta.
+- **Kohandatud**: võimaldab valida paigalduskausta ja seda, kas luua töölaua otseteed või mitte.
 
 
 
@@ -213,4 +213,4 @@ Avastage meie õpetus Proton Maili kohta, mis on läbivalt krüpteeritud sõnumi
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

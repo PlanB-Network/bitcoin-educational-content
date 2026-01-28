@@ -1,0 +1,8 @@
+question: Hva skjer med stakken etter at OP_CHECKSIG er kjørt når signaturverifiseringen lykkes?
+answer: Verdien 1 skyves opp på stakken
+wrong_answers:
+  - Signaturen og den offentlige nøkkelen blir liggende på stakken
+  - Stakken tømmes og tilbakestilles til tom
+  - Den offentlige nøkkelhashingen skyves opp på stakken
+explanation: |
+  OP_CHECKSIG er en stakketransformerende opkode som bruker en signatur og en offentlig nøkkel fra stakken, verifiserer signaturen mot transaksjonens sighash, og skyver enten 1 (for gyldig) eller 0 (for ugyldig) til stakken. Den opprinnelige signaturen og den offentlige nøkkelen fjernes i løpet av denne prosessen. Stakken tømmes ikke helt, og ingen hashverdier skyves - bare det boolske resultatet av verifiseringsoperasjonen.

@@ -1,0 +1,26 @@
+id: 7354aa99-7502-40c4-9797-0672ca5802f5
+name: Coinos
+
+links:
+  website: https://coinos.io/
+  github: https://github.com/coinos
+
+category: wallet
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - business
+  - wallets
+  - software
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-21
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

@@ -1,8 +1,8 @@
-question: Kakav je opšti trend Bitkoina, s obzirom na njegovu ograničenu ponudu i proces Halving-a?
-answer: Opšti trend rasta.
+question: U poređenju sa fiat valutama, kako se Bitkoin percipira?
+answer: Kao paralelna ekonomija.
 wrong_answers:
-  - Opšti trend opadanja.
-  - Nema trenda uopšte.
-  - Trend koji divlja bez prepoznatljivog obrasca.
+  - Kao zamenska ekonomija.
+  - Kao industrijska ekonomija.
+  - Kao tercijarna ekonomija.
 explanation: >-
 reviewed: true

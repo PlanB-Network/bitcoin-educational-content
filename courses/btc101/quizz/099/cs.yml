@@ -1,9 +1,9 @@
-question: Co byste měli udělat poté, co jsou slova vaší mnemonické fráze zapsána?
-answer: Udělejte druhou kopii a uložte ji na jiném místě.
+question: Proč je doporučeno nechávat své Bitcoiny mimo obchodní platformy?
+answer: Mohou být náchylné k útokům hackerů.
 wrong_answers:
-  - Sdílejte ji s důvěryhodným přítelem.
-  - Pošlete si ji e-mailem.
-  - Uložte ji ve svém telefonu.
+  - Obchodní platformy účtují náhodné poplatky.
+  - Bitcoin ztrácí na obchodních platformách na hodnotě.
+  - Obchodní platformy nejsou regulované instituce.
 explanation: |
-  Jakmile jsou slova vaší mnemonické fráze zapsána, doporučuje se udělat druhou kopii a uložit ji na jiném místě než první. To poskytuje zálohu v případě ztráty nebo nehody s první kopií.
+  Doporučuje se nechávat své Bitcoiny mimo obchodní platformy, protože mohou být náchylné k útokům hackerů.
 reviewed: true

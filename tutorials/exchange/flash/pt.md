@@ -23,7 +23,7 @@ Neste tutorial, vamos dar uma vista de olhos ao Flash, uma solução beninense q
 
 
 
-Flash é uma plataforma Exchange desenvolvida pela [BlockSolut] (https://bitcoinflash.xyz) que opera em vários países da África Ocidental. A principal missão da Flash é facilitar a aquisição, a Exchange e a utilização da Bitcoin na vida quotidiana.
+Flash é uma plataforma Exchange desenvolvida pela [BlockSolut](https://bitcoinflash.xyz) que opera em vários países da África Ocidental. A principal missão da Flash é facilitar a aquisição, a Exchange e a utilização da Bitcoin na vida quotidiana.
 
 
 A Flash baseia-se no Lightning Network, uma sobreposição do Bitcoin, para realizar transacções Bitcoin de forma segura e sem problemas, mostrando à sua comunidade o poder do Bitcoin na vida quotidiana.
@@ -39,8 +39,8 @@ Existem dois serviços principais oferecidos pela plataforma:
 
 
 
-- FlashX**: Exchange bitcoins com Mobile Money.
-- FlashPayment**: Utilize o Bitcoin para serviços quotidianos.
+- **FlashX**: Exchange bitcoins com Mobile Money.
+- **FlashPayment**: Utilize o Bitcoin para serviços quotidianos.
 
 
 
@@ -73,9 +73,9 @@ A Flash efectua as suas transacções utilizando o Mobile Money local. Dependend
 
 
 
-- Benim**: MTN Benim, Moov Benim, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Laranja.
+- **Benim**: MTN Benim, Moov Benim, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Laranja.
 
 
 
@@ -110,7 +110,7 @@ Proceda ao pagamento e introduza o seu Lightning Address para validar o seu Exch
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Ao efetuar uma transação em Flash, demorará em média 5 a 10 minutos a receber os seus bitcoins no seu Lightning Wallet.
 
@@ -157,10 +157,10 @@ Para além da compra e venda de bitcoins, a Flash oferece à sua comunidade uma 
 
 
 
-- Unidades GSM**;
-- Pacotes de Internet**;
-- Pacotes de chamadas**;
-- Uma combinação de pacote de chamadas e Internet**.
+- Unidades **GSM**;
+- Pacotes de **Internet**;
+- Pacotes de **chamadas**;
+- Uma combinação de pacote de chamadas e **Internet**.
 
 
 
@@ -202,5 +202,4 @@ Se este tutorial lhe foi útil para se familiarizar com o Flash, por favor, dê-
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

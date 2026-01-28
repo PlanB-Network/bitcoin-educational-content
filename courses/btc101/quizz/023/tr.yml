@@ -1,14 +1,12 @@
-question: Bir iletişim aracı olarak paranın rolü nedir?
-answer: Bir karşı tarafa güvenmeye gerek kalmadan, zaman ve mekan ötesinde değer iletişimine olanak tanır.
+question: İtibari para birimlerinin temel avantajı nedir?
+answer: Kolayca bölünebilirler.
 wrong_answers:
-  - Bir karşı tarafa güvenmeye gerek kalmadan yalnızca uzay üzerinden değer iletişimine izin verir.
-  - Yalnızca zaman içinde ve bir karşı tarafa güvenmeye gerek kalmadan değer iletişimine izin verir.
-  - Zaman ve mekan ötesinde ve bir karşı tarafa güvenme ihtiyacı olmadan değer iletişimine olanak tanır.
+  - Merkezi bir parti tarafından kontrol edilirler.
+  - Kolayca taşınamazlar.
+  - Zaman içinde değerlerini korumak için etkilidirler.
 explanation: |
-  Bir iletişim aracı olarak para, ülkeler arası iletişimi sağlar
-  uzay ve zaman, zamanımızı ve enerjimizi bir
-  riski olmadan gelecekte yeniden kullanılabilecek varlık
-  devalüasyon. Aynı zamanda evrensel bir iletişim sağlar
-  ortak dil, iki yabancının Exchange yapmasını, ticaret yapmasını sağlar,
-  ve eşyaların değeri konusunda hemfikir olmak.
+  Dolar ve euro gibi fiat para birimleri çok
+  Liquid ve kolayca taşınabilir çünkü artık çoğunlukla
+  dijital. Bununla birlikte, değerleri sürekli olarak aşağıdakiler tarafından aşındırılmaktadır
+  parasal enflasyon.
 reviewed: true

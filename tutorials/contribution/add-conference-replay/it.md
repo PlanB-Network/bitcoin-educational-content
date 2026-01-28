@@ -1,23 +1,23 @@
 ---
 name: Come aggiungere il replay di una conferenza
-description: Come aggiungere un replay di una conferenza su Plan ₿ Network?
+description: Come aggiungere un replay di una conferenza su Plan ₿ Academy?
 ---
 
 ![conference](assets/cover.webp)
 
-La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e inseriti su GitHub, permettendo a chiunque di contribuire all'arricchimento della piattaforma.
+La missione di Plan ₿ Academy è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e inseriti su GitHub, permettendo a chiunque di contribuire all'arricchimento della piattaforma.
 
-Vuoi aggiungere il replay della tua conferenza su Bitcoin sul sito Plan ₿ Network e dare visibilità a questo evento, ma non sai come fare? Questo tutorial è per te!
+Vuoi aggiungere il replay della tua conferenza su Bitcoin sul sito Plan ₿ Academy e dare visibilità a questo evento, ma non sai come fare? Questo tutorial è per te!
 
 Se invece desideri aggiungere una conferenza che si svolgerà in futuro, ti consiglio di leggere questo altro tutorial in cui spieghiamo come aggiungere un nuovo evento al sito.
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 ![conference](assets/01.webp)
 
 - Prima di tutto, devi avere un account su GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) nella sezione `resources/conference/`:
@@ -28,7 +28,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![conference](assets/03.webp)
 
-- Se non hai mai aggiunto contenuti su Plan ₿ Network prima d'ora, dovrai creare il tuo fork del repository originale. Fare il fork di un repository significa creare una copia di quel repository sul proprio account GitHub, il che ti permette di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
+- Se non hai mai aggiunto contenuti su Plan ₿ Academy prima d'ora, dovrai creare il tuo fork del repository originale. Fare il fork di un repository significa creare una copia di quel repository sul proprio account GitHub, il che ti permette di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
 
 ![conference](assets/04.webp)
 
@@ -87,7 +87,7 @@ tags:
 
 Se non hai ancora un identificatore "*project*" per il tuo progetto, puoi aggiungerlo seguendo quest'altro tutorial.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Una volta finito di apportare modifiche a questo file, salvale cliccando sul pulsante `Commit changes...`:
 
@@ -109,7 +109,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![conferenza](assets/14.webp)
 
-- Seleziona il tuo fork del repository Plan ₿ Network:
+- Seleziona il tuo fork del repository Plan ₿ Academy:
 
 ![conferenza](assets/15.webp)
 
@@ -153,7 +153,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![conferenza](assets/25.webp)
 
-- Si aprirà una nuova pagina. Trascina e rilascia un'immagine che rappresenta la conferenza, e che sarà visualizzata sul sito Plan ₿ Network:
+- Si aprirà una nuova pagina. Trascina e rilascia un'immagine che rappresenta la conferenza, e che sarà visualizzata sul sito Plan ₿ Academy:
 
 ![conferenza](assets/26.webp)
 
@@ -252,7 +252,7 @@ Speaker: Satoshi Nakamoto
 
 ![conference](assets/37.webp)
 
-- All'inizio del tuo documento, nella "parte iniziale", compila il campo `name:` con il nome della conferenza e l'anno dei replay. Nel campo `description:` scrivi una breve descrizione del tuo evento nella lingua del file. Ad esempio, per un file denominato `en.md`, la descrizione dovrebbe essere in inglese. Il team di Plan ₿ Network si occuperà di tradurre la tua descrizione.
+- All'inizio del tuo documento, nella "parte iniziale", compila il campo `name:` con il nome della conferenza e l'anno dei replay. Nel campo `description:` scrivi una breve descrizione del tuo evento nella lingua del file. Ad esempio, per un file denominato `en.md`, la descrizione dovrebbe essere in inglese. Il team di Plan ₿ Academy si occuperà di tradurre la tua descrizione.
 
 - I titoli di primo livello, contrassegnati da un `#`, sono utilizzati per organizzare la conferenza in diverse parti in base al luogo. Ad esempio, `# Palco Principale` per il palco principale e `# Sala Workshop` per uno spazio dedicato ai workshop.
 
@@ -296,9 +296,9 @@ Speaker: Satoshi Nakamoto
 
 ![conference](assets/45.webp)
 
-Congratulazioni! La tua PR è stata creata con successo. Un admin la esaminerà ora e, se tutto è in ordine, la aggiungerà nel repository principale di Plan ₿ Network. Dovresti vedere i replay della tua conferenza apparire sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un admin la esaminerà ora e, se tutto è in ordine, la aggiungerà nel repository principale di Plan ₿ Academy. Dovresti vedere i replay della tua conferenza apparire sul sito web qualche giorno dopo.
 
-Assicurati di seguire il progresso della tua PR. È possibile che un admin possa lasciare un commento chiedendo informazioni aggiuntive. Finché la tua PR non è validata, puoi visualizzarla sotto la scheda `Pull requests` sul repository GitHub di Plan ₿ Network: 
+Assicurati di seguire il progresso della tua PR. È possibile che un admin possa lasciare un commento chiedendo informazioni aggiuntive. Finché la tua PR non è validata, puoi visualizzarla sotto la scheda `Pull requests` sul repository GitHub di Plan ₿ Academy: 
 
 ![conference](assets/46.webp)
 

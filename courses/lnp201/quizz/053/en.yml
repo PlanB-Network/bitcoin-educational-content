@@ -6,4 +6,4 @@ wrong_answers:
   - To limit the use of the Bitcoin blockchain
 explanation: |
   A router aims to route as many payments as possible to collect fees, which requires a good distribution of liquidity on both sides of the channels to ensure routing capacity.
-reviewed: false
+reviewed: true

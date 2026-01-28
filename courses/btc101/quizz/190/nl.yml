@@ -1,11 +1,11 @@
-question: Wat is de AMF?
-answer: Autorité des Marchés Financiers.
+question: Wat is een van de risico's van het kopen van Bitcoin?
+answer: De prijs kan dalen tot 0.
 wrong_answers:
-  - Amerikaans Monetair Fonds.
-  - Vereniging van Mining voorzieningen.
-  - Geautomatiseerde geldstroom.
+  - Het kan gemakkelijk gestolen worden.
+  - Het kan worden gedupliceerd.
+  - Het kan fysiek verloren gaan.
 explanation: |
-  De AMF, of Autorité des Marchés Financiers, is een Franse
-  organisatie die de platforms reguleert waar bitcoins kunnen worden
-  gekocht.
+  De cursustekst vermeldt dat Bitcoin een zeer volatiel
+  financieel actief is en dat de prijs tot 0 kan dalen, wat een van de
+  van de risico's van het kopen van Bitcoin.
 reviewed: true

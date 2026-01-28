@@ -1,12 +1,12 @@
-question: ¿Cuál es la frecuencia del ajuste de dificultad?
-answer: Cada 2016 bloques.
+question: ¿Dónde se almacenan los bitcoins?
+answer: En la blockchain de Bitcoin.
 wrong_answers:
-  - Cada 1048 bloques.
-  - Cada 512 bloques.
-  - Cada 4032 bloques.
+  - En la cartera de Bitcoin.
+  - En el dispositivo donde está instalada la cartera.
+  - En la bóveda de la Reserva Federal.
 explanation: |
-  El ajuste de dificultad es un mecanismo que tiene lugar
-  cada 2016 bloques, o aproximadamente cada dos semanas, para asegurar que un
-  nuevo bloque se añada a la cadena de bloques cada diez minutos en
-  promedio, independientemente del hashrate global.
+  Aunque tus claves privadas se almacenan en tu cartera, los
+  bitcoins en sí están almacenados en la blockchain de Bitcoin,
+  que es el libro mayor distribuido público dentro de la red
+  peer-to-peer de Bitcoin.
 reviewed: true

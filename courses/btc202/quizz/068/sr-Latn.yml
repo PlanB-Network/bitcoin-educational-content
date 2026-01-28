@@ -1,0 +1,9 @@
+question: Koje su tri glavne prednosti redovnih ažuriranja operativnog sistema i aplikacija?
+answer: Bezbednost, pouzdanost, funkcionalnost
+wrong_answers:
+  - Brzina, anonimnost, kompatibilnost
+  - Sigurnost, memorija, skladištenje
+  - Poverljivost, funkcionalnost, pouzdanost
+explanation: |
+  Ažuriranja osiguravaju zaštitu od ranjivosti, kompatibilnost sa evolucijama i novim funkcijama, i pouzdanost sistema.
+reviewed: true

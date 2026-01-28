@@ -1,0 +1,9 @@
+question: ขนาดบล็อก IPv6 ที่ IANA จัดสรรให้แต่ละ Regional Internet Registry (RIR) โดยทั่วไปคือเท่าใด?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  ตั้งแต่ปี 2006 แต่ละ RIR มักจะได้รับบล็อก /12 ของ IPv6 ซึ่งให้การสำรองขนาดใหญ่มากสำหรับการจัดสรรในระดับภูมิภาค
+reviewed: false

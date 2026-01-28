@@ -1,0 +1,8 @@
+question: Lệnh Cargo nào thực hiện kiểm tra biên dịch mà không tạo ra tệp thực thi?
+answer: kiểm tra hàng hóa
+wrong_answers:
+  - xây dựng hàng hóa
+  - chuyến vận chuyển hàng hóa
+  - kiểm tra hàng hóa
+explanation: |
+  Lệnh 'cargo check' thực hiện tất cả các bước kiểm tra biên dịch và xác minh rằng mã của bạn được biên dịch chính xác mà không thực sự tạo ra tệp thực thi cuối cùng. Điều này làm cho nó nhanh hơn đáng kể so với việc biên dịch toàn bộ khi bạn chỉ muốn xác minh tính đúng đắn của mã. Ngược lại, 'cargo build' biên dịch và tạo ra các tệp thực thi, 'cargo run' vừa biên dịch vừa thực thi chương trình, và 'cargo test' biên dịch và chạy các bài kiểm tra.

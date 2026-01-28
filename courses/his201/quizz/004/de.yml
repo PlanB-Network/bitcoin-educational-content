@@ -6,4 +6,4 @@ wrong_answers:
   - 1996
 explanation: |
   Es wurde erstmals von den Cypherpunks im Februar implementiert, bevor es durch DigiCash mit der Ausgabe von CyberBucks im Oktober getestet wurde.
-reviewed: false
+reviewed: true

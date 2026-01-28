@@ -1,11 +1,10 @@
-question: Which of the following actions can help those who want to use Bitcoin in everyday life?
-answer: Have a list of all the merchants that accept Bitcoin.
+question: What is one of the ways to acquire bitcoins without KYC?
+answer: Bitcoin ATMs.
 wrong_answers:
-  - Increase the price of Bitcoin.
-  - Decrease the number of Bitcoins.
-  - Limit the use of Bitcoin.
-explanation: >-
-  One way to facilitate the use of Bitcoin in everyday transactions is
-  to list all the merchants that accept Bitcoin. This can be done through platforms
-  like BTCMap.
+  - Broker platforms.
+  - DCA platforms.
+  - Bank transfers.
+explanation: |
+  The course text mentions that there are several ways to
+  acquire Bitcoins without KYC, one of which is Bitcoin ATMs.
 reviewed: true

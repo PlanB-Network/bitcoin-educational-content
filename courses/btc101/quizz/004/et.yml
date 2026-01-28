@@ -1,11 +1,10 @@
-question: Mis on Bitcoini kaks peamist aspekti?
-answer: Bitcoin on nii arvutiprotokoll kui ka rahaline ühik.
+question: Mida tähendab see, et Bitcoin on neutraalne valuuta?
+answer: Seda ei kontrolli ükski üksus ega institutsioon.
 wrong_answers:
-  - Bitcoin on nii füüsiline valuuta kui ka digitaalne rahakott.
-  - Bitcoin on nii aktsia kui ka võlakirja tüüp.
-  - Bitcoin on nii tsentraliseeritud kui ka detsentraliseeritud valuuta.
+  - Seda kontrollib üksik üksus või institutsioon.
+  - Seda reguleerib valitsus.
+  - Seda kasutatakse ainult neutraalsete tehingute jaoks.
 explanation: |
-  Bitcoinil on kaks peamist aspekti, see on arvutiprotokoll, mis kasutab tehnoloogiaid
-  nagu krüptograafia ja plokiahel, ning see on rahaline ühik, mida kasutatakse
-  tehinguteks.
+  Bitcoin on neutraalne valuuta, mis tähendab, et seda ei kontrolli ükski üksus
+  ega institutsioon ja iga kasutaja omab samu õigusi. See on selle detsentraliseerituse võtmeaspekt.
 reviewed: true

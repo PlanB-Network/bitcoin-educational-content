@@ -1,10 +1,11 @@
-question: Mis on Cypherpunk Manifest?
-answer: Tekst, mille on kirjutanud Eric Hughes, väites, et privaatsus on põhiõigus.
+question: Mis on efektiivse valuuta kriteeriumid?
+answer: Vahetatav, Jagatav, Likviidne
 wrong_answers:
-  - Raamat, mille on kirjutanud Julian Assange tehnoloogia tuleviku kohta.
-  - Dokument, mis kirjeldab Bitcoini põhimõtteid.
-  - Manifest, mille on kirjutanud David Chaum digitaalse valuuta tähtsuse kohta.
+  - Vahetatav, Jagatav, Hukkuv
+  - Vahetatav, Jagamatu, Likviidne
+  - Mittevahetatav, Jagatav, Likviidne
 explanation: |
-  Cypherpunk Manifesti kirjutas Eric Hughes 1993. aastal ja see väidab,
-  et privaatsus on põhiõigus.
+  Efektiivse valuuta kriteeriumid on, et see peab olema vahetatav
+  (väärtuse kaotuseta asendatav), jagatav (erineva mahuga tehingute hõlbustamiseks)
+  ja likviidne (kergesti kaupadeks või teenusteks konverteeritav).
 reviewed: true

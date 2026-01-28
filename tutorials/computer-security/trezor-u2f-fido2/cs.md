@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F a FIDO2
+name: "Trezor U2F & FIDO2"
 description: Posilte své online zabezpečení pomocí aplikace Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Kromě U2F, které umožňuje dvoufaktorové ověřování, podporují Trezory t
 
 
 
-Kromě funkce "bez hesla*" umožňuje FIDO2 také dvoufaktorové ověřování podobně jako U2F.
+Kromě funkce "bez hesla" umožňuje FIDO2 také dvoufaktorové ověřování podobně jako U2F.
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -353,4 +353,4 @@ Doporučuji také tento další tutoriál, ve kterém se podíváme na jiné ře
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

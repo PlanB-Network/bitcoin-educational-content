@@ -38,7 +38,7 @@ Idite na [zvaničnu stranicu za preuzimanje Sparrow Wallet](https://sparrowwalle
 Važno je proveriti integritet i autentičnost softvera pre nego što ga instalirate. Ako ne znate kako to da uradite, ovde ćete pronaći kompletan vodič:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Jednom kada je Sparrow instaliran, možete preskočiti početne ekrane sa objašnjenjima i preći direktno na ekran za upravljanje vezama.
 
@@ -107,9 +107,9 @@ Imajte na umu da ako koristite obrezani Bitcoin Core čvor, nećete moći da obn
 Da biste konfigurisali Bitcoin Core čvor, možete se posavetovati sa jednim od sledećih tutorijala, u zavisnosti od vašeg operativnog sistema:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Na Sparrow-u, idite na karticu "*Bitcoin Core*".
 
@@ -143,10 +143,11 @@ Ne zaboravite da restartujete softver nakon što napravite ove promene.
 Zatim se vratite na Sparrow Wallet i unesite putanju do vaše datoteke kolačića, koja se obično nalazi u istoj fascikli kao i `Bitcoin.conf`, u zavisnosti od vašeg operativnog sistema:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -177,10 +178,11 @@ server=1
 Nakon uređivanja datoteke, obavezno je sačuvajte u odgovarajućem folderu za vaš operativni sistem:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Ova operacija se takođe može izvesti putem Bitcoin-QT Interface grafičkog Interface. Idite na meni "*Settings*", zatim "*Options...*", i aktivirajte opciju "*Enable RPC server*" označavanjem odgovarajućeg polja. Ako `Bitcoin.conf` fajl ne postoji, možete ga kreirati direktno iz ovog Interface klikom na "*Open Configuration File*".
 
@@ -314,7 +316,7 @@ Možete ga ispisati na papir ili, radi dodatne sigurnosti, ugravirati na nerđaj
 Za više informacija o pravilnom načinu čuvanja i upravljanja vašom Mnemonic frazom, toplo preporučujem da pratite ovaj drugi vodič, posebno ako ste početnik:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -325,7 +327,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Takođe možete odabrati da dodate passphrase BIP39 klikom na polje "*Use passphrase*". Upozorenje: korišćenje passphrase može biti veoma korisno, ali ako ne razumete kako funkcioniše, može biti veoma rizično. Zato vam toplo preporučujem da pročitate ovaj kratki teorijski članak na tu temu:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Jednom kada sačuvate svoj Mnemonic i bilo koji passphrase na fizički medijum, kliknite na "*Confirm Backup*".
 
@@ -378,7 +380,7 @@ Postoje dva glavna načina za povezivanje vašeg Hardware Wallet sa Sparrow:
 Sparrow podržava sve ove metode komunikacije i kompatibilan je sa većinom hardverskih novčanika na tržištu.
 
 
-Za ovaj vodič, koristiću Ledger Nano S sa kablom, ali procedura je slična u Air-Gap režimu. Detalje specifične za vaš Hardware Wallet pronaći ćete u njegovom posvećenom vodiču na Plan ₿ Network.
+Za ovaj vodič, koristiću Ledger Nano S sa kablom, ali procedura je slična u Air-Gap režimu. Detalje specifične za vaš Hardware Wallet pronaći ćete u njegovom posvećenom vodiču na Plan ₿ Academy.
 
 
 Pre nego što počnete, uverite se da je Wallet već konfigurisan na vašem Hardware Wallet. Ako koristite žičanu vezu, povežite ga sa vašim računarom putem kabla.
@@ -471,7 +473,7 @@ Ako koristite Hardware Wallet, veoma je važno proveriti Address na ekranu uređ
 ![Image](assets/fr/44.webp)
 
 
-Za korisnike Hardware Wallet Air-Gap, verifikacija Address varira u zavisnosti od modela uređaja. Pogledajte posvećeni Plan ₿ Network vodič za precizna uputstva.
+Za korisnike Hardware Wallet Air-Gap, verifikacija Address varira u zavisnosti od modela uređaja. Pogledajte posvećeni Plan ₿ Academy vodič za precizna uputstva.
 
 
 Jednom kada je transakcija emitovana od strane platioca, videćete je u kartici "*Transakcije*". Možete kliknuti na nju za više detalja, kao što je txid.
@@ -552,7 +554,7 @@ Ovo vas vodi na stranicu sa detaljima Elements vaše transakcije. Proverite da s
 Važno je zadržati podrazumevani Sighash. Da biste razumeli zašto, pogledajte ovaj kurs obuke, u kojem objašnjavam sve što treba da znate o Sighash:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Na sledećem ekranu, opcije se razlikuju u zavisnosti od tipa Wallet koji koristite:
 
@@ -668,4 +670,4 @@ Ako ste našli ovaj vodič korisnim, bio bih veoma zahvalan ako biste ostavili G
 Takođe preporučujem ovaj drugi vodič u kojem objašnjavam kako konfigurisati Hardware Wallet COLDCARD Q sa Sparrow Wallet :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

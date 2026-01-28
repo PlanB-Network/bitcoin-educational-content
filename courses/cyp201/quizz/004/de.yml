@@ -6,4 +6,4 @@ wrong_answers:
   - SHA160
 explanation: |
   HASH160 kombiniert SHA256 und RIPEMD160, um 160-Bit-Fingerabdrücke zu erzeugen, insbesondere für Bitcoin-Adressen.
-reviewed: false
+reviewed: true

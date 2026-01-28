@@ -2,9 +2,9 @@ question: Ni uchanganuzi gani wa kiheuristic wa msururu unaotumiwa na shughuli y
 answer: CIOH
 wrong_answers:
   - kutumia tena Address
-  - Wallet alama za vidole
+  - Wallet ya alama za vidole
   - Inabadilisha matumizi tena
 explanation: |
-  Wakati mchambuzi anachunguza shughuli ya PayJoin, wanaongozwa kuamini kwamba pembejeo zote zinatoka kwa mtu mmoja kwa sababu ya CIOH. Hata hivyo, mtazamo huu si sahihi, kwani mpokeaji malipo pia huchangia pembejeo pamoja na mlipaji halisi. Kwa hivyo, uchanganuzi wa mnyororo huelekezwa kwa tafsiri ambayo inageuka kuwa ya uwongo.
+  Wakati mchambuzi anachunguza shughuli ya PayJoin, wanaongozwa kuamini kwamba pembejeo zote zinatoka kwa mtu mmoja kwa sababu ya CIOH. Hata hivyo, mtazamo huu sio sahihi, kwani mpokeaji wa malipo kwani pia huchangia pembejeo pamoja na mlipaji halisi. Kwa hivyo, uchanganuzi wa mnyororo huelekezwa kwa tafsiri ambayo inageuka kuwa ya uongo.
   
-reviewed: false
+reviewed: true

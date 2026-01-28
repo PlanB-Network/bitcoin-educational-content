@@ -1,11 +1,11 @@
-question: Jaká je jedna doporučená alternativa k použití papíru pro uchování vaší mnemonické fráze?
-answer: Vyrytí na kovovou desku.
+question: Proč je soukromí důležité v kontextu Bitcoinu?
+answer: Aby se minimalizovalo riziko sledování vašich prostředků.
 wrong_answers:
-  - Uložení v digitálním souboru.
-  - Napsání na bílou tabuli.
-  - Uložení jako kontakt ve vašem telefonu.
+  - Aby se snížila hodnota vašich bitcoinů.
+  - Aby se zabránilo krádeži vašich bitcoinů.
+  - Aby se platily daně z vašich bitcoinů.
 explanation: |
-  Jednou z doporučených alternativ k papíru pro uchování
-  vaší mnemonické fráze je vyrytí na kovovou desku. Toto
-  řešení je trvanlivější a odolnější.
+  Soukromí je důležité v kontextu Bitcoinu, aby se minimalizovala
+  rizika sledování vašich prostředků, což může usnadnit
+  vaše sledování.
 reviewed: true

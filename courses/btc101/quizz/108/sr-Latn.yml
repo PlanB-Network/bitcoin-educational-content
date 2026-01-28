@@ -1,11 +1,11 @@
-question: Koja je svrha Bitkoin novčanika?
-answer: Da biste sačuvali privatne ključeve radi transakcija bitkoinima.
+question: Ko je bila prva osoba koja se pridružila Bitkoin mreži nakon Satoshi Nakamoto?
+answer: Hal Finney.
 wrong_answers:
-  - Da koristite resurse uređaja za rudarenje bitkoina.
-  - Da kupite bitkoine putem javnog ključa.
-  - Da se bitkoini čuvaju na uređaju.
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Bitkoin novčanici su vrsta softvera koji se koristi za
-  čuvanje privatnih ključeva koji vam omogućavaju da
-  obavljate transakcije sa vašim bitkoinima.
+  Hal Finney je bio prva osoba koja se pridružila Bitkoin mreži
+  nakon Satoshi Nakamota samog. Čak je tvitovao "Running
+  Bitcoin" (pokreće bitkoin mrežu) kako bi obeležio tu priliku.
 reviewed: true

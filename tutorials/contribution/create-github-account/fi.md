@@ -27,7 +27,7 @@ Ensinnäkin on tärkeää ymmärtää, että GitHub on rakennettu Gitin päälle
 
 Kuvittele Git eräänlaisena lokikirjana, jota jokainen kehittäjä käyttää omalla tietokoneellaan tallentaakseen kaikki projektinsa muutokset. GitHub puolestaan on kuin julkinen kirjasto, jossa kaikki nämä lokikirjat voidaan jakaa, verrata ja yhdistää.
 Gitin ja GitHubin välisen perustavanlaatuisen eron muodostaa niiden toiminto: Git on työkalu, jota jokainen kehittäjä käyttää paikallisesti koodiversioidensa hallintaan, kun taas GitHub on online-alusta, joka isännöi näitä versioita ja helpottaa yhteistyötä.
-GitHub on paljon muutakin kuin pelkkä koodin isännöintipalvelu. Se on yhteistyöalusta, joka mahdollistaa kehittäjien tehokkaan yhteistyön. Ja todellakin, PlanB Network käyttää tätä alustaa isännöimään paitsi kaikkea verkkosivuston toimintaa ohjaavaa koodia, myös – ja tämä on meille kiinnostavaa – kaikkea sisältöä (oppaat, koulutukset, resurssit...).
+GitHub on paljon muutakin kuin pelkkä koodin isännöintipalvelu. Se on yhteistyöalusta, joka mahdollistaa kehittäjien tehokkaan yhteistyön. Ja todellakin, Plan ₿ Academy käyttää tätä alustaa isännöimään paitsi kaikkea verkkosivuston toimintaa ohjaavaa koodia, myös – ja tämä on meille kiinnostavaa – kaikkea sisältöä (oppaat, koulutukset, resurssit...).
 
 ## Joitakin teknisiä termejä
 

@@ -56,55 +56,55 @@ Sau đây là một số tính năng chính của OPNsense:
 
 
 
-- Tường lửa và NAT**: OPNsense cung cấp chức năng tường lửa trạng thái nâng cao với tính năng lọc trạng thái cũng như khả năng chuyển đổi Address (NAT) mạng.
+- **Tường lửa và NAT**: OPNsense cung cấp chức năng tường lửa trạng thái nâng cao với tính năng lọc trạng thái cũng như khả năng chuyển đổi Address (NAT) mạng.
 
 
 
 
 
-- DNS/DHCP**: OPNsense có thể được cấu hình để quản lý các dịch vụ DNS và DHCP trên mạng. Nó có thể hoạt động như một máy chủ DHCP, nhưng cũng có thể được sử dụng như một bộ phân giải DNS cho các máy trong mạng cục bộ. Dnsmasq cũng được tích hợp theo mặc định.
+- **DNS/DHCP**: OPNsense có thể được cấu hình để quản lý các dịch vụ DNS và DHCP trên mạng. Nó có thể hoạt động như một máy chủ DHCP, nhưng cũng có thể được sử dụng như một bộ phân giải DNS cho các máy trong mạng cục bộ. Dnsmasq cũng được tích hợp theo mặc định.
 
 
 
 
 
-- VPN**: OPNsense hỗ trợ một số giao thức VPN, bao gồm IPsec, OpenVPN và WireGuard, cho phép kết nối an toàn để truy cập từ xa vào các máy trạm di động hoặc kết nối trang web.
+- **VPN**: OPNsense hỗ trợ một số giao thức VPN, bao gồm IPsec, OpenVPN và WireGuard, cho phép kết nối an toàn để truy cập từ xa vào các máy trạm di động hoặc kết nối trang web.
 
 
 
 
 
-- Proxy web**: OPNsense bao gồm một proxy web để kiểm soát và lọc truy cập Internet. Nó cũng có thể được sử dụng để lọc nội dung và quản lý truy cập mạng.
+- **Proxy web**: OPNsense bao gồm một proxy web để kiểm soát và lọc truy cập Internet. Nó cũng có thể được sử dụng để lọc nội dung và quản lý truy cập mạng.
 
 
 
 
 
-- Quản lý băng thông (QoS)**: OPNsense cung cấp các tính năng quản lý Chất lượng dịch vụ (QoS) để ưu tiên lưu lượng mạng và quản lý băng thông mạng tốt hơn.
+- **Quản lý băng thông (QoS)**: OPNsense cung cấp các tính năng quản lý Chất lượng dịch vụ (QoS) để ưu tiên lưu lượng mạng và quản lý băng thông mạng tốt hơn.
 
 
 
 
 
-- Cổng thông tin cố định**: tính năng này cho phép bạn quản lý quyền truy cập của người dùng vào mạng thông qua trang xác thực (cơ sở cục bộ, chứng từ, v.v.). Đây là tính năng thường được triển khai cho mạng Wi-Fi công cộng.
+- **Cổng thông tin cố định**: tính năng này cho phép bạn quản lý quyền truy cập của người dùng vào mạng thông qua trang xác thực (cơ sở cục bộ, chứng từ, v.v.). Đây là tính năng thường được triển khai cho mạng Wi-Fi công cộng.
 
 
 
 
 
-- IDS/IPS**: OPNsense tích hợp Suricata để cung cấp chức năng phát hiện và ngăn chặn xâm nhập (IDS/IPS) nhằm bảo vệ mạng khỏi các cuộc tấn công.
+- **IDS/IPS**: OPNsense tích hợp Suricata để cung cấp chức năng phát hiện và ngăn chặn xâm nhập (IDS/IPS) nhằm bảo vệ mạng khỏi các cuộc tấn công.
 
 
 
 
 
-- Tính khả dụng cao (CARP)**: OPNsense hỗ trợ CARP (*Giao thức dự phòng Address chung*) để có tính khả dụng cao giữa nhiều tường lửa OPNsense, đảm bảo dịch vụ vẫn hoạt động ngay cả khi phần cứng bị lỗi.
+- **Tính khả dụng cao (CARP)**: OPNsense hỗ trợ CARP (*Giao thức dự phòng Address chung*) để có tính khả dụng cao giữa nhiều tường lửa OPNsense, đảm bảo dịch vụ vẫn hoạt động ngay cả khi phần cứng bị lỗi.
 
 
 
 
 
-- Báo cáo và Giám sát**: OPNsense cung cấp các công cụ báo cáo và giám sát theo thời gian thực để theo dõi hiệu suất mạng (với NetFlow) và phát hiện các sự cố tiềm ẩn, nhờ vào việc tạo nhật ký. Nhật ký này bao gồm cả đồ họa. Công cụ Monit được tích hợp vào OPNsense và cho phép giám sát tường lửa.
+- **Báo cáo và Giám sát**: OPNsense cung cấp các công cụ báo cáo và giám sát theo thời gian thực để theo dõi hiệu suất mạng (với NetFlow) và phát hiện các sự cố tiềm ẩn, nhờ vào việc tạo nhật ký. Nhật ký này bao gồm cả đồ họa. Công cụ Monit được tích hợp vào OPNsense và cho phép giám sát tường lửa.
 
 
 
@@ -147,11 +147,12 @@ Bạn cần lưu ý đến các tài nguyên phần cứng cần thiết để c
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Tính năng | Tối thiểu | Khuyến nghị |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Bộ xử lý | 1 GHz - 2 lõi | 1.5 GHz - Đa lõi |
+| RAM | 2 GB | 8 GB |
+| Không gian lưu trữ cho hệ thống | Ổ cứng, SSD hoặc thẻ SD (4 GB) | 120 GB trên SSD |
 
 Cuối cùng, **yêu cầu tài nguyên của bạn phụ thuộc chủ yếu vào số lượng kết nối cần quản lý**, và do đó phụ thuộc vào **yêu cầu băng thông** của bạn. Ngoài ra, bạn cần **lưu ý các dịch vụ sẽ được kích hoạt và sử dụng** (proxy, phát hiện xâm nhập, v.v...) vì chúng có thể ngốn nhiều CPU và/hoặc RAM.
 
@@ -179,11 +180,11 @@ Mục tiêu của chúng tôi là
 
 
 
-- Tạo một mạng ảo nội bộ (192.168.10.0/24 - LAN)**, có thể truy cập Internet thông qua tường lửa OPNsense. Đối với mục đích sử dụng sản xuất, đây có thể là mạng cục bộ, cáp và/hoặc Wi-Fi của bạn.
-- Kích hoạt và cấu hình NAT** để các máy ảo trong mạng ảo nội bộ có thể truy cập Internet
-- Kích hoạt và cấu hình máy chủ DHCP trên OPNsense** để phân phối cấu hình IP cho các máy trong tương lai được kết nối với mạng ảo nội bộ
-- Cấu hình tường lửa** để chỉ cho phép luồng dữ liệu LAN tới WAN đi qua HTTP (80) và HTTPS (443).
-- Cấu hình tường lửa** để cho phép mạng LAN ảo sử dụng OPNsense làm trình phân giải DNS (53).
+- Tạo một mạng ảo nội bộ (192.168.10.0/24 - LAN), có thể truy cập Internet thông qua tường lửa OPNsense. Đối với mục đích sử dụng sản xuất, đây có thể là mạng cục bộ, cáp và/hoặc Wi-Fi của bạn.
+- Kích hoạt và cấu hình **NAT** để các máy ảo trong mạng ảo nội bộ có thể truy cập Internet
+- Kích hoạt và cấu hình máy chủ DHCP trên **OPNsense** để phân phối cấu hình IP cho các máy trong tương lai được kết nối với mạng ảo nội bộ
+- Cấu hình **tường lửa** để chỉ cho phép luồng dữ liệu LAN tới WAN đi qua HTTP (80) và HTTPS (443).
+- Cấu hình **tường lửa** để cho phép mạng LAN ảo sử dụng OPNsense làm trình phân giải DNS (53).
 
 
 
@@ -207,7 +208,7 @@ Bước đầu tiên là chuẩn bị phương tiện cài đặt: **USB có th�
 
 
 
-Sau khi tải xuống, bạn sẽ nhận được **một tệp lưu trữ chứa hình ảnh ở định dạng ".img". Bạn có thể **tạo ổ USB khởi động** bằng nhiều ứng dụng khác nhau, bao gồm **balenaEtcher**: cực kỳ dễ sử dụng. Hơn nữa, ứng dụng sẽ nhận dạng hình ảnh trong tệp lưu trữ, vì vậy bạn không cần phải giải nén trước.
+Sau khi tải xuống, bạn sẽ nhận được **một tệp lưu trữ chứa hình ảnh ở định dạng ".img"**. Bạn có thể **tạo ổ USB khởi động** bằng nhiều ứng dụng khác nhau, bao gồm **balenaEtcher**: cực kỳ dễ sử dụng. Hơn nữa, ứng dụng sẽ nhận dạng hình ảnh trong tệp lưu trữ, vì vậy bạn không cần phải giải nén trước.
 
 
 
@@ -257,7 +258,7 @@ Sau đó, bạn sẽ đến Interface tương tự như bên dưới. Đăng nh�
 
 
 
-Một trình hướng dẫn mới sẽ xuất hiện trên màn hình. Bước đầu tiên là chọn bố cục bàn phím tương ứng với cấu hình của bạn. Đối với bàn phím AZERTY, hãy chọn tùy chọn "**Tiếng Pháp (phím nhấn)**" từ danh sách, sau đó nhấp đúp**.
+Một trình hướng dẫn mới sẽ xuất hiện trên màn hình. Bước đầu tiên là chọn bố cục bàn phím tương ứng với cấu hình của bạn. Đối với bàn phím AZERTY, hãy chọn tùy chọn **"Tiếng Pháp (phím nhấn)"** từ danh sách, sau đó nhấp đúp.
 
 
 
@@ -382,7 +383,7 @@ pfctl -d
 
 
 
-Có thể truy cập OPNsense Administration Interface qua HTTPS, sử dụng IP Address của LAN** Interface (hoặc WAN). Trình duyệt sẽ đưa bạn đến trang đăng nhập. Đăng nhập bằng tài khoản "root" và mật khẩu bạn đã chọn trước đó.
+Có thể truy cập OPNsense Administration Interface qua HTTPS, sử dụng IP Address của **LAN Interface** (hoặc WAN). Trình duyệt sẽ đưa bạn đến trang đăng nhập. Đăng nhập bằng tài khoản "root" và mật khẩu bạn đã chọn trước đó.
 
 
 
@@ -566,7 +567,7 @@ Sau đó tạo ba quy tắc mới để cho phép **mạng LAN** (tức là "**m
 
 
 
-Việc còn lại là nhấp vào "**Áp dụng thay đổi**" để chuyển các quy tắc tường lửa mới sang môi trường sản xuất. **Xin lưu ý rằng tất cả các luồng không được ủy quyền rõ ràng sẽ bị chặn theo mặc định.
+Việc còn lại là nhấp vào "**Áp dụng thay đổi**" để chuyển các quy tắc tường lửa mới sang môi trường sản xuất. **Xin lưu ý rằng tất cả các luồng không được ủy quyền rõ ràng sẽ bị chặn theo mặc định.**
 
 
 

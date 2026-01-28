@@ -1,0 +1,9 @@
+question: Was ist das Besondere an einer SPV-Node?
+answer: Es werden nur die Blockheader beibehalten
+wrong_answers:
+  - Die gesamte Blockchain seit dem Genesis-Block wird gespeichert
+  - Sie speichert nur die neuesten Blöcke
+  - Sie behält nur das UTXO-Set, nicht die Blockchain
+explanation: |
+  Eine SPV-Node verifiziert Transaktionen über Block-Header und Merkle-Proofs, ohne die vollständigen Daten zu speichern.
+reviewed: true

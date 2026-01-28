@@ -1,11 +1,11 @@
-question: Hva er de tre kanoniske funksjonene til penger?
-answer: Verdioppbevaring, Byttemiddel, Regningsenhet
+question: Hvorfor kan ikke gull holde tritt i en globalisert og digital verden?
+answer: Det trenger en sentral enhet for å gjøre det delelig og lett utbyttbart
 wrong_answers:
-  - Verdioppbevaring, Byttemiddel, Produksjonsmiddel
-  - Verdioppbevaring, Produksjonsmiddel, Regningsenhet
-  - Byttemiddel, Produksjonsmiddel, Regningsenhet
+  - Det er ikke verdifullt nok
+  - Det er ikke sjeldent nok
+  - Det eroderer over tid
 explanation: |
-  Ifølge Aristoteles tjener penger tre funksjoner: de er en verdioppbevaring,
-  et byttemiddel, og en regningsenhet. Selv om det i dag er bredt akseptert at
-  byttemiddelet foregår de to andre funksjonene.
+  Gull kan ikke holde tritt i en globalisert og digital verden fordi det trenger
+  en sentral enhet for å gjøre det delelig og lett utbyttbart. Dette gjør det mindre
+  praktisk for bruk i en verden hvor transaksjoner i økende grad er digitale og desentraliserte.
 reviewed: true

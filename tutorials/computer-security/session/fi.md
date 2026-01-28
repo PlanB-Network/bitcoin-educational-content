@@ -1,5 +1,5 @@
 ---
-name: Istunto
+name: Session
 description: Lähetä salattuja viestejä, ei metatietoja
 ---
 ![cover](assets/cover.webp)
@@ -26,25 +26,26 @@ Istunto on suunnattu ennen kaikkea käyttäjille, joille luottamuksellisuus on e
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Sovellus | E2EE 1:1 | E2EE-ryhmät | Anonyymi rekisteröityminen | Open-source asiakaslisenssi | Open-source palvelinlisenssi | Hajautettu palvelin | Perustamisvuosi |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (valinnainen) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (valinnainen) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federoitu) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (sähköpostilla) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federoitu) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (ei hakemistoa) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = End-to-end-salaus*
 
@@ -99,13 +100,13 @@ Tämän jälkeen sinun on valittava kahden ilmoituksenhallintatilan välillä:
 
 
 
-- Nopea tila ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: voit vastaanottaa viesti-ilmoituksia lähes reaaliajassa Googlen tai Applen (järjestelmästäsi riippuen) tarjoamien ilmoituspalvelujen ansiosta. Jotta tämä toimisi, IP Address ja yksilöllinen ilmoitustunnus lähetetään Googlelle tai Applelle, ja istuntotilin tunnus rekisteröidään myös STF-palvelimelle (Torin kautta). Tässä tilassa metatietoja paljastuu (tosin vain vähän), mutta se ei vaaranna viestien sisältöä tai yhteystietoja, eikä todellista toimintaasi voida jäljittää. Tämä tila on siis tehokkaampi reagointikyvyn kannalta, mutta se on riippuvainen keskitetystä infrastruktuurista ja hieman tehottomampi luottamuksellisuuden kannalta.
+- Nopea tila (**Firebase Cloud Messaging/Apple Push Notification Service**): voit vastaanottaa viesti-ilmoituksia lähes reaaliajassa Googlen tai Applen (järjestelmästäsi riippuen) tarjoamien ilmoituspalvelujen ansiosta. Jotta tämä toimisi, IP Address ja yksilöllinen ilmoitustunnus lähetetään Googlelle tai Applelle, ja istuntotilin tunnus rekisteröidään myös STF-palvelimelle (Torin kautta). Tässä tilassa metatietoja paljastuu (tosin vain vähän), mutta se ei vaaranna viestien sisältöä tai yhteystietoja, eikä todellista toimintaasi voida jäljittää. Tämä tila on siis tehokkaampi reagointikyvyn kannalta, mutta se on riippuvainen keskitetystä infrastruktuurista ja hieman tehottomampi luottamuksellisuuden kannalta.
 
 
 
 
 
-- Hidas tila (*taustakysely*)**: istuntosovellus pysyy aktiivisena taustalla ja kyselee säännöllisesti verkosta uusia viestejä. Tämä toimintatapa takaa luottamuksellisemman tiedonsiirron kuin ensimmäinen toimintatapa, sillä tietoja ei välitetä kolmannen osapuolen palvelimille; Google, Apple tai STF-palvelimet eivät saa mitään tietoja. Toisaalta tässä tilassa on kaksi haittaa: ilmoitukset voivat viivästyä (jopa useita minuutteja), ja energiankulutus on yleensä suurempi, koska sovellus toimii taustalla.
+- Hidas tila (**taustakysely**): istuntosovellus pysyy aktiivisena taustalla ja kyselee säännöllisesti verkosta uusia viestejä. Tämä toimintatapa takaa luottamuksellisemman tiedonsiirron kuin ensimmäinen toimintatapa, sillä tietoja ei välitetä kolmannen osapuolen palvelimille; Google, Apple tai STF-palvelimet eivät saa mitään tietoja. Toisaalta tässä tilassa on kaksi haittaa: ilmoitukset voivat viivästyä (jopa useita minuutteja), ja energiankulutus on yleensä suurempi, koska sovellus toimii taustalla.
 
 
 
@@ -145,7 +146,7 @@ Tämä lause toimii samalla tavalla kuin Bitcoin-salkuissa käytetyt Mnemonic-la
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Huomaa**: Toisin kuin Bitcoin-salkuissa käytetyt Mnemonic-lauseet, Session-salkussa **jokainen sana on ehdottomasti tallennettava kokonaisuudessaan**. Neljä ensimmäistä kirjainta ei riitä!
 
@@ -171,7 +172,7 @@ Pääset sovellusasetuksiin napsauttamalla Interface:n vasemmassa yläkulmassa o
 
 
 
-Valikossa "*Hälytys*" voit valita "*Nopea tila*" ja "Hidas tila*" (katso oppaan aiemmat osat). Voit myös mukauttaa ilmoituksia mieltymystesi mukaan.
+Valikossa "*Hälytys*" voit valita "*Nopea tila*" ja "*Hidas tila*" (katso oppaan aiemmat osat). Voit myös mukauttaa ilmoituksia mieltymystesi mukaan.
 
 
 
@@ -299,4 +300,4 @@ Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen Threeman, toisen
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

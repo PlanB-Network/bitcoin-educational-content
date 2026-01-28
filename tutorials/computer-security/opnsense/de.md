@@ -56,55 +56,55 @@ Hier sind einige der wichtigsten Funktionen von OPNsense:
 
 
 
-- Firewall und NAT**: OPNsense bietet fortschrittliche Stateful-Firewall-Funktionalität mit Stateful-Filterung sowie Network-Address-Translation (NAT)-Funktionen.
+- **Firewall und NAT**: OPNsense bietet fortschrittliche Stateful-Firewall-Funktionalität mit Stateful-Filterung sowie Network-Address-Translation (NAT)-Funktionen.
 
 
 
 
 
-- DNS/DHCP**: OPNsense kann für die Verwaltung von DNS- und DHCP-Diensten im Netzwerk konfiguriert werden. Es kann als DHCP-Server fungieren, aber auch als DNS-Auflöser für Maschinen im lokalen Netzwerk verwendet werden. Dnsmasq ist ebenfalls standardmäßig integriert.
+- **DNS/DHCP**: OPNsense kann für die Verwaltung von DNS- und DHCP-Diensten im Netzwerk konfiguriert werden. Es kann als DHCP-Server fungieren, aber auch als DNS-Auflöser für Maschinen im lokalen Netzwerk verwendet werden. Dnsmasq ist ebenfalls standardmäßig integriert.
 
 
 
 
 
-- VPN**: OPNsense unterstützt mehrere VPN-Protokolle, darunter IPsec, OpenVPN und WireGuard, und ermöglicht so sichere Verbindungen für den Fernzugriff auf mobile Workstations oder die Standortvernetzung.
+- **VPN**: OPNsense unterstützt mehrere VPN-Protokolle, darunter IPsec, OpenVPN und WireGuard, und ermöglicht so sichere Verbindungen für den Fernzugriff auf mobile Workstations oder die Standortvernetzung.
 
 
 
 
 
-- Web-Proxy**: OPNsense enthält einen Web-Proxy, um den Internetzugang zu kontrollieren und zu filtern. Er kann auch verwendet werden, um Inhalte zu filtern und den Netzwerkzugang zu verwalten.
+- **Web-Proxy**: OPNsense enthält einen Web-Proxy, um den Internetzugang zu kontrollieren und zu filtern. Er kann auch verwendet werden, um Inhalte zu filtern und den Netzwerkzugang zu verwalten.
 
 
 
 
 
-- Bandbreitenverwaltung (QoS)**: OPNsense bietet Quality of Service (QoS) Management Funktionen, um den Netzwerkverkehr zu priorisieren und die Netzwerkbandbreite besser zu verwalten.
+- **Bandbreitenverwaltung (QoS)**: OPNsense bietet Quality of Service (QoS) Management Funktionen, um den Netzwerkverkehr zu priorisieren und die Netzwerkbandbreite besser zu verwalten.
 
 
 
 
 
-- Captive Portal**: Mit dieser Funktion können Sie den Benutzerzugang zum Netzwerk über eine Authentifizierungsseite (lokale Basis, Voucher usw.) verwalten. Diese Funktion wird häufig für öffentliche Wi-Fi-Netzwerke eingesetzt.
+- **Captive Portal**: Mit dieser Funktion können Sie den Benutzerzugang zum Netzwerk über eine Authentifizierungsseite (lokale Basis, Voucher usw.) verwalten. Diese Funktion wird häufig für öffentliche Wi-Fi-Netzwerke eingesetzt.
 
 
 
 
 
-- IDS/IPS**: OPNsense integriert Suricata, um Intrusion Detection und Prevention (IDS/IPS) Funktionen zum Schutz des Netzwerks vor Angriffen anzubieten.
+- **IDS/IPS**: OPNsense integriert Suricata, um Intrusion Detection und Prevention (IDS/IPS) Funktionen zum Schutz des Netzwerks vor Angriffen anzubieten.
 
 
 
 
 
-- Hohe Verfügbarkeit (CARP)**: OPNsense unterstützt CARP (*Common Address Redundancy Protocol*) für Hochverfügbarkeit zwischen mehreren OPNsense Firewalls und stellt sicher, dass der Dienst auch bei einem Hardwareausfall aktiv bleibt.
+- **Hohe Verfügbarkeit (CARP)**: OPNsense unterstützt CARP (*Common Address Redundancy Protocol*) für Hochverfügbarkeit zwischen mehreren OPNsense Firewalls und stellt sicher, dass der Dienst auch bei einem Hardwareausfall aktiv bleibt.
 
 
 
 
 
-- Berichterstattung und Überwachung**: OPNsense bietet Echtzeit-Berichts- und Überwachungswerkzeuge, um die Netzwerkleistung (mit NetFlow) zu verfolgen und dank der Erstellung von Protokollen potenzielle Probleme zu erkennen. Dies schließt Grafiken ein. Das Monit-Tool ist in OPNsense integriert und ermöglicht die Überwachung der Firewall selbst.
+- **Berichterstattung und Überwachung**: OPNsense bietet Echtzeit-Berichts- und Überwachungswerkzeuge, um die Netzwerkleistung (mit NetFlow) zu verfolgen und dank der Erstellung von Protokollen potenzielle Probleme zu erkennen. Dies schließt Grafiken ein. Das Monit-Tool ist in OPNsense integriert und ermöglicht die Überwachung der Firewall selbst.
 
 
 
@@ -139,7 +139,7 @@ Sie können auch **eine rack-montierbare OPNsense-Appliance** über unseren Onli
 
 
 
-Sie müssen die für den Betrieb von OPNsense erforderlichen Hardware-Ressourcen berücksichtigen. Dies wird auf [dieser Dokumentationsseite] (https://docs.opnsense.org/manual/hardware.html) ausführlich beschrieben.
+Sie müssen die für den Betrieb von OPNsense erforderlichen Hardware-Ressourcen berücksichtigen. Dies wird auf [dieser Dokumentationsseite](https://docs.opnsense.org/manual/hardware.html) ausführlich beschrieben.
 
 
 
@@ -147,11 +147,12 @@ Sie müssen die für den Betrieb von OPNsense erforderlichen Hardware-Ressourcen
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Merkmale | Minimum | Empfehlung |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Prozessor | 1 GHz - 2 Kerne | 1.5 GHz - Multi-Core |
+| Arbeitsspeicher (RAM) | 2 GB | 8 GB |
+| Speicherplatz für das System | Festplatte, SSD oder SD-Karte (4 GB) | 120 GB auf SSD |
 
 Schließlich hängt der **Ressourcenbedarf vor allem von der Anzahl der zu verwaltenden Verbindungen** und damit vom **Bandbreitenbedarf** ab. Darüber hinaus müssen Sie **die Dienste berücksichtigen, die aktiviert und verwendet werden** (Proxy, Intrusion Detection usw.), da diese CPU- und/oder RAM-hungrig sein können.
 
@@ -179,11 +180,11 @@ Unser Ziel ist es
 
 
 
-- Erstellen Sie ein internes virtuelles Netzwerk (192.168.10.0/24 - LAN)**, das über die OPNsense Firewall auf das Internet zugreifen kann. Für den Produktionseinsatz könnte dies Ihr lokales Netzwerk, Kabel und/oder Wi-Fi sein.
-- Aktivieren und konfigurieren Sie NAT**, damit VMs im internen virtuellen Netzwerk auf das Internet zugreifen können
-- Aktivieren und konfigurieren Sie den DHCP-Server auf OPNsense**, um eine IP-Konfiguration an zukünftige Maschinen zu verteilen, die mit dem internen virtuellen Netzwerk verbunden sind
-- Konfigurieren Sie die Firewall** so, dass nur ausgehende LAN-zu-WAN-Flüsse in HTTP (80) und HTTPS (443) zugelassen werden.
-- Konfigurieren Sie die Firewall** so, dass das virtuelle LAN OPNsense als DNS-Auflöser verwenden kann (53).
+- Erstellen Sie ein internes virtuelles Netzwerk (192.168.10.0/24 - LAN), das über die OPNsense Firewall auf das Internet zugreifen kann. Für den Produktionseinsatz könnte dies Ihr lokales Netzwerk, Kabel und/oder Wi-Fi sein.
+- Aktivieren und konfigurieren Sie **NAT**, damit VMs im internen virtuellen Netzwerk auf das Internet zugreifen können
+- Aktivieren und konfigurieren Sie den DHCP-Server auf **OPNsense**, um eine IP-Konfiguration an zukünftige Maschinen zu verteilen, die mit dem internen virtuellen Netzwerk verbunden sind
+- Konfigurieren Sie die **Firewall** so, dass nur ausgehende LAN-zu-WAN-Flüsse in HTTP (80) und HTTPS (443) zugelassen werden.
+- Konfigurieren Sie die **Firewall** so, dass das virtuelle LAN OPNsense als DNS-Auflöser verwenden kann (53).
 
 
 
@@ -257,7 +258,7 @@ Sie gelangen dann zu einer Interface-Seite, die der folgenden ähnelt. Melden Si
 
 
 
-Ein neuer Assistent erscheint auf dem Bildschirm. Der erste Schritt besteht darin, das Tastaturlayout auszuwählen, das Ihrer Konfiguration entspricht. Wählen Sie für eine AZERTY-Tastatur die Option "**Französisch (Akzenttasten)**" aus der Liste und doppelklicken Sie dann auf**.
+Ein neuer Assistent erscheint auf dem Bildschirm. Der erste Schritt besteht darin, das Tastaturlayout auszuwählen, das Ihrer Konfiguration entspricht. Wählen Sie für eine AZERTY-Tastatur die Option **Französisch (Akzenttasten)** aus der Liste und doppelklicken Sie dann darauf.
 
 
 
@@ -382,7 +383,7 @@ pfctl -d
 
 
 
-Auf die OPNsense Administration Interface kann über HTTPS zugegriffen werden, wobei die IP Address des LAN** Interface (oder des WAN) verwendet wird. Ihr Browser führt Sie zu einer Anmeldeseite. Melden Sie sich mit dem "root"-Konto und dem Passwort an, das Sie zuvor ausgewählt haben.
+Auf die OPNsense Administration Interface kann über HTTPS zugegriffen werden, wobei die IP Address des **LAN Interface** (oder des WAN) verwendet wird. Ihr Browser führt Sie zu einer Anmeldeseite. Melden Sie sich mit dem "root"-Konto und dem Passwort an, das Sie zuvor ausgewählt haben.
 
 
 
@@ -566,7 +567,7 @@ Daraus ergibt sich das folgende Ergebnis:
 
 
 
-Nun müssen Sie nur noch auf "**Änderungen übernehmen**" klicken, um die neuen Firewall-Regeln in die Produktion zu übernehmen. **Bitte beachten Sie, dass alle Ströme, die nicht ausdrücklich autorisiert sind, standardmäßig blockiert werden
+Nun müssen Sie nur noch auf "**Änderungen übernehmen**" klicken, um die neuen Firewall-Regeln in die Produktion zu übernehmen. **Bitte beachten Sie, dass alle Ströme, die nicht ausdrücklich autorisiert sind, standardmäßig blockiert werden.**
 
 
 

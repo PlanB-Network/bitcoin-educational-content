@@ -66,4 +66,4 @@ b2e00517
 
 Per essere valido, un blocco deve avere un'intestazione che, una volta sottoposta a hash con `SHA256d`, produca un hash inferiore o uguale all'obiettivo di difficoltà.
 
-> *In inglese, si parla di "Block Header" (intestazione del blocco)
+> *In inglese, si parla di "Block Header" (intestazione del blocco)*

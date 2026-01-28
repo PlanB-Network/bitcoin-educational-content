@@ -1,12 +1,12 @@
-question: 在 Bitcoin 交易中，交易費用的目的是什麼？
-answer: 它們是礦工將交易包含在下一個區塊中的獎勵。
+question: 在 Bitcoin 網路中區塊 Mining 的情況下，何謂有效的 Hash？
+answer: 與區塊相關的唯一指紋，由 256 個字元組成。
 wrong_answers:
-  - 它們是政府徵收的稅項。
-  - 它們是 Bitcoin 網路針對使用其服務所收取的費用。
-  - 它們是 Wallet 提供商收取的費用。
+  - 用於存取區塊的唯一代碼。
+  - 開採區塊所需的唯一密碼。
+  - 挖出區塊的 Miner 的唯一識別碼。
 explanation: |
-  Bitcoin 交易中的交易費可作為
-  礦工將交易納入下一個
-  區塊。這些費用創造了一個自由市場，讓
-  交易納入區塊的自由市場。
+  就 Bitcoin 網路中的區塊 Mining 而言，有效的 Hash 是與 Bitcoin 網路相關的唯一指紋。
+  有效的 Hash 是與該區塊相關的唯一指紋，由 256 個字元組成。
+  區塊相關的唯一指紋，由 256 個字元組成。此
+  Hash 的有效性取決於 Bitcoin 網路的難度。
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Xe Avalon Nano 3S
+name: Canaan Avalon Nano 3S
 description: Cấu hình ASIC Avalon của bạn để khai thác đơn lẻ hoặc nhóm Miner
 ---
 
@@ -23,7 +23,7 @@ Các thiết bị này được tiếp thị dưới dạng máy sưởi phụ t
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Xin lưu ý rằng sự chênh lệch giá với các máy sưởi truyền thống có công suất tương đương không, trong phần lớn các trường hợp, cho phép bạn kiếm được lợi nhuận tài chính. Satoshi do hoạt động của Mining tạo ra sẽ không bao giờ bù đắp được sự chênh lệch giá này, trừ khi bạn có quyền truy cập vào điện miễn phí (thặng dư) hoặc rất rẻ.
 
@@ -75,17 +75,18 @@ Dưới đây là bảng tóm tắt thông số kỹ thuật chung của Nano 3S
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Đặc tính                                      | Giá trị                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Tốc độ Hash                                      | 6 Th/s +- 5%                                            |
+| Tiêu thụ Điện năng                               | 140 W                                                   |
+| Tiếng ồn                                                | 30 - 40 dB                                              |
+| Phạm vi Nhiệt độ Không khí Ra                 | 60-70°C (ở nhiệt độ môi trường 25°C)                |
+| Yêu cầu Nhiệt độ Môi trường để Sử dụng | -5 đến 30°C                                            |
+| Phạm vi Điện áp Đầu vào Thiết bị                         | 28V 5A liên tục                                          |
+| Phạm vi Điện áp Đầu vào Bộ Chuyển đổi                       | 110-240V AC 50/60Hz                                     |
+| Kích thước Thiết bị                                 | Chiều dài: 205 mm / Chiều rộng: 115 mm / Chiều cao: 58.5 mm |
+| Trọng lượng Thiết bị                                  | 0.86 kg                                                 |
 
 ## Bật nguồn và kết nối với mạng cục bộ
 
@@ -207,9 +208,9 @@ Trong trường hợp của chúng tôi, chúng tôi chọn:
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Tóm lại, chúng ta cần
 
@@ -358,4 +359,4 @@ Chúng ta đã đến phần cuối của hướng dẫn này, hướng dẫn c�
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

@@ -1,0 +1,9 @@
+question: Mis on node-in-a-boxi peamine eelis toore rakendamise ees?
+answer: Lihtne paigaldamine ja integreeritud rakenduse haldamine
+wrong_answers:
+  - Konsensusreeglite rangem kontrollimine
+  - Otsene juurdepääs Blockchain-le ilma ladustamiseta
+  - Ühilduvus muu vääringu kui Bitcoinga
+explanation: |
+  Node-in-a-box lihtsustab paljude lisarakenduste paigaldamist ja haldamist ühtse Interface kaudu.
+reviewed: true

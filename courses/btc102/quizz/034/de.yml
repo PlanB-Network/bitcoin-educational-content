@@ -1,9 +1,9 @@
-question: Welches zweite Layer-Protokoll ermöglicht nahezu sofortige Zahlungen?
+question: Welches Protokoll auf der zweiten Schicht (second-layer) ermöglicht nahezu sofortige Zahlungen?
 answer: Lightning Network
 wrong_answers:
-  - Seitenketten
+  - Side Chains
   - RGB
-  - Bitcoin Kern
+  - Bitcoin Core
 explanation: |
-  Der Lightning Network ermöglicht schnelle und kostengünstige Transaktionen durch off-chain Operationen außerhalb des Bitcoin Blockchain.
+  Das Lightning Network ermöglicht schnelle und kostengünstige Transaktionen durch off-chain Operationen ausserhalb der Bitcoin Blockchain.
 reviewed: false

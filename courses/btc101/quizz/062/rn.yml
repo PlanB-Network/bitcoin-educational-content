@@ -1,12 +1,12 @@
-question: Ni ubuhe buryo butuma habaho ububiko bushasha bwongerwa kuri Blockchain buri minota cumi?
-answer: Guhindura ingorane.
+question: Ni igitigiri kingana iki c’ama bitcoins yariko arakoreshwa inyuma ya Halving ya mbere?
+answer: 10.500.000 z’ama BTC.
 wrong_answers:
-  - Guhindura umuvuduko.
-  - Guhindura umwanya.
-  - Guhindura amabuye.
+  - 5.250.000 z’ama BTC.
+  - 15.750.000 z’ama BTC.
+  - 21.000.000 z’ama BTC.
 explanation: |
-  Uburyo butuma habaho igice gishasha congerwa ku
-  Blockchain buri minota cumi ni uguhindura ingorane.
-  Iryo hinduka riba buri 2016, canke nko mu 2016.
-  indwi zibiri.
+  Inyuma ya Halving ya mbere, yabaye ku burebure bw’ibarabara
+  210.000, ni umubare ugereranywa w’ama bitcoins ariko arakoreshwa .
+  yari 10.500.000 BTC, ni ukuvuga igice c’umubare wose w’ama BTC.
+  bitcoins zizoba ziriko ziragendagenda.
 reviewed: true

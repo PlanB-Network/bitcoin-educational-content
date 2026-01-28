@@ -14,9 +14,9 @@ Nos primeiros tempos do Bitcoin, era necessário executar um nó Bitcoin para ac
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Por conseguinte, foram lançados projectos para expandir a comunidade Bitcoin, tornando-a mais acessível a qualquer pessoa que não possua um nó e/ou não tenha as competências técnicas necessárias.
 
@@ -30,7 +30,7 @@ Neste tutorial, vamos analisar o projeto **Mempool.space**, as suas caraterísti
 
 
 
-*o *Mempool.space** é um explorador de código aberto que fornece informações úteis sobre transacções, taxas de transação, blocos e mineiros nas várias redes do protocolo Bitcoin. Lançado em 2020, traz uma melhoria significativa na experiência do utilizador através de gráficos representativos, animações suaves e interfaces organizadas.
+O **Mempool.space** é um explorador de código aberto que fornece informações úteis sobre transacções, taxas de transação, blocos e mineiros nas várias redes do protocolo Bitcoin. Lançado em 2020, traz uma melhoria significativa na experiência do utilizador através de gráficos representativos, animações suaves e interfaces organizadas.
 
 
 
@@ -46,7 +46,7 @@ A utilização cada vez mais generalizada no ecossistema e o facto de o Mempool.
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Noções básicas sobre o Mempool.space
 
@@ -64,10 +64,10 @@ Na barra de menu, encontra as seguintes redes:
 
 
 
-- Mainnet** : A rede principal do Bitcoin onde se realizam as verdadeiras transacções do Bitcoin.
-- Signet**: Uma rede de teste que utiliza assinaturas digitais para validar blocos sem necessitar dos recursos exigidos pela rede principal.
-- Testnet 3**: Uma rede de teste e desenvolvimento sem riscos sobre o protocolo Bitcoin.
-- Testnet 4** : A nova versão do Testnet 3 traz maior estabilidade e novas regras de consenso para o ambiente de teste.
+- **Mainnet**: A rede principal do Bitcoin onde se realizam as verdadeiras transacções do Bitcoin.
+- **Signet**: Uma rede de teste que utiliza assinaturas digitais para validar blocos sem necessitar dos recursos exigidos pela rede principal.
+- **Testnet 3**: Uma rede de teste e desenvolvimento sem riscos sobre o protocolo Bitcoin.
+- **Testnet 4**: A nova versão do Testnet 3 traz maior estabilidade e novas regras de consenso para o ambiente de teste.
 
 
 
@@ -142,9 +142,9 @@ Na página de detalhes da transação, encontrará informações gerais sobre a 
 
 
 
-- Estado**: Confirmado quando adicionado a um bloco, não confirmado quando em espera num Mempool.
-- Taxas de transação**.
-- Hora prevista de chegada (ETA)** :  O tempo aproximado que levará para a sua transação ser adicionada a um bloco. É calculado de acordo com o rácio que constitui as taxas associadas a esta transação.
+- **Estado**: Confirmado quando adicionado a um bloco, não confirmado quando em espera num Mempool.
+- **Taxas de transação**.
+- **Hora prevista de chegada (ETA)**: O tempo aproximado que levará para a sua transação ser adicionada a um bloco. É calculado de acordo com o rácio que constitui as taxas associadas a esta transação.
 
 
 
@@ -176,7 +176,7 @@ Descubra os diferentes esquemas de transação Bitcoin para aumentar a sua confi
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Acelere as suas transacções
 
@@ -192,7 +192,7 @@ Felizmente, existem dois métodos disponíveis na rede Bitcoin para acelerar a c
 
 
 
-- RBF** - Substituição por taxa: Um método que lhe permite gastar as mesmas entradas que a sua transação de taxa reduzida, mas desta vez aumentando a taxa de transação para acelerar a validação. A nova transação será validada mais rapidamente e incluída num bloco, invalidando a transação de taxa reduzida.
+- **RBF** - Substituição por taxa: Um método que lhe permite gastar as mesmas entradas que a sua transação de taxa reduzida, mas desta vez aumentando a taxa de transação para acelerar a validação. A nova transação será validada mais rapidamente e incluída num bloco, invalidando a transação de taxa reduzida.
 
 
 
@@ -200,11 +200,11 @@ Felizmente, existem dois métodos disponíveis na rede Bitcoin para acelerar a c
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
-- CPFP** - Child pay for parent: Uma abordagem inspirada no RBF, mas do lado do destinatário. Quando a transação de que é destinatário é bloqueada num Mempool, tem a possibilidade de gastar os outputs (UTXOs) desta transação, apesar de esta ainda não ter sido confirmada, atribuindo mais taxas a esta nova transação, de modo a que as taxas médias - da transação de que é destinatário e da transação iniciada - incentivem os mineiros a incluir ambas as transacções num bloco.
+- **CPFP** - Child pay for parent: Uma abordagem inspirada no RBF, mas do lado do destinatário. Quando a transação de que é destinatário é bloqueada num Mempool, tem a possibilidade de gastar os outputs (UTXOs) desta transação, apesar de esta ainda não ter sido confirmada, atribuindo mais taxas a esta nova transação, de modo a que as taxas médias - da transação de que é destinatário e da transação iniciada - incentivem os mineiros a incluir ambas as transacções num bloco.
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Se todos estes termos lhe parecerem demasiado técnicos, recomendo-lhe que [consulte o nosso glossário] (https://planb.network/resources/glossary), que contém definições de todos os termos técnicos relacionados com o Bitcoin e o seu ecossistema.
+Se todos estes termos lhe parecerem demasiado técnicos, recomendo-lhe que [consulte o nosso glossário](https://planb.academy/resources/glossary), que contém definições de todos os termos técnicos relacionados com o Bitcoin e o seu ecossistema.
 
 
 
@@ -235,7 +235,7 @@ Um Miner refere-se a uma pessoa que gere uma mina, ou seja, um computador envolv
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 os mineiros são como "validadores" que verificam e agrupam as transacções em blocos. Para adicionar um novo bloco à rede Bitcoin, têm de resolver um puzzle matemático complexo (o Proof-of-Work). O primeiro Miner a resolver o puzzle ganha uma recompensa Bitcoin (subsídio do bloco + taxas das transacções incluídas no bloco).
 
@@ -372,4 +372,4 @@ Agora que chegou ao fim da sua viagem no Mempool.space, torne-se o seu próprio 
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

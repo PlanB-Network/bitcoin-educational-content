@@ -30,8 +30,8 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Algajad**: Kasutajad, kes soovivad hallata oma bitcoin'e intuitiivse mobiilirakenduse abil.
-- Vahepealsed kasutajad**: Inimesed, kes soovivad mõista onchaini funktsioone ja privaatsusvõimalusi, nagu Tor või SPV.
+- **Algajad**: Kasutajad, kes soovivad hallata oma bitcoin'e intuitiivse mobiilirakenduse abil.
+- **Vahepealsed kasutajad**: Inimesed, kes soovivad mõista onchaini funktsioone ja privaatsusvõimalusi, nagu Tor või SPV.
 
 
 
@@ -41,14 +41,14 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kõik nimetused nutitelefoni, arvutisse või mis tahes internetti ühendatud seadmesse paigaldatud rakendusele, mis võimaldab hallata ja kaitsta Bitcoin Wallet privaatvõtmeid.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kõik nimetused nutitelefoni, arvutisse või mis tahes internetti ühendatud seadmesse paigaldatud rakendusele, mis võimaldab hallata ja kaitsta Bitcoin Wallet privaatvõtmeid.
 - Erinevalt **hardvaralistest rahakottidest**, mida tuntakse ka **Cold rahakottidena**, mis isoleerivad võtmed võrguühenduseta, töötavad tarkvaralised rahakotid ühendatud keskkonnas, mis muudab need küberrünnakute suhtes haavatavamaks.
 
 
 
 
 
-- Soovitatav kasutusviis** :
+- **Soovitatav kasutusviis**:
     - Sobib ideaalselt mõõdukate Bitcoin koguste haldamiseks, eriti igapäevaste tehingute puhul.
     - Sobib algajatele või piiratud varadega kasutajatele, kellele Hardware Wallet võib tunduda üleliigne.
 
@@ -56,7 +56,7 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Piirangud**: Vähem turvaline suurte rahaliste vahendite või pikaajaliste säästude säilitamiseks. Sellisel juhul valige Hardware Wallet.
+- **Piirangud**: Vähem turvaline suurte rahaliste vahendite või pikaajaliste säästude säilitamiseks. Sellisel juhul valige Hardware Wallet.
 
 
 
@@ -67,16 +67,16 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Blockstream App** on mobiilirakendus (iOS, Android) ja töölauarakendus Bitcoin portfellide ja varade haldamiseks Liquid Network-l. Omandati [Blockstream](https://blockstream.com/) poolt 2016. aastal ja kandis varem nime *Green Address* ja seejärel *Blockstream Green*.
-- Peamised omadused** :
-    - Onchain** tehingud Blockchain Bitcoin.
+- **Blockstream App** on mobiilirakendus (iOS, Android) ja töölauarakendus Bitcoin portfellide ja varade haldamiseks Liquid Network-l. Omandati [Blockstream](https://blockstream.com/) poolt 2016. aastal ja kandis varem nime *Green Address* ja seejärel *Blockstream Green*.
+- **Peamised omadused**:
+- **Onchain** tehingud Blockchain Bitcoin.
     - Võrgutehingud **Liquid** (Sidechain kiireks, konfidentsiaalseks andmevahetuseks).
-    - Ainult vaatlusportfellid** fondide jälgimiseks ilma juurdepääsuta võtmetele.
+- Ainult **vaatlusportfellid** fondide jälgimiseks ilma juurdepääsuta võtmetele.
     - Privaatsusvõimalused: ühendus **Tori** kaudu, ühendus **isikliku sõlme** kaudu Electrumi kaudu või **SPV** verifitseerimine, et vähendada sõltuvust kolmandate osapoolte sõlmedest.
     - Funktsioonid **Replace-by-fee (RBF)** kinnitamata tehingute kiirendamiseks.
-- Ühilduvus**: **Blockstream Jade**.
-- Interface**: Intuitiivne algajatele, täiustatud võimalustega ekspertidele.
-- Märkus**: Käesolev juhend keskendub ahelate kasutamisele. Muud lisades olevad õpetused hõlmavad Liquid, Watch-Only ja töölauaversiooni.
+- **Ühilduvus**: **Blockstream Jade**.
+- **Interface**: Intuitiivne algajatele, täiustatud võimalustega ekspertidele.
+- **Märkus**: Käesolev juhend keskendub ahelate kasutamisele. Muud lisades olevad õpetused hõlmavad Liquid, Watch-Only ja töölauaversiooni.
 
 
 
@@ -90,12 +90,12 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Androidi jaoks** :
+- **Androidi jaoks**:
     - Lae [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) Google Play Store'ist alla.
     - Alternatiiv: [Blockstream'i ametlikul GitHubil](https://github.com/Blockstream/green_android) saadaval oleva APK-faili kaudu.
-- IOS-i jaoks** :
+- **IOS-i jaoks**:
     - Lae [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) App Store'ist alla.
-- Märkus**: Kindlasti lae alla ametlikest allikatest, et vältida võltsitud rakendusi.
+- **Märkus**: Kindlasti lae alla ametlikest allikatest, et vältida võltsitud rakendusi.
 
 
 
@@ -105,7 +105,7 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Avakuva**: Esmakordsel avamisel kuvab rakendus ekraani ilma konfigureeritud Wallet-ta. Loodud või imporditud portfellid ilmuvad siia hiljem.
+- **Avakuva**: Esmakordsel avamisel kuvab rakendus ekraani ilma konfigureeritud Wallet-ta. Loodud või imporditud portfellid ilmuvad siia hiljem.
 
 
 
@@ -115,7 +115,7 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Kohandage seadeid**: Klõpsake nupule "Rakenduse seaded", kohandage allpool olevaid valikuid, klõpsake nupule "Salvesta", taaskäivitage rakendus ja looge oma portfell.
+- **Kohandage seadeid**: Klõpsake nupule "Rakenduse seaded", kohandage allpool olevaid valikuid, klõpsake nupule "Salvesta", taaskäivitage rakendus ja looge oma portfell.
 
 
 
@@ -129,8 +129,8 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Funktsioon**: Lülitab ekraanipildid välja, peidab rakenduste eelvaateid ülesannete halduris ja lukustab juurdepääsu, kui telefon on lukustatud.
-- Miks?** : Kaitseb teie andmeid volitamata füüsilise juurdepääsu või ekraani hõivava pahavara eest.
+- **Funktsioon**: Lülitab ekraanipildid välja, peidab rakenduste eelvaateid ülesannete halduris ja lukustab juurdepääsu, kui telefon on lukustatud.
+- **Miks?**: Kaitseb teie andmeid volitamata füüsilise juurdepääsu või ekraani hõivava pahavara eest.
 
 
 #### 3.2.2. Ühendus Tori kaudu
@@ -139,10 +139,10 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Funktsioon**: Marsruudi võrguliiklus **Tor** kaudu, mis on anonüümne võrk, mis krüpteerib teie ühendused.
-- Miks?**: Ideaalne, kui te ei usalda oma võrku (näiteks avalik Wi-Fi).
-- Puudus**: Võib aeglustada rakendust krüpteerimise tõttu.
-- Soovitus**: Aktiveerige Tor, kui konfidentsiaalsus on prioriteet, kuid testige ühenduse kiirust.
+- **Funktsioon**: Marsruudi võrguliiklus **Tor** kaudu, mis on anonüümne võrk, mis krüpteerib teie ühendused.
+- **Miks?**: Ideaalne, kui te ei usalda oma võrku (näiteks avalik Wi-Fi).
+- **Puudus**: Võib aeglustada rakendust krüpteerimise tõttu.
+- **Soovitus**: Aktiveerige Tor, kui konfidentsiaalsus on prioriteet, kuid testige ühenduse kiirust.
 
 
 #### 3.2.3. Isikliku sõlme ühendamine
@@ -151,10 +151,10 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Funktsioon**: Ühendab rakenduse oma **täieliku Bitcoin sõlme** kaudu **Electrum** serveriga.
-- Miks?**: Annab täieliku kontrolli Blockchain andmete üle, kõrvaldades sõltuvuse Blockstream serveritest.
-- Eeltingimus**: Konfigureeritud Bitcoin-sõlm.
-- Soovitus**: Edasijõudnud kasutajad, kes soovivad maksimaalset suveräänsust.
+- **Funktsioon**: Ühendab rakenduse oma **täieliku Bitcoin sõlme** kaudu **Electrum** serveriga.
+- **Miks?**: Annab täieliku kontrolli Blockchain andmete üle, kõrvaldades sõltuvuse Blockstream serveritest.
+- **Eeltingimus**: Konfigureeritud Bitcoin-sõlm.
+- **Soovitus**: Edasijõudnud kasutajad, kes soovivad maksimaalset suveräänsust.
 
 
 #### 3.2.4. SPV kontrollimine
@@ -163,10 +163,10 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Funktsioon**: Kasutab **Ühendatud makse kontrollimine (SPV)**, et kontrollida otse teatud Blockchain andmeid ilma kogu ahelat alla laadimata.
-- Miks?**: Vähendab sõltuvust Blockstream'i vaikimisi sõlmedest, jäädes samal ajal mobiilsete seadmete jaoks kergekaaluliseks.
-- Puudus**: Vähem turvaline kui Full node, kuna see tugineb teatud teabe osas kolmandate osapoolte sõlmedele.
-- Soovitus**: Aktiveerige SPV, kui te ei saa kasutada isiklikku sõlme, kuid eelistate optimaalse turvalisuse tagamiseks Full node.
+- **Funktsioon**: Kasutab **Ühendatud makse kontrollimine (SPV)**, et kontrollida otse teatud Blockchain andmeid ilma kogu ahelat alla laadimata.
+- **Miks?**: Vähendab sõltuvust Blockstream'i vaikimisi sõlmedest, jäädes samal ajal mobiilsete seadmete jaoks kergekaaluliseks.
+- **Puudus**: Vähem turvaline kui Full node, kuna see tugineb teatud teabe osas kolmandate osapoolte sõlmedele.
+- **Soovitus**: Aktiveerige SPV, kui te ei saa kasutada isiklikku sõlme, kuid eelistate optimaalse turvalisuse tagamiseks Full node.
 
 
 
@@ -182,7 +182,7 @@ description: Seadistage Blockstream App mobiilis ja hallake onchain tehinguid
 
 
 
-- Ettevaatust**: Seadke oma portfell üles privaatses keskkonnas, ilma kaamerate või vaatlejateta.
+- **Ettevaatust**: Seadke oma portfell üles privaatses keskkonnas, ilma kaamerate või vaatlejateta.
 - Avakuval klõpsake nuppu "Get Started" :
 
 
@@ -266,9 +266,9 @@ seed 12-sõnaline lause kuvatakse teile salvestamiseks.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 4.3. Kinnitage seed lause
 
@@ -284,7 +284,7 @@ Selleks kirjutame üles viite, kustutame Wallet, taastame selle varukoopiaga ja 
 
 
 
-- Klõpsake Wallet avakuval vahekaardil "Settings" (Seaded), seejärel "Wallet Details" (Wallet andmed) ja kopeerige zPub ([extended public key](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Klõpsake Wallet avakuval vahekaardil "Settings" (Seaded), seejärel "Wallet Details" (Wallet andmed) ja kopeerige zPub ([extended public key](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
 
 
 
@@ -308,7 +308,7 @@ Märkus: zpub Address saab importida oma Blockstream rakendusse "Watch Only" fun
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 4.5. Rakendusele juurdepääsu tagamine
 
@@ -360,7 +360,7 @@ Lukustage juurdepääs rakendusele tugeva PIN-koodiga:
 
 
 
-- Valikud** :
+- **Valikud**:
     - (1) "Bitcoin": klõpsake, et valida onchain või Liquid saadetis ja valige vara.
     - (2) Klõpsake nooltele, et valida teine uus Address, mis on seotud selle seed lausega.
     - (3) Samuti saate valida Address juba kasutatud/näidatud aadresside hulgast, klõpsates kolmele punktile üleval paremal ja seejärel "List of Addresses"
@@ -376,7 +376,7 @@ Lukustage juurdepääs rakendusele tugeva PIN-koodiga:
 
 
 - Jagage Address/URI, klõpsates "**Jagamine**", kopeerides teksti või skaneerides QR-koodi.
-- Kontrollimine**: Kontrollige Address, mida jagatakse vastuvõtjaga, nii palju kui võimalik, et vältida vigu või rünnakuid (nt pahavara, mis muudab lõikelaua).
+- **Kontrollimine**: Kontrollige Address, mida jagatakse vastuvõtjaga, nii palju kui võimalik, et vältida vigu või rünnakuid (nt pahavara, mis muudab lõikelaua).
 
 
 
@@ -396,7 +396,7 @@ Lukustage juurdepääs rakendusele tugeva PIN-koodiga:
 
 
 
-- Sisestage andmed** :
+- Sisestage andmed:
     - (1) Sisestage saaja **Address**, kleepides seda või skaneerides QR-koodi.
     - (2) Kontrollige varasid ja kontot, millelt raha saadetakse.
     - (3) Märkige **summa**, mis tuleb saata. Saate valida ühiku: BTC, satoshis, USD, ...
@@ -420,7 +420,7 @@ Minimaalne summa (dush-limiit) 03/08/2025 on 546 Sats.
 
 
 
-- Kontrolli** :
+- **Kontrolli**:
     - Kontrollige Address, summat ja tasusid kokkuvõtte ekraanil.
     - Address viga võib kaasa tuua vahendite pöördumatu kaotuse. Ettevaatust pahavara, mis muudab lõikelaua.
 
@@ -432,8 +432,8 @@ Minimaalne summa (dush-limiit) 03/08/2025 on 546 Sats.
 
 
 
-- Kinnitus**: Tehingu allkirjastamiseks ja levitamiseks libistage nuppu "Saada".
-- Järelmeetmed**: Wallet vahekaardil "Transact" kuvatakse tehing "ootel" kuni kinnitamiseni (1 kuni 6 kinnitust):
+- **Kinnitus**: Tehingu allkirjastamiseks ja levitamiseks libistage nuppu "Saada".
+- **Järelmeetmed**: Wallet vahekaardil "Transact" kuvatakse tehing "ootel" kuni kinnitamiseni (1 kuni 6 kinnitust):
 
 
 
@@ -464,19 +464,19 @@ Liquid Network kasutamine
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Wallet importimine ja jälgimine režiimis "Watch Only" (ainult vaatamine)
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Töölaua versioon
 
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 ### A2. Replace-by-fee (RBF) selgitus
@@ -502,7 +502,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [Sõnastik](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Sõnastik](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -517,19 +517,19 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- Kindlustage oma taastumisfraas** :
+- **Kindlustage oma taastumisfraas** :
  - Tutorial: Mnemonic lause salvestamine
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
-- Kasutage turvalist autentimist** :
+
+
+- Kasutage turvalist autentimist:
  - Aktiveerige **tugev PIN-kood** või **biomeetriline autentimine** (sõrmejälg või näotuvastus), et kaitsta juurdepääsu rakendusele.
  - Ärge kunagi jagage oma PIN-koodi või biomeetrilisi andmeid.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kaitske oma privaatsust** :
+- **Kaitske oma privaatsust**:
  - generate uus Address iga onchain- või Liquid-vastuvõtu jaoks, et piirata jälgimist Blockchain-l.
  - Aktiveerige funktsioonid "Täiustatud privaatsus", "Tor" ja "SPV".
  - Maksimaalse konfidentsiaalsuse tagamiseks ühendage oma Wallet oma Bitcoin sõlme Electrumi serveri kaudu, selle asemel et kasutada avalikku sõlme
@@ -546,23 +546,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Valige oma vajadustele kõige paremini sobiv võrk** :
- - Onchain**: Eelistatud pikaajalise hoidmise või suure väärtusega tehingute puhul (tasud on summa suhtes tähtsusetud).
- - Liquid**: Kasutage kiireks ja odavaks ülekandmiseks koos täiustatud konfidentsiaalsusega.
- - Välk**: Valige väikeste summade puhul kiire ja soodne ülekanne.
+- Valige oma vajadustele kõige paremini sobiv **võrk**:
+- **Onchain**: Eelistatud pikaajalise hoidmise või suure väärtusega tehingute puhul (tasud on summa suhtes tähtsusetud).
+- **Liquid**: Kasutage kiireks ja odavaks ülekandmiseks koos täiustatud konfidentsiaalsusega.
+- **Välk**: Valige väikeste summade puhul kiire ja soodne ülekanne.
 
 
 
 
 
-- Kontrollige alati tarneaadresse** :
+- **Kontrollige alati tarneaadresse**:
  - Enne raha saatmist kontrollige Address hoolikalt. Vale Address-le saadetud raha on igaveseks kadunud. Kasutage kopeerimist/liitmist või QR-koodi skaneerimist, ärge kunagi kopeerige/muutke Address käsitsi.
 
 
 
 
 
-- Optimeerida kulusid** :
+- **Optimeerida kulusid**:
  - Valige ahelas toimuvate tehingute puhul sobivad tasud (aeglane, keskmine, kiire) vastavalt kiireloomulisusele ja võrgu ülekoormusele.
  - Kasutage väikeste koguste puhul Liquid või Lightning.
 
@@ -581,16 +581,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ametlikud lingid:**
- - [Ametlik veebileht](https://blockstream.com/)**
- - [mobiilirakenduse tugi](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentatsioon ja vestlus
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Ametlikud lingid:**
+- [Ametlik veebileht](https://blockstream.com/)
+- [mobiilirakenduse tugi](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentatsioon ja vestlus
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Plokkide uurijad :**
+- Plokkide uurijad:
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Välk: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -599,31 +599,31 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Õppe- ja juhendmaterjalid:** **[Plan ₿ Network](https://planb.network/)** :
+- **Õppe- ja juhendmaterjalid:** **[Plan ₿ Academy](https://planb.academy/)** :
  - Teie taastumislause kindlustamine
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-
-
-
-- Liquid Network** :
- - [Sõnastik](https://planb.network/fr/resources/glossary/Liquid-network)**
-
-
-
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
-- Lightning Network** :
- - [Sõnastik](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Liquid Network** :
+- [Sõnastik](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+
+
+
+
+- **Lightning Network**:
+- [Sõnastik](https://planb.academy/fr/resources/glossary/lightning-network)
+
+
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

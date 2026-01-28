@@ -1,5 +1,5 @@
 ---
-name: Orion webbläsare
+name: Orion Browser
 description: Hur använder jag Orion Browser för att skydda din integritet på Mac och iPhone?
 ---
 
@@ -60,11 +60,11 @@ Dess unika funktion? Orion är den **enda WebKit**-webbläsare som kan installer
 
 
 
-- Begränsad tillgänglighet**: För närvarande reserverat för macOS och iOS/iPadOS. En Linux-version håller på att nå milstolpar i utvecklingen (milstolpe 2 år 2025), men ingen publik version finns tillgänglig. Windows och Android är inte under utveckling på grund av resursbrist.
-- Stängd källkod**: Även om vissa komponenter har öppen källkod är Orion fortfarande till övervägande del proprietärt, vilket är en fråga som diskuteras i integritetsgemenskapen.
-- Experimentella tillägg**: Stöd för tillägg är fortfarande i betaversion, med frekventa inkompatibiliteter. Tillägg kan påverka prestandan, och vissa fungerar inte alls.
-- WebKit-säkerhet**: Till skillnad från Chromium erbjuder WebKit inte en lika robust processisolering per webbplats, vilket kan innebära säkerhetsrisker i vissa scenarier.
-- Blockering av tester**: Orion presterar avsiktligt dåligt i tester för onlineannonsering (26-35%), eftersom Kagi anser att dessa tester är "fundamentalt felaktiga". Den faktiska effektiviteten vid daglig användning är mycket bättre.
+- **Begränsad tillgänglighet**: För närvarande reserverat för macOS och iOS/iPadOS. En Linux-version håller på att nå milstolpar i utvecklingen (milstolpe 2 år 2025), men ingen publik version finns tillgänglig. Windows och Android är inte under utveckling på grund av resursbrist.
+- **Stängd källkod**: Även om vissa komponenter har öppen källkod är Orion fortfarande till övervägande del proprietärt, vilket är en fråga som diskuteras i integritetsgemenskapen.
+- **Experimentella tillägg**: Stöd för tillägg är fortfarande i betaversion, med frekventa inkompatibiliteter. Tillägg kan påverka prestandan, och vissa fungerar inte alls.
+- **WebKit-säkerhet**: Till skillnad från Chromium erbjuder WebKit inte en lika robust processisolering per webbplats, vilket kan innebära säkerhetsrisker i vissa scenarier.
+- **Blockering av tester**: Orion presterar avsiktligt dåligt i tester för onlineannonsering (26-35%), eftersom Kagi anser att dessa tester är "fundamentalt felaktiga". Den faktiska effektiviteten vid daglig användning är mycket bättre.
 
 
 
@@ -79,13 +79,13 @@ Dess unika funktion? Orion är den **enda WebKit**-webbläsare som kan installer
 ![Page d'accueil Kagi avec Orion Browser](assets/fr/02.webp)
 
 
-*På Kagis hemsida presenteras Orion Browser som "en annonsfri webbläsare med totalt integritetsskydd och universellt stöd för tillägg"
+*På Kagis hemsida presenteras Orion Browser som "en annonsfri webbläsare med totalt integritetsskydd och universellt stöd för tillägg"*
 
 
 
 
 
-- Gå till [kagi.com/orion] (https://kagi.com/orion/)
+- Gå till [kagi.com/orion](https://kagi.com/orion/)
 - Klicka på "**Hämta Orion för macOS**"
 
 
@@ -134,7 +134,7 @@ Vid första uppskjutningen guidar Orion dig genom flera steg:
 
 
 
-**1. Välkommen skärm
+**1. Välkommen skärm**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ Vid första uppskjutningen guidar Orion dig genom flera steg:
 
 
 
-- Dataimport**: Överför enkelt favoriter och lösenord från Safari, Chrome eller Firefox
-- ICloud-synkronisering**: Aktivera för att hitta dina favoriter och flikar på alla dina Apple-enheter
+- **Dataimport**: Överför enkelt favoriter och lösenord från Safari, Chrome eller Firefox
+- **iCloud-synkronisering**: Aktivera för att hitta dina favoriter och flikar på alla dina Apple-enheter
 
 
 
@@ -171,7 +171,7 @@ Vid första uppskjutningen guidar Orion dig genom flera steg:
 
 
 
-**4. Interface välkomsthälsning och viktiga verktyg
+**4. Interface välkomsthälsning och viktiga verktyg**
 
 
 
@@ -188,9 +188,9 @@ När konfigurationen är klar kommer du att upptäcka Orions strömlinjeformade 
 
 
 
-- Sköld 🛡️**: Visar integritetsrapport med antal objekt som blockerats på aktuell sida
-- Borste 🖌️**: Anpassa sidvisningen (tema, teckensnitt, ta bort distraherande Elements)
-- Utrustning ⚙️**: Konfigurera webbplatsspecifika parametrar (behörigheter, blockering etc.)
+- **Sköld 🛡️**: Visar integritetsrapport med antal objekt som blockerats på aktuell sida
+- **Borste 🖌️**: Anpassa sidvisningen (tema, teckensnitt, ta bort distraherande Elements)
+- **Utrustning ⚙️**: Konfigurera webbplatsspecifika parametrar (behörigheter, blockering etc.)
 
 
 
@@ -251,8 +251,8 @@ Orion+ garanterar projektets oberoende: "Ditt ekonomiska bidrag hjälper oss att
 
 
 
-- Standardmotor**: Välj **DuckDuckGo**, **Startpage** eller **Kagi** för optimal integritet (undvik Google/Bing)
-- Sökförslag**: Avaktivera dem för att förhindra att tangenttryckningar läcker ut till sökmotorernas servrar
+- **Standardmotor**: Välj **DuckDuckGo**, **Startpage** eller **Kagi** för optimal integritet (undvik Google/Bing)
+- **Sökförslag**: Avaktivera dem för att förhindra att tangenttryckningar läcker ut till sökmotorernas servrar
 
 
 
@@ -272,9 +272,9 @@ Orion+ garanterar projektets oberoende: "Ditt ekonomiska bidrag hjälper oss att
 
 
 
-- EasyList**: 119k+ regler för annonsblockering
-- EasyPrivacy**: Skydd mot spårning
-- Hantera filterlistor**: Lägg till ytterligare listor (Hagezi rekommenderas)
+- **EasyList**: 119k+ regler för annonsblockering
+- **EasyPrivacy**: Skydd mot spårning
+- **Hantera filterlistor**: Lägg till ytterligare listor (Hagezi rekommenderas)
 
 
 
@@ -283,9 +283,9 @@ Orion+ garanterar projektets oberoende: "Ditt ekonomiska bidrag hjälper oss att
 
 
 
-- Ta bort spårare från webbadresser**: "Endast för privat surfning" rensar upp kopierade länkar
-- Dela med dig av kraschrapporter**: "Efter att ha bett om godkännande" respekterar ditt samtycke
-- Anpassad användaragent**: Kan modifieras för att kringgå vissa blockeringar
+- Ta bort spårare från webbadresser: **"Endast för privat surfning"** rensar upp kopierade länkar
+- **Dela med dig av kraschrapporter**: "Efter att ha bett om godkännande" respekterar ditt samtycke
+- **Anpassad användaragent**: Kan modifieras för att kringgå vissa blockeringar
 
 
 
@@ -312,10 +312,10 @@ Orion+ garanterar projektets oberoende: "Ditt ekonomiska bidrag hjälper oss att
 
 
 
-- Kompatibilitetsläge**: Löser visningsproblem genom att stänga av tillägg
-- Innehållsblockerare**: Avaktivera blockering för en specifik webbplats om det behövs
-- JavaScript/Cookies**: Granulär kontroll per webbplats
-- Behörigheter**: Kamera, mikrofon, plats individuellt konfigurerad
+- **Kompatibilitetsläge**: Löser visningsproblem genom att stänga av tillägg
+- **Innehållsblockerare**: Avaktivera blockering för en specifik webbplats om det behövs
+- **JavaScript/Cookies**: Granulär kontroll per webbplats
+- **Behörigheter**: Kamera, mikrofon, plats individuellt konfigurerad
 
 
 
@@ -338,7 +338,7 @@ Orion+ garanterar projektets oberoende: "Ditt ekonomiska bidrag hjälper oss att
 
 
 
-**Tips: Besök [FilterLists.com] (https://filterlists.com) för tusentals specialiserade listor som är färdiga att använda.
+**Tips:** Besök [FilterLists.com](https://filterlists.com) för tusentals specialiserade listor som är färdiga att använda.
 
 
 
@@ -355,9 +355,9 @@ Orion stöder inbyggt Chrome och Firefox förlängningar. Installera dem direkt 
 
 
 
-- uBlock Ursprung**: Lägger till detaljerad kontroll till den ursprungliga blockeraren
-- Bitwarden**: Lösenordshanterare med öppen källkod
-- ClearURLs**: Raderar URL-spårningsparametrar
+- **uBlock Ursprung**: Lägger till detaljerad kontroll till den ursprungliga blockeraren
+- **Bitwarden**: Lösenordshanterare med öppen källkod
+- **ClearURLs**: Raderar URL-spårningsparametrar
 
 
 
@@ -366,9 +366,9 @@ Orion stöder inbyggt Chrome och Firefox förlängningar. Installera dem direkt 
 
 
 
-- LokalCDN**: Serverar delade bibliotek lokalt
-- Automatisk borttagning av cookies**: Raderar automatiskt cookies när du stänger flikar
-- NoScript**: Total kontroll över JavaScript-körning (avancerade användare)
+- **LokalCDN**: Serverar delade bibliotek lokalt
+- **Automatisk borttagning av cookies**: Raderar automatiskt cookies när du stänger flikar
+- **NoScript**: Total kontroll över JavaScript-körning (avancerade användare)
 
 
 
@@ -426,8 +426,8 @@ Orions **brush**-verktyg är en unik funktion som gör att du kan anpassa visnin
 
 
 
-- Teckenstorlek**: Justera läsbarheten med knapparna A- och A+
-- Teckensnitt**: Ändra teckensnittsfamilj (standard eller anpassad)
+- **Teckenstorlek**: Justera läsbarheten med knapparna A- och A+
+- **Teckensnitt**: Ändra teckensnittsfamilj (standard eller anpassad)
 
 
 
@@ -436,8 +436,8 @@ Orions **brush**-verktyg är en unik funktion som gör att du kan anpassa visnin
 
 
 
-- Inaktivera klibbiga rubriker**: Tar bort rubriker som fastnar längst upp när du skrollar
-- Radera Elements**: Ta permanent bort irriterande Elements (annonser, popup-fönster, cookie-banners)
+- **Inaktivera klibbiga rubriker**: Tar bort rubriker som fastnar längst upp när du skrollar
+- **Radera Elements**: Ta permanent bort irriterande Elements (annonser, popup-fönster, cookie-banners)
   - Klicka på "+ Erase" och välj sedan det objekt som ska döljas
   - Mycket användbart för webbplatser med ihållande annonser eller visuell spårning Elements
 
@@ -452,10 +452,10 @@ Orions **brush**-verktyg är en unik funktion som gör att du kan anpassa visnin
 
 
 
-- Vertikala flikar**: Aktivera via menyraden (funktion Flikar på sidan)
-- Kompakta flikar**: I Inställningar → Flikar → Layout "Kompakt" för att spara utrymme
-- Flikgrupper**: Organisera dina sessioner efter tema
-- Flera profiler**: Skapa separata identiteter via menyraden (funktionen Profiler) med helt isolerade data
+- **Vertikala flikar**: Aktivera via menyraden (funktion Flikar på sidan)
+- **Kompakta flikar**: I Inställningar → Flikar → Layout "Kompakt" för att spara utrymme
+- **Flikgrupper**: Organisera dina sessioner efter tema
+- **Flera profiler**: Skapa separata identiteter via menyraden (funktionen Profiler) med helt isolerade data
 
 
 
@@ -468,13 +468,13 @@ Orions **brush**-verktyg är en unik funktion som gör att du kan anpassa visnin
 
 
 
-- Redigera text på sidan**: tillfälligt ändra valfri text (menyn Redigera)
-- Tillåt kopiering och klistra in**: Omgår kopieringsbegränsningar (menyn Redigera)
-- Kopiera ren länk**: Högerklicka på en länk för att ta bort spårningsparametrar
-- Focus Mode**: distraktionsfri navigering i helskärmsläge
-- Bild-i-bild**: Titta på videor i ett flytande fönster
-- Öppna i Internet Archive**: Direkt tillgång till arkiverade versioner
-- Sekretessrapport**: Klicka på skölden 🛡️ för att se vilka objekt som blockeras per sida
+- **Redigera text på sidan**: tillfälligt ändra valfri text (menyn Redigera)
+- **Tillåt kopiering och klistra in**: Omgår kopieringsbegränsningar (menyn Redigera)
+- **Kopiera ren länk**: Högerklicka på en länk för att ta bort spårningsparametrar
+- **Focus Mode**: distraktionsfri navigering i helskärmsläge
+- **Bild-i-bild**: Titta på videor i ett flytande fönster
+- **Öppna i Internet Archive**: Direkt tillgång till arkiverade versioner
+- **Sekretessrapport**: Klicka på skölden 🛡️ för att se vilka objekt som blockeras per sida
 
 
 
@@ -507,14 +507,14 @@ För att hålla Orion snabbt och privat:
 
 
 
-- Tillägg**: Begränsa till det absoluta minimum (kan minska prestandan)
-- Lågeffektsläge**: Aktivera för långa sessioner (90% besparing möjlig)
-- Sekretessrapport**: Klicka på skölden 🛡️ för att se blockeringar i realtid
-- Visuell anpassning**: Använd 🖌️-penseln för att anpassa skärmen och ta bort distraherande Elements
-- Kopiera ren länk**: Högerklicka för att kopiera länkar utan spårare
-- Separata profiler**: Använd särskilda profiler för att dela upp dina aktiviteter
-- Webbplatsinställningar**: Klicka på kugghjulet ⚙️ för att anpassa behörigheterna per webbplats
-- Regelbunden rengöring**: Rensa cacheminnet via Orion → Rensa webbläsardata
+- **Tillägg**: Begränsa till det absoluta minimum (kan minska prestandan)
+- **Lågeffektsläge**: Aktivera för långa sessioner (90% besparing möjlig)
+- **Sekretessrapport**: Klicka på skölden 🛡️ för att se blockeringar i realtid
+- **Visuell anpassning**: Använd 🖌️-penseln för att anpassa skärmen och ta bort distraherande Elements
+- **Kopiera ren länk**: Högerklicka för att kopiera länkar utan spårare
+- **Separata profiler**: Använd särskilda profiler för att dela upp dina aktiviteter
+- **Webbplatsinställningar**: Klicka på kugghjulet ⚙️ för att anpassa behörigheterna per webbplats
+- **Regelbunden rengöring**: Rensa cacheminnet via Orion → Rensa webbläsardata
 
 
 
@@ -522,15 +522,16 @@ För att hålla Orion snabbt och privat:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kriterium | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetri** | Ingen | Minimal | Omfattande | Måttlig | Minimal |
+| **Inbyggd blockerare** | 99,9% effektiv | Grundläggande | Frånvarande | Partiell | Fullständig |
+| **Tillägg** | Chrome + Firefox | Begränsad | Endast Chrome | Endast Firefox | Endast Chrome |
+| **Mac-prestanda** | Utmärkt | Utmärkt | Bra | Genomsnittlig | Bra |
+| **RAM-förbrukning** | Mycket låg | Låg | Höga | Genomsnittlig | Genomsnittlig |
+| **Open Source** | Partiell | Partiell (WebKit) | Partiell | Fullständig | Fullständig |
+| **Plattformar** | Mac/iOS | Mac/iOS | Alla | Alla | Alla |
 
 **I motsats till Safari**: Orion erbjuder ett överlägset skydd med avancerade blockerare och tilläggsstöd, samtidigt som WebKit-prestandan bibehålls.
 
@@ -605,9 +606,9 @@ För att hålla Orion snabbt och privat:
 
 
 
-- Automatiska uppdateringar**: Orion uppdateras automatiskt på macOS via Sparkle
-- Spårning av sårbarheter**: Kontrollera regelbundet release notes för säkerhetsuppdateringar
-- Rapportering av fel**: Använd [orionfeedback.org](https://orionfeedback.org) för att rapportera problem
+- **Automatiska uppdateringar**: Orion uppdateras automatiskt på macOS via Sparkle
+- **Spårning av sårbarheter**: Kontrollera regelbundet release notes för säkerhetsuppdateringar
+- **Rapportering av fel**: Använd [orionfeedback.org](https://orionfeedback.org) för att rapportera problem
 
 
 
@@ -641,12 +642,12 @@ Kom ihåg: att skydda din integritet beror inte bara på din webbläsare. Kombin
 
 
 
-- Officiell webbplats**: [kagi.com/orion](https://kagi.com/orion/)
-- Fullständig FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Gemenskapsforum**: [community.kagi.com](https://community.kagi.com)
-- Buggspårning**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponenter med öppen källkod
-- Blogg Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nyheter och uppdateringar
+- **Officiell webbplats**: [kagi.com/orion](https://kagi.com/orion/)
+- **Fullständig FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Gemenskapsforum**: [community.kagi.com](https://community.kagi.com)
+- **Buggspårning**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponenter med öppen källkod
+- **Blogg Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nyheter och uppdateringar
 
 
 
@@ -660,12 +661,12 @@ Efter konfigurationen ska du testa din installation:
 
 
 - [Täck dina spår (EFF)](https://coveryourtracks.eff.org/) - Fingeravtryckstest
-- [DNS Leak Test] (https://www.dnsleaktest.com/) - Sök efter DNS-läckor
-- [BrowserLeaks] (https://browserleaks.com/) - Komplett uppsättning integritetstester
+- [DNS Leak Test](https://www.dnsleaktest.com/) - Sök efter DNS-läckor
+- [BrowserLeaks](https://browserleaks.com/) - Komplett uppsättning integritetstester
 
 
 
-### Alternativ på Plan ₿ Network
+### Alternativ på Plan ₿ Academy
 
 
 För maximalt skydd, se våra andra guider:
@@ -673,14 +674,14 @@ För maximalt skydd, se våra andra guider:
 
 
 
-- [Firefox-härdad] (https://planb.network/tutorials/computer-security/firefox) - Avancerad konfiguration för flera plattformar
-- [Tor Browser] (https://planb.network/tutorials/computer-security/tor-browser) - Fullständig anonymitet på nätet
-- [Mullvad Browser] (https://planb.network/tutorials/computer-security/mullvad-browser) - Maximalt skydd för fingeravtryck
+- [Firefox-härdad](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Avancerad konfiguration för flera plattformar
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Fullständig anonymitet på nätet
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maximalt skydd för fingeravtryck
 
 
 
-Om du vill lära dig mer om webbläsarnas historia och funktion, samt om de viktigaste digitala objekten i ditt dagliga liv, vill jag bjuda in dig att upptäcka vår nya kostnadsfria kurs SCU 202, som finns tillgänglig på Plan ₿ Network:
+Om du vill lära dig mer om webbläsarnas historia och funktion, samt om de viktigaste digitala objekten i ditt dagliga liv, vill jag bjuda in dig att upptäcka vår nya kostnadsfria kurs SCU 202, som finns tillgänglig på Plan ₿ Academy:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

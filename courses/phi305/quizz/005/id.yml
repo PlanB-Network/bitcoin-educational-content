@@ -1,0 +1,9 @@
+question: Ilmuwan mana yang percaya bahwa matematika adalah bahasa alam semesta?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Copernicus.
+explanation: |
+  Galileo terkenal dengan pernyataannya bahwa "buku alam ditulis dalam bahasa matematika". Visi ini memiliki pengaruh besar pada sains modern dan filsafat rasionalis, termasuk filsafat Spinoza.
+reviewed: false

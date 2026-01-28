@@ -44,7 +44,7 @@ Blitz Wallet 是一款源代码公开（开放源代码）的 Bitcoin 自托管 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**重要**：这 12 / 24 个恢复单词对于访问您的比特币至关重要。如果丢失，您将无权使用比特币。
 
@@ -93,23 +93,23 @@ Blitz Wallet 的特色之一是支持 Bitcoin 生态系统中的不同网络和�
 
 
 
-- Lightning Network** ：Bitcoin 重叠之一，可让您即时进行微交易。
+- **Lightning Network**：Bitcoin 重叠之一，可让您即时进行微交易。
 
 
 
 
 
-- Bitcoin Mainnet** ：Bitcoin 协议的主链，适用于大额交易。
+- **Bitcoin Mainnet**：Bitcoin 协议的主链，适用于大额交易。
 
 
 
 
 
-- Liquid Network**：Bitcoin、Mainnet 的平行链，由 BlockStream 开发，使用 Liquid 比特币执行快速、Confidential Transactions。
+- **Liquid Network**：Bitcoin、Mainnet 的平行链，由 BlockStream 开发，使用 Liquid 比特币执行快速、Confidential Transactions。
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 默认情况下，您的所有交易都将在 Liquid Network 上进行，但 Blitz 允许您通过点击**选择格式**按钮来定义接收卫星币的网络。
 
@@ -169,7 +169,7 @@ Blitz Wallet 可让您通过 Wallet 轻松发送比特币。
 
 
 
-- 获取人工智能服务**：使用生成式人工智能模型，如Claude 3-5 sonnet、gpt-4o、gpt-4o-mini gemini-flash-1.5，并直接用比特币支付。
+- 获取人工智能服务：使用生成式人工智能模型，如Claude 3-5 sonnet、gpt-4o、gpt-4o-mini gemini-flash-1.5，并直接用比特币支付。
 
 
 
@@ -179,7 +179,7 @@ Blitz Wallet 可让您通过 Wallet 轻松发送比特币。
 
 
 
-- 在世界任何地方发送短信**：在 Blitz 商店，您可以使用 GSM 服务，在世界任何地方匿名发送短信，并以 Bitcoin 直接计费。
+- 在世界任何地方发送短信：在 Blitz 商店，您可以使用 GSM 服务，在世界任何地方匿名发送短信，并以 Bitcoin 直接计费。
 
 
 
@@ -189,7 +189,7 @@ Blitz Wallet 可让您通过 Wallet 轻松发送比特币。
 
 
 
-- 上网完全保密**：在 Wallet Blitz 商店用比特币支付 WireGuard VPN（虚拟专用网络）订阅费。
+- 上网完全保密：在 Wallet Blitz 商店用比特币支付 **WireGuard VPN**（虚拟专用网络）订阅费。
 
 
 
@@ -197,9 +197,9 @@ Blitz Wallet 可让您通过 Wallet 轻松发送比特币。
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet 闪电战的幕后故事：更进一步
 
@@ -221,7 +221,7 @@ Blitz Wallet 操作简单，但背后却蕴藏着强大的功能和个性化定�
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 您可以在菜单**设置>余额信息**中查看余额明细。
 
@@ -249,7 +249,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-- 在您的商店接受 Bitcoin** ：
+- 在您的商店接受 **Bitcoin**：
 
 
 
@@ -269,5 +269,4 @@ Bitcoin 与 Blitz Wallet 在商店中的整合仍处于试验阶段。我们建�
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

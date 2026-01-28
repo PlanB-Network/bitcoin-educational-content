@@ -1,0 +1,9 @@
+question: Заглавието на кой британски вестник беше включено в блока за генезис на Bitcoin през януари 2009 г.?
+answer: The Times
+wrong_answers:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+explanation: |
+  Точният надпис беше The Times, 03/януари 2009 г., "Канцлерът на ръба на втора спасителна помощ за банките".
+reviewed: true

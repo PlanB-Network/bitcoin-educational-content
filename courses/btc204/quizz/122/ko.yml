@@ -1,0 +1,10 @@
+question: P2P 전송 V2는 노드 간 통신의 프라이버시와 보안을 어떻게 개선하나요?
+answer: 기회주의적 암호화를 통합하여
+wrong_answers:
+  - 인증 통합으로
+  - 추가 릴레이를 사용하여
+  - 토르 사용
+explanation: |
+  P2P 전송 V2는 노드 간 통신의 프라이버시 및 보안을 강화하기 위해 기회주의적 암호화의 Layer을 통합합니다.
+  
+reviewed: true

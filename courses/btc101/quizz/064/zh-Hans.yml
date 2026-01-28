@@ -1,9 +1,8 @@
-question: 在比特币节点上验证流通中的比特币数量的命令是什么？
-answer: bitcoin-cli gettxoutsetinfo
+question: 第七次减半将在哪一年发生？
+answer: 2036
 wrong_answers:
-  - bitcoin-cli getblockchaininfo
-  - bitcoin-cli getwalletinfo
-  - bitcoin-cli getnetworkinfo
-explanation: |
-  在比特币节点上验证流通中的比特币数量的命令是 bitcoin-cli gettxoutsetinfo。这个命令提供了透明度和可验证性，增强了对比特币系统的信任。
-reviewed: true
+  - 2032
+  - 2028
+  - 2048
+explanation:
+  第七次减半预计将在2036年发生，届时流通中的比特币数量将达到20,835,937.5比特币，即总供应量的99.22%。

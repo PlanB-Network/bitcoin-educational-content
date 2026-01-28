@@ -1,0 +1,9 @@
+question: ¿Qué copias de seguridad son necesarias para restaurar un nodo Lightning?
+answer: seed y SCB
+wrong_answers:
+  - seed y archivo txindex
+  - seed e IP pública Address
+  - seed y 2FA
+explanation: |
+  La restauración de un nodo Rayo requiere tanto seed como SCB (Static Channel Backup), sin los cuales no se pueden recuperar los fondos de canal.
+reviewed: true

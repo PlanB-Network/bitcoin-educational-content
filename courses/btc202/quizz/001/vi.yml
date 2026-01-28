@@ -1,0 +1,9 @@
+question: Chúng ta gọi tập hợp các máy chạy triển khai Bitcoin và được kết nối với nhau là gì?
+answer: Mạng lưới Bitcoin
+wrong_answers:
+  - Giao thức Bitcoin
+  - Tiền tệ Bitcoin
+  - Blockchain Bitcoin
+explanation: |
+  Mạng Bitcoin bao gồm tất cả các nút được kết nối, mỗi nút chạy một triển khai riêng biệt của giao thức.
+reviewed: true

@@ -1,11 +1,9 @@
-question: ¿Qué es el trilema de la blockchain?
-answer: Un protocolo basado en una blockchain solo puede satisfacer dos de los criterios de descentralización, seguridad y escalabilidad.
+question: ¿Cómo se llaman los bitcoins utilizados en Liquid?
+answer: L-BTC
 wrong_answers:
-  - Un protocolo basado en una blockchain solo puede satisfacer uno de los criterios de descentralización, seguridad y escalabilidad.
-  - Un protocolo basado en una blockchain puede satisfacer todos los criterios de descentralización, seguridad y escalabilidad.
-  - Un protocolo basado en una blockchain no puede satisfacer ninguno de los criterios de descentralización, seguridad y escalabilidad.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  El trilema de la blockchain se refiere al desafío de que
-  un protocolo basado en una blockchain solo puede satisfacer dos criterios de
-  descentralización, seguridad y escalabilidad.
-reviewed: true
+  En Liquid, los bitcoins están representados por L-BTC vinculados 1 a 1 con BTC.
+reviewed: false

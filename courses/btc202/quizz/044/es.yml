@@ -1,0 +1,9 @@
+question: ¿Qué tecnología utiliza Umbrel para aislar y gestionar sus aplicaciones?
+answer: Contenedores Docker
+wrong_answers:
+  - Máquinas virtuales VirtualBox
+  - Guiones Bash
+  - Clústeres Kubernetes
+explanation: |
+  Cada aplicación de Umbrel se ejecuta en un contenedor Docker, lo que permite una gestión y un aislamiento independientes.
+reviewed: true

@@ -1,8 +1,8 @@
-question: Bitcoin 如何潛在地幫助生態轉型？
-answer: 它推廣使用 Green 能源。
+question: 減緩 Bitcoin 波動性的一種方法是什麼？
+answer: 金融對沖（穩定幣）。
 wrong_answers:
-  - 它減少了商品的生產。
-  - 它可以調節資源消耗。
-  - 它只限制溫室氣體的排放。
+  - 將所有資金投資在 Bitcoin。
+  - 忽略市場趨勢。
+  - 當價格下降時，購買更多 Bitcoin。
 explanation: >-
 reviewed: true

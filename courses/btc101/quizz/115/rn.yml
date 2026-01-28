@@ -1,11 +1,9 @@
-question: Ni nde muntu wa mbere yinjiye mu mugwi wa Bitcoin inyuma ya Satoshi Nakamoto?
-answer: Hal Finney.
+question: Ni igiki cabaye ku rubuga rwa Bitcoin kuva mu 2009?
+answer: 99,988%.
 wrong_answers:
-  - Laszo Hanyecz.
-  - Phil Ishampani.
-  - Rogizi.
+  - 100%.
+  - 90,009%.
+  - 80,17%.
 explanation: |
-  Hal Finney niwe muntu wa mbere yinjiye mu mugwi wa Bitcoin .
-  inyuma ya Satoshi Nakamoto ubwiwe. Yaranashize kuri Twitter ngo Running .
-  Bitcoin kugira ngo bamenyeshe uwo musi.
+  Uguboneka kuri internet kwa Bitcoin ni 99.988% kuva mu 2009.
 reviewed: true

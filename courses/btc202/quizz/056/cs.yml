@@ -1,0 +1,9 @@
+question: Jaký je nejjednodušší způsob připojení mobilního zařízení Wallet k systému Electrs prostřednictvím aplikace Umbrel?
+answer: Naskenujte kód QR Tor
+wrong_answers:
+  - Stažení souboru cookie
+  - Import soukromého klíče
+  - Zkopírujte soubor Wallet.dat
+explanation: |
+  Umbrel umožňuje přímo naskenovat kód Tor QR poskytnutý společností Electrs a nakonfigurovat mobilní připojení.
+reviewed: true

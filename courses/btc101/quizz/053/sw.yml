@@ -1,11 +1,11 @@
-question: Kuna kesi ya kihistoria ya kiwango cha kila siku cha mfumuko wa bei sawa na 100%; ilitokea wapi na lini?
-answer: Nchini Zimbabwe, 2007.
+question: Je, mchakato wa kuthibitisha miamala kwenye mtandao wa Bitcoin unaitwaje?
+answer: Mining
 wrong_answers:
-  - Huko Hungary, 1945.
-  - Huko Uchina, 1940.
-  - Kwa kweli hii ni kesi isiyo ya kweli ambayo haiwezi kutokea.
+  - Kuchimba
+  - Kuvuna
+  - Kilimo
 explanation: |
-  Mfumuko wa bei wa 100% kwa siku ni hali halisi ambayo
-  ilitokea Zimbabwe mwaka 2007, ambapo thamani ya fedha ni takriban
-  mara mbili kila masaa 24.
+  Mchakato unaothibitisha miamala kwenye Bitcoin
+  mtandao unaitwa Mining. Wachimbaji madini hufanya maandishi ya siri
+  kazi na wanalipwa kwa utoaji wa bitcoins mpya.
 reviewed: true

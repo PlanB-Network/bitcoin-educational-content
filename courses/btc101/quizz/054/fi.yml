@@ -1,10 +1,11 @@
-question: Mikä on hyperinflaation ilmiön toinen vaihe?
-answer: Valuutan romahdus & hinnannousu.
+question: Mikä on tapahtuman nimi, kun louhinnan palkkio puolittuu?
+answer: Puolittuminen
 wrong_answers:
-  - Luottamuksen menetys.
-  - Rahanpainamisen noidankehä.
-  - Uuden valuutan synty.
+  - Kahdentuminen
+  - Neljännekseksi jakaminen
+  - Kolminkertaistuminen
 explanation: |
-  Hyperinflaation toinen vaihe on valuutan romahdus &
-  hinnannousu, juuri Luottamuksen menetyksen vaiheen jälkeen.
+  Tapahtuma, jossa louhinnan palkkio puolittuu, on nimeltään
+  puolittuminen. Tämä tapahtuma antaa rahajulkaisun käyrälle
+  portaita muistuttavan muodon.
 reviewed: true

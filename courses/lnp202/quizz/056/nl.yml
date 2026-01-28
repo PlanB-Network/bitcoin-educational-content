@@ -1,0 +1,9 @@
+question: Welke stap volgt onmiddellijk op de publicatie van een NWC-verzoek door de mobiele toepassing op een relais?
+answer: Node decodeert en verifieert autorisatie
+wrong_answers:
+  - Het relais ondertekent het verzoek voor het knooppunt
+  - Relais voert betaling uit op LND
+  - Het knooppunt opent automatisch een kanaal
+explanation: |
+  Het knooppunt leest de gebeurtenis, decodeert deze en controleert vervolgens of de auteur geautoriseerd is voordat hij de actie uitvoert.
+reviewed: false

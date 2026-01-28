@@ -19,7 +19,7 @@ Vexl, tüm dünyadaki Bitcoin alıcılarını ve satıcılarını birbirine bağ
 
 
 
-Vexl'i kullanmaya başlamak oldukça basittir: [resmi web sitesini] (https://vexl.it) ziyaret edin, ardından mobil uygulamayı iOS veya Android telefonunuza indirin.
+Vexl'i kullanmaya başlamak oldukça basittir: [resmi web sitesini](https://vexl.it) ziyaret edin, ardından mobil uygulamayı iOS veya Android telefonunuza indirin.
 
 
 
@@ -75,7 +75,7 @@ Vexl ana sayfasında, kayıt olur olmaz, belirli işlemleri nasıl gerçekleşti
 
 
 
-Sohbet** simgesine tıklayarak, kişilerinizle yaptığınız görüşmelerin geçmişini ve görüş alışverişinde bulunduğunuz kişileri bulabilirsiniz.
+**Sohbet** simgesine tıklayarak, kişilerinizle yaptığınız görüşmelerin geçmişini ve görüş alışverişinde bulunduğunuz kişileri bulabilirsiniz.
 
 
 
@@ -188,4 +188,4 @@ Artık Vexl ile anonim ve güvenli bir şekilde bitcoin alışverişi yapmaya ba
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

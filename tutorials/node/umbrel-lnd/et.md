@@ -1,5 +1,5 @@
 ---
-name: Vihmauss LND
+name: Umbrel LND
 description: Täiustatud õpetus Lightning Network Daemon (LND) paigaldamiseks ja konfigureerimiseks Umbrelil
 ---
 ![cover](assets/cover.webp)
@@ -27,7 +27,7 @@ Umbreli paigaldamiseks ja Bitcoin sõlme konfigureerimiseks soovitame jälgida m
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Veenduge, et teie Bitcoin-sõlm on ajakohane ja töötab korralikult, sest Lightning Network tugineb sellele kõigi off-chain tehingute tegemiseks.
 
@@ -57,7 +57,7 @@ Lightning Network täieliku teoreetilise sissejuhatuse saamiseks soovitame teil 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 See kursus annab teile põhjaliku ülevaate Lightning Network põhimõistetest, enne kui liigute edasi LND sõlme kasutamise praktikasse.
 
@@ -154,7 +154,7 @@ Saate valida uue sõlme loomise või varukoopiast taastamise vahel/seed. Esmakor
 
 
 
-** Märkus: Umbreli uuemates versioonides annab Lightning-rakenduse paigaldamine selle 24-sõnalise seed (Bitcoin Umbreli sõlme ise ei paku).
+**Märkus:** Umbreli uuemates versioonides annab Lightning-rakenduse paigaldamine selle 24-sõnalise seed (Bitcoin Umbreli sõlme ise ei paku).
 
 
 
@@ -221,7 +221,7 @@ Kui LND on käivitunud ja töötab, saate avada oma esimese Lightning-kanali. Kv
 
 
 
-Näiteks [ACINQ-sõlm] (https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) on tunnustatud sõlme, millel on suurepärane kättesaadavuse ja likviidsuse statistika.
+Näiteks [ACINQ-sõlm](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) on tunnustatud sõlme, millel on suurepärane kättesaadavuse ja likviidsuse statistika.
 
 
 
@@ -496,11 +496,11 @@ Teie Lightning Umbrel-sõlme jaoks on vaja kahte tüüpi varukoopiaid:
 
 - Sisaldab Lightning kanali teavet
 - Võimaldab kanalite sunniviisilist sulgemist õnnetuse korral
-- Oluline:** Ärge kunagi salvestage faili `channel.db` käsitsi (karistuste oht)
+- **Oluline:** Ärge kunagi salvestage faili `channel.db` käsitsi (karistuste oht)
 
 
 
-**Manuaalne varundamise protseduur
+**Manuaalne varundamise protseduur**
 
 
 
@@ -613,17 +613,17 @@ Kui soovite rohkem teada saada, kuidas seadistada ja kasutada vaatetorne, soovit
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Muud parimad tavad
 
 
 
 
 
-- Tarkvarauuendused:** Hoidke Umbrel ja LND ajakohasena (turvaparandused)
-- Riistvaraline kaitse:** Kasutage stabiilset süsteemi (Raspberry Pi koos SSD-ga, mini-PC) ja UPSi
-- Võrgu turvalisus:** Hoidke vaikimisi Tor konfiguratsioon, muutke Umbrel admini parool (vaikimisi: "moneyprintergobrrr")
-- Krüpteerimine:** Võimaluse korral lülitage sisse ketta krüpteerimine
+- **Tarkvarauuendused:** Hoidke Umbrel ja LND ajakohasena (turvaparandused)
+- **Riistvaraline kaitse:** Kasutage stabiilset süsteemi (Raspberry Pi koos SSD-ga, mini-PC) ja UPSi
+- **Võrgu turvalisus:** Hoidke vaikimisi Tor konfiguratsioon, muutke Umbrel admini parool (vaikimisi: "moneyprintergobrrr")
+- **Krüpteerimine:** Võimaluse korral lülitage sisse ketta krüpteerimine
 
 
 
@@ -691,10 +691,10 @@ RTL on täielik "Šveitsi armee nuga" Lightning-sõlme haldamiseks eksperdikesks
 
 
 
-- Lightning Shell** : Käsurea (lncli) brauseri kaudu
-- BTC RPC Explorer ja Mempool** : Blockchain jälgimine
-- LNmetrics & Torq**: Marsruudi jõudluse analüüs
-- Amboss & 1ML**: oma sõlme "sotsiaalne" haldamine (aliased, kontaktid, võrguanalüüs)
+- **Lightning Shell**: Käsurea (lncli) brauseri kaudu
+- **BTC RPC Explorer ja Mempool**: Blockchain jälgimine
+- **LNmetrics & Torq**: Marsruudi jõudluse analüüs
+- **Amboss & 1ML**: oma sõlme "sotsiaalne" haldamine (aliased, kontaktid, võrguanalüüs)
 
 
 

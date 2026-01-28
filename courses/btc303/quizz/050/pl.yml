@@ -1,0 +1,9 @@
+question: Jaki rodzaj ataku obejmuje pojedynczy podmiot kontrolujący wiele węzłów w celu pojawienia się jako wiele podmiotów i dlaczego nie jest on skuteczny przeciwko mechanizmowi konsensusu Bitcoin?
+answer: Atak Sybil; jest nieskuteczny, ponieważ Bitcoin wykorzystuje moc obliczeniową proof-of-work do konsensusu, a nie do zliczania węzłów
+wrong_answers:
+  - "Atak Eclipse; jest nieskuteczny, ponieważ Bitcoin szyfruje całą komunikację węzłów przy użyciu zaawansowanych protokołów kryptograficznych"
+  - "Atak typu Denial-of-Service; jest nieskuteczny, ponieważ Bitcoin automatycznie redystrybuuje ruch przez zdrowe węzły w sieci"
+  - "Atak socjotechniczny; jest nieskuteczny, ponieważ programiści Bitcoin używają formalnych metod weryfikacji, aby zapobiec manipulacji"
+explanation: |
+  Atak typu Sybil ma miejsce, gdy jeden podmiot kontroluje wiele węzłów, podszywając się pod wiele odrębnych podmiotów. Atak ten jest jednak nieskuteczny przeciwko Bitcoin, ponieważ sieć nie opiera się na liczeniu węzłów ani demokratycznym głosowaniu wśród uczestników sieci. Zamiast tego Bitcoin wykorzystuje konsensus proof-of-work, w którym moc obliczeniowa (hashpower) określa decyzje sieciowe, a nie liczbę węzłów. Uniemożliwia to atakującemu uzyskanie wpływu po prostu poprzez uruchomienie wielu węzłów bez odpowiednich zasobów obliczeniowych.
+reviewed: false

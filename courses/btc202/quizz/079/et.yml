@@ -1,0 +1,9 @@
+question: Milline on blkNNNNN.dat faili maksimaalne suurus enne uue faili loomist?
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256 GiB
+  - 128 GiB
+explanation: |
+  BlkNNNNNNN.dat-failid salvestavad plokid järjestikku ja saavutavad umbes 128 MiB suuruse, enne kui Bitcoin core avab järgmise faili.
+reviewed: true

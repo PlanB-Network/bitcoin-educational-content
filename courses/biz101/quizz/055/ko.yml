@@ -1,0 +1,9 @@
+question: 특화된 Bitcoin 회계 도구의 주요 목표는 무엇인가요?
+answer: Bitcoin 관련 데이터의 자동 수집 및 처리를 간소화하려면 다음과 같이 하세요
+wrong_answers:
+  - Bitcoin 개인 키의 보안을 강화하려면 다음과 같이 하세요
+  - 기업을 위한 탈중앙화 거래소에서 Bitcoin의 직접 거래를 촉진하기 위해
+  - Bitcoin 결제 수락을 위한 PoS 시스템 설정하기
+explanation: |
+  이러한 도구는 데이터 수집, 형식 변환, 세금 계산 및 거래 분류를 자동화하도록 설계되었습니다.
+reviewed: true

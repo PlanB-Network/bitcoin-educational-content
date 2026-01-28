@@ -1,0 +1,9 @@
+question: Maa, jossa Spinoza asui ja kirjoitti teoksensa, on?
+answer: Yhdistetyt maakunnat.
+wrong_answers:
+  - Ranska.
+  - Iso-Britannia.
+  - Ruotsi.
+explanation: |
+  Spinoza asui ja kirjoitti kaikki teoksensa Yhdistyneissä maakunnissa (nykyisessä Alankomaissa), joka oli tuohon aikaan muualla Euroopassa vainottujen vapaa-ajattelijoiden ja uskonnollisten vähemmistöjen turvapaikka.
+reviewed: false

@@ -1,8 +1,8 @@
-question: Vad är en av de potentiella fördelarna med att acceptera ny teknik som Bitcoin?
-answer: Det skulle kunna ge generate enorma stordriftsfördelar över hela världen.
+question: Vad är en av de viktigaste konsekvenserna av Bitcoin för banksystemet?
+answer: Det gör det möjligt att frigöra sig från banksystemet.
 wrong_answers:
-  - Det kan leda till en global ekonomisk kollaps.
-  - Det kan leda till att människans intelligens minskar.
-  - Det skulle kunna leda till att alla jobb försvinner.
+  - Det gör det möjligt att kontrollera banksystemet.
+  - Det gör det möjligt att eliminera banksystemet.
+  - Det gör det möjligt att korrumpera banksystemet.
 explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Miner에 Bitcoin 노드가 필요한 이유는 무엇인가요?
+answer: 네트워크와 상호작용하고 블록을 배포하려면 다음과 같이 하세요
+wrong_answers:
+  - generate 디지털 서명으로
+  - Address에 배송 Coinbase Transaction을 입력하려면 다음과 같이 하세요
+  - Mining의 난이도를 낮추려면
+explanation: |
+  채굴자는 노드를 사용하여 네트워크와 통신하고, 블록을 전송하고, 트랜잭션을 수신합니다.
+reviewed: true

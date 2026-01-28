@@ -6,4 +6,4 @@ wrong_answers:
   - Alpha Release
 explanation: |
   LTS verzija Ubuntu-a održava se pet godina i nudi veću stabilnost, što je čini idealnom za početnike.
-reviewed: false
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: Der Katalog der freien und Open-Source-Anwendungen.
 ---
 
@@ -27,7 +27,7 @@ Leider ist F-Droid keine Anwendung, die für iOS verfügbar ist, und enthält vi
 
 
 
-Sie können F-droid von [der offiziellen Website] (https://f-droid.org/) im APK-Format herunterladen und manuell auf Ihrem Android-Handy installieren.
+Sie können F-droid von [der offiziellen Website](https://f-droid.org/) im APK-Format herunterladen und manuell auf Ihrem Android-Handy installieren.
 
 
 
@@ -100,7 +100,7 @@ Weitere Informationen finden Sie in unserem Thunderbird-Tutorial:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid gibt Ihnen alle Informationen, die Sie benötigen, um zu entscheiden, ob die Verwendung einer Anwendung Ihre Daten schützt und Ihre Privatsphäre verbessert. Scannen Sie alle Anwendungen, die Sie verwenden möchten, und klicken Sie dann auf die Schaltfläche **Installieren**, um Ihre Anwendung herunterzuladen und zu installieren.
 
@@ -163,11 +163,11 @@ F-Droid ist ein Open-Source-Projekt, das zu Beiträgen zu Anwendungen ermutigt, 
 Ihre Anwendung muss quelloffen sein, d. h. der Quellcode muss öffentlich zugänglich sein, z. B. auf GitHub oder GitLab.
 
 
-Sie müssen dann eine YAML-Datei (die Metadaten) erstellen, die Ihre Anwendung beschreibt, einschließlich aller Informationen und Berechtigungen, die für ihre Nutzung erforderlich sind, und dabei der von F-Droid vorgeschlagenen [Metadaten-Vorlage] (https://f-droid.org/docs/Build_Metadata_Reference/) folgen.
+Sie müssen dann eine YAML-Datei (die Metadaten) erstellen, die Ihre Anwendung beschreibt, einschließlich aller Informationen und Berechtigungen, die für ihre Nutzung erforderlich sind, und dabei der von F-Droid vorgeschlagenen [Metadaten-Vorlage](https://f-droid.org/docs/Build_Metadata_Reference/) folgen.
 
 
 
-Im Abschnitt **Entwickler** der [Dokumentation] (https://f-droid.org/en/docs/) finden Sie alle Ressourcen, die Sie benötigen, um Ihre Anwendungen auf F-Droid zu veröffentlichen und zu pflegen.
+Im Abschnitt **Entwickler** der [Dokumentation](https://f-droid.org/en/docs/) finden Sie alle Ressourcen, die Sie benötigen, um Ihre Anwendungen auf F-Droid zu veröffentlichen und zu pflegen.
 
 
 
@@ -187,4 +187,4 @@ Wenn Ihnen dieses Tutorial gefallen hat, erfahren Sie mehr über unseren Kurs IT
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -1,13 +1,13 @@
-question: Mikä on multisig-lompakko?
-answer: Lompakkojen joukko, joka vaatii useita allekirjoituksia tapahtuman suorittamiseen.
+question: Mikä on riski käyttäessä moniallekirjoituslompakkoa?
+answer: Ei ole pääsyä tarpeeksi moniin yksittäisiin yksityisavaimiin tai varmuuskopioihin.
 wrong_answers:
-  - Lompakko, joka vaatii yhden allekirjoituksen tapahtuman suorittamiseen.
-  - Lompakko, joka ei vaadi allekirjoituksia tapahtuman suorittamiseen.
-  - Lompakko, joka vaatii fyysisen allekirjoituksen tapahtuman suorittamiseen.
+  - Pääsy tarpeeksi moniin yksittäisiin yksityisavaimiin tai varmuuskopioihin.
+  - Yksityisavaintesi jakaminen muiden osapuolten kanssa.
+  - Julkisten avaintesi jakaminen muiden osapuolten kanssa.
 explanation: |
-  Multisig-lompakko on tyyppi Bitcoin-lompakosta, joka vaatii
-  useita allekirjoituksia tapahtuman suorittamiseen. Tämä lisää
-  ylimääräisen turvallisuustason, sillä se tarkoittaa, että yksittäinen henkilö
-  ei voi suorittaa tapahtumaa ilman
-  muiden hyväksyntää.
+  Kun käytät moniallekirjoituslompakkoa, jokainen yksityisavain
+  moniallekirjoituksesta tulisi säilyttää eri paikoissa. Tämä johtuu siitä,
+  että moniallekirjoitus vaatii useita allekirjoituksia suorittaakseen
+  transaktion, joten tarvitaan tietty määrä lompakoita. Näin ollen,
+  jokaisen osan säilyttäminen eri paikassa lisää ylimääräisen turvallisuustason.
 reviewed: true

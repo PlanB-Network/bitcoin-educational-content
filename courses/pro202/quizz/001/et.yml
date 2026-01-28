@@ -1,0 +1,8 @@
+question: Mis on Bitcoin krüptograafilises süsteemis lõplik väli F(p)?
+answer: Aritmeetiline süsteem, mis on määratletud algarvuga p ja sisaldab elemente 0 kuni p-1
+wrong_answers:
+  - Bitcoin aadresside ja võtmete genereerimiseks kasutatav lõpmatu arvude kogum
+  - Matemaatiline väli, mis sisaldab kõiki reaalarvusid vahemikus 0 kuni p-1 (kaasa arvatud)
+  - Krüptograafiline hash-funktsioon, mis annab täpselt p-bitise pikkusega väljundi
+explanation: |
+  Lõplik väli F(p) on konkreetselt aritmeetiline süsteem, mis on ehitatud algarvu p ümber, mis sisaldab täpselt p elementi: täisarvud 0 kuni p-1. "Lõplik" aspekt on oluline - see ei ole lõpmatu ja tegemist ei ole reaalarvude või hash-funktsioonidega. Primaarväljad tagavad, et igal nullist erineval elemendil on korrutisvõrrand ja kõik aritmeetilised operatsioonid (liitmine, lahutamine, korrutamine) on ümberringi, kasutades modulo p, säilitades tulemused väljal. Selline piiratud, prognoositav struktuur on Bitcoin krüptograafilise turvalisuse jaoks oluline.

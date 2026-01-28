@@ -1,0 +1,9 @@
+question: Jaka jest różnica ekonomiczna między węzłem a Miner?
+answer: Miner otrzymuje nagrody, węzeł nie ma bezpośredniego zysku
+wrong_answers:
+  - Węzeł otrzymuje opłatę, Miner otrzymuje dotację blokową
+  - Węzeł otrzymuje nagrody, Miner nie ma bezpośredniego zysku
+  - Obaj otrzymują takie same nagrody
+explanation: |
+  Górnicy otrzymują nagrody (dotacje i opłaty), podczas gdy węzeł nie przynosi bezpośrednich korzyści finansowych swojemu użytkownikowi.
+reviewed: true

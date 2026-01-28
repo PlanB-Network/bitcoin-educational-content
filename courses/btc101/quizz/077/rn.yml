@@ -1,12 +1,11 @@
-question: Ni ikihe kibazo co gusangira urufunguzo rwa bose rwa Bitcoin Wallet?
-answer: Gutakaza ubuzima bwite.
+question: Ni igiki gikwiye kuba ikintu nyamukuru co kwitwararika iyo ufise Bitcoin?
+answer: Umutekano w’amahera yawe.
 wrong_answers:
-  - Gusambura Bitcoin Wallet.
-  - Gutakaza ama Bitcoins.
-  - Gutera ivyatsi Bitcoin Wallet.
+  - Agaciro ka Bitcoin mu madolari.
+  - Ivyemewe n’amategeko vyo kugira ama bitcoins.
+  - Uruhusha rwo gukoresha amahera yawe.
 explanation: |
-  Gusangira urufunguzo rwa bose birimwo ingorane ku buzima bwite, ariko si
-  ku mutekano. Ivyo ni kubera ko urufunguzo rwa bose rukoreshwa kugira ngo .
-  generate Bitcoin amaderesi gutyo akaronka amahera, ariko .
-  ntiserukira Ownership y’ama Bitcoins.
+  Iyo ufise ama bitcoins, ikintu nyamukuru kiguhagaritse umutima ni umutekano .
+  y’amahera yawe. Ivyo ni kubera ko Bitcoin, cokimwe n’iyindi nzira yose .
+  y’amahera, ashobora kwibwa canke gutakazwa iyo ataco akora neza.
 reviewed: true

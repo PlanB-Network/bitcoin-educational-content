@@ -156,7 +156,7 @@ BT güvenliğinizi tamamen kontrol altına almaya, bireysel egemenliğinizi gü�
 
 
 
-*N.B.: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe] (https://planb.network/resources/glossary) başvurun
+*N.B.: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe](https://planb.academy/resources/glossary) başvurun*
 
 
 
@@ -179,7 +179,7 @@ SCU101 kursu, BT alanında yeni başlayan ve orta düzey kullanıcılar için di
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Güvenli çevrimiçi tarama
 
@@ -694,7 +694,7 @@ Richard Stallman "açık kaynak" teriminin kullanımını açıkça eleştirmekt
 
 
 
-*Kaynak: Nathaniel Welch
+**Kaynak: Nathaniel Welch**
 
 
 
@@ -764,7 +764,7 @@ Bu montaj işi, bileşenlerini felsefesine (basitlik, hafiflik, güvenlik, karar
 
 
 
-→ Not:** Bir *dönen sürüm* dağıtımı, en son yazılım sürümlerini kullanılabilir hale gelir gelmez entegre eder, bu da sürekli güncel ancak potansiyel olarak daha az kararlı bir sistemle sonuçlanır. Tersine, *kararlı* bir dağıtım, ana sürüm yayınlandığında yazılım sürümlerini gönderir ve yenilik pahasına daha fazla güvenilirliği garanti eder.
+→ **Not:** Bir *dönen sürüm* dağıtımı, en son yazılım sürümlerini kullanılabilir hale gelir gelmez entegre eder, bu da sürekli güncel ancak potansiyel olarak daha az kararlı bir sistemle sonuçlanır. Tersine, **kararlı** bir dağıtım, ana sürüm yayınlandığında yazılım sürümlerini gönderir ve yenilik pahasına daha fazla güvenilirliği garanti eder.
 
 
 
@@ -794,7 +794,7 @@ Bu ilk çabalar Linux dağıtımlarının doğuşuna işaret etti:
 
 
 
-- Şubat 1992: MCC Geçici Linux**
+- Şubat 1992: **MCC Geçici Linux**
 
 
 
@@ -804,7 +804,7 @@ Manchester Üniversitesi'nde geliştirilen MCC Interim Linux, ilk Linux dağıt�
 
 
 
-- Mayıs 1992: Softlanding Linux Sistemi (SLS)**
+- Mayıs 1992: **Softlanding Linux Sistemi (SLS)**
 
 
 
@@ -826,7 +826,7 @@ SLS artık mevcut değildir. Bilinen son versiyonu 1994'ün sonlarına dayanıyo
 
 
 
-- Temmuz 1993: Slackware**
+- Temmuz 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware bugün hala kullanılmaktadır ve bu da onu hala kullanılan en eski L
 
 
 
-- Ağustos 1993: Debian**
+- Ağustos 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ Böylece Debian, GNU/Linux dünyasının teknik ve ideolojik temellerinden biri 
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -976,7 +976,7 @@ Bu yaklaşım, her ana sürümde sistemi yeniden yüklemeye gerek kalmadan paket
 Arch Linux her şeyden önce, kurulum ve bakımda belirli bir karmaşıklığı kabul ederken, ortamları üzerinde tam kontrol isteyen ileri düzey kullanıcılara yöneliktir. Bu teknik gereksinim, kullanımını demokratikleştirmeyi amaçlayan çeşitli türev dağıtımların ortaya çıkmasına neden olmuştur.
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 En iyi bilineni, Arch'ın teknik temelini korurken basitleştirilmiş kurulum, önceden yapılandırılmış masaüstü ortamları ve güncellemeleri dengelemek için biraz gecikmeli bir sürüm döngüsü sunan Manjaro'dur.
 
@@ -1052,7 +1052,7 @@ Bir Linux dağıtımı seçimi özel ihtiyaçlarınıza, teknik seviyenize ve ku
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1064,11 +1064,11 @@ Canonical tarafından geliştirilen ve 2004 yılında piyasaya sürülen Ubuntu,
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1076,7 +1076,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint basitliği, multimedya kodeklerinin varsayılan olarak bulunması ve iyi tasarlanmış bir güncelleme aracı ile öne çıkıyor. Öte yandan, büyük ölçüde Ubuntu'nun altyapısına dayanır, bu da onu Ubuntu'nun teknik seçimlerine (özellikle çekirdek ve depo düzeyinde) bağımlı hale getirir. Mint özellikle teknik olmayan kullanıcılar ya da çok fazla öğrenme gerektirmeyen kullanıma hazır bir sistem isteyenler için çok uygundur.
 
@@ -1088,7 +1088,7 @@ Mint basitliği, multimedya kodeklerinin varsayılan olarak bulunması ve iyi ta
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1106,13 +1106,13 @@ Kurulum sorunsuzdur, temel yazılımlar önceden yüklenmiştir ve "Lite" sürü
 
 
 
-- temel işletim sistemi**:
+- **temel işletim sistemi**:
 
 
 2011 yılında piyasaya sürülen elementary OS, her şeyden önce Interface'nin tasarımına ve tutarlılığına odaklanan Ubuntu tabanlı bir dağıtımdır. MacOS'tan esinlenen Pantheon masaüstü ortamı minimalist, zarif ve akıcıdır. Bununla birlikte, sistem diğer dağıtımlara göre daha az özelleştirilebilir ve bazı ileri düzey kullanıcılar Interface'nin seçenekleri ve kasıtlı olarak kilitlenmiş yapısı ile sınırlı hissedebilir. Günlük kullanım için basit, tutarlı bir sistem arayan estetik açıdan hassas kullanıcılar için çok uygundur.
 
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 ![Image](assets/fr/023.webp)
@@ -1121,7 +1121,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1143,7 +1143,7 @@ Amerikan System76 şirketi tarafından geliştirilen Pop!OS da Ubuntu tabanlıd�
 
 
 
-- Fedora** (İş İstasyonu veya KDE Plazma):
+- **Fedora** (İş İstasyonu veya KDE Plazma):
 
 
 
@@ -1154,10 +1154,10 @@ Fedora, en son teknolojilere (Wayland, PipeWire, Flatpak...) yönelik Red Hat de
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed veya Leap):
+- **openSUSE** (Tumbleweed veya Leap):
 
 
 
@@ -1171,7 +1171,7 @@ openSUSE, yuvarlanan bir sürüm veya kararlı dağıtım olarak mevcuttur. Sist
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1182,10 +1182,10 @@ Debian, *Stable* (çok güvenilir, ancak daha eski yazılım) ve *Testing* (daha
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1199,7 +1199,7 @@ Arch'ı temel alan Manjaro, Arch Linux'u erişilebilir kılıyor. Bu dağıtım 
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1211,13 +1211,13 @@ Arch Linux, Interface veya gereksiz yazılımlar olmadan sunulan minimalist, sü
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Uzmanlaşmış dağıtım
 
 
 
-- Kali Linux**:
+- **Kali Linux**:
 
 
 Kali Linux, sızma testi ve güvenlik denetimi için tasarlanmış Debian tabanlı bir dağıtımdır. Yüzlerce pentest aracı içerir. Bu dağıtım günlük kullanım için ana sistem olarak pek uygun değildir.
@@ -1230,7 +1230,7 @@ Kali Linux, sızma testi ve güvenlik denetimi için tasarlanmış Debian tabanl
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1244,7 +1244,7 @@ Parrot OS de Debian'dan türetilmiştir. Pentesting, saldırgan güvenlik ve giz
 
 
 
-- Kuyruklar**:
+- **Kuyruklar**:
 
 
 
@@ -1252,7 +1252,7 @@ Tails, Debian tabanlı, gizlilik odaklı bir canlı dağıtımdır. Her şey Tor
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Not:** Canlı dağıtım, Hard diskine kurulum yapılmadan doğrudan bir USB bellek veya CD'den kullanılabilen bir Linux işletim sistemidir.
 
@@ -1264,7 +1264,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1278,7 +1278,7 @@ Qubes OS, Fedora tabanlıdır ve kullanımı bölümlere ayırmak için Xen sana
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1292,7 +1292,7 @@ BlackArch, Arch Linux'un (Debian'daki Kali gibi) pentest odaklı bir uzantısıd
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1305,10 +1305,10 @@ PureOS, Purism tarafından geliştirilen Debian türevi bir dağıtımdır ve ta
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 
-- Raspberry Pi OS**:
+- **Raspberry Pi OS**:
 
 
 Raspberry Pi OS (eski adıyla Raspbian), Raspberry Pi mikro bilgisayarları için optimize edilmiş bir dağıtımdır. ARM mimarisi için yeniden derlenmiş paketlerle Debian'a dayanmaktadır. Eğitim projeleri, elektronik testler veya küçük kişisel sunucular için kullanılabilir.
@@ -1321,7 +1321,7 @@ Raspberry Pi OS (eski adıyla Raspbian), Raspberry Pi mikro bilgisayarları içi
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1333,7 +1333,7 @@ Whonix, Debian ile Tor ağını iki VM mimarisinde (ağ geçidi + iş istasyonu)
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Bu panorama size mevcut Linux dağıtım ekosistemi hakkında genel bir bakış sunarak teknik profilinize ve hedeflerinize en uygun dağıtımı seçmenize olanak sağlar.
 
@@ -1377,55 +1377,55 @@ Bir Linux dağıtımındaki masaüstü ortamı tek bir uygulama değil, işletim
 
 
 
-- Bir pencere yöneticisi**: pencere kenarlıklarını çizer, yerleşimlerini, yeniden boyutlandırmalarını ve geçiş efektlerini yönetir... Örneğin: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Bir pencere yöneticisi**: pencere kenarlıklarını çizer, yerleşimlerini, yeniden boyutlandırmalarını ve geçiş efektlerini yönetir... Örneğin: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Bir dosya yöneticisi**: dizin ağacında gezinmenizi, dosyaları görsel olarak kopyalamanızı, taşımanızı veya silmenizi sağlar. Örnekler: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Bir dosya yöneticisi**: dizin ağacında gezinmenizi, dosyaları görsel olarak kopyalamanızı, taşımanızı veya silmenizi sağlar. Örnekler: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Bir yapılandırma merkezi**: Bu, kullanıcının komut satırından geçmeden sistem parametrelerini değiştirmesini sağlayan bir dizi araçtır: görünüm, duvar kağıdı, kullanıcı yönetimi, ağ, çevre birimleri...
+- **Bir yapılandırma merkezi**: Bu, kullanıcının komut satırından geçmeden sistem parametrelerini değiştirmesini sağlayan bir dizi araçtır: görünüm, duvar kağıdı, kullanıcı yönetimi, ağ, çevre birimleri...
 
 
 
 
 
-- Sistem uygulamaları**: bunlar görev çubuğundaki (veya "panel") küçük simgeler ve etkileşimli modüllerdir, örneğin ses kontrolü, pil seviyesi, ağ bağlantısı, saat...
+- **Sistem uygulamaları**: bunlar görev çubuğundaki (veya "panel") küçük simgeler ve etkileşimli modüllerdir, örneğin ses kontrolü, pil seviyesi, ağ bağlantısı, saat...
 
 
 
 
 
-- Panel veya gösterge paneli**: genellikle ekranın üst veya alt kısmında bulunan ve ana menü, sistem uygulamaları, kısayollar, bildirim bölgesi vb. içeren görünür çubuk.
+- **Panel veya gösterge paneli**: genellikle ekranın üst veya alt kısmında bulunan ve ana menü, sistem uygulamaları, kısayollar, bildirim bölgesi vb. içeren görünür çubuk.
 
 
 
 
 
-- Bir oturum yöneticisi**: başlangıçta çalışır, oturum açma ekranını görüntüler ve seçilen grafik oturumu başlatır. Örneğin: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Bir oturum yöneticisi**: başlangıçta çalışır, oturum açma ekranını görüntüler ve seçilen grafik oturumu başlatır. Örneğin: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Bildirim yöneticisi**: sistem bildirimlerinin (mesajlar, uyarılar, güncellemeler, vb.) görüntülenmesini yönetir. Örneğin: dunst, Plasma-notifier, xfce4-notifyd.
+- **Bildirim yöneticisi**: sistem bildirimlerinin (mesajlar, uyarılar, güncellemeler, vb.) görüntülenmesini yönetir. Örneğin: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- X11 birleştirici (isteğe bağlı)**: pencere yöneticisinin birleştirmeyi desteklemediği ortamlarda görsel efektler (gölgeler, saydamlık, animasyonlar) ekler. Örneğin: compton, picom.
+- **X11 birleştirici (isteğe bağlı)**: pencere yöneticisinin birleştirmeyi desteklemediği ortamlarda görsel efektler (gölgeler, saydamlık, animasyonlar) ekler. Örneğin: compton, picom.
 
 
 
 
 
-- Bir görüntü sunucusu**: bu, sistem (çekirdek ve grafik sürücüleri aracılığıyla) ve grafik uygulamaları arasındaki iletişimi yöneten yazılımdır. Pencereleri ekranda görüntüler ve klavye ve fare girişlerini yönetir. Görüntü sunucusu genellikle masaüstü ortamının farklı bir bileşenidir, ancak giderek daha fazla sistem, görüntü sunucusu rolünün doğrudan pencere yöneticisi (örneğin GNOME altında Mutter veya KDE altında KWin) tarafından devralınabileceği modern bir protokol olan Wayland'ı benimsemektedir. Bu daha sonra "Wayland compositing" olarak adlandırılır.
+- **Bir görüntü sunucusu**: bu, sistem (çekirdek ve grafik sürücüleri aracılığıyla) ve grafik uygulamaları arasındaki iletişimi yöneten yazılımdır. Pencereleri ekranda görüntüler ve klavye ve fare girişlerini yönetir. Görüntü sunucusu genellikle masaüstü ortamının farklı bir bileşenidir, ancak giderek daha fazla sistem, görüntü sunucusu rolünün doğrudan pencere yöneticisi (örneğin GNOME altında Mutter veya KDE altında KWin) tarafından devralınabileceği modern bir protokol olan Wayland'ı benimsemektedir. Bu daha sonra "Wayland compositing" olarak adlandırılır.
 
 
 
@@ -1812,7 +1812,7 @@ Her durumda, kurulum süreci birazdan keşfedeceğimiz aynı teknik ilkeleri tak
 
 
 
-Ubuntu kurulum dosyası, sistemi başlatmak ve kurmak için ihtiyacınız olan her şeyi içeren bir dosya olan ISO görüntüsü biçiminde gelir. Bunu edinmek için [resmi web sitesine gidin] (https://ubuntu.com/download/desktop).
+Ubuntu kurulum dosyası, sistemi başlatmak ve kurmak için ihtiyacınız olan her şeyi içeren bir dosya olan ISO görüntüsü biçiminde gelir. Bunu edinmek için [resmi web sitesine gidin](https://ubuntu.com/download/desktop).
 
 
 
@@ -1846,7 +1846,7 @@ Ubuntu'yu bilgisayarınıza yüklemek için ISO görüntüsünü bir USB anahtar
 
 
 
-En az 8 GB'lık bir USB flash sürücü takın (dikkat, içeriği silinecektir), ardından ISO görüntüsünden önyüklenebilir medya oluşturmak için [BalenaEtcher] (https://www.balena.io/etcher) gibi bir araç kullanın. Basitçe ISO dosyasını, USB anahtarını seçin ve "*Flash*" üzerine tıklayın.
+En az 8 GB'lık bir USB flash sürücü takın (dikkat, içeriği silinecektir), ardından ISO görüntüsünden önyüklenebilir medya oluşturmak için [BalenaEtcher](https://www.balena.io/etcher) gibi bir araç kullanın. Basitçe ISO dosyasını, USB anahtarını seçin ve "*Flash*" üzerine tıklayın.
 
 
 
@@ -1892,7 +1892,7 @@ Ubuntu'yu başlattıktan sonra, kurulum sihirbazı sizi adım adım yönlendirir
 
 
 
-- Windows ile birlikte kurulum (*dual boot*)**
+- Windows ile birlikte kurulum (*dual boot*)
 
 
 
@@ -1917,7 +1917,7 @@ Bunu düzgün bir şekilde yapmak için, önce Windows'ta seçtiğiniz diskte ay
 
 
 
-- Pencerelerin tamamen değiştirilmesi**
+- **Pencerelerin tamamen değiştirilmesi**
 
 
 
@@ -1953,7 +1953,7 @@ Ubuntu yükleyicisi hakkında daha fazla bilgi için bu eğiticiye de başvurabi
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Kurulum tamamlandığında, istendiğinde USB anahtarını çıkarın ve ardından yeniden başlatın. Ubuntu artık makinenize yüklenmiş ve kullanıma hazır olacaktır.
 
@@ -2035,10 +2035,10 @@ Her depo bölümlere ayrılmıştır. Ubuntu varsayılan olarak dört ana bölü
 
 
 
-- main**: Canonical tarafından resmi olarak sürdürülen özgür yazılım. Örnekler: Firefox, LibreOffice, bash
-- kısıtlı**: donanımın düzgün çalışması için gerekli olan özgür olmayan yazılım. Örnekler: NVIDIA sürücüleri, Wi-Fi ürün yazılımı, özel kodekler
-- universe**: topluluk tarafından sürdürülen özgür yazılım. Örnekler: GIMP, Inkscape, Audacity
-- multiverse**: yazılım yasal kısıtlamalara tabidir (patentler, özgür olmayan lisanslar). Kullanılabilirlik ülkeye göre değişebilir. Örnekler: belirli ses/video kodekleri, Steam
+- **main**: Canonical tarafından resmi olarak sürdürülen özgür yazılım. Örnekler: Firefox, LibreOffice, bash
+- **kısıtlı**: donanımın düzgün çalışması için gerekli olan özgür olmayan yazılım. Örnekler: NVIDIA sürücüleri, Wi-Fi ürün yazılımı, özel kodekler
+- **universe**: topluluk tarafından sürdürülen özgür yazılım. Örnekler: GIMP, Inkscape, Audacity
+- **multiverse**: yazılım yasal kısıtlamalara tabidir (patentler, özgür olmayan lisanslar). Kullanılabilirlik ülkeye göre değişebilir. Örnekler: belirli ses/video kodekleri, Steam
 
 
 
@@ -2992,7 +2992,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Ofis paketi
 
 
@@ -3129,13 +3129,13 @@ Bu birkaç temel araca ek olarak, kullanım durumunuza göre uyarlanmış temel 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Son olarak, bu bölümü tamamlamak için, günlük olarak takip edebileceğiniz birkaç en iyi uygulamayı burada bulabilirsiniz:
 
@@ -3227,9 +3227,9 @@ Karmaşık bir parolayı hatırlamak zor olacaktır. Bu nedenle Bitwarden veya K
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Son olarak, özellikle makineniz paylaşımlı veya mobil ortamlarda kullanılıyorsa, bu parolayı düzenli olarak (her 3 ila 6 ayda bir) değiştirin.
 
@@ -3329,13 +3329,13 @@ Son olarak, kendinizi hırsızlıktan korumak için alabileceğiniz en önemli �
 - Linux dağıtımları, kurulum sırasında bu seçenek seçilmediği sürece diski otomatik olarak şifrelemez. Diski şifrelemek için LUKS kullanabilirsiniz
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Her durumda, şifre çözme parolası güçlü olmalı, sistem parolasından farklı olmalı ve güvenli bir parola yöneticisinde saklanmalıdır. Hassas veriler içeren harici bir disk veya USB anahtar kullanıyorsanız, bunları VeraCrypt gibi araçlarla ayrı ayrı şifrelemeyi de düşünün.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### En az ayrıcalık ilkesi
 
@@ -3432,7 +3432,7 @@ Bu teknoloji, sanal makinelerin oluşturulmasını ve yürütülmesini yöneten 
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 BT güvenliği açısından, sanal makinelerin en büyük avantajlarından biri bölümlere ayırma yetenekleridir. Bir sanal makine, bu alışverişleri açıkça yapılandırmadığınız sürece dosyalarını, işlemlerini veya ağ erişimini ana sistemle paylaşmaz. Dolayısıyla, bir sanal makineye kötü amaçlı yazılım bulaşırsa veya içinde hassas bir yazılımı test ederseniz, etki bu sanal makine ile sınırlı kalır: izolasyon parametrelerine uyulduğu sürece (paylaşılan dizinler yok, sanal makineye USB aygıtları aktarılmıyor...) ana sisteminiz bozulmadan kalır.
 
@@ -3556,7 +3556,7 @@ Sisteminizde otomatik güncellemeler etkinleştirilmiş olsa bile, bekleyen gün
 
 
 
-- Windows* işletim sistemi
+- **Windows** işletim sistemi
 
 
 
@@ -3580,7 +3580,7 @@ Aynı menüde isteğe bağlı güncellemeleri kontrol etmeyi unutmayın.
 
 
 
-- Linux* işletim sistemi
+- **Linux** işletim sistemi
 
 
 
@@ -3633,7 +3633,7 @@ sudo pacman -Syu
 
 
 
-- MacOS* işletim sistemi
+- **MacOS** işletim sistemi
 
 
 
@@ -3669,25 +3669,25 @@ Bazı yazılımlar diğerlerinden daha hassastır, çünkü doğrudan dış dün
 
 
 
-- Web tarayıcıları*: doğrulanmamış içeriği gerçek zamanlı olarak işledikleri ve özellikle geniş bir saldırı yüzeyine sahip oldukları için saldırıların ön saflarında yer alırlar. Dahası, kişisel verilerinizin korunmasında merkezi bir rol oynarlar. Ve hepsinden önemlisi, daha önce yerel olarak kullanılan birçok yazılım uygulamasının (e-posta istemcileri, ofis paketleri, medya oynatıcılar...) yerini alma eğilimindedirler. Ancak bu noktaya SCU202 kursunun bir sonraki bölümünde geri döneceğiz;
+- **Web tarayıcıları**: doğrulanmamış içeriği gerçek zamanlı olarak işledikleri ve özellikle geniş bir saldırı yüzeyine sahip oldukları için saldırıların ön saflarında yer alırlar. Dahası, kişisel verilerinizin korunmasında merkezi bir rol oynarlar. Ve hepsinden önemlisi, daha önce yerel olarak kullanılan birçok yazılım uygulamasının (e-posta istemcileri, ofis paketleri, medya oynatıcılar...) yerini alma eğilimindedirler. Ancak bu noktaya SCU202 kursunun bir sonraki bölümünde geri döneceğiz;
 
 
 
 
 
-- Posta istemcileri*: harici kaynaklardan kontrol edilemeyen ve bu nedenle riskli olan ekler veya bağlantılar alırlar;
+- **Posta istemcileri**: harici kaynaklardan kontrol edilemeyen ve bu nedenle riskli olan ekler veya bağlantılar alırlar;
 
 
 
 
 
-- İletişim araçları* (TeamViewer, Zoom, Signal, Teams...): etkileşimli yapıları nedeniyle casusluk saldırıları veya uzaktan kontrol girişimleri için hedeftirler. E-posta istemcileriyle aynı şekilde, iletişim araçları da kimlik avı girişimleri veya kötü amaçlı eklerin dağıtımı için vektör olarak kullanılabilir;
+- **İletişim araçları** (TeamViewer, Zoom, Signal, Teams...): etkileşimli yapıları nedeniyle casusluk saldırıları veya uzaktan kontrol girişimleri için hedeftirler. E-posta istemcileriyle aynı şekilde, iletişim araçları da kimlik avı girişimleri veya kötü amaçlı eklerin dağıtımı için vektör olarak kullanılabilir;
 
 
 
 
 
-- Antivirüs, güvenlik duvarı ve diğer tespit çözümleri*: bu araçlar dosyalarınızı, işlemlerinizi ve ağ bağlantılarınızı sürekli olarak taradıkları için genellikle yüksek ayrıcalıklara sahiptir. Güncel olmayan bir imza tabanı, zayıf yapılandırma veya yazılımın kendisindeki bir güvenlik açığı, kötü amaçlı yazılımların tespit edilmemesine ve hatta yüksek ayrıcalıklar elde etmesine olanak tanıyabilir.
+- **Antivirüs, güvenlik duvarı ve diğer tespit çözümleri**: bu araçlar dosyalarınızı, işlemlerinizi ve ağ bağlantılarınızı sürekli olarak taradıkları için genellikle yüksek ayrıcalıklara sahiptir. Güncel olmayan bir imza tabanı, zayıf yapılandırma veya yazılımın kendisindeki bir güvenlik açığı, kötü amaçlı yazılımların tespit edilmemesine ve hatta yüksek ayrıcalıklar elde etmesine olanak tanıyabilir.
 
 
 
@@ -3870,7 +3870,7 @@ MacOS altında 2 ana yöntem vardır: *Launchpad* veya *Finder* aracılığıyla
 
 
 
-Sil düğmesi görünmezse, uygulama App Store'dan yüklenmemiş demektir. Bu durumda *Bulucu* öğesini kullanın. Çalışıyorsa önce uygulamayı kapatın. Bulucu'yu* açın, `/Uygulamalar' dizinine gidin, silmek istediğiniz uygulamayı seçin ve ardından geri dönüşüm çöp kutusuna taşıyın. Son olarak, kaldırma işlemini tamamlamak için geri dönüşüm çöp kutusunu boşaltın.
+Sil düğmesi görünmezse, uygulama App Store'dan yüklenmemiş demektir. Bu durumda *Bulucu* öğesini kullanın. Çalışıyorsa önce uygulamayı kapatın. *Bulucu'yu* açın, `/Uygulamalar` dizinine gidin, silmek istediğiniz uygulamayı seçin ve ardından geri dönüşüm çöp kutusuna taşıyın. Son olarak, kaldırma işlemini tamamlamak için geri dönüşüm çöp kutusunu boşaltın.
 
 
 
@@ -3908,7 +3908,7 @@ Bir denetim rutini oluşturursanız (basit bir rutin bile olsa) kötü amaçlı 
 
 
 
-- Microsoft Defender*: Windows'ta iyi bir antivirüse sahip olmak temel bir gerekliliktir. Uzun yıllar boyunca, sistemin yerleşik antivirüsü olan Microsoft Defender (eski adıyla Windows Defender) güvenilmez olarak kabul edildi ve bunun yerine üçüncü taraf çözümler önerildi. Ancak bu yazılım zaman içinde önemli ölçüde gelişti ve bence artık kişisel kullanım için temel koruma sağlamak için yeterli. Bununla birlikte, antivirüs yazılımının rolünü abartmamalıyız: güvenliğinizi sağlayan her şeyden önce kendi dijital uygulamalarınızdır. Defender'ın avantajlarından biri Windows ile yerel entegrasyonudur. Gerçek zamanlı korumaya ek olarak, haftalık olarak planlayabileceğiniz veya düzenli aralıklarla manuel olarak çalıştırabileceğiniz kapsamlı taramalar sunar.
+- **Microsoft Defender**: Windows'ta iyi bir antivirüse sahip olmak temel bir gerekliliktir. Uzun yıllar boyunca, sistemin yerleşik antivirüsü olan Microsoft Defender (eski adıyla Windows Defender) güvenilmez olarak kabul edildi ve bunun yerine üçüncü taraf çözümler önerildi. Ancak bu yazılım zaman içinde önemli ölçüde gelişti ve bence artık kişisel kullanım için temel koruma sağlamak için yeterli. Bununla birlikte, antivirüs yazılımının rolünü abartmamalıyız: güvenliğinizi sağlayan her şeyden önce kendi dijital uygulamalarınızdır. Defender'ın avantajlarından biri Windows ile yerel entegrasyonudur. Gerçek zamanlı korumaya ek olarak, haftalık olarak planlayabileceğiniz veya düzenli aralıklarla manuel olarak çalıştırabileceğiniz kapsamlı taramalar sunar.
 
 
 
@@ -3918,12 +3918,12 @@ Bir denetim rutini oluşturursanız (basit bir rutin bile olsa) kötü amaçlı 
 
 
 
-- Sysinternals Suite*: Bu, Windows'u tanılamak, izlemek ve sorun gidermek için Microsoft tarafından sunulan çok daha gelişmiş bir araç setidir. İşte bu paketteki ana araçlar:
-    - Süreç Monitörü*: aktif süreçleri, dosya erişimlerini, kayıtları vb. gerçek zamanlı olarak gözlemlemenizi sağlar;
-    - Autoruns*: başlangıçta başlatılan tüm programları görüntüler, kalıcı kötü amaçlı yazılımları veya çalışmaması gereken uygulamaları hızlı bir şekilde tespit etmenize yardımcı olur;
-    - Process Explorer*: süreçleri izler ve şüpheli davranışları tespit eder;
-    - TCPView*: aktif ağ bağlantılarını görselleştirir (anormal bağlantıların tespiti) ;
-    - Sigcheck*: dosyalar üzerindeki dijital imzaları kötü amaçlı kodlara karşı kontrol eder.
+- **Sysinternals Suite**: Bu, Windows'u tanılamak, izlemek ve sorun gidermek için Microsoft tarafından sunulan çok daha gelişmiş bir araç setidir. İşte bu paketteki ana araçlar:
+- **Süreç Monitörü**: aktif süreçleri, dosya erişimlerini, kayıtları vb. gerçek zamanlı olarak gözlemlemenizi sağlar;
+- **Autoruns**: başlangıçta başlatılan tüm programları görüntüler, kalıcı kötü amaçlı yazılımları veya çalışmaması gereken uygulamaları hızlı bir şekilde tespit etmenize yardımcı olur;
+- **Process Explorer**: süreçleri izler ve şüpheli davranışları tespit eder;
+- **TCPView**: aktif ağ bağlantılarını görselleştirir (anormal bağlantıların tespiti);
+- **Sigcheck**: dosyalar üzerindeki dijital imzaları kötü amaçlı kodlara karşı kontrol eder.
 
 
 
@@ -3933,7 +3933,7 @@ Bir denetim rutini oluşturursanız (basit bir rutin bile olsa) kötü amaçlı 
 
 
 
-- GlassWire*: bir ağ izleme aracı. Gelen ve giden bağlantıları gerçek zamanlı olarak izler ve olağandışı etkinliklere karşı sizi uyarır.
+- **GlassWire**: bir ağ izleme aracı. Gelen ve giden bağlantıları gerçek zamanlı olarak izler ve olağandışı etkinliklere karşı sizi uyarır.
 
 
 
@@ -3951,7 +3951,7 @@ Kişisel amaçlar için kullanılan bakımlı bir Linux makinesinde riskler daha
 
 
 
-- Fail2ban*: başarısız erişim girişimleri için sistem günlüklerini izler (kaba kuvvet SSH oturum açma girişimleri gibi). Şüpheli davranış tespit edildiğinde, `iptables` aracılığıyla rahatsız edici IP Address'ü geçici olarak yasaklar;
+- **Fail2ban**: başarısız erişim girişimleri için sistem günlüklerini izler (kaba kuvvet SSH oturum açma girişimleri gibi). Şüpheli davranış tespit edildiğinde, `iptables` aracılığıyla rahatsız edici IP Address'ü geçici olarak yasaklar;
 
 
 
@@ -3961,14 +3961,14 @@ Kişisel amaçlar için kullanılan bakımlı bir Linux makinesinde riskler daha
 
 
 
-- Lynis*: sisteminizi yanlış yapılandırmalar, bilinen zayıflıklar veya en iyi uygulamalardan sapmalar için analiz eden kapsamlı bir güvenlik denetim aracıdır. Güvenlik puanı ve önerilerle birlikte okunması kolay bir rapor oluşturur.
+- **Lynis**: sisteminizi yanlış yapılandırmalar, bilinen zayıflıklar veya en iyi uygulamalardan sapmalar için analiz eden kapsamlı bir güvenlik denetim aracıdır. Güvenlik puanı ve önerilerle birlikte okunması kolay bir rapor oluşturur.
 
 
 
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### MacOS altında
 
@@ -3980,7 +3980,7 @@ macOS, özellikle uygulama imza politikaları ve nispeten kapalı mimarisi sayes
 
 
 
-- KnockKnock*: başlangıçta çalışmak üzere yapılandırılmış tüm Elements'leri (ajanlar, daemonlar, çekirdek modülleri...) tarar ve potansiyel olarak şüpheli, imzasız veya bilinmeyenleri tanımlar. Sisteminizdeki kötü niyetli kalıcılığı hızlı bir şekilde belirlemenizi sağlar.
+- **KnockKnock**: başlangıçta çalışmak üzere yapılandırılmış tüm Elements'leri (ajanlar, daemonlar, çekirdek modülleri...) tarar ve potansiyel olarak şüpheli, imzasız veya bilinmeyenleri tanımlar. Sisteminizdeki kötü niyetli kalıcılığı hızlı bir şekilde belirlemenizi sağlar.
 
 
 
@@ -4076,11 +4076,11 @@ Bu sistem asimetrik kriptografiye ve GnuPG (komut satırı) veya Kleopatra (Wind
 
 
 
-Kriptografik Hash fonksiyonları ve dijital imzalar hakkında daha fazla bilgi edinmek için sizi Plan ₿ Network'de sunulan ücretsiz CYP 201 kursuna katılmaya davet ediyorum:
+Kriptografik Hash fonksiyonları ve dijital imzalar hakkında daha fazla bilgi edinmek için sizi Plan ₿ Academy'de sunulan ücretsiz CYP 201 kursuna katılmaya davet ediyorum:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Yazılım bütünlüğünü ve gerçekliğini doğrulayın
 
@@ -4152,7 +4152,7 @@ Başlamak için, yüklemek istediğiniz yazılımla ilgili birkaç belgeye ihtiy
 
 
 
-Ayrıca [projenin GitHub deposuna] (https://github.com/sparrowwallet/Sparrow/releases) da gidebilirsiniz.
+Ayrıca [projenin GitHub deposuna](https://github.com/sparrowwallet/Sparrow/releases) da gidebilirsiniz.
 
 
 
@@ -4192,7 +4192,7 @@ Son olarak, PGP imzasını doğrulamak için geliştiricinin açık anahtarına 
 
 
 
-Sparrow wallet* durumunda, geliştiricinin açık anahtarını [Keybase'de Craig Raw] (https://keybase.io/craigraw) bulabilirsiniz. Doğrudan terminalden indirmek için aşağıdaki komutu çalıştırın:
+Sparrow wallet durumunda, geliştiricinin açık anahtarını [Keybase'de Craig Raw](https://keybase.io/craigraw) bulabilirsiniz. Doğrudan terminalden indirmek için aşağıdaki komutu çalıştırın:
 
 
 
@@ -4484,7 +4484,7 @@ Bu yapılandırma ile Alice birçok yaygın tehdide karşı zaten korunmaktadır
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice bu nedenle 3-2-1 kuralına uymaktadır: dosyalarının 3 kopyası (bilgisayar, USB anahtarı, bulut), en az 2 farklı ortamda (dahili disk, USB anahtarı, uzak sunucu) ve en az 1 tesis dışı kopyası (bulut sunucusu) bulunmaktadır.
 
@@ -4564,14 +4564,14 @@ Tam şifreleme bir kilit gibidir: parola verilmediği sürece veriler kullanıla
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
 Linux altında standart çözüm LUKS'tur (*Linux Unified Key Setup*). LUKS çoğu dağıtıma entegre edilmiş şifreli bir birim yönetim sistemidir. Sistem ilk kurulduğunda, genellikle tüm bilgisayar diskini şifrelemeniz istenir. Elbette, bu seçeneği etkinleştirmenizi şiddetle tavsiye ederim. Şifreleme etkinleştirildikten sonra, sistem her açılışta, hatta işletim sistemi yüklenmeden önce bile şifre soracaktır. Bu, diske fiziksel erişimin güvenliği atlayamamasını sağlar.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Harici bir diski veya USB belleği şifrelemek isterseniz, bu işlem komut satırından veya grafiksel Interface aracılığıyla da yapılabilir. Diskin biçimlendirilmesi gerekecektir, bu nedenle önce yedeklenmezse mevcut tüm veriler kaybolacaktır.
 
@@ -4581,7 +4581,7 @@ Harici bir diski veya USB belleği şifrelemek isterseniz, bu işlem komut satı
 
 
 
-Cryptsetup* paketinin yüklü olduğundan emin olun:
+**Cryptsetup** paketinin yüklü olduğundan emin olun:
 
 
 
@@ -4823,7 +4823,7 @@ Son olarak, anahtarı bilgisayarınızdan temiz bir şekilde çıkarmak için sa
 
 
 
-- Windows:**
+- **Windows:**
 
 
 
@@ -4847,7 +4847,7 @@ Bu çözüm hakkında daha fazla bilgi edinmek için lütfen bu eğitimin tamam�
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4872,7 +4872,7 @@ Harici depolama ortamları (Hard diskleri, USB bellekler, vb.) için şifreleme 
 
 
 - Cihazı seçin, "*Sil*" üzerine tıklayın
-- "GUID* Bölümleme Tablosu" şemasını seçin
+- "**GUID Bölümleme Tablosu**" şemasını seçin
 - Ardından şifrelenmiş bir dosya sistemi biçimi seçin (*APFS* veya *Mac OS extended*)
 - Güçlü bir parola seçin
 - "*Sil*" ve ardından "*Tamam*" üzerine tıkladığınızda şifreleme tamamlanır
@@ -4905,14 +4905,14 @@ Bu protokol, hassas dosyaları başkalarıyla parola paylaşmadan güvenli bir �
 Mükemmel bir alternatif Cryptomator'dur. Bu açık kaynak kodlu yazılım bir kasa oluşturmanıza olanak tanır: yatırılan tüm dosyaların otomatik olarak şifrelendiği özel bir dizin. Bu kasa Dropbox, Google Drive veya Nextcloud gibi bulut hizmetleriyle senkronize edilebilir ve sağlayıcının şifrelenmemiş verilere erişimi olmaz. Uygulama, Android ve iOS dahil olmak üzere tüm işletim sistemlerinde kullanılabilir ve kullanımı için özel bir teknik beceri gerektirmez.
 
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 ![Image](assets/fr/256.webp)
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Son olarak, VeraCrypt'i konteyner modunda kullanmak da mümkündür, bu da şifrelenmiş bir arşiv görevi gören ve bir disk gibi takılabilen bir dosya oluşturur.
 
@@ -4979,7 +4979,7 @@ Bu paket, daha sonra doğrudan komut satırından kullanabileceğiniz `exiftool`
 
 
 
-- Adım 2: Dosya meta verilerini görüntüleme** (Fransızca)
+- **Adım 2: Dosya meta verilerini görüntüleme** (Fransızca)
 
 
 
@@ -4988,18 +4988,18 @@ Bir dosyada bulunan tüm meta verileri görüntülemek için aşağıdaki komutu
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Name.jpg` yerine dosyanızın gerçek adını yazın. Ayrıca bu resmi içeren dizinde konumlandığınızdan emin olun. Örneğin, `/Downloads` dizininde Satoshi Nakamoto heykelinin bir fotoğrafı varsa, aşağıdaki komutu çalıştırarak meta verilerini görüntüleyebilirim:
+Name.webp` yerine dosyanızın gerçek adını yazın. Ayrıca bu resmi içeren dizinde konumlandığınızdan emin olun. Örneğin, `/Downloads` dizininde Satoshi Nakamoto heykelinin bir fotoğrafı varsa, aşağıdaki komutu çalıştırarak meta verilerini görüntüleyebilirim:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -5036,7 +5036,7 @@ Bir dosyadaki tüm gereksiz meta verileri silmek için şu komutu kullanın:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5058,7 +5058,7 @@ Orijinali saklamak istemiyorsanız, komutla silebilirsiniz:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5082,12 +5082,12 @@ Aynı dizinde işlenecek birden fazla dosyanız varsa, aşağıdaki gibi genel b
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Bu, geçerli dizindeki tüm JPEG dosyalarının meta verilerini siler. Uzantıyı ihtiyaçlarınıza göre uyarlayabilirsiniz (`*.png`, `*.pdf`...).
+Bu, geçerli dizindeki tüm JPEG dosyalarının meta verilerini siler. Uzantıyı ihtiyaçlarınıza göre uyarlayabilirsiniz (`*.webp`, `*.pdf`...).
 
 
 
@@ -5155,7 +5155,7 @@ mat2 ~/Downloads/*
 
 
 
-Windows ve macOS'ta, belgelerinizden meta verileri kaldırmak için birkaç yöntem vardır. Bana göre en kolayı açık kaynak kodlu [ExifCleaner] (https://exifcleaner.com/) yazılımını kullanmaktır. Bu hafif araç grafiksel bir Interface'e sahiptir ve çoğu dosya formatını basitçe sürükleyip bırakarak işleyebilir. Bir veya daha fazla dosyayı Interface üzerine bıraktığınızda, yazılım gereksiz meta verileri otomatik olarak kaldırır ve aynı dizindeki orijinal dosyaları değiştirir. ExifCleaner Windows, macOS ve Linux için kullanılabilir.
+Windows ve macOS'ta, belgelerinizden meta verileri kaldırmak için birkaç yöntem vardır. Bana göre en kolayı açık kaynak kodlu [ExifCleaner](https://exifcleaner.com/) yazılımını kullanmaktır. Bu hafif araç grafiksel bir Interface'e sahiptir ve çoğu dosya formatını basitçe sürükleyip bırakarak işleyebilir. Bir veya daha fazla dosyayı Interface üzerine bıraktığınızda, yazılım gereksiz meta verileri otomatik olarak kaldırır ve aynı dizindeki orijinal dosyaları değiştirir. ExifCleaner Windows, macOS ve Linux için kullanılabilir.
 
 
 
@@ -5601,7 +5601,7 @@ Bu bölümün amacı ihtiyaçlarınıza en uygun tarayıcıyı seçmenize yardı
 
 
 
-[Chrome] (https://www.google.com/chrome/), öncelikle Google tarafından yönetilen hızlı ve sürekli gelişimden faydalanmaktadır. Yüksek performansı, hızı, modern web standartlarıyla geniş uyumluluğu ve Google hizmetleriyle iyi entegrasyonu ile tanınmaktadır.
+[Chrome](https://www.google.com/chrome/), öncelikle Google tarafından yönetilen hızlı ve sürekli gelişimden faydalanmaktadır. Yüksek performansı, hızı, modern web standartlarıyla geniş uyumluluğu ve Google hizmetleriyle iyi entegrasyonu ile tanınmaktadır.
 
 
 
@@ -5625,9 +5625,9 @@ Bu nedenle ne kişisel ne de profesyonel olarak Google Chrome kullanmanızı tav
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Cesur
 
@@ -5703,7 +5703,7 @@ Güvenlik açısından Vivaldi, izleyicileri ve reklamları engellemek için çe
 
 
 
-[Opera] (https://www.opera.com/) 1995'ten beri var olan uzun soluklu bir tarayıcıdır. Tescilli motorunu (*Presto*) terk ettikten sonra şimdi Blink kullanıyor. Modern bir Interface ve bazı yenilikçi özelliklere sahiptir.
+[Opera](https://www.opera.com/) 1995'ten beri var olan uzun soluklu bir tarayıcıdır. Tescilli motorunu (*Presto*) terk ettikten sonra şimdi Blink kullanıyor. Modern bir Interface ve bazı yenilikçi özelliklere sahiptir.
 
 
 
@@ -5725,7 +5725,7 @@ Blink tabanlı tarayıcılar, genellikle belirli kullanım durumlarını karşı
 
 
 
-- Arc**:
+- **Arc**:
 
 
 
@@ -5743,11 +5743,11 @@ Teknik açıdan bakıldığında Arc, Chromium'a dayanmaktadır, ancak tescilli 
 
 
 
-- Polipan** :
+- **Polipan** :
 
 
 
-[Polypane] (https://polypane.app/) özellikle ön uç geliştiricileri ve UX tasarımcılarına yöneliktir. Ana işlevi, bir Interface'ün *tepkisel* davranışını gerçek zamanlı olarak test etmek için aynı sitenin birkaç örneğini farklı ekran çözünürlüklerinde eşzamanlı olarak görüntülemektir. Ayrıca erişilebilirlik araçları, HTML/CSS doğrulayıcıları, renk körü simülatörleri ve performans ölçümleri sunar.
+[Polypane](https://polypane.app/) özellikle ön uç geliştiricileri ve UX tasarımcılarına yöneliktir. Ana işlevi, bir Interface'ün *tepkisel* davranışını gerçek zamanlı olarak test etmek için aynı sitenin birkaç örneğini farklı ekran çözünürlüklerinde eşzamanlı olarak görüntülemektir. Ayrıca erişilebilirlik araçları, HTML/CSS doğrulayıcıları, renk körü simülatörleri ve performans ölçümleri sunar.
 
 
 
@@ -5787,7 +5787,7 @@ Firefox, bazı performans alanlarında Blink tabanlı tarayıcıların biraz ger
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor Tarayıcı
 
 
@@ -5796,7 +5796,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Dezavantajı, performansta önemli bir düşüş (yüksek gecikme) ve belirli web siteleriyle sınırlı uyumluluktur. Tor Browser hassas faaliyetler (gazetecilik, aktivizm...) için idealdir, ancak sıradan günlük kullanım için daha az uygundur.
 
@@ -5809,15 +5809,15 @@ Dezavantajı, performansta önemli bir düşüş (yüksek gecikme) ve belirli we
 #### Mullvad Tarayıcı
 
 
-[Mullvad Browser] (https://mullvad.net/en/browser) Tor Vakfı ve Mullvad VPN arasındaki işbirliğinin bir sonucudur. Kendisi Firefox ESR'den türetilmiş olan Tor tarayıcısına dayanmaktadır. Mullvad Tarayıcı, kullanıcı gizliliğini en üst düzeye çıkarmak için tasarlanmıştır. Varsayılan olarak, parmak izine, izleyicilere ve üçüncü taraf komut dosyalarına karşı gelişmiş koruma içerir.
+[Mullvad Browser](https://mullvad.net/en/browser) Tor Vakfı ve Mullvad VPN arasındaki işbirliğinin bir sonucudur. Kendisi Firefox ESR'den türetilmiş olan Tor tarayıcısına dayanmaktadır. Mullvad Tarayıcı, kullanıcı gizliliğini en üst düzeye çıkarmak için tasarlanmıştır. Varsayılan olarak, parmak izine, izleyicilere ve üçüncü taraf komut dosyalarına karşı gelişmiş koruma içerir.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Tor Browser tarafından sunulan güvenlik ve gizlilik özelliklerinin çoğuna sahiptir, ancak bir farkla: trafiği Tor ağı üzerinden yönlendirmez. IP Address sızıntılarını önlemek için, bir VPN (ideal olarak Mullvad VPN) ile birlikte kullanabilirsiniz.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 İster yeni başlayan ister ileri düzey bir kullanıcı olun, gizliliğiniz konusunda endişeleriniz varsa Mullvad Browser mükemmel bir çözümdür.
 
@@ -5843,12 +5843,12 @@ LibreWolf varsayılan olarak Firefox'un gelişmiş güvenlik ayarlarını (sık�
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Zen Tarayıcı
 
 
-[Zen Browser] (https://zen-browser.app/), 2024 yılında piyasaya sürülen Firefox (Gecko motoru) tabanlı ücretsiz ve açık kaynaklı bir tarayıcıdır. Amacı, Chromium'a bağımlı olmadan modern, zarif, son derece özelleştirilebilir ve her şeyden önce gizlilik merkezli bir tarama deneyimi sunmaktır.
+[Zen Browser](https://zen-browser.app/), 2024 yılında piyasaya sürülen Firefox (Gecko motoru) tabanlı ücretsiz ve açık kaynaklı bir tarayıcıdır. Amacı, Chromium'a bağımlı olmadan modern, zarif, son derece özelleştirilebilir ve her şeyden önce gizlilik merkezli bir tarama deneyimi sunmaktır.
 
 
 Zen, büyük ölçüde Arc tarayıcısından esinlenen, ancak açık kaynak yapısı ve Gecko motoru ile ondan özgürleşen Interface ve kullanılabilirliğe radikal yaklaşımı ile öne çıkıyor. Şunları içerir :
@@ -5869,7 +5869,7 @@ Güvenlik ve gizlilik açısından Zen, üçüncü taraf izleyicileri yerel olar
 Ücretsiz, yenilikçi, düzenli ve gizliliğinize saygılı bir Gecko tarama ortamı arıyorsanız Zen Browser ilginç bir alternatiftir.
 
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit tabanlı tarayıcılar
 
@@ -5895,7 +5895,7 @@ Burada masaüstü tarayıcılara odaklanıyoruz, ancak Apple'ın iOS'ta tüm tar
 
 
 
-Safari'ye ilginç bir alternatif, sadece Apple ekosistemi için tasarlanmış ve WebKit tabanlı modern bir tarayıcı olan [Orion] (https://kagi.com/orion/). Amacı, gelişmiş özelliklerden ödün vermeden hızlı, hafif ve gizliliğe son derece saygılı bir alternatif sunmaktır.
+Safari'ye ilginç bir alternatif, sadece Apple ekosistemi için tasarlanmış ve WebKit tabanlı modern bir tarayıcı olan [Orion](https://kagi.com/orion/). Amacı, gelişmiş özelliklerden ödün vermeden hızlı, hafif ve gizliliğe son derece saygılı bir alternatif sunmaktır.
 
 
 
@@ -5915,12 +5915,12 @@ Orion tamamen Kagi ekibi (reklamsız arama motoru ile tanınır) tarafından gel
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### İşleme motoru olmayan tarayıcılar
 
 
 
-Son olarak, bu genel bakışı çok daha az bilinen ve çok marjinal bir alternatifle bitirmek istiyorum: en iyi bilineni [Lynx Browser] (https://lynx.invisible-island.net/) olan metin modu tarayıcıları.
+Son olarak, bu genel bakışı çok daha az bilinen ve çok marjinal bir alternatifle bitirmek istiyorum: en iyi bilineni [Lynx Browser](https://lynx.invisible-island.net/) olan metin modu tarayıcıları.
 
 
 
@@ -6095,9 +6095,9 @@ Parola yöneticisi, güçlü parolaları güvenli bir şekilde oluşturup saklay
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Bir parola yöneticisi kullanmanın birçok avantajı vardır: çok sayıda parolayı ezberleme ihtiyacını ortadan kaldırarak günlük hayatınızı kolaylaştırır ve ana kimlik doğrulama zayıflığını en aza indirir: kullanıcının kendisi.
 
@@ -6107,13 +6107,13 @@ Kimlik doğrulama söz konusu olduğunda, bir parola yöneticisinin kullanımı,
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### VPN Kullanma
 
@@ -6147,11 +6147,11 @@ Ayrıca VPN araçları, çok daha güçlü bir anonimlik sağlamak için şifrel
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Yüksek profilli VPN'lerden kaçınılmalıdır. Agresif pazarlamalarına rağmen, genellikle daha az koruyucu yargı bölgelerinde bulunan ve gerçek teknik işleyişleri konusunda nadiren şeffaf olan merkezi ticari hizmetler olmaya devam etmektedirler.
 
@@ -6250,25 +6250,25 @@ Oltalama, kullanıcıları bilgileri olmadan hassas verileri ifşa etmeleri içi
 
 
 
-- URL'yi analiz edin**: saldırganlar genellikle orijinaline çok yakın adresler kullanır (örn. `micr0soft-support.com`, `paypal-verif.net`, vb.). Bazıları da Unicode karakterlerinden yararlanarak görsel olarak benzer karakterleri değiştirir. Address'in şüpheli ön ekler veya son ekler olmadan beklenen siteye tam olarak karşılık gelip gelmediğini kontrol edin.
+- **URL'yi analiz edin**: saldırganlar genellikle orijinaline çok yakın adresler kullanır (örn. `micr0soft-support.com`, `paypal-verif.net`, vb.). Bazıları da Unicode karakterlerinden yararlanarak görsel olarak benzer karakterleri değiştirir. Address'in şüpheli ön ekler veya son ekler olmadan beklenen siteye tam olarak karşılık gelip gelmediğini kontrol edin.
 
 
 
 
 
-- Kısaltılmış bağlantılardan** kaçının: `bit.ly` veya `t.co` gibi hizmetler nihai Address'u maskeleyebilir. Kısaltılmış bir bağlantı alırsanız, şüphelenin veya hedefini kontrol etmek için bir URL genişletme hizmeti kullanın.
+- **Kısaltılmış bağlantılardan** kaçının: `bit.ly` veya `t.co` gibi hizmetler nihai Address'u maskeleyebilir. Kısaltılmış bir bağlantı alırsanız, şüphelenin veya hedefini kontrol etmek için bir URL genişletme hizmeti kullanın.
 
 
 
 
 
-- Telaşlandırıcı mesajlara dikkat edin**: Kimlik avı girişimleri genellikle güçlü duyguları (aciliyet, tehdit, ödül, merak...) istismar eder. Hesabınızın bloke edilmek üzere olduğunu veya bir paketin teslim edilemeyeceğini iddia eden bir e-posta doğal olarak şüphelidir.
+- **Telaşlandırıcı mesajlara dikkat edin**: Kimlik avı girişimleri genellikle güçlü duyguları (aciliyet, tehdit, ödül, merak...) istismar eder. Hesabınızın bloke edilmek üzere olduğunu veya bir paketin teslim edilemeyeceğini iddia eden bir e-posta doğal olarak şüphelidir.
 
 
 
 
 
-- Hassas bilgileri asla alınan bir bağlantı aracılığıyla iletmeyin**: Meşru bir kurum sizden asla basit bir e-posta veya SMS yoluyla şifre, kimlik doğrulama kodu veya kimliğinizin taranmış bir kopyasını istemez.
+- **Hassas bilgileri asla alınan bir bağlantı aracılığıyla iletmeyin**: Meşru bir kurum sizden asla basit bir e-posta veya SMS yoluyla şifre, kimlik doğrulama kodu veya kimliğinizin taranmış bir kopyasını istemez.
 
 
 
@@ -6278,7 +6278,7 @@ Ve işte kimlik avı riskini en aza indirmek için doğrudan tarayıcınızda uy
 
 
 
-- Yer imleriniz aracılığıyla kritik sitelere erişin**:
+- **Yer imleriniz aracılığıyla kritik sitelere erişin**:
 
 
 
@@ -6292,7 +6292,7 @@ Vergi dairesinden bir bağlantı içeren bir e-posta mı aldınız? Üzerine tı
 
 
 
-- İyi kimlik doğrulama uygulamalarına saygı gösterin** :
+- **İyi kimlik doğrulama uygulamalarına saygı gösterin**:
 
 
 
@@ -6310,7 +6310,7 @@ Bu önlemlere ek olarak, tarayıcı uzantısı olarak iyi bir parola yöneticisi
 
 
 
-- SSL/TLS** sertifikalarını inceleyin:
+- **SSL/TLS** sertifikalarını inceleyin:
 
 
 
@@ -6356,19 +6356,19 @@ Amaç basittir: belirli bir faaliyeti içeren bir olayın (çerez sızıntısı,
 
 
 
-- Birkaç farklı tarayıcı kullanın**: örneğin, kişisel kullanım için Firefox, hassas etkinlikler için Tor veya Mullvad ve profesyonel görevler için Chromium. Her tarayıcı, çerezleri, oturumları ve uzantıları tamamen izole eden kendi depolama örneğini kullanır. Bu aynı zamanda tarayıcı ayarlarını özel kullanım durumlarınıza göre uyarlamanıza olanak tanır.
+- **Birkaç farklı tarayıcı kullanın**: örneğin, kişisel kullanım için Firefox, hassas etkinlikler için Tor veya Mullvad ve profesyonel görevler için Chromium. Her tarayıcı, çerezleri, oturumları ve uzantıları tamamen izole eden kendi depolama örneğini kullanır. Bu aynı zamanda tarayıcı ayarlarını özel kullanım durumlarınıza göre uyarlamanıza olanak tanır.
 
 
 
 
 
-- Tek bir tarayıcıda birden fazla profil oluşturun**: Bazı tarayıcılar, her biri kendi geçmişine, oturumlarına, uzantılarına ve ayarlarına sahip bağımsız profiller oluşturmanıza izin verir. Bu, birkaç ayrı tarayıcı kullanmaktan biraz daha az kısıtlayıcı bir çözümdür, ancak yine de daha az etkilidir.
+- **Tek bir tarayıcıda birden fazla profil oluşturun**: Bazı tarayıcılar, her biri kendi geçmişine, oturumlarına, uzantılarına ve ayarlarına sahip bağımsız profiller oluşturmanıza izin verir. Bu, birkaç ayrı tarayıcı kullanmaktan biraz daha az kısıtlayıcı bir çözümdür, ancak yine de daha az etkilidir.
 
 
 
 
 
-- Yerleşik kapsayıcıları kullanın**: Firefox, her biri kendi oturum açma bilgilerine ve çerezlerine sahip ayrı sekmeler açmanıza olanak tanıyan [Multi-Account Containers] uzantısını (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) sunar. Ayrıca, her açıldığında ayrı tutmak için belirli siteleri otomatik olarak belirli bir kapsayıcıya atayabilirsiniz.
+- **Yerleşik kapsayıcıları kullanın**: Firefox, her biri kendi oturum açma bilgilerine ve çerezlerine sahip ayrı sekmeler açmanıza olanak tanıyan [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) uzantısını sunar. Ayrıca, her açıldığında ayrı tutmak için belirli siteleri otomatik olarak belirli bir kapsayıcıya atayabilirsiniz.
 
 
 
@@ -6378,7 +6378,7 @@ Amaç basittir: belirli bir faaliyeti içeren bir olayın (çerez sızıntısı,
 
 
 
-- Yalıtılmış bir sistem ortamı kullanın**: Özellikle hassas kullanımlar için, tarayıcınızı ana ortamınızdan tamamen ayrı tutmak için bir sanal makine veya Docker konteyneri içinde de çalıştırabilirsiniz.
+- **Yalıtılmış bir sistem ortamı kullanın**: Özellikle hassas kullanımlar için, tarayıcınızı ana ortamınızdan tamamen ayrı tutmak için bir sanal makine veya Docker konteyneri içinde de çalıştırabilirsiniz.
 
 
 
@@ -6686,7 +6686,7 @@ GrapheneOS hiçbir tescilli bileşen içermez. Google hizmetlerini eklemekte ya 
 Graphene yalnızca yeni Google Pikseller (Pixel 6, 7, 8 ve 9) ile uyumludur.
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6866,7 +6866,7 @@ Hassas cihazlar için en iyi çözüm, biyometrik devre dışı bırakma ile bir
 #### Ayrı bir profesyonel profil kullanın
 
 
-Çalışma Profili* Android'e özgü bir özelliktir (Android 5.0'dan beri) ve aynı akıllı telefon içinde ayrı bir yazılım bölümü oluşturmanıza olanak tanır. Pratik anlamda, bu profil yalıtılmış bir konteyner olarak işlev görür: Bu alanda depolanan uygulamalar, hesaplar ve veriler kişisel profildekilerle etkileşime giremez. Bu ayrım, iki alan arasında veri sızıntısını önler ve uygulamalar için erişim haklarını sınırlar. Bu özellik genellikle şirketlerde dahili olarak yönetilir, ancak uygulamaları izole etmek için kişisel olarak kullanmanın yolları da vardır.
+Çalışma Profili Android'e özgü bir özelliktir (Android 5.0'dan beri) ve aynı akıllı telefon içinde ayrı bir yazılım bölümü oluşturmanıza olanak tanır. Pratik anlamda, bu profil yalıtılmış bir konteyner olarak işlev görür: Bu alanda depolanan uygulamalar, hesaplar ve veriler kişisel profildekilerle etkileşime giremez. Bu ayrım, iki alan arasında veri sızıntısını önler ve uygulamalar için erişim haklarını sınırlar. Bu özellik genellikle şirketlerde dahili olarak yönetilir, ancak uygulamaları izole etmek için kişisel olarak kullanmanın yolları da vardır.
 
 
 ![Image](assets/fr/143.webp)
@@ -6902,11 +6902,11 @@ Kafeler, oteller veya toplu taşıma araçları gibi halka açık Wi-Fi ağları
 Kendinizi korumak için, bu genel ağları kullanmaktan kaçının veya cihazınız ile uzak bir sunucu arasında şifreli bir tünel oluşturacak bir VPN kullanın. Bu tünel, verilerinizi kapsülleyerek ele geçirilmesini veya değiştirilmesini son derece zor hale getirir.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Evinizdeki Wi-Fi ağına gelince, SCU 202 kursunun son bölümünde bu konudan bahsedeceğiz.
 
@@ -6981,7 +6981,7 @@ Akıllı telefon verilerinizin düzenli olarak yedeklenmesi güvenliğiniz için
 Bunu başarmak için harici bir disk veya şifreli bir USB anahtarı (örneğin Veracrypt ile) gibi şifreli yerel çözümler kullanmalısınız. Bu mümkün değilse, *Syncthing* veya *Nextcloud* gibi kendi kendine barındırılan bulut çözümleri, erişim ve gizlilik üzerinde tam kontrol sahibi olurken verilerinizi kişisel bir sunucuda yedeklemenize olanak tanır. Ticari bulut hizmetlerinin (Google Drive, iCloud...) aksine, bu çözümler bilgilerinizin üçüncü taraflara açıklığını önemli ölçüde sınırlar.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Uzaktan silme
 
@@ -7079,7 +7079,7 @@ Ancak anonimlik söz konusu olduğunda Signal'in zayıf bir noktası var: Uygula
 Kısacası, Signal çok iyi bir mesajlaşma çözümü, ancak ne yazık ki bir telefon numarasından bağlantı gerektiriyor.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7102,7 +7102,7 @@ Telegram, ergonomisi ve özellikleri (genel kanallar, botlar, büyük gruplar...
 Bu nedenle Telegram, açıkça korunmayan konuşmaların çoğunun içeriğine teknik olarak erişebilir. Şirket hükümet yetkililerine karşı sağlam bir duruş sergilese bile, Telegram, günlük bazda çok daha az pratik olan "gizli değişimlerini" açıkça kullanmadığınız sürece, gizli veya hassas alışverişler için en uygun çözüm değildir.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7125,7 +7125,7 @@ Threema'nın bir diğer önemli yönü de iş modelidir: uygulama ücretsiz değ
 Bu mesajlaşma çözümünün mükemmel olduğunu düşünüyorum, ancak ana dezavantajı sunucularının kaynak kodunun tescilli kalmasıdır.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX Sohbet
 
@@ -7148,7 +7148,7 @@ Kişiler geçici bağlantılar veya statik adresler (kalıcı ancak iptal edileb
 Güvenlik ve gizlilik açısından SimpleX, meta verileri minimuma indirerek ve merkezi bir dizine veya benzersiz bir tanımlayıcıya olan bağımlılığı ortadan kaldırarak mevcut mesajlaşma sistemlerinin çoğundan daha ileri gider. Bununla birlikte, bu mimari kullanıcı dostu olma açısından bir dizi ödün vermektedir: bazen daha az sezgisel ergonomi, hafif bir başlangıç öğrenme eğrisi ihtiyacı ve aktarma sunucularının kullanılabilirliğine bağımlılık.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Oturum
 
@@ -7165,7 +7165,7 @@ Teknik olarak Session mesajlar, dosyalar, ses ve aramaların yanı sıra gruplar
 Oturum istemcisi ve sunucusu açık kaynaklıdır. Yazılım Android, iOS, Windows, macOS ve Linux'ta kullanılabilir ve Bitcoin cüzdanlarında kullanılana benzer Mnemonic ifadesi aracılığıyla cihazlar arasında senkronizasyon seçeneği vardır. Bu ifade kullanıcıya verileri üzerinde münhasır kontrol sağlamakla birlikte yedekleme açısından da önemli bir sorumluluk yüklemektedir.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7185,7 +7185,7 @@ Keet tüm iletişimleri uçtan uca şifreler. Kayıt tamamen anonimdir: telefon 
 Keet Android, iOS, Windows, macOS ve Linux'ta kullanılabilir ve bir Mnemonic cümlesi kullanılarak cihazlar arasında senkronize edilebilir.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7222,7 +7222,7 @@ Uygulama ANSSI (*Agence Nationale de la Sécurité des Systèmes d'Information*)
 Olvid Android, iOS, Windows, macOS ve Linux ile uyumludur. Ergonomisi basit ve erişilebilir kalmaktadır. Uygulama ayrıca anahtarlar ve kişiler için şifreli bir yedekleme sistemine sahiptir, böylece yeni bir cihazda bir hesabı geri yükleyebilirsiniz.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Kaçınılması gereken mesajlaşma uygulamaları
 
@@ -7320,7 +7320,7 @@ Thunderbird Mobile, Mozilla Vakfı tarafından geliştirilen popüler açık kay
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7370,7 +7370,7 @@ Google Maps, Waze veya Citymapper gibi klasik harita uygulamalarının çoğu ç
 - [Organik Haritalar](https://organicmaps.app/)
 
 
-Organic Maps ücretsiz bir çevrimdışı navigasyon uygulamasıdır. Açık, işbirlikçi bir veritabanı olan [OpenStreetMap] (https://www.openstreetmap.org) verilerine dayanmaktadır. İlgilendiğiniz bölgelerin haritalarını indirir, ardından bir ağ olmadan gezinirsiniz.
+Organic Maps ücretsiz bir çevrimdışı navigasyon uygulamasıdır. Açık, işbirlikçi bir veritabanı olan [OpenStreetMap](https://www.openstreetmap.org) verilerine dayanmaktadır. İlgilendiğiniz bölgelerin haritalarını indirir, ardından bir ağ olmadan gezinirsiniz.
 
 
 Hiçbir reklam, izleme veya veri toplama içermez. Uygulama özellikle yaya, bisiklet veya araba ile yapılan yolculuklar için uygundur ve Interface basit, hızlı ve dikkat dağıtıcı değildir.
@@ -7562,7 +7562,7 @@ Bitwarden, mevcut en kapsamlı açık kaynaklı parola yöneticilerinden biridir
 Bitwarden'in sunucularını kullanabilir veya tam kontrol için isterseniz kendiniz barındırabilirsiniz. Interface mobil, Android veya iOS sistemine sorunsuz entegrasyon ile net ve akıcıdır.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7574,10 +7574,10 @@ KeePass şifrelenmiş yerel dosyalara dayanan tarihsel bir şifre yöneticisidir
 ![Image](assets/fr/172.webp)
 
 
-Ayrıca iOS için [KeePassium] (https://keepassium.com/), Apple ekosisteminde iyi entegre edilmiş bir uygulama, KeePass formatıyla uyumlu ve açık kaynaklı. KeePass istemcisi için bir başka iOS alternatifi Strongbox'tır, ancak bu yazılım birkaç yıldır açık kaynaklı değildir.
+Ayrıca iOS için [KeePassium](https://keepassium.com/), Apple ekosisteminde iyi entegre edilmiş bir uygulama, KeePass formatıyla uyumlu ve açık kaynaklı. KeePass istemcisi için bir başka iOS alternatifi Strongbox'tır, ancak bu yazılım birkaç yıldır açık kaynaklı değildir.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Geçişi](https://proton.me/pass)
@@ -7608,7 +7608,7 @@ Ancak, tüm VPN'ler eşit yaratılmamıştır. NordVPN veya ExpressVPN gibi pop�
 Mullvad, gizlilik koruması açısından en iyi VPN'lerden biridir. E-posta veya şifre gerektirmez: Hesabınız basit bir rastgele numaraya bağlıdır. Ödeme bitcoin veya nakit olarak yapılabilir. Mobil istemci açık kaynaklı, kullanımı kolay ve güçlüdür. Mullvad hiçbir kayıt tutmaz, kullanıcılarını izlemez ve düzenli olarak bağımsız güvenlik denetimleri yayınlar.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7617,7 +7617,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN gizlilik odaklı bir başka mükemmel alternatiftir. Basit ve etkili bir mobil Interface sunar, günlük toplama yapmaz ve anonim kayda izin verir. Bitcoins ile de ödeme yapabilirsiniz. Uygulama, VPN olmayan tüm trafiği engelleyen bir güvenlik duvarı içerir, bu da bir akıllı telefonda çok yararlı olabilir. İstemciler açık kaynaklıdır.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -7655,7 +7655,7 @@ Aegis kapsamlı bir açık kaynak uygulamasıdır. 2FA veritabanınızı bir par
 Ente Auth, uçtan uca şifrelenmiş yedeklemelere sahip modern, açık kaynaklı, çok platformlu bir çözümdür. 2FA kodlarınızı mobil, masaüstü ve web üzerinde güvenli bir şekilde senkronize etmenizi sağlar. Bulut yedekleme veya hesap oluşturma olmadan çevrimdışı olarak da kullanabilirsiniz.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth birçok ek özellik sunar: Etiketlere göre organizasyon, her hizmet için özelleştirilmiş simgeler, notlar, favoriler, entegre arama, güvenli ekip kodu paylaşımı.
 
 
@@ -7669,13 +7669,13 @@ Ente Auth birçok ek özellik sunar: Etiketlere göre organizasyon, her hizmet i
 Authy birden fazla cihaz arasında 2FA senkronizasyonu sunar, bu da kullanışlı olabilir, ancak uygulama açık kaynaklı değildir ve kayıt için bir telefon numarası gerektirir. Bununla birlikte, yeni başlayanlar için, özellikle bulut yedekleme işlevi sayesinde Google Authenticator'dan daha eksiksizdir.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Parola yöneticileri, 2FA kimlik doğrulaması ve VPN'ler hakkında daha fazla bilgi edinmek isterseniz SCU-101 kursundaki ilgili bölümleri okumanızı tavsiye ederim:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Hava Durumu
 
@@ -7878,7 +7878,7 @@ Google Fotoğraflar, görüntüleri otomatik olarak buluta kaydetmek, düzenleme
 - [Basit Galeri](https://github.com/SimpleMobileTools/Simple-Gallery)
 
 
-Simple Gallery tamamen çevrimdışı çalışan minimalist bir açık kaynak uygulamasıdır. Basit Mobil Araçlar* paketinin bir parçasıdır. Cihazınızdan hiçbir veri çıkmadan resimlerinizi yönetmenizi, sıralamanızı, görüntülemenizi ve düzenlemenizi sağlar. Ayrıca rötuşlama, parola koruması ve silinen öğeleri kurtarmak için geri dönüşüm çöp kutusu özelliklerine sahiptir. Takip yok, zorunlu senkronizasyon yok: Fotoğraflarınız sizinle kalır.
+Simple Gallery tamamen çevrimdışı çalışan minimalist bir açık kaynak uygulamasıdır. **Basit Mobil Araçlar** paketinin bir parçasıdır. Cihazınızdan hiçbir veri çıkmadan resimlerinizi yönetmenizi, sıralamanızı, görüntülemenizi ve düzenlemenizi sağlar. Ayrıca rötuşlama, parola koruması ve silinen öğeleri kurtarmak için geri dönüşüm çöp kutusu özelliklerine sahiptir. Takip yok, zorunlu senkronizasyon yok: Fotoğraflarınız sizinle kalır.
 
 
 
@@ -8013,7 +8013,7 @@ Quick Share artık Android'de standart. İlk olarak Samsung tarafından gelişti
 Snapdrop, kurulum gerektirmeyen ücretsiz, açık kaynaklı bir alternatiftir. Aynı yerel ağa bağlı cihazlar arasında, sadece bir web tarayıcısı aracılığıyla dosya paylaşmanızı sağlar. Aktarım doğrudan (eşler arası) yapılır ve veriler asla uzak bir sunucudan geçmez.
 
 
-İlginç bir alternatif, birkaç ekstra özellik sunan [PairDrop] (https://github.com/schlagmichdoch/pairdrop) (Snapdrop'un bir Fork'i).
+İlginç bir alternatif, birkaç ekstra özellik sunan [PairDrop](https://github.com/schlagmichdoch/pairdrop) (Snapdrop'un bir Fork'i).
 
 
 
@@ -8130,8 +8130,8 @@ Kelime anlamı "birbirine bağlı ağ" olan İnternet, milyarlarca cihazın birb
 
 
 
-- IP** (*Internet Protokolü*) Bağlı her cihazı tanımlar ve veri paketlerini yönlendirir.
-- TCP** (*İletim Kontrol Protokolü*) Akışı bölümlere ayırır, hataları kontrol eder ve bölümleri tekrar sıraya koyar.
+- **IP** (*Internet Protokolü*) Bağlı her cihazı tanımlar ve veri paketlerini yönlendirir.
+- **TCP** (*İletim Kontrol Protokolü*) Akışı bölümlere ayırır, hataları kontrol eder ve bölümleri tekrar sıraya koyar.
 
 
 → Güvenilirliğin gecikmeden daha az önemli olduğu gerçek zamanlı kullanımlar için (VoIP, DNS, akış, vb.), TCP yerine genellikle başka bir aktarım protokolü kullanılır: UDP (*User Datagram Protocol*).
@@ -8165,14 +8165,14 @@ Bu cihaz 2 ana işlevi bir araya getirir:
 
 
 
-- Modem rolü**
+- **Modem rolü**
 
 
 Modem ("*modülatör-demodülatör*"ün kısaltması) İSS ağınızı evinize bağlayan bileşendir. Alınan elektrik veya optik sinyalleri (fiber optik, koaksiyel kablo, ADSL veya mobil ağ yoluyla) cihazlarınız tarafından anlaşılabilecek dijital sinyallere uyarlar. Tersine, ekipmanınızdan gelen verileri operatörün altyapısı üzerinden iletilebilecek bir formata dönüştürür. Ev ağınız İnternet ile iletişim kuracaksa bu adım çok önemlidir.
 
 
 
-- Yönlendirici rolü**
+- **Yönlendirici rolü**
 
 
 Yönlendirici, yerel ağınızın kalbidir. İnternet bağlantısını tüm cihazlarınıza dağıtır: Bilgisayarlar, akıllı telefonlar, bağlı nesneler, yazıcılar vb. Her birine yerel bir IP Address atar (İnternette görünen genel IP'nizden farklıdır). Yönlendirici daha sonra gelen ve giden trafiği düzenleyerek verilerin doğru cihaza ulaşmasını sağlar. Ayrıca bir güvenlik duvarı entegre edebilir, ağ paketlerini filtreleyebilir veya port yönlendirme kurallarını yönetebilir. NAT, tüm cihazlarınızı temsil etmek için tek bir genel IP Address kullanarak yerel ağınızı İnternet'in gözünden maskeler. Hangi yerel cihazın hangi isteği başlattığını yalnızca yönlendirici bilir.
@@ -8327,7 +8327,7 @@ Bu bölümde, ev ağı ile ilgili önemli kavramları ele aldık. Bir sonraki b�
 Teorik temelleri gözden geçirdikten sonra, bu bölüm yerel ağınızın güvenliğini artırmak için açık, pratik ve etkili adımlar konusunda size rehberlik edecektir.
 
 
-*Lütfen dikkat: Plan ₿ Network uluslararası bir kitleye yönelik olduğu için burada verilen bilgiler geneldir. Yerel koşullarınıza ve İSS'nize bağlı olarak, bazı en iyi uygulamalar burada belirtilmeyebilir veya farklı bir şekilde uygulanabilir.*
+*Lütfen dikkat: Plan ₿ Academy uluslararası bir kitleye yönelik olduğu için burada verilen bilgiler geneldir. Yerel koşullarınıza ve İSS'nize bağlı olarak, bazı en iyi uygulamalar burada belirtilmeyebilir veya farklı bir şekilde uygulanabilir.*
 
 
 ### Ağ ekipmanınızı seçme ve güvenliğini sağlama
@@ -8342,10 +8342,16 @@ Ev ağınızın güvenliği doğru donanım seçimiyle başlar: yönlendirici ve
 Wi-Fi 6, Wi-Fi 6E veya Wi-Fi 7 uyumlu bir yönlendirici size gelişmiş hızlar ve hepsinden önemlisi modern güvenlik teknolojileri için yerel destek sağlayacaktır. Buna karşılık, özellikle artık yazılım güncellemeleri almayan çok eski ekipmanlar bilinen, yamalanmamış güvenlik açıkları içerebilir. Bu nedenle, doğru yapılandırsanız bile tüm ağınız için bir risk teşkil ederler. Cep telefonları veya bilgisayarlarla karşılaştırıldığında, yönlendiriciler uzun yıllar boyunca saklama eğiliminde olduğumuz ekipmanlardır. Ancak, daha modern ve daha güvenli bir modelden faydalanmak için bunları daha düzenli olarak değiştirmek iyi bir fikir olabilir.
 
 
+**Dikkat**: Genel bir kural olarak, internet servis sağlayıcılarının sunduğu yönlendiriciler gerekli güncelleme özelliğinden ve kişiselleştirme yeteneklerinden yoksun olabilir. Bazı durumlarda, servis sağlayıcılar son kullanıcının dahili ağına sınırsız erişime de sahip olabilir.
+
 Bu yüzden yönlendiricinizin ürün yazılımını sistematik olarak güncellediğinizden emin olun. Bu güncellemeler güvenlik açıklarını düzeltir, yeni özellikler ekler ve genel sistem kararlılığını artırır. Bazı üreticiler otomatik güncellemeler sunar, ancak bazı durumlarda yönlendiricinizin Interface yönetim aracı aracılığıyla manuel olarak kontrol etmeniz gerekir. Telefonunuz, bilgisayarınız, işletim sisteminiz ve yazılımınızda olduğu gibi yönlendiricinizi de düzenli olarak güncellemeniz önemlidir. Bunu haftalık rutininizin bir parçası haline getirebilirsiniz - örneğin her Pazar - kontrol etmeniz ve güncel tutmanız gereken tüm öğelerin bir listesini hazırlayarak.
 
 
-Yönlendiricinizin bakımı artık yapılmıyorsa ancak donanım açısından hala düzgün çalışıyorsa, aşağıdaki gibi alternatif bir açık kaynaklı ürün yazılımı yükleyebilirsiniz:
+Alternatif olarak, otomatik güncellemeleri etkinleştirebilir veya manuel işlemeyi tercih ediyorsanız en azından yeni firmware güncellemeleri için otomatik taramayı etkinleştirebilirsiniz. Otomatik güncelleme özelliği hala bir güvenlik tehdidi oluşturabiliyor olsa da, yönlendiricinin firmware'ini düzenli olarak güncellememeniz yerel ağınızı herkese açık bilinen güvenlik açıklarına maruz bırakacaktır.
+
+**Örnek**: Kendi yönlendiricinizi satın alırken, uzun süredir piyasada yönlendirici sağlayan köklü firmaları aramak iyi bir fikir olabilir. Örneğin Fritz!Box yönlendiriciler, hem aile kullanımına hem de küçük ölçekli şirketlere uygun, tak-çalıştır cihazlar olarak uzun süredir itibar sahibidir. Yazılım güncelleme politikaları genellikle birkaç yıl sürer.
+
+Yönlendiriciniz artık bakımı yapılmıyor ancak donanım açısından hâlâ düzgün çalışıyorsa, şunlar gibi alternatif açık kaynaklı bir firmware yükleyebilmeniz mümkün olabilir:
 
 
 
@@ -8353,13 +8359,15 @@ Yönlendiricinizin bakımı artık yapılmıyorsa ancak donanım açısından ha
 - pfSense ve OPNsense, x86 güvenlik duvarları ve yönlendiriciler için iki FreeBSD tabanlı (Unix benzeri) sistem
 
 
+**Not**: Bazı ISS'ler müşterilerine aynı anda dünyanın birçok farklı ISS'sine hizmet veren tek bir şirket tarafından üretilen toplu yönlendiriciler sağlar. Yönlendiriciye alternatif yazılımlardan birini yüklemek için başka birinin nasıl yapılacağını çoktan keşfetmiş olabileceğini görebilirsiniz, hatta o kişi dünyanın öteki ucunda olsa bile.
+
 ![Image](assets/fr/196.webp)
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Bu sistemler güvenlik duvarı kurallarının, giden ve gelen bağlantıların, ağ segmentasyonunun (VLAN'lar) ve DNS yönetiminin daha iyi kontrol edilmesini sağlar, ancak daha çok ileri düzey kullanıcılara yöneliktir.
 
@@ -8396,9 +8404,9 @@ Bu nedenle, yönlendiricinizi kurduktan hemen sonra tanımlayıcılarınızı de
 Bu parola uzun (40 karakter), karmaşık (sayılar, küçük harfler, büyük harfler ve semboller), benzersiz (başka bir yerde tekrar kullanılmayacak) ve rastgele olmalıdır. Açıkçası generate için bir şifre yöneticisi kullanmanızı ve bu kimlik bilgilerini güvenli bir şekilde saklamanızı öneririm.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Uyarı: Yönlendiricinin yönetim şifresini (yapılandırmasına erişimi koruyan) Wi-Fi şifresiyle (kablosuz ağa bağlanmanızı sağlayan) karıştırmayın. Bunlar iki farklı Elements'dir ve her ikisinin de değiştirilmesi gerekir.
 
@@ -8416,37 +8424,37 @@ Bazı özelliklerden kaçınılmalı veya sistematik olarak devre dışı bırak
 
 
 
-- UPnP (*Evrensel Tak ve Çalıştır*)**:
+- UPnP (**Evrensel Tak ve Çalıştır**):
 
 
 Bu işlev, ağınızdaki cihazların yönlendiriciden bağlantı noktalarını otomatik olarak açmasını istemesini sağlar. Bu, belirli kullanımları (çevrimiçi oyunlar, bağlı kameralar vb.) kolaylaştırırken, aynı zamanda izniniz olmadan ağ yapılandırmasını değiştirebilen kötü amaçlı uygulamalara da kapı açar. UPnP, dahili hizmetlerin dış dünyaya istemeden maruz kalmasının ana nedenlerinden biridir.
 
 
 
-- WPS (*Wi-Fi Korumalı Kurulum*)**:
+- **WPS (*Wi-Fi Korumalı Kurulum*)**:
 
 
 Başlangıçta parola girmeden cihazları Wi-Fi'ye bağlamayı kolaylaştırmak için tasarlanan bu sistem, genellikle zayıf olan ve kaba kuvvetle kolayca saldırıya uğrayan bir PIN koduna dayanmaktadır. Devre dışı bırakmanızı tavsiye ederim.
 
 
 
-- Uzaktan erişim (*Uzaktan Yönetim*)**:
+- Uzaktan erişim (**Uzaktan Yönetim**):
 
 
 Bazı yönlendiriciler, Interface yönetimine dışarıdan, İnternet üzerinden bağlanmanıza izin verir. Bu özellik, yönlendiricinizin saldırı yüzeyini makul olmayan bir şekilde artırır. Uzaktan yönetime özel bir ihtiyacınız olmadığı sürece bu özelliği tamamen devre dışı bırakın. O zaman bile, her zaman bir VPN kullanın.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Eski veya güvensiz protokoller**:
+- **Eski veya güvensiz protokoller**:
 
 
 Telnet, FTP, şifrelenmemiş HTTP veya SMBv1 gibi düz metin protokollerini kullanan tüm yönetim hizmetlerini devre dışı bırakın. Bu protokoller, değiş tokuş edilen verilerin ne gizliliğini ne de bütünlüğünü sağlar ve genellikle kötü amaçlı yazılımlar tarafından hedef alınır. Yerel veya uzaktan erişime ihtiyacınız varsa, yalnızca HTTPS (şifreli Interface), SSH veya SFTP üzerinden uygun bağlantıları kullanın.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Bazı yönlendiriciler dışarıdan gönderilen ICMP isteklerine varsayılan olarak yanıt verir (`ping` komutu). Bu, bir saldırganın ağınızın aktif ve erişilebilir olup olmadığını kontrol etmesini sağlar. İhtiyacınız yoksa, yönlendiricinin güvenlik duvarında bu yanıtı devre dışı bırakın.
@@ -8535,15 +8543,15 @@ Ardından, DNS sorgularının ele geçirilmesini veya izlenmesini önlemek için
 
 
 
-- DoH (*HTTPS üzerinden DNS*)**: DNS isteklerini HTTPS protokolü içinde kapsülleyerek geleneksel şifreli web trafiğinden ayırt edilemez hale getirir
+- **DoH (*HTTPS üzerinden DNS*)**: DNS isteklerini HTTPS protokolü içinde kapsülleyerek geleneksel şifreli web trafiğinden ayırt edilemez hale getirir
 
 
 
-- DoT (*TLS üzerinden DNS*)**: Cihazınız ile DNS sunucusu arasında belirli bir şifreli kanal oluşturur
+- DoT (**TLS üzerinden DNS**): Cihazınız ile DNS sunucusu arasında belirli bir şifreli kanal oluşturur
 
 
 
-- DoQ (* QUIC üzerinden DNS*)**: DNS isteklerini UDP tabanlı QUIC protokolü üzerinden aktarır
+- DoQ (**QUIC üzerinden DNS**): DNS isteklerini UDP tabanlı QUIC protokolü üzerinden aktarır
 
 
 Pratik açıdan, DNS şifreleme ve sunucu değiştirme çeşitli düzeylerde uygulanabilir:
@@ -8557,7 +8565,7 @@ Pratik açıdan, DNS şifreleme ve sunucu değiştirme çeşitli düzeylerde uyg
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - İşletim sistemi düzeyinde: Bazı işletim sistemleri, sistemin ağ yığınından geçen tüm DNS isteklerini güvence altına alan şifreli DNS desteğini (DoT veya DoH) yerel olarak entegre eder. Ancak bu, bilgisayarın veya telefonun tamamını güvence altına almaz: Uygulamalar farklı bir DNS çözümleyici ya da protokol kullanacak şekilde yapılandırılmışlarsa bu ayarı atlayabilirler.
 
 
@@ -8572,7 +8580,7 @@ Ayrıca, İSS tarafından sağlanan modem yönlendiriciler her zaman bu özellik
 İşleri bir adım öteye taşımak için, Pi-hole veya AdGuard Home gibi yerel bir DNS filtreleme çözümü de kurabilirsiniz.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Bu araçlar ağınızdaki küçük bir DNS sunucusu gibi davranarak reklam, tarayıcı izleyicileri, kimlik avı veya kötü amaçlı siteleri barındırdığı bilinen alanlara yönelik istekleri engeller. Bu araçlar ayrıca kendi engelleme listelerinizi oluşturmanıza veya bağlı cihazlara göre filtrelemeyi özelleştirmenize olanak tanır.
 
@@ -8600,12 +8608,12 @@ Bazı durumlarda, hareket halindeyken ev ağınıza erişebilmek yararlıdır: B
 - OpenVPN: Daha eski, ancak çok olgun ve yapılandırılabilir
 
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 WireGuard kullanan, yapılandırması kolay bir VPN çözümü olan Tailscale hakkında eksiksiz bir öğretici burada:
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Bu VPN'i doğrudan uyumlu bir yönlendiricide, küçük bir bilgisayarda (Raspberry Pi gibi) veya evdeki özel bir sunucuda barındırabilirsiniz. Ayrıca herhangi bir cihaza doğrudan istemci olarak da yükleyebilirsiniz.
 
@@ -8613,9 +8621,9 @@ Bu VPN'i doğrudan uyumlu bir yönlendiricide, küçük bir bilgisayarda (Raspbe
 Ancak VPN sadece uzaktan erişim için değildir. Evden uzakta olsanız bile (halka açık Wi-Fi, otel, üniversite vb.) tüm giden trafiğinizi şifrelemek için cihazlarınızda klasik bir VPN istemcisi de kullanabilirsiniz. Bu durumda, cihazınız üçüncü taraf bir VPN sunucusuna (ticari veya kendi barındırdığı) bağlanır ve bu sunucu daha sonra bağlantılarınızı İnternet'e aktarır. Bu, gerçek IP Address'nızı İSS'den gizler, verilerinizi yerel casusluktan korur ve belirli sansür türlerini önler.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Son olarak, doğrudan yönlendiricinizde bir VPN kurmak da mümkündür, böylece her birine bir VPN istemcisi yüklemek zorunda kalmadan evinizdeki tüm cihazları koruyabilirsiniz.
 
@@ -8629,12 +8637,12 @@ Ağınız düzgün bir şekilde yapılandırıldıktan ve bölümlere ayrıldık
 İlk adım, güvenlik günlüklerini merkezileştirmektir. Ağa bağlı her cihaz, bağlantılar, hatalar veya şüpheli faaliyetler hakkında bilgi içeren günlükler oluşturur. Bu günlükleri tek tek incelemek yerine, bunları gruplama, sıralama ve analiz etme yeteneğine sahip bir sunucuya göndermenizi öneririm. Graylog veya Elastic Stack (ELK) gibi çözümler, bu günlükleri belirli olayları arayabileceğiniz, uyarılar oluşturabileceğiniz veya ağ etkinliğini görselleştirebileceğiniz grafiksel bir Interface'de toplamanıza olanak tanır.
 
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Ardından, örneğin Nmap ile yerel ağınızda düzenli aktif taramalar yapın. Bu size ağınızdaki tüm cihazlar ve açtıkları portlar hakkında genel bir bakış sağlayacaktır. Bilinmeyen bir cihaz veya olağandışı bir hizmet tespit ederseniz, bu bir saldırı işareti olabilir.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Daha da ileri gitmek için bir IDS (*Saldırı Tespit Sistemi*) veya hatta bir IPS (*Saldırı Önleme Sistemi*) kurabilirsiniz. Suricata veya Snort gibi bu araçlar ağ akışlarını gerçek zamanlı olarak izler ve bilinen saldırıların imzalarını (port taramaları, enjeksiyonlar, şüpheli bağlantılar vb.) tespit eder. IDS uyarırken, IPS belirli eylemleri otomatik olarak engelleyebilir.
 
@@ -8642,7 +8650,7 @@ Daha da ileri gitmek için bir IDS (*Saldırı Tespit Sistemi*) veya hatta bir I
 Son olarak, bant genişliği tüketiminin izlenmesi de anormal faaliyetlerin iyi bir göstergesidir. Bir cihaz görünürde hiçbir neden yokken aniden çok fazla veri tüketiyorsa, bu yetkisiz bir indirme, veri sızıntısı ve hatta ele geçirilmiş bir cihazın habercisi olabilir. Ntopng veya vnStat gibi araçlar cihaza göre gelen ve giden akışları görüntülemenizi sağlar.
 
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Yedekleme ve esneklik
 

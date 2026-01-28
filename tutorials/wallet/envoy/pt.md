@@ -1,5 +1,5 @@
 ---
-name: Enviado
+name: Envoy
 description: Configurar e utilizar um Passaporte com a aplicação Envoy
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Neste tutorial, destinado a utilizadores principiantes e intermédios, vamos des
 
 Se for um utilizador avançado e quiser explorar funcionalidades mais complexas, recomendo que consulte este outro tutorial onde configuramos o Passport com a Sparrow Wallet :
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Desembalar o Passaporte
 
@@ -62,13 +62,13 @@ No dispositivo, encontrará :
 Aceda à sua loja de aplicações para descarregar o Envoy :
 
 
-- Na [Google Play Store] (https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
-- Na [App Store] (https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
+- Na [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
+- Na [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
 - Em [F-Cold](https://foundation.xyz/fdroid/).
 
 ![Image](assets/fr/50.webp)
 
-Também pode descarregar o ficheiro APK diretamente [do repositório GitHub da Fundação] (https://github.com/Foundation-Devices/envoy/releases).
+Também pode descarregar o ficheiro APK diretamente [do repositório GitHub da Fundação](https://github.com/Foundation-Devices/envoy/releases).
 
 ![Image](assets/fr/51.webp)
 
@@ -164,13 +164,13 @@ O Passport está pronto para receber o novo firmware através de um cartão Micr
 
 ### Sem a aplicação Envoy
 
-Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro) e insira-o no computador. Descarregue a versão mais recente do firmware a partir do [sítio de documentação da Fundação] (https://docs.foundation.xyz/firmware-updates/passport/) ou [do seu repositório GitHub] (https://github.com/Foundation-Devices/passport2/releases).
+Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro) e insira-o no computador. Descarregue a versão mais recente do firmware a partir do [sítio de documentação da Fundação](https://docs.foundation.xyz/firmware-updates/passport/) ou [do seu repositório GitHub](https://github.com/Foundation-Devices/passport2/releases).
 
 ![Image](assets/fr/21.webp)
 
 Antes de o instalar no seu dispositivo, aconselhamos vivamente que verifique a autenticidade e a integridade do firmware descarregado. Se precisar de ajuda para o fazer, consulte este tutorial :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Com a aplicação Envoy
 
@@ -254,7 +254,7 @@ Clique no botão de confirmação para ver a sua frase mnemónica.
 
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 é claro que nunca deve partilhar estas palavras na Internet, como eu estou a fazer neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial
 
@@ -313,7 +313,7 @@ O submenu "*Ferramentas de conta*" oferece opções como a verificação de um e
 
 ![Image](assets/fr/38.webp)
 
-No submenu "*Manage Account*" (Gerir conta*), pode ligar a sua carteira Bitcoin a um software de gestão de carteiras (que abordaremos nos próximos passos deste tutorial), ou ver e mudar o nome da sua conta.
+No submenu **Manage Account** (Gerir conta), pode ligar a sua carteira Bitcoin a um software de gestão de carteiras (que abordaremos nos próximos passos deste tutorial), ou ver e mudar o nome da sua conta.
 
 ![Image](assets/fr/39.webp)
 
@@ -457,4 +457,4 @@ Parabéns, agora já sabe como configurar e utilizar o Passport com a aplicaçã
 
 Para mais informações, consulte o nosso tutorial sobre o software Liana:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

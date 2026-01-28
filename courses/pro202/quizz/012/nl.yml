@@ -1,0 +1,8 @@
+question: Welke wiskundige eigenschap zorgt ervoor dat elliptische curvepunten consistent en voorspelbaar kunnen worden opgeteld in cryptografische operaties?
+answer: Punten vormen een wiskundige groep met closure, associativiteit, identiteit en inverses
+wrong_answers:
+  - Punten onderhouden continue vloeiende curven die geometrische relaties behouden
+  - Punten volgen lineaire progressiepatronen die voorspelbare sequenties creëren
+  - Punten gebruiken modulaire rekenkunde die automatisch rekenfouten voorkomt
+explanation: |
+  Elliptische kromme punten vormen een wiskundige groep onder optelling, wat betekent dat ze voldoen aan vier essentiële eigenschappen: closure (optellen van twee punten geeft een ander punt op de kromme), associativity (volgorde van operaties maakt niet uit), identity (punt op oneindig werkt als nul), en inverses (elk punt heeft een reflectie die het opheft). Deze groepseigenschappen zorgen ervoor dat cryptografie met elliptische krommen betrouwbaar werkt en dat bewerkingen zoals scalaire vermenigvuldiging zich consistent gedragen, ongeacht of we werken met gladde reële krommen of discrete eindige veldpunten.

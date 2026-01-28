@@ -1,13 +1,10 @@
-question: Qual è l'uso consigliato per un wallet fisico offline, o cold?
-answer: Conservare grandi quantità di bitcoin.
+question: Qual è un'alternativa consigliata all'uso della carta per memorizzare la frase mnemonica?
+answer: Inciderla su una piastra metallica.
 wrong_answers:
-  - Utilizzarlo per le le spese quotidiane.
-  - Conservare piccole quantità di bitcoin.
-  - Conservare risparmi a breve termine.
+  - Memorizzarla in un file digitale.
+  - Scriverla su una lavagna.
+  - Salvarla come contatto nel telefono.
 explanation: |
-  Un wallet fisico offline, o cold, è consigliato per
-  conservare grandi quantità perché è meno vulnerabile a
-  minacce online rispetto agli hot wallet. Non è
-  consigliato per le spese quotidiane, perché è meno
-  accessibile per transazioni frequenti.
-reviewed: true
+  Una delle alternative alla carta, consigliata per memorizzare
+  la frase mnemonica, è inciderla su una piastra metallica. Questa
+  soluzione è più stabile e resistente.

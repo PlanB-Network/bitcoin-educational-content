@@ -1,5 +1,5 @@
 ---
-name: Canaã Avalon Nano 3S
+name: Canaan Avalon Nano 3S
 description: Configurando seu ASIC Avalon para solomining ou pooling Miner
 ---
 
@@ -23,13 +23,13 @@ Estes dispositivos são comercializados como um aquecedor auxiliar, no caso do *
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Note-se que a diferença de preço em relação aos aquecedores tradicionais de potência equivalente não lhe permite, na grande maioria dos casos, obter um lucro financeiro. Os satoshis gerados pela atividade do Mining nunca compensarão esta diferença de preço, a menos que tenha acesso a eletricidade gratuita (excedente) ou muito barata.
 
 
 
-Na minha opinião, estes dispositivos devem ser vistos mais como uma forma simples de Miner em casa para aqueles que o desejam fazer por razões pessoais: *obter Satss sem KYC / jogar na "lotaria" solominando / participar na descentralização do Hashrate, etc., enquanto beneficia **como bónus** do calor gerado para aquecer o seu quarto no inverno. Mas não como uma forma de poupar dinheiro, pelo menos na maioria dos casos (países ocidentais).
+Na minha opinião, estes dispositivos devem ser vistos mais como uma forma simples de Miner em casa para aqueles que o desejam fazer por razões pessoais: *obter Satss sem KYC / jogar na "lotaria" solominando / participar na descentralização do Hashrate, etc.*, enquanto beneficia **como bónus** do calor gerado para aquecer o seu quarto no inverno. Mas não como uma forma de poupar dinheiro, pelo menos na maioria dos casos (países ocidentais).
 
 
 
@@ -75,17 +75,18 @@ Segue-se um quadro que resume as especificações técnicas gerais do Nano 3S :
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Característica                                      | Valor                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Taxa de hash                                      | 6 Th/s +- 5%                                            |
+| Consumo de energia                               | 140 W                                                   |
+| Ruído                                                | 30 - 40 dB                                              |
+| Intervalo de temperatura do ar de saída                 | 60-70°C (na temperatura ambiente 25°C)                |
+| Requisitos de temperatura ambiente para uso | -5 a 30°C                                            |
+| Intervalo de tensão de entrada do dispositivo                         | 28V 5A contínuo                                          |
+| Intervalo de tensão de entrada do adaptador                       | 110-240V AC 50/60Hz                                     |
+| Tamanho do dispositivo                                 | Comprimento: 205 mm / Largura: 115 mm / Altura: 58.5 mm |
+| Peso do dispositivo                                  | 0.86 kg                                                 |
 
 ## Ligar e estabelecer ligação à rede local
 
@@ -207,9 +208,9 @@ Para obter mais informações sobre como ligar a um Mining pool, consulte estes 
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Em suma, precisamos de
 
@@ -358,4 +359,4 @@ Para saber mais, consulte o nosso tutorial sobre a versão superior do Avalon: o
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

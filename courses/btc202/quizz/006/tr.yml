@@ -1,0 +1,9 @@
+question: Tek bir Wallet neden bir Bitcoin ağ katılımcısı olarak kabul edilmiyor?
+answer: İşlemleri veya blokları doğrulamadığı için
+wrong_answers:
+  - Çünkü generate özel anahtarlarını kullanamaz
+  - Çünkü Bitcoin adresleri oluşturamaz
+  - Çünkü satışları veya adresleri doğrulamıyor
+explanation: |
+  Bir Wallet blokları ve işlemleri doğrudan doğrulamaz; sadece anahtarları yönetir ve geri kalanı için düğümlere bağlıdır.
+reviewed: true

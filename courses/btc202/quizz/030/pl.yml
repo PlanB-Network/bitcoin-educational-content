@@ -1,0 +1,9 @@
+question: Jaka jest główna przewaga node-in-a-box nad surową implementacją?
+answer: Łatwa instalacja i zintegrowane zarządzanie aplikacjami
+wrong_answers:
+  - Bardziej rygorystyczna weryfikacja zasad konsensusu
+  - Bezpośredni dostęp do Blockchain bez pamięci masowej
+  - Zgodność z walutą inną niż Bitcoin
+explanation: |
+  Node-in-a-box upraszcza instalację i zarządzanie wieloma aplikacjami pomocniczymi za pośrednictwem ujednoliconego Interface.
+reviewed: true

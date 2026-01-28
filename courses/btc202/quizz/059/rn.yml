@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwiza bwo gushika ku Bitcoin core uri kure?
+answer: Gushira ahabona icambu ca RPC
+wrong_answers:
+  - Gukoresha Tor
+  - Gukoresha VPN
+  - Gushira ahabona umukozi wa Electrum
+explanation: |
+  Gushira ahabona icuma ca RPC kitarimwo amakuru bitera ingorane nyinshi ku mutekano. Tor canke VPN nivyo vyiza.
+reviewed: true

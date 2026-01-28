@@ -1,0 +1,9 @@
+question: USB 플래시 드라이브로 무엇을 하지 말아야 하나요?
+answer: 알 수 없는 USB 스틱 연결
+wrong_answers:
+  - NTFS 형식의 USB 스틱 사용
+  - 나만의 USB 스틱 암호화
+  - 새 USB 플래시 드라이브 사용
+explanation: |
+  알 수 없는 USB 스틱을 연결하면 컴퓨터에 멀웨어가 감염되거나 중요한 데이터가 도용될 수 있습니다.
+reviewed: false

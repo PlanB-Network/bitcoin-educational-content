@@ -56,55 +56,55 @@ OPNsense'in temel özelliklerinden bazıları şunlardır:
 
 
 
-- Güvenlik Duvarı ve NAT**: OPNsense, durum bilgisi filtrelemeli gelişmiş durum bilgisi güvenlik duvarı işlevselliğinin yanı sıra ağ Address çevirisi (NAT) yetenekleri sağlar.
+- **Güvenlik Duvarı ve NAT**: OPNsense, durum bilgisi filtrelemeli gelişmiş durum bilgisi güvenlik duvarı işlevselliğinin yanı sıra ağ Address çevirisi (NAT) yetenekleri sağlar.
 
 
 
 
 
-- DNS/DHCP**: OPNsense, ağdaki DNS ve DHCP hizmetlerini yönetmek için yapılandırılabilir. Bir DHCP sunucusu olarak hareket edebilir, ancak yerel ağdaki makineler için bir DNS çözümleyicisi olarak da kullanılabilir. Dnsmasq da varsayılan olarak entegre edilmiştir.
+- **DNS/DHCP**: OPNsense, ağdaki DNS ve DHCP hizmetlerini yönetmek için yapılandırılabilir. Bir DHCP sunucusu olarak hareket edebilir, ancak yerel ağdaki makineler için bir DNS çözümleyicisi olarak da kullanılabilir. Dnsmasq da varsayılan olarak entegre edilmiştir.
 
 
 
 
 
-- VPN**: OPNsense, IPsec, OpenVPN ve WireGuard dahil olmak üzere çeşitli VPN protokollerini destekleyerek mobil iş istasyonlarına uzaktan erişim veya site ara bağlantısı için güvenli bağlantılar sağlar.
+- **VPN**: OPNsense, IPsec, OpenVPN ve WireGuard dahil olmak üzere çeşitli VPN protokollerini destekleyerek mobil iş istasyonlarına uzaktan erişim veya site ara bağlantısı için güvenli bağlantılar sağlar.
 
 
 
 
 
-- Web proxy**: OPNsense, İnternet erişimini kontrol etmek ve filtrelemek için bir web proxy'si içerir. Ayrıca içeriği filtrelemek ve ağ erişimini yönetmek için de kullanılabilir.
+- **Web proxy**: OPNsense, İnternet erişimini kontrol etmek ve filtrelemek için bir web proxy'si içerir. Ayrıca içeriği filtrelemek ve ağ erişimini yönetmek için de kullanılabilir.
 
 
 
 
 
-- Bant genişliği yönetimi (QoS)**: OPNsense, ağ trafiğine öncelik vermek ve ağ bant genişliğini daha iyi yönetmek için Hizmet Kalitesi (QoS) yönetim özellikleri sunar.
+- **Bant genişliği yönetimi (QoS)**: OPNsense, ağ trafiğine öncelik vermek ve ağ bant genişliğini daha iyi yönetmek için Hizmet Kalitesi (QoS) yönetim özellikleri sunar.
 
 
 
 
 
-- Captive portal**: Bu özellik, bir kimlik doğrulama sayfası (yerel taban, kuponlar vb.) aracılığıyla ağa kullanıcı erişimini yönetmenizi sağlar. Genel Wi-Fi ağları için yaygın olarak kullanılan bir özelliktir.
+- **Captive portal**: Bu özellik, bir kimlik doğrulama sayfası (yerel taban, kuponlar vb.) aracılığıyla ağa kullanıcı erişimini yönetmenizi sağlar. Genel Wi-Fi ağları için yaygın olarak kullanılan bir özelliktir.
 
 
 
 
 
-- IDS/IPS**: OPNsense, ağı saldırılara karşı korumak için saldırı tespit ve önleme (IDS/IPS) işlevleri sunmak üzere Suricata'yı entegre eder.
+- **IDS/IPS**: OPNsense, ağı saldırılara karşı korumak için saldırı tespit ve önleme (IDS/IPS) işlevleri sunmak üzere Suricata'yı entegre eder.
 
 
 
 
 
-- Yüksek kullanılabilirlik (CARP)**: OPNsense, birden fazla OPNsense güvenlik duvarı arasında yüksek kullanılabilirlik için CARP'yi (*Common Address Redundancy Protocol*) destekler ve donanım arızası durumunda bile hizmetin etkin kalmasını sağlar.
+- **Yüksek kullanılabilirlik (CARP)**: OPNsense, birden fazla OPNsense güvenlik duvarı arasında yüksek kullanılabilirlik için CARP'yi (*Common Address Redundancy Protocol*) destekler ve donanım arızası durumunda bile hizmetin etkin kalmasını sağlar.
 
 
 
 
 
-- Raporlama ve İzleme**: OPNsense, günlüklerin oluşturulması sayesinde ağ performansını (NetFlow ile) izlemek ve olası sorunları tespit etmek için gerçek zamanlı raporlama ve izleme araçları sağlar. Buna grafikler de dahildir. Monit aracı OPNsense'e entegre edilmiştir ve güvenlik duvarının kendisinin denetlenmesini sağlar.
+- **Raporlama ve İzleme**: OPNsense, günlüklerin oluşturulması sayesinde ağ performansını (NetFlow ile) izlemek ve olası sorunları tespit etmek için gerçek zamanlı raporlama ve izleme araçları sağlar. Buna grafikler de dahildir. Monit aracı OPNsense'e entegre edilmiştir ve güvenlik duvarının kendisinin denetlenmesini sağlar.
 
 
 
@@ -131,7 +131,7 @@ Her şeyden önce, OPNsense'i nereye kuracağınıza karar vermeniz gerekir. . �
 
 
 - Hyper-V, Proxmox, VMware ESXi vb. sanal makine olarak bir hipervizör.
-- Çıplak metal* sistem olarak bir makine. Bu, güvenlik duvarı görevi gören mini bir bilgisayar olabilir.
+- Çıplak metal sistem olarak bir makine. Bu, güvenlik duvarı görevi gören mini bir bilgisayar olabilir.
 
 
 
@@ -139,7 +139,7 @@ Ayrıca çevrimiçi mağazamızdan **bir OPNsense rafa monte edilebilir cihaz** 
 
 
 
-OPNsense'i çalıştırmak için gereken donanım kaynaklarını hesaba katmanız gerekir. Bu konu [bu dokümantasyon sayfası] (https://docs.opnsense.org/manual/hardware.html) adresinde ayrıntılı olarak açıklanmıştır.
+OPNsense'i çalıştırmak için gereken donanım kaynaklarını hesaba katmanız gerekir. Bu konu [bu dokümantasyon sayfası](https://docs.opnsense.org/manual/hardware.html) adresinde ayrıntılı olarak açıklanmıştır.
 
 
 
@@ -147,17 +147,18 @@ OPNsense'i çalıştırmak için gereken donanım kaynaklarını hesaba katmanı
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Özellikler | Minimum | Tavsiye |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| İşlemci | 1 GHz - 2 çekirdek | 1.5 GHz - Çok çekirdekli |
+| RAM | 2 GB | 8 GB |
+| Sistem için depolama alanı | Sabit sürücü, SSD veya SD kart (4 GB) | SSD'de 120 GB |
 
 Son olarak, **kaynak gereksinimleriniz her şeyden önce yönetilecek bağlantı sayısına** ve dolayısıyla **bant genişliği gereksinimlerinize** bağlıdır. Ayrıca, CPU ve/veya RAM'e ihtiyaç duyabilecekleri için **etkinleştirilecek ve kullanılacak hizmetleri** (proxy, saldırı tespiti, vb...) aklınızda bulundurmanız gerekir.
 
 
 
-Ayrıca [resmi web sitesinden] (https://opnsense.org/download/) indirebileceğiniz OPNsense kurulum ISO görüntüsüne de ihtiyacınız olacak. Bir sanal makineye kurulum için, bir ISO görüntüsü elde etmek üzere görüntü türü olarak "**dvd**" seçeneğini seçin (ve bununla istediğinizi yapın...). Önyüklenebilir bir USB anahtarı aracılığıyla kurulum için, bir "**.img**" dosyası elde etmek üzere "**vga**" seçeneğini seçin.
+Ayrıca [resmi web sitesinden](https://opnsense.org/download/) indirebileceğiniz OPNsense kurulum ISO görüntüsüne de ihtiyacınız olacak. Bir sanal makineye kurulum için, bir ISO görüntüsü elde etmek üzere görüntü türü olarak "**dvd**" seçeneğini seçin (ve bununla istediğinizi yapın...). Önyüklenebilir bir USB anahtarı aracılığıyla kurulum için, bir "**.img**" dosyası elde etmek üzere "**vga**" seçeneğini seçin.
 
 
 
@@ -179,11 +180,11 @@ Bizim hedefimiz
 
 
 
-- OPNsense güvenlik duvarı üzerinden İnternet'e erişebilen dahili bir sanal ağ (192.168.10.0/24 - LAN)** oluşturun. Üretim kullanımı için bu, yerel ağınız, kablo ve/veya Wi-Fi olabilir.
-- Dahili sanal ağdaki VM'lerin İnternet'e erişebilmesi için NAT'ı** etkinleştirin ve yapılandırın
-- Dahili sanal ağa bağlı gelecekteki makinelere bir IP yapılandırması dağıtmak için OPNsense** üzerindeki DHCP sunucusunu etkinleştirin ve yapılandırın
-- Güvenlik duvarını** HTTP (80) ve HTTPS (443) ile yalnızca LAN'dan WAN'a giden akışlara izin verecek şekilde yapılandırın.
-- Sanal LAN'ın OPNsense'i DNS çözümleyicisi olarak kullanmasına izin vermek için güvenlik duvarını** yapılandırın (53).
+- OPNsense güvenlik duvarı üzerinden İnternet'e erişebilen dahili bir sanal ağ **(192.168.10.0/24 - LAN)** oluşturun. Üretim kullanımı için bu, yerel ağınız, kablo ve/veya Wi-Fi olabilir.
+- Dahili sanal ağdaki VM'lerin İnternet'e erişebilmesi için **NAT'ı** etkinleştirin ve yapılandırın
+- Dahili sanal ağa bağlı gelecekteki makinelere bir IP yapılandırması dağıtmak için **OPNsense** üzerindeki DHCP sunucusunu etkinleştirin ve yapılandırın
+- Güvenlik duvarını HTTP (80) ve HTTPS (443) ile yalnızca LAN'dan WAN'a giden akışlara izin verecek şekilde yapılandırın.
+- Sanal LAN'ın OPNsense'i DNS çözümleyicisi olarak kullanmasına izin vermek için **güvenlik duvarını** yapılandırın (53).
 
 
 
@@ -257,7 +258,7 @@ Ardından aşağıdakine benzer bir Interface'e geleceksiniz. Giriş "**installe
 
 
 
-Ekranda yeni bir sihirbaz belirir. İlk adım, yapılandırmanıza karşılık gelen klavye düzenini seçmektir. AZERTY klavye için listeden "**Fransızca (aksan tuşları)**" seçeneğini seçin ve ardından çift tıklayın**.
+Ekranda yeni bir sihirbaz belirir. İlk adım, yapılandırmanıza karşılık gelen klavye düzenini seçmektir. AZERTY klavye için listeden **"Fransızca (aksan tuşları)"** seçeneğini seçin ve ardından **çift tıklayın**.
 
 
 
@@ -313,7 +314,7 @@ Kurulum tamamlandıktan sonra, yeniden başlatmadan önce "**root**" parolasın�
 
 
 
-Son olarak, "**Kurulumu Tamamla**" seçeneğini seçin ve **Enter** tuşuna basın. Bu fırsattan yararlanarak diski VM'nin DVD sürücüsünden çıkarın**. VM ayarlarında, diske ilk önyüklemeyi de ayarlayabilirsiniz.
+Son olarak, "**Kurulumu Tamamla**" seçeneğini seçin ve **Enter** tuşuna basın. Bu fırsattan yararlanarak diski VM'nin DVD sürücüsünden çıkarın. VM ayarlarında, diske ilk önyüklemeyi de ayarlayabilirsiniz.
 
 
 
@@ -382,7 +383,7 @@ pfctl -d
 
 
 
-OPNsense Administration Interface'e, LAN** Interface'ün (veya WAN'ın) IP Address'ü kullanılarak HTTPS üzerinden erişilebilir. Tarayıcınız sizi bir oturum açma sayfasına götürecektir. Daha önce seçtiğiniz "root" hesabı ve parolası ile oturum açın.
+OPNsense Administration Interface'e, **LAN** Interface'ün (veya WAN'ın) IP Address'ü kullanılarak HTTPS üzerinden erişilebilir. Tarayıcınız sizi bir oturum açma sayfasına götürecektir. Daha önce seçtiğiniz "root" hesabı ve parolası ile oturum açın.
 
 
 
@@ -430,7 +431,7 @@ Yine Interface WAN yapılandırma sayfasında, WAN tarafındaki ağ özel adresl
 
 
 
-Daha sonra, bir "root "** parolası tanımlayabilirsiniz, ancak bu isteğe bağlıdır çünkü bunu zaten yaptık.
+Daha sonra, bir **"root"** parolası tanımlayabilirsiniz, ancak bu isteğe bağlıdır çünkü bunu zaten yaptık.
 
 
 
@@ -472,7 +473,7 @@ Services > ISC DHCPv4 > [LAN]
 
 
 
-Gerekirse, dağıtılacak IP adresi aralığını değiştirebilirsiniz: *mevcut ayarlara bağlı olarak *192.168.10.10** ila **192.168.10.245**.
+Gerekirse, dağıtılacak IP adresi aralığını değiştirebilirsiniz: *mevcut ayarlara bağlı olarak* **192.168.10.10** ila **192.168.10.245**.
 
 
 
@@ -554,7 +555,7 @@ Ardından **LAN ağını** (yani "**LAN net**") yetkilendirmek için üç yeni k
 
 - tüm hedeflere **HTTP** kullanarak erişin.
 - tüm hedeflere **HTTPS** ile erişin.
-- gW-25 LAN'ında** (yani "**LAN Address**") **DNS protokolü** aracılığıyla **OPNsense** talep edin (bu, güvenlik duvarını DNS olarak kullanmak anlamına gelir), aksi takdirde DNS çözümleyicinizi IP Address aracılığıyla yetkilendirin.
+- gW-25 **LAN'ında** (yani "**LAN Address**") **DNS protokolü** aracılığıyla **OPNsense** talep edin (bu, güvenlik duvarını DNS olarak kullanmak anlamına gelir), aksi takdirde DNS çözümleyicinizi IP Address aracılığıyla yetkilendirin.
 
 
 
@@ -566,7 +567,7 @@ Bu da aşağıdaki sonucu verir:
 
 
 
-Geriye kalan tek şey, yeni güvenlik duvarı kurallarını üretime geçirmek için "**Değişiklikleri uygula**" seçeneğine tıklamaktır. **Açıkça yetkilendirilmemiş tüm akışların varsayılan olarak engelleneceğini lütfen unutmayın
+Geriye kalan tek şey, yeni güvenlik duvarı kurallarını üretime geçirmek için "**Değişiklikleri uygula**" seçeneğine tıklamaktır. **Açıkça yetkilendirilmemiş tüm akışların varsayılan olarak engelleneceğini lütfen unutmayın.**
 
 
 

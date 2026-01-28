@@ -1,13 +1,9 @@
-question: El Salvador'da Bitcoin'ın durumu nedir?
-answer: Yasal ihale.
+question: Eski bir kanal durumunu yayımlayan bir Lightning düğümü hangi riski alır?
+answer: Bir ceza
 wrong_answers:
-  - Suçlu.
-  - Bilinmiyor.
-  - Düzenlenmemiş.
+  - Bir uyarı
+  - Ek madencilik ücretleri
+  - Geçici bir dondurma
 explanation: |
-  Ders metninde, bazı ülkelerin aşağıdakileri yasakladığından bahsedilmektedir
-  ve Bitcoin kullanımını suç haline getirerek
-  gW-1'in benimsenmesinin kültürlere, dönemlere ve
-  uluslar. Ancak El Salvador bunu kabul edecek kadar cesurdu
-  yasal bir ihale olarak.
-reviewed: true
+  Protokol, karşı tarafın tüm fonları geri almasına olanak tanıyan caydırıcı bir ceza öngörür.
+reviewed: false

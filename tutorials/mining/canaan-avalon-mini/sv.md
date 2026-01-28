@@ -23,7 +23,7 @@ Dessa enheter marknadsförs antingen som en extra värmare, som i fallet med **A
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Observera att prisskillnaden mot traditionella värmare med motsvarande effekt i de allra flesta fall inte gör det möjligt för dig att göra en ekonomisk vinst. De satoshis som genereras av Mining:s verksamhet kommer aldrig att kompensera för denna prisskillnad, såvida du inte har tillgång till gratis (överskott) eller mycket billig el.
 
@@ -122,16 +122,17 @@ Nedan följer en sammanfattande tabell över Mini 3:s allmänna tekniska specifi
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Egenskap                                      | Värde                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Energiförbrukning                              | 800 W                                                     |
+| Buller                                                | 35-55 dB                                                  |
+| Utgångsluftstemperatur                       | 60-70°C (vid omgivningstemperatur 25°C)                  |
+| Krav på omgivningstemperatur för användning | -5° C - 40°C                                              |
+| Enhetens ingångsspänningsintervall                         | 110V-240V AC 50/60Hz                                      |
+| Maskinens storlek                                 | Längd: 760 mm / Djup: 104 mm / Höjd: 214.5 mm |
+| Maskinens vikt                                  |  8.35 kg                                                  |
 
 ## Anslutning till en Mining pool
 
@@ -181,9 +182,9 @@ Mer information om hur du ansluter till en Mining pool finns i dessa handledning
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Sammanfattningsvis behöver vi
 
@@ -358,4 +359,4 @@ Om du vill veta mer kan du ta en titt på vår handledning om den mindre version
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

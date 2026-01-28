@@ -1,0 +1,9 @@
+question: Kas eetika on avaldatud?
+answer: Postuumselt.
+wrong_answers:
+  - Kui ta oli elus.
+  - On ajakirjandusartiklite kogumik.
+  - Koos autori kirjavahetusega.
+explanation: |
+  Spinoza peateos "Eetika" avaldati postuumselt 1677. aastal, mõned kuud pärast Spinoza surma. Teos oli liiga vastuoluline, et seda oleks saanud avaldada tema eluajal ilma tagakiusamise riskita.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin Core 中的 maxconnections 数参数的默认值是多少？
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections 限制输入和输出连接的总数。默认值为 125。
+reviewed: true

@@ -1,0 +1,8 @@
+question: 몽테뉴의 궤변이라고 불리는 아이디어는 무엇인가요?
+answer: Exchange은 제로섬 게임입니다
+wrong_answers:
+  - Exchange은 포지티브섬 게임입니다
+  - 시간과 장소에 따라 Exchange는 제로섬 게임일 때도 있고 포지티브섬 게임일 때도 있습니다
+  - Exchange은 항상 약자에게 불리합니다
+explanation: |
+  몽테뉴의 오류는 Exchange가 제로섬 게임, 즉 한 쪽이 얻는 것은 다른 쪽이 잃는다는 생각입니다. 자발적인 Exchange는 상호 이익이 되기 때문에 이 생각은 잘못된 것입니다.

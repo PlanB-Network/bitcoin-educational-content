@@ -1,0 +1,9 @@
+question: 2009년 이후 Bitcoin의 온라인 가용성은 어떻게 되나요?
+answer: 99.988%.
+wrong_answers:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explanation: |
+  2009년 이후 Bitcoin의 온라인 가용성은 99.988%입니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 오픈 소스 커뮤니티 기반 모델로 눈에 띄는 시스템은 무엇인가요?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux는 무료이며 전 세계 커뮤니티에서 개발하여 사용자에게 투명성, 보안 및 유연성을 보장합니다.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: پشتیبان‌گیری شامیر ترزور
+name: Trezor Shamir Backup
 description: عبارات Mnemonic تک‌سهم و چندسهم در Trezor
 ---
 ![cover](assets/cover.webp)
@@ -34,7 +34,7 @@ description: عبارات Mnemonic تک‌سهم و چندسهم در Trezor
 
 
 
-پشتیبان‌گیری چندگانه* در Trezor Model T، Safe 3 و Safe 5 در دسترس است. این ویژگی توسط Trezor Model One پشتیبانی نمی‌شود.
+پشتیبان‌گیری چندگانه در Trezor Model T، Safe 3 و Safe 5 در دسترس است. این ویژگی توسط Trezor Model One پشتیبانی نمی‌شود.
 
 
 
@@ -85,11 +85,11 @@ SLIP39 از این طرح برای توزیع seed Wallet استفاده می‌
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### روی یک Wallet جدید
 
@@ -139,13 +139,13 @@ https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 در Trezor، تعداد کل سهامی که می‌خواهید پیکربندی کنید را انتخاب کنید. رایج‌ترین پیکربندی‌ها 2-از-3 و 3-از-5 هستند. برای این مثال، من یک 2-از-3 ایجاد می‌کنم، بنابراین 3 سهم را انتخاب خواهم کرد. هر سهم نمایانگر یک عبارت 20 کلمه‌ای Mnemonic خواهد بود.
 
 
 
-*برای کاربران Safe 5، اگرچه صفحه نمایش می‌گوید "*برای ادامه ضربه بزنید*" اما در واقع باید برای تأیید به سمت بالا بکشید.
+**برای کاربران Safe 5، اگرچه صفحه نمایش می‌گوید "برای ادامه ضربه بزنید" اما در واقع باید برای تأیید به سمت بالا بکشید.**
 
 
 
@@ -173,7 +173,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-البته، شما هرگز نباید این کلمات را در اینترنت به اشتراک بگذارید، همانطور که من در این آموزش انجام می‌دهم. این مثال Wallet فقط در Testnet استفاده خواهد شد و در پایان آموزش حذف خواهد شد.**_
+البته، شما هرگز نباید این کلمات را در اینترنت به اشتراک بگذارید، همانطور که من در این آموزش انجام می‌دهم. این مثال Wallet فقط در Testnet استفاده خواهد شد و در پایان آموزش حذف خواهد شد.
 
 
 
@@ -273,7 +273,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 اگر این آموزش را مفید یافتید، ممنون می‌شوم اگر یک Green انگشت شست در زیر بگذارید. لطفاً این مقاله را در شبکه‌های اجتماعی خود به اشتراک بگذارید. بسیار متشکرم!
 

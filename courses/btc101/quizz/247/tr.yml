@@ -1,8 +1,11 @@
-question: Finansın geleceğine ilişkin ortaya atılan temel sorulardan biri nedir?
-answer: Kullandığımız parayı kim tutmalı, yetkilendirmeli ve izlemelidir?
+question: Bitcoin elde etmenin pratik bir yolu nedir?
+answer: Düzenlenmiş veya düzenlenmemiş platformlar aracılığıyla satın almak.
 wrong_answers:
-  - Parayı nasıl tamamen ortadan kaldırabiliriz?
-  - Herkesin aynı miktarda paraya sahip olmasını nasıl sağlayabiliriz?
-  - Parayı nasıl modası geçmiş hale getirebiliriz?
-explanation: >-
+  - Dizüstü bilgisayar kullanarak onları Mining.
+  - Onları fiziksel dünyada bulmak.
+  - Özel bir yazılım kullanarak bunları oluşturmak.
+explanation: |
+  Metinde, kullanıcıların aşağıdaki yollarla Bitcoin elde edebilecekleri belirtilmektedir
+  takas için kabul ederek veya satın alarak
+  düzenlenmiş veya düzenlenmemiş platformlar.
 reviewed: true

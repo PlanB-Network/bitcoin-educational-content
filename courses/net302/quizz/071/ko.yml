@@ -1,0 +1,9 @@
+question: IPv6 Address에서 접두사 크기를 나타내는 데 사용되는 표기법은 무엇인가요?
+answer: CIDR
+wrong_answers:
+  - 점선 십진수 넷마스크
+  - 콜론으로 구분된 16진수
+  - ICANN
+explanation: |
+  CIDR 표기법은 IPv4와 마찬가지로 슬래시 뒤에 고정 접두사 비트 수를 지정합니다.
+reviewed: false

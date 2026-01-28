@@ -1,0 +1,8 @@
+question: Quelle propriété mathématique garantit que tout élément non nul d'un corps premier F(p) a un inverse multiplicatif ?
+answer: Le champ est défini par un nombre premier p
+wrong_answers:
+  - Le champ contient exactement p-1 éléments
+  - Le champ utilise des opérations arithmétiques modulaires
+  - Le champ prend en charge l'addition et la multiplication
+explanation: |
+  Un corps fini F(p) doit être défini par un nombre premier p pour que chaque élément non nul ait un inverse multiplicatif. Il s'agit d'une exigence fondamentale de la théorie des champs : lorsque p est premier, les entiers modulo p forment un corps où la division est toujours possible (sauf par zéro). Si p était composite, certains éléments non nuls n'auraient pas d'inverse, ce qui briserait la structure du corps. Alors que les autres options décrivent des propriétés des corps finis, seule la primalité de p garantit l'existence d'inverses multiplicatifs pour tous les éléments non nuls.

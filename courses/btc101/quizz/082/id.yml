@@ -1,10 +1,9 @@
-question: Apa teknologi yang digunakan dalam Dompet Bitcoin untuk mengamankan dana pengeluaran di Dompet Bitcoin?
-answer: Kriptografi kurva eliptik
+question: Apa risiko dari terlalu mempersulit keamanan dan aksesibilitas bitcoin Anda?
+answer: Anda dapat merugikan diri sendiri jika Anda salah menangani dompet cadangan
 wrong_answers:
-  - Kriptografi simetris
-  - Kriptografi kuantum
-  - Kriptografi RSA
+  - Anda dapat merugikan diri sendiri jika Anda salah menangani dompet fisik
+  - Anda dapat merugikan diri sendiri jika Anda salah menangani dompet digital
+  - Anda dapat merugikan diri sendiri jika Anda salah menangani dompet multisig
 explanation: |
-  Menghabiskan Bitcoin memerlukan pemilik untuk menggunakan Kurva Eliptik untuk membuat tanda tangan
-  untuk transaksi Bitcoin.
-reviewed: benar
+  Memperumit keamanan dan aksesibilitas bitcoin Anda dapat merugikan Anda jika, misalnya, Anda salah menangani cadangan dari dompet Anda. Ini karena prosedur cadangan yang sederhana sangat penting untuk mendapatkan kembali akses ke dana Anda dalam kasus kehilangan ponsel atau komputer Anda.
+reviewed: true

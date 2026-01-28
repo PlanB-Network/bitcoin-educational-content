@@ -1,9 +1,9 @@
-question: How does the Lightning Network’s improved efficiency and speed compare to traditional payment methods?
-answer: It’s significantly faster, often settling transactions in less than a second, with lower fees and no reliance on multiple intermediaries.
+question: Hiệu quả và tốc độ được cải thiện của Lightning Network so với các phương thức thanh toán truyền thống như thế nào?
+answer: Phương pháp này nhanh hơn đáng kể, thường giải quyết giao dịch trong vòng chưa đầy một giây, với mức phí thấp hơn và không phụ thuộc vào nhiều bên trung gian.
 wrong_answers:
-  - It matches traditional banking times, often taking 2-5 days to settle.
-  - It is slower than traditional card payments and has higher fees.
-  - It requires multiple approving entities, just like current bank transfers.
+  - Thời gian này phù hợp với thời gian giao dịch ngân hàng truyền thống, thường mất 2-5 ngày để giải quyết.
+  - Phương thức này chậm hơn so với thanh toán bằng thẻ truyền thống và có phí cao hơn.
+  - Nó đòi hỏi nhiều cơ quan phê duyệt, giống như chuyển khoản ngân hàng hiện tại.
 explanation: |
-  By enabling off-chain transactions and finalizing payments nearly instantaneously, Lightning offers a speed and efficiency advantage over traditional methods that rely on several intermediaries.
-reviewed: false
+  Bằng cách cho phép giao dịch off-chain và hoàn tất thanh toán gần như ngay lập tức, Lightning mang lại lợi thế về tốc độ và hiệu quả so với các phương pháp truyền thống dựa vào nhiều trung gian.
+reviewed: true

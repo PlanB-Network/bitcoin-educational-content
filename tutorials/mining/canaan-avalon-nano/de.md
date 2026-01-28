@@ -23,7 +23,7 @@ Diese Geräte werden entweder als Zusatzheizung im Falle des **Avalon Nano 3S (1
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Bitte beachten Sie, dass der Preisunterschied zu herkömmlichen Heizgeräten mit gleicher Leistung in den allermeisten Fällen keinen finanziellen Gewinn ermöglicht. Die durch die Tätigkeit von Mining erzeugten Satoshis werden diesen Preisunterschied niemals ausgleichen, es sei denn, Sie haben Zugang zu kostenlosem (überschüssigem) oder sehr billigem Strom.
 
@@ -75,17 +75,18 @@ Nachstehend finden Sie eine Tabelle mit den allgemeinen technischen Daten des Na
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Merkmal                                      | Wert                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hash-Rate                                      | 6 Th/s +- 5%                                            |
+| Stromverbrauch                               | 140 W                                                   |
+| Lärm                                                | 30 - 40 dB                                              |
+| Bereich der Ausgangslufttemperatur                 | 60-70°C (bei Umgebungstemperatur 25°C)                |
+| Umgebungstemperaturanforderungen für den Betrieb | von -5 bis 30°C                                            |
+| Eingangsspannungsbereich des Geräts                         | 28V 5A kontinuierlich                                          |
+| Eingangsspannungsbereich des Adapters                       | 110-240V AC 50/60Hz                                     |
+| Gerätegröße                                 | Länge: 205 mm / Breite: 115 mm / Höhe: 58.5 mm |
+| Gerätegewicht                                  | 0.86 kg                                                 |
 
 ## Einschalten und Verbinden mit dem lokalen Netzwerk
 
@@ -207,9 +208,9 @@ Weitere Einzelheiten zur Verbindung mit einem Mining pool finden Sie in diesen A
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Zusammenfassend brauchen wir
 
@@ -358,4 +359,4 @@ Weitere Informationen finden Sie in unserem Tutorial über die bessere Version d
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

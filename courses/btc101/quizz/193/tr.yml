@@ -1,8 +1,12 @@
-question: Bitcoin ekonomisinin herkes için daha erişilebilir ve uygun hale getirilmesine katkıda bulunan girişimlerden biri nedir?
-answer: BTCMap.
+question: Spontane satın alma nedir?
+answer: Görünürlük kazanmak için hemen Bitcoin satın alınıyor.
 wrong_answers:
-  - Bitcoin Exchange.
-  - Bitcoin Mining.
-  - BTCLottery.
-explanation: >-
+  - Düzenli aralıklarla Bitcoin satın almak.
+  - Bitcoin'yi sadece fiyatı düştüğünde satın alıyorum.
+  - Bitcoin'ü sadece fiyat yükseldiğinde satın almak.
+explanation: |
+  Kurs metninde spontane satın almanın şu şekilde olduğu açıklanmaktadır
+  gW-4'e hemen maruz kalmak için kullanılır. Örneğin,
+  bu, bir çöküş sırasında satın almak veya
+  bonus.
 reviewed: true

@@ -1,9 +1,9 @@
-question: Ni mwelekeo gani unaojulikana kati ya washiriki wanaoendesha nodi kwenye Lightning Network?
-answer: Waendeshaji wa nodi za kitaaluma wanazidi kutoa ukwasi, wakati watumiaji binafsi wanazingatia nodi za "makali", kubadilisha muundo wa mtandao.
+question: Ni mwelekeo gani unaojulikana kati ya washiriki wanaoendesha node kwenye Lightning Network?
+answer: Waendeshaji wa nodi za kitaaluma wanazidi kutoa ukwasi, wakati watumiaji binafsi wanazingatia node za "makali", kubadilisha muundo wa mtandao.
 wrong_answers:
   - Wapenda hobby wa kibinafsi wamebadilisha waendeshaji wote wa kitaalam kabisa.
-  - Benki kubwa sasa zinafanya kazi na nodi zote za Umeme.
-  - Mtandao umezima nodi za kibinafsi ili kuruhusu mashirika makubwa pekee.
+  - Benki kubwa sasa zinafanya kazi na nodr zote za Lightning.
+  - Mtandao umezima node za kibinafsi ili kuruhusu mashirika makubwa pekee.
 explanation: |
   Kuna mwelekeo kuelekea ukwasi zaidi na uthabiti unaotolewa na taasisi za kitaaluma, huku watumiaji wa kila siku wanategemea suluhu zilizorahisishwa au zinazopangishwa, na kufanya mtandao kuwa thabiti zaidi na kufikiwa.
-reviewed: false
+reviewed: true

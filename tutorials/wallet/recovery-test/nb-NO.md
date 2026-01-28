@@ -55,7 +55,7 @@ Jeg har nøye notert den 12-ord lange huskefrasen min på et stykke papir. Og si
 Passphrase: YfaicGzXH9t5C#g&47Kzbc$JL
 ```
 
-***Du bør selvsagt aldri dele minnefrasen og passordfrasen din på Internett, i motsetning til det jeg gjør i denne veiledningen. Denne eksempellommeboken vil ikke bli brukt og vil bli slettet ved slutten av opplæringen
+**Du bør selvsagt aldri dele minnefrasen og passordfrasen din på Internett, i motsetning til det jeg gjør i denne veiledningen. Denne eksempellommeboken vil ikke bli brukt og vil bli slettet ved slutten av opplæringen**
 
 Jeg vil nå notere ned på en kladd en vitneinformasjon fra lommeboken min. Du kan velge forskjellige opplysninger, for eksempel den første mottakeradressen, xpub eller hovednøkkelens fingeravtrykk. Personlig anbefaler jeg å velge den første mottakeradressen. På denne måten kan du verifisere at du er i stand til å finne hele den første avledningsstien som fører til denne adressen.
 

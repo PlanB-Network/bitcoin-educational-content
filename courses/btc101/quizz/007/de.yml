@@ -1,12 +1,10 @@
-question: Was ist der Hauptfokus dieses Bitcoin-Kurses?
-answer: Die monetären Aspekte von Bitcoin.
+question: Was war das DigiCash-Projekt?
+answer: Ein Versuch, anonymes elektronisches Geld von David Chaum zu schaffen.
 wrong_answers:
-  - Die Programmieraspekte von Bitcoin.
-  - Die ökologischen Auswirkungen von Bitcoin.
-  - Die regulatorischen Aspekte von Bitcoin.
+  - Ein Projekt zur Erstellung einer digitalen Brieftasche für Bitcoin.
+  - Ein Versuch, alles physische Bargeld durch die Federal Reserve zu digitalisieren.
+  - Ein Projekt zur Erstellung einer Kryptowährung basierend auf Bitcoin.
 explanation: |
-  Dieser Bitcoin-Kurs konzentriert sich auf die monetären Aspekte
-  von Bitcoin, einschließlich wie man Bitcoins kauft und verkauft, sie sicher
-  in digitalen Geldbörsen aufbewahrt und für
-  Transaktionen verwendet.
+  David Chaum führte das Konzept des anonymen elektronischen
+  Geldes mit seinem Projekt DigiCash in den 1980er Jahren ein.
 reviewed: true

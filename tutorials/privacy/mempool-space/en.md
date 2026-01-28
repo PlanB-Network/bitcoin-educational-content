@@ -11,9 +11,9 @@ The Bitcoin protocol is a pseudonymous, decentralized network open to consultati
 In the early days of Bitcoin, it was necessary to run a Bitcoin node in order to access the appropriate tools (bitcoin-cli) to interrogate the network from command lines.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Projects have therefore been launched to expand the Bitcoin community, making it more accessible to anyone who doesn't own a node and/or doesn't have the required technical skills.
 
@@ -36,7 +36,7 @@ The main impact of the platform in the Bitcoin ecosystem is that it allows you t
 Increasingly widespread use in the ecosystem and the fact that Mempool.space is open source have enabled it to be integrated into more and more personal hosting systems. You can now have your own instance of Mempool.space directly on your personal node. See our tutorial on configuring Mempool.space on your Umbrel node below.
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## The basics of Mempool.space
 
@@ -49,10 +49,10 @@ Mempool.space supports many Bitcoin protocol networks.
 In the menu bar, you will find the following networks:
 
 
-- Mainnet** : The main Bitcoin network where real Bitcoin transactions take place.
-- Signet**: A test network that uses digital signatures to validate blocks without requiring the resources required by the main network.
-- Testnet 3**: A risk-free test and development network on the Bitcoin protocol.
-- Testnet 4** : The new version of Testnet 3 brings greater stability and new consensus rules to the test environment.
+- **Mainnet**: The main Bitcoin network where real Bitcoin transactions take place.
+- **Signet**: A test network that uses digital signatures to validate blocks without requiring the resources required by the main network.
+- **Testnet 3**: A risk-free test and development network on the Bitcoin protocol.
+- **Testnet 4**: The new version of Testnet 3 brings greater stability and new consensus rules to the test environment.
 
 
 ![reseaux](assets/fr/01.webp)
@@ -89,7 +89,7 @@ A block is mined approximately every ten minutes due to the difficulty of the pr
 ![difficulty](assets/fr/05.webp)
 
 
-The addition of a new block to the main chain entitles the miner of the validated block to a reward made up of a fixed part (halved every 210,000 blocks**, equivalent to around 4 years** during halvings) and transaction fees.
+The addition of a new block to the main chain entitles the miner of the validated block to a reward made up of a fixed part (halved every 210,000 blocks), equivalent to around **4 years** during halvings) and transaction fees.
 
 
 ![halving](assets/fr/06.webp)
@@ -107,9 +107,9 @@ In the Mempool.space search bar, you can enter your Bitcoin address or your tran
 On the transaction details page, you will find general information about your transaction:
 
 
-- Status**: Confirmed when added to a block, unconfirmed when waiting in a Mempool.
-- Transaction fees**.
-- Estimated time of arrival (ETA)** :  The approximate time it will take for your transaction to be added to a block. It is calculated according to the ratio constituting the fees associated with this transaction.
+- **Status**: Confirmed when added to a block, unconfirmed when waiting in a Mempool.
+- **Transaction fees**.
+- **Estimated time of arrival (ETA)**: The approximate time it will take for your transaction to be added to a block. It is calculated according to the ratio constituting the fees associated with this transaction.
 
 
 ![general-txinfo](assets/fr/08.webp)
@@ -133,7 +133,7 @@ More details on the addresses used can be found in the **Inputs & Outputs** sect
 Discover the different Bitcoin transaction schemes to enhance your confidentiality.
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Speed up your transactions
 
@@ -145,22 +145,22 @@ Fortunately, there are two methods available on the Bitcoin network to speed up 
 
 
 
-- RBF** - Replacement By Fee: A method that allows you to spend the same entries as your low-fee transaction, but this time by increasing the transaction fee to speed up validation. Your new transaction will be validated more quickly and included in a block, invalidating the low-fee transaction.
+- **RBF** - Replacement By Fee: A method that allows you to spend the same entries as your low-fee transaction, but this time by increasing the transaction fee to speed up validation. Your new transaction will be validated more quickly and included in a block, invalidating the low-fee transaction.
 
 
 You can carry out a fee replacement action with wallets that accept this mechanism. For example, see our article on the Blue Wallet wallet.
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
-- CPFP** - Child pay for parent: An approach inspired by RBF, but on the receiver's side. When the transaction in which you are the recipient is blocked in a Mempool, you have the option of spending the outputs (UTXOs) of this transaction, despite the fact that it has not yet been confirmed, by allocating more fees to this new transaction so that the average fees - of the transaction for which you are the recipient and the initiated transaction - encourage miners to include both transactions in a block.
+- **CPFP** - Child pay for parent: An approach inspired by RBF, but on the receiver's side. When the transaction in which you are the recipient is blocked in a Mempool, you have the option of spending the outputs (UTXOs) of this transaction, despite the fact that it has not yet been confirmed, by allocating more fees to this new transaction so that the average fees - of the transaction for which you are the recipient and the initiated transaction - encourage miners to include both transactions in a block.
 
 
 ⚠️ The first transaction must be included in a block to allow the second transaction to be confirmed.
 
 
-If all these terms seem a little too technical, I recommend that you [consult our glossary](https://planb.network/resources/glossary), which contains definitions of all the technical terms related to Bitcoin and its ecosystem.
+If all these terms seem a little too technical, I recommend that you [consult our glossary](https://planb.academy/resources/glossary), which contains definitions of all the technical terms related to Bitcoin and its ecosystem.
 
 
 In addition to these methods, Mempool.space, thanks to its connections with over 80% of the miners present on the Bitcoin network, also allows you to accelerate any of your **unconfirmed** transactions, even those not activating RBF, by paying a consideration to the miners in exchange for inserting your low-cost transaction into the next block ready to be mined.
@@ -171,13 +171,13 @@ On the transaction details page, click on the **Accelerate** button, then procee
 
 ![accelerate-section](assets/fr/11.webp)
 
-## Minors
+## Miners
 
 
 A miner refers to a person who manages a mine, i.e. a computer engaged in the mining process, which consists of participating in Proof-of-Work. The miner groups the pending transactions in his Mempool to form a candidate block. It then searches for a valid hash, less than or equal to the target, for the header of this block by modifying the various nonces. If he finds a valid hash, he broadcasts his block to the Bitcoin network and pockets the associated pecuniary reward, made up of the block subsidy (creation of new bitcoins ex-nihilo), and the transaction fee.
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗Miners are like "validators" who verify and group transactions into blocks. To add a new block to the Bitcoin network, they have to solve a complex mathematical puzzle (the Proof-of-Work). The first miner to solve the puzzle wins a Bitcoin reward (block grant + fees for transactions included in the block).
 
@@ -277,4 +277,4 @@ In the **Graphics** section, you can view essential data about the Bitcoin netwo
 Now that you've reached the end of your journey on Mempool.space, become your own explorer and track your transactions in real time. Please find below our article on the Bitcoin **Public Pool** explorer.
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

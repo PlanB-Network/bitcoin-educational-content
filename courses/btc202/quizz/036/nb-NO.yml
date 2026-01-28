@@ -1,0 +1,9 @@
+question: Hva er fordelen med en dedikert bærbar PC fremfor en mini-PC?
+answer: Batteriet fungerer som en omformer
+wrong_answers:
+  - Det er roligere
+  - Den varer lenger
+  - Den bruker mindre energi
+explanation: |
+  Batteriet i en bærbar datamaskin fungerer som en naturlig UPS, og forhindrer plutselige stopp i tilfelle strømbrudd.
+reviewed: true

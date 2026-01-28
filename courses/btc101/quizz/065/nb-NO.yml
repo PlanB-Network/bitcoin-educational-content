@@ -1,11 +1,11 @@
-question: Hvilke økonomiske prinsipper er Bitcoin i tråd med?
-answer: Prinsipper for østerriksk økonomi
+question: Hva er de tre hovedfunksjonene til en Bitcoin-lommebok?
+answer: Motta bitcoins, sende bitcoins, sikre dem mot hacking og tyveriforsøk
 wrong_answers:
-  - Prinsipper for keynesiansk økonomi
-  - Prinsipper for marxistisk økonomi
-  - Prinsipper for nyklassisk økonomi
+  - Lagre bitcoins, tillate sending av bitcoins, sikre dem mot hacking og tyveriforsøk
+  - Tillate mottak av bitcoins, lagre bitcoins, sikre dem mot hacking og tyveriforsøk
+  - Tillate mottak av bitcoins, tillate sending av bitcoins, selge bitcoins
 explanation: |
-  Bitcoin er i tråd med prinsippene for østerriksk økonomi. Dens begrensede
-  mengde og mangel på en sentral enhet beskytter den mot de iboende risikoene for inflasjon
-  i tradisjonelle valutaer.
+  En Bitcoin-lommebok brukes til å samhandle med Bitcoin-nettverket. Dens tre
+  hovedfunksjoner er å tillate mottak av bitcoins, tillate sending av bitcoins, og sikre
+  dem mot hacking og tyveriforsøk.
 reviewed: true

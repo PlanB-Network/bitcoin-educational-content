@@ -1,11 +1,13 @@
-question: ¿Cuál es una de las desventajas del oro como forma de dinero?
-answer: No es fácilmente divisible.
+question: ¿Cuál es la ruta de evolución de la moneda actual?
+answer: Piedra bruta -> Moneda -> Billete -> Tarjeta bancaria -> Blockchain -> Red Lightning
 wrong_answers:
-  - No mantiene su valor en diferentes lugares.
-  - Se erosiona con el tiempo.
-  - Es fácil de producir.
+  - Piedra bruta -> Moneda -> Billete -> Blockchain -> Red Lightning
+  - Piedra bruta -> Moneda -> Billete -> Tarjeta bancaria -> Red Lightning
+  - Piedra bruta -> Moneda -> Tarjeta bancaria -> Billete -> Blockchain -> Red Lightning
 explanation: |
-  Una de las principales desventajas del oro como forma de dinero es
-  que es difícil dividirlo en unidades pequeñas según se
-  necesite, lo que lo hace menos práctico para usar.
+  La moneda es una tecnología que ha evolucionado con el tiempo,
+  comenzando por ser representada por piedras brutas, cambiando
+  a monedas metálicas, luego a billetes, tarjetas bancarias y,
+  finalmente, a redes de igual a igual con el uso de la blockchain
+  de Bitcoin y la Red Lightning.
 reviewed: true

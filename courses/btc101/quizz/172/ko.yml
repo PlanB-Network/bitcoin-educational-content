@@ -1,0 +1,8 @@
+question: Bitcoin에 투기 거품이 많이 발생하는 이유 중 하나는 무엇인가요?
+answer: Supply이 한정되어 있고 수요가 많기 때문입니다.
+wrong_answers:
+  - Bitcoin는 실제로 어디에서도 사용되지 않기 때문입니다.
+  - Bitcoin는 곧 사라질 거품이기 때문입니다.
+  - Bitcoin는 경기 사이클의 영향을 받지 않기 때문입니다.
+explanation: >-
+reviewed: true

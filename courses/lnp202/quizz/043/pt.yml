@@ -1,0 +1,9 @@
+question: Qual é o melhor fecho de canal para o Lightning?
+answer: Encerramento da cooperativa
+wrong_answers:
+  - Encerramento forçado
+  - Encerrar com batota
+  - Fecho Watchtower
+explanation: |
+  O fecho cooperativo é mais rápido e permite-lhe escolher as taxas em cadeia.
+reviewed: false

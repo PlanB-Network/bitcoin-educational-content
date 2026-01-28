@@ -6,4 +6,4 @@ wrong_answers:
   - Il applique des frais additionnels pour chaque nœud intermédiaire
 explanation: |
   Le timelock impose un délai pour compléter un HTLC, ce qui permet de récupérer les fonds si la transaction n'aboutit pas, en annulant le paiement passé ce délai.
-reviewed: false
+reviewed: true 

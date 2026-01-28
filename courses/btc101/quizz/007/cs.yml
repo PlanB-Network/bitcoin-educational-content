@@ -1,12 +1,10 @@
-question: Jaké je hlavní zaměření tohoto kurzu o Bitcoinu?
-answer: Měnové aspekty Bitcoinu.
+question: Co byl projekt DigiCash?
+answer: Pokus o vytvoření anonymní elektronické měny Davidem Chaumem.
 wrong_answers:
-  - Programovací aspekty Bitcoinu.
-  - Ekologický dopad Bitcoinu.
-  - Regulační aspekty Bitcoinu.
+  - Projekt na vytvoření digitální peněženky pro Bitcoin.
+  - Pokus o digitalizaci veškeré fyzické hotovosti Federálním rezervním systémem.
+  - Projekt na vytvoření kryptoměny založené na Bitcoinu.
 explanation: |
-  Tento kurz o Bitcoinu se zaměřuje na měnové aspekty
-  Bitcoinu, včetně toho, jak nakupovat a prodávat bitcoiny,
-  bezpečně je ukládat v digitálních peněženkách a používat je
-  pro transakce.
+  David Chaum představil koncept anonymní elektronické
+  peněžní hotovosti se svým projektem DigiCash v 80. letech.
 reviewed: true

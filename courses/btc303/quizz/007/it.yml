@@ -1,0 +1,9 @@
+question: A cosa si riferisce il decentramento full node nel Bitcoin?
+answer: La convalida dei blocchi viene eseguita ai margini della rete dagli utenti, non da autorità fidate
+wrong_answers:
+  - L'elaborazione delle transazioni è distribuita tra più pool mining anziché su un'unica entità
+  - Le regole del protocollo Bitcoin sono decise da un gruppo distribuito di sviluppatori di base
+  - Le chiavi private sono memorizzate su più dispositivi invece che su un singolo wallet
+explanation: |
+  La decentralizzazione Full node significa che la convalida dei blocchi (i dati prodotti dai minatori) avviene ai margini della rete da parte dei singoli utenti che gestiscono i propri nodi, anziché affidarsi a poche autorità fidate per verificare le transazioni. Questo aspetto si distingue dalla decentralizzazione dei minatori, che si occupa dell'ordine e dell'elaborazione delle transazioni. Le altre opzioni confondono la decentralizzazione full node con la distribuzione mining, le strutture di governance o le pratiche di sicurezza, ma nessuna coglie il concetto centrale della convalida distribuita dei blocchi da parte dei partecipanti alla rete.
+reviewed: false

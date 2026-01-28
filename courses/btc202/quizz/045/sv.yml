@@ -1,0 +1,9 @@
+question: Vilka steg måste slutföras innan UmbrelOS kan installeras?
+answer: Skapa ett startbart USB-minne med avbildningen
+wrong_answers:
+  - Kompilering av Bitcoin core-källkod
+  - Formatering av Blockchain
+  - Skapa ett konto på umbrel.com
+explanation: |
+  Installationen börjar med att förbereda en startbar USB-nyckel med UmbrelOS via Balena Etcher.
+reviewed: true

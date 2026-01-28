@@ -1,0 +1,8 @@
+question: Milton Friedman'a göre, yoksullara yönelik sosyal programlar neden çoğu zaman amaçlarına ulaşamamaktadır?
+answer: Çünkü ekonomik bağımlılık ve piyasa çarpıklıkları gibi ters etkiler yaratırlar
+wrong_answers:
+  - Çünkü sponsorları ihtiyaç sahiplerine karşı iyi niyet ve cömertlikten yoksundur
+  - Çünkü gerçek ihtiyaçları karşılamak için yeterli fonları yok
+  - Yararlanıcıların bu programları nasıl etkin bir şekilde kullanacaklarını anlamamaları
+explanation: |
+  Friedman, sosyal politikaların cömert niyetlerine rağmen, insan teşvikleri ve davranışlarının titiz analizini dikkate almadıkları için genellikle başarısız olduklarına işaret etmektedir. Bu programlar, ekonomik bağımlılık veya piyasa çarpıklığı gibi beklenmedik ters etkiler yaratarak başlangıçtaki hedeflere ters düşen sonuçlar doğurmaktadır.

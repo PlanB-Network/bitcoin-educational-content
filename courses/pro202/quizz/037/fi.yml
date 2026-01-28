@@ -1,0 +1,8 @@
+question: Mikä aiheuttaa OP_CHECKMULTISIG:ssa off-by-one-bugin, joka vaatii ylimääräisen OP_0:n paljaissa multisig-skriptisigseissä?
+answer: OP_CHECKMULTISIG kuluttaa odotettujen allekirjoitusten ja julkisten avainten lisäksi ylimääräisen pinoelementin
+wrong_answers:
+  - Allekirjoituksen vahvistusprosessi vaatii ylimääräisen tavun, jotta ECDSA-validointi toimisi oikein
+  - "Bitcoin:n pinototeutuksessa on rajatarkistus, joka tarvitsee pehmustuselementin muistin kohdistamista varten"
+  - Multisig-kynnysarvojen laskenta alkaa nollasta eikä yhdestä, mikä edellyttää offset-sijoitusarvoa
+explanation: |
+  OP_CHECKMULTISIG-toimintokoodissa on toteutusvirhe, jonka vuoksi se nostaa pinosta yhden elementin enemmän kuin sen pitäisi. Tämä tarkoittaa, että vaadittujen m allekirjoituksen ja n julkisen avaimen lisäksi se kuluttaa ylimääräisen pinoelementin. Jotta operaatio ei epäonnistuisi, paljaisiin multisig-skriptisignaaleihin on sisällytettävä alustava OP_0 (joka työntää tyhjän tavujoukon) tämän odottamattoman pinonkulutuksen tyydyttämiseksi. Muut vaihtoehdot kuvaavat uskottavalta kuulostavia teknisiä ongelmia, mutta ne eivät ole todellinen syy tähän tunnettuun Bitcoin:n omituisuuteen.

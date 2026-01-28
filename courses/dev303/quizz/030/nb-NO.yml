@@ -1,0 +1,8 @@
+question: Hva er hovedformålet med Rusts spørsmålstegnoperator (?) når den brukes med Result-typer?
+answer: For å automatisk pakke opp vellykkede verdier og returnere feil umiddelbart fra den aktuelle funksjonen
+wrong_answers:
+  - Konvertere alle Result-typer til Option-typer for enklere nullhåndtering
+  - For å få automatisk panikk med en tilpasset melding når en feil oppstår
+  - For å pakke inn vellykkede verdier i et ekstra Resultat-lag for ekstra sikkerhet
+explanation: |
+  Spørsmålstegnoperatoren (?) er utviklet spesielt for feilforplantning i Rust. Når den brukes på et resultat, trekker den ut suksessverdien hvis operasjonen lyktes, slik at koden kan fortsette med denne verdien. Men hvis det oppstod en feil, returnerer ? operatoren umiddelbart feilen fra den aktuelle funksjonen, slik at den forplanter seg oppover i anropsstakken. Dette eliminerer behovet for omfattende match-uttrykk, samtidig som den eksplisitte feilhåndteringssemantikken opprettholdes. Operatoren kan bare brukes i funksjoner som returnerer Result-typer, noe som sikrer riktig feilforplantningsmønster.

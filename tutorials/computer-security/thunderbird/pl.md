@@ -17,13 +17,13 @@ Thunderbird to aplikacja e-mail znana ze swojej elastyczności i szerokiego zakr
 
 
 
-- Darmowy i open source**: w przeciwieństwie do wielu aplikacji do obsługi wiadomości, Thunderbird jest całkowicie darmowy. Możesz jednak wesprzeć społeczność programistów, wysyłając im darowiznę.
-- Intuicyjny Interface i łatwy do nauczenia**: Konfiguracja Thunderbirda jest w większości prosta, więc nie musisz się o nią martwić.
-- Nadaje się do wielu rodzajów poczty e-mail**: czy to Gmail, Yahoo, Outlook, czy nawet służbowe wiadomości e-mail powiązane z nazwą domeny, ta skrzynka pocztowa jest bardzo wszechstronna.
-- Wiele kont**: Thunderbird pozwala łączyć się z kilkoma kontami e-mail jednocześnie, ułatwiając dostęp do wszystkich wiadomości.
-- Wydajne funkcje i skalowalność**: domyślnie Thunderbird oferuje szeroki zakres funkcji do zarządzania kontami e-mail i kalendarzem wydarzeń. Pozwala on jednak także na dodawanie kolejnych opcji dzięki wielu dostępnym rozszerzeniom.
-- Wieloplatformowość**: Thunderbird jest dostępny na różnych urządzeniach (Android, Windows, Linux, macOS), zapewniając łatwy dostęp do poczty e-mail.
-- Bezpieczeństwo**: Thunderbird jest wysoce bezpieczną aplikacją, umożliwiającą korzystanie z szyfrowania end-to-end opartego na RSA lub ECC (Elliptic Curve) w celu zagwarantowania poufności danych.
+- **Darmowy i open source**: w przeciwieństwie do wielu aplikacji do obsługi wiadomości, Thunderbird jest całkowicie darmowy. Możesz jednak wesprzeć społeczność programistów, wysyłając im darowiznę.
+- **Intuicyjny Interface i łatwy do nauczenia**: Konfiguracja Thunderbirda jest w większości prosta, więc nie musisz się o nią martwić.
+- Nadaje się do wielu rodzajów poczty e-mail: czy to Gmail, Yahoo, Outlook, czy nawet służbowe wiadomości e-mail powiązane z nazwą domeny, ta skrzynka pocztowa jest bardzo wszechstronna.
+- **Wiele kont**: Thunderbird pozwala łączyć się z kilkoma kontami e-mail jednocześnie, ułatwiając dostęp do wszystkich wiadomości.
+- **Wydajne funkcje i skalowalność**: domyślnie Thunderbird oferuje szeroki zakres funkcji do zarządzania kontami e-mail i kalendarzem wydarzeń. Pozwala on jednak także na dodawanie kolejnych opcji dzięki wielu dostępnym rozszerzeniom.
+- **Wieloplatformowość**: Thunderbird jest dostępny na różnych urządzeniach (Android, Windows, Linux, macOS), zapewniając łatwy dostęp do poczty e-mail.
+- **Bezpieczeństwo**: Thunderbird jest wysoce bezpieczną aplikacją, umożliwiającą korzystanie z szyfrowania end-to-end opartego na RSA lub ECC (Elliptic Curve) w celu zagwarantowania poufności danych.
 
 
 
@@ -34,7 +34,7 @@ Thunderbird to aplikacja e-mail znana ze swojej elastyczności i szerokiego zakr
 ### Pobierz
 
 
-Aby zainstalować Thunderbird, należy pobrać oprogramowanie z [oficjalnej strony] (https://www.thunderbird.net/). Należy pamiętać, że aplikacja jest dostępna dla różnych systemów operacyjnych. Domyślną wersją będzie jednak ta, która zostanie automatycznie wykryta na podstawie danych dostarczonych przez przeglądarkę.
+Aby zainstalować Thunderbird, należy pobrać oprogramowanie z [oficjalnej strony](https://www.thunderbird.net/). Należy pamiętać, że aplikacja jest dostępna dla różnych systemów operacyjnych. Domyślną wersją będzie jednak ta, która zostanie automatycznie wykryta na podstawie danych dostarczonych przez przeglądarkę.
 
 
 
@@ -42,7 +42,7 @@ Aby zainstalować Thunderbird, należy pobrać oprogramowanie z [oficjalnej stro
 
 
 
-Aby pobrać określoną wersję programu Thunderbird, przejdź do [tej strony] (https://www.thunderbird.net/an/thunderbird/all/). Wybierz język, docelowy system operacyjny i architekturę procesora, a następnie uruchom pobieranie.
+Aby pobrać określoną wersję programu Thunderbird, przejdź do [tej strony](https://www.thunderbird.net/an/thunderbird/all/). Wybierz język, docelowy system operacyjny i architekturę procesora, a następnie uruchom pobieranie.
 
 
 
@@ -59,8 +59,8 @@ W systemie Windows uruchom pobrany plik wykonywalny, aby rozpocząć instalację
 
 
 
-- Standard**: umożliwia bezpośrednią instalację bez wcześniejszej konfiguracji.
-- Niestandardowe**: pozwala wybrać folder instalacji i utworzyć skróty na pulpicie.
+- **Standard**: umożliwia bezpośrednią instalację bez wcześniejszej konfiguracji.
+- **Niestandardowe**: pozwala wybrać folder instalacji i utworzyć skróty na pulpicie.
 
 
 
@@ -213,4 +213,4 @@ Zapoznaj się z naszym samouczkiem na temat Proton Mail, kompleksowego rozwiąza
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

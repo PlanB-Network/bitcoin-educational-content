@@ -1,5 +1,5 @@
 ---
-name: Mullvad Tarayıcı
+name: Mullvad Browser
 description: Gizlilik için Mullvad Tarayıcı nasıl kullanılır?
 ---
 
@@ -13,10 +13,10 @@ Dijital gözetimin her yerde yaygınlaştığı bir dünyada, çevrimiçi gizlil
 
 
 
-- Üçüncü taraf çerezleri**: sizi bir siteden diğerine takip etmek için harici siteler tarafından bırakılan küçük dosyalar
-- Parmak izi**: çerezler olmadan sizi tanımlamak için tarayıcınızın ve cihazınızın benzersiz özelliklerini (ekran çözünürlüğü, yüklü yazı tipleri, eklentiler vb.) toplar
-- İzleme komut dosyaları**: tarama davranışınızı analiz eden görünmez JavaScript kodları (tıklamalar, kaydırma, harcanan zaman)
-- IP Address analizi**: coğrafi konum ve İnternet servis sağlayıcınızın tanımlanması
+- **Üçüncü taraf çerezleri**: sizi bir siteden diğerine takip etmek için harici siteler tarafından bırakılan küçük dosyalar
+- **Parmak izi**: çerezler olmadan sizi tanımlamak için tarayıcınızın ve cihazınızın benzersiz özelliklerini (ekran çözünürlüğü, yüklü yazı tipleri, eklentiler vb.) toplar
+- **İzleme komut dosyaları**: tarama davranışınızı analiz eden görünmez JavaScript kodları (tıklamalar, kaydırma, harcanan zaman)
+- **IP Address analizi**: coğrafi konum ve İnternet servis sağlayıcınızın tanımlanması
 
 
 
@@ -74,7 +74,7 @@ Mullvad tarayıcısı tek bir ana hedef göz önünde bulundurularak tasarlanmı
 
 
 
-- Web siteleri ve reklam ajansları tarafından reklam takibini ve izlemeyi** büyük ölçüde azaltın. Mullvad Browser varsayılan olarak üçüncü taraf izleyicileri, izleme çerezlerini ve kimliğinizi belirleyebilecek parmak izi komut dosyalarını engeller.
+- Web siteleri ve reklam ajansları tarafından reklam takibini ve izlemeyi **büyük ölçüde azaltın**. Mullvad Browser varsayılan olarak üçüncü taraf izleyicileri, izleme çerezlerini ve kimliğinizi belirleyebilecek parmak izi komut dosyalarını engeller.
 
 
 
@@ -86,13 +86,13 @@ Mullvad tarayıcısı tek bir ana hedef göz önünde bulundurularak tasarlanmı
 
 
 
-- Ek uzantılar olmadan anında koruma sunar**. Mullvad Browser "kullanıma hazır" bir konfigürasyonda gelir: kullanıcının korunmak için bir dizi uzantı yüklemesi veya herhangi bir ayarı değiştirmesi gerekmez.
+- Ek uzantılar olmadan anında koruma sunar. Mullvad Browser "kullanıma hazır" bir konfigürasyonda gelir: kullanıcının korunmak için bir dizi uzantı yüklemesi veya herhangi bir ayarı değiştirmesi gerekmez.
 
 
 
 
 
-- Performans veya ergonomiden** gereğinden fazla ödün vermeyin. Tor yönlendirmesinin olmadığı durumlarda Mullvad Browser, Tor Browser'dan çok daha hızlı gezinme sunar ve VPN ile birlikte standart bir tarayıcının performansına yaklaşır.
+- Performans veya ergonomiden gereğinden fazla ödün vermeyin. Tor yönlendirmesinin olmadığı durumlarda Mullvad Browser, Tor Browser'dan çok daha hızlı gezinme sunar ve VPN ile birlikte standart bir tarayıcının performansına yaklaşır.
 
 
 
@@ -106,36 +106,36 @@ Mullvad Browser, doğrudan Tor Browser'dan esinlenen bir dizi **güvenlik ve giz
 
 
 
-- Her zaman gizli tarama:** Gizli tarama modu varsayılan olarak etkinleştirilir ve devre dışı bırakılamaz. **Bir oturumdan diğerine hiçbir geçmiş, çerez veya önbellek saklanmaz**. Mullvad Browser'ı kapattığınız anda tüm tarama verileri silinir.
+- **Her zaman gizli tarama:** Gizli tarama modu varsayılan olarak etkinleştirilir ve devre dışı bırakılamaz. **Bir oturumdan diğerine hiçbir geçmiş, çerez veya önbellek saklanmaz**. Mullvad Browser'ı kapattığınız anda tüm tarama verileri silinir.
 
 
 
 
 
-- Parmak izine karşı geliştirilmiş koruma:** Tarayıcı, dijital parmak izini engellemek için katı ayarlar uygular. Buna şunlar dahildir:
- - Kullanıcı aracısı** ve tarayıcı sürümü standardizasyonu
- - Tüm kullanıcılar için saat dilimi UTC** olarak ayarlandı
- - Letterboxing**: ekran boyutunu standartlaştırmak ve ekran boyutlarınıza göre tanımlamayı önlemek için web sayfalarının etrafına otomatik olarak gri kenar boşlukları ekleyen bir teknik
- - Parmak izi API'lerini** engelleyin: Canvas (2D çizim), WebGL (3D grafikler) ve AudioContext (ses işleme) teknolojileri, donanımınızla ilgili benzersiz ayrıntıları ortaya çıkarabilecekleri için devre dışı bırakılmıştır
- - Yüklü yazı tipleri tarafından tanımlanmayı önlemek için standartlaştırılmış sistem yazı tipleri**
+- **Parmak izine karşı geliştirilmiş koruma:** Tarayıcı, dijital parmak izini engellemek için katı ayarlar uygular. Buna şunlar dahildir:
+- **Kullanıcı aracısı** ve tarayıcı sürümü standardizasyonu
+- Tüm kullanıcılar için saat dilimi **UTC** olarak ayarlandı
+- **Letterboxing**: ekran boyutunu standartlaştırmak ve ekran boyutlarınıza göre tanımlamayı önlemek için web sayfalarının etrafına otomatik olarak gri kenar boşlukları ekleyen bir teknik
+- **Parmak izi API'lerini engelleyin**: Canvas (2D çizim), WebGL (3D grafikler) ve AudioContext (ses işleme) teknolojileri, donanımınızla ilgili benzersiz ayrıntıları ortaya çıkarabilecekleri için devre dışı bırakılmıştır
+- Yüklü yazı tipleri tarafından tanımlanmayı önlemek için **standartlaştırılmış sistem yazı tipleri**
 
 
 
 
 
-- İzleyicileri ve reklamları engelleme:** Mullvad Browser, **üçüncü taraf izleyicileri, reklam komut dosyalarını ve diğer kötü amaçlı içerikleri** engellemek için **uBlock Origin** uzantısını (önceden yüklenmiş) ek koruma listeleriyle yerel olarak entegre eder. Bu korumaya **Birinci Taraf İzolasyonu** eşlik eder: çerezleri her web sitesi için ayrı "kaplarda" saklayan ve bir sitenin başka bir site tarafından bırakılan çerezleri okumasını önleyen bir teknik.
+- **İzleyicileri ve reklamları engelleme:** Mullvad Browser, **üçüncü taraf izleyicileri, reklam komut dosyalarını ve diğer kötü amaçlı içerikleri** engellemek için **uBlock Origin** uzantısını (önceden yüklenmiş) ek koruma listeleriyle yerel olarak entegre eder. Bu korumaya **Birinci Taraf İzolasyonu** eşlik eder: çerezleri her web sitesi için ayrı "kaplarda" saklayan ve bir sitenin başka bir site tarafından bırakılan çerezleri okumasını önleyen bir teknik.
 
 
 
 
 
-- Oturum sıfırlama düğmesi:** Tor Browser'ın "Yeni Kimlik" düğmesi gibi, Mullvad Browser da **tarayıcıyı yeni, boş bir oturumla hızlı bir şekilde yeniden başlatmak** için bir düğme sunar.
+- **Oturum sıfırlama düğmesi:** Tor Browser'ın "Yeni Kimlik" düğmesi gibi, Mullvad Browser da **tarayıcıyı yeni, boş bir oturumla hızlı bir şekilde yeniden başlatmak** için bir düğme sunar.
 
 
 
 
 
-- Ayarlanabilir güvenlik düzeyleri:** Tor Browser'da olduğu gibi ayarlardan güvenlik düzeyini (*Normal*, *Safer*, *Safest*) ayarlayabilirsiniz.
+- **Ayarlanabilir güvenlik düzeyleri:** Tor Browser'da olduğu gibi ayarlardan güvenlik düzeyini (*Normal*, *Safer*, *Safest*) ayarlayabilirsiniz.
 
 
 
@@ -174,9 +174,9 @@ NoScript, tarayıcının **güvenlik seviyelerini** yönetmek için arka planda 
 
 
 
-- JavaScript** yürütmesini seçilen seviyeye göre kontrol eder (Normal/En Güvenli/En Güvenli)
-- XSS** (Cross-Site Scripting) saldırılarını otomatik olarak filtreler
-- HTTPS olmayan sitelerdeki tehlikeli** aktif içeriği engeller
+- **JavaScript** yürütmesini seçilen seviyeye göre kontrol eder (Normal/En Güvenli/En Güvenli)
+- **XSS** (Cross-Site Scripting) saldırılarını otomatik olarak filtreler
+- HTTPS olmayan sitelerdeki **tehlikeli** aktif içeriği engeller
 - Simgesi varsayılan olarak gizlidir, ancak "Araç çubuğunu özelleştir" aracılığıyla görüntülenebilir
 
 
@@ -193,10 +193,10 @@ Mullvad'a özgü bu uzantı, Mullvad VPN müşterisi olup olmadığınıza bağl
 
 
 
-- Temel bağlantı kontrolü**: mevcut genel IP adresinizi ve bazı bağlantı bilgilerini görüntüler
-- Gizlilik önerileri**: güvenlik ayarlarınızı iyileştirmek için ipuçları (DNS, yalnızca HTTPS, arama motoru)
-- WebRTC** kontrolü: IP Address sızıntılarını önlemek için etkinleştirin/devre dışı bırakın
-- Mullvad VPN kullanmıyorsanız dijital ayak izinizi etkilemeden** silinebilir
+- **Temel bağlantı kontrolü**: mevcut genel IP adresinizi ve bazı bağlantı bilgilerini görüntüler
+- **Gizlilik önerileri**: güvenlik ayarlarınızı iyileştirmek için ipuçları (DNS, yalnızca HTTPS, arama motoru)
+- **WebRTC** kontrolü: IP Address sızıntılarını önlemek için etkinleştirin/devre dışı bırakın
+- Mullvad VPN kullanmıyorsanız dijital ayak izinizi etkilemeden silinebilir
 
 
 
@@ -209,16 +209,16 @@ Eklenti, gelişmiş özellikleriyle tam potansiyelini ortaya koyuyor:
 
 
 
-- Entegre SOCKS5 proxy**: Mullvad VPN sunucu proxy'sine tek tıkla bağlantı
- - Sabit IP Address**: IP Address'ini değiştirebilen bir VPN'in aksine, bir proxy her zaman aynı Address çıkışını garanti eder
- - Otomatik kill switch**: VPN bağlantısı kesilirse, tarayıcı trafiği hemen engellenir
- - IPv6 desteği**: VPN bağlantınız etkin olmasa bile IPv6 bağlantısı
+- **Entegre SOCKS5 proxy**: Mullvad VPN sunucu proxy'sine tek tıkla bağlantı
+- **Sabit IP Address**: IP Address'ini değiştirebilen bir VPN'in aksine, bir proxy her zaman aynı Address çıkışını garanti eder
+- **Otomatik kill switch**: VPN bağlantısı kesilirse, tarayıcı trafiği hemen engellenir
+- **IPv6 desteği**: VPN bağlantınız etkin olmasa bile IPv6 bağlantısı
 
 
 
 
 
-- Multihop (çift VPN)**: tünel içinde bir tünel oluşturmak için proxy konumunu değiştirme yeteneği
+- **Multihop (çift VPN)**: tünel içinde bir tünel oluşturmak için proxy konumunu değiştirme yeteneği
  - Trafiğiniz önce VPN sunucunuzdan geçer, ardından başka bir Mullvad sunucusuna "atlar"
  - Yalnızca tarayıcı için farklı bir yerelleştirme kullanın
 
@@ -226,13 +226,13 @@ Eklenti, gelişmiş özellikleriyle tam potansiyelini ortaya koyuyor:
 
 
 
-- Gelişmiş bağlantı izleme**: VPN durumunuzun gerçek zamanlı izlenmesi, bağlı sunucu ve DNS sızıntı tespiti
+- **Gelişmiş bağlantı izleme**: VPN durumunuzun gerçek zamanlı izlenmesi, bağlı sunucu ve DNS sızıntı tespiti
 
 
 
 
 
-- Mullvad Leta'ya** erişim: aboneler için ayrılmış özel arama motoru (hesabınızla korelasyon nedeniyle Mullvad tarafından önerilmemesine rağmen)
+- **Mullvad Leta'ya** erişim: aboneler için ayrılmış özel arama motoru (hesabınızla korelasyon nedeniyle Mullvad tarafından önerilmemesine rağmen)
 
 
 
@@ -250,25 +250,25 @@ Bu üç uzantı, kolektif anonimliği tehlikeye atacak özelleştirme olasılı�
 
 
 
-- Varsayılan olarak mükemmel gizlilik koruması:** Mullvad Browser, manuel yapılandırmaya gerek kalmadan en başından itibaren çok katı gizlilik ayarları uygular.
+- **Varsayılan olarak mükemmel gizlilik koruması:** Mullvad Browser, manuel yapılandırmaya gerek kalmadan en başından itibaren çok katı gizlilik ayarları uygular.
 
 
 
 
 
-- Tor Browser'dan daha iyi performans:** Onion yönlendirme olmadığında, Mullvad Browser klasik web taraması için Tor Browser'dan **önemli ölçüde daha hızlı ve daha duyarlı**.
+- **Tor Browser'dan daha iyi performans:** Onion yönlendirme olmadığında, Mullvad Browser klasik web taraması için Tor Browser'dan **önemli ölçüde daha hızlı ve daha duyarlı**.
 
 
 
 
 
-- Tanıdık Interface basitliği:** Mullvad Browser, Firefox'un Interface'sını temel alır. Firefox'a veya hatta Tor Browser'a alışkınsanız, kendinizi yabancı hissetmeyeceksiniz.
+- **Tanıdık Interface basitliği:** Mullvad Browser, Firefox'un Interface'sını temel alır. Firefox'a veya hatta Tor Browser'a alışkınsanız, kendinizi yabancı hissetmeyeceksiniz.
 
 
 
 
 
-- Güvenilir işbirliği ve denetlenen kod:** Mullvad Browser, Tor Projesi'nin uzmanlığından yararlanır ve tüm kaynak kodu dış denetime açıktır.
+- **Güvenilir işbirliği ve denetlenen kod:** Mullvad Browser, Tor Projesi'nin uzmanlığından yararlanır ve tüm kaynak kodu dış denetime açıktır.
 
 
 
@@ -278,19 +278,19 @@ Bu üç uzantı, kolektif anonimliği tehlikeye atacak özelleştirme olasılı�
 
 
 
-- VPN olmadan ağ anonimliği yok:** En önemli nokta, **Mullvad Browser'ın IP Address'nizi kendi başına gizlememesidir** (Tor Browser hariç diğer tüm tarayıcılar gibi). IP Address'niz internetteki "posta Address'niz" gibidir: konumunuzu ve İSS'nizi ortaya çıkarır. Bu nedenle, bu önemli bilgileri gizlemek için **büyük ölçüde bir VPN'e** (sanal özel ağ) ihtiyaç duyar.
+- **VPN olmadan ağ anonimliği yok:** En önemli nokta, **Mullvad Browser'ın IP Address'nizi kendi başına gizlememesidir** (Tor Browser hariç diğer tüm tarayıcılar gibi). IP Address'niz internetteki "posta Address'niz" gibidir: konumunuzu ve İSS'nizi ortaya çıkarır. Bu nedenle, bu önemli bilgileri gizlemek için **büyük ölçüde bir VPN'e** (sanal özel ağ) ihtiyaç duyar.
 
 
 
 
 
-- Mobil versiyon yok:** Mullvad Browser bugüne kadar sadece PC'de (Windows, Mac, Linux) mevcuttu.
+- **Mobil versiyon yok:** Mullvad Browser bugüne kadar sadece PC'de (Windows, Mac, Linux) mevcuttu.
 
 
 
 
 
-- Belirli alışkanlıklarla uyumsuz:** **kalıcı özel mod** bir oturumu bir kullanımdan diğerine koruyamayacağınız anlamına gelir. Bir oturumdan diğerine bir web hesabına bağlı kalmak imkansızdır.
+- Belirli alışkanlıklarla uyumsuz: **kalıcı özel mod** bir oturumu bir kullanımdan diğerine koruyamayacağınız anlamına gelir. Bir oturumdan diğerine bir web hesabına bağlı kalmak imkansızdır.
 
 
 
@@ -304,7 +304,7 @@ Bu üç uzantı, kolektif anonimliği tehlikeye atacak özelleştirme olasılı�
 
 
 
-Mullvad Browser Windows, macOS ve Linux için ücretsiz olarak kullanılabilir. Yüklemek için [resmi Mullvad web sitesine] (https://mullvad.net/browser) gidin.
+Mullvad Browser Windows, macOS ve Linux için ücretsiz olarak kullanılabilir. Yüklemek için [resmi Mullvad web sitesine](https://mullvad.net/browser) gidin.
 
 
 
@@ -399,13 +399,13 @@ Mullvad Browser üç güvenlik seviyesi sunar:
 
 
 
-- Normal** (mevcut varsayılan seviye): Tüm tarayıcı ve web sitesi işlevleri etkin
+- **Normal** (mevcut varsayılan seviye): Tüm tarayıcı ve web sitesi işlevleri etkin
 
 
 
 
 
-- Daha güvenli**: Bazı web sitelerinde işlevsellik kaybına yol açabilecek, genellikle tehlikeli web sitesi işlevlerini devre dışı bırakır:
+- **Daha güvenli**: Bazı web sitelerinde işlevsellik kaybına yol açabilecek, genellikle tehlikeli web sitesi işlevlerini devre dışı bırakır:
  - HTTPS olmayan siteler için JavaScript devre dışı
  - Bazı yazı tipleri ve matematiksel semboller devre dışı bırakıldı
  - Ses ve video (HTML5 medya) ve WebGL "tıklayarak oynat" özelliğine sahiptir
@@ -414,7 +414,7 @@ Mullvad Browser üç güvenlik seviyesi sunar:
 
 
 
-- En güvenli**: Yalnızca statik siteler ve temel hizmetler için gereken web sitesi işlevlerine izin verir:
+- **En güvenli**: Yalnızca statik siteler ve temel hizmetler için gereken web sitesi işlevlerine izin verir:
  - JavaScript tüm siteler için varsayılan olarak devre dışıdır
  - Bazı yazı tipleri, simgeler, resimler ve matematiksel semboller devre dışı bırakılmıştır
  - Ses ve video (HTML5 medya) ve WebGL "tıklayarak oynat" özelliğine sahiptir
@@ -477,7 +477,7 @@ Yine de uzantıları yüklemeyi tercih ederseniz, sizi siteden siteye izlemek i�
 
 
 
-1. **Her zaman bir VPN kullanın: Mullvad Browser IP'nizi maskelemez. Tam anonimlik için bir VPN gereklidir.
+1. **Her zaman bir VPN kullanın:** Mullvad Browser IP'nizi maskelemez. Tam anonimlik için bir VPN gereklidir.
 
 
 
@@ -494,9 +494,9 @@ Yine de uzantıları yüklemeyi tercih ederseniz, sizi siteden siteye izlemek i�
 
 
 
-   - Normal (önerilir)**: Günlük gezinme için. Web sitelerini işlevsel tutarken zaten mükemmel koruma sunar. Bu, kullanıcıların %95'i için en iyi dengedir.
-   - Daha güvenli**: Bilinmeyen veya tehlikeli olabilecek siteleri ziyaret ediyorsanız veya halka açık Wi-Fi ağlarında ekstra koruma için. Bazı siteler hatalı çalışabilir.
-   - En güvenli**: Yüksek riskli durumlar için ayrılmıştır (araştırmacı gazetecilik, hassas iletişim, düşmanca ortamlar). Çoğu modern site kırılacaktır, ancak maksimum güvenliğin bedeli budur.
+- **Normal (önerilir)**: Günlük gezinme için. Web sitelerini işlevsel tutarken zaten mükemmel koruma sunar. Bu, kullanıcıların %95'i için en iyi dengedir.
+- **Daha güvenli**: Bilinmeyen veya tehlikeli olabilecek siteleri ziyaret ediyorsanız veya halka açık Wi-Fi ağlarında ekstra koruma için. Bazı siteler hatalı çalışabilir.
+- **En güvenli**: Yüksek riskli durumlar için ayrılmıştır (araştırmacı gazetecilik, hassas iletişim, düşmanca ortamlar). Çoğu modern site kırılacaktır, ancak maksimum güvenliğin bedeli budur.
 
 
 

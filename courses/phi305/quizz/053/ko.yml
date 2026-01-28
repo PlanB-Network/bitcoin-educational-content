@@ -1,0 +1,9 @@
+question: Satoshi 나카모토의 백서에는 어떤 내용이 담겨 있나요?
+answer: 인터넷상의 분산형 Exchange 수단입니다.
+wrong_answers:
+  - 새로운 자유주의 정책.
+  - 중앙 집중식 Exchange 프로토콜입니다.
+  - 정치 프로그램입니다.
+explanation: |
+  Satoshi 백서 나카모토는 인터넷에서 Exchange의 탈중앙화 매체로 Bitcoin를 제시합니다. 중앙 기관이 없는 P2P 전자 결제 시스템을 제안합니다.
+reviewed: false

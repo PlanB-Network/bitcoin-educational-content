@@ -1,0 +1,8 @@
+question: What is the primary purpose of Lightning Terminal's Health Checks feature?
+answer: To systematically evaluate a node's performance across six key routing metrics
+wrong_answers:
+  - To automatically fix channel imbalances and optimize payment routing paths
+  - To provide real-time alerts when channels go offline or lose connectivity
+  - To calculate transaction fees and suggest optimal pricing for channel operations
+explanation: |
+  Health Checks provide a systematic evaluation framework that assesses node performance across six specific metrics including online status, channel count, routing capacity, channel health, stability, and peer quality. This feature is designed to help node operators understand how well their node can facilitate payments across the Lightning Network. The wrong answers describe operational functions that Health Checks doesn't perform - it's an assessment tool rather than an automated fix system, alert mechanism, or fee calculator.

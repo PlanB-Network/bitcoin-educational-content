@@ -1,9 +1,12 @@
-question: Quali sarebbero le implicazioni per gli utenti Bitcoin se i blocchi fossero 100 volte più pesanti?
-answer: Gestire un nodo Bitcoin non sarebbe accessibile alla persona media, compromettendo la decentralizzazione del protocollo e l'immutabilità sia delle transazioni che delle regole di consenso.
+question: Qual è il ruolo degli ASIC nel mining di Bitcoin?
+answer: Gli ASIC sono macchine progettate esclusivamente per applicare l'algoritmo SHA256 nel processo di mining.
 wrong_answers:
-  - Gestire un nodo Bitcoin sarebbe più accessibile alla persona media, migliorando la decentralizzazione del protocollo e l'immutabilità sia delle transazioni che delle regole di consenso.
-  - La capacità di transazione della rete diminuirebbe.
-  - La ricompensa per i miner per blocco aumenterebbe.
+  - Gli ASIC sono utilizzati per verificare le transazioni Bitcoin applicando l'algoritmo SHA256 nel processo di verifica.
+  - Gli ASIC sono utilizzati per creare arbitrariamente nuovi bitcoin.
+  - Gli ASIC sono utilizzati per proteggere la rete Bitcoin.
 explanation: |
-  Se i blocchi fossero 100 volte più pesanti, gestire un nodo Bitcoin richiederebbe un disco rigido da 50TB, una larghezza di banda di oltre 500GB/mese e hardware capace di validare centinaia di migliaia di transazioni in meno di 10 minuti. Questo renderebbe la gestione di un nodo Bitcoin inaccessibile alla persona media, compromettendo la decentralizzazione del protocollo, l'immutabilità delle transazioni e delle regole di consenso.
+  Gli ASIC (Application-Specific Integrated Circuit) sono
+  hardware specializzato progettato specificamente per il
+  mining di Bitcoin. Sono ottimizzati per eseguire la funzione di hashing SHA256, che è il problema matematico che i miner
+  devono risolvere nel processo di Proof of Work (Prova di Lavoro).
 reviewed: true

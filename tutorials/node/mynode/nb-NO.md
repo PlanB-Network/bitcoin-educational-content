@@ -3,7 +3,7 @@ name: My Node
 description: Sett opp din bitcoin MyNode
 ---
 
-![bilde](assets/0.webp)
+![bilde](assets/cover.webp)
 
 https://mynodebtc.com/
 

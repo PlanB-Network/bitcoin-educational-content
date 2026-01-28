@@ -1,13 +1,13 @@
-question: Vad är sannolikheten för att någon av misstag gissar din lista med 12 eller 24 ord i en Bitcoin Wallet?
-answer: Astronomiskt låg.
+question: Vad är en Multisig Wallet?
+answer: En uppsättning plånböcker som kräver flera signaturer för att utföra en transaktion.
 wrong_answers:
-  - Hög.
-  - Måttlig.
-  - Stark.
+  - En Wallet som kräver en enda signatur för att utföra en transaktion.
+  - En Wallet som inte kräver några signaturer för att utföra en transaktion.
+  - En Wallet som kräver en fysisk signatur för att utföra en transaktion.
 explanation: |
-  Tack vare den kryptografi som används för att skapa Wallet är
-  sannolikheten för att någon av misstag gissar din lista med
-  12 eller 24 ord är astronomiskt låg. Det är som att hitta
-  rätt nummer mellan 1 och $2^256$, vilket nästan är
-  motsvarar att hitta en definierad atom i universum.
+  En Multisig Wallet är en typ av Bitcoin Wallet som kräver
+  flera signaturer för att utföra en transaktion. Detta ger en
+  extra Layer av säkerhet, eftersom det innebär att en enskild person
+  inte kan utföra en transaktion utan godkännande från
+  andra.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Ni igiki kiba ku bwoko bw’ugufunga inference igihe ugufunga kwitwa n’ubwoko bumwe bumwe?
+answer: Ubwo bwoko burahinduka bushitse kuri iyo nkuru yo gufunga
+wrong_answers:
+  - Ugufunga birashobora kwemera ubwoko butandukanye mu guhamagara muri kazoza
+  - Umukozi asubiramwo ubwoko bw'ihamagarwa ry'imikorere ikurikira
+  - Ubwoko buraguma buhinduka kandi burashobora guhinduka bivanye n'aho biherereye
+explanation: |
+  Mu Rust, ugufunga kwungukira ku gutahura ubwoko bwikora, ariko ukwo guhinduranya kurafise aho bigarukira. Igihe ugufunga guhamagawe n'ubwoko bwihariye bw'ibipimo, umukozi afunga muri ubwo bwoko kuri iyo nkuru y'ugufunga. Ivyo bisigura ko iyo nzira nyene yo gufunga idashobora kwitwa mu nyuma n’ubwoko butandukanye - ihinduka monomorphisé ku bwoko bwa mbere ihura na yo. Ivyo bitandukanye n'ibikorwa rusangi bishobora guhamagarwa n'ubwoko butandukanye kuko guhamagara kwose kurema instantiation itandukanye. Ayandi mahitamwo ntabwo ari meza kuko atanga iciyumviro c'uguhinduranya gukomeza kutabaho iyo ubwoko bw'ugufunga bumaze kumenyekana.

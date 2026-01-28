@@ -1,8 +1,12 @@
-question: Je, kuna umuhimu gani wa matumizi ya nishati katika Bitcoin Mining?
-answer: Matumizi ya nishati ni muhimu ili kutoa habari, lakini uthibitishaji wa habari una gharama kidogo. Asymmetry hii inahakikisha usalama wa mtandao.
+question: Wachimbaji wanaweza kufanya nini kwa mitambo hiyo ya umeme ambayo bado haijaunganishwa kwenye gridi ya taifa?
+answer: Wanaweza kufanya kama mnunuzi wa mwisho.
 wrong_answers:
-  - Gharama ya nishati ni muhimu ili kuimarisha mashine za ASIC zinazotumiwa katika Mining, na uthibitishaji wa habari una gharama kubwa.
-  - Matumizi ya nishati ni muhimu ili kudumisha mtandao wa Bitcoin, na uthibitishaji wa habari una gharama tofauti.
-  - Gharama ya nishati sio lazima kuunda bitcoins mpya.
-explanation: >-
-reviewed: false
+  - Wanaweza kutoa mitambo ya umeme na umeme.
+  - Wanaweza kuunganisha mitambo ya nguvu kwenye gridi ya taifa.
+  - Wanaweza kudhibiti bei ya umeme.
+explanation: |
+  Wachimbaji madini wanaweza kuwa mnunuzi wa mwisho wa mitambo ya kuzalisha umeme ambayo
+  bado hazijaunganishwa kwenye gridi ya taifa. Hii inaruhusu mitambo ya nguvu
+  kupata ufadhili hata kabla ya kuunganishwa na
+  mtandao wa umeme.
+reviewed: true

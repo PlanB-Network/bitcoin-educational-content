@@ -1,0 +1,9 @@
+question: Kiedy węzeł pruned stanowi problem dla Wallet?
+answer: Podczas przywracania starego Wallet
+wrong_answers:
+  - Podczas tworzenia nowego odbioru Address
+  - Podczas wysyłania ostatniej transakcji
+  - Wybierając kwotę opłaty
+explanation: |
+  Węzeł pruned nie zachowuje starych bloków, co może uniemożliwić skanowanie poprzednich transakcji podczas przywracania.
+reviewed: true

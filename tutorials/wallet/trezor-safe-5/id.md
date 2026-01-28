@@ -100,11 +100,11 @@ Navigasi pada perangkat ini cukup intuitif:
 
 
 
-Untuk tutorial ini, saya akan menunjukkan kepada Anda bagaimana cara menggunakan Trezor Safe 5 dengan [perangkat lunak manajemen portofolio Sparrow Wallet] (https://sparrowwallet.com/download/). Jika Anda belum menginstal perangkat lunak ini, silakan lakukan sekarang. Jika Anda membutuhkan bantuan, kami juga memiliki tutorial terperinci tentang cara mengonfigurasi Sparrow Wallet:
+Untuk tutorial ini, saya akan menunjukkan kepada Anda bagaimana cara menggunakan Trezor Safe 5 dengan [perangkat lunak manajemen portofolio Sparrow Wallet](https://sparrowwallet.com/download/). Jika Anda belum menginstal perangkat lunak ini, silakan lakukan sekarang. Jika Anda membutuhkan bantuan, kami juga memiliki tutorial terperinci tentang cara mengonfigurasi Sparrow Wallet:
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Anda juga memerlukan perangkat lunak Trezor Suite untuk mengonfigurasi Safe 5, memeriksa keasliannya, dan menginstal firmware. Kami hanya akan menggunakan perangkat lunak ini untuk itu saja, dan setelah itu hanya diperlukan untuk pembaruan firmware. Untuk pengelolaan Wallet sehari-hari, kita akan menggunakan Sparrow Wallet secara eksklusif, karena dioptimalkan untuk Bitcoin dan mudah digunakan, bahkan untuk pemula (Sparrow hanya mendukung Bitcoin, bukan altcoin).
 
@@ -122,7 +122,7 @@ Untuk kedua program ini, saya sangat menyarankan agar Anda memeriksa keasliannya
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Memulai Trezor Safe 5
 
@@ -220,7 +220,7 @@ Jika Anda ingin mempelajari lebih lanjut tentang opsi pencadangan lain yang ters
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 
 ![Image](assets/fr/14.webp)
@@ -279,7 +279,7 @@ Safe 5 akan membuat frasa Mnemonic Anda menggunakan generator angka acak. Pastik
 
 
 
-***Tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Contoh Wallet ini hanya akan digunakan pada Testnet dan akan dihapus pada akhir tutorial
+**Tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Contoh Wallet ini hanya akan digunakan pada Testnet dan akan dihapus pada akhir tutorial**
 
 
 
@@ -287,7 +287,7 @@ Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengel
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/19.webp)
 
@@ -393,7 +393,7 @@ Kita tidak akan membutuhkan perangkat lunak Trezor Suite lagi, kecuali untuk mel
 
 
 
-Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi] (https://sparrowwallet.com/) di komputer Anda, jika Anda belum melakukannya.
+Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi](https://sparrowwallet.com/) di komputer Anda, jika Anda belum melakukannya.
 
 
 
@@ -401,7 +401,7 @@ Setelah Anda membuka Sparrow Wallet, pastikan perangkat lunak ini terhubung ke n
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Klik pada tab "*File*", kemudian pada "*New Wallet*".
 
@@ -483,7 +483,7 @@ Untuk mempelajari lebih lanjut tentang cara melakukan tes pemulihan, saya sarank
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Bagaimana cara menerima bitcoin dengan Trezor Safe 5?
 
@@ -577,7 +577,7 @@ Pilih jumlah yang akan dikirim ke Address ini.
 
 
 
-Sesuaikan tarif biaya transaksi Anda sesuai dengan pasar saat ini. Sebagai contoh, Anda dapat menggunakan [Mempool.space] (https://Mempool.space/) untuk memilih tarif biaya yang sesuai.
+Sesuaikan tarif biaya transaksi Anda sesuai dengan pasar saat ini. Sebagai contoh, Anda dapat menggunakan [Mempool.space](https://Mempool.space/) untuk memilih tarif biaya yang sesuai.
 
 
 
@@ -641,6 +641,6 @@ Selamat, Anda sekarang sudah menguasai penggunaan dasar Trezor Safe 5 dengan Spa
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda mau memberikan jempol Green di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!

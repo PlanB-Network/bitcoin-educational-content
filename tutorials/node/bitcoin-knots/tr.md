@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Düğümler
+name: Bitcoin Knots
 description: Bitcoin Knots alternatif istemcisi ile bir düğümü nasıl başlatabilirim?
 ---
 ![cover](assets/cover.webp)
@@ -31,14 +31,14 @@ Core yerine Knots gibi alternatif bir istemci kullanmanın iki ana nedeni vardı
 
 
 
-- Teknik**: Bu istemciler, düğümünüz tarafından hangi işlemlerin kabul edileceğini ve yayınlanacağını belirleyerek, özellikle Mempool yönetimi açısından Core'a genellikle farklı seçenekler sunar.
-- Politika**: Bazı insanlar Knots gibi alternatif istemcileri teknik olmayan nedenlerle, özellikle de Core'a bir alternatifi desteklemek ve böylece onun tekelini azaltmak için kullanmayı tercih etmektedir. Eğer Core tehlikeye girerse, sadece sağlam, iyi bakımlı alternatif istemcilere sahip olmak değil, aynı zamanda bunların nasıl kullanılacağını bilmek de yararlı olacaktır. Diğerleri Knots'u protesto amacıyla kullanmaktadır, çünkü Core'un geliştiricilerine olan güvenlerini kaybetmişlerdir ya da çoğunluk istemcisinin yönetimini onaylamamaktadırlar.
+- **Teknik**: Bu istemciler, düğümünüz tarafından hangi işlemlerin kabul edileceğini ve yayınlanacağını belirleyerek, özellikle Mempool yönetimi açısından Core'a genellikle farklı seçenekler sunar.
+- **Politika**: Bazı insanlar Knots gibi alternatif istemcileri teknik olmayan nedenlerle, özellikle de Core'a bir alternatifi desteklemek ve böylece onun tekelini azaltmak için kullanmayı tercih etmektedir. Eğer Core tehlikeye girerse, sadece sağlam, iyi bakımlı alternatif istemcilere sahip olmak değil, aynı zamanda bunların nasıl kullanılacağını bilmek de yararlı olacaktır. Diğerleri Knots'u protesto amacıyla kullanmaktadır, çünkü Core'un geliştiricilerine olan güvenlerini kaybetmişlerdir ya da çoğunluk istemcisinin yönetimini onaylamamaktadırlar.
 
 
 ## Bitcoin Düğümlerini nasıl kurabilirim?
 
 
-İşletim sisteminize uygun sürümü indirmek için [resmi Bitcoin Knots web sitesine] (https://bitcoinknots.org/#download) gidin. Yazılımı doğrulamak için parmak izini ve imzaları indirmeyi unutmayın. Bu dosyalar ayrıca [Bitcoin Knots GitHub deposunda](https://github.com/bitcoinknots/Bitcoin) da mevcuttur.
+İşletim sisteminize uygun sürümü indirmek için [resmi Bitcoin Knots web sitesine](https://bitcoinknots.org/#download) gidin. Yazılımı doğrulamak için parmak izini ve imzaları indirmeyi unutmayın. Bu dosyalar ayrıca [Bitcoin Knots GitHub deposunda](https://github.com/bitcoinknots/Bitcoin) da mevcuttur.
 
 
 ![Image](assets/fr/02.webp)
@@ -47,7 +47,7 @@ Core yerine Knots gibi alternatif bir istemci kullanmanın iki ana nedeni vardı
 Yazılımı makinenize yüklemeden önce, orijinalliğini ve bütünlüğünü kontrol etmenizi şiddetle tavsiye ederiz. Nasıl yapılacağını bilmiyorsanız, bu diğer eğiticiye bir göz atın:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Yazılım doğrulandıktan sonra, kurulum panelinde belirtilen adımları izleyerek yazılımı yükleyin.
 
 
@@ -173,7 +173,7 @@ Wallet'inize bir isim verin. Ayrıca "*Wallet'i Şifrele*" düğmesine tıklayar
 passphrase BIP39, Wallet'inizin güvenliğini artırmak için Mnemonic ifadenize ek olarak özgürce seçebileceğiniz isteğe bağlı bir paroladır. Bu özelliği yapılandırmadan önce, passphrase'nın teoride nasıl çalıştığını ve bitcoinlerinizin kalıcı olarak kaybedilmesine yol açabilecek hatalardan nasıl kaçınacağınızı ayrıntılı olarak açıklayan aşağıdaki makaleyi okumanızı şiddetle tavsiye ederiz:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 passphrase seçeneğini etkinleştirdiyseniz, sağlam bir tane seçin ve bir veya daha fazla güvenli fiziksel ortama dikkatlice kaydedin.
 
 
@@ -317,10 +317,11 @@ Bu değişiklikleri yaptıktan sonra yazılımı yeniden başlatmayı unutmayın
 Ardından Wallet yönetim yazılımınıza (örn. Sparrow wallet veya Liana) gidin ve işletim sisteminize bağlı olarak genellikle `Bitcoin.conf` ile aynı klasörde bulunan çerez dosyanızın yolunu girin:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -345,10 +346,11 @@ server=1
 Dosyayı düzenledikten sonra, işletim sisteminiz için uygun klasöre kaydettiğinizden emin olun:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Bu işlem Bitcoin-QT'nin Interface grafikleri üzerinden de gerçekleştirilebilir. "*Ayarlar*" menüsüne gidin, ardından "*Seçenekler...*" ve ilgili kutuyu işaretleyerek "*RPC sunucusunu etkinleştir*" seçeneğini etkinleştirin. Eğer `Bitcoin.conf` dosyası mevcut değilse, "*Open Configuration File*" seçeneğine tıklayarak doğrudan bu Interface'ten oluşturabilirsiniz.
 
@@ -356,7 +358,7 @@ Bu işlem Bitcoin-QT'nin Interface grafikleri üzerinden de gerçekleştirilebil
 ![Image](assets/fr/37.webp)
 
 
-Yerel ağınızda Bitcoin Knots'u barındıran makinenin IP Address'sini bulun. Bunu yapmak için [Angry IP Scanner] (https://angryip.org/) gibi bir araç kullanabilirsiniz. Tartışma adına, düğümünüzün IP Address'sinin `192.168.1.18` olduğunu varsayalım.
+Yerel ağınızda Bitcoin Knots'u barındıran makinenin IP Address'sini bulun. Bunu yapmak için [Angry IP Scanner](https://angryip.org/) gibi bir araç kullanabilirsiniz. Tartışma adına, düğümünüzün IP Address'sinin `192.168.1.18` olduğunu varsayalım.
 
 
 Bitcoin.conf` dosyasına aşağıdaki satırları ekleyin ve `rpcbind=192.168.1.18` değerini düğümünüzün IP Address'u ile eşleşecek şekilde ayarlayın.
@@ -407,4 +409,4 @@ Bu eğitimi faydalı bulduysanız, aşağıya bir Green başparmak bırakırsan�
 Ayrıca kendi Lightning düğümünüzü nasıl kuracağınızı açıkladığım bu diğer öğreticiyi de tavsiye ederim:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

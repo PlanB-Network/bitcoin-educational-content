@@ -1,0 +1,8 @@
+question: Jaki jest główny mechanizm, za pomocą którego funkcja rezerw zerokanałowych Breez SDK stwarza dodatkowe ryzyko, które musi zostać zaabsorbowane przez dostawców usług Lightning?
+answer: Dostawcy LSP muszą zaakceptować ryzyko, że użytkownicy wydadzą cały swój bilans kanału, eliminując bufor bezpieczeństwa, który tradycyjnie chroni przed wymuszonym zamknięciem kanału
+wrong_answers:
+  - Usługi LSP stają się odpowiedzialne za utrzymywanie ciągłej synchronizacji wykresów sieciowych na wielu urządzeniach użytkowników bez tradycyjnego wynagrodzenia opartego na rezerwach
+  - LSP muszą gwarantować natychmiastowy routing płatności bez poduszki płynności, którą rezerwy kanałów zapewniają do obsługi scenariuszy przeciążenia sieci
+  - Dostawcy usług LSP przyjmują odpowiedzialność za niepowodzenia wymiany on-chain, gdy użytkownicy próbują przekonwertować swoje pełne saldo Lightning na Bitcoin w okresach wysokich opłat
+explanation: |
+  Zerowe rezerwy kanałów pozwalają użytkownikom wydać całe wyświetlane saldo, ale eliminuje to tradycyjny bufor bezpieczeństwa, który chroni dostawców usług Lightning podczas wymuszonego zamykania kanałów. Rezerwy kanałów zazwyczaj zapewniają, że niektóre środki pozostają zablokowane w celu pokrycia kosztów zamknięcia i zapewnienia bezpieczeństwa przed złośliwym zachowaniem. Usuwając te rezerwy w celu poprawy komfortu użytkowania, dostawcy usług LSP muszą absorbować dodatkowe ryzyko operacyjne i finansowe, które te bufory zostały zaprojektowane w celu złagodzenia, co stanowi wyraźny kompromis, w którym złożoność techniczna i ryzyko są przenoszone z użytkowników na dostawców usług.

@@ -33,23 +33,23 @@ Fedi Wallet je portfolio Bitcoin, které přichází s novým přístupem k ukl�
 
 
 
-- Údržbáři**: Rozhodnete se svěřit svou důvěru externímu subjektu, tvůrci portfolia, který pro vás bude uchovávat slova o obnově vašeho portfolia. Nemáte přístup ani možnost exportovat své portfolio Bitcoin.
+- **Údržbáři**: Rozhodnete se svěřit svou důvěru externímu subjektu, tvůrci portfolia, který pro vás bude uchovávat slova o obnově vašeho portfolia. Nemáte přístup ani možnost exportovat své portfolio Bitcoin.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
-
-
-
-- Samoplátci** : Aplikace vám umožní přístup ke slovům pro obnovu, jakmile si vytvoříte Wallet. Své bitcoiny tak můžete libovolně exportovat do Wallet, který vám nejlépe vyhovuje.
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **Samoplátci**: Aplikace vám umožní přístup ke slovům pro obnovu, jakmile si vytvoříte Wallet. Své bitcoiny tak můžete libovolně exportovat do Wallet, který vám nejlépe vyhovuje.
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Místo toho nabízí Fedi Wallet přístup federace, který vám umožní připojit se ke skupině lidí, jimž důvěřujete a kteří budou spravovat vaše klíče od portfolia. Můžete se připojit k populární federaci navržené společností Fedi nebo se připojit k místní federaci ve vaší komunitě naskenováním QR kódu nebo vložením pozvánky federace.
 
@@ -75,7 +75,7 @@ Zjistěte více o našich doporučeních pro zálohování slov pro obnovení:
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Pro každou federaci, ke které se připojíte, Fedi rozlišuje vaše bitcoiny vytvořením samostatných peněženek.
 
@@ -103,7 +103,7 @@ V nabídce **Federace** přejděte na federaci a kliknutím na **Podrobnosti o f
 
 
 
-- Přijímejte bitcoiny na Fedi**: Na domovské stránce vyberte federaci, kterou chcete používat k přijímání bitcoinů, a poté klikněte na tlačítko **Přijmout** pro vytvoření bleskového účtu Invoice s částkou, kterou chcete přijmout.
+- **Přijímejte bitcoiny na Fedi**: Na domovské stránce vyberte federaci, kterou chcete používat k přijímání bitcoinů, a poté klikněte na tlačítko **Přijmout** pro vytvoření bleskového účtu Invoice s částkou, kterou chcete přijmout.
 
 
 
@@ -113,7 +113,7 @@ V nabídce **Federace** přejděte na federaci a kliknutím na **Podrobnosti o f
 
 
 
-- Poslat bitcoiny**: Na domovské stránce klikněte na tlačítko **Odeslat** a pošlete bitcoiny na Lightning Address, zaplaťte Invoice nebo proveďte offline platbu.
+- **Poslat bitcoiny**: Na domovské stránce klikněte na tlačítko **Odeslat** a pošlete bitcoiny na Lightning Address, zaplaťte Invoice nebo proveďte offline platbu.
 
 
 
@@ -141,7 +141,7 @@ Příjemce musí naskenovat vygenerovaný QR kód, aby si mohl satoši vyzvednou
 
 
 
-Offline platby se provádějí především pomocí [e-cash](https://planb.network/resources/glossary/ecash-david-chaum). Transakce je uložena v telefonu, a jakmile se připojíte k internetu, potvrzení transakce se stane automatickým. Platbu můžete potvrdit také ručně kliknutím na tlačítko **Potvrdit transakci**.
+Offline platby se provádějí především pomocí [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). Transakce je uložena v telefonu, a jakmile se připojíte k internetu, potvrzení transakce se stane automatickým. Platbu můžete potvrdit také ručně kliknutím na tlačítko **Potvrdit transakci**.
 
 
 
@@ -191,7 +191,7 @@ V nabídce **Mods** najdete aplikace, jako je :
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,5 +231,4 @@ Právě jste absolvovali prohlídku Fedi Wallet a nyní můžete plně využít 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

@@ -1,11 +1,11 @@
-question: Mnemonic ifadenizi saklamak için kağıt kullanmanın önerilen bir alternatifi nedir?
-answer: Metal bir plaka üzerine kazıyarak.
+question: Bitcoin bağlamında gizlilik neden önemlidir?
+answer: Fonlarınızın takip edilme riskini en aza indirmek için.
 wrong_answers:
-  - Dijital bir dosyada saklamak.
-  - Beyaz tahtaya yazıyorum.
-  - Telefonunuza bir kişi olarak kaydedin.
+  - Bitcoinlerinizin değerini düşürmek için.
+  - Bitcoinlerinizin çalınmasını önlemek için.
+  - Bitcoinleriniz üzerinden vergi ödemek için.
 explanation: |
-  Depolama için kağıda önerilen alternatiflerden biri
-  gW-1 ifadenizi metal bir plaka üzerine kazımaktır. Bu
-  çözümü daha dayanıklı ve uzun ömürlüdür.
+  Gizlilik, Bitcoin bağlamında aşağıdakileri en aza indirmek için önemlidir
+  fonlarınızın takip edilme riskini azaltır, bu da
+  gözetiminiz.
 reviewed: true

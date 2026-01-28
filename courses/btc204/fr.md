@@ -47,7 +47,7 @@ L'objectif de cette formation n'est pas de vous rendre totalement anonyme dans v
 
 **Section 1 : Définitions et concepts clés**
 
-Pour commencer, nous allons réviser ensemble les principes fondamentaux qui régissent le fonctionnement de Bitcoin, afin de pouvoir ensuite aborder sereinement les notions relatives à la confidentialité. Il est essentiel de maîtriser quelques concepts de base, tels que les UTXO, les adresses de réception ou les scripts, avant de pouvoir pleinement comprendre les concepts que nous aborderons dans les sections suivantes. Nous introduirons également le modèle général de confidentialité de Bitcoin, tel qu'imaginé par Satoshi Nakamoto, ce qui nous permettra de saisir les enjeux et les risques associés.
+Pour commencer, nous allons réviser ensemble les principes fondamentaux qui régissent le fonctionnement de Bitcoin, afin de pouvoir ensuite aborder sereinement les notions relatives à la confidentialité. Il est essentiel de maîtriser quelques concepts de base, tels que les [UTXO](https://planb.academy/resources/glossary/utxo)s, les adresses de réception ou les scripts, avant de pouvoir pleinement comprendre les concepts que nous aborderons dans les sections suivantes. Nous introduirons également le modèle général de confidentialité de Bitcoin, tel qu'imaginé par Satoshi Nakamoto, ce qui nous permettra de saisir les enjeux et les risques associés.
 
 ![BTC204](assets/fr/001.webp)
 
@@ -63,7 +63,7 @@ Dans la troisième section de notre formation, nous entrons dans le vif du sujet
 
 ![BTC204](assets/fr/003.webp)
 
-**Section 4 : Comprendre les transactions coinjoin**
+**Section 4 : Comprendre les transactions [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans la section 4, vous allez découvrir tout ce qu'il faut savoir sur cette méthode de mixage. Vous apprendrez ce qu'est le coinjoin, son histoire et ses objectifs, ainsi que les différents types de coinjoins existants. Enfin, pour les utilisateurs les plus aguerris, nous découvrirons ce que sont les anonsets et l'entropie, et comment calculer ces indicateurs.
 
@@ -71,7 +71,7 @@ Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans
 
 **Section 5 : Connaître les enjeux d'autres techniques de confidentialité avancées**
 
-Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le payjoin, les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
+Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le [payjoin](https://planb.academy/resources/glossary/payjoin), les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
 
 Nous aborderons également la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons aussi des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin, notamment les protocoles d'adresses statiques.
 
@@ -98,7 +98,7 @@ Ce modèle se distingue profondément des systèmes bancaires traditionnels qui 
 
 ![BTC204](assets/fr/006.webp)
 
-Sur Bitcoin, cela fonctionne différemment. Le concept de compte n'existe pas et les unités monétaires ne sont pas gérées via des soldes, mais à travers des UTXO. Un UTXO représente une quantité spécifique de bitcoins qui n'a pas encore été dépensée, formant ainsi un "morceau de bitcoin", qui peut être grand ou petit. Par exemple, un UTXO pourrait valoir `500 BTC` ou simplement `700 SATS`.
+Sur Bitcoin, cela fonctionne différemment. Le concept de compte n'existe pas et les unités monétaires ne sont pas gérées via des soldes, mais à travers des UTXOs. Un UTXO représente une quantité spécifique de bitcoins qui n'a pas encore été dépensée, formant ainsi un "morceau de bitcoin", qui peut être grand ou petit. Par exemple, un UTXO pourrait valoir `500 BTC` ou simplement `700 SATS`.
 
 **Pour rappel :** Le satoshi, souvent abrégé en sat, est la plus petite unité de Bitcoin, comparable au centime dans les monnaies fiat.
 
@@ -160,7 +160,7 @@ Pour qu'une transaction soit considérée valide selon les règles de consensus,
 
 ### Le change et la fusion dans une transaction Bitcoin
 
-L'action d'une transaction Bitcoin sur les UTXO peut ainsi être comparée à la refonte d'une pièce d'or. En effet, un UTXO n'est pas divisible, mais uniquement fusible. Cela signifie qu'un utilisateur ne peut pas simplement diviser un UTXO représentant un certain montant en bitcoins en plusieurs UTXO plus petits. Il doit le consommer entièrement dans une transaction pour créer un ou plusieurs nouveaux UTXOs de valeurs arbitraires en outputs, qui doivent être inférieures ou égales à la valeur initiale.
+L'action d'une transaction Bitcoin sur les UTXOs peut ainsi être comparée à la refonte d'une pièce d'or. En effet, un UTXO n'est pas divisible, mais uniquement fusible. Cela signifie qu'un utilisateur ne peut pas simplement diviser un UTXO représentant un certain montant en bitcoins en plusieurs UTXOs plus petits. Il doit le consommer entièrement dans une transaction pour créer un ou plusieurs nouveaux UTXOs de valeurs arbitraires en outputs, qui doivent être inférieures ou égales à la valeur initiale.
 
 Cette mécanique est similaire à celle d'une pièce d'or. Imaginons que vous possédez une pièce de 2 onces et que vous souhaitez faire un paiement de 1 once, en supposant que le vendeur ne puisse pas vous rendre la monnaie. Vous devriez fondre votre pièce et en couler 2 nouvelles de 1 once chacune.
 
@@ -253,6 +253,7 @@ En revanche, s’assurer de l'absence de double dépense est plus complexe, puis
 ![BTC204](assets/fr/020.webp)
 
 ### La prévention de la double dépense sur Bitcoin
+
 Le seul moyen d’éviter cette duplication d’un bien numérique est d’être au courant de l’intégralité des échanges sur le système. De cette manière, on peut savoir qui possède quoi et actualiser les avoirs de chacun en fonction des transactions effectuées. C’est ce qui se fait, par exemple, pour la monnaie scripturale dans le système bancaire. Lorsque l’on paie 10 € à un commerçant par carte bancaire, la banque constate cet échange et actualise le livre des comptes.
 
 ![BTC204](assets/fr/021.webp)
@@ -314,13 +315,13 @@ Un des objectifs de l’analyse de chaîne consiste à regrouper diverses activi
 
 Rappelez-vous du chapitre précédent. Je vous ai expliqué pourquoi le modèle de confidentialité de Bitcoin reposait originellement sur la séparation entre l’identité de l’utilisateur et ses transactions. Il serait donc tentant de penser que l'analyse de chaîne s'avère inutile, puisque même si l'on parvient à regrouper des activités on-chain, on ne peut pas les associer à une identité réelle. 
 
-Théoriquement, cette affirmation est exacte. Dans la première partie de cette formation, nous avons vu que l'on emploie des paires de clés cryptographiques pour établir des conditions sur les UTXO. Par essence, ces paires de clés ne divulguent aucune information sur l’identité de leurs détenteurs. Ainsi, même si l'on réussit à regrouper les activités associées à différentes paires de clés, cela ne nous renseigne en rien sur l'entité à l'origine de ces activités.
+Théoriquement, cette affirmation est exacte. Dans la première partie de cette formation, nous avons vu que l'on emploie des paires de clés cryptographiques pour établir des conditions sur les UTXOs. Par essence, ces paires de clés ne divulguent aucune information sur l’identité de leurs détenteurs. Ainsi, même si l'on réussit à regrouper les activités associées à différentes paires de clés, cela ne nous renseigne en rien sur l'entité à l'origine de ces activités.
 
 ![BTC204](assets/fr/028.webp)
 
 Cependant, la réalité pratique est bien plus complexe. Il existe une multitude de comportements qui risquent de lier une identité réelle à une activité on-chain. En analyse, on appelle cela un point d’entrée, et il en existe une multitude. 
 
-Le plus courant, c’est évidemment le KYC (*Know Your Customer*). Si vous retirez vos bitcoins d’une plateforme régulée vers une de vos adresses de réception personnelles, alors certaines personnes sont en capacité de lier votre identité à cette adresse. Plus largement, un point d’entrée peut être toute forme d’interaction entre votre vie réelle et une transaction Bitcoin. Par exemple, si vous publiez une adresse de réception sur vos réseaux sociaux, cela peut constituer un point d’entrée pour une analyse. Si vous réalisez un paiement en bitcoins à votre boulanger, ce dernier pourra associer votre visage (qui fait partie de votre identité) à une adresse Bitcoin.
+Le plus courant, c’est évidemment le KYC (*Know Your Customer*). Si vous retirez vos bitcoins d’une plateforme régulée vers l'une de vos adresses de réception personnelles, alors certaines personnes sont en capacité de lier votre identité à cette adresse. Plus largement, un point d’entrée peut être toute forme d’interaction entre votre vie réelle et une transaction Bitcoin. Par exemple, si vous publiez une adresse de réception sur vos réseaux sociaux, cela peut constituer un point d’entrée pour une analyse. Si vous réalisez un paiement en bitcoins à votre boulanger, ce dernier pourra associer votre visage (qui fait partie de votre identité) à une adresse Bitcoin.
 
 Ces points d'entrée sont quasiment inévitables dans l'usage de Bitcoin. Bien que l'on puisse chercher à en restreindre la portée, ils demeureront présents. C'est pourquoi il est crucial de combiner les méthodes visant à préserver votre vie privée. Si maintenir une séparation entre votre identité réelle et vos transactions est une démarche intéressante, elle demeure aujourd'hui insuffisante. En effet, si l'ensemble de vos activités on-chain peut être regroupé, alors le moindre petit point d'entrée est susceptible de compromettre l'unique couche de confidentialité que vous aviez instaurée.
 
@@ -334,9 +335,9 @@ Ainsi, il faut également pouvoir faire face à l’analyse de chaîne dans notr
 
 Justement, pour mieux contrecarrer l'analyse de chaîne, quelle meilleure approche que de s'initier aux méthodes employées dans l’analyse de chaîne ? Si vous souhaitez savoir comment améliorer votre confidentialité sur Bitcoin, vous devez comprendre ces méthodes. Cela vous permettra de mieux appréhender les techniques comme le coinjoin ou le payjoin (techniques que nous étudierons dans les dernières parties de la formation), et de réduire les erreurs que vous pourriez faire.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 En cela, nous pouvons faire une analogie avec la cryptographie et la cryptanalyse. Un bon cryptographe est avant tout un bon cryptanalyste. Pour imaginer un nouvel algorithme de chiffrement, il faut savoir quelles sont les attaques auxquelles il devra faire face, et également étudier pourquoi les algorithmes précédents ont été cassés. Le même principe s'applique à la confidentialité sur Bitcoin. Comprendre les méthodes de l'analyse de chaîne est la clé pour s'en prémunir. C’est pour cette raison que je vous propose une partie entière sur l'analyse de chaîne dans cette formation.
 
@@ -547,7 +548,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Sur cette dernière, on peut voir que l’input n° 0 et l’output n° 1 utilisent des scripts P2WPKH (SegWit V0), alors que l’output n° 0 utilise un script différent de type P2PKH (Legacy).
 
-Au début des années 2010, cette heuristique basée sur le versionnage des scripts était relativement peu utile du fait de la limitation des types de scripts disponibles. Cependant, avec le temps et les mises à jour successives de Bitcoin, une diversité croissante de types de scripts a été introduite. Cette heuristique devient donc de plus en plus pertinente, car avec un éventail plus large de types de scripts, les utilisateurs se divisent en groupes plus restreints, augmentant ainsi les chances d'appliquer cette heuristique de réutilisation interne du versionnage. Pour cette raison, dans une perspective de confidentialité uniquement, il est conseillé d'opter pour le type de script le plus courant. Par exemple, lorsque je rédige ces lignes, les scripts Taproot (`bc1p`) sont moins fréquemment utilisés que les scripts SegWit V0 (`bc1q`). Bien que les premiers offrent des bénéfices économiques et de confidentialité dans certains contextes spécifiques, pour des utilisations de signature unique plus traditionnelles, il peut être judicieux de s'en tenir à un standard plus ancien pour des raisons de confidentialité, jusqu'à ce que le nouveau standard soit plus largement adopté.
+Au début des années 2010, cette heuristique basée sur le versionnage des scripts était relativement peu utile du fait de la limitation des types de scripts disponibles. Cependant, avec le temps et les mises à jour successives de Bitcoin, une diversité croissante de types de scripts a été introduite. Cette heuristique devient donc de plus en plus pertinente, car avec un éventail plus large de types de scripts, les utilisateurs se divisent en groupes plus restreints, augmentant ainsi les chances d'appliquer cette heuristique de réutilisation interne du versionnage. Pour cette raison, dans une perspective de confidentialité uniquement, il est conseillé d'opter pour le type de script le plus courant. Par exemple, lorsque je rédige ces lignes, les scripts [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) sont moins fréquemment utilisés que les scripts SegWit V0 (`bc1q`). Bien que les premiers offrent des bénéfices économiques et de confidentialité dans certains contextes spécifiques, pour des utilisations de signature unique plus traditionnelles, il peut être judicieux de s'en tenir à un standard plus ancien pour des raisons de confidentialité, jusqu'à ce que le nouveau standard soit plus largement adopté.
 
 ### Les paiements par nombres ronds
 
@@ -557,7 +558,7 @@ Une autre heuristique interne qui peut nous permettre d’identifier le change e
 
 Par élimination, si une sortie représente le paiement, l’autre représente le change. On peut donc interpréter qu’il est vraisemblable que l’utilisateur en entrée soit toujours en possession de la sortie identifiée comme étant le change.
 
-Il convient de souligner que cette heuristique n'est pas toujours applicable, puisque la majorité des paiements s'effectuent encore en unités de compte fiduciaires. En effet, lorsqu'un commerçant en France accepte le bitcoin, en général, il n’affiche pas des prix stables en sats. Il optera plutôt pour une conversion entre le prix en euros et le montant en bitcoins à régler. Il ne devrait donc pas y avoir de nombre rond en sortie de la transaction. 
+Il convient de souligner que cette heuristique n'est pas toujours applicable, puisque la majorité des paiements s'effectue encore en unités de compte fiduciaires. En effet, lorsqu'un commerçant en France accepte le bitcoin, en général, il n’affiche pas des prix stables en sats. Il optera plutôt pour une conversion entre le prix en euros et le montant en bitcoins à régler. Il ne devrait donc pas y avoir de nombre rond en sortie de la transaction. 
 
 Néanmoins, un analyste pourrait tenter de réaliser cette conversion en tenant compte du taux de change en vigueur lorsque la transaction a été diffusée sur le réseau. Prenons l'exemple d'une transaction avec un input de `97 552 sats` et deux outputs, l'un de `31 085 sats` et l'autre de `64 152 sats`. À première vue, cette transaction ne semble pas impliquer des montants ronds. Cependant, en appliquant le taux de change de 64 339 € au moment de la transaction, nous obtenons une conversion en euros qui se présente comme suit :
 - Un input de 62,76 € ;
@@ -782,7 +783,7 @@ Après avoir identifié son modèle, en utilisant les heuristiques internes à l
 
 ### Exercice 5
 
-Imaginons que Loïc a posté une de ses adresses de réception Bitcoin sur le réseau social Twitter :
+Imaginons que Loïc ait posté une de ses adresses de réception Bitcoin sur le réseau social Twitter :
 
 ![BTC204](assets/fr/065.webp)
 
@@ -971,7 +972,7 @@ En analysant ces horaires, il apparaît que les fuseaux UTC-7 et UTC-8 sont coh�
 21:55 UTC > 13:55 UTC-8
 ```
 
-![BTC204](assets/fr/066.webp)
+![BTC204](assets/fr/067.webp)
 
 Le fuseau horaire UTC-7 est particulièrement pertinent en été, car il inclut des états et des régions tels que :
 - Californie (avec des villes comme Los Angeles, San Francisco, et San Diego) ;
@@ -1016,9 +1017,9 @@ Une adresse de réception Bitcoin est une chaîne de caractères ou un identifia
 
 Techniquement, une adresse de réception Bitcoin ne permet pas de "recevoir" des bitcoins au sens propre, mais sert plutôt à définir les conditions sous lesquelles les bitcoins peuvent être dépensés. Concrètement, lorsqu'un paiement vous est envoyé, la transaction de l'envoyeur crée un nouvel UTXO qui vous est destiné en output à partir des UTXOs qu'il a consommés en inputs. Sur cet output, il appose un script définissant comment cet UTXO peut être dépensé ultérieurement. Ce script est connu sous le nom de "*ScriptPubKey*" ou "*Locking Script*". Votre adresse de réception, plus précisément sa charge utile (*payload*), est intégrée dans ce script. Pour vulgariser, ce script stipule essentiellement :
 
-> "*Pour dépenser ce nouvel UTXO, il faut fournir une signature numérique à l'aide de la clé privée associée à cette adresse de réception.*"
+> *Pour dépenser ce nouvel UTXO, il faut fournir une signature numérique à l'aide de la clé privée associée à cette adresse de réception.*
 
-![BTC204](assets/fr/067.webp)
+![BTC204](assets/fr/068.webp)
 
 Les adresses Bitcoin se déclinent en différents types selon le modèle de script utilisé. Les premiers modèles, dits "*Legacy*", incluent les adresses `P2PKH` (*Pay-to-PubKey-Hash*) et `P2SH` (*Pay-to-Script-Hash*). Les adresses P2PKH commencent toujours par `1` et les P2SH par `3`. Bien qu'encore sécurisés, ces formats sont aujourd'hui obsolètes, car ils entraînent des frais de transaction plus élevés et offrent une confidentialité moindre par rapport aux nouveaux standards.
 
@@ -1047,7 +1048,7 @@ Pour ce qui est de la construction des adresses de réception, cela dépend éga
 - Pour les adresses `P2SH` et `P2WSH`, la charge utile représente le hachage d'un script ;
 - Quant aux adresses `P2TR`, la charge utile est une clé publique tweakée. Les outputs `P2TR` combinent des aspects de _Pay-to-PubKey_ et de _Pay-to-Script_. La clé publique tweakée est le résultat de l'addition d'une clé publique de dépense classique avec un "tweak", dérivé de la racine de Merkle d'un ensemble de scripts pouvant aussi être utilisés pour dépenser les bitcoins.
 
-![BTC204](assets/fr/068.webp)
+![BTC204](assets/fr/069.webp)
 
 Les adresses affichées sur vos logiciels de portefeuille incluent aussi un HRP (*Human-Readable Part*), typiquement `bc` pour les adresses post-SegWit, un séparateur `1`, et un numéro de version `q` pour SegWit V0 et `p` pour Taproot/SegWit V1. Une somme de contrôle est également ajoutée pour garantir l'intégrité et la validité de l'adresse lors de sa transmission.
 
@@ -1075,19 +1076,19 @@ Lorsque différents ScriptPubKey contiennent la même adresse de réception, il 
 
 ### En quoi la réutilisation d'adresse est un problème ?
 
-Étant donné que la blockchain est publique, il est facile de consulter quelles adresses verrouillent quels UTXO et quelle quantité de bitcoins. Si une même adresse est utilisée pour plusieurs transactions, il devient possible de déduire que tous les bitcoins associés à cette adresse appartiennent à une même personne. Cette pratique compromet la vie privée de l'utilisateur en permettant d'établir des liens déterministes entre différentes transactions et de tracer les bitcoins sur la blockchain. Satoshi Nakamoto lui-même soulignait déjà cette problématique dans le White Paper de Bitcoin :
+Étant donné que la blockchain est publique, il est facile de consulter quelles adresses verrouillent quels UTXOs et quelle quantité de bitcoins. Si une même adresse est utilisée pour plusieurs transactions, il devient possible de déduire que tous les bitcoins associés à cette adresse appartiennent à une même personne. Cette pratique compromet la vie privée de l'utilisateur en permettant d'établir des liens déterministes entre différentes transactions et de tracer les bitcoins sur la blockchain. Satoshi Nakamoto lui-même soulignait déjà cette problématique dans le White Paper de Bitcoin :
 
 > *En guise de pare-feu additionnel, une nouvelle paire de clés pourrait être utilisée pour chaque transaction afin de les garder non liées à un propriétaire commun.*
 
-![BTC204](assets/fr/055.webp)
+![BTC204](assets/fr/070.webp)
 
 Source : S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
-L'objectif recherché par Satoshi dans cette phrase était de créer un pare-feu supplémentaire en cas d'association entre l'identité de l'utilisateur et une paire de clés sur Bitcoin, afin d'éviter que l'intégralité de son activité soit reliée publiquement à son identité. Aujourd'hui, avec la prolifération des sociétés d'analyse de chaîne et les réglementations sur le KYC, l'utilisation d'adresses uniques n'est plus un "pare-feu additionnel", mais une pratique indispensable pour quiconque souhaite préserver minimum sa vie privée.
+L'objectif recherché par Satoshi dans cette phrase était de créer un pare-feu supplémentaire en cas d'association entre l'identité de l'utilisateur et une paire de clés sur Bitcoin, afin d'éviter que l'intégralité de son activité soit reliée publiquement à son identité. Aujourd'hui, avec la prolifération des sociétés d'analyse de chaîne et les réglementations sur le KYC, l'utilisation d'adresses uniques n'est plus un "pare-feu additionnel", mais une pratique indispensable pour quiconque souhaite préserver un minimum sa vie privée.
 
 Lorsque vous réutilisez une adresse, vous créez un lien presque indéniable entre l'ensemble des transactions associées à cette adresse. Bien que cela ne mette pas directement en danger vos fonds, car la cryptographie sur les courbes elliptiques garantit la sécurité de vos clés privées, cela facilite la surveillance de vos activités. En effet, quiconque dispose d'un nœud peut observer les transactions et les soldes des adresses, compromettant ainsi totalement votre anonymat.
 
-![BTC204](assets/fr/054.webp)
+![BTC204](assets/fr/071.webp)
 
 Pour illustrer ce point, prenons l'exemple de Bob, un utilisateur qui achète régulièrement des bitcoins par petites sommes en DCA et les envoie toujours sur la même adresse. Après deux ans, cette adresse contient une quantité substantielle de bitcoins. Si Bob utilise cette adresse pour effectuer un paiement chez un commerçant du coin, ce dernier pourra voir l'ensemble des fonds associés et en déduire la richesse de Bob. Cela peut donc entraîner des risques de sécurité personnelle, notamment des tentatives de vol ou d'extorsion. Si Bob avait utilisé une adresse vierge pour réceptionner chaque achat périodique, il aurait dévoilé infiniment moins d'informations à son commerçant.
 
@@ -1099,11 +1100,11 @@ La première s'observe lorsqu'une adresse est réutilisée au sein de plusieurs 
 
 La réutilisation d'adresse interne s'observe non pas lorsque la réutilisation se produit sur plusieurs transactions, mais lorsqu'elle s'observe au sein d'une même transaction. En effet, si l'on utilise en output d'une transaction la même adresse qui avait servi à verrouiller un input, alors on peut déduire que cet output appartient toujours au même utilisateur (change), et que le second output représente le paiement effectif. Cette autre heuristique permet de perpétuer un traçage de fonds sur plusieurs transactions.
 
-![BTC204](assets/fr/045.webp)
+![BTC204](assets/fr/072.webp)
 
 La réutilisation d'adresse est un véritable fléau sur Bitcoin. Selon le site OXT.me (site actuellement inaccessible), le taux global de réutilisation d'adresses sur Bitcoin s'élevait à environ 52 % en 2022 :
 
-![BTC204](assets/fr/069.webp)
+![BTC204](assets/fr/073.webp)
 
 Ce taux est énorme, mais il provient en très grande majorité des plateformes d'échanges plutôt que des utilisateurs individuels.
 
@@ -1111,9 +1112,9 @@ Ce taux est énorme, mais il provient en très grande majorité des plateformes 
 
 Éviter la réutilisation d'adresse est assez simple : **il suffit d'utiliser une nouvelle adresse vierge pour tout nouveau paiement entrant vers son portefeuille**.
 
-Grâce au BIP32, les portefeuilles modernes sont désormais déterministes et hiérarchiques. Cela signifie qu'un utilisateur peut générer un grand nombre d'adresses à partir d'une seule information initiale : la graine. En sauvegardant cette seule information, il est possible de restaurer toutes les clés privées du portefeuille, permettant ainsi d'accéder aux fonds sécurisés par les adresses correspondantes.
+Grâce au BIP32, les portefeuilles modernes sont désormais déterministes et hiérarchiques. Cela signifie qu'un utilisateur peut générer un grand nombre d'adresses à partir d'une seule information initiale : la graine (*seed phrase*). En sauvegardant cette seule information, il est possible de restaurer toutes les clés privées du portefeuille, permettant ainsi d'accéder aux fonds sécurisés par les adresses correspondantes.
 
-![BTC204](assets/fr/070.webp)
+![BTC204](assets/fr/074.webp)
 
 C'est pourquoi, lorsque vous appuyez sur le bouton "*recevoir*" dans votre logiciel de portefeuille, une adresse de réception inutilisée vous est proposée à chaque fois. Après avoir reçu des bitcoins sur cette adresse, le logiciel vous en suggère automatiquement une nouvelle.
 
@@ -1146,13 +1147,13 @@ L'utilisation active du labelling devient encore plus intéressante lorsqu'elle 
 
 Le coin control est une fonctionnalité présente dans les bons logiciels de portefeuille Bitcoin, qui vous donne la capacité de sélectionner manuellement les UTXOs spécifiques à utiliser en tant qu'inputs pour effectuer une transaction. En effet, pour pouvoir satisfaire un paiement en output, il faut consommer un UTXO en input en contrepartie. Pour plusieurs raisons que nous allons voir plus loin, vous avez peut-être envie de choisir précisément quelles pièces consommer en inputs pour satisfaire un paiement donné. C'est exactement ce que vous permet de faire le coin control. Pour vous donner une analogie, cette fonctionnalité est similaire à l'action de choisir une pièce spécifique dans votre porte-monnaie lorsque vous payez votre baguette. 
 
-![BTC204](assets/fr/071.webp)
+![BTC204](assets/fr/075.webp)
 
 L'utilisation d'un logiciel de portefeuille avec du coin control, couplé à l'étiquetage des UTXOs, permet aux utilisateurs à la fois de distinguer et de sélectionner avec précision les UTXOs pour leurs transactions.
 
 ### Comment bien étiqueter ses UTXOs ?
 
-Il n'y a pas de méthode universelle pour l'étiquetage des UTXOs qui puisse convenir à tous. C'est à vous de définir un système d'étiquetage pour que vous puissiez facilement vous y retrouver sur votre portefeuille. Dans tous les cas, gardez à l'esprit qu'un bon étiquetage est un étiquetage que vous pourrez comprendre lorsque vous en aurez besoin. Si votre portefeuille Bitcoin est principalement destiné à l'épargne, il se peut que les étiquettes ne vous soient utiles que dans plusieurs décennies. Assurez-vous donc qu'elles soient claires, précises et exhaustives. 
+Il n'y a pas de méthode universelle pour l'étiquetage des UTXOs qui puisse convenir à tous. C'est à vous de définir un système d'étiquetage pour que vous puissiez facilement vous y retrouver dans votre portefeuille. Dans tous les cas, gardez à l'esprit qu'un bon étiquetage est un étiquetage que vous pourrez comprendre lorsque vous en aurez besoin. Si votre portefeuille Bitcoin est principalement destiné à l'épargne, il se peut que les étiquettes ne vous soient utiles que dans plusieurs décennies. Assurez-vous donc qu'elles soient claires, précises et exhaustives. 
 
 Il est important que vos proches puissent facilement identifier l'origine des fonds si, un jour, ils doivent accéder à votre portefeuille. Cela pourra les aider tant pour des raisons de confidentialité que pour des nécessités légales, dans l'éventualité où ils auraient à justifier la provenance des fonds devant une autorité.
 
@@ -1160,19 +1161,19 @@ Le plus important dans l'étiquetage est de noter la source de l'UTXO. Vous devr
 - `Retrait Exchange.com` ;
 - `Paiement Client David` ;
 - `Achat P2P Charles` ;
-- `Change achat canapé`
+- `Change achat canapé`.
 
-![BTC204](assets/fr/072.webp)
+![BTC204](assets/fr/076.webp)
 
 Pour affiner votre gestion des UTXOs et respecter vos stratégies de ségrégation de fonds au sein de votre portefeuille, vous pourriez enrichir vos étiquetages d'un indicateur supplémentaire qui reflète ces séparations. Si votre portefeuille contient deux catégories d'UTXO que vous tenez à ne pas mélanger, vous pourriez intégrer un marqueur dans vos étiquettes pour distinguer clairement ces groupes. Ces marqueurs de séparation dépendront de vos propres critères, comme par exemple, la distinction entre des UTXOs issus d'un processus d'acquisition qui implique un KYC, ou bien entre des fonds professionnels et personnels. En reprenant les exemples d'étiquettes mentionnés précédemment, cela pourrait se traduire par :
 - `KYC - Retrait Exchange.com` ;
 - `KYC - Paiement Client David` ;
 - `NO KYC - Achat P2P Charles` ;
-- `NO KYC - Change achat canapé`
+- `NO KYC - Change achat canapé`.
 
-![BTC204](assets/fr/073.webp)
+![BTC204](assets/fr/077.webp)
 
-Il est également conseillé de perpétuer l'étiquetage d'une pièce au fil des transactions. Par exemple, lors d'une consolidation d'UTXO no-KYC, assurez-vous de marquer l'UTXO résultant non pas seulement comme `consolidation`, mais spécifiquement comme `consolidation no-KYC` pour conserver une trace claire de la provenance des pièces.
+Il est également conseillé de perpétuer l'étiquetage d'une pièce au fil des transactions. Par exemple, lors d'une consolidation d'UTXOs non-KYC, assurez-vous de marquer l'UTXO résultant non pas seulement comme `consolidation`, mais spécifiquement comme `consolidation non-KYC` pour conserver une trace claire de la provenance des pièces.
 
 Enfin, il n'est pas obligatoire de mettre une date sur une étiquette. La plupart des logiciels de portefeuilles affichent déjà la date de transaction, et il est toujours possible de retrouver cette information sur un explorateur de blocs grâce à son TXID.
 
@@ -1184,7 +1185,7 @@ Lorsque vous effectuez une transaction, le coin control vous permet de choisir s
 
 Pour illustrer le premier point, prenons un exemple concret. Supposons que vous achetiez une baguette en bitcoins chez votre boulanger. Vous utilisez un ou plusieurs UTXOs que vous détenez en inputs pour satisfaire au minimum le prix de la baguette en outputs, ainsi que les frais de transaction. Votre boulanger pourrait alors potentiellement associer votre visage, ou toute autre partie de votre identité qu'il connaît, aux pièces utilisées en inputs. En connaissant l'existence de ce lien, vous allez peut-être préférer choisir un UTXO spécifique plutôt qu'un autre lors du paiement.
 
-![BTC204](assets/fr/074.webp)
+![BTC204](assets/fr/078.webp)
 
 Par exemple, si l'un de vos UTXOs provient d'une plateforme d'échange et que vous préférez que le boulanger ignore l'existence de votre compte sur cette plateforme, vous éviterez d'utiliser cet UTXO pour le paiement. Si vous possédez un UTXO de grande valeur qui révèle une quantité importante de bitcoins, vous pourriez également choisir de ne pas l'utiliser pour éviter que le boulanger ne prenne connaissance de votre fortune en BTC.
 
@@ -1192,15 +1193,15 @@ Le choix des UTXOs à utiliser pour ce premier point repose donc sur une décisi
 
 Au-delà des informations potentiellement révélées au destinataire, le choix des inputs influence également ce que vous dévoilez à tous les observateurs de la blockchain. En effet, en utilisant plusieurs UTXOs en entrée de votre transaction, vous révélez qu'ils sont possédés par la même entité, selon l'heuristique de la CIOH (_Common Input Ownership Heuristic_).
 
-![BTC204](assets/fr/075.webp)
+![BTC204](assets/fr/079.webp)
 
 Lorsque vous sélectionnez vos pièces, vous devez donc être conscient que la transaction que vous vous apprêtez à diffuser va créer un lien entre tous les UTXOs utilisés. Ce lien peut être problématique pour votre confidentialité personnelle, surtout si les UTXOs proviennent de sources différentes.
 
-![BTC204](assets/fr/076.webp)
+![BTC204](assets/fr/080.webp)
 
 Reprenons l'exemple de mon UTXO no-KYC issu de Bisq ; je souhaite éviter de le combiner avec un UTXO provenant, disons, d'une plateforme d'échange réglementée connaissant mon identité. En effet, si jamais j'utilise ces 2 UTXOs en input d'une même transaction, la plateforme régulée sera en capacité de lier mon identité avec l'UTXO que j'ai acheté sur Bisq, alors que celui-ci n'était pas lié à mon identité auparavant.
 
-![BTC204](assets/fr/077.webp)
+![BTC204](assets/fr/081.webp)
 
 Finalement, pour bien choisir quels UTXOs consommer en inputs d'une transaction, le plus important est d'éviter d'utiliser plusieurs UTXOs. Au maximum, lorsque vous le pouvez, sélectionnez une seule pièce suffisamment grande pour satisfaire votre paiement. De cette manière, vous évitez complètement les risques liés à la CIOH. Cependant, si aucun UTXO individuel n'est suffisant pour le paiement et que vous devez en consommer plusieurs, assurez-vous qu'ils proviennent de sources similaires pour minimiser les risques de liens indésirables. Gardez également à l'esprit que le destinataire pourrait associer les informations qu'il détient sur vous avec l'historique des pièces utilisées en inputs.
 
@@ -1220,7 +1221,7 @@ Toutes ces méthodes de sélection automatique des UTXOs peuvent être efficaces
 
 Si vous souhaitez découvrir comment apposer une étiquette sur vos UTXOs, nous avons fait un tutoriel complet sur les principaux logiciels de portefeuille Bitcoin existants : 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## Le KYC et l'identification des clés
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1239,13 +1240,13 @@ Cette procédure n'est pas sans risques pour la confidentialité et la sécurit�
 
 Le premier risque associé au KYC est qu'il offre un point d'entrée privilégié pour une analyse de chaîne. Comme nous l'avons vu dans la partie précédente, les analystes peuvent regrouper et suivre les activités sur la blockchain en utilisant des patterns de transactions et des heuristiques. Une fois qu'ils ont réussi à clusteriser l'activité on-chain d'un utilisateur, il suffit de trouver un seul point d'entrée parmi toutes ses transactions et toutes ses clés pour compromettre entièrement sa confidentialité.
 
-![BTC204](assets/fr/078.webp)
+![BTC204](assets/fr/082.webp)
 
 Lorsque vous effectuez un KYC, vous fournissez un point d'entrée de très grande qualité pour une analyse de chaîne, car vous associez vos adresses de réception utilisées lors du retrait de vos bitcoins d'une plateforme d'échange à votre identité complète et vérifiée. En théorie, ces informations ne sont connues que par l'entreprise à laquelle vous les avez fournies, mais, comme nous le verrons plus loin, le risque de fuite de données est réel. De plus, le simple fait qu'une entreprise détient ces informations peut être problématique, même si elle ne les partage pas.
 
 Ainsi, si vous ne prenez pas d'autres mesures pour limiter le regroupement de vos activités sur la blockchain, toute personne ayant connaissance de ce point d'entrée qu'est le KYC peut potentiellement relier toute votre activité sur Bitcoin à votre identité. Du point de vue de cette entreprise, votre utilisation de Bitcoin perd donc toute confidentialité. 
 
-![BTC204](assets/fr/079.webp)
+![BTC204](assets/fr/083.webp)
 
 Pour illustrer cela par une comparaison, c'est comme si votre banquier de la *Banque X* avait accès non seulement à toutes vos transactions effectuées avec la *Banque X*, mais pouvait également observer vos transactions avec la *Banque Y* et toutes vos transactions en espèces.
 
@@ -1273,7 +1274,7 @@ Une autre problématique du KYC réside dans le fait qu'il nécessite la conserv
 
 Certains évènements récents nous ont rappelé que personne n’est à l’abri de défaillances, qu'elles soient financières ou informatiques. En 2022, les clients de Celsius en ont subi les conséquences. Suite à la faillite de l'entreprise, le nom des créanciers ainsi que le montant de leurs actifs ont été rendus publics par la justice américaine lors de la procédure administrative.
 
-Il y a un peu plus de deux ans, c’était un fleuron de la cybersécurité dans le domaine des cryptomonnaies qui a vu les données personnelles de ses clients dérobées. Bien que cet incident ne soit pas directement lié à l'achat de bitcoins, un tel risque demeure également pour les plateformes d'échange. Il y existe donc un risque certain lié à ces données personnelles. 
+Il y a un peu plus de deux ans, c’était un fleuron de la cybersécurité dans le domaine des cryptomonnaies qui a vu les données personnelles de ses clients dérobées. Bien que cet incident ne soit pas directement lié à l'achat de bitcoins, un tel risque demeure également pour les plateformes d'échange. Il existe donc un risque certain lié à ces données personnelles. 
 
 Il est vrai que nous confions déjà bon nombre de nos données personnelles à des entreprises privées. Cependant, le risque ici est double puisque ces données non seulement permettent de vous identifier, mais sont également liées à une activité sur Bitcoin. En effet, lorsqu'un hacker parvient à accéder aux données des clients d'une plateforme d'échange, il peut raisonnablement supposer que ces clients possèdent des bitcoins. Ce risque est donc accentué du fait que le bitcoin, comme tout autre bien de valeur, attire les convoitises de voleurs.
 
@@ -1287,7 +1288,7 @@ Il est important de déconstruire certaines idées reçues sur le KYC que l’on
 
 Tout d'abord, il est inexact de penser que protéger sa confidentialité pour des bitcoins acquis via KYC est inutile. Les outils et méthodes de confidentialité sur Bitcoin sont variés et servent des objectifs différents. L'utilisation de transactions coinjoin sur des bitcoins issus de KYC, par exemple, n'est pas une mauvaise idée. Bien sûr, il est nécessaire d'être prudent avec les plateformes d'échange régulées pour éviter le gel ou le bannissement de son compte, mais d'un point de vue strictement technique, ces pratiques ne sont pas incompatibles. Le coinjoin a pour effet de casser l'historique d'une pièce, ce qui vous aide ainsi à contrecarrer certains risques d'analyse de chaîne associés au KYC. Bien qu'il ne supprime pas tous les risques, cela représente déjà un bénéfice significatif. 
 
-![BTC204](assets/fr/080.webp)
+![BTC204](assets/fr/084.webp)
 
 La confidentialité sur Bitcoin ne doit pas être envisagée de manière binaire, comme une distinction entre des bitcoins "anonymes" et d'autres qui ne le seraient pas. Posséder des bitcoins acquis via KYC ne signifie pas que tout est perdu ; au contraire, l'utilisation d'outils de confidentialité peut s'avérer encore plus bénéfique.
 
@@ -1311,15 +1312,15 @@ Le KYC désigne spécifiquement une procédure réglementaire mise en œuvre par
 
 Par exemple, si vous achetez des bitcoins sur une plateforme régulée en Suisse, le KYC n'est pas nécessaire. Toutefois, il peut y avoir une identification de vos clés, car l'achat a été réalisé via votre compte bancaire. C'est là que les deux premiers risques associés au KYC — facilitation du traçage on-chain et exposition à la surveillance étatique — peuvent également se manifester dans un échange sans KYC. Si l'entité suisse signale des transactions suspectes aux autorités de votre pays, ces dernières peuvent simplement vérifier le compte bancaire ayant servi à l'achat pour découvrir votre identité. Ainsi, l'achat sans KYC sur des plateformes régulées se situe plutôt haut dans l'échelle de risque pour l'identification des clés.
 
-![BTC204](assets/fr/081.webp)
+![BTC204](assets/fr/085.webp)
 
 Cependant, éviter les plateformes régulées et opter pour des méthodes d'acquisition en P2P ne supprime pas totalement le risque d'identification des clés, mais le diminue simplement. Considérons l'exemple d'un achat sur Bisq ou une autre plateforme P2P. Pour régler votre contrepartie, vous utiliserez probablement votre compte bancaire. Si les autorités interrogent la personne avec laquelle vous avez échangé et lui demandent votre nom, nous retrouvons les risques 1 et 2 précédemment évoqués. Ces risques sont certes bien moindres que lors d'un achat sans KYC sur une plateforme, et encore plus réduits que lors d'un achat avec KYC, mais ils restent présents dans une moindre mesure.
 
-![BTC204](assets/fr/082.webp)
+![BTC204](assets/fr/086.webp)
 
 Enfin, même si vous acquérez vos bitcoins par un échange physique contre des espèces, vous n'êtes pas totalement anonyme. La personne avec laquelle vous avez échangé a vu votre visage, qui fait partie de votre identité. Bien que minime dans cet exemple, il existe encore une possibilité d'identification des clés.
 
-![BTC204](assets/fr/083.webp)
+![BTC204](assets/fr/087.webp)
 
 Pour conclure, lors d'un échange de bitcoins contre d'autres actifs, qu'il s'agisse d'un achat en monnaie étatique ou d'une vente contre un bien réel, il y a toujours une certaine forme d'identification des clés. Selon la méthode d'échange choisie, ce risque d'identification peut varier en intensité. Il est important de ne pas confondre cette identification avec le KYC, qui est un processus réglementaire bien défini. Cependant, il existe un lien entre le KYC et le spectre d'identification, puisque le KYC se situe à l'extrémité supérieure de ce spectre, car il facilite de manière systématique l'identification des clés de l'utilisateur par les autorités.
 
@@ -1334,11 +1335,11 @@ Après avoir lu le chapitre précédent, vous vous interrogez peut-être sur les
 
 Comme nous l'avons vu, la meilleure méthode en termes de confidentialité demeure l'échange P2P (de personne à personne) avec un règlement en cash. Cette méthode vous permet de minimiser les traces laissées et réduit considérablement la possibilité d'identification des clés, que vous soyez acheteur ou vendeur.
 
-![BTC204](assets/fr/084.webp)
+![BTC204](assets/fr/088.webp)
 
 Néanmoins, cette pratique comporte des risques pour la sécurité personnelle. Le principal danger réside dans le fait que lors de l'échange, la contrepartie saura que vous détenez une somme importante, soit en espèces, soit en bitcoins. Cette information peut attirer l'attention de personnes malintentionnées. En effet, il est généralement recommandé de rester discret sur sa possession de bitcoins. C'est un conseil qui pourrait également être appliqué pour les espèces. Toutefois, lors d'un échange en personne, il est inévitable de révéler que vous possédez des bitcoins, ce qui peut susciter des convoitises.
 
-![BTC204](assets/fr/085.webp)
+![BTC204](assets/fr/089.webp)
 
 Pour limiter ce risque, je vous conseille de privilégier les transactions en cash avec des individus de confiance, tels que des membres de votre famille ou des amis proches. Autrement, vous pourriez aussi envisager de procéder à des échanges lors [de meetups Bitcoin locaux](https://btcmap.org/communities/map), après y avoir participé plusieurs fois. Cela vous permettra de mieux connaître les autres participants et de ne pas être seul lors de l'échange physique. Cependant, il est important de reconnaître que l'échange P2P en cash comporte intrinsèquement des risques pour votre sécurité personnelle qui n'existent pas lors d'achats via une plateforme régulée et votre compte bancaire.
 
@@ -1348,60 +1349,61 @@ L'échange en espèces peut également poser des risques légaux lors de contrô
 
 Enfin, un autre inconvénient des achats en P2P est que le prix est souvent plus élevé que celui observé sur les plateformes régulées. Les vendeurs imposent souvent une majoration allant de 1 % jusqu'à parfois plus de 10 %. Plusieurs raisons expliquent cette différence de prix. D'abord, il s'agit d'une pratique courante chez les vendeurs P2P qui s'est installée au fil du temps. Ensuite, les vendeurs ont des frais associés à la transaction pour envoyer les fonds à l'acheteur. Il y a aussi un risque de vol accru lors de ventes en P2P par rapport aux transactions sur plateforme, ce qui justifie une compensation pour le risque pris. Enfin, le surcoût peut être lié à la demande et à la qualité de l'échange en termes de confidentialité. En tant qu'acheteur, le gain de confidentialité a un prix qui se reflète dans la majoration appliquée par le vendeur. Certains bitcoiners pensent également que le prix majoré du BTC acheté en P2P reflète son véritable cours, et avancent l'argument que les prix plus bas sur les plateformes régulées sont le résultat d'un compromis sur la confidentialité de vos données personnelles.
 
-![BTC204](assets/fr/086.webp)
+![BTC204](assets/fr/090.webp)
 
 ### Les échanges P2P via une plateforme de mise en relation
 
 Une alternative moins risquée en termes de sécurité personnelle consiste à effectuer des échanges P2P exclusivement en ligne, via des méthodes de paiement électronique telles que PayPal, les virements bancaires ou Revolut. 
 
-![BTC204](assets/fr/087.webp)
+![BTC204](assets/fr/091.webp)
 
 Cette approche permet d'éviter de nombreux risques associés aux transactions en espèces. Toutefois, le risque que la contrepartie ne respecte pas ses engagements lors d'un échange en ligne est plus grand. En effet, lors d'un échange physique, si vous remettez de l'argent au vendeur qui ne vous envoie pas les bitcoins en retour, vous pouvez immédiatement lui demander des comptes puisqu'il se trouve devant vous. En ligne, par contre, il est souvent impossible de retrouver une personne qui vous a volé.
 
-![BTC204](assets/fr/088.webp)
+![BTC204](assets/fr/092.webp)
 
 Pour pallier ce risque, il est possible de recourir à des plateformes spécialisées dans la mise en relation pour les échanges P2P. Ces plateformes utilisent des mécanismes de résolution des conflits pour protéger les utilisateurs lésés. Généralement, elles proposent un système de dépôt fiduciaire, où les bitcoins sont conservés jusqu'à ce que le paiement en monnaie fiat soit confirmé par le vendeur.
 
-![BTC204](assets/fr/089.webp)
+![BTC204](assets/fr/093.webp)
 
 En termes de sécurité personnelle, cette méthode d'achat est nettement plus sûre que l'échange physique en espèces. Cependant, comme évoqué précédemment, les échanges P2P en ligne laissent davantage de traces qu'un échange physique, ce qui peut être préjudiciable pour la confidentialité sur Bitcoin. En utilisant un moyen de paiement fiat en ligne comme une banque, vous exposez davantage d'informations susceptibles de faciliter l'identification des clés.
 
-![BTC204](assets/fr/090.webp)
+![BTC204](assets/fr/094.webp)
 
 Encore une fois, je vous recommande de ne pas réaliser de trop gros échanges en une seule transaction sur ces plateformes. En fractionnant vos transactions, vous répartissez les risques liés à un éventuel vol par la contrepartie.
 
-Encore une fois, un autre inconvénient des achats en P2P est que le prix est souvent plus élevé que celui observé sur les plateformes régulées. Les vendeurs imposent souvent une majoration allant de 1 % jusqu'à parfois plus de 10 %. Plusieurs raisons expliquent cette différence de prix. D'abord, il s'agit d'une pratique courante chez les vendeurs P2P qui s'est installée au fil du temps. Ensuite, les vendeurs ont des frais associés à la transaction pour envoyer les fonds à l'acheteur. Il y a aussi un risque de vol accru lors de ventes en P2P par rapport aux transactions sur plateforme, ce qui justifie une compensation pour le risque pris. Enfin, le surcoût peut être lié à la demande et à la qualité de l'échange en termes de confidentialité. En tant qu'acheteur, le gain de confidentialité a un prix qui se reflète dans la majoration appliquée par le vendeur. Certains bitcoiners pensent également que le prix majoré du BTC acheté en P2P reflète son véritable cours, et avancent l'argument que les prix plus bas sur les plateformes régulées sont le résultat d'un compromis sur la confidentialité de vos données personnelles.
+Et pour rappel, un autre inconvénient des achats en P2P est que le prix est souvent plus élevé que celui observé sur les plateformes régulées. Les vendeurs imposent souvent une majoration allant de 1 % jusqu'à parfois plus de 10 %. Plusieurs raisons expliquent cette différence de prix. D'abord, il s'agit d'une pratique courante chez les vendeurs P2P qui s'est installée au fil du temps. Ensuite, les vendeurs ont des frais associés à la transaction pour envoyer les fonds à l'acheteur. Il y a aussi un risque de vol accru lors de ventes en P2P par rapport aux transactions sur plateforme, ce qui justifie une compensation pour le risque pris. Enfin, le surcoût peut être lié à la demande et à la qualité de l'échange en termes de confidentialité. En tant qu'acheteur, le gain de confidentialité a un prix qui se reflète dans la majoration appliquée par le vendeur. Certains bitcoiners pensent également que le prix majoré du BTC acheté en P2P reflète son véritable cours, et avancent l'argument que les prix plus bas sur les plateformes régulées sont le résultat d'un compromis sur la confidentialité de vos données personnelles.
 
-![BTC204](assets/fr/086.webp)
+![BTC204](assets/fr/095.webp)
 
 Concernant les solutions, j'ai personnellement toujours utilisé [Bisq](https://bisq.network/) et j'en suis très satisfait. Leur système est rodé et semble fiable. Toutefois, Bisq n'est disponible que sur PC et son interface peut être trop complexe pour les débutants. Un autre inconvénient est que Bisq opère uniquement avec des transactions on-chain, ce qui peut devenir coûteux lors de périodes de frais de transaction élevés sur Bitcoin.
 
 -> Découvrir notre tutoriel sur Bisq.
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Pour une option plus simple, vous pouvez essayer [Peach](https://peachbitcoin.com/), une application mobile qui permet la mise en relation des acheteurs et vendeurs avec un système de résolution de conflits intégré. Le processus est plus intuitif que celui de Bisq.
 
 -> Découvrir notre tutoriel sur Peach.
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 Une autre option en ligne est [HodlHodl](https://hodlhodl.com/), une plateforme bien établie qui offre de bonnes liquidités, bien que je ne l'aie pas personnellement testée.
 
 -> Découvrir notre tutoriel sur HodlHodl.
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Pour les solutions basées sur le Lightning Network, vous pouvez essayer [RoboSats](https://learn.robosats.com/) et [LNP2PBot](https://lnp2pbot.com/). RoboSats est accessible via un site web et est relativement simple à utiliser. LNP2PBot est plus atypique, car il fonctionne via un système d'échange sur l'application de messagerie Telegram.
 
 -> Découvrir notre tutoriel sur RoboSats.
+
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
 -> Découvrir notre tutoriel sur LNP2PBot.
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
-
-![BTC204](assets/fr/091.webp)
+![BTC204](assets/fr/096.webp)
 
 ### Les plateformes régulées sans KYC
 
@@ -1409,7 +1411,7 @@ Selon le pays où vous vivez, vous pourriez avoir accès à des plateformes rég
 
 -> Découvrir notre tutoriel sur Relai.
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Comme nous avons vu dans le chapitre précédent, ce type de plateforme vous épargne les risques associés aux procédures KYC, mais elles présentent un niveau de risque plus élevé pour l'identification des clés. En termes de confidentialité sur Bitcoin, ces plateformes offrent donc une meilleure protection que les méthodes d'achat avec KYC, mais elles restent moins intéressantes que les échanges en P2P.
 
@@ -1419,7 +1421,7 @@ Cependant, en termes de sécurité personnelle, l'utilisation de ces plateformes
 
 Une autre option pour acheter ou vendre des bitcoins sans KYC sont les guichets automatiques de cryptomonnaies (ATM). Personnellement, je n'ai jamais eu l'occasion de tester cette solution, car il n'y en a pas dans mon pays. Mais cette méthode peut s'avérer très intéressante en fonction de là où vous habitez.
 
-![BTC204](assets/fr/092.webp)
+![BTC204](assets/fr/097.webp)
 
 Le problème des ATM, c'est qu'ils sont interdits dans certains pays, ou bien très réglementés dans d'autres. Si une ATM exige une procédure de vérification d'identité, il est alors exposé aux mêmes risques que ceux inhérents aux plateformes régulées KYC. Par contre, si l'ATM permet des transactions sans vérification d'identité pour de petits montants, alors son utilisation peut offrir un niveau de confidentialité comparable à celui d'un échange P2P en espèces, tout en évitant la majorité des risques associés à ce type d'échange.
 
@@ -1433,9 +1435,9 @@ La meilleure façon de dépenser des BTC est évidemment d'utiliser directement 
 
 Plusieurs plateformes qui ne demandent pas de procédure KYC offrent la possibilité d'échanger des bitcoins contre des cartes-cadeaux utilisables dans de grandes enseignes. Parmi ces plateformes, on trouve [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) et [Bitrefill](https://www.bitrefill.com/). Ces plateformes facilitent grandement l'usage quotidien de vos bitcoins en vous permettant d'accéder à une large gamme de produits et de services sans avoir à passer par une conversion en monnaie fiat.
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-![BTC204](assets/fr/093.webp)
+![BTC204](assets/fr/098.webp)
 
 ### Les autres méthodes d'acquisition
 
@@ -1443,7 +1445,7 @@ Parmi les autres méthodes pour acquérir des bitcoins tout en protégeant votre
 
 Une autre méthode consiste à travailler en échange de bitcoins. Cette méthode d'acquisition peut être intéressante, mais le degré d'identification requis varie considérablement selon les circonstances.
 
-*Pour rédiger ce chapitre, je me suis servi de la formation BTC205 réalisée par [@pivi___](https://x.com/pivi___) sur Plan ₿ Network (disponible uniquement en français pour le moment).*
+*Pour rédiger ce chapitre, je me suis servi de la formation BTC205 réalisée par [@pivi___](https://x.com/pivi___) sur Plan ₿ Academy (disponible uniquement en français pour le moment).*
 
 
 
@@ -1464,7 +1466,7 @@ En effet, toutes les transactions Bitcoin ne font pas le même poids. Celles qui
 - La transaction A comprend 1 input et 1 output. Elle alloue 1 994 sats de frais et son poids est de 141 vB ;
 - La transaction B, plus complexe, avec 2 inputs et 2 outputs, alloue 2 640 sats de frais pour un poids de 220 vB.
 
-![BTC204](assets/fr/094.webp)
+![BTC204](assets/fr/099.webp)
 
 Dans cet exemple, bien que la transaction B propose un total de frais plus élevé, les mineurs privilégieront la transaction A, car elle offre un meilleur ratio frais / poids. Voici le calcul pour chaque transaction, exprimé en sats par octet virtuel (sat/vB) :
 
@@ -1476,13 +1478,13 @@ TXB : 2640 / 220 = 12 sats / vB
 
 Cela veut dire que pour chaque unité de poids, la transaction A offre plus de frais que la transaction B, alors même que cette dernière offre plus de frais en valeur absolue.
 
-![BTC204](assets/fr/095.webp)
+![BTC204](assets/fr/100.webp)
 
 Il est donc toujours plus intéressant pour l'utilisateur de consommer le moins d'inputs possible dans ses transactions. Mais il faut toutefois consommer des montants suffisants pour pouvoir satisfaire le paiement en output. Dans la gestion de son portefeuille, il faut donc avoir des UTXOs suffisamment gros.
 
-Le principe de la consolidation est justement de profiter des périodes où les frais sont bas sur Bitcoin pour fusionner ses petits en UTXOs en un seul plus gros. Ainsi, lorsque les frais augmenteront sur Bitcoin, on pourra faire des transactions avec un minimum d'inputs, et donc dépenser moins de frais en valeur absolue. Le but est donc de prévoir les transactions obligatoires à réaliser durant les périodes de frais élevés.
+Le principe de la consolidation est justement de profiter des périodes où les frais sont bas sur Bitcoin pour fusionner ses petits UTXOs en un seul plus gros. Ainsi, lorsque les frais augmenteront sur Bitcoin, on pourra faire des transactions avec un minimum d'inputs, et donc dépenser moins de frais en valeur absolue. Le but est donc de prévoir les transactions obligatoires à réaliser durant les périodes de frais élevés.
 
-![BTC204](assets/fr/096.webp)
+![BTC204](assets/fr/101.webp)
 
 En plus des économies réalisées sur les frais de transaction, la consolidation des UTXOs aide à éviter la formation de "poussière". La poussière, ou "dust" en anglais, désigne les UTXOs dont la valeur en sats est si faible qu'elle ne suffit pas à couvrir les frais de transaction nécessaires pour les dépenser. Cela rend ces UTXOs économiquement irrationnels à utiliser tant que les frais de transaction restent élevés. En regroupant vos UTXOs de manière proactive, vous prévenez leur transformation en poussière, ce qui assure que tous vos fonds restent utilisables.
 
@@ -1512,11 +1514,11 @@ Dans cet exemple, il serait donc judicieux de conserver une valeur minimale de 9
 
 Une des heuristiques les plus utilisées en analyse de chaîne est la CIOH (*Common Input Ownership Heuristic*), qui permet d'émettre l'hypothèse que tous les inputs d'une transaction Bitcoin appartiennent à une même entité. Justement, le principe même de la consolidation est de consommer plusieurs UTXOs en inputs et de créer un seul UTXO en output. La consolidation permet donc d'appliquer la CIOH.
 
-![BTC204](assets/fr/097.webp)
+![BTC204](assets/fr/102.webp)
 
 En pratique, cela signifie qu'un observateur extérieur peut déduire que tous les UTXOs consolidés appartiennent vraisemblablement à la même personne et que le seul output généré lui appartient également. Cette situation peut porter atteinte à votre confidentialité en associant différents historiques de transactions. Par exemple, imaginons que je consolide 3 UTXOs acquis en P2P avec un UTXO obtenu via une plateforme qui requiert un KYC :
 
-![BTC204](assets/fr/098.webp)
+![BTC204](assets/fr/103.webp)
 
 En agissant ainsi, toute entité ayant accès aux données de la plateforme d'échange, y compris potentiellement des agences gouvernementales, pourra identifier que je possède d'autres sommes en BTC. Auparavant, ces UTXOs n'étaient pas directement liés à mon identité ; maintenant, ils le sont. De plus, cela révèle à toutes les sources que je suis en possession d'une certaine somme de bitcoins.
 
@@ -1547,11 +1549,11 @@ Posséder ses bitcoins en self-custody, c'est bien, mais utiliser son propre nœ
 
 En plus de ces bénéfices, l'utilisation d'un nœud complet améliore aussi votre confidentialité lors de la diffusion de vos transactions. Lorsque vous émettez une transaction, celle-ci est d'abord créée et signée via votre portefeuille. Pour la diffuser sur le réseau Bitcoin, elle doit être connue par au moins un nœud. En utilisant votre propre nœud, vous contrôlez directement cette diffusion, ce qui renforce ainsi votre confidentialité et limitant les risques de fuite de données.
 
-![BTC204](assets/fr/099.webp)
+![BTC204](assets/fr/104.webp)
 
 Si vous ne disposez pas de votre propre nœud Bitcoin, vous serez contraint d'utiliser celui d'un tiers, comme par exemple celui proposé par le fournisseur de votre logiciel de portefeuille. En plus de la diffusion des transactions, votre portefeuille nécessite l'accès à diverses informations telles que les transactions en attente, les soldes associés à vos adresses ou encore le nombre de confirmations pour vos transactions. Pour accéder à toutes ces données, vous devez interroger un nœud.
 
-![BTC204](assets/fr/100.webp)
+![BTC204](assets/fr/105.webp)
 
 Le principal risque lorsque vous n'utilisez pas votre propre nœud Bitcoin est que l'opérateur du nœud tiers puisse observer vos activités sur la blockchain, voire partager ces informations avec d'autres entités. Pour limiter ce risque, une solution intermédiaire consiste à utiliser un logiciel de portefeuille permettant de masquer vos connexions via Tor. Cela peut réduire l'exposition de vos données. Toutefois, la solution optimale reste d'avoir votre propre nœud Bitcoin et de l'utiliser pour la diffusion de vos transactions. Évidemment, il faudra également veiller à ne pas faire fuiter d'informations au niveau de votre nœud, mais c'est un autre sujet que nous étudierons dans les parties suivantes.
 
@@ -1567,13 +1569,13 @@ Le premier conseil que je pourrais donner est de vous fondre dans la foule la pl
 
 De manière générale, il est plus prudent de se tourner vers le standard de script le plus récent, à condition qu'il soit suffisamment adopté. Ainsi, si en 2022, je vous aurais déconseillé d'utiliser du P2TR (Taproot) du fait de sa faible adoption, en 2024, je vous recommanderais plutôt d'opter pour ce type de script, ou à défaut, pour du script SegWit V0, car le nombre de transactions utilisant P2TR commence à représenter une part très importante.
 
-![BTC204](assets/fr/101.webp)
+![BTC204](assets/fr/106.webp)
 
 Source : [txstats.com](https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
 
 Un autre conseil pour préserver votre confidentialité est d'essayer de contourner les heuristiques internes aux transactions. Par exemple, lors d'un paiement, vous pouvez essayer d'éviter de créer un output avec un montant rond, car cela pourrait signaler que l'autre output représente le change. Si vous devez envoyer 100 k sats à un ami, envisagez de lui transférer un montant légèrement supérieur pour échapper à cette heuristique. De même, essayez de ne pas créer des outputs de change disproportionnément élevés par rapport au paiement effectué, ce qui pourrait aussi révéler lequel des outputs représente le change.
 
-![BTC204](assets/fr/102.webp)
+![BTC204](assets/fr/107.webp)
 
 Enfin, si vous effectuez des transactions Bitcoin de manière régulière, veillez à ne pas les diffuser toujours aux mêmes heures. En répartissant la diffusion de vos transactions tout au long de la journée et de la semaine, vous évitez de donner aux observateurs externes la possibilité de déceler un modèle temporel basé sur les fuseaux horaires qui pourrait renforcer leur analyse.
 
@@ -1597,7 +1599,7 @@ Le coinjoin est une technique qui permet de casser le traçage des bitcoins sur 
 
 Comme nous l'avons vu dans les premières parties de cette formation, les transactions sur Bitcoin sont connues de tous les utilisateurs via leur nœud. Il est donc facile de vérifier la chaîne de signature électronique de chaque pièce et d'observer son historique. Cela signifie que tous les utilisateurs peuvent tenter d'analyser les transactions d'autres utilisateurs. En conséquence, l'anonymat au niveau des transactions est impossible. Cependant, l'anonymat est préservé au niveau de l'identification des individus. Contrairement au système bancaire classique où chaque compte est lié à une identité personnelle, sur Bitcoin, les fonds sont associés à des paires de clés cryptographiques (ou des scripts), ce qui offre ainsi aux utilisateurs une forme de pseudonymat derrière des identifiants cryptographiques.
 
-![BTC204](assets/fr/103.webp)
+![BTC204](assets/fr/108.webp)
 
 Ainsi, la confidentialité sur Bitcoin est mise à mal lorsque des observateurs extérieurs parviennent à associer des UTXOs spécifiques à des utilisateurs identifiés. Une fois cette association établie, il devient possible de tracer leurs transactions et d'analyser l'historique de leurs bitcoins. Le coinjoin est justement une technique développée pour casser la traçabilité des UTXOs, afin d'offrir une certaine couche de confidentialité aux utilisateurs de Bitcoin au niveau des transactions.
 
@@ -1605,35 +1607,35 @@ Les coinjoins renforcent la confidentialité des utilisateurs de Bitcoin en comp
 
 Il est important de comprendre que l'objectif d'une transaction coinjoin est de rompre l'historique d'une pièce. Cette technique ne confère pas un anonymat permanent ni ne bloque définitivement le traçage des bitcoins, contrairement à ce que l'on peut penser. Le coinjoin vise uniquement à casser l'historique au point où la transaction coinjoin est effectuée. Toutefois, avant et après cette opération, la pièce reste soumise aux mêmes risques en termes de confidentialité.
 
-![BTC204](assets/fr/104.webp)
+![BTC204](assets/fr/109.webp)
 
 ### Comment fonctionnent les coinjoins ?
 
 Le principe du coinjoin repose sur une approche collaborative : plusieurs utilisateurs qui souhaitent mélanger leurs bitcoins déposent des montants identiques en inputs d'une même transaction. Ces montants sont ensuite redistribués en outputs de valeurs égales à chaque utilisateur.
 
-![BTC204](assets/fr/105.webp)
+![BTC204](assets/fr/110.webp)
 
 À l'issue de la transaction, il devient impossible d'associer un output spécifique à un utilisateur connu en entrée. Aucun lien direct n'existe entre les entrées et les sorties, ce qui vient rompre l'association entre les utilisateurs et leurs UTXOs, de même que l'historique de chaque pièce.
 
-![BTC204](assets/fr/106.webp)
+![BTC204](assets/fr/111.webp)
 
 Prenons l'exemple d'Alice. Elle veut envoyer environ 100 000 sats à sa sœur Eve pour son anniversaire. Toutefois, Alice ne souhaite pas qu'Eve puisse remonter l'historique de ses transactions, car elle ne veut pas révéler combien de bitcoins elle détient ni comment elle les a obtenus. Pour cela, Alice décide de casser l'historique de son UTXO avec une transaction coinjoin. Elle s'organise avec Bob, Charles, David et Frank pour réaliser une transaction collaborative :
 
 - Alice, Bob, Charles, David et Frank engagent chacun un UTXO de 105 000 sats (avec 5 000 sats pour les frais de minage) comme inputs de la transaction :
 
-![BTC204](assets/fr/107.webp)
+![BTC204](assets/fr/112.webp)
 
 - En contrepartie de la consommation de ces inputs, chacun génère une adresse vierge pour créer cinq outputs identiques de 100 000 sats chacun. Chacun récupère un output :
 
-![BTC204](assets/fr/108.webp)
+![BTC204](assets/fr/113.webp)
 
 - Alice se retrouve avec un UTXO de 100 000 sats dont l'historique est mélangé. Elle utilise cet UTXO dans une nouvelle transaction pour envoyer le montant à Eve pour son anniversaire :
 
-![BTC204](assets/fr/109.webp)
+![BTC204](assets/fr/114.webp)
 
 - Si Eve tente d'analyser cette transaction pour extraire des informations, elle sera confrontée à la transaction coinjoin impliquant Alice, Bob, Charles, David et Frank. Ne pouvant distinguer quel input appartient à qui en raison de l'uniformité des montants, Eve ne peut pas remonter l'historique de l'UTXO d'Alice, ni déterminer combien de bitcoins sa sœur possède ou comment elle les a acquis :
 
-![BTC204](assets/fr/110.webp)
+![BTC204](assets/fr/115.webp)
 
 Dans ce cas de figure, Alice a utilisé la technique du coinjoin pour augmenter sa confidentialité vis-à-vis d'une analyse rétrospective. En effet, Alice se prémunit contre une éventuelle analyse par Eve qui partirait d'une transaction spécifique pour remonter l'historique de l'UTXO en arrière. Cette protection contre l'analyse du présent vers le passé est ce que l'on nomme l'anonset rétrospectif. Nous approfondirons ce concept plus en détail dans les derniers chapitres de cette partie.
 
@@ -1641,19 +1643,19 @@ Toutefois, le coinjoin offre également la possibilité de renforcer la confiden
 
 - Eve, Grace, Mallory, Oscar et Victor mettent chacun un UTXO de 98 000 sats en inputs d'une transaction Bitcoin :
 
-![BTC204](assets/fr/111.webp)
+![BTC204](assets/fr/116.webp)
 
 - En contrepartie de la consommation de ces inputs, chacun fournit une adresse vierge à utiliser pour créer 5 outputs de 97 500 sats parfaitement égaux. Chaque utilisateur récupère un output :
 
-![BTC204](assets/fr/112.webp)
+![BTC204](assets/fr/117.webp)
 
 - Eve détient désormais un UTXO de 97 500 sats dont l'historique est rompu. Elle pourra l'utiliser sans crainte pour réaliser de futures transactions. En effet, si Alice tente de suivre les bitcoins qu'elle a envoyés à Eve, elle sera confrontée à une transaction coinjoin. Elle sera incapable de déterminer quel UTXO en sortie appartient à Eve. L'analyse devient alors impossible :
 
-![BTC204](assets/fr/113.webp)
+![BTC204](assets/fr/118.webp)
 
 Dans le premier exemple, nous avons vu comment le coinjoin peut protéger la confidentialité d'une pièce par rapport à son passé, et dans le second exemple, comment il peut également sécuriser l'historique d'une pièce par rapport à son futur. C'est pourquoi j'ai mentionné que le coinjoin devrait être perçu comme un événement ponctuel qui segmente un historique de pièce dans les deux directions :
 
-![BTC204](assets/fr/104.webp)
+![BTC204](assets/fr/119.webp)
 
 ### Mixage, coinjoins, mélangeurs... Quelle est la différence ?
 
@@ -1661,13 +1663,13 @@ On parle parfois de "mixage" pour décrire les coinjoins, terme que certains bit
 
 Dans le domaine général des mathématiques, le mixage se réfère à la propriété d’un système dynamique où, après un certain temps, toutes les portions de l’espace initial peuvent en théorie se retrouver mêlées avec n’importe quelle autre portion. Le mixage implique que la position d’une particule ou l’état d’un système évolue de telle manière que sa distribution future soit indépendante de sa distribution initiale, atteignant ainsi un état où les caractéristiques de l’état initial sont uniformément distribuées dans tout l’espace du système. C'est exactement ce qui se produit dans un coinjoin avec des bitcoins. Ainsi, selon moi, le coinjoin est véritablement une méthode de mixage de pièces.
 
-![BTC204](assets/fr/114.webp)
+![BTC204](assets/fr/120.webp)
 
 En revanche, il est important de distinguer le coinjoin des mélangeurs. Un mélangeur est un service où les utilisateurs envoient leurs bitcoins pour être mélangés. Ces services étaient populaires durant les années 2010, mais leur usage a décliné en raison de deux inconvénients majeurs par rapport au coinjoin :
 - Ils requièrent que l'utilisateur cède la garde de ses fonds durant le processus de mélange, ce qui expose à des risques de vol ;
 - Il n'existe aucune assurance que le mélangeur n'enregistre pas les détails des transactions, voire ne vende pas ces informations à des entreprises d'analyse de chaîne.
 
-![BTC204](assets/fr/115.webp)
+![BTC204](assets/fr/121.webp)
 
 De nos jours, les utilisateurs préfèrent donc le coinjoin, car il permet de garder le contrôle total sur ses fonds tout au long du processus. Les participants au coinjoin ne risquent pas de se faire voler leurs bitcoins par les autres parties impliquées. Étudions ensemble comment tout cela est possible dans le chapitre suivant.
 
@@ -1680,9 +1682,9 @@ La confidentialité apportée par un coinjoin se gagne sur la grandeur du groupe
 
 C'est pour cette raison que se sont développés sur Bitcoin des coordinateurs de coinjoin. Leur rôle est de mettre en relation les différents utilisateurs et de transmettre les informations permettant la bonne réalisation de la transaction collaborative.
 
-![BTC204](assets/fr/116.webp)
+![BTC204](assets/fr/122.webp)
 
-Mais comment faire pour que le coordinateur n'ait à aucun moment la main sur les bitcoins des utilisateurs, et malgré le fait qu'il soit la personne qui construit la transaction coinjoin, comment faire pour qu'il ne puisse pas lier les inputs et les outputs des utilisateurs, ce qui pourrait constituer une fuite de confidentialité ?
+Mais comment faire pour que le coordinateur n'ait à aucun moment la main sur les bitcoins des utilisateurs, et malgré le fait qu'il soit la personne qui construit la transaction coinjoin, comment faire pour qu'il ne puisse pas lier les inputs et les outputs des utilisateurs, ce qui pourrait constituer une fuite de confidentialité.
 
 ### Les signatures aveugles de Chaum
 
@@ -1690,7 +1692,7 @@ Les implémentations modernes de coinjoin utilisent les signatures aveugles de D
 
 Les signatures aveugles de Chaum sont une forme de signature numérique où l'émetteur d'une signature ne connaît pas le contenu du message qu'il signe. Mais la signature peut ensuite être vérifiée avec le message original. Cette technique a été développée par le cryptographe David Chaum en 1983.
 
-![BTC204](assets/fr/117.webp)
+![BTC204](assets/fr/123.webp)
 
 Prenons l'exemple d'une entreprise désirant faire authentifier un document confidentiel, comme un contrat, sans en révéler le contenu. L'entreprise applique un processus de masquage qui transforme cryptographiquement le document original de manière réversible. Ce document modifié est envoyé à une autorité de certification qui appose une signature aveugle sans connaître le contenu sous-jacent. Après avoir reçu le document signé, l'entreprise démasque la signature. Le résultat est un document original authentifié par la signature de l'autorité, sans que cette dernière ait jamais vu le contenu original.
 
@@ -1705,29 +1707,29 @@ Le processus de construction de la transaction coinjoin s'articule autour de 3 g
 **Étape 1 : L'inscription des inputs.**
 - Alice transmet au coordinateur l'UTXO qu'elle souhaite utiliser en input de la transaction, ainsi que l'adresse de réception masquée qu'elle souhaite utiliser en output pour recevoir ses bitcoins. Le coordinateur ne peut donc pas connaître l'adresse d'Alice. Il voit uniquement sa version masquée :
 
-![BTC204](assets/fr/118.webp)
+![BTC204](assets/fr/124.webp)
 
 - Le coordinateur vérifie la validité des inputs, puis il signe l'adresse masquée d'Alice avec sa clé privée. Il renvoie à Alice la signature aveugle :
 
-![BTC204](assets/fr/119.webp)
+![BTC204](assets/fr/125.webp)
 
 **Étape 2 : L'inscription des outputs.**
 - Alice peut démasquer son adresse maintenant signée par la clé privée du coordinateur. Elle va établir une nouvelle connexion sous une identité Tor différente. Le coordinateur ne peut pas identifier que c'est Alice qui se connecte derrière cette nouvelle identité :
 
-![BTC204](assets/fr/120.webp)
+![BTC204](assets/fr/126.webp)
 
 - Alice envoie l'adresse et la signature démasquées au coordinateur (qui ne sait toujours pas que c'est Alice) :
 
-![BTC204](assets/fr/121.webp)
+![BTC204](assets/fr/127.webp)
 
 **Étape 3 : La signature de la transaction.**
 - Le coordinateur récupère de la même manière les outputs démasqués de tous les participants. Grâce aux signatures associées, il peut vérifier que chaque output soumis anonymement a bien été signé par sa clé privée auparavant, ce qui garantit leur légitimité. Il est alors prêt à construire la transaction coinjoin et la transmet aux participants pour qu'ils la signent :
 
-![BTC204](assets/fr/122.webp)
+![BTC204](assets/fr/128.webp)
 
 - Alice, tout comme les autres participants, vérifie que son input et son output sont correctement inclus dans la transaction construite par le coordinateur. Si tout lui convient, elle envoie la signature qui permet de déverrouiller le script de son input au coordinateur :
 
-![BTC204](assets/fr/123.webp)
+![BTC204](assets/fr/129.webp)
 
 - Après avoir collecté les signatures de tous les participants du coinjoin, le coordinateur peut diffuser la transaction sur le réseau Bitcoin, afin qu'elle soit ajoutée dans un bloc.
 
@@ -1743,35 +1745,35 @@ Ce sont précisément ces 2 aspects public et privé, permis par l'utilisation d
 
 Il est difficile de déterminer avec certitude qui a introduit en premier l'idée du coinjoin sur Bitcoin, et qui a eu l'idée d'utiliser les signatures aveugles de David Chaum dans ce contexte. On pense souvent que c'est Gregory Maxwell qui en a parlé en premier dans [un message sur BitcoinTalk en 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
-> *"En utilisant les signatures aveugles de Chaum : Les utilisateurs se connectent et fournissent des inputs (et des adresses de change) ainsi qu'une version cryptographiquement aveuglée de l'adresse vers laquelle ils souhaitent envoyer leurs pièces privées ; le serveur signe les jetons et les leur renvoie. Les utilisateurs se reconnectent anonymement, démasquent leurs adresses de sortie et les renvoient au serveur. Le serveur peut voir que toutes les sorties ont été signées par lui et que, par conséquent, toutes les sorties proviennent de participants valides. Plus tard, les personnes se reconnectent et signent."*
+> *En utilisant les signatures aveugles de Chaum : Les utilisateurs se connectent et fournissent des inputs (et des adresses de change) ainsi qu'une version cryptographiquement aveuglée de l'adresse vers laquelle ils souhaitent envoyer leurs pièces privées ; le serveur signe les jetons et les leur renvoie. Les utilisateurs se reconnectent anonymement, démasquent leurs adresses de sortie et les renvoient au serveur. Le serveur peut voir que toutes les sorties ont été signées par lui et que, par conséquent, toutes les sorties proviennent de participants valides. Plus tard, les personnes se reconnectent et signent.*
 
 Maxwell, G. (2013, 22 août). *CoinJoin: Bitcoin privacy for the real world*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
-![BTC204](assets/fr/124.webp)
+![BTC204](assets/fr/130.webp)
 
 Toutefois, il existe d'autres mentions antérieures, à la fois pour les signatures de Chaum dans le cadre du mixage, mais également pour les coinjoins. [En juin 2011, Duncan Townsend présente sur BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) un mélangeur qui utilise les signatures de Chaum d'une manière assez similaire aux coinjoins chaumiens modernes.
 
 Dans le même thread, on peut retrouver [un message de hashcoin en réponse à Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) pour améliorer son mélangeur. Le processus décrit dans ce message représente justement ce qui ressemble le plus aux coinjoins. On retrouve également la mention d'un système similaire dans [un message d'Alex Mizrahi en 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), alors qu'il conseillait les créateurs de Tenebrix, un des premiers altcoins qui a servi de base pour créer Litecoin par la suite. Même le terme en lui-même de "coinjoin" n'aurait pas été inventé par Greg Maxwell, mais il viendrait d'une idée de Peter Todd.
 
-![BTC204](assets/fr/125.webp)
+![BTC204](assets/fr/131.webp)
 
 ### Zerolink
 
 Zerolink est un protocole de mixage complet qui intègre des coinjoins chaumiens et diverses stratégies pour protéger l'anonymat des utilisateurs contre plusieurs formes d'analyses on-chain, en minimisant notamment les erreurs liées à la gestion des portefeuilles. Ce protocole [a été introduit par nopara73 et TDevD en 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
-![BTC204](assets/fr/126.webp)
+![BTC204](assets/fr/132.webp)
 
 Comme son nom l'indique, le principe de Zerolink est de réaliser des transactions coinjoin qui assurent l'impossibilité de faire le lien entre les inputs et les outputs. Cette caractéristique est obtenue en s'assurant que tous les outputs présentent des montants parfaitement identiques.
 
-![BTC204](assets/fr/127.webp)
+![BTC204](assets/fr/133.webp)
 
 Une mesure préventive importante de Zerolink consiste à séparer totalement les UTXOs non mixés des UTXOs mixés en utilisant des ensembles de clés cryptographiques distincts, voire des portefeuilles séparés. On différencie ainsi le portefeuille de "*pre-mix*", destiné aux pièces avant mixage, du portefeuille de "*post-mix*", réservé aux pièces ayant été mixées.
 
-![BTC204](assets/fr/128.webp)
+![BTC204](assets/fr/134.webp)
 
 Cette séparation rigoureuse des UTXOs sert avant tout à prévenir les associations accidentelles entre un UTXO mixé et un UTXO non mixé. En effet, si de tels liens se produisent, l'efficacité du coinjoin sur l'UTXO mixé est annulée sans que l'utilisateur en soit conscient, compromettant ainsi la confidentialité d'un UTXO dont il croyait avoir rompu l'historique. Ces liens peuvent survenir soit par réutilisation d'adresse sur la sécurisation d'un UTXO mixé avec un non mixé, soit par application de la CIOH (_Common-Input-Ownership Heuristic_), si l'utilisateur consomme en inputs d'une même transaction des UTXOs mixés et non mixés. En séparant les portefeuilles de pré-mixage et de post-mixage, on évite ces associations accidentelles et on protège l'utilisateur contre des erreurs involontaires.
 
-![BTC204](assets/fr/129.webp)
+![BTC204](assets/fr/135.webp)
 
 Cette séparation offre également la possibilité d'appliquer des règles distinctes entre les portefeuilles de pré-mixage et de post-mixage au niveau du logiciel de portefeuille. Par exemple, dans le portefeuille de post-mixage, le logiciel peut interdire la fusion d'UTXOs en inputs pour empêcher l'application de la CIOH qui compromettrait l'anonset de l'utilisateur. Il est aussi possible d'uniformiser l'utilisation des scripts et des options de transaction (comme le signalement de RBF par exemple) pour prévenir l'identification par des empreintes de portefeuille. 
 
@@ -1782,12 +1784,14 @@ Actuellement, Whirlpool est la seule implémentation de coinjoin qui applique de
 
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
-*En 2024, nous assistons à d'importants changements dans les outils disponibles pour les utilisateurs désirant réaliser des coinjoins sur Bitcoin. Nous sommes actuellement dans une période charnière, et le marché des coinjoins est en pleine restructuration. Ce chapitre sera donc sûrement mis à jour au fil du temps.*
-
 Pour le moment il existe principalement 3 implémentations de coinjoin différentes sur Bitcoin :
 - Whirlpool ;
 - Wabisabi ;
 - JoinMarket.
+
+En plus de ces trois implémentations historiques, une nouvelle a récemment vu le jour : Joinstr. Je ne vais pas l’aborder dans ce chapitre, mais vous pouvez retrouver toutes les informations la concernant dans ce tutoriel dédié :
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Chacune de ces implémentations a pour objectif de rompre l'historique des UTXOs via des transactions coinjoins. Cependant, leurs mécanismes varient considérablement. Il est donc essentiel de comprendre le fonctionnement de chacune pour choisir l'option la plus adaptée à vos besoins.
 
@@ -1795,13 +1799,13 @@ Chacune de ces implémentations a pour objectif de rompre l'historique des UTXOs
 
 JoinMarket, créé en 2015 par Adam Gibson et Chris Belcher, se distingue nettement des autres implémentations de coinjoin grâce à son modèle unique de mise en relation des utilisateurs. Ce système repose sur un marché d'échange P2P où certains utilisateurs, les "makers", mettente à disposition leurs bitcoins pour le mixage, tandis que d'autres, les "takers", utilisent ces liquidités pour réaliser des coinjoins moyennant rémunération.
 
-![BTC204](assets/fr/130.webp)
+![BTC204](assets/fr/136.webp)
 
 Dans ce modèle, les "makers" laissent leurs bitcoins à disposition des "takers" et reçoivent des frais en contrepartie de leur service. Les "takers", quant à eux, paient pour utiliser les bitcoins des "makers" afin de réaliser leurs propres transactions coinjoin. Les frais de service varient en fonction du rôle occupé : les "makers" accumulent des frais pour leur offre de liquidités, tandis que les "takers" paient les frais. Ce marché fonctionne librement sans conditions d'utilisation.
 
 L'un des principaux inconvénients de JoinMarket est sa complexité d'utilisation, qui nécessite une certaine aisance avec les terminaux pour l'exploiter efficacement. Bien que cette complexité ne soit pas un obstacle pour un utilisateur expérimenté, elle peut limiter l'accès au grand public. Notons tout de même que la récente introduction d'une interface web nommée JAM a quelque peu facilité son utilisation.
 
-![BTC204](assets/fr/131.webp)
+![BTC204](assets/fr/137.webp)
 
 Source : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
@@ -1811,27 +1815,29 @@ JoinMarket, malgré son modèle innovant de mise en relation P2P pour les coinjo
 
 Finalement, bien que le concept de JoinMarket soit intéressant, surtout pour ceux intéressés par un marché de liquidités dynamique, ses faiblesses structurelles et sa complexité technique le rendent selon moi moins intéressant, tant pour les novices que pour les experts en quête d'une implémentation de coinjoin.
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 Wabisabi est une autre implémentation de coinjoin, avec une approche qui centralise la coordination des transactions. Ce modèle a été conçu Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero, et István András Seres en 2021, et a été intégré dans le logiciel Wasabi 2.0 l'année suivante. Wabisabi est justement une évolution du modèle de coinjoin du logiciel Wasabi lancé en 2018.
 
-![BTC204](assets/fr/132.webp)
+![BTC204](assets/fr/138.webp)
 
 Vers la fin de la décennie 2010, Wasabi adoptait pour ses coinjoins une structure de transaction radicalement différente de celle de Whirlpool. Pour augmenter les anonsets de ses participants, Wasabi utilisait de très grandes transactions coinjoin regroupant des dizaines de participants. En opposition, Whirlpool optait pour de multiples petites transactions, permettant d'accroître les anonsets de manière exponentielle à chaque cycle.
 
 Les méthodes de gestion du change distinguaient également les deux implémentations. Avec Whirlpool, le change était exclu et isolé des UTXOs avant les cycles de coinjoins grâce à la TX0, un concept que j'expliquerai davantage dans le prochain chapitre. Chez Wasabi, en revanche, le change formait un des outputs de la transaction coinjoin, ce qui maintenait des liens déterministes entre certains inputs et outputs.
 
-![BTC204](assets/fr/133.webp)
+![BTC204](assets/fr/139.webp)
 
 Avec Wabisabi, la version 2.0 a adapté son approche des coinjoins pour se rapprocher de celle de Whirlpool. Bien que les transactions coinjoins demeurent de très grande taille, il est désormais possible d'enchaîner plusieurs cycles successifs, suivant ainsi le modèle de Whirlpool. Un effort particulier a aussi été porté sur la gestion du change : contrairement à Wasabi 1.0, où le change était directement lié aux inputs des utilisateurs, Wabisabi cherche à subdiviser le change en plusieurs petites sommes, réparties en dénominations égales pour tous les participants.
 
 Illustrons cela par un exemple simplifié impliquant 2 utilisateurs seulement : Alice souhaite mixer 115 000 sats et Bob, 210 000 sats. En négligeant les frais, avec Wasabi 1.0, une transaction coinjoin aurait généré 3 outputs de 100 000 sats, plus 1 change de 15 000 sats pour Alice et 1 change de 10 000 sats pour Bob. Les outputs de change seraient toujours liés aux inputs :
 
-![BTC204](assets/fr/134.webp)
+![BTC204](assets/fr/140.webp)
 
 Sous Wabisabi, la même transaction aurait produit 3 outputs de 100 000 sats et 5 outputs de 5 000 sats, dispersant ainsi le change de manière à ce qu'il ne soit pas directement rattachable à un input spécifique :
 
-![BTC204](assets/fr/135.webp)
+![BTC204](assets/fr/141.webp)
 
 Personnellement, je trouve que la gestion du change dans Wabisabi présente plusieurs risques qui pourraient compromettre son efficacité en termes de confidentialité :
 - Lorsqu'un utilisateur contribue avec un UTXO nettement plus grand que ceux des autres participants, il se retrouve inévitablement avec un montant de change qui sera lié à son input. Cela va à l'encontre de l'objectif initial du protocole qui vise à éliminer toute identification du change ;
@@ -1854,6 +1860,10 @@ Plus préoccupant encore, ce principe de filtrage contraste radicalement avec la
 
 Comme vous l'aurez compris, ma préférence va sans conteste vers le modèle de Whirlpool pour effectuer des coinjoins sur Bitcoin. Ce système se distingue par sa rigueur et offre des garanties supérieures en matière de confidentialité. Il est également le seul à proposer un mixage considéré comme parfait dans un contexte mathématique. À mon sens, ce modèle constitue l'avenir des coinjoins sur Bitcoin. Je vous invite donc à explorer plus en profondeur ce modèle dans le prochain chapitre.
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Le fonctionnement de Whirlpool
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
 
@@ -1863,7 +1873,7 @@ Whirlpool se distingue des autres méthodes de coinjoin par l'utilisation de tra
 
 Cette approche restrictive sur les inputs confère aux transactions coinjoin de Whirlpool une caractéristique unique : l'absence totale de liens déterministes entre les inputs et les outputs. Autrement dit, chaque output possède une probabilité égale d'être attribué à n'importe quel participant, par rapport à tous les autres outputs de la transaction.
 
-![BTC204](assets/fr/136.webp)
+![BTC204](assets/fr/142.webp)
 
 ### Le fonctionnement général de Whirlpool
 
@@ -1872,19 +1882,19 @@ Initialement, le nombre de participants à chaque coinjoin Whirlpool était limi
 Ainsi, les transactions Whirlpool se caractérisent par un nombre identique d'inputs et d'outputs, pouvant être de :
 - 5 inputs et 5 outputs ;
 
-![BTC204](assets/fr/137.webp)
+![BTC204](assets/fr/143.webp)
 
 - 6 inputs et 6 outputs ;
 
-![BTC204](assets/fr/138.webp)
+![BTC204](assets/fr/144.webp)
 
 - 7 inputs et 7 outputs ;
 
-![BTC204](assets/fr/139.webp)
+![BTC204](assets/fr/145.webp)
 
 - 8 inputs et 8 outputs.
 
-![BTC204](assets/fr/140.webp)
+![BTC204](assets/fr/146.webp)
 
 Le modèle proposé par Whirlpool est ainsi établi sur de petites transactions coinjoin. À la différence de Wabisabi et JoinMarket, où la robustesse des anonsets repose sur le volume de participants sur un cycle unique (ou sur peu de cycles), Whirlpool mise sur l'enchaînement de plusieurs cycles de petite taille.
 
@@ -1892,7 +1902,7 @@ Dans ce modèle, l'utilisateur s'acquitte des frais uniquement lors de son entr�
 
 À chaque coinjoin supplémentaire auquel participe une pièce, ainsi que ses pairs rencontrés par le passé, les anonsets vont croitre exponentiellement. L'objectif est donc de profiter de ces remixages gratuits qui, à chaque occurrence, contribuent à renforcer la densité des anonsets associés à chaque pièce mixée.
 
-![BTC204](assets/fr/141.webp)
+![BTC204](assets/fr/147.webp)
 
 Whirlpool a été conçu en prenant en compte deux exigences importantes :
 - L'accessibilité de l'implémentation sur appareils mobiles, étant donné que Samourai Wallet est avant tout une application de smartphone ;
@@ -1907,7 +1917,7 @@ Finalement, nul besoin d'avoir un nombre élevé de participants par coinjoin su
 Pour que ces multiples cycles permettent bien d'augmenter les anonsets des pièces mixées, il faut poser un certain cadre afin de restreindre les montants des UTXOs utilisés. Whirlpool définit ainsi différentes pools.
 
 Une pool représente un ensemble d'utilisateurs souhaitant mixer ensemble, qui s'accordent sur le montant des UTXOs à utiliser pour optimiser le processus de coinjoin en conservant une parfaite homogénéité des pièces. Chaque pool spécifie un montant fixe pour l'UTXO, auquel l'utilisateur doit se conformer pour participer. Ainsi, pour faire des coinjoins avec Whirlpool, il vous faut sélectionner une pool. Les pools disponibles à l'heure actuelle sont les suivantes :
-- 0,5 bitcoins ;
+- 0,5 bitcoin ;
 - 0,05 bitcoin ;
 - 0,01 bitcoin ;
 - 0,001 bitcoin (= 100 000 sats).
@@ -1946,7 +1956,7 @@ Outre les frais de service, les frais de minage propres à toute transaction Bit
 
 En effet, dans chaque coinjoin Whirlpool, 2 utilisateurs parmi les inputs sont des nouveaux entrants. Les autres inputs proviennent de remixeurs. De ce fait, les frais de minage pour l'ensemble des participants de la transaction sont pris en charge par ces 2 nouveaux participants, qui pourront ensuite bénéficier, eux aussi, de remixages gratuits :
 
-![BTC204](assets/fr/142.webp)
+![BTC204](assets/fr/148.webp)
 
 Grâce à ce système de frais, Whirlpool se différencie réellement des autres implémentations de coinjoin puisque les anonsets des UTXOs ne sont pas proportionnels au prix payé par l'utilisateur. Ainsi, il est possible d'atteindre des niveaux d'anonymat considérablement élevés en ne s'acquittant que des frais d'entrée de la pool et des frais de minage pour 2 transactions (la `Tx0` et le mix initial).
 
@@ -1956,7 +1966,7 @@ Il est important de noter que l'utilisateur devra également prendre en charge l
 
 Pour réaliser un coinjoin via Whirlpool, le portefeuille doit générer plusieurs comptes distincts. C'est le principe du protocole ZeroLink. Un compte, dans le contexte d'un portefeuille HD (*Hierarchical Deterministic*), constitue une section entièrement isolée des autres, cette séparation intervenant au niveau de la troisième profondeur de hiérarchie du portefeuille, c'est-à-dire au niveau des `xpub`.
 
-![BTC204](assets/fr/143.webp)
+![BTC204](assets/fr/149.webp)
 
 Un portefeuille HD peut théoriquement dériver jusqu'à `2^(31)` comptes différents. Le compte initial, utilisé par défaut sur tous les portefeuilles Bitcoin, correspond à l'index `0'`.
 
@@ -1968,11 +1978,11 @@ Pour les portefeuilles adaptés à Whirlpool, 4 comptes sont utilisés pour rép
 
 Chacun de ces comptes remplit une fonction particulière dans le processus de coinjoin, que nous allons découvrir dans les sections suivantes.
 
-Tous ces comptes sont liés à une unique graine (seed), ce qui permet à l'utilisateur de récupérer l'accès à l'ensemble de ses bitcoins en utilisant sa phrase de récupération et, le cas échéant, sa passphrase. Il est cependant nécessaire de préciser au logiciel, lors de cette opération de récupération, les différents index de comptes qui ont été utilisés.
+Tous ces comptes sont liés à une unique graine (*seed*), ce qui permet à l'utilisateur de récupérer l'accès à l'ensemble de ses bitcoins en utilisant sa phrase de récupération et, le cas échéant, sa passphrase. Il est cependant nécessaire de préciser au logiciel, lors de cette opération de récupération, les différents index de comptes qui ont été utilisés.
 
 Voyons maintenant les différentes étapes d'un coinjoin Whirlpool au sein de ces comptes.
 
-### La TX0
+### La Tx0
 
 Le point de départ de tout coinjoin Whirlpool est le compte **dépôt**. Ce compte est celui que vous utilisez automatiquement lorsque vous créez un nouveau portefeuille Bitcoin. Ce compte devra être crédité des bitcoins que l'on souhaite mixer.
 
@@ -1980,17 +1990,17 @@ La `Tx0` représente la première étape du processus de mixage de Whirlpool. El
 
 Cette transaction initiale `Tx0` sert aussi à régler les frais de service dus au coordinateur de coinjoin. Contrairement aux étapes suivantes, cette transaction n'est pas collaborative ; l'utilisateur doit donc assumer l'intégralité des frais de minage :
 
-![BTC204](assets/fr/144.webp)
+![BTC204](assets/fr/150.webp)
 
 Dans cet exemple d'une transaction `Tx0`, un input de `372 000 sats` issu de notre compte **dépôt** est divisé en plusieurs UTXOs en sortie, qui se répartissent comme suit :
 - Un montant de `5 000 sats` destiné au coordinateur pour les frais de service, correspondant à l'entrée dans la pool de `100 000 sats` ;
 - 3 UTXOs préparés pour le mixage, redirigés vers notre compte **premix** et enregistrés auprès du coordinateur. Ces UTXOs sont égalisés à `108 000 sats` chacun, afin de couvrir les frais de minage pour leur futur mix initial ;
 - Le surplus ne pouvant pas entrer dans la pool, car trop petit, est considéré comme change toxique. Il est envoyé vers son compte spécifique. Ici, ce change s'élève à `40 000 sats` ;
-- Enfin, il reste `3 000 sats` qui ne constituent pas un output, mais qui sont les frais de minage nécessaires pour confirmer la `Tx0`.
+- Enfin, il reste `3 000 sats` qui ne constituent pas un output, mais représentent les frais de minage nécessaires pour confirmer la `Tx0`.
 
 Par exemple, voici une vraie Tx0 Whirlpool (qui ne provient pas de moi) : [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://mempool.space/fr/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
 
-![BTC204](assets/fr/145.webp)
+![BTC204](assets/fr/151.webp)
 
 ### Le doxxic change
 
@@ -1998,7 +2008,7 @@ Le surplus n'ayant pas pu intégrer la pool, ici équivalent à `40 000 sats`, e
 
 Cet UTXO est dangereux pour la confidentialité de l'utilisateur, car non seulement il est toujours attaché à son passé, et donc éventuellement à l'identité de son propriétaire, mais en plus, il est noté comme appartenant à un utilisateur qui a fait un coinjoin.
 
-![BTC204](assets/fr/146.webp)
+![BTC204](assets/fr/152.webp)
 
 Si cet UTXO est fusionné avec des outputs mixés, ces derniers perdront toute la confidentialité gagnée durant les cycles de coinjoins, notamment à cause de la CIOH (*Common-Input-Ownership-Heuristic*). S'il est fusionné avec d'autres doxxic changes, l'utilisateur risque de perdre en confidentialité puisque cela viendra faire un lien entre les différentes entrées des cycles de coinjoins. Il faut donc le traiter avec prudence. Nous parlerons plus en détail de la gestion de ces UTXOs doxxic dans la dernière section de ce chapitre.
 
@@ -2008,7 +2018,7 @@ Après la réalisation de la `Tx0`, les UTXOs égalisés sont envoyés sur le co
 
 Au terme de ces premiers mix, le compte **premix** sera vide, tandis que nos pièces, ayant acquitté les frais de minage pour ce premier coinjoin, seront ajustées exactement au montant défini par la pool choisie. Dans notre exemple, nos UTXOs initiaux de `108 000 sats` auront été réduits à exactement `100 000 sats`.
 
-![BTC204](assets/fr/147.webp)
+![BTC204](assets/fr/153.webp)
 
 ### Les remixages
 
@@ -2026,7 +2036,7 @@ Certains utilisateurs pourraient envisager de transférer leurs bitcoins mixés 
 
 La fusion d'UTXOs constitue l'erreur la plus fréquemment commise. Il faut éviter de combiner dans une même transaction des UTXOs mixés avec des UTXOs non mixés, afin d'éviter la CIOH (*Common-Input-Ownership-Heuristic*). Cela nécessite une gestion minutieuse de vos UTXOs au sein de votre portefeuille, notamment au niveau de l'étiquetage.
 
-![BTC204](assets/fr/148.webp)
+![BTC204](assets/fr/154.webp)
 
 Il faut également être vigilant sur la consolidation d'UTXOs mixés entre eux. Des consolidations modérées sont envisageables si vos UTXOs mixés disposent d'anonsets significatifs, mais cela viendra forcément diminuer la confidentialité de vos pièces. Veillez à ce que les consolidations ne soient ni trop importantes, ni réalisées après un nombre insuffisant de remixages, au risque d'établir des liens déductibles entre vos UTXOs avant et après les cycles de coinjoins. En cas de doute sur ces manipulations, la meilleure pratique est de ne pas consolider les UTXOs postmix, et de les transférer un à un vers votre hardware wallet, en générant à chaque fois une nouvelle adresse vierge. Encore une fois, pensez à bien étiqueter chaque UTXO reçu.
 
@@ -2034,7 +2044,7 @@ Il est également déconseillé de transférer vos UTXOs postmix vers un portefe
 
 Comme pour toute transaction Bitcoin, il convient également de ne pas réutiliser les adresses de réception. Chaque nouvelle transaction doit être reçue sur une nouvelle adresse vierge.
 
-La solution la plus simple et la plus sûre consiste à laisser vos UTXOs mixés au repos dans leur compte **postmix**, en les laissant se remixer et en ne les touchant que pour les dépenser. Les portefeuilles Samourai et Sparrow disposent de protections supplémentaires contre tous ces risques liés à l'analyse de chaîne. Ces protections vous permettent d'éviter de faire des erreurs.
+La solution la plus simple et la plus sûre consiste à laisser vos UTXOs mixés au repos dans leur compte **postmix**, en les laissant se remixer et en ne les touchant que pour les dépenser. Les portefeuilles Samourai (et maintenant Ashigaru) et Sparrow disposent de protections supplémentaires contre tous ces risques liés à l'analyse de chaîne. Ces protections vous permettent d'éviter de faire des erreurs.
 
 ### Comment bien gérer ses changes toxiques ?
 
@@ -2045,26 +2055,24 @@ Voici différentes stratégies à envisager pour les utiliser :
 - **Marquez-les comme "non dépensables" :** Une autre approche consiste à ne plus les utiliser, à les marquer comme "non dépensables" dans leur compte dédié, et à juste hodl. Cela vous assure ainsi de ne pas les dépenser accidentellement. Si la valeur du bitcoin augmente, de nouvelles pools plus adaptées à vos UTXOs toxiques pourraient voir le jour ;
 - **Faites des donations :** Pensez à faire des dons, même modestes, aux développeurs œuvrant sur Bitcoin et ses logiciels associés. Vous pouvez aussi donner à des associations acceptant le BTC. Si la gestion de vos UTXOs toxiques vous semble trop compliquée, vous pouvez simplement vous en débarrasser en en profitant pour faire une donation ;
 - **Achetez des cartes-cadeaux :** Des plateformes telles que [Bitrefill](https://www.bitrefill.com/) vous permettent d'échanger des bitcoins contre des cartes-cadeaux utilisables chez divers commerçants. Cela peut être une manière de vous séparer de vos UTXOs toxiques sans perdre la valeur associée ;
-- **Consolidez-les sur Monero :** Samourai Wallet offre un service de swap atomique entre BTC et XMR. C'est idéal pour gérer les UTXOs toxiques en les consolidant sur Monero, sans compromettre votre confidentialité via la CIOH, avant de les renvoyer sur Bitcoin. Cette option peut toutefois s'avérer coûteuse en termes de frais de minage et de premium à cause des contraintes de liquidité ;
+- **Les consolider via Monero :** Samourai Wallet proposait autrefois un service de swap atomique entre BTC et XMR, malheureusement indisponible depuis leur arrestation. Cette approche permettait de traiter des UTXOs toxiques en les consolidant sur Monero, sans compromettre votre confidentialité via la CIOH, avant de les renvoyer ensuite sur Bitcoin. Si un service équivalent réapparaît, il peut constituer une option intéressante. Gardez toutefois à l’esprit que cette méthode peut devenir coûteuse, tant en frais de minage qu’en premium lié aux contraintes de liquidité lors de la conversion inverse vers des bitcoins.
 - **Envoyez-les sur le Lightning Network :** Transférer ces UTXOs sur le Lightning Network pour bénéficier de frais de transaction réduits est une option qui peut être intéressante. Cependant, cette méthode peut révéler certaines informations selon votre utilisation de Lightning et doit donc être pratiquée avec prudence.
 
 ### Comment utiliser Whirlpool ?
 
-Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril 2024, l'outil Whirlpool ne fonctionne plus, même pour les personnes qui disposent de leur propre Dojo. Auparavant, il était disponible sur Samourai Wallet et Sparrow Wallet.
+Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril 2024, l'outil Whirlpool n'est plus disponible sur Samourai Wallet et Sparrow Wallet.
 
-![BTC204](assets/fr/149.webp)
+![BTC204](assets/fr/155.webp)
 
-Il reste cependant possible que cet outil soit remis en service dans les semaines à venir, en fonction de l'issue des procès, ou relancé d'une manière différente. Dans tous les cas, je pense d'une part que le marché du coinjoin sur Bitcoin ne restera pas bien longtemps sans offre, car la demande est bien présente. De plus, le modèle de Whirlpool étant le plus avancé en termes de confidentialité, il sera sûrement incontournable à l'avenir pour d'autres implémentations.
+Désormais, Whirlpool est à nouveau accessible sur l'application mobile Ashigaru, un fork de Samourai Wallet, grâce au logiciel Ashigaru Terminal.
 
-Nous suivons de près l'évolution de cette affaire ainsi que les développements concernant les outils associés. Soyez assuré que nous mettrons cette formation à jour au fur et à mesure que de nouvelles informations seront disponibles.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Le cœur du fonctionnement de Whirlpool demeure inchangé, mais il y a tout de même quelques différences avec son utilisation sur Samourai : en 2025, sur Ashigaru, seules deux pools sont disponibles, d’un montant de `0.25 BTC` et `0.025 BTC`, avec des frais d’entrée respectifs de `0.0125 BTC` et `0.00125 BTC`.
 
 Dans le chapitre suivant, nous allons découvrir ce que sont les "anonsets", comment ces indicateurs sont calculés, et en quoi ils peuvent nous aider pour estimer l'efficacité des cycles de coinjoins.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
-
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Les ensembles d'anonymat
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -2079,17 +2087,17 @@ L'utilité du coinjoin réside dans sa capacité à produire du déni plausible,
 
 Autrement dit, un analyste connaissant votre transaction initiale (`Tx0`) à l'entrée des cycles de coinjoins ne devrait pas être en mesure d'identifier avec certitude votre UTXO à la sortie des cycles de remix (analyse entrée de cycles vers sortie de cycles).
 
-![BTC204](assets/fr/150.webp)
+![BTC204](assets/fr/156.webp)
 
 Inversement, il faut qu'un analyste connaissant votre UTXO à la sortie des cycles de coinjoin se trouve dans l'incapacité de déterminer la transaction originelle à l'entrée des cycles (analyse sortie de cycles vers entrée de cycles).
 
-![BTC204](assets/fr/151.webp)
+![BTC204](assets/fr/157.webp)
 
 Pour évaluer la difficulté pour un analyste de lier le passé au présent et vice-versa, il faut quantifier la taille des groupes de pièces homogènes au sein desquels votre pièce est dissimulée. Cette mesure nous indique le nombre d'analyses possédant une probabilité identique. Ainsi, si l'analyse correcte est noyée parmi 3 autres analyses de probabilité égale, votre niveau de dissimulation est très faible. En revanche, si l'analyse correcte se trouve au sein d'un ensemble de 20 000 analyses toutes aussi probables les unes que les autres, votre pièce est très bien cachée. Et justement, la taille de ces groupes représente des indicateurs que l'on appelle les "anonsets".
 
 ### Comprendre les anonsets
 
-Les anonsets servent d'indicateurs pour évaluer le degré de confidentialité d'un UTXO particulier. Plus spécifiquement, ils mesurent le nombre d'UTXOs indistinguables au sein de l'ensemble qui inclut la pièce étudiée. L'exigence d'un ensemble d'UTXO homogènes fait que les anonsets sont habituellement calculés sur des cycles de coinjoins. L'utilisation de ces indicateurs est particulièrement pertinente pour les coinjoins Whirlpool en raison de leur uniformité.
+Les anonsets servent d'indicateurs pour évaluer le degré de confidentialité d'un UTXO particulier. Plus spécifiquement, ils mesurent le nombre d'UTXOs indistinguables au sein de l'ensemble qui inclut la pièce étudiée. L'exigence d'un ensemble d'UTXOs homogènes fait que les anonsets sont habituellement calculés sur des cycles de coinjoins. L'utilisation de ces indicateurs est particulièrement pertinente pour les coinjoins Whirlpool en raison de leur uniformité.
 
 Les anonsets permettent, le cas échéant, de juger de la qualité des coinjoins. Un anonset de grande taille signifie un niveau d'anonymat élevé, car il devient difficile de distinguer un UTXO spécifique au sein de l'ensemble homogène. 
 
@@ -2103,41 +2111,41 @@ L'anonset prospectif indique la taille du groupe parmi lequel se cache l'UTXO é
 
 Cet indicateur permet de mesurer la résistance de la confidentialité de la pièce face à une analyse passé vers présent (entrée vers sortie).
 
-![BTC204](assets/fr/152.webp)
+![BTC204](assets/fr/158.webp)
 
 Cette métrique permet d'estimer dans quelle mesure votre UTXO est protégé contre les tentatives de reconstitution de son historique depuis son point d'entrée jusqu'à son point de sortie dans le processus de coinjoin. 
 
 Par exemple, si votre transaction a participé à son premier cycle de coinjoin et que deux autres cycles descendants ont été réalisés, l'anonset prospectif de votre pièce s'élèverait à `13` :
 
-![BTC204](assets/fr/153.webp)
+![BTC204](assets/fr/159.webp)
 
 Par exemple, imaginons que notre pièce en entrée de cycle de coinjoin bénéficie d'un anonset prospectif de `86 871`. Concrètement, cela signifie qu'elle se dissimule parmi `86 871` pièces indiscernables. Pour un observateur externe connaissant cette pièce au début des cycles de coinjoin et tentant de suivre sa sortie, il sera confronté à `86 871` UTXOs possibles, chacun ayant une probabilité identique d'être la pièce recherchée.
 
-![BTC204](assets/fr/154.webp)
+![BTC204](assets/fr/160.webp)
 
 ### L'anonset rétrospectif
 
 L'anonset rétrospectif indique le nombre de sources possibles pour une pièce donnée, sachant l'UTXO en sortie de cycle. Cet indicateur permet de mesurer la résistance de la confidentialité de la pièce face à une analyse présent vers passé (sortie vers entrée), c'est-à-dire à quel point il est difficile pour un analyste de remonter à l'origine de votre pièce, avant les cycles de coinjoins. En anglais, le nom de cet indicateur est « *backward anonset* », ou « *backward-looking metrics* ».
 
-![BTC204](assets/fr/155.webp)
+![BTC204](assets/fr/161.webp)
 
  En connaissant votre UTXO à la sortie des cycles, l'anonset rétrospectif détermine le nombre de transactions Tx0 potentielles qui auraient pu constituer votre entrée dans les cycles de coinjoins. Sur le schéma ci-dessous, cela correspond à l'addition de toutes les bulles orange.
 
-![BTC204](assets/fr/156.webp)
+![BTC204](assets/fr/162.webp)
 
 Par exemple, imaginons que notre pièce en sortie de cycle de coinjoin bénéficie d'un anonset rétrospectif de `42 185`. Concrètement, cela signifie qu'il existe `42 185` sources potentielles pour cet UTXO. Si un observateur externe identifie cette pièce à la fin des cycles et cherche à en retrouver l'origine, il se trouvera face à `42 185` sources possibles, toutes avec une probabilité égale d'être l'origine recherchée.
 
-![BTC204](assets/fr/157.webp)
+![BTC204](assets/fr/163.webp)
 
 ### Comment calculer les anonsets concrètement ?
 
 Il est possible de calculer manuellement ses anonsets avec un explorateur de blocs pour des ensembles de petite taille. Toutefois, pour des anonsets plus conséquents, l'usage d'un outil spécialisé devient impératif. À ma connaissance, le seul logiciel capable de réaliser cette tâche est *Whirlpool Stats Tool*, un outil Python développé par les équipes de Samourai et d'OXT. Malheureusement, cet outil est actuellement hors service suite à l'arrestation des fondateurs de Samourai et l'interruption d'OXT, qui était utilisé pour extraire les données de la blockchain.
 
-![BTC204](assets/fr/158.webp)
+![BTC204](assets/fr/164.webp)
 
-Comme nous avons vu dans ce chapitre, les anonset ne peuvent être calculés que s'il existe une certaine homogénéité dans la structure des coinjoins. Et justement, nous allons découvrir dans le prochain chapitre comment quantifier cette homogénéité sur une transaction Bitcoin, qu'il s'agisse d'un coinjoin ou d'une transaction plus classique.
+Comme nous avons vu dans ce chapitre, les anonsets ne peuvent être calculés que s'il existe une certaine homogénéité dans la structure des coinjoins. Et justement, nous allons découvrir dans le prochain chapitre comment quantifier cette homogénéité sur une transaction Bitcoin, qu'il s'agisse d'un coinjoin ou d'une transaction plus classique.
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## L'entropie
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2154,15 +2162,15 @@ Le premier indicateur que l'on peut observer sur une transaction Bitcoin est le 
 
 À titre d'exemple, une transaction de paiement simple avec 1 input et 2 outputs présentera seulement une seule interprétation, à savoir que l'input #0 a permis de financer l'output #0 et l'output #1. Il n'y a aucune autre interprétation possible :
 
-![BTC204](assets/fr/159.webp)
+![BTC204](assets/fr/165.webp)
 
 En revanche, un coinjoin structuré selon le modèle Whirlpool 5x5 présente $1\,496$ combinaisons possibles :
 
-![BTC204](assets/fr/160.webp)
+![BTC204](assets/fr/166.webp)
 
 Un coinjoin Whirlpool Surge Cycle 8x8 présente lui $9\,934\,563$ interprétations possibles :
 
-![BTC204](assets/fr/161.webp)
+![BTC204](assets/fr/167.webp)
 
 ### L'entropie
 
@@ -2208,7 +2216,7 @@ $$
 
 Prenons un exemple supplémentaire avec une transaction de paiement classique, comportant 1 input et 2 outputs : [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce) 
 
-![BTC204](assets/fr/162.webp)
+![BTC204](assets/fr/168.webp)
 
 Dans le cas de cette transaction, l'unique interprétation possible est : `(In.0) > (Out.0 ; Out.1)`. Par conséquent, son entropie s'établit à $0$ :
 
@@ -2264,7 +2272,7 @@ Une efficacité de $100 \%$ indique donc que la transaction exploite au maximum 
 
 ### La densité de l'entropie
 
-L'entropie est un bon indicateur pour mesurer la confidentialité d'une transaction, mais elle dépend en partie du nombre d'inputs et d'outputs dans la transaction. Pour pouvoir comparer l'entropie de 2 transactions différentes qui n'ont pas le même nombre d'inputs et d'output, on peut calculer la densité de l'entropie. Cet indicateur offre une perspective sur l'entropie relative à chaque input ou output de la transaction. La densité s'avère utile pour évaluer et comparer l'efficacité de transactions de différentes tailles. 
+L'entropie est un bon indicateur pour mesurer la confidentialité d'une transaction, mais elle dépend en partie du nombre d'inputs et d'outputs dans la transaction. Pour pouvoir comparer l'entropie de 2 transactions différentes qui n'ont pas le même nombre d'inputs et d'outputs, on peut calculer la densité de l'entropie. Cet indicateur offre une perspective sur l'entropie relative à chaque input ou output de la transaction. La densité s'avère utile pour évaluer et comparer l'efficacité de transactions de différentes tailles. 
 
 Pour la calculer, on divise simplement l'entropie totale de la transaction par le nombre total d'inputs et d'outputs impliqués dans la transaction :
 - $E_D$ : la densité de l'entropie exprimée en bits ;
@@ -2361,17 +2369,17 @@ Calculer ces indicateurs manuellement avec les équations que je vous ai fournie
 
 Auparavant, il existait un outil Python nommé _Boltzmann Calculator_, développé par les équipes d'OXT et de Samourai, qui permettait de calculer automatiquement tous ces indicateurs pour une transaction Bitcoin : 
 
-![BTC204](assets/fr/163.webp)
+![BTC204](assets/fr/169.webp)
 
 Il était aussi possible d'utiliser le site KYCP.org pour ces analyses :
 
-![BTC204](assets/fr/164.webp)
+![BTC204](assets/fr/170.webp)
 
 Hélas, suite à l'arrestation des fondateurs de Samourai, ces outils ne sont plus opérationnels pour l'instant.
 
 Maintenant que nous avons abordé en détail les coinjoins, nous allons étudier les autres techniques de confidentialité disponibles sur Bitcoin dans la dernière section de notre formation. Nous examinerons les payjoins, les types de transactions spécifiques pseudo-coinjoins, les protocoles d'adresses statiques, ainsi que les mesures visant à renforcer la confidentialité non pas au niveau des transactions elles-mêmes, mais au niveau du réseau de nœuds.
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Connaître les enjeux d'autres techniques de confidentialité avancées
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2381,7 +2389,7 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 :::video id=5496cb59-006e-40b8-971f-af6d98868527:::
 
-Le coinjoin représente actuellement la méthode la plus efficace pour introduire de l'incertitude dans le traçage des pièces lors d'une analyse de chaîne. Comme nous avons vu dans les chapitres précédents, pour obtenir un mixage performant, il faut que les inputs et les outputs présentent la plus grande homogénéité possible. De plus, il est important que les pièces soient intégrées dans un groupe aussi vaste que possible pour maximiser les anonsets. Ainsi, pour que les coinjoins soient efficaces, ils doivent impliquer un grand nombre de pièces uniformes. Cette multitude d'exigences fait que les transactions coinjoin ont une structure très rigide : les montants sont fixés à l'avance et tous les participants doivent s'y conformer pour garantir l'uniformité du processus. De plus, les coinjoins requièrent une synchronisation entre tous les participants et le coordinateur lors de la construction de la transaction.
+Le coinjoin représente actuellement la méthode la plus efficace pour introduire de l'incertitude dans le traçage des pièces lors d'une analyse de chaîne. Comme nous avons vu dans les chapitres précédents, pour obtenir un mixage performant, il faut que les inputs et les outputs présentent la plus grande homogénéité possible. De plus, il est important que les pièces soient intégrées dans un groupe aussi vaste que possible pour maximiser les anonsets. Ainsi, pour que les coinjoins soient efficaces, ils doivent impliquer un grand nombre de pièces uniformes. Cette multitude d'exigences fait que les transactions coinjoins ont une structure très rigide : les montants sont fixés à l'avance et tous les participants doivent s'y conformer pour garantir l'uniformité du processus. De plus, les coinjoins requièrent une synchronisation entre tous les participants et le coordinateur lors de la construction de la transaction.
 
 Ces exigences rendent le coinjoin peu adapté aux paiements directs. Par exemple, si vous possédez une pièce de 1M sats dans une pool de coinjoin, l'utiliser directement comme un paiement serait complexe. Cela nécessiterait une synchronisation avec les autres participants et le coordinateur pour construire la transaction collaborative précisément au moment où vous devez effectuer un paiement, et le montant de l'achat devrait correspondre exactement à la valeur de votre pièce, ce qui est pratiquement irréalisable. La transaction coinjoin est donc par nature une transaction collaborative de balayage, c'est-à-dire que ce sont généralement les mêmes propriétaires des inputs que l'on retrouve en outputs.
 
@@ -2397,11 +2405,11 @@ C'est en 2015 que LaurentMT évoquait pour la première fois cette méthode sous
 - P2EP (*Pay-to-End-Point*) ;
 - Transaction stéganographique.
 
-La particularité du payjoin réside dans sa capacité à générer une transaction qui paraît ordinaire à première vue, mais qui est en réalité un mini Coinjoin entre deux personnes. Pour cela, la structure de la transaction fait intervenir le destinataire du paiement dans les inputs aux côtés de l'expéditeur réel. Le destinataire inclut donc un paiement vers lui-même au milieu de la transaction qui permet elle-même de le payer. 
+La particularité du payjoin réside dans sa capacité à générer une transaction qui paraît ordinaire à première vue, mais qui est en réalité un mini coinjoin entre deux personnes. Pour cela, la structure de la transaction fait intervenir le destinataire du paiement dans les inputs aux côtés de l'expéditeur réel. Le destinataire inclut donc un paiement vers lui-même au milieu de la transaction qui permet elle-même de le payer. 
 
 Prenons un exemple pour mieux comprendre ce processus. Alice achète une baguette pour 4 000 sats à l'aide d'un UTXO de 10 000 sats et opte pour un payjoin. Son boulanger, Bob, ajoute un UTXO de 15 000 sats lui appartenant en input, qu'il récupère en intégralité en output, en plus des 4 000 sats d'Alice.
 
-![BTC204](assets/fr/165.webp)
+![BTC204](assets/fr/171.webp)
 
 Dans cet exemple, Bob le boulanger introduit 15 000 sats en input et ressort avec 19 000 sats, la différence est exactement de 4 000 sats, c'est-à-dire le prix de la baguette. Du côté d'Alice, elle entre avec 10 000 sats et se retrouve avec 6 000 sats en output, ce qui représente bien un solde de -4 000 sats, c'est-à-dire le prix de la baguette. Pour simplifier l'exemple, j'ai délibérément omis les frais de minage dans cette transaction.
 
@@ -2415,15 +2423,15 @@ Ainsi, lorsqu'un analyste examine une transaction payjoin, il est amené à croi
 
 Reprenons notre exemple de transaction payjoin pour le paiement d'une baguette :
 
-![BTC204](assets/fr/166.webp)
+![BTC204](assets/fr/172.webp)
 
 En voyant cette transaction sur la blockchain, un observateur extérieur qui suit les heuristiques habituelles de l'analyse de chaîne en fera l'interprétation suivante : "*Alice a fusionné 2 UTXOs en inputs de la transaction afin de payer 19 000 sats à Bob*".
 
-![BTC204](assets/fr/167.webp)
+![BTC204](assets/fr/173.webp)
 
 Cette interprétation est évidemment incorrecte, car comme vous le savez déjà, les deux UTXOs en inputs n'appartiennent pas à la même personne. Un provient d'Alice, l'acheteuse de la baguette, et l'autre de Bob, le boulanger.
 
-![BTC204](assets/fr/168.webp)
+![BTC204](assets/fr/174.webp)
 
 L'analyse de l'observateur externe est ainsi dirigée vers une conclusion erronée, ce qui garantit la préservation de la confidentialité des parties prenantes.
 
@@ -2433,11 +2441,11 @@ Le second objectif du payjoin est de tromper un observateur extérieur sur le mo
 
 Si l'on reprend notre exemple d'achat d'une baguette, l'analyste va penser que le montant du paiement correspond soit à l'UTXO de 6 000 sats, soit à l'UTXO de 19 000 sats. En l'occurrence, l'analyste va plutôt penser que le montant du paiement est de 19 000 sats, car il y a 2 UTXOs en outputs dont au moins un est supérieur à 6 000 sats (il n'y a pas de raison logique d'utiliser 2 UTXOs pour payer 6 000 sats alors qu'un seul UTXO aurait suffit pour satisfaire ce paiement).
 
-![BTC204](assets/fr/169.webp)
+![BTC204](assets/fr/175.webp)
 
 Mais en réalité, cette analyse est erronée. Le montant du paiement ne correspond à aucun des outputs. Il est en fait la différence entre l'UTXO du destinataire en output et l'UTXO du destinataire en input. 
 
-![BTC204](assets/fr/170.webp)
+![BTC204](assets/fr/176.webp)
 
 En cela, la transaction payjoin rentre dans le domaine de la stéganographie. Elle permet de cacher le montant réel d’une transaction au sein d’une fausse transaction qui agit comme un leurre.
 
@@ -2451,19 +2459,19 @@ On pourrait d'ailleurs établir une analogie entre la cryptographie et le coinjo
 
 Parmi les logiciels connus qui prennent en charge le payjoin, il y a Sparrow Wallet, Wasabi Wallet, Mutiny, BitMask, BlueWallet et JoinMarket, ainsi que le processeur de paiement BTCPay.
 
-![BTC204](assets/fr/171.webp)
+![BTC204](assets/fr/177.webp)
 
-L'implémentation de payjoin la plus avancée était seulement les Stowaway sur Samourai Wallet. Cependant, depuis l'arrestation des fondateurs du logiciel, cet outil ne fonctionne plus que partiellement. L'avantage de Stowaway est que c'est un protocole complet et très simple d'utilisation, qui prend en charge à la fois les réceptions et les envois de payjoins. Les transactions partiellement signées peuvent être échangées manuellement via le scan de plusieurs QR codes ou automatiquement par Tor via Soroban. C'est cette dernière option de communication qui est actuellement hors service.
+L'implémentation de payjoin la plus avancée est sûrement les Stowaway inventés par les développeur de Samourai Wallet. Depuis l'arrestation des fondateurs du logiciel, cet outil ne fonctionne plus que partiellement sur Samourai. Mais il a été relancé sur l'application Ashigaru.
 
-![BTC204](assets/fr/172.webp)
+L'avantage de Stowaway est que c'est un protocole complet et très simple d'utilisation, qui prend en charge à la fois les réceptions et les envois de payjoins. Les transactions partiellement signées peuvent être échangées manuellement via le scan de plusieurs QR codes ou automatiquement par Tor via Soroban.
+
+![BTC204](assets/fr/178.webp)
 
 La difficulté d'utilisation du payjoin réside dans sa dépendance vis-à-vis de la participation du commerçant. En tant que client, l'utilisation d'un payjoin est impossible si le commerçant ne le prend pas en charge. Cela ajoute une difficulté supplémentaire lors d'un achat : non seulement il est compliqué de trouver des commerçants acceptant le bitcoin, mais si l'on cherche en plus ceux qui supportent les payjoins, cela devient encore plus compliqué.
 
 Une solution serait d'utiliser des structures transactionnelles qui introduisent de l'ambiguïté dans l'analyse de chaîne sans nécessiter la coopération du destinataire. Cela nous permettrait d'améliorer la confidentialité de nos paiements sans dépendre de la participation active des commerçants. C'est justement ce que nous allons étudier dans le prochain chapitre.
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
-
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Les mini-coinjoins de paiement
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2484,7 +2492,7 @@ Il y a donc seulement 2 rôles dans une transaction Stonewall :
 
 Prenons un exemple pour comprendre cette structure de transaction. Alice est chez Bob le boulanger pour acheter sa baguette de pain qui coûte 4 000 sats. Elle souhaite payer en bitcoins tout en conservant une certaine forme de confidentialité sur son paiement. Elle décide donc de construire une transaction Stonewall pour le paiement.
 
-![BTC204](assets/fr/173.webp)
+![BTC204](assets/fr/179.webp)
 
 En analysant cette transaction, on peut voir que Bob le boulanger a effectivement reçu 4 000 sats en paiement pour la baguette. Alice a utilisé 2 UTXOs en inputs : un de 10 000 sats et un de 15 000 sats. En outputs, elle a récupéré 3 UTXOs : un de 4 000 sats, un de 6 000 sats et un de 11 000 sats. Alice a donc un solde net de -4 000 sats sur cette transaction, ce qui correspond bien au prix de la baguette.
 
@@ -2496,15 +2504,15 @@ La structure Stonewall ajoute énormément d'entropie à la transaction et vient
 
 Reprenons l'exemple d'Alice chez Bob le boulanger. La transaction sur la blockchain se présenterait ainsi :
 
-![BTC204](assets/fr/174.webp)
+![BTC204](assets/fr/180.webp)
 
 Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse de chaîne pourrait conclure à tort que "*deux personnes ont réalisé un petit coinjoin, avec un UTXO chacun en input et deux UTXOs chacun en output*". L'analyse de cette transaction de l'extérieur ne conduit pas à l'application de la CIOH, car la présence de deux outputs de même montant suggère un pattern de coinjoin. D'un point de vue extérieur, la CIOH n'est donc pas applicable dans ce cas spécifique.
 
-![BTC204](assets/fr/175.webp)
+![BTC204](assets/fr/181.webp)
 
 Cette interprétation est inexacte, car, comme vous le savez, un UTXO a été envoyé à Bob le boulanger, les 2 UTXOs en inputs proviennent d'Alice, et elle a récupéré 3 outputs de change.
 
-![BTC204](assets/fr/176.webp)
+![BTC204](assets/fr/182.webp)
 
 Et ce qui est particulièrement intéressant avec la structure de la transaction Stonewall, c'est que du point de vue d'un observateur extérieur, elle ressemble en tous points à celle d'une transaction Stonewall x2.
 
@@ -2521,7 +2529,7 @@ On définit ainsi trois rôles différents dans les transactions Stonewall x2 :
 
 Reprenons notre exemple avec Alice qui est chez Bob le boulanger pour acheter sa baguette de pain qui coûte 4 000 sats. Elle souhaite payer en bitcoins tout en conservant une certaine forme de confidentialité sur son paiement. Elle fait donc appel à son ami Charles, qui va l'aider dans cette démarche.
 
-![BTC204](assets/fr/177.webp)
+![BTC204](assets/fr/183.webp)
 
 En analysant cette transaction, on peut voir que Bob le boulanger a effectivement reçu 4 000 sats en paiement pour la baguette. Alice a utilisé 10 000 sats en input et a récupéré 6 000 sats en output, soit un solde net de -4 000 sats, ce qui correspond au prix de la baguette. Quant à Charles, il a fourni 15 000 sats en input et a reçu deux outputs : l'un de 4 000 sats et l'autre de 11 000 sats, ce qui fait bien un solde de 0.
 
@@ -2533,27 +2541,27 @@ Comme la structure Stonewall, la structure Stonewall x2 ajoute énormément d'en
 
 Reprenons l'exemple d'Alice, Bob le Boulanger et Charles. La transaction sur la blockchain se présenterait ainsi :
 
-![BTC204](assets/fr/178.webp)
+![BTC204](assets/fr/184.webp)
 
 Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse de chaîne pourrait conclure à tort que "*Alice et Charles ont réalisé un petit coinjoin, avec un UTXO chacun en input et deux UTXOs chacun en output*". Encore une fois, l'analyse de cette transaction de l'extérieur ne conduit pas à l'application de la CIOH, car la présence de deux outputs de même montant suggère un pattern de coinjoin. D'un point de vue extérieur, la CIOH n'est donc pas applicable dans ce cas spécifique.
 
-![BTC204](assets/fr/179.webp)
+![BTC204](assets/fr/185.webp)
 
 Cette interprétation est inexacte, car, comme vous le savez, un UTXO a été envoyé à Bob le boulanger, Alice n'a qu'un output de change, et Charles en a deux.
 
-![BTC204](assets/fr/180.webp)
+![BTC204](assets/fr/186.webp)
 
 Et encore une fois, ce qui est particulièrement intéressant avec la structure de la transaction Stonewall x2, c'est que du point de vue d'un observateur extérieur, elle ressemble en tous points à celle d'une transaction Stonewall.
 
 ### Quelle est la différence entre Stonewall et Stonewall x2 ?
 
-Une transaction StonewallX2 fonctionne exactement comme une transaction Stonewall, à la différence près que la première est collaborative, alors que la seconde non. Comme nous l'avons vu, une transaction Stonewall x2 implique la participation d'une tierce personne (Charles), qui est extérieure au paiement, et qui va mettre à disposition ses bitcoins pour améliorer la confidentialité de la transaction. Dans une transaction Stonewall classique, le rôle du collaborateur est pris par l'émetteur. 
+Une transaction Stonewall x2 fonctionne exactement comme une transaction Stonewall, à la différence près que la première est collaborative, alors que la seconde non. Comme nous l'avons vu, une transaction Stonewall x2 implique la participation d'une tierce personne (Charles), qui est extérieure au paiement, et qui va mettre à disposition ses bitcoins pour améliorer la confidentialité de la transaction. Dans une transaction Stonewall classique, le rôle du collaborateur est pris par l'émetteur. 
 
-![BTC204](assets/fr/181.webp)
+![BTC204](assets/fr/187.webp)
 
 D'un point de vue extérieur, le pattern de la transaction est donc exactement le même.
 
-![BTC204](assets/fr/182.webp)
+![BTC204](assets/fr/188.webp)
 
 Le fait que ces deux structures de transaction partagent exactement le même pattern implique que même si un observateur extérieur parvient à identifier un pattern "Stonewall(x2)", il ne disposera pas de toutes les informations. Il ne pourra pas déterminer lequel des deux UTXOs de mêmes montants correspond au paiement. De plus, il ne pourra pas déterminer si les deux UTXOs en inputs proviennent de deux personnes différentes (Stonewall x2) ou s'ils appartiennent à une seule personne qui les a fusionnés (Stonewall).
 
@@ -2568,19 +2576,19 @@ La logique devrait être la suivante lorsque l'on souhaite utiliser un outil de 
 
 ### Comment utiliser les transactions Stonewall et Stonewall x2 ?
 
-Les transactions Stonewall et Stonewall x2 sont disponibles à la fois sur l'application Samourai Wallet et sur le logiciel Sparrow Wallet. 
+Les transactions Stonewall sont disponibles sur Sparrow Wallet ainsi que sur Ashigaru, tandis que les Stonewall x2 ne sont prises en charge que par Ashigaru pour le moment.
 
-![BTC204](assets/fr/183.webp)
-
-En revanche, tout comme pour les payjoins, suite à l'arrestation des fondateurs de Samourai, les transactions Stonewall x2 ne fonctionnent plus qu'en échangeant manuellement les PSBTs entre les parties concernées. L'échange automatique via Soroban n'est hélas plus disponible pour le moment.
+![BTC204](assets/fr/189.webp)
 
 Il est également possible de réaliser manuellement ce type de transaction depuis n'importe quel logiciel de portefeuille Bitcoin.
 
 Dans le prochain chapitre, nous allons étudier une autre technique de confidentialité assez peu connue, mais qui est très utile en complément de ce que nous avons déjà étudié.
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Les ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2591,11 +2599,11 @@ L'utilisation de structures de transactions Bitcoin qui ajoutent de l'ambiguït�
 
 Selon l'usage que vous envisagez pour votre pièce après des cycles de coinjoins, le fait qu'elle ait subi ce processus peut être problématique. Par exemple, si vous prévoyez de vendre votre pièce sur une plateforme d'échange régulée, mais qu'elle a récemment subi un coinjoin, l'outil d'analyse de chaîne de la plateforme détectera ce fait. La plateforme pourrait alors refuser d'accepter votre UTXO ayant subi un coinjoin, ou même exiger des explications de votre part, avec le risque de voir votre compte suspendu ou vos fonds gelés. Dans certains cas, la plateforme peut également signaler votre comportement aux autorités étatiques (c'est, par exemple, ce que demande TRACFIN aux PSAN en France).
 
-![BTC204](assets/fr/184.webp)
+![BTC204](assets/fr/190.webp)
 
 Ce dont nous aurions besoin pour éviter cela est un outil capable d'estomper les traces du passé d'une pièce Bitcoin, afin de lui restituer une certaine forme de fongibilité. C'est précisément l'objectif de ricochet.
 
-![BTC204](assets/fr/185.webp)
+![BTC204](assets/fr/191.webp)
 
 ### C'est quoi un ricochet ?
 
@@ -2603,21 +2611,21 @@ Le ricochet est une technique consistant à réaliser plusieurs transactions fic
 
 Pour estomper l'empreinte laissée par un évènement passé sur une pièce, comme des cycles de coinjoins, par exemple, ricochet exécute quatre transactions successives où l'utilisateur transfère ses fonds à lui-même sur des adresses différentes. 
 
-![BTC204](assets/fr/186.webp)
+![BTC204](assets/fr/192.webp)
 
 Après cet enchaînement de transactions, l'outil ricochet achemine finalement les bitcoins vers leur destination finale, comme par exemple une plateforme d'échange. 
 
-![BTC204](assets/fr/187.webp)
+![BTC204](assets/fr/193.webp)
 
 L'objectif est de créer de la distance affectant la fongibilité de la pièce, tel qu'une transaction coinjoin, et l'acte final de dépense qui pourrait rejeter cette pièce en raison de son passé. Ainsi, les outils d'analyse de chaîne pourraient conclure qu'il y a probablement eu un changement de propriétaire après l'événement, et considérer que cette pièce est fongible. Dans le cas d'un coinjoin, les outils d'analyse de chaîne pourraient alors supposer que ce n'est pas la même personne qui a envoyé les bitcoins et réalisé le coinjoin, et qu'il est donc inutile d'entamer des actions à l'encontre de l'envoyeur.
 
-![BTC204](assets/fr/188.webp)
+![BTC204](assets/fr/194.webp)
 
 ### Pourquoi cela fonctionne ?
 
 Face à cette méthode du ricochet, on pourrait imaginer que les logiciels d'analyse de chaîne approfondissent leur examen au-delà de quatre rebonds. Toutefois, ces plateformes se heurtent à un dilemme dans l'optimisation du seuil de détection. Elles doivent établir un nombre limite de sauts après lequel elles admettent qu'un changement de propriété a vraisemblablement eu lieu et que le lien avec un événement antérieur (comme un coinjoin) doit être ignoré.
 
-![BTC204](assets/fr/189.webp)
+![BTC204](assets/fr/195.webp)
 
 Cependant, la détermination de ce seuil s'avère risquée : chaque extension du nombre de sauts observés accroît de façon exponentielle le volume de faux positifs, c'est-à-dire des individus erronément marqués comme participants à un événement, alors que l'opération a été réalisée par autrui. Ce scénario pose un risque majeur pour ces entreprises, car les faux positifs entraînent de l'insatisfaction, ce qui peut pousser les clients affectés vers la concurrence. À long terme, un seuil de détection trop large conduit une plateforme à perdre davantage de clients que ses concurrents, ce qui pourrait menacer sa viabilité. Il est donc compliqué pour ces plateformes d'augmenter le nombre de rebonds observés, et 4 est souvent un nombre suffisant pour contrer leurs analyses.
 
@@ -2633,24 +2641,24 @@ Le cas d'utilisation le plus courant de ricochet se présente quand il est néce
 
 Cette méthode est efficace non seulement pour les coinjoins, mais aussi pour toute autre marque qui pourrait compromettre la fongibilité d'une pièce.
 
-L'idée de cette méthode du ricochet provient initialement des équipes de Samourai Wallet qui l'ont intégrée dans leur application pour automatiser le processus. Le service est payant sur Samourai, puisqu'un ricochet implique un coût de 100 000 sats pour les frais de service, auxquels s'ajoutent les frais de minage. Ainsi, son utilisation est plutôt recommandée pour des transferts de montants significatifs.
+L’idée de cette méthode du ricochet provient à l’origine des équipes de Samourai Wallet, qui l’avaient intégrée à leur application afin d’en automatiser le fonctionnement. Le service était payant sur Samourai, puisqu’un ricochet entraînait un coût fixe de 100 000 sats pour les frais de service, auxquels s’ajoutaient les frais de minage. Il en va de même aujourd’hui sur Ashigaru. Ainsi, son utilisation est plutôt recommandée pour des transferts portant sur des gros montants.
 
-![BTC204](assets/fr/190.webp)
+![BTC204](assets/fr/196.webp)
 
-L'application Samourai propose deux variantes de ricochet :
-- Le ricochet renforcé, ou "livraison échelonnée", qui offre l'avantage de répartir les frais de service Samourai sur les cinq transactions successives. Cette option assure également que chaque transaction soit diffusée à un moment distinct et inscrite dans un bloc différent, ce qui permet d'imiter le plus fidèlement possible le comportement d'un changement de propriétaire. Bien que plus lente, cette méthode est préférable pour ceux qui ne sont pas pressés, car elle maximise l'efficacité du ricochet en renforçant sa résistance face à l'analyse de chaîne ;
+L'application Ashigaru propose deux variantes de ricochet (les mêmes que l'on avait avant sur Samourai) :
+- Le ricochet renforcé, ou "livraison échelonnée", qui offre l'avantage de répartir les frais de service Ashigaru sur les cinq transactions successives. Cette option assure également que chaque transaction soit diffusée à un moment distinct et inscrite dans un bloc différent, ce qui permet d'imiter le plus fidèlement possible le comportement d'un changement de propriétaire. Bien que plus lente, cette méthode est préférable pour ceux qui ne sont pas pressés, car elle maximise l'efficacité du ricochet en renforçant sa résistance face à l'analyse de chaîne ;
 
-![BTC204](assets/fr/191.webp)
+![BTC204](assets/fr/197.webp)
 
-- Le ricochet classique, qui est conçu pour exécuter l'opération avec rapidité en diffusant toutes les transactions dans un intervalle de temps réduit. Cette méthode, offre donc moins de confidentialité et une résistance aux analyses inférieures à celle de la méthode renforcée. Elle est à privilégier seulement pour des envois urgents.
+- Le ricochet classique est conçu pour exécuter l'opération avec rapidité en diffusant toutes les transactions dans un intervalle de temps réduit. Cette méthode offre donc moins de confidentialité et une résistance aux analyses inférieure à celle de la méthode renforcée. Elle est à privilégier seulement pour des envois urgents.
 
-![BTC204](assets/fr/192.webp)
+![BTC204](assets/fr/198.webp)
 
 Le ricochet consiste simplement à s'envoyer des bitcoins à soi-même. Il est donc tout à fait possible de faire un ricochet manuellement sur n'importe quel logiciel de portefeuille, sans utiliser un outil spécialisé. Il suffit de transférer successivement la même pièce à soi-même, en utilisant à chaque fois une nouvelle adresse vierge.
 
-Dans le chapitre suivant, nous étudions différentes techniques de transferts secrets de propriété. Ces méthodes diffèrent radicalement de celles que nous avons examinées jusqu'à présent, tant en termes de fonctionnement que de résultats.
+Dans le chapitre suivant, nous étudierons différentes techniques de transferts secrets de propriété. Ces méthodes diffèrent radicalement de celles que nous avons examinées jusqu'à présent, tant en termes de fonctionnement que de résultats.
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Les transferts secrets de propriété
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -2663,19 +2671,19 @@ Parmi les techniques de confidentialité sur Bitcoin, il existe aussi le transfe
 
 Le coinswap repose sur un concept relativement simple : il utilise des contrats intelligents pour faciliter un transfert de propriété de bitcoins entre deux utilisateurs, sans besoin de confiance et sans que ce transfert soit explicitement visible sur la blockchain.
 
-![BTC204](assets/fr/193.webp)
+![BTC204](assets/fr/199.webp)
 
 Imaginons un exemple naïf avec Alice et Bob. Alice détient 1 BTC sécurisé avec la clé privée $A$, et Bob en possède également 1, sécurisé avec la clé privée $B$. Ils pourraient théoriquement échanger leurs clés privées via un canal de communication externe pour réaliser un transfert secret.
 
-![BTC204](assets/fr/194.webp)
+![BTC204](assets/fr/200.webp)
 
 Cependant, cette méthode naïve présente un risque élevé en termes de confiance. Rien n'empêche Alice de conserver une copie de la clé privée $A$ après l'échange et de l'utiliser ultérieurement pour dérober les bitcoins, une fois que la clé est entre les mains de Bob.
 
-![BTC204](assets/fr/195.webp)
+![BTC204](assets/fr/201.webp)
 
 De plus, il n'existe aucune garantie qu'Alice, une fois reçue la clé privée $B$ de Bob, transmette en échange sa clé privée $A$. Cet échange repose donc sur une confiance massive entre les parties et s'avère inefficace pour assurer un transfert secret de propriété de manière sécurisée.
 
-![BTC204](assets/fr/196.webp)
+![BTC204](assets/fr/202.webp)
 
 Pour résoudre ces problèmes et permettre des échanges entre parties qui ne se font pas confiance, on va plutôt utiliser des systèmes de contrats intelligents. Un contrat intelligent est un programme qui s'exécute automatiquement lorsque des conditions prédéfinies sont satisfaites, ce qui, dans notre cas, assure ainsi que l'échange de propriété se réalise de manière automatique sans nécessiter de confiance mutuelle.
 
@@ -2697,13 +2705,13 @@ Dans un coinswap, l'utilisation d'Adaptor Signatures permet un dévoilement simu
 
 $$s_A = n_A + t + H(N_A + T \parallel P_A \parallel m_A) \cdot p_A$$
 
-* Alice calcule l'Adaptor Signature $s_A'$ en soustrayant le secret $t$ de sa vraie signature $s_A$ :
+**Alice calcule l'Adaptor Signature** $s_A'$ **en soustrayant le secret** $t$ **de sa vraie signature** $s_A$ **:**
 
 $$s_A' = s_A - t$$
 
 * Alice envoie à Bob son Adaptor Signature $s'_A$, sa transaction non signée $m_A$, le point correspondant au secret ($T$), et le point correspondant au nonce ($N_A$). Ces éléments constituent ce que l'on appelle un "*adaptor*". Il est important de noter que, avec ces informations seules, Bob ne peut pas récupérer le BTC d'Alice.
 
-* Cependant, Bob a la possibilité de vérifier qu'Alice ne cherche pas à le voler. Pour ce faire, il vérifie si l'Adaptor Signature d'Alice $s_A'$ correspond effectivement à la transaction proposée $m_A$. Si l'équation suivante est juste, il peut alors être sûr que l'Adaptor Signature d'Alice est valide :
+*Cependant, Bob a la possibilité de vérifier qu'Alice ne cherche pas à le voler. Pour ce faire, il vérifie si l'Adaptor Signature d'Alice $s_A'$ correspond effectivement à la transaction proposée $m_A$. Si l'équation suivante est juste, il peut alors être sûr que l'Adaptor Signature d'Alice est valide :*
 
 $$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
 
@@ -2717,11 +2725,11 @@ $$s_B = s_B' + t$$
 
 $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \parallel P_B \parallel m_B) \cdot P_B$$
 
-* Alice diffuse cette transaction $m_B$ signée sur la blockchain Bitcoin pour récupérer le BTC promis par Bob. Lorsque Bob voit cette transaction sur la blockchain, il peut en extraire la signature $s_B = s_B' + t$. Avec cette information, Bob est alors capable d'isoler le fameux secret $t$ dont il avait besoin :
+**Alice diffuse cette transaction $m_B$ signée sur la blockchain Bitcoin pour récupérer le BTC promis par Bob. Lorsque Bob voit cette transaction sur la blockchain, il peut en extraire la signature $s_B = s_B' + t$. Avec cette information, Bob est alors capable d'isoler le fameux secret $t$ dont il avait besoin :**
 
 $$t = (s_B' + t) - s_B' = s_B - s_B'$$
 
-* Et justement, ce secret $t$ était le seul élément manquant pour que Bob puisse générer la signature valide $s_A$ à partir de l'Adaptor Signature d'Alice $s_A'$. Cette signature permet de valider la transaction $m_A$ qui envoie un BTC d'Alice à Bob. Bob calcule alors $s_A$ et diffuse à son tour la transaction $m_A$ sur la blockchain : 
+*Et justement, ce secret $t$ était le seul élément manquant pour que Bob puisse générer la signature valide $s_A$ à partir de l'Adaptor Signature d'Alice $s_A'$. Cette signature permet de valider la transaction $m_A$ qui envoie un BTC d'Alice à Bob. Bob calcule alors $s_A$ et diffuse à son tour la transaction $m_A$ sur la blockchain :*
 
 $$s_A = s_A' + t$$
 
@@ -2735,11 +2743,11 @@ Notons que les coinswaps ont été proposés pour la première fois par [Gregory
 
 De manière similaire au coinswap et en utilisant les mêmes types de contrats intelligents, il est également possible de réaliser des atomic swaps. Un atomic swap permet un échange direct de cryptomonnaies différentes, comme par exemple du BTC et du XMR, entre deux utilisateurs sans nécessiter de confiance ni l'intervention d'un intermédiaire. Ces échanges sont qualifiés d'"atomiques" car ils ont seulement deux issues possibles : soit l'échange est réussi et les deux parties sont satisfaites, soit il échoue et chacun conserve ses cryptomonnaies initiales, éliminant ainsi le besoin de faire confiance à l'autre partie.
 
-![BTC204](assets/fr/197.webp)
+![BTC204](assets/fr/203.webp)
 
 L'atomic swap et le coinswap partagent une méthode de fonctionnement similaire et offrent les mêmes avantages et inconvénients en termes de confidentialité. En effet, du point de vue de Bitcoin, un atomic swap est comparable à un coinswap réalisé en deux étapes. On échange d'abord nos BTC contre une autre cryptomonnaie, puis cette cryptomonnaie peut être échangée contre d'autres BTC. Au final, on récupère donc les BTC d'un autre utilisateur. C'est pourquoi, dans l'analyse des enjeux de confidentialité, je regroupe ces deux protocoles sous la catégorie des échanges secrets de propriété.
 
-![BTC204](assets/fr/198.webp)
+![BTC204](assets/fr/204.webp)
 
 Attention toutefois, contrairement au coinswap, l'atomic swap peut avoir des déséquilibres en termes de liquidités disponibles, notamment dans les échanges BTC/XMR. Il est généralement plus facile d'échanger des bitcoins contre des altcoins, car il y a une forte demande pour les bitcoins, ce qui maintient les premiums bas pour ce sens de conversion. Cependant, échanger des altcoins pour obtenir des BTC peut s'avérer plus complexe en raison d'une demande moindre, entraînant souvent des premiums très élevés.
 
@@ -2751,17 +2759,17 @@ Les transferts secrets de propriété, tels que les coinswaps et les atomic swap
 
 En effet, lorsqu'Alice réalise un coinswap ou un atomic swap avec Bob, elle échange la possession de ses bitcoins avec ceux de Bob. Dans le cas de l'atomic swap, l'échange inclut un altcoin, mais le principe reste le même. Ainsi, Alice se retrouve avec la pièce $B$ et Bob avec la pièce $A$. Cela ajoute du doute dans l'analyse de chaîne, mais l'historique des pièces reste traçable. Si un analyste examine la pièce $A$, il peut remonter jusqu'aux activités antérieures d'Alice, et vice versa pour la pièce $B$.
 
-![BTC204](assets/fr/199.webp)
+![BTC204](assets/fr/205.webp)
 
 Du point de vue d'Alice, le risque est que l'historique de la pièce $B$ puisse être jugé suspect par certaines entités. Si, par exemple, Bob avait acquis la pièce $B$ lors d'un acte criminel comme un piratage, cette pièce resterait liée à ses activités illégales. Alice pourrait alors se retrouver en possession d'une pièce qu'elle ne pourrait pas transférer sur des plateformes d'échange régulées sans risquer de voir ses fonds gelés, voire d'être accusée des crimes de Bob, bien qu'elle n'y soit pour rien.
 
-![BTC204](assets/fr/200.webp)
+![BTC204](assets/fr/206.webp)
 
 Et forcément, les méthodes de confidentialité comme le coinswap ou l'atomic swap sont plébiscitées par des criminels dont les fonds sont surveillés par les autorités. Ces protocoles leur offrent la possibilité de se défaire de leurs bitcoins sous surveillance en échange de bitcoins parfaitement fongibles. Cela leur permet également de créer une diversion, en orientant les autorités vers d'autres utilisateurs. Il y a donc une double utilité pour ces personnes.
 
 Avec le coinjoin, même si votre pièce est mélangée avec des bitcoins surveillés, l'historique de la pièce est cassé, ce qui procure une forme de déni plausible qui est inexistante dans les protocoles de transferts secrets de propriété comme le coinswap ou l'atomic swap.
 
-![BTC204](assets/fr/201.webp)
+![BTC204](assets/fr/207.webp)
 
 Si Alice souhaite éviter tout risque, elle doit nécessairement utiliser une méthode pour casser l'historique de la pièce $B$, comme la passer dans des coinjoins par exemple. Cela soulève une question sur l'utilité de combiner le transfert secret de propriété et le coinjoin. Le coinjoin, en brisant l'historique d'une pièce, offre déjà un niveau de confidentialité suffisant pour Alice. Ainsi, mon opinion est que si Alice cherche à protéger sa vie privée, il serait plus judicieux de procéder directement à un coinjoin plutôt que d'engager un coinswap suivi d'un coinjoin.
 
@@ -2786,33 +2794,33 @@ Cette association entre une activité sur Bitcoin et une adresse IP représente 
 
 Dans le fonctionnement classique de Bitcoin, les transactions construites par un utilisateur sur son logiciel de portefeuille sont transmises à son nœud personnel. Celui-ci va immédiatement diffuser la nouvelle transaction à tous les pairs auxquels il est connecté. 
 
-![BTC204](assets/fr/202.webp)
+![BTC204](assets/fr/208.webp)
 
 Ces pairs vérifient ensuite la transaction pour s'assurer qu'elle respecte les règles de consensus et les règles locales de standardisation. Une fois validée, chaque pair transmet à son tour la transaction à ses propres pairs, et ainsi de suite.
 
-![BTC204](assets/fr/203.webp)
+![BTC204](assets/fr/209.webp)
 
 Cette diffusion des transactions en attente d'intégration dans un bloc se fait de manière assez équilibrée et statistiquement prévisible. Cette faiblesse peut être exploitée par des nœuds espions complices, qui collaborent pour surveiller et analyser le réseau, afin d'identifier le premier nœud à avoir diffusé une transaction. Si un observateur parvient à localiser le nœud source, il peut supposer que la transaction émane de l'opérateur de ce nœud. Ce type d'observation peut permettre de relier des transactions, normalement anonymes, à des adresses IP spécifiques.
 
-![BTC204](assets/fr/204.webp)
+![BTC204](assets/fr/210.webp)
 
 L'objectif du BIP156 est de traiter ce problème. Pour ce faire, il introduit une phase supplémentaire dans la diffusion d'une nouvelle transaction permettant de préserver l'anonymat avant la large propagation publique. Dandelion utilise d'abord une phase de "tige" où la transaction est envoyée à travers un chemin aléatoire de nœuds.
 
-![BTC204](assets/fr/205.webp)
+![BTC204](assets/fr/211.webp)
 
 La transaction est ensuite diffusée à l'ensemble du réseau dans la phase de "*Fluff*".
 
-![BTC204](assets/fr/206.webp)
+![BTC204](assets/fr/212.webp)
 
 La tige et la "*Fluff*" sont des références au comportement de la propagation de la transaction à travers le réseau, qui ressemble à la forme et l'évolution d'un pissenlit ("*Dandelion*" en anglais).
 
 Ainsi, les nœuds espions peuvent potentiellement remonter la transaction jusqu'au nœud qui a lancé la phase de "*Fluff*" (la diffusion massive), mais ce nœud n'est pas celui qui a diffusé la transaction en premier, car il l'a reçue du dernier nœud de la tige. Si les nœuds espions ne peuvent pas remonter la tige, ils ne peuvent pas non plus identifier le nœud source.
 
-![BTC204](assets/fr/207.webp)
+![BTC204](assets/fr/213.webp)
 
 Même en présence de nœuds espions durant la phase de tige, un doute subsiste toujours, car dès qu'ils rencontrent un nœud honnête dans le graphe de diffusion, les espions ne peuvent pas déterminer si ce nœud est la source originale ou simplement un intermédiaire.
 
-![BTC204](assets/fr/208.webp)
+![BTC204](assets/fr/214.webp)
 
 Cette méthode de routage permet de brouiller la piste menant au nœud source, ce qui rend difficile de remonter jusqu'à l'origine d'une transaction via le réseau. Dandelion améliore donc la confidentialité en limitant la capacité des adversaires à désanonymiser le réseau. Cette méthode est d'autant plus efficace lorsque la transaction croise durant la phase de "tige" un nœud qui chiffre ses communications réseau, comme avec Tor ou P2P Transport V2. 
 
@@ -2836,7 +2844,7 @@ Une autre solution assez simple à mettre en place pour éviter les risques de p
 
 Tor est un réseau de serveurs relais (nœuds) qui permet d'anonymiser l'origine des connexions TCP sur internet. Il fonctionne en encapsulant les données dans plusieurs couches de chiffrement. Chaque nœud de relais enlève une couche pour révéler l'adresse du nœud suivant, jusqu'à atteindre la destination finale. Le réseau Tor assure l'anonymat en empêchant les nœuds intermédiaires de connaître à la fois l'origine et la destination des données, ce qui rend très difficile pour un observateur de remonter les traces d'activité de l'utilisateur. 
 
-![BTC204](assets/fr/209.webp)
+![BTC204](assets/fr/215.webp)
 
 Tor offre donc non seulement le chiffrement des données communiquées, mais permet aussi de masquer l'origine et la destination des communications. En utilisant Tor pour les communications de son nœud personnel, on renforce la confidentialité de nos transactions : le fournisseur d'accès Internet ne peut pas déchiffrer les communications, et les autres nœuds du réseau Bitcoin ne peuvent pas identifier l'adresse IP du nœud source. De plus, Tor masque également à votre fournisseur d'accès Internet votre utilisation même de Bitcoin.
 
@@ -2853,11 +2861,11 @@ Après avoir exploré les différentes méthodes de confidentialité au niveau d
 
 Comme nous l'avons vu dans la partie 3, la réutilisation d'adresses constitue un sérieux obstacle à la confidentialité des utilisateurs sur le protocole Bitcoin. Pour pallier ces risques, il est vivement recommandé de générer une adresse de réception vierge pour chaque nouveau paiement reçu dans un portefeuille. Bien que générer une nouvelle adresse soit aujourd'hui simplifié par l'emploi de logiciels modernes et de portefeuilles déterministes hiérarchiques, cette pratique peut sembler contre-intuitive.
 
-![BTC204](assets/fr/210.webp)
+![BTC204](assets/fr/216.webp)
 
 Dans le système bancaire traditionnel, par exemple, nous sommes habitués à partager notre IBAN, qui reste toujours identique. Une fois communiqué à quelqu'un, celui-ci peut nous adresser de multiples paiements sans avoir à interagir de nouveau avec nous. Les néo-banques offrent également des possibilités plus modernes comme l'utilisation d'adresses email uniques sur PayPal ou de RevTags sur Revolut. Même en dehors du domaine financier, nos identifiants quotidiens tels que notre adresse postale, notre numéro de téléphone et notre adresse email sont également uniques et permanents. Nous n'avons pas à les renouveler à chaque nouvelle interaction. 
 
-![BTC204](assets/fr/211.webp)
+![BTC204](assets/fr/217.webp)
 
 Cependant, le fonctionnement de Bitcoin est différent : il est impératif de générer une nouvelle adresse de réception pour chaque transaction entrante. Ce compromis entre praticité d'utilisation et confidentialité remonte à l'origine même du White Paper de Bitcoin. Dès la publication de la première version de son document fin 2008, Satoshi Nakamoto nous alertait déjà sur ce risque :
 
@@ -2865,7 +2873,7 @@ Cependant, le fonctionnement de Bitcoin est différent : il est impératif de g�
 
 Il existe de nombreuses méthodes permettant de recevoir plusieurs paiements sur un identifiant unique sans entraîner de réutilisation d'adresse. Chacune présente ses propres compromis et inconvénients. Parmi ces méthodes, il y a le BIP47, une proposition élaborée par Justus Ranvier et publiée en 2015. Cette proposition vise à créer des codes de paiement réutilisables qui permettent d'effectuer plusieurs transactions envers une même personne, tout en évitant la réutilisation d'adresses. En somme, le BIP47 cherche à offrir un système de paiement aussi intuitif qu'un identifiant unique, tout en préservant la confidentialité des transactions.
 
-![BTC204](assets/fr/212.webp)
+![BTC204](assets/fr/218.webp)
 
 Le BIP47 n'améliore pas directement la confidentialité des utilisateurs, car un paiement BIP47 offre le même niveau de confidentialité qu'une transaction Bitcoin classique utilisant des adresses vierges. Toutefois, il rend l'utilisation de Bitcoin plus pratique et intuitive, une facilité qui, normalement, devrait compromettre la confidentialité. Grâce au BIP47, cette facilité d'utilisation atteint le même niveau de confidentialité qu'une transaction classique. En cela le BIP47 est un outil précieux pour la préservation de la vie privée.
 
@@ -2875,17 +2883,17 @@ Initialement, le BIP47 était une proposition formulée pour être intégrée da
 
 Le BIP47 a pour objectif de permettre la réception de nombreux paiements sans produire de réutilisation d'adresse. Il repose sur l'utilisation d'un code de paiement réutilisable, qui permet à différents émetteurs d'envoyer plusieurs paiements vers un seul et même code appartenant à un autre utilisateur. Ainsi, le destinataire n'a pas à fournir une nouvelle adresse vierge pour chaque transaction, ce qui facilite grandement ses échanges tout en préservant sa confidentialité.
 
-![BTC204](assets/fr/213.webp)
+![BTC204](assets/fr/219.webp)
 
 Un utilisateur peut donc partager son code de paiement en toute liberté, que ce soit sur les réseaux sociaux ou sur son site web, sans risquer de perdre en confidentialité, contrairement à ce qui se passerait avec une adresse de réception classique ou une clé publique.
 
-Pour effectuer une transaction, les deux parties doivent posséder un portefeuille Bitcoin avec une implémentation du BIP47, telle que PayNym sur Samourai Wallet ou Sparrow Wallet. L'utilisation conjointe de leurs codes de paiement crée un canal secret entre eux. Pour établir ce canal de manière efficace, l'émetteur doit effectuer une transaction spécifique sur la blockchain Bitcoin, connue sous le nom de "transaction de notification" (je vous en donnerai les détails ultérieurement).
+Pour effectuer une transaction, les deux parties doivent posséder un portefeuille Bitcoin avec une implémentation du BIP47, telle que PayNym sur Ashigaru ou Sparrow Wallet. L'utilisation conjointe de leurs codes de paiement crée un canal secret entre eux. Pour établir ce canal de manière efficace, l'émetteur doit effectuer une transaction spécifique sur la blockchain Bitcoin, connue sous le nom de "transaction de notification" (je vous en donnerai les détails ultérieurement).
 
 L'association des codes de paiements des deux utilisateurs permet de générer des secrets partagés, qui permettent à leur tour de créer un grand nombre d'adresses de réception Bitcoin uniques (exactement 2^32, soit environ 4 milliards). Ainsi, les paiements effectués via le BIP47 ne sont pas réellement adressés au code de paiement lui-même, mais plutôt à des adresses de réception classiques dérivées des codes de paiement des utilisateurs impliqués.
 
 Le code de paiement sert ainsi d'identifiant virtuel issu de la graine du portefeuille. Dans la structure de dérivation hiérarchique du portefeuille, le code de paiement est positionné au niveau 3, c'est-à-dire au niveau des comptes.
 
-![BTC204](assets/fr/214.webp)
+![BTC204](assets/fr/220.webp)
 
 L'objectif de dérivation pour le BIP47 est identifié par l'index `47'` (`0x8000002F`), faisant référence au BIP47. Un exemple de chemin de dérivation pour un code de paiement réutilisable serait le suivant :
 ```plaintext
@@ -2899,7 +2907,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Ce code peut également être encodé en QR code, afin de faciliter sa communication, tout comme une adresse de réception classique.
 
-Concernant les PayNym Bots, ces robots que l'on aperçoit parfois sur X (Twitter), il s'agit de représentations visuelles du code de paiement, créées par Samourai Wallet. Elles sont générées via une fonction de hachage, ce qui leur confère une quasi-unicité. Ils se présentent sous forme d'une petite chaîne de caractères débutant par `+` :
+Concernant les PayNym Bots, ces robots que l'on aperçoit parfois sur X (Twitter), il s'agit de représentations visuelles du code de paiement, créées par Samourai Wallet. Dorénavant avec Ashigaru, elles sont légèrement différentes, mais le principe reste le même. Elles sont générées via une fonction de hachage, ce qui leur confère une quasi-unicité. Ils se présentent sous forme d'une petite chaîne de caractères débutant par `+` :
 ```plaintext
 +throbbingpond8B1
 +twilightresonance487
@@ -2908,15 +2916,15 @@ Concernant les PayNym Bots, ces robots que l'on aperçoit parfois sur X (Twitter
 
 Ces avatars peuvent aussi être représentés sous forme d'images :
 
-![BTC204](assets/fr/215.webp)
+![BTC204](assets/fr/221.webp)
 
 Bien que ces robots n'aient pas de fonctionnalité technique spécifique dans le cadre du BIP47, ils jouent un rôle dans la facilitation des interactions entre utilisateurs en offrant une identité visuelle facilement reconnaissable.
 
 ---
 
-*Dans les sections suivantes de ce chapitre dédié au BIP47, nous allons examiner en détail son fonctionnement, en mettant un accent particulier sur les méthodes cryptographiques utilisées. Pour saisir pleinement ces explications quelque peu techniques, il est essentiel de comprendre au préalable la structure des portefeuilles HD, les procédés de dérivation de clés et les principes fondamentaux de la cryptographie basée sur les courbes elliptiques. Si vous souhaitez approfondir ces concepts, une autre formation gratuite est disponible sur Plan ₿ Network :*
+*Dans les sections suivantes de ce chapitre dédié au BIP47, nous allons examiner en détail son fonctionnement, en mettant un accent particulier sur les méthodes cryptographiques utilisées. Pour saisir pleinement ces explications quelque peu techniques, il est essentiel de comprendre au préalable la structure des portefeuilles HD, les procédés de dérivation de clés et les principes fondamentaux de la cryptographie basée sur les courbes elliptiques. Si vous souhaitez approfondir ces concepts, une autre formation gratuite est disponible sur Plan ₿ Academy :*
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *Je vous conseille tout de même de les suivre, car en comprenant le fonctionnement technique du BIP47, vous comprendrez beaucoup plus facilement d'autres propositions similaires dont nous allons parler dans les chapitres suivants.*
 
@@ -2939,7 +2947,7 @@ Voici la représentation hexadécimale de mon code de paiement réutilisable dé
 0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
-![BTC204](assets/fr/216.webp)
+![BTC204](assets/fr/222.webp)
 
 Ensuite, il faut également ajouter au début l'octet du préfixe `P` pour indiquer clairement qu'il s'agit d'un code de paiement. Cet octet est représenté par `0x47` :
 ```plaintext
@@ -2951,7 +2959,7 @@ Enfin, pour assurer l'intégrité du code de paiement, on procède à un calcul 
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 ```
 
-![BTC204](assets/fr/217.webp)
+![BTC204](assets/fr/223.webp)
 
 Une fois ces étapes complétées, le code de paiement est prêt. Il ne reste plus qu'à le convertir en base 58 pour obtenir sa version finale :
 ```plaintext
@@ -2965,7 +2973,7 @@ m/47'/0'/0'/
 
 Concrètement, pour générer la clé publique compressée et le code de chaîne associés au code de paiement réutilisable, nous commençons par calculer la clé privée maîtresse à partir de la graine du portefeuille. Nous procédons ensuite à la dérivation d'une paire de clés filles en utilisant l'indice `47 + 2^31` (dérivation renforcée). Cette étape est suivie de deux autres dérivations successives de paires filles, chacune utilisant l'indice `2^31` (dérivation renforcée).
 
-![BTC204](assets/fr/218.webp)
+![BTC204](assets/fr/224.webp)
 
 ### L'échange de clés Diffie-Hellman établi sur les courbes elliptiques (ECDH)
 
@@ -2973,11 +2981,11 @@ Le protocole cryptographique au cœur du BIP47 est désigné sous l'acronyme ECD
 
 Introduit en 1976, Diffie-Hellman est un protocole d'accord de clés qui permet à deux parties, munies chacune d'une paire de clés (publique et privée), de convenir d'un secret commun, même en communiquant uniquement via un canal public et non sécurisé.
 
-![BTC204](assets/fr/219.webp)
+![BTC204](assets/fr/225.webp)
 
 Ce secret commun (ici la clé bleue), peut alors servir à d'autres opérations. Typiquement, on peut utiliser ce secret partagé pour chiffrer et déchiffrer une communication sur un réseau non sécurisé :
 
-![BTC204](assets/fr/220.webp)
+![BTC204](assets/fr/226.webp)
 
 Pour réussir cet échange, Diffie-Hellman utilise l'arithmétique modulaire afin de calculer le secret partagé. Voici son fonctionnement vulgarisé :
 - Alice et Bob s'accordent sur une couleur commune, ici le jaune, qui constitue une donnée publique (les attaquants connaissent cette couleur) ;
@@ -2987,7 +2995,7 @@ Pour réussir cet échange, Diffie-Hellman utilise l'arithmétique modulaire afi
 - En mélangeant le vert de Bob à sa propre couleur secrète, Alice produit du marron ;
 - Bob, faisant de même avec l'orange d'Alice et son bleu secret, obtient également du marron.
 
-![BTC204](assets/fr/221.webp)
+![BTC204](assets/fr/227.webp)
 
 Dans cette vulgarisation, la couleur marron représente le secret partagé entre Alice et Bob. Il faut imaginer qu'en réalité, il est impossible pour l'attaquant de séparer les couleurs orange et verte, afin de retrouver les couleurs secrètes d'Alice ou de Bob.
 
@@ -3079,7 +3087,7 @@ $$
 
 Grâce à la distributivité de l'opérateur modulo, Alice et Bob obtiennent exactement la même valeur $z$. Ce nombre représente leur secret commun, équivalent à **la couleur marron** dans la vulgarisation précédente avec les pots de peinture. Ils peuvent maintenant utiliser ce secret commun pour chiffrer leurs communications de manière symétrique sur un réseau non sécurisé.
 
-![BTC204](assets/fr/222.webp)
+![BTC204](assets/fr/228.webp)
 
 Un attaquant, même en possession de $p$, $g$, $A$ et $B$ (les valeurs publiques), ne pourra pas calculer $a$, $b$ ou $z$ (les valeurs privées). Pour y parvenir, il faudrait inverser l'exponentiation, une opération impossible sans essayer toutes les possibilités une par une, car cela revient à calculer le logarithme discret, c'est-à-dire la réciproque de l'exponentielle dans un groupe cyclique fini.
 
@@ -3147,7 +3155,7 @@ TLS est notamment responsable du `s` dans `https` ainsi que du cadenas visible d
 
 Comme nous l'avons vu dans la partie précédente, ECDH est une variante de l'échange Diffie-Hellman utilisant des paires de clés établies sur une courbe elliptique. Cela tombe bien, nous possédons déjà de nombreuses paires de clés respectant ce standard dans nos portefeuilles Bitcoin ! L'idée du BIP47 est d'utiliser les paires de clés des portefeuilles déterministes hiérarchiques Bitcoin des deux parties pour établir des secrets partagés et éphémères entre elles. Dans le cadre du BIP47, on utilise donc plutôt ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***).
 
-![BTC204](assets/fr/223.webp)
+![BTC204](assets/fr/229.webp)
 
 ECDHE est utilisé une première fois dans le BIP47 pour transmettre le code de paiement de l'expéditeur vers le destinataire. C'est la fameuse **transaction de notification**. Cette étape est essentielle car pour que le BIP47 fonctionne efficacement, les deux parties impliquées (l'expéditeur et le destinataire) doivent connaître le code de paiement de l'autre. Cette connaissance permet la dérivation des clés publiques éphémères et, par conséquent, des adresses de réception vierges associées.
 
@@ -3155,7 +3163,7 @@ Avant cet échange, l'expéditeur est logiquement déjà en connaissance du code
 
 En effet, contrairement aux adresses conventionnelles, les adresses BIP47 ne sont pas dérivées directement depuis la graine du destinataire — utiliser une `xpub` serait plus simple dans ce cas — mais résultent d'un calcul combinant les deux codes de paiement : celui de l'expéditeur et celui du destinataire. Ainsi, si le destinataire perd son portefeuille et tente de le restaurer à partir de sa graine, il récupérera son propre code de paiement, qui est directement dérivé de sa graine. Cependant, pour retrouver les adresses éphémères, il lui sera indispensable de disposer également des codes de paiement de tous ceux qui lui ont envoyé des bitcoins via le BIP47. D'où l'importance de la transaction de notification qui permet de sauvegarder ces informations sur la blockchain de Bitcoin, tout en pouvant le retrouver très facilement sans avoir à chercher dans le milliard de transactions exécutées depuis son lancement en 2009.
 
-![BTC204](assets/fr/224.webp)
+![BTC204](assets/fr/230.webp)
 
 Il serait donc possible de mettre en œuvre le BIP47 sans recourir à la transaction de notification, à condition que chaque utilisateur conserve une sauvegarde des codes de paiement de ses pairs. Cependant, cette méthode se révèle complexe à gérer tant qu'une solution simple, robuste et efficace pour réaliser, stocker et actualiser ces sauvegardes n'est pas développée. Dans l'état actuel des choses, la transaction de notification s'avère donc presque incontournable.
 
@@ -3167,7 +3175,7 @@ Outre son rôle de sauvegarde des codes de paiement, la transaction de notificat
 
 Avant de détailler le fonctionnement technique de la transaction de notification, il est important de discuter du modèle de confidentialité associé au BIP47, qui justifie certaines mesures prises lors de la création de cette transaction initiale.
 
-Le code de paiement, en soi, ne présente pas un risque direct pour la confidentialité. À l'inverse du modèle traditionnel de Bitcoin, qui vise à briser le lien entre l'identité de l'utilisateur et ses transactions (qui sont publiques) en préservant l'anonymat des clés et des adresses, le code de paiement peut être ouvertement associé à une identité sans constituer une menace.
+Le code de paiement, en lui-même, ne présente pas de risque direct pour la confidentialité. Contrairement au modèle traditionnel de Bitcoin, qui vise à rompre le lien entre l'identité de l'utilisateur et ses transactions (qui sont publiques) en préservant l'anonymat des clés et des adresses, le code de paiement peut être ouvertement associé à une identité sans constituer une menace.
 
 En effet, le code de paiement n'est pas utilisé pour dériver directement les adresses recevant les paiements BIP47. Ces adresses sont plutôt générées via l'application d'ECDH entre les clés dérivées des codes de paiement des deux parties concernées.
 
@@ -3185,7 +3193,7 @@ Comment leur transmettre mon code sans risque ? L'utilisation de moyens de commu
 
 Dans le schéma ci-dessous, les traits oranges indiquent les points où le flux d'informations doit être interrompu, et les flèches noires montrent les connexions potentiellement observables par des tiers :
 
-![BTC204](assets/fr/225.webp)
+![BTC204](assets/fr/231.webp)
 
 En réalité, dans le modèle de confidentialité traditionnel de Bitcoin, il est souvent complexe de dissocier complètement le flux d'informations entre la paire de clés et l'utilisateur, surtout lors de transactions à distance. Par exemple, dans le cadre d'une campagne de donation, le bénéficiaire doit inévitablement divulguer une adresse ou une clé publique via son site web ou ses réseaux sociaux. L'emploi correct du BIP47, notamment avec la transaction de notification, permet de contourner ce problème grâce à l'ECDHE et à la couche de chiffrement que nous étudierons plus loin.
 
@@ -3201,7 +3209,7 @@ Maintenant, voyons comment fonctionne cette transaction de notification. Imagino
 
 - Elle sélectionne une paire de clés au sein de son portefeuille HD se trouvant sur une branche différente de son code de paiement. Attention, cette paire ne doit pas être associée facilement à l'adresse de notification d'Alice, ni à l'identité d'Alice (voir section précédente) ;
 
-- Alice sélectionne la clé privée de cette paire. Nous la nommons $a$ (minuscule) ;
+- Alice sélectionne la clé privée de cette paire. Nous la nommons $a$ (minuscule) :
 
 $$
 a
@@ -3209,15 +3217,21 @@ $$
 
 - Alice récupère la clé publique associée à l'adresse de notification de Bob. Cette clé est la première fille dérivée depuis le code de paiement de Bob (index $/0$). Nous nommons cette clé publique $B$ (majuscule). La clé privée associée à cette clé publique est nommée $b$ (minuscule). $B$ est déterminée par addition et doublement de points sur la courbe elliptique depuis $G$ (le point générateur) avec $b$ (la clé privée) :
 
-$$ B = b \cdot G $$
+$$
+B = b \cdot G 
+$$
 
-- Alice calcule un point secret $S$ (majuscule) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $a$ à partir de la clé publique de Bob $B$.
+- Alice calcule un point secret $S$ (majuscule) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $a$ à partir de la clé publique de Bob $B$ :
 
-$$ S = a \cdot B $$
+$$ 
+S = a \cdot B 
+$$
 
-- Alice calcule le facteur aveuglant $f$ qui va permettre de chiffrer son code de paiement. Pour cela, elle va déterminer un nombre pseudo aléatoire avec la fonction HMAC-SHA512. En seconde entrée de cette fonction, elle utilise une valeur que seul Bob sera en capacité de retrouver : $x$ qui est l'abscisse du point secret calculé précédemment. La première entrée est $o$ qui est l'UTXO consommé en input de cette transaction (outpoint).
+- Alice calcule le facteur aveuglant $f$ qui va permettre de chiffrer son code de paiement. Pour cela, elle va déterminer un nombre pseudo-aléatoire avec la fonction HMAC-SHA512. En seconde entrée de cette fonction, elle utilise une valeur que seul Bob sera en capacité de retrouver : $x$ qui est l'abscisse du point secret calculé précédemment. La première entrée est $o$ qui est l'UTXO consommé en input de cette transaction (outpoint) :
 
-$$ f = \text{HMAC-SHA512}(o, x) $$
+$$ 
+f = \text{HMAC-SHA512}(o, x) 
+$$
 
 **2- Alice convertit son code de paiement personnel en base 2 (binaire).**
 
@@ -3225,12 +3239,18 @@ $$ f = \text{HMAC-SHA512}(o, x) $$
 
 - Alice sépare dans un premier temps son facteur aveuglant en deux : les 32 premiers octets sont nommés $f1$ et les 32 derniers octets sont nommés $f2$. On a donc :
 
-$$ f = f1 || f2 $$
+$$ 
+f = f1 || f2 
+$$
 
-- Alice calcule le chiffré $x'$ de l'abscisse de la clé publique $x$ de son code de paiement, et le chiffré $c'$ de son code de chaîne $c$ séparément. $f1$ et $f2$ agissent respectivement comme clés de chiffrement. L'opération utilisée est le `XOR` (ou exclusif).
+- Alice calcule le chiffré $x'$ de l'abscisse de la clé publique $x$ de son code de paiement, et le chiffré $c'$ de son code de chaîne $c$ séparément. $f1$ et $f2$ agissent respectivement comme clés de chiffrement. L'opération utilisée est le `XOR` (ou exclusif) :
 
-$$ x' = x \oplus f1 $$
-$$ c' = c \oplus f2 $$
+$$ 
+x' = x \oplus f1 
+$$
+$$ 
+c' = c \oplus f2 
+$$
 
 - Alice remplace les valeurs réelles de l'abscisse de la clé publique $x$ et du code de chaîne $c$ dans son code de paiement par les valeurs chiffrées $x'$ et $c'$.
 
@@ -3248,13 +3268,13 @@ Je récapitule les étapes que l'on vient de voir ensemble pour réaliser une tr
 - Elle utilise ce facteur aveuglant pour chiffrer la charge utile de son code de paiement personnel ;
 - Elle utilise une sortie de transaction `OP_RETURN` pour communiquer le code de paiement masqué à Bob.
 
-![BTC204](assets/fr/226.webp)
+![BTC204](assets/fr/232.webp)
 
 ### Transaction de notification : étude concrète
 
 Afin de comprendre plus en détail son fonctionnement, et notamment l'utilisation de l'`OP_RETURN`, étudions ensemble une vraie transaction de notification. J'ai effectué une transaction de ce type sur le testnet que vous pouvez retrouver [en cliquant ici](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
-![BTC204](assets/fr/227.webp)
+![BTC204](assets/fr/233.webp)
 
 En observant cette transaction, on peut déjà voir qu'elle dispose d'un seul input et de 4 outputs :
 - Le premier output est l'`OP_RETURN` qui contient mon code de paiement masqué ;
@@ -3385,7 +3405,7 @@ D \oplus L = D \oplus (D \oplus E) = D \oplus D \oplus E = 0 \oplus E = E \\
 \therefore D \oplus L = E
 $$
 
-Ensuite, cette méthode de chiffrement ressemble beaucoup au chiffre de Vernam (One-Time Pad), le seul algorithme de chiffrement connu à ce jour qui dispose d'une sécurité inconditionnelle (ou absolue). Pour que le chiffre de Vernam dispose de cette caractéristique, il faut que la clé de chiffrement soit parfaitement aléatoire, qu'elle soit de même taille que le message et qu'elle ne soit utilisée qu'une seule fois. Dans la méthode de chiffrement utilisée ici pour le BIP47, la clé est bien de la même taille que le message, le facteur aveuglant fait exactement la même taille que la concaténation de l'abscisse de la clé publique avec le code de chaîne du code de paiement. Cette clé de chiffrement est bien utilisée une seule fois. En revanche, cette clé n'est pas issue d'un parfait aléa puisqu'elle est un HMAC. Elle est plutôt pseudo-aléatoire. Ce n'est donc pas un chiffre de Vernam, mais la méthode s'en rapproche.
+Ensuite, cette méthode de chiffrement ressemble beaucoup au chiffre de Vernam (*One-Time Pad*), le seul algorithme de chiffrement connu à ce jour qui dispose d'une sécurité inconditionnelle (ou absolue). Pour que le chiffre de Vernam dispose de cette caractéristique, il faut que la clé de chiffrement soit parfaitement aléatoire, qu'elle soit de même taille que le message et qu'elle ne soit utilisée qu'une seule fois. Dans la méthode de chiffrement utilisée ici pour le BIP47, la clé est bien de la même taille que le message, le facteur aveuglant fait exactement la même taille que la concaténation de l'abscisse de la clé publique avec le code de chaîne du code de paiement. Cette clé de chiffrement est bien utilisée une seule fois. En revanche, cette clé n'est pas issue d'un parfait aléa puisqu'elle est un HMAC. Elle est plutôt pseudo-aléatoire. Ce n'est donc pas un chiffre de Vernam, mais la méthode s'en rapproche.
 
 ### Réception de la transaction de notification
 
@@ -3393,44 +3413,58 @@ Maintenant qu'Alice a envoyé la transaction de notification à Bob, voyons comm
 
 **1-** Bob surveille les transactions qui créent des sorties avec son adresse de notification.
 
-**2-** Lorsqu'une transaction dispose d'un output sur son adresse de notification, Bob l'analyse pour voir si elle contient une sortie OP_RETURN respectant le standard BIP47. 
+**2-** Lorsqu'une transaction dispose d'un output sur son adresse de notification, Bob l'analyse pour voir si elle contient une sortie `OP_RETURN` respectant le standard BIP47. 
 
-**3-** Si le premier octet de la charge utile de l'OP_RETURN est `0x01`, Bob commence sa recherche d'un éventuel secret partagé avec ECDH :
+**3-** Si le premier octet de la charge utile de l'`OP_RETURN` est `0x01`, Bob commence sa recherche d'un éventuel secret partagé avec ECDH :
 - Bob sélectionne la clé publique en input de la transaction. C'est-à-dire la clé publique d'Alice nommée $A$ avec :
 
-$$ A = a \cdot G $$
+$$ 
+A = a \cdot G 
+$$
 
 - Bob sélectionne la clé privée $b$ associée à son adresse de notification personnelle :
 
-$$ b $$
+$$ 
+b 
+$$
 
 - Bob calcule le point secret $S$ (secret partagé ECDH) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $b$ sur la clé publique d'Alice $A$ :
 
-$$ S = b \cdot A $$
+$$ 
+S = b \cdot A 
+$$
 
 - Bob détermine le facteur aveuglant $f$ qui va permettre de déchiffrer la charge utile du code de paiement d'Alice. De la même manière qu'Alice l'avait calculé précédemment, Bob va trouver $f$ en appliquant HMAC-SHA512 sur $x$ la valeur en abscisse du point secret $S$, et sur $o$ l'UTXO consommé en input de cette transaction de notification :
 
-$$ f = \text{HMAC-SHA512}(o, x) $$
+$$ 
+f = \text{HMAC-SHA512}(o, x) 
+$$
 
-**4-** Bob interprète les données de l'OP_RETURN dans la transaction de notification comme un code de paiement. Il va simplement déchiffrer la charge utile de ce potentiel code de paiement grâce au facteur aveuglant $f$ :
+**4-** Bob interprète les données de l'`OP_RETURN` dans la transaction de notification comme un code de paiement. Il va simplement déchiffrer la charge utile de ce potentiel code de paiement grâce au facteur aveuglant $f$ :
 - Bob sépare le facteur aveuglant $f$ en 2 parties : les 32 premiers octets de $f$ seront $f1$ et les 32 derniers octets seront $f2$ ;
 - Bob déchiffre la valeur de l'abscisse chiffrée $x'$ de la clé publique du code de paiement d'Alice :
 
-$$ x = x' \oplus f1 $$
+$$ 
+x = x' \oplus f1 
+$$
 
 - Bob déchiffre la valeur du code de chaîne chiffré $c'$ du code de paiement d'Alice :
 
-$$ c = c' \oplus f2 $$
+$$ 
+c = c' \oplus f2 
+$$
 
 **5-** Bob vérifie si la valeur de la clé publique du code de paiement d'Alice fait bien partie du groupe secp256k1. Si c'est bien le cas, il interprète cela comme un code de paiement valide. Sinon, il ignore cette transaction.
 
-Maintenant que Bob est en connaissance du code de paiement d'Alice, celle-ci peut lui envoyer jusqu'à `2^32` paiements, sans avoir plus jamais besoin de refaire une transaction de notification de ce type.
+Maintenant que Bob est en connaissance du code de paiement d'Alice, celle-ci peut lui envoyer jusqu'à `2^32` paiements, sans jamais avoir besoin de refaire une transaction de notification de ce type.
 
 Pourquoi cela fonctionne-t-il ? Comment Bob peut-il parvenir à déterminer le même facteur aveuglant qu'Alice, et donc à déchiffrer son code de paiement ? Étudions plus en détail l'action d'ECDH dans ce que l'on vient de décrire.
 
 Tout d'abord, nous avons affaire à un chiffrement symétrique. Cela veut dire que la clé de chiffrement et la clé de déchiffrement sont la même valeur. Cette clé dans la transaction de notification, c'est le facteur aveuglant : 
 
-$$ f = f1 || f2 $$
+$$ 
+f = f1 || f2 
+$$
 
 Il faut donc qu'Alice et Bob obtiennent la même valeur pour $f$, sans pour autant le transmettre directement puisqu'un attaquant pourrait le subtiliser et déchiffrer l'information secrète. Ce facteur aveuglant est obtenu en appliquant HMAC-SHA512 sur 2 valeurs : 
 - l'abscisse d'un point secret ;
@@ -3439,28 +3473,34 @@ Il faut donc qu'Alice et Bob obtiennent la même valeur pour $f$, sans pour auta
 Bob doit donc disposer de ces deux informations pour déchiffrer la charge utile du code de paiement d'Alice. Pour l'UTXO en input, Bob peut simplement le récupérer en observant la transaction de notification. Pour le point secret, Bob va devoir utiliser ECDH. Comme vu dans la section précédente sur Diffie-Hellman, simplement en s'échangeant leurs clés publiques respectives et en appliquant secrètement leurs clés privées sur la clé publique de l'autre, Alice et Bob peuvent trouver un point précis et secret sur la courbe elliptique. La transaction de notification s'appuie sur ce mécanisme :
 - La paire de clés de Bob :
 
-$$ B = b \cdot G $$
+$$ 
+B = b \cdot G 
+$$
 
 - La paire de clés d'Alice : 
 
-$$ A = a \cdot G $$
+$$ 
+A = a \cdot G 
+$$
 
 - Pour un secret $S (x, y)$ :
 
-$$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
+$$ 
+S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A 
+$$
 
-![BTC204](assets/fr/228.webp)
+![BTC204](assets/fr/234.webp)
 
 Maintenant que Bob connait le code de paiement d'Alice, il va être en capacité de détecter les paiements BIP47 de celle-ci, et il pourra dériver les clés privées bloquant les bitcoins reçus.
 
 Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner et interpréter une transaction de notification :
 - Bob surveille les sorties de transaction vers son adresse de notification ;
-- Lorsqu'il en détecte une, il récupère les informations contenues dans l'OP_RETURN ;
+- Lorsqu'il en détecte une, il récupère les informations contenues dans l'`OP_RETURN` ;
 - Bob sélectionne la clé publique en input et calcule un point secret grâce à ECDH ;
 - Il utilise ce point secret pour calculer un HMAC qui est le facteur aveuglant ;
-- Il utilise ce facteur aveuglant pour déchiffrer la charge utile du code de paiement d'Alice contenu dans l'OP_RETURN.
+- Il utilise ce facteur aveuglant pour déchiffrer la charge utile du code de paiement d'Alice contenu dans l'`OP_RETURN`.
 
-![BTC204](assets/fr/229.webp)
+![BTC204](assets/fr/235.webp)
 
 ### La transaction de paiement BIP47
 
@@ -3477,25 +3517,37 @@ Avant de vous expliquer ce processus, je pense qu'il est important de rappeler s
 Chaque fois qu'Alice souhaite envoyer un paiement à Bob, elle dérive une nouvelle adresse vierge unique, grâce une nouvelle fois au protocole ECDH :
 - Alice sélectionne la première clé privée dérivée depuis son code de paiement réutilisable personnel :
 
-$$ a $$
+$$ 
+a 
+$$
 
 - Alice sélectionne la première clé publique inutilisée dérivée depuis le code de paiement de Bob. Cette clé publique, nous l'appellerons $B$. Elle est associée à la clé privée $b$ dont seul Bob a connaissance :
 
-$$ B = b \cdot G $$
+$$ 
+B = b \cdot G 
+$$
 
 - Alice calcule un point secret $S$ sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $a$ à partir de la clé publique de Bob $B$ :
 
-$$ S = a \cdot B $$
+$$ 
+S = a \cdot B 
+$$
 
 - À partir de ce point secret, Alice va calculer le secret partagé $s$ (minuscule). Pour ce faire, elle sélectionne l'abscisse du point secret $S$ nommée $Sx$, et elle passe cette valeur dans la fonction de hachage SHA256 :
 
-$$ S = (Sx, Sy) $$
-$$ s = \text{SHA256}(Sx) $$
+$$ 
+S = (Sx, Sy) 
+$$
+$$ 
+s = \text{SHA256}(Sx) 
+$$
 
 - Alice utilise ce secret partagé $s$ pour calculer une adresse de réception de paiement Bitcoin. Dans un premier temps, elle vérifie que $s$ est bien contenu dans l'ordre de la courbe secp256k1. Si ce n'est pas le cas, elle incrémente l'index de la clé publique de Bob afin de dériver un autre secret partagé ;
 - Dans un second temps, elle calcule une clé publique $K0$ en additionnant sur la courbe elliptique les points $B$ et $s·G$. En d'autres termes, Alice additionne la clé publique dérivée depuis le code de paiement de Bob $B$ avec un autre point calculé sur la courbe elliptique par addition et doublement de points avec le secret partagé $s$ depuis le point générateur de la courbe secp256k1 $G$. Ce nouveau point représente une clé publique, et nous le nommons $K0$ :
 
-$$ K0 = B + s \cdot G $$
+$$ 
+K0 = B + s \cdot G 
+$$
 
 - Avec cette clé publique $K0$, Alice peut dériver une adresse de réception vierge de façon standard (par exemple SegWit V0 en bech32).
 
@@ -3510,11 +3562,11 @@ Je récapitule les étapes que l'on vient de voir ensemble pour envoyer un paiem
 - Elle obtient une nouvelle clé publique éphémère pour laquelle seul Bob dispose de la clé privée associée ;
 - Alice peut faire une transaction classique vers Bob avec l'adresse de réception éphémère dérivée.
 
-![BTC204](assets/fr/230.webp)
+![BTC204](assets/fr/236.webp)
 
-Si Alice veut effectuer un second paiement, elle suivra les mêmes étapes que précédemment, sauf qu'elle sélectionnera cette fois la deuxième clé publique dérivée du code de paiement de Bob. Plus précisément, elle utilisera la prochaîne clé inutilisée. Elle obtiendra ainsi une nouvelle adresse de réception appartenant à Bob, désignée $K1$ :
+Si Alice veut effectuer un second paiement, elle suivra les mêmes étapes que précédemment, sauf qu'elle sélectionnera cette fois la deuxième clé publique dérivée du code de paiement de Bob. Plus précisément, elle utilisera la prochaine clé inutilisée. Elle obtiendra ainsi une nouvelle adresse de réception appartenant à Bob, désignée $K1$ :
 
-![BTC204](assets/fr/231.webp)
+![BTC204](assets/fr/237.webp)
 
 Elle peut continuer ainsi de suite et dériver jusqu'à `2^32` adresses vierges appartenant à Bob.
 
@@ -3526,7 +3578,7 @@ D'un point de vue extérieur, en observant la blockchain, il est en théorie imp
 
 Cela ressemble à une transaction classique avec un input consommé, un output de paiement et un change :
 
-![BTC204](assets/fr/232.webp)
+![BTC204](assets/fr/238.webp)
 
 ### Réception du paiement BIP47 et dérivation de la clé privée
 
@@ -3536,33 +3588,47 @@ Dès que Bob reçoit la transaction de notification de la part d'Alice, il déri
 
 - Bob sélectionne la première clé privée fille dérivée depuis son code de paiement. Cette clé privée est nommée $b$. Elle est associée à la clé publique $B$ avec laquelle Alice avait fait ses calculs dans l'étape précédente :
 
-$$ b $$
+$$ 
+b 
+$$
 
 - Bob sélectionne la première clé publique d'Alice dérivée depuis son code de paiement. Cette clé est nommée $A$. Elle est associée à la clé privée $a$ avec laquelle Alice avait fait ses calculs, et dont seule Alice a connaissance. Bob peut réaliser ce processus puisqu'il est en connaissance du code de paiement d'Alice qui lui a été transmis avec la transaction de notification :
 
-$$ A = a \cdot G $$
+$$ 
+A = a \cdot G 
+$$
 
 - Bob calcule le point secret $S$, par addition et doublement de points sur la courbe elliptique, en appliquant sa clé privée $b$ sur la clé publique d'Alice $A$. On retrouve ici l'utilisation d'ECDH qui nous garantit que ce point $S$ sera le même pour Bob et pour Alice :
 
-$$ S = b \cdot A $$
+$$ 
+S = b \cdot A 
+$$
 
 - De la même manière qu'Alice, Bob isole l'abscisse de ce point $S$. Nous avons nommé cette valeur $Sx$. Il passe cette valeur dans la fonction SHA256 pour trouver le secret partagé $s$ (minuscule) :
 
-$$ s = \text{SHA256}(Sx) $$
+$$ 
+s = \text{SHA256}(Sx) 
+$$
 
 - Toujours de la même manière qu'Alice, Bob calcule le point $s·G$ sur la courbe elliptique. Puis, il additionne ce point secret avec sa clé publique $B$. Il obtient alors un nouveau point sur la courbe elliptique qu'il interprète comme une clé publique $K0$ :
 
-$$ K0 = B + s \cdot G $$
+$$ 
+K0 = B + s \cdot G 
+$$
 
 Une fois que Bob dispose de cette clé publique $K0$, il peut dériver la clé privée associée afin de pouvoir dépenser ses bitcoins. C'est le seul à pouvoir générer cette clé privée :
 
 - Bob additionne sa clé privée fille $b$ dérivée depuis son code de paiement personnel. C'est le seul à pouvoir obtenir la valeur de $b$. Puis, il additionne $b$ avec le secret partagé $s$ afin d'obtenir $k0$, la clé privée de $K0$ :
 
-$$ k0 = b + s $$
+$$ 
+k0 = b + s 
+$$
 
 Grâce à la loi de groupe de la courbe elliptique, Bob obtient exactement la clé privée correspondant à la clé publique utilisée par Alice. Nous avons donc bien :
 
-$$ K0 = k0 \cdot G $$
+$$ 
+K0 = k0 \cdot G 
+$$
 
 Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner un paiement BIP47 et calculer la clé privée correspondante :
 - Bob sélectionne la première clé privée fille dérivée depuis son code de paiement personnel ;
@@ -3573,15 +3639,15 @@ Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner un
 - Il obtient une nouvelle clé publique éphémère, celle vers laquelle Alice va envoyer son premier paiement ;
 - Bob calcule la clé privée associée à cette clé publique éphémère en additionnant sa clé privée fille dérivée depuis son code de paiement et le secret partagé.
 
-![BTC204](assets/fr/233.webp)
+![BTC204](assets/fr/239.webp)
 
 Puisque Alice ne peut pas obtenir $b$ (la clé privée de Bob), elle est incapable de déterminer $k0$ (la clé privée associée à l'adresse de réception BIP47 de Bob). Schématiquement, nous pouvons représenter le calcul du secret partagé $S$ comme cela :
 
-![BTC204](assets/fr/228.webp)
+![BTC204](assets/fr/240.webp)
 
 Une fois le secret partagé trouvé avec ECDH, Alice et Bob calculent la clé publique de paiement BIP47 $K0$, et Bob calcule également la clé privée associée $k0$ :
 
-![BTC204](assets/fr/234.webp)
+![BTC204](assets/fr/241.webp)
 
 ### Remboursement du paiement BIP47
 
@@ -3591,11 +3657,11 @@ La fonctionnalité de remboursement est spécifique au BIP47 et constitue l'un d
 
 Bob peut alors rembourser Alice de la même manière qu'elle lui a envoyé des paiements. Les rôles s'inversent :
 
-![BTC204](assets/fr/235.webp)
+![BTC204](assets/fr/242.webp)
 
 *Un grand merci à [Fanis Michalakis](https://x.com/FanisMichalakis) pour sa relecture et ses précieux conseils d'expert sur l'article qui a inspiré la rédaction de ce chapitre !*
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Silent Payments
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
@@ -3606,11 +3672,11 @@ Le BIP47 a beaucoup été critiqué pour son inefficience on-chain. Comme expliq
 
 Cependant, dans certaines situations, la transaction de notification peut constituer un obstacle pour l'utilisateur. Prenons l'exemple d'une donation unique à un destinataire : avec une adresse Bitcoin classique, une seule transaction suffit pour réaliser la donation. Mais avec le BIP47, deux transactions sont nécessaires : une pour la notification et une autre pour le paiement effectif. Lorsque la demande d'espace dans les blocs est faible et que les frais de transaction sont bas, cette étape supplémentaire n'est généralement pas un problème. Toutefois, en période de congestion, les frais de transaction peuvent devenir exorbitants pour un seul paiement, doublant potentiellement le coût pour l'utilisateur par rapport à une transaction Bitcoin standard, ce qui peut s'avérer inacceptable pour l'utilisateur.
 
-Pour les situations où l'utilisateur prévoit de réaliser uniquement quelques paiements vers un identifiant statique, d'autres solutions ont été développées. Parmi elles, il y a les Silent Payments, décrits dans le [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Ce protocole permet d'utiliser un identifiant statique pour recevoir des paiements sans produire des réutilisations d'adresse, et sans nécessiter l'utilisation de transactions de notification. Examinons ensemble comment fonctionne ce protocole.
+Pour les situations où l'utilisateur ne prévoit d'effectuer que quelques paiements vers un identifiant statique, d'autres solutions ont été développées. Parmi elles, il y a les Silent Payments, décrits dans le [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Ce protocole permet d'utiliser un identifiant statique pour recevoir des paiements sans produire des réutilisations d'adresse, et sans nécessiter l'utilisation de transactions de notification. Examinons ensemble comment fonctionne ce protocole.
 
 ---
 
-*Pour bien comprendre ce chapitre, il est essentiel de maîtriser le fonctionnement d'ECDH (Elliptic Curve Diffie-Hellman) et de la dérivation de clés cryptographiques dans un portefeuille HD. Ces concepts ont été détaillés dans le chapitre précédent sur le BIP47. Je n'y reviendrai donc pas ici. Si vous n'êtes pas encore familiarisé avec ces notions, je vous recommande de consulter le chapitre précédent avant de poursuivre celui-ci. Je n'aborderai pas non plus à nouveau les risques associés à la réutilisation des adresses de réception, ni l'importance d'avoir un identifiant unique pour recevoir des paiements.*
+*Pour bien comprendre ce chapitre, il est essentiel de maîtriser le fonctionnement d'ECDH (Elliptic Curve Diffie-Hellman) et de la dérivation de clés cryptographiques dans un portefeuille HD. Ces concepts ont été détaillés dans le chapitre précédent sur le BIP47, je n'y reviendrai donc pas ici. Si vous n'êtes pas encore familiarisé avec ces notions, je vous recommande de consulter le chapitre précédent avant de poursuivre celui-ci. Je n'aborderai pas non plus à nouveau les risques associés à la réutilisation des adresses de réception, ni l'importance d'avoir un identifiant unique pour recevoir des paiements.*
 
 ---
 
@@ -3624,7 +3690,7 @@ On pourrait penser naïvement que ce processus de notification pourrait être r�
 - D'abord, cela déplacerait le processus de transmission du code sur un autre protocole de communication. Les problèmes liés aux coûts et à la confidentialité de l'échange resteraient, mais seraient simplement transférés à ce nouveau protocole. En termes de confidentialité, cela pourrait aussi créer un lien entre une identité de l'utilisateur et une activité on-chain, ce que l'on cherche à éviter en effectuant la notification directement sur la blockchain. De plus, réaliser la notification hors de la blockchain introduirait des risques de censure (comme le blocage des fonds) qui n'existent pas sur Bitcoin ;
 - Ensuite, cela poserait un problème de récupération. Avec le BIP47, le destinataire doit impérativement connaître les codes de paiement des expéditeurs pour accéder aux fonds. Cela est vrai lors de la réception, mais aussi en cas de récupération des fonds via la seed en cas de perte du portefeuille. Avec des notifications on-chain, ce risque est évité, car l'utilisateur peut retrouver et déchiffrer les transactions de notification simplement en connaissant sa seed. Cependant, si la notification est effectuée hors de la blockchain, l'utilisateur devrait maintenir une sauvegarde dynamique de tous les codes de paiement reçus, ce qui est impraticable pour l'utilisateur moyen.
 
-Toutes ces contraintes font que l'utilisation d'une notification on-chain est indispensable dans le cadre du BIP47. Pourtant, les Silent Payments cherchent précisément à éviter cette étape de notification on-chain à cause de son coût. La solution adoptée n'est donc pas de déplacer la notification, mais de l'éliminer entièrement. Pour y parvenir, un compromis doit être accepté : celui du scanning (balayage). Contrairement au BIP47, où l'utilisateur sait exactement où trouver ses fonds grâce aux transactions de notification, dans le cadre des Silent Payments, l'utilisateur doit examiner toutes les transactions Bitcoin existantes pour détecter d'éventuels paiements qui lui seraient destinés. Pour réduire cette charge opérationnelle, la recherche de Silent Payments est limitée uniquement aux transactions susceptibles de contenir de tels paiements, c'est-à-dire celles comportant au moins un output Taproot P2TR. Le balayage se concentre aussi exclusivement sur les transactions à partir de la date de création du portefeuille (il est inutile de scanner les transactions remontant à 2009 si le portefeuille a été créé en 2024).
+Toutes ces contraintes font que l'utilisation d'une notification on-chain est indispensable dans le cadre du BIP47. Pourtant, les Silent Payments cherchent précisément à éviter cette étape de notification on-chain à cause de son coût. La solution adoptée n'est donc pas de déplacer la notification, mais de l'éliminer entièrement. Pour y parvenir, un compromis doit être accepté : celui du *scanning* (balayage). Contrairement au BIP47, où l'utilisateur sait exactement où trouver ses fonds grâce aux transactions de notification, dans le cadre des Silent Payments, l'utilisateur doit examiner toutes les transactions Bitcoin existantes pour détecter d'éventuels paiements qui lui seraient destinés. Pour réduire cette charge opérationnelle, la recherche de Silent Payments est limitée uniquement aux transactions susceptibles de contenir de tels paiements, c'est-à-dire celles comportant au moins un output Taproot P2TR. Le balayage se concentre aussi exclusivement sur les transactions postérieures à la création du portefeuille (il est inutile de scanner les transactions remontant à 2009 si le portefeuille a été créé en 2024).
 
 Vous pouvez donc voir pourquoi le BIP47 et les Silent Payments, bien qu'ils visent un objectif similaire, impliquent des compromis différents et **répondent donc en réalité à des cas d'usages distincts**. Pour des paiements uniques, tels que des donations ponctuelles, les Silent Payments sont plus appropriés en raison de leur coût plus faible. En revanche, pour des transactions régulières vers un même destinataire, comme dans le cas des plateformes d'échange ou des pools de minage, le BIP47 peut être préféré.
 
@@ -3634,7 +3700,7 @@ Vous pouvez donc voir pourquoi le BIP47 et les Silent Payments, bien qu'ils vise
 
 Avant de commencer, il est important de préciser que les Silent Payments reposent sur l'utilisation de types de scripts P2TR (*Pay to Taproot*) exclusivement. À la différence du BIP47, il n'est pas nécessaire de dériver des adresses de réception à partir de clés publiques enfants en les hachant. En effet, dans le standard P2TR, la clé publique tweakée est utilisée directement et en clair dans l'adresse. Ainsi, une adresse de réception Taproot est essentiellement une clé publique assortie de quelques métadonnées. Cette clé publique tweakée est l'agrégation de deux autres clés publiques : l'une permettant une dépense directe et traditionnelle via une simple signature, et l'autre représentant la racine de Merkle du MAST, qui autorise la dépense sous réserve de la satisfaction de l'une des conditions potentiellement inscrites dans l'arbre de Merkle.
 
-![BTC204](assets/fr/068.webp)
+![BTC204](assets/fr/243.webp)
 
 La décision de limiter les Silent Payments exclusivement à Taproot est motivée par deux raisons principales :
 - Premièrement, cela facilite considérablement l'implémentation et les futures mises à jour dans les logiciels de portefeuille, puisqu'un seul standard est à respecter ;
@@ -3657,7 +3723,9 @@ Bob dispose d'une adresse SP qu'il a publiée sur internet avec :
 
 En récupérant l'adresse de Bob, Alice est capable de calculer une nouvelle adresse vierge qui appartient à Bob en utilisant ECDH. Nommons cette adresse $P$ :
 
-$$  P = B + \text{hash}(a \cdot B) \cdot G  $$
+$$  
+P = B + \text{hash}(a \cdot B) \cdot G  
+$$
 
 Dans cette équation, Alice a simplement calculé le produit scalaire de sa clé privée $a$ et de la clé publique de Bob $B$. Elle a passé ce résultat dans une fonction de hachage connue de tous. La valeur qui en sort est ensuite multipliée scalairement par le point générateur $G$ de la courbe elliptique `secp256k1`. Enfin, Alice additionne le point obtenu avec la clé publique de Bob $B$. Une fois qu'Alice dispose de cette adresse $P$, elle l'utilise comme output dans une transaction, c'est-à-dire qu'elle y envoie des bitcoins.
 
@@ -3665,23 +3733,32 @@ Dans cette équation, Alice a simplement calculé le produit scalaire de sa clé
 
 Grâce aux propriétés de la courbe elliptique sur lesquelles s'appuie ECDH, on sait que : 
 
-$$  a \cdot B = b \cdot A  $$
+$$  
+a \cdot B = b \cdot A  
+$$
 
 Bob va donc être capable de calculer l'adresse de réception sur laquelle Alice a envoyé les bitcoins. Pour ce faire, il surveille toutes les transactions Bitcoin qui respectent les critères des Silent Payments et il applique le calcul suivant sur chacune d'entre elles pour voir si le paiement lui est adressé (*scanning*) :
 
-$$  P' = B + \text{hash}(b \cdot A) \cdot G  $$
+$$  
+P' = B + \text{hash}(b \cdot A) \cdot G  
+$$
 
 Lorsqu'il scanne la transaction d'Alice, il se rend compte que $P'$ est égal à $P$. Il sait donc que ce paiement lui est adressé :
 
-$$  P' = B + \text{hash}(b \cdot A) \cdot G = B + \text{hash}(a \cdot B) \cdot G = P   $$
+$$  
+P' = B + \text{hash}(b \cdot A) \cdot G = B + \text{hash}(a \cdot B) \cdot G = P   
+$$
 
-À partir de là, Bob va pouvoir calculer la clé privée $p$ qui permet de dépenser l'adresse $P$ :
+À partir de là, Bob va pouvoir calculer la clé privée $p$ qui permet de dépenser l'UTXO reçu sur l'adresse $P$ :
 
-$$  p = (b + \text{hash}(b \cdot A)) \bmod n  $$
+$$  
+p = (b + \text{hash}(b \cdot A)) \bmod n  
+$$
 
 Comme vous pouvez le voir, pour calculer cette clé privée $p$, il faut obligatoirement disposer de la clé privée $b$. Seul Bob dispose de cette clé privée $b$. Il sera donc bien le seul à pouvoir dépenser les bitcoins envoyés sur son adresse de Silent Payments.
 
-![BTC204](assets/fr/236.webp)
+![BTC204](assets/fr/244.webp)
+
 *Légende :*
 - $B$ : La clé publique / adresse statique publiée par Bob
 - $b$ : La clé privée de Bob
@@ -3692,29 +3769,39 @@ Comme vous pouvez le voir, pour calculer cette clé privée $p$, il faut obligat
 - $s$ : Le secret commun ECDH
 - $P$ : La clé publique / adresse unique pour le paiement vers Bob
 
-Voici une approche initiale plutôt naïve pour utiliser l'adresse statique de Bob, notée $B$, afin de dériver une adresse unique $P$ pour y envoyer des bitcoins. Toutefois, cette méthode est trop simpliste et présente plusieurs défauts qui nécessitent correction. Le premier problème est que, dans ce schéma, Alice ne peut pas créer plusieurs outputs vers Bob au sein de la même transaction.
+Voici une approche initiale plutôt naïve pour utiliser l'adresse statique de Bob, notée $B$, afin de dériver une adresse unique $P$ pour y envoyer des bitcoins. Toutefois, cette méthode est trop simpliste et présente plusieurs défauts qui nécessitent des corrections. Le premier problème est que, dans ce schéma, Alice ne peut pas créer plusieurs outputs vers Bob au sein de la même transaction.
 
 ### Comment créer plusieurs outputs ?
 
-Dans l'exemple de la section précédente, Alice crée un seul output qui va aller vers Bob sur son adresse unique $P$. Avec le même input sélectionné, il est impossible pour Alice de créer deux adresses vierges distinctes pour Bob, car la méthode employée mènerait toujours au même résultat pour $P$, donc à la même adresse. Toutefois, il peut y avoir de nombreuses situations où Alice souhaite diviser son paiement à Bob en plusieurs petits montants, créant ainsi plusieurs UTXOs. Il est donc nécessaire de trouver une méthode permettant de réaliser cela.
+Dans l'exemple de la section précédente, Alice crée un seul output qui va aller sur l'adresse unique $P$ de Bob. Avec le même input sélectionné, il est impossible pour Alice de créer deux adresses vierges distinctes pour Bob, car la méthode employée mènerait toujours au même résultat pour $P$, donc à la même adresse. Toutefois, il peut y avoir de nombreuses situations où Alice souhaite diviser son paiement à Bob en plusieurs petits montants, créant ainsi plusieurs UTXOs. Il est donc nécessaire de trouver une méthode permettant de réaliser cela.
 
 Pour y parvenir, nous allons légèrement modifier le calcul que réalise Alice pour dériver $P$, afin qu'elle puisse générer deux adresses distinctes pour Bob, soit $P_0$ et $P_1$.
 
-Pour modifier le calcul et obtenir 2 adresses différentes, il suffit d'ajouter un entier qui vienne modifier le résultat. Ainsi, Alice va ajouter $0$ dans son calcul pour obtenir l'adresse $P_0$ et $1$ pour obtenir l'adresse $P_1$. Appelons cet entier $i$ :
+Pour modifier le calcul et obtenir 2 adresses différentes, il suffit d'ajouter un entier qui vient modifier le résultat. Ainsi, Alice va ajouter $0$ dans son calcul pour obtenir l'adresse $P_0$ et $1$ pour obtenir l'adresse $P_1$. Appelons cet entier $i$ :
 
-$$  P_i = B + \text{hash}(a \cdot B \text{ ‖ } i) \cdot G  $$
+$$  
+P_i = B + \text{hash}(a \cdot B \text{ ‖ } i) \cdot G  
+$$
 
 Le processus de calcul reste inchangé par rapport à la méthode précédente, à l'exception que cette fois-ci Alice va concaténer $a \cdot B$ avec $i$ avant de procéder au hachage. Il suffit ensuite de modifier $i$ pour avoir une nouvelle adresse appartenant à Bob. Par exemple :
 
-$$  P_0 = B + \text{hash}(a \cdot B \text{ ‖ } 0) \cdot G  $$
+$$  
+P_0 = B + \text{hash}(a \cdot B \text{ ‖ } 0) \cdot G  
+$$
 
-$$  P_1 = B + \text{hash}(a \cdot B \text{ ‖ } 1) \cdot G  $$
+$$  
+P_1 = B + \text{hash}(a \cdot B \text{ ‖ } 1) \cdot G  
+$$
 
 Lorsque Bob scanne la blockchain à la recherche de Silent Payments qui lui sont destinés, il commence par utiliser $i = 0$ pour l'adresse $P_0$. S'il ne trouve aucun paiement sur $P_0$, il conclut que cette transaction ne contient pas de Silent Payments à son égard et abandonne l'analyse de celle-ci. Cependant, si $P_0$ est valide et contient un paiement pour lui, il poursuit avec $P_1$ dans la même transaction pour vérifier si Alice a effectué un deuxième paiement. Si $P_1$ se révèle invalide, il cesse ses recherches pour cette transaction ; sinon, il continue de tester les valeurs successives de $i$ :
 
-$$  P_0 = B + \text{hash}(b \cdot A \text{ ‖ } 0) \cdot G  $$
+$$  
+P_0 = B + \text{hash}(b \cdot A \text{ ‖ } 0) \cdot G  
+$$
 
-$$  P_1 = B + \text{hash}(b \cdot A \text{ ‖ } 1) \cdot G  $$
+$$  
+P_1 = B + \text{hash}(b \cdot A \text{ ‖ } 1) \cdot G  
+$$
 
 Puisque Bob s'arrête immédiatement à $i = 0$ si $P_0$ ne donne rien, l'utilisation de cet entier n'ajoute quasiment aucune charge opérationnelle supplémentaire sur Bob pour l'étape du scanning des transactions.
 
@@ -3728,7 +3815,7 @@ $$
 p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \bmod n 
  $$
 
-![BTC204](assets/fr/237.webp)
+![BTC204](assets/fr/245.webp)
 
 *Légende :*
 - $B$ : La clé publique / adresse statique publiée par Bob
@@ -3748,9 +3835,9 @@ Avec cette méthode, on commence à avoir un protocole sympathique, mais il y a 
 
 Comme nous l'avons vu dans les sections précédentes, Alice utilise la paire de clés qui sécurise son UTXO qu'elle va dépenser pour calculer le secret ECDH partagé avec Bob. Ce secret lui permet de dériver l'adresse unique $P_0$. Cependant, la paire de clés ($a$, $A$) utilisée par Alice peut sécuriser plusieurs UTXOs si elle a réutilisé plusieurs fois cette adresse. Dans l'éventualité où Alice effectue deux paiements vers l'adresse statique $B$ de Bob en utilisant deux UTXOs sécurisés par la même clé $A$, cela entraînerait une réutilisation d'adresse pour Bob.
 
-> *La réutilisation d'adresse est une très mauvaise pratique pour la confidentialité de l'utilisateur. Pour savoir pourquoi, je vous conseille de revoir les première parties de cette formation.*
+> *La réutilisation d'adresse est une très mauvaise pratique pour la confidentialité de l'utilisateur. Pour savoir pourquoi, je vous conseille de revoir les premières parties de cette formation.*
 
-En effet, puisque l'adresse unique $P_0$ est dérivée depuis $A$ et $B$, et bien si Alice dérive une seconde adresse pour un second paiement vers $B$, avec la même clé $A$, elle va tomber exactement sur la même adresse $P_0$. Pour éviter ce risque et prévenir les réutilisations d'adresse au sein des Silent Payments, il va falloir modifier un peu nos calculs.
+En effet, puisque l'adresse unique $P_0$ est dérivée depuis $A$ et $B$, si Alice dérive une seconde adresse pour un second paiement vers $B$, avec la même clé $A$, elle va tomber exactement sur la même adresse $P_0$. Pour éviter ce risque et prévenir les réutilisations d'adresse au sein des Silent Payments, il va falloir modifier un peu nos calculs.
 
 Ce que l'on souhaite, c'est que chaque UTXO consommé par Alice en input d'un paiement donne une adresse unique du côté de Bob, et ce, même si plusieurs UTXOs sont sécurisés par la même paire de clés. Il suffit donc d'ajouter une référence à l'UTXO dans le calcul de l'adresse unique $P_0$. Cette référence va simplement être le hachage de l'UTXO consommé en input :
 
@@ -3770,7 +3857,7 @@ $$
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
  $$
 
-![BTC204](assets/fr/238.webp)
+![BTC204](assets/fr/246.webp)
 
 *Légende :*
 - $B$ : La clé publique / adresse statique publiée par Bob
@@ -3794,57 +3881,73 @@ Par exemple, imaginons que la transaction d'Alice dispose de 3 inputs, chacun s�
 - $a_1$ permet de sécuriser l'input #1 ;
 - $a_2$ permet de sécuriser l'input #2.
 
-![BTC204](assets/fr/239.webp)
+![BTC204](assets/fr/247.webp)
 
 Si l'on suit la méthode précédemment décrite, Alice devrait choisir une unique paire de clés parmi $a_0$, $a_1$, et $a_2$ pour calculer le secret ECDH et générer l'adresse de paiement unique $P$ à partir de l'adresse statique de Bob $B$. Cependant, cette approche impose à Bob de tester chaque possibilité séquentiellement, en commençant par $a_0$, puis $a_1$, et ainsi de suite, jusqu'à identifier une paire générant une adresse $P$ valide. Ce processus exige de Bob qu'il exécute le calcul ECDH sur tous les inputs de toutes les transactions, ce qui augmente considérablement la charge opérationnelle du scanning.
 
 Pour éviter cela, nous allons demander à Alice de réaliser son calcul de $P$ en utilisant la somme de toutes les clés en input. Reprenant notre exemple, la clé privée tweakée $a$ serait calculée comme suit :
 
-$$  a = a_0 + a_1 + a_2  $$
+$$  
+a = a_0 + a_1 + a_2  
+$$
 
 De la même manière, Alice et Bob pourront calculer la clé publique tweakée :
 
-$$  A = A_0 + A_1 + A_2  $$
+$$  
+A = A_0 + A_1 + A_2  
+$$
 
 Grâce à cette méthode, Bob doit seulement calculer la somme des clés publiques de la transaction, puis calculer le secret ECDH à partir de $A$ seulement, ce qui réduit grandement le nombre de calculs à réaliser pour l'étape du scanning.
 
-Cependant, rappelez vous la section précédente. Nous avions ajouté dans notre calcul le hachage $\text{inputHash}$ qui est utilisé comme un nonce pour éviter la réutilisation d'adresse : 
+Cependant, rappelez vous la section précédente, nous avions ajouté dans notre calcul le hachage $\text{inputHash}$ qui est utilisé comme un nonce pour éviter la réutilisation d'adresse : 
 
-$$  \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)  $$
+$$  
+\text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)  
+$$
 
-Mais si l'on a plusieurs inputs dans une transaction, il faut pouvoir déterminer quel $\text{outpoint}$ est choisi dans ce calcul. Selon le BIP352, le critère de sélection de $\text{outpoint}$ à utiliser est de choisir le plus petit lexicographiquement, ce qui signifie qu'on sélectionne l'UTXO qui apparaît en premier dans l'ordre alphabétique. Cette méthode permet de standardiser l'UTXO à choisir dans chaque transaction. Par exemple, si ce plus petit $\text{outpoint}$ lexicographiquement est $\text{outpoint}_L$, le calcul de $\text{inputHash}$ sera :
+Mais si l'on a plusieurs inputs dans une transaction, il faut pouvoir déterminer quel $\text{outpoint}$ est choisi dans ce calcul. Selon le BIP352, le critère de sélection de l'$\text{outpoint}$ à utiliser est de choisir le plus petit lexicographiquement, ce qui signifie qu'on sélectionne l'UTXO qui apparaît en premier dans l'ordre alphabétique. Cette méthode permet de standardiser l'UTXO à choisir dans chaque transaction. Par exemple, si ce plus petit $\text{outpoint}$ lexicographiquement est $\text{outpoint}_L$, le calcul de $\text{inputHash}$ sera :
 
-$$  \text{inputHash} = \text{hash}(\text{outpoint}_L \text{ ‖ } A)  $$
+$$  
+\text{inputHash} = \text{hash}(\text{outpoint}_L \text{ ‖ } A)  
+$$
 
 Les calculs restent ensuite identiques à ceux que l'on a présentés dans la section précédente, mis à part que la clé privée $a$ et sa clé publique correspondante $A$ ne sont plus une paire permettant de sécuriser un seul input, mais représentent dorénavant le tweak de toutes les paires de clés en inputs.
 
 ### Séparer les clés de dépense et de scan
 
-Pour le moment, nous avons parlé de l'adresse statique de Silent Payment $B$ comme d'une clé publique unique. Rappelez-vous, c'est cette clé publique $B$ qui est utilisée par Alice pour créer le secret partagé ECDH, qui permet lui-même de calculer l'adresse de paiement unique $P$. Bob utilise cette clé publique $B$ et la clé privée correspondante $b$ pour l'étape du scanning. Mais il utilisera également la clé privée $b$ pour calculer la clé privée $p$ qui permet la dépense depuis l'adresse $P$.
+Pour le moment, nous avons parlé de l'adresse statique de Silent Payments $B$ comme d'une clé publique unique. Rappelez-vous, c'est cette clé publique $B$ qui est utilisée par Alice pour créer le secret partagé ECDH, qui permet lui-même de calculer l'adresse de paiement unique $P$. Bob utilise cette clé publique $B$ et la clé privée correspondante $b$ pour l'étape du scanning. Mais il utilisera également la clé privée $b$ pour calculer la clé privée $p$ qui permet la dépense depuis l'adresse $P$.
 
 L'inconvénient de cette méthode est que la clé privée $b$, qui permet de calculer toutes les clés privées des adresses ayant reçu des Silent Payments, est également utilisée par Bob pour scanner les transactions. Cette étape nécessite que la clé $b$ soit disponible sur un logiciel de portefeuille connecté à internet, ce qui l'expose davantage au risque de vol par rapport à une conservation sur un portefeuille froid. Idéalement, il serait bénéfique de pouvoir tirer parti des Silent Payments tout en maintenant la clé privée $b$, qui contrôle l'accès à toutes les autres clés privées, sécurisée sur un hardware wallet. Heureusement, le protocole a été adapté pour permettre exactement cela.
 
 Pour ce faire, le BIP352 prévoit que le receveur utilise 2 paires de clés différentes :
 - $B_{\text{spend}}$ : pour calculer les clés privées des adresses de paiement uniques ;
-- $B_{\text{scan}}$ : pour trouver les adresses de paiements uniques.
+- $B_{\text{scan}}$ : pour trouver les adresses de paiement uniques.
 
 De cette manière, Bob peut conserver la clé privée $b_{\text{spend}}$ sur un hardware wallet et utiliser la clé privée $b_{\text{scan}}$ sur un logiciel en ligne pour trouver ses Silent Payments, sans pour autant révéler $b_{\text{spend}}$. En revanche, les clés publiques $B_{\text{scan}}$ et $B_{\text{spend}}$ sont toutes deux révélées publiquement, puisqu'elles se trouvent dans l'adresse statique $B$ de Bob :
 
-$$  B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
+$$  
+B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} 
+$$
 
 Pour calculer une adresse de paiement unique $P_0$ appartenant à Bob, Alice va dorénavant effectuer le calcul suivant :
 
-$$  P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G  $$
+$$  
+P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G  
+$$
 
 Pour trouver les paiements qui lui sont adressés, Bob va effectuer le calcul suivant :
 
-$$  P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G  $$
+$$  
+P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G  
+$$
 
 Comme vous pouvez le voir, jusqu'ici, Bob n'a pas eu besoin d'utiliser $b_{\text{spend}}$ qui se trouve sur son hardware wallet. Lorsqu'il souhaitera dépenser $P_0$, il pourra alors faire le calcul suivant pour trouver la clé privée $p_0$ :
 
-$$ p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0)) \bmod n $$
+$$ 
+p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0)) \bmod n 
+$$
 
-![BTC204](assets/fr/240.webp)
+![BTC204](assets/fr/248.webp)
 
 *Légende :*
 - $B_{\text{scan}}$ : La clé publique de scan de Bob (adresse statique)
@@ -3863,47 +3966,63 @@ $$ p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} 
 
 Bob dispose donc d'une adresse statique $B$ pour les Silent Payments tel que :
 
-$$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
+$$ 
+B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} 
+$$
 
 Le problème avec cette méthode, c'est qu'elle ne permet pas de ségréguer les différents paiements envoyés à cette adresse. Par exemple, si Bob dispose de 2 clients différents pour son entreprise, et qu'il souhaite bien différencier les paiements de chacun, il va avoir besoin de 2 adresses statiques différentes. Une solution naïve, avec l'approche actuelle, serait pour Bob de créer deux portefeuilles séparés, chacun ayant sa propre adresse statique, ou même d'établir deux adresses statiques différentes au sein d'un même portefeuille. Cependant, cette solution requiert de scanner toute la blockchain deux fois (une fois pour chaque adresse) afin de détecter respectivement les paiements destinés à chaque adresse. Ce double scanning augmente déraisonnablement la charge opérationnelle pour Bob.
 
-Pour résoudre ce problème, le BIP352 utilise un système d'étiquetage (labelling) qui permet de disposer d'adresses statiques différentes, sans pour autant augmenter déraisonnablement la charge de travail pour trouver les Silent Payments sur la blockchain. Pour ce faire, on va ajouter un entier $m$ à la clé publique de dépense $B_{\text{spend}}$. Cet entier peut prendre la valeur de $1$ pour la première adresse statique, puis de $2$ pour la seconde, etc. Les clés de dépense $B_{\text{spend}}$ s'appelleront donc désormais $B_m$ et seront construites de cette manière :
+Pour résoudre ce problème, le BIP352 utilise un système d'étiquetage (*labelling*) qui permet de disposer d'adresses statiques différentes, sans pour autant augmenter déraisonnablement la charge de travail pour trouver les Silent Payments sur la blockchain. Pour ce faire, on va ajouter un entier $m$ à la clé publique de dépense $B_{\text{spend}}$. Cet entier peut prendre la valeur de $1$ pour la première adresse statique, puis de $2$ pour la seconde, etc. Les clés de dépense $B_{\text{spend}}$ s'appelleront donc désormais $B_m$ et seront construites de cette manière :
 
-$$  B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G  $$
+$$ 
+B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G  
+$$
 
 Par exemple, pour la première clé de dépense avec le label $1$ :
 
-$$  B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
+$$  
+B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  
+$$
 
 L'adresse statique publiée par Bob sera dorénavant composée de $B_{\text{scan}}$ et de $B_m$. Par exemple, la première adresse statique avec le label $1$ sera :
 
-$$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
+$$ 
+B = B_{\text{scan}} \text{ ‖ } B_1 
+$$
 
 > *On commence seulement à partir du label 1 car le label 0 est réservé pour le change.*
 
-Alice, de son côté, va dériver l'adresse de paiement unique $P$ de la même manière qu'auparavant, mais en utilisant la nouvelle $B_1$ à la place de $B_{\text{spend}}$ :
+Alice, de son côté, va dériver l'adresse de paiement unique $P$ de la même manière qu'auparavant, mais en utilisant la nouvelle clé publique $B_1$ à la place de $B_{\text{spend}}$ :
 
-$$  P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G  $$
+$$  
+P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G  
+$$
 
 En réalité, Alice ne sait même pas forcément que Bob dispose d'une adresse étiquetée, car elle utilise simplement la seconde partie de l'adresse statique qu'il lui a fourni, et en l'occurrence, c'est la valeur $B_1$ plutôt que $B_{\text{spend}}$.
 
 Pour scanner les paiements, Bob va toujours utiliser la valeur de son adresse statique initiale avec $B_{\text{spend}}$ de cette manière :
 
-$$   P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G  $$
+$$   
+P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G  
+$$
 
-Puis, il va simplement soustraire la valeur qu'il trouve pour $P_0$ à chaque output un à un. Il vérifie ensuite si l'un des résultats de ces soustractions correspond à la valeur d'un des labels qu'il utilise sur son portefeuille. Si ça matche par exemple pour l'output #4 avec le label $1$, cela veut dire que cet output est un Silent Payment associé à son adresse statique labelisée $B_1$ :
+Puis, il va simplement soustraire la valeur qu'il trouve pour $P_0$ à chaque output un à un. Il vérifie ensuite si l'un des résultats de ces soustractions correspond à la valeur d'un des labels qu'il utilise sur son portefeuille. Si ça matche, par exemple pour l'output #4 avec le label $1$, cela veut dire que cet output est un Silent Payment associé à son adresse statique labelisée $B_1$ :
 
-$$ Out_4 - P_0 = \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G $$
+$$ 
+Out_4 - P_0 = \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G 
+$$
 
 Cela fonctionne, car :
 
-$$  B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
+$$  
+B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  
+$$
 
 Grâce à cette méthode, Bob peut utiliser une multitude d'adresses statiques ($B_1$, $B_2$, $B_3$...), toutes dérivées depuis son adresse statique de base ($B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$), afin de bien séparer les usages. 
 
 Attention toutefois, cette séparation des adresses statiques vaut uniquement d'un point de vue de gestion personnelle du portefeuille, mais ne permet pas de séparer les identités. Puisqu'elles disposent toutes du même $B_{\text{scan}}$, il est très facile d'associer toutes les adresses statiques et de déduire qu'elles appartiennent à une unique entité.
 
-![BTC204](assets/fr/241.webp)
+![BTC204](assets/fr/249.webp)
 
 *Légende :*
 - $B_{\text{scan}}$ : La clé publique de scan de Bob (adresse statique)
@@ -3925,7 +4044,7 @@ Attention toutefois, cette séparation des adresses statiques vaut uniquement d'
 
 Pour construire son adresse dédiée au Silent Payments, il faut d'abord dériver 2 paires de clés dans son portefeuille Bitcoin HD :
 - La paire $b_{\text{scan}}$, $B_{\text{scan}}$ pour rechercher les paiements qui nous sont adressés ;
-- La paire $b_{\text{spend}}$, $B_{\text{spend}}$ pour penser aux bitcoins que l'on a reçus.
+- La paire $b_{\text{spend}}$, $B_{\text{spend}}$ pour dépenser les bitcoins que l'on a reçus.
 
 Ces paires sont dérivées en suivant les chemins suivants (*Bitcoin Mainnet*) :
 
@@ -3936,15 +4055,21 @@ spend : m / 352' / 0' / 0' / 0' / 0
 
 Une fois que l'on dispose de ces 2 paires de clés, il suffit de les concaténer (mettre bout-à-bout) pour créer la charge utile de l'adresse statique : 
 
-$$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
+$$ 
+B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} 
+$$
 
 Si l'on souhaite utiliser des labels, on va remplacer $B_{\text{spend}}$ par $B_m$ : 
 
-$$ B = B_{\text{scan}} \text{ ‖ } B_m $$
+$$ 
+B = B_{\text{scan}} \text{ ‖ } B_m 
+$$
 
 Avec le label $m$ :
 
-$$  B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G  $$
+$$  
+B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G  
+$$
 
 Une fois que l'on dispose de cette charge utile, il faut y ajouter le HRP (*Human-Readable Part*) `sp` et la version `q` (= version 0). On ajoute également une checksum et on formate l'adresse en bech32m.
 

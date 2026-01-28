@@ -6,4 +6,4 @@ wrong_answers:
   - UTXOs vor einem Double-Spend schützen
 explanation: |
   Ein Täuschungs-Wallet wird verwendet, um die Aufmerksamkeit eines Angreifers abzulenken, indem Zugang zu einem Wallet gewährt wird, das eine kleine Menge an Bitcoins enthält.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaká bezpečnostní opatření se důrazně doporučují k ochraně přístupu k vašemu produktu Umbrel?
+answer: Dlouhé heslo a aktivace 2FA
+wrong_answers:
+  - Duální úložiště SSD
+  - Otevřít port RPC v prostém textu
+  - Dlouhé heslo a aktivace SSH
+explanation: |
+  Kombinace silného hesla a dvoufaktorového ověřování (2FA) účinně chrání přístup k zařízení Interface Umbrel.
+reviewed: true

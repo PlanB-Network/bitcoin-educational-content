@@ -1,11 +1,11 @@
-question: O co šlo ve válce o velikost bloků v roce 2017?
-answer: O konflikt, zda zvětšit velikost bloku pro rozšíření kapacity transakcí.
+question: Co je HashRate?
+answer: Počet výpočtů hash, které těžební zařízení může provést za sekundu pro vyřešení Proof of Work.
 wrong_answers:
-  - Konflikt, zda snížit velikost bloku pro snížení kapacity transakcí.
-  - Konflikt, zda zvýšit odměnu za blok pro motivaci těžařů.
-  - Konflikt, zda snížit odměnu za blok pro demotivaci těžařů.
-explanation: |
-  Válka o velikost bloků v roce 2017 byl konflikt o tom, zda
-  upravit Bitcoin zvětšením velikosti bloku pro rozšíření
-  kapacity transakcí.
+  - Rychlost, s jakou těžební zařízení může vyřešit Proof of Work.
+  - Celkový počet těžařů v síti Bitcoin.
+  - Celkové množství bitcoinů vytěžených prováděním určitého počtu pokusů za sekundu pro vyřešení Proof of Work.
+explanation: >-
+  HashRate odkazuje na celkový počet pokusů, které těžaři dělají
+  za sekundu pro vyřešení Proof of Work. Jedná se o míru výpočetního výkonu
+  sítě Bitcoin.
 reviewed: true

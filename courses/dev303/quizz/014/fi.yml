@@ -1,0 +1,8 @@
+question: Mikä on tärkein ero merkkijonon ja merkkijonon literaalin (&str) välillä Rust:ssa?
+answer: String hallinnoi dynaamisesti varattua kasan muistia ja sitä voidaan muokata, kun taas &str on näkymä muuttumattomaan merkkijonodataan
+wrong_answers:
+  - Merkkijono tallennetaan pinoon, kun taas &str tallennetaan kasaan paremman suorituskyvyn vuoksi
+  - String voi sisältää vain ASCII-merkkejä, kun taas &str voi sisältää mitä tahansa Unicode-merkkejä
+  - String toteuttaa automaattisesti lainaamisen, kun taas &str vaatii nimenomaisen omistusoikeuden siirron
+explanation: |
+  String ja &str edustavat eri lähestymistapoja merkkijonojen käsittelyyn Rust:ssa. String on kasaan varattu, kasvava merkkijonotyyppi, joka omistaa tietonsa ja jota voidaan muuttaa ajon aikana. Sitä vastoin &str (string slice) on muuttumaton viittaus merkkijonotietoihin, jotka usein viittaavat ohjelman binääriin upotettuihin merkkijonoliitteraaleihin tai olemassa olevien String-tietojen viipaleisiin. Tämän eron ansiosta Rust optimoi sekä joustavuuden (String dynaamista sisältöä varten) että tehokkuuden (&str vain lukukäyttöä varten ilman allokointia).

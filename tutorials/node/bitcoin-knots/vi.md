@@ -19,8 +19,8 @@ Tuy nhiên, phần mềm thay thế cũng khả dụng. Đây không phải là 
 Có hai lý do chính để sử dụng ứng dụng thay thế như Knots thay vì Core:
 
 
-- Kỹ thuật**: Các máy khách này thường cung cấp các tùy chọn khác nhau cho Core, đặc biệt là về mặt quản lý Mempool, bằng cách xác định giao dịch nào được nút của bạn chấp nhận và phát đi.
-- Chính sách**: Một số người thích sử dụng các máy khách thay thế như Knots vì những lý do không liên quan đến kỹ thuật, đặc biệt là để hỗ trợ một giải pháp thay thế cho Core và do đó làm giảm sự độc quyền của nó. Nếu Core bị xâm phạm, sẽ hữu ích không chỉ khi có các máy khách thay thế vững chắc, được bảo trì tốt mà còn phải biết cách sử dụng chúng. Những người khác sử dụng Knots cho mục đích phản đối, vì họ đã mất lòng tin vào các nhà phát triển Core hoặc không chấp thuận cách quản lý của phần lớn máy khách.
+- **Kỹ thuật**: Các máy khách này thường cung cấp các tùy chọn khác nhau cho Core, đặc biệt là về mặt quản lý Mempool, bằng cách xác định giao dịch nào được nút của bạn chấp nhận và phát đi.
+- **Chính sách**: Một số người thích sử dụng các máy khách thay thế như Knots vì những lý do không liên quan đến kỹ thuật, đặc biệt là để hỗ trợ một giải pháp thay thế cho Core và do đó làm giảm sự độc quyền của nó. Nếu Core bị xâm phạm, sẽ hữu ích không chỉ khi có các máy khách thay thế vững chắc, được bảo trì tốt mà còn phải biết cách sử dụng chúng. Những người khác sử dụng Knots cho mục đích phản đối, vì họ đã mất lòng tin vào các nhà phát triển Core hoặc không chấp thuận cách quản lý của phần lớn máy khách.
 
 ## Làm thế nào để cài đặt Bitcoin Knots?
 
@@ -30,7 +30,7 @@ Truy cập [trang web chính thức của Bitcoin Knots](https://bitcoinknots.or
 
 Trước khi cài đặt phần mềm trên máy của bạn, chúng tôi đặc biệt khuyên bạn nên kiểm tra tính xác thực và toàn vẹn của nó. Nếu bạn không biết cách, hãy xem hướng dẫn khác này:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Sau khi phần mềm đã được xác minh, hãy cài đặt phần mềm bằng cách làm theo các bước được chỉ dẫn trong bảng cài đặt.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Sau khi quá trình đồng bộ hóa ban đầu hoàn tất, nút Bitcoin Knots
 
 passphrase BIP39 là mật khẩu tùy chọn mà bạn có thể tự do lựa chọn, ngoài cụm từ Mnemonic của bạn, để tăng tính bảo mật cho Wallet của bạn. Trước khi cấu hình tính năng này, chúng tôi khuyên bạn nên đọc bài viết sau, giải thích chi tiết về cách passphrase hoạt động trên lý thuyết và cách tránh những sai lầm có thể dẫn đến mất vĩnh viễn bitcoin của bạn:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Nếu bạn đã kích hoạt tùy chọn passphrase, hãy chọn tùy chọn mạnh mẽ và lưu cẩn thận trên một hoặc nhiều phương tiện vật lý an toàn.
 
 ![Image](assets/fr/18.webp)
@@ -212,13 +212,14 @@ Bạn cũng có thể thực hiện việc này thông qua đồ họa Interface
 
 Sau đó, hãy vào phần mềm quản lý danh mục đầu tư của bạn (ví dụ: Sparrow Wallet hoặc Liana) và nhập đường dẫn đến tệp cookie, thường nằm trong cùng thư mục với `Bitcoin.conf`, tùy thuộc vào hệ điều hành của bạn:
 
-|**macOS**|~/Thư viện/Hỗ trợ ứng dụng/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,13 +237,14 @@ server=1
 
 Sau khi chỉnh sửa tệp, hãy đảm bảo bạn lưu tệp vào thư mục phù hợp với hệ điều hành của bạn:
 
-|**macOS**|~/Thư viện/Hỗ trợ ứng dụng/Bitcoin|
 
+
+
+
+|**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Hoạt động này cũng có thể được thực hiện thông qua đồ họa Interface của Bitcoin-QT. Vào menu "*Settings*", sau đó "*Options...*", và kích hoạt tùy chọn "*Enable RPC server*" bằng cách đánh dấu vào ô tương ứng. Nếu tệp `Bitcoin.conf` không tồn tại, bạn có thể tạo tệp trực tiếp từ Interface này bằng cách nhấp vào "*Open Configuration File*".
 
@@ -285,4 +287,4 @@ Nếu bạn thấy hướng dẫn này hữu ích, tôi sẽ rất biết ơn n�
 
 Tôi cũng giới thiệu hướng dẫn khác này trong đó tôi giải thích cách thiết lập nút Lightning của riêng bạn:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

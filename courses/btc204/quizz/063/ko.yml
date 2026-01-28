@@ -1,0 +1,9 @@
+question: 코인 선택과 관련된 두 가지 개인정보 보호 위험은 무엇인가요?
+answer: 수신자의 입력/아이덴티티와 CIOH 간의 링크입니다.
+wrong_answers:
+  - IP Address 추적 및 활동 상관관계.
+  - 시간 추적 및 Address 재사용.
+  - Address 재사용 및 외부 관찰자에 의한 입력/아이덴티티 간의 연결.
+explanation: |
+  코인을 선택할 때 고려해야 할 두 가지 위험은 결제 수신자가 신원의 일부를 입력으로 사용된 UTXO에 연결할 수 있는 가능성과 외부 관찰자가 입력으로 소비된 모든 UTXO를 연결할 수 있는 능력(CIOH)입니다.
+reviewed: true

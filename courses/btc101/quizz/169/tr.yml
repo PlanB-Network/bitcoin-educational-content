@@ -1,12 +1,8 @@
-question: Bitcoin protokolü, sonraki blok için geçerli bir Hash bulan Miner'i nasıl ödüllendirir?
-answer: Mutabakat kuralları tarafından tanımlanan bir ödülle ve geçerli bloğa dahil olan tüm işlemlerden elde edilen ücretlerle.
+question: Bitcoin protokolünün benzersiz özelliği nedir?
+answer: Küresel ölçekte, günde 24 saat, haftada 7 gün faaliyet göstermektedir.
 wrong_answers:
-  - Konsensüs kuralları ile tanımlanmamış sabit miktarda bitcoin ile.
-  - Toplam Bitcoin Supply ve önceki bloklarda yer alan tüm işlemlerden elde edilen ücretlerin bir yüzdesi ile.
-  - Geçerli bloğa dahil edilen tüm işlemlerden alınan ücretlerle.
-explanation: |
-  Bitcoin protokolü, geçerli bir Miner bulan Miner'yı ödüllendirir
-  Bir sonraki blok için Hash miktarı şu olan bir ödül ile
-  mutabakat kuralları tarafından tanımlanan ücretler ile birlikte
-  geçerli blokta yer alan tüm işlemler.
+  - Sadece mesai saatleri içinde çalışır.
+  - Merkezi bir otorite tarafından kontrol edilir.
+  - Kolayca hacklenebilir.
+explanation: >-
 reviewed: true

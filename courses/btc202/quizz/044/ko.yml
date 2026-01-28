@@ -1,0 +1,9 @@
+question: 엄브렐은 애플리케이션을 격리하고 관리하기 위해 어떤 기술을 사용하나요?
+answer: 도커 컨테이너
+wrong_answers:
+  - VirtualBox 가상 머신
+  - Bash 스크립트
+  - 쿠버네티스 클러스터
+explanation: |
+  Umbrel의 각 애플리케이션은 Docker 컨테이너에서 실행되므로 독립적인 관리 및 격리가 가능합니다.
+reviewed: true

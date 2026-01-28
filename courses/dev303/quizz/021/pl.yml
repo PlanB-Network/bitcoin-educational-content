@@ -1,0 +1,8 @@
+question: Którego typu parametru powinna użyć metoda Rust, jeśli musi zmodyfikować instancję struktury, jednocześnie pozwalając wywołującemu zachować własność?
+answer: "&mut self"
+wrong_answers:
+  - "&self"
+  - jaźń
+  - mut self
+explanation: |
+  Metody, które muszą zmodyfikować instancję struktury, pozwalając jednocześnie wywołującemu na zachowanie własności, powinny używać `&mut self` jako pierwszego parametru. Tworzy to mutowalną referencję do instancji, umożliwiając metodzie zmianę pól struktury bez odbierania własności wywołującemu. Użycie `&self` pozwoliłoby tylko na odczytanie instancji, `self` zużyłoby instancję w całości, a `mut self` nie jest poprawną składnią Rust dla parametrów metody.

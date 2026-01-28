@@ -1,11 +1,12 @@
-question: Où sont stockés les bitcoins ?
-answer: Dans la blockchain Bitcoin.
+question: Quelle est la question centrale à se poser lors du choix d'un portefeuille Bitcoin, en termes de garde personnelle ?
+answer: Êtes-vous le propriétaire des fonds ou laissez-vous le contrôle de votre argent à un tiers ?
 wrong_answers:
-  - Dans le portefeuille Bitcoin.
-  - Sur l'appareil où le portefeuille est installé.
-  - Dans le coffre de la Réserve Fédérale.
+  - Le portefeuille est-il sécurisé par une phrase secrète ?
+  - Le portefeuille permet-il de recevoir et d'envoyer des bitcoins ?
+  - Puis-je partager mon portefeuille avec une autre personne ?
 explanation: |
-  Bien que vos clés privées soient stockées dans votre portefeuille, les
-  bitcoins eux-mêmes sont en réalité stockés dans la blockchain Bitcoin, qui est le registre public distribué au sein
-  du réseau pair-à-pair Bitcoin.
+  Lors du choix d'un portefeuille Bitcoin, la question centrale est :
+  êtes-vous le propriétaire des fonds ou laissez-vous le contrôle de
+  votre argent à un tiers ? Cela est dû au fait que le détenteur de
+  la clé privée est le propriétaire des bitcoins.
 reviewed: true

@@ -1,0 +1,11 @@
+question: Wat symboliseert Bitcoin naast zijn technologie?
+answer: Een revolutie tegen traditionele financiële systemen en een alternatief gebaseerd op transparantie, decentralisatie en individuele soevereiniteit.
+wrong_answers:
+  - Een nieuwe vorm van digitale valuta die efficiënter is dan traditionele valuta omdat het sneller gaat.
+  - Een manier voor individuen om geld te verdienen via Mining.
+  - Een hulpmiddel voor criminelen om illegale transacties uit te voeren.
+explanation: |
+  Naast de technologie symboliseert Bitcoin een revolutie
+  tegen traditionele financiële systemen: het protocol
+  dwingt een nieuw monetair systeem af zonder centrale entiteit.
+reviewed: true

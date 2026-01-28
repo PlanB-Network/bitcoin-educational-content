@@ -1,8 +1,8 @@
-question: 以下哪項特點有助於 Bitcoin 在絲綢之路等暗網交易市場中的使用擴大？
-answer: 它的不可控性和假名性。
+question: Bitcoin 如何解決拜占庭將軍問題？
+answer: 通過使用基於 Proof of Work 的 Blockchain，具有浮動難度。
 wrong_answers:
-  - 其集中控制。
-  - 其可追溯性和可控性。
-  - 其缺乏假名性。
+  - 透過使用數位簽章。
+  - 透過使用公共 Ledger。
+  - 透過使用 Proof of Stake 演算法。
 explanation: >-
 reviewed: true

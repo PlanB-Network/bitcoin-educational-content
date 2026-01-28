@@ -1,0 +1,9 @@
+question: Mempool의 크기를 MB 단위로 제한하는 Bitcoin.conf 매개 변수는 무엇인가요?
+answer: maxmempool
+wrong_answers:
+  - 총 메모리 풀
+  - 멤푸렉스피리
+  - 멤풀사이즈
+explanation: |
+  maxmempool은 Mempool의 최대 크기를 설정합니다(기본값은 300MB). 꽉 차면 수익성이 낮은 트랜잭션이 삭제됩니다.
+reviewed: true

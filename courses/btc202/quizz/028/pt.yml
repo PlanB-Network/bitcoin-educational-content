@@ -1,0 +1,9 @@
+question: O que diferencia um nó pruned de um Full node?
+answer: Elimina gradualmente os blocos antigos
+wrong_answers:
+  - Não valida transacções mais antigas
+  - Não pode retransmitir blocos inteiros
+  - Não mantém qualquer cópia local do Blockchain, apenas o conjunto UTXO
+explanation: |
+  O nó pruned valida toda a cadeia, mas retém apenas uma parte recente dos blocos para limitar o seu armazenamento.
+reviewed: true

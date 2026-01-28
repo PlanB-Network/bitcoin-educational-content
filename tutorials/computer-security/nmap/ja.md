@@ -1,5 +1,5 @@
 ---
-name: エヌマップ
+name: Nmap
 description: ネットワークマッピングと脆弱性スキャンのためのマスターNmap
 ---
 
@@ -7,7 +7,7 @@ description: ネットワークマッピングと脆弱性スキャンのため�
 
 
 
-*このチュートリアルは、[IT-Connect](https://www.it-connect.fr/)に掲載されたMickael Dorignyのオリジナルコンテンツに基づいています。ライセンスは[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)です。原文に変更を加えています。
+*このチュートリアルは、[IT-Connect](https://www.it-connect.fr/)に掲載されたMickael Dorignyのオリジナルコンテンツに基づいています。ライセンスは[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)です。原文に変更を加えています。*
 
 
 
@@ -61,13 +61,13 @@ Nmapの強みはたくさんある：
 
 
 
-- 強力で柔軟**：Nmapは大規模なネットワークをスキャンし、高度な検出技術を使用することができる。UDP、TCP、ICMP、IPv4、IPv6をサポートし、バージョン検出、脆弱性スキャン、プロトコル固有のインタラクションを実行できる。Nmapのアーキテクチャは、特にNSE（Nmap Scripting Engine）スクリプトのおかげでモジュール化されています。
-- 使いやすさ**：公式ドキュメントは豊富で高品質。数多くのコミュニティ・リソースも利用できます。
-- 人気と長寿**：Nmapは1998年以来、この分野でリファレンスとなっている。現在のバージョンは7.95である。特定のタスクのために他のツールも存在するが、Nmapはネットワーク・マッピングと解析の必需品であり続けている。
+- **強力で柔軟**：Nmapは大規模なネットワークをスキャンし、高度な検出技術を使用することができる。UDP、TCP、ICMP、IPv4、IPv6をサポートし、バージョン検出、脆弱性スキャン、プロトコル固有のインタラクションを実行できる。Nmapのアーキテクチャは、特にNSE（Nmap Scripting Engine）スクリプトのおかげでモジュール化されています。
+- 使いやすさ：公式ドキュメントは豊富で高品質。数多くのコミュニティ・リソースも利用できます。
+- 人気と長寿：Nmapは1998年以来、この分野でリファレンスとなっている。現在のバージョンは7.95である。特定のタスクのために他のツールも存在するが、Nmapはネットワーク・マッピングと解析の必需品であり続けている。
 
 
 
-**映画館でのNmap
+**映画館でのNmap**
 
 
 
@@ -87,7 +87,7 @@ Nmapは、一般市民の間で一定の知名度を獲得した数少ないセ�
 
 
 
-**フィードバック
+**フィードバック**
 
 
 
@@ -183,7 +183,7 @@ nmap --open -p 80 192.168.1.18
 
 
 
-*Nmapを使ってリモートサーバーからウェブサービスのステータスを取得する。
+**Nmapを使ってリモートサーバーからウェブサービスのステータスを取得する。**
 
 
 
@@ -209,7 +209,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-*注意：`-sP` オプションは廃止され、`-sn` に置き換えられました。
+**注意：** `-sP` オプションは廃止され、`-sn` に置き換えられました。
 
 
 
@@ -253,7 +253,7 @@ Nmapには事実に基づいているという利点があります。その結�
 
 
 
-Nmapは、セキュリティ評価**、侵入テスト（ペンテスト）、そして残念ながら攻撃者にとっても便利な機能をたくさん持っている。
+Nmapは、セキュリティ評価、侵入テスト（ペンテスト）、そして残念ながら攻撃者にとっても便利な機能をたくさん持っている。
 
 
 
@@ -463,7 +463,7 @@ NmapがWindowsにインストールされた。このチュートリアルに従
 
 
 
-ところで、Nmapを使う場合、**システム上で昇格したローカル権限が必要だろうか？ **場合による**。
+ところで、Nmapを使う場合、**システム上で昇格したローカル権限が必要だろうか？** **場合による**。
 
 
 
@@ -485,25 +485,25 @@ LinuxであろうとWindowsであろうと、Nmapが特権アクセスを要求�
 
 
 
-- 生の」ネットワークパケットを構築する**：Nmapは、高度なパケット操作や構築を含む、幅広いスキャン方法を実行できる。例えば、TCP SYNスキャンを実行する場合である。TCP SYNスキャンは、TCP交換の古典的な三者間ハンドシェークを尊重しない。これを実行するために、Nmapは、ネットワーク通信における適切な慣行を尊重する方法しか知らないオペレーティングシステムのネイティブ関数以外の関数を使用する必要がある(上で見た「Npcap」と「libcap」ライブラリを呼び出す)。Nmapが "標準的な "方法で物事を行わないからこそ、OSやサービス、そして特定の脆弱性に関する特定の情報を推測することができるのだ。
+- **生の**ネットワークパケットを構築する：Nmapは、高度なパケット操作や構築を含む、幅広いスキャン方法を実行できる。例えば、TCP SYNスキャンを実行する場合である。TCP SYNスキャンは、TCP交換の古典的な三者間ハンドシェークを尊重しない。これを実行するために、Nmapは、ネットワーク通信における適切な慣行を尊重する方法しか知らないオペレーティングシステムのネイティブ関数以外の関数を使用する必要がある(上で見た「Npcap」と「libcap」ライブラリを呼び出す)。Nmapが**標準的な**方法で物事を行わないからこそ、OSやサービス、そして特定の脆弱性に関する特定の情報を推測することができるのだ。
 
 
 
 
 
-- ネットワークトラフィックをリッスンする**：Nmapのオプションの中には、特定の情報を取得するためにネットワークをリッスンする必要があるものがある。この動作は、システム上の他のアプリケーションの通信を盗聴することもできるため、オペレーティングシステム上ではセンシティブな動作とみなされる。Wiresharkと同じように、Nmapはこれを実行するために特定の特権を必要とするが、この特権は特権セッションに直接入ることで簡単に取得できる。
+- ネットワークトラフィックをリッスンする：Nmapのオプションの中には、特定の情報を取得するためにネットワークをリッスンする必要があるものがある。この動作は、システム上の他のアプリケーションの通信を盗聴することもできるため、オペレーティングシステム上ではセンシティブな動作とみなされる。Wiresharkと同じように、Nmapはこれを実行するために特定の特権を必要とするが、この特権は特権セッションに直接入ることで簡単に取得できる。
 
 
 
 
 
-- 特権ポートでのリスニング**：オペレーティングシステムでは、0から1024までのポート（TCPおよびUDP）は特権ポートであると言われている。これは今日ではやや時代遅れの理由ではあるが、これらのポートをリッスンするためには、依然として特定の特権が必要である。
+- **特権ポートでのリスニング**：オペレーティングシステムでは、0から1024までのポート（TCPおよびUDP）は特権ポートであると言われている。これは今日ではやや時代遅れの理由ではあるが、これらのポートをリッスンするためには、依然として特定の特権が必要である。
 
 
 
 
 
-- UDPパケットの送信:** 同様に、UDPポート(ステートレスプロトコル)でネットワークアプリケーションをリッスンするには、オペレーティングシステムの特権権限が必要である。そのため、UDPスキャンを実行する場合、特権セッションが必要となる。このスキャンでは、Nmapがスキャンに対する応答を分析するために、応答を待ち受ける必要がある。
+- **UDPパケットの送信:** 同様に、UDPポート(ステートレスプロトコル)でネットワークアプリケーションをリッスンするには、オペレーティングシステムの特権権限が必要である。そのため、UDPスキャンを実行する場合、特権セッションが必要となる。このスキャンでは、Nmapがスキャンに対する応答を分析するために、応答を待ち受ける必要がある。
 
 
 
@@ -556,19 +556,19 @@ LinuxであろうとWindowsであろうと、Nmapが特権アクセスを要求�
 
 
 
-**手元にない場合は、以下の無料ソリューションをお勧めする！
+**手元にない場合は、以下の無料ソリューションをお勧めする！**
 
 
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")** ：ハッキング・トレーニング・プラットフォーム "Hack The Box "は、脆弱なシステムを常時提供し、あなたの思うままに攻撃することができる。数百のシステムが利用可能だが、更新された20台のマシンのプールは一年中無料で提供されており、OpenVPN VPN経由でアクセスできる。
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")：ハッキング・トレーニング・プラットフォーム "Hack The Box "は、脆弱なシステムを常時提供し、あなたの思うままに攻撃することができる。数百のシステムが利用可能だが、更新された20台のマシンのプールは一年中無料で提供されており、OpenVPN VPN経由でアクセスできる。
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** ：このプラットフォームは、意図的に脆弱なシステムを多数ダウンロード提供しており、VirtualBox（これも無料のソリューション）などを使って利用することができる。一度ダウンロードすれば、VPNは不要で、すべてがローカルにある。
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")：このプラットフォームは、意図的に脆弱なシステムを多数ダウンロード提供しており、VirtualBox（これも無料のソリューション）などを使って利用することができる。一度ダウンロードすれば、VPNは不要で、すべてがローカルにある。
 
 
 
@@ -976,7 +976,7 @@ Nmap._経由で実行されたUDPスキャンの可能な結果
 
 
 
-**これらのポートはどのように選ばれるのですか？
+**これらのポートはどのように選ばれるのですか？**
 
 
 
@@ -1056,11 +1056,11 @@ nmap -sU 192.168.1.19 -p 161,23,69
 
 
 
-*指定されたポートに対するNmap TCPスキャンの結果。
+**指定されたポートに対するNmap TCPスキャンの結果。**
 
 
 
-**ポートの範囲をスキャンする
+**ポートの範囲をスキャンする**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**TCPおよびUDPポートスキャン
+**TCPおよびUDPポートスキャン**
 
 
 
@@ -1134,7 +1134,7 @@ sudo nmap 192.168.1.19 -sT -sU -p U:161,T:22
 
 
 
-**すべてのポートをスキャン
+**すべてのポートをスキャン**
 
 
 
@@ -1235,7 +1235,7 @@ Nmapの紹介で述べたように、これはネットワークマッパーで�
 
 
 
-CIDR（***Classless Inter Domain Routing**）は、ネットワーク範囲とその範囲（マスクを使用）を指定するための「古典的な」表記法です。例えば、"192.168.0.0/24 "は10進数マスク表記 "255.255.255.0 "の "翻訳 "です。
+CIDR（**Classless Inter Domain Routing**）は、ネットワーク範囲とその範囲（マスクを使用）を指定するための「古典的な」表記法です。例えば、"192.168.0.0/24 "は10進数マスク表記 "255.255.255.0 "の "翻訳 "です。
 
 
 
@@ -1347,7 +1347,7 @@ Nmapとそのデフォルト・オプションを使用してリモート・ネ�
 
 
 
-**なぜネットワーク・ディスカバリーの一環としてポートにTCPパケットを送るのか？
+**なぜネットワーク・ディスカバリーの一環としてポートにTCPパケットを送るのか？**
 
 
 
@@ -1355,7 +1355,7 @@ Nmapとそのデフォルト・オプションを使用してリモート・ネ�
 
 
 
-与えられたポートにACKパケットを送信することで、Nmapはそのホストにファイアウォールが存在するかどうかを**判定することができる。ホストがACKパケットにRST(リセット)パケットで応答した場合、これはおそらくそのホストにファイアウォールが存在し、未承諾トラフィックをブロックしていることを示す。そのため、そのホストは、たとえ他のリクエストに応答しなかったとしても、ネットワーク上の存在を裏切ることになる。
+与えられたポートにACKパケットを送信することで、Nmapはそのホストにファイアウォールが存在するかどうかを**判定することができる**。ホストがACKパケットにRST(リセット)パケットで応答した場合、これはおそらくそのホストにファイアウォールが存在し、未承諾トラフィックをブロックしていることを示す。そのため、そのホストは、たとえ他のリクエストに応答しなかったとしても、ネットワーク上の存在を裏切ることになる。
 
 
 
@@ -1371,11 +1371,11 @@ Nmapとそのデフォルト・オプションを使用してリモート・ネ�
 
 
 
-お気づきかもしれないが、デフォルトでは、Nmapはアクティブなホスト**を検出した後にポートスキャンを実行する。ネットワーク上に5台のホストがある場合、Nmapは約5,000個のポートの状態をチェックしようとするので、時間がかかる。
+お気づきかもしれないが、デフォルトでは、Nmapはアクティブなホスト**を検出した後にポートスキャンを実行する**。ネットワーク上に5台のホストがある場合、Nmapは約5,000個のポートの状態をチェックしようとするので、時間がかかる。
 
 
 
-しかし、Nmapのオプションを使って、ネットワーク上のアクティブなホスト**を発見するだけで、そのサービスを発見しないことも可能である。
+しかし、Nmapのオプションを使って、ネットワーク上のアクティブなホスト**を発見するだけで、そのサービスを発見しないことも可能である**。
 
 
 
@@ -2165,31 +2165,31 @@ nmap -sV -sC -p- 192.168.0.0/24 192.168.1.13 192.168.2.10-20 --exclude 192.168.0
 
 
 
-- 限定されたカバレッジ**：NmapのNSEスクリプトは強力ですが、他の専門的な脆弱性発見ツールと比較すると、テストカバレッジが限定される場合があります。Active Directoryの脆弱性、機密データの暴露、脆弱なWebアプリケーションの高度なケースなど、利用可能なNSEスクリプトではカバーできない脆弱性もあります。
+- **限定されたカバレッジ**：NmapのNSEスクリプトは強力ですが、他の専門的な脆弱性発見ツールと比較すると、テストカバレッジが限定される場合があります。Active Directoryの脆弱性、機密データの暴露、脆弱なWebアプリケーションの高度なケースなど、利用可能なNSEスクリプトではカバーできない脆弱性もあります。
 
 
 
 
 
-- 脆弱性の複雑さ**：ある種の脆弱性は、その複雑さゆえにNSEスクリプトを使用して検出することが困難な場合がある。たとえば、リモートサービスとの複雑なインタラクションを必要とする脆弱性は、Nmapでは効果的に検出できない可能性がある（ファイル共有の過剰なパーミッションやWebアプリケーションのパーミッション制御の欠陥の場合など）。
+- **脆弱性の複雑さ**：ある種の脆弱性は、その複雑さゆえにNSEスクリプトを使用して検出することが困難な場合がある。たとえば、リモートサービスとの複雑なインタラクションを必要とする脆弱性は、Nmapでは効果的に検出できない可能性がある（ファイル共有の過剰なパーミッションやWebアプリケーションのパーミッション制御の欠陥の場合など）。
 
 
 
 
 
-- 受動的検知**：Nmapは、脆弱性を検出するために主にアクティブスキャンに重点を置いているため、ターゲットホストとのアクティブな接続を確立しなければ、潜在的な脆弱性を効果的に検出できない可能性がある。そのため、アクティブスキャン中に顕在化しない脆弱性は見逃される可能性がある（ウェブアプリケーションのコードインジェクションの場合など）。
+- **受動的検知**：Nmapは、脆弱性を検出するために主にアクティブスキャンに重点を置いているため、ターゲットホストとのアクティブな接続を確立しなければ、潜在的な脆弱性を効果的に検出できない可能性がある。そのため、アクティブスキャン中に顕在化しない脆弱性は見逃される可能性がある（ウェブアプリケーションのコードインジェクションの場合など）。
 
 
 
 
 
-- 更新への依存**：NmapのNSEスクリプトの[データベース](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/)は常に進化しているが、新しい脆弱性が発見されてから対応するスクリプトがNmapに追加されるまでに時間がかかることがある。その結果、Nmapが常に最新の脆弱性に対応しているとは限らない。
+- **更新への依存**：NmapのNSEスクリプトの[データベース](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/)は常に進化しているが、新しい脆弱性が発見されてから対応するスクリプトがNmapに追加されるまでに時間がかかることがある。その結果、Nmapが常に最新の脆弱性に対応しているとは限らない。
 
 
 
 
 
-- 偽陽性と偽陰性**：どのセキュリティツールでもそうであるように、NmapのNSEスクリプトは偽陽性（偽の脆弱性警告）や偽陰性（検出されなかった本当の脆弱性）を生成する可能性がある。これは、Nmapの結果を分析する際に留意すべきことである。
+- 偽陽性と偽陰性：どのセキュリティツールでもそうであるように、NmapのNSEスクリプトは偽陽性（偽の脆弱性警告）や偽陰性（検出されなかった本当の脆弱性）を生成する可能性がある。これは、Nmapの結果を分析する際に留意すべきことである。
 
 
 
@@ -2238,23 +2238,24 @@ NmapのNSEスクリプトを使えば、非常に柔軟な方法で機能を拡�
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| カテゴリー | 説明 |
+|----------------|-------------|
+| **auth** | 匿名アクセスやユーザー列挙を含む、サービス上の認証に関連するスクリプトが含まれます。例：`oracle-enum-users`、`ftp-anon`。 |
+| **broadcast** | ネットワーク上のブロードキャスト操作に関連するスクリプトが含まれます。特に、ブロードキャスト（IPv6、wake on lan、IGMPなど）に依存する特定のサービス、ホスト、またはプロトコルを悪用して検出することを目的としています。例：`broadcast-dhcp6-discover`、`broadcast-ospf2-discover`。 |
+| **brute** | サービス上の認証に対する総当たり（ブルートフォース）操作に関連するスクリプトが含まれます（[SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/)、MSSQLなどの総当たり）。例：`ssh-brute`、`vnc-brute`。 |
+| **default** | デフォルトの場合（`-sC` の使用）に使用されるスクリプトが含まれます。実行速度、出力の構造、テストの信頼性、「侵入的」または「リスクが高い」性質など、いくつかの基準を使用してスクリプトをこのカテゴリーに分類するかどうかが決定されます。 |
+| **discovery** | ネットワークおよびサービスの高度な検出に関連するスクリプトが含まれます。例えば、SMB共有の内容の列挙、VNCサービスのバージョン、SNMPクエリなどが含まれます。例：`mysql-info`、`http-security-headers`。 |
+| **dos** | サービス拒否（DoS）を引き起こす可能性のあるスクリプトが含まれます。DoS脆弱性を悪用するために作成されたスクリプトや、副作用としてDoSを引き起こすスクリプトがあります。そのため注意が必要です（これらは `default` カテゴリーから除外されています）。例：`http-slowloris`、`ipv6-ra-flood`。 |
+| **exploit** | 脆弱性を直接悪用するために作成されたスクリプトが含まれます。例：`http-shellsock`、`smb-vuln-ms08-067`。 |
+| **external** | オンライン情報ベースなど、サードパーティのリソースの使用を必要とするスクリプトが含まれます。これは特に外部への接続試行を示します（機密性に注意してください）。例：`whois-ip`、`dns-blacklist`、`ip-geolocation-geoplugin`。 |
+| **fuzzer** | サービスが予期しないフレーム、パケット、またはパラメータを送信するように設計されたスクリプトが含まれます。これにより、特にエラーや誤作動を引き起こして脆弱性のヒントや技術情報を得ることができます。例：`dns-fuzz`、`http-form-fuzzer`。 |
+| **intrusive** | 可用性または検出の観点から「リスクが高い」と分類されるスクリプトが含まれます。システムクラッシュを引き起こしたり、セキュリティソリューションによって悪意があると検出されたりする可能性があります。これは `safe` の逆のカテゴリーです。例：`smtp-brute`、`smb-vuln-ms08-067`、`smb-psexec`。 |
+| **malware** | 既知のバックドアによって一般的に使用されるリスニングポートなど、マルウェアの特徴的な要素の存在を検出するように設計されたスクリプトが含まれます。例：`ftp-proftpd-backdoor`、`smtp-strangeport`。 |
+| **safe** | 検出または安定性の観点から安全であると見なされるスクリプトが含まれます。これは `intrusive` の逆のカテゴリーであり、その大部分はバージョンの特定や設定要素の調査を行う高度なスクリプトです。例：`html-title`、`smb2-security-mode`、`ms-sql-info`。 |
+| **version** | 高度なバージョン検出を可能にするスクリプトが含まれます。バージョンの検出に少し複雑な操作が必要な場合に、以前学習した Probes や Matchs の補完として使用できます。例：`http-php-version`、`vmware-version`。 |
+| **vuln** | 既知の脆弱性（CVE）の存在を検出するように設計されたスクリプトが含まれますが、それらを悪用することはありません（`exploit` カテゴリーとは逆）。通常、サービスのステータスが「脆弱」であるかどうかを報告するだけにとどまります。例：`smb-vuln-ms17-010` (eternal blue)、`http-phpmyadmin-dir-traversal`。 |
 
 技術的には、スクリプトが属するカテゴリーは、そのコードに直接示される。
 
@@ -3263,7 +3264,7 @@ Nmapスキャンの速度を最適化する（あるいは精度を高める）�
 
 
 
-タイムアウト(_timeouts_)の場合、これは**応答なしタイムアウト(**no response timeout)**であり、これを過ぎるとNmapは応答待ちを停止し、サービスまたはホストに到達不能とみなす。retry_の場合、これはNmapが次に進む前に実行する**操作の連続試行回数**である。
+タイムアウト(*timeouts*)の場合、これは**応答なしタイムアウト**(*no response timeout*)であり、これを過ぎるとNmapは応答待ちを停止し、サービスまたはホストに到達不能とみなす。*retry*の場合、これはNmapが次に進む前に実行する**操作の連続試行回数**である。
 
 
 

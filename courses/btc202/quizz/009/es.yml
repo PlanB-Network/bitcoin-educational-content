@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal de un nodo Bitcoin?
+answer: Guardar Blockchain y validar transacciones y bloques
+wrong_answers:
+  - Almacenar claves privadas y crear transacciones
+  - Crear nuevas direcciones para los usuarios
+  - Convertir bitcoins en monedas fiduciarias
+explanation: |
+  Un nodo Bitcoin mantiene una copia del Blockchain y participa en la validación y retransmisión de transacciones y bloques.
+reviewed: true

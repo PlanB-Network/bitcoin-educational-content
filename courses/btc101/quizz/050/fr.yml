@@ -1,10 +1,9 @@
-question: Quelle est la phase finale du phénomène d'hyperinflation ?
-answer: Une nouvelle monnaie émerge.
+question: Quel était le taux d'inflation au Zimbabwe en novembre 2008 ?
+answer: 79 600 000 000 %
 wrong_answers:
-  - Perte de confiance.
-  - Effondrement de la monnaie & augmentation des prix.
-  - Le cercle vicieux de l'impression monétaire.
+  - 796 %
+  - 79 600 000 000 000 000 %
+  - 100 %
 explanation: |
-  La phase finale de l'hyperinflation se produit lorsqu'une nouvelle
-  monnaie est introduite pour remplacer l'ancienne.
+  En novembre 2008, le taux d'inflation mensuel de la monnaie du Zimbabwe a atteint un pic de 79 600 000 000 %, ce qui a réduit la valeur du dollar zimbabwéen à 0.
 reviewed: true

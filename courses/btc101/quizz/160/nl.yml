@@ -1,13 +1,13 @@
-question: Wat gebeurt er bij een 51% aanval op het Bitcoin netwerk?
-answer: Een agent bezit meer dan de helft van Hashrate en kan proberen Blockchain aan te passen.
+question: Wat is het belangrijkste probleem van het huidige financiële systeem met betrekking tot het milieu?
+answer: Het moedigt overconsumptie en schulden aan.
 wrong_answers:
-  - Een agent krijgt controle over meer dan de helft van de bitcoins in omloop.
-  - Een agent krijgt controle over meer dan de helft van de knooppunten in het Bitcoin netwerk.
-  - Een agent krijgt controle over meer dan de helft van de Mining pools in de Bitcoin
+  - Het bevordert het gebruik van fossiele brandstoffen.
+  - Het investeert niet in hernieuwbare energie.
+  - Het reguleert de productie van goederen niet.
 explanation: |
-  Bij een 51% aanval kan een agent met meer dan de helft van het
-  netwerk Hashrate kan mogelijk de
-  Blockchain manipuleren door een alternatieve keten van blokken te creëren.
-  Zo'n aanval zou echter extreem duur zijn en
-  onwaarschijnlijk winstgevend zijn, waardoor het een onwaarschijnlijk scenario is.
+  Het huidige financiële systeem wordt bekritiseerd voor het aanmoedigen van
+  overconsumptie en schulden aanmoedigt, wat ernstige
+  milieuproblemen veroorzaakt. Dit komt door de gemakkelijke toegang tot
+  krediet, monetaire uitgifte door banken en het gebruik van
+  fractioneel reservebankieren.
 reviewed: true

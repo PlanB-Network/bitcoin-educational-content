@@ -1,5 +1,5 @@
 ---
-name: Açık Düğüm
+name: Open Node
 
 description: Çevrimiçi işletmeniz için Open Node'u kurun
 

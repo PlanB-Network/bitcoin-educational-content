@@ -1,0 +1,9 @@
+question: کدام شاخص اختیاری می‌تواند در Bitcoin core فعال شود تا یک تراکنش را با استفاده از txid پیدا کند؟
+answer: txindex
+wrong_answers:
+  - addrindex
+  - بلوک‌ایندکس
+  - الکتروم‌ایندکس
+explanation: |
+  گزینه txindex=1 برای جستجوی یک تراکنش با شناسه منحصربه‌فرد آن استفاده می‌شود (txid).
+reviewed: true

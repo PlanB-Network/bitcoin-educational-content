@@ -1,31 +1,18 @@
 ---
-name: Bitcoin i BTC Pay Server
-goal: Instalirajte BTC Pay Server za vaše poslovanje
-objectives: 
-
-  - Razumeti šta je BTC Pay Server.
-  - Samostalno hostujte i konfigurišite BTC Pay Server.
-  - Koristite BTC Pay Server u svom svakodnevnom poslovanju.
-
+name: Ovladavanje BTC Pay Server-om
+goal: Konfigurisati BTC Pay Server instancu za lokalni biznis
+objectives:
+- Razumeti osnove uloge BTCPay Servera u obradi plaćanja
+- Ovladati unutrašnjim funkcionisanjem procesa konfiguracije BTCPay Servera
+- Implementirati BTCPay Server u cloud i node-baziranim okruženjima
+- Postati BTC Pay Server operator
 ---
+# Put ka finansijskoj suverenosti
 
-# Bitcoin i BTCPay Server
+Poverenje je krhko, posebno kada je u pitanju novac. Ovaj uvodni kurs vas vodi kroz BTCPay Server, moćan alat koji vam omogućava da prihvatate Bitcoin uplate bez oslanjanja na treće strane. Naučićete osnove postajanja BTCPay Server operatera
 
-
-Ovo je uvodni kurs o BTCPay Server Operatoru koji su napisali Alekos i Bas, a koji su u Plan ₿ format kursa prilagodili melontwist i asi0.
-
-
-NEZAVRŠENA PRIČA
-
-
-"Ovo su laži, moje poverenje u tebe je slomljeno, učiniću te zastarelim."
-
-
-Proizvedeno od strane BTCPay Server Foundation
-
-
+Kreirali Alekos i Bas, a adaptirali melontwist i asi0, ovaj kurs otkriva kako pojedinci i preduzeća grade alternative tradicionalnim sistemima plaćanja. Bilo da ste radoznali o Bitcoinu ili spremni da upravljate platnom infrastrukturom za preduzeća, otkrijete praktične veštine koje izazivaju status quo. Spremni da istražite kako zaista izgleda finansijska nezavisnost?
 +++
-
 # Uvod
 
 
@@ -289,7 +276,7 @@ Mnoge opcije u BTCPay Server-u postoje u nekom obliku i u drugim softverima koji
 Kada uđete u Demo okruženje, od vas se traži da se ‘Prijavite’ ili ‘Kreirate svoj nalog.’ Administratori servera mogu isključiti opciju kreiranja novih naloga iz bezbednosnih razloga. BTCPay Server logotipi i boje dugmadi mogu se promeniti jer je BTCPay Server softver otvorenog koda. Treća strana može rebrendirati softver (white-label) i u potpunosti izmeniti njegov izgled.
 
 
-![image](assets/en/0.webp)
+![image](assets/en/001.webp)
 
 
 ### Prozor za kreiranje naloga
@@ -304,7 +291,7 @@ Lozinka mora imati najmanje 8 karaktera, uključujući slova, brojeve i specijal
 Kada su oba polja, email i lozinka, ispravno popunjena, kliknite na dugme 'Kreiraj nalog'. Ovo će sačuvati email i lozinku na instanci BTCPay Server-a instruktora.
 
 
-![image](assets/en/1.webp)
+![image](assets/en/002.webp)
 
 
 **!Napomena!**
@@ -319,7 +306,7 @@ Ako pratite ovaj kurs samostalno, kreiranje ovog naloga bi bilo nešto što bist
 Administrator instance BTCPay Servera takođe može kreirati naloge za BTCPay Server. Administrator instance BTCPay Servera može kliknuti na ‘Server Settings’ (1), kliknuti na karticu ‘Users’ (2), i kliknuti na dugme “+ Add User” (3) u gornjem desnom uglu kartice Users. U poglavlju (4.3), naučićete više o administratorskoj kontroli naloga.
 
 
-![image](assets/en/2.webp)
+![image](assets/en/003.webp)
 
 
 Kao administrator, potrebno je da imate korisnikovu email adresu i postavite standardnu lozinku. Preporučuje se da kao Administrator obavestite korisnika da bi trebalo da promene ovu lozinku pre nego što koriste nalog iz bezbednosnih razloga. Ako Administrator NE postavi lozinku i SMTP je podešen na serveru, korisnik će dobiti email sa pozivnim linkom da kreira svoj nalog i sam postavi lozinku.
@@ -381,7 +368,7 @@ Nakon što vlasnik prodavnice kreira svoj nalog, može ga upravljati u donjem le
 - Upravljaj nalogom.
 
 
-![image](assets/en/3.webp)
+![image](assets/en/004.webp)
 
 
 ### Tamni i svetli režim rada
@@ -411,7 +398,7 @@ Opcionalno ažurirajte svoj nalog sa drugačijom email adresom. Da biste osigura
 Korisnik može odlučiti da obriše ceo svoj nalog. Ovo se može uraditi klikom na dugme za brisanje na kartici Account.
 
 
-![image](assets/en/4.webp)
+![image](assets/en/005.webp)
 
 
 **!Napomena!**
@@ -426,7 +413,7 @@ Nakon promene email-a, korisničko ime za nalog neće se promeniti. Prethodno da
 Student može želeti da promeni svoju lozinku. To može učiniti odlaskom na karticu Lozinka (eng. Password). Ovde je potrebno da unese svoju staru lozinku i može je promeniti u novu.
 
 
-![image](assets/en/5.webp)
+![image](assets/en/006.webp)
 
 
 ### Dvofaktorska autentifikacija (2fa)
@@ -460,7 +447,7 @@ Na osnovu operativnog sistema vašeg mobilnog telefona (Android ili iOS), korisn
 3. Authenticator aplikacija  će vam pružiti jedinstveni kod. Unesite jedinstveni kod u BTCPay Server da biste verifikovali postavku, i kliknite na verifikuj da biste završili proces.
 
 
-![image](assets/en/6.webp)
+![image](assets/en/007.webp)
 
 
 ### Sažetak veština
@@ -495,7 +482,7 @@ Opišite kako aplikacija za dvofaktorsku autentifikaciju (2FA) pomaže u zaštit
 Kada se novi korisnik prijavi na BTCPay Server, okruženje je prazno i potrebno je kreirati prvu prodavnicu. Uvodni čarobnjak BTCPay Server-a će korisniku dati opciju da ‘Kreirajte svoju prodavnicu (eng. Create your store)’ (1). Prodavnica se može posmatrati kao dom za vaše Bitcoin potrebe. Novi BTCPay Server čvor će započeti sa sinhronizacijom Bitcoin Blockchain-a (2). U zavisnosti od infrastrukture na kojoj pokrećete BTCPay Server, ovo može trajati od nekoliko sati do nekoliko dana. Trenutna verzija instance prikazana je u donjem desnom uglu vašeg BTCPay Server korisničkog interfejsa. Ovo je korisno za referencu prilikom rešavanja problema.
 
 
-![image](assets/en/7.webp)
+![image](assets/en/008.webp)
 
 
 ### Čarobnjak za kreiranje prodavnice
@@ -507,7 +494,7 @@ Praćenje ovog kursa će početi sa malo drugačijim ekranom nego prethodna stra
 Korisnik može odlučiti da obriše ceo svoj nalog. Ovo se može uraditi klikom na dugme za brisanje na kartici Nalog (eng. Account).
 
 
-![image](assets/en/8.webp)
+![image](assets/en/009.webp)
 
 
 **!Napomena!**
@@ -522,7 +509,7 @@ BTCPay Server nalozi mogu napraviti neograničen broj prodavnica. Svaka prodavni
 Započnite klikom na "Kreiraj svoju prodavnicu (eng. Create your store)".
 
 
-![image](assets/en/9.webp)
+![image](assets/en/010.webp)
 
 
 Ovo će kreirati vaš prvi početni ekran i kontrolnu tablu za korišćenje BTCPay servera.
@@ -531,31 +518,31 @@ Ovo će kreirati vaš prvi početni ekran i kontrolnu tablu za korišćenje BTCP
 (1) Nakon što kliknete na "Create your store", BTCPay Server će zahtevati da imenujete prodavnicu; ovo može biti bilo šta što vam je korisno.
 
 
-![image](assets/en/10.webp)
+![image](assets/en/011.webp)
 
 
 (2) Podrazumevana valuta prodavnice mora biti postavljena sledeće, bilo fiat valuta ili denominovana u Bitcoin / Sats standardu. Za demo okruženje, postavićemo je na USD.
 
 
-![image](assets/en/11.webp)
+![image](assets/en/012.webp)
 
 
 (3) Kao poslednji parametar u podešavanju prodavnice, BTCPay Server zahteva da postavite "Preferred price source" iliti preferirani izvor informacije o ceni kako biste uporedili cenu Bitcoin sa trenutnom fiat cenom, tako da vaša prodavnica prikazuje tačni kurs između Bitcoin i fiat valute postavljene u prodavnici. Ostaćemo pri podrazumevanom u demo primeru i postaviti ovo na Kraken menjačnicu. BTCPay Server koristi Kraken API za proveru kursa.
 
 
-![image](assets/en/12.webp)
+![image](assets/en/013.webp)
 
 
 (4) Sada kada su ovi parametri prodavnice postavljeni, kliknite na dugme Create, i BTCPay Server će kreirati kontrolnu tablu vaše prve prodavnice, gde će se čarobnjak nastaviti.
 
 
-![image](assets/en/13.webp)
+![image](assets/en/014.webp)
 
 
 Čestitamo, kreirali ste svoju prvu prodavnicu, i ovo zaokružuje ovu vežbu.
 
 
-![image](assets/en/14.webp)
+![image](assets/en/015.webp)
 
 
 ### Sažetak veština
@@ -590,7 +577,7 @@ Bitcoin novčanici, kada se kreiraju, kreiraju takozvani "seed". U prethodnom po
 Generisanje seed-a je urađeno prema industrijskom standardu poznatom kao "Hijerarhijski Deterministički" (HD) okvir.
 
 
-![image](assets/en/15.webp)
+![image](assets/en/016.webp)
 
 
 ### Adrese
@@ -737,14 +724,15 @@ BTCPay Server se sastoji od sledećih standardnih funkcija novčanika:
 Administratori mogu videti dolazne i odlazne transakcije za On-Chain novčanik povezane sa ovom specifičnom prodavnicom u prikazu transakcija. Svaka transakcija ima razliku između primljenih i poslatih iznosa. Primljene će biti označene zelenom bojom, a odlazne transakcije će biti crvene. U okviru prikaza transakcija na BTCPay Server-u, administratori će takođe videti skup standardnih oznaka.
 
 
-| Tip transakcije  | Opis                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Uplata je primljena putem fakture kreirane u aplikaciji |
-| invoice          | Uplata je primljena putem fakture                    |
-| payjoin          | Plaćanje još nije obavljeno – vreme za uplatu još uvek traje        |
-| payjoin-exposed  | UTXO je otkriven putem Payjoin predloga u fakturi |
-| payment-request  | Uplata je primljena putem zahteva za plaćanje       |
-| payout           | Isplata je izvršena putem isplate ili povraćaja novca          |
+
+| Tip transakcije | Opis                                             |
+| ---------------- | ------------------------------------------------ |
+| Aplikacija       | Plaćanje je primljeno putem fakture kreirane od strane aplikacije |
+| Faktura          | Plaćanje je primljeno putem fakture              |
+| Payjoin          | Nije plaćeno, tajmer fakture još uvek nije istekao |
+| Payjoin-otkriven | UTXO je otkriven putem payjoin predloga u fakturi |
+| Zahtev za plaćanje | Plaćanje je primljeno putem zahteva za plaćanje |
+| Isplata          | Plaćanje je poslato putem isplate ili povraćaja  |
 
 ### Kako poslati
 
@@ -804,7 +792,7 @@ Replace-by-fee (RBF) je funkcija Bitcoin protokola koja vam omogućava da zameni
 Pritisnite dugme "Advanced Settings" da biste videli opcije RBF;
 
 
-![image](assets/en/16.webp)
+![image](assets/en/017.webp)
 
 
 
@@ -833,10 +821,10 @@ Kada kliknete na dugme za primanje u BTCPay Server-u, generiše se neiskorišće
 BTCPay Server će uvek tražiti da generišete sledeću dostupnu adresu kako bi se izbegla ponovna upotreba adresa. Nakon klika na “generate next available BTC Address,” BTCPay Server je generisao novu adresu i QR. Takođe vam omogućava da direktno postavite oznaku, eng. label, na adresu za bolje upravljanje vašim adresama.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/018.webp)
 
 
-![image](assets/en/18.webp)
+![image](assets/en/019.webp)
 
 
 #### Ponovno skeniraj
@@ -863,7 +851,7 @@ Administrator može želeti da isključi ovu postavku. Pomoću sledećeg niza mo
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 
@@ -873,13 +861,13 @@ BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
 Postavke novčanika unutar BTCPay Server-a pružaju jasan i brz pregled opštih postavki vašeg novčanika. Sve ove postavke su unapred popunjene ako je novčanik kreiran sa BTCPay Server-om.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/020.webp)
 
 
 Postavke novčanika u BTCPay Server-u počinju sa statusom novčanika. Da li je to samo za gledanje ili vruć novčanik? U zavisnosti od tipa novčanika, akcije mogu varirati od ponovnog skeniranja novčanika za nedostajuće transakcije, obrezivanja starih transakcija iz istorije, registracije novčanika za platne linkove, ili zamene i brisanja trenutnog novčanika povezanog sa prodavnicom. U postavkama novčanik BTCPay Server-a, administratori mogu postaviti oznaku za novčanik radi boljeg upravljanja novčanikom. vde će administrator takođe moći da vidi šemu izvođenja (Derivation Scheme), ključ naloga (xpub), otisak (Fingerprint) i putanju ključa (Keypath). Plaćanja u postavkama novčanika imaju samo 2 glavne postavke. Plaćanje je nevažeće ako transakcija ne uspe da se potvrdi u (postavljenim minutima) nakon isteka fakture. Smatrajte fakturu potvrđenom kada transakcija uplate ima X potvrda. Administratori takođe mogu da uključe opciju za prikaz preporučenih provizija na ekranu za plaćanje ili da ručno postave cilj za potvrdu u broju blokova.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/021.webp)
 
 
 **!Napomena!**
@@ -909,13 +897,13 @@ Druga opcija koju BTCPay Server nudi prilikom kreiranja novog novčanika jeste p
 Kreirali ste novu 'Prodavnicu' u poslednjem delu. Čarobnjak za instalaciju će nastaviti tako što će vas pitati da "Postavite nočanik" ili "Postavite Lightning čvor". U ovom primeru, pratićete proces čarobnjaka "Postavite nočanik" (1).
 
 
-![image](assets/en/21.webp)
+![image](assets/en/022.webp)
 
 
 Nakon što kliknete na "Set up a Wallet", čarobnjak će nastaviti tako što će vas pitati kako želite da nastavite; BTCPay Server sada nudi opciju povezivanja postojećeg Bitcoin novčanika sa vašom novom prodavnicom. Ako nemate novčanik, BTCPay Server predlaže kreiranje novog. Ovaj primer će pratiti korake za “create a new Wallet” (2). Pratite korake da naučite kako da povežete postoječi novčanik, eng. "Connect an existing Wallet" (1).
 
 
-![image](assets/en/22.webp)
+![image](assets/en/023.webp)
 
 
 **!Napomena!**
@@ -927,16 +915,16 @@ Ako pohađate ovaj kurs u učionici, trenutni primer i seed koji smo generisali 
 (1) Nastavite čarobnjak „New Wallet“ klikom na dugme „Create a new Wallet“.
 
 
-![image](assets/en/23.webp)
+![image](assets/en/024.webp)
 
 
 (2) Nakon što kliknete na “Create a new Wallet (prevod: Kreiraj novi novčanik),” sledeći prozor u čarobnjaku će ponuditi opcije “Hot Wallet” i “Watch-only wallet.” Ako pratite zajedno sa instruktorom, vaše okruženje je deljeno demo okruženje, i možete kreirati novčanik samo za praćenje. Obratite pažnju na razliku između obe slike ispod. Kako ste u demo okruženju i pratite zajedno sa instruktorom, kreirajte "Watch-only wallet" i nastavite sa čarobnjakom "New Wallet."
 
 
-![image](assets/en/24.webp)
+![image](assets/en/025.webp)
 
 
-![image](assets/en/25.webp)
+![image](assets/en/026.webp)
 
 
 (3) Nastavljajući čarobnjak za novi novčanik, sada se nalazite u odeljku Kreiraj BTC novčanik samo za praćenje. Ovde možemo postaviti "tip adrese" novčanika. BTCPay Server vam omogućava da izaberete svoj preferirani tip adrese; od trenutka pisanja ovog kursa, i dalje se preporučuje korišćenje bech32 adresa. Saznajte više detalja o adresama u prvom poglavlju ovog dela.
@@ -960,31 +948,31 @@ Ako pohađate ovaj kurs u učionici, trenutni primer i seed koji smo generisali 
 Izaberite SegWit (preporučeno) kao vaš preferirani tip adrese novčanika.
 
 
-![image](assets/en/26.webp)
+![image](assets/en/027.webp)
 
 
 (4) Kada postavljate parametar za novčanik, BTCPay Server omogućava korisnicima da postave opcionalni passphrase putem BIP39, obavezno potvrdite vašu lozinku.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/028.webp)
 
 
 (5) Nakon što postavite tip adrese novčanika i eventualno postavite neke napredne opcije, kliknite na Create, i BTCPay Server će generisati vaš novi novčanik. Imajte na umu da je ovo poslednji korak pre generisanja vaše seed fraze. Uverite se da ovo radite samo u okruženju gde niko ne može ukrasti seed frazu gledajući u vaš ekran.
 
 
-![image](assets/en/28.webp)
+![image](assets/en/029.webp)
 
 
 (6) Na sledećem ekranu čarobnjaka, BTCPay Server vam prikazuje seed frazu za oporavak za vaš novo generisani novčanik; ovo su ključevi za oporavak vašeg novčanika i potpisivanje transakcija. BTCPay Server generiše seed frazu od 12 reči. Ove reči će biti izbrisane sa servera nakon ovog ekrana za podešavanje. Ovaj novčanik je specifično novčanik samo za praćenje. Preporučuje se da se seed fraza ne čuva digitalno ili putem fotografske slike. Korisnici mogu nastaviti dalje u čarobnjaku samo ako aktivno potvrde da su zapisali svoju seed frazu.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/030.webp)
 
 
 (7) Nakon što kliknete na Done i osigurate novogenerisanu Bitcoin seed frazu, BTCPay Server će ažurirati vašu prodavnicu sa priloženim novim novčanikom i spreman je za primanje uplata. Unutara korisničkog interfejsa, u levom navigacionom meniju, primetite kako je Bitcoin sada istaknut i aktiviran ispod novčanika.
 
 
-![image](assets/en/30.webp)
+![image](assets/en/031.webp)
 
 
 ### Primer: Pisanje seed fraze
@@ -1088,7 +1076,7 @@ BTCPay Server treba informacije o povezivanju; prethodno napravljeno (ili custod
 - LNDhub putem REST API-ja
 
 
-![image](assets/en/31.webp)
+![image](assets/en/032.webp)
 
 
 Kliknite "testiraj vezu (eng.test connection)" da biste osigurali da ste ispravno uneli detalje veze. Nakon što se potvrdi da je veza dobra, kliknite sačuvaj, i BTCPay Server će prikazati da je prodavnica ažurirana sa Lightning Node-om.
@@ -1144,7 +1132,7 @@ U okviru opcije Lightning novčanik u levoj traci menija, administratori servera
 Administratori servera mogu kliknuti na informacije o internom čvoru i baciti pogled na status svog servera (Online/Offline) i string za povezivanje za Clearnet ili Tor.
 
 
-![image](assets/en/32.webp)
+![image](assets/en/033.webp)
 
 
 #### Promeni konekciju
@@ -1153,7 +1141,7 @@ Administratori servera mogu kliknuti na informacije o internom čvoru i baciti p
 Da biste promenili eksterni Lightning nod, idite na „Lightning podešavanja (eng.Lightning Settings)“ i kliknite na „Promeni konekciju (eng.Change connection)“ (pored stavke „Informacije o javnom nodu (eng.Public Node info)“). Ovo će resetovati postojeće podešavanje. Unesite podatke novog noda, kliknite na „Save“, i prodavnica će se ažurirati u skladu s tim.
 
 
-![image](assets/en/33.webp)
+![image](assets/en/034.webp)
 
 
 #### Usluge
@@ -1168,7 +1156,7 @@ Ako administrator servera odluči da instalira više usluga za implementaciju Li
 Nakon dodavanja Lightning čvora u prodavnicu u prethodnom koraku, unutar postavki Lightning novčanik, vlasnici prodavnica i dalje mogu da ga deaktiviraju za svoju prodavnicu koristeći prekidač na vrhu Lightning postavki.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/035.webp)
 
 
 #### Opcije Lightning plaćanja
@@ -1244,7 +1232,7 @@ Svo upravljanje lightning čvorovima se standardno obavlja sa RTL (pod pretposta
 Kada se povezujete sa trećeom stranom kao što je Alby, vlasnici prodavnica prvo treba da kreiraju nalog, posetite: https://getalby.com/
 
 
-![image](assets/en/35.webp)
+![image](assets/en/036.webp)
 
 
 Nakon kreiranja Alby naloga, idite u vašu BTCPay Server prodavnicu.
@@ -1253,25 +1241,25 @@ Nakon kreiranja Alby naloga, idite u vašu BTCPay Server prodavnicu.
 Korak 1: Kliknite na 'Set up a Lightning node' na kontrolnoj tabli ili 'Lightning' ispod novčanika.
 
 
-![image](assets/en/36.webp)
+![image](assets/en/037.webp)
 
 
 Korak 2: Unesite svoje kredencijale za novčanik za povezivanje koje je obezbedio Alby. Na Alby kontrolnoj tabli, kliknite na Wallet. Ovde ćete pronaći "Wallet Connection Credentials". Kopirajte ove kredencijale. Nalepite kredencijale iz Alby-ja u polje za konfiguraciju povezivanja u BTCPay Server.
 
 
-![image](assets/en/37.webp)
+![image](assets/en/038.webp)
 
 
 Korak 3: Nakon što obezbedite BTCPay Server-u detalje za povezivanje, kliknite na dugme "Test Connection" da biste osigurali da veza radi ispravno. Obratite pažnju na poruku "Connection to lightning node successful" na vrhu ekrana. Ovo potvrđuje da sve funkcioniše kako treba.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/039.webp)
 
 
 Korak 4: Kliknite na sačuvaj, i vaša prodavnica je sada povezana sa lightning nodom od strane Alby-ja.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/040.webp)
 
 
 **!Napomena!**
@@ -1336,7 +1324,7 @@ Unutar glavnog prikaza BTCPay Server kontrolne table dostupno je nekoliko standa
 "Wallet Balance" pločica pruža brz pregled sredstava i performansi vašeg novčanika. Može se prikazati u BTC ili fiat valuti na nedeljnom, mesečnom ili godišnjem grafikonu.
 
 
-![image](assets/en/40.webp)
+![image](assets/en/041.webp)
 
 
 ### Transakciona aktivnost
@@ -1345,7 +1333,7 @@ Unutar glavnog prikaza BTCPay Server kontrolne table dostupno je nekoliko standa
 Pored pločice "Wallet Balance", BTCPay Server prikazuje brzi pregled čekajućih isplata, broj transakcija u poslednjih 7 dana i da li je vaša prodavnica izdala bilo kakve povrate. Klikom na dugme "Manage" ulazite u upravljanje čekajućim isplatama (saznajte više o isplatama u BTCPay Server - Poglavlje o plaćanjima).
 
 
-![image](assets/en/41.webp)
+![image](assets/en/042.webp)
 
 
 ### Lightning balans
@@ -1357,7 +1345,7 @@ Ovo je vidljivo samo kada je Lightning aktiviran.
 Kada je administrator omogućio pristup Lightning mreži, BTCPay Server kontrolna tabla sada ima novu pločicu sa informacijama o vašem Lightning čvoru. Koliko BTC-a je u kanalima, kako je ovo balansirano lokalno ili udaljeno (prilivna ili odlazna likvidnost) ako se kanali zatvaraju ili otvaraju, i koliko Bitcoin-a drži on-chain na Lightning čvoru.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/043.webp)
 
 
 ### Lightning servisi
@@ -1369,7 +1357,7 @@ Ovo je vidljivo samo kada je lightning aktivan.
 Pored prikaza stanja vašeg Lightning računa na BTCPay Server kontrolnoj tabli, administratori će takođe videti pločicu za Lightning usluge. Ovde administratori mogu pronaći brze dugmiće za alate koje koriste za upravljanje svojim Lightning čvorom; na primer, Ride the Lightning je jedan od standardnih alata sa BTCPay Server-om za upravljanje Lightning čvorom.
 
 
-![image](assets/en/43.webp)
+![image](assets/en/044.webp)
 
 
 ### Nedavne transakcije
@@ -1378,7 +1366,7 @@ Pored prikaza stanja vašeg Lightning računa na BTCPay Server kontrolnoj tabli,
 Pločica nedavnih transakcija će prikazati najnovije transakcije vaše prodavnice. Jednim klikom, administrator instance BTCPay Server-a sada može videti najnoviju transakciju i proveriti da li zahteva pažnju.
 
 
-![image](assets/en/44.webp)
+![image](assets/en/045.webp)
 
 
 ### Nedavne fakture
@@ -1387,7 +1375,7 @@ Pločica nedavnih transakcija će prikazati najnovije transakcije vaše prodavni
 Pločica sa nedavnim fakturama prikazuje 6 najnovijih faktura generisanih od strane vašeg BTCPay Server-a, uključujući status i iznos fakture. Pločica takođe uključuje dugme "View all" za lak pristup kompletnom pregledu faktura.
 
 
-![image](assets/en/45.webp)
+![image](assets/en/046.webp)
 
 
 ### Point Of Sale i Crowdfunds
@@ -1396,13 +1384,13 @@ Pločica sa nedavnim fakturama prikazuje 6 najnovijih faktura generisanih od str
 Kako BTCPay Server isporučuje skup standardnih dodataka ili aplikacija, Point Of Sale i Crowdfund su dva glavna dodatka BTCPay Server-a. Sa svakom prodavnicom i novčanikom, korisnik BTCPay Server-a može generisati onoliko Point Of Sales ili Crowdfunds koliko smatra potrebnim. Svaki će kreirati novu pločicu na kontrolnoj tabli koja prikazuje performanse dodataka.
 
 
-![image](assets/en/46.webp)
+![image](assets/en/047.webp)
 
 
 Primetite blagu razliku između pločice Point of Sale i Crowdfund. Administrator vidi najprodavanije artikle u pločici Point of Sales. U pločici Crowdfund, ovo postaje Top Perks. Obe pločice imaju brze dugmiće za upravljanje odgovarajućom aplikacijom i pregled nedavno kreiranih faktura prema najprodavanijim artiklima ili top pogodnostima.
 
 
-![image](assets/en/47.webp)
+![image](assets/en/048.webp)
 
 
 **!?Napomena!?**
@@ -1543,7 +1531,7 @@ Podrazumevani načini plaćanja. BTCPay Server u standardnoj konfiguraciji ima t
 Možemo postaviti parametre za našu prodavnicu, gde će kupac komunicirati sa Lightning-om samo kada je cena manja od X iznosa i obrnuto za On-Chain transakcije kada je X veći od Y uvek prikazati On-Chain opciju plaćanja.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/049.webp)
 
 
 #### Plaćanje (eng. Checkout)
@@ -1552,7 +1540,7 @@ Možemo postaviti parametre za našu prodavnicu, gde će kupac komunicirati sa L
 Od 1.7 izdanja BTCPay Server, uveden je novi Checkout interfejs, nazvan Checkout V2. Od izdanja 1.9 je standardizovan, administratori i vlasnici prodavnica i dalje mogu postaviti plaćanje na prethodno izdanje. Korišćenjem prekidača "Koristi klasičnu naplatu", vlasnik prodavnice može vratiti prodavnicu na prethodno iskustvo naplate. BTCPay Server takođe ima odabrani set unapred podešenih opcija za online trgovinu ili iskustvo u prodavnici.
 
 
-![image](assets/en/49.webp)
+![image](assets/en/050.webp)
 
 
 Kada kupac stupi u interakciju sa prodavnicom i generiše fakturu, postoji vreme isteka fakture. Podrazumevano, BTCPay Server postavlja ovo na 5 minuta, a administrator može postaviti ovo na vreme koje smatra prikladnim. Stranica za naplatu može se dodatno prilagoditi izmenom sledećih parametara:
@@ -1567,25 +1555,25 @@ Kada kupac stupi u interakciju sa prodavnicom i generiše fakturu, postoji vreme
 - Automatsko otkrivanje jezika pri naplati
 
 
-![image](assets/en/50.webp)
+![image](assets/en/051.webp)
 
 
 Kada Auto-detect jezik nije postavljen, BTCPay Server će, po defaultu, prikazivati engleski. Vlasnik prodavnice može promeniti ovaj podrazumevani jezik na svoj preferirani jezik.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/052.webp)
 
 
 Kliknite na padajući meni i vlasnici prodavnica mogu postaviti prilagođeni HTML naslov koji će biti prikazan na stranici za naplatu.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/053.webp)
 
 
 Da bi se osiguralo da kupac zna svoj način plaćanja, vlasnik prodavnice može eksplicitno postaviti svoju naplatu da uvek zahteva od korisnika da izaberu svoj preferirani način plaćanja. Kada je faktura plaćena, BTCPay Server omogućava kupcu da se vrati u webshop. Vlasnici prodavnica mogu podesiti da se ovo preusmerenje automatski primeni nakon što kupac izvrši uplatu.
 
 
-![image](assets/en/53.webp)
+![image](assets/en/054.webp)
 
 
 #### Javne priznanice
@@ -1594,7 +1582,7 @@ Da bi se osiguralo da kupac zna svoj način plaćanja, vlasnik prodavnice može 
 U okviru podešavanja javne priznanice, vlasnik prodavnice može podesiti da stranice priznanica budu javne, prikazujući listu uplata na stranici priznanice, kao i QR kod kako bi kupac lako mogao da joj pristupi.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/055.webp)
 
 
 ### Pristupni tokeni
@@ -1603,7 +1591,7 @@ U okviru podešavanja javne priznanice, vlasnik prodavnice može podesiti da str
 Pristupni tokeni se koriste za uparivanje sa određenim e-commerce integracijama ili prilagođenim integracijama.
 
 
-![image](assets/en/55.webp)
+![image](assets/en/056.webp)
 
 
 ### Korisnici
@@ -1612,7 +1600,7 @@ Pristupni tokeni se koriste za uparivanje sa određenim e-commerce integracijama
 Korisnici prodavnice su mesto gde vlasnik prodavnice može upravljati članovima svog osoblja, njihovim nalozima i pristupom prodavnici. Nakon što članovi osoblja kreiraju svoje naloge, vlasnik prodavnice može dodati određene korisnike u prodavnicu kao goste ili vlasnike. Da biste dodatno definisali ulogu člana osoblja, pogledajte sledeći odeljak o „BTCPay Server podešavanjima prodavnice - Uloge.“
 
 
-![image](assets/en/56.webp)
+![image](assets/en/057.webp)
 
 
 ### Uloge
@@ -1624,13 +1612,13 @@ Vlasnik prodavnice možda neće smatrati standardne uloge korisnika dovoljno zna
 (1) Da biste kreirali novu ulogu, kliknite na dugme "+ Dodaj ulogu".
 
 
-![image](assets/en/57.webp)
+![image](assets/en/058.webp)
 
 
 (2) Unesite naziv uloge, na primer, "Kasir".
 
 
-![image](assets/en/58.webp)
+![image](assets/en/059.webp)
 
 
 (3) Konfigurišite pojedinačne dozvole za ulogu.
@@ -1664,7 +1652,7 @@ Vlasnik prodavnice možda neće smatrati standardne uloge korisnika dovoljno zna
 Kada se uloga kreira, ime je fiksno i ne može se promeniti kasnije u režimu uređivanja.
 
 
-![image](assets/en/59.webp)
+![image](assets/en/060.webp)
 
 
 ### Webhooks
@@ -1673,13 +1661,13 @@ Kada se uloga kreira, ime je fiksno i ne može se promeniti kasnije u režimu ur
 U okviru BTCPay Server-a, relativno je lako napraviti novi "Webhook". U postavkama BTCPay Server prodavnice - na kartici Webhooks, vlasnik prodavnice može lako kreirati novi webhook klikom na "+ Create Webhook". Webhooks omogućavaju BTCPay Server-u da šalje HTTP događaje vezane za vašu prodavnicu drugim serverima ili e-commerce integracijama.
 
 
-![image](assets/en/60.webp)
+![image](assets/en/061.webp)
 
 
 Sada ste u prikazu za kreiranje Webhook-a. Uverite se da znate svoj Payload URL i nalepite ga u svoj BTCPay Server. Kada nalepite URL nosioca podataka (payload URL), ispod se prikazuje tajna vebhuka (webhook secret). Kopirajte tu tajnu i navedite je na krajnjoj tački (endpointu). Kada je sve postavljeno, možete uključiti u BTCPay Server-u Automatsko ponovno slanje, na engleskom "Automatic redelivery." BTCPay Server  će pokušati ponovo da pošaljemo svaku neuspelu isporuku nakon 10 sekundi, 1 minuta, i do 6 puta nakon 10 minuta. Možete se prebacivati između svakog događaja ili specificirati događaje prema vašim potrebama. Obavezno omogućite webhook i pritisnite dugme "Add webhook" kako biste dodati webhook sačuvali.
 
 
-![image](assets/en/61.webp)
+![image](assets/en/062.webp)
 
 
 Webhooks nisu namenjeni da budu kompatibilni sa Bitpay API-jem. Postoje dva odvojena IPN-a (u terminima BitPay-a: "Instant Payment Notifications") u BTCPay Serveru.
@@ -1702,15 +1690,15 @@ Procesori isplata rade zajedno sa konceptom Isplata u BTCPay Server-u. Agregator
 Vlasnik prodavnice može kliknuti i konfigurisati oba procesora isplate zasebno. Vlasnik prodavnice možda želi da pokrene procesor On-Chain samo jednom svakih X sati, dok off-chain može ići svakih nekoliko minuta. Za On-Chain, možete takođe postaviti cilj za koji blok treba da bude uključen. Po default-u, ovo je postavljeno na 1 (ili sledeći dostupan blok). Primetite da postavljanje off-chain procesora isplate ima samo intervalni tajmer i nema cilj bloka. Lightning Network isplate su trenutne.
 
 
-![image](assets/en/62.webp)
+![image](assets/en/063.webp)
 
-![image](assets/en/63.webp)
+![image](assets/en/064.webp)
 
 
 Vlasnici prodavnica mogu konfigurisati On-Chain procesor samo ako imaju vruć novčanik povezan sa svojom prodavnicom.
 
 
-![image](assets/en/64.webp)
+![image](assets/en/065.webp)
 
 
 Nakon postavljanja procesora za isplatu, možete ga brzo ukloniti ili izmeniti vraćanjem na karticu procesora za isplatu u postavkama BTCPay Server prodavnice.
@@ -1728,7 +1716,7 @@ On-Chain procesor isplata  - Procesor isplata na lancu može raditi samo na prod
 BTCPay Server može koristiti e-poštu za obaveštenja ili, kada je pravilno postavljeno, za oporavak naloga koji su napravljeni na instanci, jer standardni BTCPay Server ne šalje e-poštu kada je lozinka izgubljena, na primer.
 
 
-![image](assets/en/65.webp)
+![image](assets/en/066.webp)
 
 
 Pre nego što vlasnik prodavnice može da postavi pravila za slanje e-pošte kako bi se određeni događaji u prodavnici automatski pokrenuli, najpre mora da podesi osnovna podešavanja e-pošte. BTCPay Server zahteva ova podešavanja kako bi mogao da šalje e-poruke povezane sa događajima u vašoj prodavnici ili za resetovanje lozinke.
@@ -1748,7 +1736,7 @@ BTCPay Server je olakšao popunjavanje ovih informacija korišćenjem opcije "Qu
 Korišćenjem opcije brzog popunjavanja, BTCPay Server će unapred popuniti polja za SMTP server i port; sada vlasnik prodavnice treba samo da unese svoje kredencijale u email adresu, popuni Login polje (što je obično jednako vašoj email adresi), i vašu lozinku. Napredna opcija koju BTCPay Server nudi u podešavanjima emaila je onemogućavanje provere sigurnosti TLS sertifikata (eng. Disable TLS Certificate security checks); ovo je omogućeno po podrazumevanim podešavanjima.
 
 
-![image](assets/en/66.webp)
+![image](assets/en/067.webp)
 
 
 Sa pravilima e-pošte, vlasnik prodavnice može postaviti specifične događaje koji će pokrenuti slanje e-poruka na određene e-mail adrese.
@@ -1767,7 +1755,7 @@ Sa pravilima e-pošte, vlasnik prodavnice može postaviti specifične događaje 
 Ako je kupac dostavio email adresu, ovi okidači mogu takođe poslati informacije kupcu. Vlasnici prodavnica mogu unapred popuniti liniju svrhu emaila kako bi jasno naznačili zašto se ovaj email dogodio i koji okidač ga je izazvao.
 
 
-![image](assets/en/67.webp)
+![image](assets/en/068.webp)
 
 
 ### Obrasci
@@ -1779,13 +1767,13 @@ Kako BTCPay Server ne prikuplja nikakve podatke, vlasnik prodavnice možda želi
 Kada kreirate novi obrazac, BTCPay Server otvara novi prozor koji traži osnovne informacije o tome šta želite da vaš novi obrazac zahteva. Na početku, vlasnik prodavnice treba da da jasno ime svom novom obrascu, ovo ime NE MOŽE biti promenjeno nakon što je postavljeno.
 
 
-![image](assets/en/68.webp)
+![image](assets/en/069.webp)
 
 
 Nakon što vlasnik prodavnice da ime obrascu, možete takođe omogućiti prekidač za "Dozvoli javnu upotrebu obrasca (eng. Allow form for public use)" na UKLJUČENO, i on postaje zelen. Ovo je kako bi se obrazac koristio na svakom mestu koje je okrenuto ka kupcima. Na primer, ako vlasnik prodavnice kreira 1 posebnu fakturu ne preko svog prodajnog mesta, možda će i dalje želeti da prikupi informacije od kupca; ovo prebacivanje na UKLJUČENO omogućava prikupljanje tih informacija.
 
 
-![image](assets/en/69.webp)
+![image](assets/en/070.webp)
 
 
 Svaki obrazac počinje sa najmanje jednim novim poljem. Vlasnik prodavnice može da izabere koji tip polja će to biti.
@@ -1808,7 +1796,7 @@ Svaki obrazac počinje sa najmanje jednim novim poljem. Vlasnik prodavnice može
 Svaka vrsta dolazi sa svojim parametrima za popunjavanje. Vlasnik prodavnice može ih postaviti po svom nahođenju. Ispod prvog kreiranog polja, vlasnici prodavnica mogu nastaviti dodavati nova polja u ovaj jedan obrazac.
 
 
-![image](assets/en/70.webp)
+![image](assets/en/071.webp)
 
 
 #### Napredni prilagođeni obrasci
@@ -1817,28 +1805,30 @@ Svaka vrsta dolazi sa svojim parametrima za popunjavanje. Vlasnik prodavnice mo�
 BTCPay Server takođe omogućava kreiranje obrazaca u kodu. Posebno u JSON formatu. Umesto da gledaju u editor, vlasnici prodavnica mogu kliknuti na dugme CODE odmah pored editora i ući u kod svojih obrazaca. U definiciji polja, mogu se postaviti samo sledeća polja; vrednosti polja se čuvaju u metapodacima fakture:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Polje | Opis |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | Ako je podešeno na tačno (true), vrednost polja .value mora biti definisana u definiciji forme, a korisnik neće moći da menja vrednost tog polja.(primer: verzija definicije forme)                                                                                                                                                                                                                                                                                 |
-| .fields.type          | HTML tipovi input polja su: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel.                                                                                                                                                                                                                                                                                               |
-| .fields.options       | Ako je .fields.type postavljeno na select, to predstavlja listu dostupnih opcija za izbor                                                                                                                                                                                                                                                                                                                                                                          |
-| .fields.options.text  | Tekst koji se prikazuje za ovu opciju                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | Vrednost polja ako je ova opcija izabrana.                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Kreirajte HTML fieldset oko podređenih polja .fields.fields (pogledajte dole).                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.name          | Naziv JSON svojstva polja kako će se pojaviti u metapodacima fakture.                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | Podrazumevana vrednost polja                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | Ako je tačno (true), polje će biti obavezno.                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| .fields.label         | Oznaka polja                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Dodatni tekst koji pruža objašnjenje za polje.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | Možete organizovati svoja polja u hijerarhiju, omogućavajući da podređena polja budu ugnježdena unutar metapodataka fakture. Ova struktura vam može pomoći da bolje organizujete i upravljate prikupljenim informacijama, olakšavajući pristup i tumačenje podataka. Na primer, ako imate formu koja prikuplja informacije o kupcu, možete grupisati polja pod glavnim poljem nazvanim „kupac“. Unutar ovog glavnog polja mogu se nalaziti podređena polja kao što su ime, e-pošta i adresa. |
+| .fields.constant | Ako je true, .value mora biti postavljeno u definiciji obrasca, a korisnik neće moći da promeni vrednost polja. (primer: verzija definicije obrasca) |
+| .fields.type | HTML tip unosa: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Ako je .fields.type select, lista vrednosti koje se mogu izabrati |
+| .fields.options.text | Tekst koji se prikazuje za ovu opciju |
+| .fields.options.value | Vrednost polja ako je ova opcija izabrana |
+| .fields.type=fieldset | Kreiraj HTML fieldset oko podređenih .fields.fields (vidi ispod) |
+| .fields.name | Naziv JSON svojstva polja onako kako će se pojaviti u metapodacima fakture |
+| .fields.value | Podrazumevana vrednost polja |
+| .fields.required | ako je true, polje će biti obavezno |
+| .fields.label | Oznaka polja |
+| .fields.helpText | Dodatni tekst koji pruža objašnjenje za polje. |
+| .fields.fields | Možete organizovati polja u hijerarhiju, omogućavajući podređenim poljima da budu ugnežđena unutar metapodataka fakture. Ova struktura vam može pomoći da bolje organizujete i upravljate prikupljenim informacijama, olakšavajući im pristup i interpretaciju. Na primer, ako imate obrazac koji prikuplja informacije o klijentima, polja možete grupisati pod nadređenim poljem pod nazivom customer. Unutar ovog nadređenog polja možete imati podređena polja kao što su name, Email i address. |
 
 Naziv polja predstavlja naziv JSON svojstva koje čuva vrednost koju je korisnik uneo u metapodacima fakture. Neka dobro poznata imena mogu se interpretirati i modifikovati postavke fakture.
 
 
-| Naziv polja      | Opis                   |
+
+| Naziv polja      | Opis                  |
 | ---------------- | ---------------------- |
-| invoice_amount   | Iznos fakture          |
-| invoice_currency | Valura fakture         |
+| invoice_amount   | Iznos fakture         |
+| invoice_currency | Valuta fakture        |
 
 Možete unapred popuniti polja fakture automatski dodavanjem niza upita u URL obrasca, kao što je "?your_field=value".
 
@@ -1904,7 +1894,7 @@ Kao što je pomenuto u prethodnom delu, administratori servera mogu pozvati kori
 BTCPay Server poznaje dve vrste prilagođenih uloga, prilagođene uloge specifične za prodavnicu i prilagođene uloge na nivou servera u postavkama BTCPay Server-a. Obe imaju sličan skup dozvola; međutim, ako se postave kroz BTCpay Server Settings - Roles karticu, primenjena uloga će biti na nivou servera i primenjivaće se na više prodavnica. Obratite pažnju na oznaku "Server-wide" za prilagođene uloge u postavkama servera.
 
 
-![image](assets/en/71.webp)
+![image](assets/en/072.webp)
 
 
 ### Prilagođene uloge za ceo server
@@ -1949,7 +1939,7 @@ Kada se uloga kreira, ime je fiksno i ne može se promeniti kasnije u režimu ur
 
 Podešavanja e-pošte za ceo server su slična onima u podešavanjima e-pošte specifičnim za prodavnicu. Međutim, ova konfiguracija ne upravlja samo okidačima za prodavnice ili administratorske zapise, već i okidačima za druge događaje. Takođe, ova podešavanja e-pošte omogućavaju opciju vraćanja lozinke na BTCPay Server-u prilikom prijavljivanja. Funkcioniše slično kao podešavanja za pojedinačne prodavnice — administratori brzo mogu uneti parametre e-pošte i pristupne podatke, što omogućava serveru da šalje e-poruke.
 
-![image](assets/en/72.webp)
+![image](assets/en/073.webp)
 
 
 ### Politike
@@ -1958,7 +1948,7 @@ Podešavanja e-pošte za ceo server su slična onima u podešavanjima e-pošte s
 BTCPay Server administratori politika mogu postaviti neka podešavanja na teme kao što su Podešavanja postojećih korisnika, Podešavanja novih korisnika, Podešavanja obaveštenja i Podešavanja održavanja. Ova podešavanja su namenjena registraciji novih korisnika kao administratora ili običnih korisnika, ili čak sakrivanju BTCPay Server-a od pretraživača dodavanjem u zaglavlje vašeg servera.
 
 
-![image](assets/en/73.webp)
+![image](assets/en/074.webp)
 
 
 #### Postojeća podešavanja korisnika
@@ -1976,7 +1966,7 @@ Opcije dostupne ovde su odvojene od prilagođenih uloga. Ove dodatne dozvole mog
   - Slično prethodnoj temi kreiranja vrućih novčanika, ova politika omogućava uvoz vrućih novčanika, sa istim opasnostima pomenutim u odeljku o kreiranju vrućih novčanika.
 
 
-![image](assets/en/74.webp)
+![image](assets/en/075.webp)
 
 
 #### Postavke za nove korisnike
@@ -1995,13 +1985,13 @@ Možemo postaviti neka važna podešavanja za upravljanje novim korisnicima koji
 Podrazumevano, BTCPay Server ima uključenu opciju da se onemogući registraciju novih korisnika (eng."Disable new user registration on the server") i isključen pristup API-iju za kreiranje korisnika za ne-administratore. Ovo je iz bezbednosnih razloga kako nijedna nasumična osoba koja bi mogla pronaći BTCPay prijavu vašeg servera ne bi mogla početi sa kreiranjem naloga.
 
 
-![image](assets/en/75.webp)
+![image](assets/en/076.webp)
 
 
 #### Postavke obaveštenja
 
 
-![image](assets/en/76.webp)
+![image](assets/en/077.webp)
 
 
 #### Postavke održavanja
@@ -2016,7 +2006,7 @@ BTCPay Server je projekat otvorenog koda koji se nalazi na GitHub-u. Kad god BTC
 - Omogući eksperimentalne funkcije (eng.Enable experimental features).
 
 
-![image](assets/en/77.webp)
+![image](assets/en/078.webp)
 
 
 #### Dodaci (eng.Plugins)
@@ -2025,7 +2015,7 @@ BTCPay Server je projekat otvorenog koda koji se nalazi na GitHub-u. Kad god BTC
 BTCPay Server može dodati dodatke i proširiti svoj skup funkcija. Dodaci se, po defaultu, učitavaju iz BTCPay Server plugin-builder repozitorijuma. Administrator, međutim, može odabrati da vidi dodatke u Pre-release stanju, i ako to programer dodatka dozvoli, administrator servera sada može instalirati beta verzije dodataka.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/079.webp)
 
 
 ##### Postavke prilagođavanja
@@ -2039,7 +2029,7 @@ Standardna BTCPay Server implementacija biće dostupna putem domena postavljenog
   - Prikazuje listu mogućih aplikacija za prikaz na osnovnom domenu.
 
 
-![image](assets/en/79.webp)
+![image](assets/en/080.webp)
 
 
 
@@ -2047,7 +2037,7 @@ Standardna BTCPay Server implementacija biće dostupna putem domena postavljenog
   - Kada kliknete da postavite određeni domen za određene aplikacije, administrator može postaviti onoliko domena usmerenih na određene aplikacije koliko je potrebno.
 
 
-![image](assets/en/80.webp)
+![image](assets/en/081.webp)
 
 
 #### Blok istraživači (eng.Block explorers)
@@ -2056,7 +2046,7 @@ Standardna BTCPay Server implementacija biće dostupna putem domena postavljenog
 BTCPay Server, kao standard, dolazi sa Mempool.space kao svojim Block explorer-om za transakcije. Kada BTCPay Server generiše novu fakturu, i postoji transakcija vezana za njega, vlasnik prodavnice može kliknuti da otvori transakciju; BTCPay Server će standardno pokazivati prema Mempool.space kao Block explorer; administrator servera može ovo promeniti prema svojoj preferenciji.
 
 
-![image](assets/en/81.webp)
+![image](assets/en/082.webp)
 
 
 ### Usluge
@@ -2068,7 +2058,7 @@ Postavke BTCPay Servera: kartica Usluge (eng. BTCPay Server settings: Services) 
 Administrator BTCPay Servera može kliknuti na „Pogledaj informacije“ iza svake usluge da je otvori i postavi specifična podešavanja.
 
 
-![image](assets/en/82.webp)
+![image](assets/en/083.webp)
 
 
 #### LND (gRPC)
@@ -2093,7 +2083,7 @@ Administratori servera mogu otvoriti više detalja da vide;
 #### LND (REST)
 
 
-BTCPay daje pristup REST usluzi LND za spoljašnju upotrebu; informacije o povezivanju možete pronaći ovde; kompatibilni novčanici su navedeni ovde. Među kompatibilnim novčanicima su Joule, Alby i ZeusLN. BTCPay Server daje QR kod za povezivanje, skenirajte i primenite u kompatibilnom novčaniku.
+BTCPay daje pristup REST usluzi LND za spoljašnju upotrebu; informacije o povezivanju možete pronaći [ovde]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); kompatibilni novčanici su navedeni [ovde](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Među kompatibilnim novčanicima su Joule, Alby i ZeusLN. BTCPay Server daje QR kod za povezivanje, skenirajte i primenite u kompatibilnom novčaniku.
 
 
 
@@ -2155,7 +2145,7 @@ BTCPay Server, kao standard, dolazi sa dva režima rada: svetli i tamni režim. 
 Administratori mogu prilagoditi svetlu/tamnu temu ubacivanjem sopstvenog CSS-a ili definisanjem potpuno prilagođene teme.
 
 
-![image](assets/en/83.webp)
+![image](assets/en/084.webp)
 
 
 #### Brendiranje servera
@@ -2164,7 +2154,7 @@ Administratori mogu prilagoditi svetlu/tamnu temu ubacivanjem sopstvenog CSS-a i
 Administratori servera mogu promeniti brendiranje BTCPay Server-a postavljanjem brendiranja vaše kompanije na nivou celog servera. Kako je BTCPay Server FOSS, administratori servera mogu prilagoditi softver i promeniti izgled kako bi odgovarao njihovom poslovanju.
 
 
-![image](assets/en/84.webp)
+![image](assets/en/085.webp)
 
 
 ### Održavanje
@@ -2176,7 +2166,7 @@ Kao administrator servera, vaši korisnici očekuju da se dobro brinete o server
 BTCPay Server je projekat otvorenog koda i često se ažurira. Svako novo izdanje se najavljuje ili putem vaših BTCPay Server obaveštenja ili na zvaničnim kanalima putem kojih BTCPay Server komunicira.
 
 
-![image](assets/en/85.webp)
+![image](assets/en/086.webp)
 
 
 #### Naziv domena
@@ -2185,7 +2175,7 @@ BTCPay Server je projekat otvorenog koda i često se ažurira. Svako novo izdanj
 Nakon što je BTCPay Server postavljen, administrator možda želi da promeni originalni domen. Unutar kartice Održavanje, administrator može promeniti domen. Nakon što klikne na potvrdu i postavi odgovarajuće DNS zapise na domenu, BTCPay Server se ažurira i restartuje kako bi se vratio na novi domen.
 
 
-![image](assets/en/86.webp)
+![image](assets/en/087.webp)
 
 
 #### Ponovo pokreni
@@ -2194,7 +2184,7 @@ Nakon što je BTCPay Server postavljen, administrator možda želi da promeni or
 Ponovo pokreni BTCPay Server i povezane usluge.
 
 
-![image](assets/en/87.webp)
+![image](assets/en/088.webp)
 
 
 #### Čišćenje
@@ -2203,7 +2193,7 @@ Ponovo pokreni BTCPay Server i povezane usluge.
 BTCPay Server radi sa Docker komponentama; sa ažuriranjima, može doći do zaostalih Docker slika, privremenih fajlova, itd. Administratori servera mogu očistiti ovo i povratiti prostor u svom okruženju pokretanjem Clean skripte.
 
 
-![image](assets/en/88.webp)
+![image](assets/en/089.webp)
 
 
 #### Ažuriranje
@@ -2212,7 +2202,7 @@ BTCPay Server radi sa Docker komponentama; sa ažuriranjima, može doći do zaos
 Moguće najvažnija opcija u kartici Održavanje. BTCPay Server je izgrađen od strane zajednice, i stoga su njegovi ciklusi ažuriranja češći nego kod većine softverskih proizvoda. Kada BTCPay Server ima novo izdanje, administratori će biti obavešteni u svom centru za obaveštenja. Klikom na dugme za ažuriranje, BTCPay Server će proveriti GitHub za najnovije izdanje, ažurirati Server i restartovati ga. Pre ažuriranja, administratorima servera se uvek savetuje da pročitaju beleške o izdanju koja se distribuiraju kroz zvanične kanale BTCPay Server-a.
 
 
-![image](assets/en/89.webp)
+![image](assets/en/090.webp)
 
 
 ### Zapisnici
@@ -2287,7 +2277,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logovi za    | Naziv kontejnera                  |
+
+| Logovi za     | Naziv kontejnera                   |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2405,10 +2396,10 @@ BTCPay Server koristi lokalni fajl sistem, što omogućava otpremanje sredstava 
 Kada se administrator servera nalazi na kartici za skladištenje fajlova (eng.  File Storage), moguće je direktno otpremiti fajlove na server ili promeniti provajdera skladišta fajlova u lokalni fajl sistem ili Azure Blob Storage.
 
 
-![image](assets/en/90.webp)
+![image](assets/en/091.webp)
 
 
-![image](assets/en/91.webp)
+![image](assets/en/092.webp)
 
 
 ### Sažetak veština
@@ -2465,7 +2456,7 @@ Jezgro BTCPay Server-a je sposobnost da deluje kao sistem za upravljanje Bitcoin
 Osim ako ne koristite ugrađeni [novčanik](https://docs.btcpayserver.org/Wallet/) za ručno primanje uplata, sve uplate unutar prodavnice će biti prikazane na stranici Fakture. Ova stranica kumulativno sortira uplate po datumu i predstavlja centralni deo za upravljanje fakturama i rešavanje problema sa uplatama.
 
 
-![image](assets/en/92.webp)
+![image](assets/en/093.webp)
 
 
 ### Opšte informacije
@@ -2477,21 +2468,22 @@ Osim ako ne koristite ugrađeni [novčanik](https://docs.btcpayserver.org/Wallet
 Tabela ispod navodi i opisuje standardne statuse faktura u BTCPay-u i predlaže uobičajene akcije. Akcije su samo preporuke. Na korisnicima je da definišu najbolji tok akcije za njihov slučaj upotrebe i poslovanje.
 
 
-| Status fakture             | Opis                                                                                                                             | Akcija                                                                                                                      |
+
+| Status fakture | Opis | Akcija |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Nije plaćeno, tajmer fakture još uvek nije istekao.                                                                                           | Nije potrebna                                                                                                                        |
-| New (paidPartial)          | Plaćeno, ali ne u celosti, tajmer fakture još uvek nije istekao.                                                                                  | Nije potrebna                                                                                                                        |
-| Expired                    | Nije plaćeno, tajmer fakture je istekao                                                                                                        | Nije potrebna                                                                                                                        |
-| Expired (paidPartial) \*\* | Delimično plaćeno, tajmer istekao                                                                                                   | "Kontaktirajte kupca radi dogovora o povraćaju sredstava ili da biste zatražili uplatu preostalog iznosa. Po potrebi označite fakturu kao razrešenu ili nevažeću           |
-| Expired (paidLate)         |Plaćeno u celosti, nakon što je tajmer fakture istekao                                                                               | Kontaktirajte kupca radi dogovora o povraćaju sredstava ili obradite porudžbinu ako su zakašnjele potvrde prihvatljive.                                    |
-| Settled (paidOver)         | Plaćeno više od iznosa na fakturi, razrešeno, primljen dovoljan broj potvrda.                                                 | Kontaktirajte kupca radi dogovora o povraćaju viška iznosa, ili po želji sačekajte da vas kupac kontaktira.                        |
-| Processing                 | Plaćeno u celosti, ali nije primljen dovoljan broj potvrda definisan u podešavanjima prodavnice.                                   | Kontaktirajte kupca radi dogovora o povraćaju viška iznosa, ili po želji sačekajte da vas kupac kontaktira.                         |
-| Processing (paidOver)      | Plaćeno više od iznosa fakture, ali nije primljen dovoljan broj potvrda.                                                      | Sačekajte da bude razrešeno, zatim kontaktirajte kupca radi dogovora o povraćaju viška iznosa, ili po želji sačekajte da vas kupac kontaktira. |
-| Settled                    | Plaćeno u celosti, primljen dovoljan broj potvrda u prodavnici.                                                                     | Obradite porudžbinu                                                                                                            |
-| Settled (marked)           | Status je ručno promenjen u ‘razrešeno’ sa statusa ‘u obradi’ ili ‘nevažeće’.                                                             | Administrator prodavnice je označio uplatu kao razrešenu.                                                                               |
-| Invalid\*                  | Plaćeno, ali nije primljen dovoljan broj potvrda u okviru vremena definisanog u podešavanjima prodavnice                              | Proverite transakciju na blockchain pregledaču, a ako je primila dovoljan broj potvrda, označite je kao razrešenu.                    |
-| Invalid (marked)           | Status je ručno promenjen u nevažeći sa statusa razrešen ili istekao.                                                                 | Administrator prodavnice je označio uplatu kao nevažeću.                                                                               |
-| Invalid (paidOver)         | Plaćeno više od iznosa fakture, ali nije primljen dovoljan broj potvrda u roku definisanom u podešavanjima prodavnice. | Proverite transakciju na blockchain pregledaču; ako je primila dovoljan broj potvrda, označite je kao razrešenu.                    |
+| New | Nije plaćeno, tajmer fakture još nije istekao | Nema |
+| New (paidPartial) | Plaćeno delimično, tajmer fakture još nije istekao | Nema |
+| Expired | Nije plaćeno, tajmer fakture je istekao | Nema |
+| Expired (paidPartial) ** | Plaćeno delimično i isteklo | Kontaktirajte kupca radi povraćaja ili tražite doplatu. Opciono označite fakturu kao settled ili invalid |
+| Expired (paidLate) | Plaćeno u celosti nakon isteka tajmera fakture | Kontaktirajte kupca radi povraćaja ili obradite porudžbinu ako su kasne potvrde prihvatljive. |
+| Settled (paidOver) | Plaćeno više od iznosa, namireno, primljeno dovoljno potvrda | Kontaktirajte kupca radi povraćaja viška ili opciono sačekajte da vas kupac kontaktira |
+| Processing | Plaćeno u celosti, ali nije primljeno dovoljno potvrda (prema podešavanjima) | Kontaktirajte kupca radi povraćaja viška ili opciono sačekajte da vas kupac kontaktira |
+| Processing (paidOver) | Plaćeno više od iznosa, nije primljeno dovoljno potvrda | Sačekajte da se namiri, pa kontaktirajte kupca za povraćaj viška ili sačekajte kontakt |
+| Settled | Plaćeno u celosti, primljeno dovoljno potvrda u prodavnici | Ispunite porudžbinu |
+| Settled (marked) | Status je ručno promenjen u settled iz statusa processing ili invalid | Administrator je označio plaćanje kao settled |
+| Invalid* | Plaćeno, ali nije primljeno dovoljno potvrda u predviđenom roku | Proverite transakciju na blockchain explorer-u; ako ima dovoljno potvrda, označite kao settled |
+| Invalid (marked) | Status je ručno promenjen u invalid iz statusa settled ili expired | Administrator je označio plaćanje kao invalid |
+| Invalid (paidOver) | Plaćeno više od iznosa, ali nije primljeno dovoljno potvrda u predviđenom roku | Proverite transakciju na blockchain explorer-u; ako ima dovoljno potvrda, označite kao settled |
 
 #### Detalji fakture
 
@@ -2583,7 +2575,7 @@ Vlasnici prodavnica mogu štampati zahteve za plaćanje (ili izvesti podatke o f
 - Izgled - Boja i stil sa CSS temama
 
 
-![image](assets/en/93.webp)
+![image](assets/en/094.webp)
 
 
 #### Kreiraj Zahtev za Plaćanje
@@ -2592,7 +2584,7 @@ Vlasnici prodavnica mogu štampati zahteve za plaćanje (ili izvesti podatke o f
 U levom meniju idite na Zahtev za plaćanje (eng. Payment Request) i kliknite "Kreiraj zahtev za plaćanje" (eng. Create Payment Request).
 
 
-![image](assets/en/94.webp)
+![image](assets/en/095.webp)
 
 
 Popunite ime zahteva, iznos, prikaz valute, povezanu prodavnicu, vreme isteka i opis (opcionalno)
@@ -2607,7 +2599,7 @@ Kliknite Sačuvaj i Pregledaj da biste pregledali vaš zahtev za plaćanje.
 BTCPay kreira URL za zahtev za plaćanje. Podelite ovaj URL da biste videli svoj zahtev za plaćanje. Trebate više istih zahteva? Možete duplirati zahteve za plaćanje koristeći opciju Kloniraj u glavnom meniju.
 
 
-![image](assets/en/95.webp)
+![image](assets/en/096.webp)
 
 
 **UPOZORENJE**
@@ -2622,7 +2614,7 @@ Zahtevi za plaćanje zavise od prodavnice, što znači da je svaki zahtev za pla
 Platilac i podnosilac zahteva mogu videti status zahteva za plaćanje nakon slanja uplate. Status će se prikazati kao Izmireno (eng. Settled) ako je uplata primljena u celosti. Ako su izvršene samo delimične uplate, u polju "Iznos duga" (eng. Amount Due) će prikazati preostali dug.
 
 
-![image](assets/en/96.webp)
+![image](assets/en/097.webp)
 
 
 #### Prilagodite zahteve za plaćanje
@@ -2820,7 +2812,7 @@ BTCPay Server omogućava vlasnicima prodavnica da brzo kreiraju prodajno mesto u
 Kada vlasnik prodavnice klikne na "Point of Sale" u svojoj levoj traci menija, BTCPay Server će sada tražiti ime; ovo ime će biti vidljivo u levoj traci menija. Kliknite Kreiraj da biste kreirali PoS.
 
 
-![image](assets/en/97.webp)
+![image](assets/en/098.webp)
 
 
 #### Ažuriraj novo kreirani Point of Sale
@@ -2841,7 +2833,7 @@ Naziv koji ovde date vašem prodajnom mestu biće vidljiv u glavnom meniju BTCPa
 Javnost će videti javni naslov ili ime kada poseti vašu prodavnicu. BTCPay Server standardno imenuje vašu prodavnicu „Tea shop“. Zamenite ovo imenom vaše prodavnice.
 
 
-![image](assets/en/98.webp)
+![image](assets/en/099.webp)
 
 
 #### Izaberite stil prodajnog mesta
@@ -2861,31 +2853,31 @@ BTCPay Server je sposoban prikazati svoj Point Of Sale na više načina.
   - Ako ne možete uvek prikazati svoju listu proizvoda digitalno, potrebna vam je "offline" rešenje za proizvode; BTCPay Server ima opciju štampanja za prikazivanje kao offline prodavnica.
 
 
-![image](assets/en/99.webp)
+![image](assets/en/100.webp)
 
 
 #### Stil prodajnog mesta - Lista proizvoda
 
 
-![image](assets/en/100.webp)
+![image](assets/en/101.webp)
 
 
 #### Stil prodajnog mesta - Lista proizvoda + Korpa
 
 
-![image](assets/en/101.webp)
+![image](assets/en/102.webp)
 
 
 #### Stil prodajnog mesta - Samo tastatura
 
 
-![image](assets/en/102.webp)
+![image](assets/en/103.webp)
 
 
 #### Stil prodajnog mesta - Prikaz štampe
 
 
-![image](assets/en/103.webp)
+![image](assets/en/104.webp)
 
 
 #### Valuta
@@ -2900,7 +2892,7 @@ Vlasnik prodavnice može postaviti drugačiju valutu za svoj Point of Sale od sv
 Recite svetu o svojoj prodavnici; šta prodajete i po kojoj ceni? Sve što objašnjava vašu prodavnicu ide ovde.
 
 
-![image](assets/en/104.webp)
+![image](assets/en/105.webp)
 
 
 #### Proizvodi
@@ -2929,7 +2921,7 @@ Kada vlasnik prodavnice popuni sva polja za nove proizvode, kliknite na sačuvaj
 Vlasnici prodavnica takođe mogu koristiti "Raw Editor" za konfigurisanje svojih proizvoda. Raw editor zahteva osnovno razumevanje JSON struktura.
 
 
-![image](assets/en/105.webp)
+![image](assets/en/106.webp)
 
 
 #### Checkout
@@ -2980,7 +2972,7 @@ Pored dodatka za prodajno mesto, BTCPay Server ima opciju za kreiranje crowdfund
 Kliknite na Crowdfund dodatak kroz glavni meni sa leve strane vašeg BTCPay Server-a, ispod sekcije Plugins. BTCPay Server će sada zatražiti ime za Crowdfund; ovo ime će takođe biti prikazano u levoj traci menija.
 
 
-![image](assets/en/106.webp)
+![image](assets/en/107.webp)
 
 
 #### Ažuriraj novo kreirani Crowdfund
@@ -3007,7 +2999,7 @@ Naslov je dat za Crowdfund za javnost.
 Dajte crowdfundu kratak opis koji prepoznaje svrhu prikupljanja sredstava.
 
 
-![image](assets/en/107.webp)
+![image](assets/en/108.webp)
 
 
 #### Istaknuta URL adresu slike
@@ -3028,7 +3020,7 @@ Ovaj prekidač čini vaš Crowdfund javnim i time vidljivim za spoljašnji svet.
 Recite svetu o svom Crowdfund-u, za šta prikupljate sredstva? Sve što objašnjava vaš crowdfund ide ovde.
 
 
-![image](assets/en/108.webp)
+![image](assets/en/109.webp)
 
 
 #### Cilj grupnog finansiranja
@@ -3037,7 +3029,7 @@ Recite svetu o svom Crowdfund-u, za šta prikupljate sredstva? Sve što objašnj
 Postavite ciljanu sumu koju bi prikupljanje sredstava trebalo da prikupi za projekat i u kojoj valuti bi cilj trebalo da bude izražen. Ukoliko su vaši ciljevi postavljeni između određenih datuma, uključite ove početne i krajnje datume ispod ciljeva u crowdfund-u.
 
 
-![image](assets/en/109.webp)
+![image](assets/en/110.webp)
 
 
 #### Pogodnosti
@@ -3063,7 +3055,7 @@ Kreiranje nove pogodnosti sastoji se od sledećih polja ;
 Kada vlasnik prodavnice popuni sva polja za novu pogodnost koju treba kreirati, kliknite na sačuvaj, i primetićete da se odeljak Pogodnosti u crowdfunds sada popunjava.
 
 
-![image](assets/en/110.webp)
+![image](assets/en/111.webp)
 
 
 ### BTCPay Server - Point Of Sale
@@ -3286,13 +3278,13 @@ https://docs.btcpayserver.org.
 Prvo, idite na vebsajt LunaNode.com, gde ćemo kreirati novi nalog. Kliknite na Sign Up u gornjem desnom uglu ili koristite Get Started čarobnjak na njihovoj početnoj stranici.
 
 
-![image](assets/en/111.webp)
+![image](assets/en/112.webp)
 
 
 Nakon što kreirate svoj novi nalog, LunaNode šalje verifikacioni email. Kada verifikujete nalog, u poređenju sa Voltage, odmah vam se prikazuje opcija da dopunite stanje na nalogu. Ovo stanje je potrebno za plaćanje prostora na serveru i troškova hostinga.
 
 
-![image](assets/en/112.webp)
+![image](assets/en/113.webp)
 
 
 #### Dodajte kredit na svoj LunaNode nalog
@@ -3316,7 +3308,7 @@ U vašem LunaNode kontrolnom panelu, kliknite na API u gornjem desnom uglu. Ovo 
 Nakon kreiranja API kredencijala, dobićete dugačak niz slova i karaktera. Ovo je vaš API ključ.
 
 
-![image](assets/en/113.webp)
+![image](assets/en/114.webp)
 
 
 #### Kako postaviti novi server?
@@ -3331,7 +3323,7 @@ Ovde će vam biti zatraženo da unesete svoj API ključ i API ID. Ovo je da bi s
 Vratite se na stranicu sa pokretačem, popunite polja sa vašim API ključem i ID-om, i kliknite na nastavi.
 
 
-![image](assets/en/114.webp)
+![image](assets/en/115.webp)
 
 
 U sledećem koraku, možete obezbediti ime domena. Ako već posedujete domen i želite da ga koristite za BTCPay Server, obavezno dodajte i DNS zapis (nazvan `A` zapis) na vašem domenu. Ako ne posedujete domen, koristite domen koji obezbeđuje LunaNode (možete ga kasnije promeniti u BTCPay Server podešavanjima) i kliknite Nastavi.
@@ -3352,7 +3344,7 @@ Ovaj vodič ima za cilj postavljanje Mainnet okruženja (stvarni svet Bitcoin-a)
 Izaberite svoju Lightning implementaciju. LunaNode nudi dve različite implementacije, LND i Core Lightning. Za ovaj vodič, uzećemo LND. Postoje male, ali stvarne razlike u obe implementacije; za više o tome, preporučujemo čitanje opsežne dokumentacije; https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
 
 
-![image](assets/en/115.webp)
+![image](assets/en/116.webp)
 
 
 LunaNode nudi više planova za virtuelne mašine (VM). Oni se razlikuju u cenovnim rangovima i specifikacijama servera. Za ovaj vodič, m2 plan će biti dovoljan; međutim, ako ste označili više od samo Bitcoin kao valutu, razmislite o korišćenju barem m4.
@@ -3367,7 +3359,7 @@ Nakon što popunite obrazac, morate kliknuti na Launch VM, i Lunanode će počet
 Nakon procesa kreiranja, kliknite na link ka vašem BTCPay Server-u; ovde će vam biti zatraženo da kreirate Administrator nalog.
 
 
-![image](assets/en/116.webp)
+![image](assets/en/117.webp)
 
 
 ### Sažetak veština
@@ -3410,19 +3402,19 @@ https://docs.btcpayserver.org.
 Prvo, idite na vebsajt Voltage.cloud i registrujte se za novi nalog. Kada kreirate nalog, možete se prijaviti za besplatni probni period od 7 dana. Ili kliknite na "Sign Up" u gornjem desnom uglu ili koristite opciju "Try a free 7 day trial" na njihovoj početnoj stranici.
 
 
-![image](assets/en/117.webp)
+![image](assets/en/118.webp)
 
 
 Nakon što ste napravili nalog, kliknite na dugme `NODES` na vašoj kontrolnoj tabli. Kada odaberemo Nodes i kreiramo novi čvor, biće nam prikazane moguće ponude Lightning čvorova. Kako će ovaj vodič takođe pokriti Lightning mrežu, na Voltage-u prvo moramo izabrati našu Lightning implementaciju pre nego što kreiramo BTCPay Server. Kliknite na Lightning Node.
 
 
-![image](assets/en/118.webp)
+![image](assets/en/119.webp)
 
 
 Ovde ćete morati da izaberete kakvu vrstu Lightning čvora želite. Voltage ima razne opcije za vaš Lightning. Ovo je drugačije kada se koristi, na primer, Luna Node. Za svrhe ovog vodiča, Lite Node će biti dovoljan. Pročitajte više o razlikama na Voltage.cloud.
 
 
-![image](assets/en/119.webp)
+![image](assets/en/120.webp)
 
 
 Dajte svom čvoru ime, postavite lozinku i osigurajte ovu lozinku. Ako se ova lozinka izgubi, gubite pristup svojim rezervnim kopijama, a Voltage je ne može povratiti. Kreirajte čvor, a Voltage vam prikazuje napredak. Voltage je kreirao vaš Lightning čvor. Sada možemo kreirati BTCPay Server instancu i direktno pristupiti Lightning mreži.
@@ -3434,7 +3426,7 @@ Kliknite na Nodes u gornjem levom uglu vaše kontrolne table. Ovde možete posta
 Voltage vam pokazuje geolokaciju vašeg BTCPay Server-a, Voltage hostuje u regionu zapadnog dela SAD-a. Ovde ćete takođe videti trošak hostovanja servera. Kliknite na Kreiraj i dajte svom BTCPay Server-u ime. Omogućite Lightning i Voltage vam pokazuje Lightning čvor kreiran u prethodnom koraku. Kliknite na Kreiraj, i Voltage će kreirati instance BTCPay Server-a.
 
 
-![image](assets/en/120.webp)
+![image](assets/en/121.webp)
 
 
 Nakon što kliknete na kreiranje, Voltage vam prikazuje podrazumevano korisničko ime i lozinku. Oni su slični vašoj prethodnoj postavljenoj lozinci u Voltage. Kliknite na dugme Prijava na nalog da biste bili preusmereni na vaš BTCPay Server.
@@ -3475,7 +3467,7 @@ Na kraju ovih koraka, možete prihvatati lightning uplate u vašoj BTCPay prodav
 https://umbrel.com/
 
 
-![image](assets/en/121.webp)
+![image](assets/en/122.webp)
 
 
 ### BTCPay Server - Umbrel implementacija
@@ -3484,13 +3476,13 @@ https://umbrel.com/
 Nakon što se vaš Umbrel čvor potpuno sinhronizuje sa Bitcoin Blockchain-om, idite u Umbrel App Store i potražite BTCPay Server ispod Aplikacija.
 
 
-![image](assets/en/122.webp)
+![image](assets/en/123.webp)
 
 
 Kliknite na BTCPay Server da biste videli detalje aplikacije. Kada su detalji otvoreni za BTCPay Server, u donjem desnom uglu prikazuju se zahtevi za pravilno funkcionisanje aplikacije. Prikazuje da su potrebni Bitcoin i Lightning čvor. Ako niste instalirali Lightning čvor na vašem Umbrel-u, kliknite na Instaliraj. Ovaj proces može potrajati nekoliko minuta.
 
 
-![image](assets/en/123.webp)
+![image](assets/en/124.webp)
 
 
 Nakon instalacije vašeg lightning čvora:
@@ -3503,7 +3495,7 @@ Nakon instalacije vašeg lightning čvora:
 3. Zapišite reči.
 
 
-![image](assets/en/124.webp)
+![image](assets/en/125.webp)
 
 
 Umbrel će tražiti verifikaciju upravo napisanih reči. Nakon što je Lightning čvor postavljen, vratite se u Umbrel App Store i pronađite BTCPay Server. Kliknite na dugme za instalaciju, i Umbrel će prikazati da li su potrebne komponente instalirane i da BTCPay Server zahteva pristup tim komponentama. Nakon instalacije, kliknite na Otvori u gornjem desnom uglu detalja aplikacije ili otvorite BTCPay Server preko vašeg Umbrel kontrolnog panela.
@@ -3512,7 +3504,7 @@ Umbrel će tražiti verifikaciju upravo napisanih reči. Nakon što je Lightning
 Umbrel će tražiti verifikaciju za upravo napisane reči.
 
 
-![image](assets/en/125.webp)
+![image](assets/en/126.webp)
 
 
 **!?Napomena!?**
@@ -3524,13 +3516,13 @@ Pobrinite se da ih skladištite na odgovarajućem mestu kao što ste ranije nau�
 Nakon što je Lightning čvor postavljen, vratite se u Umbrel App Store i pronađite BTCPay Server. Kliknite na dugme za instalaciju, i Umbrel će pokazati da li su potrebne komponente instalirane i da BTCPay Server zahteva pristup tim komponentama.
 
 
-![image](assets/en/126.webp)
+![image](assets/en/127.webp)
 
 
 Nakon instalacije, kliknite na Open u gornjem desnom uglu detalja aplikacije ili otvorite BTCPay Server preko vaše Umbrels kontrolne table.
 
 
-![image](assets/en/127.webp)
+![image](assets/en/128.webp)
 
 
 ### Sažetak veština

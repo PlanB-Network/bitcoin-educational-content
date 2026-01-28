@@ -1,0 +1,9 @@
+question: What does Satoshi Nakamoto's White Paper present?
+answer: A decentralized means of exchange on the Internet.
+wrong_answers:
+  - A new liberal policy.
+  - A centralized exchange protocol.
+  - A political program.
+explanation: |
+  Satoshi Nakamoto's White Paper presents Bitcoin as a decentralized medium of exchange on the Internet. It proposes a peer-to-peer electronic payment system with no central authority.
+reviewed: false

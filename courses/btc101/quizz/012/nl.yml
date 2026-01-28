@@ -1,12 +1,12 @@
-question: Wie zijn de cypherpunks?
-answer: Een groep mensen die diep begon na te denken over de rol van privacy en vrijheid in het digitale tijdperk.
+question: Wat zijn de drie canonieke functies van geld?
+answer: Waardeopslag, Medium van Exchange, Rekeneenheid.
 wrong_answers:
-  - Een groep hackers die informatie stal van overheden.
-  - Een groep mensen die Bitcoin en andere cryptocurrencies hebben uitgevonden.
-  - Een groep mensen die tegen het gebruik van technologie was.
+  - Waardeopslag, Medium van Exchange, Productiemiddel.
+  - Waardeopslag, Productiemiddel, Rekeneenheid.
+  - Exchange, productiemiddel, rekeneenheid.
 explanation: |
-  De cypherpunks zijn een groep individuen die geloofden
-  dat cryptografie kon dienen als een hulpmiddel om
-  individuele rechten tegen de inmenging van overheden
-  en grote bedrijven.
+  Volgens Aristoteles heeft geld drie functies: het is
+  een opslagplaats van waarde, een medium van Exchange en een rekeneenheid
+  rekeneenheid. Tegenwoordig wordt de functie van Exchange
+  algemeen erkend als de belangrijkste, vóór de andere twee.
 reviewed: true

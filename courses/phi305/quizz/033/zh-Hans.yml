@@ -1,0 +1,9 @@
+question: 结构性通胀是结果吗？
+answer: 增加货币 Supply。
+wrong_answers:
+  - 价格上涨
+  - 财政政策。
+  - 反自由措施。
+explanation: |
+  结构性通货膨胀是货币 Supply 增加的结果。当流通中货币数量的增长速度超过商品和服务的生产速度时，就会导致价格的普遍上涨。
+reviewed: false

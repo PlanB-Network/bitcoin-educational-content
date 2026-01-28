@@ -22,4 +22,4 @@ Neste exemplo específico, foi uma transação iniciada pelo diretor do pool de 
 
 É igualmente necessário ter em conta os limites da purga. Durante os períodos de elevado congestionamento, os mempools dos nós purgam as suas transacções pendentes abaixo de um determinado limiar, a fim de respeitar o seu limite de RAM atribuído. Este limite é escolhido livremente pelo usuário, mas muitos deixam o valor padrão do Bitcoin Core em 300 MB. Ele pode ser modificado no arquivo `bitcoin.conf` com o parâmetro `maxmempool`.
 
-> ► *Em inglês, designa-se por "transaction fees"
+> ► *Em inglês, designa-se por "transaction fees"*

@@ -1,5 +1,5 @@
 ---
-name: BTCPay सर्वर - यूएसडीटी
+name: BTCPay Server - USDT
 description: USDT प्लगइन को कॉन्फ़िगर करने के चरण 
 ---
 ![cover](assets/cover.webp)

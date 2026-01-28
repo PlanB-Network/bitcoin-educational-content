@@ -1,0 +1,9 @@
+question: Electrs 和 Fulcrum 用來連接錢包的協定是什麼？
+answer: 銅
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - 閃電 gRPC
+explanation: |
+  這些軟體套件會揭露 Electrum 伺服器，也就是許多錢包所使用的標準，例如 Sparrow 或 Electrum Wallet。
+reviewed: true

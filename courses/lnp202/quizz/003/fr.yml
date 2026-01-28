@@ -1,0 +1,9 @@
+question: Laquelle de ces opérations sur Lightning nécessite la publication d'une transaction onchain ?
+answer: Ouverture de canal
+wrong_answers:
+  - Paiement Lightning
+  - Routage multi-sauts
+  - Connexion à un client mobile
+explanation: |
+  L’ouverture d’un canal correspond à une transaction Bitcoin publiée sur la blockchain.
+reviewed: false

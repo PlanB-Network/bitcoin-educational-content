@@ -6,4 +6,4 @@ wrong_answers:
   - Sign the withdrawal transaction before the exchange of public keys
 explanation: |
   The opening of a channel begins with an exchange of messages between the two parties, where they share the amounts they wish to commit and their public keys.
-reviewed: false
+reviewed: true

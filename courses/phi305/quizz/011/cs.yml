@@ -1,0 +1,9 @@
+question: Co si Spinoza myslí o náhodě?
+answer: Neexistuje.
+wrong_answers:
+  - Existuje.
+  - Přirovnává ji k fatalismu.
+  - Považuje to za pověru.
+explanation: |
+  Pro Spinozu neexistuje nic jako náhoda. Vše ve vesmíru se řídí nutnými a určenými zákony. To, co se nám jeví jako náhoda, je pouze důsledkem naší neznalosti skutečných příčin.
+reviewed: false

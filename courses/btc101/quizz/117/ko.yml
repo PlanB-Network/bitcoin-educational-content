@@ -1,0 +1,8 @@
+question: 처음 출시된 Bitcoin 소프트웨어의 버전은 무엇인가요?
+answer: Bitcoin-0.1.0.
+wrong_answers:
+  - Bitcoin-0.0.1.
+  - Bitcoin-1.0.0.
+  - Bitcoin-0.1.1.
+explanation: >-
+reviewed: true

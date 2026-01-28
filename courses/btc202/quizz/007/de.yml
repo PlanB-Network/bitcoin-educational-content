@@ -1,0 +1,9 @@
+question: Was muss eine Wallet tun, um den Status der Blockchain einzusehen?
+answer: Verbinden mit einer lokalen oder entfernten Node
+wrong_answers:
+  - Andere Wallets im Netzwerk fragen
+  - Miner fragen
+  - Sich mit einer Online-Tausch-Plattform verbinden
+explanation: |
+  Eine Wallet muss eine Verbindung zu einer Node herstellen, um auf den Blockchain-Status zuzugreifen und ihre Transaktionen zu übertragen.
+reviewed: true

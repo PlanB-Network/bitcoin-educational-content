@@ -1,12 +1,13 @@
-question: Qual è il numero massimo di unità Bitcoin che possono esistere?
-answer: 21 milioni.
+question: Qual è una caratteristica chiave di Bitcoin che lo differenzia dalle valute fiat?
+answer: La sua politica monetaria è imposta da un consenso generale.
 wrong_answers:
-  - 3 trilioni.
-  - 100 milioni.
-  - Non c'è limite.
+  - Può essere stampato in quantità illimitate dalle banche centrali.
+  - È supportato da un bene fisico come l'oro o l'argento.
+  - È regolato da una banca centrale.
 explanation: |
-  La fornitura totale di Bitcoin è limitata a 21 milioni di unità.
-  Questa è una caratteristica fondamentale di Bitcoin che lo differenzia
-  dalle valute fiduciarie, che possono essere stampate in
-  quantità illimitate dalle banche centrali.
-reviewed: vero
+  Grazie alla sua natura decentralizzata e alla crittografia,
+  Bitcoin non può essere falsificato ed è limitato a 21 milioni
+  di unità. Questa è una caratteristica chiave che lo differenzia
+  dalle valute fiat, le quali seguono una politica monetaria che può essere
+  modificata dalle banche centrali.
+reviewed: true

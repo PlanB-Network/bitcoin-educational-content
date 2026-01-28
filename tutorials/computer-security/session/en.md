@@ -20,25 +20,26 @@ Session lets you send messages, files, voice messages, audio calls, as well as g
 Session is aimed above all at users who place confidentiality at the heart of their priorities. This messaging service represents a serious alternative to WhatsApp, with an architecture designed to withstand modern surveillance models.
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Application | E2EE 1:1 | Group E2EE | Anonymous registration | Open-source client license | Open-source server license | Decentralized server | Year of creation |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (optional) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (optional) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federated) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (via email) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federated) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (no directory) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = End-to-end encryption*
 
@@ -79,11 +80,11 @@ You will then have to choose between two notification management modes:
 
 
 
-- Fast mode ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: enables you to receive message notifications in near real time, thanks to the notification services provided by Google or Apple (depending on your system). For this to work, your IP address and a unique notification ID are transmitted to Google or Apple, and the Session account ID is also registered with an STF server (via Tor). This mode involves (admittedly minimal) exposure of metadata, but does not compromise message content or contacts, and does not allow your actual activity to be traced. This mode is therefore more efficient in terms of responsiveness, but relies on a centralized infrastructure and is slightly less effective in terms of confidentiality.
+- Fast mode ("*Firebase Cloud Messaging/Apple Push Notification Service*"): enables you to receive message notifications in near real time, thanks to the notification services provided by Google or Apple (depending on your system). For this to work, your IP address and a unique notification ID are transmitted to Google or Apple, and the Session account ID is also registered with an STF server (via Tor). This mode involves (admittedly minimal) exposure of metadata, but does not compromise message content or contacts, and does not allow your actual activity to be traced. This mode is therefore more efficient in terms of responsiveness, but relies on a centralized infrastructure and is slightly less effective in terms of confidentiality.
 
 
 
-- Slow mode (*background polling*)**: the Session application remains active in the background, periodically polling the network for new messages. This approach guarantees greater confidentiality than the first, as no data is transmitted to third-party servers; neither Google, Apple nor STF servers receive any information. On the other hand, this mode has two drawbacks: notifications can be delayed (up to several minutes), and energy consumption is generally higher due to application activity in the background.
+- Slow mode (*background polling*): the Session application remains active in the background, periodically polling the network for new messages. This approach guarantees greater confidentiality than the first, as no data is transmitted to third-party servers; neither Google, Apple nor STF servers receive any information. On the other hand, this mode has two drawbacks: notifications can be delayed (up to several minutes), and energy consumption is generally higher due to application activity in the background.
 
 
 ![Image](assets/fr/04.webp)
@@ -113,7 +114,7 @@ Session will then display a mnemonic phrase. Copy it carefully and keep it in a 
 This phrase works in a similar way to the mnemonic phrases used in Bitcoin wallets. I therefore recommend that you consult this other tutorial, in which I explain the best practices for saving a mnemonic phrase:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Please note**: Unlike the mnemonic phrases used on Bitcoin wallets, on Session, **you absolutely must save each word in its entirety**. The first 4 letters are not enough!
 
@@ -229,4 +230,4 @@ Congratulations, you've now got the hang of using Session messaging, an excellen
 I also recommend this other tutorial, in which I present Threema, another interesting alternative for your messaging application:
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

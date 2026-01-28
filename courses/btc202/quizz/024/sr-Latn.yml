@@ -1,0 +1,9 @@
+question: Kakav je rizik ako Wallet zavisi od čvora treće strane?
+answer: Rizik od nadzora i cenzure
+wrong_answers:
+  - Rizik od automatskog Double-spending
+  - Rizik od gubitka privatnih ključeva
+  - Rizik od gubitka i praćenje
+explanation: |
+  Treća strana čvor može analizirati ili blokirati vaše transakcije, ili čak povezati vaše podatke sa vašim identitetom.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: रोनिनडोजो
+name: RoninDojo
 
 description: अपने RoninDojo Bitcoin नोड को स्थापित करना और उसका उपयोग करना।
 ---
@@ -14,7 +14,7 @@ _यह ट्यूटोरियल केवल शैक्षणिक औ
 
 _यह ट्यूटोरियल रोनीनडोजो v1 की स्थापना के लिए समर्पित है। नवीनतम सुधारों और सुविधाओं का लाभ उठाने के लिए, मैं दृढ़ता से आपके रास्पबेरी पाई पर रोनीनडोजो v2 की प्रत्यक्ष स्थापना के लिए समर्पित हमारे ट्यूटोरियल से परामर्श करने की सलाह देता हूं:_
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 
@@ -604,7 +604,7 @@ WST फिर पूर्वव्यापी स्कोर (बैकवर
 कृपया ध्यान दें कि आपके UTXO का संभावित स्कोर आपके शुरुआती मिक्स के txid के आधार पर गणना किया जाता है, न कि आपके पिछले मिक्स के आधार पर। इसके विपरीत, UTXO का पूर्वव्यापी स्कोर पिछले चक्र के txid के आधार पर गणना किया जाता है।
 
 
-एक बार फिर, यदि आप एनॉन सेट की इन अवधारणाओं को नहीं समझते हैं, तो मैं CoinJoin पर मेरे लेख के इस भाग को पढ़ने की सलाह देता हूं जहां मैं चित्रों के साथ विस्तार से सब कुछ समझाता हूं: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment] (https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment)
+एक बार फिर, यदि आप एनॉन सेट की इन अवधारणाओं को नहीं समझते हैं, तो मैं CoinJoin पर मेरे लेख के इस भाग को पढ़ने की सलाह देता हूं जहां मैं चित्रों के साथ विस्तार से सब कुछ समझाता हूं: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 
 ### बोल्ट्ज़मान कैलकुलेटर का उपयोग करना।

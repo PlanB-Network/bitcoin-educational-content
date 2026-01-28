@@ -56,7 +56,6 @@ Izbegavajte:
 - Chromebookovi – često je kapacitet skladišta prenizak
 - Bilo koji računar sa eMMC diskom; Ako ima SSD disk, to je savršeno
 - Macovi – skupi su, a hardver se po mom iskustvu ne slaže dobro sa Linux operativnim sistemima.
-- Bilo šta obnovljeno ili polovno (iako nije apsolutni prekid dogovora)
 
 
 Umesto toga, potražite laptop sa Windows 11 (Trenutno je Windows 11 najnovije izdanje. Rešićemo se tog softvera, ne brinite.). Pretražio sam amazon.com za "Windows 11 Laptop" i pronašao ovaj dobar primer:

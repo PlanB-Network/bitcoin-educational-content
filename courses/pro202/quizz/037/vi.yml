@@ -1,0 +1,8 @@
+question: Nguyên nhân nào gây ra lỗi lệch một đơn vị trong OP_CHECKMULTISIG khiến cần thêm một OP_0 trong ScriptSigs đa chữ ký trần?
+answer: OP_CHECKMULTISIG tiêu tốn thêm một phần tử ngăn xếp ngoài các chữ ký và khóa công khai dự kiến.
+wrong_answers:
+  - Quá trình xác thực chữ ký yêu cầu thêm một byte để chức năng xác thực ECDSA hoạt động chính xác.
+  - "Việc triển khai ngăn xếp của Bitcoin có một cơ chế kiểm tra ranh giới cần một phần tử đệm để căn chỉnh bộ nhớ."
+  - Việc đếm ngưỡng đa tín hiệu bắt đầu từ 0 thay vì 1, do đó cần một giá trị giữ chỗ bù trừ.
+explanation: |
+  Mã lệnh OP_CHECKMULTISIG có một lỗi trong quá trình thực thi, đó là nó lấy ra khỏi ngăn xếp nhiều hơn một mục so với quy định. Điều này có nghĩa là ngoài m chữ ký và n khóa công khai cần thiết, nó còn tiêu thụ thêm một phần tử ngăn xếp. Để ngăn chặn thao tác thất bại, các ScriptSigs đa chữ ký trần phải bao gồm một OP_0 ban đầu (đẩy một mảng byte rỗng) để đáp ứng việc tiêu thụ ngăn xếp ngoài dự kiến này. Các tùy chọn khác mô tả các vấn đề kỹ thuật nghe có vẻ hợp lý nhưng không phải là nguyên nhân thực sự của lỗi kỳ lạ nổi tiếng này của Bitcoin.

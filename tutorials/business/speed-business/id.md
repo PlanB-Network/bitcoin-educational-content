@@ -1,5 +1,5 @@
 ---
-name: Kecepatan Wallet - PoS
+name: Speed Wallet - POS
 description: Integrasikan pembayaran Bitcoin dan stablecoin ke dalam bisnis Anda dengan mudah
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Adopsi Bitcoin di seluruh dunia didasarkan pada kasus penggunaan yang nyata dala
 
 
 
-[Speed Business] (https://www.tryspeed.com/) adalah platform yang dikembangkan oleh [Speed Wallet] (https://www.speed.app/) yang memungkinkan setiap pedagang untuk mengintegrasikan pembayaran Bitcoin dan stablecoin yang instan dan berbiaya rendah.
+[Speed Business](https://www.tryspeed.com/) adalah platform yang dikembangkan oleh [Speed Wallet](https://www.speed.app/) yang memungkinkan setiap pedagang untuk mengintegrasikan pembayaran Bitcoin dan stablecoin yang instan dan berbiaya rendah.
 
 
 
@@ -28,25 +28,25 @@ Speed memiliki berbagai fitur untuk mencakup aspek keuangan bisnis Anda. Anda ak
 
 
 
-- Konfigurasi pembayaran online**: Terima pembayaran dari pelanggan Anda di mana pun mereka berada, berkat situs web Anda.
+- **Konfigurasi pembayaran online**: Terima pembayaran dari pelanggan Anda di mana pun mereka berada, berkat situs web Anda.
 
 
 
 
 
-- Pembayaran di tempat**: Ideal untuk toko dan bisnis yang mengumpulkan uang tunai di dalam toko.
+- **Pembayaran di tempat**: Ideal untuk toko dan bisnis yang mengumpulkan uang tunai di dalam toko.
 
 
 
 
 
-- Penarikan**: Tarik aset Anda dengan lancar dan gunakan bitcoin Anda untuk membayar pelanggan dan gaji Anda.
+- **Penarikan**: Tarik aset Anda dengan lancar dan gunakan bitcoin Anda untuk membayar pelanggan dan gaji Anda.
 
 
 
 
 
-- Koneksi dengan platform lain**: Apakah Anda menggunakan alat eksternal untuk mengelola pembayaran Anda? Speed menawarkan Anda kemungkinan untuk menghubungkan mereka ke platformnya, untuk ekosistem lengkap yang mencerminkan bisnis Anda.
+- **Koneksi dengan platform lain**: Apakah Anda menggunakan alat eksternal untuk mengelola pembayaran Anda? Speed menawarkan Anda kemungkinan untuk menghubungkan mereka ke platformnya, untuk ekosistem lengkap yang mencerminkan bisnis Anda.
 
 
 
@@ -94,13 +94,13 @@ Saat Anda menonaktifkan mode uji coba, Anda harus mengonfigurasi portofolio pena
 
 
 
-Jika Anda belum memiliki Bitcoin dan/atau Lightning Wallet, kami sarankan Anda untuk melihat tutorial [mobile wallet] kami (https://planb.network/tutorials/wallet).
+Jika Anda belum memiliki Bitcoin dan/atau Lightning Wallet, kami sarankan Anda untuk melihat tutorial [mobile wallet] kami (https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **PENTING**: Saat mengonfigurasi portofolio Anda, pilih jenis **BTC (On-Chain)** saat Anda menerima jumlah besar, dalam urutan ribuan euro, untuk memastikan konfirmasi yang dapat diandalkan pada Bitcoin, dan jenis **LN Address** saat Anda ingin menerima pembayaran mikro instan dalam bisnis Anda.
 
@@ -265,13 +265,13 @@ Di menu **Kirim Pembayaran**, Anda akan menemukan semua opsi kecepatan transfer 
 
 
 
-- Pembayaran instan**: Dengan opsi Kirim Instan, kirim bitcoin dengan aman secara instan dari akun pedagang Anda.
+- **Pembayaran instan**: Dengan opsi Kirim Instan, kirim bitcoin dengan aman secara instan dari akun pedagang Anda.
 
 
 
 
 
-- Tautan penarikan generate** untuk memungkinkan mitra dan pemasok Anda mengakses pembayaran mereka di kemudian hari tanpa memerlukan kehadiran Anda secara online.
+- Tautan penarikan **generate** untuk memungkinkan mitra dan pemasok Anda mengakses pembayaran mereka di kemudian hari tanpa memerlukan kehadiran Anda secara online.
 
 
 
@@ -289,7 +289,7 @@ Pada opsi **Tautan Penarikan**, buat tautan penarikan baru, lalu konfigurasikan 
 
 
 
-- Pembayaran**: Di menu Pembayaran, lakukan penarikan dari saldo Speed Business ke Wallet pribadi Anda.
+- **Pembayaran**: Di menu Pembayaran, lakukan penarikan dari saldo Speed Business ke Wallet pribadi Anda.
 
 
 
@@ -299,7 +299,7 @@ Pada opsi **Tautan Penarikan**, buat tautan penarikan baru, lalu konfigurasikan 
 
 
 
-- Diskon**: Dorong pelanggan tetap Anda dengan menyiapkan opsi rabat untuk mendapatkan bonus.
+- **Diskon**: Dorong pelanggan tetap Anda dengan menyiapkan opsi rabat untuk mendapatkan bonus.
 
 
 
@@ -435,5 +435,4 @@ Anda telah memahami dengan baik tentang Speed, mengintegrasikan Bitcoin ke dalam
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k’ishimikiro k’ubwubatsi k’uburyo bwa Breez SDK bwo gucunga ama node ya Lightning ugereranyije n’ugushirwa mu ngiro kwa Lightning kwa kera?
+answer: Abakoresha bagumana uturongo twabo tw'umuravyo ku bikorwa remezo vya Greenlight mu gihe bagumya ububasha bwo kugenzura imfunguruzo z'ibanga zitazokwigera ziva ku bikoresho vyabo .
+wrong_answers:
+  - Abakoresha basangira imihora ya Lightning icungiwe na Breez mu gihe bagumana uburenganzira bwo kubungabunga amahera biciye mu ntunganyo z'amasinya menshi
+  - "Abakoresha bakoresha ama node y'umuravyo yoroshe mu karere kacu akorana n'ama node ya Breez kugira ngo yongere kwizigirwa kandi agabanye uburebure bw'uruja n'uruza"
+  - Abakoresha bashinga uburongozi bw'imirongo ku batanga ibikorwa vya Lightning mu gihe bagumana uburenganzira bwo kubungabunga biciye ku bikoresho vy'umutekano vyinjijwe mu bikoresho vy'amaboko
+explanation: |
+  Ubwubatsi bwa Breez SDK buha umukoresha wese urudodo rwiwe rw’umuravyo rukoreshwa ku bikorwa remezo vy’igicu ca Greenlight, ariko ikintu gihambaye cane, imfunguruzo z’ibanga ntizigera ziva ku gikoresho c’umukoresha. Ivyo bisigura ko Greenlight idashobora gukora ibikorwa vyose vy’umuravyo ata porogarama y’ukoresha ishira umukono ku bikorwa. Ivyo bitandukanye n’ibidengeri vy’imirongo rusangi, uturongo tw’uburemere buke bwo mu karere, canke ibice vy’umutekano w’ibikoresho - ni uburyo bwihariye buvanze bukuraho ubugoyagoye bw’ibikorwa mu gihe buzigama ingingo ngenderwako z’ukuri zo kwirinda.

@@ -20,4 +20,4 @@ Con estos datos, puedo calcular los nodos intermedios hasta la raíz de Merkle.
 
 Los árboles de Merkle se utilizan sobre todo para los nodos ligeros (conocidos como "SPV") que sólo conservan las cabeceras de bloque, pero no las transacciones. Esta estructura también se encuentra en el protocolo UTREEXO, un protocolo que permite condensar el conjunto de nodos UTXO, y en el MAST Taproot.
 
-> ► *El Árbol de Merkle debe su nombre a Ralph Merkle, un criptógrafo que diseñó esta estructura en 1979. Un Árbol de Merkle también puede denominarse "árbol de hash". En francés, se denomina "Arbre de Merkle" o "arbre de hachage"
+> ► *El Árbol de Merkle debe su nombre a Ralph Merkle, un criptógrafo que diseñó esta estructura en 1979. Un Árbol de Merkle también puede denominarse "árbol de hash". En francés, se denomina "Arbre de Merkle" o "arbre de hachage"*

@@ -22,7 +22,7 @@ Kwa maneno mengine, inashauriwa kuhifadhi faili zako katika maeneo 3 tofauti, kw
 Ili kutekeleza kwa urahisi mkakati huu wa chelezo wa 3-2-1, unaweza kuchagua suluhu ya hifadhi ya mtandaoni, kwa kusawazisha kiotomatiki au mara kwa mara faili kutoka kwa kompyuta yako na zile zilizo katika wingu yako. Miongoni mwa masuluhisho haya ya chelezo mtandaoni, ni dhahiri kuna yale ya makampuni makubwa ya kidijitali unayoyajua: Hifadhi ya Google, Microsoft OneDrive, au Apple iCloud. Hata hivyo, hizi si suluhu bora zaidi za kulinda faragha yako. Katika mafunzo yaliyotangulia, nilikuletea njia mbadala inayosimba hati zako kwa usiri bora zaidi: Hifadhi ya Proton.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Kwa kupitisha mkakati huu wa kuhifadhi nakala za ndani na za wingu, tayari unanufaika kutoka kwa aina mbili tofauti za media kwa data yako, ambayo moja iko nje ya tovuti. Ili kukamilisha mkakati wa 3-2-1, unahitaji tu kuongeza nakala ya ziada. Ninachokushauri kufanya ni kusafirisha mara kwa mara data yako iliyopo ndani ya nchi na kwenye wingu yako hadi kwa njia halisi, kama vile fimbo ya USB au kiendeshi cha nje cha Hard. Kwa njia hii, hata kama seva za suluhisho lako la kuhifadhi mtandaoni zitaharibiwa na kompyuta yako kuharibika wakati huo huo, bado una nakala hii ya tatu kwenye njia ya nje ili usipoteze data yako.
 
@@ -151,7 +151,7 @@ Pia nakushauri uhifadhi nenosiri lako kwenye kidhibiti cha nenosiri. Hii inafany
 Kwa habari zaidi juu ya kudhibiti manenosiri, nakushauri ugundue mafunzo haya mengine kamili:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ingiza nenosiri lako katika sehemu 2 zilizoteuliwa, kisha ubofye "*Inayofuata*". ![VeraCrypt](assets/notext/25.webp)
 

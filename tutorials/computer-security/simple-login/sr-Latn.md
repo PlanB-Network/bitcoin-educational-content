@@ -1,5 +1,5 @@
 ---
-name: Jednostavna prijava
+name: Simple Login
 description: Identitet zaštićen pseudonimima
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Kada se koristi lični email za svaku prijavu, lako je zamisliti prvu posledicu:
 Programeri alata otvorenog koda kreirali su niz aplikacionih paketa, nastalih upravo kako bi korisnicima omogućili da povrate deo privatnosti: i dalje će se prijavljivati, ali koristeći pseudonim umesto alata koji otkriva njihov privatni identitet.
 
 
-Najjednostavniji među onima koje sam lično probao i još uvek testiram je [Simple Login](https://simplelogin.io/).
+Najjednostavniji, među onima koje sam lično probao i koje još testiram, jeste upravo [Simple Login](https://simplelogin.io/).
 
 
 ## Pseudonim
@@ -190,7 +190,7 @@ Rezultat je, međutim, da smo sačuvali glavnu adresu, o kojoj od trenutka kreir
 Alias funkcioniše i za primanje i za slanje: drugi korisnik će zaista primiti odgovor sa alias.preoccupy789@8shield.net, ako je ovo pseudonim izabran za tog određenog primaoca.
 
 
-## Pros
+## Prednosti
 
 
 Sve u svemu, korišćenje pseudonima je efikasan način da zaštitite svoj identitet i privatnost. Adrese e-pošte često prikupljaju brokeri podataka i veb-sajtovi kako bi pratili navike i ponašanje korisnika. Iako vas pseudonim ne čini potpuno neprimetnim, dosledno korišćenje jednog je pozitivan korak ka zaštiti vaših informacija. Štaviše, u našem "globalnom digitalnom selu", gde su hakovanje, prodaja podataka i kršenja bezbednosti previše česti, vrlo je verovatno da je e-pošta koju koristite za registraciju na raznim veb-sajtovima već kompromitovana ili na meti.

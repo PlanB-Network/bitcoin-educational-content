@@ -1,0 +1,9 @@
+question: BlkNNNNN.dat와 함께 저장되는 revNNNN.dat 파일의 용도는 무엇인가요?
+answer: 재구성 중 UTXO 세트 복원
+wrong_answers:
+  - UTXO 설정 중 Hard Fork 복원
+  - Hard Fork 동안 Mempool 복원
+  - 개편 중 Mempool 복원하기
+explanation: |
+  각 revNNNN.dat에는 UTXO 세트에 대한 블록의 효과를 취소하는 데 필요한 데이터가 포함되어 있어 재구성을 더 쉽게 관리할 수 있습니다.
+reviewed: true

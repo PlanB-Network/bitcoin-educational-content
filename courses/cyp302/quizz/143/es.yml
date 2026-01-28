@@ -6,4 +6,4 @@ wrong_answers:
   - Unas pocas décadas para una granja de minería de Bitcoin
 explanation: |
   La complejidad de factorizar números de 2048 bits es tal que sería virtualmente imposible resolverlo, incluso utilizando todos los recursos informáticos existentes durante un período que excede la edad del universo.
-reviewed: false
+reviewed: true

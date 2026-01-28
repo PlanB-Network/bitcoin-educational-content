@@ -1,0 +1,9 @@
+question: Vad menar Voltaire med "de ökända"?
+answer: Vidskepelse.
+wrong_answers:
+  - Religion.
+  - Pengar.
+  - Den gamla regimen.
+explanation: |
+  För Voltaire betydde "l'infâme" vidskepelse, särskilt religiös vidskepelse. Hans berömda utrop "Écrasez l'infâme!" var riktat mot alla former av obskurantism och religiös fanatism.
+reviewed: false

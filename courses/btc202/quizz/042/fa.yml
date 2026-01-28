@@ -1,0 +1,9 @@
+question: تحت چه مجوزی umbrelOS توزیع می‌شود؟
+answer: پلی‌فرم غیرتجاری 1.0
+wrong_answers:
+  - ام‌آی‌تی
+  - GPLv3
+  - آپاچی 2.0
+explanation: |
+  سیستم‌عامل umbrelOS تحت مجوز PolyForm Noncommercial 1.0 منتشر شده است که استفاده شخصی را مجاز می‌داند اما استفاده تجاری را ممنوع می‌کند.
+reviewed: true

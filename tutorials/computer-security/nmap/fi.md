@@ -61,9 +61,9 @@ Nmapin vahvuuksia on monia:
 
 
 
-- Tehokas ja joustava**: Nmap voi skannata suuria verkkoja ja käyttää kehittyneitä havaitsemistekniikoita. Se tukee UDP:tä, TCP:tä, ICMP:tä, IPv4:ää ja IPv6:ta, ja se voi suorittaa versiohavaintoja, haavoittuvuusskannauksia tai protokollakohtaisia vuorovaikutustoimenpiteitä. Sen arkkitehtuuri on modulaarinen erityisesti NSE-skriptien (Nmap Scripting Engine) ansiosta, joita tarkastelemme myöhemmin tässä oppaassa.
-- Helppokäyttöisyys**: virallista dokumentaatiota on runsaasti ja se on korkealaatuista. Myös lukuisat yhteisön resurssit auttavat alkuun pääsemisessä.
-- Suosio ja pitkäikäisyys**: Nmap on ollut alan referenssi vuodesta 1998. Tämän päivityksen aikaan nykyinen versio on 7.95. Vaikka erityistehtäviin on olemassa muitakin työkaluja, Nmap on edelleen välttämätön verkkokartoitukseen ja -analyysiin.
+- **Tehokas ja joustava**: Nmap voi skannata suuria verkkoja ja käyttää kehittyneitä havaitsemistekniikoita. Se tukee UDP:tä, TCP:tä, ICMP:tä, IPv4:ää ja IPv6:ta, ja se voi suorittaa versiohavaintoja, haavoittuvuusskannauksia tai protokollakohtaisia vuorovaikutustoimenpiteitä. Sen arkkitehtuuri on modulaarinen erityisesti NSE-skriptien (Nmap Scripting Engine) ansiosta, joita tarkastelemme myöhemmin tässä oppaassa.
+- **Helppokäyttöisyys**: virallista dokumentaatiota on runsaasti ja se on korkealaatuista. Myös lukuisat yhteisön resurssit auttavat alkuun pääsemisessä.
+- **Suosio ja pitkäikäisyys**: Nmap on ollut alan referenssi vuodesta 1998. Tämän päivityksen aikaan nykyinen versio on 7.95. Vaikka erityistehtäviin on olemassa muitakin työkaluja, Nmap on edelleen välttämätön verkkokartoitukseen ja -analyysiin.
 
 
 
@@ -87,7 +87,7 @@ Hän esiintyy myös muissa elokuvissa.
 
 
 
-**Palaute
+**Palaute**
 
 
 
@@ -165,7 +165,7 @@ Tässä osassa tarkastelemme Nmap-verkon skannaustyökalun tärkeimpiä käyttö
 
 
 
-Nmapia voidaan käyttää verkon diagnostiikkaan ja laajemmin valvontaan. Samalla tavalla kuin ping-mittauksen avulla voidaan määrittää, ovatko kaksi isäntäkohtaa yhteydessä toisiinsa, Nmapin avulla voidaan nopeasti määrittää, onko jokin isäntä aktiivinen tai onko jokin tietty palvelu toiminnassa. [Nmapin] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") avulla voidaan saada tarkkoja tietoja isännän vasteajasta, pakettien kulkemasta reitistä, tietyn palvelun antamasta vastauksesta jne.
+Nmapia voidaan käyttää verkon diagnostiikkaan ja laajemmin valvontaan. Samalla tavalla kuin ping-mittauksen avulla voidaan määrittää, ovatko kaksi isäntäkohtaa yhteydessä toisiinsa, Nmapin avulla voidaan nopeasti määrittää, onko jokin isäntä aktiivinen tai onko jokin tietty palvelu toiminnassa. [Nmapin](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") avulla voidaan saada tarkkoja tietoja isännän vasteajasta, pakettien kulkemasta reitistä, tietyn palvelun antamasta vastauksesta jne.
 
 
 
@@ -334,7 +334,7 @@ $ dnf search '^nmap$'
 
 
 
-Vastaus osoittaa selvästi, että paketti "nmap" on olemassa arkistoissa (tässä tapauksessa Kali [Linuxin] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Tästä eteenpäin voit asentaa Nmapin tavallisilla asennuskomennoilla, ei mitään aseistariisuvaa toistaiseksi 🙂:
+Vastaus osoittaa selvästi, että paketti "nmap" on olemassa arkistoissa (tässä tapauksessa Kali [Linuxin](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Tästä eteenpäin voit asentaa Nmapin tavallisilla asennuskomennoilla, ei mitään aseistariisuvaa toistaiseksi 🙂:
 
 
 
@@ -485,25 +485,25 @@ Olipa kyseessä sitten Linux tai Windows, Nmap pyytää sinulta monissa tapauksi
 
 
 
-- "Raakaverkkopakettien" muodostaminen**: Nmap pystyy käyttämään monenlaisia skannausmenetelmiä, mukaan lukien edistynyt pakettien manipulointi ja rakentaminen. Näin on esimerkiksi silloin, kun haluamme suorittaa TCP SYN-skannauksia, jotka eivät noudata TCP-vaihdon klassista _kolmitiekättelyä_. Tätä varten Nmapin on käytettävä muita kuin käyttöjärjestelmien omia funktioita, jotka osaavat vain kunnioittaa verkkoviestinnän hyviä käytäntöjä (se käyttää edellä mainittuja "Npcap"- ja "libcap"-kirjastoja). Koska Nmap ei tee asioita "tavanomaisella" tavalla, se pystyy päättelemään tiettyjä tietoja käyttöjärjestelmistä, palveluista ja tietyistä haavoittuvuuksista.
+- **"Raakaverkkopakettien" muodostaminen**: Nmap pystyy käyttämään monenlaisia skannausmenetelmiä, mukaan lukien edistynyt pakettien manipulointi ja rakentaminen. Näin on esimerkiksi silloin, kun haluamme suorittaa TCP SYN-skannauksia, jotka eivät noudata TCP-vaihdon klassista *kolmitiekättelyä*. Tätä varten Nmapin on käytettävä muita kuin käyttöjärjestelmien omia funktioita, jotka osaavat vain kunnioittaa verkkoviestinnän hyviä käytäntöjä (se käyttää edellä mainittuja "Npcap"- ja "libcap"-kirjastoja). Koska Nmap ei tee asioita "tavanomaisella" tavalla, se pystyy päättelemään tiettyjä tietoja käyttöjärjestelmistä, palveluista ja tietyistä haavoittuvuuksista.
 
 
 
 
 
-- Kuuntele verkkoliikennettä**: Jotkin Nmapin vaihtoehdoista edellyttävät, että se kuuntelee verkkoa saadakseen tiettyjä tietoja. Tätä toimintoa pidetään käyttöjärjestelmissä arkaluonteisena, koska sen avulla voit myös kuunnella järjestelmän muiden sovellusten viestintää. Aivan kuten Wireshark, myös Nmap tarvitsee tähän tiettyjä oikeuksia, jotka on helpompi saada olemalla suoraan etuoikeutetussa istunnossa.
+- **Kuuntele verkkoliikennettä**: Jotkin Nmapin vaihtoehdoista edellyttävät, että se kuuntelee verkkoa saadakseen tiettyjä tietoja. Tätä toimintoa pidetään käyttöjärjestelmissä arkaluonteisena, koska sen avulla voit myös kuunnella järjestelmän muiden sovellusten viestintää. Aivan kuten Wireshark, myös Nmap tarvitsee tähän tiettyjä oikeuksia, jotka on helpompi saada olemalla suoraan etuoikeutetussa istunnossa.
 
 
 
 
 
-- Kuuntelu etuoikeutetuissa porteissa**: käyttöjärjestelmissä portit 0-124 (TCP ja UDP) ovat etuoikeutettuja, eli ne on varattu jotenkin hyvin erityisiin käyttötarkoituksiin ja siksi suojattu. Vaikka tämä on nykyään hieman vanhentunut syy, on edelleen tarpeen saada tietyt oikeudet kuunnella näitä portteja, ja Nmapin on ehkä tehtävä se riippuen siitä, miten sitä käytetään.
+- **Kuuntelu etuoikeutetuissa porteissa**: käyttöjärjestelmissä portit 0-124 (TCP ja UDP) ovat etuoikeutettuja, eli ne on varattu jotenkin hyvin erityisiin käyttötarkoituksiin ja siksi suojattu. Vaikka tämä on nykyään hieman vanhentunut syy, on edelleen tarpeen saada tietyt oikeudet kuunnella näitä portteja, ja Nmapin on ehkä tehtävä se riippuen siitä, miten sitä käytetään.
 
 
 
 
 
-- UDP-pakettien lähettäminen:** Vastaavasti verkkosovelluksen kuuntelu UDP-porteissa (tilaton protokolla) vaatii käyttöjärjestelmissä etuoikeudet. Siksi tarvitaan etuoikeutettu istunto, jos haluat suorittaa UDP-skannauksen, johon Nmapin on kuunneltava vastausta, jotta se voi analysoida vastauksia skannauksiinsa.
+- **UDP-pakettien lähettäminen:** Vastaavasti verkkosovelluksen kuuntelu UDP-porteissa (tilaton protokolla) vaatii käyttöjärjestelmissä etuoikeudet. Siksi tarvitaan etuoikeutettu istunto, jos haluat suorittaa UDP-skannauksen, johon Nmapin on kuunneltava vastausta, jotta se voi analysoida vastauksia skannauksiinsa.
 
 
 
@@ -562,13 +562,13 @@ Muista tästä lähtien skannata vain valvotussa ympäristössä olevia isänti�
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Hacking-koulutusalusta Hack The Box tarjoaa jatkuvasti haavoittuvia järjestelmiä, joihin voit hyökätä parhaaksi katsomallasi tavalla. Käytettävissä on useita satoja järjestelmiä, mutta uudistettu 20 koneen pooli on tarjolla ilmaiseksi ympäri vuoden, ja siihen pääsee käsiksi OpenVPN VPN:n kautta.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Hacking-koulutusalusta Hack The Box tarjoaa jatkuvasti haavoittuvia järjestelmiä, joihin voit hyökätä parhaaksi katsomallasi tavalla. Käytettävissä on useita satoja järjestelmiä, mutta uudistettu 20 koneen pooli on tarjolla ilmaiseksi ympäri vuoden, ja siihen pääsee käsiksi OpenVPN VPN:n kautta.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Tämä alusta tarjoaa ladattavaksi lukuisia tarkoituksellisesti haavoittuvia järjestelmiä, joita voidaan käyttää VirtualBoxin (myös ilmainen ratkaisu) tai muiden keinojen avulla. Kun se on ladattu, VPN:ää ei tarvita - kaikki on paikallista.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Tämä alusta tarjoaa ladattavaksi lukuisia tarkoituksellisesti haavoittuvia järjestelmiä, joita voidaan käyttää VirtualBoxin (myös ilmainen ratkaisu) tai muiden keinojen avulla. Kun se on ladattu, VPN:ää ei tarvita - kaikki on paikallista.
 
 
 
@@ -815,7 +815,7 @@ vastaus porttiin 22 lähetettyyn TCP SYN-pakettiin, joka on aktiivinen skannausk
 
 
 
-Yllä olevassa kuvakaappauksessa näkyy kohdeisännän lähettämä TCP SYN/ACK-paketti**. Portti on aktiivinen ja tarjoaa palvelun. Nmap kuittaa vastauksen vastaanottamisen ja katkaisee yhteyden (TCP RST/ACK). **Siten se tiesi, että portti TCP/22 oli aktiivinen**.
+Yllä olevassa kuvakaappauksessa näkyy kohdeisännän lähettämä **TCP SYN/ACK-paketti**. Portti on aktiivinen ja tarjoaa palvelun. Nmap kuittaa vastauksen vastaanottamisen ja katkaisee yhteyden (TCP RST/ACK). **Siten se tiesi, että portti TCP/22 oli aktiivinen**.
 
 
 
@@ -901,7 +901,7 @@ uDP-pakettien lähetys ja ICMP-vastaanotto (portti ei tavoitettavissa) Nmap-skan
 
 
 
-Yllä olevasta kuvakaappauksesta näemme, että Nmap lähettää suuren määrän UDP-paketteja ja vastaanottaa suurimmalle osalle niistä ICMP-paketin "Destination unreachable (Port unreachable)". Tämä on normaalia, sillä se on [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") määrittelemä asianmukainen vastaus, kun UDP-portti on saavuttamaton:
+Yllä olevasta kuvakaappauksesta näemme, että Nmap lähettää suuren määrän UDP-paketteja ja vastaanottaa suurimmalle osalle niistä ICMP-paketin "Destination unreachable (Port unreachable)". Tämä on normaalia, sillä se on [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") määrittelemä asianmukainen vastaus, kun UDP-portti on saavuttamaton:
 
 
 
@@ -976,7 +976,7 @@ Kuten olemme nähneet, Nmap valitsee itse skannattavien porttien määrän ja po
 
 
 
-**Miten nämä portit valitaan?
+**Miten nämä portit valitaan?**
 
 
 
@@ -1060,7 +1060,7 @@ Järjestyksestä riippumatta Nmap tarkistaa kaikki nämä portit ja vain ne, jot
 
 
 
-**Tarkista useita portteja
+**Tarkista useita portteja**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**TCP- ja UDP-porttien skannaus
+**TCP- ja UDP-porttien skannaus**
 
 
 
@@ -1134,7 +1134,7 @@ Siinäpä mielenkiintoinen tapa muokata skannauksia!
 
 
 
-**Tarkista kaikki portit
+**Tarkista kaikki portit**
 
 
 
@@ -1347,7 +1347,7 @@ Mutta siinä on muutakin. Yllä olevasta Wireshark-kaappauksesta näkyy, että *
 
 
 
-**Miksi lähettää TCP-paketteja portteihin osana verkon löytämistä?
+**Miksi lähettää TCP-paketteja portteihin osana verkon löytämistä?**
 
 
 
@@ -2165,31 +2165,31 @@ Tehdään tämä selväksi: Nmap ei pysty suorittamaan täydellistä tietojärje
 
 
 
-- Rajoitettu kattavuus**: Vaikka Nmapin NSE-skriptit ovat tehokkaita, niiden testien kattavuus voi olla rajallinen verrattuna muihin erikoistuneisiin haavoittuvuuksien etsintätyökaluihin. Käytettävissä olevat NSE-skriptit eivät välttämättä kata joitakin haavoittuvuuksia, kuten Active Directory -haavoittuvuuksia, arkaluonteisten tietojen paljastumista tai edistyneempiä haavoittuvia verkkosovelluksia.
+- **Rajoitettu kattavuus**: Vaikka Nmapin NSE-skriptit ovat tehokkaita, niiden testien kattavuus voi olla rajallinen verrattuna muihin erikoistuneisiin haavoittuvuuksien etsintätyökaluihin. Käytettävissä olevat NSE-skriptit eivät välttämättä kata joitakin haavoittuvuuksia, kuten Active Directory -haavoittuvuuksia, arkaluonteisten tietojen paljastumista tai edistyneempiä haavoittuvia verkkosovelluksia.
 
 
 
 
 
-- Haavoittuvuuden monimutkaisuus**: Tietyntyyppisiä haavoittuvuuksia voi olla vaikea havaita NSE-skriptien avulla niiden monimutkaisuuden vuoksi. Esimerkiksi haavoittuvuuksia, jotka edellyttävät monimutkaista vuorovaikutusta etäpalvelun kanssa, ei ehkä havaita tehokkaasti Nmapilla (kuten esimerkiksi liiallisia oikeuksia tiedostojen jakamisessa tai virheitä käyttöoikeuksien hallinnassa verkkosovelluksessa).
+- **Haavoittuvuuden monimutkaisuus**: Tietyntyyppisiä haavoittuvuuksia voi olla vaikea havaita NSE-skriptien avulla niiden monimutkaisuuden vuoksi. Esimerkiksi haavoittuvuuksia, jotka edellyttävät monimutkaista vuorovaikutusta etäpalvelun kanssa, ei ehkä havaita tehokkaasti Nmapilla (kuten esimerkiksi liiallisia oikeuksia tiedostojen jakamisessa tai virheitä käyttöoikeuksien hallinnassa verkkosovelluksessa).
 
 
 
 
 
-- Passiivinen havaitseminen**: Tämä tarkoittaa, että se ei välttämättä havaitse mahdollisia haavoittuvuuksia tehokkaasti ilman aktiivisen yhteyden muodostamista kohdeisäntäkoneisiin. Haavoittuvuudet, jotka eivät ilmene aktiivisen skannauksen aikana, voivat siksi jäädä huomaamatta (kuten verkkosovelluksen koodin injektio).
+- **Passiivinen havaitseminen**: Tämä tarkoittaa, että se ei välttämättä havaitse mahdollisia haavoittuvuuksia tehokkaasti ilman aktiivisen yhteyden muodostamista kohdeisäntäkoneisiin. Haavoittuvuudet, jotka eivät ilmene aktiivisen skannauksen aikana, voivat siksi jäädä huomaamatta (kuten verkkosovelluksen koodin injektio).
 
 
 
 
 
-- Riippuvuus päivityksistä**: Nmapin [tietokanta](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) NSE-skripteistä kehittyy jatkuvasti, mutta uuden haavoittuvuuden löytymisen ja vastaavan skriptin lisäämisen Nmapiin voi kestää jonkin aikaa. Tämän seurauksena Nmap ei välttämättä ole aina ajan tasalla uusimpien haavoittuvuuksien suhteen.
+- **Riippuvuus päivityksistä**: Nmapin [tietokanta](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) NSE-skripteistä kehittyy jatkuvasti, mutta uuden haavoittuvuuden löytymisen ja vastaavan skriptin lisäämisen Nmapiin voi kestää jonkin aikaa. Tämän seurauksena Nmap ei välttämättä ole aina ajan tasalla uusimpien haavoittuvuuksien suhteen.
 
 
 
 
 
-- Vääriä positiivisia ja vääriä negatiivisia tuloksia**: Kuten mikä tahansa tietoturvatyökalu, Nmapin NSE-skriptit voivat tuottaa vääriä positiivisia tuloksia (vääriä haavoittuvuushälytyksiä) tai vääriä negatiivisia tuloksia (todellisia haavoittuvuuksia ei havaita). Tämä on syytä pitää mielessä Nmapin tuloksia analysoitaessa.
+- **Vääriä positiivisia ja vääriä negatiivisia tuloksia**: Kuten mikä tahansa tietoturvatyökalu, Nmapin NSE-skriptit voivat tuottaa vääriä positiivisia tuloksia (vääriä haavoittuvuushälytyksiä) tai vääriä negatiivisia tuloksia (todellisia haavoittuvuuksia ei havaita). Tämä on syytä pitää mielessä Nmapin tuloksia analysoitaessa.
 
 
 
@@ -2238,23 +2238,24 @@ Skriptit on järjestetty luokittain, ja yksi skripti voi kuulua useampaan kuin y
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| Kategoria | Kuvaus |
+|----------------|-------------|
+| **auth** | Sisältää skriptejä, jotka liittyvät palveluiden todennukseen, mukaan lukien anonyymi pääsy tai käyttäjien luettelointi. Esimerkkejä: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast** | Sisältää skriptejä, jotka liittyvät verkon lähetystoimintoihin (broadcast), erityisesti tiettyjen broadcastiin perustuvien palveluiden, isäntien tai protokollien (IPv6, wake on lan, IGMP jne.) hyödyntämiseen ja löytämiseen. Esimerkkejä: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute** | Sisältää skriptejä, jotka liittyvät palveluiden todennuksen brute force -operaatioihin (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL jne.). Esimerkkejä: `ssh-brute`, `vnc-brute`. |
+| **default** | Sisältää skriptejä, joita käytetään oletustapauksessa (käytettäessä valitsinta `-sC`). Skriptin hyväksymiseen tähän kategoriaan käytetään useita kriteerejä, kuten suoritusnopeus, tulosteen rakenne, testin luotettavuus, ”tunkeilevuus” tai ”riskialttius” jne. |
+| **discovery** | Sisältää skriptejä, jotka liittyvät verkon ja palveluiden edistyneeseen löytämiseen. Täältä löytyy esimerkiksi SMB-jaon sisällön luettelointi, VNC-palvelun versio, SNMP-kyselyt jne. Esimerkkejä: `mysql-info`, `http-security-headers`. |
+| **dos** | Sisältää skriptejä, jotka voivat aiheuttaa palvelunestohyökkäyksen (denial of service). Kyseessä voi olla skripti, joka on luotu hyödyntämään palvelunestovulnerabiliteettia, tai skripti, jonka sivuvaikutuksena on palvelunesto. Ole siis varovainen (ne on jätetty pois `default`-kategoriasta). Esimerkkejä: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit** | Sisältää skriptejä, jotka on luotu hyödyntämään vulnerabiliteettia suoraan. Esimerkkejä: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external** | Sisältää skriptejä, jotka edellyttävät kolmannen osapuolen resurssin, kuten online-tietokannan, käyttöä. Tämä osoittaa erityisesti yritystä muodostaa yhteys ulospäin (huomioi luottamuksellisuus). Esimerkkejä: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer** | Sisältää skriptejä, jotka on suunniteltu lähettämään odottamattomia kehyksiä, paketteja tai parametreja palvelulle. Tämä mahdollistaa erityisesti virheiden tai toimintahäiriöiden aiheuttamisen vulnerabiliteettivihjeiden tai teknisten tietojen saamiseksi. Esimerkkejä: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive** | Sisältää skriptejä, jotka on luokiteltu ”riskialttiiksi” käytettävyyden tai havaitsemisen kannalta. Ne voivat aiheuttaa järjestelmän kaatumisen tai tietoturvaratkaisu voi havaita ne haitallisiksi. Tämä on `safe`-kategorian vastakohta. Esimerkkejä: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware** | Sisältää skriptejä, jotka on suunniteltu havaitsemaan haittaohjelmille tyypillisiä piirteitä, kuten tunnetun takaportin (backdoor) yleisesti käyttämä kuunteluportti. Esimerkkejä: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe** | Sisältää skriptejä, joita pidetään turvallisina havaitsemisen tai vakauden kannalta. Tämä on `intrusive`-kategorian vastakohta ja se sisältää pääasiassa edistyneitä skriptejä version tunnistamiseen tai kokoonpanoelementtien keräämiseen. Esimerkkejä: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version** | Sisältää skriptejä, jotka mahdollistavat edistyneen version tunnistamisen. Niitä voidaan käyttää täydentämään aiemmin opiskeltuja Probeja ja Matchja, kun version tunnistaminen vaatii hieman monimutkaisempia operaatioita. Esimerkkejä: `http-php-version`, `vmware-version`. |
+| **vuln** | Sisältää skriptejä, jotka on suunniteltu havaitsemaan tunnettuja haavoittuvuuksia (CVE) niitä suoraan hyödyntämättä (toisin kuin `exploit`-kategoria). Ne yleensä tyytyvät ilmoittamaan palvelun tilan ”haavoittuva” tai ei. Esimerkkejä: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 Teknisesti ottaen luokat, joihin skripti kuuluu, ilmoitetaan suoraan sen koodissa.
 

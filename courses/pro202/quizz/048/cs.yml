@@ -1,0 +1,8 @@
+question: Co se stane při konstrukci Merklova stromu z transakcí, pokud je počet hashů na libovolné úrovni lichý?
+answer: Poslední hash se duplikuje, aby se vytvořil sudý počet párů pro další úroveň
+wrong_answers:
+  - Poslední hash se beze změny přenese do další úrovně bez párování
+  - Poslední hash je XORován s prvním hashem dané úrovně, čímž je párování dokončeno
+  - Poslední hash se zkombinuje s nulovým hashem (všechny nuly) a vytvoří se konečná dvojice
+explanation: |
+  Konstrukce Merklova stromu Bitcoin vyžaduje párování hashů na každé úrovni. Pokud existuje liché číslo, protokol speciálně duplikuje poslední hash, aby zajistil správné párování. Tím se zachová binární struktura stromu a zajistí se deterministický výpočet kořene. Ostatní možnosti by porušily kompatibilitu s pravidly konsensu Bitcoin a vytvořily by různé kořeny Merkleho pro identické sady transakcí.

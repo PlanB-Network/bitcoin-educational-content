@@ -1,0 +1,8 @@
+question: Jaký matematický vzorec se používá pro výpočet dotace bloku při dané výšce bloku h v protokolu Bitcoin?
+answer: dotace = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - dotace = 50_000_000_000 / (2^(h / 210_000))
+  - dotace = 5_000_000_000 * (0,5^(h % 210_000))
+  - dotace = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  Správný vzorec používá operace s posunem bitů, kde 5_000_000_000 představuje 50 BTC v satoshi a operátor posunu doprava >> efektivně dělí mocninami 2. Dělení patra h // 210_000 určuje, kolik období půlení proběhlo. První chybná odpověď používá běžné dělení místo bitového posunu a začíná s nesprávnou základní hodnotou. Druhá odpověď používá modulo místo dělení patrem, což by vytvořilo cyklický vzorec, nikoli postupné půlení. Třetí používá operaci modulo, která by vynulovala čítač půlení každých 210 000 bloků namísto postupného hromadění půlení.

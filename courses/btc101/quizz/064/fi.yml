@@ -1,9 +1,11 @@
-question: Mikä on komento, jolla voi tarkistaa liikkeessä olevien bitcoinien määrän Bitcoin-noodissa?
-answer: bitcoin-cli gettxoutsetinfo.
+question: Minä vuonna seitsemäs puolitus tapahtuu?
+answer: 2036
 wrong_answers:
-  - bitcoin-cli getblockchaininfo.
-  - bitcoin-cli getwalletinfo.
-  - bitcoin-cli getnetworkinfo.
+  - 2032
+  - 2028
+  - 2048
 explanation: |
-  Komento, jolla voi tarkistaa liikkeessä olevien bitcoinien määrän Bitcoin-noodissa, on bitcoin-cli gettxoutsetinfo. Tämä komento tarjoaa läpinäkyvyyttä ja todennettavuutta, vahvistaen luottamusta Bitcoin-järjestelmään.
+  Seitsemännen puolituksen pitäisi tapahtua vuonna 2036, ja arvioitu
+  bitcoinien määrä liikkeessä tulee olemaan 20,835,937.5,
+  mikä vastaa suurin piirtein 99.22% koko tarjonnasta.
 reviewed: true

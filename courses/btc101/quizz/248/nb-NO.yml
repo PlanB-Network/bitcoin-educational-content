@@ -1,8 +1,9 @@
-question: Hva er en av de viktigste egenskapene til Bitcoin?
-answer: Den kan byttes hvor som helst i verden uten noen autorisasjon fra noen enhet.
+question: Hva er en av de viktigste grunnene til at Bitcoin ble opprettet?
+answer: For å foreslå et forsøk på å endre det finansielle systemet.
 wrong_answers:
-  - Den kan kun brukes av en utvalgt gruppe mennesker.
-  - Den krever autorisasjon fra en sentral myndighet for å bli brukt.
-  - Den kan kun brukes i visse land.
+  - For å foreslå et forsøk på å eliminere penger.
+  - For å foreslå et forsøk på å skape en ny form for AI-teknologi.
+  - For å foreslå et forsøk på å kontrollere verdens befolkning.
 explanation: >-
-  Teksten nevner at Bitcoin er pseudonymt og kan byttes hvor som helst i verden uten noen autorisasjon fra noen enhet.
+  Teksten nevner at Satoshi opprettet Bitcoin i 2008 for å foreslå et
+  forsøk på å endre det finansielle systemet.

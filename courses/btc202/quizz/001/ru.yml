@@ -1,0 +1,9 @@
+question: Как мы называем набор машин, на которых выполняется реализация Bitcoin и которые соединены друг с другом?
+answer: Сеть Bitcoin
+wrong_answers:
+  - Протокол Bitcoin
+  - Валюта Bitcoin
+  - Blockchain Bitcoin
+explanation: |
+  Сеть Bitcoin включает в себя все подключенные узлы, каждый из которых использует свою реализацию протокола.
+reviewed: true

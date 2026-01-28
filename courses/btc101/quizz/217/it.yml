@@ -1,12 +1,9 @@
-question: In quali campi solleva domande Bitcoin?
-answer: Crittografia, teoria dei giochi, economia e politica monetaria, informatica, filosofia, energia, leggi e regolamentazione.
+question: Qual è l’obiettivo principale del Lightning Network?
+answer: Consentire pagamenti offchain, rapidi e a basso costo
 wrong_answers:
-  - Solo informatica ed economia
-  - Solo crittografia e teoria dei giochi
-  - Solo filosofia ed energia
+  - Aumentare la dimensione dei blocchi della blockchain di Bitcoin
+  - Sostituire progressivamente la blockchain di Bitcoin con un sistema più efficiente
+  - Rendere molto ricche le mining farm
 explanation: |
-  Bitcoin è un argomento multidisciplinare che solleva
-  domande relative a vari campi, inclusi
-  crittografia, teoria dei giochi, economia e politica monetaria,
-  informatica, filosofia, energia, leggi e regolamentazione.
-reviewed: vero
+  Il Lightning Network mira a consentire pagamenti in bitcoin quasi istantanei, con commissioni ridotte, senza sovraccaricare la blockchain principale.
+reviewed: false

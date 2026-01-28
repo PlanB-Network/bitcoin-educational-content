@@ -1,0 +1,9 @@
+question: Где находится самое активное сообщество Umbrel?
+answer: О Discord и онлайн-форуме
+wrong_answers:
+  - В Instagram
+  - О LinkedIn и онлайн-форуме
+  - На IRC
+explanation: |
+  Umbrel имеет очень активное сообщество в Discord и на своем онлайн-форуме, где пользователи Exchange получают помощь и поддержку.
+reviewed: true

@@ -1,0 +1,8 @@
+question: ¿Qué ocurre con la diferencia entre los importes de entrada y los de salida en una operación Bitcoin?
+answer: La diferencia se convierte automáticamente en la comisión de transacción pagada a los mineros
+wrong_answers:
+  - "La diferencia se devuelve a la dirección original del remitente como cambio"
+  - La diferencia se quema y se retira permanentemente de la circulación
+  - La diferencia se mantiene en depósito hasta que se confirma la transacción
+explanation: |
+  En el sistema de tasas de Bitcoin, las tasas se calculan implícitamente como la diferencia entre las cantidades totales de entrada y las cantidades totales de salida (tasa = suma(entradas) - suma(salidas)). Cualquier valor no asignado explícitamente a una salida se convierte automáticamente en la tasa del minero. Esta es la razón por la que crear salidas de cambio apropiadas es crítico - si te olvidas de incluir una salida de cambio cuando gastas una UTXO grande, todo el resto se convierte en una tasa cara para el minero. Las otras opciones son incorrectas porque Bitcoin no crea automáticamente salidas de cambio, no quema el valor no asignado, y no utiliza mecanismos de custodia para las diferencias de transacción.

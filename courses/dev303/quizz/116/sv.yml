@@ -1,0 +1,8 @@
+question: Vad är den främsta fördelen med Breez SDK:s interoperabilitetsfunktion som gör att flera applikationer kan ansluta till samma Lightning-nod med samma seed-fras?
+answer: Användare kan upprätthålla ett enda Lightning-saldo i olika specialiserade applikationer och samtidigt undvika komplexiteten med att hantera flera Lightning-noder
+wrong_answers:
+  - Applikationer kan dela privata nycklar direkt mellan varandra, vilket möjliggör sömlös signering av transaktioner mellan olika applikationer utan att användaren behöver ingripa
+  - Flera applikationer kan samla ihop sin likviditet för att skapa större Lightning-kanaler med ökad routningskapacitet för nätverket
+  - Utvecklare kan få tillgång till delad Lightning-infrastruktur utan att behöva implementera sin egen nodhantering, vilket minskar utvecklingskostnaderna och komplexiteten
+explanation: |
+  SDK:s interoperabilitet gör det möjligt för användare att komma åt samma Lightning-nod och medel från flera specialiserade appar (som en allmän wallet och en podcasting-app) utan att hantera separata saldon eller noder. De felaktiga svaren ger en felaktig bild av arkitekturen: privata nycklar lämnar aldrig användarens enhet och delas inte mellan appar, likviditetspoolning är inte hur systemet fungerar, och även om utvecklare drar nytta av förenklad infrastruktur är den primära fördelen som beskrivs den enhetliga användarupplevelsen i olika applikationer.

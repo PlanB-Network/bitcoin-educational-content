@@ -1,0 +1,9 @@
+question: 使用最廣泛的 Bitcoin 節點實作是什麼？
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin 經典
+  - Bcoin
+explanation: |
+  網路中 10 個節點約有 9 個是 Bitcoin core 的主要客戶。
+reviewed: true

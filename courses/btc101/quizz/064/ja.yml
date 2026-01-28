@@ -1,9 +1,9 @@
-question: Bitcoinノード上で流通しているビットコインの量を確認するコマンドは何ですか？
-answer: bitcoin-cli gettxoutsetinfo。
+question: 7回目の半減期は何年に起こりますか？
+answer: 2036
 wrong_answers:
-  - bitcoin-cli getblockchaininfo。
-  - bitcoin-cli getwalletinfo。
-  - bitcoin-cli getnetworkinfo。
+  - 2032
+  - 2028
+  - 2048
 explanation: |
-  Bitcoinノード上で流通しているビットコインの量を確認するコマンドはbitcoin-cli gettxoutsetinfoです。このコマンドは透明性と検証可能性を提供し、Bitcoinシステムへの信頼を強化します。
+  7回目の半減期は2036年に起こる予定で、その時点でのビットコインの流通量は20,835,937.5になると推定されており、これは総供給量の約99.22%に相当します。
   レビュー済み: true

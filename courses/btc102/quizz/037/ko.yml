@@ -1,0 +1,9 @@
+question: 비트코인의 보안을 위해 절대 피해야 할 것은 무엇인가요?
+answer: 비트코인을 Exchange 플랫폼에 보관하기
+wrong_answers:
+  - 오픈 소스 Hardware Wallet 사용
+  - 일일 거래에 Hot Wallet 사용
+  - 저장 방법 다양화
+explanation: |
+  "키가 아니라 비트코인을 보관하지 않는다"는 원칙은 개인 키 보관의 중요성을 강조합니다. Exchange 플랫폼에서는 비트코인이 불필요한 위험에 노출됩니다.
+reviewed: false

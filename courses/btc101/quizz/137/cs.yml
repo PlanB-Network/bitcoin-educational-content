@@ -1,12 +1,10 @@
-question: Jak uživatelé převádějí vlastnictví svých peněz v síti Bitcoin?
-answer: Digitálním podepisováním transakcí svými soukromými klíči.
+question: Jaká je požadovaná šířka pásma pro provoz Bitcoinového uzlu, pokud uvažujeme 1 blok o velikosti 1MB každých 10 minut?
+answer: Přibližně 5GB za měsíc.
 wrong_answers:
-  - Fyzickým předáním svých Bitcoinů.
-  - Odesláním emailu příjemci.
-  - Poskytnutím své Bitcoinové adresy příjemci.
-explanation: |
-  Uživatelé v síti Bitcoin převádějí vlastnictví svých
-  peněz digitálním podepisováním transakcí svými soukromými
-  klíči. To ověřuje, že jsou vlastníky
-  bitcoinů, které chtějí převést.
+  - Přibližně 1GB za měsíc.
+  - Přibližně 10GB za měsíc.
+  - Přibližně 20GB za měsíc.
+explanation: >-
+  Pokud uvažujeme 1 blok o velikosti 1MB každých 10 minut, provoz Bitcoinového uzlu vyžaduje
+  přibližně 5GB šířky pásma za měsíc.
 reviewed: true

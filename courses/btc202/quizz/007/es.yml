@@ -1,0 +1,9 @@
+question: ¿Qué tiene que hacer un Wallet para ver el estado de Blockchain?
+answer: Conectarse a un nodo local o remoto
+wrong_answers:
+  - Preguntar a otros monederos de la red
+  - Entrevistar a los mineros de la red
+  - Conectarse a una plataforma Exchange en línea
+explanation: |
+  Un Wallet debe conectarse a un nodo para acceder al estado del Blockchain y difundir sus transacciones.
+reviewed: true

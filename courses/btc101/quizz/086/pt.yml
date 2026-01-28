@@ -1,13 +1,14 @@
-question: O que é uma carteira fria?
-answer: Uma carteira em um dispositivo físico que armazena suas chaves e não está conectada à internet.
+question: O que você precisa fazer backup ao usar uma carteira com uma frase-senha?
+answer: Você precisa fazer backup tanto da lista de 12 ou 24 palavras quanto da sua frase-senha.
 wrong_answers:
-  - Uma carteira que é fisicamente fria ao toque.
-  - Uma carteira que é impopular entre os usuários de Bitcoin.
-  - Uma carteira que é recomendada para armazenar pequenas quantidades de bitcoins.
+  - Você precisa fazer backup apenas da lista de 12 ou 24 palavras.
+  - Você precisa fazer backup apenas da sua frase-senha.
+  - Você não precisa fazer backup nem da lista de 12 ou 24 palavras nem da sua frase-senha.
 explanation: |
-  Uma carteira fria é um termo usado para descrever uma carteira de Bitcoin
-  que é armazenada em um dispositivo que não está conectado à
-  internet. Isso a torna menos vulnerável a ameaças online,
-  mas também significa que a carteira é menos acessível para
-  transações diárias.
+  Quando você usa uma carteira com uma frase-senha, você precisa fazer backup
+  tanto da lista de 12 ou 24 palavras quanto da sua frase-senha,
+  porque a lista de palavras e a frase-senha são ambas
+  necessárias para recuperar o acesso aos seus fundos em caso de
+  perda do seu telefone ou computador. Sem uma ou outra,
+  os fundos não são acessíveis.
 reviewed: true

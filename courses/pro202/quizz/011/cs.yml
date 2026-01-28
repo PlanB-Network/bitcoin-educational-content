@@ -1,0 +1,8 @@
+question: Jaká je hlavní výhoda použití komprimovaného formátu SEC oproti nekomprimovanému formátu SEC pro veřejné klíče Bitcoin?
+answer: Snižuje velikost úložiště z 65 na 33 bajtů při zachování stejného kryptografického zabezpečení
+wrong_answers:
+  - Poskytuje silnější kryptografické zabezpečení pomocí dalších vrstev šifrování
+  - Umožňuje rychlejší operace násobení bodů při ověřování podpisu
+  - Umožňuje odvodit více veřejných klíčů z jednoho komprimovaného formátu
+explanation: |
+  Komprimovaný formát SEC snižuje velikost veřejného klíče z 65 bajtů (nekomprimovaný) na 33 bajtů uložením pouze souřadnice x a paritního bitu (prefix 0x02 nebo 0x03) namísto obou plných souřadnic. Souřadnici y lze matematicky rekonstruovat ze souřadnice x a paritní informace, protože eliptické křivky mají pro libovolné x nejvýše dvě hodnoty y. Tato komprese přináší významnou úsporu místa pro ukládání bez ztráty bezpečnosti, a proto Bitcoin nyní kvůli efektivitě upřednostňuje komprimované klíče.

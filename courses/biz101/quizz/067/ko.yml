@@ -1,0 +1,9 @@
+question: 프로페셔널 결제 솔루션에서 Zaprite 및 Musqet과 같은 도구는 어떤 역할을 하나요?
+answer: 결제 환경을 개선합니다
+wrong_answers:
+  - 다중 통화 변환 및 법정화폐 지급을 처리합니다
+  - 거래 데이터를 암호화하고 개인 키를 관리하는 데 중점을 둡니다
+  - 기본 POS 시스템 역할을 합니다
+explanation: |
+  Zaprite와 Musqet은 결제 프로세스에 사용자 지정 및 보고 기능을 추가하여 핵심 결제 인프라를 보완합니다.
+reviewed: true

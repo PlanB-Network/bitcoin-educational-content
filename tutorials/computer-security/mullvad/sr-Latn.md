@@ -189,4 +189,4 @@ Da biste dobili pregled svog Mullvad naloga i upravljali raznim povezanim uređa
 I eto ga, sada ste spremni da u potpunosti uživate u Mullvad VPN-u. Ako ste zainteresovani da otkrijete drugog VPN provajdera sličnog Mullvadu, kako po funkcijama tako i po ceni, preporučujem da pogledate naš vodič o IVPN-u:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

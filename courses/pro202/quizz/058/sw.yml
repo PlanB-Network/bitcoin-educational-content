@@ -1,0 +1,8 @@
+question: Wakati Bitcoin wallet inachanganua vizuizi vya malipo yanayoingia, kwa nini kupakua vizuizi vizima kunapendelewa kuliko kuomba miamala ya kibinafsi kutoka kwa wenzao wa mtandao?
+answer: Kupakua vizuizi vizima hutoa ulinzi bora wa faragha kwa kutofichua miamala au anwani maalum ambazo wallet ina nia ya kufuatilia.
+wrong_answers:
+  - Kupakua vitalu vizima kuna ufanisi zaidi kihesabu kwa sababu inahitaji shughuli chache za hashi za kimtandao ili kuthibitisha uhalisi wa muamala.
+  - Kupakua vitalu vizima huhakikisha usawazishaji wa haraka kwani wenzao wanaweza kutuma data ya vitalu vilivyobanwa badala ya majibu ya miamala ya mtu binafsi
+  - Kupakua vitalu vizima hutoa usalama bora kwa sababu inaruhusu wallet kuthibitisha proof-of-work kamili kwa kila muamala.
+explanation: |
+  Faragha ndiyo faida kuu ya kurejesha data kwa kutumia block. wallet inapoomba miamala maalum, huvuja ishara kali kuhusu shughuli za mtumiaji na kufichua ni anwani zipi zinazomilikiwa na wallet hiyo. Kupakua vitalu vizima huficha maslahi halisi ya wallet miongoni mwa miamala yote ya block. Majibu yasiyo sahihi huzingatia ufanisi, kasi, au faida za usalama ambazo sio motisha kuu - maombi ya miamala ya mtu binafsi yanaweza kuwa salama au yenye ufanisi sawa, lakini kimsingi yanaathiri faragha kwa kufichua mifumo ya ufuatiliaji ya wallet kwa wenzao wa mtandao.

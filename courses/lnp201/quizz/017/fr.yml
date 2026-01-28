@@ -6,4 +6,4 @@ wrong_answers:
   - La facture est payée par une transaction on-chain sur Bitcoin
 explanation: |
   Lorsque Bob envoie une facture (invoice) à Alice, elle crée et signe une nouvelle transaction d'engagement pour ajuster la répartition des fonds, transférant ainsi 30 000 satoshis dans le canal.
-reviewed: false
+reviewed: true 

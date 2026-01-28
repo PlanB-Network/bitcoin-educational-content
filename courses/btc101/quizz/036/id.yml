@@ -1,11 +1,11 @@
-question: Apa yang dimaksud dengan istilah fidusiari dalam konteks mata uang?
-answer: Ini merujuk pada mata uang yang tidak memiliki nilai intrinsik dan bergantung pada kepercayaan pada institusi yang mengaturnya.
+question: Apa preseden historis untuk penggunaan mata uang fiat?
+answer: Pemimpin memusatkan emas dan memperkenalkan mata uang baru yang setara nilainya dengan emas, yang kemudian secara bertahap dinilai rendah.
 wrong_answers:
-  - Ini merujuk pada mata uang yang didukung oleh emas.
-  - Ini merujuk pada mata uang yang hanya digunakan untuk transaksi fidusiari.
-  - Ini merujuk pada mata uang yang hanya digunakan di dalam institusi tertentu.
+  - Pemimpin memperkenalkan mata uang baru yang didukung oleh emas, yang kemudian secara bertahap meningkat nilainya.
+  - Pemimpin memperkenalkan mata uang baru tanpa nilai intrinsik, yang kemudian secara bertahap meningkat nilainya.
+  - Pemimpin memperkenalkan mata uang baru yang didukung oleh keranjang komoditas, yang kemudian dijaga stabil nilainya.
 explanation: |
-  Mata uang fidusiari adalah mata uang yang tidak didukung oleh komoditas fisik
-  seperti emas atau perak. Nilai mereka berasal dari kepercayaan dan keyakinan orang
-  pada institusi yang menerbitkan dan mengaturnya.
+  Secara historis, pemimpin telah memusatkan emas dan memperkenalkan mata uang baru
+  yang setara nilainya dengan emas. Mata uang baru ini kemudian secara bertahap dinilai rendah, seringkali
+  di bawah dalih demi kepentingan rakyat.
 reviewed: true

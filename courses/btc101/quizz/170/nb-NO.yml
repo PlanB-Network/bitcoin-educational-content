@@ -1,11 +1,10 @@
-question: Hva er den største fordelen med spesialiserte SHA256-maskiner, eller ASICs, i Bitcoin-mining?
-answer: De øker hash-raten per joule
+question: Hva var en betydelig hendelse i kryptovalutaverdenen i 2017?
+answer: Lanseringen av tusenvis av Initial Coin Offerings (ICOs).
 wrong_answers:
-  - De reduserer energiforbruket
-  - De øker hastigheten på transaksjoner
-  - De øker nettverkets sikkerhet
+  - Forbudet mot Bitcoin.
+  - Opprettelsen av Bitcoin.
+  - Forsvinningen av alle kryptovalutaer.
 explanation: >-
-  Spesialiserte SHA256-maskiner, eller ASICs, øker hash-raten per joule
-  i Bitcoin-mining. Dette betyr antall forsøk per sekund og per forbrukt
-  energi.
+  Året 2017 var preget av en betydelig spekulativ boble i kryptovalutaverdenen,
+  spesielt med lanseringen av tusenvis av Initial Coin Offerings (ICOs).
 reviewed: false

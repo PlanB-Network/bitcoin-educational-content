@@ -23,13 +23,13 @@ Tato zařízení se prodávají buď jako přídavné topení v případě model
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Vezměte prosím na vědomí, že cenový rozdíl oproti tradičním ohřívačům stejného výkonu vám v naprosté většině případů neumožní dosáhnout finančního zisku. Saturace vygenerovaná činností Mining tento cenový rozdíl nikdy nevyrovná, pokud nemáte přístup k bezplatné (přebytečné) nebo velmi levné elektřině.
 
 
 
-Podle mého názoru by tato zařízení měla být vnímána spíše jako jednoduchý způsob, jak doma používat Miner pro ty, kteří si to přejí z osobních důvodů: *a zároveň **jako bonus** využívat teplo vyrobené k vytápění svého pokoje v zimě. Nikoliv však jako způsob úspory peněz, alespoň ve většině případů (západní země).
+Podle mého názoru by tato zařízení měla být vnímána spíše jako jednoduchý způsob, jak doma používat Miner pro ty, kteří si to přejí z osobních důvodů: *a zároveň **jako bonus** využívat teplo vyrobené k vytápění svého pokoje v zimě.* Nikoliv však jako způsob úspory peněz, alespoň ve většině případů (západní země).
 
 
 
@@ -122,16 +122,17 @@ Níže je uvedena souhrnná tabulka obecných technických specifikací modelu M
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Charakteristika                                      | Hodnota                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Spotřeba elektřiny                              | 800 W                                                     |
+| Hluk                                                | 35-55 dB                                                  |
+| Teplota výstupního vzduchu                       | 60-70°C (při okolní teplotě 25°C)                  |
+| Požadavky na okolní teplotu pro použití | -5° C - 40°C                                              |
+| Rozsah vstupního napětí zařízení                         | 110V-240V AC 50/60Hz                                      |
+| Rozměry stroje                                 | Délka: 760 mm / Hloubka: 104 mm / Výška: 214.5 mm |
+| Hmotnost stroje                                  |  8.35 kg                                                  |
 
 ## Připojení k zařízení Mining pool
 
@@ -181,9 +182,9 @@ Podrobnější informace o připojení k zařízení Mining pool naleznete v tě
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Abychom to shrnuli, potřebujeme
 
@@ -358,4 +359,4 @@ Chcete-li se dozvědět více, podívejte se na náš návod na menší verzi mo
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

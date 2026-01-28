@@ -1,0 +1,9 @@
+question: Bitcoin에서 Double-spending은 어떻게 방지되나요?
+answer: 모든 시스템 트랜잭션의 공개 방송을 통해.
+wrong_answers:
+  - 각 거래 전에 사용자의 신원을 확인합니다.
+  - 감사인이 거래를 주기적으로 검토합니다.
+  - 사용자당 트랜잭션 수를 제한합니다.
+explanation: |
+  거래가 없음을 확인하여 Double-spending를 피하려면 모든 사용자가 과거의 모든 거래를 알고 있어야 합니다.
+reviewed: true

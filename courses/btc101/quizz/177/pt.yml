@@ -1,10 +1,10 @@
-question: Qual foi um evento significativo no mundo das criptomoedas em 2017?
-answer: O lançamento de milhares de Ofertas Iniciais de Moedas (ICOs).
+question: Qual é uma das razões para o Bitcoin não ser uma bolha que vai desaparecer?
+answer: Porque é uma moeda que é realmente usada em todo o mundo.
 wrong_answers:
-  - A proibição do Bitcoin.
-  - A criação do Bitcoin.
-  - O desaparecimento de todas as criptomoedas.
+  - Porque na verdade não é usada em lugar algum.
+  - Porque é controlada por uma autoridade central.
+  - Porque é fácil de falsificar.
 explanation: >-
-  O ano de 2017 foi marcado por uma bolha especulativa significativa no
-  mundo das criptomoedas, especialmente com o lançamento de milhares de Ofertas Iniciais de Moedas (ICOs).
+  O Bitcoin não é uma bolha que vai desaparecer, mas sim uma moeda que é realmente
+  usada em todo o mundo.
 reviewed: true

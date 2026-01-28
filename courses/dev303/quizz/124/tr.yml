@@ -1,0 +1,8 @@
+question: Breez SDK'nın hem Lightning hem de on-chain Bitcoin işlevselliğini korurken kullanıcılara birleşik bir denge sunmasını sağlayan birincil teknik mekanizma nedir?
+answer: Gerektiğinde sahne arkasında Lightning ve on-chain Bitcoin arasında dönüşüm yapan otomatik takas hizmetleri
+wrong_answers:
+  - Gerçek dönüşüm olmadan Lightning ve on-chain fonlarının toplamını gösteren gerçek zamanlı bakiye toplama
+  - Fonların aynı UTXO içerisinde Yıldırım ve on-chain eyaletleri arasında serbestçe hareket etmesini sağlayan kanal rezerv havuzu
+  - Hem Lightning hem de on-chain ödemelerini alabilen hibrit adresler oluşturan çift katmanlı adres üretimi
+explanation: |
+  Doğru cevap otomatik takas hizmetleridir çünkü Breez SDK, kullanıcıların farklı ödeme türleri yapması gerektiğinde Lightning ve on-chain Bitcoin arasında sorunsuz bir şekilde dönüşüm sağlamak için on-chain takas işlevselliğini özel olarak uygular. Bu, kullanıcıların tek bir bakiye görmesini sağlarken, sistem fonları katmanlar arasında taşımanın teknik karmaşıklığını ele alır. Yanlış cevaplar, mevcut olmayan veya teknik olarak imkansız mekanizmaları tanımlamaktadır - bakiye toplama, katmanlar arası işlevselliği etkinleştirmeden yalnızca birleştirilmiş tutarları gösterecektir, kanal rezervleri fonları on-chain durumlarına taşıyamaz ve hibrit adresler Bitcoin'un protokolünde mevcut değildir.

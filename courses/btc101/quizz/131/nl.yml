@@ -1,12 +1,8 @@
-question: Wat is de rol van een Bitcoin knooppunt in het Bitcoin netwerk?
-answer: Het valideert nieuwe blokken en opgenomen transacties.
+question: Wat is de primaire functie van knooppunten in het Bitcoin netwerk?
+answer: Een kopie van Bitcoin Blockchain bijhouden, transacties valideren, informatie naar andere knooppunten sturen en de regels van het Bitcoin protocol afdwingen.
 wrong_answers:
-  - Het creëert nieuwe Bitcoins en plaatst ze in de blokken.
-  - Het reguleert de prijs van Bitcoin.
-  - Het beheert het Bitcoin netwerk.
-explanation: |
-  Een Bitcoin knooppunt in het Bitcoin netwerk zorgt voor de
-  de validatie van nieuwe blokken en opgenomen transacties. Het is
-  dit netwerk van Bitcoin knooppunten dat het echt
-  gedecentraliseerd maakt.
+  - Het bijhouden van een kopie van het Bitcoin Blockchain, het valideren van transacties, het verzenden van informatie naar de overheid en het wijzigen van de regels van het Bitcoin protocol.
+  - Alleen een kopie van de Bitcoin Blockchain bijhouden.
+  - Alleen informatie verzenden naar andere knooppunten.
+explanation: >-
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: पेमियम
+name: Paymium
 
 description: अपना Paymium खाता सेट करना
 ---

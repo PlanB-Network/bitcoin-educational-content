@@ -1,0 +1,8 @@
+question: Sự khác biệt chính giữa các phương thức và các hàm liên kết trong cấu trúc Rust là gì?
+answer: Các phương thức lấy chính nó làm tham số đầu tiên, trong khi các hàm liên kết thì không.
+wrong_answers:
+  - Các phương thức mặc định là công khai, trong khi các hàm liên kết mặc định là riêng tư.
+  - Các phương thức chỉ có thể đọc dữ liệu, trong khi các hàm liên kết có thể sửa đổi các trường cấu trúc.
+  - Các phương thức sử dụng ký hiệu dấu chấm để gọi, trong khi các hàm liên kết sử dụng ký hiệu mũi tên.
+explanation: |
+  Trong Rust, các phương thức là các hàm được định nghĩa trong khối impl, nhận một dạng tham số `self` làm tham số đầu tiên (`self`, `&self`, hoặc `&mut self`), cho phép chúng hoạt động trên các thể hiện của cấu trúc. Các hàm liên kết cũng được định nghĩa trong khối impl nhưng không nhận `self` làm tham số, khiến chúng tương tự như các phương thức tĩnh trong các ngôn ngữ khác. Các hàm liên kết được gọi bằng cú pháp dấu hai chấm kép (Type::function_name()) và thường được sử dụng làm hàm tạo, trong khi các phương thức được gọi trên các thể hiện bằng cú pháp dấu chấm. Các tùy chọn khác không chính xác vì cả phương thức và hàm liên kết đều tuân theo cùng một quy tắc về khả năng hiển thị, cả hai đều có thể được thiết kế để sửa đổi hoặc đọc dữ liệu tùy thuộc vào cách triển khai của chúng, và các hàm liên kết sử dụng cú pháp dấu hai chấm kép, chứ không phải cú pháp mũi tên.

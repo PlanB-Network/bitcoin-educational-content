@@ -1,9 +1,11 @@
-question: Mis on üks teguritest, mis teeb Bitcoin'i reguleerimise finantsasutuste jaoks keeruliseks?
-answer: See toimib globaalsel tasandil, 24 tundi päevas, 7 päeva nädalas.
+question: Mis on üks eelis Bitcoini aktsepteerimisel kaupmehena?
+answer: Tsensuurikindlus
 wrong_answers:
-  - Seda kontrollib keskne autoriteet.
-  - Seda ei kasutata kusagil maailmas.
-  - Seda on lihtne võltsida.
+  - Suurenenud tehingutasud
+  - Kaitse deflatsiooni vastu
+  - Finantspiirangud
 explanation: >-
-  Bitcoin'i protokoll on unikaalne, kuna see toimib globaalsel tasandil, 24 tundi päevas, 7 päeva nädalas, muutes reguleerimise finantsasutuste jaoks keeruliseks.
+  Bitcoini aktsepteerimisel kaupmehena on mitmeid eeliseid, sealhulgas tsensuurikindlus,
+  vähendatud tehingutasud, suurenenud efektiivsus, kaitse inflatsiooni vastu,
+  samuti finantsvabadus ja suveräänsus.
 reviewed: false

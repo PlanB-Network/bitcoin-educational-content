@@ -10,7 +10,7 @@ ___
 
 
 
-*本教學是根據 Florian BURNEL 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有變更。
+*本教學是根據 Florian BURNEL 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有變更。*
 
 
 
@@ -43,7 +43,7 @@ Graylog 是一種分析和監控工具，可讓您更容易識別可疑行為和
 
 
 
-**註：免費版本 **Graylog Open** 並非 Wazuh 所謂的 SIEM，尤其是它缺乏真正的入侵偵測功能。
+**註：免費版本 Graylog Open 並非 Wazuh 所謂的 SIEM，尤其是它缺乏真正的入侵偵測功能。**
 
 
 
@@ -51,15 +51,15 @@ Graylog 是一種分析和監控工具，可讓您更容易識別可疑行為和
 
 
 
-**stack Graylog** 基於我們需要安裝和設定的**多個元件。在此，我們將在同一台伺服器上安裝所有元件，但也可以根據多個節點建立叢集，並將角色分佈在多台伺服器上。在本教程中，我們將安裝 **Graylog 6.1**，這是目前最新的版本。
+**stack Graylog** 基於我們需要安裝和設定的**多個元件**。在此，我們將在同一台伺服器上安裝所有元件，但也可以根據多個節點建立叢集，並將角色分佈在多台伺服器上。在本教程中，我們將安裝 **Graylog 6.1**，這是目前最新的版本。
 
 
 
 
 
-- MongoDB 7**，Graylog 目前的建議版本（最低 5.0.7，最高 7.x）。
-- OpenSearch**, 由 Amazon 所建立的 Elasticsearch 開放原始碼 Fork (最低 1.1.x，最高 2.15.x)
-- OpenJDK 17**
+- MongoDB 7，Graylog 目前的建議版本（最低 5.0.7，最高 7.x）。
+- **OpenSearch**, 由 Amazon 所建立的 Elasticsearch 開放原始碼 Fork (最低 1.1.x，最高 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Note: 如果您使用 **Graylog Data Node**，**OpenSearch 安裝是可選的**。
+**Note: 如果您使用 Graylog Data Node，OpenSearch 安裝是可選的。**
 
 
 
@@ -279,14 +279,14 @@ plugins.security.disabled: true
 
 
 
-- cluster.name: graylog**: 此參數以 "**graylog**" 命名 OpenSearch 集群。
-- node.name：${HOSTNAME}**：節點名稱是動態設定的，以符合本機 Linux 機器的名稱。即使我們只有一個節點，正確命名也是很重要的。
-- path.data：/var/lib/opensearch**：此路徑指定 OpenSearch 在本機上儲存資料的位置，在本例中為「**/var/lib/opensearch**」。
-- path.logs：/var/log/opensearch**：此路徑定義 OpenSearch 日誌檔案的儲存位置，這裡是 "**/var/log/opensearch**"。
-- discovery.type：single-node**：此參數可將 OpenSearch 設定為使用單一節點，因此選擇「**single-node**」選項。
-- network.host：127.0.0.1**：這項設定確保 OpenSearch 只會在其 Interface 區域迴路上進行監聽，由於它與 Graylog 位於同一台伺服器上，因此這樣就足夠了。
-- action.auto_create_index：false**：關閉自動建立索引的功能，當傳送的文件沒有現有索引時，OpenSearch 就不會自動建立索引。
-- plugins.security.disabled：true**：這個選項會停用 OpenSearch 安全外掛，這表示將不會有驗證、存取管理或通訊加密。此設定可在設定 Graylog 時節省時間，但在生產中應該避免使用 (請參閱 [this page](https://opensearch.org/docs/1.0/security-plugin/index/))。
+- cluster.name: graylog: 此參數以 "**graylog**" 命名 OpenSearch 集群。
+- node.name：${HOSTNAME}：節點名稱是動態設定的，以符合本機 Linux 機器的名稱。即使我們只有一個節點，正確命名也是很重要的。
+- path.data：/var/lib/opensearch：此路徑指定 OpenSearch 在本機上儲存資料的位置，在本例中為「**/var/lib/opensearch**」。
+- path.logs：/var/log/opensearch：此路徑定義 OpenSearch 日誌檔案的儲存位置，這裡是 "**/var/log/opensearch**"。
+- discovery.type：single-node：此參數可將 OpenSearch 設定為使用單一節點，因此選擇「**single-node**」選項。
+- network.host：127.0.0.1：這項設定確保 OpenSearch 只會在其 Interface 區域迴路上進行監聽，由於它與 Graylog 位於同一台伺服器上，因此這樣就足夠了。
+- action.auto_create_index：**false**：關閉自動建立索引的功能，當傳送的文件沒有現有索引時，OpenSearch 就不會自動建立索引。
+- plugins.security.disabled：**true**：這個選項會停用 OpenSearch 安全外掛，這表示將不會有驗證、存取管理或通訊加密。此設定可在設定 Graylog 時節省時間，但在生產中應該避免使用 (請參閱 [this page](https://opensearch.org/docs/1.0/security-plugin/index/))。
 
 
 
@@ -350,7 +350,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-此外，我們需要檢查 Linux 核心中「**max_map_count**」參數的設定。它定義了每個進程映射的記憶體區域限制，以滿足我們應用程式的需求。 **OpenSearch** 和 Elasticsearch** 一樣，建議將此值設為「262144」，以避免記憶體管理錯誤。
+此外，我們需要檢查 Linux 核心中「**max_map_count**」參數的設定。它定義了每個進程映射的記憶體區域限制，以滿足我們應用程式的需求。**OpenSearch** 和 **Elasticsearch** 一樣，建議將此值設為「262144」，以避免記憶體管理錯誤。
 
 
 
@@ -432,7 +432,7 @@ sudo apt-get install graylog-server
 
 
 - password_secret**：這個參數用來定義 Graylog 用來確保使用者密碼儲存安全的金鑰 (如同鹽化金鑰的精神)。此密鑰必須是 ** 唯一 ** 且 ** 隨機的。
-- root_password_sha2**: 這個參數對應於 Graylog 的預設管理員密碼。它儲存為 Hash SHA-256。
+- **root_password_sha2**: 這個參數對應於 Graylog 的預設管理員密碼。它儲存為 Hash SHA-256。
 
 
 
@@ -548,7 +548,7 @@ sudo systemctl enable --now graylog-server
 
 
 
-我們必須回到 Graylog 伺服器的命令列，並查看日誌。這樣我們就可以看到，**第一次連線時，必須**使用日誌中指定的臨時密碼**。
+我們必須回到 Graylog 伺服器的命令列，並查看日誌。這樣我們就可以看到，**第一次連線時，必須使用日誌中指定的臨時密碼**。
 
 
 
@@ -566,7 +566,7 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-**現在已經不是這種情況了。您只需使用管理員帳號和命令列上設定的密碼登入即可
+**現在已經不是這種情況了。您只需使用管理員帳號和命令列上設定的密碼登入即可。**
 
 
 
@@ -574,7 +574,7 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-**歡迎來到Graylog的Interface！
+**歡迎來到Graylog的Interface！**
 
 
 
@@ -620,9 +620,9 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-- 建立**輸入**，以建立允許 Linux 機器透過 UDP**傳送 Syslog 日誌的入口點。
+- 建立**輸入**，以建立允許 Linux 機器透過 UDP 傳送 Syslog 日誌的**入口點**。
 - 建立新的 ** 索引 **，以儲存和 ** 索引所有 Linux 日誌 **。
-- 建立**Stream**，將 Graylog 接收到的日誌**路由到新的 Linux 索引。
+- 建立**Stream**，將 Graylog 接收到的日誌**路由到新的 Linux 索引**。
 
 
 
@@ -661,7 +661,7 @@ tail -f /var/log/graylog-server/server.log
 ![Image](assets/fr/018.webp)
 
 
-**注意：一個 Input 可以用來儲存多台 Linux 機器的日誌。
+**注意：一個 Input 可以用來儲存多台 Linux 機器的日誌。**
 
 
 
@@ -701,7 +701,7 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-**註：與此串流對應的訊息也會包含在「**預設串流**」中，除非您勾選「**從「預設串流」中移除匹配**」選項。
+**註：與此串流對應的訊息也會包含在「預設串流」中，除非您勾選「從『預設串流』中移除匹配」選項。**
 
 
 

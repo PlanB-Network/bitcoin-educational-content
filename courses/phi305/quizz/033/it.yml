@@ -1,0 +1,9 @@
+question: Il risultato è un'inflazione strutturale?
+answer: Un aumento del denaro Supply.
+wrong_answers:
+  - Aumenti di prezzo
+  - Politica fiscale.
+  - Misure antiliberali.
+explanation: |
+  L'inflazione strutturale è il risultato di un aumento della moneta Supply . Quando la quantità di moneta in circolazione aumenta più rapidamente della produzione di beni e servizi, si verifica un aumento generale dei prezzi.
+reviewed: false

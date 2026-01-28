@@ -1,0 +1,9 @@
+question: 根據 Eric Hughes 的 Cypherpunk Manifesto，cypherpunks 應該使用什麼主要方法來達成隱私與自由的目標？
+answer: 編寫代碼以建立密碼系統，讓政治分歧變得無關緊要
+wrong_answers:
+  - 游說政府通過更有力的隱私權保護法律和法規
+  - 組織大規模抗議和公民抗命運動，反對監控
+  - 建立教育計畫以提高大眾對數位隱私權的認知
+explanation: |
+  Eric Hughes 明確表示「Cypherpunks 寫程式碼」是他們的基本方法。宣言強調，Cypherpunks 不會在希望與願望中尋找慰藉，而是透過加密技術建立匿名系統，積極介入。
+  這將抽象的自由觀念轉化為具體的經濟與社會現實，讓政治分野變得任意且不必要。其他選項代表了傳統的政治行動主義，這與「技術解決方案」重於「制度改革」的 cypherpunk 哲學背道而馳。

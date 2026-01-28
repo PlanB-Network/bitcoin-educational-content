@@ -1,0 +1,11 @@
+question: Bitcoin Wallet에서 개인 키는 흔히 무엇으로 표시되나요?
+answer: 12개 또는 24개의 단어 목록입니다.
+wrong_answers:
+  - 12개 또는 48개의 단어 목록입니다.
+  - 32개의 단어 목록입니다.
+  - 64개의 단어 목록입니다.
+explanation: |
+  Bitcoin Wallet에서 개인 키는 종종 12개 또는 5개의 단어 목록으로 표현됩니다
+  12개 또는 24개의 단어 목록으로 표현되며, seed 문구라고도 합니다
+  또는 Mnemonic 구문이라고도 합니다.
+reviewed: true

@@ -1,5 +1,5 @@
 question: İki faktörlü kimlik doğrulama neden önerilir?
-answer: Ekstra bir Layer güvenlik ekler
+answer: Ekstra bir katman güvenlik ekler
 wrong_answers:
   - Kod sayısını azaltarak erişimi basitleştirir
   - Şifre olmadan girişe izin verir

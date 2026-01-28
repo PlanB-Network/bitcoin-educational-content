@@ -6,4 +6,4 @@ wrong_answers:
   - Aderesi za Bitcoin zirimwo .
 explanation: |
   Dosiye csv y’ibikorwa vya Bitcoin isanzwe ivuga itariki, umubare, ibihwanye na fiat, n’amaderesi ya Bitcoin, ariko ntivuga ubwoko bw’inyandiko bukoreshwa.
-reviewed: false
+reviewed: true

@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -42,7 +42,7 @@ Cryptomator er et alternativ til andre programmer, særlig Picocrypt, som er pre
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Cryptomator-applikasjonen er tilgjengelig på **Windows** (exe / msi), **Linux**, **macOS,** men også **Android** og **iOS**. Forresten, alle applikasjoner er gratis, bortsett fra Android-applikasjonen, som du må betale for (14,99 euro).
 
@@ -52,7 +52,7 @@ På maskinen din oppretter **Cryptomator en mappe der det opprettes et safe**. I
 
 
 
-**I denne artikkelen brukes nettbaserte lagringstjenester som eksempel, men Cryptomator kan brukes til å kryptere data på en lokal disk, en ekstern disk eller til og med en NAS. Det finnes faktisk ingen begrensninger.
+**I denne artikkelen brukes nettbaserte lagringstjenester som eksempel, men Cryptomator kan brukes til å kryptere data på en lokal disk, en ekstern disk eller til og med en NAS. Det finnes faktisk ingen begrensninger.**
 
 
 
@@ -60,13 +60,13 @@ På maskinen din oppretter **Cryptomator en mappe der det opprettes et safe**. I
 
 
 
-For å komme i gang må du **laste ned** og **installere** **Cryptomator**. Når nedlastingen er fullført, er det bare noen få klikk som skal til for å fullføre installasjonen. I likhet med [Rclone] (https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), vil Cryptomator basere seg på WinFsp for å **montere en virtuell stasjon på Windows-maskinen din**.
+For å komme i gang må du **laste ned** og **installere** **Cryptomator**. Når nedlastingen er fullført, er det bare noen få klikk som skal til for å fullføre installasjonen. I likhet med [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), vil Cryptomator basere seg på WinFsp for å **montere en virtuell stasjon på Windows-maskinen din**.
 
 
 
 
 
-- [Last ned Cryptomator fra det offisielle nettstedet] (https://cryptomator.org/downloads/)
+- [Last ned Cryptomator fra det offisielle nettstedet](https://cryptomator.org/downloads/)
 
 
 
@@ -162,7 +162,7 @@ Du må oppgi passordet ditt for å låse opp safen. Klikk deretter på "**Frigj�
 
 
 
-**Safen er montert på Windows-maskinen som en virtuell stasjon, og denne stasjonen, som her arver bokstaven E, gir deg tilgang til dataene dine (i klartekst, siden safen er ulåst).
+**Safen er montert på Windows-maskinen som en virtuell stasjon, og denne stasjonen, som her arver bokstaven E, gir deg tilgang til dataene dine (i klartekst, siden safen er ulåst).**
 
 
 
@@ -170,7 +170,7 @@ Du må oppgi passordet ditt for å låse opp safen. Klikk deretter på "**Frigj�
 
 
 
-På OneDrive-siden kan vi ikke bla gjennom Cryptomator-hvelvet direkte. Vi kan ikke se dataene (verken filnavnene eller innholdet). Dette betyr at du ikke trenger å legge til data i Cryptomator-hvelvet ditt via den vanlige OneDrive-snarveien. **Du må legge til data ved hjelp av Cryptomators virtuelle stasjon
+På OneDrive-siden kan vi ikke bla gjennom Cryptomator-hvelvet direkte. Vi kan ikke se dataene (verken filnavnene eller innholdet). Dette betyr at du ikke trenger å legge til data i Cryptomator-hvelvet ditt via den vanlige OneDrive-snarveien. **Du må legge til data ved hjelp av Cryptomators virtuelle stasjon.**
 
 
 

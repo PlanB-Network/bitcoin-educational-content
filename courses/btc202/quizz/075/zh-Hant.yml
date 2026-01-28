@@ -1,0 +1,9 @@
+question: 為什麼隨著時間的推移，UTXO 集的規模會有結構性增長的趨勢？
+answer: 每次付款通常會產生兩個新的 UTXOs
+wrong_answers:
+  - 傳統付款不消耗輸入的 UTXO
+  - 每個 Fork 乘以現有的 UTXOs 數量
+  - 可創建的比特幣數量是無限的
+explanation: |
+  一個付款交易會消耗一個 UTXO，而且通常會再造兩個 (付款 + Exchange)，使集合的總大小膨脹。
+reviewed: true

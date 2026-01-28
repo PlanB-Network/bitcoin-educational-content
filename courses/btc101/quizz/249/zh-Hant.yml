@@ -1,8 +1,8 @@
-question: 接受 Bitcoin 等新技術的潛在好處是什麼？
-answer: 它可以在全球範圍內實現 generate 大規模經濟。
+question: Bitcoin 對銀行體系的主要後果之一是什麼？
+answer: 它允許從銀行體系中解放出來。
 wrong_answers:
-  - 這可能會導致全球經濟崩潰。
-  - 它可能會導致人類智力下降。
-  - 這可能會導致所有工作崗位被淘汰。
+  - 它允許控制銀行系統。
+  - 它允許消除銀行系統。
+  - 它允許銀行系統的腐敗。
 explanation: >-
 reviewed: true

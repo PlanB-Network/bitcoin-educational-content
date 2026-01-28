@@ -1,11 +1,13 @@
-question: Bitcoin Wallet'inizin varsayılan güvenliğini nasıl güçlendirebilirsiniz?
-answer: Bitcoin Wallet'ünüze bir passphrase ekleyerek.
+question: Cold Wallet nedir?
+answer: Wallet, anahtarlarınızı saklayan ve internete bağlı olmayan fiziksel bir cihazdır.
 wrong_answers:
-  - Bitcoin Wallet'nıza ikinci bir özel anahtar ekleyerek.
-  - Bitcoin Wallet'inize ikinci bir ortak anahtar ekleyerek.
-  - Bitcoin Wallet'inize ikinci bir Mnemonic cümlesi ekleyerek.
+  - Dokunulduğunda fiziksel olarak Cold olan bir Wallet.
+  - Bitcoin kullanıcıları arasında popüler olmayan bir Wallet.
+  - Küçük miktarlarda bitcoin saklamak için önerilen bir Wallet.
 explanation: |
-  Eğer varsayılan güvenlik sisteminizden memnun değilseniz
-  Bitcoin Wallet, bir Bitcoin Wallet ekleyerek her zaman güçlendirebilirsiniz
-  passphrase'den Bitcoin Wallet'e.
+  Cold Wallet, Bitcoin Wallet'u tanımlamak için kullanılan bir terimdir
+  bağlı olmayan bir cihazda depolanan
+  internet. Bu da onu çevrimiçi tehditlere karşı daha az savunmasız hale getirir,
+  ancak bu aynı zamanda Wallet'a daha az erişilebileceği anlamına da geliyor
+  günlük işlemler.
 reviewed: true

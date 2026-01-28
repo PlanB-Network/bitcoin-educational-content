@@ -1,8 +1,8 @@
-question: Je, ni mwelekeo gani wa jumla wa Bitcoin, ukizingatia kiwango chake cha Supply na mchakato wa Halving?
-answer: Mwelekeo wa juu wa jumla.
+question: Kwa kulinganisha na sarafu ya fiat, Bitcoin inachukuliwaje?
+answer: Kama uchumi sambamba.
 wrong_answers:
-  - Mwelekeo wa jumla wa kushuka.
-  - Hakuna mwelekeo hata kidogo.
-  - Mwelekeo unaobadilika-badilika sana bila muundo unaotambulika.
+  - Kama uchumi badala.
+  - Kama uchumi wa viwanda.
+  - Kama uchumi wa juu.
 explanation: >-
 reviewed: true

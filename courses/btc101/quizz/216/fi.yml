@@ -1,13 +1,9 @@
-question: Mikä on Bitcoinin asema El Salvadorissa?
-answer: Laillinen maksuväline.
+question: Minkä riskin Lightning-solmu ottaa julkaistessaan kanavan vanhan tilan?
+answer: Rangaistus
 wrong_answers:
-  - Kriminalisoitu.
-  - Tuntematon.
-  - Sääntelemätön.
+  - Varoitus
+  - Lisäkaivosmaksut
+  - Väliaikainen jäädytys
 explanation: |
-  Kurssitekstissä mainitaan, että jotkut maat ovat kieltäneet
-  ja kriminalisoineet Bitcoinin käytön, mikä lisää
-  Bitcoinin omaksumisen monimutkaisuutta kulttuurien, aikakausien ja
-  kansakuntien mukaan. El Salvador oli kuitenkin rohkea ottaessaan sen
-  käyttöön laillisena maksuvälineenä.
-reviewed: true
+  Protokolla määrää pelotteenomaisen rangaistuksen, joka mahdollistaa toisen osapuolen kaikkien varojen takaisinperinnän.
+reviewed: false

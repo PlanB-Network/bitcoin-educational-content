@@ -3,10 +3,10 @@ answer: The trade-off between scalability, security, and decentralisation in cry
 wrong_answers:
   - A characteristic of Bitcoin that prioritises decentralisation and security over scalability
   - The difficulty in determining the trajectory and values of cryptocurrencies
-  - The limitation of Bitcoin's technology in comparison to other cryptocurrencies
+  - The limitations of Bitcoin's technology in comparison to other cryptocurrencies
 explanation: |
   The concept of the blockchain trilemma is the idea that cryptocurrencies 
-  must prioritise two out of three important characteristics; scalability, 
+  must prioritise two out of three important characteristics: scalability, 
   security, and decentralisation. Bitcoin prioritises decentralisation and security, 
   which affects its scalability, but it still achieves it through alternative means.
 reviewed: true

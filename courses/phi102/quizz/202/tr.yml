@@ -1,0 +1,8 @@
+question: Bastiat'nın 'Les Harmonies économiques' adlı eserindeki analizine göre, liberal bir toplumdaki çıkarların doğasını ilkel toplumlardakinden ayıran nedir?
+answer: Liberal toplumlarda çıkarlar, sınırlı kaynaklar için sıfır toplamlı rekabet nedeniyle çıkarların gerçekten düşmanca olduğu ilkel toplumların aksine, her iki tarafın da fayda sağladığı gönüllü değişim yoluyla uyumludur
+wrong_answers:
+  - Liberal toplumlar sınıflar arasında daha karmaşık antagonizmalar yaratırken, ilkel toplumlarda acil hayatta kalma ihtiyaçları üzerine daha basit ama daha doğrudan çatışmalar vardı
+  - Liberal toplumlar doğal rekabetçi içgüdüleri düzenleme yoluyla bastırırken, ilkel toplumlar doğrudan yüzleşme yoluyla çatışan çıkarların serbestçe ifade edilmesine izin verir
+  - Liberal toplumlar, çatışan çıkarları devlet müdahalesi yoluyla işbirliğine dönüştürürken, ilkel toplumlar çatışmaları çözecek kurumsal mekanizmalardan yoksundu
+explanation: |
+  Bastiat, liberal toplumlarda gönüllü mübadelenin karşılıklı fayda yarattığını ve çıkarları çatışmak yerine uyumlu hale getirdiğini savunur. Bunu, gerçek kıtlığın (aynı avlanma alanı için rekabet eden iki kabile gibi) gerçek düşmanlıklar yarattığı ilkel toplumlarla karşılaştırır. Yanlış cevaplar, Bastiat'nın uyumun zorlama olmaksızın gönüllü piyasa ilişkilerinden doğal olarak ortaya çıktığını vurgulamasına rağmen, sınıf çatışmasını, düzenleyici baskıyı veya hükümet müdahalesini kilit faktörler olarak öne sürerek teorisini yanlış temsil etmektedir.

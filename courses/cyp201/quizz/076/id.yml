@@ -1,4 +1,4 @@
-question: Apa yang dimaksud dengan notasi /<0;1>/* dalam sebuah deskriptor?
+question: Apa yang dimaksud dengan notasi **/<0;1>/** dalam sebuah deskriptor?
 answer: Untuk rantai eksternal dan internal dengan derivasi sekuensial
 wrong_answers:
   - Untuk alamat multisignature yang diurutkan

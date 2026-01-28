@@ -1,8 +1,12 @@
-question: Koja je verzija prvog Bitkoin softvera koja je objavljena?
-answer: Bitcoin-0.1.0.
+question: Koja je uloga Bitkoin čvora u Bitkoin mreži?
+answer: Ona potvrđuje nove blokove i uključene transakcije.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
+  - Stvara nove Bitkoine i stavlja ih u blokove.
+  - Reguliše cenu Bitkoina.
+  - Upravlja Bitkoin mrežom.
+explanation: |
+  Bitkoin čvor u mreži Bitkoin rukuje
+  validacijom novih blokova i uključenih transakcija. Upravo
+  ova mreža Bitkoin čvorova čini je istinski
+  decentralizovanom.
 reviewed: true

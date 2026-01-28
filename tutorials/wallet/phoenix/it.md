@@ -59,7 +59,7 @@ Puoi scriverla su carta o, per maggiore sicurezza, inciderla su acciaio inossida
 
 Per ulteriori informazioni sul modo corretto di conservare e gestire la frase mnemonica, ti consiglio di seguire quest'altro tutorial, soprattutto se sei un principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Fai clic sul messaggio visualizzato nella parte superiore dell'interfaccia "*Save your wallet...*".
 
@@ -175,8 +175,8 @@ Congratulazioni, ora sai come configurare e utilizzare Phoenix. Se hai trovato u
 
 Per fare un ulteriore passo avanti, dai un'occhiata a questo tutorial su Alby Hub, un'altra soluzione innovativa e facile da usare per lanciare il tuo nodo Lightning:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Per saperne di più sul funzionamento tecnico della rete Lightning, puoi trovare l'eccellente corso gratuito di Fanis Michalakis su Plan ₿ Network:
+Per saperne di più sul funzionamento tecnico della rete Lightning, puoi trovare l'eccellente corso gratuito di Fanis Michalakis su Plan ₿ Academy:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

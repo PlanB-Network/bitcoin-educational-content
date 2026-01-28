@@ -1,9 +1,9 @@
-question: Mikä on yksi mahdollinen seuraus tekoälyn teknologioiden kehittymisestä?
-answer: Tekoälyn teknologiat johtavat yli 80% tämän päivän työpaikkojen katoamiseen.
+question: Mikä on yksi Bitcoinin päähyödyistä ihmisille, joilla ei ole pankkitiliä?
+answer: Bitcoin mahdollistaa yhdenvertaisuuden transaktioissa riippumatta sosiaalisesta asemastasi tai poliittisesta asemastasi.
 wrong_answers:
-  - Tekoälyn teknologiat tuhoavat kaikki tietokoneet.
-  - Tekoälyn teknologiat johtavat ihmisen älykkyyden vähenemiseen.
-  - Tekoälyn teknologiat aiheuttavat maailmanlaajuisen talousromahduksen.
-explanation: >-
-  Tekstissä mainitaan, että yksi mahdollinen seuraus tekoälyn teknologioiden kehittymisestä on, että yli 80% työpaikoista katoaa tekoälyn ja automaation myötä.
+  - Bitcoin mahdollistaa epätasa-arvon transaktioissa palkitsemalla rikkaimpia käyttäjiä.
+  - Bitcoin hyödyttää vain ihmisiä, joilla on pankkitili ja vasemmistolainen poliittinen kanta.
+  - Bitcoin hyödyttää vain ihmisiä, joilla on korkea sosiaalinen asema.
+explanation: |
+  Tekstissä mainitaan, että maailmassa on 2,4 miljardia ihmistä ilman pankkitiliä, ja Bitcoin mahdollistaa yhdenvertaisuuden transaktioissa riippumatta heidän sosiaalisesta asemastaan tai poliittisesta asemastaan.
 reviewed: true

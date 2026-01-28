@@ -1,9 +1,12 @@
-question: Ijambo HODL risobanura iki?
-answer: HODL ni ijambo ry’ikirundi mu muryango w’amahera y’ibanga risobanura gufata ku vyo ushora aho kubigurisha, cane cane mu gihe isoko rihinduka.
+question: Ni ubuhe buryo bumwe bwo gukingira ama bitcoins yawe mu gihe kirekire?
+answer: Gucapura ijambo ryawe rya Mnemonic ku kintu gikomeye nk’icuma.
 wrong_answers:
-  - HODL yerekeza ku bwoko bw’amahera y’ibanga akoreshwa mu gucuruza gusa.
-  - HODL ni ijambo risobanura kugurisha amafaranga yawe yose y’ivy’ubuhinga bwa none kugiciro kinini.
-  - HODL ni ubuhinga bwo gucuruza ku musi bujanye no kugura no kugurisha kenshi.
+  - Kubibika mu gitereko ca Hot Wallet.
+  - Kubigumya ku rubuga rwa Exchange.
+  - Gusangira ijambo ryawe rya Mnemonic n’uwo mukorana.
 explanation: |
-  Ijambo HODL ryakomotse ku vyo yanditse kuri internet mu 2013 ku rubuga rwa Bitcoin. Iremesha abashoramari gufata amafaranga yabo y’ivy’ubuhinga bwa none igihe kirekire, ataco bafatiye ku guhinduka kw’isoko.
+  Gucapura ijambo ryawe rya Mnemonic ku kintu gikomeye nk’
+  Icuma kirema ububiko bw'imfunguruzo zawe arizo
+  n’amazi n’umuriro bishobora kwonona, gutyo bikaba bigukingira .
+  bitcoins mu gihe kirekire.
 reviewed: true

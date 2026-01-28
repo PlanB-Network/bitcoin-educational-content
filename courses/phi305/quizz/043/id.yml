@@ -1,0 +1,9 @@
+question: Siapa bilang "Kejahatan itu tidak ada apa-apanya"?
+answer: Socrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Descartes.
+explanation: |
+  "Kejahatan bukanlah apa-apa" adalah ide yang dikaitkan dengan Socrates dan diambil dalam tradisi filsafat. Bagi Socrates, kejahatan berasal dari ketidaktahuan; tidak ada orang yang melakukan kejahatan secara sukarela jika dia benar-benar tahu apa yang baik.
+reviewed: false

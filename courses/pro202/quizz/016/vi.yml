@@ -1,0 +1,8 @@
+question: Sự khác biệt giữa số tiền đầu vào và số tiền đầu ra trong giao dịch Bitcoin sẽ diễn ra như thế nào?
+answer: Khoản chênh lệch đó tự động trở thành phí giao dịch được trả cho thợ đào.
+wrong_answers:
+  - "Số tiền chênh lệch sẽ được hoàn trả lại địa chỉ ban đầu của người gửi dưới dạng tiền thừa."
+  - Sự khác biệt đó được đốt cháy và loại bỏ vĩnh viễn khỏi hệ thống tuần hoàn.
+  - Số tiền chênh lệch sẽ được giữ trong tài khoản ký quỹ cho đến khi giao dịch được xác nhận.
+explanation: |
+  Trong hệ thống phí của Bitcoin, phí được tính ngầm định là sự khác biệt giữa tổng số tiền đầu vào và tổng số tiền đầu ra (phí = tổng (đầu vào) - tổng (đầu ra)). Bất kỳ giá trị nào không được chỉ định rõ ràng cho một đầu ra sẽ tự động trở thành phí của người khai thác. Đó là lý do tại sao việc tạo ra các đầu ra tiền thừa đúng cách là rất quan trọng - nếu bạn quên bao gồm một đầu ra tiền thừa khi chi tiêu một lượng lớn UTXO, toàn bộ số tiền còn lại sẽ trở thành một khoản phí đắt đỏ đối với người khai thác. Các tùy chọn khác không chính xác vì Bitcoin không tự động tạo ra các đầu ra tiền thừa, không đốt giá trị chưa được chỉ định và không sử dụng cơ chế ký quỹ cho sự khác biệt giao dịch.

@@ -1,0 +1,8 @@
+question: Fermat'ın Küçük Teoremine göre, bir F(p) asal cisminde n elemanının çarpımsal tersi nedir?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Fermat'ın Küçük Teoremi, bir asal cisimde sıfır olmayan herhangi bir n elemanı için n^(p-1) ≡ 1 (mod p) olduğunu belirtir. Çarpımsal tersini bulmak için, n ile çarpıldığında 1'i veren bir değere ihtiyacımız vardır. N^(p-1) ≡ 1 olduğundan, bunu n - n^(p-2) ≡ 1 olarak yeniden yazabiliriz ve n^(p-2)'nin n'nin çarpımsal tersi olduğunu kanıtlarız. Diğer seçenekler yanlıştır: n^(p-1) Fermat teoremine göre 1'e eşittir, n^(p+1) ve n^(p+2) ise p modülüne indirgendiğinde sırasıyla n^2 ve n^3'e eşdeğer değerler verecektir.

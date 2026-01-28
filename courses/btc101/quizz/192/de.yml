@@ -1,11 +1,13 @@
-question: Was ist OpenNode?
-answer: Eine einfache Online-Lösung für Unternehmen, um Bitcoin zu akzeptieren.
+question: Was ist Dollar Cost Averaging?
+answer: Regelmäßiger Kauf kleiner Bitcoin-Beträge in festen Intervallen.
 wrong_answers:
-  - Eine Art von Bitcoin-Knoten, der gleichzeitig von vielen Nutzern verwendet wird.
-  - Eine Bitcoin-Mining-Software, die Open-Source ist.
-  - Eine Bitcoin-Handelsplattform.
-explanation: >-
-  OpenNode ist eine einfache Online-Lösung für Unternehmen, um Bitcoin zu akzeptieren.
-  Andere Lösungen umfassen Swiss Bitcoin Pay für Amateurhändler und BTCpay Server
-  für große Strukturen oder leidenschaftliche Bitcoiner.
+  - Auf einmal eine große Menge Bitcoin kaufen.
+  - Bitcoin nur kaufen, wenn der Preis fällt.
+  - Bitcoin nur kaufen, wenn der Preis steigt.
+explanation: |
+  Der Kursinhalt erklärt, dass die Dollar-Cost-Averaging-Technik
+  den Kauf kleiner Bitcoin-Beträge in regelmäßigen Abständen
+  umfasst. Diese Methode gleicht die Preisschwankungen über die Zeit
+  aus und gewährleistet ein kontinuierliches Wachstum der
+  Menge an besessenen Bitcoins.
 reviewed: true

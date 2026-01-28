@@ -1,0 +1,9 @@
+question: HMAC이란 무엇인가요?
+answer: Hash 함수에 기반한 메시지 인증 코드
+wrong_answers:
+  - Hash 함수에 기반한 비대칭 암호화 알고리즘
+  - Diffie-Hellman 기반 비대칭 암호화 알고리즘
+  - Diffie-Hellman 기반 메시지 인증 코드
+explanation: |
+  HMAC은 메시지의 무결성과 신뢰성을 검증하는 태그를 생성하기 위해 SHA-256과 같은 Hash 함수를 사용하는 메시지 인증 코드입니다.
+reviewed: false

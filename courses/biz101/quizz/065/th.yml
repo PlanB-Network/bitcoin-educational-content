@@ -1,0 +1,9 @@
+question: วิธีการชำระเงินหลักที่แนะนำสำหรับธุรกิจโปรไฟล์ Essential คืออะไร?
+answer: Swiss Bitcoin Pay
+wrong_answers:
+  - Open Node
+  - BTCPay Server
+  - Bitcoinize PoS
+explanation: |
+  เราเน้นย้ำ Swiss Bitcoin Pay เป็นโซลูชันที่แนะนำสำหรับโปรไฟล์ที่จำเป็น โดยสมดุลระหว่างความเรียบง่ายและความปลอดภัย
+reviewed: true

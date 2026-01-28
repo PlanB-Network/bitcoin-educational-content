@@ -1,13 +1,9 @@
-question: Qual è lo stato di Bitcoin in El Salvador?
-answer: Moneta a corso legale.
+question: Quale rischio corre un nodo Lightning che pubblica uno stato precedente del canale?
+answer: Una penalità
 wrong_answers:
-  - Criminalizzato.
-  - Sconosciuto.
-  - Non regolamentato.
+  - Un avvertimento
+  - Commissioni di mining aggiuntive
+  - Un congelamento temporaneo
 explanation: |
-  Il testo del corso menziona che alcuni paesi hanno vietato
-  e criminalizzato l'uso di Bitcoin, aggiungendo alla
-  complessità dell'adozione basata su culture, epoche e
-  nazioni. Tuttavia, El Salvador è stato abbastanza coraggioso da adottarlo
-  come moneta a corso legale.
-reviewed: true
+  Il protocollo prevede una penalità dissuasiva che consente all’altra parte di recuperare l’intera somma dei fondi.
+reviewed: false

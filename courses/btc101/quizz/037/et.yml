@@ -1,9 +1,11 @@
-question: Milline üksus vastutab füüsilise valuuta emiteerimise eest?
-answer: Keskpank
+question: Mis võib olla liiga kiire devalveerimise või usalduse kaotuse tagajärg füüsilises valuutas?
+answer: See võib viia hüperinflatsioonini.
 wrong_answers:
-  - Kommertspank
-  - Valitsus
-  - Eraasutused
+  - See võib viia deflatsioonini.
+  - See võib viia stabiilse majanduseni.
+  - See võib viia valuuta väärtuse tõusuni.
 explanation: |
-  Keskpank on üksus, mis vastutab füüsilise valuuta emiteerimise eest. Nad otsustavad rahapoliitika üle ja määravad, kui palju raha tuleks ringlusse lasta või trükkida.
+  Liiga kiire devalveerimine või usalduse kaotus füüsilises valuutas
+  võib viia hüperinflatsioonini. See on olukord, kus kaupade ja teenuste hinnad
+  tõusevad äärmiselt kiiresti, tihti viies majandusliku ebastabiilsuseni.
 reviewed: true

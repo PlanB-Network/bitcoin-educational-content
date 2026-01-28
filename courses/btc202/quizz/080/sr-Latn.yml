@@ -1,0 +1,9 @@
+question: Koja je podrazumevana vrednost parametra maxconnections u Bitcoin core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections ograničava ukupan broj dolaznih i odlaznih veza. Podrazumevana vrednost je 125.
+reviewed: true

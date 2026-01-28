@@ -1,0 +1,9 @@
+question: Silent Payments ใช้สคริปต์ประเภทใดโดยเฉพาะ?
+answer: P2TR
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+explanation: |
+  เพื่ออำนวยความสะดวกในการดำเนินการตามโปรโตคอลนี้และเพื่อปรับปรุงชุดความไม่ระบุตัวตนของผู้ใช้ Silent Payments พึ่งพาสคริปต์ P2TR (Pay to Taproot) เท่านั้น
+reviewed: true

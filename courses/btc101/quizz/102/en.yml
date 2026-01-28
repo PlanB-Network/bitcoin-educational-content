@@ -1,12 +1,11 @@
-question: What is one method to secure your bitcoins in the long term?
-answer: Engraving your mnemonic phrase on a resistant material like steel.
+question: What is the importance of individual responsibility in Bitcoin?
+answer: It is crucial because you are in charge of the backups.
 wrong_answers:
-  - Storing them in a hot wallet.
-  - Keeping them on an exchange platform.
-  - Sharing your mnemonic phrase with a coworker.
+  - It is essential because you have to mine bitcoins.
+  - It is essential to buy bitcoins.
+  - It is crucial because you are in charge of the wallet theme.
 explanation: |
-  Engraving your mnemonic phrase on a resistant material like
-  steel creates a physical backup of your keys that is
-  resistant to both water damage and fire, thus securing your
-  bitcoins in the long term.
+  In Bitcoin, financial sovereignty goes hand in hand with
+  individual responsibility, because you have to self custody
+  your funds by following recommended backup procedures.
 reviewed: true

@@ -1,9 +1,9 @@
-question: Jaký je jeden z důvodů, proč je Bitcoin atraktivní pro určité skupiny?
-answer: Jeho schopnost nabízet řešení jako je bezdůvěrná elektronická hotovost, odolnost vůči cenzuře nebo transparentní a neměnná měnová politika.
+question: Jaký je jeden z faktorů, který ztěžuje finančním autoritám regulaci Bitcoinu?
+answer: Funguje na celosvětové úrovni, 24 hodin denně, 7 dní v týdnu.
 wrong_answers:
-  - Je snadné ho padělat a může vytvářet řešení pro získání více peněz jednoduchým kliknutím.
-  - Je kontrolován centrální autoritou, která volně distribuuje kapitál uživatelům.
-  - Není pseudonymní, takže každý uživatel je dobře známý a důvěryhodný.
+  - Je ovládán centrální autoritou.
+  - Není používán nikde na světě.
+  - Je snadno padělatelný.
 explanation: >-
-  Decentralizovaná povaha Bitcoinu, pseudonymita a odolnost vůči cenzuře jej činí atraktivním pro skupiny jako jsou technofilové, cypherpunkové, libertariáni a nadšenci do zlata.
+  Protokol Bitcoinu je unikátní tím, že funguje na celosvětové úrovni, 24 hodin denně, 7 dní v týdnu, což ztěžuje finančním autoritám jeho regulaci.
 reviewed: true

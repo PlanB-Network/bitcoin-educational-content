@@ -3,8 +3,8 @@ answer: Hazihitaji muamala wa arifa.
 wrong_answers:
   - Wanatoa faragha kamili ya shughuli.
   - Wanaruhusu kurejeshewa pesa kutoka kwa mpokeaji.
-  - Wanahakikisha utangamano na pochi zote.
+  - Wanahakikisha utangamano wa pochi zote.
 explanation: |
   Malipo ya Kimya hufanya kazi bila muamala wa arifa, ambayo huokoa ada za muamala na huepuka kupakia Blockchain kupita kiasi.
   
-reviewed: false
+reviewed: true

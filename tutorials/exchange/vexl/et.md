@@ -188,4 +188,4 @@ Nüüd saate Vexliga alustada bitcoinide vahetamist anonüümselt ja turvaliselt
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

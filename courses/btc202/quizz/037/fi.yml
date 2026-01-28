@@ -1,0 +1,9 @@
+question: Minkä tyyppinen kone on paras kompromissi Bitcoin-kotisolmulle?
+answer: NUC-tyyppinen mini-PC
+wrong_answers:
+  - Kannettava tietokone
+  - Supertietokone
+  - Pelikonsoli
+explanation: |
+  Mini-PC:t (NUC, Tiny, OptiPlex Micro...) kuluttavat vähän virtaa, ovat luotettavia ja helposti mukautettavia, joten ne ovat ihanteellinen kompromissi.
+reviewed: true

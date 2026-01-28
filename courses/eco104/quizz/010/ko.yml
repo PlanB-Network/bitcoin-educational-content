@@ -1,0 +1,11 @@
+question: Bitcoin 네트워크에서 노드의 목적은 무엇인가요?
+answer: Blockchain을 유지 및 보호하려면
+wrong_answers:
+  - 트랜잭션을 처리하려면
+  - Bitcoin 코드베이스 변경 제안 및 구현하기
+  - 다른 채굴자와 경쟁하려면
+explanation: |
+  노드는 Bitcoin 네트워크의 무결성과 보안에 필수적인 요소입니다.
+  노드는 시스템의 게이트키퍼 역할을 하며, 트랜잭션이 규칙에 따라
+  트랜잭션이 규칙에 따라 정확하게 처리되도록 보장합니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bitcoin 解決了之前的數位貨幣未能解決的什麼問題？
+answer: 以分散方式處理 double-spending 問題
+wrong_answers:
+  - 對等網路的加密問題
+  - 數位交易的儲存問題
+  - 線上付款的速度問題
+explanation: |
+  Bitcoin 的突破是在不需要中央機構的情況下解決 double-spending 問題。double-spending 問題是防止有人將相同的數位硬幣花費兩次的挑戰。之前的數位貨幣之所以失敗，是因為它們依賴中央伺服器或可信賴的機構，容易受到審查和單點故障的影響。Bitcoin 透過使用 proof-of-work 的點對點分散式時間戳伺服器解決了這個問題，讓網路可以在沒有任何中央控制的情況下，就交易排序達成協議。
+reviewed: false

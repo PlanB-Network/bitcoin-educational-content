@@ -1,11 +1,13 @@
-question: Sağlam para nasıl yaratılır?
-answer: Sağlam para doğal olarak piyasadan ve gönüllü mutabakattan doğmalıdır.
+question: Bitcoin'ın yaratılmasının ardındaki temel amaç nedir?
+answer: Devleti paradan ayırmak için.
 wrong_answers:
-  - Sağlam paranın hükümet tarafından para kanunları çıkarılarak uygulanması gerekmektedir.
-  - Sağlam para, şirketler tarafından şiddet kullanılarak dayatılmak zorundadır.
-  - Sağlam para yaratılamaz.
+  - Altın standardını ortadan kaldırmak için.
+  - İşlemleri daha hızlı ve daha ucuz hale getirmek için.
+  - Herkesi zengin etmek için.
 explanation: |
-  Sağlam para, ortaya çıkması gereken doğal bir sosyal olgudur
-  piyasadan ve gönüllü mutabakattan. Hiçbir insan ya da
-  bir grup insan para yaratabilir.
+  Bitcoin, Eyalet ile Türkiye'yi birbirinden ayırmak amacıyla oluşturulmuştur
+  paradan. Bu, aşağıdaki sistemik zorluklara bir yanıttır
+  devletin tam yetkiye sahip olduğu mevcut finansal sistem
+  gW-2 parası üzerinde kontrol sahibidir ve onu istediği gibi manipüle edebilir
+  kendi avantajı.
 reviewed: true

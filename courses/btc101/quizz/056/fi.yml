@@ -1,11 +1,12 @@
-question: Mikä oli inflaatioaste Unkarissa heinäkuussa 1946?
-answer: 41 900 000 000 000 000%
+question: Mikä on matemaattinen käsite, joka perustuu ihmisen rationaalisuuteen ja jota käytetään Bitcoinissa?
+answer: Peliteoria.
 wrong_answers:
-  - 207%
-  - 50%
-  - 100%
+  - Todennäköisyysteoria.
+  - Lukuteoria.
+  - Joukkoteoria.
 explanation: |
-  Kuukausi, jolloin Unkarissa oli korkein inflaatio, oli heinäkuu
-  1946, jolloin ennätyksellinen hintainflaatio oli
-  41 900 000 000 000 000%.
+  Peliteoria on matemaattinen käsite, joka perustuu
+  ihmisen rationaalisuuteen. Bitcoinissa protokollamuutokset
+  toteutetaan käyttäjien toimesta, mikä tekee minkä tahansa muutoksen Bitcoinin
+  protokollaan erittäin monimutkaiseksi.
 reviewed: true

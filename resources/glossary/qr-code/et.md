@@ -6,4 +6,4 @@ Kahemõõtmeline vöötkood, mida saab kiiresti skaneerida mobiilseadmetega. QR-
 
 QR-koodi kasutatakse laialdaselt Bitcoinis, et hõlbustada teabe edastamist kahe seadme vahel. Seda kasutatakse peamiselt vastuvõtuaadresside jagamiseks, mis on kodeeritud URI-vormingus vastavalt BIP21-le. Kuid selle kasutamine laieneb ka laiendatud võtmetele, PSBT-dele, Lightning-arvetele jne.
 
-> ► *QR-kood tähistab "Quick Response Code" (kiirreageerimiskood)
+> ► *QR-kood tähistab "Quick Response Code" (kiirreageerimiskood)*

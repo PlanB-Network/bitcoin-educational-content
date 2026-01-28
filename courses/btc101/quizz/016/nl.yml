@@ -1,12 +1,14 @@
-question: Wat is Wei Dai's b-geld?
-answer: Een idee van een anonieme digitale valuta waarbij fraudedetectie wordt uitgevoerd door een gemeenschap van beoordelaars in plaats van een centrale autoriteit.
+question: Wat is de rol van geld als communicatiemiddel?
+answer: Het maakt waardecommunicatie in ruimte en tijd mogelijk, zonder dat je een tegenpartij hoeft te vertrouwen.
 wrong_answers:
-  - Een digitale valuta die veel gebruikt werd voor Bitcoin en gecontroleerd werd door een groep cypherpunks.
-  - Een vorm van digitaal geld dat is gemaakt door de CIA en wordt gebruikt door het leger.
-  - Een digitale valuta die werd gecreëerd door Wei Dai als concurrent voor Bitcoin om schaalbaarder te zijn.
+  - Het maakt waardecommunicatie door de ruimte heen mogelijk, zonder de noodzaak om een tegenpartij te vertrouwen.
+  - Het maakt waardecommunicatie alleen in de tijd mogelijk en zonder de noodzaak om een tegenpartij te vertrouwen.
+  - Het maakt waardecommunicatie in ruimte en tijd mogelijk, zonder de noodzaak om een tegenpartij te vertrouwen.
 explanation: |
-  Wei Dai's b-geld was het idee van een anonieme digitale
-  munteenheid zonder centrale entiteit, wat de
-  de creatie van Bitcoin. Het wordt zelfs aangehaald in het Bitcoin
-  whitepaper.
+  Geld als communicatiemiddel maakt communicatie mogelijk
+  ruimte en tijd, omdat we onze tijd en energie omzetten in een
+  activa die in de toekomst hergebruikt kunnen worden zonder het risico van
+  devaluatie. Het maakt ook communicatie mogelijk in een universele
+  gemeenschappelijke taal, waardoor twee vreemden Exchange, handel,
+  en het eens zijn over de waarde van dingen.
 reviewed: true

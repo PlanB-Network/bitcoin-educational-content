@@ -1,0 +1,8 @@
+question: Koja je primarna uloga tvrdnji u razvoju aplikacija Bitcoin prema najboljim praksama Rust?
+answer: Da bi se uhvatile greške tokom testiranja, izazove rano otkazivanje programa kada se pojave problemi i služi kao izvršna dokumentacija pretpostavki programera
+wrong_answers:
+  - Da biste na graciozan način rešili greške resursa u vreme izvođenja, kao što su neuspeh pristupa datotekama i problemi sa mrežnom povezanošću
+  - Da se prevedu greške niskog nivoa biblioteke u greške visokog nivoa aplikacije koje korisnici mogu razumeti i na koje mogu reagovati
+  - Da bi se sprečile greške nevažećeg unosa ograničavanjem parametara funkcije da prihvataju samo vrednosti unutar važećih opsega
+explanation: |
+  Asercije služe tri ključne funkcije u robusnom razvoju Bitcoin softvera: otkrivaju greške tokom faze testiranja, osiguravaju da programi rano zakažu kada su osnovne pretpostavke prekršene (što olakšava otklanjanje grešaka), i deluju kao izvršna dokumentacija koja opisuje očekivanja programera o stanju programa. Ostale opcije opisuju različite strategije rukovanja greškama - graciozno rukovanje neuspesima spoljašnjih resursa, prevođenje grešaka između slojeva apstrakcije i validacija unosa - koje su važne, ali se razlikuju od specifične uloge asercija u verifikaciji unutrašnjih pretpostavki programa.

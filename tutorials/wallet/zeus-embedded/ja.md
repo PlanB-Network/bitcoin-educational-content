@@ -1,5 +1,5 @@
 ---
-name: ゼウス組み込み
+name: Zeus Embedded
 description: Lightning Zeus Embedded Walletの使い方
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,13 +13,13 @@ ZEUSは当初、Lightningノードのリモート管理のためのモバイル�
 
 
 
-**このチュートリアルでは、このアプリケーションの側面について説明します。これにより、ACINQが素晴らしいWallet lightning Phoenixを提供しているのと同じように、専用サーバーを必要とせず、誰でもモバイルで自分のlightningノードを持つことができる。
+**このチュートリアルでは、このアプリケーションの側面について説明します。これにより、ACINQが素晴らしいWallet lightning Phoenixを提供しているのと同じように、専用サーバーを必要とせず、誰でもモバイルで自分のlightningノードを持つことができる。**
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-*ライトニングはBitcoinと並行して動作するネットワークであり、On-Chainの取引を体系的に実行することなくビットコインを交換することができる。その結果、ブロックが検証されるまで10分待つ必要がなく、ほぼ瞬時の取引が可能になる。これは、物理的な世界で商人に支払いをする際に特に有用である。さらに、LightningはBitcoinネットワークにはない**機密性**を提供する。
+*ライトニングはBitcoinと並行して動作するネットワークであり、On-Chainの取引を体系的に実行することなくビットコインを交換することができる。その結果、ブロックが検証されるまで10分待つ必要がなく、ほぼ瞬時の取引が可能になる。これは、物理的な世界で商人に支払いをする際に特に有用である。さらに、LightningはBitcoinネットワークにはない**機密性**を提供する。*
 
 
 
@@ -200,7 +200,7 @@ Mnemonicのフレーズを保存・管理する適切な方法については、
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -345,7 +345,7 @@ Zeusを使えば、支払額を表すメモを追加したり、サトシが目�
 
 
 
-Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))のようなWalletとは異なり、Zeusではルートはローカルで計算され、第三者(Phoenixの場合はACINQ)に委任されないことに注意してください。そのため、支払先を知っているのはあなただけです。効率は少し落ちますが（支払いが完了するまでに少し時間がかかりますが、プライバシーの面ではかなり得をします）。
+Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))のようなWalletとは異なり、Zeusではルートはローカルで計算され、第三者(Phoenixの場合はACINQ)に委任されないことに注意してください。そのため、支払先を知っているのはあなただけです。効率は少し落ちますが（支払いが完了するまでに少し時間がかかりますが、プライバシーの面ではかなり得をします）。
 
 
 
@@ -426,4 +426,4 @@ Lightning Networkの技術的な操作方法については、ファニス・ミ
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

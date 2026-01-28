@@ -1,13 +1,11 @@
-question: ¿Qué necesitas respaldar cuando usas una billetera con una frase de paso?
-answer: Necesitas respaldar tanto la lista de 12 o 24 palabras como tu frase de paso.
+question: ¿Qué indica la ausencia de una frase mnemotécnica en una cartera?
+answer: Indica que la cartera no es segura para el almacenamiento a largo plazo de Bitcoin.
 wrong_answers:
-  - Solo necesitas respaldar la lista de 12 o 24 palabras.
-  - Solo necesitas respaldar tu frase de paso.
-  - No necesitas respaldar ni la lista de 12 o 24 palabras ni tu frase de paso.
+  - Indica que la cartera es completamente segura y no requiere ningún respaldo.
+  - Significa que la cartera puede contener muchos bonos diferentes.
+  - Sugiere que la cartera está respaldada automáticamente por tu dispositivo.
 explanation: |
-  Cuando usas una billetera con una frase de paso, necesitas respaldar
-  tanto la lista de 12 o 24 palabras como tu frase de paso,
-  porque tanto la lista de palabras como la frase de paso son necesarias
-  para recuperar el acceso a tus fondos en caso de pérdida de tu teléfono o computadora.
-  Sin uno o el otro, los fondos no son accesibles.
+  La ausencia de una lista de 12 o 24 palabras, es decir, la
+  frase mnemotécnica, en una cartera debería alertarte de que la
+  cartera no es segura ya que no sigue los procedimientos estándar de respaldo.
 reviewed: true

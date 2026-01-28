@@ -1,0 +1,8 @@
+question: Vilken typ av matematisk struktur bildar punkter i elliptiska kurvor under additionsoperationen?
+answer: En matematisk grupp med slutenhet, associativitet, identitet och inverser
+wrong_answers:
+  - Ett finit fält med definierade multiplikations- och divisionsoperationer
+  - Ett vektorrum med skalär multiplikation och linjära kombinationer
+  - En ringstruktur med både additions- och multiplikationsoperationer
+explanation: |
+  Elliptiska kurvpunkter bildar en matematisk grupp under addition, vilket innebär att de uppfyller fyra väsentliga egenskaper: slutenhet (om man lägger till två punkter får man en annan punkt på kurvan), associativitet (operationsordningen spelar ingen roll), identitet (punkten i oändligheten fungerar som noll) och invers (varje punkt har en reflektion över x-axeln som upphäver den). Denna gruppstruktur är grundläggande för kryptografi med elliptiska kurvor eftersom den säkerställer att operationer som skalär multiplikation (att lägga till en punkt till sig själv upprepade gånger) är väldefinierade och förutsägbara, vilket möjliggör säkra kryptografiska protokoll som de som används i Bitcoin.

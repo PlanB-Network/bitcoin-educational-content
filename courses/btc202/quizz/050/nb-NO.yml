@@ -1,0 +1,9 @@
+question: Hva er protokollen som brukes av Electrs og Fulcrum for å koble sammen lommebøker?
+answer: Elektrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - Lightning gRPC
+explanation: |
+  Disse programvarepakkene eksponerer en Electrum-server, standarden som brukes av mange lommebøker som Sparrow eller Electrum Wallet.
+reviewed: true

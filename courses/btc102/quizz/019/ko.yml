@@ -1,0 +1,9 @@
+question: Bitcoin 백서는 누가 발행했나요?
+answer: Satoshi 나카모토
+wrong_answers:
+  - 데이비드 차움
+  - 팀 메이
+  - 에릭 휴즈
+explanation: |
+  이 백서는 2008년 말 Satoshi 나카모토(가명)에 의해 발간되었습니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 누가 IPv6 패킷을 조각화할 수 있나요?
+answer: 소스 호스트만 해당
+wrong_answers:
+  - 첫 번째 중간 라우터만
+  - 대상 라우터만 해당
+  - 모든 라우터
+explanation: |
+  IPv6에서는 조각화가 중간 라우터가 아닌 소스 호스트에 의해 독점적으로 수행됩니다.
+reviewed: false

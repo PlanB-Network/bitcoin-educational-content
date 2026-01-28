@@ -1,9 +1,9 @@
-question: Quale soluzione di archiviazione Cold è consigliata all'utente paranoico?
-answer: Con guarnizione d'aria o fai da te Hardware Wallet
+question: Quale soluzione è consigliata all'utente paranoico per il cold storage?
+answer: Hardware wallet airgap e DIY (fai-da-te)
 wrong_answers:
-  - Mobile Hot Wallet
+  - Hot Wallet su telefono
   - Servizio di custodia su una piattaforma Exchange
-  - Hardware Wallet a sorgente chiusa per uso generico
+  - Hardware Wallet a closed source per uso generico
 explanation: |
-  L'utente paranoico preferisce l'archiviazione offline con soluzioni open-source per ridurre al minimo il rischio di esposizione.
-reviewed: false
+  L'utente paranoico preferisce il cold storage offline, con soluzioni open-source, per ridurre al minimo il rischio di esposizione.
+reviewed: true

@@ -1,13 +1,13 @@
-question: Wat is de kans dat iemand per ongeluk jouw lijst van 12 of 24 woorden in een Bitcoin Wallet raadt?
-answer: Astronomisch laag.
+question: Wat is een Multisig Wallet?
+answer: Een set wallets die meerdere handtekeningen vereist om een transactie uit te voeren.
 wrong_answers:
-  - Hoog.
-  - Matig.
-  - Sterk.
+  - Een Wallet waarvoor een enkele handtekening nodig is om een transactie uit te voeren.
+  - Een Wallet die geen handtekeningen nodig heeft om een transactie uit te voeren.
+  - Een Wallet waarvoor een fysieke handtekening nodig is om een transactie uit te voeren.
 explanation: |
-  Dankzij de cryptografie die gebruikt is om de Wallet te maken, is de
-  is de kans dat iemand per ongeluk jouw lijst van
-  12 of 24 woorden is astronomisch laag. Het is alsof je
-  het vinden van het juiste getal tussen 1 en $2^256$, wat bijna
-  gelijk aan het vinden van een gedefinieerd atoom in het heelal.
+  Een Multisig Wallet is een type Bitcoin Wallet waarvoor
+  meerdere handtekeningen nodig heeft om een transactie uit te voeren. Dit voegt een
+  extra Layer beveiliging toe, omdat het betekent dat één persoon
+  een transactie niet kan uitvoeren zonder de goedkeuring van
+  anderen.
 reviewed: true

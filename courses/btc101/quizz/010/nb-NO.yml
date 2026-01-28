@@ -1,0 +1,11 @@
+question: Hva symboliserer Bitcoin utover sin teknologi?
+answer: En revolusjon mot tradisjonelle finanssystemer og et alternativ basert på transparens, desentralisering og individuell suverenitet.
+wrong_answers:
+  - En ny form for digital valuta som er mer effektiv enn tradisjonelle valutaer.
+  - En måte for individer å tjene penger på gjennom mining.
+  - Et verktøy for kriminelle for å gjennomføre ulovlige transaksjoner.
+explanation: |
+  Utover sin teknologi symboliserer Bitcoin en revolusjon mot tradisjonelle
+  finanssystemer ettersom protokollen håndhevet et nytt monetært system uten noen
+  sentral enhet.
+reviewed: true

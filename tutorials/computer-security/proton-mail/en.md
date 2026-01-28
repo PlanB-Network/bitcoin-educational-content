@@ -68,7 +68,7 @@ You will then be asked to set a password. It's important to choose a strong pass
 Using a password manager is an excellent practice. Not only does it enable you to store your passwords securely without having to memorize them, but it can also generate long, random passwords for you. Human beings are indeed very bad at creating random sequences, and an insufficiently random password can be vulnerable to brute force attacks. I also recommend that you consult our comprehensive tutorial on setting up a password manager for more details on this subject:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -169,7 +169,7 @@ Then scan the QR code using your 2FA application.
 For more information, take a look at our tutorial on how to use a 2FA application.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 In the "*Language and time*" tab you can change the Interface's language and time zone.
 
@@ -231,7 +231,7 @@ The "*Filters*" tab lets you manage filters for the emails you receive.
 ![proton](assets/notext/32.webp)
 
 
-The "Forward and auto-reply*" tab lets you manage forwarding and auto-reply for your emails.
+The "Forward and auto-reply" tab lets you manage forwarding and auto-reply for your emails.
 
 
 ![proton](assets/notext/33.webp)

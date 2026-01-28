@@ -1,0 +1,9 @@
+question: RGB에서 Anchor을 구성하는 요소는 무엇인가요?
+answer: transaction ID, MPC, DBC 및 추가 거래 증명
+wrong_answers:
+  - Genesis, Seal Definition 및 Transition Bundle
+  - Contract Schema, Business Logic 및 Owned State
+  - 서명, 거래 Hash 및 Pedersen commitment
+explanation: |
+  Anchor에는 Bitcoin 트랜잭션에 고유한 Commitment가 포함되어 있음을 증명하는 데 필요한 데이터가 포함되어 있습니다.
+reviewed: false

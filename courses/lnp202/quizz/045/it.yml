@@ -1,0 +1,9 @@
+question: Perché l'operatore di un nodo commerciale Lightning non può fare affidamento sui propri pagamenti per la liquidità in entrata generate?
+answer: Principalmente flussi in entrata
+wrong_answers:
+  - Principalmente flussi in uscita
+  - Canali troppo piccoli
+  - Commissioni onchain elevate
+explanation: |
+  Incassando senza spendere, il commerciante non sposta naturalmente la liquidità dai suoi canali.
+reviewed: false

@@ -1,13 +1,12 @@
-question: Aina za kwanza za sarafu zilikuwa zipi?
-answer: Bidhaa kama vile nafaka na mifugo.
+question: Je! ni faida gani kuu ya Bitcoin juu ya aina zingine za sarafu?
+answer: Inatoa duka bora la thamani kwa sababu ya ukomo wake wa Supply na kutoegemea upande wowote.
 wrong_answers:
-  - Dhahabu na fedha.
-  - Vidokezo vya karatasi.
-  - Mali ya dijiti.
+  - Haigawanyiki na haiwezi kusafirishwa.
+  - Ni mfano mzuri wa sarafu ambayo inakabiliwa na mfumuko wa bei wa fedha.
+  - Inakubalika sana katika biashara na wafanyabiashara wote ulimwenguni.
 explanation: |
-  Aina za kwanza za sarafu mara nyingi zilihusishwa na muhimu
-  bidhaa kama vile nafaka, mifugo na bidhaa nyinginezo.
-  Walakini, bidhaa hizi zilikuwa na mapungufu makubwa, kama vile
-  kuharibika, na kufanya kuwa vigumu kuzitumia kama a
-  njia ya akiba ya muda mrefu.
+  Faida kuu ya Bitcoin juu ya aina zingine za sarafu
+  ni kwamba inatoa duka bora la thamani kwa sababu yake
+  Supply ni mdogo na ukosefu wake wa chama kinachoaminika. Hii
+  inafanya chaguo nzuri kwa akiba ya muda mrefu.
 reviewed: true

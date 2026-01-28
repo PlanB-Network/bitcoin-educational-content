@@ -1,0 +1,9 @@
+question: Hvilken mekanisme kan brukes til å laste inn et øyeblikksbilde av UTXO-settet for å gjøre en node raskt brukbar?
+answer: antautxo
+wrong_answers:
+  - antakjedestaten
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo laster inn et øyeblikksbilde av UTXO-settet for å få noden raskt i gang, mens det komplette UTXO-settet gjenoppbygges i bakgrunnen.
+reviewed: true

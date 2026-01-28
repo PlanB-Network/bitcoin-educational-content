@@ -1,11 +1,10 @@
-question: Apa fokus utama dari kursus Bitcoin ini?
-answer: Aspek moneter dari Bitcoin.
+question: Apa itu proyek DigiCash?
+answer: Sebuah upaya untuk menciptakan uang elektronik anonim oleh David Chaum.
 wrong_answers:
-  - Aspek pemrograman dari Bitcoin.
-  - Dampak ekologis dari Bitcoin.
-  - Aspek regulasi dari Bitcoin.
+  - Sebuah proyek untuk menciptakan dompet digital untuk Bitcoin.
+  - Sebuah proyek untuk mendigitalkan semua uang fisik.
+  - Sebuah proyek untuk menciptakan mata uang kripto berbasis Bitcoin.
 explanation: |
-  Kursus Bitcoin ini berfokus pada aspek moneter dari Bitcoin, termasuk
-  cara membeli dan menjual bitcoin, menyimpannya dengan aman di dompet digital, dan menggunakannya
-  untuk transaksi.
+  David Chaum memperkenalkan konsep uang elektronik anonim dengan
+  proyeknya DigiCash pada tahun 1980-an.
 reviewed: true

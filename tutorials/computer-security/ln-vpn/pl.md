@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: Konfiguracja sieci VPN
+description: Skonfiguruj LN VPN z Lightning dla anonimowej i spersonalizowanej sieci VPN
 ---
 
 ![image](assets/cover.webp)
@@ -10,7 +10,7 @@ description: Konfiguracja sieci VPN
 LN VPN to konfigurowalna usługa VPN, która akceptuje tylko błyskawiczne płatności. Dziś pokażę ci, jak z niej korzystać i pozostawiać mniej śladów podczas przeglądania Internetu.
 
 
-Istnieje wielu wysokiej jakości dostawców usług VPN, a my przeprowadziliśmy kompleksową recenzję w tym artykule (hiperłącze). Jednak LN VPN wyróżnia się i nie mogliśmy przegapić okazji, aby go przedstawić.
+Istnieje wielu wysokiej jakości dostawców usług VPN, ale LN VPN wyróżnia się i nie mogliśmy przegapić okazji, aby go przedstawić.
 
 
 Większość dostawców usług VPN, takich jak ProtonVPN i Mullvad, oferuje opcję płatności bitcoinami, ale wymaga utworzenia konta i wykupienia planu na dłuższy lub krótszy okres, co może nie pasować do budżetu każdego.
@@ -19,7 +19,7 @@ Większość dostawców usług VPN, takich jak ProtonVPN i Mullvad, oferuje opcj
 LN VPN umożliwia korzystanie z VPN na żądanie nawet przez godzinę, dzięki implementacji płatności Bitcoin za pośrednictwem Lightning Network. Natychmiastowe i anonimowe płatności błyskawiczne otwierają świat możliwości dla mikropłatności.
 
 
-Uwaga💡: **Niniejszy przewodnik opisuje sposób korzystania z LN VPN z poziomu systemu Linux Ubuntu 22.04 LTS
+Uwaga💡: **Niniejszy przewodnik opisuje sposób korzystania z LN VPN z poziomu systemu Linux Ubuntu 22.04 LTS**
 
 
 ## Wymagania wstępne: Wireguard

@@ -67,7 +67,7 @@ Och för Pro-planen:
 
 Ladda ner [den senaste versionen av programvaran](https://www.ivpn.net/en/apps-windows/) för ditt operativsystem och fortsätt sedan med installationen genom att följa stegen i installationsguiden. ![IVPN](tillgångar/notext/02.webp)
 
-För Linux-användare, se de instruktioner som är specifika för din distribution som finns på [denna sida] (https://www.ivpn.net/en/apps-linux/).
+För Linux-användare, se de instruktioner som är specifika för din distribution som finns på [denna sida](https://www.ivpn.net/en/apps-linux/).
 
 ![IVPN](assets/notext/03.webp)
 
@@ -92,7 +92,7 @@ Låt oss nu gå vidare till att aktivera IVPN på dina enheter.
 ## Hur betalar jag för och aktiverar IVPN?
 
 
-Gå till IVPN:s officiella webbplats [på betalningssidan] (https://www.ivpn.net/en/pricing/).
+Gå till IVPN:s officiella webbplats [på betalningssidan](https://www.ivpn.net/en/pricing/).
 
 ![IVPN](assets/notext/07.webp)
 
@@ -200,9 +200,9 @@ I menyn "*AntiTracker*" väljer du blockeringsprofilen för din anti-tracker. De
 Och där har du det, du är nu utrustad för att njuta fullt ut av IVPN. Om du också vill förbättra säkerheten för dina onlinekonton genom att använda en lokal lösenordshanterare, så inbjuder jag dig att kolla in vår handledning om KeePass, en gratis lösning med öppen källkod:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Om du är intresserad av att upptäcka en annan VPN-leverantör som liknar IVPN, både när det gäller funktioner och prissättning, rekommenderar jag också att du tittar på vår handledning om Mullvad:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

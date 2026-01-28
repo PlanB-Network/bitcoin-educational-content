@@ -7,6 +7,6 @@ wrong_answers:
 explanation: |
   Sicherheitslücken sind oft das Ergebnis menschlicher
   Fahrlässigkeit, wie die Verwendung von Standardpasswörtern oder das Notieren
-  von Passwörtern an unsicheren Orten. Komplexe Angriffe sind nicht
-  immer notwendig, um die Computersicherheit zu gefährden.
+  von Passwörtern an unsicheren Orten. Es sind nicht
+  immer komplexe Angriffe notwendig, um die Computersicherheit zu gefährden.
 reviewed: true

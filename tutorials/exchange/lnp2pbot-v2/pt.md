@@ -8,7 +8,7 @@ description: Guia completo sobre o LNP2PBot e o comércio de bitcoin P2P
 
 As trocas peer-to-peer (P2P) sem KYC são essenciais para preservar a confidencialidade e a autonomia financeira dos utilizadores. Permitem transacções diretas entre indivíduos sem necessidade de verificação de identidade, o que é crucial para quem valoriza a privacidade. Para uma compreensão mais aprofundada dos conceitos teóricos, consulte o curso BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 A compra e venda de bitcoin peer-to-peer (P2P) é um dos métodos mais privados de aquisição ou alienação de bitcoins. O LNP2PBot é um bot de Telegrama de código aberto que facilita as trocas P2P na rede Lightning, permitindo transacções rápidas, de baixo custo e sem KYC.
 
@@ -40,10 +40,10 @@ Para usar o Lnp2pbot, você precisará de :
 
 Comece por instalar uma carteira Lightning compatível. Aqui estão as nossas recomendações detalhadas:
 
-**Carteiras recomendadas
+**Carteiras recomendadas**
 
 
-- [Breez](https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Excelente para principiantes
   - Interface intuitiva e moderna
   - Sem custódia (mantém o controlo dos seus fundos)
@@ -52,9 +52,9 @@ Comece por instalar uma carteira Lightning compatível. Aqui estão as nossas re
 
 Abaixo está o link para o tutorial desta carteira:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-- [Fénix](https://phoenix.acinq.co)** :
+- [Fénix](https://phoenix.acinq.co):
   - Simples e fiável
   - Configuração automática de canais
   - Suporte nativo para facturas BOLT11
@@ -63,9 +63,9 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 Abaixo está o link para o tutorial desta carteira:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Mais técnico, mas muito completo
   - Opções de configuração avançadas
   - Perfeito para utilizadores experientes
@@ -74,16 +74,16 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 Abaixo está o link para o tutorial desta carteira:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-**Notas importantes sobre outras carteiras
+**Notas importantes sobre outras carteiras**
 
 ⚠️ **Importante**: Antes de vender sats, certifique-se de que a sua carteira suporta facturas "hold", que são utilizadas pelo bot como um sistema de caução.
 
 
-- Carteira de Satoshi**: Funciona bem para receber sats, mas pode ter atrasos na atualização do saldo se uma venda for cancelada.
-- Não**: Não recomendado porque os pagamentos podem falhar devido aos limites da taxa de encaminhamento do bot (máximo de 0,2%).
-- Aqua**: Funciona para receber sats, mas pode ter grandes atrasos (até 48 horas) nas actualizações do saldo em caso de cancelamento de uma venda.
+- **Carteira de Satoshi**: Funciona bem para receber sats, mas pode ter atrasos na atualização do saldo se uma venda for cancelada.
+- **Não**: Não recomendado porque os pagamentos podem falhar devido aos limites da taxa de encaminhamento do bot (máximo de 0,2%).
+- **Aqua**: Funciona para receber sats, mas pode ter grandes atrasos (até 48 horas) nas actualizações do saldo em caso de cancelamento de uma venda.
 
 💡 **Dica**: Para uma experiência óptima, opte pelas carteiras recomendadas (Breez, Phoenix ou Blixt).
 
@@ -127,7 +127,7 @@ Neste guia, veremos em pormenor como :
 
 ![Sélection d'une offre de vente](assets/fr/01.webp)
 
-Navegue pelas ofertas em [@p2plightning] (https://t.me/p2plightning) e clique no botão "Comprar satoshis" por baixo do anúncio que lhe interessa.
+Navegue pelas ofertas em [@p2plightning](https://t.me/p2plightning) e clique no botão "Comprar satoshis" por baixo do anúncio que lhe interessa.
 
 **2. Validar a oferta e o montante**
 
@@ -153,7 +153,7 @@ Após o envio da fatura, o bot coloca-o em contacto com o vendedor.
 
 Clique no nickname do vendedor para abrir um canal de conversação privado onde pode trocar detalhes de pagamento em moeda fiduciária.
 
-**5. Confirmação do pagamento
+**5. Confirmação do pagamento**
 
 ![Confirmation du paiement](assets/fr/05.webp)
 
@@ -246,17 +246,17 @@ O Lnp2pbot tem várias vantagens e desvantagens em relação a outras soluções
 ### Vantagens do Lnp2pbot
 
 
-- Não é necessário KYC** : Ao contrário de algumas plataformas, a Lnp2pbot não requer verificação de identidade, preservando assim a confidencialidade do utilizador.
-- Transacções rápidas**: Graças à rede Lightning, as transacções são quase instantâneas.
-- Taxas baixas** : Os custos de transação são inferiores aos das bolsas tradicionais.
-- Disponibilidade móvel**: O LNP2PBot está acessível através do Telegram, o que facilita a sua utilização em dispositivos móveis.
-- Fácil de usar** : A interface intuitiva do Lnp2pbot torna-o fácil de usar, mesmo para utilizadores menos experientes.
+- **Não é necessário KYC**: Ao contrário de algumas plataformas, a Lnp2pbot não requer verificação de identidade, preservando assim a confidencialidade do utilizador.
+- **Transacções rápidas**: Graças à rede Lightning, as transacções são quase instantâneas.
+- **Taxas baixas**: Os custos de transação são inferiores aos das bolsas tradicionais.
+- **Disponibilidade móvel**: O LNP2PBot está acessível através do Telegram, o que facilita a sua utilização em dispositivos móveis.
+- **Fácil de usar**: A interface intuitiva do Lnp2pbot torna-o fácil de usar, mesmo para utilizadores menos experientes.
 
 ### Desvantagens do Lnp2pbot
 
 
-- Dependência do Telegram**: O uso do Lnp2pbot requer uma conta no Telegram, que pode não ser adequada para todos os utilizadores.
-- Menos liquidez**: Em comparação com plataformas mais estabelecidas como a Bisq, a liquidez pode ser mais limitada.
+- **Dependência do Telegram**: O uso do Lnp2pbot requer uma conta no Telegram, que pode não ser adequada para todos os utilizadores.
+- **Menos liquidez**: Em comparação com plataformas mais estabelecidas como a Bisq, a liquidez pode ser mais limitada.
 
 Em comparação, soluções como a Bisq oferecem maior liquidez e uma interface de desktop, mas podem envolver taxas mais elevadas e tempos de transação mais longos. A HodlHodl e a Robosat, por sua vez, também oferecem negociação sem KYC, mas com estruturas de taxas e interfaces diferentes.
 

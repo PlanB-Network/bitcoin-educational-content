@@ -1,4 +1,4 @@
-question: Hangi büyük oyuncu Bitcoin Mining için ASIC tasarlar?
+question: Bitcoin madenciliği (mining) için ASIC (uygulamaya özel entegre devreler-bilgisayar çipleri) tasarlayan başlıca şirket hangisidir?
 answer: Bitmain
 wrong_answers:
   - Trezor

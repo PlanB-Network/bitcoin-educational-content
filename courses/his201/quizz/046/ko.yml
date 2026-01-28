@@ -1,0 +1,9 @@
+question: 2010년 7월에 Slashdot에 소개된 소프트웨어 버전 번호는 무엇인가요?
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  Satoshi과 Martti가 오랫동안 준비한 이 버전의 출시는 커뮤니케이션의 새로운 시도를 상징합니다.
+reviewed: true

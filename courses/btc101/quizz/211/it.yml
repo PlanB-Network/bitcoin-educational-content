@@ -1,9 +1,11 @@
-question: Bitcoin costringe aziende, università, regolatori e individui a compiere una determinata azione. Quale?
-answer: A prenderlo in considerazione.
+question: Qual è la natura dell'adozione di Bitcoin come descritta in questo corso?
+answer: Virale.
 wrong_answers:
-  - Ignorarlo.
-  - Vietarlo.
-  - Criminalizzarlo.
-explanation: >-
-  L'ascesa di Bitcoin costringe aziende, università, regolatori e individui a prendere in considerazione questa nuova tecnologia. È necessario creare nuovi strumenti, adattare i servizi e continuare a innovare per garantire la loro sopravvivenza.
-reviewed: true
+  - Lenta e costante.
+  - Rapida e incontrollabile.
+  - Sporadica e imprevedibile.
+explanation: |
+  Il testo del corso descrive l'adozione di Bitcoin come virale,
+  suggerendo che si diffonde rapidamente e ampiamente da una
+  persona all'altra, molto simile a un virus, ma in senso positivo.
+reviewed: vero

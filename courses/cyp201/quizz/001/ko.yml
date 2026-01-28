@@ -1,0 +1,9 @@
+question: Hash의 입력값을 검색하는 것이 계산적으로 불가능하도록 보장하는 속성은 무엇인가요?
+answer: 프리이미지 저항
+wrong_answers:
+  - 충돌 저항
+  - 눈사태 효과
+  - 두 번째 프리이미지 저항
+explanation: |
+  프리이미지 저항은 Hash에서 원본 메시지를 찾는 것이 사실상 불가능하도록 보장합니다.
+reviewed: false

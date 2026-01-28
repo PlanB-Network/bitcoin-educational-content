@@ -1,0 +1,9 @@
+question: Ni uruhe rutonde rw’ubuhinga rushobora gukoreshwa muri Bitcoin core kugira ngo uronke igikorwa gikoreshwa na txid yayo?
+answer: urutonde
+wrong_answers:
+  - urutonde rw'inyongera
+  - urutonde rw'ibibujije
+  - Index y'umuyagankuba
+explanation: |
+  Ihitamwo txindex=1 rikoreshwa mu kubaza igikorwa n'ikimenyetso caco kidasanzwe (txid).
+reviewed: true

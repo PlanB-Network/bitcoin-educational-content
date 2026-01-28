@@ -1,0 +1,9 @@
+question: Vilka är de tre främsta fördelarna med regelbundna uppdateringar av operativsystem och appar?
+answer: Säkerhet, tillförlitlighet, funktionalitet
+wrong_answers:
+  - Hastighet, anonymitet, kompatibilitet
+  - Säkerhet, minne, lagring
+  - Konfidentialitet, funktionalitet, tillförlitlighet
+explanation: |
+  Uppdateringar säkerställer säkerhet mot sårbarheter, kompatibilitet med utvecklingar och nya funktioner samt systemets tillförlitlighet.
+reviewed: true

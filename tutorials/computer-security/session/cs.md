@@ -1,5 +1,5 @@
 ---
-name: Relace
+name: Session
 description: Odesílání šifrovaných zpráv, nikoli metadat
 ---
 ![cover](assets/cover.webp)
@@ -26,25 +26,26 @@ Zasedání je určeno především uživatelům, pro které je důvěrnost jedno
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Aplikace | E2EE 1:1 | E2EE skupiny | Anonymní registrace | Open-source klient | Open-source server | Decentralizovaný server | Rok vytvoření |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (volitelně) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (volitelně) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federovaný) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (přes e-mail) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federovaný) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (bez adresáře) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = End-to-end šifrování*
 
@@ -99,13 +100,13 @@ Poté budete muset zvolit jeden ze dvou režimů správy oznámení:
 
 
 
-- Rychlý režim ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: umožňuje přijímat oznámení zpráv téměř v reálném čase díky oznamovacím službám poskytovaným společností Google nebo Apple (v závislosti na vašem systému). Aby tato funkce fungovala, jsou společnosti Google nebo Apple předány vaše IP Address a jedinečné ID oznámení a ID účtu relace je také zaregistrováno na serveru STF (prostřednictvím sítě Tor). Tento režim zahrnuje (sice minimální) odhalení metadat, ale neohrožuje obsah zpráv ani kontakty a neumožňuje sledovat vaši skutečnou činnost. Tento režim je tedy efektivnější z hlediska rychlosti odezvy, ale spoléhá na centralizovanou infrastrukturu a je o něco méně efektivní z hlediska důvěrnosti.
+- Rychlý režim (**Firebase Cloud Messaging/Apple Push Notification Service**): umožňuje přijímat oznámení zpráv téměř v reálném čase díky oznamovacím službám poskytovaným společností Google nebo Apple (v závislosti na vašem systému). Aby tato funkce fungovala, jsou společnosti Google nebo Apple předány vaše IP Address a jedinečné ID oznámení a ID účtu relace je také zaregistrováno na serveru STF (prostřednictvím sítě Tor). Tento režim zahrnuje (sice minimální) odhalení metadat, ale neohrožuje obsah zpráv ani kontakty a neumožňuje sledovat vaši skutečnou činnost. Tento režim je tedy efektivnější z hlediska rychlosti odezvy, ale spoléhá na centralizovanou infrastrukturu a je o něco méně efektivní z hlediska důvěrnosti.
 
 
 
 
 
-- Pomalý režim (*zpětné dotazování*)**: aplikace relace zůstává aktivní na pozadí a pravidelně dotazuje síť na nové zprávy. Tento přístup zaručuje větší důvěrnost než první, protože se žádná data nepřenášejí na servery třetích stran; servery Google, Apple ani STF nedostávají žádné informace. Na druhou stranu má tento režim dvě nevýhody: oznámení se mohou opozdit (až o několik minut) a spotřeba energie je obecně vyšší kvůli činnosti aplikace na pozadí.
+- Pomalý režim (**zpětné dotazování**): aplikace relace zůstává aktivní na pozadí a pravidelně dotazuje síť na nové zprávy. Tento přístup zaručuje větší důvěrnost než první, protože se žádná data nepřenášejí na servery třetích stran; servery Google, Apple ani STF nedostávají žádné informace. Na druhou stranu má tento režim dvě nevýhody: oznámení se mohou opozdit (až o několik minut) a spotřeba energie je obecně vyšší kvůli činnosti aplikace na pozadí.
 
 
 
@@ -145,7 +146,7 @@ Tato věta funguje podobně jako věty Mnemonic používané v portfoliích Bitc
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Upozornění**: Na rozdíl od frází Mnemonic, které se používají v portfoliích Bitcoin, musíte v případě Session **bezpodmínečně uložit každé slovo celé**. První 4 písmena nestačí!
 
@@ -299,4 +300,4 @@ Doporučuji také tento další tutoriál, ve kterém představuji Threemu, dal�
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

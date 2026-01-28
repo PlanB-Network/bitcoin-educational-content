@@ -1,0 +1,8 @@
+question: Jaką krytyczną przewagę strategiczną zapewnia pozycja regulacyjna Liquid w porównaniu z innymi platformami tokenizacyjnymi, takimi jak Ethereum czy Solana?
+answer: Liquid unika niezarejestrowanego ryzyka związanego z bezpieczeństwem, wykorzystując Bitcoin (L-BTC) jako swoje aktywa macierzyste bez pre-mining lub przeprowadzania ICO
+wrong_answers:
+  - Liquid działa w ramach specjalnej piaskownicy regulacyjnej, która zwalnia go z przepisów dotyczących papierów wartościowych w większości jurysdykcji
+  - "Model federacyjny Liquid automatycznie kwalifikuje wszystkie wyemitowane tokeny jako regulowane papiery wartościowe zgodnie z istniejącymi ramami"
+  - Liquid uzyskał ogólne zatwierdzenie regulacyjne od głównych organów finansowych dla wszystkich tokenizowanych aktywów na swojej platformie
+explanation: |
+  Strategiczna przewaga regulacyjna Liquid wynika z jego architektury technicznej, a nie ze specjalnych zwolnień lub zatwierdzeń. Wykorzystując Bitcoin jako swoje natywne aktywo (L-BTC) bez tokenów sprzed mining lub przeprowadzania ICO, Liquid unika klasyfikacji "niezarejestrowanego papieru wartościowego", która zagraża wielu innym platformom blockchain. Ma to kluczowe znaczenie, ponieważ organy regulacyjne, takie jak SEC, coraz częściej analizują projekty blockchain, które stworzyły i sprzedały własne tokeny, potencjalnie klasyfikując je jako niezarejestrowane papiery wartościowe. Błędne odpowiedzi błędnie sugerują, że Liquid ma specjalne uprawnienia regulacyjne lub automatyczne funkcje zgodności, podczas gdy w rzeczywistości jego przewaga wynika z całkowitego uniknięcia problematycznej ekonomii token.

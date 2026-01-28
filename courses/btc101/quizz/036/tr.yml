@@ -1,12 +1,12 @@
-question: Para birimleri bağlamında güvene dayalı terimi ne anlama gelir?
-answer: Sadece kendilerini düzenleyen merkezi kuruma duyulan güven nedeniyle değerli olan para birimlerini ifade eder.
+question: İtibari para birimlerinin kullanılmaya başlanmasında kurumların izlediği tarihsel yol nedir?
+answer: Liderler altını merkezileştirir ve değer olarak altına eşdeğer yeni bir para birimi çıkarır, daha sonra bu para kademeli olarak devalüe edilir.
 wrong_answers:
-  - Altın ile desteklenen ve küçük ticari bankalar tarafından çıkarılan para birimlerini ifade eder.
-  - Sadece güvene dayalı işlemler için değerli olan para birimlerini ifade eder.
-  - Sadece belirli bir kurum içinde kullanılan para birimlerini ifade eder.
+  - Liderler altınla desteklenen yeni bir para birimi çıkarır ve bu para biriminin değeri kademeli olarak artırılır.
+  - Liderler, gerçek değeri olmayan yeni bir para birimi ortaya koyar ve bu para biriminin değeri kademeli olarak artırılır.
+  - Liderler, bir emtia sepeti ile desteklenen ve daha sonra değeri sabit tutulan yeni bir para birimi ortaya koyarlar.
 explanation: |
-  Fiduciary para birimleri fiziksel bir emtia ile desteklenmez
-  altın ya da gümüş gibi. Değerleri güvene dayanır
-  ve insanların yayın yapan kurumlara duyduğu güven
-  ve onları düzenler.
+  Tarihsel olarak, liderler altını merkezileştirmiş ve
+  değer olarak altına eşdeğer yeni bir para birimi. Bu yeni
+  para birimi daha sonra, genellikle aşağıdaki kisveler altında, kademeli olarak devalüe edilir
+  halkın çıkarlarına uygun olması.
 reviewed: true

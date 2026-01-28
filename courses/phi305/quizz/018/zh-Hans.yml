@@ -1,0 +1,9 @@
+question: TTP 是什么？
+answer: 旨在实现政教分离。
+wrong_answers:
+  - 建立神权统治
+  - 捍卫无政府状态
+  - 呼唤革命
+explanation: |
+  神学政治论》的主要目的是将宗教与国家分开。斯宾诺莎在其中捍卫了国家应保障哲学自由、宗教不应干涉政治事务的观点。
+reviewed: false

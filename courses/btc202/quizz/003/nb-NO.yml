@@ -1,0 +1,9 @@
+question: Ifølge Eric Voskuil i boken Cryptoeconomics, hva er Bitcoins sikkerhet basert på?
+answer: På enkeltpersoner
+wrong_answers:
+  - På Blockchain
+  - Om Hash-kraft
+  - Om kryptografi
+explanation: |
+  Eric Voskuil forklarer at Bitcoins sikkerhet først og fremst er avhengig av menneskene som tar risiko for å vedlikeholde systemet.
+reviewed: true

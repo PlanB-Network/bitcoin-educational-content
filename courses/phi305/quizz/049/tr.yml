@@ -1,0 +1,9 @@
+question: Finalist fikirlerini mi savunuyorsunuz?
+answer: Batıl inançlı olmak.
+wrong_answers:
+  - Mantıklı olmak için.
+  - Absürt olmak.
+  - Laikliği savunmak.
+explanation: |
+  Spinoza'ya göre finalist fikirleri savunmak batıl inançlı olmaktır. Bu, doğaya ya da Tanrı'ya niyet atfetmek ve böylece antropomorfik yanılsamaya düşmek anlamına gelir.
+reviewed: false

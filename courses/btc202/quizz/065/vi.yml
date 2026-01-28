@@ -1,0 +1,9 @@
+question: Bước đầu tiên cần thực hiện khi gặp lỗi trên Umbrel là gì?
+answer: generate là một gói chẩn đoán
+wrong_answers:
+  - Cài đặt lại Bitcoin core và làm lại IBD
+  - Xóa bộ nhớ đệm
+  - Vô hiệu hóa 2FA
+explanation: |
+  Trong trường hợp có sự cố, chúng tôi bắt đầu bằng cách tạo một gói chẩn đoán trong phần khắc phục sự cố để phân tích sự cố và lưu giữ hồ sơ.
+reviewed: true

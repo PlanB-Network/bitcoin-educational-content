@@ -1,0 +1,9 @@
+question: 2010년 2월에 최초의 실제 Bitcoin 로고(두 개의 세로 막대가 교차하는 황금색 대문자 B)를 디자인한 사람은 누구일까요?
+answer: Satoshi 나카모토
+wrong_answers:
+  - 뉴리버티스탠다드
+  - 마르티 말미
+  - bitboy
+explanation: |
+  그는 뉴리버티스탠다드의 제안에 따라 태국 바트 기호(฿)를 사용했습니다. 주황색 로고는 나중에 Bitboy라는 사람이 만들었습니다.
+reviewed: true

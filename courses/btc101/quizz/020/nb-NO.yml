@@ -1,11 +1,11 @@
-question: Hva er kriteriene for en effektiv valuta?
-answer: Fungibel, Delelig, Likvid
+question: Hvorfor er ikke Bitcoin bredt akseptert i handel i dag?
+answer: Fordi det ikke er bredt adoptert av enkeltpersoner
 wrong_answers:
-  - Fungibel, Delelig, Forgjengelig
-  - Fungibel, Udelelig, Likvid
-  - Ikke-fungibel, Delelig, Likvid
+  - Fordi det ikke er transportabelt
+  - Fordi det ikke er delelig
+  - Fordi det ikke er likvid
 explanation: |
-  Kriteriene for en effektiv valuta er at den må være fungibel
-  (utbyttbar uten tap av verdi), delelig (for å lette transaksjoner av forskjellige volumer),
-  og likvid (lett konverterbar til varer eller tjenester).
+  Til tross for egenskapene, som dens strengt begrensede tilbud, er Bitcoin
+  fortsatt ikke bredt akseptert i handel i dag. Dette skyldes mangel på
+  adopsjon blant enkeltpersoner, noe som skaper en situasjon som biter sin egen hale ettersom handelsfolk også er enkeltpersoner.
 reviewed: true

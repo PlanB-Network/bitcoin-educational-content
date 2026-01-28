@@ -1,0 +1,13 @@
+question: Ni ubuhe buryo bwa mbere bwo gukoresha amahera?
+answer: Ibintu nk’intete n’ibitungwa.
+wrong_answers:
+  - Inzahabu n’ifeza.
+  - Ivyanditswe ku mpapuro.
+  - Itunga ry’ubuhinga bwa none.
+explanation: |
+  Ubwoko bwa mbere bw'amahera akenshi bwari bufitaniye isano n'ivy'ingenzi
+  ibicuruzwa nk’intete, amatungo, n’ibindi bicuruzwa.
+  Ariko rero, ivyo bintu vyari bifise ingorane zikomeye, nk’akarorero .
+  gusenyuka, bikaba bigoye kubikoresha nk’ibintu .
+  uburyo bwo kuzigama igihe kirekire.
+reviewed: true

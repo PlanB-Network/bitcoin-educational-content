@@ -1,5 +1,5 @@
 ---
-name: Souprava Bitkit Wallet
+name: Bitkit Wallet
 
 description: Nastavte si samospoušť On-Chain a blesk Wallet
 ---

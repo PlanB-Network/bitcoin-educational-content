@@ -1,8 +1,12 @@
-question: Wat is de versie van de eerste Bitcoin software die werd uitgebracht?
-answer: Bitcoin-0.1.0.
+question: Wat is de rol van een Bitcoin knooppunt in het Bitcoin netwerk?
+answer: Het valideert nieuwe blokken en opgenomen transacties.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
+  - Het creëert nieuwe Bitcoins en plaatst ze in de blokken.
+  - Het reguleert de prijs van Bitcoin.
+  - Het beheert het Bitcoin netwerk.
+explanation: |
+  Een Bitcoin knooppunt in het Bitcoin netwerk zorgt voor de
+  de validatie van nieuwe blokken en opgenomen transacties. Het is
+  dit netwerk van Bitcoin knooppunten dat het echt
+  gedecentraliseerd maakt.
 reviewed: true

@@ -1,7 +1,9 @@
-question: 根据文本，比特币采用的性质是什么？
-answer: 病毒式的
+question: 为什么 Lightning 通道在一个方向上可能无法使用？
+answer: 流动性不足
 wrong_answers:
-  - 缓慢而稳定
-  - 快速且无法控制
-  - 零星且不可预测
-explanation: 文本将比特币的采用描述为病毒式的，这表明它像病毒一样从一个人迅速广泛地传播到另一个人。
+  - 区块过新
+  - HTLC 已过期
+  - 节点未同步
+explanation: |
+  即使容量很大，只有在正确一侧拥有足够流动性时，通道才能进行支付。
+reviewed: false

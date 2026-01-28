@@ -1,12 +1,8 @@
-question: Ni nini jukumu la nodi ya Bitcoin katika mtandao wa Bitcoin?
-answer: Inathibitisha vitalu vipya na shughuli zilizojumuishwa.
+question: Ni nini kazi ya msingi ya nodi katika mtandao wa Bitcoin?
+answer: Kudumisha nakala ya Bitcoin Blockchain, kuthibitisha shughuli, kupeleka habari kwa nodes nyingine, na kutekeleza sheria za itifaki ya Bitcoin.
 wrong_answers:
-  - Inaunda Bitcoins mpya na kuziweka kwenye vizuizi.
-  - Inasimamia bei ya Bitcoin.
-  - Inasimamia mtandao wa Bitcoin.
-explanation: |
-  Nodi ya Bitcoin katika mtandao wa Bitcoin inashughulikia
-  uthibitisho wa vitalu vipya na shughuli zilizojumuishwa. Ni
-  mtandao huu wa nodi za Bitcoin zinazoifanya kuwa kweli
-  kugatuliwa.
+  - Kudumisha nakala ya Bitcoin Blockchain, kuthibitisha shughuli, kupeleka taarifa kwa serikali, na kubadilisha sheria za itifaki ya Bitcoin.
+  - Kudumisha nakala ya Bitcoin Blockchain pekee.
+  - Kusambaza habari tu kwa nodi zingine.
+explanation: >-
 reviewed: true

@@ -1,0 +1,8 @@
+question: Šta se dešava sa stekom nakon izvršavanja OP_CHECKSIG kada verifikacija potpisa uspe?
+answer: Vrednost 1 je gurnuta na stek
+wrong_answers:
+  - Potpis i javni ključ ostaju na steku
+  - Stek je očišćen i resetovan na prazan
+  - Javni ključ heš se gura na stek
+explanation: |
+  OP_CHECKSIG je opcode koji transformiše stek, troši potpis i javni ključ sa steka, verifikuje potpis u odnosu na sighash transakcije, i gura ili 1 (za validan) ili 0 (za nevalidan) na stek. Originalni potpis i javni ključ se uklanjaju tokom ovog procesa. Stek nije potpuno očišćen, i nikakve hash vrednosti nisu gurnute - samo boolean rezultat operacije verifikacije.

@@ -6,4 +6,4 @@ wrong_answers:
   - Le canal ne peut pas être fermé tant que le HTLC n'a pas expiré
 explanation: |
   Lors d'une fermeture forcée, les HTLC en attente sont représentés comme outputs dans les transactions d'engagement, assurant ainsi leur exécution ou leur retour selon les conditions définies.
-reviewed: false
+reviewed: true 

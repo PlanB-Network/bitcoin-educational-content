@@ -1,0 +1,8 @@
+question: Liquid Network'da bir bloğu doğrulamak için kaç görevli imzası gereklidir?
+answer: 15 görevliden en az 11'i imza atmalıdır
+wrong_answers:
+  - 15 görevliden en az 8'i imzalamalıdır
+  - 15 görevliden en az 10'u imzalamalıdır
+  - 15 görevliden en az 12'si imza atmalıdır
+explanation: |
+  Liquid Network bir bloğu doğrulamak için 15 görevliden en az 11'inin imzasını gerektirir ki bu da üçte iki artı bir eşiğini temsil eder. Bu özel gereklilik, herhangi bir küçük grubun ağı kontrol etmesini önlerken sağlam bir mutabakat sağlar. Diğer seçenekler yanlıştır: 8 imza güvenlik için çok az olacaktır, 10 imza üçte iki eşiğini karşılamayacaktır ve 12 imza normal operasyonlar için gereksiz yere kısıtlayıcı olacaktır.

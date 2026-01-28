@@ -1,13 +1,12 @@
-question: None icapa ry’amahera rigira ingaruka izihe?
-answer: Bituma haba ugutera imbere kw’ibiciro, buhoro buhoro abantu bagakena.
+question: None ingaruka z’ugutera imbere cane kw’ibiciro ni izihe?
+answer: Igabanuka rikomeye ry’agaciro k’amahera.
 wrong_answers:
-  - Bituma haba ugutakaza ubutunzi, buhoro buhoro abantu bagatunga.
-  - Bituma ubutunzi bushikamye ata n’ugutera imbere kw’ibiciro canke ugutera imbere kw’ibiciro.
-  - Bituma amahera Supply agabanuka.
+  - Igabanuka gatoyi ry’agaciro k’amahera.
+  - Ukwiyongera gukomeye kw’agaciro k’amahera.
+  - Ukwongerekana gutoyi kw’agaciro k’amahera.
 explanation: |
-  Gucapura amahera, canke kurema amahera mashasha n’ishirahamwe ry’imbere
-  amabanki, bituma habaho ugutera imbere kw’ibiciro. Ivyo ni kubera ko iyongerekana ryo mu 2012.
-  amahera Supply agabanya ubushobozi bwo kugura amahera, .
-  bituma ibiciro vyiyongera kandi agaciro k’
-  kuzigama.
+  Kubera ugutera imbere kw’ibiciro, abantu ku giti cabo baragira ningoga .
+  gutakaza ukwizigira burundu amafaranga, ivyo bikaba bituma .
+  kugabanya cane agaciro kayo mu kiringo gitoyi c’umwaka wa 1990.
+  umwanya.
 reviewed: true

@@ -1,0 +1,9 @@
+question: U NWC toku, kada se šifrovanje odvija na strani aplikacije?
+answer: Pre objavljivanja na releju
+wrong_answers:
+  - Nakon čitanja čvora
+  - Nakon objavljivanja na releju
+  - Nikad
+explanation: |
+  Aplikacija serijalizuje zahtev, šifrira ga, a zatim ga objavljuje kao događaj na Nostr releju.
+reviewed: false

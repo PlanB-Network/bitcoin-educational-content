@@ -1,0 +1,9 @@
+question: TTP:n kirjoittamisen myötä, onko Spinoza?
+answer: Maallistumisen keksijä.
+wrong_answers:
+  - Suunnittelun puolestapuhuja.
+  - Valistuneen diktatuurin puolustaja.
+  - Perustuslaillisen monarkian puolustaja.
+explanation: |
+  Spinozaa voidaan pitää modernin sekularismin keksijänä teologiaa ja politiikkaa käsittelevän tutkielmansa ansiosta. Siinä hän puolusti uskonnollisen ja poliittisen vallan erottamista toisistaan, mikä oli tuolloin vallankumouksellinen ajatus.
+reviewed: false

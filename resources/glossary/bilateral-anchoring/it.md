@@ -9,4 +9,4 @@ Un meccanismo che stabilisce una connessione tra il sistema principale di Bitcoi
 - Una federazione di entità;
 - I minatori della catena principale (drivechain).
 
-> *In inglese si parla di "two-way peg" o "2WP"
+> *In inglese si parla di "two-way peg" o "2WP"*

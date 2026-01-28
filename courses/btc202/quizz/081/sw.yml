@@ -1,0 +1,9 @@
+question: Je, ni kigezo gani cha Bitcoin.conf kinapunguza ukubwa wa Mempool katika MB?
+answer: maxmempool
+wrong_answers:
+  - jumla ya maji
+  - kumbukumbu ya kuisha
+  - mempoolsize
+explanation: |
+  maxmempool huweka ukubwa wa juu wa Mempool (MB 300 kwa chaguo-msingi). Ikijaa, miamala isiyo na faida kidogo hufukuzwa.
+reviewed: true

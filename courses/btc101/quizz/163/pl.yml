@@ -1,8 +1,8 @@
-question: Jaki jest średni czas między utworzeniem dwóch bloków w protokole Bitcoin?
-answer: 10 minut.
+question: Jaka jest główna zaleta wyspecjalizowanych maszyn SHA256 lub ASICS w wydobywaniu bitcoinów?
+answer: Zwiększają współczynnik haszy na dżul.
 wrong_answers:
-  - 5 minut.
-  - 15 minut.
-  - 20 minut.
+  - Zmniejszają zużycie energii.
+  - Zwiększają szybkość transakcji.
+  - Zwiększają bezpieczeństwo sieci.
 explanation: >-
 reviewed: true

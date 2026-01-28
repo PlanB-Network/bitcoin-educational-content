@@ -1,5 +1,5 @@
 ---
-name: SimpleX Chatt
+name: SimpleX Chat
 description: Den första brevlådan utan användar-ID
 ---
 ![cover](assets/cover.webp)
@@ -63,13 +63,13 @@ SimpleX Chat är tillgänglig på alla plattformar. Du kan ladda ner applikation
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=chat.simplex.app);
-- [App Store] (https://apps.apple.com/us/app/simplex-chat-secure-messenger/id1605771084);
-- [F-Droid] (https://simplex.chat/fdroid/).
+- [Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app);
+- [App Store](https://apps.apple.com/us/app/simplex-chat-secure-messenger/id1605771084);
+- [F-Droid](https://simplex.chat/fdroid/).
 
 
 
-På Android är det också möjligt att [installera via APK] (https://github.com/simplex-chat/simplex-chat/releases).
+På Android är det också möjligt att [installera via APK](https://github.com/simplex-chat/simplex-chat/releases).
 
 
 
@@ -397,4 +397,4 @@ Jag rekommenderar också den här andra handledningen, där jag presenterar Thre
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

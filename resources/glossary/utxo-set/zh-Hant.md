@@ -8,4 +8,4 @@ term: UTXO SET
 每個節點都會保留這套 UTXO，以快速驗證在交易中所花的 UTXO 是否真的合法。這可讓他們偵測並拒絕 Double-spending 試圖。UTXO 集通常是 Bitcoin 去中心化的核心問題，因為它的大小自然會快速增加。由於其中一部分必須保留在 RAM 中，才能在合理的時間內驗證交易，因此 UTXO 集會逐漸使 Full node 的運作成本過高。UTXO 集對 IBD（*初始區塊下載*）也有重大影響。可以放置在 RAM 中的 UTXO 集數越多，IBD 的速度就越快。在 Bitcoin Core 上，UTXO 集儲存在名為 `/chainstate`的資料夾中。
 
 
-> ► *在英文中，「UTXO set」可譯為「UTXO set」。
+> ► *在英文中，「UTXO set」可譯為「UTXO set」。*

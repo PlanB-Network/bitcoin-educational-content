@@ -1,9 +1,9 @@
-question: Kuidas premeerib Bitcoin'i protokoll kaevurit, kes leiab järgmisele plokile kehtiva räsi?
-answer: Preemiaga, mis on määratletud konsensuse reeglitega ja kõikide kehtivas plokis sisalduvate tehingute tehingutasudega
+question: Mis on Bitcoin protokolli ainulaadne omadus?
+answer: See toimib ülemaailmsel tasandil, 24 tundi päevas, 7 päeva nädalas.
 wrong_answers:
-  - Fikseeritud koguse Bitcoin'iga
-  - Protsendiga kogu Bitcoin'i varust
-  - Kõikide kehtivas plokis sisalduvate tehingute tehingutasudega
+  - See toimib ainult tööaegadel.
+  - Seda kontrollib keskne autoriteet.
+  - Seda on kerge häkkida.
 explanation: >-
-  Bitcoin'i protokoll premeerib kaevurit, kes leiab järgmisele plokile kehtiva räsi, preemiaga, mille suurus on määratletud konsensuse reeglitega, samuti kõikide kehtivas plokis sisalduvate tehingute tehingutasudega.
-reviewed: false
+  Bitcoin protokolli ainulaadsus seisneb selles, et see toimib ülemaailmsel tasandil,
+  24 tundi päevas, 7 päeva nädalas, muutes finantsasutuste jaoks regulatsiooni keeruliseks.

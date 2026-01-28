@@ -14,9 +14,9 @@ Bitcoin 协议是一个开放咨询的匿名分散网络。成员（节点），
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 因此，Bitcoin 社区启动了一些项目，以扩大 Bitcoin 社区，让没有节点和/或不具备所需技术技能的人也能更方便地使用 Bitcoin。
 
@@ -46,7 +46,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Mempool.space 的基础知识
 
@@ -64,10 +64,10 @@ Mempool.space 支持许多 Bitcoin 协议网络。
 
 
 
-- Mainnet** ：主要的 Bitcoin 网络，在此进行真正的 Bitcoin 交易。
-- Signet**：使用数字签名验证区块的测试网络，无需主网络所需的资源。
-- Testnet 3**：基于 Bitcoin 协议的无风险测试和开发网络。
-- Testnet 4** ：Testnet 3 的新版本为测试环境带来了更高的稳定性和新的共识规则。
+- **Mainnet** ：主要的 Bitcoin 网络，在此进行真正的 Bitcoin 交易。
+- **Signet**：使用数字签名验证区块的测试网络，无需主网络所需的资源。
+- Testnet 3：基于 Bitcoin 协议的无风险测试和开发网络。
+- **Testnet 4**：Testnet 3 的新版本为测试环境带来了更高的稳定性和新的共识规则。
 
 
 
@@ -86,7 +86,7 @@ Mempool.space 支持许多 Bitcoin 协议网络。
 
 
 
-交易费用**部分是一个交易费用估算器。分配给您的交易的费用越高，您的交易就越有可能被添加到下一个准备开采的区块中。
+交易费用**部分**是一个交易费用估算器。分配给您的交易的费用越高，您的交易就越有可能被添加到下一个准备开采的区块中。
 
 
 交易费代表 Miner 将您的交易插入 Mining 候选区块的成本。它由 sat/vB（Satoshi/虚拟字节）的比率定义，代表您为您的交易在候选区块中占用的空间所支付的 satoshis 数量。
@@ -142,9 +142,9 @@ Mempool.space 支持许多 Bitcoin 协议网络。
 
 
 
-- 状态**：添加到区块时已确认，在 Mempool 中等待时未确认。
-- 交易费**.
-- 预计到达时间 (ETA)** ：  您的交易加入区块所需的大致时间。它根据与该交易相关的费用比率计算得出。
+- **状态**：添加到区块时已确认，在 Mempool 中等待时未确认。
+- 交易费。
+- **预计到达时间 (ETA)**：您的交易加入区块所需的大致时间。它根据与该交易相关的费用比率计算得出。
 
 
 
@@ -152,7 +152,7 @@ Mempool.space 支持许多 Bitcoin 协议网络。
 
 
 
-流程**部分显示交易组件的图表。
+流程**部分**显示交易组件的图表。
 
 
 
@@ -176,7 +176,7 @@ Mempool.space 支持许多 Bitcoin 协议网络。
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## 加快交易速度
 
@@ -192,7 +192,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- RBF** - 按费用替换：这种方法允许您使用与低费用交易相同的条目，但这次是通过增加交易费用来加快验证。您的新交易将更快通过验证，并被纳入一个区块，使低费交易失效。
+- **RBF** - 按费用替换：这种方法允许您使用与低费用交易相同的条目，但这次是通过增加交易费用来加快验证。您的新交易将更快通过验证，并被纳入一个区块，使低费交易失效。
 
 
 
@@ -200,11 +200,11 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
-- CPFP** - Child pay for parent：受 RBF 启发的一种方法，但在接收方。当您作为接收方的交易在 Mempool 中被阻止时，尽管该交易尚未被确认，但您可以选择花费该交易的产出（UTXOs），方法是为新交易分配更多费用，从而使您作为接收方的交易和发起的交易的平均费用鼓励矿工将这两个交易都包含在一个区块中。
+- **CPFP** - Child pay for parent：受 RBF 启发的一种方法，但在接收方。当您作为接收方的交易在 Mempool 中被阻止时，尽管该交易尚未被确认，但您可以选择花费该交易的产出（UTXOs），方法是为新交易分配更多费用，从而使您作为接收方的交易和发起的交易的平均费用鼓励矿工将这两个交易都包含在一个区块中。
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-如果所有这些术语看起来太专业，我建议您 [查阅我们的术语表](https://planb.network/resources/glossary)，其中包含与 Bitcoin 及其生态系统有关的所有技术术语的定义。
+如果所有这些术语看起来太专业，我建议您 [查阅我们的术语表](https://planb.academy/resources/glossary)，其中包含与 Bitcoin 及其生态系统有关的所有技术术语的定义。
 
 
 
@@ -235,7 +235,7 @@ Miner 指管理矿场的人，即参与 Mining 进程的计算机，该进程包
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗矿工就像 "验证员"，负责验证交易并将其归类到区块中。要向 Bitcoin 网络添加一个新区块，他们必须解决一个复杂的数学难题（Proof-of-Work）。第一个解开谜题的 Miner 将赢得 Bitcoin 奖励（区块赠款+区块中包含的交易费用）。
 
@@ -372,4 +372,4 @@ Mempool.space 是享受与 Bitcoin 协议网络互动的理想平台。这些图
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

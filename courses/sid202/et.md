@@ -1,5 +1,5 @@
 ---
-name: Ehitus elementide ja vedelikuvõrguga
+name: Ehitus Elements ja Liquid Network
 goal: Õppige kasutama ja arendama avatud lähtekoodiga plokiahela platvormi Elements ja selle põhifunktsioone
 objectives: 
 

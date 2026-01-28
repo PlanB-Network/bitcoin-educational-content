@@ -1,9 +1,10 @@
-question: Mis on üks viis leevendada Bitcoini volatiilsust?
-answer: Finantsilised riskimaandused (stablecoinid)
+question: Mis on üks põhjustest, miks Bitcoini kasutamine laienes pimedate veebiturgudele nagu Silk Road?
+answer: Selle kontrollimatu ja pseudonüümne olemus.
 wrong_answers:
-  - Kogu oma raha investeerimine Bitcoini.
-  - Turutrendide eiramine.
-  - Rohkem Bitcoini ostmise, kui selle hind langeb.
+  - Selle tsentraliseeritud kontroll.
+  - Selle jälgitavus.
+  - Selle pseudonüümsuse puudumine.
 explanation: >-
-  Bitcoini volatiilsust saab leevendada mitmete lahendustega, nagu finantsilised riskimaandused (stablecoinid), tugev pikaajaline usk (hodling) või lihtsalt mitte panustada 100% oma rahast Bitcoini, ilma midagi aru saamata.
+  Bitcoini kasutamine laienes pimedate veebiturgudele nagu Silk Road
+  tänu selle kontrollimatule ja pseudonüümsele olemusele.
 reviewed: false

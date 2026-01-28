@@ -1,0 +1,8 @@
+question: Cosa fa Rust durante il processo di sbobinatura quando si verifica un panico?
+answer: Esegue un percorso a ritroso nello stack delle chiamate per fornire una traccia dettagliata dello stack
+wrong_answers:
+  - Termina immediatamente il programma senza alcuna pulizia o informazione
+  - Converte il panico in un tipo di risultato recuperabile per la gestione degli errori
+  - Riavvia l'esecuzione della funzione corrente dall'inizio
+explanation: |
+  Quando si verifica un panico in Rust, il processo di unwinding ripercorre lo stack delle chiamate per fornire una traccia dettagliata dello stack che mostra esattamente dove si è verificato il panico. Questo aiuta gli sviluppatori a identificare l'origine del problema durante il debug. Le altre opzioni non sono corrette: Rust non termina immediatamente senza pulizia (ciò avviene solo quando l'unwinding è disabilitato), i panic non possono essere convertiti in tipi di Result perché rappresentano errori irrecuperabili e Rust non riavvia l'esecuzione delle funzioni quando si verificano i panic.

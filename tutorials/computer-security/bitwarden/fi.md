@@ -16,7 +16,7 @@ Näiden kahden salasanaturvallisuuden periaatteen (ainutlaatuisuus ja vahvuus) s
 
 Salasananhallintaohjelma luo ja tallentaa turvallisesti vahvoja salasanoja, mahdollistaen pääsyn kaikkiin verkkotileihisi ilman, että sinun tarvitsee muistaa niitä yksitellen. Sinun tarvitsee muistaa vain yksi salasana, pääsalasana, joka antaa sinulle pääsyn kaikkiin tallennettuihin salasanoihisi hallintaohjelmassa. Salasananhallintaohjelman käyttö parantaa verkkoturvallisuuttasi, koska se estää salasanojen uudelleenkäytön ja luo järjestelmällisesti satunnaisia salasanoja. Mutta se myös yksinkertaistaa päivittäistä tilien käyttöäsi keskittämällä pääsyn arkaluonteisiin tietoihisi.
 Tässä oppaassa tutkimme, kuinka ottaa käyttöön ja käyttää salasananhallintaohjelmaa parantaaksemme verkkoturvallisuuttasi. Esittelen sinulle Bitwardenin, ja toisessa oppaassa tutustumme toiseen ratkaisuun nimeltä KeePass.
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Varoitus: Salasananhallintaohjelma on loistava salasanojen tallentamiseen, mutta **sinun ei koskaan tulisi tallentaa Bitcoin-lompakkosi mnemonic-lausetta siihen!** Muista, että mnemonic-lause tulee tallentaa yksinomaan fyysiseen muotoon, kuten paperille tai metallille.
 
@@ -68,9 +68,9 @@ Ennen kaikkea, suosittelen vahvasti kaksivaiheisen tunnistautumisen (2FA) asetta
 
 Jos et ole varma, kuinka asettaa ja käyttää näitä 2FA-laitteita, suosittelen seuraamaan näitä kahta muuta opasta:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Tehdäksesi tämän, mene "*Turvallisuus*" -välilehteen "*Asetukset*" -valikossa.
 ![BITWARDEN](assets/notext/14.webp)
@@ -100,7 +100,7 @@ Nyt kun salasananhallintaohjelmasi on määritetty, voit alkaa tallentamaan tunn
 ![BITWARDEN](assets/notext/25.webp)
 Avautuvassa lomakkeessa aloita määrittelemällä tallennettavan kohteen luonne. Kirjautumistunnisteiden tallentamiseksi valitse pudotusvalikosta "*Login*" -vaihtoehto.
 ![BITWARDEN](assets/notext/26.webp)
-"*Name*" -kenttään syötä kuvaava nimi tunnisteillesi. Tämä helpottaa salasanojen etsimistä ja järjestämistä, erityisesti jos sinulla on niitä suuri määrä. Esimerkiksi, jos haluat tallentaa tunnisteesi PlanB Network -sivustolle, voit nimetä tämän kohteen tavalla, joka tekee siitä heti tunnistettavan tulevissa hauissasi.
+"*Name*" -kenttään syötä kuvaava nimi tunnisteillesi. Tämä helpottaa salasanojen etsimistä ja järjestämistä, erityisesti jos sinulla on niitä suuri määrä. Esimerkiksi, jos haluat tallentaa tunnisteesi Plan ₿ Academy -sivustolle, voit nimetä tämän kohteen tavalla, joka tekee siitä heti tunnistettavan tulevissa hauissasi.
 ![BITWARDEN](assets/notext/27.webp)
 "*Folder*" -vaihtoehto mahdollistaa tunnisteidesi luokittelun kansioihin. Toistaiseksi emme ole vielä luoneet yhtään, mutta näytän myöhemmin, miten se tehdään.
 ![BITWARDEN](assets/notext/28.webp)
@@ -128,7 +128,7 @@ Klikkaa sitten "*Tallenna*".
 ![BITWARDEN](assets/notext/40.webp)
 Kansiosi näkyy nyt hallintaohjelmassasi.
 ![BITWARDEN](assets/notext/41.webp)
-Voit määrittää kansion tunnisteelle luodessasi sitä, kuten aiemmin teimme, tai muokkaamalla olemassa olevaa tunnistetta. Esimerkiksi klikkaamalla PlanB Network -tunnistettani, voin sitten päättää luokitella sen "*Bitcoin*" -kansioon.
+Voit määrittää kansion tunnisteelle luodessasi sitä, kuten aiemmin teimme, tai muokkaamalla olemassa olevaa tunnistetta. Esimerkiksi klikkaamalla Plan ₿ Academy -tunnistettani, voin sitten päättää luokitella sen "*Bitcoin*" -kansioon.
 ![BITWARDEN](assets/notext/42.webp)
 Näin voit rakentaa salasanojen hallintaohjelmasi rakenteen, jotta tunnisteiden löytäminen helpottuu. Voit järjestää ne kansioihin, kuten henkilökohtaiset, ammatilliset, pankit, sähköpostit, sosiaaliset verkostot, tilaukset, ostokset, hallinto, suoratoisto, tallennus, matkailu, terveys jne.
 Jos haluat käyttää vain Bitwardenin verkkoversiota, se on täysin mahdollista. Suosittelen tällöin lisäämään salasanojen hallintaohjelmasi selaimen suosikkeihin helpon pääsyn varmistamiseksi ja phishing-riskien välttämiseksi. Bitwarden tarjoaa kuitenkin myös kattavan valikoiman asiakasohjelmia, joiden avulla voit käyttää hallintaohjelmaasi eri laitteilla ja yksinkertaistaa sen päivittäistä käyttöä. He tarjoavat erityisesti mobiilisovelluksen, selainlaajennuksen ja työpöytäohjelmiston. Katsotaan, miten ne asennetaan yhdessä.
@@ -172,7 +172,7 @@ Ja lopuksi, syötä 6-numeroinen koodi todennussovelluksestasi.
 Olet nyt yhdistänyt Bitwarden-hallintaohjelmaasi selainlaajennuksen kautta.
 
 ![BITWARDEN](assets/notext/51.webp)
-Esimerkiksi, jos palaan PlanB Network -sivustolle ja yritän kirjautua tililleni, voit nähdä, että selaimeseen integroitu Bitwarden-laajennus tunnistaa kirjautumiskentät ja tarjoaa automaattisesti valittavakseni aiemmin tallentamani tunnisteen.
+Esimerkiksi, jos palaan Plan ₿ Academy -sivustolle ja yritän kirjautua tililleni, voit nähdä, että selaimeseen integroitu Bitwarden-laajennus tunnistaa kirjautumiskentät ja tarjoaa automaattisesti valittavakseni aiemmin tallentamani tunnisteen.
 ![BITWARDEN](assets/notext/52.webp)
 Jos valitsen tämän tunnisteen, Bitwarden täyttää kirjautumiskentät puolestani. Tämän laajennuksen ominaisuus mahdollistaa nopean yhteyden muodostamisen verkkosivustoille ilman, että tunnistetietoja tarvitsee kopioida ja liittää Bitwardenin verkkosovelluksesta tai ohjelmistosta.
 ![BITWARDEN](assets/notext/53.webp)

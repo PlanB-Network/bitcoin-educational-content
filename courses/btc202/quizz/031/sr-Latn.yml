@@ -1,0 +1,9 @@
+question: Koja distribucija je najprikladnija za Raspberry Pi, s obzirom da je posebno lagana?
+answer: RaspiBlitz
+wrong_answers:
+  - Umbrel
+  - MyNode
+  - Start9
+explanation: |
+  RaspiBlitz je optimizovan za Raspberry Pi i ostaje lagan, za razliku od Umbrela, koji je postao previše težak za ove mašine.
+reviewed: true

@@ -1,8 +1,8 @@
-question: Koji je jedan način da sami testirate Lightning mrežu?
-answer: Pokušavajući aplikaciju za podkaste pod nazivom Fountain.
+question: Koje je jedno od glavnih pitanja vezanih za cenzuru?
+answer: Može uništiti slobodu izražavanja i pravo na okupljanje.
 wrong_answers:
-  - Korišćenjem ličnog računara rudarenje Bitkoina.
-  - Kupovinom Bitkoina od banke.
-  - Kreiranjem nove kriptovalute.
+  - To može dovesti do sprovođenja slobode izražavanja.
+  - To može dovesti do veće podrške za pravo na okupljanje.
+  - To može dovesti do smanjenja inovacija.
 explanation: >-
 reviewed: true

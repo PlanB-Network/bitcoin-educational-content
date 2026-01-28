@@ -1,0 +1,8 @@
+question: 哪個 Python 函式特別提到可以在加密作業中執行有效率的模乘？
+answer: pow(base, exp, mod)
+wrong_answers:
+  - mod(base, exp, prime)
+  - exp(base, mod, field)
+  - mult(base, exp, modulo)
+explanation: |
+  Python 內建的 pow(base, exp, mod) 函數是專為高效率的模組化指數運算而設計的，這對於涉及大指數的加密運算非常重要。這個函數使用最佳化的演算法來計算 (base^exp) mod mod，而不需要先計算 base^exp 這個潛在的巨大中間結果。其他選項不是有效的 Python 函數 - 具有這些參數模式的 mod()、exp() 和 mult() 並不存在於 Python 用於加密模數運算的標準函式庫中。

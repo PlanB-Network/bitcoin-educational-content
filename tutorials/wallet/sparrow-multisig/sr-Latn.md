@@ -48,7 +48,7 @@ U ovom vodiču ćemo naučiti kako kreirati i koristiti klasični multisignature
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Preduslovi
 
@@ -58,7 +58,7 @@ Za ovaj vodič, pokazaću vam kako da napravite Multisig sa [Sparrow Wallet soft
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
 Da biste postavili višepotpisni Wallet, biće vam potrebni različiti hardverski novčanici. Za Multisig 2-de-3, na primer, možete koristiti :
 
@@ -101,11 +101,11 @@ Pre nego što konfigurišete svoj Multisig Wallet, uverite se da je svaki Hardwa
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Kao što ćemo videti kasnije u ovom vodiču, takođe je moguće integrisati u vašu Multisig konfiguraciju faktor koji nije povezan sa Hardware Wallet, ali čiji su privatni ključevi sačuvani na vašem računaru. Ovaj metod je očigledno manje siguran od isključive upotrebe hardverskih novčanika, ali može biti relevantan u određenim slučajevima. Na primer, za Multisig 2-de-3, mogli biste se odlučiti za dva hardverska novčanika i jedan Software Wallet.
 
@@ -375,7 +375,7 @@ Pored čuvanja *Descriptor*-a, ne zaboravite da obratite posebnu pažnju na čuv
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Pre nego što primite svoje prve bitkoine na vaš Multisig, **snažno vam savetujem da izvršite test praznog oporavka**. Zabeležite neke referentne informacije, kao što je prvi prijemni Address, zatim resetujte svoje hardverske novčanike dok je Wallet još uvek prazan. Zatim pokušajte da obnovite svoj Multisig Wallet na Hardverskim Novčanicima koristeći svoje Mnemonic fraze sa papirnih rezervnih kopija, a zatim na Sparrow koristeći *Descriptor*. Proverite da li prvi Address generisan nakon obnove odgovara onom koji ste prvobitno zapisali. Ako odgovara, možete biti sigurni da su vaše papirne rezervne kopije pouzdane.
 
@@ -385,7 +385,7 @@ Da biste saznali više o tome kako izvesti test oporavka, predlažem da pogledat
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Primajte bitkoine na vašem Multisig
 
@@ -619,4 +619,4 @@ Da biste nastavili dalje, preporučujem da pogledate ovaj vodič o drugoj metodi
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

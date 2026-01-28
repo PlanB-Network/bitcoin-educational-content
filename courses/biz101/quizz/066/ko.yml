@@ -1,0 +1,9 @@
+question: 올인원 온라인 리테일 환경을 선호하는 기업을 위한 대체 솔루션에는 어떤 것이 있나요?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - 노드 열기
+  - 스위스 Bitcoin Pay
+explanation: |
+  Be-BOP은 Bitcoin 결제를 용이하게 하는 통합 온라인 이스토어를 원하는 분들을 위한 옵션입니다.
+reviewed: true

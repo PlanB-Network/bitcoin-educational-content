@@ -1,11 +1,11 @@
-question: Mis on hoiustava rahakoti kasutamise risk?
-answer: Usaldusväärne kolmas osapool võib igal ajal piirata teie juurdepääsu teie vahenditele
+question: Mis on üks meetod oma bitcoinide pikaajaliseks turvamiseks?
+answer: Graveeri oma mnemooniline fraas vastupidavale materjalile nagu teras
 wrong_answers:
-  - Usaldusväärne kolmas osapool võib igal ajal suurendada teie bitcoinide väärtust
-  - Usaldusväärne kolmas osapool võib igal ajal vähendada teie bitcoinide väärtust
-  - Usaldusväärne kolmas osapool võib igal ajal anda teie bitcoinid ära
+  - Hoia neid digitaalses rahakotis
+  - Hoia neid vahetusplatvormil
+  - Jaga oma mnemoonilist fraasi usaldusväärse sõbraga
 explanation: |
-  Kui kasutate hoiustavat rahakotti, ei ole te ainus teie bitcoinide omanik.
-  See tähendab, et usaldusväärne kolmas osapool võib igal ajal piirata teie juurdepääsu teie vahenditele,
-  andes teile samasuguse finantsilise suveräänsuse taseme nagu traditsioonilise pangandussüsteemiga.
+  Oma mnemoonilise fraasi graveerimine vastupidavale materjalile nagu teras loob
+  füüsilise varukoopia sinu võtmetest, mis on vastupidav nii veekahjustustele kui ka tulele,
+  tagades seeläbi sinu bitcoinide pikaajalise turvalisuse.
 reviewed: true

@@ -1,12 +1,12 @@
 ---
-name: Pilha de bits
+name: Bitstack
 description: Comprar e vender bitcoins na aplicação Bitstack
 ---
 ![cover](assets/cover.webp)
 
 Bitstack é uma plataforma francesa de investimento em bitcoin, regulada pela AMF. Oferece uma aplicação disponível em Android e iOS para facilitar a compra e venda de bitcoin.
 
-O que distingue o Bitstack é o seu sistema de arredondamento automático, que sincroniza a conta bancária do utilizador para converter a diferença entre o montante debitado durante as despesas diárias e o euro superior seguinte, diretamente em bitcoins. Este método facilita a aplicação do *Dollar Cost Averaging* (DCA), permitindo uma acumulação gradual e indolor de satoshis. Para além desta caraterística original, a plataforma também oferece um sistema DCA clássico com investimentos automáticos, bem como compra e venda à vista.
+O que distingue o Bitstack é o seu sistema de arredondamento automático, que sincroniza a conta bancária do utilizador para converter a diferença entre o montante debitado nas despesas diárias e o euro superior diretamente em bitcoins. Este método facilita a aplicação do *Dollar Cost Averaging* (DCA), permitindo uma acumulação progressiva e indolor de satoshis. Além desta funcionalidade original, a plataforma também oferece um sistema DCA clássico com investimentos automáticos, bem como compras e vendas pontuais.
 
 ![Image](assets/fr/01.webp)
 
@@ -28,8 +28,8 @@ Todas as outras operações na plataforma são gratuitas, incluindo levantamento
 Para descarregar a aplicação Bitstack, vá à sua loja de aplicações:
 
 
-- [Descarregar da Google Play Store] (https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
-- [Descarregar na App Store] (https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-bitcoin/id1608783388)
+- [Descarregar da Google Play Store](https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
+- [Descarregar na App Store](https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-bitcoin/id1608783388)
 
 ![Image](assets/fr/02.webp)
 
@@ -51,9 +51,9 @@ Escolha uma palavra-passe forte para proteger o acesso à sua conta e, em seguid
 
 ![Image](assets/fr/06.webp)
 
-Para uma gestão segura das palavras-passe no dia a dia, a utilização de um gestor de palavras-passe é altamente recomendada. No Plan ₿ Network, encontrará vários tutoriais sobre as melhores soluções existentes, como o Bitwarden :
+Para uma gestão segura das palavras-passe no dia a dia, a utilização de um gestor de palavras-passe é altamente recomendada. No Plan ₿ Academy, encontrará vários tutoriais sobre as melhores soluções existentes, como o Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ser-lhe-á então pedido que verifique a sua identidade (KYC). Em conformidade com a regulamentação francesa, ser-lhe-á pedido que forneça os seus dados pessoais e um comprovativo de identidade. Preencha os campos com o seu apelido, nome próprio e data de nascimento.
 
@@ -110,7 +110,7 @@ Como mencionado na introdução, o Bitstack oferece 3 métodos para investir em 
 - Configuração de compras recorrentes (RPC) ;
 - A utilização do arredondamento automático nas despesas.
 
-### Comprar com dinheiro
+### Fazer uma compra pontual
 
 Para efetuar uma compra única de bitcoins ao preço de mercado, basta clicar em "*Comprar*".
 
@@ -126,7 +126,7 @@ A sua transação está agora confirmada.
 
 ### Configurar um DCA
 
-O Dollar Cost Averaging* (DCA) é uma estratégia de investimento atractiva para acumular bitcoin e reduzir os riscos associados à sua volatilidade. Ao comprar regularmente um montante fixo, independentemente do preço, pode suavizar o seu custo de aquisição e evitar a tomada de decisões impulsivas. A DCA ajuda a reduzir as tendências comportamentais, como o medo de perder uma oportunidade ou o pânico em caso de queda do preço, e permite-lhe assim gerir as suas poupanças em bitcoin de forma serena e disciplinada.
+O *Dollar Cost Averaging* (DCA) é uma estratégia de investimento atractiva para acumular bitcoin e reduzir os riscos associados à sua volatilidade. Ao comprar regularmente um montante fixo, independentemente do preço, pode suavizar o seu custo de aquisição e evitar a tomada de decisões impulsivas. A DCA ajuda a reduzir as tendências comportamentais, como o medo de perder uma oportunidade ou o pânico em caso de queda do preço, e permite-lhe assim gerir as suas poupanças em bitcoin de forma serena e disciplinada.
 
 Para configurar uma compra recorrente (DCA) no Bitstack, vá à secção "*Poupança*" da página inicial e selecione "*Recorrente*". Em seguida, prima "*Continuar*".
 
@@ -184,7 +184,7 @@ Determinar a prioridade da transação. Para uma retirada sem taxas, selecione a
 
 ![Image](assets/fr/32.webp)
 
-Se não estiver familiarizado com o funcionamento de uma carteira de autocustódia, oferecemos tutoriais sobre a maioria das soluções disponíveis [no Plano ₿ Rede na secção "*Carteira*"] (https://planb.network/tutorials/wallet).
+Se não estiver familiarizado com o funcionamento de uma carteira de autocustódia, oferecemos tutoriais sobre a maioria das soluções disponíveis [no Plano ₿ Rede na secção "*Carteira*"](https://planb.academy/tutorials/wallet).
 
 ## Vender bitcoin
 

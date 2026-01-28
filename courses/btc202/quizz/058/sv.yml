@@ -1,0 +1,9 @@
+question: Vad är den största begränsningen i Tors kommunikation med din nod?
+answer: Långsamhet
+wrong_answers:
+  - Bristande kryptering
+  - Skräppost
+  - Omöjligt att använda RPC
+explanation: |
+  Tor-anslutningar är säkra, men långsammare än alternativ som VPN.
+reviewed: true

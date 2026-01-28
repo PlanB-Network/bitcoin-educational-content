@@ -1,0 +1,26 @@
+id: ba068594-fa07-48c4-b931-f6fe368ae80e
+name: Rumble
+
+links:
+  website: https://rumble.com/
+  twitter: https://x.com/rumblevideo
+
+category: infrastructure
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - wallets
+  - software
+  - adoption
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

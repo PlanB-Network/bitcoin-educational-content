@@ -1,0 +1,8 @@
+question: Jaki konkretny mechanizm zapewnia, że węzły sprzed SegWit akceptują transakcje P2WPKH jako prawidłowe bez zrozumienia zasad walidacji świadków?
+answer: Węzły sprzed SegWit interpretują OP_0 + 20-bajtowy skrypt skrótu jako dane wyjściowe "anyone-can-spend", które nie wymagają weryfikacji podpisu
+wrong_answers:
+  - Węzły sprzed SegWit automatycznie przesyłają transakcje P2WPKH do ulepszonych węzłów w celu sprawdzenia ich poprawności przed ich zaakceptowaniem
+  - Węzły sprzed SegWit rozpoznają wzorzec P2WPKH i całkowicie pomijają walidację, traktując wszystkie transakcje świadków jako wstępnie zweryfikowane
+  - Węzły sprzed SegWit konwertują dane poświadczeń z powrotem do tradycyjnego formatu scriptSig przy użyciu reguł transformacji zgodności wstecznej
+explanation: |
+  Geniusz projektu SegWit polega na wykorzystaniu sposobu, w jaki węzły sprzed SegWit radzą sobie z nieznanymi wzorcami skryptów. Kiedy te starsze węzły napotykają skrypt P2WPKH (OP_0, po którym następuje 20-bajtowy push), nie rozpoznają go jako specjalnego programu świadka. Zamiast tego oceniają go jako standardowy skrypt, który pozostawia OP_0 i hash na stosie. Ponieważ OP_0 ma wartość false w systemie skryptowym Bitcoin, węzły sprzed SegWit interpretują to jako warunek "anyone-can-spend" - co oznacza, że z ich perspektywy nie jest wymagana weryfikacja podpisu. Pozwala to na zaakceptowanie transakcji w ich mempool i blokach bez przerywania konsensusu, podczas gdy węzły świadome SegWit wykonują faktyczną walidację kryptograficzną przy użyciu danych świadków.

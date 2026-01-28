@@ -1,0 +1,9 @@
+question: ¿Es la inflación estructural el resultado?
+answer: Un aumento del dinero Supply.
+wrong_answers:
+  - Aumento de precios
+  - Política fiscal.
+  - Medidas antiliberales.
+explanation: |
+  La inflación estructural es el resultado de un aumento del Supply monetario. Cuando la cantidad de dinero en circulación aumenta más deprisa que la producción de bienes y servicios, se produce una subida generalizada de los precios.
+reviewed: false

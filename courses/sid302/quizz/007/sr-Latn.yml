@@ -1,0 +1,8 @@
+question: Kakva je veza između Elements i Liquid Network?
+answer: Liquid je specifična instanca Elements bočnog lanca konfigurisana za proizvodnu upotrebu
+wrong_answers:
+  - Elements je specifična instanca Liquid Network konfigurisana za potrebe testiranja
+  - Liquid i Elements su dve konkurentske blockchain platforme sa različitim kodnim bazama
+  - "Elements je mehanizam konsenzusa koji pokreće validaciju blokova Liquid Network"
+explanation: |
+  Elements je softver platforme otvorenog koda za blockchain, dok je Liquid specifična implementacija ili 'instanca' Elements bočnog lanca koja je konfigurisana za proizvodnu upotrebu sa federativnim modelom konsenzusa. Zamislite Elements kao osnovni tehnološki okvir, a Liquid kao jednu određenu mrežu izgrađenu korišćenjem tog okvira. Ovo je slično tome kako je Bitcoin Core softver koji pokreće Bitcoin mrežu - Elements je softverski motor koji pokreće Liquid i druge prilagođene bočne lance.

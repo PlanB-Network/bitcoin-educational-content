@@ -1,11 +1,13 @@
-question: Hur skapas sunda pengar?
-answer: Sunda pengar måste på ett naturligt sätt växa fram ur marknaden och det frivilliga samförståndet.
+question: Vad är huvudsyftet bakom skapandet av Bitcoin?
+answer: Att skilja staten från pengar.
 wrong_answers:
-  - Sunda pengar måste genomdrivas av regeringen genom att utfärda penninglagar.
-  - Sunda pengar måste tvingas fram av företagen med hjälp av våld.
-  - Sunda pengar kan inte skapas.
+  - Att avskaffa guldmyntfoten.
+  - För att göra transaktioner snabbare och billigare.
+  - Att göra alla rika.
 explanation: |
-  Sunda pengar är ett naturligt socialt fenomen som måste växa fram
-  från marknaden och det frivilliga samförståndet. Ingen människa eller
-  grupp av människor kan skapa pengar.
+  Bitcoin skapades i syfte att skilja staten från pengar
+  från pengar. Det är ett svar på de systemiska utmaningarna i
+  nuvarande finansiella systemet, där staten har full
+  kontroll över pengarna Supply och kan manipulera dem till sin egen
+  egen fördel.
 reviewed: true

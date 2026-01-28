@@ -1,0 +1,9 @@
+question: Selon l'étude de Nicolas Christin publiée en août 2012, quel était le volume de vente journalier au cours du mois de mai 2012 ?
+answer: 15 000 BTC soit 75 000 $
+wrong_answers:
+  - 600 BTC soit 3000 $
+  - 3 000 BTC soit 15 000 $
+  - 75 000 BTC soit 375 000 $
+explanation: |
+ Le volume de vente journalier, qui était de 8 000 BTC en mars, a atteint 15 000 BTC en mai, soit environ 75 000 $ à ce moment-là. La proportion de l'activité par rapport à l'activité totale de la chaine de Bitcoin a oscillé entre 10 et 20 % durant l'année 2012. Début novembre, Ross a parlé de « croissance explosive » pour qualifier le succès de la plateforme.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Mis on üks riskidest, mis on seotud Bitcoini ostmisega?
-answer: Selle hind võib langeda 0-ni.
+question: Mis on üks asjadest, mida peaksid arvestama DCA platvormi valimisel?
+answer: Kättesaadavus sinu riigis.
 wrong_answers:
-  - Seda on kerge varastada.
-  - Seda saab dubleerida.
-  - Seda võib füüsiliselt kaotada.
+  - Platvormi logo värv.
+  - Kasutajate arv platvormil.
+  - Platvormi vanus.
 explanation: >-
-  Tekstis mainitakse, et Bitcoin on väga volatiilne finantsvara ja
-  selle hind võib langeda 0-ni. See on üks riskidest, mis on seotud Bitcoini ostmisega.
+  Tekstis mainitakse, et DCA platvormi valimisel sõltub valik rohkem kättesaadavusest sinu riigis.
 reviewed: false

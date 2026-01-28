@@ -1,0 +1,9 @@
+question: 最も広く使われているビットコインノードの実装は？
+answer: ビットコインコア
+wrong_answers:
+  - Bitcoin Knots
+  - ビットコインクラシック
+  - Bコイン
+explanation: |
+  ネットワーク上の10ノードのうち約9ノードを占めるビットコインコアは、大多数のクライアントです。
+reviewed: true

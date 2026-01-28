@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Varpunen
+name: Jade Plus - Sparrow
 description: Jade Plussan edistynyt konfigurointi Sparrow-lompakon kanssa
 ---
 ![cover](assets/cover.webp)
@@ -36,7 +36,7 @@ Jade Plus on yhteensopiva useimpien salkunhallintaohjelmistojen kanssa. Tässä 
 
 Tässä oppaassa asetamme Jade Plus -laitteen edistyneen kokoonpanon työpöydän Sparrow Wallet -ohjelmiston kanssa QR-koodit-tilassa. Tämä kokoonpano sopii erinomaisesti keskitason tai kokeneille käyttäjille. Jos etsit yksinkertaisempaa lähestymistapaa aloittelijoille, suosittelen tutustumaan tähän opetusohjelmaan, jossa käytämme Jade Plus -laitetta Green Walletin kanssa Bluetooth-yhteyden kautta:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Jade Plus -turvamalli
 
@@ -91,7 +91,7 @@ Napsauta "*Setup Jade*".
 
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
-Valitse "Lisäasetukset*".
+Valitse "Lisäasetukset".
 
 ![Image](assets/fr/07.webp)
 
@@ -103,7 +103,7 @@ Napsauta "*Jatka*"-painiketta näyttääksesi uuden palautuslausekkeen.
 
 ![Image](assets/fr/09.webp)
 
-Jade Plus näyttää 12-sanaisen muistisanan. **Tämä muistisana antaa sinulle täyden, rajoittamattoman pääsyn kaikkiin bitcoineihisi. Kuka tahansa, jolla on hallussaan tämä lauseke, voi varastaa varojasi, vaikka hänellä ei olisi fyysistä pääsyä Jade Plus -laitteeseesi. 12-sanainen lauseke palauttaa pääsyn bitcoineihisi, jos Jade häviää, varastetaan tai rikkoutuu. Siksi on erittäin tärkeää tallentaa se huolellisesti ja säilyttää se turvallisessa paikassa.
+Jade Plus näyttää 12-sanaisen muistisanan. **Tämä muistisana antaa sinulle täyden, rajoittamattoman pääsyn kaikkiin bitcoineihisi. Kuka tahansa, jolla on hallussaan tämä lauseke, voi varastaa varojasi, vaikka hänellä ei olisi fyysistä pääsyä Jade Plus -laitteeseesi. 12-sanainen lauseke palauttaa pääsyn bitcoineihisi, jos Jade häviää, varastetaan tai rikkoutuu. Siksi on erittäin tärkeää tallentaa se huolellisesti ja säilyttää se turvallisessa paikassa.**
 
 Voit kirjoittaa sen laatikossa olevaan pahviin, tai jos haluat lisätä turvallisuutta, suosittelen kaiverrusta ruostumattomasta teräksestä valmistettuun alustaan, joka suojaa sitä tulipalolta, tulvalta tai romahdukselta.
 
@@ -111,9 +111,9 @@ Voit kirjoittaa sen laatikossa olevaan pahviin, tai jos haluat lisätä turvalli
 
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.**_
+näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.
 
 Napsauta näytön oikeassa reunassa olevaa nuolta näyttääksesi seuraavat sanat.
 
@@ -195,7 +195,7 @@ Syötä PIN-koodi.
 
 ![Image](assets/fr/39.webp)
 
-Mene sitten [Blockstreamin verkkosivustolle] (https://jadefw.blockstream.com/pinqr/qrpin.html) vaihtaaksesi QR-koodeja oraakkelin kanssa.
+Mene sitten [Blockstreamin verkkosivustolle](https://jadefw.blockstream.com/pinqr/qrpin.html) vaihtaaksesi QR-koodeja oraakkelin kanssa.
 
 ![Image](assets/fr/40.webp)
 
@@ -269,7 +269,7 @@ BIP39-salasana on valinnainen salasana, jonka voit valita vapaasti ja joka lisä
 
 Ennen kuin määrität tämän vaihtoehdon Jade Plus -laitteeseesi, on erittäin suositeltavaa, että luet tämän artikkelin, jotta ymmärrät täysin salasanan teoreettisen toiminnan ja vältät virheet, jotka voivat johtaa bitcoinien menettämiseen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Kun Jade on edelleen lukittuna (salasana voidaan syöttää vain, kun laitteen lukitusta ei ole avattu), avaa "*Options*"-valikko.
 
@@ -284,7 +284,7 @@ Vaihtoehdossa "*Tiheys*" voit valita, pyytääkö Jade Plus sinua syöttämään
 
 - "*Ei käytössä*" poistaa salasanan käytön käytöstä;
 - "*Next Login Only*" edellyttää, että palaat tähän valikkoon aktivoidaksesi salasanasi pyytämisen seuraavan käynnistyksen yhteydessä. Tämän vaihtoehdon avulla et voi paljastaa sen käyttöä;
-- "*Always Ask*" (Kysy aina*) saa Jaden systemaattisesti kysymään salasanaa joka kerta, kun se käynnistyy, jolloin paljastuu, että lompakkosi on suojattu salasanalla.
+- "**Always Ask**" (Kysy aina) saa Jaden systemaattisesti kysymään salasanaa joka kerta, kun se käynnistyy, jolloin paljastuu, että lompakkosi on suojattu salasanalla.
 
 Valitse turvastrategian mukainen vaihtoehto. Henkilökohtaisesti valitsen esimerkissä vaihtoehdon "*Kysy aina*".
 
@@ -314,7 +314,7 @@ Jos tunnuslauseesi on voimassa, vahvista.
 
 Huomaa, että BIP39-salasanat ovat isojen ja pienten kirjainten suhteen herkkiä. Jos syötät hieman erilaisen salasanan kuin alun perin määritetty, Jade ei ilmoita virheestä, vaan se johtaa toisen salausavaimen, joka ei ole alkuperäisen salkun mukainen.
 
-Siksi on tärkeää, että kirjaat konfiguroinnin yhteydessä muistiin pääavaimen sormenjäljen, joka löytyy näytön oikeasta alakulmasta. Esimerkiksi tunnuslauseellani `PBN` pääavaimeni sormenjälki on `3AD1AE65`.
+Siksi on tärkeää, että kirjaat konfiguroinnin yhteydessä muistiin pääavaimen sormenjäljen, joka löytyy näytön oikeasta alakulmasta. Esimerkiksi tunnuslauseellani `Plan ₿ Academy` pääavaimeni sormenjälki on `3AD1AE65`.
 
 ![Image](assets/fr/49.webp)
 
@@ -322,7 +322,7 @@ Aina kun avaat Jaden lukituksen salasanalla, tarkista, että sormenjälki on sam
 
 Ennen kuin saat ensimmäiset bitcoinit lompakkoosi, **neuvon sinua tekemään tyhjän palautustestin**. Kirjoita muistiin joitakin viitetietoja, kuten xpub- tai ensimmäinen vastaanottava osoite, ja poista lompakkosi Jade Plus -laitteesta, kun se on vielä tyhjä (`Options -> Device -> Factory Reset`). Yritä sitten palauttaa lompakkosi käyttämällä paperitallennuksia muistilausekkeesta ja mahdollisesta salasanasta. Tarkista, että palautuksen jälkeen luodut evästetiedot vastaavat alun perin kirjoittamiasi tietoja. Jos ne täsmäävät, voit olla varma, että paperiset varmuuskopiot ovat luotettavia. Jos haluat lisätietoja testipalautuksen suorittamisesta, tutustu tähän toiseen opetusohjelmaan:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Lompakon määrittäminen Sparrow Walletissa
 
@@ -334,7 +334,7 @@ Aloita lataamalla ja asentamalla Sparrow Wallet [virallisilta verkkosivuilta](ht
 
 Varmista ohjelmiston aitous ja eheys ennen asennusta. Jos et tiedä, miten tämä tehdään, tutustu tähän ohjeeseen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Kun Sparrow Wallet on avattu, napsauta välilehteä "*File*" ja sitten "*New Wallet*".
 
@@ -452,4 +452,4 @@ Onneksi olkoon, tiedät nyt, miten Jade Plus -laite asetetaan ja sitä käytetä
 
 Jos haluat mennä pidemmälle, suosittelen tätä toista Jade Plus -ohjelmaa, jossa konfiguroimme sen Bluetoothilla Greenin mobiilisovelluksen avulla:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

@@ -1,0 +1,9 @@
+question: Dushingiye ku mbonerahamwe ya Satoshi Nakamoto, ni ingaruka izihe amafaranga y’ibiceri yatakaye afise ku biceri bisigaye biri mu nzira?
+answer: Batuma ibiceri vy’abandi bose bigira agaciro gatoyi nk’intererano ku muntu wese .
+wrong_answers:
+  - Bagabanya umutekano w'urubuga mu kugabanya agaciro kose kariho k'impera za mining .
+  - Bitera umukazo w’ugutakaza agaciro kw’ibiciro utuma uburyo bw’amahera buhungabana uko igihe kigenda kirarenga .
+  - Bitegerezwa gusubirwamwo biciye ku yindi mining kugira ngo bigumye ku rugero rwo gutanga .
+explanation: |
+  Satoshi Nakamoto yasiguye ko ibiceri vyatakaye bikora nk’intererano ku bandi bose bafise bitcoin mu gutuma ibiceri vyabo bigira agaciro kanini kubera ukugabanya ubushobozi bwo gutanga. Ivyo ni ingaruka nziza z’ugutakaza agaciro, si inguvu zituma habaho ugusenyuka. Ibiceri vyatakaye ntibigira ico bikoze ku ngororano za mining kuko ivyo biva ku biceri bishasha vyacuzwe n’amahera yo gucuruza, ntibiva ku vyo umuntu ashobora gutanga. Itegeko rya Bitcoin ntirisubirira ibiceri vyatakaye - biguma bitakoreshwa ubudasiba, ivyo mu vy’ukuri bifasha abasigaye bafise biciye mu gukenera cane.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Rust'in platformlar arası uyumluluğu, farklı dağıtım ortamlarında Bitcoin uygulama geliştirmeye nasıl fayda sağlar?
+answer: Birleştirilmiş kod tabanlarının mobil platformlarda, WebAssembly aracılığıyla web tarayıcılarında ve geleneksel işletim sistemlerinde çalışmasını sağlar
+wrong_answers:
+  - Farklı bölgesel piyasalar ve para birimleri arasında kripto para birimi döviz kuru dönüşümlerini otomatik olarak gerçekleştirir
+  - Tüm ağ mimarilerinde aynı şekilde çalışan yerleşik blok zinciri senkronizasyon protokolleri sağlar
+  - Desteklenen her platformda donanım cüzdanları ve güvenlik modülleri ile yerel entegrasyon sunar
+explanation: |
+  Rust'ün platformlar arası yetenekleri, geliştiricilerin mobil (Android/iOS), web tarayıcıları (WebAssembly derlemesi yoluyla) ve geleneksel masaüstü işletim sistemleri dahil olmak üzere çeşitli ortamlarda dağıtılabilen Bitcoin uygulamaları yazmasına olanak tanır. Bu çok yönlülük, doğrudan tarayıcılarda çalışan Lightning cüzdanları oluşturmak için Rust'ün WebAssembly desteğinden yararlanan Mutiny Wallet gibi projelerle kanıtlanmıştır. Yanlış cevaplar, platformlar arası uyumlulukla ilgili olmayan özellikleri tanımlamaktadır - para birimi dönüştürme uygulama düzeyinde bir özelliktir, blok zinciri protokolleri ağ katmanı ile ilgilidir ve donanım entegrasyonu genel platformlar arası destek yerine özel API'ler gerektirir.

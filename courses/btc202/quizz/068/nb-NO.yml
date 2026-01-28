@@ -1,0 +1,9 @@
+question: Hva er de tre viktigste fordelene med regelmessige oppdateringer av operativsystem og apper?
+answer: Sikkerhet, pålitelighet og funksjonalitet
+wrong_answers:
+  - Hastighet, anonymitet, kompatibilitet
+  - Sikkerhet, minne, lagring
+  - Konfidensialitet, funksjonalitet, pålitelighet
+explanation: |
+  Oppdateringer sørger for sikkerhet mot sårbarheter, kompatibilitet med videreutviklinger og nye funksjoner, og systemets pålitelighet.
+reviewed: true

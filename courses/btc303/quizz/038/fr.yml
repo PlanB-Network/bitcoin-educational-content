@@ -1,0 +1,9 @@
+question: D'après le chapitre, qu'est-ce qui distingue une fork douce d'une fork dure dans les changements de règles de consensus Bitcoin ?
+answer: Une fork souple est entièrement compatible (à la fois en avant et en arrière), tandis qu'une fork rigide n'est compatible qu'en arrière
+wrong_answers:
+  - Une fork douce nécessite l'activation du signal du mineur tandis qu'une fork dure utilise l'activation du jour du drapeau
+  - Une fork douce modifie les opcodes existants alors qu'une fork dure n'ajoute que de nouveaux opcodes comme OP_NOP1-OP_NOP10
+  - Une fork douce peut être mise en œuvre secrètement dans les commits, tandis qu'une fork dure doit être annoncée publiquement
+explanation: |
+  Le chapitre définit clairement les types de compatibilité : la compatibilité ascendante permet à un ancien logiciel de traiter de nouvelles données en ignorant les parties inconnues, tandis que la compatibilité descendante permet à un nouveau logiciel de traiter d'anciennes données. Une fork souple maintient les deux types de compatibilité, ce qui la rend entièrement compatible. Une fork dure ne maintient que la compatibilité ascendante, ce qui signifie que le nouveau logiciel peut traiter les anciennes données, mais que l'ancien logiciel ne peut pas traiter les nouvelles données du système mis à niveau. Cette distinction est essentielle pour comprendre les mécanismes de mise à niveau de la Bitcoin et la raison pour laquelle les fourches souples sont préférables pour maintenir l'harmonie du réseau.
+reviewed: false

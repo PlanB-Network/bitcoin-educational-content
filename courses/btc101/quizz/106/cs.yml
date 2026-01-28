@@ -1,9 +1,12 @@
-question: Proč je doporučeno nechávat své Bitcoiny mimo obchodní platformy?
-answer: Mohou být náchylné k útokům hackerů.
+question: Co brání všem používat stejnou Bitcoin peněženku?
+answer: Různí jednotlivci mají různé požadavky na použití.
 wrong_answers:
-  - Obchodní platformy účtují náhodné poplatky.
-  - Bitcoin ztrácí na obchodních platformách na hodnotě.
-  - Obchodní platformy nejsou regulované instituce.
+  - Používání Bitcoin peněženky je drahé.
+  - Používání Bitcoin peněženky je nelegální.
+  - Lidé se nikdy neshodnou na názvu takové peněženky.
 explanation: |
-  Doporučuje se nechávat své Bitcoiny mimo obchodní platformy, protože mohou být náchylné k útokům hackerů.
+  Zatímco jedna osoba může dávat přednost bezpečnosti, jiná
+  může cenit uživatelskou přívětivost nebo specifické funkce. Proto
+  jedna Bitcoin peněženka nemusí vyhovovat požadavkům všech,
+  což činí nutnost existence více možností peněženek.
 reviewed: true

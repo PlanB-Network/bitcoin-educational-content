@@ -1,0 +1,9 @@
+question: Jaké je hlavní riziko, kterému má strážní věž zabránit?
+answer: Podvádění se starým státem
+wrong_answers:
+  - 51% útok
+  - Krádež osiva
+  - Podvádět s novým stavem
+explanation: |
+  Strážní věž chrání před zveřejněním starého státního kanálu zaměřeného na zpronevěru finančních prostředků.
+reviewed: false

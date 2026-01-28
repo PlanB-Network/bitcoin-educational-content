@@ -1,0 +1,9 @@
+question: Zgodnie z rozdziałem, jakie jest główne ograniczenie, przed którym nie chroni nawet full node?
+answer: Przepisywanie łańcucha, które może podwoić wydatki na transakcje
+wrong_answers:
+  - Złośliwe oprogramowanie wykradające klucze prywatne z pamięci
+  - "Nieprawidłowe bloki, które nie są zgodne z zasadami konsensusu Bitcoin"
+  - Nieprawidłowe harmonogramy emisji monet naruszające protokół
+explanation: |
+  Podczas gdy full node może weryfikować, czy bloki są zgodne z zasadami konsensusu, zapobiegać emisji nieprawidłowych monet i wykrywać naruszenia protokołu, nie może zapobiec przepisywaniu łańcucha, w którym górnicy reorganizują łańcuch bloków w celu podwójnego wydawania transakcji. Rozdział ten wyraźnie stwierdza, że bez względu na to, jak zaawansowane jest twoje oprogramowanie, nadal musisz ufać, że bloki zawierające twoje monety nie zostaną przepisane. Dlatego właśnie mechanizm obronny Bitcoin polega na oczekiwaniu na wielokrotne potwierdzenia, aby zmniejszyć prawdopodobieństwo przepisania łańcucha do akceptowalnego poziomu.
+reviewed: false

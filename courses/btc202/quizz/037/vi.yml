@@ -1,0 +1,9 @@
+question: Loại máy nào được coi là giải pháp tốt nhất cho nút home Bitcoin?
+answer: Một máy tính mini loại NUC
+wrong_answers:
+  - Máy tính xách tay
+  - Một siêu máy tính
+  - Một máy chơi game
+explanation: |
+  Máy tính mini (NUC, Tiny, OptiPlex Micro...) có mức tiêu thụ điện năng thấp, đáng tin cậy và dễ điều chỉnh, khiến chúng trở thành sự lựa chọn lý tưởng.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mikä on dbcache-parametrin oletusarvo Bitcoin core:ssa?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  Oletusarvoisesti Bitcoin core varaa välimuistiin 450 MiB (472 MB).
+reviewed: true

@@ -1,0 +1,9 @@
+question: Apa langkah pertama yang harus diambil jika terjadi bug pada Umbrel?
+answer: generate bundel diagnostik
+wrong_answers:
+  - Pasang kembali Bitcoin core dan ulangi IBD
+  - Hapus cache
+  - Nonaktifkan 2FA
+explanation: |
+  Jika terjadi masalah, kami mulai dengan membuat bundel diagnostik di bagian pemecahan masalah untuk menganalisis masalah dan menyimpan catatan.
+reviewed: true

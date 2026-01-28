@@ -1,11 +1,11 @@
-question: Anyone can duplicate the Bitcoin code?
-answer: yes but you can't copy the value of the Bitcoin network
+question: Can anyone duplicate the Bitcoin code?
+answer: Yes, but you cannot copy the value of the Bitcoin network
 wrong_answers:
-  - yes and you would copy the value of the Bitcoin network too
-  - no and you can copy the value of the Bitcoin network
-  - no, because the Bitcoin code is closed-source
+  - Yes, and you would copy the value of the Bitcoin network too
+  - No, and you can copy the value of the Bitcoin network
+  - No, because the Bitcoin code is closed-source
 explanation: |
   While the code for Bitcoin is open source and can be copied, 
-  the value of bitcoin is not derived from its code. It is derived from 
+  the value of Bitcoin is not derived from its code. It is derived from 
   its network of users and the trust and adoption it has built up over time.
 reviewed: true

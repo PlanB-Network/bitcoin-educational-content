@@ -1,0 +1,9 @@
+question: 어떤 오픈 소스 번역 애플리케이션이 다른 엔진에서 작동하며 번역된 텍스트를 수집하지 않나요?
+answer: 번역하기
+wrong_answers:
+  - Google 번역
+  - DeepL
+  - Microsoft 번역기
+explanation: |
+  TranslateYou는 독점 서비스와 달리 개인 데이터를 추적하거나 수집하지 않고 여러 엔진의 Interface 역할을 합니다.
+reviewed: false

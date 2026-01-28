@@ -1,0 +1,26 @@
+id: d179a1a6-3bd5-43b9-9a83-fe867260f516
+name: Machankura
+
+links:
+  website: https://8333.mobi/
+  twitter: https://x.com/machankura8333
+
+category: wallet
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - wallets
+  - software
+  - adoption
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-19
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

@@ -14,4 +14,4 @@ Un altro metodo per mettere il Address sbagliato davanti alla vittima è l'uso d
 Per proteggersi da questi diversi metodi di attacco, è importante controllare diversi caratteri del Address, in particolare il suo checksum (alla fine), sullo schermo del dispositivo di firma prima di firmare la transazione.
 
 
-> ► *Questo attacco viene anche chiamato "avvelenamento da Address"
+> ► *Questo attacco viene anche chiamato "avvelenamento da Address"*

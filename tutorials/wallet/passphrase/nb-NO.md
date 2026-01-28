@@ -1,5 +1,5 @@
 ---
-name: Passphrase BIP39
+name: BIP-39 Passphrase
 description: Forstå hvordan en passordfrase fungerer
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ Det er her passordfrasen kommer inn i bildet. Det er et valgfritt passord som du
 
 ![PASSPHRASE BIP39](assets/notext/02.webp)
 
-Vær forsiktig så du ikke forveksler passordfrasen med PIN-koden til maskinvarelommeboken eller passordet som brukes til å låse opp tilgangen til lommeboken på datamaskinen. I motsetning til alle disse elementene spiller passordfrasen en rolle i utledningen av lommebokens nøkler. **Dette betyr at uten den vil du aldri kunne få tilbake bitcoinsene dine
+Vær forsiktig så du ikke forveksler passordfrasen med PIN-koden til maskinvarelommeboken eller passordet som brukes til å låse opp tilgangen til lommeboken på datamaskinen. I motsetning til alle disse elementene spiller passordfrasen en rolle i utledningen av lommebokens nøkler. **Dette betyr at uten den vil du aldri kunne få tilbake bitcoinsene dine.**
 
 Passordfrasen fungerer sammen med den mnemoniske frasen, og endrer frøet som nøklene genereres ut fra. Selv om noen skulle få tak i frasen på 12 eller 24 ord, kan de ikke få tilgang til pengene dine uten passordfrasen. **Ved å bruke en passordfrase oppretter du i praksis en ny lommebok med egne nøkler. Hvis du endrer (selv bare litt) på passordfrasen, genereres en annen lommebok**
 
@@ -40,21 +40,28 @@ Det er også viktig å lagre denne passordfrasen på riktig måte, på samme må
 
 Hvis du vil sette opp en passordfrase på en Ledger-enhet (Stax, Flex eller Nano), kan du se denne veiledningen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 På en COLDCARD :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 På en Jade Plus:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 På en Passport (batch-2):
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 På en Trezor-enhet (Safe 3, Safe 5 eller Model One):
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+På en SeedSigner:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+På en SeedSigner med en Seedkeeper:
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+
 

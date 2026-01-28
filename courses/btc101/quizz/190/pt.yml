@@ -1,9 +1,9 @@
-question: O que é a AMF?
-answer: Autorité des Marchés Financiers.
+question: Qual é um dos riscos associados à compra de Bitcoin?
+answer: Seu preço pode cair para 0.
 wrong_answers:
-  - Fundo Monetário Americano.
-  - Associação de Instalações de Mineração.
-  - Fluxo Automatizado de Dinheiro.
+  - Pode ser facilmente roubado.
+  - Pode ser duplicado.
+  - Pode ser perdido fisicamente.
 explanation: |
-  A AMF, ou Autorité des Marchés Financiers, é uma organização francesa que regula plataformas onde bitcoins podem ser comprados.
+  O texto do curso menciona que o Bitcoin é um ativo financeiro altamente volátil, e seu preço pode cair para 0, o que é um dos riscos associados à compra de Bitcoin.
 reviewed: true

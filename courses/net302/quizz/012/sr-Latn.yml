@@ -6,4 +6,4 @@ wrong_answers:
   - 7
 explanation: |
   IPv4 odgovara vrednosti 4 u polju "Version" IP zaglavlja.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Chi ha detto che "il male non è niente"?
+answer: Socrate.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Cartesio.
+explanation: |
+  il male è nulla" è un'idea attribuita a Socrate e ripresa dalla tradizione filosofica. Per Socrate, il male deriva dall'ignoranza; nessuno fa il male volontariamente se conosce veramente il bene.
+reviewed: false

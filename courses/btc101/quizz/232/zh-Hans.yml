@@ -1,7 +1,0 @@
-question: 比特币协议中的区块大小是多少？
-answer: 1MB
-wrong_answers:
-  - 1MB
-  - 2MB
-  - 3MB
-explanation: 比特币协议中的区块大小是5MB。

@@ -1,0 +1,8 @@
+question: Vad händer när man konstruerar ett Merkle-träd från transaktioner om antalet hashar på någon nivå är udda?
+answer: Den sista hashen dupliceras för att skapa ett jämnt antal par för nästa nivå
+wrong_answers:
+  - Det sista hashvärdet förs oförändrat vidare till nästa nivå utan parning
+  - Den sista hashen XOR:as med den första hashen på den nivån för att slutföra parkopplingen
+  - Den sista hashen kombineras med en null-hash (alla nollor) för att skapa det slutliga paret
+explanation: |
+  Bitcoin:s Merkle-trädkonstruktion kräver parning av hashar på varje nivå. När det finns ett udda antal duplicerar protokollet specifikt den sista hashen för att säkerställa korrekt parning. Detta upprätthåller trädets binära struktur och säkerställer deterministisk rotberäkning. De andra alternativen skulle bryta kompatibiliteten med Bitcoin:s konsensusregler och skapa olika Merkle-rötter för identiska transaktionsuppsättningar.

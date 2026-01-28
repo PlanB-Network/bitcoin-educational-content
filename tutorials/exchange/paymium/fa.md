@@ -1,5 +1,5 @@
 ---
-name: پیمیوم
+name: Paymium
 
 description: راه‌اندازی حساب Paymium شما
 ---

@@ -1,11 +1,10 @@
-question: Qual è la funzione dell'aggiustamento della difficoltà nella rete Bitcoin?
-answer: Garantisce che un blocco venga aggiunto alla blockchain ogni dieci minuti circa.
+question: Cos'è un nodo pruned nel contesto di Bitcoin?
+answer: Un nodo che mantiene in memoria solo gli ultimi N blocchi.
 wrong_answers:
-  - Determina il prezzo di Bitcoin.
-  - Regola il numero di bitcoin che possono essere minati nella blockchain.
-  - Determina la dimensione di un blocco.
+  - Un nodo che valida solo le transazioni.
+  - Un nodo che trasmette informazioni solo ad altri nodi.
+  - Un nodo che fa rispettare solo le regole del protocollo Bitcoin.
 explanation: >-
-  L'aggiustamento della difficoltà nella rete Bitcoin garantisce che un blocco
-  venga aggiunto circa ogni dieci minuti. Questo fa parte delle regole del protocollo
-  della rete Bitcoin.
+  Un nodo pruned nel contesto di Bitcoin è un nodo che mantiene in memoria
+  solo gli ultimi N blocchi.
 reviewed: vero

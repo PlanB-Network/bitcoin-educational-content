@@ -1,14 +1,13 @@
 ---
 name: LN VPN
-
-description: Set up your VPN
+description: Configurer LN VPN avec Lightning pour un VPN anonyme et à la carte
 ---
 
 ![image](assets/cover.webp)
 
 LN VPN est un service VPN à la carte qui n'accepte que les paiements lightning. Aujourd'hui, je te montre comment t'en servir et laisser moins de traces quand tu te balades sur les interwebs.‌‌‌‌
 
-Il existe de nombreux fournisseurs de services VPN de qualité, nous avons d'ailleurs fait une revue exhaustive dans cet article (hyperlien) mais LN VPN se démarque et nous ne pouvions passer à côté de te le faire découvrir.
+Il existe de nombreux fournisseurs de services VPN de qualité, mais LN VPN se démarque et nous ne pouvions passer à côté de te le faire découvrir.
 
 La plupart des fournisseurs de services VPN tels que ProtonVPN et Mullvad offrent la possibilité de payer bitcoins mais nécessitent la création d'un compte et l'achat d'un forfait à plus ou moins long terme, ce qui ne correspond pas nécessairement à tous les budgets.
 

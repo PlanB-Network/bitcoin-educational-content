@@ -1,12 +1,12 @@
 ---
-name: LNbit
+name: LNbits
 
 description: Nền tảng kế toán thương mại
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
-# Hệ thống kế toán
+## Hệ thống kế toán
 
 
 LNbits được tích hợp rất nhiều công cụ để kiểm soát và phân bổ dòng tiền vào và ra của bạn, kết nối cửa hàng trực tuyến hoặc thậm chí các thiết bị như Hardware Wallet hoặc máy ATM do bạn tự chế tạo. Các loại người dùng bao gồm:
@@ -19,7 +19,7 @@ LNbits được tích hợp rất nhiều công cụ để kiểm soát và phâ
 - Mỗi loại đều có những nhu cầu khác nhau. Chúng tôi xây dựng LNbit theo mô-đun để mọi người dùng đều có thể sử dụng các tính năng của chúng tôi theo cách phù hợp nhất với mình.
 
 
-# Quản lý Wallet
+## Quản lý Wallet
 
 
 LNbits là một hệ thống kế toán mã nguồn mở và miễn phí - không phải là trình quản lý nút. Quản lý kênh là phạm vi của nút Lightning được kết nối với LNbits như một nguồn tài trợ như LND hoặc c-lightning. Người dùng Siêu cấp hoặc Người dùng Quản trị trong hệ thống LNbits chịu trách nhiệm quản lý khả năng truy cập và cấu hình chung của các tính năng kế toán và tiện ích mở rộng nội bộ.
@@ -40,13 +40,13 @@ Bạn sẽ cung cấp cho họ một cách đơn giản để mở một "tài k
 LƯU Ý: tất cả tiền mà "khách hàng" của bạn gửi vào tài khoản ngân hàng LNbits trên nút của bạn sẽ được chuyển thẳng vào kênh LN của nút. Điều đó có nghĩa là BẠN thực sự là chủ sở hữu của số tiền đó. Bạn sẽ có trách nhiệm lớn đối với số tiền của họ. Đừng làm điều xấu và bỏ trốn với số tiền đó, đừng làm điều xấu và tính phí cao. Chúng tôi muốn làm khó những kẻ làm ngân hàng fiat, chứ không phải làm khó lẫn nhau (người dùng Bitcoin).
 
 
-# Nền tảng demo
+## Nền tảng demo
 
 
 Bạn có thể tìm thấy bản demo tại [https://legend.lnbits.com](https://legend.lnbits.com). Bản demo hoạt động đầy đủ và có thể được sử dụng để tìm hiểu về Lightning Network, các tính năng của LNbits và LNURL nói chung. Mặc dù chúng tôi không thể ngăn cản bạn, nhưng chúng tôi muốn bạn không sử dụng nó cho thiết lập sản xuất của mình. Chúng tôi không chỉ thường xuyên làm việc trên các máy chủ để kiểm tra các tính năng mới mà còn khuyến khích bạn tự vận hành node và LNbits của mình một cách độc lập. Nếu bạn cảm thấy việc vận hành một node là quá nhiều vào lúc này, bạn có thể kết nối LNbits với một dịch vụ tài trợ lưu ký trên đám mây như Opennode, Luna hoặc Votage, hoặc với Lightning Tipbot trên Telegram, v.v.
 
 
-# Tờ rơi LNbits
+## Tờ rơi LNbits
 
 
 Bạn muốn chia sẻ một số thông tin cơ bản cho một thương gia hoặc một người bạn trong ngành xây dựng? Chúng tôi rất vui mừng được giới thiệu tờ rơi đầu tiên của chúng tôi dành cho mọi người. Kích thước tờ rơi được thiết kế theo chuẩn chung của thế giới, gồm 6 trang (gấp 2 lần), chiều rộng 3508 pixel và chiều cao 2480 pixel.
@@ -58,10 +58,10 @@ LNbits dành cho thương gia: [EN](/assets/lnbits-merchants-en.pdf) | [DE](/ass
 LNbits dành cho thợ xây dựng: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
 
-# Một số điều cơ bản
+## Một số điều cơ bản
 
 
-LNbits hoạt động dựa trên giao thức LNURL, nghĩa là các yêu cầu có thể được thực hiện dưới hai hình thức: liên kết https:// clearnet (không cho phép chứng chỉ tự ký) hoặc liên kết http:// v2/v3 onion. Để cung cấp các dịch vụ LNbits như mã QR LNURLp/w hoặc Thẻ NFC, có thể sử dụng ngoài thực tế, bạn cần mở LNbits lên clearnet (https).
+LNbits hoạt động dựa trên giao thức LNURL, nghĩa là các yêu cầu có thể được thực hiện dưới hai hình thức: liên kết https://clearnet (không cho phép chứng chỉ tự ký) hoặc liên kết http://v2/v3 onion. Để cung cấp các dịch vụ LNbits như mã QR LNURLp/w hoặc Thẻ NFC, có thể sử dụng ngoài thực tế, bạn cần mở LNbits lên clearnet (https).
 
 
 Trước khi cài đặt LNbits, hãy đảm bảo bạn đã đọc và hiểu các hướng dẫn chung sau đây về LNbits là gì và những khả năng mà nó mang lại cho bạn.
@@ -90,10 +90,10 @@ Hướng dẫn chi tiết hơn về cách sử dụng LNbit trong các trường
 
 
 
-# Cài đặt LNbits
+## Cài đặt LNbits
 
 
-## Hướng dẫn cài đặt cơ bản
+### Hướng dẫn cài đặt cơ bản
 
 
 LNbits có thể được cài đặt trên bất kỳ máy tính chạy hệ điều hành Linux nào. Nó không yêu cầu máy tính hoặc máy chủ mạnh, chỉ cần đủ bộ nhớ RAM và dung lượng ổ đĩa cho cơ sở dữ liệu. Nó có thể được chạy riêng biệt từ một nút BTC/LN (máy tính cục bộ hoặc VPS từ xa) hoặc cùng chạy trên một máy tính với nút đó hoặc đã được cài đặt trong một máy tính phần mềm nút bundle.
@@ -119,16 +119,16 @@ Bạn cũng có thể tìm thấy video về [Cài đặt Docker trên VPS với
 Đối với các nút phần mềm gói, vui lòng tham khảo tài liệu cụ thể của họ về LNbit: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
-## LNbits SaaS
+### LNbits SaaS
 
 
-Nếu bạn không quan tâm đến kỹ thuật và cũng không muốn tự mình lưu trữ nguồn tài trợ cũng như lnbits, thì có một phiên bản [LNbits SaaS] (https://saas.lnbits.com) (Phần mềm dưới dạng dịch vụ) bạn có thể sử dụng. Về cơ bản, nó giống như LNbits trên nền tảng đám mây, nhưng bạn có thể tự xác định nguồn tài trợ (ví dụ: Node, LNbits Wallet, LNtipbot, fakewallet, v.v.) và các biến môi trường - điều mà hầu hết các giải pháp đám mây khác không làm được.
+Nếu bạn không quan tâm đến kỹ thuật và cũng không muốn tự mình lưu trữ nguồn tài trợ cũng như lnbits, thì có một phiên bản [LNbits SaaS](https://saas.lnbits.com) (Phần mềm dưới dạng dịch vụ) bạn có thể sử dụng. Về cơ bản, nó giống như LNbits trên nền tảng đám mây, nhưng bạn có thể tự xác định nguồn tài trợ (ví dụ: Node, LNbits Wallet, LNtipbot, fakewallet, v.v.) và các biến môi trường - điều mà hầu hết các giải pháp đám mây khác không làm được.
 
 
 [Đây là hướng dẫn chi tiết về cách sử dụng LNbits SaaS cho các trường hợp sử dụng cụ thể](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
 
-## Nguồn tài trợ
+### Nguồn tài trợ
 
 
 LNbits không phải là phần mềm quản lý node mà là hệ thống kế toán tập trung vào LN dựa trên nguồn tài trợ LND hoặc CLN. Sau lần cài đặt đầu tiên, bạn có thể truy cập LNbits tại http://localhost:5000/.
@@ -157,7 +157,7 @@ Nếu bạn muốn sử dụng phiên bản .env, bạn có thể tìm thấy c�
 
 
 
-### CoreLightning
+#### CoreLightning
 
 
 - CLN
@@ -168,7 +168,7 @@ Nếu bạn muốn sử dụng phiên bản .env, bạn có thể tìm thấy c�
   - `SPARK_URL`: http://10.147.17.230:9737/RPC
    - `SPARK_TOKEN`: khóa_truy_cập_bí_mật
 
-### Lightning Network Daemon
+#### Lightning Network Daemon
 
 
 - LND (PHẦN CÒN LẠI)
@@ -192,7 +192,7 @@ Bạn cũng có thể sử dụng macaroon được mã hóa AES (thông tin th�
 Để mã hóa macaroon của bạn, hãy chạy `./venv/bin/python lnbits/wallets/macaroon/macaroon.py`.
 
 
-### LNbits (một trường hợp LNbits khác)
+#### LNbits (một trường hợp LNbits khác)
 
 
 
@@ -205,7 +205,7 @@ Bạn cũng có thể sử dụng macaroon được mã hóa AES (thông tin th�
   - `LNBITS_ENDPOINT`: https://legend.lnbits.com
   - `LNBITS_KEY`: chú thích-lnbits-AdminKey
 
-### Lightning TipBot
+#### Lightning TipBot
 
 
 Để kết nối [Lightning Tipbot](https://t.me/LightningTipBot) của bạn từ Telegram, bạn sẽ cần thiết lập tham số sau:
@@ -219,7 +219,7 @@ Bạn cũng có thể sử dụng macaroon được mã hóa AES (thông tin th�
 Ngoài ra, hãy xem hướng dẫn này để biết cách cài đặt [LNbits với LightningTipBot qua vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
 
-### TRUNG TÂM IBEX
+#### TRUNG TÂM IBEX
 
 
 Đăng ký [tại đây](https://ibexpay.ibexmercado.com/onboard) sau đó nhận khóa/mã thông báo từ đó, điểm cuối là https://ibexpay-api.ibexmercado.com.
@@ -227,7 +227,7 @@ Ngoài ra, hãy xem hướng dẫn này để biết cách cài đặt [LNbits v
 Để biết thêm thông tin, hãy xem [Tài liệu API IBEX](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
 
-### LNPay
+#### LNPay
 
 Để trình lắng nghe Invoice hoạt động, bạn cần có một URL có thể truy cập công khai trong LNbits của mình và phải thiết lập [webhook LNPay](https://dashboard.lnpay.co/webhook/) trỏ đến `<your LNbits host>/Wallet/webhook` với sự kiện "Wallet Receive" và không có khóa bí mật nào được cung cấp. Thiết lập `https://mylnbits/Wallet/webhook` sẽ là URL điểm cuối được thông báo về bất kỳ khoản thanh toán nào.
 
@@ -238,7 +238,7 @@ Ngoài ra, hãy xem hướng dẫn này để biết cách cài đặt [LNbits v
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
 
-### OpenNode
+#### OpenNode
 
 Để Invoice hoạt động, bạn cần có một URL có thể truy cập công khai trong LNbits của mình. Cài đặt webhook là tùy chọn.
 
@@ -248,7 +248,7 @@ Ngoài ra, hãy xem hướng dẫn này để biết cách cài đặt [LNbits v
   - `OPENNODE_KEY`: opennodeAdminApiKey
 
 
-### Alby
+#### Alby
 
 
 Alby là tiện ích mở rộng trình duyệt có chức năng LN Wallet và tài khoản LNDHUB có thể được sử dụng làm nguồn tài trợ cho LNbits. [Chi tiết hơn tại đây](https://getalby.com/).
@@ -263,13 +263,13 @@ Alby là tiện ích mở rộng trình duyệt có chức năng LN Wallet và t
 - `ALBY_ACCESS_TOKEN`: AlbyAccessToken
 
 
-## Hướng dẫn bổ sung / khắc phục sự cố
+### Hướng dẫn bổ sung / khắc phục sự cố
 
 
 Dưới đây là một số hướng dẫn bổ sung phòng trường hợp bạn cần. Nhấp vào mũi tên để mở rộng mô tả.
 
 
-### Công tắc giết người 🚨
+#### Công tắc giết người 🚨
 
 
 Gần đây, có rất nhiều lỗi nguy hiểm không chỉ trong toàn bộ không gian mà còn trong LNbits nên chúng tôi quyết định phải hành động. Giờ đây, bạn có thể chọn nhận cảnh báo và/hoặc thực hiện hành động trực tiếp khi lỗ hổng hoặc lỗi có thể dẫn đến mất tiền xảy ra lần nữa.
@@ -285,13 +285,13 @@ Nó hoạt động như thế nào? Khi killswitch được bật, một kho lư
 
 
 
-### Sự khác biệt giữa quản trị viên và siêu người dùng
+#### Sự khác biệt giữa quản trị viên và siêu người dùng
 
 
 Giao diện Quản trị LNbits cho phép bạn thay đổi cài đặt LNbits thông qua giao diện người dùng LNbits. Mặc định, tính năng này bị tắt và khi bạn đặt biến môi trường `LNBITS_ADMIN_UI=true` trong tệp `.env` lần đầu tiên, các cài đặt sẽ được khởi tạo và sử dụng. Từ đó, các cài đặt tương ứng từ cơ sở dữ liệu sẽ được sử dụng thay vì cài đặt trong tệp .env.
 
 
-### Người dùng siêu cấp
+#### Người dùng siêu cấp
 
 
 Với Giao diện Quản trị, chúng tôi đã giới thiệu siêu người dùng, người có quyền truy cập vào máy chủ, do đó có thể thay đổi các thiết lập có thể làm máy chủ bị sập hoặc không phản hồi thông qua giao diện người dùng và API, chẳng hạn như thay đổi nguồn tài trợ. Siêu người dùng chỉ được lưu trữ bên trong bảng thiết lập của cơ sở dữ liệu. Sau khi thiết lập được "đặt lại về mặc định" và khởi động lại, một siêu người dùng mới sẽ được tạo. Chúng tôi cũng đã thêm một trình trang trí cho các tuyến API để kiểm tra sự tồn tại của siêu người dùng. ID của siêu người dùng này không bao giờ được gửi qua API và giao diện người dùng, và chỉ nhận được một giá trị bool (có/không) cho dù bạn có phải là siêu người dùng hay không.
@@ -306,13 +306,13 @@ Bạn cũng có thể đăng siêu người dùng qua webhook lên một dịch 
 Ở giao diện người dùng, bạn cũng có thể thay đổi hình ảnh cửa hàng hiển thị trên trang "tạo Wallet" bằng cách mở phần Quản lý máy chủ và chọn Chủ đề -> Logo tùy chỉnh.
 
 
-### Người dùng quản trị
+#### Người dùng quản trị
 
 
 Biến môi trường: `LNBITS_ADMIN_USERS`, danh sách ID người dùng được phân cách bằng dấu phẩy. Người dùng quản trị có thể thay đổi cài đặt trong giao diện quản trị - ngoại trừ cài đặt nguồn tài trợ, vì việc này sẽ yêu cầu khởi động lại máy chủ và có khả năng khiến máy chủ không thể truy cập được. Họ cũng có quyền truy cập vào tất cả các tiện ích mở rộng được dành riêng cho họ trong `LNBITS_ADMIN_EXTENSIONS`.
 
 
-### Người dùng được phép
+#### Người dùng được phép
 
 
 Biến môi trường: `LNBITS_ALLOWED_USERS`, danh sách ID người dùng được phân cách bằng dấu phẩy. Sau khi xác định những người dùng này, LNbits sẽ không còn được sử dụng bởi công chúng nữa. Chỉ những người dùng và quản trị viên đã xác định mới có thể truy cập giao diện người dùng LNbits.
@@ -320,7 +320,7 @@ Biến môi trường: `LNBITS_ALLOWED_USERS`, danh sách ID người dùng đư
 
 
 
-#### Cập nhật LNbits
+##### Cập nhật LNbits
 
 Để cập nhật phiên bản cục bộ LNbits thông thường, bạn chỉ cần sao chép và dán các lệnh CLI sau:
 
@@ -357,7 +357,7 @@ sudo ~/scripts/app start lnbits
 ```
 
 
-#### Di chuyển từ SQLite sang PostgreSQL
+##### Di chuyển từ SQLite sang PostgreSQL
 
 
 Nếu bạn đã cài đặt và chạy LNbits trên cơ sở dữ liệu SQLite, chúng tôi thực sự khuyên bạn nên chuyển sang postgres nếu bạn định chạy LNbits ở quy mô lớn.
@@ -385,14 +385,14 @@ Hy vọng bây giờ mọi thứ hoạt động và được di chuyển... Kh�
 
 
 
-#### Sao lưu và khôi phục cơ sở dữ liệu
+##### Sao lưu và khôi phục cơ sở dữ liệu
 
 
 Vui lòng tham khảo [hướng dẫn rất chi tiết này về quy trình sao lưu và khôi phục](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
 
 
-#### Việc cấp vốn cho LNbits Wallet từ nút của tôi không hiệu quả
+##### Việc cấp vốn cho LNbits Wallet từ nút của tôi không hiệu quả
 
 
 Nếu bạn muốn gửi Sats từ cùng một nút là nguồn tài trợ cho LNbit của bạn, bạn sẽ cần chỉnh sửa tệp LND.conf.
@@ -407,7 +407,7 @@ Vui lòng thực hiện việc này trong phần Tùy chọn ứng dụng của 
 LƯU Ý: Bạn nên sử dụng tiện ích mở rộng adminUI mới với tùy chọn "Nạp tiền" để thêm tiền vào tài khoản LNbits.
 
 
-#### Lỗi 426
+##### Lỗi 426
 
 Tôi gặp lỗi: "lnurl cần được phân phối qua miền https hoặc tor có thể truy cập công khai. Yêu cầu nâng cấp 426"</summary>
 
@@ -426,7 +426,7 @@ RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
 
-#### Lỗi mạng
+##### Lỗi mạng
 
 Tôi gặp lỗi "lỗi https", lỗi mạng" hoặc các lỗi khác khi quét mã QR</summary>
 
@@ -443,7 +443,7 @@ LNbits chỉ chạy qua Tor, bạn không thể mở nó trên miền công cộ
 
 
 
-#### Ngăn chặn người khác tạo ví trên LNbit của tôi
+##### Ngăn chặn người khác tạo ví trên LNbit của tôi
 
 
 Khi bạn chạy LNbit trên clearnet, về cơ bản, mọi người đều có thể generate và Wallet trên đó. Vì tiền của nút của bạn được liên kết với các ví này, bạn có thể muốn ngăn chặn điều đó. Có hai cách để thực hiện:
@@ -454,7 +454,7 @@ Cấu hình người dùng và tiện ích mở rộng được phép trong tệ
 
 
 
-#### Tùy chỉnh khung thời gian hết hạn Invoice
+##### Tùy chỉnh khung thời gian hết hạn Invoice
 
 
 Giờ đây, bạn có thể tạo hóa đơn generate với thời hạn sử dụng tùy chỉnh. Tương thích với các nền tảng sau: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet!
@@ -465,16 +465,16 @@ Bạn có thể đặt `LIGHTNING_INVOICE_EXPIRY` trong tệp .env hoặc sử d
 
 
 
-## Wallet-URL đã bị xóa
+### Wallet-URL đã bị xóa
 
 
-### Wallet trên máy chủ demo legend.lnbits
+#### Wallet trên máy chủ demo legend.lnbits
 
 
 Luôn lưu một bản sao Wallet-URL, Export2phone-QR hoặc LNDhub vào ví của bạn ở nơi an toàn. LNbits KHÔNG THỂ giúp bạn khôi phục chúng khi bị mất.
 
 
-### Wallet trên nguồn tài trợ/nút của riêng bạn
+#### Wallet trên nguồn tài trợ/nút của riêng bạn
 
 Luôn lưu một bản sao của Wallet-URL, Export2phone-QR hoặc LNDhub cho ví của bạn ở nơi an toàn. Bạn có thể tìm thấy tất cả người dùng LNbits và Wallet-ID trong tiện ích mở rộng quản lý người dùng LNbits hoặc trong cơ sở dữ liệu sqlite của mình. Để chỉnh sửa hoặc đọc cơ sở dữ liệu LNbits, hãy vào thư mục LNbits /data và tìm tệp có tên sqlite.db. Bạn có thể mở và chỉnh sửa tệp này bằng Excel hoặc bằng trình soạn thảo SQL chuyên dụng như [trình duyệt SQLite](https://sqlitebrowser.org/).
 
@@ -511,14 +511,14 @@ Trong đó, bạn thay thế f8a43fc363ea428db5c53b3559935f1f bằng giá trị 
 .quit
 ```
 
-#### LNURL cho lightning-Address ngược lại
+##### LNURL cho lightning-Address ngược lại
 
 
 Hãy thử [encoder](https://lnurl-codec.netlify.app/) từ fiatjaf hoặc [trang này](https://lightningdecoder.com/). Để thanh toán hoặc kiểm tra LNURLp, bạn cũng có thể sử dụng [LNurlpay](https://wwww.lnurlpay.com/). Nó phải ghi là HTTPS, KHÔNG PHẢI HTTP.
 
 
 
-#### Cấu hình bình luận mà mọi người sẽ thấy khi thanh toán cho mã QR LNURLp của tôi
+##### Cấu hình bình luận mà mọi người sẽ thấy khi thanh toán cho mã QR LNURLp của tôi
 
 Khi bạn tạo LNURL-p, theo mặc định, hộp bình luận sẽ không được điền. Điều này có nghĩa là bạn không được phép đính kèm bình luận vào các khoản thanh toán.
 
@@ -529,18 +529,18 @@ Khi bạn tạo LNURL-p, theo mặc định, hộp bình luận sẽ không đư
 ![lnbits comments](assets/lnbits-comments.webp)
 
 
-#### Gửi BTC onchain vào LNbits
+##### Gửi BTC onchain vào LNbits
 
 Có hai cách để chuyển Exchange Sats từ BTC trên chuỗi sang LN BTC (tương ứng với LNbit).
 
 
-##### Thông qua dịch vụ trao đổi bên ngoài.
+###### Thông qua dịch vụ trao đổi bên ngoài.
 
 
 Những người dùng khác không có quyền truy cập vào LNb của bạn có thể sử dụng dịch vụ hoán đổi như [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) hoặc [ZigZag](https://zigzag.io/). Điều này hữu ích nếu bạn chỉ cung cấp hóa đơn LNURL/LN từ phiên bản LNbits của mình, nhưng người thanh toán chỉ có Sats trên chuỗi nên họ sẽ phải hoán đổi Sats đó trước. Quy trình rất đơn giản: người dùng gửi BTC trên chuỗi đến dịch vụ hoán đổi và cung cấp LNURL/LN Invoice từ LNbits làm đích đến của giao dịch hoán đổi.
 
 
-##### Sử dụng tiện ích mở rộng Onchain và Boltz LNbits.
+###### Sử dụng tiện ích mở rộng Onchain và Boltz LNbits.
 
 
 Xin lưu ý rằng đây là một Wallet riêng biệt, không phải là LN BTC được LNbits đại diện là "Wallet của bạn" dựa trên nguồn tài trợ LN của bạn. Wallet trên chuỗi này cũng có thể được sử dụng để hoán đổi LN BTC sang (ví dụ: ví phần cứng của bạn) bằng cách sử dụng tiện ích mở rộng LNbits Boltz hoặc Deezy. Nếu bạn điều hành một cửa hàng trực tuyến được liên kết với LNbits của mình để thanh toán LN, việc thường xuyên rút toàn bộ Sats từ LN vào chuỗi sẽ rất tiện lợi. Điều này giúp có thêm dung lượng trong các kênh LN của bạn để có thể nhận Sats mới.
@@ -592,7 +592,7 @@ Nếu bạn gặp lỗi "loại Hash không được hỗ trợ" khi sử dụng
 
 
 
-## Gia công & Xây dựng với LNbits
+### Gia công & Xây dựng với LNbits
 
 
 LNbits có đủ loại [API mở](https://legend.lnbits.com/docs) và các công cụ để lập trình và kết nối với nhiều thiết bị khác nhau cho vô số trường hợp sử dụng.
@@ -601,10 +601,10 @@ LNbits có đủ loại [API mở](https://legend.lnbits.com/docs) và các côn
 Khi bạn mới bắt đầu xây dựng, hãy bắt đầu với [bài thuyết trình MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) của Ben Arc về việc xây dựng các tiện ích dựa trên LNbit.
 
 
-### QUAN TRỌNG:
+#### QUAN TRỌNG:
 
 
-- LNbits hoạt động dựa trên giao thức LNURL, trong đó các yêu cầu có thể được thực hiện dưới hai hình thức: dưới dạng liên kết https:// clearnet (không cho phép chứng chỉ tự ký) hoặc dưới dạng liên kết onion http:// v2/v3. Để cung cấp các dịch vụ LNbits như mã QR LNURLp/w hoặc Thẻ NFC, có thể sử dụng ngoài thực tế, bạn cần mở LNbits để clearnet (https).
+- LNbits hoạt động dựa trên giao thức LNURL, trong đó các yêu cầu có thể được thực hiện dưới hai hình thức: dưới dạng liên kết https://clearnet (không cho phép chứng chỉ tự ký) hoặc dưới dạng liên kết onion http://v2/v3. Để cung cấp các dịch vụ LNbits như mã QR LNURLp/w hoặc Thẻ NFC, có thể sử dụng ngoài thực tế, bạn cần mở LNbits để clearnet (https).
 - Chỉ sử dụng cáp dữ liệu để cấp nguồn cho esp32. Không phải tất cả cáp đều hỗ trợ truyền dữ liệu ngoài việc cấp nguồn cho esp. Bạn sẽ không phải là người đầu tiên gặp trường hợp cáp đi kèm với esp chỉ là cáp cấp nguồn.
 - Đảm bảo không sử dụng USB-Hub khi kết nối với các thiết bị khác. Điều này có thể dẫn đến những hiệu ứng lạ cần được gỡ lỗi (ví dụ: không khởi động hoặc không dừng).
 - Để thực hiện các dự án ESP trên MacOS, bạn sẽ cần Trình điều khiển Cầu nối UART. Nếu bạn gặp sự cố với trình điều khiển trên hệ thống Mac hoặc Linux, bạn có thể tìm thấy chúng tại đây hoặc nếu có màn hình TTGO, hãy tìm trình điều khiển này. Nếu bạn đang sử dụng Windows và gặp sự cố kết nối, hãy đảm bảo tải xuống phiên bản CŨ 11.1.0 vì phiên bản mới hơn không hoạt động! Bạn cũng có thể tìm thấy một thiết bị đầu cuối nối tiếp tại đây để kiểm tra kết nối của mình - đặt tốc độ baudrate 115200.

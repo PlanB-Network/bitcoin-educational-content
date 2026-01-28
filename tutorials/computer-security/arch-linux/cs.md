@@ -17,10 +17,10 @@ Arch Linux je distribuce proslulá svou robustností, výkonem a přizpůsobivos
 
 
 
-- Zdarma a s otevřeným zdrojovým kódem**: Arch Linux je stejně jako většina linuxových distribucí zcela zdarma. Neplatí se za něj žádné licenční poplatky, takže je vynikající volbou pro studenty, nezávislé pracovníky nebo nadšence.
-- Filozofie KISS**: Arch je navržen tak, aby byl jednoduchý, lehký a efektivní. Poskytuje pouze to nejnutnější a umožňuje vám vytvořit si prostředí à la carte.
-- Správce balíčků Pacman**: Pacman je rychlý, spolehlivý a dobře navržený správce balíčků. Umožňuje efektivní instalaci a aktualizaci softwaru a precizně spravuje závislosti.
-- Komplexní dokumentace a aktivní komunita**: [Arch Wiki](https://wiki.archlinux.org) je pravděpodobně jednou z nejlepších technických dokumentací ve světě Linuxu. Je to zlatý důl pro pochopení toho, co děláte. Komunita složená převážně ze zkušených profilů je velmi aktivní a může vám pomoci, pokud se zaseknete, za předpokladu, že jste si předtím udělali menší průzkum.
+- **Zdarma a s otevřeným zdrojovým kódem**: Arch Linux je stejně jako většina linuxových distribucí zcela zdarma. Neplatí se za něj žádné licenční poplatky, takže je vynikající volbou pro studenty, nezávislé pracovníky nebo nadšence.
+- **Filozofie KISS**: Arch je navržen tak, aby byl jednoduchý, lehký a efektivní. Poskytuje pouze to nejnutnější a umožňuje vám vytvořit si prostředí à la carte.
+- **Správce balíčků Pacman**: Pacman je rychlý, spolehlivý a dobře navržený správce balíčků. Umožňuje efektivní instalaci a aktualizaci softwaru a precizně spravuje závislosti.
+- **Komplexní dokumentace a aktivní komunita**: [Arch Wiki](https://wiki.archlinux.org) je pravděpodobně jednou z nejlepších technických dokumentací ve světě Linuxu. Je to zlatý důl pro pochopení toho, co děláte. Komunita složená převážně ze zkušených profilů je velmi aktivní a může vám pomoci, pokud se zaseknete, za předpokladu, že jste si předtím udělali menší průzkum.
 
 
 
@@ -39,7 +39,7 @@ Potřebné materiály:
 
 
 - Klíč USB o velikosti alespoň **8 GB**
-- minimálně 2 GB** RAM
+- minimálně 2 GB **RAM**
 - Počítač s alespoň 20 GB volného místa na disku
 
 
@@ -261,24 +261,26 @@ Pokud používáte UEFI, vyberte **GPT**, pokud používáte BIOS, vyberte **DOS
 
 
 
-- V režimu UEFI**
+- V režimu **UEFI**
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Přípojný bod v nainstalovaném systému | Oddíl                 | Typ oddílu       | Doporučená velikost |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | Systémový oddíl EFI   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Prostředek pro výměnu (swap) | Alespoň 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 kořen (/) | Zbývající část disku |
 
 - V systému BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Přípojný bod v nainstalovaném systému | Oddíl           | Typ oddílu       | Doporučená velikost |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Prostředek pro výměnu (swap) | Alespoň 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Zbývající část disku |
 
 ![0_10](assets/fr/10.webp)
 
@@ -294,7 +296,7 @@ Vyberte možnost **Zapsat**, zadejte **ano** a poté **Ukončit**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +311,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 
@@ -778,6 +780,6 @@ Pokud se vám líbily začátky s Arch Linuxem, určitě se vám bude líbit ná
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

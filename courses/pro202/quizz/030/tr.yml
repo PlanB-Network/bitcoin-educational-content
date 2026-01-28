@@ -1,0 +1,8 @@
+question: Bitcoin işlem doğrulamasında sighash oluşturma sürecinin birincil amacı nedir?
+answer: İmza doğrulaması için özel anahtar tarafından orijinal olarak imzalanmış tam mesajı oluşturmak için
+wrong_answers:
+  - generate'ye, double-spending saldırılarını önleyen işlem için benzersiz bir tanımlayıcı
+  - Verimli ağ iletimi için işlem verilerini daha küçük bir formata sıkıştırmak
+  - İşlem içeriğini şifrelemek, böylece yalnızca alıcının şifreyi çözebilmesi ve madeni paraları harcayabilmesi
+explanation: |
+  Sighash yapısı, özel anahtar tarafından imzalanan kesin mesajı oluşturarak OP_CHECKSIG'ün imzanın gerçekliğini doğrulamasını sağlar. Bu işlem, ScriptSig'lerin boşaltılmasını, geçerli girdinin ScriptSig'inin karşılık gelen ScriptPubKey ile değiştirilmesini ve çift karma işleminden önce bir karma türünün eklenmesini içerir. Diğer seçenekler yanlıştır: işlem kimlikleri tanımlayıcı görevi görür, sıkıştırma ayrı olarak ele alınır ve Bitcoin işlemleri şifrelenmez ancak blok zincirinde herkese açık olarak görünür.

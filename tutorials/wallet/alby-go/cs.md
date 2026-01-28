@@ -16,11 +16,11 @@ description: Průvodce mobilní aplikací Alby Go
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(doporučeno)*
-- Umbrel**, **Start9**, **RaspiBlitz** (přes **Alby Hub**)
-- Coinos** *(netestováno)*
-- Primal** *(netestováno)*
-- Minibity** *(netestováno)*
+- [Alby Hub](https://albyhub.com/) **(doporučeno)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (přes **Alby Hub**)
+- **Coinos** *(netestováno)*
+- **Primal** *(netestováno)*
+- **Minibity** *(netestováno)*
 
 
 Většina služeb s podporou NWC by měla fungovat. Pokud testujete nějakou novou, dejte komunitě vědět o svých výsledcích!
@@ -33,9 +33,9 @@ K dispozici na hlavních platformách:
 
 
 
-- iOS:** [Stáhnout z App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Stáhnout z Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Stáhnout z App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Stáhnout z Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 

@@ -1,8 +1,11 @@
-question: Czym jest Coinbase Transaction?
-answer: Pierwsza transakcja bloku zawierającego nagrodę Miner.
+question: Jaka jest rola górników w protokole Bitcoin?
+answer: Zabezpieczają bieżącą i historyczną sieć.
 wrong_answers:
-  - Transakcja przeprowadzona na Exchange Coinbase.
-  - Druga transakcja w bloku, która zawiera najwyższe opłaty.
-  - Transakcja przeprowadzona przez Miner po otrzymaniu nagrody.
-explanation: >-
+  - Regulują cenę bitcoina.
+  - Kontrolują podaż bitcoina.
+  - Zarządzają transakcjami między użytkownikami.
+explanation: |
+  Górnicy w protokole Bitcoin zabezpieczają zarówno sieć bieżącą, jak i historyczną. Nie regulują oni ceny
+  bitcoina, nie kontrolują podaży ani nie zarządzają transakcjami
+  między użytkownikami.
 reviewed: true

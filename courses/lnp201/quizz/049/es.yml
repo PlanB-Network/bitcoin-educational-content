@@ -6,3 +6,4 @@ wrong_answers:
   - Abrir un nuevo canal Lightning
 explanation: |
   Una factura Lightning es una solicitud de pago, transmitida por el nodo receptor al nodo emisor para iniciar un pago en la Red Lightning.
+reviewed: true

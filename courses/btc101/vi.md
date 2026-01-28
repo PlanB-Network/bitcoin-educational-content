@@ -14,7 +14,7 @@ objectives:
 
 Trong khóa học này, những điều liên quan đến Bitcoin được chia làm 25 chương với những giải thích đơn giản và dễ hiểu, để bạn có thể tiếp cận công nghệ này một cách hiệu quả. Bạn sẽ khám phá toàn bộ những khái niệm căn bản trong lĩnh vực này như việc khai thác Bitcoin, ví, các sàn mua/bán và hơn thế nữa. Sẽ có các tài liệu bổ sung trong suốt hành trình đính kèm với bài kiểm tra "21 Posters" sau khi hoàn thành khóa học này.
 
-Để bắt đầu, bạn không cần phải trang bị bất kỳ kiến thức cụ thể nào. Nội dung của khóa học có thể sử dụng cho mọi người, ở mọi trình độ và ước tính trung bình mất khoảng 15 giờ để hoàn tất.
+Không cần kiến thức trước để bắt đầu khóa học này. BTC 101 được thiết kế để mọi người đều có thể tiếp cận, bất kể trình độ kinh nghiệm của bạn.
 
 +++
 # Phần giới thiệu
@@ -36,59 +36,24 @@ Giao thức này sử dụng các công nghệ cơ bản như mật mã học, m
 
 Trong khóa học, chúng ta sẽ thảo luận về một số khía cạnh khi vai trò của Bitcoin là tiền tệ, bao gồm cách mua và bán bitcoin, lưu trữ chúng một cách an toàn trong ví kỹ thuật số và sử dụng chúng cho các giao dịch. Chúng ta cũng sẽ xem xét vai trò của thợ đào, những người đóng vai trò thiết yếu trong việc tạo ra bitcoin mới và bảo mật mạng Bitcoin. Cuối cùng là khám phá tương lai của Bitcoin và làm thế nào công nghệ mạng tia chớp (Lightning)có thể cải tiến các giao dịch Bitcoin.
 
-![image](assets/en/01.webp)
+![image](assets/vi/001.webp)
  
 Điều quan trọng là phải hiểu rằng Bitcoin là một hệ thống tiền tệ mới sẽ thay đổi hoàn toàn mối quan hệ của chúng ta với tài sản\tiền bạc, vì vậy việc học cách sử dụng nó là một kỹ năng cần thiết cho bất kỳ ai muốn kiểm soát tài sản\tiền của mình.
-
-**Mục 1 - Tiền**
-
-
-- Chương 1 - Tiền là gì?
-- Chương 2 - Tiền pháp định
-- Chương 3 - Siêu lạm phát
-- Chương 4 - Chính sách tiền tệ của Bitcoin
-
-**Phần 2 - Các loại ví Bitcoin**
-
-
-- Chương 5 - Ví Bitcoin hoạt động như thế nào?
-- Chương 6 - Lựa chọn cách bảo mật của bạn
-- Chương 7 - Cài đặt và tinh chỉnh ví của bạn
-- Chương 8 - Bảo quản ví qua thời gian
-
-**Phần 3 - Các chức năng kỹ thuật của Bitcoin**
-
-
-- Chương 9 - Một giao dịch Bitcoin là gì?
-- Chương 10 - Các máy chủ Bitcoin
-- Chương 11 - Người khai thác (thợ đào)
-- Chương 12 - Người khai thác (thợ đào) và hệ sinh thái
-
-**Mục 4 - Tiết kiệm với Bitcoin**
-
-
-- Chương 13 - Giá Bitcoin
-- Chương 14 - Làm thế nào để mua Bitcoin?
-- Chương 15 - Làm việc để lấy Bitcoin
-- Chương 16 - Quy trình bitcoin hóa
-
-**Phần 5 - Mạng Lightning**
-
-
-- Chương 17 - Giới thiệu về mạng tia chớp (Lightning)
-- Chương 18 - Các ứng dụng của mạng tia chớp (Lightning)
-
-
 
 Trước khi tìm hiểu về tiền và chức năng của tiền trong xã hội trong Chương 1, chúng ta nên bắt đầu từ nguồn cội của Bitcoin. Ra mắt vào năm 2009, Bitcoin là một công nghệ khá mới mẻ không giống với các công nghệ khác. Do đó, việc không hiểu gì về nó hay không có một cái nhìn toàn diện trong giai đoạn đầu là điều hiển nhiên. Giống như khi học cách sử dụng Internet hoặc lái xe, bạn không cần phải biết tất cả các chi tiết kỹ thuật ngay lập tức: bạn có thể bắt đầu bằng cách học cách nhận Bitcoin, thanh toán và bảo lưu nguồn vốn của mình bằng Bitcoin, sau đó từng bước nghiên cứu sâu hơn.
 
 Hiện tại, chúng ta đã qua giai đoạn cất cánh nhưng chỉ mới ở giai đoạn đầu của quá trình áp dụng: vì thế bạn đang ở đúng thời điểm như mong muốn để đạt được nhiều kiến thức nhất có thể về cải tiến quan trọng này.
 
-![image](assets/en/02.webp)
+![image](assets/vi/002.webp)
 
 Điểm mấu chốt ở đây là giúp bạn hiểu được công nghệ mới này một cách tổng thể, vì vậy chúng tôi hy vọng bạn thích khóa học này và liên tục phát huy trong hệ thống tiền tệ toàn cầu mới này.
 
+Bạn đã sẵn sàng để khám phá thế giới hấp dẫn của Bitcoin và hiểu tất cả các hoạt động bên trong của nó chưa? Hãy cùng đi nào!
+
+
 ## Lịch sử của Bitcoin
+
+
 
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
@@ -100,7 +65,7 @@ Trước khi thuật ngữ "Bitcoin" được sử dụng và biết tới như 
 
 ### Cypherpunks: những chuyên gia mật mã học có tầm nhìn xa trông rộng về thế giới số
 
-![image](assets/en/03.webp)
+![image](assets/vi/003.webp)
 
 Vào tâm điểm của sự bùng nổ công nghệ trong những năm 1980 và 1990, một nhóm người đã bắt đầu đặt câu hỏi sâu sắc về vai trò của quyền riêng tư và quyền tự do trong thời đại kỹ thuật số. Những cá nhân này, sau này được gọi là "cypherpunks", tin chắc rằng mật mã học có thể là công cụ để bảo vệ quyền riêng tư khỏi sự xâm phạm của chính phủ và các tổ chức lớn.
 
@@ -108,7 +73,7 @@ Những nhân vật mang tính biểu tượng như Julian Assange, Wei Dai, Tim
 
 ### Ba bài viết nền tảng cơ bản của Cypherpunks
 
-![image](assets/en/04.webp)
+![image](assets/vi/004.webp)
 
 Phong trào mật mã hóa (cypherpunk), bắt nguồn từ hoạt động cách mạng kỹ thuật số và mật mã học, dựa trên nội dung từ một số văn bản nền tảng cụ thể để diễn đạt các nguyên tắc và tầm nhìn cho tương lai. Trong số các bài viết này, có ba bài nổi bật:
 
@@ -135,7 +100,7 @@ Một phiên bản khác cũng quan trọng không kém là "B-money" của Wei 
 
 Hình ảnh bên dưới minh họa rõ nét sự quá trình phát triển của Bitcoin qua nhiều cải tiến công nghệ.
 
-![image](assets/en/05.webp)
+![image](assets/vi/005.webp)
 
 Trưởng thành từ môi trường này, một Satoshi Nakamoto bí ẩn đã công bố bản cáo bạch về Bitcoin vào năm 2008. Trong tài liệu này, ông đã kết hợp một số ý tưởng từ phong trào cypherpunk, chẳng hạn như bằng chứng công việc và mã hóa mốc thời gian, để tạo ra một loại tiền kỹ thuật số phi tập trung và tự do.
 
@@ -151,7 +116,7 @@ Tuy nhiên, Bitcoin có phải là một loại tiền tệ "thực sự" không
 
 Nếu bạn muốn khám phá lịch sử Bitcoin sâu và chi tiết hơn, chúng tôi đặc biệt giới thiệu khóa học HIS 201, bạn sẽ khám phá gốc rễ lịch sử dẫn đến sự xuất hiện của Bitcoin, cũng như sự khởi đầu của cộng đồng một cách cạn kẽ. Khóa học này được ghi chép và trích dẫn đầy đủ, và tất nhiên sẽ xuất hiện nhiều giai thoại:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 # Tiền
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -162,7 +127,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Sự tiến hóa của tiền tệ là một khía cạnh hấp dẫn của lịch sử loài người, phản ánh sự khéo léo của các nền văn minh qua nhiều thời đại trong việc đáp ứng nhu cầu không ngừng thay đổi của kinh tế .
 
-![image](assets/en/06.webp)
+![image](assets/vi/006.webp)
 
 ### Từ vỏ sò đến tài khoản ngân hàng
 
@@ -170,7 +135,7 @@ Ban đầu, tiền là một tài sản hữu hình, chẳng hạn như ngũ c�
 
 Vì vậy, khi các nền văn minh phát triển và mở rộng thương mại đến các vùng mới làm nảy sinh nhu cầu về một phương tiện trao đổi phổ thông. Các thử nghiệm đầu tiên với các vật như vỏ sò và đá quý, nhưng chúng không bền hoặc khan hiếm như đã nghĩ. Cho đến khi vàng trở thành tiêu chuẩn, do có tính khan hiếm, độ bền và khả năng chia nhỏ. Vàng đã và vẫn là biểu tượng của sự giàu có và quyền lực cho đến ngày nay.
 
-![image](assets/en/07.webp)
+![image](assets/vi/007.webp)
 
 ### Vai trò của tiền là gì?
 
@@ -189,11 +154,11 @@ Vì những lý do này, vàng trong vai trò tài sản\tiền là kết quả 
 - **Phương tiện trao đổi**: tiền có thể được sử dụng để trao đổi hàng hóa và dịch vụ thay vì trao đổi hàng hóa, do đó tránh được sự trùng hợp về nhu cầu giữa các thương nhân;
 - **Đơn vị tính toán**: tiền cũng cho phép chúng ta so sánh giá trị của các loại hàng hóa khác nhau để hiểu rõ hơn về tính tiện lợi của chúng một cách tương đối.
 
-![image](assets/en/08.webp)
+![image](assets/vi/008.webp)
 
-![image](assets/en/09.webp)
+![image](assets/vi/009.webp)
 
-![image](assets/en/10.webp)
+![image](assets/vi/010.webp)
 
 ### Đặc điểm của tiền
 
@@ -203,7 +168,7 @@ Ngược lại, tiền tệ do nhà nước phát hành (tiền pháp định) r
 
 Để giải thích rõ hơn khái niệm này, chúng ta sẽ khám phá các đặc điểm của một loại tiền tệ hiệu quả:
 
-![image](assets/en/11.webp)
+![image](assets/vi/011.webp)
 
 
 - **Tính có thể thay thế**, nghĩa là nó có thể hoán đổi với một đơn vị khác cùng loại mà không mất giá trị;
@@ -219,7 +184,7 @@ Ngược lại, tiền tệ do nhà nước phát hành (tiền pháp định) r
 
 Tiền tệ vẫn đang phát triển cho đến ngày nay, điều chỉnh hình thức của chúng để đáp ứng các trường hợp sử dụng khác nhau. Như đã nói, trong khi vàng là một kho lưu trữ giá trị tuyệt vời, nó không còn phù hợp với nền kinh tế toàn cầu hóa hiện tại. Tương tự như vậy, các loại tiền tệ ủy thác như đô la và euro rất thanh khoản và dễ vận chuyển vì hiện nay chúng chủ yếu là kỹ thuật số, nhưng giá trị của chúng liên tục giảm do lạm phát tiền tệ.
 
-Mặt khác, Bitcoin mang đến những khả năng mới. Các đặc tính của nó, chẳng hạn như nguồn cung hạn chế nghiêm ngặt, khiến nó trở thành một kho lưu trữ giá trị tuyệt vời. Hơn nữa, với tư cách là một loại tiền tệ trung lập trên internet, nó đóng vai trò là một **phương tiện trao đổi** khả thi vượt qua biên giới. Tuy nhiên, nó vẫn chưa được chấp nhận rộng rãi trong thương mại ngày nay, mặc dù [được áp dụng liên tục](https://btcmap.org/map).
+Mặt khác, Bitcoin mở ra những triển vọng mới. Các đặc tính của nó, đặc biệt là nguồn cung bị giới hạn nghiêm ngặt, khiến nó trở thành một kho lưu trữ giá trị xuất sắc. Đồng thời, với tư cách là một đồng tiền internet trung lập, nó cấu thành một **phương tiện trao đổi** khả thi, có khả năng vượt qua biên giới. Tuy nhiên, mặc dù việc chấp nhận vẫn đang tiếp diễn (như được minh họa bởi [bản đồ BTCmap](https://btcmap.org/map)), hiện nay nó vẫn chưa được chấp nhận rộng rãi trong thương mại.
 
 ## tiền tệ ủy thác
 
@@ -234,7 +199,7 @@ Ngày nay, các loại tiền tệ chính như Euro và Đô la được xem là
 
 Tiền tệ ủy thác là một hình thức tiền tệ được một tổ chức ban hành, tức là một quốc gia, như Trung Quốc với đồng Nhân dân tệ, hoặc một liên minh chính trị-kinh tế, như Liên minh châu Âu với đồng Euro. Tổ chức chịu trách nhiệm phát hành tiền tệ là ngân hàng trung ương (Ví dụ, chúng ta có thể đề cập đến Ngân hàng Nhân dân Trung Quốc, Cục Dự trữ Liên bang Mỹ hoặc Ngân hàng Trung ương Cộng hòa Guinea). Chính những tổ chức này chịu trách nhiệm xây dựng chính sách tiền tệ và do đó quyết định nên đưa (in ra) bao nhiêu tiền vào lưu thông.
 
-![image](assets/en/12.webp)
+![image](assets/vi/012.webp)
 
 ### Phá giá tiền tệ: một chiến lược có từ thời Đế chế La Mã
 
@@ -244,7 +209,7 @@ Cơ chế này đơn giản và được lấy cảm hứng từ các hoạt đ�
 
 Tuy nhiên, những nhà lãnh đạo này sau đó bắt đầu phá giá dần đồng tiền mới phát hành, bằng cách làm giảm lượng vàng của mỗi đồng tiền xuống vài phần trăm mỗi năm so với số lượng vàng của các đồng tiền trước đó. Sự phá giá thầm lặng này thường được biện minh là vì lợi ích của người sử dụng. Nhưng trên thực tế, những người tiết kiệm bằng loại tiền ủy thác này thấy giá trị tiền tiết kiệm của họ bị bào mòn, trong khi nhà nước tài trợ cho các dự án của mình thông qua lạm phát. Thêm vào đó là sự phá giá tiền tệ này có thể giúp nhà nước trả nợ dễ dàng hơn.
 
-![image](assets/en/13.webp)
+![image](assets/vi/013.webp)
 
 Đến một thời điểm quan trọng, các nhà lãnh đạo thông báo: các đồng tiền này không còn được bảo đảm bằng vàng nữa. Công chúng, giờ đã quen với đồng tiền ủy thác và thường nhận thông tin sai lệch về các vấn đề tài chính, chấp nhận thực tế này, cho phép nhà nước tự do thao túng nguồn cung tiền và in ra số tiền khổng lồ mà gần như không phải mất khoản phí.
 
@@ -256,17 +221,16 @@ Cuối cùng thì loại tiền đồng này có thể không còn liên quan g�
 
 Hiện tại chúng ta đang chứng kiến một bước ngoặt lịch sử. Đồng đô la, vốn đã thống trị từ lâu, đang trên đà suy giảm về giá trị, và khi vàng đã dần mất đi vai trò trung tâm. Chúng ta đang đứng trước ngưỡng cửa của một chu kỳ tiền tệ mới, cho ta thấy rằng những bài học của lịch sử thường bị lãng quên.
 
-![image](assets/en/14.webp)
+![image](assets/vi/014.webp)
 
 ### Bitcoin có phải là giải pháp không?
 
 Với những tiền đề này, phong trào cách mạng Bitcoin đang phát triển mạnh mẽ. Trái ngược với các loại tiền tệ trước đây, nó không yêu cầu **một trung gian đáng tin cậy** và với mục đích tách bạch cơ quan trung ương ra khỏi tiền tệ.
 
-![image](assets/en/15.webp)
 
 Trên thực tế đối với những thách thức của hệ thống này, Bitcoin thể hiện như là một phản ứng bằng cách đề xuất một giải pháp phi tập trung và một hệ thống song song cho với loại tiền tệ mới. Trong lịch sử, nếu vàng được ưa chuộng như một loại tiền tệ do khả năng chống làm giả, thì Bitcoin vượt trội hơn vì không thể bị làm giả. Hơn nữa, nó còn bị giới hạn số lượng với 21 triệu đơn vị, nhờ bản chất phi tập trung và tính mã hóa . Bitcoin là một loại tiền tệ dựa trên sự minh bạch và trung lập, cung cấp một giải pháp thay thế tiềm năng cho hệ thống tiền tệ tập trung hiện tại.
 
-![image](assets/en/16.webp)
+![image](assets/vi/015.webp)
 
 Một lý do khác khiến Bitcoin được chú ý là sự xuất hiện của các loại tiền kỹ thuật số của ngân hàng trung ương, hay CBDC, dường như là điều không thể tránh khỏi. Hình thức tiền tệ mới này sẽ được tận dụng để phát triển một nền kinh tế tập trung hơn và có thể làm tăng rào cản trở đối quyền tự do tài chính cá nhân đồng thời tạo điều kiện cho sự lạm quyền.
 
@@ -275,7 +239,7 @@ Chúng ta có thể kết thúc chương này bằng một trích dẫn từ  F.
 > "Tôi không tin chúng ta sẽ có một loại tiền có giá trị tốt trở lại, cho đến khi chúng ta lấy nó ra khỏi bàn tay của chính phủ. Nếu chúng ta không thể dùng vũ lực, thì có thể đưa ra thứ gì đó mà họ không thể ngăn cản một cách khôn khéo nào đó hoặc theo đường vòng."
 Để tìm hiểu thêm về những nhận định sai lệch về kinh tế và sự tự do, mời bạn khám phá khóa học ECO 102 của chúng tôi, khóa học này sẽ mô tả cuộc đời và tư tưởng của Frédéric Bastiat, một nhà tư tưởng người Pháp thế kỷ 19, người chắc chắn sẽ đánh giá cao sự xuất hiện của Bitcoin:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## Siêu lạm phát
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -295,11 +259,11 @@ Khi siêu lạm phát xảy ra, chúng ta không còn nói về 20% mỗi năm n
 
 Điều quan trọng là siêu lạm phát không xảy ra một cách ngẫu nhiên, mà là do chủ nghĩa tư bản hay do các cuộc tấn công chính trị từ những phe đối lập. Siêu lạm phát là hệ quả trực tiếp của các quyết định sai lầm về tiền tệ từ các ngân hàng trung ương và chính trị gia đưa ra. Hậu quả của nó ảnh hưởng đến mọi công dân và thậm chí tác động đến các thế hệ tiếp theo. Đọc bảng sau đây để nhận ra đầy đủ tác động thực sự của hiện tượng này (khóa học ECO204 sẽ đi sâu hơn vào chủ đề này). Như bạn thấy, không có quốc gia hay loại tiền tệ nào có khả năng an toàn cao.
 
-![image](assets/en/17.webp)
+![image](assets/vi/016.webp)
 
 ### Các giai đoạn của siêu lạm phát là gì?
 
-![image](assets/en/18.webp)
+![image](assets/vi/017.webp)
 
 Để siêu lạm phát xảy ra, một số sự kiện nhất định phải diễn ra.
 
@@ -318,7 +282,7 @@ Giai đoạn 3 - Vòng luẩn quẩn của việc in tiền
 
 - Do đó, ngày càng cần nhiều tiền giấy hơn để mua hàng hóa, dẫn đến tình trạng khan hiếm tiền giấy. Để ứng phó, chính phủ phải in thêm tiền giấy, làm lạm phát tăng cao hơn nữa.
 
-![image](assets/en/19.webp)
+![image](assets/vi/018.webp)
 
 Giai đoạn 4 - Sự xuất hiện của một loại tiền tệ mới
 
@@ -340,7 +304,7 @@ Một trong những ví dụ nổi bật nhất về siêu lạm phát xảy ra 
 
 Cuối cùng, chính quyền đã tạo ra một loại tiền tệ mới, được bảo đảm bằng các khoản nợ của Đức, Pháp và Anh, và được bảo chứng bằng đất đai của Đức.
 
-![image](assets/en/20.webp)
+![image](assets/vi/019.webp)
 
 
 - Hungary, 1945-1946
@@ -351,7 +315,7 @@ Hungary thấy mình ở thế thua cuộc trong cuộc xung đột, với hầu
 
 Tờ tiền giấy cuối cùng được đưa vào lưu thông là tờ 100 triệu tỷ Pengo (100.000.000.000.000.000) vào năm 1946.
 
-![image](assets/en/21.webp)
+![image](assets/vi/020.webp)
 
 
 - Zimbabwe, 2007-2008
@@ -364,7 +328,6 @@ Vào tháng 6 năm 2007, chính phủ đã phản ứng bằng cách áp dụng 
 
 Vào tháng 4 năm 2009, Bộ trưởng Tài chính đã công bố lệnh đình chỉ đồng đô la Zimbabwe và cho phép sử dụng các loại tiền tệ nước ngoài khác nhau để giao dịch. Tất cả các tài khoản ngân hàng, lương hưu và các tổ chức tài chính đều thấy số dư của họ bốc hơi chỉ sau một đêm.
 
-![image](assets/en/15.webp)
 
 Tóm lại, siêu lạm phát có tác dụng làm giảm nhanh giá trị của đồng tiền, dẫn đến xói mòn tiền tiết kiệm và mất niềm tin vào hệ thống tiền tệ. Như Voltaire đã từng gợi mở, loại tiền pháp định nào cũng sẽ mất dần giá trị nội tại và cuối cùng là về số không.
 
@@ -372,7 +335,7 @@ Trên thực tế và trong dài hạn, một loại tiền tệ phụ thuộc v
 
 Để đi sâu hơn vào chủ đề siêu lạm phát, bạn nên tham gia khóa học ECO 204 của David St-Onge, nơi bạn sẽ tìm hiểu về các chu kỳ siêu lạm phát và tác động thực sự của chúng đối với cuộc sống của chúng ta. Bạn cũng sẽ tìm hiểu những điểm tương đồng giữa các chu kỳ này và quan trọng nhất là qua đó học cách bảo vệ bản thân.
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 ## 21 triệu bitcoin
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
@@ -381,7 +344,7 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Bitcoin là một loại tiền kỹ thuật số phi tập trung với số lượng tối đa được xác định trước là **21 triệu đơn vị**. Đặc điểm khan hiếm cố hữu này được xác định bởi các mã lập trình của nó và được củng cố bởi sự đồng thuận của tất cả người sử dụng tham gia vào giao thức.
 
-![image](assets/en/22.webp)
+![image](assets/vi/021.webp)
 
 Việc phát hành tiền tệ của nó có thể được minh họa bằng một đường cong biểu thị số lượng bitcoin được tạo ra theo thời gian. Ví dụ, vào năm 2022, có khoảng 18,5 triệu bitcoin đang lưu hành. Dự báo cho thấy đến năm 2025, sẽ có khoảng 19,5 triệu bitcoin, chiếm khoảng 93% tổng nguồn cung và đến năm 2037, con số này sẽ đạt 20,4 triệu.
 
@@ -389,9 +352,9 @@ Việc phát hành tiền tệ của nó có thể được minh họa bằng m�
 
 Việc tạo ra bitcoin mới là kết quả của quá trình khai thác. Nói một cách ngắn gọn, người khai thác (thợ đào) sử dụng sức mạnh máy tính để giải quyết các vấn đề toán học phức tạp, xác thực và bảo mật các giao dịch. Khi một vấn đề được giải quyết, người khai thác sẽ thêm một khối giao dịch mới vào chuỗi khối dữ liệu (Blockchain), là một sổ cái phân tán và phi tập trung ghi lại tất cả các giao dịch được thực hiện trên mạng. chuỗi khối dữ liệu đảm bảo tính minh bạch và bảo mật, vì mỗi khối được liên kết với khối trước đó, khiến việc thay đổi dữ liệu trong quá khứ mà không có sự đồng thuận từ mạng lưới gần như là không thể.
 
-![image](assets/en/23.webp)
+![image](assets/vi/022.webp)
 
-Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ đào) sẽ được thưởng bitcoin mới được sản xuất ra sau mỗi mười phút. Phần thưởng này được lập trình để giảm một nửa sau mỗi 210.000 khối, tức là khoảng bốn năm một lần (một sự kiện được gọi là "halving"), tạo cho đường cong phát hành tiền tệ có hình dạng giống như cầu thang. Do cơ chế này, có thể dự đoán về mặt toán học rằng việc tạo ra bitcoin mới sẽ chấm dứt vào khoảng năm 2140, khi tổng số lượng đạt đến giới hạn là 21 triệu.
+Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ đào) sẽ được thưởng bitcoin mới được sản xuất ra sau mỗi mười phút. Phần thưởng này được lập trình để giảm một nửa sau mỗi 210.000 khối, tức là khoảng bốn năm một lần (một sự kiện được gọi là "[halving](https://planb.academy/resources/glossary/halving)"), tạo cho đường cong phát hành tiền tệ có hình dạng giống như cầu thang. Do cơ chế này, có thể dự đoán về mặt toán học rằng việc tạo ra bitcoin mới sẽ chấm dứt vào khoảng năm 2140, khi tổng số lượng đạt đến giới hạn là 21 triệu.
 
 | Halving Number | Chiều cao khối |Phần thưởng BTC sau khi Halving  | Ước tính BTC lưu hành sau khi Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -416,7 +379,7 @@ Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ 
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Chúng ta sẽ xem xét lại khái niệm khai thác chi tiết hơn trong [chương về khai thác](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Chúng ta sẽ xem xét lại khái niệm khai thác chi tiết hơn trong [chương về khai thác](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Đảm bảo sự khan hiếm kỹ thuật số
 
@@ -427,7 +390,7 @@ Giới hạn 21 triệu là cơ sở cho sự khan hiếm của Bitcoin và đư
 
 Độ khó của việc tìm một hàm mã hóa hợp lệ tuân theo một chu kỳ: nếu số lượng thợ đào tăng lên, điều đó có nghĩa là số lượng khối họ tìm thấy cao hơn, điều này làm giảm thời gian trung bình để tìm một khối. Khi đó, độ khó tăng lên. Vì vậy, số lượng khối mà thợ đào tìm thấy được giảm xuống, điều này có nghĩa là cơ chế quay trở lại mức trung bình là 10 phút cho mỗi khối. Xem hình ảnh bên dưới để biết hình ảnh trực quan.
 
-![image](assets/en/24.webp)
+![image](assets/vi/023.webp)
 
 Bạn có biết rằng thợ đào được khuyến khích khai thác một khối để kiếm bitcoin mới thông qua trợ cấp khối cũng như phí giao dịch từ các giao dịch được đưa vào khối đó?
 
@@ -436,7 +399,7 @@ Thế nên, khi số lượng bitcoin được phát hành đạt đến giới 
 
 - Lý thuyết trò chơi là một khái niệm toán học dựa trên suy luận của người. Nó giả định rằng các cá nhân hành động một cách hợp lý, tìm cách tối đa hóa lợi ích của riêng họ trong khi cân nhắc các quyết định tiềm năng của người khác. Trong Bitcoin, lý thuyết trò chơi giúp đảm bảo rằng phần lớn thợ đào và người sử dụng sẽ hành động vì lợi ích tốt nhất của mạng lưới. Trên thực tế, vì những thay đổi giao thức được người dùng bỏ phiếu, nên bất kỳ sửa đổi nào đối với giao thức Bitcoin đều cần có sự đồng ý của toàn bộ cộng đồng người sử dụng, điều này rất phức tạp. Vì vậy, nếu ai đó muốn tạo ra 22 triệu bitcoin, họ sẽ phải thuyết phục tất cả người sử dụng tự nguyện phá giá tiền tiết kiệm của chính họ, điều này khó có thể xảy ra vì Bitcoin là toàn cầu và không được quản lý bởi một nhóm trung tâm.
 
-![image](assets/en/25.webp)
+![image](assets/vi/024.webp)
 
 Ý tưởng phá giá đồng tiền này đi ngược lại triết lý cơ bản của Bitcoin, do đó khả năng thay đổi về số lượng tổng của nó là rất khó xảy ra.
 
@@ -487,7 +450,7 @@ Ví Bitcoin có thể đa dạng và nhiều hình thức như: phần mềm má
 
 Do vậy, các danh mục vốn có thể được phân loại rộng rãi theo các nhóm sử dụng, nhưng luôn xoay quanh một câu hỏi chính: bạn là chủ sở hữu nguồn vốn hay bạn đang để quyền kiểm soát nguồn tiền của mình cho bên thứ ba? Chúng ta sẽ đi sâu vào chủ đề này một cách chi tiết trong chương tiếp theo, nhưng vẫn với câu hỏi đơn giản: tiền nằm trong túi bạn hay trong túi của ngân hàng?
 
-![image](assets/en/26.webp)
+![image](assets/vi/025.webp)
 
 ### Ví Bitcoin hoạt động như thế nào?
 
@@ -511,13 +474,13 @@ Những địa chỉ này được tự động tạo ra trong ví của bạn v
 
 Tóm lại, công nghệ này cho phép chúng ta nhận bitcoin mà không cho phép người nhận lấy trộm tiền của chúng ta! Hộp thư có thể là một so sánh ẩn dụ phù hợp: mọi người có thể gửi tiền vào đó, nhưng bạn là người duy nhất có thể mở nó.
 
-![image](assets/en/27.webp)
+![image](assets/vi/026.webp)
 
 ### Có bitcoin trong ví không?
 
 Mặc dù khóa của bạn được lưu trữ trong ví của bạn, nhưng bản thân bitcoin thực sự được "lưu giữ" trong chuỗi khối Bitcoin, đây là sổ cái phân tán công khai trong mạng lưới hàng ngang của Bitcoin (chúng ta sẽ đi sâu vào chủ đề này trong phần 3). Điều này có nghĩa là việc mất thiết bị chứa ví của bạn không nhất thiết dẫn đến việc mất bitcoin. Thứ thực sự cho phép bạn tạo lại ví và chi tiêu bitcoin là khóa riêng, vì vậy hãy luôn nhớ bảo mật nó đúng cách!
 
-![image](assets/en/28.webp)
+![image](assets/vi/027.webp)
 
 May mắn là, kể từ năm 2017, khóa riêng có thể được thể hiện dưới dạng một danh sách đơn giản gồm 12 hoặc 24 từ, hay được gọi là 'cụm tư ghi nhớ', làm việc lưu lại dễ dàng hơn. Cụm từ này đóng vai trò là bản sao lưu trữ cho tiền của bạn và cho phép bạn tái tạo lại ví của mình với bất kỳ phần mềm hoặc ứng dụng Bitcoin nào. Do đó, bất kỳ ai tìm thấy danh sách các từ này đều có thể truy cập vào tài khoản bitcoin của bạn.
 
@@ -526,15 +489,15 @@ May mắn là, kể từ năm 2017, khóa riêng có thể được thể hiện
 Nếu ai đó vô tình đoán được danh sách 12 hoặc 24 từ của chúng ta thì sao? Câu trả lời ngắn gọn là khả năng này rất thấp, nhờ vào hàm mã hóa được sử dụng để tạo ví. Để hiểu rõ hơn, việc vô tình khám phá ra cùng một cụm từ mật khẩu của bạn cũng giống như việc đoán ra 1 số "đúng" giữa 1 và $2^256$, gần như tương đương với việc tìm ra nguyên tử "đúng" trong Vũ trụ. Tuy nhiên, nếu bạn không hài lòng với bảo mật mặc định này, bạn luôn có thể nâng cao nó bằng cách thêm một cụm mật khẩu (một từ bổ sung) vào ví Bitcoin của mình.
 
 
-![image](assets/en/29.webp)
+![image](assets/vi/028.webp)
 
 Khả năng ví Bitcoin của bạn bị hack là cực kỳ thấp nếu bạn tuân thủ các biện pháp bảo mật tối ưu sẽ được trình bày chi tiết ở phần tiếp theo.
 
-Hãy nhớ chọn ví phù hợp với nhu cầu và mục đích sử dụng của bạn: hướng dẫn chi tiết về cách quản lý và bảo mật các loại ví khác nhau có trong [phần hướng dẫn của trường đại học của chúng tôi](https://planb.network/tutorials/wallet).
+Hãy nhớ chọn ví phù hợp với nhu cầu và mục đích sử dụng của bạn: hướng dẫn chi tiết về cách quản lý và bảo mật các loại ví khác nhau có trong [phần hướng dẫn của trường đại học của chúng tôi](https://planb.academy/tutorials/wallet).
 
 Nếu trong quá trình học của mình, bạn muốn tìm hiểu thêm về cách lập trình ví Bitcoin, từ entropy đến cách nhận địa chỉ, chúng tôi khuyên bạn nên tham gia khóa học CYP 201 chuyên về chủ đề này:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ## Ví Bitcoin và Bảo mật
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -551,7 +514,7 @@ Khi sở hữu bitcoin, tính an toàn bảo mật cho tiền của bạn là m�
 
 Trên thực tế không có câu trả lời hay giải pháp chung nào, vì vậy hãy dành thời gian trả lời những câu hỏi này vì điều đó sẽ giúp bạn điều chỉnh các biện pháp bảo mật phù hợp nhu cầu của mình.
 
-![image](assets/en/30.webp)
+![image](assets/vi/029.webp)
 
 ### Nghĩ về ví Bitcoin theo khía cạnh phức tạp
 
@@ -560,36 +523,36 @@ Dưới đây là định nghĩa một số cấp độ bảo mật:
 
 - **Cấp độ 0**, bạn sử dụng cái gọi là "dịch vụ lưu ký" mà bạn không phải là người duy nhất nắm giữ bitcoin của mình. Hãy lưu ý rằng bên thứ ba đáng tin cậy này có thể hạn chế quyền truy cập của bạn vào tiền của bạn bất kỳ lúc nào. Trong trường hợp này, mức độ chủ quyền về tài chính của bạn tương tự như có tài khoản trong hệ thống ngân hàng truyền thống.
 
-![image](assets/en/31.webp)
+![image](assets/vi/030.webp)
 
 
 - **Cấp độ 1**, bạn sử dụng ví Bitcoin trên điện thoại hoặc máy tính, nơi bạn là người duy nhất nắm giữ bitcoin của mình và bạn có thể dễ dàng thực hiện các giao dịch của mình. Công cụ được đề cập ở trên được gọi là "ví nóng", vì khóa riêng được lưu trữ trên thiết bị có kết nối internet. Trong trường hợp này, điều quan trọng là phải sao lưu cụm từ mật khẩu của bạn để lấy lại quyền truy cập vào tiền của bạn trong trường hợp mất điện thoại hoặc máy tính.
 
 Ví dụ, bạn có thể sử dụng Sparrow Wallet như một ví nóng:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **Cấp độ 2**, bạn sử dụng ví vật lý và bạn đã bảo mật danh sách 12/24 từ của mình. Nó thường được gọi là "Ví lạnh" vì khóa của bạn được lưu trữ trên thiết bị không được kết nối với internet. Trong trường hợp này, bạn sẽ luôn cần phải ký mọi giao dịch bằng thiết bị của mình, điều này khiến tiền của bạn khó truy cập hơn hàng ngày.
 
 Ví dụ, bạn có thể sử dụng Ledger, Satochip hoặc Tapsigner:
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
-![image](assets/en/32.webp)
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+![image](assets/vi/031.webp)
 
 
 - **Cấp độ 3**, bạn sử dụng ví cấp độ 1 hoặc 2, nhưng bạn đã thêm một cụm mật khẩu bổ sung. Trong trường hợp này, hãy lưu ý rằng bạn cần sao lưu cả danh sách 12/24 từ **và** cụm mật khẩu của bạn. Lý tưởng nhất là hai thông tin này được lưu trữ ở hai nơi khác nhau.
 
 Để tìm hiểu thêm về cách sử dụng và chức năng của cụm mật khẩu BIP39:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
-![image](assets/en/33.webp)
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+![image](assets/vi/032.webp)
 
 
 - **Cấp độ 4**, bạn sử dụng một bộ ví để tạo ví "đa chữ ký", nghĩa là cần nhiều chữ ký để thực hiện giao dịch. Trong trường hợp này, hãy lưu ý rằng mỗi phần của đa chữ ký phải được lưu trữ ở các vị trí khác nhau. Cách tiếp cận này thường được xem là cách sử dụng Bitcoin nâng cao, chủ yếu để quản lý số lượng lớn và cho mục đích của công ty.
 
-![image](assets/en/34.webp)
+![image](assets/vi/033.webp)
 
 Hiển nhiên là các trường hợp sử dụng khác nhau sẽ đòi hỏi các ví Bitcoin khác nhau và không có giải pháp nào phù hợp cho tất cả mọi trường hợp.
 
@@ -609,7 +572,7 @@ Tính bảo mật của bitcoin của bạn có tầm quan trọng sống còn v
 
 Khóa học BTC102 sẽ hướng dẫn bạn thực hiện bước này.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ### Bước này không phải chuyện đùa!
 
 Khi bạn thiết lập ví, phần mềm thường tạo khóa riêng của bạn, thường được biểu thị bằng danh sách 12/24 từ (thường được gọi là "cụm từ hạt giống" hoặc "cụm từ mật khẩu"): những từ này cấu thành quyền truy cập vào tiền của bạn. Nếu khóa này bị tiết lộ cho bên thứ ba, bạn nên nghĩ là khoản tiền trong tài khoản đã bị xâm phạm. Do đó, khi thiết lập ví, điều cần thiết là phải tuân theo các quy tắc sau:
@@ -626,13 +589,13 @@ Theo đúng nghĩa đen là bạn nên lấy một tờ giấy trắng hoặc in
 
 Xem ví dụ về cách biên soạn bài viết dưới đây: những từ ngữ này là giả, vì vậy đừng sử dụng chúng!
 
-![image](assets/en/35.webp)
+![image](assets/vi/034.webp)
 
 ### Mẹo để làm đúng
 
 Ngoài ra, hãy đảm bảo không mắc bất kỳ lỗi nào trong quá trình sao chép lưu trữ mật khẩu, nếu không người thừa kế của bạn có thể gặp khó khăn khi đọc và không thể lấy lại được tiền. Ngoài ra, sau khi bạn đã lưu các từ mật khẩu, bạn nên tạo một bản sao thứ hai và lưu trữ ở một vị trí khác với bản đầu tiên. Điều này đảm bảo bạn có bản sao lưu trong trường hợp bản gốc bị mất hoặc bị hỏng.
 
-![image](assets/en/36.webp)
+![image](assets/vi/035.webp)
 
 Danh sách từ vựng nên được lưu trữ ở nơi an toàn mà bạn có thể dễ dàng nhớ được. Tránh tạo ra các kế hoạch ẩn dấu quá phức tạp có thể dẫn đến mất chúng.
 
@@ -644,7 +607,7 @@ Cả ví 'lạnh' và 'nóng' đều sử dụng cùng phương pháp danh sách
 
 Nếu sau đó bạn muốn khám phá từng bước cách thiết lập ví của riêng mình và nhận được những bitcoin đầu tiên, chúng tôi cũng khuyên bạn nên tham gia các khóa học khác:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ## Vượt qua thử thách của thời gian
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
@@ -655,17 +618,17 @@ Cũng giống như bất kỳ hình thức tài sản khác, bitcoin của bạn
 
 Một phương pháp để bảo vệ bitcoin của bạn trong thời gian dài là khắc cụm từ mật khẩu lên vật liệu bền như thép, bằng cách tạo bản sao lưu vật lý cho chìa khóa của bạn có khả năng chống chịu được cả thiệt hại do nước và hỏa hoạn.
 
-Có nhiều giải pháp khác nhau: một số giải pháp có chi phí thấp, chẳng hạn như "Blockmit", trong khi một số giải pháp khác có thể yêu cầu thiết bị chuyên dụng hơn. Bạn có thể tìm hiểu thêm về chủ đề này trong phần [hướng dẫn](https://planb.network/en/tutorials/wallet) của học viện chúng tôi.
+Có nhiều giải pháp khác nhau: một số giải pháp có chi phí thấp, chẳng hạn như "Blockmit", trong khi một số giải pháp khác có thể yêu cầu thiết bị chuyên dụng hơn. Bạn có thể tìm hiểu thêm về chủ đề này trong phần [hướng dẫn](https://planb.academy/en/tutorials/wallet) của học viện chúng tôi.
 
-![image](assets/en/37.webp)
+![image](assets/vi/036.webp)
 
 ### Nghĩ cho thế hệ tiếp theo!
 
 Bên cạnh phương pháp đầu tiên nêu trên, việc lập kế hoạch thừa kế là bước quan trọng để đảm bảo rằng bitcoin của bạn được quản lý và phân bổ đúng mong muống của bạn sau khi qua đời. Kế hoạch này bao gồm việc viết tay một lá thư nêu rõ bản chất tài sản của bạn, phương pháp tiếp cận và thông tin liên lạc của những cá nhân đáng tin cậy có trách nhiệm đối với chúng. Việc thảo luận về việc thừa kế bitcoin với luật sư cũng rất quan trọng để đảm bảo tuân thủ thuế và luật pháp, ngay cả khi người này không bao giờ được giao phó trực tiếp việc quản lý bitcoin của bạn.
 
-Nếu bạn muốn tìm hiểu sâu hơn về chủ đề kế hoạch thừa kế bitcoin của mình, chúng tôi khuyên bạn nên đọc cuốn sách [Kế hoạch thừa kế tài sản mã hóa](https://planb.network/resources/books/28) của Pamela Morgan hoặc đăng ký khóa học BTC102, nơi chúng tôi cung cấp hướng dẫn về cách lập kế hoạch.
+Nếu bạn muốn tìm hiểu sâu hơn về chủ đề kế hoạch thừa kế bitcoin của mình, chúng tôi khuyên bạn nên đọc cuốn sách [Kế hoạch thừa kế tài sản mã hóa](https://planb.academy/resources/books/28) của Pamela Morgan hoặc đăng ký khóa học BTC102, nơi chúng tôi cung cấp hướng dẫn về cách lập kế hoạch.
 
-![image](assets/en/38.webp)
+![image](assets/vi/037.webp)
 
 ### Sự quan trọng về quyền riêng tư
 
@@ -705,27 +668,27 @@ Chúng ta đã tìm hiểu những điều cơ bản về ví Bitcoin và các b
 
 ### Hãy bắt đầu với một chút lịch sử.
 
-![image](assets/en/39.webp)
+![image](assets/vi/038.webp)
 
 Ngày 31 tháng 10 năm 2008 đánh dấu sự ra đời của công nghệ tài chính mới là Bitcoin. Vào ngày này, Satoshi Nakamoto bí ẩn đã trình bày sáng kiến của mình với thế giới thông qua gửi một email đến các địa chỉ trong danh sách của cypherpunks, một cộng đồng những người đam mê mật mã dành riêng cho việc thúc đẩy quyền riêng tư trên internet. Email này chứa một tài liệu có tên là "Bản cáo bạch", trình bày cách thức hoạt động của Bitcoin.
 
 Sáng kiến này không tạo ra sự nhiệt tình ngay lập tức, có lẽ là do những thất bại trước đó trong các nỗ lực tạo ra hệ thống tiền kỹ thuật số. Tuy nhiên, Bản cáo bạch này cuối cùng đã trở thành tài liệu tham khảo cho người sử dụng Bitcoin và là chủ đề của nhiều cuộc tranh luận trong hệ sinh thái Bitcoin trong nhiều năm.
 
-![image](assets/en/40.webp)
+![image](assets/vi/039.webp)
 
 Vào ngày 3 tháng 1 năm 2009, Satoshi chính thức triển khai mạng lưới Bitcoin bằng cách tạo ra khối đầu tiên, còn được gọi là "Genesis Block", đánh dấu sự ra mắt của chuỗi khối dữ liệu Bitcoin. Khối này chứa một thông điệp sứ mệnh của Bitcoin: "03/01/2009 Tổng thống đang trên bờ vực cứu trợ lần thứ hai cho các ngân hàng."
 
-![image](assets/en/41.webp)
+![image](assets/vi/040.webp)
 
 > "Chúng ta có thể giành chiến thắng trong một trận chiến lớn trong cuộc chạy đua vũ trang và đạt được
 > lãnh thổ tự do mới trong nhiều năm.” - Satoshi Nakamoto
-![image](assets/en/44.webp)
+![image](assets/vi/041.webp)
 
 ### Giao thức Bitcoin đi vào cuộc sống
 
 Vào ngày 9 tháng 1 năm 2009, Satoshi đã công bố phát hành phiên bản Bitcoin 0.1.0. Ngay sau đó, Hal Finney đã nắm giữ phần mềm và tham gia mạng lưới, đánh dấu sự hiện diện của hai máy chủ và do đó, hai thợ đào trong mạng lưới. Finney thậm chí còn bất tử hóa bước này bằng cách tweet, 'Chạy Bitcoin'. Vào ngày 12 tháng 1 năm 2009, giao dịch Bitcoin đầu tiên trị giá 10 BTC đã được thực hiện giữa Satoshi và Hal Finney, và bạn có thể dễ dàng tìm thấy nó, nếu bạn quay lại khối 170.
 
-![image](assets/en/43.webp)
+![image](assets/vi/042.webp)
 
 Sự quan tâm đến Bitcoin tăng nhanh chóng, khiến nhiều người thử nghiệm, tham gia tranh luận, giải quyết lỗi và suy ngẫm về các khía cạnh đạo đức, kinh tế và triết học của nó. Mọi người bị cuốn hút đến mức Satoshi đã tạo ra diễn đàn BitcoinTalk vào ngày 22 tháng 11 năm 2009 để tạo điều kiện cho những cuộc tranh luật này.
 
@@ -733,7 +696,7 @@ Diễn đàn nhanh chóng trở thành nơi thảo luận được người sử
 
 **Bạn có biết?** Vào ngày 22 tháng 5 năm 2010, Laszlo Hanyecz đã tạo nên lịch sử khi đề nghị mua hai chiếc pizza với giá 10.000 BTC: đây là lần đầu tiên Bitcoin được sử dụng để mua hàng hóa vật chất.
 
-![image](assets/en/42.webp)
+![image](assets/vi/043.webp)
 
 ### Sự biến mất của Satoshi Nakamoto
 
@@ -746,9 +709,9 @@ Mặc dù Satoshi vắng mặt, Bitcoin vẫn tiếp tục được phát triể
 
 Đối với một số người, Bitcoin được định nghĩa là một loại nấm giống như một [hệ nấm sợi](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), trong khi người khác mô tả nó như một [hố đen](https://dergigi.com/). Dù bạn thích hay không thì Bitcoin vẫn tiếp tục tồn tại, với nhịp độ đều đặn liên tục 10 phút cho mỗi khối, giống như nhịp đập trái tim của một hệ thống tiền tệ mới.
 
-Để tìm hiểu thêm về các bài viết của Satoshi Nakamoto, chúng tôi khuyên bạn nên đọc ["The Book of Satoshi"](https://planb.network/en/resources/books/98) của Phil Champagne hoặc phim tài liệu "Le mystaire Satoshi" của ARTE.
+Để tìm hiểu sâu hơn về các tác phẩm của Satoshi Nakamoto, tôi khuyến nghị đọc [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) của Phil Champagne, tác phẩm tập hợp và đặt các văn bản chính của ông vào bối cảnh, cũng như bộ phim tài liệu của ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), mang đến một cuộc điều tra dễ tiếp cận và được tư liệu hóa đầy đủ về danh tính và di sản của ông.
 
-![image](assets/en/45.webp)
+![image](assets/vi/044.webp)
 
 > “Vấn đề mấu chốt cần thiết của tiền tệ truyền thống là yêu cầu tất cả sự tin tưởng tuyệt đối để khiến nó hoạt động. Ngân hàng trung ương phải được tin tưởng là không làm mất giá tiền tệ, nhưng lịch sử về tiền pháp định đầy rẫy những vi phạm lòng tin đó. Các ngân hàng được tin tưởng để giữ tiền của chúng ta và thực hiện các giao dịch chuyển tiền điện tử, thay vào đó thì họ cho vay tiền theo các đợt bong bóng tín dụng nhưng với chỉ một phần nhỏ dự trữ đảm bảo” - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 Chúng ta đã có một số thông tin cơ bản, hãy cùng xem xét cách thức một giao dịch Bitcoin hoạt động như thế nào.
@@ -769,7 +732,7 @@ Bob thực hiện giao dịch bằng cách mở ví Bitcoin của mình và nh�
 
 Để hoàn tất giao dịch, Bob phải ký bằng khóa riêng của mình để xác minh rằng anh ta là chủ sở hữu của số bitcoin mà anh ta muốn chuyển. Bước này thường tự động trên ví nóng hoặc dưới dạng là bước xác nhận trên ví vật lý (ví lạnh) của bạn: "Bạn có chắc chắn muốn gửi X đến Y không? Có hoặc không".
 
-![image](assets/en/46.webp)
+![image](assets/vi/045.webp)
 
 **Tại sao phải trả phí?** Phí là yếu tố cần thiết để tạo ra một thị trường tự do cho việc đưa các giao dịch vào các khối. Trên thực tế, một khối có kích thước là 1 MB (đã được mở rộng lên 4 MB với phiên bản Segwit đã cập nhật), do đó, số lượng giao dịch có thể được "chèn" vào một khối bị giới hạn ở một vài nghìn giao dịch trên mỗi khối. Kích thước của một giao dịch phụ thuộc vào độ phức tạp của nó. Vì vậy, các giao dịch phức tạp hơn thường phải chịu phí cao hơn.
 
@@ -777,25 +740,25 @@ Bob thực hiện giao dịch bằng cách mở ví Bitcoin của mình và nh�
 
 Ở giai đoạn này, giao dịch đã được tạo và ví của Bob sẽ chia sẻ nó với mạng Bitcoin. Để thực hiện việc này, ví của anh Bob sẽ giao tiếp với một máy chủ của mạng Bitcoin, máy chủ này sẽ lan truyền thông tin này đến các máy chủ khác. Quy trình này cho phép toàn bộ mạng lưới nhìn thấy và ghi nhận giao dịch mới này.
 
-![image](assets/en/47.webp)
+![image](assets/vi/046.webp)
 
 Tại thời điểm này, mặc dù giao dịch này được mọi người biết đến (thông qua một công cụ gọi là Mempool), nhưng nó không được xem là đã xác nhận cho đến khi nó được chèn vào một khối bởi một thợ đào, đây là người duy nhất xác thực các giao dịch bằng cách đưa chúng vào chuỗi khối dữ liệu.
 
-Trên thực tế, thợ đào có vai trò thu thập các giao dịch hợp lệ và chưa được xác nhận để tập hợp chúng thành một khối. Nói một cách ngắn gọn, họ phải giải đáp một mật mã, và quá trình này được xem là "bằng chứng công việc" (Proof of work) để khối của họ trở thành khối tiếp theo trong chuỗi khối Bitcoin.
+Trên thực tế, thợ đào có vai trò thu thập các giao dịch hợp lệ và chưa được xác nhận để tập hợp chúng thành một khối. Nói một cách ngắn gọn, họ phải giải đáp một mật mã, và quá trình này được xem là "bằng chứng công việc" ([proof of work](https://planb.academy/resources/glossary/proof-of-work)) để khối của họ trở thành khối tiếp theo trong chuỗi khối Bitcoin.
 
-![image](assets/en/48.webp)
+![image](assets/vi/047.webp)
 
 ### Bước 3: Giao dịch được thợ đào khai thác trong một khối.
 
-Hệ thống quy trình minh chứng công việc - Proof of work yêu cầu phải tìm một "mã hóa" hợp lệ cho khối đang xét: hãy nghĩ về nó như một dấu vân tay độc nhất của khối dữ liệu, bao gồm 256 ký tự. Tính hợp lệ của mã hóa này phụ thuộc vào độ khó của mạng Bitcoin (chúng ta sẽ đi sâu hơn vào chi tiết sau). Trong ví dụ này, cho rằng một thợ đào đã tìm thấy một khối dữ liệu hợp lệ và giao dịch của Bob với Alice được chứa trong khối này. Tiếp đến, khối dữ liệu hợp lệ mới này được thêm vào chuỗi khối (Blockchain), sổ cái chung cho tất cả người sử dụng Bitcoin.
+Hệ thống quy trình minh chứng công việc - [proof of work](https://planb.academy/resources/glossary/proof-of-work) yêu cầu phải tìm một "mã hóa" hợp lệ cho khối đang xét: hãy nghĩ về nó như một dấu vân tay độc nhất của khối dữ liệu, bao gồm 256 ký tự. Tính hợp lệ của mã hóa này phụ thuộc vào độ khó của mạng Bitcoin (chúng ta sẽ đi sâu hơn vào chi tiết sau). Trong ví dụ này, cho rằng một thợ đào đã tìm thấy một khối dữ liệu hợp lệ và giao dịch của Bob với Alice được chứa trong khối này. Tiếp đến, khối dữ liệu hợp lệ mới này được thêm vào chuỗi khối (Blockchain), sổ cái chung cho tất cả người sử dụng Bitcoin.
 
-![image](assets/en/49.webp)
+![image](assets/vi/048.webp)
 
 ### Bước 4: Khối dữ liệu hợp lệ và được xác nhận bởi một máy chủ tham chiếu từ Alice.
 
 Ở giai đoạn này, giao dịch được xem là hợp lệ: người khai thác sau đó sẽ đưa khối mới vào mạng thông qua máy chủ của họ và ví của Alice sẽ được cập nhật.
 
-![image](assets/en/50.webp)
+![image](assets/vi/049.webp)
 
 **Lưu ý:** Ngay cả khi Alice được thông báo rằng cô đã nhận được bitcoin tại một trong các địa chỉ của mình, thì cũng thận trọng và chỉ nên xem giao dịch là an toàn sau khi nó đã nhận được **sáu** xác nhận. Điều này có nghĩa là phải khai thác thêm sáu khối trên khối chứa giao dịch của Bob. Nói cách khác, giao dịch càng cũ trong Blockchain thì tính bất biến (an toàn) càng cao.
 
@@ -825,7 +788,7 @@ Các máy chủ là thành phần cơ bản của kiến trúc của mạng Bitc
 
 Vì thế bất kỳ thiết bị nào chạy một phần mềm Bitcoin, được gọi là máy chủ Bitcoin (thường sử dụng [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), đều góp phần vào tính phi tập trung của mạng lưới.
 
-![image](assets/en/51.webp)
+![image](assets/vi/050.webp)
 
 ### Các máy chủ là nòng cốt của Bitcoin.
 
@@ -833,7 +796,7 @@ Mỗi máy chủ giữ một bản sao của chuỗi khối (Blockchain), cho ph
 
 Các máy chủ có khả năng xác minh tính hợp lệ của các khối và giao dịch vì chúng tuân theo các quy tắc của sự đồng thuận Bitcoin. Các quy tắc này thiết lập chính sách tiền tệ của Bitcoin, chẳng hạn như số tiền thưởng của thợ đào (chúng ta sẽ thảo luận chi tiết hơn ở phần tiếp theo) và số lượng bitcoin đang lưu hành. Theo một cách đặc biệt, các máy chủ hoạt động như hệ thống pháp lý của mạng lưới vì tất cả những người tham gia mạng đều tuân theo cùng một quy tắc do chúng duy trì, do đó có thể nói, chúng đảm bảo tính trung lập của giao thức Bitcoin. Các quy tắc đồng thuận hầu như không thay đổi, nếu có, khi cần để thực hiện thay đổi, thì phải có sự chấp thuận của tất cả các máy chủ.
 
-![image](assets/en/52.webp)
+![image](assets/vi/051.webp)
 
 Vấn đề quản trị trong giao thức nằm ngoài phạm vi của khóa học cơ bản này, nhưng điều quan trọng cần lưu ý là mỗi người sử dụng chạy một máy chủ Bitcoin có thể quyết định tuân theo quy tắc nào. Người dùng có thể chọn tuân thủ các quy tắc khác nhau (tức là thực hiện sửa đổi cho mã lập trình), nhưng nếu những thay đổi này làm mất hiệu lực các quy tắc đồng thuận hiện tại, máy chủ đó sẽ không còn là một phần của mạng Bitcoin nữa. Do đó, các sửa đổi lớn rất hiếm xảy ra và đòi hỏi sự nỗ lực phối hợp đáng kể giữa hàng ngàn người tham gia với tư duy và lợi ích khác nhau, chính điều này buộc họ phải cung cấp các bản cập nhật được tất cả người sử dụng Bitcoin xem là 'tốt hơn'.
 
@@ -841,7 +804,7 @@ Vấn đề quản trị trong giao thức nằm ngoài phạm vi của khóa h�
 
 Có một số tùy chọn khả dụng khi bạn muốn cài đặt máy chủ riêng của mình, với các chi phí bảo trì khác nhau. Bạn có thể chỉ cần chạy phần mềm Bitcoin Core trên máy tính của mình, nhưng sẽ cần một lượng không gian lưu trữ đáng kể, vì chuỗi khối (Blockchain) có dung lượng khoảng ~500GB. Để khắc phục hạn chế này, bạn có thể chọn chỉ giữ N khối cuối cùng trong bộ nhớ bằng cách tạo "máy chủ rút gọn". Đối với giải pháp thứ hai này, chi phí không đáng kể vì máy chủ chỉ hoạt động khi bạn cần.
 
-![image](assets/en/53.webp)
+![image](assets/vi/052.webp)
 
 Lựa chọn thứ hai là sử dụng một phần cứng chuyên dụng cho mục đích này, chẳng hạn như Raspberry Pi 4 có ổ SSD đủ lớn (khoảng ~2TB). Lựa chọn khác này đắt hơn nếu bạn phải mua phần cứng, nhưng nó chỉ tốn chưa đến 300,000 vnd mỗi năm về mặt chi phí tiêu thụ điện.
 
@@ -853,7 +816,7 @@ Chi phí phải chăng và khả năng tiếp cận của một máy chủ Bitco
 
 Thực sự mọi người đều có lý do chính đáng để chạy một máy chủ! Vì chi phí và công sức không đáng kể so với lợi ích thu được. Bạn chỉ cần bắt tay vào cuộc phiêu lưu và tham gia cùng hàng ngàn người sử dụng bitcoin khác để cùng nhau tạo thành mạng lưới Bitcoin.
 
-![image](assets/en/54.webp)
+![image](assets/vi/053.webp)
 
 Ngược lại, nếu các khối dữ liệu lớn hơn 100 lần, chắc chắn có thể thực hiện nhiều giao dịch hơn 100 lần sau mỗi 10 phút, nhưng việc chạy một máy chủ Bitcoin sẽ cần ổ cứng 50TB, băng thông hơn 500GB/tháng và một phần cứng có khả năng xác thực hàng trăm nghìn giao dịch trong vòng chưa đầy 10 phút. Trong tình huống giả định với các khối lớn hơn 100 lần này, việc chạy một máy chủ Bitcoin sẽ không thể tiếp cận được với người bình thường, điều này sẽ gây tổn hại đến cả tính phi tập trung và quy tắc đồng thuận của giao thức và cuối cùng là tính bất biến của các giao dịch.
 
@@ -865,13 +828,13 @@ Sau chiến thắng này, các máy chủ đã kích hoạt bản cập nhật c
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Thợ đào bảo mật mạng lưới và thêm giao dịch vào các khối. Họ sử dụng điện thông qua máy ASIC để giải quyết bằng chứng công việc của Bitcoin.**
+**Thợ đào bảo mật mạng lưới và thêm giao dịch vào các khối. Họ sử dụng điện thông qua máy [ASIC](https://planb.academy/resources/glossary/asic) để giải quyết bằng chứng công việc của Bitcoin.**
 
-![image](assets/en/55.webp)
+![image](assets/vi/054.webp)
 
-### Giải thích về Bằng chứng công việc - "Proof of Work" (POW)
+### Giải thích về Bằng chứng công việc - "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW)
 
-Bằng chứng công việc - "Proof of Work" (POW) là cơ chế đồng thuận bảo mật của giao thức Bitcoin. Đây là nền tảng của mọi thứ và đóng vai trò quan trọng trong lý thuyết trò chơi của Bitcoin.
+Bằng chứng công việc - "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW) là cơ chế đồng thuận bảo mật của giao thức Bitcoin. Đây là nền tảng của mọi thứ và đóng vai trò quan trọng trong lý thuyết trò chơi của Bitcoin.
 
 Để giải thích cách thức hoạt động, chúng ta hãy hình dung một cuộc xổ số phổ thông mà mọi người đều có thể tham gia. Mục tiêu là tìm ra một con số cụ thể để cho phép người chiến thắng ký một khối hợp lệ và nhận được phần thưởng bằng Bitcoin. Con số này rất dễ xác minh bằng hàm mã hóa SHA-256, nhưng khó tìm: những người tham gia khai thác (thợ đào) sẽ thử hàng tỷ khả năng, chẳng hạn như 1, 52, 2648, 26874615, 15344854131318631, v.v., cho đến khi họ tìm ra đúng.
 
@@ -883,17 +846,17 @@ Các máy hoạt động liên tục và sau trung bình 10 phút, một ngườ
 
 Cứ mỗi 2016 khối (khoảng hai tuần một lần), **việc điều chỉnh độ khó** sẽ cân bằng lại trò chơi khai thác toàn cầu dựa trên số lượng người tham gia. Việc điều chỉnh này là cần thiết vì số lượng thợ đào và sức mạnh tính toán kết hợp của họ có thể thay đổi đáng kể theo thời gian. Để duy trì tỷ lệ thời gian sản xuất khối, mạng sẽ chỉnh lại mức độ khó dựa trên tốc độ khai thác 2016 khối cuối cùng. Nếu chúng được khai thác quá nhanh, độ khó sẽ tăng lên, khiến việc tìm kiếm mã hóa chính xác trở nên khó khăn hơn. Ngược lại, nếu chúng được khai thác quá chậm, độ khó sẽ giảm xuống, khiến việc này trở nên dễ dàng hơn.
 
-![image](assets/en/24.webp)
+![image](assets/vi/055.webp)
 
 ### Sản xuất và khai thác liên tục được phát triển
 
 Trong nhiều năm, thợ đào đã trang bị cho mình phần cứng máy tính ngày càng hiệu quả hơn để tạo ra càng nhiều mã hóa càng tốt mỗi giây (HashRate) trong khi tiêu thụ ít năng lượng nhất theo cách tiết kiệm chi phí nhất có thể. Những thế hệ thợ đào đầu tiên như Satoshi hoặc Hal Finney chỉ khai thác bằng CPU của họ, sau đó những người khác bắt đầu khai thác bằng card đồ họa của họ. Ngày nay, thợ đào sử dụng ASIC (Mạch tích hợp dành riêng cho ứng dụng cụ thể): máy được thiết kế riêng để áp dụng thuật toán SHA256.
 
-![image](assets/en/56.webp)
+![image](assets/vi/056.webp)
 
 Tỉ suất mã hóa (Hashrate) của mạng Bitcoin biểu thị số lần thử được thực hiện mỗi giây để tìm khối tiếp theo. Ngày nay, nó thậm chí còn vượt quá 500 TH/s, tức là 500.000 tỷ lần thử mỗi giây! Tỉ suất mã hóa (Hashrate) toàn cầu càng cao, thì kẻ gian càng khó độc quyền các nguồn lực cần thiết để có được phần lớn sức mạnh khai thác và việc chi tiêu khống tiền khó xả ra (vấn đề chi tiêu khống). Do đó về mặt kinh tế, việc tuân thủ sẽ khả thi hơn so với việc chống lại các quy tắc của giao thức Bitcoin.
 
-![image](assets/en/57.webp)
+![image](assets/vi/057.webp)
 
 ### Có thể thấy gì trong một khối?
 
@@ -913,21 +876,21 @@ Số tiền trợ cấp được xác định theo các quy tắc đồng thuậ
 
 Thật vậy, đối với các khối đầu tiên, trợ cấp khối là 50 bitcoin. Cứ mỗi 210.000 khối (khoảng 4 năm một lần), số tiền này lại giảm một nửa. Ngày nay (năm 2024), chúng ta đang ở Kỷ nguyên thứ 5, nghĩa là trợ cấp là 3.125 bitcoin. Tóm lại, đây là cơ chế tự động phân bổbổ bitcoin mới trong hệ thống. Trợ cấp sẽ giảm dần theo thời gian, cho đến khi đạt đến giới hạn phát hành 21 triệu bitcoin. Hiện đã có hơn 19,4 triệu bitcoin đang lưu hành, tức là hơn 92%.
 
-![image](assets/en/58.webp)
+![image](assets/vi/058.webp)
 
 Phương pháp khen thưởng thứ hai được xác định theo số tiền mà người sử dụng chọn cho phí giao dịch, cho thấy tính cấp thiết của người sử dụng khi muốn đưa giao dịch của họ vào khối tiếp theo. Vì thợ đào muốn tối đa hóa thu nhập của mình, họ sẽ có xu hướng ưu tiên các giao dịch có phí giao dịch cao.
 
-![image](assets/en/59.webp)
+![image](assets/vi/059.webp)
 
 Để ổn định mô hình kinh doanh của mình, dựa trên phần thưởng họ nhận được cho mỗi khối hợp lệ, thợ đào thường tạo các nhóm thông qua "nhóm khai thác", nơi họ tập hợp các tài nguyên của mình.
 
 ### Tại sao phải bận tâm về tất cả những điều này?
 
-Tóm lại, sự đổi mới của Bitcoin là đề xuất một giải pháp cho vấn đề chi tiêu khống (2 lần) thông qua việc sử dụng chuỗi khối (Blockchain) dựa trên bằng chứng công việc (Proof of Work) với tỷ lệ độ khó khai thác thả nổi. Trong thế giới kỹ thuật số, khái niệm sở hữu khác với khái niệm sở hữu trong thế giới vật lý. Trên thực tế, trong thế giới kỹ thuật số, mọi thứ đều có thể được sao chép và cắt dán, điều này tạo ra rủi ro chi tiêu khống các tài sản kỹ thuật số có giá trị. Các trung gian đáng tin cậy, chẳng hạn như ngân hàng, đã được tạo ra để giải quyết vấn đề công nghệ này và đảm bảo rằng khi một tài sản được chuyển giao, nó không còn thuộc về người gửi nữa.
+Tóm lại, sự đổi mới của Bitcoin là đề xuất một giải pháp cho vấn đề chi tiêu khống (2 lần) thông qua việc sử dụng chuỗi khối (Blockchain) dựa trên bằng chứng công việc ([proof of work](https://planb.academy/resources/glossary/proof-of-work)) với tỷ lệ độ khó khai thác thả nổi. Trong thế giới kỹ thuật số, khái niệm sở hữu khác với khái niệm sở hữu trong thế giới vật lý. Trên thực tế, trong thế giới kỹ thuật số, mọi thứ đều có thể được sao chép và cắt dán, điều này tạo ra rủi ro chi tiêu khống các tài sản kỹ thuật số có giá trị. Các trung gian đáng tin cậy, chẳng hạn như ngân hàng, đã được tạo ra để giải quyết vấn đề công nghệ này và đảm bảo rằng khi một tài sản được chuyển giao, nó không còn thuộc về người gửi nữa.
 
 Nhưng làm sao có thể thực hiện được điều này mà không có một bên trung gian đáng tin cậy? Vấn đề này được mô tả rõ qua thuyết "nghịch lý Byzantine", một vấn đề về việc phối hợp thông tin trong một hệ thống mà không thể tin tưởng nhiều bên khác nhau. Trong bài toán Byzantine, một nhóm các vị tướng phải phối hợp tấn công một thành phố, nhưng trong số đó có thể là những kẻ phản bội đang cố gắng phá vỡ kế hoạch. Thách thức đưa ra là các vị tướng trung thành phải đạt được sự đồng thuận về việc nên tấn công hay rút lui, mặc dù nhận được những thông điệp có khả năng gây hiềm khích và hiểu lầm từ những kẻ phản bội.
 
-![image](assets/en/60.webp)
+![image](assets/vi/060.webp)
 
 Do đó, Bitcoin là một loại giải pháp triệt để về vấn đề này, hoặc ít ra là giải quyết được vấn đề này. Các "vị tướng" của Bitcoin, là thợ đào, tạo ra các khối (thông tin) và các máy chủ Bitcoin xác minh các giao dịch tài chính bằng các quy tắc đồng thuận để đảm bảo tính xác thực của thông tin. Sự chênh lệch đáng kể về chi phí năng lượng giữa việc sản xuất và việc xác minh thông tin sẽ đảm bảo độ tin cậy của thông tin mà không cần tin cậy bên thứ ba.
 
@@ -941,7 +904,7 @@ Lý thuyết trò chơi áp dụng cho Bitcoin loại bỏ những thợ đào k
 
 Nếu bạn muốn tìm hiểu sâu hơn về chủ đề cụ thể về khai thác Bitcoin, bạn có thể tham khảo khóa học MIN 201 của chúng tôi. Bạn sẽ khám phá cách thức hoạt động và vai trò của việc minh chứng công việc Proof-of-Work, cũng như cơ chế của ngành khai thác. Chúng tôi cũng giải thích cách chuyển đổi ASIC thành lò sưởi, cho phép bạn khai thác những satoshi đầu tiên trong khi sưởi ấm ngôi nhà của mình!
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 ## Bitcoin và Sinh thái
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -952,7 +915,7 @@ Trong phần trước, chúng ta đã hiểu rằng tính bảo mật của giao
 
 Trước tiên, hãy đánh giá định tính chi phí môi trường của hoạt động khai thác. Một thợ đào phải có một máy như ASIC và một nguồn năng lượng dưới dạng điện để cung cấp năng lượng cho những máy này. ASIC chủ yếu được làm bằng nhôm và có thể tái chế hoặc tái sử dụng cho mục đích thứ hai (như được chứng minh bằng dự án Attakaï được mô tả trong khóa học MIN201 của chúng tôi),như chuyển thể Antminer S9 thành lò sưởi. Do đó, mối quan tâm chính là mức tiêu thụ năng lượng.
 
-![image](assets/en/61.webp)
+![image](assets/vi/061.webp)
 
 Tiêu thụ điện năng chiếm gần như toàn bộ chi phí của thợ đào. Do đó, họ được khuyến khích tìm nguồn điện giá rẻ để có thể đến những nơi lắp đặt nhà máy điện nhưng chưa thể kết nối với lưới điện của địa phương. Trong trường hợp này, thợ đào đóng vai trò là người mua cuối cùng, cho phép các nhà máy điện đảm bảo nguồn tài chính ngay cả trước khi kết nối với lưới điện. Khi được kết nối, nhu cầu về điện sẽ tăng lên, điều này sẽ làm tăng giá điện và khiến lợi nhuận giảm đi khi thợ đào lấy điện ở những nơi này. Vì máy móc có thể dễ dàng vận chuyển nên thợ đào sẽ quyết định lắp đặt và hoạt động xa hơn, ở nơi có nhu cầu và giá thấp, thường là những khu vực có thể lấy điện từ các nhà máy sản xuất năng lượng sạch và xanh.
 
@@ -962,11 +925,11 @@ Cuộc tranh luận về tác động sinh thái của Bitcoin thường bị hi
 
 Điều quan trọng cần nhấn mạnh là Bitcoin, với tư cách là một phát minh mang tính cách mạng, đã cung cấp một phương tiện tài chính cho những cá nhân đang sống và đấu tranh cho tự do tài chính của họ dưới sự áp bức tài chính hoặc trong một chế độ độc đoán. Là một giải pháp cuối cùng, Bitcoin cung cấp một con đường đến với sự độc lập về tài chính bằng cách bảo vệ quyền tự do cá nhân và bỏ qua các rào cản của ngân hàng. Không chỉ là một loại tiền tệ, Bitcoin còn đóng vai trò là một hình thức giao tiếp và biểu tượng của tự do, và với số năng lượng mà thợ đào phải chi trả đóng vai trò quan trọng trong việc bảo vệ sự tự do này, giải phóng khỏi một hệ thống tài chính luôn bị thao túng bởi tín dụng và chi phối qua việc lạm dụng tạo ra tiền tệ quá mức của các ngân hàng trung ương.
 
-![image](assets/en/62.webp)
+![image](assets/vi/062.webp)
 
-![image](assets/en/63.webp)
+![image](assets/vi/063.webp)
 
-![image](assets/en/64.webp)
+![image](assets/vi/064.webp)
 
 Đối với những người sống ở các quốc gia có tỷ lệ lạm phát cao, Bitcoin là vấn đề sống còn. Nó cung cấp một phương tiện để tồn tại trong những tình huống tài chính bấp bênh. Hơn nữa, Bitcoin cung cấp một hệ thống tài chính công bằng và vô tư hơn, cung cấp cho hàng tỷ người trên toàn thế giới quyền tiếp cận các nguồn tài chính. Với quan điểm này, liệu việc tiêu thụ năng lượng có hợp lý không?
 
@@ -976,13 +939,13 @@ Cuối cùng, điều cần thiết là phải thảo luận về hậu quả ki
 
 Khi so sánh với hệ thống tài chính hiện tại, hệ thống hiện tại gây ra những vấn đề nghiêm trọng do khuyến khích tiêu dùng quá mức và nợ nần. Các yếu tố như dễ dàng tiếp cận tín dụng, việc phát hành tiền tệ và thực thi chính sách dự trữ một phần của các ngân hàng đều góp phần gây ra tình trạng nợ nần quá mức và do đó, tiêu dùng quá mức.
 
-![image](assets/en/65.webp)
+![image](assets/vi/065.webp)
 
 Cần phải cải cách hệ thống tiền tệ để phản ánh sự khan hiếm tài nguyên song hành với sự khan hiếm tiền tệ. Điều này sẽ khuyến khích tầm nhìn dài hạn và tiêu dùng có trách nhiệm hơn. Ngược lại, lạm phát, bằng cách khuyến khích tiêu dùng và đầu tư, có tác động tiêu cực lâu dài đến môi trường.
 
 Hệ thống tài chính hiện tại phù hợp với các ý tưởng của kinh tế học Keynes, không giống như kinh tế học Áo, lập luận này không tính đến các khía cạnh thời gian và tính chất luôn thay đổi của tình huống và nguồn lực. Nói cách khác, một loại tiền tệ không giới hạn không thể đại diện một cách hiệu quả cho các nguồn lực hạn chế trên hành tinh chúng ta.
 
-![image](assets/en/66.webp)
+![image](assets/vi/066.webp)
 
 Mặt khác, các chính trị gia thường có tầm nhìn ngắn hạn và họ cần tăng trưởng kinh tế để được tái đắc cử, vì vậy họ không thể giải quyết các vấn đề sinh thái trong dài hạn. Ngược lại, việc áp dụng một loại tiền tệ lành mạnh như Bitcoin là một giải pháp thay thế tiềm năng có thể trao quyền cho mọi người về mặt kinh tế.
 
@@ -1010,7 +973,7 @@ Do đó, giao thức Bitcoin là một hệ thống tiền tệ không thể ki�
 
 Giá Bitcoin thường được đặc trưng bởi sự biến động đáng kể. Giá trị của nó có thể dao động đáng kể tùy thuộc vào biến động của thị trường hoặc giai đoạn tăng giá và giảm giá, giống như bất kỳ thị trường tài chính hiện hành khác.
 
-![image](assets/en/67.webp)
+![image](assets/vi/067.webp)
 
 Nói một cách đơn giản, con người có xu hướng mua mọi thứ cùng một lúc và bán mọi thứ cùng một lúc. **Bitcoin không miễn nhiễm với bản chất con người.**
 
@@ -1018,7 +981,7 @@ Nói một cách đơn giản, con người có xu hướng mua mọi thứ cùn
 
 Cả sự phát triển và tiến hóa của Bitcoin đều có liên quan phần lớn đến các nhóm tác nhân khác nhau đã dần dần tích hợp hệ sinh thái của nó.
 
-![image](assets/en/68.webp)
+![image](assets/vi/068.webp)
 
 
 - Những người có niềm tin:
@@ -1048,7 +1011,7 @@ Những biến động đáng kể này đã khiến Bitcoin trở thành một 
 
 Sự biến động đáng kể này hiện nay được các người dùng Bitcoin chấp nhận hoàn toàn và có thể được giảm thiểu bằng một số giải pháp như phòng ngừa và bình ổn giá trị tài chính (stablecoin), nắm giữ niềm tin dài hạn mãnh liệt (hodling) hoặc đơn giản là tránh rủi ro đầu tư 100% tiền của mình vào Bitcoin mà không có hiểu biết vững chắc. Do đó, việc hiểu lý do tại sao giá Bitcoin dao động nhiều như vậy là điều cần thiết để tiến triển trong ngành này, vì cuối cùng, các biến động và chu kỳ giá giúp điều chỉnh và điều chỉnh thị trường ở một mức độ nào đó. Tuy nhiên, điều cơ bản cần lưu ý là khi Bitcoin phát triển và trưởng thành, sự biến động giá sẽ giảm thiểu.
 
-![image](assets/en/69.webp)
+![image](assets/vi/069.webp)
 
 Mặc dù cặp btc/usd dao động trong ngắn hạn, bitcoin, do số lượng hạn chế là 21 triệu bitcoin và quá trình halving (giảm một nửa lượng sản xuất trung bình 4 năm một lần), vẫn tuân theo xu hướng tăng giá chung gần như cơ học. Tất nhiên, giống như bất kỳ tài sản tài chính nào, bitcoin sẽ chịu các chu kỳ kinh tế bao gồm các giai đoạn hưng phấn, bong bóng đầu cơ và điều chỉnh. Hiện tượng này khá phổ biến trong các công nghệ mới nổi, nơi thị trường không phải lúc nào cũng hợp lý hoặc hiệu quả.
 
@@ -1056,11 +1019,11 @@ Mặc dù cặp btc/usd dao động trong ngắn hạn, bitcoin, do số lượn
 
 Những đợt bong bóng đầu cơ này khá độc đáo trên thế giới, vì hiếm khi một tài sản đơn lẻ trải qua một loạt bong bóng như vậy liên tiếp. Qua các hiện tượng thực tế này có thể cho rằng Bitcoin không chỉ là một bong bóng được định sẵn để nổ tung. Thay vào đó, nó hoạt động tích cực như một loại tiền tệ được sử dụng trên thế giới. Giao thức Bitcoin nổi bật với khả năng hoạt động trên quy mô toàn cầu, 24/7, điều này đặt ra những thách thức đáng kể cho các cơ quan tài chính đang cố gắng quản lý nó.
 
-![image](assets/en/70.webp)
+![image](assets/vi/070.webp)
 
 Ngày nay, Bitcoin tiếp tục tồn tại và phát triển hơn nữa bằng việc tích hợp ngày càng nhiều và sâu hơn vào thị trường truyền thống, và sự ra đời của Bitcoin ETF, các quy định rõ ràng hơn và các cải cách các công cụ tài chính để mua bán và lưu trữ đều góp phần vào động lực tích cực này. Bitcoin đã MỘT LẦN NỮA sống sót sau bong bóng đầu cơ của nó, vì vậy có lẽ nó không chỉ là lời nói suông!
 
-![image](assets/en/71.webp)
+![image](assets/vi/071.webp)
 
 
 ## Nhận Bitcoin bằng cách làm việc
@@ -1075,7 +1038,9 @@ Nền kinh tế Bitcoin tồn tại và đang phát triển ở một số khu v
 
 Tuy nhiên, ở El Salvador và ở những nơi khác trên thế giới, ngày càng có nhiều cá nhân, doanh nghiệp và tổ chức chấp nhận Bitcoin như một phương tiện thanh toán cho sản phẩm hoặc dịch vụ của họ.
 
-![image](assets/en/72.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Nguồn : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Bên cạnh đó, một dự án hợp tác mã nguồn mở đã được ra mắt, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), để tạo điều kiện thuận lợi cho việc sử dụng Bitcoin trong các giao dịch hàng ngày. Nền tảng này liệt kê tất cả các thương gia chấp nhận Bitcoin, cũng như các cộng đồng Bitcoin khác nhau trên toàn thế giới, để bạn có thể truy cập trang web của họ để khám phá hệ sinh thái Bitcoin xung quanh bạn. Do đó, bất chấp những khó khăn và do dự, vẫn có những sáng kiến như BTCMap góp phần làm cho nền kinh tế Bitcoin dễ tiếp cận và thuận tiện hơn cho mọi người.
 
@@ -1085,7 +1050,7 @@ Bên cạnh đó, một dự án hợp tác mã nguồn mở đã được ra m�
 
 Hơn nữa, việc chấp nhận Bitcoin như một phương tiện thanh toán có một số lợi thế, bao gồm khả năng chống kiểm duyệt, giảm phí giao dịch, tăng hiệu quả, bảo vệ chống lại lạm phát cũng như tự do tài chính và chủ quyền.
 
-![image](assets/en/73.webp)
+![image](assets/vi/073.webp)
 
 ### Bạn có thể thực hiện thế nào?
 
@@ -1096,17 +1061,17 @@ Chúng tôi sẽ đề cập chi tiết về chủ đề này trong một khóa 
 
 - Giải pháp trực tuyến đơn giản: OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Giải pháp cho các thương gia nghiệp dư: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Giải pháp cho các công trình lớn hoặc những người đam mê bitcoin: Máy chủ BTCpay
 
 Để tìm hiểu sâu hơn về chủ đề này, chúng tôi khuyên bạn nên tham gia khóa học BIZ101 của chúng tôi! Tìm hiểu cách tích hợp hiệu quả bitcoin vào ngân quỹ công ty của bạn, chấp nhận bitcoin như một phương thức thanh toán theo hồ sơ của tổ chức và hiểu các yêu cầu về thuế và kế toán liên quan:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 ## Tiết kiệm với Bitcoin
@@ -1123,7 +1088,7 @@ Bitcoin đã trở thành một tài sản tài chính thực thụ, chủ yếu
 - Hiệu suất trong quá khứ không phải là chỉ báo đáng tin cậy cho hiệu suất trong tương lai.
 - Liên hệ với cố vấn tài chính của bạn nếu cần.
 
-**Plan ₿ Network không cung cấp bất kỳ dịch vụ tư vấn đầu tư nào và không có nội dung nào được nêu ở đây được xem là như vậy**
+**Plan ₿ Academy không cung cấp bất kỳ dịch vụ tư vấn đầu tư nào và không có nội dung nào được nêu ở đây được xem là như vậy**
 
 ### Danh sách kiểm tra nhỏ trước khi quyết định
 
@@ -1150,13 +1115,13 @@ Cụ thể hơn, bạn cần tự hỏi mình hai câu hỏi:
 
 Chiến lược này liên quan đến việc mua định kỳ, nghĩa là mua một lượng nhỏ Bitcoin theo các khoảng thời gian đều đặn. Phương pháp này làm giảm giá mua trung bình theo thời gian và đảm bảo sự tăng trưởng liên tục về số lượng bitcoin sở hữu. Đây là giải pháp lý tưởng cho việc tiết kiệm dài hạn và làm giảm bớt mối lo ngại về sự biến động giá của Bitcoin. Sau khi thiết lập, bạn chỉ cần quên nó đi và theo dõi khoản đầu tư của mình tăng lên.
 
-![image](assets/en/74.webp)
+![image](assets/vi/074.webp)
 
 **Cẩn thận với UTXO**: Hãy nhớ hợp nhất UTXO trong ví của bạn theo thời gian. Thực hiện hành vi này rất cần thiết để quản lý bitcoin hiệu quả và tránh các khoản phí không cần thiết trong quá trình giao dịch.
 
-Một [UTXO]((https://planb.network/resources/glossary/utxo)) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất chúng có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó trả phí thấp hơn.
+Một [UTXO]((https://planb.academy/resources/glossary/utxo)) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất chúng có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó trả phí thấp hơn.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất UTXO có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó phải trả phí thấp hơn.
+[UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất UTXO có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó phải trả phí thấp hơn.
 
 - Mua tự phát
 
@@ -1171,7 +1136,7 @@ Có một số cách để có được bitcoin, mỗi cách đều phải tuân
 
 - Sàn hỗ trợ mua nhỏ đều (DCA)
 
-Như đã giới thiệu ở trên, một phương pháp phổ biến để tích lũy bitcoin là mua nhỏ đều (DCA), bao gồm việc mua thường xuyên các khoản tiền nhỏ. Một số sàn cung cấp dịch vụ này, chẳng hạn như các sàn được liệt kê trên [trang chuyên đề](https://planb.network/tutorials/exchange) của chúng tôi. Ngoài tính đơn giản của việc thiết lập DCA, việc rút tiền vào ví của bạn thường là tự động, nghĩa là bạn sẽ luôn kiểm soát được tài sản của mình.
+Như đã giới thiệu ở trên, một phương pháp phổ biến để tích lũy bitcoin là mua nhỏ đều (DCA), bao gồm việc mua thường xuyên các khoản tiền nhỏ. Một số sàn cung cấp dịch vụ này, chẳng hạn như các sàn được liệt kê trên [trang chuyên đề](https://planb.academy/tutorials/exchange) của chúng tôi. Ngoài tính đơn giản của việc thiết lập DCA, việc rút tiền vào ví của bạn thường là tự động, nghĩa là bạn sẽ luôn kiểm soát được tài sản của mình.
 
 Ngày nay, hầu hết các giải pháp DCA đều tương đối hiệu quả và có mức phí gần như nhau, do đó, lựa chọn sẽ phụ thuộc nhiều hơn vào tính khả dụng tại quốc gia của bạn.
 
@@ -1190,7 +1155,7 @@ Việc sử dụng chúng rất đơn giản và dễ dàng với mọi người
 
 4. Rút bitcoin vào ví của bạn
 
-![image](assets/en/75.webp)
+![image](assets/vi/075.webp)
 
 Sau khi mua, bạn nên rút ngay bitcoin khỏi các nền tảng trao đổi để giảm thiểu rủi ro bị hack và chặn tiền. Lưu ý rằng phí rút tiền có thể cao, đôi khi lên tới 25 euro tùy thuộc vào nền tảng.
 
@@ -1200,7 +1165,7 @@ Sau khi mua, bạn nên rút ngay bitcoin khỏi các nền tảng trao đổi �
 
 ### Giải pháp không KYC
 
-Ngoài ra, có một số [thị trường](https://planb.network/tutorials/exchange) nơi mua và bán bitcoin ở một sàn giao dịch ngang hàng. Nhìn chung, bạn có thể cân nhắc những điều sau:
+Ngoài ra, có một số [thị trường](https://planb.academy/tutorials/exchange) nơi mua và bán bitcoin ở một sàn giao dịch ngang hàng. Nhìn chung, bạn có thể cân nhắc những điều sau:
 
 
 - Máy ATM Bitcoin
@@ -1209,9 +1174,13 @@ Ngoài ra, có một số [thị trường](https://planb.network/tutorials/exch
 - Giải pháp ghép đôi hàng ngang
 - Các ngân hàng số hoạt động ở các quốc gia chấp nhận Bitcoin.
 
-![image](assets/en/76.webp)
+![image](assets/vi/076.webp)
 
 Cuối cùng, điều quan trọng cần lưu ý là nghĩa vụ thuế có thể khác nhau tùy theo khu vực pháp lý, vì vậy chúng tôi đặc biệt khuyến khích bạn tham khảo các quy định tại quốc gia của mình trước khi thực hiện bất kỳ hành động nào có thể gây rủi ro cho bạn.
+
+Nếu bạn muốn nâng cao kiến thức về các chiến lược mua, sử dụng và bảo mật bitcoin của mình, tôi thực sự khuyên bạn nên theo học khóa **BTC 102** sau khóa này. Ở đó, bạn sẽ khám phá ra, trong số những điều khác, các khuyến nghị về công cụ phù hợp với hồ sơ, nhu cầu và mục tiêu cá nhân của bạn:
+
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Siêu bitcoin hóa
 
@@ -1221,100 +1190,216 @@ Cuối cùng, điều quan trọng cần lưu ý là nghĩa vụ thuế có th�
 
 Giống như bất kỳ công nghệ mới nào, việc áp dụng Bitcoin tuân theo một đường cong hình chữ S, minh họa cho sự tiến triển từ những người áp dụng sớm đến sự chấp nhận phổ biến rộng rãi. Chúng ta đã vượt qua kỷ nguyên của những người áp dụng sớm và các chỉ số cho thấy khả năng phổ thông hóa Bitcoin. Xét cho cùng, đây là một công nghệ lan truyền không thể dễ dàng bị ngăn chặn. Một mặt, El Salvador đã thực hiện bước đi táo bạo là áp dụng hoàn toàn Bitcoin như một loại tiền tệ hợp pháp. Ngược lại, các quốc gia khác đã phản ứng bằng cách cấm và hình sự hóa việc sử dụng nó, điều này cho thấy việc áp dụng Bitcoin rất phức tạp và chịu ảnh hưởng của các yếu tố văn hóa, lịch sử và quốc gia.
 
-![image](assets/en/02.webp)
+![image](assets/vi/077.webp)
 
 Sự trỗi dậy của Bitcoin buộc các công ty, trường đại học, cơ quan quản lý và cá nhân phải tính đến công nghệ mới này. Các công cụ mới cần được tạo ra, các dịch vụ cần được điều chỉnh và sự đổi mới phải tiếp tục để đảm bảo sự tồn tại của chúng. Bối cảnh này đặt ra nhiều câu hỏi liên quan đến nhiều lĩnh vực khác nhau, bao gồm mật mã học, lý thuyết trò chơi, kinh tế học và chính sách tiền tệ, khoa học máy tính, triết học, năng lượng, luật pháp và quy định. Tóm lại, Bitcoin là một chủ đề đa ngành.
 
-![image](assets/en/01.webp)
+![image](assets/vi/078.webp)
 
 ### Bitcoin là 0 đến 1
 
 Cuối cùng, chúng tôi mời bạn suy ngẫm về cuộc cách mạng tiền tệ mới này. Có rất nhiều điều để khám phá với Bitcoin đến nỗi thật phức tạp để đồng hóa mọi thứ cùng một lúc. Hãy dành thời gian, Bitcoin sẽ không biến mất. Ngược lại, cuộc cách mạng chỉ mới bắt đầu. Chúng tôi tin rằng chúng tôi có khả năng tạo ra thế giới mà chúng tôi muốn giao phó cho con cháu mình: một thế giới mà chủ quyền của con người là một quyền, nơi quyền riêng tư được tôn trọng theo mặc định và nơi tài sản\tiền bạc không bị thao túng. Chúng tôi hy vọng rằng, cùng nhau, chúng ta sẽ đạt được điều này.
 
-![image](assets/en/77.webp)
+![image](assets/vi/079.webp)
 
-Nếu bạn muốn mở rộng kiến thức về Bitcoin, đây là thời điểm thích hợp: rất nhiều tác giả, nhà tư tưởng và nhà viết tiểu luận đã tạo ra nội dung giáo dục về Bitcoin. Trong vài năm qua, chúng tôi đã liệt kê và phân loại các tác phẩm này để cung cấp [thư viện tài nguyên](https://planb.network/resources) cho những người tò mò nhất trong số các bạn. Trong phần đó, bạn sẽ tìm thấy các podcast, trang web, bài viết, hướng dẫn, sách và nội dung khác hay nhất.
+Nếu bạn muốn mở rộng kiến thức về Bitcoin, đây là thời điểm thích hợp: rất nhiều tác giả, nhà tư tưởng và nhà viết tiểu luận đã tạo ra nội dung giáo dục về Bitcoin. Trong vài năm qua, chúng tôi đã liệt kê và phân loại các tác phẩm này để cung cấp [thư viện tài nguyên](https://planb.academy/resources) cho những người tò mò nhất trong số các bạn. Trong phần đó, bạn sẽ tìm thấy các podcast, trang web, bài viết, hướng dẫn, sách và nội dung khác hay nhất.
 
 > "Tôi nghĩ rằng Internet sẽ là một trong những lực lượng chính làm giảm vai trò của chính phủ. Một điều còn thiếu, nhưng sẽ sớm được phát triển, là tiền điện tử đáng tin cậy - một phương pháp mà trên Internet, bạn có thể chuyển tiền từ A sang B mà A không biết B hoặc B không biết A." - Dự đoán của Milton Friedman năm 1999
-# Tương lai của Bitcoin: Mạng lưới Lightning
+
+
+# Tương lai của Bitcoin
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Giới thiệu vắn tắt về mạng tia chớp (Lightning)
+## Mạng Lightning: thanh toán bằng bitcoin nhanh chóng với phí thấp
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Chúng ta đã có những kiến thức cơ bản về giao thức Bitcoin, chúng tôi sẽ giới thiệu một mạng lưới thanh toán sử dụng giao thức Bitcoin để cho phép các giao dịch cực nhanh: mạng Lightning!
+Giờ đây khi bạn đã nắm được các nền tảng cơ bản của giao thức Bitcoin, chúng ta sẽ giới thiệu mạng lưới thanh toán chính được xây dựng bên trên Bitcoin: Lightning Network (thường được viết tắt là "LN"). Mục tiêu của nó rất đơn giản: cho phép thực hiện các khoản thanh toán bằng BTC với tính chung cuộc gần như tức thì, không làm quá tải blockchain, và với mức phí nhìn chung rất thấp.
 
-Xin lưu ý rằng những thông tin sau đây chỉ là mô tả chung, vì vậy, nếu bạn muốn hiểu sâu hơn, chúng tôi mời bạn tham khảo khóa học LNP201 của chúng tôi.
+### Blockchain không thể làm mọi thứ
 
-### Tóm lại
+Blockchain Bitcoin được thiết kế để có thể được xác minh bởi càng nhiều người càng tốt, không cần cấp phép và không cần tin cậy. Yêu cầu này kéo theo những giới hạn mang tính cấu trúc: blockchain không thể xử lý số lượng giao dịch không giới hạn, bởi các khối phải có kích thước hợp lý để các nút độc lập có thể tải xuống, lưu trữ và xác minh, mà không cần đầu tư vào phần cứng quá đắt đỏ. Đây chính là sự đánh đổi thường được tóm gọn trong “bộ ba bất khả thi”: phi tập trung, bảo mật và khả năng mở rộng. Một hệ thống dựa trên blockchain không thể tối đa hóa đồng thời cả ba đặc tính này. Bitcoin ưu tiên tính phi tập trung và bảo mật, điều này tự nhiên giới hạn thông lượng các giao dịch onchain có thể thực hiện.
 
-mạng tia chớp (Lightning) là công nghệ mang tính cách mạng đã thay đổi sâu sắc nhận thức của chúng ta về Bitcoin vì nó giải quyết được vấn đề về khả năng mở rộng của Bitcoin.
+![image](assets/vi/081.webp)
 
-Để nắm bắt đầy đủ về mạng Lightning, điều quan trọng là phải hiểu cách Bitcoin phát triển và tiến hóa trong các lớp hạ tầng cơ sở: lớp đầu tiên là chuỗi khối (Blockchain) và lớp thứ hai là mạng tia chớp (Lightning).
+Trên Bitcoin, các nhà phát triển đã đưa ra những lựa chọn có chủ đích để ưu tiên các đặc tính này. Một mặt, kích thước khối bị giới hạn ở mức 1 MB và thời gian trung bình 10 phút giữa hai khối cho phép vận hành một nút Bitcoin với chi phí thấp, qua đó thúc đẩy tính phi tập trung của mạng lưới. Mặt khác, việc sản xuất khối dựa trên bằng chứng công việc khiến mọi nỗ lực gian lận trở nên cực kỳ tốn kém, đồng thời giúp các nút dễ dàng xác minh và tăng cường mức độ bảo mật tổng thể của giao thức.
 
-![image](assets/en/78.webp)
+Tuy nhiên, những lựa chọn này cũng kéo theo một ràng buộc quan trọng: số lượng giao dịch có thể được đưa vào mỗi khối là có hạn. Điều này tương ứng với chỉ vài giao dịch mỗi giây. Con số này rất nhỏ nếu so với năng lực của các hệ thống thanh toán tập trung như VISA (với năng lực tối đa lý thuyết khoảng 65.000 giao dịch mỗi giây), nhưng sự giới hạn này chính là cái giá phải trả để cho phép các giao dịch không bị kiểm duyệt và không cần bên thứ ba đáng tin cậy.
 
-### Một chuỗi khối dữ liệu (Blockchain) không thể phát triển đến vô cực
+Cụ thể, điều này có hai hệ quả rất quan trọng đối với việc sử dụng Bitcoin hằng ngày:
+* khi nhu cầu về không gian khối tăng lên, phí giao dịch onchain có thể tăng rất cao;
+* các khoản thanh toán onchain cần có xác nhận, điều này không phải lúc nào cũng phù hợp cho các giao dịch mua sắm thường ngày.
 
-mạng tia chớp (Lightning)đã được xác thực và triển khai vào năm 2017 để giải quyết vấn đề về khả năng mở rộng của Bitcoin vì nó cho phép giao dịch Bitcoin tức thời với chi phí thấp.
+Lightning Network chính là câu trả lời cho những vấn đề này. Ý tưởng của Lightning nằm trong cách tiếp cận theo tầng: Bitcoin vẫn là tầng cơ sở (tầng thanh toán cuối cùng, vững chắc và rất an toàn), trong khi Lightning đóng vai trò là tầng thanh toán nhanh ở phía trên.
 
-Khả năng mở rộng là một thách thức trong việc triển khai một hệ thống tiền tệ có khả năng không ngừng cung cấp số lượng giao dịch ngày càng tăng trong mỗi giây để đáp ứng cho việc triển khai mở rộng số lượng người dùng. Vấn đề này liên quan đến nghịch lý tam giác của công nghệ chuỗi khối (Blockchain). Hãy tưởng tượng một hình tam giác với các đỉnh là đại diện cho các tính năng phi tập trung, bảo mật và khả năng mở rộng.
+![image](assets/vi/080.webp)
 
-![image](assets/en/79.webp)
+### Các kênh thanh toán được neo vào Bitcoin
 
-Một giao thức dựa trên công nghệ chuỗi khối (Blockchain) chỉ có thể đáp ứng được hai trong ba tính năng này. Trong Bitcoin, các nhà phát triển giao thức đã đưa ra những lựa chọn ưu tiên tính phi tập trung và bảo mật. Một mặt, kích thước khối 1MB và thời gian giữa hai khối (trung bình là 10 phút) cho phép chạy một máy chủ Bitcoin với chi phí thấp hơn, ưu tiên tính phi tập trung. Mặt khác, việc tạo ra các khối thông qua Proof-of-Work khiến gian lận trong giao thức cực kỳ tốn kém, đồng thời tạo điều kiện thuận lợi cho việc xác minh của các máy chủ mạng và ưu tiên tính bảo mật. Tuy nhiên, những lựa chọn này áp đặt giới hạn về số lượng giao dịch trung bình trong một khối, tương ứng với một vài giao dịch mỗi giây. Con số này thật là trò đùa khi so sánh với khả năng tính toán của các bộ xử lý thanh toán như VISA (1700/giây), nhưng giới hạn này là cần thiết để giao dịch với Bitcoin theo cách tự do và không cần tin tưởng. Tuy nhiên, những người phát triển công nghệ Bitcoin đã nghĩ về vấn đề này ngay từ đầu.
+Lightning dựa trên các kênh thanh toán hai chiều. Một kênh là một mối quan hệ kỹ thuật giữa hai bên tham gia, cho phép họ trao đổi sats theo hình thức offchain, tức là không cần ghi từng khoản thanh toán lên blockchain.
 
-### Công nghệ tia chớp (Lightning) như một lớp trên cùng
+Từ góc nhìn của Bitcoin (onchain), việc mở một kênh tương đương với việc khóa các khoản tiền trong một giao dịch đặc biệt. Có thể xem đây như một hình thức ký quỹ: các khoản tiền được khóa sao cho chỉ một việc đóng kênh hợp lệ mới có thể phân phối lại chúng.
 
-Sau nhiều năm cân nhắc và nhiều lần thử nghiệm, giao thức Lightning đã ra đời. Sử dụng một số kỹ thuật nhất định, giao thức này phát triển mạng lưới thanh toán hàng ngang bằng cách tận dụng tính bảo mật và khả năng lập trình trong giao dịch của giao thức Bitcoin. Mạng tia chớp (Lightning) hoạt động như một mạng lưới của các kênh thanh toán, cho phép giao dịch tức thời với mức phí giao dịch thấp cho người gửi và thậm chí còn tạo ra các đường truyền trao đổi giữa những cá nhân không có kênh trực tiếp kết nối.
+Từ góc nhìn của Lightning, chính cơ chế này trở thành một kênh trong đó hai bên có thể cập nhật trạng thái phân bổ sats bao nhiêu lần tùy ý, gần như tức thì, và không cần ghi từng khoản thanh toán lên blockchain chính.
 
-![image](assets/en/80.webp)
+Do đó, cơ chế hoạt động như sau:
+* việc mở và đóng một kênh Lightning là các giao dịch Bitcoin (vì vậy được công bố onchain);
+* các khoản thanh toán giữa thời điểm mở và đóng kênh là các cập nhật offchain, không xuất hiện trên blockchain chính.
 
-Các dịch vụ chuyển tiền truyền thống như Western Union, ngân hàng trung ương, Visa và Mastercard có thể biến mất nếu họ không áp dụng công nghệ mạng tia chớp (Lightning), công nghệ này hiệu quả và tiết kiệm chi phí hơn các hệ thống thanh toán hiện tại. Trên thực tế, mạng tia chớp (Lightning) cho phép số giao dịch gần như không giới hạn giữa hai bên có chung một kênh giao dịch, và chỉ phát sinh chi phí năng lượng liên quan đến giao dịch để thông báo về việc tạo kênh, thay vì cho từng giao dịch riêng lẻ.
+![image](assets/vi/083.webp)
 
-![image](assets/en/81.webp)
+Nhờ vậy, hai người chia sẻ một kênh Lightning có thể thực hiện một số lượng rất lớn các khoản thanh toán mà không cần tạo một giao dịch onchain mỗi lần. Ở đây ta thấy rõ logic về khả năng mở rộng: blockchain được dành cho những thao tác hiếm và quan trọng (mở và đóng kênh, tức là thanh toán cuối cùng), còn các khoản thanh toán nhỏ, trung gian được chuyển sang một tầng hiệu quả hơn.
 
-Giao dịch được bảo mật trực tiếp thông qua mã hóa và gián tiếp thông qua năng lượng mà thợ đào sử dụng trên Bitcoin. Các giao dịch có thể được thực hiện ngay tức thì, không giới hạn về mặt địa lý, với mức phí cực thấp (thường dưới 0,5%).
+### Một mạng lưới các kênh được kết nối với nhau
 
-Tóm lại, mạng tia chớp (Lightning) là một giải pháp đầy hứa hẹn để triển khai một hệ thống thanh toán hiệu quả trong việc mua bán bằng Bitcoin. Đã có rất nhiều ví Lightning có sẵn, bạn có thể khám phá trong phần hướng dẫn hoặc qua các khóa học mạng tia chớp (Lightning) của chúng tôi.
+Lightning không chỉ là tập hợp các kênh riêng lẻ. Đó là một mạng lưới: hàng nghìn nút được kết nối với nhau thông qua các kênh, tạo thành một đồ thị kết nối.
 
-Nếu bạn muốn tìm hiểu sâu hơn về phần giới thiệu này và hiểu rõ hơn về cách thức hoạt động của mạng tia chớp (Lightning), chúng tôi khuyên bạn nên tham gia khóa học tuyệt vời này của Fanis Michalakis về chủ đề này:
+![image](assets/vi/082.webp)
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
-## Các trường hợp sử dụng mạng Lightning
+Nhờ mạng lưới này, bạn có thể thanh toán cho một người nhận ngay cả khi bạn không có kênh trực tiếp với họ, miễn là tồn tại một đường đi các kênh cho phép chuyển khoản thanh toán. Khoản thanh toán sau đó sẽ đi qua nhiều nút trung gian, từng bước một.
+
+Tại đây xuất hiện một khái niệm quan trọng của Lightning: tính thanh khoản. Dung lượng của một kênh tương ứng với tổng số tiền bị khóa trong kênh đó, còn thanh khoản tương ứng với sự phân bổ số tiền này giữa hai phía của kênh, tức là hướng mà các sats có thể lưu chuyển. Nói cách khác, một kênh có thể có dung lượng lớn nhưng lại không sử dụng được theo một hướng nhất định nếu thanh khoản nằm sai phía. Do đó, việc thanh toán thành công phụ thuộc không chỉ vào sự tồn tại của một đường đi, mà còn vào thanh khoản sẵn có trên toàn bộ đường đi đó.
+
+### Định tuyến một khoản thanh toán mà không cần tin cậy các bên trung gian
+
+Lightning được thiết kế để cho phép thanh toán thông qua các bên trung gian mà không cần phải tin cậy họ. Để làm điều này, giao thức sử dụng các hợp đồng thông minh gọi là HTLC (*Hashed Time-Locked Contracts*). Không đi vào mọi chi tiết, có thể ghi nhớ cơ chế chung như sau:
+* khoản thanh toán được điều kiện hóa bởi việc tiết lộ một bí mật (một preimage);
+* nếu người nhận cuối cùng tiết lộ bí mật này, họ sẽ nhận được tiền, và các bên trung gian sau đó cũng có thể thu hồi phần của mình;
+* nếu thanh toán thất bại, các mốc thời gian hết hạn và mỗi bên thu hồi lại tiền của mình.
+
+Cách vận hành này mang lại một thuộc tính cốt lõi: khoản thanh toán có tính nguyên tử. Hoặc là nó hoàn tất toàn bộ, hoặc là nó thất bại mà không gây ra tổn thất trung gian.
+
+Cuối cùng, Lightning tích hợp một cơ chế phạt: nếu một trong các bên tham gia cố gắng gian lận bằng cách công bố một trạng thái kênh cũ (không còn phản ánh thực tế), bên kia có thể trừng phạt và thu hồi toàn bộ số tiền. Quy tắc này tạo động lực rất mạnh để các bên giữ sự trung thực, ngay cả trong môi trường đối kháng.
+
+### Nút Lightning, ví Lightning: điều đó có nghĩa là gì
+
+Trong Bitcoin onchain, một ví là phần mềm quản lý khóa và xây dựng các giao dịch. Trên Lightning, tình hình mơ hồ hơn, bởi việc sử dụng thực sự không giám hộ (non-custodial) dựa trên một nút Lightning (ngay cả khi nút này được ẩn sau một giao diện đơn giản).
+
+Trong thực tế, có hai nhóm ứng dụng lớn để sử dụng Lightning:
+* Các dịch vụ giám hộ: ứng dụng hiển thị cho bạn một số dư, nhưng tiền được kiểm soát bởi một nhà cung cấp dịch vụ. Số dư của bạn chỉ là một bút toán kế toán trong hệ thống của họ, giống như trên một sàn giao dịch;
+* Các giải pháp không giám hộ: bạn thực sự kiểm soát các khóa và khả năng thu hồi tiền của mình. Điều này có thể là một ứng dụng tích hợp một nút với mức độ quản lý tối thiểu, giúp đơn giản hóa trải nghiệm người dùng (ví dụ Phoenix, Zeus...), hoặc là một nút Lightning thực sự mà bạn tự quản lý hoàn toàn.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+Ngày nay cũng tồn tại các ví self-custodial có khả năng hỗ trợ thanh toán Lightning theo cách gián tiếp, dựa trên các hoán đổi nguyên tử được kích hoạt theo yêu cầu cho mỗi khoản thanh toán vào hoặc ra (ví dụ Bull Bitcoin Wallet, Aqua…). Các ví này thường sử dụng sidechain Liquid làm tầng thanh toán (chúng ta sẽ xem điều này có nghĩa là gì trong chương tiếp theo).
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+### Các trường hợp sử dụng cụ thể: những gì Lightning cuối cùng đã làm được
+
+Lightning mở khóa một loạt các cách sử dụng mà trước đây rất bất tiện, thậm chí không thể thực hiện chỉ với Bitcoin onchain.
+
+- **Thanh toán hằng ngày (trực tuyến và trực tiếp)**
+
+Đối với một khoản thanh toán tại quầy hoặc một giao dịch mua sắm trực tuyến, Lightning cho phép đạt được tính chung cuộc gần như tức thì, với mức phí thường thấp. Điều này khiến bitcoin có thể được sử dụng cho các khoản tiền nhỏ, kể cả khi blockchain chính đang quá tải.
+
+- **Thanh toán vi mô và streaming money**
+
+Khả năng gửi những khoản tiền cực nhỏ mở ra các mô hình kinh tế mới: trả tiền theo mức sử dụng, trả tiền theo phút, quyên góp định kỳ, tiền tip... Đây chính là ý tưởng của “streaming money”: thanh toán theo mức tiêu thụ thực tế của một nội dung hay dịch vụ, thay vì trả theo gói đăng ký cố định.
+
+- **Nhà sáng tạo nội dung, podcast và quyên góp**
+
+Lightning thường được dùng cho các khoản quyên góp vi mô hoặc các cơ chế thưởng. Những ứng dụng như Fountain hoặc Rumble minh họa rõ logic này: việc thanh toán trở nên chi tiết và gắn liền tự nhiên với trải nghiệm, thay vì là một hành động nặng nề và hiếm hoi. Chúng tôi cũng đã tích hợp logic này trên Plan ₿ Academy, nơi bạn có thể dễ dàng gửi những khoản quyên góp nhỏ cho các giảng viên yêu thích của mình để bày tỏ sự cảm ơn.
+
+- **Trò chơi và các nền kinh tế số**
+
+Trò chơi điện tử và các môi trường số rất phù hợp với các giao dịch vi mô: cược nhỏ, phần thưởng, vật phẩm ảo... Việc đưa vào một yếu tố tiền tệ nhỏ cũng có thể làm tăng chi phí của spam và một số hình thức lạm dụng (bot), trong khi vẫn giữ được khả năng tiếp cận.
+
+![image](assets/vi/085.webp)
+
+### Các triển khai chính của Lightning
+
+Cũng giống như Bitcoin, Lightning là một giao thức chứ không phải một phần mềm duy nhất. Nhiều triển khai cùng tồn tại và vẫn có thể tương tác với nhau nhờ các đặc tả chung (BOLT):
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* v.v.
+
+### Lightning nằm trong tiến trình phát triển của Bitcoin
+
+Lightning không thay thế blockchain Bitcoin mà bổ sung cho nó. Blockchain vẫn là tầng thanh toán cuối cùng, chậm nhưng cực kỳ vững chắc. Lightning là tầng thanh toán nhanh, được thiết kế cho các trường hợp sử dụng thường xuyên và các khoản tiền nhỏ.
+
+Vào năm 2025, Lightning dễ tiếp cận hơn so với những ngày đầu, nhờ các ví và dịch vụ che giấu một phần sự phức tạp. Tuy nhiên, nó vẫn tồn tại những đánh đổi: thanh khoản, chi phí onchain của các kênh, và đôi khi là sự lựa chọn giữa tính đơn giản, chủ quyền và quyền riêng tư.
+
+Nếu bạn muốn hiểu Lightning một cách sâu sắc (kênh, thanh khoản, định tuyến, quản lý rủi ro), tôi khuyên bạn nên theo học khóa lý thuyết đầy đủ LNP 201 của Fanis Michalakis:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+Và nếu bạn muốn bắt đầu hành trình vận hành nút Lightning của riêng mình, chúng tôi cũng có khóa học thực hành LNP 202, được dành riêng cho chủ đề này:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Vượt ra ngoài Lightning: các giao thức khác để mở rộng Bitcoin
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
-Như chúng ta đã thấy, giao thức Bitcoin, mặc dù mang tính cách mạng, nhưng phải đối mặt với những thách thức đáng kể về khả năng mở rộng quy mô cần thiết để xử lý tất cả các giao dịch hàng ngày. Để giải quyết những vấn đề này, mạng tia chớp (Lightning) đã được đề xuất phát triển và được triển khai thành một số cách thức khác nhau, nhưng tất cả các cách thức này đều có thể tương tác lẫn nhau:
+Như đã thấy trong các chương trước, Bitcoin được thiết kế như một tầng cơ sở cực kỳ vững chắc: một sổ cái công khai, đơn giản, an toàn, nhưng tự nhiên bị giới hạn về tốc độ, khả năng lập trình và thông lượng thanh toán. Thay vì ép tầng này phải làm mọi thứ (như cách tiếp cận trên Ethereum chẳng hạn), hệ sinh thái Bitcoin dần dần áp dụng một cách tiếp cận theo tầng: blockchain đóng vai trò nền móng (thanh toán cuối cùng), trong khi các tầng phía trên bổ sung những đặc tính mới như thanh toán nhanh hơn, quyền riêng tư cao hơn, hay phát hành tài sản (stablecoin, chứng khoán được token hóa...).
+
+Bitcoin không chỉ phát triển bằng cách thay đổi giao thức cơ sở của mình. Nó còn phát triển bằng cách xây dựng bên trên, với những giải pháp đưa ra các đánh đổi khác nhau tùy theo mục tiêu. Một số tập trung vào khả năng mở rộng thanh toán, số khác vào khả năng lập trình (theo nghĩa rộng) và phát hành tài sản, và một số khác cố gắng kết hợp cả hai.
+
+Trong chương này, chúng tôi giới thiệu bốn giao thức quan trọng, mỗi giao thức mang lại những khả năng mới trên Bitcoin: sidechain (đặc biệt là Liquid), Ark, RGB và Taproot Assets.
+
+### Sidechain: các blockchain song song được kết nối với Bitcoin
+
+Một sidechain là một blockchain tách biệt với Bitcoin, được thiết kế để hoạt động song song, với các quy tắc và cơ chế đồng thuận riêng. Nó được kết nối với Bitcoin thông qua một cơ chế neo hai chiều (*2WP*), cho phép trên thực tế sử dụng bitcoin trên sidechain dưới dạng đại diện (thường là bitcoin bị khóa trên Bitcoin và được tái tạo trên sidechain), rồi sau đó quay trở lại chuỗi chính.
+
+Lợi ích của sidechain là cung cấp những chức năng khó đạt được trực tiếp trên Bitcoin: giao dịch nhanh hơn, chức năng tài sản, quyền riêng tư được tăng cường, hoặc sự linh hoạt cao hơn trong phát triển. Đổi lại, sidechain luôn phải chấp nhận những đánh đổi so với Bitcoin, đặc biệt là về mô hình tin cậy hoặc mức độ phi tập trung.
+
+Sidechain nổi tiếng nhất trên Bitcoin có lẽ là **Liquid**, được phát triển bởi Blockstream. Liquid được thiết kế đặc biệt để tăng tốc một số trường hợp sử dụng: chuyển khoản nhanh giữa các nền tảng, thanh toán thường xuyên hơn, và phát hành tài sản (stablecoin, chứng khoán...), đi kèm với quyền riêng tư được nâng cao. Trên Liquid, các bitcoin được sử dụng có tên là L-BTC: chúng được thiết kế để gắn với BTC theo tỷ lệ 1:1 thông qua cơ chế neo hai chiều.
+
+![image](assets/vi/088.webp)
+
+Sự khác biệt lớn so với Bitcoin nằm ở mô hình bảo mật và phi tập trung: Liquid không dựa trên bằng chứng công việc của Bitcoin, mà dựa trên một liên minh các nhà vận hành (một nhóm xác định) chịu trách nhiệm sản xuất khối và vận hành các cầu nối giữa BTC và L-BTC.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: chia sẻ UTXO để giảm chi phí và cải thiện trải nghiệm
+
+Ark chỉ một tập hợp các đề xuất và triển khai nhằm cải thiện khả năng mở rộng của Bitcoin bằng cách gom nhiều thao tác của người dùng vào một số lượng nhỏ các giao dịch Bitcoin. Ý tưởng khá đơn giản: thay vì tạo một giao dịch onchain cho mỗi người dùng, ta tạo một giao dịch onchain đại diện cho một lô, rồi chủ yếu cập nhật quyền của từng người ngoài chuỗi cho đến khi muốn thanh toán dứt điểm trên Bitcoin.
+
+Ý tưởng giao thức tầng hai này được Burak công bố vào tháng 5 năm 2023. Giống như Lightning Network, Ark là một hệ thống triển khai bên trên chuỗi chính của Bitcoin. Nó cho phép thực hiện các khoản thanh toán bitcoin ngoài chuỗi một cách nhanh chóng, ẩn danh và với chi phí thấp. So với Lightning, Ark không yêu cầu phải có thanh khoản vào để nhận thanh toán, điều này cải thiện đáng kể trải nghiệm người dùng. Ngoài ra, nó còn cung cấp mức độ riêng tư tiệm cận với các giao dịch coinjoin. Ark cũng có thể không tương tác nếu các covenant được thêm vào Bitcoin.
+
+Burak thường chỉ trích khả năng mở rộng của Lightning do sự phụ thuộc của nó vào chuỗi chính và cho rằng Ark về mặt lý thuyết có thể tích hợp toàn bộ dân số thế giới trong mô hình self-custody. Dù Ark có thể được xem là một giao thức cạnh tranh với Lightning Network, trên thực tế hai giao thức này có thể cùng tồn tại và thậm chí bổ trợ cho nhau.
+
+Ark vẫn là một lĩnh vực rất năng động nhưng còn non trẻ: mục tiêu của nó rất hứa hẹn (giảm mạnh dấu chân onchain trên mỗi người dùng), nhưng cần lưu ý rằng đây là một kiến trúc phức tạp hơn, với những giả định và rủi ro khác so với Bitcoin và Lightning.
+
+### RGB: hợp đồng và tài sản với xác minh phía khách hàng
+
+RGB là một hệ thống hợp đồng thông minh và tài sản trên Bitcoin, áp dụng một cách tiếp cận hoàn toàn khác so với các blockchain đa năng. Ý tưởng trung tâm của nó là xác minh phía khách hàng: thay vì công bố toàn bộ trạng thái của một hợp đồng lên một blockchain toàn cầu, các bên tham gia lưu trữ và xác minh cục bộ những lịch sử liên quan đến họ, trong khi blockchain Bitcoin chỉ đóng vai trò neo các cam kết mật mã và ngăn chặn chi tiêu gấp đôi.
+
+Nói cách khác:
+* blockchain Bitcoin đóng vai trò nền tảng đóng dấu thời gian và trọng tài tối thiểu;
+* các dữ liệu chi tiết (quy tắc hợp đồng, trạng thái, chuyển tiếp) lưu thông ngoài chuỗi giữa các bên liên quan;
+* việc xác minh được thực hiện cục bộ, giúp cải thiện khả năng mở rộng và có thể nâng cao quyền riêng tư, vì không tồn tại một sổ cái toàn cầu ghi lại mọi hoạt động RGB cho tất cả mọi người thấy.
+
+![image](assets/vi/089.webp)
+
+RGB có thể làm nền tảng để phát hành và quản lý rất nhiều loại tài sản: token (bao gồm stablecoin), NFT hoặc chứng khoán số, thậm chí xây dựng các logic hợp đồng phức tạp hơn, tất cả mà không làm nặng thêm tầng cơ sở.
+
+Mặt trái của vấn đề là quản lý dữ liệu: nếu bạn xác minh phía khách hàng, bạn cũng phải lưu trữ và sao lưu đúng cách những dữ liệu chứng minh quyền lợi của mình.
+
+RGB là một giao thức đã được phát triển trong nhiều năm. Những tiến bộ diễn ra dần dần, nhưng hiện nay đã có các ứng dụng cụ thể tận dụng RGB. Để đi sâu hơn, Plan ₿ Academy cung cấp một khóa học cấp độ chuyên gia trình bày chi tiết cách thức hoạt động của giao thức này:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: phát hành tài sản trên Bitcoin và di chuyển chúng lên Lightning
+
+Taproot Assets (trước đây gọi là "Taro") là một giao thức do Lightning Labs phát triển, nhằm cho phép phát hành tài sản trên Bitcoin, với khả năng sau đó chuyển các tài sản này qua mạng Lightning để trao đổi nhanh chóng và với chi phí thấp.
+
+Đây là một thành phần thường được nhắc đến trong câu chuyện về “programmable money” trên Bitcoin: không phải vì Bitcoin trở thành một máy tính toàn cầu, mà vì có thể chồng các công cụ tài chính (tài sản) lên nền tảng Bitcoin, rồi cho chúng lưu thông hiệu quả thông qua Lightning.
+
+### Bitcoin trở nên mạnh mẽ hơn khi để các tầng phía trên đổi mới
+
+Ngày nay, hình ảnh trung thực nhất của hệ sinh thái Bitcoin không phải là một giao thức bất biến, cũng không phải là một siêu blockchain làm mọi thứ như Ethereum. Thay vào đó, đó là một nền tảng có chủ đích bảo thủ, được bao quanh bởi các tầng và giao thức thử nghiệm và cho phép đổi mới với mức độ rủi ro tối thiểu.
 
 
-- Core-lightning của Blockstream
-- Eclair của Acinq
-- LND của Lightning strike
-
-Mạng ngang hàng này nhằm mục đích tạo điều kiện thuận lợi cho các giao dịch nhỏ (có giá trị rất thấp) vốn không thực tế do phí cao và thời gian xác nhận lâu trên chuỗi khối Bitcoin.
-
-### Các trường hợp sử dụng mạng Lightning là gì?
-
-Công nghệ này mở ra cánh cửa cho nhiều ứng dụng tiềm năng cho Bitcoin mà trước đây nằm ngoài tầm với vì những hạn chế cần thiết để đảm bảo tính bảo mật và phi tập trung của Bitcoin. Trong số những trường hợp sử dụng trong giao dịch hàng ngày, chúng ta có thể đề cập đến việc thanh toán tức thời trong giao dịch thương mại truyền thống lẫn trực tuyến, chuyển tiền trực tuyến để thanh toán theo thời gian thực và quyên góp giá trị nhỏ cho người sáng tạo nội dung. Việc cho phép thúc đẩy một mạng lưới các giao dịch gần như tức thời, an toàn và chi phí thấp (trung bình dưới 0,5%), có thể hiện thực hóa nhiều mô hình kinh doanh trước đây không thể tưởng tượng được. Điều này trở nên khả thi vì mạng tia chớp (Lightning) hoạt động với đơn vị satoshi (sats), là đơn vị nhỏ nhất của Bitcoin.
-
-![image](assets/en/82.webp)
-
-Ngành công nghiệp trò chơi điện tử online cho một ví dụ đặc biệt thú vị về cách Mạng lưới Lightning có thể được sử dụng để chuyển đổi các mô hình kinh doanh hiện có. Khái niệm "có miếng" là một ý tưởng gần đây đã trở nên phổ biến trong bối cảnh này. Về cơ bản, nó liên quan đến việc có cổ phần tài chính trong kết quả của một trò chơi. Trên thực tế, Mạng lưới Lightning cho phép người chơi đặt cược một số tiền rất nhỏ khi chơi trò chơi, chẳng hạn như một vài satoshi (khoảng một phần nhỏ của một xu euro) để lập một cổ phần kích thích sự cạnh tranh trong khi đó đồng thời làm tăng đáng kể chi phí sử dụng bots.
-
-![image](assets/en/83.webp)
-
-Tóm lại, tương lai của các giao dịch nhỏ với Bitcoin có vẻ đầy hứa hẹn nhờ những cải tiến như mạng tia chớp (Lightning). Khi các công nghệ này tiếp tục phát triển và trưởng thành, chúng ta có thể mong đợi thấy các ứng dụng mới và thú vị xuất hiện trong tương lai gần.
-
-![image](assets/en/84.webp)
-
-Một ví dụ khác có thể là "money streaming": thông qua mạng tia chớp (Lightning), chúng ta có thể thực hiện các giao dịch nhỏ mỗi phút (có khả năng không cần bên thứ ba đáng tin cậy), mở ra cánh cửa để thử nghiệm các mô hình kinh tế trong đó người tiêu dùng trả tiền cho nội dung dựa trên mức tiêu thụ thực tế của họ. Thậm chí có thể sử dụng hệ thống này để cho thuê hàng hóa. Trong một hệ thống như vậy, tiền được tự động chia, dựa trên tỷ lệ phần trăm được xác định trước, giữa những người đóng góp khác nhau cho một dịch vụ hoặc sản phẩm. Điều này có thể cách mạng hóa cách chúng ta nghĩ về các mô hình thanh toán: thay vì trả phí đăng ký hàng tháng cho một dịch vụ, người sử dụng có thể bị tính phí theo phút hoặc thậm chí theo giây cho thời gian họ sử dụng dịch vụ. Một mô hình kinh tế như vậy có thể có ý nghĩa sâu sắc đối với những người sáng tạo nội dung, những người sẽ được khuyến khích tạo ra nội dung chất lượng để giữ sự chú ý của người sử dụng.
-
-![image](assets/en/85.webp)
-
-Tóm lại, mạng tia chớp (Lightning) mở ra vô số trường hợp sử dụng thú vị cho người sử dụng Bitcoin. Các mô hình kinh tế và cơ hội kinh doanh kết quả rất nhiều và đa dạng, và chúng tôi khuyến khích bạn tự mình kiểm tra bằng cách dùng thử ứng dụng podcast [Fountain](https://www.fountain.fm/), cho phép bạn được thưởng một vài sats khi nghe podcast yêu thích của mình!
 
 ## Viên thuốc đỏ hay viên thuốc xanh?
 
@@ -1409,3 +1494,6 @@ Bạn đã sẵn sàng tham gia chưa?
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
+
+

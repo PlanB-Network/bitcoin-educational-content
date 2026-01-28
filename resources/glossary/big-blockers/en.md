@@ -2,5 +2,5 @@
 term: BIG BLOCKERS
 ---
 
-Name given to the supporters of increasing the block size during the Blocksize War between 2015 and 2017. Big blockers believe that it is necessary to increase this limit to allow Bitcoin to scale. They support proposals like Bitcoin XT, Bitcoin Classic, and Bitcoin Unlimited. They do not have a problem with implementing changes via hard forks, unlike small blockers who prefer soft forks.
+A term used to describe supporters of increasing Bitcoin's block size during the Blocksize War between 2015 and 2017. Big blockers believe that raising the block size limit is necessary to enable Bitcoin to scale. They supported proposals such as Bitcoin XT, Bitcoin Classic, and Bitcoin Unlimited. Unlike small blockers, who favor soft forks, big blockers were willing to implement changes through hard forks.
 

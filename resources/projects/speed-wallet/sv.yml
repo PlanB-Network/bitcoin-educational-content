@@ -1,5 +1,4 @@
 description: |
   Speed Bitcoin Lightning Wallet är en Bitcoin Wallet som gör det möjligt för användare att skicka och ta emot Bitcoin och stablecoins på ett säkert sätt
-  
-  Användare kan skicka och ta emot Bitcoin på alla webbplatser som stöder Bitcoin-betalningar, göra betalningar med LNurl, LN Invoice eller LN Address och säkra sitt konto med tvåfaktorsautentisering.
-  Integrering av USDT stablecoin och bitrefill.
+
+  Användare kan skicka och ta emot Bitcoin på alla webbplatser som stöder Bitcoin-betalningar, göra betalningar med LNurl, LN Invoice eller LN Address och säkra sitt konto med tvåfaktorsautentisering. Integrering av USDT stablecoin och bitrefill.

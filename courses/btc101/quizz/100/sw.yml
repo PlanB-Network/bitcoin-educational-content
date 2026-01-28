@@ -1,12 +1,11 @@
-question: Je, kukosekana kwa maneno ya Mnemonic katika Wallet kunaonyesha nini?
-answer: Inaonyesha kuwa Wallet si salama kwa uhifadhi wa muda mrefu wa Bitcoin.
+question: Je, ni jukumu gani la mthibitishaji katika muktadha wa urithi wa Bitcoin?
+answer: Wanahakikisha kufuata kodi.
 wrong_answers:
-  - Inaonyesha kuwa Wallet ni salama kabisa na hauhitaji chelezo yoyote.
-  - Ina maana kwamba Wallet inaweza kushikilia vifungo vingi tofauti.
-  - Inapendekeza kwamba Wallet inachelezwa kiotomatiki na kifaa chako.
+  - Wanasimamia bitcoins zako baada ya kifo chako.
+  - Wanarekebisha mpango wako wa urithi.
+  - Wanalinda bitcoins zako kwenye salama.
 explanation: |
-  Kutokuwepo kwa orodha ya maneno 12 au 24, hiyo ni
-  Mnemonic maneno, katika Wallet inapaswa kukuarifu kwamba
-  Wallet si salama kwani haifuati hifadhi rudufu ya kawaida
-  taratibu.
-reviewed: true
+  Katika muktadha wa urithi wa Bitcoin, ni muhimu
+  kujadili urithi wa bitcoins na mthibitishaji ili kuhakikisha
+  kufuata kodi.
+reviewed: false

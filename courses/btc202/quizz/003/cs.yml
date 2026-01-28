@@ -1,0 +1,9 @@
+question: Na čem je podle Erica Voskuila v knize Cryptoeconomics založena bezpečnost Bitcoin?
+answer: O jednotlivcích
+wrong_answers:
+  - O Blockchain
+  - O výkonu Hash
+  - O kryptografii
+explanation: |
+  Eric Voskuil vysvětluje, že bezpečnost systému Bitcoin závisí především na lidech, kteří se podílejí na jeho údržbě.
+reviewed: true

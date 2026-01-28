@@ -1,9 +1,10 @@
-question: Vad måste enligt Nobelpristagaren F.A. Hayek hända för att vi ska få bra pengar igen?
-answer: Vi tar saken ur händerna på regeringen.
+question: Vad var DigiCash-projektet?
+answer: Ett försök att skapa anonyma elektroniska pengar av David Chaum.
 wrong_answers:
-  - Vi ger saken till en bättre regering.
-  - Vi ger den till en auktoritär regering.
-  - Vi tar saken ur händerna på folket.
+  - Ett projekt för att skapa en digital Wallet för Bitcoin.
+  - Ett försök att digitalisera alla fysiska kontanter av Federal Reserve.
+  - Ett projekt för att skapa en kryptovaluta baserad på Bitcoin.
 explanation: |
-  Hayek säger: "Jag tror inte att vi någonsin kommer att ha en bra penningmängd igen, innan vi tar saken ur händerna på regeringen. Om vi inte med våld kan ta dem ur regeringens händer är det enda vi kan göra att på något listigt eller omständligt sätt införa något som de inte kan stoppa."
+  David Chaum introducerade konceptet med anonyma elektroniska
+  pengar med sitt projekt DigiCash på 1980-talet.
 reviewed: true

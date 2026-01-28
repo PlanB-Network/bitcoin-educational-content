@@ -1,8 +1,12 @@
-question: 為什麼 Bitcoin 交易中的確認次數很重要？
-answer: 交易的確認次數越多，就越不可變更。
+question: 使用者如何在 Bitcoin 網路中轉帳 Ownership？
+answer: 透過使用私人金鑰對交易進行數位簽章。
 wrong_answers:
-  - 交易的確認次數越多，價值就越高。
-  - 交易的確認次數越多，處理速度就越快。
-  - 交易的確認次數越多，安全性就越低。
-explanation: >-
+  - 透過實際交出他們的比特幣。
+  - 透過傳送電子郵件給收件人。
+  - 透過提供他們的 Bitcoin Address 給接收者。
+explanation: |
+  Bitcoin 網路中的使用者透過以私人密碼進行數位簽章交易的方式，轉移其 Ownership
+  的數位簽章交易。
+  鑰匙簽署交易。這可以驗證他們是要轉移的比特幣的擁有者。
+  比特幣的擁有者。
 reviewed: true

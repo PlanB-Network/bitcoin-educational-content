@@ -1,0 +1,8 @@
+question: Quando si spende un'output P2SH, quale processo di convalida in due fasi deve avvenire perché la transazione sia considerata valida?
+answer: Innanzitutto verificare che HASH160 dello script redeem corrisponda all'hash di scriptPubKey, quindi eseguire lo script redeem con i dati forniti
+wrong_answers:
+  - Eseguire prima lo script redeem con i dati forniti, quindi verificare che l'hash risultante corrisponda alla scriptPubKey
+  - Per prima cosa verificare che tutte le firme siano valide rispetto alle loro chiavi pubbliche, quindi controllare che l'hash delil redeem script corrisponda a
+  - Confermare innanzitutto che lo script redeem contenga opcode validi, quindi verificare che l'esecuzione dello script produca un risultato vero
+explanation: |
+  La convalida P2SH richiede un processo specifico in due fasi: in primo luogo, l'hash dello script redeem fornito deve corrispondere all'hash di 20 byte nello scriptPubKey (verifica HASH160), e solo dopo che questa verifica è stata superata la rete esegue lo script redeem stesso con i dati di sblocco. Questo design garantisce che solo il redeem script corretto possa essere utilizzato, mantenendo nascoste le condizioni di spesa effettive fino a quando non si verifica la spesa. Le altre opzioni descrivono sequenze di convalida plausibili ma non corrette che non seguono il protocollo P2SH reale.

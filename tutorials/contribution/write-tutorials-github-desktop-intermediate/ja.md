@@ -1,12 +1,12 @@
 ---
 name: コントリビューション - GitHub Desktopを使ったチュートリアル (中級)
-description: GitHub Desktop を使って Plan ₿ Network にチュートリアルを提案する完全ガイド
+description: GitHub Desktop を使って Plan ₿ Academy にチュートリアルを提案する完全ガイド
 ---
 ![cover](assets/cover.webp)
 
 新しいチュートリアルの追加に関するこのチュートリアルに従う前に、いくつかの予備ステップを完了している必要があります。まだ完了していない場合は、まずこの入門チュートリアルを参照し、それからここに戻ってきてください：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 あなたはすでにそうしている：
 
 
@@ -19,13 +19,13 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 - 経験豊富なユーザー
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 ローカル環境を構築したくない場合は、初心者向けの別のチュートリアルを参考にしてください。このチュートリアルでは、GitHub のウェブインターフェイスを使って直接変更を行います：
 
 
-- 初心者（ウェブインターフェース）**：
+- 初心者（ウェブインターフェース）：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## 前提条件
 
 このチュートリアルに従うために必要なソフトウェア：
@@ -42,11 +42,11 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 
 - GitHubアカウント](https://github.com/signup)を持っている；
 - Plan ₿ Networkソースリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content)をフォークしてください；
-- Plan ₿ Network上の教授プロフィール](https://planb.network/professors)を持つ（完全なチュートリアルを提案する場合のみ）。
+- Plan ₿ Network上の教授プロフィール](https://planb.academy/professors)を持つ（完全なチュートリアルを提案する場合のみ）。
 
 これらの前提条件の取得に助けが必要な場合は、私の他のチュートリアルがお手伝いします：
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 すべての準備が整い、ローカル環境にプラン₿ネットワークのフォークが適切にセットアップされたら、チュートリアルの追加を開始できます。
 
 
@@ -76,7 +76,7 @@ Fetch origin` ボタンをクリックします。ローカルリポジトリが
 
 ![TUTO](assets/fr/08.webp)
 
-新しいブランチがソースリポジトリ（`PlanB-Network/bitcoin-educational-content`）に基づいていることを確認してください。
+新しいブランチがソースリポジトリ（`Plan ₿ Academy/bitcoin-educational-content`）に基づいていることを確認してください。
 
 各単語をダッシュで区切って、目的が明確になるようにタイトルをつけてください。たとえば、Sparrow Wallet の使い方のチュートリアルを書くのが目的だとしましょう。この場合、このチュートリアルを書くための作業ブランチの名前は `tuto-sparrow-wallet-loic` とします。適切な名前を入力したら、`Create branch`をクリックしてブランチの作成を確定します：
 
@@ -103,7 +103,7 @@ Fetch origin` ボタンをクリックします。ローカルリポジトリが
 
 - Python 3.8以上。
 
-スクリプトを使用するには、スクリプトが保存されているフォルダに移動します。スクリプトは Plan ₿ Network data repository のパスにあります：bitcoin-educational-content/scripts/tutorial-related/data-creator`にあります。
+スクリプトを使用するには、スクリプトが保存されているフォルダに移動します。スクリプトは Plan ₿ Academy data repository のパスにあります：bitcoin-educational-content/scripts/tutorial-related/data-creator`にあります。
 
 フォルダに入ったら、依存関係をインストールする：
 
@@ -144,7 +144,7 @@ Contributor's GitHub ID "フィールドに、あなたのGitHubユーザー名�
 
 まだ教授プロフィールをお持ちでない方は、こちらのチュートリアルをご覧ください：
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 次に「新しいチュートリアル」ボタンをクリックします。
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
@@ -183,7 +183,7 @@ project_id`はチュートリアルで使用するツールの会社または組
 
 ファイルマネージャを開き、リポジトリのローカルクローンを表す `bitcoin-educational-content` フォルダに移動します。通常、このフォルダは `Documents}GitHub}bitcoin-educational-content` の下にあります。
 
-このディレクトリの中で、チュートリアルを配置するのに適切なサブフォルダを見つける必要があります。フォルダ構成は、Plan ₿ Network ウェブサイトの各セクションを反映しています。この例では、Sparrow Wallet に関するチュートリアルを追加したいので、次のパスに移動します：これはウェブサイトの `WALLET` セクションに対応します：
+このディレクトリの中で、チュートリアルを配置するのに適切なサブフォルダを見つける必要があります。フォルダ構成は、Plan ₿ Academy ウェブサイトの各セクションを反映しています。この例では、Sparrow Wallet に関するチュートリアルを追加したいので、次のパスに移動します：これはウェブサイトの `WALLET` セクションに対応します：
 
 ![TUTO](assets/fr/12.webp)
 
@@ -250,11 +250,11 @@ proofreading:
 
 - **id**: チュートリアルを一意に識別する UUID (_Universally Unique Identifier_)。 [オンラインツール](https://www.uuidgenerator.net/version4)を使用して生成できます。 この UUID はランダムである必要があり、プラットフォーム上の他の UUID と競合しないことが条件です;
 
-- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Network は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
+- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Academy は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
 
-- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Network のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
+- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Academy のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
 
-- **category**: Plan ₿ Network サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
+- **category**: Plan ₿ Academy サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
 
 - **level**: チュートリアルの難易度レベル、以下から選択：
     - `beginner`
@@ -275,7 +275,7 @@ proofreading:
 
 教師IDの詳細については、対応するチュートリアルを参照してください：
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -381,15 +381,15 @@ assets`フォルダ内のlanguageサブフォルダは、チュートリアル�
 独自のダイアグラムを作成する場合は、視覚的な一貫性を確保するため、Plan ₿ Networkのグラフィック・チャーターに従うようにしてください：
 
 
-- フォント**：ルービック](https://fonts.google.com/specimen/IBM+Plex+Sans)を使う；
-- 色**：
+- フォント：**ルービック**](https://fonts.google.com/specimen/IBM+Plex+Sans)を使う；
+- **色**：
  - オレンジ#FF5C00
  - ブラック#000000
  - 白：白：#FFFFFFF
 
 **チュートリアルに組み込まれるすべてのビジュアルは、権利フリーであるか、ソースファイルのライセンスを尊重することが必須です**。また、Plan ₿ Networkで公開されているすべての図は、テキストと同様にCC-BY-SAライセンスの下で利用可能です。
 
-**-> ヒント：*** 画像などのファイルを公に共有する場合、不要なメタデータを削除することが重要です。メタデータには、位置情報、作成日、作者の情報など、機密情報が含まれていることがあります。プライバシーを守るためにも、このメタデータは削除することをお勧めします。このプロセスを簡素化するには、[Exif Cleaner](https://exifcleaner.com/)のような専用ツールを使用することができます。このツールを使用すると、簡単なドラッグ＆ドロップ操作でドキュメントのメタデータをクリーニングすることができます。
+**ヒント：** 画像などのファイルを公に共有する場合、不要なメタデータを削除することが重要です。メタデータには、位置情報、作成日、作者の情報など、機密情報が含まれていることがあります。プライバシーを守るためにも、このメタデータは削除することをお勧めします。このプロセスを簡素化するには、[Exif Cleaner](https://exifcleaner.com/)のような専用ツールを使用することができます。このツールを使用すると、簡単なドラッグ＆ドロップ操作でドキュメントのメタデータをクリーニングすることができます。
 
 ## 7 - チュートリアルを保存して送信する
 
@@ -427,7 +427,7 @@ GitHub 上のブラウザで、Pull Request の準備ページに自動的にリ
 
 ![TUTO](assets/fr/34.webp)
 
-あなたのPRは、メインの Plan ₿ Network リポジトリの `Pull Request` タブに表示されます。あとは、管理者があなたの投稿の合併を確認したり、追加の修正を依頼するために連絡をくれるのを待つだけです。
+あなたのPRは、メインの Plan ₿ Academy リポジトリの `Pull Request` タブに表示されます。あとは、管理者があなたの投稿の合併を確認したり、追加の修正を依頼するために連絡をくれるのを待つだけです。
 
 ![TUTO](assets/fr/35.webp)
 
@@ -446,5 +446,4 @@ GitHub デスクトップソフトウェアでは、フォークのメインブ�
 - PRがすでにメインブランチにマージされている場合は、新しいブランチを作成し、新しいPRを投稿してプロセスをやり直す必要があります。作業を進める前に、ローカルリポジトリが Plan ȏ Network ソースリポジトリと同期していることを確認してください。
 
 チュートリアルを投稿する際に技術的な問題が発生した場合は、遠慮なく[投稿専用のTelegramグループ](https://t.me/PlanBNetwork_ContentBuilder)に助けを求めてください。ありがとうございました！
-
 

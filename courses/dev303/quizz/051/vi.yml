@@ -1,0 +1,8 @@
+question: Khi sử dụng RefCell trong môi trường đa luồng, mối quan ngại an toàn chính là gì?
+answer: RefCell không an toàn cho đa luồng và sẽ gây ra hành vi không xác định nếu được truy cập từ nhiều luồng.
+wrong_answers:
+  - RefCell sẽ tự động đồng bộ hóa quyền truy cập giữa các luồng nhưng sẽ gây ra tổn thất hiệu năng đáng kể.
+  - RefCell sẽ gặp lỗi nghiêm trọng khi nhiều luồng cố gắng truy cập đồng thời vào nó.
+  - RefCell sẽ bị kẹt khi nhiều luồng cố gắng mượn cùng một dữ liệu đồng thời.
+explanation: |
+  RefCell được thiết kế dành riêng cho các kịch bản đơn luồng và thiếu bất kỳ cơ chế đồng bộ hóa luồng nào. Không giống như các giải pháp thay thế an toàn luồng như Mutex, RefCell không thực hiện bất kỳ thao tác nguyên tử hoặc khóa nào, khiến việc truy cập đồng thời từ nhiều luồng dẫn đến hành vi không xác định và khả năng xảy ra xung đột dữ liệu. Các kiểm tra mượn bộ nhớ mà RefCell thực hiện trong thời gian chạy không an toàn cho đa luồng và có thể bị lỗi do truy cập đồng thời, dẫn đến vi phạm an toàn bộ nhớ mà Rust thường ngăn chặn.

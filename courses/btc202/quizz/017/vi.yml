@@ -1,0 +1,9 @@
+question: Hai thành phần nào đã được phân phối cùng với Bitcoin core kể từ phiên bản 0.5?
+answer: Bitcoin-qt và bitcoind
+wrong_answers:
+  - bitcoin-cli và Bitcoin-gui
+  - Bitcoin-Miner và Bitcoin-Wallet
+  - Bitcoin lõi và Bitcoin nút
+explanation: |
+  Kể từ phiên bản 0.5, Bitcoin core bao gồm Interface (Bitcoin-qt) đồ họa và Interface (bitcoind) dòng lệnh.
+reviewed: true

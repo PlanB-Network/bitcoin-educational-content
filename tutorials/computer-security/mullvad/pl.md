@@ -30,7 +30,7 @@ Mullvad VPN to szwedzka usługa, która wyróżnia się swoim Commitment dla pry
 W przypadku płatności niekoniecznie wymagane jest podanie danych karty kredytowej, ponieważ Mullvad akceptuje płatności Bitcoin (onchain tylko na ich oficjalnej stronie, ale istnieje nieoficjalna metoda płatności za pośrednictwem Lightning). Akceptują również płatności gotówkowe za pośrednictwem poczty.
 
 
-Mullvad VPN wyróżnia się również przejrzystością i bezpieczeństwem. Ich oprogramowanie jest typu open-source i regularnie przechodzą niezależne audyty bezpieczeństwa w celu oceny swoich aplikacji i infrastruktury, których wyniki są [publikowane na ich stronie internetowej] (https://mullvad.net/fr/blog/tag/audits). Firma stojąca za Mullvad ma siedzibę w Szwecji, kraju znanym z surowych przepisów dotyczących prywatności. Korzysta wyłącznie z serwerów hostowanych samodzielnie, eliminując w ten sposób ryzyko związane z korzystaniem z usług chmurowych stron trzecich, takich jak hiperskalery AWS, Google Cloud lub Microsoft Azure.
+Mullvad VPN wyróżnia się również przejrzystością i bezpieczeństwem. Ich oprogramowanie jest typu open-source i regularnie przechodzą niezależne audyty bezpieczeństwa w celu oceny swoich aplikacji i infrastruktury, których wyniki są [publikowane na ich stronie internetowej](https://mullvad.net/fr/blog/tag/audits). Firma stojąca za Mullvad ma siedzibę w Szwecji, kraju znanym z surowych przepisów dotyczących prywatności. Korzysta wyłącznie z serwerów hostowanych samodzielnie, eliminując w ten sposób ryzyko związane z korzystaniem z usług chmurowych stron trzecich, takich jak hiperskalery AWS, Google Cloud lub Microsoft Azure.
 
 
 Pod względem funkcji Mullvad oferuje wszystko, czego można oczekiwać od dobrego klienta VPN, w tym wyłącznik awaryjny, który chroni ruch w przypadku rozłączenia VPN, opcję wyłączenia VPN dla określonych aplikacji oraz możliwość kierowania ruchu przez wiele serwerów VPN.
@@ -82,7 +82,7 @@ Przejdźmy teraz do aktywacji Mullvad na urządzeniach.
 ## Jak zapłacić i aktywować Mullvad VPN?
 
 
-Wejdź na [oficjalną stronę Mullvad] (https://mullvad.net/) i kliknij przycisk "*Get Started*".
+Wejdź na [oficjalną stronę Mullvad](https://mullvad.net/) i kliknij przycisk "*Get Started*".
 
 ![MULLVAD VPN](assets/notext/09.webp)
 
@@ -131,7 +131,7 @@ Jak zrozumiałeś, Mullvad nie akceptuje jeszcze płatności za pośrednictwem L
 
 ![MULLVAD VPN](assets/notext/20.webp)
 
-Na stronie dostępne są dwie różne opcje: można zaufać menedżerowi strony i bezpośrednio wprowadzić numer konta, a następnie kliknąć przycisk "*Zaloguj się*", aby pakiet Mullvad został automatycznie zatwierdzony. Możesz też kliknąć przycisk "*Heck yeah!", aby kupić Voucher w Lightning, którego możesz następnie użyć na oficjalnej stronie Mullvad, aby otrzymać swój pakiet. ![MULLVAD VPN](assets/notext/21.webp) W obu przypadkach zostaniesz poproszony o wybranie czasu trwania pakietu. Do wyboru są okresy od 6 miesięcy do 1 roku. ![MULLVAD VPN](assets/notext/22.webp) Następnie kliknij przycisk "*Top-up with Lightning*". ![MULLVAD VPN](assets/notext/23.webp) Aby sfinalizować zakup, zapłać Invoice za pomocą Lightning Wallet. ![MULLVAD VPN](assets/notext/24.webp) Jeśli zdecydowałeś się na zakup Vouchera, na stronie Mullvad wybierz "*Voucher*" spośród metod płatności dostępnych na Twoim koncie. Następnie wprowadź numer Vouchera otrzymany ze strony vpn.sovereign.engineering w wyznaczonym polu. ![MULLVAD VPN](assets/notext/25.webp) ## Jak używać i konfigurować Mullvad VPN?
+Na stronie dostępne są dwie różne opcje: można zaufać menedżerowi strony i bezpośrednio wprowadzić numer konta, a następnie kliknąć przycisk **Zaloguj się**, aby pakiet Mullvad został automatycznie zatwierdzony. Możesz też kliknąć przycisk **Heck yeah!**, aby kupić Voucher w Lightning, którego możesz następnie użyć na oficjalnej stronie Mullvad, aby otrzymać swój pakiet. ![MULLVAD VPN](assets/notext/21.webp) W obu przypadkach zostaniesz poproszony o wybranie czasu trwania pakietu. Do wyboru są okresy od 6 miesięcy do 1 roku. ![MULLVAD VPN](assets/notext/22.webp) Następnie kliknij przycisk **Top-up with Lightning**. ![MULLVAD VPN](assets/notext/23.webp) Aby sfinalizować zakup, zapłać Invoice za pomocą Lightning Wallet. ![MULLVAD VPN](assets/notext/24.webp) Jeśli zdecydowałeś
 
 
 Teraz, gdy masz już aktywne konto i wprowadziłeś swój numer konta w oprogramowaniu lub aplikacji Mullvad, możesz w pełni cieszyć się usługami VPN. ![MULLVAD VPN](assets/notext/26.webp) Aby rozłączyć się z VPN, wystarczy kliknąć przycisk "*Disconnect*". ![MULLVAD VPN](assets/notext/27.webp) Mała czerwona strzałka obok przycisku "*Disconnect*" umożliwia zmianę serwera bez zmiany bieżącej lokalizacji. ![MULLVAD VPN](assets/notext/28.webp) Jeśli chcesz zmienić miasto dla swojego serwera VPN, kliknij "*Zmień lokalizację*", aby wybrać nową lokalizację. ![MULLVAD VPN](assets/notext/29.webp) W górnej części ekranu zobaczysz pseudonim swojego urządzenia, a także pozostały czas trwania pakietu. ![MULLVAD VPN](assets/notext/30.webp) Klikając ikonę małego ludzika, uzyskasz dostęp do szczegółowych informacji o swoim koncie. ![MULLVAD VPN](assets/notext/31.webp) Aby uzyskać dostęp do ustawień, kliknij koło zębate. ![MULLVAD VPN](assets/notext/32.webp) W menu "*Ustawienia Interface użytkownika*" można dostosować ustawienia oprogramowania, w tym język Interface i jego zachowanie w systemie. ![MULLVAD VPN](assets/notext/33.webp) W menu "*Ustawienia VPN*" znajdziesz opcje związane z Twoją siecią VPN. Zalecam włączenie opcji "*Launch app on start-up*" i "*Auto-connect*", aby połączenie VPN uruchamiało się automatycznie po uruchomieniu komputera.
@@ -151,4 +151,4 @@ Aby uzyskać przegląd swojego konta Mullvad i zarządzać różnymi podłączon
 I to wszystko, jesteś teraz przygotowany, aby w pełni cieszyć się Mullvad VPN. Jeśli chcesz odkryć innego dostawcę VPN podobnego do Mullvad, zarówno pod względem funkcji, jak i cen, polecam również zapoznanie się z naszym samouczkiem na temat IVPN:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

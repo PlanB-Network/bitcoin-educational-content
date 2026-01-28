@@ -8,4 +8,4 @@ Payjoin-transaksjonen oppfyller to mål. For det første tar den sikte på å vi
 
 ![](../../dictionnaire/assets/14.webp)
 
-> ► *Payjoin kalles også noen ganger "P2EP (Pay-to-End-Point)", "Stowaway" eller "steganografisk transaksjon"
+> ► *Payjoin kalles også noen ganger "P2EP (Pay-to-End-Point)", "Stowaway" eller "steganografisk transaksjon"*

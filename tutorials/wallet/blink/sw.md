@@ -31,7 +31,7 @@ Iwe wewe ni mgeni kwa Bitcoin au mtumiaji aliye na uzoefu, mwongozo huu unakupit
 
 
 - Usaidizi wa Sarafu mbili: Shikilia kwa urahisi zote mbili Bitcoin (BTC) na Stablesats (sawa na USD)
-- Lightning Network: Shughuli za haraka na za bei nafuu za Bitcoin
+- Lightning Network: Miamala ya haraka na za bei nafuu za Bitcoin
 - Stablesats: Weka thamani yako katika USD huku ukitumia mtandao wa malipo wa Bitcoin
 - Usanidi Rahisi: Nambari yako ya simu tu inahitajika
 - Ramani ya Biashara ya Kimataifa: Tafuta biashara zinazokubali Bitcoin
@@ -98,18 +98,18 @@ Unapofungua [Blink Wallet](https://blink.sv/) kwa mara ya kwanza, utaona kitu ki
  - Pokea
  - Tuma
  - Changanua QR
-- Historia ya Muamala: Shughuli zako zote za awali
+- Historia ya Muamala: miamala yako yote ya awali
 - Chati ya Bei: Ufuatiliaji wa bei ya Bitcoin (gonga aikoni ya chati)
 
 
-### Mipangilio Muhimu na Jinsi ya Kuweka Umeme Wako Address
+### Mipangilio Muhimu na Jinsi ya Kuweka Lightning Address
 
 
 #### Kuweka Umeme Wako Address
 
 
 
-- Nenda kwa Mipangilio → Umeme Wako Address
+- Nenda kwa Mipangilio → Lightning address
 - Chagua Address yako maalum (k.m., "yourname@pay.blink.sv")
 - Hii inakuwa Bitcoin Address yako ya kudumu ambayo mtu yeyote anaweza kutumia kukutumia pesa
 
@@ -150,11 +150,11 @@ Unapofungua [Blink Wallet](https://blink.sv/) kwa mara ya kwanza, utaona kitu ki
  - Mtumaji anaamua ni kiasi gani cha kutuma
 
 
-### Njia ya 2: Umeme Address
+### Njia ya 2: Lightning Address
 
 
 
-- Shiriki umeme wako wa Address (jina lako@pay.blink.sv) na mtu yeyote
+- Shiriki Lightning wako wa Address (jina lako@pay.blink.sv) na mtu yeyote
 - Wanaweza kutuma Bitcoin moja kwa moja kwa kutumia Address hii pekee
 - Hakuna misimbo ya QR au ankara zinazohitajika
 - Inafanya kazi na Wallet yoyote inayolingana na Umeme
@@ -259,7 +259,7 @@ Fikia zana za kina za wauzaji katika Mipangilio → Njia za Kulipwa:
 
 
 
-- Daftari la Fedha la Umeme:
+- Daftari la Fedha la Lightning:
  - Kituo cha uuzaji cha msingi wa wavuti
  - Tumia kwenye kifaa chochote kilicho na kivinjari
  - Unda ankara za kiasi maalum
@@ -312,8 +312,8 @@ Blink ni Wallet iliyohifadhiwa, kumaanisha kuwa wanashikilia na kudhibiti pesa z
 
 
 
-- Vizuizi vya kila siku vipo
-- Vizuizi vinaweza kuongezeka kwa ombi
+- Blocks za kila siku zipo
+- Blocks zinaweza kuongezeka kwa ombi
 - Zingatia chaguo za kujilinda kwa kiasi kikubwa zaidi
 
 
@@ -369,10 +369,10 @@ Unaporidhika na Blink, unaweza kutaka kuchunguza:
 
 
 
-- Pochi za kujilinda kwa kiasi kikubwa
-- Kuendesha nodi yako ya Umeme
-- Pochi za vifaa kwa uhifadhi wa muda mrefu
-- Vipengele vya juu zaidi vya Bitcoin
+- wallet za kujilinda kwa kiasi kikubwa
+- Kuendesha node yako ya Lightning 
+- hardware Wallet kwa uhifadhi wa muda mrefu
+- Elrod za juu zaidi vya Bitcoin
 
 
 ## Mawazo ya Mwisho: Rahisi, Yenye Nguvu, na Tayari kwa Matumizi ya Kila Siku
@@ -392,7 +392,7 @@ Unaporidhika na Blink, unaweza kutaka kuchunguza:
 - Biashara zinazokubali malipo ya Bitcoin
 
 
-Ingawa Blink Wallet imeundwa kwa urahisi na urahisi, ni vizuri kila wakati kufikiria ni nini kinachofaa zaidi kwako, iwe hiyo ni faragha, udhibiti au mipaka ya muamala. Unapopata kuridhika zaidi na Bitcoin, unaweza kuchunguza chaguo zingine za Wallet zinazolingana na mahitaji yako
+Ingawa Blink Wallet imeundwa kwa urahisi na urahisi, ni vizuri kila wakati kufikiria ni nini kinachofaa zaidi kwako, iwe ni faragha, udhibiti au mipaka ya muamala. Unapopata uzoefu zaidi na Bitcoin, unaweza kuchunguza chaguo zingine za Wallet zinazolingana na mahitaji yako
 
 
 Blink Wallet ni rahisi kutumia na imeundwa kwa ajili ya malipo ya ulimwengu halisi. Ijaribu, chunguza vipengele, na ukue imani na uelewa wako wa Bitcoin kupitia matumizi ya vitendo.

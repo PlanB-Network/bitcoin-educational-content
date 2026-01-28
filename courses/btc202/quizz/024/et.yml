@@ -1,0 +1,9 @@
+question: Milline on risk, kui Wallet sõltub kolmandast osapoolest sõlme?
+answer: Järelevalve ja tsensuuri oht
+wrong_answers:
+  - Automaatse Double-spending oht
+  - Privaatvõtmete kaotamise oht
+  - Kaotusrisk ja järelevalve
+explanation: |
+  Kolmanda osapoole sõlmpunkt võib teie tehinguid analüüsida või blokeerida või isegi seostada teie andmeid teie identiteediga.
+reviewed: true

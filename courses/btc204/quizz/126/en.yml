@@ -8,6 +8,6 @@ wrong_answers:
   - Asymmetric encryption
 
 explanation: |
-  To perform a coinswap, one can use HTLCs or PTLCs. These two protocols work in a similar manner by using a time-lock system that ensures the exchange is either completed successfully or fully cancelled, which protects the integrity of the funds from both parties. The main difference between HTLCs and PTLCs is that HTLCs use hashes and preimages to secure the transaction, while PTLCs use Adaptor Signatures.
+  To perform a coinswap, one can use HTLCs or PTLCs. These two protocols operate in a similar manner by utilizing a time-lock system that ensures the exchange is either completed successfully or fully canceled, thereby protecting the integrity of the funds from both parties. The main difference between HTLCs and PTLCs is that HTLCs utilize hashes and preimages to secure the transaction, whereas PTLCs employ Adaptor Signatures.
 
-reviewed: false
+reviewed: true

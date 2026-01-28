@@ -1,8 +1,11 @@
-question: Koliki je približan broj čvorova raspoređenih širom sveta do septembra 2023.?
-answer: 45.000 čvorova.
+question: Zašto je važno da Bitkoin čvor ostane pristupačan i dostupan svim mogućim korisnicima?
+answer: Jer omogućava decentralizaciju mreže.
 wrong_answers:
-  - 10.000 čvorova.
-  - 100.000 čvorova.
-  - 500.000 čvorova.
-explanation: >-
+  - Zato što povećava kapacitet transakcija mreže.
+  - Zato što smanjuje kapacitet transakcija mreže.
+  - Zato što povećava Block nagradu za rudare.
+explanation: |
+  Povoljna cena i dostupnost Bitkoin čvora su
+  važni jer olakšavaju decentralizaciju
+  mreže.
 reviewed: true

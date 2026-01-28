@@ -1,5 +1,5 @@
 ---
-name: لوکس
+name: LUKS
 description: رمزگذاری یک درایو فلش USB با LUKS و cryptsetup
 ---
 ![cover](assets/cover.webp)

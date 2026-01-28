@@ -1,13 +1,10 @@
-question: What is one of the potential benefits of the Lightning Network for content creators?
-answer: They would be incentivized to produce good quality content to retain users' attention.
+question: What is one of the main questions raised regarding the future of finance?
+answer: Who should hold, authorize, and trace the money we use?
 wrong_answers:
-  - They would be able to charge more for their content.
-  - They would be able to reach a wider audience.
-  - They would be able to produce content more quickly to retain users' attention.
-explanation: |
-  With the Lightning Network, content creators would be
-  incentivized to produce good quality content to retain
-  users' attention. Users, in turn, would only pay for the
-  content they consume, thus eliminating upfront subscription
-  fees.
+  - How can we eliminate money entirely?
+  - How can we ensure that everyone has the same amount of money?
+  - How can we make money obsolete?
+explanation: >-
+  The text raises several questions about the future of finance, one of
+  which is who should hold, authorize, and trace the money we use.
 reviewed: true

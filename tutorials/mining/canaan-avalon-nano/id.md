@@ -23,13 +23,13 @@ Perangkat ini dipasarkan sebagai pemanas tambahan dalam kasus **Avalon Nano 3S (
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Harap dicatat bahwa perbedaan harga dengan pemanas tradisional dengan daya yang setara, dalam sebagian besar kasus, tidak memungkinkan Anda untuk mendapatkan keuntungan finansial. Satoshi yang dihasilkan oleh aktivitas Mining tidak akan pernah mengimbangi perbedaan harga ini, kecuali jika Anda memiliki akses ke listrik gratis (surplus) atau listrik yang sangat murah.
 
 
 
-Menurut pendapat saya, perangkat ini harus dilihat lebih sebagai cara sederhana untuk Miner di rumah bagi mereka yang ingin melakukannya karena alasan pribadi: *mendapatkan Satss non-KYC / memainkan "lotre" dengan menyendiri / berpartisipasi dalam desentralisasi Hashrate dll., sambil mendapatkan keuntungan **sebagai bonus** dari panas yang dihasilkan untuk menghangatkan ruangan di musim dingin. Tetapi bukan sebagai cara untuk menghemat uang setidaknya dalam banyak kasus (negara-negara Barat).
+Menurut pendapat saya, perangkat ini harus dilihat lebih sebagai cara sederhana untuk Miner di rumah bagi mereka yang ingin melakukannya karena alasan pribadi: *mendapatkan Satss non-KYC / memainkan "lotre" dengan menyendiri / berpartisipasi dalam desentralisasi Hashrate dll.*, sambil mendapatkan keuntungan **sebagai bonus** dari panas yang dihasilkan untuk menghangatkan ruangan di musim dingin. Tetapi bukan sebagai cara untuk menghemat uang setidaknya dalam banyak kasus (negara-negara Barat).
 
 
 
@@ -75,17 +75,18 @@ Di bawah ini adalah tabel yang merangkum spesifikasi teknis umum Nano 3S :
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Fitur                                      | Nilai                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Tingkat Hash                                      | 6 Th/s +- 5%                                            |
+| Konsumsi Daya                               | 140 W                                                   |
+| Kebisingan                                                | 30 - 40 dB                                              |
+| Rentang Suhu Udara Keluaran                 | 60-70°C (pada suhu lingkungan 25°C)                |
+| Persyaratan Suhu Ambien untuk Penggunaan | -5 hingga 30°C                                            |
+| Rentang Tegangan Input Perangkat                         | 28V 5A berkelanjutan                                          |
+| Rentang Tegangan Input Adapter                       | 110-240V AC 50/60Hz                                     |
+| Ukuran Perangkat                                 | Panjang: 205 mm / Lebar: 115 mm / Tinggi: 58.5 mm |
+| Berat Perangkat                                  | 0.86 kg                                                 |
 
 ## Menyalakan dan menyambungkan ke jaringan lokal
 
@@ -207,9 +208,9 @@ Untuk detail lebih lanjut mengenai cara menghubungkan ke Mining pool, silakan ba
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Singkatnya, kita membutuhkan
 
@@ -358,4 +359,4 @@ Untuk mengetahui lebih lanjut, lihat tutorial kami tentang versi superior Avalon
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

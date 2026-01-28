@@ -1,10 +1,9 @@
-question: Cosa suggerisce questo corso riguardo al futuro di Bitcoin?
-answer: Non scomparirà.
+question: Quale approccio struttura l’evoluzione di Bitcoin descritta in questo capitolo?
+answer: Evoluzione a strati
 wrong_answers:
-  - Sarà sostituito da una tecnologia migliore.
-  - Sarà bandito in tutto il mondo.
-  - Perderà il suo valore.
+  - Blockchain monolitica
+  - Sharding nativo
+  - Esecuzione onchain generalizzata
 explanation: |
-  Il testo del corso suggerisce che Bitcoin non sta per
-  scomparire. Al contrario, la rivoluzione è appena iniziata.
-reviewed: vero
+  Bitcoin conserva uno strato di base semplice e robusto, mentre i protocolli superiori aggiungono funzionalità specifiche.
+reviewed: false

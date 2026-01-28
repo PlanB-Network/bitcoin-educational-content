@@ -1,0 +1,9 @@
+question: 2010년 7월 28일 아트포즈에서 보고한 취약점 중 특정 스크립트를 사용하여 모든 Address에서 비트코인을 사용할 수 있는 취약점은 무엇인가요?
+answer: 1 RETURN 버그
+wrong_answers:
+  - 값 오버플로 버그
+  - OP_NOP 버그
+  - LSHIFT 버그
+explanation: |
+  이 결함은 악용되지 않았습니다. Satoshi은 신속하게 소프트웨어에 수정 사항을 포함했으며 모든 사용자에게 업그레이드를 권장했습니다.
+reviewed: true

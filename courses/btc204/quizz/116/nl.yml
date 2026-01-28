@@ -1,10 +1,10 @@
-question: Wat is het hoofddoel van de ricochettechniek?
-answer: Om de sporen van het verleden van een munt te vervagen
+question: Wat is het hoofddoel van de ricochet-techniek?
+answer: Om de sporen uit het verleden van een munt te vervagen
 wrong_answers:
   - De verwachte anonimiteit van transacties verhogen
   - Om de entropie van een transactie te verhogen
   - In de toekomst minder transactiekosten betalen
 explanation: |
-  Het doel van een ricochet is om een Ownership verandering van een Bitcoin munt te simuleren om de fungibiliteit ervan te herstellen door de vroegere markeringen te vervagen.
+  Het doel van een ricochet is om een eigendomsverandering van een Bitcoin munt te simuleren om de fungibiliteit ervan te herstellen door de vroegere markeringen te vervagen.
   
 reviewed: false

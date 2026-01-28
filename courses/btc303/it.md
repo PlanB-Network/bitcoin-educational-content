@@ -996,13 +996,13 @@ Come accennato nel capitolo "Minaccie", il secondo punto può essere molto vanta
 
 Un'altra cosa che vale la pena menzionare è che, poiché Bitcoin è denaro e Bitcoin Core assicura quantità insondabili di denaro, la sicurezza in questo contesto non viene presa alla leggera. Ecco perché gli sviluppatori esperti di Bitcoin Core potrebbero apparire molto "testardi", ma questo atteggiamento è di solito giustificato. In effetti, una funzionalità con una motivazione debole al suo sostegno non sarà accettata. Lo stesso accadrebbe se si rompessero le build riproducibili, introducesse nuove dipendenze o se il codice non rispettasse le [best practices] di Bitcoin (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
-I nuovi (e i vecchi) sviluppatori possono sentirsi frustrati da questa situazione. Ma, come è consuetudine nel software open source, si può sempre crearee un fork del repository, unire tutto ciò che si desidera al proprio fork e creare ed eseguire il proprio software.
+I nuovi sviluppatori (e anche i veterani) possono sentirsi frustrati da questa situazione. Ma, come è consuetudine nel software open source, si può sempre crearee un fork del repository, unire tutto ciò che si desidera al proprio fork e creare ed eseguire il proprio software.
 
 ### Conclusioni sull'Open Source
 
-Bitcoin Core e la maggior parte degli altri software Bitcoin sono open source, il che significa che chiunque è libero di distribuire, modificare e utilizzare il software come preferisce. Il repository Bitcoin Core su GitHub è attualmente il punto focale dello sviluppo di Bitcoin, ma questo status può cambiare se le persone iniziano a non fidarsi dei suoi manutentori o del sito stesso.
+Bitcoin Core e la maggior parte degli altri software Bitcoin sono open source, il che significa che chiunque è libero di implementare, modificare e utilizzare il software come preferisce. Il repository Bitcoin Core su GitHub è attualmente il punto centrale dello sviluppo di Bitcoin, ma questo status può cambiare se le persone iniziano a non fidarsi dei suoi manutentori o del sito stesso.
 
-L'open source consente uno sviluppo senza permessi all'interno e sopra Bitcoin. Se scrivete codice, revisionate codice o protocolli, l'open source è ciò che vi permette di farlo, in modo pseudonomo o meno.
+La programmazione open source consente uno sviluppo senza permessi all'interno e sopra Bitcoin. Se scrivete codice, revisionate codice o protocolli, l'open source è ciò che vi permette di farlo, in modo pseudonomo o meno.
 
 
 Il processo di sviluppo di Bitcoin è radicalmente aperto, il che può far sembrare Bitcoin un luogo tossico e inefficiente, ma è ciò che mantiene Bitcoin resiliente contro gli attori malintenzionati.
@@ -1014,24 +1014,24 @@ Il processo di sviluppo di Bitcoin è radicalmente aperto, il che può far sembr
 ![](assets/it/011.webp)
 
 
-In questo capitolo esploriamo il modo in cui Bitcoin scala e non scala. Iniziamo con un'analisi di come si è ragionato in passato sul ridimensionamento. Poi, la maggior parte del capitolo illustra vari approcci al ridimensionamento di Bitcoin, in particolare il ridimensionamento verticale, orizzontale, interno e a strati. Ogni descrizione è seguita da considerazioni sulla possibilità che l'approccio interferisca con la proposta di valore di  Bitcoin.
+In questo capitolo esploriamo il modo in cui Bitcoin riesce a sostenere la crescita e dove invece incontra dei limiti. Iniziamo con un'analisi di come si è ragionato in passato sul ridimensionamento. Poi, la maggior parte del capitolo illustra vari approcci al ridimensionamento di Bitcoin, in particolare il ridimensionamento verticale, orizzontale, interno e a strati. Ogni descrizione è seguita da considerazioni sulla possibilità che l'approccio interferisca con la proposta di valore di Bitcoin.
 
-Nello spazio Bitcoin, diverse persone attribuiscono definizioni diverse alla parola "scala". Alcuni la concepiscono come l'aumento della capacità di transazione della blockchain, altri ritengono che equivalga a un utilizzo più efficiente della blockchain e altri ancora la vedono come lo sviluppo di sistemi in cima al Bitcoin.
+Nello spazio Bitcoin, diverse persone attribuiscono definizioni diverse alla parola "scalare". Alcuni la concepiscono come l'aumento della capacità di transazione della blockchain, altri ritengono che equivalga a un utilizzo più efficiente della blockchain e altri ancora la vedono come lo sviluppo di sistemi sopra Bitcoin.
 
-Nel contesto di Bitcoin, e per gli scopi di questo libro, definiamo lo scaling come *aumento della capacità di utilizzo di Bitcoin senza compromettere la sua resistenza alla censura*. Questa definizione comprende diversi tipi di modifiche, ad esempio:
+Nel contesto di Bitcoin, e per gli scopi di questo corso, definiamo "scalare" come *aumento della capacità di utilizzo di Bitcoin senza compromettere la sua resistenza alla censura*. Questa definizione comprende diversi tipi di modifiche, ad esempio:
 
-- Gli input delle transazioni utilizzano meno byte
-- Migliorare le prestazioni della verifica della firma
-- La rete peer-to-peer utilizza meno larghezza di banda
-- Batching delle transazioni
-- Architettura a strati
+- Gli input delle transazioni utilizzano meno byte.
+- Migliorare le prestazioni della verifica della firma.
+- La rete peer-to-peer utilizza meno larghezza di banda.
+- Batching delle transazioni.
+- Architettura a strati.
 
 Presto approfondiremo i diversi approcci al ridimensionamento, ma iniziamo con una breve panoramica della storia di Bitcoin nel contesto del ridimensionamento.
 
 ### Storia del ridimensionamento
 
 
-La scalabilità è stata un punto focale di discussione fin dal Genesis di  Bitcoin. La prima frase della [primissima email](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) in risposta all'annuncio del whitepaper Bitcoin da parte del Satoshi sulla mailing list Cryptography riguardava proprio il ridimensionamento:
+La scalabilità è stata un punto fondamentale della discussione fin dal genesis block di Bitcoin. Nella prima sezione della [primissima email](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) in risposta all'annuncio del whitepaper Bitcoin da parte di Satoshi sulla mailing list Cryptography riguardava proprio il ridimensionamento:
 
 > Satoshi Nakamoto ha scritto:
 >

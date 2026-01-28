@@ -1,4 +1,4 @@
-question: Welches Sighash-Flag ermöglicht Crowdfunding, indem es eine einzelne Eingabe und alle Ausgaben abdeckt?
+question: Welche Sighash-Flag ermöglicht Crowdfunding, indem es eine einzelne Eingabe und alle Ausgaben abdeckt?
 answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
   - SIGHASH_NONE | SIGHASH_ANYONECANPAY

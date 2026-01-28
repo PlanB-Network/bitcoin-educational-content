@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_ALL
 explanation: |
   SIGHASH_ALL yang dikombinasikan dengan SIGHASH_ANYONECANPAY memungkinkan penambahan input tanpa mengubah output.
+reviewed: true

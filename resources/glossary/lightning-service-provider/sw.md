@@ -1,6 +1,6 @@
 ---
 term: Mtoa huduma wa lightning
-definition:
+definition: Kampuni inayotoa huduma za ukwasi kwa watumiaji wa Lightning Network.
 ---
 
 Kampuni inayofanya kazi kwenye Umeme ambayo biashara yake ni kutoa huduma za ukwasi kwa watumiaji.

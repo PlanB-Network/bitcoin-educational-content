@@ -1,7 +1,7 @@
 ---
 term: OP_3DUP (0X6F)
 
-definition:
+definition: Op-koodi, joka monistaa kolme ylintä elementtiä pinossa.
 ---
 Kopioi pinon kolme ylintä elementtiä ja asettaa ne sitten pinon päälle. Jos pino on esimerkiksi:
 

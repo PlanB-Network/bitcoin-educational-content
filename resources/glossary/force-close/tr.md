@@ -1,6 +1,6 @@
 ---
 term: Zorla kapatma
-definition:
+definition: İmzalanmış son taahhüt işlemini yayınlayarak bir Lightning kanalının tek taraflı kapatılması.
 ---
 
 İşbirlikçi olmayan Lightning kanal kapatma mekanizması. İki kullanıcı Multisig 2/2 ile bir kanal açtığında, her biri zincirdeki bitcoinlerini geri almak için imzalanmış olan son Commitment Transaction'ı yayınlayarak kanalı tek taraflı olarak kapatabilir. Bu "zorla kapatma" olarak bilinir.

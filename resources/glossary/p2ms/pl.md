@@ -1,6 +1,6 @@
 ---
 term: P2MS
-definition:
+definition: Skrypt wielopodpisowy blokujący bitcoiny za pomocą wielu kluczy publicznych, wymagający określonego progu podpisów.
 ---
 
 P2MS to skrót od *Pay to Multisig*, co tłumaczy się jako "zapłać za wiele podpisów". Jest to standardowy model skryptu używany do ustalania warunków wydawania na UTXO. Pozwala on na blokowanie bitcoinów za pomocą wielu kluczy publicznych. Aby wydać te bitcoiny, wymagany jest podpis z predefiniowaną liczbą powiązanych kluczy prywatnych. Na przykład, `P2MS 2/3` obejmuje `3` klucze publiczne z `3` powiązanymi tajnymi kluczami prywatnymi. Aby wydać bitcoiny zablokowane za pomocą tego skryptu P2MS, wymagany jest podpis z co najmniej `2` z `3` kluczy prywatnych. Jest to progowy system bezpieczeństwa.

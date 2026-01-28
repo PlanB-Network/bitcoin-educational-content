@@ -1,7 +1,7 @@
 ---
 term: Tehingutasud
 
-definition:
+definition: Summa, mis tasustab kaevandajaid tehingu plokki lisamise eest, arvutatuna sisendite ja väljundite vahena.
 ---
 Tehingutasud kujutavad endast summat, mille eesmärk on hüvitada kaevandajatele nende osalemine töö tõestusmehhanismis. Need tasud julgustavad kaevandajaid lisama tehinguid nende loodud plokkidesse. Need tulenevad tehingu sisendite kogusumma ja väljundite kogusumma vahest:
 

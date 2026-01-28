@@ -1,6 +1,6 @@
 ---
 term: Invoice lightning
-definition:
+definition: Lightning-betalingsverzoek dat alle informatie bevat die nodig is om de transactie te voltooien.
 ---
 
 Lightning betalingsverzoek gegenereerd door de ontvanger, met alle informatie die nodig is om de transactie te voltooien.

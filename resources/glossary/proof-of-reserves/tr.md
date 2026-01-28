@@ -1,6 +1,6 @@
 ---
 term: Rezerv ispatı
-definition:
+definition: Borsa platformlarının müşterilerinin Bitcoin'lerine sahip olduklarını kanıtlamalarını sağlayan mekanizma.
 ---
 
 Bitcoin Exchange platformları tarafından müşterilerinin varlıklarını gerçekten ellerinde tuttuklarını göstermek için kullanılan mekanizma. Amaç, bitcoinlerinin tutmaları gereken kullanıcı bakiyelerine eşdeğer veya daha fazla olduğunu doğrulayarak şirketin ödeme gücünü kanıtlamaktır.

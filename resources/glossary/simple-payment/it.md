@@ -1,7 +1,7 @@
 ---
 term: Pagamento semplice
 
-definition:
+definition: Modello di transazione con 2 output, in genere un pagamento e un resto.
 ---
 Modello di transazione (o modello) utilizzato nell'analisi di filiera caratterizzato dal consumo di uno o più UTXO in ingresso e dalla produzione di 2 UTXO in uscita. Questo modello avrà quindi il seguente aspetto:
 

@@ -1,6 +1,6 @@
 ---
 term: Stonewall x2
-definition:
+definition: Transaction y'ubufatanye yigana mini-coinjoin n'uwundi muntu kugira aryohore ibanga ry'inkwisho.
 ---
 
 Uburyo bwihariye bw’ugucuruza Bitcoin bugamije kwongerera ubuzima bwite bw’abakoresha mu gihe c’ugukoresha amahera, mu gukorana n’uwundi muntu atagira uruhara mu gukoresha amahera. Ubwo buryo bwigana mini-CoinJoin hagati y’abantu babiri bari muri iyo nama, mu gihe bariko bariha uwundi muntu. Ivy’ugucuruza vya Stonewall x2 biraboneka kuri porogarama ya Samourai Wallet no kuri porogarama ya Sparrow wallet (vyompi birakorana).

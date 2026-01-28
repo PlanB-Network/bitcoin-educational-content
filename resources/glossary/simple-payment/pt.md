@@ -1,7 +1,7 @@
 ---
 term: Pagamento simples
 
-definition:
+definition: Modelo de transação com 2 saídas, geralmente um pagamento e um troco.
 ---
 Padrão (ou modelo) de transação utilizado na análise da cadeia caracterizado pelo consumo de um ou mais UTXOs nos inputs e pela produção de 2 UTXOs nos outputs. Este modelo terá, portanto, o seguinte aspeto:
 

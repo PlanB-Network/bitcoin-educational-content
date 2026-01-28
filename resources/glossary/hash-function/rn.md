@@ -1,6 +1,6 @@
 ---
 term: Ikorwa rya hash
-definition:
+definition: Uburyo bw'ubuharure (fonction mathématique) burema ibisohoka bifise urugero ruzwi bivuye mu binjira bifise urugero ruhinduka.
 ---
 
 Igikorwa kijanye n’imibare gifata inyungu y’ingero ihinduka (yitwa ubutumwa) kigatanga inyungu y’ingero idahinduka (yitwa Hash, hashing, digest, canke urutoke). Ibikorwa vya Hash ni ibintu vya kera bikoreshwa cane mu gukora amakuru y’ibanga. Birerekana ibintu vyihariye bituma bibereye gukoreshwa mu bibanza bitekanye:

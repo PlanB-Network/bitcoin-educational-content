@@ -1,6 +1,6 @@
 ---
 term: Merkle 樹
-definition:
+definition: 允許快速驗證交易是否包含在區塊中的分層數據結構。
 ---
 
 Merkle Tree 是一種加密累加器。它是一種證明特定資訊在一個較大集合中的屬性的方法。它是一種資料結構，有助於以精簡的格式驗證資訊。在 Bitcoin 系統中，Merkle 樹用於將區塊的交易組合並濃縮為單個 Hash，稱為 Merkle Root（或「*根 Hash*」）。每個交易都會進行散列，然後將相鄰的散列分層散列在一起，直到得到 Merkle Root。

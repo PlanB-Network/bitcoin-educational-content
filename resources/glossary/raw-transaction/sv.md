@@ -1,6 +1,6 @@
 ---
 term: Rå transaktion
-definition:
+definition: Bitcoin-transaktion i sin fullständiga binära form, redo att sändas ut på nätverket.
 ---
 
 En Bitcoin-transaktion som är byggd och signerad, existerar i sin binära form. En rå transaktion (*raw TX*) är den slutliga representationen av en transaktion, strax innan den sänds ut i nätverket. Denna transaktion innehåller all nödvändig information för att kunna inkluderas i ett block:

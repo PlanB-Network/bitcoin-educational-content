@@ -1,6 +1,6 @@
 ---
 term: İşlem ücretleri
-definition:
+definition: Bir işlemi bir bloğa dahil ettikleri için madencilere verilen, girişler ve çıkışlar arasındaki fark olarak hesaplanan miktar.
 ---
 
 İşlem ücretleri, madencilerin Proof of Work mekanizmasına katılımlarını telafi etmeyi amaçlayan bir tutarı temsil eder. Bu ücretler madencileri oluşturdukları bloklara işlemleri dahil etmeye teşvik eder. Bir işlemdeki toplam girdi miktarı ile toplam çıktı miktarı arasındaki farktan kaynaklanırlar:

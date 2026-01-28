@@ -1,6 +1,6 @@
 ---
 term: Invoice lightning
-definition:
+definition: Permintaan pembayaran Lightning yang berisi semua informasi yang diperlukan untuk menyelesaikan transaksi.
 ---
 
 Permintaan pembayaran Lightning yang dibuat oleh penerima, berisi semua informasi yang diperlukan untuk menyelesaikan transaksi.

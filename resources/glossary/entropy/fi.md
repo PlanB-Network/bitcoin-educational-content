@@ -1,7 +1,7 @@
 ---
 term: Entropia
 
-definition:
+definition: Tietolähteen ennalta-arvaamattomuuden mitta, joka on ratkaisevan tärkeä turvallisten avainten luomisessa.
 ---
 Kryptografian ja informaation yhteydessä entropia on tietolähteeseen tai satunnaisprosessiin liittyvän epävarmuuden tai arvaamattomuuden määrällinen mitta. Entropialla on ratkaiseva merkitys kryptografisten järjestelmien turvallisuudessa, erityisesti avainten ja satunnaislukujen luomisessa. Korkea entropia varmistaa, että luodut avaimet ovat riittävän arvaamattomia ja vastustuskykyisiä brute-force-hyökkäyksille, joissa hyökkääjä kokeilee kaikkia mahdollisia yhdistelmiä arvatakseen avaimen.
 

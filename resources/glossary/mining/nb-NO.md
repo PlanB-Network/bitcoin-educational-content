@@ -1,6 +1,6 @@
 ---
 term: Mining
-definition:
+definition: Prosessen med å delta i proof-of-work for å sikre nettverket og validere transaksjoner.
 ---
 Handlingen med å delta i Bitcoin-systemets Proof-of-Work (Proof-of-Work). Proof-of-Work er en mekanisme for å motstå Sybil-angrep. Det er grunnlaget for Nakamoto-konsensusmekanismen, som er prinsippet som brukes for å etablere enighet om en enkelt versjon av den distribuerte hovedboken mellom de ulike nodene i nettverket.
 

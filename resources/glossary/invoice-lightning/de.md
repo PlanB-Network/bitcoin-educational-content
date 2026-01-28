@@ -1,6 +1,6 @@
 ---
 term: Invoice lightning
-definition:
+definition: Lightning-Zahlungsaufforderung, die alle für die Durchführung der Transaktion erforderlichen Informationen enthält.
 ---
 
 Vom Empfänger erstellte Blitzzahlungsanforderung, die alle für den Abschluss der Transaktion erforderlichen Informationen enthält.

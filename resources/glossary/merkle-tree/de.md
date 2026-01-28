@@ -1,7 +1,7 @@
 ---
 term: Merkle-Baum
 
-definition:
+definition: Hierarchische Datenstruktur, die eine schnelle Überprüfung der Aufnahme einer Transaktion in einen Block ermöglicht.
 ---
 Ein Merkle-Baum ist ein kryptographischer Akkumulator. Er ist eine Methode zum Nachweis der Zugehörigkeit einer bestimmten Information zu einer größeren Menge. Es handelt sich um eine Datenstruktur, die die Überprüfung von Informationen in einem kompakten Format erleichtert. Im Bitcoin-System werden Merkle-Bäume verwendet, um die Transaktionen eines Blocks in einem einzigen Hash zu gruppieren und zu verdichten, der Merkle Root (oder "*Root Hash*") genannt wird. Jede Transaktion wird gehasht, dann werden die benachbarten Hashes hierarchisch zusammengehasht, bis die Merkle-Wurzel erreicht ist.
 

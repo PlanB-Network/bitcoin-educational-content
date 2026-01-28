@@ -1,7 +1,7 @@
 ---
 term: Khai thác
 
-definition:
+definition: Quá trình tham gia vào bằng chứng công việc để bảo mật mạng và xác thực các giao dịch.
 ---
 The act of participating in the Bitcoin system's Proof-of-Work (Proof-of-Work). Proof-of-Work is a mechanism to resist Sybil attacks. It is the foundation of the Nakamoto consensus mechanism, which is the principle used to establish agreement on a single version of the distributed ledger among the different nodes of the network.
 

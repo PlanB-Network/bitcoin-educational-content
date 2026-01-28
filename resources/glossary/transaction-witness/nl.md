@@ -1,6 +1,6 @@
 ---
 term: Transaction witness
-definition:
+definition: SegWit-component met de handtekeningen en openbare sleutels die nodig zijn om de bitcoins in een transactie te ontgrendelen.
 ---
 
 Verwijst naar een onderdeel van Bitcoin transacties dat werd verplaatst met SegWit Soft Fork naar Address het probleem van de vervormbaarheid van transacties. De getuige bevat de handtekeningen en publieke sleutels die nodig zijn om de bitcoins te ontsluiten die in een transactie zijn uitgegeven. In legacy transacties vertegenwoordigde de getuige de som van `scriptSig` van alle ingangen. In SegWit transacties vertegenwoordigt de getuige de som van `scriptWitness` voor elke invoer, en dit deel van de transactie wordt nu verplaatst naar een aparte Merkle Tree binnen het blok.

@@ -1,7 +1,7 @@
 ---
 term: Outpoint
 
-definition:
+definition: Riferimento univoco a un UTXO, composto dal txid e dall'indice di output.
 ---
 Riferimento univoco a un'uscita di transazione non spesa (UTXO). Si compone di due elementi:
 

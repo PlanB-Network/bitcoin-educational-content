@@ -1,6 +1,6 @@
 ---
 term: Mixér
-definition:
+definition: Centralizovaná služba míchající bitcoiny více uživatelů za účelem přerušení jejich historie.
 ---
 
 Centralizovaná služba pro prolomení historie mincí Bitcoin smícháním prostředků od více uživatelů. Na rozdíl od CoinJoin, kde si uživatelé ponechávají kontrolu nad svými prostředky po celou dobu procesu míchání, míchačka dočasně přebírá bitcoiny uživatelů, míchá je s bitcoiny jiných uživatelů a poté prostředky posílá zpět na nové adresy.

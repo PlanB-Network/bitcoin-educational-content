@@ -1,7 +1,7 @@
 ---
 term: Output script descriptors
 
-definition:
+definition: Strukturoidut ilmaisut, jotka kuvaavat tulosteskriptin ja tiedot lompakon palauttamiseksi.
 ---
 Tulostusskriptin kuvaajat tai yksinkertaisesti kuvaajat ovat jäsenneltyjä lausekkeita, jotka kuvaavat täysin tulostusskriptin (`scriptPubKey`) ja antavat kaikki tarvittavat tiedot tiettyyn skriptiin tai tietystä skriptistä tapahtuvien tapahtumien seuraamiseksi. Nämä kuvaajat helpottavat avainten hallintaa HD-lompakoissa käyttämällä vakiomuotoista kuvausta rakenteesta ja käytetyistä osoitetyypeistä.
 

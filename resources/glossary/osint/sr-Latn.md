@@ -1,6 +1,6 @@
 ---
 term: OSINT
-definition:
+definition: Prikupljanje i analiza javno dostupnih informacija u obaveštajne svrhe.
 ---
 
 Akronim za "*Open Source Intelligence*". OSINT se odnosi na prikupljanje i analizu javno dostupnih informacija iz izvora dostupnih svima. Ovi izvori mogu uključivati veb-sajtove, forume, društvene mreže, javne baze podataka, akademske publikacije, vladine dokumente, itd. Glavni cilj OSINT-a je transformisanje sirovih podataka u korisne informacije identifikovanjem trendova, korelacija i istražnih tragova.

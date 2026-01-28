@@ -1,7 +1,7 @@
 ---
 term: QR kód
 
-definition:
+definition: Dvojrozměrný čárový kód používaný ke snadnému přenosu bitcoinových adres a dalších informací.
 ---
 Typ dvourozměrného čárového kódu, který lze rychle snímat mobilními zařízeními. QR kód ukládá informace ve formě černobílých pixelů uspořádaných do čtverce na bílém pozadí. Důležitou vlastností QR kódů je, že obsahují kódy pro opravu chyb BCH, které umožňují obnovení dat i v případě, že je QR kód částečně zakrytý.
 

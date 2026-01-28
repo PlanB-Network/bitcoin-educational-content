@@ -1,6 +1,6 @@
 ---
 term: Lightning 发票
-definition:
+definition: 包含完成交易所需的所有信息的 Lightning 支付请求。
 ---
 
 收款人生成的闪电付款请求，包含完成交易所需的所有信息。

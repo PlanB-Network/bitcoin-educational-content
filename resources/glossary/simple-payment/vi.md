@@ -1,7 +1,7 @@
 ---
 term: Thanh toán đơn giản
 
-definition:
+definition: Mô hình giao dịch với 2 đầu ra, thường là một khoản thanh toán và một tiền thừa.
 ---
 Transaction pattern (or model) used in chain analysis characterized by the consumption of one or more UTXOs in inputs and the production of 2 UTXOs in outputs. This model will therefore look like this:
 

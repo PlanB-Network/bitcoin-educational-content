@@ -1,7 +1,7 @@
 ---
 term: Árvore de Merkle
 
-definition:
+definition: Estrutura de dados hierárquica que permite verificar rapidamente a inclusão de uma transação num bloco.
 ---
 Uma árvore de Merkle é um acumulador criptográfico. É um método para provar a pertença de uma determinada informação a um conjunto maior. É uma estrutura de dados que facilita a verificação de informações num formato compacto. No sistema Bitcoin, as árvores de Merkle são usadas para agrupar e condensar as transações de um bloco em um único hash, chamado Merkle Root (ou "*Root Hash*"). Cada transação é submetida a um hash e, em seguida, os hashes adjacentes são submetidos a um hash hierárquico até se obter a Merkle Root.
 

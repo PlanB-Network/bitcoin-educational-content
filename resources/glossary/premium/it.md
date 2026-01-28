@@ -1,7 +1,7 @@
 ---
 term: Premium
 
-definition:
+definition: Importo aggiuntivo pagato al di sopra del prezzo standard di un asset come il bitcoin.
 ---
 Un importo aggiuntivo pagato rispetto al prezzo standard o nominale di un bene. Nel contesto del Bitcoin, un premio può essere osservato quando si effettuano acquisti, soprattutto sulle piattaforme di scambio, che a volte utilizzano questa tecnica per realizzare i loro margini sul servizio di intermediazione.
 

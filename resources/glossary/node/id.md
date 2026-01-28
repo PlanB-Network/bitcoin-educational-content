@@ -1,7 +1,7 @@
 ---
 term: Node
 
-definition:
+definition: Komputer yang menjalankan klien Bitcoin, berpartisipasi dalam jaringan dengan menyimpan salinan blockchain.
 ---
 Dalam jaringan Bitcoin, sebuah node adalah sebuah komputer yang menjalankan klien protokol Bitcoin (seperti Bitcoin Core, misalnya). Node berpartisipasi dalam jaringan dengan menyimpan salinan _blockchain_, menyampaikan dan memverifikasi transaksi dan blok baru, dan secara opsional, berpartisipasi dalam proses penambangan. Jumlah dari semua node Bitcoin merepresentasikan jaringan Bitcoin itu sendiri.
 

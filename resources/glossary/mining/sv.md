@@ -1,6 +1,6 @@
 ---
 term: Brytning
-definition:
+definition: Processen att delta i proof-of-work för att säkra nätverket och validera transaktioner.
 ---
 
 Handlingen att delta i Bitcoin-systemets Proof-of-Work (Proof-of-Work). Proof-of-Work är en mekanism för att motstå Sybil-attacker. Den utgör grunden för Nakamotos konsensusmekanism, som är den princip som används för att skapa enighet om en enda version av den distribuerade Ledger bland de olika noderna i nätverket.

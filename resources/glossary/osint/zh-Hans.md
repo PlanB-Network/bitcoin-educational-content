@@ -1,7 +1,7 @@
 ---
 term: OSINT
 
-definition:
+definition: 为情报目的收集和分析公开可用的信息。
 ---
 “Open source intelligence” 的缩写。OSINT 是指从人人都可获取的来源收集和分析公开信息。这些来源包括网站、论坛、社交网络、公共数据库、学术出版物、政府文件等。OSINT 的主要目标是通过识别趋势、关联性和调查线索，将原始数据转化为可操作的信息。
 

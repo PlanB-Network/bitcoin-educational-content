@@ -1,6 +1,6 @@
 ---
 term: Naknade za transakciju
-definition:
+definition: Iznos koji nagrađuje rudare za uključivanje transakcije u blok, izračunat kao razlika između ulaza i izlaza.
 ---
 
 Naknade za transakcije predstavljaju iznos koji ima za cilj da kompenzuje rudare za njihovo učešće u Proof of Work mehanizmu. Ove naknade podstiču rudare da uključe transakcije u blokove koje kreiraju. One proizlaze iz razlike između ukupnog iznosa ulaza i ukupnog iznosa izlaza u transakciji:

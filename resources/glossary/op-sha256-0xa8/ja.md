@@ -1,6 +1,6 @@
 ---
 term: OP_SHA256 (0XA8)
 
-definition:
+definition: スタック最上部の要素をSHA256でハッシュ化するOpcode。
 ---
 スタックの先頭の要素を取得し、`SHA256` 関数を使用してそのハッシュで置き換える。

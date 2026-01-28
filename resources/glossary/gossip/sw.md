@@ -1,6 +1,6 @@
 ---
 term: Gossip
-definition:
+definition: Itifaki ya P2P ya kueneza habari kati ya nodi kwa njia ya mlipuko.
 ---
 
 Gossip ni kanuni ya rika-kwa-rika (P2P) iliyosambazwa kwa ajili ya kusambaza taarifa kwa mlipuko kwa mawakala wote wa mtandao. Kwa Bitcoin, Umeme na mifumo mingine iliyosambazwa, itifaki hii huwezesha Global State ya nodi kubadilishwa na kusawazishwa katika mizunguko michache tu. Kila nodi hueneza habari kwa jirani moja au zaidi ya nasibu au isiyo ya nasibu, ambao nao hueneza habari kwa majirani wengine, na kadhalika, hadi hali iliyosawazishwa ya kimataifa ifikiwe.

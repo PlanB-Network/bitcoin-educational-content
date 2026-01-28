@@ -1,7 +1,7 @@
 ---
 term: Einfache Zahlung
 
-definition:
+definition: Transaktionsmodell mit 2 Outputs, in der Regel eine Zahlung und ein Wechselgeld.
 ---
 In der Kettenanalyse verwendetes Transaktionsmuster (oder Modell), das durch den Verbrauch von einem oder mehreren UTXOs als Input und die Produktion von 2 UTXOs als Output gekennzeichnet ist. Dieses Modell sieht also wie folgt aus:
 

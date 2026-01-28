@@ -1,7 +1,7 @@
 ---
 term: Tập UTXO
 
-definition:
+definition: Tập hợp tất cả các UTXO hiện có tại một thời điểm nhất định, được mỗi nút duy trì để xác minh các giao dịch.
 ---
 Refers to the collection of all existing UTXOs at any given moment. In other words, it's a large list of all the different pieces of bitcoins waiting to be spent. If you add up the amounts of all the UTXOs in the UTXO set, it gives us the total monetary mass of bitcoins in circulation. Each node in the Bitcoin network maintains its own UTXO set in real-time. It updates it as new valid blocks are confirmed, with the transactions they include, which consume some UTXOs from the UTXO set, and create new ones in return.
 

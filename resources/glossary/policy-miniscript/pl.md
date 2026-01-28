@@ -1,6 +1,6 @@
 ---
 term: Polityka (Miniscript)
-definition:
+definition: Język wysokiego poziomu do określania warunków wydawania UTXO w Miniscript.
 ---
 
 Wysokopoziomowy, zorientowany na użytkownika język, który pozwala na prostą specyfikację warunków, na jakich UTXO może zostać odblokowany w ramach Miniscript. Polityka jest abstrakcyjnym opisem zasad wydawania. Można go następnie skompilować do miniskryptu, który jest odpowiednikiem operacji z natywnego języka skryptowego Bitcoin.

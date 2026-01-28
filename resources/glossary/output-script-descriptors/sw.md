@@ -1,6 +1,6 @@
 ---
 term: Output script descriptors
-definition:
+definition: Maelezo yaliyopangwa yanayofafanua hati ya kutoa na maelezo ya kurejesha pochi.
 ---
 
 Vifafanuzi vya hati ya pato, au vifafanuzi tu, ni semi zilizoundwa ambazo zinafafanua kikamilifu hati ya pato (`scriptPubKey`) na kutoa taarifa zote zinazohitajika ili kufuatilia miamala kwenda au kutoka kwa hati mahususi. Vifafanuzi hivi hurahisisha usimamizi wa funguo katika pochi za HD kupitia maelezo ya kawaida ya muundo na aina za anwani zinazotumiwa.

@@ -1,7 +1,7 @@
 ---
 term: Zaokrouhlená platba
 
-definition:
+definition: Heuristika analýzy řetězce identifikující platbu podle její zaokrouhlené částky v transakci.
 ---
 Interní heuristika pro analýzu řetězců v Bitcoinu, která umožňuje na základě zaokrouhlených částek vyslovit hypotézu o povaze výstupů transakce. Obecně platí, že pokud se setkáme s jednoduchým vzorem platby (1 vstup a 2 výstupy), pokud jeden z výstupů utratí kulatou částku, pak představuje platbu. Na základě eliminace platí, že pokud jeden výstup představuje platbu, druhý představuje změnu. Lze tedy interpretovat, že je pravděpodobné, že uživatel zadávající transakci stále disponuje výstupem identifikovaným jako změna.
 

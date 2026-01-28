@@ -1,6 +1,6 @@
 ---
 term: Wallets/db.log
 
-definition:
+definition: ウォレットデータベースの操作を記録する、Bitcoin Coreのログファイル。
 ---
 ウォレットデータベース専用のBitcoin Coreのログファイル。トラブルシューティングのために、ウォレットデータベースに関連するトランザクションやイベントを記録します。

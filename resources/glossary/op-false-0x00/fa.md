@@ -1,6 +1,6 @@
 ---
 term: OP_FALSE (0X00)
-definition:
+definition: نام مستعار برای OP_0 که مقدار ۰ را وارد پشته می‌کند.
 ---
 
 مشابه به `OP_0`.

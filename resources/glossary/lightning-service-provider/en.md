@@ -1,6 +1,6 @@
 ---
 term: Lightning service provider
-definition:
+definition: Company providing liquidity services to Lightning Network users.
 ---
 
 Company operating on Lightning whose business is to provide liquidity services to users.

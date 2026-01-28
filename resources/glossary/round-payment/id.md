@@ -1,7 +1,7 @@
 ---
 term: Pembayaran bulat
 
-definition:
+definition: Heuristik analisis rantai yang mengidentifikasi pembayaran berdasarkan jumlah bulatnya dalam sebuah transaksi.
 ---
 Sebuah heuristik internal untuk analisis rantai Bitcoin yang memungkinkan sebuah hipotesis mengenai sifat output dari sebuah transaksi berdasarkan jumlah bulat. Umumnya, ketika dihadapkan pada pola pembayaran sederhana (1 input dan 2 output), jika salah satu output memiliki nominal bitcoin yang bulat, maka output tersebut merepresentasikan pembayaran. Dengan eliminasi, jika satu output mewakili pembayaran, maka output lainnya mewakili kembalian. Oleh karena itu, dapat diartikan bahwa kemungkinan pengguna yang memasukkan transaksi masih memiliki output yang diidentifikasi sebagai kembalian.
 

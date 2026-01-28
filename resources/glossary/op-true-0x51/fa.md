@@ -1,6 +1,6 @@
 ---
 term: OP_TRUE (0X51)
-definition:
+definition: نام مستعار برای OP_1 که مقدار ۱ را وارد پشته می‌کند.
 ---
 
 مشابه به OP_1.

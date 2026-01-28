@@ -1,6 +1,6 @@
 ---
 term: Sierota
-definition:
+definition: Prawidłowy blok niezatrzymany w głównym łańcuchu lub którego rodzic nie jest jeszcze znany.
 ---
 
 Teoretycznie Orphan block odnosi się do ważnego bloku otrzymanego przez węzeł, który jeszcze nie przejął bloku nadrzędnego, czyli poprzedniego w łańcuchu. Mimo że jest on ważny, blok ten pozostaje odizolowany lokalnie jako sierota.

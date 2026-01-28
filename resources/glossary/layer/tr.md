@@ -1,6 +1,6 @@
 ---
 term: Katman
-definition:
+definition: Lightning Network gibi, kapasitesini artırmak için Bitcoin'in üzerine inşa edilen protokol.
 ---
 
 Ana Bitcoin ağının üzerine inşa edilen protokol veya ağ. Bitcoin ağını bir temel olarak kullanır ve bu nedenle protokolüne bağımlıdır. Ancak, Bitcoin ağı kendi katmanlarına bağımlı değildir. Böyle bir kaplamaya örnek olarak Lightning Network verilebilir.

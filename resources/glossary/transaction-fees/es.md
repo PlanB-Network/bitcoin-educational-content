@@ -1,7 +1,7 @@
 ---
 term: Comisiones de transacción
 
-definition:
+definition: Suma que remunera a los mineros por incluir una transacción en un bloque, calculada como la diferencia entre inputs y outputs.
 ---
 Las comisiones por transacción representan una cantidad que pretende compensar a los mineros por su participación en el mecanismo de prueba de trabajo. Estas comisiones animan a los mineros a incluir transacciones en los bloques que crean. Resultan de la diferencia entre la cantidad total de entradas y la cantidad total de salidas en una transacción:
 

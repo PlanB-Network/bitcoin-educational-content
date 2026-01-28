@@ -1,6 +1,6 @@
 ---
 term: Premium
-definition:
+definition: Dodatkowa kwota zapłacona powyżej standardowej ceny aktywa, takiego jak bitcoin.
 ---
 
 Dodatkowa kwota płacona ponad standardową lub nominalną cenę aktywa. W kontekście Bitcoin premię można zaobserwować podczas dokonywania zakupów, zwłaszcza na platformach Exchange, które mogą czasami wykorzystywać tę technikę do zarabiania na marżach na usługach brokerskich.

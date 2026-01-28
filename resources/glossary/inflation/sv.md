@@ -1,6 +1,6 @@
 ---
 term: Inflation
-definition:
+definition: Ökning av penningmängden som leder till att värdet på varje enhet minskar.
 ---
 
 Avser en ökning av penningmängden Supply i omlopp, vilket leder till att värdet på varje penningenhet sjunker och priset på varor och tjänster stiger. För statligt ägda valutor uppstår detta fenomen när centralbankerna ger ut nya valutaenheter.

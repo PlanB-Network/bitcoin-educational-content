@@ -1,7 +1,7 @@
 ---
 term: Sõlm
 
-definition:
+definition: Bitcoini klienti käitav arvuti, mis osaleb võrgus, säilitades plokiahela koopiat.
 ---
 Bitcoini võrgus on sõlme (või inglise keeles "node") arvuti, millel töötab Bitcoini protokolli klient (näiteks Bitcoin Core). See osaleb võrgus, säilitades plokiahela koopiat, edastades ja verifitseerides tehinguid ja uusi plokke ning osaledes valikuliselt kaevandamisprotsessis. Kõikide Bitcoini sõlmede summa moodustab Bitcoini võrgu enda.
 

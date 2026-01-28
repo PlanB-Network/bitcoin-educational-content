@@ -1,7 +1,7 @@
 ---
 term: Soukromý klíč
 
-definition:
+definition: 256bitové tajné číslo používané k podepisování transakcí a utrácení bitcoinů.
 ---
 Soukromý klíč je základním prvkem asymetrické kryptografie. Je to číslo (v kontextu Bitcoinu 256 bitů), které představuje kryptografické tajemství. Tento klíč se používá k digitálnímu podepisování transakcí a k prokázání vlastnictví veřejného klíče Bitcoinu (a tím i přijímací adresy) splněním podmínky `scriptPubKey`. Soukromé klíče tedy umožňují utrácet bitcoiny odemknutím UTXO spojených s příslušným veřejným klíčem. Soukromé klíče musí být přísně důvěrné, protože jejich zveřejnění by mohlo umožnit zlomyslným třetím stranám převzít kontrolu nad přidruženými prostředky.
 

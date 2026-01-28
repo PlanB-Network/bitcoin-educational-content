@@ -1,7 +1,7 @@
 ---
 term: 策略 (Miniscript)
 
-definition:
+definition: 在 Miniscript 中用于指定 UTXO 支出条件的语言。
 ---
 这是一种面向用户的高级语言，可在 Miniscript 框架内简单指定 UTXO 的解锁条件。Policy 是对支出规则的抽象描述。它可以编译成 miniscript，与比特币本地脚本语言的操作一一对应。
 

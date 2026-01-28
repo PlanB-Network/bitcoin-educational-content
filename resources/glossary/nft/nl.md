@@ -1,6 +1,6 @@
 ---
 term: NFT
-definition:
+definition: Bitcoin-eenheid geïnterpreteerd als niet-fungibel en gekoppeld aan een extern activum via een protocol.
 ---
 
 Acroniem voor *Niet-Fungibel token*. Een NFT vertegenwoordigt een eenheid van Bitcoin die, door gebruikers van een tweede Layer protocol, wordt geïnterpreteerd als niet-fungibel en geassocieerd met de Ownership van een actief buiten Bitcoin, zoals een afbeelding of een ander type gegevens.

@@ -1,6 +1,6 @@
 ---
 term: OP_TRUE (0X51)
 
-definition:
+definition: Алиас для OP_1, помещающий значение 1 в стек.
 ---
 Идентичен OP_1.

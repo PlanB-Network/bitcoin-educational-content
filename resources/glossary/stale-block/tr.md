@@ -1,6 +1,6 @@
 ---
 term: Eski (blok)
-definition:
+definition: İki madencinin aynı anda aynı yükseklikte bir blok bulması durumunda ana zincirin dışında kalan geçerli blok.
 ---
 
 Çocukları olmayan bir bloğu ifade eder: geçerli bir bloktur, ancak ana Bitcoin zincirinden çıkarılmıştır. İki madenci kısa bir süre içinde aynı zincir yüksekliğinde geçerli bir blok bulduğunda ve bunu ağ üzerinden yayınladığında ortaya çıkar. Düğümler en sonunda, en çok birikmiş işe sahip zincir ilkesine göre zincire dahil etmek için yalnızca bir blok seçer ve diğerini "kullanılmaz" hale getirir. Eski bir bloğun üretilmesine yol açan süreç aşağıdaki gibidir:

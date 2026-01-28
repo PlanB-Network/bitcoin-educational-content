@@ -1,7 +1,7 @@
 ---
 term: Payjoin
 
-definition:
+definition: Společná transakce zvyšující soukromí zahrnutím příjemce do vstupů.
 ---
 Specifická struktura transakce Bitcoin, která zvyšuje soukromí uživatele během útraty tím, že spolupracuje s příjemcem platby. Jedinečnost Payjoinu spočívá v jeho schopnosti generovat transakci, která na první pohled vypadá obyčejně, ale ve skutečnosti se jedná o mini coinjoin mezi dvěma stranami. Za tímto účelem zapojuje struktura transakce do vstupů vedle skutečného odesílatele i příjemce platby. Příjemce tak doprostřed transakce zahrne platbu sobě samému, která mu umožní dostat zaplaceno. Pokud si například koupíte bagetu za `6 000 satů` pomocí UTXO ve výši `10 000 satů` a rozhodnete se pro Payjoin, váš pekař přidá jako vstup UTXO ve výši `15 000 satů`, které mu patří, a které si jako výstup získá v plné výši, navíc k vašim `6 000 satům`.
 

@@ -1,6 +1,6 @@
 ---
 term: Endianness
-definition:
+definition: Order of byte arrangement in computing, either big-endian or little-endian.
 ---
 
 Refers to the order in which a sequence of bytes is arranged and interpreted in computing. There are two types: "big-endian", where the most significant byte is stored first, and "little-endian", where the least significant byte is stored first.

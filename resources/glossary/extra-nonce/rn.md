@@ -1,6 +1,6 @@
 ---
 term: Extra-nonce
-definition:
+definition: Ikibanza muri coinbase cyemerera kwagura aho baronderera uretse nonce isanzwe yo gucukura.
 ---
 
 Igikoresho gikoreshwa muri `scriptSig` ya Coinbase Transaction y'ibarabara, kigatuma habaho ubushobozi bwinshi bwo kugerageza kugira ngo hagire Hash iri hasi y'intumbero y'ingorane, ushizwmwo Nonce ya kera, iboneka ataco ihinduye mu mutwe w'ibarabara rimwe rimwe.

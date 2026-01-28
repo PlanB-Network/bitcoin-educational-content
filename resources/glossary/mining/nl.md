@@ -1,6 +1,6 @@
 ---
 term: Mining
-definition:
+definition: Proces van deelname aan proof of work om het netwerk te beveiligen en transacties te valideren.
 ---
 
 De handeling om deel te nemen aan Proof-of-Work van het Bitcoin systeem (Proof-of-Work). Proof-of-Work is een mechanisme om Sybil-aanvallen te weerstaan. Het is de basis van het Nakamoto-consensusmechanisme, het principe dat gebruikt wordt om overeenstemming te bereiken over een enkele versie van het gedistribueerde Ledger tussen de verschillende knooppunten van het netwerk.

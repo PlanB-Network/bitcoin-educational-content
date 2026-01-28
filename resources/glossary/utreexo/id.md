@@ -1,7 +1,7 @@
 ---
 term: Utreexo
 
-definition:
+definition: Protokol yang memadatkan set UTXO dari node Bitcoin melalui akumulator berdasarkan pohon Merkle.
 ---
 Protokol yang didesain oleh Tadge Dryja untuk memadatkan set UTXO node Bitcoin menggunakan akumulator yang berdasarkan pada pohon Merkle. Tidak seperti set UTXO klasik yang membutuhkan ruang penyimpanan yang besar, _Utreexo_ secara drastis mengurangi memori yang dibutuhkan dengan hanya menyimpan akar pohon Merkle. Hal ini memungkinkan node untuk memverifikasi keberadaan UTXO yang digunakan dalam input transaksi, tanpa harus menyimpan set lengkap UTXO. Dengan menggunakan _Utreexo_, setiap node hanya menyimpan sidik jari kriptografi yang disebut akar Merkle. Ketika transaksi dilakukan, pengguna memberikan bukti kepemilikan UTXO dan jalur Merkle yang sesuai. Dengan demikian, node dapat memverifikasi transaksi tanpa menyimpan seluruh set UTXO. Mari kita ambil contoh dengan diagram untuk memahami mekanisme ini:
 

@@ -1,6 +1,6 @@
 ---
 term: Pedersen commitment
-definition:
+definition: Komitmen kriptografi homomorfik yang memungkinkan verifikasi jumlah tanpa mengungkapkan nilainya.
 ---
 
 Sebuah _Pedersen Commitment_ adalah sebuah jenis kriptografi _Commitment_ dengan sifat homomorfis terhadap operasi penjumlahan. Ini berarti bahwa dimungkinkan untuk memvalidasi jumlah dari dua komitmen tanpa mengungkapkan nilai-nilai individualnya.

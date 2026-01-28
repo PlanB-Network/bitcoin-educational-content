@@ -1,7 +1,7 @@
 ---
 term: Utreexo
 
-definition:
+definition: Protokoll, mis tihendab Bitcoini sõlmede UTXO-komplekti Merkle'i puudel põhineva akumulaatori abil.
 ---
 Tadge Dryja loodud protokoll Bitcoini sõlmede UTXO-komplekti tihendamiseks, kasutades Merkle'i puudel põhinevat akumulaatorit. Erinevalt klassikalisest UTXO kogumist, mis nõuab märkimisväärset salvestusruumi, vähendab Utreexo drastiliselt mäluvajadust, salvestades ainult Merkle-puu juured. See võimaldab sõlme kontrollida tehingu sisendites kasutatavate UTXOde olemasolu, ilma et ta peaks säilitama kogu UTXOde kogumit. Utreexo abil säilitab iga sõlme ainult krüptograafilise sõrmejälje, mida nimetatakse Merkle'i juureks. Tehingu tegemisel esitab kasutaja UTXOde ja vastavate Merkle'i radade omanditõendid. Seega saab sõlm kontrollida tehinguid ilma kogu UTXO-kogumit säilitamata. Võtame selle mehhanismi mõistmiseks näite koos diagrammiga:
 

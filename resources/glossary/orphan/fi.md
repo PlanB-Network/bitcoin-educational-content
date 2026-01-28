@@ -1,7 +1,7 @@
 ---
 term: Orpo
 
-definition:
+definition: Kelvollinen lohko, jota ei säilytetä pääketjussa tai jonka emolohkoa ei vielä tunneta.
 ---
 Teoreettisesti orpo lohko tarkoittaa kelvollista lohkoa, jonka on vastaanottanut solmu, joka ei ole vielä hankkinut vanhemman lohkonsa eli ketjun edellisen lohkon. Vaikka tämä lohko on voimassa, se pysyy paikallisesti eristettynä orpona.
 

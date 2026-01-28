@@ -1,6 +1,6 @@
 ---
 term: レイヤー
-definition:
+definition: Lightning Networkのように、Bitcoinの機能を拡張するためにその上に構築されたプロトコル。
 ---
 
 Bitcoinネットワークの上に構築されたプロトコルまたはネットワーク。Bitcoinネットワークを基盤としているため、そのプロトコルに依存している。しかし、Bitcoinネットワークはオーバーレイには依存しない。そのようなオーバーレイの例がLightning Networkである。

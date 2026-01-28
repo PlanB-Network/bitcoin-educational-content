@@ -1,6 +1,6 @@
 ---
 term: 橙色藥丸
-definition:
+definition: 靈感來自《駭客任務》的概念，象徵著對比特幣理解的覺醒。
 ---
 
 靈感來自電影 *Matrix*，這顆想像中的藥丸能喚醒 Bitcoin 的意識。

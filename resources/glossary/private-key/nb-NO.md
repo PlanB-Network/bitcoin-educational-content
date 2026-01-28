@@ -1,7 +1,7 @@
 ---
 term: Privat nøkkel
 
-definition:
+definition: Hemmelig 256-biters nummer som brukes til å signere transaksjoner og bruke bitcoin.
 ---
 En privat nøkkel er et grunnleggende element i asymmetrisk kryptografi. Det er et tall (256 bits i forbindelse med Bitcoin) som representerer en kryptografisk hemmelighet. Denne nøkkelen brukes til å signere transaksjoner digitalt og bevise eierskapet til en offentlig Bitcoin-nøkkel (og dermed en mottakeradresse) ved å tilfredsstille en `scriptPubKey`. Private nøkler gjør det derfor mulig å bruke bitcoins ved å låse opp UTXO-ene som er knyttet til den tilsvarende offentlige nøkkelen. Private nøkler må holdes strengt konfidensielle, ettersom avsløring av dem kan gjøre det mulig for ondsinnede tredjeparter å ta kontroll over de tilknyttede midlene.
 

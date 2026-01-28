@@ -1,6 +1,6 @@
 ---
 term: Yeniden senkronizasyon
-definition:
+definition: Blok zincirinin bir kısmının, daha fazla birikmiş işe sahip rakip bir zincirle değiştirilmesi.
 ---
 
 Blockchain'ın aynı yükseklikteki rakip blokların varlığı nedeniyle yapısında bir değişikliğe uğradığı bir olguyu ifade eder. Bu, Blockchain'ın bir kısmı daha fazla miktarda birikmiş işe sahip başka bir zincirle değiştirildiğinde meydana gelir.

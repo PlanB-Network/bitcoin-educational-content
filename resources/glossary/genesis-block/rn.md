@@ -1,6 +1,6 @@
 ---
 term: Ibuye rya mbere
-definition:
+definition: Igice ca mbere ca Bitcoin ruremwe na Satoshi Nakamoto ku wa 3 Nzero 2009.
 ---
 
 Igipande ca Genesis ni co gipande ca mbere c’urutonde rwa Bitcoin. Bisobanura ugutangura kwa Bitcoin. Ico kibanza ca Genesis cashinzwe n’uwashinze Bitcoin atamenyekanye, Satoshi Nakamoto, kw’igenekerezo rya 3 Mukakaro 2009. Hash yaco ni:

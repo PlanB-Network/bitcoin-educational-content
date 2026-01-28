@@ -1,6 +1,6 @@
 ---
 term: Inflacija
-definition:
+definition: Povećanje novčane mase koje dovodi do pada vrednosti svake jedinice.
 ---
 
 Odnosi se na povećanje novca Supply u opticaju, što dovodi do pada vrednosti svake jedinice novca i rasta cena robe i usluga. Za državne valute, ovaj fenomen se javlja kada centralne banke izdaju nove jedinice valute.

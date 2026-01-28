@@ -1,7 +1,7 @@
 ---
 term: Huérfano
 
-definition:
+definition: Bloque válido no mantenido en la cadena principal o cuyo padre aún no es conocido.
 ---
 Teóricamente, un bloque huérfano se refiere a un bloque válido recibido por un nodo que aún no ha adquirido el bloque padre, es decir, el anterior en la cadena. Aunque válido, este bloque permanece aislado localmente como huérfano.
 

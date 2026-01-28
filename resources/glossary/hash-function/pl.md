@@ -1,6 +1,6 @@
 ---
 term: Funkcja skrótu
-definition:
+definition: Funkcja matematyczna generująca wynik o stałym rozmiarze z danych wejściowych o zmiennym rozmiarze.
 ---
 
 Funkcja matematyczna, która pobiera dane wejściowe o zmiennym rozmiarze (zwane wiadomością) i generuje dane wyjściowe o stałym rozmiarze (zwane Hash, haszowaniem, skrótem lub odciskiem palca). Funkcje Hash są szeroko stosowanymi prymitywami w kryptografii. Wykazują one specyficzne właściwości, które sprawiają, że nadają się do stosowania w bezpiecznych kontekstach:

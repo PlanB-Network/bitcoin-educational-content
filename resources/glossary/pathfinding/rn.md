@@ -1,6 +1,6 @@
 ---
 term: Pathfinding
-definition:
+definition: Uburyo bwo kuraba inzira nziza yo kurungika inkuryo muri Lightning Network.
 ---
 
 Uburyo bukoreshwa n'uruzitiro kugira ngo hamenyekane inzira nziza yo gutuma amahera yishurwa biciye ku rubuga rw'imirongo ya Lightning. Gushaka inzira bikorwa n’urudodo rw’ukwishura, rutegerezwa guhitamwo urudodo rwo hagati rwiza cane kugira ngo rushike ku wuronka. Iryo hitamwo rishingiye ku bintu bitari bike, nk’amahera, ubushobozi bw’imirongo n’igihe co gufunga.

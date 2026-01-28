@@ -1,7 +1,7 @@
 ---
 term: 快速试运行 (Speedy trial)
 
-definition:
+definition: 一种缩短延迟的快速软分叉激活方法，曾用于 Taproot。
 ---
 激活软分叉的方法，最初由 David A. Harding 在 2021 年初根据 Russell O'Connor 的想法为 Taproot 构想。其原理是使用 BIP8 方法，并将 `LOT` 参数设置为 `false`，同时将激活期缩短至 3 个月。通过缩短投票期，可以快速验证矿工的批准情况。如果在其中一段时间内达到了所需的批准阈值，软分叉就会被锁定。它将在几个月后激活，从而给矿工们必要的时间更新他们的软件。
 

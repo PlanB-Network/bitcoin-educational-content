@@ -1,7 +1,7 @@
 ---
 term: Chave privada
 
-definition:
+definition: Número secreto de 256 bits utilizado para assinar transações e gastar bitcoins.
 ---
 Uma chave privada é um elemento fundamental da criptografia assimétrica. É um número (256 bits no contexto do Bitcoin) que representa um segredo criptográfico. Esta chave é usada para assinar digitalmente transacções e provar a propriedade de uma chave pública Bitcoin (e por extensão, um endereço de receção) satisfazendo um `scriptPubKey`. Portanto, as chaves privadas permitem gastar bitcoins desbloqueando os UTXOs associados à chave pública correspondente. As chaves privadas devem ser mantidas estritamente confidenciais, uma vez que a sua divulgação pode permitir que terceiros mal-intencionados assumam o controlo dos fundos associados.
 

@@ -1,6 +1,6 @@
 ---
 term: OSINT
-definition:
+definition: Ukusanyaji na uchambuzi wa habari zinazopatikana hadharani kwa madhumuni ya kijasusi.
 ---
 
 Kifupi cha "*Open Source Intelligence*". OSINT inarejelea mkusanyiko na uchanganuzi wa taarifa zinazopatikana kwa umma kutoka kwa vyanzo vinavyoweza kufikiwa na kila mtu. Vyanzo hivi vinaweza kujumuisha tovuti, mabaraza, mitandao ya kijamii, hifadhidata za umma, machapisho ya kitaaluma, hati za serikali, n.k. Lengo kuu la OSINT ni kubadilisha data ghafi kuwa taarifa zinazoweza kutekelezeka kwa kutambua mielekeo, uwiano na miongozo ya uchunguzi.

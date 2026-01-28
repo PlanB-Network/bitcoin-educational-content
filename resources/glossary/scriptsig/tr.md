@@ -1,6 +1,6 @@
 ---
 term: Scriptsig
-definition:
+definition: scriptPubKey koşullarını karşılamak için verileri sağlayan girdi öğesi.
 ---
 
 Girdilerde bulunan bir Bitcoin işlemindeki bir öğe. ScriptSig`, fonların harcandığı önceki işlemin `scriptPubKey` tarafından belirlenen koşulları karşılamak için gerekli verileri sağlar. Bu nedenle `scriptPubKey` için tamamlayıcı bir rol oynar. Tipik olarak, `scriptSig` bir dijital imza ve bir açık anahtar içerir. İmza, bitcoinlerin sahibi tarafından kendi özel anahtarları kullanılarak oluşturulur ve UTXO'yi harcama yetkisine sahip olduklarını kanıtlar. Bu durumda, `scriptSig` girdinin sahibinin bir önceki giden işlemin `scriptPubKey`inde belirtilen Address ile ilişkili açık anahtara karşılık gelen özel anahtara sahip olduğunu gösterir.

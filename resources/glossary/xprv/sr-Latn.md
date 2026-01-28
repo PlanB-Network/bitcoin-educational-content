@@ -1,6 +1,6 @@
 ---
 term: XPRV
-definition:
+definition: Prefiks proširenog privatnog ključa za Legacy i SegWit V1 naloge na Bitcoin mainnet-u.
 ---
 
 Prošireni privatni ključ prefiks za Legacy i SegWit V1 naloge na Bitcoin.

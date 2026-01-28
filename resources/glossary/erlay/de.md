@@ -1,6 +1,6 @@
 ---
 term: Erlay
-definition:
+definition: Protokoll, das die Effizienz der Transaktionsweiterleitung verbessert, um den Bandbreitenverbrauch zu reduzieren.
 ---
 
 Vorgeschlagenes Netzprotokoll zur Verbesserung der Effizienz der Weiterleitung von unbestätigten Transaktionen zwischen Bitcoin-Knoten.

@@ -1,6 +1,6 @@
 ---
 term: Sera (Miniscript)
-definition:
+definition: Lugha ya kiwango cha juu ya kubainisha masharti ya matumizi ya UTXO katika Miniscript.
 ---
 
 Lugha ya kiwango cha juu, inayolenga mtumiaji ambayo inaruhusu ubainishaji rahisi wa masharti ambayo UTXO inaweza kufunguliwa ndani ya mfumo wa Hati Ndogo. Sera ni maelezo dhahania ya sheria za matumizi. Kisha inaweza kukusanywa kuwa hati ndogo, ambayo ni sawa na moja hadi moja na utendakazi kutoka kwa lugha asilia ya hati ya Bitcoin.

@@ -1,7 +1,7 @@
 ---
 term: Vertaisverkko (P2P)
 
-definition:
+definition: Viestintämalli, jossa osallistujat asioivat suoraan keskenään ilman keskitettyä välikättä.
 ---
 Viestintä- ja tiedonjakelumalli, jossa osallistujat, joita kutsutaan usein solmuiksi tai vertaisiksi, jakavat resurssejaan (kuten tiedostoja, prosessointitehoa, kaistanleveyttä, omaisuutta jne.) suoraan keskenään ilman keskitettyä välittäjää. P2P-järjestelmässä jokainen osallistuja toimii samanaikaisesti asiakkaana (resurssien kuluttajana) ja palvelimena (resurssien tarjoajana).
 

@@ -1,6 +1,6 @@
 ---
 term: Replay attack
-definition:
+definition: Igitero gisubiramwo i transaction yemewe y'umuhora umwe ku wundi basangiye kahise.
 ---
 
 Mu bijanye na Bitcoin, igitero co gusubiramwo kiba iyo igikorwa gifise akamaro kuri Blockchain imwe gisubiwemwo mu buryo bubi ku kindi Blockchain gifise amateka y’igikorwa nk’ayo. Mu yandi majambo, igikorwa co gutangaza amakuru ku muhora umwe gishobora gusubirwamwo ku wundi ata kwemera kw’uwarungitse igikorwa ca mbere.

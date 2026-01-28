@@ -1,7 +1,7 @@
 ---
 term: Sada UTXO
 
-definition:
+definition: Množina všech existujících UTXO v daném čase, kterou uchovává každý uzel pro ověřování transakcí.
 ---
 Vztahuje se ke kolekci všech existujících UTXO v daném okamžiku. Jinými slovy, je to velký seznam všech různých kusů bitcoinů, které čekají na utracení. Pokud sečteme částky všech UTXO v souboru UTXO, získáme celkovou peněžní masu bitcoinů v oběhu. Každý uzel v síti bitcoinů udržuje svou vlastní sadu UTXO v reálném čase. Aktualizuje ji, jakmile jsou potvrzeny nové platné bloky s transakcemi, které obsahují a které spotřebovávají některé UTXO ze sady UTXO a vytvářejí na oplátku nové.
 

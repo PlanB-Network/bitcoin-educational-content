@@ -1,6 +1,6 @@
 ---
 term: Stonewall x2
-definition:
+definition: Muamala shirikishi unaoiga mini-coinjoin na upande wa tatu ili kuboresha faragha ya malipo.
 ---
 
 Aina mahususi ya muamala wa Bitcoin unaolenga kuongeza faragha ya mtumiaji wakati wa matumizi, kwa kushirikiana na mtu mwingine asiyehusika katika matumizi. Njia hii inaiga mini-CoinJoin kati ya washiriki wawili, huku ukifanya malipo kwa wahusika wengine. Miamala ya Stonewall x2 inapatikana kwenye programu ya Samourai Wallet na programu ya Sparrow Wallet (zote zinashirikiana).

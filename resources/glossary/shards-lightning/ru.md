@@ -1,6 +1,6 @@
 ---
 term: Шарды (lightning)
-definition:
+definition: Фрагмент платежа, направляемый отдельно по разным маршрутам Lightning (MPP/AMP).
 ---
 
 В контексте *Multi-Path Payments (MPP)* или *Atomic Multi-Path Payments (AMP)*, Shard - это часть глобального платежа. Каждый Shard представляет собой часть общего платежа, которая направляется отдельно по другому маршруту на Lightning.

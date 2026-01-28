@@ -1,6 +1,6 @@
 ---
 term: Heš funkcija
-definition:
+definition: Matematička funkcija koja proizvodi izlaz fiksne veličine iz ulaza varijabilne veličine.
 ---
 
 Matematička funkcija koja uzima ulaz promenljive veličine (nazvan poruka) i proizvodi izlaz fiksne veličine (nazvan Hash, heširanje, sažetak ili otisak prsta). Hash funkcije su široko korišćeni primitivni elementi u kriptografiji. One pokazuju specifična svojstva koja ih čine pogodnim za upotrebu u sigurnim kontekstima:

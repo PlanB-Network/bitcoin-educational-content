@@ -1,7 +1,7 @@
 ---
 term: Resinkronisasi
 
-definition:
+definition: Penggantian sebagian blockchain oleh rantai pesaing dengan lebih banyak akumulasi kerja.
 ---
 Mengacu pada sebuah fenomena di mana _blockchain_ mengalami modifikasi struktur karena adanya blok yang bersaing pada ketinggian yang sama. Ini terjadi ketika sebagian _blockchain_ digantikan oleh rantai lain dengan jumlah akumulasi pekerjaan yang lebih besar.
 

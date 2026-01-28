@@ -1,6 +1,6 @@
 ---
 term: Outpoint
-definition:
+definition: Unique reference to a UTXO, consisting of the txid and the output index.
 ---
 
 A unique reference to an unspent transaction output (UTXO). It consists of two elements:

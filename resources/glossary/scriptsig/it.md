@@ -1,7 +1,7 @@
 ---
 term: Scriptsig
 
-definition:
+definition: Elemento di input che fornisce i dati per soddisfare le condizioni dello scriptPubKey.
 ---
 Elemento di una transazione Bitcoin situato negli input. Lo `scriptSig` fornisce i dati necessari per soddisfare le condizioni stabilite dallo `scriptPubKey` della transazione precedente da cui vengono spesi i fondi. Svolge quindi un ruolo complementare alla `scriptPubKey`. In genere, lo `scriptSig` contiene una firma digitale e una chiave pubblica. La firma è generata dal proprietario dei bitcoin utilizzando la sua chiave privata e dimostra che ha l'autorizzazione a spendere l'UTXO. In questo caso, la `scriptSig` dimostra che il titolare dell'input possiede la chiave privata corrispondente alla chiave pubblica associata all'indirizzo specificato nella `scriptPubKey` della precedente transazione in uscita.
 

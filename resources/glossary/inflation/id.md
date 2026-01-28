@@ -1,6 +1,6 @@
 ---
 term: Inflasi
-definition:
+definition: Peningkatan jumlah uang beredar yang menyebabkan penurunan nilai setiap unit.
 ---
 
 Mengacu pada peningkatan jumlah pasok uang yang beredar, yang menyebabkan penurunan nilai setiap unit uang dan kenaikan harga barang dan jasa. Untuk mata uang milik negara, fenomena ini terjadi ketika bank sentral menerbitkan unit mata uang baru.

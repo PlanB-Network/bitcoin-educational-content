@@ -1,7 +1,7 @@
 ---
 term: Função hash
 
-definition:
+definition: Função matemática que produz um resultado de tamanho fixo a partir de uma entrada de tamanho variável.
 ---
 Uma função matemática que recebe uma entrada de tamanho variável (designada por mensagem) e produz uma saída de tamanho fixo (designada por hash, hashing, digest ou impressão digital). As funções de hash são primitivas amplamente utilizadas em criptografia. Apresentam propriedades específicas que as tornam adequadas para utilização em contextos seguros:
 

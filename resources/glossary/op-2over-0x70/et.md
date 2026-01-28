@@ -1,7 +1,7 @@
 ---
 term: OP_2OVER (0X70)
 
-definition:
+definition: Opkood, mis kopeerib pinu 3. ja 4. elemendi ülaosale.
 ---
 Kopeerib kaks elementi, mis on virna neljandas ja kolmandas positsioonis, ja asetab need virna tippu. Näiteks kui virnas on:
 

@@ -1,7 +1,7 @@
 ---
 term: KYC (conheça o seu cliente)
 
-definition:
+definition: Procedimento regulamentar de verificação de identidade utilizado por algumas empresas de Bitcoin.
 ---
 Procedimento regulamentar utilizado por algumas empresas que operam com Bitcoin para verificar a identidade dos seus clientes no âmbito da luta contra o branqueamento de capitais e o financiamento do terrorismo. O KYC implica a recolha e a verificação de dados pessoais. No contexto da compra de bitcoins, o KYC apresenta vários riscos para o utilizador, nomeadamente
 

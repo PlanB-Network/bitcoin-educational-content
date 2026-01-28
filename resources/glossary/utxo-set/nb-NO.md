@@ -1,7 +1,7 @@
 ---
 term: UTXO-sett
 
-definition:
+definition: Settet med alle eksisterende UTXOer på et gitt tidspunkt, opprettholdt av hver node for å verifisere transaksjoner.
 ---
 Refererer til samlingen av alle eksisterende UTXO-er på et gitt tidspunkt. Med andre ord er det en stor liste over alle de ulike bitcoinsene som venter på å bli brukt. Hvis du legger sammen alle UTXO-ene i UTXO-settet, får vi den totale pengemassen av bitcoins i omløp. Hver node i Bitcoin-nettverket vedlikeholder sitt eget UTXO-sett i sanntid. Det oppdateres etter hvert som nye gyldige blokker bekreftes, med transaksjonene de inkluderer, som forbruker noen UTXO-er fra UTXO-settet og skaper nye i retur.
 

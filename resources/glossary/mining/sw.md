@@ -1,6 +1,6 @@
 ---
 term: Uchimbuaji
-definition:
+definition: Mchakato wa kushiriki katika uthibitisho wa kazi ili kulinda mtandao na kuthibitisha miamala.
 ---
 
 Kitendo cha kushiriki katika mfumo wa Bitcoin wa Proof-of-Work (Proof-of-Work). Proof-of-Work ni njia ya kupinga mashambulizi ya Sybil. Ni msingi wa utaratibu wa makubaliano ya Nakamoto, ambayo ni kanuni inayotumiwa kuanzisha makubaliano juu ya toleo moja la Ledger iliyosambazwa kati ya nodes tofauti za mtandao.

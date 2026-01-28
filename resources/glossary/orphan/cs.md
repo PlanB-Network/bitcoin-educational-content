@@ -1,7 +1,7 @@
 ---
 term: Sirotek
 
-definition:
+definition: Platný blok, který není zahrnut v hlavním řetězci nebo jehož rodič dosud není znám.
 ---
 Teoreticky se osiřelým blokem rozumí platný blok přijatý uzlem, který ještě nezískal rodičovský blok, tj. předchozí blok v řetězci. Ačkoli je tento blok platný, zůstává lokálně izolovaný jako sirotek.
 

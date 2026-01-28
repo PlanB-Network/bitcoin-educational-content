@@ -1,6 +1,6 @@
 ---
 term: VPRV
-definition:
+definition: Extended private key prefix for SegWit V0 accounts on Bitcoin Testnet.
 ---
 
 Extended private key prefix for SegWit V0 accounts on Bitcoin Testnet.

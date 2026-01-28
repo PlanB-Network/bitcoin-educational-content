@@ -1,7 +1,7 @@
 ---
 term: Cổ phần (shares)
 
-definition:
+definition: Chỉ số định lượng sự đóng góp của một thợ đào riêng lẻ trong một nhóm khai thác.
 ---
 In the context of mining pools, a share is an indicator used to quantify an individual miner's contribution within the pool. This measure serves as the basis for calculating the reward that the pool redistributes to each miner. Each share corresponds to a hash that satisfies a difficulty target lower than that of the Bitcoin network.
 

@@ -1,6 +1,6 @@
 ---
 term: Premium
-definition:
+definition: Ayandi mahera yishurwa hejuru y'igiciro gisanzwe c'itunga nka bitcoin.
 ---
 
 Amafaranga y’inyongera yishurwa hejuru y’igiciro gisanzwe canke c’izina c’umutungo. Mu bijanye na Bitcoin, igiciro c’imbere gishobora kubonwa igihe umuntu agura, cane cane ku mbuga za Exchange, zishobora rimwe na rimwe gukoresha ubu buryo kugira ngo zironke inyungu zazo ku bikorwa vy’ubucuruzi.

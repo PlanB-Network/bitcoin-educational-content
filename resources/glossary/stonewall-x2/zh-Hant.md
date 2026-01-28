@@ -1,6 +1,6 @@
 ---
 term: Stonewall x2
-definition:
+definition: 與第三方模擬微型 coinjoin 的協作交易，用於提高付款隱私。
 ---
 
 Bitcoin 交易的一種特定形式，旨在透過與不參與支出的第三方合作，在支出過程中增加使用者隱私。此方法模擬兩個參與者之間的迷你 CoinJoin，同時向第三方付款。石牆 x2 交易可在 Samourai Wallet 應用程式和 Sparrow Wallet 軟體上使用 (兩者皆可互通)。

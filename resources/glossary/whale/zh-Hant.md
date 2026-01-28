@@ -1,6 +1,6 @@
 ---
 term: 巨鯨
-definition:
+definition: 擁有大量比特幣的個人或實體。
 ---
 
 指擁有大量比特幣的個人或實體。

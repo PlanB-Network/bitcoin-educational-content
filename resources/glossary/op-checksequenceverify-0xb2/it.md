@@ -1,7 +1,7 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
-definition:
+definition: Opcode che impone un vincolo temporale relativo sulla spesa di un UTXO.
 ---
 Rende la transazione non valida se viene osservata una di queste caratteristiche:
 

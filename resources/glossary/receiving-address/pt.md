@@ -1,7 +1,7 @@
 ---
 term: Endereço de recebimento
 
-definition:
+definition: Informação que permite receber bitcoins, geralmente construída a partir de uma chave pública hashed.
 ---
 Informação usada para receber bitcoins. Um endereço é normalmente construído através do hashing de uma chave pública, usando `SHA256` e `RIMPEMD160`, e adicionando metadados a este digest. As chaves públicas usadas para construir um endereço de receção fazem parte da carteira do utilizador e são, portanto, derivadas da sua semente. Por exemplo, os endereços SegWit são compostos pelas seguintes informações:
 

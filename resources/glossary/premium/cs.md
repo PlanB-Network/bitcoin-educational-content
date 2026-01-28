@@ -1,7 +1,7 @@
 ---
 term: Premium
 
-definition:
+definition: Dodatečná částka zaplacená nad standardní cenu aktiva, jako je bitcoin.
 ---
 Dodatečná částka zaplacená nad standardní nebo nominální cenu aktiva. V souvislosti s bitcoinem lze prémii pozorovat při nákupech, zejména na burzovních platformách, které mohou někdy tuto techniku využívat ke svým maržím na zprostředkovatelské službě.
 

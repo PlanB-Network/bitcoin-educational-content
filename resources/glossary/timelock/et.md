@@ -1,7 +1,7 @@
 ---
 term: Timelock
 
-definition:
+definition: Nutilepingu primitiiv, mis määratleb ajalise tingimuse, enne kui tehingut saab plokki lisada.
 ---
 Aruka lepingu primitiiv, mis võimaldab määrata ajapõhise tingimuse, mis peab olema täidetud, et tehing saaks plokki lisada. Bitcoinis on kahte tüüpi ajamääranguid:
 

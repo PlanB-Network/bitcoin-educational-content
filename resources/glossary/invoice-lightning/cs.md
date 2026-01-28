@@ -1,6 +1,6 @@
 ---
 term: Invoice lightning
-definition:
+definition: Žádost o platbu Lightning obsahující všechny informace potřebné k provedení transakce.
 ---
 
 Blesková žádost o platbu vygenerovaná příjemcem, která obsahuje všechny informace potřebné k dokončení transakce.

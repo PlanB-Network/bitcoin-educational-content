@@ -1,7 +1,7 @@
 ---
 term: Utreexo
 
-definition:
+definition: Protokoll som komprimerer UTXO-settet til Bitcoin-noder via en akkumulator basert på Merkle-trær.
 ---
 Protokoll utviklet av Tadge Dryja for å komprimere Bitcoin-nodenes UTXO-sett ved hjelp av en akkumulator basert på Merkle-trær. I motsetning til det klassiske UTXO-settet, som krever betydelig lagringsplass, reduserer Utreexo minnebehovet drastisk ved kun å lagre røttene til Merkle-treet. Dette gjør at noden kan verifisere eksistensen av UTXO-er som brukes i transaksjonsinndata, uten å måtte lagre hele settet av UTXO-er. Ved å bruke Utreexo beholder hver node bare et kryptografisk fingeravtrykk som kalles en Merkle-rot. Når en transaksjon gjennomføres, leverer brukeren bevis på eierskap til UTXO-ene og de tilhørende Merkle-stiene. Dermed kan noden verifisere transaksjoner uten å lagre hele UTXO-settet. La oss ta et eksempel med et diagram for å forstå denne mekanismen:
 

@@ -1,6 +1,6 @@
 ---
 term: Stonewall
-definition:
+definition: Muamala wa Bitcoin usio wa ushirikiano unaoiga coinjoin ili kuongeza faragha wakati wa kutumia.
 ---
 
 Aina mahususi ya shughuli ya Bitcoin inayolenga kuongeza faragha ya mtumiaji wakati wa matumizi kwa kuiga CoinJoin kati ya watu wawili, bila kuwa mmoja. Hakika, shughuli hii si shirikishi. Mtumiaji anaweza kuijenga peke yake, akihusisha tu UTXO zao kama pembejeo. Kwa hivyo, unaweza kuunda muamala wa Stonewall kwa hafla yoyote, bila kuhitaji kusawazisha na mtumiaji mwingine.

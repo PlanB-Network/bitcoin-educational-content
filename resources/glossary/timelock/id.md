@@ -1,7 +1,7 @@
 ---
 term: Timelock
 
-definition:
+definition: Primitif kontrak pintar yang menentukan kondisi waktu sebelum transaksi dapat dimasukkan ke dalam blok.
 ---
 Sebuah versi primitif kontrak pintar yang memungkinkan pengaturan kondisi berbasis waktu yang harus dipenuhi agar sebuah transaksi dapat ditambahkan ke dalam blok. Terdapat dua jenis penguncian waktu pada Bitcoin:
 

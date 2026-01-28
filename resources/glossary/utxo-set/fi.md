@@ -1,7 +1,7 @@
 ---
 term: UTXO-joukko
 
-definition:
+definition: Kaikkien olemassa olevien UTXOiden joukko tiettynä ajankohtana, jota jokainen solmu ylläpitää rahansiirtojen varmistamiseksi.
 ---
 Tarkoittaa kaikkien tiettynä hetkenä olemassa olevien UTXO:iden kokoelmaa. Toisin sanoen se on suuri luettelo kaikista bitcoinien eri paloista, jotka odottavat käyttämistä. Jos lasket yhteen UTXO-joukon kaikkien UTXO-erien määrät, saadaan liikkeessä olevien bitcoinien rahamääräinen kokonaismassa. Bitcoin-verkon jokainen solmu ylläpitää omaa UTXO-joukkoaan reaaliaikaisesti. Se päivittää sitä sitä mukaa, kun uusia kelvollisia lohkoja vahvistetaan, ja niiden sisältämiä transaktioita, jotka kuluttavat UTXO-joukon UTXO-yksiköitä ja luovat uusia UTXO-yksiköitä vastineeksi.
 

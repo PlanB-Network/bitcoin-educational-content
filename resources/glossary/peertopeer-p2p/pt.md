@@ -1,7 +1,7 @@
 ---
 term: Ponto-a-ponto (P2P)
 
-definition:
+definition: Modelo de comunicação em que os participantes trocam informações diretamente, sem um intermediário centralizado.
 ---
 Refere-se a um modelo de comunicação e distribuição de dados em que os participantes, frequentemente designados por nós ou pares, partilham os seus recursos (como ficheiros, capacidade de processamento, largura de banda, bens...) diretamente entre si, sem necessidade de um intermediário centralizado. Num sistema P2P, cada participante actua simultaneamente como cliente (consumidor de recursos) e como servidor (fornecedor de recursos).
 

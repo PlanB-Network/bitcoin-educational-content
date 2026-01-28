@@ -1,6 +1,6 @@
 ---
 term: 巨鲸
 
-definition:
+definition: 拥有大量比特币的个人或实体。
 ---
 指拥有大量比特币的个人或实体。

@@ -1,7 +1,7 @@
 ---
 term: Silk road
 
-definition:
+definition: Pimeveebi (dark web) platvorm, mis kasutas Bitcoini ja Tori ning mille FBI sules 2013. aastal.
 ---
 Silk Road oli pimedas veebis tegutsev platvorm, mille asutas Ross Ulbricht, keda tuntakse ka pseudonüümi Dread Pirate Roberts all. See 2011. aastal käivitatud veebiturg võimaldas kasutajatel osta ja müüa nii seaduslikke kui ka ebaseaduslikke tooteid ja teenuseid, säilitades samal ajal oma anonüümsuse Tor'i ja Bitcoini maksete abil. Silk Road pakkus mitmesuguseid kaupu, peamiselt narkootikume ja retseptiravimeid, kuid välistas tegevused, mida peeti loodusseaduste põhimõtetega vastuolus olevaks, näiteks palgamõrvariteenuste või lapsporno sisu müügi.
 

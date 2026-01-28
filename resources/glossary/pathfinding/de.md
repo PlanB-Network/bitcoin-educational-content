@@ -1,6 +1,6 @@
 ---
 term: Pathfinding
-definition:
+definition: Prozess der Bestimmung des optimalen Pfads zum Routen einer Zahlung im Lightning-Netzwerk.
 ---
 
 Verfahren, mit dem ein Knoten den optimalen Pfad für die Weiterleitung einer Zahlung durch das Lightning-Channel-Netz ermittelt. Die Pfadfindung erfolgt durch den Knoten des Zahlers, der die am besten geeigneten Zwischenknoten auswählen muss, um den Empfänger zu erreichen. Diese Auswahl basiert auf einer Reihe von Kriterien, wie z. B. Gebühren, Kanalkapazität und Timelocks.

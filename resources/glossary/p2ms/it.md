@@ -1,7 +1,7 @@
 ---
 term: P2MS
 
-definition:
+definition: Script multifirma che blocca bitcoin con più chiavi pubbliche richiedendo una soglia di firme.
 ---
 P2MS è l'acronimo di *Pay to Multisig*, che si traduce in "paga a più firme". È un modello di script standard utilizzato per stabilire le condizioni di spesa su un UTXO. Consente di bloccare i bitcoin con più chiavi pubbliche. Per spendere questi bitcoin, è necessaria una firma con un numero predefinito di chiavi private associate. Ad esempio, un `P2MS 2/3` comporta `3` chiavi pubbliche con `3` chiavi private segrete associate. Per spendere i bitcoin bloccati con questo script P2MS, è necessaria una firma con almeno `2` delle `3` chiavi private. Si tratta di un sistema di sicurezza a soglia.
 

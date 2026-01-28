@@ -1,6 +1,6 @@
 ---
 term: Enkel betalning
-definition:
+definition: Transaktionsmodell med 2 utgångar, vanligtvis en betalning och växel.
 ---
 
 Transaktionsmönster (eller modell) som används i kedjeanalys och som kännetecknas av att en eller flera UTXO förbrukas som insatsvaror och 2 UTXO produceras som utdata. Denna modell kommer därför att se ut så här:

@@ -1,7 +1,7 @@
 ---
 term: Địa chỉ nhận
 
-definition:
+definition: Thông tin cho phép nhận bitcoin, thường được xây dựng từ một khóa công khai đã được băm.
 ---
 Information used to receive bitcoins. An address is usually constructed by hashing a public key, using `SHA256` and `RIMPEMD160`, and adding metadata to this digest. The public keys used to construct a receiving address are part of the user's wallet and are therefore derived from their seed. For example, SegWit addresses are composed of the following information:
 

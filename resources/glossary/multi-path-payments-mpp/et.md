@@ -1,6 +1,6 @@
 ---
 term: Multi-path payments (MPP)
-definition:
+definition: Lightning-tehnika, mis jagab makse mitmeks osaks, mis suunatakse erinevate marsruutide kaudu.
 ---
 
 Üldine termin kõigi Lightningi maksetehnikate kohta, mis võimaldavad tehingu jaotada mitmeks väiksemaks osaks ja suunata seda erinevate marsruutide kaudu. Teisisõnu, iga maksefraktsioon võtab erineva sõlme tee. See võimaldab mööduda likviidsuspiirangutest ühe kanali marsruudil.

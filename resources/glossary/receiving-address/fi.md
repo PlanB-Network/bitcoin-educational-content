@@ -1,7 +1,7 @@
 ---
 term: Vastaanotto-osoite
 
-definition:
+definition: Tieto, jonka avulla voidaan vastaanottaa bitcoineja, yleensä muodostettu tiivistetystä julkisesta avaimesta.
 ---
 Tiedot, joita käytetään bitcoinien vastaanottamiseen. Osoite muodostetaan tavallisesti hasshaalaamalla julkinen avain käyttäen `SHA256` ja `RIMPEMD160` ja lisäämällä metatietoja tähän digestiin. Vastaanottavan osoitteen rakentamiseen käytetyt julkiset avaimet ovat osa käyttäjän lompakkoa, joten ne on johdettu hänen siemenestään. Esimerkiksi SegWit-osoitteet koostuvat seuraavista tiedoista:
 

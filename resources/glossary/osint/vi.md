@@ -1,7 +1,7 @@
 ---
 term: OSINT
 
-definition:
+definition: Thu thập và phân tích thông tin công khai có sẵn cho mục đích tình báo.
 ---
 Acronym for "*Open Source Intelligence*". OSINT refers to the collection and analysis of publicly available information from sources accessible to everyone. These sources can include websites, forums, social networks, public databases, academic publications, government documents, etc. The main goal of OSINT is to transform raw data into actionable information by identifying trends, correlations, and investigative leads.
 

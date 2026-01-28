@@ -1,7 +1,7 @@
 ---
 term: Alamat penerima
 
-definition:
+definition: Informasi yang memungkinkan penerimaan bitcoin, umumnya dibuat dari kunci publik yang di-hash.
 ---
 Informasi yang digunakan untuk menerima bitcoin. Sebuah alamat biasanya dibuat dengan melakukan _hashing_ terhadap kunci publik, menggunakan `SHA256` dan `RIMPEMD160`, dan menambahkan metadata pada hal ini. Kunci publik yang digunakan untuk membuat alamat penerima adalah bagian dari dompet pengguna dan oleh karena itu berasal dari _seed_ mereka. Sebagai contoh, alamat SegWit terdiri dari informasi berikut ini:
 

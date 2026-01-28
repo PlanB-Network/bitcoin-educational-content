@@ -1,7 +1,7 @@
 ---
 term: Oboe (Off-by-one Error)
 
-definition:
+definition: Logikfehler, bei dem eine Schleife einmal zu viel oder zu wenig durchläuft.
 ---
 Ein logischer Fehler, bei dem eine Schleife ein Mal zu viel oder ein Mal zu wenig durchläuft, oft aufgrund einer falschen Verwendung von Vergleichsoperatoren oder falschen Indizes in der Datenstrukturverwaltung. Im Kontext von Bitcoin wird dieser Fehler im Fall des "*Dummy-Elements*" in `OP_CHECKMULTISIG` gefunden, wo fälschlicherweise ein zusätzliches Element verbraucht wird.
 

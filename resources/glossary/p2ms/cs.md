@@ -1,7 +1,7 @@
 ---
 term: P2MS
 
-definition:
+definition: Multisignaturní skript zamykající bitcoiny pomocí více veřejných klíčů vyžadující prahový počet podpisů.
 ---
 P2MS je zkratka pro *Pay to Multisig*, což v překladu znamená "platba za více podpisů". Jedná se o standardní model skriptu, který se používá pro stanovení podmínek výdajů na UTXO. Umožňuje uzamčení bitcoinů pomocí více veřejných klíčů. K utrácení těchto bitcoinů je zapotřebí podpis s předem definovaným počtem přidružených soukromých klíčů. Například `P2MS 2/3` zahrnuje `3` veřejné klíče s `3` přidruženými tajnými soukromými klíči. K utracení bitcoinů uzamčených tímto skriptem P2MS je zapotřebí podpis s alespoň `2` z `3` soukromých klíčů. Jedná se o prahový bezpečnostní systém.
 

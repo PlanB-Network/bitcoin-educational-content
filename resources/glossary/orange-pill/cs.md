@@ -1,6 +1,6 @@
 ---
 term: Oranžová pilulka
-definition:
+definition: Koncept inspirovaný Matrixem, symbolizující procitnutí k pochopení Bitcoinu.
 ---
 
 Tato imaginární pilulka, inspirovaná filmem *Matrix*, probouzí vědomí Bitcoin.

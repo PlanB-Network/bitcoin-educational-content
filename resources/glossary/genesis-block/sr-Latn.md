@@ -1,6 +1,6 @@
 ---
 term: Genezis blok
-definition:
+definition: Prvi blok Bitcoin sistema koji je kreirao Satoshi Nakamoto 3. januara 2009. godine.
 ---
 
 Genesis Blok je prvi blok Bitcoin sistema. On označava konkretno lansiranje Bitcoin. Genesis Blok je kreirao anonimni osnivač Bitcoin, Satoshi Nakamoto, 3. januara 2009. Njegov Hash je:

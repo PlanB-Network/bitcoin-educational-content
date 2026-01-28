@@ -1,7 +1,7 @@
 ---
 term: Timelock
 
-definition:
+definition: Primitiva di contratto intelligente che definisce una condizione temporale prima che una transazione possa essere inclusa in un blocco.
 ---
 Una primitiva dello smart contract che consente di impostare una condizione temporale che deve essere soddisfatta affinché una transazione venga aggiunta a un blocco. Esistono due tipi di timelock su Bitcoin:
 

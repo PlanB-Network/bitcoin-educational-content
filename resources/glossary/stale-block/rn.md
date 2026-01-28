@@ -1,6 +1,6 @@
 ---
 term: Obsolète (bloc)
-definition:
+definition: Iblock ryemejwe ariko ryakuwe mu muhora mukuru mu gihe abacuzi babiri batoye iblock ku burebure bumwe mu gihe kimwe.
 ---
 
 Yerekeza ku gice kitagira abana: igice gifise akamaro, ariko kidashizwe mu ruhererekane nyamukuru rwa Bitcoin. Bishika iyo abacukuzi babiri babonye ibuye ry’agaciro riri ku burebure bw’uruzitiro rumwe mu kiringo gitoyi maze bakaritangaza ku rubuga. Amaherezo ama nodes ahitamwo igice kimwe gusa co gushiramwo mu ruhererekane, hakurikijwe ingingo ngenderwako y'uruhererekane rufise ibikorwa vyinshi, bigatuma urundi "rudakoreshwa". Inzira ijana mu guhingura ibuye rya kera ni iyi ikurikira:

@@ -1,7 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
-definition:
+definition: UTXOの消費に対して絶対的な時間制約を課すオペコード。
 ---
 これらの条件がすべて満たされない限り、取引を無効にする：
 

@@ -1,6 +1,6 @@
 ---
 term: Warstwa
-definition:
+definition: Protokół zbudowany na bazie Bitcoina w celu rozszerzenia jego możliwości, taki jak Lightning Network.
 ---
 
 Protokół lub sieć zbudowana na bazie głównej sieci Bitcoin. Wykorzystuje on sieć Bitcoin jako podstawę i dlatego jest zależny od jej protokołu. Sieć Bitcoin nie jest jednak zależna od swoich nakładek. Przykładem takiej nakładki jest Lightning Network.

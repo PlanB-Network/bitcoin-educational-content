@@ -1,7 +1,7 @@
 ---
 term: Mồ côi
 
-definition:
+definition: Khối hợp lệ không được giữ trong chuỗi chính hoặc có khối cha chưa được xác định.
 ---
 Theoretically, an orphan block refers to a valid block received by a node that has not yet acquired the parent block, that is, the previous one in the chain. Although valid, this block remains isolated locally as an orphan.
 

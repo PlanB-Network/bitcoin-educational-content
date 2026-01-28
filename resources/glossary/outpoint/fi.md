@@ -1,7 +1,7 @@
 ---
 term: Outpoint
 
-definition:
+definition: Yksilöllinen viite UTXOoon, koostuu txidstä ja tulosteindeksistä (output index).
 ---
 Yksilöllinen viittaus käyttämättömään tapahtumalähteeseen (UTXO). Se koostuu kahdesta elementistä:
 

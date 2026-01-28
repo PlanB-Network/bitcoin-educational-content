@@ -1,6 +1,6 @@
 ---
 term: Drzewo Merkle
-definition:
+definition: Hierarchiczna struktura danych pozwalająca na szybką weryfikację włączenia transakcji do bloku.
 ---
 
 Merkle Tree jest akumulatorem kryptograficznym. Jest to metoda udowadniania przynależności danej informacji do większego zbioru. Jest to struktura danych, która ułatwia weryfikację informacji w kompaktowym formacie. W systemie Bitcoin drzewa Merkle'a są używane do grupowania i kondensowania transakcji bloku w pojedynczy Hash, zwany Merkle Root (lub "*Root Hash*"). Każda transakcja jest hashowana, a następnie sąsiednie hashe są hashowane razem hierarchicznie, aż do uzyskania Merkle Root.

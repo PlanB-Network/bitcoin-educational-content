@@ -1,6 +1,6 @@
 ---
 term: Invoice lightning
-definition:
+definition: Igisabo c'uburihi mu buryo bwa Lightning kiriko amakuru yose akenewe kugira ngo ihererekanya rirangire.
 ---
 
 Igisabwa co kwishura nk’umuravyo cavuzwe n’uwuronka, kirimwo amakuru yose akenewe kugira ngo umuntu arangize igikorwa.

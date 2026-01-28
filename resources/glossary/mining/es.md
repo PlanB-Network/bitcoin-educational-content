@@ -1,7 +1,7 @@
 ---
 term: Minería
 
-definition:
+definition: Proceso de participación en la prueba de trabajo para asegurar la red y validar las transacciones.
 ---
 El acto de participar en la Prueba de Trabajo (Proof-of-Work) del sistema Bitcoin. Proof-of-Work es un mecanismo para resistir ataques Sybil. Es la base del mecanismo de consenso Nakamoto, que es el principio utilizado para establecer un acuerdo sobre una única versión del libro mayor distribuido entre los diferentes nodos de la red.
 

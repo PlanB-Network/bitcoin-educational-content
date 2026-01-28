@@ -1,6 +1,6 @@
 ---
 term: Sisend (Input)
-definition:
+definition: Bitcoin tehingu sisendina kasutatav UTXO, mis viitab eelmisele väljundile.
 ---
 
 Bitcoin kontekstis viitab sisend tehingu raames UTXOdele (*Unspent Transaction Outputs*), mida kasutatakse algsete vahenditena väljundite rahuldamiseks. Iga sisend sisaldab viiteid eelnevatele UTXOdele, mida tehing seejärel tarbib. Neid sisendeid kasutatakse uute UTXOde toitmiseks, mis luuakse tehingu väljunditena ja mida saab seejärel kulutada tulevastes tehingutes.

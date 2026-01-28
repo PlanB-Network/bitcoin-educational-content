@@ -1,7 +1,7 @@
 ---
 term: Sighash flag
 
-definition:
+definition: Ikimenyetso cerekana ibice vya transaction bikubiyemo umukono.
 ---
 
 Igiharuro kiri mu gikorwa ca Bitcoin kigaragaza ibice vy’igikorwa (ivyo kwinjira n’ivyo gusohoka) bipfutse n’umukono ujana, gutyo bikaba bidahinduka. Ibendera rya SigHash ni byte yongewe ku mukono wa digitale w'inyungu yose. Rero, uguhitamwo SigHash Flag biragira ico bikoze ku bice vy’ugucuruza bifunzwe n’umukono kandi bishobora guhindurwa inyuma. Ubwo buryo buratuma abasinye bakora neza kandi ata nkomanzi amakuru y’ibikorwa vy’ubudandaji bishingiye ku ciyumviro c’uwushizeko umukono. Hariho amabendera atatu nyamukuru ya SigHash:

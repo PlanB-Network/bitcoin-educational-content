@@ -1,6 +1,6 @@
 ---
 term: Shares
-definition:
+definition: Indicator quantifying the contribution of an individual miner within a mining pool.
 ---
 
 In the context of mining pools, a share is an indicator used to quantify an individual miner's contribution within the pool. This measure serves as the basis for calculating the reward that the pool redistributes to each miner. Each share corresponds to a hash that satisfies a difficulty target lower than that of the Bitcoin network.

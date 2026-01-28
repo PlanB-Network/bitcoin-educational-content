@@ -1,7 +1,7 @@
 ---
 term: Speedy trial
 
-definition:
+definition: Meetod soft forki kiireks aktiveerimiseks lühendatud tähtajaga, mida kasutati Taprooti puhul.
 ---
 Meetod, kuidas aktiveerida pehmet kahvlit, mille algselt kavandas Taproot jaoks 2021. aasta alguses David A. Harding Russell O'Connori idee põhjal. Selle põhimõte on kasutada BIP8 meetodit, mille parameetriks on seatud `LOT`, kuid mille puhul on aktiveerimisperioodi lühendatud vaid 3 kuuni. Selline lühendatud hääletamisperiood võimaldab kaevurite heakskiidu kiiret kontrollimist. Kui nõutav heakskiitmise künnis saavutatakse ühe perioodi jooksul, lukustub soft fork seejärel. See aktiveeritakse mitu kuud hiljem, mis annab kaevuritele vajaliku aja oma tarkvara uuendamiseks.
 

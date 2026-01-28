@@ -1,7 +1,7 @@
 ---
 term: Sighash flag
 
-definition:
+definition: Parametro che determina quali componenti di una transazione sono coperti dalla firma.
 ---
 Un parametro di una transazione Bitcoin che determina quali componenti di una transazione (ingressi e uscite) sono coperti dalla firma associata, diventando così immutabili. Il flag SigHash è un byte aggiunto alla firma digitale di ciascun ingresso. Pertanto, la scelta del flag SigHash influisce direttamente su quali parti della transazione sono congelate dalla firma e quali possono essere modificate in seguito. Questo meccanismo garantisce che le firme impegnino in modo preciso e sicuro i dati della transazione secondo l'intenzione del firmatario. Esistono tre flag SigHash principali:
 

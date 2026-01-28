@@ -1,7 +1,7 @@
 ---
 term: Outpoint
 
-definition:
+definition: Unikaalne viide UTXO-le, mis koosneb txid-st ja väljundi indeksist.
 ---
 Unikaalne viide kasutamata tehingu väljundile (UTXO). Koosneb kahest elemendist:
 

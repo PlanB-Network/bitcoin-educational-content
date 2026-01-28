@@ -1,6 +1,6 @@
 ---
 term: 挖礦
-definition:
+definition: 參與工作量證明以確保網絡安全和驗證交易的過程。
 ---
 
 參與 Bitcoin 系統的 Proof-of-Work (Proof-of-Work) 的行為。Proof-of-Work 是一種抵抗 Sybil 攻擊的機制。它是 Nakamoto 共識機制的基礎，而 Nakamoto 共識機制的原則是在網路的不同節點之間建立分佈式 Ledger 的單一版本協議。

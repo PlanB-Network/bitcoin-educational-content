@@ -1,7 +1,7 @@
 ---
 term: Stonewall
 
-definition:
+definition: Transazione Bitcoin non collaborativa che imita un coinjoin per aumentare la privacy durante una spesa.
 ---
 Una forma specifica di transazione Bitcoin volta ad aumentare la privacy dell'utente durante una spesa, imitando una coinjoin tra due persone, senza esserlo realmente. Infatti, questa transazione non è collaborativa. Un utente può costruirla da solo, coinvolgendo solo i propri UTXO come input. Pertanto, è possibile creare una transazione Stonewall per qualsiasi occasione, senza bisogno di sincronizzarsi con un altro utente.
 

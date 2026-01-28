@@ -1,6 +1,6 @@
 ---
 term: Lightning 服務提供商
-definition:
+definition: 為 Lightning Network 使用者提供流動性服務的公司。
 ---
 
 在 Lightning 上運營的公司，其業務是為使用者提供流動資金服務。

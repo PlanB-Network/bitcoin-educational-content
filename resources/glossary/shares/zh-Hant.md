@@ -1,6 +1,6 @@
 ---
 term: 份額 (shares)
-definition:
+definition: 量化單個礦工在礦池中貢獻的指標。
 ---
 
 在 Mining 匯集的情況下，份額是用來量化個別 Miner 在匯集內貢獻的指標。這個指標是計算池中重新分配給每個 Miner 的獎勵的基礎。每個份額對應於滿足低於 Bitcoin 網路難度目標的 Hash。

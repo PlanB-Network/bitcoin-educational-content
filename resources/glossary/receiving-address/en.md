@@ -1,6 +1,6 @@
 ---
 term: Receiving address
-definition:
+definition: Information allowing the receipt of bitcoins, generally constructed from a hashed public key.
 ---
 
 Information used to receive bitcoins. An address is usually constructed by hashing a public key, using `SHA256` and `RIMPEMD160`, and adding metadata to this digest. The public keys used to construct a receiving address are part of the user's wallet and are therefore derived from their seed. For example, SegWit addresses are composed of the following information:

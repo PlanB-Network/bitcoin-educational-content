@@ -1,6 +1,6 @@
 ---
 term: Hashrate
-definition:
+definition: Ikimenyetso c'ubushobozi bwa mudasobwa bw'urubuga rwa Bitcoin, gipimwa muri hash ku isegonda.
 ---
 
 Ikimenyetso c’ububasha bwo guharura bw’urubuga, gipimwa mu bice vy’umubiri ku segonda (H/s). Birerekana ubushobozi bw'abacukuzi bwo gukora ibikorwa vy'ugutera nk'igice ca Proof of Work. Hashrate nini bisigura umutekano mwinshi ku mateka y’ubutunzi ya Bitcoin no kwongerekana kw’ubushobozi bwo kurwanya ibitero, kuko vyokenerwa ubushobozi bwinshi bwo gukoresha ubuhinga bwa none kugira ngo urubuga ruhungabanye.

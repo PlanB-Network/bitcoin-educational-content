@@ -1,6 +1,6 @@
 ---
 term: Nieaktualny (blok)
-definition:
+definition: Prawidłowy blok, ale wykluczony z głównego łańcucha, gdy dwóch górników znajdzie blok na tej samej wysokości w tym samym czasie.
 ---
 
 Odnosi się do bloku bez dzieci: ważny blok, ale wykluczony z głównego łańcucha Bitcoin. Występuje, gdy dwóch górników znajdzie ważny blok na tej samej wysokości łańcucha w krótkim okresie czasu i rozgłosi go w sieci. Węzły ostatecznie wybierają tylko jeden blok do włączenia do łańcucha, zgodnie z zasadą łańcucha z największą ilością zgromadzonej pracy, czyniąc inne "przestarzałymi". Proces prowadzący do wytworzenia przestarzałego bloku wygląda następująco:

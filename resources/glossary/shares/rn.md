@@ -1,6 +1,6 @@
 ---
 term: Shares
-definition:
+definition: Ikimenyetso gipima uruhara rw'umucuzi umwe mu mugwi w'abacuzi.
 ---
 
 Mu bijanye n’ibidengeri vya Mining, umugabane ni ikimenyetso gikoreshwa mu gupima umusanzu wa Miner ku giti ciwe mu bidengeri. Ico gipimo ni co gishingiyeko mu kubara impembo iyo pool isubira guha Miner yose. Buri mugabane uhuye na Hash ihaza intumbero y’ingorane iri hasi y’iy’uruzitiro rwa Bitcoin.

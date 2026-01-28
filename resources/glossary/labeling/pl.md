@@ -1,6 +1,6 @@
 ---
 term: Etykietowanie
-definition:
+definition: Praktyka przypisywania adnotacji do UTXO w celu ułatwienia zarządzania funduszami i prywatności.
 ---
 
 Praktyka przypisywania adnotacji lub etykiety do określonego UTXO w Bitcoin Wallet. Na przykład, jeśli mam UTXO z zakupu P2P na Bisq z Charlesem, mogę oznaczyć go jako "`Non-KYC Bisq Charles`".

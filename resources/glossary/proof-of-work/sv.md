@@ -1,6 +1,6 @@
 ---
 term: Arbetsbevis
-definition:
+definition: Konsensusmekanism som kräver en kostsam beräkning för att validera och lägga till block i Bitcoin.
 ---
 
 En skyddsmekanism mot Sybil-attacker, som kännetecknas av att flera falska identiteter skapas i syfte att få en illegitim fördel. Proof of Work fastställer således en icke försumbar marginalkostnad för multipliceringen av röster på Bitcoin. Proof of Work är grunden för Nakamotos konsensusmekanism, som är den princip som används för att nå en överenskommelse om en enda version av den distribuerade Ledger mellan de olika noderna i nätverket. Specifikt innebär Proof of Work att hitta ett värde som, när det passerar genom en slumpmässig matematisk funktion, ger ett resultat som är lägre än ett måltal. Detta mål för Proof of Work justeras vart 2016:e block av noderna. Detta är känt som svårighetsjustering. Måltalet sänks för att öka Mining-svårigheten, eller höjs för att minska den, beroende på utvecklingen av den datorkraft som används av miners under den föregående perioden.

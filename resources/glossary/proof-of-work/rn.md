@@ -1,6 +1,6 @@
 ---
 term: Proof of work
-definition:
+definition: Uburyo bwo kumvikana busaba ibiharuro bihenze kugira ngo bemeze kandi bongere amablock kuri Bitcoin.
 ---
 
 Uburyo bwo kwikingira ibitero vya Sybil, birangwa no kurema ibimenyetso vyinshi vy’ibinyoma, n’intumbero yo kuronka inyungu idakwiriye. Gutyo, Proof of Work ishiraho igiciro c'inyuma kitari co ku kugwiza amajwi kuri Bitcoin. Proof of Work ni umushinge w’uburyo bwo kwumvikana bwa Nakamoto, ari ryo ngingo ngenderwako ikoreshwa mu gushika ku masezerano ku bijanye n’uburyo bumwe bwa Ledger yatanzwe hagati y’ibice bitandukanye vy’uruja n’uruza. Mu buryo bwihariye, Proof of Work irimwo kurondera agaciro, iyo kaciye mu gikorwa c’imibare c’imburakimazi, gatanga igisubizo kiri hasi y’umubare w’intumbero. Iyi ntumbero ya Proof of Work irahindurwa buri 2016 amabarabara n’ibihimba. Ivyo bizwi kw’izina ry’uguhindura ingorane. Umubare w’intumbero uragabanywa kugira ngo wongere ingorane za Mining, canke ukaduzwa kugira ngo ugabanuke, bivanye n’iterambere ry’ububasha bwo gukoresha ubuhinga bwa none bwakoreshejwe n’abacukuzi mu kiringo c’imbere.

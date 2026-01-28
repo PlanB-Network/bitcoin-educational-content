@@ -1,6 +1,6 @@
 ---
 term: Premium
-definition:
+definition: Kiwango cha ziada kinacholipwa juu ya bei ya kawaida ya rasilimali kama bitcoin.
 ---
 
 Kiasi cha ziada kilicholipwa juu ya bei ya kawaida au ya kawaida ya mali. Katika muktadha wa Bitcoin, malipo yanaweza kuzingatiwa wakati wa kufanya ununuzi, haswa kwenye majukwaa ya Exchange, ambayo wakati mwingine inaweza kutumia mbinu hii kufanya ukingo wao kwenye huduma ya udalali.

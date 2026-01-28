@@ -1,7 +1,7 @@
 ---
 term: Phí chênh lệch
 
-definition:
+definition: Số tiền bổ sung được trả cao hơn giá tiêu chuẩn của một tài sản như bitcoin.
 ---
 An additional amount paid over the standard or nominal price of an asset. In the context of Bitcoin, a premium can be observed when making purchases, especially on exchange platforms, which may sometimes use this technique to make their margins on the brokerage service.
 

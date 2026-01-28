@@ -1,6 +1,6 @@
 ---
 term: Outpoint
-definition:
+definition: Unikalne odniesienie do UTXO, składające się z txid i indeksu wyjściowego.
 ---
 
 Unikalne odniesienie do niewydanego wyniku transakcji (UTXO). Składa się z dwóch Elements:

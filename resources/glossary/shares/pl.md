@@ -1,6 +1,6 @@
 ---
 term: Udziały (shares)
-definition:
+definition: Wskaźnik określający ilościowo wkład poszczególnego górnika w pulę wydobywczą.
 ---
 
 W kontekście puli Mining udział jest wskaźnikiem wykorzystywanym do ilościowego określenia wkładu indywidualnego Miner w ramach puli. Miara ta służy jako podstawa do obliczenia nagrody, którą pula redystrybuuje do każdego Miner. Każdy udział odpowiada Hash, który spełnia cel trudności niższy niż w sieci Bitcoin.

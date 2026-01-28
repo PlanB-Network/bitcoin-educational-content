@@ -1,7 +1,7 @@
 ---
 term: Shares
 
-definition:
+definition: Indicador que cuantifica la contribución de un minero individual dentro de un pool de minería.
 ---
 En el contexto de los pools de minería, una cuota es un indicador utilizado para cuantificar la contribución de un minero individual dentro del pool. Esta medida sirve de base para calcular la recompensa que el pool redistribuye a cada minero. Cada cuota corresponde a un hash que satisface un objetivo de dificultad inferior al de la red Bitcoin.
 

@@ -1,6 +1,6 @@
 ---
 term: OP_SUB (0X94)
 
-definition:
+definition: 减去堆栈顶部两个元素的Opcode。
 ---
 取出栈中最上面的两个值，用最上第二的值减去最上面的值，并将结果压入栈中。

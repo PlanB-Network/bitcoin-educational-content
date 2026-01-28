@@ -1,6 +1,6 @@
 ---
 term: Madencilik
-definition:
+definition: Ağı güvenli hale getirmek ve işlemleri doğrulamak için iş kanıtına (proof of work) katılma süreci.
 ---
 
 Bitcoin sisteminin Proof-of-Work'ine (Proof-of-Work) katılma eylemi. Proof-of-Work, Sybil saldırılarına karşı koyan bir mekanizmadır. Ağın farklı düğümleri arasında dağıtılmış Ledger'ün tek bir versiyonu üzerinde anlaşma sağlamak için kullanılan ilke olan Nakamoto mutabakat mekanizmasının temelidir.

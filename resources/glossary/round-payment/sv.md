@@ -1,6 +1,6 @@
 ---
 term: Avrundad betalning
-definition:
+definition: Kedjeanalys-heuristik som identifierar betalningen genom dess jämna belopp i en transaktion.
 ---
 
 En intern heuristik för kedjeanalys på Bitcoin som möjliggör en hypotes om arten av utdata för en transaktion baserat på runda belopp. I allmänhet, när man står inför ett enkelt betalningsmönster (1 inmatning och 2 utmatningar), om en av utmatningarna spenderar ett runt belopp, så representerar den betalningen. Genom eliminering gäller att om en utgång representerar betalningen, så representerar den andra utgången förändringen. Det kan därför tolkas som att det är troligt att den användare som matar in transaktionen fortfarande har den utgång som identifierats som växeln.

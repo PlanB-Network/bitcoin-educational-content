@@ -1,7 +1,7 @@
 ---
 term: Chính sách (Miniscript)
 
-definition:
+definition: Ngôn ngữ cấp cao để chỉ định các điều kiện chi tiêu UTXO trong Miniscript.
 ---
 A high-level, user-oriented language that allows for the simple specification of conditions under which a UTXO can be unlocked within the framework of Miniscript. The policy is an abstract description of the spending rules. It can then be compiled into miniscript, which is a one-to-one equivalent with operations from Bitcoin's native script language.
 

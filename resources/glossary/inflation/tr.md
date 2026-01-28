@@ -1,6 +1,6 @@
 ---
 term: Enflasyon
-definition:
+definition: Her bir birimin değerinde düşüşe neden olan para arzı artışı.
 ---
 
 Dolaşımdaki para Supply'daki artışı ifade eder, bu da her bir para biriminin değerinin düşmesine ve mal ve hizmet fiyatlarının yükselmesine yol açar. Devlete ait para birimleri için bu olgu, merkez bankaları yeni para birimleri çıkardığında ortaya çıkar.

@@ -1,7 +1,7 @@
 ---
 term: Unix-Zeit
 
-definition:
+definition: Anzahl der Sekunden, die seit dem 1. Januar 1970 um Mitternacht UTC vergangen sind, verwendet für die Zeitverwaltung in Bitcoin.
 ---
 Die Unix-Zeit oder der Unix-Zeitstempel gibt die Anzahl der Sekunden an, die seit dem 1. Januar 1970 um Mitternacht UTC (Unix-Epoche) verstrichen sind. Dieses System wird in Unix-Betriebssystemen und Derivaten verwendet, um die Zeit in einer universellen und standardisierten Weise zu kennzeichnen. Es ermöglicht die Synchronisierung von Uhren und die Verwaltung von zeitbasierten Ereignissen, unabhängig von Zeitzonen.
 

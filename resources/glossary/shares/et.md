@@ -1,7 +1,7 @@
 ---
 term: Shares
 
-definition:
+definition: Näitaja, mis kvantifitseerib üksiku kaevandaja panust kaevandamisühisuses (pool).
 ---
 Kaevandamisbasseinide kontekstis on aktsia näitaja, mida kasutatakse üksiku kaevuri panuse mõõtmiseks basseinis. See näitaja on aluseks tasu arvutamisel, mida koondis igale kaevandajale ümber jaotab. Iga aktsia vastab hashile, mis vastab Bitcoini võrgustiku raskusastme eesmärgist madalamale raskusastmele.
 

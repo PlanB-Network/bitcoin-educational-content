@@ -1,6 +1,6 @@
 ---
 term: Inflatie
-definition:
+definition: Toename van de geldhoeveelheid die leidt tot een daling van de waarde van elke eenheid.
 ---
 
 Verwijst naar de toename van het geld Supply in omloop, wat leidt tot een daling van de waarde van elke geldeenheid en een stijging van de prijs van goederen en diensten. Bij staatsvaluta's doet dit verschijnsel zich voor wanneer centrale banken nieuwe munteenheden uitgeven.

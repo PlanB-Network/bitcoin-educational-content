@@ -1,6 +1,6 @@
 ---
 term: Gucukura
-definition:
+definition: Igikorwa co gukora icerekana igikorwa (proof of work) mu ntumbero yo gukingira umuyoboro no kwemeza ihererekanya ry'amafaranga.
 ---
 
 Igikorwa co kugira uruhara mu nzira ya Bitcoin Proof-of-Work (Proof-of-Work). Proof-of-Work ni uburyo bwo kurwanya ibitero vya Sybil. Ni umushinge w’uburyo bwo kwumvikana bwa Nakamoto, ari ryo ngingo ngenderwako ikoreshwa mu gushinga amasezerano ku bijanye n’uburyo bumwe bw’ugutanga Ledger hagati y’ibice bitandukanye vy’uruja n’uruza.

@@ -1,6 +1,6 @@
 ---
 term: Stonewall
-definition:
+definition: Transaction ya Bitcoin itari iy'ubufatanye yigana coinjoin kugira yongere ibanga mu gihe co gukoresha.
 ---
 
 Uburyo bwihariye bw’ugucuruza Bitcoin bugamije kwongerera ubuzima bwite bw’abakoresha mu gihe c’ugukoresha amahera mu kwigana CoinJoin hagati y’abantu babiri, ataco mu vy’ukuri ari umwe. Nkako, iyo nzira y’ugucuruza si iyo gukorana. Uwukoresha arashobora kuvyubaka wenyene, akoresheje gusa UTXO ziwe nk’ibintu vyinjizwa. Rero, urashobora gukora igikorwa ca Stonewall ku musi mukuru uwo ari wo wose, udakeneye gukorana n’uwundi mukozi.

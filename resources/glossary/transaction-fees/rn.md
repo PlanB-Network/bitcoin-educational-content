@@ -1,6 +1,6 @@
 ---
 term: Amafaranga y'urungano
-definition:
+definition: Amafaranga arihwa abaminer kugira ngo bashyire itunshwa ry'amafaranga mu gitabo, akaba ari ikinyuranyo hagati y'ayinjira n'ayasohoka.
 ---
 
 Amafaranga y’ugucuruza agereranya amahera afise intumbero yo gusubiza abacukuzi b’amabuye y’agaciro kubera uruhara rwabo mu buryo bwa Proof of Work. Ivyo bihembo biremesha abacukuzi gushiramwo amafaranga mu bice barema. Biva ku ntandukaniro iri hagati y’umubare wose w’ibintu vyinjizwa n’umubare wose w’ibintu bisohoka mu gucuruza:

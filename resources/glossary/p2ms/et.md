@@ -1,7 +1,7 @@
 ---
 term: P2MS
 
-definition:
+definition: Multisig skript, mis lukustab bitcoinid mitme avaliku võtmega, nõudes teatud arvu allkirju.
 ---
 P2MS tähendab *Pay to Multisig*, mis tähendab "maksa mitme allkirja eest". See on standardne skripti mudel, mida kasutatakse UTXO kulutustingimuste kehtestamiseks. See võimaldab bitcoinide lukustamist mitme avaliku võtmega. Nende bitcoinide kulutamiseks on vaja allkirja, millel on eelnevalt kindlaks määratud arv seotud privaatvõtmeid. Näiteks `P2MS 2/3` hõlmab `3` avalikku võtit koos `3` seotud salajase privaatvõtmega. Selle P2MS-skriptiga lukustatud bitcoinide kulutamiseks on vaja allkirja, millel on vähemalt 2 privaatvõtit 3-st. See on lävendi turvasüsteem.
 

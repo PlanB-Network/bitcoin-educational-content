@@ -1,7 +1,7 @@
 ---
 term: Enkel betaling
 
-definition:
+definition: Transaksjonsmodell med 2 utganger, vanligvis en betaling og vekslepenger.
 ---
 Transaksjonsmønster (eller modell) som brukes i kjedeanalyse, kjennetegnet ved forbruk av en eller flere UTXO-er i input og produksjon av 2 UTXO-er i output. Denne modellen vil derfor se slik ut:
 

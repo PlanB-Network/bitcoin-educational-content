@@ -1,6 +1,6 @@
 ---
 term: Payjoin
-definition:
+definition: Zajednička transakcija koja poboljšava privatnost uključivanjem primaoca u ulaze.
 ---
 
 Specifična struktura transakcije Bitcoin koja poboljšava privatnost korisnika tokom trošenja saradnjom sa primaocem plaćanja. Jedinstvenost PayJoin leži u njegovoj sposobnosti da generate transakciju koja na prvi pogled izgleda obično, ali je zapravo mini CoinJoin između dve strane. Za ovo, struktura transakcije uključuje primaoca plaćanja u ulaze zajedno sa stvarnim pošiljaocem. Tako primalac uključuje plaćanje sebi usred transakcije koje im omogućava da budu plaćeni. Na primer, ako kupite baget za `6,000 Sats` koristeći UTXO od `10,000 Sats`, i odlučite se za PayJoin, vaš pekar će dodati UTXO od `15,000 Sats` koji pripada njima kao ulaz, koji će u potpunosti povratiti kao izlaz, pored vaših `6,000 Sats`.

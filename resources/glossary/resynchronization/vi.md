@@ -1,7 +1,7 @@
 ---
 term: Tái đồng bộ hóa
 
-definition:
+definition: Thay thế một phần của blockchain bằng một chuỗi cạnh tranh có nhiều công việc tích lũย hơn.
 ---
 Refers to a phenomenon in which the blockchain undergoes a modification of its structure due to the existence of competing blocks at the same height. This occurs when a portion of the blockchain is replaced by another chain with a greater amount of accumulated work.
 

@@ -1,6 +1,6 @@
 ---
 term: Taro
 
-definition:
+definition: Lightning Labsi poolt välja töötatud Taproot Assets Protocoli endine nimi.
 ---
 Taproot Assets protokolli endine nimi.

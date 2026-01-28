@@ -1,6 +1,6 @@
 ---
 term: Erlay
-definition:
+definition: Itifaki inayoboresha ufanisi wa relay ya muamala ili kupunguza matumizi ya bandwidth.
 ---
 
 Itifaki ya mtandao iliyopendekezwa ili kuboresha ufanisi wa kutuma miamala ambayo haijathibitishwa kati ya nodi za Bitcoin.

@@ -1,6 +1,6 @@
 ---
 term: OP_TUCK (0X7D)
-definition:
+definition: Opcode kopiujący szczyt stosu i umieszczający go na trzeciej pozycji.
 ---
 
 Kopiuje element znajdujący się na szczycie stosu i wstawia go pomiędzy drugi i trzeci element stosu. Na przykład, jeśli stos to:

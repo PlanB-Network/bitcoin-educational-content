@@ -1,6 +1,6 @@
 ---
 term: Zestaw UTXO
-definition:
+definition: Zbiór wszystkich istniejących UTXO w danym momencie, utrzymywany przez każdy węzeł w celu weryfikacji transakcji.
 ---
 
 Odnosi się do zbioru wszystkich istniejących UTXO w danym momencie. Innymi słowy, jest to duża lista wszystkich różnych bitcoinów czekających na wydanie. Jeśli zsumujemy kwoty wszystkich UTXO w zestawie UTXO, otrzymamy całkowitą masę monetarną bitcoinów w obiegu. Każdy węzeł w sieci Bitcoin utrzymuje swój własny zestaw UTXO w czasie rzeczywistym. Aktualizuje go, gdy potwierdzane są nowe ważne bloki, wraz z zawartymi w nich transakcjami, które zużywają niektóre UTXO z zestawu UTXO i tworzą w zamian nowe.

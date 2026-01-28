@@ -1,6 +1,6 @@
 ---
 term: Inflatsioon
-definition:
+definition: Rahapakkumise suurenemine, mis viib iga ühiku väärtuse languseni.
 ---
 
 Viitab ringluses oleva raha Supply suurenemisele, mis toob kaasa iga rahaühiku väärtuse vähenemise ning kaupade ja teenuste hinna tõusu. Riigivaluutade puhul tekib see nähtus siis, kui keskpangad emiteerivad uusi rahaühikuid.

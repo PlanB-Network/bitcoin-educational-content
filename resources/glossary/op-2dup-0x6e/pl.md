@@ -1,6 +1,6 @@
 ---
 term: OP_2DUP (0X6E)
-definition:
+definition: Opkod duplikujący dwa elementy na szczycie stosu.
 ---
 
 Duplikuje dwa górne Elements stosu, a następnie umieszcza je na wierzchu stosu. Na przykład, jeśli stos to:

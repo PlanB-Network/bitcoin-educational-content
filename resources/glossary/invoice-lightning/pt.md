@@ -1,6 +1,6 @@
 ---
 term: Invoice lightning
-definition:
+definition: Pedido de pagamento Lightning que contém todas as informações necessárias para concluir a transação.
 ---
 
 Pedido de pagamento relâmpago gerado pelo destinatário, contendo todas as informações necessárias para completar a transação.

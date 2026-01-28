@@ -1,7 +1,7 @@
 ---
 term: Transaksjonsvitne
 
-definition:
+definition: SegWit-komponent som inneholder signaturene og de offentlige nøklene som trengs for å låse opp bitcoins i en transaksjon.
 ---
 Refererer til en komponent i Bitcointransaksjoner som ble flyttet med SegWit soft fork for å løse problemet med transaksjonsfeilbarhet. Vitnet inneholder signaturene og de offentlige nøklene som er nødvendige for å låse opp bitcoinsene som brukes i en transaksjon. I Legacy-transaksjoner representerte vitnet summen av `scriptSig` fra alle inndataene. I SegWit-transaksjoner representerer vitnet summen av `scriptWitness` for hver inngang, og denne delen av transaksjonen er nå flyttet inn i et eget Merkle-tre i blokken.
 

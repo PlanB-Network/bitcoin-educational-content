@@ -1,7 +1,7 @@
 ---
 term: Share
 
-definition:
+definition: Indicatore che quantifica il contributo di un singolo miner all'interno di una mining pool.
 ---
 Nel contesto dei pool di mining, la quota è un indicatore utilizzato per quantificare il contributo di un singolo miner all'interno del pool. Questa misura serve come base per calcolare la ricompensa che il pool ridistribuisce a ciascun minatore. Ogni quota corrisponde a un hash che soddisfa un obiettivo di difficoltà inferiore a quello della rete Bitcoin.
 

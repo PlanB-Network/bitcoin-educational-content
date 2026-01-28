@@ -1,7 +1,7 @@
 ---
 term: Premium
 
-definition:
+definition: Lisatasu, mida makstakse üle vara, näiteks bitcoini, tavapärase hinna.
 ---
 Lisasumma, mis on makstud vara standard- või nominaalhinnale lisaks. Bitcoini kontekstis võib lisatasu täheldada ostude tegemisel, eriti vahetusplatvormidel, mis võivad mõnikord kasutada seda tehnikat, et teha oma marginaalid maaklerteenuse kohta.
 

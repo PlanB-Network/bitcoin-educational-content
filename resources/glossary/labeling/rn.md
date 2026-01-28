@@ -1,6 +1,6 @@
 ---
 term: Kumeresha
-definition:
+definition: Uburyo bwo gushira utunini (annotations) kuri UTXOs kugira ngo koroshe icungwa ry'amahera n'ibanga ryawe.
 ---
 
 Ivy'ugutanga ibisobanuro canke ikimenyetso ku UTXO yihariye muri Bitcoin Wallet. Nk'akarorero, nimba mfise UTXO iva kuri P2P naguze kuri Bisq na Charles, noshobora kuyindika ngo "`Bisq Charles atari KYC`".

@@ -1,7 +1,7 @@
 ---
 term: Output scripti deskriptorid
 
-definition:
+definition: Struktureeritud väljendid, mis kirjeldavad väljundskripti ja teavet rahakoti taastamiseks.
 ---
 Väljundskriptide kirjeldajad ehk lihtsalt kirjeldajad on struktureeritud väljendid, mis kirjeldavad täielikult väljundskripti (`scriptPubKey`) ja annavad kogu vajaliku teabe, et jälgida tehinguid konkreetsesse skriptini või konkreetsest skriptist. Need kirjeldajad hõlbustavad võtmete haldamist HD rahakottides struktuuri ja kasutatavate aadresside tüüpide standardse kirjelduse kaudu.
 

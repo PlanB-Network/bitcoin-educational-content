@@ -1,6 +1,6 @@
 ---
 term: Taro
 
-definition:
+definition: Dřívější název protokolu Taproot Assets Protocol vyvinutého společností Lightning Labs.
 ---
 Dřívější název protokolu Taproot Assets.

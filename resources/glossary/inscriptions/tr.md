@@ -1,6 +1,6 @@
 ---
 term: Yazıtlar (Inscriptions)
-definition:
+definition: Ordinals protokolü aracılığıyla satoshi'lere kazınan ve dijital eserler oluşturan keyfi içerikler.
 ---
 
 Sıralamalar Teorisi bağlamında, yazıtlar Sats üzerine kazınarak onları yerel Bitcoin dijital eserlerine dönüştüren keyfi içeriklerdir. Yazıtlar, bu şekilde bir Taproot girdisinin senaryosundaki bilgi içeriğini ortaya çıkaran işlemler aracılığıyla yapılır:

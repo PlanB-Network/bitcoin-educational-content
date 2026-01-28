@@ -1,7 +1,7 @@
 ---
 term: Jednoduchá platba
 
-definition:
+definition: Model transakce se 2 výstupy, obvykle platba a drobné (change).
 ---
 Transakční vzorec (nebo model) používaný v analýze řetězce charakterizovaný spotřebou jednoho nebo více UTXO na vstupu a výrobou 2 UTXO na výstupu. Tento model tedy bude vypadat následovně:
 

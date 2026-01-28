@@ -1,6 +1,6 @@
 ---
 term: Lightning service provider
-definition:
+definition: Lightning Network उपयोगकर्ताओं को तरलता (liquidity) सेवाएं प्रदान करने वाली कंपनी।
 ---
 
 लाइटनिंग पर संचालित कंपनी जिसका व्यवसाय उपयोगकर्ताओं को तरलता सेवाएं प्रदान करना है।

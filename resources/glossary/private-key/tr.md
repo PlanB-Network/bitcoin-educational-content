@@ -1,6 +1,6 @@
 ---
 term: Özel anahtar
-definition:
+definition: İşlemleri imzalamak ve bitcoin harcamak için kullanılan 256 bitlik gizli sayı.
 ---
 
 Özel anahtar, asimetrik kriptografinin temel bir unsurudur. Kriptografik bir sırrı temsil eden bir sayıdır (Bitcoin bağlamında 256 bit). Bu anahtar, işlemleri dijital olarak imzalamak ve bir `scriptPubKey`i karşılayarak bir Bitcoin genel anahtarının Ownership'ını (ve buna bağlı olarak bir alıcı Address'i) kanıtlamak için kullanılır. Bu nedenle, özel anahtarlar ilgili açık anahtarla ilişkili UTXO'ların kilidini açarak bitcoin harcamaya izin verir. Özel anahtarlar, ifşa edilmeleri kötü niyetli üçüncü tarafların ilgili fonların kontrolünü ele geçirmesine olanak tanıyabileceğinden kesinlikle gizli tutulmalıdır.

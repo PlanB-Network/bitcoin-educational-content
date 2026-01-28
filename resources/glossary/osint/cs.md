@@ -1,7 +1,7 @@
 ---
 term: OSINT
 
-definition:
+definition: Sběr a analýza veřejně dostupných informací pro zpravodajské účely.
 ---
 Zkratka pro "*Open Source Intelligence*". OSINT označuje sběr a analýzu veřejně dostupných informací ze zdrojů, které jsou přístupné každému. Tyto zdroje mohou zahrnovat webové stránky, fóra, sociální sítě, veřejné databáze, akademické publikace, vládní dokumenty atd. Hlavním cílem OSINT je přeměnit nezpracovaná data na využitelné informace prostřednictvím identifikace trendů, korelací a vyšetřovacích stop.
 

@@ -1,7 +1,7 @@
 ---
 term: Standardne tehing
 
-definition:
+definition: Tehing, mis järgib nii konsensusreegleid kui ka Bitcoin Core'i sõlmede vaikimisi standardimisreegleid.
 ---
 Bitcoini tehing, mis lisaks konsensusreeglite järgimisele kuulub ka Bitcoin Core'i sõlmedes vaikimisi kehtestatud standardimisreeglitesse. Need standardimisreeglid kehtestab iga Bitcoini sõlmpunkt lisaks konsensusreeglitele eraldi, et määratleda kinnitamata tehingute struktuuri, mida ta oma mempoolis aktsepteerib ja mida ta oma eakaaslastele edastab.
 

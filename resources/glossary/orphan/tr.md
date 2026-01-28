@@ -1,6 +1,6 @@
 ---
 term: Yetim
-definition:
+definition: Ana zincirde tutulmayan veya üst bloğu henüz bilinmeyen geçerli blok.
 ---
 
 Teorik olarak bir Orphan block, henüz ana bloğu, yani zincirdeki bir önceki bloğu almamış bir düğüm tarafından alınan geçerli bir bloğu ifade eder. Geçerli olmasına rağmen, bu blok yerel olarak bir yetim olarak izole kalır.

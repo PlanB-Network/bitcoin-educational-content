@@ -1,6 +1,6 @@
 ---
 term: Karıştırıcı
-definition:
+definition: Geçmişlerini silmek için birkaç kullanıcının bitcoinlerini karıştıran merkezi hizmet.
 ---
 
 Birden fazla kullanıcıdan gelen fonları karıştırarak Bitcoin Coin geçmişini kırmak için merkezi hizmet. Kullanıcıların karıştırma işlemi boyunca fonlarının kontrolünü elinde tuttuğu CoinJoin'ın aksine, bir karıştırıcı kullanıcıların bitcoinlerini geçici olarak ele geçirir, bunları diğer kullanıcıların bitcoinleriyle karıştırır ve ardından fonları yeni adreslere geri gönderir.

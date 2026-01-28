@@ -1,6 +1,6 @@
 ---
 term: Andelar
-definition:
+definition: Indikator som kvantifierar bidraget från en enskild miner i en mining-pool.
 ---
 
 I samband med Mining-pooler är en andel en indikator som används för att kvantifiera en enskild Miner:s bidrag inom poolen. Detta mått ligger till grund för beräkningen av den belöning som poolen omfördelar till varje Miner. Varje andel motsvarar en Hash som uppfyller ett svårighetsmål som är lägre än det för Bitcoin-nätverket.

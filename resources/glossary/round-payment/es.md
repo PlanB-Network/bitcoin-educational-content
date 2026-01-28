@@ -1,7 +1,7 @@
 ---
 term: Pago redondo
 
-definition:
+definition: Heurística de análisis de cadena que identifica el pago por su monto redondo en una transacción.
 ---
 Una heurística interna para el análisis de cadenas en Bitcoin que permite formular una hipótesis sobre la naturaleza de las salidas de una transacción basada en importes redondos. Generalmente, ante un patrón de pago simple (1 entrada y 2 salidas), si una de las salidas gasta una cantidad redonda, entonces representa el pago. Por eliminación, si una salida representa el pago, la otra representa el cambio. Por lo tanto, se puede interpretar que es probable que el usuario que introduce la transacción aún posea la salida identificada como el cambio.
 

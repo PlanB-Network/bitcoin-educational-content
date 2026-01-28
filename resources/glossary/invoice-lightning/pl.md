@@ -1,6 +1,6 @@
 ---
 term: Faktura Lightning
-definition:
+definition: Żądanie płatności Lightning zawierające wszystkie informacje niezbędne do sfinalizowania transakcji.
 ---
 
 Błyskawiczne żądanie płatności wygenerowane przez odbiorcę, zawierające wszystkie informacje potrzebne do sfinalizowania transakcji.

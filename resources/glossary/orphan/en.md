@@ -1,6 +1,6 @@
 ---
 term: Orphan
-definition:
+definition: Valid block not kept in the main chain or whose parent is not yet known.
 ---
 
 Theoretically, an orphan block refers to a valid block received by a node that has not yet acquired the parent block, that is, the previous one in the chain. Although valid, this block remains isolated locally as an orphan.

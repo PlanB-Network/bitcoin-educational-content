@@ -1,6 +1,6 @@
 ---
 term: OP_2 到 OP_16 (0X52 到 0X60)
-definition:
+definition: 將2到16的數值推入堆疊的操作碼。
 ---
 
 從 `OP_2` 到 `OP_16` 的操作碼會將 2 到 16 的數值分別推入堆疊。它們用來簡化腳本，允許插入小數值。這種類型的 opcode 主要用於多簽名腳本。以下是 2/3 Multisig `scriptPubKey` 的範例：

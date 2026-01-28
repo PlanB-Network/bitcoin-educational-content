@@ -1,7 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
-definition:
+definition: Opcode ishiraho igihe ntarengwa ku gukoresha UTXO.
 ---
 
 Bituma ubucuruzi butagira akamaro kiretse ivyo vyose bishitse:

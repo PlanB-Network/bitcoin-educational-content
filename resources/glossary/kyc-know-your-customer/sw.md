@@ -1,6 +1,6 @@
 ---
 term: KYC (mjue mteja wako)
-definition:
+definition: Utaratibu wa udhibiti wa uhakiki wa utambulisho unaotumiwa na baadhi ya makampuni ya Bitcoin.
 ---
 
 Utaratibu wa udhibiti unaotumiwa na baadhi ya makampuni yanayofanya kazi kwenye Bitcoin ili kuthibitisha utambulisho wa wateja wao kama sehemu ya mapambano dhidi ya utakatishaji fedha na ufadhili wa ugaidi. KYC inahusisha ukusanyaji na uthibitishaji wa data ya kibinafsi. Katika muktadha wa kununua bitcoins, KYC inaleta hatari kadhaa kwa mtumiaji, ikiwa ni pamoja na:

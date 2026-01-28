@@ -1,6 +1,6 @@
 ---
 term: Payjoin
-definition:
+definition: Urugendo rwo guhana amafaranga ruhuza abantu mu kuryohora ibanga biciye mu gushira uwo baha mu binjira.
 ---
 
 Uburyo bwihariye bw’ugucuruza bwa Bitcoin bwongerera ubuzima bwite bw’abakoresha mu gihe c’ugukoresha amahera mu gukorana n’uwuronka amahera. Ubudasa bwa PayJoin buri mu bushobozi bwayo bwo gukora generate igikorwa kimeze nk’igisanzwe iyo ukibonye ubwa mbere ariko mu vy’ukuri kikaba ari mini CoinJoin hagati y’abantu babiri. Ku bw’ivyo, imiterere y’ugucuruza ishiramwo uwuronka amahera mu vyo yinjiza iruhande y’uwurungika vy’ukuri. Gutyo, uwuronka ashiramwo amahera yishura hagati mu vyo akora bituma ashobora kwishurwa. Nk'akarorero, iyo uguze baguette ku `6.000 Sats` ukoresheje UTXO ya `10.000 Sats`, maze ugahitamwo PayJoin, umutetsi wawe azokwongerako UTXO ya `15.000 Sats` ari iyabo nk'inyungu, iyo bazosubiramwo nk'inyungu yuzuye mu,000. Sats`.

@@ -1,7 +1,7 @@
 ---
 term: KYC (tunne asiakkaasi)
 
-definition:
+definition: Joidenkin Bitcoin-yritysten käyttämä lakisääteinen henkilöllisyyden varmistusmenettely.
 ---
 Sääntelymenettely, jota eräät Bitcoinilla toimivat yritykset käyttävät asiakkaidensa henkilöllisyyden todentamiseksi osana rahanpesun ja terrorismin rahoituksen torjuntaa. KYC sisältää henkilötietojen keräämisen ja tarkistamisen. Bitcoineja ostettaessa KYC aiheuttaa käyttäjälle useita riskejä, kuten seuraavat:
 

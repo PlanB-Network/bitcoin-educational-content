@@ -1,6 +1,6 @@
 ---
 term: Analiza entropii
-definition:
+definition: Wskaźnik mierzący brak wiedzy analityków na temat konfiguracji transakcji Bitcoin.
 ---
 
 W konkretnym kontekście analizy łańcucha, entropia jest również nazwą wskaźnika, wywodzącego się z entropii Shannona, wynalezionego przez LaurentMT. Wskaźnik ten pozwala zmierzyć brak wiedzy analityków na temat dokładnej konfiguracji transakcji Bitcoin. Innymi słowy, im wyższa entropia transakcji, tym trudniej jest analitykom zidentyfikować ruchy bitcoinów między wejściami i wyjściami.

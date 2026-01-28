@@ -1,7 +1,7 @@
 ---
 term: Stale block
 
-definition:
+definition: Blocco valido ma escluso dalla catena principale quando due miner trovano contemporaneamente un blocco alla stessa altezza.
 ---
 Si riferisce a un blocco senza figli: un blocco valido, ma escluso dalla catena principale di Bitcoin. Si verifica quando due minatori trovano un blocco valido alla stessa altezza di catena entro un breve periodo di tempo e lo trasmettono in rete. I nodi alla fine scelgono un solo blocco da includere nella catena, secondo il principio della catena con il maggior numero di lavori accumulati, rendendo gli altri "obsoleti". Il processo che porta alla produzione di un blocco obsoleto è il seguente:
 

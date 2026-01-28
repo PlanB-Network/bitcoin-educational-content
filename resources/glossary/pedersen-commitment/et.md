@@ -1,6 +1,6 @@
 ---
 term: Pederseni commitment
-definition:
+definition: Homomorfne krüptograafiline kohustus, mis võimaldab summade kontrollimist ilma väärtusi avaldamata.
 ---
 
 Pedersen commitment on krüptograafilise Commitment tüüp, millel on omadus olla homomorfne liitmisoperatsiooni suhtes. See tähendab, et kahe kohustuse summat on võimalik kinnitada ilma üksikuid väärtusi avaldamata.

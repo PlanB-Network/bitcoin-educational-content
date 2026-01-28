@@ -1,7 +1,7 @@
 ---
 term: Stonewall x2
 
-definition:
+definition: Kollaborative Transaktion, die einen Mini-CoinJoin mit einem Dritten simuliert, um die Privatsphäre einer Zahlung zu verbessern.
 ---
 Eine spezielle Form der Bitcoin-Transaktion, die darauf abzielt, die Privatsphäre des Nutzers während einer Ausgabe zu erhöhen, indem er mit einer dritten Partei zusammenarbeitet, die nicht an der Ausgabe beteiligt ist. Diese Methode simuliert einen Mini-Coinjoin zwischen zwei Teilnehmern, während eine Zahlung an eine dritte Partei erfolgt. Stonewall x2-Transaktionen sind sowohl in der Samourai Wallet App als auch in der Sparrow Wallet Software verfügbar (beide sind interoperabel).
 

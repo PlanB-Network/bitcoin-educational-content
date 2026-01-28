@@ -1,6 +1,6 @@
 ---
 term: Lightning service provider
-definition:
+definition: Kompanija koja pruža usluge likvidnosti korisnicima Lightning mreže.
 ---
 
 Kompanija koja posluje na Lightning mreži čiji je posao pružanje usluga likvidnosti korisnicima.

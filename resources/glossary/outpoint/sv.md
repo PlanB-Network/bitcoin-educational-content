@@ -1,6 +1,6 @@
 ---
 term: Outpoint
-definition:
+definition: Unik referens till en UTXO, bestående av txid och utgångsindex.
 ---
 
 En unik referens till en outnyttjad transaktionsutgång (UTXO). Den består av två Elements:

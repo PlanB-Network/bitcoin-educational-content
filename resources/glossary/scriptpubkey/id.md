@@ -1,7 +1,7 @@
 ---
 term: Scriptpubkey
 
-definition:
+definition: Script dalam output transaksi yang menentukan kondisi pembelanjaan sebuah UTXO.
 ---
 Skrip yang terletak di bagian output dari transaksi Bitcoin yang mendefinisikan kondisi di mana UTXO terkait dapat dibelanjakan. Dengan demikian, skrip ini mengamankan bitcoin. Dalam bentuk yang paling umum, `scriptPubKey` berisi sebuah kondisi yang mengharuskan transaksi berikutnya untuk memberikan bukti kepemilikan kunci pricat yang sesuai dengan alamat Bitcoin yang ditentukan. Hal ini sering kali dicapai dengan sebuah skrip yang meminta tanda tangan yang sesuai dengan kunci publik yang terkait dengan alamat yang digunakan untuk mengamankan dana tersebut. Ketika sebuah transaksi mencoba untuk menggunakan UTXO ini sebagai input, transaksi tersebut harus menyediakan `scriptSig` yang, setelah digabungkan dengan `scriptPubKey`, memenuhi kondisi yang ditetapkan dan menghasilkan sebuah skrip yang valid.
 

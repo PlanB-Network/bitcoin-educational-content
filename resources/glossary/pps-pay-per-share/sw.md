@@ -1,6 +1,6 @@
 ---
 term: Pps (pay per share)
-definition:
+definition: Njia ya malipo ya kudumu kwa kila hisa iliyowasilishwa, bila kujali bloku zilizopatikana.
 ---
 
 Mbinu ya kukokotoa malipo ya wachimbaji madini ndani ya mabwawa ya Mining. PPS ni mfumo ambapo wachimbaji hulipwa kwa kila hisa halali inayowasilishwa, bila kujali kama bwawa hupata kizuizi au la. Kwa hiyo wanalipwa kulingana na thamani inayotarajiwa. Ni njia ya ujira inayotegemea kazi.

@@ -1,6 +1,6 @@
 ---
 term: Stonewall x2
-definition:
+definition: 결제 프라이버시를 개선하기 위해 제3자와 미니 코인조인(mini-coinjoin)을 시뮬레이션하는 협력적 트랜잭션.
 ---
 
 지출에 관여하지 않는 제3자와 협력하여 지출 중 사용자 개인정보 보호를 강화하는 것을 목표로 하는 특정 형태의 Bitcoin 거래입니다. 이 방법은 두 참가자 간의 미니 CoinJoin을 시뮬레이션하는 동시에 제3자에게 결제하는 방식입니다. 스톤월 x2 거래는 Samourai Wallet 앱과 Sparrow wallet 소프트웨어 모두에서 사용할 수 있습니다(둘 다 상호 운용 가능).

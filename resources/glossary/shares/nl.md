@@ -1,6 +1,6 @@
 ---
 term: Shares
-definition:
+definition: Indicator die de bijdrage van een individuele miner binnen een miningpool kwantificeert.
 ---
 
 In de context van Mining-pools is een aandeel een indicator die wordt gebruikt om de bijdrage van een individuele Miner binnen de pool te kwantificeren. Deze maat dient als basis voor de berekening van de beloning die de pool aan elke Miner herverdeelt. Elk aandeel komt overeen met een Hash die voldoet aan een moeilijkheidsdoel dat lager is dan dat van het Bitcoin netwerk.

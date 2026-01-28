@@ -1,7 +1,7 @@
 ---
 term: Louhinta
 
-definition:
+definition: Osallistuminen työntodisteeseen (proof of work) verkon suojaamiseksi ja siirtojen vahvistamiseksi.
 ---
 Osallistuminen Bitcoin-järjestelmän Proof-of-Work (työn todistus) -järjestelmään. Proof-of-Work on mekanismi Sybil-hyökkäysten torjumiseksi. Se on perusta Nakamoton konsensusmekanismille, joka on periaate, jota käytetään sopimuksen aikaansaamiseksi hajautetun pääkirjan yhdestä versiosta verkon eri solmujen välillä.
 

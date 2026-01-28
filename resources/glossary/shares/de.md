@@ -1,7 +1,7 @@
 ---
 term: Shares
 
-definition:
+definition: Indikator zur Quantifizierung des Beitrags eines einzelnen Miners innerhalb eines Mining-Pools.
 ---
 Im Zusammenhang mit Mining-Pools ist ein Anteil ein Indikator, der verwendet wird, um den Beitrag eines einzelnen Miners innerhalb des Pools zu quantifizieren. Dieses Maß dient als Grundlage für die Berechnung der Belohnung, die der Pool an jeden Schürfer weiterverteilt. Jeder Anteil entspricht einem Hash, der ein Schwierigkeitsziel erfüllt, das unter dem des Bitcoin-Netzwerks liegt.
 

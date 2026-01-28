@@ -1,6 +1,6 @@
 ---
 term: Prueba de reservas
-definition:
+definition: Mecanismo que permite a las plataformas de intercambio demostrar que poseen los bitcoins de sus clientes.
 ---
 
 Mecanismo utilizado por las plataformas Bitcoin Exchange para demostrar que realmente poseen los activos de sus clientes. El objetivo es demostrar la solvencia de la empresa verificando que sus bitcoins son equivalentes o superiores a los saldos de los usuarios que supuestamente poseen.

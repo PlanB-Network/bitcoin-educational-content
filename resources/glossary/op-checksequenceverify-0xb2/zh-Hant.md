@@ -1,6 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
-definition:
+definition: 對花費UTXO施加相對時間限制的操作碼。
 ---
 
 如果發現這些特徵中的任何一個，則會使交易無效：

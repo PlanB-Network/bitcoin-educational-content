@@ -1,6 +1,6 @@
 ---
 term: Resynchronisatie
-definition:
+definition: Vervanging van een deel van de blockchain door een concurrerende keten met meer geaccumuleerd werk.
 ---
 
 Verwijst naar een fenomeen waarbij de Blockchain een verandering van zijn structuur ondergaat door het bestaan van concurrerende blokken op dezelfde hoogte. Dit gebeurt wanneer een deel van de Blockchain wordt vervangen door een andere keten met een grotere hoeveelheid geaccumuleerd werk.

@@ -1,6 +1,6 @@
 ---
 term: Silk road
-definition:
+definition: Platforma w dark webie wykorzystująca Bitcoina i Tor, zamknięta w 2013 roku przez FBI.
 ---
 
 Silk Road to platforma internetowa założona przez Rossa Ulbrichta, znanego również pod pseudonimem Dread Pirate Roberts. Ten uruchomiony w 2011 roku internetowy rynek umożliwiał użytkownikom kupowanie i sprzedawanie produktów i usług, zarówno legalnych, jak i nielegalnych, przy jednoczesnym zachowaniu anonimowości dzięki wykorzystaniu sieci Tor i płatności Bitcoin. Silk Road oferował szeroką gamę przedmiotów, głównie narkotyków i leków na receptę, ale wykluczał działania uznane za sprzeczne z zasadami prawa naturalnego, takie jak sprzedaż usług hitmanów lub treści pornografii dziecięcej.

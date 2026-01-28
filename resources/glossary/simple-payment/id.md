@@ -1,7 +1,7 @@
 ---
 term: Pembayaran sederhana
 
-definition:
+definition: Model transaksi dengan 2 output, biasanya pembayaran dan kembalian.
 ---
 Pola transaksi (atau model) yang digunakan dalam analisis rantai yang ditandai dengan konsumsi satu atau lebih UTXO sebagai input dan produksi 2 UTXO sebagai output. Oleh karena itu, model ini akan terlihat seperti ini:
 

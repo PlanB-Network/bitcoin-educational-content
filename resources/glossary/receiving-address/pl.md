@@ -1,6 +1,6 @@
 ---
 term: Adres odbiorczy
-definition:
+definition: Informacje pozwalające na otrzymywanie bitcoinów, zazwyczaj tworzone na podstawie zahashowanego klucza publicznego.
 ---
 
 Informacje używane do otrzymywania bitcoinów. Address jest zwykle konstruowany przez haszowanie klucza publicznego, przy użyciu `SHA256` i `RIMPEMD160`, i dodanie metadanych do tego skrótu. Klucze publiczne użyte do skonstruowania otrzymującego Address są częścią Wallet użytkownika i dlatego pochodzą z jego seed. Na przykład adresy SegWit składają się z następujących informacji:

@@ -1,6 +1,6 @@
 ---
 term: Inflace
-definition:
+definition: Zvýšení peněžní zásoby vedoucí k poklesu hodnoty každé jednotky.
 ---
 
 Označuje nárůst peněz Supply v oběhu, který vede k poklesu hodnoty každé peněžní jednotky a k růstu cen zboží a služeb. U státních měn k tomuto jevu dochází, když centrální banky emitují nové měnové jednotky.

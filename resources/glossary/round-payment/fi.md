@@ -1,7 +1,7 @@
 ---
 term: Pyöristetty maksu
 
-definition:
+definition: Ketjuanalyysin heuristiikka, joka tunnistaa maksun sen pyöreästä summasta siirrossa.
 ---
 Bitcoinin ketjuanalyysin sisäinen heuristiikka, joka mahdollistaa hypoteesin tekemisen transaktion tuotosten luonteesta kierrosmäärien perusteella. Yleensä yksinkertaisen maksumallin (1 tulo ja 2 lähtöä) kohdalla, jos yksi tuloista käyttää pyöreän summan, se edustaa maksua. Eliminoimalla voidaan todeta, että jos toinen tuotos edustaa maksua, toinen edustaa muutosta. Näin ollen voidaan tulkita, että on todennäköistä, että maksutapahtuman syöttävällä käyttäjällä on edelleen hallussaan tuloste, joka on tunnistettu vaihtorahaksi.
 

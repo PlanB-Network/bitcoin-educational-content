@@ -1,7 +1,7 @@
 ---
 term: Orfano
 
-definition:
+definition: Blocco valido non mantenuto nella catena principale o il cui genitore non è ancora noto.
 ---
 In teoria, un blocco orfano si riferisce a un blocco valido ricevuto da un nodo che non ha ancora acquisito il blocco padre, cioè quello precedente nella catena. Anche se valido, questo blocco rimane isolato localmente come orfano.
 

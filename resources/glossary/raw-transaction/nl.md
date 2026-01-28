@@ -1,6 +1,6 @@
 ---
 term: Raw transactie
-definition:
+definition: Bitcoin-transactie in zijn volledige binaire vorm, klaar om te worden uitgezonden op het netwerk.
 ---
 
 Een Bitcoin transactie die is opgebouwd en ondertekend, in binaire vorm. Een ruwe transactie (*raw TX*) is de laatste representatie van een transactie, net voordat deze wordt uitgezonden op het netwerk. Deze transactie bevat alle benodigde informatie voor opname in een blok:

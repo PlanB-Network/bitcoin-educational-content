@@ -1,6 +1,6 @@
 ---
 term: Resinhronizacija
-definition:
+definition: Zemena dela blockchain-a konkurentnim lancem koji ima više akumuliranog rada.
 ---
 
 Odnosi se na fenomen u kojem Blockchain prolazi kroz modifikaciju svoje strukture zbog postojanja konkurentskih blokova na istoj visini. Ovo se dešava kada se deo Blockchain zameni drugim lancem sa većom količinom akumuliranog rada.

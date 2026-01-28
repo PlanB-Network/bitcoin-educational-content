@@ -1,7 +1,7 @@
 ---
 term: Utreexo
 
-definition:
+definition: 通过基于默克尔树（Merkle trees）的累加器压缩比特币节点UTXO集的一种协议。
 ---
 Utreexo 协议由 Tadge Dryja 设计，使用基于哈希树的累加器压缩比特币节点的 UTXO 集。与需要大量存储空间的经典 UTXO 集不同，Utreexo 只存储哈希树的根，从而大大减少了所需内存。这样，节点就能验证交易输入中使用的 UTXO 是否存在，而无需保存完整的 UTXO 集。通过使用 Utreexo，每个节点只保留一个称为 Merkle 树根的加密指纹。在进行交易时，用户提供 UTXO 的所有权证明和相应的 Merkle 路径。因此，节点无需存储整个 UTXO 集就能验证交易。让我们以图为例，来了解这一机制：
 

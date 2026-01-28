@@ -1,6 +1,6 @@
 ---
 term: Inflaatio
-definition:
+definition: Rahavarannon kasvu, joka johtaa kunkin yksikön arvon laskuun.
 ---
 
 Liikkeessä olevan rahamäärän Supply kasvu, joka johtaa kunkin rahayksikön arvon laskuun ja tavaroiden ja palvelujen hintojen nousuun. Valtion omistamissa valuutoissa tämä ilmiö ilmenee, kun keskuspankit laskevat liikkeeseen uusia rahayksiköitä.

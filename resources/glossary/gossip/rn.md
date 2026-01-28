@@ -1,6 +1,6 @@
 ---
 term: Gossip
-definition:
+definition: Amategeko ya P2P yo gukwiragiza amakuru hagati y'inkingi mu buryo bw'icaduka.
 ---
 
 Gossip ni ubuhinga bwo gukwiragiza amakuru mu buryo bw’ikiza ku bakozi bose b’urubuga. Ku Bitcoin, Lightning n’izindi nzira zitandukanye, iyo porotokole ituma Global State y’ibihimba bishobora guhindurwa no gukorana mu nzinguzingu nkeyi gusa. Buri nzira ikwiragiza amakuru ku mubanyi umwe canke benshi b’imburakimazi canke batari b’imburakimazi, na bo bagakwiragiza ayo makuru ku bandi babanyi, n’ibindi, gushika aho hashitse ku rwego rwo guhuza kw’isi yose.

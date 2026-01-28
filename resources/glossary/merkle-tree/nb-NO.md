@@ -1,7 +1,7 @@
 ---
 term: Merkle-tre
 
-definition:
+definition: Hierarkisk datastruktur som muliggjør rask verifisering av inkludering av en transaksjon i en blokk.
 ---
 Et Merkle-tre er en kryptografisk akkumulator. Det er en metode for å bevise at et gitt stykke informasjon tilhører et større sett. Det er en datastruktur som gjør det enklere å verifisere informasjon i et kompakt format. I Bitcoin-systemet brukes Merkle Trees til å gruppere og kondensere transaksjonene i en blokk til en enkelt hash, kalt Merkle Root (eller "*Root Hash*"). Hver transaksjon hashes, og deretter hashes de tilstøtende hashene hierarkisk sammen til Merkle-roten er oppnådd.
 

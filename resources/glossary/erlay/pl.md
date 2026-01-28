@@ -1,6 +1,6 @@
 ---
 term: Erlay
-definition:
+definition: Protokół poprawiający wydajność przekaźnictwa transakcji w celu zmniejszenia zużycia przepustowości.
 ---
 
 Proponowany protokół sieciowy poprawiający wydajność przekazywania niepotwierdzonych transakcji między węzłami Bitcoin.

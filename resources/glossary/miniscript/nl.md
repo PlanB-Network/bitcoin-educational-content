@@ -1,6 +1,6 @@
 ---
 term: Miniscript
-definition:
+definition: Framework dat het maken, analyseren en verifiëren von Bitcoin scripts vereenvoudigt.
 ---
 
 Framework ontworpen om een raamwerk te bieden voor het veilig programmeren van scripts op Bitcoin. De eigen taal van Bitcoin heet script. Het is vrij complex om in de praktijk te gebruiken, vooral voor geavanceerde en aangepaste toepassingen. Bovendien is het erg moeilijk om de beperkingen van een script te verifiëren. Miniscript gebruikt een subset van Bitcoin scripts om het maken, analyseren en verifiëren te vereenvoudigen. Elk miniscript is 1 voor 1 gelijkwaardig aan een native script. Er wordt een gebruikersvriendelijke beleidstaal gebruikt, die vervolgens wordt gecompileerd in miniscript, om uiteindelijk overeen te komen met een native script.

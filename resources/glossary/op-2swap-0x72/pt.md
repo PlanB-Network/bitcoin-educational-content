@@ -1,7 +1,7 @@
 ---
 term: OP_2SWAP (0X72)
 
-definition:
+definition: Opcode que troca os dois primeiros elementos da pilha com os dois seguintes.
 ---
 Troca os dois elementos no topo da pilha com os dois elementos imediatamente abaixo deles. Por exemplo, se a pilha for:
 

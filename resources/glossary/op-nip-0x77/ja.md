@@ -1,5 +1,5 @@
 ---
 term: OP_NIP (0X77)
-definition:
+definition: スタックの最上部から数えて2番目の要素を削除するOpcode。
 ---
 スタックの一番下（上から2番目）のアイテムを削除する。

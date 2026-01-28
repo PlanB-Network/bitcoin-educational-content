@@ -1,6 +1,6 @@
 ---
 term: Inflasjon
-definition:
+definition: Økning i pengemengden som fører til at verdien av hver enhet faller.
 ---
 
 Betegner økningen i pengemengden Supply i omløp, noe som fører til et fall i verdien av hver pengeenhet og en økning i prisen på varer og tjenester. For statseide valutaer oppstår dette fenomenet når sentralbankene utsteder nye valutaenheter.

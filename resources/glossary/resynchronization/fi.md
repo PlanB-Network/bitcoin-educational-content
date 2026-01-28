@@ -1,7 +1,7 @@
 ---
 term: Uudelleensynkronointi
 
-definition:
+definition: Lohkoketjun osan korvaaminen kilpailevalla ketjulla, jolla on enemmän kertynyttä työtä.
 ---
 Viittaa ilmiöön, jossa lohkoketjun rakenne muuttuu, koska samalla korkeudella olevat kilpailevat lohkot ovat olemassa. Tämä tapahtuu, kun osa lohkoketjusta korvataan toisella ketjulla, jossa on enemmän kertynyttä työtä.
 

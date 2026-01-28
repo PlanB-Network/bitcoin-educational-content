@@ -1,6 +1,6 @@
 ---
 term: Sirova transakcija
-definition:
+definition: Bitcoin transakcija u svom potpunom binarnom obliku, spremna za emitovanje na mreži.
 ---
 
 Transakcija Bitcoin koja je izgrađena i potpisana, postoji u svom binarnom obliku. Sirova transakcija (*raw TX*) je konačna reprezentacija transakcije, neposredno pre nego što se emituje na mreži. Ova transakcija sadrži sve neophodne informacije za njeno uključivanje u blok:

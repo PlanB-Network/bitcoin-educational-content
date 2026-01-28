@@ -1,7 +1,7 @@
 ---
 term: Hashrate
 
-definition:
+definition: Indikator daya komputasi jaringan Bitcoin, diukur dalam hash per detik.
 ---
 Indikator daya komputasi jaringan, diukur dalam _hash_ per detik (H/s). Parameter ini menunjukkan kapasitas penambang untuk melakukan operasi _hashing_ sebagai bagian dari mekanisme _proof-of-work_. _Hash_ yang tinggi berarti keamanan yang lebih besar untuk sejarah ekonomi Bitcoin dan meningkatkan ketahanan terhadap serangan, karena sejumlah besar daya komputasi akan diperlukan untuk membuat jaringan menjadi rentan.
 

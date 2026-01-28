@@ -1,6 +1,6 @@
 ---
 term: Miniscript
-definition:
+definition: Framework koji pojednostavljuje kreiranje, analizu i proveru Bitcoin skripti.
 ---
 
 Okvir dizajniran da obezbedi okvir za sigurno programiranje skripti na Bitcoin. Izvorni jezik Bitcoin se zove script. Prilično je složen za korišćenje u praksi, posebno za sofisticirane i prilagođene aplikacije. Pre svega, veoma je teško verifikovati ograničenja skripte. Miniscript koristi podskup Bitcoin skripti kako bi pojednostavio njihovo kreiranje, analizu i verifikaciju. Svaki miniscript je ekvivalentan 1 za 1 sa izvornom skriptom. Koristi se jezik politika prilagođen korisniku, koji se zatim kompajlira u miniscript, da bi konačno odgovarao izvornoj skripti.

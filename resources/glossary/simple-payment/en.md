@@ -1,6 +1,6 @@
 ---
 term: Simple payment
-definition:
+definition: Transaction model with 2 outputs, typically a payment and a change.
 ---
 
 Transaction pattern (or model) used in chain analysis characterized by the consumption of one or more UTXOs in inputs and the production of 2 UTXOs in outputs. This model will therefore look like this:

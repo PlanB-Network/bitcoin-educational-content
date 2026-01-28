@@ -1,10 +1,10 @@
 question: Welke stap van het Chaumian CoinJoin proces omvat het veranderen van identiteit op Tor om anonimiteit te garanderen?
-answer: De registratie van uitgangen.
+answer: De registratie van outputs.
 wrong_answers:
   - De registratie van inputs.
   - De ondertekening van de transactie.
   - Het uitzenden van de transactie.
 explanation: |
-  Om te voorkomen dat de coördinator een specifieke uitvoer aan een invoer kan koppelen, veranderen gebruikers hun Tor-identiteit voordat ze hun clear-text ontvangstadressen naar de coördinator sturen.
+  Om te voorkomen dat de coördinator een specifieke output aan een input kan koppelen, veranderen gebruikers hun Tor-identiteit voordat ze hun clear-text ontvangstadressen naar de coördinator sturen.
   
 reviewed: false

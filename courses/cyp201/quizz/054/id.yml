@@ -6,4 +6,4 @@ wrong_answers:
   - Melindungi akses dompet dengan identifikasi wajah
 explanation: |
   Passphrase berfungsi sebagai faktor keamanan kedua, mengubah seed derivasi kunci untuk mencegah akses ke dompet jika frasa mnemonik dikompromikan.
-ditinjau: true
+reviewed: true

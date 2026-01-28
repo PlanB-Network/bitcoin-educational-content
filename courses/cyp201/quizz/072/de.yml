@@ -5,5 +5,5 @@ wrong_answers:
   - Eine externe Ableitung
   - Eine nicht-standardmäßige Ableitung
 explanation: |
-  Ein Apostroph zeigt an, dass die Ableitung gehärtet ist, was bedeutet, dass ein Eltern-Privatschlüssel erforderlich ist, um den Kind-Schlüssel zu generieren.
+  Ein Apostroph zeigt an, dass die Ableitung gehärtet ist, was bedeutet, dass ein privater übergeordneter Schlüssel erforderlich ist, um den untergeordneten Schlüssel zu generieren.
 reviewed: true

@@ -1523,34 +1523,40 @@ Propietario de un Café, Vietnam
 “En mi café en el distrito de Binh Thanh, atendemos a una clientela joven y turistas ocasionales, ofreciendo una variedad de bebidas, incluyendo café, refrescos y cócteles. Tether se ha convertido en nuestra solución preferida para procesar pagos de clientes extranjeros que carecen de moneda local o cuentas bancarias. Aunque las ventas a través de Tether pueden ser pequeñas actualmente, nos proporciona una manera conveniente de cerrar la brecha de moneda y acomodar a nuestros clientes internacionales. Los clientes a menudo se asombran de nuestra apertura a aceptar pagos en criptomonedas, dejando una impresión duradera en su experiencia."
 
 ![image](assets/en/006.webp)
+
 Parvinee Ratchaphokhinpiti
 Jubilado, Tailandia
 
 “USDT revolucionó mis transferencias de dinero internacionales. Como jubilado, solía depender de transferencias bancarias lentas. Gracias a USDT, ahora puedo enviar dinero sin esfuerzo a través de un intercambio de activos digitales. En 30 minutos, mi hermana recibió los fondos. Los beneficios en términos de ahorro de tiempo son invaluables, asegurando transacciones rápidas y sin complicaciones.”
 
 ![image](assets/en/007.webp)
+
 Jamie Tran
 Profesor de Piano, Vietnam
 
 "Enviar dinero a mis familiares en el extranjero ha sido una necesidad frecuente, pero el proceso de convertir monedas en casas de cambio locales resultaba tanto lento como costoso. Para abordar estos desafíos, presenté a mis familiares la conveniencia de usar USDT. Este simple cambio ha permitido a nuestra familia ahorrar tiempo y dinero significativos en nuestras transacciones financieras. Con USDT, ahora disfrutamos de transferencias al extranjero simplificadas, asegurando un soporte eficiente y rentable para nuestros seres queridos."
 
 ![image](assets/en/008.webp)
+
 Roman
 Expatriado Ruso viviendo en Vietnam
 
 “Viviendo en Vietnam, frecuentemente envío Tether a mis familiares y primos en Rusia. Transferir dinero al extranjero con Tether es sin complicaciones en comparación con usar métodos bancarios tradicionales. No se requieren visitas al banco, documentos notariados ni explicaciones. Sin límites de envío, tarifas mínimas y transacciones rápidas, los fondos se entregan en minutos.”
 
 ![image](assets/en/009.webp)
+
 Luis Graterol
 Audiovisual, Venezuela
 
 “Mi nombre es Luis Graterol, y Tether me ayudó a asegurar mis ahorros de otra manera. En Venezuela, sufrimos debido a la alta inflación, y Tether ha ayudado mucho. Su usabilidad es simple, y en muchos casos, puedes realizar transacciones sin ninguna tarifa. ¡USDT hace mi vida más fácil! También me ayuda a educar y fomentar su uso en los medios audiovisuales; desde que descubrí su facilidad, recibo mis pagos por USDT, y me ahorro el tedioso fiat local que afecta a muchos de nosotros!”
 
 ![image](assets/en/010.webp)
+
 Dubraska Villanloga
 CEO Tu Cachapa Caricuao, Caracas, Venezuela
 
 “Soy de Venezuela y dirijo un pequeño negocio de entrega de desayunos. Tether USDT ha sido una solución viable para el problema del efectivo físico para mí. USDT también me ha ayudado con mis ahorros porque si mantuviera las cuentas de mi negocio en Bolívar Venezolano, no podría haber planificado con anticipación mi abastecimiento de alimentos debido a la constante devaluación”
+
 Marcela Romero
 Gerente de Marketing y RR.PP., Guanacaste, Costa Rica
 
@@ -1572,7 +1578,7 @@ CEO de Sp4ce Games, Brasil
 "He estado trabajando de forma remota para empresas internacionales durante unos cinco años ahora, y la mayor parte de ese tiempo, sufrí con las altas tasas de interés de los bancos nacionales, que cobran un gran porcentaje por cada remesa internacional realizada, además del tiempo de espera para la liquidación de pagos a través del sistema Swift (unas 24 horas). Cuando comencé a recibir mi salario en Tether, me di cuenta de cuánto tiempo y dinero comencé a ahorrar simplemente al ser pagada en USDT."
 
 Samuel
-Empresa de Trading, Nigeria
+Empresa de trading, Nigeria
 
 “Usar USDT ha ahorrado a nuestro negocio mucho tiempo porque, como un negocio nigeriano que obtiene USD requiere ir a nuestro banco mientras se pasa un tiempo valioso llenando formularios y haciendo cola durante horas para hacer retiros o transferencias. Con USDT, sin embargo, podemos cambiarlo por moneda local en menos de 5 minutos y ejecutar cualquier transacción que podríamos tener.”
 
@@ -1588,13 +1594,13 @@ Agencia de RR.HH., Nigeria
 
 ### **Conclusión**
 
-Esperamos que hayas encontrado estas historias inspiradoras. Dicho esto, debería quedar claro que los stablecoins, como USDT, juegan un papel fundamental al permitir a los individuos acceso a transferencias internacionales rápidas y eficientes, facturación y pagos en USD, salarios denominados en USD y, lo más importante, un almacén de valor relativamente estable en comparación con las innumerables monedas volátiles. Sin los stablecoins, muchos de estos individuos enfrentarían barreras significativas al intentar acceder al mercado global, conectarse con familiares internacionales o alcanzar clientes de otro modo inaccesibles. Los stablecoins han mejorado indudablemente su conectividad financiera y proporcionado una herramienta valiosa para navegar las complejidades de nuestra economía global.
+Esperamos que hayas encontrado estas historias inspiradoras. Dicho esto, debería quedar claro que las stablecoins, como USDT, juegan un papel fundamental al permitir a los individuos acceso a transferencias internacionales rápidas y eficientes, facturación y pagos en USD, salarios denominados en USD y, lo más importante, un almacén de valor relativamente estable en comparación con las innumerables monedas volátiles. Sin las stablecoins, muchos de estos individuos enfrentarían barreras significativas al intentar acceder al mercado global, conectarse con familiares internacionales o alcanzar clientes de otro modo inaccesibles. Las stablecoins han mejorado indudablemente su conectividad financiera y proporcionado una herramienta valiosa para navegar las complejidades de nuestra economía global.
 
 ## Examen
 
 <chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
 
-Ahora que has pasado por el Módulo "Superando Dudas", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has comprendido las últimas secciones. Comenzaremos con varias Preguntas Abiertas y luego un pequeño cuestionario.
+Ahora que has pasado por el Módulo "Superando dudas", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has comprendido las últimas secciones. Comenzaremos con varias preguntas abiertas y luego un pequeño cuestionario.
 
 1. ¿Cómo ves el concepto de valor en relación con bitcoin? ¿Crees que es necesario que una moneda esté respaldada por algo tangible para ser valiosa?
 2. Reflexionando sobre el trabajo de Roya Mahboob con el Digital Citizen Fund y la Women's Annex Foundation, ¿cuáles crees que son los beneficios clave de incorporar tecnología y Bitcoin en iniciativas dirigidas a empoderar a mujeres en países en desarrollo?
@@ -1611,26 +1617,26 @@ Ahora que has pasado por el Módulo "Superando Dudas", tendrás que poner a prue
 - La fascinante historia del dinero.
 - La revolucionaria invención que es Bitcoin.
 - El mundo de Tether y sus diversas ofertas de stablecoins.
-- Separar los hechos de la ficción en torno a los muchos conceptos erróneos asociados con Bitcoin y los Stablecoins.
+- Separar los hechos de la ficción en torno a los muchos conceptos erróneos asociados con Bitcoin y las Stablecoins.
 - Varios ejemplos de la vida real que muestran cómo estas tecnologías se utilizan activamente en nuestro mundo dinámico y en constante cambio.
 
-Dicho esto, si hubiera una conclusión principal de este curso, giraría en torno a comprender la distinción entre Bitcoin y los stablecoins al reconocer las propuestas de valor únicas que cada una de estas tecnologías aporta a la mesa.
+Dicho esto, si hubiera una conclusión principal de este curso, giraría en torno a comprender la distinción entre Bitcoin y las stablecoins al reconocer las propuestas de valor únicas que cada una de estas tecnologías aporta a la mesa.
 
-Los stablecoins de Tether ofrecen una solución valiosa para individuos que enfrentan desafíos económicos, viven bajo regímenes autoritarios o carecen de acceso a monedas estables o sistemas bancarios tradicionales. Proporcionan a cualquiera los medios para acceder a monedas más estables, facilitar pagos digitales y habilitar la movilidad de riqueza transfronteriza. Sin embargo, es esencial reconocer que los stablecoins no están exentos de riesgos. No solo las monedas fiduciarias han demostrado perder valor a largo plazo, sino que la mayoría de los stablecoins dependen de emisores de terceros, lo que requiere una confianza inherente. Esto no debe tomarse a la ligera. Por lo tanto, es de suma importancia realizar una diligencia debida exhaustiva antes de almacenar riqueza en stablecoins.
-Por otro lado, Bitcoin ofrece una solución a problemas históricos asociados con la mayoría de las formas de dinero—centralizadas y propensas a la devaluación—al ofrecer el potencial a largo plazo para un aumento del poder adquisitivo a través de una capa base digital descentralizada construida alrededor de la escasez de oferta, lo que pone la gobernanza en manos de los usuarios. Aunque la volatilidad a corto plazo de bitcoin puede ser una barrera de entrada para personas con capital limitado, para aquellos que tienen la capacidad de mirar a largo plazo, su capacidad para transformar vidas a través de la acumulación de riqueza a largo plazo es notable e indiscutible.
+Las stablecoins de Tether ofrecen una solución valiosa para individuos que enfrentan desafíos económicos, viven bajo regímenes autoritarios o carecen de acceso a monedas estables o sistemas bancarios tradicionales. Proporcionan a cualquiera los medios para acceder a monedas más estables, facilitar pagos digitales y habilitar la movilidad de riqueza transfronteriza. Sin embargo, es esencial reconocer que los stablecoins no están exentos de riesgos. No solo las monedas fiduciarias han demostrado perder valor a largo plazo, sino que la mayoría de las stablecoins dependen de emisores de terceros, lo que requiere una confianza inherente. Esto no debe tomarse a la ligera. Por lo tanto, es de suma importancia realizar una diligencia debida exhaustiva antes de almacenar riqueza en stablecoins.
+Por otro lado, Bitcoin ofrece una solución a problemas históricos asociados con la mayoría de las formas de dinero —centralizadas y propensas a la devaluación— al ofrecer el potencial a largo plazo para un aumento del poder adquisitivo a través de una capa base digital descentralizada construida alrededor de la escasez de oferta, lo que pone la gobernanza en manos de los usuarios. Aunque la volatilidad a corto plazo de bitcoin puede ser una barrera de entrada para personas con capital limitado, para aquellos que tienen la capacidad de mirar a largo plazo, su capacidad para transformar vidas a través de la acumulación de riqueza a largo plazo es notable e indiscutible.
 
 A lo largo de nuestro viaje juntos, nuestro objetivo ha sido doble: proporcionarte una comprensión más profunda de cómo el dinero tiene el potencial de dar forma al futuro y, más importante aún, empoderarte con el conocimiento necesario para tomar decisiones más informadas y participar con mayor confianza en el mundo digital global. Esperamos haber alcanzado estos objetivos.
 
 Al concluir este curso, esperamos que apliques el conocimiento adquirido aquí en tus empeños personales o profesionales. Ya sea que te encuentres navegando desafíos financieros, impulsado por la curiosidad, aspirando a invertir, o buscando aprovechar estas tecnologías para emprendimientos comerciales, esperamos que las valiosas perspectivas obtenidas de este curso se vuelvan invaluables en tu camino.
 
 ¡Que este nuevo entendimiento te empodere para navegar el mundo evolutivo de las finanzas con confianza y propósito! ¡La mejor de las suertes en tu camino de crecimiento y descubrimiento!
-¡El Futuro es Brillante!
+¡El futuro es brillante!
 
 # Sección final
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Reseñas & Valoraciones
+## Reseñas & valoraciones
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>

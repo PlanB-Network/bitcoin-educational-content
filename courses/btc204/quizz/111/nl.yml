@@ -5,4 +5,4 @@ wrong_answers:
   - Een eenvoudige betalingstransactie
   - Een transactie waarbij de ontvanger betrokken is bij de inputs
 explanation: |
-  Stonewall x2 is een specifieke vorm van Bitcoin transactie gericht op het verhogen van de privacy van gebruikers tijdens een uitgave, maar dit keer door samen te werken met een derde partij die niet betrokken is bij de uitgave. Deze methode functioneert als een mini-CoinJoin tussen twee deelnemers, terwijl er tegelijkertijd een betaling wordt gedaan aan een derde persoon.
+  Stonewall x2 is een specifieke Bitcoin-transactie gericht op het verhogen van de privacy van gebruikers tijdens een output, maar dit keer door samen te werken met een derde partij die niet betrokken is bij de output. Deze methode functioneert als een mini-CoinJoin tussen twee deelnemers, terwijl er tegelijkertijd een betaling wordt gedaan aan een derde persoon.

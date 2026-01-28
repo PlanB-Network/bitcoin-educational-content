@@ -1,7 +1,7 @@
-question: Welke heuristische analyse van de keten wordt gebruikt door de PayJoin transactie om als misleiding voor de analyse te dienen?
+question: Welke heuristische ketenanalyse wordt gebruikt door de PayJoin transactie om als misleiding voor de analyse te dienen?
 answer: De CIOH
 wrong_answers:
-  - Address hergebruik
+  - Adreshergebruik
   - Wallet vingerafdrukken
   - Hergebruik van versies
 explanation: |

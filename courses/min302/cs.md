@@ -8,15 +8,16 @@ objectives:
   - Nakonfigurovat BraiinsOS+ a připojit se k těžebnímu poolu
 ---
 
-# Vaše první kroky v těžbě!
+# Postavte si svůj první DIY bitcoinový ohřívač
 
-V tomto školení se ponoříme do těžebního průmyslu, abychom odhalili složitost tohoto tématu! Školení je přístupné všem a nevyžaduje žádnou počáteční investici.
 
-První část bude teoretická, kde Ajelex a já budeme mít podrobnou diskusi na různá témata související s těžbou. To nám pomůže lépe porozumět tomuto průmyslu a ekonomickým a geopolitickým otázkám s ním spojeným.
-Ve druhé části se zaměříme na praktický případ. Skutečně se naučíme, jak přeměnit použitý těžař S9 na domácí topení! Prostřednictvím psaných průvodců a videí vám ukážeme a vysvětlíme všechny kroky, jak toho dosáhnout u vás doma :)
 
-Prostřednictvím tohoto videa doufáme, že vám ukážeme, že těžební průmysl je složitější, než se zdá, a jeho studium pomáhá nuancovat ekologickou debatu, která je s ním spojena!
-Pokud potřebujete pomoc se svým nastavením, pro studenty byla vytvořena skupina na Telegramu a všechny potřebné komponenty lze najít na naší e-commerce platformě!
+
+Tento kurz je postaven kolem Attakai, praktického DIY projektu, který přeměňuje použitý těžař S9 na domácí bitcoinový ohřívač.
+
+Začnete stručným přehledem o těžbě Bitcoinu a realitách těžebního průmyslu, poté přejdete přímo k sestavení: získání správného hardwaru, instalace a konfigurace BraiinsOS+, nastavení sítě, výměna ventilátorů, připojení k těžebnímu poolu a optimalizace výkonu z hlediska tepla, hluku a účinnosti.
+
+Podrobné návody vás provedou celým procesem, abyste mohli postavit Attakai doma a vytěžit své první satoshi při vytápění svého prostoru.
 
 +++
 
@@ -28,7 +29,7 @@ Pokud potřebujete pomoc se svým nastavením, pro studenty byla vytvořena skup
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Vítejte v kurzu MIN201: Úvod do těžby. Ajelex, Jim & Rogzy vás rádi provedou vašimi prvními kroky v tomto odvětví. Doufáme, že si kurz užijete a že se vydáte na dobrodružství s home miningem!
+Vítejte v MIN 302, kurzu o projektu Attakai. Ajelex, Jim a Rogzy vás provedou základními prvky těžby Bitcoinu a poté vás krok za krokem doprovodí při výstavbě vašeho Attakai, DIY domácího topení vyrobeného z použitého S9. Doufáme, že se vám kurz bude líbit a že se pustíte do dobrodružství domácí těžby!
 
 Tento kurz vás zavede do světa těžby Bitcoinu, kde se seznámíte s teoretickými i praktickými aspekty. Ať už jste nováček nebo máte s těžbou již nějaké zkušenosti, tento kurz vám pomůže pochopit ekonomické a technické výzvy spojené s těžbou, a zároveň se naučíte, jak přeměnit ASIC na zařízení pro domácí vytápění.
 

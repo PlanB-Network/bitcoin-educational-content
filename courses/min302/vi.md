@@ -8,15 +8,16 @@ objectives:
   - Cấu hình BraiinsOS+ và tham gia một pool khai thác
 ---
 
-# Những bước đầu tiên trong hành trình đào bitcoin của bạn!
+# Xây dựng máy sưởi Bitcoin DIY đầu tiên của bạn
 
-Trong khóa học này, chúng ta sẽ đi sâu vào ngành công nghiệp đào bitcoin để làm sáng tỏ chủ đề phức tạp này! Khóa học mở cửa cho tất cả mọi người và không yêu cầu bất kỳ khoản phí nào.
 
-Phần đầu tiên sẽ là lý thuyết, nơi Ajelex và tôi sẽ có cuộc thảo luận sâu rộng về các chủ đề liên quan đến đào bitcoin. Điều này sẽ giúp chúng ta hiểu rõ hơn về ngành công nghiệp này cũng như các vấn đề kinh tế và địa chính trị liên quan đến nó.
-Trong phần thứ hai, chúng ta sẽ giải quyết một bài toán thực tế. Thực vậy, chúng ta sẽ học cách biến đổi một máy đào S9 đã qua sử dụng thành một hệ thống sưởi cho ngôi nhà của mình! Thông qua hướng dẫn viết và video, chúng tôi sẽ chỉ dẫn và giải thích tất cả các bước để thực hiện điều này tại nhà của bạn :)
 
-Chúng tôi hy vọng, qua video này bạn sẽ thấy rằng ngành công nghiệp đào bitcoin phức tạp hơn vẻ ngoài của nó và việc nghiên cứu về ngành này sẽ làm rõ cuộc tranh luận về môi trường liên quan đến nó!
-Nếu bạn cần sự giúp đỡ trong quá trình thực hiện, chúng tôi đã tạo một nhóm Telegram dành cho học viên, và tất cả các linh kiện cần thiết có thể tìm thấy trên nền tảng thương mại điện tử của chúng tôi.
+
+Khóa học này được xây dựng xoay quanh Attakai, một dự án DIY thực hành biến một máy đào S9 đã qua sử dụng thành máy sưởi Bitcoin cho gia đình.
+
+Bạn sẽ bắt đầu với tổng quan ngắn gọn về khai thác Bitcoin và thực tế của ngành khai thác, sau đó chuyển thẳng vào việc xây dựng: tìm nguồn phần cứng phù hợp, cài đặt và cấu hình BraiinsOS+, thiết lập mạng, thay quạt, tham gia nhóm khai thác và tối ưu hóa hiệu suất về nhiệt, tiếng ồn và hiệu quả.
+
+Các hướng dẫn từng bước dẫn bạn qua toàn bộ quy trình để bạn có thể xây dựng Attakai tại nhà và khai thác những sats đầu tiên của mình trong khi làm ấm không gian của bạn.
 
 +++
 
@@ -28,7 +29,7 @@ Nếu bạn cần sự giúp đỡ trong quá trình thực hiện, chúng tôi 
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Chào mừng bạn đến với khóa học MIN201: Giới thiệu về đào tiền. Ajelex, Jim & Rogzy rất vui được hướng dẫn bạn những bước đầu tiên trong ngành này. Chúng tôi hy vọng bạn sẽ thích khóa học này và bắt đầu cuộc phiêu lưu với việc khai thác Bitcoin tại nhà!
+Chào mừng bạn đến với MIN 302, khóa học về dự án Attakai. Ajelex, Jim và Rogzy sẽ hướng dẫn bạn qua các yếu tố cần thiết của khai thác Bitcoin, sau đó đồng hành cùng bạn từng bước trong việc xây dựng Attakai của bạn, một hệ thống sưởi ấm gia đình tự làm được chế tạo từ S9 đã qua sử dụng. Chúng tôi hy vọng bạn sẽ thích khóa học và bắt đầu cuộc phiêu lưu khai thác tại nhà!
 
 Khóa học này sẽ đưa bạn đến trung tâm của ngành công nghiệp khai thác Bitcoin, cung cấp cho bạn cả kiến thức lý thuyết và thực hành. Dù bạn là người mới bắt đầu hay đã quen thuộc với chủ đề này, khóa học này sẽ giúp bạn hiểu được các khía cạnh kinh tế và kỹ thuật liên quan đến việc khai thác, đồng thời thực hiện một dự án thực tế để tái sử dụng ASIC cho việc sưởi ấm tại nhà.
 

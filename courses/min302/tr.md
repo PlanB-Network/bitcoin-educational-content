@@ -10,21 +10,22 @@ objectives:
 
 ---
 
-# Mining'daki ilk adımlarınız!
+# İlk DIY Bitcoin ısıtıcınızı yapın
 
 
-Bu eğitimde, bu karmaşık konuyu aydınlatmak için Mining endüstrisini inceleyeceğiz! Eğitime herkes katılabilir ve herhangi bir başlangıç yatırımı gerektirmez.
 
 
-İlk bölüm teorik olacak ve burada Ajelex ve ben Mining ile ilgili çeşitli konular hakkında derinlemesine bir tartışma yapacağız. Bu, bu sektörü ve onunla ilişkili ekonomik ve jeopolitik sorunları daha iyi anlamamıza yardımcı olacak.
-
-İkinci bölümde, pratik bir vakayı ele alacağız. Gerçekten de, kullanılmış bir S9 Miner'u bir ev ısıtma sistemine nasıl dönüştüreceğimizi öğreneceğiz! Yazılı kılavuzlar ve videolar aracılığıyla, bunu evinizde başarmak için tüm adımları gösterecek ve açıklayacağız :)
 
 
-Bu kurs sayesinde size Mining endüstrisinin göründüğünden daha karmaşık olduğunu ve bu endüstriyi incelemenin onunla bağlantılı olan ekolojik tartışmaları daha nüanslı hale getirmeye yardımcı olduğunu göstermeyi umuyoruz!
 
-Kurulumunuzla ilgili yardıma ihtiyacınız varsa, öğrenciler için bir Telegram grubu oluşturuldu ve gerekli tüm bileşenler e-ticaret platformumuzda bulunabilir!
 
+
+
+Bu kurs, kullanılmış bir S9 madenciyi ev tipi bir Bitcoin ısıtıcısına dönüştüren uygulamalı bir DIY proje olan Attakai etrafında oluşturulmuştur.
+
+Bitcoin madenciliği ve madencilik endüstrisinin gerçeklerine dair özlü bir genel bakışla başlayacak, ardından doğrudan yapıma geçeceksiniz: doğru donanımı tedarik etme, BraiinsOS+ kurulumu ve yapılandırması, ağ kurulumu, fanları değiştirme, bir madencilik havuzuna katılma ve ısı, gürültü ve verimlilik açısından performansı optimize etme.
+
+Adım adım kılavuzlar, evinizde Attakai'yi inşa edebilmeniz ve alanınızı ısıtırken ilk satlarınızı madencilik yapabilmeniz için tüm süreç boyunca size rehberlik eder.
 
 +++
 
@@ -40,7 +41,7 @@ Kurulumunuzla ilgili yardıma ihtiyacınız varsa, öğrenciler için bir Telegr
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-MIN201 kursuna hoş geldiniz: Mining'e Giriş. Ajelex, Jim ve Rogzy bu sektördeki ilk adımlarınızda size rehberlik etmekten heyecan duyuyor. Umarız kurstan keyif alır ve evinizdeki Mining macerasına atılırsınız!
+MIN 302'ye, Attakai projesi hakkındaki kursa hoş geldiniz. Ajelex, Jim ve Rogzy sizi Bitcoin madenciliğinin temel unsurları konusunda yönlendirecek, ardından kullanılmış bir S9'dan yapılmış kendin yap ev ısıtma sistemi olan Attakai'nizi inşa etmede adım adım size eşlik edecektir. Kurstan keyif almanızı ve ev madenciliği macerasına atılmanızı umuyoruz!
 
 
 Bu eğitim sizi Bitcoin Mining endüstrisinin kalbine götürerek hem teorik hem de pratik bilgiler sağlar. İster yeni başlıyor olun ister konuya zaten aşina olun, bu eğitim Mining'ün ekonomik ve teknik yönlerini anlamanıza yardımcı olurken, bir ASIC'ün ev ısıtması için yeniden kullanılmasına yönelik pratik bir projeyi tamamlayacaktır.

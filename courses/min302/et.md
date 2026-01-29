@@ -8,15 +8,16 @@ objectives:
   - Seadista BraiinsOS+ ja liitu kaevandusbasseiniga
 ---
 
-# Sinu esimesed sammud kaevandamises!
+# Ehita oma esimene DIY Bitcoini kütteseade
 
-Selles koolituses sukeldume kaevandamistööstusse, et demüstifitseerida see keeruline teema! Koolitus on kõigile kättesaadav ja ei nõua algset investeeringut.
 
-Esimene osa on teoreetiline, kus Ajelex ja mina arutame põhjalikult erinevaid kaevandamisega seotud teemasid. See aitab meil paremini mõista seda tööstust ning sellega seotud majanduslikke ja geopoliitilisi küsimusi.
-Teises osas tegeleme praktilise juhtumiga. Tõepoolest, õpime, kuidas muuta kasutatud S9 kaevur koduseks küttesüsteemiks! Kirjalike juhendite ja videote kaudu näitame ja selgitame kõiki samme, et saavutada see oma kodus :)
 
-Selle video kaudu loodame näidata teile, et kaevandamistööstus on keerulisem, kui tundub, ja selle uurimine aitab nüansseerida sellega seotud ökoloogilist debatti!
-Kui vajate oma seadistusega abi, on õpilastele loodud Telegrami grupp ja kõik vajalikud komponendid leiate meie e-kaubanduse platvormilt!
+
+See kursus põhineb Attakai'l, praktilisel DIY-projektil, mis muudab kasutatud S9 kaevuri koduseks Bitcoini kütteseadmeks.
+
+Alustate Bitcoin'i kaevandamise ja kaevandamistööstuse tegelikkuse lühiülevaatega, seejärel liigute otse ehituse juurde: õige riistvara hankimine, BraiinsOS+ installimine ja seadistamine, võrgu seadistamine, ventilaatorite vahetamine, kaevandusbasseini liitumine ja jõudluse optimeerimine soojuse, müra ja tõhususe osas.
+
+Samm-sammulised juhendid viivad teid läbi kogu protsessi, et saaksite ehitada Attakai kodus ja kaevandada oma esimesed satid, samal ajal oma ruumi soojendades.
 
 +++
 
@@ -28,7 +29,7 @@ Kui vajate oma seadistusega abi, on õpilastele loodud Telegrami grupp ja kõik 
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tere tulemast kursusele MIN201: Sissejuhatus kaevandamisse. Ajelex, Jim & Rogzy on rõõmsad, et saavad teid juhendada teie esimestel sammudel selles valdkonnas. Loodame, et naudite kursust ja asute home mining seiklusele!
+Tere tulemast MIN 302-sse, Attakai projekti kursusele. Ajelex, Jim ja Rogzy juhendavad teid Bitcoin'i kaevandamise oluliste elementide kaudu, seejärel saadavad teid samm-sammult teie Attakai ehitamisel, mis on kasutatud S9-st valmistatud DIY kodune küttesüsteem. Loodame, et naudit kursust ja alustad koduse kaevandamise seiklust!
 
 See koolitus viib teid Bitcoini kaevandamise tööstuse südamesse, pakkudes teoreetilisi ja praktilisi teadmisi. Olenemata sellest, kas olete algaja või juba teema kohta teadlik, aitab see kursus teil mõista kaevandamise majanduslikke ja tehnilisi aspekte ning viia ellu praktiline projekt ASIC-seadme taaskasutamiseks kodukütteks.
 

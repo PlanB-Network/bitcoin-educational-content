@@ -8,15 +8,16 @@ objectives:
   - Configurare BraiinsOS+ e unirsi a un pool di mining
 ---
 
-# I tuoi primi passi nel mining!
+# Costruisci il tuo primo riscaldatore Bitcoin fai-da-te
 
-In questo corso, approfondiremo l'industria del mining per svelare i segreti di questo argomento così complesso! Il corso è accessibile a tutti e non richiede un investimento iniziale.
 
-La prima sezione sarà teorica, in cui avremo una discussione approfondita con Ajelex su vari argomenti legati al mining. Ciò ci permetterà di comprendere meglio questa industria e le sfide economiche e geopolitiche ad essa legate.
-Nella seconda sezione, affronteremo un caso pratico. Infatti, impareremo a trasformare un vecchio minatore S9 in un riscaldamento ausiliario per la casa! Attraverso guide scritte e video, vi mostreremo e spiegheremo tutti i passaggi necessari per realizzarlo a casa vostra :)
 
-Speriamo che questo video vi renda chiaro come l'industria del mining sia più complessa di quanto sembri e che lo studio di essa permetta di sfumare il dibattito ecologico ad essa legato!
-Se avete bisogno di aiuto per il vostro progetto, è stato creato un gruppo Telegram per gli studenti e tutti i componenti necessari possono essere trovati sul nostro e-commerce!
+
+Questo corso è costruito attorno ad Attakai, un progetto pratico fai-da-te che trasforma un miner S9 usato in un riscaldatore Bitcoin domestico.
+
+Inizierai con una panoramica concisa del mining di Bitcoin e delle realtà dell'industria mineraria, per poi passare direttamente alla costruzione: reperire l'hardware giusto, installare e configurare BraiinsOS+, configurare la rete, sostituire le ventole, unirsi a un pool di mining e ottimizzare le prestazioni in termini di calore, rumore ed efficienza.
+
+Le guide passo dopo passo ti accompagnano attraverso l'intero processo in modo da poter costruire Attakai a casa e minare i tuoi primi sats mentre riscaldi il tuo spazio.
 
 +++
 
@@ -28,7 +29,7 @@ Se avete bisogno di aiuto per il vostro progetto, è stato creato un gruppo Tele
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Benvenuto al corso MIN201: Introduzione al mining. Ajelex, Jim & Rogzy sono lieti di guidarti nei tuoi primi passi in questo settore. Speriamo che il corso sia di tuo gradimento e che tu possa iniziare l'avventura del home mining!
+Benvenuto a MIN 302, il corso sul progetto Attakai. Ajelex, Jim e Rogzy ti guideranno attraverso gli elementi essenziali del mining di Bitcoin, poi ti accompagneranno passo dopo passo nella costruzione del tuo Attakai, un sistema di riscaldamento domestico fai-da-te realizzato da un S9 usato. Speriamo che il corso ti piaccia e che ti imbarchi nell'avventura del mining domestico!
 
 Questo corso ti porta nel cuore dell'industria del mining di Bitcoin offrendoti una comprensione degli aspetti teorici e pratici. Che tu sia un principiante o abbia già familiarità con l'argomento, questo percorso ti permetterà di comprendere le sfide economiche e tecniche legate al mining, realizzando al contempo un progetto pratico di riutilizzo di un ASIC per il riscaldamento domestico.
 

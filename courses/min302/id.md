@@ -8,15 +8,16 @@ objectives:
   - Konfigurasikan BraiinsOS+ dan bergabung dengan pool penambangan
 ---
 
-# Langkah Pertama Anda dalam Penambangan!
+# Bangun pemanas Bitcoin DIY pertama Anda
 
-Dalam pelatihan ini, kita akan menyelami industri pertambangan untuk mengungkap misteri di balik subjek yang kompleks ini! 
-Pelatihan ini dapat diakses oleh siapa saja dan tidak memerlukan investasi awal apa pun.
 
-Bagian pertama akan bersifat teoritis, di mana Ajelex dan saya akan memiliki diskusi mendalam tentang berbagai topik terkait penambangan. Ini akan membantu kita lebih memahami industri ini dan isu-isu ekonomi serta geopolitik yang terkait dengannya.
-Di bagian kedua, kita akan menangani kasus praktis. Memang, kita akan belajar cara mengubah penambang S9 bekas menjadi sistem pemanas rumah! Melalui panduan tertulis dan video, kita akan menunjukkan dan menjelaskan semua langkah untuk mencapai ini di rumah Anda :)
 
-Melalui video ini, kami berharap dapat menunjukkan kepada Anda bahwa industri penambangan lebih kompleks dari yang tampak, dan mempelajarinya membantu untuk memberikan nuansa pada debat ekologis yang terkait dengannya!
+Kursus ini dibangun berdasarkan Attakai, sebuah proyek DIY praktis yang mengubah penambang S9 bekas menjadi pemanas Bitcoin untuk rumah.
+
+Anda akan memulai dengan gambaran singkat tentang penambangan Bitcoin dan realitas industri penambangan, kemudian langsung ke tahap pembangunan: mencari perangkat keras yang tepat, mem-flash dan mengonfigurasi BraiinsOS+, mengatur jaringan, mengganti kipas, bergabung dengan pool penambangan, dan mengoptimalkan kinerja untuk panas, kebisingan, dan efisiensi.
+
+Panduan langkah demi langkah memandu Anda melalui seluruh proses sehingga Anda dapat membangun Attakai di rumah dan menambang sats pertama Anda sambil menghangatkan ruangan Anda.
+
 Jika Anda memerlukan bantuan dengan pengaturan Anda, sebuah grup Telegram telah dibuat untuk siswa, dan semua komponen yang diperlukan dapat ditemukan di platform e-commerce kami!
 
 +++
@@ -27,7 +28,7 @@ Jika Anda memerlukan bantuan dengan pengaturan Anda, sebuah grup Telegram telah 
 
 ## Gambaran Umum Kursus
 
-<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
+Selamat datang di MIN 302, kursus tentang proyek Attakai. Ajelex, Jim dan Rogzy akan memandu Anda melalui elemen-elemen penting penambangan Bitcoin, kemudian mendampingi Anda langkah demi langkah dalam membangun Attakai Anda, sistem pemanas rumah DIY yang dibuat dari S9 bekas. Kami berharap Anda menikmati kursus ini dan memulai petualangan penambangan rumah!
 
 Selamat datang di kursus MIN201: Pengantar Penambangan. Ajelex, Jim & Rogzy sangat senang untuk membimbing Anda dalam langkah pertama Anda di industri ini. Kami berharap Anda menikmati kursus ini dan memulai petualangan home mining!
 

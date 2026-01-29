@@ -10,21 +10,22 @@ objectives:
 
 ---
 
-# Vaši prvi koraci u rudarenju!
+# Napravite svoj prvi DIY Bitcoin grejač
 
 
-U ovoj obuci, istražićemo industriju rudarenja kako bismo demistifikovali ovu složenu temu! Obuka je dostupna svima i ne zahteva početno ulaganje.
 
 
-Prvi deo će biti teoretski, gde ćemo Ajelex i ja imati detaljnu diskusiju o raznim temama vezanim za rudarenje. Ovo će nam pomoći da bolje razumemo ovu industriju i ekonomska i geopolitička pitanja povezana s njom.
-
-U drugom delu, bavićemo se praktičnim slučajem. Zaista, naučićemo kako da transformišemo korišćeni S9 mašinu za rudarenje u sistem za grejanje doma! Kroz pisane vodiče i video snimke, pokazaćemo i objasniti sve korake kako biste to postigli kod kuće :)
 
 
-Kroz ovaj video, nadamo se da ćemo vam pokazati da je industrija rudarenja složenija nego što se čini, a njeno proučavanje pomaže u nijansiranju ekološke debate koja je s njom povezana!
 
-Ako vam je potrebna pomoć oko postavljanja, kreirana je Telegram grupa za studente, a sve potrebne komponente možete pronaći na našoj e-commerce platformi!
 
+
+
+Ovaj kurs je zasnovan na Attakai-ju, praktičnom DIY projektu koji pretvara korišćeni S9 rudar u kućni Bitcoin grejač.
+
+Počećete sa sažetim pregledom Bitcoin rudarenja i realnosti industrije rudarenja, a zatim ćete preći direktno na gradnju: nabavka odgovarajućeg hardvera, instaliranje i konfiguracija BraiinsOS+, podešavanje mreže, zamena ventilatora, pridruživanje pool-u za rudarenje i optimizacija performansi za toplotu, buku i efikasnost.
+
+Vodiči korak po korak vode vas kroz ceo proces tako da možete izgraditi Attakai kod kuće i rudariti svoje prve satse dok grejete svoj prostor.
 
 +++
 
@@ -40,7 +41,7 @@ Ako vam je potrebna pomoć oko postavljanja, kreirana je Telegram grupa za stude
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Dobrodošli na kurs MIN201: Uvod u rudarenje. Ajelex, Jim & Rogzy su uzbuđeni da vas vode kroz vaše prve korake u ovoj industriji. Nadamo se da ćete uživati u kursu i krenuti u avanturu rudarenja kod kuće!
+Dobrodošli u MIN 302, kurs o projektu Attakai. Ajelex, Jim i Rogzy će vas voditi kroz osnovne elemente Bitcoin rudarenja, a zatim će vas pratiti korak po korak u izgradnji vašeg Attakai-a, DIY sistema kućnog grejanja napravljenog od korišćenog S9. Nadamo se da ćete uživati u kursu i krenuti u avanturu kućnog rudarenja!
 
 
 Ova obuka vas vodi u srce industrije Bitcoin rudarenja, pružajući i teorijsko i praktično znanje. Bilo da ste početnik ili već upoznati sa temom, ovaj kurs će vam pomoći da razumete ekonomske i tehničke aspekte rudarenja, dok završavate praktični projekat prenamene ASIC-a za grejanje doma.

@@ -8,15 +8,16 @@ objectives:
   - Määritä BraiinsOS+ ja liity louhintapooliin
 ---
 
-# Ensiaskeleesi louhinnassa!
+# Rakenna ensimmäinen DIY-Bitcoin-lämmittimesi
 
-Tässä koulutuksessa syvennymme louhintateollisuuteen demystifioimalla tämän monimutkaisen aiheen! Koulutus on kaikille saavutettavissa eikä vaadi alkuperäistä investointia.
 
-Ensimmäinen osio on teoreettinen, jossa Ajelex ja minä käymme läpi syvällistä keskustelua eri aiheista, jotka liittyvät louhintaan. Tämä auttaa meitä ymmärtämään paremmin tätä teollisuudenalaa sekä siihen liittyviä taloudellisia ja geopoliittisia kysymyksiä.
-Toisessa osiossa käsittelemme käytännön tapausta. Todellakin, opimme muuntamaan käytetyn S9-louhijan kotilämmitysjärjestelmäksi! Kirjallisten ohjeiden ja videoiden kautta näytämme ja selitämme kaikki askeleet, jotta voit saavuttaa tämän kotona :)
 
-Tämän videon kautta toivomme näyttävämme, että louhintateollisuus on monimutkaisempi kuin miltä se vaikuttaa, ja sen tutkiminen auttaa hienosäätämään ekologista keskustelua, joka on siihen liitetty!
-Jos tarvitset apua asennuksessasi, opiskelijoille on luotu Telegram-ryhmä, ja kaikki tarvittavat komponentit löytyvät e-kauppapaikaltamme!
+
+Tämä kurssi rakentuu Attakain ympärille – käytännönläheinen DIY-projekti, joka muuttaa käytetyn S9-louhijan kodin Bitcoin-lämmittimeksi.
+
+Aloitat tiiviillä yleiskatsauksella Bitcoin-louhinnasta ja louhintateollisuuden todellisuudesta, minkä jälkeen siirryt suoraan rakentamiseen: oikean laitteiston hankkiminen, BraiinsOS+:n asentaminen ja määrittäminen, verkon asetukset, tuulettimien vaihto, louhintapooliin liittyminen ja suorituskyvyn optimointi lämmön, melun ja tehokkuuden osalta.
+
+Vaiheittaiset oppaat ohjaavat sinut läpi koko prosessin, jotta voit rakentaa Attakai-laitteen kotona ja louhia ensimmäiset satisi lämmittäessäsi tilaasi.
 
 +++
 
@@ -28,7 +29,7 @@ Jos tarvitset apua asennuksessasi, opiskelijoille on luotu Telegram-ryhmä, ja k
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tervetuloa kurssille MIN201: Johdatus louhintaan. Ajelex, Jim & Rogzy ovat innoissaan opastaessaan sinua ensimmäisissä askelissasi tässä alalla. Toivomme, että nautit kurssista ja lähdet mukaan home mining -seikkailuun!
+Tervetuloa MIN 302 -kurssille, joka käsittelee Attakai-projektia. Ajelex, Jim ja Rogzy opastavat sinut Bitcoin-louhinnan olennaisiin elementteihin ja ohjaavat sitten askel askeleelta Attakai-laitteesi rakentamisessa, joka on käytetystä S9:stä valmistettu DIY-kotikäyttöinen lämmitysjärjestelmä. Toivomme, että nautit kurssista ja lähdet mukaan kotilouhinnan seikkailuun!
 
 Tämä koulutus vie sinut Bitcoin-louhinnan maailmaan tarjoten sekä teoreettista että käytännön tietoa. Olitpa sitten aloittelija tai jo asiasta tietoinen, tämä kurssi auttaa sinua ymmärtämään louhintaan liittyvät taloudelliset ja tekniset haasteet samalla, kun toteutat käytännön projektin ASIC-laitteen uudelleenkäytöstä kotilämmitykseen.
 

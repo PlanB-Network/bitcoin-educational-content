@@ -10,21 +10,22 @@ objectives:
 
 ---
 
-# Pierwsze kroki w Mining!
+# Zbuduj swój pierwszy grzejnik Bitcoin DIY
 
 
-W tym szkoleniu zagłębimy się w branżę Mining, aby zdemistyfikować ten złożony temat! Szkolenie jest dostępne dla każdego i nie wymaga żadnych początkowych inwestycji.
 
 
-Pierwsza część będzie miała charakter teoretyczny, w której Ajelex i ja przeprowadzimy dogłębną dyskusję na różne tematy związane z Mining. Pomoże nam to lepiej zrozumieć tę branżę oraz związane z nią kwestie gospodarcze i geopolityczne.
-
-W drugiej części zajmiemy się praktycznym przypadkiem. Rzeczywiście, dowiemy się, jak przekształcić używany S9 Miner w domowy system grzewczy! Za pomocą pisemnych przewodników i filmów pokażemy i wyjaśnimy wszystkie kroki, aby osiągnąć to w swoim domu :)
 
 
-Dzięki temu filmowi mamy nadzieję pokazać, że branża Mining jest bardziej złożona, niż się wydaje, a jej badanie pomaga zniuansować związaną z nią debatę ekologiczną!
 
-Jeśli potrzebujesz pomocy z konfiguracją, grupa Telegram została stworzona dla studentów, a wszystkie niezbędne komponenty można znaleźć na naszej platformie e-commerce!
 
+
+
+Ten kurs opiera się na Attakai — praktycznym projekcie DIY, który przekształca używaną koparkę S9 w domowy grzejnik Bitcoin.
+
+Zaczniesz od zwięzłego przeglądu kopania Bitcoin i rzeczywistości branży wydobywczej, a następnie przejdziesz bezpośrednio do budowy: pozyskiwanie odpowiedniego sprzętu, flashowanie i konfigurowanie BraiinsOS+, konfigurowanie sieci, wymiana wentylatorów, dołączanie do puli wydobywczej oraz optymalizacja wydajności pod kątem ciepła, hałasu i efektywności.
+
+Przewodniki krok po kroku przeprowadzą cię przez cały proces, abyś mógł zbudować Attakai w domu i wykopać swoje pierwsze satoshi, ogrzewając jednocześnie swoją przestrzeń.
 
 +++
 
@@ -40,7 +41,7 @@ Jeśli potrzebujesz pomocy z konfiguracją, grupa Telegram została stworzona dl
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Witamy w kursie MIN201: Wprowadzenie do Mining. Ajelex, Jim i Rogzy z przyjemnością poprowadzą Cię przez pierwsze kroki w tej branży. Mamy nadzieję, że spodoba ci się kurs i rozpoczniesz domową przygodę z Mining!
+Witamy w MIN 302, kursie o projekcie Attakai. Ajelex, Jim i Rogzy poprowadzą Cię przez kluczowe elementy wydobywania Bitcoinów, a następnie będą Ci towarzyszyć krok po kroku w budowie Twojego Attakai, systemu ogrzewania domu DIY wykonanego z używanego S9. Mamy nadzieję, że kurs Ci się spodoba i wyruszysz w przygodę z domowym wydobyciem!
 
 
 Szkolenie to przenosi w samo serce branży Bitcoin Mining, zapewniając zarówno wiedzę teoretyczną, jak i praktyczną. Niezależnie od tego, czy jesteś początkującym, czy już zaznajomionym z tematem, ten kurs pomoże Ci zrozumieć ekonomiczne i techniczne aspekty Mining, jednocześnie realizując praktyczny projekt zmiany przeznaczenia ASIC do ogrzewania domu.

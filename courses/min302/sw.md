@@ -9,16 +9,17 @@ objectives:
   - Sanidi BraiinsOS+ na ujiunge na bwawa la uchimbaji
 
 ---
-# Hatua zako za kwanza katika Mining!
+# Jenga hita yako ya kwanza ya Bitcoin ya DIY
 
-Katika mafunzo haya, tutazama katika tasnia ya Mining ili kuondoa ufahamu wa somo hili tata! Mafunzo yanapatikana kwa kila mtu na hauhitaji uwekezaji wowote wa awali.
 
-Sehemu ya kwanza itakuwa ya kinadharia, ambapo mimi na Ajelex tutakuwa na mjadala wa kina juu ya mada mbalimbali zinazohusiana na Mining. Hii itatusaidia kuelewa vyema tasnia hii na masuala ya kiuchumi na kijiografia yanayohusiana nayo.
 
-Katika sehemu ya pili, tutashughulikia kesi ya vitendo. Hakika, tutajifunza jinsi ya kubadilisha S9 Miner iliyotumika kwenye mfumo wa kupokanzwa nyumbani! Kupitia miongozo na video zilizoandikwa, tutaonyesha na kuelezea hatua zote za kufanikisha hili nyumbani kwako :)
-Kupitia video hii, tunatumai kukuonyesha kuwa tasnia ya Mining ni ngumu zaidi kuliko inavyoonekana, na kuisoma kunasaidia kutofautisha mjadala wa kiikolojia unaohusishwa nayo!
 
-Ikiwa unahitaji usaidizi kuhusu usanidi wako, kikundi cha Telegramu kimeundwa kwa ajili ya wanafunzi, na vipengele vyote muhimu vinaweza kupatikana kwenye jukwaa letu la e-commerce!
+
+Kozi hii imejengwa kuzunguka Attakai, mradi wa vitendo wa DIY unaobadilisha mchimbaji wa S9 uliotumika kuwa hita ya Bitcoin ya nyumbani.
+
+Utaanza na muhtasari mfupi wa uchimbaji wa Bitcoin na ukweli wa tasnia ya uchimbaji, kisha uende moja kwa moja kwenye ujenzi: kupata vifaa sahihi, kusakinisha na kusanidi BraiinsOS+, kuweka mtandao, kubadilisha mashurubu, kujiunga na bwawa la uchimbaji, na kuboresha utendaji kwa joto, kelele, na ufanisi.
+
+Miongozo ya hatua kwa hatua inakuongoza katika mchakato mzima ili uweze kujenga Attakai nyumbani na kuchimba sats zako za kwanza huku ukipasha joto nafasi yako.
 
 +++
 # Utangulizi
@@ -29,7 +30,7 @@ Ikiwa unahitaji usaidizi kuhusu usanidi wako, kikundi cha Telegramu kimeundwa kw
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Karibu Mining 201: utangulizi wa Mining. Ajelex, Jim & Rogzy wanafurahi kuandamana nawe katika hatua zako za kwanza madhubuti katika tasnia hii mpya. Tunatumahi utafurahiya kozi na ujiunge na hafla ya Mining ya nyumbani!
+Karibu kwenye MIN 302, kozi juu ya mradi wa Attakai. Ajelex, Jim na Rogzy wataongoza kupitia vipengele muhimu vya uchimbaji wa Bitcoin, kisha wakuandamane hatua kwa hatua katika kujenga Attakai yako, mfumo wa kupasha joto nyumbani wa DIY ulioundwa kutoka S9 iliyotumika. Tunatumaini utafurahia kozi na kuanza safari ya uchimbaji wa nyumbani!
 
 ### Muhtasari wa Kozi
 

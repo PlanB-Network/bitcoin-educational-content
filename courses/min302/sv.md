@@ -10,21 +10,22 @@ objectives:
 
 ---
 
-# Dina första steg i Mining!
+# Bygg din första DIY Bitcoin-värmare
 
 
-I den här utbildningen kommer vi att fördjupa oss i Mining-industrin för att avmystifiera detta komplexa ämne! Utbildningen är tillgänglig för alla och kräver ingen initial investering.
 
 
-Det första avsnittet kommer att vara teoretiskt, där Ajelex och jag kommer att ha en djupgående diskussion om olika ämnen relaterade till Mining. Detta kommer att hjälpa oss att bättre förstå denna bransch och de ekonomiska och geopolitiska frågor som är förknippade med den.
-
-I det andra avsnittet kommer vi att ta itu med ett praktiskt fall. Vi kommer faktiskt att lära oss hur man förvandlar en begagnad S9 Miner till ett hemvärmesystem! Genom skriftliga guider och videor kommer vi att visa och förklara alla steg för att uppnå detta hemma hos dig :)
 
 
-Genom den här kursen hoppas vi kunna visa dig att Mining-industrin är mer komplex än den verkar, och att studera den hjälper till att nyansera den ekologiska debatt som är kopplad till den!
 
-Om du behöver hjälp med installationen har en Telegram-grupp skapats för studenter, och alla nödvändiga komponenter finns på vår e-handelsplattform!
 
+
+
+Den här kursen är uppbyggd kring Attakai, ett praktiskt DIY-projekt som förvandlar en begagnad S9-miner till en Bitcoin-värmare för hemmet.
+
+Du börjar med en kortfattad översikt av Bitcoin-mining och verkligheterna inom gruvindustrin, för att sedan gå direkt till bygget: skaffa rätt hårdvara, flasha och konfigurera BraiinsOS+, ställa in nätverk, byta fläktar, gå med i en mining-pool och optimera prestanda för värme, buller och effektivitet.
+
+Steg-för-steg-guider leder dig genom hela processen så att du kan bygga Attakai hemma och bryta dina första sats medan du värmer upp ditt utrymme.
 
 +++
 
@@ -40,7 +41,7 @@ Om du behöver hjälp med installationen har en Telegram-grupp skapats för stud
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Välkommen till kursen MIN201: En introduktion till Mining. Ajelex, Jim & Rogzy är glada att få guida dig genom dina första steg i den här branschen. Vi hoppas att du tycker om kursen och påbörjar ditt Mining-äventyr!
+Välkommen till MIN 302, kursen om Attakai-projektet. Ajelex, Jim och Rogzy guidar dig genom de väsentliga elementen i Bitcoin-mining och följer sedan med dig steg för steg i att bygga din Attakai, ett DIY-hemuppvärmningssystem gjort av en begagnad S9. Vi hoppas att du gillar kursen och ger dig ut på hemma-mining-äventyret!
 
 
 Den här utbildningen tar dig till hjärtat av Bitcoin Mining-industrin och ger dig både teoretisk och praktisk kunskap. Oavsett om du är nybörjare eller redan är bekant med ämnet kommer den här kursen att hjälpa dig att förstå de ekonomiska och tekniska aspekterna av Mining, samtidigt som du slutför ett praktiskt projekt för att återanvända en ASIC för uppvärmning av hemmet.

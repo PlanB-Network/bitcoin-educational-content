@@ -10,21 +10,22 @@ objectives:
 
 ---
 
-# Intambwe zawe za mbere muri Mining!
+# Wubake icuma cawe ca mbere co gushusha Bitcoin DIY
 
 
-Muri iri huriro, tuzokwinjira cane mu bijanye n’ubuhinga bwa Mining kugira ngo dushire ahabona iyo nkuru igoye! Amahugurwa arashikira umuntu wese kandi ntaco asaba ngo umuntu akoreshe amahera y’intango.
 
 
-Igice ca mbere kizoba ari ic’ivyiyumviro, aho jewe na Ajelex tuzogira ikiganiro cimbitse ku bintu bitandukanye bijanye na Mining. Ivyo bizodufasha gutahura neza iyo nganda n’ibibazo vy’ubutunzi n’ivy’ubutaka bifitaniye isano nayo.
-
-Mu gice ca kabiri, tuzokwihweza ikintu gishoboka. Nkako, tuzomenya ingene twohindura S9 Miner yakoreshejwe ngo ibe ubuhinga bwo gushusha mu nzu! Biciye mu nyandiko z’uburongozi n’amasanamu, tuzokwereka no kubasigurira intambwe zose zo gushika kuri ivyo i muhira iwanyu :)
 
 
-Biciye muri iri shure, twizigiye kukwereka ko inganda ya Mining igoye kuruta uko isa, kandi kuyiga birafasha gutuma habaho impaka zijanye n’ibidukikije zifitaniye isano na yo!
 
-Niba ukeneye gufashwa mu gutegura, hariho umugwi wa Telegram w’abanyeshure, kandi ibice vyose bikenewe biraboneka ku rubuga rwacu rw’ubudandaji!
 
+
+
+Iyi nyigisho yubatswe kuri Attakai, umushinga wa DIY wo mu bikorwa uhindura umucukuzi wa S9 wakoreshejwe ugahinduka igikoresho co gushusha Bitcoin mu nzu.
+
+Uzotangura n'incamake y'ubucukuzi bwa Bitcoin n'ukuri kw'inganda z'ubucukuzi, hanyuma ujye mu kubaka: gushaka ibikoresho bikwiye, gushyira no gushiraho BraiinsOS+, gushiraho umuyoboro, gusimbuza abasetiri, kwinjira mu kirwa cy'ubucukuzi, no kunoza imikorere ku bushyuhe, urusaku, n'imikorere myiza.
+
+Inzira z'intambwe ku ntambwe zikuyobora mu nzira yose kugira ngo ushobore kubaka Attakai mu rugo kandi ucukure sats zawe za mbere mu gihe ushyushya umwanya wawe.
 
 +++
 
@@ -40,7 +41,7 @@ Niba ukeneye gufashwa mu gutegura, hariho umugwi wa Telegram w’abanyeshure, ka
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Ikaze mu nyigisho ya MIN201: Intangamarara ya Mining. Ajelex, Jim & Rogzy baranezerewe no kukuyobora mu ntambwe zawe za mbere muri iyi nganda. Twizeye ko muzonezerwa n’ivyo vyigwa kandi muzotangura urugendo rwo muhira Mining!
+Murakaza neza kuri MIN 302, isomo ku mushinga wa Attakai. Ajelex, Jim na Rogzy bazakuyobora mu bintu by'ibanze by'ubucukuzi bwa Bitcoin, hanyuma bakuyobore intambwe ku ntambwe mu kubaka Attakai yawe, sisitemu yo gushyushya mu rugo wakora wenyine yakozwe muri S9 yakoreshejwe. Twizera ko isomo rizakwishimisha kandi ko uzatangira ibihe by'ubucukuzi mu rugo!
 
 
 Iryo huriro rigutwara mu mutima w’inganda ya Bitcoin Mining, riguha ubumenyi bw’ivyiyumviro n’ubumenyi bw’ibikorwa. Waba uri uwutangura canke umaze kumenya neza iyo nsiguro, iri shure rizogufasha gutahura ubutunzi n’ubuhinga bwa Mining, mu gihe uriko uraheza umugambi ngirakamaro wo gusubira gukoresha ASIC mu gushusha inzu.

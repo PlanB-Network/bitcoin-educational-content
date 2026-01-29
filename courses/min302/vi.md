@@ -1,11 +1,11 @@
 ---
-name: Giới thiệu về đào bitcoin
-goal: Hiểu về cách vận hành của ngành công nghiệp đào bitcoin thông qua bài tập thực hành tái sử dụng ASIC.
+name: Sưởi ấm ngôi nhà của bạn trong khi đào bitcoin
+goal: Tái sử dụng Antminer S9 thành Attakai, một máy sưởi DIY cho khai thác tại nhà, với thiết lập có hướng dẫn.
 objectives:
-  - Hiểu lý thuyết đằng sau hoạt động đào bitcoin
-  - Hiểu về ngành công nghiệp đào bitcoin
-  - Biến đổi chiếc máy đào S9 thành một hệ thống sưởi
-  - Đào những satoshi đầu tiên cho bản thân
+  - Hiểu các nguyên tắc cơ bản của việc khai thác Bitcoin
+  - Tìm mua Antminer S9 đã qua sử dụng một cách an toàn
+  - Xây dựng máy sưởi DIY Attakai
+  - Cấu hình BraiinsOS+ và tham gia một pool khai thác
 ---
 
 # Những bước đầu tiên trong hành trình đào bitcoin của bạn!

@@ -1,12 +1,12 @@
 ---
-name: Utangulizi wa Bitcoin Mining
-goal: Elewa utendakazi wa tasnia ya Mining kupitia mazoezi ya vitendo ya kutumia tena ASIC.
+name: Pasha moto nyumba yako unapochimba bitcoin
+goal: Kutumia tena Antminer S9 kuwa Attakai, hita ya DIY kwa uchimbaji wa nyumbani, yenye usanidi unaoongozwa.
 objectives: 
 
-  - Kuelewa nadharia nyuma ya Mining
-  - Kuelewa sekta ya Mining
-  - Badilisha S9 kuwa hita
-  - Chapa Satoshi yako ya kwanza
+  - Kuelewa misingi ya uchimbaji wa Bitcoin
+  - Pata Antminer S9 iliyotumika kwa usalama
+  - Jenga hita ya DIY ya Attakai
+  - Sanidi BraiinsOS+ na ujiunge na bwawa la uchimbaji
 
 ---
 # Hatua zako za kwanza katika Mining!

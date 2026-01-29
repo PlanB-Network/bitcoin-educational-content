@@ -1,11 +1,11 @@
 ---
-name: Introduksjon til Bitcoin Mining
-goal: Forstå funksjonen til gruveindustrien gjennom en praktisk øvelse med gjenbruk av ASICs.
+name: Varm opp hjemmet ditt mens du utvinner bitcoin
+goal: Gjenbruk en Antminer S9 til Attakai, en DIY-varmer for hjemmemining, med veiledet oppsett.
 objectives:
-  - Forstå teorien bak mining
-  - Forstå gruveindustrien
-  - Transformere en S9 til en varmeovn
-  - Mine din første satoshi
+  - Forstå grunnleggende prinsipper for Bitcoin-mining
+  - Skaff en brukt Antminer S9 på en trygg måte
+  - Bygg Attakai DIY-varmeren
+  - Konfigurer BraiinsOS+ og bli med i et gruvebasseng
 ---
 
 # Dine første steg i mining!

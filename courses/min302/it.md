@@ -1,11 +1,11 @@
 ---
-name: Introduzione al Mining di Bitcoin
-goal: Comprendere il funzionamento dell'industria del mining attraverso un esercizio pratico di riutilizzo degli ASIC.
+name: Riscalda la tua casa mentre estrai bitcoin
+goal: Riutilizzare un Antminer S9 come Attakai, un riscaldatore fai-da-te per il mining domestico, con configurazione guidata.
 objectives:
-  - Comprendere la teoria del mining
-  - Comprendere l'industria del mining
-  - Trasformare un S9 in un riscaldamento
-  - Estrarre il primo satoshi
+  - Comprendere i fondamenti del mining di Bitcoin
+  - Procurarsi in sicurezza un Antminer S9 usato
+  - Costruire il riscaldatore DIY Attakai
+  - Configurare BraiinsOS+ e unirsi a un pool di mining
 ---
 
 # I tuoi primi passi nel mining!

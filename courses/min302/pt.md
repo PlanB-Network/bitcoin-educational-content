@@ -1,11 +1,11 @@
 ---
-name: Introdução à Mineração de Bitcoin
-goal: Compreender o funcionamento da indústria de mineração através de um exercício prático de reutilização de ASICs.
+name: Aqueça sua casa enquanto minera bitcoins
+goal: Reaproveitar um Antminer S9 como Attakai, um aquecedor DIY para mineração doméstica, com configuração guiada.
 objectives:
-  - Compreender a teoria da mineração
-  - Compreender a indústria de mineração
-  - Transformar um S9 em aquecedor
-  - Minerar o primeiro satoshi
+  - Compreender os fundamentos da mineração de Bitcoin
+  - Obter um Antminer S9 usado com segurança
+  - Construir o aquecedor DIY Attakai
+  - Configurar o BraiinsOS+ e juntar-se a um pool de mineração
 ---
 
 # Seus primeiros passos na mineração!

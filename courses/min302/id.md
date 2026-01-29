@@ -1,11 +1,11 @@
 ---
-name: Pengantar tentang Penambangan Bitcoin
-goal: Memahami fungsi industri penambangan melalui latihan praktis menggunakan kembali ASIC.
+name: Hangatkan rumah Anda sambil menambang bitcoin
+goal: Mengalihfungsikan Antminer S9 menjadi Attakai, pemanas DIY untuk penambangan di rumah, dengan penyiapan terpandu.
 objectives:
-  - Memahami teori di balik penambangan
-  - Memahami industri penambangan
-  - Mengubah S9 menjadi pemanas
-  - Menambang satoshi pertama Anda
+  - Memahami dasar-dasar penambangan Bitcoin
+  - Mendapatkan Antminer S9 bekas dengan aman
+  - Membangun pemanas DIY Attakai
+  - Konfigurasikan BraiinsOS+ dan bergabung dengan pool penambangan
 ---
 
 # Langkah Pertama Anda dalam Penambangan!

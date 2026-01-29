@@ -1,12 +1,12 @@
 ---
-name: Wprowadzenie do Bitcoin Mining
-goal: Zrozumienie funkcjonowania branży Mining poprzez praktyczne ćwiczenie ponownego wykorzystania układów ASIC.
+name: Ogrzewaj swój dom podczas kopania bitcoinów
+goal: Przekształć Antminer S9 w Attakai, grzejnik DIY do domowego kopania, z prowadzoną konfiguracją.
 objectives: 
 
-  - Zrozumienie teorii stojącej za Mining
-  - Zrozumieć branżę Mining
-  - Przekształć S9 w grzejnik
-  - Mój pierwszy Satoshi
+  - Zrozum podstawy kopania bitcoina
+  - Bezpiecznie pozyskaj używany Antminer S9
+  - Zbuduj grzejnik DIY Attakai
+  - Skonfiguruj BraiinsOS+ i dołącz do puli wydobywczej
 
 ---
 

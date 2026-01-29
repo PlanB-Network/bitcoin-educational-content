@@ -1,11 +1,11 @@
 ---
-name: Johdatus Bitcoin-louhintaan
-goal: Ymmärtää louhintateollisuuden toiminta käytännön harjoituksen kautta, jossa kierrätetään ASIC-laitteita.
+name: Lämmitä kotisi louhimalla bitcoineja
+goal: Muunna Antminer S9 Attakaiksi, tee-se-itse-lämmittimeksi kotilouhintaa varten, ohjatulla käyttöönotolla.
 objectives:
-  - Ymmärtää teoria louhinnan takana
-  - Ymmärtää louhintateollisuus
-  - Muuntaa S9-louhija lämmittimeksi
-  - Louhi ensimmäinen satoshisi
+  - Ymmärrä Bitcoin-louhinnan perusteet
+  - Hanki käytetty Antminer S9 turvallisesti
+  - Rakenna Attakai DIY -lämmitin
+  - Määritä BraiinsOS+ ja liity louhintapooliin
 ---
 
 # Ensiaskeleesi louhinnassa!

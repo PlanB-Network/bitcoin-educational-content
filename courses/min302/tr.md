@@ -1,12 +1,12 @@
 ---
-name: Bitcoin'a Giriş Mining
-goal: ASIC'lerin yeniden kullanılmasına yönelik pratik bir uygulama aracılığıyla Mining endüstrisinin işleyişini anlamak.
+name: Bitcoin madenciliği yaparken evinizi ısıtın
+goal: Bir Antminer S9'u Attakai'ye dönüştürmek, evde madencilik için DIY bir ısıtıcıya, rehberli kurulumla.
 objectives: 
 
-  - Mining'ün arkasındaki teoriyi anlamak
-  - Mining endüstrisini anlamak
-  - Bir S9'u ısıtıcıya dönüştürün
-  - Benim ilk Satoshi'im
+  - Bitcoin madenciliğinin temellerini anlamak
+  - Kullanılmış bir Antminer S9'u güvenli şekilde temin etmek
+  - Attakai DIY ısıtıcıyı inşa etmek
+  - BraiinsOS+ yapılandırın ve bir madencilik havuzuna katılın
 
 ---
 

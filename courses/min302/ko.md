@@ -1,12 +1,12 @@
 ---
-name: Bitcoin Mining 소개
-goal: ASIC을 재사용하는 실습을 통해 Mining 산업의 기능을 이해합니다.
+name: 비트코인을 채굴하면서 집을 난방하세요
+goal: Antminer S9를 Attakai로 재활용하여 가정용 채굴을 위한 DIY 히터로 만들고, 안내된 설정을 제공합니다.
 objectives: 
 
-  - Mining의 이론 이해
-  - Mining 산업에 대한 이해
-  - S9을 히터로 변신시키기
-  - 첫 번째 Satoshi 채굴
+  - 비트코인 채굴의 기본 원리 이해하기
+  - 중고 Antminer S9를 안전하게 확보하기
+  - Attakai DIY 히터 제작하기
+  - BraiinsOS+를 구성하고 마이닝 풀에 참여하기
 
 ---
 

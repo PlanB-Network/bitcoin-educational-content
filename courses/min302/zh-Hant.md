@@ -1,12 +1,12 @@
 ---
-name: Bitcoin 挖礦簡介
-goal: 透過使用 ASIC 礦機的實際練習，瞭解挖礦產業的運作。
+name: 在挖掘比特幣的同時為你的家供暖
+goal: 將 Antminer S9 改造為 Attakai，一款用於家庭挖礦的 DIY 暖氣，並提供引導式設定。
 objectives: 
 
-  - 了解挖礦背後的理論
-  - 了解挖礦產業
-  - 將 S9 礦機改造成加熱器
-  - 挖出你的第一個聰
+  - 了解比特幣挖礦的基本原理
+  - 安全地取得一台二手 Antminer S9
+  - 建構 Attakai DIY 暖氣
+  - 設定 BraiinsOS+ 並加入礦池
 
 ---
 # 你的挖礦初體驗！

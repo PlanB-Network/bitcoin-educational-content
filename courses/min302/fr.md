@@ -1,11 +1,11 @@
 ---
-name: Introduction au Minage de Bitcoin
-goal: Comprendre le fonctionnement de l'industrie du minage à travers un exercice pratique de réutilisation d'ASICs.
+name: Chauffez votre maison tout en minant des bitcoins
+goal: Réutiliser un Antminer S9 en Attakai, un chauffage DIY pour le minage à domicile, avec une configuration guidée.
 objectives:
-  - Comprendre la théorie sur le minage
-  - Comprendre l'industrie du minage
-  - Transformer un S9 en chauffage
-  - Miner son premier satoshi
+  - Comprendre les fondamentaux du minage de Bitcoin
+  - Se procurer un Antminer S9 d’occasion en toute sécurité
+  - Construire le chauffage DIY Attakai
+  - Configurer BraiinsOS+ et rejoindre un pool de minage
 ---
 
 # Vos premiers pas dans le minage !

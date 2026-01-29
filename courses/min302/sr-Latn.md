@@ -1,12 +1,12 @@
 ---
-name: Uvod u rudarenje Bitcoin-a
-goal: Razumevanje funkcionisanje industrije rudarenja kroz praktičnu vežbu ponovnog korišćenja ASIC-a.
+name: Grejte svoj dom dok rudarišete bitkoine
+goal: Prenameniti Antminer S9 u Attakai, DIY grejač za kućno rudarenje, uz vođeno podešavanje.
 objectives: 
 
-  - Razumeti teoriju iza rudarenja
-  - Razumeti industriju rudarenja
-  - Pretvorite S9 u grejač
-  - Izrudarite svoj prvi Satoshi
+  - Razumeti osnove rudarenja bitkoina
+  - Bezbedno nabaviti polovni Antminer S9
+  - Izgraditi Attakai DIY grejač
+  - Konfigurisati BraiinsOS+ i pridružiti se rudarskom poolu
 
 ---
 

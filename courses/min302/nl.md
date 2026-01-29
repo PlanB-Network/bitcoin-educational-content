@@ -1,12 +1,12 @@
 ---
-name: Inleiding tot Bitcoin Mining
-goal: De werking van de Mining industrie begrijpen door een praktische oefening in het hergebruiken van ASIC's.
+name: Verwarm je huis terwijl je bitcoins mint
+goal: Hergebruik een Antminer S9 als Attakai, een doe-het-zelfverwarming voor thuismining, met begeleide installatie.
 objectives: 
 
-  - De theorie achter Mining begrijpen
-  - De Mining industrie begrijpen
-  - Verander een S9 in een verwarming
-  - Mijn eerste Satoshi
+  - Begrijp de basisprincipes van Bitcoin-mining
+  - Veilig een gebruikte Antminer S9 aanschaffen
+  - Bouw de Attakai DIY-verwarming
+  - BraiinsOS+ configureren en lid worden van een miningpool
 
 ---
 

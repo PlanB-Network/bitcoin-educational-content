@@ -1,22 +1,20 @@
 ---
-name: Introduction to Bitcoin Mining
-goal: Understand the functioning of the mining industry through a practical exercise of reusing ASICs.
+name: Heat your home while mining bitcoins
+goal: Repurpose an Antminer S9 into Attakai, a DIY heater for home mining, with guided setup.
 objectives:
-  - Understand the theory behind mining
-  - Understand the mining industry
-  - Transform an S9 into a heater
-  - Mine your first satoshi
+  - Understand Bitcoin mining fundamentals
+  - Source a used Antminer S9 safely
+  - Build the Attakai DIY heater conversion
+  - Configure BraiinsOS+ and join a mining pool
 ---
 
-# Your first steps in mining!
+# Build your first DIY Bitcoin heater
 
-In this training, we will delve into the mining industry to demystify this complex subject! The training is accessible to everyone and does not require any initial investment.
+This course is built around Attakai, a hands-on DIY project that turns a used S9 miner into a home Bitcoin heater.
 
-The first section will be theoretical, where Ajelex and I will have an in-depth discussion on various topics related to mining. This will help us better understand the industry and the associated economic and geopolitical issues.
-In the second section, we will tackle a practical case. Indeed, we will learn how to transform a used S9 miner into a home heating system! Through written guides and videos, we will show and explain all the steps to achieve this at your home :)
+You will start with a concise overview of Bitcoin mining and the realities of the mining industry, then move straight into the build: sourcing the right hardware, flashing and configuring BraiinsOS+, setting up networking, replacing fans, joining a mining pool, and optimizing performance for heat, noise, and efficiency.
 
-Through this course, we aim to demonstrate that the mining industry is more complex than it appears, and studying it helps to nuance the ecological debate associated with it.
-If you need help with your setup, a Telegram group has been created for students, and all the necessary components can be found on our e-commerce platform!
+Step-by-step guides walk you through the entire process so you can build Attakai at home and mine your first sats while warming your space.
 
 +++
 

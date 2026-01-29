@@ -1,11 +1,11 @@
 ---
-name: Einführung in das Bitcoin-Mining
-goal: Verstehen, wie die Mining-Industrie durch eine praktische Übung zur Wiederverwendung von ASICs funktioniert.
+name: Heizen Sie Ihr Zuhause beim Bitcoin-Mining
+goal: Zweckentfremden Sie einen Antminer S9 zu Attakai, einer DIY-Heizung für das Mining zu Hause, mit geführter Einrichtung.
 objectives:
-  - Die Theorie des Minings verstehen
-  - Die Mining-Industrie verstehen
-  - Einen S9 in eine Heizung umwandeln
-  - Den ersten Satoshi minen
+  - Die Grundlagen des Bitcoin-Minings verstehen
+  - Einen gebrauchten Antminer S9 sicher beschaffen
+  - Die Attakai-DIY-Heizung bauen
+  - BraiinsOS+ konfigurieren und einem Mining-Pool beitreten
 ---
 
 # Ihre ersten Schritte im Mining!

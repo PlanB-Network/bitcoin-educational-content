@@ -1,11 +1,11 @@
 ---
-name: Úvod do těžby Bitcoinu
-goal: Porozumět fungování těžebního průmyslu prostřednictvím praktického cvičení s opětovným využitím ASICů.
+name: Vytápějte svůj domov při těžbě bitcoinů
+goal: Přeměňte Antminer S9 na Attakai, DIY topení pro domácí těžbu, s řízeným nastavením.
 objectives:
-  - Porozumět teorii za těžbou
-  - Porozumět těžebnímu průmyslu
-  - Přeměnit S9 na topení
-  - Vytěžit svůj první satoshi
+  - Pochopit základy těžby bitcoinu
+  - Bezpečně pořiďte použitý Antminer S9
+  - Postavit DIY topení Attakai
+  - Nakonfigurovat BraiinsOS+ a připojit se k těžebnímu poolu
 ---
 
 # Vaše první kroky v těžbě!

@@ -1,11 +1,11 @@
 ---
-name: Bitcoini kaevandamisele sissejuhatus
-goal: Mõista kaevandamistööstuse toimimist praktilise harjutuse kaudu, kasutades uuesti ASIC-e.
+name: Kütke oma kodu bitcoine kaevandades
+goal: Muutke Antminer S9 Attakai'ks, isetegemise küttekehaks koduseks kaevandamiseks, koos juhendatud seadistusega.
 objectives:
-  - Mõista kaevandamise taga olevat teooriat
-  - Mõista kaevandamistööstust
-  - Muuta S9 küttekehaks
-  - Kaevandada oma esimene satoshi
+  - Mõista Bitcoini kaevandamise aluseid
+  - Hangige turvaliselt kasutatud Antminer S9
+  - Ehita Attakai DIY-küttekeha
+  - Seadista BraiinsOS+ ja liitu kaevandusbasseiniga
 ---
 
 # Sinu esimesed sammud kaevandamises!

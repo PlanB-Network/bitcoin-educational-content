@@ -1,12 +1,12 @@
 ---
-name: Introduktion till Bitcoin Mining
-goal: Förstå hur Mining-industrin fungerar genom en praktisk övning av återanvändning av ASIC.
+name: Värm ditt hem medan du bryter bitcoin
+goal: Återanvänd en Antminer S9 som Attakai, en DIY-värmare för hembrytning, med guidad installation.
 objectives: 
 
-  - Förstå teorin bakom Mining
-  - Förstå Mining-branschen
-  - Förvandla en S9 till en värmare
-  - Min din första Satoshi
+  - Förstå grunderna i Bitcoin-brytning
+  - Skaffa en begagnad Antminer S9 på ett säkert sätt
+  - Bygg Attakai DIY-värmaren
+  - Konfigurera BraiinsOS+ och gå med i en miningpool
 
 ---
 

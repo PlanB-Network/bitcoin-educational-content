@@ -1,12 +1,12 @@
 ---
-name: Intangamarara ya Bitcoin Mining.
-goal: Gutahura ingene inganda ya Mining ikora biciye mu kwimenyereza gusubira gukoresha ASIC.
+name: Shyushya inzu yawe mu gihe uriko ucukura bitcoins
+goal: Gusubiza gukoresha Antminer S9 uyigira Attakai, igikoresho ca DIY co gushusha inzu mu bucukuzi bwo muhira, hamwe n’itunganirizwa riyobowe.
 objectives: 
 
-  - Gutahura inyigisho iri inyuma ya Mining.
-  - Gutahura inganda ya Mining
-  - Guhindura S9 mu gikoresho co gushushanya
-  - Mine Satoshi yawe ya mbere.
+  - Gutahura ivy’ishimikiro vy’ubucukuzi bwa Bitcoin
+  - Kuronka Antminer S9 yakoreshejwe mu buryo butekanye
+  - Kwubaka igikoresho ca DIY co gushusha ca Attakai
+  - Gutunganya BraiinsOS+ no kwifatanya n’itsinda ryo gucukura
 
 ---
 

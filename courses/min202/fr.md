@@ -1,5 +1,5 @@
 ---
-name: Titre du cours
+name: Miner à la maison - Pourquoi et Comment ?
 goal: Comprendre, installer, configurer et utiliser sa première machine de mining
 objectives:
   - Quelles solutions pour miner à la maison
@@ -9,66 +9,50 @@ objectives:
   - Etre en mesure de miner en totale autonomie, sur sa propre pool de solomining
 ---
 
-# Le parcours du Bitcoiner souverain: 1- Détenir ses clés privées / 2 - Faire tourner un noeud / 3- Il est temps de miner
+# Tout Bitcoiner souverain se doit de: détenir ses clés privées, faire tourner un nœud, miner à la maison
 
-Le parcours du bitcoiner souverain se déroule souvent de cette manière. D'abord on cherche à mettre nos précieux satoshis à l'abris en sautant le pas de la garde en prore. On télécharge notre wallet favori et on se fournit en matériel de "stockage froid".
+Le parcours du bitcoiner souverain se déroule souvent de cette manière. D'abord on cherche à mettre nos précieux satoshis à l'abris en sautant le pas de la garde en propre. On télécharge notre wallet favori et on se fournit en matériel de "stockage à froid".
 
-Ensuite on comprend que détenir ses propres clés ne suffit pas à nous garantir un accès autonôme au réseau bitcoin car seuls les opérateurs de noeuds peuvent diffuser des transactions sans demander la permission. Alors on fait tourner son propre noeud.
+Ensuite on comprend que détenir ses propres clés ne suffit pas à nous garantir un accès autonome au réseau bitcoin car seuls les opérateurs de nœuds peuvent diffuser des transactions sans demander la permission. Alors on fait tourner son propre nœud.
 
 Pour finir l'étape ultime de tout Bitcoiner souverain c'est d'ajouter sa propre contribution à la sécurité du réseau en déployant de la puissance de calcul supplémentaire, du hashrate, et en minant depuis chez soit.
 
 Dans ce cours MIN202 nous verrons comment miner du bitcoin à la maison, grace à des machines adaptées à cet usage et facilement configurable par tous.
-Nous verrons les différentes solutions hardware qui s'offrent à nous pour se faire, les logiciels associés, comment les utiliser. 
+Nous verrons les différentes solutions hardware qui s'offrent à nous pour ce faire, les logiciels associés, et comment les utiliser. 
 
 Désormais miner à la maison est devenu simple, les solutions "plug & play" sont là et c'est une excellente nouvelle.
 
 # Introduction
 
 
-## 1.1 Aperçu du cours
+## Aperçu du cours
 
 
 Bienvenue dans le cours MIN 202. L'objectif ici sera de permettre à quiconque qui décide de miner du bitcoin de pouvoir le faire facilement chez soit, tout en en comprenant les enjeux et les limitations potentielles. Est-ce utile, est-ce rentable, si oui dans quel contexte etc...
 
 ### Partie 1- Introduction
 
-Dans cette partie nous rappellerons rapidement les notions de bases du fontionnement de bitcoin et de  la **preuve de travail**, afin de savoir faire la différence entre un appareil de mining et un noeud bitcoin simple.
-Ce sera l'occasion pour nous de rappeler le rôle de la **preuve de travail** au sein du protocole bitcoin, et donc la place des mineurs et des pool de mining dans cet écosystème, leur rôle, leur pouvoir et influence sur le protocole.
+Dans cette partie nous rappellerons rapidement les notions de bases du fonctionnement de bitcoin et de la **preuve de travail**, afin de savoir faire la différence entre un appareil de mining et un nœud bitcoin simple et se remémorer les bases.
+Ce sera l'occasion pour nous de rappeler le rôle du minage au sein du protocole bitcoin, et donc la place des mineurs et des pool de mining dans cet écosystème, leur rôle, leur pouvoir et influence sur le réseau.
 Nous verrons également les défis qui se posent au particulier qui souhaiteraient participer et miner depuis chez lui, et les solutions potentielles qui s'offrent à lui
-
-#### Brefs Rappels sur la preuve de travail et le mining(fusionner les 3 )
-#### Mineur vs Noeud
-#### Qu'est ce qu'une pool de mining et à quoi ça sert ?
-#### Miner soit-même "à la maison" défis et solutions
-
-
-
 
 ### Partie 2 - Pourquoi  et comment miner soit-même ?
 
 Dans la seconde partie de ce cours nous essaierons de déterminer les raisons qui peuvent pousser un particulier à vouloir miner à la maison, et les différentes manière d'y parvenir en fonction du contexte et du profil de chacun.
 
-Nous détaillerons ainsi le fonctionnement du solo ou en pool en essayant de vous aider à choisir la meilleur manière de vous y prendre en fonction de vos objectifs.
+Nous détaillerons ainsi le fonctionnement du minage en solo ou en pool "mutualiste" en essayant de vous aider à choisir la meilleur manière de vous y prendre en fonction de vos objectifs.
 
-Nous dresserons à cet effet un panorama des solutions logicielles et matérielles adaptées à un usage domestique, et qui ne nécessitent aucune connaissances particulière en que ce soit en informatique ou du matériel à utliser.
-#### Pourquoi faire du Solomining
-#### Pourquoi miner en Pool 
-#### Panorama des solutions hardware
-#### Panorama des solutions software (profil de genrs, simple, cypherpunk, medium)
-
-
+Nous dresserons à cet effet un panorama des solutions logicielles et matérielles adaptées à un usage domestique, et qui ne nécessitent aucune connaissances particulière que ce soit en informatique ou du matériel à utiliser.
 
 ### Partie 3 - Installer et configurer son premier mineur personnel
 
-Dans cette troisème grande partie, nous étudierons le projet Bitaxe en détail. Ce projet 100% Open Source tant du point de vue matériel que logiciel,vise à rendre le minage accessible à tout un chacun, en permettant de construire soit même sa machine ASIC et de l'opérer.
+Dans cette troisième grande partie, nous étudierons le projet Bitaxe en détail. Ce projet 100% Open Source tant du point de vue matériel que logiciel, vise à rendre le minage accessible à tout un chacun, en permettant de construire soit même sa machine ASIC et de l'opérer.
 
-Puis nous verrons en détail comment installer l'appareil et le configurer. On en profitera également pour dresser une cartographie des pools de minages (solo ou mutualisé) que vous pourrez utiliser avec votre Bitaxe, et de leurs caractéristiques et spécificités.
+Puis nous verrons en détail comment installer l'appareil et le configurer. On en profitera également pour dresser une cartographie des pools de minages (solo ou mutualistes) que vous pourrez utiliser avec votre Bitaxe, de leurs caractéristiques et spécificités.
 
-Enfin nous en profiterons pour faire un tour complet d'AXEOS le système d'exploitation de votre Bitaxe, afin de comprenre comment le piloter sur le bout des doigts.
+Enfin nous en profiterons pour faire un tour complet d'AxeOS le système d'exploitation de votre Bitaxe, afin de comprendre comment le piloter sur le bout des doigts.
 
 Pour finir on passera en revue les bonnes pratiques visant le bon entretien de votre machine afin que celle-ci soit opérationnelle le plus longtemps possible.
-
-
 #### Bitaxe le projet 100% Open Source
 
 #### Installation d'un Bitaxe et connexion à une "solopool"
@@ -76,8 +60,7 @@ Pour finir on passera en revue les bonnes pratiques visant le bon entretien de v
 #### Découverte d'AxeOS 
 #### Entretien de la machine 
 
-
-### Partie 4 - Miner via sa propre pool de mining et construire ses propres templates de block
+### Partie 4 - Miner via sa propre pool de minage et construire ses propres templates de bloc
 
 Enfin nous aborderons dans une dernière partie les moyens mis à la disposition des particuliers pour miner de manière aussi autonome que possble. En effet les pools de mining sont en fait des intermédaires, c'est à dire des tiers de confiance.
 
@@ -85,12 +68,7 @@ Un mineur souverain doit en effet être en mesure d'ajouter sa propre puissance 
 
 Ce sera l'occasion de parler de Stratum v2 de Datum, et de l'applicatiopn Public Pool qui permettent un plus grand contrôle à l'utilisateur en lui permettant de s'affranchir en partie ou totalement du bon vouloir des pools de mining.
 
-#### Pourquoi ? (Block Template / intermédiare etc...)
-#### Public Pool sur Umbrel & Start 9
-#### Stratum V2 & Datum
-
-
-## 1.2 Rappel rapide sur la preuve de travail et le minage de Bitcoin
+## Rappel rapide sur la preuve de travail et le minage de Bitcoin
 
 
 Commençons par rappeler succintement à quoi sert la **preuve de travail** et ce qu'on appelle communément le minage de Bitoin.
@@ -114,23 +92,23 @@ Certes tout le monde peut proposer un nouveau bloc de transactions, mais sous r�
 
 ### La preuve de travail, pierre angulaire de la résolution du problème de la double dépense
 
-Chaque mineur qui veut proposer un nouveau bloc et ainsi recevoir la récompense de bloc associée (contituée de la subvention de bloc  de 3,125 BTC  à l 'heure où est écrit ce cours, et des frais de transactions payés par les utilisateurs) peut le faire à condition d'avoir la preuve qu'un travail a été fournie. En somme il s'agit d'une sorte de compétition entre mineurs, chacun essayant de trouver une solution à un problème cryptographique que l'on ne détaillera pas ici. Ce qu'il faut retenir c'est que c'est par le biais ce concours, que l'on est en mesure de désigner qui est en droit d'ajouter le dernier bloc au "grand livre de compte" qu'on appelle "blockchain". Si quelqu'un cherchait à propager une transaction dépensant des Bitcoin déjà intégré au grand registre, les noeuds du réseau s'en rendraient compte et la considéreraient comme invalide.
+Chaque mineur qui veut proposer un nouveau bloc et ainsi recevoir la récompense de bloc associée (contituée de la subvention de bloc  de 3,125 BTC  à l 'heure où est écrit ce cours, et des frais de transactions payés par les utilisateurs) peut le faire à condition d'avoir la preuve qu'un travail a été fournie. En somme il s'agit d'une sorte de compétition entre mineurs, chacun essayant de trouver une solution à un problème cryptographique que l'on ne détaillera pas ici. Ce qu'il faut retenir c'est que c'est par le biais ce concours, que l'on est en mesure de désigner qui est en droit d'ajouter le dernier bloc au "grand livre de compte" qu'on appelle "blockchain". Si quelqu'un cherchait à propager une transaction dépensant des Bitcoin déjà intégré au grand registre, les nœuds du réseau s'en rendraient compte et la considéreraient comme invalide.
 
 Ainsi la **preuve de travail** est l'élément central du protocole Bitcoin permettant de désigner alternativement et en dehors de toute considération autre que l'énergie dépensée pour essayer de résoudre le problème le plus rapidement possible , qui sera en mesure de modifier le registre et de recevoir sa récompense.
 
 ![Image](assets/fr/003.webp)
 
-### Noeuds mineurs & Noeuds non mineurs
+### Nœuds mineurs & Nœuds non mineurs
 
-Pour en terminer avec ces rappels thériques sur la fonctionnement du minage, il convient de savoir distinguer les principaux acteurs du réseau que sont les **noeuds mineurs** et les **noeuds non mineurs.**
+Pour en terminer avec ces rappels théoriques sur la fonctionnement du minage, il convient de savoir distinguer les principaux acteurs du réseau que sont les **nœuds mineurs** et les **nœuds non mineurs.**
 
-Les noeuds **non mineurs**, sont simplement des utilisateurs du réseau, qui stockent le grand livre de compte, vérifient que les blocs ajoutés par les mineurs sont valides, et qui relaient les transactions d'autres noeud du réseau afin que celles-ci aient un chance d'atteindre un noeud mineur pour être ajoutée au registre. Un noeud non mineurs sert en quelque sorte de porte d'accès au réseau Bitcoin. Sans noeud vous ne pouvez pas diffuser de transactions sur le réseau, ni vérifier le solde de vos adresses et de votre wallet. En synthèse un noeud non mineur permet **d'utiliser** le réseau de manière souveraine.
+Les nœuds **non mineurs**, sont simplement des utilisateurs du réseau, qui stockent le grand livre de compte, vérifient que les blocs ajoutés par les mineurs sont valides, et qui relaient les transactions d'autres nœud du réseau afin que celles-ci aient un chance d'atteindre un nœud mineur pour être ajoutée au registre. Un nœud non mineurs sert en quelque sorte de porte d'accès au réseau Bitcoin. Sans nœud vous ne pouvez pas diffuser de transactions sur le réseau, ni vérifier le solde de vos adresses et de votre wallet. En synthèse un nœud non mineur permet **d'utiliser** le réseau de manière souveraine.
 
-Les **noeuds mineurs** quant à eux possèdent en plus une partie logicielle aditionnelle, leur permettant d'interragir avec des machines de minage qu'on appelle aujourd'hui **ASIC (Application Specific integrated Circuit)**. Ils sélectionnent les transactions qui les intéressent le plus, généralement celles qui payent le plus de frais et constituent des blocs. Puis ils proposent ces blocs candidats à la machine de minage qui essaye de résoudre le fameux problème cryptographique. Puis en cas de succès le noeud mineur propose le bloc et sa **preuve de travail** au réseau. En synthèse en noeud mineur permet de **faire fonctionner** le réseau.
+Les **nœuds mineurs** quant à eux possèdent en plus une partie logicielle additionnelle, leur permettant d’interagir avec des machines de minage qu'on appelle aujourd'hui **ASIC (Application Specific integrated Circuit)**. Ils sélectionnent les transactions qui les intéressent le plus, généralement celles qui payent le plus de frais et constituent des blocs. Puis ils proposent ces blocs candidats à la machine de minage qui essaye de résoudre le fameux problème cryptographique. Puis en cas de succès le nœud mineur propose le bloc et sa **preuve de travail** au réseau. En synthèse en nœud mineur permet de **faire fonctionner** le réseau.
 
 
 
-## 1.3 Miner soit-même "à la maison" défis et solutions
+## Miner soit-même "à la maison" défis et solutions
 
 ### Une industrie du minage ultra compétitive
 
@@ -165,7 +143,7 @@ On verra même que dans certains cas, miner à la maison peut présenter un cert
 
 # Pourquoi et comment miner soit-même ?
 
-## 2.1 Pourquoi miner en Pool "mutualiste" (supprimer tout les ##)
+## Pourquoi miner en Pool "mutualiste" (supprimer tout les ##)
 
 ### Qu'est ce qu'une pool de mining ?
 
@@ -183,7 +161,7 @@ Sans cette association entre mineurs qui partagent la récompense lorsque l'un d
 
 Cela **réduit la variance** : au lieu de tout miser sur une "loterie" où les chances de miner un bloc seul sont infimes , on obtient  des fractions de BTC régulièrement, quotidiennement ou hebdomadairement, en fonction de son hashrate. 
 
-## 2.2 Pourquoi faire du solo mining
+## Pourquoi faire du solo mining
 
 Le **solo mining** (ou minage en solo) consiste à miner  **sans passer par une pool mutualiste**. 
 
@@ -197,8 +175,8 @@ Les professionnels ayant eux besoin de revenus réguliers pour palier à leurs o
 
 On vient de voir que dans le minage en **pool**, on contribue à un effort collectif pour trouver le prochain bloc. On soumet  des “shares” et si le pool trouve un bloc, la récompense (3,125 BTC actuellement + les frais de transaction) est **répartie**  au pro-rata la puissance de chacun.
 
-En **solo mining**, il est soit possible de faire tourner son propre noeud et son propre logiciel de minage afin de miner de manière totalement souveraine.
-Ou bien de passer par un service tiers, une sorte de proxy qu'on appellera "solo pool", et qui nous apportera la couche logicielle nécessaire à la construction des blocs ainsi que le noeud Bitcoin.
+En **solo mining**, il est soit possible de faire tourner son propre nœud et son propre logiciel de minage afin de miner de manière totalement souveraine.
+Ou bien de passer par un service tiers, une sorte de proxy qu'on appellera "solo pool", et qui nous apportera la couche logicielle nécessaire à la construction des blocs ainsi que le nœud Bitcoin.
 
 Quoi qu'il en soit cette fois-ci quand un mineur trouve un bloc, ce dernier garde **100 % de la récompense**. On peut également préciser que même lorsqu'on choisit le solomining, 2 approches sont possibles:
 
@@ -207,7 +185,7 @@ Quoi qu'il en soit cette fois-ci quand un mineur trouve un bloc, ce dernier gard
 
 ![Image](assets/fr/007.webp)
 
-**La seconde** consiste pour chaque solominer à auto héberer sur un serveur qui lui appartient le noeud bitcoin et le logiciel de minage qui lui permet de sélectionner lui même les transactions qu'il veut inclure dans sont bloc, et de construire soit-même le block template. C'est la manière la plus souveraine de faire du solomining et aujourd'hui les miniserveurs personnels comme Umbrel ou Start9 bien connus des bitoiners, permettent de facilement choisir cette option si on le désire.
+**La seconde** consiste pour chaque solominer à auto héberer sur un serveur qui lui appartient le nœud bitcoin et le logiciel de minage qui lui permet de sélectionner lui même les transactions qu'il veut inclure dans sont bloc, et de construire soit-même le bloc template. C'est la manière la plus souveraine de faire du solomining et aujourd'hui les miniserveurs personnels comme Umbrel ou Start9 bien connus des bitoiners, permettent de facilement choisir cette option si on le désire.
 
 ![Image](assets/fr/008.webp)
 
@@ -240,7 +218,7 @@ Trouver un bloc, même avec du matériel modeste, c’est **comme gagner au loto
 Probabilité faible, mais gain énorme — surtout quand on fait tourner la machine pour le plaisir et non pour le profit.
 Par exemple si 1 millions de Bitaxes (petites machines de mining) dont on estime qu'aujourd'hui déjà des centaines de milliers sont en service) minaient en solo, cela représenterait au jour ou ce paragraphe est écrit, environ 1 Eh/s soit 1/1000 du hashrate total. De quoi miner un bloc par semaine. Un ticket de loto par semaine gagné par un individu quelque part dans le monde, de quoi changer une vie.
 
-En synthèse et quelque soit la raison qui pousse un individu à solominer, il s'agit là de se reconnecter à la vision originelle de Satoshi où n'importe quel utilisateur du réseau participait à renforcer la sécurité et la décentralisation de celui-ci via un système d'incitations bien alignées. Même un mineur uniquement interessé par l'aspect loterie du minage de bitcoin devient un maillon important du réseau. En effet les petits ruisseaux faisant les grandes rivières, une généralisaiton de ce type de comportement pourrait aider de manière substancielles au retour d'une partie significative du hashrate entre les mains des particuliers.
+En synthèse et quelque soit la raison qui pousse un individu à solominer, il s'agit là de se reconnecter à la vision originelle de Satoshi où n'importe quel utilisateur du réseau participait à renforcer la sécurité et la décentralisation de celui-ci via un système d'incitations bien alignées. Même un mineur uniquement intéressé par l'aspect loterie du minage de bitcoin devient un maillon important du réseau. En effet les petits ruisseaux faisant les grandes rivières, une généralisation de ce type de comportement pourrait aider de manière substantielles au retour d'une partie significative du hashrate entre les mains des particuliers.
 
 | Feature          | Solomining                                                                         | Pool Mining                                                                        |
 | ---------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -251,7 +229,7 @@ En synthèse et quelque soit la raison qui pousse un individu à solominer, il s
 | Setup Complexity | A bit harder for those who seek total sovereignty                                  | Easy                                                                               |
 
 
-## 2.3 Panorama des solutions hardware
+## Panorama des solutions hardware
 
 Nous allons dans ce paragraphe détailler une partie (nonexhaustive) des solutions matérielles qui s'offrent à vous pour miner à la maison. Les machines que nous présenterons sont "plug & play" et adaptée à un usage domestique, et peuve même tourner dans votre salon.
 
@@ -370,7 +348,7 @@ De nouveau, l'application Avalon Family permet le pilotage, et la connectivité 
 
 https://bitcoinbazar.fr/en/products/avalon-q
 
-## 2.4 Panorama des solutions software
+## Panorama des solutions software
 
 Lorsqu'il s'agit de matériel de minage, le logiciel installé sur l'appareil  est appelé "firmware". Ce logiciel se compose en synthèse de l'OS (Operating System) de l'appareil, du logiciel de minage, et de l'interface web / application mobile, qui vous permettra d'interagir facilement avec votre miner depuis un navigateur d'ordinateur classique, ou votre smartphone.
 
@@ -396,7 +374,7 @@ C'est le cas de Braiins OS qui peut se subtituer au firmware de base des apparei
 
 # Installer et configurer son premier mineur personnel
 
-## 3.1 Mise en perspective et ordres de grandeurs
+## Mise en perspective et ordres de grandeurs
 
 Dans ce paragraphe  nous entrons dans la pratique. Nous verrons comment paramétrer un Bitaxe Gamma 601 et le connecter à une pool de mining.
 
@@ -458,7 +436,7 @@ Dernière remarque, mais il est à noter que certain chanceux ont eux déjà ré
 
 ![Image](assets/fr/045.webp)
 
-## 3.2 Installation d'un Bitaxe et connexion à une "solopool"
+## Installation d'un Bitaxe et connexion à une "solopool"
 
 Entrons dans le dur du sujet désormais et installons notre 1er Bitaxe.
 
@@ -565,7 +543,7 @@ Les informations affichées sont en synthèse:
 
 Nous sommes désormais parés, nous minons et participons à l'effort global et la décentralisation du hashrate tout en ayant une maigre chance d'être récompensé. Mission accomplie.
 
-## 3.3 Panorama des différentes Pool de mining
+## Panorama des différentes Pool de mining
 
 **Disclaimer:** Les Pool de mining sont des tiers de confiance. Si vous ne faites pas tourner votre propre logiciel de mining et comptez sur quelqu'un d'autre pour le faire, de la confiance est nécessaire et rien ne garanti que l'opérateur du serveur auquel vous êtes connecté est honnêtes.
 
@@ -744,7 +722,7 @@ Synthèse:
 | Mutualiste   |             |       |             |     |
 
 
-## 3.4 Découverte d'AxeOS (v2.12.2)
+## Découverte d'AxeOS (v2.12.2)
 
 Après ce panorama des différentes pools de mining auquel vous pourrez connecter votre Bitaxe, allons faire un tour d'horizon complet d'AxeOs  le logiciel de votre Bitaxe afin de comprendre comment en tirer le meilleur parti.
 
@@ -849,7 +827,7 @@ Ainsi un mineur doit désormais installer cette partie du code de son côté et 
 
 C'est ce qu'on fait lorsque l'on se connecte à une pool distante telles que celles listées plus haut, qu'elles soient des solopool, ou des pool classiques "mutualistes". Ainsi nous dépendons et faisons confiance à un tiers qui construit les blocs pour nous, calcule notre puissance de calcul et les récompenses associées, et nous paye éventuellement.
 
-## 4.1 Pourquoi ? (Block Template / intermédiare etc...)
+## Pourquoi ? (Block Template / intermédiare etc...)
 
 **En Solomining** particulièrement, les avantages qu'apporte la dépendance à un tiers sont quasiment inexistants, si ce n'est la facilité. Autant s'il s'agit de s'associer à d'autres mineurs pour obtenir un revenu régulier, le passage par un tiers est quasi obligatoire. Autant lorsqu'il s'agit de miner seul, rien ne dit que ce tiers de confiance n'essaiera pas de vous subtiliser la récompense éventuelle en substituant son adresse à la votre....
 Rien ne dit non plus comme déjà évoqué plus haut, que l'entité manageant la pool à laquelle vous faites confiance, ne décidera pas de censurer les transactions des gens qu'elle n'aime pas ou qu'une autorité lui demande de bloquer. 
@@ -860,7 +838,7 @@ L'autre bonne nouvelle c'est que même lorsqu'on mine en **"pool mutualistes"** 
 
 ==Insérer les liens vers les tuto / cours existants==
 
-## 4.2 Stratum V2 & Datum (Pool mutualistes)
+## Stratum V2 & Datum (Pool mutualistes)
 
 ![Image](assets/fr/074.webp)
 
@@ -932,7 +910,7 @@ Mais là où Stratum V2 est encore relativement difficile d'accès particulière
 
 Ensuite, il vous faudra également télécharger Bitcoin Knots. Si vous avec Bitcoin Core, pas de panique, vous n'êtes pas obligés de recommencer le téléchargement de la blockchain depuis 0.
 
-## 4.3 Public Pool & Bassin sur Umbrel / Start 9 (Solopool)
+## Public Pool & Bassin sur Umbrel / Start 9 (Solopool)
 
 Pour les solominers qui jouent à la loterie sans compétences techniques particulières, il est désormais possible de le faire en parfaite autonomie, sans dépendance quelconque à un tiers. Là encore un serveur Umbrel ou Start9 est tout de même requis. Ensuite deux applications sont à télécharger, que l'on présentera succinctement ci-dessous.
 
@@ -943,7 +921,7 @@ Pour les solominers qui jouent à la loterie sans compétences techniques partic
  
  Il s'agit exactement du même logiciel que vu précédemment dans notre panorama des solopools, sauf que cette fois-ci il tourne en local sur votre machine, connecté à votre propre full node Bitcoin. Et pas sur le serveur d'un développeur tiers qui met gracieusement à disposition son infrastructure. Nous sommes là en automie totale.
  
- Une fois l'application installée sur votre Umbrel / Start9, y connecter votre machine de mining est exactement similaire à ce qu'on a vu pour le paramétrage de notre Bitaxe lorsque l'on avaitopté pour Public Pool en pool principale. Sauf qu'ici, personne ne vous dicte quelles transactions sont à inclures dans votre bloc template, et personne n'est en mesure d'essayer de voler les bitcoins éventuellement minés. On est revenu à la façon originelle d'utiliser Bitcoin. Ses clés privées, son noeud, sa machine à hasher.
+ Une fois l'application installée sur votre Umbrel / Start9, y connecter votre machine de mining est exactement similaire à ce qu'on a vu pour le paramétrage de notre Bitaxe lorsque l'on avaitopté pour Public Pool en pool principale. Sauf qu'ici, personne ne vous dicte quelles transactions sont à inclures dans votre bloc template, et personne n'est en mesure d'essayer de voler les bitcoins éventuellement minés. On est revenu à la façon originelle d'utiliser Bitcoin. Ses clés privées, son nœud, sa machine à hasher.
  
 ![Image](assets/fr/080.webp)
 

@@ -1,6 +1,6 @@
 ---
 name: Canaan Avalon Nano 3S
-description: Mengkonfigurasi ASIC Avalon Anda untuk solomining atau penyatuan Miner
+description: Mengkonfigurasi ASIC Avalon untuk solomining atau penyatuan Miner
 ---
 
 ![cover](assets/cover.webp)

@@ -512,21 +512,22 @@ BTCPay 伺服器包含下列標準 Wallet 功能：
 
 管理員可以在交易檢視中查看與此特定儲存庫連接的 On-Chain Wallet 的進出交易。每個交易都有收到和發出的區別。收到的交易將為 Green，發出的交易將為紅色。在 BTCPay 伺服器的交易檢視中，管理員也會看到一組標準的標籤。
 
-| 交易類型說明
 
-| ---------------- | ---------------------------------------------------- |
 
-| 應用程式 | 透過建立的 Invoice | 應用程式收到付款。
 
-| Invoice | 付款是透過 Invoice | 收到的。
 
-| PayJoin | 未付費，Invoice 計時器仍未過期 | Invoice | 未付費，Invoice 計時器仍未過期
 
-| PayJoin-exposed | UTXO was exposed through an Invoice PayJoin proposal | | PayJoin-exposed
 
-| 付款請求 | 付款是透過付款請求收到的
 
-| 付出 | 付款是透過付出或退款寄出的 | 付款是透過付出或退款寄出的 | 付款是透過付出或退款寄出的
+
+| 交易類型 | 描述                                               |
+| -------- | -------------------------------------------------- |
+| 應用     | 透過應用建立的發票收到付款                        |
+| 發票     | 透過發票收到付款                                  |
+| Payjoin  | 尚未付款，發票計時器尚未到期                      |
+| Payjoin-暴露 | 透過發票中的 Payjoin 提案暴露了 UTXO          |
+| 支付請求 | 透過支付請求收到付款                              |
+| 支付     | 透過付款或退款發送了付款                          |
 
 ### 如何發送
 
@@ -1296,45 +1297,47 @@ BTCPay伺服器使用 「快速填寫 」選項讓您更容易填寫這些資訊
 
 BTCPay Server 也允許您在程式碼中建立表單。尤其是 JSON。店主可以點擊編輯器旁邊的 CODE 按鈕，進入表單的代碼，而不是看編輯器。在欄位定義中，只能設定下列欄位；欄位的值儲存在 Invoice 的 metadata 中：
 
-| 欄位 | 描述
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| 欄位 | 描述 |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| .fields.constant | 如果為 True，.value 必須在表單定義中設定，使用者將無法改變欄位的值。(例如：表單定義的版本) | .fields.constant
-
-
-
-| .fields.options | 如果 .fields.type 為 select，則會顯示可選值清單。
-
-| .fields.options.text | 此選項的顯示文字 | .fields.options.text | 此選項的顯示文字 | .fields.options.text | 此選項的顯示文字
-
-| .fields.options.value | 如果選取此選項，欄位的值 | .fields.options.value | 欄位的值
-
-| .fields.type=fieldset | 圍繞子代 .fields.fields 建立 HTML fieldset (請參閱下文) | .fields.type=fieldset | 圍繞子代 .fields.fields 建立 HTML fieldset (請參閱下文)
-
-| .fields.name | 欄位的 JSON 屬性名稱，會顯示在 Invoice 的 metadata 裡。
-
-| .fields.value | 欄位的預設值 | .fields.value | 欄位的預設值
-
-| .fields.required | 如果為 true，欄位將為必填欄位。
-
-| .fields.label | 欄位的標籤 | .fields.label | 欄位的標籤
-
-| .fields.helpText | 提供欄位說明的附加文字。                                                                                                                                                                                                                                                                                                                                                                                                           |
-
-| .fields.fields | 您可以以層級結構組織欄位，允許子欄位嵌套在 Invoice 的元資料中。這種結構可以幫助您更好地組織和管理收集到的資訊，使其更容易存取和詮釋。例如，如果您有一個收集客戶資訊的表單，您可以在稱為 customer 的父欄位下將欄位群組。在這個父欄位中，您可能會有名稱、電子郵件和 Address 等子欄位。|
-
-欄位名稱代表在 Invoice 元資料中儲存使用者提供值的 JSON 屬性名稱。某些眾所周知的名稱可以詮釋並修改 Invoice 的設定。
+| .fields.constant | 如果為 true，則必須在表單定義中設置 .value，且使用者將無法更改該欄位的值。（例如：表單定義的版本） |
+| .fields.type | HTML 輸入類型：text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | 如果 .fields.type 為 select，則為可選值列表 |
+| .fields.options.text | 此選項顯示的文字 |
+| .fields.options.value | 選中此選項時欄位的值 |
+| .fields.type=fieldset | 在子欄位 .fields.fields 周圍建立一個 HTML fieldset（見下文） |
+| .fields.name | 該欄位在發票元數據中顯示的 JSON 屬性名稱 |
+| .fields.value | 欄位的預設值 |
+| .fields.required | 如果為 true，則該欄位為必填項 |
+| .fields.label | 欄位的標籤 |
+| .fields.helpText | 提供欄位說明的附加文字。 |
+| .fields.fields | 您可以按層次結構組織欄位，允許將子欄位嵌套在發票的元數據中。這種結構可以幫助您更好地組織和管理收集的資訊，使其更易於存取和解釋。例如，如果您有一個收集客戶資訊的表單，您可以將欄位分組在名為 customer 的父欄位下。在此父欄位中，您可以擁有 name、Email 和 address 等子欄位。 |
 
 | 欄位名稱 | 描述
 
+
+
+
+
+| 欄位名稱         | 說明                  |
 | ---------------- | ---------------------- |
-
-| invoice_amount | Invoice 的金額 | invoice_amount | Invoice 的金額
-
-| invoice_currency | Invoice 的貨幣 | invoice_currency | Invoice 的貨幣 | invoice_currency | Invoice 的貨幣
-
-您可以在表單的 URL 中加入查詢字串，例如「?your_field=value」，以自動預先填入 Invoice 的欄位。
+| invoice_amount   | 發票金額              |
+| invoice_currency | 發票幣別              |
 
 以下是此功能的一些使用案例：
 
@@ -1656,37 +1659,38 @@ docker ps
 docker logs --tail 100 generated_btcpayserver_1
 ```
 
-| 容器名稱 | | 日誌
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| 日誌         | 容器名稱                           |
 | ------------ | --------------------------------- |
-
-| BTCPayServer | generated_btcpayserver_1 | BTCPayServer | 生成的 BTCPayServer_1
-
-| NBXplorer | generated_nbxplorer_1 | NBXplorer
-
-| bitcoind | btcpayserver_bitcoind | bitcoind
-
-| Postgres | generated_postgres_1 | Postgres_1
-
-| 代理權 | letsencrypt-nginx-proxy-companion | 代理權 | letsencrypt-nginx-proxy-companion |代理權
-
-| Nginx | nginx-gen | nginx-gen
-
-| Nginx | nginx |
-
-| c-lightning | btcpayserver_clightning_bitcoin | btcpayserver_clightning_bitcoin | btcpayserver_clightning_bitcoin
-
-| LND | btcpayserver_lnd_bitcoin | LND
-
-| RTL | generated_lnd_bitcoin_rtl_1 | 生成的比特币。
-
-| Thunderhub | generated_bitcoin_thub_1 | 生成的比特幣
-
-| LibrePatron | librepatron | | LibrePatron
-
-| Tor | tor-gen |
-
-| Tor | Tor |
+| BTCPayServer | generated_btcpayserver_1          |
+| NBXplorer    | generated_nbxplorer_1             |
+| Bitcoind     | btcpayserver_bitcoind             |
+| Postgres     | generated_postgres_1              |
+| proxy        | letsencrypt-nginx-proxy-companion |
+| Nginx        | nginx-gen                         |
+| Nginx        | nginx                             |
+| c-lightning  | btcpayserver_clightning_bitcoin   |
+| LND          | btcpayserver_lnd_bitcoin          |
+| RTL          | generated_lnd_bitcoin_rtl_1       |
+| Thunderhub   | generated_bitcoin_thub_1          |
+| LibrePatron  | librepatron                       |
+| Tor          | tor-gen                           |
+| Tor          | tor                               |
 
 ###### Lightning Network LND - Docker
 
@@ -1815,35 +1819,36 @@ BTCPay Server的核心是能夠作為Bitcoin Invoice管理系統。Invoice是追
 
 下表列出並說明了 BTCPay 中標準的 Invoice 狀態，並建議了常見的操作。行動只是建議。用戶可根據自己的使用情況和業務定義最佳行動方案。
 
-| Invoice 狀態 | 說明 | 動作
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| 發票狀態 | 描述 | 操作 |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-
-| 新增 | 未支付，Invoice 計時器仍未過期 | 無 | | 新增 | 未支付，Invoice 計時器仍未過期
-
-| 已付款，但未全額付款，Invoice 計時器仍未過期 | 無 | | 新的 (paidPartial)
-
-| 已過期 | 未付費，Invoice 計時器已過期 | 無 |
-
-| Expired (paidPartial) \*\* | 已付款，但不是全額，且已過期 | 聯絡買家安排退款或要求他們支付應付的款項。可選擇將 Invoice 標記為已結算或無效 | | | 已結算或無效
-
-| 過期 (paidLate) | 在 Invoice 計時器過期後全額付款 | 如果可以接受逾期確認，請聯絡買家安排退款或處理訂單。                                    |
-
-| 已結算 (paidOver) | 已支付超過 Invoice 的金額，已結算，並收到足夠數量的確認書 | 聯絡買家安排退還額外金額，或選擇等待買家聯絡您 | 聯絡買家安排退還額外金額，或選擇等待買家聯絡您 | 聯絡買家安排退還額外金額 | 聯絡買家安排退還額外金額
-
-處理中 | 已全額付款，但未收到商店設定中指定的足夠確認金額 | 聯絡買家安排額外金額的退款，或選擇等待買家聯絡您 | 聯絡買家安排額外金額的退款，或選擇等待買家聯絡您 | 聯絡買家安排額外金額的退款，或選擇等待買家聯絡您 | 聯絡買家安排額外金額的退款。
-
-| 處理中 (paidOver) | 付款超過 Invoice 金額，未收到足夠數量的確認 | 等待結算，然後聯絡買家安排退還額外金額，或選擇等待買家聯絡您 | | 處理中 (paidOver) | 付款超過 Invoice 金額，未收到足夠數量的確認
-
-| 已結帳 | 已付款，全額，已收到足夠數量的確認書 | 履行訂單 | 已付款，全額，已收到足夠數量的確認書 | 履行訂單 | 已付款，全額，已收到足夠數量的確認書
-
-| 已結算（已標記） | 狀態已從處理中或無效狀態手動變更為已結算 | 商店管理員已將付款標記為已結算 | 帳戶管理員已將付款標記為已結算
-
-| **Invalid** | 已付款，但未能在商店設定中指定的時間內收到足夠數量的確認 | 在 Blockchain explorer 上檢查交易，如果收到足夠的確認，標記為已結算 | | 已付款，但未能在商店設定中指定的時間內收到足夠數量的確認 | 在 Blockchain explorer 上檢查交易，如果收到足夠的確認，標記為已結算
-
-| 無效（已標記） | 狀態從結算或過期狀態手動變更為無效 | 商店管理員已將付款標記為無效 | 無效（已標記） | 無效（已過期） | 商店管理員已將付款標記為無效
-
-| 無效 (paidOver) | 支付的金額超過 Invoice 的金額，但未能在商店設定中指定的時間內收到足夠數量的確認 | 在 Blockchain 探索器上檢查交易，如果收到足夠的確認，標記為已結算 | | 無效 (paidOver) | 支付的金額超過 Invoice 的金額，但未能在商店設定中指定的時間內收到足夠數量的確認
+| New | 未付款，發票計時器尚未過期 | 無 |
+| New (paidPartial) | 已部分付款，發票計時器尚未過期 | 無 |
+| Expired | 未付款，發票計時器已過期 | 無 |
+| Expired (paidPartial) ** | 已部分付款且已過期 | 聯繫買家安排退款或要求其支付欠款。可選地將發票標記為 settled 或 invalid |
+| Expired (paidLate) | 在發票計時器過期後全額支付 | 聯繫買家安排退款，或者如果接受延遲確認則處理訂單。 |
+| Settled (paidOver) | 支付金額超過發票金額，已結算，已收到足夠的確認數 | 聯繫買家安排退還多餘金額，或選擇等待買家聯繫您 |
+| Processing | 已全額支付，但尚未收到商店設置中指定的足夠確認數 | 聯繫買家安排退還多餘金額，或選擇等待買家聯繫您 |
+| Processing (paidOver) | 支付金額超過發票金額，尚未收到足夠的確認數 | 等待結算，然後聯繫買家安排退還多餘金額，或選擇等待買家聯繫您 |
+| Settled | 已全額支付，商店已收到足夠的確認數 | 履行訂單 |
+| Settled (marked) | 狀態已手動從處理中或無效狀態更改為已結算 | 商店管理員已將付款標記為 settled |
+| Invalid* | 已付款，但未能在商店設置指定的時間內收到足夠的確認數 | 在區塊鏈瀏覽器上檢查交易，如果收到足夠確認，標記為 settled |
+| Invalid (marked) | 狀態已手動從已結算或過期狀態更改為無效 | 商店管理員已將付款標記為 invalid |
+| Invalid (paidOver) | 支付金額超過發票金額，但未能在商店設置的時間內收到足夠確認 | 在區塊鏈瀏覽器上檢查交易，如果收到足夠確認，標記為 settled |
 
 #### Invoice 詳細資訊
 

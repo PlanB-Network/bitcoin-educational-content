@@ -554,13 +554,14 @@ Ente'nin iş modeli, verilerinizi paraya çevirerek gizliliğinizden ödün verm
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Uygulama              | Açık Kaynak | Bulut Yedekleme | E2EE | Çok cihazlı senkronizasyon | Platformlar                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (E2EE olmadan)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(masaüstü uygulamaları Ağustos 2024'te kaldırıldı)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(yakın tarihli, daha az yerleşik)*              |
 
 Ente Auth, tüm avantajları bir araya getiren birkaç çözümden biri olarak öne çıkıyor: kaynak kodu şeffaflığı, şifreli bulut yedekleme ve platformlar arası senkronizasyon.
 

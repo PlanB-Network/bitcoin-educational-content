@@ -1,7 +1,7 @@
-question: Je, lengo kuu la opereta wa alama za kuuliza za Rust (?) ni lipi linapotumika na aina za Matokeo?
+question: Je, lengo kuu la opereta wa alama za kuuliza za Rust (?) ni lipi linapotumika na aina za Results?
 answer: Ili kufungua kiotomatiki thamani zilizofanikiwa na kurejesha makosa mara moja kutoka kwa chaguo-msingi la sasa
 wrong_answers:
-  - Kubadilisha aina zote za Matokeo kuwa aina za Chaguo kwa urahisi wa kushughulikia null
+  - Kubadilisha aina zote za Result kuwa aina za Chaguo kwa urahisi wa kushughulikia null
   - Kuogopa kiotomatiki na ujumbe maalum wakati hitilafu yoyote inapotokea
   - Kufunga thamani zilizofanikiwa katika safu ya ziada ya Matokeo kwa usalama zaidi
 explanation: |

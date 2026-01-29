@@ -554,13 +554,14 @@ Enten liiketoimintamalli perustuu maksulliseen Ente Photos -palveluun, minkä an
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Sovellus              | Avoimen lähdekoodin | Pilven varmuuskopiointi | E2EE | Usean laitteen synkronointi | Alustat                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (ilman E2EE-ta)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(työpöytäsovellukset poistettu elokuussa 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(äskettäin, vähemmän vakiintunut)*              |
 
 Ente Auth on yksi harvoista ratkaisuista, jossa yhdistyvät kaikki edut: lähdekoodin läpinäkyvyys, salattu pilvivarmistus ja alustarajat ylittävä synkronointi.
 

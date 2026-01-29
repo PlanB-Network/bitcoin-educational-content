@@ -75,17 +75,18 @@ Allpool on esitatud tabel, mis võtab kokku Nano 3S üldised tehnilised näitaja
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Omadus                                      | Väärtus                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hashi määr                                      | 6 Th/s +- 5%                                            |
+| Elektritarbimine                               | 140 W                                                   |
+| Müra                                                | 30 - 40 dB                                              |
+| Väljundõhu temperatuuri vahemik                 | 60-70°C (ümbritseva temperatuuri juures 25°C)                |
+| Kasutamise ümbritseva temperatuuri nõuded | -5 kuni 30°C                                            |
+| Seadme sisendpinge vahemik                         | 28V 5A pidev                                          |
+| Adapteri sisendpinge vahemik                       | 110-240V AC 50/60Hz                                     |
+| Seadme suurus                                 | Pikkus: 205 mm / Laius: 115 mm / Kõrgus: 58.5 mm |
+| Seadme mass                                  | 0.86 kg                                                 |
 
 ## Lokaalse võrgu sisselülitamine ja ühendamine kohaliku võrguga
 

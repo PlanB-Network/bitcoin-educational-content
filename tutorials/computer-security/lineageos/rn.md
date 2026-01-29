@@ -685,13 +685,14 @@ Ivyo bihindurwa bihoraho ni ikintu gihambaye cane cane ku bikoresho vyahagaritsw
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Inzira** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Ubwiyunge** | Pixels gusa | Ibirahure byinshi |
+| **Umutekano** | Imbangurire z'ikigali | Umutekano wa AOSP ukarutare |
+| **Google Play** | Ubwiko bushobora guhitamo | Kwinjira kwa karite bishoboka |
+| **Kwinjira** | Impapuro y'inyandiko + USB | Inzira y'iyo y'ubwenge |
+| **Umpago** | Umutekano mbere yose | Ubwiyunge n'ubwishingizi bw'uhitamo |
 
 ### Impanuro zo gukoresha
 

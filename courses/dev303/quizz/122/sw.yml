@@ -1,8 +1,8 @@
-question: Ni changamoto gani muhimu zaidi ya urejeshaji ambayo watumiaji hukabiliana nayo wakati fedha zao zinasimamiwa kupitia usanifu wa nodi za Lightning zinazotegemea wingu za Greenlight?
+question: Ni changamoto gani muhimu zaidi ya urejeshaji ambayo watumiaji hukabiliana nayo wakati fedha zao zinasimamiwa kupitia usanifu wa nodi za Lightning zinazotegemea cloud za Greenlight?
 answer: Watumiaji watahitaji utaalamu wa kiufundi ili kuzungusha nodi huru za Umeme wa Core na kurejesha hali za chaneli bila miundombinu ya Greenlight.
 wrong_answers:
   - "Watumiaji hupoteza ufikiaji wa funguo zao za kibinafsi ambazo huhifadhiwa pekee kwenye seva za Blockstream"
   - "Hali za vituo zimesimbwa kwa njia fiche kwa kutumia funguo za Greenlight zinazofanya urejeshaji wa fedha kuwa mgumu kihisabati"
-  - "Njia za umeme huisha kiotomatiki baada ya siku 30 bila huduma za matengenezo endelevu za Greenlight"
+  - "Njia za lightning huisha kiotomatiki baada ya siku 30 bila huduma za matengenezo endelevu za Greenlight"
 explanation: |
-  Jibu sahihi linaangazia ugumu halisi wa kiufundi wa urejeshaji wa fedha katika usanifu wa Greenlight. Ingawa watumiaji huhifadhi funguo zao za kibinafsi, kufikia fedha bila Greenlight kunahitaji kuendesha nodi za Core Lightning na kurejesha hali za chaneli kwa mikono - mchakato ambao unazidi uwezo wa watumiaji wengi. Majibu yasiyo sahihi si sahihi kwa sababu: watumiaji hudhibiti funguo zao za kibinafsi (hazihifadhiwi kwenye seva), hali za chaneli hutumia itifaki za kawaida za Lightning (sio usimbaji fiche wa kibinafsi), na njia za Lightning hazina vipima muda vya kuisha kwa muda kiotomatiki vilivyounganishwa na watoa huduma.
+  Jibu sahihi linaangazia ugumu halisi wa kiufundi wa urejeshaji wa fedha katika usanifu wa Greenlight. Ingawa watumiaji huhifadhi funguo zao za kibinafsi, kufikia fedha bila Greenlight kunahitaji kuendesha node za Core Lightning na kurejesha hali za chaneli kwa mikono - mchakato ambao unazidi uwezo wa watumiaji wengi. Majibu yasiyo sahihi si sahihi kwa sababu: watumiaji hudhibiti funguo zao za kibinafsi (hazihifadhiwi kwenye seva), hali za chaneli hutumia itifaki za kawaida za Lightning (sio usimbaji fiche wa kibinafsi), na njia za Lightning hazina vipima muda vya kuisha kwa muda kiotomatiki vilivyounganishwa na watoa huduma.

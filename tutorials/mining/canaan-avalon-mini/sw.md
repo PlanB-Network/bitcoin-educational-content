@@ -122,16 +122,17 @@ lifuatalo ni jedwali la muhtasari wa maelezo ya jumla ya kiufundi ya Mini 3:
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Sifa                                      | Thamani                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Matumizi ya Umeme                              | 800 W                                                     |
+| Kelele                                                | 35-55 dB                                                  |
+| Joto la Hewa ya Kutoka                       | 60-70°C (kwa joto la kawaida 25°C)                  |
+| Mahitaji ya Joto la Kawaida kwa Matumizi | -5° C - 40°C                                              |
+| Liwali la Voltage ya Ingizo la Kifaa                         | 110V-240V AC 50/60Hz                                      |
+| Ukubwa wa Mashine                                 | Urefu: 760 mm / Kina: 104 mm / Urefu: 214.5 mm |
+| Uzani wa Mashine                                  |  8.35 kg                                                  |
 
 ## Inaunganisha kwa Mining pool
 

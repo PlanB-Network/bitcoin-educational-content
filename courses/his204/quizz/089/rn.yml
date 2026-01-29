@@ -1,8 +1,9 @@
-question: Ni kubera iki inyigisho ya Condillac ishigikira cane ingingo ngenderwako y’ubudandaji bwigenga?
-answer: Kuko nimba ubudandaji buhora bufitiye akamaro bose, nta co bimaze kubugabanya canke kububuza biciye ku migenzo .
+question: Ni kubera iki inyigisho ya Condillac ishigikira cane ingingo ngenderwako y’ubudandaji bwo mu mwidegemvyo?
+answer: Kuko nimba ubudandaji buhora bufitiye akamaro bose, nta co bimaze kubugabanya canke kububuza biciye ku bigo vy'amakori .
 wrong_answers:
-  - Kuko Condillac yerekanye mu kubara ko ubudandaji bw’ubuntu butunga igihugu kuruta uburinzi .
-  - Kuko Condillac yerekanye ko ubudandaji bw’ubuntu ari bwiza ku mahoro .
-  - Kubera ko Condillac yari umugenzi wa Adamu Smith .
+  - Kuko Condillac yerekanye mu biharuro ko ubudandaji bw’umwidegemvyo canke bwigenga butunga igihugu kuruta uburinzi .
+  - Kuko Condillac yerekanye ko ubudandaji bw’umwidegemvyo ari bwiza ku mahoro .
+  - Kubera ko Condillac yari umugenzi wa Adam Smith .
 explanation: |
-  Iciyumviro ca Condillac kivuga ko Exchange ari ngirakamaro kuri bose, kuko umugwi wose uheba ivyo uha agaciro gatoyi kugira ngo uronke ivyo uha agaciro cane. Ku bw’ivyo, nta nkenerwa yo guhagarika canke kubuza ubudandaji biciye ku migenzo canke ibindi bibujijwe.
+  Iciyumviro ca Condillac kivuga ko uguhanahana ari ngirakamaro kuri bose, kuko umugwi wose uheba ivyo uha agaciro gatoyi kugira ngo uronke ivyo uha agaciro cane. Ku bw’ivyo, nta nkenerwa yo guhagarika canke kubuza ubudandaji biciye ku migenzo canke ibindi bibujijwe.
+reviewed: true

@@ -2,32 +2,47 @@
 name: Thêm sự kiện trên Plan ₿ Academy
 description: Làm thế nào để tôi đề xuất thêm sự kiện mới trên Plan ₿ Academy?
 ---
-![sự kiện](assets/cover.webp)
+![event](assets/cover.webp)
 
-Sứ mệnh của PlanB là cung cấp nguồn tài nguyên giáo dục hàng đầu về Bitcoin bằng càng nhiều ngôn ngữ khác nhau càng tốt. Tất cả nội dung được xuất bản trên trang web đều là mã nguồn mở và được lưu trữ trên GitHub, cung cấp cơ hội cho bất kỳ ai đóng góp vào việc làm phong phú nền tảng.
+Sứ mệnh của PlanB là cung cấp nguồn học liệu hàng đầu về Bitcoin bằng nhiều ngôn ngữ nhất có thể. Toàn bộ nội dung được đăng tải trên trang web đều là mã nguồn mở và được lưu trữ trên GitHub, tạo điều kiện cho bất kỳ ai cũng có thể tham gia đóng góp và làm phong phú thêm kho kiến thức chung này.
 
-Nếu bạn muốn thêm một hội nghị Bitcoin vào trang web Mạng lưới PlanB và tăng độ nhìn thấy cho sự kiện của mình, nhưng không biết làm thế nào? Hướng dẫn này dành cho bạn!
-![sự kiện](assets/01.webp)
-- Đầu tiên, bạn cần phải có một tài khoản trên GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã tạo một hướng dẫn chi tiết để hướng dẫn bạn.
+Nếu bạn muốn thêm một sự kiện Bitcoin lên trang web Plan ₿ Academy để tăng sức lan tỏa cho sự kiện, nhưng không biết làm thế nào? Hướng dẫn này dành cho bạn!
+
+![event](assets/01.webp)
+
+- Trước tiên, bạn cần có một tài khoản GitHub. Nếu bạn chưa biết cách tạo tài khoản, chúng tôi đã chuẩn bị một hướng dẫn chi tiết để giúp bạn.
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
+- Truy cập vào [repository của Plan ₿ Academy dành riêng cho dữ liệu trên GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/events/) trong phần `events/`:
 
-- Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
-![sự kiện](assets/02.webp)
-- Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
-![sự kiện](assets/03.webp)
-- Nếu bạn chưa bao giờ đóng góp vào nội dung của Mạng lưới PlanB trước đây, bạn sẽ cần tạo bản sao (fork) của kho lưu trữ gốc. Fork một kho lưu trữ có nghĩa là tạo một bản sao của kho lưu trữ đó trên tài khoản GitHub của bạn, cho phép bạn làm việc trên dự án mà không ảnh hưởng đến kho lưu trữ gốc. Nhấp vào nút `Fork this repository`:
-![sự kiện](assets/04.webp)
-- Bạn sẽ được chuyển đến trang chỉnh sửa GitHub:
-![sự kiện](assets/05.webp)
-- Tạo một thư mục cho hội nghị của bạn. Để làm điều này, trong ô `Name your file...`, viết tên hội nghị của bạn bằng chữ thường với dấu gạch ngang thay cho khoảng trắng. Ví dụ, nếu hội nghị của bạn có tên là "Paris Bitcoin Conference", bạn nên ghi `paris-bitcoin-conference`. Cũng thêm năm của hội nghị của bạn, ví dụ: `paris-bitcoin-conference-2024`:
-![sự kiện](assets/06.webp)
-- Để xác nhận việc tạo thư mục, chỉ cần ghi một dấu gạch chéo sau tên của bạn trong cùng một ô, ví dụ: `paris-bitcoin-conference-2024/`. Thêm một dấu gạch chéo tự động tạo một thư mục thay vì một tệp:
-![sự kiện](assets/07.webp)
-- Trong thư mục này, bạn sẽ tạo một tệp YAML đầu tiên có tên `events.yml`:
-![sự kiện](assets/08.webp)
-- Điền thông tin về hội nghị của bạn vào tệp này bằng cách sử dụng mẫu này:
+![event](assets/02.webp)
+
+- Nhấn vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
+
+![event](assets/03.webp)
+
+- Nếu đây là lần đầu bạn đóng góp cho Plan ₿ Academy, bạn sẽ cần tạo một bản sao (fork) của repository gốc. "Fork" nghĩa là tạo một bản sao của repository đó trên tài khoản GitHub của bạn, cho phép bạn làm việc mà không ảnh hưởng đến repository gốc. Nhấn vào nút `Fork this repository`:
+
+![event](assets/04.webp)
+
+- Ngay sau đó, giao diện chỉnh sửa của GitHub sẽ hiện ra:
+
+![event](assets/05.webp)
+
+- Tạo một thư mục cho sự kiện của bạn. Tại ô `Name your file...`, bạn nhập tên sự kiện bằng chữ thường và dùng dấu gạch ngang `-` thay cho khoảng trắng. Ví dụ, nếu sự kiện của bạn có tên là "Paris Bitcoin Conference", bạn nên ghi `paris-bitcoin-conference`. Ngoài ra, đừng quên thêm năm tổ chức sự kiện vào cuối tên thư mục, ví dụ: `paris-bitcoin-conference-2024`:
+
+![event](assets/06.webp)
+
+- Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo file tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `paris-bitcoin-conference-2024/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
+
+![event](assets/07.webp)
+
+- Trong thư mục này, bạn sẽ tạo một file YAML đầu tiên có tên `event.yml`:
+
+![event](assets/08.webp)
+
+- Điền thông tin về sự kiện của bạn vào file `event.yml` này theo mẫu sau:
 
 ```yaml
 start_date:
@@ -52,7 +67,7 @@ tags:
   - 
 ```
 
-Ví dụ, tệp YAML của bạn có thể trông như thế này:
+Ví dụ, file YAML của bạn có thể trông như thế này:
 
 ```yaml
 start_date: 2024-08-15
@@ -60,14 +75,14 @@ end_date: 2024-08-18
 address_line_1: Paris, France
 address_line_2: 
 address_line_3: 
-name: Hội Nghị Bitcoin Paris 2024
-project: Hội Nghị Bitcoin Paris
+name: Paris Bitcoin Conference 2024
+project: Paris Bitcoin Conference
 type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Hội nghị Bitcoin lớn nhất tại Pháp với hơn 8,000 người tham gia mỗi năm!
-language:
+description: The largest Bitcoin conference in France with over 8,000 participants each year!
+language: 
   - fr
   - en
   - es
@@ -81,71 +96,128 @@ tags:
   - General
   - International
 ```
-![sự kiện](assets/09.webp)
-Nếu tổ chức của bạn chưa có một "*project*" identifier, bạn có thể thêm nó bằng cách theo dõi hướng dẫn khác này.
+![event](assets/09.webp)
+
+Nếu bạn chưa có một định danh "*project*" cho tổ chức của mình, bạn có thể thêm nó bằng cách theo dõi hướng dẫn khác này.
 
 https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
+- Sau khi hoàn tất chỉnh sửa file, lưu thay đổi bằng cách nhấn nút `Commit changes...`:
 
+![event](assets/10.webp)
 
-- Sau khi bạn hoàn thành việc chỉnh sửa tệp này, lưu chúng bằng cách nhấp vào nút `Commit changes...`:
-![sự kiện](assets/10.webp)
-- Thêm một tiêu đề cho các thay đổi của bạn, cũng như một mô tả ngắn gọn:
-![sự kiện](assets/11.webp)
-- Nhấp vào nút màu xanh `Propose changes`:
-![sự kiện](assets/12.webp)
-- Bạn sẽ đến trang tóm tắt tất cả các thay đổi của bạn:
-![sự kiện](assets/13.webp)
-- Nhấp vào ảnh đại diện GitHub của bạn ở góc trên bên phải, sau đó vào `Your Repositories`:
-![sự kiện](assets/14.webp)
-- Chọn fork của bạn từ kho lưu trữ Plan ₿ Academy:
-![sự kiện](assets/15.webp)
-- Bạn sẽ thấy một thông báo ở đầu cửa sổ với nhánh mới của bạn. Có thể nó được gọi là `patch-1`. Nhấp vào nó:
-![sự kiện](assets/16.webp)
-- Bây giờ bạn đang ở trên nhánh làm việc của mình:
-![sự kiện](assets/17.webp)
-- Quay lại thư mục `resources/conference/` và chọn thư mục của hội nghị mà bạn vừa tạo trong commit trước:
-![sự kiện](assets/18.webp)
-- Trong thư mục của hội nghị của bạn, nhấp vào nút `Add file`, sau đó vào `Create new file`:
-![sự kiện](assets/19.webp)
-- Đặt tên thư mục mới này là `assets` và xác nhận việc tạo nó bằng cách đặt một dấu gạch chéo `/` ở cuối:
-![sự kiện](assets/20.webp)
-- Trong thư mục `assets` này, tạo một tệp tên là `.gitkeep`:
-![sự kiện](assets/21.webp)
-- Nhấp vào nút `Commit changes...`:
-![sự kiện](assets/22.webp)
-- Giữ nguyên tiêu đề commit mặc định, và đảm bảo rằng ô `Commit directly to the patch-1 branch` được chọn, sau đó nhấp vào `Commit changes`:
-![sự kiện](assets/23.webp)
+- Thêm tiêu đề cho thay đổi của bạn, kèm theo mô tả ngắn:
+
+![event](assets/11.webp)
+
+- Nhấn vào nút `Propose changes`:
+
+![event](assets/12.webp)
+
+- Hệ thống sẽ chuyển bạn đến trang tổng hợp tất cả các thay đổi vừa thực hiện:
+
+![event](assets/13.webp)
+
+- Nhấn vào ảnh hồ sơ GitHub của bạn ở góc trên bên phải, sau đó chọn `Your Repositories`:
+
+![event](assets/14.webp)
+
+- Chọn bản fork của repository Plan ₿ Academy:
+
+![event](assets/15.webp)
+
+- Bạn sẽ thấy thông báo ở đầu cửa sổ về nhánh (branch) mới của bạn (thường tên là `patch-1`). Nhấn vào đó:
+
+![event](assets/16.webp)
+
+- Bây giờ, bạn đang ở trên nhánh làm việc của mình:
+
+![event](assets/17.webp)
+
+- Quay lại thư mục `events/` và chọn thư mục sự kiện mà bạn vừa tạo ở commit trước:
+
+![event](assets/18.webp)
+
+- Trong thư mục sự kiện, nhấp vào nút `Add file`, sau đó chọn `Create new file`:
+
+![event](assets/19.webp)
+
+- Đặt tên thư mục mới này là `assets` và đừng quên thêm một dấu gạch chéo `/` ở cuối:
+
+![event](assets/20.webp)
+
+- Trong thư mục `assets` này, tạo một file tên là `.gitkeep`:
+
+![event](assets/21.webp)
+
+- Nhấn vào nút `Commit changes...`:
+
+![event](assets/22.webp)
+
+- Giữ nguyên tiêu đề commit mặc định, và đảm bảo rằng ô `Commit directly to the patch-1 branch` được chọn, rồi nhấn `Commit changes`:
+
+![event](assets/23.webp)
+
 - Quay lại thư mục `assets`:
-![sự kiện](assets/24.webp)
-- Nhấp vào nút `Add file`, sau đó vào `Upload files`: ![sự kiện](assets/25.webp)
-- Một trang mới sẽ mở ra. Kéo và thả một hình ảnh đại diện cho hội nghị của bạn và sẽ được hiển thị trên trang web Plan ₿ Academy:
-![sự kiện](assets/26.webp)
-- Đó có thể là logo, một hình thu nhỏ, hoặc thậm chí một poster:
-![sự kiện](assets/27.webp)
-- Một khi hình ảnh được tải lên, kiểm tra xem ô `Commit directly to the patch-1 branch` đã được đánh dấu chưa, sau đó nhấp vào `Commit changes`:
-![sự kiện](assets/28.webp)
-- Hãy cẩn thận, hình ảnh của bạn phải được đặt tên là `thumbnail` và phải ở định dạng `.webp`. Tên tệp đầy đủ nên là: `thumbnail.webp`:
-![sự kiện](assets/29.webp)
-- Quay lại thư mục `assets` của bạn và nhấp vào tệp trung gian `.gitkeep`:
-![sự kiện](assets/30.webp)
-- Một khi đã ở trên tệp, nhấp vào 3 chấm nhỏ ở góc trên bên phải sau đó vào `Delete file`:
-- Kiểm tra xem bạn vẫn đang ở trên cùng một nhánh làm việc, sau đó nhấp vào nút `Commit changes`:
-![sự kiện](assets/31.webp)
-- Thêm một tiêu đề và mô tả cho lần commit của bạn, sau đó nhấp vào `Commit changes`:
-![sự kiện](assets/32.webp)
-- Quay lại gốc của kho lưu trữ của bạn:
-![sự kiện](assets/33.webp)
-- Bạn sẽ thấy một thông báo cho biết nhánh của bạn đã trải qua những thay đổi. Nhấp vào nút `Compare & pull request`:
-![sự kiện](assets/34.webp)
-- Thêm một tiêu đề rõ ràng và mô tả cho PR của bạn:
-![sự kiện](assets/35.webp)
-- Nhấp vào nút `Create pull request`:
-![sự kiện](assets/36.webp)
-Xin chúc mừng! PR của bạn đã được tạo thành công. Một quản trị viên giờ đây sẽ kiểm tra nó và, nếu mọi thứ đều ổn, sẽ hợp nhất nó vào kho lưu trữ chính của Mạng lưới PlanB. Bạn sẽ thấy sự kiện của mình xuất hiện trên trang web vài ngày sau.
 
-Hãy chắc chắn theo dõi tiến trình của PR của bạn. Một quản trị viên có thể để lại bình luận yêu cầu thông tin bổ sung. Miễn là PR của bạn chưa được xác nhận, bạn có thể xem nó trong tab `Pull requests` trên kho lưu trữ GitHub của Mạng lưới PlanB:
-![sự kiện](assets/37.webp)
-Cảm ơn bạn rất nhiều vì đã đóng góp quý báu của mình! :)
+![event](assets/24.webp)
 
+- Nhấn vào nút `Add file`, sau đó chọn `Upload files`:
 
+![event](assets/25.webp)
+
+- Một trang mới sẽ mở ra. Kéo thả một ảnh đại diện cho sự kiện của bạn vào đây; ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy:
+
+![event](assets/26.webp)
+
+- Đó có thể là logo, ảnh thu nhỏ (thumbnail), hoặc thậm chí là poster:
+
+![event](assets/27.webp)
+
+- Sau khi hình ảnh được tải lên, đảm bảo rằng ô `Commit directly to the patch-1 branch` được chọn, sau đó nhấn `Commit changes`:
+
+![event](assets/28.webp)
+
+- Lưu ý, ảnh của bạn phải được đặt tên là `thumbnail` và phải ở định dạng `.webp`. Tên file đầy đủ phải là: `thumbnail.webp`:
+
+![event](assets/29.webp)
+
+- Quay lại thư mục `assets` và nhấp vào file `.gitkeep`:
+
+![event](assets/30.webp)
+
+- Tại giao diện của file này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn  `Delete file`:
+
+![event](assets/31.webp)
+
+- Đảm bảo rằng bạn vẫn đang ở đúng nhánh làm việc hiện tại, sau đó nhấn vào nút `Commit changes`:
+
+![event](assets/32.webp)
+
+- Thêm tiêu đề và mô tả cho commit của bạn, rồi nhấn vào `Commit changes`:
+
+![event](assets/33.webp)
+
+- Quay lại thư mục gốc của bản fork:
+
+![event](assets/34.webp)
+
+- Bạn sẽ thấy một thông báo cho biết nhánh của mình vừa có thay đổi mới. Nhấn vào nút  `Compare & pull request`:
+
+![event](assets/35.webp)
+
+- Thêm tiêu đề rõ ràng và mô tả cho PR (Pull Request) của bạn:
+
+![event](assets/36.webp)
+
+- Nhấn vào nút `Create pull request`:
+
+![event](assets/37.webp)
+
+Chúc mừng! Pull Request của bạn đã được khởi tạo thành công. Đội ngũ quản trị viên sẽ tiến hành kiểm tra và nếu mọi thứ đều đạt yêu cầu, họ sẽ gộp (merge) nó vào repository chính của Plan ₿ Academy. Bạn sẽ thấy sách của mình xuất hiện trên website sau vài ngày.
+
+Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi PR này trong thẻ `Pull requests` trên repository của Plan ₿ Academy:
+
+![event](assets/38.webp)
+
+Chân thành cảm ơn sự đóng góp quý giá của bạn! :)

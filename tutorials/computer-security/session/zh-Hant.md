@@ -26,25 +26,26 @@ Session 首先是針對將保密性放在首位的使用者。這項訊息服務
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| 應用程式 | E2EE 1:1 | E2EE 群組 | 匿名註冊 | 客戶端開源許可證 | 服務端開源許可證 | 去中心化伺服器 | 創建年份 |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (可選) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (可選) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (聯邦) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (透過郵件) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (聯邦) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (無名錄) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = 端對端加密 *
 

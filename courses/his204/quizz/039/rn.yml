@@ -1,8 +1,9 @@
-question: Ni mu myaka cumi iyihe uruziga rwa Gournay rwari rukora?
+question: Ni mu myaka cumi iyihe umuzingi wa Gournay rwari rukora?
 answer: Imyaka cumi yo mu 1750
 wrong_answers:
   - Imyaka ya 1740
   - Imyaka ya 1760
   - Imyaka ya 1770
 explanation: |
-  Uruziga rwa Gournay rwari rukora cane mu myaka ya 1750, igihe c’ugutera imbere kw’ubwenge mu Bufaransa.
+  Umuzingi rwa Gournay wari rukora cane mu myaka ya 1750, igihe c’ugutera imbere kw’ubwenge mu Bufaransa.
+reviewed: true

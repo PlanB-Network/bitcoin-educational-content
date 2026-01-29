@@ -542,13 +542,14 @@ Joinstr ubu itanga ama pools y'abantu **2 gushika kuri 5** ku rugero rwa mwayeni
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Inzira | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Abanyamureba mu mulwanyi** | 50-100 | 5-10 | Ivanjire (P2P) | **2-5** |
+| **Umuntu wiyigira** | Wiyigira (2024 aracyiritswe) | Wiyigira (akora) | P2P maker/taker | **Nta (Nostr)** |
+| **Kuwubwiyunga ici** | Kinini | Rimwe | Ryinshi cyane | **Ryinshi cyane** |
+| **Impamvu z'iyigira** | Icyerekana | Impamvu y'injira | Yishyurw'abakozi | **Nta** |
+| **Guhura UTXO** | Yego (inyandiko nzira) | Oya | Oya | **Oya** |
 
 💡 **Ibindi bisubizo vya CoinJoin bikora** :
 

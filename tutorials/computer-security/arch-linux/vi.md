@@ -265,20 +265,22 @@ Chọn **GPT** nếu bạn đang ở UEFI, **DOS** nếu bạn đang ở BIOS.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Điểm gắn kết trên hệ thống được cài đặt | Phân vùng                 | Loại phân vùng       | Kích thước được đề xuất |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | Phân vùng Hệ thống EFI   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Không gian hoán đổi (swap) | Ít nhất 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 gốc (/) | Phần còn lại của đĩa |
 
 - Trong BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Điểm gắn kết trên hệ thống được cài đặt | Phân vùng           | Loại phân vùng       | Kích thước được đề xuất |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Không gian hoán đổi (swap) | Ít nhất 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Phần còn lại của đĩa |
 
 ![0_10](assets/fr/10.webp)
 

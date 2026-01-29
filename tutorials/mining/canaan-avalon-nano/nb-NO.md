@@ -75,17 +75,18 @@ Nedenfor er en tabell som oppsummerer de generelle tekniske spesifikasjonene til
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Karakteristikk                                      | Verdi                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hash-rate                                      | 6 Th/s +- 5%                                            |
+| Strømforbruk                               | 140 W                                                   |
+| Støy                                                | 30 - 40 dB                                              |
+| Område for utgangslufttemperatur                 | 60-70°C (ved omgivelsetemperatur 25°C)                |
+| Omgivelsetemperaturkrav for bruk | -5 til 30°C                                            |
+| Enhetens inngangsspennningsområde                         | 28V 5A kontinuerlig                                          |
+| Adapterens inngangsspennningsområde                       | 110-240V AC 50/60Hz                                     |
+| Enhetsstørrelse                                 | Lengde: 205 mm / Bredde: 115 mm / Høyde: 58.5 mm |
+| Enhetsvekt                                  | 0.86 kg                                                 |
 
 ## Slå på strømmen og koble til det lokale nettverket
 

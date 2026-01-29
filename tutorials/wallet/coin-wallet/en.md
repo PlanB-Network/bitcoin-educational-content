@@ -134,11 +134,11 @@ To send Bitcoin:
 3. Enter amount (or tap **Max**)  
 4. Choose transaction speed:  
 
-   | Speed   | Approx. confirmation time | Fee level     |
-   |---------|---------------------------|---------------|
-   | **Slow**    | ~120 minutes              | Lowest       
-   | **Default** | ~60 minutes               | Medium       
-   | **Fast**    | ~20 minutes               | Higher        
+| Speed       | Approx. confirmation time | Fee level |
+| ----------- | ------------------------- | --------- |
+| **Slow**    | ~120 minutes              | Lowest    |
+| **Default** | ~60 minutes               | Medium    |
+| **Fast**    | ~20 minutes               | Higher    |
 
 5. Confirm with your 4-digit PIN → transaction is broadcast
 
@@ -161,12 +161,12 @@ More about Replace-by-fee (RBF): https://bitcoinops.org/en/topics/replace-by-fee
 **When do you actually need a private key?**  
 (99 % of users never do — the 12-word passphrase is enough)
 
-| Situation                                      | Why you need the private key                     |
-|------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Situation                                         | Why you need the private key           |
+| ------------------------------------------------- | -------------------------------------- |
+| Sweeping an old paper wallet                      | To move funds to your current wallet   |
+| Importing into a hardware signer (e.g. Coldcard)  | For offline signing                    |
+| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone |
+| Using tools that don’t accept seed phrases        | Some watch-only or signing utilities   |
 
 ### How to export private keys in Coin Wallet
 

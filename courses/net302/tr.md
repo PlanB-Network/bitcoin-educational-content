@@ -306,18 +306,19 @@ Başlıktaki ilk alan Sürüm olarak adlandırılır. Bu 4 bitlik değer, paketi
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versiyon Numarası | Protokol | Versiyon Açıklaması | Referans |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Rezerve | Rezerve | |
+| 2–3 | Atanmamış | Atanmamış | |
+| 4 | IP | İnternet Protokolü | RFC 791 |
+| **5** | **ST** | **ST Datagram modu** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | İnternet Protokolü versiyon 6 | RFC 8200 |
+| 7 | TP/IX | Bir Sonraki İnternet | RFC 1475 |
+| 8 | PIP | P İnternet Protokolü | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Atanmamış | Atanmamış | |
+| 15 | Rezerve | Rezerve | |
 
 Bunlar arasında, halk tarafından büyük ölçüde bilinmemesine rağmen ST (_Stream Protocol_) olarak var olan IPv5 de bulunmaktadır. 1980'lerde geliştirilen IPv5, o dönemde giderek artan bir ihtiyaç olan Address için tasarlanmıştı: IP üzerinden Ses veya multimedya akışları gibi sürekli, istikrarlı iletim gerektiren belirli veri akışları için "_Hizmet Kalitesi_" (QoS) sağlamak. Amacı, RSVP'nin (_Resource Reservation Protocol_) bugün modern yönlendiricilerde ağ kaynaklarını dinamik olarak ayırmak için sunduğu konsepte benzer bir şekilde uçtan uca bant genişliği ve önceliği garanti etmekti.
 
@@ -485,14 +486,15 @@ Tarihsel olarak, IPv4 sistemi, Address aralığını ve kullanım amaçlarını 
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Sınıf** | **IPv4 Adres Aralığı**           | **Kullanım**                |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x ile 126.x.x.x             | Unicast adresler             |
+|           | (127.x.x.x loopback için ayrılmış)| Yerel loopback               |
+| B         | 128.0.x.x ile 191.255.x.x         | Unicast adresler             |
+| C         | 192.0.0.x ile 223.255.255.x       | Unicast adresler             |
+| D         | 224.0.0.0 ile 239.255.255.255     | IP Multicast                 |
+| E         | 240.0.0.0 ile 255.255.255.255     | Deneysel kullanım için ayrılmış |
 
 Tüm olası değerler ana bilgisayarlara atanamaz. Örneğin, bir **class C** Address'de, son bayt 8 bit (256 değer) sunar. Ancak bunlardan ikisi ayrılmıştır:
 
@@ -573,13 +575,14 @@ Her biri 60 ana bilgisayara kadar 4 alt ağ istiyoruz.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Alt ağ kimliği (bitler) | Alt ağ adresi | Alt ağ maskesi | Adres aralığı            | Broadcast adresi |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Adım 5**: Bu, genel adresleme şemasını verimli tutarken, her biri 62 makineye kadar destekleyen dört alt ağ oluşturur. Hostid_ kısmı bir _subnetid_ kısmına ve bir host kısmına bölünür.
 
@@ -623,7 +626,9 @@ Bir CIDR bloğu "Address/prefix" biçiminde yazılır; burada eğik çizgiden so
 CIDR boyutlandırmasını anlamayı kolaylaştırmak için, burada yaygın öneklerin ve eşdeğer alt ağ maskelerinin ve kullanılabilir adreslerin bir tablosu bulunmaktadır:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR Öneki | Kullanılabilir ana bilgisayar bitleri | Alt ağ maskesi | Kullanılabilir ana bilgisayar adresleri |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +640,8 @@ CIDR boyutlandırmasını anlamayı kolaylaştırmak için, burada yaygın önek
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (yalnızca point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (yalnızca ana bilgisayar adresi) |
 
 **NOT**: Tarihsel olarak, RFC 950, esas olarak yönlendirmede karışıklığı önlemek için sıfır alt ağ kullanımını önermemiştir.  Bu kısıtlama, kullanımına tamamen izin veren RFC 1878 ile geçerliliğini yitirmiştir. Eski sınırlama çoğunlukla CIDR'yi doğru şekilde işleyemeyen eski donanımlarla uyumsuzluktan kaynaklanıyordu. Modern donanımlarda böyle bir sorun yoktur.
 
@@ -819,12 +823,13 @@ Katmanlı mimari, her Layer'nın yalnızca kendi kapsamındaki bilgileri işleme
 Aşağıdaki tablo TCP ve UDP bağlamları için terimleri özetlemektedir:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP Katmanı       | Birim Adı (TCP) | Birim Adı (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Uygulama Katmanı     | Akış             | Mesaj            |
+| Taşıma Katmanı       | Segment          | Paket            |
+| İnternet Katmanı     | Datagram         | Datagram         |
+| Ağ Erişim Katmanı    | Çerçeve          | Çerçeve          |
 
 ### Hizmet ilkelleri ve veri birimleri
 
@@ -907,7 +912,8 @@ Aşağıdaki tablo bu yazışmayı göstermektedir:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| İkili Kod   | Etkinleştirilen bit değerleri | Ondalık değer |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -922,7 +928,8 @@ Aşağıdaki tablo bu yazışmayı göstermektedir:
 İkiliyi ondalık sayıya dönüştürmek için, 1'e ayarlanmış bitlerin ağırlıklarını toplayın.
 
 
-| Binary     | Decimal Value |
+
+| İkili      | Ondalık değer |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -961,13 +968,14 @@ Başlangıçta, IPv4 ağları beş **sınıfa** ayrılmıştır: (A, B, C, D ve 
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Sınıf | Öncü Bitler | İlk Bayt Aralığı | Varsayılan Alt Ağ Maskesi | Amaç                          |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Çok büyük ağlar                  |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Orta ölçekli ağlar               |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Küçük ağlar                      |
+| D     | 1110         | 224 – 239        | Uygulanamaz          | Multicast adresleri              |
+| E     | 1111         | 240 – 255        | Uygulanamaz          | Deneysel (genel kullanımda değil) |
 
 Özel Adresler:
 
@@ -1222,7 +1230,8 @@ Manuel (statik yönlendirme) ya da dinamik (dinamik yönlendirme) olarak yöneti
 Yönlendirme tablosu, hedef IP adresleri ve sonraki ağ geçitleri arasında bir eşleme tablosu görevi görür. Genellikle her bir ana bilgisayar Address yerine ağ tanımlayıcılarını (_network ID_) depolar, bu da boyutunu büyük ölçüde azaltır.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Hedef Adres | Sonraki Atlama Yönlendirici Adresi | Arayüz |
 | ------------------- | ----------------------- | --------- |
 
 Yönlendirici bu girdileri kullanarak her bir datagramın hangi Interface üzerinden ve hangi düğüme gönderilmesi gerektiğini hızlı bir şekilde belirleyebilir. Eşleşen MAC adreslerini çözümlemek için ARP ile birleştirildiğinde, bu, ağ üzerinden verimli ve güvenilir veri aktarımı sağlar.
@@ -1298,11 +1307,12 @@ Bu dinamik çeviri prensibi hassas tablo yönetimine dayanır: her giriş, onu h
 basitleştirilmiş bir NAT çeviri tablosu örneği:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Dahili IP | Harici IP | Süre (sn) | Yeniden kullanılabilir mi? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | hayır     |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | evet      |
+| 10.100.0.89   | 193.48.100.46  | 0              | hayır     |
 
 Bu örnekte, ikinci giriş için bir saatten uzun bir süre (3.600 saniye) boyunca hiçbir paket geçmediyse, yeniden kullanılabilir olarak işaretlenir. Tersine, sürenin sıfır olması, eşlemenin kilitli olduğu aktif bir iletişimi gösterir.
 
@@ -1766,13 +1776,14 @@ Belirtilmemiş bir IPv6 Address `::` veya daha açık bir ifadeyle `::0.0.0.0` i
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6 Adres Ön eki | Açıklama                                 |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Ayrılmış adresler                          |
+| 2000::/3            | Unicast adresler, İnternet üzerinde yönlendirilebilir |
+| fc00::/7            | Benzersiz yerel adresler (1)               |
+| fe80::/10           | Bağlantı-yerel adresler                    |
+| ff00::/8            | Multicast adresler                         |
 
 (1): *Özel bir LAN'da, `fd00::/8` öneki, İnternet üzerinde yönlendirilemeyen dahili adreslerin atanması için tercih edilir.*
 
@@ -1854,24 +1865,28 @@ Son olarak, benzersiz yerel adresler (_ULA_, _Unique Local Addresses_ için) öz
 Kavramsal olarak, IPv6 adresleri genellikle ilk yarının (ilk 64 bit) ağ önekini tanımladığı ve ikinci yarının (ayrıca 64 bit) cihazın bu ağdaki Interface'sini benzersiz bir şekilde tanımladığı ikili bir yapı olarak temsil edilir. Bu bölünme, SLAAC (_Stateless Address Autoconfiguration_) gibi mekanizmalar aracılığıyla Address otomatik yapılandırmasını kolaylaştırır, bu da makinelerin MAC Address veya sözde rasgele bir tanımlayıcıya dayalı olarak otomatik olarak generate kararlı bir Address oluşturmasına olanak tanır.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Alan      | Önek | L | Küresel Kimlik | Alt ağ | Arayüz Kimliği |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Bitler    | 7      | 1 | 40        | 16     | 64            |
 
 IPv6 mimarisi, günümüz İnternetinin hiyerarşik küresel yönlendirme modelini takip etmektedir. Önek bölümleme, bölgesel kayıtların ve ağ operatörlerinin Address tahsisini merkezi olmayan bir şekilde yönetmesini sağlarken, küresel benzersizliği de garanti eder. Bu çerçevede, aynı ana bilgisayar aynı anda internet iletişimi için küresel bir tek noktaya yayın Address'a ve yerel etkileşimler için, örneğin yakın komşularla veya yönlendirici keşif mesajları için bir bağlantı yerel Address'a sahip olabilir.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Alan      | Önek | Sıfır | Arayüz Kimliği |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Bitler    | 10     | 54   | 64           |
 
 **Anycast adresleri**, unicast modelini temel alan ancak belirli durumlarda multicast gibi davranabilen bir ara kavramı temsil eder. Bir anycast Address, özünde, farklı ağ düğümlerine dağıtılmış birkaç arayüze atanmış tek noktaya yayın Address'dir. Bir anycast Address'e bir paket gönderildiğinde, IPv6 protokolü bu paketi Address'i paylaşan ana bilgisayarlardan birine, tipik olarak yönlendirme topolojisi açısından en yakın olanına ulaştırmayı amaçlar. Bu yaklaşım, sorgu işleme hızını optimize eder ve dağıtılmış hizmetlerin esnekliğini artırır. Klasik bir örnek, anycast adreslemenin sorguları otomatik olarak en yakın varlık noktasına yönlendirdiği kök DNS sunucularıdır.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Alan     | Ön ek | Alt ağ | Arayüz Kimliği |
+|-----------|--------|--------|______________|
+| Bitler      | 48     | 16     | 64           |
 
 IPv6'da, **çok noktaya yayın adresleri**, çok maliyetli ve küresel ölçekli bir ağ için uygun olmadığı düşünülen yayın mekanizmasının yerini alır. Bir çok noktaya yayın Address, aynı paketleri aynı anda almak isteyen, genellikle birden çok ana bilgisayarda bulunan bir grup arabirimi tanımlar.
 
@@ -1893,9 +1908,10 @@ IPv6 çok noktaya yayın Address'ün yapısı şunları içerir:
 - çok noktaya yayın grup numarasını tanımlayan bir kimlik alanı (112 bit).
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Alan      | Ön ek | Bayraklar | Kapsam | Grup Kimliği |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bitler       | 8      | 4      | 4      | 112      |
 
 IPv6 multicast'in iyi bilinen bir örneği _Neighbor Discovery Protocol_ (NDP)'dir. NDP, IPv4'te olduğu gibi ARP kullanmak yerine, komşu keşif isteklerini yayınlamak için `ff02::1:ff00:0/104` gibi çok noktaya yayın adreslerine dayanır ve yalnızca aynı bağlantıdaki ilgili ana bilgisayarları hedefler.
 
@@ -2013,8 +2029,9 @@ IANA, her bir RIR'ye genellikle /23 ve /12 arasında değişen büyüklükte IPv
 Tipik tahsis hiyerarşisi şu şekildedir:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Müşteri | Alt ağ | Arayüz |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Bu adres bolluğu sayesinde, bir zamanlar IPv4'te Address eksiklikleriyle başa çıkmak için gerekli olan NAT (*Network Address Translation*) artık gerekli değildir. Her ana bilgisayarın benzersiz, küresel olarak yönlendirilebilir bir genel Address'i olabilir, bu da uçtan uca bağlantıyı basitleştirir ve IPSec, VoIP veya gelen bağlantılar gibi protokollerin kullanımını kolaylaştırır.

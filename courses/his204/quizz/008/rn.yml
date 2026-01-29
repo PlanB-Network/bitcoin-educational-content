@@ -1,8 +1,9 @@
-question: Ni umusoro wo mu bwoko ubuhe Vauban yashigikira mu vyanditswe vyiwe?
-answer: Umusoro ugereranijwe umuntu wese ategerezwa guha Leta ijana ry'amahera yiwe .
+question: Ni ikori ryo mu bwoko ubuhe Vauban yashigikira mu vyanditswe vyiwe?
+answer: Ikori ugereranijwe umuntu wese ategerezwa guha ry'amahera yiwe .
 wrong_answers:
-  - Imisoro itera imbere igipimo c'imisoro ku batunzi kigomba kuba kinini kuruta ico ku bakene .
-  - Umusoro w’igiciro kimwe utitaye ku vyo winjiza, uriha Leta amahera amwe buri mwaka .
-  - Imisoro y'inyuma y'imisoro ku bakene itegerezwa kuba hejuru y'iyo ku batunzi .
+  - Ikori itera imbere igipimo c'amakori ku batunzi kigomba kuba kinini kuruta ico ku bakene .
+  - Ikori w’igiciro kimwe utitaye ku vyo winjiza, uriha Leta amahera amwe buri mwaka .
+  - Ikori y'inyuma y'ikori ku bakene itegerezwa kuba hejuru y'iyo ku batunzi .
 explanation: |
-  Vauban yaremeje ko habaho umusoro ugereranijwe, ari wo "icumi c'umwami", ukaba wari ugusaba ica cumi (10%) c'amahera abafaransa bose baronka, ata kuraba ikibanza bafise mu kibano. Yari yizeye ko uwo musoro woba ubereye kandi ukora neza kuruta uburyo bwo gutanga musoro bwariho.
+  Vauban yaremeje ko habaho amakori ugereranijwe, ari wo "royal tithe", ukaba wari ugusaba ica cumi (10%) c'amahera abafaransa bose baronka, ata kuraba ikibanza bafise mu kibano. Yari yizeye ko uwo amakori woba ubereye kandi ukora neza kuruta uburyo bwo gutanga amakori bwariho.
+reviewed: true

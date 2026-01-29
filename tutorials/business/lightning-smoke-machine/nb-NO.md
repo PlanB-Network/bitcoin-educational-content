@@ -263,11 +263,12 @@ Formål: Koble reléet til ON/OFF-knappen på fjernkontrollen
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Beskrivelse**           | **Funksjon**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normalt åpen)   | Krets åpen som standard | Lukkes når releet aktiveres |
+| NC (Normalt lukket) | Krets lukket som standard  | Åpnes når releet aktiveres  |
+| COM (Felles)         | Sentral terminal          | Veksler mellom NO og NC              |
 
 **Kablingen fra fjernkontrollen til relémodulen:**
 
@@ -301,11 +302,12 @@ Når ESP32 kobler ut reléet, skilles COM og NO, noe som tilsvarer å slippe kna
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Relemodul** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Inngang)        |
 
 **Verifikasjon:**
 
@@ -894,14 +896,15 @@ Før den endelige testen, sjekk :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Problem**                        | **Sannsynlig årsak**              | **Løsning**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 kobler ikke til            | USB-driver mangler             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Releet klikker ikke                | Feil GPIO-ledning            | Sjekk GPIO 21 → IN                                                                        |
+| Røykmaskinen reagerer ikke         | Fjernkontroll feil tilkoblet         | Sjekk NO/NC/COM                                                                           |
+| WebSocket-tidsavbrudd                   | Feil URL                  | Sjekk wss:// og /bitcoinswitch                                                            |
+| WiFi kobler ikke til             | SSID/Passord feil            | Flash WiFi-konfigurasjonen på nytt                                                                    |
+| Betaling mottatt men ingenting skjer | ESP32 ikke tilkoblet WebSocket | Sjekk RESET-logger                                                                      |
 
 ## Ressurser
 

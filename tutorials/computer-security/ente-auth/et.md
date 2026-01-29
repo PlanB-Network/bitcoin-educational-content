@@ -554,13 +554,14 @@ Ente ärimudel põhineb tasulisel Ente Photos teenusel, mis võimaldab meil pakk
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Rakendus              | Avatud lähtekood | Pilve varundamine | E2EE | Mitmeseadmeline sünkroonimine | Platvormid                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (ilma E2EE-ta)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(töölaua rakendused eemaldatud august 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(hiljutine, vähem kehtestatud)*              |
 
 Ente Auth paistab silma kui üks väheseid lahendusi, mis ühendab endas kõik eelised: lähtekoodi läbipaistvus, krüpteeritud pilves varundamine ja platvormideülene sünkroniseerimine.
 

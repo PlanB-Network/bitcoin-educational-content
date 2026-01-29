@@ -528,13 +528,14 @@ Joinstr saat ini menghasilkan rata-rata **2 hingga 5 peserta**. Angka-angka ini 
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Aspek | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Peserta per pool** | 50-100 | 5-10 | Variabel (P2P) | **2-5** |
+| **Koordinator** | Tersentralisasi (ditutup 2024) | Tersentralisasi (aktif) | P2P maker/taker | **Tidak ada (Nostr)** |
+| **Ketahanan sensor** | Lemah | Sedang | Sangat tinggi | **Sangat tinggi** |
+| **Biaya koordinasi** | Persentase | Biaya masuk | Dibayar kepada pembuat | **Tidak ada** |
+| **Diskriminasi UTXO** | Ya (daftar hitam) | Tidak | Tidak | **Tidak** |
 
 💡 **Solusi CoinJoin aktif lainnya**:
 

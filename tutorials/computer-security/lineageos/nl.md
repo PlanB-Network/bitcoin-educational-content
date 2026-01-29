@@ -685,13 +685,14 @@ Deze regelmatige updates zijn een grote aanwinst, vooral voor apparaten die door
 
 
 
+
 | **Aspect** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Compatibiliteit** | Alleen Pixels | Honderden apparaten |
+| **Beveiliging** | Geavanceerde beperkingen | Standaard AOSP-beveiliging |
+| **Google Play** | Optionele sandbox | Klassieke installatie mogelijk |
+| **Installatie** | Webinterface + USB | Technische handmatige procedure |
+| **Filosofie** | Beveiliging bovenal | Balans en keuzevrijheid |
 
 ### Aanbevelingen voor gebruik
 

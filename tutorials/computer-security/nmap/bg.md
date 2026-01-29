@@ -2238,23 +2238,24 @@ nmap -sV -sC -p- 192.168.0.0/24 192.168.1.13 192.168.2.10-20 --exclude 192.168.0
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| Категория | Описание |
+|----------------|-------------|
+| **auth** | Съдържа скриптове, свързани с автентикацията в услуги, включително анонимен достъп или изброяване на потребители. Примери: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast** | Съдържа скриптове, свързани с операции за разпръскване (broadcast) в мрежата, по-специално с цел експлоатиране и откриване на определени услуги, хостове или протоколи, базирани на broadcast (IPv6, wake on lan, IGMP и др.). Примери: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute** | Съдържа скриптове, свързани с операции за груба сила (brute force) на автентикацията в услуги (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL и др.). Примери: `ssh-brute`, `vnc-brute`. |
+| **default** | Съдържа скриптове, използвани по подразбиране (използване на `-sC`). Използват се няколко критерия за валидиране на влизането на скрипт в тази категория, включително скорост на изпълнение, структура на изхода, надеждност на теста, „натрапчив“ или „рисков“ характер и др. |
+| **discovery** | Съдържа скриптове, свързани с разширено откриване на мрежата и услугите. Тук се срещат например изброяване на съдържанието на SMB споделяне, версия на VNC услуга, SNMP заявки и др. Примери: `mysql-info`, `http-security-headers`. |
+| **dos** | Съдържа скриптове, които могат да причинят отказ от услуга (denial of service). Може да става дума за скриптове, създадени за експлоатиране на уязвимост от тип отказ от услуга, или скриптове със страничен ефект отказ от услуга. Бъдете внимателни (те са изключени от категорията `default`). Примери: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit** | Съдържа скриптове, създадени за директна експлоатация на уязвимост. Примери: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external** | Съдържа скриптове, които изискват използването на външен ресурс, като онлайн информационна база. Това по-специално показва опит за връзка навън (внимавайте с поверителността). Примери: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer** | Съдържа скриптове, предназначени за изпращане на неочаквани рамки, пакети или параметри към услуга. Това по-специално позволява причиняване на грешки или неизправности с цел получаване на следи за уязвимост или техническа информация. Примери: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive** | Съдържа скриптове, които са категоризирани като „рискови“ от гледна точка на наличност или откриване. Те могат да причинят срив на системата или да бъдат открити като зловредни от решение за сигурност. Това е противоположната категория на `safe`. Примери: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware** | Съдържа скриптове, предназначени за откриване на присъствието на елементи, характерни за зловреден софтуер, като слушащ порт, обикновено използван от известен бекдор (backdoor). Примери: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe** | Съдържа скриптове, които се считат за безопасни от гледна точка на откриване или стабилност. Това е противоположната категория на `intrusive` и съдържа в голямата си част разширени скриптове за идентифициране на версия или извличане на конфигурационни елементи. Примери: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version** | Съдържа скриптове, които позволяват разширено откриване на версия. Те могат да се използват като допълнение към изучаваните по-рано Probes и Matchs, когато откриването на версия изисква малко по-сложни операции. Примери: `http-php-version`, `vmware-version`. |
+| **vuln** | Съдържа скриптове, предназначени за откриване на присъствието на известна уязвимост (CVE), без непременно да я експлоатират (за разлика от категорията `exploit`). Обикновено те се ограничават до докладване на статуса „уязвим“ или не на дадена услуга. Примери: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 Технически категориите, към които принадлежи даден скрипт, се посочват директно в неговия код.
 

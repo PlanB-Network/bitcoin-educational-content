@@ -451,24 +451,25 @@ Pop!OS cung cấp nhiều phần mềm thông qua Pop!Shop, nhưng nhiều công
 
 
 
-| Outil                        | Description                                | Commande d’installation                         |
+
+| Công cụ | Mô tả | Lệnh cài đặt |
 | ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
-| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
-| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
-| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
-| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
-| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
-| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
-| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
-| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
-| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
-| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
-| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
-| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
-| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
-| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
-| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+| Firefox | Trình duyệt web tự do và phổ biến | `sudo apt install firefox` |
+| Brave | Trình duyệt web tập trung vào quyền riêng tư | Cài đặt qua Pop!_Shop hoặc trang web chính thức |
+| Visual Studio Code (VS Code) | Trình chỉnh sửa mã mạnh mẽ cho lập trình viên | `flatpak install flathub com.visualstudio.code` |
+| Git | Quản lý phiên bản | `sudo apt install git` |
+| Flatpak | Trình quản lý gói thay thế | `sudo apt install flatpak` |
+| VLC | Trình phát đa phương tiện linh hoạt | `sudo apt install vlc` |
+| GNOME Terminal | Terminal mặc định | Được cài đặt sẵn trên Pop!OS |
+| Curl | Công cụ truyền tải dữ liệu trực tuyến | `sudo apt install curl` |
+| Wget | Tải xuống tệp qua HTTP/FTP | `sudo apt install wget` |
+| Docker | Container hóa ứng dụng | Cài đặt qua script chính thức hoặc `apt` |
+| Node.js | Môi trường JavaScript phía máy chủ | Cài đặt qua `apt` hoặc NodeSource |
+| Python3 | Ngôn ngữ lập trình | `sudo apt install python3 python3-pip` |
+| GIMP | Trình chỉnh sửa hình ảnh nâng cao | `sudo apt install gimp` |
+| Thunderbird | Trình quản lý email | `sudo apt install thunderbird` |
+| Transmission | Trình tải BitTorrent nhẹ | `sudo apt install transmission-gtk` |
+| Htop | Trình giám sát hệ thống tương tác | `sudo apt install htop` |
 
 ### Cài đặt thông qua Pop! Shop (giao diện đồ họa)
 

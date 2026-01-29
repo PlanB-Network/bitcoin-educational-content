@@ -5031,12 +5031,13 @@ counter += 1 // same as counter = counter + 1
 가장 일반적인 것은 다음과 같습니다:
 
 
-| Operator | Meaning             |
+
+| 연산자 | 의미 |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | 더하기 및 할당 |
+| `-=` | 빼기 및 할당 |
+| `*=` | 곱하기 및 할당 |
+| `/=` | 나누기 및 할당 |
 
 예시:
 

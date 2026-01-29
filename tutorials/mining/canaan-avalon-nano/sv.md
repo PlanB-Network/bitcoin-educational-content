@@ -75,17 +75,18 @@ Nedan följer en tabell som sammanfattar de allmänna tekniska specifikationerna
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Egenskap                                      | Värde                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hash-hastighet                                      | 6 Th/s +- 5%                                            |
+| Energiförbrukning                               | 140 W                                                   |
+| Buller                                                | 30 - 40 dB                                              |
+| Område för utgångsluftstemperatur                 | 60-70°C (vid omgivningstemperatur 25°C)                |
+| Omgivningstemperaturkrav för användning | -5 till 30°C                                            |
+| Område för enhetens inspänning                         | 28V 5A kontinuerlig                                          |
+| Område för adapterens inspänning                       | 110-240V AC 50/60Hz                                     |
+| Enhetsstorlek                                 | Längd: 205 mm / Bredd: 115 mm / Höjd: 58.5 mm |
+| Enhetsvikt                                  | 0.86 kg                                                 |
 
 ## Starta och ansluta till det lokala nätverket
 

@@ -685,13 +685,14 @@ Ova redovna ažuriranja su velika prednost, posebno za uređaje koje su njihovi 
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Aspekt** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Kompatibilnost** | Samo Pixels | Stotine uređaja |
+| **Bezbednost** | Napredna ublažavanja | Standardna AOSP bezbednost |
+| **Google Play** | Opciono sandboxing | Klasična instalacija moguća |
+| **Instalacija** | Veb interfejs + USB | Tehnička ručna procedura |
+| **Filozofija** | Bezbednost iznad svega | Ravnoteža i sloboda izbora |
 
 ### Preporuke za upotrebu
 

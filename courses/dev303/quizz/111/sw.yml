@@ -2,7 +2,7 @@ question: Je, ni mabadiliko gani ya msingi ya usanifu ambayo Breez SDK hufanya i
 answer: Watumiaji hujitolea faragha kwa sababu Greenlight inaweza kuchunguza hali ya chaneli na taarifa za uelekezaji, lakini ina udhibiti kamili wa funguo za kibinafsi na ufikiaji wa fedha
 wrong_answers:
   - Watumiaji lazima waamini Greenlight kwa umiliki wa sehemu ya fedha badala ya usimamizi wa kiotomatiki wa chaneli na ugumu mdogo wa uendeshaji
-  - Wasanidi programu hupoteza ufikiaji wa vipengele vya hali ya juu vya Umeme kama vile sera maalum za uelekezaji na chaneli badala ya ujumuishaji rahisi wa API na usaidizi wa mifumo mbalimbali.
-  - Programu hupoteza uwezo wa usindikaji wa malipo wa wakati halisi badala ya usalama bora kupitia uthibitishaji wa miamala yote ya Lightning unaotegemea wingu
+  - Wasanidi programu hupoteza ufikiaji wa vipengele vya hali ya juu vya Lightning kama vile sera maalum za uelekezaji na chaneli badala ya ujumuishaji rahisi wa API na usaidizi wa mifumo mbalimbali.
+  - Programu hupoteza uwezo wa usindikaji wa malipo wa wakati halisi badala ya usalama bora kupitia uthibitishaji wa miamala yote ya Lightning unaotegemea cloud
 explanation: |
   Usanifu wa Breez SDK unawakilisha mabadilishano ya faragha dhidi ya utumiaji yaliyofikiriwa kwa uangalifu. Ingawa Greenlight inaweza kuona hali za chaneli na taarifa za uelekezaji (kupunguza faragha), watumiaji hudumisha udhibiti kamili juu ya funguo zao za faragha, ambazo haziondoki kwenye vifaa vyao. Hii inahakikisha fedha haziwezi kufikiwa bila idhini ya mtumiaji, ikihifadhi kanuni kuu ya kutokuhifadhiwa. Majibu yasiyo sahihi yanaonyesha kimakosa utunzaji wa fedha, mapungufu ya vipengele, au ucheleweshaji wa usindikaji - ambayo hakuna hata moja ni mabadilishano halisi katika muundo wa SDK.

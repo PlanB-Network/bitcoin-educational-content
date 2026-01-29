@@ -5,4 +5,4 @@ wrong_answers:
   - Kwa ugawaji wa mirundiko, kwa ugawaji wa mirundiko, au kwa hifadhi tuli
   - Kwa ufikiaji wa pamoja, kwa ufikiaji wa kipekee, au kwa ufikiaji wa wakati mmoja
 explanation: |
-  Kufungwa katika vigeu vya mazingira ya kunasa Rust kwa njia tatu haswa: kwa marejeleo yasiyobadilika (wanapohitaji kusoma tu), kwa marejeleo yanayoweza kubadilika (wanapohitaji kurekebisha), au kwa kuchukua umiliki (wanapohitaji kuhamisha thamani, mara nyingi kwa usalama wa uzi). Kikusanyaji huchagua kiotomatiki njia yenye vikwazo zaidi inayokidhi mahitaji ya kufungwa, kwa kufuata kanuni ya upendeleo mdogo.
+  Closure katika vigeu vya mazingira ya kunasa Rust kwa njia tatu haswa: kwa marejeleo yasiyobadilika (wanapohitaji kusoma tu), kwa marejeleo yanayoweza kubadilika (wanapohitaji kurekebisha), au kwa kuchukua umiliki (wanapohitaji kuhamisha thamani, mara nyingi kwa usalama wa uzi). Kikusanyaji huchagua kiotomatiki njia yenye vikwazo zaidi inayokidhi mahitaji ya kufungwa, kwa kufuata kanuni ya upendeleo mdogo.

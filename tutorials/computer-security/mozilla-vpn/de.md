@@ -153,7 +153,7 @@ Mit Mozilla VPN können Sie Ihren Standort in zwei Formaten auswählen:
 
 
 
-- Single-Hop: Die IP Address Ihres Computers wird an einen Server in einer bestimmten Region, in unserem Beispiel Sofia in Weißrussland, verlegt und die Daten werden verschlüsselt.
+- Single-Hop: Die IP Address Ihres Computers wird an einen Server in einer bestimmten Region, in unserem Beispiel Sofia in Bulgarien, verlegt und die Daten werden verschlüsselt.
 
 
 

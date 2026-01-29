@@ -90,7 +90,7 @@ _Sie möchten möglicherweise auch den zusätzlichen, optionalen, aber empfohlen
 
 Video, das die oben beschriebenen einfachen Schritte erläutert
 
-Wenn Ihnen diese einfachen Schritte zu kompliziert erscheinen, können Sie erwägen, ein Pixel mit vorinstallierter GrapheneOS-Software zu kaufen (https://ronindojo.io/en/roninmobile). Seien Sie sich jedoch bewusst, dass Sie einem Anbieter ein gewisses Maß an Vertrauen entgegenbringen.
+Wenn Ihnen diese einfachen Schritte zu kompliziert erscheinen, können Sie erwägen, ein Pixel mit vorinstallierter GrapheneOS-Software zu kaufen (es gibt Unternehmen, die sie verkaufen). Seien Sie sich jedoch bewusst, dass Sie einem Anbieter ein gewisses Maß an Vertrauen entgegenbringen.
 
 ### Vorinstallierte Apps
 
@@ -213,10 +213,10 @@ In den letzten Jahren sind verschlüsselte Messaging-Lösungen zahlreich geworde
 
 Die meisten Menschen, die kein Interesse am Datenschutz haben, verwenden wahrscheinlich WhatsApp oder iMessage. Ersteres kann über den Aurora Store heruntergeladen werden, aber letzteres funktioniert nicht auf GrapheneOS (offensichtlich!).
 
-- [Signal](https://signal.org/) ist einer der beliebteren Messenger mit Ende-zu-Ende-Verschlüsselung (E2EE) und verfügt über eine beeindruckende Erfolgsbilanz und einen umfangreichen Funktionsumfang. Signal erfordert eine Telefonnummer zur Anmeldung, daher sollten Sie sich, wenn Sie mit Personen chatten möchten, die Ihre Telefonnummer nicht kennen sollten, vielleicht einige der Alternativen ansehen. Signal muss über den Aurora Store heruntergeladen werden.
+- [Signal](https://signal.org/) ist einer der beliebteren Messenger mit Ende-zu-Ende-Verschlüsselung (E2EE) und verfügt über eine beeindruckende Erfolgsbilanz und einen umfangreichen Funktionsumfang. Signal erfordert eine Telefonnummer zur Anmeldung, daher sollten Sie sich, wenn Sie mit Personen chatten möchten, die Ihre Telefonnummer nicht kennen sollten, vielleicht einige der Alternativen ansehen **_[oder Ihre Nummer in den Profileinstellungen verbergen](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames)_**. Signal muss über den Aurora Store heruntergeladen werden.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) ist ein recht neuer E2EE-Messenger. Er hat keine Benutzer-ID, erfordert keine Telefonnummer oder persönliche Informationen. Andere finden Sie, indem sie Ihren persönlichen QR-Code scannen oder Ihren eindeutigen Link besuchen. Simplex ermöglicht es fortgeschrittenen Benutzern auch, ihren eigenen Server zu betreiben, um die Abhängigkeit von zentralisierten Einrichtungen weiter zu reduzieren. Simplex hat keinen Desktop-Client und ist daher möglicherweise nicht geeignet, wenn Mehrgeräteunterstützung ganz oben auf Ihrer Prioritätenliste steht. Simplex für Android ist über F-Droid verfügbar.
 - [Threema](https://threema.ch/en/faq/libre_installation) bietet ein ähnliches Erlebnis wie Simplex, ist aber schon länger auf dem Markt und wirkt daher etwas ausgereifter. Threema ist nicht kostenlos, eine lebenslange Lizenz kostet 4,99 US-Dollar und kann mit Bitcoin gekauft werden. Threema bietet einen Web-Client und native Desktop-Anwendungen. Die Android-Anwendung ist über F-Droid verfügbar.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) ist eine inoffizielle FOSS-Fork der offiziellen Telegram-App für Android. Telegram hat E2EE-"Geheime Chats", aber die Standardeinstellung ist nicht privat. Telegram FOSS kann von F-Droid heruntergeladen werden.
+- [Mercurygram](https://f-droid.org/en/packages/it.belloworld.mercurygram/) ist eine inoffizielle FOSS-Fork der offiziellen Telegram-App für Android. Telegram hat E2EE-"Geheime Chats", aber die Standardeinstellung ist nicht privat. Mercurygram kann von F-Droid heruntergeladen werden.
 
 ![image](assets/fr/9.webp)
 Links: Threema; Rechts: Simplex
@@ -266,13 +266,13 @@ Rechts: KDE Connect
 
 ### Lifestyle
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) ist eine wunderschön gestaltete Open-Source-Wetter-App, die über F-Droid verfügbar ist. Sie unterstützt auch verschiedene Größen von Widgets, sodass Sie das Wetter in Ihrem gewählten Standort direkt von Ihrem Startbildschirm aus sehen können.
+- [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) ist eine funktionsreiche Open-Source-Wetter-App mit Material 3 Expressive-Oberfläche; sie bietet durchdachte Visualisierungen, Vorhersagen, Echtzeitbedingungen, Luftqualität, Pollen, Wetterwarnungen aus über 50 Quellen.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) ist eine Open-Source- und datenschutzorientierte Übersetzungs-App, die mehr als 200 Sprachen unterstützt. Translate You ist über F-Droid verfügbar.
 - [Proton Calendar](https://proton.me/calendar/download) ist ein einfach zu bedienender E2EE-Kalender, der nahtlos mit Ihren Proton-E-Mail-Konten interagiert. Proton Calendar kann als APK oder über den Aurora Store heruntergeladen werden.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) ist eine App zum Anzeigen und Speichern von Bordkarten, Gutscheinen, Kinokarten und Mitgliedskarten usw. Laden Sie einfach die entsprechende `pkpass`- oder `espass`-Datei herunter und öffnen Sie sie mit der App. PassAndroid ist über F-Droid verfügbar.
 
 ![image](assets/fr/19.webp)
-Links: Geometric Weather
+Links: Breezy Weather
 Rechts: Proton Calendar
 
 ### Sicherheit/Datenschutz
@@ -281,7 +281,7 @@ Rechts: Proton Calendar
 - [Proton Pass](https://proton.me/pass/download) bietet einen ähnlichen kostenlosen Service wie Bitwarden, aber [Proton Unlimited](https://proton.me/pricing)-Kunden haben Zugriff auf zusätzliche erweiterte Funktionen. Proton Pass ist als APK oder über Aurora verfügbar.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) ist eine Zwei-Faktor-Authentifizierungsanwendung für Systeme, die Einmalpasswortprotokolle verwenden. Tokens können einfach durch Scannen eines QR-Codes hinzugefügt werden. FreeOTP ist über F-Droid verfügbar.
 - [Aegis](https://f-droid.org/de/packages/com.beemdevelopment.aegis/) ist eine kostenlose, sichere und Open Source-App für Android, mit der Sie Ihre 2-Faktor-Authentifizierungstoken für Ihre Online-Dienste verwalten können. Aegis ist über F-Droid verfügbar.
-- [Cryptomator](https://f-droid.org/de/packages/org.cryptomator.lite/) ist ein kostenpflichtiger plattformübergreifender Dienst, der Ihre Daten lokal verschlüsselt, damit Sie sie sicher in Ihren bevorzugten Cloud-Dienst hochladen können. Cryptomator kann über F-Droid heruntergeladen werden.
+- [Cryptomator](https://f-droid.org/de/packages/org.cryptomator.lite/) ist ein kostenloser plattformübergreifender Dienst (_kostenpflichtig nur über Google Play auf Android_), der Ihre Daten lokal verschlüsselt, damit Sie sie sicher in Ihren bevorzugten Cloud-Dienst hochladen können. Cryptomator kann über F-Droid heruntergeladen werden.
 
 ![Bild](assets/fr/21.webp)
 Links: Proton Pass

@@ -372,14 +372,15 @@ Kugira ngo dutahure neza aho Arkade ihagaze, reka tuyigereranye n’izindi nzira
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Ibipimo | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Uburyo** | UTXO isangiwe ihagarariwe na seriveri (ASP) | Umuyoboro P2P w'inzira zo kwishura | Udutoke duhumye dusohorwa n'ibanki (Mint) |
+| **Ububiko** | **Ububiko bwawe** (ufise imfunguruzo) | **Ububiko bwawe** (ufise imfunguruzo) | **Ububiko bwa Mint** (Mint ifise amahera) |
+| **Ibanga** | **Riri hejuru** (CoinJoin karemano, amaso y'abantu ntabona) | **Riringaniye** (Inzira ya onion, ariko inzira ziragaragara) | **Riri hejuru cane** (Mint ubwayo ntibona) |
+| **Ukwaguka** | Vyiza cane (Gukusanya on-chain binini) | Vyiza cane (Iyandika ry'amahera ritagira urugero off-chain) | Vyiza cane (Igikono ca seriveri coroshe) |
+| **Ubukoreshi** | Vyoroheje (bimeze nk'agashakoshi on-chain) | Biragoye (gutubura inzira, amahera ahari) | Vyoroheje cane (nk'amahera y'intoke mu buhinga) |
+| **Ingorane nkuru** | Ukuhaba kwa ASP & Guhera | Gutubura inzira & Kubika | Kwizera Mint (ishobora kwiba) |
 
 **Arkade** ni co kintu ciza co gusenyera ku mugozi umwe: ukworoha n’ibanga rya Cashu, ariko n’ubusegaba (butagira ububiko) bwa Lightning.
 

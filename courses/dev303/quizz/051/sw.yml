@@ -1,8 +1,8 @@
-question: Unapotumia RefCell katika mazingira yenye nyuzi nyingi, ni nini wasiwasi mkuu wa usalama?
-answer: RefCell si salama kwa nyuzi na itasababisha tabia isiyobainishwa ikiwa itafikiwa kutoka kwa nyuzi nyingi
+question: Unapotumia RefCell katika mazingira yenye thread nyingi, ni nini wasiwasi mkuu wa usalama?
+answer: RefCell si salama kwa nyuzi na itasababisha tabia isiyobainishwa ikiwa itafikiwa kutoka kwa thread nyingi
 wrong_answers:
   - RefCell itasawazisha kiotomatiki ufikiaji kati ya nyuzi lakini kwa gharama kubwa ya utendaji
-  - RefCell itaingiwa na hofu wakati wa utekelezaji wakati nyuzi nyingi zinapojaribu kuifikia kwa wakati mmoja
+  - RefCell itaingiwa na panic wakati wa utekelezaji wakati nyuzi nyingi zinapojaribu kuifikia kwa wakati mmoja
   - RefCell itakwama wakati nyuzi nyingi zinapojaribu kukopa data sawa kwa wakati mmoja
 explanation: |
-  RefCell imeundwa mahsusi kwa ajili ya matukio yenye nyuzi moja na haina mifumo yoyote ya ulandanishi wa nyuzi. Tofauti na njia mbadala salama za nyuzi kama Mutex, RefCell haifanyi shughuli za atomiki au kufunga, na kufanya ufikiaji wa wakati mmoja kutoka kwa nyuzi nyingi kusababisha tabia isiyofafanuliwa na mbio za data zinazowezekana. Ukaguzi wa kukopa wakati wa utekelezaji ambao RefCell hufanya si salama kwa nyuzi na unaweza kuharibiwa na ufikiaji wa wakati mmoja, na kusababisha ukiukaji wa usalama wa kumbukumbu ambao Rust kwa kawaida huzuia.
+  RefCell imeundwa mahsusi kwa ajili ya matukio yenye nyuzi moja na haina mifumo yoyote ya ulandanishi wa thread. Tofauti na njia mbadala salama za nyuzi kama Mutex, RefCell haifanyi shughuli za atomiki au kufunga, na kufanya ufikiaji wa wakati mmoja kutoka kwa thread nyingi kusababisha tabia isiyofafanuliwa na mbio za data zinazowezekana. Ukaguzi wa kukopa wakati wa utekelezaji ambao RefCell hufanya si salama kwa nyuzi na unaweza kuharibiwa na ufikiaji wa wakati mmoja, na kusababisha ukiukaji wa usalama wa kumbukumbu ambao Rust kwa kawaida huzuia.

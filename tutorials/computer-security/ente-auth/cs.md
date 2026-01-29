@@ -554,13 +554,14 @@ Obchodní model společnosti Ente je založen na placené službě Ente Photos, 
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Aplikace              | Open Source | Zálohování v cloudu | E2EE | Synchronizace mezi zařízeními | Platformy                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (bez E2EE)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(desktopové aplikace odstraněny srpen 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(nedávný, méně zavedený)*              |
 
 Ente Auth vyniká jako jedno z mála řešení, které kombinuje všechny výhody: transparentnost zdrojového kódu, šifrované cloudové zálohování a synchronizaci napříč platformami.
 

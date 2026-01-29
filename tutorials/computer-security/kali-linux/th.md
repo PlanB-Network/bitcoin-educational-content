@@ -459,29 +459,30 @@ sudo usermod -aG sudo yourname
 
 
 
-| **Catégorie**              | **Tâche de base**                      | **Description / Objectif**                                 | **Méthode principale**                                       |
+
+| **หมวดหมู่** | **งานพื้นฐาน** | **คำอธิบาย / วัตถุประสงค์** | **วิธีการหลัก** |
 | -------------------------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **Navigation système**     | Ouvrir le terminal                     | Accéder à la ligne de commande principale de Kali          | Cliquez sur l’icône du terminal ou utilisez `Ctrl + Alt + T` |
-|                            | Parcourir les dossiers                 | Se déplacer dans l’arborescence du système                 | `cd /chemin/du/dossier`, `ls` pour lister les fichiers       |
-|                            | Créer / supprimer un dossier           | Organiser les fichiers                                     | `mkdir nom_dossier`, `rm -r nom_dossier`                     |
-| **Gestion des fichiers**   | Copier / déplacer un fichier           | Manipuler des fichiers dans le terminal                    | `cp fichier destination`, `mv fichier destination`           |
-|                            | Supprimer un fichier                   | Libérer de l’espace disque                                 | `rm nom_du_fichier`                                          |
-|                            | Afficher le contenu d’un fichier texte | Lire rapidement un fichier                                 | `cat fichier.txt`, `less fichier.txt`                        |
-| **Gestion du système**     | Mettre à jour Kali Linux               | Installer les dernières versions et correctifs de sécurité | `sudo apt update && sudo apt full-upgrade -y`                |
-|                            | Installer un logiciel                  | Ajouter un nouvel outil ou utilitaire                      | `sudo apt install nom_du_paquet`                             |
-|                            | Supprimer un logiciel                  | Nettoyer le système                                        | `sudo apt remove nom_du_paquet`                              |
-|                            | Nettoyer les dépendances inutiles      | Gagner de l’espace disque                                  | `sudo apt autoremove`                                        |
-| **Réseau et Internet**     | Vérifier la connexion réseau           | Tester l’accès à Internet                                  | `ping google.com`                                            |
-|                            | Identifier l’adresse IP                | Connaître sa configuration réseau                          | `ip a` ou `ifconfig`                                         |
-|                            | Changer de réseau Wi-Fi                | Se connecter à un autre point d’accès                      | Icône réseau → Sélectionner le Wi-Fi voulu                   |
-| **Comptes et permissions** | Exécuter une commande administrateur   | Obtenir les droits root temporairement                     | `sudo commande`                                              |
-|                            | Créer un nouvel utilisateur            | Ajouter un compte local                                    | `sudo adduser nom_utilisateur`                               |
-|                            | Modifier un mot de passe               | Sécuriser un compte                                        | `passwd`                                                     |
-| **Apparence et confort**   | Changer le fond d’écran                | Personnaliser le bureau                                    | Clic droit sur le bureau → **Paramètres du bureau**          |
-|                            | Modifier le thème / icônes             | Améliorer la lisibilité et l’esthétique                    | Paramètres → Apparence / Thèmes                              |
-| **Outils Kali**            | Ouvrir le menu des outils              | Explorer les outils de test et de sécurité                 | Menu **Applications → Kali Linux**                           |
-|                            | Lancer un outil (ex : nmap, wireshark) | Découverte pratique des utilitaires de sécurité            | `sudo nmap`, `wireshark`, etc.                               |
-| **Aide et documentation**  | Obtenir de l’aide sur une commande     | Comprendre une commande avant de l’utiliser                | `man commande` ou `commande --help`                          |
+| **การนำทางระบบ** | เปิดเทอร์มินัล | เข้าถึงบรรทัดคำสั่งหลักของ Kali | คลิกที่ไอคอนเทอร์มินัลหรือใช้ `Ctrl + Alt + T` |
+| | เรียกดูโฟลเดอร์ | เคลื่อนที่ไปตามโครงสร้างไดเรกทอรีของระบบ | `cd /เส้นทาง/ไปยัง/โฟลเดอร์`, `ls` เพื่อแสดงรายการไฟล์ |
+| | สร้าง / ลบโฟลเดอร์ | จัดระเบียบไฟล์ | `mkdir ชื่อโฟลเดอร์`, `rm -r ชื่อโฟลเดอร์` |
+| **การจัดการไฟล์** | คัดลอก / ย้ายไฟล์ | จัดการไฟล์ในเทอร์มินัล | `cp ไฟล์ ปลายทาง`, `mv ไฟล์ ปลายทาง` |
+| | ลบไฟล์ | คืนพื้นที่ดิสก์ | `rm ชื่อไฟล์` |
+| | แสดงเนื้อหาของไฟล์ข้อความ | อ่านไฟล์อย่างรวดเร็ว | `cat ไฟล์.txt`, `less ไฟล์.txt` |
+| **การจัดการระบบ** | อัปเดต Kali Linux | ติดตั้งเวอร์ชันล่าสุดและแพตช์ความปลอดภัย | `sudo apt update && sudo apt full-upgrade -y` |
+| | ติดตั้งซอฟต์แวร์ | เพิ่มเครื่องมือหรือยูทิลิตี้ใหม่ | `sudo apt install ชื่อแพ็กเกจ` |
+| | ลบซอฟต์แวร์ | ทำความสะอาดระบบ | `sudo apt remove ชื่อแพ็กเกจ` |
+| | ล้างการพึ่งพาที่ไม่จำเป็น | ประหยัดพื้นที่ดิสก์ | `sudo apt autoremove` |
+| **เครือข่ายและอินเทอร์เน็ต** | ตรวจสอบการเชื่อมต่อเครือข่าย | ทดสอบการเข้าถึงอินเทอร์เน็ต | `ping google.com` |
+| | ระบุที่อยู่ IP | ทราบการกำหนดค่าเครือข่ายของคุณ | `ip a` หรือ `ifconfig` |
+| | เปลี่ยนเครือข่าย Wi-Fi | เชื่อมต่อกับจุดเข้าใช้งานอื่น | ไอคอนเครือข่าย → เลือก Wi-Fi ที่ต้องการ |
+| **บัญชีและสิทธิ์** | รันคำสั่งผู้ดูแลระบบ | รับสิทธิ์ root ชั่วคราว | `sudo คำสั่ง` |
+| | สร้างผู้ใช้ใหม่ | เพิ่มบัญชีท้องถิ่น | `sudo adduser ชื่อผู้ใช้` |
+| | เปลี่ยนรหัสผ่าน | รักษาความปลอดภัยบัญชี | `passwd` |
+| **รูปลักษณ์และความสะดวกสบาย** | เปลี่ยนวอลเปเปอร์ | ปรับแต่งเดสก์ท็อป | คลิกขวาบนเดสก์ท็อป → **การตั้งค่าเดสก์ท็อป** |
+| | เปลี่ยนธีม / ไอคอน | ปรับปรุงความชัดเจนและความสวยงาม | การตั้งค่า → รูปลักษณ์ / ธีม |
+| **เครื่องมือ Kali** | เปิดเมนูเครื่องมือ | สำรวจเครื่องมือทดสอบและความปลอดภัย | เมนู **แอปพลิเคชัน → Kali Linux** |
+| | เปิดใช้งานเครื่องมือ (เช่น: nmap, wireshark) | ค้นพบยูทิลิตี้ความปลอดภัยผ่านการใช้งานจริง | `sudo nmap`, `wireshark` ฯลฯ |
+| **ความช่วยเหลือและเอกสาร** | ขอความช่วยเหลือเกี่ยวกับคำสั่ง | ทำความเข้าใจคำสั่งก่อนใช้งาน | `man คำสั่ง` หรือ `คำสั่ง --help` |
 
 ## บทสรุป
 

@@ -1,9 +1,9 @@
-question: 2010年7月11日にSlashdotでBitcoinを紹介したTeppyが管理していた、Bitcoinを受け入れるサービスは何ですか？
+question: 2010年7月11日にSlashdotでビットコインを紹介したTeppyが管理していた、ビットコインを受け入れるサービスは何ですか？
 answer: MMORPGの「A Tale in the Desert」
 wrong_answers:
-  - VPNのMullvad
-  - VoIPサービスのLink2VoIP
-  - ウェブホスティングサービスのVekja.net
+  - VPNの「Mullvad」
+  - VoIPサービスの「Link2VoIP」
+  - ウェブホスティングサービスの「Vekja.net」
 explanation: |
-  このサービスは[開始](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159)され、5月19日にBitcoinを受け入れるようになりました。
-  レビュー済み: false
+  このサービスは[開始](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159)され、5月19日にビットコインを受け入れるようになりました。
+reviewed: false

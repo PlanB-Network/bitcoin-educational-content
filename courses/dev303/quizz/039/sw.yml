@@ -1,8 +1,8 @@
-question: Ni sifa gani inayowakilisha kufungwa ambako kunaweza kuitwa mara nyingi bila kubadilisha mazingira yao yaliyonaswa?
+question: Ni sifa gani inayowakilisha closure ambako kunaweza kuitwa mara nyingi bila kubadilisha mazingira yao yaliyonaswa?
 answer: Fn
 wrong_answers:
   - FnOnce
   - FnMut
   - FnCapture
 explanation: |
-  Fn ni sifa ya kufungwa yenye vikwazo zaidi inayowakilisha kufungwa kunakoweza kuitwa mara nyingi bila kubadilisha mazingira yao yaliyokamatwa. Kufungwa huku kunachukuliwa tu kwa marejeleo yasiyobadilika na kunaweza kuitwa kwa usalama kwa wakati mmoja. FnOnce inawakilisha kufungwa kunakoweza kuitwa mara moja tu, huku FnMut ikiwakilisha kufungwa kunakoweza kuitwa mara nyingi lakini kunaweza kubadilisha mazingira yao yaliyokamatwa. FnCapture si sifa halisi ya Rust.
+  Fn ni sifa ya closure yenye vikwazo zaidi inayowakilisha closure kunakoweza kuitwa mara nyingi bila kubadilisha mazingira yao yaliyokamatwa. Closure huku kunachukuliwa tu kwa marejeleo yasiyobadilika na kunaweza kuitwa kwa usalama kwa wakati mmoja. FnOnce inawakilisha closure kunakoweza kuitwa mara moja tu, huku FnMut ikiwakilisha kufungwa kunakoweza kuitwa mara nyingi lakini kunaweza kubadilisha mazingira yao yaliyokamatwa. FnCapture si sifa halisi ya Rust.

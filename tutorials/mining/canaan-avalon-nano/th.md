@@ -75,17 +75,18 @@ https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| คุณลักษณะ                                      | ค่า                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| อัตราแฮช                                      | 6 Th/s +- 5%                                            |
+| การใช้พลังงาน                               | 140 W                                                   |
+| เสียง                                                | 30 - 40 dB                                              |
+| ช่วงอุณหภูมิอากาศออก                 | 60-70°C (ที่อุณหภูมิแวดล้อม 25°C)                |
+| ข้อกำหนดอุณหภูมิแวดล้อมสำหรับการใช้ | -5 ถึง 30°C                                            |
+| ช่วงแรงดันไฟฟ้าเข้าของอุปกรณ์                         | 28V 5A อย่างต่อเนื่อง                                          |
+| ช่วงแรงดันไฟฟ้าเข้าของอะแดปเตอร์                       | 110-240V AC 50/60Hz                                     |
+| ขนาดของอุปกรณ์                                 | ความยาว: 205 มม / ความกว้าง: 115 มม / ความสูง: 58.5 มม |
+| น้ำหนักของอุปกรณ์                                  | 0.86 kg                                                 |
 
 ## เปิดเครื่องและเชื่อมต่อกับเครือข่ายท้องถิ่น
 

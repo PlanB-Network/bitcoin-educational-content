@@ -727,14 +727,15 @@ BTCPay Server terdiri dari fitur-fitur standar Wallet berikut ini:
 Administrator dapat melihat transaksi masuk dan keluar untuk On-Chain Wallet yang terhubung ke toko khusus ini dalam tampilan transaksi. Setiap transaksi memiliki perbedaan antara jumlah yang diterima dan jumlah yang dikirim. Transaksi yang diterima akan berwarna Green, dan transaksi yang dikirim akan berwarna merah. Dalam tampilan transaksi BTCPay Server, administrator juga akan melihat serangkaian label standar.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Jenis Transaksi | Deskripsi                                         |
+| ---------------- | ------------------------------------------------- |
+| Aplikasi         | Pembayaran diterima melalui faktur yang dibuat oleh aplikasi |
+| Faktur           | Pembayaran diterima melalui faktur                |
+| Payjoin          | Belum dibayar, pengatur waktu faktur belum kedaluwarsa |
+| Payjoin-terekspos | UTXO terekspos melalui proposal payjoin pada faktur |
+| Permintaan pembayaran | Pembayaran diterima melalui permintaan pembayaran |
+| Pembayaran       | Pembayaran dikirim melalui pembayaran atau pengembalian dana |
 
 ### Bagaimana cara mengirim
 
@@ -1805,28 +1806,30 @@ Setiap jenis dilengkapi dengan parameter yang harus diisi. Pemilik toko dapat me
 BTCPay Server juga memungkinkan Anda untuk membuat Formulir dalam kode. JSON, khususnya. Alih-alih melihat editor, pemilik toko dapat mengklik tombol KODE tepat di sebelah editor dan masuk ke kode Formulir mereka. Dalam definisi bidang, hanya bidang berikut yang dapat diatur; nilai bidang disimpan dalam metadata Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Bidang | Deskripsi |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Jika true, .value harus diatur dalam definisi formulir, dan pengguna tidak akan dapat mengubah nilai bidang tersebut. (contoh: versi definisi formulir) |
+| .fields.type | Jenis input HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Jika .fields.type adalah select, daftar nilai yang dapat dipilih |
+| .fields.options.text | Teks yang ditampilkan untuk opsi ini |
+| .fields.options.value | Nilai bidang jika opsi ini dipilih |
+| .fields.type=fieldset | Buat HTML fieldset di sekitar anak .fields.fields (lihat di bawah) |
+| .fields.name | Nama properti JSON dari bidang seperti yang akan muncul di metadata faktur |
+| .fields.value | Nilai default dari bidang |
+| .fields.required | jika true, bidang tersebut wajib diisi |
+| .fields.label | Label dari bidang |
+| .fields.helpText | Teks tambahan untuk memberikan penjelasan bagi bidang tersebut. |
+| .fields.fields | Anda dapat menyusun bidang Anda dalam sebuah hierarki, yang memungkinkan bidang turunan disarangkan di dalam metadata faktur. Struktur ini dapat membantu Anda mengatur dan mengelola informasi yang dikumpulkan dengan lebih baik, sehingga lebih mudah diakses dan diinterpretasikan. Misalnya, jika Anda memiliki formulir yang mengumpulkan informasi pelanggan, Anda dapat mengelompokkan bidang-bidang tersebut di bawah bidang induk yang disebut customer. Di dalam bidang induk ini, Anda mungkin memiliki bidang turunan seperti name, Email, dan address. |
 
 Nama bidang mewakili nama properti JSON yang menyimpan nilai yang diberikan pengguna dalam metadata Invoice. Beberapa nama yang terkenal dapat ditafsirkan dan dimodifikasi untuk menyesuaikan pengaturan Invoice.
 
 
-| Field name       | Description            |
+
+| Nama bidang      | Deskripsi             |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Jumlah faktur         |
+| invoice_currency | Mata uang faktur      |
 
 Anda dapat mengisi bidang Invoice secara otomatis dengan menambahkan string kueri ke URL formulir, seperti "?your_field=value".
 
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Catatan untuk | Nama Kontainer                     |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ Kecuali jika Anda menggunakan [Wallet](https://docs.btcpayserver.org/Wallet/) ya
 Tabel di bawah ini mencantumkan dan menjelaskan status Invoice standar di BTCPay, bersama dengan tindakan umum yang disarankan. Tindakan hanyalah rekomendasi. Terserah kepada pengguna untuk menentukan tindakan terbaik untuk kasus penggunaan dan bisnis mereka.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Status Faktur | Deskripsi | Tindakan |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Belum dibayar, timer faktur belum kedaluwarsa | Tidak ada |
+| New (paidPartial) | Dibayar, tidak lunas, timer faktur belum kedaluwarsa | Tidak ada |
+| Expired | Belum dibayar, timer faktur sudah kedaluwarsa | Tidak ada |
+| Expired (paidPartial) ** | Dibayar, tidak lunas, dan sudah kedaluwarsa | Hubungi pembeli untuk pengembalian dana atau minta pelunasan. Opsional: tandai faktur sebagai settled atau invalid |
+| Expired (paidLate) | Dibayar lunas setelah timer faktur kedaluwarsa | Hubungi pembeli untuk pengembalian dana atau proses pesanan jika konfirmasi terlambat dapat diterima. |
+| Settled (paidOver) | Dibayar melebihi jumlah faktur, lunas, menerima konfirmasi yang cukup | Hubungi pembeli untuk pengembalian dana kelebihan, atau opsional tunggu pembeli menghubungi Anda |
+| Processing | Dibayar lunas, tetapi belum menerima konfirmasi yang cukup sesuai pengaturan toko | Hubungi pembeli untuk pengembalian dana kelebihan, atau opsional tunggu pembeli menghubungi Anda |
+| Processing (paidOver) | Dibayar melebihi jumlah faktur, belum menerima konfirmasi yang cukup | Tunggu hingga settled, lalu hubungi pembeli untuk pengembalian dana kelebihan, atau tunggu dihubungi |
+| Settled | Dibayar lunas, menerima konfirmasi yang cukup di toko | Penuhi pesanan |
+| Settled (marked) | Status diubah secara manual menjadi settled dari status processing atau invalid | Admin toko telah menandai pembayaran sebagai settled |
+| Invalid* | Dibayar, tetapi gagal menerima konfirmasi yang cukup dalam waktu yang ditentukan di pengaturan toko | Periksa transaksi di blockchain explorer; jika konfirmasi sudah cukup, tandai sebagai settled |
+| Invalid (marked) | Status diubah secara manual menjadi invalid dari status settled atau expired | Admin toko telah menandai pembayaran sebagai invalid |
+| Invalid (paidOver) | Dibayar lebih dari jumlah faktur, tetapi gagal menerima konfirmasi yang cukup dalam waktu yang ditentukan | Periksa transaksi di blockchain explorer; jika konfirmasi sudah cukup, tandai sebagai settled |
 
 #### Detail Invoice
 

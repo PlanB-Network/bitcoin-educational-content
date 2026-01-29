@@ -255,12 +255,13 @@ be-BOP vam omogućava da prihvatite Bitcoin uplate direktno na Blockchain (On-Ch
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Polje                  | Opis                                               | Primer za Upotrebu                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Tip adresiranja koji se koristi                               | BIP84 (za adrese u formatu bech32 koje počinju sa `bc1`) |
+| **Prošireni javni ključ** | Vaš Zpub (ili Xpub u zavisnosti od korišćenog novčanika)        | `zpub...` (izvučeno iz vašeg Bitcoin novčanika) |
+| **Derivation Index**   | Početni indeks za generisanje adresa         | `1`                                              |
+| **Mempool URL**        | URL mempool servisa koji se koristi za praćenje transakcija | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -849,12 +850,13 @@ Ovaj odeljak određuje **gde** i **kako** se proizvod može pregledati i kupiti:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platforma        | Proizvod Vidljiv | Moguće Dodati u Korpu |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (javna stranica)        | ✔️              | ✔️                  |
+| Retail POS (prodajno mesto)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (prodaja preko bota)  | ✔️              | ✔️                  |
 
 Označite samo kanale koje želite koristiti.
 
@@ -1024,14 +1026,15 @@ Koristite **shortcodes** u sadržaju vaših CMS stranica:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Cilj                 | Oznaka za Umetanje                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Prikazivanje proizvoda      | `[Product=slug?display=img-1]`        |
+| Prikazivanje slike       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integracija klizača       | `[Slider=slug?autoplay=3000]`         |
+| Dodavanje izazova     | `[Challenge=slug]`                    |
+| Dodavanje odbrojavanje | `[Countdown=slug]`                 |
+| Integracija obriza   | `[Form=slug]`                         |
 
 **Trenutni parametri**:
 
@@ -1813,14 +1816,15 @@ Poster:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funkcija                         | Opis                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS uloga                         | Dodeljena preko ARM                                         |
+| Glavni interfejs             | `/pos` ili `/pos/touch`                                 |
+| Prikaz kupca (ekran 2)       | `/pos/session`                                         |
+| Plaćanje                         | Gotovina, kartica, Lightning itd.                         |
+| Dodavanje proizvoda                    | Alias ili skeniranje barkoda                              |
+| Popusti / PDV                    | Sa obaveznim upravljivačkim opravdanjem              |
 
 Hvala što ste pažljivo pratili ovaj vodič.

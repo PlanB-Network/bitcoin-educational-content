@@ -554,13 +554,14 @@ El modelo de negocio de Ente se basa en el servicio de pago Ente Photos, lo que 
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Aplicación              | Código Abierto | Copia de seguridad en la nube | E2EE | Sincronización multidispositivo | Plataformas                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (sin E2EE)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(aplicaciones de escritorio eliminadas agosto 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(reciente, menos establecido)*              |
 
 Ente Auth destaca por ser una de las pocas soluciones que combina todas las ventajas: transparencia del código fuente, copia de seguridad cifrada en la nube y sincronización entre plataformas.
 

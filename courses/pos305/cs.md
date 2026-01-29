@@ -727,14 +727,15 @@ BTCPay Server obsahuje následující standardní funkce Wallet:
 Správci mohou v zobrazení transakcí zobrazit příchozí a odchozí transakce pro On-Chain Wallet připojené k tomuto konkrétnímu úložišti. U každé transakce jsou rozlišeny přijaté a odeslané částky. Přijaté budou mít barvu Green a odeslané transakce budou mít červenou barvu. V rámci zobrazení transakcí serveru BTCPay uvidí správci také sadu standardních štítků.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Typ transakce | Popis                                                |
+| -------------- | ---------------------------------------------------- |
+| Aplikace       | Platba byla přijata prostřednictvím faktury vytvořené aplikací |
+| Faktura        | Platba byla přijata prostřednictvím faktury          |
+| Payjoin        | Nezaplaceno, časovač faktury dosud nevypršel         |
+| Payjoin-odhalen| UTXO bylo odhaleno prostřednictvím návrhu payjoin ve faktuře |
+| Žádost o platbu| Platba byla přijata prostřednictvím žádosti o platbu |
+| Výplata        | Platba byla odeslána prostřednictvím výplaty nebo vrácení peněz |
 
 ### Jak odeslat
 
@@ -1805,28 +1806,30 @@ Každý typ má své parametry, které je třeba vyplnit. Majitel obchodu si je 
 BTCPay Server také umožňuje vytvářet formuláře v kódu. Zejména JSON. Místo toho, aby se majitelé obchodů dívali do editoru, mohou kliknout na tlačítko CODE hned vedle editoru a dostat se do kódu svých Formulářů. V definici pole lze nastavit pouze následující pole; hodnoty polí jsou uloženy v metadatech Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Pole | Popis |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Pokud je true, musí být .value nastaveno v definici formuláře a uživatel nebude moci hodnotu pole změnit. (příklad: verze definice formuláře) |
+| .fields.type | Typ vstupu HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Pokud je .fields.type select, seznam volitelných hodnot |
+| .fields.options.text | Text zobrazený pro tuto možnost |
+| .fields.options.value | Hodnota pole, pokud je vybrána tato možnost |
+| .fields.type=fieldset | Vytvoří HTML fieldset kolem dceřiných prvků .fields.fields (viz níže) |
+| .fields.name | Název vlastnosti JSON pole, jak se objeví v metadatech faktury |
+| .fields.value | Výchozí hodnota pole |
+| .fields.required | pokud je true, pole bude povinné |
+| .fields.label | Popisek pole |
+| .fields.helpText | Dodatečný text poskytující vysvětlení k poli. |
+| .fields.fields | Pole můžete organizovat v hierarchii, což umožňuje vnoření dceřiných polí do metadat faktury. Tato struktura vám může pomoci lépe organizovat a spravovat shromážděné informace, což usnadňuje jejich přístup a interpretaci. Pokud máte například formulář, který shromažďuje informace o zákazníkovi, můžete pole seskupit pod nadřazené pole s názvem customer. V tomto nadřazeném poli můžete mít dceřiná pole jako name, Email a address. |
 
 Název pole představuje název vlastnosti JSON, která ukládá hodnotu zadanou uživatelem do metadat modulu Invoice. Některé dobře známé názvy lze interpretovat a upravit tak, aby bylo možné upravit nastavení zařízení Invoice.
 
 
-| Field name       | Description            |
+
+| Název pole       | Popis                 |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Částka faktury        |
+| invoice_currency | Měna faktury          |
 
 Pole formuláře Invoice můžete předvyplnit automaticky přidáním řetězců dotazů do adresy URL formuláře, například "?your_field=value".
 
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Protokoly pro | Název kontejneru                   |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ Pokud nepoužíváte vestavěný [Wallet](https://docs.btcpayserver.org/Wallet/)
 V následující tabulce jsou uvedeny a popsány standardní stavy Invoice v BTCPay spolu s navrhovanými běžnými kroky. Akce jsou pouze doporučení. Je na uživatelích, aby definovali nejlepší postup pro svůj případ použití a podnikání.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Stav faktury | Popis | Akce |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Nezaplaceno, časovač faktury dosud nevypršel | Žádná |
+| New (paidPartial) | Zaplaceno, nikoliv v plné výši, časovač faktury dosud nevypršel | Žádná |
+| Expired | Nezaplaceno, časovač faktury vypršel | Žádná |
+| Expired (paidPartial) ** | Zaplaceno, nikoliv v plné výši, a vypršelo | Kontaktujte kupujícího a domluvte vrácení peněz nebo jej požádejte o doplatek. Volitelně označte fakturu jako settled nebo invalid |
+| Expired (paidLate) | Zaplaceno v plné výši po vypršení časovače faktury | Kontaktujte kupujícího a domluvte vrácení peněz nebo zpracujte objednávku, pokud jsou pozdní potvrzení přijatelná. |
+| Settled (paidOver) | Zaplaceno více než částka faktury, vyřízeno, přijat dostatečný počet potvrzení | Kontaktujte kupujícího a domluvte vrácení přeplatku, nebo volitelně počkejte, až vás kupující kontaktuje |
+| Processing | Zaplaceno v plné výši, ale nebylo přijato dostatečné množství potvrzení specifikovaných v nastavení obchodu | Kontaktujte kupujícího a domluvte vrácení přeplatku, nebo volitelně počkejte, až vás kupující kontaktuje |
+| Processing (paidOver) | Zaplaceno více než částka faktury, nebylo přijato dostatečné množství potvrzení | Počkejte na vyřízení, poté kontaktujte kupujícího a domluvte vrácení přeplatku, nebo počkejte, až vás kontaktuje |
+| Settled | Zaplaceno v plné výši, v obchodě přijat dostatečný počet potvrzení | Vyřiďte objednávku |
+| Settled (marked) | Stav byl ručně změněn na settled ze stavu processing nebo invalid | Správce obchodu označil platbu jako settled |
+| Invalid* | Zaplaceno, ale nepodařilo se získat dostatek potvrzení v čase určeném v nastavení obchodu | Zkontrolujte transakci v blockchainovém prohlížeči; pokud má dostatek potvrzení, označte ji jako settled |
+| Invalid (marked) | Stav byl ručně změněn na invalid ze stavu settled nebo expired | Správce obchodu označil platbu jako invalid |
+| Invalid (paidOver) | Zaplaceno více než částka faktury, ale nepodařilo se získat dostatek potvrzení v čase určeném v nastavení obchodu | Zkontrolujte transakci v blockchainovém prohlížeči; pokud má dostatek potvrzení, označte ji jako settled |
 
 #### Podrobnosti o Invoice
 

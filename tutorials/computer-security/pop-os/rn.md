@@ -451,24 +451,25 @@ Pop!OS itanga ubuhinga bwinshi biciye ku Pop!Shop yayo, ariko ibikoresho vyinshi
 
 
 
-| Outil                        | Description                                | Commande d’installation                         |
+
+| Igikoresho | Ibisobanuro | Itegeko ryo gushyiramo |
 | ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
-| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
-| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
-| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
-| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
-| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
-| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
-| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
-| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
-| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
-| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
-| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
-| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
-| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
-| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
-| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+| Firefox | Mushakashaka y'urubuga yigenga kandi ikunzwe | `sudo apt install firefox` |
+| Brave | Mushakashaka y'urubuga yibanda ku mutekano | Gushyiramo ukoresheje Pop!_Shop cyangwa urubuga rwabo |
+| Visual Studio Code (VS Code) | Igikoresho gikomeye cyo kwandika kodi | `flatpak install flathub com.visualstudio.code` |
+| Git | Igikoresho cyo gucunga verisiyo | `sudo apt install git` |
+| Flatpak | Igikoresho kindi cyo gucunga amapaki | `sudo apt install flatpak` |
+| VLC | Igikoresho gikinisha amavidiyo n'amajwi | `sudo apt install vlc` |
+| GNOME Terminal | Termino isanzwe | Isanzwe irimo muri Pop!OS |
+| Curl | Igikoresho cyo koherereza amakuru kuri interineti | `sudo apt install curl` |
+| Wget | Gukura amadosiye kuri interineti | `sudo apt install wget` |
+| Docker | Igikoresho cyo guhunka porogaramu | Gushyiramo ukoresheje script yabo cyangwa `apt` |
+| Node.js | Ikibuga cya JavaScript ku ruhande rwa seriveri | Gushyiramo ukoresheje `apt` cyangwa NodeSource |
+| Python3 | Ururimi rwo kwandika porogaramu | `sudo apt install python3 python3-pip` |
+| GIMP | Igikoresho gihambaye cyo guhindura amashusho | `sudo apt install gimp` |
+| Thunderbird | Porogaramu y'imera | `sudo apt install thunderbird` |
+| Transmission | Porogaramu yoroheje ya BitTorrent | `sudo apt install transmission-gtk` |
+| Htop | Igikoresho cyo kugenzura imikorere ya sisitemu | `sudo apt install htop` |
 
 ### Gushiramwo biciye kuri Pop! Iduka (ikigaragaza ikigaragaza)
 

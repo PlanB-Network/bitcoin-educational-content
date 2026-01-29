@@ -542,13 +542,14 @@ Joinstr은 현재 평균 **2~5명의 참가자** 풀을 생성합니다. 이 수
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| 측면 | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **풀당 참가자** | 50-100 | 5-10 | 가변 (P2P) | **2-5** |
+| **조정자** | 중앙화 (2024년 폐쇄) | 중앙화 (활성) | P2P maker/taker | **없음 (Nostr)** |
+| **검열 저항성** | 약함 | 중간 | 매우 높음 | **매우 높음** |
+| **조정 수수료** | 백분율 | 진입 수수료 | 메이커에게 지불 | **없음** |
+| **UTXO 차별** | 예 (블랙리스트) | 아니오 | 아니오 | **아니오** |
 
 💡 **기타 활성 CoinJoin 솔루션** :
 

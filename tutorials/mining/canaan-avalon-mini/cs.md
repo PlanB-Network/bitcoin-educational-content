@@ -122,16 +122,17 @@ Níže je uvedena souhrnná tabulka obecných technických specifikací modelu M
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Charakteristika                                      | Hodnota                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Spotřeba elektřiny                              | 800 W                                                     |
+| Hluk                                                | 35-55 dB                                                  |
+| Teplota výstupního vzduchu                       | 60-70°C (při okolní teplotě 25°C)                  |
+| Požadavky na okolní teplotu pro použití | -5° C - 40°C                                              |
+| Rozsah vstupního napětí zařízení                         | 110V-240V AC 50/60Hz                                      |
+| Rozměry stroje                                 | Délka: 760 mm / Hloubka: 104 mm / Výška: 214.5 mm |
+| Hmotnost stroje                                  |  8.35 kg                                                  |
 
 ## Připojení k zařízení Mining pool
 

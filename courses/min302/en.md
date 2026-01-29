@@ -4,7 +4,7 @@ goal: Repurpose an Antminer S9 into Attakai, a DIY heater for home mining, with 
 objectives:
   - Understand Bitcoin mining fundamentals
   - Source a used Antminer S9 safely
-  - Build the Attakai DIY heater conversion
+  - Build the Attakai DIY heater
   - Configure BraiinsOS+ and join a mining pool
 ---
 

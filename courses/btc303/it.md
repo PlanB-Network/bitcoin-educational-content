@@ -1121,33 +1121,30 @@ Un buon esempio di miglioramento computazionale si trova nella libreria [libsecp
 
 ![](assets/it/013.webp)
 
-Prestazioni della verifica della firma nel tempo, con richieste di pull significative segnate sulla timeline.
+Nel grafico sopra è possibile osservare le prestazioni della verifica delle firme nel tempo, con pull request significative segnate lungo la linea temporale.
 
 Il grafico mostra l'andamento di due diversi tipi di CPU a 64 bit, ovvero ARM e x86. La differenza di prestazioni è dovuta al maggior numero di istruzioni specializzate disponibili su x86 rispetto all'architettura ARM, che ha un numero inferiore di istruzioni generiche. Tuttavia, la tendenza generale è la stessa per entrambe le architetture. Si noti che l'asse delle Y è logaritmico, il che fa sembrare i miglioramenti meno impressionanti di quanto non siano in realtà.
 
-Ci sono anche diversi esempi di miglioramenti per risparmiare spazio che hanno contribuito a migliorare le prestazioni. In un
-
-[Medium blog post](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) sul contributo di Taproot al risparmio di spazio, l'utente Murch confronta la quantità di spazio di blocco che una firma a soglia 2 su 3 richiederebbe, utilizzando Taproot in vari modi e non utilizzandolo affatto.
+Ci sono anche diversi esempi di miglioramenti per risparmiare spazio che hanno contribuito a migliorare le prestazioni. In un [articolo su Medium](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) riguardo il contributo di Taproot al risparmio di spazio, l'utente Murch confronta la quantità di spazio di blocco che una firma a soglia 2 su 3 richiederebbe, utilizzando Taproot in vari modi e non utilizzandolo affatto.
 
 ![](assets/it/014.webp)
 
-Risparmio di spazio per diversi tipi di spesa, Taproot e versioni precedenti.
 
-Un Multisig 2 su 3 che utilizza il SegWit nativo richiederebbe un totale di 104,5+43 vB = 147,5 vB, mentre l'uso più conservativo di Taproot richiederebbe solo 57,5+43 vB = 100,5 vB nel caso di utilizzo standard. Nel peggiore dei casi e in casi rari, come quando un firmatario standard non è disponibile per qualche motivo, Taproot utilizzerebbe 107,5+43 vB = 150,5 vB. Non è necessario comprendere tutti i dettagli, ma questo dovrebbe darvi un'idea di come gli sviluppatori pensano al risparmio di spazio: ogni piccolo byte conta.
+Un Multisig 2 su 3 che utilizza SegWit nativo richiederebbe un totale di 104,5+43 vB = 147,5 vB, mentre l'uso più parsimonioso di Taproot richiederebbe solo 57,5+43 vB = 100,5 vB nel caso d'uso standard. Nel peggiore dei casi, e in situazioni rare, come quando un firmatario standard non è disponibile per qualche motivo, Taproot utilizzerebbe 107,5+43 vB = 150,5 vB. Non è necessario comprendere tutti i dettagli, ma questo dovrebbe darvi un'idea di come gli sviluppatori pensano al risparmio di spazio: ogni singolo byte conta.
 
-Oltre all'inward scaling nel software Bitcoin , ci sono alcuni modi in cui gli utenti possono contribuire all'inward scaling. Possono effettuare le loro transazioni in modo più intelligente per risparmiare sulle spese di transazione e allo stesso tempo ridurre la loro impronta sui requisiti di full node . Due tecniche comunemente utilizzate per raggiungere questo obiettivo sono chiamate batching delle transazioni e consolidamento degli output.
+Oltre all'inward scaling nel software di Bitcoin, ci sono alcuni modi in cui gli utenti possono contribuire all'inward scaling. Possono effettuare le loro transazioni in modo più intelligente per risparmiare sulle spese di transazione e allo stesso tempo ridurre la loro impronta sui requisiti di full node . Due tecniche comunemente utilizzate per raggiungere questo obiettivo sono chiamate batching delle transazioni e consolidamento degli output.
 
-L'idea del batching delle transazioni consiste nel combinare più pagamenti in un'unica transazione, invece di effettuare una transazione per ogni pagamento. In questo modo si possono risparmiare molte commissioni e allo stesso tempo ridurre il carico di spazio dei blocchi.
+L'idea del batching delle transazioni consiste nel combinare più pagamenti in un'unica transazione, invece di effettuare una transazione per ogni pagamento. In questo modo si possono risparmiare sulle commissioni e allo stesso tempo ridurre il carico di spazio dei blocchi.
 
 ![](assets/it/015.webp)
 
-Il batching delle transazioni combina più pagamenti in un'unica transazione per risparmiare sulle commissioni.
+Il batching delle transazioni consiste nel combinare più pagamenti in un'unica transazione, e di conseguenza risparmiare sulle commissioni.
 
-Il consolidamento dell'output si riferisce al fatto di sfruttare i periodi di bassa domanda di spazio di blocco per combinare più output in un unico output. Ciò può ridurre il costo delle tariffe in un secondo momento, quando sarà necessario effettuare un pagamento mentre la domanda di spazio di blocco è elevata.
+Il consolidamento dell'output consiste nello sfruttare i periodi di bassa domanda di spazio nei blocchi per combinare più output in uno solo. Questo permette di ridurre il costo delle commissioni in un secondo momento, quando sarà necessario effettuare un pagamento mentre la domanda di spazio nei blocchi è elevata.
 
 ![](assets/it/016.webp)
 
-Consolidamento dell'uscita: Fondere le monete in un'unica grande moneta quando le commissioni sono basse per risparmiare le commissioni in seguito.
+Consolidamento degli output: unire le monete in un'unico grande output quando le commissioni sono basse, in modo da risparmiare le commissioni in seguito.
 
 Potrebbe non essere ovvio come il consolidamento dell'output contribuisca all'inward scaling. Dopo tutto, la quantità totale di dati Blockchain è persino leggermente aumentata con questo metodo. Tuttavia, l'insieme UTXO, cioè il database che tiene traccia di chi possiede quali monete, si riduce perché si spendono più UTXO di quanti se ne creano. Questo alleggerisce l'onere dei full nodes di mantenere i loro set UTXO.
 

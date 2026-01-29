@@ -1,15 +1,22 @@
 id: ce272232-0d97-4482-884a-0f77a2ebc036
+
 topic: mining
+
 subtopic: mining
+
 type: practice
-level: intermediate
+
+level: advanced
+
 hours: 6
 
 professors_id:
   - 03cb7507-ad65-4848-88f8-bfa72e2b67f8
   - e320ccda-be59-492b-a81b-243d9acb592f
   - 2e1b5182-567e-453a-af29-36009340ff02
+
 published_at: 2023-05-17
+
 # Proofreading metadata
 original_language: fr
 proofreading:
@@ -42,11 +49,12 @@ proofreading:
     contributor_names:
     reward: 21.05
   - language: fr
-    last_contribution_date: 2025-05-14
+    last_contribution_date: 2026-01-29
     urgency: 1
     contributor_names:
       - Asi0Flammeus
       - Sosylos
+      - LoicPandul
     reward: 0
   - language: it
     last_contribution_date: 2024-07-18

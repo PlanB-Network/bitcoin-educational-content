@@ -1,0 +1,38 @@
+id: 24fdfc0d-2391-4d44-a29f-2e18db7ff52f
+
+topic: mining
+
+subtopic: mining
+
+type: theory
+
+level: intermediate
+
+hours: 7
+
+professors_id:
+  - 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+contributor_names:
+  - LoicPandul
+
+published_at: 2026-02-28
+
+test_only: true
+
+tags:
+  - mining
+  - proof-of-work
+  - consensus
+
+# Proofreading metadata
+
+original_language: fr
+
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-02-28
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

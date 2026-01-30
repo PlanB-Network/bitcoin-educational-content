@@ -15,7 +15,7 @@ objectives:
 
 Anda mungkin sudah familiar dengan pepatah "Tidak ada kunci Anda, tidak ada koin Anda" (Not your keys, not your coins), yang mendorong penyimpanan mandiri (self-custody) atas Bitcoin Anda. Memegang kunci Anda sendiri memang merupakan langkah pertama yang penting, tetapi itu tidak cukup. Untuk mencapai kedaulatan moneter sejati, Anda juga perlu memasang dan menjalankan Node Bitcoin Anda sendiri. Kursus ini dirancang untuk memandu Anda melalui langkah mendasar dalam perjalanan Bitcoin Anda!
 
-BTC202 adalah kursus yang mudah diakses yang dirancang untuk mengajari Anda cara menjalankan Node Bitcoin Anda sendiri, bahkan jika Anda bukan seorang ahli teknis. Kita akan mulai dengan mendefinisikan apa itu Node Bitcoin, apa fungsinya, dan mengapa menjalankan satu node secara pribadi sangat penting. Setelah itu, saya akan memandu Anda langkah demi langkah dalam memilih perangkat keras Anda (hardware), memasang perangkat lunak yang diperlukan (software), menghubungkan perangkat lunak dompet (wallet) Anda, dan melakukan optimasi awal yang mungkin untuk melangkah lebih jauh.
+BTC202 adalah kursus yang mudah diakses yang dirancang untuk mengajari Anda cara menjalankan Node Bitcoin Anda sendiri, bahkan jika Anda bukan seorang ahli teknis. Kita akan mulai dengan mendefinisikan apa itu Node Bitcoin, apa fungsinya, dan mengapa menjalankan satu node secara pribadi sangat penting. Setelah itu, saya akan memandu Anda langkah demi langkah dalam memilih perangkat keras Anda (hardware), memasang perangkat lunak yang diperlukan (software), menghubungkan perangkat lunak wallet Anda, dan melakukan optimasi awal yang mungkin untuk melangkah lebih jauh.
 
 Menjalankan Node Bitcoin bukan sekadar pilihan bagi para ahli; itu adalah suatu keharusan. Ini adalah alat ketahanan (resilience tool) yang perlu dipahami dan diimplementasikan oleh setiap pengguna. Kursus ini adalah titik awal Anda untuk menjadi bitcoiner yang berdaulat!
 
@@ -33,7 +33,7 @@ Selamat datang di BTC 202, di mana Anda akan belajar cara memasang, mengonfigura
 
 ### Bagian 1 - Pendahuluan
 
-Pada bagian pertama kursus ini, kita akan menjelaskan gagasan dasar dan kemudian melanjutkan ke definisi yang lebih tepat. Apa itu node? Apa perbedaan antara node, wallet (dompet), dan miner (penambang)? Anda kemudian akan belajar tentang Bitcoin Core dan implementasi protokol. Tujuannya adalah untuk berbicara dalam bahasa yang sama, menghindari kebingungan, dan membangun fondasi teoretis yang kuat.
+Pada bagian pertama kursus ini, kita akan menjelaskan gagasan dasar dan kemudian melanjutkan ke definisi yang lebih tepat. Apa itu node? Apa perbedaan antara node, wallet (wallet), dan miner (penambang)? Anda kemudian akan belajar tentang Bitcoin Core dan implementasi protokol. Tujuannya adalah untuk berbicara dalam bahasa yang sama, menghindari kebingungan, dan membangun fondasi teoretis yang kuat.
 
 ### Bagian 2 - Menjadi pengguna bitcoin yang berdaulat
 
@@ -1423,8 +1423,6 @@ IBD terdiri dari pengunduhan dan verifikasi setiap blok dan transaksi secara ind
 
 ### Tahapan IBD
 
-
-
 Sinkronisasi dimulai dengan langkah _**headers-first**_. Node Anda meminta urutan header blok dari beberapa rekan dan, untuk masing-masing, memverifikasi Proof of Work, penyesuaian kesulitan, sintaksis, serta Timestamp dan aturan nomor versi. Singkatnya, ini memastikan bahwa setiap header yang diterima sesuai dengan aturan konsensus.
 
 ![Image](assets/fr/093.webp)
@@ -1667,8 +1665,6 @@ Sebagai rangkuman, berikut ini adalah struktur file Bitcoin core:
 └── .lock
 ```
 
-
-
 ### Jalur validasi untuk blok baru
 
 Saat menerima blok baru, node Anda memeriksa proof of work dan, secara lebih umum, kepatuhan terhadap aturan konsensus. Jika semuanya baik-baik saja, ia menerapkan perubahan transaksi demi transaksi ke dalam UTXO set-nya: ia memeriksa bahwa setiap entri menggunakan UTXO yang ada dengan skrip yang valid, menghapus UTXO tersebut, dan menambahkan pengeluaran (output) baru. Jika semuanya valid, perubahan tersebut dikomitke `chainstate/`.
@@ -1679,680 +1675,211 @@ Secara paralel, data pembatalan ditulis ke `rev*.dat` dan metadata ke indeks `bl
 
 <chapterId>c54a629a-ddb1-41cb-9a88-21dfd9be50ca</chapterId>
 
-
-
 File `Bitcoin.conf` adalah file konfigurasi Interface utama untuk Bitcoin core. Ini memungkinkan Anda untuk menyesuaikan perilaku dan parameter node Anda tanpa harus mengkompilasi ulang kode sumbernya atau membuat modifikasi baris perintah. Secara konkret, ini adalah file teks biasa yang terstruktur dalam pasangan nilai-kunci, yang berarti bahwa setiap baris file mereferensikan parameter tertentu (kunci) dan nilai terkait, yang dapat dimodifikasi untuk menyesuaikan parameter itu.
 
+File `Bitcoin.conf` adalah file konfigurasi Interface utama untuk Bitcoin Core. File ini memungkinkan Anda untuk menyesuaikan perilaku dan parameter node Anda tanpa harus mengkompilasi ulang source code atau membuat modifikasi baris perintah. Secara konkret, ini adalah file teks biasa yang terstruktur dalam key-value pairs, yang berarti setiap baris file merujuk pada parameter tertentu (kunci) dan nilai terkait, yang dapat diubah untuk menyesuaikan parameter tersebut.
 
-
-Jaringan, relai transaksi, kinerja, pengindeksan, pencatatan, dan parameter akses RPC dapat didefinisikan dalam `Bitcoin.conf`. Namun, file konfigurasi ini tidak pernah mengubah aturan konsensus protokol: file ini hanya menetapkan kebijakan lokal node (aturan relay), cara menghubungkan, mengindeks, dan mengekspos layanan.
-
-
+Parameter jaringan, relai transaksi, kinerja, pengindeksan, pencatatan (logging), dan akses RPC dapat didefinisikan dalam `Bitcoin.conf`. Namun, file konfigurasi ini tidak pernah mengubah aturan konsensus protokol: file ini hanya mengatur kebijakan lokal node (aturan relai), cara terhubung, mengindeks, dan mengekspos layanan.
 
 ### Lokasi dan prioritas
 
+Secara default, `Bitcoin.conf` berada di direktori data Bitcoin Core. Ini adalah direktori terkenal yang kami sebutkan di bab sebelumnya. Namun, file ini tidak dibuat secara otomatis oleh Bitcoin Core, kecuali di lingkungan tertentu, seperti Umbrel. Jika belum ada, Anda harus membuatnya sendiri dengan hanya membuat file bernama `Bitcoin.conf`, lalu membukanya di editor teks untuk melakukan modifikasi Anda.
 
-
-Secara default, `Bitcoin.conf` berada di direktori data Bitcoin core. Ini adalah direktori terkenal yang kami sebutkan pada bab sebelumnya. Namun, file ini tidak secara otomatis dibuat oleh Bitcoin core, kecuali pada lingkungan tertentu, seperti Umbrel. Jika belum ada, Anda harus membuat generate sendiri dengan membuat file bernama `Bitcoin.conf`, lalu membukanya dalam editor teks untuk membuat modifikasi.
-
-
-
-Parameter yang ditentukan dalam `Bitcoin.conf` dapat ditimpa oleh 2 lapisan:
-
-
-
+Parameter yang didefinisikan dalam `Bitcoin.conf` dapat digantikan oleh 2 lapisan:
 
 - `settings.json` (ditulis secara dinamis oleh grafis Interface atau beberapa RPC),
 - dan opsi yang dimodifikasi melalui baris perintah.
 
-
-
 Perhatikan bahwa modifikasi apa pun pada `Bitcoin.conf` memerlukan restart node untuk menerapkannya.
-
-
 
 ### Format dan struktur
 
-
-
 Oleh karena itu, format `Bitcoin.conf` sangat sederhana: satu baris per opsi, dalam bentuk `option=value`. Spasi yang tidak perlu dan baris kosong diabaikan, dan komentar kode dimulai dengan `#`.
 
-
-
-Hampir semua opsi Boolean dapat dinonaktifkan dengan awalan `no`. Sebagai contoh, `dengarkan=0` dan `nolisten=1` adalah setara, tergantung versinya.
-
-
+Hampir semua opsi Boolean dapat dinonaktifkan dengan awalan `no`. Sebagai contoh, `listen=0` dan `nolisten=1` adalah setara, tergantung versinya.
 
 Untuk mengelompokkan konfigurasi berdasarkan jaringan, Anda dapat menggunakan bagian: `[main]`, `[test]` (testnet3), `[testnet4]`, `[bookmark]`, `[regtest]`. Atau, Anda dapat mengawali nama opsi dengan `regtest.maxmempool=100`.
 
-
-
 ### Apa yang bisa dan tidak bisa dilakukan Bitcoin.conf
 
+Seperti yang dijelaskan di atas, aturan konsensus jelas tidak dapat dikonfigurasi di `Bitcoin.conf`, karena ini dapat membuat Hard Fork. Di sisi lain, banyak aspek lain yang dapat dikonfigurasi. Ada 3 kelas berguna yang perlu diingat:
 
+- Parameter murni lokal. Ini hanya memengaruhi node Anda: ukuran cache (`dbcache`), mode pangkas (`prune`), indeks opsional... Ini memengaruhi kinerja mesin Anda, tetapi tidak memengaruhi jaringan.
+- Kebijakan Relay dan Mempool. Ini memutuskan apa yang diterima, disimpan, dan diteruskan oleh node Anda sebelum konfirmasi: ambang batas biaya minimum (`minrelaytxfee`), ukuran Mempool dan waktu retensi (`maxmempool`, `mempoolexpiry`), penggantian transaksi (RBF)... Aturan-aturan ini bukan bagian dari konsensus, jadi dua node yang berbeda dapat memiliki kebijakan yang berbeda dan tetap sepenuhnya kompatibel. Di sisi lain, parameter ini akan berpengaruh pada jaringan Bitcoin (seperti yang dijelaskan di bagian pertama, terutama dengan teori perkolasi).
+- Konektivitas jaringan. Opsi ini menentukan bagaimana node Anda menemukan peer, mendengarkan, melintasi NAT, menggunakan Tor atau proksi, atau membatasi bandwidth-nya. Opsi ini membentuk topologi Anda, tetapi tidak mengubah relai transaksi.
 
-Seperti yang dijelaskan di atas, aturan konsensus jelas tidak dapat dikonfigurasi dalam `Bitcoin.conf`, karena hal ini dapat membuat Hard Fork. Di sisi lain, banyak aspek lain yang dapat dikonfigurasi. Ada 3 kelas yang berguna untuk diingat:
-
-
-
-
-- Parameter lokal murni. Parameter ini hanya mempengaruhi simpul Anda: ukuran cache (`dbcache`), mode pruned (`prune`), indeks opsional... Parameter-parameter ini mempengaruhi kinerja mesin Anda, tetapi tidak mempengaruhi jaringan.
-- Kebijakan Relay dan Mempool. Kebijakan-kebijakan ini memutuskan apa yang diterima, disimpan, dan direlay oleh node Anda sebelum konfirmasi: ambang batas biaya minimum (`minrelaytxfee`), ukuran dan waktu penyimpanan Mempool (`maxmempool`, `mempoolexpiry`), penggantian transaksi (RBF)... Aturan-aturan ini bukan bagian dari konsensus, sehingga dua node yang berbeda dapat memiliki kebijakan yang berbeda dan masih sepenuhnya kompatibel. Di sisi lain, parameter-parameter ini akan memiliki pengaruh pada jaringan Bitcoin (seperti yang dijelaskan pada bagian pertama, terutama dengan teori perkolasi).
-- Konektivitas jaringan. Opsi-opsi ini menentukan bagaimana node Anda menemukan rekan, mendengarkan, melintasi NAT, menggunakan Tor atau proksi, atau membatasi bandwidth. Opsi-opsi ini membentuk topologi Anda, tetapi tidak mengubah pengiriman transaksi.
-
-
-
-Memahami pemisahan ini sangatlah penting: jika sebuah transaksi tidak mematuhi aturan konsensus, maka node Anda akan menolaknya. Tetapi kebijakan lokal yang lebih ketat dapat menolak untuk menyampaikan transaksi yang valid dalam pengertian konsensus.
-
-
+Memahami pemisahan ini sangat penting: jika sebuah transaksi tidak mematuhi aturan konsensus, node Anda akan menolaknya dalam kasus apa pun. Tetapi kebijakan lokal yang lebih ketat dapat menolak untuk merelai transaksi yang valid dalam arti konsensus.
 
 ### Jaringan dan topologi
 
-
-
 Pertama-tama, penting untuk membedakan dengan jelas antara 2 jenis koneksi yang dapat dimiliki oleh node Bitcoin:
 
-
-
-
-- Sambungan keluar, yang dimulai oleh node kita ke node lain;
-
-
+- Koneksi keluar (outgoing connections), yang dimulai oleh node kita ke node lain;
 
 ![Image](assets/fr/106.webp)
 
-
-
-
-
-- Sambungan masuk, dimulai oleh node lain ke node kita.
-
-
+- Koneksi masuk (incoming connections), yang dimulai oleh node lain ke node kita.
 
 ![Image](assets/fr/107.webp)
 
+Kedua jenis koneksi ini sangat mampu bertukar data yang sama di kedua arah; ini bukan masalah membatasi arah aliran, tetapi hanya perbedaan pada inisiator koneksi. Dari sudut pandang node kita, koneksi keluar umumnya dianggap lebih aman, karena kita yang memulainya dan memilih dengan tepat node mana yang akan dihubungi, sehingga kecil kemungkinannya koneksi tersebut berbahaya. Secara default, Bitcoin Core mempertahankan 10 koneksi keluar (8 "_full-relay_" + 2 "_block-relay-only_").
 
+Sebuah full node menambah lebih banyak nilai ke jaringan dengan menerima koneksi masuk. Parameter `listen=1` memungkinkan listening pada port default 8333 dari jaringan yang bersangkutan, memungkinkan koneksi masuk ini diterima di clearnet. Agar ini berfungsi, port ini juga harus terbuka di router Anda. Jika tidak, node Anda akan terus bekerja hanya dengan koneksi keluar, yang tidak akan berdampak pada penggunaan pribadi Bitcoin Anda. Pilihan apakah akan mengizinkan koneksi masuk adalah milik Anda; tidak ada "pilihan terbaik."
 
-Kedua jenis koneksi ini sangat mampu untuk bertukar data yang sama di kedua arah; ini bukan masalah membatasi arah aliran, tetapi hanya perbedaan dalam inisiator koneksi. Dari sudut pandang node kami, koneksi keluar umumnya dianggap lebih aman, karena kami menginisiasinya dan memilih dengan tepat node mana yang akan terhubung, sehingga kecil kemungkinannya koneksi tersebut berbahaya. Secara default, Bitcoin core mempertahankan 10 koneksi keluar (8 "*full-relay*" + 2 "*block-relay-only*").
-
-
-
-Full node menambah nilai lebih pada jaringan dengan menerima koneksi yang masuk. Parameter `listen=1` memungkinkan mendengarkan pada port default 8333 dari jaringan yang bersangkutan, memungkinkan koneksi yang masuk ini diterima di clearnet. Agar dapat berfungsi, port ini juga harus terbuka pada router Anda. Jika tidak, node Anda akan terus bekerja dengan koneksi keluar saja, yang tidak akan berdampak pada penggunaan pribadi Bitcoin Anda. Pilihan untuk mengizinkan koneksi masuk ada di tangan Anda; tidak ada "pilihan terbaik"
-
-
-
-Jika Anda memilih untuk tidak membuka port pada router Anda, tetapi masih menerima sambungan masuk, Anda dapat mengaktifkan parameter `listenonion=1`. Ini akan mencapai hasil yang sama, tetapi hanya melalui jaringan Tor dan bukan clearnet.
-
-
+Jika Anda lebih suka tidak membuka port di router Anda, tetapi tetap ingin menerima koneksi masuk, Anda dapat mengaktifkan parameter `listenonion=1`. Ini akan mencapai hasil yang sama, tetapi hanya melalui jaringan Tor, bukan clearnet.
 
 Di tingkat jaringan, kami juga memiliki:
 
-
-
-
-- `addnode`: menambahkan teman sebaya ke kontak selain penemuan biasa (dapat ditentukan beberapa kali).
-- `connect`: secara ketat membatasi koneksi ke alamat yang diberikan (dapat ditentukan beberapa kali). Core tidak akan terhubung ke node lain;
-- `seednode`: hanya digunakan untuk mengisi buku-Address saat menyambung ke node, kemudian memutuskan sambungan.
-- `maxconnections`: mendefinisikan batas atas global untuk koneksi masuk + keluar. Secara default, parameter ini disetel ke 125, yang berarti bahwa node Anda tidak akan pernah menerima lebih dari 125 koneksi.
-- `maxuploadtarget` : membatasi unggahan untuk mengendalikan bandwidth dalam jangka waktu bergulir 24 jam. Batas ini tidak mengorbankan penyebaran elemen penting yang baru;
+- `addnode`: menambahkan peer untuk dihubungi selain penemuan biasa (dapat ditentukan beberapa kali).
+- `connect`: ecara ketat membatasi koneksi ke alamat yang disediakan (dapat ditentukan beberapa kali). Core tidak akan terhubung ke node lain;
+- `seednode`: hanya digunakan untuk mengisi address book saat menyambung ke node, kemudian memutuskan sambungan.
+- `maxconnections`: mendefinisikan batas global untuk koneksi masuk + keluar. Secara default, parameter ini diatur ke 125, yang berarti node Anda tidak akan pernah menerima lebih dari 125 koneksi.
+- `maxuploadtarget` : membatasi unggahan untuk membatasi bandwidth selama jendela 24 jam bergulir. Batas ini tidak mengorbankan penyebaran elemen-elemen penting terbaru;
 - `onlynet`: membatasi koneksi keluar hanya pada jaringan tertentu (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Sebagai contoh, jika Anda ingin node Anda terhubung ke jaringan Bitcoin hanya melalui Tor, Anda dapat mengaktifkan parameter `onlynet=onion` dan menonaktifkan koneksi yang masuk (atau hanya mengizinkan koneksi melalui Tor juga).
-- dnsseed`: mengizinkan atau melarang _DNS seeds_ untuk meminta peer ketika pool Address lokal Anda rendah (default: `1`, kecuali `-connect` atau `-maxconnections=0`).
+- `dnsseed`: mengizinkan atau melarang _DNS seeds_ untuk meminta peer ketika pool Address lokal Anda rendah (default: `1`, kecuali `-connect` atau `-maxconnections=0`).
 - `forcednsseed`: memaksa _DNS seeds_ untuk diminta pada saat startup, bahkan jika Anda sudah memiliki stok alamat (default: `0`).
-- `benih tetap`: Izinkan penggunaan *simpul seed* (daftar Address yang dikodekan dengan kode keras) jika _benih DNS_ gagal atau dinonaktifkan (default: `1`).
+- `fixedseeds`: Izinkan penggunaan *seed node* (daftar Address yang dikodekan dengan hardcode) jika _DNS seeds_ gagal atau dinonaktifkan (default: `1`).
 - `dns`: Mengesahkan resolusi DNS secara umum (misalnya, untuk `-addnode`/`-seednode`/`-connect`).
-
-
 
 Secara default, node Anda berkomunikasi melalui clearnet, Tor, dan I2P. Ini berarti bahwa rekan-rekan yang terhubung dengannya di clearnet dapat melihat IP publik Anda Address, dan ISP Anda kemungkinan akan dapat mendeteksi bahwa Anda menjalankan node Bitcoin (meskipun P2P Transport V2 membuat lebih sulit bagi ISP untuk menguping). Ini tidak selalu menjadi masalah, tetapi jika Anda ingin menghindari kebocoran informasi ini, Anda dapat menyambungkan node Anda secara eksklusif melalui jaringan Tor.
 
+Secara default, node Anda berkomunikasi melalui clearnet, Tor, dan I2P. Ini berarti bahwa peer yang terhubung dengannya di clearnet dapat melihat alamat IP publik Anda, dan ISP Anda kemungkinan besar akan dapat mendeteksi bahwa Anda menjalankan node Bitcoin (meskipun P2P Transport V2 membuatnya lebih sulit bagi ISP untuk mengintai). Ini tidak selalu menjadi masalah, tetapi jika Anda ingin menghindari kebocoran informasi ini, Anda dapat menghubungkan node Anda secara eksklusif melalui jaringan Tor.
 
-
-Untuk sepenuhnya mendukung Tor, Anda perlu memaksa Bitcoin core untuk hanya menggunakan jaringan ini dan membuat layanan tersembunyi untuk koneksi yang masuk (jika Anda ingin mengaktifkannya). Dalam `Bitcoin.conf`, Anda perlu menambahkan konfigurasi ini:
-
-
-
+Agar sepenuhnya Tor-enabled, Anda perlu memaksa Bitcoin Core untuk hanya menggunakan jaringan ini dan membuat layanan tersembunyi (hidden service) untuk koneksi masuk (jika Anda ingin mengaktifkannya). Di `Bitcoin.conf`, Anda perlu menambahkan konfigurasi ini:
 
 - `onlynet=onion`,
 - `proxy=127.0.0.1:9050`,
 - `listenonion=1`,
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
-- `dengarkan=1`,
+- `listen=1`,
 - `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
-
-
-Semua koneksi P2P Anda melalui Tor. Node Anda menerima `.onion` Address untuk sambungan masuk, jadi tidak ada port yang perlu dibuka pada router. ISP Anda hanya melihat lalu lintas Tor, dan rekan-rekan Anda tidak mengetahui IP publik Anda yang sebenarnya Address.
-
-
+Semua koneksi P2P Anda melewati Tor. Node Anda menerima alamat `.onion` untuk koneksi masuk, jadi tidak perlu membuka port di router. ISP Anda hanya melihat lalu lintas Tor, dan peer Anda tidak mengetahui alamat IP publik Anda yang sebenarnya.
 
 Untuk menghindari resolusi DNS secara jelas, Anda dapat menambahkan `dnsseed=0` dan `dns=0` pada konfigurasi Anda. Anda kemudian harus menyediakan peer `.onion` secara manual melalui `seednode=` atau `addnode=`, karena jika tidak, penemuan node baru akan sulit dilakukan.
 
+Untuk menghindari resolusi DNS secara terbuka, Anda dapat menambahkan `dnsseed=0` dan `dns=0` ke konfigurasi Anda. Anda kemudian perlu menyediakan peer `.onion` secara manual melalui `seednode=` atau `addnode=`, karena penemuan node baru akan sulit jika tidak.
 
-
-Tentunya, jika Anda seorang pemula, saya sarankan Anda untuk membiarkan semua pengaturan jaringan ini untuk sementara waktu. Konfigurasi default sering kali sudah cukup.
-
-
+Tentu saja, jika Anda seorang pemula, saya sarankan Anda untuk membiarkan semua pengaturan jaringan ini apa adanya untuk saat ini. Konfigurasi default seringkali sudah cukup.
 
 ### Mempool dan kebijakan relai
 
-
-
 #### Parameter dasar
 
+Berikut adalah parameter-parameter dasar yang dapat Anda modifikasi pada file `Bitcoin.conf` Anda terkait manajemen Mempool dan proses relai (penerusan) transaksi yang belum terkonfirmasi:
 
-
-Berikut ini adalah parameter dasar yang dapat Anda modifikasi pada `Bitcoin.conf` Anda terkait pengelolaan Mempool dan penyampaian transaksi yang belum dikonfirmasi:
-
-
-
-
-
-- `maxmempool=<n>`: Membatasi ukuran maksimum Mempool lokal hingga `<n>` megabyte (default: `300`). Ketika batas tersebut tercapai, node Anda secara dinamis menaikkan ambang batas biaya efektif dan memprioritaskan transaksi yang paling tidak menguntungkan (berdasarkan tingkat biaya, bukan nilai absolut) untuk tetap berada di bawah batas tersebut. Anda dapat membiarkan pengaturan ini sebagai default. Meningkatkannya dapat berguna jika Anda menggunakan Mining secara solo, atau jika Anda ingin mendapatkan pandangan yang lebih akurat tentang kemacetan Mempool dan meningkatkan estimasi biaya. Sebaliknya, menguranginya akan menghemat RAM dan, pada tingkat yang lebih rendah, sumber daya sistem lainnya.
-
-
-
-
-
+- `maxmempool=<n>`: Membatasi ukuran maksimum Mempool lokal hingga `<n>` megabita (default: `300`). Ketika batas ini tercapai, node Anda akan secara dinamis menaikkan ambang batas biaya efektifnya dan memprioritaskan transaksi yang paling tidak menguntungkan (berdasarkan fee rate, bukan nilai absolut) untuk tetap berada di bawah batas. Anda bisa membiarkan pengaturan ini pada nilai default. Meningkatkannya bisa berguna jika Anda melakukan solo mining, atau jika Anda ingin mendapatkan gambaran yang lebih akurat tentang kepadatan mempool dan meningkatkan estimasi biaya. Sebaliknya, menguranginya akan menghemat RAM dan, pada tingkat yang lebih rendah, sumber daya sistem lainnya.
 - `mempoolexpiry=<n>`: Waktu penyimpanan maksimum untuk transaksi yang belum dikonfirmasi di Mempool (dalam jam, default: `336`). Setelah waktu ini, transaksi akan dihapus meskipun ruang masih tersedia.
-
-
-
-
-
 - `persistmempool=1`: Menyimpan snapshot Mempool saat berhenti dan memuatnya kembali saat reboot (default: `1`). Hal ini mempercepat pemulihan setelah reboot, sehingga tidak perlu mempelajari ulang status melalui jaringan.
-
-
-
-
-
-- `maxorphantx=<n>`: Jumlah maksimum transaksi anak yatim yang dipertahankan (input tergantung dari UTXO yang belum terlihat dalam set UTXO, default: `100`). Di luar ambang batas ini, transaksi tertua akan dihapus untuk menghindari pertumbuhan cache yang tidak terkendali.
-
-
-
-
-
-- `blocksonly=1` : Menonaktifkan penerimaan dan penerusan transaksi yang belum dikonfirmasi dari rekan (kecuali dengan izin khusus). Node hanya mengunduh dan mengumumkan blok. Transaksi yang dibuat secara lokal masih dapat disiarkan (untuk menggunakan node Anda dengan perangkat lunak dompet Anda). Ini sangat mengurangi penggunaan bandwidth dan kebutuhan RAM dengan mengorbankan kegunaan relay dan tanpa pengetahuan tentang mempool.
-
-
-
-
-
-- `minrelaytxfee=<n>`: Tingkat biaya minimum (dalam BTC/kvB) di bawahnya, transaksi tidak diterima di Mempool node dan tidak direlay ke rekan-rekannya (default: `0.00001` = 1 sat/kvB). Semakin tinggi nilai ini, semakin agresif node Anda menyaring transaksi berbiaya rendah.
-
-
-
-
-
+- `maxorphantx=<n>`: Jumlah maksimum transaksi _orphan_ yang dipertahankan (input tergantung dari UTXO yang belum terlihat dalam set UTXO, default: `100`). Di luar ambang batas ini, transaksi tertua akan dihapus untuk menghindari pertumbuhan cache yang tidak terkendali.
+- `blocksonly=1` : Menonaktifkan penerimaan dan penerusan transaksi yang belum dikonfirmasi dari peer (kecuali dengan izin khusus). Node hanya mengunduh dan mengumumkan blok. Transaksi yang dibuat secara lokal masih dapat disiarkan (untuk menggunakan node Anda dengan perangkat lunak wallet Anda). Ini sangat mengurangi penggunaan bandwidth dan kebutuhan RAM dengan mengorbankan kegunaan relay dan tanpa pengetahuan tentang mempool.
+- `minrelaytxfee=<n>`: Tingkat biaya minimum (dalam BTC/kvB) di bawahnya, transaksi tidak diterima di Mempool node dan tidak direlay ke peers (default: `0.00001` = 1 sat/kvB). Semakin tinggi nilai ini, semakin agresif node Anda menyaring transaksi berbiaya rendah.
 - `mempoolfullrbf=1`: Menerima transaksi RBF bahkan tanpa sinyal RBF eksplisit dalam transaksi yang digantikan. Dengan kebijakan "*full-RBF*" ini, sebuah transaksi yang menawarkan tingkat biaya yang lebih tinggi dapat menggantikan transaksi lain dalam Mempool jika kondisi penggantian lainnya terpenuhi.
 
-
-
-Sebagai pengingat, RBF adalah sebuah mekanisme transaksi yang memungkinkan pengirim untuk mengganti sebuah transaksi dengan transaksi yang memiliki biaya yang lebih tinggi untuk mempercepat konfirmasi. Jika transaksi dengan biaya yang terlalu rendah tetap diblokir, pengirim dapat menggunakan *Replace-by-fee* untuk meningkatkan biaya dan memprioritaskan transaksi pengganti mereka di mempool dan dengan penambang.
-
-
+Sebagai pengingat, RBF adalah sebuah mekanisme transaksi yang memungkinkan pengirim untuk mengganti sebuah transaksi dengan transaksi yang memiliki biaya yang lebih tinggi untuk mempercepat konfirmasi. Jika transaksi dengan biaya yang terlalu rendah tetap diblokir, pengirim dapat menggunakan *Replace-by-fee* untuk meningkatkan biaya dan memprioritaskan transaksi pengganti mereka di mempool dan dengan miner.
 
 #### Pengaturan lanjutan dan spesifik
 
-
-
 Berikut ini adalah pengaturan lanjutan untuk Mempool dan kebijakan relai. Jika Anda seorang pemula, Anda tidak perlu memodifikasi pengaturan ini:
 
-
-
-
-
-- `datacarrier=1` : Mengizinkan relay dan (jika menambang melalui node) penyertaan transaksi yang membawa data non-keuangan melalui output `OP_RETURN` (default: `1`). Menonaktifkan parameter ini sedikit mengurangi potensi spam data non-keuangan dengan mengorbankan kompatibilitas dengan beberapa penggunaan. Dalam semua kasus, Anda harus menerima `OP_RETURN` yang ditambang.
-
-
-
-
-
-- `datacarriersize = <n>`: Ukuran maksimum (dalam byte) dari `OP_RETURN` yang direlay oleh node (default: `83`). Menurunkan nilai ini akan membatasi muatan yang diangkut melalui `OP_RETURN`. Perhatikan bahwa batas ini akan dihapus secara default dalam versi Bitcoin core yang akan datang.
-
-
-
-
-
-- `bytespersigop=<n>`: Parameter yang mengubah transaksi tanda tangan menjadi byte yang setara untuk evaluasi batas relai (default: `20`). Ini akan mempengaruhi penerimaan transaksi kaya `sigops` sesuai dengan aturan kebijakan lokal.
-
-
-
-
-
-- `permitbaremultisig = 1`: Mengizinkan pengiriman ulang transaksi P2MS *bare-Multisig* (default: `1`). Ini adalah templat skrip tertua untuk menetapkan kondisi multisignature pada UTXO (ditemukan pada tahun 2011 oleh Gavin Andresen).
-
-
-
-
-
+- `datacarrier=1` : Mengizinkan relai dan (jika mining melalui node) penyertaan transaksi yang membawa data non-finansial melalui output `OP_RETURN` (default: `1`). Menonaktifkan parameter ini sedikit mengurangi celah potensi spam data non-finansial dengan mengorbankan kompatibilitas yang lebih rendah dengan beberapa kasus penggunaan. Dalam semua kasus, Anda harus menerima `OP_RETURN` yang sudah dimining.
+- `datacarriersize = <n>`: Ukuran maksimum (dalam byte) dari `OP_RETURN` yang direlay oleh node (default: `83`). Menurunkan nilai ini akan membatasi payload yang diangkut melalui `OP_RETURN`. Perhatikan bahwa batas ini akan dihapus secara default dalam versi Bitcoin core yang akan datang.
+- `bytespersigop=<n>`: Parameter yang mengubah signature transaksi menjadi byte yang setara untuk evaluasi batas relai (default: `20`). Ini akan mempengaruhi penerimaan transaksi kaya akan `sigops` sesuai dengan aturan kebijakan lokal.
+- `permitbaremultisig = 1`: Mengizinkan pengiriman ulang transaksi P2MS *bare-Multisig* (default: `1`). Ini adalah template skrip tertua untuk menetapkan kondisi multisignature pada UTXO (ditemukan pada tahun 2011 oleh Gavin Andresen).
 - `whitelistrelay=1`: Secara otomatis memberikan izin relai kepada peer yang masuk dalam daftar putih (default: `1`). Peers ini memiliki transaksi yang diterima oleh relai meskipun node Anda tidak dalam mode relai umum.
-
-
-
-
-
 - `whitelistforcerelay=1`: Menetapkan izin "*forcerelay*" ke peer yang masuk daftar putih dengan izin default (default: `0`). Node kemudian merelay transaksi mereka meskipun sudah ada di Mempool, sehingga melewati mekanisme anti-redundansi.
-
-
-
-
-
-- `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>`: Mengikat rentang Interface atau Address dan memberikan izin yang lebih halus kepada rekan-rekan yang sesuai: `relay`, `forcerelay`, `Mempool` (permintaan konten Mempool), `noban`, `download`, `addr`, `bloomfilter`. Ini dapat berguna untuk memberikan perlakuan istimewa kepada rekan-rekan tepercaya (seperti gateway, LAN, dan layanan internal).
-
-
-
-
-
+- `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>`: Mengikat rentang Interface atau Address dan memberikan izin yang lebih halus kepada peers yang sesuai: `relay`, `forcerelay`, `Mempool` (permintaan konten Mempool), `noban`, `download`, `addr`, `bloomfilter`. Ini dapat berguna untuk memberikan perlakuan istimewa kepada rekan-rekan tepercaya (seperti gateway, LAN, dan layanan internal).
 - `peerbloomfilters=1` : Mengaktifkan dukungan untuk filter Bloom (BIP37) guna melayani blok/transaksi yang difilter ke klien ringan (default: `0`). Perhatian, ini meningkatkan beban pada sumber daya Anda.
-
-
-
-
-
 - `peerblockfilters=1` : Menyediakan filter kompak BIP157 (*Neutrino*) ke rekan (default: `0`).
-
-
-
-
-
 - `blockreconstructionextratxn=<n>`: Jumlah transaksi tambahan yang disimpan dalam memori untuk membangun kembali blok ringkas (default: `100`). Meningkatkan keberhasilan rekonstruksi selama sinkronisasi ringkas, dengan mengorbankan sedikit memori.
 
+Sebagai pengingat, semua aturan relai ini tidak berdampak pada validitas transaksi yang termasuk dalam blok yang valid. Aturan-aturan ini berfungsi untuk menyesuaikan kontribusi Anda pada proses relai, melindungi sumber daya Anda, dan membuat node Anda dapat diprediksi dalam lingkungan yang terbatas, tetapi tidak pernah memungkinkan Anda untuk menolak blok yang menghormati aturan konsensus.
 
-
-Sebagai pengingat, semua aturan relai ini tidak berdampak pada validitas transaksi yang termasuk dalam blok yang valid. Aturan-aturan ini berfungsi untuk menyesuaikan kontribusi Anda pada relai, melindungi sumber daya Anda, dan membuat node Anda dapat diprediksi dalam lingkungan yang terbatas, tetapi tidak pernah mengizinkan Anda untuk menolak blok yang menghormati aturan konsensus.
-
-
-
-### Dompet
-
-
+### Wallet
 
 Anda juga dapat mengatur cara pengelolaan wallet Anda dalam file `Bitcoin.conf`. Jika Anda tidak menggunakan Wallet secara langsung di Core, tetapi menggunakan perangkat lunak manajemen eksternal seperti Sparrow atau Liana, parameter ini tidak terlalu penting:
 
-
-
-
-
-- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Menentukan format alamat yang dihasilkan oleh dompet untuk penerimaan.
-
-
-
-
-
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Menentukan format alamat yang dihasilkan oleh wallet untuk penerimaan.
 - `changetype = <legacy|P2SH-SegWit|bech32|bech32m>`: Memaksakan format Exchange Address (sisa input pada satu pembayaran).
-
-
-
-
-
-- `Wallet=<path>`: Memuat Wallet yang sudah ada saat pengaktifan (dapat diulang untuk memuat beberapa dompet).
-
-
-
-
-
+- `Wallet=<path>`: Memuat Wallet yang sudah ada saat pengaktifan (dapat diulang untuk memuat beberapa wallet).
 - `walletdir=<dir>`: Direktori yang berisi wallet (default: `<datadir>/wallets` jika ada, jika tidak, `<datadir>`). Ini dapat berguna jika anda ingin menyimpan wallet pada volume khusus atau terenkripsi.
-
-
-
-
-
-- `walletbroadcast=1`: Secara otomatis menyiarkan transaksi yang dibuat oleh dompet yang dimuat (default: `1`). Atur ke `0` jika Anda ingin mengelola siaran melalui saluran lain.
-
-
-
-
-
+- `walletbroadcast=1`: Secara otomatis menyiarkan transaksi yang dibuat oleh wallet yang dimuat (default: `1`). Atur ke `0` jika Anda ingin mengelola siaran melalui saluran lain.
 - `walletrbf=1`: Mengaktifkan keikutsertaan RBF untuk memberi sinyal RBF pada semua transaksi (default: `1`). Memungkinkan Anda untuk meningkatkan biaya di kemudian hari jika terjadi transaksi yang diblokir.
-
-
-
-
-
 - `txconfirmtarget=<n>`: Target konfirmasi untuk transaksi (dalam jumlah blok, default: `6`). Wallet akan secara otomatis menetapkan biaya untuk transaksi yang akan dikonfirmasi dalam jumlah blok ini.
-
-
-
-
-
 - `paytxfee=<amt>`: Tarif biaya tetap (BTC/kvB) yang diterapkan pada transaksi Wallet. Hindari secara umum: gunakan estimasi adaptif melalui `txconfirmtarget`.
-
-
-
-
-
 - `fallbackfee=<amt>` : Tarif cadangan (BTC/kvB) yang digunakan jika estimator kekurangan data (default: `0.00`). Mengaturnya ke 0 akan menonaktifkan fallback sepenuhnya.
-
-
-
-
-
 - `mintxfee=<amt>`: Ambang batas minimum (BTC/kvB) untuk Wallet untuk membuat transaksi (default: `0.00001`). Wallet akan menolak membuat transaksi di bawah ambang batas ini.
-
-
-
-
-
 - `maxtxfee=<amt>`: Batas absolut pada total biaya untuk transaksi Wallet (default: `0.10` BTC). Melindungi dari biaya yang sangat tinggi yang tidak perlu yang akan menghancurkan bitcoin.
-
-
-
-
-
 - `hindari pengeluaran parsial = 1`: Memilih UTXO berdasarkan cluster Address untuk menghindari pengeluaran sebagian.
-
-
-
-
-
 - `spendzeroconfchange=1`: Memungkinkan UTXO Exchange yang belum dikonfirmasi untuk digunakan kembali sebagai entri dalam transaksi baru (default: `1`).
-
-
-
-
-
 - `consolidatefeerate=<amt>`: Tingkat maksimum (BTC/kvB) di luar itu Wallet menghindari menambahkan lebih banyak input daripada yang diperlukan untuk konsolidasi. Hal ini memungkinkan konsolidasi oportunistik dengan harga rendah dan mengurangi biaya ketika biaya tinggi.
-
-
-
-
-
 - `maxapsfee=<n>`: Anggaran untuk biaya tambahan (BTC, nilai absolut) yang disetujui oleh Wallet untuk membayar untuk mengaktifkan opsi "*hindari pengeluaran sebagian*".
-
-
-
-
-
 - `discardfee=<amt>`: Nilai (BTC/kvB) yang menunjukkan toleransi Anda untuk membuang Exchange dengan menambahkannya ke biaya. Keluaran yang harganya lebih dari sepertiga nilainya dengan tarif ini akan dibuang.
-
-
-
-
-
 - `keypool=<n>`: Ukuran kumpulan Address yang telah dibuat sebelumnya (default: `1000`). Nilai yang terlalu kecil akan meningkatkan risiko pemulihan yang tidak lengkap.
-
-
-
-
-
-- `disablewallet = 1`: Memulai Bitcoin core tanpa subsistem Wallet dan menonaktifkan RPC yang terkait. Mengurangi permukaan serangan dan jejak jika node hanya digunakan untuk validasi / rilis.
-
-
+- `disablewallet = 1`: Memulai Bitcoin core tanpa subsistem Wallet dan menonaktifkan RPC yang terkait. Mengurangi potensi serangan dan jejak jika node hanya digunakan untuk validasi / rilis.
 
 ### Penyimpanan, pengindeksan, dan kinerja
 
-
-
-File konfigurasi juga memungkinkan Anda untuk menyesuaikan parameter yang terkait dengan mesin Anda. Hal ini dapat sangat relevan jika Anda memiliki sumber daya yang terbatas, atau, sebaliknya, kapasitas yang tersedia dalam jumlah besar:
-
-
-
-
+File konfigurasi juga memungkinkan Anda untuk menyesuaikan parameter yang terkait dengan perangkat Anda. Hal ini dapat sangat relevan jika Anda memiliki sumber daya yang terbatas, atau, sebaliknya, kapasitas yang tersedia dalam jumlah besar:
 
 - `datadir = <dir>`: Mengatur direktori data utama Bitcoin core.
-
-
-
-
-
-- `blocksdir=<dir>`: Memisahkan lokasi file blok (`blocks/blk*.dat` dan `blocks/rev*.dat`) dari `datadir`. Hal ini dapat berguna untuk menempatkan arsip blok pada volume yang berbeda, sambil menjaga basis status (`chainstate/`) pada media yang lebih cepat, misalnya.
-
-
-
-
-
-- `dbcache=<n>`: Mengalokasikan `<n>` MiB ke cache basis data (*LevelDB*) yang digunakan oleh indeks blok dan `chainstate` (default: `450`). Semakin tinggi nilainya, semakin cepat IBD dan validasi saat ini, dengan mengorbankan konsumsi RAM yang lebih tinggi.
-
-
-
-
-
-- `pangkas=<n>`: Mengaktifkan pemangkasan file blok dan menetapkan target ruang disk dalam MiB (default: `0` = dinonaktifkan; `1` = pemangkasan manual melalui RPC; `> = 550` = pemangkasan otomatis di bawah target). Tidak kompatibel dengan `txindex=1`. Simpul tetap menjadi simpul yang tervalidasi sepenuhnya, tetapi tidak dapat lagi menyediakan riwayat lama. Opsi ini sangat berguna jika ruang disk Anda terbatas, misalnya, saat memasang simpul di komputer rumah Anda.
-
-
-
-
-
-- `txindex=1` : Membangun dan memelihara indeks global dari transaksi yang dikonfirmasi. Penting untuk beberapa permintaan (`getrawtransaction` di luar dompet) dan untuk keperluan eksplorasi, tetapi secara signifikan meningkatkan penggunaan disk. Tidak kompatibel dengan mode terpangkas.
-
-
-
-
-
+- `blocksdir=<dir>`: Memisahkan lokasi file blok (`blocks/blk*.dat` dan `blocks/rev*.dat`) dari `datadir`. Hal ini dapat berguna untuk menempatkan arsip blok pada volume yang berbeda, sambil menjaga database (`chainstate/`) pada media yang lebih cepat, misalnya.
+- `dbcache=<n>`: Mengalokasikan `<n>` MiB ke cache basis data (*LevelDB*) yang digunakan oleh indeks blok dan `chainstate` (default: `450`). Semakin tinggi nilainya, semakin cepat IBD dan validasi saat ini, dengan membuat konsumsi RAM yang lebih tinggi.
+- `pangkas=<n>`: Mengaktifkan pemangkasan file blok dan menetapkan target ruang disk dalam MiB (default: `0` = dinonaktifkan; `1` = pemangkasan manual melalui RPC; `> = 550` = pemangkasan otomatis di bawah target). Tidak kompatibel dengan `txindex=1`. Node tetap menjadi node yang tervalidasi sepenuhnya, tetapi tidak dapat lagi menyediakan riwayat lama. Opsi ini sangat berguna jika ruang disk Anda terbatas, misalnya, saat memasang node di komputer rumah Anda.
+- `txindex=1` : Membangun dan memelihara indeks global dari transaksi yang dikonfirmasi. Penting untuk beberapa permintaan (`getrawtransaction` di luar wallet) dan untuk keperluan eksplorasi, tetapi secara signifikan meningkatkan penggunaan disk. Tidak kompatibel dengan mode pruned.
 - `assumevalid=<hex>`: Menunjukkan blok yang diasumsikan valid, sehingga Anda dapat melewatkan pemeriksaan skrip untuk nenek moyangnya (setel `0` untuk memeriksa semuanya). Lihat bab sebelumnya untuk informasi lebih lanjut.
-
-
-
-
-
 - `reindex=1`: Merekonstruksi indeks blok dan status (`chainstate`) dari file `blk*.dat` pada disk. Juga membangun kembali indeks aktif opsional. Ini adalah operasi yang memakan waktu untuk digunakan untuk memperbaiki basis data yang rusak atau mengaktifkan/menonaktifkan indeks yang berat.
-
-
-
-
-
-- `reindex-chainstate=1`: Membangun ulang hanya `chainstate` dari indeks blok saat ini. Lebih disukai ketika file blok sehat.
-
-
-
-
-
+- `reindex-chainstate=1`: Membangun ulang hanya `chainstate` dari indeks blok saat ini. Lebih disukai ketika file blok dalam kondisi baik.
 - `blockfilterindex=<type>`: Mempertahankan indeks filter blok ringkas (misalnya, `basic`) yang digunakan oleh thin client (BIP157/158) dan beberapa RPC. Dinonaktifkan secara default (`0`). Memakan ruang disk tambahan dan waktu pengindeksan.
-
-
-
-
-
 - `coinstatsindex = 1`: Mempertahankan indeks statistik set UTXO yang dioperasikan oleh panggilan `getxoutsetinfo`. Berguna untuk audit dan metrik, sehingga tidak perlu melakukan penghitungan ulang yang mahal. Dinonaktifkan secara default.
-
-
-
-
-
 - `loadblock = <file>`: Mengimpor blok saat pengaktifan dari file `blk*.dat` eksternal. Digunakan untuk memuat riwayat dari sumber offline (salinan lokal, media eksternal) untuk mempercepat inisialisasi.
-
-
-
-
-
 - `par=<n>`: Mengatur jumlah thread verifikasi skrip (dari `-10` hingga `15`, `0` = otomatis, `<0` = mengosongkan jumlah core). Memungkinkan Anda menyesuaikan paralelisme CPU selama validasi. Mode otomatis cocok untuk sebagian besar kasus.
-
-
-
-
-
 - `debuglogfile=<file>`: Menentukan lokasi log `debug.log`.
-
-
-
-
-
 - `shrinkdebugfile=1`: Mengurangi ukuran `debug.log` saat pengaktifan (default: `1` saat `-debug` tidak aktif).
-
-
-
-
-
 - `settings=<file>`: Jalur ke file pengaturan dinamis `settings.json`.
-
-
 
 ### Akses RPC dan keamanan operasional
 
+Terakhir, file `Bitcoin.conf` juga memungkinkan Anda untuk mengkonfigurasi parameter akses untuk node Anda. Berhati-hatilah dengan pengaturan ini, terutama jika Anda baru memulai: hindari mengubahnya tanpa pemahaman mendalam tentang implikasinya, karena ini dapat menimbulkan celah keamanan.
 
-
-Terakhir, berkas `Bitcoin.conf` juga memungkinkan Anda untuk mengonfigurasi parameter akses untuk node Anda. Berhati-hatilah dengan pengaturan ini, terutama jika Anda baru memulai: hindari mengubahnya tanpa memahami implikasinya secara menyeluruh, karena hal ini dapat menimbulkan kerentanan.
-
-
-
-
-
-- `server=1`: Mengaktifkan server JSON-RPC. Penting jika Anda menggerakkan `bitcoind` melalui `bitcoin-cli` atau aplikasi pihak ketiga. Nonaktifkan (`0`) pada simpul validasi murni yang tidak mengekspos API apa pun, atau sudah menggunakan server Electrum.
-
-
-
-
-
+- `server=1`: Mengaktifkan server JSON-RPC. Penting jika Anda mengendalikan `bitcoind` melalui `bitcoin-cli` atau aplikasi pihak ketiga. Nonaktifkan (`0`) pada node validasi murni yang tidak mengekspos API apa pun, atau sudah menggunakan server Electrum.
 - `rpcbind=<addr>[:port]`: Server RPC mendengarkan Address/port. Secara default, mendengarkan hanya dilakukan secara lokal (`127.0.0.1` dan `::1`). Parameter ini diabaikan jika `rpcallowip` juga tidak didefinisikan. Gunakan untuk secara eksplisit membatasi Interface.
-
-
-
-
-
 - `rpcport=<port>`: Port RPC (default: `8332` pada Mainnet, `18332` pada Testnet, `38332` pada bookmark, `18443` pada regtest).
-
-
-
-
-
 - `rpcallowip=<ip|cidr>`: Mengizinkan klien RPC dari IP atau subnet tertentu (dapat diulang). Gunakan bersama dengan `rpcbind` untuk mengekspos API hanya ke segmen tepercaya (LAN/VPN).
-
-
-
-
-
 - `rpcauth=<USERNAME>:<SALT>$<Hash>`: Metode autentikasi RPC yang direkomendasikan (kata sandi ter-hash). Memungkinkan beberapa entri dan menghindari penyimpanan rahasia dalam teks yang jelas.
-
-
-
-
-
 - `rpccookiefile=<path>`: Jalur ke cookie autentikasi (default: file `.cookie` di bawah `datadir/`). Ini digunakan untuk akses lokal oleh pengguna yang sama tanpa mengelola kata sandi yang tetap. Sebagai contoh, Anda dapat menggunakannya untuk menghubungkan Liana Wallet ke Bitcoin core pada mesin yang sama.
-
-
-
-
-
 - `rpcuser=<user>` / `rpcpassword=<pw>`: Otentikasi RPC klasik dengan kata sandi teks biasa. Hindari penggunaan ini sebagai pengganti `rpcauth` atau cookie.
-
-
-
-
-
 - `rpcthreads=<n>`: Jumlah thread untuk melayani panggilan RPC (default: `4`). Tingkatkan jika Anda memiliki puncak panggilan yang tinggi pada sisi pemantauan/alat eksternal.
-
-
-
-
-
-- `rpcwhitelist=<USERNAME>:<rpc1>,<rpc2>,...`: Daftar putih API yang diotorisasi. Mengurangi permukaan serangan dengan membatasi metode yang dapat diakses.
-
-
-
-
-
-- `rpcwhitelistdefault=1|0`: Perilaku daftar putih default: jika diaktifkan dan daftar putih digunakan, panggilan yang tidak terdaftar akan ditolak. Ini juga dapat memaksa set default kosong (tidak ada panggilan yang diizinkan) selama tidak ada yang secara eksplisit terdaftar.
-
-
-
-
-
+- `rpcwhitelist=<USERNAME>:<rpc1>,<rpc2>,...`: Whitelist API yang diotorisasi. Mengurangi potensi serangan dengan membatasi metode yang dapat diakses.
+- `rpcwhitelistdefault=1|0`: Perilaku Whitelist default: jika diaktifkan dan Whitelist digunakan, panggilan yang tidak terdaftar akan ditolak. Ini juga dapat memaksa set default kosong (tidak ada panggilan yang diizinkan) selama tidak ada yang secara eksplisit terdaftar.
 - `rest=1`: Mengaktifkan REST API publik (dinonaktifkan secara default). Untuk diekspos hanya pada jaringan tepercaya (peringatan yang sama seperti pada JSON-RPC).
-
-
-
-
-
-- `conf=<file>`: Menentukan, pada baris perintah saja, file konfigurasi hanya-baca. Berguna untuk membekukan profil eksekusi (tidak dapat diubah) pada sisi operasi.
-
-
-
-
-
-- `includeconf=<file>`: Memuat berkas konfigurasi tambahan (jalur relatif ke `datadir/`). Memungkinkan pemisahan peran: basis umum + kelebihan beban lokal yang sensitif.
-
-
-
-
-
-- `daemon=1` / `daemonwait=1`: Memulai `bitcoind` di latar belakang dan, dengan `daemonwait`, menunggu inisialisasi selesai sebelum menyerahkannya. Hal ini memudahkan integrasi dengan supervisor (systemd, runit).
-
-
-
-
-
+- `conf=<file>`: Menentukan, pada baris perintah saja, file konfigurasi read-only. Berguna untuk membekukan profil eksekusi (tidak dapat diubah) pada sisi operasi.
+- `includeconf=<file>`: Memuat file konfigurasi tambahan (jalur relatif ke `datadir/`). Memungkinkan pemisahan peran: basis umum + kelebihan beban lokal yang sensitif.
+- `daemon=1` / `daemonwait=1`: Memulai `bitcoind` di background dan, dengan `daemonwait`, menunggu inisialisasi selesai sebelum menyerahkannya. Hal ini memudahkan integrasi dengan supervisor (systemd, runit).
 - `pid=<file>`: Lokasi file PID.
-
-
-
-
-
 - `sandbox=<log-and-abort|abort>`: Mengaktifkan sandboxing syscall eksperimental: hanya syscall yang diharapkan yang diizinkan.
-
-
-
-
-
 - `startupnotify = <cmd>` / `shutdownnotify = <cmd>`: Menjalankan perintah saat pengaktifan atau penonaktifan.
-
-
-
-
-
 - `alertnotify = <cmd>`: Memicu perintah saat menerima peringatan.
-
-
-
-
-
 - `blocknotify = <cmd>`: Menjalankan perintah untuk setiap blok baru.
-
-
-
-
-
 - `debug=<kategori>|1` / `debugexclude=<kategori>`: Mengaktifkan/menonaktifkan kategori log yang terperinci (misalnya `net`, `Mempool`, `RPC`, `validasi`...).
-
-
-
-
-
 - `logips=1`: Mencatat alamat IP.
-
-
-
-
-
 - `logsourcelocations=1` / `logthreadnames=1` / `logtimestamps=1`: Menambahkan lokasi sumber, nama utas, dan stempel waktu yang tepat ke log.
-
-
-
-
-
 - `printtoconsole=1`: Mengirimkan jejak/debug ke konsol (*stdout*).
-
-
-
-
-
 - `help-debug=1`: Menampilkan bantuan opsi debug dan berhenti.
-
-
-
-
-
 - `uacomment=<cmt>`: Menambahkan komentar ke Agen-Pengguna P2P.
 
+Kita sekarang telah selesai membuat daftar sebagian besar parameter konfigurasi. File `Bitcoin.conf` ini dengan demikian merupakan dashboard sebenarnya dari node Anda: ia mendefinisikan konfigurasi jaringan, manajemen Mempool, penggunaan disk dan memori, pengindeksan, dan administrasi umum. Jika Anda ingin mempelajari lebih lanjut tentang file ini dan membuat satu yang disesuaikan dengan kebutuhan Anda, saya sarankan menggunakan [generator Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
+Kita telah sampai pada kesimpulan dari kursus BTC 202 ini, yang akan memungkinkan Anda tidak hanya untuk memahami dasar-dasar cara kerja node dan bagaimana mereka berinteraksi dalam sistem, tetapi juga untuk menyiapkan node Anda sendiri. Anda sekarang adalah seorang Bitcoiner yang berdaulat, dengan wallet self-custody Anda sendiri, menyiarkan transaksi Anda melalui node Anda sendiri. Selamat!
 
-Kita sekarang telah selesai membuat daftar sebagian besar parameter konfigurasi. File `Bitcoin.conf` ini merupakan dashboard yang sebenarnya dari node Anda: mendefinisikan konfigurasi jaringan, manajemen Mempool, penggunaan disk dan memori, pengindeksan, dan administrasi umum. Jika anda ingin mempelajari lebih lanjut tentang berkas ini dan membuat berkas yang sesuai dengan kebutuhan anda, saya sarankan untuk menggunakan [generator Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
-
-
-
-Kita telah mencapai kesimpulan dari kursus BTC 202 ini, yang akan memungkinkan Anda untuk tidak hanya memahami dasar-dasar cara kerja node dan bagaimana mereka berinteraksi dalam sistem, tetapi juga untuk membuat node Anda sendiri. Sekarang Anda adalah seorang Bitcoiner yang berdaulat, dengan Wallet milik Anda sendiri, yang menyiarkan transaksi Anda melalui node Anda sendiri. Selamat!
-
-
-
-Sekarang Anda dapat melanjutkan ke bagian akhir kursus, di mana Anda akan dapat mengevaluasi BTC 202, kemudian mengambil ijazah Anda untuk memeriksa apakah Anda telah menguasai semua konsep yang dibahas.
-
-
+Anda sekarang dapat melanjutkan ke bagian akhir kursus, di mana Anda akan dapat mengevaluasi BTC 202, lalu mengambil sertifikat Anda untuk memeriksa bahwa Anda telah menguasai semua konsep yang dibahas.
 
 Anda sekarang memiliki beberapa opsi yang terbuka untuk Anda. Langkah logis berikutnya adalah menyiapkan node Lightning Anda sendiri, yang memungkinkan Anda untuk sepenuhnya mandiri untuk transaksi off-chain Anda. Ini akan menjadi subjek dari kursus yang akan datang, yang akan diterbitkan pada musim gugur 2025 di Plan ₿ Academy.
 
-
+Anda sekarang memiliki beberapa pilihan yang terbuka. Langkah logis berikutnya adalah menyiapkan Lightning node Anda sendiri, memungkinkan Anda untuk sepenuhnya mandiri untuk transaksi off-chain Anda. Ini akan menjadi subjek kursus yang akan datang, yang akan diterbitkan pada musim gugur 2025 di Plan ₿ Academy.
 
 Sementara itu, saya mengundang Anda untuk mengikuti pelatihan BTC 204, yang akan memungkinkan Anda untuk memahami dan menguasai prinsip-prinsip perlindungan privasi dalam penggunaan Bitcoin:
 

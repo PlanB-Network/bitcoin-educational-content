@@ -19,6 +19,15 @@ from datetime import datetime, timedelta
 REPO = "PlanB-Network/bitcoin-educational-content"
 GITHUB_PR_URL = f"https://github.com/{REPO}/pull"
 
+# Employees excluded from the community contributor list
+EXCLUDED_CONTRIBUTORS = {
+    "Loïc",
+    "Asi0Flammeus",
+    "MarJJ",
+    "asi0",
+    "jramos0",
+}
+
 
 # ── helpers ──────────────────────────────────────────────────────────────────
 
@@ -207,6 +216,8 @@ def build_report(label: str, after: str, before: str) -> str:
 
     total_commits = len(commits)
     unique_contributors = len(contributors)
+    community_contributors = [n for n, c in contributors if n not in EXCLUDED_CONTRIBUTORS]
+    n_community = len(community_contributors)
     net = added - removed
 
     # Count key items
@@ -228,7 +239,7 @@ def build_report(label: str, after: str, before: str) -> str:
     w("")
     w("## TL;DR")
     w("")
-    w(f"- **{total_commits} commits** from **{unique_contributors} unique contributors**")
+    w(f"- **{total_commits} commits** from **{n_community} community contributors** (+ {unique_contributors - n_community} team members)")
     w(f"- **{added:,} lines added**, {removed:,} lines removed (net {'+' if net >= 0 else ''}{net:,})")
     if n_courses:
         w(f"- **{n_courses} course-related commits** (new courses, updates, deployments)")
@@ -331,9 +342,10 @@ def build_report(label: str, after: str, before: str) -> str:
     w("")
     w("### Top Contributors by Commits")
     w("")
+    community = [(n, c) for n, c in contributors if n not in EXCLUDED_CONTRIBUTORS]
     w("| Contributor | Commits |")
     w("|-------------|---------|")
-    for name, count in contributors[:15]:
+    for name, count in community[:15]:
         w(f"| @{name} | {count} |")
     w("")
 
@@ -407,10 +419,11 @@ def build_report(label: str, after: str, before: str) -> str:
     w("## Summary")
     w("")
     w(f"{month_name(label)} saw **{total_commits} commits** from "
-      f"**{unique_contributors} contributors**, adding **{added:,} lines** "
+      f"**{n_community} community contributors** and "
+      f"**{unique_contributors - n_community} team members**, adding **{added:,} lines** "
       f"and removing **{removed:,} lines** across the repository.")
     w("")
-    w(f"Thank you to all {unique_contributors} contributors who made "
+    w(f"Thank you to all {n_community} community contributors who made "
       f"{month_name(label)} another productive month for Bitcoin education!")
     w("")
     w("---")

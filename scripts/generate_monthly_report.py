@@ -241,8 +241,37 @@ def build_report(label: str, after: str, before: str) -> str:
     w("")
     w(f"- **{total_commits} commits** from **{n_community} community contributors** (+ {unique_contributors - n_community} team members)")
     w(f"- **{added:,} lines added**, {removed:,} lines removed (net {'+' if net >= 0 else ''}{net:,})")
+    # Course deployment breakdown for TL;DR
+    course_commits_all = groups.get("COURSE", [])
+    mainnet_deploys = [m for m in course_commits_all
+                       if re.search(r'\b(deploy|publish)\b.*\bmainnet\b|\bpublish\b.*\bmainnet\b', m, re.IGNORECASE)]
+    testnet_deploys = [m for m in course_commits_all
+                       if re.search(r'\b(deploy|push)\b.*\btestnet\b', m, re.IGNORECASE)]
+    # Extract course codes from deploy messages
+    def extract_course_codes(msgs):
+        codes = []
+        for m in msgs:
+            match = re.search(r'\[([A-Z]{2,4}\s?\d{3})\]', m)
+            if match:
+                codes.append(match.group(1))
+            else:
+                match = re.search(r'deploy\s+(\w+\s?\d{3})', m, re.IGNORECASE)
+                if match:
+                    codes.append(match.group(1))
+        return codes
+
+    mainnet_codes = extract_course_codes(mainnet_deploys)
+    testnet_codes = extract_course_codes(testnet_deploys)
+
+    if mainnet_codes or testnet_codes:
+        parts = []
+        if mainnet_codes:
+            parts.append(f"{len(mainnet_codes)} on mainnet ({', '.join(mainnet_codes)})")
+        if testnet_codes:
+            parts.append(f"{len(testnet_codes)} on testnet ({', '.join(testnet_codes)})")
+        w(f"- **Course deployments**: {'; '.join(parts)}")
     if n_courses:
-        w(f"- **{n_courses} course-related commits** (new courses, updates, deployments)")
+        w(f"- **{n_courses} course-related commits** total (deployments, new content, fixes)")
     if n_tutorials:
         w(f"- **{n_tutorials} tutorial commits** (new tutorials, updates, fixes)")
     if n_translations:

@@ -260,9 +260,35 @@ def build_report(label: str, after: str, before: str) -> str:
     if course_commits:
         w("## Course Updates")
         w("")
-        for msg in course_commits:
-            w(pr_link(msg))
-        w("")
+
+        new_deploy = [m for m in course_commits
+                      if re.search(r'\b(deploy|publish|push)\b.*\b(testnet|mainnet)\b', m, re.IGNORECASE)]
+        new_content = [m for m in course_commits
+                       if re.search(r'\bAdd\b|\bnew\b', m, re.IGNORECASE) and m not in new_deploy]
+        course_fixes = [m for m in course_commits
+                        if m not in new_deploy and m not in new_content]
+
+        if new_deploy:
+            w("### New Course Deployments")
+            w("")
+            for msg in new_deploy:
+                w(pr_link(msg))
+            w("")
+
+        if new_content:
+            w("### New Course Content")
+            w("")
+            for msg in new_content:
+                w(pr_link(msg))
+            w("")
+
+        if course_fixes:
+            w("### Course Improvements & Fixes")
+            w("")
+            for msg in course_fixes:
+                w(pr_link(msg))
+            w("")
+
         w("---")
         w("")
 

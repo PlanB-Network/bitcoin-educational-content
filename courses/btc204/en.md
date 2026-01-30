@@ -2695,7 +2695,7 @@ In this example, I've intentionally left out the fees to make it easier to under
 
 Similar to the Stonewall structure, the Stonewall x2 structure introduces significant entropy to the transaction, complicating the chain analysis. Seen from the outside, such a transaction can be interpreted as a little coinjoin between two people. But in reality, it's a payment. This method, therefore, creates uncertainties in chain analysis or even leads to false leads.
 
-Let's take the example of Alice, Bob the Baker, and Charles. The transaction on the blockchain would look like this:
+Let's take the example of Alice, Bob the baker, and Charles. The transaction on the blockchain would look like this:
 
 ![BTC204](assets/en/184.webp)
 
@@ -2847,7 +2847,7 @@ However, this naive method presents a high risk in terms of trust. There's nothi
 
 ![BTC204](assets/en/201.webp)
 
-Furthermore, there is no guarantee that Alice will not receive Bob's private key $B$ and never pass on her private key $A$ in exchange. This exchange, therefore, relies excessively on trust between the parties and is ineffective in ensuring a secure transfer of ownership.
+Furthermore, there is no guarantee that Alice, once she has received Bob's private key $B$, will transmit her private key $A$ in exchange. This exchange, therefore, relies excessively on trust between the parties and is ineffective in ensuring a secure transfer of ownership.
 
 ![BTC204](assets/en/202.webp)
 
@@ -3113,12 +3113,12 @@ As mentioned earlier, the reusable payment code is located at depth 3 of the HD 
 The 80-byte payment code breaks down as follows:
 
 
-- Byte `0`: The **version**. For the first version of BIP47, this byte is set to `0x01`.
-- Byte `1`: The **bit field**. This space is reserved for integrating additional indications for specific uses. For classic PayNym use, this byte is set to `0x00`.
-- The `2` byte: The parity of `y`. This byte is `0x02` or `0x03`, indicating whether the ordinate of the public key is even or odd, as a compressed public key is used.
-- From byte `3` to byte `34`: The value of `x`. These bytes represent the abscissa of the public key. The concatenation of `x` and the parity of `y` forms the complete compressed public key.
-- From byte `35` to byte `66`: The string **code**. This space contains the string code associated with the public key.
-- From byte `67` to byte `79`: The **padding**. This space is intended for possible future evolutions. For the current version, we simply place zeros here to reach the 80-byte size required for `OP_RETURN` output.
+- **Byte `0`: The version**. For the first version of BIP47, this byte is set to `0x01`.
+- **Byte `1`: The bit field**. This space is reserved for integrating additional indications for specific uses. For classic PayNym use, this byte is set to `0x00`.
+- **The `2` byte: The parity of `y`**. This byte is `0x02` or `0x03`, indicating whether the ordinate of the public key is even or odd, as a compressed public key is used.
+- **From byte `3` to byte `34`: The value of `x`**. These bytes represent the abscissa of the public key. The concatenation of `x` and the parity of `y` forms the complete compressed public key.
+- **From byte `35` to byte `66`: The string code**. This space contains the string code associated with the public key.
+- **From byte `67` to byte `79`: The padding**. This space is intended for possible future evolutions. For the current version, we simply place zeros here to reach the 80-byte size required for `OP_RETURN` output.
 
 Here is the hexadecimal representation of my reusable payment code already presented in the previous section:
 
@@ -3422,9 +3422,9 @@ $$ S = a \cdot B $$
 
 $$ f = \text{HMAC-SHA512}(o, x) $$
 
-**2 - Alice converts her personal payment code to base 2 (binary) **
+**2 - Alice converts her personal payment code to base 2 (binary)**
 
-**3- It uses this blinding factor as a key to perform symmetrical encryption on the payload of its payment code.** The encryption algorithm used is simply an `XOR`. The operation performed is comparable to the Vernam cipher, also known as the "One-Time Pad."
+**3- She uses this blinding factor as a key to perform symmetrical encryption on the payload of her payment code.** The encryption algorithm used is simply an `XOR`. The operation performed is comparable to the Vernam cipher, also known as the "One-Time Pad."
 
 
 - Alice first splits her blinding factor in two: the first 32 bytes are named $f1$ and the last 32 bytes are named $f2$. This gives us:
@@ -3452,10 +3452,10 @@ I'll summarize the steps we've just seen together to carry out a notification tr
 
 - Alice retrieves Bob's payment code and notification address.
 - Alice selects a UTXO from her HD wallet with the corresponding key pair.
-- It calculates a secret point on the elliptic curve using ECDH.
-- It uses this secret point to calculate an HMAC, which is the blinding factor.
+- She calculates a secret point on the elliptic curve using ECDH.
+- She uses this secret point to calculate an HMAC, which is the blinding factor.
 - She uses this blinding factor to encrypt the payload of her personal payment code.
-- It uses a `OP_RETURN` transaction output to communicate the hidden payment code to Bob.
+- She uses a `OP_RETURN` transaction output to communicate the hidden payment code to Bob.
 
 ![BTC204](assets/en/232.webp)
 
@@ -3685,10 +3685,10 @@ I'll summarize the steps we've just seen together to receive and interpret a not
 
 
 - Bob monitors transaction output to his notification address.
-- When it detects one, it retrieves the information contained in the OP_RETURN.
+- When he detects one, he retrieves the information contained in the OP_RETURN.
 - Bob selects the public key as input and calculates a secret point using ECDH.
-- It uses this secret point to calculate an HMAC, which is the blinding factor.
-- It uses this blinding factor to decrypt Alice's payment code payload contained in the OP_RETURN.
+- He uses this secret point to calculate an HMAC, which is the blinding factor.
+- He uses this blinding factor to decrypt Alice's payment code payload contained in the OP_RETURN.
 
 ![BTC204](assets/en/235.webp)
 
@@ -3747,8 +3747,8 @@ I'll summarize the steps we've just seen together to send a BIP47 payment:
 
 
 - Alice selects the first daughter private key derived from her personal payment code.
-- It calculates a secret point on the elliptic curve using ECDH from the first unused daughter public key derived from Bob's payment code.
-- It uses this secret point to calculate a shared secret with SHA256.
+- She calculates a secret point on the elliptic curve using ECDH from the first unused daughter public key derived from Bob's payment code.
+- She uses this secret point to calculate a shared secret with SHA256.
 - She uses this shared secret to calculate a new secret point on the elliptic curve.
 - She adds this new secret point to Bob's public key.
 - She obtains a new ephemeral public key for which only Bob has the associated private key.
@@ -3760,7 +3760,7 @@ If Alice wants to make a second payment, she'll follow the same steps as before,
 
 ![BTC204](assets/en/237.webp)
 
-It can continue in this way and derive up to `2^32` blank addresses belonging to Bob.
+She can continue in this way and derive up to `2^32` blank addresses belonging to Bob.
 
 From an outside perspective, examining the blockchain, it is theoretically impossible to distinguish a BIP47 payment from a conventional payment. Here's an example of a BIP47 payment transaction on Testnet:
 
@@ -3818,8 +3818,8 @@ I'll summarize the steps we've just seen together to receive a BIP47 payment and
 
 
 - Bob selects the first daughter private key derived from his personal payment code.
-- It calculates a secret point on the elliptic curve using ECDH from the first daughter's public key derived from Alice's string code.
-- It uses this secret point to calculate a shared secret with SHA256.
+- He calculates a secret point on the elliptic curve using ECDH from the first daughter's public key derived from Alice's string code.
+- He uses this secret point to calculate a shared secret with SHA256.
 - He uses this shared secret to calculate a new secret point on the elliptic curve;
 - He adds this new secret point to his personal public key;
 - He obtains a new ephemeral public key, the one to which Alice will send her first payment;
@@ -4031,7 +4031,7 @@ When scanning, Bob can also add $\text{inputHash}$, since all he has to do is ob
 
 $$ P_0 = B + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0) \cdot G $$
 
-When it finds a valid $P_0$, it can calculate the corresponding $p_0$ private key:
+When he finds a valid $P_0$, he can calculate the corresponding $p_0$ private key:
 
 $$
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
@@ -4203,7 +4203,7 @@ To build an address dedicated to Silent Payments, you first need to derive 2 key
 
 
 - The pair $b_{\text{scan}}$, $B_{\text{scan}}$ to search for payments addressed to us;
-- The pair $b_{\text{spend}}$, $B_{\text{spend}}$ to think of the bitcoins we've received.
+- The pair $b_{\text{spend}}$, $B_{\text{spend}}$ to spend the bitcoins we've received.
 
 These pairs are derived using the following paths (*Bitcoin Mainnet*):
 
@@ -4234,7 +4234,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 
 An important point concerning static addresses, which you may have grasped in the previous sections, is that these addresses are not visible in Bitcoin transactions. Only the $P$ payment addresses used in outputs appear on the blockchain in the standard Taproot format. So, from the outside, it's impossible to distinguish a transaction involving Silent Payment from an ordinary transaction using P2TR outputs.
 
-As with BIP47, it is impossible to establish a connection between a static address $B$ and a payment address $P$ derived from $B$. Indeed, even if Eve, a potential attacker, attempts to scan the blockchain with Bob's static $B$ address, she won't be able to perform the calculations required to determine $P$. To do so, she would need either Bob's private key $b_{\text{scan}}$, or the sender's private keys $a$, but both are, of course, private. It is therefore possible to explicitly link one's static address with a form of personal identity.
+As with BIP47, it is impossible to establish a connection between a static address $B$ and a payment address $P$ derived from $B$. Indeed, even if Eve, a potential attacker, attempts to scan the blockchain with Bob's static $B$ address, she won't be able to perform the calculations required to determine $P$. To do so, she would need either Bob's private key $b_{\text{scan}}$, or the sender's private keys $a$, but both are, of course, private. It is therefore possible to explicitly link one's static address with a form of personal identity, for example, by publishing one's static address on an X (Twitter) profile.
 
 ### How do I use Silent Payments?
 

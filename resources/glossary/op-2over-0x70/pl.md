@@ -1,5 +1,6 @@
 ---
 term: OP_2OVER (0X70)
+definition: Opkod kopiujący 3. i 4. element stosu na jego szczyt.
 ---
 
 Kopiuje dwa Elements, które znajdują się na czwartej i trzeciej pozycji od góry stosu, a następnie umieszcza je na wierzchu stosu. Na przykład, jeśli stos to:

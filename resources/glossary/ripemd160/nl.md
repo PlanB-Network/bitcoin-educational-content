@@ -1,5 +1,6 @@
 ---
 term: RIPEMD160
+definition: Cryptografische hashfunctie die een 160-bits condensaat genereert, gebruikt voor Bitcoin-adressen.
 ---
 
 Acroniem voor *Onderzoek en ontwikkeling in geavanceerde communicatietechnologieën in Europa Integrity Primitives Evaluation Message Digest 160*. Het is een cryptografische Hash functie die een 160-bit digest genereert uit een willekeurige invoer. Het wordt gebruikt in Bitcoin om een publieke sleutel te transformeren in een ontvangende Address voor Legacy en SegWit v0 standaarden (voor SegWit v1 wordt de publieke sleutel niet gehasht). Het proces omvat eerst het toepassen van de `SHA256` Hash functie op de publieke sleutel, gevolgd door het toepassen van `RIPEMD160` op het resultaat. Deze combinatie van twee verschillende Hash functies staat bekend als `HASH160` in de context van Bitcoin. `RIPEMD160` wordt ook gebruikt in deterministische en hiërarchische portemonnees om sleutel vingerafdrukken te berekenen. Specifiek wordt `HASH160` gebruikt om de vingerafdruk van een oudersleutel te berekenen, die vervolgens wordt opgenomen in de metadata van een uitgebreide sleutel (xpub, xprv...).

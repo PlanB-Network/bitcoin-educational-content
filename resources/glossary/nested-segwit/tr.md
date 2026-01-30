@@ -1,5 +1,6 @@
 ---
-term: YUVALI SegWit
+term: İç içe SegWit
+definition: Eski hizmetlerin SegWit'i benimsemesini kolaylaştırmak için P2SH içine sarılmış SegWit betikleri.
 ---
 
 Yerel SegWit komut dosyalarını bir P2SH komut dosyası içine sarmak için kullanılan bir komut dosyası standardı. İç içe geçmiş SegWit komut dosyaları, SegWit'in benimsenmesini kolaylaştırmak için SegWit'in lansmanında icat edilmiştir. Henüz SegWit ile yerel olarak uyumlu olmayan hizmetler veya cüzdanlarla bile bu yeni standardın kullanılmasına izin verirler. Yeni standarda doğru bir tür geçiş betiği görevi görür. Günümüzde, çoğu cüzdan yerel SegWit'i uyguladığından, bu tür sarılmış SegWit komut dosyalarını kullanmak artık çok önemli değildir.

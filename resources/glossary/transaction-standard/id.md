@@ -1,6 +1,7 @@
 ---
-term: STANDAR TRANSAKSI
+term: Transaksi standar
 
+definition: Transaksi yang mematuhi aturan konsensus dan aturan standarisasi default dari node Bitcoin Core.
 ---
 Transaksi Bitcoin yang, selain mengikuti aturan konsensus, juga termasuk dalam aturan standarisasi yang ditetapkan secara bawaan pada node Bitcoin Core. Aturan standardisasi ini diberlakukan secara individual oleh setiap node Bitcoin, sebagai tambahan dari aturan konsensus, untuk mendefinisikan struktur transaksi yang belum dikonfirmasi yang diterimanya dalam _mempool_ dan disiarkan ke _peer_-nya.
 

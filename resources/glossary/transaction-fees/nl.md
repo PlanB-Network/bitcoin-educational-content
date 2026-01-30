@@ -1,5 +1,6 @@
 ---
-term: TRANSACTIEKOSTEN
+term: Transactiekosten
+definition: Bedrag dat miners beloont voor het opnemen van een transactie in een blok, berekend als het verschil tussen inputs en outputs.
 ---
 
 Transactievergoedingen vertegenwoordigen een bedrag dat bedoeld is om miners te compenseren voor hun deelname aan het Proof of Work mechanisme. Deze vergoedingen moedigen miners aan om transacties op te nemen in de blokken die ze creëren. Ze komen voort uit het verschil tussen de totale hoeveelheid inputs en de totale hoeveelheid outputs in een transactie:
@@ -28,4 +29,3 @@ In dit specifieke voorbeeld was het een transactie geïnitieerd door de directeu
 
 Het is ook nodig om de limieten van purging te overwegen. Tijdens periodes van hoge congestie zuiveren de mempools van nodes hun lopende transacties onder een bepaalde drempel, om hun toegewezen RAM-limiet te respecteren. Deze limiet is vrij te kiezen door de gebruiker, maar velen laten de standaardwaarde van Bitcoin core op 300 MB staan. Het kan worden aangepast in het `Bitcoin.conf` bestand met de `maxmempool` parameter.
 
-> ► *In het Engels noemen we dit "transaction fees".*

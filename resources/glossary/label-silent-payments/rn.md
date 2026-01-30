@@ -1,5 +1,6 @@
 ---
-term: IKIMENYETSO (UKWISHURA MU CECERE)
+term: Label (silent payments)
+definition: Imibare yuzuye ikoreshwa mu gukora imfunguzo zidahinduka zivuye ku zindi zitandukanya uburyo bwo gukoresha muri Silent Payments.
 ---
 
 Mu nzira y'ukwishyura mu gacerere, ibimenyetso ni imibare yose ikoreshwa mu guhindura Address y'intango kugira ngo haboneke izindi aderesi nyinshi zidahinduka. Ikoreshwa ry’izo nkuru rituma habaho ugutandukanya amafaranga yoherezwa biciye ku Mafaranga y’Iceceko, hakoreshejwe amaderesi atandukanye y’ikoreshwa ryose, ata kwongerera cane umuzigo w’ibikorwa wo kumenya ayo mafaranga (gupima). Bob ikoresha Address $B$ idahinduka, igizwe n'imfunguruzo zibiri za bose: $B_{\umwandiko{scan}}$ wo gupima na $B_{\umwandiko{gukoresha}}$ wo gukoresha. Hash ya $b_{\text{scan}}$ n'umubare wose $m$, scalar-igwijwe n'inzira y'umuyagankuba $G$, yongerwa ku rufunguzo rwa bose rukoresha $B_{\text{spend}}$ kugira ngo ureme ubwoko bushasha bw'urufunguzo rwa bose rukoresha $B_m$:

@@ -1,6 +1,7 @@
 ---
 term: BIP0173
 
+definition: Bech32-osoitemuoto SegWit V0lle etuliitteellä bc1q, tarjoten paremman luettavuuden ja virheentunnistuksen.
 ---
 Otettiin käyttöön bech32-osoiteformaatti SegWit V0 -osoitteita varten. Tämä osoiteformaatti on tunnettu etuliitteestä `bc1q`. Bech32-formaatilla on useita etuja:
 

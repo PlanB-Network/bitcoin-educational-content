@@ -1,6 +1,7 @@
 ---
 term: OP_3DUP (0X6F)
 
+definition: Opkód duplikuje tři prvky na vrcholu zásobníku.
 ---
 Duplikuje tři horní prvky zásobníku a umístí je na jeho vrchol. Například pokud je zásobník:
 

@@ -1,6 +1,7 @@
 ---
-term: MÉD. DURAÇÃO DA VOLTA
+term: Duração média da ronda
 
+definition: Um indicador que estima o tempo médio necessário para um pool de mineração encontrar um bloco, com base em sua potência computacional e dificuldade da rede.
 ---
 A duração média da ronda é um indicador utilizado para estimar o tempo que demora um grupo de mineração a encontrar um bloco, com base na dificuldade da rede e na taxa de hash do grupo. É calculado tomando o número de acções esperadas para encontrar um bloco e dividindo-o pelo hashrate do grupo. Por exemplo, se um grupo de mineração tiver 200 mineiros, e cada um gerar uma média de 4 acções por segundo, o poder computacional total do grupo é de 800 acções por segundo:
 

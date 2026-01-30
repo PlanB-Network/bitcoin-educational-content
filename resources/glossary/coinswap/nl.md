@@ -1,5 +1,6 @@
 ---
-term: COINSWAP
+term: Coinswap
+definition: Atomic swap-protocol voor bitcoin-eigendom tussen gebruikers via smart contracts.
 ---
 
 Protocol voor geheime overdracht van Ownership tussen gebruikers. Deze methode heeft als doel om het bezit van bitcoins over te dragen van de ene persoon naar de andere, en vice versa, zonder dat deze Exchange expliciet zichtbaar is op de Blockchain. Coinwap gebruikt smart contracts om de overdracht uit te voeren zonder dat er vertrouwen tussen de partijen nodig is.

@@ -1,5 +1,6 @@
 ---
 term: BIP0038
+definition: Standard za šifrovanje privatnih Bitcoin ključeva pomoću lozinke, koji se naročito koristi za obezbeđivanje papirnih novčanika.
 ---
 
 Predlog za poboljšanje Bitcoin koji uvodi mehanizam enkripcije kako bi se dodala dodatna zaštita privatnim ključevima putem passphrase. BIP38 osigurava da čak i ako treća strana fizički dobije šifrovani privatni ključ, ne može ga koristiti bez poznavanja njegovog passphrase. Ovo dodaje dodatni Layer sigurnosti za zaštitu bitkoina od krađe, posebno za sigurnost starih papirnih novčanika.

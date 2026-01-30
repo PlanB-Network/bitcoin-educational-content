@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition: Opkod koji nameće apsolutno vremensko ograničenje za trošenje UTXO-a.
 ---
 
 Čini transakciju nevažećom osim ako svi ovi uslovi nisu ispunjeni:

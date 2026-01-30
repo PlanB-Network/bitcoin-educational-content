@@ -1,6 +1,7 @@
 ---
-term: FILTRO DE FLORACIÓN
+term: Filtro Bloom
 
+definition: Estructura de datos probabilística que permite probar rápidamente la pertenencia a un conjunto, utilizada en los monederos SPV.
 ---
 Estructura de datos probabilística utilizada para comprobar si un elemento forma parte de un conjunto. Los filtros de Bloom permiten comprobar rápidamente la pertenencia a un conjunto de datos sin necesidad de comprobarlo en su totalidad. Son especialmente útiles en contextos en los que el espacio y la velocidad son críticos, pero se acepta una tasa de error baja y controlada. De hecho, los filtros de Bloom no producen falsos negativos, pero sí una cierta cantidad de falsos positivos. Cuando se añade un elemento al filtro, varias funciones hash generan posiciones en una matriz de bits. Para comprobar la pertenencia, se utilizan las mismas funciones hash. Si se establecen todos los bits correspondientes, el elemento está probablemente en el conjunto, pero con riesgo de falsos positivos. Los filtros de Bloom se utilizan ampliamente en el campo de las bases de datos y las redes. Es especialmente conocido que Google los utiliza para su sistema de gestión de bases de datos comprimidas *BigTable*. En el protocolo Bitcoin, se utilizan especialmente para los monederos SPV según BIP37.
 

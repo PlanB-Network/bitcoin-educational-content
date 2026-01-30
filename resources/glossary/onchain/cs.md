@@ -1,5 +1,6 @@
 ---
-term: ON-CHAIN
+term: On-chain
 
+definition: Transakce zaznamenané přímo na blockchainu Bitcoinu.
 ---
 Vztahuje se na transakce zaznamenané přímo v blockchainu bitcoinu. Tento termín kontrastuje s pojmem "off-chain", který označuje operace, které jsou více či méně spojeny s bitcoinovým blockchainem, ale probíhají mimo hlavní blockchain.

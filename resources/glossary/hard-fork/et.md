@@ -1,6 +1,7 @@
 ---
-term: HARD FORK
+term: Hard fork
 
+definition: Protokolli muudatus, mis ei ole tagasiulatuv ja põhjustab võrgustiku püsiva hargnemise.
 ---
 Protokollireeglite muutmine viisil, mis ei ole tagasiulatuvalt ühilduv. See muudatus toob kaasa Bitcoini võrgusõlmede püsiva eraldamise kahte erinevasse rühma: uuendusega sõlmed ja ilma uuenduseta sõlmed. See jagunemine materialiseerub algse plokiahela jagunemisega kaheks eraldi plokiahela, millel on aga ühine ajalugu, mistõttu kasutatakse terminit "fork", mida saab prantsuse keelde tõlkida kui "embranchement, bifurcation"
 

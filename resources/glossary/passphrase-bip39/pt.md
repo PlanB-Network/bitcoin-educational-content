@@ -1,6 +1,7 @@
 ---
-term: PASSPHRASE (BIP39)
+term: Passphrase (BIP39)
 
+definition: Palavra-passe opcional adicionada à frase de recuperação para proteger uma carteira HD.
 ---
 Uma senha opcional que, quando combinada com a frase de recuperação, fornece uma camada adicional de segurança para carteiras Bitcoin determinísticas e hierárquicas. As carteiras HD são normalmente geradas a partir de uma frase de recuperação composta por 12 ou 24 palavras. Esta frase de recuperação é muito importante, pois permite a restauração de todas as chaves de uma carteira em caso de perda. No entanto, constitui um ponto único de falha (SPOF). Se for comprometida, os bitcoins ficam em risco. É aqui que entra a frase-passe. Trata-se de uma palavra-passe opcional, escolhida pelo utilizador, que é adicionada à frase de recuperação para aumentar a segurança da carteira. Não deve ser confundida com um código PIN ou uma palavra-passe comum, a frase-passe desempenha um papel na derivação de chaves criptográficas.
 

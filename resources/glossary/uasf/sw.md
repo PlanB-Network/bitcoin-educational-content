@@ -1,5 +1,6 @@
 ---
 term: UASF
+definition: Soft fork iliyoanzishwa na kutekelezwa na watumiaji wa mtandao kupitia nodi zao, bila kutegemea idhini ya wachimbaji.
 ---
 
 Kifupi cha "*Iliyoamilishwa na Mtumiaji Soft Fork*". Inaelezea Soft Fork katika Bitcoin inapoanzishwa na kutekelezwa na watumiaji wa mtandao kupitia nodi zao, bila kutegemea idhini ya Miner. Nodi za mtandao husasisha programu zao ili kupitisha sheria mpya za Soft Fork, na kuruhusu chips kuanguka popote wanaweza!

@@ -1,5 +1,6 @@
 ---
-term: HRP (ČOVEKU ČITLJIV DEO)
+term: Hrp (human readable part)
+definition: Čitljiv prefiks bech32 adresa koji omogućava identifikaciju tipa Bitcoin adrese.
 ---
 
 HRP, što znači "Human Readable Part," je komponenta bech32 i bech32m (SegWit v0 i SegWit v1) adresa za primanje. HRP se odnosi na deo Address koji je posebno formatiran da bude lako čitljiv i razumljiv ljudima. Uzmimo, na primer, bech32 Bitcoin Address:

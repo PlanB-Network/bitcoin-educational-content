@@ -1,5 +1,6 @@
 ---
-term: BYZANTINE GENERALS PROBLEM
+term: Byzantine generals problem
+definition: Problem illustrating the challenges of coordination in a distributed system where actors cannot trust each other.
 ---
 
 The problem was first formulated by Leslie Lamport, Robert Shostak, and Marshall Pease in the specialized magazine *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) in July 1982. It is used today to illustrate the challenges of decision-making in a distributed system where no participant can be fully trusted.

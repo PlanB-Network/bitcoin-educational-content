@@ -1,5 +1,6 @@
 ---
-term: AVG. ROUND DURATION
+term: Average round duration
+definition: Indicateur estimant le temps moyen nécessaire à une pool de minage pour trouver un bloc, basé sur sa puissance de calcul et la difficulté du réseau.
 ---
 
 La durée moyenne de tour est un indicateur utilisé pour estimer le temps nécessaire à une pool de minage pour trouver un bloc, en fonction de la difficulté du réseau et du hashrate de la pool. Il est calculé en prenant le nombre de shares attendues pour trouver un bloc et en le divisant par le hashrate de la pool. Par exemple, si une pool de minage compte 200 mineurs, et que chacun génère en moyenne 4 shares par seconde, la puissance totale de calcul de la pool est de 800 shares par seconde :

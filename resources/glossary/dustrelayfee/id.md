@@ -1,6 +1,7 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
 
+definition: Parameter node yang menentukan tarif biaya yang digunakan untuk menghitung batas debu.
 ---
 Aturan standardisasi yang digunakan oleh node jaringan untuk menentukan apa yang mereka anggap sebagai "batas debu". Parameter ini menetapkan tingkat biaya dalam satuan per kilobyte virtual (sats/kvB) yang berfungsi sebagai referensi untuk menghitung jika nilai UTXO kurang dari biaya yang diperlukan untuk menyertakannya dalam sebuah transaksi. Memang, UTXO dianggap sebagai "debu" pada Bitcoin jika membutuhkan lebih banyak biaya untuk ditransfer daripada nilai yang diwakilinya. Perhitungan batas ini adalah sebagai berikut:
 

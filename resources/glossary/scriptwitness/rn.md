@@ -1,5 +1,6 @@
 ---
-term: ICABONA C'INYANDITSWE
+term: Scriptwitness
+definition: Icakoreshwa ca SegWit kirimwo ibigikumu n'indapi z'icese zo kwugurura abitcoin.
 ---
 
 Ikintu kiri mu nyandiko z’ibikorwa vya SegWit kirimwo imikono n’imfunguruzo za bose zikenewe kugira ngo umuntu afungure ama bitcoins yoherejwe mu bikorwa. Kimwe na `scriptSig` y'ibikorwa vy'Iragi, `scriptWitness`, ariko, ntishirwa ahantu hamwe. Nkako, ni iki gice, citwa "witness" (`*witness*` mu congereza), kijanwa mu rutonde rw'amakuru rwitandukanye kugira ngo gitorere umuti ingorane y'uguhinduranya ibikorwa. Buri nzira ya SegWit ifise `Icabona` cayo, kandi `Icabona` cose Elements hamwe gikora `Icabona` c'umurima w'ibikorwa.

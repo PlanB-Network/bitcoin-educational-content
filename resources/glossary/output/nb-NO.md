@@ -1,5 +1,6 @@
 ---
-term: OUTPUT
+term: Output
+definition: Transaksjonsutgang som oppretter en ny UTXO ment for en adresse.
 ---
 
 I Bitcoin-sammenheng refererer en utgang i en transaksjon til _Unspent Transaction Outputs_ (UTXOs) som opprettes som destinasjonsmidler for betaling. Mer presist er det en mekanisme som en transaksjon bruker til å distribuere midler. En transaksjon tar UTXO-er, dvs. bitcoins, som "input" og skaper nye UTXO-er som "output". Disse utgangene angir en viss mengde bitcoins, ofte allokert til en spesifikk Address, samt vilkårene for hvordan disse midlene kan brukes på et senere tidspunkt.

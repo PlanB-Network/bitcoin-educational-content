@@ -1,6 +1,7 @@
 ---
-term: BLOCK
+term: Icitunza
 
+definition: Imitako y'amakuru irimwo ivunjisha ryemejwe n'amakuru y'ivyo bice, yunganirwa n'ibindi bice biciye muri hachage.
 ---
 
 Uburyo bw’amakuru muri sisitemu ya Bitcoin. Igipande kirimwo urutonde rw'ibikorwa vy'ukuri hamwe n'amakuru y'imbere abitswe mu mutwe waco. Buri block ihuzwa n’iyibanjirije mu gushiramwo hash y’umutwe w’iyibanjirije, igahingura blockchain.

@@ -1,5 +1,6 @@
 ---
 term: BIP0330
+definition: Erlay, itunganywa ry'ikwirakwizwa ry'ivunjisha rigabanya ikoreshwa ry'umuyoboro hafi 40%.
 ---
 
 Iciyumviro kizwi nka "*Erlay*", kigamije gutuma amafaranga ataremejwe akwiragizwa neza mu rubuga rwa Bitcoin.

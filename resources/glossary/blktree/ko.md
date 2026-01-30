@@ -1,5 +1,6 @@
 ---
-term: BLKTREE/
+term: Blktree/
+definition: 버전 0.8.0 이후 blocks/index/로 교체된 블록 메타데이터용 이전 Bitcoin Core 폴더.
 ---
 
 Bitcoin core에서 모든 블록의 메타데이터를 카탈로그화하는 데 사용된 이전 폴더의 이름입니다. 버전 0.8.0에서 블록/index/ 폴더로 대체되었습니다.

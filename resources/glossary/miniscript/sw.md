@@ -1,11 +1,12 @@
 ---
-term: WAZIRI
+term: Miniscript
+definition: Mfumo unaorahisisha uundaji, uchanganuzi na uthibitishaji wa hati za Bitcoin.
 ---
 
 Mfumo ulioundwa ili kutoa mfumo wa hati za kupanga programu kwa usalama kwenye Bitcoin. Lugha ya asili ya Bitcoin inaitwa script. Ni ngumu sana kutumia katika mazoezi, haswa kwa programu za kisasa na zilizobinafsishwa. Zaidi ya yote, ni vigumu sana kuthibitisha mapungufu ya hati. Hati ndogo hutumia sehemu ndogo ya hati za Bitcoin ili kurahisisha uundaji, uchanganuzi na uthibitishaji wake. Kila hati ndogo ni sawa na 1 kwa 1 yenye hati asili. Lugha ya sera ifaayo kwa mtumiaji inatumiwa, ambayo kisha inakusanywa katika hati fupi, ili hatimaye kuendana na hati asili.
 
 
-![](../../dictionnaire/assets/30.webp)
+
 
 
 Kwa hivyo hati ndogo huruhusu wasanidi kuunda hati za kisasa kwa njia salama na ya kuaminika zaidi. Sifa muhimu za Miniscript ni kama ifuatavyo:

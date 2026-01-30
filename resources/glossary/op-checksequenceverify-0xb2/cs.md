@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
+definition: Opkód ukládající relativní časové omezení na utracení UTXO.
 ---
 Transakce je neplatná, pokud je zjištěn některý z těchto znaků:
 

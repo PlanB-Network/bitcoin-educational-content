@@ -1,5 +1,6 @@
 ---
-term: RBF (Replace-by-fee)
+term: RBF (replace-by-fee)
+definition: Mechanizm pozwalający na zastąpienie niepotwierdzonej transakcji inną z wyższą opłatą.
 ---
 
 Mechanizm transakcyjny, który pozwala nadawcy zastąpić jedną transakcję inną, płacąc wyższe opłaty, aby przyspieszyć jej potwierdzenie. Jeśli transakcja ze zbyt niskimi opłatami utknie, nadawca może użyć *Replace-by-fee*, aby zwiększyć opłaty i nadać priorytet transakcji zastępczej w mempoolach.

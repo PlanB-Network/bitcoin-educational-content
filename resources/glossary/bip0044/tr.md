@@ -1,5 +1,6 @@
 ---
 term: BIP0044
+definition: HD cüzdanlar için türetme yollarının tam yapısını tanımlayan standart purpose, coin_type, account, change ve address_index.
 ---
 
 HD cüzdanları için standart bir hiyerarşik türetme yapısı sunan bir iyileştirme önerisi. BIP44, anahtar türetme için BIP32 ve "amaç" alanının kullanımı için BIP43 tarafından oluşturulan ilkeler üzerine inşa edilmiştir. Beş seviyeli bir türetme yapısı sunar: `m / purpose' / coin_type' / account' / change / address_index`. İşte her bir derinliğin ayrıntıları:

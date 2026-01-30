@@ -1,5 +1,6 @@
 ---
-term: ATOMIC SWAP
+term: Atomic swap
+definition: En utbyte av kryptovalutor mellan två parter utan en pålitlig mellanhand, där utbytet antingen lyckas helt eller avbryts helt.
 ---
 
 Teknik som möjliggör direkt Exchange av kryptovalutor mellan två parter, utan behov av förtroende och utan att kräva en mellanhand. Dessa utbyten kallas "atomära" eftersom de bara kan resultera i två resultat:

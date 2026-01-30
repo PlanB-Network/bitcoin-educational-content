@@ -1,6 +1,7 @@
 ---
-term: DERIVATION
+term: Derivaatio
 
+definition: Prosessi, jossa luodaan lapsiavaimia emoavainparista HD-lompakossa.
 ---
 Tarkoittaa prosessia, jossa vanhemman avainparin (yksityinen avain ja julkinen avain) ja ketjukoodin avulla luodaan lapsiavainpareja deterministisessä ja hierarkkisessa (HD) lompakossa. Tämä prosessi mahdollistaa haarojen segmentoinnin ja lompakon organisoinnin eri tasoihin, joissa on lukuisia lapsiavainpareja, jotka kaikki voidaan palauttaa tuntemalla vain palautuksen perustiedot (muistilauseke ja mahdollinen salasana). Lapsiavaimen johtamiseksi käytetään `HMAC-SHA512`-funktiota, jossa on vanhemman ketjun koodi ja vanhemman avaimen ja 32-bittisen indeksin ketjutus. Johdannaisia on kahdenlaisia:
 

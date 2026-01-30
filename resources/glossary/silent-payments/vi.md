@@ -1,6 +1,7 @@
 ---
-term: SILENT PAYMENTS
+term: Silent payments
 
+definition: Phương pháp nhận thanh toán qua địa chỉ tĩnh mà không cần tái sử dụng địa chỉ.
 ---
 Method for using static Bitcoin addresses to receive payments without address reuse, without interaction, and without a visible on-chain link between the different payments and the static address. This technique eliminates the need to generate new, unused receiving addresses for each transaction, thus avoiding the usual interactions in Bitcoin where the recipient must provide a new address to the payer.
 

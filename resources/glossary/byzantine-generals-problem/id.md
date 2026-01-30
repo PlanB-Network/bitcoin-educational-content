@@ -1,6 +1,7 @@
 ---
-term: MASALAH PARA JENDERAL BIZANTIUM
+term: Masalah jenderal Bizantium
 
+definition: Masalah yang menggambarkan tantangan koordinasi dalam sistem terdistribusi di mana para aktor tidak dapat saling percaya.
 ---
 Masalah ini pertama kali dirumuskan oleh Leslie Lamport, Robert Shostak, dan Marshall Pease dalam majalah khusus *ACM Transactions on Programming Languages and Systems, vol 4, no. 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) pada bulan Juli 1982. Hal ini digunakan saat ini untuk mengilustrasikan tantangan dalam hal pengambilan keputusan ketika sistem terdistribusi tidak dapat mempercayai aktor mana pun.
 

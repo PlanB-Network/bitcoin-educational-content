@@ -1,6 +1,7 @@
 ---
-term: BITCOIN POOLED MINING (BPM)
+term: Bitcoin pooled mining (BPM)
 
+definition: Phương pháp tính toán phần thưởng trong các pool định giá các cổ phần (shares) dựa trên thời gian đã trôi qua trong chu kỳ.
 ---
 Another name given to the "SCORE BASED METHOD" for calculating miners' compensation within mining pools. It's a proportional reward method, but weighted by the time at which the share is submitted. BPM values shares based on the time elapsed since the beginning of the mining cycle. The later a share is submitted in the cycle, the higher its value. This method encourages miners to stay because each time they stop mining, their score stagnates while those of others increase more rapidly.
 

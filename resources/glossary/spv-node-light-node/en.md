@@ -1,5 +1,6 @@
 ---
-term: SPV NODE (LIGHT NODE)
+term: SPV node (light node)
+definition: Light client that validates transactions by only storing block headers and verifying Merkle proofs.
 ---
 
 An SPV (*Simple Payment Verification*) node, sometimes called a "light node," is a lightweight client of a Bitcoin node that allows users to validate transactions without having to store the entire blockchain. Instead, an SPV node only stores the block headers and obtains information about specific transactions by querying full nodes when necessary. This verification principle is made possible by the structure of transactions in Bitcoin blocks, which are organized within a cryptographic accumulator (Merkle Tree).

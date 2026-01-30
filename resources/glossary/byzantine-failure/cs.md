@@ -1,6 +1,7 @@
 ---
-term: BYZANTSKÉ SELHÁNÍ
+term: Byzantská chyba
 
+definition: Chování systému, který nedodržuje své specifikace, což může být přirozené nebo úmyslné.
 ---
 Byzantní selhání nebo byzantní chování označuje jakékoliv chování systému, které není v souladu s jeho vlastními specifikacemi a vede k neshodným výsledkům.
 

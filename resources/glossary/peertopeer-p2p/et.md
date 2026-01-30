@@ -1,6 +1,7 @@
 ---
-term: PEER-TO-PEER (P2P)
+term: Võrdõigusvõrk (P2P)
 
+definition: Suhtlusmudel, kus osalejad vahetavad teavet otse ilma tsentraliseeritud vahendajata.
 ---
 Viitab kommunikatsiooni- ja andmejagamise mudelile, milles osalejad, keda sageli nimetatakse sõlmedeks või võrdseteks osapoolteks, jagavad oma ressursse (näiteks faile, töötlemisvõimsust, ribalaiust, vara...) otse omavahel, ilma et oleks vaja tsentraliseeritud vahendajat. P2P-süsteemis tegutseb iga osaleja samaaegselt kliendi (ressursside tarbija) ja serverina (ressursside pakkuja).
 

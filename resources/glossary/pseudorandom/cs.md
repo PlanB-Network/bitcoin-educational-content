@@ -1,6 +1,7 @@
 ---
-term: PSEUDO-RANDOM
+term: Pseudonáhodný
 
+definition: Sekvence čísel generovaná deterministicky s vlastnostmi blízkými náhodnosti.
 ---
 Toto přídavné jméno se používá k popisu posloupnosti čísel, která je sice výsledkem deterministického procesu, ale vykazuje vlastnosti blízké vlastnostem ideální skutečně náhodné posloupnosti. Pojem ideální náhodnosti předpokládá naprostou absenci předvídatelnosti a korelace mezi po sobě jdoucími prvky. Pseudonáhodné číslo je generováno deterministickým algoritmem, a proto je teoreticky zcela předvídatelné, pokud známe počáteční stav generátoru.
 

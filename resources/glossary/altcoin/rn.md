@@ -1,5 +1,6 @@
 ---
 term: Altcoin
+definition: Ubutangazamahoro bukiruruko kuri kuri Bitcoin. Impoza y'alternative na coin.
 ---
 
-Yerekeza ku mafaranga yose y’ivy’ubuhinga bwa none atari Bitcoin (BTC). Ijambo "Altcoin" ni uguca bugufi kw'ijambo "ubundi buryo" na "Coin" (ubundi buryo Coin). Bamwe mu ba Maximalist Bitcoins na bo nyene bakoresha ijambo "shitcoins" kugira ngo bavuge amahera y'ibindi.
+Ivuga buri cryptocurrency itari bitcoin (BTC). Ijambo "altcoin" ni ihuriro rya "alternative" na "coin". Bamwe mu bashingira gusa kuri bitcoin na bo bakoresha ijambo "shitcoins" bashaka kuvuga altcoins.

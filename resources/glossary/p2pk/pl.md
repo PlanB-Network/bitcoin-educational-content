@@ -1,5 +1,6 @@
 ---
 term: P2PK
+definition: Skrypt blokujący bitcoiny bezpośrednio na kluczu publicznym bez hashowania.
 ---
 
 P2PK to skrót od *Pay to Public Key*. Jest to standardowy model skryptu używany na Bitcoin do ustalania warunków wydawania na UTXO. Pozwala on na blokowanie bitcoinów bezpośrednio na kluczu publicznym, a nie na Address.

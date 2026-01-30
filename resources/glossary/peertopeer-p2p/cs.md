@@ -1,6 +1,7 @@
 ---
-term: PEER-TO-PEER (P2P)
+term: Peer-to-peer (P2P)
 
+definition: Komunikační model, ve kterém si účastníci vyměňují informace přímo bez centralizovaného zprostředkovatele.
 ---
 Označuje model komunikace a distribuce dat, v němž účastníci, často nazývaní uzly nebo peers, sdílejí své zdroje (jako jsou soubory, výpočetní výkon, šířka pásma, aktiva...) přímo mezi sebou, bez potřeby centralizovaného prostředníka. V systému P2P vystupuje každý účastník současně jako klient (spotřebitel zdrojů) a server (poskytovatel zdrojů).
 

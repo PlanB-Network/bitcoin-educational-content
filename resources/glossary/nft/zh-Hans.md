@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition: 被解释为不可替代并通过协议与外部资产关联的比特币单位。
 ---
 
 NFT 是 *Non-Fungible Token* 的缩写。NFT 代表 Bitcoin 的一个单位，第二代 Layer 协议的用户将其解释为不可篡改，并与 Bitcoin 外部资产（如图像或其他类型的数据）的 Ownership 相关联。

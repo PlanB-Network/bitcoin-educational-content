@@ -1,5 +1,6 @@
 ---
-term: यूपीयूबी
+term: UPUB
+definition: Bitcoin Testnet पर Nested SegWit खातों के लिए विस्तारित सार्वजनिक कुंजी उपसर्ग।
 ---
 
 Bitcoin Testnet पर नेस्टेड SegWit खातों के लिए विस्तारित सार्वजनिक कुंजी उपसर्ग।

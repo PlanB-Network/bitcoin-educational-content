@@ -1,5 +1,6 @@
 ---
-term: AATOMILISED MITMEPOOLSED MAKSED
+term: Atomic multi-path payments
+definition: Lightning'i multiraja maksete täiustatud versioon, kus igal fragmendil on erinev saladus, garanteerides et makse on täielikult lahendatud või üldse mitte.
 ---
 
 MPP (*Multi-Path Payments*) täiustatud versioon, kus igal maksefragmendil on eraldi osaline saladus, mis tagab, et tehing arveldatakse aatomiliselt, st kas täies ulatuses või üldse mitte.

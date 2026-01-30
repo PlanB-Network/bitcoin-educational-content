@@ -1,6 +1,7 @@
 ---
-term: HASHCASH
+term: Hashcash
 
+definition: Adam Backin vuonna 1997 suunnittelema työntodistejärjestelmä, Bitcoinin louhintamekanismin edeltäjä.
 ---
 HashCash on Adam Backin vuonna 1997 suunnittelema proof-of-work-järjestelmä roskapostin ja DoS-hyökkäysten torjumiseksi. Se perustuu periaatteeseen, jonka mukaan lähettäjän on suoritettava laskutehtävä (erityisesti löydettävä osittainen törmäys kryptografisessa hash-funktiossa) todistaakseen työnsä. Tehtävä on lähettäjälle aikaa ja energiaa vievä, mutta vastaanottaja voi todentaa tuloksen nopeasti ja yksinkertaisesti. Tämä protokolla on osoittautunut erityisen sopivaksi roskapostin torjuntaan sähköpostiviestinnässä, sillä se on mahdollisimman vähän rasittavaa laillisille käyttäjille ja muodostaa samalla merkittävän esteen roskapostittajille. Yhden sähköpostiviestin lähettäminen vaatii muutaman sekunnin laskennan, mutta tämän operaation toistaminen miljoonia kertoja tulee erittäin kalliiksi energian ja ajan suhteen, mikä usein mitätöi roskapostikampanjoiden taloudelliset edut, olivatpa ne sitten markkinointitarkoituksessa tai ilkivaltaisia. Lisäksi se mahdollistaa lähettäjän anonymiteetin säilyttämisen.
 

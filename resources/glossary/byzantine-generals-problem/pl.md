@@ -1,5 +1,6 @@
 ---
-term: PROBLEM GENERAŁÓW BIZANTYJSKICH
+term: Problem generałów bizantyjskich
+definition: Problem ilustrujący wyzwania związane z koordynacją w systemie rozproszonym, w którym uczestnicy nie mogą sobie ufać.
 ---
 
 Problem ten został po raz pierwszy sformułowany przez Leslie Lamporta, Roberta Shostaka i Marshalla Pease'a w specjalistycznym czasopiśmie *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) w lipcu 1982 roku. Jest on dziś używany do zilustrowania wyzwań w zakresie podejmowania decyzji, gdy system rozproszony nie może zaufać żadnemu aktorowi.

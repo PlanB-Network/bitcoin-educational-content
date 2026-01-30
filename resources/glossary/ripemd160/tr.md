@@ -1,5 +1,6 @@
 ---
 term: RIPEMD160
+definition: 160 bitlik bir özet oluşturan ve Bitcoin adresleri için kullanılan kriptografik karma işlevi.
 ---
 
 Avrupa'da İleri İletişim Teknolojilerinde Araştırma ve Geliştirme Bütünlük İlkelleri Değerlendirme Mesaj Özeti **160** kısaltması. Rastgele bir girdiden 160 bitlik bir özet üreten kriptografik bir Hash işlevidir. Bitcoin'de bir açık anahtarı Eski ve SegWit v0 standartları için bir alıcı Address'a dönüştürmek için kullanılır (SegWit v1 için açık anahtar hashlenmez). İşlem ilk olarak `SHA256` Hash fonksiyonunun açık anahtara uygulanmasını ve ardından sonuç üzerinde `RIPEMD160` uygulamasını içerir. İki farklı Hash işlevinin bu kombinasyonu Bitcoin bağlamında `HASH160` olarak bilinir. `RIPEMD160` ayrıca deterministik ve hiyerarşik cüzdanlarda anahtar parmak izlerini hesaplamak için kullanılır. Özellikle, `HASH160` bir üst ana

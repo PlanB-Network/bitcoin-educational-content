@@ -1,5 +1,6 @@
 ---
-term: BUỘC ĐÓNG
+term: Đóng cưỡng bức
+definition: Đóng đơn phương một kênh Lightning bằng cách phát sóng giao dịch cam kết có chữ ký cuối cùng.
 ---
 
 Cơ chế đóng kênh Lightning không hợp tác. Khi hai người dùng mở một kênh bằng Multisig 2/2, mỗi người có thể đơn phương đóng kênh bằng cách phát Commitment Transaction cuối cùng đã được ký, để khôi phục bitcoin trên chuỗi của họ. Điều này được gọi là "buộc đóng".

@@ -1,5 +1,6 @@
 ---
-term: RAÍZ DE MERKLE
+term: Raíz de Merkle
 
+definition: Hash único que resume todas las transacciones de un bloque, incluido en la cabecera del bloque.
 ---
 Resumen o "top hash" de un árbol de Merkle, que representa un resumen de toda la información presente en el árbol. Un árbol de Merkle es una estructura de acumulación criptográfica, a veces también llamada "árbol de hash". En el contexto de Bitcoin, los árboles de Merkle se utilizan para organizar las transacciones dentro de un bloque y facilitar la rápida verificación de la inclusión de una transacción específica. Así, en los bloques de Bitcoin, la raíz de Merkle se obtiene aplicando sucesivamente hash a las transacciones de dos en dos hasta que sólo queda un hash (la raíz de Merkle). Éste se incluye en la cabecera del bloque correspondiente. Este árbol hash también se encuentra en UTREEXO, una estructura que permite condensar el conjunto de nodos UTXO, y en la MAST Taproot.

@@ -1,6 +1,7 @@
 ---
-term: DNS SEEDS
+term: Dns seeds
 
+definition: DNS servery poskytující IP adresy aktivních uzlů novým uzlům připojujícím se k síti Bitcoin.
 ---
 Počáteční body připojení pro nové uzly Bitcoin, které se připojují k síti. Tato semena, což jsou vlastně specifické servery DNS, mají svou adresu trvale zabudovanou v kódu jádra bitcoinu. Když se nový uzel spustí, kontaktuje tyto servery, aby získal náhodný seznam IP adres pravděpodobně aktivních uzlů Bitcoinu. Nový uzel pak může navázat spojení s uzly na tomto seznamu a získat informace potřebné k provedení počátečního stažení bloku (IBD) a synchronizaci s řetězcem, který má nejvíce nahromaděné práce. Od roku 2024 je zde seznam DNS semen Bitcoin Core a osob odpovědných za jejich údržbu (https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp):
 

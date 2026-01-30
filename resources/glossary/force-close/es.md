@@ -1,5 +1,6 @@
 ---
-term: CIERRE FORZOSO
+term: Cierre forzoso
+definition: Cierre unilateral de un canal Lightning mediante la difusión de la última transacción de compromiso firmada.
 ---
 
 Mecanismo no cooperativo de cierre de canales Lightning. Cuando dos usuarios abren un canal con un Multisig 2/2, cada uno de ellos puede cerrar unilateralmente el canal emitiendo el último Commitment Transaction ya firmado, para recuperar sus bitcoins onchain. Esto se conoce como "cierre forzado".

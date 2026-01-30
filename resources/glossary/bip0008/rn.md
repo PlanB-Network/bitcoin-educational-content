@@ -1,5 +1,6 @@
 ---
 term: BIP0008
+definition: Uburyo bwo gushira mu ngiro soft forks burimwo uburyo bwiikora bwa UASF mu gihe abaminezi batashikirije ko bashigikiye mu gihe bahawe.
 ---
 
 Yateguwe hakurikijwe impaka ku SegWit, yakoresheje BIP9 mu gukora kwayo, BIP8 ni uburyo bwo gukora Soft Fork bushiramwo uburyo bwikora bwa UASF (*User-Activated Soft Fork*). Cokimwe na BIP9, BIP8 ikoresha ikimenyetso ca Miner ariko yongerako `LOT` (*Igihe co Gufunga*) parameter. Iyo `LOT` ishizwe kuri `ukuri`, igihe igihe co gutanga ikimenyetso kirangiye kitashitse ku rugero rukenewe, UASF iratangura gukora, igatuma Soft Fork ikora. Ubu buryo butera umukazo abacukuzi: bafatanye canke bashire mu kaga Soft Fork ikoreshwa n'abakoresha.

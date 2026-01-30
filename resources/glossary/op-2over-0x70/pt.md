@@ -1,6 +1,7 @@
 ---
 term: OP_2OVER (0X70)
 
+definition: Opcode que copia o 3º e o 4º elementos da pilha para o topo.
 ---
 Copia os dois elementos que estão na quarta e terceira posições a partir do topo da pilha e, em seguida, coloca-os no topo da pilha. Por exemplo, se a pilha for:
 

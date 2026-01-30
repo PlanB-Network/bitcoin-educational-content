@@ -1,6 +1,7 @@
 ---
-term: FEE SNIPING
+term: Fee sniping
 
+definition: Angriff, bei dem Miner einen kürzlich erstellten Block umschreiben, um dessen hohe Transaktionsgebühren zu kassieren.
 ---
 Ein Angriffsszenario, bei dem Miner versuchen, einen kürzlich bestätigten Block umzuschreiben, um die darin enthaltenen Transaktionsgebühren einzufordern, während sie gleichzeitig Transaktionen mit hohen Gebühren hinzufügen, die in der Zwischenzeit in den Mempool gelangt sind. Das ultimative Ziel dieses Angriffs besteht für die Miner darin, ihre Rentabilität zu steigern. Fee Sniping kann zunehmend profitabel werden, wenn die Blockbelohnung sinkt und die Transaktionsgebühren einen größeren Teil der Einnahmen der Miner ausmachen. Es kann auch von Vorteil sein, wenn die Gebühren im vorherigen Block deutlich höher sind als die im nächstbesten Kandidatenblock. Vereinfacht gesagt, steht der Miner vor dieser Wahl, was die Anreize angeht:
 

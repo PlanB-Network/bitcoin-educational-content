@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: Hợp đồng thông minh điều kiện hóa việc chuyển tiền dựa trên việc tiết lộ một bí mật trong một thời hạn nhất định.
 ---
 
 Viết tắt của "*Hashed Timelock Contract*". Đây là cơ chế Smart contract chủ yếu được sử dụng trên Lightning. Đôi khi cũng được tìm thấy trong các giao dịch hoán đổi nguyên tử. Về cơ bản, HTLC khiến việc chuyển tiền có điều kiện là phải tiết lộ bí mật và cũng bao gồm điều kiện về thời gian để bảo vệ tiền của người gửi trong trường hợp giao dịch không thành công.

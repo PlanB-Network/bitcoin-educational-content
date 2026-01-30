@@ -1,5 +1,6 @@
 ---
-term: Bitcoin ALTIN (BTG)
+term: Bitcoin Gold (BTG)
+definition: Bitcoin'in 2017'deki bir hard fork'undan doğan ve ASIC'lere karşı dirençli bir madencilik algoritması kullanan kripto para birimi.
 ---
 
 Kripto para sistemi, 24 Ekim 2017'de 491.407 numaralı blokta meydana gelen Bitcoin'ün (BTC) Hard Fork'sinden oluşturulmuştur. Fork, Bitcoin'ün gittiği yönden memnun olmayan bir grup geliştirici ve yatırımcı tarafından, özellikle de Mining gücünün ASIC kullanan birkaç büyük çiftliğin elinde giderek yoğunlaşmasıyla ilgili olarak başlatıldı. Bitcoin Gold, ASIC'lere karşı dirençli olan ve bu nedenle grafik kartları (GPU) ile Mining'ü tercih eden Equihash adlı yeni bir Proof-of-Work algoritması kullanarak Mining sürecini demokratikleştirmeyi amaçladı. Amaç, Mining'e katılımı daha fazla sayıda insan için erişilebilir hale getirerek süreci merkezsizleştirmek ve merkezileşme ile ilişkili riskleri azaltmaktı. BTG başlangıçta Zcash (ZEC) ile aynı Mining algoritmasını kullandı. Daha sonra bunu biraz değiştirerek Equihash'i yarattılar.

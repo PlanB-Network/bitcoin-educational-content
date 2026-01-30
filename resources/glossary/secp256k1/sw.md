@@ -1,5 +1,6 @@
 ---
 term: SECP256K1
+definition: Mkunjo wa duaradufu unaotumiwa kwenye Bitcoin kwa saini za kidijitali za ECDSA na Schnorr.
 ---
 
 Jina lililopewa mkunjo mahususi wa duara unaotumika katika itifaki ya Bitcoin kwa ajili ya utekelezaji wa ECDSA (*Algoriti ya Sahihi ya Elliptic Curve Digital*) na algoriti za sahihi za dijiti za Schnorr. Mviringo wa `secp256k1` ulichaguliwa na mvumbuzi wa Bitcoin, Satoshi Nakamoto. Ina baadhi ya mali ya kuvutia, hasa faida ya utendaji.

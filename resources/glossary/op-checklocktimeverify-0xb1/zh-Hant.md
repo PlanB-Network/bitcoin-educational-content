@@ -1,5 +1,6 @@
 ---
-term: op_checklocktimeverify (0xb1)
+term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition: 對花費UTXO施加絕對時間限制的操作碼。
 ---
 
 使交易無效，除非符合所有這些條件：

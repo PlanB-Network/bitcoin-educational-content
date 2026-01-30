@@ -1,5 +1,6 @@
 ---
-term: Pedersen commitment
+term: Impegno di Pedersen
+definition: Impegno crittografico omomorfo che consente la verifica delle somme senza rivelare i valori.
 ---
 
 Un Pedersen commitment è un tipo di Commitment crittografico con la proprietà di essere omomorfo all'operazione di addizione. Ciò significa che è possibile convalidare la somma di due impegni senza rivelare i singoli valori.

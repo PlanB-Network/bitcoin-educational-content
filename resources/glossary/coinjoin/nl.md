@@ -1,5 +1,6 @@
 ---
-term: CoinJoin
+term: Coinjoin
+definition: Mixing-techniek waarbij meerdere gebruikers hun transacties combineren om het traceren van bitcoins te bemoeilijken.
 ---
 
 CoinJoin is een techniek die wordt gebruikt om de traceerbaarheid van bitcoins te doorbreken. Het is gebaseerd op een collaboratieve transactie met een specifieke structuur met dezelfde naam: de CoinJoin transactie. CoinJoin transacties helpen de privacybescherming van Bitcoin gebruikers te verbeteren door het moeilijker te maken voor externe waarnemers om transacties te analyseren. Deze structuur maakt het mogelijk om meerdere munten in een enkele transactie te mengen, waardoor het moeilijk wordt om de links tussen in- en uitvoeradressen te bepalen.
@@ -8,7 +9,7 @@ CoinJoin is een techniek die wordt gebruikt om de traceerbaarheid van bitcoins t
 De algemene werking van CoinJoin is als volgt: verschillende gebruikers die willen mengen storten een bedrag als invoer van een transactie. Deze inputs komen eruit als verschillende outputs van hetzelfde bedrag. Aan het einde van de transactie is het onmogelijk om te bepalen welke uitgang bij welke gebruiker hoort. Er is technisch geen verband tussen de inputs en outputs van de CoinJoin transactie. De link tussen elke gebruiker en elke UTXO is verbroken, net zoals de geschiedenis van elke Coin dat is.
 
 
-![](../../dictionnaire/assets/4.webp)
+
 
 
 Om CoinJoin mogelijk te maken zonder dat een gebruiker op enig moment de controle over zijn geld verliest, wordt de transactie eerst samengesteld door een coördinator en vervolgens naar elke gebruiker verzonden. Elke gebruiker ondertekent dan de transactie aan zijn kant na te hebben geverifieerd dat deze bij hem past, en vervolgens worden alle handtekeningen aan de transactie toegevoegd. Als een gebruiker of de coördinator probeert het geld van anderen te stelen door de uitvoer van de CoinJoin transactie te wijzigen, dan zijn de handtekeningen ongeldig en wordt de transactie door de knooppunten afgewezen. Wanneer de registratie van de uitvoer van de deelnemers wordt gedaan met behulp van Chaum's blinde handtekeningen om de link met de invoer te vermijden, wordt dit "Chaumian CoinJoin" genoemd.
@@ -32,4 +33,3 @@ Maxwell, G. (2013, augustus 22). *CoinJoin: Bitcoin privacy voor de echte wereld
 Er zijn echter eerdere vermeldingen, zowel voor Chaum-handtekeningen in de context van mixen, als voor coinjoins. [In juni 2011 presenteert Duncan Townsend op BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) een mixer die Chaum-handtekeningen gebruikt op een manier die erg lijkt op moderne Chaumiaanse coinjoins. In dezelfde thread staat [een bericht van hashcoin in antwoord op Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) om zijn mixer te verbeteren. Dit bericht presenteert wat het meest lijkt op coinjoins. Er is ook een vermelding van een gelijkaardig systeem in [een bericht van Alex Mizrahi in 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), toen hij de makers van Tenebrix adviseerde. De term "CoinJoin" zelf is niet uitgevonden door Greg Maxwell, maar komt van een idee van Peter Todd.
 
 
-> *De term "CoinJoin" heeft geen Franse vertaling. Sommige bitcoiners gebruiken ook de termen "mix", "mengen", of "mixage" om te verwijzen naar de CoinJoin transactie. Mixen is eerder het proces dat gebruikt wordt in het hart van de CoinJoin. Het is ook belangrijk om mixen via coinjoins niet te verwarren met mixen via een centrale actor die tijdens het proces bezit neemt van de bitcoins. Dit heeft niets te maken met de CoinJoin waarbij de gebruiker de controle over zijn bitcoins niet verliest tijdens het proces.*

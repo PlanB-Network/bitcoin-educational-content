@@ -1,6 +1,7 @@
 ---
-term: HONGKONG ROUNDTABLE (香港圆桌会议)
+term: 香港圆桌会议
 
+definition: 2016 年 Bitcoin Core 开发人员与矿工之间关于系统可扩展性的历史性会议。
 ---
 2016年2月20日在香港举行的区块大小战争的历史性事件。这是 Bitcoin Core 开发者和矿工之间的一次重要会议，讨论系统的可扩展性和扩展策略。会前气氛十分紧张，特别是由于 Gavin Andressen 支持的硬分叉提案 Bitcoin Classic 的崛起，该提案旨在将区块大小增加到 2 MB。生态系统中具有影响力的人物参加了辩论，其中包括 Bitmain 的联合创始人吴忌寒和 Micree Zhan、Blockstream 的总裁 Adam Back 以及 Luke Dashjr、Matt Corallo 和 Peter Todd。
 

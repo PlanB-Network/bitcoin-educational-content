@@ -1,5 +1,6 @@
 ---
-term: ZELFSTANDIG Mining
+term: Selfish mining
+definition: Miningstrategie waarbij blokken geheim worden gehouden om een voorsprong te krijgen op andere miners.
 ---
 
 Strategie (of aanval) in Mining, waarbij een Miner of groep miners opzettelijk blokken met een geldige Proof of Work vasthoudt zonder ze onmiddellijk vrij te geven aan het netwerk. Het doel is om andere mijnwerkers voor te blijven in termen van Proof of Work, wat hen mogelijk in staat stelt om meerdere blokken na elkaar Miner te maken en ze allemaal tegelijk te publiceren, en zo hun winst te maximaliseren. Met andere woorden, de aanvallende groep mijners mijnt niet op het laatste blok dat door het hele netwerk is gevalideerd, maar op een blok dat ze zelf hebben gecreëerd en dat verschilt van het blok dat door het netwerk is gevalideerd.

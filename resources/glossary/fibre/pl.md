@@ -1,5 +1,6 @@
 ---
-term: WŁÓKNO
+term: Fibre
+definition: Protokół zaprojektowany w celu przyspieszenia rozprzestrzeniania bloków Bitcoin na całym świecie.
 ---
 
 Skrót od "*Fast Internet Bitcoin Relay Engine*". Jest to protokół zaprojektowany przez Matta Corallo w 2016 roku w celu przyspieszenia dystrybucji bloków Bitcoin na całym świecie. Jego celem było zmniejszenie opóźnień propagacji tak blisko fizycznych limitów, jak to tylko możliwe. FIBRE miał na celu zapewnienie bardziej sprawiedliwej dystrybucji możliwości Mining, upewniając się, że proporcja bloków wydobytych przez uczestnika dokładnie odzwierciedla jego wkład pod względem mocy obliczeniowej, niezależnie od jego pozycji w sieci.

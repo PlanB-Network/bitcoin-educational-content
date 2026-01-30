@@ -1,5 +1,6 @@
 ---
-term: INPUT
+term: Input
+definition: UTXO used as the source of funds in a Bitcoin transaction, referencing a previous output.
 ---
 
 In the context of Bitcoin, an input within a transaction refers to the UTXOs (*Unspent Transaction Outputs*) used as original funds to satisfy the outputs. Each input contains references to previous UTXOs, which will then be consumed by the transaction. These inputs are used to feed new UTXOs which will be created as outputs of the transaction, and which can then be spent in future transactions.

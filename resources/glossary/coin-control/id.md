@@ -1,6 +1,7 @@
 ---
-term: COIN CONTROL
+term: Coin control
 
+definition: Fitur yang memungkinkan pemilihan manual UTXO yang akan digunakan sebagai input untuk sebuah transaksi.
 ---
 Sebuah fitur yang terdapat pada beberapa perangkat lunak dompet Bitcoin yang memberikan kemampuan kepada pengguna untuk secara manual memilih UTXO (_Unspent Transaction Outputs_) tertentu untuk digunakan sebagai input untuk melakukan transaksi. Dengan kata lain, _coin control_ menawarkan kemungkinan untuk memilih secara tepat kepingan bitcoin mana yang akan digunakan dalam transaksi. Fungsionalitas ini mirip dengan tindakan memilih koin tertentu dari dompet Anda untuk membayar _baguette_.
 

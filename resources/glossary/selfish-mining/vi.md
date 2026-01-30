@@ -1,5 +1,6 @@
 ---
-term: ÍCH KỶ Mining
+term: Khai thác ích kỷ
+definition: Chiến lược khai thác giữ kín các khối để giành lợi thế so với các thợ đào khác.
 ---
 
 Chiến lược (hoặc tấn công) trong Mining, trong đó một Miner hoặc một nhóm thợ đào cố tình giữ các khối có Proof of Work hợp lệ mà không phát hành chúng ngay lập tức vào mạng. Mục đích là để đi trước các thợ đào khác về Proof of Work, có khả năng cho phép họ Miner nhiều khối liên tiếp và phát hành tất cả cùng một lúc, do đó tối đa hóa lợi nhuận của họ. Nói cách khác, nhóm thợ đào tấn công không khai thác khối cuối cùng được toàn bộ mạng xác thực, mà là trên một khối mà họ tự tạo ra, khác với khối được mạng xác thực.

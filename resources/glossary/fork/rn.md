@@ -1,5 +1,6 @@
 ---
 term: Fork
+definition: Iyubakwa ry'ururere rw'inkingi canke ihinduka ry'amategeko ya Bitcoin.
 ---
 
 Ijambo "Fork" rifise insobanuro nyinshi mu bijanye n'ijambo Bitcoin. Bishobora kwerekeza ku gucapura urusobe rw’ibihimba mu migwi myinshi itandukanye, bikajana mu kurema ama blockchains menshi atandukanye, canke guhindura amategeko y’amasezerano, canke vyose icarimwe. Kugira ngo tworohereze, turashobora gutandukanya ivyiciro 4 nyamukuru vy’amaforogo:

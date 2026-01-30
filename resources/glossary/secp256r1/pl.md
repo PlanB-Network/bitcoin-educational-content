@@ -1,5 +1,6 @@
 ---
 term: SECP256R1
+definition: Krzywa eliptyczna standardu NIST, nieużywana przez Bitcoin, który preferuje secp256k1.
 ---
 
 Nazwa nadana krzywej eliptycznej zdefiniowanej przez standard NIST dla kryptografii klucza publicznego. Wykorzystuje ona pole pierwsze 256 bitów i równanie krzywej eliptycznej $y^2 = x^3 + ax + b$ ze stałymi:

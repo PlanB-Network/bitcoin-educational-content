@@ -1,6 +1,7 @@
 ---
-term: TEHING (TX)
+term: Tehing (tx)
 
+definition: Plokiahelasse salvestatud operatsioon, mis viib bitcoinide omandiõiguse ühest või mitmest sisendist ühte või mitmesse väljundisse.
 ---
 Bitcoini kontekstis on tehing (lühend "TX") plokiahelas salvestatud operatsioon, mis kannab bitcoinide omandiõiguse üle ühelt või mitmelt sisendilt ühele või mitmele väljundile. Iga tehing tarbib sisenditena kasutamata tehingu väljundid (UTXO), mis on eelmiste tehingute väljundid, ja loob väljunditena uusi UTXOsid, mida saab kasutada sisenditena tulevastes tehingutes.
 

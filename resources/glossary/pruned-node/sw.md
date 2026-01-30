@@ -1,5 +1,6 @@
 ---
-term: NODI ILIYOCHANGULIWA
+term: Node iliyopunguzwa
+definition: Node kamili inayofuta block za zamani zilizothibitishwa ili kuokoa nafasi ya kuhifadhi.
 ---
 
 Nodi iliyokatwa, kwa Kiingereza "Pruned Node", ni Full node ambayo hufanya upogoaji wa Blockchain. Hii inahusisha hatua kwa hatua kuondoa vizuizi vya zamani zaidi, baada ya kuvithibitisha vilivyo, ili kuweka vizuizi vya hivi majuzi pekee. Kikomo cha kubaki kimebainishwa katika faili `Bitcoin.conf` kupitia kigezo cha `prune=n`, ambapo `n` ndio ukubwa wa juu unaochukuliwa na vizuizi katika megabaiti (MB). Ikiwa `0` imebainishwa baada ya kigezo hiki, basi upogoaji umezimwa, na nodi huhifadhi Blockchain kwa ukamilifu.

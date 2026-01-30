@@ -1,5 +1,6 @@
 ---
-term: TEMPORALNI MODEL
+term: Vremenski model
+definition: Analiza vremena emitovanja transakcija radi zaključivanja o prirodi ili lokaciji on-chain entiteta.
 ---
 
 Određena ljudska ponašanja su prepoznatljiva On-Chain. Možda je najkorisnije u analizi lanca vaš obrazac spavanja! Da, kada spavate, verovatno ne emitujete Bitcoin transakcije. Generalno, spavate u približno isto vreme. Stoga se vremenske analize često koriste u analizi lanca. To jednostavno uključuje beleženje vremena u kojem se transakcije određene entitete emituju na Bitcoin mrežu. Analiziranje ovih vremenskih obrazaca omogućava nam da zaključimo brojne informacije.

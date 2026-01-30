@@ -1,5 +1,6 @@
 ---
-term: PLAĆANJA VIŠEPUTNIM PUTEM (MPP)
+term: Multi-path payments (MPP)
+definition: Lightning tehnika koja deli plaćanje na nekoliko delova koji se usmeravaju različitim rutama.
 ---
 
 Generički izraz za sve tehnike plaćanja na Lightning mreži koje omogućavaju da se transakcija razloži na nekoliko manjih delova i usmeri preko različitih ruta. Drugim rečima, svaki deo plaćanja ide različitim putem kroz čvorove. Ovo omogućava zaobilaženje ograničenja likvidnosti na jednom kanalu u ruti.

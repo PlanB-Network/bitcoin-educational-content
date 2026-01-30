@@ -1,5 +1,6 @@
 ---
 term: P2SH
+definition: Script permettant des conditions de dépense arbitraires via le hachage d'un redeemScript.
 ---
 
 P2SH est le sigle pour *Pay to Script Hash* (en français « payer au hachage du script »). C’est un modèle de script standard utilisé pour établir des conditions de dépense sur un UTXO. Contrairement aux scripts P2PK et P2PKH, où les conditions de dépense sont prédéfinies, P2SH permet l'intégration de conditions de dépense arbitraires et de fonctionnalités additionnelles au sein d'un script de transaction.

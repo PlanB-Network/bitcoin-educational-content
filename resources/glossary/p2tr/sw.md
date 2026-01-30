@@ -1,5 +1,6 @@
 ---
 term: P2TR
+definition: Hati ya Taproot inayoruhusu matumizi kupitia ufunguo wa umma au hati za Merkle, anuani za bc1p.
 ---
 
 P2TR inawakilisha *Lipa kwa Taproot*, ambayo ni muundo wa kawaida wa hati unaotumiwa kuweka masharti ya matumizi kwenye UTXO (Pato la Muamala Usiotumika). Ilianzishwa kwa kutekelezwa kwa Taproot mnamo Novemba 2021. P2TR hutumia itifaki ya Schnorr kujumlisha funguo za kriptografia, pamoja na miti ya Merkle kwa hati mbadala, inayojulikana kama MAST (*Mti wa Hati Mbadala wa Merkelized*). Tofauti na shughuli za kawaida ambapo masharti ya matumizi yanafichuliwa hadharani (wakati mwingine wakati wa kupokea, wakati mwingine wakati wa matumizi), P2TR inaruhusu kufichwa kwa hati ngumu nyuma ya ufunguo mmoja unaoonekana wa umma.

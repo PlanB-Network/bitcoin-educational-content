@@ -1,5 +1,6 @@
 ---
-term: 剪切節點
+term: 修剪節點
+definition: 刪除已驗證的舊區塊以節省存儲空間的完整節點。
 ---
 
 剪枝節點，英文稱為「Pruned Node」，是對 Blockchain 執行剪枝的 Full node。這包括在適當驗證後，逐步移除最舊的區塊，只保留最新的區塊。保留限制是在 `Bitcoin.conf` 檔案中透過 `prune=n` 參數指定的，其中 `n` 是區塊所佔用的最大大小，單位為 MB。如果在此參數後加上 `0`，則會停用修剪，節點會完整保留 Blockchain。

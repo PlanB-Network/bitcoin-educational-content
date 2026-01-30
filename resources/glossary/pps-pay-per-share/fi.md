@@ -1,6 +1,7 @@
 ---
-term: PPS (PAY PER SHARE)
+term: PPS (pay per share)
 
+definition: Kiinteä palkitsemismenetelmä jokaisesta lähetetystä osuudesta (share), riippumatta löydetyistä lohkoista.
 ---
 Menetelmä louhijoiden korvauksen laskemiseksi kaivospoolien yhteydessä. PPS on järjestelmä, jossa louhijoille maksetaan jokaisesta toimitetusta kelvollisesta osakkeesta riippumatta siitä, löytääkö pooli lohkon vai ei. Heille maksetaan siis korvaus odotusarvon perusteella. Kyseessä on tehtäviin perustuva korvausmenetelmä.
 

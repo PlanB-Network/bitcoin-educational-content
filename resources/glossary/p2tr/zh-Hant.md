@@ -1,5 +1,6 @@
 ---
 term: P2TR
+definition: 允許透過公鑰或 Merkle 腳本進行支出的 Taproot 腳本，地址為 bc1p。
 ---
 
 P2TR 代表 *Pay to Taproot*，這是一個標準的腳本模型，用於建立 UTXO（未支出交易輸出）的支出條件。它是在 2021 年 11 月實施 Taproot 時引入的。P2TR 利用 Schnorr 通訊協定聚合密碼鑰匙，以及 Merkle 樹作為替代腳本，稱為 MAST (*Merkelized Alternative Script Tree*)。傳統交易的支出條件是公開暴露的（有時是在收款時，有時是在支出時），P2TR 則不同，它可以將複雜的腳本隱藏在單一表面的公開金鑰後面。

@@ -1,5 +1,6 @@
 ---
-term: YAKINLIK BONUSU
+term: Yakınlık primi
+definition: Ağ iletişim gecikmesini azaltarak madencilerin elde ettiği finansal avantaj.
 ---
 
 Bitcoin Mining bağlamında, madencilerin ağ üzerindeki iletişim gecikmesini azaltarak elde ettikleri finansal avantajı ifade eder. Birbirine yakın konumdaki madenciler yeni geçerli blokları daha hızlı bir şekilde alır ve böylece daha az birikmiş işe sahip bir daldaki aday blok için kaynaklarını boşa harcamamış olurlar. Gecikmedeki bu azalma madencilerin getirilerini artırır, bu da doğal olarak onları gelirlerini en üst düzeye çıkarmak için coğrafi olarak bir araya gelmeye teşvik eder.

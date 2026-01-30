@@ -1,6 +1,7 @@
 ---
-term: CLAVE AMPLIADA
+term: Clave extendida
 
+definition: Cadena que combina una clave, su chain code y metadatos para la derivación en monederos HD.
 ---
 Secuencia de caracteres que combina una clave (pública o privada), su código de cadena asociado y una serie de metadatos. Una clave extendida compila todos los elementos necesarios para derivar claves hijas en un único identificador. Se utilizan en los monederos deterministas y jerárquicos y pueden ser de dos tipos: una clave pública extendida (utilizada para derivar claves públicas hijas) o una clave privada extendida (utilizada para derivar tanto claves privadas como públicas hijas). Una clave extendida incluye, por tanto, varios datos diferentes, descritos en BIP32, en el orden:
 

@@ -1,6 +1,7 @@
 ---
-term: VEDLIKEHOLDER (KJERNE)
+term: Vedlikeholder (core)
 
+definition: Personer som er ansvarlige for å administrere Bitcoin Core-prosjektet og flette kodeendringer.
 ---
 I forbindelse med Bitcoin Core-prosjektet, den dominerende implementeringen av noder i Bitcoin-nettverket, er vedlikeholdere personer som har til oppgave å administrere prosjektet. De har ansvaret for implementeringen. De har ansvaret for moderering på Bitcoin Core GitHub-depotet og for å sette tidsplanen for utgivelsen av nye versjoner. De er hovedansvarlige for å gjennomføre sammenslåing av pull requests (PR) foreslått av bidragsytere.
 

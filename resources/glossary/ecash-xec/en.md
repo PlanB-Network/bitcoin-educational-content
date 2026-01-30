@@ -1,5 +1,6 @@
 ---
-term: ECASH (XEC)
+term: Ecash (xec)
+definition: Cryptocurrency resulting from a hard fork of Bitcoin Cash in November 2020.
 ---
 
 Cryptocurrency system, previously known as Bitcoin Cash ABC (BCHA), resulting from a hard fork of Bitcoin Cash (BCH). The eCash fork occurred on November 15, 2020, at block 661,647, stemming from a conflict within the Bitcoin Cash community.

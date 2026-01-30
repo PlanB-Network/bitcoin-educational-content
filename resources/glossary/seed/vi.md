@@ -1,5 +1,6 @@
 ---
-term: NGŨ CỐC
+term: Seed
+definition: Thông tin 512 bit cho phép tạo tất cả các khóa của ví HD Bitcoin.
 ---
 
 Trong bối cảnh cụ thể của danh mục đầu tư xác định theo thứ bậc Bitcoin, seed là một phần thông tin 512 bit có nguồn gốc từ một sự kiện ngẫu nhiên. Nó được sử dụng để xác định và phân cấp generate một tập hợp các khóa riêng tư và các khóa công khai tương ứng của chúng cho danh mục đầu tư Bitcoin. seed thường bị nhầm lẫn với chính cụm từ khôi phục. Nhưng chúng không phải là một. seed được lấy bằng cách áp dụng hàm `PBKDF2` cho cụm từ Mnemonic và bất kỳ passphrase nào.

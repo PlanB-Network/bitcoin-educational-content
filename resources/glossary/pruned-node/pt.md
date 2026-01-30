@@ -1,6 +1,7 @@
 ---
-term: NÓ PODADO
+term: Nó podado
 
+definition: Nó completo que elimina blocos antigos verificados para poupar espaço de armazenamento.
 ---
 Um nó podado, em inglês "Pruned Node", é um nó completo que efectua a poda da cadeia de blocos. Isso envolve a remoção progressiva dos blocos mais antigos, depois de devidamente verificados, para manter apenas os blocos mais recentes. O limite de retenção é especificado no arquivo `bitcoin.conf` através do parâmetro `prune=n`, onde `n` é o tamanho máximo ocupado pelos blocos em megabytes (MB). Se `0` for anotado após este parâmetro, então a poda é desabilitada e o nó retém a blockchain em sua totalidade.
 

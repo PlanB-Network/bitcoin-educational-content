@@ -1,6 +1,7 @@
 ---
-term: COMMISSIONI DI TRANSAZIONE
+term: Commissioni di transazione
 
+definition: Importo che premia i minatori per l'inclusione di una transazione in un blocco, calcolato come differenza tra input e output.
 ---
 Le commissioni di transazione rappresentano una somma che mira a compensare i minatori per la loro partecipazione al meccanismo di proof of work. Queste commissioni incoraggiano i minatori a includere le transazioni nei blocchi che creano. Esse derivano dalla differenza tra il totale degli input e il totale degli output di una transazione:
 
@@ -22,4 +23,3 @@ In questo esempio specifico, si trattava di una transazione avviata dal direttor
 
 È inoltre necessario considerare i limiti del purging. Durante i periodi di alta congestione, i mempool dei nodi eliminano le transazioni in sospeso al di sotto di una certa soglia, al fine di rispettare il limite di RAM assegnato. Questo limite è liberamente scelto dall'utente, ma molti lasciano il valore predefinito di Bitcoin Core a 300 MB. Può essere modificato nel file `bitcoin.conf` con il parametro `maxmempool`.
 
-> *In inglese, ci si riferisce ad esso come "transaction fees"*

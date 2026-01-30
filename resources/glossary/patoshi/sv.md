@@ -1,5 +1,6 @@
 ---
-term: PATOSHI
+term: Patoshi
+definition: Tydligt mönster i de tidiga minade blocken, troligen hänförligt till Satoshi Nakamoto.
 ---
 
 Avser ett distinkt mönster av nonces och tidsstämplar som observerats i de block som utvunnits under de första månaderna av Bitcoin:s existens. Detta mönster misstänks vara hänförligt till en enda enhet eller individ, troligen Satoshi Nakamoto själv, uppfinnaren av Bitcoin. Termen "Patoshi" är en portmanteau som kombinerar "pattern" och "Satoshi". Flera analyser av de tidiga Bitcoin-blocken har avslöjat mönster i hur nonces och extra-nonces valdes och hur tidsstämplar sattes. Dessa mönster var tillräckligt tydliga för att antyda att en viss Miner eller grupp av miners var ansvariga för en stor andel av de block som minades under denna period, samtidigt som de använde en modifierad klient. Sergio Demian Lerner, en datavetare, anses vara den som upptäckte detta mönster 2013. Lerner uppskattade att Patoshi Miner hade utvunnit cirka 1,1 miljoner bitcoins. Detta har lett till omfattande spekulationer om Patoshi Miner:s motiv, identitet och nuvarande avsikter. Vissa tror att Patoshi var Satoshi själv, Mining bitcoins för att stödja och säkra det framväxande nätverket. Det är viktigt att notera att även om Patoshi-mönstret är allmänt accepterat som bevis på koncentrerad tidig Mining-aktivitet, finns det ingen definitiv bekräftelse på identiteten bakom Patoshi eller deras avsikter.

@@ -1,5 +1,6 @@
 ---
-term: EXTRA-Nonce
+term: Extra-nonce
+definition: Feld in der Coinbase, das es ermöglicht, den Suchraum über die klassische Nonce hinaus für das Mining zu erweitern.
 ---
 
 Feld, das in der `scriptSig` des Coinbase Transaction eines Blocks verwendet wird und das es ermöglicht, eine größere Anzahl von Möglichkeiten zu testen, um einen Hash zu erhalten, der niedriger ist als der angestrebte Schwierigkeitsgrad, zusätzlich zum klassischen Nonce, der direkt in der Kopfzeile eines jeden Blocks zu finden ist.

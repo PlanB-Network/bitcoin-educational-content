@@ -1,5 +1,6 @@
 ---
-term: PEER-TO-PEER (P2P)
+term: Peer-to-peer (P2P)
+definition: Communicatiemodel waarbij deelnemers direct informatie uitwisselen zonder gecentraliseerde tussenpersoon.
 ---
 
 Verwijst naar een model van communicatie en gegevensdistributie waarin deelnemers, vaak nodes of peers genoemd, hun bronnen (zoals bestanden, verwerkingskracht, bandbreedte, activa...) direct onderling delen, zonder dat er een gecentraliseerde tussenpersoon nodig is. In een P2P systeem treedt elke deelnemer tegelijkertijd op als client (consument van bronnen) en server (aanbieder van bronnen).

@@ -1,11 +1,11 @@
 ---
-term: Uvumilivu wa KOSA wa BYZANTINE (BFT)
+term: Uvumilivu wa makosa wa Byzantine (BFT)
+definition: Dhana inayohakikisha makubaliano ya kuaminika katika mfumo uliotawanywa licha ya nodi mbovu au zenye nia mbaya.
 ---
 
 Dhana inayotumiwa katika mifumo iliyosambazwa ili kuhakikisha maelewano ya kuaminika na salama, hata mbele ya nodi mbovu au hasidi.
 
 
-Dhana hii inahusiana na [Byzantine Generals Problem](/dictionnaire/P.md#prob.-des-généraux-byzantins), sitiari inayotumiwa kuonyesha changamoto za uratibu na kufanya maamuzi katika mfumo uliosambazwa ambapo watendaji wanaweza wasiaminiane.
+Dhana hii inahusiana na Byzantine Generals Problem, sitiari inayotumiwa kuonyesha changamoto za uratibu na kufanya maamuzi katika mfumo uliosambazwa ambapo watendaji wanaweza wasiaminiane.
 
 
-> ► *Algoriti ya Proof-of-Work (PoW) inayotumiwa na Bitcoin ni utaratibu wa makubaliano unaojulikana kama "Byzantine Fault Tolerant (BFT)." Kwa maelezo zaidi, angalia ufafanuzi wa **[BYZANTINE GENERALS PROBLEM](/dictionnaire/P.md#prob.-des-généraux-byzantins)**.*

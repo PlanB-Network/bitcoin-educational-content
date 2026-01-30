@@ -1,6 +1,7 @@
 ---
-term: PUNTEGGIO (METODO BASATO SUL PUNTEGGIO)
+term: Punteggio (score based method)
 
+definition: Metodo di remunerazione dei miner che pondera le shares in base al momento dell'invio.
 ---
 Un metodo per calcolare la remunerazione dei minatori all'interno dei pool di mining. Questo sistema di ricompensa è proporzionale, ma ponderato in base al momento in cui viene presentata la quota. Il metodo SCORE valuta le azioni in base al tempo trascorso dall'inizio del ciclo di mining. Più tardi viene inviata una quota nel ciclo, più alto è il suo valore. Questo metodo incoraggia i minatori a rimanere perché ogni volta che l'attività di mining si interrompe, il punteggio del minatore ristagna mentre i punteggi degli altri aumentano più rapidamente.
 

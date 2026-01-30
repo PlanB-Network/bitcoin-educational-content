@@ -1,5 +1,6 @@
 ---
 term: P2PKH
+definition: Hati inayofunga bitcoin kwa hash ya ufunguo wa umma, anuani huanza na 1.
 ---
 
 P2PKH inasimamia *Lipa kwa Ufunguo wa Umma Hash*. Ni muundo wa hati wa kawaida unaotumiwa kuweka masharti ya matumizi kwenye UTXO. Inaruhusu kufunga bitcoins kwenye Hash ya ufunguo wa umma, yaani, kwenye Address inayopokea. Hati hii inahusishwa na kiwango cha Urithi na ilianzishwa katika matoleo ya awali ya Bitcoin na Satoshi Nakamoto.

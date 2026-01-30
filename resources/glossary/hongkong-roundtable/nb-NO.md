@@ -1,6 +1,7 @@
 ---
-term: HONG-KONG RUNDBORDSKONFERANSE
+term: Hong-kong roundtable
 
+definition: Historisk møte i 2016 mellom Bitcoin Core-utviklere og minere om systemets skalerbarhet.
 ---
 En historisk hendelse i Blocksize War som fant sted 20. februar 2016 i Hong Kong. Det var et viktig møte mellom Bitcoin Core-utviklere og utvinnere for å diskutere systemets skalerbarhet og strategien for å skalere det. Spenningen var høy før møtet, særlig på grunn av fremveksten av Bitcoin Classic, et hard fork-forslag støttet av Gavin Andressen som hadde som mål å øke blokkstørrelsen til 2 MB. Innflytelsesrike personer i økosystemet deltok i debattene, deriblant Jihan Wu og Micree Zhan, medgrunnleggerne av Bitmain, Adam Back, presidenten i Blockstream, og Luke Dashjr, Matt Corallo og Peter Todd.
 

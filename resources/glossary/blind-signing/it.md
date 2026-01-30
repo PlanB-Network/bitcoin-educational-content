@@ -1,5 +1,6 @@
 ---
-term: SEGNALE CIECA
+term: Firma alla cieca
+definition: Azione di firmare una transazione senza poter verificare i dettagli, potenzialmente pericolosa con gli hardware wallet.
 ---
 
 Il processo per cui un utente firma una transazione Bitcoin senza poter controllare i dettagli precisi di ciò che sta firmando. Con i portafogli hardware, firmare alla cieca è pericoloso, in quanto l'utente deve affidarsi al computer collegato per visualizzare le informazioni (destinatari, commissioni, importi, ecc.). Questo espone l'utente a vulnerabilità, poiché il computer è connesso a Internet e ha una superficie di attacco molto più ampia del dispositivo di firma. Se il computer è compromesso, può manipolare i dettagli visualizzati e inviare una transazione dannosa da firmare senza che l'utente se ne accorga. Per evitare questo rischio, si consiglia di utilizzare portafogli hardware con uno schermo integrato e di controllare le informazioni su di esso prima di firmare le transazioni.

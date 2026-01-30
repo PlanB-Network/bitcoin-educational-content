@@ -1,5 +1,6 @@
 ---
-term: BETTERHASH
+term: Betterhash
+definition: 允許礦工自行控制交易選擇的挖礦協定，減少礦池中心化。Stratum V2 的前身。
 ---
 
 Mining 協定由 Matt Corallo 於 2018 年開發，試圖對抗 Mining 在池上日益集中化的問題。它與當時的標準 Stratum 不同之處在於，它為追逐者提供了更多控制權，讓他們可以選擇要包含在區塊模板中的交易。BetterHash 背後的主要理念是讓散佈者有機會自行管理區塊範本的建構，同時保留 Mining 池的優點，例如降低收益差異。

@@ -1,6 +1,7 @@
 ---
 term: PASSPHRASE (BIP39)
 
+definition: Volitelné heslo přidané k frázi pro obnovu pro zabezpečení HD peněženky.
 ---
 Volitelné heslo, které v kombinaci s frází pro obnovení poskytuje další úroveň zabezpečení deterministických a hierarchických peněženek Bitcoin. Peněženky HD se obvykle generují z obnovovací fráze složené z 12 nebo 24 slov. Tato obnovovací fráze je velmi důležitá, protože umožňuje obnovit všechny klíče v peněžence v případě ztráty. Představuje však jediný bod selhání (SPOF). Pokud je ohrožena, jsou ohroženy i bitcoiny. Zde přichází ke slovu přístupová fráze. Jedná se o volitelné heslo, které si zvolí uživatel a které se přidává k frázi pro obnovení, aby se zvýšilo zabezpečení peněženky. Passphrase, kterou nelze zaměňovat s kódem PIN nebo běžným heslem, hraje roli při odvozování kryptografických klíčů.
 

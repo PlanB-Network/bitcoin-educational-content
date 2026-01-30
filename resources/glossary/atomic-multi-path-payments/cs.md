@@ -1,5 +1,6 @@
 ---
-term: ATOMOVÉ VÍCECESTNÉ PLATBY
+term: Atomic multi-path payments
+definition: Vylepšená verze vícestupňových plateb na Lightning, kde každý fragment má odlišné tajemství, zajišťující že platba je zcela vyřešena nebo vůbec.
 ---
 
 Vylepšená verze MPP (*Multi-Path Payments*), kde má každý fragment platby samostatné dílčí tajemství, což zajišťuje, že transakce je zúčtována atomicky, tj. v plné výši nebo vůbec.

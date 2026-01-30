@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: Smartkontrakt som betinger en overføring ved avsløring av en hemmelighet innen en tidsfrist.
 ---
 
 Står for "*Hashed Timelock Contract*". Dette er en Smart contract-mekanisme som hovedsakelig brukes på Lightning. Den finnes også noen ganger i atombytter. I utgangspunktet gjør HTLC en pengeoverføring betinget av at en hemmelighet avsløres, og inkluderer også en tidsbetingelse for å beskytte avsenderens penger i tilfelle en mislykket transaksjon.

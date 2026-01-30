@@ -1,5 +1,6 @@
 ---
 term: Commitment
+definition: Krüptograafiline objekt, mis võimaldab tõestada andmete olemasolu neid avaldamata.
 ---
 
 Commitment (krüptograafilises mõttes) on matemaatiline objekt, mida tähistatakse $C$ ja mis saadakse deterministlikult struktureeritud andmete $m$ (sõnum) ja juhusliku väärtuse $r$ põhjal. Kirjutame :

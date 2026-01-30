@@ -1,5 +1,6 @@
 ---
-term: KARIŞTIRMA
+term: Karıştırma
+definition: Elemanların homojen bir şekilde karıştırıldığı bir sistemin özelliği; coinjoin'lerin kalitesini değerlendirmek için kullanılır.
 ---
 
 Matematiğin genel alanında, karıştırma veya harmanlama, belirli bir süre sonra, başlangıç uzayının tüm bölümlerinin teorik olarak başka herhangi bir bölümle karışabileceği dinamik bir sistemin özelliğini ifade eder. Karıştırma, bir parçacığın konumunun veya bir sistemin durumunun, gelecekteki dağılımı başlangıçtaki dağılımından bağımsız olacak şekilde evrimleşmesi ve böylece başlangıçtaki durumun özelliklerinin sistemin uzayı boyunca eşit olarak dağıldığı bir duruma ulaşması anlamına gelir. Bitcoin bağlamında bu kavram, bir CoinJoin gibi bir Coin karıştırma sürecinin kalitesini değerlendirmek için kullanılabilir.

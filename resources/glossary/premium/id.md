@@ -1,6 +1,7 @@
 ---
-term: PREMI
+term: Premium
 
+definition: Jumlah tambahan yang dibayarkan di atas harga standar aset seperti bitcoin.
 ---
 Jumlah tambahan yang dibayarkan di atas harga standar atau nominal aset. Dalam konteks Bitcoin, premi dapat diamati ketika melakukan pembelian, terutama pada platform bursa, yang terkadang menggunakan teknik ini untuk mendapatkan keuntungan pada layanan _broker_.
 

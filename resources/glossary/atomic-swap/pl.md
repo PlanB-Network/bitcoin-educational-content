@@ -1,5 +1,6 @@
 ---
-term: ZAMIANA ATOMÓW
+term: Atomic swap
+definition: Wymiana kryptowalut między dwiema stronami bez zaufanego pośrednika, gdzie wymiana albo całkowicie powiada się, albo całkowicie się anuluje.
 ---
 
 Technologia umożliwiająca bezpośrednie Exchange kryptowalut między dwiema stronami, bez potrzeby zaufania i bez pośrednika. Wymiany te nazywane są "atomowymi", ponieważ mogą skutkować tylko dwoma rezultatami:

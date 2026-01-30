@@ -1,5 +1,6 @@
 ---
-term: SIGOPS (IMIKORERE Y'AMASINYA)
+term: Sigops (signature operations)
+definition: Ibikorwa vy'umukono wa gihanga bikenewe kugira bemeze ama transactions ya Bitcoin.
 ---
 
 Yerekeza ku bikorwa vy’umukono wa digitale bikenewe kugira ngo umuntu yemeze amafaranga. Igikorwa kimwekimwe cose ca Bitcoin gishobora kubamwo ibintu vyinshi vyinjizwa, kimwe cose muri vyo gishobora gusaba umukono umwe canke myinshi kugira ngo kibonwe ko gifise akamaro. Igenzura ry'izo sinya rikorwa biciye mu gukoresha amakode yihariye yitwa "sigops". By'umwihariko, ibi birimwo `OP_GUSUZUMA`, `OP_GUSUZUMA GUSUZUMA`, `OP_GUSUZUMA VYINSHI`, na `OP_GUSUZUMA VYINSHI`. Ivyo bikorwa bishiraho umuzigo w’akazi ku nzira z’uruja n’uruza zitegerezwa kubigenzura. Kugira ngo hatagira ibitero vya DoS biciye mu gutera imbere kw’umubare w’ama sigops, iyo porotokole rero ishiraho umupaka ku mubare w’ama sigops yemerewe ku bubiko, kugira ngo umuzigo wo kwemeza ugume ushobora gutunganirizwa neza ku bihimba. Ubu uwo mupaka ushizwe ku rugero rwo hejuru rw’ama sigops 80.000 ku bubiko. Kugira ngo ubare, amanode akurikiza aya mategeko:

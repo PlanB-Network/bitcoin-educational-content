@@ -1,5 +1,6 @@
 ---
-term: 冠军（BIP）
+term: 提议负责人 (BIP)
+definition: 在 Bitcoin Core 开发中编写并负责管理 BIP 的人。
 ---
 
 在 Bitcoin 核心开发（Bitcoin 的主要实现）中，"冠军 "是编写和管理 BIP（Bitcoin 增强提案）的人员。Champion 负责按照正式流程撰写 BIP，向社区进行答辩，回答问题并指导讨论以完善提案。他（她）还致力于获得必要的共识，以便 BIP 被接受和实施。他可以

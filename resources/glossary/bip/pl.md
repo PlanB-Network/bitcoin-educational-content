@@ -1,5 +1,6 @@
 ---
 term: BIP
+definition: Bitcoin Improvement Proposal. Formalny proces pozwalający społeczności na proponowanie, dyskutowanie i dokumentowanie ulepszeń protokołu Bitcoin.
 ---
 
 Skrót od "Bitcoin Improvement Proposal" Bitcoin Improvement Proposal (BIP) to formalny proces proponowania i dokumentowania ulepszeń i zmian w protokole Bitcoin i jego standardach. Ponieważ Bitcoin nie ma centralnego podmiotu decydującego o aktualizacjach, BIP pozwalają społeczności sugerować, omawiać i wdrażać ulepszenia w ustrukturyzowany i przejrzysty sposób. Każdy BIP wyszczególnia cele proponowanego ulepszenia, uzasadnienia, potencjalny wpływ na kompatybilność, a także zalety i wady. BIPy mogą być pisane przez każdego członka społeczności, ale muszą zostać zatwierdzone przez innych deweloperów i redaktorów, którzy utrzymują bazę danych Bitcoin Core GitHub: Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun i Ruben Somsen. Ważne jest jednak, aby zrozumieć, że rola tych osób w edytowaniu BIP-ów nie oznacza, że kontrolują Bitcoin. Jeśli ktoś zaproponuje ulepszenie, które nie zostanie zaakceptowane w formalnych ramach BIP, nadal może przedstawić je bezpośrednio społeczności Bitcoin lub nawet utworzyć Fork zawierający jego modyfikację. Zaletą procesu BIP jest jego formalność i centralizacja, które ułatwiają debatę w celu uniknięcia podziałów wśród użytkowników Bitcoin, dążąc do wdrażania aktualizacji w sposób zgodny. Ostatecznie to zasada większości ekonomicznej określa dynamikę władzy w protokole.
@@ -38,7 +39,6 @@ BIP przechodzą następnie przez różne statusy w trakcie swojego cyklu życia.
 - Zastąpiony / nieaktualny: BIP nie ma już zastosowania lub został zastąpiony nowszą propozycją, która czyni go zbędnym.
 
 
-![](../../dictionnaire/assets/25.webp)
 
 
-> *BIP jest skrótem od "Bitcoin Improvement Proposal". W języku francuskim można go przetłumaczyć jako "Proposition d'amélioration de Bitcoin". Jednak większość francuskich tekstów bezpośrednio używa akronimu "BIP" jako rzeczownika pospolitego, czasem rodzaju żeńskiego, czasem męskiego*
+

@@ -1,5 +1,6 @@
 ---
-term: LIBBITCOIN
+term: Libbitcoin
+definition: Tập hợp các thư viện C++ mô-đun để tạo các ứng dụng Bitcoin.
 ---
 
 Một bộ thư viện được viết bằng C++ được thiết kế để tạo ra các ứng dụng liên quan đến Bitcoin. Libbitcoin cung cấp nền tảng độc lập để phát triển các ứng dụng di động, phần mềm và các hệ thống khác xung quanh Bitcoin. Do đó, Libbitcoin có kiến trúc mô-đun. Tất cả các thư viện của dự án đều được phân phối theo giấy phép AGPL miễn phí.

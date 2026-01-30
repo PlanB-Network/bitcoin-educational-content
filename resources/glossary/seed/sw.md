@@ -1,5 +1,6 @@
 ---
-term: NAFAKA
+term: Seed
+definition: Habari ya biti 512 inayoruhusu upatikanaji wa funguo zote za pochi ya HD ya Bitcoin.
 ---
 
 Katika muktadha mahususi wa kwingineko ya uamuzi wa ngazi ya Bitcoin, seed ni taarifa ya 512-bit inayotokana na tukio la nasibu. Inatumika kubainisha na kimaadili generate seti ya funguo za faragha, na funguo zao za umma zinazolingana, kwa kwingineko ya Bitcoin. seed mara nyingi huchanganyikiwa na maneno ya kurejesha yenyewe. Lakini si kitu kimoja. seed hupatikana kwa kutumia chaguo za kukokotoa `PBKDF2` kwa kishazi Mnemonic na passphrase yoyote.

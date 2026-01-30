@@ -1,6 +1,7 @@
 ---
-term: ANTA GYLDIG
+term: Assume valid
 
+definition: En Bitcoin Core-parameter som tillater å hoppe over signaturverifisering for blokker før et bestemt punkt, og akselerere den initiale synkroniseringen.
 ---
 Konfigurasjonsparameter i majoritetsklienten Bitcoin Core som gjør det mulig for en node som nettopp har blitt initialisert (men som ennå ikke har utført IBD) å hoppe over verifiseringen av signaturer for alle transaksjoner som er inkludert i blokker før en bestemt gitt blokk. Denne berømte blokken er definert av avtrykket av overskriften, det vil si dens hash. Den valgte blokken fornyes med hver nye versjon av Bitcoin Core. Ved initialiseringen, hvis noden har aktivert denne parameteren, vil den derfor sjekke blokkoverskriftskjeden for å finne grenen med mest akkumulert arbeid. Hvis noden oppdager hashen fra Core i grenen den har valgt, vil den utelate verifiseringen av signaturer for de foregående blokkene. I motsatt fall vil noden fortsette med en tradisjonell synkronisering (IBD) for å verifisere alt selv.
 

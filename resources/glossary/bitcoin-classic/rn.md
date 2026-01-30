@@ -1,5 +1,6 @@
 ---
-term: Bitcoin IVYA KERA
+term: Bitcoin classic
+definition: Fork yari yateganyijwe mu 2016 igamije kwongera ingano y'ibice gushika kuri 2 MB, hanyuma irarekerwa.
 ---
 
 Iciyumviro c’amasezerano Fork yatangujwe muri Mukakaro 2016 hakurikijwe uguheba kwa Bitcoin XT. Yari igamije kwongera ubunini bw’amabuye kuva kuri MB 1 gushika kuri 2 MB hakoreshejwe BIP109, uburyo bubonwa ko ari buringaniye ugereranyije na Bitcoin XT, bwasaba ko hoba ukwongerekana kwinshi cane (8 MB + gukubita kabiri inyuma y’imyaka ibiri). Iryo shirahamwe ryari rirongowe n’abahinguzi Gavin Andresen na Jeff Garzik, kandi ryari rishigikiwe n’amashirahamwe akomeye yo mu bidukikije nka Coinbase. Bitcoin Classic yasohotse mu gihe Intambara ya Blocksize yariko iratera imbere cane kandi yashizwe mu nkambi y’aba blockers bakuru. Naho Bitcoin Classic yakwegereye ivyiyumviro n’ugushigikirwa n’abakinyi benshi bo mu rwego, uburyo bwo kuyikoresha, bwasaba 75% vy’abacukuzi b’amabuye y’agaciro, bwari buteye impaka kandi amaherezo bwatumye idashobora gukora.

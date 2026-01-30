@@ -1,5 +1,6 @@
 ---
-term: ASSUME VALID
+term: Assume valid
+definition: A Bitcoin Core parameter allowing to skip signature verification for blocks prior to a certain point, accelerating the initial synchronization.
 ---
 
 A configuration parameter in Bitcoin Core that allows a newly initialized node (which has not yet completed the Initial Block Download, or IBD) to skip signatures verification for all transactions included in blocks prior to a specific block. This block is identified by the hash of its header and is updated with each new release of Bitcoin Core. When a node starts up with this parameter enabled, it first verifies the chain of block headers to find the branch with the most accumulated work. If the node detects the hash provided by Core in the branch it has chosen, it will omit signature verification for all blocks before that point. If the hash is not present, the node will fall back to a full traditional synchronization, verifying everything from the beginning.

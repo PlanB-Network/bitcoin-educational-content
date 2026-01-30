@@ -1,5 +1,6 @@
 ---
 term: BIP0043
+definition: Standard introducing the purpose field in HD derivation paths to identify the type of wallet used (e.g., m/84' for SegWit).
 ---
 
 A proposal introducing a dedicated derivation path level to define the purpose field in HD wallet structures, as originally introduced in BIP32. According to BIP43, the first level of derivation of an HD wallet, just after the master key denoted as `m/`, is reserved for the purpose number which indicates the derivation standard used for the rest of the path. This number is recorded as a hardened index. For example, if the wallet follows the SegWit standard (BIP84), the beginning of its derivation path would be: `m/84'/`. 

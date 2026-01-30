@@ -1,5 +1,6 @@
 ---
-term: (APO)
+term: Anyprevout (apo)
 
+definition: Ehdotus (BIP118), joka lisää uusia SigHash-liput, jotka mahdollistavat allekirjoitusten luomisen, jotka eivät kata yhtään tietyn tapahtuman tuloa.
 ---
-Nimi on annettu BIP118:lle, jossa ehdotetaan kahden uuden SigHash Flag -muuntimen lisäämistä nimillä `SIGHASH_ANYPREVOUT` ja `SIGHASH_ANYPREVOUTANYSCRIPT`. Termi "*AnyPrevOut*" tulee lyhenteestä "*Any Previous Output*", joka voitaisiin kääntää ranskaksi "toute sortie précédente".
+BIP118:lle annettu nimi, joka ehdottaa kahden uuden SigHash-lippumodifikaattorin lisäämistä, nimeltään `SIGHASH_ANYPREVOUT` ja `SIGHASH_ANYPREVOUTANYSCRIPT`. Termi "*AnyPrevOut*" on lyhenne ilmaisusta "*Any Previous Output*".

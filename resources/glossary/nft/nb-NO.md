@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition: Bitcoin-enhet tolket som ikke-fungibel og assosiert med en ekstern eiendel via en protokoll.
 ---
 
 Forkortelse for *Non-Fungible Token*. En NFT representerer en enhet av Bitcoin som, av brukere av en annen Layer-protokoll, tolkes som ikke-soppbar og assosieres med Ownership for en ressurs utenfor Bitcoin, for eksempel et bilde eller en annen type data.

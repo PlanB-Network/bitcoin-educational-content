@@ -1,5 +1,6 @@
 ---
-term: BÆRMARKEDET
+term: Bjørnemarked
 
+definition: En lengre periode med fall i bitcoin-prisen sammenlignet med fiat-valutaer som dollar.
 ---
 En lengre periode der prisen på en eiendel, for eksempel bitcoin, synker i forhold til en fiat-valuta, vanligvis amerikanske dollar. Siden introduksjonen i 2009 ser det ut til at syklusene i BTC-børsmarkedet har vært påvirket av halveringer, planlagte hendelser som halverer utvinnernes belønning og inntreffer omtrent hvert fjerde år.

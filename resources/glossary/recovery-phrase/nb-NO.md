@@ -1,6 +1,7 @@
 ---
-term: GJENOPPRETTINGSFRASE
+term: Gjenopprettingsfrase
 
+definition: Sekvens på 12 eller 24 ord som lar deg sikkerhetskopiere og gjenopprette en Bitcoin-lommebok.
 ---
 En gjenopprettingsfrase, også kalt mnemonisk frase, seed-frase eller hemmelig frase, er en sekvens som vanligvis består av 12 eller 24 ord, og som genereres på en pseudotilfeldig måte fra en entropikilde. Den pseudotilfeldige sekvensen kompletteres alltid med en kontrollsum. Den mnemoniske frasen, sammen med en valgfri passordfrase, brukes til å utlede alle nøklene som er knyttet til en HD-lommebok (Hierarchical Deterministic) på en deterministisk måte. Dette betyr at det er mulig å generere og gjenskape alle de private og offentlige nøklene til Bitcoin-lommeboken på en deterministisk måte, og dermed få tilgang til midlene som er knyttet til den. Formålet med gjenopprettingsfrasen er å tilby en metode for sikkerhetskopiering og gjenoppretting av bitcoins som er både sikker og enkel å bruke.
 

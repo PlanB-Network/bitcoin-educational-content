@@ -1,5 +1,6 @@
 ---
-term: ボスマイナー
+term: Bosminer
+definition: BraiinsによるRust製のオープンソースマイニングソフトウェア。StratumV2をサポートしASICs向けに設計されています。
 ---
 
 Braiins社（旧Slush Pool社）がRustで開発したオープンソースのMiningソフトウェア。BOSminerは特にASIC用に設計されています。BraiinsOSエコシステムに統合され、オーバークロック、詳細な性能監視、StratumV2サポートなどの機能を備えた高度なASIC管理を可能にします。

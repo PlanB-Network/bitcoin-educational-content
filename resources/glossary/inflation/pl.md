@@ -1,5 +1,6 @@
 ---
-term: INFLACJA
+term: Inflacja
+definition: Wzrost podaży pieniądza prowadzący do spadku wartości każdej jednostki.
 ---
 
 Odnosi się do wzrostu ilości pieniądza Supply w obiegu, co prowadzi do spadku wartości każdej jednostki pieniądza i wzrostu cen towarów i usług. W przypadku walut państwowych zjawisko to występuje, gdy banki centralne emitują nowe jednostki walutowe.

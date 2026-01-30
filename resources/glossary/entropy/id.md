@@ -1,6 +1,7 @@
 ---
-term: ENTROPY
+term: Entropi
 
+definition: Ukuran ketidakpastian dari sumber data, yang sangat penting untuk menghasilkan kunci yang aman.
 ---
 Entropi, dalam konteks kriptografi dan informasi, adalah sebuah ukuran kuantitatif dari ketidakpastian atau ketidakpastian yang terkait dengan sumber data atau proses acak. Entropi memainkan peran penting dalam keamanan sistem kriptografi, terutama dalam pembuatan kunci dan angka acak. Entropi yang tinggi memastikan bahwa kunci yang dihasilkan tidak dapat diprediksi dan tahan terhadap serangan brute force, di mana penyerang mencoba semua kombinasi yang mungkin untuk menebak kunci.
 

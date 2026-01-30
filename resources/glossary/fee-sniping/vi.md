@@ -1,6 +1,7 @@
 ---
-term: FEE SNIPING
+term: Fee sniping
 
+definition: Cuộc tấn công trong đó các thợ đào viết lại một khối gần đây để thu các khoản phí giao dịch cao của khối đó.
 ---
 An attack scenario in which miners seek to rewrite a recently confirmed block in order to claim the transaction fees it contains, while adding high-fee transactions that have arrived in the meantime in the mempool. The ultimate goal of this attack for the miner is to increase their profitability. Fee sniping can become increasingly profitable as the block reward decreases and transaction fees represent a larger part of miners' revenue. It can also be advantageous when the fees contained in the previous block are significantly higher than those in the next best candidate block. To simplify, the miner is faced with this choice in terms of incentives:
 

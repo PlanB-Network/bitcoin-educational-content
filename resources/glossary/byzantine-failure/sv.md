@@ -1,5 +1,6 @@
 ---
-term: BYSANTINSKT MISSLYCKANDE
+term: Byzantinskt fel
+definition: Beteende hos ett system som inte följer dess specifikationer, vilket kan vara naturligt eller avsiktligt.
 ---
 
 Byzantinska fel, eller byzantinskt beteende, avser alla beteenden hos ett system som inte överensstämmer med dess egna specifikationer och som ger avvikande resultat.

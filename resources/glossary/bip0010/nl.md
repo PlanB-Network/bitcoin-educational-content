@@ -1,5 +1,6 @@
 ---
 term: BIP0010
+definition: Aanvankelijk voorstel voor multisig-transacties, ingetrokken en vervangen door BIP11 en BIP16.
 ---
 
 De BIP10, voorgesteld door Gavin Andresen in 2011, was bedoeld om het concept van transacties met meerdere handtekeningen te introduceren. Het hoofdidee van de BIP10 was het standaardiseren van de manier om een betaling afhankelijk te maken van meerdere handtekeningen (Multisig) door een nieuw type script te introduceren. Dit voorstel stelde voor om uitgevers van transacties toe te staan meerdere openbare sleutels op te geven en een voorwaarde waaronder een bepaald aantal van deze sleutels zou moeten ondertekenen om de transactie te valideren. BIP10 werd echter ingetrokken en nooit geïntegreerd in het protocol. De functionaliteiten die het voorstelde werden behandeld in andere latere BIP's, zoals BIP11 en BIP16, die meer verfijnde en flexibele mechanismen introduceerden voor Multisig op Bitcoin.

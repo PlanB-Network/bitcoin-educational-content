@@ -1,5 +1,6 @@
 ---
-term: ETIKET (SESSIZ ÖDEMELER)
+term: Label (silent payments)
+definition: Silent Payments içinde kullanımları ayırmak amacıyla türetilmiş statik adresler oluşturmak için kullanılan tam sayılar.
 ---
 
 Sessiz Ödemeler protokolünde etiketler, birçok başka statik adres oluşturmak amacıyla başlangıçtaki statik Address'ı değiştirmek için kullanılan tam sayılardır. Bu etiketlerin kullanımı, Sessiz Ödemeler yoluyla gönderilen ödemelerin, her kullanım için farklı statik adresler kullanılarak, bu ödemelerin tespit edilmesi (tarama) için operasyonel yükü aşırı derecede artırmadan ayrılmasına olanak tanır. Bob, iki açık anahtardan oluşan statik bir Address $B$ kullanır: tarama için $B_{\text{scan}}$ ve harcama için $B_{\text{spend}}$. Hash $b_{\text{scan}}$ ve $G$ üreteç noktası ile skaler olarak çarpılan bir $m$ tamsayısı, $B_{\text{spend}}$ harcama açık anahtarına eklenerek bir tür yeni harcama açık anahtarı $B_m$ oluşturulur:

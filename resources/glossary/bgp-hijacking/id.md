@@ -1,6 +1,7 @@
 ---
-term: PEMBAJAKAN BGP
+term: BGP hijacking
 
+definition: Serangan yang memanipulasi perutean Internet untuk mengalihkan lalu lintas ke jaringan berbahaya, yang dapat digunakan untuk mengisolasi simpul Bitcoin.
 ---
 
 Serangan di mana aktor jahat memanipulasi iklan BGP untuk mengalihkan lalu lintas Internet ke jaringannya sendiri. Dengan berpura-pura menjadi sumber yang sah dari rentang alamat IP tertentu, penyerang dapat mencegat, memantau, atau memblokir lalu lintas yang ditujukan ke alamat-alamat ini.

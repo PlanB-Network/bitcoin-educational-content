@@ -1,6 +1,7 @@
 ---
-term: DERIVATION
+term: Tuletamine
 
+definition: Lapsevõtmete genereerimise protsess vanemvõtmete paarist HD-rahakotis.
 ---
 Viitab protsessile, mille käigus genereeritakse lapsvõtmepaarid vanemvõtmepaarist (isiklik võti ja avalik võti) ja ahelakoodist deterministlikus ja hierarhilises (HD) rahakotis. See protsess võimaldab harude segmenteerimist ja rahakoti organiseerimist eri tasanditeks koos arvukate lapsvõtmepaaridega, mida kõiki saab taastada, teades ainult põhilist taastamisinfot (mnemofraasi ja võimalikku salasõna). Lapsvõtme tuletamiseks kasutatakse funktsiooni `HMAC-SHA512` koos vanemvõtme ahelakoodi ja vanemvõtme ja 32-bitise indeksi ahelaga. On olemas kahte tüüpi tuletusi:
 

@@ -1,6 +1,7 @@
 ---
-term: op_checksequenceverify (0xb2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
+definition: UTXOの消費に対して相対的な時間制約を課すオペコード。
 ---
 これらの特徴が1つでも見られた場合、トランザクションは無効となる：
 

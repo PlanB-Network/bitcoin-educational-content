@@ -1,6 +1,7 @@
 ---
-term: OP_2 - OP_16 (0X52 - 0X60)
+term: OP_2–OP_16 (0X52–0X60)
 
+definition: Op-koodit, jotka työntävät numeroarvot 2sta 16een pinoon.
 ---
 Toimintakoodit `OP_2` - `OP_16` työntävät pinoon vastaavat lukuarvot 2-16. Niitä käytetään yksinkertaistamaan skriptejä sallimalla pienten lukuarvojen lisääminen. Tämäntyyppisiä op-koodeja käytetään erityisesti monimerkkikirjoituksissa. Seuraavassa on esimerkki `scriptPubKey`:stä 2/3 monisignausta varten:
 

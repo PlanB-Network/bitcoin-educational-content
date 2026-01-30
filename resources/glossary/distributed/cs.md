@@ -1,6 +1,7 @@
 ---
-term: DISTRIBUOVANÉ
+term: Distribuovaný
 
+definition: Síť, ve které je rozhodovací pravomoc a kontrola spravedlivě rozdělena mezi všechny účastníky.
 ---
 Atribut počítačové sítě, v níž jsou rozhodovací pravomoci a řízení rovnoměrně rozděleny mezi všechny účastníky sítě. Toto rozdělení zajišťuje odolnost systému. Označuje se také jako síť typu peer-to-peer. Na rozdíl od decentralizované sítě, kde je moc roztříštěna a rozptýlena mezi více subjektů, ale kde některé centrální autority zůstávají s větší mocí než uživatelé, distribuovaná síť eliminuje centrální autoritu tím, že svěřuje řízení a kontrolu samotným uživatelům. Bitcoin je příkladem distribuovaného systému. Bitcoin nemá hierarchii ani centrální autoritu. Udržování konsensu, ověřování transakcí a vydávání nových peněžních jednotek provádějí uživatelé. Tato distribuovaná struktura zajišťuje odolnost systému a jeho odolnost vůči cenzuře, takže je velmi obtížné, aby jej ovládal nebo manipuloval jeden subjekt.
 

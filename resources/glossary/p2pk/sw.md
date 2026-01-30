@@ -1,5 +1,6 @@
 ---
 term: P2PK
+definition: Hati inayofunga bitcoin moja kwa moja kwenye ufunguo wa umma bila hashing.
 ---
 
 P2PK inasimamia *Lipa kwa Ufunguo wa Umma*. Ni muundo wa hati wa kawaida unaotumiwa kwenye Bitcoin kuweka masharti ya matumizi kwenye UTXO. Inaruhusu kufunga bitcoins moja kwa moja kwenye ufunguo wa umma, badala ya Address.

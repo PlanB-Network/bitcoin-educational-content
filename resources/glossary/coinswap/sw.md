@@ -1,5 +1,6 @@
 ---
-term: MABADILIKO YA COINS
+term: Coinswap
+definition: Itifaki ya atomic swap kwa umiliki wa bitcoin kati ya watumiaji kupitia mikataba smart.
 ---
 
 Itifaki ya uhamisho wa siri wa Ownership kati ya watumiaji. Njia hii inalenga kuhamisha umiliki wa bitcoins kutoka kwa mtu mmoja hadi mwingine, na kinyume chake, bila Exchange hii kuonekana wazi kwenye Blockchain. Coinwap hutumia mikataba mahiri kufanya uhamisho bila hitaji la uaminifu kati ya wahusika.

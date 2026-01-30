@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition: Katika protokole ya RGB, seti ya data inayothibitisha kujumlishwa kwa kile kinachohitajika katika harakati ya Bitcoin, bila kufichua nyenzo yake hadharani.
 ---
 
 Katika itifaki ya RGB, Anchor inawakilisha seti ya data ya upande wa mteja inayotumiwa kuthibitisha kujumuishwa kwa Commitment moja katika shughuli. Katika itifaki ya RGB, Anchor inaundwa na Elements ifuatayo:

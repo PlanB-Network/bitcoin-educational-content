@@ -1,6 +1,7 @@
 ---
 term: SECP256K1
 
+definition: Đường cong elliptic được sử dụng trên Bitcoin cho chữ ký số ECDSA và Schnorr.
 ---
 Name given to a specific elliptical curve used in the Bitcoin protocol for the implementation of the ECDSA (*Elliptic Curve Digital Signature Algorithm*) and Schnorr digital signature algorithms. The `secp256k1` curve was chosen by the inventor of Bitcoin, Satoshi Nakamoto. It has some interesting properties, notably performance benefits.
 

@@ -1,6 +1,7 @@
 ---
-term: AVG. DURATA DEL GIRO
+term: Durata media del round
 
+definition: Un indicatore che stima il tempo medio necessario a un pool di mining per trovare un blocco, sulla base della sua potenza di calcolo e della difficoltà della rete.
 ---
 La durata media del round è un indicatore utilizzato per stimare il tempo necessario a un pool di mining per trovare un blocco, in base alla difficoltà della rete e all'hashrate del pool. Si calcola prendendo il numero di azioni previste per trovare un blocco e dividendolo per l'hashrate del pool. Ad esempio, se un pool di mining ha 200 minatori e ognuno genera in media 4 azioni al secondo, la potenza di calcolo totale del pool è di 800 azioni al secondo:
 

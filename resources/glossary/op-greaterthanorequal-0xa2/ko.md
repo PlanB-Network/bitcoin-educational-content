@@ -1,5 +1,6 @@
 ---
-term: OP_GREATERTHANOREQUAL (0xA2)
+term: OP_GREATERTHANOREQUAL (0XA2)
+definition: 스택의 첫 번째 요소가 두 번째 요소보다 크거나 같은지 확인하는 Opcode.
 ---
 
 스택에서 가장 위에 있는 두 개의 Elements을 비교하여 첫 번째 요소가 두 번째 요소보다 크거나 같은지 확인합니다. 첫 번째 요소가 두 번째 요소보다 크거나 같으면 스택에 `1`(참)을 밀어넣고, 그렇지 않으면 `0`(거짓)을 밀어넣습니다.

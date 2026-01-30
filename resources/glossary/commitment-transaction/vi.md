@@ -1,5 +1,6 @@
 ---
-term: COMMITMENT TRANSACTION
+term: Giao dịch cam kết
 
+definition: Giao dịch đã ký đại diện cho trạng thái phân phối tiền hiện tại trong một kênh Lightning.
 ---
 In the context of a bidirectional channel within Lightning, the commitment transaction is a transaction that both parties create and sign, without publishing it on the main chain. It represents the current state of the distribution of funds between the parties of a channel, with each Lightning payment resulting in a new commitment transaction. These transactions are valid but are only broadcast when the channel is closed unilaterally. They contain outputs for each party, reflecting the distribution of funds according to the Lightning payments made since the opening of the channel. Penalty mechanisms are associated to deter parties from broadcasting outdated states of the channel, that is, old commitment transactions that reflect an incorrect distribution of funds.

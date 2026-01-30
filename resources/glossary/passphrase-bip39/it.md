@@ -1,6 +1,7 @@
 ---
 term: PASSPHRASE (BIP39)
 
+definition: Password opzionale aggiunta alla frase di recupero per proteggere un portafoglio HD.
 ---
 Una password opzionale che, se combinata con la frase di recupero, fornisce un ulteriore livello di sicurezza per i portafogli Bitcoin deterministici e gerarchici. I portafogli HD sono in genere generati da una frase di recupero composta da 12 o 24 parole. Questa frase di recupero è molto importante, in quanto consente di ripristinare tutte le chiavi di un portafoglio in caso di perdita. Tuttavia, costituisce un singolo punto di guasto (SPOF). Se viene compromessa, i bitcoin sono a rischio. È qui che entra in gioco la passphrase. Si tratta di una password opzionale, scelta dall'utente, che viene aggiunta alla frase di recupero per aumentare la sicurezza del portafoglio. Da non confondere con un codice PIN o una normale password, la passphrase svolge un ruolo nella derivazione delle chiavi crittografiche.
 

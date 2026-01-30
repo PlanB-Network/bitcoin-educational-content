@@ -1,5 +1,6 @@
 ---
 term: Bitcoin QT
+definition: 2011년에 출시된 그래픽 인터페이스 기반의 Bitcoin 클라이언트로, 2014년에 Bitcoin Core로 이름이 변경됨.
 ---
 
 Bitcoin QT는 2011년 5월에 출시된 그래픽 Interface을 포함하는 Bitcoin 클라이언트입니다. Satoshi 나카모토의 오리지널 클라이언트의 계보를 잇는 제품입니다.

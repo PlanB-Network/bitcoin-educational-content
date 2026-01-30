@@ -1,5 +1,6 @@
 ---
-term: ON-GRID
+term: Sähköverkossa
+definition: Yleiseen sähköverkkoon kytketty louhinta ASIC-laitteiden virransaantia varten.
 ---
 
 Tarkoittaa Bitcoin Mining-toimintaa, joka on liitetty yleiseen sähköverkkoon. Verkkoon kytketyt kaivostoiminnan harjoittajat kytkeytyvät tavanomaiseen sähköverkkoon, jota myös kotitalouskuluttajat käyttävät ASIC-laitteidensa virranlähteenä. Tämä menetelmä tarjoaa vakaan virtalähteen, mutta on usein kalliimpi kuin verkkoon kytketty Mining, koska neuvottelumarginaalit ovat rajallisemmat.

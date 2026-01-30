@@ -1,6 +1,7 @@
 ---
 term: VOUT
 
+definition: Phần tử của một giao dịch Bitcoin xác định điểm đến của tiền với một giá trị và một kịch bản khóa.
 ---
 A specific element of a Bitcoin transaction that determines the destination of the sent funds. A transaction can include multiple outputs, each uniquely identified by the combination of the transaction identifier (`txid`) and an index called `vout`. This index, starting at `0`, marks the position of the output in the sequence of transaction outputs. Thus, the first output will be designated by `"vout": 0`, the second by `"vout": 1`, and so on.
 

@@ -1,5 +1,6 @@
 ---
 term: BTC
+definition: 代表一個比特幣單位的股票代碼，等於 1 億聰。
 ---
 
 股票或貨幣符號 (*ticker*)，用於在 Exchange 平台上代表一個單位的 Bitcoin。它用於在其他資產和貨幣中快速識別 Bitcoin。一個單位的 Bitcoin (1 BTC) 等於 100,000,000 Satoshis (或 "Sats")。

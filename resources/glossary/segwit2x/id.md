@@ -1,6 +1,7 @@
 ---
-term: SEGWIT2X
+term: Segwit2x
 
+definition: Upaya hard fork kontroversial untuk menggandakan ukuran blok, dibatalkan pada November 2017.
 ---
 Sebuah upaya kontroversial untuk melakukan _hard fork_ yang bertujuan untuk menggandakan batas ukuran blok pada Bitcoin, sekaligus mengintegrasikan SegWit. SegWit2x diperkenalkan selama Perjanjian New York pada tahun 2017, sebuah pertemuan rahasia di antara lebih dari 50 perusahaan dari ekosistem yang bertujuan untuk menemukan solusi untuk menskalakan sistem. SegWit2x berusaha untuk meningkatkan kapasitas transaksi Bitcoin dengan meningkatkan ukuran blok maksimum menjadi 2 MB, dari yang awalnya 1 MB. _Hard fork_ dijadwalkan pada blok 494.784, yaitu pada bulan November 2017.
 

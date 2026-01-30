@@ -1,5 +1,6 @@
 ---
-term: Wallet FOOTPRINT
+term: Alama ya pochi
+definition: Sifa bainifu zinazoweza kuzingatiwa katika miamala ya pochi inayoruhusu shughuli zake kufuatiliwa.
 ---
 
 Seti ya sifa bainifu zinazoonekana katika miamala iliyofanywa na Bitcoin Wallet sawa. Sifa hizi zinaweza kujumuisha ulinganifu katika matumizi ya aina za hati, utumiaji upya wa anwani, mpangilio wa UTXO, uwekaji wa matokeo ya mabadiliko, uwekaji ishara wa RBF (*Replace-by-fee*), nambari ya toleo, sehemu ya `nSequence`, na sehemu ya `nLockTime`.

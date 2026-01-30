@@ -1,5 +1,6 @@
 ---
-term: op_checkhashverify (chv)
+term: OP_CHECKHASHVERIFY (CHV)
 
+definition: P2SHと同様の機能のために2012年に提案されたが、実装されなかったオペコード。
 ---
 2012年にLuke DashjrがBIP17で提案した新しいオペコードで、`OP_EVAL`やP2SHと同じ機能を提供する。これは `scriptSig` の末尾をハッシュし、その結果をスタックの先頭と比較し、2つのハッシュが一致しない場合にトランザクションを無効にすることを意図していた。このオペコードは実装されなかった。

@@ -1,5 +1,6 @@
 ---
-term: ALTCOÍNA
+term: Altcoin
 
+definition: Designa qualquer criptomoeda que não seja Bitcoin. Uma contração de alternative e coin.
 ---
-Refere-se a qualquer criptomoeda que não seja a Bitcoin (BTC). O termo "altcoin" é uma contração de "alternative" e "coin" (moeda alternativa). Alguns Bitcoiners maximalistas também utilizam o termo "shitcoins" para se referirem a altcoins.
+Designa qualquer criptomoeda que não seja o bitcoin (BTC). O termo "altcoin" é a contração de "alternative" e "coin". Alguns bitcoiners maximalistas também utilizam o termo "shitcoins" para designar os altcoins.

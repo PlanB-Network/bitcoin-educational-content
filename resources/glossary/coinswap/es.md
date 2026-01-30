@@ -1,5 +1,6 @@
 ---
-term: COINSWAP
+term: Coinswap
+definition: Protocolo de intercambio atómico de propiedad de bitcoins entre usuarios a través de contratos inteligentes.
 ---
 
 Protocolo de transferencia secreta de Ownership entre usuarios. Este método tiene como objetivo transferir la posesión de bitcoins de una persona a otra, y viceversa, sin que esta Exchange sea visible explícitamente en la Blockchain. Coinwap utiliza contratos inteligentes para realizar la transferencia sin necesidad de confianza entre las partes.

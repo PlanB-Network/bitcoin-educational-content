@@ -1,5 +1,6 @@
 ---
-term: UTEKAJI WA BGP
+term: BGP hijacking
+definition: Shambulio linalochezea uelekezaji wa Mtandao ili kuelekeza trafiki kwenye mtandao hasidi, ambao unaweza kutumika kutenga nodi za Bitcoin.
 ---
 
 Mashambulizi ambayo mwigizaji hasidi hudanganya matangazo ya BGP ili kuelekeza trafiki ya mtandao kwenye mtandao wake mwenyewe. Kwa kujifanya kuwa asili halali ya safu fulani za IP Address, mshambuliaji anaweza kukamata, kufuatilia au kuzuia trafiki inayolengwa kwa anwani hizi.

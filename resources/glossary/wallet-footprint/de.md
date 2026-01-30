@@ -1,6 +1,7 @@
 ---
-term: FUSSABDRUCK IM GELDBEUTEL
+term: Wallet-Fußabdruck
 
+definition: Unterscheidungsmerkmale, die in den Transaktionen einer Wallet beobachtet werden können und die Verfolgung ihrer Aktivitäten ermöglichen.
 ---
 Eine Reihe von Unterscheidungsmerkmalen, die bei Transaktionen derselben Bitcoin-Wallet zu beobachten sind. Diese Merkmale können Ähnlichkeiten in der Verwendung von Skripttypen, der Wiederverwendung von Adressen, der Reihenfolge von UTXOs, der Platzierung von Change-Outputs, der Signalisierung von RBF (*Replace-by-Fee*), der Versionsnummer, dem Feld `nSequence` und dem Feld `nLockTime` beinhalten.
 

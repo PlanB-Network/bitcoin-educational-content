@@ -1,5 +1,6 @@
 ---
-term: ارائه‌دهنده خدمات رعد و برق
+term: Lightning service provider
+definition: شرکتی که خدمات نقدینگی را به کاربران Lightning Network ارائه می‌دهد.
 ---
 
 شرکتی که بر روی Lightning فعالیت می‌کند و کسب‌وکار آن ارائه خدمات نقدینگی به کاربران است.

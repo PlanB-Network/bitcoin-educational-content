@@ -1,12 +1,13 @@
 ---
-term: COINJOIN CHAUMIANO
+term: Chaumian coinjoin
 
+definition: Protocolo de coinjoin que utiliza as assinaturas cegas de Chaum para garantir a privacidade dos participantes.
 ---
 Um protocolo coinjoin que utiliza as assinaturas cegas de David Chaum e o Tor para as comunicações entre os participantes e o servidor do coordenador. O objetivo de um coinjoin Chaumiano é garantir aos participantes que o coordenador não pode roubar bitcoins, nem ligar as entradas e saídas.
 
 Para tal, os utilizadores enviam ao coordenador o seu input e um endereço de receção criptograficamente oculto. Este endereço, uma vez desbloqueado, destina-se a receber os bitcoins como resultado da junção de moedas. O coordenador assina estes tokens e devolve-os aos utilizadores. Os utilizadores voltam então a ligar-se anonimamente ao servidor do coordenador com uma nova identidade Tor e revelam os seus endereços de saída em texto simples para a construção da transação. O coordenador pode verificar que todos estes endereços de receção provêm de utilizadores legítimos, uma vez que assinou previamente a sua versão oculta com a sua chave privada. No entanto, ele não pode associar um endereço de saída específico a um determinado utilizador de entrada. Por conseguinte, não existe qualquer ligação entre as entradas e as saídas, mesmo na perspetiva do coordenador. Uma vez construída a transação pelo coordenador, este envia-a de volta aos participantes que a assinam para desbloquear a sua entrada, depois de verificar que a sua saída está efetivamente nesta transação. Os participantes enviam a assinatura ao coordenador. Uma vez recolhidas todas as assinaturas, o coordenador pode transmitir a transação coinjoin na rede Bitcoin.
 
-![](../../dictionnaire/assets/38.webp)
+
 
 Este método garante que o coordenador não pode comprometer o anonimato dos participantes nem roubar as bitcoins durante todo o processo de coinjoin.
 

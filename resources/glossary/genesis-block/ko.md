@@ -1,5 +1,6 @@
 ---
-term: Genesis 블록
+term: 제네시스 블록
+definition: 2009년 1월 3일 사토시 나카모토가 생성한 비트코인 시스템의 첫 번째 블록.
 ---
 
 Genesis 블록은 Bitcoin 시스템의 첫 번째 블록입니다. 이는 Bitcoin의 구체적인 출시를 의미합니다. Genesis 블록은 2009년 1월 3일에 Bitcoin의 익명의 창시자인 Satoshi 나카모토에 의해 만들어졌습니다. Hash는

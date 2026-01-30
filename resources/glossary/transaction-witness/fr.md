@@ -1,5 +1,6 @@
 ---
-term: TÉMOIN DE TRANSACTION
+term: Témoin de transaction
+definition: Composante SegWit contenant les signatures et clés publiques nécessaires pour déverrouiller les bitcoins d'une transaction.
 ---
 
 Fait référence à une composante des transactions Bitcoin qui a été déplacée avec le soft fork SegWit afin de résoudre le problème de la malléabilité des transactions. Le témoin contient les signatures et les clés publiques nécessaires pour déverrouiller les bitcoins dépensés dans une transaction. Dans les transactions Legacy, le témoin représentait la somme des `scriptSig` de tous les inputs. Dans les transactions SegWit, le témoin représente la somme des `scriptWitness` de chaque input, et cette partie de la transaction est dorénavant déplacée dans un arbre de Merkle séparé au sein du bloc.

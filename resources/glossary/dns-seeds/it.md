@@ -1,6 +1,7 @@
 ---
-term: SEMI DNS
+term: Dns seeds
 
+definition: Server DNS che forniscono indirizzi IP di nodi attivi ai nuovi nodi che si uniscono alla rete Bitcoin.
 ---
 Punti di connessione iniziali per i nuovi nodi Bitcoin che si uniscono alla rete. Questi seed, che sono in realtà specifici server DNS, hanno il loro indirizzo permanentemente incorporato nel codice di Bitcoin Core. Quando un nuovo nodo si avvia, contatta questi server per ottenere un elenco casuale di indirizzi IP di nodi Bitcoin presumibilmente attivi. Il nuovo nodo può quindi stabilire connessioni con i nodi di questo elenco per ottenere le informazioni necessarie a eseguire il suo Initial Block Download (IBD) e a sincronizzarsi con la catena che ha accumulato più lavoro. Al 2024, ecco l'elenco dei semi DNS di Bitcoin Core e dei responsabili della loro manutenzione (https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp):
 

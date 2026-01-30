@@ -1,6 +1,7 @@
 ---
-term: PAGOS SILENCIOSOS
+term: Silent payments
 
+definition: Método para recibir pagos a través de una dirección estática sin reutilización de direcciones.
 ---
 Método para utilizar direcciones Bitcoin estáticas para recibir pagos sin reutilización de direcciones, sin interacción y sin un vínculo visible en la cadena entre los diferentes pagos y la dirección estática. Esta técnica elimina la necesidad de generar nuevas direcciones receptoras no utilizadas para cada transacción, evitando así las interacciones habituales en Bitcoin en las que el receptor debe proporcionar una nueva dirección al pagador.
 

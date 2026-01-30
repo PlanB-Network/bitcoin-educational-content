@@ -1,6 +1,7 @@
 ---
-term: CHAVE ALARGADA
+term: Chave estendida
 
+definition: Cadeia que combina uma chave, o seu chain code e metadados para derivação em carteiras HD.
 ---
 Uma sequência de caracteres que combina uma chave (pública ou privada), o seu código de cadeia associado e uma série de metadados. Uma chave estendida compila todos os elementos necessários para derivar chaves filhas num único identificador. São utilizadas em carteiras determinísticas e hierárquicas e podem ser de dois tipos: uma chave pública alargada (utilizada para derivar chaves públicas filhas) ou uma chave privada alargada (utilizada para derivar chaves privadas e públicas filhas). Uma chave alargada inclui, assim, vários dados diferentes, descritos na BIP32, pela ordem seguinte
 

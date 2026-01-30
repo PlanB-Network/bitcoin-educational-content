@@ -1,6 +1,7 @@
 ---
 term: VOUT
 
+definition: Bitcoin-rahansiirron osa, joka määrittää varojen määränpään arvolla ja lukitusskriptillä.
 ---
 Bitcoin-tapahtuman erityinen elementti, joka määrittää lähetettyjen varojen määränpään. Transaktio voi sisältää useita lähtöjä, joista kukin yksilöidään transaktion tunnisteen (`txid`) ja `vout`-nimisen indeksin yhdistelmällä. Tämä indeksi, joka alkaa numerosta `0`, merkitsee lähdön sijaintia transaktion lähdöissä. Näin ollen ensimmäinen ulostulo on `"vout": 0`, toinen `"vout": 1` ja niin edelleen.
 

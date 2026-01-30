@@ -1,5 +1,6 @@
 ---
-term: DEONICE
+term: Udeli (shares)
+definition: Indikator koji kvantifikuje doprinos pojedinačnog rudara unutar rudarskog pool-a.
 ---
 
 U kontekstu Mining bazena, udeo je indikator koji se koristi za kvantifikaciju doprinosa pojedinačnog Miner unutar bazena. Ova mera služi kao osnova za izračunavanje nagrade koju bazen preraspodeljuje svakom Miner. Svaki udeo odgovara Hash koji zadovoljava cilj težine niži od onog u Bitcoin mreži.
@@ -16,7 +17,7 @@ Za svaki izračunati Hash, pojedinačni Miner u bazenu može naići na tri razli
 - Ako je Hash niži od ciljne težine mreže Bitcoin, smatra se i važećim deljenjem i važećim blokom. Miner prenosi ovaj Hash svom bazenu, koji žuri da ga emituje na mreži Bitcoin. Ovaj Hash se takođe računa kao važeće deljenje za Miner: `share > bloc > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Ovaj sistem deljenja se koristi za procenu rada koji obavi svaki pojedinačni Miner unutar bazena, bez potrebe da se pojedinačno ponovo izračunavaju svi heševi koje generiše Miner, što bi bilo potpuno neefikasno za bazen.
@@ -25,4 +26,3 @@ Ovaj sistem deljenja se koristi za procenu rada koji obavi svaki pojedinačni Mi
 Mining bazeni prilagođavaju težinu deonica kako bi uravnotežili opterećenje verifikacije i osigurali da svaki Miner, bilo mali ili veliki, podnosi deonice otprilike svakih nekoliko sekundi. Ovo omogućava tačno izračunavanje svakog Miner-ovog Hashrate i raspodelu nagrada prema izabranom metodu izračunavanja kompenzacije (PPS, PPLNS, TIDES...).
 
 
-> ► *U francuskom, "shares" se može prevesti kao "part".*

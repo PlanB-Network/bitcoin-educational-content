@@ -1,24 +1,25 @@
 ---
-term: ANONSETS (ANONYMITY SETS)
+term: Anonsets (skupovi anonimnosti)
+definition: Indikatori koji mere stepen privatnosti UTXO brojanjem broja nerazlučivih UTXO-a u setu, tipično nakon coinjoin.
 ---
+Anonseti služe kao indikatori za procenu stepena privatnosti određenog UTXO-a. Preciznije, oni mere broj neprepoznatljivih UTXO-a unutar skupa koji uključuje posmatranu jedinicu. Pošto je neophodno raspolagati grupom identičnih UTXO-a, anonseti se uglavnom izračunavaju u okviru ciklusa coinjoin-a. Oni omogućavaju, po potrebi, procenu kvaliteta coinjoin-a. Veliki anonset znači viši nivo anonimnosti, jer postaje teško razlikovati određeni UTXO unutar skupa.
 
-Anonsetovi služe kao indikatori za procenu nivoa privatnosti određenog UTXO. Konkretno, oni mere broj neodvojivih UTXO-ova unutar skupa koji uključuje novčić koji se proučava. Pošto je potrebna grupa identičnih UTXO-ova, anonsetovi se generalno računaju unutar ciklusa coinjoin-a. Oni omogućavaju, gde je to prikladno, da se proceni kvalitet coinjoin-a. Veliki anonset znači povećan nivo anonimnosti, jer postaje teško razlikovati određeni UTXO unutar skupa. Postoje dve vrste anonsetova:
+Postoje dve vrste anonseta: forward anonset (forward-looking metrics); i backward anonset (backward-looking metrics). Termin "*score*" se ponekad takođe koristi za označavanje anonseta.
 
-
-- Prospektivni skup anonimnosti;
-- Retrospektivni skup anonimnosti.
-
-
-Prvi pokazuje veličinu grupe među kojom je skriven proučavani UTXO, znajući UTXO na ulazu. Ovaj indikator omogućava merenje otpornosti privatnosti novčića protiv analize od prošlosti ka sadašnjosti (od ulaza ka izlazu). Na engleskom, naziv ovog indikatora je "*forward anonset*" ili "*forward-looking metrics*."
+Prvi pokazuje veličinu grupe u kojoj se krije analizirani izlazni UTXO, pri poznatom ulaznom UTXO-u. Ovaj indikator omogućava merenje otpornosti privatnosti novčića na analizu od prošlosti ka sadašnjosti (od ulaza ka izlazu). Drugi pokazuje broj mogućih izvora za dati novčić, pri poznatom izlaznom UTXO-u. Ovaj indikator omogućava merenje otpornosti privatnosti novčića na analizu od sadašnjosti ka prošlosti (od izlaza ka ulazu).
 
 
-![](../../dictionnaire/assets/39.webp)
 
 
-Drugi pokazatelj označava broj mogućih izvora za dati novčić, znajući UTXO na izlazu. Ovaj indikator omogućava merenje otpornosti privatnosti novčića protiv analize od sadašnjosti ka prošlosti (od izlaza ka ulazu). Na engleskom, naziv ovog indikatora je "*backward anonset*" ili "*backward-looking metrics*."
 
 
-![](../../dictionnaire/assets/40.webp)
 
 
-> ► *U francuskom jeziku je opšteprihvaćeno korišćenje termina “anonset.” Međutim, mogao bi se prevesti kao “ensemble d'anonymat” ili “potentiel d'anonymat.” U engleskom i francuskom jeziku, termin “score” se takođe ponekad koristi za označavanje anonseta (prospective score i retrospective score).*
+
+
+
+
+
+
+
+

@@ -1,5 +1,6 @@
 ---
-term: VEZEL
+term: Fibre
+definition: Protocol ontworpen om de verspreiding van Bitcoin-blokken wereldwijd te versnellen.
 ---
 
 Acroniem voor "*Fast Internet Bitcoin Relay Engine*". Het is een protocol ontworpen door Matt Corallo in 2016 om de distributie van Bitcoin blokken over de wereld te versnellen. Het doel was om propagatievertragingen zo dicht mogelijk bij de fysieke grenzen te brengen. FIBRE wilde een eerlijkere verdeling van Mining kansen, door ervoor te zorgen dat het deel van de blokken dat een deelnemer mined, nauwkeurig zijn bijdrage in rekenkracht weerspiegelt, ongeacht zijn positie in het netwerk.

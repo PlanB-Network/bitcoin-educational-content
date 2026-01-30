@@ -1,5 +1,6 @@
 ---
 term: BIP0038
+definition: Standard för att kryptera privata Bitcoin-nycklar med ett lösenord, som särskilt används för att säkra pappersplånböcker.
 ---
 
 Ett Bitcoin-förbättringsförslag som introducerar en krypteringsmekanism för att lägga till extra skydd för privata nycklar genom en passphrase. BIP38 säkerställer att även om en tredje part fysiskt får tag på den krypterade privata nyckeln kan de inte använda den utan att känna till dess passphrase. Detta lägger till ytterligare en Layer av säkerhet för att skydda bitcoins från stöld, särskilt för säkerheten i gamla pappersplånböcker.

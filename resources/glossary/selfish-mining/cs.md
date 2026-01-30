@@ -1,5 +1,6 @@
 ---
-term: SELFISH Mining
+term: Selfish mining
+definition: Těžební strategie zadržování tajných bloků s cílem získat náskok před ostatními těžaři.
 ---
 
 Strategie (nebo útok) v Mining, kdy těžař Miner nebo skupina těžařů záměrně zadržuje bloky s platným Proof of Work, aniž by je okamžitě uvolnil do sítě. Cílem je udržet si náskok před ostatními těžaři, pokud jde o Proof of Work, což jim potenciálně umožní Miner několik bloků za sebou a zveřejnit je všechny najednou, čímž maximalizují svůj zisk. Jinými slovy, útočící skupina těžařů netěží na posledním bloku validovaném celou sítí, ale na bloku, který sama vytvořila a který se liší od bloku validovaného sítí.

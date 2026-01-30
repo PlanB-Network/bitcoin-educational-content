@@ -1,5 +1,6 @@
 ---
-term: pruned NODE
+term: Budanmış düğüm
+definition: Depolama alanından tasarruf etmek için eski doğrulanmış blokları silen tam düğüm (full node).
 ---
 
 Bir pruned düğümü, İngilizce "pruned Node", Blockchain'in budamasını gerçekleştiren bir Full node'dir. Bu, en eski blokları usulüne uygun olarak doğruladıktan sonra, yalnızca en yeni blokları tutmak için aşamalı olarak kaldırmayı içerir. Saklama limiti `Bitcoin.conf` dosyasında `prune=n` parametresi aracılığıyla belirtilir, burada `n` megabayt (MB) cinsinden bloklar tarafından alınan maksimum boyuttur. Bu parametreden sonra `0` belirtilirse, budama devre dışı bırakılır ve düğüm Blockchain'i bütünüyle saklar.

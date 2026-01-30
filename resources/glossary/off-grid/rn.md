@@ -1,5 +1,6 @@
 ---
-term: HANZE y'uruzitiro
+term: Hanze y'urushinge
+definition: Ugucukura kwigenga hacyishimikizwa amasoko y'inguvu y'iyindi, hanze y'umuyagankuba rusangi.
 ---
 
 Yerekeza ku gikorwa ca Bitcoin Mining gikora cigenga, kitahujwe n’uruzitiro rw’amashanyarazi nyamukuru. Abacukuzi b’amabuye y’agaciro batagira uruja n’uruza muri rusangi bakoresha ubundi buryo bw’inguvu nk’izuba, umuyaga canke amazi, canke mbere n’amageneratore akoresha amakara y’ibisigazwa (nk’akarorero gaze yo gutera umuriro). Ico kigereranyo akenshi kirakundwa kugira ngo kigabanye igiciro c’inguvu, kuko gishingiye ku gice kimwe ku nguvu, iyo hataba Mining, zoba zapfuye ubusa. Abacukuzi b’amabuye y’agaciro batagira uruja n’uruza barafise akamaro ko gushobora gushinga ahantu hari ukwabo, kugira ngo bashobore gukoresha izo nguvu kure cane y’abantu.

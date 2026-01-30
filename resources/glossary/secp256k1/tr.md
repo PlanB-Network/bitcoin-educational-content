@@ -1,5 +1,6 @@
 ---
 term: SECP256K1
+definition: Bitcoin'de ECDSA ve Schnorr dijital imzaları için kullanılan eliptik eğri.
 ---
 
 ECDSA (*Elliptic Curve Digital Signature Algorithm*) ve Schnorr dijital imza algoritmalarının uygulanması için Bitcoin protokolünde kullanılan belirli bir eliptik eğriye verilen ad. Secp256k1` eğrisi Bitcoin'ın mucidi Satoshi Nakamoto tarafından seçilmiştir. Başta performans avantajları olmak üzere bazı ilginç özelliklere sahiptir.

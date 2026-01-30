@@ -1,5 +1,6 @@
 ---
-term: BTCD (IKIBAZO ca BTC)
+term: Btcd (btc suite)
+definition: Uburyo buke bw'itegeko rya Bitcoin bwanditse muri Go, ubundi buryo bwa Bitcoin Core.
 ---
 
 Ishirwa mu ngiro ry’amasezerano ya Bitcoin n’abantu bake. BTCD ni ubundi buryo bwo gukoresha porogarama ya Bitcoin core (cane cane bitcoind).

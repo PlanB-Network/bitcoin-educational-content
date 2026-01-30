@@ -1,5 +1,6 @@
 ---
-term: Bitcoin GENOMFÖRANDE
+term: Bitcoin-implementering
+definition: Programvara som tillämpar reglerna i Bitcoin-protokollet, där Bitcoin Core är referensimplementeringen.
 ---
 
 Avser programvara som tillämpar och följer de regler som definieras av Bitcoin-protokollet. Det som i allmänhet kallas "Bitcoin" är systemet för elektroniska pengar. Det är ett protokoll som specificerar regler. Det representeras konkret av noder som bildar ett nätverk. Detta system har inte specifikt någon kod. Det är helt enkelt en uppsättning breda underförstådda regler som införs genom användarnas konsensus via deras noder. Men de som har datorkod, och därför kan utvecklas, underhållas och modifieras, är snarare Bitcoin-nodernas programvara. Dessa är oberoende implementeringar av Bitcoin-protokollet, som kan ansluta till resten av nätverket.

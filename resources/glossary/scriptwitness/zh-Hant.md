@@ -1,5 +1,6 @@
 ---
-term: 劇本見證人
+term: Scriptwitness
+definition: 包含用於解鎖比特幣的簽名和公鑰的SegWit元素。
 ---
 
 SegWit 交易條目中的一個元素，包含解鎖交易中發送的比特幣所需的簽名和公開密鑰。類似於 Legacy 交易的 `scriptSig`, `scriptWitness` 並非放置在相同的位置。事實上，正是這個被稱為 「見證」（英文中的 "*witness*"）的部分，被移到了一個單獨的資料庫中，以解決交易的延展性問題。每個 SegWit 輸入都有自己的`scriptWitness`，而所有的`scriptWitness` Elements 一起構成了交易的`Witness`欄位。

@@ -1,5 +1,6 @@
 ---
-term: ZEROCONF
+term: Zeroconf
 
+definition: Praktik berisiko menganggap transaksi yang belum dikonfirmasi sebagai final, rentan terhadap pengeluaran ganda.
 ---
 Sebuah praktik yang berisiko memperlakukan transaksi Bitcoin sebagai transaksi final, dan melanjutkan dengan eksekusi tindakan terkait sebagai imbalannya (seperti penjualan barang atau jasa), sebelum transaksi tersebut benar-benar dimasukkan ke dalam blok di _blockchain_. Transaksi yang belum dikonfirmasi, atau _zeroconf_, rentan terhadap serangan pembelanjaan ganda, karena transaksi tersebut belum dicatat secara permanen di dalam _ledger_. Penggunaan _zeroconf_ dapat dipertimbangkan dalam konteks yang sangat spesifik, di mana kecepatan adalah prioritas, seperti dalam kasus transaksi komersial kecil atau dalam kasus transaksi antara kenalan. Dalam situasi ini, risiko pengeluaran ganda sering dianggap dapat diterima dibandingkan dengan manfaat dari transaksi yang cepat. Namun demikian, untuk transaksi yang signifikan, terutama ketika pengirimnya tidak diketahui, sangat penting untuk menunggu beberapa konfirmasi sebelum menganggap transaksi tersebut tidak dapat diubah. Standar yang diterima secara umum adalah menunggu 6 konfirmasi, yang berarti 5 blok tambahan harus ditambang setelah satu blok termasuk transaksi, untuk menganggapnya sebagai final.

@@ -1,6 +1,7 @@
 ---
-term: P2WSH (支付到隔离见证脚本哈希)
+term: P2WSH
 
+definition: 将比特币锁定在脚本哈希上的原生 SegWit 脚本，地址为 bc1q。
 ---
 P2WSH 代表“支付到隔离见证脚本哈希”。它是一种标准脚本模型，用于在 UTXO 上建立支出条件。P2WSH 是在 2017 年 8 月实施 SegWit 时引入的。
 

@@ -1,5 +1,6 @@
 ---
-term: STATIČKI Address
+term: Statička adresa
+definition: Jedinstveni identifikator za Silent Payments koji omogućava primanje uplata bez ponovne upotrebe adrese ili vidljive on-chain veze.
 ---
 
 U kontekstu Silent Payments, odnosi se na jedinstveni identifikator koji omogućava primanje uplata bez ponovne upotrebe Address, bez interakcije i bez vidljive veze On-Chain između različitih uplata i statičkog Address. Ova tehnika eliminiše potrebu za generate novim, neiskorišćenim adresama za primanje za svaku transakciju, čime se izbegavaju uobičajene interakcije u Bitcoin gde primalac mora da obezbedi novi Address platiocu. To je donekle ekvivalentno ponovnom upotrebljivom kodu za plaćanje u kontekstu BIP47.

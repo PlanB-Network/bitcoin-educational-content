@@ -1,5 +1,6 @@
 ---
-term: DOWÓD REZERWACJI
+term: Dowód rezerw
+definition: Mechanizm pozwalający platformom wymiany na udowodnienie, że przechowują bitcoiny swoich klientów.
 ---
 
 Mechanizm wykorzystywany przez platformy Bitcoin Exchange w celu wykazania, że faktycznie posiadają one aktywa swoich klientów. Celem jest udowodnienie wypłacalności firmy poprzez sprawdzenie, czy jej bitcoiny są równoważne lub większe niż salda użytkowników, które mają posiadać.

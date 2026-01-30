@@ -1,6 +1,7 @@
 ---
-term: ANÁLISE EM CADEIA
+term: Análise de cadeia
 
+definition: Prática de rastreamento de fluxos de bitcoins na blockchain utilizando heurísticas e padrões.
 ---
 Prática que engloba todos os métodos utilizados para rastrear o fluxo de bitcoins na blockchain. Geralmente, a análise da cadeia baseia-se na observação de caraterísticas em amostras de transacções anteriores. Trata-se, então, de identificar essas mesmas caraterísticas numa transação que se pretende analisar e deduzir interpretações plausíveis. Este método de resolução de problemas, baseado numa abordagem prática para encontrar uma solução suficientemente boa, é conhecido como heurística. Para simplificar, a análise em cadeia é efectuada em duas etapas principais:
 

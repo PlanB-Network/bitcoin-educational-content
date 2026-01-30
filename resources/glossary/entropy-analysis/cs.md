@@ -1,6 +1,7 @@
 ---
-term: ENTROPIE (ANALÝZA)
+term: Analýza entropie
 
+definition: Indikátor měřící nedostatek znalostí analytiků o konfiguraci transakce Bitcoin.
 ---
 Ve specifickém kontextu řetězové analýzy je entropie také název ukazatele, odvozený od Shannonovy entropie, kterou vynalezl LaurentMT. Tento ukazatel umožňuje měřit nedostatek znalostí, které mají analytici o přesné konfiguraci bitcoinové transakce. Jinými slovy, čím vyšší je entropie transakce, tím obtížnější je pro analytiky identifikovat pohyby bitcoinů mezi vstupy a výstupy.
 

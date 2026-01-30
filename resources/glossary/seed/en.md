@@ -1,5 +1,6 @@
 ---
-term: GRAIN
+term: Seed
+definition: 512-bit information allowing the generation of all keys for an HD Bitcoin wallet.
 ---
 
 In the specific context of a Bitcoin hierarchical deterministic portfolio, a seed is a 512-bit piece of information derived from a random event. It is used to deterministically and hierarchically generate a set of private keys, and their corresponding public keys, for a Bitcoin portfolio. The seed is often confused with the recovery phrase itself. But it's not the same thing. The seed is obtained by applying the `PBKDF2` function to the mnemonic phrase and any passphrase.

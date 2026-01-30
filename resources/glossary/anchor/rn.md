@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition: Mu nkuru ya RGB, ikipimo cy'amakuru agakubwira gukoreshwa kw'ije rikiraye mu Miamala ya Bitcoin, ubwiyunge w'ayo makuru ntiyibaze.
 ---
 
 Mu masezerano ya RGB, Anchor igereranya amakuru y’uruhande rw’umukiriya akoreshwa mu kwemeza ko Commitment imwe gusa irimwo mu gucuruza. Mu masezerano ya RGB, Anchor igizwe n’iyi Elements ikurikira:

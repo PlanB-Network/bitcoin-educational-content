@@ -1,5 +1,6 @@
 ---
-term: OP_FROMALTSTACK(0x6C)
+term: OP_FROMALTSTACK (0X6C)
+definition: 대체 스택에서 메인 스택으로 요소를 이동하는 Opcode.
 ---
 
 대체 스택(*알트 스택*)에서 최상위 항목을 제거하여 메인 스택(*메인 스택*)의 최상단에 배치합니다. 이 연산은 대체 스택에 임시로 저장된 데이터를 검색하는 데 사용됩니다. 간단히 말해, `OP_TOALTSTACK`의 반대 연산입니다.

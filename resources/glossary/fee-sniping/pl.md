@@ -1,5 +1,6 @@
 ---
-term: ŚCIĄGANIE OPŁAT
+term: Fee sniping
+definition: Atak, w którym górnicy nadpisują niedawny blok, aby przejąć zawarte w nim wysokie opłaty transakcyjne.
 ---
 
 Scenariusz ataku, w którym górnicy starają się przepisać niedawno potwierdzony blok w celu pobrania zawartych w nim opłat transakcyjnych, jednocześnie dodając transakcje o wysokiej opłacie, które pojawiły się w międzyczasie w Mempool. Ostatecznym celem tego ataku dla Miner jest zwiększenie ich rentowności. Fee sniping może stać się coraz bardziej opłacalny, gdy Block reward maleje, a opłaty transakcyjne stanowią większą część przychodów górników. Może to być również korzystne, gdy opłaty zawarte w poprzednim bloku są znacznie wyższe niż te w następnym najlepszym bloku kandydującym. Upraszczając, Miner staje przed takim wyborem pod względem zachęt:

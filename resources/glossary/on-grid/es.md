@@ -1,5 +1,6 @@
 ---
-term: ON-GRID
+term: En la red
+definition: Minería conectada a la red eléctrica general para alimentar los ASICs.
 ---
 
 Se refiere a una operación Bitcoin Mining que está conectada a la red eléctrica general. Los mineros en red se conectan a la red eléctrica convencional, también utilizada por los consumidores residenciales, para alimentar sus ASIC. Este método ofrece una fuente de energía estable, pero suele ser más caro que la Mining fuera de la red, debido a unos márgenes de negociación más limitados.

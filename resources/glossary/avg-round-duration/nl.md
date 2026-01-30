@@ -1,5 +1,6 @@
 ---
-term: AVG. UREN
+term: Gemiddelde ronde duur
+definition: Een indicator die de gemiddelde tijd schat die een mijngroep nodig heeft om een blok te vinden, op basis van zijn rekenkracht en netwerkmoeilijkheid.
 ---
 
 De gemiddelde duur van een ronde is een indicator die gebruikt wordt om de tijd in te schatten die een Mining pool nodig heeft om een blok te vinden, gebaseerd op de moeilijkheidsgraad van het netwerk en de Hashrate van de pool. Het wordt berekend door het aantal aandelen te nemen dat verwacht wordt om een blok te vinden en dit te delen door de Hashrate van de pool. Als een Mining pool bijvoorbeeld 200 miners heeft, en elk genereert gemiddeld 4 aandelen per seconde, dan is de totale rekenkracht van de pool 800 aandelen per seconde:

@@ -1,5 +1,6 @@
 ---
-term: IMPLÉMENTATION DE BITCOIN
+term: Implémentation de bitcoin
+definition: Logiciel appliquant les règles du protocole Bitcoin, Bitcoin Core étant l'implémentation de référence.
 ---
 
 Fait référence à un logiciel qui applique et suit les règles définies par le protocole Bitcoin. Ce que l’on appelle « Bitcoin », c’est généralement le système d’argent électronique. C’est un protocole qui spécifie des règles. Il est représenté, concrètement, par des nœuds qui forment un réseau. Ce système ne dispose pas spécifiquement de code. C’est simplement un ensemble de grandes règles tacites imposées par le consensus des utilisateurs via leurs nœuds. En revanche, ceux qui disposent de code informatique, et qui peuvent donc être développés, maintenus et modifiés, ce sont plutôt les logiciels de nœuds Bitcoin. Ce sont des implémentations indépendantes du protocole Bitcoin, qui peuvent se connecter au reste du réseau.

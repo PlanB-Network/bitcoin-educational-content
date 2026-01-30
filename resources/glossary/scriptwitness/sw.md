@@ -1,5 +1,6 @@
 ---
-term: USHAHIDI WA MAANDIKO
+term: Scriptwitness
+definition: Kipengele cha SegWit kilicho na saini na funguo za umma ili kufungua bitcoin.
 ---
 
 Kipengele katika maingizo ya miamala ya SegWit ambayo yana saini na funguo za umma zinazohitajika ili kufungua bitcoins zilizotumwa katika muamala. Sawa na `scriptSig` ya shughuli za Urithi, `scriptWitness`, hata hivyo, haijawekwa katika eneo moja. Kwa hakika, ni sehemu hii, inayojulikana kama "shahidi" (`*shahidi*` kwa Kiingereza), ambayo huhamishwa hadi kwenye hifadhidata tofauti ili kutatua tatizo la uharibifu wa muamala. Kila ingizo la SegWit lina `scriptWitness` yake, na `script Witness` Elements wote kwa pamoja huunda sehemu ya `Witness` ya shughuli hiyo.

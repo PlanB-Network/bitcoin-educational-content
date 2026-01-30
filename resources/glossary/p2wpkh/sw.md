@@ -1,5 +1,6 @@
 ---
 term: P2WPKH
+definition: Hati asilia ya SegWit inayofunga bitcoin kwa hash ya ufunguo wa umma, anuani za bc1q.
 ---
 
 P2WPKH inasimamia *Pay to Witness Public Key Hash*. Ni muundo wa hati wa kawaida unaotumiwa kuweka masharti ya matumizi kwenye UTXO. P2WPKH ilianzishwa na utekelezaji wa SegWit mnamo Agosti 2017.

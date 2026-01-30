@@ -1,5 +1,6 @@
 ---
-term: PAGOS ATÓMICOS MULTIRRUTA
+term: Atomic multi-path payments
+definition: Una versión mejorada de pagos multiruta en Lightning donde cada fragmento tiene un secreto distinto, asegurando que el pago se liquide completamente o no.
 ---
 
 Versión mejorada de MPP (*Multi-Path Payments*) en la que cada fragmento de pago tiene un secreto parcial distinto, lo que garantiza que la transacción se liquide atómicamente, es decir, en su totalidad o no.

@@ -1,10 +1,15 @@
 ---
-term: ASSUME UTXO
+term: Assume utxo
 
+definition: Parameter Bitcoin Core yang memungkinkan sinkronisasi cepat node baru dengan menggunakan snapshot dari set UTXO yang dianggap valid, sebelum memverifikasi riwayat di latar belakang.
 ---
-Sebuah parameter konfigurasi pada klien Bitcoin Core terkemuka yang memungkinkan sebuah _node_ yang baru saja diinisialisasi (tetapi belum menjalani IBD) untuk menunda verifikasi transaksi dan set UTXO hingga _snapshot_ yang diberikan. Konsep ini bergantung pada penggunaan set UTXO (daftar semua UTXO yang ada pada waktu tertentu) yang disediakan oleh Core dan dianggap akurat, yang memungkinkan _node_ disinkronkan dengan sangat cepat dengan rantai terpanjang (rantai dengan kerja paling banyak). Karena _node_ melewati langkah IBD yang memakan waktu lama, maka _node_ dapat beroperasi dengan sangat cepat bagi penggunanya. _ASSUME UTXO_ membagi proses sinkronisasi (IBD) menjadi dua bagian:
+Parameter konfigurasi dalam klien mayoritas Bitcoin Core yang memungkinkan node yang baru saja diinisialisasi (tetapi belum melakukan IBD) untuk menunda verifikasi transaksi dan set UTXO sebelum snapshot tertentu. Konsep ini didasarkan pada penggunaan set UTXO (daftar semua UTXO yang ada pada waktu tertentu) yang disediakan oleh Core dan dianggap akurat, yang memungkinkan node untuk disinkronkan dengan sangat cepat pada rantai dengan akumulasi kerja terbanyak. Karena node melewati tahap IBD yang panjang, node tersebut menjadi fungsional bagi penggunanya dengan sangat cepat.
 
-- Pertama, _node_ melakukan _Header First Sync_ (verifikasi _header_ saja) dan menganggap set UTXO yang disediakan oleh Core valid;
-- Kemudian, setelah beroperasi, _node_ akan memverifikasi riwayat blok lengkap di belakang layar, memperbarui set UTXO baru yang telah diverifikasi sendiri. Jika set UTXO baru ini tidak cocok dengan yang disediakan oleh Core, pesan kesalahan akan muncul.
+Assume UTXO membagi sinkronisasi (IBD) menjadi dua bagian: Pertama, node melakukan Header First Sync (hanya verifikasi header) dan menganggap valid set UTXO yang disediakan oleh Core; Kemudian, setelah berfungsi, node akan memverifikasi riwayat blok lengkap di latar belakang, memperbarui set UTXO baru yang telah diverifikasi sendiri. Jika yang terakhir tidak cocok dengan set UTXO yang disediakan oleh Core, ia akan memberikan pesan kesalahan.
 
-Oleh karena itu, _ASSUME UTXO_ mempercepat persiapan awal _node_ Bitcoin baru dengan menunda proses verifikasi transaksi dan set UTXO melalui _snapshot_ terbaru yang disediakan di Core.
+Assume UTXO memungkinkan percepatan penyiapan node Bitcoin baru dengan menunda proses verifikasi transaksi dan set UTXO berkat snapshot terbaru yang disediakan di Core.
+
+
+
+
+

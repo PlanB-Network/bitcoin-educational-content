@@ -1,6 +1,7 @@
 ---
-term: PSEUDO-RANDOM
+term: Acak semu
 
+definition: Urutan angka yang dihasilkan secara deterministik dengan properti yang mendekati acak.
 ---
 Kata sifat ini digunakan untuk mendeskripsikan urutan angka yang, meskipun merupakan hasil dari proses deterministik, menampilkan karakteristik yang mendekati karakteristik urutan acak yang ideal. Konsep keacakan yang ideal menyiratkan tidak adanya prediktabilitas dan korelasi antara elemen-elemen yang berurutan. Bilangan acak semu dihasilkan oleh algoritma deterministik dan oleh karena itu, secara teori, dapat diprediksi sepenuhnya jika kita mengetahui kondisi awal generator.
 

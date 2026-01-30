@@ -1,5 +1,6 @@
 ---
 term: Commitment
+definition: Cryptographic object allowing to prove the existence of data without revealing it.
 ---
 
 A Commitment (in the cryptographic sense) is a mathematical object, denoted $C$, derived deterministically from an operation on structured data $m$ (the message) and a random value $r$. We write :

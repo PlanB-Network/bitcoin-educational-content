@@ -1,5 +1,6 @@
 ---
 term: MASF
+definition: Aktivasyonu, madencilerin blokları aracılığıyla sinyal vermesinden kaynaklanan soft fork.
 ---
 
 "*Miner-Aktive Edilmiş Soft Fork*" için kısaltma. Aktivasyonu madencilerin eyleminden gelen Bitcoin'deki bir Soft Fork'i tanımlar. MASF, Bitcoin üzerinde bir Soft Fork aktivasyon yöntemleri ailesidir. Bu yaklaşımlarda madenciler, Soft Fork'in kilitlenmesini destekleyen Mining blokları ile bir protokol güncellemesi için anlaştıklarını ve hazır olduklarını bildirirler. Madencilerin önemli bir çoğunluğu Soft Fork lehine oy kullanırsa, güncelleme kabul edilmiş sayılır ve daha sonra etkinleştirilir. Bu süreç Blockchain'ın bölünmesini önlemeye yardımcı olur ve ağın birliğini korur. MASF, daha nazik, fikir birliğine dayalı yaklaşımı nedeniyle tercih edilir, Blockchain'ın bölünme riskini azaltırken bilgi işlem gücünün çoğunluğunun yeni güncellemeyi desteklemesini sağlar. BIP34, BIP9, BIP8 (eğer `LOT=false` veya oylama eşiğine ulaşılırsa) veya Speedy Trial gibi aktivasyon yöntemleri MASF'ye örnektir.

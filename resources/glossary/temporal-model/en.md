@@ -1,5 +1,6 @@
 ---
-term: TEMPORAL MODEL
+term: Temporal model
+definition: Analysis of transaction broadcast times to infer the nature or location of an on-chain entity.
 ---
 
 Certain human behaviors are recognizable on-chain. Perhaps the most useful in chain analysis is your sleep pattern! Yes, when you are sleeping, you presumably are not broadcasting Bitcoin transactions. Generally, you sleep around the same hours. Therefore, temporal analyses are commonly used in chain analysis. It simply involves recording the times at which a given entity's transactions are broadcast to the Bitcoin network. Analyzing these temporal patterns allows us to deduce numerous pieces of information.

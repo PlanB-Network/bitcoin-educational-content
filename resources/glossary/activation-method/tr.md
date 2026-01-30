@@ -1,5 +1,6 @@
 ---
-term: AKTIVASYON YÖNTEMI
+term: Etkinleştirme yöntemi
+definition: Bitcoin topluluğunun bir soft fork'u etkinleştirmeye karar verme sürecidir ve madenciler ve kullanıcılar arasında fikir birliğini arayarak blockchain bölünmesini önler.
 ---
 
 Bir aktivasyon yöntemi, kullanıcı topluluğunun Blockchain bölünmesini önlemeyi amaçlayarak Bitcoin protokolünde bir Soft Fork'in uygulanmasına karar verdiği süreçtir. Bu süreç, bir Soft Fork'in etkinleştirilmesinden önce onaylanması için madencilerin görüşlerinin alınmasını içerir. Önemli bir çoğunluk Soft Fork'i kabul ederse, Blockchain bölünmesi riski en aza indirilir. Bu fikir birliği çok önemlidir çünkü madencilerin çoğunluğu değişiklik yapmayı reddederse, Soft Fork iki farklı zincir oluşturabilir: biri değiştirilmiş kurallara sahip olan diğeri olmayan. Aktivasyon yöntemlerinin 2 ana kategorisi vardır:

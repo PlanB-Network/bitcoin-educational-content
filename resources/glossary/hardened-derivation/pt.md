@@ -1,5 +1,6 @@
 ---
-term: DERIVAÇÃO ENDURECIDA
+term: Derivação endurecida
 
+definition: Derivação que utiliza a chave privada ascendente, impedindo a geração de chaves a partir da chave pública estendida.
 ---
 O processo de geração de chaves filhas em carteiras HD. A derivação reforçada utiliza a chave privada principal como entrada para a função `HMAC-SHA512`, tornando impossível gerar chaves públicas secundárias a partir da chave pública principal e do código de cadeia principal. O processo envolve a concatenação da chave privada pai e um índice maior ou igual a $2^{31}$, seguido pela aplicação de `HMAC-SHA512` com o código de cadeia pai. O resultado é dividido em duas partes: os primeiros 256 bits são adicionados à chave privada pai para obter a chave privada filha, enquanto os 256 bits restantes formam o código de cadeia filha. Este método garante que, mesmo que uma chave pública alargada seja comprometida, não pode ser utilizada para derivar chaves públicas filhas. Na derivação padrão, a derivação reforçada é utilizada em todos os níveis de derivação até à profundidade da conta. Nas notações de caminho de derivação, uma derivação reforçada é identificada com um apóstrofo `'` ou, mais raramente, com um `h`.

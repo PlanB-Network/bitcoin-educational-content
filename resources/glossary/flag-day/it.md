@@ -1,6 +1,7 @@
 ---
-term: GIORNO DELLA BANDIERA
+term: Flag day
 
+definition: Metodo di attivazione di un soft fork che fissa una data limite per l'adozione delle nuove regole.
 ---
 Metodo di attivazione di un soft fork utilizzato nei primi anni di vita di Bitcoin. Questo processo stabilisce semplicemente una scadenza, nota come "Flag Day", prima della quale l'aggiornamento del protocollo deve essere adottato dall'intera rete. Questo approccio è semplice: dopo questa data, i nodi e i minatori devono aver aggiornato il loro software per conformarsi alle nuove regole, altrimenti rischiano di trovarsi su una catena incompatibile.
 

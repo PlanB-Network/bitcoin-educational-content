@@ -1,5 +1,6 @@
 ---
-term: BONIFICACIÓN POR PROXIMIDAD
+term: Prima de proximidad
+definition: Ventaja financiera de los mineros obtenida al reducir la latencia de las comunicaciones de red.
 ---
 
 En el contexto de Bitcoin Mining, se refiere a la ventaja económica que obtienen los mineros al reducir la latencia de comunicación en la red. Los mineros situados más cerca unos de otros reciben más rápidamente nuevos bloques válidos, lo que les permite dejar de malgastar recursos en un bloque candidato que se encuentra en una rama con menos trabajo acumulado. Esta reducción de la latencia mejora la rentabilidad de los mineros, lo que naturalmente les anima a agruparse geográficamente para maximizar sus ingresos.

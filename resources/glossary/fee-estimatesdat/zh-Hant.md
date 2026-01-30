@@ -1,5 +1,6 @@
 ---
-term: fee_estimates.dat
+term: FEE_ESTIMATES.DAT
+definition: Bitcoin Core 中根據 mempool 儲存交易手續費預估值的檔案。
 ---
 
 Bitcoin Core 中儲存交易費用估計數據的檔案，由軟體根據最近的交易和 Mempool 的當前狀態編譯而成。這些統計資料可協助使用者決定在交易中應包含的適當費用，使交易能根據使用者的期望得到確認。此檔案自 0.10 版開始存在。

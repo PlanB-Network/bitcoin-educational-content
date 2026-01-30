@@ -1,5 +1,6 @@
 ---
-term: ANSÄG VALID
+term: Assume valid
+definition: En Bitcoin Core-parameter som möjliggör att hoppa över signaturverifiering för block före en viss punkt, vilket accelererar den initiala synkroniseringen.
 ---
 
 Konfigurationsparameter i majoritetsklienten Bitcoin Core som gör det möjligt för en nod som just har initialiserats (men som ännu inte har utfört IBD) att hoppa över verifieringen av signaturer för alla transaktioner som ingår i block före ett visst givet block. Detta kända block definieras av avtrycket i dess rubrik, det vill säga dess Hash. Det valda blocket förnyas med varje ny version av Bitcoin Core. Om noden har aktiverat den här parametern vid initieringen kommer den därför att kontrollera blockhuvudkedjan för att hitta den gren som har mest ackumulerat arbete. Om noden upptäcker Hash som tillhandahålls av Core i den gren som den har valt, kommer den att utelämna verifieringen av signaturer för de föregående blocken. I annat fall kommer noden att fortsätta med en traditionell synkronisering (IBD) för att verifiera allt på egen hand.

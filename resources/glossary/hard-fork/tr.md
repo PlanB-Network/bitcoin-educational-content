@@ -1,5 +1,6 @@
 ---
-term: Hard Fork
+term: Sert çatallanma (Hard fork)
+definition: Protokolün geriye dönük uyumlu olmayan ve ağda kalıcı bir bölünmeye neden olan değişikliği.
 ---
 
 Protokol kurallarında geriye dönük uyumlu olmayacak şekilde yapılan bir değişiklik. Bu değişiklik, Bitcoin düğüm ağının kalıcı olarak iki farklı gruba ayrılmasına yol açar: güncelleme yapılan düğümler ve güncelleme yapılmayan düğümler. Bu bölünme, orijinal Blockchain'in iki ayrı blok zincirine bölünmesiyle gerçekleşir, ancak bunlar ortak bir geçmişi paylaşır, bu nedenle Fransızca'ya "embranchement, bifurcation" olarak çevrilebilecek "Fork" terimi kullanılır

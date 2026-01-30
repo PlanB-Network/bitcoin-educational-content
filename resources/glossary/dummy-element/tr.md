@@ -1,5 +1,6 @@
 ---
-term: DUMMY ELEMENT
+term: Dummy element
+definition: Multisig opcode'ları tarafından tarihsel bir off-by-one hatasını telafi etmek için gereken sahte öğe.
 ---
 
 Bir işlemdeki imzaların doğrulanması sırasında `OP_CHECKMULTISIG` ve `OP_CHECKMULTISIGVERIFY` işlem kodları tarafından tüketilen ek ve gereksiz bir öğeyi ifade eder. Tarihsel bir off-by-one hatası (birim kaydırma hatası) nedeniyle, bu 2 işlem kodu temel işlevlerine ek olarak yığından fazladan bir öğe kaldırır. Bu nedenle, bir hatadan kaçınmak için, `scriptSig`in başına, kaldırmayı karşılamak ve hatayı atlatmak için sahte bir değer eklemek zorunludur. Bu gereksiz değere "*dummy element*" adı verilir. P2MS standardını tanıtan BIP11, kukla değer olarak bir `OP_0` kullanılmasını tavsiye etmiştir. Ancak, bu standart mutabakat kuralı seviyesinde uygulanmıyordu, yani herhangi bir değer işlemi geçersiz kılmadan yerleştirilebilirdi. Bu nedenle, kukla öğe, işlemin değiştirilebilirliği için bir vektördü. SegWit Soft Fork ile tanıtılan BIP147, bu kukla öğenin kesinlikle boş bir bayt dizisi (`OP_0`) olmasını zorunlu kıldı, böylece uyumlu olmayan herhangi bir işlemi mutabakat kurallarına göre geçersiz kılarak bu öğeyle ilişkili kötüye kullanılabilirliği ortadan kaldırdı. NULLDUMMY` olarak adlandırılan bu kural hem SegWit hem de SegWit öncesi işlemler için geçerlidir.

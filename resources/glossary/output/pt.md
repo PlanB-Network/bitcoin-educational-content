@@ -1,5 +1,6 @@
 ---
-term: SAÍDA
+term: Output
+definition: Saída de uma transação que cria um novo UTXO destinado a um endereço.
 ---
 
 No contexto do Bitcoin, uma saída dentro de uma transação refere-se a _Unspent Transaction Outputs_ (UTXOs) que são criados como fundos de destino para pagamento. Mais precisamente, é um mecanismo através do qual uma transação distribui fundos. Uma transação recebe UTXOs, ou seja, bits de bitcoins, como "inputs" e cria novos UTXOs como "outputs". Estes outputs estipulam uma determinada quantidade de bitcoins, frequentemente atribuída a um Address específico, bem como as condições em que estes fundos podem ser gastos numa data posterior.

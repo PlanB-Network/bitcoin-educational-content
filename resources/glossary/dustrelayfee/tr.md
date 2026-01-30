@@ -1,5 +1,6 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
+definition: Toz sınırını hesaplamak için kullanılan ücret oranını tanımlayan düğüm parametresi.
 ---
 
 Ağ düğümleri tarafından "Dust sınırını" belirlemek için kullanılan bir standardizasyon kuralı Bu parametre sanal kilobayt başına Sats (Sats/kvB) cinsinden bir ücret oranı belirler ve bir UTXO'ün değerinin bir işleme dahil edilmesi için gerekli ücretlerden daha az olup olmadığını hesaplamak için bir referans görevi görür. Gerçekten de, bir UTXO, transfer edilmesi için temsil ettiği değerden daha fazla ücret gerektiriyorsa, Bitcoin üzerinde "Dust" olarak kabul edilir. Bu limitin hesaplanması aşağıdaki gibidir:

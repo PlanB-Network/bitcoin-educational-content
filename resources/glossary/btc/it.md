@@ -1,6 +1,7 @@
 ---
 term: BTC
 
+definition: Simbolo ticker che rappresenta un'unità di bitcoin, pari a 100 milioni di satoshi.
 ---
 Simbolo azionario o valutario (*ticker*) utilizzato per rappresentare un'unità di bitcoin sulle piattaforme di scambio. Viene utilizzato per identificare rapidamente il bitcoin tra altri asset e valute. Un'unità di bitcoin (1 BTC) è pari a 100.000.000 di satoshi (o "sats").
 

@@ -1,5 +1,6 @@
 ---
-term: EXTENDED KEY
+term: Extended key
+definition: String combining a key, its chain code, and metadata for derivation in HD wallets.
 ---
 
 A sequence of characters that combines a key (public or private), its associated chain code, and a series of metadata. An extended key compiles all the elements necessary for deriving child keys into a single identifier. They are used in deterministic and hierarchical wallets and can be of two types: an extended public key (used to derive child public keys) or an extended private key (used to derive both child private and public keys). An extended key thus includes several different pieces of data, described in BIP32, in the order:

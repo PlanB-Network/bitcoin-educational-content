@@ -1,6 +1,7 @@
 ---
-term: UNIX TIME
+term: Unixový čas
 
+definition: Počet sekund uplynulých od 1. ledna 1970 o půlnoci UTC, používaný pro správu času v Bitcoinu.
 ---
 Čas Unixu nebo časové razítko Unixu představuje počet sekund, které uplynuly od 1. ledna 1970 o půlnoci UTC (epocha Unixu). Tento systém se používá v operačních systémech Unix a jejich odvozeninách k univerzálnímu a standardizovanému označování času. Umožňuje synchronizaci hodin a správu událostí založených na čase bez ohledu na časová pásma.
 

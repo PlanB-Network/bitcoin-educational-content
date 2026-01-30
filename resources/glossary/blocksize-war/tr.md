@@ -1,5 +1,6 @@
 ---
-term: BLOK BOYUTU SAVAŞI
+term: Blok boyutu savaşı
+definition: Blok boyutunun artırılması konusunda Bitcoin topluluğu içinde yaşanan çatışma (2015-2017).
 ---
 
 2015-2017 yılları arasında Bitcoin topluluğu içinde yoğun tartışma ve çatışmaların yaşandığı bir dönemi ifade eder. Bu çatışma, 2010 yılından beri Satoshi Nakamoto tarafından 1 megabayt ile sınırlandırılmış olan blok boyutunun, Bitcoin'ın blok başına daha fazla işlem yapabilmesini sağlamak ve böylece ölçeklenebilirliği artırmak için artırılması gerekip gerekmediği üzerine odaklanmıştır.

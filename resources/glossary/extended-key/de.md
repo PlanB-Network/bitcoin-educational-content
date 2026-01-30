@@ -1,6 +1,7 @@
 ---
-term: EXTENDED KEY
+term: Erweiterter Schlüssel
 
+definition: Folge aus einem Schlüssel, seinem Chain Code und Metadaten für die Ableitung in HD-Wallets.
 ---
 Eine Zeichenfolge, die einen (öffentlichen oder privaten) Schlüssel, den zugehörigen Kettencode und eine Reihe von Metadaten kombiniert. Ein erweiterter Schlüssel fasst alle Elemente, die für die Ableitung von Unterschlüsseln erforderlich sind, in einem einzigen Bezeichner zusammen. Sie werden in deterministischen und hierarchischen Wallets verwendet und können zwei Arten haben: einen erweiterten öffentlichen Schlüssel (zur Ableitung von öffentlichen Unterschlüsseln) oder einen erweiterten privaten Schlüssel (zur Ableitung von privaten und öffentlichen Unterschlüsseln). Ein erweiterter Schlüssel enthält also mehrere verschiedene Daten, die in BIP32 in dieser Reihenfolge beschrieben sind:
 

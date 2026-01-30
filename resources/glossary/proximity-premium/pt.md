@@ -1,5 +1,6 @@
 ---
-term: BÓNUS DE PROXIMIDADE
+term: Prêmio de proximidade
+definition: Vantagem financeira dos mineradores obtida ao reduzir a latência das comunicações de rede.
 ---
 
 No contexto do Bitcoin Mining, refere-se à vantagem financeira que os mineiros obtêm ao reduzir a latência da comunicação na rede. Os mineiros localizados mais perto uns dos outros recebem novos blocos válidos mais rapidamente, o que lhes permite deixar de desperdiçar recursos num bloco candidato que se encontra num ramo com menos trabalho acumulado. Esta redução da latência melhora os rendimentos dos mineiros, o que naturalmente os incentiva a agruparem-se geograficamente para maximizarem as suas receitas.

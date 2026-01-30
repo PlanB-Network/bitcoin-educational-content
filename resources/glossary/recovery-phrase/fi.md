@@ -1,6 +1,7 @@
 ---
-term: RECOVERY PHRASE
+term: Palautuslauseke
 
+definition: 12 tai 24 sanan sarja, jonka avulla Bitcoin-lompakko voidaan varmuuskopioida ja palauttaa.
 ---
 Palautuslause, jota kutsutaan joskus myös mnemoniseksi, siemenlauseeksi tai salaiseksi lauseeksi, on yleensä 12 tai 24 sanasta koostuva sekvenssi, joka luodaan pseudosattumanvaraisesti entropialähteestä. Pseudosattumanvaraista sekvenssiä täydennetään aina tarkistussummalla. Muistilauseen ja valinnaisen tunnuslauseen avulla johdetaan deterministisesti kaikki HD-lompakkoon (Hierarchical Deterministic) liittyvät avaimet. Tämä tarkoittaa, että tästä lauseesta on mahdollista luoda ja luoda uudelleen deterministisesti kaikki Bitcoin-lompakon yksityiset ja julkiset avaimet ja näin ollen päästä käsiksi siihen liittyviin varoihin. Palautuslauseen tarkoituksena on tarjota keino bitcoinien varmuuskopiointiin ja palautukseen, joka on sekä turvallinen että helppokäyttöinen.
 

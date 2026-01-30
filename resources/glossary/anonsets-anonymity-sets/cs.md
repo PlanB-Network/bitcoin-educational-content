@@ -1,19 +1,20 @@
 ---
-term: ANONSETS (SADY ANONYMITY)
+term: Anonsets (anonymity sets)
 
+definition: Ukazatele měřící stupeň soukromí UTXO počítáním počtu nerozlišitelných UTXO v množině, obvykle po coinjoin.
 ---
-Anonce slouží jako indikátory pro posouzení úrovně soukromí konkrétního UTXO. Konkrétně měří počet nerozlišitelných UTXO v souboru, který zahrnuje zkoumanou minci. Protože je vyžadována skupina identických UTXO, anonsety se obvykle počítají v rámci cyklu spojování mincí. Umožňují případně posoudit kvalitu spojování mincí. Velký anonset znamená zvýšenou úroveň anonymity, protože je obtížné rozlišit konkrétní UTXO v rámci souboru. Existují dva typy anonsetů:
+Anonsety slouží jako ukazatele pro hodnocení míry soukromí konkrétního UTXO. Konkrétně měří počet nerozlišitelných UTXO v rámci množiny, která zahrnuje zkoumanou minci. Jelikož je nutné mít k dispozici skupinu identických UTXO, jsou anonsety obvykle počítány v rámci cyklu coinjoins. Umožňují tak v případě potřeby posoudit kvalitu coinjoins. Velký anonset znamená vyšší úroveň anonymity, protože je obtížné rozlišit konkrétní UTXO v rámci množiny.
+
+Existují dva typy anonsetů: forward anonset (forward-looking metrics); a backward anonset (backward-looking metrics). Termín "*score*" se někdy také používá k označení anonsetů.
+
+První ukazuje velikost skupiny, ve které se skrývá zkoumaný výstupní UTXO, při znalosti vstupního UTXO. Tento ukazatel umožňuje měřit odolnost soukromí mince vůči analýze z minulosti do současnosti (ze vstupu na výstup). Druhý ukazuje počet možných zdrojů pro danou minci při znalosti výstupního UTXO. Tento ukazatel umožňuje měřit odolnost soukromí mince vůči analýze ze současnosti do minulosti (z výstupu na vstup).
 
 
-- Soubor perspektivní anonymity;
-- Retrospektivní soubor anonymity.
 
-První udává velikost skupiny, mezi níž je zkoumaný UTXO skryt, přičemž zná UTXO na vstupu. Tento ukazatel umožňuje měřit odolnost soukromí mince proti analýze z minulosti do současnosti (ze vstupu na výstup). V angličtině je název tohoto ukazatele "*forward anonset*" nebo "*forward-looking metrics*"
 
-![](../../dictionnaire/assets/39.webp)
 
-Druhá udává počet možných zdrojů pro danou minci, přičemž zná UTXO na výstupu. Tento ukazatel umožňuje měřit odolnost soukromí mince proti analýze od současnosti do minulosti (od výstupu ke vstupu). V angličtině je název tohoto ukazatele "*backward anonset*" nebo "*backward-looking metrics*"
 
-![](../../dictionnaire/assets/40.webp)
 
-> ► *Ve francouzštině je obecně přijato používat termín "anonset" Lze jej však přeložit jako "ensemble d'anonymat" nebo "potentiel d'anonymat" V angličtině i ve francouzštině se někdy pro anonsety používá také termín "score" (prospektivní skóre a retrospektivní skóre).*
+
+
+

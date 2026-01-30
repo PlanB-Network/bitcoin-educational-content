@@ -1,6 +1,7 @@
 ---
 term: BTC
 
+definition: Ký hiệu đại diện cho một đơn vị bitcoin, bằng 100 triệu satoshi.
 ---
 Stock or currency symbol (*ticker*) used to represent a unit of bitcoin on exchange platforms. It is used to quickly identify bitcoin among other assets and currencies. One unit of bitcoin (1 BTC) is equal to 100,000,000 satoshis (or "sats").
 

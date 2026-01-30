@@ -1,5 +1,6 @@
 ---
-term: CHEZA TENA SHAMBULIZI
+term: Replay attack
+definition: Shambulio linalozalisha tena muamala halali kutoka kwa blockchain moja hadi nyingine inayoshiriki historia sawa.
 ---
 
 Katika muktadha wa Bitcoin, shambulio la uchezaji wa marudio hutokea wakati shughuli halali kwenye Blockchain moja inatolewa kwa nia mbaya kwenye Blockchain nyingine ambayo ina historia sawa ya muamala. Kwa maneno mengine, utangazaji wa muamala kwenye chaneli moja unaweza kuigwa kwenye nyingine bila idhini ya mtumaji wa muamala wa kwanza.

@@ -1,7 +1,7 @@
 ---
-term: SERANGAN 51 PERSEN
+term: Serangan 51%
 
+definition: Serangan di mana aktor jahat menguasai lebih dari setengah kekuatan hashing pertambangan, memungkinkan mereka memanipulasi transaksi, terutama melalui pengeluaran ganda.
 ---
-Skenario hipotetis dalam sistem Bitcoin di mana seorang aktor jahat mengontrol lebih dari 50% total daya komputasi untuk menambang (*hashrate*). Dengan hal tersebut, penyerang dapat memanipulasi proses konsensus, yang memungkinkan terjadinya tindakan jahat seperti pembelanjaan ganda, di mana bitcoin yang sama dibelanjakan satu kali pada rantai blok yang akhirnya menjadi tak valid, dan kemudian dibelanjakan untuk kedua kalinya pada rantai yang valid. Akibat lain dari serangan 51% adalah sensor transaksi. Akan tetapi, serangan 51% membutuhkan sumber daya keuangan, manusia, energi, dan teknis yang cukup besar, dan aktor jahat akan rentan untuk ditemukan sebelum serangan tersebut dapat dilakukan. Walaupun memungkinkan secara teoritis, serangan 51% terhadap Bitcoin dapat dianggap sangat tidak mungkin karena desentralisasi penambangan dan kekuatan komputasi yang sangat besar yang saat ini ada di jaringan Bitcoin.
+Skenario hipotetis pada sistem Bitcoin di mana seorang aktor jahat mengendalikan lebih dari 50% dari total daya komputasi penambangan (hashrate). Dengan dominasi semacam itu, penyerang dapat memanipulasi proses konsensus, memungkinkan tindakan jahat seperti pengeluaran ganda, di mana bitcoin yang sama dibelanjakan pertama kali pada sebuah rantai yang pada akhirnya menjadi usang, lalu dibelanjakan untuk kedua kalinya pada rantai yang valid. Tujuan lain dari serangan 51% adalah penyensoran transaksi. Namun, melakukan serangan 51% memerlukan sumber daya finansial, manusia, energi, dan teknis yang besar, serta membuat aktor jahat berisiko terdeteksi sebelum serangan terjadi. Meskipun secara teoretis mungkin, serangan 51% terhadap Bitcoin dianggap sangat kecil kemungkinannya karena desentralisasi penambangan dan besarnya daya komputasi yang saat ini digunakan. Serangan ini juga disebut sebagai "Serangan Goldfinger".
 
-> ► *Serangan ini juga dinamai "Serangan Goldfinger".*

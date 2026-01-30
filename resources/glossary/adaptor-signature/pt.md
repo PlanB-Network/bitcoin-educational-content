@@ -1,6 +1,7 @@
 ---
-term: ASSINATURA DO ADAPTADOR
+term: Adaptor signature
 
+definition: Uma técnica criptográfica que vincula uma assinatura a um segredo, de forma que publicar a assinatura revela o segredo. Útil para trocas atômicas sem intermediário confiável.
 ---
 Método criptográfico que permite combinar uma assinatura genuína com uma assinatura adicional (denominada "assinatura adaptadora") para revelar um dado secreto. Este método funciona de tal forma que o conhecimento de dois elementos entre a assinatura válida, a assinatura adaptadora e o segredo permite deduzir o terceiro elemento em falta. Uma das propriedades interessantes deste método é que, se conhecermos a assinatura do adaptador da nossa contraparte e o ponto específico da curva elíptica ligado ao segredo utilizado para calcular esta assinatura do adaptador, podemos então derivar a nossa própria assinatura do adaptador que corresponderá ao mesmo segredo, sem nunca ter acesso direto ao próprio segredo. Numa troca entre duas partes interessadas que não confiam uma na outra, esta técnica permite a revelação simultânea de duas informações sensíveis entre os participantes. Este processo elimina a necessidade de confiança em transacções instantâneas, como uma troca de moedas ou uma troca atómica. Vejamos um exemplo para o compreender melhor. Alice e Bob querem enviar um ao outro 1 BTC, mas não confiam um no outro. Por conseguinte, utilizarão assinaturas de adaptadores para anular a necessidade de confiança na outra parte nesta troca (tornando-a assim uma troca "atómica"). Procedem da seguinte forma:
 

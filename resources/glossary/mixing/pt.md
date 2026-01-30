@@ -1,6 +1,7 @@
 ---
-term: MISTURAÇÃO
+term: Mixing
 
+definition: Propriedade de um sistema onde os elementos são misturados uniformemente, utilizada para avaliar a qualidade dos coinjoins.
 ---
 No domínio geral da matemática, a mistura ou mescla refere-se à propriedade de um sistema dinâmico em que, após um certo tempo, todas as partes do espaço inicial podem teoricamente misturar-se com qualquer outra parte. A mistura implica que a posição de uma partícula ou o estado de um sistema evolui de tal forma que a sua distribuição futura é independente da sua distribuição inicial, atingindo assim um estado em que as caraterísticas do estado inicial estão uniformemente distribuídas pelo espaço do sistema. No contexto da Bitcoin, esta noção pode ser utilizada para avaliar a qualidade de um processo de mistura de moedas, como uma coinjoin.
 

@@ -1,5 +1,6 @@
 ---
-term: ATOMIC MULTI-PATH PAYMENTS
+term: Atomic multi-path payments
+definition: An enhanced version of multi-path payments on Lightning where each fragment has a distinct secret, ensuring the payment is settled in full or not at all.
 ---
 
 Improved version of MPP (*Multi-Path Payments*) in which each payment fragment has a distinct partial secret, ensuring that the transaction is settled atomically, i.e. in full or not at all.

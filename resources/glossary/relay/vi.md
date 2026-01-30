@@ -1,5 +1,6 @@
 ---
-term: LIÊN LẠC
+term: Tiếp sức
+definition: Công cụ hoặc thực thể có chức năng truyền tải các khối hợp lệ mới trên mạng.
 ---
 
 Trong bối cảnh của Proof-of-Work trên mạng Bitcoin, có nghĩa là một công cụ có chức năng chính là chuyển tiếp các khối hợp lệ mới đã được tìm thấy. Đôi khi có sự phân biệt giữa vai trò của Miner, người tham gia vào toàn bộ quy trình Proof-of-Work, từ việc xây dựng khối ứng viên đến việc phổ biến khối đã được xác thực, và vai trò của chopper, chỉ giới hạn ở việc tham gia vào quá trình băm của một khối mà không can thiệp vào quá trình lựa chọn hoặc phổ biến khối đó. Mặt khác, vai trò chuyển tiếp bao gồm việc phân phối các khối mới do chopper tìm thấy. Trong trường hợp của nhóm Mining, vai trò chuyển tiếp này do chính nhóm thực hiện. Chính vai trò này mang lại cho nhóm rất nhiều quyền lực đối với các chopper riêng lẻ. Thuật ngữ "relay" cũng có thể ám chỉ người hoặc thực thể vận hành một rơle.

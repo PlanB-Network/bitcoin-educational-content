@@ -1,6 +1,7 @@
 ---
 term: BIP0038
 
+definition: Padrão para cifrar chaves privadas Bitcoin com uma frase-passe, utilizado nomeadamente para proteger carteiras de papel.
 ---
 Uma Bitcoin Improvement Proposal que introduz um mecanismo de encriptação para adicionar proteção extra às chaves privadas através de uma frase-chave. A BIP38 garante que, mesmo que um terceiro obtenha fisicamente a chave privada encriptada, não a pode utilizar sem conhecer a sua frase-chave. Isto acrescenta uma camada adicional de segurança para proteger os bitcoins contra roubo, especialmente para a segurança das antigas carteiras de papel.
 

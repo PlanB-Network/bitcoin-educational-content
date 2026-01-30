@@ -1,5 +1,6 @@
 ---
 term: OP_2 HADI OP_16 (0X52 HADI 0X60)
+definition: Opcode zinazoweka thamani za nambari kuanzia 2 hadi 16 kwenye rundo.
 ---
 
 Opcodes kutoka `OP_2` hadi `OP_16` husukuma thamani za nambari za 2 hadi 16 kwenye rafu. Zinatumika kurahisisha maandishi kwa kuruhusu uwekaji wa maadili madogo ya nambari. Aina hii ya opcode inatumika haswa katika hati za saini nyingi. Huu hapa ni mfano wa `scriptPubKey` kwa 2/3 Multisig:

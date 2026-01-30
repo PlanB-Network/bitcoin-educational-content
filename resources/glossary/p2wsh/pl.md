@@ -1,5 +1,6 @@
 ---
 term: P2WSH
+definition: Natywny skrypt SegWit blokujący bitcoiny na hashu skryptu, adresy bc1q.
 ---
 
 P2WSH to skrót od *Pay to Witness Script Hash*. Jest to standardowy model skryptu używany do ustalania warunków wydatków na UTXO. P2WSH został wprowadzony wraz z wdrożeniem SegWit w sierpniu 2017 roku.

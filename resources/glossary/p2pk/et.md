@@ -1,6 +1,7 @@
 ---
 term: P2PK
 
+definition: Skript, mis lukustab bitcoinid otse avaliku võtmega ilma räsimiseta.
 ---
 P2PK tähendab *Pay to Public Key*. See on standardne skripti mudel, mida kasutatakse Bitcoinis UTXO kulutustingimuste loomiseks. See võimaldab bitcoinide lukustamist otse avalikule võtmele, mitte aadressile.
 

@@ -1,5 +1,6 @@
 ---
-term: TODISTE VARAUKSISTA
+term: Reservitodiste
+definition: Mekanismi, jonka avulla vaihtopörssit voivat todistaa hallussaan olevat asiakkaidensa bitcoinit.
 ---
 
 Mekanismi, jota Bitcoin Exchange-alustat käyttävät osoittaakseen, että ne todella pitävät hallussaan asiakkaidensa varoja. Tarkoituksena on todistaa yrityksen maksukyky varmistamalla, että sen bitcoinit vastaavat tai ovat suurempia kuin käyttäjien saldot, joita niiden oletetaan pitävän hallussaan.

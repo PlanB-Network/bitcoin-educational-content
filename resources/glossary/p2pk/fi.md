@@ -1,6 +1,7 @@
 ---
 term: P2PK
 
+definition: Skripti, joka lukitsee bitcoinit suoraan julkiseen avaimeen ilman tiivistämistä (hashing).
 ---
 P2PK on lyhenne sanoista *Pay to Public Key*. Se on Bitcoinissa käytetty vakioskriptimalli, jolla luodaan UTXO:n käyttöehdot. Se mahdollistaa bitcoinien lukitsemisen suoraan julkiseen avaimeen osoitteen sijaan.
 

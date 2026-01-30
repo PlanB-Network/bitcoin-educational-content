@@ -1,5 +1,6 @@
 ---
-term: Bolt
+term: BOLT
+definition: Lightning Network의 다양한 구현체 간의 상호 운용성을 보장하는 기술 사양.
 ---
 
 "기초 라이트닝 기술"의 약어 Lightning Network(LND, Core Lightning, Eclair...)의 서로 다른 구현 간의 상호 운용성을 보장하기 위해 설계된 일련의 사양입니다. 이 사양은 모든 구현이 따라야 하는 규칙, 프로토콜, 표준을 정의하여 라이트닝 노드가 하나의 통합된 네트워크의 일부로 상호 작용하고 작동할 수 있도록 보장합니다.

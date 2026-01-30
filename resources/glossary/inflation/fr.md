@@ -1,5 +1,6 @@
 ---
-term: INFLATION
+term: Inflation
+definition: Augmentation de la masse monétaire entraînant une baisse de la valeur de chaque unité.
 ---
 
 Désigne l'augmentation de la masse monétaire en circulation, entraînant une baisse de la valeur de chaque unité de monnaie et une hausse des prix des biens et services. Pour les monnaies étatiques, ce phénomène survient lorsque les banques centrales émettent de nouvelles unités monétaires.

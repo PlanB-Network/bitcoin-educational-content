@@ -1,12 +1,13 @@
 ---
-term: CLAVE PÚBLICA COMPRIMIDA
+term: Clave pública comprimida
 
+definition: Forma compacta de una clave pública que utiliza solo la coordenada x y un prefijo de paridad (02 o 03).
 ---
 Una clave pública se utiliza en los scripts (ya sea directamente en forma de clave pública o como dirección) para recibir y asegurar bitcoins. Una clave pública en bruto está representada por un punto de una curva elíptica, formado por dos coordenadas (`x, y`) de 256 bits cada una. En formato bruto, una clave pública mide 512 bits, sin contar el byte adicional para identificar el formato. En cambio, una clave pública comprimida es una forma más compacta de representación de una clave pública. Sólo utiliza la coordenada `x` y un prefijo (`02` o `03`) que indica la paridad de la coordenada `y` (par o impar).
 
 Si simplificamos esto al campo de los números reales, dado que la curva elíptica es simétrica respecto al eje x, para cualquier punto $P$ (`x, y`) de la curva, existe un punto $P'$ (`x, -y`) que también estará en esta misma curva. Esto significa que para cada `x`, sólo hay dos valores posibles de `y`, positivo y negativo. Por ejemplo, para una abscisa `x` dada, habría dos puntos $P1$ y $P2$ en la curva elíptica, compartiendo la misma abscisa pero con ordenadas opuestas:
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Para elegir entre los dos posibles puntos de la curva, se añade a `x` un prefijo que especifica qué `y` elegir. Este método permite reducir el tamaño de una clave pública de 520 bits a sólo 264 bits (8 bits de prefijo + 256 bits para `x`). Esta representación se conoce como la forma comprimida de la clave pública.
 

@@ -1,5 +1,6 @@
 ---
-term: PRODUŽENI KLJUČ
+term: Prošireni ključ
+definition: Niz koji kombinuje ključ, njegov chain code i metapodatke za derivaciju u HD novčanicima.
 ---
 
 Niz karaktera koji kombinuje ključ (javni ili privatni), njegov povezani lančani kod i niz metapodataka. Prošireni ključ objedinjuje sve Elements neophodne za izvođenje podređenih ključeva u jedan identifikator. Koriste se u determinističkim i hijerarhijskim novčanicima i mogu biti dve vrste: prošireni javni ključ (koristi se za izvođenje podređenih javnih ključeva) ili prošireni privatni ključ (koristi se za izvođenje i podređenih privatnih i javnih ključeva). Prošireni ključ tako uključuje nekoliko različitih delova podataka, opisanih u BIP32, u sledećem redosledu:

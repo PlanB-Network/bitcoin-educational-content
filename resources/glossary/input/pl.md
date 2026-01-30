@@ -1,5 +1,6 @@
 ---
-term: WEJŚCIE
+term: Wejście (Input)
+definition: UTXO użyty jako źródło środków w transakcji Bitcoin, odnoszący się do poprzedniego wyjścia.
 ---
 
 W kontekście Bitcoin, dane wejściowe w ramach transakcji odnoszą się do UTXO (*Niewykorzystane Wyjścia Transakcji*) wykorzystywanych jako oryginalne fundusze do zaspokojenia wyjść. Każde wejście zawiera odniesienia do poprzednich UTXO, które zostaną następnie wykorzystane przez transakcję. Te dane wejściowe są wykorzystywane do zasilania nowych UTXO, które zostaną utworzone jako dane wyjściowe transakcji, a następnie mogą zostać wydane w przyszłych transakcjach.

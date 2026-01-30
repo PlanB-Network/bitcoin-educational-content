@@ -1,6 +1,7 @@
 ---
 term: BIP0038
 
+definition: Standar untuk mengenkripsi kunci pribadi Bitcoin dengan frasa sandi, terutama digunakan untuk mengamankan dompet kertas.
 ---
 Proposal Peningkatan Bitcoin yang memperkenalkan mekanisme enkripsi untuk menambahkan perlindungan ekstra pada kunci privasi melalui kata sandi. BIP38 memastikan bahwa meskipun pihak ketiga secara fisik mendapatkan akses ke kunci pribadi terenkripsi, mereka tidak dapat menggunakannya tanpa mengetahui kata sandinya. Hal ini menambahkan lapisan keamanan tambahan untuk melindungi bitcoin dari pencurian, terutama untuk keamanan dompet kertas lama.
 

@@ -1,5 +1,6 @@
 ---
-term: UITGEBREIDE TOETS
+term: Uitgebreide sleutel
+definition: Reeks die een sleutel, de chain code ervan en metadata combineert voor afleiding in HD-wallets.
 ---
 
 Een reeks tekens die een sleutel (publiek of privé), de bijbehorende chain code en een reeks metadata combineert. Een uitgebreide sleutel compileert alle Elements die nodig zijn voor het afleiden van kindsleutels in een enkele identificator. Ze worden gebruikt in deterministische en hiërarchische portemonnees en kunnen van twee types zijn: een uitgebreide publieke sleutel (gebruikt om publieke kindsleutels af te leiden) of een uitgebreide private sleutel (gebruikt om zowel private als publieke kindsleutels af te leiden). Een uitgebreide sleutel bevat dus verschillende stukjes gegevens, beschreven in BIP32, in de volgorde:

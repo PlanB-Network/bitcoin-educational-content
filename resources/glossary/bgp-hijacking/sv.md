@@ -1,5 +1,6 @@
 ---
-term: BGP HIJACKING
+term: BGP-kapning
+definition: Attack som manipulerar internetdirigering för att omdirigera trafik till ett skadligt nätverk, vilket kan användas för att isolera Bitcoin-noder.
 ---
 
 Attack där en illasinnad aktör manipulerar BGP-annonser för att omdirigera internettrafik till sitt eget nätverk. Genom att låtsas vara det legitima ursprunget för vissa IP Address-områden kan angriparen fånga upp, övervaka eller blockera trafik som är avsedd för dessa adresser.

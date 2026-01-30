@@ -1,6 +1,6 @@
 ---
 term: BIP0044
-definition: Standard définissant la structure complète des chemins de dérivation pour les portefeuilles HD : purpose, coin_type, account, change et address_index.
+definition: Standard définissant la structure complète des chemins de dérivation pour les portefeuilles HD. purpose, coin_type, account, change et address_index.
 ---
 
 Proposition d'amélioration qui introduit une structure de dérivation hiérarchique standard pour les portefeuilles HD. Le BIP44 s'appuie sur les principes établis par le BIP32 pour la dérivation des clés et sur le BIP43 pour l'utilisation du champ « *purpose* ». Il introduit une structure de cinq niveaux de dérivation : `m / purpose' / coin_type' / account' / change / address_index`. Voici le détail de chaque profondeur :

@@ -1,5 +1,5 @@
 ---
-term: %51 saldırısı
+term: 51% saldırısı
 definition: Kötü niyetli bir aktörün madencilik hash gücünün yarısından fazlasını kontrol ettiği ve işlemleri manipüle etmesine izin verdiği, özellikle çifte harcama yoluyla saldırı.
 ---
 

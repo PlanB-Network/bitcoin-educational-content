@@ -66,13 +66,13 @@ Enfin nous aborderons dans une dernière partie les moyens mis à la disposition
 
 Un mineur souverain doit en effet être en mesure d'ajouter sa propre puissance de calcul au réseau de manière indépendante, sans dépendre de ces tiers. Nous verrons comment cela est possible même pour les débutant du mining.
 
-Ce sera l'occasion de parler de Stratum v2 de Datum, et de l'applicatiopn Public Pool qui permettent un plus grand contrôle à l'utilisateur en lui permettant de s'affranchir en partie ou totalement du bon vouloir des pools de mining.
+Ce sera l'occasion de parler de Stratum v2 de Datum, et des applications "Public Pool" et "Bassin" qui donnent un plus grand contrôle à l'utilisateur en lui permettant de s'affranchir en partie ou totalement du bon vouloir des pools de minage.
 
 ## Rappel rapide sur la preuve de travail et le minage de Bitcoin
 
 
-Commençons par rappeler succintement à quoi sert la **preuve de travail** et ce qu'on appelle communément le minage de Bitoin.
-Pour rappel Bitcoin est un système de cash électronique pair-à-pair. C'est à dire qu'il ne repose sur aucune entité centrale pour fonctionner. Il s'agit en fait d'un réseau d'ordinateur stockant le grand livre de compte et l'historique des transactions et des balances de chacun des utilisateurs du réseau.
+Commençons par rappeler succinctement à quoi sert la **preuve de travail**, et ce qu'on appelle communément le minage de Bitoin.
+Bitcoin est un système de cash électronique pair-à-pair. C'est à dire qu'il ne repose sur aucune entité centrale pour fonctionner. Il s'agit en fait d'un réseau d'ordinateur stockant le grand livre de compte et l'historique des transactions et des balances de chacun des utilisateurs du réseau.
 
 ![Image](assets/fr/001.webp)
 
@@ -80,31 +80,31 @@ Pour rappel Bitcoin est un système de cash électronique pair-à-pair. C'est à
 
 Habituellement dans les sytèmes d'échanges électroniques traditionnels, une entité (banque, banque centrale etc....) est chargée de débiter et créditer les comptes des utilisateurs en fonction des transactions effectuées par ces derniers. Ces banques permettent de remédier au problème de la double dépense que posent les systèmes électroniques, au sein desquels les données peuvent être dupliquées facilement. Quand un utilisateur dépense ses sous, la banque s'assure que son compte est bien débité, et que le compte du destinataire est bien crédité et qu'ainsi aucune monnaie supplémentaire n'est créée.
 
-Ca c'est en théorie, puisqu'en pratique on sait que les banques commerciales et centrales ont bel et bien le pouvoir  de créer de la monnaie ex-nihilo, et qu'elles profitent de ce privilège pour s'approprier les ressources des autres indument.
+Ça c'est en théorie, puisqu'en pratique on sait que les banques commerciales et centrales ont bel et bien le pouvoir  de créer de la monnaie ex-nihilo, et qu'elles profitent de ce privilège pour s'approprier les ressources des autres indûment.
 
 ![Image](assets/fr/002.webp)
 
-Le génie de Satoshi Nakamoto est justement d'avoir réussi à trouver un moyen de se passer d'intermédiaire pour "débiter" et "créditer" les comptes des utilisateurs de Bitcoin. Et c'est là que la **preuve de travail** intervient. Personne n'est en mesure de pervertir le registre, car n'importe qui peut participer et controler ce qui y est inscrit. Tout le monde peut très facilement vérifier toutes les transactions qui s'y déroulent, les refuser si elles sont invalides (par exemple si la transaction dépense un bitcoin déjà dépensé précédemment), et même proposer de nouvelles transactions qui viendront mettre à jour le registre.
+Le génie de Satoshi Nakamoto est justement d'avoir réussi à trouver un moyen de se passer d'intermédiaire pour "débiter" et "créditer" les comptes des utilisateurs de Bitcoin. Personne n'est en mesure de pervertir le registre, car n'importe qui peut participer et contrôler ce qui y est inscrit. Tout le monde peut très facilement vérifier toutes les transactions qui s'y déroulent, les refuser si elles sont invalides (par exemple si la transaction dépense un bitcoin déjà dépensé précédemment), et même proposer de nouvelles transactions qui viendront mettre à jour le registre.
 
-Dans Bitcoin pour éviter le spam et une croissance  de la base de donnée trop rapide, les transactions sont ajoutées au registre par bloc de taille limitée (max 4MB) toutes les 10 minutes en moyenne (cela représente généralement quelques milliers de transactions toutes les 10 minutes).
-Mais alors qui choisit quelles transactions vont être ajoutées puisqu'on a décidé de se passer d'entité centrale ?
+Dans Bitcoin pour éviter le spam et une croissance de la base de donnée trop rapide, les transactions sont ajoutées au registre par bloc de taille limitée (max 4 MB) toutes les 10 minutes en moyenne (cela représente généralement quelques milliers de transactions toutes les 10 minutes).
+Mais alors qui choisit quelles transactions vont être ajoutées puisqu'on a décidé de se passer d'entité centrale ? C'est là que la **preuve de travail** intervient. 
 Certes tout le monde peut proposer un nouveau bloc de transactions, mais sous réserve qu'une **preuve de travail** suffisante ait été apportée. C'est là que les mineurs entre en jeu.
 
 ### La preuve de travail, pierre angulaire de la résolution du problème de la double dépense
 
-Chaque mineur qui veut proposer un nouveau bloc et ainsi recevoir la récompense de bloc associée (contituée de la subvention de bloc  de 3,125 BTC  à l 'heure où est écrit ce cours, et des frais de transactions payés par les utilisateurs) peut le faire à condition d'avoir la preuve qu'un travail a été fournie. En somme il s'agit d'une sorte de compétition entre mineurs, chacun essayant de trouver une solution à un problème cryptographique que l'on ne détaillera pas ici. Ce qu'il faut retenir c'est que c'est par le biais ce concours, que l'on est en mesure de désigner qui est en droit d'ajouter le dernier bloc au "grand livre de compte" qu'on appelle "blockchain". Si quelqu'un cherchait à propager une transaction dépensant des Bitcoin déjà intégré au grand registre, les nœuds du réseau s'en rendraient compte et la considéreraient comme invalide.
+Chaque mineur qui veut proposer un nouveau bloc et ainsi recevoir la récompense de bloc associée (constituée de la subvention de bloc  de 3,125 BTC  à l 'heure où est écrit ce cours, et des frais de transactions payés par les utilisateurs) peut le faire à condition d'avoir la preuve qu'un travail a été fournie. En somme il s'agit d'une sorte de compétition entre mineurs, chacun essayant de trouver une solution à un problème cryptographique que l'on ne détaillera pas ici. Ce qu'il faut retenir c'est que c'est par le biais de ce concours, que l'on est en mesure de désigner qui est en droit d'ajouter le dernier bloc au "grand livre de compte" qu'on appelle "blockchain". Bien sûr si quelqu'un cherchait à propager une transaction dépensant des Bitcoin déjà intégrés au grand registre, les nœuds du réseau s'en rendraient compte et la considéreraient comme invalide et le travail effectué aurait été du gaspillage de ressource.
 
-Ainsi la **preuve de travail** est l'élément central du protocole Bitcoin permettant de désigner alternativement et en dehors de toute considération autre que l'énergie dépensée pour essayer de résoudre le problème le plus rapidement possible , qui sera en mesure de modifier le registre et de recevoir sa récompense.
+Ainsi la **preuve de travail** est l'élément central du protocole Bitcoin permettant de désigner alternativement et en dehors de toute considération autre que l'énergie dépensée pour essayer de résoudre le problème le plus rapidement possible, qui sera en mesure de modifier le registre et de recevoir sa récompense.
 
 ![Image](assets/fr/003.webp)
 
 ### Nœuds mineurs & Nœuds non mineurs
 
-Pour en terminer avec ces rappels théoriques sur la fonctionnement du minage, il convient de savoir distinguer les principaux acteurs du réseau que sont les **nœuds mineurs** et les **nœuds non mineurs.**
+Pour en terminer avec ces rappels théoriques sur le fonctionnement du minage, il convient de savoir distinguer les principaux acteurs du réseau que sont les **nœuds mineurs** et les **nœuds non mineurs.**
 
-Les nœuds **non mineurs**, sont simplement des utilisateurs du réseau, qui stockent le grand livre de compte, vérifient que les blocs ajoutés par les mineurs sont valides, et qui relaient les transactions d'autres nœud du réseau afin que celles-ci aient un chance d'atteindre un nœud mineur pour être ajoutée au registre. Un nœud non mineurs sert en quelque sorte de porte d'accès au réseau Bitcoin. Sans nœud vous ne pouvez pas diffuser de transactions sur le réseau, ni vérifier le solde de vos adresses et de votre wallet. En synthèse un nœud non mineur permet **d'utiliser** le réseau de manière souveraine.
+Les nœuds **non mineurs**, sont simplement des utilisateurs du réseau, qui stockent le grand livre de compte, vérifient que les blocs ajoutés par les mineurs sont valides, et qui relaient les transactions d'autres nœud du réseau afin que celles-ci aient une chance d'atteindre un nœud mineur pour être ajoutée au registre. Un nœud non mineur sert en quelque sorte de porte d'accès au réseau Bitcoin. Sans nœud vous ne pouvez pas diffuser de transactions sur le réseau (à moins de joindre directement un mineur), ni vérifier le solde de vos adresses et de votre wallet. En synthèse un nœud non mineur permet **d'utiliser** le réseau et de transacter de manière souveraine.
 
-Les **nœuds mineurs** quant à eux possèdent en plus une partie logicielle additionnelle, leur permettant d’interagir avec des machines de minage qu'on appelle aujourd'hui **ASIC (Application Specific integrated Circuit)**. Ils sélectionnent les transactions qui les intéressent le plus, généralement celles qui payent le plus de frais et constituent des blocs. Puis ils proposent ces blocs candidats à la machine de minage qui essaye de résoudre le fameux problème cryptographique. Puis en cas de succès le nœud mineur propose le bloc et sa **preuve de travail** au réseau. En synthèse en nœud mineur permet de **faire fonctionner** le réseau.
+Les **nœuds mineurs** quant à eux possèdent en plus une partie logicielle additionnelle, leur permettant d’interagir avec des machines de minage qu'on appelle aujourd'hui machines **ASIC (Application Specific integrated Circuit)**. Ils sélectionnent les transactions qui les intéressent le plus, généralement celles qui payent le plus de frais et constituent des blocs. Puis ils proposent ces blocs candidats à la machine de minage qui essaye de résoudre le fameux problème cryptographique. Puis en cas de succès le nœud mineur propose le bloc et sa **preuve de travail** au réseau. En synthèse un nœud mineur permet de **faire fonctionner** le réseau.
 
 
 
@@ -112,7 +112,7 @@ Les **nœuds mineurs** quant à eux possèdent en plus une partie logicielle add
 
 ### Une industrie du minage ultra compétitive
 
-Une compétition acharnée a lieu depuis plus d'une décénnie désormais, entre des mineurs du monde entier, pour tenter de miner le plus de bitcoin possible, le tout en dépensant le moins d'énergie possible. En effet les machines **ASIC**  cherchent à réaliser le plus de calculs à la seconde, nécessitant une puissance électrique considérable. Le challenge pour un mineur est donc de toujours dépenser moins d'énergie que la valeur des bitcoins qu'il va générer. La chasse à l'énergie peu cher et à la rationnalisation des couts de maintenance et d'entretien des machines, a nécessairement conduit cette industrie à se professionaliser.
+Une compétition acharnée a lieu depuis plus d'une décennie désormais, entre des mineurs du monde entier, pour tenter de miner le plus de bitcoin , le tout en dépensant le moins d'énergie possible. En effet les machines **ASIC** cherchent à réaliser le plus de calculs à la seconde, nécessitant une puissance électrique considérable. Le challenge pour un mineur est donc de toujours de dépenser le moins d'énergie que la valeur des bitcoins qu'il va générer. La chasse à l'énergie peu cher et à la rationnalisation des couts de maintenance et d'entretien des machines, a nécessairement conduit cette industrie à se professionaliser.
 
 Aujourd'hui les mineurs professionnels ont accès à de l'énergie infiniment moins chère que des particuliers, prisonniers des prix parfois articificellement gonflés par les taxes qu'ils ont à payer, et la mauvaise gestion des réseaux de productions et de distributions en situation de monopoles. Les fermes de minage elles, négocient avec les fournisseurs d'électricité des prix extrèmement avantageux en monétisant les extra-capacités, c'est à dire en achetant à très bas prix (parfois négatifs !!!) de l'énergie qui serait autrement gaspillée par l'énergéticien.
 
@@ -145,7 +145,7 @@ On verra même que dans certains cas, miner à la maison peut présenter un cert
 
 ## Pourquoi miner en Pool "mutualiste" (supprimer tout les ##)
 
-### Qu'est ce qu'une pool de mining ?
+### Qu'est ce qu'une pool de minage ?
 
 Une **pool de minage** est un regroupement de mineurs qui mettent en commun leur puissance de calcul (hashrate) pour **travailler collectivement** à la recherche de blocs. En effet en tant que mineur  individuel, il est presque impossible de trouver un bloc par soi-même tant notre puissance de calcul est dérisoire comparée à celle de l'ensemble du réseau.
 
@@ -157,7 +157,7 @@ Cela **lisse les revenus** et **réduit la variance**, ce qui est vital pour les
 
 ### Pour des revenus réguliers et prévisibles
 
-Sans cette association entre mineurs qui partagent la récompense lorsque l'un d'entre eux trouve un bloc, un mineur isolé pourrait miner des années sans rien trouver. En rejoignant une pool, les paiements sont réguliers , et prévisibles. La pool demande à chaque mineur du groupe de soumettre des preuvent de travail partielles appelées "shares" , puis attribut
+Sans cette association entre mineurs qui partagent la récompense lorsque l'un d'entre eux trouve un bloc, un mineur isolé pourrait miner des années sans rien trouver. En rejoignant une pool, les paiements sont réguliers , et prévisibles. La pool demande à chaque mineur du groupe de soumettre des preuves de travail partielles appelées "shares" , puis attribut
 
 Cela **réduit la variance** : au lieu de tout miser sur une "loterie" où les chances de miner un bloc seul sont infimes , on obtient  des fractions de BTC régulièrement, quotidiennement ou hebdomadairement, en fonction de son hashrate. 
 

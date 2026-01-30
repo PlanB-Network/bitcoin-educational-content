@@ -1877,8 +1877,6 @@ Kita telah sampai pada kesimpulan dari kursus BTC 202 ini, yang akan memungkinka
 
 Anda sekarang dapat melanjutkan ke bagian akhir kursus, di mana Anda akan dapat mengevaluasi BTC 202, lalu mengambil sertifikat Anda untuk memeriksa bahwa Anda telah menguasai semua konsep yang dibahas.
 
-Anda sekarang memiliki beberapa opsi yang terbuka untuk Anda. Langkah logis berikutnya adalah menyiapkan node Lightning Anda sendiri, yang memungkinkan Anda untuk sepenuhnya mandiri untuk transaksi off-chain Anda. Ini akan menjadi subjek dari kursus yang akan datang, yang akan diterbitkan pada musim gugur 2025 di Plan ₿ Academy.
-
 Anda sekarang memiliki beberapa pilihan yang terbuka. Langkah logis berikutnya adalah menyiapkan Lightning node Anda sendiri, memungkinkan Anda untuk sepenuhnya mandiri untuk transaksi off-chain Anda. Ini akan menjadi subjek kursus yang akan datang, yang akan diterbitkan pada musim gugur 2025 di Plan ₿ Academy.
 
 Sementara itu, saya mengundang Anda untuk mengikuti pelatihan BTC 204, yang akan memungkinkan Anda untuk memahami dan menguasai prinsip-prinsip perlindungan privasi dalam penggunaan Bitcoin:

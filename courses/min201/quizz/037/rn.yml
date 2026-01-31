@@ -1,13 +1,12 @@
-question: Ni igiki gishobora gutuma Mining igira inyungu?
-answer: Bishobora gutuma ububasha bwo gukora hashing bushirwa hamwe kandi bishobora no kugira ingaruka zikomeye ku bidukikije .
+question: Ni ikibi ihe co gukora mining kubw’inyungu?
+answer: Bishobora gutuma habaho gukoraniriza hamwe ububasha bwo gukora hashing kandi bishobora no kugira ingaruka zikomeye ku bidukikije.
 wrong_answers:
-  - Bishobora gutuma igiciro ca Bitcoin00 kigabanuka.
-  - Bishobora gutuma Hashrate y'urubuga igabanuka .
-  - Bishobora gutuma umubare w'ibihimba bikora mu muhora ugabanuka .
+  - Bishobora gutuma igiciro ca Bitcoin kigabanuka
+  - Bishobora gutuma Hashrate y’umuuhora igabanuka
+  - Bishobora gutuma igitigiri ca node zikora mu muhora kigabanuka.
 explanation: |
-  Mining ku nyungu bishobora gutuma hashing ihurizwa hamwe
-  ububasha iyo amashirahamwe manini makeyi gusa ashobora gushiramwo amahera mu
-  ibikoresho vy’agaciro kanini Mining. Ikindi kandi, inguvu .
-  Gukoresha Mining kugira ngo umuntu aronke inyungu vyoshobora kugira akamaro kanini
-  ingaruka ku bidukikije bivanye n’aho inguvu ziva.
+  Gukora mining kubw'inyungu bishobora gutuma habaho gukoraniriza hamwe ububasha bwo gukora hashing
+  iyo amashirahamwe manini makeyi gusa ashobora gushiramwo amahera mu bikoresho vy’agaciro kanini vya mining.
+  Ikindi kandi, inguvu zikoreshwa kugira ngo umuntu aronke inyungu vyoshobora kugira akamaro kanini canke ingaruka
+  ku bidukikije bivanye n’aho inguvu ziva.
 reviewed: true

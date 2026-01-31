@@ -1,14 +1,12 @@
 question: Ni kuki ama bitcoins y’isugi aronderwa cane cane n’abakinyi bakuru b’inzego?
-answer: Bashobora kwemeza inzego zijejwe gucungera itunga ryabo ry’ubuhinga bwa none ko ari iry’ukuri.
+answer: Bashobora kwemeza inzego zijejwe gucungera itunga ryabo ry’ubuhinga bwa none ko ari ayu’ukuri.
 wrong_answers:
-  - Bashobora kubigurisha ku giciro kinini.
-  - Bashobora kubikoresha mu bikorwa bitemewe n’amategeko.
-  - Bashobora kwirinda kubitanga imisoro.
+  - Bashobora kuyagurisha ku giciro kinini.
+  - Bashobora kuyakoresha mu bikorwa bitemewe n’amategeko.
+  - Bashobora kwirinda gutanga ikori.
 explanation: |
-  Bitcoins z'isugi zironderwa cane cane n'abantu benshi .
-  abakinnyi b’inzego kuko bashobora gutanga icemezo c’uko
-  uburenganzira bw'itunga ryabo ry'ubuhinga bwa none ku mategeko
-  abategetsi. Izo bitcoins ntizigeze zihumanya,
-  gutanga ingwati imwe imwe yo kwirinda kwangwa n’abagenzuzi canke .
-  ama platforms akomeye ya Exchange.
+  Bitcoins z'isugi zironderwa cane cane n’abakinyi bakuru b’inzego bashobora kwemeza
+  ko itunga ryabo ry’ubuhinga bwa none ryemewe imbere y’inzego zijejwe gucungera amategeko.
+  Izo bitcoins ntizigeze "zihumanywa," zitanga icemezo kinaka co kutankwa n'abagenzuzi canke 
+  imbuga zikomeye zo guhanahana.
 reviewed: true

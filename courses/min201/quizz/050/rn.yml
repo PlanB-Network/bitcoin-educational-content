@@ -1,11 +1,11 @@
-question: Ni ingorane nyamukuru iyihe ijana na Bitcoin Mining?
-answer: Inganda za Mining zirahiganwa cane kandi zirahinduka, kandi ibintu bitateguwe birashobora guhungabanya ibikorwa vya Mining.
+question: Ni ingorane nyamukuru iyihe ijana na Bitcoin mining?
+answer: Uruganda rwa mining ruguma rufise amahiganwa menshi cane kandi ruhindagurika, kandi ibintu bitateguwe bishobora guhungabanya ibikorwa vya mining.
 wrong_answers:
   - Ingorane nyamukuru ni ukuronka isoko ry’umuyagankuba ryizigirwa.
   - Ingorane nyamukuru ni ukuronka ahantu heza ho kubika ama bitcoins yacukuwe.
   - Ingorane nyamukuru ni ukurondera uwuzogura ama bitcoins yacukuwe.
 explanation: |
-  Ingorane nyamukuru ijana na Bitcoin Mining ni uko .
-  inganda ya Mining irahiganwa cane kandi irahinduka,
-  kandi ibintu bitari bitezwe birashobora guhungabanya ibikorwa vya Mining.
+  Ingorane nyamukuru iyihe ijana na Bitcoin mining nuko uruganda rwa mining 
+  ruguma rufise amahiganwa menshi cane kandi ruhindagurika, kandi ibintu bitateguwe 
+  bishobora guhungabanya ibikorwa vya mining.
 reviewed: true

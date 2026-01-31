@@ -1,12 +1,11 @@
-question: Ni ikihe kibazo gishobora guterwa n’ukugabanya umubare w’abakoresha, ama node canke abacukuzi b’amabuye y’agaciro mu rubuga rwa Bitcoin?
-answer: Bishobora gutuma urubuga rugoyagoya, bikongera ingorane zo gushiramwo ibintu vyose hamwe no guterwa n’ibitero.
+question: Ni ikihe kibazo gishobora guterwa n’ukugabanuka kw’abakoresha, ama node canke abacukuzi mu muhora wa Bitcoin?
+answer: Vyoshobora gutuma umuhora ucika intege, bikongera ingorane zo gukoraniriza hamwe (centralization) no guterwa n’ibitero.
 wrong_answers:
   - Bishobora kwongera igiciro ca Bitcoin.
-  - Bishobora kugabanya umuvuduko wo gucuruza hamwe n’ingorane za Mining.
-  - Bishobora kwongera ingorane za Mining n’ugushobora guterwa n’ibitero, mu gihe bigabanya ingorane zo gushiramwo ibintu vyose hamwe.
+  - Bishobora kugabanya umuvuduko wo gucuruza hamwe n’ingorane za mining.
+  - Bishobora kwongera ingorane za mining n’ugushobora guterwa n’ibitero, mu gihe bigabanya ingorane zo gushiramwo ibintu vyose hamwe.
 explanation: |
-  Igabanuka ry’umubare w’abakoresha, ama node, canke abacukuzi vyoshobora
-  guca intege urusobe rwa Bitcoin. Ivyo vyoshobora kwongerera ingorane z’
-  gushiramwo ibintu vyose hamwe no gutuma urubuga rushobora gushikirwa n’ingorane
-  ibitero.
+  Kugabanuka kw'igitigiri c’abakoresha, ama node canke abacukura (miners)
+  vyoshobora gutuma umuhora ucika intege, bikongera ingorane zo gukoraniriza hamwe (centralization) 
+  no guterwa n’ibitero.
 reviewed: true

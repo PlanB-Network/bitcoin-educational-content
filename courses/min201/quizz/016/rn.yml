@@ -1,13 +1,12 @@
-question: Ni uruhara uruhe abacukuzi ba Bitcoin bafise mw’isi y’inguvu?
-answer: Abacukuzi b’amabuye y’agaciro ba Bitcoin bama barondera amasoko y’amashanyarazi atari menshi, akenshi akaba ari ay’ubusa canke atakoreshwa. Bashobora gukora nk’isoko y’ivyo basaba, biteguriye gukoresha ayo muyagankuba w’impfuvyi, gutyo bagafasha mu gukuraho amafaranga y’ibikorwa remezo.
+question: Ni uruhara uruhe abacukuzi (miners) ba Bitcoin bafise mw’isi y’inguvu?
+answer: Abacukuzi ba Bitcoin baguma barondera amasoko y’umuyagankuba uzimbutse, akenshi uwu koreshwa ubusa canke udakoreshwa. barashobora gukora nkaba kiriya, biteguriye gukoresha uwo muyagankuba ’udakoreshwa’, gutyo bagafasha kugabanya amafaranga atangwa mugushiraho ibikorwa vy’iterambere vy’umuyagankuba.
 wrong_answers:
-  - Abacukuzi b’amabuye y’agaciro yitwa Bitcoin baguma barondera amasoko y’inguvu zishobora gusubirwamwo kugira ngo bagabanye ikirenge cabo c’umuyagankuba.
-  - Abacukuzi b’amabuye y’agaciro ba Bitcoin bama barondera amasoko y’inguvu z’imishwarara kugira ngo bashobore gukoresha ibikorwa vyabo vya Mining, kubera ko ari bwo buryo bwonyene busukuye kandi bushobora gusubirwamwo bwo guhingura inguvu.
-  - Abacukuzi b’amabuye y’agaciro ba Bitcoin bama barondera amasoko y’inguvu z’izuba kugira ngo bashobore gukoresha ibikorwa vyabo vya Mining.
+  - Abacukuzi ba Bitcoin baguma barondera amasoko y’inguvu zishobora gusubirwamwo kugira ngo bagabanye ikirenge cabo c’umuyagankuba.
+  - Abacukuzi ba Bitcoin bama barondera amasoko y’inguvu z’imishwarara kugira ngo bashobore gukoresha ibikorwa vyabo vya Mining, kubera ko ari bwo buryo bwonyene busukuye kandi bushobora gusubirwamwo bwo guhingura inguvu.
+  - Abacukuzi ba Bitcoin bama barondera amasoko y’inguvu z’izuba kugira ngo bashobore gukoresha ibikorwa vyabo vya Mining.
 explanation: |
-  Ico kigabane kirasigura ko abacukuzi b’amabuye y’agaciro ba Bitcoin bama .
-  kurondera amasoko y’amashanyarazi atari make, akenshi ayo amashanyarazi .
-  vyapfuye ubusa canke bitakoreshejwe. Bishobora gukora nk'ivyo bisabwa bishobora guhinduka .
-  isoko, yiteguriye gukoresha uwo muyagankuba w’impfuvyi, gutyo .
-  gufasha gukuraho amafaranga y’ibikorwa remezo.
+  Iki gice kirasigura ko abacukuzi ba Bitcoin baguma barondera amasoko
+  y’umuyagankuba uzimbutse, akenshi uwu koreshwa ubusa canke udakoreshwa. 
+  barashobora gukora nkaba kiriya, biteguriye gukoresha uwo muyagankuba ’udakoreshwa’, 
+  gutyo bagafasha kugabanya amafaranga atangwa mugushiraho ibikorwa vy’iterambere vy’umuyagankuba.
 reviewed: true

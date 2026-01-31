@@ -1366,41 +1366,41 @@ Il suo piano era di creare un soft fork per rendere invalide transazioni come qu
 >
 > Costruirò le versioni a breve.
 
-Voleva che si scaricassero i dati dei blocchi di un utente specifico, knightmb, che aveva pubblicato la sua blockchain così come appariva sul suo disco, i file blkXXXX.dat e blkindex.dat. Il motivo per scaricare i dati della blockchain in questo modo, invece di sincronizzarli da zero, era di ridurre i colli di bottiglia della larghezza di banda della rete.
+Satoshi voleva che si scaricassero i dati dei blocchi di un utente specifico, knightmb, che aveva pubblicato la sua blockchain così come appariva sul suo disco, i file blkXXXX.dat e blkindex.dat. Il motivo per scaricare i dati della blockchain in questo modo, invece di sincronizzarli da zero, era di ridurre i colli di bottiglia della larghezza di banda della rete.
 
-C'era un grosso problema: i dati che gli utenti scaricavano da knightmb [non erano verificati dal software Bitcoin](https://Bitcoin.stackexchange.com/a/113682/69518) all'avvio. Il file blkindex.dat conteneva il set UTXO e il software accettava qualsiasi dato in esso contenuto come se lo avesse già verificato. knightmb avrebbe potuto manipolare i dati per dare a se stesso o a chiunque altro dei bitcoin.
+C'era un grosso problema: i dati che gli utenti scaricavano da knightmb [non erano verificati dal software di Bitcoin](https://Bitcoin.stackexchange.com/a/113682/69518) all'avvio. Il file blkindex.dat conteneva il set UTXO e il software accettava qualsiasi dato in esso contenuto come se lo avesse già verificato. Quindi, knightmb avrebbe potuto manipolare i dati per dare a se stesso o a chiunque altro dei bitcoin.
 
-Anche in questo caso, la gente sembra essere d'accordo e l'inversione del blocco non valido e dei suoi successori ha avuto successo. I miner hanno iniziato a lavorare su un nuovo successore del blocco [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) e, secondo il Timestamp del blocco, un successore è apparso alle 23:53 UTC, circa 6 ore dopo la scoperta del problema. Alle 08:10 del giorno successivo, il 16 agosto, intorno al blocco 74689, la nuova catena ha superato la vecchia catena, quindi tutti i nodi non aggiornati si sono riorganizzati per seguire la nuova catena. Si tratta della riorganizzazione più profonda - 52 blocchi - nella storia di Bitcoin.
+Anche in questo caso, la gente sembra essere d'accordo e l'inversione del blocco non valido e dei suoi successori ha avuto successo. I miner hanno iniziato a lavorare su un nuovo successore del blocco [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) e, secondo il timestamp del blocco, un successore è apparso alle 23:53 UTC, circa 6 ore dopo la scoperta del problema. Alle 08:10 del giorno successivo, il 16 agosto, intorno al blocco 74689, la nuova catena ha superato la vecchia catena, quindi tutti i nodi non aggiornati si sono riorganizzati per seguire la nuova catena. Si tratta della riorganizzazione più profonda - 52 blocchi - nella storia di Bitcoin.
 
 Rispetto al problema OP_RETURN, questo problema è stato gestito in modo un po' più pulito:
 
 - Nessun rilascio di patch solo binarie
 - Il software rilasciato ha funzionato come previsto
-- No Hard Fork
+- Nessun hard fork
 
-Agli utenti è stato chiesto di interrompere il Mining anche durante questo problema. Possiamo discutere se questa sia una buona idea o meno, ma immaginate di essere un miner e di essere convinti che tutti i blocchi sopra il blocco cattivo saranno alla fine spazzati via in una profonda riorganizzazione: perché dovreste sprecare risorse su blocchi Mining condannati?
+Agli utenti è stato chiesto di interrompere il mining anche durante questo problema. Possiamo discutere se questa sia una buona idea o meno, ma immaginate di essere un miner e di essere convinti che tutti i blocchi sopra il blocco cattivo saranno alla fine spazzati via in una profonda riorganizzazione: perché dovreste sprecare risorse di mining su blocchi condannati?
 
-Potreste anche pensare che sia un po' strano fare come suggerito da Nakamoto e scaricare la blockchain, compreso il set UTXO, dall'unità Hard di un tizio a caso. Se è così, avete ragione: è sospetto. Ma, date le circostanze, questa risposta di emergenza è stata sensata.
+Potreste anche pensare che sia un po' strano fare come suggerito da Nakamoto e scaricare la blockchain, compreso il set UTXO, dall'hard drive di un tizio a caso. Se è così, avete ragione: è sospetto. Ma, date le circostanze, questa risposta di emergenza è stata sensata.
 
 C'è un'importante differenza tra questo caso e il precedente caso OP_RETURN: questo problema è stato sfruttato in natura e quindi la correzione è stata più semplice. Nel caso del OP_RETURN, invece, è stato necessario offuscare la correzione e rilasciare dichiarazioni pubbliche che non rivelavano direttamente quale fosse il problema.
 
 #### 2013-03-11 Problema dei blocchi DB 0.7.2 - 0.8.0 (CVE-2013-3220)
 
 
-Nel marzo 2013 è emerso un problema molto interessante e di grande valore educativo. Sembrava che la blockchain si fosse separato (anche se la parola "Fork" è usata nella citazione sottostante) dopo il blocco 225429. I dettagli di questo incidente sono stati [riportati nel BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Il riassunto dice:
+Nel marzo 2013 è emerso un problema molto interessante e di grande valore educativo. Sembrava che la blockchain si fosse divisa (anche se nella citaazione sottostante viene usata la parola _fork_) dopo il blocco 225429. I dettagli di questo incidente sono stati [riportati nel BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Il riassunto dice:
 
-> È stato estratto e trasmesso un blocco con un numero di transazioni totali superiore a quello visto in precedenza. I nodi Bitcoin 0.8 sono stati in grado di gestirlo, ma alcuni nodi Bitcoin pre-0.8 lo hanno rifiutato, causando un inaspettato Fork della blockchain. La catena pre-0.8-incompatibile (da qui in poi, la catena 0.8) a quel punto aveva circa il 60% della potenza Mining Hash garantendo che la scissione non si risolvesse automaticamente (come sarebbe accaduto se la catena pre-0.8 avesse superato la catena 0.8 in lavoro totale, costringendo i nodi 0.8 a riorganizzarsi verso la catena pre-0.8).
+> È stato estratto e trasmesso un blocco con un numero di transazioni totali superiore a quello visto in precedenza. I nodi Bitcoin 0.8 sono stati in grado di gestirlo, ma alcuni nodi Bitcoin pre-0.8 lo hanno rifiutato, causando un inaspettato fork della blockchain. La catena pre-0.8-incompatibile (da qui in poi, la catena 0.8) a quel punto aveva circa il 60% della potenza di hashing del mining garantendo che la scissione non si risolvesse automaticamente (come sarebbe accaduto se la catena pre-0.8 avesse superato la catena 0.8 in lavoro totale, costringendo i nodi 0.8 a riorganizzarsi verso la catena pre-0.8).
 >
-> Al fine di ripristinare una catena canonica il prima possibile, BTCGuild e Slush hanno declassato i loro nodi Bitcoin 0.8 a 0.7 in modo che anche i loro pool rifiutassero il blocco più grande. In questo modo la maggioranza dell'hashpower è stata assegnata alla catena senza il blocco più grande, facendo sì che i nodi 0,8 si riorganizzassero sulla catena precedente allo 0,8.
+> Al fine di ripristinare una catena canonica il prima possibile, BTCGuild e Slush hanno declassato i loro nodi Bitcoin 0.8 a 0.7 in modo che anche le loro pool rifiutassero il blocco più grande. In questo modo la maggioranza dell'hashpower è stata assegnata alla catena senza il blocco più grande, facendo sì che i nodi 0.8 si riorganizzassero sulla catena precedente alla versione 0.8.
 
-La rapidità dell'azione dei pool Mining BTCGuild e Slush è stata fondamentale in questa emergenza. Sono stati in grado di far passare la maggior parte del potere di Hash al ramo della scissione precedente alla versione 0.8, contribuendo così a ripristinare il consenso. Questo ha dato agli sviluppatori il tempo di trovare una soluzione sostenibile.
+La rapidità dell'azione delle mining pool BTCGuild e Slush è stata fondamentale in questa emergenza. Sono stati in grado di far passare la maggior parte della potenza di hash al ramo del fork precedente alla versione 0.8, contribuendo così a ripristinare il consenso. Questo ha dato agli sviluppatori il tempo di trovare una soluzione sostenibile.
 
 Ciò che è molto interessante in questo problema è che la versione 0.7.2 era incompatibile con se stessa, come accadeva anche con le versioni precedenti. Questo è spiegato nella [Sezione cause del BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause):
 
-> Con una configurazione di blocco BDB non sufficientemente elevata, era implicitamente diventata una regola di consenso di rete che determinava la validità del blocco (anche se un
-regola incoerente e non sicura, poiché l'uso del blocco potrebbe variare da nodo a nodo).
+> Con una configurazione di blocco BDB non sufficientemente elevata, era implicitamente diventata una regola di consenso di rete che determinava la validità del blocco (anche se una
+regola incoerente e non sicura, poiché l'uso dei lock potrebbe variare da nodo a nodo).
 
-In breve, il problema è che il numero di lock del database necessari al software Bitcoin Core per verificare un blocco non è deterministico. Un nodo potrebbe aver bisogno di X lock mentre un altro nodo potrebbe aver bisogno di X+1 lock. I nodi hanno anche un limite al numero di blocchi che Bitcoin può utilizzare. Se il numero di blocchi necessari supera il limite, il blocco viene considerato non valido. Quindi, se X+1 supera il limite ma non X, i due nodi divideranno la blockchain e non saranno d'accordo su quale ramo sia valido.
+In breve, il problema è che il numero di lock del database necessari al software Bitcoin Core per verificare un blocco non è deterministico. Un nodo potrebbe aver bisogno di X lock mentre un altro nodo potrebbe aver bisogno di X+1 lock. I nodi hanno anche un limite al numero di lock che Bitcoin può utilizzare. Se il numero di blocchi necessari supera il limite, il blocco viene considerato non valido. Quindi, se X+1 supera il limite ma non X, i due nodi divideranno la blockchain e non saranno d'accordo su quale ramo sia valido.
 
 La soluzione scelta, oltre alle azioni immediate intraprese dai due pool per ripristinare il consenso, è stata quella di:
 
@@ -1409,20 +1409,19 @@ La soluzione scelta, oltre alle azioni immediate intraprese dai due pool per rip
 
 Ad eccezione dell'aumento del limite di blocco globale di cui al secondo punto, queste regole sono state implementate temporaneamente per un periodo di tempo prestabilito. Il piano prevedeva di rimuovere questi limiti una volta che la maggior parte dei nodi si fosse aggiornata.
 
-Questo soft fork ha ridotto drasticamente il rischio di fallimento del consenso e pochi mesi dopo, il 15 maggio, le regole temporanee sono state disattivate di concerto in tutta la rete. Si noti che questa disattivazione è stata a tutti gli effetti una Hard Fork, ma non è stata conflittuale. Inoltre, è stata rilasciata insieme alla precedente soft fork, quindi le persone che eseguivano il software Soft-forked erano ben consapevoli che una Hard Fork l'avrebbe seguita. Pertanto, la stragrande maggioranza dei nodi è rimasta in consenso quando il Hard Fork è stato attivato. Purtroppo, però, alcuni nodi che non hanno effettuato l'aggiornamento sono andati persi nel processo.
+Questo soft fork ha ridotto drasticamente il rischio di fallimento del consenso e pochi mesi dopo, il 15 maggio, le regole temporanee sono state disattivate contemporaneamente in tutta la rete. Si noti che questa disattivazione è stata a tutti gli effetti un'hard fork, ma non è stata conflittuale. Inoltre, è stata rilasciata insieme alla precedente soft fork, quindi le persone che eseguivano il software soft-forked erano ben consapevoli che un'hard fork l'avrebbe seguita. Pertanto, la stragrande maggioranza dei nodi è rimasta in consenso quando l'hard fork è stata attivata. Purtroppo, però, alcuni nodi che non hanno effettuato l'aggiornamento sono andati persi nel processo.
 
-Ci si potrebbe chiedere se questo sarebbe fattibile oggi. Il panorama Mining è più complesso oggi e, a seconda del potere Hash di ciascun lato della scissione, potrebbe essere Hard distribuire una patch come quella di BIP50 abbastanza velocemente. Probabilmente sarebbe Hard convincere i miner del ramo "sbagliato" a rinunciare alle ricompense dei blocchi.
+Ci si potrebbe chiedere se questo sarebbe fattibile oggi. Il panorama del mining è più complesso oggi e, a seconda dell'hashpower di ciascun lato della scissione, potrebbe essere compplicato distribuire una patch come quella di BIP50 abbastanza velocemente. Probabilmente sarebbe difficile convincere i miner del ramo "sbagliato" a rinunciare alle ricompense dei blocchi.
 
 #### BIP66
 
 
 Il BIP66 è interessante perché sottolinea l'importanza di:
 
-
-- crittografia di buona selezione
-- divulgazione responsabile
-- senza rivelare la vulnerabilità
-- Mining in cima ai blocchi verificati
+- buona selezione della crittografia
+- segnalazioni responsabili
+- implementazione senza rivelare la vulnerabilità
+- mining sopra blocchi verificati
 
 BIP66 era una proposta per rendere più rigide le regole per la codifica delle firme in Bitcoin Script. La [motivazione](https://github.com/Bitcoin/bips/blob/master/bip-0066.mediawiki#motivation) era quella di poter analizzare le firme con software o librerie diverse da OpenSSL e persino da versioni recenti di OpenSSL. OpenSSL è una libreria per la crittografia generale che Bitcoin Core utilizzava all'epoca.
 
@@ -1431,9 +1430,7 @@ Il BIP è stato attivato il 4 luglio 2015. Tuttavia, sebbene quanto sopra sia ve
 ##### La vulnerabilità
 
 
-L'informativa completa su questo tema è stata pubblicata il 28 luglio 2015 da Pieter Wuille in una
-
-[email alla mailing list Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+L'informativa completa su questo tema è stata pubblicata il 28 luglio 2015 da Pieter Wuille in un'email alla [mailing list Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
 
 > Ciao a tutti,
 >
@@ -1447,7 +1444,7 @@ L'informativa completa su questo tema è stata pubblicata il 28 luglio 2015 da P
 > - utilizzo di OpenSSL su sistemi non Windows a 64 bit (Linux, OSX, ...)
 > - utilizzo di alcune basi di codice non OpenSSL per l'analisi delle firme
 
-L'e-mail illustra ulteriormente i dettagli su come è stato scoperto il problema e, più precisamente, su cosa lo ha causato. Alla fine, presenta una cronologia degli eventi, di cui riproporremo qui alcuni dei più importanti. Alcuni di essi, come illustrato dalla figura precedente, sono già stati descritti.
+L'e-mail illustra ulteriormente i dettagli su come è stato scoperto il problema e, più precisamente, cosa lo ha causato. Alla fine, presenta una cronologia degli eventi, di cui riproporremo qui alcuni dei più importanti. Alcuni di essi, come illustrato dalla figura precedente, sono già stati descritti.
 
 ![](assets/it/019.webp)
 
@@ -1456,37 +1453,37 @@ Cronologia degli eventi relativi al BIP66. Le voci in nero sono state spiegate i
 ##### Prima della scoperta
 
 
-Senza che nessuno ne fosse a conoscenza, il problema avrebbe potuto essere risolto dal BIP62, ormai ampiamente superato, che era una proposta per ridurre le possibilità di malleabilità delle transazioni. Tra le modifiche proposte nel BIP62 c'era un irrigidimento delle regole di consenso per la codifica delle firme, o "codifica DER rigorosa". Pieter Wuille ha proposto alcune modifiche al BIP nel luglio 2014, che avrebbero risolto il problema:
+Senza che nessuno ne fosse a conoscenza, il problema avrebbe potuto essere risolto dal BIP62, ormai ampiamente superato, il quale era una proposta per ridurre le possibilità di malleabilità delle transazioni. Tra le modifiche proposte nel BIP62 c'era un irrigidimento delle regole di consenso per la codifica delle firme, o "codifica DER rigorosa". Pieter Wuille ha proposto alcune modifiche al BIP nel luglio 2014, che avrebbero risolto il problema:
 
-> 2014-Lug-18: Per fare in modo che le regole di codifica delle firme di Bitcoin non dipendano dal parser specifico di OpenSSL, ho modificato la proposta di BIP62 per fare in modo che il suo requisito rigoroso di firme DER si applichi anche alle transazioni della versione 1. All'epoca non venivano più estratte firme non DER nei blocchi, quindi si è ritenuto che questo non avesse alcun impatto. Vedere https://github.com/Bitcoin/bips/pull/90 e http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. All'epoca non era noto, ma se fosse stato implementato avrebbe risolto la vulnerabilità.
+> 2014-Lug-18: Per fare in modo che le regole di codifica delle firme di Bitcoin non dipendano dal parser specifico di OpenSSL, ho modificato la proposta di BIP62 per fare in modo che il suo requisito rigido di firme DER si applichi anche alle transazioni della versione 1. All'epoca non venivano più estratte firme non DER nei blocchi, quindi si è ritenuto che questo non avesse alcun impatto. Vedi https://github.com/Bitcoin/bips/pull/90 e http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. All'epoca non era noto, ma se fosse stato implementato avrebbe risolto la vulnerabilità.
 
-A causa dell'ampiezza di questo BIP, che copriva molto di più della semplice "codifica DER rigorosa", è stato costantemente modificato e non ha mai raggiunto l'implementazione. Il BIP è stato poi ritirato perché il Segregated Witness, BIP141, ha risolto la malleabilità delle transazioni in modo diverso e più completo.
+A causa dell'ampiezza di questo BIP, che copriva molto di più del semplice "strict DER encoding", il documento è stato costantemente modificato e non ha mai raggiunto l'implementazione. In seguito il BIP venne ritirato, perchè Segregated Witness(BIP141), risolse la malleabilità delle transazioni in modo diverso e più completo.
 
 ##### Dopo la scoperta
 
 
 OpenSSL ha rilasciato nuove versioni del proprio software con patch che, se utilizzate in Bitcoin fin dall'inizio, avrebbero risolto il problema. Tuttavia, l'utilizzo di qualsiasi nuova versione di OpenSSL solo in una nuova release di Bitcoin Core avrebbe peggiorato la situazione. Gregory Maxwell lo spiega in un altro [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) del gennaio 2015:
 
-> Mentre per la maggior parte delle applicazioni è generalmente accettabile rifiutare avidamente alcune firme, il Bitcoin è un sistema di consenso in cui tutti i partecipanti devono generalmente concordare sull'esatta validità o invalidità dei dati in ingresso.  In un certo senso, la coerenza è più importante della "correttezza".
+> Mentre per la maggior parte delle applicazioni è generalmente accettabile rifiutare avidamente alcune firme, Bitcoin è un sistema di consenso in cui tutti i partecipanti devono generalmente concordare sull'esatta validità o invalidità dei dati in ingresso. In un certo senso, la coerenza è più importante della "correttezza".
 > [...]
-> Le patch di cui sopra, tuttavia, risolvono solo un sintomo del problema generale: affidarsi a software non progettato o distribuito per l'uso del consenso (in particolare OpenSSL) per un comportamento conforme alle norme del consenso.  Pertanto, come miglioramento incrementale, propongo un Soft-Fork mirato per imporre presto una stretta conformità al DER, utilizzando un sottoinsieme di BIP62.
+> Le patch di cui sopra, tuttavia, risolvono solo un sintomo del problema generale: affidarsi a software non progettato o distribuito per l'uso del consenso (in particolare OpenSSL) per un comportamento conforme alle norme del consenso. Pertanto, come miglioramento incrementale, propongo un soft-fork mirato per imporre presto una stretta conformità al DER, utilizzando un sottoinsieme di BIP62.
 
-Egli sottolinea che l'uso di codice non destinato ai sistemi di consenso comporta seri rischi e propone che il Bitcoin implementi una rigorosa codifica DER. Questo è un esempio molto chiaro dell'importanza di una buona crittografia di selezione.
+Sottolinea che l'uso di codice non destinato ai sistemi di consenso comporta seri rischi e propone che Bitcoin implementi una rigorosa codifica DER. Questo è un esempio molto chiaro dell'importanza di una buona selezione della crittografia.
 
 Questi eventi potrebbero dare l'impressione che Gregory Maxwell fosse a conoscenza della vulnerabilità pubblicata in seguito da Pieter Wuille, ma che volesse contribuire a introdurre una correzione mascherata da misura precauzionale, senza attirare troppo l'attenzione sul problema reale. Potrebbe essere così, ma si tratta di una pura speculazione.
 
-Poi, come proposto da Maxwell, fu creato il BIP66 come sottoinsieme del BIP62 che specificava solo la codifica DER rigorosa. A quanto pare, questo BIP è stato ampiamente accettato e distribuito a luglio, anche se, ironicamente, si sono verificate due scissioni della blockchain a causa del **Mining** privo di validazione. Queste scissioni sono discusse nella sezione successiva.
+Poi, come proposto da Maxwell, fu creato il BIP66 come sottoinsieme del BIP62 che specificava solo la codifica DER rigorosa. A quanto pare, questo BIP è stato ampiamente accettato e distribuito a luglio, anche se, ironicamente, si sono verificate due scissioni della blockchain a causa del **mining** privo di validazione. Queste scissioni sono discusse nella sezione successiva.
 
 ![](assets/it/020.webp)
 
-Un punto chiave da cui partire è che i PIF dovrebbero essere più o meno *atomici*, cioè abbastanza completi da fornire qualcosa di utile o risolvere un problema specifico, ma abbastanza piccoli da consentire un ampio supporto tra gli utenti. Più cose si inseriscono in un PIF, minori sono le possibilità di accettazione.
+Un punto chiave da cui partire è che i BIP dovrebbero essere più o meno *atomici*, cioè abbastanza completi da fornire qualcosa di utile o risolvere un problema specifico, ma abbastanza piccoli da consentire un ampio supporto tra gli utenti. Più cose si inseriscono in un BIP, minori sono le possibilità di accettazione.
 
-##### Spaccature dovute all'assenza di convalida Mining
+##### Separazioni dovute al mining senza convalida
 
 
-Purtroppo, la storia di BIP66 non è finita qui. Quando BIP66 è stato attivato, si è rivelato piuttosto disordinato perché alcuni miner non hanno verificato i blocchi che stavano cercando di estendere. Si tratta del cosiddetto Mining senza validazione, o SPV-Mining (come in Simplified Payment Verification). Ai nodi Bitcoin è stato inviato un messaggio di allerta con un link a [una pagina web che descrive il problema](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Purtroppo, la storia di BIP66 non è finita qui. Quando BIP66 è stato attivato, si è rivelato piuttosto disordinato perché alcuni miner non hanno verificato i blocchi che stavano cercando di estendere. Si tratta del cosiddetto mining senza validazione, o SPV-Mining (come in Simplified Payment Verification). Ai nodi Bitcoin è stato inviato un messaggio di allerta con un link a [una pagina web che descrive il problema](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
 
-> Il 4 luglio 2015, di prima mattina, è stata raggiunta la soglia di 950/1000 (95%). Poco dopo, un piccolo miner (parte del 5% non aggiornato) ha estratto un blocco non valido, come previsto. Sfortunatamente, si è scoperto che circa la metà del tasso di Hash della rete era costituita da Mining che non convalidavano completamente i blocchi (chiamati SPV Mining) e che costruivano nuovi blocchi sopra il blocco non valido.
+> Il 4 luglio 2015, di prima mattina, è stata raggiunta la soglia di 950/1000 (95%). Poco dopo, un piccolo miner (parte del 5% non aggiornato) ha estratto un blocco non valido, come previsto. Sfortunatamente, si è scoperto che circa la metà dell'hashrate della rete era costituita da miner che non convalidavano completamente i blocchi (chiamati SPV Mining) e che costruivano nuovi blocchi sopra il blocco non valido.
 
 La pagina di avviso indicava di attendere 30 conferme in più rispetto al normale, nel caso in cui si utilizzassero versioni precedenti di Bitcoin Core.
 
@@ -1496,13 +1493,13 @@ La scissione di cui sopra si è verificata il 2015-07-04 alle 02:10 UTC dopo l'a
 
 Gli eventi che hanno portato al BIP66, la sua distribuzione e le conseguenze sono un ottimo caso di studio per dimostrare quanto debbano essere attenti gli sviluppatori di Bitcoin. Alcuni elementi chiave di BIP66:
 
-- L'equilibrio tra apertura e non pubblicazione di una vulnerabilità è delicato.
-- La distribuzione di correzioni per vulnerabilità non pubblicate è un gioco complicato.
-- Il consenso di mantenimento è Hard.
+- L'equilibrio tra apertura e il non rendere pubblica una vulnerabilità è estremamente delicato.
+- L'implementazione di correzioni per vulnerabilità non pubblicate è un'operazione complicata.
+- Mantenere il consenso è difficile.
 - I software non destinati ai sistemi di consenso sono generalmente rischiosi.
-- I PIF dovrebbero essere in qualche modo atomici.
+- I BIP dovrebbero essere in qualche modo atomici.
 
-### Conclusioni su Quando la merda colpisce il ventilatore
+### Conclusioni 
 
 
 Bitcoin presenta dei bug. Le persone che scoprono bug sono incoraggiate a rivelarli responsabilmente agli sviluppatori di Bitcoin, in modo che possano risolvere il bug senza rivelarlo pubblicamente. Idealmente, la correzione del bug può essere mascherata da un miglioramento delle prestazioni o da un'altra cortina di fumo.
@@ -1513,69 +1510,69 @@ Abbiamo esaminato alcuni dei problemi più gravi emersi nel corso degli anni e c
 
 <chapterId>91462ca7-f09c-55da-a5b9-3e211de31da5</chapterId>
 
-Queste domande di discussione non sono solo un riassunto del contenuto di "Filosofia dello sviluppo Bitcoin", ma hanno lo scopo di incoraggiarvi a fare ulteriori ricerche, quindi assicuratevi di uscire ed esplorare.
+Queste domande di discussione non sono solo un riassunto del contenuto di "Filosofia dello sviluppo Bitcoin", ma hanno lo scopo di incoraggiarti a fare ulteriori ricerche, quindi assicurati di ricercare ed esplorare.
 
 Potete verificare la profondità della vostra comprensione scrivendo un [mini-saggio](https://www.youtube.com/watch?v=N4YjXJVzoZY) di 100-300 parole scegliendo l'argomento in questo gruppo di domande. Se vuoi un feedback sul tuo lavoro puoi inviarlo a mini-essay@planb.network, saremo più che felici di rivederlo.
 
-#### decentralizzazione
+#### Decentralizzazione
 
 
-- Il decentralizzazione è Hard. Perché dobbiamo affrontare tutti questi problemi per farla funzionare? Potremmo optare per un approccio ibrido, in cui alcune parti sono centralizzate e altre no?
-- Il decentralizzazione introduce il problema della doppia spesa o il problema della doppia spesa richiede il decentralizzazione? In che modo il Satoshi ha risolto il problema della doppia spesa?
+- La decentralizzazione è complicata. Perché dobbiamo affrontare tutti questi problemi per farla funzionare? Potremmo optare per un approccio ibrido, in cui alcune parti sono centralizzate e altre no?
+- La decentralizzazione introduce il problema della doppia spesa o il problema della doppia spesa richiede la decentralizzazione? In che modo il Satoshi ha risolto il problema della doppia spesa?
 - In quali aspetti Bitcoin è ancora più incline alla censura e perché la censura è una cosa così negativa? Ci sono argomenti a favore della censura?
-- Si afferma che Bitcoin è senza autorizzazione. Ci sono altri metodi di pagamento che si possono considerare senza autorizzazione?
+- Si afferma che Bitcoin è senza autorizzazioni. Ci sono altri metodi di pagamento che si possono considerare senza autorizzazione?
 
-#### Infiducia
+#### Trustless
 
 
-- La mancanza di fiducia è spesso uno spettro, non binario. Quali aspetti di  Bitcoin sono piuttosto Trustless e quali invece comportano un livello di fiducia più elevato? Possono essere attenuati?
-- Si desidera eseguire un full node per poter convalidare completamente tutte le transazioni. Si scarica Bitcoin Core da https://Bitcoin.org/en/download. Dove avete riposto la fiducia e dove siete completamente Trustless?
-- È possibile costruire un sistema Trustless sopra un sistema affidabile?
+- La mancanza di fiducia è spesso uno spettro, non binario. Quali aspetti di Bitcoin sono trustless e quali invece comportano un livello di fiducia più elevato? Possono essere attenuati?
+-  Vuoi eseguire un full node per poter convalidare completamente tutte le transazioni. Scarichi Bitcoin Core da https://Bitcoin.org/en/download. Dove stai riponendo la fiducia e dove sei completamente trustless?
+- È possibile costruire un sistema trustless sopra un sistema affidabile?
 
-#### La privacy
+#### Privacy
 
 
 - Quali sono i principali vantaggi che un utente ottiene quando mantiene una buona privacy quando interagisce con Bitcoin? Quali sono i vantaggi altruistici per la rete?
 - In che modo il riutilizzo degli indirizzi influisce sulla privacy?
 - Il Bitcoin utilizza un modello UTXO, mentre alcune criptovalute alternative utilizzano un modello di conto. Quali sono le implicazioni di questa scelta sulla privacy?
 
-#### Finito Supply
+#### Supply finita
 
 
-- Qual è la relazione tra il Bitcoin finito Supply e la sua emissione di monete attraverso il Coinbase Transaction? Qual è la relazione tra l'emissione di monete e il budget di sicurezza, e in che modo sono in contrasto?
-- Quali parametri avrebbe potuto modificare il Satoshi per cambiare il tetto del Supply di  Bitcoin? Cosa sarebbe cambiato se avesse deciso di limitare il Supply a 1 milione? E se fosse un trilione?
-- Perché alcuni sostengono un aumento di  Bitcoin Supply? Pensa che ciò avverrà?
+- Qual è la relazione tra la supply finita di Bitcoin e la sua emissione di monete attraverso la Coinbase Transaction? Qual è la relazione tra l'emissione di monete e il budget di sicurezza, e in che modo sono in contrasto?
+- Quali parametri avrebbe potuto modificare Satoshi per cambiare il tetto della supply di  Bitcoin? Cosa sarebbe cambiato se avesse deciso di limitare la Supply a 1 milione? E se fosse un trilione?
+- Perché alcuni sostengono un aumento della supply di Bitcoin? Pensi che accadrà?
 
 #### Aggiornamento
 
 
-- Che cos'è lo Speedy Trial e perché è stato necessario attivare il Taproot?
+- Che cos'è lo Speedy Trial e perché è stato necessario attivare Taproot?
 - Perché abbiamo bisogno di una percentuale così alta di miner per fare un upgrade in una softfork? Perché la soglia non è solo il 51%?
 
 #### Pensiero avverso
 
 
-- Che cos'è un attacco sibillino e che cosa rende una rete decentralizzata così incline a subirlo?
-- Perché è importante che tutti gli attori della rete Bitcoin - e non solo gli sviluppatori - pensino in modo avverso?
+- Che cos'è un Sybil attack e che cosa rende una rete decentralizzata così incline a subirlo?
+- Perché è importante che tutti gli attori del network di Bitcoin - e non solo gli sviluppatori - pensino in modo avversariale?
 
 
-#### Fonte aperta
+#### Open Source
 
 
-- Solo pochi manutentori hanno i permessi necessari su GitHub per unire il codice nel repository [Bitcoin Core](https://github.com/Bitcoin/Bitcoin). Questo non è in contrasto con una rete senza permessi?
-- Il processo di sviluppo open source è soggetto a un attacco sibillino? Se sì, come lo contrastereste?
+- Solo pochi manutentori hanno i permessi necessari su GitHub per fare _merge_(unire) del codice nel repository [Bitcoin Core](https://github.com/Bitcoin/Bitcoin). Questo non è in contrasto con una rete senza permessi?
+- Il processo di sviluppo open source è soggetto a un Sybil attack? Se sì, come lo contrastereste?
 - Quali sono i vantaggi e gli svantaggi di affidarsi a librerie open source di terze parti e qual è l'approccio adottato con Bitcoin Core?
 - In che modo abbiamo bisogno di revisioni che vadano oltre la semplice revisione del codice? Come determinare quanta revisione è sufficiente?
-- Come possiamo garantire che ci sia sempre un numero sufficiente di persone esperte che lavorano sul Bitcoin? Cosa succede quando non ci sono, e come possiamo valutare la loro integrità e le loro intenzioni?
+- Come possiamo garantire che ci sia sempre un numero sufficiente di persone esperte che lavorano su Bitcoin? Cosa succede quando non ci sono, e come possiamo valutare la loro integrità e le loro intenzioni?
 
-#### Scala
+#### Scalabilità
 
 
 - Si sostiene che lo sharding offra vantaggi di scalabilità al costo della complessità. Perché dovremmo o non dovremmo adottare miglioramenti tecnologici perché sono difficili da capire, anche se sembrano tecnologicamente validi?
-- Quali sono alcuni esempi di metodi di scalatura verso l'interno introdotti nel Bitcoin?
+- Quali sono alcuni esempi di metodi di scalabilità verso l'interno introdotti in Bitcoin?
 - Perché lo scaling verticale è molto più difficile in un sistema decentralizzato? E per quanto riguarda lo scaling orizzontale?
-- Non sembra che siamo vicini ad avere un consenso su come imbarcare il mondo intero sul Bitcoin. Il Satoshi non avrebbe dovuto almeno pensare a un percorso per arrivarci, prima del Mining, il primo blocco del 2009?
-- Come classifichereste (verticale, orizzontale, verso l'interno, o non è una tecnica di scalatura) ciascuno dei seguenti elementi: sharding, aumento della dimensione dei blocchi, SegWit, nodi SPV, scambi centralizzati, Lightning Network, diminuzione dell'intervallo dei blocchi, Taproot, sidechain
+- Non sembra che siamo vicini ad avere un consenso su come portare il mondo intero su Bitcoin. Satoshi non avrebbe dovuto almeno pensare a un percorso per arrivarci, prima del mining, prima di minare il primo blocco nel 2009?
+- Come classifichereste (verticale, orizzontale, verso l'interno, o non è una tecnica di scalatura) ciascuno dei seguenti elementi: sharding, aumento della dimensione dei blocchi, SegWit, nodi SPV, scambi centralizzati, Lightning Network, diminuzione dell'intervallo dei blocchi, Taproot, sidechain?
 
 # Sezione finale
 

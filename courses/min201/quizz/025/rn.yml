@@ -1,11 +1,9 @@
-question: Ni igiki gishingiyeko Layer c’uruja n’uruza rwa Bitcoin gikunda kwitwa?
-answer: Igisagara ca Layer.
+question: Ni gute bakunze kwita igice c’ishimikiro c’umuhora wa Bitcoin?
+answer: Settlement layer
 wrong_answers:
-  - Ivyo bicuruzwa Layer.
-  - Ivyo umutekano Layer.
-  - Ivyo vyumvikanyeko Layer.
+  - Transaction layer
+  - Security layer
+  - Consensus layer
 explanation: |
-  Ishingiro Layer ry’uruzitiro rwa Bitcoin, iryo umuravyo
-  Urubuga rwizigira ku gufungura no gufunga imihora yo kwishura,
-  akenshi yitwa igisagara ca Layer.
+  Igice c’ishimikiro ca Bitcoin, akenshi kitwa "Settlement layer," kijejwe kwugurura no gufunga imihora yo kwishura.
 reviewed: true

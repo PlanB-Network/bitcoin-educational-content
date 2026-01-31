@@ -1144,122 +1144,119 @@ Il consolidamento dell'output consiste nello sfruttare i periodi di bassa domand
 
 ![](assets/it/016.webp)
 
-Consolidamento degli output: unire le monete in un'unico grande output quando le commissioni sono basse, in modo da risparmiare le commissioni in seguito.
+Consolidamento degli output: aggregare frazioni di bitcoin in un'unico grande UTXO quando le commissioni sono basse, in modo da risparmiare le commissioni in seguito.
 
-Potrebbe non essere ovvio come il consolidamento dell'output contribuisca all'inward scaling. Dopo tutto, la quantità totale di dati Blockchain è persino leggermente aumentata con questo metodo. Tuttavia, l'insieme UTXO, cioè il database che tiene traccia di chi possiede quali monete, si riduce perché si spendono più UTXO di quanti se ne creano. Questo alleggerisce l'onere dei full nodes di mantenere i loro set UTXO.
+Potrebbe non essere ovvio come il consolidamento degli output contribuisca all'inward scaling. Dopo tutto, la quantità totale di dati nella blockchain è persino leggermente aumentata con questo metodo. Tuttavia, il set UTXO, cioè il database che tiene traccia di chi possiede quali monete, si riduce perché si spendono più UTXO di quanti se ne creano. Questo alleggerisce l'onere dei full nodes di mantenere i loro set UTXO.
 
-Purtroppo, però, queste due tecniche di *gestione del UTXO* potrebbero essere dannose per la privacy vostra o dei vostri beneficiari. Nel caso del batching, ogni beneficiario saprà che tutte le uscite del batching provengono da voi e sono destinate ad altri beneficiari (tranne forse la modifica). Nel caso del consolidamento di UTXO, rivelerete che gli output che consolidate appartengono allo stesso Wallet. Pertanto, potrebbe essere necessario trovare un compromesso tra l'efficienza dei costi e la privacy.
+Purtroppo, però, queste due tecniche di *gestione dei UTXO* potrebbero essere dannose per la tua privacy o dei tuoi beneficiari. Nel caso del batching, ogni beneficiario saprà che tutte le uscite del batching provengono da voi e sono destinate ad altri beneficiari (tranne forse la modifica). Nel caso del consolidamento di UTXO, rivelerete che gli output che consolidate appartengono allo stesso wallet. Pertanto, potrebbe essere necessario trovare un compromesso tra l'efficienza dei costi e la privacy.
 
-#### Scalatura a strati
+#### Scalabilità a layer(livelli o strati)
 
 
-L'approccio più efficace alla scalabilità è probabilmente la stratificazione. L'idea generale che sta alla base della stratificazione è che un protocollo può regolare i pagamenti tra gli utenti senza aggiungere transazioni al Blockchain.
+L'approccio più efficace alla scalabilità è probabilmente la stratificazione. L'idea generale che sta alla base della stratificazione è che un protocollo può regolare i pagamenti tra gli utenti senza aggiungere transazioni alla blockchain.
 
-Un protocollo a strati inizia con l'accordo di due o più persone su una transazione iniziale che viene inserita nel Blockchain, come illustrato nella figura seguente.
+Un protocollo a strati inizia con l'accordo di due o più persone su una transazione iniziale che viene inserita nella blockchain, come illustrato nell'immagine seguente.
 
 ![](assets/it/017.webp)
 
 
-Il modo in cui viene creata la transazione di avvio varia da un protocollo all'altro, ma un tema comune è che i partecipanti creano una transazione di avvio non firmata e una serie di transazioni di punizione pre-firmate, che spendono l'output della transazione di avvio in vari modi. Successivamente, la transazione iniziale è completamente firmata e pubblicata sulla blockchain, mentre le transazioni di punizione possono essere completamente firmate e pubblicate per punire una parte che si comporta male. Questo incentiva i partecipanti a mantenere le loro promesse, in modo che il protocollo possa funzionare in modo Trustless .
+Il modo in cui viene creata la transazione di avvio varia a seconda del protocollo, ma un tema comune è che i partecipanti creano una transazione di avvio non firmata e una serie di transazioni di punizione pre-firmate, che spendono l'output della transazione di avvio in vari modi. Successivamente, la transazione iniziale è completamente firmata e pubblicata sulla blockchain, mentre le transazioni di penalizzazione possono essere completamente firmate e pubblicate per punire una parte che si comporta male. Questo incentiva i partecipanti a mantenere le loro promesse, in modo che il protocollo possa funzionare in maniera trustless.
 
-Una volta che la transazione iniziale è sulla blockchain, il protocollo può fare ciò che deve fare. Ad esempio, può effettuare pagamenti superveloci tra i partecipanti, implementare alcune tecniche di miglioramento della privacy o eseguire scripting più avanzati che non sarebbero supportati dal Bitcoin Blockchain.
+Una volta che la transazione iniziale è sulla blockchain, il protocollo può fare ciò che deve fare. Ad esempio, può effettuare pagamenti superveloci tra i partecipanti, implementare alcune tecniche di miglioramento della privacy o eseguire scripting più avanzati che non sarebbero supportati dalla blockchain di Bitcoin.
 
-Non spiegheremo in dettaglio come funzionano i protocolli specifici, ma come si può vedere nella figura precedente, la blockchain viene usato raramente durante il ciclo di vita del protocollo. Tutte le azioni più interessanti avvengono con il off-chain. Abbiamo visto come questo possa essere un vantaggio per la privacy, se fatto bene, ma anche per la scalabilità.
+Non spiegheremo in dettaglio come funzionano i protocolli specifici, ma come si può vedere nella figura precedente, la blockchain viene usata raramente durante il ciclo di vita del protocollo. Tutte le azioni più interessanti avvengono off-chain(fuori dalla blockchain). Abbiamo visto come questo possa essere un vantaggio per la privacy, se fatto bene, ma anche per la scalabilità.
 
-In un [post su Reddit](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) intitolato "Un viaggio sulla Luna richiede un razzo con più stadi o altrimenti l'equazione del razzo vi mangerà il pranzo... impacchettare tutti in stile clown-car in un trabucco e sperare nel successo è proprio fuori luogo", Gregory Maxwell spiega perché la stratificazione è la nostra migliore possibilità di far scalare il Bitcoin di ordini di grandezza.
+In un [post su Reddit](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) intitolato "Un viaggio sulla Luna richiede un razzo con più stadi o altrimenti l'equazione del razzo vi mangerà il pranzo... impacchettare tutti in stile clown-car in un trabucco e sperare nel successo è proprio fuori luogo", Gregory Maxwell spiega perché la stratificazione è la nostra migliore possibilità di far scalare Bitcoin di ordini di grandezza.
 
-Inizia sottolineando l'errore di considerare Visa o Mastercard come i principali concorrenti di  Bitcoin e sottolinea come l'aumento della dimensione massima dei blocchi sia un approccio sbagliato per affrontare la concorrenza. Poi parla di come fare la differenza utilizzando i livelli:
+Inizia sottolineando l'errore di considerare Visa o Mastercard come i principali concorrenti di  Bitcoin e sottolinea come l'aumento della dimensione massima dei blocchi sia un approccio sbagliato per affrontare la concorrenza. Poi parla di come fare la differenza utilizzando i layers:
 
-> Questo significa che il Bitcoin non può essere un grande successo come tecnologia di pagamento? No. Ma per raggiungere il tipo di capacità necessaria a soddisfare le esigenze di pagamento del mondo dobbiamo lavorare in modo più intelligente.
+> Questo significa che Bitcoin non può essere un grande successo come tecnologia di pagamento? No. Ma per raggiungere il tipo di capacità necessaria a soddisfare le esigenze di pagamento del mondo dobbiamo lavorare in modo più intelligente.
 >
-> Fin dall'inizio il Bitcoin è stato progettato per incorporare livelli in modo sicuro attraverso la sua capacità di contrattazione intelligente (pensate che sia stato messo lì solo per far parlare di "DAO" senza senso?). In effetti, utilizzeremo il sistema Bitcoin come un giudice robotico altamente accessibile e perfettamente affidabile e condurremo la maggior parte dei nostri affari al di fuori dell'aula di tribunale, ma effettueremo le transazioni in modo tale che, se qualcosa dovesse andare storto, avremo tutte le prove e gli accordi stabiliti e potremo essere certi che il tribunale robotico sistemerà le cose. (Nota a margine: se questo sembra impossibile, leggete questo vecchio post sul taglio delle transazioni)
+> Fin dall'inizio Bitcoin è stato progettato per incorporare layers in modo sicuro attraverso la sua capacità di contrattazione intelligente (pensate che sia stato messo lì solo per far parlare di "DAO" senza senso?). In effetti, utilizzeremo il sistema Bitcoin come un giudice robotico altamente accessibile e perfettamente affidabile e condurremo la maggior parte dei nostri affari al di fuori dell'aula di tribunale, ma effettueremo le transazioni in modo tale che, se qualcosa dovesse andare storto, avremo tutte le prove e gli accordi stabiliti e potremo essere certi che il tribunale robotico sistemerà le cose. (Nota per i più tecnici: se questo sembra impossibile, leggete questo vecchio post riguardo le transazioni _cut-through_)
 >
-> Questo è possibile proprio grazie alle proprietà fondamentali di  Bitcoin. Un sistema di base censurabile o reversibile non è molto adatto per costruirci sopra una potente elaborazione delle transazioni Layer superiore... e se il bene sottostante non è solido, non ha molto senso fare transazioni con esso.
+> Tutto ciò è possibile proprio grazie alle proprietà fondamentali di Bitcoin. Un sistema di base censurabile o reversibile non è molto adatto per costruirci sopra dei potenti layer superiori di elaborazione delle transazioni... e se il bene sottostante non è solido, non ha senso usarlo come mezzo di scambio.
 
-L'analogia con il giudice è abbastanza esplicativa di come funziona la stratificazione: questo giudice deve essere incorruttibile e non cambiare mai idea, altrimenti gli strati sopra la base Bitcoin di Layer non funzioneranno in modo affidabile.
+L'analogia con il giudice è abbastanza esplicativa di come funziona la stratificazione: questo giudice deve essere incorruttibile e non cambiare mai idea, altrimenti gli strati sopra il layer base di Bitcoin non funzioneranno in maniera affidabile.
 
 Continua facendo un'osservazione sui servizi centralizzati. Di solito non c'è alcun problema nell'affidare a un server centrale una quantità banale di Bitcoin per fare le cose: anche questo è scalare a livelli.
 
-Sono passati molti anni da quando Maxwell scrisse il pezzo qui sopra, e le sue parole sono ancora corrette. Il successo del Lightning Network dimostra che la stratificazione è davvero una strada da percorrere per aumentare l'utilità di  Bitcoin.
+Sono passati molti anni da quando Maxwell scrisse il pezzo qui sopra, e le sue parole sono ancora corrette. Il successo del Lightning Network dimostra che la stratificazione è davvero una strada da percorrere per aumentare l'utilità di Bitcoin.
 
 
 ### Conclusioni sulla scalabilità
 
 
-
 Abbiamo discusso vari modi in cui si potrebbe voler scalare Bitcoin, aumentando la capacità di utilizzo di Bitcoin. La scalabilità è stata un problema di Bitcoin fin dai primi giorni.
 
+Oggi sappiamo che Bitcoin non scala bene in senso verticale ("comprare hardware più grande") o orizzontale ("verificare solo parti dei dati"), ma piuttosto verso l'interno ("fare di più con meno") e a strati ("costruire protocolli sopra Bitcoin").
 
-Oggi sappiamo che Bitcoin non scala bene in senso verticale ("compra hardware più grande") o orizzontale ("verifica solo parti dei dati"), ma piuttosto verso l'interno ("fai di più con meno") e a strati ("costruisci protocolli in cima a Bitcoin").
-
-## Quando la merda colpisce il ventilatore
+## Quando qualcosa va storto
 
 <chapterId>fe39c13c-310f-51fd-84ff-6b92dd01c9e7</chapterId>
 
 ![](assets/it/018.webp)
 
-Bitcoin è costruito da persone. Le persone scrivono il software e le persone lo eseguono. Quando viene scoperta una vulnerabilità di sicurezza o un bug grave - c'è davvero una distinzione tra i due? - è sempre scoperta da persone in carne e ossa. Questo capitolo esamina ciò che le persone fanno, dovrebbero o non dovrebbero fare quando la merda colpisce il ventilatore. La prima sezione spiega il termine *divulgazione responsabile*, che si riferisce a come chi scopre una vulnerabilità può agire responsabilmente per contribuire a minimizzare i danni che ne derivano. Il resto del capitolo vi porta a scoprire alcune delle vulnerabilità più gravi scoperte nel corso degli anni e come sono state gestite da sviluppatori, miner e utenti. Nella prima infanzia di Bitcoin le cose non erano così rigorose come lo sono oggi.
+Bitcoin è costruito da persone. Le persone scrivono il software e le persone lo eseguono. Quando viene scoperta una vulnerabilità di sicurezza o un bug grave - c'è davvero una distinzione tra i due? - è sempre scoperta da persone in carne e ossa. Questo capitolo esamina ciò che le persone fanno, dovrebbero o non dovrebbero fare quando qualcosa va storto. La prima sezione spiega il termine *divulgazione responsabile*, che si riferisce a come chi scopre una vulnerabilità può agire responsabilmente per contribuire a minimizzare i danni che ne derivano. Il resto del capitolo vi porta a scoprire alcune delle vulnerabilità più gravi scoperte nel corso degli anni e come sono state gestite da sviluppatori, miner e utenti. Nella prima infanzia di Bitcoin le cose non erano così rigorose come lo sono oggi.
 
-### Divulgazione responsabile
+### Segnalazione responsabile
 
 
-Immaginate di aver scoperto un bug in Bitcoin Core, un bug che permette a chiunque di spegnere da remoto un nodo Bitcoin Core utilizzando alcuni messaggi di rete appositamente creati. Immaginate anche di non essere malintenzionati e di volere che questo problema non venga sfruttato. Che cosa fate? Se non ne parlate, probabilmente qualcun altro scoprirà il problema e non potete essere certi che non si tratti di una persona malintenzionata.
+Immaginate di aver scoperto un bug in Bitcoin Core, un bug che permette a chiunque di spegnere da remoto un nodo Bitcoin Core utilizzando alcuni messaggi di rete appositamente creati. Immaginate anche di non essere malintenzionati e di volere che questo problema non venga sfruttato. Che cosa fai? Se non ne parli, probabilmente qualcun altro scoprirà il problema e non puoi essere certo che non si tratti di una persona malintenzionata.
 
 Quando viene scoperto un problema di sicurezza, la persona che lo scopre dovrebbe ricorrere alla _divulgazione responsabile_, un termine spesso usato dagli sviluppatori di Bitcoin. Il termine è [spiegato su Wikipedia](https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
 
-> Gli sviluppatori di hardware e software spesso richiedono tempo e risorse per riparare ai loro errori. Spesso sono gli hacker etici a trovare questi errori
-vulnerabilità. Gli hacker e gli scienziati della sicurezza informatica ritengono che sia loro responsabilità sociale rendere il pubblico consapevole delle vulnerabilità. Nascondere i problemi potrebbe causare una sensazione di falsa sicurezza. Per evitare ciò, le parti coinvolte si coordinano e negoziano un periodo di tempo ragionevole per la riparazione della vulnerabilità. A seconda dell'impatto potenziale della vulnerabilità, del tempo previsto per lo sviluppo e l'applicazione di una soluzione di emergenza o di un workaround e di altri fattori, questo periodo può variare da pochi giorni a diversi mesi.
+> Gli sviluppatori di hardware e software spesso richiedono tempo e risorse per riparare ai loro errori. Spesso sono gli hacker etici a trovare queste vulnerabilità. Gli hacker e gli scienziati della sicurezza informatica ritengono che sia loro responsabilità sociale rendere il pubblico consapevole delle vulnerabilità. Nascondere i problemi potrebbe causare una sensazione di falsa sicurezza. Per evitare ciò, le parti coinvolte si coordinano e negoziano un periodo di tempo ragionevole per la riparazione della vulnerabilità. A seconda dell'impatto potenziale della vulnerabilità, del tempo previsto per lo sviluppo e l'applicazione di una soluzione di emergenza o di un workaround e di altri fattori, questo periodo può variare da pochi giorni a diversi mesi.
 
-Ciò significa che se trovate un problema di sicurezza, dovete segnalarlo al team responsabile del sistema. Ma cosa significa questo nel contesto di Bitcoin? Nessuno controlla Bitcoin, ma attualmente esiste un punto focale per lo sviluppo di Bitcoin, ovvero il [repository Github Bitcoin Core](https://github.com/Bitcoin/Bitcoin). I manutentori di tale repository sono responsabili del codice in esso contenuto, ma non sono responsabili del sistema nel suo complesso. Ciononostante, la prassi migliore è quella di inviare un'email a security@bitcoincore.org.
+Questo significa che se individui un problema di sicurezza, dovresti segnalarlo al team responsabile del sistema. Ma cosa significa questo nel contesto di Bitcoin? Nessuno controlla Bitcoin, ma attualmente esiste un punto focale per lo sviluppo di Bitcoin, ovvero il [repository Github Bitcoin Core](https://github.com/Bitcoin/Bitcoin). I manteiners di tale repository sono responsabili del codice in esso contenuto, ma non sono responsabili del sistema nel suo complesso. Ciononostante, la prassi migliore è quella di inviare un'email a security@bitcoincore.org.
 
-In un [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) intitolato "Responsible disclosure of bugs" (Divulgazione responsabile dei bug) del 2017, Anthony Towns ha cercato di riassumere quelle che ritiene essere le migliori pratiche attuali. Ha raccolto input da diverse fonti e da diverse persone per informare il suo punto di vista sull'argomento.
+In un [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) intitolato "Responsible disclosure of bugs" (segnalazione responsabile dei bug) del 2017, Anthony Towns ha cercato di riassumere quelle che ritiene essere le migliori pratiche attuali. Ha raccolto input da diverse fonti e da diverse persone per informare il suo punto di vista sull'argomento.
 
-- Le vulnerabilità devono essere segnalate via security at bitcoincore.org
-- Un problema critico (che può essere sfruttato immediatamente o che viene già sfruttato causando danni ingenti) verrà affrontato da:
+- Le vulnerabilità devono essere segnalate all'indirizzo security@bitcoincore.org
+- Un problema critico (che può essere sfruttato immediatamente o che viene già sfruttato causando danni ingenti) verrà risolto con:
   - una patch rilasciata il prima possibile
   - ampia notifica della necessità di aggiornamento (o di disabilitazione dei sistemi interessati)
   - divulgazione minima del problema reale, per ritardare gli attacchi
 - Una vulnerabilità non critica (perché difficile o costosa da sfruttare) sarà gestita da:
   - patch e revisioni intraprese nell'ordinario flusso di sviluppo
   - backport di una correzione o di un workaround da master alla versione correntemente rilasciata
-- Gli sviluppatori cercheranno di assicurarsi che la pubblicazione della correzione non riveli la natura della vulnerabilità, fornendo la correzione proposta agli sviluppatori esperti che non sono stati informati della vulnerabilità, dicendo loro che essa risolve una vulnerabilità e chiedendo loro di identificare la vulnerabilità.
-- Gli sviluppatori possono raccomandare ad altre implementazioni di Bitcoin di adottare le correzioni delle vulnerabilità prima che queste vengano rilasciate e diffuse, se possono farlo senza rivelare la vulnerabilità; ad esempio, se la correzione ha vantaggi significativi in termini di prestazioni che ne giustificherebbero l'inclusione.
-- Prima che una vulnerabilità diventi pubblica, gli sviluppatori generalmente raccomandano agli sviluppatori Altcoin amici di mettersi al passo con le correzioni. Ma questo avviene solo dopo che le correzioni sono state ampiamente distribuite nella rete Bitcoin .
-- In genere i sviluppatori non notificheranno gli sviluppatori Altcoin che si sono comportati in modo ostile (ad esempio, utilizzando le vulnerabilità per attaccare altri o violando gli embarghi).
+- Gli sviluppatori cercheranno di garantire che la pubblicazione della correzione non riveli la natura della vulnerabilità, fornendo la patch proposta a sviluppatori esperti non informati della vulnerabilità, dicendo loro che risolve un problema e chiedendo di individuarlo.
+- Gli sviluppatori possono raccomandare ad altre implementazioni di Bitcoin di adottare le correzioni prima la patch sia rilasciata e ampiamente distribuita, se ciò può avvenire senza rivelare la vulnerabilità; ad esempio, se la correzione ha offre significativi benefici in termini di prestazioni che ne giustificherebbero l'inclusione.
+- Prima che una vulnerabilità diventi pubblica, gli sviluppatori generalmente raccomandano agli sviluppatori di altcoin amici di aggiornarsi con le correzioni. Ma questo avviene solo dopo che le correzioni sono state ampiamente distribuite nella rete Bitcoin .
+- Gli sviluppatori generalmente non notificheranno gli sviluppatori di altcoin che si sono comportati in modo ostile (ad esempio, utilizzando le vulnerabilità per attaccare altri o violando gli embargo).
 - Gli sviluppatori di Bitcoin non divulgheranno i dettagli della vulnerabilità finché >80% dei nodi Bitcoin non avrà implementato le correzioni. I ricercatori di vulnerabilità sono incoraggiati e invitati a seguire la stessa politica. [1] [6]
 
-Questo elenco mostra la cautela che si deve avere nel pubblicare le patch per Bitcoin, poiché la patch stessa potrebbe rivelare la vulnerabilità. Il quarto punto è particolarmente interessante perché spiega come verificare se una patch è stata mascherata abbastanza bene. Infatti, se alcuni sviluppatori molto esperti non riescono a individuare la vulnerabilità pur sapendo che la patch ne risolve una, probabilmente sarà davvero Hard difficile per altri scoprirla.
+Questo elenco mostra la cautela che si deve avere nel pubblicare le patch per Bitcoin, poiché la patch stessa potrebbe rivelare la vulnerabilità. Il quarto punto è particolarmente interessante perché spiega come verificare se una patch è stata mascherata abbastanza bene. Infatti, se alcuni sviluppatori molto esperti non riescono a individuare la vulnerabilità pur sapendo che la patch ne risolve una, probabilmente sarà davvero difficile per altri scoprirla.
 
-Il thread che ha portato a questa e-mail discuteva se, quando e come divulgare le vulnerabilità alle altcoin e ad altre implementazioni di Bitcoin. Non c'è una risposta chiara. "Aiutare i buoni" sembra la cosa più sensata da fare, ma chi decide chi sono e dove si traccia il confine? Bryan Bishop [ha sostenuto](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) che aiutare le altcoin e persino le scamcoin a difendersi dagli exploit di sicurezza è un dovere morale:
+Il thread che ha portato a questa e-mail discuteva se, quando e come divulgare le vulnerabilità alle altcoin e ad altre implementazioni di Bitcoin. Non c'è una risposta chiara. "Aiutare i buoni" sembra la cosa più sensata da fare, ma chi decide chi sono i buoni? E dove si traccia il confine? Bryan Bishop [ha sostenuto](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) che aiutare le altcoin e persino le scamcoin a difendersi dagli exploit di sicurezza è un dovere morale:
 
-> Non è sufficiente difendere il Bitcoin e i suoi utenti dalle minacce attive, c'è una responsabilità più generale nel difendere tutti i tipi di utenti e i diversi software da molti tipi di minacce in qualsiasi forma, anche se la gente usa software stupido e insicuro che voi personalmente non mantenete, non contribuite o non sostenete. Gestire la conoscenza di una vulnerabilità è una questione delicata e potreste ricevere conoscenze con un impatto diretto o indiretto più grave di quello descritto inizialmente.
+> Non è sufficiente difendere Bitcoin e i suoi utenti dalle minacce attive, c'è una responsabilità più generale nel difendere tutti i tipi di utenti e i diversi software da molti tipi di minacce in qualsiasi forma, anche se la gente usa software stupido e poco sicuro che tu personalmente non manteni, non contribuisci o non sostieni. Gestire la conoscenza di una vulnerabilità è una questione delicata e potresti ricevere conoscenze con un impatto diretto o indiretto più grave di quanto inizialmente descritto.
 
-A precedere l'e-mail di Town è stato anche un [post](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) di Gregory Maxwell, in cui si sostiene che le vulnerabilità della sicurezza potrebbero essere più gravi di quanto sembrino:
+A precedere l'e-mail di Town è stato un [post](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) di Gregory Maxwell, in cui si sostiene che le vulnerabilità della sicurezza potrebbero essere più gravi di quanto sembrino:
 
 
-> Ho visto più volte un problema di Hard da sfruttare rivelarsi banale quando si trova il trucco giusto, o un problema di dos minore rivelarsi molto più serio.
+> Ho visto più volte un problema difficile da sfruttare rivelarsi banale quando si trova il trucco giusto, o un problema di DoS minore rivelarsi molto più serio.
 >
-> Semplici bug di prestazioni, implementati con perizia, possono essere utilizzati per suddividere la rete: miner A e Exchange B vanno in una partizione, tutti gli altri in un'altra... e raddoppiare la spesa.
+> Semplici bug di prestazione, implementati con perizia, possono essere utilizzati per suddividere la rete: miner A e exchange B vanno in una partizione, tutti gli altri in un'altra... e consentire una doppia spesa.
 >
-> E così via.  Quindi, anche se sono assolutamente d'accordo sul fatto che cose diverse dovrebbero e possono essere gestite in modo diverso, non è sempre così chiaro. È prudente trattare le cose come più gravi di quanto si sappia.
+> E così via. Quindi, anche se sono assolutamente d'accordo sul fatto che cose diverse dovrebbero e possono essere gestite in modo diverso, non è sempre così chiaro. È prudente trattare le cose come più gravi di quanto si sappia.
 
-Quindi, anche se una vulnerabilità sembra Hard da sfruttare, è meglio presumere che sia facilmente sfruttabile e che non si sia ancora capito come.
+Quindi, anche se una vulnerabilità sembra difficile da sfruttare, è meglio presumere che sia facilmente sfruttabile e che non si sia ancora capito come.
 
-Inoltre, egli afferma che "è alquanto scorretto definire questo thread come qualcosa che riguarda la divulgazione, questo thread non riguarda la divulgazione". La divulgazione è quando si dice al venditore.  Questo thread riguarda la pubblicazione, che ha implicazioni molto diverse. La pubblicazione avviene quando si è sicuri di aver informato i potenziali aggressori". Quest'ultima osservazione sulla distinzione tra divulgazione e pubblicazione è importante. La parte facile è la divulgazione responsabile; la parte Hard è la pubblicazione sensata.
+Inoltre, egli afferma che "è alquanto scorretto definire questa discussione come qualcosa che riguarda la segnalazione, questa discussione non riguarda la segnalazione". La segnalazione è quando si parla al venditore.  Questo thread riguarda la pubblicazione, che ha implicazioni molto diverse. La pubblicazione avviene quando si è sicuri di aver informato i potenziali aggressori". Quest'ultima osservazione sulla distinzione tra segnalazione e pubblicazione è importante. La parte facile è la segnalazione responsabile; più complessa è invece la pubblicazione sensata.
 
 ### L'infanzia traumatica di Bitcoin
 
 
-Bitcoin è nato come progetto di un solo uomo (almeno questo è ciò che suggerisce lo pseudonimo del suo creatore) e inizialmente il valore di Bitcoin era scarso o nullo. Per questo motivo, le vulnerabilità e le correzioni dei bug non erano gestite in modo così rigoroso come lo sono oggi.
+Bitcoin è nato come progetto di un solo uomo (almeno questo è ciò che suggerisce lo pseudonimo del suo creatore) e inizialmente bitcoin aveva poco o addirittura nessun valore. Per questo motivo, le vulnerabilità e le correzioni dei bug non erano gestite in modo così rigoroso come lo sono oggi.
 
-Il wiki di Bitcoin contiene un [elenco di vulnerabilità ed esposizioni comuni](https://en.Bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures) (CVE) che Bitcoin ha attraversato. Questa sezione costituisce una piccola esposizione di alcuni problemi e incidenti di sicurezza dei primi anni di  Bitcoin. Non li tratteremo tutti, ma ne abbiamo selezionati alcuni che riteniamo particolarmente interessanti.
+Bitcoin wiki contiene un [elenco di vulnerabilità ed esposizioni](https://en.Bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures) (CVE) che Bitcoin ha attraversato. Questa sezione costituisce una piccola esposizione di alcuni problemi e incidenti di sicurezza dei primi anni di Bitcoin. Non li tratteremo tutti, ma ne abbiamo selezionati alcuni che riteniamo particolarmente interessanti.
 
 #### 2010-07-28: Spendere le monete di chiunque (CVE-2010-5141)
 
 
-Il 28 luglio 2010, uno pseudonimo di nome ArtForz ha scoperto un bug nella versione 0.3.4 che consentiva a chiunque di sottrarre monete a chiunque altro. ArtForz lo segnalò *responsabilmente* a Satoshi Nakamoto e a un altro sviluppatore di Bitcoin di nome Gavin Andresen.
+Il 28 luglio 2010, una persona con pseudonimo "ArtForz" ha scoperto un bug nella versione 0.3.4 che consentiva a chiunque di sottrarre monete a chiunque altro. ArtForz lo segnalò *responsabilmente* a Satoshi Nakamoto e a un altro sviluppatore di Bitcoin di nome Gavin Andresen.
 
-Il problema era che l'operatore di script `OP_RETURN` usciva semplicemente dall'esecuzione del programma, quindi se la scriptPubKey era `<pubkey> OP_CHECKSIG` e scriptSig era `OP_1 OP_RETURN`, la parte del programma nella scriptPubKey non veniva mai eseguita. L'unica cosa che accadrebbe sarebbe che `1` venisse messo in pila e poi `OP_RETURN` causerebbe l'uscita del programma. Qualsiasi valore non nullo in cima allo stack dopo l'esecuzione del programma significa che la condizione di spesa è soddisfatta. Poiché l'elemento `1` in cima allo stack è diverso da zero, la spesa è corretta.
+Il problema era che l'operatore dello script `OP_RETURN` terminava semplicemente l'esecuzione del programma, quindi se la scriptPubKey era `<pubkey> OP_CHECKSIG` e se scriptSig era `OP_1 OP_RETURN`, la parte del programma nella scriptPubKey non veniva mai eseguita. L'unica cosa che accadrebbe sarebbe che `1` venisse messo in pila e poi `OP_RETURN` faceva terminare il programma. Qualsiasi valore diverso da zero in cima allo stack dopo l'esecuzione del programma significa che la condizione di spesa è soddisfatta. Poiché l'elemento `1` in cima allo stack è diverso da zero, la spesa veniva considerata valida.
 
 Questo era il codice per la gestione di `OP_RETURN`:
 
@@ -1282,7 +1279,7 @@ break;
 
 Satoshi ha apportato questa modifica localmente e ne ha ricavato un binario eseguibile con la versione 0.3.5. Poi ha postato sul forum di Bitcointalk "Allarme" e "Aggiornamento alla versione 0.3.5 il prima possibile", esortando gli utenti a installare questa sua versione binaria, senza presentare il codice sorgente:
 
-> Aggiornare il prima possibile alla versione 0.3.5!  Abbiamo risolto un bug di implementazione che consentiva di accettare transazioni false.  Non accettare transazioni Bitcoin come pagamento finché non si aggiorna alla versione 0.3.5!
+> Aggiornare il prima possibile alla versione 0.3.5!  Abbiamo risolto un bug di implementazione che consentiva di accettare transazioni false. Non accettare transazioni Bitcoin come pagamento finché non si aggiorna alla versione 0.3.5!
 
 Il messaggio originale è stato successivamente modificato e non è più disponibile nella sua forma completa. Il frammento di cui sopra proviene da una [risposta citata](https://bitcointalk.org/index.php?topic=626.msg6458#msg6458). Alcuni utenti hanno provato il binario di Satoshi, ma hanno riscontrato dei problemi. Poco dopo, [Satoshi ha scritto](https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
 
@@ -1309,27 +1306,24 @@ A questo punto sembra che abbia anche aggiornato il post originale per menzionar
 >
 > http://sourceforge.net/projects/Bitcoin/files/Bitcoin/Bitcoin-0.3.6/
 >
-> Utenti Windows e Linux: se avete la 0.3.5 dovete ancora aggiornare alla 0.3.6.
+> Utenti Windows e Linux: se usate la 0.3.5 dovete ancora aggiornare alla 0.3.6.
 
-Si noti la differenza nella caratterizzazione del problema rispetto al primo messaggio: "potrebbe essere visualizzato come accettato" rispetto a "potrebbe essere accettato". Forse Satoshi ha minimizzato la gravità del bug nella sua comunicazione per non attirare troppo l'attenzione sul problema reale. In ogni caso, la gente ha aggiornato alla 0.3.6 e ha funzionato come previsto. Questo particolare problema è stato risolto, sorprendentemente, senza perdite da parte di Bitcoin.
+Si noti la differenza nella caratterizzazione del problema rispetto al primo messaggio: "potrebbe essere visualizzato come accettato" rispetto a "potrebbe essere accettato". Forse Satoshi ha minimizzato la gravità del bug nella sua comunicazione per non attirare troppo l'attenzione sul problema reale. In ogni caso, la gente ha aggiornato alla 0.3.6 e ha funzionato come previsto. Questo particolare problema è stato risolto, sorprendentemente, senza perdite di bitcoin.
 
-Il messaggio di Satoshi descriveva anche alcune ottimizzazioni delle prestazioni per Mining. Non è chiaro perché questo sia stato incluso in una correzione di sicurezza critica, è possibile che lo scopo fosse quello di offuscare il vero problema. Tuttavia, sembra più probabile che abbia semplicemente rilasciato qualsiasi cosa fosse presente nel ramo di sviluppo del repository Subversion, con l'aggiunta della correzione di sicurezza.
+Il messaggio di Satoshi descriveva anche alcune ottimizzazioni delle prestazioni per il mining. Non è chiaro perché questo sia stato incluso in una correzione di sicurezza critica, è possibile che lo scopo fosse quello di offuscare il vero problema. Tuttavia, sembra più probabile che abbia semplicemente rilasciato qualsiasi cosa fosse presente nel ramo di sviluppo del repository Subversion, con l'aggiunta della correzione di sicurezza.
 
-A quel tempo, gli utenti non erano così numerosi come oggi e il valore di Bitcoin era prossimo allo zero. Se la risposta a questo bug fosse stata data oggi, sarebbe stata considerata un vero e proprio spettacolo di merda per diverse ragioni:
-
+A quel tempo, gli utenti non erano così numerosi come oggi e il valore di Bitcoin era prossimo allo zero. Se la risposta a questo bug fosse stata data oggi, sarebbe stata considerato un vero disastro totale per diversi motivi:
 
 - Satoshi ha rilasciato una versione 0.3.5 solo binaria contenente la correzione. Non è stata fornita alcuna patch o codice, forse come misura per offuscare il problema.
 - 0.3.5 [non ha nemmeno funzionato](https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
-- Il fix in 0.3.6 era in realtà un Hard Fork.
+- Il fix in 0.3.6 era in realtà un hard fork.
 
 Un altro aspetto discutibile è se sia un bene o un male che agli utenti sia stato chiesto di chiudere i loro nodi. Oggi questo non sarebbe possibile, ma all'epoca molti utenti seguivano attivamente i forum per gli aggiornamenti e di solito erano al corrente della situazione. Dato che era possibile farlo, poteva essere una cosa sensata da fare.
 
 #### 2010-08-15 Overflow dell'output combinato (CVE-2010-5139)
 
 
-A metà agosto 2010, l'utente del forum Bitcointalk jgarzik, alias Jeff Garzik,
-
-[ha scoperto che](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) una certa transazione all'altezza del blocco 74638 aveva due uscite di valore insolitamente elevato:
+A metà agosto 2010, l'utente del forum Bitcointalk, jgarzik, alias di Jeff Garzik, [ha scoperto che](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) una specifica transazione all'altezza del blocco 74638 aveva due uscite di valore insolitamente elevato:
 
 ```
 "out" : [
@@ -1344,38 +1338,35 @@ A metà agosto 2010, l'utente del forum Bitcointalk jgarzik, alias Jeff Garzik,
 ]
 ```
 
-> Il "valore fuori" in questo blocco #74638 è piuttosto strano:
+> Il "valore in uscita" in questo blocco #74638 è piuttosto strano:
 >
 > 92233720368.54277039 BTC?  È UINT64_MAX, mi chiedo?
 
-Presumibilmente, c'era un bug che causava l'overflow della somma di due uscite int64 (non uint64, come supponeva Garzik) a un valore negativo -0,00997538 BTC. Qualunque fosse la somma degli ingressi, la "somma" delle uscite sarebbe stata più piccola, rendendo questa transazione corretta secondo il codice dell'epoca.
+Presumibilmente, c'era un bug che causava l'overflow della somma di due uscite int64 (non uint64, come supponeva Garzik) a un valore negativo -0,00997538 BTC. Qualunque fosse la somma degli ingressi, la "somma" delle uscite sarebbe stata più piccola, rendendo questa transazione valida secondo il codice dell'epoca.co
 
-In questo caso, il bug era stato divulgato e pubblicato attraverso un vero e proprio exploit. Un risultato sfortunato è stato la creazione di circa 2x92 miliardi di Bitcoin, che hanno diluito gravemente la moneta Supply di circa 3,7 milioni di monete esistenti all'epoca.
+In questo caso, il bug era stato divulgato e pubblicato attraverso un vero e proprio exploit. Un risultato sfortunato è stato la creazione di circa 2x92 miliardi di Bitcoin, che hanno diluito gravemente la supply di bitcoin di circa 3,7 milioni di monete esistenti all'epoca.
 
-In un thread correlato, [Satoshi ha postato](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) che apprezzerebbe se la gente smettesse di fare Mining (o *generare*, come lo chiamavano allora):
+In un thread correlato, [Satoshi ha postato](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) che apprezzerebbe se la gente smettesse di fare mining (o *generating*, come lo chiamavano allora):
 
-> Sarebbe utile se la gente smettesse di generare.  Probabilmente dovremo rifare un ramo attorno a quello attuale, e meno generate ci sarà, più veloce sarà l'operazione.
+> Sarebbe utile se la gente smettesse di generare. Probabilmente dovremo rifare un ramo attorno a quello attuale, e meno generate, più veloce sarà l'operazione.
 >
-> Una prima patch sarà presente in SVN rev 132.  Non è ancora stata caricata.  Sto prima eliminando alcune modifiche varie, poi caricherò la patch per questo.
+> Una prima patch sarà presente in SVN rev 132. Non è ancora stata caricata.  Sto prima eliminando alcune modifiche varie, poi caricherò la patch per questo.
 
 Il suo piano era di creare un soft fork per rendere invalide transazioni come quella qui discussa, invalidando così i blocchi (in particolare il blocco 74638) che contenevano tali transazioni. Meno di un'ora dopo, ha inserito una [patch nella revisione 132](https://sourceforge.net/p/Bitcoin/code/132/) del repository Subversion e ha [postato sul forum](https://bitcointalk.org/index.php?topic=823.msg9548#msg9548) descrivendo ciò che pensava gli utenti dovessero fare:
 
 > La patch è stata caricata su SVN rev 132!
 >
-
 > Per ora, i passi consigliati:
-> 1) Spegnimento.
-> 2) Scaricare i file blk di knightmb.  (sostituite i vostri file blk0001.dat e blkindex.dat)
-> 3) Aggiornamento.
+> 1) Spegnere.
+> 2) Scaricare i file blk di knightmb. (sostituite i vostri file blk0001.dat e blkindex.dat)
+> 3) Aggiornare.
 > 4) Dovrebbe iniziare con meno di 74000 blocchi. Lasciare che riscarichi il resto.
 >
-
 > Se non si vogliono usare i file di knightmb, si possono semplicemente cancellare i file blk*.dat, ma il carico sulla rete sarà notevole se tutti scaricano l'intero indice dei blocchi in una volta sola.
 >
-
 > Costruirò le versioni a breve.
 
-Voleva che si scaricassero i dati dei blocchi di un utente specifico, knightmb, che aveva pubblicato il suo Blockchain così come appariva sul suo disco, i file blkXXXX.dat e blkindex.dat. Il motivo per scaricare i dati della blockchain in questo modo, invece di sincronizzarli da zero, era di ridurre i colli di bottiglia della larghezza di banda della rete.
+Voleva che si scaricassero i dati dei blocchi di un utente specifico, knightmb, che aveva pubblicato la sua blockchain così come appariva sul suo disco, i file blkXXXX.dat e blkindex.dat. Il motivo per scaricare i dati della blockchain in questo modo, invece di sincronizzarli da zero, era di ridurre i colli di bottiglia della larghezza di banda della rete.
 
 C'era un grosso problema: i dati che gli utenti scaricavano da knightmb [non erano verificati dal software Bitcoin](https://Bitcoin.stackexchange.com/a/113682/69518) all'avvio. Il file blkindex.dat conteneva il set UTXO e il software accettava qualsiasi dato in esso contenuto come se lo avesse già verificato. knightmb avrebbe potuto manipolare i dati per dare a se stesso o a chiunque altro dei bitcoin.
 

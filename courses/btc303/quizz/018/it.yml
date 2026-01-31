@@ -1,9 +1,9 @@
-question: Che cosa elimina nello specifico la proprietà senza fiducia di Bitcoin nelle transazioni digitali?
+question: Che cosa elimina nello specifico, la proprietà trustless di Bitcoin nelle transazioni digitali?
 answer: Terze parti fidate per elaborare e convalidare le transazioni
 wrong_answers:
   - Componenti hardware e software per l'esecuzione dei nodi Bitcoin
   - Algoritmi crittografici per la protezione di chiavi private e firme
   - Meccanismi di consenso della rete per concordare i blocchi validi
 explanation: |
-  La proprietà trustless di Bitcoin elimina specificamente la necessità di terze parti fidate come banche o istituzioni finanziarie per elaborare e convalidare le transazioni. Come ha spiegato Satoshi Nakamoto nel whitepaper del Bitcoin, il commercio tradizionale si basa su istituzioni finanziarie che fungono da intermediari fidati, ma il design del Bitcoin consente al sistema di funzionare correttamente senza parti fidate grazie al suo meccanismo di consenso decentralizzato. Le altre opzioni rappresentano componenti tecniche essenziali che il Bitcoin richiede ancora: è necessario un hardware/software per partecipare, la sicurezza crittografica rimane fondamentale e il consenso di rete è il modo in cui il Bitcoin raggiunge l'assenza di fiducia piuttosto che qualcosa che elimina.
-reviewed: false
+  La proprietà trustless di Bitcoin elimina specificamente la necessità di terze parti fidate come banche o istituzioni finanziarie per elaborare e convalidare le transazioni. Come ha spiegato Satoshi Nakamoto nel whitepaper di Bitcoin, il commercio tradizionale si basa su istituzioni finanziarie che fungono da intermediari fidati, ma il design di Bitcoin consente al sistema di funzionare correttamente senza parti fidate grazie al suo meccanismo di consenso decentralizzato. Le altre opzioni rappresentano componenti tecniche essenziali che Bitcoin richiede ancora: è necessario un hardware/software per partecipare, la sicurezza crittografica rimane fondamentale e il consenso di rete è il modo in cui Bitcoin raggiunge l'assenza di fiducia piuttosto che qualcosa che la elimina.
+reviewed: true

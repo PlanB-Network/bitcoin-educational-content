@@ -1,5 +1,5 @@
 question: In base alla discussione del capitolo sulla compatibilità di Bitcoin, che tipo di compatibilità offre un soft fork?
-answer: Compatibilità sia futura che retrocompatibile, per cui è completamente compatibile con il sistema
+answer: Compatibilità sia futura che passata, per cui è completamente compatibile con il sistema
 wrong_answers:
   - Solo retrocompatibilità, consentendo al nuovo software di elaborare i vecchi dati
   - Solo compatibilità futura, consentendo al vecchio software di elaborare i nuovi dati

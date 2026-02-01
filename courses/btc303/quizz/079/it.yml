@@ -1,7 +1,7 @@
 question: Secondo il quadro di riferimento per la divulgazione responsabile, qual è la ragione strategica principale per fornire patch di vulnerabilità agli sviluppatori di altcoin solo dopo che le correzioni sono state ampiamente distribuite nella rete Bitcoin?
 answer: Per evitare che gli aggressori sfruttino la stessa vulnerabilità su Bitcoin mentre le altcoin vengono patchate
 wrong_answers:
-  - "Per mantenere il vantaggio competitivo di Bitcoin rispetto alle implementazioni di criptovalute alternative"
+  - Per mantenere il vantaggio competitivo di Bitcoin rispetto alle implementazioni di criptovalute alternative
   - Per garantire che gli sviluppatori di altcoin abbiano il tempo sufficiente per comprendere e implementare correttamente i correttivi
   - Per evitare problemi di responsabilità legale che potrebbero derivare da una divulgazione prematura a progetti di terzi
 explanation: |

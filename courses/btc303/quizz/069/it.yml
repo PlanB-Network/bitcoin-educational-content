@@ -1,7 +1,7 @@
-question: Secondo la definizione del libro, quale scenario rappresenta il legittimo ridimensionamento di Bitcoin preservando la resistenza alla censura?
-answer: Implementazione di algoritmi di verifica delle firme più efficienti dal punto di vista spaziale che riducono le dimensioni degli input delle transazioni
+question: Secondo la definizione del libro, quale scenario rappresenta la legittima scalabilità di Bitcoin preservando la resistenza alla censura?
+answer: Implementazione di algoritmi di verifica delle firme più efficienti in termini di spazio, che riducono le dimensioni degli input delle transazioni
 wrong_answers:
-  - Incoraggiare gli utenti a migrare le transazioni verso gli scambi centralizzati per ridurre il volume on-chain
+  - Incoraggiare gli utenti a migrare le transazioni verso gli exchange centralizzati per ridurre il volume on-chain
   - Implementare il filtraggio automatico delle transazioni per dare priorità a determinati tipi di attività economica
   - Creare nodi di convalida approvati dal governo in grado di elaborare le transazioni in modo più efficiente
 explanation: |

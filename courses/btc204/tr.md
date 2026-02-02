@@ -2495,7 +2495,7 @@ Bununla birlikte, CoinJoin, ileri anonset olarak bilinen geçmişten günümüze
 ![BTC204](assets/tr/118.webp)
 
 
-İlk örnekte CoinJoin'in bir odanın mahremiyetini geçmişiyle bağlantılı olarak nasıl koruyabileceğini, ikinci örnekte ise bir odanın geçmişini geleceğiyle bağlantılı olarak nasıl güvence altına alabileceğini gördük. Bu nedenle CoinJoin'in her iki yönde de bir UTXO geçmişini bölümlere ayıran tek seferlik bir olay olarak görülmesi gerektiğini belirttim:
+İlk örnekte, coinjoin'in bir coinin geçmişine göre gizliliğini nasıl koruyabildiğini ve ikinci örnekte, bir coinin geleceğine göre geçmişini nasıl güvence altına alabildiğini gördük. Bu nedenle coinjoin'in, bir coinin geçmişini her iki yönde de segmentlere ayıran tek seferlik bir olay olarak algılanması gerektiğini belirttim:
 
 
 ![BTC204](assets/tr/119.webp)

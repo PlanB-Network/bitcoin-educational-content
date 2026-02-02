@@ -1719,7 +1719,7 @@ Hata hivyo, Kuunga sarafu pia kunatoa uwezekano wa kuimarisha usiri dhidi ya uch
 
 ![BTC204](assets/sw/118.webp)
 
-Katika mfano wa kwanza, tuliona jinsi kuunga sarafu inaweza kulinda faragha ya chumba kuhusiana na siku zake za nyuma, na katika mfano wa pili, jinsi inaweza pia kupata historia ya chumba kuhusiana na siku zijazo. Ndio maana nilisema kwamba kuunga sarafu kunapaswa kuonekana kama tukio la mara moja ambalo linagawanya historia ya sehemu katika pande zote mbili:
+Katika mfano wa kwanza, tuliona jinsi coinjoin inaweza kulinda faragha ya sarafu kuhusiana na yaliyopita, na katika mfano wa pili, jinsi inaweza pia kulinda historia ya sarafu kuhusiana na yajayo. Ndiyo sababu nilitaja kwamba coinjoin inapaswa kuonekana kama tukio la mara moja linalogawanya historia ya sarafu katika pande zote mbili:
 
 ![BTC204](assets/sw/119.webp)
 

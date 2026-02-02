@@ -1745,7 +1745,7 @@ Sin embargo, coinjoin también ofrece la posibilidad de reforzar la confidencial
 
 ![BTC204](assets/es/118.webp)
 
-En el primer ejemplo, vimos cómo la coinjoin puede proteger la privacidad de una sala en relación con su pasado, y en el segundo ejemplo, cómo también puede asegurar la historia de una sala en relación con su futuro. Por eso mencioné que la coinjoin debe verse como un acontecimiento único que segmenta una parte de la historia en ambas direcciones:
+En el primer ejemplo, vimos cómo coinjoin puede proteger la confidencialidad de una moneda con respecto a su pasado, y en el segundo ejemplo, cómo también puede asegurar el historial de una moneda con respecto a su futuro. Por eso mencioné que coinjoin debería percibirse como un evento puntual que segmenta el historial de una moneda en ambas direcciones:
 
 ![BTC204](assets/es/119.webp)
 

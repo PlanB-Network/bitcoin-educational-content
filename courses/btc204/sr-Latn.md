@@ -2480,7 +2480,7 @@ Međutim, CoinJoin takođe nudi mogućnost jačanja poverljivosti u svetlu anali
 ![BTC204](assets/sr-Latn/118.webp)
 
 
-U prvom primeru, videli smo kako CoinJoin može zaštititi privatnost osobe u odnosu na njenu prošlost, a u drugom primeru, kako može osigurati istoriju osobe u odnosu na njenu budućnost. Zato sam pomenuo da CoinJoin treba posmatrati kao jedinstven događaj koji segmentira deo istorije u oba smera:
+U prvom primeru videli smo kako coinjoin može da zaštiti privatnost novčića u odnosu na njegovu prošlost, a u drugom primeru kako može takođe da obezbedi istoriju novčića u odnosu na njegovu budućnost. Zato sam napomenuo da bi coinjoin trebalo posmatrati kao jednokratan događaj koji segmentira istoriju novčića u oba smera:
 
 
 ![BTC204](assets/sr-Latn/119.webp)

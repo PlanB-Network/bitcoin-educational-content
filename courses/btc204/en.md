@@ -1737,7 +1737,7 @@ However, coinjoin also offers the possibility of reinforcing confidentiality fro
 
 ![BTC204](assets/en/118.webp)
 
-In the first example, we saw how the coinjoin can protect a coin's privacy in relation to its past, and in the second example, how it can also secure a room's history in relation to its future. That's why I mentioned that the coinjoin should be seen as a one-off event that segments a UTXO history in both directions:
+In the first example, we saw how coinjoin can protect the privacy of a coin with respect to its past, and in the second example, how it can also secure the history of a coin with respect to its future. This is why I mentioned that coinjoin should be perceived as a one-off event that segments a coin’s history in both directions:
 
 ![BTC204](assets/en/119.webp)
 

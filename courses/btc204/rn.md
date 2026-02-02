@@ -2493,7 +2493,7 @@ Ariko kandi, CoinJoin iratanga kandi ubushobozi bwo gukomeza ibanga mu gihe c’
 ![BTC204](assets/rn/118.webp)
 
 
-Mu karorero ka mbere, twabonye ingene CoinJoin ishobora kurinda ubuzima bwite bw’icumba mu bijanye n’ivya kera, mu karorero ka kabiri, ingene ishobora kandi gukingira amateka y’icumba mu bijanye n’akazoza kaco. Ni co gituma navuze ko CoinJoin ikwiye gufatwa nk’ikintu kiba rimwe gusa gicapura amateka ya UTXO mu nzira zompi:
+Mu karorero ka mbere, twabonye ingene coinjoin ishobora kurinda ibanga ry’icuma ugereranyije n’ivyo cafuye, no mu karorero ka kabiri, ingene ishobora kandi gukingira amateka y’icuma ugereranyije n’ivyo kizoba. Ni co gituma navuze ko coinjoin ikwiye kubona nk’ikintu kiba rimwe gusa kigabura amateka y’icuma mu mpande zose zibiri:
 
 
 ![BTC204](assets/rn/119.webp)

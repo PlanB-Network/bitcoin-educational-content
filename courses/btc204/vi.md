@@ -1742,7 +1742,7 @@ Tuy nhiên, coinjoin cũng cung cấp khả năng tăng cường tính bảo m�
 
 ![BTC204](assets/vi/118.webp)
 
-Trong ví dụ đầu tiên, chúng ta đã thấy cách coinjoin có thể bảo vệ quyền riêng tư của một phòng liên quan đến quá khứ của nó, và trong ví dụ thứ hai, cách nó cũng có thể bảo vệ lịch sử của một phòng liên quan đến tương lai của nó. Đó là lý do tại sao tôi đề cập rằng coinjoin nên được coi là một sự kiện một lần phân đoạn một phần lịch sử theo cả hai hướng:
+Trong ví dụ đầu tiên, chúng ta đã thấy coinjoin có thể bảo vệ quyền riêng tư của một đồng tiền như thế nào đối với quá khứ của nó, và trong ví dụ thứ hai, nó cũng có thể bảo vệ lịch sử của một đồng tiền như thế nào đối với tương lai của nó. Đó là lý do tại sao tôi đã đề cập rằng coinjoin nên được xem như một sự kiện diễn ra một lần, phân tách lịch sử của đồng tiền theo cả hai hướng:
 
 ![BTC204](assets/vi/119.webp)
 

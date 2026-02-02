@@ -2447,7 +2447,7 @@ CoinJoin biedt echter ook de mogelijkheid om de vertrouwelijkheid te versterken 
 ![BTC204](assets/nl/118.webp)
 
 
-In het eerste voorbeeld zagen we hoe de CoinJoin de privacy van een UTXO kan beschermen in relatie tot het verleden, en in het tweede voorbeeld hoe het ook de geschiedenis van een UTXO kan veiligstellen in relatie tot de toekomst. Daarom zei ik dat de CoinJoin gezien moet worden als een eenmalige gebeurtenis die in beide richtingen een deel geschiedenis vastlegt:
+In het eerste voorbeeld zagen we hoe coinjoin de privacy van een munt kan beschermen met betrekking tot haar verleden, en in het tweede voorbeeld hoe het ook de geschiedenis van een munt kan beveiligen met betrekking tot haar toekomst. Daarom heb ik vermeld dat coinjoin moet worden gezien als een eenmalige gebeurtenis die de geschiedenis van een munt in beide richtingen segmenteert:
 
 
 ![BTC204](assets/nl/119.webp)

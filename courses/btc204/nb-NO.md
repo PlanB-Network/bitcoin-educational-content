@@ -1742,7 +1742,7 @@ Coinjoin gir imidlertid også muligheten til å forsterke konfidensialiteten i f
 
 ![BTC204](assets/nb-NO/118.webp)
 
-I det første eksempelet så vi hvordan coinjoin kan beskytte et roms personvern i forhold til dets fortid, og i det andre eksempelet hvordan det også kan sikre et roms historie i forhold til dets fremtid. Det var derfor jeg nevnte at coinjoin bør ses på som en engangshendelse som segmenterer en delhistorie i begge retninger:
+I det første eksempelet så vi hvordan coinjoin kan beskytte personvernet til en mynt med hensyn til dens fortid, og i det andre eksempelet hvordan den også kan sikre historikken til en mynt med hensyn til dens fremtid. Det er derfor jeg nevnte at coinjoin bør oppfattes som en engangshendelse som segmenterer en mynthistorikk i begge retninger:
 
 ![BTC204](assets/nb-NO/119.webp)
 

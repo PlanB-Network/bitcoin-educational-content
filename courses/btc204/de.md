@@ -1732,7 +1732,7 @@ Coinjoin bietet jedoch auch die Möglichkeit, die Vertraulichkeit angesichts ein
 
 ![BTC204](assets/de/118.webp)
 
-Im ersten Beispiel haben wir gesehen, wie der Coinjoin die Privatsphäre eines Raums in Bezug auf seine Vergangenheit schützen kann, und im zweiten Beispiel, wie er auch die Geschichte eines Raums in Bezug auf seine Zukunft sichern kann. Deshalb habe ich erwähnt, dass der Coinjoin als einmaliges Ereignis betrachtet werden sollte, das einen Teil der Geschichte in beide Richtungen segmentiert:
+Im ersten Beispiel haben wir gesehen, wie CoinJoin die Privatsphäre einer Münze in Bezug auf ihre Vergangenheit schützen kann, und im zweiten Beispiel, wie er auch die Historie einer Münze in Bezug auf ihre Zukunft absichern kann. Deshalb habe ich erwähnt, dass CoinJoin als ein punktuelles Ereignis wahrgenommen werden sollte, das die Historie einer Münze in beide Richtungen segmentiert:
 
 ![BTC204](assets/de/119.webp)
 

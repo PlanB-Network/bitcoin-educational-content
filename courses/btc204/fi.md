@@ -1745,7 +1745,7 @@ Coinjoin tarjoaa kuitenkin myös mahdollisuuden vahvistaa luottamuksellisuutta m
 
 ![BTC204](assets/fi/118.webp)
 
-Ensimmäisessä esimerkissä näimme, miten coinjoin voi suojata huoneen yksityisyyttä suhteessa sen menneisyyteen, ja toisessa esimerkissä, miten se voi myös turvata huoneen historian suhteessa sen tulevaisuuteen. Siksi mainitsin, että coinjoin olisi nähtävä kertaluonteisena tapahtumana, joka segmentoi osan historiaa molempiin suuntiin:
+Ensimmäisessä esimerkissä näimme, kuinka coinjoin voi suojata kolikon yksityisyyttä sen menneisyyteen nähden, ja toisessa esimerkissä, kuinka se voi myös turvata kolikon historian sen tulevaisuuteen nähden. Tämän vuoksi mainitsin, että coinjoin tulisi mieltää kertaluonteiseksi tapahtumaksi, joka segmento i kolikon historian molempiin suuntiin:
 
 ![BTC204](assets/fi/119.webp)
 

@@ -1743,7 +1743,7 @@ Namun, coinjoin juga menawarkan kemungkinan untuk memperkuat kerahasiaan dalam m
 
 ![BTC204](assets/id/118.webp)
 
-Pada contoh pertama, kita melihat bagaimana coinjoin dapat melindungi privasi sebuah ruangan dalam kaitannya dengan masa lalunya, dan pada contoh kedua, bagaimana coinjoin juga dapat mengamankan sejarah sebuah ruangan dalam kaitannya dengan masa depannya. Itulah mengapa saya menyebutkan bahwa coinjoin harus dilihat sebagai peristiwa sekali pakai yang menyegmentasikan bagian sejarah di kedua arah:
+Pada contoh pertama, kita melihat bagaimana coinjoin dapat melindungi kerahasiaan sebuah koin terhadap masa lalunya, dan pada contoh kedua, bagaimana coinjoin juga dapat mengamankan riwayat sebuah koin terhadap masa depannya. Inilah sebabnya saya menyebutkan bahwa coinjoin seharusnya dipersepsikan sebagai sebuah peristiwa sekali jalan yang membagi riwayat koin ke dua arah:
 
 ![BTC204](assets/id/119.webp)
 

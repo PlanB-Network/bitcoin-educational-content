@@ -2483,7 +2483,7 @@ CoinJoin erbjuder dock också möjligheten att stärka sekretessen inför en ana
 ![BTC204](assets/sv/118.webp)
 
 
-I det första exemplet såg vi hur CoinJoin kan skydda ett rums integritet i förhållande till dess förflutna, och i det andra exemplet hur den också kan säkra ett rums historia i förhållande till dess framtid. Det var därför jag nämnde att CoinJoin bör ses som en engångshändelse som segmenterar en del historia i båda riktningarna:
+I det första exemplet såg vi hur coinjoin kan skydda en mynts integritet i förhållande till dess förflutna, och i det andra exemplet hur det också kan säkra en mynts historik i förhållande till dess framtid. Det är därför jag nämnde att coinjoin bör uppfattas som en punktinsats som segmenterar en mynthistorik i båda riktningarna:
 
 
 ![BTC204](assets/sv/119.webp)

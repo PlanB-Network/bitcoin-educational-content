@@ -1742,7 +1742,7 @@ Tuttavia, coinjoin offre anche la possibilità di rafforzare la riservatezza a f
 
 ![BTC204](assets/it/118.webp)
 
-Nel primo esempio abbiamo visto come il coinjoin possa proteggere la privacy di una stanza in relazione al suo passato e, nel secondo esempio, come possa anche proteggere la storia di una stanza in relazione al suo futuro. Ecco perché ho detto che il coinjoin dovrebbe essere visto come un evento unico che segmenta una parte di storia in entrambe le direzioni:
+Nel primo esempio abbiamo visto come coinjoin possa proteggere la riservatezza di una moneta rispetto al suo passato, e nel secondo esempio come possa anche mettere in sicurezza la storia di una moneta rispetto al suo futuro. È per questo che ho menzionato che coinjoin dovrebbe essere percepito come un evento puntuale che segmenta la storia di una moneta in entrambe le direzioni:
 
 ![BTC204](assets/it/119.webp)
 

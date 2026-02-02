@@ -1745,7 +1745,7 @@ Metoda coinjoin však nabízí také možnost posílení důvěrnosti při anal�
 
 ![BTC204](assets/cs/118.webp)
 
-V prvním příkladu jsme viděli, jak může coinjoin chránit soukromí místnosti ve vztahu k její minulosti, a ve druhém příkladu, jak může také zabezpečit historii místnosti ve vztahu k její budoucnosti. Proto jsem zmínil, že coinjoin je třeba vnímat jako jednorázovou událost, která rozděluje část historie oběma směry:
+V prvním příkladu jsme viděli, jak může coinjoin chránit soukromí mince ve vztahu k její minulosti, a ve druhém příkladu, jak může rovněž zabezpečit historii mince ve vztahu k její budoucnosti. Proto jsem uvedl, že coinjoin by měl být vnímán jako jednorázová událost, která segmentuje historii mince v obou směrech:
 
 ![BTC204](assets/cs/119.webp)
 

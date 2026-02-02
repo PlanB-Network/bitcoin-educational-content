@@ -1745,7 +1745,7 @@ Samas pakub coinjoin ka võimalust tugevdada konfidentsiaalsust minevikust täna
 
 ![BTC204](assets/et/118.webp)
 
-Esimeses näites nägime, kuidas coinjoin võib kaitsta ruumi privaatsust seoses selle minevikuga, ja teises näites, kuidas see võib kindlustada ruumi ajalugu ka seoses selle tulevikuga. Seepärast mainisin, et coinjoin'i tuleks vaadelda kui ühekordset sündmust, mis segmenteerib osa ajalugu mõlemas suunas:
+Esimeses näites nägime, kuidas coinjoin saab kaitsta mündi privaatsust selle mineviku suhtes, ja teises näites, kuidas see saab samuti kaitsta mündi ajalugu selle tuleviku suhtes. Seetõttu mainisin, et coinjoini tuleks käsitleda kui ühekordset sündmust, mis segmenteerib mündi ajaloo mõlemas suunas:
 
 ![BTC204](assets/et/119.webp)
 

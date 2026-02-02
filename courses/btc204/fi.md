@@ -1939,7 +1939,7 @@ Myös vaihdonhallintamenetelmät erottavat nämä kaksi toteutusta toisistaan. W
 
 ![BTC204](assets/fi/139.webp)
 
-Wabisabin myötä Wasabin versio 2.0 on mukauttanut lähestymistapaansa coinjoineihin vastaamaan Whirlpoolin lähestymistapaa. Vaikka coinjoin-transaktiot ovat edelleen hyvin suuria, on nyt mahdollista ketjuttaa useita peräkkäisiä syklejä Whirlpoolin mallin mukaisesti. Erityistä huomiota on kiinnitetty myös valuuttakurssin hallintaan: toisin kuin Wasabi 1.0:ssa, jossa valuuttakurssi oli suoraan sidoksissa käyttäjän syötteisiin, Wabisabissa valuuttakurssi pyritään jakamaan useisiin pieniin summiin, jotka jaetaan kaikille osallistujille samansuuruisiksi nimellisarvoisiksi.
+Wabisabin myötä versio 2.0 on mukauttanut coinjoin-lähestymistapaansa lähemmäs Whirlpoolin mallia. Vaikka coinjoin-transaktiot ovat yhä hyvin suuria, on nyt mahdollista ketjuttaa useita peräkkäisiä kierroksia Whirlpoolin mallin mukaisesti. Erityistä huomiota on kiinnitetty myös vaihtorahan hallintaan: toisin kuin Wasabi 1.0:ssa, jossa vaihtoraha oli suoraan sidoksissa käyttäjien syötteisiin, Wabisabi pyrkii jakamaan vaihtorahan useisiin pienempiin summiin, jotka jaetaan kaikille osallistujille tasamääräisinä nimellisarvoina.
 
 Havainnollistetaan tätä yksinkertaistetulla esimerkillä, jossa on vain kaksi käyttäjää: Alice haluaa sekoittaa 115 000 satsia ja Bob 210 000 satsia. Jos ei oteta huomioon maksuja, Wasabi 1.0:lla coinjoin-transaktio olisi tuottanut kolme 100 000 satsin lähtöä sekä yhden 15 000 satsin vaihdon Alicelle ja yhden 10 000 satsin vaihdon Bobille. Vaihdon tuotokset olisivat edelleen sidoksissa panoksiin:
 

@@ -1939,7 +1939,7 @@ Metody správy výměny rovněž odlišovaly obě implementace. U Whirlpoolu byl
 
 ![BTC204](assets/cs/139.webp)
 
-Wasabi ve verzi 2.0 přizpůsobilo svůj přístup k coinjoins přístupu společnosti Whirlpool. Přestože transakce coinjoin zůstávají velmi rozsáhlé, je nyní možné řetězit několik po sobě jdoucích cyklů podle modelu Whirlpool. Zvláštní pozornost byla věnována také řízení směnného kurzu: na rozdíl od verze Wasabi 1.0, kde byl směnný kurz přímo vázán na vstupy od uživatelů, se Wabisabi snaží rozdělit směnný kurz na několik malých částek, rozdělených na stejné nominální hodnoty pro všechny účastníky.
+S Wabisabi verze 2.0 přizpůsobila svůj přístup ke coinjoinům tak, aby se přiblížila modelu Whirlpool. Přestože coinjoin transakce zůstávají velmi velké, je nyní možné řetězit několik po sobě jdoucích cyklů, čímž se následuje model Whirlpool. Zvláštní důraz byl kladen také na správu drobných: na rozdíl od Wasabi 1.0, kde byly drobné přímo navázány na vstupy uživatelů, se Wabisabi snaží rozdělit drobné do několika menších částek, rozdělených do stejných nominálních hodnot pro všechny účastníky.
 
 Ukažme si to na zjednodušeném příkladu, který zahrnuje pouze 2 uživatele: Alice si přeje smíchat 115 000 satelitů a Bob 210 000 satelitů. Pomineme-li poplatky, s Wasabi 1.0 by transakce coinjoin vygenerovala 3 výstupy po 100 000 satech plus 1 výměnu 15 000 satech pro Alici a 1 výměnu 10 000 satech pro Boba. Výstupy z výměny by byly stále propojeny se vstupy:
 

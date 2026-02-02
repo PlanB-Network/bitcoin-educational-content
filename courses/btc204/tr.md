@@ -2783,7 +2783,7 @@ Exchange yönetim yöntemleri de iki uygulamayı birbirinden ayırıyordu. Whirl
 ![BTC204](assets/tr/139.webp)
 
 
-Wabisabi ile Wasabi sürüm 2.0, coinjoins yaklaşımını Whirlpool'ünkine uyacak şekilde uyarlamıştır. CoinJoin işlemleri çok büyük kalmaya devam etse de, artık Whirlpool modelini izleyerek birbirini takip eden birkaç döngüyü zincirlemek mümkündür. Exchange oran yönetimine de özellikle dikkat edilmiştir: değişimin doğrudan kullanıcı girdilerine bağlı olduğu Wasabi 1.0'dan farklı olarak, Wabisabi değişimi tüm katılımcılar için eşit değerlere bölünmüş birkaç küçük toplama bölmeyi amaçlamaktadır.
+Wabisabi ile birlikte 2.0 sürümü, coinjoin yaklaşımını Whirlpool modeline daha da yaklaştıracak şekilde uyarlamıştır. Coinjoin işlemleri hâlâ çok büyük boyutlarda olsa da, artık Whirlpool modelini takip ederek birden fazla ardışık döngüyü zincirlemek mümkündür. Ayrıca para üstü yönetimine de özel bir önem verilmiştir: Wasabi 1.0’da para üstü doğrudan kullanıcı girdilerine bağlıyken, Wabisabi para üstünü birkaç küçük meblağa bölerek tüm katılımcılar arasında eşit birimlerde dağıtmayı amaçlamaktadır.
 
 
 Bunu sadece 2 kullanıcıyı içeren basitleştirilmiş bir örnekle açıklayalım: Alice 115.000 Sats ve Bob, 210.000 Sats'i karıştırmak istiyor. Ücretler göz ardı edildiğinde, Wasabi 1.0 ile bir CoinJoin işlemi 100.000 Sats'lik 3 çıktı, artı Alice için 15.000 Sats'lik 1 değişiklik ve Bob için 10.000 Sats'lik 1 değişiklik üretecektir. Değişiklik çıktıları hala girdilerle bağlantılı olacaktır:

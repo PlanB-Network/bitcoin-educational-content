@@ -1939,7 +1939,7 @@ Ka vahetuse haldamise meetodid erinesid kahest rakendusest. Whirlpooliga välist
 
 ![BTC204](assets/et/139.webp)
 
-Wabisabi versioon 2.0 on kohandanud oma lähenemist coinjoins'ile, et see vastaks Whirlpooli omale. Kuigi coinjoin-tehingud on endiselt väga suured, on nüüd võimalik Whirlpooli mudelit järgides mitu järjestikust tsüklit aheldada. Erilist tähelepanu on pööratud ka vahetuskursi haldamisele: erinevalt Wasabi 1.0 versioonist, kus vahetuskurss oli otseselt seotud kasutaja sisendiga, püütakse Wabisabis jagada vahetuskurss mitmeks väikeseks summaks, mis on jagatud kõigile osalejatele võrdseteks nimiväärtusteks.
+Wabisabi abil on versioon 2.0 kohandanud oma coinjoin’ide käsitlust, et läheneda Whirlpooli mudelile. Kuigi coinjoin-tehingud on endiselt väga suured, on nüüd võimalik järjestada mitu järjestikust tsüklit, järgides seeläbi Whirlpooli mudelit. Erilist tähelepanu on pööratud ka vahetusraha haldamisele: erinevalt Wasabi 1.0-st, kus vahetusraha oli otseselt seotud kasutajate sisenditega, püüab Wabisabi jagada vahetusraha mitmeks väiksemaks summaks, mis on jaotatud kõigile osalejatele võrdsetes nimiväärtustes.
 
 Illustreerime seda lihtsustatud näite abil, mis hõlmab vaid 2 kasutajat: Alice soovib segada 115 000 satelliiti ja Bob 210 000 satelliiti. Kui jätta tasud kõrvale, siis Wasabi 1.0 puhul oleks coinjoin-tehing tekitanud 3 väljundit 100 000 sati ulatuses, lisaks 1 vahetus 15 000 sati ulatuses Alice'ile ja 1 vahetus 10 000 sati ulatuses Bobile. Vahetuse väljundid oleksid endiselt seotud sisenditega:
 

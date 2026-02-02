@@ -1939,7 +1939,7 @@ Los métodos de gestión de las divisas también distinguían las dos implementa
 
 ![BTC204](assets/es/139.webp)
 
-Con Wabisabi, la versión 2.0 de Wasabi ha adaptado su enfoque de los coinjoins al de Whirlpool. Aunque las transacciones de coinjoin siguen siendo muy grandes, ahora es posible encadenar varios ciclos sucesivos, siguiendo el modelo de Whirlpool. También se ha prestado especial atención a la gestión del tipo de cambio: a diferencia de Wasabi 1.0, donde el tipo de cambio estaba directamente vinculado a las entradas del usuario, Wabisabi intenta subdividir el tipo de cambio en varias sumas pequeñas, divididas en denominaciones iguales para todos los participantes.
+Con Wabisabi, la versión 2.0 ha adaptado su enfoque de los coinjoins para acercarse al de Whirlpool. Aunque las transacciones coinjoin siguen siendo de gran tamaño, ahora es posible encadenar varios ciclos sucesivos, siguiendo así el modelo de Whirlpool. También se ha puesto un énfasis particular en la gestión del cambio: a diferencia de Wasabi 1.0, donde el cambio estaba directamente vinculado a los inputs de los usuarios, Wabisabi busca subdividir el cambio en varias cantidades pequeñas, distribuidas en denominaciones iguales para todos los participantes.
 
 Ilustrémoslo con un ejemplo simplificado en el que sólo intervienen 2 usuarios: Alice desea mezclar 115.000 sats y Bob, 210.000 sats. Ignorando las comisiones, con Wasabi 1.0, una transacción coinjoin habría generado 3 salidas de 100.000 sats, más 1 intercambio de 15.000 sats para Alice y 1 intercambio de 10.000 sats para Bob. Las salidas de intercambio seguirían vinculadas a las entradas:
 

@@ -1926,7 +1926,7 @@ Auch die Methoden der Wechselgeldverwaltung unterschieden die beiden Implementie
 
 ![BTC204](assets/de/139.webp)
 
-Mit Wabisabi hat Wasabi Version 2.0 seinen Ansatz für Coinjoin-Transaktionen an den von Whirlpool angepasst. Obwohl die Coinjoin-Transaktionen nach wie vor sehr groß sind, ist es nun möglich, mehrere aufeinanderfolgende Zyklen nach dem Vorbild von Whirlpool zu verketten. Besonderes Augenmerk wurde auch auf die Verwaltung des Wechselgeldes gelegt: Im Gegensatz zu Wasabi 1.0, bei dem das Wechselgeld direkt an die Eingaben des Benutzers gekoppelt war, versucht Wabisabi, das Wechselgeld in mehrere kleine Beträge aufzuteilen, die für alle Teilnehmer in gleicher Höhe gelten.
+Mit Wabisabi hat Version 2.0 ihren CoinJoin-Ansatz angepasst, um sich dem von Whirlpool anzunähern. Obwohl CoinJoin-Transaktionen weiterhin sehr groß sind, ist es nun möglich, mehrere aufeinanderfolgende Zyklen zu durchlaufen und damit dem Whirlpool-Modell zu folgen. Besonderes Augenmerk wurde zudem auf das Change-Management gelegt: Im Gegensatz zu Wasabi 1.0, bei dem das Wechselgeld direkt mit den Inputs der Nutzer verknüpft war, versucht Wabisabi, das Wechselgeld in mehrere kleinere Beträge zu unterteilen, die in gleichen Stückelungen auf alle Teilnehmer verteilt werden.
 
 Veranschaulichen wir dies anhand eines vereinfachten Beispiels mit nur 2 Benutzern: Alice möchte 115.000 Sats mischen und Bob 210.000 Sats. Ohne Berücksichtigung der Gebühren hätte eine Coinjoin-Transaktion mit Wasabi 1.0 drei Ausgaben von 100.000 Sats erzeugt, plus ein Wechselgeld von 15.000 Sats für Alice und ein Wechselgeld von 10.000 Sats für Bob. Die Tausch-Outputs wären nach wie vor mit den Inputs verknüpft:
 

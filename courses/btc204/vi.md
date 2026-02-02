@@ -1936,7 +1936,7 @@ Các phương pháp quản lý trao đổi cũng phân biệt hai triển khai. 
 
 ![BTC204](assets/vi/139.webp)
 
-Với Wabisabi, Wasabi phiên bản 2.0 đã điều chỉnh cách tiếp cận của mình đối với coinjoin để phù hợp với Whirlpool. Mặc dù các giao dịch coinjoin vẫn rất lớn, nhưng giờ đây có thể nối nhiều chu kỳ liên tiếp, theo mô hình Whirlpool. Sự chú ý đặc biệt cũng được dành cho việc quản lý tỷ giá hối đoái: không giống như Wasabi 1.0, nơi tỷ giá hối đoái được liên kết trực tiếp với dữ liệu đầu vào của người dùng, Wabisabi tìm cách chia nhỏ tỷ giá hối đoái thành nhiều khoản tiền nhỏ, chia thành các mệnh giá bằng nhau cho tất cả những người tham gia.
+Với Wabisabi, phiên bản 2.0 đã điều chỉnh cách tiếp cận đối với coinjoin để tiến gần hơn đến mô hình của Whirlpool. Mặc dù các giao dịch coinjoin vẫn có quy mô rất lớn, hiện nay đã có thể liên kết nhiều chu kỳ liên tiếp, theo đúng mô hình Whirlpool. Một nỗ lực đặc biệt cũng đã được dành cho việc quản lý tiền thừa: trái với Wasabi 1.0, nơi tiền thừa gắn trực tiếp với các đầu vào của người dùng, Wabisabi tìm cách chia tiền thừa thành nhiều khoản nhỏ, được phân phối theo các mệnh giá bằng nhau cho tất cả những người tham gia.
 
 Hãy minh họa điều này bằng một ví dụ đơn giản chỉ liên quan đến 2 người dùng: Alice muốn trộn 115.000 sats và Bob, 210.000 sats. Bỏ qua phí, với Wasabi 1.0, một giao dịch coinjoin sẽ tạo ra 3 đầu ra là 100.000 sats, cộng với 1 lần trao đổi 15.000 sats cho Alice và 1 lần trao đổi 10.000 sats cho Bob. Các đầu ra trao đổi vẫn sẽ được liên kết với các đầu vào:
 

@@ -2771,7 +2771,7 @@ Exchange-hanteringsmetoderna skilde också de två implementationerna åt. Med W
 ![BTC204](assets/sv/139.webp)
 
 
-Med Wabisabi har Wasabi version 2.0 anpassat sitt tillvägagångssätt för coinjoins för att matcha det för Whirlpool. Även om CoinJoin-transaktioner fortfarande är mycket stora, är det nu möjligt att kedja flera på varandra följande cykler enligt Whirlpool-modellen. Särskild uppmärksamhet har också ägnats åt hanteringen av Exchange-kursen: till skillnad från Wasabi 1.0, där Exchange-kursen var direkt kopplad till användarinmatningar, försöker Wabisabi att dela upp Exchange-kursen i flera små summor, uppdelade i lika stora valörer för alla deltagare.
+Med Wabisabi har version 2.0 anpassat sin coinjoin-strategi för att närma sig Whirlpool-modellen. Även om coinjoin-transaktioner fortfarande är mycket stora, är det nu möjligt att kedja flera på varandra följande cykler, i enlighet med Whirlpool-modellen. Särskild vikt har också lagts vid hanteringen av växel: till skillnad från Wasabi 1.0, där växeln var direkt kopplad till användarnas inputs, försöker Wabisabi att dela upp växeln i flera mindre belopp, fördelade i lika stora valörer till alla deltagare.
 
 
 Låt oss illustrera detta med ett förenklat exempel som bara omfattar 2 användare: Alice vill blanda 115 000 Sats och Bob, 210 000 Sats. Om man bortser från avgifter skulle en CoinJoin-transaktion med Wasabi 1.0 ha genererat 3 utgångar på 100 000 Sats, plus 1 Exchange på 15 000 Sats för Alice och 1 Exchange på 10 000 Sats för Bob. Exchange-utgångarna skulle fortfarande vara kopplade till ingångarna:

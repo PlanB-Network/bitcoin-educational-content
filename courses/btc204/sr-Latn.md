@@ -2769,7 +2769,7 @@ Metode upravljanja kusurom takođe su se razlikovale između ove dve implementac
 ![BTC204](assets/sr-Latn/139.webp)
 
 
-Sa Wabisabi, Wasabi verzija 2.0 je prilagodila svoj pristup coinjoin-ovima kako bi odgovarala onom u Whirlpool-u. Iako CoinJoin transakcije ostaju veoma velike, sada je moguće povezati nekoliko uzastopnih ciklusa, prateći Whirlpool model. Posebna pažnja posvećena je i načinu razmene vrednosti kusura: za razliku od Wasabi 1.0, gde je vrednost bila direktno povezana sa ulazima korisnika, Wabisabi teži da je podeli na više manjih iznosa, raspoređenih u jednake apoene za sve učesnike.
+Sa Wabisabijem, verzija 2.0 je prilagodila svoj pristup coinjoinovima kako bi se približila modelu Whirlpoola. Iako coinjoin transakcije i dalje ostaju veoma velike, sada je moguće povezivati više uzastopnih ciklusa, prateći tako Whirlpool model. Posebna pažnja je takođe posvećena upravljanju kusurom: za razliku od Wasabi 1.0, gde je kusur bio direktno povezan sa ulazima korisnika, Wabisabi nastoji da podeli kusur na više manjih iznosa, raspoređenih u jednake denominacije za sve učesnike.
 
 
 Hajde da ovo ilustrujemo pojednostavljenim primerom koji uključuje samo 2 korisnika: Alisa želi da pomeša 115,000 Sats, a Bob 210,000 Sats. Ignorišući naknade, sa Wasabi 1.0, transakcija CoinJoin bi generisala 3 izlaza od 100,000 Sats, plus 1 kusur od 15,000 Sats za Alisu i 1 kusur od 10,000 Sats za Boba. Izlazi kusura bi i dalje bili povezani sa ulazima:

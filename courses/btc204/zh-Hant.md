@@ -2771,7 +2771,7 @@ Exchange 的管理方法也區別了兩種實作。對於 Whirlpool，由於 TX0
 ![BTC204](assets/zh-Hant/139.webp)
 
 
-有了 Wabisabi，Wasabi 版本 2.0 已經調整了其錢幣接合的方式，以符合 Whirlpool 的方式。雖然 CoinJoin 交易仍然非常大，但現在可以依循 Whirlpool 模型，連續串接數個循環。此外，Wabisabi 也特別注意 Exchange 的兌換率管理：Wasabi 1.0 版本的 Exchange 兌換率直接與使用者的輸入掛鈎，但 Wabisabi 則不同，Wabisabi 嘗試將 Exchange 兌換率細分為數個小數目，並將所有參與者分成相等的面額。
+隨著 Wabisabi 的引入，2.0 版本調整了其 coinjoin 的方法，使其更接近 Whirlpool 的模式。儘管 coinjoin 交易仍然規模龐大，但現在可以依照 Whirlpool 的模型連續進行多個週期。同時，在找零管理方面也投入了特別的努力：不同於 Wasabi 1.0 中找零直接與使用者輸入相連，Wabisabi 旨在將找零拆分為多個較小的金額，並以相同的面額分配給所有參與者。
 
 
 讓我們以一個只涉及 2 位使用者的簡化範例來說明：Alice 希望混合 115,000 Sats，Bob 希望混合 210,000 Sats。忽略費用，在Wasabi 1.0中，CoinJoin交易會產生3個100,000 Sats的輸出，加上Alice的1個15,000 Sats的Exchange和Bob的1個10,000 Sats的Exchange。Exchange 輸出仍會連結至輸入：

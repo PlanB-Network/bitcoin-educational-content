@@ -1931,7 +1931,7 @@ Exchange management methods also distinguished the two implementations. With Whi
 
 ![BTC204](assets/en/139.webp)
 
-With Wabisabi, Wasabi version 2.0 has adapted its approach to coinjoins to match that of Whirlpool. Although coinjoin transactions remain very large, it is now possible to chain several successive cycles, following the Whirlpool model. Particular attention has also been paid to exchange management: unlike Wasabi 1.0, where the change was directly linked to user inputs, Wabisabi seeks to subdivide the change into several small sums, divided into equal denominations for all participants.
+With Wabisabi, version 2.0 has adapted its approach to coinjoins to move closer to that of Whirlpool. Although coinjoin transactions remain very large, it is now possible to chain several successive cycles, thus following the Whirlpool model. Particular effort has also been made regarding change management: unlike Wasabi 1.0, where change was directly linked to users’ inputs, Wabisabi seeks to subdivide change into several smaller amounts, distributed in equal denominations among all participants.
 
 Let's illustrate this with a simplified example involving just two users: Alice wishes to mix 115,000 sats, and Bob wishes to mix 210,000 sats. Ignoring fees, with Wasabi 1.0, a coinjoin transaction would have generated 3 outputs of 100,000 sats, plus 1 change of 15,000 sats for Alice and 1 change of 10,000 sats for Bob. The change outputs would still be linked to the inputs:
 

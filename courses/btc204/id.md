@@ -1937,7 +1937,7 @@ Metode manajemen bursa juga membedakan kedua implementasi tersebut. Dengan Whirl
 
 ![BTC204](assets/id/139.webp)
 
-Dengan Wabisabi, Wasabi versi 2.0 telah mengadaptasi pendekatannya terhadap coinjoin agar sesuai dengan Whirlpool. Meskipun transaksi coinjoin masih sangat besar, sekarang dimungkinkan untuk melakukan beberapa siklus yang berurutan, mengikuti model Whirlpool. Perhatian khusus juga diberikan pada manajemen nilai tukar: tidak seperti Wasabi 1.0, di mana nilai tukar secara langsung terkait dengan input pengguna, Wabisabi berusaha untuk membagi nilai tukar menjadi beberapa jumlah kecil, dibagi ke dalam denominasi yang sama untuk semua peserta.
+Dengan Wabisabi, versi 2.0 telah menyesuaikan pendekatannya terhadap coinjoin agar lebih mendekati model Whirlpool. Meskipun transaksi coinjoin tetap berukuran sangat besar, kini dimungkinkan untuk merangkai beberapa siklus berturut-turut, sehingga mengikuti model Whirlpool. Upaya khusus juga dilakukan pada pengelolaan kembalian: berbeda dengan Wasabi 1.0, di mana kembalian secara langsung terkait dengan input pengguna, Wabisabi berupaya membagi kembalian menjadi beberapa jumlah kecil, yang didistribusikan dalam denominasi yang sama kepada semua peserta.
 
 Mari kita ilustrasikan hal ini dengan contoh sederhana yang hanya melibatkan 2 pengguna: Alice ingin menggabungkan 115.000 satoshi dan Bob, 210.000 satoshi. Dengan mengabaikan biaya, dengan Wasabi 1.0, transaksi coinjoin akan menghasilkan 3 output 100.000 satoshi, ditambah 1 pertukaran 15.000 satoshi untuk Alice dan 1 pertukaran 10.000 satoshi untuk Bob. Output dari pertukaran masih akan terhubung dengan input:
 

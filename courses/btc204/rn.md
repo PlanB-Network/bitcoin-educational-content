@@ -2781,7 +2781,7 @@ Uburyo bwo gucunga Exchange na bwo nyene bwatandukanije izo nzira zibiri zo gush
 ![BTC204](assets/rn/139.webp)
 
 
-Na Wabisabi, Wasabi verisiyo 2.0 yarahinduye uburyo bwayo bwo gukoresha amafaranga kugira ngo ihure n'iya Whirlpool. Naho amafaranga y’ubudandaji ya CoinJoin aguma ari manini cane, ubu birashoboka gukora uruzitiro rw’ingendo nyinshi zikurikirana, hakurikijwe uburyo bwa Whirlpool. n’ugucungera ibiciro vya Exchange vyarashizweho umutima cane: bitandukanye na Wasabi 1.0, aho ihinduka ryari rifitaniye isano n’ivyo abakoresha bashiramwo, Wabisabi irondera gucapura iryo hinduka mu mahera makeyi menshi, agabanywemwo amashengero angana ku bari muri iyo nama bose.
+Hamwe na Wabisabi, verisiyo ya 2.0 yarahinduye uburyo yegera coinjoin kugira ngo yegere uburyo bwa Whirlpool. Naho amatransakiyo ya coinjoin aguma ari manini cane, ubu birashoboka gukurikiranya inzinguzingo nyinshi zikurikirana, bikurikije urugero rwa Whirlpool. Haranakozwe akigoro kadasanzwe mu bijanye n’ugutunganya amafaranga asigaye: bitandukanye na Wasabi 1.0, aho ayo mafaranga yari afitaniye isano itaziguye n’ivyo abakoresha binjije, Wabisabi iragerageza kugabanya ayo mafaranga mu turemangingo duto duto, tugabanijwe mu migabane ingana ku bari mu gikorwa bose.
 
 
 Reka tubigereranye n'akarorero koroshe karimwo abakoresha 2 gusa: Alice yipfuza kuvanga 115.000 Sats na Bob, 210.000 Sats. Ukwirengagiza amafaranga, na Wasabi 1.0, ugucuruza kwa CoinJoin kwari gutuma haba ibisubizo 3 vy'ama Sats 100.000, hakongerwako ihinduka 1 ry'ama Sats 15.000 ku Alice n'ihinduka 1 ry'ama Sats 10.000 ku Sats. Ihinduka ry'ibisohoka ryoba rigihuye n'ivyo kwinjiza:

@@ -1913,7 +1913,7 @@ Mbinu za usimamizi za Ubadilishanaji zilitoa utofauti mkubwa kati ya utekelezaji
 
 ![BTC204](assets/sw/139.webp)
 
-Kwa kutumia Wabisabi, toleo la 2.0 la Wasabi limerekebisha mbinu yake ili kuendana na ile ya Whirlpool. Ingawa miamala ya CoinJoin bado ni mikubwa sana, sasa inawezekana kufunga mizunguko kadhaa mfululizo, kufuata mfano wa Whirlpool. Uangalifu maalum umeelekezwa kwa usimamizi wa viwango vya ubadilishaji: tofauti na Wasabi 1.0, ambapo kiwango cha ubadilishaji kilihusishwa moja kwa moja na pembejeo za watumiaji, Wabisabi inajitahidi kugawanya kiwango cha ubadilishaji katika sehemu ndogo ndogo, zilizogawanywa kwa usawa miongoni mwa washiriki wote.
+Kwa Wabisabi, toleo la 2.0 limebadilisha mbinu yake ya coinjoin ili kukaribia mfano wa Whirlpool. Ingawa miamala ya coinjoin bado ni mikubwa sana, sasa inawezekana kuunganisha mizunguko kadhaa mfululizo, kufuatia mfano wa Whirlpool. Juhudi maalum pia zimeelekezwa katika usimamizi wa chenji: tofauti na Wasabi 1.0, ambapo chenji ilikuwa imefungamanishwa moja kwa moja na ingizo za watumiaji, Wabisabi inalenga kugawanya chenji katika kiasi kidogo kadhaa, vilivyogawiwa kwa madhehebu sawa kwa washiriki wote.
 
 Hebu tuonyeshe hili kwa mfano uliorahisishwa unaohusisha watumiaji 2 pekee: Alice anataka kuchanganya 115,000 Sats na Bob, 210,000 Sats. Kupuuza ada, na Wasabi 1.0, muamala wa CoinJoin ungetoa matokeo 3 ya 100,000 Sats, pamoja na 1 Ubadilishanaji wa 15,000 Sats kwa Alice na 1 ubadilishanaji wa 10,000 Sats kwa Bob-706. Matokeo ya exchange bado yangeunganishwa na pembejeo:
 

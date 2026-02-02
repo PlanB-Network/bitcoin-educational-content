@@ -75,7 +75,7 @@ Vous pouvez activer le VPN en cliquant sur le bouton radio ci-dessous, ce qui d�
 
 Mozilla VPN vous permet de sélectionner votre localisation sous deux formats :
 
-- Le Single-Hop : qui délocalise l'adresse IP de votre ordinateur et chiffre les données vers un serveur d'une région spécifique sélectionnée, dans notre exemple ici à Sofia en Biélorussie.
+- Le Single-Hop : qui délocalise l'adresse IP de votre ordinateur et chiffre les données vers un serveur d'une région spécifique sélectionnée, dans notre exemple ici à Sofia en Bulgarie.
 
 - Le Multi-Hop : qui crée une connexion chiffrée de votre ordinateur vers deux serveurs distants. Il s'agit d'un double chiffrement, vos données sont chiffrées en passant par un serveur A puis depuis ce serveur A, les données sont chiffrées à nouveau vers un serveur B.
 

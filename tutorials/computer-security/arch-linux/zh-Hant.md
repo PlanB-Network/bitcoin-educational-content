@@ -265,20 +265,22 @@ cfdisk /dev/nom-du-disque
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| 安裝系統上的掛載點 | 分區                 | 分區類型       | 建議大小 |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI系統分區   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | 交換空間 (swap) | 至少 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 根 (/) | 磁碟的其餘部分 |
 
 - 在 BIOS 中
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| 安裝系統上的掛載點 | 分區           | 分區類型       | 建議大小 |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | 交換空間 (swap) | 至少 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | 磁碟的其餘部分 |
 
 ![0_10](assets/fr/10.webp)
 

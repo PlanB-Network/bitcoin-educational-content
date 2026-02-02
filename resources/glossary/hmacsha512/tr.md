@@ -1,5 +1,6 @@
 ---
 term: HMAC-SHA512
+definition: Bitcoin HD cüzdanlarında anahtar türetimi için kullanılan kriptografik algoritma.
 ---
 
 `HMAC-SHA512`, "Hash tabanlı Mesaj Kimlik Doğrulama Kodu - Güvenli Hash Algoritması 512" anlamına gelir. İki taraf arasında değiş tokuş edilen mesajların bütünlüğünü ve gerçekliğini doğrulamak için kullanılan bir kriptografik algoritmadır. Kriptografik Hash işlevi `SHA512` ile paylaşılan bir gizli anahtarı birleştirerek her mesaj için benzersiz bir Mesaj Kimlik Doğrulama Kodu (MAC) generate oluşturur.

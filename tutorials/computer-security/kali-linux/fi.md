@@ -459,29 +459,30 @@ Tiivistetään joitakin Kali Linuxin perustehtäviä taulukkoon.
 
 
 
-| **Catégorie**              | **Tâche de base**                      | **Description / Objectif**                                 | **Méthode principale**                                       |
+
+| **Kategoria** | **Perustehtävä** | **Kuvaus / Tavoite** | **Pääasiallinen menetelmä** |
 | -------------------------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **Navigation système**     | Ouvrir le terminal                     | Accéder à la ligne de commande principale de Kali          | Cliquez sur l’icône du terminal ou utilisez `Ctrl + Alt + T` |
-|                            | Parcourir les dossiers                 | Se déplacer dans l’arborescence du système                 | `cd /chemin/du/dossier`, `ls` pour lister les fichiers       |
-|                            | Créer / supprimer un dossier           | Organiser les fichiers                                     | `mkdir nom_dossier`, `rm -r nom_dossier`                     |
-| **Gestion des fichiers**   | Copier / déplacer un fichier           | Manipuler des fichiers dans le terminal                    | `cp fichier destination`, `mv fichier destination`           |
-|                            | Supprimer un fichier                   | Libérer de l’espace disque                                 | `rm nom_du_fichier`                                          |
-|                            | Afficher le contenu d’un fichier texte | Lire rapidement un fichier                                 | `cat fichier.txt`, `less fichier.txt`                        |
-| **Gestion du système**     | Mettre à jour Kali Linux               | Installer les dernières versions et correctifs de sécurité | `sudo apt update && sudo apt full-upgrade -y`                |
-|                            | Installer un logiciel                  | Ajouter un nouvel outil ou utilitaire                      | `sudo apt install nom_du_paquet`                             |
-|                            | Supprimer un logiciel                  | Nettoyer le système                                        | `sudo apt remove nom_du_paquet`                              |
-|                            | Nettoyer les dépendances inutiles      | Gagner de l’espace disque                                  | `sudo apt autoremove`                                        |
-| **Réseau et Internet**     | Vérifier la connexion réseau           | Tester l’accès à Internet                                  | `ping google.com`                                            |
-|                            | Identifier l’adresse IP                | Connaître sa configuration réseau                          | `ip a` ou `ifconfig`                                         |
-|                            | Changer de réseau Wi-Fi                | Se connecter à un autre point d’accès                      | Icône réseau → Sélectionner le Wi-Fi voulu                   |
-| **Comptes et permissions** | Exécuter une commande administrateur   | Obtenir les droits root temporairement                     | `sudo commande`                                              |
-|                            | Créer un nouvel utilisateur            | Ajouter un compte local                                    | `sudo adduser nom_utilisateur`                               |
-|                            | Modifier un mot de passe               | Sécuriser un compte                                        | `passwd`                                                     |
-| **Apparence et confort**   | Changer le fond d’écran                | Personnaliser le bureau                                    | Clic droit sur le bureau → **Paramètres du bureau**          |
-|                            | Modifier le thème / icônes             | Améliorer la lisibilité et l’esthétique                    | Paramètres → Apparence / Thèmes                              |
-| **Outils Kali**            | Ouvrir le menu des outils              | Explorer les outils de test et de sécurité                 | Menu **Applications → Kali Linux**                           |
-|                            | Lancer un outil (ex : nmap, wireshark) | Découverte pratique des utilitaires de sécurité            | `sudo nmap`, `wireshark`, etc.                               |
-| **Aide et documentation**  | Obtenir de l’aide sur une commande     | Comprendre une commande avant de l’utiliser                | `man commande` ou `commande --help`                          |
+| **Järjestelmässä navigointi** | Avaa terminaali | Pääsy Kalin komentoriville | Napsauta terminaalin kuvaketta tai käytä `Ctrl + Alt + T` |
+| | Selaa kansioita | Liikkuminen järjestelmän hakemistorakenteessa | `cd /polku/kansioon`, `ls` tiedostojen listaamiseen |
+| | Luo / poista kansio | Tiedostojen järjestäminen | `mkdir kansion_nimi`, `rm -r kansion_nimi` |
+| **Tiedostojen hallinta** | Kopioi / siirrä tiedosto | Tiedostojen käsittely terminaalissa | `cp tiedosto kohde`, `mv tiedosto kohde` |
+| | Poista tiedosto | Levytilan vapauttaminen | `rm tiedoston_nimi` |
+| | Näytä tekstitiedoston sisältö | Tiedoston nopea lukeminen | `cat tiedosto.txt`, `less tiedosto.txt` |
+| **Järjestelmän hallinta** | Päivitä Kali Linux | Uusimpien versioiden ja tietoturvapaikkausten asennus | `sudo apt update && sudo apt full-upgrade -y` |
+| | Asenna ohjelmisto | Uuden työkalun tai apuohjelman lisääminen | `sudo apt install paketin_nimi` |
+| | Poista ohjelmisto | Järjestelmän puhdistaminen | `sudo apt remove paketin_nimi` |
+| | Puhdista tarpeettomat riippuvuudet | Levytilan säästäminen | `sudo apt autoremove` |
+| **Verkko ja internet** | Tarkista verkkoyhteys | Internet-yhteyden testaaminen | `ping google.com` |
+| | Tunnista IP-osoite | Verkkokonfiguraation selvittäminen | `ip a` tai `ifconfig` |
+| | Vaihda Wi-Fi-verkkoa | Yhdistäminen toiseen tukiasemaan | Verkkokuvake → Valitse haluttu Wi-Fi |
+| **Tilit ja käyttöoikeudet** | Suorita järjestelmänvalvojan komento | Root-oikeuksien hankkiminen tilapäisesti | `sudo komento` |
+| | Luo uusi käyttäjä | Paikallisen tilin lisääminen | `sudo adduser käyttäjänimi` |
+| | Vaihda salasana | Tilin suojaaminen | `passwd` |
+| **Ulkoasu ja mukavuus** | Vaihda taustakuva | Työpöydän personointi | Napsauta hiiren kakkospainikkeella työpöytää → **Työpöydän asetukset** |
+| | Muuta teemaa / kuvakkeita | Luettavuuden ja estetiikan parantaminen | Asetukset → Ulkoasu / Teemat |
+| **Kali-työkalut** | Avaa työkalunäkymä | Testaus- ja tietoturvatyökalujen tutkiminen | Valikko **Applications → Kali Linux** |
+| | Käynnistä työkalu (esim: nmap, wireshark) | Tietoturvatyökalujen käytännön kokeilu | `sudo nmap`, `wireshark` jne. |
+| **Apu ja dokumentaatio** | Hae apua komennolle | Komennon ymmärtäminen ennen käyttöä | `man komento` tai `komento --help` |
 
 ## Päätelmä
 

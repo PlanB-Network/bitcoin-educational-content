@@ -1,0 +1,9 @@
+question: Hva er kapasiteten til en Lightning-kanal?
+answer: Totalt låst beløp
+wrong_answers:
+  - Total tilgjengelig likviditet i én retning
+  - Maksimale avgifter
+  - Maksimalt antall mulige betalinger
+explanation: |
+  Kapasiteten tilsvarer den totale summen av sats som er blokkert i kanalens multisig-utgang.
+reviewed: false

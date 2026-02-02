@@ -1,0 +1,9 @@
+question: Penutupan saluran mana yang terbaik untuk Lightning?
+answer: Penutupan koperasi
+wrong_answers:
+  - Penutupan paksa
+  - Menutup dengan kecurangan
+  - Penutupan Watchtower
+explanation: |
+  Penutupan koperasi lebih cepat dan memungkinkan Anda untuk memilih biaya onchain.
+reviewed: false

@@ -211,11 +211,12 @@ Zum Senden von Bitcoin:
 4. Wählen Sie die Transaktionsgeschwindigkeit:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Geschwindigkeit   | Ungefähre Bestätigungszeit | Gebührenstufe     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Langsam**    | ~120 Minuten              | Niedrigste
+| **Standard** | ~60 Minuten               | Mittel
+| **Schnell**    | ~20 Minuten               | Höher
 
 5. Bestätigen Sie mit Ihrer 4-stelligen PIN → Transaktion wird übertragen
 
@@ -251,12 +252,13 @@ Mehr über Replace-by-fee (RBF): https://bitcoinops.org/en/topics/replace-by-fee
 (99 % der Nutzer tun dies nie - das 12-Wörter-passphrase reicht aus)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Situation                                      | Warum Sie den privaten Schlüssel benötigen                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Leerung einer alten Papierbrieftasche                   | Verschieben Sie Gelder in Ihre aktuelle Brieftasche             |
+| Import in einen Hardware-Unterzeichner (z. B. Coldcard) | Für Offline-Unterzeichnung                              |
+| Notfallwiederherstellung (verlorener Samen, aber App ist noch offen) | Münzen retten, bevor die App weg ist           |
+| Verwendung von Tools, die keine Seed-Phrasen akzeptieren     | Einige Nur-Überwachungs- oder Unterzeichnungs-Dienstprogramme             |
 
 ### Wie exportiert man private Schlüssel in Coin Wallet
 
@@ -313,14 +315,16 @@ bIP32 + BIP44/BIP49/BIP84" - deterministische Erzeugung aller Adressen
 Von einem Hauptschlüssel aus kann der wallet generate Milliarden von Adressen in einer streng definierten Reihenfolge abfragen. Aus diesem Grund zeigen dieselben 12 Wörter, die in Electrum, Sparrow, Trezor, Ledger, BlueWallet usw. eingegeben werden, genau dieselben Adressen und Salden an.
 
 
-**Ableitungspfade, die in Coin Wallet für Bitcoin** verwendet werden
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+**Ableitungspfade, die in Coin Wallet für Bitcoin verwendet werden**
+
+| Adresstyp              | Standard | Ableitungspfad       | Beginnt mit | Kommentar                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| Nativ SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modernes Format, niedrigste Gebühren           |
+| Verschachteltes SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Kompatibilitätshülle für alte Dienste |
+| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Ältestes Format, höchste Gebühren          |
 
 Innerhalb jedes Pfades:
 

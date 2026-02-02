@@ -1,6 +1,7 @@
 ---
-term: OUTPOINT
+term: Outpoint
 
+definition: Eindeutiger Verweis auf ein UTXO, bestehend aus der txid und dem Output-Index.
 ---
 Eine eindeutige Referenz auf eine nicht verbrauchte Transaktionsausgabe (UTXO). Sie besteht aus zwei Elementen:
 

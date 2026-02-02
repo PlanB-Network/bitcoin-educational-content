@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: Pametni ugovor koji uslovljava prenos otkrivanjem tajne uz vremensko ograničenje.
 ---
 
 Znači "*Hashed Timelock Contract*". Ovo je Smart contract mehanizam koji se uglavnom koristi na Lightning-u. Takođe se ponekad nalazi u atomskim zamjenama. U suštini, HTLC čini transfer novca uslovljen otkrivanjem tajne, a takođe uključuje vremenski uslov kako bi zaštitio novac pošiljaoca u slučaju neuspjele transakcije.

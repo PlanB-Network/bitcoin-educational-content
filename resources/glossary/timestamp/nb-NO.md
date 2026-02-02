@@ -1,6 +1,7 @@
 ---
-term: TIMESTAMP
+term: Tidsstempel
 
+definition: Mekanisme som knytter en tidsmarkør til en hendelse for å etablere kronologien for transaksjoner og blokker.
 ---
 
 Tidsstempling, eller "Timestamp" på engelsk, er en mekanisme for å knytte et nøyaktig tidsmerke til en hendelse, data eller melding. I datasystemer brukes tidsstempling generelt til å fastslå den kronologiske rekkefølgen av operasjoner og til å verifisere dataintegriteten over tid.

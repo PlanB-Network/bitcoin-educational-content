@@ -137,7 +137,7 @@ Je hebt nu toegang tot de software Interface.
 Voordat u begint, als uw Ledger nieuw is, moet u ervoor zorgen dat u de pincode hebt ingesteld en de herstelzin hebt opgeslagen. Je hebt Ledger Live niet nodig voor deze eerste stappen. Sluit uw Ledger gewoon aan via de USB-kabel om hem van stroom te voorzien. Als je niet zeker weet hoe je verder moet gaan met deze twee stappen, kun je het begin van de handleiding voor jouw model raadplegen:
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

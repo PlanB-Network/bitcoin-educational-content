@@ -1,5 +1,6 @@
 ---
-term: UFUNGUO WA UMMA ULIOBANWA
+term: Ufunguo wa umma ulioshinikizwa
+definition: Aina fupi ya ufunguo wa umma inayotumia tu uratibu wa x na kiambishi awali cha usawa (02 au 03).
 ---
 
 Ufunguo wa umma hutumiwa katika hati (moja kwa moja kwa njia ya ufunguo wa umma au kama Address) kupokea na kulinda bitcoins. Ufunguo ghafi wa umma unawakilishwa na ncha kwenye mkunjo wa duaradufu, inayojumuisha viwianishi viwili (`x, y`) kila moja ya biti 256. Katika umbizo mbichi, ufunguo wa umma kwa hivyo hupima biti 512, bila kuhesabu baiti ya ziada ili kutambua umbizo. Ufunguo wa umma uliobanwa, kwa upande mwingine, ni uwakilishi wa ufunguo wa umma uliobana zaidi. Inatumia tu `x` kuratibu na kiambishi awali (`02` au `03`) ambacho kinaonyesha usawa wa kuratibu `y` (hata au isiyo ya kawaida).
@@ -8,7 +9,7 @@ Ufunguo wa umma hutumiwa katika hati (moja kwa moja kwa njia ya ufunguo wa umma 
 Iwapo tutarahisisha hili kwa uga wa nambari halisi, ikizingatiwa mkunjo wa duaradufu una ulinganifu kwa heshima na mhimili wa x, kwa nukta yoyote $P$ (`x, y`) kwenye mkunjo, kuna uhakika $P'$ (`x, -y`) ambayo pia itakuwa kwenye mkunjo huu huu. Hii ina maana kwamba kwa kila `x`, kuna thamani mbili tu zinazowezekana za `y`, chanya na hasi. Kwa mfano, kwa abscissa `x` iliyotolewa, kungekuwa na alama mbili $P1$ na $P2$ kwenye mkunjo wa duaradufu, zikishiriki abscissa ile ile lakini na viratibu tofauti:
 
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Ili kuchagua kati ya pointi mbili zinazowezekana kwenye ukingo, kiambishi awali kinachobainisha ni `y` ya kuchagua kinaongezwa kwa `x`. Njia hii inaruhusu kupunguza ukubwa wa ufunguo wa umma kutoka biti 520 hadi biti 264 pekee (biti 8 za kiambishi awali + biti 256 za `x`). Uwakilishi huu unajulikana kama aina iliyobanwa ya ufunguo wa umma.
 

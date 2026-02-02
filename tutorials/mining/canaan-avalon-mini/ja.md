@@ -122,16 +122,17 @@ https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| 特性                                      | 値                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
-| Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| ハッシュレート                                             | 37.5 Th/s +- 5%                                           |
+| 消費電力                              | 800 W                                                     |
+| ノイズ                                                | 35-55 dB                                                  |
+| 出力空気温度                       | 60-70°C (周囲温度25°C時)                  |
+| 使用のための周囲温度要件 | -5° C - 40°C                                              |
+| デバイス入力電圧範囲                         | 110V-240V AC 50/60Hz                                      |
+| 機械のサイズ                                 | 長さ: 760 mm / 奥行き: 104 mm / 高さ: 214.5 mm |
+| 機械の重量                                  |  8.35 kg                                                  |
 
 ## Mining poolへの接続
 

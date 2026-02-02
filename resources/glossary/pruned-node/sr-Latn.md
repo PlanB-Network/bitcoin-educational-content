@@ -1,5 +1,6 @@
 ---
-term: OBREZANI ČVOR
+term: Orezani čvor
+definition: Puni čvor koji briše stare verifikovane blokove kako bi uštedeo prostor za skladištenje.
 ---
 
 Pruned čvor, na engleskom "Pruned Node", je Full node koji vrši obrezivanje Blockchain. Ovo uključuje progresivno uklanjanje najstarijih blokova, nakon što su propisno verifikovani, kako bi se zadržali samo najnoviji blokovi. Granica zadržavanja je specificirana u `Bitcoin.conf` fajlu putem `prune=n` parametra, gde je `n` maksimalna veličina koju zauzimaju blokovi u megabajtima (MB). Ako je nakon ovog parametra navedeno `0`, obrezivanje je onemogućeno i čvor zadržava Blockchain u celosti.

@@ -1,5 +1,6 @@
 ---
-term: AKTIER SVÅRIGHETER
+term: Andelssvårighetsgrad
+definition: Lägre svårighetsmål satt av en pool för att kvalificera en hash som en share.
 ---
 
 En målsvårighet som är högre än för Bitcoin (alltså mindre svår), definierad av en Mining pool för att kvalificera en Hash för en andel och bedöma bidraget från varje enskild Miner inom poolen. För att effektivt hantera verifieringsbelastningen och säkerställa att varje Miner, oavsett deras beräkningskraft, lämnar in andelar regelbundet, justerar pooler andelarnas svårighetsgrad. Svårighetsgraden som tilldelas varje Miner avgör hur många andelar de samlar på sig: om en Miner till exempel har en tilldelad svårighetsgrad på 10 och skickar in 5 giltiga arbetsbevis med denna svårighetsgrad, får de 50 andelar. En mer kraftfull Miner med en svårighetsgrad på 100 som lämnar in 7 giltiga arbetsbevis får 700 andelar. Detta system möjliggör en exakt kvantifiering av varje Miner:s Hashrate och fördelning av belöningar enligt den valda beräkningsmetoden för kompensation (PPS, PPLNS, TIDES...).

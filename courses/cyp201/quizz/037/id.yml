@@ -6,4 +6,4 @@ wrong_answers:
   - Mereka menggunakan kunci publik yang tidak dikompresi
 explanation: |
   Dompet JBOK memaksa pengguna untuk mencadangkan setiap kunci privat secara individu, yang membuat pengelolaannya menjadi rumit.
-direview: false
+reviewed: true

@@ -1,11 +1,12 @@
 ---
-term: SERA (MINISCRIPT)
+term: Sera (Miniscript)
+definition: Lugha ya kiwango cha juu ya kubainisha masharti ya matumizi ya UTXO katika Miniscript.
 ---
 
 Lugha ya kiwango cha juu, inayolenga mtumiaji ambayo inaruhusu ubainishaji rahisi wa masharti ambayo UTXO inaweza kufunguliwa ndani ya mfumo wa Hati Ndogo. Sera ni maelezo dhahania ya sheria za matumizi. Kisha inaweza kukusanywa kuwa hati ndogo, ambayo ni sawa na moja hadi moja na utendakazi kutoka kwa lugha asilia ya hati ya Bitcoin.
 
 
-![](../../dictionnaire/assets/30.webp)
+
 
 
 Lugha ya sera ni tofauti kidogo na lugha ya hati ndogo. Kwa mfano, fikiria mfumo wa usalama ulio na njia ya msingi kuwa ufunguo A, na njia ya uokoaji ikiwa ufunguo B, lakini chini ya muda wa mwaka mmoja (takriban vitalu 52,560). Katika sera, hii itakuwa:

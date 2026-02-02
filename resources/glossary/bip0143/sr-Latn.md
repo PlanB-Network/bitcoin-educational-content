@@ -1,5 +1,6 @@
 ---
 term: BIP0143
+definition: Novi algoritam heširanja za SegWit potpise, koji rešava kvadratni rast i uključuje vrednost ulaza.
 ---
 
 Predstavlja novi način heširanja transakcije za verifikaciju potpisa u post-SegWit skriptama. Cilj je minimizirati redundantne operacije tokom verifikacije i uključiti vrednost UTXO-a u ulazu u potpis. Ovo rešava dva glavna problema sa originalnim algoritmom heširanja transakcija:

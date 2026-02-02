@@ -5,8 +5,5 @@ wrong_answers:
   - Tarifas de transacción más bajas
   - No es necesario una contraseña
 explanation: |
-  Las billeteras no custodiadas son aquellas en las que tú eres el único custodio de tus fondos,
-  lo que significa que tienes control completo sobre tus claves privadas. Por lo tanto,
-  las billeteras no custodiadas ofrecen un nivel más alto de seguridad y privacidad
-  en comparación con las billeteras custodiadas, ya que tú eres el único responsable de la seguridad de tus fondos.
-reviewed: false
+  Las billeteras no custodiadas son aquellas en las que tú eres el único custodio de tus fondos, lo que significa que tienes control completo sobre tus claves privadas. Por lo tanto, las billeteras no custodiadas ofrecen un nivel más alto de seguridad y privacidad en comparación con las billeteras custodiadas, ya que tú eres el único responsable de la seguridad de tus fondos.
+reviewed: true

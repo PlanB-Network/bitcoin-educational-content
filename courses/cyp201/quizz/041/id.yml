@@ -6,3 +6,4 @@ wrong_answers:
   - Alamat Bitcoin akan tidak kompatibel dengan jaringan
 explanation: |
   PRNG yang dirancang dengan buruk dapat menghasilkan urutan yang dapat diprediksi, membuat kunci lebih rentan terhadap serangan.
+reviewed: true

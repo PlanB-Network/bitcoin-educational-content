@@ -1,5 +1,6 @@
 ---
-term: MIXNING
+term: Mixning
+definition: Egenskap hos ett system där element blandas jämnt, används för att utvärdera kvaliteten på coinjoins.
 ---
 
 Inom den allmänna matematiken avser mixing eller blending den egenskap hos ett dynamiskt system där alla delar av det initiala rummet efter en viss tid teoretiskt kan blandas med alla andra delar. Blandning innebär att en partikels position eller ett systems tillstånd utvecklas på ett sådant sätt att dess framtida fördelning är oberoende av dess initiala fördelning och därmed når ett tillstånd där det initiala tillståndets egenskaper är jämnt fördelade över hela systemets rymd. I samband med Bitcoin kan detta begrepp användas för att bedöma kvaliteten på en myntblandningsprocess som en CoinJoin.

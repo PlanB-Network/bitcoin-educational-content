@@ -1,6 +1,7 @@
 ---
 term: HMAC-SHA512
 
+definition: Kryptografisk algoritme brukt for nøkkelutledning i Bitcoin HD-lommebøker.
 ---
 hMAC-SHA512 står for "Hash-based Message Authentication Code - Secure Hash Algorithm 512". Det er en kryptografisk algoritme som brukes til å verifisere integriteten og autentisiteten til meldinger som utveksles mellom to parter. Den kombinerer den kryptografiske hashfunksjonen `SHA512` med en delt hemmelig nøkkel for å generere en unik MAC-kode (Message Authentication Code) for hver melding.
 

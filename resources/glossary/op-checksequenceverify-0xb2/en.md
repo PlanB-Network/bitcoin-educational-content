@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
+definition: Opcode imposing a relative time constraint on spending a UTXO.
 ---
 
 Renders the transaction invalid if any one of these characteristics is observed:

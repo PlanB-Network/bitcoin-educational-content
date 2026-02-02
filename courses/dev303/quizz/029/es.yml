@@ -1,7 +1,7 @@
 question: ¿Cuáles son las dos variantes del enum Result de Rust utilizadas para gestionar errores recuperables?
 answer: Ok(T) para las operaciones con éxito y Err(E) para los fallos
 wrong_answers:
-  - Éxito(T) para las operaciones con éxito y Fracaso(E) para los fracasos
+  - Success(T) para las operaciones con éxito y Failure(E) para los fallos
   - Some(T) para operaciones con éxito y None para fallos
   - Pass(T) para las operaciones con éxito y Panic(E) para los fracasos
 explanation: |

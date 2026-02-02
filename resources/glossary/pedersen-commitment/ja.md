@@ -1,5 +1,6 @@
 ---
-term: Pedersen commitment
+term: ペダーセン・コミットメント
+definition: 値を明かさずに合計を検証できる、準同型暗号コミットメント。
 ---
 
 Pedersen commitmentは暗号Commitmentの一種であり、加算演算に対して同型であるという性質を持つ。つまり、個々の値を明らかにすることなく、2つのコミットメントの和を検証することが可能である。

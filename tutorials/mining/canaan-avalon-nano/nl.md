@@ -75,17 +75,18 @@ Hieronder vindt u een tabel met een overzicht van de algemene technische specifi
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Kenmerk                                      | Waarde                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hashsnelheid                                      | 6 Th/s +- 5%                                            |
+| Stroomverbruik                               | 140 W                                                   |
+| Geluid                                                | 30 - 40 dB                                              |
+| Bereik uitgangsluchttemperatuur                 | 60-70°C (bij omgevingstemperatuur 25°C)                |
+| Omgevingstemperatuureisen voor gebruik | -5 tot 30°C                                            |
+| Ingangsspanningsbereik apparaat                         | 28V 5A continu                                          |
+| Ingangsspanningsbereik adapter                       | 110-240V AC 50/60Hz                                     |
+| Apparaatgrootte                                 | Lengte: 205 mm / Breedte: 115 mm / Hoogte: 58.5 mm |
+| Apparaatgewicht                                  | 0.86 kg                                                 |
 
 ## Inschakelen en verbinding maken met het lokale netwerk
 

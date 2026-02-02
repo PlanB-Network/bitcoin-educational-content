@@ -1,6 +1,7 @@
 ---
 term: PBKDF2
 
+definition: Funkce pro odvozování kryptografických klíčů z hesla pomocí iterací.
 ---
 `PBKDF2` znamená *Password-Based Key Derivation Function 2*. Jedná se o metodu vytváření kryptografických klíčů z hesla pomocí derivační funkce. Jako vstup přijímá heslo, kryptografickou sůl a na tato data iterativně aplikuje předem určenou funkci (často hashovací funkci jako `SHA256` nebo `HMAC`). Tento proces se mnohokrát opakuje, aby se vygeneroval kryptografický klíč.
 

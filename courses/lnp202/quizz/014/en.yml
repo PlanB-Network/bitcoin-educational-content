@@ -5,5 +5,5 @@ wrong_answers:
   - Centralized custody
   - Integrated Lightning node
 explanation: |
-  These wallets use atomic swaps to pay Lightning invoices without exploiting a Lightning node directly on your phone and while remaining in self-custody.
+  These wallets use atomic swaps to pay Lightning inteces without exploiting a Lightning node directly on your phone and while remaining in self-custody.
 reviewed: false

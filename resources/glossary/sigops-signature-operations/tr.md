@@ -1,5 +1,6 @@
 ---
-term: SIGOPS (IMZA IŞLEMLERI)
+term: Sigops (imza işlemleri)
+definition: Bitcoin işlemlerini doğrulamak için gerekli olan dijital imza işlemleri.
 ---
 
 İşlemleri doğrulamak için gerekli dijital imza işlemlerini ifade eder. Her bir Bitcoin işlemi birden fazla girdi içerebilir ve bunların her birinin geçerli sayılması için bir veya daha fazla imza gerekebilir. Bu imzaların doğrulanması, "sigops" adı verilen belirli işlem kodlarının kullanılmasıyla yapılır. Bunlar özellikle `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG` ve `OP_CHECKMULTISIGVERIFY` işlemlerini içerir. Bu işlemler, bunları doğrulaması gereken ağ düğümlerine belirli bir iş yükü getirmektedir. Bu nedenle protokol, sigop sayısının yapay olarak şişirilmesi yoluyla DoS saldırılarını önlemek için, doğrulama yükünün düğümler için yönetilebilir kalmasını sağlamak amacıyla blok başına izin verilen sigop sayısına bir sınır getirir. Bu sınır şu anda blok başına maksimum 80.000 sigop olarak belirlenmiştir. Saymak için düğümler şu kuralları takip eder:

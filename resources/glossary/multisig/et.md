@@ -1,6 +1,7 @@
 ---
-term: MULTISIG
+term: Multisig
 
+definition: Rahakott, mis nõuab kulutamise autoriseerimiseks mitut allkirja erinevatelt võtmetelt.
 ---
 Mitme allkirjaga rahakotid, mida sageli lühendatakse kui "multisig", on mõeldud bitcoinide turvalisuse suurendamiseks, nõudes kulutuste autoriseerimiseks mitut allkirja erinevatest privaatvõtmetest. See meetod jaotab riski mitme võtme vahel, mis aitab vähendada nii kadumise kui ka varguse riski (sõltuvalt multisig-konfiguratsioonist). Multisig rahakotid töötavad "m-of-n" mudelil, kus "m" tähistab minimaalset arvu allkirju, mis on vajalik tehingu kinnitamiseks, ja "n" on kaasatud võtmete koguarv. Näiteks 2-of-3 seadistus nõuab tehingu kinnitamiseks kaks allkirja kolmest võimalikust. Selline lähenemisviis pakub paremat turvalisust võrreldes ühe võtmega rahakottidega, kuid see muudab haldamise ja varundamise keerulisemaks. Lisaks on vanemate multisig-standardite abil tehtavad tehingud vähem privaatsed ja kallimad tasude poolest kui traditsioonilised singlesig-tehingud. Hiljutised uuendused, nagu Taproot ja kirjeldajate kasutamine, peaksid siiski minimeerima, kui mitte kõrvaldama, neid multisigide puudusi.
 

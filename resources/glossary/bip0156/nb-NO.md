@@ -1,6 +1,7 @@
 ---
 term: BIP0156
 
+definition: Dandelion, en protokoll som forbedrer personvernet ved transaksjonsruting ved å skjule den opprinnelige noden.
 ---
 Forslag, kjent som Dandelion, som tar sikte på å forbedre personvernet ved transaksjonsruting i Bitcoin-nettverket for å motvirke deanonymisering. I standarddriften av Bitcoin sendes transaksjoner umiddelbart til flere noder. Hvis en observatør kan se hver transaksjon som videresendes av hver node i nettverket, kan vedkommende anta at den første noden som sender en transaksjon, også er den opprinnelige noden for transaksjonen, og at den derfor kommer fra nodens operatør. Dette fenomenet kan potensielt gjøre det mulig for observatører å koble transaksjoner, som normalt er anonyme, med IP-adresser.
 

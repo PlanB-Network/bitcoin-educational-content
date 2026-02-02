@@ -255,12 +255,13 @@ be-BOP позволяет принимать платежи Bitcoin непоср
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Поле                  | Описание                                               | Пример для использования                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **Стандарт BIP**       | Тип используемой адресации                               | BIP84 (для адресов в формате bech32, начинающихся с `bc1`) |
+| **Расширенный открытый ключ** | Ваш Zpub (или Xpub в зависимости от используемого кошелька)        | `zpub...` (извлечено из вашего кошелька Bitcoin) |
+| **Derivation Index**   | Начальный индекс для создания адресов         | `1`                                              |
+| **URL Mempool**        | URL сервиса mempool, используемый для отслеживания транзакций | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -849,12 +850,13 @@ be-BOP также предлагает полную интеграцию с **St
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Платформа        | Видимый Продукт | Добавляемый в Корзину |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (открытый сайт)        | ✔️              | ✔️                  |
+| Retail POS (торговая точка)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (продажа через бота)  | ✔️              | ✔️                  |
 
 Отметьте только те каналы, которые вы хотите использовать.
 
@@ -1024,14 +1026,15 @@ be-BOP также предлагает полную интеграцию с **St
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Цель                 | Тег для вставки                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Отобразить продукт      | `[Product=slug?display=img-1]`        |
+| Отобразить изображение       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Интегрировать ползунок       | `[Slider=slug?autoplay=3000]`         |
+| Добавить вызов     | `[Challenge=slug]`                    |
+| Добавить обратный отсчет | `[Countdown=slug]`                 |
+| Интегрировать форму   | `[Form=slug]`                         |
 
 **Текущие параметры**:
 
@@ -1813,14 +1816,15 @@ URL `/pos/session` предназначен для **вторичного экр
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Функция                         | Описание                                             |
+|----------------------------------|---------------------------------------------------------|
+| Роль POS                         | Назначено через ARM                                         |
+| Главный интерфейс             | `/pos` или `/pos/touch`                                 |
+| Дисплей покупателя (экран 2)       | `/pos/session`                                         |
+| Платёж                         | Наличные, карта, Lightning и т.д.                         |
+| Добавление продукта                    | Псевдоним или сканирование штрих-кода                              |
+| Скидки / НДС                    | С обязательным управленческим обоснованием              |
 
 Спасибо, что внимательно следили за этим руководством.

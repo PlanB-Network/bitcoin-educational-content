@@ -1,6 +1,7 @@
 ---
-term: DISTRIBUTED
+term: Verteilt
 
+definition: Netzwerk, in dem die Entscheidungsbefugnis und die Kontrolle gleichmäßig unter allen Teilnehmern verteilt sind.
 ---
 Eigenschaft eines Computernetzes, in dem Entscheidungsbefugnis und Kontrolle gleichmäßig auf alle Netzteilnehmer verteilt sind. Diese Verteilung sorgt für die Widerstandsfähigkeit des Systems. Es wird auch als Peer-to-Peer-Netz bezeichnet. Im Gegensatz zu einem dezentralisierten Netzwerk, bei dem die Macht auf mehrere Stellen verteilt ist, aber einige zentrale Behörden weiterhin mehr Macht haben als die Nutzer, gibt es in einem verteilten Netzwerk keine zentrale Behörde, da die Verwaltung und Kontrolle den Nutzern selbst übertragen wird. Bitcoin ist ein Beispiel für ein verteiltes System. Bei Bitcoin gibt es weder eine Hierarchie noch eine zentrale Autorität. Die Aufrechterhaltung des Konsenses, die Überprüfung von Transaktionen und die Ausgabe neuer Geldeinheiten werden von den Nutzern durchgeführt. Diese verteilte Struktur macht das System widerstandsfähig und resistent gegen Zensur, so dass es für eine einzelne Instanz sehr schwierig ist, es zu kontrollieren oder zu manipulieren.
 

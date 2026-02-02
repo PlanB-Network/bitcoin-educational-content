@@ -1,5 +1,6 @@
 ---
 term: XOR
+definition: Fundamentele booleaanse logische bewerking in cryptografie die alleen waar produceert wanneer de twee operanden verschillen.
 ---
 
 Acroniem voor de bewerking "Exclusive or," in het Frans "Ou exclusif." Het is een fundamentele functie van Booleaanse logica. Deze bewerking neemt twee Booleaanse operanden, die elk $waar$ of $onwaar$ zijn, en produceert alleen een $waar$ uitvoer als de twee operanden verschillen. Met andere woorden, de uitvoer van de XOR-bewerking is $waar$ als precies één (maar niet beide) van de operanden $waar$ is. Bijvoorbeeld, de XOR-bewerking tussen $1$ en $0$ resulteert in $1$. We merken op:

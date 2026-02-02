@@ -1,5 +1,6 @@
 ---
-term: AKKU
+term: Pino
+definition: Bitcoin Scriptissä käytettävä LIFO-tietorakenne väliaikaisten elementtien tallentamiseen ja käsittelyyn suorituksen aikana.
 ---
 
 Komentosarjakielessä, jota käytetään Bitcoin UTXO:n käyttöehtojen liittämiseen, pino on LIFO (*Last In, First Out*) -tietorakenne, jota käytetään tilapäisen Elements:n tallentamiseen komentosarjan suorittamisen aikana. Skriptin jokainen operaatio käsittelee näitä pinoja, joihin voidaan lisätä (*push*) tai poistaa (*pop*) Elements:ta. Skriptit käyttävät pinoja lausekkeiden arviointiin, väliaikaisten muuttujien tallentamiseen ja ehtojen hallintaan.

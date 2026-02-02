@@ -1,5 +1,6 @@
 ---
 term: HMAC-SHA512
+definition: Kriptografski algoritam koji se koristi za derivaciju ključeva u Bitcoin HD novčanicima.
 ---
 
 `HMAC-SHA512` označava "Hash-based Message Authentication Code - Secure Hash Algorithm 512". To je kriptografski algoritam koji se koristi za verifikaciju integriteta i autentičnosti poruka razmenjenih između dve strane. Kombinuje kriptografsku Hash funkciju `SHA512` sa deljenim tajnim ključem da generate jedinstveni Kod za Autentifikaciju Poruke (MAC) za svaku poruku.

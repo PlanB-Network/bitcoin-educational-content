@@ -1,9 +1,9 @@
 question: Wat is een samenvoeging in een transactie?
-answer: Het is de actie van het consumeren van meerdere UTXO's als invoer.
+answer: Het is de actie van het consumeren van meerdere UTXO's als input.
 wrong_answers:
-  - Het is de actie van het maken van meerdere UTXO's als uitgangen.
+  - Het is de actie van het maken van meerdere UTXO's als outputs.
   - Het is het combineren van meerdere adressen tot één adres.
-  - Het is het combineren van meerdere blokken in de Blockchain.
+  - Het is het combineren van meerdere blokken in de blockchain.
 explanation: |
-  Wanneer de gebruiker geen UTXO heeft die groter of gelijk is aan de hoeveelheid die hij wil verzenden, moet hij verschillende van zijn UTXO's gebruiken om aan de uitgangen te voldoen. Deze praktijk wordt samenvoegen genoemd.
+  Wanneer de gebruiker geen UTXO heeft die groter of gelijk is aan de hoeveelheid die hij wil verzenden, moet hij verschillende van zijn UTXO's gebruiken om aan de outputs te voldoen. Deze praktijk wordt samenvoegen genoemd.
 reviewed: false

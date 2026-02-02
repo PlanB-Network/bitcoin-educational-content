@@ -1,0 +1,9 @@
+question: LN 机载节点的主要缺点是什么？
+answer: 操作员依赖性
+wrong_answers:
+  - 丢失私人密钥
+  - 无自我监护
+  - 所有闪电交易必须进行链上支付
+explanation: |
+  用户在连接和通道管理方面严重依赖主运营商。
+reviewed: false

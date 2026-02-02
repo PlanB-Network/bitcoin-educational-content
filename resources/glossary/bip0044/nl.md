@@ -1,5 +1,6 @@
 ---
 term: BIP0044
+definition: Standaard die de volledige structuur van derivatiepaden voor HD-wallets definieert purpose, coin_type, account, change en address_index.
 ---
 
 Een voorstel voor verbetering dat een standaard hiërarchische afleidingsstructuur introduceert voor HD-wallets. BIP44 bouwt voort op de principes van BIP32 voor sleutelafleiding en op BIP43 voor het gebruik van het veld "doel". Het introduceert een afleidingsstructuur met vijf niveaus: `m / doel' / munttype' / rekening' / wijziging / adres_index`. Hier zijn de details van elke diepte:

@@ -1,5 +1,6 @@
 ---
 term: BIP0032
+definition: Introduction of HD (hierarchical deterministic) wallets allowing all keys of a wallet to be generated from a single seed.
 ---
 
 BIP32 introduced the concept of a hierarchical deterministic wallet (HD wallet). This proposal allows for the generation of a hierarchy of key pairs from a common `master seed`, using one-way derivation functions. Each generated key pair can itself be the parent of other child keys, forming a tree-like (hierarchical) structure. 

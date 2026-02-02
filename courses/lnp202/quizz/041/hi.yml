@@ -1,0 +1,9 @@
+question: मैं Umbrel पर ThunderHub कहाँ इंस्टॉल करूँ?
+answer: ऐप स्टोर
+wrong_answers:
+  - एसएसएच कंसोल
+  - सिस्टम सेटिंग्स
+  - जीडब्ल्यू-2 जीडब्ल्यू-3 कोर
+explanation: |
+  ThunderHub को Umbrel ऐप स्टोर के माध्यम से एक एप्लिकेशन के रूप में इंस्टॉल किया जाता है।
+reviewed: false

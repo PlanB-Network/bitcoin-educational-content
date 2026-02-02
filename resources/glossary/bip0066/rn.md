@@ -1,5 +1,6 @@
 ---
 term: BIP0066
+definition: Gushira mu rugero imiterere y'ibimenyetso hifashishijwe DER encoding ikaze, mu kwirinda ukudahuza hagati y'amasistemu.
 ---
 
 Yashizeho uburyo bwo guhuza uburyo bwo gusinya mu bikorwa vy’ubudandaji.

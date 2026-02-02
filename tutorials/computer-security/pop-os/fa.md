@@ -452,24 +452,25 @@ Pop!OS از طریق Pop!Shop خود طیف گسترده‌ای از نرم‌ا
 
 
 
-| Outil                        | Description                                | Commande d’installation                         |
+
+| ابزار | توضیحات | دستور نصب |
 | ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
-| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
-| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
-| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
-| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
-| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
-| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
-| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
-| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
-| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
-| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
-| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
-| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
-| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
-| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
-| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+| Firefox | مرورگر وب آزاد و محبوب | `sudo apt install firefox` |
+| Brave | مرورگر وب متمرکز بر حریم خصوصی | نصب از طریق Pop!_Shop یا سایت رسمی |
+| Visual Studio Code (VS Code) | ویرایشگر کد قدرتمند برای توسعه‌دهندگان | `flatpak install flathub com.visualstudio.code` |
+| Git | مدیریت نسخه‌ها | `sudo apt install git` |
+| Flatpak | مدیریت بسته‌های جایگزین | `sudo apt install flatpak` |
+| VLC | پخش‌کننده چندرسانه‌ای همه‌کاره | `sudo apt install vlc` |
+| GNOME Terminal | ترمینال پیش‌فرض | پیش‌نصب شده در Pop!OS |
+| Curl | ابزار انتقال داده‌های آنلاین | `sudo apt install curl` |
+| Wget | دانلود فایل از طریق HTTP/FTP | `sudo apt install wget` |
+| Docker | کانتینرسازی برنامه‌ها | نصب از طریق اسکریپت رسمی یا `apt` |
+| Node.js | محیط جاوااسکریپت سمت سرور | نصب از طریق `apt` یا NodeSource |
+| Python3 | زبان برنامه‌نویسی | `sudo apt install python3 python3-pip` |
+| GIMP | ویرایشگر تصویر پیشرفته | `sudo apt install gimp` |
+| Thunderbird | کلاینت ایمیل | `sudo apt install thunderbird` |
+| Transmission | کلاینت سبک بیت‌تورنت | `sudo apt install transmission-gtk` |
+| Htop | مانیتور سیستم تعاملی | `sudo apt install htop` |
 
 ### نصب از طریق Pop! Shop (رابط گرافیکی)
 

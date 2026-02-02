@@ -1,5 +1,6 @@
 ---
-term: COINSWAP
+term: Coinswap
+definition: Protokol atomic swap untuk kepemilikan bitcoin antar pengguna melalui smart contract.
 ---
 
 Protokol untuk transfer rahasia kepemilikan antar pengguna. Metode ini bertujuan untuk mentransfer kepemilikan bitcoin dari satu orang ke orang lain, dan sebaliknya, tanpa pertukaran ini secara eksplisit terlihat pada _Blockchain_. Coinwap menggunakan kontrak pintar untuk melakukan transfer tanpa memerlukan kepercayaan di antara kedua belah pihak.

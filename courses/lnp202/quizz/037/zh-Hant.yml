@@ -1,0 +1,9 @@
+question: Lightning 商家的首要任務是什麼？
+answer: 取得入境流動資金
+wrong_answers:
+  - 獲取境外流動資金
+  - 節省路由成本
+  - 獲得良好的 LN+ 評論
+explanation: |
+  商家必須能夠在不失手的情況下套現，這就需要有足夠的流入流動資金。
+reviewed: false

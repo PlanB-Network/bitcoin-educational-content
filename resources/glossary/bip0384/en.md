@@ -1,5 +1,6 @@
 ---
 term: BIP0384
+definition: combo() function for describing several types of scripts for the same public key in descriptors.
 ---
 
 Introduces the `combo(KEY)` function for descriptors. This function describes a set of possible output scripts for a given public key, covering multiple script types simultaneously, including P2PK, P2PKH, P2WPKH, and P2SH‑P2WPKH. 

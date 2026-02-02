@@ -1,6 +1,7 @@
 ---
-term: BITCOIN (s velkým písmenem B)
+term: Bitcoin (velké B)
 
+definition: Peer-to-peer systém elektronických peněz označující protokol, síť nebo systém jako celek.
 ---
 Bitcoin je název elektronického peněžního systému peer-to-peer, který v roce 2009 vytvořil Satoshi Nakamoto. Použití termínu Bitcoin s velkým "B" může odkazovat na tři různé věci:
 
@@ -11,4 +12,3 @@ Bitcoin je název elektronického peněžního systému peer-to-peer, který v r
 
 Termín bitcoin s malým písmenem "b" je obecně vyhrazen pro označení měnové jednotky obchodované v tomto systému.
 
-![](../../dictionnaire/assets/41.webp)

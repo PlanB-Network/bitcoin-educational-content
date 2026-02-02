@@ -1,5 +1,6 @@
 ---
-term: Hash FUNKTION
+term: Hashfunktion
+definition: Matematisk funktion som producerar en utdata med fast storlek från en indata med variabel storlek.
 ---
 
 En matematisk funktion som tar en variabel storlek på indata (ett meddelande) och producerar en fast storlek på utdata (Hash, hashing, digest eller fingeravtryck). Hash-funktioner är allmänt använda primitiver inom kryptografi. De uppvisar specifika egenskaper som gör dem lämpliga att använda i säkra sammanhang:
@@ -19,4 +20,3 @@ I samband med Bitcoin används Hash-funktioner för flera ändamål, bland annat
 - `HASH160`, som beskriver en successiv användning av en `SHA256` och en `RIPEMD160`. `HASH160` används vid generering av mottagningsadresser (utom P2PK och P2TR) och vid beräkning av fingeravtryck av huvudnycklar för utökade nycklar.
 
 
-> ► * På engelska kallas det för en "Hash-funktion".*

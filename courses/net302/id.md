@@ -306,18 +306,19 @@ Bidang pertama dalam header disebut Versi. Nilai 4-bit ini menentukan versi prot
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Nomor Versi | Protokol | Deskripsi Versi | Referensi |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Cadangan | Cadangan | |
+| 2–3 | Tidak Ditugaskan | Tidak Ditugaskan | |
+| 4 | IP | Protokol Internet | RFC 791 |
+| **5** | **ST** | **Mode datagram ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Protokol Internet versi 6 | RFC 8200 |
+| 7 | TP/IX | Internet Berikutnya | RFC 1475 |
+| 8 | PIP | Protokol Internet P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Tidak Ditugaskan | Tidak Ditugaskan | |
+| 15 | Cadangan | Cadangan | |
 
 Di antaranya adalah IPv5, yang meskipun tidak banyak diketahui oleh publik, namun sebenarnya sudah ada sejak dulu sebagai ST (_Stream Protocol_). Dikembangkan pada tahun 1980-an, IPv5 dirancang untuk memenuhi kebutuhan yang berkembang pada saat itu: menyediakan "_Quality of Service_" (QoS) untuk aliran data tertentu yang membutuhkan transmisi yang stabil dan berkelanjutan, seperti Voice over IP atau aliran multimedia. Tujuannya adalah untuk menjamin bandwidth dan prioritas end-to-end, sebuah konsep yang mirip dengan apa yang ditawarkan RSVP (_Resource Reservation Protocol_) saat ini untuk memesan sumber daya jaringan secara dinamis pada router modern.
 
@@ -485,14 +486,15 @@ Secara historis, sistem IPv4 bergantung pada skema berbasis kelas, diberi label 
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Kelas** | **Rentang Alamat IPv4**          | **Penggunaan**              |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x hingga 126.x.x.x          | Alamat unicast               |
+|           | (127.x.x.x dicadangkan untuk loopback)| Loopback lokal          |
+| B         | 128.0.x.x hingga 191.255.x.x      | Alamat unicast               |
+| C         | 192.0.0.x hingga 223.255.255.x    | Alamat unicast               |
+| D         | 224.0.0.0 hingga 239.255.255.255  | IP Multicast                 |
+| E         | 240.0.0.0 hingga 255.255.255.255  | Dicadangkan untuk eksperimen |
 
 Tidak semua nilai yang mungkin dapat ditetapkan ke host. Sebagai contoh, dalam **kelas C** Address, byte terakhir menawarkan 8 bit (256 nilai). Tetapi dua di antaranya dicadangkan:
 
@@ -573,13 +575,14 @@ Kami menginginkan 4 subnet yang masing-masing terdiri dari 60 host.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID Subnet (bit) | Alamat Subnet | Mask Subnet | Rentang Alamat             | Alamat Broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Langkah 5**: Ini menciptakan empat subjaringan, masing-masing mendukung hingga 62 mesin, sambil menjaga skema pengalamatan keseluruhan tetap efisien. Bagian _hostid_ dibagi menjadi bagian _subnetid_ dan bagian host.
 
@@ -623,7 +626,9 @@ Blok /17 berisi 2^(32-17) alamat sehingga 2^15 = 32.768 alamat total. Dengan men
 Agar ukuran CIDR lebih mudah dipahami, berikut ini adalah tabel awalan umum dan subnet mask yang setara serta alamat yang dapat digunakan:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Prefiks CIDR | Bit host yang tersedia | Mask subnet | Alamat host yang dapat digunakan |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +640,8 @@ Agar ukuran CIDR lebih mudah dipahami, berikut ini adalah tabel awalan umum dan 
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (khusus point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (hanya alamat host)         |
 
 **CATATAN**: Secara historis, RFC 950 tidak menganjurkan penggunaan subnet nol, terutama untuk menghindari kebingungan dalam perutean.  Pembatasan ini menjadi usang dengan RFC 1878, yang sepenuhnya mengizinkan penggunaannya. Batasan yang lama sebagian besar disebabkan oleh ketidakcocokan dengan perangkat keras yang lebih tua yang tidak dapat menangani CIDR dengan benar. Peralatan modern tidak memiliki masalah seperti itu.
 
@@ -823,12 +827,13 @@ The line appears to have an unbalanced ** marker. Here's the corrected version:
 Tabel di bawah ini meringkas istilah-istilah untuk konteks TCP dan UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Lapisan TCP/IP       | Nama Unit (TCP) | Nama Unit (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Lapisan Aplikasi     | Aliran           | Pesan            |
+| Lapisan Transport    | Segmen           | Paket            |
+| Lapisan Internet     | Datagram         | Datagram         |
+| Lapisan Akses Jaringan | Frame          | Frame            |
 
 ### Primitif layanan dan unit data
 
@@ -911,7 +916,8 @@ Tabel di bawah ini mengilustrasikan korespondensi ini:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Kode Biner  | Nilai Bit yang Diaktifkan     | Nilai Desimal |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -926,7 +932,8 @@ Tabel di bawah ini mengilustrasikan korespondensi ini:
 Untuk mengonversi biner ke desimal, tambahkan bobot bit yang ditetapkan ke 1.
 
 
-| Binary     | Decimal Value |
+
+| Biner      | Nilai desimal |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -965,13 +972,14 @@ Pada awalnya, jaringan IPv4 dibagi menjadi lima **kelas**: (A, B, C, D, dan E). 
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Kelas | Bit Awal | Rentang Byte Pertama | Subnet Mask Bawaan | Tujuan                         |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Jaringan sangat besar            |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Jaringan berukuran sedang        |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Jaringan kecil                   |
+| D     | 1110         | 224 – 239        | N/A                 | Alamat multicast                 |
+| E     | 1111         | 240 – 255        | N/A                 | Eksperimental (tidak digunakan secara publik) |
 
 Alamat Khusus:
 
@@ -1226,7 +1234,8 @@ Tabel perutean, yang dikelola secara manual (perutean statis) atau dinamis (peru
 Tabel perutean bertindak sebagai tabel pemetaan antara alamat IP target dan gateway berikutnya. Tabel ini biasanya menyimpan pengenal jaringan (_network ID_) daripada setiap host Address, yang sangat mengurangi ukurannya.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Alamat Tujuan | Alamat Router Hop Berikutnya | Antarmuka |
 | ------------------- | ----------------------- | --------- |
 
 Dengan menggunakan entri ini, router dapat dengan cepat menentukan melalui Interface mana dan ke node mana setiap datagram harus dikirim. Dikombinasikan dengan ARP untuk menyelesaikan alamat MAC yang cocok, hal ini memastikan transfer data yang efisien dan dapat diandalkan di seluruh jaringan.
@@ -1302,11 +1311,12 @@ Prinsip penerjemahan dinamis ini bergantung pada manajemen tabel yang tepat: set
 contoh tabel terjemahan NAT yang disederhanakan:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP Internal | IP Eksternal | Durasi (detik) | Dapat digunakan ulang? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | tidak     |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ya        |
+| 10.100.0.89   | 193.48.100.46  | 0              | tidak     |
 
 Dalam contoh ini, jika tidak ada paket yang melewati entri kedua dalam waktu lebih dari satu jam (3.600 detik), maka akan ditandai sebagai dapat digunakan kembali. Sebaliknya, durasi nol menunjukkan komunikasi aktif, dengan pemetaan terkunci.
 
@@ -1770,13 +1780,14 @@ IPv6 Address yang tidak ditentukan diwakili oleh `::` atau, secara lebih eksplis
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Prefiks Alamat IPv6 | Deskripsi                                |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Alamat yang dicadangkan                     |
+| 2000::/3            | Alamat unicast, dapat dirutekan di Internet |
+| fc00::/7            | Alamat lokal unik (1)                       |
+| fe80::/10           | Alamat link-local                           |
+| ff00::/8            | Alamat multicast                            |
 
 (1): *Pada LAN pribadi, awalan `fd00::/8` lebih disukai untuk menetapkan alamat internal yang tidak dapat dirutekan di Internet*
 
@@ -1858,24 +1869,28 @@ Terakhir, alamat lokal yang unik (_ULA_, untuk _Unique Local Addresses_) bersifa
 Secara konseptual, alamat IPv6 sering direpresentasikan sebagai struktur biner di mana bagian pertama (64 bit pertama) mengidentifikasi awalan jaringan, dan bagian kedua (juga 64 bit) secara unik mengidentifikasi Interface perangkat di jaringan tersebut. Pembagian ini membuat konfigurasi otomatis Address lebih mudah melalui mekanisme seperti SLAAC (_Stateless Address Autoconfiguration_), yang memungkinkan mesin secara otomatis membuat Address yang stabil berdasarkan MAC Address atau pengenal acak semu.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Bidang    | Prefiks | L | ID Global | Subnet | ID Antarmuka |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Bit       | 7      | 1 | 40        | 16     | 64            |
 
 Arsitektur IPv6 mengikuti model perutean global hirarkis dari Internet saat ini. Partisi awalan memungkinkan pendaftar regional dan operator jaringan untuk mengelola alokasi Address dengan cara yang terdesentralisasi, sekaligus memastikan keunikan global. Dalam kerangka kerja ini, host yang sama dapat secara bersamaan memegang Address unicast global untuk komunikasi internet dan Address link-lokal untuk interaksi lokal, misalnya dengan lingkungan terdekat atau untuk pesan penemuan router.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Bidang    | Prefiks | Nol | ID Antarmuka |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Bit       | 10     | 54   | 64           |
 
 **Alamat anycast mewakili konsep perantara yang dibangun di atas model unicast tetapi dapat berperilaku seperti multicast dalam kasus-kasus tertentu.** Address anycast pada dasarnya adalah Address unicast yang ditugaskan ke beberapa antarmuka yang didistribusikan melalui node jaringan yang berbeda. Ketika sebuah paket dikirim ke anycast Address, protokol IPv6 bertujuan untuk mengirimkannya ke salah satu host yang berbagi Address tersebut, biasanya yang paling dekat dalam hal topologi perutean. Pendekatan ini mengoptimalkan kecepatan pemrosesan permintaan dan meningkatkan ketahanan layanan terdistribusi. Contoh klasiknya adalah server DNS root, di mana pengalamatan anycast secara otomatis mengarahkan kueri ke titik terdekat.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Bidang     | Awalan | Subnet | ID Antarmuka |
+|-----------|--------|--------|______________|
+| Bit      | 48     | 16     | 64           |
 
 Pada IPv6, **alamat multicast** menggantikan mekanisme broadcast, yang dianggap terlalu mahal dan tidak cocok untuk jaringan berskala global. Multicast Address mengidentifikasi sekelompok antarmuka, biasanya di beberapa host, yang ingin menerima paket yang sama secara bersamaan.
 
@@ -1897,9 +1912,10 @@ Struktur multicast IPv6 Address meliputi:
 - bidang identifikasi (112 bit) yang mengidentifikasi nomor grup multicast.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Bidang      | Awalan | Bendera | Cakupan | ID Grup |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bit       | 8      | 4      | 4      | 112      |
 
 Contoh terkenal dari multicast IPv6 yang sedang bekerja adalah _Neighbor Discovery Protocol_ (NDP). Daripada menggunakan ARP seperti pada IPv4, NDP bergantung pada alamat multicast seperti `ff02::1:ff00:0/104` untuk menyiarkan permintaan penemuan tetangga, yang hanya menargetkan host yang relevan pada sambungan yang sama.
 
@@ -2017,8 +2033,9 @@ Sejak tahun 2006, setiap RIR telah menerima satu blok IPv6 /12 dari IANA, sebuah
 Hirarki alokasi umumnya terlihat seperti ini:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Pelanggan | Subnet | Antarmuka |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Dengan banyaknya alamat ini, NAT (*Network Address Translation*), yang dulunya sangat penting dalam IPv4 untuk mengatasi kekurangan Address, tidak lagi diperlukan. Setiap host dapat memiliki Address publik yang unik dan dapat dirutekan secara global, sehingga menyederhanakan konektivitas ujung ke ujung dan membuat protokol seperti IPSec, VoIP, atau sambungan masuk menjadi lebih mudah digunakan.

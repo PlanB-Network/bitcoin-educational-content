@@ -1,9 +1,9 @@
-question: Wat zijn de ketenanalyse heuristieken genoemd door Satoshi Nakamoto in het Bitcoin Witboek? (slechts één antwoord mogelijk)
-answer: De CIOH en Address hergebruiken.
+question: Welke ketenanalyse heuristieken zijn genoemd door Satoshi Nakamoto in het Bitcoin Witboek? (slechts één antwoord mogelijk)
+answer: De CIOH en adreshergebruik.
 wrong_answers:
   - Clusteren op basis van handtekening en tijdcorrelatie.
-  - Afgeronde betalingen en de grote uitvoer.
+  - Afgeronde betalingen en de grote output.
   - Volumeanalyse en overeenkomsten in scripts.
 explanation: |
-  In deel 10 van het Bitcoin White Paper waarschuwt Satoshi Nakamoto gebruikers voor de CIOH (Common Input Ownership Heuristic) en het hergebruik van hetzelfde sleutelpaar.
+  In deel 10 van de Bitcoin White Paper waarschuwt Satoshi Nakamoto gebruikers voor de CIOH (Common Input Ownership Heuristic) en het hergebruik van hetzelfde sleutelpaar.
 reviewed: false

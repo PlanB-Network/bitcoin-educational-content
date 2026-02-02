@@ -1,5 +1,0 @@
----
-term: ISHIMIKIRO (IMIBARE)
----
-
-Ishingiro ni uburyo bwo gutanga imibare bukoresha ibimenyetso bihoraho kugira ngo bigereranye imibare yose ishoboka. Ishingiro rigena ibimenyetso bitandukanye biriho kugira ngo bigereranye imibare muri sisitemu. Nk’akarorero, uburyo bwo guharura bumenyerewe cane mu buzima bwa misi yose ni urufatiro rwa 10, ruzwi kandi ko ari uburyo bwo guharura amabara cumi. Ikoresha ibimenyetso cumi bitandukanye `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)` kugira ngo igereranye imibare yose. Ayandi mabara akoreshwa cane mu guharura no mu biharuro ni uburyo bw’ibiharuro bibiri (ishimikiro 2), bukoresha ibimenyetso bibiri `(0, 1)`, n’uburyo bw’imibare cumi n’itandatu (ishimikiro 16), bukoresha ibimenyetso cumi na bitandatu `(0, 1, 2, 3, 4, 7, A, 5, . E, F)`. Mu bijanye na Bitcoin, ushobora guhura n'amakode nk'ishingiro 58 canke uburyo buhinduwe bw'ishingiro 32 (ryitwa `Bech32`).

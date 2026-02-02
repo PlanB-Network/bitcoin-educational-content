@@ -1,6 +1,7 @@
 ---
-term: PELABELAN
+term: Pelabelan
 
+definition: Praktik memberikan anotasi pada UTXO untuk memudahkan pengelolaan dana dan privasi.
 ---
 Praktik pemberian keterangan atau label pada UTXO tertentu dalam dompet Bitcoin. Sebagai contoh, jika saya memiliki UTXO dari pembelian P2P di Bisq dengan Charles, saya dapat melabelinya sebagai "`Non-KYC Bisq Charles`".
 

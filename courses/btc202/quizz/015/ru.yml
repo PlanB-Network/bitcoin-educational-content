@@ -1,7 +1,7 @@
 question: Какова основная альтернативная реализация Bitcoin core?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Наличные
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

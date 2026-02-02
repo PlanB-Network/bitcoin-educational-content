@@ -1,5 +1,6 @@
 ---
-term: HÄRLEDNINGSVÄG
+term: Härledningssökväg
+definition: Sekvens av index som beskriver härledningsvägen för barnnycklar från masternyckeln i en HD-plånbok.
 ---
 
 När det gäller hierarkiskt deterministiska (HD) plånböcker avser en härledningsväg den sekvens av index som används för att härleda underordnade nycklar från en huvudnyckel. Denna väg beskrivs i BIP32 och identifierar trädstrukturen för härledning av underordnade nycklar. En härledningsväg representeras av en serie index åtskilda av snedstreck och börjar alltid med huvudnyckeln (betecknad med `m/`). En typisk sökväg kan t.ex. vara `m/84'/0'/0'/0/0`. Varje härledningsnivå är associerad med ett specifikt djup:
@@ -26,4 +27,3 @@ Om till exempel min mottagare Address har avledningsvägen `m / 86' / 0' / 0' / 
 - "5" anger att det är den sjätte externa Address för detta konto.
 
 
-![](../../dictionnaire/assets/18.webp)

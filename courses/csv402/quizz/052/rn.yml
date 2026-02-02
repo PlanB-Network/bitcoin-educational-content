@@ -1,9 +1,9 @@
-question: Client-side Validation ni iki mu masezerano ya RGB?
-answer: Igenzura ry'aho hantu ry'amakuru ya Contract n'imihindukire
+question: Ni iki Ukwemeza kuruhande rw'umukiriya mu masezerano ya RGB?
+answer: Igenzura ry'aho hantu ry'amakuru y'amasezerano n'imihindukire
 wrong_answers:
-  - Gushitsa amasezerano y’ubwenge ataco akora kuri Bitcoin Blockchain.
+  - Gushitsa smart contracts ataco akora kuri Blockchain ya Bitcoin.
   - Ikoreshwa ryihariye ry'ibice bihurikiye hamwe kugira ngo wemeze ibikorwa
   - Gusubiramwo ubwavyo amateka ya Contract iyo habaye ukudahuza
 explanation: |
-  Client-side Validation ishoboza uwuje mu nama wese kwigenzura yigenga ko amakuru yaronse ahuye n’amategeko yasobanuwe na RGB Contract.
-reviewed: false
+  Ukwemeza kuruande rw'umukiriya gushiboza uwuyikoresha  wese kwigenzura yigenga ko amakuru yaronse ahuye n’amategeko yasobanuwe n'amasezerano ya RGB.
+reviewed: true

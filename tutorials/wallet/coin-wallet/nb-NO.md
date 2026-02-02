@@ -211,11 +211,12 @@ For å sende Bitcoin:
 4. Velg transaksjonshastighet:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Hastighet   | Omtrentlig bekreftelsestid | Gebyrsnivå     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Langsom**    | ~120 minutter              | Laveste
+| **Standard** | ~60 minutter               | Medium
+| **Rask**    | ~20 minutter               | Høyere
 
 5. Bekreft med din firesifrede PIN-kode → transaksjonen sendes
 
@@ -251,12 +252,13 @@ Mer om Replace-by-fee (RBF): https://bitcoinops.org/en/topics/replace-by-fee/
 (99 % av brukerne gjør det aldri - det er nok med 12 ord i passphrase)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Situasjon                                      | Hvorfor du trenger den private nøkkelen                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Rydding av en gammel papirveske                   | For å flytte midler til din nåværende veske             |
+| Import til en maskinvaresigner (f.eks. Coldcard) | For offline-signering                              |
+| Nødsituasjonsutgjenvinning (tapt frø, men appen er fortsatt åpen) | For å redde mynter før appen er borte           |
+| Bruk av verktøy som ikke godtar frøfraser     | Noen overvåknings- eller signeringsverktøy             |
 
 ### Slik eksporterer du private nøkler i Coin Wallet
 
@@ -313,14 +315,16 @@ Coin Wallet følger strengt de offisielle Bitcoin-standardene som brukes av nest
 Fra én hovednøkkel kan wallet generate milliarder av adresser i en strengt definert rekkefølge. Dette er grunnen til at de samme 12 ordene som tastes inn i Electrum, Sparrow, Trezor, Ledger, BlueWallet osv. vil vise nøyaktig de samme adressene og saldoene.
 
 
-**Avledningsveier som brukes i Coin Wallet for Bitcoin**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+**Derivasjonsbaner brukt i Coin Wallet for Bitcoin**
+
+| Adressetype              | Standard | Avledningsbane       | Starter med | Kommentar                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| Inneboende SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Moderne format, laveste gebyrer           |
+| Nestet SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Kompatibilitetsomslutning for gamle tjenester |
+| Arv (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Eldste format, høyeste gebyrer          |
 
 Inne i hver sti:
 

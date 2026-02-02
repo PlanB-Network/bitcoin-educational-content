@@ -1,5 +1,6 @@
 ---
-term: passphrase (BIP39)
+term: PASSPHRASE (BIP39)
+definition: Nywila ya hiari inayoongezwa kwenye maneno ya urejeshi ili kulinda pochi ya HD.
 ---
 
 Nenosiri la hiari ambalo, likiunganishwa na kifungu cha maneno ya urejeshaji, hutoa Layer ya ziada ya usalama kwa pochi za Bitcoin za kubainisha na za daraja. Pochi za HD kwa kawaida hutolewa kutoka kwa maneno ya kurejesha akaunti yenye maneno 12 au 24. Maneno haya ya kurejesha ni muhimu sana, kwani inaruhusu kurejeshwa kwa funguo zote katika Wallet katika kesi ya kupoteza. Walakini, inajumuisha hatua moja ya kutofaulu (SPOF). Ikiwa imeathiriwa, bitcoins ziko hatarini. Hapa ndipo passphrase inapoingia. Ni nenosiri la hiari, lililochaguliwa na mtumiaji, ambalo huongezwa kwa maneno ya kurejesha akaunti ili kuimarisha usalama wa Wallet. Haipaswi kuchanganyikiwa na msimbo wa PIN au nenosiri la kawaida, passphrase ina jukumu katika kupatikana kwa funguo za siri.

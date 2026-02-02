@@ -1,6 +1,7 @@
 ---
-term: LABEL (SILENT PAYMENTS)
+term: Label (silent payments)
 
+definition: Các số nguyên được sử dụng để tạo các địa chỉ tĩnh dẫn xuất nhằm tách biệt các mục đích sử dụng trong Silent Payments.
 ---
 Within the Silent Payments protocol, labels are integers used to modify the initial static address in order to create many other static addresses. The use of these labels allows for the segregation of payments sent via Silent Payments, by employing different static addresses for each use, without excessively increasing the operational burden for detecting these payments (scanning). Bob uses a static address $B$, composed of two public keys: $B_{\text{scan}}$ for scanning and $B_{\text{spend}}$ for spending. The hash of $b_{\text{scan}}$ and an integer $m$, scalar-multiplied by the generator point $G$, is added to the spending public key $B_{\text{spend}}$ to create a sort of new spending public key $B_m$:
 

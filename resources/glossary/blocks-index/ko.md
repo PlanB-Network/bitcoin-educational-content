@@ -1,5 +1,6 @@
 ---
 term: 블록 인덱스
+definition: 블록의 메타데이터와 위치를 카탈로그화하는 Bitcoin Core의 LevelDB 구조.
 ---
 
 모든 블록의 메타데이터를 카탈로그화하는 Bitcoin core의 LevelDB 데이터 구조입니다. 이 인덱스의 각 항목은 블록의 식별자, Blockchain의 블록 높이, 디스크에서 블록의 위치 및 기타 메타데이터와 같은 세부 정보를 제공합니다.

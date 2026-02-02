@@ -1,5 +1,6 @@
 ---
-term: ISHAMI-N'IMIRONGO
+term: Branch-and-bound
+definition: Uburyo bwo guhitamo ibiceri muri Bitcoin Core kugira ngo hagabanuke amafaranga asubira hamwe n'amafaranga y'ivunjisha.
 ---
 
 Uburyo bukoreshwa mu guhitamwo ivyinjizwa muri Bitcoin core Wallet kuva kuri verisiyo 0.17 kandi bwavumbuwe na Murch. Branch-and-Bound (BnB) irondera umugwi w’ama UTXO ahuye neza n’ibiva mu bikorwa bisabwa, n’intumbero yo kugabanya ihinduka n’amahera ajanye.

@@ -1,5 +1,6 @@
 ---
-term: LEBO (MALIPO YA KIMYA)
+term: Label (silent payments)
+definition: Nambari nzima zinazotumika kuunda anwani tuli zilizotolewa zinazotenganisha matumizi katika Silent Payments.
 ---
 
 Ndani ya itifaki ya Malipo ya Kimya, lebo ni nambari kamili zinazotumiwa kurekebisha Address tuli ya awali ili kuunda anwani nyingi tuli. Matumizi ya lebo hizi huruhusu kutenganishwa kwa malipo yanayotumwa kupitia Malipo ya Kimya, kwa kutumia anwani tofauti tuli kwa kila matumizi, bila kuongeza kupita kiasi mzigo wa uendeshaji wa kugundua malipo haya (kuchanganua). Bob anatumia Address $B$ tuli, inayojumuisha funguo mbili za umma: $B_{\text{scan}}$ kwa kuchanganua na $B_{\text{spend}}$ kwa matumizi. Hash ya $b_{\text{scan}}$ na nambari kamili $m$, iliyozidishwa na sehemu ya jenereta $G$, huongezwa kwenye ufunguo wa matumizi wa umma $B_{\text{spend}}$ ili kuunda aina mpya ya ufunguo wa matumizi ya umma $B_m$:

@@ -1,6 +1,7 @@
 ---
-term: BLOCK
+term: Blok
 
+definition: Datová struktura obsahující validované transakce a metadata, propojená s ostatními bloky pomocí hašování.
 ---
 Struktura dat v systému Bitcoin. Blok obsahuje sadu platných transakcí a metadata obsažená v jeho záhlaví. Každý blok je spojen s dalším pomocí hashe své hlavičky, čímž vzniká blockchain. Blokový řetězec funguje jako časový server, který umožňuje každému uživateli znát všechny minulé transakce, aby bylo možné ověřit neexistenci transakce a zabránit dvojímu utrácení. Transakce jsou uspořádány do Merkleho stromu. Tento kryptografický akumulátor umožňuje vytvořit digest všech transakcí v bloku, který se nazývá "Merkleho kořen" Záhlaví bloku obsahuje 6 prvků:
 

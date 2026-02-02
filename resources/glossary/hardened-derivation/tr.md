@@ -1,5 +1,6 @@
 ---
-term: SERTLEŞTIRILMIŞ TÜRETME
+term: Sertleştirilmiş türetme
+definition: Üst özel anahtarı kullanan ve genişletilmiş genel anahtardan anahtar üretilmesini engelleyen türetme.
 ---
 
 HD cüzdanlarda alt anahtar üretme süreci. Güçlendirilmiş türetme, `HMAC-SHA512` işlevi için girdi olarak ana özel anahtarı kullanır ve ana genel anahtardan ve ana chain code'dan generate alt genel anahtarlarını imkansız hale getirir. İşlem, ana özel anahtar ile $2^{31}$ değerine eşit veya daha büyük bir dizinin birleştirilmesini ve ardından ana chain code ile `HMAC-SHA512` uygulamasını içerir. Sonuç iki parçaya bölünür: ilk 256 bit alt özel anahtarı elde etmek için üst özel anahtara eklenirken, kalan 256 bit alt chain code'ı oluşturur. Bu yöntem, genişletilmiş bir açık anahtar ele geçirilse bile alt açık anahtarları türetmek için kullanılamamasını sağlar. Standart türetmede, hesap derinliğine kadar tüm türetme seviyelerinde sertleştirilmiş türetme kullanılır. Türetme yolu gösterimlerinde, sertleştirilmiş bir türetme kesme işareti `'` veya daha nadiren `h` ile tanımlanır.

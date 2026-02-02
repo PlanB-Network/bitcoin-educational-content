@@ -1,5 +1,6 @@
 ---
-term: OP_0NOTEQUAL (0x92)
+term: OP_0NOTEQUAL (0X92)
 
+definition: 检查堆栈顶部元素是否不等于零的操作码。
 ---
 检查堆栈顶端的项目是否不等于零。若不等于零，则向栈中推入 `1`（true），否则推入 `0`（false）。

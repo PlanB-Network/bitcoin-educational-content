@@ -1,0 +1,11 @@
+question: What method did Tony76 use to set up his April 20, 2012 scam on the Silk Road marketplace?
+answer: Use of his impeccable reputation as a seller to demand early completion of transactions
+wrong_answers:
+  - Exploit of a technical vulnerability in the processing of bitcoin payments on the platform
+  - Manipulation of the bitcoin price to artificially inflate prices on Silk Road
+  - Blackmail of a Silk Road employee into printing false product descriptions
+explanation: |
+ Tony76 enjoyed an excellent reputation, which enabled him to require buyers to use early finalization, instead of escrow. April 20 being an emblematic date for
+ cannabis consumers, he offered multiple discounts on his usual products for the occasion, and orders poured in. He later disappeared with the bitcoins, and 
+ never honored his orders.
+reviewed: true

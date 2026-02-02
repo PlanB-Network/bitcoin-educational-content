@@ -1,5 +1,5 @@
 question: Kazi kuu ya Clippy katika mfumo ikolojia wa maendeleo ya Rust ni ipi?
-answer: Kielelezo cha hali ya juu kinachochambua msimbo na kupendekeza maboresho kwa nahau bora za Rust
+answer: Kielelezo cha hali ya juu kinachochambua msimbo na kupendekeza kuboreshaĺ kwa nahau bora za Rust
 wrong_answers:
   - Meneja wa kifurushi anayeshughulikia utatuzi wa utegemezi na ujenzi wa miradi
   - Zana ya mkusanyiko inayobadilisha msimbo chanzo wa Rust kuwa jozi zinazoweza kutekelezwa

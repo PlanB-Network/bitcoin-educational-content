@@ -1,5 +1,6 @@
 ---
-term: KUSHINDWA KWA BYZANTINE
+term: Kushindwa kwa Byzantine
+definition: Tabia ya mfumo ambao hauendani na vipimo vyake, ambavyo vinaweza kuwa vya asili au vya makusudi.
 ---
 
 Kushindwa kwa Byzantine, au tabia ya Byzantine, inarejelea tabia yoyote ya mfumo ambayo haizingatii vipimo vyake, na kutoa matokeo yasiyolingana.

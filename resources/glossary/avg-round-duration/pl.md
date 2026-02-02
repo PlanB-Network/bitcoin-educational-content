@@ -1,5 +1,6 @@
 ---
-term: ŚR. CZAS TRWANIA RUNDY
+term: Średni czas trwania rundy
+definition: Wskaźnik szacujący średni czas wymagany do znalezienia bloku przez pulę wydobywczą na podstawie jej mocy obliczeniowej i trudności sieci.
 ---
 
 Średni czas trwania rundy jest wskaźnikiem używanym do oszacowania czasu potrzebnego Mining pool na znalezienie bloku, w oparciu o trudność sieci i Hashrate puli. Oblicza się go, biorąc liczbę akcji oczekiwanych do znalezienia bloku i dzieląc ją przez Hashrate puli. Na przykład, jeśli Mining pool ma 200 górników, a każdy z nich generuje średnio 4 akcje na sekundę, całkowita moc obliczeniowa puli wynosi 800 akcji na sekundę:

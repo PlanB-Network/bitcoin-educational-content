@@ -1,5 +1,6 @@
 ---
-term: CGMINER
+term: Cgminer
+definition: Open-source mining software for CPU and GPU, incorporated into Braiins' BOSminer project.
 ---
 
 Open-source mining software originally developed for the CPU and GPU. CGminer enables users to manage and optimize their mining operations, with features such as multi-threading, multiple pool management and real-time performance monitoring. The software is no longer really maintained today, but has been taken over by Braiins' open-source BOSminer project.

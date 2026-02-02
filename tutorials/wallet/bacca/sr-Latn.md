@@ -137,7 +137,7 @@ Sada imate pristup softveru Interface.
 Pre nego što počnete, ako je vaš Ledger nov, uverite se da ste postavili PIN kod i sačuvali frazu za oporavak. Za ove početne korake vam nije potreban Ledger Live. Jednostavno povežite vaš Ledger putem USB kabla da biste ga napajali. Ako niste sigurni kako da nastavite sa ova dva koraka, možete se obratiti početku tutorijala specifičnog za vaš model:
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

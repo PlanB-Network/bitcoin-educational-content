@@ -1,5 +1,6 @@
 ---
-term: ANALIZA LANAЦA
+term: Analiza lanca
+definition: Praksa praćenja tokova bitkoina na blockchain-u koristeći heuristiku i obrasce.
 ---
 
 Praksa koja obuhvata sve metode korišćene za praćenje toka bitkoina na Blockchain. Generalno, analiza lanca se oslanja na posmatranje karakteristika u uzorcima prethodnih transakcija. Zatim uključuje identifikaciju tih istih karakteristika u transakciji koju neko želi da analizira, i izvođenje mogućih interpretacija. Ovaj metod rešavanja problema, zasnovan na praktičnom pristupu za pronalaženje dovoljno dobrog rešenja, poznat je kao heuristika. Da pojednostavimo, analiza lanca se vrši u dva glavna koraka:

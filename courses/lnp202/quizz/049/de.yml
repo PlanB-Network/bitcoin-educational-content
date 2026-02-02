@@ -1,0 +1,9 @@
+question: Welche dieser Plattformen ermöglicht es Ihnen, eingehende Liquidität zu kaufen?
+answer: Magma
+wrong_answers:
+  - Bitcoin Kern
+  - 1ML
+  - Boltz
+explanation: |
+  Magma macht es einfach, eingehende Liquidität über einen automatisierten Marktplatz zu erwerben.
+reviewed: false

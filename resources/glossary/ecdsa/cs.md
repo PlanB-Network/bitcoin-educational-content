@@ -1,6 +1,7 @@
 ---
 term: ECDSA
 
+definition: Algoritmus digitálního podpisu využívající eliptické křivky, používaný v síti Bitcoin k podepisování transakcí.
 ---
 Zkratka pro "algoritmus digitálního podpisu eliptickou křivkou" Jedná se o algoritmus digitálního podpisu založený na kryptografii eliptických křivek (ECC). Jedná se o variantu algoritmu DSA (Digital Signature Algorithm). ECDSA využívá vlastností eliptických křivek k zajištění úrovně zabezpečení srovnatelné s tradičními algoritmy s veřejným klíčem, jako je RSA, při použití výrazně menších velikostí klíčů. ECDSA umožňuje generovat páry klíčů (veřejný a soukromý klíč) a vytvářet a ověřovat digitální podpisy.
 

@@ -1,6 +1,7 @@
 ---
-term: AVGIFTSSNIPING
+term: Fee sniping
 
+definition: Angrep der utvinnere skriver om en nylig blokk for å samle inn de høye transaksjonsgebyrene.
 ---
 Et angrepsscenario der utvinnere forsøker å omskrive en nylig bekreftet blokk for å kreve transaksjonsgebyrene den inneholder, samtidig som de legger til transaksjoner med høye gebyrer som har kommet til i mellomtiden i mempoolen. Det endelige målet med dette angrepet for utvinnerne er å øke lønnsomheten. Avgiftssniping kan bli stadig mer lønnsomt etter hvert som blokkbelønningen synker og transaksjonsavgiftene utgjør en større del av utvinnernes inntekter. Det kan også være fordelaktig når avgiftene i den forrige blokken er betydelig høyere enn i den nest beste kandidatblokken. For å forenkle kan vi si at utvinneren står overfor dette valget når det gjelder insentiver:
 

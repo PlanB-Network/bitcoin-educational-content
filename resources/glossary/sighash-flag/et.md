@@ -1,6 +1,7 @@
 ---
-term: SIGHASH FLAG
+term: Sighash flag
 
+definition: Parameeter, mis määrate ära, millised tehingu komponendid on allkirjaga kaetud.
 ---
 Bitcoini tehingu parameeter, mis määrab, millised tehingu komponendid (sisendid ja väljundid) on hõlmatud seotud allkirjaga, muutmata seeläbi muutumatuks. SigHash Flag on bait, mis lisatakse iga sisendi digitaalallkirjale. Seega mõjutab SigHash Flagi valik otseselt seda, millised tehingu osad on allkirjaga külmutatud ja milliseid saab hiljem veel muuta. See mehhanism tagab, et allkirjad kinnitavad tehingu andmed täpselt ja turvaliselt vastavalt allkirjastaja kavatsusele. On kolm peamist SigHash Flagi:
 

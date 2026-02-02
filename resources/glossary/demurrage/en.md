@@ -1,5 +1,6 @@
 ---
-term: DEMURRAGE
+term: Demurrage
+definition: Cost associated with holding a currency, sometimes used to penalize long-term savings.
 ---
 
 Cost associated with holding a currency. By extension, demeurage sometimes designates a monetary mechanism in which prolonged ownership of a currency results in a penalty for its owner, for example, by gradually reducing its value. The aim is often to improve the speed of circulation of money by discouraging long-term savings.

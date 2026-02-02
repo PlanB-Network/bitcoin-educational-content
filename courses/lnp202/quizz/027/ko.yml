@@ -1,0 +1,9 @@
+question: 부정 행위를 모니터링하기 위해 워치타워는 어떤 정보를 수신하나요?
+answer: 부정 거래의 일부 TXID
+wrong_answers:
+  - 비공개 채널 키
+  - 전체 채널 상태
+  - 부정 거래의 TXID
+explanation: |
+  감시탑은 부정 거래의 TXID 일부만 수신하여 채널을 몰라도 의심스러운 거래를 식별할 수 있습니다.
+reviewed: false

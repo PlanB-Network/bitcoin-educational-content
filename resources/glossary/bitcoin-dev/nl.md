@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
+definition: E-mail mailinglijst gewijd aan technische discussies over de ontwikkeling van het Bitcoin-protocol.
 ---
 
 E-mail mailinglijst gewijd aan de ontwikkeling van het Bitcoin protocol. Bitcoin-dev werd in 2011 opgericht door Jeff Garzik en aanvankelijk gehost op Sourceforge.net. De mailinglijst werd vervolgens verplaatst naar Linux Foundation, daarna naar Open Source Lab en ten slotte, sinds februari 2024, gehost op Google Groups: https://groups.google.com/g/bitcoindev

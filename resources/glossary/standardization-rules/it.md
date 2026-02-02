@@ -1,6 +1,7 @@
 ---
-term: REGOLE DI STANDARDIZZAZIONE
+term: Regole di standardizzazione
 
+definition: Regole locali che definiscono la struttura delle transazioni non confermate che un nodo accetta nella sua mempool.
 ---
 Le regole di standardizzazione sono adottate individualmente da ciascun nodo Bitcoin, oltre alle regole di consenso, per definire la struttura delle transazioni non confermate che accetta nella sua mempool e trasmette ai suoi pari. Queste regole sono quindi configurate ed eseguite localmente da ciascun nodo e possono variare da un nodo all'altro. Si applicano esclusivamente alle transazioni non confermate. Pertanto, un nodo accetterà una transazione che ritiene non standard solo se è già inclusa in un blocco valido.
 

@@ -1,5 +1,6 @@
 ---
-term: ZUIA
+term: Kitalu
+definition: Muundo wa data ulio na miamala iliyoidhinishwa na metadata, iliyounganishwa na vitalu vingine kwa hashi.
 ---
 
 Muundo wa data katika mfumo wa Bitcoin. Kizuizi kina seti ya miamala halali na metadata iliyo kwenye kichwa chake. Kila block imeunganishwa na inayofuata na Hash ya kichwa chake, na hivyo kutengeneza Blockchain. Blockchain hufanya kazi kama seva ya kuweka muhuri wa nyakati ambayo huruhusu kila mtumiaji kujua miamala yote ya awali, ili kuthibitisha kutokuwepo kwa muamala na kuzuia matumizi maradufu. Malipo yamepangwa katika Merkle Tree. Mkusanyiko huu wa kriptografia huruhusu utengenezaji wa digest ya shughuli zote kwenye block, inayoitwa "Merkle Root." Kichwa cha block kina 6 Elements:

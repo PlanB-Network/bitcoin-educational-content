@@ -1,5 +1,6 @@
 ---
 term: BIP0143
+definition: Algorithm mpya ya hashing kwa ajili ya sahihi za SegWit, kutatua ukuaji wa quadratic na ikiwa ni pamoja na thamani ya pembejeo.
 ---
 
 Inatanguliza njia mpya ya kuharakisha ununuzi kwa uthibitishaji sahihi katika hati za baada ya SegWit. Lengo ni kupunguza shughuli zisizohitajika wakati wa uthibitishaji na kujumuisha thamani ya UTXO katika ingizo katika sahihi. Hii inasuluhisha maswala mawili kuu na algorithm ya awali ya shughuli ya hashing:

@@ -1,0 +1,9 @@
+question: 라이트닝 노드와 모바일 클라이언트 간에 언급된 연결 방법 중 이 용도로 명시적으로 권장되지 않는 것은 무엇인가요?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet 연결
+  - 없음
+explanation: |
+  토르는 실제로 이러한 목적을 위해 매우 제대로 작동하지 않으며, 실패와 지연 시간으로 인해 사용자 경험이 좋지 않습니다.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition: BIP'lerin 4 kategoride sınıflandırılması Consensus, Peer Services, API/RPC ve Applications.
 ---
 
 Bitcoin iyileştirme tekliflerinin sınıflandırılması için yeni bir standartlaştırılmış süreç oluşturmaktadır. BIP'ler artık 4 kategoride sınıflandırılmalıdır:

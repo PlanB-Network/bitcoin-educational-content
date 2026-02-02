@@ -1,5 +1,6 @@
 ---
-term: 碎片
+term: 分片 (lightning)
+definition: 通过不同的 Lightning 路由（MPP/AMP）分别路由的一小部分付款。
 ---
 
 在*多路径支付（MPP）*或*原子多路径支付（AMP）*中，Shard是全局支付的一部分。每个 Shard 代表总付款的一部分，通过 Lightning 上的不同路径分别支付。

@@ -1,0 +1,9 @@
+question: Zašto LN+ nije pogodan za trgovce?
+answer: Značajna kapitalna ulaganja
+wrong_answers:
+  - Nedostatak pouzdanosti uključenih čvorova
+  - Nema sistema reputacije
+  - Kanali su previše mali
+explanation: |
+  Svaki primljeni sat koji se dobije zahteva da se blokira odlazni sat, što ograničava skalabilnost za poslovanje.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在 NWC 通訊協定中，應用程式和節點之間使用何種機制來傳輸請求？
+answer: Nostr 繼電器上的事件
+wrong_answers:
+  - 直接 REST 呼叫至 LND
+  - 點對點 VPN 連線
+  - 加密的 DNS 請求
+explanation: |
+  請求經過加密後，以事件的形式發佈在 Nostr 中繼器上，節點讀取該事件以執行動作。
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: OVERLAY
+term: Kerros
+definition: Bitcoinin päälle rakennettu protokolla, joka laajentaa sen ominaisuuksia, kuten Lightning-verkko.
 ---
 
 Bitcoin-pääverkon päälle rakennettu protokolla tai verkko. Se käyttää Bitcoin-verkkoa perustana ja on siksi riippuvainen sen protokollasta. Bitcoin-verkko ei kuitenkaan ole riippuvainen sen päällekkäisverkosta. Esimerkki tällaisesta päällekkäisverkosta on Lightning Network.

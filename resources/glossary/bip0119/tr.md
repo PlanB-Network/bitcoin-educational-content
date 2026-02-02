@@ -1,5 +1,6 @@
 ---
 term: BIP0119
+definition: Gelecekteki harcamalara koşullar getiren sözleşmelerin (covenants) oluşturulmasını sağlayan OP_CHECKTEMPLATEVERIFY (CTV) işlem kodu teklifi.
 ---
 
 OP_CHECKTEMPLATEVERIFY (CTV) adında yeni bir işlem kodu getirmektedir. CTV, gelecekteki işlemler de dahil olmak üzere, belirli bir Coin'nin nasıl harcanabileceğine ilişkin belirli koşullar getirmek için işlemlerde özyinelemeli olmayan sözleşmelerin oluşturulmasına izin verecektir. Daha somut olarak, girdi olarak harcanan UTXO'ün `scriptPubKey'ine dayalı olarak bir işlemin çıktılarının `scriptPubKey'i üzerinde koşulların tanımlanmasını sağlayacaktır. CheckTemplateVerify basit ve dinamik durum içermeyecek şekilde tasarlanmıştır. Uygulaması, işlem tıkanıklığı kontrolü, etkileşimli olmayan ödeme kanallarının oluşturulması, DLC'ler, ödeme havuzları gibi çeşitli uygulamaları kolaylaştırmak için Bitcoin'in komut dosyası oluşturma yeteneklerini genişletmeyi amaçlamaktadır. Bu yeni işlem kodu `OP_NOP4` yerine kullanılmaya başlanacaktır. Bu değişiklik bir Soft Fork anlamına gelecektir.

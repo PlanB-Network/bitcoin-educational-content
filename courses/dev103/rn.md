@@ -5031,12 +5031,13 @@ counter += 1 // same as counter = counter + 1
 Akira ivyo bikunze gukoreshwa cane:
 
 
-| Operator | Meaning             |
+
+| Ibimenyetso | Inyigisho |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | ongerako wongere uhebe |
+| `-=` | kurako wongere uhebe |
+| `*=` | gwiza wongere uhebe |
+| `/=` | gabura wongere uhebe |
 
 Ingero:
 
@@ -6524,36 +6525,36 @@ Aha ni akarorero ko kwandika kuri dosiye `target.txt` ukoresheje umugezi:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Ehe ivyo bishika:
 
 
-1. `fs.remaUmugeziWandika()` irema umugezi wandikwa.
+1. `fs.createWriteStream()` ikora umuvuduko ushobora kwandikwaho.
 
-2. Turayindikako umwandiko dukoresheje `.write()`.
+2. Twandikisha abahinyanyuzi b'ibirori `error` na `finish`.
 
-3. Iyo tumaze guheza, duhamagaye `.end()` kugira ngo dufunge umugezi.
+3. Twandikamo amajambo dukoresheje `.write()`.
 
-4. Iyo amakuru yose yanditswe, igikorwa ca `finish` kirasohoka.
+4. Iyo turahejeje, duhamagara `.end()` kugira twugarire umuvuduko.
 
-5. Iyo hari ikintu kigenda nabi, ikintu `ikosa` kiravyuka.
+5. Iyo amakuru yose yashizwe mu bubiko (buffered) yahejeje gusohoka no kwandikwa, ikirori `finish` kirasohoka. Iyo hagize ikigenda nabi, ikirori `error` kirasohoka.
 
 
 Nka kurya kw’imigende isomwa, imigende yandikwa ni myiza ku makuru manini kuko ntikeneye kugumiza vyose mu mutwe icarimwe.

@@ -1,5 +1,6 @@
 ---
-term: BCH-KOD
+term: BCH-kod
+definition: Felkorrigerande koder som används i Bech32- och Bech32m-adresser för att upptäcka inmatningsfel.
 ---
 
 En klass av felkorrigeringskoder som används för att upptäcka och korrigera fel i en datasekvens. Med andra ord används BCH-felkorrigeringskoder för att hitta och korrigera slumpmässiga fel i överförd information, för att säkerställa att den anländer intakt till sin destination. Akronymen "BCH" står för initialerna i namnen på uppfinnarna av dessa koder: Bose, Ray-Chaudhuri och Hocquenghem.

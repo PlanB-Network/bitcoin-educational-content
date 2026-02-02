@@ -1,5 +1,6 @@
 ---
-term: PATHFINDING
+term: Pathfinding
+definition: Prosessi, jolla määritetään optimaalinen reitti maksun välittämiseksi Lightning-verkossa.
 ---
 
 Prosessi, jota solmu käyttää määrittääkseen optimaalisen reitin maksun reitittämiseksi Lightning-kanavaverkon kautta. Polunmäärityksen suorittaa maksajan solmu, jonka on valittava sopivimmat välityssolmut vastaanottajan tavoittamiseksi. Tämä valinta perustuu useisiin kriteereihin, kuten maksuihin, kanavakapasiteettiin ja aikarajoihin.

@@ -1,5 +1,6 @@
 ---
 term: PAIR-À-PAIR (P2P)
+definition: Modèle de communication où les participants échangent directement sans intermédiaire centralisé.
 ---
 
 Fait référence à un modèle de communication et de distribution de données dans lequel les participants, souvent appelés nœuds ou pairs, partagent leurs ressources (comme des fichiers, de la puissance de traitement, de la bande passante, des actifs…) directement entre eux, sans nécessiter d'intermédiaire centralisé. Dans un système P2P, chaque participant agit simultanément comme client (consommateur de ressources) et serveur (fournisseur de ressources).

@@ -255,12 +255,13 @@ be-BOP umożliwia przyjmowanie płatności Bitcoin bezpośrednio na Blockchain (
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Pole                  | Opis                                               | Przykład do Użytku                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **Standard BIP**       | Typ używanego adresowania                               | BIP84 (dla adresów w formacie bech32 zaczynających się od `bc1`) |
+| **Rozszerzony Klucz Publiczny** | Twój Zpub (lub Xpub w zależności od używanego portfela)        | `zpub...` (wyodrębniony z Twojego portfela Bitcoin) |
+| **Derivation Index**   | Indeks początkowy do generowania adresów         | `1`                                              |
+| **Adres URL Mempool**        | Adres URL usługi mempool używanej do śledzenia transakcji | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -849,12 +850,13 @@ Ta sekcja określa **gdzie** i **jak** produkt może być oglądany i kupowany:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platforma        | Produkt Widoczny | Możliwy do Dodania do Koszyka |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (strona publiczna)        | ✔️              | ✔️                  |
+| Retail POS (punkt sprzedaży)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (sprzedaż przez bota)  | ✔️              | ✔️                  |
 
 Zaznacz tylko te kanały, których chcesz używać.
 
@@ -1024,14 +1026,15 @@ Używaj **kodów skrótów** w treści stron CMS:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Cel                 | Tag do Wstawienia                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Wyświetl produkt      | `[Product=slug?display=img-1]`        |
+| Wyświetl obraz       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Zintegruj suwak       | `[Slider=slug?autoplay=3000]`         |
+| Dodaj wyzwanie     | `[Challenge=slug]`                    |
+| Dodaj odliczanie | `[Countdown=slug]`                 |
+| Zintegruj formularz   | `[Form=slug]`                         |
 
 **Aktualne parametry**:
 
@@ -1813,14 +1816,15 @@ Plakat:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funkcja                         | Opis                                             |
+|----------------------------------|---------------------------------------------------------|
+| Rola POS                         | Przypisana za pośrednictwem ARM                                         |
+| Interfejs główny             | `/pos` lub `/pos/touch`                                 |
+| Wyświetlacz klienta (ekran 2)       | `/pos/session`                                         |
+| Płatność                         | Gotówka, karta, Lightning itp.                         |
+| Dodanie produktu                    | Alias lub skanowanie kodu kreskowego                              |
+| Rabaty / VAT                    | Z obowiązkowym uzasadnieniem zarządczym              |
 
 Dziękujemy za uważne śledzenie tego samouczka.

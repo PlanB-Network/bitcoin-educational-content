@@ -1,0 +1,10 @@
+question: On which online stock exchange did Erik Voorhees carry out an informal IPO in August 2012 to grow the SatoshiDICE online casino?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx was the platform managed by Mircea Popescu and launched a few months earlier. Erik Voorhees issued 100 million shares (with the stock symbol S.DICE) and 
+ sold 10 to raise 34,500 bitcoins, or around $372,000.
+reviewed: true

@@ -1,6 +1,7 @@
 ---
-term: PEER DISCOVERY
+term: Khám phá nút
 
+definition: Quá trình một nút Bitcoin khám phá và kết nối với các nút khác trong mạng lưới.
 ---
 The process by which nodes in the Bitcoin network connect to other nodes to obtain information. When a Bitcoin node is first launched, it has no information about other nodes in the network. Yet, it must establish connections to synchronize with the blockchain that has the most accumulated work. Several mechanisms are used to discover these peers, in order of priority:
 

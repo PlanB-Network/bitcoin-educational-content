@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WSH
+definition: SegWit-script (P2WSH) verpakt in P2SH voor compatibiliteit, adressen beginnen met 3.
 ---
 
 P2SH-P2WSH staat voor *Betalen aan Script Hash - Betalen aan Getuige Script Hash*. Het is een standaard scriptmodel dat gebruikt wordt om bestedingsvoorwaarden vast te stellen op een UTXO, ook bekend als "Geneste SegWit".

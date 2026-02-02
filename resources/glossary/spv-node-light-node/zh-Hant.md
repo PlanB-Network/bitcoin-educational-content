@@ -1,5 +1,6 @@
 ---
-term: spv 節點 (光節點)
+term: SPV節點 (輕節點)
+definition: 僅通過存儲區塊頭並驗證 Merkle 證明來驗證交易的輕客戶端。
 ---
 
 SPV (*Simple Payment Verification*) 節點有時也稱為 「light 節點」，是 Bitcoin 節點的輕量級用戶端，可讓使用者驗證交易，而無需儲存整個 Blockchain。相反，SPV 節點只儲存區塊標頭，並在必要時透過查詢完整節點來取得特定交易的資訊。Bitcoin 區塊中的交易結構使此驗證原則成為可能，該區塊組織在加密累加器 (Merkle Tree) 中。

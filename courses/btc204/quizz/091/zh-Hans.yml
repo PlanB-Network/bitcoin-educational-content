@@ -1,6 +1,6 @@
-question: 为什么建议在coinjoin周期后不要合并多个UTXO？
+question: 为什么建议在混币周期后不要合并多个 UTXO？
 
-answer: 这可能会因为CIOH而危害隐私。
+answer: 这可能会因为 CIOH 而危害隐私。
 
 wrong_answers:
   - 它会降低交易速度。
@@ -8,4 +8,4 @@ wrong_answers:
   - 这可能会因为轮次支付启发式而危害隐私。
 
 explanation: |
-  避免在同一交易中合并已混币的UTXO和未混币的UTXO非常重要，但也要避免UTXO之间的相互混合，以避免共同输入所有权启发式（CIOH）。
+  避免在同一交易中合并已混币的 UTXO 和未混币的 UTXO 非常重要，但也要避免 UTXO 之间的相互混合，以避免共同输入所有权启发式（CIOH）。

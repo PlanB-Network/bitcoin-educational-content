@@ -1,5 +1,6 @@
 ---
-term: TRAO ĐỔI TIỀN
+term: Coinswap
+definition: Giao thức hoán đổi nguyên tử (atomic swap) quyền sở hữu bitcoin giữa các người dùng thông qua hợp đồng thông minh.
 ---
 
 Giao thức chuyển giao bí mật Ownership giữa những người dùng. Phương pháp này nhằm mục đích chuyển giao quyền sở hữu bitcoin từ người này sang người khác và ngược lại, mà không cần Exchange này phải hiển thị rõ ràng trên Blockchain. Coinwap sử dụng hợp đồng thông minh để thực hiện chuyển giao mà không cần sự tin tưởng giữa các bên.

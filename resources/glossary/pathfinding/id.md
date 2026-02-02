@@ -1,5 +1,6 @@
 ---
-term: PATHFINDING
+term: Pathfinding
+definition: Proses menentukan jalur optimal untuk merutekan pembayaran di Jaringan Lightning.
 ---
 
 Proses yang digunakan oleh node untuk menentukan jalur optimal untuk merutekan pembayaran melalui jaringan saluran Lightning. Pencarian jalur dilakukan oleh node pembayar, yang harus memilih node perantara yang paling sesuai untuk mencapai penerima. Pilihan ini didasarkan pada sejumlah kriteria, seperti biaya, kapasitas saluran, dan batas waktu.

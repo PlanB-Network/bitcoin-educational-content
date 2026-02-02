@@ -1,0 +1,9 @@
+question: Mikä on taloudellinen riski, kun kyseessä on Lightning wallet?
+answer: Osittainen varaus
+wrong_answers:
+  - mining-maksujen mielivaltainen korotus
+  - 51% hyökkäys
+  - Karhumarkkinoiden lopullinen pysähtyminen
+explanation: |
+  Käyttäjä ei te tarkistaa, että näytetyt saldot todella vastaavat hallussaan olevia bitcoineja. Näin ollen on olemassa murtovarantoriski.
+reviewed: false

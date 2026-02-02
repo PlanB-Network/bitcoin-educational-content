@@ -1,6 +1,7 @@
 ---
-term: SCRIPTSIG
+term: Scriptsig
 
+definition: Elemento de entrada que proporciona los datos para satisfacer las condiciones del scriptPubKey.
 ---
 Elemento de una transacción Bitcoin situado en las entradas. El `scriptSig` proporciona los datos necesarios para satisfacer las condiciones establecidas por el `scriptPubKey` de la transacción anterior de la que se están gastando fondos. Por tanto, desempeña un papel complementario al de la `scriptPubKey`. Normalmente, el `scriptSig` contiene una firma digital y una clave pública. La firma la genera el propietario de los bitcoins utilizando su clave privada y demuestra que tiene autorización para gastar los UTXO. En este caso, el `scriptSig` demuestra que el titular de la entrada posee la clave privada correspondiente a la clave pública asociada a la dirección especificada en el `scriptPubKey` de la transacción saliente anterior.
 
@@ -18,6 +19,6 @@ La `scriptPubKey` correspondiente sería:
 OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
-![](../../dictionnaire/assets/35.webp)
+
 
 > ► *El `scriptSig` también se llama a veces `script de desbloqueo` en inglés*

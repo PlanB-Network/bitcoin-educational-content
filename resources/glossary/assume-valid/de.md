@@ -1,6 +1,7 @@
 ---
-term: GÜLTIG ANNEHMEN
+term: Assume valid
 
+definition: Ein Bitcoin Core-Parameter, der das Überspringen der Signaturüberprüfung für Blöcke vor einem bestimmten Punkt ermöglicht und die anfängliche Synchronisierung beschleunigt.
 ---
 Konfigurationsparameter im Mehrheits-Client Bitcoin Core, der es einem Knoten, der gerade initialisiert wurde (aber noch keine IBD durchgeführt hat), ermöglicht, die Überprüfung der Signaturen für alle Transaktionen zu überspringen, die in Blöcken vor einem bestimmten Block enthalten sind. Dieser berühmte Block wird durch den Aufdruck seines Headers, d.h. seinen Hash, definiert. Der ausgewählte Block wird mit jeder neuen Version von Bitcoin Core erneuert. Wenn der Knoten bei seiner Initialisierung diesen Parameter aktiviert hat, prüft er daher die Block-Header-Kette, um den Zweig mit der meisten angesammelten Arbeit zu finden. Wenn der Knoten den von Core bereitgestellten Hash in dem von ihm gewählten Zweig findet, unterlässt er die Überprüfung der Signaturen für die vorangehenden Blöcke. Andernfalls fährt der Knoten mit einer herkömmlichen Synchronisierung (IBD) fort, um alles selbst zu überprüfen.
 

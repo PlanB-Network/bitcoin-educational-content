@@ -1,6 +1,7 @@
 ---
-term: TEMPORAL MODELL
+term: Temporal modell
 
+definition: Analyse av tidspunkter for kringkasting av transaksjoner for å utlede arten eller plasseringen til en on-chain-enhet.
 ---
 Visse menneskelige atferdsmønstre er gjenkjennelige i kjeden. Det kanskje mest nyttige i kjedeanalyse er søvnmønsteret ditt! Ja, når du sover, sender du antageligvis ikke Bitcoin-transaksjoner. Vanligvis sover du rundt de samme timene. Derfor brukes ofte tidsmessige analyser i kjedeanalyse. Det innebærer ganske enkelt å registrere tidspunktene for når en gitt enhets transaksjoner sendes til Bitcoin-nettverket. Ved å analysere disse tidsmønstrene kan vi utlede en rekke opplysninger.
 

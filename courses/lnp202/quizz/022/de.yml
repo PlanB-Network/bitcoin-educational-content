@@ -1,0 +1,9 @@
+question: Was kann der LND seed selbständig wiederherstellen?
+answer: Die Onchain wallet
+wrong_answers:
+  - Offene Kanäle
+  - Kanalzustände
+  - Nichts
+explanation: |
+  Der seed ruft den Bitcoin auf der Kette wallet ab, aber nicht die aktiven Lightning-Kanäle.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo muri RGB butuma amahinduka menshi ashobora gushirwa hamwe mu gikorwa kimwe ca Bitcoin?
-answer: Transition Bundle.
+question: Ni ubuhe buryo muri RGB butuma amahinduka menshi ashobora gushirwa hamwe mwihanahanwa rimwe rya Bitcoin?
+answer: Umutekero w'ihinduka.
 wrong_answers:
-  - Seal Gukoranya
-  - Igiti kinini-Commitment
-  - Ugushiramwo Leta
+  - Gushira hamwe ama Serire
+  - Igiti c'ukwiyemeza incuro nyinshi
+  - Uguhindura uko vyari bimeze
 explanation: |
-  Transition Bundle ni umugwi w'Impinduka za Leta za RGB (ziri muri Contract imwe) zose ziri muri Bitcoin Witness Transaction imwe.
-reviewed: false
+  Umutekero w'uko bimeze ni umugwi w'Impinduka za Leta za RGB (bikaba biri mumasezerano amwe) zose ziri mukwiyemeza kw'ihanahanwa rya Bitcoin rimwe .
+reviewed: true

@@ -1,7 +1,7 @@
 question: Коя е основната алтернатива на Bitcoin Core?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Парични средства
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

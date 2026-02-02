@@ -1,0 +1,9 @@
+question: Milline lahendus pakub Lightningi kasutajatele kõige suuremat suveräänsust?
+answer: Klassikaline välgussõlm
+wrong_answers:
+  - Wallet koos aatomivahetusega
+  - Pardal olev LN sõlmpunkt
+  - Hooldusvalgustus wallet
+explanation: |
+  Klassikaline sõlmpunkt pakub täielikku kontrolli kanalite, likviidsuse ja tasupoliitika üle. See on ainus, mis võimaldab teil olla tõeliselt sõltumatu.
+reviewed: false

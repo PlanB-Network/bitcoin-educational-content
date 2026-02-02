@@ -1,6 +1,7 @@
 ---
 term: BIP0038
 
+definition: Standard pro šifrování soukromých klíčů Bitcoinu pomocí hesla, používaný zejména k zabezpečení papírových peněženek.
 ---
 Návrh na vylepšení bitcoinu, který zavádí šifrovací mechanismus pro přidání dodatečné ochrany soukromých klíčů prostřednictvím přístupové fráze. BIP38 zajišťuje, že i když třetí strana fyzicky získá zašifrovaný soukromý klíč, nemůže jej použít bez znalosti jeho passphrase. To přidává další vrstvu zabezpečení, která chrání bitcoiny před krádeží, zejména pro zabezpečení starých papírových peněženek.
 

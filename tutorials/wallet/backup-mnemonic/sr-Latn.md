@@ -1,5 +1,5 @@
 ---
-name: Sačuvaj svoju Mnemonic frazu
+name: Sačuvati svoju mnemoničku frazu
 description: Otkrijte najbolje prakse za zaštitu vašeg Bitcoin Wallet
 ---
 ![cover](assets/cover.webp)

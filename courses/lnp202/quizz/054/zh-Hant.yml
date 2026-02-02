@@ -1,0 +1,9 @@
+question: 在 Lightning 節點和行動用戶端之間提到的連接方法中，哪一種方法明確不建議用於此用途？
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet 連接
+  - 無
+explanation: |
+  Tor 在這方面的實際運作很差，故障和延遲會造成很差的使用者體驗。
+reviewed: false

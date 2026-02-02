@@ -1,8 +1,9 @@
-question: Ni iciyumviro ikihe citwa ubuhinga bwa Montaigne?
-answer: Exchange ni umukino w'umubare wa zero
+question: Ni iciyumviro cafashwe nk'ubuhinga bwa Montaigne(Montaigne's sophism)?
+answer: Uguhanahana ni umukino w'igiharuro(inyishu) y'ubusa
 wrong_answers:
-  - Exchange ni umukino w'umubare mwiza
-  - Bivanye n’igihe n’ahantu, Exchange rimwe na rimwe ni umukino w’umubare zero, rimwe na rimwe ni umukino w’umubare mwiza .
-  - Exchange yama ari mbi ku ruhande rugoyagoya
+  - Uguhanahana ni umukino w'inyishu nziza
+  - Bivanye n’igihe n’ahantu, uguhanahana rimwe na rimwe ni umukino w’inyishu ubusa, rimwe na rimwe ni umukino w’inyishu nziza.
+  - Uguhanahana kwama ari kubi ku ruhande rugoyagoya
 explanation: |
-  Iciyumviro ca Montaigne ni iciyumviro c’uko Exchange ari umukino w’umubare zero, ni ukuvuga ivyo umwe aronka, uwundi aratakaza. Ico ciyumviro ni ikinyoma, kuko Exchange y’ubushake irafitiye akamaro bose.
+  Iciyumviro ca Montaigne ni iciyumviro c’uko uguhanahana ari umukino w’inyishu ubusa, ni ukuvuga ivyo umwe aronka, uwundi aratakaza. Ico ciyumviro ni ikinyoma, kuko uguhanahana k'ubushake irafitiye akamaro bose.
+reviewed: true

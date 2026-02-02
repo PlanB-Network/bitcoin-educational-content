@@ -1,0 +1,9 @@
+question: Quais são as condições para que uma sanção relâmpago seja eficaz?
+answer: Deteção antes do fim do bloqueio de tempo
+wrong_answers:
+  - Deteção antes do início do bloqueio de tempo
+  - Deteção de batota TX antes do lançamento
+  - Deteção após o fim do bloqueio de tempo
+explanation: |
+  A transação de justiça tem de ser libertada antes de expirar o tempo de bloqueio para sancionar a batota. Não pode ser libertada antes do início do período de tempo ou da publicação do TX, pois isso significaria que a batota simplesmente não ocorreu.
+reviewed: false

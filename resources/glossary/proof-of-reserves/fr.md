@@ -1,5 +1,6 @@
 ---
-term: PREUVE DE RÉSERVES
+term: Preuve de réserves
+definition: Mécanisme permettant aux plateformes d'échange de prouver qu'elles détiennent les bitcoins de leurs clients.
 ---
 
 Mécanisme utilisé par les plateformes d'échanges de bitcoins pour démontrer qu'elles détiennent bien les actifs de leurs clients. Le but recherché est de prouver la solvabilité de l'entreprise en vérifiant que ses bitcoins sont équivalents ou supérieurs aux soldes des utilisateurs qu'ils sont censés détenir.

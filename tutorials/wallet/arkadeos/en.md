@@ -275,14 +275,15 @@ To put Arkade in the right context, let's summarize its current strengths and we
 To better understand Arkade's positioning, let's compare it to the other two major scalability solutions.
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Criterion | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Model** | Shared UTXO coordinated by server (ASP) | P2P network of payment channels | Blind tokens issued by a bank (Mint) |
+| **Custody** | **Non-custodial** (you hold the keys) | **Non-custodial** (you hold the keys) | **Custodial** (the Mint holds the funds) |
+| **Privacy** | **High** (Native CoinJoin, blind to the public) | **Medium** (Onion routing, but channels are visible) | **Very High** (Blind even to the Mint) |
+| **Scalability** | Excellent (Massive on-chain batching) | Excellent (Infinite off-chain transactions) | Excellent (Simple server signatures) |
+| **Experience** | Simple (close to an on-chain wallet) | Complex (channel management, liquidity) | Very simple (like digital cash) |
+| **Main risk** | ASP availability & Expiration | Channel management & Backups | Trust in the Mint (risk of theft) |
 
 **Arkade** is the ideal compromise: the simplicity and confidentiality of Cashu, but with the sovereignty (non-custodial) of Lightning.
 

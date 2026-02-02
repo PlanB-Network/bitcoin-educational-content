@@ -1,8 +1,9 @@
-question: Ni ikihe kigereranyo kigereranya urufatiro rwabuze hagati ya Boisguilbert n’aba Fiziyokarate?
-answer: Vinsenti de Gournay
+question: Ni ikihe kigereranyo kigereranya ihuriro ribuze hagati ya Boisguilbert n’aba Physiocrats?
+answer: Vincent de Gournay
 wrong_answers:
   - Voltaire
   - Turgot
-  - Kolbert
+  - Colbert
 explanation: |
-  Vincent de Gournay yaragize ico akoze kuri Boisguilbert no ku ba Physiocrates, akwiragiza ivyiyumviro vy’ubwigenge yongera anegura ukuntu Leta yinjira mu bukungu birenze urugero.
+  Vincent de Gournay yaragize ico akoze kuri Boisguilbert no ku ba Physiocrats, akwiragiza ivyiyumviro vy’ubwigenge yongera anegura ukuntu Leta yinjira mu bijanye n'ubutunzi birenze urugero .
+reviewed: true

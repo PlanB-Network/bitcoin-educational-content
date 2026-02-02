@@ -1,0 +1,9 @@
+question: Která základní vlastnost Bitcoin se ztrácí v opatrovnictví?
+answer: Měnová suverenita
+wrong_answers:
+  - Měnová škálovatelnost
+  - Rychlá platba
+  - Měnová interoperabilita
+explanation: |
+  Bez kontroly klíčů se uživatel vzdává měnové suverenity, která je hlavním pilířem Bitcoin.
+reviewed: false

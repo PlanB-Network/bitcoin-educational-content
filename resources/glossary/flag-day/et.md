@@ -1,6 +1,7 @@
 ---
-term: LIPPUPÄEV
+term: Flag day
 
+definition: Soft fork'i aktiveerimise meetod, mis määrab uute reeglite kasutuselevõtuks tähtaja.
 ---
 Bitcoini algusaastatel kasutatud pehme kahvli aktiveerimise meetod. See protsess määrab lihtsalt tähtaja, mida nimetatakse "lipupäevaks", enne mida peab kogu võrk protokolli uuenduse vastu võtma. See lähenemisviis on lihtne: pärast seda kuupäeva peavad sõlmed ja kaevandajad olema oma tarkvara uuendatud, et see vastaks uutele reeglitele, vastasel juhul on oht, et nad satuvad ühildumatusse ahelasse.
 

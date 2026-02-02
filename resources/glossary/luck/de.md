@@ -1,6 +1,7 @@
 ---
-term: LUCK
+term: Luck
 
+definition: Ein Indikator, der die Leistung eines Mining-Pools im Vergleich zu den theoretischen Erwartungen misst.
 ---
 Ein Indikator, der in Mining-Pools verwendet wird, um die Leistung eines Pools im Vergleich zu seinen theoretischen Erwartungen zu messen. Wie der Name schon sagt, bewertet er das Glück des Pools beim Finden eines Blocks. Das Glück wird berechnet, indem die Anzahl der Anteile, die theoretisch benötigt werden, um einen gültigen Block zu finden, basierend auf der aktuellen Schwierigkeit von Bitcoin, mit der tatsächlichen Anzahl der Anteile verglichen wird, die produziert wurden, um diesen Block zu finden. Eine geringere Anzahl von Anteilen als erwartet deutet auf Glück hin, während eine höhere Anzahl auf Pech hinweist.
 

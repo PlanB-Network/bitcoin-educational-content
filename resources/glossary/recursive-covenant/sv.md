@@ -1,5 +1,6 @@
 ---
-term: REKURSIV (FÖRBUND)
+term: Rekursiv (covenant)
+definition: Covenant som ställer villkor för den aktuella transaktionen och alla efterföljande transaktioner på obestämd tid.
 ---
 
 Ett rekursivt avtal på Bitcoin är en typ av Smart contract som ställer villkor inte bara på den aktuella transaktionen utan även på framtida transaktioner som spenderar utdata från denna transaktion. Detta gör det möjligt att skapa transaktionskedjor där varje transaktion måste följa vissa regler som definieras av den första i kedjan. Rekursivitet skapar en sekvens av transaktioner där var och en ärver restriktionerna från sin föräldratransaktion. Detta skulle möjliggöra komplex och långsiktig kontroll över hur bitcoins kan spenderas, men det skulle också medföra risker avseende spenderingsfrihet och fungibilitet.

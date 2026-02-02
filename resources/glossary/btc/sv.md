@@ -1,5 +1,6 @@
 ---
 term: BTC
+definition: Tickersymbol som representerar en enhet bitcoin, motsvarande 100 miljoner satoshi.
 ---
 
 Aktie- eller valutasymbol (*ticker*) som används för att representera en enhet av Bitcoin på Exchange-plattformar. Den används för att snabbt identifiera Bitcoin bland andra tillgångar och valutor. En enhet av Bitcoin (1 BTC) är lika med 100 000 000 satoshis (eller "Sats").

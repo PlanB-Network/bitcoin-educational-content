@@ -10,7 +10,7 @@ description: Sanidi LN VPN na Lightning kwa VPN isiyojulikana na ya kubinafsishw
 LN VPN ni huduma ya VPN inayoweza kubinafsishwa ambayo inakubali malipo ya Lightning pekee. Leo, nitakuonyesha jinsi ya kuitumia na kuacha alama chache wakati wa kuvinjari miingiliano.
 
 
-Kuna watoa huduma wengi wa ubora wa VPN, na tumefanya mapitio ya kina katika makala hii (hyperlink). Hata hivyo, LN VPN ni ya kipekee, na hatukuweza kukosa fursa ya kuitambulisha kwako.
+Kuna watoa huduma wengi wa ubora wa VPN, lakini LN VPN ni ya kipekee, na hatukuweza kukosa fursa ya kuitambulisha kwako.
 
 
 Watoa huduma wengi wa VPN kama ProtonVPN na Mullvad hutoa chaguo la kulipa kwa bitcoins lakini wanahitaji kuunda akaunti na kununua mpango kwa muda mrefu au mfupi, ambao unaweza kutoshea bajeti ya kila mtu.

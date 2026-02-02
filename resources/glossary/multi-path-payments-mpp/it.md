@@ -1,5 +1,6 @@
 ---
-term: PAGAMENTI MULTIPERCORSO (MPP)
+term: Multi-path payments (MPP)
+definition: Tecnica Lightning che divide un pagamento in più parti instradate attraverso percorsi diversi.
 ---
 
 Termine generico per tutte le tecniche di pagamento su Lightning che consentono di suddividere una transazione in più parti e di instradarla attraverso percorsi diversi. In altre parole, ogni frazione di pagamento segue un percorso diverso del nodo. In questo modo è possibile aggirare le limitazioni di liquidità su un singolo canale del percorso.

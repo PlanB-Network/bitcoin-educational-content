@@ -372,14 +372,15 @@ Thoát đơn phương là một **bảo đảm mật mã cơ bản** của giao 
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Tiêu chí | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Mô hình** | UTXO chung được điều phối bởi máy chủ (ASP) | Mạng lưới P2P của các kênh thanh toán | Token mù được phát hành bởi ngân hàng (Mint) |
+| **Lưu ký** | **Không lưu ký** (bạn giữ khóa) | **Không lưu ký** (bạn giữ khóa) | **Lưu ký** (Mint giữ tiền) |
+| **Quyền riêng tư** | **Cao** (CoinJoin gốc, ẩn danh với công chúng) | **Trung bình** (Định tuyến hành tây, nhưng các kênh hiển thị) | **Rất Cao** (Ẩn danh ngay cả với Mint) |
+| **Khả năng mở rộng** | Tuyệt vời (Batching hàng loạt on-chain) | Tuyệt vời (Giao dịch vô hạn off-chain) | Tuyệt vời (Chữ ký máy chủ đơn giản) |
+| **Trải nghiệm** | Đơn giản (gần giống ví on-chain) | Phức tạp (quản lý kênh, thanh khoản) | Rất đơn giản (giống như tiền mặt kỹ thuật số) |
+| **Rủi ro chính** | Tính khả dụng của ASP & Hết hạn | Quản lý kênh & Sao lưu | Tin tưởng vào Mint (rủi ro mất cắp) |
 
 **Arkade** là sự thỏa hiệp lý tưởng: sự đơn giản và tính bảo mật của Cashu, nhưng có chủ quyền (không giám sát) của Lightning.
 

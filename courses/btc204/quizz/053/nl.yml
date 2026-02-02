@@ -1,10 +1,10 @@
-question: Wat is het doel van labels in Stille Betalingen?
+question: Wat is het doel van labels in Silent Payments?
 answer: Meerdere verschillende statische adressen gebruiken zonder de scanwerklast onredelijk te verhogen.
 wrong_answers:
   - Silent Payments-transacties versleutelen om de echte ontvanger van de transactie te verbergen.
   - Om meerdere verschillende statische adressen te gebruiken die niet gekoppeld kunnen worden door een externe waarnemer.
-  - Een zichtbaar label op de Blockchain plaatsen om Stille Betalingen te identificeren als een betalingskenmerk.
+  - Een zichtbaar label op de blockchain plaatsen om Silent Payments te identificeren als een betalingskenmerk.
 explanation: |
-  Labels worden gebruikt om generate meerdere statische adressen te scheiden van de hoofdstatische Address, wat de organisatie van Wallet vergemakkelijkt. Een externe waarnemer kan echter gemakkelijk een link leggen tussen deze gelabelde statische adressen, aangezien de publieke sleutel van de scan voor allemaal hetzelfde is.
+  Labels worden gebruikt om meerdere statische adressen te scheiden van het hoofdstatisch-adres, wat de organisatie van de wallet vergemakkelijkt. Een externe waarnemer kan echter gemakkelijk een link leggen tussen deze gelabelde statische adressen, aangezien de publieke sleutel van de scan voor allemaal hetzelfde is.
   
 reviewed: false

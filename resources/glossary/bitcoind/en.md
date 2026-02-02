@@ -1,5 +1,6 @@
 ---
-term: BITCOIND
+term: bitcoind
+definition: Bitcoin Daemon, a command-line program for running a Bitcoin node and interacting via RPC.
 ---
 
 Acronym for "*Bitcoin Daemon*". 

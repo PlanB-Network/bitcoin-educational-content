@@ -75,17 +75,18 @@ Below is a table summarizing the general technical specifications of the Nano 3S
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Ominaisuus                                      | Arvo                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hashrate                                      | 6 Th/s +- 5%                                            |
+| Virrankulutus                               | 140 W                                                   |
+| Melu                                                | 30 - 40 dB                                              |
+| Lähtöilman lämpötila-alue                 | 60-70°C (ympäristön lämpötilassa 25°C)                |
+| Ympäristön lämpötilan vaatimukset käyttöä varten | -5 - 30°C                                            |
+| Laitteen tulojännitealue                         | 28V 5A jatkuva                                          |
+| Sovittimen tulojännitealue                       | 110-240V AC 50/60Hz                                     |
+| Laitteen koko                                 | Pituus: 205 mm / Leveys: 115 mm / Korkeus: 58.5 mm |
+| Laitteen paino                                  | 0.86 kg                                                 |
 
 ## Powering up and connecting to the local network
 

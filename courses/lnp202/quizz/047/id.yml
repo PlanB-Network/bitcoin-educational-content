@@ -1,0 +1,9 @@
+question: Mengapa LN+ tidak cocok untuk pedagang?
+answer: Investasi modal yang substansial
+wrong_answers:
+  - Kurangnya keandalan node yang terlibat
+  - Tidak ada sistem reputasi
+  - Saluran terlalu kecil
+explanation: |
+  Setiap sat masuk yang diperoleh membutuhkan sat keluar untuk diblokir, yang membatasi skalabilitas bisnis.
+reviewed: false

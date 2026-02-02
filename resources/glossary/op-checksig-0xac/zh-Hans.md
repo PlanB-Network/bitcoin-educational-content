@@ -1,5 +1,6 @@
 ---
-term: OP_CHECKSIG (0xAC)
+term: OP_CHECKSIG (0XAC)
 
+definition: 验证签名相对于公钥的有效性的操作码。
 ---
 根据给定的公钥验证签名的有效性。它从堆栈中提取最上面的两个元素：签名和公钥，并验证签名对于交易哈希值和指定的公钥是否正确。如果验证成功，则向堆栈推入值 `1`（true），否则推入值 `0`（false）。Tapscript 修改了此操作码，以验证 Schnorr 签名。

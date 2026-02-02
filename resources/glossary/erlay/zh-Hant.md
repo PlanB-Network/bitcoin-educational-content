@@ -1,5 +1,6 @@
 ---
-term: ERLAY
+term: Erlay
+definition: 提高交易中繼效率以減少頻寬消耗的協定。
 ---
 
 建議的網路協定，可提高 Bitcoin 節點間未確認交易的轉接效率。

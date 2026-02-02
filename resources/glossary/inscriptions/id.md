@@ -1,6 +1,7 @@
 ---
-term: INSCRIPTION
+term: Inscriptions
 
+definition: Konten arbitrer yang diukir pada satoshi melalui protokol Ordinals, menciptakan artefak digital.
 ---
 Dalam konteks Teori Ordinals, _inscription_ adalah konten arbitrer yang diukir pada satoshi, yang mengubahnya menjadi artefak digital Bitcoin asli. _Inscription_ dibuat melalui transaksi yang mengekspos konten informasi dalam skrip input Taproot dengan cara ini:
 

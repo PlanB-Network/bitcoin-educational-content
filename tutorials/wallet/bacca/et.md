@@ -98,7 +98,7 @@ Nüüd on teil juurdepääs tarkvaraliidesele.
 
 Kui teie Ledger on uus, veenduge enne alustamist, et olete seadistanud PIN-koodi ja salvestanud taastamislauset. Nende esialgsete sammude jaoks ei ole teil vaja Ledger Live'i. Lihtsalt ühendage oma Ledger USB-kaabli kaudu, et see saaks voolu. Kui te ei ole kindel, kuidas nende kahe sammuga edasi minna, võite vaadata oma mudelile vastava õpetuse algust:
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

@@ -1075,6 +1075,10 @@ Nous avons vu que la gestion de la liquidité est un défi sur Lightning pour as
 
 Je tiens à remercier chacun d’entre vous pour votre intérêt, votre soutien et vos questions au fil de cette série. À l’origine, mon idée était de créer du contenu francophone autour des aspects techniques de Lightning, face au manque de ressources disponibles. C’était un défi personnel que je souhaitais relever en combinant rigueur technique et accessibilité. Si cette formation gratuite vous a plu, n'hésitez pas à la noter dans la section "_Évaluez ce cours_" et à la partager à vos proches et sur vos réseaux sociaux.
 
+Maintenant que vous avez compris le fonctionnement théorique du Lightning Network, vous pouvez passer à la pratique et mettre en place votre premier nœud Lightning afin de gagner en autonomie dans votre utilisation. Pour cela, suivez le cours LNP 202 :
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 Merci, à très bientôt !
 
 ### Bonus : Interview de Fanis

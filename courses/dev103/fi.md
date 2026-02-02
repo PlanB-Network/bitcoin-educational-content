@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Tässä ovat yleisimmät:
 
 
-| Operator | Meaning             |
+
+| Operaattori | Merkitys |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | lisää ja sijoita |
+| `-=` | vähennä ja sijoita |
+| `*=` | kerro ja sijoita |
+| `/=` | jaa ja sijoita |
 
 Esimerkkejä:
 
@@ -6517,21 +6518,21 @@ Tässä on esimerkki kirjoittamisesta `target.txt`-tiedostoon streamia käyttäe
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
@@ -6540,13 +6541,13 @@ Näin tapahtuu:
 
 1. `fs.createWriteStream()` luo kirjoitettavan virran.
 
-2. Kirjoitamme siihen tekstiä käyttämällä `.write()`.
+2. Rekisteröimme käsittelijät `error`- ja `finish`-tapahtumille.
 
-3. Kun olemme valmiit, kutsumme `.end()` sulkeaksemme virran.
+3. Kirjoitamme siihen tekstiä käyttämällä `.write()`-metodia.
 
-4. Kun kaikki tiedot on kirjoitettu, lähetetään tapahtuma "finish".
+4. Kun olemme valmiita, kutsumme `.end()`-metodia sulkeaksemme virran.
 
-5. Jos jokin menee pieleen, käynnistyy `error`-tapahtuma.
+5. Kun kaikki puskuroitu data on tyhjennetty ja kirjoitettu, `finish`-tapahtuma lähetetään. Jos jotain menee vikaan, `error`-tapahtuma lähetetään.
 
 
 Samoin kuin luettavissa olevat, myös kirjoitettavissa olevat virrat ovat hyviä suurille tietomäärille, koska niiden ei tarvitse pitää kaikkea kerralla muistissa.

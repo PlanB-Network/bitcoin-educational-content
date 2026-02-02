@@ -1,5 +1,6 @@
 ---
-term: MÉTHODE D'ACTIVATION
+term: Méthode d'activation
+definition: Processus par lequel la communauté Bitcoin décide d'activer un soft fork, en cherchant un consensus entre les mineurs et les utilisateurs pour éviter une scission de la blockchain.
 ---
 
 Une méthode d'activation est le processus par lequel la communauté d'utilisateurs décide de l'implémentation d'un soft fork sur le protocole Bitcoin, en cherchant à éviter une séparation de la blockchain. Ce processus consiste à solliciter l'opinion des mineurs pour approuver un soft fork avant son activation. Si une majorité importante accepte le soft fork, le risque de scission de la blockchain est minimisé. Ce consensus est crucial car si une majorité de mineurs refusent de faire la modification, le soft fork pourrait créer deux chaînes distinctes : une avec les règles modifiées et l'autre sans. Il existe 2 grandes catégories de méthodes d'activation :

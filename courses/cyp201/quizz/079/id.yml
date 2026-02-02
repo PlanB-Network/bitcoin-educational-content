@@ -6,3 +6,4 @@ wrong_answers:
   - Mempermudah perhitungan tanda tangan digital
 explanation: |
   Deskriptor merangkum semua informasi yang diperlukan untuk melacak skrip tertentu, termasuk jalur derivasi dan kunci yang digunakan, tetapi tidak termasuk frasa pemulihan.
+reviewed: true

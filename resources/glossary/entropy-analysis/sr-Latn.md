@@ -1,5 +1,6 @@
 ---
-term: ENTROPIJA (ANALIZA)
+term: Analiza entropije
+definition: Indikator koji meri nedostatak znanja analitičara o konfiguraciji Bitcoin transakcije.
 ---
 
 U specifičnom kontekstu analize lanca, entropija je takođe naziv indikatora, izvedenog iz Shannonove entropije, koji je izumeo LaurentMT. Ovaj indikator omogućava merenje nedostatka znanja koje analitičari imaju o tačnoj konfiguraciji Bitcoin transakcije. Drugim rečima, što je veća entropija transakcije, to postaje teže za analitičare da identifikuju kretanja bitkoina između ulaza i izlaza.

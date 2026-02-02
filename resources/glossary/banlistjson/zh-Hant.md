@@ -1,5 +1,6 @@
 ---
-term: BANLIST.JSON
+term: Banlist.json
+definition: 包含節點拒絕與其連接的已禁止節點 IP 地址列表的 Bitcoin Core 文件。
 ---
 
 Bitcoin Core 軟體用來記錄已被使用者禁止的節點 IP 位址的檔案名稱。此檔案包含被禁止節點的清單，節點不會與這些節點連線。此功能有助於防止與可能有害或惡意的節點互動。

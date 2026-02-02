@@ -1,5 +1,6 @@
 ---
-term: P2P IVYITWARA V2
+term: P2P TRANSPORT V2
+definition: Ibice bishasha vya protokore P2P ya Bitcoin ifise iyandika ry'ibanga mu kuryohora ibanga.
 ---
 
 Verisiyo nshasha y’umurongo w’ivy’ugutwara abantu n’ibintu Bitcoin P2P ushiramwo ubuhinga bwo gukingira amakuru kugira ngo haboneke ubuzima bwite n’umutekano w’ivy’itumanaho hagati y’ibice. Iryo terambere rigamije Address ibibazo vyinshi bifise verisiyo y’ishimikiro y’amasezerano ya P2P, cane cane mu gutuma amakuru ahindurwa adashobora gutandukanywa n’umuntu yihweza ataco akora (nk’uwutanga ubuhinga bwa interineti), gutyo bikagabanya ingorane zo gucengera n’ibitero biciye mu kumenya uburyo bumwe bumwe buri mu mapakete y’amakuru.

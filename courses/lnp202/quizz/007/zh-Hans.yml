@@ -1,0 +1,9 @@
+question: Bitcoin 的什么基本属性在托管中丧失了？
+answer: 货币主权
+wrong_answers:
+  - 货币可伸缩性
+  - 快速付款
+  - 货币互操作性
+explanation: |
+  没有密钥控制，用户就放弃了货币主权，而这正是 Bitcoin 的核心支柱。
+reviewed: false

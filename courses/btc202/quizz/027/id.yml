@@ -1,4 +1,4 @@
-question: Apa yang istimewa dari simpul SPV?
+question: Apa yang istimewa dari node SPV?
 answer: Ini hanya mempertahankan header blok
 wrong_answers:
   - Ini mempertahankan seluruh Blockchain sejak blok Genesis

@@ -1,5 +1,6 @@
 ---
 term: BIP0141
+definition: Introduction of SegWit (Segregated Witness), separating signatures from the rest of the transaction to solve malleability.
 ---
 
 BIP141 introduced the concept of Segregated Witness (SegWit), which gave its name to the SegWit soft fork.

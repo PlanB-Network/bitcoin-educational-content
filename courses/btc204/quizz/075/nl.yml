@@ -1,10 +1,10 @@
-question: Wat is het hoofddoel van een CoinJoin transactie?
+question: Wat is het hoofddoel van een CoinJoin-transactie?
 answer: De geschiedenis van een munt breken.
 wrong_answers:
   - Transactiekosten verlagen.
   - Bitcoins ondetecteerbaar maken.
   - De bevestigingssnelheid verhogen.
 explanation: |
-  Het doel van een CoinJoin transactie is om de geschiedenis van een munt te doorbreken. Deze techniek biedt geen permanente anonimiteit en blokkeert ook niet definitief het traceren van bitcoins, in tegenstelling tot wat men zou kunnen denken. CoinJoin is er alleen op gericht om de geschiedenis te breken op het moment dat de CoinJoin transactie wordt gedaan.
+  Het doel van een CoinJoin-transactie is om de geschiedenis van een munt te doorbreken. Deze techniek biedt geen permanente anonimiteit en blokkeert ook niet definitief het traceren van bitcoins, in tegenstelling tot wat men zou kunnen denken. CoinJoin is er alleen op gericht om de geschiedenis te breken op het moment dat de CoinJoin-transactie wordt gedaan.
   
 reviewed: false

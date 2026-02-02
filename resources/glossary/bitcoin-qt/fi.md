@@ -1,6 +1,7 @@
 ---
-term: BITCOIN QT
+term: Bitcoin QT
 
+definition: Vuonna 2011 julkaistu graafisella käyttöliittymällä varustettu Bitcoin-asiakasohjelma, joka nimettiin uudelleen Bitcoin Coreksi vuonna 2014.
 ---
 Bitcoin QT on toukokuussa 2011 julkaistu Bitcoin-asiakasohjelma, joka sisältää graafisen käyttöliittymän. Se seuraa Satoshin itsensä luoman asiakkaan jalanjälkiä. Vuonna 2014 Bitcoin QT nimettiin uudelleen "Bitcoin Core". Se on nyt Bitcoin-protokollan viitetoteutus. Se on pakattu `bitcoind`:n kanssa versiosta 0.5 lähtien. Lisäksi vielä nykyäänkin Bitcoin Coren graafista käyttöliittymää kutsutaan `bitcoin-qt` viitaten ohjelmiston alkuperään.
 

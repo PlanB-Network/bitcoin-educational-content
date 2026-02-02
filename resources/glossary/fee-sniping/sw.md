@@ -1,5 +1,6 @@
 ---
-term: KUNAKA ADA
+term: Fee sniping
+definition: Shambulio ambapo wachimbaji huandika upya block ya hivi karibuni ili kukusanya ada zake za juu za miamala.
 ---
 
 Hali ya shambulio ambapo wachimbaji wa madini wanataka kuandika upya kizuizi kilichothibitishwa hivi karibuni ili kudai ada za miamala iliyomo, huku wakiongeza miamala ya ada ya juu ambayo imefika wakati huo huo katika Mempool. Lengo kuu la shambulio hili kwa Miner ni kuongeza faida yao. Ubaguzi wa ada unaweza kupata faida zaidi kadri Block reward inavyopungua na ada za miamala zikiwakilisha sehemu kubwa ya mapato ya wachimbaji. Inaweza pia kuwa na manufaa wakati ada zilizo katika blok iliyotangulia ni kubwa zaidi kuliko zile zilizo katika block bora inayofuata ya mgombea. Ili kurahisisha, Miner inakabiliwa na chaguo hili kwa suala la motisha:

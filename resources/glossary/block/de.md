@@ -1,6 +1,7 @@
 ---
-term: BLOCK
+term: Block
 
+definition: Datenstruktur, die validierte Transaktionen und Metadaten enthält und durch Hashing mit anderen Blöcken verknüpft ist.
 ---
 Datenstruktur im Bitcoin-System. Ein Block enthält eine Reihe von gültigen Transaktionen und Metadaten, die in seinem Header enthalten sind. Jeder Block ist durch den Hash seines Headers mit dem nächsten verknüpft und bildet so die Blockchain. Die Blockchain fungiert als Zeitstempel-Server, der es jedem Nutzer ermöglicht, alle vergangenen Transaktionen zu kennen, um die Nichtexistenz einer Transaktion zu überprüfen und Doppelausgaben zu verhindern. Die Transaktionen sind in einem Merkle-Baum organisiert. Dieser kryptografische Akkumulator ermöglicht die Erstellung einer Zusammenfassung aller Transaktionen in einem Block, der so genannten "Merkle-Wurzel" Der Kopf eines Blocks besteht aus 6 Elementen:
 

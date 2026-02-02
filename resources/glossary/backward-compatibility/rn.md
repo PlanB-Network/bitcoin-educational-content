@@ -1,5 +1,6 @@
 ---
-term: GUSUBIZA INYUMA
+term: Gukora neza n'ibyakozwe kera
+definition: Ubushobozi bw'iyandikwa rishasha ry'amategeko agenga ikoranabuhanga ryo kuguma rihuza n'izahise, bituma utunode twa kera tubandanya gukora ku muhora.
 ---
 
 Yerekeza ku bushobozi bw'ivugurura ry'itegeko ry'amasezerano kugira ngo rigume rihuye n'amaverisiyo ya kera. Ivyo bisigura ko amahinduka ateguwe mu buryo bw’uko ama node ya kera (ama node akoresha verisiyo imbere y’ihinduka ry’itegeko) ashobora gukorana n’urubuga no gukurikira uruhererekane n’ibikorwa vyinshi vyirundanijwe. Ni ngombwa rero ko izo node za kera zitanka ama blocs mashasha canke ama transactions mashasha. Gusubira inyuma biragabanya cane ubushobozi bw’uko ivugurura rizocapura urubuga, gutyo bikabuza gucapura utugingo ngengabuzima mu mirwi mitomito ku minyororo itandukanye. Kugira ngo bihure n’amaverisiyo ya kera y’iyo porotokole, ivugurura ritegerezwa gutuma amategeko asanzwe akora akomera canke hakazana ayandi mashasha. Iyi ngingo isobanura "Soft Fork". Ku rundi ruhande, iyo ivugurura rirekuye amategeko yariho canke rigakuraho ayariho, rero ntirizoba rihuye n’inyuma. Ivyo vyoba ari "Hard Fork".

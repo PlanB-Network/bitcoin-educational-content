@@ -1,5 +1,6 @@
 ---
-term: BARE-MULTISIG
+term: Bare-multisig
 
+definition: Script standar (P2MS) yang memungkinkan bitcoin dikunci dengan beberapa kunci publik, memerlukan jumlah tanda tangan minimum untuk membelanjakannya.
 ---
 Model skrip standar P2MS yang digunakan untuk menetapkan kondisi pemakaian pada UTXO. Ini memungkinkan penguncian bitcoin dengan beberapa kunci publik. Untuk membelanjakan bitcoin ini, tanda tangan digital dengan jumlah kunci privat yang telah ditentukan sebelumnya harus ada. Sebagai contoh, sebuah P2MS `2/3` memiliki `3` kunci publik dengan `3` kunci privat rahasia terkait. Untuk menggunakan bitcoin yang terkunci dengan skrip P2MS ini, tanda tangan harus dibuat dengan setidaknya `2` dari `3` kunci privat. Ini adalah sistem keamanan ambang batas. Skrip ini ditemukan pada tahun 2011 oleh Gavin Andresen ketika dia baru saja mengambil alih pemeliharaan klien Bitcoin utama. Saat ini, P2MS hanya digunakan secara sedikit oleh beberapa aplikasi. Sebagian besar _multisignature_ modern menggunakan model skrip lain seperti P2SH atau P2WSH. Dibandingkan dengan ini, P2MS sangatlah sedikit penggunaannya. Kunci publik yang ada di dalamnya akan diungkap pada saat menerima transaksi. Penggunaan P2MS juga lebih mahal dibandingkan dengan skrip _multisignature_ lainnya.

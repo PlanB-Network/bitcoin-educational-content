@@ -1,12 +1,13 @@
 ---
-term: CHAUMIAN COINJOIN
+term: Chaumian coinjoin
 
+definition: Protokol coinjoin yang menggunakan tanda tangan buta Chaum untuk memastikan privasi peserta.
 ---
 Protokol _coinjoin_ yang menggunakan _blind signature_ David Chaum dan Tor untuk komunikasi antara partisipan dan server koordinator. Tujuan dari coinjoin Chaumian adalah untuk memastikan peserta bahwa koordinator tidak dapat mencuri bitcoin, atau mengetahui hubungan input dan output secara bersamaan.
 
 Untuk mencapai hal ini, pengguna mengirimkan input mereka dan alamat penerimaan yang telah dibutakan (_blinded_) secara kriptografis kepada koordinator. Alamat ini, setelah dibuka, dimaksudkan untuk menerima bitcoin sebagai keluaran dari coinjoin. Koordinator menandatangani token-token ini dan mengembalikannya kepada para pengguna. Para pengguna kemudian terhubung kembali secara anonim ke server koordinator dengan identitas Tor yang baru dan mengungkapkan alamat keluaran mereka dalam bentuk plaintext untuk konstruksi transaksi. Koordinator dapat memverifikasi bahwa semua alamat penerimaan ini berasal dari pengguna yang sah, karena dia sebelumnya telah menandatangani versi _blinded_ mereka dengan kunci pribadinya. Akan tetapi, ia tidak dapat mengasosiasikan alamat keluaran tertentu dengan pengguna masukan tertentu. Oleh karena itu, tidak ada hubungan antara input dan output, bahkan dari sudut pandang koordinator. Setelah transaksi dibuat oleh koordinator, ia mengirimkannya kembali ke peserta yang menandatanganinya untuk membuka kunci input mereka, setelah memverifikasi bahwa output mereka memang ada dalam transaksi ini. Para peserta mengirimkan tanda tangan kepada koordinator. Setelah semua tanda tangan terkumpul, koordinator dapat menyiarkan transaksi _coinjoin_ di jaringan Bitcoin.
 
-![](../../dictionnaire/assets/38.webp)
+
 
 Metode ini memastikan bahwa koordinator tidak dapat mengganggu anonimitas peserta atau mencuri bitcoin selama proses _coinjoin_ berlangsung.
 

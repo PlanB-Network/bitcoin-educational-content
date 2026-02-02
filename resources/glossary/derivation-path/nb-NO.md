@@ -1,6 +1,7 @@
 ---
-term: AVLEDNINGSVEI
+term: Deriveringssti
 
+definition: Sekvens av indekser som beskriver deriveringsstien til barnenøkler fra masternøkkelen i en HD-lommebok.
 ---
 I forbindelse med hierarkisk deterministiske (HD) lommebøker refererer en avledningssti til sekvensen av indekser som brukes til å avlede underordnede nøkler fra en hovednøkkel. Denne stien er beskrevet i BIP32 og identifiserer trestrukturen for avledning av underordnede nøkler. En avledningssti representeres av en serie indekser atskilt med skråstreker, og starter alltid med hovednøkkelen (angitt som `m/`). En typisk sti kan for eksempel være `m/84'/0'/0'/0'/0/0`. Hvert avledningsnivå er knyttet til en bestemt dybde:
 
@@ -21,4 +22,3 @@ Hvis mottakeradressen min for eksempel har avledningsstien `m / 86' / 0' / 0' / 
 - `0` indikerer at det er en ekstern adresse;
 - `5` indikerer at det er den sjette eksterne adressen til denne kontoen.
 
-![](../../dictionnaire/assets/18.webp)

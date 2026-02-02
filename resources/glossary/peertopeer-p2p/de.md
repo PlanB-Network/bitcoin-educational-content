@@ -1,6 +1,7 @@
 ---
-term: PEER-TO-PEER (P2P)
+term: Peer-to-Peer (P2P)
 
+definition: Kommunikationsmodell, bei dem die Teilnehmer ohne zentralen Vermittler direkt Informationen austauschen.
 ---
 Bezieht sich auf ein Kommunikations- und Datenverteilungsmodell, bei dem die Teilnehmer, die oft als Knoten oder Peers bezeichnet werden, ihre Ressourcen (z. B. Dateien, Verarbeitungsleistung, Bandbreite, Vermögenswerte usw.) direkt untereinander teilen, ohne dass ein zentraler Vermittler erforderlich ist. In einem P2P-System agiert jeder Teilnehmer gleichzeitig als Client (Nachfrager von Ressourcen) und als Server (Anbieter von Ressourcen).
 

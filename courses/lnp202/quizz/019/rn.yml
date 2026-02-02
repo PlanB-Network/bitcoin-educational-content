@@ -1,0 +1,9 @@
+question: Ni ibihe bisabwa kugira ngo umuntu ashire LND kuri Umbrel?
+answer: Ihuye Bitcoin node
+wrong_answers:
+  - Umbrel Konti y'imbere
+  - Umurongo w'umuravyo uriho
+  - Aderesi y'umuravyo irakora
+explanation: |
+  LND yizigiye 100% y’umurongo wa Bitcoin, ikintu gikenewe kugira ngo ikore.
+reviewed: false

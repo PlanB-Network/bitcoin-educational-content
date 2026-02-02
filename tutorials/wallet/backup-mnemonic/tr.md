@@ -1,5 +1,5 @@
 ---
-name: Mnemonic ifadenizi kaydedin
+name: Mnemonik ifadenizi yedekleyin
 description: Bitcoin Wallet'nizi korumak için en iyi uygulamaları keşfedin
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,6 @@
 ---
-term: AVG. ROUND SÜRESİ
+term: Ortalama tur süresi
+definition: Bir madencilik havuzunun bir blok bulması için gereken ortalama zamanı, hesaplama gücü ve ağ zorluğu temelinde tahmin eden bir gösterge.
 ---
 
 Ortalama tur süresi, ağın zorluğuna ve havuzun Hashrate'ine bağlı olarak bir Mining pool'ın bir blok bulması için gereken süreyi tahmin etmek için kullanılan bir göstergedir. Bir bloğu bulması beklenen hisse sayısı alınarak ve havuzun Hashrate'ine bölünerek hesaplanır. Örneğin, bir Mining pool'ın 200 madencisi varsa ve her biri saniyede ortalama 4 hisse üretiyorsa, havuzun toplam hesaplama gücü saniyede 800 hissedir:

@@ -1,5 +1,6 @@
 ---
-term: FPPS (MALIPO KAMILI KWA HISA)
+term: Fpps (full pay per share)
+definition: Njia ya zawadi ya uchimbaji ikijumuisha hisa na sehemu ya ada za miamala.
 ---
 
 Mbinu ya kukokotoa fidia ya wachimbaji madini ndani ya mabwawa ya Mining. Ni mageuzi ya mbinu ya PPS (*Pay Per Share*). Hulipa wachimbaji fidia sio tu kwa kila hisa halali wanayowasilisha lakini pia inajumuisha sehemu ya zawadi za kuzuia. Fidia inakokotolewa kulingana na wastani wa miamala ya awali na Hashrate ya bwawa. Kwa hivyo, wachimbaji hupokea tuzo kwa hisa zilizowasilishwa, ikiwa kizuizi kinapatikana au la, lakini njia hii pia hulipa fidia kwa thamani inayotarajiwa. Inatoa fidia thabiti na inayoweza kutabirika kwa wachimbaji, kwani inaondoa tofauti inayohusishwa na uwezekano wa kupata kizuizi, huku ikiwaweka kwenye mabadiliko ya ada ya soko. Hata hivyo, ni hatari zaidi kwa waendeshaji wa mabwawa, kwani lazima walipe wachimbaji hata wakati hakuna kizuizi kinachopatikana, na hivyo kuchukua hatari ya tofauti.

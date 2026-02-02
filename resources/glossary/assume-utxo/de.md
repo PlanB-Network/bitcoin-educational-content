@@ -1,11 +1,15 @@
 ---
-term: ASSUME UTXO
+term: Assume utxo
 
+definition: Ein Bitcoin Core-Parameter, der schnelle Synchronisierung eines neuen Knotens durch Verwendung eines Snapshots des UTXO-Satzes ermöglicht, der als gültig angenommen wird, bevor die Historie im Hintergrund überprüft wird.
 ---
-Ein Konfigurationsparameter im führenden Bitcoin Core Client, der es einem Node, der gerade initialisiert wurde (aber noch nicht die IBD durchlaufen hat), erlaubt, die Verifizierung von Transaktionen und des UTXO-Sets bis zu einem bestimmten Snapshot aufzuschieben. Das Konzept beruht auf der Verwendung eines UTXO-Satzes (einer Liste aller zu einem bestimmten Zeitpunkt existierenden UTXOs), der von Core bereitgestellt wird und als korrekt gilt, wodurch der Knoten sehr schnell mit der Kette mit der meisten angesammelten Arbeit synchronisiert werden kann. Da der Knoten den langwierigen IBD-Schritt überspringt, ist er für seinen Benutzer sehr schnell einsatzbereit. Angenommen, UTXO unterteilt die Synchronisierung (IBD) in zwei Teile:
+Konfigurationsparameter im Mehrheitsclient Bitcoin Core, der es einem gerade initialisierten Knoten (der aber das IBD noch nicht durchgeführt hat) ermöglicht, die Überprüfung von Transaktionen und dem UTXO-Set vor einem bestimmten Snapshot aufzuschieben. Das Konzept beruht auf der Verwendung eines von Core bereitgestellten und als korrekt angenommenen UTXO-Sets (Liste aller zu einem bestimmten Zeitpunkt existierenden UTXOs), wodurch der Knoten sehr schnell mit der Kette mit der meisten akkumulierten Arbeit synchronisiert werden kann. Da der Knoten den langen Schritt des IBD überspringt, ist er für seinen Benutzer sehr schnell einsatzbereit.
+
+Assume UTXO unterteilt die Synchronisation (IBD) in zwei Teile: Zuerst führt der Knoten den Header First Sync (nur Überprüfung der Header) durch und betrachtet das von Core bereitgestellte UTXO-Set als gültig; sobald er funktionsfähig ist, überprüft der Knoten dann den vollständigen Blockverlauf im Hintergrund und aktualisiert ein neues UTXO-Set, das er selbst überprüft hat. Wenn letzteres nicht mit dem von Core bereitgestellten UTXO-Set übereinstimmt, wird eine Fehlermeldung ausgegeben.
+
+Assume UTXO ermöglicht es somit, die Vorbereitung eines neuen Bitcoin-Knotens zu beschleunigen, indem der Verifizierungsprozess von Transaktionen und dem UTXO-Set dank eines in Core bereitgestellten aktualisierten Snapshots aufgeschoben wird.
 
 
-- Zunächst führt der Knoten die Header-First-Sync durch (nur Überprüfung der Header) und betrachtet den vom Kern bereitgestellten UTXO-Satz als gültig;
-- Sobald er betriebsbereit ist, prüft der Knoten die gesamte Blockhistorie im Hintergrund und aktualisiert einen neuen UTXO-Satz, den er selbst geprüft hat. Wenn dieser neue UTXO-Satz nicht mit dem von Core bereitgestellten Satz übereinstimmt, gibt er eine Fehlermeldung aus.
 
-Daher beschleunigt Assume UTXO die Vorbereitung eines neuen Bitcoin-Knotens, indem der Transaktionsverifizierungsprozess verschoben und der UTXO-Satz durch einen aktualisierten Snapshot in Core bereitgestellt wird.
+
+

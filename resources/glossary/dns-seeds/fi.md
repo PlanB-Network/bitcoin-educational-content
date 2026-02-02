@@ -1,6 +1,7 @@
 ---
-term: DNS SEEDS
+term: Dns seeds
 
+definition: DNS-palvelimet, jotka tarjoavat aktiivisten solmujen IP-osoitteita Bitcoin-verkkoon liittyville uusille solmuille.
 ---
 Alkuperäiset yhteyspisteet uusille Bitcoin-solmuille, jotka liittyvät verkkoon. Näiden siementen, jotka ovat itse asiassa erityisiä DNS-palvelimia, osoite on pysyvästi sisällytetty Bitcoin Core -koodiin. Kun uusi solmu käynnistyy, se ottaa yhteyttä näihin palvelimiin saadakseen satunnaisen luettelon oletettavasti aktiivisten Bitcoin-solmujen IP-osoitteista. Uusi solmu voi sitten luoda yhteyksiä luettelossa oleviin solmuihin saadakseen tiedot, joita se tarvitsee suorittaakseen alustavan lohkolatauksen (Initial Block Download, IBD) ja synkronoituakseen ketjun kanssa, jolla on eniten kertynyttä työtä. Vuodesta 2024 lähtien tässä on luettelo Bitcoin Core DNS-siemenistä ja niiden ylläpidosta vastaavista henkilöistä (https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp):
 

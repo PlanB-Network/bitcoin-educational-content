@@ -452,24 +452,25 @@ Pop!OS nudi širok spektar softvera putem svog Pop!Shop-a, ali mnogi osnovni ala
 
 
 
-| Outil                        | Description                                | Commande d’installation                         |
+
+| Alat | Opis | Komanda za instalaciju |
 | ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
-| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
-| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
-| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
-| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
-| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
-| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
-| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
-| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
-| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
-| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
-| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
-| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
-| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
-| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
-| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+| Firefox | Slobodan i popularan veb pregledač | `sudo apt install firefox` |
+| Brave | Veb pregledač fokusiran na privatnost | Instalacija putem Pop!_Shop-a ili zvaničnog sajta |
+| Visual Studio Code (VS Code) | Moćan editor koda za programere | `flatpak install flathub com.visualstudio.code` |
+| Git | Upravljač verzijama | `sudo apt install git` |
+| Flatpak | Alternativni upravljač paketima | `sudo apt install flatpak` |
+| VLC | Svestran multimedijalni plejer | `sudo apt install vlc` |
+| GNOME Terminal | Podrazumevani terminal | Preinstaliran na Pop!OS-u |
+| Curl | Alat za onlajn prenos podataka | `sudo apt install curl` |
+| Wget | Preuzimanje datoteka putem HTTP/FTP-a | `sudo apt install wget` |
+| Docker | Kontejnerizacija aplikacija | Instalacija putem zvanične skripte ili `apt`-a |
+| Node.js | JavaScript okruženje na strani servera | Instalacija putem `apt`-a ili NodeSource-a |
+| Python3 | Programski jezik | `sudo apt install python3 python3-pip` |
+| GIMP | Napredan editor slika | `sudo apt install gimp` |
+| Thunderbird | Email klijent | `sudo apt install thunderbird` |
+| Transmission | Lagan BitTorrent klijent | `sudo apt install transmission-gtk` |
+| Htop | Interaktivni sistemski monitor | `sudo apt install htop` |
 
 ### Instalacija putem Pop! Shop (grafički interfejs)
 

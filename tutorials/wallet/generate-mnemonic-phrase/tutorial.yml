@@ -1,5 +1,7 @@
 id: 47507d90-e6af-4cac-b01b-01a14d7a8228
 
+last_update_date: 2024-06-10
+
 category: backup
 
 level: advanced
@@ -16,145 +18,145 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 5.75
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.27
+    reward: 3.87
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.27
+    reward: 3.87
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.27
+    reward: 3.87
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 5.75
   - language: fr
     last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - Asi0Flammeus
       - nrak10
-    reward: 2.57
+    reward: 0
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.27
+    reward: 3.87
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.05
+    reward: 9.52
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.27
+    reward: 3.87
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 5.75
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.05
+    reward: 9.52
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 5.75
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.05
+    reward: 7.63
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.05
+    reward: 7.63
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 5.75
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.05
+    reward: 9.52
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 5.75
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 7.63
   - language: sw
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 6.83
+    reward: 2.88
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.05
+    reward: 7.63
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 5.75
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.27
+    reward: 3.87
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 5.75
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.05
+    reward: 7.63
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.05
+    reward: 7.63
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.05
+    reward: 9.52
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 5.75
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.05
+    reward: 7.63
 tags:
   - DIY
   - keys

@@ -1,6 +1,7 @@
 ---
 term: MAST
 
+definition: Merkle puu, mis koondab mitu kulutamistingimust, millest kulutamiseks tuleb avalikustada vaid üks.
 ---
 Akronüüm "Merkelised alternatiivsed kirjapuud" Tehnika, mis kasutab Merkle-puud, et võtta kokku suvaline arv kasutaja poolt valitud kulutustingimusi vastuvõtva aadressi kohta, millest üks peab olema täidetud, et kulutada asjaomaseid bitcoine. Merkle'i puu võimaldab kasutajal valida, millist tingimust ta soovib täita, ilma et ta paljastaks teiste tingimuste üksikasju plokiahelas. See aitab vähendada nende skriptidega seotud tasusid, luua palju keerulisemaid tingimusi ja aja jooksul parandada kasutaja privaatsust (lisaks Schnorri allkirjade kasutamisele). Selle kontseptsiooni kohta tehti mitu ettepanekut, kuid lõpuks lisati see 2021. aastal Taproot soft forki kaudu Bitcoini.
 

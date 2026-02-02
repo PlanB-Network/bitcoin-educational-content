@@ -1,7 +1,7 @@
 question: Bitcoin core의 주요 대체 구현은 무엇인가요?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin 현금
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

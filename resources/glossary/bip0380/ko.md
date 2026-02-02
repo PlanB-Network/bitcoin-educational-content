@@ -1,5 +1,6 @@
 ---
 term: BIP0380
+definition: HD 지갑의 출력 스크립트를 설명하기 위한 표준 언어인 Output Script Descriptors.
 ---
 
 BIP380은 "출력 스크립트 설명자"라고 하는 HD Bitcoin 지갑에서 사용되는 출력 스크립트 모음을 설명하는 표준 언어를 도입합니다

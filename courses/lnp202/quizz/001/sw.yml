@@ -1,0 +1,9 @@
+question: Ni utaratibu gani unaozuia kutolewa kwa hali ya chaneli ya zamani ya Umeme?
+answer: Ufunguo wa kufuta
+wrong_answers:
+  - Ada za miamala
+  - Muda kamili wa kufunga
+  - Umbea wa mtandao
+explanation: |
+  Funguo za kubatilisha hutumika kuadhibu nodi inayojaribu kuchapisha hali ya zamani ya chaneli.
+reviewed: false

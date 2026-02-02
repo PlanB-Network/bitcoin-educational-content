@@ -1,0 +1,9 @@
+question: Nach welchen Kriterien entscheiden Sie sich für eine Blitzlösung?
+answer: Häufigkeit der Nutzung und Bereitschaft zur Verwaltung
+wrong_answers:
+  - Ausgetauschte Beträge und Protokollgeschwindigkeit
+  - Geolokalisierung und Bildung
+  - Risikotoleranz und Softwareentwicklung
+explanation: |
+  Die Wahl hängt hauptsächlich davon ab, wie oft Lightning verwendet wird und wie sehr Sie die technische Verwaltung mögen.
+reviewed: false

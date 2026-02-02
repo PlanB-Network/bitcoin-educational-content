@@ -1,0 +1,8 @@
+question: Selon Ludwig von Mises, quelle distinction fondamentale existe-t-il entre les sciences humaines et les sciences naturelles ?
+answer: Les sciences humaines sont fondées sur l'action volontaire tandis que les sciences naturelles reposent sur l'empirisme
+wrong_answers:
+  - "Les sciences humaines utilisent les mathématiques tandis que les sciences naturelles utilisent l'observation"
+  - Les sciences humaines étudient le passé tandis que les sciences naturelles étudient le présent
+  - Les sciences humaines sont subjectives tandis que les sciences naturelles sont objectives
+explanation: |
+  Ludwig von Mises établit une distinction méthodologique claire : les sciences humaines doivent étudier l'action volontaire et intentionnelle des individus, ce qui nécessite une approche praxéologique, tandis que les sciences naturelles peuvent s'appuyer sur l'empirisme car elles étudient des objets inertes sans volonté ni préférences. Cette distinction justifie le dualisme méthodologique autrichien qui rejette l'application des méthodes empiriques des sciences naturelles à l'étude des phénomènes humains.

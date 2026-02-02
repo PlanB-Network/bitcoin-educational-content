@@ -1,5 +1,6 @@
 ---
-term: KILLUD (VÄLK)
+term: Shards (lightning)
+definition: Osa maksest, mis suunatakse eraldi läbi erinevate Lightningu teede (MPP/AMP).
 ---
 
 *Multi-path Payments (MPP)* või *Atomic Multi-Path Payments (AMP)* kontekstis on Shard osa globaalsest maksest. Iga Shard kujutab endast osa kogu maksest, mis suunatakse eraldi Lightning'i eri marsruudi kaudu.

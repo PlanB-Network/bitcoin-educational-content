@@ -1,6 +1,7 @@
 ---
-term: TIMELOCK
+term: Timelock
 
+definition: Primitiv smart kontraktu definující časovou podmínku, než může být transakce zahrnuta do bloku.
 ---
 Primitivum chytré smlouvy, které umožňuje nastavit časovou podmínku, která musí být splněna, aby byla transakce přidána do bloku. V Bitcoinu existují dva typy časových zámků:
 

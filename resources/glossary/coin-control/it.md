@@ -1,6 +1,7 @@
 ---
-term: CONTROLLO DI COIN
+term: Coin control
 
+definition: Funzionalità che consente di selezionare manualmente gli UTXO da utilizzare come input di una transazione.
 ---
 Una funzione presente in alcuni portafogli Bitcoin che consente agli utenti di selezionare manualmente specifici UTXO (Unspent Transaction Outputs) da utilizzare come input per effettuare una transazione. In altre parole, il controllo delle monete offre la possibilità di scegliere con precisione quali pezzi di bitcoin verranno spesi. Questa funzionalità è simile all'azione di scegliere una moneta specifica dal proprio portafoglio per pagare la baguette.
 

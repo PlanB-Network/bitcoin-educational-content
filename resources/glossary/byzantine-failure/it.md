@@ -1,6 +1,7 @@
 ---
-term: FALLIMENTO BIZANTINO
+term: Guasto bizantino
 
+definition: Comportamento di un sistema che non rispetta le sue specifiche, che può essere naturale o volontario.
 ---
 Il fallimento bizantino, o comportamento bizantino, si riferisce a qualsiasi comportamento di un sistema che non rispetta le proprie specifiche, producendo risultati non conformi.
 

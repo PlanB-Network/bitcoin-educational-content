@@ -6,4 +6,4 @@ wrong_answers:
   - Memastikan kompatibilitas dengan protokol Bitcoin
 explanation: |
   Kode rantai digunakan untuk memperkenalkan sumber entropi tambahan dan unik untuk setiap kunci yang diturunkan.
-ditinjau: false
+reviewed: true

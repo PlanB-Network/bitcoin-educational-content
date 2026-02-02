@@ -1,5 +1,6 @@
 ---
 term: OP_NOP (0X61)
+definition: 不產生任何效果的Opcode，用作未來軟分叉的插入點。
 ---
 
 不會對堆疊或腳本的狀態產生任何影響。不執行任何移動、檢查或修改。除非 Soft Fork 另有決定，否則它什麼都不做。事實上，自從 Satoshi Nakamoto 在 2010 年修改後，`OP_NOP` 指令 (`OP_NOP1`(`0XB0`)至`OP_NOP10`(`0XB9`)) 都是以 Soft Fork 的形式來增加新的操作碼。

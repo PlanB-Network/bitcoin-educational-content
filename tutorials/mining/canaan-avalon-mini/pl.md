@@ -122,16 +122,17 @@ Poniżej znajduje się tabela podsumowująca ogólną specyfikację techniczną 
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Cecha                                      | Wartość                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Zużycie energii                              | 800 W                                                     |
+| Hałas                                                | 35-55 dB                                                  |
+| Temperatura powietrza na wylocie                       | 60-70°C (przy temperaturze otoczenia 25°C)                  |
+| Wymagania dotyczące temperatury otoczenia do użytku | -5° C - 40°C                                              |
+| Zakres napięcia wejściowego urządzenia                         | 110V-240V AC 50/60Hz                                      |
+| Rozmiar maszyny                                 | Długość: 760 mm / Głębokość: 104 mm / Wysokość: 214.5 mm |
+| Waga maszyny                                  |  8.35 kg                                                  |
 
 ## Podłączanie do Mining pool
 

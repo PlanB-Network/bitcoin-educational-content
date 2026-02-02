@@ -1,6 +1,7 @@
 ---
-term: PRUNED NODE
+term: Karsittu solmu
 
+definition: Täysi solmu, joka poistaa vanhat varmistetut lohkot säästääkseen tallennustilaa.
 ---
 Karsittu solmu, englanniksi "Pruned Node", on täysi solmu, joka suorittaa lohkoketjun karsinnan. Tämä tarkoittaa vanhimpien lohkojen asteittaista poistamista sen jälkeen, kun ne on asianmukaisesti todennettu, jotta vain uusimmat lohkot säilyvät. Säilytysraja määritetään `bitcoin.conf`-tiedostossa parametrilla `prune=n`, jossa `n` on lohkojen enimmäiskoko megatavuina (MB). Jos tämän parametrin perään merkitään `0`, karsinta poistetaan käytöstä ja solmu säilyttää lohkoketjun kokonaisuudessaan.
 

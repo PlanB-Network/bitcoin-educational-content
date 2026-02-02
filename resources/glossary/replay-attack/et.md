@@ -1,5 +1,6 @@
 ---
-term: REPLAY ATTACK
+term: Taasesitusrünne
+definition: Rünnak, mis kordab ühe plokiahela kehtivat tehingut teises plokiahelas, millel on sama ajalugu.
 ---
 
 Bitcoin kontekstis toimub kordusrünnak siis, kui ühes Blockchains tehtud kehtivat tehingut reprodutseeritakse pahatahtlikult teises Blockchains, millel on sama tehingulugu. Teisisõnu, ühes kanalis edastatud tehingut võib korrata teises kanalis ilma esimese tehingu saatja nõusolekuta.

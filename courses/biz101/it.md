@@ -201,7 +201,7 @@ Insieme fanno di Bitcoin un **asset al portatore** e una valuta digitale **senza
 
 ![BIZ101](assets/it/003.webp)
 
-Bitcoin ha una politica monetaria fissa, con un **cap di 21 milioni di bitcoin**, di cui ~19,83 milioni sono già stati distribuiti. Questo lo rende **deflazionistico**, con il suo valore che aumenta nel tempo man mano che gli utenti vi accumulano risparmi e guadagni di produttività.
+Bitcoin ha una politica monetaria fissa, con un **massimo di 21 milioni di bitcoin**, di cui circa 19,8 (2024) milioni sono già stati estratti. Questo lo rende **deflattivo**, con il suo valore che aumenta nel tempo man mano che gli utenti vi conservano risparmi e guadagni di produttività.
 
 Le sue caratteristiche tecniche superano quelle dell'oro e del dollaro messi insieme, rendendolo l'asset finanziario più strutturato mai creato. Bitcoin è sia una riserva di valore che un mezzo di scambio, una moneta in divenire. Immaginate di trasferire il valore dalla tesoreria di un'azienda a quella di un'altra in modo rapido, senza intermediari, a costi minimi, senza frodi, 24 ore su 24, 7 giorni su 7 e senza l'intervento di terzi.
 
@@ -213,7 +213,7 @@ Bitcoin è dirompente perché ci spinge a imparare concetti di matematica, critt
 
 Bitcoin ci sfida a riconsiderare la natura stessa del denaro. Potresti spiegare cos'è veramente il denaro? Un lavoratore dipendente o un imprenditore potrebbe spendere dalle 50.000 alle 100.000 ore della propria vita per guadagnare denaro, ma quanti **dedicano anche solo 100 ore per comprenderlo meglio** e conservarlo? Bitcoin ci spinge a mettere in discussione le ragioni fondamentali del nostro bisogno di denaro e la nostra prospettiva temporale. Il denaro serve per il lusso immediato o per la resistenza a lungo termine? Se avessimo un bene che si apprezza e che ci permette di ritardare gli acquisti, quali scelte faremmo? Quali conversazioni vorremmo avere con noi stessi tra 20 o 30 anni?
 
-**CARTA D'IDENTITÀ DI BITCOIN**
+**CARTA D'IDENTITÀ DI BITCOIN (nel 2024)**
 
 
 - **Età**: 16 anni (3 gennaio 2009)
@@ -299,7 +299,7 @@ Lightning Network è ideale per i pagamenti in Bitcoin nei negozi fisici o onlin
 - **Finalità**: una volta effettuato il pagamento su Lightning, questo è definitivo. Non vi è alcuna possibilità di riaddebito da parte di terzi o di controversie legate a frodi.
 - **Commissioni**: le commissioni di transazione sulla rete Lightning sono minime e vengono pagate dall'utente, non dal commerciante. I commercianti incorrono in commissioni solo se in seguito devono trasferire i loro bitcoin a un'altra rete o servizio.
 
-**CARTA D'IDENTITÀ DI LIGHTNING NETWORK**
+**CARTA D'IDENTITÀ DI LIGHTNING (nel 2024)**
 
 
 - **Invenzione**: 2015

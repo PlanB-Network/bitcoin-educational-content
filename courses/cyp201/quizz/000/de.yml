@@ -1,4 +1,4 @@
-question: Was ist die Hauptfunktion einer Hash-Funktion?
+question: Was ist die Hauptfunktion einer Hashfunktion?
 answer: Sie wandelt Informationen beliebiger Länge in einen Fingerabdruck fester Größe um.
 wrong_answers:
   - Sie verschlüsselt Nachrichten, um sie unlesbar zu machen.

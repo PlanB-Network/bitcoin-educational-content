@@ -1,0 +1,8 @@
+question: Selon l'analyse autrichienne présentée, comment Bitcoin illustre-t-il concrètement le processus d'émergence monétaire décrit par Carl Menger en 1892?
+answer: Par l'adoption progressive d'individus reconnaissant spontanément ses propriétés monétaires uniques, créant un effet d'externalité de réseau
+wrong_answers:
+  - "Par la décision collective d'institutions financières qui ont validé officiellement sa fonction monétaire après analyse technique"
+  - "Par l'intervention d'autorités monétaires qui ont progressivement intégré Bitcoin dans leurs réserves de change internationales"
+  - Par la planification centralisée de développeurs qui ont conçu ses caractéristiques pour répondre aux besoins monétaires identifiés
+explanation: |
+  Selon Menger, la monnaie émerge spontanément quand les agents les plus perspicaces identifient le bien le plus échangeable, puis d'autres imitent ce choix par intérêt personnel. Bitcoin illustre parfaitement ce processus : aucune autorité centrale n'a décidé de sa valeur monétaire, mais les individus ont reconnu ses propriétés (offre fixe, divisibilité, portabilité) et l'ont adopté progressivement. Les autres options impliquent une planification ou intervention centralisée, ce qui contredit le processus spontané décrit par Menger.

@@ -424,7 +424,7 @@ Bitcoin 구성이 진화합니다. 중요한 변경 사항(새 포트폴리오, 
 
 
 
-- [Bitcoin 상속 계획 템플릿(PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Network 문서 템플릿
+- [Bitcoin 상속 계획 템플릿(PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Academy 문서 템플릿
 
 
 

@@ -1,5 +1,6 @@
 ---
 term: Bitcoin QT
+definition: Umuti wa Bitcoin ufise inyuma h'ishusho wasohotse mu 2011, wahinduriwe izina biba Bitcoin Core mu 2014.
 ---
 
 Bitcoin QT ni umukiriya wa Bitcoin arimwo Interface y’igishushanyo, yasohotse muri Rusama 2011. Ikomeza uruvyaro rw’umukiriya wa mbere wa Satoshi Nakamoto.

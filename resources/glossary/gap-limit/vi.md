@@ -1,6 +1,7 @@
 ---
-term: GAP LIMIT
+term: Gap limit
 
+definition: Số lượng tối đa các địa chỉ không sử dụng liên tiếp trước khi dừng tìm kiếm các giao dịch.
 ---
 A parameter used in Bitcoin wallet software to determine the maximum number of consecutive unused addresses to generate before stopping the search for additional transactions. Adjusting this parameter is often necessary when recovering a wallet to ensure that all transactions are found. An insufficient Gap Limit could result in missing some transactions if addresses were skipped during the derivation phases. Increasing the Gap Limit allows the wallet to search further in the address sequence, in order to recover all associated transactions.
 

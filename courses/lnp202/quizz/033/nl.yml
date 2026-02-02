@@ -1,0 +1,9 @@
+question: Welke van deze tools identificeert geen relevante peers op Lightning?
+answer: Electrum
+wrong_answers:
+  - Bliksemafleider
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum is geen Lightning explorer voor het verkrijgen van informatie over netwerkknooppunten. De andere drie tools daarentegen vervullen deze functie wel goed.
+reviewed: false

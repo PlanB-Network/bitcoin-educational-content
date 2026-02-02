@@ -1,5 +1,6 @@
 ---
-term: CLÉ ÉTENDUE
+term: Clé étendue
+definition: Suite combinant une clé, son code de chaîne et des métadonnées pour la dérivation dans les portefeuilles HD.
 ---
 
 Suite de caractères qui combine une clé (publique ou privée), son code de chaîne associé et une série de métadonnées. Une clé étendue rassemble en un seul identifiant tous les éléments nécessaires à la dérivation de clés enfants. Elles sont utilisées dans les portefeuilles déterministes et hiérarchiques, et peuvent être de deux types : une clé publique étendue (utilisée pour dériver des clés publiques enfants) ou une clé privée étendue (utilisée pour dériver à la fois des clés privées et des clés publiques enfants). Une clé étendue inclut donc plusieurs données différentes, décrites au sein du BIP32, dans l'ordre :

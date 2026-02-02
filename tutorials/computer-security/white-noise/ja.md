@@ -53,16 +53,17 @@ White Noiseと有名なメッセージング・アプリケーションの簡単
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| 比較項目                    | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE 暗号化 / 1:1           | ✅ はい       | 任意       | ✅ はい           | ✅ はい  | ✅ はい   | ✅ はい            | ✅ はい |
+| グループ E2EE 暗号化        | ✅ はい       | ❌ いいえ   | ✅ はい           | ✅ はい  | ✅ はい   | 任意              | ✅ はい |
+| 身元の匿名化                | ✅ はい       | 任意       | ❌ いいえ         | ✅ はい  | ❌ いいえ | ❌ いいえ          | ❌ いいえ|
+| オープンソースサーバー      | ✅ はい       | ❌ いいえ   | ❌ いいえ         | ✅ はい  | ❌ いいえ | ❌ いいえ          | ✅ はい |
+| オープンソースクライアント  | ✅ はい       | ✅ はい      | ❌ いいえ         | ✅ はい  | ❌ いいえ | ❌ いいえ          | ✅ はい |
+| 分散型サーバー              | ✅ はい       | ❌ いいえ   | ❌ いいえ         | ✅ はい  | ❌ いいえ | ❌ いいえ          | ❌ いいえ|
+| 作成年                      | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## White Noiseを始める
 

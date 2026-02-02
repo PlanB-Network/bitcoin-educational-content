@@ -1,6 +1,7 @@
 ---
 term: URI
 
+definition: Standardisert format som tillater koding av en Bitcoin-adresse og transaksjonsparametere for å lette betalinger.
 ---
 Forkortelse for "*Uniform Resource Identifier*". Det er et standardisert strengformat som brukes til å identifisere en ressurs på Internett. En URI kan enten være en URL (*Uniform Resource Locator*), som gir tilgang til en ressurs ved å angi hvor den befinner seg i et datanettverk, eller en URN (*Uniform Resource Name*), som navngir ressursen uten å spesifisere hvor den befinner seg. URI-er er viktige for at *World Wide Web* skal fungere, ettersom de gir tilgang til ressurser som websider, dokumenter og tjenester.
 

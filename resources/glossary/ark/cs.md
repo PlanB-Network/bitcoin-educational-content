@@ -1,5 +1,6 @@
 ---
-term: ARK
+term: Ark
 
+definition: Protokol druhé vrstvy umožňující rychlé, anonymní a levné platby Bitcoin bez nutnosti příchozí likvidity jako u Lightning.
 ---
 Nový protokol druhé vrstvy představil Burak v květnu 2023. Stejně jako Lightning Network je Ark systémem, který funguje nad hlavním blockchainem Bitcoinu. Umožňoval by platby v bitcoinech mimo řetězec rychlým, anonymním a levným způsobem. Oproti Lightningu nevyžaduje Ark k přijímání plateb příchozí likviditu, což výrazně zlepšuje uživatelský zážitek. Navíc nabízí soukromí podobné transakcím v coinjoinu, zatímco Lightning je poměrně špatný model ochrany soukromí. A konečně, Ark by také mohl být neinteraktivní, pokud budou do Bitcoinu přidány smlouvy. Burak často kritizuje škálovatelnost Lightningu kvůli jeho závislosti na hlavním řetězci a navrhuje, že Ark by teoreticky mohl pojmout celou globální populaci v samospádu. Ačkoli Ark může být vnímán jako konkurenční protokol k Lightning Network, oba by ve skutečnosti mohly koexistovat. Mohly by se dokonce doplňovat. Je však důležité poznamenat, že prozatím je Ark pouze konceptem. Burak zatím nezveřejnil kód svého vynálezu.

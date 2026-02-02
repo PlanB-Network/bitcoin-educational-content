@@ -55,56 +55,28 @@ W tym kursie omówimy niektóre aspekty pieniężne Bitcoin, w tym jak kupować 
 Ważne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który całkowicie zmienia nasze relacje z pieniędzmi, więc nauka korzystania z niego jest niezbędną umiejętnością dla każdego, kto chce mieć kontrolę nad własnymi funduszami.
 
 
-**Sekcja 1 - Wprowadzenie**
 
 
-- Rozdział 1 - Przegląd kursu
-- Rozdział 2 - Prehistoria Bitcoin
 
 
-**Sekcja 2 - Pieniądze**
 
 
-- Rozdział 3 - Pieniądze na przestrzeni dziejów
-- Rozdział 4 - Waluty fiat
-- Rozdział 5 - Hiperinflacja
-- Rozdział 6 - 21 milionów bitcoinów
 
 
-**Sekcja 3 - Portfele Bitcoin**
 
 
-- Rozdział 7 - Czym jest Bitcoin Wallet?
-- Rozdział 8 - Portfele Bitcoin i bezpieczeństwo
-- Rozdział 9 - Konfiguracja Wallet
-- Rozdział 10 - Przetrwać próbę czasu
 
 
-**Sekcja 4 - Techniczne aspekty Bitcoin**
 
 
-- Rozdział 11 - Uruchomienie Bitcoin
-- Rozdział 12 - Transakcje Bitcoin
-- Rozdział 13 - Węzły Bitcoin
-- Rozdział 14 - Górnicy
-- Rozdział 15 - Bitcoin i ekologia
 
 
-**Sekcja 5 - Jak zdobyć Bitcoiny?
 
 
-- Rozdział 16 - Bitcoin nigdy nie śpi!
-- Rozdział 17 - Zarabianie Bitcoinów poprzez pracę
-- Rozdział 18 - Oszczędzanie z Bitcoin
-- Rozdział 19 - Hiperbitcoinizacja
 
 
-**Sekcja 6 - Przyszłość Bitcoin: Lightning Network**
 
 
-- Rozdział 20 - Krótkie wprowadzenie do Lightning Network
-- Rozdział 21 - Przypadki użycia Lightning Network
-- Rozdział 22 - Czerwona czy niebieska pigułka?
 
 
 Przed wprowadzeniem definicji pieniądza i jego funkcji w społeczeństwie (Rozdział 1), powinniśmy zacząć od genezy Bitcoin. Wprowadzony na rynek w 2009 roku, Bitcoin jest stosunkowo nową technologią, niepodobną do niczego innego. Dlatego też normalnym jest, że nie zrozumiemy wszystkiego od razu. W rzeczywistości, podobnie jak w przypadku nauki korzystania z Internetu lub prowadzenia samochodu, nie musisz od razu znać wszystkich szczegółów technicznych: możesz zacząć od nauki, jak odbierać, płacić i zabezpieczać swoje fundusze, a następnie małymi krokami zgłębiać je głębiej.
@@ -1060,7 +1032,7 @@ Pomimo nieobecności Satoshi, Bitcoin był nadal rozwijany: historia Bitcoin jes
 Dla niektórych Bitcoin jest definiowany jako byt grzybowy, taki jak [grzybnia](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), podczas gdy inni opisują go jako [czarną dziurę](https://dergigi.com/). Można go kochać lub nienawidzić, Bitcoin nadal istnieje, ze swoim stałym rytmem 10 minut na blok, jak bicie serca nowego systemu monetarnego.
 
 
-Aby dowiedzieć się więcej o pismach Satoshi Nakamoto, zalecamy przeczytanie ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) autorstwa Phila Champagne'a lub filmu dokumentalnego ARTE "Le mystaire Satoshi".
+Aby pogłębić znajomość pism Satoshiego Nakamoto, polecam lekturę [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) autorstwa Phila Champagne’a, która gromadzi i kontekstualizuje jego najważniejsze teksty, a także dokument ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), oferujący przystępne i dobrze udokumentowane śledztwo dotyczące jego tożsamości i dziedzictwa.
 
 
 ![image](assets/en/044.webp)

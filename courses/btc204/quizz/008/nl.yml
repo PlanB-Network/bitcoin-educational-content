@@ -1,9 +1,9 @@
-question: Als een transactie 2 UTXO's van 5.000 Sats als invoer heeft en 3 UTXO's van 3.000 Sats als uitvoer, wat zijn dan de transactiekosten?
-answer: 1.000 Sats
+question: Als een transactie 2 UTXO's van 5.000 sats als input heeft en 3 UTXO's van 3.000 sats als output, wat zijn dan de transactiekosten?
+answer: 1.000 sats
 wrong_answers:
-  - 1.500 Sats
-  - 2.500 Sats
-  - 3.000 Sats
+  - 1.500 sats
+  - 2.500 sats
+  - 3.000 sats
 explanation: |
-  De kosten van een transactie vertegenwoordigen het verschil tussen de totale inputs en de totale outputs. Het is wat er overblijft nadat alle inputs zijn verbruikt en alle outputs zijn gecreëerd. De berekening is daarom: vergoedingen = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+  De kosten van een transactie vertegenwoordigen het verschil tussen de totale inputs en de totale outputs. Het is wat er overblijft nadat alle inputs zijn verbruikt en alle outputs zijn gecreëerd. De berekening is daarom: kosten = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
 reviewed: false

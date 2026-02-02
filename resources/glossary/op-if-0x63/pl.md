@@ -1,5 +1,6 @@
 ---
 term: OP_IF (0X63)
+definition: Opcode wykonujący część skryptu, jeśli warunek na szczycie stosu jest prawdziwy.
 ---
 
 Wykonuje następującą część skryptu, jeśli wartość na szczycie stosu jest niezerowa (true). Jeśli wartość wynosi zero (false), operacje te są pomijane, przechodząc bezpośrednio do tych po `OP_ELSE`, jeśli jest obecny. `OP_IF` umożliwia uruchomienie warunkowej struktury kontrolnej w skrypcie. Określa ona przepływ kontroli w skrypcie na podstawie warunku podanego w czasie wykonywania transakcji. `OP_IF` jest używane z `OP_ELSE` i `OP_ENDIF` w następujący sposób:

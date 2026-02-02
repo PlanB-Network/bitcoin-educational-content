@@ -1,5 +1,6 @@
 ---
-term: Pedersen commitment
+term: 佩德森承諾
+definition: 允許在不透露具體數值的情況下驗證總和的同態加密承諾。
 ---
 
 Pedersen commitment 是加密 Commitment 的一種，具有與加法運算同態的特性。這表示可以在不透露個別值的情況下驗證兩個承諾的總和。

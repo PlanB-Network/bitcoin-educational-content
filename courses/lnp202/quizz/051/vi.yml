@@ -1,0 +1,9 @@
+question: Cần thiết lập cổng nào trong Zeus cho kết nối LND (REST) được mô tả trong chương này?
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  Để truy cập API từ nút LND trên Umbrel, bạn cần sử dụng cổng 8080 khi cấu hình Zeus.
+reviewed: false

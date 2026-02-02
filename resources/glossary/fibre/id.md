@@ -1,6 +1,7 @@
 ---
-term: FIBRE
+term: Fibre
 
+definition: Protokol yang dirancang untuk mempercepat penyebaran blok Bitcoin di seluruh dunia.
 ---
 Singkatan dari "*Fast Internet Bitcoin Relay Engine*", yang merupakan protokol yang dirancang oleh Matt Corallo pada tahun 2016 untuk mempercepat distribusi blok Bitcoin di seluruh dunia. Tujuannya adalah untuk mengurangi penundaan transmisi sedekat mungkin dengan batas fisik. FIBRE bertujuan untuk memastikan distribusi peluang penambangan yang lebih adil, dengan memastikan bahwa proporsi blok yang ditambang oleh peserta secara akurat mencerminkan kontribusinya dalam hal daya komputasi, terlepas dari posisinya dalam jaringan.
 

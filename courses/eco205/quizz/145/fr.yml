@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne des cycles économiques, qu'est-ce qui distingue fondamentalement leur analyse temporelle des crises par rapport aux autres écoles économiques?
+answer: La crise commence bien avant la récession visible, parfois des années auparavant, tandis que la récession n'est que la correction finale des erreurs accumulées
+wrong_answers:
+  - La crise se manifeste uniquement pendant la récession, qui constitue à la fois le début et la fin du cycle économique problématique
+  - "La crise suit immédiatement la récession, car les déséquilibres ne se créent qu'après l'effondrement des marchés financiers"
+  - "La crise et la récession sont simultanées, se déclenchant au même moment lors de l'intervention tardive des banques centrales"
+explanation: |
+  La théorie autrichienne révolutionne la compréhension temporelle des cycles en identifiant la crise dès la phase de boom artificiel créé par les banques centrales. Contrairement aux autres écoles qui situent la crise pendant la récession, les Autrichiens montrent que les véritables problèmes naissent lors de l'expansion monétaire créant des malinvestissements. La récession visible n'est que l'ajustement douloureux mais nécessaire pour liquider ces erreurs d'allocation des ressources.

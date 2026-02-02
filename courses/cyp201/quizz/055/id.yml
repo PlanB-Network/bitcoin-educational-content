@@ -6,3 +6,4 @@ wrong_answers:
   - Empat bagian dari 128 bit
 explanation: |
   Output dari HMAC-SHA512 dibagi menjadi dua bagian: kunci privat utama (256 bit) dan kode rantai utama (256 bit).
+reviewed: true

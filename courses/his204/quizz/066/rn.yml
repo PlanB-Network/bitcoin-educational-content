@@ -1,8 +1,9 @@
-question: Ni ubucuruzi ubuhe Dupont de Nemours et Cie, yashinzwe n’umuhungu w’uwo muhinga mu vy’ubutunzi w’Umufaransa, akora?
-answer: Ubuhinga bwa shimi n'ibinyabuzima
+question: Ni mu gisata c'ibikorwa ikihe Dupont de Nemours et Cie, cashinzwe n’umuhungu w’uwo muhinga mu vy’ubutunzi w’Umufaransa, akoreramwo?
+answer: Ubuhinga bwa shimi n'ibinyabuzima(Chemistry and biology)
 wrong_answers:
-  - Banki n'ubwishingizi
-  - Impuzu
-  - Inganda y'ibifungurwa
+  - Banki n'ubwishingizi(Banking & Insurance)
+  - Impuzu(Textile)
+  - Inganda y'ibifungurwa(Food industry)
 explanation: |
   Dupont de Nemours ni ishirahamwe ry'ivy'imiti n'ibinyabuzima ryashinzwe n'umuhungu w'umuhinga mu vy'ubutunzi Pierre-Samuel Dupont de Nemours.
+reviewed: true

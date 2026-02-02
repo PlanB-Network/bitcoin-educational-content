@@ -1,5 +1,6 @@
 ---
-term: SESSIZ ÖDEMELER
+term: Silent payments
+definition: Adres yeniden kullanımı olmadan statik bir adres üzerinden ödeme alma yöntemi.
 ---
 
 Address yeniden kullanılmadan, etkileşim olmadan ve farklı ödemeler ile statik Address arasında görünür bir On-Chain bağlantısı olmadan ödeme almak için statik Bitcoin adreslerini kullanma yöntemi. Bu teknik, her işlem için yeni, kullanılmayan alıcı adresleri generate ihtiyacını ortadan kaldırır, böylece alıcının ödeme yapana yeni bir Address sağlaması gereken Bitcoin'teki olağan etkileşimlerden kaçınır.

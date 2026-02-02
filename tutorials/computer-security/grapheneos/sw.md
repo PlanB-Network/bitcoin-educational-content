@@ -139,7 +139,7 @@ Video inayoelezea hatua rahisi zilizoainishwa hapo juu
 
 
 
-Ikiwa hatua hizo rahisi zinaonekana kama hatua ya mbali sana, unaweza kufikiria kununua Pixel ukitumia programu ya GrapheneOS [iliyosakinishwa awali](https://ronindojo.io/en/roninmobile). Fahamu tu kwamba unaweka kiasi kidogo cha uaminifu kwa mtoa huduma.
+Ikiwa hatua hizo rahisi zinaonekana kama hatua ya mbali sana, unaweza kufikiria kununua Pixel ukitumia programu ya GrapheneOS iliyosakinishwa awali (kuna makampuni yanayouza). Fahamu tu kwamba unaweka kiasi kidogo cha uaminifu kwa mtoa huduma.
 
 
 ### Programu Zilizosakinishwa mapema
@@ -331,10 +331,10 @@ Watu wengi ambao hawapendezwi na nafasi ya faragha wana uwezekano wa kutumia Wha
 
 
 
-- [Signal](https://signal.org/) ni mojawapo ya wajumbe maarufu zaidi waliosimbwa kutoka mwisho hadi mwisho (E2EE) ambao wana rekodi nzuri ya wimbo na seti nyingi za vipengele. signals zinahitaji nambari ya simu ili kujisajili, kwa hivyo ikiwa unapanga kuzungumza na watu ambao hungependa kujua nambari yako ya simu, labda angalia baadhi ya njia mbadala. Ni lazima signals zipakuliwe kupitia Aurora Store.
+- [Signal](https://signal.org/) ni mojawapo ya wajumbe maarufu zaidi waliosimbwa kutoka mwisho hadi mwisho (E2EE) ambao wana rekodi nzuri ya wimbo na seti nyingi za vipengele. signals zinahitaji nambari ya simu ili kujisajili, kwa hivyo ikiwa unapanga kuzungumza na watu ambao hungependa kujua nambari yako ya simu, labda angalia baadhi ya njia mbadala **_[au ficha nambari yako katika mipangilio ya wasifu](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames)_**. Ni lazima signals zipakuliwe kupitia Aurora Store.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) ni mjumbe mpya kabisa wa E2EE. Haina kitambulisho cha mtumiaji, haihitaji nambari ya simu au maelezo ya kibinafsi. Watu wanakupata kwa kuchanganua msimbo wako wa kibinafsi wa QR au kwa kutembelea kiungo chako cha kipekee. Simplex pia inaruhusu watumiaji wa hali ya juu kuendesha seva yao wenyewe ili kupunguza zaidi utegemezi wa chombo chochote cha kati. Simplex haina kiteja cha eneo-kazi, kwa hivyo huenda isifae ikiwa vifaa vingi viko kwenye orodha yako ya kipaumbele. Simplex kwa Android inapatikana kupitia F-Droid.
 - [Threema](https://threema.ch/en/faq/libre_installation) inatoa matumizi sawa na Simplex, lakini imekuwapo kwa muda mrefu na kwa hivyo, inahisi kung'olewa zaidi. Threema si bure, leseni ya maisha yote inagharimu $4.99 na inaweza kununuliwa kwa Bitcoin. Threema inatoa mteja wa wavuti na programu asilia za eneo-kazi. Programu ya Android inapatikana kupitia F-Droid.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) ni FOSS Fork isiyo rasmi ya programu rasmi ya Telegram ya Android. Telegram ina 'private chats' za E2EE, lakini chaguo-msingi si la faragha. Telegram FOSS inaweza kupakuliwa kutoka F-Droid.
+- [Mercurygram](https://f-droid.org/en/packages/it.belloworld.mercurygram/) ni FOSS Fork isiyo rasmi ya programu rasmi ya Telegram ya Android. Telegram ina 'private chats' za E2EE, lakini chaguo-msingi si la faragha. Mercurygram inaweza kupakuliwa kutoka F-Droid.
 
 
 ![image](assets/fr/9.webp)
@@ -357,14 +357,13 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) ni client wa Spotify ambayo haitaji akaunti ya Premium. Spotube inapatikana kupitia F-Droid.
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) ni programu nzuri ya kuanika muziki wowote kutoka kwa muziki wa YouTube, bila malipo. ViMusic inapatikana kutoka F-Droid.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) inatoa matumizi ya YouTube bila matangazo ya kuudhi na ruhusa zinazotiliwa shaka. Ukiwa na NewPipe unaweza kujiandikisha kwa vituo, kusikiliza chinichini na hata kupakua ili kutazamwa nje ya mtandao. NewPipe inapatikana kupitia F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) ni kicheza podcast kinachokuruhusu kujisajili na kudhibiti vipindi vyako vyote unavyovipenda. AntennaPod inapatikana kupitia F-Droid.
 
 
 ![image](assets/fr/11.webp)
 
-Kushoto: Spotube, Kulia: ViMusic
+Spotube
 
 
 ### Ramani 
@@ -402,7 +401,7 @@ Kushoto: Proton Mail, Kulia: Tutanota
 
 
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) ni mpango wa kusawazisha faili. Inasawazisha faili kati ya vifaa viwili au zaidi kwa wakati halisi, imelindwa kwa usalama kutoka kwa macho ya kutazama. Data yako ni data yako pekee na unastahili kuchagua mahali itahifadhiwa, iwe itashirikiwa na watu wengine, na jinsi inavyotumwa kwenye mtandao. Usawazishaji unapatikana kupitia F-Droid.
+- [Syncthing Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingfork/) ni fork ya mpango wa kusawazisha faili. Inasawazisha faili kati ya vifaa viwili au zaidi kwa wakati halisi, imelindwa kwa usalama kutoka kwa macho ya kutazama. Data yako ni data yako pekee na unastahili kuchagua mahali itahifadhiwa, iwe itashirikiwa na watu wengine, na jinsi inavyotumwa kwenye mtandao. Syncthing Fork unapatikana kupitia F-Droid.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) vifaa vyako vyote ili kuzungumza kwa urahisi vinapounganishwa kwenye mtandao wako wa nyumbani. Tuma faili, picha, data ya ubao wa kunakili kwa urahisi kwenye vifaa vyako vyote (hata kwenye iOS!). Unganisho la KDE linaweza kupakuliwa kutoka kwa F-Droid.
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) ni programu ya madokezo ya E2EE ya kusawazisha mawazo yako na orodha za mambo ya kufanya kwenye vifaa vyako vyote. Mpango wao wa bure unapaswa kufunika kesi nyingi za matumizi ya kibinafsi. Notesnook inapatikana kwenye F-Droid.
 - [Maelezo ya Kawaida](https://f-droid.org/en/packages/com.standardnotes/) inafanana sana na Notesnook, lakini inahitaji mpango unaolipiwa ili kulinganisha na seti ya vipengele. Vidokezo vya Kawaida vinapatikana kupitia F-Droid.
@@ -419,7 +418,7 @@ Kushoto: Notesnook, Kulia: KDE Connect
 
 
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) ni programu iliyoundwa kwa uzuri ya Open Source inayopatikana kupitia F-Droid. Pia inaweza kutumia saizi tofauti za wijeti ili uweze kuona hali ya hewa katika eneo ulilochagua moja kwa moja kutoka skrini yako ya nyumbani.
+- [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) ni programu ya hali ya hewa ya chanzo wazi yenye vipengele vingi na interface ya Material 3 Expressive; inatoa taswira zilizofikiria vizuri, utabiri, hali za wakati halisi, ubora wa hewa, chavua, tahadhari za hali ya hewa kutoka vyanzo zaidi ya 50.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) ni Chanzo Huria na programu ya utafsiri inayohifadhi faragha ambayo inatumia zaidi ya lugha 200. Translate You inapatikana kupitia F-Droid.
 - [Proton calendar](https://proton.me/calendar/download) ni rahisi kutumia E2EE ambayo huwasiliana kwa urahisi na akaunti zako za barua pepe za Proton. Proton Calendar inaweza kupakuliwa kama APK au kupitia duka la Aurora.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) ni programu ya kuonyesha na kuhifadhi pasi za kuabiri, kuponi, tikiti za filamu na kadi za uanachama n.k. Pakua kwa urahisi `pkpass` au faili `espass` husika na ufungue kwa programu. PassAndroid inapatikana kupitia F-Droid.
@@ -427,7 +426,7 @@ Kushoto: Notesnook, Kulia: KDE Connect
 
 ![image](assets/fr/19.webp)
 
-Kushoto: Geometric Weather, Kulia: Proton Calendar
+Kushoto: Breezy Weather, Kulia: Proton Calendar
 
 
 ### Usalama/Faragha
@@ -438,7 +437,7 @@ Kushoto: Geometric Weather, Kulia: Proton Calendar
 - [Proton Pass](https://proton.me/pass/download) inatoa huduma sawa bila malipo kwa Bitwarden, lakini wateja wa [Proton Unlimited](https://proton.me/pricing) wanaweza kufikia vipengele vya juu zaidi. Proton Pass inapatikana kupitia APK au Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) ni programu ya Two-Factor Authentication kwa mifumo inayotumia protocols za nenosiri za wakati mmoja. Tokeni zinaweza kuongezwa kwa urahisi kwa kuchanganua msimbo wa QR. FreeOTP inapatikana kupitia F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) ni programu isiyolipishwa, salama na ya Open Source ya Android ili kudhibiti tokeni zako za 2FA za huduma zako za mtandaoni. Aegis inapatikana kupitia F-Droid.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) ni huduma ya mfumo tofauti inayolipishwa ambayo husimba data yako ndani ya nchi kwa njia fiche ili uweze kuipakia kwa usalama kwenye huduma yako ya wingu uipendayo. Cryptomator inaweza kupakuliwa kupitia F-Droid.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) ni huduma ya mfumo tofauti ya bure (_inalipishwa tu kupitia Google Play kwenye Android_) ambayo husimba data yako ndani ya nchi kwa njia fiche ili uweze kuipakia kwa usalama kwenye huduma yako ya wingu uipendayo. Cryptomator inaweza kupakuliwa kupitia F-Droid.
 
 
 ![image](assets/fr/21.webp)

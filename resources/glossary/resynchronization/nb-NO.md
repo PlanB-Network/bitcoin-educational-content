@@ -1,12 +1,13 @@
 ---
-term: RESYNKRONISERING
+term: Resynkronisering
 
+definition: Utskifting av en del av blokkjeden med en konkurrerende kjede som har mer akkumulert arbeid.
 ---
 Refererer til et fenomen der blokkjeden gjennomgår en endring av strukturen på grunn av eksistensen av konkurrerende blokker i samme høyde. Dette skjer når en del av blokkjeden erstattes av en annen kjede med en større mengde akkumulert arbeid.
 
 Disse resynkroniseringene er en del av Bitcoins naturlige funksjon, der ulike utvinnere kan finne nye blokker nesten samtidig, og dermed splitte Bitcoin-nettverket i to. I slike tilfeller kan nettverket midlertidig dele seg i konkurrerende kjeder. Når en av disse kjedene akkumulerer mer arbeid, blir de andre kjedene etter hvert forlatt av nodene, og blokkene deres blir det som kalles "foreldede blokker" eller "orphan blocks" Denne prosessen med å erstatte en kjede med en annen kalles resynkronisering.
 
-![](../../dictionnaire/assets/9.webp)
+
 
 Resynkroniseringer kan ha ulike konsekvenser. For det første, hvis en bruker har fått en transaksjon bekreftet i en blokk som viser seg å være forlatt, men denne transaksjonen ikke finnes i den til slutt gyldige kjeden, blir transaksjonen ubekreftet igjen. Derfor anbefales det å alltid vente på minst seks bekreftelser før en transaksjon anses som virkelig uforanderlig. Etter 6 blokker er resynkroniseringer så usannsynlige at sjansen for at det skal skje, kan betraktes som tilnærmet lik null.
 

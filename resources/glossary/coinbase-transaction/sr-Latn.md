@@ -1,5 +1,6 @@
 ---
-term: COINBASE (TRANSAKCIJA)
+term: Coinbase transakcija
+definition: Prva transakcija u bloku koju kreira rudar kako bi primio nagradu za blok i subvenciju.
 ---
 
 Coinbase Transaction je posebna i jedinstvena transakcija uključena u svaki blok Bitcoin Blockchain. Predstavlja prvu transakciju bloka i kreira je Miner koji je uspešno pronašao zaglavlje koje validira Proof of Work (*Proof-of-Work*), odnosno, manje ili jednako cilju.
@@ -11,4 +12,3 @@ Coinbase Transaction prvenstveno služi dvema svrhama: da dodeli Block reward do
 Coinbase Transaction se razlikuje od regularnih transakcija na nekoliko načina. Prvo, nema ulaz, što znači da nijedan postojeći izlaz transakcije (UTXO) nije potrošen njime. Zatim, skripta potpisa (`scriptSig`) za Coinbase Transaction obično sadrži proizvoljno polje koje omogućava uključivanje dodatnih podataka, kao što su prilagođene poruke ili informacije o verziji softvera Mining. Na kraju, bitkoini generisani od strane Coinbase Transaction podležu periodu sazrevanja od 100 blokova (101 potvrda) pre nego što mogu biti potrošeni, kako bi se sprečila potencijalna potrošnja nepostojećih bitkoina u slučaju reorganizacije lanca.
 
 
-> ► *Ne postoji prevod za "Coinbase" na francuski. Stoga je prihvaćeno koristiti ovaj termin direktno.*

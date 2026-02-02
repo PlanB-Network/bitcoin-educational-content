@@ -1,5 +1,6 @@
 ---
-term: FPPS (TÄIELIK TASU AKTSIA KOHTA)
+term: Fpps (full pay per share)
 
+definition: Kaevandajate tasustamise meetod, mis sisaldab osakuid (shares) ja osa tehingutasudest.
 ---
 Kaevandajate hüvitise arvutamise meetod kaevandamisbasseinides. See on PPS (*Pay Per Share*) meetodi edasiarendus. See hüvitab kaevuritele mitte ainult iga esitatud kehtiva aktsia eest, vaid sisaldab ka osa plokkide preemiast. Hüvitis arvutatakse eelmiste tehingute keskmise ja basseini hashrate'i alusel. Seega saavad kaevurid tasu esitatud aktsiate eest, olenemata sellest, kas plokk leitakse või mitte, kuid selle meetodiga hüvitatakse ka eeldatav väärtus. See pakub kaevuritele stabiilset ja prognoositavat hüvitist, kuna see välistab ploki leidmise tõenäosusega seotud varieeruvuse, kuid seab nad samas ohtu turutasu kõikumise. Samas on see riskantsem basseinide operaatorite jaoks, sest nad peavad kaevandajatele maksma ka siis, kui plokki ei leita, võttes seega varieerumisriski enda kanda.

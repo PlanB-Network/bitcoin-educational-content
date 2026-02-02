@@ -1,5 +1,6 @@
 ---
-term: SALDIRIYI TEKRARLAYIN
+term: Yeniden oynاتما saldırısı
+definition: Aynı geçmişi paylaşan bir blok zincirindeki geçerli bir işlemi başka bir blok zincirinde yeniden üreten saldırı.
 ---
 
 Bitcoin bağlamında, bir Blockchain'daki geçerli bir işlem, aynı işlem geçmişine sahip başka bir Blockchain'da kötü niyetli olarak yeniden üretildiğinde bir tekrarlama saldırısı meydana gelir. Başka bir deyişle, bir kanalda yayınlanan bir işlem, ilk işlemi gönderenin rızası olmadan başka bir kanalda çoğaltılabilir.

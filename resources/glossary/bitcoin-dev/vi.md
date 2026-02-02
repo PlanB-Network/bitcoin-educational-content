@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-PHÁT TRIỂN
+term: Bitcoin-dev
+definition: Danh sách gửi thư qua email dành riêng cho các thảo luận kỹ thuật về sự phát triển của giao thức Bitcoin.
 ---
 
 Danh sách gửi thư điện tử dành riêng cho việc phát triển giao thức Bitcoin. Bitcoin-dev được Jeff Garzik tạo ra vào năm 2011 và ban đầu được lưu trữ trên Sourceforge.net. Danh sách gửi thư sau đó được chuyển đến Linux Foundation, sau đó đến Open Source Lab và cuối cùng, kể từ tháng 2 năm 2024, nó đã được lưu trữ trên Google Groups: https://groups.google.com/g/bitcoindev

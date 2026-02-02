@@ -1,5 +1,6 @@
 ---
-term: EXTRA-NONCE
+term: Extra-nonce
+definition: Bidang dalam coinbase yang memungkinkan ruang pencarian diperluas melampaui nonce klasik untuk penambangan.
 ---
 
 Bidang yang digunakan dalam `scriptSig` dari _Coinbase Transaction_ sebuah blok, yang memungkinkan lebih banyak kemungkinan untuk diuji untuk mendapatkan _Hash_ yang lebih rendah dari target kesulitan, di samping nilai _Nonce_ klasik, yang ditemukan secara langsung di _header_ setiap blok.

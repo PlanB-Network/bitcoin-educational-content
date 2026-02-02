@@ -1,0 +1,9 @@
+question: U NWC protokolu, koji mehanizam se koristi za prenos zahteva između aplikacije i čvora?
+answer: Događaji na Nostr relejima
+wrong_answers:
+  - Direktni REST pozivi ka LND
+  - Point-to-point VPN konekcija
+  - Šifrovani DNS zahtevi
+explanation: |
+  Zahtev je šifrovan i zatim objavljen kao događaj na Nostr releju, koji čvor čita kako bi izvršio akciju.
+reviewed: false

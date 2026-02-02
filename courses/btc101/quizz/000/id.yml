@@ -1,10 +1,9 @@
-question: Apa peran penambang dalam jaringan Bitcoin?
-answer: Penambang sangat penting untuk menciptakan bitcoin baru dan mengamankan jaringan Bitcoin.
+question: Kapan perang ukuran blok terjadi?
+answer: Pada tahun 2017.
 wrong_answers:
-  - Penambang bertanggung jawab untuk mengatur harga Bitcoin.
-  - Penambang bertanggung jawab untuk membuat dompet Bitcoin.
-  - Penambang bertanggung jawab untuk mengontrol protokol Bitcoin.
-explanation: >-
-  Penambang memainkan peran krusial dalam jaringan Bitcoin karena mereka bertanggung jawab
-  untuk menciptakan bitcoin baru dan mengamankan jaringan Bitcoin dengan mengkonsumsi listrik untuk hashing sebuah blok transaksi.
+  - Pada tahun 2008.
+  - Pada tahun 2010.
+  - Pada tahun 2019.
+explanation: |
+  Perang ukuran blok terjadi pada tahun 2017. Konflik ini mempertentangkan pihak yang ingin memodifikasi Bitcoin dengan meningkatkan ukuran blok untuk meningkatkan kapasitas transaksi, dengan pihak yang berusaha menjaga independensi dan kekuatan pengguna dengan mempertahankan ukuran 1 MB.
 reviewed: true

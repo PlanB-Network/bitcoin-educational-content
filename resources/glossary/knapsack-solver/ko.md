@@ -1,5 +1,6 @@
 ---
-term: 배낭 해결사
+term: Knapsack solver
+definition: Bitcoin Core의 옛날 코인 선택 방식으로, 현재는 Branch-and-Bound로 대체되었습니다.
 ---
 
 0.17 버전 이전의 Bitcoin core Wallet에서 코인을 선택하는 데 사용되던 오래된 방법입니다. 배낭 솔버는 수수료와 트랜잭션 크기를 최소화하는 것을 목표로 반복적으로 무작위로 UTXO를 선택하고 하위 집합별로 합산하는 방식으로 Coin 선택 문제를 해결하려고 시도합니다. 이 방법은 이후 *Branch-and-Bound*로 대체되었습니다.

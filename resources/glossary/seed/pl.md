@@ -1,5 +1,6 @@
 ---
-term: ZIARNO
+term: Seed
+definition: 512-bitowa informacja pozwalająca na wygenerowanie wszystkich kluczy portfela HD Bitcoin.
 ---
 
 W konkretnym kontekście hierarchicznego deterministycznego portfela Bitcoin, seed to 512-bitowy fragment informacji pochodzący ze zdarzenia losowego. Jest on używany do deterministycznego i hierarchicznego generate zestawu kluczy prywatnych i odpowiadających im kluczy publicznych dla portfela Bitcoin. seed jest często mylony z samą frazą odzyskiwania. Nie jest to jednak to samo. seed jest uzyskiwany przez zastosowanie funkcji `PBKDF2` do frazy Mnemonic i dowolnego passphrase.

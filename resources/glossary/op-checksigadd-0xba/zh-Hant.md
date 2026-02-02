@@ -1,5 +1,6 @@
 ---
-term: op_checksigadd (0xba)
+term: OP_CHECKSIGADD (0XBA)
+definition: 驗證簽名並在有效時遞增計數器的Tapscript操作碼。
 ---
 
 從堆疊中抽取前三個值：`public key`、`CScriptNum``n`和`signature`。如果簽章不是空向量且無效，腳本會以錯誤結束。如果簽章有效或為空向量 (`OP_0`)，則會出現兩種情況：

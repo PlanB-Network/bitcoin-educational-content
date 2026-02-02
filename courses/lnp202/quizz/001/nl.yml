@@ -1,0 +1,9 @@
+question: Welk mechanisme voorkomt het vrijgeven van een oude Lightning-kanaaltoestand?
+answer: De revocatiesleutel
+wrong_answers:
+  - Transactiekosten
+  - Absolute tijdklokken
+  - Netwerk roddel
+explanation: |
+  Revocatiesleutels worden gebruikt om een knooppunt te straffen dat een oude kanaaltoestand probeert te publiceren.
+reviewed: false

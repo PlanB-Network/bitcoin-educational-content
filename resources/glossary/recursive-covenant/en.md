@@ -1,5 +1,6 @@
 ---
-term: RECURSIVE (COVENANT)
+term: Recursive (covenant)
+definition: Covenant imposing conditions on the current transaction and all those that follow indefinitely.
 ---
 
 A recursive covenant on Bitcoin is a type of smart contract that imposes conditions not only on the current transaction but also on future transactions that spend the outputs of this transaction. This allows for the creation of transaction chains where each must adhere to certain rules defined by the first in the chain. Recursivity creates a sequence of transactions where each inherits the restrictions from its parent transaction. This would enable complex and long-term control over how bitcoins can be spent, but it would also introduce risks regarding spending freedom and fungibility.

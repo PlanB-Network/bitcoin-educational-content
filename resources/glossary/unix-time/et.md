@@ -1,6 +1,7 @@
 ---
-term: UNIX TIME
+term: Unixi aeg
 
+definition: Sekundite arv, mis on möödunud 1. jaanuarist 1970 keskööl UTC, mida kasutatakse Bitcoini ajahalduses.
 ---
 Unixi aeg või Unixi ajatempel tähistab 1. jaanuari 1970. aasta keskööst (Unixi ajastu) möödunud sekundite arvu (Unixi ajastu). Seda süsteemi kasutatakse Unixi operatsioonisüsteemides ja nende teisendites aja märkimiseks universaalsel ja standardiseeritud viisil. See võimaldab kellade sünkroniseerimist ja ajapõhiste sündmuste haldamist, olenemata ajavöönditest.
 

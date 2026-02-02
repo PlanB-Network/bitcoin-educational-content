@@ -1,5 +1,6 @@
 ---
-term: ENTROPY
+term: Entropy
+definition: Measure of the unpredictability of a data source, crucial for generating secure keys.
 ---
 
 Entropy, in the context of cryptography and information, is a quantitative measure of the uncertainty or unpredictability associated with a data source or a random process. Entropy plays a crucial role in the security of cryptographic systems, especially in the generation of keys and random numbers. High entropy ensures that the generated keys are sufficiently unpredictable and resistant to brute-force attacks, where an attacker tries all possible combinations to guess the key.

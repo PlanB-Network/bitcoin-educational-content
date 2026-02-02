@@ -1,5 +1,6 @@
 ---
-term: KOD BCH
+term: Kod BCH
+definition: Kody korekcyjne błędów używane w adresach Bech32 i Bech32m do wykrywania błędów wprowadzania.
 ---
 
 Klasa kodów korekcji błędów używanych do wykrywania i korygowania błędów w sekwencji danych. Innymi słowy, kody korekcji błędów BCH są używane do znajdowania i korygowania losowych błędów w przesyłanych informacjach, aby zapewnić, że dotrą one do miejsca przeznaczenia w nienaruszonym stanie. Skrót "BCH" oznacza inicjały nazwisk wynalazców tych kodów: Bose, Ray-Chaudhuri i Hocquenghem.

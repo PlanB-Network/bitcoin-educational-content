@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition: Unité de bitcoin interprétée comme non fongible et associée à un actif externe via un protocole.
 ---
 
 Acronyme de *Non Fongible Token*. Un NFT représente une unité de bitcoin qui, par des utilisateurs d'un protocole de seconde couche, est interprétée non fongible et associée à la propriété d'un actif externe à Bitcoin, tel qu'une image ou tout autre type de donnée.

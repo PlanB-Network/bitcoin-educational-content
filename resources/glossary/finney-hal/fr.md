@@ -1,5 +1,6 @@
 ---
-term: FINNEY HAL
+term: Finney hal
+definition: Cryptographe et développeur ayant joué un rôle crucial dans les débuts de Bitcoin aux côtés de Satoshi.
 ---
 
 Harold T. Finney II, dit Hal Finney, est un cryptographe et développeur célèbre pour son rôle crucial dans les débuts de Bitcoin et ses contributions à la cryptographie. Dès la publication du White Paper de Bitcoin en 2008, il fut l'un des premiers à interagir avec Satoshi Nakamoto. Il a apporté des retours, signalé des bugs et proposé des améliorations après le lancement du logiciel en janvier 2009. Il a été le destinataire de la première transaction Bitcoin (en dehors des coinbases), en recevant 10 BTC de la part de Satoshi dans le bloc n° 170 :

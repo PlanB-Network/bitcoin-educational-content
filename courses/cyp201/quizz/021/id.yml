@@ -6,4 +6,4 @@ wrong_answers:
   - Sangat lama untuk dihitung
 explanation: |
   Perkalian skalar pada kurva eliptik adalah fungsi satu arah, membuatnya tidak mungkin untuk mengambil kembali kunci privat dari kunci publik.
-ditinjau: false
+reviewed: true

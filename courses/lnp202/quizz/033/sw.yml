@@ -1,0 +1,9 @@
+question: Ni zana gani kati ya hizi ambazo hazitambui wenzao husika kwenye Lightning?
+answer: Electrum
+wrong_answers:
+  - Kituo cha Umeme
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum si kichunguzi cha umeme cha kupata taarifa kwenye nodi za mtandao. Zana zingine tatu, kwa upande mwingine, hufanya kazi hii vizuri.
+reviewed: false

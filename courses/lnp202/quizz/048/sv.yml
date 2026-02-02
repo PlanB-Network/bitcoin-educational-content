@@ -1,0 +1,9 @@
+question: Vilken kostnadsfri lösning för inkommande likviditet bygger på samarbete?
+answer: LN+
+wrong_answers:
+  - Magma
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus ger inkommande likviditet via cirkulära kanalöppningar.
+reviewed: false

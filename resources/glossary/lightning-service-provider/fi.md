@@ -1,5 +1,6 @@
 ---
-term: SALAMAPALVELUN TARJOAJA
+term: Lightning service provider
+definition: Yritys, joka tarjoaa likviditeettipalveluita Lightning-verkon käyttäjille.
 ---
 
 Lightningissa toimiva yritys, jonka liiketoiminta on likviditeettipalvelujen tarjoaminen käyttäjille.

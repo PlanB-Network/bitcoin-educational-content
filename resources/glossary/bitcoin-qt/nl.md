@@ -1,5 +1,6 @@
 ---
 term: Bitcoin QT
+definition: Bitcoin-client met een grafische interface gepubliceerd in 2011, in 2014 hernoemd naar Bitcoin Core.
 ---
 
 Bitcoin QT is een Bitcoin client met een grafische Interface, uitgebracht in mei 2011. Het volgt in de voetsporen van de Satoshi client. In 2014 werd Bitcoin QT omgedoopt tot "Bitcoin core". Het is nu de referentie-implementatie van het Bitcoin protocol. Het is verpakt met `bitcoind` sinds versie 0.5. Bovendien wordt de grafische Interface van Bitcoin core tegenwoordig `Bitcoin-qt` genoemd, als verwijzing naar de oorsprong van de software.

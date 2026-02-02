@@ -1,5 +1,6 @@
 ---
-term: NORMÁLNÍ DERIVACE
+term: Normální derivace
 
+definition: Proces generování dceřiných klíčů pomocí rodičovského veřejného klíče v HD peněženkách.
 ---
 Proces generování podřízených klíčů v peněženkách HD. Normální odvozování používá rodičovský veřejný klíč jako vstup pro funkci `HMAC-SHA512`, která umožňuje generování podřízených veřejných klíčů z rodičovského veřejného klíče a rodičovského řetězového kódu. Proces zahrnuje spojení rodičovského veřejného klíče a indexu menšího než $2^{31}$, po kterém následuje použití funkce `HMAC-SHA512` s rodičovským řetězovým kódem. Výsledek se rozdělí na dvě části: prvních 256 bitů se přidá k rodičovskému soukromému klíči, čímž se získá podřízený soukromý klíč, zatímco zbývajících 256 bitů tvoří podřízený řetězový kód. Tato metoda zajišťuje, že rozšířený veřejný klíč lze použít k odvození veřejných klíčů potomků. Při standardním odvozování se na všech úrovních odvozování od hloubky účtu používá normální odvozování. V zápisu odvozovacích cest je normální odvození identifikováno, pokud je uveden pouze index bez apostrofu `'`.

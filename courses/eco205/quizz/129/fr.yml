@@ -1,0 +1,8 @@
+question: Comment Ludwig von Mises définit-il le concept d'intérêt originel?
+answer: Comme le rapport entre la valeur attribuée à la satisfaction des besoins immédiats et celle attribuée aux périodes futures plus lointaines
+wrong_answers:
+  - "Comme la différence entre le coût d'opportunité de détenir de la monnaie et celui de détenir des actifs financiers"
+  - "Comme le mécanisme qui équilibre automatiquement l'offre et la demande sur le marché des capitaux à long terme"
+  - "Comme la prime de risque que les investisseurs exigent pour compenser l'incertitude liée aux investissements futurs"
+explanation: |
+  L'intérêt originel selon Mises représente la différence subjective de valorisation temporelle entre présent et futur, propre à chaque individu. Cette conception diffère des approches keynésiennes (coût d'opportunité monétaire) et néoclassiques (équilibre offre-demande). Il ne s'agit pas non plus d'une prime de risque, mais bien du prix fondamental du temps lui-même, reflétant les préférences temporelles individuelles dans leur rapport entre consommation immédiate et future.

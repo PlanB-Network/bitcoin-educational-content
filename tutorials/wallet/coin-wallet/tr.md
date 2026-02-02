@@ -211,11 +211,12 @@ Bitcoin'i göndermek için:
 4. İşlem hızını seçin:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Hız   | Yaklaşık onay süresi | Ücret seviyesi     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Yavaş**    | ~120 dakika              | En düşük
+| **Varsayılan** | ~60 dakika               | Orta
+| **Hızlı**    | ~20 dakika               | Daha yüksek
 
 5. 4 haneli PIN kodunuzla onaylayın → işlem yayınlanır
 
@@ -251,12 +252,13 @@ Replace-by-fee (RBF) hakkında daha fazla bilgi: https://bitcoinops.org/en/topic
 (Kullanıcıların %99'u bunu asla yapmaz - 12 kelimelik passphrase yeterlidir)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Durum                                      | Neden özel anahtara ihtiyacınız var                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Eski bir kağıt cüzdanı temizleme                   | Fonları mevcut cüzdanınıza taşımak için             |
+| Donanım imzalayıcısına aktarma (ör. Coldcard) | Çevrimdışı imzalama için                              |
+| Acil durum kurtarma (kayıp tohum ama uygulama hala açık) | Uygulama gitmeden önce paraları kurtarmak için           |
+| Tohum ifadelerini kabul etmeyen araçları kullanma     | Bazı izleme yalnızca veya imza yardımcı programları             |
 
 ### Coin Wallet'de özel anahtarlar nasıl dışa aktarılır
 
@@ -313,14 +315,16 @@ Coin Wallet, neredeyse tüm ciddi cüzdanlar tarafından kullanılan resmi Bitco
 Tek bir ana anahtardan wallet, kesin olarak tanımlanmış bir sırayla milyarlarca adresi generate yapabilir. Bu nedenle Electrum, Sparrow, Trezor, Ledger, BlueWallet vb. programlara girilen aynı 12 kelime tamamen aynı adresleri ve bakiyeleri gösterecektir.
 
 
-**Bitcoin** için Coin Wallet'de kullanılan sapma yolları
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+**Coin Wallet'de Bitcoin için kullanılan türetme yolları**
+
+| Adres türü              | Standart | Türetme yolu       | Başlangıç | Yorum                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| Yerel SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, en düşük ücretler           |
+| İç içe SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Eski hizmetler için uyumluluk sarmalayıcı |
+| Miras (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | En eski format, en yüksek ücretler          |
 
 Her yolun içinde:
 

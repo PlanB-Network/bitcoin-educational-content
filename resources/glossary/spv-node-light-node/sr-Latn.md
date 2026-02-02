@@ -1,5 +1,6 @@
 ---
-term: SPV ČVOR (LAKI ČVOR)
+term: SPV čvor (laki čvor)
+definition: Laki klijent koji verifikuje transakcije čuvajući samo zaglavlja blokova i proveravajući Merkle dokaze.
 ---
 
 Čvor SPV (*Simple Payment Verification*), ponekad nazvan "laki čvor," je lagani klijent čvora Bitcoin koji omogućava korisnicima da verifikuju transakcije bez potrebe za skladištenjem celog Blockchain. Umesto toga, SPV čvor skladišti samo zaglavlja blokova i dobija informacije o specifičnim transakcijama upitom ka punim čvorovima kada je to potrebno. Ovaj princip verifikacije je omogućen strukturom transakcija u Bitcoin blokovima, koje su organizovane unutar kriptografskog akumulatora (Merkle Tree).

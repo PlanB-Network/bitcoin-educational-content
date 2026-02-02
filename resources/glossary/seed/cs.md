@@ -1,5 +1,6 @@
 ---
-term: GRAIN
+term: Seed
+definition: 512bitová informace umožňující generovat všechny klíče HD bitcoinové peněženky.
 ---
 
 Ve specifickém kontextu hierarchického deterministického portfolia Bitcoin je seed 512bitová informace odvozená z náhodné události. Používá se k deterministickému a hierarchickému generate souboru soukromých klíčů a jim odpovídajících veřejných klíčů pro portfolio Bitcoin. seed je často zaměňován se samotnou frází pro obnovu. Není to však totéž. Frázi seed získáme aplikací funkce `PBKDF2` na frázi Mnemonic a libovolnou frázi passphrase.

@@ -1,6 +1,7 @@
 ---
 term: P2SH-P2WPKH
 
+definition: SegWit-скрипт (P2WPKH), обернутый в P2SH для совместимости; адреса начинаются с 3.
 ---
 P2SH-P2WPKH расшифровывается как *Pay to Script Hash - Pay to Witness Public Key Hash*. Это стандартная модель скриптов, используемая для создания условий расходования средств на UTXO, также известная как "вложенный SegWit".
 

@@ -1,6 +1,7 @@
 ---
-term: LOGARITMO DISCRETO
+term: Logaritmo discreto
 
+definition: Problema matemático difícil de resolver que constituye la base de la seguridad criptográfica de Bitcoin.
 ---
 El logaritmo discreto es un problema matemático que se utiliza en algunos algoritmos criptográficos de clave pública. En un grupo cíclico de orden $q$, con un generador $g$, si se tiene una ecuación de la forma $g^x = h$, entonces $x$ se llama logaritmo discreto de $h$ con respecto a la base $g$, módulo $q$. En términos sencillos, se trata de determinar el exponente $x$ cuando se conocen $g$, $h$ y $q$. El logaritmo discreto es, pues, la inversa de la exponencial en un grupo cíclico finito. Sin embargo, para valores grandes de $q$, resolver el problema del logaritmo discreto se considera algorítmicamente difícil. Esta propiedad se aprovecha para garantizar la seguridad de muchos protocolos criptográficos, como el protocolo Diffie-Hellman de intercambio de claves.
 

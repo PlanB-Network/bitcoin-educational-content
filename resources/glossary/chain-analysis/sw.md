@@ -1,5 +1,6 @@
 ---
-term: UCHAMBUZI WA Mnyororo
+term: Uchambuzi wa mnyororo
+definition: Mazoezi ya kufuatilia mtiririko wa bitcoin kwenye blockchain kwa kutumia utabiri na mifumo.
 ---
 
 Mazoezi ambayo yanajumuisha njia zote zinazotumiwa kufuatilia mtiririko wa bitcoins kwenye Blockchain. Kwa ujumla, uchanganuzi wa mnyororo hutegemea uchunguzi wa sifa katika sampuli za shughuli za awali. Kisha inahusisha kutambua sifa hizi hizo katika shughuli ambayo mtu anataka kuchanganua, na kutoa tafsiri zinazokubalika. Njia hii ya kutatua matatizo, kwa kuzingatia mbinu ya vitendo ya kupata suluhisho zuri vya kutosha, inajulikana kama heuristic. Ili kurahisisha, uchambuzi wa mnyororo unafanywa katika hatua kuu mbili:

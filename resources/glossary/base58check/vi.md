@@ -1,6 +1,7 @@
 ---
-term: BASE58CHECK
+term: Base58check
 
+definition: Mã hóa được sử dụng cho các địa chỉ Bitcoin Legacy, sử dụng 58 ký tự không gây nhầm lẫn và một mã kiểm tra để phát hiện lỗi nhập liệu.
 ---
 `Base58Check` is an encoding used in the Bitcoin system to represent Legacy receiving addresses and certain other data, such as extended keys, in the form of human-readable character strings. It is a variant of the `Base58` system, a positional representation of base 58 designed to minimize human transcription errors. It uses a set of 58 alphanumeric characters, consisting of the digits from `1` to `9`, uppercase letters from `A` to `Z` (excluding the letters `I` and `O` to avoid confusion with the digits `1` and `0`), and lowercase letters from `a` to `z` (excluding the letter `l` to avoid confusion with the digit `1`). `Base58Check` differs from `Base58` by adding a checksum. It is represented by a reduced version of a double `SHA256` hash of the original data (`SHA256d` or `HASH256`), at the end of the data encoded in `Base58`. When verifying, the checksum is recalculated and compared to the one that was added during encoding. If the two hashes match, the data is considered valid; otherwise, a corruption or transcription error is reported.
 

@@ -1,0 +1,9 @@
+question: Šta LND seed može samostalno da obnovi?
+answer: Onchain wallet
+wrong_answers:
+  - Otvoreni kanali
+  - Stanja kanala
+  - Ništa
+explanation: |
+  seed preuzima Bitcoin na lancu wallet, ali ne i aktivne Lightning kanale.
+reviewed: false

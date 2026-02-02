@@ -1,5 +1,6 @@
 ---
-term: SKOMPRESOWANY KLUCZ PUBLICZNY
+term: Skompresowany klucz publiczny
+definition: Kompaktowa forma klucza publicznego wykorzystująca tylko współrzędną x oraz prefiks parzystości (02 lub 03).
 ---
 
 Klucz publiczny jest używany w skryptach (bezpośrednio w formie klucza publicznego lub jako Address) do odbierania i zabezpieczania bitcoinów. Surowy klucz publiczny jest reprezentowany przez punkt na krzywej eliptycznej, składający się z dwóch współrzędnych (`x, y`) po 256 bitów każda. W surowym formacie klucz publiczny mierzy zatem 512 bitów, nie licząc dodatkowego bajtu identyfikującego format. Z drugiej strony, skompresowany klucz publiczny jest bardziej kompaktową formą reprezentacji klucza publicznego. Używa tylko współrzędnej `x` i prefiksu (`02` lub `03`), który wskazuje parzystość współrzędnej `y` (parzysta lub nieparzysta).
@@ -8,7 +9,7 @@ Klucz publiczny jest używany w skryptach (bezpośrednio w formie klucza publicz
 Jeśli uprościmy to do dziedziny liczb rzeczywistych, to biorąc pod uwagę, że krzywa eliptyczna jest symetryczna względem osi x, dla dowolnego punktu $P$ (`x, y`) na krzywej, istnieje punkt $P'$ (`x, -y`), który również będzie na tej samej krzywej. Oznacza to, że dla każdego `x` istnieją tylko dwie możliwe wartości `y`, dodatnia i ujemna. Na przykład, dla danej odciętej `x`, będą dwa punkty $P1$ i $P2$ na krzywej eliptycznej, dzielące tę samą odciętą, ale o przeciwnych rzędnych:
 
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Aby wybrać pomiędzy dwoma potencjalnymi punktami na krzywej, do `x` dodawany jest prefiks określający, który `y` wybrać. Metoda ta pozwala zmniejszyć rozmiar klucza publicznego z 520 bitów do zaledwie 264 bitów (8 bitów prefiksu + 256 bitów dla `x`). Ta reprezentacja jest znana jako skompresowana forma klucza publicznego.
 

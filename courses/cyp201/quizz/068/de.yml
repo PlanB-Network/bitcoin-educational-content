@@ -1,9 +1,9 @@
-question: Was ist die Einschränkung für die Ableitung eines öffentlichen Kind-Schlüssels von einem öffentlichen Eltern-Schlüssel?
-answer: Der Kind-Schlüssel muss normal sein
+question: Was ist die Einschränkung für die Ableitung eines öffentlichen untergeordneten Schlüssels von einem öffentlichen übergeordneten Schlüssel?
+answer: Der untergeordnete Schlüssel muss normal sein
 wrong_answers:
-  - Der Kind-Schlüssel muss gehärtet sein
-  - Der Chain-Code muss identisch mit dem des Eltern-Schlüssels sein
-  - Der Prozess muss den Eltern-Privatschlüssel beinhalten
+  - Der untergeordnete Schlüssel muss gehärtet sein
+  - Der Chain-Code muss identisch mit dem des übergeordneten Schlüssels sein
+  - Der Prozess muss den privaten übergeordneten Schlüssel beinhalten
 explanation: |
-  Ein öffentlichen Eltern-Schlüssel kann nur von einem Eltern-Öffentlichen-Schlüssel abgeleitet werden, wenn er normal und nicht gehärtet ist.
+  Ein öffentlicher untergeordneter Schlüssel kann nur von einem öffentlichen übergeordneten Schlüssel abgeleitet werden, wenn er nicht gehärtet ist.
 reviewed: true

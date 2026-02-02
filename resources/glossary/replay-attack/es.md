@@ -1,5 +1,6 @@
 ---
-term: ATAQUE DE REPETICIÓN
+term: Ataque de repetición
+definition: Ataque que reproduce una transacción válida de una blockchain en otra que comparte el mismo historial.
 ---
 
 En el contexto de Bitcoin, se produce un ataque de repetición cuando una transacción válida en un Blockchain se reproduce maliciosamente en otro Blockchain que tiene el mismo historial de transacciones. En otras palabras, una transacción difundida en un canal puede reproducirse en otro sin el consentimiento del remitente de la primera transacción.

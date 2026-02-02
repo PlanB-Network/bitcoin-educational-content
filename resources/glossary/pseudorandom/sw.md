@@ -1,5 +1,6 @@
 ---
-term: PSEUDO-RANDOM
+term: Pseudorandom
+definition: Msururu wa nambari zilizozalishwa kwa njia ya kuamua na sifa zilizo karibu na nasibu.
 ---
 
 Kivumishi hiki kinatumika kuelezea mfuatano wa nambari ambazo, ingawa ni matokeo ya mchakato wa kubainisha, huonyesha sifa zinazokaribiana na zile za mfuatano bora wa nasibu. Dhana ya unasibu bora unamaanisha kutokuwepo kabisa kwa utabiri na uwiano kati ya Elements mfululizo. Nambari ya pseudo-random inatolewa na algorithm ya kuamua na kwa hiyo, kwa nadharia, inaweza kutabirika kabisa ikiwa mtu anajua hali ya awali ya jenereta.

@@ -53,16 +53,17 @@ Evo brze uporedbe između White Noise i nekoliko najpoznatijih aplikacija za raz
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Tačke poređenja             | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE šifrovanje / 1:1       | ✅ Da         | Opciono    | ✅ Da             | ✅ Da    | ✅ Da     | ✅ Da              | ✅ Da   |
+| Grupno E2EE šifrovanje      | ✅ Da         | ❌ Ne       | ✅ Da             | ✅ Da    | ✅ Da     | Opciono           | ✅ Da   |
+| Anonimizacija identiteta    | ✅ Da         | Opciono    | ❌ Ne             | ✅ Da    | ❌ Ne     | ❌ Ne              | ❌ Ne   |
+| Server otvorenog koda       | ✅ Da         | ❌ Ne       | ❌ Ne             | ✅ Da    | ❌ Ne     | ❌ Ne              | ✅ Da   |
+| Klijent otvorenog koda      | ✅ Da         | ✅ Da        | ❌ Ne             | ✅ Da    | ❌ Ne     | ❌ Ne              | ✅ Da   |
+| Decentralizovani server     | ✅ Da         | ❌ Ne       | ❌ Ne             | ✅ Da    | ❌ Ne     | ❌ Ne              | ❌ Ne   |
+| Godina osnivanja            | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Početak sa White Noise
 

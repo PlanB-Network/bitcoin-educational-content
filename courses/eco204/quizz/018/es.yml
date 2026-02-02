@@ -6,4 +6,4 @@ wrong_answers:
   - No tienen en cuenta el impacto de la inflación en la economía.
 explanation: |
   Las tablas clásicas de hiperinflación, como la tabla Hanke-Krus, a menudo excluyen ciertos períodos históricos de alta inflación debido a criterios de clasificación estrictos, como el umbral de inflación mensual del 50% estipulado por la definición de Cagan.
-reviewed: false
+reviewed: true

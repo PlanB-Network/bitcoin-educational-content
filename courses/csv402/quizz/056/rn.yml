@@ -1,9 +1,9 @@
 question: Ni ibihe bintu nyamukuru bisabwa kugira ngo umuntu akoreshe node ya Lightning ihuye na RGB?
 answer: bitcoind, urutonde n'umukozi w'ubutumwa RGB
 wrong_answers:
-  - Uruzitiro rw'umuravyo, urutonde na umukozi wa IPFS
-  - Igikoresho gigendagenda RGB Wallet, igikoresho co gukoresha RGB n’igikoresho co gukoresha bitcoind.
+  - node ya Lightning, urutonde na umukozi wa IPFS
+  - Ingodo yo kuri ngendanwa ya RGB, igikoresho co gukoresha RGB n’igikoresho co gukoresha bitcoind.
   - Umukiriya w'urubuga, urutonde na umuserukira wa RGB
 explanation: |
-  Kugira ngo ukoreshe urudodo rwa Lightning rukoreshwa na RGB, ukeneye urudodo rwa bitcoind kugira ngo ukoreshe Bitcoin Blockchain, indexer yo gucukura ibikorwa vya On-Chain, n’umukozi wa RGB wo gufasha Exchange y’ibirungikwa hagati y’urunganwe.
-reviewed: false
+  Kugira ngo ukoreshe node ya Lightning ikoreshwa na RGB, ukeneye node ya bitcoind kugira ngo ukoreshe Blockchain ya Bitcoin, indexer yo gucukura ibikorwa vya On-Chain, n’umukozi wa RGB wo gufasha Uguanahana kw'ibirungikwa hagati y’urunganwe.
+reviewed: true

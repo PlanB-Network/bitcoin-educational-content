@@ -1,5 +1,6 @@
 ---
-term: UGUNDUZI WA RIKA
+term: Uvumbuzi wa marika
+definition: Mchakato ambao nodi ya Bitcoin hugundua na kuunganishwa na nodi zingine kwenye mtandao.
 ---
 
 Mchakato ambao nodi katika mtandao wa Bitcoin huunganisha kwenye nodi nyingine ili kupata taarifa. Wakati nodi ya Bitcoin inapozinduliwa kwanza, haina taarifa kuhusu nodi nyingine kwenye mtandao. Hata hivyo, ni lazima ianzishe miunganisho ili kusawazisha na Blockchain ambayo ina kazi iliyokusanywa zaidi. Mbinu kadhaa hutumiwa kugundua rika hizi, kwa mpangilio wa kipaumbele:

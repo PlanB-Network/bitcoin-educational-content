@@ -1,5 +1,6 @@
 ---
-term: エヌエフティー
+term: NFT
+definition: プロトコルを通じて外部資産に関連付けられ、代替不可能（non-fungible）として解釈されるビットコインの単位。
 ---
 
 Non-Fungible Token*の略。NFTはBitcoinの単位を表し、セカンドLayerプロトコルのユーザーによって非腐敗性と解釈され、画像や他のタイプのデータのようなBitcoinの外部の資産のOwnershipと関連付けられる。

@@ -1,5 +1,6 @@
 ---
-term: op_greaterthanorequal (0xa2)
+term: OP_GREATERTHANOREQUAL (0XA2)
+definition: 檢查堆疊第一個元素是否大於或等於第二個元素的Opcode。
 ---
 
 比較堆疊上最頂端的兩個 Elements，並檢查第一個元素是否大於或等於第二個元素。如果第一個元素大於或等於第二個元素，則將 `1` (true) 推入堆疊；否則將 `0` (false) 推入堆疊。

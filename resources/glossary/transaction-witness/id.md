@@ -1,6 +1,7 @@
 ---
-term: TRANSACTION WITNESS
+term: Witness transaksi
 
+definition: Komponen SegWit yang berisi tanda tangan dan kunci publik yang diperlukan untuk membuka kunci bitcoin dalam suatu transaksi.
 ---
 Mengacu pada komponen transaksi Bitcoin yang dipindahkan dengan _soft fork_ SegWit untuk mengatasi masalah maleabilitas transaksi. _Witness_ berisi tanda tangan dan kunci publik yang diperlukan untuk membuka kunci bitcoin yang dibelanjakan dalam sebuah transaksi. Dalam transaksi Legacy, _witness_ mewakili jumlah `scriptSig` dari semua input. Dalam transaksi SegWit, _witness_ mewakili jumlah `scriptWitness` untuk setiap input, dan bagian transaksi ini sekarang dipindahkan ke pohon Merkle yang terpisah di dalam blok.
 

@@ -1,5 +1,6 @@
 ---
-term: GİRİŞ
+term: Girdi (Input)
+definition: Bir Bitcoin işleminde fon kaynağı olarak kullanılan ve önceki bir çıktıya (output) atıfta bulunan UTXO.
 ---
 
 Bitcoin bağlamında, bir işlem içindeki bir girdi, çıktıları karşılamak için orijinal fon olarak kullanılan UTXO'ları (*Harcama Yapılmamış İşlem Çıktıları*) ifade eder. Her girdi, daha sonra işlem tarafından tüketilecek olan önceki UTXO'lara referanslar içerir. Bu girdiler, işlemin çıktıları olarak oluşturulacak ve daha sonra gelecekteki işlemlerde harcanabilecek yeni UTXO'ları beslemek için kullanılır.

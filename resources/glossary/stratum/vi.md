@@ -1,6 +1,7 @@
 ---
-term: STRATUM
+term: Stratum
 
+definition: Giao thức mạng tối ưu hóa giao tiếp giữa các thợ đào cá nhân và máy chủ của các pool đào.
 ---
 A network protocol layered on top of Bitcoin specifically designed to optimize communication between individual miners and mining pool servers to increase their profitability. Stratum was announced in late 2011 by Marek Palatinus, better known by the pseudonym "Slush" and the founder of the very first mining pool, Slush Pool, now renamed Braiins. Stratum came to replace the older Getwork protocol, which had become obsolete.
 

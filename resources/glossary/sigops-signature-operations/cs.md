@@ -1,6 +1,7 @@
 ---
-term: SIGOPS (PODPISOVÉ OPERACE)
+term: Sigops (signature operations)
 
+definition: Operace digitálního podpisu nezbytné pro validaci bitcoinových transakcí.
 ---
 Vztahuje se na operace s digitálním podpisem, které jsou nezbytné k ověření transakcí. Každá bitcoinová transakce může obsahovat více vstupů, z nichž každý může vyžadovat jeden nebo více podpisů, aby byl považován za platný. Ověřování těchto podpisů se provádí pomocí specifických opkódů zvaných "sigops". Konkrétně se jedná o `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG` a `OP_CHECKMULTISIGVERIFY`. Tyto operace představují určitou zátěž pro síťové uzly, které je musí ověřit. Aby se zabránilo útokům DoS prostřednictvím umělého nafouknutí počtu sigops, zavádí proto protokol omezení počtu sigops povolených na blok, aby se zajistilo, že zátěž při ověřování zůstane pro uzly zvládnutelná. Tento limit je v současné době stanoven na maximálně 80 000 sigops na blok. Pro počítání se uzly řídí těmito pravidly:
 

@@ -1,7 +1,7 @@
 question: Какое решение "узел в коробке" является лидером рынка на сегодняшний день?
-answer: Зонтик
+answer: Umbrel
 wrong_answers:
-  - Старт9
+  - Start9
   - Nodl
   - RoninDojo
 explanation: |

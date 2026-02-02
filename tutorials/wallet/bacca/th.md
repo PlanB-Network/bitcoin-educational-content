@@ -137,7 +137,7 @@ cargo run -p ledger_manager_gui
 ก่อนที่คุณจะเริ่ม หาก Ledger ของคุณเป็นเครื่องใหม่ ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่ารหัส PIN และบันทึกวลีการกู้คืนแล้ว คุณไม่จำเป็นต้องใช้ Ledger Live สำหรับขั้นตอนเริ่มต้นเหล่านี้ เพียงเชื่อมต่อ Ledger ของคุณผ่านสาย USB เพื่อจ่ายไฟให้กับมัน หากคุณไม่แน่ใจว่าจะดำเนินการสองขั้นตอนนี้อย่างไร คุณสามารถดูที่จุดเริ่มต้นของบทแนะนำเฉพาะสำหรับรุ่นของคุณ:
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

@@ -1,6 +1,7 @@
 ---
-term: JENIS MATA UANG
+term: Jenis mata uang
 
+definition: Tingkat derivasi dompet HD yang memungkinkan cabang dipisahkan sesuai dengan mata uang kripto yang digunakan.
 ---
 Dalam konteks dompet deterministik dan hirarkis (HD), jenis mata uang (*coin type* dalam bahasa Inggris) adalah sebuah tingkat derivasi yang memungkinkan untuk membedakan cabang-cabang dompet berdasarkan berbagai mata uang digital yang digunakan. Lapisan derivasi ini, yang didefinisikan oleh BIP 44, terletak di kedalaman 2 dari struktur derivasi, setelah kunci utama dan derivasi tujuan. Sebagai contoh, untuk Bitcoin, indeks yang ditetapkan adalah `x80000000`, dicatat sebagai `/0'/` pada jalur derivasinya. Ini berarti bahwa semua alamat dan akun yang berasal dari jalur ini diasosiasikan dengan Bitcoin. Lapisan derivasi ini memungkinkan pemisahan yang jelas antara aset-aset yang berbeda dalam dompet multi-mata uang. Berikut adalah indeks yang digunakan untuk berbagai mata uang kripto:
 
@@ -11,4 +12,4 @@ Dalam konteks dompet deterministik dan hirarkis (HD), jenis mata uang (*coin typ
 - Dogecoin: `x80000003`;
 - Ethereum: `x8000003c`...
 
-![](../../dictionnaire/assets/21.webp)
+

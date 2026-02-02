@@ -1,0 +1,9 @@
+question: 當偵測到作弊企圖時，Watchtower 的角色是什麼？
+answer: 發佈罰款交易
+wrong_answers:
+  - 合作關閉通道
+  - 凍結資金
+  - 向 Bitcoin Core 匯報同儕
+explanation: |
+  Watchtower 會自動代表使用者廣播罰款交易。
+reviewed: false

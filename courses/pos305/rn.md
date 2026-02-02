@@ -727,14 +727,15 @@ BTCPay Server igizwe n'ibi bikurikira bimenyerewe Wallet:
 Abarongozi barashobora kubona amafaranga yinjira n’asohoka ya On-Chain Wallet ihuye n’iri duka ryihariye mu mbonerahamwe y’amafaranga. Igicuruzwa cose gifise itandukaniro hagati y’amahera yakiriwe n’ayoherejwe. Ivyo bizokwakirwa ni Green, kandi amahera azosohoka azoba ari umutuku. Mu mbonerahamwe y'ibikorwa vya BTCPay Server, abarongozi bazobona kandi urutonde rw'ibimenyetso bimenyerewe.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Ubwoko bw'ikorwa | Insobanuro                                      |
+| ----------------- | ----------------------------------------------- |
+| Porogaramu        | Ubwishyu bwakiriwe binyuze kuri fagitire yakozwe na porogaramu |
+| Fagitire          | Ubwishyu bwakiriwe binyuze kuri fagitire         |
+| Payjoin           | Ntabwo yishyuwe, igihe ntarengwa cya fagitire ntikirarangira |
+| Payjoin-yagaragajwe | UTXO yagaragajwe binyuze mu gitekerezo cya payjoin muri fagitire |
+| Gusaba kwishyura  | Ubwishyu bwakiriwe binyuze mu gusaba kwishyura  |
+| Kwishyura         | Ubwishyu bwoherejwe binyuze mu kwishyura cyangwa gusubizwa |
 
 ### Uko worungika
 
@@ -1805,28 +1806,30 @@ Ubwoko bwose buzana n’ibipimo vyabwo vyo kwuzuza. Nyir’iduka arashobora kuyi
 BTCPay Server nayo iragufasha kwubaka amafomu muri kode. JSON, cane cane. Aho kuraba umuhinduzi, ba nyen’amaduka barashobora gufyonda kuri buto ya CODE iri iruhande nyene y’umuhinduzi maze bakinjira muri kode y’amafomu yabo. Mu nsobanuro y'umurima, imirima ikurikira gusa ni yo ishobora gushirwaho; agaciro k'imirima kabitswe mu makuru y'imbere ya Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Ikibanza | Ibivunzwe |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Nimba ari true, .value itegerezwa gushirwa mu nsobanuro y'ifomu, kandi uwukoresha ntazoshobora guhindura agaciro k'ikibanza. (akarorero: verisiyo y'insobanuro y'ifomu) |
+| .fields.type | Ubwoko bw'iyinjizwa rya HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Nimba .fields.type ari select, urutonde rw'agaciro gashobora guhitwa |
+| .fields.options.text | Ivyanditse vyerekanywe kuri aya mahitamo |
+| .fields.options.value | Agaciro k'ikibanza nimba aya mahitamo ahitishijwe |
+| .fields.type=fieldset | Kora HTML fieldset ikikuje abana .fields.fields (raba musi) |
+| .fields.name | Izina ry'indangamutungo ya JSON y'ikibanza nk'uko rizoseruka mu metadata y'itike (invoice) |
+| .fields.value | Agaciro gasanzwe k'ikibanza |
+| .fields.required | nimba ari true, ikibanza kizoba gikenewe |
+| .fields.label | Ikiranga (label) c'ikibanza |
+| .fields.helpText | Ivyanditse vyongereweko kugira bitange insobanuro y'ikibanza. |
+| .fields.fields | Urashobora gutunganya ibibanza vyawe mu nzego, ukemerera ibibanza vy'abana gushirwa mu metadata y'itike. Uyu muvure urashobora kugufasha gutunganya neza no gucunga amakuru yakusanyijwe, bikatuma yorohera kuyashikirwa no kuyasobanura. Akarorero, nimba ufise ifomu ikusanya amakuru y'umukiliya, urashobora gushira hamwe ibibanza musi y'ikibanza c'umuvyeyi citwa customer. Muri iki kibanza c'umuvyeyi, urashobora kugira ibibanza vy'abana nka name, Email, na address. |
 
 Izina ry’umurima rigereranya izina ry’umutungo wa JSON ribika agaciro katanzwe n’ukoresha mu makuru ya Invoice. Amazina amwe amwe azwi cane arashobora gusobanurwamwo no guhindurwa kugira ngo ahindure imiterere ya Invoice.
 
 
-| Field name       | Description            |
+
+| Izina ry’umwanya | Insiguro              |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Igiciro ya fagitire   |
+| invoice_currency | Ifaranga rya fagitire |
 
 Ushobora kwuzuza mbere ivyicaro vya Invoice ubwo nyene wongeyeko imirongo y'ibibazo kuri URL y'ifomu, nka "?your_field=value".
 
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Ibigezane     | Izina rya dosiye                   |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ Keretse ukoresheje [Wallet](https://docs.btcpayserver.org/Wallet/) yubatswemwo k
 Imbonerahamwe iri musi iratanga urutonde kandi idondora ivyerekeye Invoice mu BTCPay, hamwe n’ibikorwa rusangi vyerekanwa. Ibikorwa ni impanuro gusa. Ni abakoresha gusobanura inzira nziza yo gukora ku bijanye n’ikoreshwa ryabo n’ubucuruzi bwabo.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Uko invoice imere | Ibivunzwe | Igikorwa |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ntishuwe, igihe c'invoice ntikirarengana | Nta na kimwe |
+| New (paidPartial) | Ishuwe kumpande, igihe c'invoice ntikirarengana | Nta na kimwe |
+| Expired | Ntishuwe, igihe c'invoice cararenganye | Nta na kimwe |
+| Expired (paidPartial) ** | Ishuwe kumpande, kandi yararengeje igihe | Hamagara uwaguze muganire ivy'isubizwa ry'amahera canke umusabe kwishura ibisigaye. Hitamo kuyishira kuri settled canke invalid |
+| Expired (paidLate) | Ishuwe yose, inyuma y'uko igihe c'invoice camaze kurengana | Hamagara uwaguze muganire ivy'isubizwa ry'amahera canke utunganye komande nimba kwemeza kw'itevye kwemerwa. |
+| Settled (paidOver) | Ishuwe arenga ayari kw'invoice, yarangiye, yakiriye ivyemezo bikwiye | Hamagara uwaguze kugira umusubize ayarenze, canke urindire ko ari we aguhamagara |
+| Processing | Ishuwe yose, ariko ntiyakiriye ivyemezo bikwiye nk'uko biri mu bipimo vy'ishaka | Hamagara uwaguze kugira umusubize ayarenze, canke urindire ko ari we aguhamagara |
+| Processing (paidOver) | Ishuwe arenga ayari kw'invoice, ntiyakiriye ivyemezo bikwiye | Rindira ko ija kuri settled, ubone guhamagara uwaguze musubize ayarenze, canke urindire aguhamagare |
+| Settled | Ishuwe yose, yakiriye ivyemezo bikwiye mw'ishaka | Rungika ivyo yaguze |
+| Settled (marked) | Uko imere kwahinduwe n'intoke kuva kuri processing canke invalid uja kuri settled | Umuyobozi w'ishaka yashize amayeri ko ishuwe (settled) |
+| Invalid* | Ishuwe, ariko ntiyakiriye ivyemezo bikwiye mu gihe cashinzwe mu bipimo vy'ishaka | Raba iyo transaction kuri blockchain explorer, nimba yakiriye ivyemezo bikwiye, yishire kuri settled |
+| Invalid (marked) | Uko imere kwahinduwe n'intoke kuva kuri settled canke expired uja kuri invalid | Umuyobozi w'ishaka yashize amayeri ko ari invalid |
+| Invalid (paidOver) | Ishuwe arenga ayari kw'invoice, ariko ntiyakiriye ivyemezo bikwiye mu gihe cashinzwe | Raba iyo transaction kuri blockchain explorer, nimba yakiriye ivyemezo bikwiye, yishire kuri settled |
 
 #### Invoice ibisobanuro
 

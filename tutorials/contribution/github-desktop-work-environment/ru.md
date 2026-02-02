@@ -96,6 +96,6 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 - Установите одну из этих программ и держите ее под рукой для будущих изменений. ![github-desktop](assets/26.webp)
 Поздравляем! Ваша рабочая среда теперь настроена для вклада в сеть PlanB. Теперь вы можете изучить наши другие специальные учебные пособия для каждого типа вклада (перевод, корректура, написание.
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

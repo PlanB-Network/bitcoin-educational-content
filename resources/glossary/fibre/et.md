@@ -1,6 +1,7 @@
 ---
-term: FIBRE
+term: Fibre
 
+definition: Protokoll, mis on loodud Bitcoini blokkide ülemaailmse leviku kiirendamiseks.
 ---
 Lühend "*Fast Internet Bitcoin Relay Engine*". See on Matt Corallo poolt 2016. aastal loodud protokoll, mille eesmärk on kiirendada Bitcoini plokkide levitamist kogu maailmas. Selle eesmärk oli vähendada leviku viivitusi võimalikult lähedal füüsilistele piiridele. FIBRE eesmärk oli tagada kaevandamisvõimaluste õiglasem jaotamine, tagades, et osaleja kaevandatud plokkide osakaal peegeldab täpselt tema panust arvutusvõimsuse osas, sõltumata tema positsioonist võrgus.
 

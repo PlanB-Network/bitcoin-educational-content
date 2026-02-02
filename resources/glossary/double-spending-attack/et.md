@@ -1,6 +1,7 @@
 ---
-term: TOPELTKULUTUSED (RÜNNAK)
+term: Topeltkulutamine
 
+definition: Rünnak, mille käigus püütakse samu bitcoine mitu korda kasutada tehingupartnerite petmiseks.
 ---
 Rünnak, mille puhul pahatahtlik kasutaja üritab kasutada sama UTXO (*Unspent Transaction Output*) rohkem kui üks kord, et rikastuda tehingutes osalevate osapoolte arvelt. Põhimõtteliselt, kui tehing on plokis kinnitatud ja plokiahelasse lisatud, salvestatakse nende bitcoinide kasutamine jäädavalt, mis takistab samade bitcoinide edasist kulutamist. Topeltkulutuste vältimine on isegi plokiahela esmane kasulikkus.
 

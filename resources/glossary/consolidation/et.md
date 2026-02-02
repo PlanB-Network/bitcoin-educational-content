@@ -1,6 +1,7 @@
 ---
-term: KONSOLIDATSIOON
+term: Konsolideerimine
 
+definition: Tehing, mis liidab mitu väikest UTXO-d üheks suuremaks, et vähendada tulevasi tasusid.
 ---
 Konkreetne tehing, mille puhul mitu väikest UTXOd liidetakse ühte sisendisse, et moodustada väljundiks üks suurem UTXO. See operatsioon on oma rahakotile tehtud tehing. Konsolideerimise eesmärk on kasutada ära perioode, mil tasud Bitcoini võrgus on madalad, et ühendada mitu väikest UTXOd üheks suuremaks väärtusega UTXOks. Seega ennetab see kohustuslikke kulutusi tasude tõusu korral, võimaldades säästa tulevaste tehingutasude pealt.
 
@@ -8,4 +9,3 @@ Paljude sisenditega tehingud on tõepoolest raskemad ja seega ka kallimad. Lisak
 
 Siiski on oluline märkida, et konsolideerimistehingud on ahelanalüüsi käigus äratuntavad. Selline tehing viitab ühisele sisendiomandile (Common Input Ownership Heuristic, CIOH), mis tähendab, et konsolideerimistehingu sisendid kuuluvad ühele üksusele. See võib mõjutada kasutaja eraelu puutumatust.
 
-![](../../dictionnaire/assets/7.webp)

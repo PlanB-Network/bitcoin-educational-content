@@ -1,0 +1,9 @@
+question: Welches ist das Hauptrisiko, das ein Wachturm verhindern soll?
+answer: Betrug mit altem Zustand
+wrong_answers:
+  - 51% Angriff
+  - Diebstahl von Saatgut
+  - Schummeln mit neuem Zustand
+explanation: |
+  Ein Wachturm schützt vor der Veröffentlichung eines alten Kanalstaats, der darauf abzielt, Gelder zu veruntreuen.
+reviewed: false

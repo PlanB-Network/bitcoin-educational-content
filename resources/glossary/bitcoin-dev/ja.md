@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
+definition: Bitcoinプロトコルの開発に関する技術的な議論に特化したメーリングリスト。
 ---
 
 Bitcoinプロトコルの開発専用の電子メールメーリングリスト。Bitcoin-devは2011年にJeff Garzikによって作成され、当初はSourceforge.netでホストされていた。その後、メーリングリストはLinux Foundation、Open Source Labに移動し、最終的に2024年2月からGoogle Groupsでホストされています: https://groups.google.com/g/bitcoindev

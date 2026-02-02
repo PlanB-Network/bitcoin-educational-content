@@ -1,9 +1,9 @@
-question: Wat zijn de 3 belangrijkste stappen van een Blockchain analyse?
-answer: De Blockchain observeren, kenmerken identificeren en hypotheses afleiden.
+question: Wat zijn de 3 belangrijkste stappen van een blockchain-analyse?
+answer: De blockchain observeren, kenmerken identificeren en hypotheses afleiden.
 wrong_answers:
   - Gegevensverzameling, veilige opslag en rapportage.
-  - Gebruikers identificeren, uitwisselingen reguleren en beschermen tegen fraude.
+  - Gebruikers identificeren, uitwisselingen reguleren en bescherming tegen fraude.
   - Gegevensverzameling, willekeurige selectie en opzegging.
 explanation: |
-  Bij Blockchain analyse wordt eerst toegang verkregen tot Bitcoin Blockchain gegevens, vervolgens wordt geprobeerd kenmerken in deze gegevens te identificeren en ten slotte worden plausibele interpretaties gemaakt.
+  Bij blockchain-analyse wordt eerst toegang verkregen tot Bitcoin blockchain-gegevens, vervolgens wordt geprobeerd kenmerken in deze gegevens te identificeren en ten slotte worden plausibele interpretaties gemaakt.
 reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: BIP0044
+definition: HD 지갑을 위한 파생 경로의 전체 구조를 정의하는 표준 purpose, coin_type, account, change 및 address_index.
 ---
 
 HD 지갑을 위한 표준화된 계층적 파생 구조를 도입하는 제안입니다. BIP44는 키 도출을 위해 BIP32에서 확립한 원칙과 목적 필드 사용을 위해 BIP43에서 확립한 원칙을 기반으로 합니다.

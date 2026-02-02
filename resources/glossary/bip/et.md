@@ -1,6 +1,7 @@
 ---
 term: BIP
 
+definition: Bitcoin Improvement Proposal. Ametlik protsess, mis võimaldab kogukonnal teha ettepanekuid, arutada ja dokumenteerida Bitcoini protokolli täiustusi.
 ---
 Akronüüm "Bitcoin Improvement Proposal" (Bitcoini täiustamise ettepanek) Bitcoini parandusettepanek (Bitcoin Improvement Proposal, BIP) on ametlik protsess, mille käigus tehakse ettepanekuid ja dokumenteeritakse Bitcoini protokolli ja selle standardite parandusi ja muudatusi. Kuna Bitcoinil ei ole keskset üksust, kes uuenduste üle otsustaks, võimaldavad BIP-d kogukonnal teha ettepanekuid, arutada ja rakendada parandusi struktureeritud ja läbipaistval viisil. Igas piirhoiatusprogrammis kirjeldatakse üksikasjalikult kavandatava paranduse eesmärke, põhjendusi, võimalikku mõju ühilduvusele ning eeliseid ja puudusi. Piiranguid võib kirjutada iga kogukonna liige, kuid need peavad olema heaks kiidetud teiste arendajate ja Bitcoin Core GitHubi andmebaasi haldavate toimetajate poolt: Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun ja Ruben Somsen. Siiski on oluline mõista, et nende isikute roll BIPi redigeerimisel ei tähenda, et nad kontrollivad Bitcoini. Kui keegi pakub välja paranduse, mis ei ole ametlikus BIPi raamistikus heaks kiidetud, võib ta selle ikkagi esitada otse Bitcoini kogukonnale või isegi luua hargnemise, mis sisaldab tema muudatust. BIP-protsessi eelis seisneb selle formaalsuses ja tsentraliseerituses, mis hõlbustab arutelu, et vältida Bitcoini kasutajate vahelist jagunemist, püüdes uuendusi rakendada konsensuslikul viisil. Lõppkokkuvõttes määrab võimu dünaamika protokollis majandusliku enamuse põhimõte.
 
@@ -33,6 +34,5 @@ Seejärel läbivad piiripunktid oma elutsükli jooksul erinevaid staatusi. Praeg
 - Aktiivne: Protsessi piiripunktide puhul määratakse see staatus pärast teatud konsensuse saavutamist;
 - Asendatud / Vananenud: Piirangut ei kohaldata enam või see on asendatud uuema ettepanekuga, mis muudab selle tarbetuks.
 
-![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP on akronüüm "Bitcoin Improvement Proposal". Prantsuse keelde saab seda tõlkida kui "Proposition d'amélioration de Bitcoin". Enamikus prantsuse keelsetes tekstides kasutatakse aga akronüümi "BIP" otse üldnimena, mõnikord feminiinses, mõnikord maskuliinses käändes.*
+

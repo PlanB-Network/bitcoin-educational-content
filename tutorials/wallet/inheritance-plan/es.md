@@ -424,7 +424,7 @@ Empiece por elegir una solución técnica adaptada a su perfil, pruébela con un
 
 
 
-- [Plantilla del plan de sucesión Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plantilla de documentación Plan ₿ Network
+- [Plantilla del plan de sucesión Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plantilla de documentación Plan ₿ Academy
 
 
 

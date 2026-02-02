@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH tidak kompatibel dengan SegWit.
 explanation: |
   P2WPKH, yang diperkenalkan dengan SegWit, memindahkan tanda tangan ke sebuah bagian terpisah yang disebut Witness untuk mencegah malleability transaksi.
+reviewed: true

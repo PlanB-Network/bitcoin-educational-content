@@ -1,6 +1,7 @@
 ---
-term: STILLE BETALINGER
+term: Silent payments
 
+definition: Metode for å motta betalinger via en statisk adresse uten gjenbruk av adresser.
 ---
 Metode for å bruke statiske Bitcoin-adresser til å motta betalinger uten gjenbruk av adresser, uten interaksjon og uten en synlig kobling i kjeden mellom de ulike betalingene og den statiske adressen. Denne teknikken eliminerer behovet for å generere nye, ubrukte mottakeradresser for hver transaksjon, og dermed unngår man de vanlige interaksjonene i Bitcoin der mottakeren må oppgi en ny adresse til betaleren.
 

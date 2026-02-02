@@ -5,5 +5,5 @@ wrong_answers:
   - Maximum fees
   - Maximum number of possible payments
 explanation: |
-  The capacity corresponds to the total sum of satss blocked in the channel's multisig output.
+  The capacity corresponds to the total sum of sats blocked in the channel's multisig output.
 reviewed: false

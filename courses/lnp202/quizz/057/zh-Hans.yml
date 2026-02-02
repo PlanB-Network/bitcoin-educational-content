@@ -1,0 +1,9 @@
+question: 在 Umbrel 中，必须安装哪个应用程序才能建立 NWC 连接？
+answer: Alby Hub
+wrong_answers:
+  - NWC 连接器
+  - ThunderHub
+  - 宙斯服务器
+explanation: |
+  由于专门用于 NWC 的 Umbrel 应用程序已不再可用，您现在需要使用 Alby Hub 进行此类连接。
+reviewed: false

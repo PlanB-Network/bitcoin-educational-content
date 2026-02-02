@@ -122,16 +122,17 @@ Below is a summary table of the Mini 3's general technical specifications:
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Ominaisuus                                      | Arvo                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Virrankulutus                              | 800 W                                                     |
+| Melu                                                | 35-55 dB                                                  |
+| Lähtöilman lämpötila                       | 60-70°C (ympäristön lämpötilassa 25°C)                  |
+| Ympäristön lämpötilan vaatimukset käyttöä varten | -5° C - 40°C                                              |
+| Laitteen tulojännitealue                         | 110V-240V AC 50/60Hz                                      |
+| Koneen koko                                 | Pituus: 760 mm / Syvyys: 104 mm / Korkeus: 214.5 mm |
+| Koneen paino                                  |  8.35 kg                                                  |
 
 ## Connecting to a Mining pool
 

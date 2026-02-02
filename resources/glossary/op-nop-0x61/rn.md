@@ -1,6 +1,7 @@
 ---
 term: OP_NOP (0X61)
 
+definition: Opcode itagira ico ikora, ikoreshwa nk'aho bashira ibindi bintu muri soft forks za kazoza.
 ---
 
 Nta ngaruka bigira ku kirundo canke ku mibereho y'inyandiko. Nta kwinyiganza, gusuzuma canke guhindura. Ntaco ikora kiretse hafashwe ukundi biciye ku fork yoroshe. Nkako, kuva vyahinduwe na Satoshi Nakamoto mu 2010, amabwirizwa ya `OP_NOP` (`OP_NOP1` (`0XB0`) gushika kuri `OP_NOP10` (`0XB9`)) akoreshwa mu kwongerako amakode mashasha mu buryo bwa fork yoroshe.

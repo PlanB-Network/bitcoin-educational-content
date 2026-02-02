@@ -1,0 +1,9 @@
+question: Jakie kryteria decydują o wyborze rozwiązania Lightning?
+answer: Częstotliwość użytkowania i gotowość do zarządzania
+wrong_answers:
+  - Wymieniane kwoty i szybkość protokołu
+  - Geolokalizacja i edukacja
+  - Tolerancja ryzyka i projektowanie oprogramowania
+explanation: |
+  Wybór zależy głównie od tego, jak często Lightning jest używany i jak bardzo lubisz zarządzanie techniczne.
+reviewed: false

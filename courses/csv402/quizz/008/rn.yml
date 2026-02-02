@@ -1,9 +1,9 @@
-question: Ni iyihe ntumbero nyamukuru y’amasezerano ya Bitcoin y’ugushinga intahe?
-answer: Raba neza ko Commitment imwe yinjijwe mu gucuruza
+question: Ni iyihe ntumbero nyamukuru y’amasezerano ya Bitcoin y’ukwiyemeza?
+answer: Raba neza ko buri ukwiyemeza kwashizwemwo mw'ihanahanwa
 wrong_answers:
-  - Kworohereza imiterere y'ibikorwa vya Bitcoin
-  - Kugabanya ibiciro vy'ugucuruza RGB
-  - Gutuma RGB igira umukono mwinshi
+  - Kugabanya uko ihanahanwa rya Bitcoin ryubatse
+  - Kugabanya ibiciro vy'ihanahanwa rya RGB
+  - Kwongereza imikono ishobora gukorwa kuri RGB
 explanation: |
-  Ivyemezo vy’ugushinga intahe vya Bitcoin vyemeza ko Commitment imwe yinjizwa mu gucuruza, kugira ngo hatagira ivyemezo vy’uguhiganwa vyihishije.
-reviewed: false
+  Ivyemezo vy’ugushinga intahe vya Bitcoin vyemeza ko ukwiyemeza gushirwa muri buri hanahanwa, mukwirinda ukwiyemeza kuri kurushanwa kwinyegeje.
+reviewed: true

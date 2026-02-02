@@ -1,6 +1,7 @@
 ---
-term: ENTROPY
+term: Entropy
 
+definition: Thước đo tính không thể dự đoán của một nguồn dữ liệu, rất quan trọng để tạo ra các khóa bảo mật.
 ---
 Entropy, in the context of cryptography and information, is a quantitative measure of the uncertainty or unpredictability associated with a data source or a random process. Entropy plays a crucial role in the security of cryptographic systems, especially in the generation of keys and random numbers. High entropy ensures that the generated keys are sufficiently unpredictable and resistant to brute-force attacks, where an attacker tries all possible combinations to guess the key.
 

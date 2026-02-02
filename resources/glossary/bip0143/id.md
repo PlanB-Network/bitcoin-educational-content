@@ -1,6 +1,7 @@
 ---
 term: BIP0143
 
+definition: Algoritma hashing baru untuk tanda tangan SegWit, menyelesaikan pertumbuhan kuadratik dan menyertakan nilai input.
 ---
 Memperkenalkan cara baru melakukan _hashing_ transaksi untuk verifikasi tanda tangan dalam skrip pasca-SegWit. Tujuannya adalah untuk meminimalkan beban operasi yang berlebihan selama verifikasi dan untuk memasukkan nilai UTXO dalam input dalam tanda tangan. Hal ini memecahkan dua masalah utama dengan algoritma _hashing_ transaksi sebelumnya:
 

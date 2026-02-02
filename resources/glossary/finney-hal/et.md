@@ -1,6 +1,7 @@
 ---
-term: FINNEY HAL
+term: Finney hal
 
+definition: Krüptograaf ja arendaja, kes mängis Bitcoini algusaegadel koos Satoshiga otsustavat rolli.
 ---
 Harold T. Finney II, tuntud kui Hal Finney, oli krüptograaf ja arendaja, kes oli tuntud oma olulise rolli poolest Bitcoini algusaegadel ja oma panuse poolest krüptograafiasse. Alates Bitcoini valge raamatu avaldamisest 2008. aastal oli ta üks esimesi, kes suhtles Satoshi Nakamotoga. Ta andis tagasisidet, teatas vigadest ja tegi parandusettepanekuid pärast tarkvara käivitamist 2009. aasta jaanuaris. Ta oli esimese Bitcoini tehingu saaja (väljaspool mündipanku), saades Satoshilt 10 BTC plokis nr 170:
 

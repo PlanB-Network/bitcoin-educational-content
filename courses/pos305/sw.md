@@ -512,14 +512,15 @@ BTCPay Server ina vipengele vifuatavyo vya kawaida vya  Wallet:
 
 Wasimamizi wanaweza kuona miamala ya ndani na inayotoka ya  Wallet ya On-Chain iliyounganishwa kwenye duka hili mahususi katika mwonekano wa miamala. Kila muamala una tofauti kati ya kupokewa na kutumwa. Itakayopokelewa itakuwa Kijani na miamala inayotoka itakuwa nyekundu. Ndani ya mwonekano wa muamala wa BTCPay Server, wasimamizi pia wataona seti ya lebo za kawaida.
 
-| Aina ya Muamala | Maelezo                                                     |
-| --------------- | ----------------------------------------------------------- |
-| Programu        | Malipo yalipokelewa kupitia invoice iliyotengenezwa na programu |
-| invoice          | Malipo yalipokelewa kupitia invoice                          |
-| payjoin         | Haijalipwa, kipima muda cha invoice bado halijamalizika      |
-| payjoin-exposed | UTXO ilifunuliwa kupitia pendekezo la payjoin la invoice     |
-| ombi-la-malipo  | Malipo yalipokelewa kupitia ombi la malipo                  |
-| malipo-nje      | Malipo yalitumwa kupitia malipo-nje au marejesho            |
+
+| Aina ya Muamala | Maelezo                                          |
+| ---------------- | ------------------------------------------------ |
+| Programu         | Malipo yalipokelewa kupitia ankara iliyoundwa na programu |
+| Ankara           | Malipo yalipokelewa kupitia ankara               |
+| Payjoin          | Haijalipwa, kipima muda cha ankara bado hakijaisha |
+| Payjoin-imefunuliwa | UTXO ilifunuliwa kupitia pendekezo la payjoin kwenye ankara |
+| Ombi la malipo   | Malipo yalipokelewa kupitia ombi la malipo       |
+| Malipo           | Malipo yalitumwa kupitia malipo au kurejeshewa   |
 
 ### Jinsi ya Kutuma
 
@@ -1289,27 +1290,29 @@ Kila aina inakuja na vigezo vyake vya kujaza. Mmiliki wa duka anaweza kuiweka kw
 
 BTCPay Server pia hukuruhusu kuunda Fomu kwa nambari. JSON, haswa. Badala ya kuangalia kihariri, wamiliki wa duka wanaweza kubofya kitufe cha CODE karibu kabisa na kihariri na kuingia katika msimbo wa Fomu zao. Katika ufafanuzi wa uga, ni sehemu zifuatazo pekee ndizo zinazoweza kuwekwa; thamani za sehemu zimehifadhiwa katika metadata ya Address ya ununuzi:
 
-| Sehemu                | Maelezo                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | Ikiwa ni kweli, .value lazima iwekwe katika ufafanuzi wa fomu, na mtumiaji hataweza kubadilisha thamani ya sehemu. (mfano: toleo la ufafanuzi wa fomu)                                                                                                                                                                                                                                                                                                      |
-| .fields.type          | Aina ya ingizo la HTML text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                       |
-| .fields.options       | Ikiwa .fields.type ni select, orodha ya thamani zinazoweza kuchaguliwa                                                                                                                                                                                                                                                                                                                                                                                       |
-| .fields.options.text  | Maandishi yanayoonekana kwa chaguo hili                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| .fields.options.value | Thamani ya sehemu ikiwa chaguo hili limechaguliwa                                                                                                                                                                                                                                                                                                                                                                                                            |
-| .fields.type=fieldset | Tengeneza fieldset ya HTML kuzunguka .fields.fields za watoto (angalia chini)                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.name          | Jina la mali ya JSON ya sehemu kama itakavyoonekana katika metadata ya invoice                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.value         | Thamani ya kawaida ya sehemu                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.required      | ikiwa ni kweli, sehemu itahitajika                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.label         | Lebo ya sehemu                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| .fields.helpText      | Maandishi ya ziada kutoa maelezo kwa sehemu.                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.fields        | Unaweza kupanga sehemu zako katika mfumo wa ngazi, kuruhusu sehemu za watoto kuwekwa ndani ya metadata ya invoice. Muundo huu unaweza kukusaidia kupanga na kusimamia vyema taarifa zilizokusanywa, kuifanya iwe rahisi kufikia na kufasiri. Kwa mfano, ikiwa una fomu inayokusanya taarifa za wateja, unaweza kuweka sehemu kwenye kundi chini ya sehemu ya mzazi inayoitwa mteja. Ndani ya sehemu hii ya mzazi, unaweza kuwa na sehemu za watoto kama vile jina, Barua pepe, na address. |
+
+| Sehemu | Maelezo |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| .fields.constant | Ikiwa true, .value lazima iwekwe katika ufafanuzi wa fomu, na mtumiaji hataweza kubadilisha thamani ya sehemu hiyo. (mfano: toleo la ufafanuzi wa fomu) |
+| .fields.type | Aina ya ingizo ya HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Ikiwa .fields.type ni select, orodha ya thamani zinazoweza kuchaguliwa |
+| .fields.options.text | Maandishi yanayoonyeshwa kwa chaguo hili |
+| .fields.options.value | Thamani ya sehemu ikiwa chaguo hili limechaguliwa |
+| .fields.type=fieldset | Unda fieldset ya HTML karibu na watoto .fields.fields (tazama hapa chini) |
+| .fields.name | Jina la mali ya JSON ya sehemu hiyo jinsi itakavyoonekana kwenye metadata ya ankara |
+| .fields.value | Thamani chaguomsingi ya sehemu |
+| .fields.required | ikiwa true, sehemu hiyo itahitajika |
+| .fields.label | Lebo ya sehemu |
+| .fields.helpText | Maandishi ya ziada kutoa maelezo kwa sehemu hiyo. |
+| .fields.fields | Unaweza kupanga sehemu zako katika mfumo wa daraja, kuruhusu sehemu tanzu kuwekwa ndani ya metadata ya ankara. Muundo huu unaweza kukusaidia kupanga na kudhibiti vyema habari iliyokusanywa, na kuifanya iwe rahisi kupata na kutafsiri. Kwa mfano, ikiwa una fomu inayokusanya taarifa za mteja, unaweza kuweka sehemu hizo chini ya sehemu kuu inayoitwa customer. Ndani ya sehemu hii kuu, unaweza kuwa na sehemu tanzu kama name, Email, na address. |
 
 Jina la sehemu hiyo linawakilisha jina la sifa ya JSON ambalo huhifadhi thamani iliyotolewa na mtumiaji katika metadata ya Address ya ununuzi. Majina mengine yanayojulikana yanaweza kufasiriwa na kurekebisha mipangilio ya Address ya ununuzi.
 
-| Jina la Sehemu    | Maelezo                |
-| ----------------- | ---------------------- |
-| invoice_amount    | Kiasi cha invoice       |
-| invoice_currency  | Sarafu ya invoice       |
+
+| Jina la sehemu   | Maelezo               |
+| ---------------- | ---------------------- |
+| invoice_amount   | Kiasi cha ankara      |
+| invoice_currency | Sarafu ya ankara      |
 
 Unaweza kujaza mapema sehemu za Address ya ununuzi kiotomatiki kwa kuongeza mifuatano ya hoja kwenye URL ya fomu, kama vile "?wako_uwanja=thamani".
 
@@ -1633,22 +1636,23 @@ docker ps
 docker logs --tail 100 generated_btcpayserver_1
 ```
 
-| Kumbukumbu za  | Jina la Chombo                      |
-| -------------- | ----------------------------------- |
-| BTCPayServer   | generated_btcpayserver_1            |
-| NBXplorer      | generated_nbxplorer_1               |
-| Bitcoind       | btcpayserver_bitcoind               |
-| Postgres       | generated_postgres_1                |
-| proxy          | letsencrypt-nginx-proxy-companion   |
-| Nginx          | nginx-gen                           |
-| Nginx          | nginx                               |
-| c-lightning    | btcpayserver_clightning_bitcoin     |
-| LND            | btcpayserver_lnd_bitcoin            |
-| RTL            | generated_lnd_bitcoin_rtl_1         |
-| Thunderhub     | generated_bitcoin_thub_1            |
-| LibrePatron    | librepatron                         |
-| Tor            | tor-gen                             |
-| Tor            | tor                                 |
+
+| Kumbukumbu   | Jina la kontena                    |
+| ------------ | --------------------------------- |
+| BTCPayServer | generated_btcpayserver_1          |
+| NBXplorer    | generated_nbxplorer_1             |
+| Bitcoind     | btcpayserver_bitcoind             |
+| Postgres     | generated_postgres_1              |
+| proxy        | letsencrypt-nginx-proxy-companion |
+| Nginx        | nginx-gen                         |
+| Nginx        | nginx                             |
+| c-lightning  | btcpayserver_clightning_bitcoin   |
+| LND          | btcpayserver_lnd_bitcoin          |
+| RTL          | generated_lnd_bitcoin_rtl_1       |
+| Thunderhub   | generated_bitcoin_thub_1          |
+| LibrePatron  | librepatron                       |
+| Tor          | tor-gen                           |
+| Tor          | tor                               |
 
 ###### Lightning Network LND - Docker
 
@@ -1777,21 +1781,22 @@ Isipokuwa utumie [Wallet] iliyojengewa ndani (https://docs.btcpayserver.org/Wall
 
 Jedwali lililo hapa chini linaorodhesha na kufafanua hali za kawaida za Address za ununuzi katika BTCPay na kupendekeza vitendo vya kawaida. Vitendo ni mapendekezo tu. Ni juu ya watumiaji kufafanua njia bora zaidi ya matumizi ya kesi na biashara zao.
 
-| Hali ya invoice             | Maelezo                                                                                                                                | Hatua                                                                                                                      |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Mpya                       | Haijalipwa, kipima muda cha invoice bado halijamalizika                                                                                 | Hakuna                                                                                                                     |
-| Mpya (lilipiwaKiasi)       | Imelipwa, sio kwa kamili, kipima muda cha invoice bado halijamalizika                                                                   | Hakuna                                                                                                                     |
-| Imeisha muda               | Haijalipwa, kipima muda cha invoice kimemalizika                                                                                        | Hakuna                                                                                                                     |
-| Imeisha muda (lilipiwaKiasi) \*\* | Imelipwa, sio kwa kiasi kamili, na imeisha muda                                                                                   | Wasiliana na mnunuzi ili kupanga marejesho au umuombe alipe deni lake. Kwa hiari, weka invoice kama imesuluhishwa au batili |
-| Imeisha muda (lilipiwaKuchelewa) | Imelipwa, kwa kiasi kamili, baada ya kipima muda cha invoice kumalizika                                                              | Wasiliana na mnunuzi ili kupanga marejesho au shughulikia agizo ikiwa uthibitisho wa kuchelewa unakubalika                 |
-| Imesuluhishwa (lilipiwaZaidi) | Imelipwa zaidi ya kiasi cha invoice, imesuluhishwa, imepokea idadi ya kutosha ya uthibitisho                                          | Wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe                |
-| Inachakatwa                | Imelipwa kikamilifu, lakini haijapokea idadi ya kutosha ya uthibitisho iliyoainishwa katika mipangilio ya duka                         | Wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe                |
-| Inachakatwa (lilipiwaZaidi) | Imelipwa zaidi ya kiasi cha invoice, haijapokea idadi ya kutosha ya uthibitisho                                                         | Subiri isuluhishwe kisha wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe |
-| Imesuluhishwa              | Imelipwa, kikamilifu, imepokea idadi ya kutosha ya uthibitisho katika duka                                                             | Timiza agizo                                                                                                               |
-| Imesuluhishwa (imewekwa)   | Hali ilibadilishwa kimwili kuwa imesuluhishwa kutoka hali ya kuchakatwa au batili                                                      | Msimamizi wa duka ameweka malipo kama yamewekwa                                                                            |
-| Batili                   | Imelipwa, lakini imeshindwa kupokea idadi ya kutosha ya uthibitisho katika muda uliowekwa katika mipangilio ya duka                    | Angalia muamala kwenye kichunguzi cha blockchain, ikiwa imepokea uthibitisho wa kutosha, weka kama imesuluhishwa          |
-| Batili (imewekwa)          | Hali ilibadilishwa kimwili kuwa batili kutoka hali ya kusuluhishwa au kuisha muda                                                      | Msimamizi wa duka ameweka malipo kama batili                                                                               |
-| Batili (lilipiwaZaidi)     | Imelipwa zaidi ya kiasi cha invoice, lakini imeshindwa kupokea idadi ya kutosha ya uthibitisho katika muda uliowekwa katika mipangilio ya duka | Angalia muamala kwenye kichunguzi cha blockchain, ikiwa imepokea uthibitisho wa kutosha, weka kama imesuluhishwa          |
+
+| Hali ya Ankara | Maelezo | Hatua |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| New | Haijalipwa, kipima muda cha ankara bado hakijaisha | Hakuna |
+| New (paidPartial) | Imelipwa sehemu, kipima muda cha ankara bado hakijaisha | Hakuna |
+| Expired | Haijalipwa, kipima muda cha ankara kimeisha | Hakuna |
+| Expired (paidPartial) ** | Imelipwa sehemu, na muda umeisha | Wasiliana na mnunuzi kupanga urejesho au waombe walipe deni. Hiari: weka ankara kama settled au invalid |
+| Expired (paidLate) | Imelipwa kiasi chote, baada ya kipima muda cha ankara kuisha | Wasiliana na mnunuzi kupanga urejesho au shughulikia oda ikiwa uthibitisho wa kuchelewa unakubalika. |
+| Settled (paidOver) | Imelipwa zaidi ya kiasi cha ankara, imekamilika, imepata uthibitisho wa kutosha | Wasiliana na mnunuzi kupanga urejesho wa kiasi cha ziada, au hiari subiri mnunuzi awasiliane nawe |
+| Processing | Imelipwa yote, lakini haijapata uthibitisho wa kutosha kulingana na mipangilio | Wasiliana na mnunuzi kupanga urejesho wa kiasi cha ziada, au hiari subiri mnunuzi awasiliane nawe |
+| Processing (paidOver) | Imelipwa zaidi ya kiasi cha ankara, haijapata uthibitisho wa kutosha | Subiri iwe settled, kisha wasiliana na mnunuzi kurejesha ziada, au subiri mnunuzi awasiliane nawe |
+| Settled | Imelipwa yote, imepata uthibitisho wa kutosha dukani | Tekeleza oda |
+| Settled (marked) | Hali ilibadilishwa kwa mikono kuwa settled kutoka processing au invalid | Admin wa duka ameweka alama ya malipo kama settled |
+| Invalid* | Imelipwa, lakini imeshindwa kupata uthibitisho wa kutosha kwa muda uliopangwa | Angalia muamala kwenye blockchain explorer; ikipata uthibitisho wa kutosha, weka kama settled |
+| Invalid (marked) | Hali ilibadilishwa kwa mikono kuwa invalid kutoka settled au expired | Admin wa duka ameweka alama ya malipo kama invalid |
+| Invalid (paidOver) | Imelipwa zaidi ya ankara, lakini haijapata uthibitisho wa kutosha kwa muda uliowekwa | Angalia muamala kwenye blockchain explorer; ikipata uthibitisho wa kutosha, weka kama settled |
 
 #### Maelezo ya Address ya ununuzi
 

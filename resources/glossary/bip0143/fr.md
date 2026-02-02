@@ -1,5 +1,6 @@
 ---
 term: BIP0143
+definition: Nouvel algorithme de hachage pour les signatures SegWit, résolvant la croissance quadratique et incluant la valeur des inputs.
 ---
 
 Introduit une nouvelle manière de hacher la transaction pour la vérification des signatures dans les scripts post-SegWit. L'objectif est de minimiser les opérations redondantes lors de la vérification et d'inclure la valeur des UTXO en entrée dans la signature. Cela résout deux problèmes majeurs de l'algorithme de hachage de transaction original :

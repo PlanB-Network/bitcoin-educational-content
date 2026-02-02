@@ -1,0 +1,9 @@
+question: Quand est-ce que les transactions d’un bloc deviennent-elles confirmées ?
+answer: Quand le bloc est ajouté à la blockchain
+wrong_answers:
+  - Quand la transaction est signée par le mineur
+  - Quand la transaction est diffusée par le nœud
+  - Quand le mineur commence à chercher la preuve
+explanation: |
+  La confirmation d'un paiement sur Bitcoin est la conséquence de l’ajout du bloc qui le contient à la blockchain.
+reviewed: false

@@ -48,6 +48,17 @@ Finally, we will conclude the training by recapping the concepts covered and pav
 
 Ready to uncover the technical mechanisms of the Lightning Network? Let’s dive in!
 
+---
+*Here are some terms you will encounter in the course diagrams, along with a brief definition to help you better understand them:*
+
+| English           | Definition                                          |
+| ----------------- | --------------------------------------------------- |
+| *timelock*        | A mechanism that locks funds until a specific time  |
+| *Revocation Key*  | A cryptographic key used to revoke a previous state |
+| *invoice*         | A payment request containing amount and details     |
+| *sig* (signature) | A cryptographic proof of transaction authorization  |
+| *Preimage*        | The original value that produces a hash when hashed |
+
 # The Fundamentals
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -1027,6 +1038,10 @@ We have observed that liquidity management poses a challenge on Lightning, neces
 - **Collaborative Openings**: There are also platforms available for connecting to perform triangular openings and to have incoming liquidity.
 
 ![LNP201](assets/en/084.webp)
+
+Now that you have understood the theoretical functioning of the Lightning Network, you can move on to practice and set up your first Lightning node in order to gain greater autonomy in your usage. To do so, follow the LNP 202 course:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # Final Section
 

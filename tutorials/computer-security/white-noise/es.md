@@ -53,16 +53,17 @@ He aquí una rápida comparación entre White Noise y algunas de las aplicacione
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Puntos de comparación       | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| Cifrado E2EE / 1:1          | ✅ Sí         | Opcional   | ✅ Sí             | ✅ Sí    | ✅ Sí     | ✅ Sí              | ✅ Sí   |
+| Cifrado grupal E2EE         | ✅ Sí         | ❌ No       | ✅ Sí             | ✅ Sí    | ✅ Sí     | Opcional          | ✅ Sí   |
+| Anonimización de identidad  | ✅ Sí         | Opcional   | ❌ No             | ✅ Sí    | ❌ No     | ❌ No              | ❌ No   |
+| Servidor de código abierto  | ✅ Sí         | ❌ No       | ❌ No             | ✅ Sí    | ❌ No     | ❌ No              | ✅ Sí   |
+| Cliente de código abierto   | ✅ Sí         | ✅ Sí        | ❌ No             | ✅ Sí    | ❌ No     | ❌ No              | ✅ Sí   |
+| Servidor descentralizado    | ✅ Sí         | ❌ No       | ❌ No             | ✅ Sí    | ❌ No     | ❌ No              | ❌ No   |
+| Año de creación             | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Primeros pasos con White Noise
 

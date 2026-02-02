@@ -1,12 +1,13 @@
 ---
-term: COINJOIN CHAUMIANO
+term: Chaumian coinjoin
 
+definition: Protocollo coinjoin che utilizza le firme cieche di Chaum per garantire la privacy dei partecipanti.
 ---
 Un protocollo coinjoin che utilizza le firme cieche di David Chaum e Tor per le comunicazioni tra i partecipanti e il server del coordinatore. L'obiettivo di una coinjoin chaumiana è garantire ai partecipanti che il coordinatore non possa rubare i bitcoin, né collegare tra loro gli input e gli output.
 
 A tal fine, gli utenti inviano al coordinatore il loro input e un indirizzo di ricezione crittograficamente blindato. Questo indirizzo, una volta sbloccato, è destinato a ricevere i bitcoin come output del coinjoin. Il coordinatore firma questi gettoni e li restituisce agli utenti. Gli utenti si ricollegano quindi in modo anonimo al server del coordinatore con una nuova identità Tor e rivelano i loro indirizzi di uscita in chiaro per la costruzione della transazione. Il coordinatore può verificare che tutti questi indirizzi di ricezione provengano da utenti legittimi, poiché ha precedentemente firmato la loro versione blindata con la sua chiave privata. Tuttavia, non può associare uno specifico indirizzo di uscita a un determinato utente di ingresso. Pertanto, non esiste alcun legame tra gli ingressi e le uscite, nemmeno dal punto di vista del coordinatore. Una volta che il coordinatore ha costruito la transazione, la invia ai partecipanti che la firmano per sbloccare i loro input, dopo aver verificato che i loro output sono effettivamente in questa transazione. I partecipanti inviano la firma al coordinatore. Una volta raccolte tutte le firme, il coordinatore può trasmettere la transazione coinjoin sulla rete Bitcoin.
 
-![](../../dictionnaire/assets/38.webp)
+
 
 Questo metodo garantisce che il coordinatore non possa compromettere l'anonimato dei partecipanti né rubare i bitcoin durante l'intero processo di coinjoin.
 

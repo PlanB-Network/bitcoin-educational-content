@@ -1,5 +1,6 @@
 ---
 term: BIP0119
+definition: 향후 지출에 조건을 부과하는 코비넌트(covenants)를 생성할 수 있게 하는 OP_CHECKTEMPLATEVERIFY (CTV) 옵코드 제안.
 ---
 
 새로운 옵코드인 `OP_CHECKTEMPLATEVERIFY`(CTV)를 도입합니다. CTV를 사용하면 거래에서 비재귀적 약정을 생성할 수 있으며, 향후 거래를 포함해 Coin의 사용 방법에 대해 특정 조건을 부과할 수 있습니다.

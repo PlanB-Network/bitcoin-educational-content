@@ -1,6 +1,7 @@
 ---
 term: BIP0173
 
+definition: Format alamat bech32 untuk SegWit V0 dengan awalan bc1q, menawarkan keterbacaan dan deteksi kesalahan yang lebih baik.
 ---
 Memperkenalkan format alamat bech32 untuk alamat SegWit V0. Format alamat ini ditandai dengan awalan `bc1q`. Format bech32 menawarkan beberapa keuntungan:
 

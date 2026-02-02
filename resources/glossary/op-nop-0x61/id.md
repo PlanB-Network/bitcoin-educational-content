@@ -1,6 +1,7 @@
 ---
 term: OP_NOP (0X61)
 
+definition: Opcode yang tidak menghasilkan efek apa pun, digunakan sebagai titik penyisipan untuk soft fork di masa depan.
 ---
 Tidak menghasilkan efek apapun pada _stack_ atau status skrip. _Opcode_ ini tidak melakukan pergerakan, pengecekan, atau modifikasi, dan tidak melakukan apa pun kecuali jika diputuskan sebaliknya melalui _soft fork_. Memang, sejak dimodifikasi oleh Satoshi Nakamoto pada tahun 2010, perintah `OP_NOP` (`OP_NOP1` (`0XB0`) hingga `OP_NOP10` (`0XB9`)) digunakan untuk menambahkan _opcode_ baru dalam bentuk _soft fork_.
 

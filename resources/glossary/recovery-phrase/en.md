@@ -1,5 +1,6 @@
 ---
-term: RECOVERY PHRASE
+term: Recovery phrase
+definition: Sequence of 12 or 24 words used to back up and restore a Bitcoin wallet.
 ---
 
 A recovery phrase, also sometimes called a mnemonic, seed phrase, or secret phrase, is a sequence usually composed of 12 or 24 words, which is generated in a pseudo-random manner from a source of entropy. The pseudo-random sequence is always completed with a checksum. The mnemonic phrase, along with an optional passphrase, is used to deterministically derive all the keys associated with an HD (Hierarchical Deterministic) wallet. This means that from this phrase, it is possible to deterministically generate and recreate all the private and public keys of the Bitcoin wallet, and consequently access the funds associated with it. The purpose of the recovery phrase is to provide a means of backup and recovery of bitcoins that is both secure and easy to use.

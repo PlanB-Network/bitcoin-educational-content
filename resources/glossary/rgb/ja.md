@@ -1,5 +1,6 @@
 ---
 term: RGB
+definition: ビットコイン上で動作する、分散型で機密性の高いスマートコントラクトシステム。
 ---
 
 BitcoinおよびLightning Networkと連動するように設計された分散型の機密Smart contractシステム。RGBはClient-side Validationモデルで動作し、Contract StateのストレージをBlockchainから分離することで、暗号コミットメントのみがBlockchainに保持される。こうすることで、完全な状態履歴がチェーンの外部に保持され、より高いスケーラビリティと機密性を実現できる。RGBは、トークン、NFT、分散型アイデンティティ、DeFiソリューションなどを格納する複雑なコントラクトを、Bitcoinの上に直接作成することを可能にします。

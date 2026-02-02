@@ -1,6 +1,7 @@
 ---
-term: DESCOBERTA POR PARES
+term: Descoberta de pares
 
+definition: Processo através do qual um nó Bitcoin descobre e se liga a outros nós na rede.
 ---
 O processo pelo qual os nós na rede Bitcoin se conectam a outros nós para obter informações. Quando um nó Bitcoin é lançado pela primeira vez, ele não tem informações sobre outros nós na rede. No entanto, ele deve estabelecer conexões para sincronizar com o blockchain que tem mais trabalho acumulado. Vários mecanismos são usados para descobrir esses pares, por ordem de prioridade:
 

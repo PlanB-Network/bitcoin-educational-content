@@ -53,16 +53,17 @@ Zde je rychlé srovnání White Noise s několika nejznámějšími aplikacemi p
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Body srovnání               | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| Šifrování E2EE / 1:1        | ✅ Ano        | Volitelné  | ✅ Ano            | ✅ Ano   | ✅ Ano    | ✅ Ano             | ✅ Ano  |
+| Skupinové šifrování E2EE    | ✅ Ano        | ❌ Ne       | ✅ Ano            | ✅ Ano   | ✅ Ano    | Volitelné         | ✅ Ano  |
+| Anonymizace identity        | ✅ Ano        | Volitelné  | ❌ Ne             | ✅ Ano   | ❌ Ne     | ❌ Ne              | ❌ Ne   |
+| Open source server          | ✅ Ano        | ❌ Ne       | ❌ Ne             | ✅ Ano   | ❌ Ne     | ❌ Ne              | ✅ Ano  |
+| Open source klient          | ✅ Ano        | ✅ Ano       | ❌ Ne             | ✅ Ano   | ❌ Ne     | ❌ Ne              | ✅ Ano  |
+| Decentralizovaný server     | ✅ Ano        | ❌ Ne       | ❌ Ne             | ✅ Ano   | ❌ Ne     | ❌ Ne              | ❌ Ne   |
+| Rok založení                | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Začínáme s White Noise
 

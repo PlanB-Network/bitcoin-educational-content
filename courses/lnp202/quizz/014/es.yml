@@ -1,0 +1,9 @@
+question: ¿Qué características comunes tienen Aqua y Bull Bitcoin Wallet?
+answer: Intercambios atómicos relámpago
+wrong_answers:
+  - Canales Lightning nativos
+  - Custodia centralizada
+  - Nodo Lightning integrado
+explanation: |
+  Estos wallet utilizan swaps atómicos para pagar facturas Lightning sin explotar un nodo Lightning directamente en su teléfono y permaneciendo en autocustodia.
+reviewed: false

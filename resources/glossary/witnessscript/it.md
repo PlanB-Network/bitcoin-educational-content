@@ -1,6 +1,7 @@
 ---
-term: SCRIPT WITNESS
+term: Witnessscript
 
+definition: Script che definisce le condizioni di spesa per gli UTXO P2WSH o P2SH-P2WSH, equivalente SegWit del redeemScript.
 ---
 Uno script che specifica le condizioni in cui i bitcoin possono essere spesi da UTXO P2WSH o P2SH-P2WSH. In genere, `witnessScript` determina le condizioni di un portafoglio multi-firma secondo lo standard SegWit. In questi standard di script, la `scriptPubKey` dell'UTXO (l'output) contiene un hash del `witnessScript`. Per utilizzare questo UTXO come input in una nuova transazione, il titolare deve rivelare il `witnessScript` originale, per dimostrare la sua corrispondenza con l'impronta digitale nella `scriptPubKey`. Il `witnessScript` deve quindi essere incluso nel `scriptWitness` della transazione, che contiene anche gli elementi necessari per convalidare lo script, come le firme. Pertanto, il `witnessScript` è l'equivalente per SegWit del `redeemScript` in una transazione P2SH, con la differenza che viene inserito nel testimone della transazione e non nello `scriptSig`.
 

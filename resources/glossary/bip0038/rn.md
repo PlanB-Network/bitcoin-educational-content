@@ -1,5 +1,6 @@
 ---
 term: BIP0038
+definition: Standard yo guhisha imfunguzo z'ibanga za Bitcoin n'ijambo ry'ibanga, ikoreshwa cane mu gupfunga ama paper wallets.
 ---
 
 Iciyumviro co guteza imbere Bitcoin kizana uburyo bwo gupfuka kugira ngo wongere uburinzi ku mfunguruzo z'ibanga biciye ku passphrase. BIP38 ikora vyose kugira ngo naho uwundi muntu yoronka urufunguzo rw’ibanga rwashizwemwo, adashobora kurukoresha atazi passphrase yarwo. Ivyo vyongerako Layer y’umutekano wo kurinda bitcoins ubusuma, cane cane ku mutekano w’ibipapuro vya kera.

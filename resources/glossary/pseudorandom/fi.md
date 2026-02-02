@@ -1,6 +1,7 @@
 ---
-term: PSEUDO-RANDOM
+term: Näennäissatunnainen
 
+definition: Deterministisesti generoitu numerosarja, jonka ominaisuudet ovat lähellä satunnaisuutta.
 ---
 Tätä adjektiivia käytetään kuvaamaan numerosarjaa, joka on deterministisen prosessin tulos, mutta jonka ominaisuudet ovat lähellä ihanteellisen, aidosti satunnaisen sarjan ominaisuuksia. Ideaalisen satunnaisuuden käsite tarkoittaa, että peräkkäisten elementtien välillä ei ole minkäänlaista ennustettavuutta eikä korrelaatiota. Pseudosatunnaisluku luodaan deterministisellä algoritmilla, ja siksi se on teoriassa täysin ennustettavissa, jos tiedetään generaattorin alkutila.
 

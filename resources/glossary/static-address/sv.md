@@ -1,5 +1,6 @@
 ---
-term: STATISK Address
+term: Statisk adress
+definition: Unik identifierare för Silent Payments som gör det möjligt att ta emot betalningar utan adressåteranvändning eller synlig on-chain-koppling.
 ---
 
 I samband med tysta betalningar avser en unik identifierare som gör det möjligt att ta emot betalningar utan Address-återanvändning, utan interaktion och utan en synlig On-Chain-länk mellan de olika betalningarna och den statiska Address. Denna teknik eliminerar behovet av att generate nya, oanvända mottagningsadresser för varje transaktion, och därmed undviker man de vanliga interaktionerna i Bitcoin där mottagaren måste tillhandahålla en ny Address till betalaren. Det motsvarar i viss mån den återanvändbara betalningskoden i samband med BIP47.

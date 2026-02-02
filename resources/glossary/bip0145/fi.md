@@ -1,5 +1,6 @@
 ---
 term: BIP0145
 
+definition: JSON-RPC getblocktemplate -kutsun päivitys SegWit-tuen ja tapahtumien painon laskennan integroimiseksi.
 ---
 Päivitetään JSON-RPC-kutsu `getblocktemplate` lisäämällä siihen SegWit-tuki BIP141:n mukaisesti. Tämän päivityksen ansiosta louhijat voivat rakentaa lohkoja ottamalla huomioon SegWitin käyttöön ottaman uuden transaktioiden ja lohkojen "painon" mittauksen sekä muita parametreja, kuten sigops-rajan laskemisen.

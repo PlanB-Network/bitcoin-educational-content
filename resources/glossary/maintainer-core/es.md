@@ -1,6 +1,7 @@
 ---
-term: MANTENEDOR (NÚCLEO)
+term: Mantenedor (core)
 
+definition: Individuos responsables de la gestión del proyecto Bitcoin Core y de la fusión de las modificaciones de código.
 ---
 En el contexto del proyecto Bitcoin Core, la implementación predominante de nodos en la red Bitcoin, los mantenedores son individuos encargados de gestionar el proyecto. Son responsables de su implementación. Se encargan de la moderación en el repositorio GitHub de Bitcoin Core y de establecer el calendario para la publicación de nuevas versiones. Son los principales responsables de la fusión de pull requests (PR) propuestas por los contribuidores.
 

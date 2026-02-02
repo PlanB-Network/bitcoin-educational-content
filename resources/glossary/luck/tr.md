@@ -1,5 +1,6 @@
 ---
-term: ŞANS
+term: Şans (Luck)
+definition: Bir madencilik havuzunun performansını teorik beklentilere kıyasla ölçen gösterge.
 ---
 
 Mining havuzlarında bir havuzun teorik beklentilerine göre performansını ölçmek için kullanılan bir gösterge. Adından da anlaşılacağı üzere, havuzun blok bulma şansını değerlendirir. Şans, Bitcoin'ın mevcut zorluğuna dayalı olarak geçerli bir blok bulmak için teorik olarak gereken hisse sayısı ile bu bloğu bulmak için üretilen gerçek hisse sayısı karşılaştırılarak hesaplanır. Beklenenden daha düşük bir hisse sayısı iyi şansı gösterirken, daha yüksek bir sayı kötü şansı gösterir.

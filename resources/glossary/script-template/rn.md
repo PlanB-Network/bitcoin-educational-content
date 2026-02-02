@@ -1,5 +1,6 @@
 ---
-term: IKIGEREREZO C'INYANDIKA
+term: Modèle de script
+definition: Uburyo bwizewe bw'ama opcodes bwerekana ingene washinga amategeko yo gukoresha.
 ---
 
 Igishushanyo cemerera gukoresha inyandiko zisanzwe. Igishushanyo c’inyandiko ni urutonde rutoyi rw’ama opcode ashizwe hamwe kugira ngo haboneke urugero rugaragaza uburyo bwo gushinga ivyangombwa vyo gukoresha amahera ku bitcoins. Aha hari ingero z'ibigereranyo vy'inyandiko: P2PK, P2PKH, P2WPKH, P2SH...

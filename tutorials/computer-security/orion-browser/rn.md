@@ -522,15 +522,16 @@ Kugira ngo Orion igume yihuta kandi iri mu mwiherero:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Inzira | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Ubwayo-ubwayo** | Nta kibazo | Kintambwe | Byinshi | Igice | Kintambwe |
+| **Kubara ubwoko** | 99.9% bisigira | Inyambure | Itagira | Igice | Yose |
+| **Ibirango** | Chrome + Firefox | Bigarunzwe | Chrome gusa | Firefox gusa | Chrome gusa |
+| **Ibikorwa Mac** | Neza cyane | Neza cyane | Neza | Igice | Neza |
+| **Gukoresha RAM** | Gake cyane | Gake | Bitari | Igice | Igice |
+| **Amahugurero agacire** | Igice | Igice (WebKit) | Igice | Yose | Yose |
+| **Ibikira** | Mac/iOS | Mac/iOS | Byose | Byose | Byose |
 
 **Versus Safari**: Orion itanga uburinzi bwiza cane n’ubufasha bwayo buteye imbere bwo guhagarika no kwagura, mu gihe iguma ikora WebKit.
 

@@ -1,5 +1,6 @@
 ---
-term: Hash FONKSİYON
+term: Hash fonksiyonu
+definition: Değişken boyutlu bir girdiden sabit boyutlu bir çıktı üreten matematiksel fonksiyon.
 ---
 
 Değişken boyutlu bir girdi (mesaj olarak adlandırılır) alan ve sabit boyutlu bir çıktı (Hash, hashing, digest veya parmak izi olarak adlandırılır) üreten matematiksel bir işlev. Hash fonksiyonları kriptografide yaygın olarak kullanılan ilkel araçlardır. Kendilerini güvenli bağlamlarda kullanım için uygun kılan belirli özellikler sergilerler:
@@ -19,4 +20,3 @@ Bitcoin bağlamında, Hash fonksiyonları Proof-of-Work mekanizması (*Proof-of-
 - bir `SHA256` ve bir `RIPEMD160`ın ardışık kullanımını tanımlayan `HASH160`. hASH160`, alıcı adresleri oluşturma sürecinde (P2PK ve P2TR hariç) ve genişletilmiş anahtarlar için üst anahtar parmak izlerinin hesaplanmasında kullanılır.
 
 
-> ► *İngilizcede "Hash fonksiyonu" olarak adlandırılır.*

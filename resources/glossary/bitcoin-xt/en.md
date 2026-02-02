@@ -1,5 +1,6 @@
 ---
-term: BITCOIN XT
+term: Bitcoin XT
+definition: 2015 fork proposing to increase the block size to 8 MB, at the origin of the Blocksize War.
 ---
 
 Fork of Bitcoin launched in 2015 by well-known developer Mike Hearn and supported by Gavin Andresen (former lead maintainer of Bitcoin after Satoshi’s departure).

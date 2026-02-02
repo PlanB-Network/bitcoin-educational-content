@@ -424,7 +424,7 @@ Start med å velge en teknisk løsning som passer til din profil, test den med e
 
 
 
-- [Bitcoin Arveplanmal (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Network Dokumentasjonsmal
+- [Bitcoin Arveplanmal (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Academy Dokumentasjonsmal
 
 
 

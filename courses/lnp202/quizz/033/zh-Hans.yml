@@ -1,0 +1,9 @@
+question: 哪些工具不能识别 Lightning 上的相关同行？
+answer: Electrum
+wrong_answers:
+  - 雷电终端
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum 并非获取网络节点信息的 "闪电 "资源管理器。而其他三个工具则能很好地实现这一功能。
+reviewed: false

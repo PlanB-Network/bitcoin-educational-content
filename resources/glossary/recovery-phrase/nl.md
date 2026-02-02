@@ -1,5 +1,6 @@
 ---
-term: HERSTELZIN
+term: Herstelzin
+definition: Reeks van 12 of 24 woorden waarmee een Bitcoin-wallet kan worden geback-upt en hersteld.
 ---
 
 Een herstelzin, soms ook Mnemonic, seed of geheime zin genoemd, is een reeks die meestal bestaat uit 12 of 24 woorden die op een pseudo-willekeurige manier gegenereerd wordt uit een bron van entropie. De pseudo-willekeurige reeks wordt altijd aangevuld met een controlesom. De Mnemonic zin, samen met een optionele passphrase, wordt gebruikt om deterministisch alle sleutels geassocieerd met een HD (Hierarchical Deterministic) Wallet af te leiden. Dit betekent dat het vanuit deze zin mogelijk is om deterministisch generate en alle private en publieke sleutels van de Bitcoin Wallet te recreëren, en dus toegang te krijgen tot de fondsen die ermee geassocieerd zijn. Het doel van de herstelzin is om een veilige en gebruiksvriendelijke manier van back-up en herstel van bitcoins te bieden.

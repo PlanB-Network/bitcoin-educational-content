@@ -1,11 +1,12 @@
 ---
-term: UTREEXO
+term: Utreexo
+definition: Protokół kompresujący zestaw UTXO węzłów Bitcoin poprzez akumulator oparty na drzewach Merkle.
 ---
 
 Protokół zaprojektowany przez Tadge Dryja do kompaktowania zbioru UTXO węzłów Bitcoin przy użyciu akumulatora opartego na drzewach Merkle'a. W przeciwieństwie do klasycznego zestawu UTXO, który wymaga znacznej przestrzeni dyskowej, Utreexo drastycznie zmniejsza zapotrzebowanie na pamięć, przechowując tylko korzenie Merkle Tree. Pozwala to węzłowi weryfikować istnienie UTXO używanych w wejściach transakcji, bez konieczności przechowywania pełnego zestawu UTXO. Korzystając z Utreexo, każdy węzeł zachowuje jedynie kryptograficzny odcisk palca zwany Merkle Root. Gdy dokonywana jest transakcja, użytkownik dostarcza dowody Ownership UTXO i odpowiadające im ścieżki Merkle. W ten sposób węzeł może weryfikować transakcje bez przechowywania całego zestawu UTXO. Weźmy przykład z diagramem, aby zrozumieć ten mechanizm:
 
 
-![](../../dictionnaire/assets/15.webp)
+
 
 
 W tym przykładzie celowo zredukowałem zestaw UTXO do 4 UTXO, aby ułatwić zrozumienie. W rzeczywistości ważne jest, aby wyobrazić sobie, że w momencie pisania tych wierszy na Bitcoin znajduje się prawie 140 milionów UTXO. Na tym schemacie węzeł Utreexo musiałby przechowywać tylko Merkle Root w pamięci RAM. Jeśli otrzyma transakcję wydającą UTXO nr 3 (w kolorze czarnym), dowód składałby się z następującego Elements:

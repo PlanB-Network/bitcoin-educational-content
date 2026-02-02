@@ -1,6 +1,7 @@
 ---
-term: TRANSAKCE (TX)
+term: Transakce (tx)
 
+definition: Operace zaznamenaná v blockchainu, která převádí vlastnictví bitcoinů z jednoho nebo více vstupů na jeden nebo více výstupů.
 ---
 V kontextu Bitcoinu je transakce (zkráceně "TX") operace zaznamenaná v blockchainu, která převádí vlastnictví bitcoinů z jednoho nebo více vstupů na jeden nebo více výstupů. Každá transakce spotřebovává jako vstupy nespotřebované výstupy transakcí (UTXO), což jsou výstupy z předchozích transakcí, a vytváří nové UTXO jako výstupy, které lze použít jako vstupy v budoucích transakcích.
 

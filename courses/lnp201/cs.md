@@ -1013,6 +1013,10 @@ Viděli jsme, že správa likvidity je na Lightning výzvou, aby se zajistil ply
 
 ![LNP201](assets/en/084.webp)
 
+Nyní, když jste pochopili teoretické fungování Lightning Network, můžete přejít k praxi a nastavit svůj první Lightning uzel, abyste získali větší autonomii při jeho používání. Za tímto účelem sledujte kurz LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Sekce finále
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>

@@ -1,6 +1,7 @@
 ---
-term: TRANSAKTIONSGEBÜHREN
+term: Transaktionsgebühren
 
+definition: Betrag zur Belohnung von Minern für die Aufnahme einer Transaktion in einen Block, berechnet als Differenz zwischen Inputs und Outputs.
 ---
 Transaktionsgebühren sind ein Betrag, der die Miner für ihre Teilnahme am Proof-of-Work-Mechanismus entschädigen soll. Diese Gebühren sind ein Anreiz für die Miner, Transaktionen in die von ihnen erstellten Blöcke aufzunehmen. Sie ergeben sich aus der Differenz zwischen dem Gesamtbetrag der Inputs und dem Gesamtbetrag der Outputs in einer Transaktion:
 
@@ -22,4 +23,3 @@ In diesem konkreten Beispiel handelte es sich um eine Transaktion, die vom Direk
 
 Es ist auch notwendig, die Grenzen der Bereinigung zu berücksichtigen. In Zeiten hoher Auslastung bereinigen die Mempools der Nodes ihre ausstehenden Transaktionen unterhalb eines bestimmten Schwellenwerts, um ihr zugewiesenes RAM-Limit einzuhalten. Dieses Limit wird vom Benutzer frei gewählt, aber viele belassen den Standardwert von Bitcoin Core bei 300 MB. Er kann in der Datei `bitcoin.conf` mit dem Parameter `maxmempool` geändert werden.
 
-> ► *Im Englischen sprechen wir von "Transaktionsgebühren".*

@@ -1,0 +1,9 @@
+question: Millist teavet saab Watchtower pettuse jälgimiseks?
+answer: Pettustehingu osaline TXID
+wrong_answers:
+  - Privaatne kanali võti
+  - Täielik kanali staatus
+  - Pettustehingu TXID
+explanation: |
+  Vaatetorn saab ainult osa petmise tehingu TXID-st, et tuvastada kahtlane tehing, ilma et ta teaks kanalit.
+reviewed: false

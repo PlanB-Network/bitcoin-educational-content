@@ -1,5 +1,6 @@
 ---
-term: TWEAK
+term: Tweak
+definition: Valor escalar añadido a una clave pública para modificarla manteniendo su usabilidad con la clave privada original.
 ---
 
 En criptografía, "retocar" una clave pública es modificarla utilizando un valor aditivo llamado "retoque", de modo que siga siendo utilizable con el conocimiento tanto de la clave privada original como del retoque. Técnicamente, un "tweak" es un valor escalar que se añade a la clave pública original. Si $P$ es la clave pública y $t$ es la modificación, la clave pública modificada se convierte en :

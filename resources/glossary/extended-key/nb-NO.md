@@ -1,6 +1,7 @@
 ---
-term: FORLENGET NØKKEL
+term: Utvidet nøkkel
 
+definition: Streng som kombinerer en nøkkel, dens chain code og metadata for derivering i HD-lommebøker.
 ---
 En sekvens av tegn som kombinerer en nøkkel (offentlig eller privat), den tilhørende kjedekoden og en rekke metadata. En utvidet nøkkel samler alle elementene som er nødvendige for å utlede underordnede nøkler, i én enkelt identifikator. De brukes i deterministiske og hierarkiske lommebøker og kan være av to typer: en utvidet offentlig nøkkel (som brukes til å utlede underordnede offentlige nøkler) eller en utvidet privat nøkkel (som brukes til å utlede både underordnede private og offentlige nøkler). En utvidet nøkkel inneholder dermed flere forskjellige data, beskrevet i BIP32, i følgende rekkefølge:
 

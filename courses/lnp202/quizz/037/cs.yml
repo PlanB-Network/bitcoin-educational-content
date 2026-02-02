@@ -1,0 +1,9 @@
+question: Co je hlavní prioritou obchodníka s bleskem?
+answer: Získání příchozí likvidity
+wrong_answers:
+  - Získávání odchozí likvidity
+  - Úspora nákladů na směrování
+  - Získání dobrých recenzí LN+
+explanation: |
+  Obchodník musí být schopen inkasovat peníze bez selhání, což vyžaduje dostatečnou příchozí likviditu.
+reviewed: false

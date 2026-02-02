@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
 
+definition: Tapscript-opcode som verifiserer en signatur og øker en teller hvis den er gyldig.
 ---
 Henter ut de tre øverste verdiene fra stakken: en `public key`, et `CScriptNum` `n` og en `signature`. Hvis signaturen ikke er den tomme vektoren og ikke er gyldig, avsluttes skriptet med en feilmelding. Hvis signaturen er gyldig eller er den tomme vektoren (`OP_0`), presenteres to scenarier:
 

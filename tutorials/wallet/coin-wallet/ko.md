@@ -211,11 +211,12 @@ Bitcoin을 보내려면:
 4. 트랜잭션 속도를 선택합니다:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| 속도   | 대략적인 확인 시간 | 수수료 수준     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **느림**    | ~120분              | 최저
+| **기본값** | ~60분               | 중간
+| **빠름**    | ~20분               | 높음
 
 5. 4자리 PIN으로 확인 → 거래가 브로드캐스트됩니다
 
@@ -251,12 +252,13 @@ Replace-by-fee(RBF)에 대한 자세한 정보: https://bitcoinops.org/en/topics
 (99%의 사용자는 절대 사용하지 않습니다. 12단어 passphrase이면 충분합니다.)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| 상황                                      | 개인 키가 필요한 이유                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| 오래된 종이 지갑 청소                   | 현재 지갑으로 자금 이동             |
+| 하드웨어 서명자로 가져오기(예: Coldcard) | 오프라인 서명용                              |
+| 긴급 복구(시드 손실하지만 앱은 여전히 열려있음) | 앱이 사라지기 전에 코인 구하기           |
+| 시드 구문을 허용하지 않는 도구 사용     | 일부 감시 전용 또는 서명 유틸리티             |
 
 ### Coin Wallet에서 개인 키를 내보내는 방법
 
@@ -313,14 +315,16 @@ Coin Wallet은 거의 모든 진지한 지갑에서 사용하는 공식 Bitcoin 
 wallet는 하나의 마스터 키로 엄격하게 정의된 순서대로 82억 개의 주소를 generate할 수 있습니다. 그렇기 때문에 Electrum, Sparrow, 트레저, Ledger, 블루월렛 등에 동일한 12개의 단어를 입력해도 주소와 잔액이 정확히 동일하게 표시됩니다.
 
 
-*gW-88에서 사용된 파생 경로 Wallet의 경우 Bitcoin****
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+**Coin Wallet에서 Bitcoin에 사용되는 파생 경로**
+
+| 주소 유형              | 표준 | 파생 경로       | 시작 문자 | 설명                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| 네이티브 SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | 최신 형식, 최저 수수료           |
+| 중첩 SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | 구형 서비스용 호환성 래퍼 |
+| 레거시 (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | 가장 오래된 형식, 최고 수수료          |
 
 각 경로 내부:
 

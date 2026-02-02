@@ -1,10 +1,11 @@
 ---
-term: MINISCRIPT
+term: Miniscript
 
+definition: 简化比特币脚本创建、分析和验证的框架。
 ---
 旨在为比特币上安全的脚本编程提供一个框架。比特币的内用语言叫做脚本。它在实际使用中相当复杂，特别是对于复杂和定制的应用程序。最重要的是，很难验证脚本的局限性。Miniscript 使用比特币脚本的一个子集来简化脚本的创建、分析和验证。每个 miniscript 都与本地脚本一一对应。使用一种用户友好的策略语言，然后将其编译到 miniscript 中，最终与本地脚本相对应。
 
-![](../../dictionnaire/assets/30.webp)
+
 
 因此，Miniscript 允许开发人员以更安全、更可靠的方式构建复杂的脚本。Miniscript 的基本特性如下：
 

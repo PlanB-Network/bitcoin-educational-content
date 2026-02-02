@@ -1,0 +1,8 @@
+question: Dans le système à réserve fractionnaire décrit par Saifedean Ammous, quel est le mécanisme fondamental qui permet la multiplication de la masse monétaire?
+answer: Les banques permettent aux clients de disposer de leur argent à tout moment alors qu'une partie importante a été prêtée, créant ainsi de la monnaie lors de chaque prêt
+wrong_answers:
+  - Les banques centrales injectent directement des liquidités dans les comptes des banques commerciales qui les redistribuent sous forme de prêts aux particuliers
+  - "Les banques commerciales empruntent massivement auprès des banques centrales pour constituer des réserves qu'elles prêtent ensuite aux entrepreneurs"
+  - "Les banques utilisent l'épargne réelle des déposants comme base pour créer proportionnellement plus de monnaie selon un multiplicateur fixe déterminé par la banque centrale"
+explanation: |
+  Le système à réserve fractionnaire fonctionne sur une promesse paradoxale : les banques garantissent à leurs clients un accès permanent à leurs fonds tout en ayant prêté une grande partie de ces dépôts. Cette double promesse crée de facto de la nouvelle monnaie à chaque prêt accordé, car l'argent existe simultanément sur le compte du déposant et chez l'emprunteur. Les autres réponses décrivent des mécanismes d'injection de liquidités ou de multiplication contrôlée, mais ne saisissent pas cette essence paradoxale du système fractionnaire qui permet une expansion monétaire dépassant largement l'épargne réelle disponible.

@@ -6,3 +6,4 @@ wrong_answers:
   - Jenis mata uang
 explanation: |
   Kedalaman 0 sesuai dengan kunci induk dan kode rantai induk, yang merupakan titik awal untuk semua turunan dalam dompet HD.
+reviewed: true

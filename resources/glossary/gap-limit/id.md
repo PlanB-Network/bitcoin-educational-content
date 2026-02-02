@@ -1,6 +1,7 @@
 ---
-term: GAP LIMIT
+term: Gap limit
 
+definition: Jumlah maksimum alamat yang tidak digunakan secara berurutan sebelum menghentikan pencarian transaksi.
 ---
 Parameter yang digunakan dalam perangkat lunak dompet Bitcoin untuk menentukan jumlah maksimum alamat yang tidak terpakai secara berurutan yang akan dibuat sebelum menghentikan pencarian transaksi tambahan. Menyesuaikan parameter ini sering kali diperlukan ketika memulihkan dompet untuk memastikan bahwa semua transaksi ditemukan. _Gap Limit_ yang tidak cukup dapat mengakibatkan hilangnya beberapa transaksi jika alamat dilewati selama fase derivasi. Meningkatkan _Gap Limit_ memungkinkan _wallet_ untuk mencari lebih jauh dalam urutan alamat, untuk memulihkan semua transaksi yang terkait.
 

@@ -1,5 +1,6 @@
 ---
-term: STŘEPY (BLESKY)
+term: Shardy (lightning)
+definition: Část platby směrovaná samostatně přes různé cesty Lightning (MPP/AMP).
 ---
 
 V kontextu *Vícecestných plateb (MPP)* nebo *Atomických vícecestných plateb (AMP)* je Shard zlomek globální platby. Každý Shard představuje část celkové platby, která je v systému Lightning směrována samostatně jinou cestou.

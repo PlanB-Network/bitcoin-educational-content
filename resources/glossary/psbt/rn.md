@@ -1,5 +1,6 @@
 ---
 term: PSBT
+definition: Uburyo bwizewe bwo kwubaka no gusangira ama transactions ya Bitcoin yateweko igikumu igice.
 ---
 
 Inyuguti y'inyongera "Partially Signed Bitcoin Transaction". Ni ivyerekeye vyashizweho na BIP174 kugira ngo bihuze uburyo amafaranga atarangiriye yubatswe muri porogarama zijanye na Bitcoin, nka porogarama ya Wallet. PSBT ipfutse ibikorwa vy’ubudandaji aho ivyinjijwe bishobora kutashirwako umukono ku buryo bushitse. Harimwo amakuru yose akenewe kugira ngo uwuriko aragira uruhara ashobore gusinya ku bijanye n’ugucuruza ata makuru y’inyongera asaba. Gutyo, PSBT irashobora gufata uburyo 3 butandukanye:

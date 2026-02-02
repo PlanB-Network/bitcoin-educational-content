@@ -1,0 +1,9 @@
+question: Hva er det viktigste kompromisset med LN-ombordnoder?
+answer: Operatøravhengighet
+wrong_answers:
+  - Tap av private nøkler
+  - Ingen selvforvaring
+  - Onchain-betalinger obligatorisk for alle Lightning-transaksjoner
+explanation: |
+  Brukeren er sterkt avhengig av hovedoperatøren for tilkobling og kanaladministrasjon.
+reviewed: false

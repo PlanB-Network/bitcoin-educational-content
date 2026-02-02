@@ -1,5 +1,6 @@
 ---
-term: KOMPAKTOWY PRZEKAŹNIK BLOKOWY
+term: Przekazywanie zwartych bloków
+definition: Protokół oszczędzający pasmo, transmitujący bloki w sposób kompaktowy za pomocą krótkich identyfikatorów (BIP152).
 ---
 
 Protokół wprowadzony do Bitcoin Core w 2016 roku poprzez BIP152, który proponuje metodę oszczędzania przepustowości dla węzłów sieci. Compact Block Relay pozwala na przekazywanie informacji blokowych w zwarty sposób, w oparciu o założenie, że węzły mają już większość transakcji ostatniego bloku w swoim Mempool. Zamiast przesyłać każdą transakcję w całości, co spowodowałoby duplikację, Compact Block Relay proponuje wysyłanie tylko krótkich identyfikatorów transakcji już znanych peerom, wraz z kilkoma wybranymi transakcjami (zwłaszcza Coinbase Transaction i tymi, których węzeł prawdopodobnie nie zna). Węzeł może następnie zażądać brakujących transakcji od swoich partnerów. Compact Block Relay zmniejsza zatem ilość danych wymienianych podczas propagacji bloków, co z kolei zmniejsza skoki przepustowości i poprawia ogólną wydajność sieci.

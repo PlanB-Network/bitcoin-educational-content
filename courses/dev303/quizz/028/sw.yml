@@ -1,4 +1,4 @@
-question: Ni nini hutokea wakati wa mchakato wa kupumzika wakati hofu inapotokea katika Rust?
+question: Ni nini hutokea wakati wa mchakato wa kupumzika wakati panic inapotokea katika Rust?
 answer: Rust inarudi nyuma kupitia rundo la simu ili kutoa ufuatiliaji wa kina wa rundo
 wrong_answers:
   - Rust husitisha programu mara moja bila usafi wowote au taarifa yoyote

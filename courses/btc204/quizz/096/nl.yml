@@ -5,6 +5,6 @@ wrong_answers:
   - Het aantal waarschijnlijke bronnen voor een UTXO aan het begin van cycli.
   - De tijd die nodig is om een CoinJoin te voltooien.
 explanation: |
-  De retrospectieve anonset geeft het aantal mogelijke bronnen voor een gegeven munt aan, rekening houdend met de UTXO aan het einde van de cyclus.
+  De retrospectieve anonset geeft het aantal mogelijke bronnen voor een gegeven UTXO aan, rekening houdend met de UTXO aan het einde van de cyclus.
   
 reviewed: false

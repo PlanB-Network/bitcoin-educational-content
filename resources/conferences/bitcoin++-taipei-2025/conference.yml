@@ -1,0 +1,23 @@
+id: 63c0b6a4-aa69-4f7a-a32e-0cf1739df679
+year: 2025-12
+name: bitcoin++ is standing sovereign
+project_id: 81e4a931-705b-4d28-bbe7-4f4de3196034
+location: Taipei, Taiwan
+language:
+  - en
+links:
+  twitter: https://x.com/btcplusplus
+  website: https://btcpp.dev/
+tags:
+  - development
+  - software
+  - technical
+#proofreading_metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: '2025-12-17'
+    urgency: 0
+    contributor_names:
+      - jramos0
+    reward: 0.05

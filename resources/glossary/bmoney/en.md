@@ -1,5 +1,6 @@
 ---
-term: B-MONEY
+term: B-money
+definition: Prototype of a decentralized cryptocurrency designed by Wei Dai in 1998, a precursor to Bitcoin.
 ---
 
 Prototype of a decentralized cryptocurrency designed by Wei Dai in 1998. It envisioned a network in which participants would be identified solely by public keys, and every transaction would be digitally signed by the sender. 

@@ -1,0 +1,9 @@
+question: Ni amajambo angahe arimwo ijambo ry’ikirundi ryitwa LND?
+answer: Amajambo 24
+wrong_answers:
+  - Amajambo 10
+  - Amajambo 18
+  - Amajambo 36
+explanation: |
+  LND generates ni ijambo ry'amajambo 24 ry'ukwibuka ry'ugusubiza inyuma no gusubizaho.
+reviewed: false

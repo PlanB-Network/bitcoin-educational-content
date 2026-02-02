@@ -1,4 +1,4 @@
-question: Welk element verhindert een externe waarnemer om onderscheid te maken tussen Stonewall en Stonewall x2 transacties?
+question: Welk element verhindert een externe waarnemer om onderscheid te maken tussen Stonewall en Stonewall x2-transacties?
 answer: Het patroon van de transacties is hetzelfde
 wrong_answers:
   - De transacties zijn versleuteld

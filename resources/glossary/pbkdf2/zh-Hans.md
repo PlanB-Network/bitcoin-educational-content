@@ -1,6 +1,7 @@
 ---
-term: PBKDF2 (基于密码的密钥派生函数） 
+term: PBKDF2 
 
+definition: 通过多次迭代从密码中派生加密密钥的函数。
 ---
 `PBKDF`2 是 *Password-Based Key Derivation Function 2* 的缩写。这是一种使用派生函数从密码创建加密密钥的方法。它将密码、加密盐作为输入，并对这些数据反复应用一个预定函数（通常是哈希函数，如 `SHA256` 或 `HMAC`）。这一过程会重复多次，以生成加密密钥。
 

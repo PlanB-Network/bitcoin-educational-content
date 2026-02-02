@@ -1,0 +1,9 @@
+question: Kwa mtazamo wa Bitcoin onchain, chaneli ya Umeme ni nini?
+answer: Pato la Multisignature 2/2
+wrong_answers:
+  - Hati P2MS 2/2
+  - UTXO moja
+  - Mkataba wa Shirikisho
+explanation: |
+  Onchain, njia ya Umeme inawakilishwa na matokeo ya saini nyingi yanayohitaji saini za washiriki wote wawili.
+reviewed: false

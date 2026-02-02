@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
 
+definition: Tapscript-Opcode, der eine Signatur prüft und einen Zähler erhöht, wenn sie gültig ist.
 ---
 Extrahiert die obersten drei Werte aus dem Stack: einen "öffentlichen Schlüssel", eine "CScriptNum" "n" und eine "Signatur". Wenn die Signatur nicht der leere Vektor und ungültig ist, bricht das Skript mit einem Fehler ab. Wenn die Signatur gültig ist oder der leere Vektor ist (`OP_0`), werden zwei Szenarien dargestellt:
 

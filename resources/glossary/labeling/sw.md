@@ -1,5 +1,6 @@
 ---
-term: KUWEKA LEBO
+term: Uwekaji lebo
+definition: Zoezi la kutoa maelezo kwa UTXO ili kurahisisha usimamizi wa fedha na faragha.
 ---
 
 Zoezi la kugawa kidokezo au lebo kwa UTXO maalum katika Bitcoin Wallet. Kwa mfano, ikiwa nina UTXO kutoka kwa ununuzi wa P2P kwenye Bisq na Charles, ninaweza kuitambulisha kama "`Non-KYC Bisq Charles`".

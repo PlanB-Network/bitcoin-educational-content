@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition: Klasifikacija BIP-ova u 4 kategorije Consensus, Peer Services, API/RPC i Applications.
 ---
 
 Uspostavlja novi standardizovani proces za klasifikaciju Bitcoin predloga za poboljšanje. BIP-ovi sada moraju biti klasifikovani u 4 kategorije:

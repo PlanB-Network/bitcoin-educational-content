@@ -1,5 +1,6 @@
 ---
-term: IVYO GUSUBIRAMWO (ISEZERANO)
+term: Recursive (covenant)
+definition: Covenant ishinga amategeko kuri transaction y'ubu n'izindi zose zizokurikira bitagira iherezo.
 ---
 
 Isezerano ry’ugusubira inyuma kuri Bitcoin ni ubwoko bwa Smart contract bushiraho ivyangombwa atari ku bijanye n’ugucuruza gusa ariko no ku bikorwa vyo muri kazoza bikoresha ibiva muri iyo nzira. Ivyo bituma habaho imirongo y’ubudandaji aho umwe wese ategerezwa kwubahiriza amategeko amwamwe asobanurwa n’uwa mbere mu ruhererekane. Recursivity irema urutonde rw'ibikorwa aho umwe wese aragwa uburenganzira buva ku bikorwa vyayo vy'umuvyeyi. Ivyo vyotuma habaho ukugenzura gukomeye kandi kw’igihe kirekire kw’ingene amafaranga y’ama bitcoins ashobora gukoreshwa, ariko kandi vyotuma habaho ingorane ku bijanye no gukoresha umwidegemvyo n’ugushobora gukoreshwa.

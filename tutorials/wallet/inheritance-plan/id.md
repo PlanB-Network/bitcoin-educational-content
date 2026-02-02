@@ -424,7 +424,7 @@ Mulailah dengan memilih solusi teknis yang sesuai dengan profil Anda, mengujinya
 
 
 
-- [Template Rencana Warisan Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Template Dokumentasi Plan ₿ Network
+- [Template Rencana Warisan Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Template Dokumentasi Plan ₿ Academy
 
 
 

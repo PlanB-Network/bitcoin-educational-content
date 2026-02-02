@@ -1,5 +1,6 @@
 ---
 term: BIP0010
+definition: Initial proposal for multisignature transactions, withdrawn and replaced by BIP11 and BIP16.
 ---
 
 The BIP10, proposed by Gavin Andresen in 2011, aimed to introduce the concept of multisignature transactions. Its primary goal was to standardize how payments could be conditioned on multiple signatures (multisig) by introducing a new type of script. 

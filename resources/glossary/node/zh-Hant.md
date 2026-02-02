@@ -1,5 +1,6 @@
 ---
 term: 節點
+definition: 運行比特幣客戶端，透過維護區塊鏈副本參與網路的電腦。
 ---
 
 在 Bitcoin 網路中，節點（英文稱為「node」）是運行 Bitcoin 通訊協定用戶端的電腦（例如 Bitcoin Core）。它透過維護 Blockchain 的副本、中繼並驗證交易和新區塊，以及選擇性地參與 Mining 流程來參與網路。所有 Bitcoin 節點的總和代表 Bitcoin 網路本身。

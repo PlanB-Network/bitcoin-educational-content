@@ -1,6 +1,7 @@
 ---
 term: BIP0044
 
+definition: Tiêu chuẩn xác định cấu trúc đầy đủ của các đường dẫn dẫn xuất cho ví HD mục đích (purpose), loại tiền (coin_type), tài khoản (account), thay đổi (change) và chỉ số địa chỉ (address_index).
 ---
 A proposal for improvement that introduces a standard hierarchical derivation structure for HD wallets. BIP44 builds on the principles established by BIP32 for key derivation and on BIP43 for the use of the “purpose” field. It introduces a five-level derivation structure: `m / purpose' / coin_type' / account' / change / address_index`. Here are the details of each depth:
 

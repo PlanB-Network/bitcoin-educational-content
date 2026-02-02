@@ -40,46 +40,6 @@ Trong khóa học, chúng ta sẽ thảo luận về một số khía cạnh khi
  
 Điều quan trọng là phải hiểu rằng Bitcoin là một hệ thống tiền tệ mới sẽ thay đổi hoàn toàn mối quan hệ của chúng ta với tài sản\tiền bạc, vì vậy việc học cách sử dụng nó là một kỹ năng cần thiết cho bất kỳ ai muốn kiểm soát tài sản\tiền của mình.
 
-**Mục 1 - Tiền**
-
-
-- Chương 1 - Tiền là gì?
-- Chương 2 - Tiền pháp định
-- Chương 3 - Siêu lạm phát
-- Chương 4 - Chính sách tiền tệ của Bitcoin
-
-**Phần 2 - Các loại ví Bitcoin**
-
-
-- Chương 5 - Ví Bitcoin hoạt động như thế nào?
-- Chương 6 - Lựa chọn cách bảo mật của bạn
-- Chương 7 - Cài đặt và tinh chỉnh ví của bạn
-- Chương 8 - Bảo quản ví qua thời gian
-
-**Phần 3 - Các chức năng kỹ thuật của Bitcoin**
-
-
-- Chương 9 - Một giao dịch Bitcoin là gì?
-- Chương 10 - Các máy chủ Bitcoin
-- Chương 11 - Người khai thác (thợ đào)
-- Chương 12 - Người khai thác (thợ đào) và hệ sinh thái
-
-**Mục 4 - Tiết kiệm với Bitcoin**
-
-
-- Chương 13 - Giá Bitcoin
-- Chương 14 - Làm thế nào để mua Bitcoin?
-- Chương 15 - Làm việc để lấy Bitcoin
-- Chương 16 - Quy trình bitcoin hóa
-
-**Phần 5 - Mạng Lightning**
-
-
-- Chương 17 - Giới thiệu về mạng tia chớp (Lightning)
-- Chương 18 - Các ứng dụng của mạng tia chớp (Lightning)
-
-
-
 Trước khi tìm hiểu về tiền và chức năng của tiền trong xã hội trong Chương 1, chúng ta nên bắt đầu từ nguồn cội của Bitcoin. Ra mắt vào năm 2009, Bitcoin là một công nghệ khá mới mẻ không giống với các công nghệ khác. Do đó, việc không hiểu gì về nó hay không có một cái nhìn toàn diện trong giai đoạn đầu là điều hiển nhiên. Giống như khi học cách sử dụng Internet hoặc lái xe, bạn không cần phải biết tất cả các chi tiết kỹ thuật ngay lập tức: bạn có thể bắt đầu bằng cách học cách nhận Bitcoin, thanh toán và bảo lưu nguồn vốn của mình bằng Bitcoin, sau đó từng bước nghiên cứu sâu hơn.
 
 Hiện tại, chúng ta đã qua giai đoạn cất cánh nhưng chỉ mới ở giai đoạn đầu của quá trình áp dụng: vì thế bạn đang ở đúng thời điểm như mong muốn để đạt được nhiều kiến thức nhất có thể về cải tiến quan trọng này.
@@ -749,7 +709,7 @@ Mặc dù Satoshi vắng mặt, Bitcoin vẫn tiếp tục được phát triể
 
 Đối với một số người, Bitcoin được định nghĩa là một loại nấm giống như một [hệ nấm sợi](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), trong khi người khác mô tả nó như một [hố đen](https://dergigi.com/). Dù bạn thích hay không thì Bitcoin vẫn tiếp tục tồn tại, với nhịp độ đều đặn liên tục 10 phút cho mỗi khối, giống như nhịp đập trái tim của một hệ thống tiền tệ mới.
 
-Để tìm hiểu thêm về các bài viết của Satoshi Nakamoto, chúng tôi khuyên bạn nên đọc ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) của Phil Champagne hoặc phim tài liệu "Le mystaire Satoshi" của ARTE.
+Để tìm hiểu sâu hơn về các tác phẩm của Satoshi Nakamoto, tôi khuyến nghị đọc [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) của Phil Champagne, tác phẩm tập hợp và đặt các văn bản chính của ông vào bối cảnh, cũng như bộ phim tài liệu của ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), mang đến một cuộc điều tra dễ tiếp cận và được tư liệu hóa đầy đủ về danh tính và di sản của ông.
 
 ![image](assets/vi/044.webp)
 

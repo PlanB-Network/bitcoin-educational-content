@@ -1,5 +1,6 @@
 ---
 term: BIP0149
+definition: BIP148의 대안으로, 보다 점진적이고 덜 대립적인 접근 방식인 BIP8을 통한 SegWit 활성화를 제안.
 ---
 
 2017년 11월 15일 이전에 BIP9를 통한 SegWit의 초기 배포가 활성화에 실패한 경우, `LOT=true`로 BIP8 활성화 방법을 사용하여 SegWit(BIP141, BIP143 및 BIP147)의 새로운 배포를 위한 Shaolin Fry의 제안입니다.

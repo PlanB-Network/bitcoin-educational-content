@@ -5,4 +5,5 @@ wrong_answers:
   - SIGHASH_SINGLE
   - SIGHASH_ANYONECANPAY
 explanation: |
-  SIGHASH_ALL ist das Standard-Sighash-Flag, das alle Eingaben und Ausgaben einer Transaktion abdeckt und jegliche Modifikationen verhindert.
+  SIGHASH_ALL ist die Standard-Sighash-Flag, die alle Eingaben und Ausgaben einer Transaktion abdeckt und jegliche Modifikationen verhindert.
+reviewed: true

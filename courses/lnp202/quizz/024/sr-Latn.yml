@@ -1,0 +1,9 @@
+question: Zašto je pravljenje rezervne kopije Lightning čvora složenije od Bitcoin onchain wallet?
+answer: Stanje kanala se razvija
+wrong_answers:
+  - Likvidnost kanala zavisi od mempool-a
+  - Zabeleži glasine o Lightning mreži
+  - Ključevi za opoziv ističu tokom vremena
+explanation: |
+  Kanali munje menjaju stanje sa svakom uplatom, što čini jednostavnu fiksnu ili periodičnu rezervnu kopiju opasnom.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
-term: HARD FORK
+term: Hard fork
 
+definition: Modifikasi protokol yang tidak kompatibel ke belakang sehingga menyebabkan pemisahan jaringan secara permanen.
 ---
 Sebuah perubahan pada aturan protokol dengan cara yang tidak kompatibel ke belakang. Perubahan ini menyebabkan pemisahan permanen jaringan node Bitcoin menjadi dua kelompok yang berbeda: node dengan pembaruan dan node tanpa pembaruan. Pemisahan ini diwujudkan dengan pembagian _blockchain_ asli menjadi dua _blockchain_ yang terpisah, yang memiliki sejarah yang sama, oleh karena itulah istilah "_fork_" digunakan di sini.
 

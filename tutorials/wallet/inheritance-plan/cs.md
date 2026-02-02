@@ -424,7 +424,7 @@ Začněte výběrem technického řešení vhodného pro váš profil, vyzkouše
 
 
 
-- [Šablona dědického plánu Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Šablona dokumentace Plan ₿ Network
+- [Šablona dědického plánu Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Šablona dokumentace Plan ₿ Academy
 
 
 

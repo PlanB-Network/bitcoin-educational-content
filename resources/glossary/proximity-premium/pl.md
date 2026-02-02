@@ -1,5 +1,6 @@
 ---
-term: PREMIA ZA BLISKOŚĆ
+term: Premia zbliżeniowa
+definition: Korzyść finansowa górników uzyskana dzięki zmniejszeniu opóźnień w komunikacji sieciowej.
 ---
 
 W kontekście Bitcoin Mining odnosi się do korzyści finansowych, jakie górnicy uzyskują dzięki zmniejszeniu opóźnień w komunikacji w sieci. Górnicy znajdujący się bliżej siebie szybciej otrzymują nowe ważne bloki, co pozwala im przestać marnować zasoby na kandydujący blok, który znajduje się w gałęzi z mniejszą ilością zgromadzonej pracy. Zmniejszenie opóźnień poprawia zyski górników, co naturalnie zachęca ich do łączenia się w grupy geograficzne w celu maksymalizacji przychodów.

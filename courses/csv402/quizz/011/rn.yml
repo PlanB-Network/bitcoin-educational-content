@@ -1,9 +1,9 @@
 question: Ni igiki gifise Anchor muri RGB?
-answer: transaction ID, MPC, DBC, n'Ikimenyamenya c'Ibindi Bicuruzwa
+answer: indangakintu y'ihanahanwa (transaction ID), MPC, DBC, hamwe n'icemeza ko habaye ihanahanwa ryiyongera
 wrong_answers:
-  - Genesis, Seal Definition, na Transition Bundle.
-  - Contract Schema, Business Logic, na Owned State.
-  - Umukono, Ibikorwa Hash, na Pedersen commitment
+  - Itanguriro, insiguro ya Serire, n'umutekero w'impinduka.
+  - Igicapo c'amasezerano, Uko ishoramari rimeze, na Uko bimeze murirusangi.
+  - Umukono, Hash y'ihanahanwa, n'ukwiyemeza kwa Pedersen
 explanation: |
-  Anchor irimwo amakuru akenewe kugira ngo yerekane ko hariho Commitment yihariye mu gucuruza Bitcoin.
-reviewed: false
+  Anchor irimwo amakuru akenewe kugira ngo yerekane ko hariho ukwiyemeza mw'ihanahanwa rya Bitcoin.
+reviewed: true

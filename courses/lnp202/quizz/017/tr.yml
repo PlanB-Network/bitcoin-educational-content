@@ -1,0 +1,9 @@
+question: LND uygulama arayüzünde görüntülenen Lightning wallet bakiyesi neyi temsil ediyor?
+answer: Giden likiditenin toplamı
+wrong_answers:
+  - Onchains toplamı
+  - Gelen likiditenin toplamı
+  - Kanal kapasitelerinin toplamı
+explanation: |
+  Yıldırım bakiyesi, kanallar aracılığıyla harcanabilecek sats'ye, yani düğümün tüm kanallarından giden likiditenin toplamına karşılık gelir.
+reviewed: false

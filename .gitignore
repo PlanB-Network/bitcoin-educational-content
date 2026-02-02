@@ -23,3 +23,5 @@ scripts/quizz_to_pdfs/output
 claudedocs
 scripts/reports
 docs/PBN-template-repo/scripts/__pycache__
+.mcp.json
+.venv

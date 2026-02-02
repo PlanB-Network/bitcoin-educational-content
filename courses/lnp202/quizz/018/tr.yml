@@ -1,0 +1,9 @@
+question: LND anımsatıcı cümlesi kaç sözcük içerir?
+answer: 24 kelime
+wrong_answers:
+  - 10 kelime
+  - 18 kelime
+  - 36 kelime
+explanation: |
+  LND generate, düğüm yedekleme ve kurtarma için 24 kelimelik bir anımsatıcı ifadedir.
+reviewed: false

@@ -1,5 +1,6 @@
 id: 1f8a28d4-fa99-4261-9d80-48275b496fd4
 
+last_update_date: 2025-01-17
 
 category: others
 
@@ -19,146 +20,146 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 2.98
+    reward: 1.13
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.91
+    reward: 3.35
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.96
+    reward: 2.27
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.96
+    reward: 2.27
   - language: es
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 2.98
+    reward: 1.13
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.91
+    reward: 3.35
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.91
+    reward: 3.35
   - language: id
     last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - 62maximalist
-    reward: 4.93
+    reward: 2.22
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.96
+    reward: 2.27
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.86
+    reward: 5.52
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.91
+    reward: 3.35
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.96
+    reward: 2.27
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.91
+    reward: 3.35
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.86
+    reward: 5.52
   - language: zh-Hans
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 4.93
+    reward: 2.22
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.86
+    reward: 5.52
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.91
+    reward: 3.35
   - language: sr-Latn
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 3.95
+    reward: 2.22
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.91
+    reward: 3.35
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.86
+    reward: 4.44
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.91
+    reward: 3.35
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.96
+    reward: 2.27
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.91
+    reward: 3.35
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.86
+    reward: 4.44
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.86
+    reward: 4.44
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.86
+    reward: 5.52
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.91
+    reward: 3.35
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.86
+    reward: 4.44
 tags:
   - smart-contracts
   - guides

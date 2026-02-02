@@ -1,6 +1,7 @@
 ---
-term: PPS (TASU AKTSIA KOHTA)
+term: Pps (pay per share)
 
+definition: Fikseeritud tasustamismeetod iga esitatud osaluse (share) kohta, sõltumata leitud plokkidest.
 ---
 Kaevandajate tasu arvutamise meetod kaevandamisbasseinide raames. PPS on süsteem, kus kaevuritele makstakse iga esitatud kehtiva aktsia eest, olenemata sellest, kas bassein leiab ploki või mitte. Seega makstakse neile hüvitist eeldatava väärtuse alusel. Tegemist on ülesandepõhise tasustamismeetodiga.
 

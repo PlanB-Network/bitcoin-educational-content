@@ -1,8 +1,9 @@
-question: Ni nde yavuze iryo jambo ngo "Ndabona ko jewe na Bwana Turgot gusa dukunda abantu"? ?
-answer: Ludoviko XVI
+question: Ni nde yavuze iryo jambo ngo "Ndabona ko Turgot na jewe twenyene nitwe dukunda abantu"? ?
+answer: Louis XVI
 wrong_answers:
   - Voltaire
-  - Kondorseti
+  - Condorcet
   - Rousseau
 explanation: |
   Louis XVI ni we yavuze ayo majambo, ashimika ku vyo yashigikiye Turgot be n’ivyo yariko arahindura.
+reviewed: true

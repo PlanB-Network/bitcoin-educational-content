@@ -1,5 +1,6 @@
 ---
 term: PSBT
+definition: Muundo sanifu wa kuunda na kushiriki miamala ya Bitcoin iliyotiwa saini kwa sehemu.
 ---
 
 Kifupi cha "Partially Signed Bitcoin Transaction". Ni vipimo vilivyoletwa na BIP174 ili kusawazisha njia ambayo shughuli ambazo hazijakamilika zinaundwa katika programu zinazohusiana na Bitcoin, kama vile programu ya Wallet. PSBT inajumlisha shughuli ambayo pembejeo huenda zisiwe na saini kamili. Inajumuisha maelezo yote muhimu kwa mshiriki kutia sahihi muamala bila kuhitaji data ya ziada. Kwa hivyo, PSBT inaweza kuchukua aina 3 tofauti:

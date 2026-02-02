@@ -1,5 +1,6 @@
 ---
 term: BIP0047
+definition: Reusable payment codes allowing multiple payments to be received without reusing addresses, improving privacy. Used by PayNym.
 ---
 
 Proposed by Justus Ranvier in 2015, this protocol addresses the critical issue of Bitcoin address reuse, a practice that severely compromises user privacy. Satoshi Nakamoto, in the Bitcoin White Paper, had already highlighted the importance of using distinct key pairs for each transaction to maintain segregation in the different actions of users. 

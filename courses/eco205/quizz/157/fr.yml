@@ -1,0 +1,8 @@
+question: Pourquoi Mises affirme-t-il qu'un équilibre statique ne peut pas résoudre le problème du calcul économique en régime socialiste?
+answer: Parce que l'information économique change constamment dans la réalité, rendant l'équilibre statique purement conceptuel et inapplicable
+wrong_answers:
+  - "Parce que l'équilibre statique nécessite trop de ressources computationnelles pour être calculé par les planificateurs centraux"
+  - "Parce que l'équilibre statique ignore les préférences individuelles des consommateurs et favorise uniquement les producteurs"
+  - "Parce que l'équilibre statique crée automatiquement des monopoles qui faussent la distribution des richesses"
+explanation: |
+  Selon Mises, même si théoriquement un équilibre statique permettrait le calcul centralisé, cette solution reste purement conceptuelle car l'information économique est en perpétuel changement. Les préférences des consommateurs, les technologies, les ressources disponibles et les conditions de production évoluent constamment. Un planificateur central ne peut donc jamais disposer d'informations figées suffisamment longtemps pour effectuer ses calculs, rendant impossible toute planification rationnelle même dans cette hypothèse théorique idéale.

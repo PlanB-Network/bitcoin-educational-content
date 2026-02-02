@@ -1,8 +1,8 @@
 question: Quelle est la syntaxe utilisée pour définir les paramètres dans les fermetures Rust ?
-answer: Caractères de liaison (|) pour entourer les paramètres
+answer: Caractères de liaison (|) pour entourer les paramètres.
 wrong_answers:
-  - Parenthèses () pour entourer les paramètres
-  - Crochets [] pour entourer les paramètres
-  - Accolades {} pour entourer les paramètres
+  - Parenthèses () pour entourer les paramètres.
+  - Crochets [] pour entourer les paramètres.
+  - Accolades {} pour entourer les paramètres.
 explanation: |
   Les fermetures Rust utilisent des caractères pipe (|) pour définir les paramètres, ce qui les distingue des fonctions ordinaires qui utilisent des parenthèses. Par exemple, une fermeture sans paramètres s'écrit ||, tandis qu'une fermeture avec paramètres ressemble à |x, y|. Cette syntaxe unique rend les fermetures facilement reconnaissables et les différencie des définitions de fonctions. Les parenthèses sont utilisées pour les fonctions ordinaires, tandis que les crochets et les accolades ont d'autres fonctions dans la syntaxe Rust.

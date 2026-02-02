@@ -1,0 +1,9 @@
+question: Quel élément est le plus important dans la compétitivité du minage industriel ?
+answer: Coût de l’électricité
+wrong_answers:
+  - Montant des charges salariales
+  - Qualité ergonomique des infrastructures
+  - Coût des licences logicielles
+explanation: |
+  À grande échelle, la rentabilité du minage dépend du coût par unité de calcul, qui est surtout déterminé par le coût de l’électricité.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
-term: REGRAS DE NORMALIZAÇÃO
+term: Regras de padronização
 
+definition: Regras locais que definem a estrutura das transações não confirmadas que um nó aceita em sua mempool.
 ---
 As regras de normalização são adoptadas individualmente por cada nó Bitcoin, para além das regras de consenso, para definir a estrutura das transacções não confirmadas que aceita no seu mempool e transmite aos seus pares. Essas regras são, portanto, configuradas e executadas localmente por cada nó e podem variar de um nó para outro. Aplicam-se exclusivamente a transacções não confirmadas. Assim, um nó só aceitará uma transação que considere não normalizada se esta já estiver incluída num bloco válido.
 

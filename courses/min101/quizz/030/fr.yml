@@ -1,0 +1,9 @@
+question: À quelle hauteur de bloc le quatrième halving a-t-il eu lieu ?
+answer: 840 000
+wrong_answers:
+  - 880 000
+  - 860 000
+  - 900 000
+explanation: |
+  Le quatrième halving à eu lieu à la hauteur 840 000, le 20 avril 2024.
+reviewed: false

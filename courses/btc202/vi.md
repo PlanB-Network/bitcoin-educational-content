@@ -328,7 +328,7 @@ Miner cần có một nút Bitcoin để tương tác với mạng.
 
 
 
-Vai trò của Miner đôi khi cũng được phân biệt với vai trò của máy băm. Máy băm là một máy có nhiệm vụ tạo mẫu các khối do máy chủ của nhóm cung cấp, tìm kiếm các giá trị băm thỏa mãn mục tiêu độ khó được xác định cho các phần chia sẻ, chứ không phải mục tiêu của Bitcoin. Phần còn lại của quy trình Mining, bao gồm xây dựng khối thực tế, lựa chọn giao dịch hoặc tìm kiếm Proof-of-Work theo độ khó riêng của Bitcoin, cũng như phân phối, được thực hiện trực tiếp bởi các nhóm.
+Vai trò của Miner đôi khi cũng được phân biệt với vai trò của grind. Grind là một máy có nhiệm vụ tạo mẫu các khối do máy chủ của nhóm cung cấp, tìm kiếm các giá trị băm thỏa mãn mục tiêu độ khó được xác định cho các phần chia sẻ, chứ không phải mục tiêu của Bitcoin. Phần còn lại của quy trình Mining, bao gồm xây dựng khối thực tế, lựa chọn giao dịch hoặc tìm kiếm Proof-of-Work theo độ khó riêng của Bitcoin, cũng như phân phối, được thực hiện trực tiếp bởi các nhóm.
 
 
 
@@ -2514,9 +2514,11 @@ Cuối cùng, tôi khuyên bạn nên sử dụng ứng dụng *Lightning Networ
 
 
 
-Nhờ Umbrel, việc quản lý một node Lightning cá nhân đã được đơn giản hóa đáng kể, nhưng vẫn còn tương đối phức tạp. Vì lý do này, chúng ta sẽ xem xét kỹ hơn chủ đề này trong một khóa học sắp tới dành riêng cho việc sử dụng này.
+Nhờ Umbrel, việc quản lý một nút Lightning cá nhân trở nên đơn giản hơn, nhưng vẫn tương đối phức tạp. Chính vì vậy, tôi khuyến nghị bạn theo học khóa LNP 202, là phần tiếp nối hợp lý của khóa BTC 202, trong đó tôi sẽ đồng hành cùng bạn từng bước trong việc thiết lập và quản lý nút Lightning của bạn trên Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Vảy đuôi
 
@@ -3894,11 +3896,13 @@ Bây giờ bạn có thể chuyển sang phần cuối cùng của khóa học, 
 
 
 
-Bây giờ bạn có một số lựa chọn. Bước hợp lý tiếp theo là thiết lập nút Lightning của riêng bạn, cho phép bạn hoàn toàn độc lập với các giao dịch off-chain. Đây sẽ là chủ đề của một khóa học sắp tới, dự kiến được xuất bản vào mùa thu năm 2025 trên Plan ₿ Academy.
+Hiện tại có nhiều hướng đi mở ra trước mắt bạn. Bước tiếp theo hợp lý là thiết lập nút Lightning của riêng bạn, nhằm đạt được sự độc lập hoàn toàn trong các giao dịch off-chain. Đây chính là chủ đề của một khóa học khác trên Plan ₿ Academy:
 
 
 
-Trong khi đó, tôi mời bạn khám phá khóa đào tạo BTC 204, khóa đào tạo này sẽ giúp bạn hiểu và nắm vững các nguyên tắc bảo vệ quyền riêng tư khi sử dụng Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Tôi cũng mời bạn khám phá khóa học BTC 204, khóa học sẽ giúp bạn hiểu và làm chủ các nguyên tắc bảo vệ quyền riêng tư trong việc sử dụng Bitcoin của mình:
 
 
 

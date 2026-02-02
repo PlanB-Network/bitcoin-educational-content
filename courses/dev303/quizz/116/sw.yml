@@ -1,8 +1,8 @@
-question: Je, ni faida gani kuu ya kipengele cha ushirikiano cha Breez SDK kinachoruhusu programu nyingi kuunganishwa kwenye nodi moja ya Umeme kwa kutumia kifungu kimoja cha seed?
-answer: Watumiaji wanaweza kudumisha usawa mmoja wa Umeme katika matumizi tofauti maalum huku wakiepuka ugumu wa kudhibiti nodi nyingi za Umeme
+question: Je, ni faida gani kuu ya kipengele cha ushirikiano cha Breez SDK kinachoruhusu programu nyingi kuunganishwa kwenye node moja ya Lightning kwa kutumia kifungu kimoja cha seed?
+answer: Watumiaji wanaweza kudumisha usawa mmoja wa lightning katika matumizi tofauti maalum huku wakiepuka ugumu wa kudhibiti node nyingi za lightning
 wrong_answers:
   - Programu zinaweza kushiriki funguo za faragha moja kwa moja kati ya kila mmoja, na hivyo kuwezesha utiaji saini wa miamala ya programu mbalimbali bila mtumiaji kuingilia kati.
-  - Programu nyingi zinaweza kuunganisha ukwasi wao pamoja ili kuunda njia kubwa zaidi za umeme zenye uwezo ulioongezeka wa uelekezaji wa mtandao
-  - Watengenezaji wanaweza kufikia miundombinu ya umeme wa pamoja bila kutekeleza usimamizi wao wa nodi, na hivyo kupunguza gharama za maendeleo na ugumu.
+  - Programu nyingi zinaweza kuunganisha ukwasi wao pamoja ili kuunda njia kubwa zaidi za lightning zenye uwezo ulioongezeka wa uelekezaji wa mtandao
+  - Watengenezaji wanaweza kufikia miundombinu ya lightning wa pamoja bila kutekeleza usimamizi wao wa node, na hivyo kupunguza gharama za maendeleo na ugumu.
 explanation: |
-  Uwezo wa SDK kufanya kazi pamoja huruhusu watumiaji kufikia nodi moja ya Lightning na fedha kutoka kwa programu nyingi maalum (kama vile wallet ya jumla na programu ya podikasti) bila kudhibiti mizani au nodi tofauti. Majibu yasiyo sahihi yanapotosha usanifu: funguo za faragha haziondoki kamwe kwenye kifaa cha mtumiaji na hazishirikiwi kati ya programu, ujumuishaji wa ukwasi si jinsi mfumo unavyofanya kazi, na ingawa watengenezaji wananufaika na miundombinu iliyorahisishwa, faida kuu iliyoelezwa ni uzoefu wa mtumiaji uliounganishwa katika programu zote.
+  Uwezo wa SDK kufanya kazi pamoja huruhusu watumiaji kufikia node moja ya Lightning na fedha kutoka kwa programu nyingi maalum (kama vile wallet ya jumla na programu ya podikasti) bila kudhibiti mizani au nodi tofauti. Majibu yasiyo sahihi yanapotosha usanifu: funguo za faragha haziondoki kamwe kwenye kifaa cha mtumiaji na hazishirikiwi kati ya programu, ujumuishaji wa ukwasi si jinsi mfumo unavyofanya kazi, na ingawa watengenezaji wananufaika na miundombinu iliyorahisishwa, faida kuu iliyoelezwa ni uzoefu wa mtumiaji uliounganishwa katika programu zote.

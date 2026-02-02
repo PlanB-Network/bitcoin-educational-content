@@ -1,9 +1,9 @@
-question: Wat is de term voor informatie die een bundel On-Chain activiteiten koppelt aan een vorm van echte identiteit?
-answer: Een startpunt.
+question: Wat is de term voor informatie die een bundel onchain activiteiten koppelt aan een vorm van echte identiteit?
+answer: Een ingangspunt.
 wrong_answers:
   - Een koppelingssleutel.
   - Een vingerafdruklink.
   - Een analyse marker.
 explanation: |
-  Gedragingen en informatie die een echte identiteit kunnen linken aan On-Chain activiteiten worden ingangspunten genoemd.
+  Gedragingen en informatie die een echte identiteit kunnen linken aan onchain activiteiten worden ingangspunten genoemd.
 reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: BIP0043
+definition: Standaard die het veld purpose introduceert in HD-derivatiepaden om het type gebruikte wallet te identificeren (bijv. m/84' voor SegWit).
 ---
 
 Voorstel voor verbetering dat het gebruik introduceert van een afleidingspadniveau om het doelveld te beschrijven in de structuur van HD wallets, eerder geïntroduceerd in BIP32. Volgens BIP43 is het eerste afleidingsniveau van een HD Wallet, net na de hoofdsleutel aangeduid als `m/`, gereserveerd voor het doelnummer dat de afleidingsnorm aanduidt die gebruikt wordt voor de rest van het pad. Dit nummer wordt geregistreerd als een verharde index. Bijvoorbeeld, als de Wallet de SegWit standaard (BIP84) volgt, zou het begin van het afleidingspad zijn: `m/84'/`. BIP43 maakt het dus mogelijk om te verduidelijken aan welke standaarden elke Wallet software zich houdt, voor een betere onderlinge interoperabiliteit. De standaardisatie van de rest van het afleidingspad wordt beschreven in BIP44.

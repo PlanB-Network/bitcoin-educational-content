@@ -137,7 +137,7 @@ Artık Interface yazılımına erişiminiz var.
 Başlamadan önce, Ledger'unuz yeniyse PIN kodunu ayarladığınızdan ve kurtarma cümlesini kaydettiğinizden emin olun. Bu ilk adımlar için Ledger Live'a ihtiyacınız yoktur. Ledger'unuza güç vermek için USB kablosuyla bağlamanız yeterlidir. Bu iki adımda nasıl ilerleyeceğinizden emin değilseniz, modelinize özgü eğitimin başına bakabilirsiniz:
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

@@ -1,5 +1,6 @@
 ---
-term: OVEREENKOMST VAN NEW YORK (NYA)
+term: New York Agreement (NYA)
+definition: Bijeenkomst in 2017 waar SegWit2x werd voorgesteld, uiteindelijk verlaten wegens gebrek aan consensus.
 ---
 
 Een besloten bijeenkomst in 2017 met meer dan 50 bedrijven uit het Bitcoin ecosysteem, na de Consensus 2017 conferentie. Het doel van deze bijeenkomst was om het langdurige debat over het schalen van Bitcoin te beëindigen door tot een overeenkomst te komen. Deze bijeenkomst leidde tot het voorstel van SegWit2x, geïnspireerd op het vorige SegWit2Mb-voorstel. Het plande twee grote wijzigingen aan het Bitcoin protocol:

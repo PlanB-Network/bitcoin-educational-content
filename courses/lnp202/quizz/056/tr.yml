@@ -1,0 +1,9 @@
+question: Bir NWC talebinin mobil uygulama tarafından bir röle üzerinde yayınlanmasının hemen ardından hangi adım gelir?
+answer: Düğüm şifreleri çözer ve yetkilendirmeyi doğrular
+wrong_answers:
+  - Aktarıcı düğüm için talebi imzalar
+  - Röle LND üzerinde ödeme gerçekleştirir
+  - Düğüm otomatik olarak bir kanal açar
+explanation: |
+  Düğüm olayı okur, şifresini çözer ve ardından eylemi gerçekleştirmeden önce yazarın yetkili olup olmadığını kontrol eder.
+reviewed: false

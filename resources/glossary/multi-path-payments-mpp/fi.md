@@ -1,5 +1,6 @@
 ---
-term: MONIPOLKUMAKSUT (MPP)
+term: Multi-path payments (MPP)
+definition: Lightning-tekniikka, joka jakaa maksun useisiin osiin, jotka reititetään eri reittien kautta.
 ---
 
 Yleisnimitys kaikille Lightningin maksutekniikoille, joiden avulla maksutapahtuma voidaan jakaa useisiin pienempiin osiin ja reitittää eri reittejä pitkin. Toisin sanoen kukin maksun osuus kulkee eri solmupolkua pitkin. Näin voidaan kiertää likviditeettirajoitukset yhden kanavan reitillä.

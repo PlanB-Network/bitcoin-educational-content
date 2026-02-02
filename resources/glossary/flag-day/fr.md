@@ -1,5 +1,6 @@
 ---
-term: FLAG DAY
+term: Flag day
+definition: Méthode d'activation de soft fork fixant une date butoir pour l'adoption des nouvelles règles.
 ---
 
 Méthode d'activation de soft fork utilisée dans les premières années de Bitcoin. Ce processus définit simplement une date butoir, connue sous le nom de « Flag Day », avant laquelle la mise à jour du protocole doit être adoptée par l'ensemble du réseau. Cette approche est simple et directe : après cette date, les nœuds et les mineurs doivent avoir mis à jour leur logiciel pour se conformer aux nouvelles règles, sans quoi ils risquent de se retrouver sur une chaîne incompatible.

@@ -1,5 +1,6 @@
 ---
-term: ASICBOOST
+term: Asicboost
+definition: Uboresho wa algorithmu unaoruhusa kuongeza ufanisi wa ukani kwa karibu 20% kwa kutumia tena sehemu ya mahesabu ya hash kati ya majaribio mengi.
 ---
 
 ASICBOOST ni mbinu ya uboreshaji ya algorithmic iliyobuniwa mwaka wa 2016, iliyoundwa ili kuongeza ufanisi wa Bitcoin Mining kwa takriban 20% kwa kupunguza kiasi cha hesabu kinachohitajika kwa kila jaribio la Hash la kichwa. Mbinu hii hutumia kipengele cha kazi ya SHA256 Hash, inayotumiwa kwa Mining, ambayo inagawanya data katika vitalu kabla ya kuzichakata. ASICBOOST huhifadhi mojawapo ya vizuizi hivi bila kubadilika katika majaribio mengi ya kuharakisha, ikiruhusu Miner kufanya sehemu ya kazi ya kizuizi hiki kwa majaribio kadhaa pekee. Ushiriki huu wa data huwezesha utumiaji tena wa matokeo kutoka kwa hesabu za awali, na hivyo kupunguza jumla ya idadi ya hesabu zinazohitajika ili kupata Hash halali.

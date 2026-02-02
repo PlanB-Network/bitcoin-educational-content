@@ -1,5 +1,6 @@
 ---
-term: TWEAK
+term: Tweak
+definition: Orijinal özel anahtarla kullanılabilirliğini korurken onu değiştirmek için bir genel anahtara eklenen skaler değer.
 ---
 
 Kriptografide, bir açık anahtarı "değiştirmek", "ince ayar" adı verilen bir ek değer kullanarak değiştirmektir, böylece hem orijinal özel anahtar hem de ince ayar bilgisi ile kullanılabilir kalır. Teknik olarak ince ayar, orijinal açık anahtara eklenen skaler bir değerdir. Eğer $P$ açık anahtar ve $t$ ince ayar ise, ince ayarlanmış açık anahtar :

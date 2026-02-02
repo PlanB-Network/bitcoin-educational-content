@@ -1,6 +1,7 @@
 ---
 term: P2TR
 
+definition: Taproot skript, mis võimaldab kulutamist avaliku võtme või Merkle skriptide kaudu, bc1p-aadressid.
 ---
 P2TR tähistab *Maksa Taprootile*, mis on standardne skripti mudel, mida kasutatakse UTXO (Unspent Transaction Output) kulutustingimuste kehtestamiseks. See võeti kasutusele koos Taprooti rakendamisega novembris 2021. P2TR kasutab krüptograafiliste võtmete koondamiseks Schnorr-protokolli ning alternatiivsete skriptide jaoks Merkle'i puid, mida tuntakse MAST (*Merkelized Alternative Script Tree*) nime all. Erinevalt traditsioonilistest tehingutest, kus kulutamise tingimused on avalikult avatud (mõnikord vastuvõtmisel, mõnikord kulutamise ajal), võimaldab P2TR varjata keerulisi skripte ühe näilise avaliku võtme taha.
 

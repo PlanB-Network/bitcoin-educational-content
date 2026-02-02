@@ -1,5 +1,6 @@
 ---
-term: gw-0 core gui-qml
+term: Bitcoin Core GUI-QML
+definition: 比特幣核心（Bitcoin Core）的現代圖形介面項目，使用 QML 以獲得更流暢的使用者體驗。
 ---
 
 持續進行中的專案，以 Bitcoin Core 為基礎建立 Bitcoin 產品組合與節點應用程式，但使用 QML (*Qt Modeling Language*) 開發直覺的圖形 Interface。Bitcoin Core GUI-QML 的目標是將 Bitcoin Core 的 Interface 使用者體驗現代化，以提供更簡單、更順暢、更動態的體驗。

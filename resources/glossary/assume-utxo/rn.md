@@ -1,17 +1,20 @@
 ---
-term: Twiyumvire ko UTXO
+term: Assume utxo
+definition: Ibigambi Bitcoin Core rimeza kuhuza vuba ikinini gitandukanya habigusisha icyuma cya UTXO cyerekana cyiza, mbere y'iyumvira nyuma.
 ---
+Iparametero ryo guhindura ibintu muri Bitcoin Core yemerera node imaze gutangizwa (ariko itarakora IBD) kurindira isuzuma ry'ivunjwa n'urusobe rwa UTXO mbere y'ifoto yafashwe (snapshot). Ibi bishingiye ku gukoresha urusobe rwa UTXO (urutonde rw'ama UTXO yose ariho ku gihe runaka) rwatanzwe na Core kandi rwigirwa ko ari rwo, bituma node ishobora guhuza vuba na vuba n'uruhererekane rufite akazi kenshi kageretsweho. Kubera ko node isimbuka intambwe ndende ya IBD, ihita itangira gukora vuba ku mukozi wayo.
 
-Igiharuro c’imiterere mu mukiriya wa Bitcoin core kiremerera urudodo rushasha rwatangujwe (urutarakora Initial Block Download, canke IBD) gusubiramwo igenzura ry’ibikorwa n’itegeko rya UTXO imbere y’ifoto yatanzwe. Iciyumviro gishingiye ku gukoresha umugwi wa UTXO (urutonde rw’ama UTXO yose ariho mu gihe kinaka) yatanzwe na Core kandi yiyumviriwe ko ari ukuri Ivyo bituma urudodo rushobora gukorana ningoga n’uruzitiro rufise igikorwa cirundanijwe cane.
+Assume UTXO igabura isanisha (IBD) mu bice bibiri: Ubwa mbere, node ikora Header First Sync (isuzuma ry'imitwe gusa) ikemera ko urusobe rwa UTXO yahawe na Core ari rwo; Hanyuma, imaze gutangira gukora, node isuzuma amateka yose y'ama blocks inyuma, ikavugurura urusobe rushya rwa UTXO yisuzumiye ubwayo. Iyo urwo rusobe rudahuye n'urwatanzwe na Core, itanga ubutumwa bw'ikosa.
 
-
-Kubera ko iyo node irenga inzira ndende ya IBD, iraca ikora ku wuyikoresha vyihuta cane. Niwiyumvire ko UTXO igabanya uguhuza (IBD) mu bice bibiri:
-
-
-
-- Ica mbere, iyo node ikora Header First Sync (ugusuzuma imitwe gusa) kandi ibona ko umugwi wa UTXO watanzwe na Core ari wo;
-
-*Hanyuma, iyo imaze gukora, iyo node itangura kugenzura amateka yuzuye y’ibarabara mu nyuma, yubaka umugwi wayo wa UTXO. Iyo iyi seti nshasha ya UTXO idahuye n’iyo Core yatanze, izotanga ubutumwa bw’ikosa.*
+Assume UTXO rero yemerera kwihutisha itegurwa rya node nshya ya Bitcoin mu kurindira isuzuma ry'ivunjwa n'urusobe rwa UTXO bishobotse kubera ifoto (snapshot) ivuguruye yatanzwe muri Core.
 
 
-Ku bw’ivyo, Assume UTXO yihutisha gutegura urudodo rushasha rwa Bitcoin mu gusubiramwo igikorwa co kugenzura ibikorwa n’ugushiraho UTXO biciye ku gishushanyo gishasha catanzwe muri Core.
+
+
+
+
+
+
+
+
+

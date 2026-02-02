@@ -1,5 +1,5 @@
 ---
-name: Filosofia dello sviluppo di Bitcoin
+name: La filosofia alla base dello sviluppo di Bitcoin
 goal: Sviluppare una profonda comprensione filosofica dei principi di progettazione di Bitcoin.
 objectives: 
 

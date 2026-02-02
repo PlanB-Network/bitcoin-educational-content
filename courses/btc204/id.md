@@ -2153,7 +2153,7 @@ Pada akhir campuran pertama ini, akun **premix** akan kosong, sementara koin kit
 
 ### Remixes
 
-Setelah pencampuran awal, UTXO ditransfer ke akun **postmix**. Akun ini mengumpulkan UTXO yang sudah dicampur dan yang sedang menunggu remix. Ketika pelanggan Whirlpool aktif, UTXO yang berada di akun **postmix** secara otomatis tersedia untuk di-remix dan akan dipilih secara acak untuk berpartisipasi dalam siklus baru ini.
+Setelah melakukan mix awal, UTXO dipindahkan ke akun **postmix**. Akun ini mengumpulkan UTXO yang sudah di-mix serta yang menunggu remix. Ketika klien Whirlpool aktif, UTXO yang berada di akun **postmix** secara otomatis tersedia untuk remix dan akan dipilih secara acak untuk berpartisipasi dalam siklus-siklus baru ini.
 
 Sebagai pengingat, remix 100% gratis: tidak ada biaya layanan tambahan atau biaya penambangan yang diperlukan. Oleh karena itu, menyimpan UTXO di akun **postmix** akan menjaga nilainya tetap utuh, dan pada saat yang sama meningkatkan anonsetnya. Itulah mengapa penting untuk mengizinkan koin-koin ini untuk berpartisipasi dalam beberapa siklus koin. Anda tidak akan dikenakan biaya sama sekali, dan meningkatkan tingkat anonimitasnya.
 

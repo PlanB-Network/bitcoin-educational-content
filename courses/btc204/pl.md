@@ -3077,7 +3077,7 @@ Pod koniec tych pierwszych miksów, konto **premix** będzie puste, podczas gdy 
 ### Remiksy
 
 
-Po wstępnym zmiksowaniu UTXO są przenoszone na konto **postmix**. To konto gromadzi UTXO już zmiksowane i te oczekujące na remiksowanie. Gdy klient Whirlpool jest aktywny, UTXO znajdujące się na koncie **postmix** są automatycznie dostępne do remiksowania i zostaną losowo wybrane do udziału w tych nowych cyklach.
+Po wykonaniu początkowego miksu UTXO są przenoszone na konto **postmix**. Konto to gromadzi UTXO już zmiksowane oraz te oczekujące na remix. Gdy klient Whirlpool jest aktywny, UTXO znajdujące się na koncie **postmix** są automatycznie dostępne do remixowania i będą losowo wybierane do udziału w tych nowych cyklach.
 
 
 Przypominamy, że remiksy są wtedy w 100% darmowe: nie są wymagane żadne dodatkowe opłaty za usługi ani opłaty Mining. Utrzymywanie UTXO na koncie **postmix** utrzymuje zatem ich wartość w stanie nienaruszonym, a jednocześnie poprawia ich anonsety. Dlatego ważne jest, aby pozwolić tym monetom uczestniczyć w kilku cyklach CoinJoin. To nic nie kosztuje, a zwiększa ich poziom anonimowości.

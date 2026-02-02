@@ -2155,7 +2155,7 @@ Nende esimeste segude lõpus on **premix** konto tühi, samas kui meie mündid, 
 
 ### Remiksid
 
-Pärast esialgset segamist kantakse UTXOd üle **postmix** kontole. Sellele kontole kogutakse juba segatud UTXOd ja need, mis ootavad uuesti segamist. Kui Whirlpooli klient on aktiivne, on **postmix**-kontol asuvad UTXOd automaatselt kättesaadavad remiximiseks ja need valitakse juhuslikult välja, et osaleda nendes uutes tsüklites.
+Pärast algse segamise tegemist kantakse UTXO-d kontole **postmix**. See konto koondab juba segatud UTXO-d ja need, mis ootavad uuesti segamist. Kui Whirlpooli klient on aktiivne, on kontol **postmix** asuvad UTXO-d automaatselt saadaval uuesti segamiseks ning need valitakse juhuslikult nendes uutes tsüklites osalemiseks.
 
 Meeldetuletuseks, et remixid on seejärel 100% tasuta: ei nõuta täiendavaid teenustasusid ega kaevandamistasusid. UTXOde hoidmine **postmix** kontol hoiab seega nende väärtuse puutumatuna ja parandab samal ajal nende anonsetid. Seepärast on oluline, et need mündid saaksid osaleda mitmes coinjoin'i tsüklis. See ei maksa teile absoluutselt midagi ja suurendab nende anonüümsuse taset.
 

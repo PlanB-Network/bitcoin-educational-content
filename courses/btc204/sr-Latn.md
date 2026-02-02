@@ -3076,7 +3076,7 @@ Na kraju ovih prvih mešanja, **premix** račun će biti prazan, dok će naši n
 ### Remiksi
 
 
-Nakon početnog mešanja, UTXO-i se prenose na **postmix** nalog. Ovaj nalog prikuplja UTXO-e koji su već pomešani i one koji čekaju ponovno mešanje. Kada je Whirlpool korisnik aktivan, UTXO-i koji se nalaze na **postmix** nalogu automatski su dostupni za ponovno mešanje i biće nasumično odabrani da učestvuju u ovim novim ciklusima.
+Nakon izvršenog početnog miksa, UTXO se prebacuju na **postmix** nalog. Ovaj nalog objedinjuje već miksovane UTXO-e i one koji čekaju na remixovanje. Kada je Whirlpool klijent aktivan, UTXO-ovi koji se nalaze na **postmix** nalogu automatski su dostupni za remixovanje i biće nasumično izabrani za učešće u ovim novim ciklusima.
 
 
 Kao podsetnik, remiksi su tada 100% besplatni: nisu potrebne dodatne usluge ili rudarske naknade. Čuvanje UTXO-a na **postmix** računu stoga zadržava njihovu vrednost netaknutom i istovremeno poboljšava njihove anonsete. Zato je važno omogućiti ovim kovanicama da učestvuju u nekoliko CoinJoin ciklusa. To vas apsolutno ništa ne košta, a povećava nivo njihove anonimnosti.

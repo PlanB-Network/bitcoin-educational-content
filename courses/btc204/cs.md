@@ -2155,7 +2155,7 @@ Na konci těchto prvních mixů bude účet **premix** prázdný, zatímco naše
 
 ### Remixy
 
-Po počátečním smíchání jsou prostředky UTXO převedeny na účet **postmix**. Tento účet shromažďuje již smíchané UTXO a ty, které čekají na remixování. Když je zákazník Whirlpool aktivní, UTXO nacházející se na účtu **postmix** jsou automaticky k dispozici pro remixy a budou náhodně vybrány pro účast v těchto nových cyklech.
+Po provedení počátečního mixu jsou UTXO převedeny do účtu **postmix**. Tento účet shromažďuje již smíchané UTXO a ty, které čekají na remixování. Když je klient Whirlpool aktivní, UTXO nacházející se v účtu **postmix** jsou automaticky k dispozici pro remixování a budou náhodně vybírány k účasti v těchto nových cyklech.
 
 Připomínáme, že remixy jsou pak 100% zdarma: nevyžadují se žádné další poplatky za služby nebo těžbu. Ponechání UTXO na účtu **postmix** tedy zachovává jejich hodnotu a zároveň zlepšuje jejich anonsety. Proto je důležité umožnit těmto mincím účast v několika cyklech coinjoinu. Nestojí vás to vůbec nic a zvyšuje to úroveň jejich anonymity.
 

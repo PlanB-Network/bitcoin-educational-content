@@ -2143,7 +2143,7 @@ At the end of these first mixes, the **premix** account will be empty, while our
 
 ### Remixes
 
-After the initial mix, the UTXOs are transferred to the **postmix** account. This account collects UTXOs already mixed and those awaiting remixing. When the Whirlpool client is active, UTXOs located in the **postmix** account are automatically available for remixes and will be randomly selected to participate in these new cycles.
+After performing the initial mix, the UTXOs are transferred to the **postmix** account. This account gathers UTXOs that have already been mixed as well as those awaiting remixing. When the Whirlpool client is active, the UTXOs located in the **postmix** account are automatically available for remixing and will be randomly selected to participate in these new cycles.
 
 As a reminder, remixes are then 100% free: no additional service charges or mining fees are required. Keeping UTXOs in the **postmix** account, therefore, preserves their value while also enhancing their anonymity. That's why it's important to allow these coins to participate in several coinjoin cycles. It costs you absolutely nothing and increases their anonymity levels.
 

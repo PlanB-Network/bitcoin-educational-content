@@ -2152,7 +2152,7 @@ No final destas primeiras misturas, a conta **premix** estará vazia, enquanto a
 
 ### Remixes
 
-Após a mistura inicial, os UTXOs são transferidos para a conta **postmix**. Esta conta recolhe os UTXOs já misturados e os que aguardam remistura. Quando o cliente Whirlpool está ativo, os UTXOs localizados na conta **postmix** estão automaticamente disponíveis para remisturas e serão selecionados aleatoriamente para participar nestes novos ciclos.
+Após a realização do mix inicial, os UTXOs são transferidos para a conta **postmix**. Esta conta reúne os UTXOs já misturados e aqueles que aguardam remixagem. Quando o cliente Whirlpool está ativo, os UTXOs presentes na conta **postmix** ficam automaticamente disponíveis para remixagens e serão escolhidos de forma aleatória para participar nesses novos ciclos.
 
 Como lembrete, as remisturas são então 100% gratuitas: não são necessárias taxas de serviço adicionais ou taxas de mineração. Manter as UTXOs na conta **postmix** mantém, portanto, o seu valor intacto e melhora os seus anonsets ao mesmo tempo. É por isso que é importante permitir que estas moedas participem em vários ciclos de coinjoin. Não lhe custa absolutamente nada e aumenta os seus níveis de anonimato.
 

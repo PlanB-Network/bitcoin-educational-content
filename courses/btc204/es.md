@@ -2155,7 +2155,7 @@ Al final de estas primeras mezclas, la cuenta **premix** estará vacía, mientra
 
 ### Remezclas
 
-Tras la mezcla inicial, los UTXO se transfieren a la cuenta **postmix**. Esta cuenta recoge los UTXO ya mezclados y los que están pendientes de remezcla. Cuando el cliente de Remezcla está activo, los UTXO situados en la cuenta **postmix** están automáticamente disponibles para remezclas y se seleccionarán aleatoriamente para participar en estos nuevos ciclos.
+Después de realizar el mix inicial, los UTXO se transfieren a la cuenta **postmix**. Esta cuenta agrupa los UTXO ya mezclados y aquellos que están a la espera de ser remezclados. Cuando el cliente Whirlpool está activo, los UTXO ubicados en la cuenta **postmix** están automáticamente disponibles para remezclas y serán seleccionados de forma aleatoria para participar en estos nuevos ciclos.
 
 Como recordatorio, las remezclas son entonces 100% gratuitas: no se requieren cargos adicionales por servicio o tasas de minería. Mantener UTXOs en la cuenta **postmix** por lo tanto mantiene su valor intacto, y mejora sus anonsets al mismo tiempo. Por eso es importante permitir que estas monedas participen en varios ciclos coinjoin. No te cuesta absolutamente nada, y aumenta sus niveles de anonimato.
 

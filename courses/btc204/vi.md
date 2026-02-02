@@ -2151,7 +2151,7 @@ Vào cuối những lần trộn đầu tiên này, tài khoản **premix** sẽ
 
 ### Bản phối lại
 
-Sau lần trộn ban đầu, các UTXO được chuyển đến tài khoản **postmix**. Tài khoản này thu thập các UTXO đã trộn và những UTXO đang chờ trộn lại. Khi khách hàng Whirlpool hoạt động, các UTXO nằm trong tài khoản **postmix** sẽ tự động có sẵn để trộn lại và sẽ được chọn ngẫu nhiên để tham gia vào các chu kỳ mới này.
+Sau khi thực hiện lần mix ban đầu, các UTXO được chuyển vào tài khoản **postmix**. Tài khoản này tập hợp các UTXO đã được mix cũng như những UTXO đang chờ được remix. Khi ứng dụng Whirlpool đang hoạt động, các UTXO nằm trong tài khoản **postmix** sẽ tự động sẵn sàng cho việc remix và được lựa chọn ngẫu nhiên để tham gia vào các chu kỳ mới này.
 
 Xin nhắc lại, các bản phối lại sau đó hoàn toàn miễn phí: không cần thêm bất kỳ khoản phí dịch vụ hoặc phí khai thác nào. Do đó, việc giữ UTXO trong tài khoản **postmix** sẽ giữ nguyên giá trị của chúng và đồng thời cải thiện tính ẩn danh của chúng. Đó là lý do tại sao việc cho phép các đồng tiền này tham gia vào một số chu kỳ coinjoin là rất quan trọng. Bạn hoàn toàn không mất gì cả và tăng mức độ ẩn danh của chúng.
 

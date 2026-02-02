@@ -3041,7 +3041,7 @@ Aan het einde van deze eerste mixen zal de **premix**-rekening leeg zijn, terwij
 ### Remixen
 
 
-Na de eerste mix worden de UTXO's overgebracht naar het **postmix**-account. Dit account verzamelt UTXO's die al gemengd zijn en UTXO's die nog geremixt moeten worden. Wanneer de Whirlpool-client actief is, zijn UTXO's die zich in het **postmix**-account bevinden automatisch beschikbaar voor remixen en worden willekeurig geselecteerd om deel te nemen aan deze nieuwe cycli.
+Na het uitvoeren van de initiële mix worden de UTXO’s overgebracht naar de **postmix**-rekening. Deze rekening verzamelt zowel reeds gemixte UTXO’s als UTXO’s die wachten op remixing. Wanneer de Whirlpool-client actief is, zijn de UTXO’s in de **postmix**-rekening automatisch beschikbaar voor remixing en worden ze willekeurig geselecteerd om aan deze nieuwe cycli deel te nemen.
 
 
 Ter herinnering, remixen zijn dan 100% gratis: er zijn geen extra servicekosten of mining-kosten nodig. Door UTXO's op de **postmix**-rekening te houden, blijft hun waarde intact en verbetert tegelijkertijd hun anonsets. Daarom is het belangrijk om deze munten deel te laten nemen aan verschillende CoinJoin-cycli. Het kost je helemaal niets en verhoogt hun anonimiteit.

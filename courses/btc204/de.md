@@ -2138,7 +2138,7 @@ Am Ende dieses ersten Mixes wird das **Premix**-Konto leer sein, während unsere
 
 ### Remixe
 
-Nach der ersten Mischung werden die UTXOs auf das **Postmix**-Konto übertragen. Dieses Konto sammelt bereits gemischte UTXOs und solche, die zum Remixen anstehen. Wenn der Whirlpool-Kunde aktiv ist, stehen die UTXOs auf dem **Postmix**-Konto automatisch für Remixe zur Verfügung und werden nach dem Zufallsprinzip für die Teilnahme an diesen neuen Zyklen ausgewählt.
+Nach dem initialen Mix werden die UTXOs auf das Konto **postmix** übertragen. Dieses Konto bündelt bereits gemixte UTXOs sowie solche, die auf ein Remixing warten. Wenn der Whirlpool-Client aktiv ist, stehen die im Konto **postmix** befindlichen UTXOs automatisch für Remixings zur Verfügung und werden zufällig ausgewählt, um an diesen neuen Zyklen teilzunehmen.
 
 Zur Erinnerung: Remixe sind dann zu 100 % kostenlos: Es fallen keine zusätzlichen Servicegebühren oder Mining-Gebühren an. Der Verbleib von UTXOs auf dem **Postmix**-Konto erhält daher ihren Wert und verbessert gleichzeitig ihre Anonsets. Deshalb ist es wichtig, diese Münzen an mehreren Coinjoin-Zyklen teilnehmen zu lassen. Es kostet Sie absolut nichts und erhöht ihre Anonymität.
 

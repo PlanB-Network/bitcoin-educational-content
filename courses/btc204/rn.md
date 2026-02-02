@@ -3087,7 +3087,7 @@ Ivyo bivanze vya mbere biheze, konti ya **premix** izoba iri ubusa, mu gihe ibic
 ### Gusubiramwo
 
 
-Inyuma y’imivumba ya mbere, ama UTXO aca yimurirwa kuri konti ya **postmix**. Iyi konti ikorakoranya ama UTXO amaze guvangwa n’ayo arindiriye gusubira kuvangwa. Iyo umukiriya wa Whirlpool ariko arakora, UTXO ziri muri konti ya **postmix** zica ziboneka ubwazo kugira ngo zisubirwemwo kandi zizotorwa mu buryo bw’impfagusa kugira ngo zigire uruhara muri izo nzira nshasha.
+Inyuma yo gukora mix ya mbere, UTXO zishirwa kuri konti ya **postmix**. Iyi konti ikusanya UTXO zamaze kumikiswa n’iziriko zirindira kongera kumikiswa. Iyo umukiriya wa Whirlpool akora, UTXO ziri kuri konti ya **postmix** ziboneka ako kanya kugira ngo zongere zimikwe kandi zizotorwa ku buryo bw’impfagusa kugira ngo zigire uruhara muri izo ngendo nshasha.
 
 
 Nk’ukwibutsa, remixs rero ziraba ku buntu 100%: nta yindi mice y’ibikorwa canke amahera ya Mining asabwa. Kugumiza UTXOs muri konti ya **postmix** rero bituma agaciro kazo kagumaho, kandi bigatuma anonsets zazo zitera imbere muri ico gihe nyene. Ni co gituma bihambaye kwemera ko ivyo biceri bigira uruhara mu nzira nyinshi za CoinJoin. Ntaco bigutwara na gato, kandi birongereza ingero zabo zo kutamenyekana.

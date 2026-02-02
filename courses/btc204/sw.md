@@ -2120,7 +2120,7 @@ Mwishoni mwa michanganyiko hii ya kwanza, akaunti ya **premix** itakuwa tupu, hu
 
 ### Mchanganyiko
 
-Baada ya mchanganyiko wa awali, UTXO huhamishiwa kwenye akaunti ya **mchanganyiko wa posta**. Akaunti hii hukusanya UTXO ambazo tayari zimechanganywa na zinazosubiri kuchanganywa tena. Mteja wa Whirlpool anapokuwa amilifu, UTXO zilizo katika akaunti **postmix** zinapatikana kiotomatiki kwa michanganyiko na zitachaguliwa bila mpangilio kushiriki katika mizunguko hii mipya.
+Baada ya kufanya mix ya awali, UTXO huhamishiwa kwenye akaunti ya **postmix**. Akaunti hii hukusanya UTXO zilizokwisha changanywa pamoja na zile zinazongojea kuchanganywa tena. Mteja wa Whirlpool anapokuwa hai, UTXO zilizopo kwenye akaunti ya **postmix** hupatikana kiotomatiki kwa ajili ya remix na huchaguliwa kwa nasibu kushiriki katika mizunguko hii mipya.
 
 Kama ukumbusho, mchanganyiko hautakuwa 100% bila malipo: hakuna gharama za ziada za huduma au ada za Mining zinazohitajika. Kwa hivyo, kuweka UTXO katika akaunti ya **mchanganyiko wa posta** hudumisha thamani yake, na kuboresha utatuzi wao kwa wakati mmoja. Ndiyo maana ni muhimu kuruhusu sarafu hizi kushiriki katika mizunguko kadhaa ya Kuunga sarafu. Haikugharimu chochote, na huongeza viwango vyao vya kutokujulikana.
 

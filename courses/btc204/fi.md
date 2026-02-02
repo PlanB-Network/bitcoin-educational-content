@@ -2155,7 +2155,7 @@ Näiden ensimmäisten sekoitusten päätyttyä **premix**-tili on tyhjä, kun ta
 
 ### Remixit
 
-Ensimmäisen sekoituksen jälkeen UTXO:t siirretään **postmix**-tilille. Tälle tilille kerätään jo miksatut UTXO:t ja ne UTXO:t, jotka odottavat remixausta. Kun Whirlpool-asiakas on aktiivinen, **postmix**-tilillä olevat UTXO:t ovat automaattisesti käytettävissä uudelleensekoituksia varten, ja ne valitaan satunnaisesti osallistumaan näihin uusiin sykleihin.
+Alkuperäisen miksauksen jälkeen UTXO:t siirretään **postmix**-tilille. Tämä tili kokoaa jo miksatut UTXO:t sekä ne, jotka odottavat uudelleenmiksausta. Kun Whirlpool-asiakas on aktiivinen, **postmix**-tilillä olevat UTXO:t ovat automaattisesti käytettävissä uudelleenmiksausta varten ja ne valitaan satunnaisesti osallistumaan näihin uusiin kierroksiin.
 
 Muistutuksena mainittakoon, että remixit ovat 100-prosenttisesti ilmaisia: mitään ylimääräisiä palvelumaksuja tai louhintamaksuja ei vaadita. UTXO:iden pitäminen **postmix**-tilillä pitää siis niiden arvon ennallaan ja parantaa samalla niiden anonsettiä. Siksi on tärkeää, että nämä kolikot voivat osallistua useisiin coinjoin-sykleihin. Se ei maksa sinulle yhtään mitään, ja lisää niiden anonymiteettitasoja.
 

@@ -3089,7 +3089,7 @@ Bu ilk karışımların sonunda, **premix** hesabı boş olacak ve bu ilk CoinJo
 ### Remixler
 
 
-İlk miksten sonra UTXO'lar **postmix** hesabına aktarılır. Bu hesap, halihazırda karıştırılmış olan ve yeniden karıştırılmayı bekleyen UTXO'ları toplar. Whirlpool müşterisi aktif olduğunda, **postmix** hesabında bulunan UTXO'lar otomatik olarak remiksler için kullanılabilir hale gelir ve bu yeni döngülere katılmak üzere rastgele seçilir.
+İlk miks işlemi gerçekleştirildikten sonra UTXO’lar **postmix** hesabına aktarılır. Bu hesap, halihazırda mikslenmiş UTXO’ları ve yeniden mikslenmeyi bekleyenleri bir araya getirir. Whirlpool istemcisi aktif olduğunda, **postmix** hesabında bulunan UTXO’lar otomatik olarak yeniden miksleme için kullanılabilir hâle gelir ve bu yeni döngülere katılmak üzere rastgele seçilir.
 
 
 Bir hatırlatma olarak, remiksler %100 ücretsizdir: ek hizmet ücreti veya Mining ücreti gerekmez. UTXO'ları **postmix** hesabında tutmak, bu nedenle değerlerini korur ve aynı zamanda anonsetlerini geliştirir. Bu nedenle, bu coinlerin birkaç CoinJoin döngüsüne katılmasına izin vermek önemlidir. Bunun size hiçbir maliyeti yoktur ve anonimlik seviyelerini artırır.

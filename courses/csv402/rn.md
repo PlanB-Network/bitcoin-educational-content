@@ -1,4 +1,4 @@
-  ---
+---
 name: Guhindura urutonde rwa RGB
 goal: Uraronka ubuhinga bukenewe kugira ngo utahure kandi ukoreshe RGB.
 objectives:

@@ -1548,7 +1548,7 @@ Dalam contoh ini, walaupun transaksi B menawarkan total biaya yang lebih tinggi,
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Ini berarti bahwa untuk setiap unit berat, transaksi A menawarkan lebih banyak biaya daripada transaksi B, meskipun transaksi B menawarkan lebih banyak biaya secara absolut.
@@ -2115,7 +2115,7 @@ Mari kita lihat berbagai tahapan coinjoin Whirlpool dalam akun-akun ini.
 
 Titik awal dari setiap coinjoin Whirlpool adalah akun **deposit**. Ini adalah akun yang secara otomatis Anda gunakan ketika Anda membuat dompet Bitcoin baru. Akun ini harus diisi dengan bitcoin yang ingin Anda gabungkan.
 
-Tx0" adalah langkah pertama dalam proses pencampuran Whirlpool. Tujuannya adalah untuk menyiapkan dan menyamakan UTXO untuk coinjoin, membaginya menjadi unit-unit yang sesuai dengan jumlah kolam yang dipilih, untuk memastikan pencampuran yang homogen. UTXO yang telah disamakan kemudian dikirim ke akun **premix**. Sedangkan untuk selisih yang tidak dapat masuk ke dalam pool, dipisahkan ke dalam akun tertentu: **bad bank** (atau "doxxic change").
+`Tx0` adalah langkah pertama dalam proses pencampuran Whirlpool. Tujuannya adalah untuk menyiapkan dan menyamakan UTXO untuk coinjoin, membaginya menjadi unit-unit yang sesuai dengan jumlah kolam yang dipilih, untuk memastikan pencampuran yang homogen. UTXO yang telah disamakan kemudian dikirim ke akun **premix**. Sedangkan untuk selisih yang tidak dapat masuk ke dalam pool, dipisahkan ke dalam akun tertentu: **bad bank** (atau "doxxic change").
 
 Transaksi awal `Tx0` ini juga digunakan untuk membayar biaya layanan kepada koordinator coinjoin. Tidak seperti langkah-langkah selanjutnya, transaksi ini tidak bersifat kolaboratif, sehingga pengguna harus menanggung seluruh biaya penambangan:
 

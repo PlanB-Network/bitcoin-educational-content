@@ -1547,7 +1547,7 @@ I dette eksempelet vil utvinnere foretrekke transaksjon A, selv om transaksjon B
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Det betyr at for hver vektenhet gir transaksjon A høyere kostnader enn transaksjon B, selv om transaksjon B gir høyere kostnader i absolutte termer.
@@ -2115,7 +2115,7 @@ La oss ta en titt på de forskjellige stadiene av en Whirlpool coinjoin innenfor
 
 Utgangspunktet for enhver Whirlpool coinjoin er **deposit**-kontoen. Dette er kontoen du automatisk bruker når du oppretter en ny Bitcoin-lommebok. Denne kontoen må krediteres med bitcoinsene du ønsker å blande.
 
-Tx0" er det første trinnet i Whirlpools blandeprosess. Formålet er å klargjøre og utjevne UTXO-ene for sammenblandingen ved å dele dem inn i enheter som tilsvarer mengden av det valgte bassenget, for å sikre en homogen blanding. UTXO-ene som er utjevnet på denne måten, sendes deretter til **premix**-kontoen. Når det gjelder differansen som ikke kan inngå i bassenget, skilles den ut på en spesifikk konto: **dårlig bank** (eller "doxxic change").
+`Tx0` er det første trinnet i Whirlpools blandeprosess. Formålet er å klargjøre og utjevne UTXO-ene for sammenblandingen ved å dele dem inn i enheter som tilsvarer mengden av det valgte bassenget, for å sikre en homogen blanding. UTXO-ene som er utjevnet på denne måten, sendes deretter til **premix**-kontoen. Når det gjelder differansen som ikke kan inngå i bassenget, skilles den ut på en spesifikk konto: **dårlig bank** (eller "doxxic change").
 
 Denne første Tx0-transaksjonen brukes også til å betale serviceavgiften til coinjoin-koordinatoren. I motsetning til de følgende trinnene er ikke denne transaksjonen samarbeidsbasert, så brukeren må bære hele kostnaden for utvinningen:
 

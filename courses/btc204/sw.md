@@ -1527,7 +1527,7 @@ Katika mfano huu, ingawa muamala B unatoa ada ya juu zaidi, wachimbaji watapende
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Hii ina maana kwamba kwa kila kitengo cha uzani, muamala A hutoa gharama zaidi kuliko muamala B, ingawa muamala B hutoa gharama zaidi kwa masharti kamili.

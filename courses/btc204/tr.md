@@ -2207,7 +2207,7 @@ Bu örnekte, B işlemi daha yüksek bir toplam ücret sunsa da, madenciler ücre
 
 ```text
 TXA: 1994 / 141 = 14 sats/vB
-TXB: 2640 / 220 = 12 sats / vB
+TXB: 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -3033,7 +3033,7 @@ Tüm bu hesaplar tek bir seed'ye bağlanarak kullanıcının kurtarma cümlesini
 Herhangi bir Whirlpool CoinJoin'nın başlangıç noktası **deposit** hesabıdır. Bu, yeni bir Bitcoin Wallet oluşturduğunuzda otomatik olarak kullandığınız hesaptır. Bu hesaba karıştırmak istediğiniz bitcoinlerin yatırılması gerekecektir.
 
 
-Tx0" Whirlpool'un karıştırma işlemindeki ilk adımdır. Amacı, CoinJoin için UTXO'ları hazırlamak ve eşitlemek, homojen karışımı sağlamak için seçilen havuzun miktarına karşılık gelen birimlere bölmektir. Bu şekilde eşitlenen UTXO'lar daha sonra **premix** hesabına gönderilir. Havuza giremeyen farka gelince, belirli bir hesaba ayrılır: **kötü banka** (veya "doxxic change").
+`Tx0` Whirlpool'un karıştırma işlemindeki ilk adımdır. Amacı, CoinJoin için UTXO'ları hazırlamak ve eşitlemek, homojen karışımı sağlamak için seçilen havuzun miktarına karşılık gelen birimlere bölmektir. Bu şekilde eşitlenen UTXO'lar daha sonra **premix** hesabına gönderilir. Havuza giremeyen farka gelince, belirli bir hesaba ayrılır: **kötü banka** (veya "doxxic change").
 
 
 Bu ilk `Tx0' işlemi aynı zamanda CoinJoin koordinatörüne ödenmesi gereken hizmet ücretini ödemek için de kullanılır. Aşağıdaki adımlardan farklı olarak, bu işlem işbirliğine dayalı değildir, bu nedenle kullanıcı Mining'nin tüm maliyetini üstlenmelidir:
@@ -3561,9 +3561,9 @@ Bir Whirlpool 8x8 Dalgalanma Döngüsü CoinJoin örneğini ele alırsak, Boltzm
 Ancak, tek bir girdi ve 2 çıktıya sahip basit bir işlem söz konusu olduğunda durum farklıdır:
 
 
-| Output 0 | Output 1 |
-|----------|----------|
-| Input 0  | 100%     | 100%    |
+| %       | Output 0 | Output 1 |
+|---------|----------|----------|
+| Input 0 | 100%     | 100%     |
 
 
 Burada, her bir çıktının #0 numaralı girdiden kaynaklanma olasılığının %100 olduğunu görüyoruz. Dolayısıyla daha düşük bir olasılık, girdiler ve çıktılar arasındaki doğrudan bağlantıları seyrelterek daha fazla gizliliği yansıtır.

@@ -1473,7 +1473,7 @@ Dans cet exemple, bien que la transaction B propose un total de frais plus élev
 ```text
 TXA : 1994 / 141 = 14 sats/vB
 
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Cela veut dire que pour chaque unité de poids, la transaction A offre plus de frais que la transaction B, alors même que cette dernière offre plus de frais en valeur absolue.

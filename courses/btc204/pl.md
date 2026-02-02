@@ -2195,7 +2195,7 @@ W tym przykładzie, chociaż transakcja B oferuje wyższą całkowitą opłatę,
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -3021,7 +3021,7 @@ Przyjrzyjmy się różnym etapom Whirlpool CoinJoin w ramach tych kont.
 Punktem startowym każdego Whirlpool CoinJoin jest **konto depozytowe**. Jest to konto używane automatycznie podczas tworzenia nowego Bitcoin Wallet. To konto będzie musiało zostać zasilone bitcoinami, które chcesz wymieszać.
 
 
-Tx0" to pierwszy krok w procesie mieszania Whirlpool. Jego celem jest przygotowanie i wyrównanie UTXO dla CoinJoin, dzieląc je na jednostki odpowiadające ilości wybranej puli, aby zapewnić jednorodne mieszanie. Tak wyrównane UTXO są następnie wysyłane na konto **premix**. Jeśli chodzi o różnicę, która nie może wejść do puli, jest ona rozdzielana na specjalne konto: **bad bank** (lub "doxxic change").
+`Tx0` to pierwszy krok w procesie mieszania Whirlpool. Jego celem jest przygotowanie i wyrównanie UTXO dla CoinJoin, dzieląc je na jednostki odpowiadające ilości wybranej puli, aby zapewnić jednorodne mieszanie. Tak wyrównane UTXO są następnie wysyłane na konto **premix**. Jeśli chodzi o różnicę, która nie może wejść do puli, jest ona rozdzielana na specjalne konto: **bad bank** (lub "doxxic change").
 
 
 Ta początkowa transakcja `Tx0` jest również wykorzystywana do uiszczenia opłaty za usługę należnej koordynatorowi CoinJoin. W przeciwieństwie do kolejnych kroków, ta transakcja nie jest oparta na współpracy, więc użytkownik musi ponieść pełny koszt Mining:
@@ -3547,9 +3547,9 @@ Jeśli weźmiemy przykład Whirlpool 8x8 Surge Cycle CoinJoin, tabela Boltzmanna
 Jednak w przypadku prostej transakcji z jednym wejściem i dwoma wyjściami sytuacja wygląda inaczej:
 
 
-| Output 0 | Output 1 |
+| %       | Output 0 | Output 1 |
 |---------|----------|----------|
-| Input 0 | 100% | 100% |
+| Input 0 | 100%     | 100%     |
 
 Tutaj widzimy, że prawdopodobieństwo każdego wyjścia pochodzącego z wejścia #0 wynosi 100%. Niższe prawdopodobieństwo odzwierciedla zatem większą poufność, osłabiając bezpośrednie powiązania między wejściami i wyjściami.
 

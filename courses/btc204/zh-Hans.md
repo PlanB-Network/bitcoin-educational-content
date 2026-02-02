@@ -1524,8 +1524,8 @@ https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 在这个例子中，虽然交易 B 的总费用更高，但矿工们更喜欢交易 A，因为它的费用和权重之间的比率更高。以下是每笔交易的计算结果，以每个虚拟字节（sat/vB）表示：
 
 ```text
-TXA : 1994 / 141 = 14 sats / vB
-TXB : 2640 / 220 = 12 sats / vB
+TXA : 1994 / 141 = 14 sats/vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 这意味着，就每单位重量而言，交易 A 的成本高于交易 B，尽管交易 B 的绝对成本更高。

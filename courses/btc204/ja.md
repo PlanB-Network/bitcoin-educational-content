@@ -1548,7 +1548,7 @@ https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 つまり、1単位の重量に対して、トランザクションAはトランザクションBより多くのコストを提供している。

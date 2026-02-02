@@ -2192,7 +2192,7 @@ U ovom primeru, iako transakcija B nudi višu ukupnu naknadu, rudari će preferi
 
 ```text
 TXA: 1994 / 141 = 14 sats/vB
-TXB: 2640 / 220 = 12 sats / vB
+TXB: 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -3546,9 +3546,9 @@ Ako uzmemo primer 8x8 Whirlpool Surge Cycle CoinJoin, Boltzmannova tabela bi izg
 Međutim, u slučaju jednostavne transakcije sa jednim ulazom i 2 izlaza, situacija je drugačija:
 
 
-| Output 0 | Output 1 |
+| %       | Output 0 | Output 1 |
 |---------|----------|----------|
-| Input 0 | 100% | 100% |
+| Input 0 | 100%     | 100%     |
 
 Ovde vidimo da je verovatnoća da svaki izlaz potiče iz ulaza #0 100%. Niža verovatnoća stoga odražava veću poverljivost, razvodnjavajući direktne veze između ulaza i izlaza.
 

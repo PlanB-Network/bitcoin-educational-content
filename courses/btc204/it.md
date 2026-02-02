@@ -1547,7 +1547,7 @@ In questo esempio, sebbene la transazione B offra una tariffa totale più alta, 
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Ciò significa che per ogni unità di peso, la transazione A offre più costi della transazione B, anche se la transazione B offre più costi in termini assoluti.
@@ -2113,7 +2113,7 @@ Vediamo le diverse fasi di un coinjoin Whirlpool all'interno di questi conti.
 
 Il punto di partenza di ogni coinjoin Whirlpool è il conto **deposito**. Si tratta del conto che viene utilizzato automaticamente quando si crea un nuovo portafoglio Bitcoin. Questo conto dovrà essere accreditato con i bitcoin che si desidera miscelare.
 
-Tx0" è la prima fase del processo di miscelazione di Whirlpool. Il suo scopo è quello di preparare e uniformare gli UTXO per il coinjoin, dividendoli in unità corrispondenti alla quantità del pool selezionato, per garantire una miscelazione omogenea. Le UTXO così equalizzate vengono poi inviate al conto **premix**. La differenza che non può entrare nel pool viene separata in un conto specifico: il **bad bank** (o "doxxic change").
+`Tx0` è la prima fase del processo di miscelazione di Whirlpool. Il suo scopo è quello di preparare e uniformare gli UTXO per il coinjoin, dividendoli in unità corrispondenti alla quantità del pool selezionato, per garantire una miscelazione omogenea. Le UTXO così equalizzate vengono poi inviate al conto **premix**. La differenza che non può entrare nel pool viene separata in un conto specifico: il **bad bank** (o "doxxic change").
 
 Questa transazione iniziale `Tx0` viene utilizzata anche per pagare la quota di servizio dovuta al coordinatore di coinjoin. A differenza delle fasi successive, questa transazione non è collaborativa, quindi l'utente deve sostenere l'intero costo del mining:
 

@@ -1547,7 +1547,7 @@ Neste exemplo, embora a transação B ofereça uma taxa total mais elevada, os m
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Isto significa que, por cada unidade de peso, a transação A oferece mais custos do que a transação B, embora a transação B ofereça mais custos em termos absolutos.

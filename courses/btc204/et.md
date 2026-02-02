@@ -1550,7 +1550,7 @@ Selles näites, kuigi tehing B pakub suuremat kogutasu, eelistavad kaevandajad t
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 See tähendab, et iga kaaluühiku kohta pakub tehing A rohkem kulusid kui tehing B, kuigi tehing B pakub absoluutarvudes rohkem kulusid.
@@ -2117,7 +2117,7 @@ Vaatleme nende kontode raames Whirlpooli coinjoini erinevaid etappe.
 
 Mis tahes Whirlpooli coinjoini lähtepunkt on **deposiitkonto**. See on konto, mida kasutate automaatselt uue Bitcoini rahakoti loomisel. Sellele kontole tuleb krediteerida bitcoinid, mida soovite segada.
 
-Tx0" on Whirlpooli segamisprotsessi esimene samm. Selle eesmärk on valmistada ette ja võrdsustada UTXOd koosliitmiseks, jagades need valitud basseini kogusele vastavateks ühikuteks, et tagada homogeenne segamine. Selliselt ühtlustatud UTXOd saadetakse seejärel **eelsegamise** kontole. Mis puutub vahe, mis ei saa koondada, siis see eraldatakse spetsiaalsele kontole: **paha pank** (või "doksiline vahetus").
+`Tx0` on Whirlpooli segamisprotsessi esimene samm. Selle eesmärk on valmistada ette ja võrdsustada UTXOd koosliitmiseks, jagades need valitud basseini kogusele vastavateks ühikuteks, et tagada homogeenne segamine. Selliselt ühtlustatud UTXOd saadetakse seejärel **eelsegamise** kontole. Mis puutub vahe, mis ei saa koondada, siis see eraldatakse spetsiaalsele kontole: **paha pank** (või "doksiline vahetus").
 
 Seda esialgset "Tx0" tehingut kasutatakse ka coinjoin'i koordinaatorile makstava teenustasu maksmiseks. Erinevalt järgmistest sammudest ei ole see tehing koostööpõhine, seega peab kasutaja kandma kõik kaevandamise kulud:
 

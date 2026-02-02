@@ -1550,7 +1550,7 @@ Tässä esimerkissä, vaikka transaktio B tarjoaa korkeamman kokonaispalkkion, l
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Tämä tarkoittaa sitä, että kutakin painoyksikköä kohden liiketoimi A tarjoaa enemmän kustannuksia kuin liiketoimi B, vaikka liiketoimi B tarjoaa absoluuttisesti enemmän kustannuksia.
@@ -2117,7 +2117,7 @@ Tarkastellaan Whirlpoolin yhteisliittymän eri vaiheita näillä tileillä.
 
 Kaikkien Whirlpool-kolikkoliittymien lähtökohtana on **talletustili**. Tätä tiliä käytät automaattisesti, kun luot uuden Bitcoin-lompakon. Tälle tilille on hyvitettävä bitcoinit, jotka haluat yhdistää.
 
-Tx0" on Whirlpoolin sekoitusprosessin ensimmäinen vaihe. Sen tarkoituksena on valmistella ja tasata UTXO:t yhteissekoitusta varten jakamalla ne valitun altaan määrää vastaaviin yksiköihin homogeenisen sekoituksen varmistamiseksi. Näin tasoitetut UTXO:t lähetetään sitten **premix**-tilille. Erotus, joka ei voi mennä pooliin, erotetaan erityiselle tilille: **paha pankki** (tai "doksinen muutos").
+`Tx0` on Whirlpoolin sekoitusprosessin ensimmäinen vaihe. Sen tarkoituksena on valmistella ja tasata UTXO:t yhteissekoitusta varten jakamalla ne valitun altaan määrää vastaaviin yksiköihin homogeenisen sekoituksen varmistamiseksi. Näin tasoitetut UTXO:t lähetetään sitten **premix**-tilille. Erotus, joka ei voi mennä pooliin, erotetaan erityiselle tilille: **paha pankki** (tai "doksinen muutos").
 
 Tätä alkuperäistä "Tx0"-tapahtumaa käytetään myös kolikkoyhdistyskoordinaattorille maksettavan palvelumaksun maksamiseen. Toisin kuin seuraavat vaiheet, tämä transaktio ei ole yhteistoiminnallinen, joten käyttäjän on vastattava kaikista louhinnan kustannuksista:
 

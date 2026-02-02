@@ -1550,7 +1550,7 @@ En este ejemplo, aunque la transacción B ofrece una comisión total más alta, 
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Esto significa que por cada unidad de peso, la transacción A ofrece más costes que la transacción B, aunque la transacción B ofrezca más costes en términos absolutos.
@@ -2117,7 +2117,7 @@ Veamos las distintas fases de una coinyección de Whirlpool en estas cuentas.
 
 El punto de partida de cualquier coinjoin de Whirlpool es la cuenta **de depósito**. Esta es la cuenta que utilizas automáticamente cuando creas un nuevo monedero Bitcoin. Esta cuenta tendrá que ser acreditada con los bitcoins que desea mezclar.
 
-Tx0" es el primer paso del proceso de mezcla de Whirlpool. Su objetivo es preparar e igualar los UTXO para el coinjoin, dividiéndolos en unidades correspondientes a la cantidad del pool seleccionado, para garantizar una mezcla homogénea. Los UTXOs así igualados se envían a la cuenta **premix**. En cuanto a la diferencia que no puede entrar en el pool, se separa en una cuenta específica: el **banco malo** (o "cambio doxémico").
+`Tx0` es el primer paso del proceso de mezcla de Whirlpool. Su objetivo es preparar e igualar los UTXO para el coinjoin, dividiéndolos en unidades correspondientes a la cantidad del pool seleccionado, para garantizar una mezcla homogénea. Los UTXOs así igualados se envían a la cuenta **premix**. En cuanto a la diferencia que no puede entrar en el pool, se separa en una cuenta específica: el **banco malo** (o "cambio doxémico").
 
 Esta transacción inicial `Tx0` también se utiliza para pagar la cuota de servicio debida al coordinador de coinjoin. A diferencia de los pasos siguientes, esta transacción no es colaborativa, por lo que el usuario debe asumir el coste total de la minería:
 

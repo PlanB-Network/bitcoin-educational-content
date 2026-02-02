@@ -2493,9 +2493,9 @@ If we take the example of a Whirlpool 8x8 Surge Cycle coinjoin, the Boltzmann ta
 
 However, in the case of a simple transaction with a single input and 2 outputs, the situation is different:
 
-| Output 0 | Output 1 |
-|----------|----------|
-| Input 0  | 100%     | 100%    |
+| %       | Output 0 | Output 1 |
+|---------|----------|----------|
+| Input 0 | 100%     | 100%     |
 
 
 Here, we see that the probability of each output originating from input #0 is 100%. A lower probability thus reflects greater confidentiality, diluting the direct links between inputs and outputs.

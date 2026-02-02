@@ -2205,7 +2205,7 @@ Muri aka karorero, naho igikorwa B gitanga amahera yose hamwe menshi, abacukuzi 
 
 ```text
 TXA: 1994 / 141 = 14 sats/vB
-TXB: 2640 / 220 = 12 sats / vB
+TXB: 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -3031,7 +3031,7 @@ Reka turabe intambwe zitandukanye z’igikoresho ca Whirlpool CoinJoin muri izo 
 Intango ya Whirlpool CoinJoin iyo ari yo yose ni konti ya **ibiziga**. Iyi ni konti ukoresha ubwawe iyo uremye Bitcoin Wallet nshasha. Iyi konti izokenera gushirwamwo ama bitcoins wipfuza guvanga.
 
 
-Tx0" ni intambwe ya mbere mu nzira yo guvanga Whirlpool. Intumbero yayo ni ugutegura no kuringaniza UTXOs za CoinJoin, kuzigabanya mu bice bihuye n'ingero y'ikidengeri catowe, kugira ngo habeho ukuvanga guhuye. As UTXOs rero ziringanijwe ni **the**mi ntishobora kwinjira mu kidengeri, itandukanijwe muri konti yihariye: **banki mbi** (canke "ihinduka rya doxxic").
+`Tx0` ni intambwe ya mbere mu nzira yo guvanga Whirlpool. Intumbero yayo ni ugutegura no kuringaniza UTXOs za CoinJoin, kuzigabanya mu bice bihuye n'ingero y'ikidengeri catowe, kugira ngo habeho ukuvanga guhuye. As UTXOs rero ziringanijwe ni **the**mi ntishobora kwinjira mu kidengeri, itandukanijwe muri konti yihariye: **banki mbi** (canke "ihinduka rya doxxic").
 
 
 Iryo soko rya mbere `Tx0` rikoreshwa kandi mu kwishura amahera y’ibikorwa akwiye guhabwa umuhuzabikorwa wa CoinJoin. Mu buryo butandukanye n’intambwe zikurikira, iyo nzira y’ugucuruza ntabwo ari iyo gukorana, rero uwuyikoresha ategerezwa kwikorera igiciro cose ca Mining:
@@ -3559,9 +3559,9 @@ Nitwafata akarorero k’Igikoresho ca Whirlpool 8x8 CoinJoin, imeza ya Boltzmann
 Ariko rero, ku bijanye n’ugucuruza kworoshe gufise ikintu kimwe co kwinjiza n’ivyo gusohora 2, ibintu biratandukanye:
 
 
-| Output 0 | Output 1 |
-|----------|----------|
-| Input 0  | 100%     | 100%    |
+| %       | Output 0 | Output 1 |
+|---------|----------|----------|
+| Input 0 | 100%     | 100%     |
 
 
 Aha, turabona ko ubushobozi bw’isohoka ryose riva ku nkuru #0 ari 100%. Gutyo, ubushobozi buke bwerekana ibanga rikomeye, bugatuma amasano ataziguye hagati y’ivyo yinjiza n’ivyo asohoka agenda aragabanuka.

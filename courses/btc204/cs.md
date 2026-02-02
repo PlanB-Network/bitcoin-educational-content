@@ -1550,7 +1550,7 @@ V tomto příkladu sice transakce B nabízí vyšší celkový poplatek, ale tě
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 To znamená, že na každou jednotku váhy nabízí transakce A vyšší náklady než transakce B, i když transakce B nabízí vyšší náklady v absolutním vyjádření.
@@ -2117,7 +2117,7 @@ Podívejme se na jednotlivé fáze spojení Whirlpool coinjoin v rámci těchto 
 
 Výchozím bodem každého připojení k účtu Whirlpool je **vkladový** účet. Jedná se o účet, který automaticky použijete při vytvoření nové bitcoinové peněženky. Na tento účet bude třeba připsat bitcoiny, které chcete smíchat.
 
-Tx0" je prvním krokem v procesu míchání společnosti Whirlpool. Jeho účelem je připravit a vyrovnat UTXO pro coinjoin, rozdělit je na jednotky odpovídající množství vybraného poolu, aby bylo zajištěno homogenní míchání. Takto vyrovnané UTXO jsou poté odeslány na účet **premix**. Pokud jde o rozdíl, který nemůže vstoupit do poolu, je oddělen na zvláštní účet: **špatný bank** (neboli "doxxic change").
+`Tx0` je prvním krokem v procesu míchání společnosti Whirlpool. Jeho účelem je připravit a vyrovnat UTXO pro coinjoin, rozdělit je na jednotky odpovídající množství vybraného poolu, aby bylo zajištěno homogenní míchání. Takto vyrovnané UTXO jsou poté odeslány na účet **premix**. Pokud jde o rozdíl, který nemůže vstoupit do poolu, je oddělen na zvláštní účet: **špatný bank** (neboli "doxxic change").
 
 Tato počáteční transakce `Tx0` slouží také k zaplacení poplatku za službu koordinátorovi spojení mincí. Na rozdíl od následujících kroků tato transakce není kooperativní, takže uživatel musí nést plné náklady na těžbu:
 

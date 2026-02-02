@@ -1537,7 +1537,7 @@ Obwohl in diesem Beispiel Transaktion B eine höhere Gesamtgebühr bietet, werde
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Das bedeutet, dass für jede Gewichtseinheit das Geschäft A mehr Kosten verursacht als das Geschäft B, auch wenn das Geschäft B absolut gesehen mehr Kosten verursacht.

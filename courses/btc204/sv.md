@@ -2195,7 +2195,7 @@ I det här exemplet kommer miners att föredra transaktion A, trots att transakt
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -3021,7 +3021,7 @@ Låt oss ta en titt på de olika stadierna av en Whirlpool CoinJoin inom dessa k
 Utgångspunkten för alla Whirlpool CoinJoin är **deposit**-kontot. Detta är det konto som du automatiskt använder när du skapar en ny Bitcoin Wallet. Detta konto måste krediteras med de bitcoins som du vill blanda.
 
 
-Tx0" är det första steget i Whirlpool:s blandningsprocess. Syftet är att förbereda och utjämna UTXO:erna för CoinJoin och dela upp dem i enheter som motsvarar mängden av den valda poolen för att säkerställa en homogen blandning. De UTXO:er som utjämnats på detta sätt skickas sedan till **premix**-kontot. När det gäller skillnaden som inte kan komma in i poolen, separeras den till ett specifikt konto: **bad bank** (eller "doxxic change").
+`Tx0` är det första steget i Whirlpool:s blandningsprocess. Syftet är att förbereda och utjämna UTXO:erna för CoinJoin och dela upp dem i enheter som motsvarar mängden av den valda poolen för att säkerställa en homogen blandning. De UTXO:er som utjämnats på detta sätt skickas sedan till **premix**-kontot. När det gäller skillnaden som inte kan komma in i poolen, separeras den till ett specifikt konto: **bad bank** (eller "doxxic change").
 
 
 Denna inledande transaktion `Tx0` används också för att betala serviceavgiften till CoinJoin-samordnaren. Till skillnad från de följande stegen är denna transaktion inte ett samarbete, så användaren måste bära hela kostnaden för Mining:
@@ -3547,9 +3547,9 @@ Om vi tar exemplet med en Whirlpool 8x8 Surge Cycle CoinJoin, skulle Boltzmann-t
 När det gäller en enkel transaktion med en enda inmatning och två utmatningar är situationen dock annorlunda:
 
 
-| Output 0 | Output 1 |
+| %       | Output 0 | Output 1 |
 |---------|----------|----------|
-| Input 0 | 100% | 100% |
+| Input 0 | 100%     | 100%     |
 
 Här ser vi att sannolikheten för att varje output härrör från input #0 är 100%. En lägre sannolikhet återspeglar således större konfidentialitet, vilket försvagar de direkta kopplingarna mellan inputs och outputs.
 

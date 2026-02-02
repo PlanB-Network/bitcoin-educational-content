@@ -1547,7 +1547,7 @@ Trong ví dụ này, mặc dù giao dịch B cung cấp tổng phí cao hơn, th
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Điều này có nghĩa là đối với mỗi đơn vị trọng lượng, giao dịch A tốn nhiều chi phí hơn giao dịch B, mặc dù xét về mặt tuyệt đối thì giao dịch B tốn nhiều chi phí hơn.
@@ -2113,7 +2113,7 @@ Chúng ta hãy cùng xem xét các giai đoạn khác nhau của Whirlpool coinj
 
 Điểm khởi đầu của bất kỳ Whirlpool coinjoin nào là tài khoản **gửi tiền**. Đây là tài khoản bạn tự động sử dụng khi tạo ví Bitcoin mới. Tài khoản này sẽ cần được ghi có số bitcoin bạn muốn trộn.
 
-Tx0" là bước đầu tiên trong quy trình trộn của Whirlpool. Mục đích của nó là chuẩn bị và cân bằng các UTXO cho coinjoin, chia chúng thành các đơn vị tương ứng với số lượng của nhóm đã chọn, để đảm bảo trộn đồng nhất. Các UTXO được cân bằng như vậy sau đó được gửi đến tài khoản **premix**. Đối với phần chênh lệch không thể nhập vào nhóm, nó được tách thành một tài khoản cụ thể: **bad bank** (hoặc "doxxic change").
+`Tx0` là bước đầu tiên trong quy trình trộn của Whirlpool. Mục đích của nó là chuẩn bị và cân bằng các UTXO cho coinjoin, chia chúng thành các đơn vị tương ứng với số lượng của nhóm đã chọn, để đảm bảo trộn đồng nhất. Các UTXO được cân bằng như vậy sau đó được gửi đến tài khoản **premix**. Đối với phần chênh lệch không thể nhập vào nhóm, nó được tách thành một tài khoản cụ thể: **bad bank** (hoặc "doxxic change").
 
 Giao dịch `Tx0` ban đầu này cũng được sử dụng để thanh toán phí dịch vụ cho điều phối viên coinjoin. Không giống như các bước sau, giao dịch này không mang tính cộng tác, do đó người dùng phải chịu toàn bộ chi phí khai thác:
 

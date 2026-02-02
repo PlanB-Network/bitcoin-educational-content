@@ -1,4 +1,4 @@
-question: Hvorfor vil ikke analytikeren bruke COINJOIN på en Stonewall-type transaksjon?
+question: Hvorfor vil ikke analytikeren anvende CIOH på en Stonewall-type transaksjon?
 
 answer: Fordi det er 2 utdata med samme beløp
 
@@ -8,6 +8,7 @@ wrong_answers:
   - Fordi det er flere utdata enn inndata
 
 explanation: |
-  Å analysere en Stonewall-transaksjon fra utsiden fører ikke til bruk av COINJOIN, fordi tilstedeværelsen av to utdata med samme beløp antyder et coinjoin-mønster. Fra et eksternt synspunkt er derfor COINJOIN ikke anvendelig i dette spesifikke tilfellet.
+
+  Analyse av en Stonewall-transaksjon fra utsiden fører ikke til anvendelse av CIOH, fordi tilstedeværelsen av to outputs med samme beløp antyder et coinjoin-mønster. Fra et eksternt synspunkt er CIOH derfor ikke anvendelig i dette spesifikke tilfellet.
 
 reviewed: false

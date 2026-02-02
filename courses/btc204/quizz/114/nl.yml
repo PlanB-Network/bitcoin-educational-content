@@ -1,10 +1,11 @@
-question: Waarom past de analist de CIOH niet toe op een transactie van het Stonewall-type?
+question: Waarom zal de analist CIOH niet toepassen op een transactie van het type Stonewall?
 answer: Omdat er 2 outputs zijn met dezelfde bedragen
 wrong_answers:
   - Omdat er maar 2 inputs zijn
   - Omdat ze niet bekend zijn met dit patroon
   - Omdat er meer outputs dan inputs zijn
 explanation: |
-  Een Stonewall-transactie van buitenaf analyseren leidt niet tot de toepassing van de CIOH, omdat de aanwezigheid van twee outputs van hetzelfde bedrag een CoinJoin patroon suggereert. Van buitenaf gezien is CoinJoin in dit specifieke geval dus niet van toepassing.
   
+  De analyse van een Stonewall-transactie van buitenaf leidt niet tot de toepassing van CIOH, omdat de aanwezigheid van twee outputs van hetzelfde bedrag een coinjoin-patroon suggereert. Vanuit extern oogpunt is CIOH daarom niet toepasbaar in dit specifieke geval.
+
 reviewed: false

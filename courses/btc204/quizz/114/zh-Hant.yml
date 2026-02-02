@@ -1,10 +1,11 @@
-question: 為什麼分析師不會在 Stonewall 類型的交易中應用 CoinJoin？
+question: 為什麼分析師不會對 Stonewall 類型的交易應用 CIOH?
 answer: 因為有 2 個相同金額的輸出
 wrong_answers:
   - 因為只有 2 個輸入
   - 因為他們不熟悉這種模式
   - 因為輸出多於輸入
 explanation: |
-  從外部來分析石牆交易並不會導致 CoinJoin 的應用，因為兩筆相同金額的輸出的存在暗示了 CoinJoin 模式。因此，從外部觀點來看，CoinJoin 並不適用於此特定情況。
   
+  從外部分析 Stonewall 交易不會導致應用 CIOH，因為兩個相同金額的 output 的存在表明了 coinjoin 模式。從外部角度來看，在這種特定情況下 CIOH 不適用。
+
 reviewed: false

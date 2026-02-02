@@ -3263,7 +3263,7 @@ Bijvoorbeeld, een eenvoudige betalingstransactie met 1 input en 2 outputs heeft 
 ![BTC204](assets/nl/165.webp)
 
 
-Aan de andere kant heeft een coinjoin op basis vah het Whirlpool 5x5 model $1.496$ mogelijke combinaties:
+Daarentegen vertoont een coinjoin die is gestructureerd volgens het Whirlpool 5x5-model $1\,496$ mogelijke combinaties:
 
 
 ![BTC204](assets/nl/166.webp)

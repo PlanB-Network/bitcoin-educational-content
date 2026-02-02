@@ -2269,7 +2269,7 @@ Kwa mfano, muamala rahisi wa malipo wenye ingizo 1 na matokeo 2 utakuwa na tafsi
 
 ![BTC204](assets/sw/165.webp)
 
-Kwa upande mwingine, kona ya Whirlpool 5x5 ina mchanganyiko unaowezekana wa $1\,496$:
+Kinyume chake, coinjoin iliyopangwa kulingana na mfano wa Whirlpool 5x5 ina mchanganyiko $1\,496$ unaowezekana:
 
 ![BTC204](assets/sw/166.webp)
 

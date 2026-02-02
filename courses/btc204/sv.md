@@ -3299,7 +3299,7 @@ En enkel betalningstransaktion med 1 input och 2 outputs kan t.ex. bara tolkas p
 ![BTC204](assets/sv/165.webp)
 
 
-Å andra sidan har ett Whirlpool 5x5-hörn $1\.496$ möjliga kombinationer:
+Däremot uppvisar en coinjoin som är strukturerad enligt Whirlpool 5x5-modellen $1\,496$ möjliga kombinationer:
 
 
 ![BTC204](assets/sv/166.webp)

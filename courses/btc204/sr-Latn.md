@@ -3298,7 +3298,7 @@ Na primer, jednostavna platna transakcija sa 1 ulazom i 2 izlaza imaće samo jed
 ![BTC204](assets/sr-Latn/165.webp)
 
 
-S druge strane, Whirlpool 5x5 konfiguracija ima $1\,496$ mogućih kombinacija:
+Nasuprot tome, coinjoin strukturiran prema modelu Whirlpool 5x5 ima $1\,496$ mogućih kombinacija:
 
 
 ![BTC204](assets/sr-Latn/166.webp)

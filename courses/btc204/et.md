@@ -2310,7 +2310,7 @@ Näiteks lihtsal maksetehingul, millel on 1 sisend ja 2 väljundit, on ainult ü
 
 ![BTC204](assets/et/165.webp)
 
-Teisest küljest on Whirlpool 5x5 nurgas 1\,496$ võimalikke kombinatsioone:
+Seevastu Whirlpool 5x5 mudeli järgi struktureeritud coinjoin pakub $1\,496$ võimalikku kombinatsiooni:
 
 ![BTC204](assets/et/166.webp)
 

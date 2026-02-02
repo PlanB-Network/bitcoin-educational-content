@@ -2310,7 +2310,7 @@ Whirlpool の動作の根幹は変わりませんが、Samourai での利用と�
 
 ![BTC204](assets/ja/165.webp)
 
-一方、Whirlpoolの5×5コーナーは$1,496$の組み合わせが可能である：
+一方で、Whirlpool 5x5 モデルに基づいて構成された coinjoin は、$1\,496$ 通りの組み合わせを示します：
 
 ![BTC204](assets/ja/166.webp)
 

@@ -2310,7 +2310,7 @@ Například jednoduchá platební transakce s 1 vstupem a 2 výstupy bude mít p
 
 ![BTC204](assets/cs/165.webp)
 
-Naproti tomu rohová hra Whirlpool 5x5 má $1,496$ možných kombinací:
+Naproti tomu coinjoin strukturovaný podle modelu Whirlpool 5x5 nabízí $1\,496$ možných kombinací:
 
 ![BTC204](assets/cs/166.webp)
 

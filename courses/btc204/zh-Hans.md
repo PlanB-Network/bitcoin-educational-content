@@ -2263,7 +2263,7 @@ Whirlpool 的运行核心保持不变，但与在 Samourai 上的使用相比仍
 
 ![BTC204](assets/zh-Hans/165.webp)
 
-另一方面，Whirlpool 5x5 交易具有 1,496 可能的解释：
+相比之下，按照 Whirlpool 5x5 模型构建的 coinjoin 具有 $1\,496$ 种可能的组合：
 
 ![BTC204](assets/zh-Hans/166.webp)
 

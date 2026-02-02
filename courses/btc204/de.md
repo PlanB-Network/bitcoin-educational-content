@@ -2293,7 +2293,7 @@ Für einen einfachen Zahlungsvorgang mit 1 Input und 2 Outputs gibt es beispiels
 
 ![BTC204](assets/de/165.webp)
 
-Andererseits hat eine Whirlpool 5x5 Ecke $1\,496$ mögliche Kombinationen:
+Im Gegensatz dazu weist ein nach dem Whirlpool-5x5-Modell strukturierter CoinJoin $1\,496$ mögliche Kombinationen auf:
 
 ![BTC204](assets/de/166.webp)
 

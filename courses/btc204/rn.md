@@ -3309,7 +3309,7 @@ Nk'akarorero, igikorwa co kwishura gisanzwe gifise inyungu 1 n'inyungu 2 kizogir
 ![BTC204](assets/rn/165.webp)
 
 
-Ku rundi ruhande, imfuruka ya Whirlpool 5x5 ifise $1\,496$ y’imigwi ishoboka:
+Ariko rero, coinjoin yubatswe hakurikijwe urugero rwa Whirlpool 5x5 igaragaza $1\,496$ y’amakombinasoni ashoboka:
 
 
 ![BTC204](assets/rn/166.webp)

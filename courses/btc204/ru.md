@@ -2308,7 +2308,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9
 
 ![BTC204](assets/ru/165.webp)
 
-С другой стороны, угол Whirlpool 5x5 имеет $1\,496$ возможных комбинаций:
+В то же время coinjoin, структурированный по модели Whirlpool 5x5, представляет $1\,496$ возможных комбинаций:
 
 ![BTC204](assets/ru/166.webp)
 

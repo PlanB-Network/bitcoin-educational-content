@@ -3312,7 +3312,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9
 ![BTC204](assets/en/165.webp)
 
 
-От друга страна Whirlpool 5x5 има 1 496 възможни комбинации:
+За разлика от това, coinjoin, структуриран според модела Whirlpool 5x5, предлага $1\,496$ възможни комбинации:
 
 
 ![BTC204](assets/en/166.webp)

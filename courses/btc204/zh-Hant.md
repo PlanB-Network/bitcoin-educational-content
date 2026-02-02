@@ -3299,7 +3299,7 @@ Anonsets 是用來評估特定 UTXO 機密程度的指標。更明確地說，�
 ![BTC204](assets/zh-Hant/165.webp)
 
 
-另一方面，一個 Whirlpool 5x5 角有 $1\,496$ 的可能組合：
+相較之下，依照 Whirlpool 5x5 模型建構的 coinjoin 具有 $1\,496$ 種可能的組合：
 
 
 ![BTC204](assets/zh-Hant/166.webp)

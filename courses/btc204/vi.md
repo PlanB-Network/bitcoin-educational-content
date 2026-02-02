@@ -2306,7 +2306,7 @@ Ví dụ, một giao dịch thanh toán đơn giản với 1 đầu vào và 2 �
 
 ![BTC204](assets/vi/165.webp)
 
-Mặt khác, một góc Whirlpool 5x5 có $1\,496$ tổ hợp có thể xảy ra:
+Ngược lại, một coinjoin được cấu trúc theo mô hình Whirlpool 5x5 có $1\,496$ tổ hợp khả dĩ:
 
 ![BTC204](assets/vi/166.webp)
 

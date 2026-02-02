@@ -2310,7 +2310,7 @@ Esimerkiksi yksinkertaisella maksutapahtumalla, jossa on yksi panos ja kaksi tul
 
 ![BTC204](assets/fi/165.webp)
 
-Toisaalta Whirlpoolin 5x5-kulmassa on 1\,496 $ mahdollisia yhdistelmiä:
+Sitä vastoin Whirlpool 5x5 -mallin mukaisesti rakenteistettu coinjoin tarjoaa $1\,496$ mahdollista yhdistelmää:
 
 ![BTC204](assets/fi/166.webp)
 

@@ -2307,7 +2307,7 @@ Por exemplo, uma simples operação de pagamento com 1 entrada e 2 saídas terá
 
 ![BTC204](assets/pt/165.webp)
 
-Por outro lado, um canto 5x5 da Whirlpool tem $1\,496$ combinações possíveis:
+Em contrapartida, um coinjoin estruturado segundo o modelo Whirlpool 5x5 apresenta $1\,496$ combinações possíveis:
 
 ![BTC204](assets/pt/166.webp)
 

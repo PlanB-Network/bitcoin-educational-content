@@ -2298,7 +2298,7 @@ For example, a simple payment transaction with one input and two outputs will ha
 
 ![BTC204](assets/en/165.webp)
 
-In contrast, a coinjoin structured according to the Whirlpool 5x5 model presents $1\,496$ possible combinations:
+By contrast, a coinjoin structured according to the Whirlpool 5x5 model presents $1\,496$ possible combinations:
 
 ![BTC204](assets/en/166.webp)
 

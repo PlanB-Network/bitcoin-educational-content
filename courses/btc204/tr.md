@@ -3311,7 +3311,7 @@ Bir Bitcoin işleminde gözlemlenebilecek ilk gösterge, dışarıdan bir gözle
 ![BTC204](assets/tr/165.webp)
 
 
-Öte yandan, Whirlpool 5x5 köşesinde 1\,496$ olası kombinasyon vardır:
+Buna karşılık, Whirlpool 5x5 modeline göre yapılandırılmış bir coinjoin $1\,496$ olası kombinasyon sunar:
 
 
 ![BTC204](assets/tr/166.webp)

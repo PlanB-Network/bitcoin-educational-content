@@ -3311,7 +3311,7 @@ Bitcoin 트랜잭션에서 관찰할 수 있는 첫 번째 지표는 외부 관�
 ![BTC204](assets/ko/165.webp)
 
 
-반면, Whirlpool 5x5 코너는 $1\,496$의 조합이 가능합니다:
+반면, Whirlpool 5x5 모델에 따라 구조화된 coinjoin은 $1\,496$가지 가능한 조합을 제공합니다:
 
 
 ![BTC204](assets/ko/166.webp)

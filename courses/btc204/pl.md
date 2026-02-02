@@ -3299,7 +3299,7 @@ Na przykład prosta transakcja płatnicza z 1 wejściem i 2 wyjściami będzie m
 ![BTC204](assets/pl/165.webp)
 
 
-Z drugiej strony, narożnik Whirlpool 5x5 ma $1\,496$ możliwych kombinacji:
+Natomiast coinjoin ustrukturyzowany według modelu Whirlpool 5x5 oferuje $1\,496$ możliwych kombinacji:
 
 
 ![BTC204](assets/pl/166.webp)

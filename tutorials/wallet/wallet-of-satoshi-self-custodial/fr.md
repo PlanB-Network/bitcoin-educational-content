@@ -1,32 +1,34 @@
 ---
-name: Wallet of Satoshi - Self-Custodial
+name: Wallet of Satoshi - Self-Custody
 description: Découvrez comment configurer le mode self-custody d'un portefeuille Wallet of Satoshi
 ---
 
 ![cover](assets/cover.webp)
 
-**Not your keys, not your coins.** plus qu'un adage, est un principe fondamental de Bitcoin qui signifie que si vous ne contrôlez pas les **clés privées** associées à vos bitcoins, vous n’en êtes pas réellement propriétaire. 
+***Not your keys, not your coins*.** Plus qu'un adage, c'est un principe fondamental de Bitcoin qui signifie que si vous ne contrôlez pas les **clés privées** permettant de déverrouiller vos bitcoins, vous n’en êtes pas réellement le propriétaire. 
 
 Beaucoup d’utilisateurs commencent généralement par un **portefeuille custodial**, ensuite, migrent vers un **portefeuille self-custodial**, où ils contrôlent eux-mêmes leurs clés privées. 
-Dans ce tutoriel, nous ne vous présenterons pas un nouveau portefeuille self-custodial. En revanche, nous vous amenons à la découverte de la nouvelle fonctionnalité des portefeuilles ***Wallet of Satoshi*** : **le mode self-custodial**. 
+Dans ce tutoriel, nous ne vous présenterons pas un nouveau portefeuille self-custodial. En revanche, nous vous amenons à la découverte de la nouvelle fonctionnalité des portefeuilles ***Wallet of Satoshi*** : **le mode self-custodial**.
+
 L'objectif de cette nouvelle intégration est de permettre aux utilisateurs de conserver le contrôle de leurs clés privées tout en bénéficiant de la simplicité et d'une expérience utilisateur fluide.
 
 Avant d'aborder le cœur du sujet, prenons un moment pour examiner la particularité du mode self-custody proposé par Wallet of Satoshi (WoS).
 
 ## La particularité du mode self-custody 
 
- La simplicité et la fluidité du mode self-custody de WoS vous éliminent la complexité liée à l'ouverture de canaux Lightning, à l'administration de nœuds… 
- Mais comment est-ce possible?
- En effet, le mode self-custody de Wallet of Satoshi est alimenté par **Spark**. C'est une solution de couche 2 pour Bitcoin, créée par Lightspark, qui utilise la technologie des **statechains**. 
- Par conséquent, vous n'effectuez pas vos transactions directement sur le Lightning Network. Les interactions entre le réseau **LN** et **Spark** s'effectuent à travers des **swaps atomiques**.
+La simplicité et la fluidité du mode self-custody de WoS vous éliminent la complexité liée à l'ouverture de canaux Lightning, à l'administration de nœuds… Mais comment est-ce possible?
+ 
+En effet, le mode self-custody de Wallet of Satoshi est alimenté par **Spark**. C'est une solution de couche 2 pour Bitcoin, créée par Lightspark, qui utilise la technologie des **statechains**. 
+ 
+Par conséquent, vous n'effectuez pas vos transactions directement sur le Lightning Network. Les interactions entre le réseau **LN** et **Spark** s'effectuent à travers des **swaps atomiques**.
   
- Par exemple, Bob souhaite régler une facture Lightning en utilisant WoS. Il transfère ses satoshis, mais en arrière-plan, ceux-ci sont acheminés vers un **Spark Service Provider (SSP)** sur Spark, qui exécute en retour le paiement sur le réseau Lightning.
+Par exemple, Bob souhaite régler une facture Lightning en utilisant WoS. Il transfère ses satoshis, mais en arrière-plan, ceux-ci sont acheminés vers un **Spark Service Provider (SSP)** sur Spark, qui exécute en retour le paiement sur le réseau Lightning.
+ 
 À l'inverse, Alice souhaite obtenir des fonds directement dans son portefeuille WoS. Dans ce cas, le **SSP** reçoit les sats via LN et crédite immédiatement le portefeuille d'Alice.
 
 Ainsi, il est important de noter que pour profiter de la simplicité et de la fluidité de WoS, vous devez dépendre des serveurs de Spark. Toutefois, en termes de sécurité, si un SSP devient malveillant ou indisponible, vous disposez du mécanisme de **sortie unilatérale**, une mesure de sécurité qui vous permet de récupérer vos fonds sur Bitcoin on-chain (même si cela peut être lent et coûteux) , garantissant ainsi une expérience self-custodial comparable à celle d'un nœud Lightning privé.
 
 C'est donc en tenant compte de tous ces paramètres que chacun pourra souverainement décider le montant de sats qu'il souhaite conserver dans le WoS self-custody.
-
 
 Si vous débutez avec Wallet of Satoshi, vous devez naturellement télécharger l'application mobile du portefeuille. Par contre, si vous l'utilisez déjà et souhaitez savoir comment utiliser le **mode self-custody**, veuillez vous rendre directement à la section **Configuration du mode self-custody** de ce tutoriel.
 
@@ -49,6 +51,7 @@ Même si vous ne souhaitez pas utiliser WoS en mode custodial, nous vous recomma
 https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Passons maintenant à la configuration de notre WoS en self-custody.
+
 ## Configuration du mode self-custody
 
 Cliquez sur le menu hamburger (icône à 3 barres) dans le coin supérieur droit de l'interface principale.
@@ -95,9 +98,10 @@ Cliquez sur le bouton **Google Drive Backup**.
 
 ![screen](assets/fr/13.webp)
 
-Si vous optez pour la sauvegarde avec Google Drive, en cas de compromission de votre compte Google, il existe un risque élevé que vous soyez dérobé. En effet, l'individu malintentionné aurait accès au fichier contenant vos 12 mots et pourrait ainsi accéder à votre portefeuille. 
+Si vous optez pour la sauvegarde avec Google Drive, en cas de compromission de votre compte Google, il existe un risque élevé que vous soyez dérobé. En effet, l'individu malintentionné aurait accès au fichier contenant vos 12 mots et pourrait ainsi accéder à votre portefeuille.
 
-Ajouter un mot de passe pour crypter le fichier contenant vos 12 mots est assurément une bonne solution pour ajouter une couche supplémentaire de sécurité. 
+Ajouter un mot de passe pour crypter le fichier contenant vos 12 mots est assurément une bonne solution pour ajouter une couche supplémentaire de sécurité.
+
 Activez donc le bouton **Encrypt with a password** (*Crypter avec un mot de passe*) dans les options avancées.
 
 ![screen](assets/fr/14.webp)
@@ -125,12 +129,13 @@ Si vous optez pour la sauvegarde manuelle, nous vous recommandons fortement de c
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Appuyez sur le bouton **Manual Backup**. 
+Appuyez sur le bouton **Manual Backup**.
 
 ![screen](assets/fr/19.webp)
 
-Sur l'interface suivante, WoS vous rappelle quelques consignes de sécurité à prendre en considération avant de procéder à la sauvegarde manuelle. 
-Activez le bouton **I understand** (*Je comprends*) et appuyez sur le bouton **Next**.
+Sur l'interface suivante, WoS vous rappelle quelques consignes de sécurité à prendre en considération avant de procéder à la sauvegarde manuelle.
+
+Activez le bouton **I understand** et appuyez sur le bouton **Next**.
 
 ![screen](assets/fr/20.webp)
 
@@ -164,7 +169,7 @@ Choisissez une méthode de restauration et passez à l'étape suivante.
 
 1. Appuyez sur le bouton **Restore From Google Drive**.
 2. Sélectionnez un compte Google et laissez WoS récupérer les données de récupération qui ont été sauvegardées sur votre Google Drive.
-3. Entrez ensuite votre mot de passe de cryptage (si vous l'aviez défini auparavant, bien sûr) du fichier contenant vos 12 mots. 
+3. Entrez ensuite votre mot de passe de cryptage (si vous l'aviez défini auparavant, bien sûr) du fichier contenant vos 12 mots.
 4. Patientez quelques instants, le temps que la restauration soit effective, et vous pourrez accéder à nouveau à votre portefeuille.
 
 ### Restauration manuelle
@@ -202,4 +207,3 @@ https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 Vous êtes à présent en mesure de configurer et d'utiliser par vous-même Wallet of Satoshi en mode self-custody.
 
 Si ce tutoriel vous a été utile, je vous prie de me laisser un pouce vert ci-dessous. Merci beaucoup !
-

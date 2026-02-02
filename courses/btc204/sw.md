@@ -178,7 +178,7 @@ Sasa hebu tufikirie kuwa Alice hana UTXO moja ya `10,000 Sats`, bali badala yake
 Uangavu, mtu anaweza kufikiri kwamba gharama za muamala pia zinawakilisha matokeo ya muamala. Lakini kwa ukweli, hii sivyo. Gharama za muamala zinawakilisha tofauti kati ya jumla ya pembejeo na jumla ya matokeo. Hii ina maana kwamba, baada ya kutumia sehemu ya thamani ya pembejeo ili kufidia matokeo yanayohitajika katika muamala, jumla fulani ya pembejeo hubakia bila kutumika. Kiasi hiki cha mabaki kinajumuisha gharama za muamala.
 
 ```plaintext
-Frais = total inputs - total outputs
+Ada za muamala = total inputs - total outputs
 ```
 
 Hebu tuchukue mfano wa Alice, ambaye ana UTXO ya `10,000 Sats` na anataka kununua baguette kwa `4,000 Sats`. Alice hutengeneza muamala na UTXO yake ya `10,000 Sats` kama ingizo. Kisha hutoa pato la `4,000 Sats` kwa mwokaji kulipia baguette. Ili kuwahimiza wachimbaji kujumuisha shughuli zake kwenye eneo, Alice hutenga `200 Sats` katika ada. Kisha atatengeneza toleo la pili, Ubadilishanaji, ambalo litarejeshwa kwake, la jumla ya `5,800 Sats`.
@@ -188,10 +188,10 @@ Hebu tuchukue mfano wa Alice, ambaye ana UTXO ya `10,000 Sats` na anataka kununu
 Kwa kutumia fomula ya ada, tunaona kwamba kuna `200 Sats` iliyosalia kwa watoto:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Ada za muamala = total inputs - total outputs
+Ada za muamala = 10 000 - (4 000 + 5 800)
+Ada za muamala = 10 000 - 9 800
+Ada za muamala = 200
 ```
 
 Miner anapofanikiwa kuhalalisha block, anaidhinishwa kukusanya ada hizi kwa miamala yote iliyojumuishwa kwenye block yake, kupitia muamala unaoitwa Coinbase.
@@ -2441,7 +2441,7 @@ Alama ya Boltzmann inakokotolewa kwa kugawanya idadi ya tafsiri ambazo tukio ful
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

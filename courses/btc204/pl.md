@@ -264,7 +264,7 @@ Intuicyjnie można by pomyśleć, że koszty transakcyjne również reprezentuj�
 
 
 ```plaintext
-Frais = total inputs - total outputs
+Opłaty transakcyjne = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ Stosując wzór na opłatę, widzimy, że rzeczywiście pozostało `200 Sats` dl
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Opłaty transakcyjne = total inputs - total outputs
+Opłaty transakcyjne = 10 000 - (4 000 + 5 800)
+Opłaty transakcyjne = 10 000 - 9 800
+Opłaty transakcyjne = 200
 ```
 
 
@@ -3523,7 +3523,7 @@ Wynik Boltzmanna jest obliczany przez podzielenie liczby interpretacji, w który
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

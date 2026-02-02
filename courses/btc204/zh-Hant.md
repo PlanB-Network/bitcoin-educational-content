@@ -264,7 +264,7 @@ Bitcoin 以類似的方式運作。讓我們假設 Alice 有`10,000 Sats` 的 UT
 
 
 ```plaintext
-Frais = total inputs - total outputs
+交易費用 = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ Frais = total inputs - total outputs
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+交易費用 = total inputs - total outputs
+交易費用 = 10 000 - (4 000 + 5 800)
+交易費用 = 10 000 - 9 800
+交易費用 = 200
 ```
 
 
@@ -3523,7 +3523,7 @@ Boltzmann 分數的計算方式是將發生特定事件的詮釋數目除以可�
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -3835,7 +3835,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d
 和石牆結構一樣，石牆 x2 結構也為交易增加了大量的熵，混淆了鏈式分析。從外面看，這樣的交易可以解釋為兩個人之間的小 CoinJoin。但實際上，這是一種付款。因此，這種方法會造成連鎖分析的不確定性，甚至導致錯誤的線索。
 
 
-讓我們以 Alice、Bob the Baker 和 Charles 為例。Blockchain 上的交易會是這樣的：
+讓我們以 Alice、Bob the baker 和 Charles 為例。Blockchain 上的交易會是這樣的：
 
 
 ![BTC204](assets/zh-Hant/184.webp)

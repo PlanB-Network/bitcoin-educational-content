@@ -183,7 +183,7 @@ Bây giờ hãy tưởng tượng rằng Alice không có một UTXO duy nhất 
 Theo trực giác, người ta có thể nghĩ rằng chi phí giao dịch cũng đại diện cho đầu ra của một giao dịch. Nhưng trên thực tế, điều này không đúng. Chi phí giao dịch đại diện cho sự khác biệt giữa tổng đầu vào và tổng đầu ra. Điều này có nghĩa là, sau khi sử dụng một phần giá trị của các đầu vào để trang trải các đầu ra mong muốn trong một giao dịch, một số lượng đầu vào nhất định vẫn chưa được sử dụng. Tổng số còn lại này cấu thành nên chi phí giao dịch.
 
 ```plaintext
-Frais = total inputs - total outputs
+Phí giao dịch = total inputs - total outputs
 ```
 
 Hãy lấy ví dụ về Alice, người có UTXO là `10.000 SATS` và muốn mua một ổ bánh mì dài với giá `4.000 SATS`. Alice tạo một giao dịch với UTXO của cô ấy là `10.000 SATS` làm đầu vào. Sau đó, cô ấy tạo ra đầu ra là `4.000 SATS` để thợ làm bánh trả tiền cho ổ bánh mì dài. Để khuyến khích thợ đào tích hợp giao dịch của cô ấy vào một khối, Alice phân bổ `200 SATS` phí. Sau đó, cô ấy tạo ra đầu ra thứ hai, là giao dịch, sẽ được trả lại cho cô ấy, với số tiền là `5.800 SATS`.
@@ -193,10 +193,10 @@ Hãy lấy ví dụ về Alice, người có UTXO là `10.000 SATS` và muốn m
 Áp dụng công thức tính lệ phí, chúng ta thấy rằng thực sự còn lại `200 SATS` cho trẻ vị thành niên:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Phí giao dịch = total inputs - total outputs
+Phí giao dịch = 10 000 - (4 000 + 5 800)
+Phí giao dịch = 10 000 - 9 800
+Phí giao dịch = 200
 ```
 
 Khi thợ đào thành công trong việc xác thực một khối, anh ta được phép thu các khoản phí này cho tất cả các giao dịch có trong khối của mình, thông qua cái gọi là giao dịch "coinbase".
@@ -2484,7 +2484,7 @@ Rõ ràng, mỗi đầu vào đều có cơ hội như nhau để liên kết v�
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2717,7 +2717,7 @@ Trong ví dụ này, tôi cố tình bỏ qua phí để dễ hiểu hơn. Trên
 
 Giống như cấu trúc Stonewall, cấu trúc Stonewall x2 thêm rất nhiều entropy vào giao dịch và gây nhầm lẫn cho phân tích chuỗi. Nhìn từ bên ngoài, một giao dịch như vậy có thể được hiểu là một sự kết hợp nhỏ giữa hai người. Nhưng trên thực tế, đó là một khoản thanh toán. Do đó, phương pháp này tạo ra sự không chắc chắn trong phân tích chuỗi hoặc thậm chí dẫn đến những đầu mối sai.
 
-Hãy lấy ví dụ về Alice, Bob the Baker và Charles. Giao dịch trên blockchain sẽ trông như thế này:
+Hãy lấy ví dụ về Alice, Bob the baker và Charles. Giao dịch trên blockchain sẽ trông như thế này:
 
 ![BTC204](assets/vi/184.webp)
 

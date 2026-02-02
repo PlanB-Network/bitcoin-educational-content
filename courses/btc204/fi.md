@@ -183,7 +183,7 @@ Kuvitellaan nyt, että Alicella ei ole yhtä UTXO:ta, jonka arvo on 10 000 SATS,
 Intuitiivisesti voisi ajatella, että transaktiokustannukset edustavat myös transaktion tuotosta. Todellisuudessa näin ei kuitenkaan ole. Transaktiokustannukset edustavat kokonaispanosten ja kokonaistuotosten välistä erotusta. Tämä tarkoittaa sitä, että kun osa panosten arvosta on käytetty haluttujen tuotosten kattamiseen transaktiossa, tietty osa panoksista jää käyttämättä. Tämä jäljelle jäävä summa muodostaa transaktiokustannukset.
 
 ```plaintext
-Frais = total inputs - total outputs
+Siirtomaksut = total inputs - total outputs
 ```
 
 Otetaan esimerkiksi Alice, jonka UTXO on 10 000 SATS ja joka haluaa ostaa patongin 4 000 SATS:n hintaan. Liisa luo tapahtuman, jonka syötteenä on hänen UTXO:nsa, joka on `10,000 SATS`. Sen jälkeen hän luo 4 000 SATS:n suuruisen tuotoksen leipurille, joka maksaa patongin. Kannustaakseen kaivostyöläisiä sisällyttämään hänen transaktionsa lohkoon Alice jakaa 200 SATS` palkkiota. Sitten hän luo toisen tuotoksen, vaihdon, joka palautetaan hänelle ja jonka arvo on 5 800 SATS`.
@@ -193,10 +193,10 @@ Otetaan esimerkiksi Alice, jonka UTXO on 10 000 SATS ja joka haluaa ostaa patong
 Soveltamalla maksukaavaa näemme, että alaikäisille on todellakin jäljellä 200 SATSia:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Siirtomaksut = total inputs - total outputs
+Siirtomaksut = 10 000 - (4 000 + 5 800)
+Siirtomaksut = 10 000 - 9 800
+Siirtomaksut = 200
 ```
 
 Kun louhija onnistuu validoimaan lohkon, hänellä on oikeus periä nämä maksut kaikista lohkoonsa sisältyvistä transaktioista niin sanotun "coinbase"-tapahtuman kautta.
@@ -2488,7 +2488,7 @@ Boltzmann-pistemäärä lasketaan jakamalla niiden tulkintojen lukumäärä, joi
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

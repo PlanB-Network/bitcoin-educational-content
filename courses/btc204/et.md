@@ -183,7 +183,7 @@ Kujutame nüüd ette, et Alice'il ei ole mitte üks UTXO suurusega "10 000 SATS"
 Intuitiivselt võiks arvata, et tehingukulud kujutavad endast ka tehingu väljundit. Kuid tegelikkuses ei ole see nii. Tehingukulud kujutavad endast sisendite ja väljundite kogusumma vahet. See tähendab, et pärast seda, kui osa sisendite väärtusest on kasutatud tehingu soovitud väljundite katmiseks, jääb teatud summa sisenditest kasutamata. See jääksumma moodustab tehingukulud.
 
 ```plaintext
-Frais = total inputs - total outputs
+Tehingutasud = total inputs - total outputs
 ```
 
 Võtame näiteks Alice'i, kelle UTXO on 10 000 SATS ja kes soovib osta baguette'i hinnaga 4 000 SATS. Alice loob tehingu, mille sisendiks on tema UTXO 10 000 SATS. Seejärel genereerib ta pagarile pagari eest tasumiseks väljundiks 4 000 SATS. Et julgustada kaevandajaid tema tehingut plokki integreerima, määrab Alice 200 SATSi tasu. Seejärel loob ta teise väljundi, vahetuse, mis tagastatakse talle summas `5,800 SATS`.
@@ -193,10 +193,10 @@ Võtame näiteks Alice'i, kelle UTXO on 10 000 SATS ja kes soovib osta baguette'
 Tasu valemit rakendades näeme, et alaealistele on tõepoolest jäänud 200 SATSi:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Tehingutasud = total inputs - total outputs
+Tehingutasud = 10 000 - (4 000 + 5 800)
+Tehingutasud = 10 000 - 9 800
+Tehingutasud = 200
 ```
 
 Kui kaevuril õnnestub plokk valideerida, on tal õigus koguda neid tasusid kõigi tema plokis sisalduvate tehingute eest nn coinbase'i tehingu kaudu.
@@ -2488,7 +2488,7 @@ Boltzmanni skoor arvutatakse, jagades tõlgenduste arvu, milles teatav sündmus 
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

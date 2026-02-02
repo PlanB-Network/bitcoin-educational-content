@@ -264,7 +264,7 @@ Mu buryo bw’ubuhinga, umuntu yoshobora kwiyumvira ko ibiciro vy’ugucuruza na
 
 
 ```plaintext
-Frais = total inputs - total outputs
+Amafaranga = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ Dukoresheje uburyo bw’amahera, turabona ko vy’ukuri hariho `200 Sats` zisiga
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Amafaranga = total inputs - total outputs
+Amafaranga = 10 000 - (4 000 + 5 800)
+Amafaranga = 10 000 - 9 800
+Amafaranga = 200
 ```
 
 
@@ -3534,7 +3534,7 @@ Igitigiri ca Boltzmann giharurwa mu kugabanya igitigiri c’insobanuro ikintu ki
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

@@ -183,7 +183,7 @@ Agora vamos imaginar que Alice não tem um único UTXO de `10.000 SATS`, mas sim
 Intuitivamente, poder-se-ia pensar que os custos de transação também representam o resultado de uma transação. Mas, na realidade, não é esse o caso. Os custos de transação representam a diferença entre o total dos inputs e o total dos outputs. Isto significa que, depois de utilizar parte do valor dos inputs para cobrir os outputs desejados numa transação, uma certa soma dos inputs fica por utilizar. Esta soma residual constitui os custos de transação.
 
 ```plaintext
-Frais = total inputs - total outputs
+Taxas de transação = total inputs - total outputs
 ```
 
 Vejamos o exemplo de Alice, que tem um UTXO de `10.000 SATS` e quer comprar uma baguete a `4.000 SATS`. Alice cria uma transação com o seu UTXO de `10.000 SATS` como entrada. Em seguida, ela gera uma saída de `4.000 SATS` para o padeiro pagar pela baguete. Para encorajar os mineiros a integrar a sua transação num bloco, Alice atribui `200 SATS` em taxas. Ela cria então um segundo output, a troca, que lhe será devolvida, no valor de `5.800 SATS`.
@@ -193,10 +193,10 @@ Vejamos o exemplo de Alice, que tem um UTXO de `10.000 SATS` e quer comprar uma 
 Aplicando a fórmula da taxa, verifica-se que restam efetivamente `200 SATS` para os menores:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Taxas de transação = total inputs - total outputs
+Taxas de transação = 10 000 - (4 000 + 5 800)
+Taxas de transação = 10 000 - 9 800
+Taxas de transação = 200
 ```
 
 Quando um mineiro consegue validar um bloco, está autorizado a cobrar estas taxas por todas as transacções incluídas no seu bloco, através da chamada transação "coinbase".
@@ -2485,7 +2485,7 @@ A pontuação de Boltzmann é calculada dividindo o número de interpretações 
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

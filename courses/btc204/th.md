@@ -264,7 +264,7 @@ Bitcoin ทำงานในลักษณะคล้ายกัน ลอ�
 
 
 ```plaintext
-Frais = total inputs - total outputs
+ค่าธรรมเนียม = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ Frais = total inputs - total outputs
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+ค่าธรรมเนียม = total inputs - total outputs
+ค่าธรรมเนียม = 10 000 - (4 000 + 5 800)
+ค่าธรรมเนียม = 10 000 - 9 800
+ค่าธรรมเนียม = 200
 ```
 
 
@@ -2436,7 +2436,7 @@ Coinjoins ช่วยเสริมความเป็นส่วนตั�
 
 
 
-- Alice, Bob, Charles, Davi,d และ Frank แต่ละคนทำ UTXO จำนวน 105,000 sats (พร้อม 5,000 sats สำหรับ mining ค่าธรรมเนียม) เป็นอินพุตสำหรับธุรกรรม:
+- Alice, Bob, Charles, David และ Frank แต่ละคนทำ UTXO จำนวน 105,000 sats (พร้อม 5,000 sats สำหรับ mining ค่าธรรมเนียม) เป็นอินพุตสำหรับธุรกรรม:
 
 
 ![BTC204](assets/en/112.webp)
@@ -3537,7 +3537,7 @@ $$
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -3855,7 +3855,7 @@ Stonewall x2 เป็นรูปแบบเฉพาะอีกแบบห�
 คล้ายกับโครงสร้าง Stonewall โครงสร้าง Stonewall x2 แนะนำเอนโทรปีที่สำคัญให้กับธุรกรรม ทำให้การวิเคราะห์เชนซับซ้อนขึ้น เมื่อมองจากภายนอก ธุรกรรมดังกล่าวสามารถตีความได้ว่าเป็นการรวมเหรียญเล็กๆ ระหว่างสองคน แต่ในความเป็นจริง มันคือการชำระเงิน ดังนั้นวิธีนี้จึงสร้างความไม่แน่นอนในการวิเคราะห์เชนหรือแม้กระทั่งนำไปสู่การชี้นำที่ผิดพลาด
 
 
-ลองดูตัวอย่างของ Alice, Bob the Baker, และ Charles การทำธุรกรรมบนบล็อกเชนจะมีลักษณะดังนี้:
+ลองดูตัวอย่างของ Alice, Bob the baker, และ Charles การทำธุรกรรมบนบล็อกเชนจะมีลักษณะดังนี้:
 
 
 ![BTC204](assets/en/184.webp)

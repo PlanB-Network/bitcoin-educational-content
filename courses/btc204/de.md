@@ -2465,7 +2465,7 @@ Der Boltzmann-Score wird berechnet, indem die Anzahl der Interpretationen, in de
 $$
 \begin{align*}
 \text{Interpretations (Eingabe 0 > Ausgang 3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

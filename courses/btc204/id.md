@@ -183,7 +183,7 @@ Sekarang mari kita bayangkan bahwa Alice tidak memiliki satu UTXO dengan `10.000
 Secara intuitif, orang mungkin berpikir bahwa biaya transaksi juga mewakili hasil dari sebuah transaksi. Namun pada kenyataannya, tidak demikian. Biaya transaksi mewakili selisih antara total input dan total output. Artinya, setelah menggunakan sebagian dari nilai input untuk menghasilkan output yang diinginkan dalam sebuah transaksi, ada sejumlah input yang tidak terpakai. Jumlah sisa ini merupakan biaya transaksi.
 
 ```plaintext
-Frais = total inputs - total outputs
+Biaya transaksi = total inputs - total outputs
 ```
 
 Mari kita ambil contoh Alice, yang memiliki UTXO sebesar `10.000 SATS` dan ingin membeli sebuah baguette dengan harga `4.000 SATS`. Alice membuat transaksi dengan UTXO-nya sebesar `10.000 SATS` sebagai input. Dia kemudian menghasilkan output sebesar `4.000 SATS` untuk tukang roti untuk membayar roti baguette tersebut. Untuk mendorong para penambang mengintegrasikan transaksinya ke dalam sebuah blok, Alice mengalokasikan biaya sebesar `200 SATS`. Dia kemudian membuat output kedua, yaitu pertukaran, yang akan dikembalikan kepadanya, sebesar `5.800 SATS`.
@@ -193,10 +193,10 @@ Mari kita ambil contoh Alice, yang memiliki UTXO sebesar `10.000 SATS` dan ingin
 Dengan menerapkan rumus biaya, kami melihat bahwa memang ada `200 SATS` yang tersisa untuk anak di bawah umur:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Biaya transaksi = total inputs - total outputs
+Biaya transaksi = 10 000 - (4 000 + 5 800)
+Biaya transaksi = 10 000 - 9 800
+Biaya transaksi = 200
 ```
 
 Ketika seorang penambang berhasil memvalidasi sebuah blok, ia memiliki wewenang untuk mengumpulkan biaya ini untuk semua transaksi yang termasuk dalam bloknya, melalui apa yang disebut dengan transaksi "coinbase".
@@ -2486,7 +2486,7 @@ Skor Boltzmann dihitung dengan membagi jumlah interpretasi di mana peristiwa ter
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2719,7 +2719,7 @@ Dalam contoh ini, saya sengaja tidak mencantumkan biaya untuk membuatnya lebih m
 
 Seperti struktur Stonewall, struktur Stonewall x2 menambahkan banyak entropi pada transaksi dan membingungkan analisis rantai. Dilihat dari luar, transaksi seperti ini dapat diartikan sebagai sebuah koin kecil antara dua orang. Namun pada kenyataannya, ini adalah pembayaran. Oleh karena itu, metode ini menciptakan ketidakpastian dalam analisis rantai, atau bahkan menyebabkan petunjuk yang salah.
 
-Mari kita ambil contoh Alice, Bob the Baker, dan Charles. Transaksi pada blockchain akan terlihat seperti ini:
+Mari kita ambil contoh Alice, Bob the baker, dan Charles. Transaksi pada blockchain akan terlihat seperti ini:
 
 ![BTC204](assets/id/184.webp)
 

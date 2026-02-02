@@ -183,7 +183,7 @@ UTXOはビットコインの交換手段である。各取引では、インプ�
 直感的には、トランザクションコストもトランザクションのアウトプットを表していると考えるかもしれない。しかし、実際にはそうではない。トランザクションコストは、総インプットと総アウトプットの差を表している。つまり、ある取引において、インプットの価値の一部を使って所望のアウトプットをまかなった後、インプットのある合計が未使用のまま残るということである。この残額がトランザクションコストである。
 
 ```plaintext
-Frais = total inputs - total outputs
+取引手数料 = total inputs - total outputs
 ```
 
 10,000SATS`のUTXOを持っていて、4,000SATS`のパンを買いたいAliceの例を見てみよう。Aliceは10,000 SATS`のUTXOをインプットとしてトランザクションを作成する。その後、Aliceはパン屋にパンの代金を支払うために4,000 SATS`のアウトプットを生成する。彼女のトランザクションをブロックに統合するようマイナーに奨励するため、Aliceは手数料として200SATS`を割り当てる。その後、Aliceは2つ目のアウトプットであるチェンジを作成し、5,800 SATS`が彼女に返却される。
@@ -193,10 +193,10 @@ Frais = total inputs - total outputs
 料金の計算式に当てはめると、マイナーには200SATSが残されていることになる：
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+取引手数料 = total inputs - total outputs
+取引手数料 = 10 000 - (4 000 + 5 800)
+取引手数料 = 10 000 - 9 800
+取引手数料 = 200
 ```
 
 マイナーはブロックの検証に成功すると、いわゆる「コインベース（coinbase）」トランザクションを通じて、そのブロックに含まれるすべてのトランザクションに対してこれらの手数料を徴収する権限を持つ。
@@ -2488,7 +2488,7 @@ Whirlpoolのコインジョインを例にとると、条件付き確率表は�
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

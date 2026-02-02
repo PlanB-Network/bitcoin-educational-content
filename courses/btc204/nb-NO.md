@@ -183,7 +183,7 @@ La oss nå tenke oss at Alice ikke har én UTXO med 10 000 SATS, men to UTXOer m
 Intuitivt skulle man kanskje tro at transaksjonskostnadene også representerer resultatet av en transaksjon. Men i virkeligheten er dette ikke tilfelle. Transaksjonskostnadene representerer differansen mellom totale innsatsfaktorer og totale resultater. Det betyr at etter at man har brukt en del av verdien av innsatsfaktorene til å dekke ønsket output i en transaksjon, gjenstår det en viss sum av innsatsfaktorene som ikke blir brukt. Denne restsummen utgjør transaksjonskostnadene.
 
 ```plaintext
-Frais = total inputs - total outputs
+Transaksjonsgebyrer = total inputs - total outputs
 ```
 
 La oss ta et eksempel med Alice, som har en UTXO på 10 000 SATS og ønsker å kjøpe en baguette til 4 000 SATS. Alice oppretter en transaksjon med UTXO på 10 000 SATS som input. Deretter genererer hun et output på 4 000 SATS til bakeren for å betale for baguetten. For å oppmuntre utvinnerne til å integrere transaksjonen hennes i en blokk, tildeler Alice 200 SATS i gebyrer. Deretter lager hun en ny output, vekslingen, som vil bli returnert til henne, og som beløper seg til 5800 SATS.
@@ -193,10 +193,10 @@ La oss ta et eksempel med Alice, som har en UTXO på 10 000 SATS og ønsker å k
 Ved å bruke avgiftsformelen ser vi at det faktisk er `200 SATS` igjen for mindreårige:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Transaksjonsgebyrer = total inputs - total outputs
+Transaksjonsgebyrer = 10 000 - (4 000 + 5 800)
+Transaksjonsgebyrer = 10 000 - 9 800
+Transaksjonsgebyrer = 200
 ```
 
 Når en miner lykkes med å validere en blokk, har han rett til å kreve inn disse avgiftene for alle transaksjonene som inngår i blokken hans, via den såkalte "coinbase"-transaksjonen.
@@ -1204,7 +1204,7 @@ Hvis jeg for eksempel har en UTXO fra et P2P-kjøp på Bisq med Charles, kan jeg
 
 Tagging er en god praksis som hjelper deg med å huske opprinnelsen eller den tiltenkte destinasjonen til en UTXO, noe som derfor letter forvaltningen av midler og optimalisering av personvernet. Bitcoin-lommeboken din sikrer helt sikkert flere UTXO-er. Hvis kildene til disse UTXO-ene er forskjellige, vil du kanskje ikke slå sammen disse UTXO-ene i fremtiden, ellers kan du avsløre deres felles eierskap. Ved å merke alle delene dine på riktig måte, kan du være sikker på at du husker hvor de kom fra når du trenger dem, selv om det er mange år fra nå.
 
-### Hva er corner control?
+### Hva er coin control?
 
 Den aktive bruken av merking blir enda mer interessant når den kombineres med et alternativ for myntkontroll i porteføljeprogramvaren.
 
@@ -2486,7 +2486,7 @@ Boltzmann-poengsummen beregnes ved å dividere antallet tolkninger der en bestem
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2719,7 +2719,7 @@ I dette eksempelet har jeg med vilje utelatt gebyrene for å gjøre det enklere 
 
 I likhet med Stonewall-strukturen tilfører Stonewall x2-strukturen mye entropi til transaksjonen og forvirrer kjedeanalysen. Sett utenfra kan en slik transaksjon tolkes som en liten coinjoin mellom to personer. Men i virkeligheten er det en betaling. Denne metoden skaper derfor usikkerhet i kjedeanalysen, eller fører til og med til falske spor.
 
-La oss ta et eksempel med Alice, Bob the Baker og Charles. Transaksjonen på blokkjeden vil se slik ut:
+La oss ta et eksempel med Alice, Bob the baker og Charles. Transaksjonen på blokkjeden vil se slik ut:
 
 ![BTC204](assets/nb-NO/184.webp)
 

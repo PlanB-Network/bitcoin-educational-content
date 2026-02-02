@@ -264,7 +264,7 @@ Bitcoin действа по подобен начин. Нека си предс�
 
 
 ```plaintext
-Frais = total inputs - total outputs
+Такси = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ Frais = total inputs - total outputs
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Такси = total inputs - total outputs
+Такси = 10 000 - (4 000 + 5 800)
+Такси = 10 000 - 9 800
+Такси = 200
 ```
 
 
@@ -3537,7 +3537,7 @@ $$
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

@@ -264,7 +264,7 @@ Bitcoin도 비슷한 방식으로 작동합니다. Alice이 `10,000 Sats`의 UTX
 
 
 ```plaintext
-Frais = total inputs - total outputs
+거래 수수료 = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ UTXO이 `10,000 Sats`이고 빵을 `4,000 Sats`에 구매하고자 하는 Alice�
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+거래 수수료 = total inputs - total outputs
+거래 수수료 = 10 000 - (4 000 + 5 800)
+거래 수수료 = 10 000 - 9 800
+거래 수수료 = 200
 ```
 
 
@@ -3536,7 +3536,7 @@ $$
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

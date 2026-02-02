@@ -264,7 +264,7 @@ Sezgisel olarak, işlem maliyetlerinin de bir işlemin çıktısını temsil ett
 
 
 ```plaintext
-Frais = total inputs - total outputs
+İşlem ücretleri = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ UTXO`i `10,000 Sats` olan ve `4,000 Sats`dan ekmek almak isteyen Alice örneğin
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+İşlem ücretleri = total inputs - total outputs
+İşlem ücretleri = 10 000 - (4 000 + 5 800)
+İşlem ücretleri = 10 000 - 9 800
+İşlem ücretleri = 200
 ```
 
 
@@ -3536,7 +3536,7 @@ Boltzmann puanı, belirli bir olayın gerçekleştiği yorumların sayısının 
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -3853,7 +3853,7 @@ Bu örnekte, anlaşılmasını kolaylaştırmak için kasıtlı olarak ücretler
 Stonewall yapısı gibi, Stonewall x2 yapısı da işleme büyük miktarda entropi ekler ve zincir analizini karıştırır. Dışarıdan bakıldığında, böyle bir işlem iki kişi arasında küçük bir CoinJoin olarak yorumlanabilir. Ancak gerçekte bu bir ödemedir. Dolayısıyla bu yöntem zincir analizinde belirsizlikler yaratır, hatta yanlış ipuçlarına yol açar.
 
 
-Alice, Bob the Baker ve Charles örneklerini ele alalım. Blockchain'deki işlem şöyle görünecektir:
+Alice, Bob the baker ve Charles örneklerini ele alalım. Blockchain'deki işlem şöyle görünecektir:
 
 
 ![BTC204](assets/tr/184.webp)

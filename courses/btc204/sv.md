@@ -264,7 +264,7 @@ Intuitivt skulle man kunna tro att transaktionskostnader också representerar re
 
 
 ```plaintext
-Frais = total inputs - total outputs
+Transaktionsavgifter = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ Genom att tillämpa avgiftsformeln ser vi att det faktiskt finns "200 Sats" kvar
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Transaktionsavgifter = total inputs - total outputs
+Transaktionsavgifter = 10 000 - (4 000 + 5 800)
+Transaktionsavgifter = 10 000 - 9 800
+Transaktionsavgifter = 200
 ```
 
 
@@ -1696,7 +1696,7 @@ Om jag till exempel har en UTXO från ett P2P-köp på Bisq med Charles, kan jag
 Taggning är en bra metod som hjälper till att komma ihåg ursprunget eller den avsedda destinationen för en UTXO, vilket därför underlättar hanteringen av medel och optimeringen av integriteten. Faktum är att din Bitcoin Wallet säkert säkrar flera UTXO:er. Om källorna till dessa UTXO:er är olika kanske du inte vill slå samman dessa UTXO:er i framtiden, eftersom du annars skulle kunna avslöja deras gemensamma Ownership. Genom att märka alla dina delar ordentligt kan du vara säker på att du kommer ihåg var de kom ifrån när du behöver använda dem, även om det är flera år från nu.
 
 
-### Vad är corner control?
+### Vad är coin control?
 
 
 Den aktiva användningen av märkning blir ännu mer intressant när den kombineras med ett myntkontrollalternativ i din portföljprogramvara.
@@ -3523,7 +3523,7 @@ Boltzmann-poängen beräknas genom att antalet tolkningar där en viss händelse
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

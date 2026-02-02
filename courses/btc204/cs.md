@@ -183,7 +183,7 @@ Nyní si představme, že Alice nemá jeden UTXO o kapacitě `10 000 SATS`, ale 
 Intuitivně by se mohlo zdát, že transakční náklady představují také výstup transakce. Ve skutečnosti tomu tak ale není. Transakční náklady představují rozdíl mezi celkovými vstupy a celkovými výstupy. To znamená, že po použití části hodnoty vstupů na pokrytí požadovaných výstupů v transakci zůstává určitá suma vstupů nevyužita. Tato zbývající částka představuje transakční náklady.
 
 ```plaintext
-Frais = total inputs - total outputs
+Transakční poplatky = total inputs - total outputs
 ```
 
 Vezměme si příklad Alice, která má UTXO ve výši `10 000 SATS` a chce si koupit bagetu za `4 000 SATS`. Alice vytvoří transakci, jejímž vstupem bude její UTXO ve výši `10 000 SATS`. Poté vygeneruje výstup ve výši `4 000 SATS` pro pekaře, který zaplatí za bagetu. Aby Alice povzbudila těžaře k začlenění její transakce do bloku, přidělí jim `200 SATS` jako poplatky. Poté vytvoří druhý výstup, směnu, která jí bude vrácena, ve výši `5 800 SATS`.
@@ -193,10 +193,10 @@ Vezměme si příklad Alice, která má UTXO ve výši `10 000 SATS` a chce si k
 Podle vzorce pro výpočet poplatků zjistíme, že nezletilým skutečně zbývá 200 SATS:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Transakční poplatky = total inputs - total outputs
+Transakční poplatky = 10 000 - (4 000 + 5 800)
+Transakční poplatky = 10 000 - 9 800
+Transakční poplatky = 200
 ```
 
 Když se těžaři podaří blok validovat, je oprávněn vybírat tyto poplatky za všechny transakce zahrnuté v jeho bloku, a to prostřednictvím tzv. "coinbase" transakce.
@@ -2488,7 +2488,7 @@ Boltzmannovo skóre se vypočítá vydělením počtu interpretací, v nichž se
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

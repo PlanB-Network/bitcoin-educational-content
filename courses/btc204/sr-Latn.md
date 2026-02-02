@@ -264,7 +264,7 @@ Intuitivno, moglo bi se pomisliti da transakcioni troškovi takođe predstavljaj
 
 
 ```plaintext
-Frais = total inputs - total outputs
+Naknade = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ Primenom formule za naknade, vidimo da zaista ima `200 Sats` preostalih za rudar
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Naknade = total inputs - total outputs
+Naknade = 10 000 - (4 000 + 5 800)
+Naknade = 10 000 - 9 800
+Naknade = 200
 ```
 
 
@@ -3522,7 +3522,7 @@ Boltzmannov skor se izračunava deljenjem broja interpretacija u kojima se odre�
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

@@ -1,0 +1,8 @@
+question: Điều gì phân biệt lỗi tài nguyên thời gian chạy với lỗi nhập liệu không hợp lệ và lỗi logic trong quá trình phát triển ứng dụng Bitcoin?
+answer: Lỗi tài nguyên thời gian chạy xảy ra khi các thành phần phụ thuộc bên ngoài như tệp hoặc kết nối mạng không khả dụng, đòi hỏi phải khắc phục các vấn đề về môi trường thay vì thay đổi mã.
+wrong_answers:
+  - "Lỗi tài nguyên thời gian chạy xảy ra khi các tham số của hàm không đáp ứng yêu cầu, cho thấy sự vi phạm hợp đồng giữa bên gọi và hàm."
+  - Lỗi tài nguyên thời gian chạy là những lỗi trong quá trình thực thi chương trình, cần phải gỡ lỗi và sửa đổi mã để khắc phục đúng cách.
+  - Lỗi tài nguyên thời gian chạy xảy ra khi hệ thống kiểu dữ liệu không phát hiện được sự không khớp, cho phép các kiểu dữ liệu không chính xác lan truyền khắp hệ thống.
+explanation: |
+  Lỗi tài nguyên thời gian chạy nằm ngoài logic chương trình và xảy ra khi các thành phần phụ thuộc như tệp, kết nối mạng hoặc thiết bị lưu trữ không khả dụng. Không giống như lỗi nhập liệu không hợp lệ (liên quan đến vi phạm hợp đồng tham số) hoặc lỗi logic (là lỗi lập trình), lỗi tài nguyên thời gian chạy thường yêu cầu khắc phục các vấn đề về môi trường hơn là thay đổi mã. Ứng dụng phải xử lý những lỗi này một cách khéo léo vì chúng thường chỉ là tạm thời và nằm ngoài tầm kiểm soát trực tiếp của chương trình.

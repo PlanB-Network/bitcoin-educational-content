@@ -1,0 +1,8 @@
+question: W jaki sposób integracja Breez SDK z Lightning Service Provider (LSP) rozwiązuje problem zarządzania płynnością przy otrzymywaniu płatności?
+answer: Dostawcy LSP automatycznie otwierają nowe kanały Lightning z przychodzącą płynnością w momencie nadejścia płatności, wykorzystując tworzenie kanałów just-in-time
+wrong_answers:
+  - LSP wstępnie finansują wszystkie kanały użytkowników z maksymalną płynnością i okresowo równoważą fundusze w topologii sieci
+  - LSP utrzymują wspólną pulę płynności, która tymczasowo pożycza środki użytkownikom podczas przyjmowania płatności, zanim nastąpi rozliczenie
+  - Dostawcy usług płatniczych kierują płatności przez wiele kanałów pośrednich, aby znaleźć istniejące ścieżki płynności bez tworzenia nowych relacji między kanałami
+explanation: |
+  Breez SDK implementuje kanały "just-in-time", w których LSP automatycznie otwierają nowe kanały Lightning dokładnie wtedy, gdy użytkownik musi otrzymać płatność, ale nie ma wystarczającej płynności przychodzącej. Odbywa się to płynnie bez interwencji użytkownika, rozwiązując podstawowe ograniczenie płynności Lightning, w którym środki mogą przepływać tylko w kierunkach, w których istnieje przepustowość kanału. Pozostałe opcje opisują różne podejścia, które nie są zgodne z rzeczywistą implementacją dynamicznego tworzenia kanałów przez SDK.

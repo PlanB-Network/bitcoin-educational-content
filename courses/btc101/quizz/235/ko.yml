@@ -1,8 +1,0 @@
-question: Lightning Network은 어떻게 상품 대여에 사용될 수 있을까요?
-answer: 사용자는 상품을 사용한 시간에 대해 분당 또는 초당 요금이 부과될 수 있습니다.
-wrong_answers:
-  - 사용자에게 높은 대여료가 부과될 수 있습니다.
-  - 사용자에게 상품 가치에 따라 요금이 부과될 수 있습니다.
-  - 상품 상태에 따라 사용자에게 요금이 부과될 수 있습니다.
-explanation: >-
-reviewed: true

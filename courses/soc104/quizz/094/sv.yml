@@ -1,0 +1,9 @@
+question: Enligt Satoshi Nakamotos grundläggande kritik, vad är kärnproblemet med konventionella fiatvalutasystem?
+answer: De kräver överdriven tillit till centraliserade institutioner som historiskt har kränkt denna tillit genom valutaförsvagning
+wrong_answers:
+  - De saknar tillräcklig teknisk infrastruktur för att hantera moderna digitala transaktioner på ett effektivt och säkert sätt
+  - De skapar alltför stor volatilitet i växelkurserna, vilket gör den internationella handeln oförutsägbar och kostsam
+  - generate: s alltför höga transaktionsavgifter som gör mikrobetalningar ekonomiskt olönsamma för vanliga användare
+explanation: |
+  Satoshi Nakamoto sade uttryckligen att "grundproblemet med konventionell valuta är allt det förtroende som krävs för att få den att fungera" och att "fiatvalutornas historia är full av brott mot detta förtroende"
+  Hans kritik fokuserade på det grundläggande förtroendet för centralbankerna att inte förringa valutan, vilket de upprepade gånger har misslyckats med att upprätthålla. De andra alternativen, som visserligen kan ge anledning till oro för traditionella system, missar Nakamotos grundläggande filosofiska invändning mot förtroendebaserade monetära system och hans motiv för att skapa ett förtroendefritt alternativ.

@@ -1007,7 +1007,7 @@ Bitcoin 允許任何人透過在自己的電腦或伺服器上執行「節點」
 #### 彈性的跨境支付方式
 
 
-由於其分散性，Bitcoin 全天候運作，不受國界或時區的影響。在缺乏傳統銀行基礎設施的地區，Bitcoin 常常被用來作為快速、低成本的收發資金解決方案，而無需依賴昂貴的中介。雖然交易費用會因網路壅塞情況而有所不同，但通常遠低於銀行收取的國際轉帳費用。此外，Lightning Network 等 Layer-2 解決方案可讓 Bitcoin 交易更快速、更便宜。
+由於其分散性，Bitcoin 全天候運作，不受國界或時區的影響。在缺乏傳統銀行基礎設施的地區，Bitcoin 常常被用來作為快速、低成本的收發資金解決方案，而無需依賴昂貴的中介。雖然交易費用會因網路壅塞情況而有所不同，但通常遠低於銀行收取的國際轉帳費用。此外，[Lightning Network](https://planb.academy/resources/glossary/lightning-network) 等 Layer-2 解決方案可讓 Bitcoin 交易更快速、更便宜。
 
 
 #### 價值儲存
@@ -1538,7 +1538,7 @@ Bitcoin Wallet 產業分為幾個類別，每個類別都迎合不同的需求�
 
 
 
-- **Hardware Wallet 製造商**：這些公司開發設計用於安全金鑰儲存的實體裝置。有些是開放原始碼，有些則提供具有不同功能和安全層級的專屬解決方案。著名的公司包括 Ledger、Trezor、Coinkite、Foundation 和 Shiftcrypto。
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) 製造商**：這些公司開發設計用於安全金鑰儲存的實體裝置。有些是開放原始碼，有些則提供具有不同功能和安全層級的專屬解決方案。著名的公司包括 Ledger、Trezor、Coinkite、Foundation 和 Shiftcrypto。
 - **Software Wallet 開發人員**：從公司到獨立開發者，他們都在開發行動和桌上型應用程式。他們提供的產品在使用者體驗、安全性和功能方面各有不同。例如 Sparrow、Wizard Sardine、Galoy、Synonym 和 Blockstream。
 - DIY (*Do It Yourself*) 錢包：這些開放原始碼解決方案專為想要完全控制並盡量減少對第三方依賴的進階使用者所設計。建立您自己的 Wallet 可減少信任依賴，並可增加您的安全姿勢。著名的 DIY 選項包括 **Seedsigner** 和 **Specter DIY**。
 
@@ -1880,7 +1880,7 @@ Bitcoin 與傳統資產不同。它需要深思熟慮的方法，以及對使用
 
 
 - 長期儲蓄：您將購買 Bitcoin 作為一項投資，而且不打算在短期內使用。在這種情況下，最大的安全性和最小的存取風險是關鍵。
-- 逐步累積：您定期少量購買。Dollar Cost Averaging (DCA) 等策略搭配安全的 Wallet 效果很好。
+- 逐步累積：您定期少量購買。[Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca) 等策略搭配安全的 Wallet 效果很好。
 - 日常開支：您可以像使用金錢一樣使用 Bitcoin。使用行動版 Wallet 進行日常小額付款（也許可以使用 Lightning），並將您的大部分 Bitcoin 放在較安全的地方。
 - 準備退休或傳承您的財富：您希望日後將 Bitcoin 轉移給他人。在適當的時候，使用可讓您輕鬆安全轉移資金的工具。可制定具備時間鎖定功能的 Multisig 或特定繼承計劃等策略，以確保您的資金既不會遺失，也不會過早存取。
 
@@ -2686,7 +2686,7 @@ https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-5
 
 https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
 https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 

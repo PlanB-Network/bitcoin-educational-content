@@ -14,7 +14,7 @@ Nasza strona internetowa jest obecnie dostępna w wielu językach i stale pracuj
 Jeśli twój język ojczysty nie jest jeszcze dostępny na naszej stronie i chciałbyś go dodać, ten samouczek jest dla ciebie!
 
 
-Po pierwsze, skontaktuj się z zespołem Plan ₿ Academy za pośrednictwem naszej grupy [Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Jeśli nie masz Telegrama, możesz wysłać e-mail na adres mari@planb.network. Upewnij się, że napisałeś małą prezentację o tym, kim jesteś i jakimi językami mówisz.
+Po pierwsze, skontaktuj się z zespołem Plan ₿ Academy za pośrednictwem naszej grupy [Telegram](https://t.me/PlanBNetwork_ContentBuilder). Jeśli nie masz Telegrama, możesz wysłać e-mail na adres mari@planb.network. Upewnij się, że napisałeś małą prezentację o tym, kim jesteś i jakimi językami mówisz.
 
 
 ## Sprawdzanie, czy język jest obecny w Weblate
@@ -24,7 +24,7 @@ Aby sprawdzić, czy Twój język jest już wśród tych, nad którymi pracujemy.
 
 
 
-- Przejdź do [naszej platformy Weblate] (https://weblate.planb.network/projects/planb-network-website/):
+- Przejdź do [naszej platformy Weblate](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 
@@ -61,7 +61,7 @@ Jeśli nie ma tam Twojego języka, postępuj zgodnie z poniższym samouczkiem, a
 ![language](assets/04.webp)
 
 
-- Otwórz listę rozwijaną i wybierz język, który chcesz dodać. Jeśli język, którego szukasz, nie jest dostępny na liście rozwijanej, możesz skontaktować się z [grupą Telegram] (https://t.me/PlanBNetwork_ContentBuilder), aby nasz zespół mógł utworzyć go ręcznie:
+- Otwórz listę rozwijaną i wybierz język, który chcesz dodać. Jeśli język, którego szukasz, nie jest dostępny na liście rozwijanej, możesz skontaktować się z [grupą Telegram](https://t.me/PlanBNetwork_ContentBuilder), aby nasz zespół mógł utworzyć go ręcznie:
 
 ![language](assets/05.webp)
 

@@ -253,7 +253,7 @@ Kubura n’imwe muri ayo makuru 2 vyotuma udashobora kugarura ama bitcoins yawe 
 Ku bakoresha Alby Hub ku gikoresho cabo bwite, uburyo bwo gusubirana buranditswe [hano](https://guides.getalby.com/uburongozi-bw’abakoresha/alby-konti-n’umucukumbuzi-alby-hub/ububiko-n’ugusubirana#alby-hub-yiharuwe-na-).
 
 
-Niwaba washizeho Alby Hub ku nzira iriho, uzokenera gukurikira uburyo bwo gusubizaho iyo nzira. Nk'akarorero: Umutaka utanga [uburyo] (https://github.com/getumbrel/umutaka/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/inyandiko/ububiko/README.md) kugira ngo uyishire mu buryo butazwi biciye kuri Tor. Menya ko gusa ama backups yikora ava kuri Alby atuma ushobora gusubirana Hub yawe yose ata n’imwe upfutse.
+Niwaba washizeho Alby Hub ku nzira iriho, uzokenera gukurikira uburyo bwo gusubizaho iyo nzira. Nk'akarorero: Umutaka utanga [uburyo](https://github.com/getumbrel/umutaka/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/inyandiko/ububiko/README.md) kugira ngo uyishire mu buryo butazwi biciye kuri Tor. Menya ko gusa ama backups yikora ava kuri Alby atuma ushobora gusubirana Hub yawe yose ata n’imwe upfutse.
 
 
 ## Gura umurongo wawe wa mbere w'umuravyo

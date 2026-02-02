@@ -1,5 +1,6 @@
 ---
-term: KETENANALYSE
+term: Chain analysis
+definition: Praktijk van het traceren van bitcoinstromen op de blockchain met behulp van heuristieken en patronen.
 ---
 
 Praktijk die alle methoden omvat die gebruikt worden om de stroom van bitcoins op de Blockchain te traceren. Over het algemeen berust ketenanalyse op de observatie van kenmerken in steekproeven van eerdere transacties. Vervolgens worden dezelfde kenmerken geïdentificeerd in een transactie die men wil analyseren en worden plausibele interpretaties afgeleid. Deze probleemoplossingsmethode, gebaseerd op een praktische aanpak om een voldoende goede oplossing te vinden, staat bekend als een heuristiek. Ter vereenvoudiging wordt de ketenanalyse in twee hoofdstappen uitgevoerd:

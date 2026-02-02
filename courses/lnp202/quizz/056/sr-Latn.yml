@@ -1,0 +1,9 @@
+question: Koji korak odmah sledi nakon objavljivanja NWC zahteva od strane mobilne aplikacije na releju?
+answer: Node dešifruje i verifikuje autorizaciju
+wrong_answers:
+  - Relej potpisuje zahtev za čvor
+  - Relay izvršava plaćanje na LND
+  - Čvor automatski otvara kanal
+explanation: |
+  Čvor čita događaj, dešifruje ga, zatim proverava da li je autor ovlašćen pre nego što izvrši akciju.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Vad händer med den ursprungliga strukturinstansen när du använder struct update-syntax med icke-Copy-typer?
+answer: Fält som kopieras blir oanvändbara i den ursprungliga instansen på grund av flyttningssemantik
+wrong_answers:
+  - Den ursprungliga instansen förblir helt oförändrad och fullt tillgänglig
+  - Hela den ursprungliga instansen klonas, vilket gör att båda instanserna är fullt fungerande
+  - Endast de fält som du uttryckligen ändrar blir oåtkomliga i originalet
+explanation: |
+  När du använder struct update-syntax med icke-kopierade typer flyttar Rust:s ägandesystem de kopierade fälten från den ursprungliga instansen till den nya. Detta innebär att dessa specifika fält blir oanvändbara i den ursprungliga instansen, även om fält som inte kopierades förblir tillgängliga. Kompilatorn spårar dessa partiella flyttar på ett intelligent sätt och förhindrar åtkomst till flyttade fält samtidigt som den tillåter fortsatt användning av oflyttade fält. Detta beteende säkerställer minnessäkerhet genom att förhindra flera ägare av samma data.

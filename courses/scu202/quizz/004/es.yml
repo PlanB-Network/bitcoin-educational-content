@@ -6,4 +6,4 @@ wrong_answers:
   - Inyección SQL
 explanation: |
   El phishing utiliza correos electrónicos o mensajes engañosos para incitar a las personas a divulgar información confidencial o instalar programas maliciosos.
-reviewed: false
+reviewed: true

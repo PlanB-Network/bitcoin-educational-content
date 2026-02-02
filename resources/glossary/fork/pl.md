@@ -1,5 +1,6 @@
 ---
 term: Fork
+definition: Rozszczepienie sieci węzłów lub modyfikacja zasad protokołu Bitcoin.
 ---
 
 Termin "Fork" ma kilka znaczeń w kontekście Bitcoin. Może odnosić się albo do podziału sieci węzłów na kilka oddzielnych grup, co prowadzi do utworzenia wielu różnych blockchainów, albo do modyfikacji zasad protokołu, albo do obu tych zjawisk jednocześnie. Dla uproszczenia możemy wyróżnić 4 główne kategorie forków:

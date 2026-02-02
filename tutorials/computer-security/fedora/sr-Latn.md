@@ -111,7 +111,7 @@ Instalacija Fedora Workstation zahteva sledeću hardversku konfiguraciju:
 
 
 
-Možete preuzeti izdanje [Fedora Workstation] (https://fedoraproject.org/fr/workstation/download) sa zvanične veb stranice Fedora projekta. Zatim odaberite verziju koja odgovara arhitekturi vašeg procesora (32-bit - 64-bit) i kliknite na ikonu **Download**.
+Možete preuzeti izdanje [Fedora Workstation](https://fedoraproject.org/fr/workstation/download) sa zvanične veb stranice Fedora projekta. Zatim odaberite verziju koja odgovara arhitekturi vašeg procesora (32-bit - 64-bit) i kliknite na ikonu **Download**.
 
 
 

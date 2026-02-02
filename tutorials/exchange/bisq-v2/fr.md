@@ -7,22 +7,22 @@ description: Guide complet pour utiliser Bisq 2 et échanger des bitcoins en P2P
 
 ## Introduction
 
-Les échanges de pair-à-pair (P2P) sans KYC sont essentiels pour préserver la confidentialité et l'autonomie financière des utilisateurs. Ils permettent des transactions directes entre individus sans nécessiter de vérification d'identité, ce qui est crucial pour ceux qui valorisent la vie privée. Pour une compréhension plus approfondie des concepts théoriques, consultez le cours BTC204 :
+Les échanges de pair à pair (P2P) sans KYC (Know Your Customers) sont essentiels pour préserver la confidentialité et l'autonomie financière des utilisateurs. Ils permettent des transactions directes entre individus sans nécessiter de vérification d'identité, ce qui est crucial pour ceux qui valorisent la vie privée. Pour une compréhension plus approfondie des concepts théoriques, consultez le cours BTC204 :
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Qu'est-ce que Bisq 2 ?
 
-Bisq 2 est la nouvelle version du célèbre échange décentralisé Bisq, lancée en 2024. Contrairement à sa version précédente, Bisq 2 a été développé pour supporter plusieurs protocoles d'échange, offrant ainsi plus de flexibilité aux utilisateurs.
+Bisq 2 est la nouvelle version du célèbre échangeur décentralisé Bisq, lancée en 2024. Contrairement à sa version précédente, Bisq 2 a été développé pour supporter plusieurs protocoles d'échange, offrant ainsi plus de flexibilité aux utilisateurs.
 
 **Nouvelles fonctionnalités clés :**
 - Support de plusieurs réseaux de confidentialité (Tor, I2P)
 - Possibilité de créer plusieurs identités pour une meilleure confidentialité
-- Interface REST API pour les bots de trading
+- Interface REST API pour les bots d'échange
 - Support de plusieurs types de portefeuilles
 - Système de rôles avec caution obligatoire en BSQ
 
-Ce guide se concentre exclusivement sur "Bisq Easy", le seul protocole actuellement disponible. Bisq Easy a été conçu spécialement pour les nouveaux utilisateurs de Bitcoin. Ce protocole permet aux utilisateurs d'acheter et de vendre des bitcoins contre des devises fiduciaires sur une plateforme décentralisée de pair à pair. Les transactions sont limitées à l'équivalent de 600 USD (avec un minimum de 6 USD), et la sécurité des échanges repose sur la réputation des vendeurs de BTC. Bisq Easy ne comporte ni frais de trading ni exigence de dépôt de garantie. Il est prévu que Bisq Easy remplace Bisq 1 pour les échanges en monnaie fiduciaire inférieurs à 600 USD (ou équivalent).
+Ce guide se concentre exclusivement sur "Bisq Easy", le seul protocole actuellement disponible. Bisq Easy a été conçu spécialement pour les nouveaux utilisateurs de Bitcoin. Ce protocole permet aux utilisateurs d'acheter et de vendre des bitcoins contre des devises fiduciaires sur une plateforme décentralisée de pair à pair. Les transactions sont limitées à l'équivalent de 600 USD (avec un minimum de 6 USD), et la sécurité des échanges repose sur la réputation des vendeurs de BTC. Bisq Easy ne comporte ni frais d'échange ni exigence de dépôt de garantie. Il est prévu que Bisq Easy remplace Bisq 1 pour les échanges en monnaie fiduciaire inférieurs à 600 USD (ou équivalent).
 
 **Caractéristiques principales :**
 - Application de bureau multi-plateforme
@@ -36,10 +36,10 @@ Ce guide se concentre exclusivement sur "Bisq Easy", le seul protocole actuellem
 
 **Pour les acheteurs :**
 - Pas de dépôt de garantie requis
-- Pas de frais de trading
+- Pas de frais d'échange
 - Pas de frais de minage
 - Sécurité basée sur la réputation des vendeurs
-- Limites de trading plus basses (équivalent à 600 USD)
+- Limites d'échange plus basses (équivalent à 600 USD)
 
 **Pour les vendeurs :**
 - Pas de dépôt de garantie requis
@@ -54,7 +54,7 @@ Ce guide se concentre exclusivement sur "Bisq Easy", le seul protocole actuellem
 - Le créateur de l'offre définit les termes de l'échange
 - Une fois que les traders se sont mis d'accord sur les conditions (méthode de paiement et prix), l'échange commence
 - Le vendeur transmet ses coordonnées bancaires à l'acheteur, et l'acheteur envoie son adresse Bitcoin au vendeur
-- L'acheteur effectue le paiement en monnaie fiduciaire et notifie le vendeur
+- L'acheteur effectue le paiement en monnaie fiduciaire et le notifie au vendeur
 - Une fois le paiement reçu, le vendeur envoie les bitcoins à l'adresse de l'acheteur
 - L'échange est terminé lorsque l'acheteur reçoit les bitcoins
 
@@ -68,7 +68,7 @@ Ce guide se concentre exclusivement sur "Bisq Easy", le seul protocole actuellem
 
 ## Installation et Configuration
 
-### 1. Télécharger et Vérifier Bisq 2
+### 1. Télécharger et vérifier Bisq 2
 
 ![Téléchargement de Bisq 2](assets/fr/01.webp)
 
@@ -82,7 +82,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 
 Veuillez suivre les étapes d'installation appropriées pour votre système d'exploitation. En cas de difficulté lors de l'installation, vous pouvez consulter le guide détaillé sur le [wiki officiel de Bisq](https://bisq.wiki/Downloading_and_installing).
 
-### 3. Premier Démarrage
+### 3. Premier démarrage
 
 - Lancez Bisq 2 et acceptez les conditions d'utilisation
 ![Conditions d'utilisation](assets/fr/01.webp)
@@ -93,7 +93,7 @@ Veuillez suivre les étapes d'installation appropriées pour votre système d'ex
 - Vous accédez ensuite au tableau de bord principal de l'application qui vous permet de lancer Bisq Easy pour acheter ou vendre vos premiers bitcoins
 ![Page d'accueil de Bisq 2](assets/fr/03.webp)
 
-### 4. Configuration des Méthodes de Paiement
+### 4. Configuration des méthodes de paiement
 
 - Accédez à la section des comptes de paiement depuis le menu principal
 ![Liste des comptes de paiement](assets/fr/04.webp)
@@ -101,7 +101,7 @@ Veuillez suivre les étapes d'installation appropriées pour votre système d'ex
 - Ajoutez une nouvelle méthode de paiement en remplissant les informations requises
 ![Création d'un nouveau compte de paiement](assets/fr/05.webp)
 
-La configuration préalable des méthodes de paiement est optionnelle, mais recommandée pour gagner du temps lors des échanges. Vous pouvez également configurer vos méthodes de paiement directement pendant un trade en communiquant avec votre partenaire d'échange.
+La configuration préalable des méthodes de paiement est optionnelle, mais recommandée pour gagner du temps lors des échanges. Vous pouvez également configurer vos méthodes de paiement directement pendant un échange en communiquant avec votre partenaire d'échange.
 
 ### 5. Sécurisation du Compte
 
@@ -115,7 +115,7 @@ Bisq 2 permet de créer plusieurs identités. Chaque identité peut être utilis
 
 ## Acheter et Vendre des Bitcoins
 
-### Comment Acheter des Bitcoins ?
+### Comment acheter des Bitcoins ?
 
 **Option 1 : Prendre une offre existante**
 - Sur l'écran principal, sélectionnez "Bisq Easy", onglet "Getting started" puis cliquez sur "Start trade wizard"
@@ -125,18 +125,18 @@ Bisq 2 permet de créer plusieurs identités. Chaque identité peut être utilis
 ![Choix de la devise](assets/fr/08.webp)
 - Configurez vos méthodes de paiement préférées (SEPA, Revolut, etc.)
 ![Configuration méthodes de paiement](assets/fr/09.webp)
-- A ce moment là, soit vous avez une liste d'offre correspondante à vos précédent critères, soit vous devez aller sur l'"Offerbook"
+- À ce moment-là, soit vous avez une liste d'offre correspondante à vos précédents critères, soit vous devez aller sur l'"Offerbook"
 ![Liste des offres](assets/fr/10.webp)
 - Dans le second cas, vous pouvez afficher et filtrer les offres avec les boutons en haut à droite de l'interface
 ![Filtres des offres](assets/fr/11.webp)
-- Une fois votre offre choisie, vous n'avez plus qu'à choisir les modalités de paiements puis valider le récapitulatif du trade
+- Une fois votre offre choisie, vous n'avez plus qu'à choisir les modalités de paiement puis valider le récapitulatif des termes de l'échange
 ![Choix modalités de paiement](assets/fr/12.webp)
 ![Configuration du trade](assets/fr/13.webp)
 ![Récapitulatif du trade](assets/fr/14.webp)
 
 **Option 2 : Créer votre propre offre**
 - Sélectionnez "Bisq Easy" puis "Offerbook"
-- Choisissez votre paire de trading (ex: BTC/EUR)
+- Choisissez votre paire d'échange (ex: BTC/EUR)
 - Cliquez sur "Create offer"
 - Suivez l'assistant de création d'offre : Définissez le montant (fixe ou plage)
 ![Configuration du montant](assets/fr/20.webp)
@@ -155,14 +155,15 @@ Une fois l'échange initié :
 ![Réception coordonnées bancaires](assets/fr/16.webp)
 ![Détails coordonnées bancaires](assets/fr/17.webp)
 - Effectuez le paiement (sans mentionner "Bisq" ou "Bitcoin")
-- Notifiez le vendeur du paiement effectué
+- Informez le vendeur que le paiement a été effectué
 ![Notification paiement](assets/fr/18.webp)
 - Attendez la réception des bitcoins
 ![Attente réception](assets/fr/19.webp)
 
-### Comment Vendre des Bitcoins ?
+### Comment vendre des Bitcoins ?
 
-Le processus de vente sur Bisq 2 suit une logique similaire à celle de l'achat, avec les mêmes étapes principales mais dans l'ordre inverse. Vous pouvez soit créer votre propre offre de vente, soit répondre à une offre d'achat existante. Voici le détail des différentes options et étapes du processus :
+Le processus de vente sur Bisq 2 suit une logique similaire à celle de l'achat, avec les mêmes étapes principales, mais dans l'ordre inverse. Vous pouvez soit créer votre propre offre de vente, soit répondre à une offre d'achat existante.
+Voici le détail des différentes options et étapes du processus :
 
 **Option 1 : Créer une offre de vente**
 - Sélectionnez "Bisq Easy" puis "Offerbook"
@@ -200,7 +201,7 @@ Finalisation :
 
 **Note importante :** En tant que vendeur, vous devez être particulièrement vigilant concernant les risques de rétrofacturation. Privilégiez les méthodes de paiement sécurisées et vérifiez toujours que le paiement est bien reçu avant d'envoyer les bitcoins.
 
-## Bonnes Pratiques et Sécurité
+## Bonnes pratiques et Sécurité
 
 ### Conseils de Sécurité
 
@@ -221,11 +222,11 @@ Finalisation :
 - Limitez la communication au chat Bisq 2
 - Ouvrez une médiation en cas de doute
 
-### Construction de la Réputation (pour les vendeurs)
+### Construction de la réputation (pour les vendeurs)
 
 Pour améliorer votre réputation sur Bisq en tant que vendeur, réalisez des transactions régulières et maintenez une communication professionnelle avec les acheteurs. Répondez rapidement aux demandes des acheteurs afin d'assurer une expérience positive. Vous pouvez également créer une obligation en BSQ pour montrer votre engagement envers la plateforme. Ces actions renforceront la confiance et attireront davantage d'acheteurs.
 
-### Résolution des Litiges
+### Résolution des litiges
 
 - Contactez votre contrepartie via le chat
 - Si nécessaire, ouvrez un litige
@@ -251,9 +252,9 @@ Pour améliorer votre réputation sur Bisq en tant que vendeur, réalisez des tr
 
 - **Confidentialité maximale** : Pas de KYC, utilisation de Tor
 - **Décentralisation** : Pas de serveur central
-- **Sécurité** : Code open source, non-custodial
+- **Sécurité** : Code open source, non custodial
 - **Interface intuitive** : Plus simple que Bisq 1
-- **Flexibilité** : Multiple protocoles d'échange
+- **Flexibilité** : Protocoles d'échange multiples
 
 ### Inconvénients de Bisq 2
 
@@ -261,12 +262,12 @@ Pour améliorer votre réputation sur Bisq en tant que vendeur, réalisez des tr
 	- Nouveau protocole en phase de démarrage
 	- Peu d'offres de vente disponibles
 	- Délais d'attente potentiellement longs pour trouver un acheteur
-- **Limites de trading** : Maximum de 600 USD par transaction (avec Bisq easy)
+- **Limites d'échange** : Maximum de 600 USD par transaction (avec Bisq easy)
 - **Desktop uniquement** : Pas d'application mobile
 
-## Futurs Protocoles
+##  Protocoles Futurs
 
-Bien que Bisq Easy soit actuellement le seul protocole disponible, plusieurs autres protocoles sont en développement pour Bisq 2 :
+Bien que Bisq Easy soit actuellement le seul protocole disponible, plusieurs autres protocoles sont en cours de développement pour Bisq 2 :
 
 - **Bisq Lightning** : Protocole d'échange basé sur un système d'entiercement utilisant la cryptographie à calcul multipartite sur le réseau Lightning.
 
@@ -288,7 +289,7 @@ Bien que Bisq Easy soit actuellement le seul protocole disponible, plusieurs aut
 
 - **Contrats Ouverts Multisig** : Permet la création de contrats conditionnels personnalisés utilisant un système multisig 2-sur-3 avec arbitrage.
 
-Ces protocoles sont en cours de développement et seront progressivement intégrés à Bisq 2, offrant ainsi une plus grande flexibilité aux utilisateurs selon leurs besoins spécifiques.
+Ils seront progressivement intégrés à Bisq 2, offrant ainsi une plus grande flexibilité aux utilisateurs selon leurs besoins spécifiques.
 
 ## Ressources Utiles
 

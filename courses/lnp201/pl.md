@@ -1,13 +1,12 @@
 ---
-name: Teoretyczne wprowadzenie do sieci Lightning
+name: Teoria Lightning Network
 goal: Odkryj sieć Lightning z technicznego punktu widzenia
-objectives: 
-  - Zrozumienie działania kanałów sieciowych.
-  - Zapoznaj się z terminami HTLC, LNURL i UTXO.
-  - Asymilacja zarządzania płynnością i opłat LNN.
-  - Rozpoznanie Lightning Network jako sieci.
-  - Zrozumienie teoretycznych zastosowań sieci Lightning.
-
+objectives:
+- Zrozumienie działania kanałów sieciowych.
+- Zapoznaj się z terminami HTLC, LNURL i UTXO.
+- Asymilacja zarządzania płynnością i opłat LNN.
+- Rozpoznanie Lightning Network jako sieci.
+- Zrozumienie teoretycznych zastosowań sieci Lightning.
 ---
 
 # Podróż do drugiej warstwy Bitcoina
@@ -222,7 +221,7 @@ Najpopularniejszy skrypt wymaga podpisu kluczem prywatnym powiązanym z adresem.
 ### UTXOs: Niewykorzystane środki z poprzednich transakcji
 
 
-W Bitcoinie to, co faktycznie jest wymieniane, to nie bezpośrednio bitcoiny, ale **UTXOs** (_Unspent Transaction Outputs_), co oznacza „niewydane wyjścia transakcji”.
+W Bitcoinie to, co faktycznie jest wymieniane, to nie bezpośrednio bitcoiny, ale **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), co oznacza „niewydane wyjścia transakcji”.
 
 
 UTXO to kawałek Bitcoina, który może mieć dowolną wartość, na przykład **2 000 bitcoinów**, **8 bitcoinów**, a nawet **8 000 satów**. Każdy UTXO jest zablokowany przez skrypt i aby go wydać, należy spełnić warunki skryptu, często chodzi o podpis kluczem prywatnym odpowiadający danemu adresowi odbiorcy.
@@ -1592,6 +1591,10 @@ Widzieliśmy, że zarządzanie płynnością przepływu płatności jest wyzwani
 
 ![LNP201](assets/en/084.webp)
 
+
+Teraz, gdy zrozumieli Państwo teoretyczne działanie Lightning Network, mogą Państwo przejść do praktyki i uruchomić swój pierwszy węzeł Lightning, aby zyskać większą autonomię w jego użytkowaniu. W tym celu proszę skorzystać z kursu LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # Sekcja końcowa
 

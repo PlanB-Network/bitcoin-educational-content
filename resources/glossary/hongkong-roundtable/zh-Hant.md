@@ -1,5 +1,6 @@
 ---
 term: 香港圓桌會議
+definition: 2016 年 Bitcoin Core 開發人員與礦工之間關於系統可擴展性的歷史性會議。
 ---
 
 2016年2月20日在香港舉行的Blockize War的歷史性事件。這是 Bitcoin Core 開發者和礦工之間的一次重要會議，討論系統的可擴展性和擴展策略。在會議之前，氣氛非常緊張，特別是因為 Bitcoin Classic 的興起，這是 Gavin Andressen 支持的 Hard Fork 提案，旨在將區塊大小增加到 2 MB。生態系統中具有影響力的人物參與了辯論，包括 Bitmain 的共同創辦人 Jihan Wu 和 Micree Zhan、Blockstream 的總裁 Adam Back，以及 Luke Dashjr、Matt Corallo 和 Peter Todd。

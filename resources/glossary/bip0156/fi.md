@@ -1,6 +1,7 @@
 ---
 term: BIP0156
 
+definition: Dandelion, protokolla, joka parantaa tapahtumien reitityksen yksityisyyttä hämärtämällä alkuperäisen solmun.
 ---
 Ehdotus, joka tunnetaan nimellä Dandelion ja jonka tarkoituksena on parantaa transaktioiden reitityksen yksityisyyttä Bitcoin-verkossa deanonymisoinnin torjumiseksi. Bitcoinin tavanomaisessa toiminnassa transaktiot lähetetään välittömästi useisiin solmuihin. Jos tarkkailija pystyy näkemään jokaisen verkon jokaisen solmun välittämät transaktiot, hän saattaa olettaa, että ensimmäisenä transaktion lähettänyt solmu on myös kyseisen transaktion lähettäjäsolmu ja että transaktio on siis peräisin kyseisen solmun operaattorilta. Tämän ilmiön ansiosta tarkkailijat voivat mahdollisesti yhdistää normaalisti anonyymit transaktiot IP-osoitteisiin.
 

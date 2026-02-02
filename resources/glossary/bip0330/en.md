@@ -1,5 +1,6 @@
 ---
 term: BIP0330
+definition: Erlay, transaction propagation optimization reducing bandwidth usage by about 40%.
 ---
 
 A proposal known as "*Erlay*", which aims to optimize the propagation of unconfirmed transactions in the Bitcoin network. 

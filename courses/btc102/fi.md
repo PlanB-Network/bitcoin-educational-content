@@ -635,7 +635,7 @@ Lähestymällä asiaa tällä tavoin varmistat, ettet aseta taloudellista hyvinv
 ![image](assets/fi/023.webp)
 
 
-Kun budjettisi on määritelty, mieti, miten haluat sijoittaa. Yksi aloittelijoille sopivimmista ja laajalti suositelluista menetelmistä on Dollar Cost Averaging (DCA), jossa ostetaan kiinteä määrä Bitcoin:tä säännöllisin väliajoin (viikoittain, kuukausittain jne.). Tämä strategia auttaa tasoittamaan keskimääräistä tulohintaasi ajan mittaan ja vähentää hinnanvaihtelujen emotionaalista vaikutusta. Se on fiksu lähestymistapa useimmille ihmisille, erityisesti vasta-alkajille.
+Kun budjettisi on määritelty, mieti, miten haluat sijoittaa. Yksi aloittelijoille sopivimmista ja laajalti suositelluista menetelmistä on [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), jossa ostetaan kiinteä määrä Bitcoin:tä säännöllisin väliajoin (viikoittain, kuukausittain jne.). Tämä strategia auttaa tasoittamaan keskimääräistä tulohintaasi ajan mittaan ja vähentää hinnanvaihtelujen emotionaalista vaikutusta. Se on fiksu lähestymistapa useimmille ihmisille, erityisesti vasta-alkajille.
 
 
 Kysy sitten itseltäsi: Mikä on aikahorisontti?
@@ -978,7 +978,7 @@ Yksi Bitcoin:n aliarvostetuimmista vahvuuksista on sen jaettavuus. Kukin Bitcoin
 #### Julkinen protokolla, jonka kaikki voivat todentaa
 
 
-Bitcoin toimii julkisella, **avoimen lähdekoodin** protokollalla (lähinnä [Bitcoin Core] (https://github.com/Bitcoin/Bitcoin)). Tämä tarkoittaa, että sen koodi on vapaasti kaikkien saatavilla tarkastettavaksi, tarkastettavaksi ja parannettavaksi. Bitcoin:ssä ei ole piilomekanismeja tai suljettuja järjestelmiä; kaikki Bitcoin:n toimintaan liittyvä on avointa.
+Bitcoin toimii julkisella, **avoimen lähdekoodin** protokollalla (lähinnä [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Tämä tarkoittaa, että sen koodi on vapaasti kaikkien saatavilla tarkastettavaksi, tarkastettavaksi ja parannettavaksi. Bitcoin:ssä ei ole piilomekanismeja tai suljettuja järjestelmiä; kaikki Bitcoin:n toimintaan liittyvä on avointa.
 
 Tämä avoimuuden taso tekee takaovien käyttöönotosta tai salaisten muutosten tekemisestä uskomattoman vaikeaa. Kuka tahansa, jolla on teknisiä taitoja, voi käyttää solmua, osallistua kehitystyöhön tai rakentaa yhteensopivia työkaluja. Bitcoin:ssa luottamus ansaitaan koodin ja konsensuksen kautta, ei keskitetyn valvonnan kautta.
 
@@ -1007,7 +1007,7 @@ Vaikka tämä lähestymistapa on teknisempi, se tarjoaa vaativimmillekin käytt�
 #### Kestävä, rajat ylittävä maksutapa
 
 
-Hajautetun luonteensa ansiosta Bitcoin toimii 24/7, eivätkä rajat tai aikavyöhykkeet vaikuta siihen. Alueilla, joilla perinteinen pankki-infrastruktuuri puuttuu, Bitcoin:ää käytetään usein nopeana ja edullisena ratkaisuna varojen lähettämiseen tai vastaanottamiseen ilman kalliita välittäjiä. Vaikka transaktiomaksut voivat vaihdella verkon ruuhkautumisen mukaan, ne ovat yleensä paljon alhaisemmat kuin pankkien kansainvälisistä siirroista perimät maksut. Lisäksi Layer-2 -ratkaisut, kuten Lightning Network, mahdollistavat vielä nopeammat ja halvemmat Bitcoin-tapahtumat.
+Hajautetun luonteensa ansiosta Bitcoin toimii 24/7, eivätkä rajat tai aikavyöhykkeet vaikuta siihen. Alueilla, joilla perinteinen pankki-infrastruktuuri puuttuu, Bitcoin:ää käytetään usein nopeana ja edullisena ratkaisuna varojen lähettämiseen tai vastaanottamiseen ilman kalliita välittäjiä. Vaikka transaktiomaksut voivat vaihdella verkon ruuhkautumisen mukaan, ne ovat yleensä paljon alhaisemmat kuin pankkien kansainvälisistä siirroista perimät maksut. Lisäksi Layer-2 -ratkaisut, kuten [Lightning Network](https://planb.academy/resources/glossary/lightning-network), mahdollistavat vielä nopeammat ja halvemmat Bitcoin-tapahtumat.
 
 
 #### Arvopankki
@@ -1538,7 +1538,7 @@ Bitcoin Wallet -teollisuus on jaettu useisiin luokkiin, joista kukin vastaa eril
 
 
 
-- **Hardware Wallet Valmistajat**: Nämä yritykset kehittävät fyysisiä laitteita, jotka on suunniteltu avainten turvalliseen tallentamiseen. Jotkut ovat avoimen lähdekoodin yrityksiä, kun taas toiset tarjoavat omia ratkaisuja, joiden ominaisuudet ja turvallisuustasot vaihtelevat. Tunnettuja nimiä ovat Ledger, Trezor, Coinkite, Foundation ja Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Valmistajat**: Nämä yritykset kehittävät fyysisiä laitteita, jotka on suunniteltu avainten turvalliseen tallentamiseen. Jotkut ovat avoimen lähdekoodin yrityksiä, kun taas toiset tarjoavat omia ratkaisuja, joiden ominaisuudet ja turvallisuustasot vaihtelevat. Tunnettuja nimiä ovat Ledger, Trezor, Coinkite, Foundation ja Shiftcrypto.
 - **Software Wallet Kehittäjät**: Nämä vaihtelevat yrityksistä itsenäisiin kehittäjiin, jotka luovat mobiili- ja työpöytäsovelluksia. Heidän tarjontansa vaihtelee käyttäjäkokemuksen, turvallisuuden ja ominaisuuksien suhteen. Esimerkkejä ovat Sparrow, Wizard Sardine, Galoy, Synonym ja Blockstream.
 - DIY (*Do It Yourself*) **-lompakot**: Nämä avoimen lähdekoodin ratkaisut on suunniteltu edistyneille käyttäjille, jotka haluavat täyden hallinnan ja mahdollisimman vähän riippuvuutta kolmansista osapuolista. Oman Wallet:n rakentaminen vähentää riippuvuuksia luottamuksesta ja voi lisätä turvallisuustasoasi. Huomionarvoisia DIY-vaihtoehtoja ovat Seedsigner ja Specter DIY.
 
@@ -2682,7 +2682,7 @@ https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-5
 
 https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
 https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
@@ -3175,7 +3175,7 @@ Vain 15 minuutista tuntiin perintösuunnitelman laatimiseen voi olla ratkaisevaa
 ### Bitcoin:n seuraajasuunnitelman tavoitteet
 
 
-Pamela Morgan hahmottelee kirjassaan *[Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)* neljä keskeistä tavoitetta vankalle perintösuunnitelmalle:
+Pamela Morgan hahmottelee kirjassaan *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)* neljä keskeistä tavoitetta vankalle perintösuunnitelmalle:
 
 
 
@@ -3188,7 +3188,7 @@ Pamela Morgan hahmottelee kirjassaan *[Cryptoasset Inheritance Planning] (https:
 Hyvin harkittu suunnitelma ei ole vain varallisuuden siirtämistä, vaan myös läheistesi suojelemista yleisiltä virheiltä ja mahdollisilta uhkilta.
 
 
-Tämä luku on saanut vaikutteita [Pamela Morganin] (https://x.com/pamelawjd) työstä. [Hänen kirjastaan](https://www.amazon.com/gp/product/1947910116/), ja vaikka hänen kirjansa tarjoaa yksityiskohtaisen ja asiantuntijoiden vahvistaman menetelmän Bitcoin-perintösuunnitelman laatimiseen, **tämä sisältö ei ole oikeudellista neuvontaa**.  Kyseessä on todistetusti toimiva lähestymistapa, mutta jokaisen henkilön tulisi tehdä oma tutkimuksensa ja mukauttaa suositukset omaan tilanteeseensa ja lainkäyttöalueeseensa sopiviksi.
+Tämä luku on saanut vaikutteita [Pamela Morganin](https://x.com/pamelawjd) työstä. [Hänen kirjastaan](https://www.amazon.com/gp/product/1947910116/), ja vaikka hänen kirjansa tarjoaa yksityiskohtaisen ja asiantuntijoiden vahvistaman menetelmän Bitcoin-perintösuunnitelman laatimiseen, **tämä sisältö ei ole oikeudellista neuvontaa**.  Kyseessä on todistetusti toimiva lähestymistapa, mutta jokaisen henkilön tulisi tehdä oma tutkimuksensa ja mukauttaa suositukset omaan tilanteeseensa ja lainkäyttöalueeseensa sopiviksi.
 
 
 [Pamela Morgan](https://x.com/pamelawjd) on anteliaasti antanut luvan käyttää [hänen työtään](https://www.amazon.com/gp/product/1947910116/) tällä kurssilla, ja me seuraamme hänen lähestymistapaansa luodaksemme konkreettisen Bitcoin-perintösuunnitelman. Tässä luvussa keskitymme hänen kirjansa ensimmäiseen osaan.

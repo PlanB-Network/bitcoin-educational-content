@@ -1,6 +1,7 @@
 ---
 term: OP_TUCK (0X7D)
 
+definition: Opcode, mis kopeerib pinu ülaosa ja sisestab selle kolmandale kohale.
 ---
 Kopeerib virna ülaosas oleva elemendi ja lisab selle virna teise ja kolmanda elemendi vahele. Näiteks kui virnas on:
 

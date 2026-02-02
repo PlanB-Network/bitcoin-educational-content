@@ -1,5 +1,6 @@
 ---
-term: QR CODE
+term: QR-code
+definition: Driedimensionale barcode die wordt gebruikt om eenvoudig Bitcoin-adressen en andere informatie te verzenden.
 ---
 
 Een soort tweedimensionale streepjescode die snel kan worden gescand door mobiele apparaten. De QR code slaat informatie op in de vorm van zwarte en witte pixels in een vierkant op een witte achtergrond. Een belangrijk kenmerk van QR codes is dat ze BCH foutcorrectiecodes bevatten, waardoor gegevens hersteld kunnen worden zelfs als de QR code gedeeltelijk verborgen is.

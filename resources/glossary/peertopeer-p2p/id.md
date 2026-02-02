@@ -1,6 +1,7 @@
 ---
-term: PEER-TO-PEER (P2P)
+term: Peer-to-peer (P2P)
 
+definition: Model komunikasi di mana peserta bertukar secara langsung tanpa perantara terpusat.
 ---
 Mengacu pada model komunikasi dan distribusi data di mana para partisipan, yang sering disebut node atau rekan, berbagi sumber daya mereka (seperti file, daya pemrosesan, _bandwidth_, aset...) secara langsung di antara mereka sendiri, tanpa perlu perantara terpusat. Dalam sistem P2P, setiap peserta bertindak secara bersamaan sebagai klien (pengguna sumber daya) dan server (penyedia sumber daya).
 

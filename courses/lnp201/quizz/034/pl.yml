@@ -6,4 +6,4 @@ wrong_answers:
   - Podpis kryptograficzny każdego węzła na ścieżce
 explanation: |
   Węzeł wysyłający musi znać topologię sieci, aby obliczyć trasę do odbiorcy, umożliwiając mu wybór najlepszej ścieżki.
-reviewed: false
+reviewed: true

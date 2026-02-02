@@ -473,7 +473,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 Bu eğitimde size Passport'un Sparrow wallet ile gelişmiş bir kullanımını göstereceğim. Ancak, bu Hardware Wallet aynı zamanda Envoy (Foundation uygulaması), Keeper, BlueWallet, Nunchuk, Spectre ve diğerleri ile de uyumludur...
 
 
-Henüz yapmadıysanız, Sparrow wallet'yi [resmi web sitesinden] (https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
+Henüz yapmadıysanız, Sparrow wallet'yi [resmi web sitesinden](https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
 
 
 ![Image](assets/fr/54.webp)

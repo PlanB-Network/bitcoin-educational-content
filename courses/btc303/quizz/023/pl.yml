@@ -1,0 +1,9 @@
+question: Co to znaczy, że Bitcoin jest opisywany jako system pseudonimowy, a nie anonimowy?
+answer: Użytkownicy mogą być śledzeni za pomocą pseudonimów, ale ich prawdziwa tożsamość nie jest bezpośrednio ujawniana
+wrong_answers:
+  - Użytkownicy nie mogą być w ogóle śledzeni, a ich transakcje są całkowicie ukryte przed wzrokiem
+  - Użytkownicy muszą zarejestrować swoje prawdziwe imiona i nazwiska, ale mogą używać fałszywych adresów do transakcji
+  - Użytkownicy są całkowicie anonimowi i nie ma możliwości powiązania ze sobą żadnych transakcji
+explanation: |
+  Pseudonimowy charakter Bitcoin oznacza, że podczas gdy użytkownicy działają pod pseudonimami (adresami pochodzącymi z kluczy publicznych), ich transakcje mogą być nadal śledzone i łączone między tymi pseudonimami w łańcuchu bloków. Różni się to od prawdziwej anonimowości, w której transakcje nie pozostawiałyby żadnych identyfikowalnych połączeń. W Bitcoin można śledzić przepływ środków między adresami, ale rzeczywista tożsamość kryjąca się za tymi adresami nie jest bezpośrednio ujawniana, chyba że ktoś dobrowolnie ją ujawni lub popełni błędy, które spowodują wyciek jego prywatnych informacji.
+reviewed: false

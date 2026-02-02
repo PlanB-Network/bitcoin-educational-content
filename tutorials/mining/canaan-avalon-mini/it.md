@@ -122,16 +122,17 @@ Di seguito viene riportata una tabella riassuntiva delle specifiche tecniche gen
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Caratteristica                                      | Valore                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Consumo di energia                              | 800 W                                                     |
+| Rumore                                                | 35-55 dB                                                  |
+| Temperatura aria in uscita                       | 60-70°C (a temperatura ambiente 25°C)                  |
+| Requisiti di temperatura ambiente per l'uso | -5° C - 40°C                                              |
+| Intervallo di tensione di ingresso del dispositivo                         | 110V-240V AC 50/60Hz                                      |
+| Dimensioni della macchina                                 | Lunghezza: 760 mm / Profondità: 104 mm / Altezza: 214.5 mm |
+| Peso della macchina                                  |  8.35 kg                                                  |
 
 ## Collegamento a un Mining pool
 

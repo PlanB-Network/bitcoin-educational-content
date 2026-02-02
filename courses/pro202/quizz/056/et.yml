@@ -1,0 +1,8 @@
+question: Mis on peamine põhjus, miks P2SH-ga ümbritsetud SegWit-tehingutes kasutatakse kontrollimisel kolme tasandi valideerimisreegleid?
+answer: Tagasiühilduvuse tagamine BIP16-eelsetes, BIP16-järgsetes ja SegWit-sõlmedes, säilitades samas konsensuse
+wrong_answers:
+  - Turvalisuse kolmekordistamine, nõudes enne tehingu aktsepteerimist kolme eraldi krüptograafilist tõendit
+  - Valideerimise töökoormuse jaotamine eri sõlmede vahel, et parandada võrgu jõudlust ja skaleeritavust
+  - double-spending rünnakute ennetamine, valideerides samu tehinguandmeid kolme sõltumatu meetodi abil
+explanation: |
+  P2SH-ga ümbritsetud SegWit kasutab kolm valideerimiskihti spetsiaalselt tagasiühilduvuse tagamiseks: enne BIP16 sõlmed aktsepteerivad redeemScripti kehtivana, pärast BIP16 sõlmed hindavad seda, jättes OP_0 + hashi virna, ja SegWit sõlmed teostavad täieliku tunnistajate valideerimise. Selline mitmekihiline lähenemisviis tagab, et kõik sõlmede tüübid saavad konsensuses osaleda, ilma et see puruneks, erinevalt valedest vastustest, mis viitavad turvalisuse korrutamisele, jõudluse jaotamisele või topeltkulude vältimisele kui peamistele motiividele.

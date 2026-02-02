@@ -1,0 +1,8 @@
+question: Ni itandukaniro irihe ry’intango hagati y’ingene Rust mu bisanzwe ishira mu ngiro amategeko y’inguzanyo n’ingene RefCell iyashira mu ngiro?
+answer: Rust mu bisanzwe ishira mu ngiro amategeko yo kugurana igihe co gukoranya, mu gihe RefCell ishira mu ngiro igihe co gukora
+wrong_answers:
+  - Rust mu bisanzwe yemera ibisobanuro vyinshi bishobora guhinduka, mu gihe RefCell ibibuza gukoresha kimwe
+  - Rust mu bisanzwe ikoresha uguharura kw’ibimenyetso kugira ngo umuntu agire umutekano, mu gihe RefCell ikoresha isesengura ridahinduka
+  - Rust mu bisanzwe isaba gucunga ubwenge butomoye, mu gihe RefCell ivyifatamwo ubwo nyene
+explanation: |
+  Igishushanyo nyamukuru ca RefCell ni ugukuraho amategeko y’inguzanyo kuva ku gihe co gukoranya gushika ku gihe co gukora. Ivyerekeye Rust bisanzwe birasuzumwa n’umuhinguzi mu gihe c’ugukora kugira ngo bimenyekane ko ataco bihungabanya, ariko RefCell irakora ivyo bipimo nyene igihe porogarama iriko irakora. Ivyo bituma RefCell ishobora gutanga uguhinduka kw’imbere mu bihe aho isesengura ry’umukozi w’ivy’ubuhinga ry’ubuhinga ry’ubuhinga ry’ubuhinga ry’ubuhinga ry’ubuhinga ry’ubuhinga ry’ubuhinga ry’ubuhinga ry’ubuhinga ry’ubuhinga ry’ubuhinga ry’ubuhinga ry’ubuhinga. Ayandi mahitamwo adondora nabi uburyo nyamukuru bwo gukingira Rust canke inyifato nyayo ya RefCell.

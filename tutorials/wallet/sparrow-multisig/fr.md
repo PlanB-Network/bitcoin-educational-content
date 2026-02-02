@@ -105,7 +105,7 @@ Votre xpub a bien été importée. Nous allons maintenant répéter la procédur
 
 ![Image](assets/fr/14.webp)
 
-Pour la Ledger Flex, je sélectionne "*Keystore 2*", puis je clique sur "*Connected Hardware Wallet*". Assurez-vous que la Ledger est connectée à l’ordinateur, déverrouillée, et que l’application Bitcoin est bien ouverte.
+Pour le Ledger Flex, je sélectionne "*Keystore 2*", puis je clique sur "*Connected Hardware Wallet*". Assurez-vous que le Ledger est connectée à l’ordinateur, déverrouillée, et que l’application Bitcoin est bien ouverte.
 
 ![Image](assets/fr/15.webp)
 
@@ -147,7 +147,7 @@ Si ce n’est pas clair, retenez simplement ceci : pour récupérer un multisig,
 
 Ce *Descriptor* ne contient aucune clé privée, uniquement des clés publiques. Cela signifie qu’il ne permet pas d’accéder aux fonds. Il n’est donc pas aussi critique que les phrases mnémoniques, qui, elles, donnent un accès total à vos bitcoins. Le risque avec le *Descriptor* est uniquement lié à la confidentialité : en cas de compromission, une tierce personne pourrait observer toutes vos transactions, mais ne pourrait pas dépenser vos fonds.
 
-Je vous recommande vivement de créer plusieurs copies de ce *Descriptor*, et de les conserver avec chaque dispositif de signature de votre multisig. Par exemple, dans mon cas, j’imprime le *Descriptor* sur papier et j’en conserve une copie avec la Coldcard, une autre avec le Trezor, et une dernière avec la Ledger. J’enregistre aussi ce *Descriptor* sous forme de fichier PDF sur trois clés USB, chacune rangée avec l’un des portefeuilles matériels. De cette manière, je maximise mes chances de ne jamais perdre ce *Descriptor*, et je suis certain d’avoir deux copies (une physique et une numérique) avec chaque appareil.
+Je vous recommande vivement de créer plusieurs copies de ce *Descriptor*, et de les conserver avec chaque dispositif de signature de votre multisig. Par exemple, dans mon cas, j’imprime le *Descriptor* sur papier et j’en conserve une copie avec la Coldcard, une autre avec le Trezor, et une dernière avec le Ledger. J’enregistre aussi ce *Descriptor* sous forme de fichier PDF sur trois clés USB, chacune rangée avec l’un des portefeuilles matériels. De cette manière, je maximise mes chances de ne jamais perdre ce *Descriptor*, et je suis certain d’avoir deux copies (une physique et une numérique) avec chaque appareil.
 
 Une fois votre portefeuille multisig créé, Sparrow vous fournit automatiquement ce *Descriptor*. Cliquez sur le bouton "*Save PDF...*" pour le sauvegarder à la fois en version texte et sous forme de QR code.
 
@@ -281,7 +281,7 @@ Replacez ensuite la Micro SD dans votre ordinateur, puis cliquez sur "*Load Tran
 
 ![Image](assets/fr/47.webp)
 
-Vous pouvez constater que la signature de la Coldcard a bien été ajoutée. Je vais maintenant utiliser un second appareil, ici la Ledger, pour réaliser la seconde signature nécessaire. Je la connecte, je la déverrouille, puis je clique sur "*Sign*" sur Sparrow.
+Vous pouvez constater que la signature de la Coldcard a bien été ajoutée. Je vais maintenant utiliser un second appareil, ici le Ledger, pour réaliser la seconde signature nécessaire. Je la connecte, je la déverrouille, puis je clique sur "*Sign*" sur Sparrow.
 
 ![Image](assets/fr/48.webp)
 
@@ -289,7 +289,7 @@ Cliquez sur "*Sign*" à côté du nom de votre hardware wallet.
 
 ![Image](assets/fr/49.webp)
 
-Lors de la première utilisation de votre Ledger avec ce multisig, Sparrow vous demandera de vérifier les clés publiques étendues (xpubs) des co-signataires. Comme avec la Coldcard, cette étape évite de signer à l’aveugle par la suite. Pour valider ces informations, comparez la xpub affichée sur l’écran de la Ledger avec celles fournies directement par vos autres hardware wallets.
+Lors de la première utilisation de votre Ledger avec ce multisig, Sparrow vous demandera de vérifier les clés publiques étendues (xpubs) des co-signataires. Comme avec la Coldcard, cette étape évite de signer à l’aveugle par la suite. Pour valider ces informations, comparez la xpub affichée sur l’écran du Ledger avec celles fournies directement par vos autres hardware wallets.
 
 ![Image](assets/fr/50.webp)
 

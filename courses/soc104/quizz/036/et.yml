@@ -1,0 +1,8 @@
+question: Miks ei suuda Milton Friedmani sõnul vaestele mõeldud sotsiaalprogrammid sageli oma eesmärke saavutada?
+answer: Kuna need tekitavad perversseid mõjusid, näiteks majanduslikku sõltuvust ja turumoonutusi
+wrong_answers:
+  - Kuna nende sponsoritel puuduvad head kavatsused ja heldus abivajajate suhtes
+  - Sest neil ei ole piisavalt vahendeid, et rahuldada tegelikke vajadusi
+  - Kuna abisaajad ei mõista, kuidas neid programme tõhusalt kasutada
+explanation: |
+  Friedman juhib tähelepanu sellele, et sotsiaalpoliitika ebaõnnestub sageli hoolimata oma heldetest kavatsustest, sest ei võta arvesse inimeste stiimulite ja käitumise põhjalikku analüüsi. Need programmid tekitavad ootamatuid pöördmõjusid, näiteks majanduslikku sõltuvust või turumoonutusi, tekitades tulemusi, mis on vastuolus algsete eesmärkidega.

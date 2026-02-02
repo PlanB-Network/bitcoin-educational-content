@@ -1,0 +1,8 @@
+question: Cosa succede allo stack dopo l'esecuzione di OP_CHECKSIG quando la verifica della firma ha successo?
+answer: Il valore 1 viene spinto sullo stack
+wrong_answers:
+  - La firma e la chiave pubblica rimangono nello stack
+  - Lo stack viene cancellato e riportato a vuoto
+  - L'hash della chiave pubblica viene inserito nello stack
+explanation: |
+  OP_CHECKSIG è un opcode che trasforma lo stack e consuma una firma e una chiave pubblica dallo stack, verifica la firma rispetto al sighash della transazione e inserisce 1 (se valida) o 0 (se non valida) nello stack. La firma e la chiave pubblica originali vengono rimosse durante questo processo. Lo stack non viene svuotato completamente e non vengono inseriti valori hash, ma solo il risultato booleano dell'operazione di verifica.

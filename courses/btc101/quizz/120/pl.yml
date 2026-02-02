@@ -3,10 +3,9 @@ answer: Stanowią one zachętę dla górników do uwzględnienia transakcji w ko
 wrong_answers:
   - Są to podatki nakładane przez rząd.
   - Są to opłaty pobierane przez sieć Bitcoin za korzystanie z jej usług.
-  - Są to opłaty pobierane przez dostawcę Wallet.
+  - Są to opłaty pobierane przez dostawcę portfela.
 explanation: |
-  Opłaty transakcyjne w transakcjach Bitcoin służą jako
-  dla górników do włączenia transakcji do następnego bloku
-  bloku. Opłaty te tworzą wolny rynek dla
+  Opłaty transakcyjne w transakcjach Bitcoin służą jako zachęta
+  dla górników do włączenia transakcji do następnego bloku. Opłaty te tworzą wolny rynek dla
   transakcji w blokach.
 reviewed: true

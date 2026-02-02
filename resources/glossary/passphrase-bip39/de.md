@@ -1,6 +1,7 @@
 ---
-term: PASSPHRASE (BIP39)
+term: Passphrase (BIP39)
 
+definition: Optionales Passwort, das zur Recovery-Phrase hinzugefügt wird, um ein HD-Wallet zu sichern.
 ---
 Ein optionales Passwort, das in Kombination mit der Recovery Phrase eine zusätzliche Sicherheitsebene für deterministische und hierarchische Bitcoin-Wallets bietet. HD-Wallets werden in der Regel aus einer Wiederherstellungsphrase generiert, die aus 12 oder 24 Wörtern besteht. Diese Wiederherstellungsphrase ist sehr wichtig, da sie im Falle eines Verlustes die Wiederherstellung aller Schlüssel in einer Wallet ermöglicht. Sie stellt jedoch einen Single Point of Failure (SPOF) dar. Wenn sie kompromittiert wird, sind die Bitcoins gefährdet. An dieser Stelle kommt die Passphrase ins Spiel. Dabei handelt es sich um ein optionales, vom Benutzer gewähltes Passwort, das der Recovery Phrase hinzugefügt wird, um die Sicherheit der Wallet zu erhöhen. Nicht zu verwechseln mit einem PIN-Code oder einem gewöhnlichen Passwort, spielt die Passphrase eine Rolle bei der Ableitung von kryptografischen Schlüsseln.
 

@@ -22,7 +22,7 @@ In BTC304 werden wir uns ansehen, warum Community-Building wichtig ist, Werkzeug
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
 
-Willkommen bei BTC302!
+Willkommen bei BTC 304!
 
 Seit 2009 ist Bitcoin unaufhaltsam gewachsen. Dieses Wachstum hat durch neue Bitcoin Improvement Proposals (BIP) (z.D. Verbessungsvorschläge), die Schaffung zusätzlicher Schichten, um das Netz skalierbar zu machen (u. a. Lightning Network), und die Entwicklung mehrerer Unternehmen und Start-ups Gestalt angenommen.
 
@@ -1686,11 +1686,11 @@ Alleine kannst du schnell einen der vielen Tunnel im Bitcoin Kaninchenbau erkund
 
 **Indem du eine Gemeinschaft von Bitcoinern gründest und dich regelmäßig mit ihnen austauschst, bewegst du dich gleichzeitig in alle Richtungen des Kaninchenbaus.**
 
-## BTC302, Was kommt als Nächstes?
+## BTC 304, Was kommt als Nächstes?
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-In diesem BTC302-Kurs haben wir uns eingehend damit beschäftigt, wie man eine Community oder ein Treffen einrichtet und wie man eine Reihe von Projekten startet.
+In diesem BTC 304-Kurs haben wir uns eingehend damit beschäftigt, wie man eine Community oder ein Treffen einrichtet und wie man eine Reihe von Projekten startet.
 
 Wenn deine Gemeinschaft bereit ist, den nächsten Schritt zu tun, **könnest du eine formelle Vereinigung** gründen.
 
@@ -1701,7 +1701,7 @@ Die Vorteile sind zweifach:
 - **Offizielle Anerkennung**: Du kannst ein Verbandskonto eröffnen, Presse- und Medienaufmerksamkeit erhalten und sogar Zuschüsse beantragen.
 - **Strukturierte Organisation**: Du kannst klare Rollen definieren, was die Verwaltung deiner Gemeinschaft und die Durchführung von Projekten erleichtert.
 
-Damit deine Gemeinschaft weiter wachsen kann, wird vielleicht in den kommenden Monaten **ein Folgekurs zum Kurs COMMU302** auf [planb.network](https://planb.academy/) veröffentlicht werden.
+Mit dem Ziel, Ihre Gemeinschaft noch weiter erblühen zu lassen, **ist nicht auszuschließen, dass in den kommenden Monaten eine Fortsetzung dieser Schulung auf [Plan ₿ Academy](https://planb.academy/) erscheint**.
 
 Dieser nächste Kurs könnte sich mit fortgeschrittenen Themen befassen, wie z. B.:
 

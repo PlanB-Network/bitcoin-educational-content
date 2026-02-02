@@ -66,7 +66,7 @@ Trong phần thứ ba của khóa đào tạo, chúng ta sẽ đi sâu vào vấ
 
 ![BTC204](assets/vi/003.webp)
 
-**Phần 4: Hiểu về giao dịch coinjoin**
+**Phần 4: Hiểu về giao dịch [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Làm sao chúng ta có thể nói về quyền riêng tư trên Bitcoin mà không nhắc đến coinjoin? Trong phần 4, bạn sẽ tìm hiểu tất cả những gì bạn cần biết về phương pháp trộn này. Bạn sẽ tìm hiểu coinjoin là gì, lịch sử và mục tiêu của chúng, cũng như các loại coinjoin khác nhau hiện có. Cuối cùng, đối với người dùng có nhiều kinh nghiệm hơn, chúng ta sẽ xem xét anonset và entropy là gì và cách tính chúng.
 
@@ -74,7 +74,7 @@ Làm sao chúng ta có thể nói về quyền riêng tư trên Bitcoin mà khô
 
 **Phần 5: Hiểu những thách thức của các kỹ thuật bảo mật tiên tiến khác**
 
-Trong phần thứ năm, chúng ta sẽ xem xét tất cả các kỹ thuật khác có sẵn để bảo vệ quyền riêng tư của bạn trên Bitcoin, ngoài coinjoin. Trong nhiều năm qua, các nhà phát triển đã thể hiện sự sáng tạo đáng kể trong việc thiết kế các công cụ dành riêng cho quyền riêng tư. Chúng ta sẽ xem xét tất cả các phương pháp này, chẳng hạn như payjoin, giao dịch hợp tác, Coin Swap và Atomic Swap, trình bày chi tiết cách chúng hoạt động, mục tiêu của chúng và bất kỳ điểm yếu nào.
+Trong phần thứ năm, chúng ta sẽ xem xét tất cả các kỹ thuật khác có sẵn để bảo vệ quyền riêng tư của bạn trên Bitcoin, ngoài coinjoin. Trong nhiều năm qua, các nhà phát triển đã thể hiện sự sáng tạo đáng kể trong việc thiết kế các công cụ dành riêng cho quyền riêng tư. Chúng ta sẽ xem xét tất cả các phương pháp này, chẳng hạn như [payjoin](https://planb.academy/resources/glossary/payjoin), giao dịch hợp tác, Coin Swap và Atomic Swap, trình bày chi tiết cách chúng hoạt động, mục tiêu của chúng và bất kỳ điểm yếu nào.
 
 Chúng ta cũng sẽ xem xét quyền riêng tư ở cấp độ mạng lưới các nút và việc phân phối giao dịch. Chúng ta cũng sẽ thảo luận về các giao thức khác nhau đã được đề xuất trong nhiều năm để tăng cường quyền riêng tư của người dùng trên Bitcoin, bao gồm các giao thức địa chỉ tĩnh.
 
@@ -85,7 +85,7 @@ Sẵn sàng khám phá những ngóc ngách về quyền riêng tư trên Bitcoi
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Mô hình UTXO của Bitcoin
+## Mô hình [UTXO](https://planb.academy/resources/glossary/utxo) của Bitcoin
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -346,7 +346,7 @@ Vì vậy, chúng ta cũng cần có khả năng đối phó với phân tích b
 
 Còn cách nào tốt hơn để chống lại phân tích blockchain hơn là tìm hiểu về các phương pháp được sử dụng trong đó? Nếu bạn muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn cần hiểu các phương pháp này. Điều này sẽ giúp bạn nắm bắt tốt hơn các kỹ thuật như coinjoin hoặc payjoin (các kỹ thuật chúng ta sẽ xem xét trong các phần cuối của khóa học) và giảm thiểu các lỗi bạn có thể mắc phải.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
@@ -569,7 +569,7 @@ Nguồn: [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Ở phần sau, chúng ta có thể thấy rằng đầu vào số 0 và đầu ra số 1 sử dụng tập lệnh P2WPKH (SegWit V0), trong khi đầu ra số 0 sử dụng tập lệnh P2PKH khác (Legacy).
 
-Vào đầu những năm 2010, phương pháp tìm kiếm dựa trên phiên bản tập lệnh này tương đối không hữu ích do các loại tập lệnh có sẵn bị hạn chế. Tuy nhiên, theo thời gian và với các bản cập nhật Bitcoin liên tiếp, sự đa dạng ngày càng tăng của các loại tập lệnh đã được giới thiệu. Do đó, phương pháp tìm kiếm này ngày càng trở nên phù hợp, vì với nhiều loại tập lệnh hơn, người dùng chia thành các nhóm nhỏ hơn, do đó tăng khả năng áp dụng phương pháp tìm kiếm tái sử dụng phiên bản nội bộ này. Vì lý do này, chỉ xét về góc độ bảo mật, nên chọn loại tập lệnh phổ biến nhất. Ví dụ, khi tôi viết những dòng này, tập lệnh Taproot (`bc1p`) ít được sử dụng hơn tập lệnh SegWit V0 (`bc1q`). Mặc dù các tập lệnh trước mang lại lợi ích về mặt kinh tế và bảo mật trong một số bối cảnh cụ thể, nhưng đối với các mục đích sử dụng chữ ký đơn truyền thống hơn, việc sử dụng tiêu chuẩn cũ hơn vì lý do bảo mật có thể hợp lý, cho đến khi tiêu chuẩn mới được áp dụng rộng rãi hơn.
+Vào đầu những năm 2010, phương pháp tìm kiếm dựa trên phiên bản tập lệnh này tương đối không hữu ích do các loại tập lệnh có sẵn bị hạn chế. Tuy nhiên, theo thời gian và với các bản cập nhật Bitcoin liên tiếp, sự đa dạng ngày càng tăng của các loại tập lệnh đã được giới thiệu. Do đó, phương pháp tìm kiếm này ngày càng trở nên phù hợp, vì với nhiều loại tập lệnh hơn, người dùng chia thành các nhóm nhỏ hơn, do đó tăng khả năng áp dụng phương pháp tìm kiếm tái sử dụng phiên bản nội bộ này. Vì lý do này, chỉ xét về góc độ bảo mật, nên chọn loại tập lệnh phổ biến nhất. Ví dụ, khi tôi viết những dòng này, tập lệnh [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) ít được sử dụng hơn tập lệnh SegWit V0 (`bc1q`). Mặc dù các tập lệnh trước mang lại lợi ích về mặt kinh tế và bảo mật trong một số bối cảnh cụ thể, nhưng đối với các mục đích sử dụng chữ ký đơn truyền thống hơn, việc sử dụng tiêu chuẩn cũ hơn vì lý do bảo mật có thể hợp lý, cho đến khi tiêu chuẩn mới được áp dụng rộng rãi hơn.
 
 ### Thanh toán số tròn
 
@@ -1888,7 +1888,6 @@ Hiện tại, Whirlpool là triển khai coinjoin duy nhất áp dụng nghiêm 
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*Vào năm 2024, chúng ta đang chứng kiến những thay đổi lớn trong các công cụ dành cho người dùng muốn thực hiện coinjoin trên Bitcoin. Hiện tại chúng ta đang ở một bước ngoặt và thị trường coinjoin đang trải qua quá trình tái cấu trúc lớn. Chương này chắc chắn sẽ được cập nhật theo thời gian.*
 
 Hiện tại có chủ yếu 3 cách triển khai coinjoin khác nhau trên Bitcoin:
 
@@ -1896,6 +1895,10 @@ Hiện tại có chủ yếu 3 cách triển khai coinjoin khác nhau trên Bitc
 - Xoáy nước;
 - Wabisabi;
 - Tham gia thị trường.
+
+Ngoài ba bản triển khai mang tính lịch sử này, gần đây đã xuất hiện một bản mới: Joinstr. Tôi sẽ không đề cập đến nó trong chương này, nhưng bạn có thể tìm thấy mọi thông tin liên quan trong hướng dẫn chuyên biệt này:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Mỗi triển khai này đều nhằm mục đích phá vỡ lịch sử của UTXO thông qua các giao dịch coinjoin. Tuy nhiên, cơ chế của chúng khác nhau đáng kể. Do đó, điều cần thiết là phải hiểu cách thức hoạt động của từng triển khai để bạn có thể chọn tùy chọn phù hợp nhất với nhu cầu của mình.
 
@@ -1918,6 +1921,8 @@ Tuy nhiên, rào cản kỹ thuật vẫn là một trở ngại lớn. Trong h�
 Mặc dù có mô hình liên kết P2P sáng tạo dành cho coinjoiners, JoinMarket vẫn có một số nhược điểm đáng kể, đặc biệt là về mặt cấu trúc giao dịch. Không giống như các triển khai khác như Whirlpool, JoinMarket không đảm bảo sự bình đẳng hoàn toàn giữa các đầu ra và có thể theo dõi các liên kết xác định giữa đầu vào và đầu ra. Hơn nữa, nó không có công cụ nào để ngăn các bộ phận đã được trộn lẫn với nhau khỏi bị trộn lẫn lại, điều này có thể làm tổn hại đến tính bảo mật mà người dùng mong muốn.
 
 Cuối cùng, mặc dù khái niệm JoinMarket rất thú vị, đặc biệt là đối với những người quan tâm đến thị trường thanh khoản năng động, nhưng điểm yếu về mặt cấu trúc và tính phức tạp về mặt kỹ thuật khiến nó, theo tôi, kém hấp dẫn hơn đối với cả người mới bắt đầu và chuyên gia đang tìm kiếm triển khai coinjoin.
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -1963,6 +1968,10 @@ Ngoài các vấn đề kỹ thuật, quyết định của zkSNACKs, công ty �
 Thậm chí còn đáng lo ngại hơn là nguyên tắc lọc, trái ngược hoàn toàn với triết lý của Bitcoin về việc cung cấp một hệ thống tài chính mở, không bị kiểm duyệt. Mặc dù có vẻ hợp lý khi muốn loại trừ các hoạt động tội phạm, nhưng việc lọc này cũng có thể ảnh hưởng đến những cá nhân có hành động, mặc dù được phân loại là bất hợp pháp trong một số bối cảnh nhất định, nhưng có thể biện minh về mặt đạo đức hoặc có lợi cho xã hội. Ví dụ về Edward Snowden minh họa hoàn hảo cho sự phân đôi này: một số chính phủ coi anh ta là tội phạm vì những tiết lộ của mình, những người khác lại coi anh ta là người tố giác đã hành động vì lợi ích công cộng. Sự phức tạp này nhấn mạnh mối nguy hiểm tiềm tàng của việc lọc, mặc dù có ý định tốt, nhưng cuối cùng có thể làm suy yếu quyền và sự an toàn của những người dùng hợp pháp. Tôi cũng có thể đề cập đến các nhà hoạt động và nhà báo bị đàn áp dưới một số chế độ độc tài.
 
 Như bạn đã biết, sở thích của tôi chắc chắn là mô hình Whirlpool cho coinjoin trên Bitcoin. Hệ thống này nổi bật vì tính nghiêm ngặt và cung cấp các đảm bảo bảo mật tuyệt vời. Đây cũng là hệ thống duy nhất cung cấp hỗn hợp được coi là hoàn hảo trong bối cảnh toán học. Theo tôi, mô hình này đại diện cho tương lai của coinjoin trên Bitcoin. Tôi mời bạn khám phá mô hình này sâu hơn trong chương tiếp theo.
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## Whirlpool hoạt động như thế nào
 
@@ -2164,7 +2173,7 @@ Bạn cũng không nên chuyển UTXO postmix của mình sang ví bằng các t
 
 Như với bất kỳ giao dịch Bitcoin nào, điều quan trọng là không sử dụng lại địa chỉ nhận. Mỗi giao dịch mới phải được nhận trên một địa chỉ mới, trống.
 
-Giải pháp đơn giản và an toàn nhất là để UTXO hỗn hợp của bạn ở trạng thái nghỉ trong tài khoản **postmix** của họ, để chúng trộn lại và chỉ chạm vào chúng để chi tiêu. Ví Samurai và Sparrow có các biện pháp bảo vệ bổ sung chống lại tất cả các rủi ro phân tích chuỗi này. Các biện pháp bảo vệ này giúp bạn tránh mắc lỗi.
+Giải pháp đơn giản và an toàn nhất là để các UTXO đã trộn của bạn nằm yên trong tài khoản **postmix**, để chúng tiếp tục được trộn lại và chỉ chạm vào chúng khi cần chi tiêu. Ví Samourai (và nay là Ashigaru) và Sparrow có các lớp bảo vệ bổ sung chống lại mọi rủi ro liên quan đến phân tích chuỗi. Những biện pháp bảo vệ này giúp bạn tránh mắc sai lầm.
 
 ### Bạn quản lý những cuộc trao đổi độc hại như thế nào?
 
@@ -2177,24 +2186,27 @@ Sau đây là một số chiến lược sử dụng chúng:
 - Đánh dấu chúng là **"không thể chi tiêu"**: Một cách tiếp cận khác là ngừng sử dụng chúng, đánh dấu chúng là "không thể chi tiêu" trong tài khoản chuyên dụng của chúng và chỉ giữ chúng. Điều này đảm bảo rằng bạn không vô tình chi tiêu chúng. Nếu giá trị của bitcoin tăng, các nhóm mới phù hợp hơn với UTXO độc hại của bạn có thể xuất hiện;
 - **Quyên góp:** Hãy cân nhắc quyên góp, dù ít, cho các nhà phát triển làm việc trên Bitcoin và phần mềm liên quan. Bạn cũng có thể quyên góp cho các hiệp hội chấp nhận BTC. Nếu việc quản lý UTXO độc hại của bạn có vẻ quá phức tạp, bạn chỉ cần loại bỏ chúng và quyên góp;
 - **Mua thẻ quà tặng:** Các nền tảng như [Bitrefill](https://www.bitrefill.com/) cho phép bạn đổi bitcoin lấy thẻ quà tặng có thể sử dụng tại nhiều nhà bán lẻ khác nhau. Đây có thể là cách để bạn chia tay với UTXO độc hại mà không mất đi giá trị liên quan;
-- Hợp nhất chúng trên Monero: **Samourai Wallet** cung cấp dịch vụ hoán đổi nguyên tử giữa BTC và XMR. Điều này lý tưởng để quản lý UTXO độc hại bằng cách hợp nhất chúng trên Monero, mà không làm ảnh hưởng đến tính bảo mật của bạn thông qua CIOH, trước khi gửi chúng trở lại Bitcoin. Tuy nhiên, tùy chọn này có thể tốn kém về mặt phí khai thác và phí bảo hiểm do hạn chế về thanh khoản;
+- **Hợp nhất chúng qua Monero:** Samourai Wallet từng cung cấp dịch vụ hoán đổi nguyên tử giữa BTC và XMR, nhưng đáng tiếc đã ngừng hoạt động kể từ khi họ bị bắt. Phương pháp này cho phép xử lý các UTXO độc hại bằng cách hợp nhất chúng trên Monero mà không làm ảnh hưởng đến quyền riêng tư của bạn thông qua CIOH, trước khi gửi chúng trở lại Bitcoin. Nếu một dịch vụ tương tự xuất hiện trở lại, đây có thể là một lựa chọn đáng cân nhắc. Tuy nhiên, cần lưu ý rằng phương pháp này có thể trở nên tốn kém do phí đào và khoản phí bổ sung phát sinh từ hạn chế thanh khoản trong quá trình chuyển đổi ngược sang bitcoin.
 - Gửi chúng đến Lightning Network: Việc chuyển các UTXO này đến Lightning Network để hưởng lợi từ phí giao dịch giảm có thể là một lựa chọn hấp dẫn. Tuy nhiên, phương pháp này có thể tiết lộ một số thông tin tùy thuộc vào cách bạn sử dụng Lightning và do đó nên thận trọng khi sử dụng.
 
 ### Tôi sử dụng Whirlpool như thế nào?
 
-Sau khi những người sáng lập Samourai Wallet bị bắt và máy chủ của họ bị tịch thu vào ngày 24 tháng 4 năm 2024, công cụ Whirlpool không còn hoạt động nữa, ngay cả đối với những người có Dojo riêng. Trước đây, công cụ này có sẵn trên Samourai Wallet và Sparrow Wallet.
+Sau khi những người sáng lập Samourai Wallet bị bắt và máy chủ của họ bị thu giữ vào ngày 24 tháng 4 năm 2024, công cụ Whirlpool không còn khả dụng trên Samourai Wallet và Sparrow Wallet.
 
 ![BTC204](assets/vi/155.webp)
 
-Tuy nhiên, vẫn có khả năng công cụ này sẽ được kích hoạt lại trong những tuần tới, tùy thuộc vào kết quả của các thử nghiệm hoặc được khởi chạy lại theo một cách khác. Trong mọi trường hợp, tôi không nghĩ thị trường Bitcoin coinjoin sẽ không thiếu nguồn cung trong thời gian dài, vì nhu cầu vẫn còn đó. Hơn nữa, vì mô hình của Whirlpool là mô hình tiên tiến nhất về mặt bảo mật, nên chắc chắn đây sẽ là mô hình được lựa chọn cho các triển khai khác trong tương lai.
 
-Chúng tôi đang theo dõi chặt chẽ trường hợp này và các diễn biến trong các công cụ liên quan. Hãy yên tâm rằng chúng tôi sẽ cập nhật khóa đào tạo này khi có thông tin mới.
+
+Từ nay, Whirlpool lại có thể truy cập được trên ứng dụng di động Ashigaru, một fork của Samourai Wallet, nhờ phần mềm Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Cốt lõi cách thức hoạt động của Whirlpool vẫn không thay đổi, nhưng vẫn có một số khác biệt so với việc sử dụng trên Samourai: vào năm 2025, trên Ashigaru chỉ có hai pool khả dụng, với giá trị `0.25 BTC` và `0.025 BTC`, cùng phí tham gia tương ứng là `0.0125 BTC` và `0.00125 BTC`.
 
 Trong chương tiếp theo, chúng ta sẽ tìm hiểu "anonset" là gì, cách tính các chỉ số này và cách chúng có thể giúp chúng ta ước tính hiệu quả của các chu kỳ coinjoin.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -2532,7 +2544,7 @@ Thật không may, sau khi những người sáng lập Samourai bị bắt, cá
 
 Bây giờ chúng ta đã tìm hiểu chi tiết về coinjoin, chúng ta sẽ xem xét các kỹ thuật bảo mật khác có sẵn trên Bitcoin trong phần cuối của khóa học. Chúng ta sẽ xem xét payjoin, các loại giao dịch giả coinjoin cụ thể, giao thức địa chỉ tĩnh cũng như các biện pháp tăng cường tính bảo mật không phải ở cấp độ giao dịch mà ở cấp độ mạng lưới các nút.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Hiểu được những thách thức của các kỹ thuật bảo mật tiên tiến khác
 
@@ -2618,7 +2630,10 @@ Các chương trình phần mềm nổi tiếng hỗ trợ payjoin bao gồm Spa
 
 ![BTC204](assets/vi/177.webp)
 
-Việc triển khai payjoin tiên tiến nhất chỉ là Stowaway trên Samourai Wallet. Tuy nhiên, kể từ khi những người sáng lập phần mềm bị bắt, công cụ này hiện chỉ hoạt động một phần. Ưu điểm của Stowaway là giao thức toàn diện, dễ sử dụng, hỗ trợ cả việc nhận và gửi payjoin. Các giao dịch đã ký một phần có thể được trao đổi thủ công bằng cách quét một số mã QR hoặc tự động bằng Tor qua Soroban. Tùy chọn giao tiếp sau hiện không còn hoạt động.
+
+Triển khai payjoin tiên tiến nhất chắc chắn là Stowaway, được tạo ra bởi các nhà phát triển Samourai Wallet. Kể từ khi những người sáng lập phần mềm bị bắt, công cụ này chỉ hoạt động một phần trên Samourai. Tuy nhiên, nó đã được khởi động lại trên ứng dụng Ashigaru.
+
+Ưu điểm của Stowaway là đây là một giao thức hoàn chỉnh và rất dễ sử dụng, hỗ trợ cả việc nhận và gửi payjoin. Các giao dịch được ký một phần có thể được trao đổi thủ công bằng cách quét nhiều mã QR hoặc tự động qua Tor thông qua Soroban.
 
 ![BTC204](assets/vi/178.webp)
 
@@ -2628,7 +2643,7 @@ Một giải pháp là sử dụng các cấu trúc giao dịch đưa sự mơ h
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Thanh toán mini-coinjoin
 
@@ -2741,19 +2756,20 @@ Logic phải như sau khi bạn muốn sử dụng công cụ bảo mật cho m�
 
 ### Tôi có thể sử dụng giao dịch Stonewall và Stonewall x2 như thế nào?
 
-Các giao dịch Stonewall và Stonewall x2 đều có sẵn trên cả ứng dụng Samourai Wallet và phần mềm Sparrow Wallet.
+Các giao dịch Stonewall có sẵn trên Sparrow Wallet cũng như trên Ashigaru, trong khi Stonewall x2 hiện chỉ được hỗ trợ bởi Ashigaru.
 
 ![BTC204](assets/vi/189.webp)
 
-Tuy nhiên, giống như payjoin, sau vụ bắt giữ những người sáng lập Samourai, các giao dịch Stonewall x2 hiện chỉ hoạt động bằng cách trao đổi PSBT thủ công giữa các bên liên quan. Thật không may, trao đổi tự động qua Soroban không còn khả dụng nữa.
 
 Bạn cũng có thể thực hiện loại giao dịch này theo cách thủ công từ bất kỳ phần mềm ví Bitcoin nào.
 
 Trong chương tiếp theo, chúng ta sẽ xem xét một kỹ thuật bảo mật khác ít được biết đến nhưng lại rất hữu ích để bổ sung cho những gì chúng ta đã nghiên cứu.
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Những quả bóng nảy lại
 
@@ -2808,14 +2824,14 @@ Trường hợp sử dụng phổ biến nhất cho ricochet xảy ra khi cần 
 
 Phương pháp này không chỉ hiệu quả đối với mối ghép đồng thời mà còn hiệu quả với bất kỳ vết nào khác có thể làm giảm khả năng thay thế của một bộ phận.
 
-Ý tưởng cho phương pháp ricochet này ban đầu xuất phát từ nhóm Samourai Wallet, những người đã tích hợp nó vào ứng dụng của họ để tự động hóa quy trình. Dịch vụ này không miễn phí trên Samourai, vì một ricochet liên quan đến phí dịch vụ là 100.000 sats, cộng với chi phí khai thác. Do đó, nên sử dụng phương pháp này để chuyển số tiền lớn.
+Ý tưởng của phương pháp ricochet này ban đầu xuất phát từ các nhóm của Samourai Wallet, những người đã tích hợp nó vào ứng dụng của họ nhằm tự động hóa hoạt động. Dịch vụ này có thu phí trên Samourai, vì mỗi lần ricochet phải chịu chi phí cố định 100.000 sats cho phí dịch vụ, cùng với phí đào. Ngày nay, điều tương tự cũng áp dụng trên Ashigaru. Do đó, việc sử dụng phương pháp này được khuyến nghị chủ yếu cho các giao dịch có giá trị lớn.
 
 ![BTC204](assets/vi/196.webp)
 
-Ứng dụng Samurai cung cấp hai biến thể ricochet:
+Ứng dụng Ashigaru cung cấp hai biến thể ricochet (giống như những gì trước đây có trên Samourai):
 
 
-- Giao dịch ricochet được gia cố, hay "giao hàng theo đợt", cung cấp lợi thế là phân bổ phí dịch vụ Samurai cho năm giao dịch liên tiếp. Tùy chọn này cũng đảm bảo rằng mỗi giao dịch được phát sóng vào một thời điểm riêng biệt và được ghi lại trong một khối khác nhau, mô phỏng càng sát càng tốt hành vi của một thay đổi chủ sở hữu. Mặc dù chậm hơn, phương pháp này được ưa chuộng hơn đối với những người không vội, vì nó tối đa hóa hiệu quả của giao dịch ricochet bằng cách củng cố khả năng chống lại phân tích chuỗi;
+- Ricochet tăng cường, hay còn gọi là "giao hàng theo từng giai đoạn", mang lại lợi ích khi phân bổ phí dịch vụ Ashigaru vào năm giao dịch liên tiếp. Tùy chọn này cũng đảm bảo rằng mỗi giao dịch được phát vào một thời điểm khác nhau và được ghi vào một khối riêng biệt, cho phép mô phỏng chính xác nhất có thể hành vi của việc thay đổi chủ sở hữu. Tuy chậm hơn, phương pháp này phù hợp hơn cho những ai không vội vàng, vì nó tối đa hóa hiệu quả của ricochet bằng cách tăng cường khả năng chống phân tích chuỗi;
 
 ![BTC204](assets/vi/197.webp)
 
@@ -2828,7 +2844,7 @@ Ricocheting đơn giản có nghĩa là gửi bitcoin cho chính bạn. Hoàn to
 
 Trong chương tiếp theo, chúng ta sẽ xem xét các kỹ thuật khác nhau để chuyển giao quyền sở hữu bí mật. Các phương pháp này khác biệt hoàn toàn so với các phương pháp chúng ta đã xem xét cho đến nay, cả về mặt hoạt động và kết quả.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Chuyển nhượng quyền sở hữu bí mật
 
@@ -3068,7 +3084,7 @@ Mục đích của BIP47 là giúp có thể nhận được một số lượng
 
 Do đó, người dùng có thể chia sẻ mã thanh toán của mình một cách hoàn toàn tự do, cho dù trên mạng xã hội hay trên trang web của mình, mà không có nguy cơ mất tính bảo mật, không giống như địa chỉ người nhận hoặc khóa công khai thông thường.
 
-Để thực hiện giao dịch, cả hai bên đều cần một ví Bitcoin có triển khai BIP47, chẳng hạn như PayNym trên Samurai Wallet hoặc Sparrow Wallet. Việc sử dụng chung mã thanh toán của họ tạo ra một kênh bí mật giữa họ. Để thiết lập kênh này hiệu quả, bên phát hành phải thực hiện một giao dịch cụ thể trên chuỗi khối Bitcoin, được gọi là "giao dịch thông báo" (sẽ nói thêm về điều này sau).
+Để thực hiện một giao dịch, cả hai bên phải sở hữu một ví Bitcoin có triển khai BIP47, chẳng hạn như PayNym trên Ashigaru hoặc Sparrow Wallet. Việc sử dụng kết hợp các mã thanh toán của họ tạo ra một kênh bí mật giữa hai bên. Để thiết lập hiệu quả kênh này, bên gửi phải thực hiện một giao dịch cụ thể trên blockchain Bitcoin, được gọi là "giao dịch thông báo" (tôi sẽ cung cấp chi tiết sau).
 
 Việc kết hợp các mã thanh toán của hai người dùng sẽ tạo ra các bí mật chung, từ đó tạo ra một số lượng lớn các địa chỉ nhận Bitcoin duy nhất (chính xác là 2^32, hoặc khoảng 4 tỷ). Theo cách này, các khoản thanh toán được thực hiện thông qua BIP47 không thực sự được gửi đến chính mã thanh toán mà là đến các địa chỉ biên lai cổ điển có nguồn gốc từ các mã thanh toán của những người dùng liên quan.
 
@@ -3090,7 +3106,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Mã này cũng có thể được mã hóa dưới dạng mã QR để dễ dàng giao tiếp hơn, giống như địa chỉ lễ tân thông thường.
 
-Đối với PayNym Bots, các robot đôi khi được nhìn thấy trên Twitter, đây là các biểu diễn trực quan của mã thanh toán, được tạo bởi Samourai Wallet. Chúng được tạo ra bằng cách sử dụng hàm băm, mang lại cho chúng tính gần như duy nhất. Chúng có dạng một chuỗi ký tự nhỏ bắt đầu bằng `+`:
+Về các PayNym Bot — những bot đôi khi xuất hiện trên X (Twitter) — chúng là các dạng biểu diễn trực quan của mã thanh toán, được tạo ra bởi Samourai Wallet. Nay với Ashigaru, chúng có hơi khác biệt đôi chút, nhưng nguyên tắc vẫn giữ nguyên. Chúng được tạo ra bằng một hàm băm, điều này mang lại cho chúng tính gần như duy nhất. Chúng xuất hiện dưới dạng một chuỗi ký tự nhỏ bắt đầu bằng `+` :
 
 ```plaintext
 +throbbingpond8B1

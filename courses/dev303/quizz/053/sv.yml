@@ -1,0 +1,8 @@
+question: Vilken är den grundläggande mekanismen som gör det möjligt för RC att tillåta flera ägare samtidigt som minnessäkerheten upprätthålls?
+answer: En intern räknare som spårar referenser och frigör minne först när räknaren når noll
+wrong_answers:
+  - En kompileringstidsanalys som verifierar alla referensmönster innan programmet exekveras
+  - En skräpsamlare som regelbundet söker igenom och rensar bort oåtkomliga minnesallokeringar
+  - Ett låsbaserat system som synkroniserar åtkomst mellan flera ägare av samma data
+explanation: |
+  RC upprätthåller en intern referensräknare som ökar när den klonas och minskar när den tas bort, vilket säkerställer att minnet endast frigörs när inga referenser återstår. Detta skiljer sig från kompilationstidsanalys (som Box använder), skräpsamling (som Rust inte använder) eller låsmekanismer (som används för trådsynkronisering, inte ägarspårning). Det räknebaserade tillvägagångssättet möjliggör säkert delat ägande utan runtime-overhead för garbage collection eller begränsningarna för enskilt ägande.

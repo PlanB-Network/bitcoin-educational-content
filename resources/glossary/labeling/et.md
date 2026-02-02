@@ -1,6 +1,7 @@
 ---
-term: LABELING
+term: Sildistamine
 
+definition: Praktika määrata UTXO-dele märkmeid, et hõlbustada vahendite haldamist ja privaatsust.
 ---
 Praktika, mille käigus määratakse Bitcoini rahakotis konkreetsele UTXO-le märkus või silt. Näiteks, kui mul on UTXO P2P-ostustelt Bisqis koos Charlesiga, võin ma selle märgistada kui "`Non-KYC Bisq Charles`".
 

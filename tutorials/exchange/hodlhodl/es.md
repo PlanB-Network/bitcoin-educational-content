@@ -6,20 +6,19 @@ description: Guía paso a paso para HODLHODL
 
 ![imagen](assets/cover.webp)
 
-Hodl Hodl es un intercambio descentralizado de Bitcoin que prioriza el control y la seguridad del usuario. A diferencia de los intercambios tradicionales, opera en un modelo de igual a igual, permitiendo intercambios directos entre usuarios. Con su sistema de custodia multi-firma, Hodl Hodl garantiza la seguridad de los fondos durante las transacciones. La plataforma también admite varios métodos de pago y ofrece opciones de negociación como contratos por diferencia (CFDs).
+Hodl Hodl es una plataforma de intercambio descentralizado de Bitcoin que prioriza el control y la seguridad del usuario. A diferencia de las plataformas tradicionales, opera en un modelo de igual a igual, permitiendo intercambios directos entre usuarios. Con su sistema de custodia multi-firma, Hodl Hodl garantiza la seguridad de los fondos durante las transacciones. La plataforma también admite varios métodos de pago y ofrece opciones de negociación como contratos por diferencia (CFDs).
 
 ![video](https://youtu.be/epLslPQC-EA)
 
 https://hodlhodl.com/pages/faq_help
 
-## Comience su recorrido en Hodl Hodl
-
+## Comienza tu recorrido en Hodl Hodl
 
 ![imagen](assets/5.webp)
 
-HodlHodl es un intercambio de criptomonedas de igual a igual (P2P) que admite exclusivamente una moneda digital pero ofrece la flexibilidad de comerciar en cualquier moneda, incluyendo todas las monedas fiduciarias y altcoins. Un aspecto importante de esta plataforma P2P es que no impone ninguna tarifa de depósito o retiro, en cambio, cobra tarifas de negociación que van desde el 0.5% al 0.6%, dependiendo del estado de verificación del usuario. Los usuarios tienen la ventaja de una amplia gama de métodos de pago, lo que hace de HodlHodl una de las plataformas P2P más versátiles. Algunos de los métodos de pago comúnmente utilizados incluyen SWIFT, SEPA, transferencias bancarias, transacciones con tarjeta de crédito, PayPal, Venmo, MoneyGram y Western Union. Sin embargo, las opciones de pago disponibles dependen de la aceptación del vendedor.
+HodlHodl es una plataforma de intercambio de criptomonedas de igual a igual (P2P) que admite exclusivamente una moneda digital pero ofrece la flexibilidad de comerciar en cualquier moneda, incluyendo todas las monedas fiduciarias y altcoins. Un aspecto importante de esta plataforma P2P es que no impone ninguna tarifa de depósito o retiro, en cambio, cobra tarifas de negociación que van desde el 0.5% al 0.6%, dependiendo del estado de verificación del usuario. Los usuarios tienen la ventaja de una amplia gama de métodos de pago, lo que hace de HodlHodl una de las plataformas P2P más versátiles. Algunos de los métodos de pago comúnmente utilizados incluyen SWIFT, SEPA, transferencias bancarias, transacciones con tarjeta de crédito, PayPal, Venmo, MoneyGram y Western Union. Sin embargo, las opciones de pago disponibles dependen de la aceptación del vendedor.
 
-Una de las características destacadas de HodlHodl son los límites de negociación variables, que se relajan progresivamente con el aumento del volumen de negociación y las operaciones exitosas. La cantidad mínima de negociación de BTC se establece en 0.001 BTC, y la oferta de préstamo más baja no debe ser inferior a 50 USD en valor criptográfico. La plataforma no exige ningún procedimiento de Conoce a tu cliente (KYC) o Anti-Lavado de Dinero (AML) en cumplimiento de su política de mantener el anonimato del usuario. Sin embargo, los usuarios que optan por la verificación pueden disfrutar de beneficios como comisiones reducidas, límites de transacción aumentados y un estado "Verificado" visible. HodlHodl tiene un alcance global extenso, que acomoda a usuarios de casi todos los países con algunas excepciones como Corea del Norte, Irak, Siria y Sudán.
+Una de las características destacadas de HodlHodl son los límites de negociación variables, que se relajan progresivamente con el aumento del volumen de negociación y las operaciones exitosas. La cantidad mínima de negociación de BTC se establece en 0.001 BTC, y la oferta de préstamo más baja no debe ser inferior a 50 USD en valor criptográfico. La plataforma no exige ningún procedimiento de Conoce a tu cliente (KYC) o Anti-Lavado de Dinero (AML) en cumplimiento de su política de mantener el anonimato del usuario. Sin embargo, los usuarios que optan por la verificación pueden disfrutar de beneficios como comisiones reducidas, límites de transacción aumentados y un estado "Verificado" visible. HodlHodl tiene un alcance global extenso, que incluye a usuarios de casi todos los países con algunas excepciones como Corea del Norte, Irak, Siria y Sudán.
 
 ### Creación de cuenta
 
@@ -33,14 +32,14 @@ Después de registrarte exitosamente, tu siguiente paso sería completar tu perf
 
 La personalización de tu perfil debe incluir:
 
-- Información personal: esto incluye tu nombre de usuario elegido, correo electrónico y una breve biografía.
-- Autenticación de dos factores (2FA): habilitar 2FA mejora la seguridad de tu perfil, lo cual siempre es una medida prudente.
-- Acceso a la API: esto no es obligatorio y permanece inactivo de forma predeterminada.
-- Perfiles P2P anteriores: si has interactuado con otras plataformas P2P anteriormente, vincular esta información puede aumentar tu credibilidad entre otros comerciantes.
+- Información personal: Esto incluye tu nombre de usuario elegido, correo electrónico y una breve biografía.
+- Autenticación de dos factores (2FA): Habilitar 2FA mejora la seguridad de tu perfil, lo cual siempre es una medida prudente.
+- Acceso a la API: Esto no es obligatorio y permanece inactivo de forma predeterminada.
+- Perfiles P2P anteriores: Si has interactuado con otras plataformas P2P anteriormente, vincular esta información puede aumentar tu credibilidad entre otros comerciantes.
 
 ### Registra la dirección de tu BTC
 
-Para comenzar a operar con BTC, primero deberás proporcionar tu dirección de BTC. Esto se puede ingresar dentro del menú "Configuración de Trading". Después de registrar tu dirección, puedes proceder a "Comprar BTC" o "Vender BTC" para iniciar tu viaje de trading.
+Para comenzar a operar con BTC, primero deberás proporcionar tu dirección de Bitcoin. Esto se puede ingresar dentro del menú "Configuración de Trading". Después de registrar tu dirección, puedes proceder a "Comprar BTC" o "Vender BTC" para iniciar tu viaje de trading.
 
 ## Paso a paso hacia tu primera operación
 
@@ -62,7 +61,7 @@ Guía de Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 ![cover](assets/14.webp)
 
-- Una vez que estés satisfecho, puedes especificar cuánto deseas comprar, ingresar la dirección a la que te gustaría que se envíe el bitcoin y confirmar el método de pago anunciado por el vendedor. Haz clic en "Aceptar oferta y crear contrato".
+- Una vez que estés satisfecho, puedes especificar cuánto deseas comprar, ingresar la dirección a la que te gustaría que se envíe el Bitcoin y confirmar el método de pago anunciado por el vendedor. Haz clic en "Aceptar oferta y crear contrato".
 
 ![cover](assets/15.webp)
 
@@ -70,7 +69,7 @@ Guía de Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 ![cover](assets/16.webp)
 
-- Ahora debes esperar a que el vendedor deposite sus bitcoins en la billetera de fideicomiso. Después de iniciar el contrato, puedes chatear con el vendedor utilizando el cuadro de chat en el lado derecho de la página.
+- Ahora debes esperar a que el vendedor deposite su Bitcoin en la billetera de fideicomiso. Después de iniciar el contrato, puedes chatear con el vendedor utilizando el cuadro de chat en el lado derecho de la página.
 
 ![cover](assets/17.webp)
 
@@ -82,15 +81,15 @@ Guía de Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 ![cover](assets/19.webp)
 
-- Luego deberás esperar a que el vendedor confirme que ha recibido los fondos, momento en el cual el bitcoin se liberará en la dirección que especificaste al inicio del contrato. También se te dará la oportunidad de calificar a tu par.
+- Luego deberás esperar a que el vendedor confirme que ha recibido los fondos, momento en el cual el Bitcoin se liberará en la dirección que especificaste al inicio del contrato. También se te dará la oportunidad de calificar a tu par.
 
 ![cover](assets/20.webp)
 
-¡Felicidades, acabas de comprar bitcoins sin KYC!
+¡Felicidades, acabas de comprar Bitcoin sin KYC!
 
 Dos consejos finales:
 
-- Hodl Hodl es una plataforma basada en web, por lo que siempre recomendaría acceder a través del navegador Tor para proteger tu privacidad.
+- Hodl Hodl es una plataforma basada en web, por lo que siempre te recomendamos acceder a través del navegador Tor para proteger tu privacidad.
 - Si eres usuario de Telegram, asegúrate de vincular tu perfil con el bot de Hodl Hodl. De esa manera recibirás actualizaciones en vivo sobre cada operación, lo que te permitirá tomar medidas rápidas.
 
 ## Opción de préstamo
@@ -102,9 +101,10 @@ Esta guía te ayudará a dar tus primeros pasos en el uso de la plataforma Lend 
 > FUENTE/ https://medium.com/hodl-hodl/quick-guide-to-lend-or-borrow-on-lend-at-hodl-hodl-5a535d526217
 
 ![image](assets/1.webp)
+
 Lend at Hodl Hodl (lend.hodlhodl.com) es una plataforma diseñada para que los usuarios de todo el mundo puedan prestar o pedir prestado entre sí sin tener que confiar en un tercero o completar un procedimiento de verificación.
 
-LEND te permite prestar o pedir prestado diferentes stablecoins o criptomonedas utilizando BTC como garantía. (Por el momento, no es posible prestar BTC, aunque esa posibilidad se está desarrollando para el futuro).
+LEND te permite prestar o pedir prestado diferentes stablecoins o criptomonedas utilizando Bitcoin como garantía. (Por el momento, no es posible prestar Bitcoin, aunque esa posibilidad se está desarrollando para el futuro).
 
 Una vez que te hayas registrado en la plataforma solo con tu apodo y un correo electrónico, estarás listo para comenzar a prestar o pedir prestado.
 
@@ -116,11 +116,11 @@ Más abajo en la página principal encontramos el cuadro de búsqueda:
 
 La herramienta de búsqueda nos muestra las ofertas para pedir prestado de forma predeterminada.
 
-Si queremos prestar, debemos seleccionar el botón correspondiente.
+Si queremos solicitqar un préstamo, debemos seleccionar el botón correspondiente.
 
 Ingresamos la cantidad que queremos pedir prestado y la criptomoneda que estamos buscando.
 
-La relación LTV se refiere al porcentaje de criptomoneda que recibiremos en función del valor en BTC que colocamos como garantía. Cuanto mayor sea el LTV, mayor será la cantidad que pedimos prestado en relación con el valor en BTC que depositamos como garantía, pero también será mayor la posibilidad de que nuestra garantía (BTC) se liquide si su precio baja. Si elegimos un LTV bajo, la cantidad que pedimos prestado en relación con el valor en BTC que depositamos como garantía también será baja, y habrá menos posibilidades de que nuestra garantía (BTC) se liquide en caso de una disminución en su precio.
+La relación LTV se refiere al porcentaje de criptomoneda que recibiremos en función del valor en Bitcoin que colocamos como garantía. Cuanto mayor sea el LTV, mayor será la cantidad que pedimos prestado en relación con el valor en BTC que depositamos como garantía, pero también será mayor la posibilidad de que nuestra garantía (BTC) se liquide si su precio baja. Si elegimos un LTV bajo, la cantidad que pedimos prestado en relación con el valor en BTC que depositamos como garantía también será baja, y habrá menos posibilidades de que nuestra garantía (BTC) se liquide en caso de una disminución en su precio.
 
 Finalmente, elegimos el plazo del préstamo que estamos dispuestos a aceptar. Es decir, durante cuánto tiempo el prestamista nos dará la cantidad solicitada y se establecerá una fecha de devolución final. El crédito puede ser devuelto en su totalidad el día en que vence el plazo o a través de pagos parciales durante todo el período del contrato.
 
@@ -134,7 +134,7 @@ El usuario "NateN-09" ofrece prestar entre 100 y 500 USDT enviados a través de 
 
 En la sección APR (Tasa de Porcentaje Anual) puedes ver cuánto corresponde la tasa propuesta a una extensión anual, solo como referencia para comparar con otros servicios financieros.
 
-La relación porcentual (LTV) entre el valor de la garantía y la cantidad que el prestamista nos dará se establece en un 70%, por lo tanto, debemos colocar un 30% más del valor en BTC como garantía para respaldar el préstamo. En otras palabras, él/ella nos presta el 70% en stablecoins (o criptomonedas) del valor en BTC que bloqueamos como garantía. Esto se llama un préstamo sobrecolateralizado.
+La relación porcentual (LTV) entre el valor de la garantía y la cantidad que el prestamista nos dará se establece en un 70%, por lo tanto, debemos colocar un 30% más del valor en Bitcoin como garantía para respaldar el préstamo. En otras palabras, él/ella nos presta el 70% en stablecoins (o criptomonedas) del valor en BTC que bloqueamos como garantía. Esto se llama un préstamo sobrecolateralizado.
 
 Una vez que ingresamos a la oferta, veremos los detalles de la siguiente manera:
 
@@ -151,9 +151,9 @@ En el marco verde a la derecha podemos ver los detalles del contrato, incluida l
 
 Una vez que se acepta el contrato, se crea una dirección de custodia de múltiples firmas donde debemos depositar la cantidad de BTC adeudada para respaldar el contrato.
 
-Para generar esta dirección en la cadena de bloques de Bitcoin, se nos pedirá una "Contraseña de pago" (diferente de la de inicio de sesión) que actuará como nuestra clave privada para recuperar nuestros BTC al final del contrato.
+Para generar esta dirección en la cadena de bloques de Bitcoin, se nos pedirá una "Contraseña de pago" (diferente de la de inicio de sesión) que actuará como nuestra clave privada para recuperar nuestro BTC al final del contrato.
 
-Cuando hayamos enviado los BTC a la dirección de custodia y se haya confirmado, el prestatario podrá enviar la criptomoneda solicitada a la dirección que ingresamos en el paso anterior.
+Cuando hayamos enviado el Bitcoin a la dirección de custodia y se haya confirmado, el prestatario podrá enviar la criptomoneda solicitada a la dirección que ingresamos en el paso anterior.
 
 Una vez que los hayamos recibido, confirmaremos el enlace con la ID de la transacción de pago que el prestatario nos ha enviado, y el contrato estará activo.
 
@@ -161,13 +161,13 @@ Debemos tener cuidado de que el LTV no aumente demasiado durante el período del
 
 Podemos hacer pagos parciales para devolver el préstamo o podemos hacerlo todo junto al final del plazo.
 
-Una vez que se haya devuelto el préstamo completo más los intereses y se hayan confirmado los pagos, podremos retirar nuestros BTC de la dirección de custodia de múltiples firmas y el contrato estará finalizado.
+Una vez que se haya devuelto el préstamo completo más los intereses y se hayan confirmado los pagos, podremos retirar nuestro Bitcoin de la dirección de custodia de múltiples firmas y el contrato estará finalizado.
 
 En un artículo futuro describiremos los pasos a seguir si actuamos como prestamistas.
 
-Si tienes alguna duda sobre el procedimiento, no dudes en contactarnos a través de cualquiera de nuestros canales de soporte.
+Si tienes alguna duda sobre el procedimiento, no dudes en contactarlos a través de cualquiera de sus canales de soporte.
 
-Contáctanos
+Contáctalos:
 
 - Plataforma de negociación Hodl Hodl: hodlhodl.com
 - Préstamos en Hodl Hodl: lend.hodlhodl.com

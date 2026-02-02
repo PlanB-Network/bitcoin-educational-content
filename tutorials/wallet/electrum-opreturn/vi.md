@@ -218,7 +218,7 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-Mẹo: Sử dụng công cụ [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) để tự động generate tập lệnh. Ngay cả khi công cụ này đề xuất nhập số tiền bằng BTC, hãy giữ nguyên đơn vị được cấu hình trong Electrum.
+Mẹo: Sử dụng công cụ [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) để tự động generate tập lệnh. Ngay cả khi công cụ này đề xuất nhập số tiền bằng BTC, hãy giữ nguyên đơn vị được cấu hình trong Electrum.
 
 
 

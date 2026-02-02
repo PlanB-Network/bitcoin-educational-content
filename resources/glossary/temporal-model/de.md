@@ -1,6 +1,7 @@
 ---
-term: TEMPORÄRES MODELL
+term: Zeitmodell
 
+definition: Analyse der Sendezeiten von Transaktionen, um auf die Art oder den Standort einer On-Chain-Entität zu schließen.
 ---
 Bestimmte menschliche Verhaltensweisen sind auf der Kette erkennbar. Das vielleicht nützlichste bei der Chain-Analyse ist Ihr Schlafverhalten! Ja, wenn Sie schlafen, übermitteln Sie vermutlich keine Bitcoin-Transaktionen. Im Allgemeinen schlafen Sie etwa zu den gleichen Zeiten. Daher werden bei der Kettenanalyse häufig zeitliche Analysen verwendet. Dabei werden einfach die Zeiten aufgezeichnet, zu denen die Transaktionen eines bestimmten Unternehmens an das Bitcoin-Netzwerk gesendet werden. Die Analyse dieser zeitlichen Muster ermöglicht es uns, zahlreiche Informationen abzuleiten.
 

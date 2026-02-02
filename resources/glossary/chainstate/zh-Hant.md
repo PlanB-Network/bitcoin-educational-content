@@ -1,5 +1,6 @@
 ---
-term: CHAINSTATE/
+term: Chainstate/
+definition: Bitcoin Core 中儲存 UTXO set 的資料夾，與 UTXO set 同義。
 ---
 
 技術名稱，用來在 Bitcoin Core 上儲存 UTXO 套件的資料夾。實際上，它是 「UTXO 套件 」的同義詞。

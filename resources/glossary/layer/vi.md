@@ -1,5 +1,6 @@
 ---
-term: LỚP PHỦ
+term: Lớp
+definition: Giao thức được xây dựng trên Bitcoin để mở rộng khả năng của nó, chẳng hạn như Lightning Network.
 ---
 
 Giao thức hoặc mạng được xây dựng trên mạng chính Bitcoin. Nó sử dụng mạng Bitcoin làm nền tảng và do đó phụ thuộc vào giao thức của nó. Tuy nhiên, mạng Bitcoin không phụ thuộc vào lớp phủ của nó. Một ví dụ về lớp phủ như vậy là Lightning Network.

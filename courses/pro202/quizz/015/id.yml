@@ -1,0 +1,8 @@
+question: Apa yang terjadi pada operasi aritmatika ketika kurva elips didefinisikan pada bidang terbatas, bukan pada bilangan riil?
+answer: Semua operasi menggunakan aritmatika modular dengan tetap mempertahankan aturan aljabar yang sama
+wrong_answers:
+  - Rumus penjumlahan poin harus ditulis ulang sepenuhnya untuk matematika diskrit
+  - Perhitungan kemiringan menjadi tidak terdefinisi karena sifat titik yang terpisah-pisah
+  - Semua aturan aljabar berubah secara mendasar untuk mengakomodasi struktur bidang terbatas
+explanation: |
+  Ketika kurva elips dipindahkan dari bilangan real ke bidang terbatas, struktur dan aturan aljabar yang mendasarinya tetap sama - hanya aritmatika yang berubah menjadi aritmatika modular. Semua rumus penjumlahan titik, perhitungan kemiringan, dan hubungan geometris bekerja dengan cara yang sama persis, tetapi setiap perhitungan dilakukan secara modulo p. Pelestarian aturan aljabar ini dengan hanya mengubah fondasi aritmatika inilah yang membuat kurva elips bidang terbatas sangat kuat untuk kriptografi, mempertahankan semua properti matematika yang diperlukan sambil menciptakan perilaku diskrit dan tidak dapat diprediksi yang penting untuk keamanan.

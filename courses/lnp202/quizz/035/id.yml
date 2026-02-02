@@ -1,0 +1,9 @@
+question: Apa tujuan utama router pada Lightning?
+answer: Dapatkan uang dengan biaya perutean
+wrong_answers:
+  - Hasilkan uang dengan menunjukkan jalan
+  - Menghasilkan uang dengan menjual likuiditas yang masuk
+  - Menghasilkan uang dengan menerbitkan status saluran yang sudah usang
+explanation: |
+  Router berusaha merutekan pembayaran dari orang lain dengan mengumpulkan biaya perutean.
+reviewed: false

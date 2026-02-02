@@ -1,11 +1,11 @@
 question: Bitcoin Mining'de yazılımın rolü nedir ve verimliliğe nasıl katkıda bulunur?
-answer: BrainsOS Plus gibi Bitcoin Mining'teki yazılım, Mining makinesinin orijinal işletim sisteminin yerini alarak aynı işlemlerin daha verimli bir şekilde gerçekleştirilmesini sağlar. Bir makinenin verimliliğini %25 oranında artırabilir, yani eşdeğer miktarda elektrik için makine ilave %25 oranında Hashrate üretebilir ve böylece Miner tarafından alınan ödülleri artırabilir.
+answer: BraiinsOS Plus gibi Bitcoin Mining'teki yazılım, Mining makinesinin orijinal işletim sisteminin yerini alarak aynı işlemlerin daha verimli bir şekilde gerçekleştirilmesini sağlar. Bir makinenin verimliliğini %25 oranında artırabilir, yani eşdeğer miktarda elektrik için makine ilave %25 oranında Hashrate üretebilir ve böylece Miner tarafından alınan ödülleri artırabilir.
 wrong_answers:
   - Bitcoin Mining'deki yazılım, çıkarılan Bitcoin miktarını izlemek için kullanılır ve verimliliğe katkıda bulunmaz.
   - Bitcoin Mining'daki yazılım sadece Mining makinesi için daha iyi internet bağlantısı sağlar, en yeni protokollerden biri kullanılırsa bu makinenin verimliliğini %14 oranında artırabilir.
   - Bitcoin Mining'deki yazılım Mining makinesini soğutmak için kullanılır ve verimliliğe katkıda bulunmaz.
 explanation: |
-  Bu bölümde BrainsOS Plus gibi yazılımların şunları yapabileceği açıklanmaktadır
+  Bu bölümde BraiinsOS Plus gibi yazılımların şunları yapabileceği açıklanmaktadır
   gW-13 makinesinin orijinal işletim sistemini değiştirin,
   aynı işlemlerin daha fazla yapılmasına izin verir
   verimli bir şekilde. Bu yazılım optimizasyonu önemli bir

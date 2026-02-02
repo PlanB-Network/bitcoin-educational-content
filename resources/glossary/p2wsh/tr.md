@@ -1,5 +1,6 @@
 ---
 term: P2WSH
+definition: Bitcoinleri bir betiğin hash'ine kilitleyen yerel SegWit betiği, bc1q adresleri.
 ---
 
 P2WSH *Pay to Witness Script Hash* anlamına gelmektedir. Bir UTXO üzerinde harcama koşulları oluşturmak için kullanılan standart bir senaryo modelidir. P2WSH, Ağustos 2017'de SegWit'ın uygulanmasıyla birlikte tanıtılmıştır.

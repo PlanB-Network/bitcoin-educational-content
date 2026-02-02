@@ -289,6 +289,14 @@ Kugira ngo ukomeze gukurikirana amafaranga yose ukoresha, urashobora kuraba amat
 ![BULL](assets/fr/36.webp)
 
 
+## Tangira kugura gihoraho mu buryo bwikora (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Kora itegeko ry'ikigega cy'imbibi
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Ubu urazi kugura no kugurisha Bitcoin mu buryo bworoshe ukoresheje Bull Bitcoin. Niwaba wabonye iyi nyigisho ari ngirakamaro, noshima cane woshira urukumu rwa Green aha hepfo. Ntutinye gusangiza abandi iyi nkuru ku mbuga zanyu zo guhanahana amakuru. Murakoze cane!
 
 

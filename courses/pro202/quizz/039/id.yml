@@ -1,0 +1,8 @@
+question: Apa risiko keamanan utama yang membuat P2SH secara fundamental berbeda dari transaksi Bitcoin standar dalam hal pemulihan dana?
+answer: Kehilangan skrip penukaran akan mengunci dana secara permanen meskipun Anda memiliki kunci pribadi
+wrong_answers:
+  - Hash 20-byte dapat dipaksakan secara kasar jika skrip penukaran terlalu sederhana
+  - Alamat P2SH akan kedaluwarsa setelah ketinggian blok tertentu sehingga dana tidak dapat dipulihkan
+  - Proses validasi dua langkah dapat gagal secara acak yang menyebabkan hilangnya dana secara permanen
+explanation: |
+  P2SH memperkenalkan persyaratan keamanan yang unik: kunci pribadi DAN skrip penukaran diperlukan untuk membelanjakan dana. Tidak seperti transaksi standar yang hanya membutuhkan private key, P2SH membutuhkan skrip penukaran yang sebenarnya untuk disediakan selama pengeluaran. Jika skrip penukaran hilang, dana menjadi tidak dapat diakses secara permanen terlepas dari memiliki private key yang benar, karena kondisi pengeluaran tidak dapat direkonstruksi atau divalidasi.

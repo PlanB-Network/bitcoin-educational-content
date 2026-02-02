@@ -1,26 +1,19 @@
 ---
-name: Studier av hyperinflation
+name: Fallstudier om hyperinflation
 goal: Förstå uppkomsten av hyperinflation i en Fiat-värld och dess konsekvenser
-objectives: 
-
-  - Studera hyperinflationscykler
-  - Förstå de verkliga effekterna av hyperinflation på våra dagliga liv
-  - Studera likheterna mellan hyperinflationer genom tiderna
-  - Har en konkret idé om hur man skyddar sig mot hyperinflation
-
+objectives:
+- Studera hyperinflationscykler
+- Förstå de verkliga effekterna av hyperinflation på våra dagliga liv
+- Studera likheterna mellan hyperinflationer genom tiderna
+- Har en konkret idé om hur man skyddar sig mot hyperinflation
 ---
+# En resa genom ekonomisk kollaps
 
-# En resa in i ekonomin
+Hur ser det ut när pengar förlorar sin betydelse?
+Denna kurs guidar dig genom den fascinerande men nyktra världen av hyperinflation. Du kommer att upptäcka historiska episoder och moderna fall där valutor kollapsade och ekonomier transformerades över en natt. Du kommer att avslöja mönstren, orsakerna och den verkliga påverkan på vanliga människor, och få insikt i ett av ekonomins mest dramatiska fenomen.
 
-
-Detta program syftar till att ge en djup förståelse för uppkomsten av hyperinflationer i en värld som domineras av Fiat-valutor och att undersöka deras betydande konsekvenser. Deltagarna kommer att fördjupa sig i hyperinflationscykler i detalj, undersöka orsaker, utlösande faktorer och ge historiska och samtida exempel. De kommer också att undersöka hyperinflationens konkreta inverkan på ekonomin och det dagliga livet och studera återverkningarna på valutavärdet, köpkraften samt individuella och kollektiva besparingar.
-
-
-Här kommer vi att belysa trender och gemensamma mönster i hyperinflationsepisoder genom historien, samtidigt som vi tillhandahåller effektiva och konkreta strategier för att skydda sig under perioder av hyperinflation. Deltagarna får möjlighet att utforska olika investeringsalternativ och finansiella försvarsmekanismer och får praktiska verktyg och viktig kunskap för att kunna navigera lugnt i ett instabilt ekonomiskt klimat.
-
-
+Längs vägen kommer du också att upptäcka hur individer och samhällen har navigerat genom dessa turbulenta perioder. Lär dig de strategier som har hjälpt till att skydda förmögenhet under valutakriser och bygg en djupare förståelse för finansiell motståndskraft. Om du är nyfiken på de ekonomiska krafter som formar vår värld, erbjuder denna resa både kunskap och praktiskt perspektiv.
 +++
-
 # Inledning
 
 
@@ -430,7 +423,7 @@ Ett illustrativt exempel på MMT är det amerikanska militärindustriella komple
 Japan nämns ofta av MMT-förespråkare som ett annat exempel på att det inte förekommer någon inflation trots betydande penningmängd. Men situationen i Japan visar också på begränsningarna med traditionella inflationsmått, som konsumentprisindex (KPI). I Japan sparas en betydande del av de tryckta pengarna eller investeras i fastigheter eller på aktiemarknaden, snarare än att användas för löpande konsumtion. Eftersom KPI inte fullt ut fångar upp denna dynamik kan det leda till att den faktiska inflationen underskattas.
 
 
-Analysen av Japan (https://ideas.repec.org/p/ces/ceswps/_9821.html) visar också att de ekonomiska aktörernas beteende, t.ex. att spara eller investera i tillgångar som inte ingår i KPI, kan dölja inflationseffekten av penningmängden. Dessutom spelar olika sektorers förmåga att absorbera tillförd likviditet en avgörande roll för om inflation uppstår.
+[Analysen av Japan](https://ideas.repec.org/p/ces/ceswps/_9821.html) belyser också att ekonomiska aktörers beteende, såsom sparande eller investeringar i tillgångar som inte ingår i KPI, kan dölja den inflatoriska effekten av penningtryckning. Dessutom spelar de olika sektorernas förmåga att absorbera den injicerade likviditeten en avgörande roll för om inflation uppstår eller inte.
 
 
 #### Bank- och centralbanksbalansräkningar
@@ -1126,7 +1119,7 @@ Av Weimarrepublikens historia framgår att tillgångar och kapital som innehades
 
 > Weimar: "Allt tyskt kapital som fanns i utlandet hade konfiskerats."
 
-> [20minutes.fr] (https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Cirka 300 miljarder dollar i ryska reserver utomlands har frysts som en del av västvärldens sanktioner, av de 640 miljarder dollar i reserver som innehas av den ryska centralbanken."
+> [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Cirka 300 miljarder dollar i ryska reserver utomlands har frysts som en del av västvärldens sanktioner, av de 640 miljarder dollar i reserver som innehas av den ryska centralbanken."
 
 #### 3. Begreppet marknadspris
 

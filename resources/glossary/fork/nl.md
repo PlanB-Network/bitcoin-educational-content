@@ -1,5 +1,6 @@
 ---
 term: Fork
+definition: Splitsing van het nodenetwerk of wijziging van de regels van het Bitcoin-protocol.
 ---
 
 De term "Fork" heeft in de context van Bitcoin verschillende betekenissen. Het kan verwijzen naar ofwel een opsplitsing van het netwerk van knooppunten in verschillende afzonderlijke groepen, wat leidt tot de creatie van meerdere verschillende blockchains, of een wijziging van de protocolregels, of beide tegelijk. Ter vereenvoudiging kunnen we 4 hoofdcategorieën van forks onderscheiden:

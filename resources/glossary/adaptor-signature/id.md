@@ -1,6 +1,7 @@
 ---
-term: TANDA TANGAN ADAPTOR
+term: Adaptor signature
 
+definition: Teknik kriptografi yang menghubungkan tanda tangan dengan rahasia, sehingga mempublikasikan tanda tangan mengungkapkan rahasia. Berguna untuk pertukaran atomik tanpa perantara tepercaya.
 ---
 Metode kriptografi yang memungkinkan penggabungan tanda tangan asli dengan tanda tangan tambahan (disebut "tanda tangan adaptor") untuk mengungkapkan bagian data rahasia. Metode ini bekerja sedemikian rupa sehingga dengan mengetahui dua elemen dari tiga elemen ini: tanda tangan yang sah, tanda tangan adaptor, dan sebuah rahasia (_secret_), kita dapat mengetahui elemen ketiga yang hilang. Salah satu sifat yang menarik dari metode ini adalah jika kita mengetahui tanda tangan adaptor dan titik tertentu pada kurva elips yang terhubung dengan rahasia yang digunakan untuk menghitung tanda tangan adaptor ini, kita dapat memperoleh tanda tangan adaptor kita sendiri yang akan cocok dengan rahasia yang sama, tanpa harus memiliki akses langsung ke rahasia itu sendiri. Dalam sebuah pertukaran antara dua pihak yang tidak saling mempercayai, teknik ini memungkinkan kedua informasi sensitif diungkapkan secara bersamaan kepada kedua belah pihak. Proses ini menghilangkan kebutuhan akan kepercayaan dalam transaksi instan seperti *Coin Swap* atau *Atomic Swap*. Mari kita ambil sebuah contoh untuk memahaminya dengan lebih baik. Alice dan Bob ingin saling mengirim 1 BTC, tetapi mereka percaya satu sama lain. Oleh karena itu, mereka akan menggunakan tanda tangan adaptor untuk menghilangkan kebutuhan akan kepercayaan pada pihak lain dalam pertukaran ini (sehingga menjadikannya pertukaran "atomik"). Mereka melanjutkan sebagai berikut:
 

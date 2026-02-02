@@ -18,7 +18,7 @@ Avec Nakamochi, n'importe qui peut mettre en place et exploiter un nœud depuis 
 
 ## Qu'est-ce que le Nakamochi et comment fonctionne-t-il ?
 
-Nakamochi est un nœud complet exclusivement bitcoin qui prend en charge les réseaux Bitcoin et Lightning. Il comprend un portefeuille Bitcoin et Lightning intégré, permettant aux utilisateurs d'exécuter un nœud Bitcoin sécurisé et auto-souverain tout en bénéficiant de la vitesse et des faibles coûts de transaction du réseau Lightning.
+Nakamochi est un nœud complet exclusivement bitcoin qui prend en charge les réseaux Bitcoin et Lightning. Il intègre un portefeuille Bitcoin et Lightning, permettant aux utilisateurs d'exécuter un nœud Bitcoin sécurisé et auto-souverain tout en bénéficiant de la rapidité et des faibles coûts de transaction offerts par le réseau Lightning.
 
 Votre nœud Nakamochi est géré via une application mobile, [BitBanana (Android)](https://bitbanana.app) et [Zeus (iOS)](https://bitbanana.app), qui vous permet de le contrôler commodément depuis n'importe où. Ces applications agissent comme une télécommande pour votre nœud, vous permettant de payer directement avec Bitcoin ou Lightning, de gérer les transactions, d'ouvrir ou de fermer des canaux, de vérifier les soldes et de surveiller les performances de votre nœud, le tout en toute simplicité.
 
@@ -72,7 +72,7 @@ La confidentialité est un autre avantage, car les transactions sur Lightning so
 
 Le réseau Lightning fonctionne grâce à des canaux de paiement, qui sont des connexions entre deux parties permettant des transactions multiples sans interagir directement avec la blockchain. Lorsqu'un canal est ouvert, le solde entre les deux parties est mis à jour sur cette solution Lightning de deuxième couche pour chaque transaction, ce qui garantit des paiements rapides et peu coûteux. Seules l'ouverture et la fermeture du canal sont enregistrées sur la chaîne, ce qui réduit l'encombrement de la blockchain Bitcoin. Cette conception garantit l'évolutivité et la confidentialité, car les transactions individuelles ne sont pas enregistrées dans le grand livre public.
 
-**Exemple:** Alice et Bob ouvrent une chaîne en y engageant des bitcoins. Alice envoie des bitcoins à Bob, et leurs soldes hors chaîne sont mis à jour instantanément sans enregistrement sur la chaîne. Si Alice paie ensuite Charlie, et qu'Alice n'a pas de canal direct avec Charlie, le paiement peut être acheminé par le canal de Bob pour atteindre Charlie. L'acheminement par des nœuds intermédiaires garantit les paiements même en l'absence de connexions directes, ce qui rend le réseau très efficace.
+**Exemple:** Alice et Bob ouvrent une chaîne en y engageant des bitcoins. Lorsqu’Alice envoie des bitcoins à Bob, leurs soldes hors chaîne sont mis à jour instantanément, sans aucun enregistrement sur la chaîne. Si Alice doit ensuite payer Charlie, mais qu'elle n'a pas de canal direct avec Charlie, le paiement peut passer par le canal de Bob pour atteindre Charlie. Cet acheminement via des nœuds intermédiaires garantit les paiements même en l'absence de connexions directes, ce qui rend le réseau très efficace.
 
 ## Ouvrir des canaux et effectuer des transactions dans le Lightning Network
 

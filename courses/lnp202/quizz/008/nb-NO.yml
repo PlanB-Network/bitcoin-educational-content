@@ -1,0 +1,9 @@
+question: Hvem eier bitcoinsene med en depotbasert Lightning wallet?
+answer: Selskapet
+wrong_answers:
+  - Brukeren
+  - Lightning-nettverket
+  - Bitcoin Kjerne
+explanation: |
+  I en depotmodell har selskapet nøklene og kontroll over midlene, mens brukeren bare har en regnskapsmessig saldo.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Ketika menggunakan RefCell di lingkungan multi-threaded, apa yang menjadi masalah keamanan utama?
+answer: RefCell tidak aman untuk thread dan akan menyebabkan perilaku yang tidak terdefinisi jika diakses dari beberapa thread
+wrong_answers:
+  - RefCell akan secara otomatis menyinkronkan akses antar thread tetapi dengan overhead kinerja yang signifikan
+  - RefCell akan panik pada saat runtime ketika beberapa thread mencoba mengaksesnya secara bersamaan
+  - RefCell akan mengalami kebuntuan ketika beberapa thread mencoba meminjam data yang sama secara bersamaan
+explanation: |
+  RefCell dirancang secara eksklusif untuk skenario thread tunggal dan tidak memiliki mekanisme sinkronisasi thread. Tidak seperti alternatif thread-safe seperti Mutex, RefCell tidak melakukan operasi atomik atau penguncian, sehingga akses bersamaan dari beberapa thread menghasilkan perilaku yang tidak terdefinisi dan potensi balapan data. Pemeriksaan peminjaman saat runtime yang dilakukan RefCell tidak thread-safe dan dapat rusak oleh akses bersamaan, yang menyebabkan pelanggaran keamanan memori yang biasanya dicegah oleh Rust.

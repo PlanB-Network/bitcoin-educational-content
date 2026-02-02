@@ -69,7 +69,7 @@ Den siste stabile versjonen av pfSense, i skrivende stund, er 2.8 (utgitt i juni
 
 
 
-- [Last ned pfSense] (https://www.pfsense.org/download/)
+- [Last ned pfSense](https://www.pfsense.org/download/)
 
 
 

@@ -1,0 +1,8 @@
+question: Bitcoin'dan Liquid'e peg-in işlemi sırasında 102 onay bekleme süresinin temel amacı nedir?
+answer: L-BTC basmadan önce Bitcoin blok zincirinin yeniden düzenlenmesine karşı koruma sağlamak için
+wrong_answers:
+  - Federasyonun kullanıcı kimliğini ve uyumluluğunu doğrulaması için yeterli zaman tanımak
+  - Liquid ağının gelen işlemi işlemek için yeterli kapasiteye sahip olduğundan emin olmak için
+  - Federasyon üyelerinden 11-of-15 çoklu imza yetkisi için zaman sağlamak
+explanation: |
+  102 onay bekleme süresi (yaklaşık 17 saat) özellikle Bitcoin blok zincirinin yeniden düzenlenmesine karşı koruma sağlamak üzere tasarlanmıştır. Bitcoin olasılıksal kesinlik üzerine çalıştığından, blokların yeniden düzenlenerek işlemleri geçersiz kılma ihtimali her zaman küçük de olsa vardır. Sistem, 102 onay bekleyerek federasyon adresine fon gönderen Bitcoin işleminin derinlere gömülmesini ve tersine çevrilme olasılığının son derece düşük olmasını sağlar. Bu, L-BTC'nin Liquid'te basıldığı ancak altta yatan Bitcoin işleminin yeniden yapılanma nedeniyle tersine çevrildiği senaryoyu önler. Diğer seçenekler yanlıştır çünkü: kimlik doğrulama otomatik peg-in sürecinin bir parçası değildir, ağ kapasitesi bu tür gecikmeleri gerektiren sınırlayıcı bir faktör değildir ve 11-of-15 multisig yetkilendirmesi peg-in'ler için değil peg-out'lar için kullanılır.

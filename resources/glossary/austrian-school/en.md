@@ -1,5 +1,6 @@
 ---
-term: AUSTRIAN SCHOOL
+term: Austrian school
+definition: An economic school of thought defending free market, private property and criticizing state interventions. A philosophy shared by many Bitcoin enthusiasts.
 ---
 
 An economic school of thought that theorizes the market as a collection of voluntary individual interactions, emphasizing the spontaneous nature of economic order, and criticizing state interventions. The Austrian School advocates for the role of private property, contractual freedom, and free trade, while criticizing the disruptive effects of monetary creation on the economy. Its contributors, such as Carl Menger, Ludwig von Mises, and Friedrich Hayek, have developed concepts such as price formation, the function of money, capital dynamics, and the subjective theory of value. The Austrian School criticizes socialism for its inability to perform effective economic calculation and promotes a liberal, free-market approach. It sees government intervention as a source of economic imbalances. Many Bitcoiners resonate with Austrian economics, viewing Bitcoin as a tool aligned with its principles thanks to its decentralized nature, fixed monetary issuance, and independence from state control.

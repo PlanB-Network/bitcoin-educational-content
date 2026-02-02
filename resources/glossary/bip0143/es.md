@@ -1,6 +1,7 @@
 ---
 term: BIP0143
 
+definition: Nuevo algoritmo de hash para firmas SegWit, que resuelve el crecimiento cuadrático e incluye el valor de las entradas.
 ---
 Introduce una nueva forma de hashing de la transacción para la verificación de la firma en scripts post-SegWit. El objetivo es minimizar las operaciones redundantes durante la verificación e incluir el valor de los UTXO de la entrada en la firma. Esto resuelve dos problemas importantes con el algoritmo hash de transacción original:
 

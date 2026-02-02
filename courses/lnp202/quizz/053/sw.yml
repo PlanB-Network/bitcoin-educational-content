@@ -1,0 +1,9 @@
+question: Tailscale inategemea itifaki gani?
+answer: WireGuard
+wrong_answers:
+  - FunguaVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale ni suluhisho la VPN linalotegemea WireGuard.
+reviewed: false

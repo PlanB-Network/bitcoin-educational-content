@@ -1,0 +1,8 @@
+question: Koja je primarna razlika između načina na koji Rust obično sprovodi pravila pozajmljivanja i načina na koji RefCell to čini?
+answer: Rust obično primenjuje pravila pozajmljivanja u vreme kompajliranja, dok RefCell primenjuje ta pravila u vreme izvršavanja.
+wrong_answers:
+  - Rust obično dozvoljava više promenljivih referenci, dok RefCell ograničava na jednu.
+  - Rust obično koristi brojanje referenci za sigurnost, dok RefCell koristi statičku analizu
+  - Rust obično zahteva eksplicitno upravljanje memorijom, dok RefCell to automatski rešava.
+explanation: |
+  Ključna inovacija RefCell-a je premeštanje sprovođenja pravila pozajmljivanja sa vremena kompajliranja na vreme izvršavanja. Normalne Rust reference proverava kompajler tokom kompajliranja kako bi se osigurala bezbednost, ali RefCell obavlja iste provere dok program radi. Ovo omogućava RefCell-u da pruži unutrašnju promenljivost u situacijama kada je statička analiza kompajlera previše konzervativna, ali dolazi sa kompromisom potencijalnih panika u vreme izvršavanja ako se prekrše pravila pozajmljivanja. Druge opcije netačno opisuju osnovne mehanizme bezbednosti Rust ili stvarno ponašanje RefCell-a.

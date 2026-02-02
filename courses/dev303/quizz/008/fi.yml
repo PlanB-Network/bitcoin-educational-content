@@ -1,0 +1,8 @@
+question: Mitä turvallisuusnäkökohtia sinun pitäisi ottaa huomioon asentaessasi Rust:ta Rustupin avulla?
+answer: Asennus edellyttää skriptin lataamista ja suorittamista, vaikka se käyttää HTTPS:ää ja tulee virallisista luotettavista lähteistä
+wrong_answers:
+  - Asennus edellyttää järjestelmänvalvojan oikeuksia, mikä aiheuttaa mahdollisia haavoittuvuuksia järjestelmässä
+  - Vakaa työkaluketju sisältää kokeellisia ominaisuuksia, joissa voi olla paljastamattomia tietoturva-aukkoja
+  - Asennusprosessi ottaa automaattisesti käyttöön kaikki kääntämiskohteet, mukaan lukien mahdollisesti vaaralliset arkkitehtuurit
+explanation: |
+  Kun asennat Rustupin, lataat ja suoritat skriptin Rust:n viralliselta verkkosivustolta. Tämä käyttää HTTPS:ää kuljetuskerroksen turvallisuuden takaamiseksi, ja paketit tulevat luotettavista lähteistä, kuten crates.io:sta. Vaikka tämä on turvallista useimmissa käyttötapauksissa, jotkin organisaatiot, joilla on tiukat tietoturvakäytännöt, saattavat pitää parempana jakelunsa paketinhallintaa, joka lisää jakelun oman allekirjoitusinfrastruktuurin. Muut vaihtoehdot ovat virheellisiä: Rustup asennetaan käyttäjän kotihakemistoon ilman, että se vaatii järjestelmänvalvojan oikeuksia, vakaa työkaluketju sulkee nimenomaan pois kokeelliset ominaisuudet, ja kääntämiskohteet lisätään erikseen, eivätkä ne aiheuta luontaisia tietoturvariskejä.

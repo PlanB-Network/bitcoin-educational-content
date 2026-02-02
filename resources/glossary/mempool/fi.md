@@ -1,6 +1,7 @@
 ---
-term: MEMPOOL
+term: Mempool
 
+definition: Tila, jonne kukin solmu tallentaa lohkoon sisällyttämistä odottavat siirrot.
 ---
 Termien "memory" ja "pool" lyhenne. Tämä viittaa virtuaaliseen tilaan, jossa lohkoon sisällyttämistä odottavat Bitcoin-tapahtumat on ryhmitelty yhteen. Kun transaktio luodaan ja lähetetään Bitcoin-verkossa, verkon solmut tarkistavat sen ensin. Jos se katsotaan kelvolliseksi, se sijoitetaan kunkin solmun Mempool-varastoon, jossa se pysyy, kunnes louhija valitsee sen sisällytettäväksi lohkoon.
 

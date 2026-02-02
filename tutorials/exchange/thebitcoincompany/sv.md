@@ -70,7 +70,7 @@ Nedan visas ett urval av skyltar för USA som exempel:
 
 
 
-För att göra det, besök [deras webbplats] (https://thebitcoincompany.com/).
+För att göra det, besök [deras webbplats](https://thebitcoincompany.com/).
 
 
 

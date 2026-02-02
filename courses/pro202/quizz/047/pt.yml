@@ -1,0 +1,8 @@
+question: Qual é a fórmula matemática utilizada para calcular o subsídio de bloco a uma dada altura h do bloco no protocolo Bitcoin?
+answer: subsídio = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - subsídio = 50_000_000_000 / (2^(h / 210_000))
+  - subsídio = 5_000_000_000 * (0,5^(h % 210_000))
+  - subsídio = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  A fórmula correta utiliza operações de deslocamento de bits, em que 5_000_000_000 representa 50 BTC em satoshis, e o operador de deslocamento à direita >> divide efetivamente por potências de 2. A divisão por pisos h // 210_000 determina quantos períodos de redução a metade ocorreram. A primeira resposta errada utiliza a divisão normal em vez do deslocamento de bits e começa com um valor de base incorreto. A segunda utiliza o módulo em vez da divisão por pisos, o que criaria um padrão cíclico em vez de uma redução progressiva para metade. A terceira utiliza a operação de módulo, que reiniciaria o contador de metades a cada 210.000 blocos em vez de acumular metades ao longo do tempo.

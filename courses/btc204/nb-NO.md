@@ -66,7 +66,7 @@ I den tredje delen av kurset vårt går vi til det helt konkrete: praksis! Måle
 
 ![BTC204](assets/nb-NO/003.webp)
 
-**Del 4: Forståelse av coinjoin-transaksjoner**
+**Del 4: Forståelse av [coinjoin](https://planb.academy/resources/glossary/coinjoin)-transaksjoner**
 
 Hvordan kan vi snakke om personvern på Bitcoin uten å nevne coinjoins? I del 4 finner du ut alt du trenger å vite om denne blandingsmetoden. Du vil lære hva coinjoins er, deres historie og mål, samt de forskjellige typene coinjoins som finnes. Til slutt, for den mer erfarne brukeren, tar vi en titt på hva anonsets og entropi er, og hvordan du beregner dem.
 
@@ -74,7 +74,7 @@ Hvordan kan vi snakke om personvern på Bitcoin uten å nevne coinjoins? I del 4
 
 **Del 5: Forstå utfordringene med andre avanserte konfidensialitetsteknikker**
 
-I den femte delen tar vi en titt på alle de andre teknikkene som er tilgjengelige for å beskytte personvernet ditt på Bitcoin, bortsett fra coinjoin. Gjennom årene har utviklere vist bemerkelsesverdig kreativitet i utformingen av verktøy dedikert til personvern. Vi ser på alle disse metodene, som payjoin, samarbeidstransaksjoner, Coin Swap og Atomic Swap, og beskriver hvordan de fungerer, deres mål og eventuelle svakheter.
+I den femte delen tar vi en titt på alle de andre teknikkene som er tilgjengelige for å beskytte personvernet ditt på Bitcoin, bortsett fra coinjoin. Gjennom årene har utviklere vist bemerkelsesverdig kreativitet i utformingen av verktøy dedikert til personvern. Vi ser på alle disse metodene, som [payjoin](https://planb.academy/resources/glossary/payjoin), samarbeidstransaksjoner, Coin Swap og Atomic Swap, og beskriver hvordan de fungerer, deres mål og eventuelle svakheter.
 
 Vi ser også på personvern på nettverksnivå med noder og transaksjonsformidling. Vi diskuterer også de ulike protokollene som har blitt foreslått opp gjennom årene for å forbedre brukernes personvern på Bitcoin, inkludert statiske adresseprotokoller.
 
@@ -85,7 +85,7 @@ Klar til å utforske de intrikate aspektene ved personvern på Bitcoin? La oss g
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Bitcoins UTXO-modell
+## Bitcoins [UTXO](https://planb.academy/resources/glossary/utxo)-modell
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -316,7 +316,7 @@ Enkelt sagt er det tre hovedfaser i en kjedeanalyse:
 
 ![BTC204](assets/nb-NO/026.webp)
 
-Blokkjedeanalyse kan utføres av hvem som helst. Alt du trenger er tilgang til blokkjedens offentlige informasjon via en komplett node for å observere transaksjonsbevegelser og lage hypoteser. Det finnes også gratis verktøy som gjør denne analysen enklere, for eksempel [OXT.me] (https://oxt.me/), som vi skal se nærmere på i de to siste kapitlene i denne delen. Den største risikoen for konfidensialitet kommer imidlertid fra selskaper som spesialiserer seg på strenganalyse. Disse selskapene har tatt blokkjedeanalyse til industriell skala og selger tjenestene sine til finansinstitusjoner og myndigheter. Blant disse selskapene er Chainalysis helt klart det mest kjente.
+Blokkjedeanalyse kan utføres av hvem som helst. Alt du trenger er tilgang til blokkjedens offentlige informasjon via en komplett node for å observere transaksjonsbevegelser og lage hypoteser. Det finnes også gratis verktøy som gjør denne analysen enklere, for eksempel [OXT.me](https://oxt.me/), som vi skal se nærmere på i de to siste kapitlene i denne delen. Den største risikoen for konfidensialitet kommer imidlertid fra selskaper som spesialiserer seg på strenganalyse. Disse selskapene har tatt blokkjedeanalyse til industriell skala og selger tjenestene sine til finansinstitusjoner og myndigheter. Blant disse selskapene er Chainalysis helt klart det mest kjente.
 
 ### Kjedeanalysens mål
 
@@ -346,7 +346,7 @@ Derfor må vi også kunne håndtere blokkjedeanalyse i vår bruk av Bitcoin. På
 
 Hvilken bedre måte å motvirke blockchain-analyse på enn å lære om metodene som brukes i den? Hvis du vil vite hvordan du kan forbedre personvernet ditt på Bitcoin, må du forstå disse metodene. Dette vil gi deg en bedre forståelse av teknikker som coinjoin eller payjoin (teknikker vi vil se på i de siste delene av kurset), og redusere feilene du kan gjøre.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
@@ -569,7 +569,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 På sistnevnte kan vi se at inngang nr. 0 og utgang nr. 1 bruker P2WPKH-skript (SegWit V0), mens utgang nr. 0 bruker et annet P2PKH-skript (Legacy).
 
-På begynnelsen av 2010-tallet var denne heuristikken basert på skriptversjonering relativt lite nyttig på grunn av de begrensede skripttypene som var tilgjengelige. Etter hvert som Bitcoin har blitt oppdatert, har det imidlertid blitt introdusert et økende mangfold av skripttyper. Denne heuristikken blir derfor stadig mer relevant, ettersom brukerne deler seg inn i mindre grupper med et større utvalg av skripttyper, noe som øker sjansene for å bruke denne interne heuristikken for gjenbruk av versjonering. Av denne grunn er det, kun ut fra et konfidensialitetsperspektiv, tilrådelig å velge den vanligste typen skript. I skrivende stund er for eksempel Taproot-skript (`bc1p`) mindre brukt enn SegWit V0-skript (`bc1q`). Selv om førstnevnte gir økonomiske og konfidensialitetsmessige fordeler i visse spesifikke sammenhenger, kan det for mer tradisjonell bruk med én signatur være fornuftig å holde seg til en eldre standard av konfidensialitetshensyn, inntil den nye standarden er tatt i bruk i større utstrekning.
+På begynnelsen av 2010-tallet var denne heuristikken basert på skriptversjonering relativt lite nyttig på grunn av de begrensede skripttypene som var tilgjengelige. Etter hvert som Bitcoin har blitt oppdatert, har det imidlertid blitt introdusert et økende mangfold av skripttyper. Denne heuristikken blir derfor stadig mer relevant, ettersom brukerne deler seg inn i mindre grupper med et større utvalg av skripttyper, noe som øker sjansene for å bruke denne interne heuristikken for gjenbruk av versjonering. Av denne grunn er det, kun ut fra et konfidensialitetsperspektiv, tilrådelig å velge den vanligste typen skript. I skrivende stund er for eksempel [Taproot](https://planb.academy/resources/glossary/taproot)-skript (`bc1p`) mindre brukt enn SegWit V0-skript (`bc1q`). Selv om førstnevnte gir økonomiske og konfidensialitetsmessige fordeler i visse spesifikke sammenhenger, kan det for mer tradisjonell bruk med én signatur være fornuftig å holde seg til en eldre standard av konfidensialitetshensyn, inntil den nye standarden er tatt i bruk i større utstrekning.
 
 ### Betalinger med runde tall
 
@@ -659,7 +659,7 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 
 ![BTC204](assets/nb-NO/056.webp)
 
-Kilde: [Mempool.space] (https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
+Kilde: [Mempool.space](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
 ### Skriptlikhet og lommebokavtrykk
 
@@ -673,7 +673,7 @@ For eksempel vil vi kunne identifisere at den sporede brukeren systematisk sende
 
 ![BTC204](assets/nb-NO/057.webp)
 
-Som [@LaurentMT] (https://twitter.com/LaurentMT) påpeker i [Space Kek #19] (https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (en franskspråklig podkast), øker nytten av porteføljefingeravtrykk i kjedeanalyse betydelig over tid. Det økende antallet skripttyper og porteføljeprogramvarenes stadig mer progressive bruk av disse nye funksjonene forsterker forskjellene. I noen tilfeller er det til og med mulig å identifisere den eksakte programvaren som brukes av enheten som spores. Det er derfor viktig å forstå at studiet av porteføljefotavtrykk er spesielt relevant for nyere transaksjoner, snarere enn for dem som ble initiert tidlig på 2010-tallet.
+Som [@LaurentMT](https://twitter.com/LaurentMT) påpeker i [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (en franskspråklig podkast), øker nytten av porteføljefingeravtrykk i kjedeanalyse betydelig over tid. Det økende antallet skripttyper og porteføljeprogramvarenes stadig mer progressive bruk av disse nye funksjonene forsterker forskjellene. I noen tilfeller er det til og med mulig å identifisere den eksakte programvaren som brukes av enheten som spores. Det er derfor viktig å forstå at studiet av porteføljefotavtrykk er spesielt relevant for nyere transaksjoner, snarere enn for dem som ble initiert tidlig på 2010-tallet.
 
 For å oppsummere kan et fotavtrykk være en hvilken som helst spesifikk praksis, utført automatisk av lommeboken eller manuelt av brukeren, som vi kan finne på andre transaksjoner for å hjelpe oss i analysen vår.
 
@@ -757,7 +757,7 @@ På en annen måte førte en tidsanalyse av denne typen også til hypotesen om a
 
 I dette siste kapittelet skal vi sette konseptene vi har studert så langt ut i praksis. Jeg skal vise deg eksempler på ekte Bitcoin-transaksjoner, og du må selv hente ut informasjonen jeg ber deg om.
 
-Ideelt sett, for å utføre disse øvelsene, ville bruk av et profesjonelt kjedeanalyseverktøy være å foretrekke. Siden arrestasjonen av skaperne av Samourai Wallet er imidlertid det eneste gratis analyseverktøyet OXT.me ikke lenger tilgjengelig. Vi velger derfor en klassisk blokkutforsker for disse øvelsene. Jeg anbefaler å bruke [Mempool.space] (https://mempool.space/) på grunn av de mange funksjonene og utvalget av kjedeanalyseverktøy, men du kan også velge en annen utforsker, for eksempel [Bitcoin Explorer] (https://bitcoinexplorer.org/).
+Ideelt sett, for å utføre disse øvelsene, ville bruk av et profesjonelt kjedeanalyseverktøy være å foretrekke. Siden arrestasjonen av skaperne av Samourai Wallet er imidlertid det eneste gratis analyseverktøyet OXT.me ikke lenger tilgjengelig. Vi velger derfor en klassisk blokkutforsker for disse øvelsene. Jeg anbefaler å bruke [Mempool.space](https://mempool.space/) på grunn av de mange funksjonene og utvalget av kjedeanalyseverktøy, men du kan også velge en annen utforsker, for eksempel [Bitcoin Explorer](https://bitcoinexplorer.org/).
 
 Til å begynne med vil jeg introdusere deg for oppgavene. Bruk blokkutforskeren til å fullføre dem, og skriv ned svarene dine på et ark. På slutten av dette kapittelet får du svarene, slik at du kan kontrollere og korrigere resultatene dine.
 
@@ -1031,9 +1031,9 @@ ___
 
 
 - Serien med fire artikler med tittelen: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produsert av Samourai Wallet i 2021;
-- De ulike rapportene fra [OXT Research] (https://medium.com/oxt-research), samt deres gratis blockchain-analyseverktøy (ikke lenger tilgjengelig for øyeblikket etter arrestasjonen av grunnleggerne av Samourai Wallet);
+- De ulike rapportene fra [OXT Research](https://medium.com/oxt-research), samt deres gratis blockchain-analyseverktøy (ikke lenger tilgjengelig for øyeblikket etter arrestasjonen av grunnleggerne av Samourai Wallet);
 - Mer generelt kommer kunnskapen min fra ulike tweets og innhold fra [@LaurentMT](https://twitter.com/LaurentMT) og [@ErgoBTC](https://twitter.com/ErgoBTC);
-- [Space Kek #19] (https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), der jeg deltok i selskap med [@louneskmt] (https://twitter.com/louneskmt), [@TheoPantamis] (https://twitter.com/TheoPantamis), [@Sosthene___] (https://twitter.com/Sosthene___) og [@LaurentMT] (https://twitter.com/LaurentMT)
+- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), der jeg deltok i selskap med [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) og [@LaurentMT](https://twitter.com/LaurentMT)
 
 *Jeg vil gjerne takke forfatterne, utviklerne og produsentene. Takk også til korrekturleserne som omhyggelig korrigerte artikkelen som denne del 3 er basert på, og som ga meg sine ekspertråd :*
 
@@ -1414,7 +1414,7 @@ Likevel er det risiko for personlig sikkerhet. Den største faren ligger i det f
 
 ![BTC204](assets/nb-NO/089.webp)
 
-For å begrense denne risikoen vil jeg råde deg til å foretrekke kontanttransaksjoner med personer du stoler på, for eksempel familiemedlemmer eller nære venner. Alternativt kan du også vurdere å handle på [lokale Bitcoin-møter] (https://btcmap.org/communities/map), etter å ha deltatt noen ganger. Dette vil tillate deg å bli bedre kjent med de andre deltakerne og ikke være alene når du fysisk bytter. Det er imidlertid viktig å være klar over at P2P-kontantbørser i seg selv innebærer en risiko for din personlige sikkerhet som ikke eksisterer når du kjøper via en regulert plattform og bankkontoen din.
+For å begrense denne risikoen vil jeg råde deg til å foretrekke kontanttransaksjoner med personer du stoler på, for eksempel familiemedlemmer eller nære venner. Alternativt kan du også vurdere å handle på [lokale Bitcoin-møter](https://btcmap.org/communities/map), etter å ha deltatt noen ganger. Dette vil tillate deg å bli bedre kjent med de andre deltakerne og ikke være alene når du fysisk bytter. Det er imidlertid viktig å være klar over at P2P-kontantbørser i seg selv innebærer en risiko for din personlige sikkerhet som ikke eksisterer når du kjøper via en regulert plattform og bankkontoen din.
 
 Avhengig av hvor du bor, kan det dessuten være risikabelt å transportere og oppbevare store pengesummer, enten det er bitcoin eller kontanter.
 
@@ -1448,25 +1448,25 @@ En annen ulempe med P2P-kjøp er at prisen ofte er høyere enn på regulerte pla
 
 ![BTC204](assets/nb-NO/095.webp)
 
-Når det gjelder løsninger, har jeg personlig alltid brukt [Bisq] (https://bisq.network/), og jeg er veldig fornøyd med det. Systemet deres er velprøvd og virker pålitelig. Bisq er imidlertid bare tilgjengelig på PC, og grensesnittet kan være for komplisert for nybegynnere. En annen ulempe er at Bisq kun opererer med onchain-transaksjoner, noe som kan bli kostbart i perioder med høye Bitcoin-transaksjonsgebyrer.
+Når det gjelder løsninger, har jeg personlig alltid brukt [Bisq](https://bisq.network/), og jeg er veldig fornøyd med det. Systemet deres er velprøvd og virker pålitelig. Bisq er imidlertid bare tilgjengelig på PC, og grensesnittet kan være for komplisert for nybegynnere. En annen ulempe er at Bisq kun opererer med onchain-transaksjoner, noe som kan bli kostbart i perioder med høye Bitcoin-transaksjonsgebyrer.
 
 -> Se vår Bisq-veiledning.
 
 https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
-For et enklere alternativ kan du prøve [Peach] (https://peachbitcoin.com/), en mobilapp som kobler sammen kjøpere og selgere med et innebygd konfliktløsningssystem. Prosessen er mer intuitiv enn Bisqs.
+For et enklere alternativ kan du prøve [Peach](https://peachbitcoin.com/), en mobilapp som kobler sammen kjøpere og selgere med et innebygd konfliktløsningssystem. Prosessen er mer intuitiv enn Bisqs.
 
 -> Se vår Peach-veiledning.
 
 https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-Et annet online-alternativ er [HodlHodl] (https://hodlhodl.com/), en veletablert plattform som tilbyr god likviditet, selv om jeg ikke har testet den personlig.
+Et annet online-alternativ er [HodlHodl](https://hodlhodl.com/), en veletablert plattform som tilbyr god likviditet, selv om jeg ikke har testet den personlig.
 
 -> Se vår HodlHodl-veiledning.
 
 https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-For Lightning Network-baserte løsninger kan du prøve [RoboSats] (https://learn.robosats.com/) og [LNP2PBot] (https://lnp2pbot.com/). RoboSats er tilgjengelig via en nettside og er relativt enkel å bruke. LNP2PBot er mer atypisk, ettersom den fungerer via et utvekslingssystem på Telegram-meldingsapplikasjonen.
+For Lightning Network-baserte løsninger kan du prøve [RoboSats](https://learn.robosats.com/) og [LNP2PBot](https://lnp2pbot.com/). RoboSats er tilgjengelig via en nettside og er relativt enkel å bruke. LNP2PBot er mer atypisk, ettersom den fungerer via et utvekslingssystem på Telegram-meldingsapplikasjonen.
 
 -> Se vår RoboSats-veiledning.
 
@@ -1480,7 +1480,7 @@ https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 
 ### Regulerte plattformer uten KYC
 
-Avhengig av hvilket land du bor i, kan du ha tilgang til regulerte plattformer som ikke krever KYC-prosedyrer for å kjøpe eller selge bitcoins. I Sveits kan du for eksempel bruke plattformer som [Relai] (https://relai.app/) og [MtPelerin] (https://www.mtpelerin.com/).
+Avhengig av hvilket land du bor i, kan du ha tilgang til regulerte plattformer som ikke krever KYC-prosedyrer for å kjøpe eller selge bitcoins. I Sveits kan du for eksempel bruke plattformer som [Relai](https://relai.app/) og [MtPelerin](https://www.mtpelerin.com/).
 
 -> Se vår veiledning om Relai.
 
@@ -1506,7 +1506,7 @@ Til slutt vil jeg også introdusere deg for en løsning som fungerer godt for de
 
 Den beste måten å bruke BTC på er selvfølgelig å bruke Bitcoin eller Lightning Network direkte til å kjøpe en vare eller tjeneste. I mange land er det imidlertid fortsatt begrenset hvor mange forretninger som aksepterer Bitcoin. Et praktisk alternativ er å bruke gavekort.
 
-Flere plattformer som ikke krever KYC-prosedyrer, tilbyr muligheten til å veksle bitcoins til gavekort som kan brukes hos store forhandlere. Disse inkluderer [CoinsBee] (https://www.coinsbee.com/), [The Bitcoin Company] (https://thebitcoincompany.com/) og [Bitrefill] (https://www.bitrefill.com/). Disse plattformene gjør det mye enklere å bruke bitcoinsene dine på daglig basis, og gir deg tilgang til et bredt spekter av produkter og tjenester uten å måtte konvertere dem til fiat-valuta.
+Flere plattformer som ikke krever KYC-prosedyrer, tilbyr muligheten til å veksle bitcoins til gavekort som kan brukes hos store forhandlere. Disse inkluderer [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) og [Bitrefill](https://www.bitrefill.com/). Disse plattformene gjør det mye enklere å bruke bitcoinsene dine på daglig basis, og gir deg tilgang til et bredt spekter av produkter og tjenester uten å måtte konvertere dem til fiat-valuta.
 
 https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
@@ -1650,7 +1650,7 @@ Generelt sett er det klokere å velge den nyeste skriptstandarden, forutsatt at 
 
 ![BTC204](assets/nb-NO/106.webp)
 
-Kilde: [txstats.com] (https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
+Kilde: [txstats.com](https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
 
 Et annet tips for å bevare konfidensialiteten er å prøve å omgå interne transaksjonsheuristikker. Når du for eksempel foretar en betaling, kan du prøve å unngå å opprette en utdata med et rundt beløp, da dette kan signalisere at den andre utdataen representerer utenlandsk valuta. Hvis du skal sende 100 000 sats til en venn, kan du vurdere å overføre et litt høyere beløp for å unngå denne heuristikken. På samme måte bør du prøve å unngå å opprette valutautganger som er uforholdsmessig høye i forhold til betalingen, da dette også kan avsløre hvilken av utgangene som representerer utenlandsk valuta.
 
@@ -1855,13 +1855,13 @@ Maxwell, G. (2013, 22. august). *CoinJoin: Bitcoin-personvern for den virkelige 
 
 Det finnes imidlertid andre tidligere omtaler, både for Chaum-signaturer som en del av miksing, men også for coinjoins. [I juni 2011 presenterte Duncan Townsend på BitcoinTalk (https://bitcointalk.org/index.php?topic=12751.0) en mikser som bruker Chaum-signaturer på en måte som er ganske lik moderne Chaumian coinjoins.
 
-I samme tråd kan vi finne [en melding fra hashcoin som svar til Duncan Townsend] (https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) for å forbedre mikseren hans. Prosessen som beskrives i denne meldingen er nøyaktig hva coinjoins handler om. Et lignende system nevnes også i [en melding fra Alex Mizrahi i 2012] (https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), da han ga råd til skaperne av Tenebrix, en av de første altcoinsene som senere dannet grunnlaget for Litecoin. Til og med selve begrepet "coinjoin" sies ikke å ha blitt skapt av Greg Maxwell, men å ha kommet fra en idé av Peter Todd.
+I samme tråd kan vi finne [en melding fra hashcoin som svar til Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) for å forbedre mikseren hans. Prosessen som beskrives i denne meldingen er nøyaktig hva coinjoins handler om. Et lignende system nevnes også i [en melding fra Alex Mizrahi i 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), da han ga råd til skaperne av Tenebrix, en av de første altcoinsene som senere dannet grunnlaget for Litecoin. Til og med selve begrepet "coinjoin" sies ikke å ha blitt skapt av Greg Maxwell, men å ha kommet fra en idé av Peter Todd.
 
 ![BTC204](assets/nb-NO/131.webp)
 
 ### Zerolink
 
-Zerolink er en omfattende blandingsprotokoll som inneholder Chaumian coinjoins og ulike strategier for å beskytte brukernes anonymitet mot flere former for kjedeanalyse, særlig ved å minimere feil i forbindelse med porteføljeforvaltning. Denne protokollen [ble introdusert av nopara73 og TDevD i 2017] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
+Zerolink er en omfattende blandingsprotokoll som inneholder Chaumian coinjoins og ulike strategier for å beskytte brukernes anonymitet mot flere former for kjedeanalyse, særlig ved å minimere feil i forbindelse med porteføljeforvaltning. Denne protokollen [ble introdusert av nopara73 og TDevD i 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 ![BTC204](assets/nb-NO/132.webp)
 
@@ -1888,7 +1888,6 @@ Whirlpool er for øyeblikket den eneste coinjoin-implementeringen som følger Ze
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*I 2024 er vi vitne til store endringer i verktøyene som er tilgjengelige for brukere som ønsker å gjøre coinjoins på Bitcoin. Vi er nå ved et vendepunkt, og coinjoin-markedet gjennomgår store omstruktureringer. Dette kapittelet vil helt sikkert bli oppdatert over tid.*
 
 For øyeblikket finnes det hovedsakelig tre ulike implementeringer av coinjoin på Bitcoin:
 
@@ -1896,6 +1895,10 @@ For øyeblikket finnes det hovedsakelig tre ulike implementeringer av coinjoin p
 - Whirlpool;
 - Wabisabi;
 - JoinMarket.
+
+I tillegg til disse tre historiske implementasjonene har en ny nylig dukket opp: Joinstr. Jeg vil ikke ta for meg denne i dette kapitlet, men all informasjon om den finner du i denne dedikerte veiledningen:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Hver av disse implementeringene har som mål å bryte UTXO-historikken ved hjelp av coinjoin-transaksjoner. Mekanismene deres varierer imidlertid betydelig. Det er derfor viktig å forstå hvordan de fungerer, slik at du kan velge det alternativet som passer best til dine behov.
 
@@ -1911,13 +1914,15 @@ En av de største ulempene med JoinMarket er at det er komplekst å bruke, og de
 
 ![BTC204](assets/nb-NO/137.webp)
 
-Kilde: [JAM] (https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Kilde: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
 Den tekniske barrieren er imidlertid fortsatt et stort hinder. I coinjoin-økosystemet, der konfidensialiteten forsterkes av antall deltakere, påvirker enhver begrensning som reduserer tilgjengeligheten direkte den tilgjengelige likviditeten, noe som er en avgjørende faktor for effektiviteten i miksen. Bitcoin, som allerede er en nisje innen finansielle transaksjoner, ser på bruken av coinjoins som en undernisje, og JoinMarket representerer en enda mer spesialisert del av den, noe som derfor begrenser potensialet for å øke brukernes anonsett.
 
 Til tross for sin innovative P2P-koblingsmodell for coinjoinere har JoinMarket noen betydelige ulemper, særlig når det gjelder transaksjonsstrukturen. I motsetning til andre implementeringer, som Whirlpool, garanterer ikke JoinMarket perfekt likhet mellom utganger, og det er mulig å spore deterministiske koblinger mellom innganger og utganger. Dessuten har den ingen verktøy for å forhindre at deler som allerede er blandet sammen, blandes igjen, noe som kan gå på bekostning av konfidensialiteten som brukerne ønsker.
 
 Selv om JoinMarket-konseptet er interessant, spesielt for dem som er interessert i et dynamisk likviditetsmarked, gjør dets strukturelle svakheter og tekniske kompleksitet det etter min mening mindre interessant for både nybegynnere og eksperter som er ute etter en coinjoin-implementering.
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -1963,6 +1968,10 @@ Utover de tekniske problemene reiser beslutningen til zkSNACKs, selskapet bak Wa
 Enda mer bekymringsfullt er prinsippet om filtrering, som står i radikal kontrast til Bitcoins filosofi om å tilby et åpent, usensurert finanssystem. Selv om det kan virke berettiget å ønske å ekskludere kriminelle aktiviteter, kan denne filtreringen også ramme personer hvis handlinger, selv om de klassifiseres som ulovlige i visse sammenhenger, kan være moralsk forsvarlige eller samfunnsnyttige. Eksemplet Edward Snowden illustrerer denne todelingen på en perfekt måte: Noen regjeringer anser ham som kriminell på grunn av avsløringene hans, mens andre ser på ham som en varsler som handlet i allmennhetens interesse. Denne kompleksiteten understreker den potensielle faren ved filtrering som, selv om den er velment, til syvende og sist kan undergrave rettighetene og sikkerheten til legitime brukere. Jeg kunne også ha nevnt aktivister og journalister som forfølges under visse autoritære regimer.
 
 Som du sikkert har forstått nå, foretrekker jeg definitivt Whirlpool-modellen for coinjoins på Bitcoin. Dette systemet skiller seg ut for sin strenghet og tilbyr overlegne garantier for konfidensialitet. Det er også det eneste som tilbyr en blanding som anses som perfekt i en matematisk sammenheng. Etter min mening representerer denne modellen fremtiden for coinjoins på Bitcoin. Jeg inviterer deg til å utforske denne modellen mer inngående i neste kapittel.
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## Hvordan Whirlpool fungerer
 
@@ -2166,7 +2175,7 @@ Det er heller ikke tilrådelig å overføre postmix UTXO-er til en lommebok ved 
 
 Som med alle Bitcoin-transaksjoner er det også viktig å ikke gjenbruke mottakeradressen. Hver nye transaksjon må mottas på en ny, tom adresse.
 
-Den enkleste og tryggeste løsningen er å la de blandede UTXO-ene ligge i ro på **postmix**-kontoen deres, la dem remixes og bare røre dem for å bruke dem. Samurai- og Sparrow-lommebøker har ekstra beskyttelse mot alle disse risikoene ved kjedeanalyse. Denne beskyttelsen hjelper deg med å unngå å gjøre feil.
+Den enkleste og sikreste løsningen er å la de miksede UTXO-ene hvile i **postmix**-kontoen deres, la dem remikses og kun røre dem når de skal brukes. Samourai-lommebøkene (og nå Ashigaru) og Sparrow har ekstra beskyttelse mot alle disse risikoene knyttet til kjedeanalyse. Disse beskyttelsene hjelper dere å unngå feil.
 
 ### Hvordan håndterer du giftige utvekslinger?
 
@@ -2179,24 +2188,27 @@ Her er noen strategier for hvordan du kan bruke dem:
 - Merk dem som "ikke brukbare": En annen måte å gjøre det på er å slutte å bruke dem, merke dem som "ikke brukbare" på den dedikerte kontoen deres og bare hodle. Dette sikrer at du ikke bruker dem ved et uhell. Hvis verdien av bitcoin stiger, kan det dukke opp nye bassenger som passer bedre til dine giftige UTXO-er;
 - **Gi donasjoner:** Vurder å gi donasjoner, selv om de er beskjedne, til utviklere som jobber med Bitcoin og relatert programvare. Du kan også donere til foreninger som aksepterer BTC. Hvis det virker for komplisert å administrere giftige UTXO-er, kan du bare kvitte deg med dem og gi en donasjon;
 - Kjøp gavekort: Plattformer som [Bitrefill](https://www.bitrefill.com/) lar deg veksle bitcoins til gavekort som kan brukes hos ulike forhandlere. Dette kan være en måte å skille seg av med giftige UTXO-er uten å miste den tilhørende verdien;
-- Konsolider dem på Monero: Samourai Wallet tilbyr en atombyttetjeneste mellom BTC og XMR. Dette er ideelt for å håndtere giftige UTXO-er ved å konsolidere dem på Monero, uten å gå på kompromiss med konfidensialiteten din via CIOH, før du sender dem tilbake til Bitcoin. Dette alternativet kan imidlertid være kostbart når det gjelder gruveavgifter og premie på grunn av likviditetsbegrensninger;
+- **Konsolidere dem via Monero:** Samourai Wallet tilbød tidligere en atomisk byttetjeneste mellom BTC og XMR, men denne er ikke lenger tilgjengelig etter arrestasjonene. Denne metoden gjorde det mulig å håndtere giftige UTXO-er ved å konsolidere dem på Monero uten å kompromittere din konfidensialitet gjennom CIOH, før de deretter ble sendt tilbake til Bitcoin. Dersom en tilsvarende tjeneste dukker opp igjen, kan det være et interessant alternativ. Husk likevel at metoden kan bli kostbar, både i form av gruvegebyrer og premie knyttet til likviditetsbegrensninger ved omvendt konvertering til bitcoin.
 - Send dem til Lightning Network: Det kan være et attraktivt alternativ å overføre disse UTXO-ene til Lightning Network for å dra nytte av reduserte transaksjonsgebyrer. Denne metoden kan imidlertid avsløre visse opplysninger avhengig av hvordan du bruker Lightning, og bør derfor brukes med forsiktighet.
 
 ### Hvordan bruker jeg Whirlpool?
 
-Etter arrestasjonen av grunnleggerne av Samourai Wallet og beslagleggelsen av serverne deres den 24. april 2024, fungerer ikke Whirlpool-verktøyet lenger, selv ikke for de med egen Dojo. Tidligere var det tilgjengelig på Samourai Wallet og Sparrow Wallet.
+Etter arrestasjonen av grunnleggerne av Samourai Wallet og beslagleggelsen av serverne deres 24. april 2024, er Whirlpool-verktøyet ikke lenger tilgjengelig på Samourai Wallet og Sparrow Wallet.
 
 ![BTC204](assets/nb-NO/155.webp)
 
-Det er imidlertid fortsatt mulig at dette verktøyet vil bli reaktivert i løpet av de kommende ukene, avhengig av utfallet av forsøkene, eller relansert på en annen måte. Uansett tror jeg ikke Bitcoin coinjoin-markedet vil være uten tilbud lenge, ettersom etterspørselen er der. Siden Whirlpools modell er den mest avanserte når det gjelder konfidensialitet, vil den helt sikkert være den foretrukne modellen for andre implementeringer i fremtiden.
 
-Vi følger nøye med på denne saken og utviklingen i de tilhørende verktøyene. Du kan være trygg på at vi kommer til å oppdatere dette kurset etter hvert som ny informasjon blir tilgjengelig.
+
+Fra nå av er Whirlpool igjen tilgjengelig i mobilappen Ashigaru, en fork av Samourai Wallet, takket være programvaren Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Kjernen i hvordan Whirlpool fungerer forblir uendret, men det finnes likevel noen forskjeller sammenlignet med bruken på Samourai: i 2025 er kun to pooler tilgjengelige på Ashigaru, med beløp på `0.25 BTC` og `0.025 BTC`, og respektive inngangsgebyrer på `0.0125 BTC` og `0.00125 BTC`.
 
 I neste kapittel skal vi finne ut hva "anonsets" er, hvordan disse indikatorene beregnes, og hvordan de kan hjelpe oss med å estimere effektiviteten til coinjoin-sykluser.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -2310,7 +2322,7 @@ Ut fra antall tolkninger av en Bitcoin-transaksjon kan vi beregne dens entropi.
 
 I en generell sammenheng med kryptografi og informasjon er entropi et kvantitativt mål på usikkerheten eller uforutsigbarheten knyttet til en datakilde eller tilfeldig prosess. Med andre ord er entropi en måte å måle hvor vanskelig det er å forutsi eller gjette seg frem til et stykke informasjon.
 
-I blokkjedeanalysesammenheng er entropi også navnet på en indikator, avledet fra Shannons entropi og [oppfunnet av LaurentMT] (https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), som kan beregnes på en Bitcoin-transaksjon.
+I blokkjedeanalysesammenheng er entropi også navnet på en indikator, avledet fra Shannons entropi og [oppfunnet av LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), som kan beregnes på en Bitcoin-transaksjon.
 
 Når en transaksjon har et stort antall mulige tolkninger, er det ofte mer relevant å se på dens entropi. Denne indikatoren måler analytikernes mangel på kunnskap om den nøyaktige konfigurasjonen av transaksjonen. Med andre ord, jo høyere entropien er, desto vanskeligere blir det for analytikerne å identifisere flyten av bitcoins mellom inn- og utganger.
 
@@ -2534,7 +2546,7 @@ Etter at Samourais grunnleggere ble arrestert, er disse verktøyene dessverre ik
 
 Nå som vi har dekket coinjoins i detalj, skal vi se på de andre personvernteknikkene som er tilgjengelige på Bitcoin i den siste delen av kurset vårt. Vi skal se på payjoins, spesifikke transaksjonstyper for pseudocoinjoins, statiske adresseprotokoller, samt tiltak for å styrke konfidensialiteten, ikke på transaksjonsnivå, men på nettverksnivå.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Forstå utfordringene med andre avanserte konfidensialitetsteknikker
 
@@ -2620,7 +2632,10 @@ Kjente programmer som støtter payjoin inkluderer Sparrow Wallet, Wasabi Wallet,
 
 ![BTC204](assets/nb-NO/177.webp)
 
-Den mest avanserte payjoin-implementeringen var bare Stowaway på Samourai Wallet. Siden arrestasjonen av programvarens grunnleggere er dette verktøyet nå bare delvis funksjonelt. Fordelen med Stowaway er at det er en omfattende, brukervennlig protokoll som støtter både mottak og sending av payjoins. Delvis signerte transaksjoner kan utveksles manuelt ved å skanne flere QR-koder, eller automatisk via Tor via Soroban. Sistnevnte kommunikasjonsalternativ er for tiden ute av drift.
+
+Den mest avanserte payjoin-implementasjonen er uten tvil Stowaway, utviklet av Samourai Wallet-utviklerne. Siden arrestasjonen av programvarens grunnleggere har dette verktøyet kun fungert delvis på Samourai. Men det har blitt gjenopplivet i Ashigaru-applikasjonen.
+
+Fordelen med Stowaway er at det er en fullstendig og svært brukervennlig protokoll som støtter både mottak og sending av payjoins. Delvis signerte transaksjoner kan utveksles manuelt ved å skanne flere QR-koder eller automatisk via Tor gjennom Soroban.
 
 ![BTC204](assets/nb-NO/178.webp)
 
@@ -2630,7 +2645,7 @@ En løsning kan være å bruke transaksjonsstrukturer som introduserer tvetydigh
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Betaling mini-coinjoin
 
@@ -2743,19 +2758,20 @@ Logikken bør være som følger når du ønsker å bruke et konfidensialitetsver
 
 ### Hvordan bruker jeg Stonewall og Stonewall x2-transaksjoner?
 
-Stonewall- og Stonewall x2-transaksjoner er tilgjengelige både i Samourai Wallet-applikasjonen og Sparrow Wallet-programvaren.
+Stonewall-transaksjoner er tilgjengelige i Sparrow Wallet så vel som i Ashigaru, mens Stonewall x2 foreløpig kun støttes av Ashigaru.
 
 ![BTC204](assets/nb-NO/189.webp)
 
-Men som med payjoins, etter arrestasjonen av Samourais grunnleggere, fungerer Stonewall x2-transaksjoner nå bare ved å utveksle PSBT-er manuelt mellom de berørte partene. Dessverre er automatisk utveksling via Soroban ikke lenger tilgjengelig.
 
 Det er også mulig å utføre denne typen transaksjoner manuelt fra hvilken som helst Bitcoin-lommebokprogramvare.
 
 I neste kapittel skal vi se nærmere på en annen konfidensialitetsteknikk som er relativt ukjent, men som er svært nyttig som et supplement til det vi allerede har studert.
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Rikosjettene
 
@@ -2810,14 +2826,14 @@ Det vanligste bruksområdet for rikosjettering oppstår når det er nødvendig �
 
 Denne metoden er ikke bare effektiv for sammenføyninger, men også for alle andre merker som kan kompromittere en dels fungibilitet.
 
-Ideen til denne rikosjettmetoden kom opprinnelig fra Samourai Wallet-teamene, som integrerte den i applikasjonen sin for å automatisere prosessen. Tjenesten er ikke gratis på Samourai, siden en ricochet innebærer en serviceavgift på 100 000 sats, pluss gruvekostnader. Det anbefales derfor å bruke den for overføringer av betydelige beløp.
+Ideen bak denne ricochet-metoden kommer opprinnelig fra teamene bak Samourai Wallet, som hadde integrert den i sin applikasjon for å automatisere funksjonaliteten. Tjenesten var betalbar på Samourai, ettersom et ricochet medførte en fast kostnad på 100 000 sats i tjenestegebyr, i tillegg til gruvegebyrene. Det samme gjelder i dag på Ashigaru. Dermed anbefales bruken hovedsakelig for overføringer av større beløp.
 
 ![BTC204](assets/nb-NO/196.webp)
 
-Samurai-applikasjonen tilbyr to rikosjettvarianter:
+Ashigaru-applikasjonen tilbyr to ricochet-varianter (de samme som vi hadde tidligere på Samourai):
 
 
-- Forsterket rikosjett, eller "forskjøvet levering", som gir fordelen av å spre Samurai-gebyret over de fem påfølgende transaksjonene. Dette alternativet sikrer også at hver transaksjon sendes på et separat tidspunkt og registreres i en annen blokk, noe som etterligner oppførselen til et eierskifte så godt som mulig. Selv om denne metoden er langsommere, er den å foretrekke for de som ikke har det travelt, ettersom den maksimerer effektiviteten til rikosjetteringen ved å forsterke dens motstand mot kjedeanalyse;
+- Det forsterkede ricochetet, eller «trinnvis levering», har fordelen av å fordele Ashigaru-tjenestegebyrene over fem påfølgende transaksjoner. Dette valget sikrer også at hver transaksjon kringkastes på et annet tidspunkt og registreres i en egen blokk, noe som gjør det mulig å etterligne oppførselen ved et eierskifte så nøyaktig som mulig. Selv om den er langsommere, er denne metoden å foretrekke for dem som ikke har det travelt, da den maksimerer effektiviteten av ricochet ved å styrke motstanden mot kjedeanalyse;
 
 ![BTC204](assets/nb-NO/197.webp)
 
@@ -2830,7 +2846,7 @@ Ricocheting betyr ganske enkelt å sende bitcoins til deg selv. Det er fullt mul
 
 I neste kapittel skal vi se nærmere på ulike teknikker for hemmelige eierskifter. Disse metodene skiller seg radikalt fra dem vi har sett på så langt, både når det gjelder virkemåte og resultater.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Hemmelige eierskapsoverdragelser
 
@@ -2916,7 +2932,7 @@ $$$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallell P_A \parallell m_A) \cdot
 
 La oss oppsummere hvordan en adaptorsignatur fungerer i et myntbytte. Til å begynne med sender Alice en usignert transaksjon til Bob sammen med en adaptor, slik at Bob kan verifisere at hemmeligheten som avsløres senere, vil gi ham tilgang til bitcoins. Til gjengjeld sender Bob sin egen usignerte transaksjon og adaptor til Alice. Alice kan deretter fullføre Bobs transaksjon og hente bitcoinsene ved å kringkaste en gyldig transaksjon takket være hemmeligheten. Når denne transaksjonen publiseres på blokkjeden, har Bob muligheten til å trekke ut hemmeligheten og dermed låse opp Alices transaksjon. Hvis Alice initierer en overføring av Bobs bitcoin, kan Bob på sin side få tilgang til Alices bitcoin uten behov for gjensidig tillit.
 
-Merk at coinswaps først ble foreslått av [Gregory Maxwell i oktober 2013 på BitcoinTalk] (https://bitcointalk.org/index.php?topic=321228.0).
+Merk at coinswaps først ble foreslått av [Gregory Maxwell i oktober 2013 på BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
 
 ### Atombytte
 
@@ -3070,7 +3086,7 @@ Målet med BIP47 er å gjøre det mulig å motta et stort antall betalinger uten
 
 En bruker kan derfor dele betalingskoden sin helt fritt, enten det er på sosiale nettverk eller på nettsiden sin, uten å risikere tap av konfidensialitet, i motsetning til med en vanlig mottakeradresse eller offentlig nøkkel.
 
-For å gjennomføre en transaksjon trenger begge parter en Bitcoin-lommebok med en BIP47-implementering, for eksempel PayNym på Samurai Wallet eller Sparrow Wallet. Den felles bruken av betalingskodene deres skaper en hemmelig kanal mellom dem. For å etablere denne kanalen effektivt må utstederen utføre en spesifikk transaksjon på Bitcoin-blokkjeden, kjent som en "varslingstransaksjon" (mer om dette senere).
+For å gjennomføre en transaksjon må begge parter ha en Bitcoin-lommebok med en implementasjon av BIP47, slik som PayNym på Ashigaru eller Sparrow Wallet. Den felles bruken av deres betalingskoder oppretter en hemmelig kanal mellom dem. For å etablere denne kanalen på en effektiv måte må avsenderen utføre en spesifikk transaksjon på Bitcoin-blokkjeden, kjent som en «varslings­transaksjon» (jeg vil gi deg detaljene senere).
 
 Ved å kombinere betalingskodene til de to brukerne genereres delte hemmeligheter, som i sin tur skaper et stort antall unike Bitcoin-mottaksadresser (nøyaktig 2^32, eller rundt 4 milliarder). På denne måten blir betalinger som gjøres via BIP47 ikke adressert til selve betalingskoden, men til klassiske mottaksadresser som er avledet fra betalingskodene til de involverte brukerne.
 
@@ -3092,7 +3108,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Denne koden kan også kodes som en QR-kode for å gjøre det enklere å kommunisere, akkurat som en vanlig mottaksadresse.
 
-Når det gjelder PayNym Bots, robotene som noen ganger ses på Twitter, er disse visuelle representasjoner av betalingskoden, opprettet av Samourai Wallet. De genereres ved hjelp av en hash-funksjon, noe som gjør dem nesten unike. De har form av en liten streng med tegn som begynner med `+` :
+Når det gjelder PayNym Bots – disse robotene man av og til ser på X (Twitter) – er de visuelle representasjoner av betalingskoden, laget av Samourai Wallet. Med Ashigaru er de nå noe annerledes, men prinsippet er det samme. De genereres via en hashfunksjon, noe som gir dem en nær unik identitet. De fremstår som en liten tegnstreng som begynner med `+` :
 
 ```plaintext
 +throbbingpond8B1
@@ -3469,7 +3485,7 @@ Jeg skal oppsummere trinnene vi nettopp har sett sammen for å gjennomføre en v
 
 ### Transaksjonsvarsling: en praktisk studie
 
-For å forstå hvordan det fungerer i mer detalj, og spesielt bruken av `OP_RETURN`, la oss ta en titt på en ekte notifikasjonstransaksjon. Jeg utførte en slik transaksjon på testnettet, som du kan finne [ved å klikke her] (https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
+For å forstå hvordan det fungerer i mer detalj, og spesielt bruken av `OP_RETURN`, la oss ta en titt på en ekte notifikasjonstransaksjon. Jeg utførte en slik transaksjon på testnettet, som du kan finne [ved å klikke her](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
 ![BTC204](assets/nb-NO/233.webp)
 
@@ -3874,7 +3890,7 @@ BIP47 har fått mye kritikk for sin ineffektivitet i kjeden. Som forklart i forr
 
 I visse situasjoner kan imidlertid varslingstransaksjonen være et hinder for brukeren. La oss ta et eksempel på en engangsdonasjon til en mottaker: Med en klassisk Bitcoin-adresse er det nok med én enkelt transaksjon for å fullføre donasjonen. Men med BIP47 kreves det to transaksjoner: én for varslingen og én for selve betalingen. Når etterspørselen etter blokkplass er lav og transaksjonsgebyrene lave, er dette ekstra trinnet vanligvis ikke noe problem. I tider med overbelastning kan imidlertid transaksjonsgebyrene bli ublu for en enkelt betaling, noe som potensielt fordobler kostnaden for brukeren sammenlignet med en standard Bitcoin-transaksjon, noe som kan være uakseptabelt for brukeren.
 
-For situasjoner der brukeren planlegger å foreta bare noen få betalinger til en statisk identifikator, er det utviklet andre løsninger. Blant disse er Silent Payments, som er beskrevet i [BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Denne protokollen gjør det mulig å bruke en statisk identifikator til å motta betalinger uten at det oppstår gjenbruk av adresser, og uten at det er nødvendig å bruke varslingstransaksjoner. La oss ta en titt på hvordan denne protokollen fungerer.
+For situasjoner der brukeren planlegger å foreta bare noen få betalinger til en statisk identifikator, er det utviklet andre løsninger. Blant disse er Silent Payments, som er beskrevet i [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Denne protokollen gjør det mulig å bruke en statisk identifikator til å motta betalinger uten at det oppstår gjenbruk av adresser, og uten at det er nødvendig å bruke varslingstransaksjoner. La oss ta en titt på hvordan denne protokollen fungerer.
 
 ---
 *For å forstå dette kapittelet fullt ut, er det viktig å forstå hvordan ECDH (Elliptic Curve Diffie-Hellman) og utledning av kryptografiske nøkler i en HD-lommebok fungerer. Disse konseptene ble beskrevet i detalj i forrige kapittel om BIP47. Jeg vil ikke gjenta dem her. Hvis du ennå ikke er kjent med disse konseptene, anbefaler jeg at du leser det forrige kapittelet før du fortsetter med dette. Jeg vil ikke gå tilbake til risikoen forbundet med gjenbruk av mottaksadresser eller viktigheten av å ha en unik identifikator for mottak av betalinger*, men jeg vil bare nevne noen få punkter som jeg ønsker å ta opp her
@@ -4256,7 +4272,7 @@ Silent Payments-forslaget er relativt nytt og har bare blitt implementert av et 
 
 
 - [CakeWallet](https://cakewallet.com/)
-- [Silentium] (https://app.silentium.dev/)
+- [Silentium](https://app.silentium.dev/)
 - [DonationWallet](https://github.com/Sosthene00/donationwallet)
 
 Vi vil snart gi deg en detaljert veiledning i hvordan du setter opp din egen statiske Silent Payments-adresse.

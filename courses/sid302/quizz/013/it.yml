@@ -1,0 +1,8 @@
+question: In un Taproot abilitato al HTLC, cosa succede quando entrambe le parti concordano in modo cooperativo di completare il cross-layer swap?
+answer: Firmano insieme utilizzando la loro chiave pubblica aggregata tramite MuSig2, creando una transazione indistinguibile da un pagamento standard a firma singola
+wrong_answers:
+  - Devono rivelare lo script completo contenente hash e time lock on-chain per la verifica della rete
+  - Pubblicano solo lo specifico ramo dell'albero di Merkle necessario, mantenendo la chiave aggregata nascosta agli osservatori
+  - Trasmettono transazioni separate su ogni livello simultaneamente per garantire un regolamento atomico senza aggregazione di chiavi
+explanation: |
+  Il "percorso chiave" cooperativo in Taproot consente alle parti di combinare le loro chiavi in un'unica chiave pubblica aggregata utilizzando MuSig2. Quando entrambi sono d'accordo, semplicemente co-firmano la transazione, che appare identica a qualsiasi pagamento standard sulla blockchain. Questo garantisce la massima privacy ed efficienza, poiché non viene rivelata alcuna logica di script, consumando uno spazio minimo per i blocchi. Le altre opzioni descrivono in modo errato il comportamento del HTLC tradizionale o lo scenario di un percorso di script avversario.

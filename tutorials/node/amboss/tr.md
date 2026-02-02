@@ -34,7 +34,7 @@ Bitcoin protokolünün ana zinciri hakkında faydalı bilgiler sağlayan [Mempoo
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Bu eğitimde, Lightning Network kullanıcıları, ağı genişletmek için düğümlerini bağlamak isteyenler vb. için önemli bir kaynak olan bu platformda sizi bir tura çıkaracağız.
 
@@ -304,4 +304,4 @@ Artık platformun özellikleri ve analiz araçları hakkında tam bir tur attın
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

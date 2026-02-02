@@ -1,6 +1,7 @@
 ---
 term: BIP
 
+definition: Bitcoin Improvement Proposal. Proses formal yang memungkinkan komunitas untuk mengusulkan, mendiskusikan, dan mendokumentasikan perbaikan pada protokol Bitcoin.
 ---
 Singkatan dari "_Bitcoin Improvement Proposal_" Bitcoin Improvement Proposal (BIP) adalah sebuah proses formal untuk mengajukan dan mendokumentasikan perbaikan dan perubahan pada protokol Bitcoin dan standar-standarnya. Karena Bitcoin tidak memiliki entitas pusat untuk memutuskan implementasi pembaruan, BIP memungkinkan komunitas untuk merekomendasikan, mendiskusikan, dan mengimplementasikan perbaikan secara terstruktur dan transparan. Setiap BIP memiliki rincian tujuan dari perbaikan yang diusulkan, alasan, potensi dampak terhadap kompatibilitas, serta keuntungan dan kerugiannya. BIP dapat ditulis oleh setiap anggota komunitas, tetapi harus disetujui oleh pengembang lain dan editor yang mengelola basis data Bitcoin Core GitHub: Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun, dan Ruben Somsen. Namun, penting untuk dipahami bahwa peran individu-individu ini dalam mengedit BIP bukan berarti mereka yang mengendalikan Bitcoin. Jika seseorang mengusulkan perbaikan yang tidak diterima dalam kerangka kerja BIP formal, mereka masih dapat mempresentasikannya secara langsung kepada komunitas Bitcoin atau bahkan membuat sebuah _fork_ dengan versi termodifikasinya. Keuntungan dari proses BIP terletak pada formalitas dan sentralisasinya, yang memfasilitasi perdebatan untuk menghindari perpecahan di antara para pengguna Bitcoin, yang berusaha untuk mengimplementasikan pembaruan dengan cara yang konsensus. Pada akhirnya, prinsip mayoritas ekonomi lah yang menentukan dinamika kekuatan di dalam protokol.
 
@@ -30,6 +31,5 @@ BIP kemudian melewati status yang berbeda selama siklus hidupnya. Status saat in
 - Aktif: Hanya untuk proses BIP, status ini ditetapkan setelah konsensus tertentu tercapai;
 - Diganti / Sudah Tidak Berlaku: BIP tidak lagi berlaku atau telah digantikan oleh proposal yang lebih baru yang membuat BIP ini tidak diperlukan lagi.
 
-![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP adalah singkatan dari "Bitcoin Improvement Proposal". Dalam bahasa Indonesia, istilah ini dapat diterjemahkan sebagai "Proposal Pengembangan Bitcoin". Namun, "BIP" juga umum digunakan untuk merujuk pada istilah ini.*
+

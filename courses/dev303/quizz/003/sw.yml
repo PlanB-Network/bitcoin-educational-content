@@ -1,0 +1,8 @@
+question: Ni amri gani ya Cargo inayofanya ukaguzi wa mkusanyiko bila kutoa faili inayoweza kutekelezwa?
+answer: cargo check
+wrong_answers:
+  - cargo build
+  - cargo run
+  - cargo test
+explanation: |
+  Amri ya 'cargo check' hufanya ukaguzi wote wa mkusanyiko na kuthibitisha kwamba msimbo wako unakusanywa kwa usahihi bila kutoa faili ya mwisho inayoweza kutekelezwa. Hii inafanya iwe haraka zaidi kuliko ujenzi kamili unapotaka tu kuthibitisha usahihi wa msimbo. Kwa upande mwingine, ''cargo build' hukusanya na kutoa faili zinazoweza kutekelezwa, 'cargo run' hujenga na kutekeleza programu, na 'cargo test' hukusanya na kuendesha majaribio.

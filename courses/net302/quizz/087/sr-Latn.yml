@@ -5,5 +5,5 @@ wrong_answers:
   - arp
   - tcpdump
 explanation: |
-  traceroute prikazuje svaki međusmernik između pošiljaoca i cilja, koristeći TTL.
-reviewed: false
+  traceroute prikazuje svaki međuruter između pošiljaoca i odredišta, koristeći TTL.
+reviewed: true

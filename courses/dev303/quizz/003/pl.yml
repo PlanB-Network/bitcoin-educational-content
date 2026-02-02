@@ -1,0 +1,8 @@
+question: Które polecenie Cargo wykonuje sprawdzanie kompilacji bez generowania pliku wykonywalnego?
+answer: kontrola ładunku
+wrong_answers:
+  - budowa ładunku
+  - cargo run
+  - test ładunku
+explanation: |
+  Polecenie "cargo check" wykonuje wszystkie kontrole kompilacji i weryfikuje poprawność kompilacji kodu bez faktycznego generowania końcowego pliku wykonywalnego. Dzięki temu jest znacznie szybsze niż pełna kompilacja, gdy chcesz po prostu zweryfikować poprawność kodu. Z kolei "cargo build" kompiluje i generuje pliki wykonywalne, "cargo run" zarówno kompiluje, jak i wykonuje program, a "cargo test" kompiluje i uruchamia testy.

@@ -1,0 +1,8 @@
+question: Milline on põhiline mehhanism, mis võimaldab RC-l võimaldada mitme omaniku kasutamist, säilitades samas mälu turvalisuse?
+answer: Sisemine loendur, mis jälgib viiteid ja vabastab mälu ainult siis, kui loendur jõuab nullini
+wrong_answers:
+  - Kompileerimise ajaline analüüs, mis kontrollib kõiki viitemustreid enne programmi täitmist
+  - Prügikoguja, mis skaneerib ja puhastab perioodiliselt kättesaamatuid mäluallokaatoreid
+  - Lukupõhine süsteem, mis sünkroniseerib juurdepääsu mitme omaniku vahel samadele andmetele
+explanation: |
+  RC säilitab sisemise viiteloenduri, mis suureneb kloonimise korral ja väheneb, kui kloonimine lõpetatakse, tagades, et mälu vabastatakse alles siis, kui viiteid ei ole enam alles. See erineb kompileerimise ajalisest analüüsist (mida Box kasutab), prügikoristusest (mida Rust ei kasuta) või lukustusmehhanismidest (mida kasutatakse niidi sünkroniseerimiseks, mitte omandiõiguse jälgimiseks). Loenduripõhine lähenemine võimaldab turvalist jagatud omandiõigust, ilma prügikoristuse koormuseta või ühekordse omandiõiguse piiranguteta.

@@ -1,0 +1,9 @@
+question: บทบาทของ LSP ในการชำระเงิน Enterprise Bitcoin คืออะไร?
+answer: จัดการธุรกรรมปริมาณสูงบน Lightning
+wrong_answers:
+  - จัดเก็บคีย์ส่วนตัวของ Lightning wallet
+  - พิมพ์ใบแจ้งหนี้ Lightning
+  - ดำเนินการคืนเงินด้วยตนเองบน Lightning
+explanation: |
+  LSPs จัดการการดำเนินงานที่ซับซ้อนและมีปริมาณสูงบนเครือข่าย Lightning
+reviewed: true

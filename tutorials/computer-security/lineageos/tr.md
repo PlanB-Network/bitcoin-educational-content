@@ -149,7 +149,7 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-- Android Flash Aracı**: Pixel cihazınızı web tarayıcınızdan kolayca stok Android'e geri yüklemek için resmi Google aracını [flash.android.com] (https://flash.android.com) kullanın (Chrome/Edge gereklidir)
+- Android Flash Aracı**: Pixel cihazınızı web tarayıcınızdan kolayca stok Android'e geri yüklemek için resmi Google aracını [flash.android.com](https://flash.android.com) kullanın (Chrome/Edge gereklidir)
 - Alternatif**: Fabrika görüntülerini manuel olarak [developers.google.com/android/images](https://developers.google.com/android/images) adresinden
 
 
@@ -176,7 +176,7 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-**ADB ve Fastboot araçları:** Android SDK Platform Araçlarını yüklemek için [resmi LineageOS kılavuzunu] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) izleyin. Kurulumu `adb version` ve `fastboot --version` ile doğrulayın.
+**ADB ve Fastboot araçları:** Android SDK Platform Araçlarını yüklemek için [resmi LineageOS kılavuzunu](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) izleyin. Kurulumu `adb version` ve `fastboot --version` ile doğrulayın.
 
 
 
@@ -685,13 +685,14 @@ Bu düzenli güncellemeler, özellikle üreticileri tarafından üretimi durduru
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Yön** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Uyumluluk** | Yalnız Pixels | Yüzlerce cihaz |
+| **Güvenlik** | Gelişmiş azaltmalar | Standart AOSP güvenliği |
+| **Google Play** | İsteğe bağlı korumalı alan | Klasik kurulum mümkün |
+| **Kurulum** | Web arayüzü + USB | Teknik manuel prosedür |
+| **Felsefe** | Güvenlik her şeyden önce | Denge ve seçim özgürlüğü |
 
 ### Kullanım için öneriler
 

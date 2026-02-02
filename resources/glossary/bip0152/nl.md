@@ -1,5 +1,6 @@
 ---
 term: BIP0152
+definition: Compact Block Relay, een protocol dat de bandbreedte voor bloktransmissie vermindert door gebruik te maken van korte identifiers.
 ---
 
 Voorstel voor "Compact Block Relay" gericht op het verminderen van de bandbreedte die nodig is voor bloktransmissie over het Bitcoin netwerk. Dit protocol, dat in november 2016 werd aangenomen in versie 0.13.0 van Bitcoin core, maakt de communicatie van blokinformatie op een compacte manier mogelijk, gebaseerd op de aanname dat knooppunten al een groot deel van de transacties van een recent blok in hun Mempool hebben. In plaats van elke transactie volledig te verzenden, wat zou resulteren in duplicatie, stelt BIP152 voor om alleen korte identifiers te verzenden voor transacties die al bekend zijn bij peers, samen met een paar geselecteerde transacties (met name de Coinbase Transaction en de transacties die de node waarschijnlijk niet kent). Het knooppunt kan dan de ontbrekende transacties opvragen bij zijn peers. Compact Block Relay vermindert dus de hoeveelheid gegevens die wordt uitgewisseld tijdens het verspreiden van blokken, wat bandbreedtepieken vermindert en de algehele efficiëntie van het netwerk verbetert.

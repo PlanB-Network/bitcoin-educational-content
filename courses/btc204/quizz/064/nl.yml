@@ -1,10 +1,10 @@
-question: Hoe worden de labels van een Bitcoin Wallet opgeslagen?
-answer: Lokaal op de Wallet software.
+question: Hoe worden de labels van een Bitcoin-wallet opgeslagen?
+answer: Lokaal op de wallet-software.
 wrong_answers:
   - In een gecentraliseerde database die door de ontwikkelaar wordt beheerd.
-  - Op de Bitcoin Blockchain tot en met een OP_RETURN.
-  - Alleen in RAM tijdens de uitvoering van de software.
+  - Op de Bitcoin-blockchain tot en met een OP_RETURN.
+  - Alleen in RAM tijdens het gebruik van de software.
 explanation: |
-  Labels worden lokaal opgeslagen door de Wallet software en worden nooit verzonden via het Bitcoin netwerk. Labelen is dus een persoonlijk beheertool.
+  Labels worden lokaal opgeslagen door de wallet-software en worden nooit verzonden via het Bitcoin-netwerk. Labelen is dus een persoonlijke beheertool.
   
 reviewed: false

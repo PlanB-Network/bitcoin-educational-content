@@ -1,0 +1,8 @@
+question: Mis juhtub, kui muutuja läheb Rust omandisüsteemis väljapoole kohaldamisala?
+answer: Väärtus langeb automaatselt ära ja selle mälu vabastatakse
+wrong_answers:
+  - Väärtus viiakse üle globaalsesse ulatusse taaskasutamiseks
+  - Väärtus muutub muutumatuks ja jääb mällu
+  - Väärtus kopeeritakse turvalisuse tagamiseks varukoopiasse
+explanation: |
+  Rust omandisüsteemis, kui muutuja läheb väljapoole ulatust (tavaliselt siis, kui täitmine lahkub plokist, mis on määratletud kumerate sulgude abil), siis väärtus automaatselt eemaldatakse ja selle mälu vabastatakse. See automaatne puhastamine on rakendatud Rust loobumismehhanismi kaudu, kus keel kutsub kaudselt loobumisfunktsiooni muutujate puhul, mis väljuvad ulatusest. See tagab nõuetekohase ressursihalduse, ilma et see nõuaks programmeerijalt selgesõnalist puhastamise koodi, järgides C++-st laenatud RAII mustrit.

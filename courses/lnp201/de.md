@@ -1,12 +1,12 @@
 ---
-name: Theoretische Einführung in das Lightning-Netzwerk
+name: Lightning-Netzwerk-Theorie
 goal: Entdecken Sie das Lightning-Netzwerk aus technischer Perspektive
 objectives:
-  - Verstehen Sie die Funktionsweise der Kanäle des Netzwerks.
-  - Machen Sie sich mit den Begriffen HTLC, LNURL und UTXO vertraut.
-  - Lernen Sie, wie man Liquidität verwaltet und welche Gebühren im Lightning-Netzwerk anfallen.
-  - Erkennen Sie das Lightning-Netzwerk als eigenständiges Netzwerk .
-  - Verstehen Sie die theoretischen Anwendungen des Lightning-Netzwerks.
+- Verstehen Sie die Funktionsweise der Kanäle des Netzwerks.
+- Machen Sie sich mit den Begriffen HTLC, LNURL und UTXO vertraut.
+- Lernen Sie, wie man Liquidität verwaltet und welche Gebühren im Lightning-Netzwerk anfallen.
+- Erkennen Sie das Lightning-Netzwerk als eigenständiges Netzwerk .
+- Verstehen Sie die theoretischen Anwendungen des Lightning-Netzwerks.
 ---
 
 # Eine Reise zur zweiten Schicht von Bitcoin
@@ -154,7 +154,7 @@ Das häufigste Skript erfordert eine Signatur mit dem privaten Schlüssel, der d
 
 ### UTXOs: Unverbrauchte Transaktionsausgänge
 
-Bei Bitcoin tauschen wir tatsächlich nicht direkt Bitcoins, sondern **UTXOs** (_Unspent Transaction Outputs_), was "unverbrauchte Transaktionsausgänge" bedeutet.
+Bei Bitcoin tauschen wir tatsächlich nicht direkt Bitcoins, sondern **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), was "unverbrauchte Transaktionsausgänge" bedeutet.
 
 Ein UTXO ist ein Stück Bitcoin, das jeden beliebigen Wert haben kann, zum Beispiel **2.000 Bitcoins**, **8 Bitcoins** oder sogar **8.000 Sats**. Jeder UTXO wird durch ein Skript gesperrt, und um ihn auszugeben, muss man die Bedingungen des Skripts erfüllen, oft eine Signatur mit dem privaten Schlüssel, der einer bestimmten Empfangsadresse entspricht.
 
@@ -592,7 +592,7 @@ In diesem Kapitel haben wir das Routing von Zahlungen im Lightning-Netzwerk erku
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-In diesem Kapitel werden wir entdecken, wie Lightning Zahlungen durch Zwischenknoten ermöglicht, ohne dass diesen vertraut werden muss, dank **HTLC** (_Hashed Time-Locked Contracts_). Diese Smart Contracts stellen sicher, dass jeder Zwischenknoten die Gelder aus seinem Kanal nur dann erhält, wenn er die Zahlung an den endgültigen Empfänger weiterleitet, andernfalls wird die Zahlung nicht validiert.
+In diesem Kapitel werden wir entdecken, wie Lightning Zahlungen durch Zwischenknoten ermöglicht, ohne dass diesen vertraut werden muss, dank **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Diese Smart Contracts stellen sicher, dass jeder Zwischenknoten die Gelder aus seinem Kanal nur dann erhält, wenn er die Zahlung an den endgültigen Empfänger weiterleitet, andernfalls wird die Zahlung nicht validiert.
 
 Das Problem, das sich für das Routing von Zahlungen ergibt, ist daher das notwendige Vertrauen in Zwischenknoten und unter den Zwischenknoten selbst. Um dies zu veranschaulichen, lassen Sie uns unser vereinfachtes Lightning-Netzwerk-Beispiel mit 3 Knoten und 2 Kanälen erneut besuchen:
 
@@ -1023,6 +1023,10 @@ Wir haben gesehen, dass das Liquiditätsmanagement im Lightning eine Herausforde
 - **Kollaborative Eröffnungen**: Es gibt auch Plattformen, die für die Verbindung zur Durchführung von Dreieckseröffnungen und zum Erhalt von eingehender Liquidität verfügbar sind.
 
 ![LNP201](assets/en/084.webp)
+
+Nachdem Sie nun die theoretische Funktionsweise des Lightning Network verstanden haben, können Sie zur Praxis übergehen und Ihren ersten Lightning-Node einrichten, um mehr Autonomie bei der Nutzung zu gewinnen. Folgen Sie dazu dem Kurs LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # Abschließender Abschnitt
 

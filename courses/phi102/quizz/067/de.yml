@@ -1,0 +1,8 @@
+question: Welches Paradoxon besteht dem Text zufolge zwischen Sicherheit und wirtschaftlichem Fortschritt?
+answer: Sicherheit ist sowohl eine Voraussetzung für als auch eine Folge von Entwicklung
+wrong_answers:
+  - Sicherheit kommt immer erst nach der wirtschaftlichen Entwicklung
+  - Wirtschaftlicher Fortschritt macht Sicherheitsmaßnahmen natürlich überflüssig
+  - Sicherheit und wirtschaftlicher Fortschritt sind völlig unabhängig voneinander
+explanation: |
+  In diesem Kapitel wird erläutert, dass Sicherheit und wirtschaftlicher Fortschritt eine paradoxe Beziehung eingehen: Sicherheit ist die Voraussetzung für Entwicklung (ohne sie kann man nicht innovieren oder langfristig investieren), aber man braucht auch wirtschaftliche Überschüsse aus der Produktion, um die Institutionen zu finanzieren, die für Sicherheit sorgen. Es ist schwierig, diesen Kreislauf in Gang zu setzen, aber wenn er einmal begonnen hat, verstärkt er sich selbst. Die anderen Antworten sind falsch, weil sie eine einfache einseitige Beziehung oder Unabhängigkeit suggerieren, anstatt diese komplexe Interdependenz darzustellen.

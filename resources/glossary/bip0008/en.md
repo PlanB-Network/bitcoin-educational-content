@@ -1,5 +1,6 @@
 ---
 term: BIP0008
+definition: Method for activating soft forks integrating an automatic UASF mechanism if miners do not signal their support within the allotted time.
 ---
 
 Developed following the debates on SegWit, which used BIP9 for its activation, BIP8 is a soft fork activation method that natively incorporates an automatic UASF (*User-Activated Soft Fork*) mechanism. Like BIP9, BIP8 utilizes miner signaling but adds the `LOT` (*Lock-in On Time out*) parameter. If `LOT` is set to `true`, upon the expiration of the signaling period without reaching the required threshold, a UASF is automatically triggered, forcing the activation of the soft fork. This approach puts pressure on miners: either cooperate or risk a user‑enforced soft fork.

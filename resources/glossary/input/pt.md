@@ -1,5 +1,6 @@
 ---
-term: ENTRADA
+term: Input
+definition: UTXO utilizado como fundos de origem numa transação Bitcoin, referenciando uma saída anterior.
 ---
 
 No contexto do Bitcoin, uma entrada numa transação refere-se aos UTXOs (*Unspent Transaction Outputs*) utilizados como fundos originais para satisfazer as saídas. Cada entrada contém referências a UTXOs anteriores, que serão depois consumidos pela transação. Estas entradas são utilizadas para alimentar novos UTXOs que serão criados como outputs da transação e que podem depois ser gastos em transacções futuras.

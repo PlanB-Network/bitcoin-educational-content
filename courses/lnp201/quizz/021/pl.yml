@@ -6,4 +6,4 @@ wrong_answers:
   - Blokuje użycie klucza odwołania
 explanation: |
   Blokada czasowa nakłada opóźnienie, podczas którego oszust nie może odzyskać swoich środków, dając w ten sposób drugiej stronie możliwość odpowiedzi.
-reviewed: false
+reviewed: true

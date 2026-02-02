@@ -6,3 +6,4 @@ wrong_answers:
   - The user activated soft fork (UASF) flag day activation system
 explanation: |
   According to Eric Lombrozo's analysis, Satoshi's hard fork (which was poorly communicated and hidden in a commit about makefile changes) inadvertently created the OP_NOP1 through OP_NOP10 opcodes. These 'no operation' codes were designed to do nothing when executed, but they provided placeholders that could later be repurposed for new functionality through soft forks. This proved prescient, as OP_NOP2 became OP_CHECKLOCKTIMEVERIFY (BIP65) and OP_NOP3 became OP_CHECKSEQUENCEVERIFY (BIP112). The other options are incorrect because BIP65 and BIP113 were the upgrades that used these opcodes rather than creating them, the compatibility framework is a conceptual approach rather than a technical feature, and UASF was proposed much later during the Segwit controversy.
+reviewed: false

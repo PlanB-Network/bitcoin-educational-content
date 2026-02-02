@@ -20,7 +20,7 @@ In diesem Tutorial lernen wir **Banxaas** kennen, eine Tauschplattform, die den 
 
 
 
-Banxaas stammt aus dem senegalesischen Dialekt (Wolof) und bedeutet "Zweig". Ideologisch gesehen können wir Banxaas als einen Zweig sehen, der die Senegalesen mit der Verwendung von Bitcoin verbindet. Ein Zweig, auf den man sich verlassen kann, um seine Ersparnisse vor Inflation und Zensur zu schützen. Entwickelt von einem senegalesischen Start-up-Unternehmen (Yité Technologies), bietet [Banxaas] (https://banxaas.com) einen sofortigen Exchange-Dienst zwischen Bitcoin und dem CFA-Franc (XOF) und umgekehrt, dank der Kraft von Lightning Network. Banxaas hat einen ungewöhnlichen Ansatz für Exchange-Plattformen in der westafrikanischen Subregion.
+Banxaas stammt aus dem senegalesischen Dialekt (Wolof) und bedeutet "Zweig". Ideologisch gesehen können wir Banxaas als einen Zweig sehen, der die Senegalesen mit der Verwendung von Bitcoin verbindet. Ein Zweig, auf den man sich verlassen kann, um seine Ersparnisse vor Inflation und Zensur zu schützen. Entwickelt von einem senegalesischen Start-up-Unternehmen (Yité Technologies), bietet [Banxaas](https://banxaas.com) einen sofortigen Exchange-Dienst zwischen Bitcoin und dem CFA-Franc (XOF) und umgekehrt, dank der Kraft von Lightning Network. Banxaas hat einen ungewöhnlichen Ansatz für Exchange-Plattformen in der westafrikanischen Subregion.
 
 
 
@@ -37,7 +37,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Zum ersten Mal mit Banxaas handeln
 
@@ -173,8 +173,8 @@ Das Banxaas-Team steht Ihnen zur Verfügung, um Ihnen bei Problemen zu helfen. S
 
 
 - [X](https://x.com/banxaas_sn)
-- [Telegramm] (https://t.me/banxaas_app)
-- [Whatsapp] (https://chat.whatsapp.com/JOjCpBoHXow2ljOJFBMVnX)
+- [Telegramm](https://t.me/banxaas_app)
+- [Whatsapp](https://chat.whatsapp.com/JOjCpBoHXow2ljOJFBMVnX)
 - [Nostr](https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrhh7zy)
 
 

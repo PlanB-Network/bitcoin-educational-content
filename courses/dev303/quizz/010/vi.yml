@@ -1,0 +1,8 @@
+question: Điều gì xảy ra với một biến khi quyền sở hữu được chuyển giao cho một biến khác trong Rust?
+answer: Biến ban đầu trở nên không hợp lệ và không thể sử dụng được nữa.
+wrong_answers:
+  - Biến ban đầu trở thành một tham chiếu chỉ đọc đến dữ liệu.
+  - Cả hai biến đều có chung quyền sở hữu và có thể sửa đổi dữ liệu một cách độc lập.
+  - Biến ban đầu được tự động chuyển đổi thành tham chiếu có thể thay đổi.
+explanation: |
+  Khi quyền sở hữu được chuyển giao trong Rust, biến ban đầu trở nên hoàn toàn không hợp lệ và không thể truy cập được nữa. Đây là một tính năng an toàn cơ bản ngăn chặn nhiều biến quản lý cùng một vùng nhớ heap, điều này có thể dẫn đến lỗi sử dụng sau khi giải phóng (use-after-free) hoặc lỗi giải phóng hai lần (double-free). Thao tác di chuyển chuyển toàn bộ quyền điều khiển cho biến mới, và trình biên dịch sẽ báo lỗi nếu bạn cố gắng sử dụng biến ban đầu sau khi di chuyển. Điều này khác với sao chép (trong đó cả hai biến vẫn hợp lệ) và mượn (trong đó chủ sở hữu ban đầu vẫn giữ quyền sở hữu).

@@ -6,3 +6,4 @@ wrong_answers:
   - Third-party services gain the ability to create new bitcoins beyond the normal issuance schedule
 explanation: |
   When users don't run their own full nodes, they outsource their power to enforce Bitcoin's rules to others. This weakens Bitcoin's decentralization because fewer independent parties are validating transactions and blocks. As David Harding explains, this creates a situation where a small number of miners and service providers could potentially change Bitcoin's rules for non-verifying users, while those users would be unable to transact with people running full validation nodes who reject those rule changes.
+reviewed: false

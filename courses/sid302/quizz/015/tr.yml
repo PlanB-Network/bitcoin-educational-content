@@ -1,0 +1,8 @@
+question: Taproot özellikli bir HTLC'de, takas başarısız olduğunda ve taraflardan birinin düşmanca yolla fonlarını geri alması gerektiğinde Bitcoin ağına hangi bilgiler açıklanır?
+answer: Yalnızca fon kurtarma için gereken hash/zaman kilidi koşullarını içeren belirli Merkle ağacı dalı
+wrong_answers:
+  - "Tüm olası yürütme yolları ve her iki tarafın bireysel açık anahtarları dahil olmak üzere tüm senaryo mantığı"
+  - MuSig2 anahtar kombinasyonu işleminde kullanılan ön görüntü gizli ve tüm birleştirilmiş açık anahtarlar
+  - Takas tutarları, zaman dilimleri ve hem Yıldırım hem de Liquid adresleri dahil olmak üzere tüm HTLC sözleşme şartları
+explanation: |
+  Taproot, HTLC koşullarını bir Merkle ağacı yapısında düzenleyerek seçici ifşaya izin verir. İşbirliği başarısız olduğunda, yalnızca fonları geri alma hakkını kanıtlamak için gereken belirli dal açıklanırken, diğer sözleşme ayrıntıları gizli kalır. Bu, tüm senaryoları ifşa eden eski HTLC'lerden farklıdır ve hiçbir senaryo detayının ifşa edilmediği işbirlikçi durumlardan farklıdır.

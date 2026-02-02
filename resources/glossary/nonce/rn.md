@@ -1,5 +1,6 @@
 ---
 term: Nonce
+definition: Inomero ikoreshwa rimwe gusa, ihindurwa n'abacukuzi kugira baronke hash y'ikibonwa yemewe.
 ---
 
 Mu bijanye n'ubuhinga bwo guharura, ijambo "Nonce" ryerekeza ku mubare ukoreshwa rimwe gusa hanyuma ugasubirizwa. Akenshi ni ivy’imburakimazi canke ivy’imburakimazi. Nonces zikoreshwa mu mirongo ngenderwako itandukanye y’ubuhinga bwo gukingira amakuru kugira ngo umutekano w’ivyo bikorwa ubeho. Nk’akarorero, imikono ya ECDSA ikoreshwa mu masezerano ya Bitcoin irimwo n’ugukoresha Nonce. Ivyo bisigura ko uwo mubare utegerezwa kuba mushasha ku musinya wose. Niba atari ko biri, birashoboka kubara urufunguzo rw’ibanga rukoreshwa mu kugereranya imikono ibiri ikoresha Nonce imwe.

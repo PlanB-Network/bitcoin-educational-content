@@ -6,4 +6,4 @@ wrong_answers:
   - Że jest to transakcja on-chain
 explanation: |
   Prefiks lnbc oznacza, że faktura dotyczy transakcji Lightning w sieci Bitcoin, a nie w innej sieci.
-reviewed: false
+reviewed: true

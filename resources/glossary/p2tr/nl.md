@@ -1,5 +1,6 @@
 ---
 term: P2TR
+definition: Taproot-script dat uitgaven toestaat via een publieke sleutel of Merkle-scripts, bc1p-adressen.
 ---
 
 P2TR staat voor *Betalen aan Taproot*, wat een standaard scriptmodel is dat wordt gebruikt om bestedingsvoorwaarden vast te stellen voor een UTXO (Onbestede Transactie Output). Het werd geïntroduceerd met de implementatie van Taproot in november 2021. P2TR gebruikt het Schnorr-protocol om cryptografische sleutels samen te voegen, evenals Merkle trees voor alternatieve scripts, bekend als MAST (*Merkelized Alternative Script Tree*). In tegenstelling tot traditionele transacties waarbij de bestedingsvoorwaarden openbaar zijn (soms op het moment van ontvangen, soms op het moment van uitgeven), maakt P2TR het mogelijk om complexe scripts te verbergen achter een enkele ogenschijnlijke openbare sleutel.

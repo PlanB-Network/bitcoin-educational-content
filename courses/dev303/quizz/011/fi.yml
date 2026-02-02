@@ -1,0 +1,8 @@
+question: Mikä on Rust:n käännöksen aikaisen muistiturvallisuuden ensisijainen etu verrattuna roskienkeruuseen?
+answer: Se eliminoi suoritusajan ylikuormituksen ja arvaamattomat suorituskykytauot
+wrong_answers:
+  - Se käyttää enemmän muistia, mutta tarjoaa paremmat turvatakuut
+  - Se vaatii vähemmän koodia kirjoitettavaksi, mutta toimii hitaammin kuin roskienkeruu
+  - Se estää kaikki suoritusvirheet, mutta käyttää enemmän suorittimen suorituksen aikana
+explanation: |
+  Rust:n kääntämisen aikainen muistiturvallisuusmenetelmä analysoi koodia kääntämisen aikana varmistaakseen muistiturvallisuuden ilman mitään ajoaikakustannuksia. Toisin kuin Javan ja Gon kaltaisissa kielissä käytetty roskienkeräys, joka aiheuttaa suorituskykyyn liittyviä yleiskustannuksia ja voi aiheuttaa arvaamattomia taukoja ohjelman suorituksen aikana, Rust:n järjestelmällä ei ole lainkaan ajoaikavaikutuksia. Muut vaihtoehdot ovat virheellisiä, koska Rust käyttää muistia tehokkaammin (ei enempää), se ei toimi hitaammin (se toimii nopeammin ilman ajonaikaisia tarkistuksia) eikä käytä enemmän suoritinta suorituksen aikana (työ tehdään kääntämisen aikana).

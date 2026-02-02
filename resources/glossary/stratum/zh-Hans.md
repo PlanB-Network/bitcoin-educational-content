@@ -1,6 +1,7 @@
 ---
-term: STRATUM
+term: Stratum
 
+definition: 优化个体矿工与矿池服务器之间通信的网络协议。
 ---
 Stratum 是比特币之上的一种网络协议，专门用于优化个体矿工与矿池服务器之间的通信，以提高他们的盈利能力。Stratum 于 2011 年底由 Marek Palatinus 发布，他的笔名是 “Slush”，是第一个矿池 Slush Pool（现更名为 Braiins）的创始人。Stratum 取代了已经过时的旧版 Getwork 协议。
 

@@ -1,0 +1,8 @@
+question: Cuando un Bitcoin wallet escanea bloques en busca de pagos entrantes, ¿por qué se prefiere descargar bloques enteros a solicitar transacciones individuales a los pares de la red?
+answer: La descarga de bloques enteros ofrece una mayor protección de la intimidad al no revelar qué transacciones o direcciones concretas le interesa supervisar a wallet
+wrong_answers:
+  - La descarga de bloques completos es más eficiente desde el punto de vista computacional porque requiere menos operaciones hash criptográficas para verificar la autenticidad de las transacciones
+  - La descarga de bloques completos garantiza una sincronización más rápida, ya que los pares pueden enviar datos de bloques comprimidos en lugar de respuestas a transacciones individuales
+  - La descarga de bloques completos proporciona mayor seguridad porque permite a wallet verificar el proof-of-work completo para cada transacción
+explanation: |
+  La privacidad es la principal ventaja de la recuperación basada en bloques. Cuando un wallet solicita transacciones específicas, filtra fuertes señales sobre la actividad del usuario y revela qué direcciones pertenecen a ese wallet. La descarga de bloques enteros enmascara los intereses reales del wallet entre todas las transacciones de bloques. Las respuestas erróneas se centran en ventajas de eficiencia, velocidad o seguridad que no son la motivación principal: las solicitudes de transacciones individuales podrían ser teóricamente igual de seguras o eficientes, pero comprometen fundamentalmente la privacidad al revelar los patrones de seguimiento del wallet a los pares de la red.

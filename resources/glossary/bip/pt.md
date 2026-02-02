@@ -1,6 +1,7 @@
 ---
-term: PIF
+term: BIP
 
+definition: Bitcoin Improvement Proposal. Processo formal que permite à comunidade propor, discutir e documentar melhorias no protocolo Bitcoin.
 ---
 Acrónimo de "Bitcoin Improvement Proposal" Uma Proposta de Melhoria do Bitcoin (BIP) é um processo formal para propor e documentar melhorias e mudanças no protocolo Bitcoin e seus padrões. Uma vez que a Bitcoin não tem uma entidade central para decidir sobre as actualizações, as BIPs permitem que a comunidade sugira, discuta e implemente melhorias de uma forma estruturada e transparente. Cada BIP detalha os objectivos da melhoria proposta, as justificações, os potenciais impactos na compatibilidade, bem como as vantagens e desvantagens. Os BIPs podem ser escritos por qualquer membro da comunidade, mas devem ser aprovados por outros desenvolvedores e pelos editores que mantêm o banco de dados do Bitcoin Core GitHub: Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun e Ruben Somsen. No entanto, é importante compreender que o papel destes indivíduos na edição de PIFs não significa que controlam o Bitcoin. Se alguém propuser uma melhoria que não seja aceite no âmbito do quadro formal das PIF, pode ainda assim apresentá-la diretamente à comunidade Bitcoin ou mesmo criar um fork que inclua a sua modificação. A vantagem do processo BIP reside na sua formalidade e centralização, que facilitam o debate para evitar divisões entre os utilizadores de Bitcoin, procurando implementar actualizações de forma consensual. No final, é o princípio da maioria económica que determina a dinâmica de poder dentro do protocolo.
 
@@ -33,6 +34,5 @@ As PIF passam então por diferentes estados ao longo do seu ciclo de vida. O est
 - Ativo: Apenas para os PIF de processo, este estatuto é atribuído quando se atinge um determinado consenso;
 - Substituído / Obsoleto: O PIF já não é aplicável ou foi substituído por uma proposta mais recente que o torna desnecessário.
 
-![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP é o acrónimo de "Bitcoin Improvement Proposal". Em francês, pode ser traduzido como "Proposition d'amélioration de Bitcoin". No entanto, a maioria dos textos franceses utiliza diretamente a sigla "BIP" como um substantivo comum, por vezes feminino, por vezes masculino*
+

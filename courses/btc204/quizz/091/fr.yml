@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Il faut éviter de combiner dans une même transaction des UTXOs mixés avec des UTXOs non mixés, mais également des UTXOs mixés entre eux, afin d'éviter la CIOH (Common-Input-Ownership-Heuristic).
 
-reviewed: false
+reviewed: true 

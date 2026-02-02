@@ -1,6 +1,7 @@
 ---
-term: LABEL (STILLE ZAHLUNGEN)
+term: Label (silent payments)
 
+definition: Ganze Zahlen, die zur Erstellung abgeleiteter statischer Adressen verwendet werden, um Verwendungszwecke in Silent Payments zu trennen.
 ---
 Im Rahmen des Silent-Payments-Protokolls sind Labels ganze Zahlen, die zur Änderung der ursprünglichen statischen Adresse verwendet werden, um viele weitere statische Adressen zu erstellen. Die Verwendung dieser Labels ermöglicht die Trennung von Zahlungen, die über Silent Payments verschickt werden, indem für jeden Verwendungszweck eine andere statische Adresse verwendet wird, ohne dass der operative Aufwand für die Erkennung dieser Zahlungen (Scanning) übermäßig erhöht wird. Bob verwendet eine statische Adresse $B$, die aus zwei öffentlichen Schlüsseln besteht: $B_{\text{scan}}$ für das Scannen und $B_{\text{spend}}$ für das Ausgeben. Der Hash von $b_{\text{scan}}$ und einer ganzen Zahl $m$, skalarmultipliziert mit dem Generatorpunkt $G$, wird zum öffentlichen Ausgabenschlüssel $B_{\text{spend}$ hinzugefügt, um eine Art neuen öffentlichen Ausgabenschlüssel $B_m$ zu erzeugen:
 

@@ -8,6 +8,7 @@ wrong_answers:
   - La transaction est déjà diffusée sur le réseau Bitcoin.
 
 explanation: |
-  Lorsque les participants signent la transaction globale, après s'être assurés que tout est correct, le coordinateur ne peut plus modifier cette transaction, y compris les outputs, sans l'invalider, car la signature couvre toute la transaction.
+  Lorsque les participants signent la transaction globale, après s'être assurés que tout est correct, le coordinateur ne peut plus modifier cette transaction, 
+  y compris les outputs, sans l'invalider, car la signature couvre toute la transaction.
 
-reviewed: false
+reviewed: true 

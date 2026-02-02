@@ -73,13 +73,13 @@ RGB-l on oma jäneseurg Bitcoini jäneseurgu sees, samal ajal kui ma nende kaudu
 - 4 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
-# RGB-sõlme Õpetus
+## RGB-sõlme Õpetus
 
-## Sissejuhatus
+### Sissejuhatus
 
 Selless õpetuses selgitame, kuidas kasutada RGB-sõlme fungibelse tokeni loomiseks ja selle ülekandmiseks, see dokument põhineb RGB-sõlme demol ja erineb selle poolest, et see õpetus kasutab reaalseid testneti andmeid ja selleks peame ehitama oma osaliselt allkirjastatud Bitcoin tehingu, edaspidi psbt.
 
-## Nõuded
+### Nõuded
 
 Soovitatav on kasutada Linuxi distributsiooni, see õpetus on kirjutatud kasutades Pop!OS-i, mis põhineb Ubuntul ja teil on vaja:
 
@@ -214,7 +214,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data0 -n testnet
 $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
-## Väljaandmine
+### Väljaandmine
 
 Vara väljaandmiseks käivitame rgb0-cli koos fungible issue alamkäsklustega, seejärel argumendid, tiker USDT, nimi "USD Tether" ja jaotuses kasutame väljaandmise summat ja issuance_utxo nagu allpool näha:
 
@@ -317,7 +317,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 Saatke see kasutades `sendrawtransaction` alamkäsku, et see kinnitataks plokiahelasse.
 
 ```bash
-## Nõustu
+### Nõustu
 
 Vastuvõtmiseks peaks rgb-node-1 olema saanud konsignatsioonifaili rgb-node-0-lt, omama receive_utxo ja vastavat blinding_factor, mis genereeriti UTXO varjamise ajal.
 
@@ -439,7 +439,7 @@ description: ~  teadaolevRinglus: 1000
         väärtus: 900
         varjamine: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 
-## Järeldused
+### Järeldused
 
 Oleme suutnud luua vahetatava vara ja liigutada seda ühest tehingust teise privaatsel viisil, kui me kontrollime kinnitatud tehingut plokiahelas, ei leia me midagi erinevat tavalisest tehingust, see on tänu asjaolule, et RGB kasutab ühekordseid pitseid tehingute kohandamiseks. Selles postituses teen sissejuhatuse selle kohta, kuidas RGB töötab.
 

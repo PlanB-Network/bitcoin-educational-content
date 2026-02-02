@@ -8,7 +8,7 @@ description: Cấu hình LN VPN với Lightning cho một VPN ẩn danh và theo
 
 LN VPN là một dịch vụ VPN có thể tùy chỉnh chỉ chấp nhận thanh toán qua lightning. Hôm nay, tôi sẽ hướng dẫn bạn cách sử dụng nó và để lại ít dấu vết hơn khi duyệt web.
 
-Có nhiều nhà cung cấp dịch vụ VPN chất lượng, và chúng tôi đã thực hiện một bài đánh giá toàn diện trong bài viết này (hyperlink). Tuy nhiên, LN VPN nổi bật, và chúng tôi không thể bỏ lỡ cơ hội giới thiệu nó cho bạn.
+Có nhiều nhà cung cấp dịch vụ VPN chất lượng, nhưng LN VPN nổi bật, và chúng tôi không thể bỏ lỡ cơ hội giới thiệu nó cho bạn.
 
 Hầu hết các nhà cung cấp dịch vụ VPN như ProtonVPN và Mullvad đều cung cấp tùy chọn thanh toán bằng bitcoin nhưng yêu cầu tạo tài khoản và mua gói dịch vụ cho một thời hạn dài hoặc ngắn, có thể không phù hợp với ngân sách của mọi người.
 

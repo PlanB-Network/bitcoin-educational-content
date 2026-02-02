@@ -1,0 +1,9 @@
+question: Mikä on ensisijainen syy siihen, että Bitcoin käyttää julkisista avaimista johdettuja osoitteita pseudonyymeinä kuvailevien käyttäjätunnusten sijaan?
+answer: Mahdollistaa turvallisen offline-osoitteen luomisen ilman lohkoketjun rekisteröintiä
+wrong_answers:
+  - Jotta transaktiot olisivat täysin anonyymejä ja jäljittämättömiä lohkoketjussa
+  - Tapahtumien todentamiseen tarvittavan laskentatehon vähentämiseksi
+  - Saman pseudonyymin rajoittamaton uudelleenkäyttö useissa tapahtumissa sallitaan
+explanation: |
+  Bitcoin käyttää julkisista avaimista johdettuja osoitteita pseudonyymeinä, koska tämän järjestelmän avulla käyttäjät voivat luoda uusia osoitteita turvallisesti offline-tilassa ilman, että niitä tarvitsee ensin rekisteröidä lohkoketjuun. Kuvailevien käyttäjätunnusten käyttäminen edellyttäisi käyttäjätunnuksen ja julkisen avaimen välisen yhteyden ilmoittamista lohkoketjussa, mikä maksaisi maksuja, paisuttaisi lohkoketjua ja heikentäisi turvallisuutta. Lisäksi käyttäjätunnukset kannustaisivat uudelleenkäyttöön (mikä vähentäisi yksityisyyttä) ja aiheuttaisi henkilöitymisriskin. Osoitepohjainen järjestelmä poistaa nämä ongelmat ja säilyttää samalla Bitcoin:n toiminnan edellyttämän salausturvallisuuden.
+reviewed: false

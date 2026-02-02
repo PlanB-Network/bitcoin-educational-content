@@ -1,5 +1,6 @@
 ---
-term: GUSUBIRAMWO GUHURIZA
+term: Resynchronisation
+definition: Gusubiriza igice c'umuhora n'undi muhora uhiganwa ufise ibikorwa vyinshi vyatunzwe.
 ---
 
 Yerekeza ku kintu aho Blockchain ihinduka mu mibumbe yayo kubera ukubaho kw’amabuye ahanganye ku burebure bumwe. Ivyo bishika iyo igice ca Blockchain gisubiriwe n’uwundi murongo ufise igikorwa kinini cane cirundanirijwe.
@@ -8,7 +9,7 @@ Yerekeza ku kintu aho Blockchain ihinduka mu mibumbe yayo kubera ukubaho kw’am
 Ivyo bisubira gukorana ni kimwe mu bigize imikorere ya Bitcoin, aho abacukuzi batandukanye bashobora kuronka amabuye mashasha hafi icarimwe, gutyo bagacapura uruja n’uruza rwa Bitcoin mu bice bibiri. Mu bihe nk’ivyo, iyo nzira irashobora guca mu minyororo iriko irahiganwa mu gihe gito. Amaherezo, iyo imwe muri iyo minyororo yirundanirije ibikorwa vyinshi, iyindi minyororo irahebwa n'ibihimba, maze amabuye yayo agaca aba ivyo bita "amabuye ataco amaze" canke "amabuye y'impfuvyi." Uwo murongo wo gusubirira uruzitiro rumwe n’urundi ni ugusubira gukorana.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 
 Gusubira gukorana n’ibindi birashobora kugira ingaruka zitandukanye. Ica mbere, iyo umukoresha yari afise igikorwa cemejwe mu gice kigahinduka kigaheba, ariko ico gikorwa ntikiboneka mu ruhererekane rw’ukuri, rero igikorwa cabo kirasubira kuba kitaremejwe. Ni co gituma bihanurirwa kwama urindiriye nibura ivyemezo 6 kugira ngo umuntu abone ko igikorwa c’ubudandaji kidahinduka vy’ukuri. Inyuma y’amabarabara 6 y’uburebure, ugusubira gukorana birashoboka cane ku buryo amahirwe y’uko kimwe coshika yoshobora gufatwa nk’aho ari ubusa.

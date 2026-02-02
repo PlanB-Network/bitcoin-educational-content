@@ -1,5 +1,4 @@
 description: |
   Brzina Bitcoin Lightning Wallet je Bitcoin Wallet koji omogućava korisnicima da sigurno šalju i primaju Bitcoin i stablecoin-e
-  
-  Korisnici mogu slati i primati Bitcoin na bilo kojoj veb stranici koja podržava Bitcoin plaćanja, vršiti plaćanja koristeći LNurl, LN Invoice, ili LN Address, i osigurati svoj nalog dvofaktorskom autentifikacijom. 
-  Integracija USDT stablecoin-a i bitrefill-a.
+
+  Korisnici mogu slati i primati Bitcoin na bilo kojoj veb stranici koja podržava Bitcoin plaćanja, vršiti plaćanja koristeći LNurl, LN Invoice, ili LN Address, i osigurati svoj nalog dvofaktorskom autentifikacijom. Integracija USDT stablecoin-a i bitrefill-a.

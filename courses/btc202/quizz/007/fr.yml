@@ -6,4 +6,4 @@ wrong_answers:
   - Se connecter à une plateforme d'échange en ligne
 explanation: |
   Un portefeuille doit se connecter à un nœud pour accéder à l’état de la blockchain et diffuser ses transactions.
-reviewed: false
+reviewed: true 

@@ -1,0 +1,8 @@
+question: Šta `cargo new project_name` komanda automatski kreira kao deo strukture projekta?
+answer: Git repozitorijum, Cargo.toml fajl, i osnovni main.rs fajl sa Hello World programom
+wrong_answers:
+  - Samo Cargo.toml konfiguraciona datoteka i prazna struktura izvornog direktorijuma
+  - Kompletan skup testova, dokumentacioni fajlovi i konfiguracija spremna za proizvodnju
+  - Binarne izvršne datoteke, ciljni direktorijum i konfiguracija izdanja za izgradnju
+explanation: |
+  Komanda `cargo new` kreira sveobuhvatnu osnovu projekta uključujući Git repozitorijum za kontrolu verzija, Cargo.toml fajl za konfiguraciju projekta i zavisnosti, i osnovni main.rs fajl koji sadrži program 'Hello, world!'. Ovo obezbeđuje sve što je potrebno za trenutni početak razvoja. Ostale opcije su netačne jer cargo new ne kreira testne suite, dokumentacione fajlove, izvršne binarne fajlove ili artefakte izgradnje - on samo postavlja početnu strukturu projekta.

@@ -1,0 +1,9 @@
+question: Artan blok boyutlarının Bitcoin mining'de daha yüksek bayat blok olasılığına yol açmasının birincil nedeni nedir?
+answer: Daha büyük blokların ağda yayılması ve doğrulanması daha fazla zaman alır, bu da madencilerin eski blok zinciri ipuçları üzerinde çalıştığı daha uzun pencereler yaratır
+wrong_answers:
+  - Daha büyük blokların madenciliği için daha fazla hesaplama gücü gerekir, bu da madencilerin geçerli proof-of-work çözümlerini bulmak için daha uzun süre harcamasına neden olur
+  - "Artan blok boyutları, zorluk ayarlama mekanizmasının etkinliğini azaltarak öngörülemeyen blok zamanlama aralıklarına yol açar"
+  - Daha büyük bloklar, rakip bloklar arasında daha fazla işlem çakışması yaratarak hangi bloğun kabul edilmesi gerektiğini belirlemeyi zorlaştırır
+explanation: |
+  Doğru cevap, bayat blokların arkasındaki temel mekanizmayı tanımlar. Bloklar daha büyük olduğunda, düğümler arasında aktarılmak için daha fazla bant genişliğine ve doğrulanmak için daha fazla zamana ihtiyaç duyarlar. Bu uzun yayılma süresi boyunca, birden fazla madenci henüz en son bloğu almadıkları için aynı yükseklikte rakip bloklar bulabilir. Bu da sonuçta yalnızca bir bloğun kabul edilebileceği ve diğerlerinin bayatlayacağı bir yarış durumu yaratır. Yanlış cevaplar, bu yayılma sorununu mining zorluğu, mutabakat mekanizmaları veya işlem çatışmaları ile karıştırmaktadır; bunlar bayat bloklara neden olan zamanlama sorunundan ayrı endişelerdir.
+reviewed: false

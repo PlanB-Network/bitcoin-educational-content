@@ -1,0 +1,8 @@
+question: Metode mana yang memungkinkan Anda mengekstrak nilai dari Hasil sambil memberikan pesan panik khusus jika terjadi kesalahan?
+answer: mengharapkan
+wrong_answers:
+  - buka_bungkus_atau_lain
+  - buka_bungkus_dengan_pesan
+  - panik_dengan
+explanation: |
+  Metode expect dirancang khusus untuk mengekstrak nilai keberhasilan dari sebuah Result sekaligus memungkinkan Anda untuk memberikan pesan panik khusus yang akan ditampilkan jika terjadi kesalahan. Hal ini membuat debugging lebih mudah dibandingkan dengan unwrap, yang menggunakan pesan panik umum. Metode unwrap_or_else tidak membuat panik, melainkan mengeksekusi penutupan ketika terjadi kesalahan. Opsi lainnya (unwrap_with_message dan panic_with) bukanlah metode Rust yang sebenarnya untuk menangani tipe Result.

@@ -1,0 +1,8 @@
+question: ECDSA imza doğrulama sürecinde, bir imzanın geçerli sayılabilmesi için hangi matematiksel ilişkinin doğru olması gerekir?
+answer: UG + VP'nin x-koordinatı R'ye eşit olmalıdır, burada U = Z/S ve V = R/S
+wrong_answers:
+  - UG + VP'nin y-koordinatı S'ye eşit olmalıdır; burada U = R/Z ve V = S/Z
+  - KG + ZP'nin x-koordinatı S'ye eşit olmalıdır, burada K nonce ve Z hash'tir
+  - R + S toplamı, açık anahtar noktası P'nin x koordinatına eşit olmalıdır
+explanation: |
+  ECDSA doğrulaması, orijinal KG noktasını UG + VP denklemiyle yeniden oluşturarak çalışır; burada U = Z/S (hash bölü S) ve V = R/S'dir. Yeniden yapılandırılan bu noktanın x koordinatı imzadaki R'ye eşitse doğrulama başarılı olur. Bu matematiksel ilişki, cebir KG'yi açık anahtar ve imza bileşenleri aracılığıyla dolaylı olarak yeniden oluşturduğundan, özel anahtarı veya nonce K'yi bilmeden doğrulamaya izin verir.

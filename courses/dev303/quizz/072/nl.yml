@@ -1,0 +1,8 @@
+question: Wat onderscheidt runtime resource fouten van ongeldige invoerfouten en logische fouten in Bitcoin applicatieontwikkeling?
+answer: Runtime resource fouten treden op wanneer externe afhankelijkheden zoals bestanden of netwerkverbindingen niet beschikbaar zijn, waardoor eerder omgevingsoplossingen dan codewijzigingen nodig zijn
+wrong_answers:
+  - "Runtime resource errors treden op wanneer functieparameters niet voldoen aan de eisen, wat wijst op contractschendingen tussen aanroeper en functie"
+  - Runtime resource fouten zijn bugs in de programma-implementatie die debugging en code-aanpassing vereisen om goed op te lossen
+  - Runtime resource fouten treden op wanneer het typesysteem er niet in slaagt om mismatches op te vangen, waardoor onjuiste datatypes zich door het systeem kunnen verspreiden
+explanation: |
+  Runtime resource fouten zijn extern aan de programmalogica en treden op wanneer afhankelijkheden zoals bestanden, netwerkverbindingen of opslagapparaten niet beschikbaar zijn. In tegenstelling tot ongeldige invoerfouten (die te maken hebben met schendingen van parametercontracten) of logicafouten (die implementatiebugs zijn), vereisen runtime resource fouten meestal herstel van de omgeving in plaats van wijzigingen in de code. De applicatie moet deze netjes afhandelen omdat ze vaak tijdelijk zijn en buiten de directe controle van het programma liggen.

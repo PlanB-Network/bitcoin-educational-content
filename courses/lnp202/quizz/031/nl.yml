@@ -1,0 +1,9 @@
+question: Wat betekent de knooppunt-ID van een Lightning-knooppunt?
+answer: Openbare sleutel en adres van knooppunt
+wrong_answers:
+  - Knooppunt seed en adres
+  - Node alias en publieke sleutel
+  - Hash knooppunt alias en seed
+explanation: |
+  De Node ID combineert de openbare sleutel van het knooppunt met het netwerkadres en de poort.
+reviewed: false

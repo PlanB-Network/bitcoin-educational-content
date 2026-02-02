@@ -1,0 +1,8 @@
+question: Minkä perustavanlaatuisen puutteen liberaali analyysi havaitsee perinteisissä kansallisen yhtenäisyyden perusteluissa, kuten yhteisessä kielessä, kulttuurissa tai historiassa?
+answer: Nämä perustelut ovat historiallisesti epätarkkoja tekosyitä, jotka peittävät alleen poliittisen laajentumisen, jota ajavat pikemminkin asiakaskuntansa laajentamiseen pyrkivät hallitsijat kuin aidot kulttuuriset yhteydet
+wrong_answers:
+  - Ne luovat keinotekoisia esteitä, jotka estävät luonnollisen taloudellisen yhteistyön sellaisten alueiden välillä, joilla on toisiaan täydentäviä resursseja ja kaupankäyntimahdollisuuksia
+  - Ne johtavat liialliseen demokraattiseen osallistumiseen, joka heikentää yksilönvapautta alistamalla vähemmistöt enemmistön valtaan kulttuuriasioissa
+  - Ne luovat jäykät perustuslailliset puitteet, jotka tekevät rauhanomaisen poliittisen kehityksen ja institutionaalisten uudistusten toteuttamisen käytännössä mahdottomaksi pitkällä aikavälillä
+explanation: |
+  Tekstissä todetaan nimenomaisesti, että perinteiset perusteet kansalliselle yhtenäisyydelle, kuten kieli, kulttuuri tai historia, "eivät kestä puolueetonta analyysia" Historialliset todisteet osoittavat, että sodat ja alueellinen laajentuminen eivät perustuneet kielelliseen tai kulttuuriseen sukulaisuuteen vaan vallanpitäjien poliittisen asiakaskunnan laajentumismahdollisuuksiin. Kolonisaatioliike havainnollistaa täydellisesti tätä poliittisen asiakaskunnan laajentumista ottamatta huomioon kielellistä tai kulttuurista yhtenäisyyttä, mikä paljastaa nämä perustelut pelkiksi tekosyiksi vallan lujittamiselle.

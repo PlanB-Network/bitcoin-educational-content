@@ -6,3 +6,4 @@ wrong_answers:
   - Kodierung in base58check
 explanation: |
   Der öffentliche Schlüssel muss komprimiert werden, um seine Größe zu reduzieren, bevor er durch die HASH160-Hashfunktion geht.
+reviewed: true 

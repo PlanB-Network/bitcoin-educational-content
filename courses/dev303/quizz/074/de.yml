@@ -1,0 +1,8 @@
+question: Was ist die wichtigste Einschränkung bei der Verwendung der anyhow-Bibliothek für die Fehlerbehandlung bei der Entwicklung der Rust-Bibliothek?
+answer: Es wandelt alle Fehler in Zeichenketten um und verhindert so, dass Verbraucher programmatisch auf unterschiedliche Fehlerzustände reagieren können
+wrong_answers:
+  - Es funktioniert nur mit Ergebnistypen und kann nicht mit Optionstypen umgehen, was seine Nützlichkeit in gemischten Szenarien einschränkt
+  - Es erfordert eine manuelle Fehlerkonvertierung für jeden Fehlertyp, wodurch es ausführlicher ist als die Standard-Ergebnisbehandlung
+  - Bei bestimmten Fehlertypen gerät es automatisch in Panik, was es für die Produktion von Bibliothekscode ungeeignet macht
+explanation: |
+  Der größte Nachteil der anyhow-Bibliothek für die Bibliotheksentwicklung besteht darin, dass sie im Wesentlichen alle Fehler in String-Darstellungen umwandelt, wodurch die strukturierten Fehlerinformationen verloren gehen, die Bibliotheksnutzer benötigen, um programmatische Entscheidungen zu treffen. Während anyhow bei der Vereinfachung der Fehlerbehandlung für Endbenutzeranwendungen, bei denen Fehler in erster Linie angezeigt werden, hervorragende Dienste leistet, müssen Bibliotheken spezifische Fehlertypen bereitstellen, die es den Benutzern ermöglichen, zwischen verschiedenen Fehlermodi zu unterscheiden (z. B. ungültige Eingabe vs. Laufzeitfehler) und entsprechend zu reagieren. Die anderen Optionen sind falsch: anyhow funktioniert sowohl mit Ergebnis- als auch mit Optionstypen, reduziert die Ausführlichkeit durch automatische Konvertierung und löst keine Panik aus.

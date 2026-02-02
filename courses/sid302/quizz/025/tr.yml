@@ -1,0 +1,8 @@
+question: Ethereum tabanlı tokenizasyon platformlarına kıyasla Liquid'ı kritik finansal operasyonlar için daha uygun kılan temel blok zinciri mimarisi farkı nedir?
+answer: Liquid, Bitcoin'in deterministik işlem sonuçları sağlayan UTXO modelini kullanırken, Ethereum'un hesap modeli hala gaz ücreti tüketen başarısız işlemlerle sonuçlanabilir
+wrong_answers:
+  - Ethereum işlem doğrulama için enerji yoğun proof-of-work mining'ya güvenirken Liquid bir proof-of-stake mutabakat mekanizması üzerinde çalışır
+  - "Liquid'nin federe yan zincir yapısı sınırsız işlem hacmi sağlarken, Ethereum tek zincirli blok boyutu sınırlamalarıyla kısıtlanıyor"
+  - Liquid, Elements komut dosyası aracılığıyla yerel akıllı sözleşme işlevselliğini uygularken, Ethereum harici sanal makine yürütme ortamları gerektirir
+explanation: |
+  UTXO modelinin deterministik yapısı finansal kurumlar için çok önemlidir çünkü işlemler ya tamamen başarılı olur ya da herhangi bir maliyet olmadan başarısız olur ve öngörülebilir sonuçlar sağlar. Ethereum'un hesap modeli, gaz ücretlerini tüketmeye devam eden başarısız işlemlerle sonuçlanabilir ve güvenilirlik ve maliyet öngörülebilirliğinin çok önemli olduğu görev açısından kritik finansal operasyonlar için kabul edilemez olan operasyonel belirsizlik ve ek maliyetler yaratabilir.

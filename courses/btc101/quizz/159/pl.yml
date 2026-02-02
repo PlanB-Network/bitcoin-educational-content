@@ -1,8 +1,8 @@
-question: Co górnicy mogą zrobić dla tych elektrowni, które nie są jeszcze podłączone do sieci?
-answer: Mogą oni działać jako kupujący w ostateczności.
+question: Co górnicy mogą zrobić dla elektrowni, które nie są jeszcze podłączone do sieci?
+answer: Mogą kupować energię zanim elektrownia jest podłączona do sieci.
 wrong_answers:
-  - Mogą one dostarczać energię elektryczną do elektrowni.
-  - Mogą one podłączać elektrownie do sieci.
+  - Mogą dostarczać energię elektryczną do elektrowni.
+  - Mogą podłączać elektrownie do sieci.
   - Mogą regulować cenę energii elektrycznej.
 explanation: |
   Górnicy mogą działać jako ostateczny nabywca dla elektrowni, które

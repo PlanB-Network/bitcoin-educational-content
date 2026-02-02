@@ -19,7 +19,7 @@ Blitz Wallet är en Bitcoin självförvaltande Wallet vars källkod är tillgän
 
 
 
-[Blitz Wallet] (https://blitz-Wallet.com/) är en mobil Wallet som finns tillgänglig på Android (Play Store) och iOS (App Store).
+[Blitz Wallet](https://blitz-Wallet.com/) är en mobil Wallet som finns tillgänglig på Android (Play Store) och iOS (App Store).
 
 
 

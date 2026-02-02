@@ -1,0 +1,8 @@
+question: 從自我管理的 LDK 實作轉移到 Breez SDK 的雲端架構時，最重要的隱私權衡是什麼？
+answer: Greenlight 透過雲端路由獲得付款目的地和發票生成活動的潛在可見性
+wrong_answers:
+  - 「私密金鑰儲存在 Blockstream 的伺服器上，而非本機儲存在使用者的裝置上」
+  - 通道狀態資訊透過 Greenlight 節點在 Lightning Network 圖形上公開可見
+  - LSP 服務現在可以監控所有 on-chain 交易，並將其與 Lightning 付款模式相連結
+explanation: |
+  正確答案指出隱私權退化的關鍵：基於雲的路由允許 Greenlight 潛在地觀察付款目的地，同時雲發票生成擴大了資訊曝光，超出了傳統僅 LSP 架構所揭示的範圍。錯誤答案的原因是：儘管有雲端架構，私密金鑰仍由使用者控制；通道狀態不會透過路由公開可見；LSP 並未透過此架構變更獲得額外的 on-chain 交易監控能力。

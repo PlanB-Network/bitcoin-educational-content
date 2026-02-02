@@ -1,6 +1,7 @@
 ---
-term: ACÇÕES
+term: Shares
 
+definition: Indicador que quantifica a contribuição de um minerador individual dentro de um pool de mineração.
 ---
 No contexto de pools de mineração, uma quota é um indicador usado para quantificar a contribuição de um mineiro individual dentro do pool. Esta medida serve de base para calcular a recompensa que o pool redistribui a cada mineiro. Cada quota corresponde a um hash que satisfaz um objetivo de dificuldade inferior ao da rede Bitcoin.
 
@@ -13,10 +14,9 @@ Para cada hash calculado, um mineiro individual numa pool pode encontrar três c
 - Se o hash for inferior ao objetivo de dificuldade da ação, mas maior ou igual ao objetivo de dificuldade da Bitcoin, então este hash constitui uma ação válida que, no entanto, não é suficiente para validar um bloco. O mineiro pode enviar este hash para o seu pool para reclamar a recompensa associada à ação: `share > hash > block`.
 - Se o hash for inferior ao objetivo de dificuldade da rede Bitcoin, é considerado tanto uma ação válida como um bloco válido. O minerador transmite esse hash para seu pool, que se apressa em difundi-lo na rede Bitcoin. Este hash também é contado como uma ação válida para o minerador: `share > bloc > hash`.
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Este sistema de partilha é utilizado para estimar o trabalho realizado por cada mineiro individual dentro de um grupo, sem ter de recalcular individualmente todos os hashes gerados por um mineiro, o que seria completamente ineficiente para o grupo.
 
 As pools de mineração ajustam a dificuldade das acções para equilibrar a carga de verificação e garantir que cada mineiro, seja ele pequeno ou grande, submeta acções aproximadamente a cada poucos segundos. Isto permite um cálculo exato do hashrate de cada mineiro e a distribuição de recompensas de acordo com o método de cálculo de compensação escolhido (PPS, PPLNS, TIDES...).
 
-> ► *Em francês, "shares" pode ser traduzido por "parte"*

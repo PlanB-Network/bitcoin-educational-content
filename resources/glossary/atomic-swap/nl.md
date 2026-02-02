@@ -1,5 +1,6 @@
 ---
-term: ATOOMRUIL
+term: Atomic swap
+definition: Een uitwisseling van cryptocurrencies tussen twee partijen zonder vertrouwde intermediair, waarbij de uitwisseling volledig slaagt of volledig wordt geannuleerd.
 ---
 
 Technologie die de directe Exchange van cryptocurrencies tussen twee partijen mogelijk maakt, zonder dat er vertrouwen nodig is en zonder tussenpersoon. Deze uitwisselingen worden "atomair" genoemd omdat ze slechts twee resultaten kunnen opleveren:

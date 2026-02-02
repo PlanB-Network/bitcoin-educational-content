@@ -1,0 +1,9 @@
+question: Ni kanuni gani ya msingi inayowaruhusu wasanidi programu kuunda mifumo kama Lightning Network, CoinJoin, na OpenTimestamps juu ya Bitcoin bila kutafuta idhini?
+answer: Utengenezaji usio na kibali huwezesha mtu yeyote kuunda itifaki na maombi kwenye Bitcoin bila kuhitaji idhini kutoka kwa mamlaka yoyote kuu.
+wrong_answers:
+  - Utoaji leseni wa chanzo huria unahitaji kazi zote zinazotokana na kazi zote kuidhinishwa kiotomatiki na kuunganishwa kwenye hazina kuu ya Bitcoin Core.
+  - Leseni ya MIT inaamuru kwamba miradi yote yenye msingi wa Bitcoin lazima ipate ruhusa wazi kutoka kwa timu ya ukuzaji ya Bitcoin Core kabla ya kupelekwa.
+  - Sheria za Makubaliano huthibitisha kiotomatiki na kuidhinisha itifaki yoyote mpya iliyojengwa juu ya Bitcoin kupitia mchakato wa uthibitishaji wa blockchain.
+explanation: |
+  Ukuzaji bila ruhusa ndio jibu sahihi kwa sababu ndiyo kanuni ya msingi inayoruhusu mtu yeyote kujenga kwenye Bitcoin bila kuomba ruhusa. Majibu yasiyo sahihi si sahihi kwa sababu: utoaji leseni wa chanzo huria hauhitaji idhini ya kiotomatiki au ujumuishaji kwenye Bitcoin Core; Leseni ya MIT kwa kweli inatoa ruhusa pana bila kuhitaji idhini kutoka kwa watengenezaji; na sheria za makubaliano huidhinisha miamala na vizuizi, si itifaki za kiwango cha juu zilizojengwa juu ya Bitcoin.
+reviewed: false

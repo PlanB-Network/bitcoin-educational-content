@@ -1,0 +1,9 @@
+question: ใครเป็นผู้เขียนแถลงการณ์ Cypherpunk?
+answer: เอริค ฮิวจ์ส
+wrong_answers:
+  - ทิโมธี เมย์
+  - Satoshi Nakamoto.
+  - มิลตัน ฟรีดแมน
+explanation: |
+  Eric Hughes เป็นผู้เขียน Cypherpunk Manifesto (1993) ข้อความสำคัญนี้ปกป้องการใช้การเข้ารหัสเพื่อปกป้องความเป็นส่วนตัวในยุคดิจิทัล
+reviewed: false

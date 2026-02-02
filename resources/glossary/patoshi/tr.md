@@ -1,5 +1,6 @@
 ---
-term: PATOSHI
+term: Patoshi
+definition: Muhtemelen Satoshi Nakamoto'ya atfedilen, erken dönemde kazılan bloklardaki belirgin model.
 ---
 
 Bitcoin'ın varlığının ilk aylarında çıkarılan bloklarda gözlemlenen farklı bir nonces ve zaman damgası modelini ifade eder. Bu örüntünün tek bir varlığa ya da bireye, büyük olasılıkla Bitcoin'ın mucidi olan Satoshi Nakamoto'nun kendisine atfedilebileceğinden şüphelenilmektedir. "Patoshi" terimi "pattern" ve "Satoshi" kelimelerinin birleşiminden oluşan bir portmantodur. İlk Bitcoin bloklarının çeşitli analizleri, nonce ve extra-nonce'ların nasıl seçildiği ve zaman damgalarının nasıl ayarlandığı konusunda kalıplar ortaya çıkarmıştır. Bu kalıplar, belirli bir Miner veya madenci grubunun, değiştirilmiş bir istemci kullanırken, bu dönemde çıkarılan blokların büyük bir kısmından sorumlu olduğunu gösterecek kadar belirgindi. Bir bilgisayar bilimcisi olan Sergio Demian Lerner, 2013 yılında bu örüntüyü keşfetmesiyle tanınır. Lerner, Patoshi Miner'ün yaklaşık 1,1 milyon bitcoin kazdığını tahmin etmiştir. Bu durum Patoshi Miner'ün motivasyonları, kimliği ve mevcut niyetleri hakkında yaygın spekülasyonlara yol açmıştır. Bazıları Patoshi'nin Satoshi'in kendisi olduğuna, Mining'nin ise yeni ortaya çıkan ağı desteklemek ve güvence altına almak için bitcoin çıkardığına inanmaktadır. Patoshi modeli, erken dönem Mining faaliyetlerinin yoğunlaştığının kanıtı olarak kabul edilse de, Patoshi'nin arkasındaki kimliğe ya da niyetlerine dair kesin bir doğrulama olmadığını belirtmek önemlidir.

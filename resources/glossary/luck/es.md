@@ -1,6 +1,7 @@
 ---
-term: LUCK
+term: Luck
 
+definition: Indicador que mide el rendimiento de un pool de minería en comparación con las expectativas teóricas.
 ---
 Indicador utilizado en los pools de minería para medir el rendimiento de un pool en relación con sus expectativas teóricas. Como su nombre indica, evalúa la suerte del pool a la hora de encontrar un bloque. La suerte se calcula comparando el número de acciones teóricamente necesarias para encontrar un bloque válido, basado en la dificultad actual de Bitcoin, con el número real de acciones producidas para encontrar ese bloque. Un número de acciones inferior al esperado indica buena suerte, mientras que un número superior indica mala suerte.
 

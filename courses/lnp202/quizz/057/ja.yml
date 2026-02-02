@@ -1,0 +1,9 @@
+question: Umbrelでは、NWC接続を確立するためにどのアプリケーションをインストールする必要がありますか？
+answer: Alby Hub
+wrong_answers:
+  - NWCコネクター
+  - ThunderHub
+  - ゼウスサーバー
+explanation: |
+  NWCに特化したUmbrelアプリケーションは廃止されたため、このタイプの接続にはAlby Hubを使用する必要がある。
+reviewed: false

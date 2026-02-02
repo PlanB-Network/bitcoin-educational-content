@@ -1,6 +1,7 @@
 ---
-term: FEE SNIPING
+term: Fee sniping
 
+definition: Hyökkäys, jossa louhijat kirjoittavat äskettäisen lohkon uudelleen kerätäkseen sen suuret siirtomaksut.
 ---
 Hyökkäysskenaario, jossa louhijat pyrkivät kirjoittamaan hiljattain vahvistetun lohkon uudelleen saadakseen sen sisältämät transaktiomaksut ja lisäämällä samalla mempooliin sillä välin saapuneita korkean maksun transaktioita. Tämän hyökkäyksen perimmäinen tavoite louhijalle on kasvattaa kannattavuuttaan. Palkkioiden nappaamisesta voi tulla yhä kannattavampaa, kun lohkopalkkio laskee ja transaktiomaksut muodostavat suuremman osan louhijoiden tuloista. Se voi olla myös edullista, kun edellisen lohkon sisältämät maksut ovat huomattavasti korkeammat kuin seuraavaksi parhaana ehdokkaana olevan lohkon maksut. Yksinkertaistaen voidaan todeta, että louhija on tämän valinnan edessä kannustimien suhteen:
 

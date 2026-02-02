@@ -1,0 +1,8 @@
+question: Jaki mechanizm kryptograficzny w architekturze Blockstream AMP umożliwia szyfrowanie kwoty aktywów przy jednoczesnym zachowaniu weryfikacji ważności transakcji?
+answer: Wymiana kluczy z krzywą eliptyczną Diffiego-Hellmana z dowodami zakresu, które weryfikują ważność transakcji bez ujawniania zaszyfrowanych wartości
+wrong_answers:
+  - SNARK o zerowej wiedzy ze schematami zobowiązań, które ukrywają kwoty transakcji, jednocześnie zapewniając integralność obliczeniową
+  - Podpisy pierścieniowe z ukrytymi adresami, które zaciemniają tożsamość nadawcy przy jednoczesnym zachowaniu możliwości audytu kryptograficznego
+  - Szyfrowanie homomorficzne ze zobowiązaniami drzewa merkle, które umożliwiają operacje matematyczne na zaszyfrowanych danych transakcji
+explanation: |
+  AMP wykorzystuje wymianę kluczy ECDH, w której nadawcy szyfrują kwoty aktywów przy użyciu oślepiających kluczy publicznych odbiorców, generując dowody zakresu, które matematycznie weryfikują ważność transakcji bez ujawniania wartości. Różni się to od SNARK (dowody obliczeniowe), podpisów pierścieniowych (skupienie się na anonimowości) lub szyfrowania homomorficznego (obliczenia na zaszyfrowanych danych) - AMP wymaga w szczególności poufnych, ale weryfikowalnych transakcji.

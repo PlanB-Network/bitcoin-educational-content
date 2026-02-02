@@ -1,792 +1,1184 @@
 ---
-name: Bitaxe Open Source Mining Mastery
-goal: Master the complete Bitaxe ecosystem from hardware assembly to advanced customization and performance optimization
-objectives:
-  - Understand the philosophy of open source Bitcoin mining hardware
-  - Build Bitaxe mining devices from scratch
-  - Configure and optimize mining software including AxeOS and Public Pool
-  - Implement advanced performance optimizations including overclocking and benchmarking
+name: Bitaxe avatud lähtekoodiga Mining Mastery
+goal: Kogu Bitaxe ökosüsteemi omandamine, alates riistvara kokkupanekust kuni täiustatud kohandamise ja jõudluse optimeerimiseni
+objectives: 
+
+  - Avatud lähtekoodiga Bitcoin mining riistvara filosoofia mõistmine
+  - Bitaxe mining seadmete ehitamine algusest peale
+  - mining tarkvara, sealhulgas AxeOS ja Public Pool, konfigureerimine ja optimeerimine
+  - Rakendada täiustatud jõudluse optimeerimist, sealhulgas ületaktimist ja võrdlusuuringuid
+
 ---
 
-# Your Bitaxe Mining Guide
+# Teie Bitaxe Mining juhend
 
-Welcome to the comprehensive Bitaxe course, where you'll master the revolutionary open source Bitcoin mining hardware that's democratizing access to mining technology. This course takes you from understanding the philosophical foundations of decentralized mining to advanced hardware customization and performance optimization.
 
-The Bitaxe project represents a paradigm shift in Bitcoin mining, breaking the monopoly of proprietary ASIC manufacturers by providing fully open source designs, firmware, and software. Through these hands-on chapters, you'll gain practical skills in hardware assembly, software configuration, PCB design, and performance optimization.
+Tere tulemast terviklikule Bitaxe'i kursusele, kus saate omandada revolutsioonilise avatud lähtekoodiga Bitcoin mining riistvara, mis demokratiseerib juurdepääsu mining tehnoloogiale. See kursus viib teid detsentraliseeritud mining filosoofiliste aluste mõistmisest kuni täiustatud riistvara kohandamise ja jõudluse optimeerimise tehnikateni.
 
-No prior mining experience is required, though basic electronics knowledge and familiarity with GitHub will be helpful. The course will transform you from a curious observer into a capable Bitaxe builder and contributor.
+
+Bitaxe'i projekt kujutab endast paradigmamuutust Bitcoin mining valdkonnas, murdes ASIC tootjate monopoli, pakkudes täielikult avatud lähtekoodiga projekte, püsivara ja tarkvara. Nende praktiliste peatükkide kaudu saate praktilisi oskusi riistvara kokkupaneku, tarkvara konfigureerimise, trükkplaadi disaini ja jõudluse optimeerimise kohta.
+
+
+Varasemat mining kogemust ei ole vaja, kuid elektroonika alusteadmised ja GitHubi tundmine tulevad kasuks. Kursus muudab teid uudishimulikust vaatlejast võimekaks Bitaxe'i ehitajaks ja panustajaks.
+
 
 +++
 
 
-# Introduction
+# Sissejuhatus
+
 
 <partId>6b3cd9f0-0063-40f0-a7bb-00a48f330d88</partId>
 
-## Course overview
+
+## Kursuse ülevaade
+
 
 <chapterId>1fac9579-0e1c-48e3-9bc5-e7a2960018c8</chapterId>
 
-Welcome to the course MIN 306 _**Bitaxe Open Source Mining Mastery**_, a comprehensive journey into the world of Bitaxe mining. This course is designed for those who want to understand, build, and optimize their own Bitaxe mining hardware while exploring the philosophical and technical foundations that make this project unique within the Bitcoin ecosystem.
 
-### Understanding Bitaxe
+Tere tulemast kursusele MIN 306 _**Bitaxe Open Source Mining Mastery**_, mis on põhjalik teekond Bitaxe mining maailma. See kursus on mõeldud neile, kes soovivad mõista, ehitada ja optimeerida oma Bitaxe mining riistvara, uurides samal ajal filosoofilisi ja tehnilisi aluseid, mis teevad selle projekti Bitcoin ökosüsteemis ainulaadseks.
 
-The first section lays the essential groundwork: you’ll discover the origins of the Bitaxe project, its evolution, and the values of decentralization and transparency that define it. You’ll learn what a Bitaxe actually is, how it differs from proprietary ASICs, and where to find community resources to deepen your knowledge. This section provides the context needed to understand why Bitaxe represents a turning point in Bitcoin mining history.
 
-### Software and Operations
+### Bitaxe'i mõistmine
 
-The second section focuses on the software environment, with a detailed presentation of *AxeOS*, the open-source operating system designed specifically for Bitaxe devices. You’ll learn how to configure it, understand its main features, and interact with your device to start your first mining operations.
 
-### Community and Collaboration
+Esimeses osas pannakse alus: te saate teada Bitaxe'i projekti päritolu, selle arengut ning detsentraliseerimise ja läbipaistvuse väärtusi, mis seda määratlevad. Saate teada, mis on Bitaxe tegelikult, kuidas see erineb patenteeritud ASIC-dest ja kust leida kogukonna ressursse oma teadmiste süvendamiseks. See osa annab vajaliku konteksti, et mõista, miks Bitaxe kujutab endast pöördepunkti Bitcoin mining ajaloos.
 
-The third section highlights the collaborative aspect of the project. You’ll explore the open-source philosophy applied to both the hardware and software development of Bitaxe. Through practical exercises, you’ll learn how to contribute directly to the source code, and you’ll also discover _Public Pool_, a community platform for pooling computational power. You’ll also learn how to install it on an Umbrel node for local and sovereign integration.
 
-### Hardware Assembly and Troubleshooting
+### Tarkvara ja operatsioonid
 
-In the fourth section, you’ll dive into the hardware itself. You’ll learn how to identify the tools needed to assemble a Bitaxe, fix soldering issues, and perform a complete diagnostic using *AxeOS* and USB tools. This section emphasizes hands-on practice and a deep understanding of how hardware and software components interact.
 
-### Advanced Customization
+Teine osa keskendub tarkvarakeskkonnale, kus tutvustatakse üksikasjalikult *AxeOS*: spetsiaalselt Bitaxe-seadmete jaoks loodud avatud lähtekoodiga operatsioonisüsteemi. Saate teada selle põhifunktsioone ning seda, kuidas seadet konfigureerida ja sellega suhelda, et alustada oma esimest mining operatsiooni.
 
-The fifth section is dedicated to customization. You’ll learn how to modify the PCB (printed circuit board), create a factory file, and use the _Bitaxe Web Flasher_. This section is aimed at those who want to go beyond simple assembly and truly design customized versions of their own device.
 
-### Performance Optimization
+### Ühendus ja koostöö
 
-Finally, the sixth section covers advanced optimization techniques. You’ll learn how to benchmark your Bitaxe to evaluate its performance and how to overclock it efficiently. These skills will help you get the most out of your hardware while respecting its physical limitations.
 
-As with every course on Plan ₿ Academy, the final section includes an evaluation designed to reinforce your knowledge.
+Kolmandas osas rõhutatakse projekti koostööaspekti. Te uurite avatud lähtekoodiga filosoofiat, mida rakendatakse nii Bitaxe'i riistvara kui ka tarkvara arendamisel. Praktiliste harjutuste kaudu saate teada, kuidas otse lähtekoodi panustada, ning te avastate ka _Public Pool_, kogukonna platvormi arvutusvõimsuse koondamiseks. Samuti saate teada, kuidas seda paigaldada Umbrel-sõlme kohalikuks ja suveräänseks integreerimiseks.
 
-Dive right into this technical adventure — the future of Bitcoin mining is in your hands!
 
-# Understanding Bitaxe
+### Riistvara kokkupanek ja tõrkeotsing
+
+
+Neljandas jaotises sukeldute riistvara enda sisse. Te saate teada, kuidas tuvastada Bitaxe'i kokkupanekuks vajalikud tööriistad, parandada jootmisprobleeme ja teostada täielikku diagnostikat *AxeOS* ja USB-tööriistade abil. Selles osas rõhutatakse praktilist tegevust ja sügavat arusaamist sellest, kuidas riist- ja tarkvarakomponendid omavahel suhtlevad.
+
+
+### Täiustatud kohandamine
+
+
+Viies osa on pühendatud kohandamisele. Saate teada, kuidas muuta PCB-d (trükkplaati), luua tehase faili ja kasutada _Bitaxe Web Flasher_. See osa on mõeldud neile, kes soovivad minna kaugemale lihtsast kokkupanekust ja tõesti kujundada oma seadme kohandatud versioone.
+
+
+### Tulemuslikkuse optimeerimine
+
+
+Kuues osa käsitleb täiustatud optimeerimistehnikaid. Saate teada, kuidas oma Bitaxe'i jõudluse hindamiseks võrrelda ja kuidas seda tõhusalt üle taktida. Need oskused aitavad teil oma riistvarast maksimumi välja võtta, austades samas selle füüsilisi piiranguid.
+
+
+Nagu iga Plan ₿ Academy kursuse puhul, sisaldab viimane osa hindamist, mille eesmärk on kinnistada teie teadmisi.
+
+
+Sukelduge otse sellesse tehnilisse seiklusesse - Bitcoin mining tulevik on teie kätes!
+
+
+# Bitaxe'i mõistmine
+
 <partId>ba1cb4ea-6a77-54fd-916c-57285c8c2418</partId>
 
-## The History
+
+## Ajalugu
+
 <chapterId>73d928e5-72f0-5c17-a7a6-8b6ece7f9a30</chapterId>
+
 :::video id=67d2529a-b7cb-4804-b02c-e56c12c9e66e:::
 
-The Bitaxe project represents a groundbreaking shift in Bitcoin mining hardware development, bringing open source principles to an industry dominated by proprietary solutions. This educational series explores the comprehensive history, technical innovations, and community-driven evolution of Bitaxe, providing insights into how a single engineer's vision transformed into a thriving ecosystem of decentralized mining hardware. Through examining the project's origins, challenges, and achievements, we gain valuable understanding of both the technical complexities of ASIC development and the power of open source collaboration in the Bitcoin space.
+Bitaxe'i projekt kujutab endast murrangulist muutust Bitcoin mining riistvara arendamises, tuues avatud lähtekoodiga põhimõtted tööstusesse, kus domineerivad patenteeritud lahendused. Selles õppesarjas uuritakse Bitaxe'i põhjalikku ajalugu, tehnilisi uuendusi ja kogukonna juhitud arengut, andes ülevaate sellest, kuidas ühe inseneri visioonist sai detsentraliseeritud mining riistvara edukas ökosüsteem. Uurides projekti päritolu, probleeme ja saavutusi, saame väärtusliku ülevaate nii ASIC arendamise tehnilistest keerukustest kui ka avatud lähtekoodiga koostöö võimsusest Bitcoin valdkonnas.
 
-### The Origin Story: From Silk Road Discovery to Solar Mining Vision
 
-Scott's journey into Bitcoin mining began with an unexpected encounter at a college party, where he first learned about Bitcoin through someone purchasing items on the Silk Road. This initial exposure to Bitcoin at approximately $20 per coin sparked a curiosity that would later evolve into a revolutionary mining project. The technical foundation for his future work was established during his time at university, where he had access to extensive FPGA resources in a laboratory setting. Working alongside his supervisor, Scott began experimenting with open source FPGA bitstreams for Bitcoin mining, initially with the modest goal of mining enough Bitcoin to purchase a pizza for their office.
+### Päritolulugu: Solar Mining visioon: Siiditee avastamisest Solar Mining visioonini
 
-The transition from academic experimentation to serious development occurred years later when Scott was working on solar-powered gateways for remote data collection in Africa. This professional experience with solar power systems sparked the realization that Bitcoin mining ASICs, being fundamentally low-voltage DC devices, would pair perfectly with solar panels. The concept seemed natural and elegant, yet when Scott began researching existing solutions, he discovered a significant gap in the market. Unlike the early days of Bitcoin mining when FPGA designs were openly available, the advent of ASICs had moved the industry toward completely proprietary, closed-source solutions.
 
-The lack of open source mining hardware became a driving frustration for Scott, particularly given his background in open source software development and his belief that Bitcoin's open source nature should extend to its mining infrastructure. This philosophical alignment with open source principles, combined with the technical challenge of reverse-engineering proprietary ASIC designs, set the stage for what would become the Bitaxe project. The initial vision was ambitious yet practical: create a solar-powered Bitcoin miner that could operate independently without requiring a separate computer for control, making it suitable for deployment in remote locations under solar panels.
+Bitaxe'i asutaja Skot alustas oma teekonda Bitcoin-sse kolledži peol, kus ta sai Bitcoin-st esimest korda teada, kui keegi ostis esemeid Siiditeel. See esialgne kokkupuude Bitcoin-ga, mille hind oli umbes 20 dollarit mündi kohta, tekitas uudishimu, mis hiljem kujunes revolutsiooniliseks mining projektiks. Tema tulevase töö tehniline alus loodi ülikoolis õppimise ajal, kus tal oli juurdepääs ulatuslikele FPGA-vahenditele laboratooriumis. Töötades koos oma juhendajaga, hakkas Skot eksperimenteerima avatud lähtekoodiga FPGA bitivoogudega Bitcoin mining jaoks, esialgu tagasihoidliku eesmärgiga mining piisavalt Bitcoin, et osta oma kontorisse pitsat.
 
-### Technical Challenges and Reverse Engineering Breakthroughs
 
-The development of Bitaxe required overcoming substantial technical obstacles, primarily centered around the complete lack of documentation for Bitmain's ASIC chips. Scott's approach to this challenge exemplified the determination and ingenuity required for successful reverse engineering. Without access to official datasheets or technical specifications, he resorted to examining chips under microscopes, measuring pin pitches with calipers, and even scanning chips to determine their exact footprint requirements. This painstaking process resulted in multiple failed prototypes, with the first two iterations of the "day miner" failing to function properly due to incorrect footprint calculations.
+Üleminek akadeemilistelt katsetustelt tõsisele arendustegevusele toimus aastaid hiljem, kui Skot töötas päikeseenergial töötavate väravate kallal andmete kaugkogumiseks Aafrikas. See erialane kogemus päikeseenergiasüsteemidega tekitas arusaama, et Bitcoin mining ASIC-d, mis on põhimõtteliselt madalpinge alalisvoolu seadmed, sobiksid suurepäraselt päikesepaneelidega. Kontseptsioon tundus loomulik ja elegantne. Kuid kui Skot hakkas olemasolevaid lahendusi uurima, avastas ta turul märkimisväärse lünga: erinevalt Bitcoin mining algusaegadest, mil FPGA-disainid olid avalikult kättesaadavad, oli ASICide tulek viinud tööstuse täiesti patenteeritud, suletud lähtekoodiga lahenduste suunas.
 
-The breakthrough came with the third iteration in May 2022, when Scott successfully created a working two-chip design using BM1387 chips harvested from Antminer S9 units. This achievement marked the birth of the Bitaxe name, inspired by the concept of a pickaxe for Bitcoin mining. The success of this design validated the reverse engineering approach and demonstrated that independent developers could create functional mining hardware without manufacturer support. However, the technical challenges extended beyond chip interfacing to include complex power supply design, as the ASICs required precise voltage regulation at high currents, often operating at voltages as low as 0.6 volts while drawing significant amperage.
 
-The firmware development presented another layer of complexity, as the project required creating mining software that could run directly on an ESP32 microcontroller rather than relying on external computers running CGMiner. This self-contained approach was essential to Scott's vision of deployable, independent mining units. The combination of hardware reverse engineering and embedded firmware development created a comprehensive technical challenge that required expertise across multiple disciplines, from electrical engineering and PCB design to embedded programming and network protocols.
+Avatud lähtekoodiga mining riistvara puudumine muutus Skoti jaoks pettumuseks, eriti arvestades tema tausta avatud lähtekoodiga tarkvara arendamisel ja tema veendumust, et Bitcoin avatud lähtekoodiga olemus peaks laienema ka mining infrastruktuurile. See filosoofiline lähenemine avatud lähtekoodiga põhimõtetele koos tehnilise väljakutsega, mis tulenes ASIC patenteeritud disainilahenduste tagasitöötlusest, pani aluse sellele, millest sai Bitaxe'i projekt. Esialgne visioon oli ambitsioonikas, kuid samas praktiline: luua päikeseenergial töötav Bitcoin kaevandaja, mis suudaks töötada iseseisvalt, ilma et vajaks eraldi arvutit kontrollimiseks, mis võimaldaks seda kasutada kaugetes kohtades päikesepaneelide all.
 
-### Community Formation and Open Source Collaboration
 
-The transformation of Bitaxe from a solo project to a thriving community initiative represents one of the most significant aspects of its success story. Initially, Scott's attempts to generate interest through Bitcoin forums and social media met with limited response and occasional skepticism. The breakthrough came when community members like SurveyPsalot recognized the potential of open source mining and established the Open Source Miners United (OSMU) Discord server. This platform provided the collaborative environment necessary for the project to flourish, attracting talented contributors from diverse backgrounds who shared a common interest in democratizing Bitcoin mining technology.
+### Tehnilised väljakutsed ja pöördtehnilised läbimurded
 
-The community-driven development model proved remarkably effective, with key contributors emerging to tackle specific technical challenges. Johnny Nine's expertise in firmware development solved critical software implementation problems, while Ben's front-end development skills created the intuitive AxeOS dashboard that simplified device configuration and monitoring. Ben's additional contributions included establishing manufacturing capabilities and creating Public Pool, an open source mining pool optimized for Bitaxe devices. This collaborative approach demonstrated how open source principles could accelerate development beyond what any individual contributor could achieve alone.
 
-The OSMU community also fostered an inclusive environment where newcomers could learn and contribute regardless of their initial technical expertise. Ben's own journey from soldering novice to major manufacturer exemplifies this welcoming approach to skill development. The community's commitment to education and mutual support created a virtuous cycle where experienced members mentored newcomers, who then became contributors themselves. This model proved essential for scaling the project beyond its original scope and establishing a sustainable ecosystem for continued innovation and growth.
+Bitaxe'i arendamiseks oli vaja ületada olulisi tehnilisi takistusi, mis keskendusid peamiselt Bitmaini ASIC kiipide dokumentatsiooni täielikule puudumisele. Skoti lähenemine sellele väljakutsele näitas, kui sihikindel ja leidlik on edukas pöördprojekteerimine. Kuna tal puudus juurdepääs ametlikele andmelehtedele või tehnilistele spetsifikatsioonidele, kasutas ta kiipide uurimist mikroskoobi all, tihvtide sammude mõõtmist kalibreerimisvahenditega ja isegi kiipide skaneerimist, et määrata kindlaks nende täpne jalajälg. Selle vaevarikka protsessi tulemuseks oli mitu ebaõnnestunud prototüüpi, kusjuures kaks esimest "päevakaevuri" iteratsiooni ei toiminud korralikult, kuna jalajälje arvutused olid valed.
 
-### Vision for Decentralized Mining and Future Impact
 
-Scott's long-term vision for Bitaxe extends far beyond creating another mining device to encompass a fundamental transformation of Bitcoin's mining landscape. The ambitious goal of producing one million one-terahash miners would create an exahash of distributed mining power, representing a significant step toward mining decentralization. This vision addresses critical concerns about mining centralization, where large pools and industrial operations could potentially be subject to government pressure or regulatory capture. By distributing mining power across countless home miners, the network becomes more resilient and aligned with Bitcoin's decentralized principles.
+Läbimurre tuli kolmanda iteratsiooniga 2022. aasta mais, kui Skot lõi edukalt toimiva kahe kiibi disaini, kasutades Antminer S9 seadmetest korjatud BM1387 kiipe. See saavutus tähistas nime Bitaxe sündi, mis oli inspireeritud Bitcoin mining jaoks mõeldud kiirkontseptsiooni kontseptsioonist. Selle disaini edu kinnitas tagasipööratud inseneri lähenemisviisi ja näitas, et sõltumatud arendajad saavad luua toimivat mining riistvara ilma tootja toetuseta. Tehnilised väljakutsed ulatusid aga kiibi liidestamisest kaugemale ja hõlmasid ka keerukat toiteallika projekteerimist, kuna ASIC-id nõudsid suure voolutugevuse juures täpset pingeregulatsiooni, mis sageli töötas vaid 0,6-voldise pingega, võttes samal ajal märkimisväärset voolutugevust.
 
-The economic model supporting this vision relies on the unique characteristics of home mining, where infrastructure costs are essentially zero and miners can operate with minimal oversight. Unlike industrial mining operations that require massive capital investments in facilities, power infrastructure, and cooling systems, home miners can simply plug devices into existing electrical outlets and internet connections. This approach could theoretically bring significant hash rate online without the traditional barriers to entry that characterize large-scale mining operations.
 
-The project's success has already begun influencing the broader Bitcoin mining ecosystem, with the potential to inspire other manufacturers to embrace open source development models. The financial viability demonstrated by Bitaxe manufacturers proves that open source hardware can be commercially successful while maintaining transparency and community involvement. As the project continues to evolve with new chip integrations, improved designs, and expanded manufacturing partnerships, it serves as a proof of concept for how Bitcoin mining can return to its decentralized roots while embracing modern ASIC technology. The ultimate goal extends beyond mere hash rate distribution to include educational impact, bringing more people into direct contact with Bitcoin's fundamental mining process and fostering deeper understanding of the network's security model.
+Firmatarkvara arendamisega kaasnes veel üks keerukuse tase, kuna projekti jaoks oli vaja luua mining tarkvara, mis oleks võimalik käivitada otse ESP32 mikrokontrolleril, mitte tugineda välistele arvutitele, kus töötab tarkvara, näiteks CGMiner. Selline iseseisev lähenemisviis oli oluline Skoti nägemuse jaoks, mille kohaselt on mining üksused iseseisvalt kasutatavad. Riistvara tagasipööramise ja varjatud püsivara arendamise kombinatsioon tekitas ulatusliku tehnilise väljakutse, mis nõudis teadmisi mitmest erialast, alates elektrotehnilisest projekteerimisest ja trükkplaatide disainist kuni varjatud programmeerimise ja võrguprotokollideni.
 
-## What is the Bitaxe?
+
+### Kogukonna moodustamine ja avatud lähtekoodiga koostöö
+
+
+Bitaxe'i muutumine sooloprojektist õitsvaks kogukondlikuks algatuseks on selle edu üks olulisemaid aspekte. Esialgu said Skoti katsed generate huvi äratada Bitcoin foorumites ja sotsiaalmeedias piiratud vastukaja ja aeg-ajalt skeptilisuse osaliseks. Läbimurre tuli siis, kui kogukonnaliikmed nagu SirVapesAlot tunnistasid avatud lähtekoodiga mining potentsiaali ja asutasid Open Source Miners United (OSMU) Discord-serveri. See platvorm pakkus projekti õitsenguks vajaliku koostöökeskkonna, meelitades ligi erineva taustaga osalejaid, kes jagasid ühist huvi Bitcoin mining tehnoloogia demokratiseerimise vastu.
+
+
+Kogukonnapõhine arendusmudel osutus märkimisväärselt tõhusaks, kuna sellised võtmetegijad nagu johnny9 ja Ben hakkasid tegelema konkreetsete tehniliste probleemidega. Johnny9 teadmised püsivara arendamises lahendasid kriitilised tarkvara rakendamise probleemid, samas kui Ben arendusoskused lõid intuitiivse AxeOSi armatuurlaua, mis lihtsustas seadme konfigureerimist ja jälgimist. Beni täiendav panus hõlmas tootmisvõimaluste loomist ja avatud lähtekoodiga mining-pool, mis on optimeeritud Bitaxe-seadmete jaoks. Selline koostööpõhine lähenemisviis näitas, kuidas avatud lähtekoodiga põhimõtete abil saab kiirendada arendustegevust rohkem, kui üksikud osalejad üksi suudaksid saavutada.
+
+
+OSMU kogukond edendas ka kaasavat keskkonda, kus uustulnukad said õppida ja anda oma panuse sõltumata nende algsetest tehnilistest teadmistest. Beni enda teekond jootmise algajaist suurtööstajaks on hea näide sellest külalislahkest lähenemisviisist oskuste arendamisele. Kogukonna pühendumine haridusele ja vastastikusele toetusele lõi positiivse tsükli, kus kogenud liikmed juhendasid uusi tulijaid, kes seejärel ise muutusid panustajateks. See mudel osutus oluliseks, et projekti laiendada algsest ulatusest kaugemale ja luua jätkusuutlik ökosüsteem jätkuvaks innovatsiooniks ja kasvuks.
+
+
+### Detsentraliseeritud Mining visioon ja tulevane mõju
+
+
+Skoti pikaajaline nägemus Bitaxe'i kohta ulatub kaugemale teise mining seadme loomisest: see on Bitcoin mining maastiku põhjalik ümberkujundamine. Ambitsioonikas eesmärk toota üks miljon ühe terahashi kaevandajat tekitaks mining hajutatud võimu eksahashi, mis kujutab endast olulist sammu mining detsentraliseerimise suunas. See visioon käsitleb kriitilisi muresid mining tsentraliseerimise pärast, kus suured basseinid ja tööstuslikud tegevused võivad sattuda valitsuse surve alla või olla reguleeritud. Jagades mining energiat lugematute kodukaevandajate vahel, muutub võrk vastupidavamaks ja viiakse vastavusse Bitcoin detsentraliseeritud põhimõtetega.
+
+
+Seda visiooni toetav majandusmudel tugineb koduse mining ainulaadsetele omadustele, kus infrastruktuurikulud on sisuliselt null ja kaevurid saavad tegutseda minimaalse järelevalvega. Erinevalt tööstuslikest mining toimingutest, mis nõuavad suuri kapitaliinvesteeringuid rajatistesse, elektriinfrastruktuuri ja jahutussüsteemidesse, saavad kodused kaevandajad lihtsalt ühendada seadmed olemasolevatesse elektripistikutesse ja internetiühendustesse. Selline lähenemisviis võiks teoreetiliselt tuua märkimisväärse hash-kiiruse võrgus ilma traditsiooniliste sisenemistõketeta, mis iseloomustavad suuremahulisi mining operatsioone.
+
+
+Projekti edu on juba hakanud mõjutama laiemat Bitcoin mining ökosüsteemi, mis võib inspireerida ka teisi tootjaid kasutama avatud lähtekoodiga arendusmudeleid. Bitaxe'i tootjate poolt näidatud rahaline elujõulisus tõestab, et avatud lähtekoodiga riistvara võib olla äriliselt edukas, säilitades samal ajal läbipaistvuse ja kogukonna kaasatuse. Kuna projekt areneb jätkuvalt uute kiibiintegratsioonide, täiustatud disainilahenduste ja laiendatud tootmispartnerluste abil, on see kontseptsiooni tõestuseks, kuidas Bitcoin mining saab naasta oma detsentraliseeritud juurte juurde, võttes samal ajal kasutusele kaasaegse ASIC tehnoloogia. Lõppeesmärk ulatub kaugemale kui pelgalt hash-kiiruse levitamine ja hõlmab ka hariduslikku mõju, tuues rohkem inimesi otsekontakti Bitcoin mining põhiprotsessiga ja edendades võrgu turvamudeli sügavamat mõistmist.
+
+
+## Mis on Bitaxe?
+
 <chapterId>6a56af56-35ce-51af-999b-4bc7305e6464</chapterId>
+
 :::video id=12b26c7a-74b1-4ea9-afc0-e3ef90cf5837:::
 
-### Hardware Overview and Capabilities
-
-The Bitaxe represents a significant development in the open-source mining community, offering enthusiasts and miners an accessible entry point into Bitcoin mining hardware. As an open-source mining device, the Bitaxe provides users with complete transparency into both its hardware design and software implementation, distinguishing it from proprietary mining solutions. This educational exploration examines the fundamental components, capabilities, and practical applications of Bitaxe mining boards, providing essential knowledge for anyone interested in understanding how these devices function and contribute to the Bitcoin network.
-
-The Bitaxe ecosystem encompasses multiple hardware iterations, each designed to optimize different aspects of the mining experience while maintaining the core philosophy of open-source accessibility. These devices serve not only as functional mining hardware but also as educational tools that allow users to understand the intricate relationship between ASIC chips, microcontrollers, and the Bitcoin mining process. Understanding the Bitaxe's design philosophy and technical implementation provides valuable insights into how modern mining hardware operates at both the component and system levels.
+### Riistvara ülevaade ja võimalused
 
 
-### Bitaxe Max, First-Generation Implementation
+Bitaxe'i ökosüsteem hõlmab mitmeid riistvara iteratsioone, millest igaühe eesmärk on optimeerida mining kogemuse erinevaid aspekte, säilitades samal ajal avatud lähtekoodiga ligipääsetavuse põhifilosoofia. Need seadmed ei ole mitte ainult funktsionaalne mining riistvara, vaid ka õppevahendid, mis võimaldavad kasutajatel mõista ASIC kiipide, mikrokontrollerite ja Bitcoin mining protsessi keerulist seost. Bitaxe'i disainifilosoofia ja tehnilise rakendamise mõistmine annab väärtusliku ülevaate sellest, kuidas kaasaegne mining riistvara toimib nii komponentide kui ka süsteemi tasandil.
 
-The Bitaxe Max represents the foundational implementation of the Bitaxe concept, utilizing the BM1397 ASIC chip originally developed by Bitmain for their S17 mining series. This chip integration demonstrates how open-source hardware can repurpose existing ASIC technology to create accessible mining solutions. The Bitaxe Max delivers an estimated hash rate between 300 to 400 gigahashes per second, positioning it as an educational and experimental mining platform rather than a commercial-scale solution.
 
-The BM1397 chip's integration into the Bitaxe Max required careful consideration of power management, thermal control, and communication protocols. The board's design accommodates the specific requirements of this ASIC while providing the necessary supporting circuitry for stable operation. This implementation showcases how open-source hardware development can leverage existing semiconductor technology to create new applications and learning opportunities within the mining community.
 
-### Bitaxe Ultra, Advanced Chip Technology
+### Bitaxe Max, esimese põlvkonna rakendamine
 
-The Bitaxe Ultra represents the evolution of the Bitaxe platform, incorporating the more advanced BM1366 ASIC chip from Bitmain's S19 series. This newer chip technology brings improved efficiency and performance characteristics to the Bitaxe platform while maintaining the same fundamental design philosophy. The upgrade to the BM1366 chip demonstrates the platform's adaptability and the community's commitment to incorporating technological advances into open-source mining solutions.
 
-The transition from the BM1397 to the BM1366 chip required modifications to the board's power delivery systems, thermal management, and control algorithms. These changes illustrate the iterative nature of hardware development and the importance of maintaining compatibility while advancing performance. The Bitaxe Ultra's implementation provides users with access to more recent ASIC technology while preserving the educational and experimental nature of the platform.
+Bitaxe Max kujutab endast Bitaxe'i kontseptsiooni põhilist rakendamist, kasutades BM1397 ASIC kiipi, mille Bitmain on algselt välja töötanud oma S17 mining seeria jaoks. See kiibi integreerimine näitab, kuidas avatud lähtekoodiga riistvara saab olemasolevat ASIC tehnoloogiat ümber kasutada, et luua kättesaadavaid mining lahendusi. Bitaxe Max pakub hinnanguliselt 300-400 gigahashi sekundis, mis asetab selle pigem hariduslikuks ja eksperimentaalseks mining platvormiks kui kommertsmahus lahenduseks.
 
-### Microcontroller and Communication Systems
 
-At the heart of every Bitaxe device lies an ESP microcontroller that serves as the primary interface between the user and the ASIC chip. This microcontroller runs specialized software developed by the Open Source Miners United (OSMU) community, enabling precise control over the ASIC's operation parameters. The communication between the microcontroller and ASIC occurs through carefully designed serial communication lines that are etched directly onto the printed circuit board as visible traces.
+BM1397 kiibi integreerimine Bitaxe Maxi nõudis energiajuhtimise, soojusjuhtimise ja kommunikatsiooniprotokollide hoolikat kaalumist. Plaadi konstruktsioon vastab selle ASIC spetsiifilistele nõuetele, pakkudes samal ajal stabiilseks toimimiseks vajalikke toetavaid vooluahelaid. See rakendamine näitab, kuidas avatud lähtekoodiga riistvaraarenduse abil saab kasutada olemasolevat pooljuhttehnoloogiat, et luua uusi rakendusi ja õppimisvõimalusi mining kogukonnas.
 
-The microcontroller's role extends beyond simple ASIC control, encompassing power management, temperature monitoring, and user interface functions. Through the integrated display screen, users can monitor critical operational parameters including temperature, hash rate, IP address, and other relevant mining statistics. This real-time feedback system provides valuable insights into the device's performance and helps users optimize their mining operations while learning about the underlying hardware behavior.
 
-### Power Management and Safety Considerations
+### Bitaxe Ultra, täiustatud kiibitehnoloogia
 
-The Bitaxe platform operates on a strict 5-volt power requirement, making proper power supply selection critical for device longevity and safety. The power management system on the Bitaxe boards includes sophisticated circuitry designed to regulate voltage delivery to the ASIC chip while monitoring power consumption across different operational modes. This power management capability allows the device to operate efficiently across a range of frequencies and voltages, typically consuming between 5 to 25 watts depending on configuration.
 
-Understanding the power requirements becomes crucial when considering that incorrect voltage application can permanently damage the device. The relationship between frequency, voltage, power consumption, and hash rate demonstrates fundamental principles of ASIC operation that apply across all mining hardware. Users can experiment with different power settings to understand the efficiency trade-offs inherent in mining operations, gaining practical experience with concepts that apply to larger-scale mining implementations.
+Bitaxe Ultra on Bitaxe platvormi edasiarendus, mis sisaldab Bitmaini S19-seeria täiustatud BM1366 ASIC kiipi. See uuem kiibitehnoloogia toob Bitaxe'i platvormile parema tõhususe ja jõudluse, säilitades samas sama põhimõttelise disainifilosoofia. BM1366 kiibile üleminek näitab platvormi kohanemisvõimet ja kogukonna pühendumust tehnoloogiliste edusammude kaasamisele avatud lähtekoodiga mining lahendustesse.
 
-### Solo Mining Focus and Network Participation
 
-The Bitaxe platform specifically targets solo mining applications, where individual miners attempt to solve Bitcoin blocks independently rather than participating in large mining pools. While the hash rate of Bitaxe devices makes successful block discovery statistically unlikely, this approach serves important educational and philosophical purposes within the Bitcoin community. Solo mining with Bitaxe devices helps users understand the fundamental mechanics of Bitcoin's proof-of-work system while contributing to network decentralization.
+Üleminek BM1397 kiibilt BM1366 kiibile nõudis muudatusi plaadi toiteallikasüsteemides, soojusjuhtimises ja juhtimisalgoritmides. Need muudatused illustreerivad riistvara arendamise iteratiivset iseloomu ja ühilduvuse säilitamise olulisust jõudluse suurendamise ajal. Bitaxe Ultra rakendamine annab kasutajatele juurdepääsu uuemale ASIC tehnoloogiale, säilitades samal ajal platvormi haridusliku ja eksperimentaalse iseloomu.
 
-The emphasis on solo mining reflects the OSMU community's commitment to encouraging individual participation in Bitcoin's security model. By providing accessible hardware that can operate independently, the Bitaxe platform enables users to run their own mining operations without relying on pool infrastructure. This approach fosters a deeper understanding of Bitcoin's consensus mechanism while supporting the network's decentralized nature through increased node diversity.
 
-### Hardware Evolution and Production Improvements
+### Mikrokontroller ja sidesüsteemid
 
-The Bitaxe platform continues to evolve through community feedback and production optimization, with newer versions incorporating improvements that enhance manufacturability and user experience. Version updates typically focus on production efficiency rather than fundamental performance changes, ensuring that existing users don't face obsolescence pressure. Features like the transition from micro-USB to USB-C connectors and improved power connection systems reflect the community's attention to practical usability improvements.
 
-This evolutionary approach demonstrates the benefits of open-source hardware development, where community input drives incremental improvements that benefit all users. The philosophy of "if it hashes, it hashes" emphasizes the platform's focus on functionality over constant upgrades, encouraging users to maintain and operate their devices rather than pursuing the latest versions. This approach supports sustainable hardware practices while maintaining the educational value that makes Bitaxe devices valuable learning tools for understanding Bitcoin mining technology.
+Iga Bitaxe-seadme keskmes on ESP-mikrokontroller, mis on peamine liides kasutaja ja ASIC kiibi vahel. Sellel mikrokontrolleril töötab Open Source Miners United (OSMU) kogukonna poolt välja töötatud spetsiaalne tarkvara, mis võimaldab ASIC tööparameetrite täpset kontrollimist. Side mikrokontrolleri ja ASIC vahel toimub hoolikalt kavandatud jadaühendusliinide kaudu, mis on nähtavate jälgedena otse trükkplaadile söövitatud.
 
-## Where can I learn more?
+
+Mikrokontrolleri roll ulatub kaugemale lihtsast ASIC juhtimisest: see hõlmab ka toitehaldust, temperatuuri jälgimist ja kasutajaliidese funktsioone. Integreeritud ekraani kaudu saavad kasutajad jälgida kriitilisi tööparameetreid, nagu temperatuur, hash-kiirus, IP-aadress ja muu asjakohane mining statistika. See reaalajas tagasisidesüsteem annab väärtusliku ülevaate seadme jõudlusest ja aitab kasutajatel optimeerida mining toimimist, õppides samal ajal tundma riistvara aluseks olevat käitumist.
+
+
+### Toitehaldus ja ohutusega seotud kaalutlused
+
+
+Bitaxe'i platvorm töötab range 5-voldise vooluvoolu nõudega, mistõttu on seadme pikaealisuse ja ohutuse seisukohalt kriitilise tähtsusega õige toiteallika valik. Bitaxe'i plaatide toitejuhtimissüsteem sisaldab keerukat vooluahelat, mis on mõeldud ASIC kiibi pingevarustuse reguleerimiseks, jälgides samal ajal energiatarbimist eri töörežiimide puhul. Selline toitehalduse võime võimaldab seadmel töötada tõhusalt erinevate sisemiste sageduste ja pingete vahemikus, tarbides sõltuvalt konfiguratsioonist tavaliselt 5-25 vatti.
+
+
+Võimsusnõuete mõistmine muutub otsustavaks, kui arvestada, et vale pingekasutus võib seadet jäädavalt kahjustada. Sageduse, pinge, energiatarbimise ja hash-kiiruse vaheline seos näitab ASIC tööpõhimõtteid, mis kehtivad kogu mining riistvara puhul. Kasutajad saavad eksperimenteerida erinevate võimsuse seadistustega, et mõista mining operatsioonidele omaseid tõhususe kompromisse, saades praktilisi kogemusi mõistetega, mida kohaldatakse suuremahuliste mining rakenduste puhul.
+
+
+### Solo Mining fookus ja võrgustikus osalemine
+
+
+Bitaxe'i platvorm on spetsiaalselt suunatud mining rakendustele, kus üksikud kaevurid püüavad lahendada Bitcoin plokke iseseisvalt, mitte osaleda suurtes mining-poolides. Kuigi Bitaxe'i seadmete hash-kiiruse määr muudab eduka plokkide avastamise statistiliselt ebatõenäoliseks, teenib selline lähenemisviis Bitcoin kogukonnas olulisi hariduslikke ja filosoofilisi eesmärke. Solo mining koos Bitaxe'i seadmetega aitab kasutajatel mõista Bitcoin proof-of-work süsteemi fundamentaalset mehaanikat, aidates samal ajal kaasa võrgu detsentraliseerimisele.
+
+
+Rõhuasetus mining soolole peegeldab OSMU kogukonna pühendumust julgustada individuaalset osalemist Bitcoin turvamudelis. Bitaxe'i platvorm võimaldab kasutajatel iseseisvalt töötava kättesaadava riistvara pakkumisega teostada oma mining operatsioone, ilma et nad peaksid toetuma koondinfrastruktuurile. Selline lähenemisviis soodustab Bitcoin konsensusmehhanismi sügavamat mõistmist, toetades samal ajal võrgu detsentraliseeritud olemust kaevandajate suurema mitmekesisuse kaudu.
+
+
+### Riistvara areng ja tootmise täiustamine
+
+
+Bitaxe'i platvorm areneb jätkuvalt kogukonna tagasiside ja tootmise optimeerimise kaudu, kusjuures uuemad versioonid sisaldavad parandusi, mis parandavad valmistatavust ja kasutajakogemust. Versiooniuuendused keskenduvad tavaliselt pigem tootmise tõhususele kui põhimõttelistele tulemuslikkuse muudatustele, tagades, et olemasolevad kasutajad ei puutu kokku vananemise survega. Sellised funktsioonid nagu üleminek micro-USB-ühendustelt USB-C-pistikutele ja täiustatud toiteühendussüsteemid peegeldavad kogukonna tähelepanu praktilise kasutatavuse parandamisele.
+
+
+Selline evolutsiooniline lähenemine näitab avatud lähtekoodiga riistvara arendamise eeliseid, kus kogukonna panus aitab kaasa järk-järgulistele parandustele, millest saavad kasu kõik kasutajad. Filosoofia "kui see on hashes, siis on see hashes" rõhutab platvormi keskendumist funktsionaalsusele, mitte pidevatele uuendustele, julgustades kasutajaid oma seadmeid hooldama ja kasutama, mitte püüdlema uusimate versioonide poole. Selline lähenemisviis toetab jätkusuutlikke riistvara kasutamise tavasid, säilitades samal ajal Bitaxe'i haridusliku väärtuse.
+
+
+## Kus ma saan rohkem teada?
+
 <chapterId>706f2fff-fa1c-5d8e-b14c-ece6e42c016f</chapterId>
+
 :::video id=90088397-3a16-485f-bbd2-89cdbb844e4a:::
 
-The Bitaxe project represents a comprehensive open-source mining initiative that extends far beyond a single device. Understanding where to find reliable information, technical resources, and community support is crucial for anyone looking to engage with this ecosystem. This chapter provides a complete guide to the essential platforms and resources that form the foundation of the Bitaxe and Open Source Miners United (OSMU) community.
-
-### Bitaxe.org, the central Hub
-
-The Bitaxe.org website serves as the primary gateway to all project-related information and resources. This centralized platform functions as your first point of reference whenever you need to learn about Bitaxe devices or explore other projects within the Open Source Miners United community. The website's design prioritizes accessibility and organization, presenting visitors with carefully curated links that connect to various specialized resources throughout the ecosystem.
-
-The importance of this central hub cannot be overstated, as it eliminates the confusion that often accompanies decentralized open-source projects. Rather than searching through multiple platforms or relying on potentially outdated information from unofficial sources, users can trust Bitaxe.org to provide current, verified links to all essential resources. This approach ensures that both newcomers and experienced community members can efficiently locate the specific information they need for their projects.
-
-### Technical Resources and Development Materials
-
-The hardware design files repository on GitHub represents one of the most valuable resources for anyone interested in understanding or building Bitaxe devices. This public repository contains comprehensive documentation that covers every aspect of the hardware design process, from initial concepts to final manufacturing specifications. The repository includes detailed images, project goals, feature descriptions, and built-in component explanations that provide both technical depth and practical guidance.
-
-For those interested in manufacturing their own devices, the repository includes specific documentation files such as building.md, which provides step-by-step instructions for the entire production process. This documentation covers the software tools required for PCB design, the procedures for sending files to manufacturers, and the steps involved in receiving and validating manufactured PCBs. This level of detail ensures that individuals or small organizations can successfully navigate the manufacturing process without extensive prior experience in hardware production.
-
-The ESP-Miner repository serves as the central location for all firmware-related code and documentation. This GitHub repository contains every line of code written for the Bitaxe firmware, along with comprehensive documentation that explains system requirements, hardware specifications, and configuration options. The repository structure is designed to accommodate both users who prefer pre-compiled binary files and developers who want to build the firmware from source code.
-
-The documentation within this repository includes detailed sections on hardware requirements, pre-configuration options, and recommended values for various settings. This information proves invaluable for users who want to customize their devices or troubleshoot specific issues. Additionally, the repository includes information about newer developments, such as RP (Raspberry Pi) integration, ensuring that the documentation remains current with ongoing project evolution.
-
-### Device Management and Maintenance Tools
-
-The Bitaxe web flasher represents a practical solution for device maintenance and updates. This web-based tool allows users to flash firmware to their devices without requiring specialized software or complex command-line procedures. The flasher supports multiple device variants, including the Bitaxe Ultra with various port versions and the older Bitaxe Max models. Users can choose between updating existing firmware through the web interface or performing complete factory resets using USB connections.
-
-This tool addresses one of the most common challenges faced by hardware enthusiasts: maintaining and updating device firmware. By providing a user-friendly web interface, the flasher eliminates many of the technical barriers that might otherwise prevent users from keeping their devices current with the latest firmware releases. The tool's design prioritizes simplicity while maintaining the flexibility needed for different device configurations and update scenarios.
-
-### Community Platforms and Communication Channels
-
-The Discord server represents the heart of real-time community interaction and support within the Bitaxe ecosystem. The server's organization reflects the diverse interests and needs of community members, with carefully structured channels that facilitate focused discussions on specific topics. New members encounter a verification process that requires reading and accepting community rules, ensuring that all participants understand the expectations for respectful and productive interaction.
-
-The server's channel structure includes general discussion areas covering topics such as solar power integration, mining pools, and Bitcoin-related discussions. More specialized sections focus on specific devices, including dedicated channels for the Bitaxe Ultra, Hex, and Supra variants. The firmware channel provides a focused space for technical discussions about software development and troubleshooting, while the official releases channel ensures that community members receive timely notifications about new developments.
-
-The Discord server also features a subscriber area that provides additional benefits for community members who choose to support the project financially. This tiered approach allows the community to offer enhanced services while maintaining open access to essential information and support channels. The help channel serves as a dedicated space for troubleshooting and technical assistance, ensuring that users can receive prompt support when encountering difficulties.
+Bitaxe'i projekt kujutab endast terviklikku avatud lähtekoodiga mining algatust, mis ulatub kaugemale ühest seadmest. Arusaam sellest, kust leida usaldusväärset teavet, tehnilisi ressursse ja kogukonna toetust, on oluline kõigile, kes soovivad selles ökosüsteemis osaleda. Selles peatükis on esitatud täielik juhend oluliste platvormide ja ressursside kohta, mis moodustavad Bitaxe'i ja Open Source Miners United (OSMU) kogukonna aluse.
 
 
-The Open Source Miners United wiki (osmu.wiki) provides comprehensive documentation that complements the real-time discussions occurring on Discord. Unlike chat-based platforms, the wiki offers structured, searchable documentation that covers all aspects of the Bitaxe project and related initiatives. The wiki's organization mirrors the project's structure, with dedicated sections for different device series and comprehensive setup guides.
-
-The wiki's open-source nature allows community members to contribute directly to the documentation. Users can edit pages, submit corrections, and add new information through GitHub integration, ensuring that the knowledge base remains current and comprehensive. This collaborative approach leverages the collective expertise of the community while maintaining quality control through a review process for submitted changes.
-
-The wiki includes practical resources such as PDF setup guides that provide step-by-step instructions for device configuration and use. These guides serve as valuable references for both new users and experienced community members who need quick access to specific procedures or configuration details.
-
-### Purchasing and Vendor Information
-
-The Bitaxe legit list addresses a critical need within the open-source hardware community: identifying trustworthy vendors and avoiding fraudulent sellers. This curated list includes verified resellers and manufacturers who meet specific criteria for legitimacy and community support. Each listing includes direct links to vendor websites, regional information, and company descriptions that help users make informed purchasing decisions.
-
-Importantly, the list indicates whether each vendor contributes back to the OSMU community, either financially or through other forms of support. This transparency helps community members understand which vendors actively support the project's development and sustainability. The list also serves as a protective measure against common scams, such as unauthorized pre-orders for unreleased products, which have historically caused problems within the community.
-
-The emphasis on non-affiliate links demonstrates the community's commitment to providing unbiased vendor recommendations. Users can trust that the recommendations are based on vendor legitimacy and community contribution rather than financial incentives, ensuring that purchasing decisions support both individual needs and community sustainability.
+### Bitaxe.org, keskne keskus
 
 
-# Software and Operations
+Bitaxe.org veebisait on peamine juurdepääs kogu projektiga seotud teabele ja ressurssidele. See tsentraliseeritud platvorm on teie esimene tugipunkt, kui teil on vaja teada saada Bitaxe'i seadmete kohta või uurida teisi projekte OSMU kogukonnas. Veebisaidi kujunduses on esikohal ligipääsetavus ja organiseerimine, esitades külastajatele hoolikalt kureeritud linke, mis ühendavad erinevaid spetsialiseeritud ressursse kogu ökosüsteemis.
+
+
+Selle keskse keskuse tähtsust ei saa ülehinnata, sest see kõrvaldab segaduse, mis sageli kaasneb detsentraliseeritud avatud lähtekoodiga projektidega. Selle asemel, et otsida läbi mitme platvormi või tugineda mitteametlikest allikatest pärit potentsiaalselt vananenud teabele, saavad kasutajad usaldada Bitaxe.org-i, et see pakub ajakohaseid ja kontrollitud linke kõigile olulistele allikatele. Selline lähenemine tagab, et nii uustulnukad kui ka kogenud kogukonnaliikmed saavad tõhusalt leida oma projektide jaoks vajalikku teavet.
+
+
+### Tehnilised ressursid ja arendusmaterjalid
+
+
+GitHubis asuv riistvara disainifailide repositoorium on üks kõige väärtuslikumaid ressursse kõigile, kes on huvitatud Bitaxe'i seadmete mõistmisest või ehitamisest. See avalik repositoorium sisaldab põhjalikku dokumentatsiooni, mis hõlmab kõiki riistvara projekteerimisprotsessi aspekte, alates esialgsetest kontseptsioonidest kuni lõplike tootmisspetsifikaatideni. Repositoorium sisaldab üksikasjalikke pilte, projekti eesmärke, funktsioonide kirjeldusi ja sisseehitatud komponentide selgitusi, mis pakuvad nii tehnilist sügavust kui ka praktilisi juhiseid.
+
+
+Neile, kes on huvitatud oma seadmete valmistamisest, sisaldab repositoorium konkreetseid dokumentatsioonifaile, nagu näiteks building.md, mis annab samm-sammult juhiseid kogu tootmisprotsessi kohta. See dokumentatsioon hõlmab trükkplaatide projekteerimiseks vajalikke tarkvaravahendeid, failide tootjatele saatmise korda ning valmistatud trükkplaatide vastuvõtu ja valideerimise samme. Selline üksikasjalikkus tagab, et üksikisikud või väikesed organisatsioonid saavad tootmisprotsessis edukalt navigeerida ilma ulatusliku eelneva kogemuseta riistvara tootmises.
+
+
+ESP-Miner repositoorium on kogu firmavaraga seotud koodi ja dokumentatsiooni keskne asukoht. See GitHubi repositoorium sisaldab kõiki Bitaxe'i püsivara jaoks kirjutatud koodiridu koos põhjaliku dokumentatsiooniga, mis selgitab süsteeminõudeid, riistvara spetsifikatsioone ja konfiguratsioonivõimalusi. Repositooriumi struktuur on loodud nii kasutajatele, kes eelistavad eelkompileeritud binaarfaile, kui ka arendajatele, kes soovivad püsivara lähtekoodist koostada.
+
+
+Selle repositooriumi dokumentatsioon sisaldab üksikasjalikke jaotisi riistvaranõuete, eelkonfigureerimise võimaluste ja erinevate seadete soovituslike väärtuste kohta. See teave osutub hindamatuks kasutajatele, kes soovivad oma seadmeid kohandada või lahendada konkreetseid probleeme. Lisaks sisaldab repositoorium teavet uuemate arengute kohta, näiteks Raspberry Pi integreerimise kohta, tagades, et dokumentatsioon jääb projekti käimasoleva arenguga samale tasemele.
+
+
+### Seadme haldus- ja hooldusvahendid
+
+
+Bitaxe'i veebiplahvatusprogramm on praktiline lahendus seadme hoolduseks ja uuendamiseks. See veebipõhine tööriist võimaldab kasutajatel oma seadmetesse püsivara flashida ilma spetsiaalse tarkvara või keeruliste käsurea protseduurideta. Flasher toetab mitut seadmevarianti, sealhulgas Bitaxe Ultra erinevate portversioonidega ja vanemaid Bitaxe Maxi mudeleid. Kasutajad saavad valida, kas uuendada olemasolevat püsivara veebiliidese kaudu või teostada USB-ühenduste abil täielikku tehasepuhastust.
+
+
+See tööriist tegeleb ühe kõige tavalisema probleemiga, millega riistvarahuvilised silmitsi seisavad: seadme püsivara hooldamine ja uuendamine. Kasutajasõbraliku veebiliidese abil kõrvaldab see väljalülitusprogramm paljud tehnilised takistused, mis muidu takistaksid kasutajatel oma seadmeid viimaste püsivara versioonidega ajakohasena hoida. Tööriista disainis on esikohal lihtsus, säilitades samas paindlikkuse, mis on vajalik erinevate seadmekonfiguratsioonide ja uuendamisstsenaariumide jaoks.
+
+
+### Ühenduse platvormid ja sidekanalid
+
+
+Discordi server on Bitaxe'i ökosüsteemi reaalajas toimuva kogukonna suhtluse ja toetuse süda. Serveri korraldus peegeldab kogukonnaliikmete erinevaid huve ja vajadusi, kusjuures hoolikalt struktureeritud kanalid hõlbustavad konkreetsete teemade üle peetavaid arutelusid. Uued liikmed puutuvad kokku kontrolliprotsessiga, mis nõuab kogukonna reeglite lugemist ja aktsepteerimist, tagades, et kõik osalejad mõistavad lugupidava ja produktiivse suhtluse ootusi.
+
+
+Serveri kanali struktuur sisaldab üldisi arutelualasid, mis hõlmavad selliseid teemasid nagu päikeseenergia integreerimine, mining basseinid ja Bitcoin-ga seotud arutelud. Spetsiifilisemad sektsioonid keskenduvad konkreetsetele seadmetele, sealhulgas spetsiaalsed kanalid Bitaxe Ultra, Hex ja Supra variantidele. Firmware-kanal pakub keskendunud ruumi tarkvaraarenduse ja tõrkeotsingu tehniliste arutelude jaoks, samas kui ametlike väljaannete kanal tagab, et kogukonna liikmed saavad õigeaegselt teateid uute arengute kohta.
+
+
+Samuti on seal olemas tellija ala, mis pakub lisahüvesid kogukonna liikmetele, kes otsustavad projekti rahaliselt toetada. Selline mitmetasandiline lähenemisviis võimaldab kogukonnal pakkuda täiustatud teenuseid, säilitades samal ajal avatud juurdepääsu olulisele teabele ja toetuskanalitele. Abikanal on spetsiaalne ruum tõrkeotsingu ja tehnilise abi jaoks, mis tagab, et kasutajad saavad probleemide korral kiiret tuge.
+
+
+
+Open Source Miners Unitedi wiki (osmu.wiki) pakub põhjalikku dokumentatsiooni, mis täiendab Discordis toimuvaid reaalajas toimuvaid arutelusid. Erinevalt chat-põhistest platvormidest pakub wiki struktureeritud, otsitavat dokumentatsiooni, mis hõlmab kõiki Bitaxe'i projekti ja sellega seotud algatusi. Selle ülesehitus peegeldab projekti struktuuri, kus on eri seadmesarjadele pühendatud jaotised ja põhjalikud seadistusjuhendid.
+
+
+Wiki avatud lähtekoodiga olemus võimaldab kogukonna liikmetel otse dokumentatsiooni panustada. Kasutajad saavad GitHubi integratsiooni kaudu muuta lehekülgi, esitada parandusi ja lisada uut teavet, tagades, et teadmistebaas jääb ajakohaseks ja läbipaistvaks. Selline koostööl põhinev lähenemisviis kasutab kogukonna kollektiivseid teadmisi, säilitades samal ajal kvaliteedikontrolli esitatud muudatuste läbivaatamisprotsessi kaudu.
+
+
+Wiki sisaldab praktilisi ressursse, näiteks PDF-seadistusjuhendeid, mis annavad samm-sammult juhiseid seadme konfigureerimiseks ja kasutamiseks. Need juhendid on väärtuslikud viited nii uutele kasutajatele kui ka kogenud kogukonna liikmetele, kes vajavad kiiret juurdepääsu konkreetsetele protseduuridele või konfiguratsiooni üksikasjadele.
+
+
+### Ostu ja müüja teave
+
+
+Bitaxe legitiimne nimekiri on avatud lähtekoodiga riistvarakogukonna kriitilise tähtsusega vajadus: usaldusväärsete müüjate tuvastamine ja petturlike müüjate vältimine. See kureeritud nimekiri sisaldab kontrollitud edasimüüjaid ja tootjaid, kes vastavad kindlatele legitiimsuse ja kogukonna toetuse kriteeriumidele. Iga loetelu sisaldab otselinki müüja veebisaitidele, piirkondlikku teavet ja ettevõtte kirjeldusi, mis aitavad kasutajatel teha teadlikke ostuotsuseid.
+
+
+Oluline on see, et nimekirjas on märgitud, kas iga müüja toetab OSMU kogukonda rahaliselt või muul viisil. Selline läbipaistvus aitab kogukonna liikmetel mõista, millised müüjad toetavad aktiivselt projekti arengut ja jätkusuutlikkust. Nimekiri on ka kaitsemeetmeks levinud pettuste, näiteks välja andmata toodete volitamata eeltellimuste vastu, mis on kogukonnas varem probleeme tekitanud.
+
+
+Rõhuasetus mitteseotud linkidele näitab kogukonna pühendumust pakkuda erapooletuid müüja soovitusi. Kasutajad võivad usaldada, et soovitused põhinevad pigem müüja legitiimsusel ja kogukonna panusel kui rahalistel stiimulitel, mis tagab, et ostuotsused toetavad nii individuaalseid vajadusi kui ka kogukonna jätkusuutlikkust.
+
+
+
+# Tarkvara ja operatsioonid
+
 <partId>04b302a9-42ba-5ad4-834c-6979950c2948</partId>
 
-## What is AxeOS ?
+
+## Mis on AxeOS?
+
 <chapterId>a0cdf10d-e007-58e2-a17b-b588fd393b5e</chapterId>
+
 :::video id=de7bcbf2-f9ac-4057-ad40-29dc223b4798:::
 
-AxeOS represents the comprehensive firmware and web interface that powers Bitaxe mining devices, providing users with complete control and monitoring capabilities through an intuitive browser-based dashboard. This system transforms the complex task of ASIC management into an accessible experience, allowing miners to monitor performance, adjust settings, and manage multiple devices from a single interface. Understanding AxeOS is essential for maximizing your Bitaxe device's potential and maintaining optimal mining operations.
-
-### Dashboard Overview and Core Metrics
-
-The AxeOS dashboard serves as your primary window into your Bitaxe device's performance, presenting critical mining metrics in an organized, real-time format. When you navigate to your Bitaxe device's IP address, you're immediately presented with four key performance indicators that define your mining operation's current state. The hash rate display shows the actual computational speed your ASIC chip is producing as it processes the current block template, providing immediate feedback on your device's core functionality.
-
-Adjacent to the hash rate, the shares counter tracks every valid solution your Bitaxe device submits to the mining pool, incrementing with each successful submission and serving as a direct measure of your device's contribution to the pool's mining efforts. The efficiency metric provides crucial insight into your device's power performance by calculating the ratio of hash rate to power consumption, helping you optimize your operation's profitability. The best difficulty indicator preserves a record of the highest difficulty share your device has ever found, maintaining this achievement even through reboots and updates, only resetting when you perform a complete factory flash.
-
-The dashboard's expandable menu system, controlled by a toggle button, provides access to all AxeOS functionality while maintaining a clean interface. The live hash rate graph represents one of AxeOS's most valuable features, displaying real-time performance data that becomes increasingly accurate and informative the longer you maintain your session. Below this visualization, the power, heat, and performance sections provide comprehensive monitoring of your device's operational status, including input voltage warnings that alert you to potential power supply issues while ensuring continued operation within safe parameters.
-
-### Advanced Monitoring and System Information
-
-The monitoring capabilities of AxeOS extend far beyond basic hash rate tracking, providing detailed insights into every aspect of your Bitaxe device's operation. The power section displays calculated power consumption derived from onboard integrated circuits, input voltage measurements from your power supply connection, and requested ASIC voltage levels. When voltage drops occur, AxeOS immediately presents warning notifications, though these typically don't affect mining operations and simply indicate potential power supply optimization opportunities.
-
-Temperature monitoring focuses on ASIC chip thermal management, with readings taken from strategic locations on the device to provide accurate thermal data with appropriate offsets for chip-level accuracy. The frequency and voltage displays offer real-time feedback on your ASIC tuning parameters, with the measured voltage representing the most accurate reading available, taken directly at the ASIC chip location. This precision enables fine-tuning of performance parameters while maintaining safe operating conditions.
-
-The connection status section provides immediate visibility into your pool configuration, displaying the current stratum URL, port, and user identification. For devices connected to public pools, AxeOS generates convenient quick links that transport you directly to your pool's web interface, where you can access detailed statistics, device listings, and historical performance data. This integration streamlines the monitoring process by connecting device-level and pool-level information in a seamless workflow.
-
-### Swarm Management and Multi-Device Control
-
-The Swarm functionality represents AxeOS's solution to the complexity of managing multiple Bitaxe devices across a network, eliminating the need to remember and navigate to numerous IP addresses. This centralized management system allows you to add devices by simply entering their IP addresses, automatically detecting active Bitaxe miners and incorporating them into a unified control dashboard. Once configured, Swarm provides comprehensive control over your entire mining operation from a single interface.
-
-Through the Swarm interface, you can perform critical management tasks across multiple devices simultaneously or individually, including pool configuration changes, device restarts, frequency adjustments, and performance monitoring. This centralized approach significantly reduces the administrative overhead of managing large mining operations while ensuring consistent configuration across all devices. The system maintains individual device identity while providing collective management capabilities, striking an optimal balance between granular control and operational efficiency.
-
-The Swarm dashboard presents each managed device with its current status, performance metrics, and quick-access controls, enabling rapid response to performance issues or configuration changes. This functionality proves particularly valuable for miners operating multiple devices in different locations or those who frequently adjust mining parameters based on market conditions or pool performance.
-
-### Configuration Management and System Settings
-
-The Settings section of AxeOS provides comprehensive control over every configurable aspect of your Bitaxe device, from network connectivity to mining parameters and hardware optimization. Network configuration begins with Wi-Fi setup, where you specify your network name and password, with AxeOS recommending single-word network names without spaces to ensure reliable connectivity. The system handles the complete wireless configuration process, enabling remote management and monitoring capabilities.
-
-Mining configuration centers on stratum settings, where you specify your chosen mining pool's URL without protocol prefixes or port numbers, which are handled in separate fields. The stratum user field accommodates various pool requirements, supporting both Bitcoin addresses for solo mining and username systems for pool mining, with the ability to append device identifiers for multi-device operations. The recently added stratum password functionality supports pools requiring authentication, though most public pools operate without this requirement.
-
-Hardware optimization through frequency and core voltage adjustment represents AxeOS's most powerful performance tuning capability. Depending on your device version and browser, these settings may appear as dropdown menus with preset configurations or as open fields allowing custom values. The default settings of 485 MHz frequency and 1200 mV core voltage provide stable operation for initial testing, while advanced users can optimize these parameters for maximum performance or efficiency based on their specific requirements and operating conditions.
-
-### System Maintenance and Advanced Features
-
-AxeOS includes sophisticated system maintenance capabilities designed to keep your Bitaxe device operating at peak performance while providing diagnostic information for troubleshooting and optimization. The update system streamlines firmware management by displaying the latest available release directly in the interface and providing direct download links to official firmware files. This integration eliminates the need to manually navigate GitHub repositories or manage file downloads, simplifying the update process to a few clicks.
-
-The update interface accepts properly named firmware files, specifically esp-miner.bin and www.bin, ensuring compatibility and preventing installation errors. For users experiencing difficulties with the standard update process, AxeOS provides references to comprehensive factory flash procedures that can restore devices to original functionality. This dual approach accommodates both routine updates and recovery scenarios.
-
-The logging system provides real-time insight into device operations, displaying detailed information about ASIC chip models, system uptime, Wi-Fi connectivity status, available memory, firmware versions, and board revisions. These logs prove invaluable for developers and advanced users seeking to understand device behavior, diagnose issues, or optimize performance. The real-time log viewer presents live operational data, including nonce processing, difficulty calculations, and mining submission parameters, offering unprecedented visibility into the mining process itself.
-
-Additional system features include screen orientation control for devices used in custom enclosures, fan polarity inversion for specialized cooling configurations, and automatic fan control that adjusts cooling based on ASIC temperature. Manual fan speed control provides precise cooling management when automatic systems don't meet specific requirements. All configuration changes require saving and device restart to take effect, ensuring stable operation and preventing partial configuration states that could impact mining performance.
+AxeOS on Bitaxe mining seadmetele mõeldud püsivara- ja veebiliides, mis pakub kasutajatele täielikku kontrolli ja jälgimise võimalust intuitiivse brauseripõhise armatuurlaua kaudu. See süsteem muudab ASIC haldamise keerulise ülesande hõlpsasti kasutatavaks, võimaldades kaevuritele jälgida jõudlust, kohandada seadeid ja hallata mitut seadet ühest kasutajaliidesest. AxeOSi mõistmine on oluline, et maksimeerida oma Bitaxe'i seadme potentsiaali ja säilitada optimaalne mining toimimine.
 
 
-# Community and Collaboration
+### Armatuurlaua ülevaade ja põhinäitajad
+
+
+AxeOSi armatuurlaud on teie esmane aken Bitaxe'i seadme jõudlusele, esitades kriitilised mining mõõdikud organiseeritud ja reaalajas vormingus. Kui navigeerite oma Bitaxe'i seadme IP-aadressile, kuvatakse teile kohe neli peamist tulemusnäitajat, mis määratlevad teie mining operatsiooni hetkeseisu. Hash-kiiruse kuva näitab tegelikku arvutuskiirust, mida teie ASIC kiip praegust plokkmalli töötleb, andes vahetut tagasisidet teie seadme põhifunktsionaalsuse kohta.
+
+
+Hashimiskiiruse kõrval jälgib aktsiate loendur iga kehtivat lahendust, mille teie Bitaxe'i seade mining-poolsesse esitab, suurendades seda iga eduka esitamisega ja olles otsene näitaja teie seadme panuse kohta mining-poolsete jõupingutuste tegemisel. Tõhususe mõõdik annab olulise ülevaate teie seadme energiatarbimisest, arvutades hash-kiiruse ja energiatarbimise suhte, mis aitab teil optimeerida oma tegevuse kasumlikkust. Parima raskusastme näitaja säilitab teie seadme kõrgeima raskusastme osakaalu, säilitades selle saavutuse isegi taaskäivituste ja värskenduste ajal ning nullides selle ainult siis, kui te teostate täieliku tehase väljalülituse.
+
+
+Armatuurlaua laiendatav menüüsüsteem, mida juhitakse lülitusnupuga, võimaldab juurdepääsu kõikidele AxeOSi funktsioonidele, säilitades samas puhta kasutajaliidese. Üks selle kõige väärtuslikumaid funktsioone on live-hash-kiiruse graafik, mis näitab reaalajas toimimisandmeid, mis muutuvad seda täpsemaks ja informatiivsemaks, mida kauem te oma seanssi säilitate. Toite-, soojuse- ja jõudluse sektsioonid pakuvad teie seadme tööseisundi põhjalikku jälgimist, sealhulgas sisendpinge hoiatusi, mis hoiatavad teid võimalike toiteallikaga seotud probleemide eest, tagades samal ajal jätkuva töö ohutute parameetrite piires.
+
+
+### Täiustatud seire ja süsteemiteave
+
+
+AxeOSi seirevõimalused ulatuvad kaugemale põhilisest hash-kiiruse jälgimisest, andes üksikasjaliku ülevaate teie Bitaxe'i seadme toimimise igast aspektist. Toiteosa kuvab arvutuslikku energiatarbimist, mis on saadud integreeritud vooluahelatest, sisendpinge mõõtmisi teie toiteallika ühendusest ja soovitud ASIC pingetasemeid. Pinge languse korral esitab AxeOS kohe hoiatusteated, kuigi need tavaliselt ei mõjuta mining toimimist ja näitavad lihtsalt võimalikke toiteallika optimeerimise võimalusi.
+
+
+Temperatuuri jälgimine keskendub ASIC kiibi soojusjuhtimisele, kusjuures mõõtmistulemused võetakse seadme strateegilistest kohtadest, et anda täpseid soojusandmeid koos sobivate nihetega kiibitasandi täpsuse tagamiseks. Sageduse ja pinge näidikud pakuvad reaalajas tagasisidet ASIC häälestusparameetrite kohta, kusjuures mõõdetud pinge kujutab endast kõige täpsemat kättesaadavat näitu, mis on võetud otse ASIC kiibi asukohast. Selline täpsus võimaldab jõudlusparameetrite peenhäälestamist, säilitades samal ajal ohutud töötingimused.
+
+
+Ühenduse oleku sektsioon annab vahetu ülevaate mining basseini konfiguratsioonist, näidates praeguse kihi URL-i, pordi ja kasutaja identifikaatori. Avalike basseinidega ühendatud seadmete puhul genereerib AxeOS mugavad kiirlinkid, mis viivad teid otse teie basseini veebiliidesesse, kus saate juurdepääsu üksikasjalikule statistikale, seadmete nimekirjadele ja varasematele tulemuslikkuse andmetele. See integratsioon lihtsustab seireprotsessi, ühendades seadme- ja basseinitasandi teabe sujuvaks töövooks.
+
+
+### Parve haldamine ja mitme seadme juhtimine
+
+
+Swarm-funktsioon kujutab endast AxeOSi lahendust mitme Bitaxe'i seadme haldamise keerukusele kogu võrgus, kõrvaldades vajaduse mäletada ja navigeerida arvukatele IP-aadressidele. See tsentraliseeritud haldussüsteem võimaldab teil lisada seadmeid, sisestades lihtsalt nende IP-aadressid, tuvastab automaatselt aktiivsed Bitaxe'i kaevandajad ja lisab need ühtsele juhtimisplaadile. Pärast seadistamist pakub Swarm terviklikku kontrolli kogu teie mining operatsiooni üle ühest kasutajaliidesest.
+
+
+Parve kasutajaliidese kaudu saate täita kriitilisi haldusülesandeid mitme seadme puhul samaaegselt või üksikult, sealhulgas muuta basseinide konfiguratsiooni, taaskäivitada seadmeid, kohandada sagedust ja jälgida jõudlust. Selline tsentraliseeritud lähenemisviis vähendab märkimisväärselt suurte mining operatsioonide haldamisega seotud halduskulusid, tagades samal ajal kõigi seadmete järjepideva konfiguratsiooni. Süsteem säilitab individuaalse seadme identiteedi, pakkudes samal ajal kollektiivseid haldusvõimalusi, saavutades optimaalse tasakaalu granulaarse kontrolli ja tegevuse tõhususe vahel.
+
+
+Swarmi armatuurlaual esitatakse iga hallatava seadme praegune olek, jõudlusnäitajad ja kiire ligipääsuga kontroll, mis võimaldab kiiret reageerimist jõudlusprobleemidele või konfiguratsioonimuudatustele. See funktsioon on eriti väärtuslik kaevurite jaoks, kes kasutavad mitut seadet erinevates asukohtades või kes sageli kohandavad mining parameetreid vastavalt turutingimustele või basseinide tulemuslikkusele.
+
+
+### Konfiguratsiooni haldamine ja süsteemi seaded
+
+
+AxeOSi seadete sektsioon pakub põhjalikku kontrolli Bitaxe'i seadme iga seadistatava aspekti üle, alates võrguühendusest kuni mining parameetrite ja riistvara optimeerimiseni. Võrgu konfigureerimine algab Wi-Fi seadistamisega, kus te määrate oma võrgu nime ja parooli, kusjuures AxeOS soovitab usaldusväärse ühenduvuse tagamiseks ühe sõnaga, ilma tühikuteta võrgu nimesid. Süsteem tegeleb kogu traadita võrgu konfigureerimisprotsessiga, võimaldades kaugjuhtimise ja jälgimise võimalusi.
+
+
+Mining konfigureerimise keskmes on kihi seaded, kus te määrate valitud mining basseini URL-i ilma protokollide eesliite või portide numbriteta, mida käsitletakse eraldi väljadel. Stratum kasutaja väli vastab erinevatele basseinõuetele, toetades nii Bitcoin aadresse soolo mining jaoks kui ka kasutajanimede süsteeme basseini mining jaoks, kusjuures mitme seadme operatsioonide jaoks on võimalik lisada seadme identifikaatorid. Hiljuti lisatud stratum password funktsioon toetab autentimist nõudvaid basseinid, kuigi enamik avalikke basseinid töötavad ilma selle nõudeta.
+
+
+Riistvara optimeerimine sageduse ja tuumapinge reguleerimise kaudu on AxeOSi kõige võimsam jõudluse häälestamise võimalus. Sõltuvalt seadme versioonist ja brauserist võivad need seaded ilmuda rippmenüüdena koos eelseadistatud konfiguratsioonidega või avatud väljadena, mis võimaldavad kohandatud väärtusi. Vaikimisi seaded 485 MHz sagedus ja 1200 mV tuumapinge tagavad stabiilse töö esialgsete testide jaoks, samas kui edasijõudnud kasutajad saavad neid parameetreid optimeerida maksimaalse jõudluse või tõhususe saavutamiseks vastavalt oma konkreetsetele nõuetele ja töötingimustele.
+
+
+### Süsteemi hooldus ja täiustatud funktsioonid
+
+
+AxeOS sisaldab keerukaid süsteemi hooldusvõimalusi, mis on loodud selleks, et hoida teie Bitaxe'i seade töötama tipptasemel, pakkudes samal ajal diagnostilist teavet tõrkeotsingu ja optimeerimise jaoks. Värskendussüsteem lihtsustab püsivara haldamist, kuvades uusima saadaval oleva versiooni otse kasutajaliideses ja pakkudes otselinkide allalaadimist ametlikele püsivara failidele. See integratsioon välistab vajaduse käsitsi GitHubi hoidlates navigeerida või failide allalaadimist hallata, lihtsustades uuendamisprotsessi mõne klikiga.
+
+
+Uuendusliides aktsepteerib õigesti nimetatud püsivara faile, täpsemalt esp-miner.bin ja www.bin, tagades ühilduvuse ja vältides paigaldusvigu. Kasutajatele, kellel on raskusi standardse uuendamisprotsessiga, pakub AxeOS viiteid põhjalikele tehase flash-protseduuridele, millega saab taastada seadmete algse funktsionaalsuse. See kahekordne lähenemisviis sobib nii tavapäraste uuenduste kui ka taastamisstsenaariumide jaoks.
+
+
+Logisüsteem annab reaalajas ülevaate seadme toimimisest, kuvades üksikasjalikku teavet ASIC kiibimudelite, süsteemi tööaja, Wi-Fi ühenduvuse oleku, olemasoleva mälu, püsivara versioonide ja plaadi versioonide kohta. Need logid on hindamatu väärtusega arendajatele ja edasijõudnud kasutajatele, kes soovivad mõista seadme käitumist, diagnoosida probleeme või optimeerida jõudlust. Reaalajas logide vaataja esitab reaalajas tööandmeid, sealhulgas nonce'i töötlemist, raskusarvutusi ja mining esitamise parameetreid, pakkudes enneolematut ülevaadet mining protsessist endast.
+
+
+Süsteemi lisafunktsioonide hulka kuuluvad ekraani orientatsiooni juhtimine seadmetele, mida kasutatakse kohandatud korpustes, ventilaatori polaarsuse ümberpööramine spetsiaalsete jahutuskonfiguratsioonide jaoks ja automaatne ventilaatori juhtimine, mis reguleerib jahutust vastavalt ASIC temperatuurile. Ventilaatori kiiruse käsitsi juhtimine tagab täpse jahutuse juhtimise, kui automaatsed süsteemid ei vasta konkreetsetele nõuetele. Kõik konfiguratsioonimuudatused vajavad jõustumiseks salvestamist ja seadme taaskäivitamist, mis tagab stabiilse töö ja hoiab ära osalised konfiguratsiooniseisundid, mis võivad mõjutada mining jõudlust.
+
+
+
+# Ühendus ja koostöö
+
 <partId>eed1ce48-6752-5744-91f7-91e4e20ff6b2</partId>
 
-## Open-Source Contribution Overview
+
+## Avatud lähtekoodiga panuse ülevaade
+
 <chapterId>715d026e-cebc-536e-a34e-728f5653b999</chapterId>
+
 :::video id=7298ba19-28d2-4a7c-ac0b-44ad0c4770cf:::
 
-### GitHub and Its Role in Software Development
+### GitHub ja selle roll tarkvaraarenduses
 
-GitHub represents a fundamental shift in how software development projects are managed and shared across the global programming community. As a cloud-based platform that hosts software development projects using Git, a distributed version control system, GitHub enables developers to collaborate seamlessly on projects regardless of their physical location. The platform serves as both a technical tool and a social network for programmers, allowing them to track changes, merge updates, maintain different versions of their code, and contribute to open-source initiatives like the BitX project from Open Source Miners United.
 
-The power of GitHub lies in its ability to simplify the complex process of collaborative development. When multiple developers work on the same project, GitHub provides the infrastructure to manage contributions, review changes, handle project issues, and maintain comprehensive documentation. This collaborative approach has made GitHub an essential component of modern software development workflows, transforming how both individual developers and large organizations approach project management and code sharing.
+GitHub kujutab endast põhimõttelist muutust selles, kuidas tarkvaraarendusprojekte hallatakse ja jagatakse üleilmses programmeerimiskogukonnas. GitHub on pilvepõhine platvorm, kus tarkvaraarendusprojektid toimuvad jaotatud versioonihaldussüsteemi Git abil, mis võimaldab arendajatel teha projektides sujuvalt koostööd, sõltumata nende füüsilisest asukohast. Platvorm on programmeerijatele nii tehniline vahend kui ka sotsiaalne võrgustik, mis võimaldab neil jälgida muudatusi, ühendada uuendusi, säilitada oma koodi erinevaid versioone ja aidata kaasa avatud lähtekoodiga algatustele, nagu Open Source Miners Unitedi BitX projekt.
 
-### Navigating the GitHub Interface and Repository Structure
 
-Understanding the GitHub interface begins with recognizing the key elements that make up any repository page. The top navigation bar contains several critical sections including Code, Issues, Pull Requests, Discussions, Actions, Projects, Security, and Insights. Each section serves a specific purpose in the project management ecosystem, with the Code section displaying the actual files and folders that comprise the project.
+GitHubi võimsus seisneb tema võimekuses lihtsustada keerulist ühisarendusprotsessi. Kui mitu arendajat töötab ühe ja sama projekti kallal, pakub GitHub infrastruktuuri, et hallata panust, vaadata muudatusi, käsitleda projekti probleeme ja säilitada põhjalikku dokumentatsiooni. Selline koostööpõhine lähenemine on muutnud GitHubi kaasaegse tarkvaraarenduse töövoogude oluliseks osaks, muutes nii üksikute arendajate kui ka suurte organisatsioonide lähenemisviisi projektijuhtimisele ja koodijagamisele.
 
-The repository structure itself reflects the organizational approach of the project maintainers. Some repositories contain just a single file, perhaps a simple shell script, while others like the BitX hardware project contain numerous files organized into directories and subdirectories. The repository name appears prominently and serves as both an identifier and a brief description of the project's purpose. Essential interactive elements include the Watch button for receiving notifications about repository updates, the Fork button for creating personal copies of the repository, and the Star button which functions as a community endorsement system similar to a "thumbs up" feature.
 
-The About section provides crucial project information in a condensed format, including a one-line description, licensing information, and key project details. For the BitX project, this section identifies it as "open source ASIC Bitcoin miner hardware" and specifies the GPL 3.0 license. Understanding licensing is particularly important because GitHub operates as an open-source platform where public repositories are accessible to the entire community, making license compliance and understanding essential for any contributor.
+### GitHub Interface ja repositooriumi struktuuris navigeerimine
 
-### Working with Branches and Project Versions
 
-The concept of branches represents one of GitHub's most powerful features for managing different versions and development tracks within a single project. A branch essentially creates a copy or modified version of the main codebase, allowing developers to work on specific features, bug fixes, or experimental changes without affecting the primary development line. The master branch typically serves as the default and most stable version of the project, while additional branches accommodate different iterations, testing phases, or entirely different product variants.
+GitHubi kasutajaliidese mõistmine algab iga repositooriumi lehe põhielementide äratundmisest. Ülemine navigatsiooniriba sisaldab mitmeid olulisi jaotisi, sealhulgas Code, Issues, Pull Requests, Discussions, Actions, Projects, Security ja Insights. Iga sektsioon täidab projektijuhtimise ökosüsteemis konkreetset eesmärki, kusjuures sektsioonis Code kuvatakse tegelikud failid ja kaustad, millest projekt koosneb.
 
-In the BitX hardware project, multiple branches exist to manage different hardware versions and configurations. For example, the Ultra v2 branch contains files specific to that hardware iteration, while the Super 401 branch focuses on implementations using the S21 ASIC chip for improved efficiency. Each branch may be several commits ahead or behind the master branch, indicating the extent of changes and development activity. When examining different branches, users will notice completely different file structures, documentation, and even visual representations, reflecting the unique requirements and specifications of each hardware variant.
 
-The branch system prevents confusion among contributors and users by clearly separating different development tracks. Rather than mixing experimental features with stable releases, or combining different hardware versions in a single location, branches provide clean separation while maintaining the ability to merge successful changes back into the main development line when appropriate. This organizational approach ensures that users can easily locate the specific version they need while developers can work on improvements without disrupting the primary project.
+Repositooriumi struktuur ise peegeldab projekti hooldajate organisatsioonilist lähenemist. Mõned repositooriumid sisaldavad vaid ühte faili, võib-olla lihtsat shell-skripti, samas kui teised, nagu BitXi riistvaraprojekt, sisaldavad arvukalt faile, mis on organiseeritud kataloogidesse ja alamkataloogidesse. Hoidla nimi on silmapaistvalt nähtav ja see on nii identifikaator kui ka projekti eesmärgi lühikirjeldus. Oluliste interaktiivsete elementide hulka kuuluvad nupp Watch, millega saab teateid repositooriumi uuenduste kohta, nupp Fork, millega saab luua isiklikke koopiaid repositooriumist, ja nupp Star, mis toimib kogukonna toetussüsteemina, mis sarnaneb "pöidlaid üles" funktsiooniga.
 
-### Contributing Through Issues
 
-The Issues section serves as the primary communication channel between users and project maintainers for reporting problems, suggesting improvements, and documenting bugs. However, it's crucial to understand that the Issues section is specifically designed for legitimate technical problems rather than general questions or support requests. When users encounter actual malfunctions, unexpected behavior, or identify potential improvements, creating a well-documented issue helps the entire community by bringing attention to problems that may affect multiple users.
+Jaotises "Teave" on esitatud oluline teave projekti kohta lühendatud kujul, sealhulgas ühe rea kirjeldus, litsentsimisandmed ja projekti peamised üksikasjad. BitX-projekti puhul määratletakse see jaotises kui "avatud lähtekoodiga ASIC Bitcoin kaevandaja riistvara" ja täpsustatakse GPL 3.0 litsentsi. Litsentside mõistmine on eriti oluline, sest GitHub toimib avatud lähtekoodiga platvormina, kus avalikud hoidlad on kättesaadavad kogu kogukonnale, kuid sisu saab kasutada ja levitada ainult vastavalt iga litsentsi vastavuse eeskirjadele.
 
-Effective issue reporting requires detailed documentation of the problem, including the circumstances that led to the issue, steps to reproduce the problem, and any relevant technical details. The BitX project demonstrates this principle through various closed issues that show the resolution process, from initial problem identification through community discussion to final resolution. Some issues result in hardware improvements, such as the addition of mounting holes to increase cooling options, while others may be resolved through user education or software updates.
 
-The distinction between Issues and Discussions is important for maintaining organized community interaction. While Issues focus on specific technical problems, the Discussions section provides a forum-like environment for questions, ideas, and general community engagement. Although the Discord server has become the primary communication channel for the BitX community, the GitHub Discussions section remains available for more formal or searchable conversations that benefit from permanent documentation and easy reference.
+### Töö harude ja projekti versioonidega
 
-### Understanding Pull Requests
 
-Pull requests represent the mechanism through which external contributors propose changes to a project repository. When someone identifies an improvement, bug fix, or new feature that would benefit the project, they can create a pull request to submit their changes for review and potential integration into the main codebase. This process ensures that all modifications undergo review before becoming part of the official project, maintaining code quality and project coherence while enabling community contributions.
+Filiaalide kontseptsioon on üks GitHubi kõige võimsamaid funktsioone erinevate versioonide ja arenguradade haldamiseks ühe projekti raames. Haru loob sisuliselt peamise koodibaasi koopia või muudetud versiooni, mis võimaldab arendajatel töötada konkreetsete funktsioonide, veaparanduste või eksperimentaalsete muudatuste kallal, ilma et see mõjutaks peamist arendusliini. Põhiharu on tavaliselt projekti vaikimisi ja kõige stabiilsem versioon, samal ajal kui lisaharud sobivad erinevate iteratsioonide, testimisfaaside või täiesti erinevate tootevariantide jaoks.
 
-The pull request workflow typically begins when a contributor forks the repository, creates their own copy where they can make changes, and then submits those changes back to the original project through a pull request. Project maintainers can then review the proposed changes, discuss modifications with the contributor, and ultimately decide whether to merge the changes into the main project. This collaborative review process helps maintain project standards while encouraging community participation and improvement.
 
-Understanding tags and releases adds another layer to project management and version control. Tags serve as markers in the development timeline, identifying specific points that represent particular versions or milestones. In hardware projects like BitX, tags often correspond to specific model numbers or hardware revisions, providing clear reference points for users seeking particular versions. Releases, more commonly used in software projects, represent formal distributions of completed features and bug fixes, often accompanied by detailed release notes and downloadable packages.
+BitXi riistvaraprojektis on olemas mitu haru, et hallata erinevaid riistvaraversioone ja -konfiguratsioone. Näiteks Ultra v2 haru sisaldab selle riistvara iteratsiooni jaoks spetsiifilisi faile, samas kui Super 401 haru keskendub rakendustele, mis kasutavad S21 ASIC kiipi tõhususe parandamiseks. Iga haru võib olla mitu kommitsiooni enne või pärast põhiharu, mis näitab muudatuste ja arendustegevuse ulatust. Erinevaid harusid uurides märkavad kasutajad täiesti erinevaid failistruktuure, dokumentatsiooni ja isegi visuaalseid esitlusi, mis peegeldavad iga riistvaravariandi unikaalseid nõudeid ja spetsifikatsioone.
 
-The GitHub ecosystem creates a comprehensive environment for open-source collaboration that extends far beyond simple file sharing. By understanding these various components and their proper usage, contributors can effectively participate in projects, help improve software and hardware designs, and benefit from the collective knowledge and effort of the global development community. Whether reporting issues, suggesting improvements, or contributing code, GitHub provides the tools and structure necessary for meaningful collaboration in the open-source world.
 
-## Open-Source Contribution Hands-on
+Harude süsteem väldib segadust kaastöötajate ja kasutajate vahel, kuna see eristab selgelt erinevad arendusrajad. Selle asemel, et segada eksperimentaalseid funktsioone stabiilsete versioonidega või kombineerida erinevaid riistvaraversioone ühes kohas, tagavad harud puhta eraldatuse, säilitades samal ajal võimaluse edukate muudatuste ühendamiseks tagasi peamisesse arendusliini, kui see on asjakohane. Selline organisatsiooniline lähenemine tagab, et kasutajad saavad hõlpsasti leida konkreetse versiooni, mida nad vajavad, samal ajal kui arendajad saavad töötada paranduste kallal ilma põhiprojekti häirimata.
+
+
+### Panustamine läbi probleemide
+
+
+Probleemide sektsioon on peamine suhtluskanal kasutajate ja projekti hooldajate vahel probleemidest teatamiseks, parandusettepanekute tegemiseks ja vigade dokumenteerimiseks. Siiski on oluline mõista, et probleemide sektsioon on mõeldud pigem õigustatud tehniliste probleemide lahendamiseks kui üldiste küsimuste või toetustaotluste esitamiseks. Kui kasutajad kogevad tegelikke tõrkeid, ootamatut käitumist või tuvastavad võimalikke parandusi, aitab hästi dokumenteeritud probleemi loomine kogu kogukonda, kuna see juhib tähelepanu probleemidele, mis võivad mõjutada paljusid kasutajaid.
+
+
+Tõhus probleemidest teatamine eeldab probleemi üksikasjalikku dokumenteerimist, sealhulgas probleemi tekkimise asjaolusid, probleemi taastamise samme ja kõiki asjakohaseid tehnilisi üksikasju. Projekt BitX demonstreerib seda põhimõtet erinevate suletud probleemide kaudu, mis näitavad lahendamise protsessi alates probleemi esialgsest tuvastamisest kogukonna arutelude kaudu kuni lõpliku lahenduseni. Mõne probleemi tulemuseks on riistvara parandamine, näiteks paigaldusavade lisamine jahutusvõimaluste suurendamiseks, samas kui teised probleemid lahendatakse kasutajate koolitamise või tarkvara uuendamise abil.
+
+
+Probleemide ja arutelude eristamine on oluline kogukonna organiseeritud suhtluse säilitamiseks. Kui teemad keskenduvad konkreetsetele tehnilistele probleemidele, siis arutelude rubriik pakub foorumilaadset keskkonda küsimuste, ideede ja üldise kogukonna kaasamise jaoks. Ehkki Discordi serverist on saanud BitXi kogukonna peamine suhtluskanal, on GitHubi jaotis "Arutelud" endiselt kättesaadav ametlikumate või otsitavate vestluste jaoks, mis saavad kasu pidevast dokumentatsioonist ja lihtsast viitamisest.
+
+
+### Pull Requesti mõistmine
+
+
+Pull-päringud on mehhanism, mille kaudu välised toetajad teevad ettepanekuid projekti repositooriumi muutmiseks. Kui keegi tuvastab paranduse, veaparanduse või uue funktsiooni, mis oleks projektile kasulik, saab ta luua tõmbetaotluse, et esitada oma muudatused läbivaatamiseks ja võimalikuks integreerimiseks põhikoodibaasi. See protsess tagab, et kõik muudatused vaadatakse enne ametliku projekti osaks saamist läbi, säilitades koodi kvaliteedi ja projekti sidususe ning võimaldades samal ajal kogukonna panust.
+
+
+Tööprotsess algab tavaliselt siis, kui toetaja jagab repositooriumi, loob oma koopia, kus ta saab teha muudatusi, ja seejärel esitab need muudatused algsesse projekti tagasi tõmbetaotluse kaudu. Projekti hooldajad saavad seejärel kavandatud muudatused läbi vaadata, arutada muudatusi kaasajaga ja lõpuks otsustada, kas muudatused liita põhiprojekti. Selline ühine läbivaatamisprotsess aitab säilitada projekti standardeid, julgustades samal ajal kogukonna osalemist ja täiustamist.
+
+
+Siltide ja versioonide mõistmine lisab projektijuhtimisele ja versioonikontrollile veel ühe tasandi. Sildid toimivad arenduse ajajoonel markeritena, mis tähistavad konkreetseid punkte, mis esindavad konkreetseid versioone või verstaposte. Riistvaraprojektides, nagu BitX, vastavad sildid sageli konkreetsetele mudelinumbritele või riistvara versioonidele, pakkudes kasutajatele, kes otsivad konkreetseid versioone, selgeid võrdluspunkte. Tarkvaraprojektides sagedamini kasutatavad versioonid kujutavad endast lõpetatud funktsioonide ja veaparanduste ametlikku levitamist, millega sageli kaasnevad üksikasjalikud märkused ja allalaaditavad paketid.
+
+
+GitHubi ökosüsteem loob tervikliku keskkonna avatud lähtekoodiga koostööks, mis ulatub kaugemale lihtsast failide jagamisest. Nende erinevate komponentide ja nende nõuetekohase kasutamise mõistmisega saavad kaasajad tõhusalt osaleda projektides, aidata parandada tarkvara ja riistvara projekte ning saada kasu globaalse arenduskogukonna kollektiivsetest teadmistest ja jõupingutustest. GitHub pakub vahendeid ja struktuuri, mis on vajalikud sisuliseks koostööks avatud lähtekoodiga maailmas, olenemata sellest, kas tegemist on probleemidest teatamise, parendusettepanekute tegemise või koodiga.
+
+
+## Avatud lähtekoodiga panus Praktiline panus
+
 <chapterId>84d033f5-7182-584f-b1a5-697172bc7a1c</chapterId>
+
 :::video id=7d318fd0-6f0b-422a-9f30-2c470b56951d:::
 
-Building upon the foundation of creating issues and exploring open source projects, this chapter focuses on the practical aspects of making direct contributions through pull requests and repository management. Understanding how to fork repositories, make changes, and submit pull requests represents a crucial skill set for any developer looking to contribute meaningfully to open source projects, whether they involve software development or hardware design.
-
-The process of contributing code changes follows a standardized workflow that ensures project integrity while allowing for collaborative development. This workflow involves creating your own copy of a project repository, making modifications in a controlled environment, and then proposing those changes back to the original project through a formal review process. While the examples in this chapter focus primarily on software contributions, the same principles and procedures apply equally to hardware projects involving PCB designs, schematics, and other technical documentation.
-
-### Understanding Forks and Repository Structure
-
-The foundation of contributing to any open source project begins with creating a fork, which serves as your personal copy of the original repository. When you navigate to a GitHub repository and click the "fork" button, you create an independent copy under your own GitHub account that maintains a clear connection to the original source. This forked repository appears in your account with a clear indication of its origin, displaying text such as "forked from [original-owner]/[repository-name]" beneath the repository title.
-
-Your forked repository operates independently from the original, allowing you to make changes without affecting the main project. However, it maintains awareness of updates to the original repository through GitHub's synchronization features. When the original repository receives updates that your fork lacks, GitHub displays status information such as "This branch is X commits behind" or "X commits ahead," providing clear visibility into the relationship between your fork and the upstream repository. You can synchronize your fork with the original repository at any time by clicking the "Sync fork" button, which pulls in the latest changes from the upstream source.
-
-The relationship between your fork and the original repository becomes particularly important when you begin making changes. As you implement modifications and commit them to your fork, GitHub tracks these differences and displays them as commits ahead of the original repository. This tracking system enables the pull request process, where you can propose your changes for inclusion in the main project while maintaining a clear history of what has been modified.
-
-### Setting Up Your Development Environment
-
-Creating an effective development environment requires careful attention to both general development tools and project-specific requirements. Visual Studio Code serves as an excellent integrated development environment (IDE) for most open source contributions, providing essential features for code editing, version control integration, and project management. The first critical component involves installing and configuring the Git extension, which enables seamless integration with GitHub repositories directly from your development environment.
-
-Modern versions of Visual Studio Code typically include Git support by default, but you must authenticate with your GitHub account to enable full functionality. This authentication process involves signing into GitHub through the IDE, which then allows you to clone repositories, commit changes, and push updates directly from your development environment. The GitHub integration appears as an icon in the left sidebar, providing access to repository cloning, branch management, and synchronization features without requiring command-line operations.
-
-For projects involving embedded systems or specific hardware platforms, additional tools become necessary. The ESP-IDF extension represents a crucial component for projects targeting ESP32 microcontrollers, requiring specific version compatibility to ensure proper functionality. The installation process involves selecting the appropriate ESP-IDF version, configuring tool paths, and setting up the development container environment. Version 5.1.3 currently represents the recommended configuration for many ESP32-based projects, though these requirements may evolve as projects update their dependencies and toolchains.
-
-### Making Changes and Managing Commits
-
-Once your development environment is properly configured, the process of making meaningful contributions begins with downloading or cloning your forked repository to your local machine. You can accomplish this either by downloading a ZIP file of the repository contents or by using Visual Studio Code's integrated cloning functionality, which provides a more streamlined workflow for ongoing development. The cloning process creates a local copy of your repository that remains synchronized with your GitHub fork, enabling you to work offline while maintaining version control capabilities.
-
-When working with the local repository, you gain access to the complete project structure, including source code files, configuration files, documentation, and any hardware design files. Most firmware projects utilize programming languages such as C for core functionality, with additional components written in TypeScript for user interfaces or Java for specific utilities. Understanding the project structure helps you identify the appropriate files to modify and ensures that your changes align with the project's architectural patterns and coding standards.
-
-The commit process represents a fundamental aspect of version control that requires careful attention to both technical accuracy and communication clarity. Before making any changes, you should thoroughly understand the existing code and test any modifications in your local environment. The cardinal rule of open source contribution emphasizes never publishing untested code, as this can introduce bugs or security vulnerabilities that affect the entire project community. Additionally, you must never commit sensitive information such as passwords, API tokens, or personal credentials to public repositories, as this information becomes permanently accessible to anyone with repository access.
-
-### Creating and Managing Pull Requests
-
-The culmination of your contribution effort involves creating a pull request, which serves as a formal proposal to merge your changes into the original project repository. This process begins in your GitHub fork, where you can review the differences between your repository and the upstream source. GitHub's interface clearly displays the number of commits ahead or behind, providing immediate visibility into the scope of your proposed changes. Before creating a pull request, you should ensure your fork is synchronized with the latest upstream changes to minimize potential conflicts.
-
-Creating an effective pull request requires more than simply submitting your code changes. The pull request description serves as your opportunity to communicate the purpose, scope, and impact of your modifications to the project maintainers and community. A well-written description explains what problems your changes address, how you implemented the solution, and any potential implications for other parts of the project. This documentation becomes particularly important for complex changes that might not be immediately obvious from examining the code differences alone.
-
-The review process represents a collaborative aspect of open source development where project maintainers and experienced contributors evaluate your proposed changes. You can request specific reviewers who have expertise in the areas your changes affect, ensuring that knowledgeable community members examine your work. The review process may involve multiple iterations, with reviewers providing feedback, requesting modifications, or asking for additional testing. This collaborative refinement process helps maintain code quality while providing valuable learning opportunities for contributors at all experience levels.
-
-Understanding that not all pull requests receive acceptance helps set appropriate expectations for the contribution process. Project maintainers may decline pull requests for various reasons, including misalignment with project goals, insufficient testing, or the existence of alternative solutions already in development. Rather than viewing rejection as failure, consider it an opportunity to learn from feedback, refine your approach, and potentially contribute alternative solutions that better meet the project's needs. The open source community thrives on this iterative process of proposal, review, and refinement that ultimately drives projects forward through collective effort and shared expertise.
+Tuginedes probleemide loomise ja avatud lähtekoodiga projektide uurimise alusele, keskendutakse selles peatükis otsese panuse andmise praktilistele aspektidele tõmbetaotluste ja repositooriumi haldamise kaudu. fork repositooriumide mõistmine, muudatuste tegemine ja tõmbetaotluste esitamine on oluline oskus iga arendaja jaoks, kes soovib anda olulist panust avatud lähtekoodiga projektidesse, olgu need siis seotud tarkvaraarenduse või riistvara disainiga.
 
 
-## What's Public-Pool ?
+Koodimuudatuste sisseviimise protsess järgib standardiseeritud töövoogu, mis tagab projekti terviklikkuse, võimaldades samal ajal ühist arendamist. See töövoog hõlmab projekti repositooriumi oma koopia loomist, muudatuste tegemist kontrollitud keskkonnas ja seejärel nende muudatuste esitamist tagasi algsesse projekti ametliku läbivaatamisprotsessi kaudu. Kuigi käesolevas peatükis toodud näited keskenduvad peamiselt tarkvarale, kehtivad samad põhimõtted ja protseduurid võrdselt ka riistvaraprojektide puhul, mis hõlmavad trükkplaadi projekte, skeeme ja muud tehnilist dokumentatsiooni.
+
+
+### Kahvlite ja repositooriumi struktuuri mõistmine
+
+
+Mis tahes avatud lähtekoodiga projekti panustamine algab fork loomisega, mis on teie isiklik koopia algsest repositooriumist. Kui navigeerite GitHubi repositooriumi ja vajutate nupule "fork", loote oma GitHubi konto all sõltumatu koopia, mis säilitab selge ühenduse algallika allikaga. See forkeeritud repositoorium ilmub teie kontol selge märkega selle päritolu kohta, kuvades repositooriumi pealkirja all teksti nagu "forked from [original-owner]/[repository-name]".
+
+
+Teie forkeeritud repositoorium toimib originaalist sõltumatult, võimaldades teil teha muudatusi, ilma et see mõjutaks põhiprojekti. Siiski säilitab see GitHubi sünkroonimisfunktsioonide kaudu teadlikkuse algse repositooriumi uuendustest. Kui algne repositoorium saab uuendusi, mis teie fork puudub, kuvab GitHub staatusteavet, näiteks "See haru on X kommitsiooni taga" või "X kommitsiooni ees", andes selget ülevaadet teie fork ja eelrepositooriumi vahelisest suhtest. Saate oma fork algse repositooriumiga igal ajal sünkroonida, klõpsates nuppu "Sync fork", mis tõmbab sisse viimased muudatused eelkasutatavast allikast.
+
+
+Suhe teie fork ja algse repositooriumi vahel muutub eriti oluliseks siis, kui hakkate muudatusi tegema. Kui te rakendate muudatusi ja kinnitate need oma fork-sse, jälgib GitHub neid erinevusi ja kuvab need algsele repositooriumile eelnevate kommititena. See jälgimissüsteem võimaldab pull request'i protsessi, kus saate esitada oma muudatusi põhiprojekti lisamiseks, säilitades samal ajal selge ajaloo selle kohta, mida on muudetud.
+
+
+### Arenduskeskkonna seadistamine
+
+
+Tõhusa arenduskeskkonna loomine nõuab hoolikat tähelepanu nii üldistele arendusvahenditele kui ka projektispetsiifilistele nõuetele. Visual Studio Code on suurepärane integreeritud arenduskeskkond (IDE) enamiku avatud lähtekoodiga projektide jaoks, pakkudes olulisi funktsioone koodi redigeerimiseks, versioonihalduse integreerimiseks ja projektijuhtimiseks. Esimene kriitiline komponent hõlmab Git laienduse installimist ja konfigureerimist, mis võimaldab sujuvat integreerimist GitHubi repositooriumidega otse teie arenduskeskkonnast.
+
+
+Visual Studio Code'i kaasaegsed versioonid sisaldavad tavaliselt vaikimisi Git-tuge, kuid täieliku funktsionaalsuse võimaldamiseks peate autentima oma GitHubi kontoga. See autentimisprotsess hõlmab GitHubi sisselogimist IDE kaudu, mis võimaldab teil seejärel kloonida repositooriume, teha muudatusi ja lükata uuendusi otse oma arenduskeskkonnast. GitHubi integratsioon ilmub ikoonina vasakul külgribal, pakkudes juurdepääsu repositooriumide kloonimise, harude haldamise ja sünkroniseerimise funktsioonidele, ilma et selleks oleks vaja käsurea toiminguid.
+
+
+Manussüsteemide või spetsiifiliste riistvaraplatvormidega seotud projektide puhul on vaja lisavahendeid. ESP-IDF laiendus on ESP32 mikrokontrolleritele suunatud projektide jaoks oluline komponent, mis vajab nõuetekohase funktsionaalsuse tagamiseks konkreetsete versioonide ühilduvust. Paigaldusprotsess hõlmab sobiva ESP-IDF-i versiooni valimist, tööriistaradade konfigureerimist ja arenduskonteineri keskkonna seadistamist. Versioon 5.1.3 on praegu paljude ESP32-põhiste projektide jaoks soovitatav konfiguratsioon, kuigi need nõuded võivad muutuda, kui projektid uuendavad oma sõltuvusi ja tööriistakomplekte.
+
+
+### Muudatuste tegemine ja kommitite haldamine
+
+
+Kui teie arenduskeskkond on õigesti konfigureeritud, algab sisuline panustamine sellega, et laadite alla või kloonite oma kahveldatud repositooriumi oma kohalikku masinasse. Seda saab teha kas repositooriumi sisu sisaldava ZIP-faili allalaadimisega või kasutades Visual Studio Code'i integreeritud kloonimisfunktsiooni, mis pakub sujuvamat töövoogu pidevaks arenduseks. Kloonimisprotsess loob teie repositooriumi lokaalse koopia, mis jääb sünkroniseerituks teie GitHub fork-ga, võimaldades teil töötada võrguühenduseta, säilitades samal ajal versioonihalduse võimalused.
+
+
+Kui töötate kohaliku repositooriumiga, saate juurdepääsu kogu projekti struktuurile, sealhulgas lähtekoodifailidele, konfiguratsioonifailidele, dokumentatsioonile ja kõigile riistvara projekteerimisfailidele. Enamik püsivara projekte kasutab põhifunktsioonide jaoks programmeerimiskeeli, näiteks C, ning lisakomponente, mis on kirjutatud TypeScriptis kasutajaliideste jaoks või Java keeles konkreetsete utiliitide jaoks. Projekti struktuuri mõistmine aitab teil tuvastada sobivad failid, mida muuta, ja tagab, et teie muudatused on kooskõlas projekti arhitektuurimustrite ja kodeerimisstandarditega.
+
+
+Kinnitusprotsess on versioonihalduse põhiline aspekt, mis nõuab hoolikat tähelepanu nii tehnilisele täpsusele kui ka kommunikatsiooni selgusele. Enne muudatuste tegemist peaksite olemasolevast koodist põhjalikult aru saama ja testima kõiki muudatusi oma kohalikus keskkonnas. Avatud lähtekoodi panustamise põhireegel rõhutab, et kunagi ei tohi avaldada testimata koodi, sest see võib tuua sisse vigu või turvaauke, mis mõjutavad kogu projekti kogukonda. Lisaks sellele ei tohi te kunagi avalikesse repositooriumidesse panna tundlikku teavet, nagu paroolid, API-tokendid või isiklikud volitused, sest see teave muutub püsivalt kättesaadavaks kõigile, kellel on juurdepääs repositooriumile.
+
+
+### Pull Requesti loomine ja haldamine
+
+
+Teie panuse kulminatsiooniks on pull request, mis on ametlik ettepanek teie muudatuste ühendamiseks projekti algsesse repositooriumi. See protsess algab teie GitHubi fork-s, kus saate vaadata erinevusi teie repositooriumi ja eelneva lähtekoodi vahel. GitHubi kasutajaliides näitab selgelt, kui palju kommenteeringuid on ees või taga, mis annab kohese ülevaate teie pakutud muudatuste ulatusest. Enne tõmbetaotluse loomist peaksite tagama, et teie fork on sünkroonitud viimaste eelkasutatavate muudatustega, et vähendada võimalikke konflikte.
+
+
+Tõhusa tõmbetaotluse loomine nõuab enamat kui lihtsalt oma koodimuudatuste esitamine. Tõmbetaotluse kirjeldus on teie võimalus edastada projekti hooldajatele ja kogukonnale teie muudatuste eesmärk, ulatus ja mõju. Hästi kirjutatud kirjeldus selgitab, milliseid probleeme teie muudatused lahendavad, kuidas te lahenduse rakendasite ja millised on võimalikud mõjud projekti teistele osadele. See dokumentatsioon muutub eriti oluliseks keeruliste muudatuste puhul, mis ei pruugi olla kohe ilmsed ainult koodi erinevusi uurides.
+
+
+Läbivaatamise protsess on avatud lähtekoodiga arenduse koostööaspekt, kus projekti hooldajad ja kogenud kaasajad hindavad teie kavandatud muudatusi. Võite taotleda konkreetseid ülevaatajaid, kellel on kogemusi valdkondades, mida teie muudatused puudutavad, tagades, et asjatundlikud kogukonnaliikmed teie tööga tutvuvad. Läbivaatamise protsess võib hõlmata mitmeid kordusi, mille käigus annavad ülevaatajad tagasisidet, nõuavad muudatusi või paluvad täiendavat testimist. Selline ühine täiustamisprotsess aitab säilitada koodi kvaliteeti, pakkudes samal ajal väärtuslikke õppimisvõimalusi kõigi kogemustasemete osalistele.
+
+
+Mõistmine, et mitte kõik tõmbetaotlused ei saa heakskiitu, aitab seada asjakohased ootused panustamisprotsessile. Projekti hooldajad võivad keelduda projektitaotluste esitamisest erinevatel põhjustel, sealhulgas mittevastavus projekti eesmärkidele, ebapiisav testimine või juba väljatöötamisel olevate alternatiivsete lahenduste olemasolu. Selle asemel, et käsitleda tagasilükkamist kui ebaõnnestumist, tuleks seda käsitleda kui võimalust tagasisidest õppida, täiustada lähenemisviisi ja potentsiaalselt pakkuda alternatiivseid lahendusi, mis vastavad paremini projekti vajadustele. Avatud lähtekoodiga kogukond õitseb sellisest ettepanekute esitamise, läbivaatamise ja täiustamise iteratiivsest protsessist, mis lõppkokkuvõttes viib projekte edasi tänu ühistele jõupingutustele ja jagatud kogemustele.
+
+
+
+## Mis on Public-Pool?
+
 <chapterId>b461bf94-4a90-5bb8-ba3f-976d5d57be0d</chapterId>
+
 
 :::video id=d4652496-1ed4-4415-8048-0b6871b9ed51:::
 
-Public Pool represents a revolutionary approach to Bitcoin mining that addresses many of the concerns miners have with traditional mining pools. As a fully open-source solo Bitcoin mining pool, Public Pool fundamentally changes the reward distribution model that miners have become accustomed to. Unlike conventional mining pools where participants share rewards when any miner in the pool finds a block, Public Pool operates on a solo mining principle where individual miners retain 100% of their block rewards when they successfully mine a block.
+Public Pool kujutab endast revolutsioonilist lähenemist Bitcoin mining-le, mis lahendab paljud probleemid, mis kaevandajatel on traditsiooniliste mining-ga seotud. Täielikult avatud lähtekoodiga Bitcoin mining soolopoolina muudab Public Pool põhjalikult tasu jaotamise mudelit, millega kaevurid on harjunud. Erinevalt tavapärastest mining-puulidest, kus osalejad jagavad tasu, kui ükskõik milline kaevandaja leiab ploki, töötab Public Pool soolo- mining põhimõttel, kus üksikud kaevandajad säilitavad 100 % oma ploki tasu, kui nad on edukalt ploki kaevandanud.
 
-The most compelling feature of Public Pool is its zero-fee structure. When miners successfully find a block using Public Pool, they receive the complete block reward along with all associated transaction fees, without any deductions for pool operation costs. This stands in stark contrast to traditional mining pools that typically charge fees ranging from 1-3% of mining rewards. The zero-fee model makes Public Pool particularly attractive for miners who want to maximize their potential returns while maintaining full control over their mining operations.
 
-### The Open Source Advantage and Technical Implementation
+Public Pool'i kõige veenvam omadus on selle tasuta struktuur. Kui kaevandajad leiavad Public Pool'i abil edukalt ploki, saavad nad kogu ploki tasu koos kõigi sellega seotud tehingutasudega, ilma et neist oleks maha arvatud basseerimisega seotud kulud. See on teravaks kontrastiks traditsioonilistele mining-poolidele, mis tavaliselt võtavad tasu vahemikus 1-3% mining-palgast. Nulltasu mudel muudab Public Pooli eriti atraktiivseks kaevurite jaoks, kes soovivad maksimeerida oma võimalikku tulu, säilitades samal ajal täieliku kontrolli oma mining operatsioonide üle.
 
-Public Pool's commitment to open-source development provides miners with unprecedented transparency and control over their mining operations. The entire codebase is available on GitHub, allowing miners to examine exactly how the software operates, modify it according to their needs, and even contribute to its development. This transparency addresses a significant concern in the mining community regarding the unknown configurations and practices of traditional mining pools.
 
-The software architecture includes both the core mining pool functionality and a separate user interface repository, both of which are freely available for download and modification. Miners can run Public Pool in various configurations, including Docker containers, making it adaptable to different hardware setups and technical preferences. The comprehensive documentation provided in the GitHub repositories offers detailed installation guides, configuration options, and modification instructions, making it accessible to miners with varying levels of technical expertise.
+Public Pooli unikaalse positsiooni mõistmiseks on oluline mõista põhimõttelist erinevust soolo- mining ja ühisrahastuse mining vahel. Tõeline soolo mining tähendab, et kaevandate iseseisvalt ja saate bloki leidmise korral kogu plokihüvitise (praegu 3,125 BTC + tasud), kuid tõenäosus on proportsionaalne teie hash-kiirusega võrreldes kogu võrgustikuga - see tekitab äärmusliku varieeruvuse, mis võib ulatuda kuude või aastate vahele. Traditsioonilised basseinid kombineerivad hash-võimsust, et leida plokke sagedamini, jaotades tasu proportsionaalselt ja pakkudes stabiilset, prognoositavat sissetulekut. Kaevurite jaoks, kes on investeerinud märkimisväärset kapitali riistvarasse ja tegevuskuludesse, on puhas soolo- mining tavaliselt ebapraktiline, olenemata selle filosoofilistest eelistest - varieeruvus muudab elektrikulude katmise ja investeeringute tagasisaamise peaaegu võimatuks. See majanduslik reaalsus tähendab, et enamik kaevandajaid valib praktilistel finantspõhjustel ühendatud mining. Public Pool tegutseb soolo- mining-poolina, mis tähendab, et teil on endiselt silmitsi soolo- mining variatsiooniga (te saate tasu ainult siis, kui te isiklikult leiate ploki), kuid te saate kasu basseini infrastruktuurist ja läbipaistvast, tasuta toimimisest.
 
-Connecting to Public Pool requires minimal configuration compared to traditional mining setups. Miners simply need to configure their mining devices with the Stratum connection details and provide their Bitcoin address as the username. An optional worker name can be added after a dot separator for organizational purposes. This streamlined connection process eliminates the need for complex account creation or pool-specific configurations that are common with traditional mining pools.
 
-### Community Features and Sustainability Model
+### Avatud lähtekoodi eelis ja tehniline rakendamine
 
-Public Pool incorporates several innovative features that strengthen the Bitcoin mining community while maintaining its zero-fee operation. The platform displays comprehensive statistics including the total hash rate of connected miners, which typically ranges between 1.5 to 2 petahash, and provides detailed information about connected mining devices. Particularly noteworthy is the platform's emphasis on open-source mining hardware, with devices marked by stars indicating fully open-source designs, complete with links to their respective GitHub repositories.
 
-The sustainability of Public Pool's zero-fee operation relies on a creative affiliate program partnership with mining hardware vendors. When miners purchase equipment from partner companies using the discount code "SOLO," fifty percent of the affiliate earnings support Public Pool's operational costs, while the remaining fifty percent is distributed as rewards to miners who achieve the highest difficulty shares each month. This model creates a symbiotic relationship where miners receive discounts on equipment purchases, vendors gain customers, and Public Pool maintains its operations without charging direct fees.
+Public Pooli pühendumine avatud lähtekoodiga arendusele annab kaevuritele enneolematu läbipaistvuse ja kontrolli oma mining operatsioonide üle. Kogu koodibaas on kättesaadav GitHubis, mis võimaldab kaevandajatel täpselt uurida, kuidas tarkvara töötab, seda vastavalt oma vajadustele muuta ja isegi selle arendamisse panustada. Selline läbipaistvus aitab lahendada mining kogukonna olulist muret seoses traditsiooniliste mining poolide tundmatute konfiguratsioonide ja tavadega.
 
-### Decentralization Philosophy and Best Practices
 
-While Public Pool offers an excellent alternative to traditional mining pools, it's important to understand its role within the broader context of Bitcoin decentralization. The platform serves as a stepping stone toward the ultimate goal of individual miners operating their own mining pools. Running your own mining pool represents the highest level of decentralization, as it eliminates dependence on any third-party infrastructure or software, regardless of how transparent or well-intentioned that third party may be.
+Tarkvara ülesehitus hõlmab nii mining basseini põhifunktsioone kui ka eraldi kasutajaliidese repositooriumi, mis mõlemad on vabalt allalaadimiseks ja muutmiseks saadaval. Kaevandajad saavad Public Pool'i käivitada erinevates konfiguratsioonides, sealhulgas Dockeri konteinerites, mis muudab selle kohandatavaks erinevate riistvara seadistuste ja tehniliste eelistustega. GitHubi repositooriumides pakutav põhjalik dokumentatsioon pakub üksikasjalikke paigaldusjuhiseid, konfiguratsioonivõimalusi ja muutmisjuhiseid, mis teeb selle kättesaadavaks erineva tehnilise tasemega kaevuritele.
 
-Public Pool's open-source nature makes it an ideal learning platform for miners who want to understand pool operations before implementing their own solutions. The availability of installation guides for multiple operating systems and the comprehensive documentation provide miners with the knowledge needed to transition from using Public Pool to operating their own mining infrastructure. This educational aspect aligns with Bitcoin's fundamental principles of self-sovereignty and decentralization, empowering individual miners to take complete control of their mining operations while contributing to the overall security and decentralization of the Bitcoin network.
 
-The platform's user interface provides miners with detailed monitoring capabilities, including worker status, hash rate statistics, and performance metrics. These features help miners optimize their operations while learning about pool management principles that they can later apply to their own mining pool implementations.
+Avaliku basseiniga ühendamine nõuab traditsiooniliste mining seadistustega võrreldes minimaalset konfigureerimist. Kaevandajad peavad lihtsalt konfigureerima oma mining-seadmed Stratumi ühenduse üksikasjadega ja andma kasutajanimeks oma Bitcoin aadressi. Valikuline töötaja nimi võib lisada pärast punkti eraldusjoont korralduslikel eesmärkidel.
 
-## How to install Public-Pool on Umbrel
+
+### Ühenduse omadused ja jätkusuutlikkuse mudel
+
+
+Public Pool sisaldab mitmeid uuenduslikke funktsioone, mis tugevdavad Bitcoin mining kogukonda, säilitades samal ajal selle tasuta toimimise. Platvorm kuvab põhjalikku statistikat, sealhulgas ühendatud kaevurite kogu hash-kiirust, mis 2024. aastal oli tavaliselt vahemikus 1-2 PetaHashi sekundis ja 2025. aasta novembris umbes 40 PH/s, ning annab üksikasjalikku teavet ühendatud mining seadmete kohta. Eriti tähelepanuväärne on platvormi rõhuasetus avatud lähtekoodiga mining riistvarale, kusjuures seadmed on tähistatud tähtedega, mis tähistavad täielikult avatud lähtekoodiga projekte, koos linkidega nende vastavatele GitHubi hoidlatele.
+
+
+Public Pool'i tasuta tegevuse jätkusuutlikkus põhineb loomingulisel partnerprogrammi partnerlusel mining riistvara tarnijatega. Kui kaevurid ostavad partnerfirmadelt seadmeid, kasutades allahindluskoodi "SOLO", toetab viiskümmend protsenti partneri tuludest Public Pooli tegevuskulusid, ülejäänud viiskümmend protsenti jagatakse preemiatena kaevuritele, kes saavutavad iga kuu kõrgeima raskusastme. See mudel loob sümbiootilise suhte, kus kaevurid saavad seadmete ostmisel soodustusi, müüjad saavad kliente ja Public Pool säilitab oma tegevuse ilma otseseid tasusid nõudmata.
+
+
+### Detsentraliseerimise filosoofia ja parimad tavad
+
+
+Kuigi Public Pool pakub suurepärast alternatiivi traditsioonilistele mining-poolidele, on oluline mõista selle rolli Bitcoin detsentraliseerimise laiemas kontekstis. Platvorm on hüppelauaks lõppeesmärgi suunas, milleks on individuaalsed kaevandajad, kes haldavad oma mining-pooled. Oma mining basseini haldamine on detsentraliseerimise kõrgeim tase, sest see välistab sõltuvuse kolmandatest osapooltest, olenemata sellest, kui läbipaistev või heatahtlik see kolmas osapool on.
+
+
+Public Pooli avatud lähtekoodiga olemus muudab selle ideaalseks õppeplatvormiks kaevuritele, kes soovivad enne oma lahenduste rakendamist mõista pooli toiminguid. Paigaldusjuhendite kättesaadavus mitme operatsioonisüsteemi jaoks ja põhjalik dokumentatsioon annavad kaevuritele vajalikud teadmised, et minna Public Pooli kasutamisest üle oma mining infrastruktuuri käitamisele. See hariduslik aspekt on kooskõlas Bitcoin põhiprintsiipidega, milleks on isemajandamine ja detsentraliseerimine, andes üksikutele kaevuritele võimaluse võtta oma mining operatsioonide üle täielik kontroll, aidates samal ajal kaasa Bitcoin võrgu üldisele turvalisusele ja detsentraliseerimisele.
+
+
+Platvormi kasutajaliides pakub kaevuritele üksikasjalikke jälgimisvõimalusi, sealhulgas töötajate staatust, hash-kiiruse statistikat ja tulemuslikkuse näitajaid. Need funktsioonid aitavad kaevandajatel optimeerida oma tegevust, õppides samal ajal tundma basseinide haldamise põhimõtteid, mida nad saavad hiljem rakendada oma mining basseinide rakendustes.
+
+
+## Kuidas paigaldada Public-Pool Umbrelile
+
 <chapterId>7f6d0307-7715-5581-89ea-f13cf8754f9a</chapterId>
+
 
 :::video id=3a4fe0a9-bbf5-458a-8ec1-52c3b83afd87:::
 
-Running your own Bitcoin mining pool at home has become increasingly accessible with modern hardware and simplified software solutions. This chapter explores the practical implementation of a home-based public pool using affordable mini PC hardware and streamlined node management software. By the end of this guide, you'll understand the hardware requirements, software setup process, and basic configuration needed to establish your own mining pool infrastructure.
+Oma Bitcoin mining basseinide käitamine kodus on tänu kaasaegsele riistvarale ja lihtsustatud tarkvaralahendustele muutunud üha kättesaadavamaks. Selles peatükis uuritakse kodus asuva avaliku basseini praktilist rakendamist, kasutades taskukohast mini-PC riistvara ja lihtsustatud sõlme haldustarkvara. Selle juhendi lõpuks saate aru riistvaranõuetest, tarkvara seadistamisprotsessist ja põhikonfiguratsioonist, mis on vajalikud oma mining basseinitaristu loomiseks.
 
-### Hardware Requirements and Setup
 
-The foundation of any home mining pool setup begins with selecting appropriate hardware that balances performance, cost, and energy efficiency. A mini PC represents an ideal solution for this application, offering sufficient processing power while maintaining a compact footprint and reasonable power consumption. The recommended configuration includes an Intel N100 processor, which provides adequate computational resources for pool operations, paired with at least one terabyte of NVMe storage to accommodate the Bitcoin blockchain and associated data.
+### Riistvaranõuded ja seadistamine
 
-The storage requirement is particularly critical since running a mining pool necessitates maintaining a fully synchronized Bitcoin node. The one terabyte NVMe drive ensures fast read/write operations essential for blockchain synchronization and ongoing transaction processing. Additionally, sufficient RAM allocation supports smooth operation of both the underlying Linux operating system and the node management software that will coordinate pool activities.
 
-### Software Architecture and Node Management
+Iga koduse mining basseiniseadme alus algab sobiva riistvara valikuga, mis tasakaalustab jõudluse, hinna ja energiatõhususe. Miniarvuti on selle rakenduse jaoks ideaalne lahendus, mis pakub piisavat töötlemisvõimsust, säilitades samal ajal kompaktse ruumi ja mõistliku energiatarbimise. Soovitatav konfiguratsioon sisaldab Intel N100 protsessorit, mis pakub piisavaid arvutusvõimsusi basseinitöödeks, koos vähemalt ühe terabaidi NVMe-mäluga, et mahutada Bitcoin plokiahela ja sellega seotud andmeid.
 
-The software stack for a home mining pool builds upon a Linux foundation, providing the stability and security necessary for cryptocurrency operations. On top of this base system, specialized node management software like Umbrel creates an intuitive interface for managing Bitcoin infrastructure. This approach abstracts much of the complexity traditionally associated with running Bitcoin nodes, making pool operation accessible to users without extensive technical backgrounds.
 
-Umbrel serves as a comprehensive node management platform that handles Bitcoin Core installation, synchronization, and ongoing maintenance through a web-based interface. The platform's app store model allows for easy installation of additional services, including mining pool software, through simple point-and-click operations. This architecture ensures that users can focus on pool operation rather than system administration, while still maintaining full control over their Bitcoin infrastructure.
+Salvestusruumi nõue on eriti kriitiline, kuna mining koondamise korral on vaja säilitada täielikult sünkroniseeritud Bitcoin sõlme. Ühe terabaidi suurune NVMe-ketas tagab kiire lugemis- ja kirjutamisoperatsiooni, mis on oluline plokiahela sünkroniseerimiseks ja jooksva tehingu töötlemiseks. Lisaks sellele toetab piisav RAM-i eraldamine nii aluseks oleva Linuxi operatsioonisüsteemi kui ka basseinitegevusi koordineeriva sõlme haldustarkvara sujuvat toimimist.
 
-### Public Pool Installation and Configuration
 
-Installing public pool software through the Umbrel platform demonstrates the streamlined nature of modern Bitcoin infrastructure deployment. The process begins with accessing the Umbrel app store through the web interface, where a simple search for "public pool" reveals the available mining pool software. Installation requires only a few clicks: selecting the application, confirming installation, and waiting for the automated setup process to complete.
+### Tarkvaraarhitektuur ja sõlmede haldamine
 
-The installation process automatically configures the necessary connections between the public pool software and the underlying Bitcoin node. This integration ensures that the pool can validate transactions, construct block templates, and distribute work to connected miners without requiring manual configuration of complex networking parameters. Once installation completes, the pool interface becomes immediately accessible through the local network, providing real-time monitoring and management capabilities.
 
-### Connecting Miners and Network Considerations
+mining koduse basseini tarkvarapakett tugineb Linuxi baasil, mis tagab Bitcoin tööks vajaliku stabiilsuse ja turvalisuse. Selle baassüsteemi peal loob spetsiaalne sõlmede haldustarkvara, nagu Umbrel, intuitiivse liidese Bitcoin infrastruktuuri haldamiseks. Selline lähenemisviis vähendab suurt osa keerukusest, mis on tavapäraselt seotud Bitcoin sõlmede käitamisega, muutes basseinide käitamise kättesaadavaks ka kasutajatele, kellel puudub ulatuslik tehniline taust.
 
-Connecting mining hardware to your newly established pool requires configuring the miner's pool settings to point to your local infrastructure. This involves replacing the default pool address with your local IP address and the appropriate port number assigned during the public pool installation. The configuration change redirects your mining hardware's computational efforts from external pools to your home-based infrastructure, allowing you to retain full control over mining operations and potential rewards.
 
-Network configuration plays a crucial role in pool accessibility and functionality. Local network setup typically involves standard IP addressing, but users may encounter variations in DNS resolution depending on their router configuration. Some routers provide local DNS services that create friendly names for local services, while others require direct IP address access. For broader accessibility beyond the local network, port forwarding configuration on the router may be necessary, though this introduces additional security considerations that require careful evaluation of the associated risks and benefits.
+Umbrel on terviklik sõlme haldusplatvorm, mis tegeleb Bitcoin Core'i paigaldamise, sünkroniseerimise ja pideva hooldusega veebipõhise liidese kaudu. Platvormi rakenduste poe mudel võimaldab lihtsate point-and-click operatsioonide abil hõlpsasti paigaldada lisateenuseid, sealhulgas mining basseinitarkvara. Selline arhitektuur tagab, et kasutajad saavad keskenduda pigem basseinide käitamisele kui süsteemi haldamisele, säilitades samas täieliku kontrolli oma Bitcoin infrastruktuuri üle.
 
-The successful establishment of a home mining pool represents a significant step toward decentralized Bitcoin infrastructure, providing both educational value and practical mining capabilities while maintaining complete control over your cryptocurrency operations.
 
-# Hardware Assembly and Troubleshooting
+### Avaliku basseini paigaldamine ja konfigureerimine
+
+
+Avaliku basseinitarkvara paigaldamine Umbreli platvormi kaudu näitab kaasaegse Bitcoin infrastruktuuri kasutuselevõtu sujuvust. Protsess algab juurdepääsuga Umbreli rakenduste poodi veebiliidese kaudu, kus lihtne otsing "public pool" toob esile saadaval oleva mining basseinitarkvara. Paigaldamine nõuab vaid paari klõpsu: rakenduse valimine, paigalduse kinnitamine ja automaatse häälestusprotsessi lõpuleviimise ootamine.
+
+
+Paigaldusprotsess konfigureerib automaatselt vajalikud ühendused avaliku basseinitarkvara ja selle aluseks oleva Bitcoin-sõlme vahel. See integratsioon tagab, et bassein saab tehinguid valideerida, plokkide malle konstrueerida ja tööd ühendatud kaevuritele jaotada, ilma et oleks vaja keerulisi võrguparameetreid käsitsi konfigureerida. Pärast paigaldamise lõpetamist muutub basseiniliides kohe kättesaadavaks kohaliku võrgu kaudu, pakkudes reaalajas jälgimis- ja haldusvõimalusi.
+
+
+### Kaevurite ühendamine ja võrguga seotud kaalutlused
+
+
+mining riistvara ühendamine teie äsja loodud basseiniga nõuab kaevandaja basseisu seadete konfigureerimist nii, et need osutaksid teie kohalikule infrastruktuurile. See hõlmab vaikimisi basseiniaadressi asendamist teie kohaliku IP-aadressiga ja avaliku basseini paigaldamise käigus määratud asjakohase portinumbriga. Konfiguratsiooni muutmine suunab teie mining riistvara arvutustegevuse väliselt basseinilt teie kodusele infrastruktuurile, võimaldades teil säilitada täieliku kontrolli mining tööde ja võimalike tasude üle.
+
+
+Võrgukonfiguratsioon mängib basseinide juurdepääsetavuse ja funktsionaalsuse puhul olulist rolli. Kohaliku võrgu seadistamine hõlmab tavaliselt standardset IP-aadressi, kuid kasutajad võivad sõltuvalt ruuteri konfiguratsioonist kokku puutuda DNS-eralduse erinevustega. Mõned marsruuterid pakuvad kohalikke DNS-teenuseid, mis loovad kohalike teenuste jaoks sõbralikud nimed, samas kui teised nõuavad otsest IP-aadressile juurdepääsu. Laiema ligipääsu tagamiseks väljaspool kohalikku võrku võib osutuda vajalikuks portide suunamise konfigureerimine marsruuteril, kuigi see toob kaasa täiendavaid turvakaalutlusi, mis nõuavad sellega seotud riskide ja eeliste hoolikat hindamist.
+
+
+Koduse mining-pooluse edukas loomine on oluline samm detsentraliseeritud Bitcoin infrastruktuuri suunas, mis pakub nii hariduslikku väärtust kui ka praktilisi mining võimalusi, säilitades samal ajal täieliku kontrolli oma Bitcoin toimingute üle.
+
+
+# Riistvara kokkupanek ja tõrkeotsing
+
 <partId>f6987088-5ba4-52e2-b2d0-aa122080940c</partId>
 
-## What tools to use?
+
+## Milliseid vahendeid kasutada?
+
 <chapterId>733935b5-0171-5a22-838c-e192df6f7ccf</chapterId>
+
 
 :::video id=bddd0e47-7b43-4685-ba2e-bf3a8ff653c9:::
 
-In the world of surface-mount device (SMD) soldering, particularly when working with Bitaxe projects, having the right tools makes the difference between frustration and success. This comprehensive guide covers the essential equipment needed to tackle SMD soldering projects effectively, from basic hand tools to specialized equipment that will elevate your soldering capabilities.
-
-### Basic Hand Tools and Precision Instruments
-
-The foundation of any SMD soldering setup begins with quality tweezers, which serve as your primary component placement tools. Two types of tweezers prove most valuable in this work: standard straight-tip tweezers and those with a slight bend at the tip. The straight-tip variety handles most SMD components found in typical Bitaxe kits, while the bent-tip tweezers excel when working with extremely small components that require precise positioning. These tools often come included with repair kits, such as iFixit sets designed for phone repairs, making them readily accessible to most hobbyists.
-
-Complementing the tweezers, a good pair of scissors becomes indispensable for cutting electrical tape, which serves multiple purposes in electronics projects. Electrical tape provides essential insulation for cables and components, and having quality tape readily available streamlines the soldering process. These basic supplies can be sourced from hardware stores or online retailers without requiring specialized electronics suppliers.
-
-### Solder Paste Application and Management
-
-The application of solder paste represents one of the most critical aspects of SMD soldering, and the right tools make this process both accurate and enjoyable. Small, non-sharp syringes filled with solder paste provide exceptional control over paste placement. This method allows for precise application of the exact amount of solder paste needed for each joint, and most people quickly develop the proper technique for controlling pressure and flow rate through hands-on practice.
-
-The choice of solder paste itself significantly impacts soldering success. ChipQuik TS391SNL50 stands out as an exceptional solder paste for Bitaxe projects and general SMD work. This paste maintains proper consistency and melting characteristics, avoiding the problems associated with cheaper alternatives that have excessively low melting points. Low-quality solder pastes can create issues where previously soldered joints become fluid again when heating adjacent areas, leading to component displacement and poor connections. While quality solder paste represents a higher initial investment, the improved results and reduced frustration justify the expense.
-
-### Problem-Solving and Cleanup Tools
-
-Even experienced solderers encounter issues that require correction, making desoldering equipment essential for any complete toolkit. A desoldering rig, essentially a heated vacuum tool, removes excess solder and corrects bridged connections between component pins. These tools work most effectively when combined with flux, which improves solder flow and helps the desoldering process work more efficiently.
-
-Flux comes in various forms, including solid and liquid varieties, and serves multiple purposes beyond desoldering assistance. When solder paste begins to lose its effectiveness during extended work sessions, applying additional flux restores proper flow characteristics and ensures reliable connections. A small spoon-like tool, often found in precision repair kits, facilitates accurate flux application to specific areas without contaminating surrounding components.
-
-Board cleanup represents the final step in professional-quality work, requiring isopropanol alcohol and a dedicated cleaning brush. An old toothbrush works perfectly for this purpose, and a squeeze bottle containing isopropanol allows controlled application of cleaning solution. This combination removes flux residue and paste remnants, leaving boards with a clean, professional appearance that also facilitates inspection of solder joints.
-
-### Specialized Equipment and Advanced Tools
-
-For projects involving complex integrated circuits, particularly ASICs, stencils transform the soldering process from tedious hand-placement to efficient, accurate paste application. These precision-cut templates ensure consistent paste thickness and placement, dramatically reducing the time required for complex components while improving reliability. The investment in quality stencils pays dividends in both time savings and improved results.
-
-Thermal management becomes crucial when working with power components, making thermal paste or thermal grease essential supplies. These materials ensure proper heat transfer between heat sinks and integrated circuits, preventing thermal damage and ensuring reliable operation. Quality thermal interface materials represent a small investment that protects much more expensive components.
-
-The heart of any SMD soldering setup is the hot air rework station, which provides the controlled heat necessary for surface-mount work. While budget stations in the $30-50 range can perform adequately, they often lack the reliability and precision of higher-end equipment. These entry-level stations typically operate effectively at 355°C and include automatic temperature reduction when the handpiece is returned to its holder. However, their reliability can be inconsistent, with some units failing prematurely. For serious work, investing in higher-quality equipment from specialized electronics suppliers provides better long-term value through improved reliability and more precise temperature control.
-
-The combination of these tools creates a complete SMD soldering capability that extends far beyond Bitaxe projects to general electronics work. Understanding each tool's role and selecting quality equipment appropriate to your skill level and project requirements ensures successful outcomes and an enjoyable soldering experience.
+Pindpaigaldatavate seadmete (SMD) jootmise maailmas, eriti Bitaxe-projektidega töötades, muudab õigete tööriistade olemasolu pettumuse ja edu vahel erinevuse. Selles põhjalikus juhendis käsitletakse SMD-jootmisprojektide tõhusaks lahendamiseks vajalikke olulisi seadmeid, alates põhilistest käsitööriistadest kuni spetsiaalsete seadmeteni, mis tõstavad teie jootmisvõimet.
 
 
-## Fix solder issues
+Kui soovite tutvuda skeemide dokumentatsiooniga, vaadake seda [GitHub repo](https://github.com/skot/bitaxe-doc/tree/main).
+
+
+### Põhilised käsitööriistad ja täppisinstrumendid
+
+
+Iga SMD-jootmise seadistuse alus algab kvaliteetsetest pintsettidest, mis on teie peamised komponentide paigutamise vahendid. Kõige väärtuslikumaks osutuvad kaks tüüpi pintsetid: tavalised sirge otsaga pintsetid ja pintsetid, mille ots on kergelt painutatud. Sirge otsaga pintsetid sobivad enamiku tüüpilistes Bitaxe-komplektides leiduvate SMD-komponentidega, samas kui painutatud otsaga pintsetid on suurepärased, kui töötate väga väikeste komponentidega, mis nõuavad täpset positsioneerimist. Need tööriistad on sageli kaasas remondikomplektidega, näiteks iFixiti komplektidega, mis on mõeldud telefonide parandamiseks, mistõttu on need enamikule harrastajatele hõlpsasti kättesaadavad.
+
+
+Pintsettidele lisaks on hea käärid hädavajalikud elektrilindi lõikamiseks, millel on elektroonikaprojektides mitu otstarvet. Elektriline teip on oluline isolatsioon kaablitele ja komponentidele ning kvaliteetse teibi kättesaadavus lihtsustab jootmisprotsessi. Neid põhitarbeid saab hankida riistvarapoodidest või veebimüüjatest, ilma et oleks vaja spetsiaalseid elektroonikatarnijaid.
+
+
+### Jootepasta kasutamine ja haldamine
+
+
+Jootepasta pealekandmine on SMD-jootmise üks kõige kriitilisemaid aspekte ning õiged tööriistad muudavad selle protsessi nii täpseks kui ka nauditavaks. Väikesed, mitte teravad süstlad, mis on täidetud jootepastaga, tagavad erakordse kontrolli pasta paigutamise üle. See meetod võimaldab iga ühenduskoha jaoks vajaliku jootepasta koguse täpset pealekandmist ning enamik inimesi omandab praktilise harjutamise käigus kiiresti õige tehnika rõhu ja voolukiiruse kontrollimiseks.
+
+
+Jootepasta valik ise mõjutab oluliselt jootmise edukust. ChipQuik TS391SNL50 paistab silma kui erakordne jootepasta Bitaxe-projektide ja üldiste SMD-tööde jaoks. See pasta säilitab nõuetekohase konsistentsi ja sulamisomadused, vältides probleeme, mis on seotud odavamate alternatiividega, millel on liiga madalad sulamistemperatuurid. Madala kvaliteediga jootepastad võivad tekitada probleeme, kus varem jootetud ühendused muutuvad kõrvalolevate alade kuumutamisel uuesti vedelaks, mis viib komponentide nihkumise ja kehvade ühendusteni. Kuigi kvaliteetne jootepasta kujutab endast suuremat alginvesteeringut, õigustavad paremad tulemused ja vähenenud pettumused seda kulu.
+
+
+### Probleemide lahendamise ja puhastamise vahendid
+
+
+Isegi kogenud jootjad puutuvad kokku probleemidega, mis vajavad parandamist, mistõttu on jootevahendid hädavajalikud igas täielikus tööriistakomplektis. Jootevaba seadeldis, mis on sisuliselt kuumutatud vaakumtööriist, eemaldab liigse jootmise ja parandab komponentide tihvtide vahelised sillatud ühendused. Need tööriistad töötavad kõige tõhusamalt koos jootevahendiga, mis parandab jootevoolu ja aitab jootmisprotsessi tõhusamalt läbi viia.
+
+
+Voolufluksi on mitmesugusel kujul, sealhulgas tahkete ja vedelate variantidena, ning sellel on mitmeid eesmärke peale jootmisabi. Kui jootepasta hakkab pikema töö käigus oma tõhusust kaotama, taastab täiendava jootevahendi kasutamine nõuetekohased voolavusomadused ja tagab usaldusväärsed ühendused. Väike lusikalaadne tööriist, mida sageli leidub täppisremondikomplektides, hõlbustab täpse jootevahendi pealekandmist konkreetsetele piirkondadele, ilma et ümbritsevad komponendid saastuksid.
+
+
+Plaadi puhastamine on professionaalse töö viimane samm, mis nõuab isopropanoolalkoholi ja spetsiaalset puhastusharja. Selleks sobib suurepäraselt vana hambahari ning isopropanooli sisaldav pigistuspudel võimaldab puhastuslahuse kontrollitud pealekandmist. See kombinatsioon eemaldab fluksijäägid ja pastajäägid, jättes plaadid puhta ja professionaalse välimusega, mis hõlbustab ka jootekohtade kontrollimist.
+
+
+### Spetsiaalsed seadmed ja täiustatud tööriistad
+
+
+Keerukate integraallülituste, eriti ASIC-de puhul muudavad šabloonid jootmisprotsessi tüütust käsitsi paigaldamisest tõhusaks ja täpseks pastakandmiseks. Need täppislõikega šabloonid tagavad ühtlase pastapaksuse ja paigutuse, vähendades oluliselt keeruliste komponentide jaoks kuluvat aega ja parandades samal ajal töökindlust. Investeering kvaliteetsetesse šabloonidesse tasub end ära nii aja kokkuhoiu kui ka paremate tulemuste näol.
+
+
+Soojusjuhtimine muutub energiakomponentidega töötades ülioluliseks, mistõttu termopasta või termorasv on hädavajalikud tarvikud. Need materjalid tagavad nõuetekohase soojusülekande jahutusaluste ja integraallülituste vahel, ennetades termilisi kahjustusi ja tagades usaldusväärse töö. Kvaliteetsed soojusliidese materjalid on väike investeering, mis kaitseb palju kallimaid komponente.
+
+
+Iga SMD-jootmisseadme süda on kuumaõhu ümbertöötlusjaam, mis tagab pinna paigaldamiseks vajaliku kontrollitud kuumuse. Kuigi 30-50 dollari suurused odavad jaamad võivad olla piisavalt tõhusad, puudub neil sageli kõrgema klassi seadmete usaldusväärsus ja täpsus. Need algtaseme jaamad töötavad tavaliselt tõhusalt 355 °C juures ja sisaldavad automaatset temperatuuri vähendamist, kui käsitsitükk pannakse tagasi hoidikusse. Siiski võib nende töökindlus olla ebaühtlane, mõned seadmed võivad enneaegselt välja kukkuda. Tõsisemate tööde puhul pakub spetsialiseerunud elektroonikatarnijate kvaliteetsemate seadmete soetamine parema pikaajalise väärtuse tänu paremale töökindlusele ja täpsemale temperatuurikontrollile.
+
+
+Nende tööriistade kombinatsioon loob täieliku SMD-jootevõimekuse, mis ulatub kaugemale Bitaxe projektidest kuni üldiste elektroonikatöödeni. Iga tööriista rolli mõistmine ja teie oskuste tasemele ja projekti nõuetele vastava kvaliteetse varustuse valimine tagab eduka tulemuse ja meeldiva jootmiskogemuse.
+
+
+
+## Fikseerige jooteküsimused
+
 <chapterId>96663744-b4f7-5154-930f-a68ba7954603</chapterId>
+
 
 :::video id=9286c0dc-acd6-44d9-b34e-59cfb2da9748:::
 
 
-The Bitaxe transceiver kit presents unique challenges during assembly that require careful attention to component orientation, solder bridge prevention, and proper heat management. Understanding these common issues and their solutions is essential for successful kit construction and avoiding costly component damage. This chapter examines the most frequent soldering problems encountered during Bitaxe assembly and provides practical techniques for identifying and resolving them.
+Bitaxe transceiveri komplekt esitab monteerimisel unikaalseid väljakutseid, mis nõuavad hoolikat tähelepanu komponentide orientatsioonile, jootesildade vältimisele ja nõuetekohasele soojusjuhtimisele. Nende tavaliste probleemide ja nende lahenduste mõistmine on oluline komplekti edukaks ehitamiseks ja kulukate komponentide kahjustuste vältimiseks. Selles peatükis vaadeldakse Bitaxe'i koostamisel kõige sagedamini esinevaid jootmisprobleeme ning esitatakse praktilisi meetodeid nende tuvastamiseks ja lahendamiseks.
 
-### Component Orientation and Identification
 
-Proper component orientation represents one of the most critical aspects of successful Bitaxe assembly, particularly with MOSFETs Q1 and Q2. These components feature distinctive orientation markers that must be carefully observed during installation. Each MOSFET contains a small dot marking that corresponds to specific pad arrangements on the circuit board. The key to correct orientation lies in understanding the physical structure of these components, which feature four pins arranged with one large pad and three smaller pads that have no connection to the large pad.
+### Komponentide orienteerumine ja identifitseerimine
 
-When installing Q1 and Q2, examine both the component and the circuit board carefully. The board layout clearly shows the intended orientation through its pad configuration, with four pins positioned to match the MOSFET structure. Before soldering any large component, always verify orientation by comparing the component's physical markers with the board's pad arrangement. This simple verification step prevents the frustration of desoldering and reinstalling incorrectly oriented components.
 
-The consequences of incorrect orientation extend beyond simple functionality issues. Wrongly oriented MOSFETs can create circuit malfunctions that are difficult to diagnose and may require complete component replacement. Taking time to verify orientation before applying heat ensures proper circuit operation and prevents unnecessary troubleshooting later in the assembly process.
+Komponentide õige orienteerimine on üks kriitilisemaid aspekte eduka Bitaxe'i monteerimise juures, eriti MOSFETide Q1 ja Q2 puhul. Nendel komponentidel on iseloomulikud orientatsioonimärgid, mida tuleb paigaldamisel hoolikalt jälgida. Igal MOSFETil on väike punktimärgistus, mis vastab spetsiifilisele padide paigutusele trükkplaadil. Õige orienteerimise võti seisneb nende komponentide füüsilise struktuuri mõistmises, millel on neli tihvti, mis on paigutatud ühe suure padiga ja kolme väiksema padiga, mis ei ole suure padiga seotud.
 
-### Managing Solder Bridges and Excess Solder
 
-Solder bridges represent another common challenge in Bitaxe assembly, particularly around fine-pitch components like U10. These unwanted connections between adjacent pins can cause circuit malfunctions and require careful removal techniques. The most effective approach involves using desoldering wick, a copper braided material that absorbs excess solder when heated. This technique requires patience and proper tool selection to avoid damaging delicate components.
+Q1 ja Q2 paigaldamisel uurige hoolikalt nii komponenti kui ka trükkplaati. Plaadi paigutus näitab selgelt kavandatud orientatsiooni läbi selle pad-konfiguratsiooni, kus neli tihvti on paigutatud vastavalt MOSFETi struktuurile. Enne mis tahes suure komponendi jootmist kontrollige alati orientatsiooni, võrreldes komponendi füüsilisi tähiseid plaadi padide paigutusega. See lihtne kontrollsamm hoiab ära pettumuse, mis kaasneb valesti orienteeritud komponentide lahtijootmise ja uuesti paigaldamisega.
 
-When addressing solder bridges on integrated circuits, employ a third-hand tool to securely hold the component while working. Apply gentle heat to the affected area and carefully draw the desoldering wick across the bridged connections. The copper braid naturally absorbs the excess solder, separating the unwanted connections. This process may require multiple attempts, but persistence yields clean, properly separated connections.
 
-Prevention remains the best approach to solder bridge management. Using appropriate amounts of solder paste and maintaining steady hand control during component placement significantly reduces bridge formation. When bridges do occur, address them immediately rather than hoping they won't affect circuit operation. Even seemingly minor bridges can cause significant functionality problems that are difficult to diagnose once the board is fully assembled.
+Vale orienteerumise tagajärjed ulatuvad kaugemale lihtsatest funktsionaalsuse probleemidest. Vääralt orienteeritud MOSFETid võivad tekitada vooluahela häireid, mida on raske diagnoosida ja mis võivad nõuda komponentide täielikku väljavahetamist. Aja võtmine orientatsiooni kontrollimiseks enne kuumuse rakendamist tagab vooluahela nõuetekohase toimimise ja hoiab ära tarbetu tõrkeotsingu hiljem kokkupaneku käigus.
 
-### Critical Components and Special Considerations
 
-The buck converter U9 deserves particular attention due to its critical role in converting 5 volts to 1.2 volts for the ASIC chip. This component presents unique challenges due to its five small connections and tendency toward failure. Proper installation requires precise solder paste application and careful heat management. Insufficient solder paste under U9 can result in poor connections that prevent proper voltage conversion, while excess paste can create bridges that cause circuit malfunction.
+### Joodisildade ja üleliigse jootekoguse haldamine
 
-U9 produces distinctive audio signatures when experiencing solder bridge issues, generating high-frequency noise that differs from normal ASIC operation. This auditory diagnostic technique can help identify problems, though it requires good high-frequency hearing to detect. When audio diagnosis isn't possible, visual inspection becomes essential. Examine all connections carefully, looking for bridges or insufficient solder coverage.
 
-If U9 fails to output the required 1.2 volts despite appearing properly soldered, consider insufficient solder paste as the likely cause. Remove the component, apply a small amount of additional solder paste, and reinstall. In cases where individual pins lack adequate solder coverage, carefully apply small amounts of solder paste to specific locations using tweezers. The solder paste will naturally flow under the component when heated, creating proper connections through capillary action.
+Joodisillad on veel üks tavaline probleem Bitaxe monteerimisel, eriti selliste peenikese sammuga komponentide puhul nagu U10. Need soovimatud ühendused kõrvuti asetsevate tihvtide vahel võivad põhjustada vooluahela häireid ja nõuavad hoolikat eemaldamist. Kõige tõhusam lähenemisviis hõlmab jootevahendi eemaldamist, mis on vaskpunutisega materjal, mis kuumutamisel imab endasse liigse joote. See tehnika nõuab kannatlikkust ja õiget tööriistade valikut, et vältida õrnade komponentide kahjustamist.
 
-### Heat Management and Component Protection
 
-Proper heat management protects sensitive components from thermal damage while ensuring reliable solder joints. Components like the crystal oscillator Y1 and U1 are particularly sensitive to prolonged heat exposure and require careful temperature control. Maintain soldering iron temperature at 350 degrees Celsius, but minimize heat application time to prevent component damage. Quick, efficient soldering techniques protect these sensitive components while achieving reliable connections.
+Integreeritud vooluahelate jootesildade käsitlemisel kasutage PCB-hoidjat või liigendklambrit, et hoida komponenti töö ajal kindlalt kinni. Kuumutage kahjustatud piirkonda õrnalt ja tõmmake jootekolbist ettevaatlikult üle sillatud ühenduste. Vaskpunutis absorbeerib loomulikult liigse joote, eraldades soovimatud ühendused. See protsess võib nõuda mitu katset, kuid püsivus annab puhtaid, korralikult eraldatud ühendusi.
 
-The ASIC chip requires special handling techniques due to its complex pin structure and sensitivity to mechanical stress. When using stencils for solder paste application, ensure even coverage across all pins to prevent uneven component seating. If excessive solder paste causes the ASIC to sit unevenly, allow the assembly to cool completely before making corrections. Apply gentle pressure only to the component's labeled edges, never to the central die area, while reheating to achieve proper seating.
 
-Component U8 presents unique challenges due to its numerous pins and potential for bent leads. When pins become bent during handling, use a third-hand tool to secure the component and carefully straighten the affected pins. Work slowly and patiently to avoid breaking the delicate leads. Understanding that certain pin groups on U8 are internally connected can simplify troubleshooting, as bridges between these specific pins don't affect circuit operation. However, bridges between other pins require careful removal to ensure proper functionality.
+Ennetamine on endiselt parim lähenemisviis jootesildade haldamiseks. Sobiva hulga jootepasta kasutamine ja kindla käekontrolli säilitamine komponentide paigutamise ajal vähendab oluliselt sildade teket. Kui sillad tekivad, tuleb nendega kohe tegeleda, mitte loota, et need ei mõjuta vooluahela toimimist. Isegi näiliselt väikesed sillad võivad põhjustada märkimisväärseid funktsionaalsusprobleeme, mida on raske diagnoosida, kui plaat on täielikult kokku pandud.
 
-## How to debug your Bitaxe using AxeOS
+
+### Kriitilised komponendid ja erilised kaalutlused
+
+
+Erilist tähelepanu väärib ülesehitusmuundur U9, kuna see mängib olulist rolli 5 volti muundamisel 1,2 volti ASIC kiibi jaoks. See komponent kujutab endast ainulaadset väljakutset oma viie väikese ühenduse ja riketele kaldumise tõttu. Nõuetekohane paigaldamine nõuab täpset jootepasta pealekandmist ja hoolikat soojusjuhtimist. Ebapiisav jootepasta U9 all võib põhjustada halbu ühendusi, mis takistavad nõuetekohast pinge muundamist, samas kui liigne pasta võib tekitada sildasid, mis põhjustavad vooluahela talitlushäireid.
+
+
+U9 tekitab jootesildade probleemide korral iseloomulikke helisignaale, tekitades kõrgsageduslikku müra, mis erineb ASIC tavalisest tööpõhimõttest. See auditiivne diagnostikameetod võib aidata probleeme tuvastada, kuigi selle tuvastamiseks on vaja head kõrgsageduslikku kuulmist. Kui audiodiagnostika ei ole võimalik, muutub oluliseks visuaalne kontroll. Uurige hoolikalt kõiki ühendusi, otsides sildasid või ebapiisavat jootekatet.
+
+
+Kui U9 ei väljasta nõutavat 1,2 volti, kuigi tundub korralikult jootetuna, peate tõenäoliseks põhjuseks ebapiisavat jootepastat. Eemaldage komponent, kandke väike kogus täiendavat jootepastat ja paigaldage uuesti. Kui üksikud tihvtid ei ole piisavalt kaetud jootepinnaga, kandke pintsettide abil ettevaatlikult väikestes kogustes jootepastat konkreetsetesse kohtadesse. Soojuspasta voolab kuumutamisel loomulikult komponendi alla, luues kapillaarjuhtimise abil korralikud ühendused.
+
+
+### Soojuse juhtimine ja komponentide kaitse
+
+
+Nõuetekohane soojusjuhtimine kaitseb tundlikke komponente termiliste kahjustuste eest, tagades samal ajal usaldusväärsed jootekohad. Sellised komponendid nagu kristallostsillaator Y1 ja U1 on eriti tundlikud pikaajalise kuumuse suhtes ja vajavad hoolikat temperatuurikontrolli. Hoidke jootekolvi temperatuur 350 kraadi juures, kuid vähendage kuumuse kohaldamise aega, et vältida komponentide kahjustamist. Kiire ja tõhusad jootmistehnikad kaitsevad neid tundlikke komponente, saavutades samal ajal usaldusväärsed ühendused.
+
+
+ASIC kiip nõuab erilisi käitlemistehnikaid oma keerulise tihvtstruktuuri ja mehaanilise pingetundlikkuse tõttu. Kui kasutate jootepasta pealekandmiseks šablooni, veenduge, et kõik pins on ühtlaselt kaetud, et vältida komponentide ebaühtlast istumist. Kui liigne jootepasta põhjustab ASIC ebaühtlase istumise, laske koostel enne paranduste tegemist täielikult jahtuda. Õige istumise saavutamiseks avaldage uuesti soojendamise ajal õrnat survet ainult komponendi märgistatud servadele, mitte kunagi keskmisele matriitspiirkonnale.
+
+
+Komponent U8 kujutab endast ainulaadset väljakutset oma arvukate tihvtide ja võimalike painduvate juhtmete tõttu. Kui viigud painduvad käsitsemise käigus, kasutage komponendi kinnitamiseks trükkplaadihoidjat või liigendklambrit ja sirutage kahjustatud viigud ettevaatlikult. Töötage aeglaselt ja kannatlikult, et vältida õrnade juhtmete purunemist. Arusaamine, et teatud viigirühmad U8-l on sisemiselt ühendatud, võib lihtsustada tõrkeotsingut, kuna nende konkreetsete viigude vahelised sillad ei mõjuta vooluahela toimimist. Teiste viigude vahelised sillad vajavad aga nõuetekohase funktsioneerimise tagamiseks ettevaatlikku eemaldamist.
+
+
+## Kuidas oma Bitaxe'ile AxeOS-i abil vigade kõrvaldamine toimub
+
 <chapterId>603f5c0d-4b7c-51e1-9bad-318a8b8e9db7</chapterId>
+
 :::video id=d23d748b-510e-4748-9617-b875da757031:::
 
-When working with Bitaxe mining devices, hardware failures can manifest in various ways that may not be immediately obvious. Understanding how to systematically diagnose these issues using the AxeOS operating system can save significant time and prevent unnecessary component replacements. This chapter explores the diagnostic techniques and troubleshooting methodologies that experienced technicians use to identify specific hardware problems through software analysis.
+Bitaxe mining seadmetega töötades võivad riistvararikked ilmneda erinevatel viisidel, mis ei pruugi olla kohe ilmsed. Mõistmine, kuidas neid probleeme AxeOSi operatsioonisüsteemi abil süstemaatiliselt diagnoosida, võib säästa märkimisväärselt aega ja vältida komponentide asjatut väljavahetamist. Selles peatükis uuritakse diagnostikameetodeid ja tõrkeotsingumeetodeid, mida kogenud tehnikud kasutavad konkreetsete riistvaraprobleemide tuvastamiseks tarkvara analüüsi abil.
 
-### Understanding Power Consumption Indicators
 
-The first and most critical diagnostic indicator in AxeOS is power consumption monitoring. Normal Bitaxe devices, including the Bitaxe Ultra and Bitaxe Supra models, typically consume between 10 to 17 watts during standard operation. This baseline measurement serves as your primary health indicator for the entire system. When power consumption drops significantly below this range, particularly below 3 watts, it signals a fundamental problem with the ASIC chip or its supporting circuitry.
+### Energiatarbimise näitajate mõistmine
 
-Low power consumption scenarios require immediate attention because they indicate that the mining chip is either completely non-functional or operating in a severely degraded state. This measurement alone can help you quickly differentiate between performance issues and complete hardware failures. The power reading in AxeOS provides real-time feedback that allows you to monitor the effectiveness of any repair attempts you make to the device.
 
-### Analyzing ASIC Voltage Measurements
+Esimene ja kõige kriitilisem diagnostiline näitaja AxeOSis on energiatarbimise jälgimine. Tavalised Bitaxe'i seadmed, sealhulgas mudelid Bitaxe Ultra ja Bitaxe Supra, tarbivad tavapärase töö ajal tavaliselt 10-17 vatti. See baasmõõtmine on kogu süsteemi esmane tervisenäitaja. Kui energiatarbimine langeb oluliselt alla selle vahemiku, eriti alla 3 vati, annab see märku põhimõttelisest probleemist ASIC kiibiga või seda toetava vooluahelaga.
 
-The ASIC voltage measurement feature in AxeOS provides crucial diagnostic information that helps pinpoint the exact nature of hardware problems. When examining voltage readings, you need to understand the relationship between measured voltage and requested voltage to properly diagnose issues. The system displays both the voltage being delivered to the ASIC chip and the voltage that the chip is requesting from the power management system.
 
-When you observe an ASIC voltage measurement of exactly 1.2 volts combined with power consumption below 3 watts, this specific combination indicates either a soldering problem with the ASIC chip or a completely failed ASIC. This voltage reading suggests that power is reaching the chip location, but the chip itself is not functioning properly. Physical inspection of the ASIC die can reveal cracks or other visible damage that would explain this behavior pattern.
+Madala energiatarbimise stsenaariumid nõuavad kohest tähelepanu, sest need viitavad sellele, et mining kiip on kas täiesti mittetoimiv või töötab väga halvenenud seisundis. Juba ainuüksi see mõõtmine aitab teil kiiresti eristada jõudlusprobleeme ja täielikke riistvararikkeid. AxeOSi võimsusnäit annab reaalajas tagasisidet, mis võimaldab teil jälgida seadme remondikatsete tõhusust.
 
-A different diagnostic scenario emerges when you see low power consumption paired with very low requested voltage readings, such as 100 millivolts or 0.5 volts. This pattern indicates that the ASIC chip is not receiving adequate voltage supply, which typically points to problems with the U9 buck converter component. The buck converter is responsible for providing the precise voltage regulation that ASIC chips require for proper operation.
 
-### Interpreting Log Data and ASIC Communication
+### ASIC pingemõõtmiste analüüsimine
 
-The AxeOS logging system provides valuable insight into whether your ASIC chip is communicating with the control system. When you access the logs through the "show logs" function, the presence of "ASIC results" entries confirms that the chip is not only powered but also actively processing work and returning results. This communication indicates that the ASIC is properly soldered and maintaining its connection to the control circuitry.
 
-The absence of ASIC results in the logs, particularly when combined with other symptoms, helps narrow down the problem to specific components or connection issues. This diagnostic approach allows you to distinguish between chips that are completely non-responsive and those that may have intermittent connection problems. The log analysis becomes particularly valuable when troubleshooting complex issues where multiple symptoms might suggest different root causes.
+AxeOSi ASIC pinge mõõtmise funktsioon annab olulist diagnostilist teavet, mis aitab kindlaks teha riistvaraprobleemide täpse olemuse. Pinge näitude uurimisel peate probleemide nõuetekohaseks diagnoosimiseks mõistma mõõdetud pinge ja soovitud pinge vahelist suhet. Süsteem näitab nii ASIC kiibile antavat pinget kui ka pinget, mida kiip vooluhaldussüsteemilt taotleb.
 
-### Systematic Troubleshooting Approach
 
-When diagnosing Bitaxe hardware issues, following a systematic approach prevents overlooking critical problems and ensures efficient repair processes. Begin by documenting the power consumption and voltage readings, then correlate these measurements with the log data to build a complete picture of the system's behavior. This methodical approach helps identify whether problems stem from the ASIC chip itself, the power delivery system, or the communication pathways between components.
+Kui te täheldate ASIC pinge mõõtmist täpselt 1,2 volti koos energiatarbimisega alla 3 vati, siis see konkreetne kombinatsioon näitab kas jootmisprobleemi ASIC kiibiga või ASIC täielikku rikkeid. Selline pingemõõtmine näitab, et vool jõuab küll kiibini, kuid kiip ise ei tööta korralikult. ASIC kiibi füüsilisel kontrollimisel võivad ilmneda praod või muud nähtavad kahjustused, mis seletavad sellist käitumismustrit.
 
-For cases where the U9 buck converter appears to be the problem, physical inspection and potential resoldering may be necessary. The U9 component is particularly susceptible to soldering issues, especially in first-time assembly situations. When voltage regulation problems are suspected, using a multimeter to verify that 1.2 volts is actually present at the ASIC pins provides definitive confirmation of power delivery issues. If voltage is present at the pins but the ASIC still doesn't function, and physical inspection reveals no damage, replacing the ASIC chip becomes the next logical step. Should problems persist even after ASIC replacement, the U2 component, which drives the ASIC chip, may require attention as the final element in the troubleshooting sequence.
 
-## How to debug using USB?
+Teistsugune diagnostiline stsenaarium ilmneb, kui näete madalat energiatarbimist koos väga madalate nõutavate pingenäitude, näiteks 100 millivolti või 0,5 volti, näitajatega. See muster näitab, et ASIC kiip ei saa piisavat pingevarustust, mis tavaliselt viitab probleemidele U9 buck-muunduri komponendis. Buck-muundur vastutab täpse pinge reguleerimise eest, mida ASIC kiibid vajavad nõuetekohaseks toimimiseks.
+
+
+### Logiandmete tõlgendamine ja ASIC side
+
+
+AxeOS logisüsteem annab väärtusliku ülevaate sellest, kas teie ASIC kiip suhtleb juhtimissüsteemiga. Kui pääsete logidele juurde funktsiooni "show logs" kaudu, kinnitab "ASIC results" kirjete olemasolu, et kiip ei ole mitte ainult ühendatud, vaid ka aktiivselt töödeldav ja tulemusi tagastav. See suhtlus näitab, et ASIC on korralikult jootnud ja säilitab oma ühenduse juhtimisahelaga.
+
+
+ASIC tulemuste puudumine logides, eriti koos muude sümptomitega, aitab kitsendada probleemi konkreetsete komponentide või ühendusprobleemide suhtes. Selline diagnostiline lähenemine võimaldab eristada kiibid, mis ei reageeri täielikult, ja need, millel võivad olla katkendlikud ühendusprobleemid. Logianalüüs muutub eriti väärtuslikuks keerukate probleemide lahendamisel, kus mitu sümptomit võivad viidata erinevatele algpõhjustele.
+
+
+### Süstemaatiline veaotsingu lähenemine
+
+
+Bitaxe'i riistvaraprobleemide diagnoosimisel aitab süstemaatiline lähenemine vältida kriitiliste probleemide tähelepanuta jätmist ja tagab tõhusa remondiprotsessi. Alustage energiatarbimise ja pinge näitude dokumenteerimisest, seejärel korreleerige need mõõtmised logiandmetega, et luua täielik pilt süsteemi käitumisest. Selline metoodiline lähenemine aitab kindlaks teha, kas probleemid tulenevad ASIC kiibist endast, toiteallika süsteemist või komponentidevahelistest kommunikatsiooniradadest.
+
+
+Juhul kui probleem tundub olevat U9 konverteris, võib olla vajalik füüsiline kontroll ja võimalik ümberlülitamine. U9 komponent on eriti vastuvõtlik jooteprobleemidele, eriti esmakordsel kokkupanekul. Kui kahtlustatakse pinge reguleerimise probleeme, annab multimeetri kasutamine, et kontrollida, kas ASIC viikudel on tegelikult 1,2 volti, lõpliku kinnituse voolu edastamise probleemide kohta. Kui pinge on viikudel olemas, kuid ASIC ikka veel ei tööta ja füüsiline kontroll ei näita kahjustusi, on järgmine loogiline samm ASIC kiibi väljavahetamine. Kui probleemid püsivad ka pärast ASIC asendamist, võib veaotsingu viimase elemendina vajada tähelepanu komponent U2, mis juhib ASIC kiipi.
+
+
+## Kuidas USB abil siluda?
+
 <chapterId>f3182763-e1ef-5460-8bc0-f2ea53e3a410</chapterId>
+
 
 :::video id=fe1b4b48-5f8a-4fd7-9417-ca03a36bce9f:::
 
 
-When troubleshooting Bitaxe mining devices, having direct access to the device's internal logging system provides invaluable insights that web-based interfaces cannot offer. This chapter explores how to establish a direct USB serial connection to your Bitaxe device using the ESP-IDF framework, enabling real-time monitoring of system logs, boot sequences, and error messages. This debugging approach is particularly crucial when dealing with devices that experience frequent reboots or hardware failures, as it captures all diagnostic information that might be lost during system restarts.
+Bitaxe mining seadmete tõrkeotsingul annab otsene juurdepääs seadme sisemisele logisüsteemile hindamatut teavet, mida veebipõhised liidesed ei suuda pakkuda. Selles peatükis uuritakse, kuidas luua otsene USB-seeriaühendus Bitaxe'i seadmega, kasutades ESP-IDF raamistikku, mis võimaldab reaalajas jälgida süsteemi logisid, käivitamisjärjestusi ja veateateid. Selline vigade kõrvaldamise lähenemisviis on eriti oluline, kui tegemist on seadmetega, mida taaskäivitatakse sageli või mille riistvaras esineb tõrkeid, sest see salvestab kogu diagnostilise teabe, mis võib süsteemi taaskäivitamise ajal kaduma minna.
 
-The debugging process requires Visual Studio Code with the ESP-IDF extension, though any compatible IDE can be used. This method works with all Bitaxe variants that include a USB port, including the Bitaxe Ultra 204 and other models in the series. The direct serial connection bypasses potential web interface limitations and provides unfiltered access to the device's internal state information.
 
-### Setting Up Serial Communication
+Veaotsinguprotsess nõuab Visual Studio Code'i koos ESP-IDF laiendiga, kuigi võib kasutada mis tahes ühilduvat IDE-d. See meetod töötab kõigi Bitaxe-variantidega, millel on USB-port, kaasa arvatud Bitaxe Ultra 204 ja teised seeria mudelid. Otsene jadaühendus võimaldab vältida võimalikke veebiliidese piiranguid ja annab filtreerimata juurdepääsu seadme sisemisele olekuteabele.
 
-Establishing communication with your Bitaxe device begins with connecting the USB cable and opening the ESP-IDF terminal within your development environment. The command `idf.py monitor` initiates the connection process, automatically scanning available COM ports to establish UART communication with the ESP32 chip on your Bitaxe device. The system typically cycles through available ports (COM3, COM4, COM16, etc.) until it finds the correct connection.
 
-Once connected, the terminal displays the complete boot sequence and ongoing operational logs. The initial connection process may take several moments as the system identifies the correct communication port. If automatic port detection fails, you can manually specify the COM port through the IDE's port selection interface. This direct communication channel remains active throughout the device's operation, providing continuous access to system diagnostics and performance metrics.
+### Seeriaühenduse seadistamine
 
-### Interpreting Boot Sequence and Normal Operation Logs
 
-The boot sequence provides critical information about your Bitaxe device's hardware configuration and initialization process. Normal startup logs begin with ESP-IDF version information, followed by the distinctive "Welcome to the Bitaxe. Hack the planet" message that confirms successful firmware loading. The system then displays ASIC frequency configuration, device model identification, and board version details.
+Side loomine Bitaxe'i seadmega algab USB-kaabli ühendamisega ja ESP-IDF-terminali avamisega arenduskeskkonnas. Käsk `idf.py monitor` algatab ühendusprotsessi, skaneerides automaatselt olemasolevaid COM-porti, et luua UART-side ESP32 kiibiga teie Bitaxe-seadmes. Tavaliselt läbib süsteem olemasolevaid porte (COM3, COM4, COM16 jne), kuni leiab õige ühenduse.
 
-A properly functioning device will show successful I2C initialization and ASIC voltage regulation set to 1.2 volts. The logs display GPIO status information and Wi-Fi initialization sequences, followed by DHCP server configuration and IP address assignment. One of the most crucial indicators is the ASIC chip detection message, which should report "detected one ASIC chip" for a single-chip device. This confirmation validates that the mining hardware is properly connected and communicating with the ESP32 controller.
 
-The operational logs reveal multiple concurrent tasks running on the device, including stratum API communication, main task coordination, ASIC task management, and stratum task processing. These different task identifiers help isolate issues to specific system components. Normal operation includes pool connection establishment, difficulty adjustment messages, job queuing and dequeuing, and nonce generation reporting. Successful mining operations display ASIC results with difficulty calculations and mining submit confirmations when shares meet the required threshold.
+Kui terminal on ühendatud, kuvatakse kogu käivitamisjärjekord ja käimasolevad kasutusprotokollid. Esialgne ühendamisprotsess võib võtta mitu hetke, kuni süsteem tuvastab õige sidepordi. Kui automaatne pordi tuvastamine ebaõnnestub, võite määrata COM-porti käsitsi IDE pordivalimisliidese kaudu. See otsene sidekanal jääb aktiivseks kogu seadme töö ajal, võimaldades pidevat juurdepääsu süsteemi diagnostikale ja jõudlusnäitajatele.
 
-### Identifying Hardware Failures and Error Patterns
 
-Hardware failures manifest in the logs through specific error patterns that indicate which components are malfunctioning. The most common failure mode involves I2C communication errors with specific integrated circuits on the Bitaxe board. For example, DS4432U communication failures appear as "ESP_ERROR_CHECK failed" messages with timeout indicators, pointing to voltage regulation issues or soldering problems affecting the U10 component responsible for display communication.
+### Käivitusjärjekorra ja tavapäraste tööprotokollide tõlgendamine
 
-These error messages include detailed debugging information such as the specific source file (main_ds4432u.c), the failing function call, and the processor core handling the task. The backtrace information provides additional context for advanced troubleshooting. Similar error patterns can occur with the EMC2101 temperature and fan control chip, each generating distinctive log signatures that help identify the failing component.
 
-Physical hardware issues often present as repeated error cycles followed by system reboots. If your device produces audible noise during operation, this typically indicates soldering problems such as bridges between component pins or inadequate solder joints. While these mechanical issues may not always generate specific log entries, they create unstable operating conditions that manifest as frequent crashes and restart cycles in the monitoring output.
+Käivitusjärjekord annab kriitilist teavet teie Bitaxe-seadme riistvara konfiguratsiooni ja initsialiseerimisprotsessi kohta. Tavalised käivitamisprotokollid algavad ESP-IDF-i versiooniteabega, millele järgneb iseloomulik "Welcome to the Bitaxe. Hack the planet" sõnum, mis kinnitab edukat püsivara laadimist. Seejärel kuvatakse ASIC sageduskonfiguratsioon, seadme mudeli identifikatsioon ja plaadi versiooni andmed.
 
-### Advanced Troubleshooting Strategies
 
-Serial monitoring provides several advantages over web-based debugging interfaces, particularly for intermittent failures or devices experiencing frequent reboots. The continuous log capture ensures that no diagnostic information is lost during system restarts, unlike web interfaces that may lose data during disconnection events. This comprehensive logging capability makes it possible to identify patterns in failures and correlate specific error conditions with hardware or environmental factors.
+Nõuetekohaselt toimiv seade näitab edukat I2C-initsialiseerimist ja ASIC pinge reguleerimist 1,2 volti. Logides kuvatakse GPIO olekuteave ja Wi-Fi initsialiseerimise jadad, millele järgneb DHCP-serveri konfigureerimine ja IP-aadressi määramine. Üks olulisemaid näitajaid on ASIC kiibi tuvastamise teade, mis peaks ühe kiibiga seadme puhul teatama "detected one ASIC chip" (tuvastatud üks ASIC kiip). See kinnitus kinnitab, et mining riistvara on korralikult ühendatud ja suhtleb ESP32 kontrolleriga.
 
-When analyzing problematic devices, focus on the sequence of events leading to failures rather than isolated error messages. Successful ASIC communication should show regular job processing, nonce generation, and share submission cycles. Missing ASIC results in the logs indicate communication failures between the ESP32 and the mining chip, often caused by power supply issues, damaged traces, or component failures.
 
-For systematic troubleshooting, document error patterns and component-specific failures before seeking community support. The detailed error logs, including specific chip identifiers and failure modes, enable experienced users to provide targeted repair guidance, such as component replacement procedures or soldering corrections. This methodical approach to hardware debugging significantly improves repair success rates and reduces troubleshooting time for complex issues.
+Operatsioonipäevikutest ilmneb, et seadmes töötab mitu samaaegset ülesannet, sealhulgas kihi API side, põhiülesannete koordineerimine, ASIC ülesannete haldamine ja kihi ülesannete töötlemine. Need erinevad ülesannete tunnused aitavad isoleerida probleeme konkreetsete süsteemikomponentide puhul. Tavapärane töö hõlmab koondühenduste loomist, raskuste korrigeerimise teateid, ülesannete järjekorda seadmist ja järjekorra kustutamist ning nonce'i genereerimise aruandlust. Edukad mining operatsioonid kuvavad ASIC tulemusi koos raskuste arvutustega ja mining esitab kinnitused, kui osakaalud vastavad nõutavale künnisele.
 
-# Advanced Customization
+
+### Riistvara rikete ja veamustrite tuvastamine
+
+
+Riistvararikked ilmnevad logides konkreetsete veamustrite kaudu, mis näitavad, millised komponendid ei tööta. Kõige tavalisem veamoodus hõlmab I2C-sidevigu Bitaxe'i plaadi konkreetsete integraallülituste puhul. Näiteks DS4432U kommunikatsioonivigade puhul ilmnevad sõnumid "ESP_ERROR_CHECK failed" koos aegumistähistega, mis viitavad pinge reguleerimise probleemidele või jootmisprobleemidele, mis mõjutavad ekraani kommunikatsiooni eest vastutavat U10 komponenti.
+
+
+Need veateated sisaldavad üksikasjalikku vigade kõrvaldamise teavet, nagu konkreetne lähtekoodifail (main_ds4432u.c), ebaõnnestunud funktsioonikõne ja ülesannet käitlev protsessori tuum. Tagasi jälgitav teave annab täiendava konteksti edasijõudnud veaotsingu jaoks. Sarnaseid veamustreid võib esineda ka EMC2101 temperatuuri ja ventilaatorite kontrollkiibi puhul, mis mõlemad tekitavad eripäraseid logiallkirju, mis aitavad tuvastada rikkeid põhjustavat komponenti.
+
+
+Füüsilised riistvaraprobleemid esinevad sageli korduvate veatsüklitena, millele järgnevad süsteemi taaskäivitused. Kui teie seade tekitab töö ajal kuuldavat müra, viitab see tavaliselt jootmisprobleemidele, nagu näiteks sildade tekkimine komponentide pinside vahel või ebapiisavad jootekohad. Kuigi need mehaanilised probleemid ei pruugi alati generate konkreetseid logi kirjeid tekitada, tekitavad nad ebastabiilseid töötingimusi, mis väljenduvad sagedaste krahhide ja taaskäivitamise tsüklitena seiretulemustes.
+
+
+### Täiustatud tõrkeotsingustrateegiad
+
+
+Seeriajälgimine pakub mitmeid eeliseid veebipõhiste silumisliidestega võrreldes, eriti aeg-ajalt esinevate rikete või sagedaste taaskäivitustega seadmete puhul. Pidev logi salvestamine tagab, et süsteemi taaskäivitamise ajal ei lähe diagnostiline teave kaduma, erinevalt veebiliidestest, mis võivad andmeid kaotada ühenduse katkestamise ajal. Selline põhjalik logimisvõime võimaldab tuvastada rikete mustreid ja seostada konkreetseid veatingimusi riistvara või keskkonnateguritega.
+
+
+Probleemseid seadmeid analüüsides keskenduge pigem rikete tekkimiseni viinud sündmuste jadale kui üksikutele veateadetele. Edukas ASIC side peaks näitama regulaarset tööde töötlemist, nonce'i genereerimist ja aktsiate esitamise tsüklit. Puuduvad ASIC tulemused logides viitavad ESP32 ja mining kiibi vahelistele kommunikatsioonihäiretele, mille põhjuseks on sageli toiteallikaga seotud probleemid, kahjustatud jäljed või komponentide rikked.
+
+
+Süstemaatiliseks tõrkeotsinguks dokumenteerige veamustrid ja komponendispetsiifilised vead enne kogukonna toetuse taotlemist. Üksikasjalikud veaprotokollid, sealhulgas konkreetsed kiibitunnused ja veamoodused, võimaldavad kogenud kasutajatel anda sihipäraseid remondijuhiseid, näiteks komponentide asendamise protseduurid või jootmisparandused. Selline metoodiline lähenemine riistvara veaotsingule parandab oluliselt paranduste edukuse määra ja vähendab keerukate probleemide korral veaotsingu aega.
+
+
+# Täiustatud kohandamine
+
 <partId>8d333102-ecb5-5f05-bfb5-03a27b2d0d70</partId>
 
-## Modify the PCB
+
+## Muuda trükkplaati
+
 <chapterId>ca08d2a4-2b34-575b-aecc-7482a03c190e</chapterId>
+
 
 :::video id=30fb0010-f560-4e96-a05b-c21dc172746e:::
 
-KiCad represents one of the most powerful open-source tools available for printed circuit board (PCB) design and routing. This professional-grade software enables engineers and hobbyists to create complex electronic designs by placing components on virtual boards and routing the intricate traces that connect these components together. What makes KiCad particularly valuable for educational and development purposes is its complete open-source nature, allowing users to modify, customize, and learn from existing designs without licensing restrictions.
+KiCad on üks võimsamaid avatud lähtekoodiga tööriistu trükkplaatide (PCB) projekteerimiseks ja marsruutimiseks. See professionaalse tasemega tarkvara võimaldab inseneridel ja harrastajatel luua keerulisi elektroonilisi projekte, paigutades komponendid virtuaalsetele plaatidele ja suunates keerulised jäljed, mis neid komponente omavahel ühendavad. KiCad on eriti väärtuslik haridus- ja arendusotstarbel, kuna see on täielikult avatud lähtekoodiga, mis võimaldab kasutajatel muuta, kohandada ja õppida olemasolevatest projektidest ilma litsentsipiiranguteta.
 
-The BidX project exemplifies the power of open-source hardware development, providing a complete PCB design that users can examine, modify, and customize according to their specific needs. This accessibility creates an excellent learning environment where students and practitioners can explore real-world PCB designs while developing their understanding of electronic systems. The ability to customize visual elements like logos provides an approachable entry point for users who may be intimidated by the technical complexity of electronic design.
 
-### Setting Up Your KiCad Environment
+Bitaxe'i projekt on näide avatud lähtekoodiga riistvara arendamise võimsusest, pakkudes täielikku PCB disaini, mida kasutajad saavad uurida, muuta ja kohandada vastavalt oma konkreetsetele vajadustele. Selline ligipääsetavus loob suurepärase õpikeskkonna, kus üliõpilased ja praktikud saavad uurida reaalseid PCB-konstruktsioone, arendades samal ajal oma arusaamist elektroonikasüsteemidest. Võimalus kohandada visuaalseid elemente, näiteks logosid, pakub ligipääsetavat sisenemisvõimalust kasutajatele, keda elektroonilise disaini tehniline keerukus võib hirmutada.
 
-Before beginning any customization work, proper setup of your development environment is essential. The BidX repository must be downloaded to your local machine, typically accomplished through GitHub's ZIP download functionality. This repository contains all the necessary project files, including the KiCad project files, component libraries, and design documentation required for successful modification.
 
-KiCad installation should be completed using the official distribution from the KiCad website, ensuring compatibility with the project files and access to the latest features. Once both the repository and KiCad are properly installed, opening the project requires navigating to the BidX Ultra KiCad project file within the downloaded repository structure. This project file serves as the central hub that links all associated design files, component libraries, and configuration settings.
+### KiCad keskkonna seadistamine
 
-The initial view of a complex PCB design can appear overwhelming, with numerous components, traces, and layers creating a dense visual landscape. However, KiCad's 3D viewer functionality provides an invaluable tool for understanding the physical layout and spatial relationships within the design. This three-dimensional perspective transforms the abstract schematic representation into a realistic visualization of the final manufactured product, making it easier to comprehend component placement and overall design aesthetics.
 
-### Logo Customization Process
+Enne mis tahes kohandamistööde alustamist on oluline oma arenduskeskkonna nõuetekohane seadistamine. Bitaxe'i repositoorium tuleb alla laadida oma kohalikku masinasse, mis tavaliselt toimub GitHubi ZIP-allalaadimisfunktsiooni abil. See repositoorium sisaldab kõiki vajalikke projektfaile, sealhulgas KiCadi projektfaile, komponentide raamatukogusid ja projekteerimisdokumentatsiooni, mis on edukaks muutmiseks vajalikud.
 
-Customizing logos on PCB designs represents one of the most accessible modifications for users new to KiCad, requiring minimal technical knowledge while providing immediate visual results. The process begins with the image converter tool, which transforms standard image files into footprint formats compatible with PCB design software. This conversion process requires careful attention to sizing parameters, typically measured in millimeters to ensure proper scaling on the final manufactured board.
 
-The image converter workflow involves several critical steps that determine the final appearance and placement of custom logos. Source image selection should prioritize high-contrast designs that will translate well to the silkscreen printing process used in PCB manufacturing. Size specification becomes crucial, as logos must be large enough to remain legible after manufacturing while not interfering with component placement or functionality. The choice between front and back silkscreen layers affects both visibility and manufacturing considerations.
+KiCadi paigaldamine tuleks lõpule viia, kasutades KiCadi veebilehe ametlikku distributsiooni, mis tagab ühilduvuse projektfailidega ja juurdepääsu uusimatele funktsioonidele. Kui nii repositoorium kui ka KiCad on korralikult paigaldatud, tuleb projekti avamiseks navigeerida allalaaditud repositooriumi struktuuris Bitaxe Ultra KiCad'i projektifaili juurde. See projektfail on keskne keskus, mis ühendab kõik seotud projekteerimisfailid, komponentide raamatukogud ja konfiguratsiooni seaded.
 
-Footprint library management represents a fundamental aspect of KiCad customization, requiring users to understand how the software organizes and accesses design elements. Adding custom logos involves creating new footprint libraries or modifying existing ones, then properly linking these libraries within the project structure. This process ensures that custom elements remain accessible across different design sessions and can be easily shared with other team members or collaborators.
 
-### Advanced Design Exploration and Understanding
+Keerulise trükkplaadi disaini esialgne vaade võib tunduda üle jõu käiv, sest arvukad komponendid, jäljed ja kihid loovad tiheda visuaalse maastiku. KiCadi 3D vaatefunktsioon pakub siiski hindamatut abi füüsilise paigutuse ja ruumiliste suhete mõistmiseks disainis. See kolmemõõtmeline vaatenurk muudab abstraktse skeemilise kujutise realistlikuks visualiseerimiseks lõplikust valmistatud tootest, muutes komponentide paigutuse ja üldise disaini esteetika arusaadavamaks.
 
-Beyond simple logo customization, KiCad provides powerful tools for exploring and understanding complex PCB designs. The layer management system allows users to selectively view different aspects of the design, from component placement and routing to manufacturing specifications and assembly information. This layered approach enables detailed analysis of specific design elements without visual clutter from unrelated components.
 
-Trace routing analysis represents one of the most educational aspects of PCB exploration, revealing how electrical connections flow between components and subsystems. By following individual traces or groups of related signals, users can develop understanding of circuit functionality and design decisions. For example, examining power distribution networks reveals how voltage regulation and filtering components work together to provide clean, stable power to sensitive electronic components.
+### Logo kohandamise protsess
 
-The relationship between schematic design and physical layout becomes apparent through careful examination of component placement and routing decisions. Understanding why specific components are positioned in particular locations, how thermal considerations influence layout decisions, and how signal integrity requirements drive routing choices provides valuable insights into professional PCB design practices. This knowledge proves invaluable for users developing their own designs or modifying existing ones for specific applications.
 
-KiCad's comprehensive design rule checking and verification tools ensure that modifications maintain electrical and manufacturing compatibility. These automated systems help prevent common design errors while educating users about industry standards and best practices. The integration of 3D visualization with electrical design data creates a powerful learning environment where theoretical concepts become tangible through visual representation and interactive exploration.
+Logode kohandamine PCB-disainidel on üks kõige kättesaadavamaid muudatusi KiCadiga alustavatele kasutajatele, mis nõuab minimaalseid tehnilisi teadmisi, pakkudes samas koheseid visuaalseid tulemusi. Protsess algab pildikonverteri tööriistaga, mis muudab standardpildifailid PCB-disaini tarkvaraga ühilduvateks jalajäljeformaatideks. See teisendusprotsess nõuab hoolikat tähelepanu mõõtmisparameetritele, mida tavaliselt mõõdetakse millimeetrites, et tagada lõplikul valmistataval plaadil õige mõõtkava.
 
-## How to create a factory file?
+
+Pildikonverteri tööprotsess hõlmab mitmeid kriitilisi etappe, mis määravad kohandatud logode lõpliku välimuse ja paigutuse. Allikapildi valikul tuleks eelistada kontrastseid kujundusi, mis sobivad hästi PCBde valmistamisel kasutatava siiditrükiprotsessi jaoks. Suuruse täpsustamine on otsustava tähtsusega, kuna logod peavad olema piisavalt suured, et need jääksid pärast tootmist loetavaks, kuid ei segaks komponentide paigutamist ega funktsionaalsust. Valik esi- ja tagakihi vahel mõjutab nii nähtavust kui ka tootmisega seotud kaalutlusi.
+
+
+Jalajälgede raamatukogu haldamine on KiCadi kohandamise põhiline aspekt, mis nõuab kasutajatelt arusaamist sellest, kuidas tarkvara korraldab projekteerimiselemendid ja neile juurdepääsu võimaldab. Kohandatud logode lisamine hõlmab uute jalajälgede raamatukogude loomist või olemasolevate muutmist ning seejärel nende raamatukogude nõuetekohast sidumist projekti struktuuris. See protsess tagab, et kohandatud elemendid jäävad eri projekteerimissessioonidel kättesaadavaks ja neid saab hõlpsasti jagada teiste meeskonnaliikmete või kaastöötajatega.
+
+
+### Täiustatud disaini uurimine ja mõistmine
+
+
+Lisaks lihtsale logo kohandamisele pakub KiCad võimsaid tööriistu keeruliste trükkplaadi disainide uurimiseks ja mõistmiseks. Kihtide haldussüsteem võimaldab kasutajatel valikuliselt vaadata disaini erinevaid aspekte, alates komponentide paigutusest ja marsruutimisest kuni tootmisspetsifikaatide ja koosteteabeni. Selline kihiline lähenemine võimaldab konkreetsete disainielementide üksikasjalikku analüüsi ilma mitteseotud komponentide visuaalse segaduseta.
+
+
+Jälgede marsruutimise analüüs on trükkplaatide uurimise üks kõige harivamaid aspekte, mis näitab, kuidas elektrilised ühendused voolavad komponentide ja allsüsteemide vahel. Üksikute jälgede või seotud signaalide rühmade jälgimisega saavad kasutajad arendada arusaamist vooluahela funktsionaalsusest ja projekteerimisotsustest. Näiteks näitab toitevõrkude uurimine, kuidas pinge reguleerimine ja filtreerimiskomponendid töötavad koos, et tagada puhas ja stabiilne toide tundlikele elektroonikakomponentidele.
+
+
+Seos skeemikujunduse ja füüsilise paigutuse vahel ilmneb komponentide paigutuse ja marsruutimisotsuste hoolika uurimise kaudu. Mõistmine, miks konkreetsed komponendid on paigutatud konkreetsetesse kohtadesse, kuidas termilised kaalutlused mõjutavad paigutusotsuseid ja kuidas signaalide terviklikkuse nõuded mõjutavad marsruutimisvalikuid, annab väärtusliku ülevaate professionaalsetest PCBde projekteerimistavadest. Need teadmised osutuvad hindamatuks kasutajatele, kes arendavad oma projekte või muudavad olemasolevaid projekte konkreetsete rakenduste jaoks.
+
+
+KiCad'i põhjalikud projekteerimisreeglite kontrolli- ja verifitseerimisvahendid tagavad, et muudatused säilitavad elektri- ja tootmissobivuse. Need automaatsed süsteemid aitavad vältida tavalisi projekteerimisvigu, õpetades samal ajal kasutajatele tööstusstandardeid ja parimaid tavasid. 3D-visualiseerimise integreerimine elektriliste projekteerimisandmetega loob võimsa õpikeskkonna, kus teoreetilised mõisted muutuvad käegakatsutavaks visuaalse kujutamise ja interaktiivse uurimise kaudu.
+
+
+## Kuidas luua tehase faili?
+
 <chapterId>e9da631c-e6d1-50c1-bb59-bc8455c29d3e</chapterId>
+
 
 :::video id=07f980bf-6052-4ed4-bf7b-75e8aba585df:::
 
-Building custom firmware for ESP-based mining devices requires careful attention to configuration, dependencies, and the proper build process. This comprehensive guide walks through the complete process of creating both standard firmware binaries and factory files that include pre-configured settings, making deployment more efficient and reducing setup time for end users.
+ESP-põhiste mining-seadmete jaoks kohandatud püsivara loomine nõuab hoolikat tähelepanu konfiguratsioonile, sõltuvustele ja nõuetekohasele koostamisprotsessile. Selles põhjalikus juhendis vaadatakse läbi nii standardse püsivara binaarsete failide kui ka tehases loodud failide loomise täielik protsess, mis sisaldab eelkonfigureeritud seadistusi, mis muudab kasutuselevõtu tõhusamaks ja vähendab lõppkasutajate seadistamisaega.
 
-### Setting Up the Development Environment
 
-The foundation of successful ESP-Miner firmware development begins with establishing the proper development environment in Visual Studio Code. The ESP-IDF extension serves as the cornerstone of this setup, providing the necessary tools and framework integration for ESP32 development. When installing the ESP-IDF extension for the first time, users encounter a setup guide that facilitates the configuration process.
+Pange tähele, et see peatükk on üsna tehniline ja selle võib lihtsalt läbi sirvida, kui olete selle kohta uudishimulik.
 
-A critical consideration in the setup process involves selecting the appropriate ESP-IDF version. While version 5.1.3 was previously recommended, practical experience has revealed that this version can cause build issues that complicate the development process. The recommended approach now involves using ESP-IDF version 5.3 Beta 1, which has proven to resolve these building complications and ensures that Bitaxe devices function properly. The installation process requires selecting the Express installation option and specifically choosing version 5.3 Beta 1 from the available options.
 
-The development environment setup extends beyond the ESP-IDF installation to include proper terminal configuration. Visual Studio Code provides multiple methods for accessing ESP-IDF functionality, including the command palette option to open an ESP-IDF terminal or using the dedicated terminal icon located in the interface. This specialized terminal environment ensures that all ESP-IDF commands function correctly and provides access to the complete toolchain.
+### Arenduskeskkonna seadistamine
 
-### Configuring the ESP-Miner Settings
 
-The configuration file represents the heart of the ESP-Miner customization process, containing all the essential parameters that define how the device will operate in its target environment. This configuration encompasses network settings, mining pool connections, and hardware-specific parameters that must be tailored to the specific deployment scenario.
+ESP-Miner püsivara arendamise alustamiseks peaksite looma sobiva arenduskeskkonna Visual Studio Code'is, ideaalis linuxi distributsioonis. Selle seadistuse nurgakiviks on ESP-IDF laiendus, mis pakub ESP32 arendamiseks vajalikke vahendeid ja raamistiku integreerimist. ESP-IDF laienduse esmakordsel paigaldamisel leiavad kasutajad seadistusjuhendi, mis hõlbustab seadistamisprotsessi.
 
-Network configuration forms the primary component of the setup process, requiring the specification of Wi-Fi credentials including the SSID and password. Rather than using placeholder values like "test," production configurations should include the actual network credentials that the device will use in its operational environment. The configuration also accommodates various mining pool setups, supporting both private pool configurations with specific IP addresses and public pools like public-pool.io with their corresponding port settings.
 
-Mining-specific configuration parameters include the stratum user setting, which typically corresponds to the Bitcoin address where mining rewards should be directed. Additional hardware parameters such as frequency settings, voltage configurations, and ASIC type specifications must align with the target hardware platform. The GitHub repository provides pre-configured examples for different hardware variants, such as the BM1368 configuration designed for Super devices and BM1366 settings for Ultra variants. Board version specifications, such as setting the port version to 401 for newer hardware revisions, ensure compatibility with the target device's specific characteristics.
+Kriitiline kaalutlus seadistamisprotsessis hõlmab sobiva ESP-IDF-versiooni valimist. Kuigi varem soovitati versiooni 5.1.3, on praktiline kogemus näidanud, et see versioon võib põhjustada probleeme, mis raskendavad arendusprotsessi. Nüüd soovitatakse kasutada ESP-IDF-i versiooni 5.3 Beta 1, mis on osutunud lahendavaks nende komplikatsioonide kõrvaldamiseks ja tagab Bitaxe'i seadmete nõuetekohase toimimise. Paigaldusprotsessis tuleb valida Express paigaldamise võimalus ja valida olemasolevate valikute hulgast konkreetselt versioon 5.3 Beta 1.
 
-### Building the Web Interface and Core Firmware
 
-The ESP-Miner project incorporates a sophisticated web interface that requires separate compilation before the main firmware build process can commence. This web interface, referred to as the XOS firmware, provides users with a comprehensive management interface for monitoring and controlling their mining devices.
+Arenduskeskkonna seadistamine ulatub ESP-IDF-i paigaldamisest kaugemale ja hõlmab ka terminali nõuetekohast konfigureerimist. Visual Studio Code pakub ESP-IDF-i funktsioonidele juurdepääsu mitut meetodit, sealhulgas käsupaleti valikut ESP-IDF-i terminali avamiseks või kasutajaliideses asuva spetsiaalse terminali ikooni kasutamist. See spetsiaalne terminalikeskkond tagab, et kõik ESP-IDF-i käsud toimivad õigesti, ja annab juurdepääsu kogu tööriistakomplektile.
 
-The web interface build process begins by navigating to the HTTP server directory within the main repository structure, specifically the XOS subdirectory. This location contains the Node.js-based web application that requires dependency installation through the npm install command. The build system assumes that Node.js is properly installed on the development system, as this represents a fundamental requirement for the web interface compilation process.
 
-Following the dependency installation, the npm run build command compiles the web interface components, creating the necessary files that will be embedded into the ESP32 firmware. This compilation process generates optimized web assets that provide the user interface functionality while maintaining efficient memory usage on the constrained ESP32 platform. The successful completion of this build step is essential before proceeding to the main firmware compilation, as the ESP-Miner firmware incorporates these web interface components as integral functionality.
+### ESP-Miner seadete konfigureerimine
 
-### Creating Factory Files with Embedded Configuration
 
-The creation of factory files represents an advanced deployment strategy that embeds configuration settings directly into the firmware binary, eliminating the need for manual configuration during device setup. This approach proves particularly valuable for large-scale deployments or situations where consistent configuration across multiple devices is essential.
+Konfiguratsioonifail on ESP-Miner kohandamisprotsessi süda, mis sisaldab kõiki olulisi parameetreid, mis määravad, kuidas seade sihtkeskkonnas töötab. See konfiguratsioon hõlmab võrguseadistusi, mining koondühendusi ja riistvaraspetsiifilisi parameetreid, mis tuleb kohandada konkreetse kasutuselevõtu stsenaariumiga.
 
-The factory file creation process begins with generating a configuration binary from the CSV configuration file using the ESP-IDF's NVS partition generator tool. This tool, located within the ESP-IDF components directory under nvs-flash/nvs-partition-generator, converts the human-readable configuration into a binary format suitable for direct flash memory storage. The nvs-partition-gen.py script processes the config.csv file and generates a config.binary file that targets the 0x6000 memory address space.
 
-The final assembly of factory files utilizes specialized merge scripts that combine the core firmware binaries with the configuration data. The repository provides multiple merge options, including a standard merge script for basic factory files and a configuration-inclusive merge script for comprehensive factory files. The merge-bin-with-config.sh script creates factory files that include both the firmware functionality and the pre-configured settings, resulting in a complete deployment package. This approach enables the creation of device-specific factory files, such as versions tailored for Bitaxe Ultra devices with specific board revisions, while maintaining the flexibility to generate generic factory files without embedded configurations for scenarios requiring manual setup flexibility.
+Võrgukonfiguratsioon on seadistamisprotsessi peamine osa, mis nõuab Wi-Fi-levi volituste, sealhulgas SSID ja parooli määramist. Tootmiskonfiguratsioonid peaksid sisaldama tegelikke võrgukrediteeringuid, mida seade kasutab töökeskkonnas, selle asemel, et kasutada paigutusväärtusi nagu "test". Konfiguratsioon võimaldab ka erinevaid mining-poolseadistusi, toetades nii erapoolikonfiguratsioone konkreetsete IP-aadressidega kui ka avalikke pooli nagu public-pool.io koos vastavate portide seadistustega.
 
-The completed factory files provide deployment teams with ready-to-flash binaries that include all necessary firmware components and configuration settings, streamlining the device provisioning process and ensuring consistent operational parameters across deployed mining devices.
 
-## How to use the Bitaxe Web Flasher ?
+Mining-spetsiifiliste konfiguratsiooniparameetrite hulka kuulub stratum user setting, mis tavaliselt vastab Bitcoin aadressile, kuhu mining preemiad tuleb suunata. Täiendavad riistvaraparameetrid, nagu sageduse seaded, pingekonfiguratsioonid ja ASIC tüübispetsifikatsioonid, peavad olema vastavuses sihtriistvaraplatvormiga. GitHubi repositooriumis on erinevate riistvaravariantide jaoks eelkonfigureeritud näited, näiteks Super-seadmete jaoks mõeldud BM1368 konfiguratsioon ja Ultra-variantide jaoks mõeldud BM1366 seaded. Plaadi versiooni spetsifikatsioonid, näiteks pordiversiooni seadistamine 401-le uuemate riistvaraversioonide puhul, tagavad ühilduvuse sihtseadme spetsiifiliste omadustega.
+
+
+### Veebi Interface ja põhifirmavara koostamine
+
+
+Projekt ESP-Miner sisaldab keerukat veebiliidest, mis nõuab eraldi kompileerimist, enne kui saab alustada põhilise püsivara koostamise protsessi. See veebiliides, mida nimetatakse AxeOS firmware'ks, pakub kasutajatele terviklikku haldusliidest mining seadmete jälgimiseks ja juhtimiseks.
+
+
+Veebiliidese loomise protsess algab HTTP-serveri kataloogi navigeerimisega peamise repositooriumi struktuuris, täpsemalt AxeOS alamkataloogis. See asukoht sisaldab Node.js-põhist veebirakendust, mis nõuab sõltuvuste paigaldamist käsu npm install abil. Ehitussüsteem eeldab, et Node.js on arendussüsteemis korralikult installitud, kuna see on veebiliidese koostamise protsessi põhinõue.
+
+
+Pärast sõltuvuste paigaldamist koostab käsk npm run build veebiliidese komponendid, luues vajalikud failid, mis lisatakse ESP32 püsivara sisse. See kompileerimisprotsess genereerib optimeeritud veebivarad, mis pakuvad kasutajaliidese funktsionaalsust, säilitades samal ajal tõhusa mälukasutuse piiratud ESP32 platvormil. Selle koostamisetapi edukas lõpuleviimine on oluline enne põhilise püsivara koostamise jätkamist, kuna ESP-Miner püsivara sisaldab neid veebiliidese komponente lahutamatu funktsioonina.
+
+
+### Tehasefailide loomine sisseehitatud konfiguratsiooniga
+
+
+Tehasefailide loomine kujutab endast täiustatud kasutuselevõtustrateegiat, mis paigutab konfiguratsioonisätted otse püsivara binaarsüsteemi, kõrvaldades seadme seadistamise ajal manuaalse konfigureerimise vajaduse. See lähenemisviis on eriti väärtuslik suuremahuliste juurutuste puhul või olukordades, kus on oluline mitme seadme järjepidev konfigureerimine.
+
+
+Tehasefaili loomise protsess algab konfiguratsioonibinaari genereerimisega CSV-konfiguratsioonifailist, kasutades ESP-IDF-i NVS partitsiooni genereerimise tööriista. See tööriist, mis asub ESP-IDF-i komponentide kataloogis nvs-flash/nvs-partition-generator, teisendab inimesele loetava konfiguratsiooni otseseks flash-mälu salvestamiseks sobivasse binaarvormingusse. Skript nvs-partition-gen.py töötleb faili config.csv ja genereerib faili config.binary, mis on suunatud 0x6000 mälu aadressiruumi.
+
+
+Tehasefailide lõplikuks kokkupanekuks kasutatakse spetsiaalseid ühendamisskripte, mis ühendavad püsivara tuumikprogrammide binaarsed failid konfiguratsiooniandmetega. Hoidla pakub mitmeid ühendamisvõimalusi, sealhulgas standardset ühendamisskripti põhiliste tehasespetsiifiliste failide jaoks ja konfiguratsiooni sisaldavat ühendamisskripti põhjalike tehasespetsiifiliste failide jaoks. Skript merge-bin-with-config.sh loob tehasefailid, mis sisaldavad nii püsivara funktsionaalsust kui ka eelkonfigureeritud seadeid, mille tulemuseks on täielik juurutamispakett. See lähenemisviis võimaldab luua seadmespetsiifilisi tehasefaile, näiteks Bitaxe Ultra seadmetele kohandatud versioone, millel on spetsiifilised plaadi versioonid, säilitades samas paindlikkuse generate üldiste tehasefailide loomiseks ilma sisseehitatud konfiguratsioonita stsenaariumide jaoks, mis nõuavad manuaalset seadistamise paindlikkust.
+
+
+Valmis tehasfailid annavad juurutamismeeskondadele valmis flash-binaarid, mis sisaldavad kõiki vajalikke püsivara komponente ja konfiguratsiooniseadistusi, lihtsustades seadme kasutuselevõtu protsessi ja tagades ühtsed tööparameetrid kõigis juurutatud mining seadmetes.
+
+
+## Kuidas kasutada Bitaxe Web Flasherit?
+
 <chapterId>8c3e2d4c-c038-53ec-93cb-cc30a29e4394</chapterId>
+
 
 :::video id=291757b9-f459-48f6-8766-56387f907859:::
 
-The Bitaxe Web Installer represents a streamlined approach to firmware management for Bitaxe devices, providing users with multiple installation options through a web-based interface. This comprehensive tool eliminates the complexity traditionally associated with firmware updates and fresh installations, making device management accessible to users regardless of their technical expertise. Understanding the proper use of this installer is crucial for maintaining optimal device performance and avoiding common pitfalls that can render devices temporarily inoperable.
+Bitaxe Web Installer kujutab endast lihtsustatud lähenemist Bitaxe'i seadmete püsivara haldamisele, pakkudes kasutajatele veebipõhise kasutajaliidese kaudu mitmeid paigaldusvõimalusi. See terviklik vahend kõrvaldab keerukuse, mis on tavapäraselt seotud püsivara uuendamise ja uue paigaldamisega, muutes seadme haldamise kättesaadavaks kasutajatele sõltumata nende tehnilistest teadmistest. Selle paigaldusprogrammi õige kasutamise mõistmine on äärmiselt oluline, et säilitada seadme optimaalne jõudlus ja vältida tavalisi lõkse, mis võivad muuta seadmed ajutiselt kasutuskõlbmatuks.
 
-### Accessing and Browser Compatibility Requirements
 
-The Bitaxe Web Installer is accessible through the dedicated URL oneclue.github.io/bitx-web-flasher, serving as the central hub for all firmware installation activities. However, successful operation of this web-based tool requires careful attention to browser compatibility, as the installer relies on specific web technologies that are not universally supported across all browsers. Chrome stands as the primary recommended browser for the installer, providing full compatibility with all features and functions. While other Chromium-based browsers may offer similar functionality, popular alternatives like Brave and Firefox lack the necessary web serial API support, making them incompatible with the installer's core operations.
+### Juurdepääs ja brauseri ühilduvusnõuded
 
-This browser limitation stems from the installer's reliance on direct serial communication with Bitaxe devices through the web interface. The web serial API, which enables this communication, remains a relatively new web standard that has not yet achieved universal browser adoption. Users attempting to access the installer through unsupported browsers will encounter connection failures and inability to communicate with their devices, necessitating a switch to a compatible browser before proceeding with any installation activities.
 
-### Power Requirements and Device Preparation
+Bitaxe Web Installer on kättesaadav spetsiaalse URL-i [https://bitaxeorg.github.io/bitaxe-web-flasher/](https://bitaxeorg.github.io/bitaxe-web-flasher/) kaudu (videos esitatud URL on nüüdseks aegunud), mis on kõigi püsivara paigaldamistoimingute keskne keskus. Selle veebipõhise tööriista edukas kasutamine eeldab siiski brauseri ühilduvust, kuna paigaldaja tugineb spetsiifilistele veebitehnoloogiatele, mida kõik brauserid ei toeta. Chrome on paigaldusprogrammi jaoks peamine soovitatav brauser, mis tagab täieliku ühilduvuse kõigi funktsioonide ja funktsioonidega. Kuigi teised Chromiumil põhinevad brauserid võivad pakkuda sarnast funktsionaalsust, puuduvad populaarsetel alternatiividel, nagu Brave ja Firefox, vajalik veebiseeria API tugi, mistõttu need ei ühildu paigaldaja põhitoimingutega.
 
-Bitaxe devices exhibit different power requirements depending on their specific model and version, making proper power management essential for successful firmware installation. Devices running version 204 or below can operate solely through USB power, drawing sufficient current from the connected computer to maintain operation during the flashing process. This simplified power arrangement makes these earlier versions particularly convenient for firmware updates, as users need only connect a single USB cable to begin the installation process.
 
-However, devices running version 205 and above require external power sources in addition to the USB connection, reflecting changes in power consumption and circuit design in newer hardware revisions. These devices cannot draw adequate power through USB alone, necessitating connection to their standard power supplies during firmware installation. Failure to provide adequate power to these newer devices will result in installation failures and potential corruption of the firmware update process.
+See brauseripiirang tuleneb sellest, et paigaldaja tugineb veebiliidese kaudu Bitaxe'i seadmetega otsesele jadaühendusele. Veebisarja API, mis võimaldab sellist suhtlust, on endiselt suhteliselt uus veebistandard, mis ei ole veel saavutanud universaalset brauserite kasutuselevõttu. Kasutajad, kes üritavad paigaldusprogrammile juurdepääsu mitte toetatud brauserite kaudu, puutuvad kokku ühenduse katkemisega ja ei saa oma seadmetega suhelda, mistõttu on vaja enne paigaldustegevusega jätkamist minna üle ühilduvale brauserile.
 
-The physical connection process requires specific timing and button manipulation to ensure proper communication between the installer and the device. Users must press and hold the boot button on their Bitaxe device before connecting the USB-C cable to their computer. This sequence places the device into bootloader mode, enabling the installer to communicate directly with the device's firmware storage. Connecting the USB cable before engaging the boot button will result in normal device operation rather than the bootloader mode required for firmware installation, preventing the installer from establishing the necessary communication channel.
 
-### Installation Options and Their Applications
+### Toitenõuded ja seadme ettevalmistamine
 
-The Bitaxe Web Installer provides four distinct installation options, each designed for specific use cases and device configurations. The Bitaxe Superboard version 4.0.1 represents the most current firmware for Super model devices, with version 4.0.2 scheduled for future release. This option includes both factory and update variants, providing flexibility in installation approach based on user needs and device status.
 
-Factory installations represent complete firmware replacements that mirror the original manufacturing process, including comprehensive self-test procedures that verify device functionality across all systems. When users select a factory installation, the installer performs a complete erasure of existing firmware and configuration data, replacing it with a fresh, clean installation identical to what would be applied during manufacturing. This process includes automated self-testing that validates proper hardware operation, requiring users to reboot their devices upon completion before normal operation can resume. Factory installations prove particularly valuable when devices experience persistent issues or when users desire to return their devices to original factory specifications.
+Bitaxe'i seadmetel on sõltuvalt nende konkreetsest mudelist ja versioonist erinevad energiavajadused, mistõttu nõuetekohane energiakasutuse juhtimine on püsivara edukaks paigaldamiseks hädavajalik. Seadmed, mille versioon on 204 või väiksem, võivad töötada ainult USB-toite kaudu, võttes ühendatud arvutist piisavalt voolu, et säilitada töö vilkumisprotsessi ajal. Selline lihtsustatud toitekorraldus muudab need varasemad versioonid püsivara uuendamiseks eriti mugavaks, kuna kasutajad peavad paigaldusprotsessi alustamiseks ühendama vaid ühe USB-kaabli.
 
-Update installations provide a more conservative approach, preserving existing configuration data while updating only the core firmware components. This option proves ideal for users who have customized their device settings and wish to maintain their personal configurations while benefiting from firmware improvements and bug fixes. The update process targets only the firmware components that require modification, leaving user-specific settings, WiFi credentials, and Bitcoin addresses intact throughout the installation process.
 
-### Critical Installation Considerations and Data Protection
+Seadmed, mis töötavad versiooniga 205 ja sellest ülespoole, vajavad lisaks USB-ühendusele ka väliseid toiteallikaid, mis kajastab muudatusi energiatarbimises ja vooluahela konstruktsioonis uuemates riistvara versioonides. Need seadmed ei saa piisavat energiat ainult USB kaudu, mistõttu on vaja püsivara paigaldamise ajal ühendada need standardse toiteallikaga. Kui neid uuemaid seadmeid ei varustata piisava toiteallikaga, põhjustab see installeerimise tõrkeid ja võimalikke rikkumisi püsivara uuendamise protsessis.
 
-The distinction between factory and update installations carries significant implications for device configuration and user data preservation. Factory installations perform complete device erasure, removing all user-configured settings including WiFi credentials, Bitcoin addresses, and any personalized device parameters. Following a factory installation, users must reconnect to the device's default WiFi network and reconfigure all personal settings from scratch, essentially treating the device as if it were brand new from the manufacturer.
 
-Update installations require careful attention to the erase device option presented during the installation process. The installer will prompt users with the question "Do you want to erase the device before installing Bitaxe Flasher?" accompanied by a warning that all data on the device will be lost. Users performing update installations must decline this option by clicking "Next" rather than confirming the erase operation. Accepting the erase option during an update installation will remove the device's configuration file, potentially rendering the device non-functional until proper configuration is restored. While this situation does not permanently damage the device, it creates unnecessary complications and requires additional configuration steps to restore normal operation.
+Füüsiline ühendamisprotsess nõuab spetsiifilist ajastust ja nuppudega manipuleerimist, et tagada nõuetekohane side paigaldaja ja seadme vahel. Kasutajad peavad enne USB-C kaabli ühendamist arvutiga vajutama ja hoidma all Bitaxe seadme käivitamisnuppu. See järjestus paneb seadme alglaadimisrežiimi, mis võimaldab paigaldajal suhelda otse seadme püsivara salvestusruumiga. USB-kaabli ühendamine enne alglaadimisnupu vajutamist toob kaasa seadme normaalse töö, mitte püsivara paigaldamiseks vajaliku alglaadimisrežiimi, mis takistab paigaldaja vajaliku sidekanali loomist.
 
-The installation process itself proceeds automatically once users have made their selections and confirmed their choices. The installer handles all technical aspects of firmware transfer and verification, providing progress indicators and status updates throughout the process. This automated approach eliminates the need for users to understand complex firmware installation procedures while ensuring reliable and consistent results across different device models and firmware versions.
 
-## How to create and order the PCB?
+### Paigaldamisvõimalused ja nende rakendused
+
+
+Bitaxe Web Installer pakub nelja erinevat paigaldusvõimalust, millest igaüks on mõeldud konkreetsete kasutusjuhtumite ja seadmekonfiguratsioonide jaoks. Bitaxe Superboardi versioon 4.0.1 on kõige uuem püsivara Super-mudeli seadmetele, versioon 4.0.2 on kavas välja anda tulevikus. See valik sisaldab nii tehase- kui ka uuendusvariante, mis võimaldab paindlikku paigaldusviisi vastavalt kasutaja vajadustele ja seadme olekule.
+
+
+Tehase paigaldamine kujutab endast täielikku püsivara asendamist, mis peegeldab algset tootmisprotsessi, sealhulgas põhjalikke enesetestimise protseduure, mis kontrollivad seadme funktsionaalsust kõigis süsteemides. Kui kasutajad valivad tehase paigalduse, kustutab paigaldaja olemasoleva püsivara ja konfiguratsiooniandmed täielikult, asendades need uue, puhta paigaldusega, mis on identne sellega, mida kasutati tootmise ajal. See protsess hõlmab automaatset enesetestimist, mis kinnitab riistvara nõuetekohast toimimist, nõudes kasutajatelt seadme taaskäivitamist pärast selle lõpetamist, enne kui seadme normaalne töö võib jätkuda. Tehaseinstallatsioon on eriti väärtuslik siis, kui seadmetel esineb püsivaid probleeme või kui kasutajad soovivad oma seadmeid taastada tehase algsete spetsifikatsioonide järgi.
+
+
+Värskenduspaigaldised pakuvad konservatiivsemat lähenemist, säilitades olemasolevad konfiguratsiooniandmed, uuendades samal ajal ainult põhilisi püsivara komponente. See võimalus on ideaalne kasutajatele, kes on oma seadme seadeid kohandanud ja soovivad säilitada oma isiklikud konfiguratsioonid, saades samal ajal kasu püsivara parandustest ja veaparandustest. Värskendusprotsess on suunatud ainult muutmist vajavatele püsivara komponentidele, jättes kasutajakohased seaded, WiFi-volitused ja Bitcoin-aadressid kogu paigaldusprotsessi jooksul puutumatuks.
+
+
+### Kriitilised paigaldamisega seotud kaalutlused ja andmekaitse
+
+
+Tehase- ja uuenduste paigaldamise eristamine mõjutab oluliselt seadme konfiguratsiooni ja kasutajaandmete säilitamist. Tehasepaigaldiste puhul kustutatakse seade täielikult, eemaldades kõik kasutaja poolt konfigureeritud seaded, sealhulgas WiFi kasutajatunnused, Bitcoin aadressid ja kõik seadme isiklikud parameetrid. Pärast tehasepoolset paigaldamist peavad kasutajad uuesti ühenduma seadme vaikimisi WiFi-võrku ja konfigureerima kõik isiklikud seaded uuesti nullist, käsitledes seadet sisuliselt nii, nagu oleks see tootja poolt täiesti uus.
+
+
+Uuenduste paigaldamine nõuab hoolikat tähelepanu seadme kustutamise valikule, mis esitatakse paigaldusprotsessi ajal. Paigaldusprogramm küsib kasutajatelt küsimust "Kas soovite seadme enne Bitaxe Flasheri paigaldamist kustutada?", millele lisandub hoiatus, et kõik seadmel olevad andmed kaovad. Kasutajad, kes teostavad uuenduste paigaldamist, peavad selle võimaluse tagasi lükkama, klõpsates "Next", mitte kinnitades kustutamistoimingut. Kustutamise valiku vastuvõtmine uuenduse paigaldamise ajal eemaldab seadme konfiguratsioonifaili, mis võib muuta seadme kuni nõuetekohase konfiguratsiooni taastamiseni mittefunktsionaalseks. Kuigi selline olukord ei kahjusta seadet jäädavalt, tekitab see tarbetuid komplikatsioone ja nõuab normaalse töö taastamiseks täiendavaid konfigureerimismeetmeid.
+
+
+Paigaldusprotsess ise toimub automaatselt, kui kasutajad on teinud oma valikud ja kinnitanud need. Installeerija tegeleb kõigi püsivara ülekande ja kontrollimise tehniliste aspektidega, esitades kogu protsessi vältel edusammude indikaatorid ja olekuteadete uuendused. Selline automaatne lähenemine välistab kasutajate vajaduse mõista keerulisi püsivara paigaldusprotseduure, tagades samas usaldusväärsed ja järjepidevad tulemused erinevate seademudelite ja püsivara versioonide puhul.
+
+
+## Kuidas luua ja tellida trükkplaati?
+
 <chapterId>566f5e06-9ec9-55c0-84f6-101d6ca4c2ff</chapterId>
+
 
 :::video id=9a56ad84-d9cf-4f85-ab98-301fb3101228:::
 
-This chapter focuses on the practical process of generating manufacturing files from KiCad projects and ordering professional PCBs from online manufacturers. Using the Bitaxe project as our example, we'll walk through the complete workflow from file generation to placing an order with a PCB manufacturer.
+Selles peatükis keskendutakse KiCadi projektidest tootmisfailide genereerimisele ja professionaalsete trükkplaatide tellimisele veebipõhistelt tootjatelt. Kasutades näitena Bitaxe projekti, käime läbi kogu töövoo alates faili genereerimisest kuni tellimuse esitamiseni trükkplaaditootjale.
 
-### Understanding the PCB Manufacturing Process
 
-The journey from a completed KiCad design to a physical PCB involves several critical steps that bridge the gap between digital design and physical manufacturing. When working with complex projects like the Bitaxe, the PCB editor in KiCad provides a comprehensive view of your design, displaying all components and their interconnections through colored traces. The red and blue lines you see represent the electrical connections between different integrated circuits and components on the board. KiCad's 3D viewer feature allows you to visualize how the final assembled board will appear, providing valuable insight into component placement and potential mechanical conflicts.
+### PCB tootmisprotsessi mõistmine
 
-The manufacturing process requires specific file formats that PCB manufacturers can interpret and use to fabricate your boards. These files contain precise information about copper layers, drill holes, component placement, and other manufacturing specifications. Understanding this workflow is essential whether you're working with the standard Bitaxe design or creating modifications such as adding custom logos, changing component values, or adjusting the board layout to meet specific requirements.
 
-### Generating Gerber Files for Manufacturing
+Teekond valmis KiCad'i projektist füüsilise trükkplaadi valmistamiseni hõlmab mitmeid kriitilisi samme, mis ületavad lõhe digitaalse disaini ja füüsilise tootmise vahel. Kui töötate keeruliste projektidega nagu Bitaxe, pakub KiCadi trükkplaadiredaktor terviklikku ülevaadet teie disainist, näidates kõiki komponente ja nende omavahelisi ühendusi värviliste jälgede kaudu. Punased ja sinised jooned, mida näete, tähistavad elektrilisi ühendusi erinevate integraallülituste ja komponentide vahel plaadil. KiCadi 3D vaatefunktsioon võimaldab visualiseerida, kuidas lõplik kokkupandud plaat välja näeb, andes väärtusliku ülevaate komponentide paigutusest ja võimalikest mehaanilistest konfliktidest.
 
-Gerber files serve as the industry standard for communicating PCB design information to manufacturers. These files contain all the necessary data for fabricating your PCB, including copper layer patterns, solder mask definitions, and drill hole locations. To generate these files in KiCad, navigate to the PCB editor and access the fabrication outputs through the Files menu. The software automatically configures the appropriate settings for standard manufacturing processes, including the proper output directory structure typically organized as "manufacturing files/gerbers."
 
-The generation process creates multiple Gerber files, each representing different aspects of your PCB design. These files work together to provide manufacturers with complete fabrication instructions. Once generated, these files must be compressed into a ZIP archive, as this is the standard format expected by most PCB manufacturers. The ZIP file contains all necessary manufacturing data and ensures that no files are lost or corrupted during the upload process to the manufacturer's website.
+Tootmisprotsess nõuab konkreetseid failivorminguid, mida trükkplaaditootjad saavad tõlgendada ja kasutada teie plaatide valmistamiseks. Need failid sisaldavad täpset teavet vaskkihtide, puuraukude, komponentide paigutuse ja muude tootmisspetsifikaatide kohta. Selle töövoo mõistmine on oluline, olenemata sellest, kas töötate Bitaxe'i standardse disainiga või teete muudatusi, näiteks lisate kohandatud logosid, muudate komponentide väärtusi või kohandate plaadi paigutust, et see vastaks konkreetsetele nõuetele.
 
-It's worth noting that many open-source projects, including the Bitaxe, often include pre-generated manufacturing files in their repositories. However, understanding how to generate these files yourself is crucial when making design modifications or working with different board versions. This knowledge becomes particularly valuable when customizing designs or troubleshooting manufacturing issues.
 
-### Selecting PCB Manufacturers and Understanding Options
+### Gerberi failide genereerimine tootmiseks
 
-The PCB manufacturing landscape offers several reputable options, with JLCPCB and PCBWay being among the most popular choices for hobbyists and professionals alike. Both manufacturers provide similar services with competitive pricing and reliable quality, though each has specific advantages depending on your project requirements. JLCPCB often attracts first-time users with promotional pricing and user-friendly interfaces, while PCBWay may offer different material options or specialized services.
 
-When uploading your Gerber files to a manufacturer's website, the system automatically analyzes your design and presents various manufacturing options. The default settings provided by these platforms are typically suitable for most standard designs, and it's generally recommended to maintain these settings unless you have specific requirements. Key parameters include PCB thickness, copper weight, surface finish, and minimum quantities. Most manufacturers require minimum orders of five boards, which actually works well for hobbyist projects where having spare boards or sharing with friends is beneficial.
+Gerber-failid on tööstusharu standardiks PCB-disaini teabe edastamisel tootjatele. Need failid sisaldavad kõiki vajalikke andmeid trükkplaadi valmistamiseks, sealhulgas vaskkihi mustreid, jootemaskide määratlusi ja puuraukude asukohti. Nende failide generate jaoks KiCadis navigeerige PCB redaktorisse ja pääsete failide menüüst juurde valmistamise väljunditele. Tarkvara konfigureerib automaatselt sobivad seaded standardsete tootmisprotsesside jaoks, sealhulgas õige väljundkataloogi struktuuri, mis on tavaliselt korraldatud kui "tootmisfailid/gerberid"
 
-Color options represent one of the few aesthetic choices available during the manufacturing process. While green remains the traditional and most cost-effective option, manufacturers typically offer alternatives including blue, red, yellow, purple, and black. The color choice is purely aesthetic and doesn't affect the electrical performance of your PCB, though some colors may have slight cost implications or longer manufacturing times.
 
-### Advanced Manufacturing Considerations and Assembly Options
+Genereerimisprotsess loob mitu Gerber-faili, millest igaüks esindab teie trükkplaadi disaini erinevaid aspekte. Need failid töötavad koos, et anda tootjatele täielikud valmistamisjuhised. Pärast genereerimist tuleb need failid pakendada ZIP-arhiivi, kuna see on standardformaat, mida enamik trükkplaaditootjaid ootab. ZIP-fail sisaldab kõiki vajalikke tootmisandmeid ja tagab, et tootja veebisaidile üleslaadimise käigus ei läheks faile kaduma ega rikneks.
 
-Beyond basic PCB fabrication, modern manufacturers offer additional services that can significantly streamline your project completion. Stencils represent one of the most valuable add-on services, particularly for designs with fine-pitch components like the ASIC chips found in Bitcoin mining projects. A stencil is essentially a precision-cut aluminum template with openings that correspond exactly to the solder pad locations on your PCB. This tool enables consistent and accurate application of solder paste, dramatically improving assembly quality and reducing the likelihood of soldering errors.
 
-Stencil options typically include single stencils with both top and bottom patterns, or separate stencils for each side of the board. For most projects, a combined stencil proves more convenient and cost-effective. The stencil thickness is carefully calculated to deposit the appropriate amount of solder paste for your specific component types and pad sizes. Using a stencil transforms what could be a tedious and error-prone manual process into a quick and professional assembly step.
+Tasub märkida, et paljud avatud lähtekoodiga projektid, sealhulgas Bitaxe, sisaldavad oma repositooriumides sageli eelnevalt loodud tootmisfaile. Kuid arusaamine sellest, kuidas neid faile ise generate teha, on väga oluline, kui teete disainimuudatusi või töötate erinevate plaadiversioonidega. Need teadmised muutuvad eriti väärtuslikuks disainilahenduste kohandamisel või tootmisprobleemide lahendamisel.
 
-While some manufacturers offer partial or complete assembly services, these options require careful consideration for complex projects like the Bitaxe. Component availability, cost implications, and the educational value of self-assembly all factor into this decision. Many specialized components required for Bitcoin mining projects may not be readily available through standard PCB assembly services, making component sourcing and manual assembly the more practical approach. Future episodes in this series will cover component sourcing strategies and assembly techniques to help you successfully complete your Bitaxe project from bare PCB to functional device.
 
-The manufacturing and assembly process represents a crucial bridge between digital design and physical implementation. Understanding these workflows empowers you to take control of your projects, reduce costs, and gain valuable hands-on experience with professional manufacturing processes. Whether you're building a single prototype or planning a small production run, mastering these skills opens up new possibilities for bringing your electronic designs to life.
+### Trükkplaaditootjate valimine ja valikuvõimaluste mõistmine
 
-# Performance Optimization
+
+Trükkplaatide tootmismaastik pakub mitmeid mainekaid võimalusi, kusjuures JLCPCB ja PCBWay on nii harrastajate kui ka professionaalide seas kõige populaarsemad valikud. Mõlemad tootjad pakuvad sarnaseid teenuseid konkurentsivõimelise hinna ja usaldusväärse kvaliteediga, kuigi mõlemal on sõltuvalt teie projekti nõuetest konkreetsed eelised. JLCPCB meelitab sageli esmakordseid kasutajaid soodushindade ja kasutajasõbralike liideste abil, samas kui PCBWay võib pakkuda erinevaid materjalivalikuid või spetsialiseeritud teenuseid.
+
+
+Kui laadite oma Gerber-failid tootja veebisaidile üles, analüüsib süsteem automaatselt teie projekti ja esitab erinevaid tootmisvõimalusi. Nende platvormide pakutavad vaikimisi seaded sobivad tavaliselt enamiku standardsete disainilahenduste jaoks ja üldiselt on soovitatav neid seadistusi säilitada, kui teil ei ole erinõudeid. Peamised parameetrid on näiteks trükkplaadi paksus, vase kaal, pinnaviimistlus ja miinimumkogused. Enamik tootjaid nõuab viie plaadi miinimumtellimust, mis tegelikult töötab hästi hobikorras projektide puhul, kus varuplaatide omamine või sõpradega jagamine on kasulik.
+
+
+Värvivalikud on üks vähestest esteetilistest valikutest, mis on tootmisprotsessi käigus saadaval. Kuigi roheline on endiselt traditsiooniline ja kõige kuluefektiivsem valik, pakuvad tootjad tavaliselt alternatiive, sealhulgas sinist, punast, kollast, lillat ja musta. Värvivalik on puhtalt esteetiline ja ei mõjuta teie trükkplaadi elektrilist jõudlust, kuigi mõned värvid võivad mõjutada veidi kulusid või pikemat valmistamisaega.
+
+
+### Täiustatud tootmisega seotud kaalutlused ja montaaživõimalused
+
+
+Lisaks põhilisele trükkplaatide valmistamisele pakuvad kaasaegsed tootjad lisateenuseid, mis võivad teie projekti lõpuleviimist märkimisväärselt lihtsustada. Šabloonid on üks kõige väärtuslikumaid lisateenuseid, eriti selliste peene sammuga komponentidega disainilahenduste puhul nagu ASIC kiibid, mida Bitcoin mining projektides leidub. Šabloon on sisuliselt täpselt lõigatud alumiiniumist šabloon, mille avad vastavad täpselt teie trükkplaadi jootekohtade kohtadele. See tööriist võimaldab jootepasta järjepidevat ja täpset pealekandmist, parandades oluliselt koostekvaliteeti ja vähendades jootevigade tõenäosust.
+
+
+Šabloonide valikus on tavaliselt üksikud šabloonid nii ülemise kui ka alumise mustriga või eraldi šabloonid plaadi mõlemale küljele. Enamiku projektide puhul osutub kombineeritud šabloon mugavamaks ja kuluefektiivsemaks. Šablooni paksus on hoolikalt arvutatud, et ladestada sobiv kogus jootepastat teie konkreetsete komponentide tüüpide ja padide suuruse jaoks. Šablooni kasutamine muudab tüütu ja veaohtliku manuaalse protsessi kiireks ja professionaalseks montaažiks.
+
+
+Kuigi mõned tootjad pakuvad osalist või täielikku montaažiteenust, nõuavad need võimalused Bitaxe'i-suguste keeruliste projektide puhul hoolikat kaalumist. Selle otsuse tegemisel tuleb arvestada komponentide kättesaadavust, kulude mõju ja isekomplekteerimise hariduslikku väärtust. Paljud Bitcoin mining projektide jaoks vajalikud spetsiaalsed komponendid ei pruugi olla hõlpsasti kättesaadavad tavaliste trükkplaatide koosteteenuste kaudu, mistõttu on komponentide hankimine ja käsitsi kokkupanek praktilisem lähenemisviis. Selle sarja tulevastes episoodides käsitletakse komponentide hankimisstrateegiaid ja koostetehnikaid, mis aitavad teil oma Bitaxe-projekti edukalt lõpule viia, alates paljast trükkplaadist kuni funktsionaalse seadmeni.
+
+
+Tootmis- ja montaažiprotsess on oluline sild digitaalse disaini ja füüsilise rakendamise vahel. Nende töövoogude mõistmine võimaldab teil oma projekte kontrollida, vähendada kulusid ja saada väärtuslikke praktilisi kogemusi professionaalsete tootmisprotsessidega. Olenemata sellest, kas te ehitate ühe prototüübi või kavandate väikest tootmisjärjekorda, avab nende oskuste valdamine uusi võimalusi oma elektrooniliste disainilahenduste ellu viimiseks.
+
+
+# Tulemuslikkuse optimeerimine
+
 <partId>87b8790f-b7a9-5286-a7f8-328176ef7cb5</partId>
 
-## Benchmark your Bitaxe
+
+## Bitaxe võrdlusuuring
+
 <chapterId>7259a4b1-93c1-5956-87d3-baaee58115af</chapterId>
+
 
 :::video id=2491a783-9750-4ea5-a40c-1d1d611784d5:::
 
-The pursuit of optimal mining performance requires a systematic approach to hardware configuration that balances hashrate, efficiency, and thermal management. Modern ASIC miners like the Bitaxe offer numerous configuration parameters that can significantly impact performance, but manually testing every combination of settings would be impractical and time-consuming. This chapter explores how to leverage automated benchmarking tools to scientifically optimize your Bitaxe miner's performance while maintaining safe operating conditions.
+Optimaalse mining jõudluse saavutamine nõuab süstemaatilist lähenemist riistvara konfiguratsioonile, mis tasakaalustab hashrate, tõhusust ja soojusjuhtimist. Bitaxe pakub arvukalt konfiguratsiooniparameetreid, mis võivad jõudlust oluliselt mõjutada, kuid iga seadete kombinatsiooni käsitsi katsetamine oleks ebapraktiline ja aeganõudev. Selles peatükis uuritakse, kuidas kasutada automatiseeritud võrdlusuuringute vahendeid, et teaduslikult optimeerida oma Bitaxe'i jõudlust, säilitades samal ajal ohutud töötingimused.
 
-### Understanding Bitaxe Performance Metrics and Baseline Configuration
 
-Before diving into optimization techniques, it's essential to understand the key performance indicators that define your Bitaxe's operational efficiency. The primary metrics include hashrate measured in terahash per second, power efficiency expressed in joules per terahash, ASIC frequency in megahertz, and core voltage in volts. A well-configured Bitaxe might achieve approximately 1.09 terahash with an efficiency of 17.62 joules per terahash, operating at 550 megahertz with a measured ASIC voltage of 1.14 volts. These baseline numbers provide a reference point for understanding the potential improvements available through systematic optimization.
+### Bitaxe'i jõudlusnäitajate ja baaskonfiguratsiooni mõistmine
 
-The relationship between these metrics is complex and interdependent. Higher frequencies typically increase hashrate but also increase power consumption and heat generation. Similarly, voltage adjustments affect both performance and thermal characteristics. The challenge lies in finding the optimal balance that maximizes either hashrate or efficiency while maintaining stable operation within safe temperature limits. This optimization process requires methodical testing across multiple parameter combinations, making automated tools invaluable for achieving optimal results.
 
-### The Bitaxe Hashrate Benchmark Tool Architecture
+Enne optimeerimistehnikatesse sukeldumist on oluline mõista põhilisi tulemusnäitajaid, mis määravad teie Bitaxe'i töö tõhususe. Peamised näitajad on hashrate, mida mõõdetakse terahapides sekundis, energiatõhusus, mida väljendatakse džaulides terahapide kohta, ASIC sagedus megahertsides ja tuumapinge voltides. Hästi konfigureeritud Bitaxe võib saavutada umbes 1,1 terahashi, mille kasutegur on umbes 17 džauli terahashi kohta, töötades sagedusel 550 megahertsi ja mõõdetud ASIC pinge on 1,14 volti. Need baasnumbrid annavad võrdluspunkti, et mõista süstemaatilise optimeerimise abil saavutatavaid potentsiaalseid parandusi.
 
-The Bitaxe Hashrate Benchmark tool represents a sophisticated Python-based solution originally developed by WhiteCookie and subsequently enhanced by mrv777. This open-source tool, distributed under the GPLv3 license, automates the complex process of testing multiple configuration combinations to identify optimal settings for your specific hardware. The tool's primary strength lies in its systematic approach to parameter testing, incrementally adjusting frequency and voltage settings while continuously monitoring performance metrics and thermal conditions.
 
-The benchmarking process typically requires 30 to 40 minutes to complete, during which the tool methodically tests various combinations of ASIC frequency and voltage settings. The tool begins with conservative baseline settings, typically starting at 1.15 volts and 500 megahertz, then incrementally increases these parameters while monitoring hashrate, temperature, and stability. Importantly, the tool prioritizes safe operation over maximum performance, automatically backing down from settings that cause excessive heat generation or instability. This conservative approach ensures that the optimization process doesn't compromise hardware longevity or reliability.
+Nende näitajate vaheline suhe on keeruline ja üksteisest sõltuv. Kõrgemad sagedused suurendavad tavaliselt hashrate, kuid suurendavad ka energiatarbimist ja soojuse teket. Samamoodi mõjutavad pinge reguleerimine nii jõudlust kui ka soojusomadusi. Väljakutse seisneb optimaalse tasakaalu leidmises, mis maksimeerib kas hashrate või tõhusust, säilitades samal ajal stabiilse töö ohututes temperatuuripiirides. See optimeerimisprotsess nõuab metoodilist katsetamist mitme parameetri kombinatsiooni puhul, mistõttu on automatiseeritud vahendid optimaalsete tulemuste saavutamiseks hindamatu väärtusega.
 
-### Installation and Setup Requirements
 
-Implementing the Bitaxe Hashrate Benchmark tool requires several prerequisite software components on your local computer. The primary requirements include Python for executing the benchmarking scripts, Git for repository management, and optionally Visual Studio Code for enhanced development environment capabilities. While the tool can be operated from command line interfaces, using an integrated development environment like VS Code provides better visibility into the benchmarking process and results analysis.
+### Bitaxe Hashrate Benchmark Tool arhitektuur
 
-The installation process follows standard Python development practices, beginning with cloning the repository from GitHub to your local machine. Once the repository is downloaded, you'll need to create a virtual environment to isolate the tool's dependencies from your system's Python installation. This isolation prevents potential conflicts with other Python applications and ensures consistent operation. After activating the virtual environment, you'll install the required dependencies using the provided requirements file, which automatically configures all necessary libraries and modules for proper tool operation.
 
-### Executing Benchmarks and Interpreting Results
+Tööriist [Bitaxe Hashrate Benchmark](https://github.com/mrv777/Bitaxe-Hashrate-Benchmark/) on keerukas Pythonil põhinev lahendus, mille algselt töötas välja WhiteCookie ja hiljem täiustas mrv777. See avatud lähtekoodiga tööriist, mida levitatakse GPLv3 litsentsi alusel, automatiseerib mitme konfiguratsioonikombinatsiooni testimise keerulise protsessi, et leida optimaalsed seaded teie konkreetse riistvara jaoks. Tööriista peamine tugevus seisneb tema süstemaatilises lähenemisviisis parameetrite testimisele, kohandades järk-järgult sageduse ja pinge seadeid, jälgides samal ajal pidevalt jõudlusnäitajaid ja termilisi tingimusi.
 
-Running the benchmark requires executing a single Python command that includes your Bitaxe's IP address as a parameter. The tool automatically connects to your miner's web interface and begins the systematic testing process. During execution, the tool provides detailed logging information showing the current test iteration, applied voltage and frequency settings, resulting hashrate, input voltage, temperature readings, and thermal data from critical components like the buck converter. This real-time feedback allows you to monitor the benchmarking progress and understand how different settings affect your miner's performance.
 
-The tool's intelligent thermal management becomes evident when temperatures approach the 66-degree Celsius safety threshold. Rather than pushing beyond safe operating limits, the benchmark automatically reduces settings to maintain thermal stability. This conservative approach ensures that the optimization process prioritizes long-term hardware reliability over short-term performance gains. Upon completion, the tool generates comprehensive results in JSON format, ranking the top five configurations for both maximum hashrate and optimal efficiency. These results provide clear guidance for selecting the configuration that best matches your operational priorities, whether focused on maximum output or energy efficiency.
+Võrdlusuuringu läbiviimiseks kulub tavaliselt 30-40 minutit, mille jooksul tööriist testib metoodiliselt erinevaid ASIC sageduse ja pinge seadete kombinatsioone. Tööriist alustab konservatiivsete algseadistustega, alustades tavaliselt 1,15 voltist ja 500 megahertsist, ning seejärel suurendab neid parameetreid järk-järgult, jälgides samal ajal hashrate, temperatuuri ja stabiilsust. Oluline on see, et tööriist seab ohutu töö prioriteediks maksimaalse jõudluse ees, vähendades automaatselt seadistusi, mis põhjustavad liigset soojuse teket või ebastabiilsust. Selline konservatiivne lähenemine tagab, et optimeerimisprotsess ei sea ohtu riistvara pikaealisust ega töökindlust.
 
-The benchmarking tool also offers customization options for advanced users who want to modify the testing parameters. Command-line arguments allow you to specify custom starting voltages and frequencies, enabling more targeted optimization for specific use cases. For instance, if you already know your hardware performs well at higher frequencies, you can start the benchmark at elevated settings rather than beginning from the conservative defaults. This flexibility makes the tool valuable for both novice users seeking automated optimization and experienced miners who want to fine-tune specific performance characteristics.
 
-## Overclock your Bitaxe
+### Paigaldamise ja seadistamise nõuded
+
+
+Bitaxe Hashrate Benchmark'i tööriista rakendamine nõuab teie kohalikus arvutis mitut eeltingimuseks olevat tarkvarakomponenti. Peamised nõuded on Python võrdlusskriptide täitmiseks, Git hoidla haldamiseks ja valikuliselt Visual Studio Code laiendatud arenduskeskkonna võimaluste jaoks. Kuigi tööriista saab kasutada käsurea liidestest, annab integreeritud arenduskeskkonna, näiteks VS Code, kasutamine parema ülevaate võrdlusuuringu protsessist ja tulemuste analüüsist.
+
+
+Paigaldusprotsess järgib Pythoni standardseid arenduspraktikaid, alustades repositooriumi kloonimisega GitHubist oma kohalikku masinasse. Kui repositoorium on alla laaditud, peate looma virtuaalse keskkonna, et isoleerida tööriista sõltuvused teie süsteemi Pythoni paigaldusest. Selline isoleerimine hoiab ära võimalikud konfliktid teiste Pythoni rakendustega ja tagab järjepideva töö. Pärast virtuaalkeskkonna aktiveerimist paigaldate vajalikud sõltuvused, kasutades kaasasolevat nõuete faili, mis konfigureerib automaatselt kõik vajalikud raamatukogud ja moodulid tööriista nõuetekohaseks toimimiseks.
+
+
+### Võrdlusuuringute teostamine ja tulemuste tõlgendamine
+
+
+Võrdlusuuringu käivitamiseks on vaja käivitada üks Python-käsk, mis sisaldab parameetrina teie Bitaxe'i IP-aadressi. Tööriist loob automaatselt ühenduse teie kaevuri veebiliidesega ja alustab süstemaatilist testimisprotsessi. Tööriist annab täitmise ajal üksikasjalikku logiteavet, mis näitab praegust testimise kordust, rakendatud pinge- ja sageduse seadistusi, saadud hashrate, sisendpinget, temperatuuri näitu ja kriitiliste komponentide, näiteks buck-muunduri termilisi andmeid. See reaalajas tagasiside võimaldab teil jälgida võrdlusuuringu edenemist ja mõista, kuidas erinevad seadistused mõjutavad teie kaevuri jõudlust.
+
+
+Tööriista intelligentne soojusjuhtimine ilmneb, kui temperatuur läheneb 66-kraadisele ohutuspiirile. Selle asemel, et ületada ohutuid tööpiire, vähendab võrdlusalus automaatselt seadistusi, et säilitada termiline stabiilsus. See konservatiivne lähenemisviis tagab, et optimeerimisprotsessis seatakse riistvara pikaajaline töökindlus lühiajalise jõudluse kasvu asemel esikohale. Tööriist genereerib pärast lõpetamist põhjalikud tulemused JSON-vormingus, reastades viis parimat konfiguratsiooni nii maksimaalse hashrate kui ka optimaalse tõhususe osas. Need tulemused annavad selgeid juhiseid, et valida konfiguratsioon, mis vastab kõige paremini teie tegevusprioriteetidele, olenemata sellest, kas keskendutakse maksimaalsele võimsusele või energiatõhususele.
+
+
+Võrdlustööriist pakub ka kohandamisvõimalusi edasijõudnud kasutajatele, kes soovivad testimise parameetreid muuta. Käsurea argumendid võimaldavad määrata kohandatud algpinged ja sagedused, mis võimaldab konkreetsete kasutusjuhtumite jaoks sihipärasemat optimeerimist. Näiteks kui te juba teate, et teie riistvara töötab hästi kõrgematel sagedustel, võite võrdlusuuringut alustada konservatiivsete vaikimisi seadistuste asemel kõrgendatud seadistustega. Selline paindlikkus muudab tööriista väärtuslikuks nii automaatset optimeerimist otsivatele algajatele kui ka kogenud kaevuritele, kes soovivad täpsustada konkreetseid jõudlusomadusi.
+
+
+## Bitaxe'i ületaktimine
+
 <chapterId>6b48c0c6-51c3-51a3-b317-850a374ae61e</chapterId>
+
 
 :::video id=46c7a442-cd72-477c-8c91-b2c489ada1e6:::
 
-Overclocking a Bitaxe device requires careful consideration of both hardware limitations and cooling requirements. While many users prefer to underclock their devices for quieter operation, understanding proper overclocking techniques is essential for those seeking maximum performance without damaging their hardware. The process involves increasing the frequency and potentially adjusting voltage settings beyond factory specifications, which inherently increases heat generation and stress on components.
+Bitaxe-seadme ületaktimine nõuab hoolikat arvestamist nii riistvara piirangute kui ka jahutusnõuetega. Kuigi paljud kasutajad eelistavad oma seadmeid vaiksema töö tagamiseks alataktida, on õige ületaktimise tehnika mõistmine oluline neile, kes soovivad maksimaalset jõudlust ilma riistvara kahjustamata. Protsess hõlmab sageduse suurendamist ja võimalikku pinge seadete kohandamist üle tehase spetsifikatsioonide, mis suurendab soojuse teket ja komponentide koormust.
 
-The foundation of successful overclocking lies in adequate cooling infrastructure. Before attempting any frequency modifications, you must ensure your Bitaxe has proper heat dissipation capabilities. A Bitaxe Gamma with a quality heatsink and fan provides the necessary thermal management for safe overclocking. Devices with small heatsinks and inadequate fans should not be overclocked, as poor cooling performance will lead to thermal throttling and potential hardware damage. The relationship between heat and component longevity is critical to understand—excessive heat creates stress that degrades electronic components over time, significantly reducing the operational lifespan of your device.
 
-### Strategic Heatsink Placement
+Eduka ületöötluse aluseks on piisav jahutusinfrastruktuur. Enne sageduse muutmise katsetamist peate tagama, et teie Bitaxe'ile on tagatud nõuetekohane soojuse hajutamise võimekus. Bitaxe Gamma koos kvaliteetse jahutusaluse ja ventilaatoriga tagab ohutu ületaksimise jaoks vajaliku soojusjuhtimise. Väikeste jahutusaluste ja ebapiisavate ventilaatoritega seadmeid ei tohiks üle taktitada, sest kehv jahutusjõudlus põhjustab termilist drosseldamist ja võimalikku riistvara kahjustamist. Soojuse ja komponentide pikaealisuse vahelist seost on oluline mõista - liigne soojus tekitab stressi, mis aja jooksul lagundab elektroonikakomponente, vähendades märkimisväärselt teie seadme kasutusiga.
 
-The most critical component requiring additional cooling is the buck converter, a small black component located on the backside of the Bitaxe near the large coil. This device converts the incoming 5V power supply down to the appropriate voltage for the ASIC chip, typically around 1.2V. The buck converter, often referred to as the TPS, generates significant heat during operation and represents a thermal bottleneck that limits overclocking potential. Installing a small adhesive heatsink on this component not only enables higher overclocking headroom but also improves overall efficiency by reducing thermal losses.
 
-Additional heatsink placement can benefit other high-current areas of the board. The voltage regulation circuitry experiences substantial electrical stress as power flows from the input section down through various board traces to supply the ASIC chip. Many experienced overclockers install heatsinks on the front of the Bitaxe in these high-current areas to further improve thermal dissipation. While not strictly necessary for moderate overclocking, these additional cooling measures become important when pushing frequencies to extreme levels.
+### Strateegiline jahutusradade paigutus
 
-### Cooling System Considerations and Limitations
 
-The ESP32 controller, visible as the silvery component on the board, typically does not require additional cooling. This component generates minimal heat independently and only becomes warm due to thermal transfer from surrounding components. Installing heatsinks near the ESP32 can potentially interfere with the adjacent Wi-Fi antenna, degrading wireless connectivity and signal quality. Focus cooling efforts on the power regulation components and ASIC area rather than the control circuitry.
+Kõige kriitilisem komponent, mis vajab täiendavat jahutust, on buck converter, väike must komponent, mis asub Bitaxe'i tagaküljel suure mähise lähedal. See seade muundab sissetuleva 5 V toiteallika ASIC kiibi jaoks sobivaks pingeks, tavaliselt umbes 1,2 V. Buck-muundur, mida sageli nimetatakse TPS-iks, tekitab töö ajal märkimisväärset soojust ja kujutab endast termilist kitsaskohta, mis piirab ületaktimisvõimalusi. Väikese kleepuva jahutusaluse paigaldamine sellele komponendile ei võimalda mitte ainult suuremat ületaktimisruumi, vaid parandab ka üldist tõhusust, vähendades soojuskaotusi.
 
-Dual fan configurations present both opportunities and limitations. While adding a second fan to blow air across the back of the Bitaxe can improve cooling performance, the device's firmware can only control one fan properly. The Bitaxe has two fan headers but only one fan controller, meaning that connecting two fans will confuse the firmware as it receives conflicting RPM signals. This configuration will function but may result in unpredictable fan control behavior.
 
-### Baseline Performance Assessment
+Täiendav jahutusplaadi paigutus võib olla kasulik ka muudele suure voolutugevusega aladele plaadil. Pinge reguleerimise vooluahelat koormab oluliselt, kuna vool voolab sisendosast läbi mitmesuguste plaadi jälgede alla, et varustada ASIC kiipi. Paljud kogenud ülitaktimootorid paigaldavad Bitaxe'i esiküljele nendesse suure voolutugevusega piirkondadesse jahutusradade täiendavaks parandamiseks jahutusradasid. Kuigi need täiendavad jahutusmeetmed ei ole mõõduka ületöötluse puhul tingimata vajalikud, muutuvad nad oluliseks, kui sagedused on ekstreemselt kõrged.
 
-Before attempting any overclocking modifications, establish baseline performance metrics by running your Bitaxe at stock settings for several hours. Monitor the ASIC temperature, voltage regulator temperature, and fan speed percentage through the web interface. Optimal operating temperatures should maintain the ASIC below 60°C and the voltage regulator below 60°C under normal conditions. If your device already operates above 65°C on the ASIC or 70-80°C on the voltage regulator at stock settings, additional cooling hardware is mandatory before proceeding with overclocking.
 
-The systematic approach to frequency increases involves incremental steps using the predefined frequency options in the settings menu. Begin by selecting the next available frequency step above your current setting while maintaining the default core voltage. This conservative approach allows you to evaluate thermal and stability impacts before making additional changes. Allow the device to operate at each new frequency setting for at least 30 minutes to one hour, monitoring temperature trends and hash rate stability throughout the evaluation period.
+### Jahutussüsteemi kaalutlused ja piirangud
 
-### Advanced Custom Configuration
 
-Access to custom frequency and voltage settings requires enabling the advanced overclocking interface by appending "?OC" to the device's web interface URL. This unlocks manual input fields for precise frequency and voltage control, accompanied by appropriate warnings about the risks of operating outside designed parameters. The custom interface enables fine-tuning beyond the standard frequency steps, allowing experienced users to optimize performance for their specific cooling configurations.
+ESP32 kontroller, mis on plaadil nähtav hõbedase komponendina, ei vaja tavaliselt täiendavat jahutust. See komponent toodab iseseisvalt minimaalselt soojust ja soojeneb ainult ümbritsevate komponentide soojusülekande tõttu. Kui ESP32 lähedale paigaldatakse jahutusradiaatorid, võib see häirida kõrval asuvat Wi-Fi antenni, mis halvendab traadita ühendust ja signaali kvaliteeti. Keskenduge jahutamisel pigem voolureguleerimise komponentidele ja ASIC piirkonnale kui juhtimisahelale.
 
-When using custom settings, maintain conservative increment sizes of 10-15 MHz per adjustment step. This methodical approach prevents sudden thermal spikes and allows for proper stability testing at each frequency level. Some advanced users achieve frequencies around 700 MHz with core voltages adjusted to 1.175V or similar values, but these extreme settings require extensive cooling modifications and careful monitoring. The voltage regulator can operate at temperatures up to 100°C without immediate damage, but higher temperatures reduce efficiency and long-term reliability. Successful overclocking requires patience, systematic testing, and continuous monitoring to achieve stable performance improvements while preserving hardware integrity.
 
-# Final Section
+Kahe ventilaatori konfiguratsioonid pakuvad nii võimalusi kui ka piiranguid. Kuigi teise ventilaatori lisamine õhu puhumiseks üle Bitaxe'i tagakülje võib parandada jahutustõhusust, saab seadme püsivara juhtida ainult ühte ventilaatorit korralikult. Bitaxe'il on kaks ventilaatorite päistikku, kuid ainult üks ventilaatorite kontroller, mis tähendab, et kahe ventilaatori ühendamine ajab püsivara segadusse, kuna see saab vastuolulisi pöörlemissignaale. Selline konfiguratsioon toimib, kuid võib põhjustada ventilaatorite kontrollimisel ettearvamatut käitumist.
+
+
+### Põhitegevuse hindamine
+
+
+Enne ületaktimise muutmise katsetamist määrake baasnäitajad, käivitades oma Bitaxe'i mitu tundi algseadistustel. Jälgige ASIC temperatuuri, pingeregulaatori temperatuuri ja ventilaatori kiiruse protsenti veebiliidese kaudu. Optimaalne töötemperatuur peaks hoidma ASIC temperatuuril alla 60 °C ja pingeregulaatori temperatuuril alla 60 °C tavatingimustes. Kui teie seade töötab juba üle 65 °C ASIC puhul või 70-80 °C pingeregulaatori puhul algseadete juures, on enne ületaktimise jätkamist kohustuslik täiendav jahutusriistvara.
+
+
+Sageduse süstemaatiline suurendamine hõlmab astmelisi samme, kasutades seadete menüüs eelnevalt määratud sageduse valikuid. Alustage, valides järgmise võimaliku sageduse sammu, mis on suurem kui teie praegune seadistus, säilitades samal ajal vaikimisi tuumapinge. See konservatiivne lähenemisviis võimaldab teil enne täiendavate muudatuste tegemist hinnata termilist ja stabiilsuse mõju. Laske seadmel töötada iga uue sageduse seadistuse juures vähemalt 30 minutit kuni üks tund, jälgides kogu hindamisperioodi jooksul temperatuuri suundumusi ja hash-kiiruse stabiilsust.
+
+
+### Täiustatud kohandatud konfiguratsioon
+
+
+Juurdepääs kohandatud sageduse ja pinge seadetele eeldab täiustatud ületaktimisliidese lubamist, lisades seadme veebiliidese URL-ile "?OC". See avab käsitsi sisestatavad väljad täpseks sageduse ja pinge kontrollimiseks, millele on lisatud asjakohased hoiatused ettenähtud parameetrite ületamise ohtude kohta. Kohandatud kasutajaliides võimaldab peenhäälestust, mis ulatub kaugemale standardsetest sagedussammudest, võimaldades kogenud kasutajatel optimeerida jõudlust oma konkreetsete jahutuskonfiguratsioonide jaoks.
+
+
+Kohandatud seadete kasutamisel säilitage konservatiivne sammu suurus 10-15 MHz ühe reguleerimisastme kohta. Selline metoodiline lähenemine hoiab ära järsud soojuspiigid ja võimaldab nõuetekohast stabiilsuse testimist igal sagedustasemel. Mõned edasijõudnud kasutajad saavutavad sagedusi umbes 700 MHz, kui südamiku pinge on reguleeritud 1,175 V-ni või sarnaste väärtustega, kuid need äärmuslikud seadistused nõuavad ulatuslikke jahutusmuudatusi ja hoolikat jälgimist. Pingeregulaator võib töötada temperatuuril kuni 100 °C ilma kohese kahjustuseta, kuid kõrgemad temperatuurid vähendavad tõhusust ja pikaajalist töökindlust. Edukas ületaktimine nõuab kannatlikkust, süstemaatilist testimist ja pidevat jälgimist, et saavutada stabiilne jõudluse paranemine, säilitades samal ajal riistvara terviklikkuse.
+
+
+# Lõplik osa
+
 <partId>33367393-17a7-58d4-8359-79fffc6221fb</partId>
 
-## Evaluate this course
+
+## Hinnake seda kursust
+
 <chapterId>785f8b92-c8a6-5a65-aa39-e9753a7edf51</chapterId>
+
 <isCourseReview>true</isCourseReview>
 
-## Conclusion
+## Kokkuvõte
+
 <chapterId>758baee6-2404-56fb-b534-6a39e441ae29</chapterId>
+
 <isCourseConclusion>true</isCourseConclusion>

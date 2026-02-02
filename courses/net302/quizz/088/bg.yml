@@ -1,0 +1,9 @@
+question: Коя команда на Linux показва активната таблица за маршрутизация на мрежата?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping маршрут
+  - netstat -s
+explanation: |
+  ip route show показва списъка с маршрутите, известни на ядрото, и пътищата, по които преминават IP пакетите.
+reviewed: false

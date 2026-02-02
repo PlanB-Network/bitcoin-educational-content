@@ -1,0 +1,8 @@
+question: Mitä tapahtuu verkon kokoonpanolle Liquid:n dynaamisen federaation (Dynafed) siirtymisprosessin aikana, kun toimihenkilö on vaihdettava?
+answer: Verkko lähettää siirtymävaiheen tapahtuman, jota seuraa kahden viikon päällekkäisjakso, ennen kuin uusi kokoonpano otetaan käyttöön
+wrong_answers:
+  - Verkko siirtyy välittömästi uuteen toiminnalliseen konfiguraatioon sen jälkeen, kun siirtotapahtuma on lähetetty
+  - Kaikkien toimihenkilöiden on samanaikaisesti äänestettävä korvaamisen hyväksymisestä, ennen kuin kokoonpanomuutoksia tehdään
+  - Verkko vaatii kovan fork:n ja tilapäisen sammutuksen toimintaluettelon päivittämiseksi ja toiminnan käynnistämiseksi uudelleen
+explanation: |
+  Dynaaminen federaatio mahdollistaa Liquid:n kehittymisen ilman vaikeita haarautumia huolellisesti suunnitellun siirtymäprosessin avulla. Kun toimintojen korvaaminen on tarpeen, verkko lähettää siirtymätapahtuman, joka ilmoittaa tulevasta muutoksesta. Tätä seuraa pakollinen kahden viikon päällekkäisjakso, jolloin sekä vanha että uusi kokoonpano ovat rinnakkain, mikä takaa saumattoman jatkuvuuden. Muut vaihtoehdot ovat virheellisiä, koska välitön vaihto vaarantaisi verkon epävakauden, samanaikainen äänestys ei ole käytetty mekanismi, ja Dynafedin tarkoituksena oli nimenomaan välttää kovia haarautumia.

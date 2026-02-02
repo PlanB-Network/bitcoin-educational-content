@@ -66,7 +66,7 @@ stellen Sie sicher, dass Sie eine geeignete Nodejs-Version installiert haben. Ab
 
 ⚠️ Ubuntu 22.04 Repository nodejs Version ist 12.22.9: zu alt, um pnpm installieren zu können
 
-Um nodejs zu installieren, finden Sie Anweisungen [hier] (https://nodejs.org/en/download/package-manager); Sie können zum Beispiel die Installationsmethode `nvm` verwenden.
+Um nodejs zu installieren, finden Sie Anweisungen [hier](https://nodejs.org/en/download/package-manager); Sie können zum Beispiel die Installationsmethode `nvm` verwenden.
 
 ---
 Bevor Sie mit der pnpm-Installationsphase der notwendigen Pakete beginnen, sollten Sie sicherstellen, dass alle Abhängigkeiten installiert sind. Dies können Sie erreichen, indem Sie den folgenden Befehl ausführen:

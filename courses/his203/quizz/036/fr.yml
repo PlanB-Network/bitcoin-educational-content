@@ -1,0 +1,9 @@
+question: En quoi consiste le « pool hopping » pour un mineur délégant son taux de hachage à une coopérative ?
+answer: Se déconnecter d'une coopérative une fois un certain nombre de parts soumises lors d'un cycle et rediriger la puissance de calcul à son propre compte ou vers une autre coopérative
+wrong_answers:
+  - Adopter un protocole de communication coûteux en bande passante pour interagir avec les coopératives afin de réduire les parts obsolètes en fluidifiant les annonces des nouveaux blocs
+  - Réaliser plusieurs transactions fictives au sein de la coopérative pour simuler un transfert de propriété des bitcoins et accroitre la confidentialité des mineurs délégués
+  - Écrire le nom de la coopérative dans le champ d'entrée de la transaction de récompense du bloc miné, pour rendre le fonctionnement des coopératives plus transparent
+explanation: |
+ Cette méthode a été décrite par Raulo en février 2011, qui estimait qu'un individu pouvait obtenir 28 % de bitcoins en plus de cette manière. Elle a motivé l'instauration d'un score « anti-tricherie » au sein de la coopérative de Slush.
+reviewed: false

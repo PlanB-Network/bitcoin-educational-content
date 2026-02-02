@@ -6,3 +6,4 @@ wrong_answers:
   - Bigger blocks create more transaction conflicts between competing blocks, making it harder to determine which block should be accepted
 explanation: |
   The correct answer identifies the core mechanism behind stale blocks. When blocks are larger, they require more bandwidth to transfer between nodes and more time to validate. During this extended propagation period, multiple miners may find competing blocks at the same height since they haven't yet received the latest block. This creates a race condition where only one block can ultimately be accepted, making the others stale. The wrong answers confuse this propagation issue with mining difficulty, consensus mechanisms, or transaction conflicts, which are separate concerns from the timing problem that causes stale blocks.
+reviewed: false

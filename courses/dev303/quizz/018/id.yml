@@ -1,0 +1,8 @@
+question: Mekanisme apa yang digunakan Rust untuk secara otomatis membersihkan variabel dan sumber dayanya ketika variabel tersebut berada di luar cakupan?
+answer: Mekanisme penurunan yang memanggil fungsi penurunan pada variabel
+wrong_answers:
+  - Pengumpul sampah yang secara berkala memindai memori yang tidak digunakan
+  - Dealokasi memori secara manual melalui pemanggilan fungsi free() secara eksplisit
+  - Penghitungan referensi yang melacak berapa banyak pointer yang mereferensikan setiap nilai
+explanation: |
+  Rust menggunakan mekanisme drop untuk secara otomatis membersihkan sumber daya ketika variabel keluar dari ruang lingkup. Sistem ini secara implisit memanggil fungsi drop pada setiap variabel ketika variabel tersebut keluar dari cakupan, menandai memori yang tersedia untuk digunakan kembali dan melakukan operasi pembersihan yang diperlukan seperti menutup pegangan file. Pendekatan ini, yang dipinjam dari pola RAII C++, memastikan manajemen sumber daya otomatis tanpa memerlukan pengumpulan sampah, manajemen memori manual, atau sistem penghitungan referensi yang digunakan oleh bahasa lain.

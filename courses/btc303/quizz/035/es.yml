@@ -1,0 +1,9 @@
+question: ¿Cuál es la fórmula matemática de probabilidad para que un minero deshonesto con una tasa de hash del x por ciento ejecute con éxito el francotirador de tasas re-mining el bloque anterior más un nuevo bloque?
+answer: (x/(1-x))^2
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x/(1-x)^2
+explanation: |
+  La fórmula correcta es (x/(1-x))^2 porque el francotirador de tasas requiere que un minero mine con éxito dos bloques consecutivos para reemplazar el bloque anterior más extender la cadena. La probabilidad de mining de un bloque contra mineros honestos es x/(1-x), y como hay que minar dos bloques consecutivos, esta probabilidad se eleva al cuadrado. Las otras fórmulas son matemáticamente plausibles, pero representan diferentes escenarios de probabilidad que no se ajustan a los requisitos específicos del francotirador de tasas, en el que el minero deshonesto debe superar a la red honesta dos veces seguidas.
+reviewed: false

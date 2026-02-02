@@ -24,11 +24,11 @@ Hasilnya adalah **Debifi**, sebuah platform yang memposisikan dirinya sebagai al
 
 
 
-Debifi adalah platform pinjaman yang didukung oleh Bitcoin tanpa kustodian, yang berarti Anda tetap memegang kendali atas kunci pribadi Anda. Hal ini memungkinkan pengguna untuk membuka likuiditas di Exchange untuk bitcoin mereka yang terkunci sebagai jaminan. Tidak seperti pinjaman bank tradisional, Debifi menggunakan sistem escrow multi-tanda tangan (3 dari 4) dan tidak menerima penggadaian agunan, menjamin keamanan dan transparansi yang lebih besar.
+Debifi adalah platform pinjaman yang didukung oleh Bitcoin tanpa kustodian, yang berarti Anda tetap memegang kendali atas kunci pribadi Anda. Hal ini memungkinkan pengguna untuk membuka likuiditas dengan imbalan bitcoin mereka yang terkunci sebagai jaminan. Tidak seperti pinjaman bank tradisional, Debifi menggunakan sistem escrow multi-tanda tangan (3 dari 4) dan tidak menerima rehypothecation agunan, menjamin keamanan dan transparansi yang lebih besar.
 
 
 
-Dalam praktiknya, ini berarti baik Debifi maupun pemberi pinjaman perorangan tidak dapat membelanjakan BTC Anda tanpa persetujuan tiga pihak (Anda, pemberi pinjaman, dan pihak ketiga yang tepercaya). Hal ini membuat sistem menjadi lebih aman: jika Anda meminjam di Debifi, Anda akan tetap memiliki Ownership dari Bitcoin Anda hingga pinjaman Anda dilunasi sepenuhnya.
+Dalam praktiknya, ini berarti baik Debifi maupun pemberi pinjaman perorangan tidak dapat membelanjakan BTC Anda tanpa persetujuan tiga pihak (Anda, pemberi pinjaman, dan pihak ketiga yang tepercaya). Hal ini membuat sistem menjadi lebih aman: jika Anda meminjam di Debifi, Anda tetap memiliki Bitcoin Anda sampai pinjaman Anda dilunasi sepenuhnya.
 
 
 
@@ -36,22 +36,21 @@ Dalam praktiknya, ini berarti baik Debifi maupun pemberi pinjaman perorangan tid
 
 
 
-Dengan Debifi, Anda akan mendapatkan pinjaman yang dijaminkan, keamanan Blockchain (multisignature, 2FA), pilihan stablecoin/cairan, kerahasiaan, dan kontrol total Bitcoin. Debifi "memungkinkan Anda menyimpan uang Anda" (kunci Anda, koin Anda), sambil menawarkan suku bunga yang kompetitif dan akses global ke pinjaman yang didukung BTC.
+Dengan Debifi, Anda mendapatkan pinjaman yang didukung Bitcoin yang dijamin dengan jaminan lebih dan on-chain yang aman. Dana Anda tetap aman dengan dompet multisignature, 2FA, dan kontrol penuh atas Bitcoin Anda - Anda memegang kunci, Anda menyimpan koin Anda. Pinjam dalam berbagai pilihan stablecoin atau fiat, dengan suku bunga kompetitif, dan likuiditas global.
 
 
 
 Berikut adalah perbandingan singkat antara pinjaman Debifi dan pinjaman bank tradisional:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Sebelum saya menunjukkan kepada Anda langkah demi langkah cara meminjam di Debifi, ada beberapa hal yang perlu Anda ketahui.
 
@@ -70,19 +69,19 @@ Sebelum saya menunjukkan kepada Anda langkah demi langkah cara meminjam di Debif
 
 
 
-- Agunan** adalah aset yang Anda setorkan untuk mengamankan pinjaman. Dalam kasus Debifi, agunannya adalah Bitcoin (BTC), yang disetorkan oleh peminjam ke escrow Multisig 3/4.
+- Agunan** adalah aset yang Anda setorkan untuk mengamankan pinjaman. Dalam kasus Debifi, agunannya adalah Bitcoin (BTC), yang disetorkan peminjam ke escrow Multisig 3/4.
 
 
 
 
 
-- Sistem escrow Multisig (3/4)** adalah sebuah mekanisme penyimpanan yang aman di mana bitcoin peminjam ditempatkan di dalam Address multi-tanda tangan. Secara khusus, empat (4) pihak masing-masing memegang kunci (peminjam, pemberi pinjaman, Debifi, pihak ketiga yang independen). Untuk memindahkan dana, setidaknya dibutuhkan 3 dari 4 tanda tangan.
+- Sistem Multisig escrow (3/4)** adalah sebuah mekanisme penyimpanan yang aman di mana bitcoin peminjam ditempatkan di sebuah alamat multi-tanda tangan. Secara khusus, empat (4) pihak masing-masing memegang kunci (peminjam, pemberi pinjaman, Debifi, pihak ketiga yang independen). Untuk memindahkan dana, setidaknya dibutuhkan 3 dari 4 tanda tangan.
 
 
 
 
 
-- Stablecoin** adalah mata uang kripto yang nilainya dipatok ke aset stabil (misalnya dolar AS), yang menghindari volatilitas Bitcoin. Sebagai contoh, 1 USDC selalu bernilai ~$1, karena didukung oleh cadangan fiat.
+- Stablecoin** adalah mata uang kripto yang nilainya dipatok pada aset stabil (misalnya dolar AS), yang menghindari volatilitas Bitcoin. Sebagai contoh, 1 USDC selalu bernilai ~$1, karena didukung oleh cadangan fiat.
 
 
 
@@ -118,17 +117,11 @@ Sebelum Anda dapat meminjam dari Debifi, pastikan Anda memiliki hal-hal berikut 
 
 
 
-- Bitcoin Wallet: tempat Anda menyimpan BTC Anda (idealnya non-kustodian, misalnya Hardware Wallet atau Wallet seluler tepercaya). Dari Wallet inilah Anda akan mengirim jaminan Bitcoin ke Debifi dan menerima dana.
+- Bitcoin wallet: tempat Anda menyimpan BTC Anda (idealnya non-kustodian, misalnya Hardware Wallet atau wallet seluler tepercaya). Dari wallet inilah Anda akan mengirimkan jaminan Bitcoin ke Debifi dan menerima jaminan kembali.
 
 
 
-
-
-- Stablecoin atau fiat: Debifi meminjamkan stablecoin dan beberapa mata uang fiat. Stablecoin utama yang digunakan adalah USDT dan USDC.
-
-
-
-Anda dapat menggunakan Aqua, Bitcoin dan Liquid Wallet yang juga mendukung manajemen stablecoin USDT di berbagai jaringan. Atau COLDCARD (Mk4 atau Q), yang saat ini merupakan satu-satunya perangkat keras yang didukung oleh Debifi.
+Anda dapat menggunakan Aqua, Bitcoin dan Liquid wallet yang juga mendukung manajemen stablecoin USDT di berbagai jaringan. Atau COLDCARD (Mk4 atau Q), yang saat ini merupakan satu-satunya perangkat keras yang didukung oleh Debifi.
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Aplikasi otentikasi dua faktor: Debifi membutuhkan kode Authenticator untuk setiap tindakan penting. Ini merupakan keamanan ekstra Layer. Dalam tutorial ini, kita akan menggunakan Google Authenticator. Sebagai alternatif, Anda bisa menggunakan yang lain sesuai keinginan Anda.
+- Aplikasi otentikasi dua faktor: Debifi membutuhkan kode Authenticator untuk setiap tindakan penting. Ini adalah lapisan keamanan ekstra. Dalam tutorial ini, kita akan menggunakan Google Authenticator. Sebagai alternatif, Anda bisa menggunakan yang lain sesuai keinginan Anda.
 
 
 
@@ -158,7 +151,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Situs web dan aplikasi seluler Debifi: Debifi merupakan situs web dan aplikasi seluler, dan keduanya bekerja bersama-sama. Aplikasi seluler menjadi Wallet, yang menyimpan kunci pribadi Anda, dan mengelola penandatanganan kontrak. Selain itu, Anda perlu menggunakan situs web untuk melakukan kontrak (Interface yang besar memberi Anda pandangan umum tentang kontrak pinjaman dan spesifikasinya).
+- Situs web dan aplikasi seluler Debifi: Debifi merupakan situs web dan aplikasi seluler, dan keduanya bekerja bersama-sama. Aplikasi seluler menjadi wallet, yang menyimpan kunci pribadi Anda, dan mengelola penandatanganan kontrak. Selain itu, Anda perlu menggunakan situs web untuk melakukan kontrak (Interface yang besar memberi Anda pandangan umum tentang kontrak pinjaman dan spesifikasinya).
 
 
 
@@ -200,7 +193,7 @@ Setelah berada dalam aplikasi, klik menu **Settings**.
 
 
 
-Kemudian klik **Login atau buat akun** untuk membuat akun dengan email Anda Address.
+Kemudian klik **Login atau buat akun** untuk membuat akun dengan alamat email Anda.
 
 
 
@@ -360,7 +353,7 @@ Tahap pinjaman Bitcoin umumnya terdiri dari tiga (3) tahap:
 
 
 
-- Konservatif (20% - 40% LTV), yang sesuai dengan pinjaman berisiko rendah, sangat ideal untuk memaksimalkan keamanan terhadap volatilitas harga Bitcoin;
+- Konservatif (30% - 40% LTV), yang sesuai dengan pinjaman berisiko rendah, sangat ideal untuk memaksimalkan keamanan terhadap volatilitas harga Bitcoin;
 
 
 
@@ -372,7 +365,7 @@ Tahap pinjaman Bitcoin umumnya terdiri dari tiga (3) tahap:
 
 
 
-- Agresif (70% - 85% LTV), yang menawarkan likuiditas yang lebih besar, tetapi memiliki risiko likuidasi yang sangat tinggi saat terjadi penurunan pasar. Pemantauan aktif terhadap kondisi pasar Bitcoin adalah suatu keharusan ketika memilih tahapan ini.
+- Agresif (LTV 70%), yang menawarkan likuiditas yang lebih besar, tetapi memiliki risiko likuidasi yang sangat tinggi saat terjadi penurunan pasar. Pemantauan aktif terhadap kondisi pasar Bitcoin adalah suatu keharusan ketika memilih tahapan ini.
 
 
 
@@ -388,7 +381,7 @@ Penetapan suku bunga umumnya bergantung pada LTV yang Anda pilih, jangka waktu p
 
 
 
-Jadwal pembayaran pinjaman biasanya fleksibel dan disesuaikan dengan kebutuhan pengguna. Pembayaran dapat dilakukan kapan saja selama persyaratan agunan terpenuhi. Pembayaran pinjaman umumnya berupa bunga selama jangka waktu pinjaman, dengan pokok pinjaman yang harus dibayarkan pada saat jatuh tempo.
+Jadwal pembayaran kembali yang fleksibel dan dirancang untuk mengakomodasi kebutuhan peminjam. Pinjaman dapat dilunasi seluruhnya atau sebagian setiap saat tanpa biaya tambahan, dengan syarat agunan tetap terpenuhi. Selama jangka waktu pinjaman, bunga biasanya dibayarkan secara berkala, sedangkan pokok pinjaman dilunasi pada saat jatuh tempo.
 
 
 
@@ -396,7 +389,16 @@ Jadwal pembayaran pinjaman biasanya fleksibel dan disesuaikan dengan kebutuhan p
 
 
 
-Karena harga Bitcoin bersifat fluktuatif, pinjaman yang bertanggung jawab menyertakan kebijakan margin call khusus dalam perjanjian. Kebijakan ini memungkinkan peminjam untuk diberitahu untuk memberikan jaminan tambahan, atau membayar sebagian dari pinjaman.
+Mengingat volatilitas Bitcoin, pinjaman mencakup kebijakan margin call yang jelas. Margin call terjadi ketika LTV naik karena penurunan nilai agunan. Debifi memberi tahu peminjam melalui email dan melalui aplikasi, sehingga mereka dapat menambahkan agunan atau melunasi sebagian pinjaman.
+
+
+75% LTV - Peringatan pertama
+
+lTV 80% - Peringatan kedua
+
+85% LTV - Peringatan terakhir
+
+lTV 90% - Agunan dilikuidasi
 
 
 
@@ -430,10 +432,10 @@ Anda dapat melihat :
 5. KYC diperlukan untuk penawaran ini;
 
 
-6. Jumlah yang tepat yang Anda butuhkan harus dimasukkan (jumlah ini harus berada di dalam band, lihat 2);
+6. Jumlah persis yang Anda butuhkan harus dimasukkan (jumlah ini harus berada di dalam band, lihat 2);
 
 
-7. Ethereum USDC Address yang akan digunakan untuk menerima dana harus dimasukkan.
+7. Alamat Ethereum USDC yang akan digunakan untuk menerima dana harus dimasukkan.
 
 
 
@@ -453,7 +455,7 @@ Kembali ke aplikasi seluler untuk ''**Sediakan kunci publik**''.
 
 
 
-Tekan '' **Sediakan kunci publik**'', lalu pilih sumber kunci publik. Pemberi pinjaman juga harus memberikan kunci publik.
+Tekan '' **Sediakan kunci publik** '', lalu pilih sumber kunci publik. Pemberi pinjaman juga perlu memberikan kunci publik.
 
 
 
@@ -473,7 +475,7 @@ Tekan '' **Sediakan kunci publik**'', lalu pilih sumber kunci publik. Pemberi pi
 
 
 
-Langkah berikutnya adalah menandatangani Contract. Masih dalam aplikasi seluler, tekan '' **Tandatangani Contract** ''
+Langkah selanjutnya adalah menandatangani kontrak. Masih dalam aplikasi seluler, tekan '' **Tanda Tangan Contract** ''
 
 
 
@@ -485,7 +487,7 @@ Langkah berikutnya adalah menandatangani Contract. Masih dalam aplikasi seluler,
 
 
 
-Ketika Anda selesai menandatangani Contract, Debifi secara otomatis membuat Bitcoin Address (escrow 3-sur-4) multi-tanda tangan yang unik untuk Contract Anda. Selama bitcoin Anda berada di dalam escrow, bitcoin tersebut tidak dapat digunakan di tempat lain.
+Ketika Anda selesai menandatangani kontrak, Debifi secara otomatis membuat alamat Bitcoin multi-tanda tangan yang unik (escrow 3-sur-4) untuk kontrak Anda. Selama bitcoin Anda berada di dalam escrow, bitcoin tersebut tidak dapat digunakan di tempat lain.
 
 
 
@@ -493,7 +495,7 @@ Ketika Anda selesai menandatangani Contract, Debifi secara otomatis membuat Bitc
 
 
 
-Langkah terakhir adalah menyetorkan jaminan Bitcoin Anda ke dalam sistem eskro multi-tanda tangan. Debifi kemudian menunjukkan kepada Anda eskro Address (B) dan jumlah BTC (A) yang akan dikirim sebagai (jaminan + komisi).
+Langkah terakhir adalah menyetorkan jaminan Bitcoin Anda ke dalam sistem eskro multi-tanda tangan. Debifi menunjukkan kepada Anda alamat eskro (B) dan jumlah BTC (A) yang akan dikirim sebagai (jaminan + komisi).
 
 
 
@@ -509,7 +511,7 @@ Anda juga akan menerima notifikasi ini di aplikasi seluler Anda.
 
 
 
-Segera setelah deposit Anda dikonfirmasi, pemberi pinjaman akan membayarkan jumlah pinjaman kepada penerima Address yang telah Anda tunjukkan, menyelesaikan transaksi dan memberi Anda akses ke dana yang Anda butuhkan.
+Segera setelah deposit Anda dikonfirmasi, pemberi pinjaman akan membayarkan jumlah pinjaman ke alamat penerima yang telah Anda sebutkan, menyelesaikan transaksi dan memberi Anda akses ke dana yang Anda butuhkan.
 
 
 
@@ -517,7 +519,7 @@ Anda kemudian akan menerima notifikasi dari Debifi yang meminta Anda untuk memba
 
 
 
-Pada kenyataannya, setelah Contract dibuat, biaya pinjaman secara otomatis dipotong dari agunan yang dititipkan oleh peminjam di escrow multi-tanda tangan Address.
+Pada kenyataannya, setelah kontrak dibuat, biaya pinjaman secara otomatis dipotong dari agunan yang dititipkan oleh peminjam di alamat penampungan multi-tanda tangan.
 
 
 
@@ -529,7 +531,7 @@ Anda hanya perlu menandatangani transaksi yang memungkinkan Debifi untuk memoton
 
 
 
-Biaya pinjaman yang berlaku adalah 1,5-2%, tergantung pada jangka waktu Contract. Platform ini hanya membebankan komisi pada Bitcoin.
+Biaya pinjaman yang berlaku adalah 1,5-2%, tergantung pada jangka waktu kontrak. Platform ini hanya membebankan komisi dalam Bitcoin.
 
 
 
@@ -537,29 +539,27 @@ Biaya pinjaman yang berlaku adalah 1,5-2%, tergantung pada jangka waktu Contract
 
 
 
-Setelah pinjaman berjalan, Debifi memungkinkan Anda untuk memantau Contract Anda secara real time. Di Interface, Anda akan melihat:
-
-
+Setelah pinjaman aktif, Debifi memungkinkan Anda untuk melacak kontrak Anda secara real time. Di antarmuka, Anda akan menemukan:
 
 
 
 - Jumlah yang dipinjam dan sisa jangka waktu.
-- Rasio LTV (Loan-to-Value) saat ini: LTV meningkat jika harga BTC turun (karena agunan Anda bernilai lebih rendah). Ambang batas peringatan (umumnya 90%) ditetapkan. Jika LTV Anda melebihi ambang batas ini, ada risiko likuidasi paksa. Debifi kemudian akan memberi Anda waktu 24 jam untuk bereaksi.
-
-
-
-Peminjam akan diberitahu mengenai penurunan harga tersebut. Informasi ini juga akan tersedia di halaman ringkasan Contract. Untuk mengembalikan rasio pinjaman terhadap nilai pinjaman yang asli, peminjam harus :
+- Rasio LTV (Loan-to-Value) saat ini, yang naik ketika harga BTC turun dan nilai agunan Anda turun.
 
 
 
 
+Peminjam akan diberitahu ketika nilai agunan berkurang, dan informasi ini juga ditampilkan pada halaman ringkasan kontrak. Untuk mengembalikan rasio pinjaman terhadap nilai awal, peminjam harus
 
-- atau menyetorkan jaminan tambahan;
+
+
+- menyetorkan jaminan tambahan;
 - melunasi seluruh atau sebagian utang.
 
 
 
-Jika terjadi kenaikan harga agunan, peminjam tetap memiliki keuntungan modal atas agunan tersebut. Dia hanya berhutang sejumlah pinjaman, yang telah ditentukan sebelumnya dan tidak tergantung pada harga Bitcoin.
+
+Jika terjadi kenaikan harga agunan, peminjam akan mendapatkan keuntungan dari agunan tersebut. Dia hanya berhutang sejumlah pinjaman, yang telah ditentukan sebelumnya dan tidak tergantung pada harga Bitcoin.
 
 
 
@@ -577,21 +577,21 @@ Di Debifi :
 
 
 
-- Buka Contract Anda dan klik **Lakukan pembayaran**. Masukkan jumlah total yang harus dibayar (pokok + bunga).
+- Buka kontrak Anda dan klik **Lakukan pembayaran**. Masukkan jumlah total yang harus dibayarkan (pokok + bunga).
 
 
 
 
 
-- Kirimkan stablecoin dari Wallet Anda ke Address pemberi pinjaman yang ditunjukkan, dan kembali untuk mengonfirmasi pelunasan di platform dengan menyalin **ID** transaksi pelunasan ke tab khusus. Hal ini memudahkan Debifi untuk melakukan pemeriksaan.
+- Kirimkan stablecoin dari wallet Anda ke alamat pemberi pinjaman yang tertera, dan kembali untuk mengonfirmasi pelunasan di platform dengan menyalin **ID** transaksi pelunasan ke tab khusus. Hal ini memudahkan Debifi untuk melakukan pemeriksaan.
 
 
 
-Setelah pembayaran dikonfirmasi oleh pemberi pinjaman (dan oleh Anda), Debifi akan meminta Anda untuk melakukan **pengembalian dana**. Jaminan Bitcoin Anda akan dilepaskan dan Anda dapat mengembalikannya dari eskro ke portofolio Anda sendiri.  Jangan lupa untuk mengumpulkan semua Bitcoin Anda.
+Setelah pembayaran dikonfirmasi oleh pemberi pinjaman (dan oleh Anda), Debifi akan meminta Anda untuk melakukan **pengembalian dana**. Jaminan Bitcoin Anda akan dilepaskan dan Anda bisa mengembalikannya dari escrow ke wallet Anda.  Jangan lupa untuk mengumpulkan semua Bitcoin Anda.
 
 
 
-Segera setelah Anda menerima bitcoin Anda, pinjaman Contract berubah menjadi **Contract selesai**.
+Segera setelah Anda menerima bitcoin Anda, kontrak pinjaman berubah menjadi **Contract selesai**.
 
 
 
@@ -604,7 +604,7 @@ Selamat! Anda telah menyelesaikan prosesnya.
 
 
 
-Apa pun tujuan atau motivasi Anda - membiayai proyek, membeli properti, membeli bitcoin, dll. - berhati-hatilah sebelum mengambil pinjaman yang didukung oleh Bitcoin. - berhati-hatilah sebelum mengambil pinjaman yang didukung oleh Bitcoin. Luangkan waktu untuk mempertimbangkan keputusan Anda dengan hati-hati, karena Bitcoin tetap merupakan aset yang mudah berubah. **Penurunan harga yang tajam dapat mengakibatkan likuidasi paksa bitcoin Anda**.
+Apa pun tujuan atau motivasi Anda - mendanai proyek, membeli properti, membeli bitcoin, dll. - berhati-hatilah sebelum mengambil pinjaman yang didukung oleh Bitcoin. Luangkan waktu untuk menilai keputusan Anda dengan cermat, karena Bitcoin tetap merupakan aset yang mudah berubah. **Penurunan harga yang tajam dapat mengakibatkan likuidasi paksa atas bitcoin Anda.**
 
 
 
@@ -612,7 +612,7 @@ Pantau rasio pinjaman terhadap agunan (LTV) Anda. Siapkan peringatan (harga BTC,
 
 
 
-Kendalikan kunci Anda. Simpan BTC Anda di dalam Wallet yang aman (idealnya perangkat keras atau Wallet yang memiliki reputasi baik). Jangan mengatur kode PIN yang terkait dengan tanggal penting dalam hidup Anda dan jangan pernah membagikan frasa pemulihan Anda. Di Debifi, Anda membuat generate kunci pribadi Anda di dalam aplikasi - Debifi tidak mengetahuinya.
+Kendalikan kunci Anda. Simpan BTC Anda di dalam wallet yang aman (idealnya perangkat keras atau wallet yang memiliki reputasi baik). Jangan mengatur kode PIN yang terkait dengan tanggal penting dalam hidup Anda dan jangan pernah membagikan frasa pemulihan Anda. Di Debifi, Anda menyimpan kunci pribadi Anda di dalam aplikasi - Debifi tidak mengetahuinya.
 
 
 
@@ -636,7 +636,7 @@ Sekarang Anda sudah tahu bagaimana cara menggunakan platform Debifi untuk mendap
 
 
 
-Saya sarankan Anda untuk mengikuti kursus ini, yang membahas secara mendalam mengenai Bitcoin, Stablecoin dan kontribusinya terhadap kedaulatan.
+Saya sarankan Anda untuk mengikuti kursus ini, yang membahas secara mendalam tentang Bitcoin, Stablecoin dan kontribusinya terhadap kedaulatan.
 
 
 

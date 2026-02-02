@@ -1,0 +1,8 @@
+question: Miksi "move fast and break things" -filosofia on erityisen sopimaton Bitcoin-kehitykseen verrattuna perinteiseen ohjelmistokehitykseen?
+answer: Bitcoin-tapahtumat ovat peruuttamattomia, eikä keskusviranomainen voi periä varoja takaisin virheistä
+wrong_answers:
+  - Bitcoin-kehitys vaatii perinteisiä verkkosovelluksia nopeampia iterointisyklejä
+  - "Rust:n kääntäjä estää lohkoketjuinnovaatioiden edellyttämän nopean prototyyppien rakentamisen"
+  - "Bitcoin:n avoimen lähdekoodin luonne vaikeuttaa virheiden korjaamista käyttöönoton jälkeen"
+explanation: |
+  Oikea vastaus korostaa Bitcoin:n perusominaisuutta: sen hajautettu luonne tarkoittaa, ettei ole mitään viranomaista, jonka puoleen kääntyä varojen takaisinperinnässä, kun transaktiot on lähetetty. Toisin kuin perinteisissä rahoitusjärjestelmissä, joissa on lainsäädännöllinen suoja ja takaisinmaksumekanismit, Bitcoin:n virheet ovat pysyviä ja peruuttamattomia. Väärissä vastauksissa ymmärretään ydinasia väärin - kyse ei ole kehitysnopeudesta, kääntäjän rajoituksista tai avoimen lähdekoodin haasteista, vaan rahoitustoimien peruuttamattomasta luonteesta hajautetussa järjestelmässä, jossa käyttäjien varat ovat pysyvässä vaarassa.

@@ -1,0 +1,9 @@
+question: O que pode ser personalizado nas configurações avançadas do nó do Lightning?
+answer: O nome público do nó
+wrong_answers:
+  - Regras de consenso dos nós
+  - As chaves privadas do nó
+  - As rotas escolhidas pelo nó
+explanation: |
+  As definições avançadas permitem-lhe personalizar os elementos de identificação do nó, sem afetar o consenso ou o funcionamento da rede Lightning.
+reviewed: false

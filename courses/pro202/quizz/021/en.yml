@@ -1,0 +1,8 @@
+question: What is the primary consequence of forgetting to include a change output when spending a UTXO that contains more Bitcoin than needed?
+answer: The excess amount automatically becomes a miner fee
+wrong_answers:
+  - The transaction will be rejected by the network as invalid
+  - "The excess amount is returned to the original sender's address"
+  - The excess amount remains locked in the original UTXO
+explanation: |
+  In Bitcoin's UTXO model, transaction fees are calculated implicitly as the difference between total inputs and total outputs (fee = sum(inputs) - sum(outputs)). When you spend a UTXO, you must spend it entirely - partial spending is impossible. If you need to spend only part of a UTXO's value, you must create a change output to receive the remainder. If you forget to include this change output, the unaccounted-for difference between inputs and outputs automatically becomes the miner fee. This is why proper change output construction is essential - without it, you could accidentally pay enormous fees to miners.

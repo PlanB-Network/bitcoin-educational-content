@@ -361,11 +361,11 @@ Blockchain इस भूमिका के लिए बिल्कुल स�
 प्रक्रिया को इस तरह संक्षेप में बताया जा सकता है:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -3280,7 +3280,7 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 इस Invoice से ट्रांसफर करने के लिए :
 
 
-- बॉब (जिसके पास Stash में टोकन हैं) के पास एक Bitcoin और Wallet है। उसे एक Bitcoin लेन-देन तैयार करना होगा (PSBT के रूप में, जैसे `tx.PSBT`) जो उन UTXOs को खर्च करे जहां आवश्यक RGB टोकन मौजूद हैं, साथ ही करेंसी (Exchange) के लिए एक UTXO भी।
+- बॉब (जो अपने स्टैश में टोकन रखता है) के पास एक बिटकॉइन वॉलेट है। उसे एक बिटकॉइन लेन-देन तैयार करना होगा (PSBT के रूप में, उदाहरण के लिए `tx.psbt`) जो उन UTXO को खर्च करता है जहाँ आवश्यक RGB टोकन स्थित हैं, साथ ही चेंज के लिए एक UTXO भी शामिल करता है;
 - बॉब निम्नलिखित कमांड चलाता है:
 
 ```bash

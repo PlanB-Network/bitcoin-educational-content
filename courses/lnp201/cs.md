@@ -1,12 +1,12 @@
 ---
-name: Teoretický úvod do Lightning Network
+name: Teorie Lightning Network
 goal: Objevte Lightning Network z technické perspektivy
 objectives:
-  - Porozumět fungování kanálů sítě.
-  - Seznámit se s termíny HTLC, LNURL a UTXO.
-  - Pochopit správu likvidity a poplatky LNN.
-  - Rozpoznat Lightning Network jako síť.
-  - Porozumět teoretickým využitím Lightning Network.
+- Porozumět fungování kanálů sítě.
+- Seznámit se s termíny HTLC, LNURL a UTXO.
+- Pochopit správu likvidity a poplatky LNN.
+- Rozpoznat Lightning Network jako síť.
+- Porozumět teoretickým využitím Lightning Network.
 ---
 
 # Cesta k druhé vrstvě Bitcoinu
@@ -153,7 +153,7 @@ Nejběžnější skript vyžaduje podpis soukromým klíčem spojeným s adresou
 
 ### UTXO: Nevyužité Transakční Výstupy
 
-Na Bitcoinu ve skutečnosti neobchodujeme přímo bitcoiny, ale **UTXO** (_Unspent Transaction Outputs_), což znamená "nevyužité transakční výstupy".
+Na Bitcoinu ve skutečnosti neobchodujeme přímo bitcoiny, ale **[UTXO](https://planb.academy/resources/glossary/utxo)** (_Unspent Transaction Outputs_), což znamená "nevyužité transakční výstupy".
 
 UTXO je kus bitcoinu, který může mít jakoukoliv hodnotu, například **2,000 bitcoinů**, **8 bitcoinů**, nebo dokonce **8,000 satoshi**. Každé UTXO je uzamčeno skriptem a pro jeho utrácení je nutné splnit podmínky skriptu, často podpisem soukromým klíčem odpovídajícím dané přijímací adrese.
 
@@ -222,7 +222,7 @@ Je důležité poznamenat, že Lightning node může komunikovat prostřednictv�
 
 ![LNP201](assets/en/011.webp)
 
-- **Vytvoření multisignature adresy**: S těmito dvěma veřejnými klíči Alice vytvoří **2/2 multisignature adresu**, což znamená, že prostředky, které budou později na této adrese vloženy, budou vyžadovat oba podpisy (Alice a Bob) k jejich utracení.
+- **Vytvoření [multisignature](https://planb.academy/resources/glossary/multisig) adresy**: S těmito dvěma veřejnými klíči Alice vytvoří **2/2 multisignature adresu**, což znamená, že prostředky, které budou později na této adrese vloženy, budou vyžadovat oba podpisy (Alice a Bob) k jejich utracení.
 
 ![LNP201](assets/en/012.webp)
 
@@ -582,7 +582,7 @@ V této kapitole jsme prozkoumali směrování plateb na Lightning Network. Ale 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-V této kapitole objevíme, jak Lightning umožňuje platby přecházet prostřednictvím prostředníků bez nutnosti jim důvěřovat, díky **HTLC** (_Hashed Time-Locked Contracts_). Tyto chytré kontrakty zajišťují, že každý prostředník obdrží prostředky z jeho kanálu pouze v případě, že přepošle platbu konečnému příjemci, jinak nebude platba ověřena.
+V této kapitole objevíme, jak Lightning umožňuje platby přecházet prostřednictvím prostředníků bez nutnosti jim důvěřovat, díky **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Tyto chytré kontrakty zajišťují, že každý prostředník obdrží prostředky z jeho kanálu pouze v případě, že přepošle platbu konečnému příjemci, jinak nebude platba ověřena.
 
 Problém, který vzniká při směrování plateb, je tedy nutná důvěra v prostředníky a mezi samotnými prostředníky. Abychom to ilustrovali, pojďme se vrátit k našemu zjednodušenému příkladu sítě Lightning s 3 uzly a 2 kanály:
 
@@ -1012,6 +1012,10 @@ Viděli jsme, že správa likvidity je na Lightning výzvou, aby se zajistil ply
 - **Spolupracující otevření**: Existují také platformy dostupné pro spojení k provádění trojúhelníkových otevření a získání příchozí likvidity.
 
 ![LNP201](assets/en/084.webp)
+
+Nyní, když jste pochopili teoretické fungování Lightning Network, můžete přejít k praxi a nastavit svůj první Lightning uzel, abyste získali větší autonomii při jeho používání. Za tímto účelem sledujte kurz LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # Sekce finále
 

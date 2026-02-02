@@ -1,0 +1,9 @@
+question: ¿Qué representa el ID de nodo de un nodo Lightning?
+answer: Clave pública y dirección del nodo
+wrong_answers:
+  - Nodo seed y dirección
+  - Alias de nodo y clave pública
+  - Alias del nodo Hash y seed
+explanation: |
+  El ID de nodo combina la clave pública del nodo con su dirección de red y su puerto.
+reviewed: false

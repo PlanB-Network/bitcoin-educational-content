@@ -1,5 +1,6 @@
 ---
-term: Bitcoin CORE GUI-QML
+term: Bitcoin Core GUI-QML
+definition: Mradi wa kiolesura cha kisasa cha picha cha Bitcoin Core kwa kutumia QML kwa uzoefu laini wa mtumiaji.
 ---
 
 Mradi unaoendelea wa kuunda jalada la Bitcoin na programu ya nodi kulingana na Bitcoin Core, lakini kwa mchoro angavu wa Interface uliotengenezwa kwa kutumia QML (*Qt Modeling Language*). Madhumuni ya Bitcoin Core GUI-QML ni kusasisha hali ya mtumiaji ya Interface ya Bitcoin Core kuwa ya kisasa ili kutoa matumizi rahisi, laini na yanayobadilika zaidi.

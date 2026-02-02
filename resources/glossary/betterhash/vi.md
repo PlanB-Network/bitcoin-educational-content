@@ -1,5 +1,6 @@
 ---
-term: TỐT HƠN
+term: Betterhash
+definition: Giao thức khai thác cho phép những người khai thác tự kiểm soát việc lựa chọn giao dịch, giảm bớt sự tập trung của các mỏ đào (pools). Tiền thân của Stratum V2.
 ---
 
 Giao thức Mining do Matt Corallo phát triển vào năm 2018 nhằm chống lại sự tập trung hóa ngày càng tăng của Mining trên các nhóm. Giao thức này khác với Stratum, vốn là tiêu chuẩn vào thời điểm đó, bằng cách cung cấp cho các hasher nhiều quyền kiểm soát hơn đối với việc lựa chọn các giao dịch sẽ được đưa vào các mẫu khối. Ý tưởng chính đằng sau BetterHash là trao lại cho các chaser khả năng tự quản lý việc xây dựng mẫu khối, đồng thời vẫn giữ nguyên các lợi thế của các nhóm Mining như giảm sự thay đổi doanh thu.

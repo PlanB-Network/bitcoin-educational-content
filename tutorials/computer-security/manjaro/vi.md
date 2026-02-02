@@ -104,7 +104,7 @@ Phiên bản **Cinnamon** là một lựa chọn tuyệt vời nếu bạn mới
 
 
 
-Sau đó, hãy truy cập trang web phần mềm [Rufus] (https://rufus.ie/fr/) và tải xuống. Chạy chương trình, cắm USB vào máy tính, chọn file ISO Manjaro và bắt đầu flash. Đợi quá trình hoàn tất trước khi gỡ bỏ key. Sau đó, bạn có thể khởi động lại máy tính.
+Sau đó, hãy truy cập trang web phần mềm [Rufus](https://rufus.ie/fr/) và tải xuống. Chạy chương trình, cắm USB vào máy tính, chọn file ISO Manjaro và bắt đầu flash. Đợi quá trình hoàn tất trước khi gỡ bỏ key. Sau đó, bạn có thể khởi động lại máy tính.
 
 
 

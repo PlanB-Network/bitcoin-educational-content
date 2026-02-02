@@ -34,7 +34,7 @@ Nagu [Mempool Space](https://Mempool.space), mis annab kasulikku teavet Bitcoin 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Selles õpetuses tutvustame teile seda platvormi, mis on oluline ressurss Lightning Network kasutajatele, neile, kes soovivad oma sõlme ühendada, et laiendada võrku jne.
 
@@ -304,4 +304,4 @@ Nüüd olete teinud täieliku ringkäigu platvormi funktsioonide ja analüüsiva
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

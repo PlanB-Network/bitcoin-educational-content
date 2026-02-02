@@ -1,0 +1,8 @@
+question: According to Abbé de Saint-Pierre's analysis of commercial exchange, what fundamental principle explains why voluntary trade occurs between merchants?
+answer: Both the buyer and seller gain mutual benefit from the transaction, otherwise neither would agree to trade
+wrong_answers:
+  - One party always gains more than the other, creating a competitive advantage in future negotiations
+  - The government regulates prices to ensure fair distribution of profits between trading parties
+  - Market forces automatically balance gains so that total wealth remains constant across all transactions
+explanation: |
+  Abbé de Saint-Pierre recognized that voluntary exchange is a positive-sum game where both parties benefit. He noted that when a sale occurs between merchants, both the seller and buyer gain because without mutual benefit, neither would agree to the transaction at that price. This principle demonstrates that voluntary trade creates value for both parties rather than simply transferring wealth from one to another, which is why people choose to engage in commerce and contracts.

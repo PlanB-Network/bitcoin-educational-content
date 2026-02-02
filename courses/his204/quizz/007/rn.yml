@@ -1,8 +1,9 @@
-question: Ni kuki uburyo bwo gutanga imisoro bwa Ancien Régime buvugwa ko ari "ubutera intege"?
-answer: Kubera ko umuntu yari atunze bike cane, yari gushobora kwisanga ariko arasoreshwa incuro zibiri mu mwaka ukurikira .
+question: Ni kuki uburyo bwo gutanga amakori bw'intwaro za kera buvugwa ko ari "guca intege"?
+answer: Kubera ko umuntu vyagora cane kwitunga, yari gushobora kwisanga ariko yakwa amakori incuro zibiri mu mwaka ukurikira .
 wrong_answers:
-  - Kubera ko ukuntu ryari rigoye cane vyatuma abakozi b’imisoro badashobora gutora imisoro .
+  - Kubera ko ukuntu ryari rigoye cane vyatuma abakozi b’amakori badashobora gutora amakori .
   - Kubera ko ubugwaneza bwayo bwaciye intege Abafaransa ngo bahungire mu mahanga .
   - Kubera ko vyari vyoroshe cane kandi bishobora kumenyekana .
 explanation: |
-  Imisoro mu gihe c’Ubutegetsi bwa kera akenshi yari iy’ubujuju kandi idashobora kumenyekana. Kuba ata mategeko atomoye yariho be n’uko umuntu yoshobora gukorwako imisoro irenze urugero vyatuma abantu badashobora gushiramwo amahera no gutunga, kuko inyungu zashobora gufatwa n’imisoro.
+  Amakori mu gihe c’Ubutegetsi bwa kera akenshi yari iy’ubujuju kandi idashobora kumenyekana. Kuba ata mategeko atomoye yariho be n’uko umuntu yoshobora gukorwako imisoro irenze urugero vyatuma abantu badashobora gushiramwo amahera no gutunga, kuko inyungu zashobora gufatwa n’amakori.
+reviewed: true

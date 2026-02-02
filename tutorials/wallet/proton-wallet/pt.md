@@ -18,7 +18,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 
 ## Ligar à Carteira Proton
 
-Aceda ao [sítio Web da Proton Wallet] (https://proton.me/wallet) e clique no botão "*Get Proton Wallet*".
+Aceda ao [sítio Web da Proton Wallet](https://proton.me/wallet) e clique no botão "*Get Proton Wallet*".
 
 ![Image](assets/fr/01.webp)
 
@@ -145,8 +145,8 @@ Para além do cliente Web, a Carteira Proton também está acessível através d
 Transfira a Proton Wallet da sua loja de aplicações:
 
 
-- [Na App Store] (https://apps.apple.com/us/app/proton-wallet-secure-btc/id6479609548);
-- [Na Google Play Store] (https://play.google.com/store/apps/details?id=me.proton.wallet.android).
+- [Na App Store](https://apps.apple.com/us/app/proton-wallet-secure-btc/id6479609548);
+- [Na Google Play Store](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 ![Image](assets/fr/26.webp)
 

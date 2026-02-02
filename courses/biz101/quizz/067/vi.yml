@@ -1,9 +1,9 @@
-question: What role do tools like Zaprite and Musqet play in a Professional payment solution?
-answer: They refine the checkout experience
+question: Các công cụ như Zaprite và Musqet đóng vai trò gì trong giải pháp thanh toán chuyên nghiệp?
+answer: Họ cải thiện trải nghiệm thanh toán
 wrong_answers:
-  - They handle multi-currency conversion and fiat disbursement
-  - They focus on encrypting transaction data and managing private keys
-  - They serve as basic POS systems
+  - Họ xử lý việc chuyển đổi nhiều loại tiền tệ và giải ngân tiền pháp định
+  - Họ tập trung vào việc mã hóa dữ liệu giao dịch và quản lý khóa riêng tư
+  - Chúng đóng vai trò như hệ thống POS cơ bản
 explanation: |
-  Zaprite and Musqet add customization and reporting refinements to the checkout process, complementing the core payment infrastructure.
-reviewed: false
+  Zaprite và Musqet bổ sung tính năng tùy chỉnh và cải tiến báo cáo vào quy trình thanh toán, bổ sung cho cơ sở hạ tầng thanh toán cốt lõi.
+reviewed: true

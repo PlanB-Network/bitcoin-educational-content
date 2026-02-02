@@ -1,0 +1,9 @@
+question: Hvilken løsning gir mest suverenitet for Lightning-brukere?
+answer: Klassisk lynknutepunkt
+wrong_answers:
+  - Wallet med atombytte
+  - Innebygd LN-node
+  - Vaktmester Lightning wallet
+explanation: |
+  Den klassiske noden gir deg full kontroll over kanaler, likviditet og gebyrpolitikk. Det er den eneste som lar deg være helt uavhengig.
+reviewed: false

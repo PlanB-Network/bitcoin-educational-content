@@ -15,7 +15,6 @@ Neste tutorial vamos dar uma vista de olhos ao Blue Wallet, um Bitcoin Wallet si
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -122,7 +121,7 @@ Pode, portanto, selecionar o rácio de taxa de transação que lhe convém se qu
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -264,7 +263,7 @@ Ao validar a sua transação, precisará de uma segunda assinatura para aprovar 
 
 
 
-O segundo signatário do Wallet, se também for um utilizador, pode assinar a transação mesmo que esteja fora da Internet (sem Wi-Fi, sem dados móveis), digitalizando o código QR da [transação parcialmente assinada] (https://planb.academy/resources/glossary/psbt) que acabou de criar.
+O segundo signatário do Wallet, se também for um utilizador, pode assinar a transação mesmo que esteja fora da Internet (sem Wi-Fi, sem dados móveis), digitalizando o código QR da [transação parcialmente assinada](https://planb.academy/resources/glossary/psbt) que acabou de criar.
 
 
 

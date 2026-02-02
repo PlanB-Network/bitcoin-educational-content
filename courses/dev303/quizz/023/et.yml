@@ -1,0 +1,8 @@
+question: Mis juhtub algse struktuuri instantsiga, kui te kasutate struct update süntaksit mitte-kopeerivate tüüpidega?
+answer: Kopeeritud väljad muutuvad algses instantsis kasutuskõlbmatuks, kuna need on ümberpaigutamise semantika tõttu kasutuskõlbmatud
+wrong_answers:
+  - Algne instants jääb täielikult muutumatuks ja on täielikult kättesaadav
+  - Kogu algne instants kloonitakse, jättes mõlemad instantsid täielikult toimivaks
+  - Ainult need väljad, mida te selgesõnaliselt muudate, muutuvad kättesaamatuks originaalses
+explanation: |
+  Kui kasutate struktuuri uuendamise süntaksit mitte-kopeerivate tüüpide puhul, siis Rust omandisüsteem liigutab kopeeritud väljad algsest eksemplarist uude eksemplari. See tähendab, et need konkreetsed väljad muutuvad algses eksemplaris kasutuskõlbmatuks, kuigi väljad, mida ei kopeeritud, jäävad kättesaadavaks. Kompilaator jälgib neid osalisi liigutusi arukalt, takistades juurdepääsu liigutatud väljadele, võimaldades samal ajal jätkata liigutamata väljade kasutamist. Selline käitumine tagab mälu turvalisuse, takistades samade andmete mitmekordset omamist.

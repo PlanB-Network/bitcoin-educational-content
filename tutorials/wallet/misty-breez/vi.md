@@ -37,7 +37,7 @@ Bây giờ, chúng ta hãy bắt đầu cuộc phiêu lưu với Misty Breez Wal
 
 
 
-Ứng dụng di động Misty Breez có sẵn trên các nền tảng tải xuống chính thức như Google Play Store (trên Android) và Apple Store (trên iOS). Bạn cũng có thể được chuyển hướng đến đúng ứng dụng từ trang web chính thức [Misty Breez] (https://breez.technology/misty/).
+Ứng dụng di động Misty Breez có sẵn trên các nền tảng tải xuống chính thức như Google Play Store (trên Android) và Apple Store (trên iOS). Bạn cũng có thể được chuyển hướng đến đúng ứng dụng từ trang web chính thức [Misty Breez](https://breez.technology/misty/).
 
 
 

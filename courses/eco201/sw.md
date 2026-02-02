@@ -1,20 +1,17 @@
 ---
-name: Utambulisho wa Uchumi wa Austria
-goal: Gundua shule ya Austria ya mawazo ya kiuchumi. Jifunze maoni yao juu ya jamii na hali halisi za uchumi mkuu/kiuchumi.
-objectives: 
-
-  - Njia mbadala ya Ukeynesia
-  - Umuhimu wa Sarafu imara
-  - Kwa nini na vipi mizunguko yetu ya kiuchumi inaundwa?
-  - Kwa nini benki kuu zimekasirika?
-
+name: Misingi ya shule ya uchumi ya Austria
+goal: Gundua uchumi wa Kiostria kama mfumo mbadala wa kuchanganua masoko na maamuzi ya kibinafsi
+objectives:
+- Kuchambua kazi za pesa, mikopo, na mifumo ya benki kuu
+- Kutumia nadharia ya thamani ya kibinafsi na upendeleo wa wakati kwa tabia ya soko
+- Kuelewa nadharia ya mzunguko wa biashara wa Kiostria na sababu zake
+- Kulinganisha mbinu ya Kiostria na mbinu za kawaida za kiuchumi
 ---
-# Safari ya kuingia katika Uchumi
+# Safari ya Uchumi wa Kiostria
 
-Karibu kwenye kozi ya Théo Mogenet! Akiwa na shauku ya uchumi, historia, fasihi, sayansi ya siasa na teknolojia, ameamua kushiriki nawe ujuzi wake wa uchumi wa Austria. Tawi hili, ambalo halijulikani sana katika uchumi, linategemea busara ya kibinadamu na tabia huru ya mwigizaji. Chini ya makali katika hisabati, ni swali la mantiki na utafiti wa kijamii juu ya yote.
+Je, umewahi kujisikitisha kwa nini baadhi ya wanauchumi hufikiri tofauti kuhusu masoko, uhuru, na tabia ya binadamu? Uchumi wa Kiostria unatoa mtazamo mpya unaokuweka wewe katika moyo wa mawazo ya kiuchumi. Badala ya hisabati ngumu na mifano dhahania, mbinu hii inazingatia mantiki, uchaguzi wa kibinadamu, na jinsi watu halisi wanavyofanya maamuzi katika maisha yao ya kila siku. Ni uchumi kupitia lenzi ya uhuru, busara, na kitendo cha kibinafsi.
 
-Mwelekeo huu wa kifikra tayari una karne kadhaa nyuma yake na una mandhari pana ya waandishi mbalimbali, mawazo, na wachumi nyuma yake. Majina makuu katika uchumi kama vile Hayek, Rothbard, Mises, Bastiat, au Menger wametetea harakati hii kwa muda mrefu. Kinyume na Ukenesia uliopo kila mahali wa siku zetu, shule ya Austria inamweka mtu nyuma katikati ya mlingano kwa njia ya huria zaidi, ya ubepari,Mtazamo wa uanarkia.
-
+Shule hii ya mawazo imeshika majadiliano kwa karne nyingi, kutokana na wafikiri wenye ushawishi kama Hayek, Mises, na Bastiat. Wakati uchumi wa Kikeynes wa kawaida unatawala majadiliano ya sera za leo, mila ya Kiostria inauliza maswali tofauti: Nini hutokea tunapoweka kipaumbele uhuru wa mtu binafsi? Masoko huru hufanyaje kazi kwa kweli wakati watu wana uhuru wa kuchagua? Ikiwa una hamu ya kujua njia mbadala za kufikiri kuhusu masoko, jamii, na uhuru, hii ni fursa yako ya kuchunguza mawazo ambayo hutayapata katika vitabu vya kawaida.
 +++
 # Utangulizi wa ECON
 
@@ -522,9 +519,8 @@ Matokeo ya mgao huo usio sahihi ni pamoja na migogoro ya kifedha na kiuchumi, ku
 
 Leo, mjadala wa hesabu za kiuchumi unaibuka tena hasa katika majadiliano kuhusu nishati, ambapo uwekezaji mbaya unaoendeshwa na ajenda ya Green unazidi kudhihirika. Pia inatokea katika majadiliano kuhusu masoko ya fedha, huku wanauchumi wa Austria wakieleza kuwa mgogoro wa 2008, ambao wanauchumi wa kawaida walishindwa kutabiri, ulikuwa ni ukuaji wa kawaida na mzunguko wa kishindo unaojulikana na uwekezaji kupita kiasi katika soko la nyumba kutokana na muda mrefu wa viwango vya chini vya riba. Zaidi ya hayo, Wana-Marx mamboleo na makundi mengine ya kisoshalisti yanaeneza dhana kwamba kuibuka kwa AI kunaweza kutatua tatizo la hesabu za kiuchumi. Hata hivyo, mtazamo huu unatokana na uelewa mbovu wa suala hilo; tatizo la kukokotoa uchumi si suala la nguvu ya kompyuta bali ni suala la kuzalisha na kusambaza taarifa zinazohusiana na uzalishaji na mgao wa rasilimali. Taarifa hii inaweza tu kuzalishwa ndani ya nchi na mawakala wenye ujuzi maalum na maslahi yaliyowekwa katika matokeo. AI haiwezi kuchukua nafasi ya mchakato huu wa chini kwenda juu na, kwa hivyo, haiwezi kusaidia wapangaji wa kati Address tatizo la mgao wa rasilimali. Kwa bahati mbaya, kutokana na karne ya kutokuelewana, tunatarajia kuenea kwa madai kwamba AI italeta enzi mpya ya ustawi wa kiuchumi inayoongozwa na wapangaji wa kati walioelimika ambao, kwa usaidizi wa AI, wanaweza kurekebisha kushindwa kwa soko huria.
 
-Kwa matumizi madhubuti ya shida ya hesabu ya kiuchumi kwa hali ya kisasa, unaweza kurejelea nakala hii inayoshughulikia shida ya ugawaji wa rasilimali katika Uchina wa kisasa.
+Kwa matumizi halisi ya tatizo la hesabu ya kiuchumi katika hali ya kisasa, unaweza kurejelea makala hii inayohusu ugawaji wa rasilimali nchini China ya kisasa: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, na Théo Mogenet.
 
-> Barabara ya Ukandamizaji wa Kifedha: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 ### Hitimisho
 
 Katika sura hii ya mwisho, tumechunguza kutowezekana kwa hesabu ya kiuchumi chini ya ujamaa, kanuni kuu ya shule ya uchumi ya Austria. Mtazamo wa Austria uliowasilishwa katika kozi hii unakamilika kwa hitimisho hili na unatoa hoja thabiti kwa sera zisizoingilia kati. Katika msingi wake, mawazo yote ya Austria yanahusu umuhimu wa bei katika uratibu wa kiuchumi. Kwa kusisitiza umuhimu wa gharama za fursa na ukokotoaji wa kiuchumi kwa matumizi bora ya rasilimali, wanauchumi wa Austria wanaonyesha utata na ujanja wa vitendo vya binadamu katika ulimwengu unaobadilika kila mara.

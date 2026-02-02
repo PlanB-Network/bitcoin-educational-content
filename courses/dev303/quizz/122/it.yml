@@ -1,0 +1,8 @@
+question: Qual è la sfida di recupero più critica che gli utenti devono affrontare quando i loro fondi sono gestiti attraverso l'architettura del nodo Lightning basato sul cloud di Greenlight?
+answer: Gli utenti hanno bisogno di competenze tecniche per creare nodi Core Lightning indipendenti e ripristinare gli stati dei canali senza l'infrastruttura Greenlight
+wrong_answers:
+  - "Gli utenti perdono l'accesso alle loro chiavi private che sono conservate esclusivamente sui server di Blockstream"
+  - "Gli stati del canale sono criptati utilizzando le chiavi proprietarie di Greenlight, rendendo matematicamente impossibile il recupero dei fondi"
+  - "I canali Lightning scadono automaticamente dopo 30 giorni senza i servizi di manutenzione continua di Greenlight"
+explanation: |
+  La risposta corretta evidenzia la reale complessità tecnica del recupero dei fondi nell'architettura di Greenlight. Mentre gli utenti mantengono le loro chiavi private, l'accesso ai fondi senza Greenlight richiede l'esecuzione dei nodi Core Lightning e il ripristino manuale degli stati dei canali, un processo che va oltre le capacità della maggior parte degli utenti. Le risposte sbagliate sono errate perché: gli utenti controllano le loro chiavi private (non sono memorizzate sui server), gli stati dei canali utilizzano i protocolli standard di Lightning (non la crittografia proprietaria) e i canali Lightning non hanno timer di scadenza automatici legati ai fornitori di servizi.

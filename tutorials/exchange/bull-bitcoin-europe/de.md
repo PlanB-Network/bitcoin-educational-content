@@ -196,6 +196,14 @@ Um den Überblick über alle Ihre Transaktionen zu behalten, können Sie die His
 
 ![BULL](assets/fr/36.webp)
 
+## Einen automatischen wiederkehrenden Kauf starten (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Eine Limit-Order erstellen
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Jetzt wissen Sie, wie Sie mit Bull Bitcoin ganz einfach Bitcoin kaufen und verkaufen können. Wenn Sie dieses Tutorial nützlich fanden, wäre ich Ihnen sehr dankbar, wenn Sie unten einen grünen Daumen setzen würden. Sie können diesen Artikel auch gerne in Ihren sozialen Netzwerken teilen. Ich danke Ihnen sehr!
 
 Ich empfehle Ihnen auch dieses andere umfassende Tutorial, um zu lernen, wie Sie Ihre mnemonische Phrase richtig verwalten:

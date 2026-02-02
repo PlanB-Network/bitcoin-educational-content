@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition: Uainishaji wa BIP katika kategoria 4 Makubaliano, Huduma za Rika, API/RPC na Maombi.
 ---
 
 Huanzisha mchakato mpya sanifu wa uainishaji wa mapendekezo ya kuboresha Bitcoin. BIPs sasa lazima ziainishwe katika kategoria 4:

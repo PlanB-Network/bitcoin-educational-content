@@ -1,0 +1,9 @@
+question: Sorumlu ifşa çerçevesine göre, altcoin geliştiricilerine güvenlik açığı yamalarını ancak düzeltmeler Bitcoin ağında yaygın olarak dağıtıldıktan sonra sağlamanın birincil stratejik nedeni nedir?
+answer: Altcoinler yamalanırken saldırganların Bitcoin'deki aynı güvenlik açığından yararlanmasını önlemek için
+wrong_answers:
+  - "Bitcoin'nin alternatif kripto para uygulamalarına karşı rekabet avantajını korumak için"
+  - Altcoin geliştiricilerinin düzeltmeleri anlamak ve düzgün bir şekilde uygulamak için yeterli zamana sahip olmalarını sağlamak
+  - Üçüncü taraf projelere erken açıklama yapılmasından kaynaklanabilecek yasal sorumluluk sorunlarından kaçınmak için
+explanation: |
+  Zamanlama stratejisi, diğerlerine yardım etmeden önce Bitcoin'ün ağının korunması gereken güvenlik öncelikli bir yaklaşımı yansıtmaktadır. Altcoinler aynı anda bilgilendirilseydi, saldırganlar altcoin uygulamalarını inceleyebilir veya güvenlik açığını anlamak için bunlardan yararlanabilir, ardından potansiyel olarak henüz yükseltilmemiş Bitcoin düğümlerine saldırabilirdi. Sıralı yaklaşım, yardımı diğer ağlara genişletmeden önce Bitcoin'ün yaygın olarak korunmasını sağlayarak ekosistem genelinde güvenlik açığından yararlanma penceresini en aza indirir.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: BGP ĐÁNH CẮP
+term: Chiếm quyền kiểm soát BGP
+definition: Cuộc tấn công thao túng định tuyến Internet để chuyển hướng lưu lượng truy cập đến một mạng độc hại, có thể được sử dụng để cô lập các nút Bitcoin.
 ---
 
 Tấn công trong đó kẻ tấn công độc hại thao túng quảng cáo BGP để chuyển hướng lưu lượng truy cập Internet đến mạng của riêng mình. Bằng cách giả vờ là nguồn gốc hợp pháp của một số phạm vi IP Address, kẻ tấn công có thể chặn, giám sát hoặc chặn lưu lượng truy cập đến các địa chỉ này.

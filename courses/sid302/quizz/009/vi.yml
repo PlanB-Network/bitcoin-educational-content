@@ -1,0 +1,8 @@
+question: Mục đích chính của các cam kết Pedersen trong Elements và Confidential Transactions là gì?
+answer: Thay thế số tiền giao dịch hiển thị bằng các cam kết mã hóa có thể được xác thực mà không tiết lộ giá trị thực tế.
+wrong_answers:
+  - generate cung cấp mã định danh thập lục phân duy nhất gồm 64 ký tự cho các tài sản mới được phát hành trên chuỗi khối Elements.
+  - Để ngăn chặn double-spending bằng cách tạo ra các bằng chứng toán học chứng minh rằng các giá trị ẩn là các số nguyên dương nằm trong phạm vi hợp lệ.
+  - Để cho phép chuyển Bitcoin từ chuỗi chính sang chuỗi phụ Elements thông qua các cơ chế liên kết mật mã.
+explanation: |
+  Cam kết Pedersen là cơ chế mật mã cốt lõi cho phép bảo mật trong Confidential Transactions bằng cách thay thế các số tiền hiển thị bằng các cam kết toán học. Nhờ các đặc tính đồng cấu của chúng, các trình xác thực có thể xác minh rằng đầu vào bằng đầu ra cộng với phí mà không cần nhìn thấy các giá trị thực tế. Bằng chứng phạm vi ngăn chặn các số tiền âm, ID tài sản xác định mã thông báo và các cơ chế neo xử lý các giao dịch chuyển khoản xuyên chuỗi, nhưng không có chức năng nào trong số này là chức năng cụ thể của Cam kết Pedersen.

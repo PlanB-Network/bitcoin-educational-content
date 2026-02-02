@@ -1,5 +1,6 @@
 ---
 term: BIP0145
 
+definition: Atualização da chamada JSON-RPC getblocktemplate para integrar o suporte de SegWit e o cálculo do peso das transações.
 ---
 Atualiza a chamada JSON-RPC `getblocktemplate` para incluir suporte ao SegWit, de acordo com o BIP141. Esta atualização permite que os mineiros construam blocos tendo em conta a nova medida de "peso" das transacções e blocos introduzida pelo SegWit, e outros parâmetros como o cálculo do limite de sigops.

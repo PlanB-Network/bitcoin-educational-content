@@ -6,3 +6,4 @@ wrong_answers:
   - To confirm that the patch provides sufficient performance improvements
 explanation: |
   According to responsible disclosure practices, developers test whether a patch has been disguised well enough by providing it to experienced developers who haven't been informed of the vulnerability, asking them to identify what it fixes. If these experts can't spot the vulnerability even knowing a patch fixes one, it's likely well-concealed from potential attackers. This is crucial because patches themselves can reveal vulnerabilities, potentially enabling malicious exploitation. The other options, while important aspects of code review, are not the primary purpose of this specific practice in vulnerability management.
+reviewed: false

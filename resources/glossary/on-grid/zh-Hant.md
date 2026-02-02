@@ -1,5 +1,6 @@
 ---
-term: ON-GRID
+term: 在網
+definition: 連接到通用電網以驅動ASIC的挖礦方式。
 ---
 
 指連接到一般電網的 Bitcoin Mining 作業。並網礦工連接到住宅用戶也在使用的傳統電網，為其 ASIC 供電。此方法可提供穩定的電源，但由於談判邊際較為有限，通常比離網 Mining 更為昂貴。

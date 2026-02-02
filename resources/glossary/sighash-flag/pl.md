@@ -1,5 +1,6 @@
 ---
-term: FLAGA SIGHASH
+term: Flaga sighash
+definition: Parametr określający, które elementy transakcji są objęte podpisem.
 ---
 
 Parametr w transakcji Bitcoin, który określa, które składniki transakcji (wejścia i wyjścia) są objęte powiązanym podpisem, a tym samym stają się niezmienne. SigHash Flag jest bajtem dodawanym do podpisu cyfrowego każdego wejścia. Dlatego wybór SigHash Flag bezpośrednio wpływa na to, które części transakcji są zamrożone przez podpis, a które mogą być później modyfikowane. Mechanizm ten zapewnia, że podpisy precyzyjnie i bezpiecznie zatwierdzają dane transakcji zgodnie z intencją podpisującego. Istnieją trzy główne flagi SigHash:

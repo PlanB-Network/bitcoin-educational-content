@@ -1,0 +1,8 @@
+question: Trong trường hợp nào thì RefCell được sử dụng một cách thích hợp nhất để giải quyết hạn chế mượn tham chiếu tại thời điểm biên dịch?
+answer: Khi triển khai một đối tượng giả lập cần theo dõi các thay đổi trạng thái nội bộ thông qua giao diện đặc tính bất biến.
+wrong_answers:
+  - Khi bạn cần chia sẻ dữ liệu giữa nhiều luồng và yêu cầu đếm tham chiếu nguyên tử.
+  - Khi bạn muốn tránh chi phí phát sinh khi chạy bằng cách chuyển toàn bộ quá trình kiểm tra mượn sang thời gian biên dịch.
+  - Khi tạo các tham chiếu vòng lặp giữa các cấu trúc dữ liệu cần được tự động dọn dẹp bộ nhớ.
+explanation: |
+  RefCell được thiết kế cho các trường hợp thay đổi dữ liệu bên trong, nơi bạn cần thay đổi dữ liệu thông qua một tham chiếu bất biến, đặc biệt khi phân tích tĩnh của trình biên dịch quá thận trọng. Các đối tượng giả lập triển khai các trait với các phương thức bất biến nhưng cần theo dõi trạng thái nội bộ là một trường hợp sử dụng hoàn hảo. Các tùy chọn khác không chính xác: RefCell không an toàn cho đa luồng, nó chuyển việc kiểm tra sang thời gian chạy (không phải thời gian biên dịch), và nó không giải quyết được vấn đề tham chiếu vòng lặp - thậm chí nó có thể góp phần gây ra vấn đề đó khi kết hợp với RC.

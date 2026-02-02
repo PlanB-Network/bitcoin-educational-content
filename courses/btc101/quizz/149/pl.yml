@@ -1,8 +1,8 @@
-question: Jaki jest cel basenów Mining?
-answer: Pule Mining pozwalają górnikom łączyć swoje zasoby obliczeniowe i otrzymywać mniejsze, ale bardziej regularne nagrody.
+question: Jaki jest cel pul wydobywczych?
+answer: Pule wydobywcze pozwalają górnikom łączyć swoje zasoby obliczeniowe i otrzymywać mniejsze, ale bardziej regularne nagrody.
 wrong_answers:
-  - Pule Mining są wykorzystywane do zwiększenia Hashrate całej sieci Bitcoin.
-  - Pule Mining są używane w celu zmniejszenia trudności Mining.
-  - Pule Mining są wykorzystywane do zwiększenia nagrody za Mining.
+  - Pule wydobywcze są wykorzystywane do zwiększenia szybkości haszowania całej sieci Bitcoin.
+  - Pule wydobywcze są używane w celu zmniejszenia trudności wydobycia.
+  - Pule wydobywcze są wykorzystywane do zwiększenia nagrody za wydobycie.
 explanation: >-
 reviewed: true

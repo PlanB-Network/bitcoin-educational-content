@@ -55,7 +55,7 @@ Een andere functie van Bitwarden is de mogelijkheid om uw wachtwoordmanager zelf
 ## Hoe maak ik een Bitwarden-account aan?
 
 
-Bezoek [de Bitwarden-website] (https://bitwarden.com/) en klik op "*Get Started*".
+Bezoek [de Bitwarden-website](https://bitwarden.com/) en klik op "*Get Started*".
 
 ![BITWARDEN](assets/notext/03.webp)
 
@@ -256,7 +256,7 @@ Als je wilt, kun je eerst de browserextensie instellen. Deze extensie werkt als 
 Het dagelijks gebruik van deze extensie is erg handig, maar het kan ook nieuwe aanvalsvectoren openen. Sommige cyberbeveiligingsexperts raden daarom af om browserextensies voor wachtwoordbeheerders te gebruiken. Als je er echter voor kiest om de Bitwarden-extensie te gebruiken, lees je hier hoe je te werk moet gaan:
 
 
-Ga eerst naar [de officiële Bitwarden downloadpagina] (https://bitwarden.com/download/#downloads-web-browser).
+Ga eerst naar [de officiële Bitwarden downloadpagina](https://bitwarden.com/download/#downloads-web-browser).
 
 
 ![BITWARDEN](assets/notext/44.webp)

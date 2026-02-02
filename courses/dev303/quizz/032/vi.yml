@@ -1,0 +1,8 @@
+question: Sự khác biệt chính giữa lỗi có thể khắc phục và lỗi không thể khắc phục trong hệ thống xử lý lỗi của Rust là gì?
+answer: Các lỗi có thể khắc phục được sẽ được xử lý một cách nhẹ nhàng, cho phép chương trình tiếp tục chạy, trong khi các lỗi không thể khắc phục được sẽ làm chấm dứt chương trình.
+wrong_answers:
+  - Các lỗi có thể khắc phục được sử dụng macro panic! trong khi các lỗi không thể khắc phục được sử dụng kiểu liệt kê Result để quản lý lỗi đúng cách.
+  - Các lỗi có thể khắc phục được xảy ra trong quá trình biên dịch, trong khi các lỗi không thể khắc phục được chỉ xảy ra trong quá trình thực thi chương trình.
+  - Các lỗi có thể khắc phục được yêu cầu giải phóng ngăn xếp, trong khi các lỗi không thể khắc phục được có thể bị bỏ qua bởi mã gọi.
+explanation: |
+  Rust phân loại lỗi dựa trên việc chương trình có thể phục hồi một cách hợp lý từ chúng hay không. Lỗi có thể phục hồi là những điều kiện lỗi dự kiến như thiếu tệp hoặc sự cố mạng mà chương trình có thể xử lý một cách khéo léo bằng cách sử dụng kiểu Kết quả, cho phép quá trình thực thi tiếp tục với việc xử lý lỗi thích hợp. Lỗi không thể phục hồi cho thấy các vấn đề cơ bản như vi phạm an toàn bộ nhớ hoặc lỗi logic mà chương trình không thể tiếp tục một cách an toàn, gây ra lỗi nghiêm trọng (panic) làm chấm dứt quá trình thực thi để ngăn chặn sự hư hỏng thêm.

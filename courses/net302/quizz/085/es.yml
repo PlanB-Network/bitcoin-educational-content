@@ -6,4 +6,4 @@ wrong_answers:
   - netstat -r 8.8.8.8
 explanation: |
   ip route get <Address> muestra la ruta exacta que tomaría un paquete para llegar a un destino específico.
-reviewed: false
+reviewed: true

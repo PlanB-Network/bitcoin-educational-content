@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck des Sighash-Konstruktionsprozesses in der Bitcoin-Transaktionsvalidierung?
+answer: So erstellen Sie genau die Nachricht, die ursprünglich mit dem privaten Schlüssel zur Signaturprüfung signiert wurde
+wrong_answers:
+  - An generate eine eindeutige Kennung für die Transaktion, die Angriffe von double-spending verhindert
+  - Komprimierung der Transaktionsdaten in ein kleineres Format für eine effiziente Netzwerkübertragung
+  - Verschlüsselung der Transaktionsinhalte, so dass nur der Empfänger die Münzen entschlüsseln und ausgeben kann
+explanation: |
+  Die Sighash-Konstruktion erzeugt genau die Nachricht, die mit dem privaten Schlüssel signiert wurde, so dass OP_CHECKSIG die Echtheit der Signatur überprüfen kann. Dieser Prozess umfasst das Leeren von ScriptSigs, das Ersetzen des ScriptSig der aktuellen Eingabe durch den entsprechenden ScriptPubKey und das Anhängen eines Hash-Typs vor dem Double-Hashing. Die anderen Optionen sind falsch: Transaktions-IDs dienen als Identifikatoren, die Komprimierung wird separat gehandhabt, und Bitcoin-Transaktionen werden nicht verschlüsselt, sondern sind in der Blockchain öffentlich sichtbar.

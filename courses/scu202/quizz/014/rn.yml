@@ -1,9 +1,9 @@
-question: Ni bande babiri bakuru baremye Unix?
+question: Ni bande babiri nyamukuru baremye Unix?
 answer: Ken Tompson na Denis Ritchie
 wrong_answers:
   - Richard Stallman na Linus Torvalds
-  - Andereya S. Tanenbaum na Lari Ewing
-  - Sitefano Jobs na Bill Gates
+  - Andrew S. Tanenbaum na Larry Ewing
+  - Steve Jobs na Bill Gates
 explanation: |
   Unix yakozwe na Ken Thompson na Dennis Ritchie muri AT&T Bell Labs mu mpera z’imyaka ya 1960 no mu ntango z’imyaka ya 1970.
-reviewed: false
+reviewed: true

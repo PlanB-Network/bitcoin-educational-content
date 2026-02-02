@@ -6,7 +6,7 @@ description: Hvordan delta i gjennomgangen av pedagogisk innhold på Plan ₿ Ac
 
 ## Oppsummering
 
-Hvis du ønsker å delta i arbeidet med å gjennomgå og korrigere innhold for Plan ₿ Academy, kan du bli med i [vår Telegram-gruppe] (https://t.me/PlanBNetwork_ContentBuilder) som er dedikert til bidrag. Presenter deg selv kort, og spesifiser deretter innholdet du ønsker å gjennomgå og språket. Gjør rettelsene dine på en arbeidsgren, og send inn en PR når du er ferdig med gjennomgangen.
+Hvis du ønsker å delta i arbeidet med å gjennomgå og korrigere innhold for Plan ₿ Academy, kan du bli med i [vår Telegram-gruppe](https://t.me/PlanBNetwork_ContentBuilder) som er dedikert til bidrag. Presenter deg selv kort, og spesifiser deretter innholdet du ønsker å gjennomgå og språket. Gjør rettelsene dine på en arbeidsgren, og send inn en PR når du er ferdig med gjennomgangen.
 
 Hvis du ikke forsto delen ovenfor, ikke bekymre deg - denne veiledningen er for deg!
 
@@ -21,7 +21,7 @@ Plan ₿ Academy har som mål å bli det offentlige torget i Bitcoin-cyberspace,
 
 Plan ₿ Academy er grunnleggende flerspråklig, ettersom målet vårt er å gjøre Bitcoin-ressurser tilgjengelige for alle over hele verden. Vi mener at språk ikke bør være en barriere for suverene penger.
 
-For å oppnå dette bruker vi en Human x AI-tilnærming. Gjennom [programmet] (https://github.com/Asi0Flammeus/LLM-Translator) kan vi automatisk oversette innholdet vårt til mange språk. Vi trenger imidlertid en person som snakker språket flytende, for å sikre at innholdet er forståelig og fritt for upassende termer.
+For å oppnå dette bruker vi en Human x AI-tilnærming. Gjennom [programmet](https://github.com/Asi0Flammeus/LLM-Translator) kan vi automatisk oversette innholdet vårt til mange språk. Vi trenger imidlertid en person som snakker språket flytende, for å sikre at innholdet er forståelig og fritt for upassende termer.
 
 Hvis du vil bidra til å bygge opp dette utdanningsprosjektet for å fremme Bitcoin-utdanning i lokalsamfunnet ditt, kan du begynne med å se gjennom et kurs eller en veiledning.
 
@@ -37,16 +37,16 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ## 1. Opprett en konto
 
 
-- Opprett en konto på [GitHub] (https://github.com/) for å begynne å bidra. Hvis du vil ha veiledning om hvordan du oppretter en GitHub-konto, har vi også en detaljert veiledning:
+- Opprett en konto på [GitHub](https://github.com/) for å begynne å bidra. Hvis du vil ha veiledning om hvordan du oppretter en GitHub-konto, har vi også en detaljert veiledning:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-- Du trenger også en konto på meldingsappen [Telegram] (https://telegram.org/).
+- Du trenger også en konto på meldingsappen [Telegram](https://telegram.org/).
 
 ## 2. Bli med i Telegram-gruppen
 
 
-- Bli med i [Plan ₿ Academy Content Builder-gruppen] (https://t.me/PlanBNetwork_ContentBuilder) på Telegram.
+- Bli med i [Plan ₿ Academy Content Builder-gruppen](https://t.me/PlanBNetwork_ContentBuilder) på Telegram.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -143,7 +143,7 @@ For mer informasjon om retningslinjene som skal følges ved korrekturlesing på 
 ## 7. Vent på vurdering
 
 
-- Gratulerer, PR-en din har blitt sendt inn! Du kan følge med på fremdriften i "Pull requests"-fanen på [Plan ₿ Academy's GitHub repository] (https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- Gratulerer, PR-en din har blitt sendt inn! Du kan følge med på fremdriften i "Pull requests"-fanen på [Plan ₿ Academy's GitHub repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 
@@ -154,5 +154,5 @@ For mer informasjon om retningslinjene som skal følges ved korrekturlesing på 
 ![REVIEW](assets/fr/16.webp)
 
 
-- Hvis du har kommentarer, spørsmål eller kommentarer til dette prosjektet, er du velkommen til å sende en DM [til bidragsyternes Telegram-gruppe] (https://t.me/PlanBNetwork_ContentBuilder).
+- Hvis du har kommentarer, spørsmål eller kommentarer til dette prosjektet, er du velkommen til å sende en DM [til bidragsyternes Telegram-gruppe](https://t.me/PlanBNetwork_ContentBuilder).
 

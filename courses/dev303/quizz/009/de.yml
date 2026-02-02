@@ -1,0 +1,8 @@
+question: Was wird mit dem Befehl "cargo new project_name" automatisch als Teil der Projektstruktur angelegt?
+answer: Ein Git-Repository, die Datei Cargo.toml und die einfache Datei main.rs mit dem Programm Hello World
+wrong_answers:
+  - Nur eine Cargo.toml-Konfigurationsdatei und eine leere Quellverzeichnisstruktur
+  - Eine vollständige Testsuite, Dokumentationsdateien und eine produktionsreife Konfiguration
+  - Binäre ausführbare Dateien, Zielverzeichnis und Release-Build-Konfiguration
+explanation: |
+  Mit dem Befehl "cargo new" wird ein umfassendes Projektfundament erstellt, das ein Git-Repository für die Versionskontrolle, eine Datei "Cargo.toml" für die Projektkonfiguration und Abhängigkeiten sowie eine einfache Datei "main.rs" mit einem "Hello, world!"-Programm enthält. Damit ist alles vorhanden, um sofort mit der Entwicklung zu beginnen. Die anderen Optionen sind falsch, da cargo new keine Testsuiten, Dokumentationsdateien, ausführbare Binärdateien oder Build-Artefakte erstellt, sondern nur die anfängliche Projektstruktur einrichtet.

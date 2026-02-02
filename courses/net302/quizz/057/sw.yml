@@ -6,4 +6,4 @@ wrong_answers:
   - GATEWAY=dhcp
 explanation: |
   Kigezo cha "BOOTPROTO=dhcp" kinabainisha kuwa Interface inapaswa kupata usanidi wake kupitia itifaki ya DHCP.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: 本章所述的 LND (REST) 连接必须在 Zeus 中设置哪个端口？
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  要从 Umbrel 上的 LND 节点访问 API，需要在配置 Zeus 时使用 8080 端口。
+reviewed: false

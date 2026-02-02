@@ -1,5 +1,6 @@
 ---
-term: INSCRIPTIONS
+term: Inscriptions
+definition: Contenus arbitraires gravés sur des satoshis via le protocole Ordinals, créant des artefacts numériques.
 ---
 
 Dans le cadre de la théorie des Ordinals, les inscriptions sont des contenus arbitraires gravés sur des sats, transformant ces derniers en artefacts numériques natifs de Bitcoin. Les inscriptions sont effectuées via des transactions qui exposent le contenu de l'information dans le script d'un input Taproot de cette manière :

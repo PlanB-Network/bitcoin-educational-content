@@ -1,0 +1,8 @@
+question: Hvilken rolle har UDL-filen (Unified Definition Language) i UniFFI-arbeidsflyten?
+answer: Den fungerer som en grensesnittspesifikasjon som beskriver hvilke deler av Rust-biblioteket som skal eksponeres for andre språk
+wrong_answers:
+  - Den inneholder den faktiske Rust-implementeringskoden som blir kompilert til målspråkbindingene
+  - Den fungerer som en konfigurasjonsfil for kjøretid som håndterer minneallokering mellom ulike språkmiljøer
+  - Det gir et testrammeverk for validering av korrektheten til genererte bindinger på tvers av flere plattformer
+explanation: |
+  UDL-filen fungerer som en kontrakt eller spesifikasjon mellom Rust-implementeringen og de genererte språkbindingene. Den inneholder ikke selve Rust-koden, og den håndterer heller ikke kjøretidsoperasjoner eller testing. I stedet definerer den deklarativt hvilke funksjoner, typer og grensesnitt fra Rust-biblioteket som skal gjøres tilgjengelig for andre språk, og spesifiserer hvordan de skal tilordnes og presenteres i målspråkets opprinnelige grensesnitt.

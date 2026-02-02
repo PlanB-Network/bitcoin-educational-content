@@ -1,0 +1,9 @@
+question: Dushingiye ku nsobanuro ya Pieter Wuille, ‘ukutagira icizigiro’ bisobanura iki mu bijanye n’uburyo busanzwe?
+answer: Uburyo butasaba ko umuntu wese yizigirwa akora neza .
+wrong_answers:
+  - Uburyo aho abakoresha badashobora kwizigira uwo ari we wese mu bari muri iyo nama canke abavyemeza
+  - Uburyo bukuraho ubwoko bwose bw'ukwizigirana harimwo n'ibikoresho
+  - Uburyo aho amafaranga adashobora gusubirwamwo canke guhakanwa n'umuntu n'umwe
+explanation: |
+  Trustless yerekeza cane cane ku mutungo w’ubuhinga aho uburyo busanzwe bushobora gukora neza ata n’umwe asabwa yizigirwa. Ivyo bitandukanye n’ugukuraho ukwizigira kwose (uracarizigira porogarama/ibikoresho vyawe) canke gukingira uguhinduka (amafaranga ya Bitcoin ashobora guhindurwa biciye mu gusubira kwandika uruhererekane). Ijambo kandi ntirisobanura ko abakoresha badashobora kwizigira abaje mu nama - ahubwo, ukugororoka kwa sisitemu ntikuvana no kubazigira.
+reviewed: false

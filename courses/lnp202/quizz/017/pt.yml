@@ -1,0 +1,9 @@
+question: O que representa o saldo do Lightning wallet apresentado na interface da aplicação LND?
+answer: A soma da liquidez de saída
+wrong_answers:
+  - A soma das cadeias activas
+  - A soma da liquidez de entrada
+  - A soma das capacidades dos canais
+explanation: |
+  O saldo do Lightning corresponde ao sats disponível para ser gasto através dos canais, ou seja, a soma da liquidez de saída de todos os canais do nó.
+reviewed: false

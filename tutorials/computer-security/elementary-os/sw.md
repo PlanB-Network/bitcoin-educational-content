@@ -62,7 +62,7 @@ Kabla ya kuanza ufungaji, hakikisha kuwa una vifaa vifuatavyo:
 
 - ** Kitufe cha USB** cha angalau GB 12
 - Kumbukumbu ya **RAM** ya angalau GB 4
-- **Diski ya Hard ya GB 20** au zaidi kwa matumizi ya starehe
+- **Hard disk ya GB 20** au zaidi kwa matumizi ya starehe
 
 
 
@@ -233,7 +233,7 @@ Kabla ya kuzindua usakinishaji, unaweza kuidhinisha usakinishaji wa kiotomatiki 
 
 
 
-Mara baada ya kumaliza, bofya kitufe cha **ingiza ** ili kuanzisha upya, kisha uondoe kitufe cha USB kwa wakati unaofaa ili kuepuka kuanzisha upya usakinishaji.
+Mara baada ya kumaliza, bofya kitufe cha **ingiza** ili kuanzisha upya, kisha uondoe kitufe cha USB kwa wakati unaofaa ili kuepuka kuanzisha upya usakinishaji.
 
 
 
@@ -281,7 +281,7 @@ Hakikisha mpangilio wa kibodi ndio unaotaka.
 
 
 
-Husisha akaunti ya mtumiaji na mfumo wako wa uendeshaji kwa kufafanua jina la mtumiaji na kisha kupata ufikiaji wa data yako kwa nenosiri la alphanumeric la angalau vibambo na alama 20.
+Husisha akaunti ya mtumiaji na mfumo wako wa uendeshaji kwa kufafanua jina la mtumiaji, kisha upate ufikiaji wa data yako kwa nenosiri la alphanumeric lenye angalau herufi 20.
 
 
 
@@ -376,7 +376,7 @@ Amri hii husakinisha **Git**, **Python 3**, **pip**, **zana za mkusanyaji**, **w
 
 
 
-Mfumo wa Uendeshaji wa Msingi sasa umeanza kutumika kwenye mashine yako. Falsafa yake ya unyenyekevu, wepesi na uzuri hufanya kuwa chaguo bora kwa matumizi ya kibinafsi na ya kitaaluma. Unapata mfumo thabiti, wa majimaji na usio na vitu vingi, tayari kubinafsishwa kulingana na matakwa yako. Iwe ni kwa ajili ya maendeleo, matumizi ya ofisi au kuvinjari kila siku, kila kitu kiko tayari kujenga mazingira bora, angavu na ya kufurahisha ya kufanyia kazi. Pia angalia mafunzo yetu juu ya Fedora, usambazaji rahisi, thabiti na wa kawaida wa Linux.
+Mfumo wa Uendeshaji wa Msingi sasa umeanza kutumika kwenye mashine yako. Falsafa yake ya unyenyekevu, wepesi, na uzuri hufanya iwe chaguo bora kwa matumizi ya kibinafsi na ya kitaaluma. Unapata mfumo thabiti, wa majimaji, na usio na vitu vingi, tayari kubinafsishwa kulingana na matakwa yako. Iwe ni kwa ajili ya maendeleo, matumizi ya ofisi, au kuvinjari kila siku, kila kitu kiko tayari kuunda mazingira bora, angavu, na ya kufurahisha ya kufanya kazi. Pia angalia mafunzo yetu kuhusu Fedora, usambazaji rahisi, thabiti, na wa kawaida wa Linux.
 
 
 

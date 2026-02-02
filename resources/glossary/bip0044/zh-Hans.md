@@ -1,6 +1,7 @@
 ---
 term: BIP0044
 
+definition: 定义 HD 钱包派生路径完整结构的标准：purpose、coin_type、account、change 和 address_index。
 ---
 为 HD 钱包引入标准分层派生结构的改进建议。BIP44 基于 BIP32 所确立的密钥派生原则和 BIP43 所确立的 “目的” 字段使用原则。它引入了五层衍生结构 `m / purpose' / coin_type' / account' / change / address_index`。每个深度的详细信息如下：
 

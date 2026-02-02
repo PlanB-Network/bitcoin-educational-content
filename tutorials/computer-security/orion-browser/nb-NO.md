@@ -522,15 +522,16 @@ For å holde Orion rask og privat:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kriterium | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetri** | Ingen | Minimal | Omfattende | Moderat | Minimal |
+| **Native blokkering** | 99,9% effektiv | Grunnleggende | Fraværende | Delvis | Fullstendig |
+| **Utvidelser** | Chrome + Firefox | Begrenset | Kun Chrome | Kun Firefox | Kun Chrome |
+| **Mac-ytelse** | Utmerket | Utmerket | God | Gjennomsnittlig | God |
+| **RAM-forbruk** | Svært lavt | Lavt | Høyt | Gjennomsnittlig | Gjennomsnittlig |
+| **Åpen kildekode** | Delvis | Delvis (WebKit) | Delvis | Fullstendig | Fullstendig |
+| **Plattformer** | Mac/iOS | Mac/iOS | Alle | Alle | Alle |
 
 **I motsetning til Safari**: Orion tilbyr overlegen beskyttelse med sin avanserte blokkering og støtte for utvidelser, samtidig som WebKit-ytelsen opprettholdes.
 
@@ -660,8 +661,8 @@ Test oppsettet etter at du har konfigurert det:
 
 
 - [Cover Your Tracks (EFF)](https://coveryourtracks.eff.org/) - Fingeravtrykkstest
-- [DNS Leak Test] (https://www.dnsleaktest.com/) - Se etter DNS-lekkasjer
-- [BrowserLeaks] (https://browserleaks.com/) - Komplett pakke med personverntester
+- [DNS Leak Test](https://www.dnsleaktest.com/) - Se etter DNS-lekkasjer
+- [BrowserLeaks](https://browserleaks.com/) - Komplett pakke med personverntester
 
 
 
@@ -673,9 +674,9 @@ For maksimal beskyttelse, se våre andre guider:
 
 
 
-- [Firefox hardened] (https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Avansert konfigurasjon for flere plattformer
-- [Tor Browser] (https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Fullstendig anonymitet på nettet
-- [Mullvad Browser] (https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maksimal beskyttelse mot fingeravtrykk
+- [Firefox hardened](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Avansert konfigurasjon for flere plattformer
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Fullstendig anonymitet på nettet
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maksimal beskyttelse mot fingeravtrykk
 
 
 

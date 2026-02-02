@@ -1,0 +1,8 @@
+question: Waarom vertoont legacy Bitcoin transactievalidatie een kwadratische tijdscomplexiteit met betrekking tot het aantal ingangen?
+answer: Elke invoer vereist zijn eigen sighashberekening over een structuur die alle invoer in de transactie omvat
+wrong_answers:
+  - Elke ingang moet handtekeningen verifiëren tegen alle andere ingangen om double-spending binnen de transactie te voorkomen
+  - Het stapelgebaseerde uitvoeringsmodel vereist geneste lussen om opcodes te verwerken voor elke invoercombinatie
+  - "De ScriptSig van elke invoer moet worden gevalideerd tegen de ScriptPubKey van elke uitvoer om de juiste overeenkomst te vinden."
+explanation: |
+  Legacy Bitcoin validatie creëert een kwadratische complexiteit omdat elke invoer zijn eigen sighash berekening nodig heeft, maar elke berekening verwerkt een transactiestructuur die alle invoer bevat. Met n ingangen creëert dit n×n operaties. SegWit lost dit op door gedeelde delen van de sighash berekening te cachen, waardoor de complexiteit wordt teruggebracht tot lineaire tijd en potentiële denial-of-service aanvallen van grote multi-invoer transacties worden voorkomen.

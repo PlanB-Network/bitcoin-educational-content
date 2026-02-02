@@ -1,9 +1,9 @@
-question: 什么数据结构概括了区块中的交易？
-answer: Merkle Tree
+question: 区块中的交易使用什么数据结构？
+answer: 哈希树（Merkle Tree）
 wrong_answers:
-  - Hash UTXO 表
+  - UTXO 哈希表
   - peers.dat 文件
-  - 假设寄存器
+  - assumeutxo 参数
 explanation: |
-  区块中的事务被提交到 Merkle Tree，Merkle Tree 的根包含在区块头中，以确保区块的完整性。
+  区块中的交易被包括在 Merkle Tree 中，Merkle Tree 的根将被包含在区块头中，以确保区块的真实性。
 reviewed: true

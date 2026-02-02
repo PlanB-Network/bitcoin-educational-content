@@ -1,0 +1,8 @@
+question: Dalam model konsensus federasi Liquid, berapa jumlah minimum tanda tangan fungsionaris yang diperlukan untuk memvalidasi blok, dan berapa jumlah maksimum kegagalan node yang dapat ditoleransi oleh jaringan?
+answer: diperlukan 11 tanda tangan, dapat mentolerir hingga 4 kegagalan node
+wrong_answers:
+  - diperlukan 8 tanda tangan, dapat mentolerir hingga 7 kegagalan node
+  - diperlukan 15 tanda tangan, dapat mentolerir hingga 2 kegagalan node
+  - diperlukan 9 tanda tangan, dapat mentolerir hingga 6 kegagalan node
+explanation: |
+  Liquid menggunakan sistem ambang batas 11 dari 15 di mana setidaknya 11 dari 15 fungsionaris harus menandatangani setiap blok agar valid. Desain ini memungkinkan jaringan untuk terus beroperasi bahkan jika sampai 4 node gagal (15 - 11 = 4). Pilihan lainnya memberikan ambang batas tanda tangan yang salah atau salah menghitung toleransi kesalahan, yang selalu total node dikurangi tanda tangan yang diperlukan.

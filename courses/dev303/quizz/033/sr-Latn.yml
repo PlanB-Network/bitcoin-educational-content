@@ -1,0 +1,8 @@
+question: Koja promenljiva okruženja može biti postavljena da prikaže kompletan trag poziva kada dođe do panike u Rust?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - RUST_PANIC_TRACE
+explanation: |
+  RUST_BACKTRACE je ispravna promenljiva okruženja koja pruža dodatne informacije za debagovanje prikazivanjem kompletnog steka poziva koji je doveo do panike. Ovo pomaže programerima da prate tačno koji niz poziva funkcija je rezultirao greškom. Druge opcije (RUST_STACKTRACE, RUST_DEBUG_TRACE i RUST_PANIC_TRACE) nisu važeće Rust promenljive okruženja i neće proizvesti nikakav debag izlaz kada dođe do panike.

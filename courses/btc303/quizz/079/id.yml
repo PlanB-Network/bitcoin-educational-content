@@ -1,0 +1,9 @@
+question: Menurut kerangka kerja pengungkapan yang bertanggung jawab, apa alasan strategis utama untuk menyediakan patch kerentanan kepada pengembang altcoin hanya setelah perbaikan disebarkan secara luas di jaringan Bitcoin?
+answer: Untuk mencegah penyerang mengeksploitasi kerentanan yang sama pada Bitcoin saat altcoin sedang ditambal
+wrong_answers:
+  - "Untuk mempertahankan keunggulan kompetitif Bitcoin dibandingkan dengan implementasi mata uang kripto alternatif"
+  - Untuk memastikan pengembang altcoin memiliki waktu yang cukup untuk memahami dan mengimplementasikan perbaikan dengan benar
+  - Untuk menghindari masalah tanggung jawab hukum yang dapat timbul dari pengungkapan dini kepada proyek pihak ketiga
+explanation: |
+  Strategi pengaturan waktu ini mencerminkan pendekatan yang mengutamakan keamanan di mana jaringan Bitcoin harus dilindungi sebelum membantu yang lain. Jika altcoin diberitahukan secara bersamaan, penyerang dapat mempelajari implementasi altcoin atau mengeksploitasinya untuk memahami kerentanannya, kemudian berpotensi menyerang node Bitcoin yang belum diupgrade. Pendekatan berurutan memastikan perlindungan Bitcoin secara luas sebelum memperluas bantuan ke jaringan lain, meminimalkan jendela eksploitasi kerentanan di seluruh ekosistem.
+reviewed: false

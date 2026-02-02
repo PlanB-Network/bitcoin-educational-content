@@ -1,21 +1,19 @@
 ---
-name: Hyperinflation Studies
+name: Hyperinflation Case Studies
 goal: Understanding the emergence of hyperinflations in a Fiat world and their consequences
 objectives:
-  - Study hyperinflation cycles
-  - Understand the real impacts of hyperinflation on our everyday lives
-  - Study the similarities of hyperinflations throughout time
-  - Have a concrete idea of how to protect oneself from hyperinflation
+- Study hyperinflation cycles
+- Understand the real impacts of hyperinflation on our everyday lives
+- Study the similarities of hyperinflations throughout time
+- Have a concrete idea of how to protect oneself from hyperinflation
 ---
+# A Journey Through Economic Collapse
 
-# A journey into the economy
+What does it look like when money loses its meaning? 
+This course guides you through the fascinating yet sobering world of hyperinflation. You will discover historical episodes and modern cases where currencies collapsed and economies transformed overnight. You'll uncover the patterns, causes, and real-world impact on everyday people, gaining insight into one of economics' most dramatic phenomena.
 
-This program aims to provide a deep understanding of the emergence of hyperinflations in a world dominated by Fiat currency and to examine their significant consequences. Participants will delve into hyperinflation cycles in detail, examining the causes, triggers, and providing historical and contemporary examples. They will also examine the tangible impact of hyperinflation on the economy and daily life, studying the repercussions on currency value, purchasing power, and individual and collective savings.
-
-Here, we will highlight trends and common patterns in episodes of hyperinflation throughout history, while providing effective and concrete strategies to protect oneself during periods of hyperinflation. Participants will have the opportunity to explore various investment options and financial defense mechanisms, acquiring practical tools and essential knowledge to navigate calmly in an unstable economic climate.
-
+Along the way, you'll also discover how individuals and communities have navigated these turbulent periods. Learn the strategies that have helped protect wealth during currency crises and build a deeper understanding of financial resilience. If you're curious about economic forces that shape our world, this journey offers both knowledge and practical perspective.
 +++
-
 # Introduction
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
@@ -275,7 +273,7 @@ Modern Monetary Theory (MMT) offers a distinct perspective on money creation and
 An illustrative example of MMT is the American military-industrial complex. According to MMT, hundreds of billions of dollars can be allocated to this sector without causing inflation, thanks to its ability to absorb the funds. In contrast, if substantial funds are injected into road construction in the United States, where there is a limited number of companies and labor, inflation could occur due to resource scarcity and increased costs demanded by suppliers.
 Japan is often cited by MMT proponents as another example of the absence of inflation despite significant monetary printing. However, the situation in Japan also highlights the limitations of traditional inflation measures, such as the Consumer Price Index (CPI). In Japan, a significant portion of the printed money is either saved or invested in real estate or the stock market, rather than spent on current consumption. The CPI, by not fully capturing these dynamics, may underestimate actual inflation.
 
-The analysis of Japan (https://ideas.repec.org/p/ces/ceswps/_9821.html) also highlights that the behavior of economic agents, such as saving or investing in assets not included in the CPI, can mask the inflationary impact of monetary printing. Furthermore, the ability of different sectors to absorb injected liquidity plays a crucial role in determining whether inflation occurs.
+[The analysis of Japan](https://ideas.repec.org/p/ces/ceswps/_9821.html) also highlights that the behavior of economic agents, such as saving or investing in assets not included in the CPI, can mask the inflationary impact of monetary printing. Moreover, the ability of different sectors to absorb the injected liquidity plays a crucial role in whether inflation materializes or not.
 
 #### Bank and Central Bank Balance Sheets
 

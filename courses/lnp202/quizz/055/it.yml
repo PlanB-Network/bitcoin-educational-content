@@ -1,0 +1,9 @@
+question: Nel flusso NWC, quando avviene la crittografia sul lato dell'applicazione?
+answer: Prima della pubblicazione sul relay
+wrong_answers:
+  - Dopo aver letto il nodo
+  - Dopo la pubblicazione sul relay
+  - Mai
+explanation: |
+  L'applicazione serializza la richiesta, la crittografa e la pubblica come evento su un relay Nostr.
+reviewed: false

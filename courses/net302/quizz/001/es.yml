@@ -6,4 +6,4 @@ wrong_answers:
   - Malla
 explanation: |
   En una topología en estrella, cada dispositivo está conectado a un dispositivo central, lo que facilita la gestión y el mantenimiento.
-reviewed: false
+reviewed: true

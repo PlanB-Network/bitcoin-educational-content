@@ -1,0 +1,9 @@
+question: ใช้วิธีใดในการปกป้องการตรวจสอบย้อนกลับของธุรกรรม on-chain?
+answer: การใช้เทคนิค coinjoin และ payjoin
+wrong_answers:
+  - การใช้ที่อยู่รับเดียวกันซ้ำ
+  - การรวม UTXOs บ่อยครั้ง
+  - การฝากเงินเข้าบัญชีผู้ดูแล wallet
+explanation: |
+  Coinjoins และ payjoins ช่วยปรับปรุงความเป็นส่วนตัวของกิจกรรม on-chain
+reviewed: false

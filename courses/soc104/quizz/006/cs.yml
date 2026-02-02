@@ -1,0 +1,11 @@
+question: Jakých pět částí je uvedeno v politickém diagramu Nolanova diagramu?
+answer: Etatismus (dole), socialismus (vlevo), konzervatismus (vpravo), libertariánství (nahoře) a centrismus (uprostřed)
+wrong_answers:
+  - Autoritářství (dole), liberalismus (vlevo), nacionalismus (vpravo), anarchismus (nahoře) a populismus (uprostřed)
+  - Totalitarismus (dole), progresivismus (vlevo), tradicionalismus (vpravo), kapitalismus (nahoře) a umírněnost (uprostřed)
+  - Fašismus (dole), komunismus (vlevo), republikanismus (vpravo), demokracie (nahoře) a pragmatismus (uprostřed)
+explanation: |
+  Nolanův diagram konkrétně rozděluje politické spektrum na pět různých částí podle ekonomické a osobní svobody. Etatismus představuje
+  maximální vládní kontrolu v dolní části, zatímco libertariánství na vrcholu představuje maximální svobodu v obou dimenzích. Socialismus (vlevo) podporuje osobní
+  svobodu, ale staví se proti ekonomické svobodě, zatímco konzervatismus (vpravo) podporuje ekonomickou svobodu, ale omezuje svobodu osobní. Centrismus zaujímá střední polohu,
+  mísí prvky obou svobod s určitou regulací.

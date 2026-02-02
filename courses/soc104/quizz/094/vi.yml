@@ -1,0 +1,9 @@
+question: Theo phê bình cơ bản của Satoshi Nakamoto, vấn đề cốt lõi của các hệ thống tiền tệ pháp định truyền thống là gì?
+answer: Chúng đòi hỏi sự tin tưởng tuyệt đối vào các thể chế tập trung, những thể chế trong lịch sử đã vi phạm lòng tin đó thông qua việc phá giá tiền tệ.
+wrong_answers:
+  - Họ thiếu cơ sở hạ tầng công nghệ cần thiết để xử lý các giao dịch kỹ thuật số hiện đại một cách hiệu quả và an toàn.
+  - Chúng tạo ra quá nhiều biến động trong tỷ giá hối đoái, khiến thương mại quốc tế trở nên khó dự đoán và tốn kém.
+  - Họ nói rằng phí giao dịch quá cao khiến cho việc thanh toán vi mô trở nên không khả thi về mặt kinh tế đối với người dùng thông thường.
+explanation: |
+  Satoshi Nakamoto đã khẳng định rõ ràng rằng "vấn đề cốt lõi của tiền tệ truyền thống là tất cả sự tin tưởng cần thiết để nó hoạt động" và "lịch sử của tiền tệ pháp định đầy rẫy những vi phạm niềm tin đó".
+  Sự chỉ trích của ông tập trung vào sự phụ thuộc cơ bản vào các ngân hàng trung ương trong việc không phá giá tiền tệ, điều mà họ đã nhiều lần thất bại trong việc thực hiện. Các lựa chọn khác, mặc dù có thể là những mối lo ngại chính đáng về các hệ thống truyền thống, nhưng lại bỏ qua sự phản đối triết học cốt lõi của Nakamoto đối với các hệ thống tiền tệ dựa trên niềm tin và động lực của ông trong việc tạo ra một giải pháp thay thế không cần niềm tin.

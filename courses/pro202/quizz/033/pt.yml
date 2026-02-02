@@ -1,0 +1,8 @@
+question: Ao gastar uma saída P2SH, que processo de validação em duas etapas deve ocorrer para que a transação seja considerada válida?
+answer: Primeiro, verifique se o HASH160 do script de resgate corresponde ao hash scriptPubKey e, em seguida, execute o script de resgate com os dados fornecidos
+wrong_answers:
+  - Primeiro, execute o script de resgate com os dados fornecidos e, em seguida, verifique se o hash resultante corresponde ao scriptPubKey
+  - Primeiro, verifique se todas as assinaturas são válidas em relação às suas chaves públicas e, em seguida, verifique se o hash do script de resgate corresponde
+  - Primeiro, confirme que o script de resgate contém códigos de operação válidos e, em seguida, verifique se a execução do script produz um resultado verdadeiro
+explanation: |
+  A validação do P2SH requer um processo específico de duas etapas: primeiro, o hash do script de resgate fornecido deve corresponder ao hash de 20 bytes no scriptPubKey (verificação HASH160) e só depois de esta verificação ser aprovada é que a rede executa o script de resgate com os dados de desbloqueio. Esta conceção garante que apenas o script de resgate correto pode ser utilizado, mantendo as condições reais de despesa ocultas até que a despesa ocorra. As outras opções descrevem sequências de validação plausíveis mas incorrectas que não seguem o protocolo P2SH real.

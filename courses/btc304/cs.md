@@ -28,7 +28,7 @@ V BTC304 se podíváme na to, proč je budování komunity důležité, prozkoum
 
 
 
-Vítejte v BTC302!
+Vítejte v BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Sami můžete rychle prozkoumat jeden z mnoha tunelů v králičí noře Bitcoin
 
 
 
-## BTC302, Co bude dál
+## BTC 304, Co bude dál
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-V tomto kurzu BTC302 jsme se podrobně věnovali tomu, jak založit komunitu nebo meet-up a jak spustit různé projekty.
+V tomto kurzu BTC 304 jsme se podrobně věnovali tomu, jak založit komunitu nebo meet-up a jak spustit různé projekty.
 
 
 Až bude vaše komunita připravena učinit další krok, můžete **založit formální sdružení**.
@@ -2853,11 +2853,9 @@ Výhody jsou dvojí:
 - **Strukturovaná organizace**: můžete definovat jasné role, což usnadňuje řízení komunity a realizaci projektů.
 
 
-Abyste pomohli své komunitě dále růst, **doplnění kurzu COMMU302**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+S cílem podpořit další rozkvět vaší komunity **nelze vyloučit, že v nadcházejících měsících vyjde pokračování tohoto školení na [Plan ₿ Academy](https://planb.academy/)**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-může být v příštích měsících zveřejněn na [planb.network](https://planb.academy/).
 
 
 Další zasedání by se mohlo zabývat pokročilými tématy, jako jsou:

@@ -1,0 +1,8 @@
+question: Menurut sistem kepemilikan Rust, berapa banyak pemilik yang dapat memiliki sebuah nilai pada saat tertentu?
+answer: Tepat satu pemilik
+wrong_answers:
+  - Pemilik ganda diperbolehkan
+  - Maksimal dua pemilik
+  - Tidak ada pemilik sampai diakses
+explanation: |
+  Sistem kepemilikan Rust beroperasi berdasarkan tiga aturan dasar, yang pertama adalah bahwa setiap nilai hanya memiliki satu pemilik pada saat tertentu. Prinsip kepemilikan tunggal ini sangat penting untuk keamanan memori karena mencegah beberapa bagian dari program untuk mencoba membebaskan memori yang sama atau memodifikasi data secara bersamaan. Memiliki banyak pemilik akan menyebabkan bug yang tidak dapat digunakan lagi dan perlombaan data, sementara tidak ada pemilik berarti memori tidak akan pernah dapat dibersihkan dengan benar.

@@ -1,8 +1,9 @@
-question: Lightning Network 允許什麼？
-answer: 即時、低成本的 Bitcoin 交易。
+question: Lightning Network 的主要目標是什麼？
+answer: 實現快速且低成本的鏈下支付
 wrong_answers:
-  - 即時、高成本的 Bitcoin 交易。
-  - 延遲、低成本的 Bitcoin 交易。
-  - 延遲、高成本的 Bitcoin 交易。
-explanation: >-
-reviewed: true
+  - 增加比特幣區塊鏈的區塊大小
+  - 逐步以更高效的系統取代比特幣區塊鏈
+  - 讓礦場變得非常富有
+explanation: |
+  Lightning Network 旨在不對主區塊鏈造成負擔的情況下，實現手續費低、幾乎即時的比特幣支付。
+reviewed: false

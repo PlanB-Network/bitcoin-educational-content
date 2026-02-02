@@ -1,6 +1,7 @@
 ---
-term: ADAPTER SIGNATUR
+term: Adaptor signature
 
+definition: En kryptografisk teknikk som binder en signatur til en hemmelighet, slik at publisering av signaturen avslører hemmeligheten. Nyttig for atomiske bytter uten en pålitelig mellommann.
 ---
 Kryptografisk metode som gjør det mulig å kombinere en ekte signatur med en tilleggssignatur (kalt en "adaptorsignatur") for å avsløre en hemmelig del av dataene. Denne metoden fungerer slik at hvis man kjenner til to elementer blant den gyldige signaturen, tilpasningssignaturen og hemmeligheten, kan man utlede det tredje elementet som mangler. En av de interessante egenskapene ved denne metoden er at hvis vi kjenner motpartens adaptorsignatur og det spesifikke punktet på den elliptiske kurven som er knyttet til hemmeligheten som ble brukt til å beregne adaptorsignaturen, kan vi utlede vår egen adaptorsignatur som passer med den samme hemmeligheten, uten å ha direkte tilgang til selve hemmeligheten. I en utveksling mellom to interessenter som ikke stoler på hverandre, gjør denne teknikken det mulig å avsløre to sensitive opplysninger mellom deltakerne samtidig. Denne prosessen eliminerer behovet for tillit i øyeblikkelige transaksjoner som Coin Swap eller Atomic Swap. La oss ta et eksempel for å forstå det bedre. Alice og Bob ønsker å sende 1 BTC til hverandre, men de stoler ikke på hverandre. De vil derfor bruke adaptorsignaturer for å oppheve behovet for tillit til den andre parten i denne utvekslingen (og dermed gjøre det til en "atomisk" utveksling). De går frem på følgende måte:
 

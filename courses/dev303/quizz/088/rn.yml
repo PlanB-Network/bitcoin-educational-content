@@ -1,0 +1,8 @@
+question: Ni ingorane iyihe y’ishimikiro mu guteza imbere ubuhinga butandukanye UniFFI itorera umuti iyo ikorana n’amasomero ya Rust?
+answer: Ivyerekeye guhingura n'amaboko kode y'ururimi rwose rw'intumbero igihe ugaragaza FFI y'urugero ruto rwa Rust
+wrong_answers:
+  - Ubushobozi bwa Rust bwo gukoranya ama binaire kavukire ashobora gukoreshwa kuri sisitemu nyinshi zikoreshwa
+  - Kubura umutekano wo kwibuka igihe kode ya Rust ikorana n’indimi zikwegeranywa mu myanda
+  - "Igiciro c'ibikorwa cashizweho igihe bahindura urugero rw'ubutunzi bwa Rust mu ndimi ziharurwa"
+explanation: |
+  UniFFI itorera umuti cane cane ingorane yo kwandika n’amaboko kode y’ubufatanye ku rurimi rwose rwo gukoresha. Iyo Rust ihuriye ku gisohoka ca kabiri, itanga igikorwa c’amahanga Interface (FFI) kiri ku rugero ruto kandi kigoye gukoresha ataco kivuze kivuye mu ndimi zo ku rugero rwo hejuru. Mu migenzo, abahinguzi bategerezwa kwandika kode y’ururimi rwose (Python, Swift, Kotlin, n’ibindi), bikaba vyatuma habaho intambamyi zikomeye zo kwemera. UniFFI irakuraho iyo nzira y’ugusubira inyuma mu gutuma izo nzira zifatanya biciye ku buryo bwayo bwo gusobanura UDL.

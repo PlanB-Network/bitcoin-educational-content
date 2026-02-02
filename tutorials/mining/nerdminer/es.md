@@ -1,14 +1,14 @@
 ---
 name: Nerdminer
-description: Comienza a minar bitcoin con una probabilidad de ganar cercana a 0
+description: Comienza a minar Bitcoin con una probabilidad de ganar cercana a 0
 ---
 
 ![portada](assets/cover.webp)
 
-## Configuración de su NerdMiner v2
+## Configuración de tu NerdMiner v2
 
-En este tutorial, te guiaremos a través de los pasos necesarios para configurar un NerdMiner_v2, que es un hardware (un ESP-32 S3) dedicado a la minería de bitcoin.
-Obviamente, la potencia de cálculo de un dispositivo como este no puede competir con los ASIC de los mineros aficionados o profesionales. Sin embargo, el NerdMiner es una herramienta educativa perfecta para hacer la minería de bitcoin más concreta. Y quién sabe, con (mucha mucha) suerte, tal vez encuentres un bloque y la recompensa que lo acompaña. Para los curiosos, veremos en la sección [Estimación de la probabilidad de ganancia](#estimacion-de-la-probabilidad-de-ganancia). En términos de consumo eléctrico, un NerdMiner consume 0.5W; para comparar, una lámpara LED consume en promedio 20 veces más.
+En este tutorial, te guiaremos a través de los pasos necesarios para configurar un NerdMiner_v2, que es un hardware (un ESP-32 S3) dedicado a la minería de Bitcoin.
+Obviamente, la potencia de cálculo de un dispositivo como este no puede competir con los ASIC de los mineros aficionados o profesionales. Sin embargo, el NerdMiner es una herramienta educativa perfecta para hacer la minería de Bitcoin más concreta. Y quién sabe, con (mucha mucha) suerte, tal vez encuentres un bloque y la recompensa que lo acompaña. Para los curiosos, veremos en la sección [Estimación de la probabilidad de ganancia](#estimacion-de-la-probabilidad-de-ganancia). En términos de consumo eléctrico, un NerdMiner consume 0.5W; para comparar, una lámpara LED consume en promedio 20 veces más.
 
 Antes de revisar los diferentes pasos, enumeremos el hardware necesario para realizarlo:
 
@@ -17,7 +17,7 @@ Antes de revisar los diferentes pasos, enumeremos el hardware necesario para rea
 - una carcasa 3D: si tienes una impresora 3D, puedes descargar el [archivo 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) o puedes comprar uno en la [tienda en línea de Silexperience](https://silexperience.company.site/NerdMiner_V2-p544379757).
 - una PC con el navegador Chrome instalado
 - una conexión a internet
-- una dirección de bitcoin
+- una dirección de Bitcoin
 
 También puedes comprar un kit NerdMiner ya ensamblado en varios distribuidores como:
 
@@ -26,11 +26,11 @@ También puedes comprar un kit NerdMiner ya ensamblado en varios distribuidores 
 
 En primer lugar, veremos cómo flashear el software en el ESP-32 S3, y luego veremos cómo reiniciarlo para cambiar la red wifi. Estos pasos están destinados a usuarios de Windows, si estás utilizando un sistema operativo Linux, realiza los [pasos preliminares](#pasos-preliminares-para-usuarios-de-linux) para permitir el reconocimiento del ESP-32 S3 por tu sistema.
 
-# Instalación del software NerdMiner_v2
+## Instalación del software NerdMiner_v2
 
 La instalación del software se simplifica en gran medida gracias al uso del webflasher.
 
-## Paso 1: Preparación del webflasher
+### Paso 1: Preparación del webflasher
 
 En primer lugar, debes ir al [flasher NM2 en línea](https://bitmaker-hub.github.io/diyflasher/).
 
@@ -40,7 +40,7 @@ Luego, selecciona el firmware correspondiente a tu ESP-32. La mayoría de las ve
 
 ![](assets/webflasher.webp)
 
-## Paso 2: Conexión del ESP-32
+### Paso 2: Conexión del ESP-32
 
 Una vez que se haya iniciado el webflasher, se abrirá una ventana emergente que muestra los diferentes puertos USB reconocidos por el navegador.
 En ese momento, puedes conectar tu ESP-32 y se mostrará un nuevo puerto (en este caso, es el puerto ttyACM0). Debes seleccionarlo y hacer clic en "connect".
@@ -51,7 +51,7 @@ El software se descargará en tu ESP32 en cuestión de segundos.
 
 ![](assets/NM2-sucessfully-installed.webp)
 
-## Paso 3: Configuración del NerdMiner
+### Paso 3: Configuración del NerdMiner
 
 La configuración de tu NerdMiner se realizará a través de un teléfono inteligente o una computadora.
 Activa el WiFi y conéctate a la red local NerdMinerAP. Si estás utilizando un teléfono inteligente, se abrirá automáticamente el portal de configuración; de lo contrario, ingresa la dirección 192.168.4.1 en un navegador.
@@ -77,55 +77,55 @@ También elige tu zona horaria para que el NerdMiner pueda mostrar correctamente
 
 ¡Felicitaciones, ahora eres parte de la red de minería de Bitcoin!
 
-## Manipulación del NerdMiner
+### Manipulación del NerdMiner
 
 El software NerdMinerv2 tiene 3 pantallas diferentes, a las que puedes acceder haciendo clic en el botón en la parte superior derecha de la pantalla:
 
 - La pantalla principal muestra las estadísticas de tu NerdMiner.
 - La segunda pantalla muestra la hora, tu hashrate, el precio de Bitcoin y la altura del bloque.
-- La tercera pantalla proporciona acceso a las estadísticas de la red mundial de minería de bitcoin.
+- La tercera pantalla proporciona acceso a las estadísticas de la red mundial de minería de Bitcoin.
   ![](assets/NM2-screens.webp)
 
-Si desea reiniciar su NerdMiner, por ejemplo, para cambiar la red WiFi, debe presionar el botón superior durante 5 segundos.
+Si deseas reiniciar tu NerdMiner, por ejemplo, para cambiar la red WiFi, deberás presionar el botón superior durante 5 segundos.
 
-Si presiona una vez el botón inferior, apagará su NerdMiner. Hacer clic dos veces invertirá la orientación de la pantalla.
+Si presionas una vez el botón inferior, apagarás tu NerdMiner. Hacer clic dos veces invertirá la orientación de la pantalla.
 
-### Pasos preliminares para usuarios de Linux
+#### Pasos preliminares para usuarios de Linux
 
-Aquí están los pasos para que Chrome pueda detectar su puerto serie en Linux.
+Aquí están los pasos para que Chrome pueda detectar tu puerto serie en Linux.
 
 1. Identificar el puerto asociado:
 
-- Conecte su ESP-32 a su computadora.
-- Abra una terminal.
-- Ingrese el siguiente comando para listar todos los puertos:
+- Conecta el ESP-32 a tu computadora.
+- Abre un terminal.
+- Ingresa el siguiente comando para listar todos los puertos:
   - `dmesg | grep tty`
   - o `ls /dev/tty*`
-- Para asegurarse del puerto, puede proceder por eliminación repitiendo el comando sin que el ESP-32 esté conectado.
+- Para asegurarse del puerto, puedes proceder por eliminación repitiendo el comando sin que el ESP-32 esté conectado.
 
 2. Cambiar los permisos del puerto asociado:
 
-- Por defecto, el acceso a los puertos serie puede requerir permisos de root, por lo que los haremos disponibles agregando su usuario al grupo `dialout`.
-  - `sudo usermod -a -G dialout SU_NOMBRE_DE_USUARIO`, reemplace `SU_NOMBRE_DE_USUARIO` con su nombre de usuario.
-  - luego cierre sesión y vuelva a iniciar sesión con este usuario, o reinicie el sistema para asegurarse de que los cambios de grupo surtan efecto.
+- Por defecto, el acceso a los puertos serie puede requerir permisos de root, por lo que los haremos disponibles agregando tu usuario al grupo `dialout`.
+  - `sudo usermod -a -G dialout TU_NOMBRE_DE_USUARIO`, reemplaza `TU_NOMBRE_DE_USUARIO` con tu nombre de usuario.
+  - luego cierra sesión y vuelve a iniciar sesión con este usuario, o reinicia el sistema para asegurarte de que los cambios de grupo surtan efecto.
 
-Ahora que su ESP-32 es reconocido por su sistema, puede volver al [primer paso](#etape-1-preparation-du-webflasher) para instalar el software.
+Ahora que tu ESP-32 es reconocido por elu sistema, puedes volver al [primer paso](#etape-1-preparation-du-webflasher) para instalar el software.
 
-## Conclusión
+### Conclusión
 
-¡Y eso es todo! Su NerdMiner_v2 ahora está configurado y listo para usar.
+¡Y eso es todo! Tu NerdMiner_v2 ahora está configurado y listo para usar.
 
-¡Buena minería y que la suerte esté de su lado!
+¡Buena minería y que la suerte esté de tu lado!
 
-### Estimación de la probabilidad de ganar
+#### Estimación de la probabilidad de ganar
 
 Divirtámonos estimando la probabilidad de ganar una recompensa de bloque. Esta estimación será aproximada y solo busca obtener el orden de magnitud de la probabilidad.
-Las piscinas a las que un NerdMiner puede conectarse son solo "piscinas de minería en solitario", lo que significa que la piscina no mutualiza la tasa de hash de todos los mineros conectados, sino que simplemente actúa como coordinador.
+Los pools a los que un NerdMiner puede conectarse son solo "pools de minería en solitario", lo que significa que el pool no mutualiza la tasa de hash de todos los mineros conectados, sino que simplemente actúa como coordinador.
 Ahora supongamos que nuestro NerdMiner tiene una tasa de hash de aproximadamente 45kH/s.
 
-Sabiendo que la tasa de hash total es de aproximadamente 450 EH/s (o 4.5 x 10^20 hashes por segundo), podemos considerar que la probabilidad de encontrar el siguiente bloque es de 1 entre 100 billones de millones, lo cual es muy, muy, muy poco probable que ocurra. Entonces, además de ser una herramienta educativa y objeto de curiosidad, un NerdMiner puede servir como un boleto de lotería en la minería de bitcoins a un costo eléctrico marginal de 0.5 W, aunque como acabamos de ver, la probabilidad de ganar es ridículamente baja. Sin embargo, ¿por qué no desafiar tu suerte?
+Sabiendo que la tasa de hash total es de aproximadamente 450 EH/s (o 4.5 x 10^20 hashes por segundo), podemos considerar que la probabilidad de encontrar el siguiente bloque es de 1 entre 100 billones de millones, lo cual es muy, muy, muy poco probable que ocurra. Entonces, además de ser una herramienta educativa y objeto de curiosidad, un NerdMiner puede servir como un boleto de lotería en la minería de Bitcoin a un costo eléctrico marginal de 0.5 W, aunque como acabamos de ver, la probabilidad de ganar es ridículamente baja. Sin embargo, ¿Por qué no desafiar tu suerte?
 
-### Información adicional
+#### Información adicional
 
 Aquí hay algunos enlaces si deseas leer más sobre el tema:
 

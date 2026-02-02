@@ -1,0 +1,8 @@
+question: Fitur kriptografi apa yang memungkinkan Liquid menyembunyikan jumlah transaksi dan jenis aset dari pandangan publik?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Modul Keamanan Perangkat Keras (HSM)
+  - Protokol Federasi Dinamis (Dynafed)
+  - Kunci Otorisasi Peg-out (PAK)
+explanation: |
+  Confidential Transactions (CT) adalah fitur kriptografi yang memungkinkan Liquid untuk menyembunyikan jenis aset dan jumlah transaksi dari buku besar publik sambil tetap memungkinkan jaringan untuk memverifikasi keabsahan transaksi. Hal ini memberikan privasi komersial yang penting bagi institusi. Modul Keamanan Perangkat Keras adalah perangkat fisik yang mengamankan kunci pribadi, protokol Dynafed mengelola perubahan federasi, dan PAK mengontrol proses peg-out - tidak ada satupun yang menyembunyikan detail transaksi dari pandangan publik.

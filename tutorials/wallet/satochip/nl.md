@@ -68,7 +68,7 @@ Binnenin vind je de Satochip.
 ![SATOCHIP](assets/notext/04.webp)
 
 
-Om de Wallet te beheren, stel ik in deze tutorial voor om Sparrow te gebruiken. Als je de software nog niet hebt, [bezoek de officiële website om het te downloaden] (https://sparrowwallet.com/download/). Je kunt ook onze tutorial over Sparrow wallet bekijken (verschijnt binnenkort).
+Om de Wallet te beheren, stel ik in deze tutorial voor om Sparrow te gebruiken. Als je de software nog niet hebt, [bezoek de officiële website om het te downloaden](https://sparrowwallet.com/download/). Je kunt ook onze tutorial over Sparrow wallet bekijken (verschijnt binnenkort).
 
 
 ![SATOCHIP](assets/notext/05.webp)

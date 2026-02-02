@@ -38,7 +38,7 @@ Z drugiej strony, nie sądzę, by był on obecnie odpowiedni dla początkującyc
 
 
 
-Przejdź do [strony internetowej projektu] (https://zeusln.com/), aby pobrać aplikację dla systemu operacyjnego smartfona:
+Przejdź do [strony internetowej projektu](https://zeusln.com/), aby pobrać aplikację dla systemu operacyjnego smartfona:
 
 
 

@@ -1,5 +1,6 @@
 ---
-term: REPLAY-ANGREP
+term: Gjentakelsesangrep
+definition: Angrep som gjentar en gyldig transaksjon fra én blokkjede på en annen som deler samme historikk.
 ---
 
 I Bitcoin-sammenheng oppstår et replay-angrep når en gyldig transaksjon på én Blockchain reproduseres på ondsinnet vis på en annen Blockchain som har samme transaksjonshistorikk. Med andre ord kan en transaksjon som sendes på én kanal, kopieres på en annen uten samtykke fra avsenderen av den første transaksjonen.

@@ -1,0 +1,8 @@
+question: Welke wiskundige relatie moet waar zijn in het verificatieproces van ECDSA-handtekeningen om een handtekening als geldig te beschouwen?
+answer: De x-coördinaat van UG + VP moet gelijk zijn aan R, waarbij U = Z/S en V = R/S
+wrong_answers:
+  - De y-coördinaat van UG + VP moet gelijk zijn aan S, waarbij U = R/Z en V = S/Z
+  - De x-coördinaat van KG + ZP moet gelijk zijn aan S, waarbij K de nonce is en Z de hash
+  - De som van R + S moet gelijk zijn aan de x-coördinaat van het openbare sleutelpunt P
+explanation: |
+  ECDSA-verificatie werkt door het oorspronkelijke punt KG te reconstrueren via de vergelijking UG + VP, waarbij U = Z/S (hash gedeeld door S) en V = R/S. Als de x-coördinaat van dit gereconstrueerde punt gelijk is aan R van de handtekening, is de verificatie geslaagd. Deze wiskundige relatie maakt verificatie mogelijk zonder de privésleutel of nonce K te kennen, aangezien de algebra KG indirect reconstrueert via de openbare sleutel en handtekeningcomponenten.

@@ -1,6 +1,7 @@
 ---
-term: OSAKKEET
+term: Osuudet (shares)
 
+definition: Indikaattori, joka mittaa yksittäisen louhijan panosta louhintapoolissa.
 ---
 Kaivospoolien yhteydessä osuus on indikaattori, jota käytetään määrittämään yksittäisen kaivosmiehen osuus poolista. Tämän mittarin perusteella lasketaan palkkio, jonka pooli jakaa uudelleen kullekin louhijalle. Kukin osuus vastaa hashia, joka täyttää vaikeustavoitteen, joka on alhaisempi kuin Bitcoin-verkon vaikeustavoite.
 
@@ -13,10 +14,9 @@ Jokaisen lasketun hashin osalta yksittäinen louhija voi kohdata kolme erilaista
 - Jos hash on pienempi kuin osakkeen vaikeustavoite, mutta suurempi tai yhtä suuri kuin Bitcoinin vaikeustavoite, tämä hash muodostaa kelvollisen osakkeen, joka ei kuitenkaan riitä lohkon validointiin. Louhija voi lähettää tämän hashin omalle poolilleen lunastaakseen osakkeeseen liittyvän palkkion: "share > hash > block".
 - Jos hash on alhaisempi kuin Bitcoin-verkon vaikeustavoite, sitä pidetään sekä kelvollisena osuutena että kelvollisena lohkona. Louhija välittää tämän hashin pooliinsa, joka kiirehtii lähettämään sen Bitcoin-verkkoon. Tämä hash lasketaan myös louhijalle kelvolliseksi osakkeeksi: `jako > blokki > hash`.
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Tätä jakojärjestelmää käytetään kunkin yksittäisen louhijan tekemän työn arvioimiseen poolin sisällä ilman, että kaikkia louhijan tuottamia hasheja tarvitsee laskea erikseen uudelleen, mikä olisi poolin kannalta täysin tehotonta.
 
 Kaivospoolien avulla osakkeiden vaikeusastetta voidaan säätää verifiointikuorman tasapainottamiseksi ja sen varmistamiseksi, että jokainen louhija, olipa hän sitten pieni tai suuri, lähettää osakkeita noin muutaman sekunnin välein. Näin voidaan laskea tarkasti kunkin louhijan hashrate ja jakaa palkkiot valitun korvauslaskentamenetelmän (PPS, PPLNS, TIDES...) mukaisesti.
 
-> ► *Ranskaksi "shares" voidaan kääntää "osa".*

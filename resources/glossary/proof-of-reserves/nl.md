@@ -1,5 +1,6 @@
 ---
-term: BEWIJS VAN RESERVERINGEN
+term: Proof of reserves
+definition: Mechanisme waarmee exchange-platforms kunnen bewijzen dat ze de bitcoins van hun klanten in bezit hebben.
 ---
 
 Mechanisme gebruikt door Bitcoin Exchange platformen om aan te tonen dat ze daadwerkelijk de tegoeden van hun klanten bezitten. Het doel is om de solvabiliteit van het bedrijf aan te tonen door te verifiëren dat de bitcoins gelijk zijn aan of groter zijn dan de gebruikerssaldi die ze verondersteld worden aan te houden.

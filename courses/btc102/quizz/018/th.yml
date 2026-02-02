@@ -1,0 +1,9 @@
+question: ในปีใดที่บล็อก Genesis ของ Bitcoin ถูกสร้างขึ้น?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  บล็อก Genesis ซึ่งเป็นบล็อกแรกของบล็อกเชน ถูกขุดขึ้นในเดือนมกราคม 2009
+reviewed: false

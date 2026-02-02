@@ -1,0 +1,9 @@
+question: Düğümünüzün bakış açısından, bir kanal açtıktan sonra likiditenin ilk dağılımı nedir?
+answer: 100 giden
+wrong_answers:
+  - 50 gelen %50 giden
+  - 100 gelen
+  - 90 giden %10 gelen
+explanation: |
+  Bir kanal açıldığında, tüm likidite başlangıçta başlatıcının tarafındadır.
+reviewed: false

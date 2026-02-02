@@ -1,9 +1,9 @@
-question: 2008年に発表されたSatoshiナカモトの白書のタイトルは？
-answer: Bitcoin ピアツーピアの電子キャッシュシステム
+question: 2008年に発表されたサトシ・ナカモトが書いたホワイトペーパーのタイトルは？
+answer: ビットコイン： P2P 電子通貨システム
 wrong_answers:
   - Bitcoin 分散型デジタル・ゴールド・システム
   - Bitcoin マネーの未来
-  - Bitcoin Blockchainベースの決済ネットワーク
+  - Bitcoin ブロックチェーンベースの決済ネットワーク
 explanation: |
-  Satoshi ナカモトの白書「Bitcoin ピアツーピアの電子キャッシュシステム」は2008年に出版された。
+  サトシ・ナカモトのホワイトペーパー「ビットコイン： P2P 電子通貨システム」は2008年に出版された。
 reviewed: true

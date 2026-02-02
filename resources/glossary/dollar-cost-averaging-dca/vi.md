@@ -1,5 +1,6 @@
 ---
-term: DOLLAR COST AVERAGING (DCA)
+term: Dollar cost averaging (dca)
 
+definition: Chiến lược đầu tư bao gồm việc mua định kỳ một lượng tài sản cố định để làm giảm tác động của sự biến động giá.
 ---
 An investment strategy that involves investing a fixed amount of fiat currency into a specific asset at regular intervals, regardless of the asset's price. This method helps to reduce the impact of volatility on the overall investment by purchasing more units when prices are low and fewer when they are high. DCA is typically aimed at building a position in an asset over the long term while minimizing risks. It is a very popular strategy for investing in bitcoin.

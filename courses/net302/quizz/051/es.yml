@@ -6,4 +6,4 @@ wrong_answers:
   - Compresión NAT
 explanation: |
   El reenvío de puertos permite reenviar una conexión externa a un host interno específico a través de la pasarela NAT.
-reviewed: false
+reviewed: true

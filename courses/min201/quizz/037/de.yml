@@ -3,7 +3,7 @@ answer: Es kann zur Zentralisierung der Hashing-Leistung führen und könnte auc
 wrong_answers:
   - Es kann zu einem Rückgang des Bitcoin-Preises führen
   - Es kann zu einem Rückgang der Hashrate des Netzwerks führen
-  - Es kann zu einem Rückgang der Anzahl aktiver Knoten im Netzwerk führen
+  - Es kann zu einem Rückgang der Anzahl aktiver Nodes im Netzwerk führen
 explanation: |
   Mining zum Zwecke des Profits kann zur Zentralisierung der Hashing-Leistung führen, wenn nur wenige große Unternehmen es sich leisten können, in hochwertige Mining-Ausrüstung zu investieren. Zusätzlich könnte der Energieverbrauch des Minings zum Zwecke des Profits, abhängig von der Energiequelle, eine erhebliche Umweltauswirkung haben.
 reviewed: true

@@ -1,0 +1,9 @@
+question: In de context van mining zonder validatie, wat is het primaire veiligheidsrisico dat mijners lopen als ze volledige blokvalidatie uitstellen om oude blokken te vermijden?
+answer: Ze lopen het risico tijdelijk op een ongeldige blockchain te bouwen en rekenkracht te verspillen aan een keten die uiteindelijk zal worden verworpen
+wrong_answers:
+  - Ze lopen het risico dat hun eigen blokken worden geweigerd door het netwerk vanwege een onvolledige validatie van eerdere transacties
+  - Ze riskeren hun mining beloningen voorgoed te verliezen, omdat validatie zonder mining beschouwd wordt als een schending van het protocol
+  - Ze lopen het risico op double-spend aanvallen omdat ze niet kunnen verifiëren of binnenkomende transacties legitiem zijn
+explanation: |
+  Wanneer mijners validatieloos mining toepassen, controleren ze alleen de proof-of-work in de koptekst van het blok en beginnen daar meteen mining bovenop, terwijl ze parallel het volledige blok downloaden en valideren. Het kritieke risico is dat ze op een ongeldig blok bouwen, wat betekent dat hun rekeninspanning verspild wordt aan een blockchaintak die verworpen zal worden zodra het ongeldige blok ontdekt wordt. Dit ondermijnt de veiligheid van het netwerk omdat een deel van de mining kracht niet bijdraagt aan de sterkste geldige keten, wat het fundamentele veiligheidsmechanisme van Bitcoin is.
+reviewed: false

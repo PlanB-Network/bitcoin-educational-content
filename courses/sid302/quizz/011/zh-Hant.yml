@@ -1,0 +1,8 @@
+question: 當服務供應商支付 Lightning 發票，使用 HTLC 完成 Liquid 到 Lightning 的交換時，會發生什麼情況？
+answer: 供應商收到來自 Lightning 付款的預設影像，然後可以使用該影像從 HTLC 解鎖和認領 L-BTC
+wrong_answers:
+  - 供應商必須等待時間鎖定到期後，才能存取鎖定在 HTLC 契約中的 L-BTC
+  - 「用戶端自動接收預映像，並使用預映像直接向提供商的 Liquid wallet 發放 L-BTC」
+  - HTLC 合約會自動執行，並將 L-BTC 轉移給提供者，不需要任何額外的加密證明
+explanation: |
+  HTLC 在兩個網絡上使用相同的哈希鎖，通過加密綁定創建原子交換。當提供者成功支付 Lightning 發票時，他們會獲得與哈希鎖相符的預影像（密碼）。這個預影像就是密碼鑰匙，讓他們可以解鎖之前鎖在 HTLC 中的 L-BTC。其他選項是不對的，因為它們無法反映 HTLC 的原子性質 - 時間鎖僅為後備機制，客戶端不會處理預影像的分發，而且 HTLC 需要主動的加密證明，而非自動執行。

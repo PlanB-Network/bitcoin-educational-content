@@ -1,0 +1,8 @@
+question: Vad händer under kompileringsprocessen när Rust-kompilatorn stöter på en makrouppmaning?
+answer: Kompilatorn matchar indata mot definierade mönster och ersätter makroanropet med genererad kod innan typkontroll sker
+wrong_answers:
+  - Kompilatorn skjuter upp makroexpansionen till efter typkontroll och optimering för att säkerställa att koden är giltig
+  - Kompilatorn lagrar makroanropet som bytekod och expanderar det dynamiskt under körningen
+  - Kompilatorn validerar makrosyntaxen men lämnar den faktiska expansionen till länkaren att hantera
+explanation: |
+  Makron expanderas under kompileringen innan typkontroll och optimering sker. När kompilatorn stöter på ett makroanrop matchar den omedelbart indata mot makroets definierade mönster och ersätter hela makroanropet med den genererade koden. Denna expanderade kod genomgår sedan normala kompileringsprocesser inklusive typkontroll. De andra alternativen är felaktiga eftersom makron fungerar vid kompileringstiden, inte vid körtiden, och expansionen måste ske före typkontrollen eftersom den genererade koden måste valideras för korrekthet.

@@ -31,7 +31,7 @@ Bisq 2 ni verisiyo nshasha ya Bisq Exchange izwi cane, yatangujwe mu 2024. Bitan
 - Uburyo bw'uruhara n'ugushiramwo amahera ku nguvu muri BSQ
 
 
-Iyi nkuru yibanze cane kuri "Bisq Easy", ariyo protocole yonyene iriho ubu. Bisq Easy yakozwe cane cane ku bashasha bakoresha Bitcoin. Iyi porotokole ituma abakoresha bashobora kugura no kugurisha Bitcoins ku mafaranga ya fiat ku rubuga rw’abantu bose. Ivy’ugucuruza bigarukira ku madolari angana na 600 USD (n’agaciro gatoyi k’amadolari 6), kandi umutekano wa Exchange wizigiye izina ryiza ry’abagurisha BTC. Bisq Easy nta mafaranga y’ubudandaji canke ibisabwa vyo gushiramwo umutekano. Bisq Easy itegerezwa gusubirira Bisq 1 ku mafaranga ari munsi ya 600 USD (canke angana na yo).
+Iyi nyandiko yibanda gusa kuri "Bisq Easy", protokole imwe rukumbi ihari ubu. Bisq Easy yagenewe by'umwihariko abakoresha bashya ba Bitcoin. Uyu protokole utuma abakoresha bagura kandi bagurishe bitcoin mu mafaranga asanzwe bakoresheje urubuga rudafite ubuyobozi rwihariye rwa peer-to-peer. Ibikorwa by'ubucuruzi bigarukirwa ku kigereranyo cya USD 600 (byibuze USD 6), kandi umutekano w'ubucuruzi ushingiye ku izina ryiza ry'abacuruzi ba BTC. Bisq Easy nta mafaranga y'ubucuruzi asabwa kandi ntisaba kubitsa ingwate. Biteganyijwe ko Bisq Easy izasimbura Bisq 1 mu bucuruzi bwa fiat buri munsi ya USD 600 (cyangwa ingana na byo).
 
 
 **Ibiranga cane:**
@@ -84,7 +84,7 @@ Iyi nkuru yibanze cane kuri "Bisq Easy", ariyo protocole yonyene iriho ubu. Bisq
 - Uwaremye iyo mpano asigura amajambo yo muri Exchange .
 - Abacuruzi bamaze kwumvikana ku masezerano (uburyo bwo kwishura n’igiciro), Exchange iratangura .
 - Uwugurisha arungikira uwumugura amakuru yiwe yo muri banki, uwo muguzi na we akarungikira uwumugurisha igitabu ciwe citwa Bitcoin Address .
-- Uwuguze ariha amafranga kandi akamenyesha uwugurisha
+- Umuguzi akora ubwishyu mu mafaranga asanzwe kandi amenyesha ugurisha
 - Iyo amahera amaze gushikwako, uwugurisha yohereza ayo ma bitcoins ku Address y’umuguzi.
 - Exchange iraheza iyo umuguzi aronse ama bitcoins .
 

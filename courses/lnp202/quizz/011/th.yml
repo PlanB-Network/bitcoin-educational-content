@@ -1,0 +1,9 @@
+question: โซลูชันใดที่มอบอธิปไตยสูงสุดสำหรับผู้ใช้ Lightning?
+answer: โหนด Classic Lightning
+wrong_answers:
+  - Wallet พร้อมการแลกเปลี่ยนอะตอม
+  - บนบอร์ด LN โหนด
+  - Custodial Lightning wallet
+explanation: |
+  โหนดคลาสสิกให้การควบคุมอย่างเต็มที่เหนือช่องทาง, สภาพคล่อง และนโยบายค่าธรรมเนียม มันเป็นเพียงตัวเดียวที่ทำให้คุณเป็นอิสระอย่างแท้จริง
+reviewed: false

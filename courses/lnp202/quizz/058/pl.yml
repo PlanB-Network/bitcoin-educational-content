@@ -1,0 +1,9 @@
+question: Jaki mechanizm jest używany w protokole NWC do przesyłania żądań między aplikacją a węzłem?
+answer: Zdarzenia na przekaźnikach Nostr
+wrong_answers:
+  - Bezpośrednie wywołania REST do LND
+  - Połączenie VPN punkt-punkt
+  - Szyfrowane żądania DNS
+explanation: |
+  Żądanie jest szyfrowane, a następnie publikowane jako zdarzenie w przekaźniku Nostr, które węzeł odczytuje w celu wykonania akcji.
+reviewed: false

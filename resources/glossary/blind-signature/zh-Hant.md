@@ -1,5 +1,6 @@
 ---
 term: 盲簽名
+definition: 簽名者不知道簽名內容的數位簽名，用於 Chaumian CoinJoins 和 ecash。
 ---
 
 Chaum 的盲簽章是數位簽章的一種形式，簽章的簽發者不知道他們要簽章的訊息內容。然而，簽章之後可以與原始訊息進行驗證。此技術由密碼學家 David Chaum 於 1983 年開發。

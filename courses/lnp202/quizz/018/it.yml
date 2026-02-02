@@ -1,0 +1,9 @@
+question: Quante parole contiene la frase mnemonica LND?
+answer: 24 parole
+wrong_answers:
+  - 10 parole
+  - 18 parole
+  - 36 parole
+explanation: |
+  LND generate è una frase mnemonica di 24 parole per il backup e il ripristino dei nodi.
+reviewed: false

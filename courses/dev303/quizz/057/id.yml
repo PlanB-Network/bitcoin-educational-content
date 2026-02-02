@@ -1,0 +1,8 @@
+question: Apa tujuan utama tanda seru (!) yang mengikuti nama makro dalam Rust?
+answer: Ini berfungsi sebagai indikator visual bahwa pembuatan kode waktu kompilasi sedang terjadi, bukan pemanggilan fungsi waktu proses
+wrong_answers:
+  - Ini menunjukkan bahwa makro akan panik jika diberikan parameter input yang tidak valid selama eksekusi
+  - Ini menandai makro sebagai tidak aman dan memerlukan pengakuan eksplisit tentang potensi masalah keamanan memori
+  - Ini menentukan bahwa makro mengembalikan tipe Hasil yang harus ditangani dengan pemeriksaan kesalahan
+explanation: |
+  Tanda seru pada sintaks makro Rust merupakan pilihan desain yang disengaja untuk membedakan makro dengan fungsi. Ketika Anda melihat `println!()` atau `vec![]`, tanda `!` segera menandakan bahwa ekspansi kode waktu kompilasi akan terjadi, bukan pemanggilan fungsi waktu proses. Perbedaan ini sangat penting karena makro beroperasi secara fundamental berbeda dengan fungsi - makro membuat kode generate selama kompilasi melalui pencocokan dan perluasan pola. Jawaban yang salah akan mengacaukan hal ini dengan perilaku runtime seperti panik, operasi yang tidak aman, atau penanganan kesalahan, tetapi tanda seru secara khusus menunjukkan sifat metaprogramming waktu kompilasi dari makro.

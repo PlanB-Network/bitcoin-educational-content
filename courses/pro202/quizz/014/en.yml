@@ -1,0 +1,8 @@
+question: What is the primary advantage of the double-and-add algorithm for scalar multiplication in elliptic curve cryptography?
+answer: It reduces computation complexity from O(n) to O(log n) operations
+wrong_answers:
+  - It eliminates the need for modular arithmetic in finite fields
+  - It converts the discrete logarithm problem into a polynomial-time solution
+  - It allows direct computation of private keys from public keys
+explanation: |
+  The double-and-add algorithm significantly improves efficiency by reducing the computational complexity from O(n) linear additions to O(log n) operations. This works by scanning the scalar's binary representation, doubling the point at each step, and adding the generator point only when the bit is 1. The other options are incorrect: modular arithmetic is still required in finite fields, the discrete logarithm problem remains computationally infeasible (which is essential for security), and private keys cannot be computed from public keys regardless of the multiplication algorithm used.

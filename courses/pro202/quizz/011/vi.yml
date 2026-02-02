@@ -1,0 +1,8 @@
+question: Ưu điểm chính của việc sử dụng định dạng SEC nén so với định dạng SEC không nén cho khóa công khai Bitcoin là gì?
+answer: Nó giúp giảm kích thước lưu trữ từ 65 byte xuống còn 33 byte trong khi vẫn duy trì cùng mức độ bảo mật mã hóa.
+wrong_answers:
+  - Nó cung cấp tính bảo mật mật mã mạnh mẽ hơn bằng cách sử dụng các lớp mã hóa bổ sung.
+  - Nó cho phép thực hiện các phép nhân điểm nhanh hơn trong quá trình xác minh chữ ký.
+  - Nó cho phép tạo ra nhiều khóa công khai từ một định dạng nén duy nhất.
+explanation: |
+  Định dạng SEC nén giúp giảm kích thước khóa công khai từ 65 byte (chưa nén) xuống còn 33 byte bằng cách chỉ lưu trữ tọa độ x và bit chẵn lẻ (tiền tố 0x02 hoặc 0x03) thay vì cả hai tọa độ đầy đủ. Tọa độ y có thể được tái tạo về mặt toán học từ tọa độ x và thông tin chẵn lẻ vì đường cong elip có tối đa hai giá trị y cho bất kỳ giá trị x nào. Việc nén này giúp tiết kiệm đáng kể dung lượng lưu trữ mà không làm giảm tính bảo mật, đó là lý do tại sao Bitcoin hiện ưu tiên sử dụng khóa nén để tăng hiệu quả.

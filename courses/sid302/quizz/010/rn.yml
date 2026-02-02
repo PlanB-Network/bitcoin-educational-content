@@ -1,0 +1,8 @@
+question: Ni igiki kibuza abakoresha kurema amahera mu muyaga mutoyi muri Elements' Confidential Transactions system?
+answer: Ivyemezo vyerekana mu mibare agaciro kanyegejwe ni imibare myiza iri mu mibare ibereye
+wrong_answers:
+  - Ivyemezo vya Pedersen bifatanya amafaranga y'ubudandaji n'imfunguruzo za bose
+  - Ivyemezo vy'Igitabo c'Itunga bigenzura amafaranga yose yakoreshejwe n'imipaka y'itunga ryanditswe
+  - Ivyiyumviro vy'ubumwe bifungura no kugenzura amafaranga yose y'ibanga
+explanation: |
+  Range Proofs ni uburyo bwihariye bwo gukingira amakuru bubuza abakoresha gukoresha nabi uburyo bwo gukoresha ibanga bakoresheje imibare mibi canke amafaranga atagira akamaro kugira ngo bareme amahera avuye mu busa. Naho Amasezerano ya Pedersen ahisha amafaranga nyayo, Ivyemezo vy’Imibare biratuma haba ubutungane bw’imibare mu kwemeza ko agaciro kahishijwe kagwa mu mibare yemewe. Igitabo c'Itunga gishira gusa ikarata y'indangamuntu z'itunga ku mazina asomwa n'abantu kandi ntikivyemeza amafaranga, kandi ama node y'ubumwe ntafungura amakuru y'ibanga - arayasuzuma ataco abona ku gaciro nyako.

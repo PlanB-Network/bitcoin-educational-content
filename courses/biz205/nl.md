@@ -658,7 +658,7 @@ A key component of this phase is the formation of student groups. Each group wil
 
 #### Project assignments from leading Bitcoin companies
 
-The projects assigned to each group are sourced from leading companies in the Bitcoin ecosystem, including Full Group Ventures, Tether, Bitfinex, Satsbeq, Lipa, and Breeze. Each company has provided real-world business challenges, allowing students to apply their knowledge to current industry needs. These assignments vary in complexity and scope, allowing students to choose projects that align with their strengths and interests.
+The projects assigned to each group are sourced from leading companies in the Bitcoin ecosystem, including Full Group Ventures, Tether, Bitfinex, Satsbeq, Lipa, and Breez. Each company has provided real-world business challenges, allowing students to apply their knowledge to current industry needs. These assignments vary in complexity and scope, allowing students to choose projects that align with their strengths and interests.
 
 #### Timeline and submission requirements
 
@@ -702,7 +702,7 @@ These themes were part of the nominations for Biz School 2024. While we encourag
 
 **Fulgur Ventures**: Groups will perform market research on one of Fulgur's portfolio companies, focusing on target markets, revenue streams, and long-term exit strategies.
 **Lipa**: Groups will investigate how banks have adapted to Bitcoin over the last five years, assessing their services and attitudes towards Bitcoin integration
-**Breeze**: known for its non-custodial mobile wallets and Lightning Network integration, Breeze’s assignment focuses on conducting market research to identify how P2P technologies could benefit from their software development kit (SDK).
+**Breez**: known for its non-custodial mobile wallets and Lightning Network integration, Breez’s assignment focuses on conducting market research to identify how P2P technologies could benefit from their software development kit (SDK).
 **Bitfinex**: Bitfinex is seeking assistance with marketing and community-building strategies for their RGB protocol, which enables Bitcoin-based tokenization.
 
 # Bitcoin Business Cases

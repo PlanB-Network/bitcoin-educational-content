@@ -137,7 +137,7 @@ En esta página, pega la URL de tu relé Umbrel que copiaste anteriormente. Tamb
 
 
 
-**Conexión:** noStrudel te ofrece varias opciones de conexión. En nuestro caso, elegiremos "Private Key" y pegaremos tu clave privada de Nostr generada previamente. Si aún no tienes una clave, puedes instalar la extensión [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) para crear y/o guardar tus claves de Nostr y así comunicarte de forma más segura con las distintas aplicaciones de Nostr.
+**Conexión:** noStrudel te ofrece varias opciones de conexión. En nuestro caso, elegiremos "Private Key" y pegaremos tu clave privada de Nostr generada previamente. Si aún no tienes una clave, puedes instalar la extensión [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) para crear y/o guardar tus claves de Nostr y así comunicarte de forma más segura con las distintas aplicaciones de Nostr.
 
 
 

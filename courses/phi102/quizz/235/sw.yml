@@ -1,0 +1,8 @@
+question: Kulingana na mawazo ya kiliberali, ni tofauti gani ya msingi inayoamua ni kazi gani za serikali zinazopaswa kudumishwa dhidi ya kuondolewa?
+answer: Kazi zinazohitajika kwa ajili ya kuanzisha utawala wa sheria, kulinda haki za mtu binafsi, na kutekeleza mikataba dhidi ya kazi zinazoweza kushughulikiwa na mipango binafsi na mifumo ya soko
+wrong_answers:
+  - Kazi zinazowanufaisha matajiri wa tabaka la juu dhidi ya kazi zinazowahudumia wafanyakazi na watu wasiojiweza
+  - Kazi zinazofanywa katika ngazi ya kitaifa dhidi ya kazi zinazopaswa kugawanywa kwa serikali za kikanda na za mitaa
+  - Kazi zinazofanya generate ipate mapato kwa serikali dhidi ya kazi zinazohitaji matumizi ya umma na kodi
+explanation: |
+  Nadharia ya kiliberali hufanya tofauti muhimu kati ya kazi muhimu za serikali (utawala wa sheria, haki, utekelezaji wa mikataba, ulinzi wa haki za mtu binafsi) na kazi za ziada ambazo zinaweza kushughulikiwa kupitia biashara binafsi, chama cha hiari, na uratibu wa soko. Chaguzi zingine zinapotosha vipaumbele vya kiliberali: sio kuhusu upendeleo wa kitabaka bali ufanisi wa kitaasisi; sio kuhusu ujumuishaji dhidi ya ugatuzi bali kuhusu hatua za serikali dhidi ya binafsi; na sio kuhusu uzalishaji wa mapato bali kuhusu majukumu halali dhidi ya yasiyo halali ya serikali.

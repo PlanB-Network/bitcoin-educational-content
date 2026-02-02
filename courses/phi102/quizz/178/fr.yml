@@ -1,0 +1,8 @@
+question: Selon l'analyse libérale présentée, pourquoi la liberté de la presse serait-elle impossible à maintenir dans un système économique collectiviste ?
+answer: L'État contrôle tous les moyens de production, y compris les presses d'imprimerie, et décide de ce qui est publié
+wrong_answers:
+  - Les journalistes individuels n'auraient pas les incitations économiques nécessaires pour produire un contenu de qualité
+  - Les journaux privés seraient trop chers pour être achetés par les citoyens dans le cadre d'une tarification contrôlée par l'État
+  - Les partis politiques se livreraient une concurrence trop intense pour le contrôle des médias, ce qui conduirait à la censure
+explanation: |
+  L'analyse libérale identifie une impossibilité structurelle : puisque l'État possède tous les moyens de production dans un système collectiviste, il contrôle nécessairement les presses à imprimer et les infrastructures d'édition. Cela donne à l'État le pouvoir absolu de déterminer ce qui est imprimé et distribué, rendant impossible la liberté de la presse indépendante, quelles que soient les intentions politiques. Les autres options ne tiennent pas compte de ce point fondamental, à savoir que le contrôle économique détermine les possibilités politiques.

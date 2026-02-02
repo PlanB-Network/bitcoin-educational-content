@@ -1,12 +1,11 @@
-question: W jaki sposób użytkownicy przekazują Ownership swoje pieniądze w sieci Bitcoin?
-answer: Podpisując cyfrowo transakcje swoimi kluczami prywatnymi.
+question: W jaki sposób użytkownicy przekazują własność swoich pieniędzy w sieci Bitcoin?
+answer: Cyfrowo podpisując transakcje swoimi kluczami prywatnymi.
 wrong_answers:
-  - Poprzez fizyczne przekazanie swoich Bitcoinów.
+  - Poprzez fizyczne przekazanie swoich bitcoinów.
   - Wysyłając wiadomość e-mail do odbiorcy.
-  - Poprzez dostarczenie odbiorcy Bitcoin Address.
+  - Poprzez dostarczenie odbiorcy adresu bitcoin.
 explanation: |
-  Użytkownicy w sieci Bitcoin przekazują Ownership swoje
-  podpisując cyfrowo transakcje za pomocą swoich kluczy
-  kluczami prywatnymi. Weryfikuje to, że są oni właścicielami
-  bitcoinów, które chcą przenieść.
+  Użytkownicy w sieci Bitcoin przekazują własność swoich środków
+  cyfrowo podpisując transakcje za pomocą swoich kluczy prywatnych. Weryfikuje to, że są oni właścicielami
+  bitcoinów, które chcą przelać.
 reviewed: true

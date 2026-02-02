@@ -1,0 +1,12 @@
+question: Milline on teksti kohaselt traditsioonilise vasak-parempoolse poliitilise spektri peamine probleem?
+answer: See ei jäta ruumi klassikalisele liberaalsele mõtlemisele, mis ei sobi ei vasakpoolse egalitarismi ega parempoolse natsionalismiga
+wrong_answers:
+  - See lihtsustab poliitikat liialt, kuna selles on ainult kaks äärmuslikku seisukohta, ilma mõõduka või tsentristliku valikuvõimaluseta
+  - See eeldab vääralt, et vasakpoolsed on alati reformistlikud, samas kui paremad on alati konservatiivsed tänapäeval
+  - See ei võta arvesse asjaolu, et enamik inimesi muudab aja jooksul sageli oma poliitilisi seisukohti
+explanation: |
+  Tekstis on konkreetselt öeldud, et "vasak-parempoolse telje probleem on selles, et see ei jäta ruumi klassikalisele liberaalsele mõtlemisele, mis võib olla
+  ei saa liita ei vasakpoolse egalitarismi ega parempoolse natsionalismiga Seda illustreeritakse selliste näidetega nagu Frédéric Bastiat,
+  kes hääletas vahel vasakpoolsete ja vahel parempoolsete poolt, sõltuvalt konkreetsest küsimusest, ja Bitcoin, mis meelitab poolehoidjaid erinevatest
+  poliitilisest taustast. Klassikaline liberaalne traditsioon, mis pooldab maksimaalseid majanduslikke ja isiklikke vabadusi minimaalse riikliku sekkumisega, lihtsalt
+  ei mahu traditsioonilisse vasak-paremasse kategoriseerimissüsteemi.

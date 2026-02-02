@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo ubuhinga bw’amahera y’ubuhinga bwa none bwa eCash bushingiyeko?
-answer: Imikono y'impumyi
+question: Ni ubuhe buhinga amahera y'ubuhinga bwa none ecash ahagazeko?
+answer: Imikono y'impumyi(Blind signatures)
 wrong_answers:
-  - Imikono y'umugwi
-  - Imikono y'impeta
-  - Imikono y'imbere
+  - Imikono y'umugwi(Group signatures)
+  - Imikono y'impeta(Ring signatures)
+  - Imikono y'imbere(Threshold signatures)
 explanation: |
-  eCash ishingiye ku nzira yo gusinya ataco abona, ivyo bikaba bituma uwusinya ashobora gusinya ku kintu atabona ico ariko arasinya.
+  eCash ishingiye ku mukono w'impumyi(Blind signatures), ivyo bikaba bituma uwusinya ashobora gusinya ku kintu atabona ico ariko arasinya.
 reviewed: true

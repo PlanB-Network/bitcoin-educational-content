@@ -89,7 +89,7 @@ Aplikasi Anda harus open source, dengan source code yang tersedia secara publik 
 
 Anda kemudian harus menyiapkan file YAML (metadata) yang menjelaskan aplikasi Anda, termasuk semua informasi dan izin yang diperlukan untuk penggunaannya, mengikuti [template metadata](https://f-droid.org/docs/Build_Metadata_Reference/) yang diusulkan oleh F-Droid.
 
-Di bagian **Developers** pada [dokumentasi] (https://f-droid.org/en/docs/), Anda akan menemukan semua sumber daya yang Anda butuhkan untuk menerbitkan dan memelihara aplikasi Anda di F-Droid.
+Di bagian **Developers** pada [dokumentasi](https://f-droid.org/en/docs/), Anda akan menemukan semua sumber daya yang Anda butuhkan untuk menerbitkan dan memelihara aplikasi Anda di F-Droid.
 
 ### Integritas dan keamanan
 

@@ -5,5 +5,5 @@ wrong_answers:
   - Nautilus
   - Sináptica
 explanation: |
-  GUFW es un Interface gráfico para el cortafuegos UFW, que permite activar, desactivar y configurar reglas sin pasar por el terminal.
-reviewed: false
+  GUFW es una interfaz gráfica para el cortafuegos UFW, que permite activar, desactivar y configurar reglas sin pasar por el terminal.
+reviewed: true

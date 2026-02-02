@@ -28,7 +28,7 @@ objectives:
 
 
 
-歡迎來到 BTC302！
+歡迎來到 BTC 304！
 
 
 
@@ -1978,7 +1978,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 
 如果有的話，詢問圖書館員是否有任何關於這個主題的**圓桌會議計劃**，並提供他們您的聚會聯絡資訊。
 
-如果沒有，建議他們從預先選定的書單中取得一些書籍。[publisher Konsensus Network] (https://konsensus.network/) 可以提供靈感來源。
+如果沒有，建議他們從預先選定的書單中取得一些書籍。[publisher Konsensus Network](https://konsensus.network/) 可以提供靈感來源。
 
 
 
@@ -2219,7 +2219,7 @@ WordPress 也支援各式各樣的外掛程式 (有些是付費的，但品質�
 
 - [**YouTube**](https://www.youtube.com/)，使用廣泛，但無法抵抗審查。
 - [**Odyssee**](https://odysee.com/)，不太流行，但透過點對點技術分散。
-- [**peertube**] (https://joinpeertube.org/fr_FR)，可讓您主持自己的視訊平台，不過設定起來比較複雜。
+- [**peertube**](https://joinpeertube.org/fr_FR)，可讓您主持自己的視訊平台，不過設定起來比較複雜。
 
 
 無論您選擇哪一種，都要設計特定平台的視覺效果，讓您的頻道更吸引人。在 [第 2/8 部分](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) 中提到的 Canva 提供「YouTube Thumbnail」類別，有預先製作、可自訂的設計。
@@ -2831,14 +2831,14 @@ Bitcoin 是一個巨大的兔子洞，觸及歷史、經濟、文學、數學、
 
 
 
-## BTC302，下一步是什麼
+## BTC 304，下一步是什麼
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-在本 BTC302 課程中，我們已詳細介紹如何建立社群或聚會，以及如何啟動各種專案。
+在本 BTC 304 課程中，我們已詳細介紹如何建立社群或聚會，以及如何啟動各種專案。
 
 
 當您的社區準備好採取下一步時，**您可以建立正式的協會**。
@@ -2853,11 +2853,9 @@ Bitcoin 是一個巨大的兔子洞，觸及歷史、經濟、文學、數學、
 - 結構化組織：您可以定義明確的角色，讓您更容易經營社群和執行專案。
 
 
-為了幫助您的社群進一步成長，**COMMU302課程的後續課程**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+為使您的社群更進一步蓬勃發展，**未來數月內，本課程的後續內容有可能在 [Plan ₿ Academy](https://planb.academy/) 上推出，這一可能性不容排除**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-可能會在未來幾個月內於 [planb.network](https://planb.academy/) 發佈。
 
 
 下一場會議可以探討進階主題，例如：

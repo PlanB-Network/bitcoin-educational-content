@@ -1,0 +1,8 @@
+question: Điều gì khiến hệ thống kiểu dữ liệu của Rust đặc biệt hiệu quả trong việc ngăn ngừa các lỗ hổng liên quan đến bộ nhớ trong các ứng dụng Bitcoin?
+answer: Hệ thống kiểu dữ liệu xử lý cả việc mô hình hóa logic nghiệp vụ và kiểm soát quyền sở hữu bộ nhớ thông qua cùng một cơ chế.
+wrong_answers:
+  - Trình biên dịch tự động tạo ra các thủ tục cấp phát bộ nhớ nhằm ngăn chặn các cuộc tấn công tràn bộ đệm.
+  - Kiểu dữ liệu tĩnh yêu cầu tất cả các địa chỉ bộ nhớ phải được khai báo tại thời điểm biên dịch chứ không phải thời điểm chạy.
+  - Việc khai báo kiểu dữ liệu mạnh mẽ chuyển đổi tất cả các thao tác con trỏ thành việc kiểm tra giới hạn mảng an toàn trong quá trình thực thi.
+explanation: |
+  Hệ thống kiểu dữ liệu của Rust rất độc đáo vì nó phục vụ mục đích kép - vừa mô hình hóa logic nghiệp vụ phức tạp, vừa đồng thời quản lý an toàn bộ nhớ thông qua quyền sở hữu, mượn và đếm tham chiếu. Sự tích hợp này có nghĩa là cùng một quá trình kiểm tra kiểu dữ liệu đảm bảo logic chương trình chính xác cũng loại bỏ rò rỉ bộ nhớ, lỗi giải phóng bộ nhớ hai lần và điều kiện tranh chấp tại thời điểm biên dịch. Các câu trả lời sai mô tả các cơ chế không tồn tại trong Rust: trình biên dịch không tự động thực thi các thủ tục cấp phát bộ nhớ của generate, địa chỉ bộ nhớ không bắt buộc phải là hằng số tại thời điểm biên dịch, và an toàn con trỏ đến từ các quy tắc quyền sở hữu chứ không phải từ việc kiểm tra giới hạn tại thời điểm chạy.

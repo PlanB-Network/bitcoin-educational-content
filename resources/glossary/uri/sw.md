@@ -1,5 +1,6 @@
 ---
 term: URI
+definition: Muundo sanifu unaoruhusu kusimba anwani ya Bitcoin na vigezo vya muamala ili kurahisisha malipo.
 ---
 
 Kifupi cha "*Kitambulishi cha Rasilimali Sawa*". Ni umbizo la kamba sanifu linalotumika kutambua rasilimali kwenye Mtandao. URI inaweza kuwa URL (*Uniform Resource Locator*), ambayo hutoa njia ya kufikia rasilimali kwa kuonyesha eneo ilipo kwenye mtandao wa kompyuta, au URN (*Jina la Rasilimali Sawa*), ambayo hutaja rasilimali bila kubainisha jinsi ya kuipata. URI ni muhimu katika utendakazi wa *Mtandao wa Ulimwenguni Pote*, kwani huwezesha ufikiaji wa rasilimali kama vile kurasa za wavuti, hati na huduma.

@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoin-Adressen wären nicht kompatibel mit dem Netzwerk
 explanation: |
   Ein schlecht konzipierter PRNG kann vorhersehbare Sequenzen erzeugen, was die Schlüssel anfälliger für Angriffe macht.
-reviewed: false
+reviewed: true

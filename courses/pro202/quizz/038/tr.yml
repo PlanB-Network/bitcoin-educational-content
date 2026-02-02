@@ -1,0 +1,8 @@
+question: İnşaat sürecindeki bir Bitcoin işleminde işlem ücreti tutarını ne belirler?
+answer: Tüm girdilerin toplam değeri ile tüm çıktıların toplam değeri arasındaki fark
+wrong_answers:
+  - Ağ protokolü tarafından hesaplanan toplam işlem değerinin sabit bir yüzdesi
+  - İşlemin bayt cinsinden boyutu, madenciler tarafından belirlenen standart bir oranla çarpılır
+  - Tüm girdiler için gereken imza sayısı artı temel ağ ücreti
+explanation: |
+  Bitcoin işlem ücretleri toplam girdiler ve toplam çıktılar arasındaki farka göre belirlenir. Bir işlem oluştururken, girdi olarak UTXO'ları seçer ve alıcılar ve değişim için çıktılar oluşturursunuz. Arta kalan miktar, madencileri işleminizi dahil etmeye teşvik eden ücret haline gelir. Ücret yüzde, sabit oranlar veya imza sayılarına göre hesaplanmaz - sadece işlemin değer bakiyesinde tahsis edilmeden kalan miktardır.

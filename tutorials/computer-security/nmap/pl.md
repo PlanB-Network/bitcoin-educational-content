@@ -165,7 +165,7 @@ W tej sekcji przyjrzymy się głównym zastosowaniom narzędzia do skanowania si
 
 
 
-Nmap może być używany do diagnostyki sieci i, szerzej, do monitorowania. W ten sam sposób, w jaki ping może być użyty do określenia, czy dwa hosty się komunikują, Nmap może być użyty do szybkiego określenia, czy host jest aktywny lub czy dana usługa działa. Dzięki [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") możemy uzyskać dokładne dane dotyczące czasu odpowiedzi hosta, trasy przebytej przez pakiety, odpowiedzi wykonanej przez określoną usługę itp.
+Nmap może być używany do diagnostyki sieci i, szerzej, do monitorowania. W ten sam sposób, w jaki ping może być użyty do określenia, czy dwa hosty się komunikują, Nmap może być użyty do szybkiego określenia, czy host jest aktywny lub czy dana usługa działa. Dzięki [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") możemy uzyskać dokładne dane dotyczące czasu odpowiedzi hosta, trasy przebytej przez pakiety, odpowiedzi wykonanej przez określoną usługę itp.
 
 
 
@@ -312,7 +312,7 @@ W tej sekcji dowiemy się, jak zainstalować narzędzie do skanowania sieci Nmap
 
 
 
-Nmap został pierwotnie zaprojektowany do pracy w systemach operacyjnych GNU/Linux. W rezultacie, dzięki swojej długowieczności i popularności, można go znaleźć we wszystkich oficjalnych repozytoriach głównych dystrybucji systemu Unix. W tym poradniku będę używał systemu operacyjnego opartego na Debianie [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Ale możesz go używać w dokładnie taki sam sposób z klasycznego Debiana, CentOS, Red Hat lub czegokolwiek innego!
+Nmap został pierwotnie zaprojektowany do pracy w systemach operacyjnych GNU/Linux. W rezultacie, dzięki swojej długowieczności i popularności, można go znaleźć we wszystkich oficjalnych repozytoriach głównych dystrybucji systemu Unix. W tym poradniku będę używał systemu operacyjnego opartego na Debianie [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Ale możesz go używać w dokładnie taki sam sposób z klasycznego Debiana, CentOS, Red Hat lub czegokolwiek innego!
 
 
 
@@ -433,7 +433,7 @@ Jest to biblioteka, na której opiera się Nmap do zarządzania komunikacją sie
 
 
 
-Podobnie jak w przypadku systemu Linux, można sprawdzić, czy Nmap jest zainstalowany, otwierając wiersz polecenia lub terminal [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") i wpisując następujące polecenie:
+Podobnie jak w przypadku systemu Linux, można sprawdzić, czy Nmap jest zainstalowany, otwierając wiersz polecenia lub terminal [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") i wpisując następujące polecenie:
 
 
 
@@ -901,7 +901,7 @@ transmisja pakietów uDP i odbiór ICMP (port nieosiągalny) podczas skanowania 
 
 
 
-Na powyższym zrzucie ekranu widzimy, że Nmap wysyła dużą liczbę pakietów UDP, a w odpowiedzi na większość z nich otrzymuje pakiet ICMP "Destination unreachable (Port unreachable)". Jest to normalne, ponieważ jest to odpowiednia odpowiedź zdefiniowana przez [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122"), gdy port UDP jest nieosiągalny:
+Na powyższym zrzucie ekranu widzimy, że Nmap wysyła dużą liczbę pakietów UDP, a w odpowiedzi na większość z nich otrzymuje pakiet ICMP "Destination unreachable (Port unreachable)". Jest to normalne, ponieważ jest to odpowiednia odpowiedź zdefiniowana przez [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122"), gdy port UDP jest nieosiągalny:
 
 
 
@@ -2198,7 +2198,7 @@ Dlatego ważne jest, aby zrozumieć, co Nmap robi, a czego nie robi, a także wi
 
 
 
-Niezależnie od tego, czy jesteś administratorem systemu sieciowego, inżynierem bezpieczeństwa, czy nawet CISO, korzystanie z Nmap daje przegląd stanu bezpieczeństwa systemu informatycznego. Jest to ważny pierwszy krok w zabezpieczaniu systemu, który może być regularnie przeprowadzany przez zespół IT. Nie powinien on jednak zastępować interwencji i porad ekspertów [cyberbezpieczeństwa] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), którzy będą w stanie odkryć słabości znacznie bardziej kompleksowo niż Nmap.
+Niezależnie od tego, czy jesteś administratorem systemu sieciowego, inżynierem bezpieczeństwa, czy nawet CISO, korzystanie z Nmap daje przegląd stanu bezpieczeństwa systemu informatycznego. Jest to ważny pierwszy krok w zabezpieczaniu systemu, który może być regularnie przeprowadzany przez zespół IT. Nie powinien on jednak zastępować interwencji i porad ekspertów [cyberbezpieczeństwa](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), którzy będą w stanie odkryć słabości znacznie bardziej kompleksowo niż Nmap.
 
 
 
@@ -2238,23 +2238,24 @@ Skrypty te są uporządkowane według kategorii, a pojedynczy skrypt może nale�
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| Kategoria | Opis |
+|----------------|-------------|
+| **auth** | Zawiera skrypty związane z uwierzytelnianiem w usługach, w tym anonimowy dostęp lub enumerację użytkowników. Przykłady: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast** | Zawiera skrypty związane z operacjami rozgłoszeniowymi (broadcast) w sieci, w szczególności w celu eksploatacji i wykrywania niektórych usług, hostów lub protokołów opartych na rozgłaszaniu (IPv6, wake on lan, IGMP itp.). Przykłady: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute** | Zawiera skrypty związane z operacjami brute force uwierzytelniania w usługach (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL itp.). Przykłady: `ssh-brute`, `vnc-brute`. |
+| **default** | Zawiera skrypty używane w przypadku domyślnym (użycie `-sC`). Stosuje się kilka kryteriów w celu zatwierdzenia wejścia skryptu do tej kategorii, w tym prędkość wykonywania, strukturę wyjścia, niezawodność testu, charakter „intruzywny” lub „ryzykowny” itp. |
+| **discovery** | Zawiera skrypty związane z zaawansowanym wykrywaniem sieci i usług. Znajdziemy tu na przykład enumerację zawartości zasobu SMB, wersji usługi VNC, zapytania SNMP itp. Przykłady: `mysql-info`, `http-security-headers`. |
+| **dos** | Zawiera skrypty, które mogą powodować odmowę usługi (denial of service). Mogą to być skrypty stworzone do eksploatacji podatności typu denial of service lub skrypty, których efektem ubocznym jest odmowa usługi. Należy zachować ostrożność (są one wykluczone z kategorii `default`). Przykłady: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit** | Zawiera skrypty stworzone do bezpośredniej eksploatacji podatności. Przykłady: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external** | Zawiera skrypty, które wymagają użycia zasobu zewnętrznego, takiego jak internetowa baza informacji. Wskazuje to w szczególności na próbę połączenia na zewnątrz (uwaga na poufność). Przykłady: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer** | Zawiera skrypty przeznaczone do wysyłania nieoczekiwanych ramek, pakietów lub parametrów do usługi. Pozwala to w szczególności na wywoływanie błędów lub nieprawidłowości w celu uzyskania tropów podatności lub informacji technicznych. Przykłady: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive** | Zawiera skrypty, które są sklasyfikowane jako „ryzykowne” z punktu widzenia dostępności lub wykrywania. Mogą one spowodować awarię systemu lub zostać wykryte jako złośliwe przez rozwiązanie bezpieczeństwa. Jest to kategoria przeciwna do `safe`. Przykłady: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware** | Zawiera skrypty przeznaczone do wykrywania obecności elementów charakterystycznych dla złośliwego oprogramowania, takich jak port nasłuchujący powszechnie używany przez znany backdoor. Przykłady: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe** | Zawiera skrypty, które są uważane za bezpieczne z punktu widzenia wykrywania lub stabilności. Jest to kategoria przeciwna do `intrusive` i zawiera w przeważającej większości zaawansowane skrypty identyfikacji wersji lub zbierania elementów konfiguracji. Przykłady: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version** | Zawiera skrypty, które pozwalają na zaawansowane wykrywanie wersji. Mogą być używane jako uzupełnienie wcześniej studiowanych Probes i Matchs, gdy wykrywanie wersji wymaga nieco bardziej złożonych operacji. Przykłady: `http-php-version`, `vmware-version`. |
+| **vuln** | Zawiera skrypty przeznaczone do wykrywania obecności znanej podatności (CVE) bez ich eksploatacji (w przeciwieństwie do kategorii `exploit`). Zazwyczaj ograniczają się do zgłaszania statusu „podatny” lub nie danej usługi. Przykłady: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 Technicznie rzecz biorąc, kategorie, do których należy skrypt, są wskazane bezpośrednio w jego kodzie.
 
@@ -2973,7 +2974,7 @@ Możliwość zapisywania wyników skanowania Nmap w formacie XML sprawia, że da
 
 
 
-Zamierzam wspomnieć o kilku narzędziach ofensywnych bez szczegółowego opisywania sposobu ich użycia lub działania. Zakładam, że czytelnik jest zaznajomiony z ich podstawowym zastosowaniem i że już działają. Ta sekcja będzie szczególnie interesująca dla profesjonalistów [cyberbezpieczeństwa] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), osób szkolących się lub tych, którzy zdecydowali się zagłębić w ten temat.
+Zamierzam wspomnieć o kilku narzędziach ofensywnych bez szczegółowego opisywania sposobu ich użycia lub działania. Zakładam, że czytelnik jest zaznajomiony z ich podstawowym zastosowaniem i że już działają. Ta sekcja będzie szczególnie interesująca dla profesjonalistów [cyberbezpieczeństwa](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), osób szkolących się lub tych, którzy zdecydowali się zagłębić w ten temat.
 
 
 
@@ -3062,7 +3063,7 @@ lista usług zaimportowanych z pliku XML do bazy danych Metasploit
 
 
 
-Wreszcie, możemy szybko i łatwo ponownie wykorzystać te dane w module dzięki opcji `-R`, która "przekonwertuje" listę usług uzyskanych jako dane wejściowe dla dyrektywy `RHOSTS`, która służy do określenia celów ataku, który ma zostać przeprowadzony. Oto przykład z modułem `ssh_login`, który umożliwia przeprowadzenie ataku brute force na usługi [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Wreszcie, możemy szybko i łatwo ponownie wykorzystać te dane w module dzięki opcji `-R`, która "przekonwertuje" listę usług uzyskanych jako dane wejściowe dla dyrektywy `RHOSTS`, która służy do określenia celów ataku, który ma zostać przeprowadzony. Oto przykład z modułem `ssh_login`, który umożliwia przeprowadzenie ataku brute force na usługi [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 

@@ -1,5 +1,6 @@
 ---
-term: OP_NUMEQUAL (0x9C)
+term: OP_NUMEQUAL (0X9C)
+definition: 스택 최상단의 두 요소가 수치적으로 같은지 확인하는 Opcode.
 ---
 
 스택에서 가장 위에 있는 두 Elements을 비교하여 숫자가 같은지 확인합니다. 값이 같으면 `1`(참)을 스택에 밀어넣고, 그렇지 않으면 `0`(거짓)을 밀어넣습니다.

@@ -1,6 +1,7 @@
 ---
-term: NONCE
+term: Nonce
 
+definition: Nur einmal verwendete Zahl, die von Minern modifiziert wird, um einen gültigen Block-Hash zu finden.
 ---
 Im Zusammenhang mit der Datenverarbeitung bezieht sich der Begriff "nonce" auf eine Zahl, die nur einmal verwendet und dann ersetzt wird. Sie ist oft zufällig oder pseudo-zufällig. Nonces werden in verschiedenen kryptografischen Protokollen verwendet, um die Sicherheit des Prozesses zu gewährleisten. Die ECDSA-Signaturen, die im Bitcoin-Protokoll verwendet werden, enthalten zum Beispiel eine Nonce. Das bedeutet, dass diese Nummer bei jeder Signatur neu sein muss. Ist dies nicht der Fall, kann der verwendete private Schlüssel durch den Vergleich zweier Signaturen, die die gleiche Nonce verwenden, berechnet werden.
 

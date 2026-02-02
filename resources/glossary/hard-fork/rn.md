@@ -1,5 +1,6 @@
 ---
-term: Hard Fork
+term: Hard fork
+definition: Ihinduka ritandukanye n'irya kera ry'amategeko rituma ururere rucikamo kabiri mu buryo bwa burundu.
 ---
 
 Ihinduka ry’amategeko y’amasezerano mu buryo budahuye n’inyuma. Iryo hinduka rituma urusobe rw’ibihimba vya Bitcoin rutandukana ubudasiba mu mirwi ibiri itandukanye: ibihimba bifise ivugurura n’ibihimba bitagira ivugurura. Ukwo gucapura kugaragara mu gucapura kwa Blockchain y'intango mu bice bibiri bitandukanye, ariko, bifise amateka amwe, ni co gituma hakoreshwa ijambo "Fork," rishobora guhindurwa mu gifaransa ngo "embranchement, bifurcation."

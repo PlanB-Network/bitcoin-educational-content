@@ -1,5 +1,6 @@
 ---
 term: Halving
+definition: Događaj koji prepolovljuje nagradu rudarima na svakih 210.000 blokova.
 ---
 
 Termin "Halving" odnosi se na zakazani događaj koji prepolovljava nagradu dodeljenu rudarima za svaki iskopani blok kroz subvenciju bloka. Ovo smanjenje se posebno odnosi na deo subvencije bloka koji se sastoji od novih bitkoina stvorenih ni iz čega. Halving je dizajnirao Satoshi Nakamoto, tvorac Bitcoin, kao mehanizam za kontrolu inflacije i osiguranje ograničenog Supply bitkoina.

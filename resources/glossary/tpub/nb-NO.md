@@ -1,5 +1,6 @@
 ---
 term: TPUB
 
+definition: Utvidet offentlig nøkkelprefiks for Legacy- og SegWit V1-kontoer på Bitcoin Testnet.
 ---
 Utvidet offentlig nøkkelprefiks for Legacy- og SegWit V1-kontoer på Bitcoin Testnet.

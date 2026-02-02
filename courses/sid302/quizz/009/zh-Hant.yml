@@ -1,0 +1,8 @@
+question: Elements' Confidential Transactions 中 Pedersen 承諾的主要目的是什麼？
+answer: 以加密承諾取代可見的交易金額，可在不揭露實際數值的情況下進行驗證
+wrong_answers:
+  - 至 generate 在 Elements 區塊鏈上為新發行的資產提供獨特的 64 位十六進制識別碼
+  - 建立數學證明，證明隱藏值是有效範圍內的正整數，以防止 double-spending
+  - 透過加密掛鉤機制，使 Bitcoin 從主鏈轉移到 Elements 側鏈
+explanation: |
+  Pedersen 承諾是 Confidential Transactions 的核心加密機制，它以數學承諾取代可見金額，從而實現隱私權。由於其同態屬性，驗證者可以驗證輸入等於輸出加上費用，而無需看到實際數值。範圍證明 (Range Proofs) 可以防止負數，資產 ID 可以識別代幣，掛鉤機制可以處理跨鏈轉移，但這些都不是 Pedersen Commitments 的特定功能。

@@ -1,12 +1,11 @@
 ---
-name: NOSTR
-
-description: NOSTR को खोजें और उसका उपयोग शुरू करें
+name: Nostr
+description: Nostr को खोजें और उसका उपयोग शुरू करें
 ---
 
 
 
-![A new challenger has arrived](assets/1.webp)
+![A new challenger has arrived](assets/cover.webp)
 
 
 *इस मार्गदर्शिका के अंत तक, आप समझ जाएंगे कि Nostr क्या है, आपने एक खाता बना लिया होगा, और आप इसका उपयोग कर पाएंगे।*

@@ -1,6 +1,7 @@
 ---
-term: PERCORSO DI DERIVAZIONE
+term: Percorso di derivazione
 
+definition: Sequenza di indici che descrive il percorso di derivazione delle chiavi figlie dalla master key in un wallet HD.
 ---
 Nel contesto dei portafogli deterministici gerarchici (HD), un percorso di derivazione si riferisce alla sequenza di indici utilizzati per derivare le chiavi figlio da una chiave master. Descritto nel BIP32, questo percorso identifica la struttura ad albero per la derivazione delle chiavi figlio. Un percorso di derivazione è rappresentato da una serie di indici separati da barre e inizia sempre con la chiave master (indicata come `m/`). Ad esempio, un percorso tipico potrebbe essere `m/84'/0'/0'/0/0`. Ogni livello di derivazione è associato a una profondità specifica:
 
@@ -21,4 +22,3 @@ Ad esempio, se il mio indirizzo di ricezione ha il percorso di derivazione `m / 
 - `0` indica che si tratta di un indirizzo esterno;
 - `5` indica che si tratta del sesto indirizzo esterno di questo conto.
 
-![](../../dictionnaire/assets/18.webp)

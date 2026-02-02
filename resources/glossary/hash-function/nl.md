@@ -1,5 +1,6 @@
 ---
-term: Hash FUNCTIE
+term: Hashfunctie
+definition: Wiskundige functie die een uitvoer van vaste grootte produceert op basis van een invoer van variabele grootte.
 ---
 
 Een wiskundige functie die een invoer van variabele grootte neemt (een bericht genoemd) en een uitvoer van vaste grootte produceert (Hash, hashing, digest of vingerafdruk genoemd). Hash functies zijn veelgebruikte primitieven in cryptografie. Ze vertonen specifieke eigenschappen die ze geschikt maken voor gebruik in veilige contexten:
@@ -19,4 +20,3 @@ In de context van Bitcoin worden Hash functies gebruikt voor verschillende doele
 - `HASH160`, dat een opeenvolgend gebruik beschrijft van een `SHA256` en een `RIPEMD160`. `HASH160` wordt gebruikt bij het genereren van ontvangstadressen (behalve P2PK en P2TR) en bij het berekenen van oudersleutel fingerprints voor uitgebreide sleutels.
 
 
-> ► *In het Engels wordt het een "Hash functie" genoemd.*

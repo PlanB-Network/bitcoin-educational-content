@@ -1,5 +1,6 @@
 ---
 term: HASH256
+definition: Funkcija koja primenjuje SHA256 dva puta uzastopno, koristi se u različitim Bitcoin aplikacijama.
 ---
 
 Kriptografska funkcija koja se koristi za razne primene na Bitcoin. Uključuje primenu SHA256 funkcije dvaput na ulazne podatke. Poruka se jednom prosledi kroz SHA256, a rezultat ove operacije koristi se kao ulaz za drugi prolaz kroz SHA256. Izlaz ove funkcije je stoga 256 bita.

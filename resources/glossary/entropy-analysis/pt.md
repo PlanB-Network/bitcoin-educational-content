@@ -1,6 +1,7 @@
 ---
-term: ENTROPIA (ANÁLISE)
+term: Análise de entropia
 
+definition: Indicador que mede a falta de conhecimento dos analistas sobre a configuração de uma transação Bitcoin.
 ---
 No contexto específico da análise de cadeias, entropia é também o nome de um indicador, derivado da entropia de Shannon, inventado por LaurentMT. Este indicador permite medir a falta de conhecimento que os analistas têm sobre a configuração exacta de uma transação Bitcoin. Por outras palavras, quanto mais elevada for a entropia de uma transação, mais difícil se torna para os analistas identificar os movimentos de bitcoins entre entradas e saídas.
 

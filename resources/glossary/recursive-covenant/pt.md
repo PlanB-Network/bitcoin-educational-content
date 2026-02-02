@@ -1,6 +1,7 @@
 ---
-term: RECURSIVO (CONVÉNIO)
+term: Covenant recursivo
 
+definition: Covenant que impõe condições à transação atual e a todas as que se seguirem indefinidamente.
 ---
 Um pacto recursivo na Bitcoin é um tipo de contrato inteligente que impõe condições não só na transação atual, mas também em transacções futuras que gastam os resultados desta transação. Isto permite a criação de cadeias de transacções em que cada uma deve aderir a determinadas regras definidas pela primeira na cadeia. A recursividade cria uma sequência de transacções em que cada uma herda as restrições da sua transação-mãe. Isto permitiria um controlo complexo e a longo prazo sobre a forma como as bitcoins podem ser gastas, mas também introduziria riscos relativamente à liberdade de gasto e à fungibilidade.
 

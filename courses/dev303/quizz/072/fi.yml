@@ -1,0 +1,8 @@
+question: Mikä erottaa Bitcoin-sovelluskehityksessä esiintyvät suoritusajan resurssivirheet virheellisistä syöttövirheistä ja logiikkavirheistä?
+answer: Suoritusaikaresurssivirheitä esiintyy, kun ulkoiset riippuvuudet, kuten tiedostot tai verkkoyhteydet, eivät ole käytettävissä, jolloin tarvitaan pikemminkin ympäristökorjauksia kuin koodimuutoksia
+wrong_answers:
+  - "Suoritusajan resurssivirheitä tapahtuu, kun funktion parametrit eivät täytä vaatimuksia, mikä osoittaa kutsujan ja funktion välisen sopimuksen rikkomista"
+  - Suoritusaikaresurssivirheet edustavat ohjelman toteutuksessa esiintyviä virheitä, jotka vaativat virheenkorjausta ja koodin muokkaamista, jotta ne voidaan ratkaista oikein
+  - Suoritusaikaresurssivirheitä syntyy, kun tyyppijärjestelmä ei pysty havaitsemaan epäsuhtaa, jolloin virheelliset tietotyypit leviävät järjestelmän kautta
+explanation: |
+  Suoritusaikaresurssivirheet ovat ohjelmalogiikan ulkopuolisia, ja ne ilmenevät, kun riippuvuudet, kuten tiedostot, verkkoyhteydet tai tallennuslaitteet, eivät ole käytettävissä. Toisin kuin virheelliset syöttövirheet (joihin liittyy parametrisopimusten rikkomisia) tai logiikkavirheet (jotka ovat toteutusvirheitä), suoritusajan resurssivirheet vaativat yleensä pikemminkin ympäristökorjauksia kuin koodimuutoksia. Sovelluksen on käsiteltävä ne hienovaraisesti, koska ne ovat usein tilapäisiä ja ohjelman suoran kontrollin ulkopuolella.

@@ -71,7 +71,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 **第 1 節：定義與關鍵概念**
 
 
-首先，我們要回顧一下支配 Bitcoin 運作的基本原則，如此一來，我們就可以冷靜地處理與機密性相關的概念。掌握一些基本概念是很有必要的，例如 UTXO、接收位址和腳本，這樣才能完全理解我們在接下來的章節中要介紹的概念。我們也將介紹 Bitcoin 的一般保密性模型，正如 Satoshi Nakamoto 所想像的一樣，這將使我們能夠掌握相關的利害關係和風險。
+首先，我們要回顧一下支配 Bitcoin 運作的基本原則，如此一來，我們就可以冷靜地處理與機密性相關的概念。掌握一些基本概念是很有必要的，例如 [UTXO](https://planb.academy/resources/glossary/utxo)、接收位址和腳本，這樣才能完全理解我們在接下來的章節中要介紹的概念。我們也將介紹 Bitcoin 的一般保密性模型，正如 Satoshi Nakamoto 所想像的一樣，這將使我們能夠掌握相關的利害關係和風險。
 
 
 ![BTC204](assets/zh-Hant/001.webp)
@@ -98,7 +98,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 **第 4 節：瞭解 CoinJoin 交易**
 
 
-談到 Bitcoin 上的隱私權，怎麼能不提 coinjoins 呢？在第 4 節中，您將瞭解有關這種混合方法的所有資訊。您將學習到什麼是 coinjoins、它的歷史和目標，以及 CoinJoin 存在的不同類型。最後，對於較有經驗的使用者，我們會看看什麼是 anonsets 和 entropy，以及如何計算它們。
+談到 Bitcoin 上的隱私權，怎麼能不提 [coinjoin](https://planb.academy/resources/glossary/coinjoin)s 呢？在第 4 節中，您將瞭解有關這種混合方法的所有資訊。您將學習到什麼是 coinjoins、它的歷史和目標，以及 CoinJoin 存在的不同類型。最後，對於較有經驗的使用者，我們會看看什麼是 anonsets 和 entropy，以及如何計算它們。
 
 
 ![BTC204](assets/zh-Hant/004.webp)
@@ -500,7 +500,7 @@ Blockchain 分析的目的之一是將 Bitcoin 上的各種活動集中在一起
 要反對 Blockchain 分析，還有什麼比了解其中使用的方法更好的方法呢？如果您想知道如何在 Bitcoin 上改善您的隱私，您就需要瞭解這些方法。這將讓您更能掌握 CoinJoin 或 PayJoin 等技術（我們將在課程的最後部分介紹這些技術），並減少您可能犯下的錯誤。
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
@@ -822,7 +822,7 @@ Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 關於後者，我們可以看到輸入編號 0 和輸出編號 1 使用 P2WPKH 指令碼 (SegWit V0)，而輸出編號 0 則使用不同的 P2PKH 指令碼 (Legacy)。
 
 
-在 2010 年代早期，由於可用的指令碼種類有限，這種以指令碼版本為基礎的啟發式方法相對地沒有什麼幫助。然而，隨著時間的推移和 Bitcoin 的連續更新，腳本類型的多樣性也日益增加。因此，這個啟發式方法變得越來越重要，因為隨著腳本類型的擴大，使用者會分成較小的群組，因此增加了應用這個內部版本重複使用啟發式方法的機會。因此，僅從保密性的角度來看，建議您選擇最常見的腳本類型。例如，在我寫這些行文時，Taproot 腳本 (`bc1p`)的使用頻率比 SegWit V0 腳本 (`bc1q`)低。雖然前者在某些特定情況下具有經濟和保密優勢，但對於較傳統的單一簽章用途而言，基於保密理由，在新標準獲得更廣泛採用之前，堅持使用較舊的標準可能是合理的。
+在 2010 年代早期，由於可用的指令碼種類有限，這種以指令碼版本為基礎的啟發式方法相對地沒有什麼幫助。然而，隨著時間的推移和 Bitcoin 的連續更新，腳本類型的多樣性也日益增加。因此，這個啟發式方法變得越來越重要，因為隨著腳本類型的擴大，使用者會分成較小的群組，因此增加了應用這個內部版本重複使用啟發式方法的機會。因此，僅從保密性的角度來看，建議您選擇最常見的腳本類型。例如，在我寫這些行文時，[Taproot](https://planb.academy/resources/glossary/taproot) 腳本 (`bc1p`)的使用頻率比 SegWit V0 腳本 (`bc1q`)低。雖然前者在某些特定情況下具有經濟和保密優勢，但對於較傳統的單一簽章用途而言，基於保密理由，在新標準獲得更廣泛採用之前，堅持使用較舊的標準可能是合理的。
 
 
 ### 整數付款
@@ -2702,7 +2702,6 @@ Zerolink 採取的一項重要預防措施，是使用獨立的密碼金鑰集�
 
 
 
-**2024 年，我們見證了希望在 Bitcoin 上進行硬幣接合的使用者所能使用的工具發生了重大變化。我們目前正處於轉捩點，CoinJoin 市場正經歷重大的重整。本章一定會隨著時間更新**
 
 
 目前，Bitcoin 上主要有 3 種不同的 CoinJoin 實作：
@@ -2714,6 +2713,10 @@ Zerolink 採取的一項重要預防措施，是使用獨立的密碼金鑰集�
 - Wabisabi；
 - JoinMarket.
 
+
+除了這三種歷史性實作之外，最近又出現了一種新的：Joinstr。我不會在本章中討論它，但您可以在這篇專門的教學中找到所有相關資訊：
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 這些實作的目的都是要透過 CoinJoin 交易來打破 UTXOs 的歷史。然而，它們的機制差異很大。因此，了解它們各自的運作方式是非常重要的，這樣您就可以選擇最適合您需求的方案。
 
@@ -2747,6 +2750,8 @@ JoinMarket 的主要缺點之一是使用上的複雜性，需要對終端機有
 
 最後，雖然 JoinMarket 的概念很有趣，特別是對那些對動態流動性市場有興趣的人來說，它的結構弱點和技術複雜性，在我看來，對於尋找 CoinJoin 實作的新手和專家來說，都不太有趣。
 
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -2814,6 +2819,10 @@ Whirlpool 實現了 ZeroLink 協定，可確保混合前和混合後的 UTXO 嚴
 
 現在您應該知道了，我絕對偏好使用 Whirlpool 型號在 Bitcoin 上進行共同接合。此系統因其嚴謹性而脫穎而出，並提供絕佳的保密性保證。它也是唯一能提供在數學上被視為完美的組合的系統。在我看來，這個模型代表了 Bitcoin 上合併的未來。我邀請您在下一章更深入地探討這個模式。
 
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## Whirlpool 如何運作
 
@@ -3101,7 +3110,7 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 與任何 Bitcoin 交易一樣，同樣重要的是不要重複使用接收的 Address。每筆新交易都必須使用新的空白 Address。
 
 
-最簡單、最安全的解決方案是將混合後的 UTXOs 放在其 **postmix** 帳戶中休息，讓它們重新混合，只在花費時才碰觸它們。Samurai 和 Sparrow 錢包具有針對所有這些連鎖分析風險的額外保護功能。這些保護措施可協助您避免犯錯。
+最簡單且最安全的做法，是將已混合的 UTXO 靜置於 **postmix** 帳戶中，讓其持續重新混合，並僅在需要花費時才動用。Samourai（現在包括 Ashigaru）與 Sparrow 錢包具備額外的防護措施，以抵禦所有與鏈上分析相關的風險。這些防護可協助您避免犯錯。
 
 
 ### 您如何管理毒性交流？
@@ -3119,31 +3128,34 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 - 將它們標示為「不可花費」：**另一種方法是停止使用，在專用帳戶中將它們標示為「不可花費」，並直接使用 HODL。這樣可以確保您不會不小心花掉它們。如果 Bitcoin 的價值上升，可能會出現更適合您的有毒 UTXOs 的新池；**
 - 捐款：**請考慮捐款給開發 Bitcoin 和相關軟體的開發人員，無論捐款多少。您也可以捐款給接受 BTC 的協會。如果管理您的有毒 UTXO 看起來太複雜，您可以直接丟掉它們，然後捐獻；**
 - 購買禮物卡：**[Bitrefill](https://www.bitrefill.com/)** 等平台允許您用 Exchange 比特幣換取可在不同商家使用的禮物卡。這可以讓您在不損失相關價值的情況下，捨棄有毒的 UTXOs；
-- 在 Monero 上整合它們：**Samourai Wallet 提供 BTC 和 XMR 之間的原子交換服務。這是管理有毒 UTXOs 的理想選擇，您可以將其整合到 Monero 上，而不會透過 CIOH 洩露您的機密性，然後再將其發送回 Bitcoin。然而，由於流動性的限制，此選項在 Mining 費用和溢價方面可能成本高昂**；
+- **透過 Monero 進行整合：** Samourai Wallet 曾提供 BTC 與 XMR 之間的原子交換服務，但自其遭逮捕後便無法再使用。此方式可在不損害您透過 CIOH 保持的隱私情況下，將受污染的 UTXO 整合至 Monero，再重新轉回至比特幣。如果未來再度出現類似服務，它可能成為值得考慮的選項。然而須注意，此方法的成本可能偏高，包括挖礦費用，以及在反向兌回比特幣時因流動性限制而產生的溢價。
 - 將它們傳送至 Lightning Network：將這些 UTXO 傳送至 Lightning Network，以享受交易費用的降低，可能是一個很有吸引力的選擇。然而，此方法可能會透露某些資訊，這取決於您如何使用 Lightning，因此應謹慎使用。
 
 
 ### 如何使用 Whirlpool？
 
 
-在 Samourai Wallet 的創始人於 2024 年 4 月 24 日被捕並其伺服器被扣押之後，Whirlpool 工具已無法使用，即使對於那些擁有自己道場的人也是如此。在此之前，它可在 Samourai Wallet 和 Sparrow Wallet 上使用。
+在2024年4月24日Samourai Wallet創辦人被逮捕且其伺服器遭查封之後，Whirlpool 工具已無法在 Samourai Wallet 和 Sparrow Wallet 上使用。
 
 
 ![BTC204](assets/zh-Hant/155.webp)
 
 
-不過，視乎試驗結果，這項工具仍有可能在未來幾週內重新啟動，或以不同的方式重新推出。無論如何，我不認為 Bitcoin CoinJoin 市場會長期沒有 Supply 的存在，因為需求是存在的。更重要的是，由於 Whirlpool 的機型在機密性方面是最先進的，因此未來一定會成為其他實作的首選機型。
 
 
-我們正密切注意此案例及相關工具的發展。請放心，我們會在有新資訊時更新本訓練課程。
 
+
+從現在起，Whirlpool 再度可在 Ashigaru 行動應用程式上使用，該應用程式是 Samourai Wallet 的一個分叉，多虧了 Ashigaru Terminal 軟體。
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Whirlpool 的運作核心保持不變，但與在 Samourai 上的使用相比仍有一些差異：在 2025 年，Ashigaru 上僅提供兩個池，金額分別為 `0.25 BTC` 與 `0.025 BTC`，其對應的進入費用為 `0.0125 BTC` 與 `0.00125 BTC`。
 
 在下一章中，我們會瞭解什麼是「anonsets」、這些指標是如何計算出來的，以及它們如何幫助我們估計 CoinJoin 循環的效率。
 
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3575,7 +3587,7 @@ $$
 現在我們已經詳細介紹了硬幣接合，在課程的最後一部分，我們將探討 Bitcoin 上的其他隱私技術。我們將探討 payjoins、特定的偽 CoinJoin 交易類型、靜態 Address 協定，以及不是在交易本身層級，而是在節點網路層級強化機密性的措施。
 
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # 瞭解其他先進保密技術的挑戰
 
@@ -3698,8 +3710,11 @@ PayJoin 的第二個目的是誤導外部觀察者，讓他們不知道實際支
 ![BTC204](assets/zh-Hant/177.webp)
 
 
-最先進的 PayJoin 實作只有 Samourai Wallet 上的 Stowaway。不過，自從軟體創辦人被捕後，這個工具現在只剩下部分功能。Stowaway 的優點在於它是一個全面、容易使用的協定，同時支援接收和傳送 payjoins。部分簽章交易可透過掃描幾個 QR 代碼手動交換，或透過 Soroban 由 Tor 自動交換。後一種通訊方式目前已停止服務。
 
+
+最先進的 payjoin 實作無疑是由 Samourai Wallet 的開發者發明的 Stowaway。自從軟體創辦人被捕後，這個工具在 Samourai 上僅部分運作。但它已在 Ashigaru 應用程式上重新啟動。
+
+Stowaway 的優點在於，它是一個完整且非常易於使用的協議，同時支援接收與發送 payjoin。部分簽名的交易可透過掃描多個 QR 碼手動交換，或經由 Tor 以 Soroban 自動交換。
 
 ![BTC204](assets/zh-Hant/178.webp)
 
@@ -3712,7 +3727,7 @@ PayJoin 的第二個目的是誤導外部觀察者，讓他們不知道實際支
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## 付款 mini-CoinJoin
 
@@ -3878,13 +3893,12 @@ StonewallX2 交易的工作原理與 Stonewall 交易完全相同，只是前者
 ### 如何使用石牆和石牆 x2 交易？
 
 
-Stonewall 和 Stonewall x2 交易在 Samourai Wallet 應用程式和 Sparrow Wallet 軟體上均可使用。
+Stonewall 交易可在 Sparrow Wallet 以及 Ashigaru 上使用，而 Stonewall x2 目前僅由 Ashigaru 支援。
 
 
 ![BTC204](assets/zh-Hant/189.webp)
 
 
-然而，就像 payjoins 一樣，在 Samourai 的創始人被捕之後，Stonewall x2 交易現在只能透過相關各方之間手動交換 PSBT 來進行。不幸的是，透過 Soroban 的自動 Exchange 已不再可用。
 
 
 也可以從任何 Bitcoin Wallet 軟體手動執行此類交易。
@@ -3893,9 +3907,11 @@ Stonewall 和 Stonewall x2 交易在 Samourai Wallet 應用程式和 Sparrow Wal
 在下一章中，我們將介紹另一種相對陌生的保密技術，但作為我們已學過的知識的補充，它非常有用。
 
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## 跳彈
 
@@ -3975,18 +3991,18 @@ https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 此方法不僅對於共同接合有效，對於任何其他可能影響零件可替代性的標記也同樣有效。
 
 
-這種跳彈方法的構想最初來自 Samourai Wallet 團隊，他們將此方法整合到應用程式中，使流程自動化。這項服務在 Samourai 並不是免費的，因為轉帳需要 100,000 Sats 的服務費，再加上 Mining 的費用。因此建議大額轉帳時使用。
+這種跳躍（ricochet）方法的概念最初來自 Samourai Wallet 的團隊，他們將其整合進應用程式中以自動化其運作。此服務在 Samourai 上是付費的，因為每次跳躍都會產生固定 100,000 聰的服務費，外加礦工費。如今在 Ashigaru 上亦然。因此，建議主要用於大額轉帳。
 
 
 ![BTC204](assets/zh-Hant/196.webp)
 
 
-Samurai 應用程式提供兩種跳彈變體：
+Ashigaru 應用程式提供兩種彈射變體（與先前在 Samourai 上的一樣）：
 
 
 
 
-- 強化回彈，或稱「交錯交割」，其優點在於可將 Samurai 服務費分散到五次連續交易中。此選項還可確保每筆交易都在不同的時間進行廣播，並記錄在不同的區塊中，盡可能模仿物主變更的行為。雖然速度較慢，但對於那些不急著趕時間的人來說，這種方法更為可取，因為它透過強化回彈對連鎖分析的抵抗力，最大化了回彈的效率；
+- 強化彈射（或稱「分階段傳送」）具有一項優點，即可將 Ashigaru 的服務費分攤到連續五筆交易中。此選項亦確保每筆交易在不同時間廣播並記錄於不同區塊，從而盡可能逼真地模擬所有權變更的行為。儘管速度較慢，但對不急於完成的使用者而言，此方法更為理想，因為它透過增強對鏈上分析的抵抗能力，使彈射的效果達到最大化；
 
 
 ![BTC204](assets/zh-Hant/197.webp)
@@ -4006,7 +4022,7 @@ Samurai 應用程式提供兩種跳彈變體：
 在下一章中，我們將探討秘密轉移 Ownership 的不同技術。這些方法與我們迄今為止所研究過的方法，無論在操作上或結果上都有很大的不同。
 
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Ownership 的秘密轉移
 
@@ -4363,7 +4379,7 @@ BIP47 的目的是在不重複使用地址的情況下，使接收大量付款�
 因此，使用者可以完全自由地分享自己的付款代碼，無論是在社交網路或自己的網站上，都不會有任何失密的風險，這與傳統的收款人 Address 或公開金鑰不同。
 
 
-若要進行交易，雙方都需要一個具備 BIP47 實作的 Bitcoin Wallet，例如 Samurai Wallet 上的 PayNym 或 Sparrow Wallet。共同使用他們的付款代碼會在他們之間建立一個秘密通道。為了有效建立此通道，發卡機構必須在 Bitcoin Blockchain 上執行特定交易，稱為「通知交易」（稍後詳細說明）。
+要進行交易，雙方都必須擁有一個實作 BIP47 的比特幣錢包，例如 Ashigaru 上的 PayNym 或 Sparrow Wallet。共同使用他們的付款代碼會在雙方之間建立一條秘密通道。為有效建立此通道，發送方必須在比特幣區塊鏈上執行一筆特定交易，稱為「通知交易」（詳細內容我會稍後提供）。
 
 
 結合兩個使用者的付款代碼會產生共享秘密，進而產生大量獨一無二的 Bitcoin 收件地址 (正好 2^32 或約 40 億個)。如此一來，透過 BIP47 進行的付款實際上並不是寄往付款代碼本身，而是寄往由相關使用者的付款代碼所衍生出來的經典收款位址。
@@ -4394,7 +4410,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 此代碼也可編碼為 QR 代碼，讓通訊更方便，就像傳統的接收器 Address。
 
 
-至於 PayNym Bots，也就是有時在 Twitter 上看到的機器人，這些都是付款代碼的視覺呈現，由 Samourai Wallet 所製作。它們使用 Hash 函式產生，因此幾乎是唯一的。它們的形式是以 `+` 開頭的一小串字元：
+關於 PayNym Bots，即那些有時會在 X（Twitter）上看到的機器人，它們是由 Samourai Wallet 所建立的付款代碼的視覺化呈現。現在隨著 Ashigaru 的使用，它們略有不同，但原理保持一致。它們透過雜湊函式生成，因此具有近乎唯一的特性。它們通常以一串以 `+` 開頭的小字元序列形式呈現：
 
 
 ```plaintext

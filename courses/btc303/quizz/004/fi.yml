@@ -1,0 +1,9 @@
+question: Mitä ratkaisua Satoshi Nakamoto ehdottaa Bitcoin:n whitepaperin mukaan double-spending-ongelman ratkaisemiseksi?
+answer: Vertaisverkkoon hajautettu aikaleimapalvelin, joka käyttää kronologisen tapahtumajärjestyksen laskennallista todistamista
+wrong_answers:
+  - Keskitetty palvelin, jolla on useiden luotettavien viranomaisten kynnysarvosignaattorit
+  - Kiinteiden palvelimien liitto, jossa enemmistön on hyväksyttävä jokainen tapahtuma
+  - Sokea allekirjoitusjärjestelmä, jossa on luotettava keskusosapuoli kaksinkertaisen rahankäytön estämiseksi
+explanation: |
+  Satoshi Nakamoto ehdotti erityisesti Bitcoin:n valkoisessa kirjassa mainitun "vertaisverkkoon hajautetun aikaleimapalvelimen käyttöä generate transaktioiden aikajärjestyksen laskennalliseen todistamiseen". Avainsana on "hajautettu", mikä tarkoittaa, ettei keskitettyä hallintapistettä ole. Väärät vastaukset edustavat aiempia epäonnistuneita digitaalisen rahan kokeiluja, jotka perustuivat keskitettyihin tai puoliksi keskitettyihin lähestymistapoihin, mikä teki niistä alttiita sensuurille ja epäonnistumiselle - juuri niitä ongelmia, jotka Bitcoin:n oli tarkoitus ratkaista aidon hajauttamisen avulla.
+reviewed: false

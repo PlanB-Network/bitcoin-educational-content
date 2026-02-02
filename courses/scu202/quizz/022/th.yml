@@ -1,0 +1,9 @@
+question: การแจกจ่ายใดที่ใช้สภาพแวดล้อมเดสก์ท็อป Cinnamon เป็นค่าเริ่มต้น?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon ได้รับการพัฒนาโดยทีม Linux Mint เพื่อเสนอ Interface แบบคลาสสิกที่ทันสมัย ใกล้เคียงกับ Windows
+reviewed: false

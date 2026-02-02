@@ -1,0 +1,8 @@
+question: Jakou kryptografickou techniku používá Elements ke skrytí částek transakcí a zároveň umožňuje ověření v síti?
+answer: Závazky společnosti Pedersen
+wrong_answers:
+  - Merkle Tree Hashing
+  - Podpisy eliptickou křivkou
+  - Šifrování SHA-256
+explanation: |
+  Pedersenovy závazky jsou specifickou kryptografickou technikou používanou v Elements' Confidential Transactions ke skrytí částek transakcí. Tyto závazky nahrazují viditelné částky kryptografickými závazky, které mohou být stále matematicky ověřovány validátory, aniž by byly odhaleny skutečné hodnoty. Pro uspořádání dat transakcí do bloků se používá metoda Merkle Tree Hashing, pro autorizaci transakcí se používají podpisy eliptickou křivkou a algoritmus SHA-256 je hashovací algoritmus, ale žádná z těchto metod neskrývá částky transakcí při zachování možnosti ověření jako Pedersenovy závazky.

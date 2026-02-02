@@ -1,0 +1,9 @@
+question: Za jakých podmínek je bleskový trest účinný?
+answer: Detekce před koncem časového zámku
+wrong_answers:
+  - Detekce před zahájením časového zámku
+  - Detekce podvádění před vydáním TX
+  - Detekce po skončení časového zámku
+explanation: |
+  Aby byl podvod sankcionován, musí být transakce spravedlnosti uvolněna před vypršením časového zámku. Nelze ji uvolnit před začátkem časového zámku nebo před zveřejněním TX, protože by to znamenalo, že k podvádění jednoduše nedošlo.
+reviewed: false

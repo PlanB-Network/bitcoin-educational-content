@@ -1,0 +1,8 @@
+question: Welke syntaxis wordt gebruikt om parameters te definiëren in Rust afsluitingen?
+answer: Pipe-tekens (|) om parameters in te sluiten
+wrong_answers:
+  - Haakjes () om parameters in te sluiten
+  - Vierkante haakjes [] om parameters in te sluiten
+  - Accolades {} om parameters in te sluiten
+explanation: |
+  Rust afsluitingen gebruiken pijptekens (|) om parameters te definiëren, wat ze onderscheidt van gewone functies die haakjes gebruiken. Bijvoorbeeld, een closure zonder parameters wordt geschreven als ||, terwijl een closure met parameters eruit ziet als |x, y|. Deze unieke syntaxis maakt afsluitingen gemakkelijk herkenbaar en onderscheidt ze van functiedefinities. Haakjes worden gebruikt voor reguliere functies, terwijl vierkante haakjes en accolades andere doelen dienen in de Rust syntaxis.

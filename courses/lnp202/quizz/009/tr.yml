@@ -1,0 +1,9 @@
+question: Bir saklama operatörünün kullanıcılarının ödemeleri üzerinde ne gibi bir yetkisi vardır?
+answer: Sansürün gücü
+wrong_answers:
+  - Mining güç
+  - Uzlaşmanın gücü
+  - Halving güç
+explanation: |
+  Fonları ve kanalları kontrol eden bir operatör ödemeleri engelleyebilir, geciktirebilir veya filtreleyebilir.
+reviewed: false

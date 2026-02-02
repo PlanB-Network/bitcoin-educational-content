@@ -1,5 +1,6 @@
 ---
-term: OP_CHECKLOCKTIMEVERIFY (0xB1)
+term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition: UTXO 소비에 절대적인 시간 제약를 부과하는 옵코드.
 ---
 
 이 모든 조건이 충족되지 않으면 트랜잭션을 무효로 만듭니다:

@@ -1,0 +1,9 @@
+question: Hvilken mekanisme brukes i NWC-protokollen til å transportere forespørselen mellom applikasjonen og noden?
+answer: Hendelser på Nostr-reléer
+wrong_answers:
+  - Direkte REST-kall til LND
+  - Punkt-til-punkt VPN-tilkobling
+  - Krypterte DNS-forespørsler
+explanation: |
+  Forespørselen krypteres og publiseres deretter som en hendelse på et Nostr-relé, som noden leser for å utføre handlingen.
+reviewed: false

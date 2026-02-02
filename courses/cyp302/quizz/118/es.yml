@@ -6,4 +6,4 @@ wrong_answers:
   - Divide el texto plano en bloques de 128 bits
 explanation: |
   La operación de sustitución de bytes (S-Box) en AES introduce confusión al reemplazar cada byte con un valor diferente según una tabla, haciendo que el texto encriptado sea más difícil de analizar.
-reviewed: false
+reviewed: true

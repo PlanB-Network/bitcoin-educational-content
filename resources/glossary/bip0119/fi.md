@@ -1,5 +1,6 @@
 ---
 term: BIP0119
 
+definition: Ehdotus OP_CHECKTEMPLATEVERIFY (CTV) -opkoodista, joka mahdollistaa kovenanttien luomisen asettaen ehtoja tuleville kuluille.
 ---
 Otetaan käyttöön uusi op-koodi nimeltä `OP_CHECKTEMPLATEVERIFY` (CTV). CTV mahdollistaisi ei-rekursiivisten sopimusten luomisen transaktioissa, jotta voitaisiin asettaa erityisehtoja sille, miten tietty kolikko voidaan käyttää, myös tulevissa transaktioissa. Konkreettisemmin sanottuna se mahdollistaisi ehtojen määrittelyn transaktion tuotosten `scriptPubKey`:lle, joka perustuu syötteenä käytetyn UTXO:n `scriptPubKey`:hen. CheckTemplateVerify on suunniteltu yksinkertaiseksi ja ilman dynaamista tilaa. Sen toteutuksen tarkoituksena on laajentaa Bitcoinin skriptiominaisuuksia helpottamaan erilaisia sovelluksia, kuten transaktioiden ruuhkautumisen hallintaa, ei-interaktiivisten maksukanavien, DLC:iden, maksupoolien luomista... Tämä uusi op-koodi otettaisiin käyttöön `OP_NOP4`:n tilalle. Tämä muutos merkitsisi pehmeää haarautumista.

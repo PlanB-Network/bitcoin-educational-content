@@ -1,0 +1,8 @@
+question: Ni ikihe kintu nyamukuru c’ubuhinga bwo gukingira amakuru gishobora gutuma amayunguruzo y’amabuye y’agaciro (BIP158) atanga ubuzima bwite ku bakiriya b’umuco mu gihe aguma afise ukuri gutunganye?
+answer: Bishobora gutanga ivyiza vy'ibinyoma ariko ntivyigera bitanga ivyiza vy'ibinyoma iyo bihuye n'ibikorwa .
+wrong_answers:
+  - Bakoresha ibimenyamenya vy'ubumenyi zero kugira ngo bahishe aderesi ziriko zirabazwa ku nzira
+  - "Bashiramwo amakuru yose y'akayunguruzo bakoresheje urufunguzo rwa bose rw'umukiriya kugira ntibatege amatwi"
+  - Baca bashiramwo urutonde rw'amafaranga y'ibikorwa kugira ngo bapfuke uburyo abarorerezi bakoresha amahera
+explanation: |
+  Ivyunyuro vy'amabuye bikomeye bikoresha imiterere y'amakuru ashobora kwerekana nabi uguhuza (ibinyoma vyiza) ariko ntibizokwigera bibura uguhuza nyakuri (ibinyoma bibi). Iyi nzira y’uburinganire ni ngirakamaro cane: ivyiza vy’ibinyoma bituma gusa umuntu ashobora gukuraho amakuru adakenewe, mu gihe ivyiza vy’ibinyoma vyotuma amasakoshi adashobora kwishura vyose. Inyungu y'ubuzima bwite ikomoka kuri ukwo kudakeka - abarorerezi ntibashobora gutandukanya hagati y'ibihuye vy'ukuri n'ibihuye n'ibinyoma, bagapfukiranya amafaranga y'ubudandaji ari aya wallet abaza.

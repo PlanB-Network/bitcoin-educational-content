@@ -1,5 +1,6 @@
 ---
 term: UASF
+definition: Madenci onayına bağlı kalmaksızın, ağ kullanıcıları tarafından kendi düğümleri aracılığıyla başlatılan ve uygulanan soft fork.
 ---
 
 "*Kullanıcı Tarafından Etkinleştirilen Soft Fork*" kısaltması. Bitcoin'deki bir Soft Fork'ı, Miner onayına dayanmadan ağın kullanıcıları tarafından düğümleri aracılığıyla başlatıldığında ve uygulandığında tanımlar. Ağ düğümleri, Soft Fork'ın yeni kurallarını benimsemek için yazılımlarını günceller ve bırakın talaşlar nereye düşerse düşsün!

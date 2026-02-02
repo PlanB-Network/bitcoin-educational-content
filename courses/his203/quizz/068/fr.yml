@@ -1,0 +1,9 @@
+question: Quelle plateforme de change s'est faite voler 24 000 bitcoins au début du mois de septembre 2012 ?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ Dans la nuit du 3 au 4 septembre 2012, un pirate a accédé à une sauvegarde non chiffrée des clés du portefeuille de Bitfloor, et est parvenu a retirer un peu plus de 24 000 BTC, soit environ 250 000 $ à ce moment-là.
+reviewed: false

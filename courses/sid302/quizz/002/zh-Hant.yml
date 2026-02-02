@@ -1,0 +1,8 @@
+question: Liquid Network 多久會產生新區塊？
+answer: 每分鐘
+wrong_answers:
+  - 每 10 分鐘
+  - 每 30 秒
+  - 每 5 分鐘
+explanation: |
+  Liquid Network 以確定性循環方式每分鐘製作一個區塊，比 Bitcoin 的 10 分鐘概率性間隔更快更可預測。這種精確的一分鐘計時方式對於套利和快速交易所間結算等網路用例至關重要，可提供機構交易作業所需的速度。

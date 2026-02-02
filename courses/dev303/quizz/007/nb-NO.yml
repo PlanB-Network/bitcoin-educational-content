@@ -1,0 +1,8 @@
+question: Hva er den største fordelen med å bruke kommandoen `cargo check` under utviklingen?
+answer: Den utfører kompileringssjekker raskere enn en fullstendig build uten å generere kjørbare filer
+wrong_answers:
+  - Den retter automatisk kompileringsfeil og problemer med kodestilen i prosjektet ditt
+  - Den laster ned og oppdaterer alle prosjektavhengigheter til de nyeste versjonene
+  - Programmet kjører programmet ditt med feilsøkingsinformasjon og detaljert feilrapportering
+explanation: |
+  Kommandoen `cargo check` er utviklet for rask utvikling ved at den utfører alle de samme kompileringskontrollene som `cargo build`, men hopper over det siste trinnet i genereringen av den kjørbare filen. Dette gjør den betydelig raskere enn en fullstendig kompilering når du bare trenger å verifisere at koden din kompileres riktig. De gale svarene beskriver funksjonaliteten til andre verktøy: Clippy og andre lintere kan foreslå rettelser, men ikke bruke dem automatisk, `cargo update` håndterer avhengighetsoppdateringer, og `cargo run` kjører programmer med feilsøkingsfunksjoner.

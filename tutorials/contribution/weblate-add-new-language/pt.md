@@ -10,14 +10,14 @@ Atualmente, o nosso sítio Web disponibiliza uma série de línguas e estamos co
 
 Se a sua língua materna ainda não está disponível no nosso sítio Web e gostaria de a adicionar, este tutorial é para si!
 
-Em primeiro lugar, certifica-te de que contactas a equipa da Plan ₿ Academy através do nosso [grupo Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Se não tiveres o Telegram, podes enviar um e-mail para mari@planb.network. Não te esqueças de escrever uma pequena apresentação sobre quem és e as línguas que falas.
+Em primeiro lugar, certifica-te de que contactas a equipa da Plan ₿ Academy através do nosso [grupo Telegram](https://t.me/PlanBNetwork_ContentBuilder). Se não tiveres o Telegram, podes enviar um e-mail para mari@planb.network. Não te esqueças de escrever uma pequena apresentação sobre quem és e as línguas que falas.
 
 ## Verificar se uma língua está presente na Weblate
 
 Para verificar se a sua língua já se encontra entre aquelas em que estamos a trabalhar.
 
 
-- Aceder à [nossa plataforma Weblate] (https://weblate.planb.network/projects/planb-network-website/):
+- Aceder à [nossa plataforma Weblate](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 
@@ -45,7 +45,7 @@ Se a sua língua não estiver presente, siga o tutorial abaixo para a adicionar.
 ![language](assets/04.webp)
 
 
-- Abra a lista pendente e selecione a língua que pretende adicionar. Se a língua que procura não estiver disponível na lista pendente, pode contactar o [grupo Telegram] (https://t.me/PlanBNetwork_ContentBuilder) para que a nossa equipa a possa criar manualmente:
+- Abra a lista pendente e selecione a língua que pretende adicionar. Se a língua que procura não estiver disponível na lista pendente, pode contactar o [grupo Telegram](https://t.me/PlanBNetwork_ContentBuilder) para que a nossa equipa a possa criar manualmente:
 
 ![language](assets/05.webp)
 

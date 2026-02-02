@@ -1,0 +1,9 @@
+question: Jaka kluczowa cecha procesu rozwoju Bitcoin czyni go szczególnie podatnym na taktyki infiltracji opisane w wojennych podręcznikach sabotażu?
+answer: Rozwój Bitcoin jest otwarty dla każdego, bez udziału strażników
+wrong_answers:
+  - Rozwój Bitcoin opiera się na niewielkiej grupie zaufanych opiekunów rdzenia
+  - Rozwój Bitcoin wymaga formalnej zgody rządu na większe zmiany
+  - Rozwój Bitcoin wykorzystuje zamknięty kod źródłowy, który ogranicza wkład zewnętrzny
+explanation: |
+  Otwarty proces rozwoju Bitcoin, będąc jedną z jego największych zalet w zakresie decentralizacji i przejrzystości, stwarza również podatność na wrogą infiltrację. Ponieważ każdy może uczestniczyć w dyskusjach, proponować zmiany i angażować się w proces przeglądu bez konieczności uzyskania pozwolenia lub poświadczeń, oddani atakujący mogą wykorzystać tę otwartość. Mogą wstrzymywać postępy poprzez niekończące się obawy dotyczące nieistotnych kwestii, targować się o precyzyjne sformułowania, powtarzać ustalone dyskusje lub stosować "społeczne ataki Sybil" przy użyciu wielu fałszywych tożsamości, aby stworzyć fałszywe wrażenie oporu. Ta otwartość wyraźnie kontrastuje z zamkniętymi modelami rozwoju, które mają strażników lub procesy zatwierdzania, które mogłyby odfiltrować złych aktorów.
+reviewed: false

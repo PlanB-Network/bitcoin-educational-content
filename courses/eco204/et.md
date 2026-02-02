@@ -1,21 +1,19 @@
 ---
-name: Hüperinflatsiooni Uuringud
+name: Hüperinflatsioon juhtumiuuringud
 goal: Mõista hüperinflatsioonide teket Fiat-valuuta domineerivas maailmas ja nende tagajärgi
 objectives:
-  - Uurida hüperinflatsiooni tsükleid
-  - Mõista hüperinflatsioonide tegelikku mõju meie igapäevaelule
-  - Uurida hüperinflatsioonide sarnasusi läbi aegade
-  - Omada konkreetset ettekujutust, kuidas end hüperinflatsiooni eest kaitsta
+- Uurida hüperinflatsiooni tsükleid
+- Mõista hüperinflatsioonide tegelikku mõju meie igapäevaelule
+- Uurida hüperinflatsioonide sarnasusi läbi aegade
+- Omada konkreetset ettekujutust, kuidas end hüperinflatsiooni eest kaitsta
 ---
+# Teekond läbi majandusliku kokkuvarisemise
 
-# Teekond majandusse
+Milline see välja näeb, kui raha kaotab oma tähenduse?
+See kursus juhendab teid läbi hüperinflatsiooini põneva, kuid kainestava maailma. Avastate ajaloolised episoodid ja kaasaegsed juhtumid, kus valuutad kokku varisesid ja majandused üleöö muutusid. Paljastate mustreid, põhjuseid ja tegelikku mõju tavalistele inimestele, saades ülevaate ühest majandusteaduse dramaatilisemast nähtusest.
 
-See programm eesmärgib pakkuda sügavat mõistmist hüperinflatsioonide tekkest Fiat-valuuta domineerivas maailmas ja uurida nende olulisi tagajärgi. Osalejad uurivad hüperinflatsiooni tsükleid detailsemalt, analüüsides põhjuseid, käivitajaid ning ajaloolisi ja kaasaegseid näiteid. Samuti vaadeldakse hüperinflatsioonide käegakatsutavat mõju majandusele ja igapäevaelule, uurides tagajärgi valuuta väärtusele, ostujõule ning individuaalsetele ja kollektiivsetele säästudele.
-
-Siin rõhutame trende ja ühiseid mustreid hüperinflatsiooni episoodides läbi ajaloo, pakkudes samal ajal tõhusaid ja konkreetseid strateegiaid enda kaitsmiseks hüperinflatsiooni perioodidel. Osalejatel on võimalus uurida erinevaid investeerimisvõimalusi ja finantskaitse mehhanisme, omandades praktilisi tööriistu ja olulist teadmist, et rahulikult toime tulla ebastabiilses majanduskliimas.
-
+Teel avastate ka seda, kuidas üksikisikud ja kogukonnad on neid tormilistel perioodidel navigeerinud. Õppige strateegiaid, mis on aidanud kaitsta rikkust valuutakriiside ajal, ja arendage sügavamat arusaamist finantsilisest vastupidavusest. Kui olete uudishimulik majanduslike jõudude suhtes, mis kujundavad meie maailma, pakub see teekond nii teadmisi kui ka praktilist perspektiivi.
 +++
-
 # Sissejuhatus
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
@@ -272,7 +270,7 @@ Ilmekas näide MMT-st on Ameerika sõjalis-tööstuslik kompleks. MMT kohaselt v
 
 Jaapanit tuuakse sageli MMT pooldajate poolt näitena inflatsiooni puudumisest hoolimata märkimisväärsest rahatrükkimisest. Siiski toob Jaapani olukord esile ka traditsiooniliste inflatsiooni mõõtmiste, nagu Tarbijahinnaindeks (CPI), piirangud. Jaapanis hoitakse suur osa trükitud rahast kas säästuna või investeerituna kinnisvarasse või aktsiaturgudele, mitte kulutatuna jooksvas tarbimismajanduses. CPI, mitte täielikult neid dünaamikaid tabades, võib alahinnata tegelikku inflatsiooni.
 
-Jaapani analüüs (https://ideas.repec.org/p/ces/ceswps/_9821.html) toob samuti esile, et majandusagentide käitumine, nagu säästmine või varadesse investeerimine, mis ei kuulu THI (Tarbijahinnaindeks) alla, võib varjata rahatrüki inflatsioonilist mõju. Lisaks mängib erinevate sektorite võime neelduda süstitud likviidsust olulist rolli selles, kas inflatsioon toimub või mitte.
+[Jaapani analüüs](https://ideas.repec.org/p/ces/ceswps/_9821.html) toob samuti esile, et majandusagentide käitumine, näiteks säästmine või investeerimine varadesse, mis ei kuulu tarbijahinnaindeksi hulka, võib varjata rahatrüki inflatsioonilist mõju. Lisaks mängib erinevate sektorite võime süstitud likviidsust absorbeerida otsustavat rolli selles, kas inflatsioon avaldub või mitte.
 
 #### Pangad ja Keskpankade Bilansid
 

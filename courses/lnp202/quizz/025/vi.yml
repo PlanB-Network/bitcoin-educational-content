@@ -1,0 +1,9 @@
+question: Những điều kiện nào khiến quả phạt của Lightning có hiệu lực?
+answer: Phát hiện trước khi kết thúc khóa thời gian
+wrong_answers:
+  - Phát hiện trước khi bắt đầu khóa thời gian
+  - Phát hiện gian lận trước khi phát hành TX
+  - Phát hiện sau khi kết thúc khóa thời gian
+explanation: |
+  Giao dịch công lý phải được công bố trước khi thời hạn khóa hết hiệu lực để xử phạt hành vi gian lận. Nó không thể được công bố trước khi thời hạn khóa bắt đầu hoặc trước khi giao dịch được công khai, vì điều này có nghĩa là hành vi gian lận đơn giản là không xảy ra.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Co by se mohlo stát s tradičními službami pro převod peněz jako Western Union, centrálními bankami, Visa a Mastercard, pokud by nepřijaly technologii Lightning Network?
-answer: Mohly by zaniknout.
+question: Jaký mechanismus propojuje sidechain s Bitcoinem?
+answer: Obousměrné ukotvení
 wrong_answers:
-  - Mohly by se stát populárnějšími.
-  - Mohly by se stát bezpečnějšími.
-  - Mohly by se stát decentralizovanějšími.
+  - Platební kanál
+  - Proof of Stake
+  - Sharding
 explanation: |
-  Tradiční služby pro převod peněz jako Western Union,
-  centrální banky, Visa a Mastercard by mohly zaniknout, pokud
-  nepřijmou technologii Lightning Network.
-reviewed: true
+  Mechanismus two-way peg umožňuje uzamknout BTC v Bitcoinu a reprezentovat je na sidechainu.
+reviewed: false

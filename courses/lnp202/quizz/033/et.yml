@@ -1,0 +1,9 @@
+question: Milline neist tööriistadest ei tuvasta Lightningi asjakohaseid eakaaslasi?
+answer: Electrum
+wrong_answers:
+  - Välkterminal
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum ei ole Lightning explorer, et saada teavet võrgusõlmede kohta. Teised kolm tööriista täidavad seda funktsiooni seevastu hästi.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Milloin kysymysmerkkioperaattoria (?) tulisi suosia unwrap()- tai expect()-metodien sijaan Rust-virheenkäsittelyssä?
+answer: Kun virheitä on siirrettävä ylöspäin kutsupinossa, jotta kutsuva funktio voi käsitellä niitä
+wrong_answers:
+  - Kun haluat antaa mukautettuja virheilmoituksia epäonnistuneiden toimintojen virheenkorjausta varten
+  - Kun olet varma, että operaatio onnistuu, ja haluat välttää virheenkäsittelyn
+  - Kun virheet on muunnettava oletusarvoksi ja ohjelman suorittamista on jatkettava
+explanation: |
+  Kysymysmerkkioperaattori (?) on suunniteltu virheiden välittämiseen - se poimii onnistumisarvot, mutta palauttaa virheet välittömästi nykyisestä funktiosta, jolloin kutsujat voivat käsitellä ne. Toisin kuin unwrap()/expect()-operaattorit, jotka joutuvat paniikkiin virheiden yhteydessä, tai unwrap_or()-operaattori, joka antaa oletusarvot, ? -operaattori säilyttää virhekontekstin ja siirtää vastuun korkeamman tason koodille, joka voi tehdä asianmukaiset käsittelypäätökset.

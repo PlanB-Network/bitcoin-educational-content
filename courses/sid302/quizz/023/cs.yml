@@ -1,0 +1,8 @@
+question: Proč Mayfellova implementace směnek na Liquid využívá právě Confidential Transactions, a ne transparentní záznamy v blockchainu?
+answer: Požadavky na ochranu soukromí v komerční sféře vyžadují, aby částky půjček zůstaly viditelné pouze pro věřitele a dlužníka a zároveň byly zachovány možnosti ověření auditorem
+wrong_answers:
+  - Dodržování předpisů v Mexiku vyžaduje, aby všechny finanční transakce byly zcela skryty před státním dohledem a daňovými úřady
+  - Transparentní záznamy by vytvořily úzká místa škálovatelnosti, která by systému znemožnila efektivně zpracovat požadovaných více než 25 000 směnek
+  - Veřejná viditelnost částek půjček by vyvolala automatické zdanění, které by proces tokenizace učinilo pro účastníky finančně neúnosným
+explanation: |
+  Confidential Transactions řeší zásadní obchodní problém v oblasti komerčních úvěrů: zachování soukromí v konkurenčním prostředí a zároveň zajištění souladu s právními předpisy. V tradičním finančnictví jsou částky půjček mezi podniky důvěrnými obchodními informacemi, ke kterým by konkurence neměla mít přístup, avšak auditoři a regulační orgány potřebují ověřit integritu účetních knih. Liquid Confidential Transactions dosahuje této rovnováhy tím, že kryptograficky skrývá částky před veřejností a zároveň umožňuje oprávněným stranám ověřovat transakce. Špatné odpovědi zkreslují tuto technologii - CT neskrývá transakce před regulátory (soukromí vs. utajení), neřeší problémy se škálovatelností (to je samostatný technický problém) a nevytváří mechanismy pro vyhýbání se daňovým povinnostem (legitimní nástroje pro ochranu soukromí neobcházejí daňové povinnosti).

@@ -1,8 +1,9 @@
-question: Mu kete ciwe ciwe citwa letre sur la marque des fers, Turgot aserura iciyumviro c’uko bidashoboka ko umuntu amenya neza kuruta uko isoko rimenya. Ni uwuhe muhinga mu vy’ubutunzi wo muri Otirishiya yavyiteje imbere mu kinjana ca 20?
-answer: Fridiriki Hayek
+question: Mw'ikete ryiwe ryitwa lettre sur la marque des fers, Turgot aserura iciyumviro c’uko bidashoboka ko umuntu amenya neza kuruta uko isoko rimenya. Ni uwuhe muhinga mu vy’ubutunzi wo muri Otirishi yabitegiye imbere mu kinjana ca 20?
+answer: Friedrich Hayek
 wrong_answers:
-  - Carl umukozi
+  - Carl Menger
   - Murray Rothbard
-  - Luduwiki voni Mises
+  - Ludwig von Mises
 explanation: |
-  Hayek yateye imbere iciyumviro co "kuvumbura igiciro" n'isoko, hakurikijwe ivyo isoko ari inzira yo kuvumbura amakuru kandi ibiciro ni ingaruka y'ugukorana kwa Supply n'ivyo umuntu asaba.
+  Hayek yateye imbere iciyumviro co "kuvumbura igiciro"(price discovery) n'isoko, hakurikijwe ivyo isoko ari inzira yo kuvumbura amakuru kandi ibiciro ni ingaruka y'ugukorana ku bitangwa n'ivyo umuntu asaba.
+reviewed: true

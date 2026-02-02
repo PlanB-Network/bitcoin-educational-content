@@ -1,0 +1,8 @@
+question: Koja je primarna prednost korišćenja metoda map() i map_err() na tipovima Result u poređenju sa tradicionalnim obrascima za rukovanje greškama try-catch?
+answer: Omogućavaju funkcionalno ulančavanje operacija dok održavaju rukovanje greškama blizu operacija koje mogu da zakažu
+wrong_answers:
+  - Automatski konvertuju sve tipove grešaka u string poruke radi lakšeg otklanjanja grešaka i prikaza korisnicima.
+  - Oni eliminišu potrebu za operatorom upitnika pružanjem ugrađenih mehanizama za propagaciju grešaka
+  - Oni sprečavaju stanja panike tako što obavijaju sve potencijalno neuspešne operacije u sigurne Result kontejnere.
+explanation: |
+  Metode map() i map_err() omogućavaju rukovanje greškama u funkcionalnom stilu gde možete lančati operacije i transformisati vrednosti ili greške tačno na mestu gde se javljaju. Ovo drži logiku rukovanja greškama blizu operacija koje mogu da zakažu, za razliku od try-catch blokova gde je rukovanje greškama odvojeno od stvarnih operacija. Ostale opcije su netačne: map metode ne konvertuju greške u stringove (to je uloga anyhow), one rade zajedno sa operatorom upitnika umesto da ga zamene, i ne sprečavaju panike već obezbeđuju strukturirano rukovanje greškama za Results.

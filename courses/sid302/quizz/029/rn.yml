@@ -1,0 +1,8 @@
+question: Ni igiki c’ishimikiro abashoramari bategerezwa kwemera igihe bagize uruhara mu bidukikije vy’itunga rya Blockstream AMP ugereranyije n’ibikorwa vy’ubudandaji vya Liquid Network?
+answer: Kugaragara neza kw'ivyo bafise n'amateka y'ibikorwa vyabo ku wutanga umutungo naho boba bafise ubuzima bwite bw'abandi bakoresha
+wrong_answers:
+  - Amafaranga menshi y'ugucuruza bitewe n'inyongera y'amahera y'ibarabara asabwa kugira ngo umuntu ashobore gusinyana uburyo bwo kwemerera
+  - Kugabanya umuvuduko w'ugucuruza kubera ko ivyoherezwa vyose bitegerezwa kwemezwa biciye ku bikoresho vy'ugukurikiza amategeko bihurikiye hamwe imbere y'uko vyemezwa
+  - Ubushobozi bwo kwimurira umutungo bufise aho bugarukira kuko ibimenyetso vya AMP bishobora kwoherezwa gusa ku bikoresho vyemewe mbere y'igihe biri mu bubasha bumwe bumwe
+explanation: |
+  Inyishu ibereye yerekana ubucuruzi bw’ubuzima bwite bwa AMP: mu gihe Confidential Transactions ibungabunga ubuzima bwite bw’ukoresha ku wundi, itunga rya AMP rituma abatanga amakuru baheza bakabona unblinded kugira ngo bakurikize amategeko. Inyishu zitari zo zidondora ingorane z’ibikorwa (amahera, umuvuduko, ubushobozi bwo kwimurirwa) aho gusobanura ivy’ishimikiro vy’ugusenyera ku muco bitandukanya AMP n’akarorero ka Liquid k’ibanga ryose.

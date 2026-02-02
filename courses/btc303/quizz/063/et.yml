@@ -1,0 +1,9 @@
+question: Mis on peamine tehniline erinevus Bitcoin Core'i GitHubi repositooriumi ja tuhandete teiste sama repositooriumi koopiate vahel, mida levitatakse kogu maailmas?
+answer: Tehnilist erinevust ei ole; see on sotsiaalse keskpunktina arengu mugavuse jaoks
+wrong_answers:
+  - GitHubi repositoorium sisaldab krüptograafilisi allkirju, mis tõendavad, et tegemist on ametliku versiooniga
+  - GitHubi repositooriumil on spetsiaalsed kommiteerimisõigused, mis takistavad koodibaasi volitamata muutmist
+  - GitHubi repositoorium säilitab põhivõti, mis kinnitab kõik teised repositooriumi koopiad kogu maailmas
+explanation: |
+  Peatükis viidatud Jameson Loppi analüüsi kohaselt on Bitcoin Core'i GitHubi repositoorium tehniliselt identne kõigi teiste koopiatega. Selle tähtsus on puhtalt sotsiaalne - sellest on saanud arenduse koordineerimise keskpunkt. Hoidla on pigem mugavuse kui tehnilise autoriteedi küsimus ja kui see kaoks, tekiks loomulikult uus keskne punkt. See näitab Bitcoin detsentraliseeritud olemust, kus ühelgi hoidlal ei ole tehnilist ülemvõimu teiste üle.
+reviewed: false

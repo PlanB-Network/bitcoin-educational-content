@@ -22,15 +22,15 @@ Katika muktadha ambapo vivinjari vingi hukusanya data yetu ya kibinafsi kwa wing
 
 
 
-**Kivinjari cha Orion** kinajionyesha kama mbadala wa kibunifu kwa watumiaji wa Apple. Iliyoundwa na Kagi, kivinjari hiki kinachanganya kasi ya injini ya WebKit na falsafa ya sifuri ya telemetry. Tofauti na washindani wake, Orion haitumi data kwa seva za mbali na kwa asili huzuia 99.9% ya matangazo na vifuatiliaji, ikiwa ni pamoja na YouTube.
+**orion-browser** kinajionyesha kama mbadala wa kibunifu kwa watumiaji wa Apple. Iliyoundwa na Kagi, kivinjari hiki kinachanganya kasi ya injini ya WebKit na falsafa ya sifuri ya telemetry. Tofauti na washindani wake, Orion haitumi data kwa server za mbali na kwa asili huzuia 99.9% ya matangazo na vifuatiliaji, ikiwa ni pamoja na YouTube.
 
 
 
-Kipengele chake cha kipekee? Orion ndicho kivinjari **pekee cha WebKit** ambacho kinaweza kusakinisha Chrome **na** viendelezi vya Firefox asilia, vinavyotoa ulimwengu bora zaidi. Utangamano huu, pamoja na matumizi ya kumbukumbu mara 2 hadi 3 chini ya vivinjari vingine na ushirikiano usio na mshono na mfumo ikolojia wa Apple (iCloud, Keychain), huifanya kuwa chaguo bora kwa watumiaji wa Mac na iPhone wanaojali faragha.
+Kipengele chake cha kipekee? Orion ndio browser **pekee ya WebKit** ambacho kinaweza kusakinisha Chrome **na** viendelezi vya Firefox asilia, vinavyotoa ulimwengu bora zaidi. Utangamano huu, pamoja na matumizi ya kumbukumbu mara 2 hadi 3 chini ya vivinjari vingine na ushirikiano usio na mshono na mfumo ikolojia wa Apple (iCloud, Keychain), huifanya kuwa chaguo bora kwa watumiaji wa Mac na iPhone wanaojali faragha.
 
 
 
-## Kwa nini uchague Kivinjari cha Orion?
+## Kwa nini uchague orion-browser?
 
 
 
@@ -42,15 +42,15 @@ Kipengele chake cha kipekee? Orion ndicho kivinjari **pekee cha WebKit** ambacho
 
 
 
-**Telemetry sifuri inayoweza kuthibitishwa**: Orion inachukua mbinu kali ya faragha, ikiwa na sifuri telemetry kulingana na muundo. Tofauti na vivinjari vingine, ambavyo hufanya mamia ya maombi ya mtandao wakati wa kuanza (kielelezo cha IP, alama ya vidole vya kivinjari, maelezo ya kibinafsi), Orion kamwe "simu ya nyumbani". Tofauti hii ya kimsingi huondoa kabisa hatari ya uvujaji wa data bila kukusudia.
+**Zero Telemetry inayoweza kuthibitishwa**: Orion inachukua mbinu kali ya faragha, ikiwa na Zero telemetry kulingana na muundo. Tofauti na vivinjari vingine, ambavyo hufanya mamia ya maombi ya mtandao wakati wa kuanza (kielelezo cha IP, alama ya vidole vya kivinjari, maelezo ya kibinafsi), Orion kamwe "simu ya nyumbani". Tofauti hii ya kimsingi huondoa kabisa hatari ya uvujaji wa data bila kukusudia.
 
 
 
-**Utendaji wa kipekee**: Kulingana na toleo lililoboreshwa la WebKit, Orion inalingana au hata kuipita Safari kwa kasi kwenye Mac. Vipimo vya Speedometer 2.0/2.1 mara kwa mara huiweka kwanza kwenye vichakataji vya Apple Silicon. Uzuiaji wa matangazo asili huharakisha zaidi upakiaji wa ukurasa kwa 20 hadi 40%.
+**Utendaji wa kipekee**: Kulingana na toleo lililoboreshwa la WebKit, Orion inalingana au hata kuipita Safari kwa kasi kwenye Mac. Vipimo vya Speedometer 2.0/2.1 mara kwa mara huiweka kwanza kwenye processors za Apple Silicon. Uzuiaji wa matangazo asili huharakisha zaidi upakiaji wa ukurasa kwa 20 hadi 40%.
 
 
 
-**Usaidizi wa kiendelezi kwa wote**: Ubunifu mkubwa, Orion hukuruhusu kusakinisha viendelezi kutoka kwa Duka la Chrome kwenye Wavuti **na** Viongezi vya Mozilla. Usaidizi wa WebExtensions ni wa majaribio kwa sasa, lengo likiwa ni uoanifu wa 100% katika toleo la beta. Unaweza kutumia viendelezi vingi maarufu kama vile uBlock Origin, Bitwarden, hata kwenye iPhone - ulimwengu wa kwanza kwenye iOS, ingawa vingine huenda visifanye kazi kikamilifu.
+**Usaidizi wa kiendelezi kwa wote**: Ubunifu mkubwa, Orion hukuruhusu kusakinisha viendelezi kutoka kwa Duka la Chrome kwenye Wavuti **na** extensions (Viongezi) vya Mozilla. Usaidizi wa WebExtensions ni wa majaribio kwa sasa, lengo likiwa ni uoanifu wa 100% katika toleo la beta. Unaweza kutumia viendelezi vingi maarufu kama vile uBlock Origin, Bitwarden, hata kwenye iPhone - ulimwengu wa kwanza kwenye iOS, ingawa vingine huenda visifanye kazi kikamilifu.
 
 
 
@@ -68,7 +68,7 @@ Kipengele chake cha kipekee? Orion ndicho kivinjari **pekee cha WebKit** ambacho
 
 
 
-## Ufungaji wa Kivinjari cha Orion
+## Ufungaji wa orion-browser
 
 
 
@@ -79,7 +79,7 @@ Kipengele chake cha kipekee? Orion ndicho kivinjari **pekee cha WebKit** ambacho
 ![Page d'accueil Kagi avec Orion Browser](assets/fr/02.webp)
 
 
-*Ukurasa wa nyumbani wa Kagi unawasilisha Kivinjari cha Orion kama "kivinjari kisicho na matangazo chenye ulinzi kamili wa faragha na usaidizi wa kiendelezi wa ulimwengu wote"*
+*Ukurasa wa nyumbani wa Kagi unawasilisha orion-browser kama "kivinjari kisicho na matangazo chenye ulinzi kamili wa faragha na usaidizi wa kiendelezi wa ulimwengu wote"*
 
 
 
@@ -105,7 +105,7 @@ Kipengele chake cha kipekee? Orion ndicho kivinjari **pekee cha WebKit** ambacho
 
 
 
-**Mbadala Mbadala**:
+**Njia Mbadala**:
 
 
 ```bash
@@ -120,7 +120,7 @@ brew install --cask orion
 
 
 
-- Fungua **Duka la Programu**
+- Fungua **App Store (Duka la Programu)**
 - Tafuta "**Orion Browser by Kagi**"
 - Sakinisha programu isiyolipishwa (iOS 15+ inayotumika)
 
@@ -157,7 +157,7 @@ Katika uzinduzi wa kwanza, Orion hukuongoza kupitia hatua kadhaa:
 
 
 - **Uagizaji wa data**: Hamisha vipendwa na manenosiri kwa urahisi kutoka Safari, Chrome au Firefox
-- **Usawazishaji wa ICloud**: Washa ili kupata vichupo unavyovipenda kwenye vifaa vyako vyote vya Apple
+- **Usawazishaji wa ICloud**: Washa ili kupata vichupo (Tabs) unavyovipenda kwenye vifaa vyako vyote vya Apple
 
 
 
@@ -167,7 +167,7 @@ Katika uzinduzi wa kwanza, Orion hukuongoza kupitia hatua kadhaa:
 ![Installation sur iOS](assets/fr/06.webp)
 
 
-*Skrini ya usakinishaji kwenye iOS inayoonyesha msimbo wa QR ili kupakua kwa haraka Kivinjari cha Orion kutoka Duka la Programu*
+*Skrini ya usakinishaji kwenye iOS inayoonyesha msimbo wa QR ili kupakua kwa haraka Kivinjari cha Orion kutoka Apple store*
 
 
 
@@ -178,7 +178,7 @@ Katika uzinduzi wa kwanza, Orion hukuongoza kupitia hatua kadhaa:
 ![Page d'accueil Orion](assets/fr/07.webp)
 
 
-*Ukurasa wa nyumbani wa Kivinjari cha Orion Interface: mshale unaonyesha zana tatu muhimu zinazopatikana moja kwa moja kutoka kwa upau wa Address*
+*Ukurasa wa nyumbani (Home)  wa Kivinjari cha Orion Interface: mshale unaonyesha zana tatu muhimu zinazopatikana moja kwa moja kutoka kwa upau wa Address*
 
 
 
@@ -252,7 +252,7 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,):
 
 
 - **Injini chaguo-msingi**: Chagua **DuckDuckGo**, **Startpage** au **Kagi** kwa faragha bora (epuka Google/Bing)
-- **Mapendekezo ya utafutaji**: Wazime ili kuzuia mibofyo ya vitufe kutoka kwa seva za injini tafuti
+- **Mapendekezo ya utafutaji**: Wazime ili kuzuia mibofyo ya vitufe kutoka kwa server za injini tafuti
 
 
 
@@ -283,8 +283,8 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,):
 
 
 
-- Ondoa vifuatiliaji kwenye URL: **"Kwa Kuvinjari kwa Faragha pekee"** husafisha viungo vilivyonakiliwa
-- Shiriki ripoti za kuacha kufanya kazi: **"Baada ya kuomba idhini"** inaheshimu kibali chako
+- **Ondoa vifuatiliaji kwenye URL**: "Kwa Kuvinjari kwa Faragha pekee" husafisha viungo vilivyonakiliwa
+- **Shiriki ripoti za kuacha kufanya kazi**: "Baada ya kuomba idhini" inaheshimu kibali chako
 - **Wakala maalum wa mtumiaji**: Inaweza kurekebishwa ili kukwepa vizuizi fulani
 
 
@@ -307,7 +307,7 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,):
 
 
 
-**Ufikiaji wa haraka**: Bofya gia ⚙️ katika upau wa Address ili kurekebisha:
+**Ufikiaji wa haraka**: Bofya gear ⚙️ katika upau wa Address ili kurekebisha:
 
 
 
@@ -319,7 +319,7 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,):
 
 
 
-**4. Vichujio Maalum vya Kina** (tazama hapa chini)
+**4. Vichujio (Filters) Maalum vya Kina** (tazama hapa chini)
 
 
 
@@ -338,7 +338,7 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,):
 
 
 
-**Kidokezo:** Tembelea [FilterLists.com](https://filterlists.com) kwa maelfu ya orodha maalum zilizo tayari kutumika.
+**Kidokezo**: Tembelea [FilterLists.com](https://filterlists.com) kwa maelfu ya orodha maalum zilizo tayari kutumika.
 
 
 
@@ -367,7 +367,7 @@ Orion asilia inasaidia viendelezi vya Chrome na Firefox. Sakinisha moja kwa moja
 
 
 - **LocalCDN**: Huhudumia maktaba zinazoshirikiwa ndani ya nchi
-- **Kuki Futa Kiotomatiki**: Hufuta vidakuzi kiotomatiki baada ya kufunga vichupo
+- **Futa cookie Kiotomatiki**: Hufuta vidakuzi kiotomatiki baada ya kufunga vichupo
 - **NoScript**: Udhibiti kamili juu ya utekelezaji wa JavaScript (watumiaji wa hali ya juu)
 
 
@@ -399,15 +399,15 @@ Ili kusakinisha:
 ![Outil de personnalisation pinceau](assets/fr/13.webp)
 
 
-*Menyu ya brashi ya Orion ya kubinafsisha onyesho: saizi ya fonti, mandhari (nyepesi/nyeusi), kuzima vichwa vya kunata na kuondolewa kwa Elements* inayokengeusha.
+*Menyu ya brash ya Orion ya kubinafsisha onyesho: saizi ya font, mandhari (nyepesi/nyeusi), kuzima vichwa vya kunata na kuondolewa kwa Elements* inayokengeusha.
 
 
 
-**Zana ya brashi: ubinafsishaji wa hali ya juu **
+**Zana ya brashi: ubinafsishaji wa hali ya juu**
 
 
 
-Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinafsisha onyesho la kila tovuti:
+Zana ya **brash** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinafsisha onyesho la kila tovuti:
 
 
 
@@ -427,7 +427,7 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 - **Ukubwa wa herufi**: Rekebisha uhalali kwa kutumia vibonye A- na A+
-- **Mtindo wa herufi**: Badilisha familia ya fonti (chaguo-msingi au desturi)
+- **Mtindo wa herufi**: Badilisha familia ya font (chaguo-msingi au desturi)
 
 
 
@@ -436,7 +436,7 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 
-- **Lemaza vichwa vinavyonata**: Huondoa vichwa ambavyo hubaki vimekwama sehemu ya juu wakati wa kusogeza
+- **Lemaza sticky headers**: Huondoa vichwa ambavyo hubaki vimekwama sehemu ya juu wakati wa kusogeza
 - **Futa Elements**: Ondoa kabisa Elements inayoudhi (matangazo, madirisha ibukizi, mabango ya vidakuzi)
   - Bofya kwenye "+ Futa" kisha uchague kipengee kitakachofichwa
   - Ni muhimu sana kwa tovuti zilizo na matangazo yanayoendelea au ufuatiliaji unaoonekana wa Elements
@@ -452,14 +452,14 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 
-- **Vichupo vya wima**: Amilisha kupitia upau wa menyu (Vichupo kwenye kitendakazi cha Upande)
-- **Vichupo vilivyoshikamana**: Katika Mapendeleo → Vichupo → Mpangilio "Compact" ili kuhifadhi nafasi
-- **Vikundi vya kichupo**: Panga vipindi vyako kulingana na mada
+- **Vichupo vya wima (Vertical tabs)**: Amilisha kupitia upau wa menyu (Vichupo kwenye kitendakazi cha Upande)
+- **Vichupo vilivyoshikamana (Pinned tabs)**: Katika Mapendeleo → Vichupo → Mpangilio "Compact" ili kuhifadhi nafasi
+- **Vikundi vya kichupo(Tab groups)**: Panga vipindi vyako kulingana na mada
 - **Profaili nyingi**: Unda vitambulisho tofauti kupitia upau wa menyu (Kitendaji cha Wasifu) na data iliyotengwa kabisa
 
 
 
-**Hali ya Nishati ya Chini**: Imehamasishwa na iPhone, modi hii husimamisha kiotomati vichupo visivyotumika baada ya dakika 5 na inaweza kupunguza matumizi ya nishati kwa hadi 90%. Iwashe kupitia upau wa menyu ya Orion kwenye Mac, au katika mipangilio kwenye iOS.
+**Hali ya Nishati ya Chini**: Imehamasishwa na iPhone, mode hii husimamisha kiotomati vichupo visivyotumika baada ya dakika 5 na inaweza kupunguza matumizi ya nishati kwa hadi 90%. Iwashe kupitia upau wa menyu ya Orion kwenye Mac, au katika mipangilio kwenye iOS.
 
 
 
@@ -510,7 +510,7 @@ Ili kuweka Orion haraka na ya faragha:
 - **Viendelezi**: Kikomo kwa kiwango cha chini kabisa (kinaweza kupunguza utendakazi)
 - **Hali ya Nishati ya Chini**: Washa kwa vipindi virefu (90% ya kuokoa inawezekana)
 - **Ripoti ya Faragha**: Bofya ngao 🛡️ ili kuona vizuizi kwa wakati halisi
-- **Ubinafsishaji unaoonekana**: Tumia 🖌️ brashi kurekebisha onyesho na kuondoa Elements inayokengeusha.
+- **Ubinafsishaji unaoonekana**: Tumia 🖌️ brash kurekebisha onyesho na kuondoa Elements inayokengeusha.
 - **Nakili Kiungo Safi**: Bofya kulia ili kunakili viungo bila vifuatiliaji
 - **Tenganisha wasifu**: Tumia wasifu uliojitolea kugawa shughuli zako
 - **Mipangilio ya Tovuti**: Bofya gia ⚙️ ili kurekebisha ruhusa kulingana na tovuti
@@ -522,17 +522,18 @@ Ili kuweka Orion haraka na ya faragha:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
-|---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
 
-**Dhidi ya Safari**: Orion inatoa ulinzi wa hali ya juu kwa kutumia kizuizi chake cha hali ya juu na usaidizi wa kiendelezi, huku ikidumisha utendakazi wa WebKit.
+| Kigezo | Orion | Safari | Chrome | Firefox | Brave |
+|---------|-------|--------|---------|----------|--------|
+| **Telemetry** | Hakuna | Kidogo | Kubwa | Ya kawaida | Kidogo |
+| **Kizuizi cha asili** | 99.9% inayofanya kazi | Msingi | Hamna | Sehemu | Kamili |
+| **Matangazo** | Chrome + Firefox | Ndogo | Chrome tu | Firefox tu | Chrome tu |
+| **Utendaji wa Mac** | Kamili | Kamili | Nzuri | Kawaida | Nzuri |
+| **Matumizi ya RAM** | Chini sana | Chini | Juu | Kawaida | Kawaida |
+| **Chanzo Huria** | Sehemu | Sehemu (WebKit) | Sehemu | Kamili | Kamili |
+| **Majukwaa** | Mac/iOS | Mac/iOS | Yote | Yote | Yote |
+
+**Dhidi ya Safari**: Orion inatoa ulinzi wa hali ya juu kwa kutumia block yake ya hali ya juu na usaidizi wa kiendelezi, huku ikidumisha utendakazi wa WebKit.
 
 
 
@@ -544,7 +545,7 @@ Ili kuweka Orion haraka na ya faragha:
 
 
 
-** Dhidi ya Ujasiri**: Falsafa sawa, lakini Orion huepuka mizozo ya crypto/BAT na inatoa muunganisho bora wa Apple.
+**Dhidi ya Ujasiri**: Falsafa sawa, lakini Orion huepuka mizozo ya crypto/BAT na inatoa muunganisho bora wa Apple.
 
 
 
@@ -552,7 +553,7 @@ Ili kuweka Orion haraka na ya faragha:
 
 
 
-**Inafaa kwa **:
+**Inafaa kwa**:
 
 
 
@@ -607,7 +608,7 @@ Ili kuweka Orion haraka na ya faragha:
 
 - **Sasisho otomatiki**: Orion inasasisha kiotomatiki kwenye macOS kupitia Sparkle
 - **Ufuatiliaji wa athari**: Angalia madokezo ya kutolewa mara kwa mara ili kupata alama za usalama
-- **Kuripoti hitilafu**: Tumia [orionfeedback.org](https://orionfeedback.org) kuripoti matatizo
+- Kuripoti hitilafu**: Tumia [orionfeedback.org](https://orionfeedback.org) kuripoti matatizo
 
 
 
@@ -646,7 +647,7 @@ Kumbuka: kulinda faragha yako hakutegemei tu kivinjari chako. Changanya Orion na
 - **Jukwaa la jumuiya**: [community.kagi.com](https://community.kagi.com)
 - **Ufuatiliaji wa hitilafu**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Vipengele vya chanzo-wazi
-- **Blogu Kagi**: [blog.kagi.com](https://blog.kagi.com) - Habari na masasisho
+- **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Habari na masasisho
 
 
 

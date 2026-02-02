@@ -1,5 +1,6 @@
 ---
 term: SECP256R1
+definition: Mkunjo wa duaradufu wa kiwango cha NIST, hautumiwi na Bitcoin ambayo inapendelea secp256k1.
 ---
 
 Jina lililopewa mkunjo wa mduara unaofafanuliwa kwa kiwango cha NIST cha usimbaji fiche wa vitufe vya umma. Inatumia sehemu kuu ya biti 256 na mlinganyo wa mviringo wa mviringo $y^2 = x^3 + ax + b$ na viambatisho:

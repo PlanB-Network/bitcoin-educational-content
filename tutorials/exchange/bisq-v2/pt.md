@@ -23,7 +23,7 @@ Bisq 2 é a nova versão da popular bolsa descentralizada Bisq, lançada em 2024
 - Suporte para vários tipos de carteiras
 - Sistema de funções com depósito obrigatório no BSQ
 
-Este guia centra-se exclusivamente no "Bisq Easy", o único protocolo atualmente disponível. O Bisq Easy foi concebido especificamente para novos utilizadores de Bitcoin. Este protocolo permite aos utilizadores comprar e vender Bitcoins contra moedas fiduciárias numa plataforma descentralizada peer-to-peer. As transacções são limitadas ao equivalente a 600 USD (com um mínimo de 6 USD) e a segurança da troca depende da reputação dos vendedores de BTC. A Bisq Easy não tem taxas de transação ou requisitos de depósito de segurança. Espera-se que a Bisq Easy substitua a Bisq 1 nas transacções em numerário inferiores a 600 USD (ou equivalente).
+Este guia concentra-se exclusivamente no "Bisq Easy", o único protocolo atualmente disponível. O Bisq Easy foi projetado especialmente para novos utilizadores de Bitcoin. Este protocolo permite que os utilizadores comprem e vendam bitcoins por moedas fiduciárias numa plataforma descentralizada ponto a ponto. As transações são limitadas ao equivalente a 600 USD (com um mínimo de 6 USD), e a segurança das trocas baseia-se na reputação dos vendedores de BTC. O Bisq Easy não tem taxas de negociação nem exigência de depósito de garantia. Espera-se que o Bisq Easy substitua o Bisq 1 para trocas fiduciárias inferiores a 600 USD (ou equivalente).
 
 **Principais caraterísticas**
 
@@ -62,7 +62,7 @@ Este guia centra-se exclusivamente no "Bisq Easy", o único protocolo atualmente
 - O criador da oferta define os termos da troca
 - Uma vez acordados os termos (método de pagamento e preço), a troca começa
 - O vendedor envia os seus dados bancários para o comprador e o comprador envia o seu endereço Bitcoin para o vendedor
-- O comprador efectua o pagamento em numerário e notifica o vendedor
+- O comprador efetua o pagamento em moeda fiduciária e notifica o vendedor
 - Uma vez recebido o pagamento, o vendedor envia os bitcoins para o endereço do comprador
 - A troca fica concluída quando o comprador recebe os bitcoins
 
@@ -90,7 +90,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 
 ### 2. Instalação de acordo com o seu sistema
 
-Siga os passos de instalação adequados ao seu sistema operativo. Se tiver alguma dificuldade durante a instalação, pode consultar o guia detalhado no [wiki oficial do Bisq] (https://bisq.wiki/Downloading_and_installing).
+Siga os passos de instalação adequados ao seu sistema operativo. Se tiver alguma dificuldade durante a instalação, pode consultar o guia detalhado no [wiki oficial do Bisq](https://bisq.wiki/Downloading_and_installing).
 
 ### 3. Primeiro arranque
 
@@ -127,7 +127,7 @@ A pré-configuração dos métodos de pagamento é opcional, mas recomendada par
 
 **Cópia de segurança dos dados:**
 
-Ao contrário do Bisq 1, o Bisq 2 não integra atualmente uma carteira Bitcoin: as transacções são, portanto, efectuadas através das suas próprias carteiras externas. No entanto, recomendamos que faças regularmente cópias de segurança da tua pasta de dados do Bisq 2. Para localizar a tua pasta de dados, consulta a [wiki oficial do Bisq] (https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
+Ao contrário do Bisq 1, o Bisq 2 não integra atualmente uma carteira Bitcoin: as transacções são, portanto, efectuadas através das suas próprias carteiras externas. No entanto, recomendamos que faças regularmente cópias de segurança da tua pasta de dados do Bisq 2. Para localizar a tua pasta de dados, consulta a [wiki oficial do Bisq](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
 
 **Gestão da identidade:**
 

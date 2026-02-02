@@ -1,9 +1,9 @@
 question: SPV 节点有什么特别之处？
-answer: 它只保留了块状顶盖
+answer: 它只保留区块头
 wrong_answers:
-  - 它保留了整个 Blockchain，因为 Genesis 区块
-  - 它只存储最近的数据块
-  - 它只能保留 UTXO 套件，而不能保留 Blockchain 套件
+  - 它从创世区块开始保留整个区块链
+  - 它只保存最近的几个区块
+  - 它只保留 UTXO 集，而不保存完整的区块链
 explanation: |
-  SPV 节点通过区块头和 Merkle 证明验证交易，无需存储完整数据。
+  SPV 节点通过区块头和哈希树证明验证交易，无需存储完整区块链数据。
 reviewed: true

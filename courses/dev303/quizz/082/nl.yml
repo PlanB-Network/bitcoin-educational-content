@@ -1,0 +1,8 @@
+question: Welke rol speelt het Unified Definition Language (UDL) bestand in de UniFFI workflow?
+answer: Het fungeert als een interface-specificatie die beschrijft welke delen van de Rust bibliotheek blootgesteld moeten worden aan andere talen
+wrong_answers:
+  - Het bevat de eigenlijke Rust implementatiecode die wordt gecompileerd in de doeltaalbindingen
+  - Het dient als een runtime configuratiebestand dat de geheugentoewijzing tussen verschillende taalomgevingen beheert
+  - Het biedt een testraamwerk voor het valideren van de juistheid van gegenereerde bindingen op meerdere platforms
+explanation: |
+  Het UDL-bestand dient als contract of specificatie tussen de Rust implementatie en de gegenereerde taalbindingen. Het bevat zelf geen Rust code, noch behandelt het runtime operaties of testen. In plaats daarvan definieert het declaratief welke functies, types en interfaces van de Rust bibliotheek beschikbaar moeten worden gemaakt voor andere talen, waarbij wordt gespecificeerd hoe ze moeten worden toegewezen en gepresenteerd in de eigen interface van de doeltaal.

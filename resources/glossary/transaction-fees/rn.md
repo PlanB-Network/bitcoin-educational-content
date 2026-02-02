@@ -1,5 +1,6 @@
 ---
-term: Amafaranga y'ugutanga
+term: Amafaranga y'urungano
+definition: Amafaranga arihwa abaminer kugira ngo bashyire itunshwa ry'amafaranga mu gitabo, akaba ari ikinyuranyo hagati y'ayinjira n'ayasohoka.
 ---
 
 Amafaranga y’ugucuruza agereranya amahera afise intumbero yo gusubiza abacukuzi b’amabuye y’agaciro kubera uruhara rwabo mu buryo bwa Proof of Work. Ivyo bihembo biremesha abacukuzi gushiramwo amafaranga mu bice barema. Biva ku ntandukaniro iri hagati y’umubare wose w’ibintu vyinjizwa n’umubare wose w’ibintu bisohoka mu gucuruza:
@@ -28,4 +29,3 @@ Muri aka karorero, ni ugucuruza kwatangujwe n'umuyobozi wa F2Pool Mining pool. N
 
 Ni ngombwa kandi ko turimbura imipaka y’ugusukura. Mu bihe vy’ugucumbagira cane, ama mempools y’ibihimba arasukura amafaranga yabo ategerejwe munsi y’urugero runaka, kugira ngo yubahirize umupaka wa RAM yahawe. Ico kigero gitorwa n’uwukoresha, ariko benshi basiga agaciro ka Bitcoin core kuri 300 MB. Ishobora guhindurwa muri dosiye `Bitcoin.conf` n'umurongo `maxmempool`.
 
-> ► *Mu congereza, tuvyita "amafaranga y'ibikorwa".*

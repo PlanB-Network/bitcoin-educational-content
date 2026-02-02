@@ -472,16 +472,16 @@ Pertama-tama mari kita definisikan. Misalkan sebuah kamus *D* yang menyamakan se
 
 Operator modulo pada shift cipher memastikan bahwa huruf-huruf membungkus, sehingga semua huruf ciphertext didefinisikan. Sebagai ilustrasi, pertimbangkan penerapan shift cipher pada kata "DOG".
 
-Misalkan Anda memilih kunci secara seragam untuk memiliki nilai 17. Huruf "O" setara dengan 15. Tanpa operasi modulo, penambahan angka plainteks ini dengan kunci akan menghasilkan angka cipherteks 32. Akan tetapi, angka cipherteks tersebut tidak dapat diubah menjadi huruf cipherteks, karena alfabet bahasa Inggris hanya memiliki 26 huruf. Operasi modulo memastikan bahwa angka ciphertext sebenarnya adalah 6 (hasil dari $32 \mod 26$), yang sama dengan huruf ciphertext "G".
+Misalkan Anda memilih sebuah kunci secara seragam dengan nilai $17$. Huruf “O” setara dengan $14$. Tanpa operasi modulo, penjumlahan angka plaintext ini dengan kunci akan menghasilkan angka ciphertext $31$. Namun, angka ciphertext tersebut tidak dapat diubah menjadi huruf ciphertext karena alfabet bahasa Inggris hanya memiliki $26$ huruf. Operasi modulo memastikan bahwa angka ciphertext sebenarnya adalah $5$ (hasil dari $31 \mod 26$), yang setara dengan huruf ciphertext “F”.
 
 Keseluruhan enkripsi kata "DOG" dengan nilai kunci 17 adalah sebagai berikut:
 
 
-- Pesan = DOG = D,O,G = 3,15,6
+**Pesan = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $ c = UGX $
+*c = UFX*
 
 Semua orang dapat secara intuitif memahami bagaimana cara kerja shift cipher dan mungkin menggunakannya sendiri. Akan tetapi, untuk memajukan pengetahuan Anda tentang kriptografi, penting untuk mulai merasa lebih nyaman dengan formalisasi, karena skema akan menjadi jauh lebih sulit. Oleh karena itu, mengapa langkah-langkah untuk shift cipher diformalkan.
 

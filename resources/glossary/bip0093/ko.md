@@ -1,5 +1,6 @@
 ---
 term: BIP0093
+definition: 샤미르 비밀 공유(Shamir's secret sharing)를 통해 시드를 여러 부분으로 나누어 백업할 수 있게 하는 Codex32 표준.
 ---
 
 샤미르의 비밀 공유를 사용하여 계층적 결정론적 seed의 Wallet(BIP32에 따름)을 저장하고 복원하는 표준을 제안하는 정보적 BIP입니다.

@@ -12,9 +12,9 @@ Dans ce tutoriel, nous allons explorer les bonnes pratiques pour sauvegarder vot
 
 La phrase mnémonique donne un accès complet et non restreint à tous vos bitcoins. N'importe qui en possession de cette phrase peut subtiliser vos fonds, même sans accès physique au support qui héberge votre portefeuille.
 
-Cela signifie, par exemple, que si vous utilisez un portefeuille Bitcoin sur une Ledger, toute personne ayant accès à votre phrase mnémonique peut dérober l’intégralité de vos bitcoins, même sans avoir accès à la Ledger elle-même. C'est pourquoi **il ne faut jamais partager votre phrase**, quelle que soit la situation.
+Cela signifie, par exemple, que si vous utilisez un portefeuille Bitcoin sur un Ledger, toute personne ayant accès à votre phrase mnémonique peut dérober l’intégralité de vos bitcoins, même sans avoir accès au Ledger lui-même. C'est pourquoi **il ne faut jamais partager votre phrase**, quelle que soit la situation.
 
-Cette phrase est donc l'information unique qui vous permet de restaurer l’accès à vos bitcoins en cas de perte, de vol ou de détérioration du support du portefeuille. Prenons à nouveau l’exemple de la Ledger : si vous perdez l’appareil, vous pourrez retrouver vos fonds en saisissant votre phrase mnémonique sur une nouvelle Ledger ou sur tout autre portefeuille compatible, qu’il soit logiciel ou matériel.
+Cette phrase est donc l'information unique qui vous permet de restaurer l’accès à vos bitcoins en cas de perte, de vol ou de détérioration du support du portefeuille. Prenons à nouveau l’exemple du Ledger : si vous perdez l’appareil, vous pourrez retrouver vos fonds en saisissant votre phrase mnémonique sur un nouveau Ledger ou sur tout autre portefeuille compatible, qu’il soit logiciel ou matériel.
 
 Il est donc important de sauvegarder cette phrase avec la plus grande précaution et de la conserver dans un lieu sécurisé, comme nous le détaillerons dans les sections suivantes.
 
@@ -76,7 +76,7 @@ m / 86' / 0' / 0' /
 
 Si vous utilisez un portefeuille multisig ou un portefeuille avec des scripts complexes incluant des clés de récupération, comme ceux proposés par le logiciel Liana, il est indispensable de sauvegarder vos **Output Script Descriptors**. Ces descriptors contiennent toutes les informations nécessaires, en complément des phrases de récupération, pour retrouver l’accès à vos bitcoins.
 
-Vous pouvez également enrichir votre sauvegarde avec des informations supplémentaires liées au support de votre portefeuille. Par exemple, notez le code PIN permettant de déverrouiller votre hardware wallet ou les mots anti-phishing si vous utilisez une COLDCARD.
+Vous pouvez également enrichir votre sauvegarde avec des informations supplémentaires liées au support de votre portefeuille. Par exemple, notez le code PIN permettant de déverrouiller votre hardware wallet ou les mots anti-phishing si vous utilisez un COLDCARD.
 
 ![SEED](assets/fr/05.webp)
 

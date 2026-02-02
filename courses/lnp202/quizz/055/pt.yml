@@ -1,0 +1,9 @@
+question: No fluxo NWC, quando é que a encriptação tem lugar no lado da aplicação?
+answer: Antes da publicação no relé
+wrong_answers:
+  - Depois de ler o nó
+  - Após publicação no relé
+  - Nunca
+explanation: |
+  A aplicação serializa o pedido, encripta-o e, em seguida, publica-o como um evento num retransmissor Nostr.
+reviewed: false

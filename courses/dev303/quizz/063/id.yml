@@ -1,0 +1,8 @@
+question: Ketika makro menggunakan pola `$($x:expr),*` dalam definisinya, apa yang dilakukan oleh pola ini?
+answer: Ini cocok dengan nol atau lebih ekspresi yang dipisahkan oleh koma, memungkinkan daftar argumen dengan panjang variabel
+wrong_answers:
+  - Ini cocok dengan satu ekspresi dan mengulangi ekspansi makro beberapa kali
+  - Ini cocok dengan sejumlah definisi tipe yang dipisahkan oleh titik koma untuk pembuatan kode
+  - Ini membuat loop yang mengeksekusi makro pada saat runtime dengan nilai ekspresi yang berbeda
+explanation: |
+  Pola `$($x:expr),*` menggunakan sintaks pengulangan makro Rust di mana penghitung `*` berarti 'nol atau lebih', `$x:expr` menangkap setiap ekspresi, dan tanda koma menentukan pemisah antar ekspresi. Hal ini memungkinkan makro seperti `vec!` untuk menerima sejumlah argumen: `vec![1, 2, 3]` atau `vec![]`. Pilihan lain tidak benar karena: pola menangani beberapa ekspresi, bukan hanya satu, pola ini secara khusus mencocokkan ekspresi, bukan definisi tipe, dan menggunakan koma, bukan titik koma, dan makro dieksekusi pada saat kompilasi, bukan pada saat runtime.

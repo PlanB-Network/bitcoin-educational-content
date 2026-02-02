@@ -12,7 +12,7 @@ A Bitfinex apoia ativamente o desenvolvimento da Bitcoin, investindo em tecnolog
 
 ## 1 - Criar uma conta Bitfinex
 
-Aceda ao [sítio Web oficial da Bitfinex] (https://www.bitfinex.com/). Na página inicial, encontre e clique na opção "*Sign Up*" para começar a criar a sua conta.
+Aceda ao [sítio Web oficial da Bitfinex](https://www.bitfinex.com/). Na página inicial, encontre e clique na opção "*Sign Up*" para começar a criar a sua conta.
 
 ![BITFINEX](assets/fr/01.webp)
 

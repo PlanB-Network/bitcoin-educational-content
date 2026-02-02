@@ -15,7 +15,6 @@ In deze tutorial kijken we naar Blue Wallet, een eenvoudige maar zeer effectieve
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -122,7 +121,7 @@ Je kunt dus de transactiekostenratio kiezen die bij je past als je wilt dat je t
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -264,7 +263,7 @@ Bij het valideren van je transactie heb je een tweede handtekening nodig om het 
 
 
 
-De tweede Wallet ondertekenaar, als hij of zij ook een gebruiker is, kan de transactie ondertekenen, zelfs als hij of zij geen internet heeft (geen Wi-Fi, geen mobiele data) door de QR-code te scannen van de [gedeeltelijk ondertekende transactie] (https://planb.academy/resources/glossary/psbt) die je zojuist hebt aangemaakt.
+De tweede Wallet ondertekenaar, als hij of zij ook een gebruiker is, kan de transactie ondertekenen, zelfs als hij of zij geen internet heeft (geen Wi-Fi, geen mobiele data) door de QR-code te scannen van de [gedeeltelijk ondertekende transactie](https://planb.academy/resources/glossary/psbt) die je zojuist hebt aangemaakt.
 
 
 

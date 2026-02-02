@@ -1,0 +1,8 @@
+question: Mikä rooli Unified Definition Language (UDL) -tiedostolla on UniFFI-työnkulussa?
+answer: Se toimii rajapintamäärittelynä, jossa kuvataan, mitkä Rust-kirjaston osat tulisi avata muille kielille
+wrong_answers:
+  - Se sisältää varsinaisen Rust-toteutuskoodin, joka käännetään kohdekielisiksi sidoksiksi
+  - Se toimii ajonaikaisena konfiguraatiotiedostona, joka hallinnoi muistin jakamista eri kieliympäristöjen välillä
+  - Se tarjoaa testauspuitteet luotujen sidosten oikeellisuuden validointiin useilla alustoilla
+explanation: |
+  UDL-tiedosto toimii sopimuksena tai määrittelynä Rust-toteutuksen ja luotujen kielisidosten välillä. Se ei sisällä itse Rust-koodia eikä se käsittele ajonaikaisia toimintoja tai testausta. Sen sijaan siinä määritellään deklaratiivisesti, mitkä Rust-kirjaston funktiot, tyypit ja rajapinnat olisi annettava muiden kielten käyttöön, ja määritellään, miten ne olisi kuvattava ja esitettävä kohdekielen omassa käyttöliittymässä.

@@ -5,5 +5,5 @@ wrong_answers:
   - Via een gecentraliseerde database.
   - Door identiteitsverificatie van de gebruiker.
 explanation: |
-  De uitvoer van een Bitcoin transactie zijn UTXO's die beveiligd zijn met een script. Dit script vereist dat aan vooraf gedefinieerde bestedingsvoorwaarden wordt voldaan om de UTXO te kunnen uitgeven.
+  De output van een Bitcoin transactie zijn UTXO's die beveiligd zijn met een script. Dit script vereist dat aan vooraf gedefinieerde bestedingsvoorwaarden wordt voldaan om de UTXO te kunnen uitgeven.
 reviewed: false

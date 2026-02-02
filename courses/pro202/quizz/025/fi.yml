@@ -1,0 +1,8 @@
+question: Minkä tietyn operaatiosarjan ScriptPubKey suorittaa P2PKH-tapahtuman validoinnissa menoehtojen tarkistamiseksi?
+answer: Kopioi julkisen avaimen, hassataan se, verrataan sitä sitoutuneeseen hassatietoon ja tarkistetaan allekirjoitus
+wrong_answers:
+  - Hävittää allekirjoituksen, vertaa sitä julkisen avaimen hash-arvoon ja verifioi sen jälkeen allekirjoitetun arvon
+  - Varmentaa ensin allekirjoituksen, hämärtää sitten julkisen avaimen ja vertaa sitä sitoutuneeseen hämäriin
+  - Yhdistää allekirjoituksen ja julkisen avaimen, hashaa tuloksen ja vertaa sitä sitten sitoutuneeseen hashiin
+explanation: |
+  P2PKH:n ScriptPubKey noudattaa tiettyä järjestystä: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Tämä kopioi annetun julkisen avaimen, soveltaa SHA256- ja sitten RIPEMD160-hajautusta, tarkistaa, että tulos vastaa sitoutunutta hajautusta, ja lopuksi tarkistaa allekirjoituksen. Muissa vaihtoehdoissa kuvataan virheellisesti toimintojen järjestys tai ehdotetaan julkisten avainten sijasta allekirjoitusten hassatusta, mikä rikkoisi validointilogiikan.

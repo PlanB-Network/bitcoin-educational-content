@@ -1,0 +1,8 @@
+question: Wat gebeurt er met closure type inference als een closure wordt aangeroepen met specifieke types?
+answer: Die types worden vast voor die afsluitingsinstantie
+wrong_answers:
+  - De afsluiting kan in toekomstige oproepen nog steeds andere typen accepteren
+  - De compiler reset de types voor de volgende functieaanroep
+  - De types blijven flexibel en kunnen veranderen op basis van de context
+explanation: |
+  In Rust profiteren closures van automatische type-inferentie, maar deze flexibiliteit heeft grenzen. Zodra een closure wordt aangeroepen met specifieke parametertypes, zet de compiler die types vast voor die specifieke closure. Dit betekent dat dezelfde afsluiting later niet aangeroepen kan worden met andere typen - het wordt gemonomorfiseerd naar de eerste typen die het tegenkomt. Dit verschilt van generieke functies die aangeroepen kunnen worden met verschillende types omdat elke aanroep een aparte instantiëring creëert. De andere opties zijn onjuist omdat ze voortdurende flexibiliteit suggereren die niet bestaat zodra de types van de closure bepaald zijn.

@@ -1,6 +1,7 @@
 ---
-term: AKTIVIERUNGSVERFAHREN
+term: Aktivierungsmethode
 
+definition: Der Prozess, durch den die Bitcoin-Gemeinschaft einen Soft Fork aktiviert, indem sie zwischen Minern und Benutzern einen Konsens sucht, um eine Blockchain-Spaltung zu vermeiden.
 ---
 Eine Aktivierungsmethode ist der Prozess, bei dem die Nutzergemeinschaft über die Implementierung einer Soft Fork im Bitcoin-Protokoll entscheidet, um eine Spaltung der Blockchain zu vermeiden. Bei diesem Verfahren wird die Meinung der Miner eingeholt, um eine Soft Fork vor ihrer Aktivierung zu genehmigen. Wenn eine signifikante Mehrheit den Soft Fork akzeptiert, wird das Risiko eines Blockchain-Splits minimiert. Dieser Konsens ist von entscheidender Bedeutung, denn wenn eine Mehrheit der Miner die Änderung ablehnt, könnte die Soft Fork zwei unterschiedliche Ketten erzeugen: eine mit den geänderten Regeln und eine ohne. Es gibt 2 Hauptkategorien von Aktivierungsmethoden:
 

@@ -1,0 +1,8 @@
+question: Koju konvenciju imenovanja Rust primenjuje za nazive struktura i nazive polja?
+answer: CamelCase za nazive struktura i snake_case za nazive polja
+wrong_answers:
+  - snake_case za nazive struktura i CamelCase za nazive polja
+  - kebab-case za nazive struktura i camelCase za nazive polja
+  - UPPER_CASE za nazive struktura i lowercase za nazive polja
+explanation: |
+  Rust prati određene konvencije imenovanja koje kompajler sprovodi kroz upozorenja. Imena struktura treba da koriste CamelCase (poznat i kao PascalCase), gde svaka reč počinje velikim slovom kao 'MyStruct'. Imena polja unutar struktura treba da koriste snake_case sa donjim crticama koje razdvajaju reči kao 'my_field'. Ova konvencija održava doslednost u Rust kodnim bazama i poboljšava čitljivost za programere.

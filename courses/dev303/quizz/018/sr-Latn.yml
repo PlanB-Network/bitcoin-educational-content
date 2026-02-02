@@ -1,0 +1,8 @@
+question: Koji mehanizam koristi Rust za automatsko čišćenje promenljivih i njihovih resursa kada izađu iz opsega?
+answer: Mehanizam ispuštanja koji poziva funkcije ispuštanja na promenljivama
+wrong_answers:
+  - Sakupljač smeća koji periodično skenira neiskorišćenu memoriju
+  - Ručno oslobađanje memorije putem eksplicitnih poziva funkcije free()
+  - Brojanje referenci koje prati koliko pokazivača referencira svaku vrednost
+explanation: |
+  Rust koristi mehanizam oslobađanja za automatsko čišćenje resursa kada promenljive izađu iz opsega. Ovaj sistem implicitno poziva funkciju oslobađanja na svakoj promenljivoj kada izađe iz opsega, označavajući memoriju kao dostupnu za ponovnu upotrebu i obavljajući sve potrebne operacije čišćenja kao što je zatvaranje rukovalaca datoteka. Ovaj pristup, preuzet iz C++'s RAII obrasca, obezbeđuje automatsko upravljanje resursima bez potrebe za sakupljanjem smeća, ručnim upravljanjem memorijom ili sistemima brojanja referenci koje koriste drugi jezici.

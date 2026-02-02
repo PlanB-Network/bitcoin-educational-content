@@ -15,7 +15,6 @@ Bu eğitimde, bitcoinlerinizi kişisel olarak yönetmenize ve ayrıca [Multisig]
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -122,7 +121,7 @@ Bu nedenle, işleminizin bir Mempool'da hızlı bir şekilde onaylandığını v
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -264,7 +263,7 @@ Blue Wallet'ın standart Bitcoin portföyünde olduğu gibi, **Alıcı ekle** se
 
 
 
-İkinci Wallet imza sahibi de bir kullanıcıysa, İnternet dışında olsa bile (Wi-Fi yok, mobil veri yok) yeni oluşturduğunuz [kısmen imzalanmış işlemin] (https://planb.academy/resources/glossary/psbt) QR kodunu tarayarak işlemi imzalayabilir.
+İkinci Wallet imza sahibi de bir kullanıcıysa, İnternet dışında olsa bile (Wi-Fi yok, mobil veri yok) yeni oluşturduğunuz [kısmen imzalanmış işlemin](https://planb.academy/resources/glossary/psbt) QR kodunu tarayarak işlemi imzalayabilir.
 
 
 

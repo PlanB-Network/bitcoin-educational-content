@@ -1,9 +1,9 @@
-question: Ni igiki umunyamuryango washinze umurwi w’abanyabwenge, John Gilmore, yaneguye ku bijanye n’ivyo Satoshi Nakamoto yahinguye muri Mukakaro 2009?
+question: Ni igiki John Gilmore, yaneguye ku bijanye n’ivyo Satoshi Nakamoto yahinguye muri Nzero 2009?
 answer: Bitcoin ihumanya umubumbe
 wrong_answers:
-  - Bitcoin yorosha guhunga imisoro
+  - Bitcoin yorosha guhunga amakori
   - Bitcoin irashobora guterwa n'ibitero vya Sybil .
   - Bitcoin ni ugusenyuka kw'ibiciro
 explanation: |
-  Yaraneguye Bitcoin kubera ko ikoresha umuyagankuba kandi igatanga umwuka w’ikirere (umuyagankuba utera ibidukikije).
+  Yaraneguye Bitcoin kubera ko ikoresha umuyagankuba kandi ikarekurira umwuka w’ikirere (Imyuka mibi ku bidukikije).
 reviewed: true

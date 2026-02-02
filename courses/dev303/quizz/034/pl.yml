@@ -1,0 +1,8 @@
+question: Która metoda pozwala na wyodrębnienie wartości z Result przy jednoczesnym dostarczeniu niestandardowego komunikatu paniki w przypadku wystąpienia błędu?
+answer: oczekiwać
+wrong_answers:
+  - unwrap_or_else
+  - unwrap_with_message
+  - panic_with
+explanation: |
+  Metoda expect jest specjalnie zaprojektowana do wyodrębniania wartości sukcesu z Result, umożliwiając jednocześnie dostarczenie niestandardowego komunikatu paniki, który zostanie wyświetlony w przypadku wystąpienia błędu. Ułatwia to debugowanie w porównaniu do metody unwrap, która wykorzystuje ogólny komunikat paniki. Metoda unwrap_or_else nie wywołuje paniki, ale zamiast tego wykonuje zamknięcie, gdy wystąpi błąd. Pozostałe opcje (unwrap_with_message i panic_with) nie są rzeczywistymi metodami Rust do obsługi typów Result.

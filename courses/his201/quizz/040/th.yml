@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto ขุดบิตคอยน์ทั้งหมด (ประมาณ) เท่าไหร่?
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   1,122,693 bitcoins, ตามการศึกษาของ Whale Alert ที่เผยแพร่ในปี 2020 Satoshi หยุดกิจกรรม mining ของเขาในเดือนพฤษภาคม 2010
+reviewed: true

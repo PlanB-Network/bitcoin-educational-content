@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne des cycles économiques, quelle est la principale cause des crises économiques?
+answer: La manipulation des taux d'intérêt par les banques centrales
+wrong_answers:
+  - Les défaillances naturelles du marché libre
+  - "L'excès de concurrence entre les entreprises privées"
+  - "L'insuffisance de la demande des consommateurs"
+explanation: |
+  La théorie autrichienne des cycles économiques explique que les crises ne proviennent pas de défaillances du marché libre, mais de l'intervention monétaire. Lorsque les banques centrales manipulent artificiellement les taux d'intérêt, elles faussent ce signal prix essentiel qui coordonne naturellement les préférences temporelles des individus. Cette manipulation provoque des malinvestissements systématiques qui aboutissent inévitablement à une correction douloureuse sous forme de récession.

@@ -1,0 +1,9 @@
+question: Jaký je primární problém s odstřelováním poplatků, když se bloková dotace Bitcoin blíží nule?
+answer: Pro těžaře může být výhodnější přepisovat předchozí bloky s vysokými poplatky než nové bloky mining
+wrong_answers:
+  - Transakční poplatky budou pro běžné uživatele příliš drahé na to, aby si mohli dovolit transakce Bitcoin
+  - Celková nabídka Bitcoin přesáhne 21 milionů v důsledku zvýšených pobídek mining
+  - Těžaři zcela zastaví mining, protože samotné transakční poplatky nemohou pokrýt náklady na elektřinu
+explanation: |
+  Fee sniping nastává, když se těžaři snaží znovu vytěžit předchozí bloky, které obsahovaly transakce s vysokými poplatky, místo aby poctivě prodlužovali řetězec. To se stává ekonomicky racionální, když poplatky v předchozím bloku výrazně převyšují poplatky v aktuálním mempoolu. Pravděpodobnost úspěchu je sice nižší než u poctivého mining, ale potenciální odměna může být mnohem vyšší. Toto chování je obzvláště znepokojivé, protože může vyvolat kaskádový efekt, kdy se do nepoctivých praktik zapojí více těžařů, což v konečném důsledku ohrozí bezpečnostní model Bitcoin, když se dotace bloků sníží.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
-term: PRUNED NODE
+term: Pruned Node
 
+definition: Vollständiger Knoten, der alte verifizierte Blöcke löscht, um Speicherplatz zu sparen.
 ---
 Ein Pruned Node, auf Englisch "Pruned Node", ist ein vollständiger Knoten, der eine Bereinigung der Blockchain vornimmt. Dabei werden nach und nach die ältesten Blöcke entfernt, nachdem sie ordnungsgemäß verifiziert wurden, um nur die jüngsten Blöcke zu behalten. Die Aufbewahrungsgrenze wird in der Datei "bitcoin.conf" über den Parameter "prune=n" angegeben, wobei "n" die maximale Größe der Blöcke in Megabyte (MB) ist. Wenn nach diesem Parameter "0" angegeben wird, wird das Pruning deaktiviert und der Knoten behält die gesamte Blockchain bei.
 

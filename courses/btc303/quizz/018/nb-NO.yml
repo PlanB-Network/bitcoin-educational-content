@@ -1,0 +1,9 @@
+question: Hva eliminerer Bitcoins tillitsløse egenskaper behovet for i digitale transaksjoner?
+answer: Betrodde tredjeparter til å behandle og validere transaksjoner
+wrong_answers:
+  - Maskinvare- og programvarekomponenter for å kjøre Bitcoin-noder
+  - Kryptografiske algoritmer for å sikre private nøkler og signaturer
+  - Nettverkskonsensusmekanismer for å bli enige om gyldige blokker
+explanation: |
+  Bitcoins tillitsløse egenskaper eliminerer behovet for betrodde tredjeparter som banker eller finansinstitusjoner for å behandle og validere transaksjoner. Som Satoshi Nakamoto forklarte i Bitcoin-hvitboken, er tradisjonell handel avhengig av at finansinstitusjoner fungerer som pålitelige mellommenn, men Bitcoins design gjør at systemet kan fungere korrekt uten noen pålitelige parter gjennom sin desentraliserte konsensusmekanisme. De andre alternativene representerer viktige tekniske komponenter som Bitcoin fortsatt krever - du trenger fortsatt maskinvare/programvare for å delta, kryptografisk sikkerhet er fortsatt grunnleggende, og nettverkskonsensus er hvordan Bitcoin oppnår tillitsløshet snarere enn noe det eliminerer.
+reviewed: false

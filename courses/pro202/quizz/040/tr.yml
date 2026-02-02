@@ -1,0 +1,8 @@
+question: Modern ASIC madencileri neden yalnızca blok başlığının nonce alanına güvenmek yerine Coinbase işlemi içindeki verileri değiştiriyor?
+answer: 4 baytlık nonce alanı modern ASIC'ler için yetersiz arama alanı sağlar, bu nedenle madenciler Merkle kökünü değiştirmek ve ek arama alanı oluşturmak için Coinbase verilerini değiştirir
+wrong_answers:
+  - Coinbase işleminin değiştirilmesi, madencilerin standart sübvansiyon miktarının izin verdiğinden daha yüksek blok ödülleri talep etmelerine olanak tanır
+  - "Coinbase işlemi, blok doğrulama amacıyla madencinin dijital imzasını içerecek şekilde değiştirilmelidir"
+  - Coinbase verilerinin değiştirilmesi, madencilerin standart proof-of-work gereksinimlerini atlamasına izin vererek hesaplama zorluğunu azaltır
+explanation: |
+  Modern ASIC'ler 4 baytlık nonce alanını (2^32 olasılık) son derece hızlı bir şekilde tüketebilir ve ek arama alanı gerektirir. Madenciler Coinbase işlemindeki verileri değiştirerek işlemin hash'ini değiştirir, bu da blok başlığındaki Merkle kökünü değiştirerek denenecek milyarlarca ek nonce benzeri değer yaratır. 'Ekstra nonce' olarak adlandırılan bu teknik, donanımın orijinal nonce alanının kapasitesini çok aştığı modern mining işlemleri için gereklidir.

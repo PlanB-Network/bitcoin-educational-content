@@ -1,5 +1,6 @@
 ---
 term: Nonce
+definition: Nummer som används endast en gång, modifierat av miners för att hitta en giltig blockhash.
 ---
 
 I datorsammanhang avser termen "Nonce" ett tal som bara används en gång och sedan ersätts. Det är ofta slumpmässigt eller pseudoslumpmässigt. Nonces används i olika kryptografiska protokoll för att garantera säkerheten i processen. ECDSA-signaturerna som används i Bitcoin-protokollet inkluderar till exempel användningen av en Nonce. Detta innebär att detta nummer måste vara nytt för varje signatur. Om så inte är fallet är det möjligt att beräkna den privata nyckel som används genom att jämföra två signaturer som använder samma Nonce.

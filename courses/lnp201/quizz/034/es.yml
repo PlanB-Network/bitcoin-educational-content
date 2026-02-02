@@ -6,4 +6,4 @@ wrong_answers:
   - La firma criptográfica de cada nodo en el camino
 explanation: |
   El nodo emisor debe conocer la topología de la red para calcular la ruta hasta el destinatario, lo que le permite elegir el mejor camino.
-reviewed: false
+reviewed: true

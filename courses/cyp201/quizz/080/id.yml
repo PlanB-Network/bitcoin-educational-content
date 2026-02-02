@@ -6,3 +6,4 @@ wrong_answers:
   - base64
 explanation: |
   Alamat SegWit v0, seperti untuk P2WPKH dan P2WSH, menggunakan enkoding bech32 yang diperkenalkan dengan SegWit.
+reviewed: true

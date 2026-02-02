@@ -29,7 +29,7 @@ Il nostro obiettivo comune è infatti quello di educare il maggior numero possib
 
 ## I primi passi prima del proofreading su Plan ₿ Academy
 
-Prima di iniziare un nuovo proofreading, comunicalo nel [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa il tuo coordinatore di Plan ₿ Academy, che aprirà appositamente una [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). Quando ricevi il link alla issue è sufficiente che **commenti comunicando che stai iniziando** il proofreading di quel contenuto.
+Prima di iniziare un nuovo proofreading, comunicalo nel [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa il tuo coordinatore di Plan ₿ Academy, che aprirà appositamente una [issue](https://github.com/orgs/PlanB-Network/projects/3). Quando ricevi il link alla issue è sufficiente che **commenti comunicando che stai iniziando** il proofreading di quel contenuto.
 
 Questo sistema aiuta il coordinatore a tenere traccia dei progressi all'interno del repo e consente al proofreader di "rivendicare" il contenuto, evitando che qualcun altro lo faccia. Nella issue stessa troverai i link che ti reindirizzeranno al contenuto da correggere. Puoi semplicemente fare clic su di essi o, ancora meglio, tornare al fork del tuo repo e lavorare direttamente da lì. Vediamo come fare!
 
@@ -114,25 +114,80 @@ In questa stessa sezione iniziale, mantieni il formato attuale. Non aggiungere n
 
 ![REVIEW](assets/en/8.webp)
 
+## Come gestire le immagini dei corsi
+
+Il sito presenta ora immagini tradotte per quasi tutti i corsi!
+
+Quando rileggi, verifica sempre che tutte le immagini siano presenti e visualizzate correttamente. Nella visualizzazione `code` su Github, se trovi una riga di questo tipo `![IMAGE](assets/en/001.webp)`, significa che un'immagine verrà visualizzata in quella riga.
+
+Assicurati di aggiungere sempre una nuova riga tra la riga dell'immagine e il testo. Un esempio qui sotto:
+
+```
+CONFIGURAZIONE ERRATA:
+- per iniziare a tradurre, clicca sul pulsante `Translate`: ![language](assets/08.webp)
+Per salvare, clicca su `save`!
+  
+CONFIGURAZIONE CORRETTA:
+
+- per iniziare a tradurre, clicca sul pulsante `Translate`: 
+
+![language](assets/08.webp)
+
+Per salvare, clicca su `save`!
+```
+
+Inoltre, ricorda di leggere il contenuto di ogni immagine. Se noti problemi con la traduzione del testo all'interno delle immagini, informa il tuo coordinatore e avrai l'opportunità di fare proofreading delle immagini!
+
+Puoi visualizzare l'immagine nella sezione `Preview` su Github (o sul nostro sito web, aperto in un'altra scheda). Poi, torna alla sezione `code` lì accanto, per continuare con il proofreading.
+
+![REVIEW](assets/en/9.webp)
+
 ## Raccomandazioni sul formato
 
 Di seguito sono riportati alcuni esempi di problemi di formato a cui prestare attenzione quando revisionerai un contenuto nella tua lingua.
 
 - Fai attenzione a punteggiature strane come `\*\*\`, o `**` che potrebbero rappresentare una pessima visualizzazione del grassetto. Nell'immagine sottostante, puoi notare che gli asterischi sono solo a destra della parola, il che appare strano.
 
-![REVIEW](assets/en/9.webp)
+![REVIEW](assets/en/10.webp)
 
 È quindi necessario controllare sempre il testo originale in inglese, per vedere se è previsto il testo in grassetto. In questo caso, basta che tu aggiunga due asterischi all'inizio della parola, per farla apparire correttamente sul sito web. Infatti, nel linguaggio markdown, **per formattare in grassetto, è necessario inserire due asterischi `**` sia prima che dopo la parola/frase** (guarda l'esempio seguente).
 
-![REVIEW](assets/en/10.webp)
+![REVIEW](assets/en/11.webp)
 
 - Lo stesso problema può verificarsi con simboli come $ e ```. Assicurati di controllare il file nella lingua originale (spesso EN o FR) per vedere dove dovrebbero essere questi simboli. In ogni caso, ti sarà sempre possibile chiedere l'assistenza del coordinatore.
 
 - Se trovi delle citazioni, assicurati di fare qualche ricerca online per trovare la giusta traduzione nella tua lingua. Le virgolette vengono solitamente inserite dopo il simbolo `>`.
 
-![REVIEW](assets/en/11.webp)
+![REVIEW](assets/en/12.webp)
 
-## Correzione dei quiz
+## Proofreading dei tutorial
+
+Se decidi di fare proofreading dei tutorial, il coordinatore aprirà una issue dedicata **all'intera sezione tutorial**. Quando hai finito, puoi documentare i tuoi progressi commentando nell'issue con un elenco dei tutorial revisionati: in questo modo, crei un chiaro sistema di tracciamento per i riferimenti futuri: è importante poiché nuovi contenuti vengono aggiunti ogni mese. Puoi vedere un esempio di questo approccio [qui](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+![REVIEW](assets/en/13.webp)
+
+Poiché nuovi tutorial vengono aggiunti mensilmente, il tuo branch potrebbe diventare obsoleto durante il processo di correzione. Alcuni proofreader hanno affrontato questo problema sincronizzando il branch su cui stavano lavorando: **ti chiedo di NON farlo MAI! Se lo fai, rischi di perdere tutto i progressi che hai ottenuto fino a quel momento!**
+
+Invece, dovresti finire di correggere i tutorial nel tuo fork attuale prima. Poi, **sincornizza `dev`** e crea un nuovo branch in cui ti concentri solamente sulla correzione dei nuovi tutorial aggiunti dopo (solo quelli che mancano dal tuo branch precedente).
+
+Nei tutorial, potrebbe esserci la possibilità che **le immagini non siano tradotte**. Poiché la maggior parte dei tutorial è **scritto originariamente in francese o inglese**, probabilmente troverai immagini che contengono comandi o istruzioni nella loro lingua originale. Prendiamo un esempio dalla guida su Sparrow in olandese, riportando sia il testo che l'immagine correlata.
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+![REVIEW](assets/en/14.webp)
+
+Come puoi vedere, l'immagine fa chiaramente riferimento a `Public Server`, in inglese, mentre il testo menziona l'espressione `_Publieke server_`. In questo caso, c'è un problema di coerenza, perché il lettore trova informazioni conflittuali quando confronta l'immagine con il testo.
+
+Per risolvere la questione, puoi inserire il comando così come appare nell'immagine (inglese o francese), seguito dalla traduzione nella tua lingua inserita tra parentesi, come mostrato di seguito:
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
+
+
+## Proofreading dei quiz
 
 Sapevi di poter anche correggere le domande dei quiz di ogni corso? Ad esempio, se vuoi correggere i quiz del corso BTC101, puoi aprire un branch dedicato, e seguire questo percorso: "courses" -> "BTC101" -> "quiz". Lì troverai tutte le cartelle dedicate a ogni domanda, insieme al relativo file in formato _yml_ (per l'italiano "it.yml").
 
@@ -140,11 +195,11 @@ Ancora una volta, assicurati di essere su un branch che hai aperto appositamente
 
 Una cosa importante da tenere a mente quando si corregge questo tipo di file _yml_ è evitare di aggiungere i due punti ``:`` all'interno del testo. Infatti, i due punti sono usati **solo** per separare elementi statici come "wrong_answers" dal resto. Si può vedere un esempio nell'immagine sottostante:
 
-![REVIEW](assets/en/12.webp)
+![REVIEW](assets/en/15.webp)
 
-Dopo aver esaminato la domanda, assicurati di cambiare lo stato "reviewed" da "false" a "true", come mostrato nell'immagine seguent. Mantieni queste parole in inglese, indipendentemente dalla lingua in cui stai lavorando!
+Dopo aver esaminato la domanda, assicurati di cambiare lo stato "reviewed" da "false" a "true", come mostrato nell'immagine seguente. Mantieni queste parole in inglese, indipendentemente dalla lingua in cui stai lavorando!
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/16.webp)
 
 Se manca la riga di stato "reviewed:true", **aggiungila alla fine del quiz**.
 
@@ -158,7 +213,7 @@ Se il titolo della parola è lasciato in inglese, puoi adattare la frase alla tu
 
 Inoltre, assicurati di scrivere i titoli in lettere maiuscole.
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/17.webp)
 
 ## Il titolo e la descrizione della tua PR
 
@@ -178,7 +233,7 @@ In questo modo, la PR e la issue saranno collegati, e chiunque legga il reposito
 
 - Se è necessario cercare parole specifiche all'interno del testo, è possibile fare clic su ``CTRL+F`` e apparirà la sezione Find-Replace (Trova-sostituisci). Questa sezione è molto utile quando si ha bisogno di saltare a una parte specifica del testo o di sostituire parole o frasi specifiche in tutto il testo, senza scorrere l'intero contenuto.
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/18.webp)
 
 Quando si utilizza la funzione "replace all" (sostituisci tutto), è importante ricontrollare i risultati per assicurarsi che anche i link non siano stati modificati. Ad esempio, se vuoi cambiare la parola "Bitcoin" in "Bitkoin" (cosa che potrebbe essere necessaria in alcune lingue), la funzione "sostituisci tutto" può aggiornare efficacemente tutte le istanze nel testo. Tuttavia, è bene tenere presente che questo strumento modificherà anche tutti i link contenenti quella parola, causando potenzialmente problemi di reindirizzamento.
 
@@ -186,35 +241,18 @@ Nell'esempio che segue, il proofreader ha utilizzato la funzione di cui sopra pe
 
 Di conseguenza, controlla sempre due volte tutti i collegamenti ipertestuali nel testo, per assicurarti che siano corretti.
 
-![REVIEW](assets/en/16.webp)
+![REVIEW](assets/en/19.webp)
 
 - Restando in tema, se l'autore inserisce un link che rimanda a un corso o a un tutorial di Plan ₿ Academy (**non** tra parentesi), il sito web creerà automaticamente una "scheda" che mostra la relativa miniatura. Di conseguenza, assicurati sempre di **aggiungere una riga vuota tra il testo e il link stesso**, altrimenti potresti vedere il seguente errore sul sito.
 
-![REVIEW](assets/en/17.webp)
-
-Lo stesso accade con i "codici immagine" come questo ``[IMAGE](asset/fr/001.webp)``: aggiungi sempre una nuova riga tra il codice immagine e il testo. Un esempio qui sotto:
-
-```
-CONFIGURATIONE SBAGLIATA:
-- to start translating, click on the button `Translate`: ![language](assets/08.webp)
-To save, click on `save`!
-
-
-CONFIGURATIONE GIUSTA:
-
-- to start translating, click on the button `Translate`:
-
-![language](assets/08.webp)
-
-To save, click on `save`!
-```
+![REVIEW](assets/en/20.webp)
 
 ## Conclusione
 
-In sintesi, conoscere gli errori più comuni dei proofreader può aiutarti a migliorare le tue capacità nel correggere i contenuti del repository. È facile trascurare aspetti come il contesto o la coerenza linguistica, per cui cogliere questi errori può fare una grande differenza.
+Per riassumere, essere consapevoli degli errori comuni dei proforeader può davvero aiutarti a migliorare le tue competenze nel processo di revisione dei contenuti. È facile trascurare aspetti come il contesto o la coerenza, e individuare questi errori può fare una grande differenza.
 
-Tieni sempre presente che un principiante può leggere questi corsi e tutorial, quindi è nostra responsabilità assicurarci che capisca appieno. Come proofreader, sei un educatore!
+Tieni sempre presente che un principiante potrebbe leggere questi corsi e tutorial, quindi è nostra responsabilità assicurarci che comprendano perfettamente il contenuto. **Come proofreader, sei un educatore!**
 
-Ora sei pronti per iniziare a correggere corsi, tutorial, quiz e glossari. Continua a tenere d'occhio il gruppo Telegram, per iniziare a fare proofreading anche di immagini e di trascrizioni da caricare sui video ;)
+Ora sei pronto per iniziare a rileggere corsi, tutorial, quiz e parole del glossario. Continua a seguirci per iniziare a controllare anche le trascrizioni dei video!
 
-Grazie per aver letto questo tutorial e buon viaggio nel tuo percorso di proofreading!
+Grazie per aver letto questo tutorial e buon viaggio nel proofreading!

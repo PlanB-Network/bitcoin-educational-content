@@ -150,7 +150,7 @@ LineageOS 支援來自 20 多家製造商的數百種裝置：Samsung、Xiaomi�
 
 
 - Android Flash 工具**：使用 Google 官方工具 [flash.android.com](https://flash.android.com)，可從網頁瀏覽器 (需使用 Chrome/Edge) 輕鬆將 Pixel 裝置還原為 Android 原廠版本
-- 替代**：從 [developers.google.com/android/images] (https://developers.google.com/android/images) 手動製作工廠影像。
+- 替代**：從 [developers.google.com/android/images](https://developers.google.com/android/images) 手動製作工廠影像。
 
 
 
@@ -685,13 +685,14 @@ LineageOS 具備特別易用的 Over-The-Air 更新系統。新版本會透過�
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **方面** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **相容性** | 僅限Pixels | 數百台設備 |
+| **安全性** | 高級緩解措施 | 標準AOSP安全性 |
+| **Google Play** | 可選沙箱 | 可能經典安裝 |
+| **安裝** | Web介面 + USB | 技術手動程序 |
+| **理念** | 安全第一 | 平衡與選擇自由 |
 
 ### 使用建議
 

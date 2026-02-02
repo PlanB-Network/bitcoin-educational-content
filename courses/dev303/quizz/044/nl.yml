@@ -1,0 +1,8 @@
+question: Wat is de meest basale eigenschap die alle afsluitingen implementeren in Rust's afsluitingskenmerkenhiërarchie?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iterator
+explanation: |
+  FnOnce is de meest basale eigenschap die alle afsluitingen implementeren in Rust. Het vertegenwoordigt afsluitingen die minstens één keer aangeroepen kunnen worden en is daarmee de basis van de afsluitingskenmerkenhiërarchie. FnMut en Fn zijn meer beperkende eigenschappen die voortbouwen op FnOnce - FnMut staat meerdere aanroepen met mutatie toe, terwijl Fn meerdere aanroepen zonder mutatie toestaat. Iterator is niet gerelateerd aan closure traits en wordt gebruikt voor het verwerken van reeksen gegevens.

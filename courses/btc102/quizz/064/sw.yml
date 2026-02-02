@@ -1,4 +1,4 @@
-question: Ni hatua gani ni muhimu kwa warithi wako kurejesha bitcoins zako bila makosa?
+question: Ni hatua gani ni muhimu kwa warithi wako kurejesha bitcoin zako bila makosa?
 answer: Kutoa maagizo wazi
 wrong_answers:
   - Inakabidhi funguo zote za kibinafsi
@@ -6,4 +6,4 @@ wrong_answers:
   - Kwa kutumia jukwaa la KYC Exchange
 explanation: |
   Maagizo ya kina na ya kueleweka yanahakikisha kuwa wapendwa wako wanaweza kupata pesa vizuri.
-reviewed: false
+reviewed: true

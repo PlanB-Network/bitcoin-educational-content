@@ -1,0 +1,8 @@
+question: Rust'da bir tuple yapısının ilk alanına erişmek için hangi sözdizimi kullanılır?
+answer: İndeksi 0 olan nokta gösterimi (örn., instance.0)
+wrong_answers:
+  - Dizini 0 olan köşeli parantezler (örneğin, örnek[0])
+  - İndeksi 0 olan ok gösterimi (örn. instance->0)
+  - Dizin 0 ile çift iki nokta üst üste (örn. instance::0)
+explanation: |
+  Rust'deki tuple yapıları, isimsiz alanlarına erişmek için nokta gösterimini ve ardından alan indeksini kullanır. İlk alana .0 ile, ikinciye .1 ile erişilir ve bu böyle devam eder. Bu, köşeli parantez kullanan dizilerden veya vektörlerden farklıdır ve işaretçiler için ok gösterimini kullanan C++'dan farklıdır. Çift iki nokta üst üste sözdizimi, alan erişimi için değil, ilişkili işlevler ve ad aralığı için ayrılmıştır.

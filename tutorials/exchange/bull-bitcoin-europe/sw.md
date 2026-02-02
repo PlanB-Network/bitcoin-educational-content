@@ -286,6 +286,14 @@ Ili kufuatilia miamala yako yote, unaweza kutazama historia katika menyu ya "*Sh
 ![BULL](assets/fr/36.webp)
 
 
+## Anza ununuzi wa mara kwa mara wa kiotomatiki (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Unda agizo la kikomo
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Sasa unajua jinsi ya kununua na kuuza Bitcoin kwa urahisi na Bull Bitcoin. Ikiwa umepata mafunzo haya kuwa ya manufaa, nitashukuru sana ukiweka kidole gumba cha Green hapa chini. Jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!
 
 

@@ -1,5 +1,6 @@
 ---
-term: TIMELOCK
+term: Timelock
+definition: Primitiv pametnog ugovora koji definiše vremenski uslov pre nego što transakcija može biti uključena u blok.
 ---
 
 Primitiva Smart contract koja omogućava postavljanje vremenski zasnovanog uslova koji mora biti ispunjen da bi transakcija bila dodata u blok. Postoje dve vrste vremenskih zaključavanja na Bitcoin:

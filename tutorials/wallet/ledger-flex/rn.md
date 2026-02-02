@@ -82,7 +82,7 @@ Uhejeje gufungura, ukwiye kubona ibi bikurikira mu gasandugu:
 ![LEDGER FLEX](assets/notext/05.webp)
 
 
-Kuri iyi nyigisho, uzokenera ibice 2 vya porogaramu: Ledger Live kugira ngo utangure Ledger Flex, na Sparrow wallet kugira ngo ukoreshe Bitcoin Wallet yawe. Gukuraho [Ledger Live] (Https://Ledger-live) na [Sparrow wallet](Sparrowwallet.com/gukuraho/) ku mbuga zabo zizwi.
+Kuri iyi nyigisho, uzokenera ibice 2 vya porogaramu: Ledger Live kugira ngo utangure Ledger Flex, na Sparrow wallet kugira ngo ukoreshe Bitcoin Wallet yawe. Gukuraho [Ledger Live](Https://Ledger-live) na [Sparrow wallet](Sparrowwallet.com/gukuraho/) ku mbuga zabo zizwi.
 
 
 ![LEDGER FLEX](assets/notext/06.webp)

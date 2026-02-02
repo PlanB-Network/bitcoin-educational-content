@@ -1,5 +1,6 @@
 ---
 term: P2TR
+definition: Script ya Taproot yemerera gukoresha biciye mu mfunguzo rusangi canke scripts za Merkle, aderesi bc1p.
 ---
 
 P2TR ihagarariye *Pay to Taproot*, ariyo nzira y’inyandiko ikoreshwa mu gushinga ivyangombwa vyo gukoresha amahera kuri UTXO (Igisubizo c’Ibikorwa Bitakoreshejwe). Yatangujwe n’ugushirwa mu ngiro kwa Taproot mu kwezi kwa 11/2021. P2TR ikoresha umurongo wa Schnorr mu gukoranya imfunguruzo z’ubuhinga bwa none, hamwe n’ibiti vya Merkle vy’inyandiko zindi, zizwi nka MAST (*Igiti c’inyandiko zindi za Merkelized*). Mu buryo butandukanye n’ibikorwa vya kera aho ivy’ugukoresha amahera bigaragazwa ku mugaragaro (rimwe na rimwe mu gihe co kwakira, rimwe na rimwe mu gihe co gukoresha amahera), P2TR iremeza guhisha inyandiko zikomeye inyuma y’urufunguzo rumwe ruboneka rwa bose.

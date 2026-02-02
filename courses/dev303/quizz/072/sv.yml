@@ -1,0 +1,8 @@
+question: Vad skiljer runtime-resursfel från ogiltiga inmatningsfel och logikfel i Bitcoin-applikationsutveckling?
+answer: Fel i körtidsresurser uppstår när externa beroenden som filer eller nätverksanslutningar inte är tillgängliga, vilket kräver miljökorrigeringar snarare än kodändringar
+wrong_answers:
+  - "Runtime-resursfel inträffar när funktionsparametrar inte uppfyller kraven, vilket indikerar kontraktsbrott mellan anroparen och funktionen"
+  - Fel i körtidsresursen är buggar i programimplementeringen som kräver felsökning och kodmodifiering för att lösas på rätt sätt
+  - Runtime-resursfel uppstår när typsystemet misslyckas med att fånga upp felmatchningar, vilket gör att felaktiga datatyper kan spridas genom systemet
+explanation: |
+  Runtime-resursfel ligger utanför programlogiken och uppstår när beroenden som filer, nätverksanslutningar eller lagringsenheter inte är tillgängliga. Till skillnad från ogiltiga inmatningsfel (som innebär brott mot parameterkontrakt) eller logikfel (som är implementeringsbuggar) kräver runtime-resursfel vanligtvis miljöfixar snarare än kodändringar. Programmet måste hantera dessa på ett elegant sätt eftersom de ofta är tillfälliga och ligger utanför programmets direkta kontroll.

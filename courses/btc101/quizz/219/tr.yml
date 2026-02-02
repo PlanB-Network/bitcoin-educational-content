@@ -1,8 +1,9 @@
-question: Lightning Network ne tür bir ağ oluşturuyor?
-answer: Bir ödeme kanalları ağı.
+question: Bu bölümde tanımlanan Bitcoin evrimini hangi yaklaşım yapılandırır?
+answer: Katmanlı evrim
 wrong_answers:
-  - Mining düğümlerinden oluşan bir ağ.
-  - Blockchain düğümlerinden oluşan bir ağ.
-  - Kripto para borsalarından oluşan bir ağ.
-explanation: >-
-reviewed: true
+  - Monolitik blokzincir
+  - Yerel sharding
+  - Genelleştirilmiş onchain yürütme
+explanation: |
+  Bitcoin basit ve sağlam bir temel katmanı korurken, üst protokoller belirli işlevler ekler.
+reviewed: false

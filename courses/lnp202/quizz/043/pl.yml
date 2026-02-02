@@ -1,0 +1,9 @@
+question: Które zamknięcie kanału jest najlepsze dla Lightning?
+answer: Zamknięcie współpracy
+wrong_answers:
+  - Wymuszone zamknięcie
+  - Zamknięcie z oszukiwaniem
+  - Zamknięcie Watchtower
+explanation: |
+  Spółdzielcze zamknięcie jest szybsze i pozwala wybrać opłaty onchain.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: DOKLAD O REZERVACI
+term: Důkaz o rezervách
+definition: Mechanismus umožňující směnárenským platformám prokázat, že drží bitcoiny svých klientů.
 ---
 
 Mechanismus používaný platformami Bitcoin Exchange k prokázání, že skutečně drží aktiva svých zákazníků. Cílem je prokázat solventnost společnosti ověřením, že její bitcoiny jsou ekvivalentní nebo vyšší než zůstatky uživatelů, které mají držet.

@@ -1,9 +1,9 @@
 question: Wat is de belangrijkste alternatieve implementatie van Bitcoin core?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Kasmiddelen
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |
-  Bitcoin Knots, ontwikkeld door Luke Dashjr, is een Fork van Core, met extra opties en een conservatievere visie.
+  Bitcoin Knots, ontwikkeld door Luke Dashjr, is een fork van Core, met extra opties en een conservatievere visie.
 reviewed: true

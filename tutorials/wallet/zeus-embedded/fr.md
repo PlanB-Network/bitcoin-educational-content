@@ -16,7 +16,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 **Zeus "Intégré"** s’adresse ainsi aux Bitcoiners désireux de maximiser leur vie privée et leur autonomie.  
 En synthèse, c’est **potentiellement** le wallet mobile rêvé des cypherpunks. Même s’il est encore jeune (version alpha) et soumis à quelques bugs, ses fonctionnalités sont légion et il ne fait pas de doute qu'il saura ravir les plus intrépides d’entre nous, qui désirent un maximum de contrôle et d’optionnalité.  
 
-En revanche il n’est à mon sens pour le moment pas adapté aux débutants qui ne connaissent pas bien Bitcoin et souhaitent simplement un  moyen simple d’envoyer / recevoir des satoshis. Même si cela pourrait changer à l’avenir puisqu’une fonctionnalité de custody via le protocole Cashu (chaumian Ecash) est en train d’être implémentée pour les débutants...
+En revanche il n’est à mon sens pour le moment pas adapté aux débutants qui ne connaissent pas bien Bitcoin et souhaitent simplement un moyen simple d’envoyer / recevoir des satoshis. Même si cela pourrait changer à l’avenir puisqu’une fonctionnalité de custody via le protocole Cashu (chaumian Ecash) est en train d’être implémentée pour les débutants...
 
 ## Installer l'application
 
@@ -95,7 +95,7 @@ Sélectionnez "Settings", puis "Security" et enfin "Set/Change PIN".
 
 
 
-Créez votre PIN, confirmez-le, et activez la biométrie en poussant le bouton correspondant "Biometrics".  Revenez au menu principal, en utilisant le flèche en haut à gauche.
+Créez votre PIN, confirmez-le, et activez la biométrie en poussant le bouton correspondant "Biometrics".  Revenez au menu principal, en utilisant la flèche en haut à gauche.
 
 ![image](assets/fr/13.webp)
 
@@ -154,7 +154,7 @@ Une fois les 3 confirmations passées, nous remarquons que notre solde est déso
 
 ![image](assets/fr/18.webp)
 
-Petit point de détail:  en cliquant sur le menu nous permettant de consulter l'état de nos canaux lightning en bas de l'écran, nous voyons qu'une petite partie de notre solde n'est pas disponible à la dépense on ne peut dépenser que 208253 satoshis au lieu des 210370 que nous possédons réellement. C'est normal, il s'agit d'une spécificité du protocole lightning.
+Petit point de détail:  en cliquant sur le menu nous permettant de consulter l'état de nos canaux lightning en bas de l'écran, nous voyons qu'une petite partie de notre solde n'est pas disponible à la dépense, on ne peut dépenser que 208253 satoshis au lieu des 210370 que nous possédons réellement. C'est normal, il s'agit d'une spécificité du protocole lightning.
 
 Enfin on peut également noter en allant dans les détails de notre canal, que notre partenaire Olympus se réserve le droit de fermer le canal de manière discrétionnaire, si celui-ci n'est pas utilisé par exemple. Pour s'assurer que notre canal soit maintenu, il va falloir **"passer à la caisse"**, en d'autres terme payer le LSP (Lightning Service Provider) ce que nous verrons au paragraphe suivant, à travers la 2ème façon d'ouvrir un canal.
 

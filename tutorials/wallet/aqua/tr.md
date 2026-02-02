@@ -57,7 +57,7 @@ Liquid Network, blokları doğrulayan ve iki taraflı sabitlemeyi yöneten Bitco
 ![AQUA](assets/fr/04.webp)
 
 
-Android kullanıcıları için, uygulamayı `.apk` dosyası [GitHub'da mevcuttur] (https://github.com/AquaWallet/Aqua-Wallet/releases) aracılığıyla yükleme seçeneğiniz de vardır.
+Android kullanıcıları için, uygulamayı `.apk` dosyası [GitHub'da mevcuttur](https://github.com/AquaWallet/Aqua-Wallet/releases) aracılığıyla yükleme seçeneğiniz de vardır.
 
 
 ![AQUA](assets/fr/05.webp)

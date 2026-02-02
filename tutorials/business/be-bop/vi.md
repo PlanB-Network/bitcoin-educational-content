@@ -255,12 +255,13 @@ be-BOP cho phép bạn chấp nhận thanh toán Bitcoin trực tiếp trên Blo
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Trường                  | Mô Tả                                               | Ví Dụ Để Sử Dụng                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **Tiêu Chuẩn BIP**       | Loại địa chỉ được sử dụng                               | BIP84 (cho các địa chỉ ở định dạng bech32 bắt đầu bằng `bc1`) |
+| **Khóa Công Khai Mở Rộng** | Zpub của bạn (hoặc Xpub tùy thuộc vào ví được sử dụng)        | `zpub...` (được trích xuất từ ví Bitcoin của bạn) |
+| **Derivation Index**   | Chỉ mục bắt đầu để tạo địa chỉ         | `1`                                              |
+| **URL Mempool**        | URL của dịch vụ mempool được sử dụng để theo dõi giao dịch | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -348,7 +349,7 @@ Các bước cấu hình:
 
 
 
-**Lưu ý:** Bạn phải có tài khoản doanh nghiệp PayPal để sử dụng generate các mã định danh này. Bạn có thể lấy mã định danh này thông qua cổng thông tin [developer] (https://developer.paypal.com)
+**Lưu ý:** Bạn phải có tài khoản doanh nghiệp PayPal để sử dụng generate các mã định danh này. Bạn có thể lấy mã định danh này thông qua cổng thông tin [developer](https://developer.paypal.com)
 
 
 
@@ -849,12 +850,13 @@ Phần này xác định **nơi** và **cách** có thể xem và mua sản ph�
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Nền tảng        | Sản phẩm Hiển thị | Có thể Thêm vào Giỏ |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (trang công khai)        | ✔️              | ✔️                  |
+| Retail POS (điểm bán hàng)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (bán hàng qua bot)  | ✔️              | ✔️                  |
 
 Chỉ chọn những kênh bạn muốn sử dụng.
 
@@ -1024,14 +1026,15 @@ Sử dụng **mã ngắn** trong nội dung trang CMS của bạn:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Mục Tiêu                 | Thẻ để Chèn                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Hiển thị sản phẩm      | `[Product=slug?display=img-1]`        |
+| Hiển thị hình ảnh       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Tích hợp thanh trượt       | `[Slider=slug?autoplay=3000]`         |
+| Thêm thử thách     | `[Challenge=slug]`                    |
+| Thêm đếm ngược | `[Countdown=slug]`                 |
+| Tích hợp biểu mẫu   | `[Form=slug]`                         |
 
 **Thông số hiện tại**:
 
@@ -1813,14 +1816,15 @@ URL `/pos/session` dành cho **màn hình phụ** (HDMI, máy tính bảng...):
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Chức năng                         | Mô tả                                             |
+|----------------------------------|---------------------------------------------------------|
+| Vai trò POS                         | Được gán thông qua ARM                                         |
+| Giao diện chính             | `/pos` hoặc `/pos/touch`                                 |
+| Hiển thị khách hàng (Màn hình 2)       | `/pos/session`                                         |
+| Thanh toán                         | Tiền mặt, thẻ, Lightning, v.v.                         |
+| Thêm sản phẩm                    | Bí danh hoặc quét mã vạch                              |
+| Giảm giá / VAT                    | Với lý do quản lý bắt buộc              |
 
 Cảm ơn bạn đã làm theo hướng dẫn này một cách cẩn thận.

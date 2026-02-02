@@ -23,7 +23,7 @@ Selles õppematerjalis vaatleme Flash'i, Benini lahendust, mis võimaldab teil o
 
 
 
-Flash on Exchange platvorm, mille on välja töötanud [BlockSolut] (https://bitcoinflash.xyz) ja mis tegutseb mitmes Lääne-Aafrika riigis. Flash'i peamine ülesanne on hõlbustada Exchange omandamist, Bitcoin kasutamist ja kasutamist igapäevaelus.
+Flash on Exchange platvorm, mille on välja töötanud [BlockSolut](https://bitcoinflash.xyz) ja mis tegutseb mitmes Lääne-Aafrika riigis. Flash'i peamine ülesanne on hõlbustada Exchange omandamist, Bitcoin kasutamist ja kasutamist igapäevaelus.
 
 
 Flash tugineb Lightning Network-le, Bitcoin pealiskihile, et teostada Bitcoin tehinguid turvaliselt ja sujuvalt, näidates oma kogukonnale Bitcoin võimsust igapäevaelus.

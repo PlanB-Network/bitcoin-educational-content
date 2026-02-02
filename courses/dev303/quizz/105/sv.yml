@@ -1,0 +1,8 @@
+question: Vad är den avgörande skillnaden mellan LDK:s persistensskiktsdesign och traditionell datahantering med Lightning-noder som möjliggör flexibilitet vid plattformsdistribution?
+answer: LDK tillhandahåller abstrakta binära datablobbar för lagring medan applikationer implementerar sina egna lagringsmekanismer
+wrong_answers:
+  - LDK använder standardiserade SQL-databaser medan traditionella noder kräver anpassade filsystemimplementationer
+  - LDK synkroniserar automatiskt data över flera plattformar medan traditionella noder endast lagrar data lokalt
+  - LDK krypterar all persistensdata som standard medan traditionella noder förlitar sig på kryptering på applikationsnivå
+explanation: |
+  LDK:s persistensskikt abstraherar lagring genom att förse applikationer med serialiserade binära datablobbar som måste lagras och hämtas på ett tillförlitligt sätt, samtidigt som all komplexitet med serialisering av Lightning-kanaltillstånd och nätverksdata hanteras internt. Detta gör att applikationer kan välja vilken lagringslösning (filsystem, molnlagring, databaser) som helst som matchar deras plattformskrav. Traditionella Lightning-noder implementerar vanligtvis sina egna specifika datahanteringssystem som är knutna till särskilda lagringsmekanismer, vilket gör dem mindre flexibla i olika driftsättningsmiljöer.

@@ -1,5 +1,6 @@
 id: 21d0420a-be02-4663-94a3-8d487f23becc
 
+last_update_date: 2024-10-11
 
 category: data
 
@@ -10,6 +11,8 @@ professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 # Proofreading metadata
 
 project_id: cd62a137-baad-4133-b90d-711963e510c7
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: fr
@@ -17,135 +20,146 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.99
+    reward: 0.57
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 1.66
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.98
+    reward: 1.14
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.85
+    reward: 2.71
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 1.66
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - AgoesRichie
-    reward: 1.61
+    reward: 1.09
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 1.66
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 1.66
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.98
+    reward: 1.14
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.98
+    reward: 1.14
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.98
+    reward: 1.14
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 2.18
   - language: it
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - AlbertoMagno21
-    reward: 0.99
+    reward: 0.57
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.85
+    reward: 2.71
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 1.66
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.48
+    reward: 2.71
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 1.66
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 1.3
+    reward: 1.09
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 2.6
+      - Tinnah924
+    reward: 0.83
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 2.18
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 1.66
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.98
+    reward: 1.14
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 1.66
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 2.18
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 2.18
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.85
+    reward: 2.71
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.66
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.18
 tags:
   - good-practice
   - software

@@ -1,6 +1,7 @@
 ---
-term: HALVING
+term: Halving
 
+definition: Evento que reduce a la mitad la recompensa de los mineros cada 210.000 bloques.
 ---
 El término "reducción a la mitad" se refiere a un evento programado que reduce a la mitad la recompensa que se da a los mineros por cada bloque minado a través del subsidio por bloque. Esta reducción se aplica específicamente a la parte del subsidio de bloque que consiste en nuevos bitcoins creados de la nada. La reducción a la mitad fue diseñada por Satoshi Nakamoto, el creador de Bitcoin, como un mecanismo para controlar la inflación y garantizar un suministro limitado de bitcoins.
 

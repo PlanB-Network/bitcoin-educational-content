@@ -191,7 +191,7 @@ Programy zazwyczaj wykonują operacje na danych.
 Zmienne są jak nazwane pudełka, których używamy do przechowywania danych. Pozwalają nam skojarzyć część danych z określoną nazwą, dzięki czemu możemy je później pobrać przy użyciu tej nazwy.
 
 
-### deklaracje `let`
+### deklaracje let
 
 
 Aby zadeklarować zmienną w JavaScript, możemy użyć słowa kluczowego `let`.
@@ -355,7 +355,7 @@ Bob
 Jak widać, zarówno `score` jak i `player` zostały zmienione.
 
 
-### deklaracje `const`
+### deklaracje const
 
 
 W większości przypadków nie chcemy jednak, aby zmienna zmieniała się po jej utworzeniu. W tym celu używamy `const`.
@@ -875,7 +875,7 @@ undefined
 Co to jest?
 
 
-### `undefined`
+### undefined
 
 
 Wartość specjalna `undefined` oznacza "nie przypisano żadnej wartości".
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` i jak go traktować
+### null i jak go traktować
 
 
 `null` jest również wartością specjalną. Oznacza ona "nic tu nie ma i zrobiłem to celowo"
@@ -1075,7 +1075,7 @@ Oznacza to, że możemy używać bloków do izolowania części naszego kodu i m
 Organizowanie naszego kodu w bloki pozwala nam również na ustrukturyzowanie wykonywania programu, z konstrukcjami przepływu sterowania, takimi jak `if`
 
 
-### `if`, `else`
+### if, else
 
 
 Czasami chcemy uruchomić kod **tylko jeśli** coś jest prawdą. Do tego właśnie służy instrukcja `if`.
@@ -1190,7 +1190,7 @@ Ponieważ użyliśmy operatora `!` do odwrócenia zmiennej `adult`.
 Używając bloków, logiki i operatorów porównania, możemy ustrukturyzować wykonanie programu, definiując zmienne, które muszą być `prawdziwe` (lub `fałszywe`), aby coś się wydarzyło.
 
 
-### `while`, `break`, `continue`
+### while, break, continue
 
 
 Pętla `while` powtarza kod *dopóki* warunek jest prawdziwy.
@@ -1282,7 +1282,7 @@ Ten wydruk:
 Ponieważ gdy liczbą było `3`, `continue` sprawiało, że program pomijał linię wypisującą liczbę.
 
 
-### `dla ... z ...`
+### dla ... z ...
 
 
 Jeśli masz tablicę i chcesz zrobić coś z każdym elementem w niej, możesz użyć `for ... of ... {...}`.
@@ -1312,7 +1312,7 @@ Blok zostanie wykonany raz dla każdego elementu tablicy.
 `fruit` to nowa zmienna, która przyjmuje wartość każdego elementu w tablicy, aby operować na nim wewnątrz bloku.
 
 
-### `dla ... w ...`
+### dla ... w ...
 
 
 Możesz użyć `for ... in` do pętli nad kluczami (indeksami) tablicy:
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `return` (wyjście z funkcji)
+### return (wyjście z funkcji)
 
 
 Funkcje mogą również **zwracać** wartości. Oznacza to, że wysyłają wartość z powrotem do miejsca, w którym funkcja została wywołana.
@@ -1749,7 +1749,7 @@ JavaScript jest często nazywany językiem obiektowym.
 Oznacza to, że pomaga organizować kod poprzez grupowanie wartości i funkcji w **obiekty**.
 
 
-### Czym jest `obiekt`?
+### Czym jest obiekt?
 
 
 Obiekt może zawierać dane i funkcje, które operują na tych danych. Kiedy funkcja jest umieszczona w obiekcie, mówimy, że jest to `metoda`.
@@ -2252,7 +2252,7 @@ JavaScript pozwala na swobodne przekształcanie obiektów, ale podczas korzystan
 
 
 
-### Dziedziczenie z `extends` i `super()`
+### Dziedziczenie z extends i super()
 
 
 Czasami chcesz stworzyć klasę, która jest *prawie* taka sama jak inna klasa, ale z kilkoma dodatkowymi funkcjami.
@@ -2374,7 +2374,7 @@ Podsumowując
 Jest to przydatne, gdy masz kilka podobnych rzeczy (takich jak samochody, ciężarówki i rowery) i chcesz, aby współdzieliły kod, ale nadal zachowywały się na swój własny sposób.
 
 
-### `instanceof`
+### instanceof
 
 
 Słowo kluczowe `instanceof` sprawdza, czy obiekt został utworzony z określonej klasy.
@@ -2439,7 +2439,7 @@ Podczas pisania bardziej złożonych programów JavaScript napotkasz **błędy**
 Jeśli nie obsłużymy tych błędów prawidłowo, nasz program może ulec awarii lub zachowywać się w nieprzewidywalny sposób. JavaScript zapewnia narzędzia do wykrywania i zarządzania tymi błędami, dzięki czemu możemy radzić sobie z nimi z większą gracją.
 
 
-### Typowy błąd: dostęp do wartości w `undefined`
+### Typowy błąd: dostęp do wartości w undefined
 
 
 Oto częsta sytuacja, która powoduje błąd:
@@ -2462,7 +2462,7 @@ TypeError: Cannot read properties of undefined (reading 'name')
 To JavaScript mówi ci: "Hej, próbowałeś pobrać właściwość `name` z czegoś, co jest `undefined`, a to nie ma sensu" Jak widać, gdy wystąpi tego rodzaju błąd, program przestaje działać, chyba że specjalnie napisałeś kod, aby go złapać i obsłużyć.
 
 
-### `wyrzucenie` błędu
+### wyrzucenie błędu
 
 
 Czasami chcesz ręcznie **wywołać błąd** w swoim kodzie. W takim przypadku należy użyć słowa kluczowego `throw`.
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 Drugie wywołanie powoduje błąd, ponieważ dzielenie przez zero nie jest dozwolone w tym przykładzie.
 
 
-### Łapanie błędów za pomocą `try...catch`
+### Łapanie błędów za pomocą try...catch
 
 
 Jeśli nie chcesz, aby twój program zawiesił się po wystąpieniu błędu, możesz przechwycić błąd za pomocą bloku `try...catch`. Jest to przydatne, gdy chcesz, aby program **nie przestawał działać**, nawet jeśli coś się nie powiedzie.
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Blok `finally
+### Blok finally
 
 
 Możesz również dodać blok `finally`. Jest to kod, który **zawsze działa**, niezależnie od tego, czy wystąpił błąd, czy nie.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 Ten rozdział pokazuje niektóre z najczęstszych pułapek w JavaScript i jak ich uniknąć.
 
 
-### `var` i Assignment bez deklaracji
+### var i Assignment bez deklaracji
 
 
 W starszym kodzie JavaScript zmienne były często deklarowane przy użyciu słowa kluczowego `var`. W przeciwieństwie do `let` i `const`, o których już się dowiedziałeś, `var` może zachowywać się w mylący sposób.
@@ -2650,7 +2650,7 @@ W tych przykładach JavaScript próbuje odgadnąć, co użytkownik miał na myś
 Świadomość słabego systemu typowania JavaScript jest ważna. Gdy coś zaczyna działać dziwnie, może to być spowodowane nieoczekiwanym wymuszeniem typu.
 
 
-### "use strict"`
+### "use strict"
 
 
 Możesz włączyć bardziej rygorystyczny tryb, który zamienia niektóre ciche błędy w prawdziwe błędy i uniemożliwia korzystanie z niektórych bardziej niebezpiecznych funkcji języka.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 Domyślna wartość `"friend"` jest używana, gdy nic nie zostanie przekazane.
 
 
-### Parametry spreadu (`...`)
+### Parametry spreadu (...)
 
 
 Co jeśli funkcja przyjmuje elastyczną liczbę argumentów?
@@ -3030,7 +3030,7 @@ Funkcja `makeGreeter` jest funkcją, która tworzy inne funkcje. Otrzymuje ona c
 Ten rodzaj wzorca jest bardzo potężny, ponieważ pozwala na pozostawienie "dziur" w funkcjach, które można później wypełnić potrzebnym zachowaniem.
 
 
-### `map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 JavaScript oferuje kilka przydatnych wbudowanych metod do użycia z tablicami.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 Jest to przydatne do przechowywania współdzielonych danych i metod, które dotyczą całej grupy obiektów, a nie tylko jednego.
 
 
-### `get` i `set`
+### get i set
 
 
 W JavaScript, `get` i `set` pozwalają na tworzenie właściwości, które *wyglądają* jak zwykłe zmienne, ale w rzeczywistości uruchamiają specjalny kod w tle.
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 Nazywa się to **właściwością obliczaną**. Wartość wewnątrz nawiasów kwadratowych jest obliczana, a wynik jest używany jako klucz.
 
 
-### typ `Symbol
+### typ Symbol
 
 
 Oprócz ciągów znaków, JavaScript pozwala również na użycie specjalnego typu o nazwie `Symbol` jako klucza obiektu.
@@ -3421,7 +3421,7 @@ Jak widać, oryginalna właściwość `name` zostaje w ten sposób zachowana. Mo
 JavaScript daje nam kilka przydatnych wbudowanych obiektów, które pomagają nam w debugowaniu i operacjach matematycznych.
 
 
-### Inne metody `console
+### Inne metody console
 
 
 Widziałeś już `console.log`, który wypisuje wartości na ekran.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Przydatne do prostych testów wydajności.
 
 
-### Obiekt `Math
+### Obiekt Math
 
 
 JavaScript udostępnia obiekt `Math` z przydatnymi metodami do wykonywania obliczeń.
@@ -3687,7 +3687,7 @@ myMap.clear()
 Mapy świetnie nadają się do zarządzania dużymi kolekcjami wartości, ponieważ dostęp do wartości na dużej mapie zapewnia zwykle znacznie lepszą wydajność niż na dużym obiekcie.
 
 
-### `Set`
+### Set
 
 
 "Set" jest zbiorem **tylko wartości** (bez kluczy), gdzie każda wartość musi być **unikalna**. Oznacza to, że:
@@ -3770,7 +3770,7 @@ Większość rzeczy w JavaScript, nad którymi można wykonywać pętle (jak tab
 **iterator** jest specjalnym obiektem w JavaScript, który pomaga przechodzić przez listę elementów **jeden po drugim**.
 
 
-### iteratory `Object
+### iteratory Object
 
 
 W przeciwieństwie do tablic lub map, zwykłe obiekty **nie są iterowalne** za pomocą `for...of`. Jeśli spróbujesz tego:
@@ -3892,7 +3892,7 @@ Nawet jeśli obiekty nie są bezpośrednio iterowalne, metody te dają ci pełny
 Ale jak działają iteratory?
 
 
-### `Symbol.iterator`
+### Symbol.iterator
 
 
 Sekretem wszystkich iteratorów jest specjalny **symbol** o nazwie `Symbol.iterator`.
@@ -3924,7 +3924,7 @@ Każde wywołanie `.next()` daje następną wartość. Kiedy skończy, zwraca j�
 ```
 
 
-### `next()`
+### next()
 
 
 Metoda `.next()` jest używana do pobrania następnego elementu z sekwencji.
@@ -4046,7 +4046,7 @@ Oto, co się dzieje:
 Teraz nasza klasa `Range` działa jak tablica i możemy jej używać w każdej pętli, która oczekuje iterowalnej tablicy.
 
 
-### Funkcje generatora i `yield`
+### Funkcje generatora i yield
 
 
 Aby ułatwić tworzenie iteratorów, JavaScript udostępnia **funkcje generujące**, używając słowa kluczowego `function*` (to `function` z `*` na końcu) i słowa kluczowego `yield`.
@@ -4105,7 +4105,7 @@ Do tej pory nasz kod był **synchroniczny**: uruchamiał jedną linię na raz, w
 W tym rozdziale wprowadzimy nową koncepcję: **walutę**. Pozwala nam ona manipulować kolejnością wykonywania zadań. Jest to przydatne, gdy mamy do czynienia z takimi rzeczami jak timery, dane wejściowe użytkownika lub odczytywanie plików z dysku. JavaScript oferuje różne narzędzia do wykonywania współbieżności.
 
 
-### `setTimeout`
+### setTimeout
 
 
 Funkcja `setTimeout` pozwala **uruchomić funkcję później**, po upływie pewnego czasu.
@@ -4253,7 +4253,7 @@ Wewnątrz niego podajemy funkcję z dwoma parametrami:
 W powyższym przykładzie po prostu rozwiązujemy go natychmiast z komunikatem `"Udało się!"`.
 
 
-### `.then()`
+### .then()
 
 
 Aby zrobić coś **po** wykonaniu obietnicy, używamy `.then()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `reject()`
+### reject()
 
 
 Stwórzmy obietnicę, która **nie powiedzie się**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Operacje łańcuchowe przy użyciu `Promise`
+### Operacje łańcuchowe przy użyciu Promise
 
 
 
@@ -4551,7 +4551,7 @@ Przejdźmy przez to, co to robi:
 Każde `.then()` czeka na zakończenie kroku poprzedzającego. Możemy więc zbudować **łańcuch działań** bez zagnieżdżania. Sprawia to, że kod jest bardziej czytelny i łatwiejszy do debugowania.
 
 
-## Współbieżność z `async`/`await`
+## Współbieżność z async/await
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Widzieliśmy, jak łańcuchy `Promise` pomagają nam uniknąć piekła wywołań
 To właśnie tam pojawiają się `async` i `await`. Pozwalają nam pisać asynchroniczny kod **który wygląda jak synchroniczny**, co czyni go łatwiejszym do zrozumienia.
 
 
-### Czym jest `async`?
+### Czym jest async?
 
 
 Po wpisaniu słowa kluczowego `async` przed funkcją, JavaScript automatycznie zawija wartość zwrotną funkcji w Obietnicę.
@@ -4606,7 +4606,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 Możesz też użyć `await`...
 
 
-### Co to jest `await`?
+### Co to jest await?
 
 
 Słowo kluczowe `await` mówi JavaScript: "poczekaj, aż ta Obietnica zostanie wykonana, a następnie podaj mi wynik"
@@ -4638,7 +4638,7 @@ Teraz możemy użyć wyniku tak, jakby była to zwykła wartość.
 Zróbmy teraz coś bardziej użytecznego.
 
 
-### Symulowanie opóźnienia za pomocą `await`
+### Symulowanie opóźnienia za pomocą await
 
 
 Stworzymy prostą funkcję `wait`, która przyjmuje liczbę milisekund jako argument i po prostu rozwiązuje po tej liczbie milisekund, nie robiąc nic więcej:
@@ -4881,7 +4881,7 @@ Iteratory asynchroniczne są przydatne, gdy
 Na przykład, jeśli chcesz ładować wiadomości z serwera czatu jedna po drugiej lub pobrać duży plik w kawałkach, iteratory asynchroniczne dają ci sposób na napisanie pętli `for`, która działa z opóźnionymi danymi.
 
 
-### `Symbol.asyncIterator`
+### Symbol.asyncIterator
 
 
 Możemy również używać asynchronicznych iteratorów w niestandardowych klasach.
@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Oto najpopularniejsze z nich:
 
 
-| Operator | Meaning             |
+
+| Operator | Znaczenie |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | dodaj i przypisz |
+| `-=` | odejmij i przypisz |
+| `*=` | pomnóż i przypisz |
+| `/=` | podziel i przypisz |
 
 Przykłady:
 
@@ -5287,7 +5288,7 @@ NodeJS pozwala nam między innymi na tworzenie interfejsów wiersza poleceń (CL
 W tym celu potrzebujemy sposobu na otrzymywanie argumentów wiersza poleceń, co w Node odbywa się za pomocą wbudowanego obiektu `process`.
 
 
-### `process`
+### process
 
 
 NodeJS udostępnia specjalny obiekt o nazwie `process`, który reprezentuje aktualnie uruchomiony program.
@@ -5307,7 +5308,7 @@ console.log(process.platform)
 Wyświetla platformę systemu operacyjnego, taką jak `win32`, `linux` lub `darwin` (Mac).
 
 
-### `process.argv`
+### process.argv
 
 
 Kiedy uruchamiasz program NodeJS z terminala, możesz przekazać dodatkowe słowa (argumenty) po nazwie skryptu. Są one przechowywane w `process.argv`.
@@ -5493,7 +5494,7 @@ Nie musisz instalować tych wbudowanych modułów, są one dostarczane z NodeJS.
 Następne rozdziały pokażą kilka przydatnych przykładów ich użycia.
 
 
-## Moduł `fs
+## Moduł fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5882,7 @@ package.json
 ```
 
 
-### `package.json`
+### package.json
 
 
 Plik `package.json` jest po prostu plikiem JSON, który przechowuje metadane o projekcie.
@@ -5960,7 +5961,7 @@ Co zrobił NPM?
 Co to jest `package-lock.json`?
 
 
-### `package-lock.json`
+### package-lock.json
 
 
 Plik ten jest automatycznie tworzony przez NPM.
@@ -6023,7 +6024,7 @@ NodeJS jest często używany jako język zaplecza: możesz przekształcić swój
 W tym rozdziale przedstawimy kilka podstawowych funkcji sieciowych, które pozwolą ci to zrobić.
 
 
-### `fetch()`
+### fetch()
 
 
 Jeśli chcesz, aby twój program pobierał dane ze strony internetowej lub API, musisz wykonać żądanie **HTTP**.
@@ -6141,7 +6142,7 @@ JSON.parse("not json") // ❌ Error!
 Upewnij się więc, że ciąg znaków jest odpowiednio sformatowany.
 
 
-### serwer `http
+### serwer http
 
 
 NodeJS umożliwia utworzenie serwera WWW bez instalowania czegokolwiek innego.
@@ -6517,36 +6518,36 @@ Oto przykład zapisu do pliku `target.txt` przy użyciu strumienia:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Oto, co się dzieje:
 
 
-1. `fs.createWriteStream()` tworzy zapisywalny strumień.
+1. `fs.createWriteStream()` tworzy strumień do zapisu.
 
-2. Zapisujemy do niego tekst używając `.write()`.
+2. Rejestrujemy procedury obsługi zdarzeń `error` i `finish`.
 
-3. Kiedy skończymy, wywołujemy `.end()`, aby zamknąć strumień.
+3. Zapisujemy w nim tekst za pomocą `.write()`.
 
-4. Gdy wszystkie dane zostaną zapisane, emitowane jest zdarzenie `finish`.
+4. Po zakończeniu wywołujemy `.end()`, aby zamknąć strumień.
 
-5. Jeśli coś pójdzie nie tak, wywoływane jest zdarzenie `error`.
+5. Po opróżnieniu i zapisaniu wszystkich zbuforowanych danych emitowane jest zdarzenie `finish`. Jeśli coś pójdzie nie tak, emitowane jest zdarzenie `error`.
 
 
 Podobnie jak strumienie do odczytu, strumienie zapisywalne są dobre dla dużych zbiorów danych, ponieważ nie muszą przechowywać wszystkiego w pamięci naraz.

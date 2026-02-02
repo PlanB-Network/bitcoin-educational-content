@@ -1,0 +1,8 @@
+question: Mitä solmun on Bitcoin-tapahtuman validoinnin aikana tarkistettava, jotta varmistetaan, että jokaisella syötteellä on asianmukainen valtuutus käyttää viitteellinen tuotos?
+answer: ScriptSigin on onnistuttava avaamaan vastaava ScriptPubKey, kun se suoritetaan yhdessä
+wrong_answers:
+  - "Syötteen digitaalisen allekirjoituksen on täsmälleen vastattava tuotoksen upotettua julkista avainta"
+  - Tapahtuman hashin on vastattava viitattuun lohkon otsikkoon tallennettua merkle-juurta
+  - Syötetyn määrän on oltava suurempi tai yhtä suuri kuin käytetyn tuotoksen määrä
+explanation: |
+  Bitcoin:n komentosarjajärjestelmä edellyttää, että jokaisen syötteen ScriptSig (lukituksen avaava komentosarja) on suoritettava onnistuneesti viitattavan tulosteen ScriptPubKey (lukitusskripti) kanssa, jotta pino tuottaa todellisen tuloksen. Tämä komentosarjan suoritusmalli mahdollistaa joustavat käyttöehdot, jotka ylittävät pelkän allekirjoituksen yhteensovittamisen. Muut vaihtoehdot kuvaavat virheellisiä validointivaatimuksia - allekirjoitusten ei tarvitse täsmälleen vastata upotettuja avaimia, tapahtuman hasheja ei verrata merkle-juuriin syötteen validoinnin aikana, eikä yksittäisten syötteiden tarvitse ylittää niiden ulostuloja (vain kokonaissyötteiden on ylitettävä kokonaistulot).

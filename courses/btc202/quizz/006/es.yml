@@ -1,7 +1,7 @@
-question: ¿Por qué un único Wallet no se considera participante en la red Bitcoin?
+question: ¿Por qué una única Wallet no se considera participante en la red Bitcoin?
 answer: Porque no valida transacciones ni bloques
 wrong_answers:
-  - Porque no puede generate claves privadas
+  - Porque no puede generar claves privadas
   - Porque no puede crear direcciones Bitcoin
   - Porque no valida las ventas ni las direcciones
 explanation: |

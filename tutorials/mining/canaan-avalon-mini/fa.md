@@ -122,16 +122,17 @@ https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| ویژگی                                      | مقدار                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
-| Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| نرخ هش                                             | 37.5 Th/s +- 5%                                           |
+| مصرف برق                              | 800 W                                                     |
+| سر و صدا                                                | 35-55 dB                                                  |
+| دمای هوای خروجی                       | 60-70°C (در دمای محیط 25°C)                  |
+| نیازمندی های دمای محیط برای استفاده | -5° C - 40°C                                              |
+| محدوده ولتاژ ورودی دستگاه                         | 110V-240V AC 50/60Hz                                      |
+| اندازه دستگاه                                 | طول: 760 میلی متر / عمق: 104 میلی متر / ارتفاع: 214.5 میلی متر |
+| وزن دستگاه                                  |  8.35 kg                                                  |
 
 ## اتصال به Mining pool
 

@@ -1,8 +1,8 @@
-question: Wat zijn de twee belangrijkste varianten van smart contracts die worden gebruikt bij coinswaps?
+question: Wat zijn de twee belangrijkste varianten van Smart Contracts die worden gebruikt bij coinswaps?
 answer: HTLC en PTLC
 wrong_answers:
-  - Multi-handtekening en enkele handtekening
-  - Slimme contracten en DApps
+  - Multi-handtekening en enkele handtekening (multisig en single sig)
+  - Slimme Contracten en DApps
   - SegWit en Taproot
 explanation: |
   Om een coinswap uit te voeren, kan men HTLC's (Hash Time-Locked Contracts) of PTLC's (Point Time-Locked Contracts) gebruiken.

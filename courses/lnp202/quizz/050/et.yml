@@ -1,0 +1,9 @@
+question: Mis on LND + Tailscale + Zeus konfiguratsiooni peamine eesmärk?
+answer: Mobiilse wallet kasutamine Lightning-sõlmes
+wrong_answers:
+  - Hooldusotstarbelise wallet kasutamine ilma välgussõlmeta
+  - Mitme LND sõlme multipleksimine
+  - Mining sats, kasutades Umbrel
+explanation: |
+  Eesmärk on kasutada mobiilne Lightning wallet rakendus, mis töötab taustal teie enda võrgusõlmes.
+reviewed: false

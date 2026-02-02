@@ -1,21 +1,19 @@
 ---
-name: Nghiên cứu về Siêu lạm phát
+name: Các nghiên cứu tình huống về siêu lạm phát
 goal: Hiểu biết về sự xuất hiện các đợt siêu lạm phát trong thế giới tiền pháp định và hậu quả của chúng.
 objectives:
-  - Nghiên cứu các chu kỳ siêu lạm phát
-  - Hiểu rõ tác động thực sự của siêu lạm phát đối với cuộc sống hàng ngày của người dân
-  - Nghiên cứu sự tương đồng của các đợt siêu lạm phát qua các thời kỳ
-  - Ý tưởng chi tiết về cách bảo vệ bản thân khỏi siêu lạm phát
+- Nghiên cứu các chu kỳ siêu lạm phát
+- Hiểu rõ tác động thực sự của siêu lạm phát đối với cuộc sống hàng ngày của người dân
+- Nghiên cứu sự tương đồng của các đợt siêu lạm phát qua các thời kỳ
+- Ý tưởng chi tiết về cách bảo vệ bản thân khỏi siêu lạm phát
 ---
+# Hành Trình Qua Sự Sụp Đổ Kinh Tế
 
-# Hành trình tìm hiểu về nền kinh tế
+Nó trông như thế nào khi tiền mất đi ý nghĩa của nó?
+Khóa học này hướng dẫn bạn qua thế giới hấp dẫn nhưng nghiêm túc của siêu lạm phát. Bạn sẽ khám phá các giai đoạn lịch sử và các trường hợp hiện đại khi đồng tiền sụp đổ và nền kinh tế biến đổi chỉ trong một đêm. Bạn sẽ khám phá các mô hình, nguyên nhân và tác động thực tế đến người dân thường, có được cái nhìn sâu sắc về một trong những hiện tượng kịch tính nhất của kinh tế học.
 
-Khoá học này nhằm mang đến một hiểu biết sâu sắc về sự xuất hiện của các đợt siêu lạm phát trong một thế giới được thống trị bởi tiền pháp định và xem xét những hậu quả to lớn của nó. Người tham gia sẽ khám phá chi tiết các chu kỳ siêu lạm phát, phân tích nguyên nhân, yếu tố kích hoạt và các ví dụ trong lịch sử và đương đại. Họ cũng sẽ xem xét tác động cụ thể của siêu lạm phát đối với nền kinh tế và cuộc sống hàng ngày của người dân, nghiên cứu những hậu quả đối với giá trị tiền tệ, sức mua và các khoản tiết kiệm của cá nhân và tập thể.
-
-Tại đây, chúng ta sẽ nêu bật xu hướng và mô hình chung của các đợt siêu lạm phát trong lịch sử, đồng thời cung cấp các chiến lược hiệu quả và cụ thể để bảo vệ bản thân trong thời kỳ siêu lạm phát. Người tham gia sẽ có cơ hội khám phá các lựa chọn đầu tư và cơ chế phòng thủ tài chính khác nhau, thu thập công cụ thực tế và kiến thức thiết yếu để bình tĩnh vượt qua những khó khăn trong một bối cảnh kinh tế không ổn định.
-
+Trong suốt hành trình, bạn cũng sẽ khám phá cách các cá nhân và cộng đồng đã vượt qua những giai đoạn hỗn loạn này. Tìm hiểu các chiến lược đã giúp bảo vệ tài sản trong các cuộc khủng hoảng tiền tệ và xây dựng sự hiểu biết sâu sắc hơn về khả năng phục hồi tài chính. Nếu bạn tò mò về các lực lượng kinh tế định hình thế giới của chúng ta, hành trình này mang đến cả kiến thức và góc nhìn thực tế.
 +++
-
 # Giới thiệu
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
@@ -274,7 +272,7 @@ Một ví dụ minh họa của MMT là phức hợp quân sự-công nghiệp c
 
 Nhật Bản thường được các nhà ủng hộ MMT trích dẫn là một ví dụ khác về sự vắng mặt của lạm phát bất chấp việc in tiền đáng kể. Tuy nhiên, tình hình ở Nhật Bản cũng làm nổi bật những hạn chế của các biện pháp đo lường lạm phát truyền thống như CPI. Ở Nhật Bản, một phần lớn tiền in ra hoặc được tiết kiệm hoặc được đầu tư vào thị trường bất động sản hoặc thị trường chứng khoán, thay vì chi tiêu trong nền kinh tế tiêu dùng hiện tại. CPI, bằng cách không hoàn toàn tính đến những động lực này, có thể đánh giá thấp lạm phát thực tế.
 
-Phân tích về Nhật Bản (https://ideas.repec.org/p/ces/ceswps/_9821.html) cũng làm nổi bật rằng hành vi của các chủ thể kinh tế, như tiết kiệm hoặc đầu tư vào tài sản không được bao gồm trong CPI, có thể che giấu tác động lạm phát của việc in tiền. Hơn nữa, khả năng của các ngành khác nhau trong việc hấp thụ lượng tiền được bơm vào đóng một vai trò quan trọng trong việc liệu có xảy ra lạm phát hay không.
+[Phân tích về Nhật Bản](https://ideas.repec.org/p/ces/ceswps/_9821.html) cũng làm nổi bật rằng hành vi của các tác nhân kinh tế, như tiết kiệm hoặc đầu tư vào các tài sản không được đưa vào CPI, có thể che giấu tác động lạm phát của việc in tiền. Ngoài ra, khả năng của các lĩnh vực khác nhau trong việc hấp thụ lượng thanh khoản được bơm vào đóng vai trò then chốt trong việc lạm phát có xuất hiện hay không.
 
 #### Bảng cân đối kế toán của Ngân hàng và Ngân hàng trung ương
 

@@ -48,11 +48,11 @@ For **Windows**, hvis du ikke har GPG, kan du installere programvaren [Gpg4win](
 
 ## Nedlasting av dokumenter
 
-For å starte, trenger vi forskjellige dokumenter. Besøk det offisielle nettstedet til [Sparrow Wallet i delen "*Download*"] (https://sparrowwallet.com/download/). Hvis du ønsker å verifisere en annen programvare, kan du gå til den programvarens nettsted.
+For å starte, trenger vi forskjellige dokumenter. Besøk det offisielle nettstedet til [Sparrow Wallet i delen "*Download*"](https://sparrowwallet.com/download/). Hvis du ønsker å verifisere en annen programvare, kan du gå til den programvarens nettsted.
 
 ![GnuPG](assets/notext/02.webp)
 
-Du kan også gå [til GitHub-arkivet til prosjektet] (https://github.com/sparrowwallet/sparrow/releases).
+Du kan også gå [til GitHub-arkivet til prosjektet](https://github.com/sparrowwallet/sparrow/releases).
 
 ![GnuPG](assets/notext/03.webp)
 
@@ -70,7 +70,7 @@ Last også ned PGP-signaturen til filen. Dette er dokumentet i `.asc`-format.
 
 Sørg for å plassere alle disse filene i samme mappe for de følgende trinnene.
 
-Til slutt trenger du utviklerens offentlige nøkkel, som vi vil bruke til å verifisere PGP-signaturen. Denne nøkkelen er ofte tilgjengelig enten på programvarens nettsted, på GitHub-arkivet til prosjektet, noen ganger på utviklerens sosiale medier, eller på spesialiserte nettsteder som Keybase. I tilfellet Sparrow Wallet kan du finne utvikler Craig Raw sin offentlige nøkkel [på Keybase] (https://keybase.io/craigraw). For å laste den ned direkte fra terminalen, kjør kommandoen:
+Til slutt trenger du utviklerens offentlige nøkkel, som vi vil bruke til å verifisere PGP-signaturen. Denne nøkkelen er ofte tilgjengelig enten på programvarens nettsted, på GitHub-arkivet til prosjektet, noen ganger på utviklerens sosiale medier, eller på spesialiserte nettsteder som Keybase. I tilfellet Sparrow Wallet kan du finne utvikler Craig Raw sin offentlige nøkkel [på Keybase](https://keybase.io/craigraw). For å laste den ned direkte fra terminalen, kjør kommandoen:
 
 ```bash
 curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import

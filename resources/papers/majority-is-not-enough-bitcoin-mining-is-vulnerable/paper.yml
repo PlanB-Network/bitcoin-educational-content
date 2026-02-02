@@ -1,0 +1,17 @@
+title: "Majority is not Enough: Bitcoin Mining is Vulnerable"
+original_language: en
+authors:
+  - Ittay Eyal
+  - Emin Gun Sirer
+abstract: |
+  The Bitcoin cryptocurrency records its transactions in a public log called the blockchain. Its security rests critically on the distributed protocol that maintains the blockchain, run by participants called miners. Conventional wisdom asserts that the protocol is incentive-compatible and secure against colluding minority groups, i.e., it incentivizes miners to follow the protocol as prescribed. We show that the Bitcoin protocol is not incentive-compatible. We present an attack with which colluding miners obtain a revenue larger than their fair share. This attack can have significant consequences for Bitcoin: Rational miners will prefer to join the selfish miners, and the colluding group will increase in size until it becomes a majority. At this point, the Bitcoin system ceases to be a decentralized currency. Selfish mining is feasible for any group size of colluding miners. We propose a practical modification to the Bitcoin protocol that protects against selfish mining pools that command less than 1/4 of the resources. This threshold is lower than the wrongly assumed 1/2 bound, but better than the current reality where a group of any size can compromise the system.
+publication_date: 2013-11-15
+paper_type: academic
+source: ACM
+type: SCIE
+category: COMPUTER SCIENCE, THEORY & METHODS
+topics:
+  - Mining Pool Economics
+  - Distributed Consensus Mechanisms
+pdf_url: https://arxiv.org/pdf/1311.0243
+id: 252fa530-361b-41ca-b82c-46c22f1525e9

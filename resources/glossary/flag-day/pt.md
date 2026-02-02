@@ -1,6 +1,7 @@
 ---
-term: DIA DA BANDEIRA
+term: Flag day
 
+definition: Método de ativação de soft fork que estabelece um prazo para a adoção das novas regras.
 ---
 Método de ativação de um soft fork utilizado nos primeiros anos da Bitcoin. Este processo estabelece simplesmente um prazo, conhecido como "Flag Day", antes do qual a atualização do protocolo deve ser adoptada por toda a rede. Esta abordagem é simples: após esta data, os nós e os mineiros devem ter atualizado o seu software para cumprir as novas regras, caso contrário, correm o risco de estar numa cadeia incompatível.
 

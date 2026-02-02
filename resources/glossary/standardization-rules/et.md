@@ -1,6 +1,7 @@
 ---
-term: STANDARDISEERIMISE REEGLID
+term: Standardimise reeglid
 
+definition: Kohalikud reeglid, mis määravad kinnitamata tehingute struktuuri, mida sõlm oma mempooli vastu võtab.
 ---
 Iga Bitcoini sõlmpunkt võtab lisaks konsensusreeglitele individuaalselt vastu standardimisreeglid, et määratleda kinnitamata tehingute struktuuri, mida ta võtab vastu oma mempool'i ja edastab oma eakaaslastele. Neid reegleid konfigureerib ja täidab seega iga sõlmpunkt lokaalselt ning need võivad erineda eri sõlmedes. Neid kohaldatakse ainult kinnitamata tehingute suhtes. Seega võtab sõlmpunkt vastu tehingu, mida ta peab mittestandardseks, ainult siis, kui see on juba lisatud kehtivasse plokki.
 

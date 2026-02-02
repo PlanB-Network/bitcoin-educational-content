@@ -1,0 +1,8 @@
+question: Kombinasi fitur Rust manakah yang membuatnya sangat cocok untuk menangani sifat transaksi Bitcoin yang tidak dapat diubah?
+answer: Sistem tipe kuat statis yang menangkap kesalahan pada waktu kompilasi dan mencegah kerentanan terkait memori
+wrong_answers:
+  - Pengetikan dinamis dengan pemeriksaan runtime dan pengumpulan sampah otomatis untuk manajemen memori
+  - Sistem tipe lemah dengan konversi fleksibel dan manajemen memori manual untuk optimalisasi kinerja
+  - Kompilasi just-in-time dengan pengoptimalan runtime dan penanganan kesalahan yang ditafsirkan untuk fleksibilitas
+explanation: |
+  Sistem tipe kuat statis Rust sangat penting untuk pengembangan Bitcoin karena sistem ini menangkap ketidakcocokan tipe dan kesalahan logika sebelum program berjalan, mencegah masalah yang dapat mempengaruhi dana pengguna. Sifat statis berarti kesalahan ditemukan pada saat kompilasi daripada saat runtime ketika menangani transaksi nyata. Selain itu, sistem tipe Rust menangani kepemilikan memori dan mencegah kerentanan yang berhubungan dengan memori seperti kesalahan bebas ganda dan kondisi balapan. Hal ini sangat penting untuk aplikasi Bitcoin di mana kesalahan tidak dapat dipulihkan dan tidak ada otoritas yang dapat dimintakan pemulihan dana, tidak seperti sistem keuangan tradisional dengan mekanisme tolak bayar.

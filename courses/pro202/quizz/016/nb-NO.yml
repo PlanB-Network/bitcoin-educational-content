@@ -1,0 +1,8 @@
+question: Hva skjer med differansen mellom inngående beløp og utgående beløp i en Bitcoin-transaksjon?
+answer: Differansen blir automatisk transaksjonsavgiften som betales til utvinnerne
+wrong_answers:
+  - "Differansen returneres til avsenderens opprinnelige adresse som endring"
+  - Forskjellen blir brent og permanent fjernet fra sirkulasjonen
+  - Differansen holdes i depot inntil transaksjonen er bekreftet
+explanation: |
+  I Bitcoins gebyrsystem beregnes gebyrene implisitt som differansen mellom totale inndata og totale utdata (gebyr = sum(inndata) - sum(utdata)). Enhver verdi som ikke eksplisitt er tilordnet en utgang, blir automatisk gruvearbeidergebyret. Dette er grunnen til at det er viktig å opprette riktige endringsutganger - hvis du glemmer å inkludere en endringsutgang når du bruker en stor UTXO, blir hele restbeløpet en dyr avgift for gruvearbeideren. De andre alternativene er feil fordi Bitcoin ikke automatisk oppretter endringsutganger, ikke brenner ikke-tildelte verdier og ikke bruker escrow-mekanismer for transaksjonsdifferanser.

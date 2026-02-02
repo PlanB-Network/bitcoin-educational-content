@@ -186,7 +186,7 @@ Als je niet bekend bent met het gebruik van Bitcoin, Lightning of Liquid wallets
 
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Je kunt ook [onze gedetailleerde tutorials over de beste Bitcoin wallets] (https://planb.academy/tutorials/wallet) verkennen.
+Je kunt ook [onze gedetailleerde tutorials over de beste Bitcoin wallets](https://planb.academy/tutorials/wallet) verkennen.
 
 
 Bevestig dan je aankoop door op "*Koop bevestigen*" te klikken.
@@ -288,6 +288,14 @@ Om al je transacties bij te houden, kun je de geschiedenis raadplegen in het men
 
 ![BULL](assets/fr/36.webp)
 
+
+## Een automatische terugkerende aankoop starten (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Een limietorder aanmaken
+
+![video](https://youtu.be/6Jlu19jlk7U)
 
 Nu weet je hoe je gemakkelijk Bitcoin kunt kopen en verkopen met Bull Bitcoin. Als je deze tutorial nuttig vond, zou ik je erg dankbaar zijn als je hieronder een Green duim plaatst. Voel je vrij om dit artikel te delen op je sociale netwerken. Hartelijk dank!
 

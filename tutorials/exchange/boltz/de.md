@@ -20,7 +20,7 @@ Ein großes Problem blieb jedoch zwischen den Bitcoin-Protokollschichten bestehe
 
 
 
-[Boltz] (https://boltz.Exchange) ist eine nicht-verwahrende Plattform, die ideal für jeden ist, der zwischen den verschiedenen Schichten des Bitcoin-Protokolls Transaktionen durchführen möchte:
+[Boltz](https://boltz.Exchange) ist eine nicht-verwahrende Plattform, die ideal für jeden ist, der zwischen den verschiedenen Schichten des Bitcoin-Protokolls Transaktionen durchführen möchte:
 
 
 

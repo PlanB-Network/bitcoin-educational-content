@@ -1,6 +1,7 @@
 ---
 term: P2SH
 
+definition: Skripti, joka mahdollistaa mielivaltaiset kulutusehdot redeemScriptin tiivisteen kautta.
 ---
 P2SH tarkoittaa *Pay to Script Hash*. Se on vakioskriptimalli, jota käytetään UTXO:n käyttöehtojen määrittämiseen. Toisin kuin P2PK- ja P2PKH-skriptit, joissa käyttöehdot on määritelty ennalta, P2SH mahdollistaa mielivaltaisten käyttöehtojen ja lisätoimintojen integroinnin transaktioskriptiin.
 

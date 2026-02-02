@@ -1,0 +1,8 @@
+question: What specific endianness conversion challenge must Bitcoin nodes handle when constructing and verifying Merkle trees from transaction data?
+answer: Transaction hashes must be reversed from little-endian serialized format to big-endian for internal tree computation, then reversed back for storage
+wrong_answers:
+  - Block headers must be converted from big-endian to little-endian before computing the Merkle root to match network transmission format
+  - The final Merkle root must be converted from big-endian to little-endian only when transmitting to other nodes via P2P messages
+  - Transaction IDs are stored in big-endian format but must be converted to little-endian before hashing pairs in the Merkle tree
+explanation: |
+  Bitcoin's Merkle tree construction involves a critical endianness conversion step. While serialized block data uses little-endian format, the internal Merkle tree computation requires big-endian hashes. Nodes must reverse transaction hashes from their serialized little-endian format to big-endian before tree construction, then reverse the final root back to little-endian for storage in the block header. This conversion is essential for proper verification.

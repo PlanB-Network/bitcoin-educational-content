@@ -6,4 +6,4 @@ wrong_answers:
   - Wysyłając środki bezpośrednio na adresy wielopodpisowe
 explanation: |
   Sieć Lightning umożliwia przekierowanie płatności przez kilka węzłów pośredniczących, nie wymagając bezpośredniego kanału między nadawcą a odbiorcą.
-reviewed: false
+reviewed: true

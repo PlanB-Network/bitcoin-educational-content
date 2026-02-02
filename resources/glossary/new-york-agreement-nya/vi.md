@@ -1,6 +1,7 @@
 ---
-term: NEW YORK AGREEMENT (NYA)
+term: Thỏa thuận New York (NYA)
 
+definition: Cuộc họp năm 2017 đã đề xuất SegWit2x, cuối cùng đã bị từ bỏ do thiếu sự đồng thuận.
 ---
 A private meeting held in 2017, bringing together more than 50 companies from the Bitcoin ecosystem, following the Consensus 2017 conference. The goal of this meeting was to end the long-standing debate on scaling Bitcoin by reaching an agreement. This meeting led to the proposal of SegWit2x, drawing inspiration from the previous SegWit2Mb proposal. It planned two major modifications to the Bitcoin protocol:
 

@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin valuta
   - De Blockchain Bitcoin
 explanation: |
-  Het Bitcoin netwerk bestaat uit alle verbonden knooppunten, elk met een eigen implementatie van het protocol.
+  Het Bitcoin netwerk bestaat uit alle verbonden nodes, elk met een eigen implementatie van het protocol.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Jaka jest główna różnica między metodami a powiązanymi funkcjami w strukturach Rust?
+answer: Metody przyjmują self jako pierwszy parametr, podczas gdy powiązane funkcje tego nie robią
+wrong_answers:
+  - Metody są domyślnie publiczne, podczas gdy powiązane z nimi funkcje są domyślnie prywatne
+  - Metody mogą tylko odczytywać dane, podczas gdy powiązane funkcje mogą modyfikować pola struktury
+  - Metody używają notacji kropkowej do wywoływania, podczas gdy powiązane funkcje używają notacji strzałkowej
+explanation: |
+  Metody w Rust są funkcjami zdefiniowanymi w bloku impl, które przyjmują pewną formę self jako pierwszy parametr (self, &self lub &mut self), pozwalając im działać na instancjach struktury. Funkcje stowarzyszone są również definiowane w blokach impl, ale nie przyjmują self jako parametru, co czyni je podobnymi do metod statycznych w innych językach. Funkcje stowarzyszone są wywoływane przy użyciu składni podwójnego dwukropka (Type::function_name()) i są powszechnie używane jako konstruktory, podczas gdy metody są wywoływane na instancjach przy użyciu notacji kropkowej. Pozostałe opcje są nieprawidłowe, ponieważ zarówno metody, jak i funkcje stowarzyszone są zgodne z tymi samymi regułami widoczności, obie mogą być zaprojektowane do modyfikowania lub odczytywania danych w zależności od ich implementacji, a funkcje stowarzyszone używają składni podwójnego dwukropka, a nie notacji strzałkowej.

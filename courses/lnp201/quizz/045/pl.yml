@@ -6,4 +6,4 @@ wrong_answers:
   - Wysyłanie środków bez potwierdzenia odbiorcy
 explanation: |
   Wypłata LNURL pozwala użytkownikom na wypłatę środków z usługi poprzez zeskanowanie kodu QR, upraszczając w ten sposób proces wypłaty.
-reviewed: false
+reviewed: true

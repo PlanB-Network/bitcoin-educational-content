@@ -1,5 +1,6 @@
 ---
-term: BCH 代碼
+term: BCH碼
+definition: Bech32 和 Bech32m 地址中用於檢測輸入錯誤的糾錯碼。
 ---
 
 錯誤修正碼的一種，用於偵測和修正資料序列中的錯誤。換句話說，BCH 糾錯碼用於找出並糾正傳輸資訊中的隨機錯誤，以確保資訊完好無損地到達目的地。縮寫 "BCH "代表這些編碼發明者名字的首字母：Bose、Ray-Chaudhuri 和 Hocquenghem。

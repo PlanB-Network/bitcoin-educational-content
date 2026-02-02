@@ -1,5 +1,6 @@
 ---
 term: PBKDF2
+definition: Functie voor het afleiden van cryptografische sleutels uit een wachtwoord via iteraties.
 ---
 
 `PBKDF2` staat voor *Password-Based Key Derivation Function 2*. Het is een methode om cryptografische sleutels te maken van een wachtwoord met behulp van een afleidingsfunctie. Het neemt als invoer een wachtwoord, een cryptografische salt en past iteratief een vooraf bepaalde functie toe (vaak een Hash functie zoals `SHA256` of een `HMAC`) op deze gegevens. Dit proces wordt vele malen herhaald om generate een cryptografische sleutel te maken.

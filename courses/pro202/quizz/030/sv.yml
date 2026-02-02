@@ -1,0 +1,8 @@
+question: Vad är det primära syftet med sighash-konstruktionsprocessen vid validering av Bitcoin-transaktioner?
+answer: För att skapa exakt det meddelande som ursprungligen signerades med den privata nyckeln för signaturverifiering
+wrong_answers:
+  - Till generate en unik identifierare för den transaktion som förhindrar double-spending-attacker
+  - Att komprimera transaktionsdata till ett mindre format för effektiv överföring i nätverket
+  - För att kryptera transaktionsinnehållet så att endast mottagaren kan dekryptera och spendera mynten
+explanation: |
+  Sighash-konstruktionen skapar exakt det meddelande som signerades med den privata nyckeln, vilket gör att OP_CHECKSIG kan verifiera signaturens äkthet. Denna process innebär att ScriptSigs töms, att den aktuella inmatningens ScriptSig ersätts med dess motsvarande ScriptPubKey och att en hashtyp läggs till före dubbelhashning. De andra alternativen är felaktiga: transaktions-ID:n fungerar som identifierare, komprimering hanteras separat och Bitcoin-transaktioner är inte krypterade utan offentligt synliga på blockkedjan.

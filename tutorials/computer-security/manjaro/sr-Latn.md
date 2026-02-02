@@ -104,7 +104,7 @@ Da biste preuzeli, idite na [zvaničnu Manjaro veb stranicu](https://manjaro.org
 
 
 
-Zatim idite na veb-sajt softvera [Rufus] (https://rufus.ie/fr/) i preuzmite ga. Pokrenite program, priključite vaš USB ključ, izaberite Manjaro ISO sliku i započnite flešovanje. Sačekajte da se proces završi pre nego što uklonite ključ. Zatim možete restartovati vaš računar.
+Zatim idite na veb-sajt softvera [Rufus](https://rufus.ie/fr/) i preuzmite ga. Pokrenite program, priključite vaš USB ključ, izaberite Manjaro ISO sliku i započnite flešovanje. Sačekajte da se proces završi pre nego što uklonite ključ. Zatim možete restartovati vaš računar.
 
 
 

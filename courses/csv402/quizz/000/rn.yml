@@ -1,9 +1,9 @@
-question: Ni igiki gikorwa nyamukuru ca Blockchain mu citegererezo ca Client-side Validation gikoreshwa na RGB?
-answer: Gutanga umwanya wo gutera ikidodo no kwirinda gukoresha kabiri
+question: Ni akahe kamaro nyamukuru ka Blockchain kuruhande rw'ukwemeza rw'umukiriya rukoreshwa na RGB?
+answer: Gutanga time stamping (umwanya wo gutera ikidodo) no kwirinda kuriha incuro zibiri
 wrong_answers:
-  - Bika imihindukire yose ya Leta
+  - Kubika uko amahiduka ameze
   - Gusubiramwo amakuru ya Smart contract
-  - Kwemeza ko amakuru yose azoboneka
+  - Kwemeza ko amakuru yose muri rusangi ko ahari
 explanation: |
-  Bitcoin Blockchain ikoreshwa muri RGB kugira ngo ikoreshe amasezerano y’igihe no kubuza Double-spending, ata kubika amahinduka yose ya Leta.
-reviewed: false
+  Blockchain ya Bitcoin ikoreshwa muri RGB kugira ngo ikoreshe time-stamp (amasezerano y’igihe) no kubuza Ukuriha incuro zibiri, ata kubika uko amahinduka ameze.
+reviewed: true

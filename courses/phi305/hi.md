@@ -1,35 +1,18 @@
 ---
 name: स्पिनोज़ा और Bitcoin
 goal: सदियों से स्वतंत्रता के साधन के रूप में स्पिनोज़ा के विचार और Bitcoin के बीच दार्शनिक संबंधों की खोज करें।
-objectives: 
-
-
-  - स्पिनोज़ा के व्यावहारिक दर्शन और स्वतंत्रता की उनकी खोज को समझना।
-  - नियतिवाद और मानवीय भ्रम की स्पिनोज़वादी अवधारणाओं की खोज करना।
-  - स्पिनोज़ा की विचार क्रांति और Bitcoin की तकनीकी क्रांति के बीच समानताओं का विश्लेषण।
-
-
-
+objectives:
+- स्पिनोज़ा के व्यावहारिक दर्शन और स्वतंत्रता की उनकी खोज को समझना।
+- निर्धारणवाद और मानवीय भ्रमों की स्पिनोज़ावादी अवधारणाओं की खोज करना।
+- स्पिनोज़ा की विचार क्रांति और बिटकॉइन की तकनीकी क्रांति के बीच समानताओं का विश्लेषण करना।
+- राजनीतिक प्रणालियों में हेरफेर को पहचानने और उसका प्रतिरोध करने के लिए प्रभाव सिद्धांत को लागू करना।
 ---
+# जब स्पिनोज़ा ने सातोशी से मुलाकात की
 
-# स्पिनोज़ा और Bitcoin के माध्यम से स्वतंत्रता की दार्शनिक खोज
+जानिए कैसे 17वीं सदी के दार्शनिक बारूक डी स्पिनोज़ा के स्वतंत्रता, तर्क और शक्ति के बारे में क्रांतिकारी विचार Bitcoin की विकेंद्रीकृत क्रांति का पूर्वाभास देते हैं। यह पाठ्यक्रम आश्चर्यजनक समानताओं को प्रकट करता है: दोनों अंध विश्वास और केंद्रीय सत्ता को अस्वीकार करते हैं, दोनों मुक्ति के लिए गणितीय कठोरता का उपयोग करते हैं। स्पिनोज़ा ने मनों को धार्मिक कट्टरता से मुक्त किया, Bitcoin पैसे को राज्य के नियंत्रण से मुक्त करता है।
 
-
-
-यह पाठ्यक्रम बारूक डी स्पिनोजा (1632-1677) के क्रांतिकारी दर्शन और जीडब्ल्यू-4 के बीच गहरे संबंधों की खोज करता है, जो सदियों से अलग हुए स्वतंत्रता के दो साधन हैं, लेकिन एक ही खोज से जुड़े हैं: दासता से मानव मुक्ति।
-
-
-
-हम जानेंगे कि कैसे तर्कसंगत ज्ञानोदय दर्शन के जनक, स्पिनोज़ा ने हमें उन भ्रमों से मुक्त करने के लिए एक व्यावहारिक नीतिशास्त्र विकसित किया जो हमें कैद करते हैं - स्वतंत्र इच्छा, अंतिमवाद और धार्मिक अंधविश्वास। उनकी ज्यामितीय पद्धति और प्रभावों का सिद्धांत हमें सिखाता है कि दुनिया में अपनी जगह कैसे समझें और अपने अस्तित्व को उस दिशा में कैसे निर्देशित करें जो हमारी कार्य करने की शक्ति को बढ़ाता है।
-
-
-
-इसके बाद, यह पाठ्यक्रम विचारों की इस कोपरनिकन क्रांति और Bitcoin के बीच दिलचस्प समानताएँ खींचता है: दो ऐसी प्रणालियाँ जिनके लिए न तो अंध विश्वास की आवश्यकता है और न ही किसी केंद्रीय सत्ता की, बल्कि केवल तर्क के प्रयोग की। जिस तरह स्पिनोज़वाद ने विचार को धार्मिक हठधर्मिता से मुक्त किया, उसी तरह Bitcoin धन को राज्य के नियंत्रण से मुक्त करता है, और गणित और क्रिप्टोग्राफी में निहित आर्थिक स्वतंत्रता का एक नया रूप प्रदान करता है।
-
-
-
+bitcoin की दार्शनिक नींव को समझने और अपनी स्वतंत्रता बढ़ाने के लिए स्पिनोज़ा की नैतिकता से व्यावहारिक उपकरण सीखें। इतिहास के दो महानतम मानव मुक्ति के साधनों का अन्वेषण करने के लिए तैयार हैं?
 +++
-
 # परिचय
 
 
@@ -54,7 +37,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/hi/001.webp)
 
 
 स्पिनोज़ा का चित्र
@@ -89,7 +72,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/hi/002.webp)
 
 
 स्पिनोज़ा का चित्र
@@ -112,7 +95,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/hi/003.webp)
 
 
 
@@ -120,7 +103,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/hi/004.webp)
 
 
 
@@ -132,7 +115,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/hi/005.webp)
 
 
 
@@ -170,7 +153,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/hi/006.webp)
 
 
 
@@ -178,7 +161,6 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -190,7 +172,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/hi/007.webp)
 
 
 
@@ -210,10 +192,10 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/hi/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/hi/009.webp)
 
 
 
@@ -229,7 +211,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/hi/010.webp)
 
 
 
@@ -278,7 +260,6 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -290,7 +271,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/hi/011.webp)
 
 
 
@@ -302,7 +283,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/hi/012.webp)
 
 
 
@@ -334,7 +315,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/hi/013.webp)
 
 
 
@@ -354,7 +335,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/hi/014.webp)
 
 
 
@@ -392,7 +373,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/hi/015.webp)
 
 
 
@@ -403,7 +384,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/hi/016.webp)
 
 
 
@@ -415,7 +396,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/hi/017.webp)
 
 
 
@@ -452,7 +433,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/hi/018.webp)
 
 
 
@@ -464,7 +445,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/hi/019.webp)
 
 
 
@@ -472,7 +453,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/hi/020.webp)
 
 
 
@@ -519,10 +500,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/hi/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -534,7 +514,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/hi/022.webp)
 
 
 
@@ -546,10 +526,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/hi/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -557,7 +536,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/hi/024.webp)
 
 
 
@@ -565,7 +544,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/hi/025.webp)
 
 
 
@@ -611,7 +590,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/hi/026.webp)
 
 
 
@@ -635,7 +614,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/hi/027.webp)
 
 
 
@@ -651,7 +630,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/hi/028.webp)
 
 
 
@@ -679,7 +658,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/hi/029.webp)
 
 
 
@@ -704,10 +683,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/hi/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -740,7 +718,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/hi/031.webp)
 
 
 
@@ -764,7 +742,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/hi/032.webp)
 
 
 
@@ -780,7 +758,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/hi/033.webp)
 
 
 
@@ -788,7 +766,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/hi/034.webp)
 
 
 
@@ -804,7 +782,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/hi/035.webp)
 
 
 
@@ -842,7 +820,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/hi/036.webp)
 
 
 
@@ -866,7 +844,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/hi/037.webp)
 
 
 
@@ -878,7 +856,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/hi/038.webp)
 
 
 
@@ -898,7 +876,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/hi/039.webp)
 
 
 
@@ -910,7 +888,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/hi/040.webp)
 
 
 
@@ -918,7 +896,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/hi/041.webp)
 
 
 
@@ -980,7 +958,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/hi/042.webp)
 
 
 
@@ -988,7 +966,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/hi/043.webp)
 
 
 
@@ -1005,7 +983,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/hi/044.webp)
 
 
 
@@ -1028,7 +1006,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/hi/045.webp)
 
 
 
@@ -1070,7 +1048,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/hi/046.webp)
 
 
 
@@ -1094,7 +1072,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/hi/047.webp)
 
 
 
@@ -1110,7 +1088,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/hi/048.webp)
 
 
 
@@ -1130,7 +1108,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/hi/049.webp)
 
 
 
@@ -1150,7 +1128,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/hi/050.webp)
 
 
 
@@ -1190,14 +1168,13 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 यह वास्तव में वही है जो ज्ञानोदयकालीन तर्कसंगत दर्शन के बारे में था, विशेष रूप से इमैनुअल कांट (1724-1804) के लिए धन्यवाद, जिनके अनुसार केवल एक शिक्षित व्यक्ति, तर्क के मार्गदर्शन में, स्वयं सोच सकता है और नैतिक रूप से यह निर्धारित कर सकता है कि क्या "सत्य" या "अच्छा" है, और क्या विषाक्त है।
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/hi/051.webp)
 
 
 
@@ -1208,7 +1185,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/hi/052.webp)
 
 
 
@@ -1216,7 +1193,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/hi/053.webp)
 
 
 
@@ -1237,7 +1214,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/hi/054.webp)
 
 
 
@@ -1245,7 +1222,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/hi/055.webp)
 
 
 
@@ -1253,7 +1230,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/hi/056.webp)
 
 
 

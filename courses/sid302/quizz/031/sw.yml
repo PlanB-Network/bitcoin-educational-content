@@ -1,0 +1,8 @@
+question: Katika ubadilishaji wa manowari wa Lightning Send, ni kipengele gani maalum cha kriptografia kinachomruhusu mtoa huduma wa ubadilishaji kudai pesa za Liquid zilizofungwa baada ya kulipa ankara ya Lightning?
+answer: Picha ya awali ya malipo kutoka kwa malipo ya Lightning hutumika kama ufunguo wa kriptografia wa kufungua fedha za Liquid zilizohifadhiwa.
+wrong_answers:
+  - Saini ya mkataba wa kufunga muda wa hash iliyotengenezwa wakati wa muamala wa awali wa kufunga Liquid hutoa ufikiaji
+  - Metadata ya muunganisho wa WebSocket ina ufunguo wa kufungua unaoidhinisha kutolewa kwa mfuko kwa mtoa huduma
+  - "Ufunguo wa faragha wa mtoa huduma ya kubadilisha fedha hufungua kiotomatiki pesa mara tu uthibitisho wa malipo ya Lightning unapopokelewa"
+explanation: |
+  Picha ya awali ya malipo ni risiti ya kriptografia inayothibitisha kuwa malipo ya Lightning yalikamilishwa kwa ufanisi. Katika ubadilishaji wa manowari, picha hii ya awali hufanya kazi kama ufunguo wa kufungua fedha za Liquid zilizoondolewa, kuhakikisha atomiki - mtoa huduma wa ubadilishaji anaweza kudai fedha za Liquid tu ikiwa kweli alilipa ankara ya Lightning. Chaguo zingine zinaelezea vipengele vya kriptografia vya jumla ambavyo havitoi uthibitisho maalum wa malipo unaohitajika, au mifumo isiyo sahihi ambayo ingeathiri asili isiyoaminika ya ubadilishaji wa atomiki.

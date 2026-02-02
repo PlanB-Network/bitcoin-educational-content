@@ -1,0 +1,8 @@
+question: Jakiej techniki kryptograficznej używa Elements do ukrywania kwot transakcji, jednocześnie umożliwiając walidację sieci?
+answer: Zobowiązania Pedersen
+wrong_answers:
+  - Merkle Tree Hashing
+  - Podpisy z krzywą eliptyczną
+  - Szyfrowanie SHA-256
+explanation: |
+  Zobowiązania Pedersena to specyficzna technika kryptograficzna stosowana w Elements i Confidential Transactions do ukrywania kwot transakcji. Zobowiązania te zastępują widoczne kwoty zobowiązaniami kryptograficznymi, które nadal mogą być matematycznie weryfikowane przez walidatory bez ujawniania rzeczywistych wartości. Merkle Tree Hashing jest używany do organizowania danych transakcji w bloki, podpisy krzywych eliptycznych są używane do autoryzacji transakcji, a SHA-256 jest algorytmem haszującym, ale żaden z nich nie ukrywa kwot transakcji przy jednoczesnym zachowaniu możliwości walidacji, tak jak robią to zobowiązania Pedersena.

@@ -1,5 +1,6 @@
 ---
-term: NATURLIG Fork
+term: Naturlig gaffel
+definition: Tillfällig uppdelning av blockkedjan när två block hittas nästan samtidigt.
 ---
 
 En tillfällig separation av Blockchain till följd av att flera block nästan samtidigt sänds ut av olika gruvarbetare på samma höjd. Denna situation uppstår när två block, betecknade som $A$ och $B$, hittas nästan samtidigt, vilket leder till en tillfällig uppdelning av nätverket. Eftersom varje nod betraktar det första blocket den fick som giltigt, men alla inte fick samma block först, följer en del av noderna kedjan som innehåller block $A$, medan den andra delen följer den med block $B$. Denna Fork löses upp när en av de två konkurrerande kedjorna överträffar den andra i fråga om ackumulerat arbete. Vid den tidpunkten kommer alla noder i nätverket automatiskt överens om den längre kedjan (med mest ackumulerat arbete), en process som kallas omorganisering eller resynkronisering. Dessa naturliga gafflar är en naturlig del av den distribuerade driften av Bitcoin. De är helt normala och löser sig spontant efter några block (vanligtvis bara ett). Om de inträffar för ofta kan de dock fortfarande vara skadliga, eftersom de leder till slöseri med beräkningskraft på en gren som så småningom kommer att bli föråldrad.

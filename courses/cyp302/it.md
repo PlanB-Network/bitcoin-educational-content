@@ -472,16 +472,16 @@ Definiamolo innanzitutto. Supponiamo un dizionario *D* che equipara tutte le let
 
 L'operatore modulo nel cifrario a turni assicura che le lettere si avvolgano su se stesse, in modo che tutte le lettere del testo cifrato siano definite. A titolo di esempio, si consideri l'applicazione del cifrario a turni alla parola "CANE".
 
-Supponiamo di aver selezionato in modo uniforme una chiave che abbia il valore 17. La lettera "O" equivale a 15. Senza l'operazione modulo, l'addizione di questo numero del testo in chiaro con la chiave darebbe come risultato un numero di testo cifrato pari a 32. Tuttavia, questo numero del testo in chiaro non può essere trasformato in una lettera del testo in chiaro, poiché l'alfabeto inglese ha solo 26 lettere. L'operazione modulo assicura che il numero del testo cifrato sia effettivamente 6 (il risultato di $32 ´mod 26$), che equivale alla lettera "G" del testo cifrato.
+Supponiamo che tu abbia selezionato uniformemente una chiave con valore $17$. La lettera “O” corrisponde a $14$. Senza l’operazione modulo, la somma di questo numero di testo in chiaro con la chiave produrrebbe un numero di testo cifrato pari a $31$. Tuttavia, tale numero non può essere convertito in una lettera cifrata, poiché l’alfabeto inglese ha solo $26$ lettere. L’operazione modulo garantisce che il numero del testo cifrato sia in realtà $5$ (risultato di $31 \mod 26$), che corrisponde alla lettera cifrata “F”.
 
 L'intera codifica della parola "DOG" con un valore chiave di 17 è la seguente:
 
 
-- Messaggio = DOG = D,O,G = 3,15,6
+**Messaggio = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Tutti sono in grado di capire intuitivamente come funziona il cifrario a turni e probabilmente lo usano da soli. Per progredire nella conoscenza della crittografia, tuttavia, è importante iniziare a prendere confidenza con la formalizzazione, poiché gli schemi diventeranno molto più difficili. Ecco perché i passaggi del cifrario a turni sono stati formalizzati.
 

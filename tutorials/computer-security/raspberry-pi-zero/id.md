@@ -70,7 +70,7 @@ bagian dari panduan ini akan menunjukkan kepada Anda bagaimana dan di mana melak
 
 
 
-Ketika saya memutuskan untuk melanjutkan, saya menemukan [kit ini] (https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) yang penuh dengan aksesori, untuk memanfaatkan sepenuhnya potensi PI Zero. Bahkan, kit ini berisi USB A -> micro USB power Supply, hub USB kecil, mini-HDMI -> adaptor HDMI, heatsink tembaga, dan casing luar aluminium. Kit ini juga dilengkapi dengan sekrup dan kunci pas yang diperlukan untuk memasang PI Zero di casing baru.
+Ketika saya memutuskan untuk melanjutkan, saya menemukan [kit ini](https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) yang penuh dengan aksesori, untuk memanfaatkan sepenuhnya potensi PI Zero. Bahkan, kit ini berisi USB A -> micro USB power Supply, hub USB kecil, mini-HDMI -> adaptor HDMI, heatsink tembaga, dan casing luar aluminium. Kit ini juga dilengkapi dengan sekrup dan kunci pas yang diperlukan untuk memasang PI Zero di casing baru.
 
 
 

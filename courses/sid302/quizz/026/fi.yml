@@ -1,0 +1,8 @@
+question: Mikä on Blockstream AMP:n version 1 ja version 2 pääasiallinen arkkitehtuuriero transaktioiden rakentamisen ja solmujen vaatimusten suhteen?
+answer: Versio 2 siirtää monimutkaisuuden palvelimelle, joka hoitaa tapahtumien rakentamisen ja esittää liikkeeseenlaskijoille PSET:t, jolloin full node-synkronointia ei tarvita
+wrong_answers:
+  - Versio 2 edellyttää, että liikkeeseenlaskijat käyttävät useita synkronoituja Elements-solmuja redundanssin vuoksi, kun taas versio 1 edellytti vain yhden solmun yhteyttä
+  - Versiossa 2 kaikki salausoperaatiot siirretään asiakkaan laitteistolompakoihin, kun taas versiossa 1 kaikki allekirjoitustoiminnot suoritettiin palvelininfrastruktuurissa
+  - Versio 2 poistaa kokonaan yhteisaloitevaatimuksen ja mahdollistaa suorat vertaisverkkosiirrot, kun taas versio 1 vaati palvelimen valtuutuksen jokaista tapahtumaa varten
+explanation: |
+  Kehitys AMP:n versiosta 1 versioon 2 merkitsee perustavanlaatuista siirtymistä "älykäs asiakas, monimutkainen infrastruktuuri" -mallista "älykäs palvelin, yksinkertaistettu asiakas" -lähestymistapaan. Versio 1 edellytti, että liikkeeseenlaskijoiden oli ylläpidettävä täysin synkronoituja Elements-solmuja ja luotettava pitkälti monoliittiseen Green SDK:hon, mikä aiheutti suuria teknisiä esteitä. Versiossa 2 monimutkaisuus siirretään palvelimen puolelle, jossa AMP-palvelin hoitaa transaktioiden rakentamisen, UTXO:n valinnan ja maksujen laskennan, minkä jälkeen liikkeeseenlaskijat saavat käyttöönsä osittain allekirjoitetut Elements-transaktiot (PSET), jotka edellyttävät vain allekirjoituksia. Näin ei enää tarvita kokonaisia solmuja ja mahdollistetaan tavanomaiset wallet-integraatiot.

@@ -35,7 +35,7 @@ HD Bitcoinウォレットの仕組みを深く探求するCYP201コースへよ�
 このトレーニングの目標は、あなたが日常的に使用しているツールをマスターするための鍵を提供することです。あなたのユーザー体験の中心にあるHD Bitcoinウォレットは、時に複雑な概念に基づいていますが、私たちはそれらをアクセスしやすくしようと試みます。一緒に、それらを解明しましょう！
 
 Bitcoinウォレットの構造と運用の詳細に飛び込む前に、続くために知っておくべき暗号プリミティブについていくつかの章から始めます。
-まず、ウォレットとBitcoinプロトコル自体の両方にとって基本的な暗号ハッシュ関数について学びます。その主な特徴、Bitcoinで使用される特定の関数、そしてより技術的な章では、ハッシュ関数の女王であるSHA256の仕組みについて詳しく学びます。
+まず、ウォレットとBitcoinプロトコル自体の両方にとって基本的な暗号ハッシュ関数について学びます。その主な特徴、Bitcoinで使用される特定の関数、そしてより技術的な章では、ハッシュ関数の女王である[SHA256](https://planb.academy/resources/glossary/sha256)の仕組みについて詳しく学びます。
 ![CYP201](assets/en/001.webp)
 
 次に、あなたが毎日UTXOを保護するために使用しているデジタル署名アルゴリズムの運用について話し合います。Bitcoinは2つを使用しています：ECDSAとSchnorrプロトコル。これらのアルゴリズムに基づく数学的プリミティブと、トランザクションのセキュリティをどのように保証するかを学びます。
@@ -45,7 +45,7 @@ Bitcoinウォレットの構造と運用の詳細に飛び込む前に、続く�
 これらの暗号学の要素をよく理解したら、ついにトレーニングの核心である決定論的かつ階層的ウォレットに移ります！まず、ウォレットを作成および復元するために使用される12または24の単語のシーケンスであるニーモニックフレーズに捧げられたセクションがあります。これらの単語がどのようにエントロピーの源から生成され、Bitcoinの使用をどのように容易にするかを発見します。
 
 ![CYP201](assets/en/003.webp)
-このトレーニングでは、BIP39のパスフレーズ、シード（ニーモニックフレーズと混同しないでください）、マスターチェーンコード、およびマスターキーの研究を続けます。これらの要素が何であるか、それぞれの役割、そしてどのように計算されるかを詳しく見ていきます。
+このトレーニングでは、[BIP39](https://planb.academy/resources/glossary/bip0039)のパスフレーズ、シード（ニーモニックフレーズと混同しないでください）、マスターチェーンコード、およびマスターキーの研究を続けます。これらの要素が何であるか、それぞれの役割、そしてどのように計算されるかを詳しく見ていきます。
 ![CYP201](assets/en/004.webp)
 
 最終的に、マスターキーから、受信アドレスまで決定的かつ階層的に派生される暗号鍵ペアの生成方法を発見します。
@@ -665,7 +665,7 @@ $$
 ビットコイン取引を行いたいユーザーは、問題の取引に対して自分の秘密鍵を使用してデジタル署名を作成する必要があります。この署名は、他のネットワーク参加者によって検証することができます。もし有効であれば、取引を開始するユーザーが実際に秘密鍵の所有者であり、したがって彼らが使いたいビットコインの所有者であることを意味します。他のユーザーはその後、取引を受け入れて伝播することができます。
 その結果、公開鍵でロックされたビットコインを所有するユーザーは、資金のロックを解除するために必要なもの、つまり秘密鍵を安全に保管する方法を見つける必要があります。ビットコインウォレットは、他の人がアクセスできないようにすべての鍵を簡単に保管できるデバイスです。したがって、財布というよりは鍵束のようなものです。
 
-公開鍵と秘密鍵の間の数学的なリンク、および秘密鍵を明らかにすることなくその所有を証明する署名を実行する能力は、デジタル署名アルゴリズムによって可能にされます。ビットコインプロトコルでは、2つの署名アルゴリズムが使用されています：**ECDSA**（*楕円曲線デジタル署名アルゴリズム*）と**Schnorr署名スキーム**です。ECDSAはビットコインの始まりから使用されているデジタル署名プロトコルです。Schnorrはビットコインにおいてより最近のもので、2021年11月のTaprootアップデートで導入されました。
+公開鍵と秘密鍵の間の数学的なリンク、および秘密鍵を明らかにすることなくその所有を証明する署名を実行する能力は、デジタル署名アルゴリズムによって可能にされます。ビットコインプロトコルでは、2つの署名アルゴリズムが使用されています：**[ECDSA](https://planb.academy/resources/glossary/ecdsa)**（*楕円曲線デジタル署名アルゴリズム*）と**Schnorr署名スキーム**です。ECDSAはビットコインの始まりから使用されているデジタル署名プロトコルです。Schnorrはビットコインにおいてより最近のもので、2021年11月のTaprootアップデートで導入されました。
 これら2つのアルゴリズムは、そのメカニズムにおいてかなり似ています。両方とも楕円曲線暗号に基づいています。これら2つのプロトコルの主な違いは、署名の構造といくつかの特定の数学的特性にあります。したがって、最も古いものから始めて、これらのアルゴリズムの機能を研究します：ECDSA。
 ### 楕円曲線暗号
 
@@ -1914,19 +1914,21 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 受信アドレスは正確には*scriptPubKey*に見つかります。しかし、その使用は採用されたスクリプト標準によって異なります。以下は、使用された標準に応じて*scriptPubKey*に含まれる情報と、*scriptPubKey*をアンロックするために*scriptSig*で期待される情報の要約表です。
 
-| 標準               | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | 任意のデータ       |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (キーパス)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (スクリプトパス) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*出典: Bitcoin Core PR review club, 2021年7月7日 - Gloria Zhao*
+
+| 標準             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | 任意のデータ | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_出典：2021年7月7日の Bitcoin Core PR レビュークラブ – Gloria Zhao_
 
 スクリプトで使用されるオペコードは情報を操作し、必要に応じて比較やテストを行うよう設計されています。P2PKHスクリプトの例を見てみましょう。以下の通りです：
 

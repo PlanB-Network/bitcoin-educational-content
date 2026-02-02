@@ -1,9 +1,9 @@
-question: Ni inyandiko iyihe, akenshi yitwa SHA256SUMS canke MANIFEST, ikenewe kugira ngo umuntu asuzume ubutungane bwa porogarama zavuye kuri interineti?
-answer: Dosiye yerekana ibirenge vya porogaramu
+question: Ni inyandiko iyihe, akenshi yitwa SHA256SUMS canke MANIFEST, ikenewe kugira ngo umuntu asuzume ubutungane bwa porogarame zavuye kuri interineti?
+answer: Dosiye yerekana footprints za porogarame
 wrong_answers:
-  - Igitabo c'abakoresha
-  - Dosiye y'urutonde rw'imikono y'abategura
-  - Kode yuzuye y'inkomoko y'umugambi
+  - Igitabo c’abakoresha
+  - Dosiye y’urutonde rw’imikono y’abahinguzi
+  - Kode yuzuye y’isoko y’umugambi
 explanation: |
-  Dosiye y'ikimenyetso canke SHA256SUMS irimwo Hash ya dosiye yose itangazwa n'umugambi, kandi ituma ubutungane bwayo bushobora kugenzurwa.
-reviewed: false
+  Dosiye ya MANIFEST canke SHA256SUMS irimwo Hash ya dosiye yose ikwiragizwa n’umugambi, kandi ituma ubutungane bwayo bushobora kugenzurwa.
+reviewed: true

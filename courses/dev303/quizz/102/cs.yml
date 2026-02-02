@@ -1,0 +1,8 @@
+question: Jaký je zásadní rozdíl mezi přístupem LDK k integraci blockchainu a tradičními uzly Lightning, pokud jde o prostředí s omezenými zdroji?
+answer: LDK poskytuje abstrakci založenou na filtrování, která umožňuje aplikacím implementovat monitorování prostřednictvím lehkých zdrojů dat, jako jsou servery Electrum
+wrong_answers:
+  - LDK vyžaduje plnou synchronizaci blockchainu, ale optimalizuje ukládání pomocí komprimovaných hlaviček bloků a mechanismů prořezávání transakcí
+  - LDK implementuje vlastní protokol blockchainu, který snižuje šířku pásma tím, že v paměti uchovává pouze transakce relevantní pro kanál
+  - LDK používá hybridní mechanismus konsensu, který ověřuje pouze transakce související s bleskem a ignoruje standardní operace Bitcoin
+explanation: |
+  Integrace blockchainu LDK je navržena ve dvou režimech: režim plného bloku pro prostředí s velkým množstvím zdrojů a režim založený na filtrování pro omezená prostředí. Filtrovací přístup umožňuje LDK sdělovat své potřeby monitorování prostřednictvím abstraktních rozhraní a požadovat dohled nad konkrétními transakcemi, UTXO nebo vzory skriptů. Aplikace pak mohou toto sledování implementovat pomocí lehkých zdrojů, jako jsou servery Electrum nebo průzkumníci bloků, což výrazně snižuje nároky na šířku pásma a úložiště ve srovnání s plnou synchronizací bloků. Tato abstrakce umožňuje mobilním peněženkám a webovým aplikacím udržovat funkčnost Lightningu bez režijních nákladů na zdroje, které vyžadují tradiční uzly Lightningu.

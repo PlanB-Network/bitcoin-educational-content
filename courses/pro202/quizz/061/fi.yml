@@ -1,0 +1,8 @@
+question: Mikä on se perusmekanismi, jonka avulla SegWit voi lisätä lohkokapasiteettia säilyttäen samalla yhteensopivuuden SegWit:ta edeltävien solmujen kanssa?
+answer: Lohkojen painotusjärjestelmä, jossa todistajatietoja vähennetään 75 % kapasiteettilaskelmissa, jolloin kokonaisdatamäärä voi olla jopa 4 Mt, kun taas vanhojen solmujen datamäärä on ≤1 Mt
+wrong_answers:
+  - Pakkausalgoritmit, jotka pienentävät todistajatiedon kokoa 75 % ennen lähetystä ja pitävät lohkot alle 1 Mt:n kokoisina kaikissa solmuissa
+  - Lohkokoon dynaaminen mukautus, joka kasvattaa rajoja SegWit-transaktioprosentin perusteella kussakin lohkossa
+  - Erilliset todistajalohkot lähetetään vain päivitettyihin solmuihin, kun taas vanhat solmut saavat perinteiset 1 Mt:n lohkot
+explanation: |
+  SegWit käyttää lohkopainoyksiköitä, joissa perustapahtumatiedot lasketaan 4 painoyksikön tarkkuudella tavua kohti, kun taas todistajatiedot lasketaan 1 painoyksikön tarkkuudella tavua kohti. Tämä 75 prosentin alennus mahdollistaa jopa 4 miljoonan painoyksikön lohkot (mahdollisesti 4 Mt kaikkien todistajatietojen kanssa) ja varmistaa samalla, että vanhat solmut eivät koskaan näe yli 1 Mt perustransaktiodataa. Muissa vaihtoehdoissa kuvataan olemattomia mekanismeja - ei ole pakkausta, ei dynaamista mitoitusta eikä erillistä lohkojen siirtoa.

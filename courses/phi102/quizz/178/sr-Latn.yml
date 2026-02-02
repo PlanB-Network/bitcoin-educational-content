@@ -1,0 +1,8 @@
+question: Prema liberalnoj analizi koja je predstavljena, zašto bi bilo nemoguće održati slobodu štampe pod kolektivističkim ekonomskim sistemom?
+answer: Država kontroliše sva sredstva proizvodnje uključujući štamparske prese i odlučuje šta će biti objavljeno.
+wrong_answers:
+  - Pojedinačni novinari bi imali nedostatak ekonomskih podsticaja za proizvodnju kvalitetnog sadržaja
+  - Privatne novine bi bile preskupe za građane da ih kupe pod državnom kontrolom cena
+  - Političke stranke bi se previše intenzivno takmičile za kontrolu medija što bi dovelo do cenzure
+explanation: |
+  Liberalna analiza identifikuje strukturnu nemogućnost: pošto država poseduje sva sredstva za proizvodnju u kolektivističkom sistemu, ona nužno kontroliše štamparije i izdavačku infrastrukturu. Ovo daje državi apsolutnu moć da odredi šta će biti štampano i distribuirano, čineći nezavisnu slobodu štampe nemogućom bez obzira na političke namere. Druge opcije propuštaju ovu fundamentalnu tačku o ekonomskoj kontroli koja određuje političke mogućnosti.

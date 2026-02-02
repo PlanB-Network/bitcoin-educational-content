@@ -1,0 +1,9 @@
+question: Dari sudut pandang onchain Bitcoin, apa yang dimaksud dengan saluran Lightning?
+answer: Multisig keluaran alam 2/2
+wrong_answers:
+  - Naskah P2MS 2/2
+  - UTXO tunggal
+  - Kontrak federasi
+explanation: |
+  Onchain, saluran Lightning diwakili oleh output multisignature yang membutuhkan tanda tangan dari kedua peserta.
+reviewed: false

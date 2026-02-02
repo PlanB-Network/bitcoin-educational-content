@@ -6,4 +6,4 @@ wrong_answers:
   - Calcular automáticamente el camino más corto
 explanation: |
   Las tarifas de enrutamiento se utilizan para compensar a los nodos intermediarios que retransmiten pagos ofreciendo su liquidez para habilitar la transferencia de fondos a través de la red.
-reviewed: false
+reviewed: true

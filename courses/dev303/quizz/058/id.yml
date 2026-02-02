@@ -1,0 +1,8 @@
+question: Ketika membuat makro seperti fungsi kustom yang perlu menangani sejumlah argumen input yang berbeda, penentu fragmen dan kombinasi pola pengulangan mana yang paling tepat?
+answer: Gunakan $($x:expr),* untuk mencocokkan nol atau lebih ekspresi yang dipisahkan oleh koma
+wrong_answers:
+  - Gunakan $($x:ident)+ untuk mencocokkan satu atau beberapa pengenal tanpa pemisah
+  - Gunakan $($x:ty);* untuk mencocokkan nol atau lebih tipe yang dipisahkan dengan titik koma
+  - Gunakan $($x:expr)? untuk mencocokkan ekspresi tunggal opsional tanpa pengulangan
+explanation: |
+  Pola $($x:expr),* dirancang khusus untuk makro argumen variabel, di mana expr cocok dengan ekspresi apa pun dan sintaks ,* menangani pengulangan nol atau lebih yang dipisahkan dengan koma. Ini adalah apa yang dibutuhkan untuk makro seperti vec! yang dapat menerima berbagai jumlah argumen. Pilihan-pilihan lain tidak benar karena: ident hanya cocok dengan pengenal (bukan ekspresi lengkap), ty cocok dengan tipe (bukan nilai), dan ? cocok dengan item-item tunggal opsional daripada pengulangan variabel.

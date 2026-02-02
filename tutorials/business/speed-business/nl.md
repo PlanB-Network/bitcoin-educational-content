@@ -371,7 +371,7 @@ Maak in het **Developers** menu je publieke en private sleutels aan om de Speed 
 
 
 
-Vind de volledige [documentatie] (https://apidocs.tryspeed.com/reference/introduction) voor een betere integratie van Speed Business.
+Vind de volledige [documentatie](https://apidocs.tryspeed.com/reference/introduction) voor een betere integratie van Speed Business.
 
 
 

@@ -1,0 +1,9 @@
+question: Normal çalışan bir gözetleme kulesi koruduğu kanal hakkında ne çıkarabilir?
+answer: Durumunun ne sıklıkla güncellendiği
+wrong_answers:
+  - Liquidity tahsisi
+  - Kapasitesi
+  - Gider politikası
+explanation: |
+  Her yeni durum için şifrelenmiş paketler alır ve yalnızca normal faaliyet oranını ortaya çıkarır.
+reviewed: false

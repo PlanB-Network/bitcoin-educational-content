@@ -198,7 +198,7 @@ Address 和顯示的歡迎訊息將會消失。現在不再需要開啟自動頻
 
 
 
-- 使用潛水艇交換服務，將一些 Sats 交換回您的 onchain Wallet。這樣您就不會花掉您的 Sats，而是把它交還給您自己鏈上的 Wallet。您可以在 [Blixt Guides Page] (https://blixtwallet.github.io/guides) 中看到一些詳細的方法。
+- 使用潛水艇交換服務，將一些 Sats 交換回您的 onchain Wallet。這樣您就不會花掉您的 Sats，而是把它交還給您自己鏈上的 Wallet。您可以在 [Blixt Guides Page](https://blixtwallet.github.io/guides) 中看到一些詳細的方法。
 
 
 

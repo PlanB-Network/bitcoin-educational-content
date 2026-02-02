@@ -1,5 +1,6 @@
 ---
 term: CISA
+definition: 將一筆交易的所有輸入簽名合併為一個簽名的技術方案，旨在減小交易體積和降低手續費。
 ---
 
 Cross-Input Signature Aggregation」的縮寫。這是一項技術提案，旨在透過減少驗證 Bitcoin 交易所需的簽章數量來優化 Bitcoin 交易的大小。

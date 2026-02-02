@@ -175,9 +175,9 @@ Till exempel, om en pool hittar ett block och vinner 6,25 bitcoins, skulle en Mi
 ### Programvara som används av branschen
 
 
-I samband med Bitcoin Mining är mjukvarans roll lika avgörande som hårdvarans. Ett exempel på detta illustreras av Bitmain, en produktiv tillverkare som utvecklade Antminer S9. Förutom Mining-hårdvara är branschen starkt beroende av Mining-pooler som samarbetar, till exempel Brainspool, som kontrollerar cirka 5% av det globala Hashrate i Bitcoin-nätverket.
+I samband med Bitcoin Mining är mjukvarans roll lika avgörande som hårdvarans. Ett exempel på detta illustreras av Bitmain, en produktiv tillverkare som utvecklade Antminer S9. Förutom Mining-hårdvara är branschen starkt beroende av Mining-pooler som samarbetar, till exempel Braiinspool, som kontrollerar cirka 5% av det globala Hashrate i Bitcoin-nätverket.
 
-Aktörerna i denna bransch strävar ständigt efter att öka effektiviteten genom hård- och mjukvara. En populär programvara som används i detta sammanhang är till exempel BrainsOS Plus. Denna mjukvara ersätter det ursprungliga operativsystemet i Mining-maskinen, vilket gör att samma operationer kan utföras mer effektivt. Med en sådan programvara kan en Miner öka effektiviteten i sin maskin med 25%. Det innebär att för en motsvarande mängd elektricitet kan maskinen producera ytterligare 25 % Hashrate, vilket ökar belöningen som Miner får. Denna mjukvaruoptimering är en viktig del av konkurrenskraften i Bitcoin Mining, vilket visar vikten av en integrerad strategi som kombinerar förbättringar av både hårdvara och mjukvara för att maximera effektiviteten och avkastningen.
+Aktörerna i denna bransch strävar ständigt efter att öka effektiviteten genom hård- och mjukvara. En populär programvara som används i detta sammanhang är till exempel BraiinsOS Plus. Denna mjukvara ersätter det ursprungliga operativsystemet i Mining-maskinen, vilket gör att samma operationer kan utföras mer effektivt. Med en sådan programvara kan en Miner öka effektiviteten i sin maskin med 25%. Det innebär att för en motsvarande mängd elektricitet kan maskinen producera ytterligare 25 % Hashrate, vilket ökar belöningen som Miner får. Denna mjukvaruoptimering är en viktig del av konkurrenskraften i Bitcoin Mining, vilket visar vikten av en integrerad strategi som kombinerar förbättringar av både hårdvara och mjukvara för att maximera effektiviteten och avkastningen.
 
 
 ### Reglering och eltariffer
@@ -692,7 +692,7 @@ Lista över utrustning och länkar
 
 - [Elektrikerns socker 2,5 mm²](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS)
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
-- [ANTELA smart plug (tillval)] (https://www.amazon.fr/dp/B09YYMVXJZ)
+- [ANTELA smart plug (tillval)](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
 # Attakai - Modifiering av programvaran i en Antminer S9
@@ -783,7 +783,7 @@ Denna metod kan tillämpas mellan 2 minuter och 10 minuter efter att Miner har s
 Den ursprungliga programvaran som installerades av Antminer på deras Mining-maskiner är begränsad i funktionalitet. Därför kommer vi i den här guiden att installera en annan programvara som heter BraiinsOS+. Det är en tredjepartsprogramvara som utvecklats av den allra första Bitcoin Mining pool som har fler funktioner och gör det till exempel möjligt att ändra maskinens effekt.
 
 
-Det finns flera sätt att installera Braiins OS+ på en ASIC. Du kan hänvisa till den här guiden samt [den officiella Braiins-dokumentationen] (https://academy.braiins.com/en/braiins-os/about/).
+Det finns flera sätt att installera Braiins OS+ på en ASIC. Du kan hänvisa till den här guiden samt [den officiella Braiins-dokumentationen](https://academy.braiins.com/en/braiins-os/about/).
 
 
 Här kommer vi att se hur du enkelt installerar Braiins OS+ direkt på minnet i din Antminer med hjälp av BOS toolbox-programvaran, som ersätter det ursprungliga operativsystemet, genom de detaljerade stegen nedan.

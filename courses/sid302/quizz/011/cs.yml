@@ -1,0 +1,8 @@
+question: Co se stane, když poskytovatel služeb zaplatí fakturu za bleskovou výměnu Liquid za bleskovou výměnu s použitím HTLC?
+answer: Poskytovatel obdrží předobraz z bleskové platby, který pak může použít k odblokování a vyžádání L-BTC od HTLC
+wrong_answers:
+  - Poskytovatel musí počkat na vypršení časového zámku, než bude mít přístup k L-BTC uzamčenému ve smlouvě HTLC
+  - "Klient automaticky obdrží předobraz a použije jej k uvolnění L-BTC přímo do Liquid wallet poskytovatele"
+  - Smlouva HTLC se automaticky provede a převede L-BTC poskytovateli bez nutnosti dalšího kryptografického důkazu
+explanation: |
+  HTLC vytvářejí atomické výměny prostřednictvím kryptografické vazby s použitím stejného hashovacího zámku v obou sítích. Když poskytovatel úspěšně zaplatí fakturu Lightning, získá předobraz (tajemství), který odpovídá hash zámku. Tento předobraz je kryptografický klíč, který jim umožňuje odemknout L-BTC, který byl předtím uzamčen v HTLC. Ostatní možnosti jsou nesprávné, protože neodrážejí atomickou povahu HTLC - časový zámek je pouze záložní mechanismus, klienti nezpracovávají distribuci preimage a HTLC vyžadují aktivní kryptografický důkaz, nikoli automatické provedení.

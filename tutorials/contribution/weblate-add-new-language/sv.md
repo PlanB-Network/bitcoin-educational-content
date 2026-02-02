@@ -14,7 +14,7 @@ Vår webbplats erbjuder för närvarande en rad olika språk, och vi arbetar kon
 Om ditt modersmål ännu inte finns tillgängligt på vår webbplats och du vill lägga till det, är den här handledningen något för dig!
 
 
-Se först till att kontakta Plan ₿ Academy-teamet via vår [Telegram-grupp] (https://t.me/PlanBNetwork_ContentBuilder). Om du inte har Telegram kan du skicka ett e-postmeddelande till mari@planb.network. Se till att skriva en liten presentation om vem du är och vilka språk du talar.
+Se först till att kontakta Plan ₿ Academy-teamet via vår [Telegram-grupp](https://t.me/PlanBNetwork_ContentBuilder). Om du inte har Telegram kan du skicka ett e-postmeddelande till mari@planb.network. Se till att skriva en liten presentation om vem du är och vilka språk du talar.
 
 
 ## Kontrollera om ett språk finns på Weblate
@@ -24,7 +24,7 @@ För att kontrollera om ditt språk redan finns med bland de språk vi arbetar m
 
 
 
-- Gå till [vår Weblate-plattform] (https://weblate.planb.network/projects/planb-network-website/):
+- Gå till [vår Weblate-plattform](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 
@@ -61,7 +61,7 @@ Om ditt språk inte finns där, följ anvisningarna nedan för att lägga till d
 ![language](assets/04.webp)
 
 
-- Öppna rullgardinsmenyn och välj det språk du vill lägga till. Om språket du letar efter inte finns i rullgardinsmenyn kan du kontakta [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder) så att vårt team kan skapa det manuellt:
+- Öppna rullgardinsmenyn och välj det språk du vill lägga till. Om språket du letar efter inte finns i rullgardinsmenyn kan du kontakta [Telegramgruppen](https://t.me/PlanBNetwork_ContentBuilder) så att vårt team kan skapa det manuellt:
 
 ![language](assets/05.webp)
 

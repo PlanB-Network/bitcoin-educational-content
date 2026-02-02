@@ -286,6 +286,14 @@ LNURL 方法是最簡單的。大多數 Lightning 錢包中都有這種方法，
 ![BULL](assets/fr/36.webp)
 
 
+## 啟動自動定期購買 (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## 建立限價訂單
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 現在您知道如何使用 Bull Bitcoin 輕鬆買賣 Bitcoin。如果您發現本教程有用，我將非常感激，如果你把下面的Green拇指。歡迎在您的社交網絡上分享這篇文章。非常感謝
 
 

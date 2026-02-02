@@ -1,0 +1,9 @@
+question: Bir hile girişimi tespit ettiğinde Watchtower'ın rolü nedir?
+answer: Ceza işlemini yayınlayın
+wrong_answers:
+  - Kanalı işbirliği içinde kapatın
+  - Fonları dondurun
+  - Bitcoin Çekirdeğine eş raporlayın
+explanation: |
+  Gözetleme kulesi ceza işlemini kullanıcı adına otomatik olarak yayınlar.
+reviewed: false

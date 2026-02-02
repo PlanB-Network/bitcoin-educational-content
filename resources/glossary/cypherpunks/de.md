@@ -1,6 +1,7 @@
 ---
-term: CYPHERPUNKS
+term: Cypherpunks
 
+definition: Gemeinschaft, welche die Kryptografie als Mittel zum Schutz der individuellen Freiheiten im Internet fördert.
 ---
 Eine informelle und internationale Gemeinschaft von Einzelpersonen, die sich für den Einsatz von Kryptographie als Mittel zur Gewährleistung der individuellen Freiheiten im Internet einsetzen. Cypherpunks setzen sich für das Grundrecht des Einzelnen auf Schutz seiner Privatsphäre ein, insbesondere vor dem Hintergrund zunehmender staatlicher Überwachung und Datenausbeutung durch private Unternehmen. Ihr Name leitet sich von den englischen Wörtern *cypher*, was "Geheimcode" bedeutet, und *punk* ab. Er ist eine Anspielung auf den Begriff *Cyberpunk*, der ein literarisches Genre beschreibt, das eine dystopische Zukunft beschreibt, in der Spitzentechnologie mit Laster und Verbrechen in einer zerfallenden Gesellschaft verwoben ist.
 

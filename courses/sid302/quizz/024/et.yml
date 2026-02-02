@@ -1,0 +1,8 @@
+question: Milline on Liquid varahaldusplatvormi (AMP) peamine tehniline mehhanism, mis hoiab ära ühekordse ebaõnnestumise korral võetavad meetmed, säilitades samal ajal regulatiivse kontrolli tokeniseeritud varade üle?
+answer: Mitme allkirjaga volitamine, mis nõuab mitme osapoole nõusolekut vastavusmeetmetele, nagu rahaliste vahendite külmutamine või žetoonide taasväljastamine
+wrong_answers:
+  - Smart contract juhtimismärgid, mis võimaldavad kogukonnale hääletamist kõigi vastavusotsuste ja regulatiivse jõustamise üle
+  - Ajaliselt lukustatud hoiustamiskontod, mis täidavad automaatselt nõuetele vastavuse meetmeid pärast eelnevalt kindlaks määratud ooteaegade lõppemist
+  - Krüptograafiline konsensus, mille puhul valideerijad peavad enne mis tahes vastavustõendamistoimingu sooritamist jõudma enamuse nõusolekuni
+explanation: |
+  AMP kasutab mitme allkirja kontrolli, et tagada, et nõuetele vastavuse meetmed nõuavad mitme osapoole luba, mis takistab üksikutel töötajatel ühepoolselt tegutseda. See loob tundlike toimingute jaoks kontrolli- ja tasakaalusüsteemi, säilitades samal ajal institutsionaalsete varade puhul nõutava regulatiivse järelevalve. Valed vastused kirjeldavad mehhanisme, mida AMPs kas ei ole või mis ei oleks reguleeritud finantseeskirjade järgimiseks sobivad.

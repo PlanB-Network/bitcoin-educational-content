@@ -1,0 +1,9 @@
+question: ¿Qué ocurre cuando los usuarios externalizan la verificación de sus transacciones de Bitcoin a terceros en lugar de ejecutar sus propios nodos completos?
+answer: La descentralización de Bitcoin se debilita a medida que menos personas aplican las normas de la red de forma independiente
+wrong_answers:
+  - Las transacciones de Bitcoin son más rápidas y eficaces para todos los participantes en la red
+  - La red Bitcoin crea automáticamente más nodos mining para compensar la validación perdida
+  - Los servicios de terceros adquieren la capacidad de crear nuevos bitcoins más allá del calendario normal de emisión
+explanation: |
+  Cuando los usuarios no gestionan sus propios nodos completos, delegan en otros el poder de hacer cumplir las normas de Bitcoin. Esto debilita la descentralización de Bitcoin porque hay menos partes independientes que validen las transacciones y los bloques. Esto debilita la descentralización de Bitcoin porque menos partes independientes validan las transacciones y los bloques. Como explica David Harding, esto crea una situación en la que un pequeño número de mineros y proveedores de servicios podrían cambiar las reglas de Bitcoin para los usuarios no verificadores, mientras que esos usuarios no podrían realizar transacciones con personas que ejecuten nodos de validación completa que rechacen esos cambios en las reglas.
+reviewed: false

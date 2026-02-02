@@ -1,0 +1,9 @@
+question: Wie lautet die mathematische Wahrscheinlichkeitsformel für einen unehrlichen Miner mit einer Hash-Rate von x Prozent, erfolgreiches Fee-Sniping durch Re-mining des vorherigen Blocks plus eines neuen Blocks durchzuführen?
+answer: (x/(1-x))^2
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x/(1-x)^2
+explanation: |
+  Die korrekte Formel lautet (x/(1-x))^2, da ein Schürfer beim "fee sniping" zwei aufeinanderfolgende Blöcke erfolgreich schürfen muss, um den vorherigen Block zu ersetzen und die Kette zu verlängern. Die Wahrscheinlichkeit, dass mining einen Block gegen ehrliche Schürfer gewinnt, ist x/(1-x), und da zwei Blöcke nacheinander geschürft werden müssen, wird diese Wahrscheinlichkeit quadriert. Die anderen Formeln sind mathematisch plausibel, stellen aber verschiedene Wahrscheinlichkeitsszenarien dar, die nicht den spezifischen Anforderungen des Fee Sniping entsprechen, bei dem der unehrliche Miner das ehrliche Netzwerk zweimal hintereinander überwinden muss.
+reviewed: false

@@ -1,20 +1,18 @@
 ---
-name: Utafiti wa mfumuko wa bei
+name: Masomo ya Kesi za Mfumuko Mkubwa wa Bei
 goal: Kuelewa kuibuka kwa mfumuko wa bei katika ulimwengu wa pesa za Fiat money (pesa za serikali) na matokeo yao
-objectives: 
-
-  - Soma mizunguko ya mfumuko wa bei
-  - Kuelewa athari halisi za mfumuko wa bei kwenye maisha yetu ya kila siku
-  - Jifunze kufanana kwa mfumuko wa bei kwa wakati wote
-  - Kuwa na wazo halisi la jinsi ya kujikinga na mfumuko wa bei
-
+objectives:
+- Soma mizunguko ya mfumuko wa bei
+- Kuelewa athari halisi za mfumuko wa bei kwenye maisha yetu ya kila siku
+- Jifunze kufanana kwa mfumuko wa bei kwa wakati wote
+- Kuwa na wazo halisi la jinsi ya kujikinga na mfumuko wa bei
 ---
-# Safari ya kuingia kwenye uchumi
+# Safari Kupitia Kuanguka kwa Uchumi
 
-Mpango huu unalenga kutoa uelewa wa kina wa kuibuka kwa mfumuko wa bei katika ulimwengu unaotawaliwa na sarafu ya Fiat money (pesa za serikali) na kuchunguza matokeo yao muhimu. Washiriki watachunguza mizunguko ya mfumuko wa bei kwa undani, wakichanganua sababu, vichochezi, na mifano ya kihistoria na ya kisasa. Pia watachunguza athari zinazoonekana za mfumuko wa bei kwenye uchumi na maisha ya kila siku, wakisoma athari kwenye thamani ya sarafu, uwezo wa kununua, na akiba ya mtu binafsi na ya pamoja.
+Inaonekana vipi pesa zinapopoteza maana yake?
+Kozi hii inakuongoza kupitia ulimwengu wa kuvutia lakini wa kuonya wa mfumuko mkubwa wa bei. Utagundua matukio ya kihistoria na kesi za kisasa ambapo sarafu zilianguka na uchumi ulibadilika usiku mmoja. Utafichua mifumo, sababu, na athari halisi kwa watu wa kawaida, ukipata ufahamu wa moja ya matukio ya kushangaza zaidi ya uchumi.
 
-Hapa, tutaangazia mitindo na mifumo ya kawaida katika vipindi vya mfumuko mkubwa wa bei katika historia yote, huku tukitoa mikakati madhubuti na thabiti ya kujilinda katika vipindi vya hyperinflation (mfuko mkubwa wa bei). Washiriki watakuwa na fursa ya kuchunguza chaguzi mbalimbali za uwekezaji (investment) na mbinu za Ulinzi wa kifedha (financial protection), kupata zana za vitendo na ujuzi muhimu ili kuzunguka kwa utulivu katika Hali ya kiuchumi isiyo imara (economic instability).
-
+Njiani, pia utagundua jinsi watu binafsi na jamii walivyopitia vipindi hivi vya msukosuko. Jifunze mikakati iliyosaidia kulinda utajiri wakati wa migogoro ya fedha na ujenga uelewa wa kina wa ustahimilivu wa kifedha. Ikiwa una hamu ya kujua nguvu za kiuchumi zinazosawazisha ulimwengu wetu, safari hii inatoa maarifa na mtazamo wa vitendo.
 +++
 # Utangulizi
 
@@ -320,7 +318,7 @@ Mfano wa kielelezo wa MMT ni tata ya kijeshi na viwanda ya Marekani. Kulingana n
 
 Japani mara nyingi hutajwa na watetezi wa MMT kama mfano mwingine wa kutokuwepo kwa mfumuko wa bei licha ya uchapishaji mkubwa wa fedha. Hata hivyo, hali nchini Japani pia inaangazia vikwazo vya hatua za jadi za mfumuko wa bei kama vile Fahirisi ya Bei ya Watumiaji (CPI). Huko Japan, sehemu kubwa ya pesa zilizochapishwa huhifadhiwa au kuwekezwa katika soko la mali isiyohamishika au soko la hisa, badala ya kutumika katika uchumi wa sasa wa matumizi. CPI, kwa kutokamata kikamilifu mienendo hii, inaweza kudharau mfumuko wa bei halisi.
 
-Uchanganuzi wa Japani (https://ideas.repec.org/p/ces/ceswps/_9821.html) pia unaonyesha kuwa tabia ya mawakala wa kiuchumi, kama vile kuokoa au kuwekeza katika mali ambayo haijajumuishwa katika CPI, inaweza kuficha athari ya mfumuko wa bei ya uchapishaji wa kifedha. Zaidi ya hayo, uwezo wa sekta mbalimbali kunyonya ukwasi unaodungwa una jukumu muhimu katika iwapo mfumuko wa bei hutokea au la.
+[Uchambuzi wa Japani](https://ideas.repec.org/p/ces/ceswps/_9821.html) pia unaangazia kwamba tabia ya wahusika wa kiuchumi, kama vile kuweka akiba au kuwekeza katika mali zisizojumuishwa katika CPI, inaweza kuficha athari ya mfumuko wa bei inayotokana na uchapishaji wa fedha. Aidha, uwezo wa sekta mbalimbali kunyonya ukwasi uliodungwa una jukumu muhimu katika kujitokeza au kutokujitokeza kwa mfumuko wa bei.
 
 #### Mizani ya Benki na Benki Kuu
 

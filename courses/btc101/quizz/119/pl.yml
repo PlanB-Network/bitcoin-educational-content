@@ -1,13 +1,10 @@
 question: Czym jest transakcja Bitcoin?
-answer: Transfer Ownership bitcoinów przy użyciu kryptografii.
+answer: Transfer własności bitcoinów przy użyciu kryptografii.
 wrong_answers:
-  - Fizyczny Exchange bitcoinów przy użyciu notariusza.
-  - Transfer Ownership bitcoinów przy użyciu fizycznego Address.
-  - Przelew Ownership bitcoinów przy użyciu adresu e-mail Address.
+  - Fizyczna wymiana bitcoinów przy użyciu notariusza.
+  - Transfer własności bitcoinów przy użyciu adresu fizycznego.
+  - Transfer własności bitcoinów przy użyciu adresu e-mail.
 explanation: |
-  Transakcja Bitcoin jest cyfrowym transferem
-  Ownership bitcoinów, poprzez wykorzystanie Bitcoin Address
-  uzyskanego dzięki kryptografii krzywej eliptycznej. Ten
-  Address jest unikalny dla Wallet osoby otrzymującej bitcoiny
-  bitcoiny.
+  Transakcja Bitcoin jest cyfrowym transferem własności bitcoinów, poprzez wykorzystanie adresu Bitcoin
+  uzyskanego dzięki kryptografii krzywej eliptycznej. Adres ten jest unikalny dla portfela osoby otrzymującej bitcoiny.
 reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Criptografía integrativa
 explanation: |
   La criptografía asimétrica se basa en el uso de un par de claves, pública y privada, permitiendo la encriptación sin compartir una clave secreta.
-reviewed: false
+reviewed: true

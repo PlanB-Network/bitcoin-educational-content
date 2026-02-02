@@ -1,6 +1,7 @@
 ---
-term: UNIX TIME
+term: Unix-aika
 
+definition: Vuoden 1970 tammikuun 1. päivän keskiyöstä UTC kuluneiden sekuntien määrä, jota käytetään Bitcoinin ajanhallinnassa.
 ---
 Unix-aika tai Unix-aikaleima edustaa sekuntien lukumäärää, joka on kulunut 1. tammikuuta 1970 keskiyöstä UTC (Unix-aikakausi). Tätä järjestelmää käytetään Unix-käyttöjärjestelmissä ja niiden johdannaisissa merkitsemään aikaa yleismaailmallisella ja standardoidulla tavalla. Se mahdollistaa kellojen synkronoinnin ja aikapohjaisten tapahtumien hallinnan aikavyöhykkeistä riippumatta.
 

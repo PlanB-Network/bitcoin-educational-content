@@ -1,0 +1,9 @@
+question: อุปกรณ์ใดที่แนะนำสำหรับการรักษาความปลอดภัยของเงินทุนที่สะสมในระยะยาว?
+answer: ฮาร์ดแวร์ wallet
+wrong_answers:
+  - Hot wallet
+  - Lightning wallet
+  - Exchange platform
+explanation: |
+  ฮาร์ดแวร์ wallet เก็บคีย์ส่วนตัวแบบออฟไลน์ มอบความปลอดภัยที่เพิ่มขึ้นสำหรับจำนวนเงินที่มีนัยสำคัญในระยะยาว
+reviewed: false

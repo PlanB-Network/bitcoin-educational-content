@@ -47,7 +47,7 @@ Bu eğitimin amacı, günlük olarak kullandığınız araçlarda ustalaşmanız
 
 Bitcoin cüzdanlarının yapımı ve işleyişinin ayrıntılarına girmeden önce, bundan sonrası için bilinmesi gereken kriptografik ilkellere ilişkin birkaç bölümle başlayacağız.
 
-Hem cüzdanlar hem de Bitcoin protokolünün kendisi için temel olan kriptografik Hash işlevleriyle başlayacağız. Ana özelliklerini, Bitcoin'de kullanılan belirli işlevleri keşfedecek ve daha teknik bir bölümde, Hash işlevlerinin kraliçesinin işleyişi hakkında ayrıntılı bilgi edineceksiniz: SHA256.
+Hem cüzdanlar hem de Bitcoin protokolünün kendisi için temel olan kriptografik Hash işlevleriyle başlayacağız. Ana özelliklerini, Bitcoin'de kullanılan belirli işlevleri keşfedecek ve daha teknik bir bölümde, Hash işlevlerinin kraliçesinin işleyişi hakkında ayrıntılı bilgi edineceksiniz: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
@@ -65,7 +65,7 @@ Kriptografinin bu Elements'sini iyi bir şekilde anladıktan sonra, nihayet eği
 ![CYP201](assets/en/003.webp)
 
 
-Eğitim BIP39 passphrase, seed (Mnemonic ifadesiyle karıştırılmamalıdır), ana chain code ve ana anahtarın incelenmesiyle devam edecektir. Bu Elements'in ne olduğunu, ilgili rollerini ve nasıl hesaplandıklarını ayrıntılı olarak göreceğiz.
+Eğitim [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase, seed (Mnemonic ifadesiyle karıştırılmamalıdır), ana chain code ve ana anahtarın incelenmesiyle devam edecektir. Bu Elements'in ne olduğunu, ilgili rollerini ve nasıl hesaplandıklarını ayrıntılı olarak göreceğiz.
 
 
 ![CYP201](assets/en/004.webp)
@@ -949,7 +949,7 @@ Bu nedenle, Bitcoin işlemi yapmak isteyen bir kullanıcı, işlem üzerinde ken
 Sonuç olarak, açık anahtarla kilitlenmiş bitcoinlere sahip olan bir kullanıcı, fonlarının kilidini açmaya izin veren şeyi güvenli bir şekilde saklamanın bir yolunu bulmalıdır: özel anahtar. Bitcoin Wallet tam olarak tüm anahtarlarınızı başkalarının erişimi olmadan kolayca saklamanızı sağlayacak bir cihazdır. Bu nedenle Wallet'dan çok bir anahtarlığa benzer.
 
 
-Bir açık anahtar ile bir özel anahtar arasındaki matematiksel bağlantı ve bir özel anahtara sahip olunduğunun ifşa edilmeden kanıtlanması için imza atılabilmesi, bir dijital imza algoritması ile mümkün olmaktadır. Bitcoin protokolünde iki imza algoritması kullanılır: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) ve **Schnorr imza şeması**. ECDSA, başlangıcından itibaren Bitcoin'de kullanılan dijital imza protokolüdür. Schnorr, Kasım 2021'de Taproot güncellemesiyle tanıtıldığı için Bitcoin'de daha yenidir.
+Bir açık anahtar ile bir özel anahtar arasındaki matematiksel bağlantı ve bir özel anahtara sahip olunduğunun ifşa edilmeden kanıtlanması için imza atılabilmesi, bir dijital imza algoritması ile mümkün olmaktadır. Bitcoin protokolünde iki imza algoritması kullanılır: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) ve **Schnorr imza şeması**. ECDSA, başlangıcından itibaren Bitcoin'de kullanılan dijital imza protokolüdür. Schnorr, Kasım 2021'de Taproot güncellemesiyle tanıtıldığı için Bitcoin'de daha yenidir.
 
 Bu iki algoritma mekanizmaları açısından oldukça benzerdir. Her ikisi de eliptik eğri kriptografisine dayanmaktadır. Bu iki protokol arasındaki en büyük fark imzanın yapısında ve bazı özel matematiksel özelliklerde yatmaktadır. Bu nedenle, en eskisinden başlayarak bu algoritmaların işleyişini inceleyeceğiz: ECDSA.
 
@@ -2749,20 +2749,22 @@ Bir kullanıcı bitcoin aldığında, gönderen bir UTXO oluşturur ve bunu bir 
 Alıcı adresleri tam olarak *scriptPubKey* içinde bulunur. Ancak, bunların kullanımı benimsenen komut dosyası standardına bağlı olarak değişir. Burada, kullanılan standarda göre *scriptPubKey* içinde bulunan bilgilerin ve *scriptPubKey* kilidini açmak için *scriptSig* içinde beklenen bilgilerin bir özet tablosu bulunmaktadır.
 
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Arbitrary data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Kaynak: Bitcoin core PR inceleme kulübü, 7 Temmuz 2021 - Gloria Zhao*
 
+
+| Standart             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ---------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Keyfi veriler | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Kaynak: 7 Temmuz 2021 Bitcoin Core PR inceleme kulübü – Gloria Zhao_
 
 Bir betikte kullanılan işlem kodları, bilgiyi işlemek ve gerekirse karşılaştırmak veya test etmek için tasarlanmıştır. Aşağıdaki gibi bir P2PKH betiği örneğini ele alalım:
 

@@ -1,6 +1,7 @@
 ---
 term: HMAC-SHA512
 
+definition: Thuật toán mã hóa được sử dụng để tạo khóa trong ví HD Bitcoin.
 ---
 `HMAC-SHA512` stands for "Hash-based Message Authentication Code - Secure Hash Algorithm 512". It is a cryptographic algorithm used to verify the integrity and authenticity of messages exchanged between two parties. It combines the cryptographic hash function `SHA512` with a shared secret key to generate a unique Message Authentication Code (MAC) for each message.
 

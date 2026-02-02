@@ -1,5 +1,6 @@
 ---
-term: ADRESSE STATIQUE
+term: Adresse statique
+definition: Identifiant unique des Silent Payments permettant de recevoir des paiements sans réutilisation d'adresse ni lien visible on-chain.
 ---
 
 Dans le cadre des Silent Payments, désigne un identifiant unique qui permet de recevoir des paiements sans pour autant produire de réutilisation d'adresse, sans interaction et sans lien visible on-chain entre les différents paiements et l'adresse statique. Cette technique élimine le besoin de générer de nouvelles adresses de réception vierges pour chaque transaction, ce qui permet d'éviter les interactions habituelles dans Bitcoin où le destinataire doit fournir une nouvelle adresse au payeur. C'est un peu l'équivalent du code de paiement réutilisable dans le cadre du BIP47.

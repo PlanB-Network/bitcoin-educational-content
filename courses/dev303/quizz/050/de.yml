@@ -1,0 +1,8 @@
+question: Was ist das größte Risiko bei der Verwendung von RC<RefCell<T>> für gemeinsam genutzte veränderbare Zustände, und welcher Mechanismus hilft, dies zu verhindern?
+answer: Referenzzyklen, die Speicherlecks verursachen, werden durch die Verwendung schwacher Referenzen verhindert
+wrong_answers:
+  - Datenwettläufe zwischen Threads, verhindert durch Verwendung von Mutex anstelle von RefCell
+  - Laufzeitpanik aufgrund von Ausleihverstößen, verhindert durch Kompilierzeitprüfung
+  - Stapelüberlauf durch tiefe Rekursion, verhindert durch Begrenzung der Referenztiefe
+explanation: |
+  Bei der Verwendung von RC<RefCell<T>> besteht die Hauptgefahr darin, Referenzzyklen zu erzeugen, in denen Datenstrukturen sich selbst direkt oder über Ketten referenzieren. Diese Zyklen verhindern, dass die Referenzanzahl Null erreicht, was zu Speicherlecks führt, da die Daten anscheinend immer aktive Referenzen haben. Schwache Referenzen lösen dieses Problem, indem sie nicht zur Referenzzählung für die Speicherverwaltung beitragen und so Zyklen unterbrechen, während Verbindungen erhalten bleiben. Die anderen Optionen sind falsch: RC<RefCell<T>> ist nicht thread-sicher, so dass Data Races nicht das Hauptproblem sind, RefCell verlagert speziell Prüfungen zur Laufzeit, anstatt sie zur Kompilierzeit zu verhindern, und Stack Overflow hat nichts mit dem Mechanismus der Referenzzählung zu tun.

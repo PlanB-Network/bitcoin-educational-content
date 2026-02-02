@@ -1,0 +1,8 @@
+question: Apa yang menentukan jumlah biaya transaksi dalam transaksi Bitcoin selama proses konstruksi?
+answer: Selisih antara nilai total semua input dan nilai total semua output
+wrong_answers:
+  - Persentase tetap dari total nilai transaksi yang dihitung oleh protokol jaringan
+  - Ukuran transaksi dalam byte dikalikan dengan tarif standar yang ditetapkan oleh penambang
+  - Jumlah tanda tangan yang diperlukan di semua input ditambah biaya jaringan dasar
+explanation: |
+  Biaya transaksi Bitcoin ditentukan oleh selisih antara total input dan total output. Saat membuat transaksi, Anda memilih UTXO sebagai input dan membuat output untuk penerima dan perubahan. Jumlah yang tersisa akan menjadi biaya yang memberi insentif kepada penambang untuk memasukkan transaksi Anda. Biaya tidak dihitung berdasarkan persentase, tarif tetap, atau jumlah tanda tangan - biaya ini hanyalah jumlah yang tidak teralokasikan dalam saldo nilai transaksi.

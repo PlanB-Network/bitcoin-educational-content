@@ -1,0 +1,8 @@
+question: Wat gebeurt er als een variabele buiten bereik gaat in Rust's eigendomssysteem?
+answer: De waarde wordt automatisch verwijderd en het geheugen wordt vrijgemaakt
+wrong_answers:
+  - De waarde wordt verplaatst naar het globale bereik voor hergebruik
+  - De waarde wordt onveranderlijk en blijft in het geheugen
+  - De waarde wordt gekopieerd naar een back-uplocatie voor de veiligheid
+explanation: |
+  In het eigendomssysteem van Rust, wanneer een variabele uit scope gaat (typisch wanneer de uitvoering een blok, gedefinieerd door accolades, verlaat), wordt de waarde automatisch verwijderd en het geheugen vrijgemaakt. Dit automatisch opruimen wordt geïmplementeerd door Rust's drop mechanisme, waarbij de taal impliciet een drop functie aanroept op variabelen die uit scope gaan. Dit zorgt voor een goed beheer van bronnen zonder dat de programmeur expliciete opschooncode nodig heeft, volgens het RAII-patroon dat geleend is van C++.

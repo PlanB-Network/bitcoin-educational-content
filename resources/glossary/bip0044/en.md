@@ -1,5 +1,6 @@
 ---
 term: BIP0044
+definition: Standard defining the complete structure of derivation paths for HD wallets purpose, coin_type, account, change, and address_index.
 ---
 
 A proposal introducing a standardized hierarchical derivation structure for HD wallets. BIP44 builds on the principles established in BIP32 for key derivation and in BIP43 for using the purpose field. 

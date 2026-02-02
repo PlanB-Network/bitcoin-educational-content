@@ -1,0 +1,8 @@
+question: Quale tipo di errore dovrebbe scatenare il panico nei programmi Rust?
+answer: Errori irrecuperabili che indicano errori di logica di programmazione o stati non sicuri
+wrong_answers:
+  - Errori di connessione alla rete o di timeout da parte di servizi esterni
+  - Input utente non valido o file di configurazione mancanti
+  - Errori di file non trovati o eccezioni di autorizzazione negata
+explanation: |
+  I panic dovrebbero essere riservati agli errori irrecuperabili che rappresentano errori di programmazione o situazioni in cui il programma è entrato in uno stato non sicuro, come le violazioni dei limiti degli array o i problemi di sicurezza della memoria. Le risposte sbagliate descrivono tutte errori recuperabili: i guasti di rete, i problemi di input dell'utente e i problemi del file system sono condizioni attese che i programmi dovrebbero gestire con grazia usando i tipi di risultato piuttosto che andare in crash. Questi errori recuperabili consentono ai programmi di continuare a funzionare implementando strategie di gestione degli errori appropriate.

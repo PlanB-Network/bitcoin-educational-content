@@ -40,9 +40,9 @@ Ils proposent ainsi un matériel "plug-and-play", le RoninDojo Tanto, avec Ronin
 
 Le code de RoninDojo est open-source, il est donc également possible d'installer cette solution sur votre propre matériel. Cette option est économique mais elle requiert un petit peu plus de manipulations, c'est ce que nous allons faire dans cet article.
 
-RoninDojo est un Dojo, il permet donc d'intégrer facilement Whirlpool CLI à votre nœud Bitcoin afin de disposer de la meilleure expérience possible de CoinJoin. Grâce à Whirlpool CLI, non seulement vous pourrez laisser vos bitcoins se remixer 24h/24 7j/7 sans avoir besoin de laisser allumer votre ordinateur personnel, mais vous pourrez également améliorer fortement votre confidentialité.
+RoninDojo n'est pas un Dojo en lui-même, il permet l'intégration facile de Whirlpool CLI à votre nœud Bitcoin afin de disposer de la meilleure expérience possible de CoinJoin. Grâce à Whirlpool CLI, non seulement vous pourrez laisser vos bitcoins se remixer 24h/24 7j/7 sans avoir besoin de laisser allumer votre ordinateur personnel, mais vous pourrez également améliorer fortement votre confidentialité.
 
-RoninDojo intègre de nombreux autres outils qui vont venir s'appuyer sur votre Dojo comme par exemple : le calculateur Boltzmann qui permet de déterminer le degré de confidentialité d'une transaction, le serveur Electrum pour connecter vos différents portefeuilles Bitcoin à votre nœud ou encore le serveur Mempool pour observer vos transactions de façon privée.
+RoninDojo est une implémentation complète qui inclut plusieurs outils et services construits autour du Dojo afin de renforcer ses capacités. Par exemple, on peut cité : le calculateur Boltzmann qui permet de déterminer le degré de confidentialité d'une transaction, le serveur Electrum pour connecter vos différents portefeuilles Bitcoin à votre nœud ou encore le serveur Mempool pour observer vos transactions de façon privée.
 
 Par rapport à une autre solution de nœud comme Umbrel, que je vous ai présentée dans cet article, RoninDojo s'inscrit dans une ligne de développement profondément tournée vers les solutions "On Chain" et vers des outils permettant d'optimiser la confidentialité des utilisateurs. RoninDojo ne permet donc pas d'interagir avec le Lightning Network.
 
@@ -66,7 +66,7 @@ Etant donné que les équipes de RoninDojo produisent du code open-source, il es
 
 Personnellement, je l'ai installé sur un Raspberry Pi 4 8GO et tout fonctionne parfaitement.
 
-Attention tout de même, les équipes de RoninDojo nous indique qu'il y a souvent des problèmes à cause du boitier et de l'adaptateur du SSD. Il est donc déconseillé d'utiliser un boitier avec un câble pour le SSD de votre machine. Préférez plutôt utiliser une carte d'extension de stockage spécialement conçue pour votre carte mère comme celle-ci : Carte d'extension de stockage Raspberry Pi 4.
+Attention tout de même, les équipes de RoninDojo nous indique qu'il y a souvent des problèmes à cause du boitier et de l'adaptateur du SSD. Il est donc déconseillé d'utiliser un boitier avec un câble pour le SSD de votre machine. Préférez plutôt utiliser une carte d'extension de stockage spécialement conçue pour votre carte mère comme la Carte d'extension de stockage Raspberry Pi 4.
 
 Voici un exemple de mise en place pour faire votre propre nœud RoninDojo :
 
@@ -90,7 +90,7 @@ Téléchargez l'image disque qui correspond à votre matériel. Dans mon cas, j'
 
 ![Télécharger image disque RoninOS](assets/2.webp)
 
-Une fois l'image téléchargée, vérifiez son intégrité grâce au fichier en .SHA256 correspondant. Je vous décris en détail comment faire cela dans cet article : Comment vérifier l'intégrité d'un logiciel Bitcoin sous Windows ?
+Une fois l'image téléchargée, vérifiez son intégrité grâce au fichier en .SHA256 correspondant. Je vous explique en détail comment faire cela dans cet article : Comment vérifier l'intégrité d'un logiciel Bitcoin sous Windows ?
 
 Les instructions spécifiques à la vérification de l'intégrité de RoninOS sont également disponibles sur cette page en anglais : https://wiki.ronindojo.io/en/extras/verify.
 
@@ -106,11 +106,11 @@ Une fois que l'opération est terminée, vous pouvez insérer la micro SD bootab
 
 RoninOS est le système d'exploitation de votre nœud RoninDojo, C'est une version modifiée de Manjaro, une distribution Linux. Après avoir démarré votre machine et attendu quelques minutes, vous pourrez commencer sa configuration.
 
-Pour vous y connecter à distance, vous allez devoir trouver l'adresse IP de votre machine RoninDojo. Pour ce faire vous pouvez par exemple vous connecter au tableau d'administration de votre box internet, ou bien vous pouvez également télécharger un logiciel tel que https://angryip.org/ pour scanner votre réseau local et trouver l'IP de la machine.
+Pour vous connecter à distance, vous devez d’abord récupérer l'adresse IP de votre machine RoninDojo. Pour ce faire vous pouvez par exemple vous connecter au tableau d'administration de votre box internet, ou télécharger un logiciel comme Angry IP Scanner (https://angryip.org/) pour analyser votre réseau local et identifier l’adresse IP de la machine.
 
-Une fois l'IP trouvée, vous pourrez prendre la main sur votre machine depuis un autre ordinateur connecté au même réseau local en utilisant SSH.
+Une fois l’adresse IP trouvée, vous pourrez prendre la main sur votre machine depuis un autre ordinateur connecté au même réseau local en utilisant SSH.
 
-Depuis un ordinateur sous MacOS ou Linux, ouvrez simplement le terminal. Depuis un ordinateur sous Windows, vous pouvez utiliser un outil spécialisé comme Putty ou bien directement Windows PowerShell.
+Depuis un ordinateur sous MacOS ou Linux, ouvrez simplement le terminal. Depuis un ordinateur sous Windows, vous pouvez utiliser un outil spécialisé comme Putty ou directement Windows PowerShell.
 
 Une fois le terminal ouvert, tapez la commande suivante :
 
@@ -150,7 +150,7 @@ La configuration initiale de RoninOS va se faire. Une fois terminée comme sur l
 
 > ssh pseudo@192.168.?.?
 
-Remplacez y simplement "pseudo" par le nom d'utilisateur que vous avez choisi précédemment, ainsi que les points d'interrogation par l'IP de votre RoninDojo.
+Remplacez simplement "pseudo" par le nom d'utilisateur que vous avez choisi précédemment, et les points d'interrogation par l'IP de votre RoninDojo.
 
 Entrez ensuite votre mot de passe utilisateur.
 
@@ -158,13 +158,13 @@ Dans le terminal, cela donne ça :
 
 ![Connection SSH à RoninOS](assets/10.webp)
 
-Vous êtes maintenant connecté à votre machine qui dispose pour le moment simplement de RoninOS. Il va falloir maintenant y installer RoninDojo.
+Vous êtes maintenant connecté à votre machine, qui dispose pour l’instant uniquement de RoninOS. Il va maintenant falloir y installer RoninDojo.
 
 Téléchargez la dernière version de RoninDojo en entrant la commande suivante :
 
 > git clone https://code.samourai.io/ronindojo/RoninDojo
 
-Le téléchargement se fait rapidement. Cela vous donnera cela dans le terminal :
+Le téléchargement se fait rapidement. Vous obtiendrez ensuite ceci dans le terminal :
 
 ![Clonage de RoninDojo](assets/11.webp)
 
@@ -176,7 +176,7 @@ On va alors vous demander d'entrer votre mot de passe utilisateur :
 
 ![Vérification mot de passe du nœud Bitcoin](assets/12.webp)
 
-> Cette commande est nécessaire seulement la première fois que vous accédez à votre RoninDojo. Par la suite, pour accéder à RoninCLI via SSH, vous devrez simplement entrer la commande [SSH pseudo@192.168.?.?] en remplaçant "pseudo" par votre nom d'utilisateur et en mettant l'IP de votre nœud. On vous demandera votre mot de passe utilisateur.
+> Cette commande est nécessaire que la première fois que vous accédez à votre RoninDojo. Par la suite, pour accéder à RoninCLI via SSH, vous devrez simplement entrer la commande [SSH pseudo@192.168.?.?] en remplaçant "pseudo" par votre nom d'utilisateur et en mettant l'IP de votre nœud. On vous demandera votre mot de passe utilisateur.
 
 Ensuite vous verrez cette magnifique animation :
 
@@ -200,7 +200,7 @@ Enfin, cochez "System Setup" et "Install RoninDojo" en utilisant la barre d'espa
 
 Laissez l'installation se faire tranquillement. Dans mon cas cela a pris environ 2 heures. Laissez votre terminal ouvert durant l'opération.
 
-Regardez parfois votre terminal, on va vous demander de taper sur une touche à certains stades de l'installation comme ici par exemple :
+Jetez un œil de temps en temps sur votre terminal, il vous sera parfois demandé d’appuyer sur une touche à certaines étapes de l'installation comme ici par exemple :
 
 ![Installation RoninDojo en cours](assets/17.webp)
 
@@ -208,7 +208,7 @@ A la fin de l'installation, vous verrez les différents conteneurs démarrer :
 
 ![Lancement des conteneurs du nœud](assets/18.webp)
 
-Puis votre nœud va redémarrer. Connectez vous de nouveau à RoninCLI pour l'étape suivante.
+Puis votre nœud va redémarrer. Connectez-vous de nouveau à RoninCLI pour poursuivre avec l'étape suivante.
 
 ![Redémarrage du nœud Bitcoin](assets/19.webp)
 
@@ -244,7 +244,7 @@ Si le redémarrage sort une erreur, essayez de mettre à jour le système d'expl
 
 > System > Software Updates > Update Operating System
 
-Une fois la mise à jour et le redémarrage terminés, reconnectez vous à votre nœud via SSH puis réinstallez RoninUI :
+Une fois la mise à jour et le redémarrage terminés, reconnectez-vous à votre nœud via SSH puis réinstallez RoninUI :
 
 > RoninUI > Re-install
 
@@ -304,7 +304,7 @@ En type de serveur, sélectionnez "Private Electrum", puis entrez l'adresse Tor 
 
 ### Connecter ses logiciels de portefeuilles à Samourai Dojo.
 
-Plutôt que d'utiliser Electrs, vous pouvez également utiliser Samourai Dojo pour connecter votre portefeuille logiciel compatible à votre nœud RoninDojo. Par exemple, Samourai Wallet propose cette option.
+Plutôt que d'utiliser Electrs, vous pouvez également passer par Samourai Dojo pour connecter votre portefeuille logiciel compatible à votre nœud RoninDojo. Par exemple, Samourai Wallet propose cette option.
 
 Pour ce faire, il suffira de scanner le QR code de connexion de votre Dojo. Pour y accéder depuis RoninUI, cliquez sur l'onglet "Dashboard" puis sur le bouton "Manage" dans la case de votre Dojo. Vous pourrez ensuite voir les QR codes de connexion à votre Dojo et à BTC-RPC Explorer. Pour les mettre en clair, cliquez sur "Display values".
 
@@ -422,7 +422,7 @@ Encore une fois, si vous ne comprenez pas ces concepts d'Anon Sets, je vous cons
 
 ### Utiliser le calculateur Boltzmann.
 
-Le calculateur Boltzmann est un outil qui vous permet de calculer facilement différentes métriques avancées sur une transaction Bitcoin, et notamment son niveau d'entropie. Toutes ces données vous permettront de mettre des chiffres sur le niveau de confidentialité d'une transaction et de détecter d'éventuelles erreurs. Cet outil est préinstallé sur votre nœud RoninDojo.
+Le calculateur Boltzmann est un outil qui vous permet de calculer facilement diverses métriques avancées sur une transaction Bitcoin, et notamment son niveau d'entropie. Toutes ces données vous permettront de mettre des chiffres sur le niveau de confidentialité d'une transaction et de détecter d'éventuelles erreurs. Cet outil est préinstallé sur votre nœud RoninDojo.
 
 Pour y accéder depuis RoninCLI, connectez vous via SSH, puis allez dans le menu :
 
@@ -467,9 +467,9 @@ Cet indicateur est donc exprimé en bits. Par exemple, voici le calcul de l'entr
 
 Cette transaction Coinjoin dispose donc d'une entropie de 10.5469 bits, ce qui est très bien.
 
-Au plus cet indicateur est élevé, au plus il y a d'interprétations différentes de la transaction, et donc au plus la transaction est confidentielle.
+Plus cet indicateur est élevé, plus il y a d'interprétations différentes de la transaction, et donc plus la transaction est confidentielle.
 
-Prenons un autre exemple. Voici une transaction "classique" qui dispose d'un input et de deux outputs :
+Prenons un autre exemple. Voici une transaction "classique" qui dispose d'un (1) input et de deux (2) outputs :
 
 ![Transaction schéma bitcoin sur oxt.me](assets/34.webp)
 
@@ -521,7 +521,7 @@ Une efficacité de 100% veut donc dire que cette transaction a le plus de confid
 
 4. Le quatrième indicateur calculé est la densité de l'entropie ("Entropy Density"). Il permet de ramener l'entropie à chaque entrée ou sortie. Ainsi, on pourra utiliser cet indicateur pour comparer l'efficacité entre plusieurs transactions de tailles différentes.
 
-Son calcul est très simple, on va venir diviser l'entropie de la transaction par le nombre d'inputs et d'outputs qui y sont présents. Par exemple pour un Coinjoin de type Whirlpool 5x5 nous aurons :
+Son calcul est très simple, on divise l'entropie de la transaction par le nombre d'inputs et d'outputs présents. Par exemple pour un Coinjoin de type Whirlpool 5x5 nous aurons :
 
     ED : Densité de l'entropie exprimée en bits.
 
@@ -534,7 +534,7 @@ ED = E / T
 ED = 10.5469 / 10
 ED = 1.054 bits
 
-La cinquième information qui est fournie par le calculateur Boltzmann est le tableau de probabilités de liens entre les entrées et les sorties. Ce tableau vous donnera simplement la probabilité (score de Boltzmann) qu'une entrée donnée corresponde à une sortie donnée.
+Le cinquième indicateur fourni par le calculateur Boltzmann est le tableau de probabilités des liens entre les inputs et les outputs. Ce tableau indique simplement la probabilité (score de Boltzmann) qu'une entrée donnée corresponde à une sortie donnée.
 
 Si on reprend notre exemple avec un Coinjoin Whirlpool, le tableau des probabilités sera :
 
@@ -558,7 +558,7 @@ Dans cet exemple on peut voir que la probabilité de chaque output de provenir d
 
 Au plus cette probabilité sera basse, au plus il y aura de confidentialité.
 
-6. La sixième information qui est calculée est le nombre de liens déterministes. On vous fournira également le ratio de liens déterministes. Cet indicateur permet de mettre en lumière le nombre de liens entre inputs et outputs de la transaction donnée qui ont une probabilité de 100%, c'est-à-dire qui sont indéniables.
+6. Le sixième indicateur calculée est le nombre de liens déterministes. On vous fournira également le ratio de liens déterministes. Cet indicateur permet de mettre en évidence le nombre de liens entre les inputs et les outputs d'une transaction donnée ayant une probabilité de 100%, c'est-à-dire des liens indéniables.
 
 Le ratio permet alors d'indiquer le nombre de liens déterministes dans la transaction par rapport au nombre de liens total.
 
@@ -594,7 +594,7 @@ Pour en savoir plus sur le calculateur Boltzmann, je vous conseille de lire ces 
 
 Bisq est une plateforme d'échange vous permettant de réaliser des achats et des ventes de bitcoins de pair à pair. Il s'utilise avec un logiciel de bureau qui s'exécute sous Tor et qui permet d'échanger des bitcoins sans avoir besoin de renseigner son identité.
 
-Bisq sécurise les échange pair-à-pair grâce à un système de multi-signature 2/2. Vous pouvez utiliser ce logiciel avec votre propre nœud RoninDojo afin d'optimiser la confidentialité de vos échanges et de faire confiance aux données de la blockchain de votre propre noeud.
+Bisq sécurise les échanges pair-à-pair grâce à un système de multi-signature 2/2. Vous pouvez utiliser ce logiciel avec votre propre nœud RoninDojo afin d'optimiser la confidentialité de vos échanges et de faire confiance aux données de la blockchain de votre propre noeud.
 
 Pour télécharger le logiciel Bisq, rendez-vous sur leur site officiel : https://bisq.network/
 
@@ -670,7 +670,7 @@ Vous trouverez également sur RoninUI l'outil "Push Tx". Il vous permet de diffu
 
 ## Conclusion.
 
-Nous avons pu voir comment installer et prendre en main ce magnifique outil que représente RoninDojo. C'est un excellent choix pour faire tourner son propre nœud Bitcoin. C'est une solution stable, qui intègre et tient à jour tous les outils essentiels pour un Bitcoiner.
+Nous avons pu voir comment installer et prendre en main ce magnifique outil que représente RoninDojo. C'est un excellent choix pour faire tourner son propre nœud Bitcoin. C'est une solution stable, qui intègre et met à jour tous les outils essentiels pour tout Bitcoiner.
 
 Si l'utilisation du terminal ne vous fait pas peur, et si vous n'avez pas besoin d'outils en lien avec le Lightning Network, alors RoninDojo peut vous plaire.
 

@@ -1,4 +1,4 @@
-question: Koja usluga mapiranja omogućava potpuno offline korišćenje i ne uključuje praćenje oglasa?
+question: Koja servis za mape omogućava potpuno offline korišćenje i ne uključuje praćenje oglasa?
 answer: Organic Maps
 wrong_answers:
   - Google Maps
@@ -6,4 +6,4 @@ wrong_answers:
   - Citymapper
 explanation: |
   Organic Maps je aplikacija otvorenog koda zasnovana na OpenStreetMap koja radi offline, bez praćenja ili prikupljanja podataka, za razliku od vlasničkih alternativa.
-reviewed: false
+reviewed: true

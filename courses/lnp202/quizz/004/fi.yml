@@ -1,0 +1,9 @@
+question: Mihin Lightning-solmun on muodostettava yhteys?
+answer: Bitcoin-solmu
+wrong_answers:
+  - Kaivosmies
+  - Lohkon tutkija
+  - Yhdistetty palvelin
+explanation: |
+  Lightning-solmu on riippuvainen Bitcoin-solmusta, jotta se te käyttää tietoja päälohkoketjusta.
+reviewed: false

@@ -1,8 +1,8 @@
-question: Jaka jest funkcja regulacji trudności w sieci Bitcoin?
-answer: Gwarantuje to, że blok jest dodawany do Blockchain mniej więcej co dziesięć minut.
+question: Jaka jest funkcja regulacji trudności wydobycia w sieci Bitcoin?
+answer: Gwarantuje, że blok jest dodawany do łańcucha bloków mniej więcej co dziesięć minut.
 wrong_answers:
-  - Określa on cenę Bitcoin.
-  - Reguluje on liczbę bitcoinów, które mogą być wydobywane w Blockchain.
-  - Określa on rozmiar bloku.
+  - Określa cenę bitcoina.
+  - Reguluje liczbę bitcoinów, które mogą być wydobywane w łańcuchu bloków.
+  - Określa rozmiar bloku.
 explanation: >-
 reviewed: true

@@ -145,6 +145,8 @@ Discover the groundbreaking world of Bitcoin with this comprehensive guide tailo
 
 contributors:
   - pretty-private
+```
+
 
 ![book](assets/37.webp)
 - Click on the `Commit changes...` button:
@@ -161,6 +163,8 @@ contributors:
 ![book](assets/43.webp)
 - Click on the `Create pull request` button:
 ![book](assets/44.webp)
+
+
 Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, merge it into the main repository of the Plan ₿ Academy. You should see your book appear on the website a few days later.
 
 Be sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can view it in the `Pull requests` tab on the Plan ₿ Academy's GitHub repository:

@@ -1,0 +1,8 @@
+question: Dans un HTLC activé par Taproot, que se passe-t-il lorsque les deux parties acceptent de manière coopérative de procéder à l'échange entre couches ?
+answer: Ils cosignent à l'aide de leur clé publique agrégée via MuSig2, créant ainsi une transaction impossible à distinguer d'un paiement standard à signature unique
+wrong_answers:
+  - Ils doivent révéler le script complet contenant le hachage et les verrous temporels on-chain pour la vérification du réseau
+  - Ils ne publient que la branche spécifique de l'arbre de Merkle dont ils ont besoin, tout en gardant la clé agrégée cachée aux observateurs
+  - Ils diffusent simultanément des transactions distinctes sur chaque couche afin de garantir un règlement atomique sans agrégation de clés
+explanation: |
+  Le "chemin de clé" coopératif de Taproot permet aux parties de combiner leurs clés en une seule clé publique agrégée à l'aide de MuSig2. Lorsque les deux parties sont d'accord, elles cosignent simplement la transaction, qui apparaît identique à n'importe quel paiement standard sur la blockchain. Cette méthode offre un maximum de confidentialité et d'efficacité puisqu'aucune logique de script n'est révélée, ce qui consomme un minimum d'espace sur la blockchain. Les autres options décrivent de manière incorrecte le comportement de l'ancienne HTLC ou le scénario de script adverse.

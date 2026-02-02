@@ -5,5 +5,5 @@ wrong_answers:
   - bcoin
   - 리빗코인
 explanation: |
-  그는 오픈소스 라이선스(Apache 2.0)에 따라 이를 [게시](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438)했으며, 당시 고용주인 구글에 기여한 바가 있습니다. 이 구현을 통해 Android에서 작동하는 최초의 경량 Wallet을 출시할 수 있었습니다.
+  그는 오픈소스 라이선스(Apache 2.0)에 따라 이를 [게시](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438)했으며, 당시 고용주인 구글에 기여한 바가 있습니다. 이 구현을 통해 Android에서 작동하는 최초의 경량 Wallet을 출시할 수 있었습니다.
 reviewed: true

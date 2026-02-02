@@ -1,13 +1,11 @@
-question: Co to jest średni koszt dolara?
-answer: Kupowanie niewielkich ilości Bitcoin w regularnych odstępach czasu.
+question: Co to jest zakup bitcoina po średnim koszcie dolara?
+answer: Kupowanie niewielkich ilości bitcoina w regularnych odstępach czasu.
 wrong_answers:
-  - Zakup dużej ilości Bitcoin na raz.
-  - Kupię Bitcoin tylko wtedy, gdy cena spadnie.
-  - Kupowanie Bitcoin tylko wtedy, gdy cena wzrośnie.
+  - Zakup dużej ilości bitcoina na raz.
+  - Zakup bitcoina tylko wtedy, gdy cena spadnie.
+  - Kupowanie bitcoina tylko wtedy, gdy cena wzrośnie.
 explanation: |
   W tekście kursu wyjaśniono, że technika Dollar Cost Average
-  polega na kupowaniu niewielkich ilości Bitcoin w
-  regularnych odstępach czasu. Metoda ta wyrównuje wahania ceny
-  wahania cen w czasie i zapewnia ciągły wzrost ilości posiadanego Bitcoin
-  ilości posiadanego Bitcoin.
+  polega na kupowaniu niewielkich ilości bitcoina w
+  regularnych odstępach czasu. Metoda ta wyrównuje wahania jego ceny w czasie i zapewnia ciągły wzrost ilości posiadanych bitcoinów.
 reviewed: true

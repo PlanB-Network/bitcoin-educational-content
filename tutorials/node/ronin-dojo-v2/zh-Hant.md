@@ -543,7 +543,7 @@ Block explorer 將來自 Bitcoin Blockchain 的原始資訊轉換成結構化、
 為了加深您對這些指數計算機制的瞭解，我建議您閱讀這篇文章：REMIX - Whirlpool，詳細說明這些指數的運作。
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

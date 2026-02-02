@@ -10,7 +10,7 @@ description: Podesite LN VPN sa Lightning-om za anoniman i prilagođen VPN
 LN VPN je prilagodljiva VPN usluga koja prihvata samo lightning uplate. Danas ću vam pokazati kako da je koristite i ostavite manje tragova prilikom pretraživanja interneta.
 
 
-Postoji mnogo kvalitetnih provajdera VPN usluga, a mi smo sproveli sveobuhvatan pregled u ovom članku (hiperveza). Međutim, LN VPN se izdvaja, i nismo mogli propustiti priliku da vam ga predstavimo.
+Postoji mnogo kvalitetnih provajdera VPN usluga, ali LN VPN se izdvaja, i nismo mogli propustiti priliku da vam ga predstavimo.
 
 
 Većina provajdera VPN usluga kao što su ProtonVPN i Mullvad nude opciju plaćanja bitcoinima, ali zahtevaju kreiranje naloga i kupovinu plana na duži ili kraći rok, što možda ne odgovara svačijem budžetu.

@@ -1,5 +1,6 @@
 ---
-term: 雕刻
+term: Engraving
+definition: 刻录在 RGB 合约转换历史中的可选数据字符串。
 ---
 
 在 RGB 协议中，*镌刻*指的是 Contract 持有者可在过渡历史中连续输入的可选数据字符串。该功能尤其可通过 Interface RGB21 访问，可在不修改交易有效性的情况下添加纪念性或描述性信息。它通过整合附加元数据来丰富 Contract 历史。

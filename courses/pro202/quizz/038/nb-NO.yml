@@ -1,0 +1,8 @@
+question: Hva bestemmer transaksjonsgebyret i en Bitcoin-transaksjon under byggeprosessen?
+answer: Differansen mellom den totale verdien av alle inndata og den totale verdien av alle utdata
+wrong_answers:
+  - En fast prosentandel av den totale transaksjonsverdien beregnet av nettverksprotokollen
+  - Størrelsen på transaksjonen i byte multiplisert med en standard sats fastsatt av utvinnere
+  - Antall signaturer som kreves for alle innganger, pluss en grunnleggende nettverksavgift
+explanation: |
+  Bitcoin-transaksjonsgebyrer bestemmes av differansen mellom totale inndata og totale utdata. Når du konstruerer en transaksjon, velger du UTXO-er som input og oppretter output for mottakere og veksling. Eventuelle restbeløp blir avgiften som gir utvinnere insentiver til å inkludere transaksjonen din. Gebyret beregnes ikke i prosent, etter faste satser eller antall signaturer - det er rett og slett det som ikke er allokert i transaksjonens verdibalanse.

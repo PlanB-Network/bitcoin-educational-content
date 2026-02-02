@@ -1,0 +1,9 @@
+question: Кой е ключовият елемент, който гарантира, че Bob ще получи актив по време на State Transition в RGB?
+answer: Нов Seal Definition, насочен към UTXO на Bob
+wrong_answers:
+  - Контролна транзакция без позоваване на UTXO
+  - Публично изявление на Alice
+  - Двоен подпис, споделен от Alice и Bob
+explanation: |
+  Seal Definition криптографски свързва актива с UTXO на Bob, като гарантира, че той е негов собственик.
+reviewed: false

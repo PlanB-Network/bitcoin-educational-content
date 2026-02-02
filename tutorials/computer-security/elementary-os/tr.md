@@ -70,7 +70,7 @@ Kuruluma başlamadan önce lütfen aşağıdaki ekipmana sahip olduğunuzdan emi
 
 
 
-Resmi işletim sistemi web sitesine [elementary] (https://elementary.io/) gidin ve projeyi desteklemek için bir miktar seçin. Bu adım isteğe bağlıdır.
+Resmi işletim sistemi web sitesine [elementary](https://elementary.io/) gidin ve projeyi desteklemek için bir miktar seçin. Bu adım isteğe bağlıdır.
 
 
 ISO görüntüsünü ücretsiz olarak indirmek isterseniz, **"Diğer "** alanına 0 girin ve sistem ISO görüntüsünü indirmeye başlayın.

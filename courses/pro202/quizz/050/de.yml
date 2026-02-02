@@ -1,0 +1,8 @@
+question: Welchen primären Mechanismus verwendet ein Bitcoin-Knoten, wenn er zum ersten Mal bootet und dem Netz beitritt, um aktive Peers zu finden?
+answer: Kontakte zu fest kodierten DNS-Seeds, die von den Kernentwicklern gepflegt werden, um IPs aktiver Peers zu erhalten
+wrong_answers:
+  - Sendet eine Erkennungsnachricht an alle IP-Adressen in vordefinierten Subnetzbereichen
+  - Stellt eine Verbindung zu einem zentralen Registrierungsserver her, der eine Liste aller aktiven Knotenpunkte verwaltet
+  - Verwendet das DHT-Protokoll (Distributed Hash Table), um Peers durch Hash-basiertes Routing zu finden
+explanation: |
+  Bitcoin verwendet hartkodierte DNS-Seeds als Bootstrap-Mechanismus, da dies eine dezentrale Möglichkeit für neue Knoten darstellt, dem Netzwerk beizutreten, ohne sich auf eine zentrale Autorität zu verlassen. Die DNS-Seeds werden von den Kernentwicklern gepflegt und liefern IP-Adressen von derzeit aktiven Peers. Sobald eine Verbindung besteht, können die Knoten den Befehl getaddr verwenden, um weitere Peers zu finden. Die falschen Antworten beschreiben zentralisierte Ansätze oder Protokolle, die von Bitcoin nicht verwendet werden - es gibt keine zentrale Registrierung, kein Subnetz-Broadcasting und keine DHT-basierte Peer-Ermittlung im Bitcoin-Design.

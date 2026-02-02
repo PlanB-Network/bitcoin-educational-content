@@ -1,0 +1,8 @@
+question: Koja specifična karakteristika LDK-ove arhitekture vođene događajima omogućava aplikacijama da održe čistu separaciju između logike Lightning protokola i aplikaciono-specifičnih odgovora?
+answer: Asinhrone notifikacije su obezbeđene za sve značajne operacije i promene stanja, omogućavajući da se prilagođeni rukovaoci događajima implementiraju nezavisno.
+wrong_answers:
+  - Sinhroni pozivi povratka se pokreću direktno unutar upravitelja kanala, zahtevajući trenutne odgovore kako bi se održala usklađenost sa protokolom.
+  - Rukovaoci događaja se automatski generišu na osnovu konfiguracije aplikacije, eliminišući potrebu za prilagođenom logikom implementacije.
+  - Svi događaji su stavljeni u red u centralni bafer i obrađuju se sekvencijalno kako bi se osiguralo determinističko ponašanje aplikacije
+explanation: |
+  LDK-ov sistem događaja pruža asinhrone obaveštenja za sve Lightning operacije uključujući povezivanje sa vršnjacima, plaćanja i promene kanala. Ovo omogućava programerima da implementiraju prilagođene rukovaoce događaja koji odgovarajuće reaguju, dok održavaju čistu separaciju između osnovne funkcionalnosti LDK-a i logike aplikacije. Druge opcije su netačne jer LDK ne koristi sinhrone povratne pozive koji blokiraju protokolarne operacije, ne koristi automatske generate rukovaoce i ne nameće sekvencijalnu obradu događaja.

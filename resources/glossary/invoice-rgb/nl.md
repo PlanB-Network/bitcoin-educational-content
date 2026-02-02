@@ -1,5 +1,6 @@
 ---
 term: Invoice RGB
+definition: Gecodeerde URL die de constructie van een State Transition mogelijk maakt om een RGB-asset over te dragen.
 ---
 
 In het RGB protocol heeft een Invoice de vorm van een URL gecodeerd in base58, die de informatie bevat die de betaler nodig heeft om een State Transition te construeren. In de praktijk is dit een Invoice waarmee de tegenpartij generate de juiste overgang kan maken om een activum over te dragen of de status van een Contract bij te werken.

@@ -1,5 +1,6 @@
 ---
-term: TAGASIÜHILDUVUS
+term: Tagasiühilduvus
 
+definition: Protokolli uuenduse võime jääda ühilduvaks varasemate versioonidega, võimaldades vanadel sõlmedel jätkata tööd võrgus.
 ---
 Viitab protokollireeglite uuendamise võimele säilitada ühilduvus eelmiste versioonidega. See tähendab, et muudatused on kavandatud nii, et vanemad sõlmed (sõlmed, mis kasutavad reegli muutmisele eelnevaid versioone) saavad endiselt võrguga suhelda ja järgida kõige rohkem tööd kogunud ahelat. Seetõttu on oluline, et vanemad sõlmed ei lükkaks tagasi uusi plokke ega uusi tehinguid. Tagasiühilduvus vähendab oluliselt tõenäosust, et uuendus killustab võrku, vältides seega sõlmede jagunemist eri ahelates olevateks alarühmadeks. Et tagada ühilduvus protokolli varasemate versioonidega, tuleb ajakohastamisel muuta olemasolevad reeglid rangemaks või kehtestada uued reeglid. See põhimõte määratleb "pehme kahvli". Kui aga ajakohastamine leevendab olemasolevaid reegleid või kaotab mõned neist, siis ei ole see tagasiühilduv. See oleks "kõva kahvel".

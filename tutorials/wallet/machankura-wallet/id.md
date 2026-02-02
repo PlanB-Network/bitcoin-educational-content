@@ -80,18 +80,19 @@ Machankura adalah sebuah layanan yang dikembangkan dan kemudian ditautkan ke kod
 
 
 
-| PAYS           | CODE USSD              |
+
+| NEGARA           | KODE USSD              |
 | -------------- | ---------------------- |
 | Ghana          | `*920*8333#`           |
 | Kenya          | `*483*8333#`           |
 | Malawi         | `*384*8333#`           |
-| Namibie        | `*142*8333#`           |
+| Namibia        | `*142*8333#`           |
 | Nigeria        | `*347*8333#`           |
-| Afrique du Sud | `54052.co.za`          |
-| Tanzanie       | `SMS +255 679 066 977` |
-| Ouganda        | `SMS +256 744 830 624` |
-| Zambie         | `*384*8333#`           |
-| Côte d’Ivoire  | `*9141#`               |
+| Afrika Selatan | `54052.co.za`          |
+| Tanzania       | `SMS +255 679 066 977` |
+| Uganda        | `SMS +256 744 830 624` |
+| Zambia         | `*384*8333#`           |
+| Pantai Gading  | `*9141#`               |
 
 Berdasarkan tabel ini, kita dapat melihat bahwa negara-negara seperti Tanzania, Uganda, dan Afrika Selatan tidak memiliki kode USSD khusus untuk layanan ini.
 
@@ -101,7 +102,7 @@ Namun, Machankura mengatasi masalah ini dengan memperluas fungsionalitasnya mela
 
 
 
-Untuk mendapatkan informasi mengenai negara-negara baru di mana layanan ini akan tersedia, silakan kunjungi [situs web] (https://8333.mobi) secara teratur.
+Untuk mendapatkan informasi mengenai negara-negara baru di mana layanan ini akan tersedia, silakan kunjungi [situs web](https://8333.mobi) secara teratur.
 
 
 
@@ -370,7 +371,7 @@ Yang kedua, yang merupakan perpanjangan logis dari yang pertama, adalah menjadi 
 
 
 
-Untuk memulai, Anda perlu menulis pesan ke bot WhatsApp Machankura (kata "Hai" saja sudah lebih dari cukup). Nomor WhatsApp-nya adalah [+27 73 762 5720] (https://wa.me/+27737625720).
+Untuk memulai, Anda perlu menulis pesan ke bot WhatsApp Machankura (kata "Hai" saja sudah lebih dari cukup). Nomor WhatsApp-nya adalah [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 

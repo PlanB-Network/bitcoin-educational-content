@@ -1,39 +1,39 @@
 ---
-name: Thêm Video Hội Nghị
-description: Làm thế nào để thêm video hội nghị trên Mạng PlanB?
+name: Thêm bản phát lại hội nghị (conference replay)
+description: Làm thế nào để thêm bản phát lại của hội nghị trên Plan ₿ Academy?
 ---
 ![conference](assets/cover.webp)
 
-Sứ mệnh của PlanB là cung cấp nguồn tài nguyên giáo dục hàng đầu về Bitcoin bằng càng nhiều ngôn ngữ khác nhau càng tốt. Tất cả nội dung được xuất bản trên trang web đều là mã nguồn mở và được lưu trữ trên GitHub, cho phép bất kỳ ai cũng có thể đóng góp vào việc làm giàu nền tảng.
+Sứ mệnh của PlanB là cung cấp nguồn học liệu hàng đầu về Bitcoin bằng nhiều ngôn ngữ nhất có thể. Toàn bộ nội dung được đăng tải trên trang web đều là mã nguồn mở và được lưu trữ trên GitHub, tạo điều kiện cho bất kỳ ai cũng có thể tham gia đóng góp và làm phong phú thêm kho kiến thức chung này.
 
-Bạn muốn thêm video hội nghị Bitcoin của mình trên trang web Mạng PlanB và tăng sự nhìn nhận cho sự kiện này, nhưng không biết làm thế nào? Hướng dẫn này dành cho bạn!
+Bạn muốn thêm bản phát lại hội nghị Bitcoin của mình trên Plan ₿ Academy để tăng sức lan tỏa cho sự kiện, nhưng không biết làm thế nào? Hướng dẫn này dành cho bạn!
 
-Tuy nhiên, nếu bạn muốn thêm một hội nghị sẽ diễn ra trong tương lai, tôi khuyên bạn nên đọc hướng dẫn khác này trong đó chúng tôi giải thích cách thêm một sự kiện mới vào trang web.
+Tuy nhiên, nếu bạn muốn đăng tải thông tin về một hội nghị sắp diễn ra trong tương lai, bạn nên đọc bài hướng dẫn này — ở đây, chúng tôi giải thích chi tiết cách thêm một sự kiện mới lên trang web.
 
 https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
-
 ![conference](assets/01.webp)
-- Đầu tiên, bạn cần phải có một tài khoản trên GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã làm một hướng dẫn chi tiết để hướng dẫn bạn.
+
+- Trước tiên, bạn cần có một tài khoản GitHub. Nếu bạn chưa biết cách tạo tài khoản, chúng tôi đã chuẩn bị một hướng dẫn chi tiết để giúp bạn.
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-
-- Truy cập vào [kho lưu trữ GitHub của PlanB dành cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
+- Truy cập [repository của Plan ₿ Academy dành riêng cho dữ liệu trên GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
 ![conference](assets/02.webp)
-- Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
+- Nhấn vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![conference](assets/03.webp)
-- Nếu bạn chưa bao giờ đóng góp vào nội dung của Mạng PlanB trước đây, bạn sẽ cần tạo một bản sao (fork) của kho lưu trữ gốc. Fork một kho lưu trữ có nghĩa là tạo một bản sao của kho lưu trữ đó trên tài khoản GitHub của bạn, cho phép bạn làm việc trên dự án mà không ảnh hưởng đến kho lưu trữ gốc. Nhấp vào nút `Fork this repository`:
+- Nếu đây là lần đầu bạn đóng góp cho Plan ₿ Academy, bạn sẽ cần tạo một bản sao (fork) của repository gốc. "Fork" nghĩa là tạo một bản sao của repository đó trên tài khoản GitHub của bạn, cho phép bạn làm việc mà không ảnh hưởng đến repository gốc. Nhấn vào nút `Fork this repository`:
 ![conference](assets/04.webp)
-- Bạn sẽ được chuyển đến trang chỉnh sửa GitHub:
+- Ngay sau đó, giao diện chỉnh sửa của GitHub sẽ hiện ra:
 ![conference](assets/05.webp)
-- Tạo một thư mục cho hội nghị của bạn. Để làm điều này, trong ô `Name your file...`, viết tên hội nghị của bạn bằng chữ thường với dấu gạch ngang thay cho khoảng trắng. Ví dụ, nếu hội nghị của bạn có tên là "Paris Bitcoin Conference", bạn nên ghi `paris-bitcoin-conference`. Cũng thêm năm của hội nghị của bạn, ví dụ: `paris-bitcoin-conference-2024`:
+- Tạo một thư mục cho hội nghị của bạn. Tại ô `Name your file...`, nhập tên hội nghị của bạn bằng chữ thường và dùng dấu gạch ngang `-` thay cho khoảng trắng. Ví dụ, nếu hội nghị của bạn có tên là "Paris Bitcoin Conference", bạn nên ghi `paris-bitcoin-conference`. Ngoài ra, đừng quên thêm năm tổ chức sự kiện vào cuối tên thư mục, ví dụ: `paris-bitcoin-conference-2024`:
 ![conference](assets/06.webp)
-- Để xác nhận việc tạo thư mục, chỉ cần ghi một dấu gạch chéo sau tên của bạn trong cùng một ô, ví dụ: `paris-bitcoin-conference-2024/`. Thêm một dấu gạch chéo tự động tạo một thư mục thay vì một tệp:
+- Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo file tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `paris-bitcoin-conference-2024/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
 ![conference](assets/07.webp)
-- Trong thư mục này, bạn sẽ tạo một tệp YAML đầu tiên có tên `conference.yml`:
+- Trong thư mục vừa tạo, bạn sẽ tạo một file YAML đầu tiên có tên `conference.yml`:
 ![conference](assets/08.webp)
-Điền thông tin liên quan đến hội nghị của bạn vào tệp này sử dụng mẫu này:
+- Điền thông tin liên quan đến hội nghị của bạn vào file này theo mẫu sau:
+
 ```yaml
 year: 
 name: 
@@ -49,7 +49,7 @@ tags:
   - 
 ```
 
-Ví dụ, tệp YAML của bạn có thể trông như thế này:
+Ví dụ, file YAML của bạn có thể trông như thế này:
 
 ```yaml
 year: 2024-08
@@ -68,60 +68,67 @@ tags:
 ```
 
 ![conference](assets/09.webp)
+
 Nếu bạn chưa có một định danh "*project*" cho tổ chức của mình, bạn có thể thêm nó bằng cách theo dõi hướng dẫn khác này.
+
+Nếu tổ chức/doanh nghiệp của bạn vẫn chưa có định danh "*project*", bạn có thể bổ sung thông tin này bằng cách làm theo hướng dẫn dưới đây.
+
 https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
-- Sau khi bạn hoàn thành việc thay đổi tệp này, hãy lưu chúng bằng cách nhấp vào nút `Commit changes...`:
-![hội nghị](assets/10.webp)
-- Thêm tiêu đề cho các thay đổi của bạn, cũng như một mô tả ngắn gọn:
-![hội nghị](assets/11.webp)
-- Nhấp vào nút màu xanh `Propose changes`:
-![hội nghị](assets/12.webp)
-- Bạn sẽ đến trang tóm tắt tất cả các thay đổi của bạn:
-![hội nghị](assets/13.webp)
-- Nhấp vào ảnh đại diện GitHub của bạn ở góc trên bên phải, sau đó vào `Your Repositories`:
-![hội nghị](assets/14.webp)
-- Chọn fork của bạn từ kho lưu trữ Plan ₿ Academy:
-![hội nghị](assets/15.webp)
-- Bạn sẽ thấy một thông báo ở đầu cửa sổ với nhánh mới của bạn. Có thể nó được gọi là `patch-1`. Nhấp vào nó:
-![hội nghị](assets/16.webp)
-- Bây giờ bạn đang ở trên nhánh làm việc của mình:
-![hội nghị](assets/17.webp)
-- Quay lại thư mục `resources/conference/` và chọn thư mục hội nghị mà bạn vừa tạo trong commit trước:
-![hội nghị](assets/18.webp)
-- Trong thư mục hội nghị của bạn, nhấp vào nút `Add file`, sau đó vào `Create new file`:
-![hội nghị](assets/19.webp)
-- Đặt tên thư mục mới này là `assets` và xác nhận việc tạo nó bằng cách đặt một dấu gạch chéo `/` ở cuối:
-![hội nghị](assets/20.webp)
-- Trong thư mục `assets` này, tạo một tệp tên là `.gitkeep`:
-![hội nghị](assets/21.webp)
-- Nhấp vào nút `Commit changes...`:
-![hội nghị](assets/22.webp)
-- Giữ nguyên tiêu đề commit mặc định, và đảm bảo rằng ô `Commit directly to the patch-1 branch` được chọn, sau đó nhấp vào `Commit changes`:
-![hội nghị](assets/23.webp)
+- Sau khi hoàn tất chỉnh sửa file, lưu thay đổi bằng cách nhấn nút `Commit changes...`:
+![conference](assets/10.webp)
+- Thêm tiêu đề cho thay đổi của bạn, kèm theo mô tả ngắn:
+![conference](assets/11.webp)
+- Nhấn vào nút `Propose changes`:
+![conference](assets/12.webp)
+- Hệ thống sẽ chuyển bạn đến trang tổng hợp tất cả các thay đổi vừa thực hiện:
+![conference](assets/13.webp)
+- Nhấn vào ảnh hồ sơ GitHub của bạn ở góc trên bên phải, sau đó chọn `Your Repositories`:
+![conference](assets/14.webp)
+- Chọn bản fork của repository Plan ₿ Academy:
+![conference](assets/15.webp)
+- Bạn sẽ thấy thông báo ở đầu cửa sổ về nhánh (branch) mới của bạn (thường tên là `patch-1`). Nhấn vào đó:
+![conference](assets/16.webp)
+- Bây giờ, bạn đang ở trên nhánh làm việc của mình:
+![conference](assets/17.webp)
+- Quay lại thư mục `resources/conference/` và chọn thư mục hội nghị mà bạn vừa tạo ở commit trước:
+![conference](assets/18.webp)
+- Trong thư mục của sách, nhấn vào nút `Add file`, sau đó chọn `Create new file`:![conference](assets/19.webp)
+- Đặt tên thư mục mới này là `assets` và đừng quên thêm một dấu gạch chéo `/` ở cuối:
+![conference](assets/20.webp)
+- Trong thư mục `assets` này, tạo một file tên là `.gitkeep`:
+![conference](assets/21.webp)
+- Nhấn vào nút `Commit changes...`:
+![conference](assets/22.webp)
+- Giữ nguyên tiêu đề commit mặc định, và đảm bảo rằng ô `Commit directly to the patch-1 branch` được chọn, rồi nhấn `Commit changes`:
+![conference](assets/23.webp)
 - Quay lại thư mục `assets`:
-![hội nghị](assets/24.webp)
-- Nhấp vào nút `Add file`, sau đó vào `Upload files`:
-![hội nghị](assets/25.webp)
-- Một trang mới sẽ mở ra. Kéo và thả một hình ảnh đại diện cho hội nghị của bạn và sẽ được hiển thị trên trang web của Plan ₿ Academy: ![hội nghị](assets/26.webp)
-- Đó có thể là một logo, một hình thu nhỏ, hoặc thậm chí một poster:
-![hội nghị](assets/27.webp)
-- Một khi hình ảnh được tải lên, kiểm tra rằng ô `Commit directly to the patch-1 branch` được chọn, sau đó nhấp vào `Commit changes`:
-![hội nghị](assets/28.webp)
-- Hãy cẩn thận, hình ảnh của bạn phải được đặt tên là `thumbnail` và phải ở định dạng `.webp`. Tên tệp đầy đủ nên là: `thumbnail.webp`:
-![hội nghị](assets/29.webp)
-- Quay lại thư mục `assets` của bạn và nhấp vào tệp trung gian `.gitkeep`:
-![hội nghị](assets/30.webp)
-- Một khi đang ở trên tệp, nhấp vào 3 chấm nhỏ ở góc trên bên phải sau đó vào `Delete file`:
-![hội nghị](assets/31.webp)
-- Xác nhận rằng bạn vẫn đang ở trên cùng một nhánh làm việc, sau đó nhấp vào nút `Commit changes`:
-![hội nghị](assets/32.webp)
-- Thêm một tiêu đề và mô tả cho commit của bạn, sau đó nhấp vào `Commit changes`:
-![hội nghị](assets/33.webp)
-- Quay lại thư mục hội nghị của bạn: ![conference](assets/34.webp)
-- Nhấn vào nút `Thêm file`, sau đó chọn `Tạo file mới`: ![conference](assets/35.webp)
-- Tạo một file markdown (.md) mới bằng cách đặt tên cho nó với chỉ số ngôn ngữ mẹ đẻ của bạn. File này sẽ được sử dụng cho các bản ghi lại hội nghị của bạn. Ví dụ, nếu tôi muốn viết mô tả cho các hội nghị bằng tiếng Anh, tôi sẽ đặt tên file này là en.md: ![conference](assets/36.webp)
-- Điền vào file markdown này sử dụng mẫu sau đây mà bạn có thể điều chỉnh cho phù hợp với cấu hình của hội nghị của bạn:
+![conference](assets/24.webp)
+- Nhấn vào nút `Add file`, sau đó chọn `Upload files`:
+![conference](assets/25.webp)
+- Một trang mới sẽ mở ra. Kéo thả một ảnh đại diện cho hội nghị của bạn vào đây; ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy:
+![conference](assets/26.webp)
+- Đó có thể là logo, ảnh thu nhỏ (thumbnail), hoặc thậm chí là poster:
+![conference](assets/27.webp)
+- Sau khi hình ảnh được tải lên, đảm bảo rằng ô `Commit directly to the patch-1 branch` được chọn, sau đó nhấn `Commit changes`:
+![conference](assets/28.webp)
+- Lưu ý, ảnh của bạn phải được đặt tên là `thumbnail` và phải ở định dạng `.webp`. Tên file đầy đủ phải là: `thumbnail.webp`:
+![conference](assets/29.webp)
+- Quay lại thư mục `assets` và nhấp vào file `.gitkeep`:
+![conference](assets/30.webp)
+- Tại giao diện của file này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn  `Delete file`:
+![conference](assets/31.webp)
+- Đảm bảo rằng bạn vẫn đang ở đúng nhánh làm việc hiện tại, sau đó nhấn vào nút `Commit changes`:
+![conference](assets/32.webp)
+- Thêm tiêu đề và mô tả cho commit của bạn, rồi nhấn vào `Commit changes`:
+![conference](assets/33.webp)
+- Quay lại thư mục hội nghị của bạn:
+![conference](assets/34.webp)
+- Nhấn vào nút `Add file`, sau đó chọn `Create new file`:
+![conference](assets/35.webp)
+- Tạo một file markdown (`.md`) mới và đặt tên theo mã ngôn ngữ bản địa của bạn. file này sẽ được sử dụng để chứa các bản phát lại của hội nghị. Ví dụ, nếu tôi muốn viết mô tả cho các hội nghị bằng tiếng Việt, tôi sẽ đặt tên file này là `vi.md`:
+![conference](assets/36.webp)
+- Điền thông tin vào file markdown này theo mẫu dưới đây; hãy điều chỉnh nội dung sao cho phù hợp với hội nghị của bạn:
 
 ```markdown
 ---
@@ -149,19 +156,19 @@ description: Hội nghị Bitcoin lớn nhất tại Pháp với hơn 8,000 ngư
 
 # Phòng Workshop
 
-## Tương Lai của Việc Đào Bitcoin: Thách Thức và Đổi Mới
+## Tương Lai của việc Đào Bitcoin: Thách Thức và Đổi Mới
 
 ![video](https://youtu.be/XXXXXXXXXXXX)
 
 Diễn giả: Satoshi Nakamoto, Satoshi Nakamoto
 
-## Liệu Sự Riêng Tư Còn Có Thể Tồn Tại Trên Bitcoin?
+## Liệu Bitcoin Có Còn Giữ Được Sự Riêng Tư Không?
 
 ![video](https://youtu.be/XXXXXXXXXXXX)
 
 Diễn giả: Satoshi Nakamoto
 
-## Bitcoin Core: Sâu Lắng vào Cơ Sở Mã
+## Bitcoin Core: Phân Tích Chuyên Sâu về Codebase
 
 ![video](https://youtu.be/XXXXXXXXXXXX)
 
@@ -175,34 +182,41 @@ Diễn giả: Satoshi Nakamoto
 ```
 
 ![conference](assets/37.webp)
-- Ở đầu tài liệu của bạn, trong phần "front matter," điền vào trường `name:` với tên hội nghị của bạn và năm của các bản ghi lại. Trong trường `description:`, viết một mô tả ngắn gọn về sự kiện của bạn bằng ngôn ngữ của file. Ví dụ, cho một file tên là `en.md`, mô tả nên được viết bằng tiếng Anh. Đội ngũ Plan ₿ Academy sẽ chăm sóc việc dịch mô tả của bạn sử dụng mô hình của họ.
-- Các tiêu đề cấp độ một, được đánh dấu bằng `#`, được sử dụng để tổ chức hội nghị theo các cảnh. Ví dụ, `# Sân Khấu Chính` cho sân khấu chính và `# Phòng Workshop` cho một sân khấu dành riêng cho các workshop.
 
-- Các tiêu đề cấp độ hai, được đánh dấu bằng `##`, được sử dụng để phân chia các video ghi lại khác nhau. Nếu các hội nghị được quay liên tục qua nửa ngày, hãy chỉ định, ví dụ, `## Sáng Thứ Sáu`. Nếu các hội nghị được quay và phát sóng riêng lẻ, đặt tên cho hội nghị trực tiếp với một tiêu đề cấp độ hai.
+- Tại phần mở đầu của tài liệu (trong phần "front matter,"), điền tên hội nghị và năm của các bản phát lại vào trườn `name:`. Ở trường `description:`, viết một mô tả ngắn gọn về sự kiện bằng ngôn ngữ tương ứng của file. Ví dụ, đối với file `vi.md`, phần mô tả phải được viết bằng tiếng Việt. Đội ngũ Plan ₿ Academy sẽ đảm nhận việc dịch mô tả này bằng mô hình ngôn ngữ của họ.
 
-- Dưới mỗi tiêu đề cấp độ hai, chèn một liên kết đến video ghi lại tương ứng. Cú pháp nên là: `![video](https://youtu.be/XXXXXXXXXXXX)`, thay thế `XXXXXXXXXXXX` bằng liên kết video thực tế.
+- Các tiêu đề cấp độ một - Heading 1 (được đánh dấu bằng `#`), được dùng để phân loại hội nghị theo từng khu vực. Ví dụ, `# Sân Khấu Chính` cho sân khấu chính và `# Phòng Workshop` cho khu vực dành riêng cho các workshop.
 
-- Nếu định dạng cho phép (các hội nghị riêng lẻ), bạn có thể thêm tên của các diễn giả. Để làm điều này, thêm trường `Diễn giả:` theo sau là tên hoặc bí danh của diễn giả dưới liên kết video. Trong trường hợp có nhiều diễn giả, tách mỗi tên bằng dấu phẩy, như ví dụ này: `Diễn giả: Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto`.
+- Các tiêu đề cấp độ hai - Heading 2 (được đánh dấu bằng `##`), được dùng để phân loại các video phát lại khác nhau. Nếu các buổi hội nghị được quay liên tục trong suốt một buổi, bạn có thể viết như sau: `## Sáng Thứ Sáu`. Nếu các buổi hội nghị được quay và phát sóng riêng lẻ, hãy đặt tên cho chúng bằng một tiêu đề cấp độ hai.
+
+- Dưới mỗi tiêu đề cấp độ hai, hãy chèn một liên kết đến video phát lại tương ứng. Cú pháp sẽ là: `![video](https://youtu.be/XXXXXXXXXXXX)`, và thay thế `XXXXXXXXXXXX` bằng liên kết video thực tế.
+
+- Nếu định dạng cho phép (các hội nghị riêng lẻ), bạn có thể thêm tên của các diễn giả. Để làm điều này, thêm trường `Diễn giả:` ngay bên dưới liên kết video, sau đó ghi tên hoặc bí danh của diễn giả. Nếu có nhiều diễn giả, ngăn cách các tên bằng dấu phẩy, như ví dụ này: `Diễn giả: Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto`.
 
 ---
 
-- Một khi bạn hoàn thành các chỉnh sửa cho file này, lưu chúng bằng cách nhấn vào nút `Commit changes...`: ![conference](assets/38.webp)
-- Thêm một tiêu đề cho các chỉnh sửa của bạn, cũng như một mô tả ngắn gọn: ![conference](assets/39.webp)
-- Nhấp vào `Commit changes`: ![hội nghị](assets/40.webp)
-- Thư mục hội nghị của bạn giờ đây sẽ trông như thế này:
-![hội nghị](assets/41.webp)
-- Nếu mọi thứ đều khiến bạn hài lòng, quay trở lại gốc của fork của bạn:
-![hội nghị](assets/42.webp)
-- Bạn sẽ thấy một thông báo cho biết nhánh của bạn đã trải qua các thay đổi. Nhấp vào nút `Compare & pull request`:
-![hội nghị](assets/43.webp)
-- Thêm một tiêu đề và mô tả rõ ràng cho PR của bạn:
-![hội nghị](assets/44.webp)
-- Nhấp vào nút `Create pull request`:
-![hội nghị](assets/45.webp)
-Xin chúc mừng! PR của bạn đã được tạo thành công. Một quản trị viên giờ đây sẽ xem xét nó và, nếu mọi thứ đều ổn, sẽ hợp nhất nó vào kho lưu trữ chính của Mạng lưới PlanB. Bạn sẽ thấy các bản ghi lại của hội nghị xuất hiện trên trang web vài ngày sau.
+- Sau khi đã hoàn tất các thay đổi trong file này, hãy lưu lại bằng cách nhấn vào nút `Commit changes...`:
+![conference](assets/38.webp)
+- Thêm một tiêu đề và mô tả ngắn gọn cho các thay đổi này:
+![conference](assets/39.webp)
+- Nhấn vào `Commit changes`:
+![conference](assets/40.webp)
+- Thư mục hội nghị giờ đây sẽ trông như thế này:
+![conference](assets/41.webp)
+- Nếu mọi thứ đều ổn, quay lại thư mục gốc của bản fork:
+![conference](assets/42.webp)
+- Bạn sẽ thấy một thông báo cho biết nhánh của mình vừa có thay đổi mới. Nhấn vào nút  `Compare & pull request`:
+![conference](assets/43.webp)
+- Thêm tiêu đề rõ ràng và mô tả cho PR (Pull Request) của bạn:
+![conference](assets/44.webp)
+- Nhấn vào nút `Create pull request`:
+![conference](assets/45.webp)
 
-Hãy chắc chắn theo dõi tiến trình của PR của bạn. Có thể một quản trị viên sẽ để lại bình luận yêu cầu thông tin bổ sung. Miễn là PR của bạn chưa được xác nhận, bạn có thể xem nó dưới tab `Pull requests` trên kho lưu trữ GitHub của Mạng lưới PlanB:
-![hội nghị](assets/46.webp)
+Chúc mừng! Pull Request của bạn đã được khởi tạo thành công. Đội ngũ quản trị viên sẽ tiến hành kiểm tra và nếu mọi thứ đều đạt yêu cầu, họ sẽ gộp (merge) nó vào repository chính của Plan ₿ Academy. Bạn sẽ thấy sách của mình xuất hiện trên website sau vài ngày.
 
-Cảm ơn bạn rất nhiều vì đã đóng góp giá trị của mình! :)
+Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi PR này trong thẻ `Pull requests` trên repository của Plan ₿ Academy:
+
+![conference](assets/46.webp)
+
+Chân thành cảm ơn sự đóng góp quý giá của bạn! :)
 

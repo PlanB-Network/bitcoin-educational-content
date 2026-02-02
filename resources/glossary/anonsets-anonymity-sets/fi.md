@@ -1,19 +1,20 @@
 ---
-term: ANONSETS (NIMETTÖMYYSJOUKOT)
+term: Anonsets (anonymity sets)
 
+definition: Indikaattorit, jotka mittaavat UTXOn yksityisyyden astetta laskemalla erottumattomien UTXOiden lukumäärää joukossa, tyypillisesti coinjoin-jälkeen.
 ---
-Anonyymit toimivat indikaattoreina, joiden avulla voidaan arvioida tietyn UTXO:n yksityisyystasoa. Tarkemmin sanottuna ne mittaavat erottamattomien UTXO:iden lukumäärää joukossa, joka sisältää tutkittavan kolikon. Koska tarvitaan joukko identtisiä UTXO:ita, anonsetit lasketaan yleensä kolikkojen yhdistämissyklin aikana. Niiden avulla voidaan tarvittaessa arvioida kolikoiden yhdistämisen laatua. Suuri anonset merkitsee suurempaa anonymiteettitasoa, koska tiettyä UTXO:ta on vaikea erottaa joukosta. On olemassa kahdenlaisia anonsetteja:
+Anonsetit toimivat indikaattoreina arvioitaessa tietyn UTXO:n yksityisyyden tasoa. Tarkemmin sanottuna ne mittaavat erottamattomien UTXO:iden määrää joukossa, joka sisältää tarkasteltavan kolikon. Koska tarvitaan ryhmä identtisiä UTXO:ita, anonsetit lasketaan yleensä coinjoin-kierroksen yhteydessä. Ne mahdollistavat tarvittaessa coinjoinien laadun arvioinnin. Suuri anonset tarkoittaa korkeampaa anonymiteetin tasoa, sillä yksittäisen UTXO:n erottaminen joukosta käy vaikeaksi.
+
+Anonsetteja on kahta tyyppiä: forward anonset (forward-looking metrics); ja backward anonset (backward-looking metrics). Termiä "*score*" käytetään toisinaan myös anonsettien nimityksenä.
+
+Ensimmäinen ilmaisee sen ryhmän koon, jonka sisällä tarkasteltu lähtö-UTXO piiloutuu, kun lähtö-UTXO tunnetaan. Tämä indikaattori mahdollistaa kolikon yksityisyyden kestävyyden mittaamisen menneisyydestä nykyhetkeen suuntautuvaa analyysiä vastaan (sisääntulosta ulostuloon). Toinen ilmaisee mahdollisten lähteiden määrän tietylle kolikolle, kun ulostulo-UTXO tunnetaan. Tämä indikaattori mahdollistaa kolikon yksityisyyden kestävyyden mittaamisen nykyhetkestä menneisyyteen suuntautuvaa analyysiä vastaan (ulostulosta sisääntuloon).
 
 
-- Tuleva nimettömyysjoukko;
-- Retrospektiivinen anonymiteettisarja.
 
-Ensimmäinen osoittaa sen ryhmän koon, johon tutkittu UTXO on piilotettu, kun tiedetään, että UTXO on tulossa. Tämän indikaattorin avulla voidaan mitata kolikon yksityisyyden vastustuskykyä analyysia vastaan menneisyydestä nykyhetkeen (tulosta lähtöön). Englanniksi tämän indikaattorin nimi on "*forward anonset*" tai "*forward-looking metrics*"
 
-![](../../dictionnaire/assets/39.webp)
 
-Toinen osoittaa tietyn kolikon mahdollisten lähteiden lukumäärän, kun tiedetään UTXO:n olevan ulostulossa. Tämän indikaattorin avulla voidaan mitata kolikon yksityisyyden vastustuskykyä analyysia vastaan nykyhetkestä menneisyyteen (ulostulosta tuloon). Englanniksi tämän indikaattorin nimi on "*backward anonset*" tai "*backward-looking metrics*"
 
-![](../../dictionnaire/assets/40.webp)
 
-> ► *Ranskaksi on yleisesti hyväksytty termi "anonset" Se voitaisiin kuitenkin kääntää "ensemble d'anonymat" tai "potentiel d'anonymat" Sekä englanniksi että ranskaksi käytetään toisinaan myös termiä "score" viittaamaan anonsetiin (prospektiivinen score ja retrospektiivinen score).*
+
+
+

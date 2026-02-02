@@ -10,7 +10,7 @@ Ilizinduliwa mnamo 2021, SimpleX ni programu ya bure ya ujumbe wa papo hapo yeny
 
 
 
-Tofauti na programu nyingi zinazohitaji akaunti au nambari ya simu, SimpleX hukuruhusu kuanzisha mazungumzo kwa kushiriki kiungo au msimbo wa QR wa muda mfupi. Kila kiungo huunda chaneli ya kipekee iliyosimbwa kwa njia fiche, na unaowasiliana nao hawawezi kupata au kuwasiliana tena na mtumaji bila Exchange dhahiri. Ujumbe husimbwa kwa njia fiche kutoka mwisho hadi mwisho, na hupitia seva za relay ambazo huzifuta baada ya kutumwa, na usione mtumaji au mpokeaji, wala funguo zao.
+Tofauti na programu nyingi zinazohitaji akaunti au nambari ya simu, SimpleX hukuruhusu kuanzisha mazungumzo kwa kushiriki kiungo au msimbo wa QR wa muda mfupi. Kila kiungo huunda chaneli ya kipekee iliyosimbwa kwa njia fiche, na unaowasiliana nao hawawezi kupata au kuwasiliana tena na mtumaji bila Exchange dhahiri. Ujumbe husimbwa kwa njia fiche kutoka mwisho hadi mwisho, na hupitia server za relay ambazo huzifuta baada ya kutumwa, na usione mtumaji au mpokeaji, wala funguo zao.
 
 
 
@@ -18,19 +18,19 @@ Tofauti na programu nyingi zinazohitaji akaunti au nambari ya simu, SimpleX huku
 
 
 
-Usanifu wa mtandao umegatuliwa kabisa na haujashirikishwa: seva hazijuani, hazihifadhi saraka ya kimataifa, na hazipangishi wasifu wowote wa watumiaji. Bora zaidi, kila mtumiaji anaweza kupeleka na kutumia seva yake ya relay, huku akibakia kuingiliana na wale walio kwenye mtandao wa umma.
+Usanifu wa mtandao umegatuliwa kabisa na haujashirikishwa: server hazijuani, hazihifadhi saraka ya kimataifa, na hazipangishi wasifu wowote wa watumiaji. Bora zaidi, kila mtumiaji anaweza kupeleka na kutumia server yake ya relay, huku akibakia kuingiliana na wale walio kwenye mtandao wa umma.
 
 
 
-SimpleX ni chanzo wazi kabisa (wateja, itifaki na seva), inapatikana kwenye Android, iOS, Linux, Windows na macOS. Hifadhi yake ya ndani imesimbwa kwa njia fiche na kubebeka, kwa hivyo unaweza kuhamisha wasifu kutoka kwa kifaa kimoja hadi kingine bila kutegemea seva ya kati.
+SimpleX ni chanzo wazi kabisa (wateja, protocol na server), inapatikana kwenye Android, iOS, Linux, Windows na macOS. Hifadhi yake ya ndani imesimbwa kwa njia fiche na kubebeka, kwa hivyo unaweza kuhamisha wasifu kutoka kwa kifaa kimoja hadi kingine bila kutegemea server ya kati.
 
 
 
-SimpleX inaunganisha vipengele vyote vya kawaida vya programu za kutuma ujumbe. Walakini, ergonomics yake inabaki kioevu kidogo kuliko ile ya WhatsApp au Signal. Inaweza pia kuwa na vikwazo zaidi kutumia, hasa wakati wa kuongeza anwani. Kwa hivyo, kwa maoni yangu, ni mbadala inayofaa kwa WhatsApp au Signal kwa watumiaji wanaoweka usiri katika moyo wa vipaumbele vyao, na ambao wamejitayarisha, kwa sababu hiyo, kufanya makubaliano machache kuhusu faraja ya kila siku ya mtumiaji.
+SimpleX inaunganisha vipengele vyote vya kawaida vya programu za kutuma ujumbe. Walakini, ergonomics yake inabaki imara kidogo kuliko ile ya WhatsApp au Signal. Inaweza pia kuwa na vikwazo zaidi kutumia, hasa wakati wa kuongeza Address. Kwa hivyo, kwa maoni yangu, ni mbadala inayofaa kwa WhatsApp au Signal kwa watumiaji wanaoweka usiri katika moyo wa vipaumbele vyao, na ambao wamejitayarisha, kwa sababu hiyo, kufanya makubaliano machache kuhusu faraja ya kila siku ya mtumiaji.
 
 
 
-| Programu             | E2EE 1:1       | E2EE vikundi   | Usajili wa faragha  | Leseni ya mteja chanzo-huria | Leseni ya seva chanzo-huria | Seva iliyogawanywa       | Mwaka wa uundaji  |
+| Programu             | E2EE 1:1       | E2EE vikundi   | Usajili wa faragha  | Leseni ya mteja chanzo-huria | Leseni ya server chanzo-huria | server iliyogawanywa       | Mwaka wa uundaji  |
 | -------------------- | -------------- | -------------- | ------------------- | ---------------------------- | --------------------------- | ------------------------ | ----------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                            | ❌                           | ❌                        | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                            | ❌                           | ❌                        | 2011              |
@@ -50,7 +50,7 @@ SimpleX inaunganisha vipengele vyote vya kawaida vya programu za kutuma ujumbe. 
 | Briar                | ✅              | ✅              | ✅                   | ✅                            | N/A                         | ✅                        | 2018              |
 | Tox                  | ✅              | ✅              | ✅                   | ✅                            | N/A                         | ✅                        | 2013              |
 
-*E2EE = Usimbaji fiche kutoka mwisho hadi mwisho*
+*E2EE = End-to-End Encryption*
 
 
 
@@ -149,7 +149,7 @@ Unaweza pia kurekebisha passphrase iliyotumiwa kusimba hifadhidata hii. Kwa chag
 
 
 
-Pia ninapendekeza uende kwenye menyu ya "*Faragha na usalama*", ambapo unaweza kuwezesha chaguo la "*SimpleX Lock*". Hii inalinda ufikiaji wa programu na nambari ya kufuli.
+Pia ninapendekeza uende kwenye menyu ya "*Faragha na usalama*", ambapo unaweza kuwezesha chaguo la "*SimpleX Lock*". Hii inalinda ufikiaji wa programu na nambari ya lock.
 
 
 
@@ -175,7 +175,7 @@ Ili kuungana na mtu mwingine kwenye SimpleX, una chaguzi mbili:
 
 
 - Tumia kiungo cha matumizi moja;
-- Tumia tuli Address inayoweza kutumika tena.
+- Tumia  Address tuli inayoweza kutumika tena.
 
 
 
@@ -207,7 +207,7 @@ Address yako inayoweza kutumika tena imeundwa. Unaweza kuishiriki na watu wanaot
 
 
 
-Bofya kwenye kitufe cha "*Address mipangilio*". Hapa unaweza kusanidi ruhusa zinazohusiana na Address yako. Chaguo la "*Shiriki na anwani*" hufanya Address yako ionekane kwenye wasifu wako wa SimpleX. Watu unaowasiliana nao wataweza kuishauri na kuisambaza kwa watu wengine wanaotaka kuwasiliana nawe.
+Bofya kwenye kitufe cha "*Address settings*". Hapa unaweza kusanidi ruhusa zinazohusiana na Address yako. Chaguo la "*Shiriki na Address*" hufanya Address yako ionekane kwenye wasifu wako wa SimpleX. Watu unaowasiliana nao wataweza kuishauri na kuisambaza kwa watu wengine wanaotaka kuwasiliana nawe.
 
 
 
@@ -261,7 +261,7 @@ Hapa, ninachagua modi ya "*Incognito*".
 
 
 
-Anwani yangu imetumia kiungo. Kwa upande wake, hakuwasha modi ya "*Incognito*", ndiyo maana naona jina lake la wasifu, "*Bob*". Kwa upande mwingine, Bob haoni jina langu halisi "*Loïc Morel*", lakini jina bandia la nasibu, katika kesi hii "*RealSynergy*".
+Address yangu imetumia kiungo. Kwa upande wake, hakuwasha modi ya "*Incognito*", ndiyo maana naona jina lake la wasifu, "*Bob*". Kwa upande mwingine, Bob haoni jina langu halisi "*Loïc Morel*", lakini jina bandia la nasibu, katika kesi hii "*RealSynergy*".
 
 
 
@@ -357,7 +357,7 @@ Hapa utaona wasifu wako wote. Bofya kwenye "*Ongeza wasifu*" ili kuunda mpya.
 
 
 
-Kisha chagua maelezo ya wasifu wako mpya: jina, picha, n.k. Hapa, ninatumia jina bandia na picha tofauti kuficha utambulisho wangu halisi katika ubadilishanaji fulani.
+Kisha chagua maelezo ya wasifu wako mpya: jina, picha, n.k. Hapa, ninatumia jina bandia na picha tofauti kuficha utambulisho wangu halisi katika Exchange fulani.
 
 
 
@@ -381,7 +381,7 @@ Baada ya kuunda wasifu wako, unaweza kuzidhibiti kwa kujitegemea. Kutoka kwa uku
 
 
 
-Unapounda kiungo cha mwaliko au Address tuli, sasa unaweza kuchagua ni wasifu upi wa kuuhusisha. Kwa mfano, nikichagua wasifu "*Satoshi Nakamoto*" kwa generate kiungo na kuutuma kwa Alice, ataona tu utambulisho wangu usiojulikana "*Satoshi Nakamoto*", bila hata kujua utambulisho wangu halisi "*Loïc Morel*". Kinyume chake, nikimpatia kiungo kutoka kwa wasifu wangu halisi, hatakuwa na njia ya kuunganisha kwa wasifu wangu usiojulikana.
+Unapounda kiungo cha mwaliko au Address tuli, sasa unaweza kuchagua ni wasifu upi wa kuuhusisha. Kwa mfano, nikichagua wasifu "*Satoshi Nakamoto*" kwa kuzalisha kiungo na kuutuma kwa Alice, ataona tu utambulisho wangu usiojulikana "*Satoshi Nakamoto*", bila hata kujua utambulisho wangu halisi "*Loïc Morel*". Kinyume chake, nikimpatia kiungo kutoka kwa wasifu wangu halisi, hatakuwa na njia ya kuunganisha kwa wasifu wangu usiojulikana.
 
 
 

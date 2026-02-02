@@ -1,0 +1,8 @@
+question: Katika ukosoaji wa Bastiat kuhusu dhana potofu za kiuchumi, ni kosa gani la msingi la kimantiki linalosababisha hoja ya ulinzi kwamba Ufaransa inapaswa kuepuka kuitajirisha Uingereza kupitia biashara?
+answer: Dhana potofu kwamba maslahi ya kiuchumi yanapingana badala ya kuwa ya usawa katika mabadilishano ya hiari
+wrong_answers:
+  - Imani isiyo sahihi kwamba Ufaransa haina rasilimali asilia za kutosha kushindana na Uingereza
+  - "Wazo potofu kwamba uwezo wa viwanda wa Uingereza unaipa faida isiyo ya haki ya kiteknolojia"
+  - Dhana potofu kwamba upungufu wa biashara husababisha moja kwa moja kushuka kwa uchumi wa taifa
+explanation: |
+  Bastiat alibainisha kuwa watetezi wa haki za binadamu wanaona vibaya mahusiano ya kiuchumi kupitia lenzi ya kizamani ya maslahi yanayokinzana, sawa na makabila ya kale yanayopigania maeneo ya uwindaji. Kwa kweli, ubadilishanaji wa hiari hunufaisha pande zote mbili - wateja na wauzaji wanapofanya biashara kwa uhuru, wote hupata thamani. Hofu ya watetezi wa haki za binadamu ya 'kuwatajirisha maadui' kupitia biashara inaonyesha kutoelewana kwa msingi kuhusu jinsi mahusiano ya soko yanavyofanya kazi, ambapo faida ya pande zote mbili badala ya ushindani wa sifuri huashiria mwingiliano wa kweli wa kiuchumi.

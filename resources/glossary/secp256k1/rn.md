@@ -1,5 +1,6 @@
 ---
 term: SECP256K1
+definition: Uburyo bwa elliptic curve bukoreshwa kuri Bitcoin ku bigikumu vyo mu buhinga bwa ECDSA na Schnorr.
 ---
 
 Izina ry’umurongo wihariye w’umurongo w’uruzitiro ukoreshwa mu masezerano ya Bitcoin yo gushirwa mu ngiro kwa ECDSA (*Igiharuro c’umukono w’uruzitiro*) n’umurongo w’uruzitiro rwa Schnorr. Igiharuro ca `secp256k1` catowe n’uwahinguye Bitcoin, Satoshi Nakamoto. Ifise ibintu bimwe bimwe bishimishije, cane cane inyungu z’ibikorwa.

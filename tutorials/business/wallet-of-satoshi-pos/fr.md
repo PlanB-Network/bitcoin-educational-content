@@ -27,7 +27,7 @@ L'expérience Point de Vente proposée par Wallet of Satoshi se démarque des au
 
 Dans l'application, accédez au menu puis cliquez sur le bouton **Point de Vente** pour accéder au point de vente.
 
-❗L'accès au point de vente nécessite que vous soyez connecté avec votre email.
+❗L'accès au point de vente nécessite que vous soyez connectés avec votre email.
 
 ![pos](assets/fr/01.webp)
 
@@ -47,7 +47,7 @@ Cliquez sur le bouton **Charge** pour générer une facture Lightning associée 
 
 ![charge](assets/fr/05.webp)
 
-Dans le menu **Historique**, retrouvez la liste des paiements de chaque facture que vous avez généré dans votre point de vente. Cette historique est distincte de l'historique par défaut de votre compte Wallet of Satoshi qui regroupe l'ensemble des paiements que vous avez effectué et reçu hors point de vente.
+Dans le menu **Historique**, retrouvez la liste des paiements de chaque facture que vous avez généré dans votre point de vente. Cette historique est distincte de l'historique par défaut de votre compte Wallet of Satoshi qui regroupe l'ensemble des paiements que vous avez effectués et reçus hors point de vente.
 
 ![history](assets/fr/06.webp)
 
@@ -55,7 +55,7 @@ Dans le menu **Historique**, retrouvez la liste des paiements de chaque facture 
 
 Avoir une expérience fluide avec le point de vente revient à également trouver la configuration qui est adaptée à votre environnement.
 
-Dans le menu du portefeuille Wallet of Satoshi, sélectionnez parmi les devises supportées, votre monnaie locale afin de configurer vos produits dans des unités monétaires que vous maitrisez.
+Dans le menu du portefeuille Wallet of Satoshi, sélectionnez parmi les devises supportées, votre monnaie locale afin de configurer vos produits dans des unités monétaires que vous maîtrisez.
 
 
 ![currencies](assets/fr/07.webp)

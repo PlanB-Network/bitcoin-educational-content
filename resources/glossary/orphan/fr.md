@@ -1,5 +1,6 @@
 ---
-term: ORPHELIN
+term: Orphelin
+definition: Bloc valide non retenu dans la chaîne principale ou dont le parent n'est pas encore connu.
 ---
 
 Théoriquement, un bloc orphelin désigne un bloc valide réceptionné par un nœud qui n'a pas encore acquis le bloc parent, c'est-à-dire le précédent dans la chaîne. Ce bloc, bien que valide, demeure isolé localement en tant qu'orphelin.

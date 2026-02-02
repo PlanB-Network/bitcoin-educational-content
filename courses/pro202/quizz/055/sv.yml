@@ -1,0 +1,8 @@
+question: När en Bitcoin-nod begär blockheaders med kommandot getheaders, vilket är det maximala antalet headers som kan returneras i ett enda svar, och vad följer efter varje 80-bytesheader?
+answer: Upp till 2000 rubriker kan returneras, var och en följd av ett dummy-transaktionsantal på noll
+wrong_answers:
+  - Upp till 1000 rubriker kan returneras, var och en följd av det faktiska antalet transaktioner som en varint
+  - Upp till 2000 rubriker kan returneras, var och en följd av en kontrollsumma på 4 byte av rubrikdatan
+  - Upp till 500 rubriker kan returneras, var och en följd av Merkle-rotens hash för verifiering
+explanation: |
+  Bitcoin:s P2P-protokoll begränsar specifikt getheaders-svar till maximalt 2000 headers för att förhindra att noder överväldigas med massiva svar. Varje rubrik är exakt 80 byte och följs av ett fält för transaktionsräkning som är nollställt, eftersom meddelanden med enbart rubriker inte innehåller faktiska transaktioner. Denna design möjliggör effektiv kedjesynkronisering där noder snabbt kan ladda ner och verifiera proof-of-work-kedjans struktur innan de begär fullständiga blockdata.

@@ -415,13 +415,13 @@ Lebih banyak sumber daya di Lampiran.
 
 
 
-- [BUNYI] (https://planb.academy/resources/glossary/bip)
-- [BIP-32] (https://planb.academy/resources/glossary/bip0032)
-- [BIP-39] (https://planb.academy/resources/glossary/bip0039)
-- [BIP-85] (https://planb.academy/resources/glossary/bip0085)
-- [Frasa seed] (https://planb.academy/resources/glossary/recovery-phrase)
-- [passphrase] (https://planb.academy/resources/glossary/passphrase-bip39)
-- [Multisig] (https://planb.academy/resources/glossary/multisig)
+- [BUNYI](https://planb.academy/resources/glossary/bip)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
+- [BIP-85](https://planb.academy/resources/glossary/bip0085)
+- [Frasa seed](https://planb.academy/resources/glossary/recovery-phrase)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 

@@ -1,0 +1,8 @@
+question: Cú pháp cập nhật cấu trúc cho phép bạn làm gì khi tạo các thể hiện cấu trúc mới trong Rust?
+answer: Tạo một phiên bản mới bằng cách chỉ định các trường đã thay đổi, đồng thời sao chép các trường còn lại từ phiên bản hiện có.
+wrong_answers:
+  - Chỉnh sửa các trường cấu trúc hiện có tại chỗ mà không cần tạo một phiên bản mới.
+  - Tự động thiết lập giá trị mặc định generate cho các trường không xác định bằng cách sử dụng thuộc tính Default.
+  - Kết hợp nhiều thể hiện cấu trúc lại với nhau thành một thể hiện kết hợp duy nhất.
+explanation: |
+  Cú pháp cập nhật cấu trúc trong Rust cho phép bạn tạo một thể hiện cấu trúc mới bằng cách chỉ định các trường bạn muốn thay đổi, đồng thời tự động sao chép tất cả các trường khác từ một thể hiện hiện có. Điều này được thực hiện bằng cách sử dụng cú pháp `..existing_instance`. Các tùy chọn khác không chính xác: cú pháp cập nhật cấu trúc luôn tạo một thể hiện mới thay vì sửa đổi các thể hiện hiện có, nó không sử dụng giá trị mặc định của generate mà sao chép từ các thể hiện hiện có, và nó hoạt động với một thể hiện nguồn duy nhất thay vì hợp nhất nhiều thể hiện lại với nhau.

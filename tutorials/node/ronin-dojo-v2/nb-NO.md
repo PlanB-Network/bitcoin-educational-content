@@ -327,7 +327,7 @@ Etter å ha utført coinjoins med Whirlpool, er det nyttig å nøyaktig evaluere
 
 For å fordype din forståelse av beregningsmekanismene til disse anonsets, anbefaler jeg å lese artikkelen: REMIX - WHIRLPOOL, som detaljerer funksjonen til disse indeksene.
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 For å få tilgang til WST-verktøyet, gå til RoninCLI. For å gjøre dette, åpne en terminal på din personlige datamaskin og etabler en SSH-forbindelse med noden din ved å bruke følgende kommando:
 `SSH ronindojo@[IP]`

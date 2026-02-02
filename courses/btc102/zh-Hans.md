@@ -1847,7 +1847,7 @@ https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-5
 
 https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
 https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
@@ -2372,7 +2372,7 @@ Pamela Morgan 的《Cryptoasset Inheritance Planning》启发而设计的一个�
 - 我用手机（三星 Galaxy S8）访问我的 Samourai Wallet。这台 Wallet 的恢复短语保存了两份：一份存放在银行保险库，另一份存放在鲍勃叔叔那里。解锁我的手机和 Wallet 所需的 PIN 码保存在我家和我奶奶那里。
 - 我通过我的戴尔 2018 笔记本电脑访问在线 Exchange 平台 Bitfinex。可能还有比特币或美元。要找回这些资金，您需要直接联系 Bitfinex 或尝试访问我的账户。(小心，这可能是非法的--请查看您当地的法律**）**。
 - 我使用密码管理器确保在线账户的安全访问。密码管理器的备份保存在银行保险库中。我的 Bitfinex 账户还受到双因素身份验证的保护，可以通过手机（三星 Galaxy S8，Authy 应用程序）或我保存在家里的备份密码访问。
-- 我拥有一台 Trezor Model One Hardware Wallet，通过电脑使用 Sparrow Wallet 软件进行访问。这台 Wallet 的恢复短语存储在两份拷贝中：一份在银行保险库，另一份在鲍勃叔叔那里。Wallet 的 PIN 码保存在我家和我母亲那里。设备本身可能存放在我办公室的保险柜里。我在 Trezor Model One 上使用 BIP39 passphrase。这个 passphrase 对于访问设备上的资金至关重要。passphrase 的备份存储在两个地方：我的家中和我母亲处。
+- 我拥有一台 Trezor Model One [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)，通过电脑使用 Sparrow Wallet 软件进行访问。这台 Wallet 的恢复短语存储在两份拷贝中：一份在银行保险库，另一份在鲍勃叔叔那里。Wallet 的 PIN 码保存在我家和我母亲那里。设备本身可能存放在我办公室的保险柜里。我在 Trezor Model One 上使用 BIP39 passphrase。这个 passphrase 对于访问设备上的资金至关重要。passphrase 的备份存储在两个地方：我的家中和我母亲处。
 
 在处理这些资金之前，采取一切必要的预防措施。永远不要向一个人透露全部的追偿条款，只有在绝对必要的情况下才分享这些细节。
 

@@ -1,5 +1,6 @@
 ---
-term: UBINAFSI Mining
+term: Selfish mining
+definition: Mkakati wa uchimbaji wa kuweka siri vitalu ili kupata uongozi juu ya wachimbaji wengine.
 ---
 
 Mkakati (au mashambulizi) katika Mining, ambapo Miner au kikundi cha wachimbaji hushikilia kwa makusudi vizuizi vilivyo na Proof of Work halali bila kuvitoa mara moja kwenye mtandao. Madhumuni ni kuwatanguliza wachimbaji madini wengine kwa mujibu wa Proof of Work, hivyo basi kuwawezesha kutumia Miner vitalu kadhaa mfululizo na kuvichapisha vyote mara moja, hivyo basi kuongeza faida zao. Kwa maneno mengine, kikundi cha kushambulia cha wachimbaji hakina mgodi kwenye kizuizi cha mwisho kilichoidhinishwa na mtandao mzima, lakini badala ya kizuizi ambacho wamejiumba wenyewe, ambacho kinatofautiana na kilichoidhinishwa na mtandao.

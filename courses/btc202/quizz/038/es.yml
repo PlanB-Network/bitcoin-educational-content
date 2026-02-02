@@ -1,5 +1,5 @@
 question: ¿Por qué no se recomienda un disco duro para un nodo Bitcoin?
-answer: Porque ralentiza significativamente la EII y el uso general
+answer: Porque ralentiza significativamente la IBD y el uso general
 wrong_answers:
   - Porque no puede almacenar archivos Blockchain
   - Porque consume muy poca energía y corre el riesgo de explotar

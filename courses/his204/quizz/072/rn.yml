@@ -1,4 +1,4 @@
-question: Ni mu buryo ubuhe bw’inyandiko Abbé Galiani yateye aba Physiocrates n’inyigisho yabo yerekeye umwidegemvyo wo gucuruza intete?
+question: Ni mu buryo ubuhe buhinga bw’inyandiko Abbé Galiani yateye aba Physiocrates n’inyigisho yabo yerekeye umwidegemvyo wo gucuruza ibinyantete?
 answer: Ikiganiro
 wrong_answers:
   - Igitabo
@@ -6,3 +6,4 @@ wrong_answers:
   - Ikigeragezo
 explanation: |
   Galiani yaraneguye abafiziyokarate mu gitabu ciwe citwa "Dialogues sur le commerce des blés", igitabu canditswe mu buryo bw'ibiganiro hagati y'abantu batandukanye.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste reden dat P2SH-verpakte SegWit transacties drie lagen van validatieregels gebruiken tijdens verificatie?
+answer: Om achterwaartse compatibiliteit te garanderen tussen pre-BIP16, post-BIP16 en SegWit knooppunten met behoud van consensus
+wrong_answers:
+  - De beveiliging verdrievoudigen door drie afzonderlijke cryptografische bewijzen te vereisen voordat de transactie wordt geaccepteerd
+  - Validatiewerklast verdelen over verschillende typen knooppunten om netwerkprestaties en schaalbaarheid te verbeteren
+  - double-spending aanvallen voorkomen door dezelfde transactiegegevens via drie onafhankelijke methoden te valideren
+explanation: |
+  P2SH ingepakt gebruikt SegWit drie validatielagen specifiek voor achterwaartse compatibiliteit: pre-BIP16 knooppunten accepteren het redeemScript als geldig, post-BIP16 knooppunten evalueren het waardoor OP_0 + hash op de stack achterblijft, en SegWit knooppunten voeren volledige getuige validatie uit. Deze gelaagde aanpak zorgt ervoor dat alle knooppunttypen kunnen deelnemen aan consensus zonder te breken, in tegenstelling tot de foute antwoorden die veiligheidsvermenigvuldiging, prestatiedistributie of het voorkomen van dubbele uitgaven als primaire motivaties suggereren.

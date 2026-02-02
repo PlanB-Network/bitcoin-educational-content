@@ -1,0 +1,9 @@
+question: Mikä vaihe seuraa välittömästi sen jälkeen, kun mobiilisovellus on julkaissut NWC-pyynnön releessä?
+answer: Solmu purkaa salauksen ja tarkistaa valtuutuksen
+wrong_answers:
+  - Välittäjä allekirjoittaa pyynnön solmulle
+  - Relay suorittaa maksun LND:lle
+  - Solmu avaa kanavan automaattisesti
+explanation: |
+  Solmu lukee tapahtuman, purkaa sen salauksen ja tarkistaa sitten, että tekijä on valtuutettu, ennen kuin se suorittaa toiminnon.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: NORMAL HÄRLEDNING
+term: Normal härledning
+definition: Process för att generera barn-nycklar med hjälp av den publika föräldra-nyckeln i HD-plånböcker.
 ---
 
 Processen för att generera barnnycklar i HD-plånböcker. Normal härledning använder den överordnade offentliga nyckeln som indata för funktionen `HMAC-SHA512`, vilket möjliggör generering av underordnade offentliga nycklar från den överordnade offentliga nyckeln och den överordnade chain code. Processen innebär att den överordnade publika nyckeln och ett index som är mindre än $2^{31}$ konkateneras, följt av tillämpningen av `HMAC-SHA512` med den överordnade chain code. Resultatet delas upp i två delar: de första 256 bitarna läggs till den överordnade privata nyckeln för att erhålla den underordnade privata nyckeln, medan de återstående 256 bitarna bildar den underordnade chain code. Den här metoden säkerställer att den utökade publika nyckeln kan användas för att härleda publika nycklar för barn. Vid standardavledning används normal avledning på alla avledningsnivåer från kontodjupet. I notationen av avledningsvägar identifieras en normal avledning när det bara finns index utan apostrof `'`.

@@ -47,7 +47,7 @@ objectives:
 
 قبل از پرداختن به جزئیات ساخت و عملکرد کیف‌پول‌های Bitcoin، با چند فصل درباره اصول رمزنگاری شروع می‌کنیم تا برای مطالب بعدی آماده شویم.
 
-ما با توابع رمزنگاری Hash شروع خواهیم کرد، که برای هر دو کیف پول و پروتکل Bitcoin اساسی هستند. شما ویژگی‌های اصلی آن‌ها، توابع خاص مورد استفاده در Bitcoin را کشف خواهید کرد و در یک فصل فنی‌تر، به‌طور دقیق با عملکرد ملکه توابع Hash: SHA256 آشنا خواهید شد.
+ما با توابع رمزنگاری Hash شروع خواهیم کرد، که برای هر دو کیف پول و پروتکل Bitcoin اساسی هستند. شما ویژگی‌های اصلی آن‌ها، توابع خاص مورد استفاده در Bitcoin را کشف خواهید کرد و در یک فصل فنی‌تر، به‌طور دقیق با عملکرد ملکه توابع Hash: [SHA256](https://planb.academy/resources/glossary/sha256) آشنا خواهید شد.
 
 
 ![CYP201](assets/en/001.webp)
@@ -65,7 +65,7 @@ objectives:
 ![CYP201](assets/en/003.webp)
 
 
-آموزش با مطالعه BIP39 passphrase، seed (که نباید با عبارت Mnemonic اشتباه گرفته شود)، استاد chain code و کلید اصلی ادامه خواهد یافت. ما به طور دقیق خواهیم دید که این Elements چیستند، نقش‌های مربوطه آن‌ها چیست و چگونه محاسبه می‌شوند.
+آموزش با مطالعه [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase، seed (که نباید با عبارت Mnemonic اشتباه گرفته شود)، استاد chain code و کلید اصلی ادامه خواهد یافت. ما به طور دقیق خواهیم دید که این Elements چیستند، نقش‌های مربوطه آن‌ها چیست و چگونه محاسبه می‌شوند.
 
 
 ![CYP201](assets/en/004.webp)
@@ -949,7 +949,7 @@ $$
 در نتیجه، کاربری که بیت‌کوین‌هایی با یک کلید عمومی قفل شده دارد، باید راهی برای ذخیره امن چیزی که امکان باز کردن قفل وجوهشان را می‌دهد پیدا کند: کلید خصوصی. یک Bitcoin Wallet دقیقاً دستگاهی است که به شما اجازه می‌دهد به راحتی تمام کلیدهای خود را بدون اینکه دیگران به آنها دسترسی داشته باشند، نگه دارید. بنابراین بیشتر شبیه یک جاکلیدی است تا یک Wallet.
 
 
-ارتباط ریاضی بین یک کلید عمومی و یک کلید خصوصی، و همچنین توانایی انجام امضایی برای اثبات مالکیت یک کلید خصوصی بدون افشای آن، توسط یک الگوریتم امضای دیجیتال ممکن می‌شود. در پروتکل Bitcoin، دو الگوریتم امضا استفاده می‌شود: **ECDSA** (_الگوریتم امضای دیجیتال بیضوی_) و **طرح امضای اشنور**. ECDSA پروتکل امضای دیجیتال است که از ابتدای Bitcoin استفاده می‌شود. اشنور در Bitcoin جدیدتر است، زیرا در نوامبر 2021 با به‌روزرسانی Taproot معرفی شد.
+ارتباط ریاضی بین یک کلید عمومی و یک کلید خصوصی، و همچنین توانایی انجام امضایی برای اثبات مالکیت یک کلید خصوصی بدون افشای آن، توسط یک الگوریتم امضای دیجیتال ممکن می‌شود. در پروتکل Bitcoin، دو الگوریتم امضا استفاده می‌شود: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_الگوریتم امضای دیجیتال بیضوی_) و **طرح امضای اشنور**. ECDSA پروتکل امضای دیجیتال است که از ابتدای Bitcoin استفاده می‌شود. اشنور در Bitcoin جدیدتر است، زیرا در نوامبر 2021 با به‌روزرسانی Taproot معرفی شد.
 
 این دو الگوریتم در مکانیزم‌های خود بسیار مشابه هستند. هر دو بر اساس رمزنگاری منحنی بیضوی هستند. تفاوت اصلی بین این دو پروتکل در ساختار امضا و برخی ویژگی‌های ریاضی خاص نهفته است. بنابراین، ما عملکرد این الگوریتم‌ها را بررسی خواهیم کرد و با قدیمی‌ترین آن‌ها شروع می‌کنیم: ECDSA.
 
@@ -2749,20 +2749,22 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 دقیقا در *scriptPubKey* است که آدرس‌های دریافت‌کننده یافت می‌شوند. با این حال، استفاده از آن‌ها بسته به استاندارد اسکریپت اتخاذ شده متفاوت است. در اینجا یک جدول خلاصه از اطلاعات موجود در *scriptPubKey* بر اساس استاندارد استفاده شده، و همچنین اطلاعات مورد انتظار در *scriptSig* برای باز کردن قفل *scriptPubKey* ارائه شده است.
 
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Arbitrary data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*منبع: Bitcoin Core PR review club، 7 ژوئیه 2021 - گلوریا ژائو*
 
+
+| استاندارد             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | داده‌های دلخواه | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_منبع: باشگاه بررسی Bitcoin Core PR در ۷ ژوئیهٔ ۲۰۲۱ – گلوریا ژائو_
 
 کدهای عملیاتی استفاده‌شده در یک اسکریپت برای دستکاری اطلاعات طراحی شده‌اند و در صورت لزوم، برای مقایسه یا آزمایش آن‌ها به کار می‌روند. بیایید مثال یک اسکریپت P2PKH را بررسی کنیم که به صورت زیر است:
 

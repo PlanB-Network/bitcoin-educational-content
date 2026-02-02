@@ -1,0 +1,9 @@
+question: Co podle definice Pietera Wuilleho znamená "bezdůvěryhodný" v kontextu distribuovaných systémů?
+answer: Systém, který ke správnému fungování nevyžaduje žádné důvěryhodné strany
+wrong_answers:
+  - Systém, ve kterém uživatelé nemohou důvěřovat žádnému z účastníků nebo ověřovatelů
+  - Systém, který eliminuje všechny formy důvěry včetně softwaru a hardwaru
+  - Systém, v němž transakce nemůže nikdo zrušit ani zpochybnit
+explanation: |
+  Trustless se konkrétně týká technické vlastnosti, kdy distribuovaný systém může správně fungovat, aniž by vyžadoval důvěryhodné strany. To se liší od vyloučení veškeré důvěryhodnosti (stále důvěřujete svému softwaru/hardwaru) nebo zabránění zvrácení (transakce Bitcoin lze zvrátit přepsáním řetězce). Tento termín také neznamená, že uživatelé nemohou účastníkům důvěřovat - spíše to, že správnost systému nezávisí na jejich důvěře.
+reviewed: false

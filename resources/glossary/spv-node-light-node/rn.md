@@ -1,5 +1,6 @@
 ---
-term: SPV NODE (UMUCO)
+term: Noeud spv (noeud léger)
+definition: Umukoresha woroheje wemeza ama transactions mu kubika gusa imitwe y'amablock no kwemeza ivyemezo vya Merkle.
 ---
 
 Igikoresho ca SPV (*Simple Payment Verification*), rimwe na rimwe citwa "igikoresho c'umuco," ni umukiriya woroshe w'igikoresho ca Bitcoin gishobora gutuma abakoresha bemeza amafaranga ataco bakeneye kubika Blockchain yose. Ahubwo, urudodo rwa SPV rubika gusa imitwe y’amabuye kandi ruronka amakuru yerekeye ibikorwa vyihariye mu kubaza urudodo rwuzuye iyo bikenewe. Iryo hame ryo kugenzura rishoboka kubera imiterere y’ibikorwa mu bice vya Bitcoin, bitunganijwe mu gice c’ivy’ubuhinga bwo gukora amakuru (Merkle Tree).

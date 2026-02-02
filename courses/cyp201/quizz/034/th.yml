@@ -1,0 +1,9 @@
+question: ธง sighash ใดที่ใช้บ่อยที่สุดในธุรกรรม Bitcoin?
+answer: SIGHASH_ALL
+wrong_answers:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+explanation: |
+  SIGHASH_ALL เป็นค่าเริ่มต้นของ sighash flag ที่ครอบคลุมทุกอินพุตและเอาท์พุตของธุรกรรม ป้องกันการแก้ไขใดๆ
+reviewed: false

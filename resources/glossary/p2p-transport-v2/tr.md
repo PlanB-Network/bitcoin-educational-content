@@ -1,5 +1,6 @@
 ---
-term: P2P TAŞIMA V2
+term: P2P TRANSPORT V2
+definition: Gizliliği artırmak için şifreleme içeren yeni Bitcoin P2P protokolü sürümü.
 ---
 
 Düğümler arasındaki iletişimin gizliliğini ve güvenliğini artırmak için fırsatçı şifrelemeyi içeren Bitcoin P2P taşıma protokolünün yeni sürümü. Bu iyileştirme, Address protokolünün temel sürümüyle ilgili çeşitli sorunları, özellikle de değiş tokuş edilen verileri pasif bir gözlemci (internet servis sağlayıcısı gibi) için ayırt edilemez hale getirerek, böylece veri paketlerindeki belirli modellerin algılanması yoluyla sansür ve saldırı risklerini azaltmayı amaçlamaktadır.

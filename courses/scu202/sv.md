@@ -403,7 +403,7 @@ Linux är fortfarande en minoritet på persondatorer (ca 4%), men dominerar serv
 
 
 
-*Källa april 2025: [StatCounter Global Stats - OS Market Share] (https://gs.statcounter.com/os-market-share/desktop/worldwide)*
+*Källa april 2025: [StatCounter Global Stats - OS Market Share](https://gs.statcounter.com/os-market-share/desktop/worldwide)*
 
 
 
@@ -1032,7 +1032,7 @@ Slutligen, ChromeOS, operativsystemet som Google utvecklat för sina Chromebooks
 
 
 
-För att ta reda på mer om Linux-distributionsfamiljerna och visualisera grenarna i varje, rekommenderar jag att du konsulterar detta utmärkta och mycket omfattande diagram på Wikimedia: [*Linux Distribution Timeline*] (https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
+För att ta reda på mer om Linux-distributionsfamiljerna och visualisera grenarna i varje, rekommenderar jag att du konsulterar detta utmärkta och mycket omfattande diagram på Wikimedia: [*Linux Distribution Timeline*](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
 
 
 
@@ -1831,7 +1831,7 @@ För att installera Ubuntu på din dator måste du göra ISO-bilden startbar fr�
 
 
 
-Anslut ett USB-minne på minst 8 GB (se upp, innehållet raderas) och använd sedan ett verktyg som [BalenaEtcher] (https://www.balena.io/etcher) för att skapa ett startbart media från ISO-bilden. Välj helt enkelt ISO-filen, USB-minnet och klicka på "*Flash*".
+Anslut ett USB-minne på minst 8 GB (se upp, innehållet raderas) och använd sedan ett verktyg som [BalenaEtcher](https://www.balena.io/etcher) för att skapa ett startbart media från ISO-bilden. Välj helt enkelt ISO-filen, USB-minnet och klicka på "*Flash*".
 
 
 
@@ -3204,7 +3204,7 @@ Detta lösenord måste vara starkt:
 
 
 
-*Källa: [Hive Systems [Hive Systems] (https://www.hivesystems.com/)*
+*Källa: [Hive Systems [Hive Systems](https://www.hivesystems.com/)*
 
 
 
@@ -4117,7 +4117,7 @@ brew install gnupg
 
 
 
-För Windows, om du inte har GPG, kan du installera [Gpg4win] (https://www.gpg4win.org/).
+För Windows, om du inte har GPG, kan du installera [Gpg4win](https://www.gpg4win.org/).
 
 
 
@@ -4133,7 +4133,7 @@ För att komma igång behöver du flera dokument som rör den programvara du vil
 
 
 
-Besök den officiella webbplatsen för [Sparrow wallet i avsnittet "_Download_"] (https://sparrowwallet.com/download/). Om du vill kolla in ett annat program kan du besöka webbplatsen för det programmet.
+Besök den officiella webbplatsen för [Sparrow wallet i avsnittet "_Download_"](https://sparrowwallet.com/download/). Om du vill kolla in ett annat program kan du besöka webbplatsen för det programmet.
 
 
 
@@ -4141,7 +4141,7 @@ Besök den officiella webbplatsen för [Sparrow wallet i avsnittet "_Download_"]
 
 
 
-Du kan också gå [till projektets GitHub-repository] (https://github.com/sparrowwallet/Sparrow/releases).
+Du kan också gå [till projektets GitHub-repository](https://github.com/sparrowwallet/Sparrow/releases).
 
 
 
@@ -4181,7 +4181,7 @@ Slutligen behöver du utvecklarens publika nyckel för att verifiera PGP-signatu
 
 
 
-När det gäller *Sparrow wallet* kan du hitta utvecklarens offentliga nyckel [Craig Raw på Keybase] (https://keybase.io/craigraw). För att ladda ner den direkt från terminalen kör du följande kommando:
+När det gäller *Sparrow wallet* kan du hitta utvecklarens offentliga nyckel [Craig Raw på Keybase](https://keybase.io/craigraw). För att ladda ner den direkt från terminalen kör du följande kommando:
 
 
 
@@ -5114,7 +5114,7 @@ mat2 ~/Downloads/*
 
 
 
-På Windows och macOS finns det flera metoder för att ta bort metadata från dina dokument. Enligt min mening är det enklast att använda programvaran med öppen källkod [ExifCleaner] (https://exifcleaner.com/). Detta lättviktiga verktyg har en grafisk Interface och kan hantera de flesta filformat genom att helt enkelt dra och släppa. Genom att släppa en eller flera filer på Interface tar programvaran automatiskt bort onödiga metadata och ersätter originalfilerna i samma katalog. ExifCleaner finns tillgängligt för Windows, macOS och Linux.
+På Windows och macOS finns det flera metoder för att ta bort metadata från dina dokument. Enligt min mening är det enklast att använda programvaran med öppen källkod [ExifCleaner](https://exifcleaner.com/). Detta lättviktiga verktyg har en grafisk Interface och kan hantera de flesta filformat genom att helt enkelt dra och släppa. Genom att släppa en eller flera filer på Interface tar programvaran automatiskt bort onödiga metadata och ersätter originalfilerna i samma katalog. ExifCleaner finns tillgängligt för Windows, macOS och Linux.
 
 
 
@@ -5560,7 +5560,7 @@ Syftet med detta kapitel är att hjälpa dig att välja den webbläsare som bäs
 
 
 
-[Chrome] (https://www.google.com/chrome/) utvecklas snabbt och kontinuerligt, främst under ledning av Google. Den är erkänd för sin höga prestanda, snabbhet, breda kompatibilitet med moderna webbstandarder och en bra integration av Googles tjänster.
+[Chrome](https://www.google.com/chrome/) utvecklas snabbt och kontinuerligt, främst under ledning av Google. Den är erkänd för sin höga prestanda, snabbhet, breda kompatibilitet med moderna webbstandarder och en bra integration av Googles tjänster.
 
 
 
@@ -5646,7 +5646,7 @@ Om du vill kontrollera om ditt fingeravtryck i webbläsaren gör dig unik eller 
 
 
 
-[Vivaldi] (https://vivaldi.com/), grundat av Operas tidigare VD, riktar sig till avancerade användare som vill ha en djupare personalisering och avancerade funktioner som sidopaneler, en avancerad flikhanterare och integrerad anteckningsfunktion.
+[Vivaldi](https://vivaldi.com/), grundat av Operas tidigare VD, riktar sig till avancerade användare som vill ha en djupare personalisering och avancerade funktioner som sidopaneler, en avancerad flikhanterare och integrerad anteckningsfunktion.
 
 
 
@@ -5662,7 +5662,7 @@ När det gäller säkerhet innehåller Vivaldi flera funktioner för att blocker
 
 
 
-[Opera] (https://www.opera.com/) är en webbläsare med lång historia, som har funnits sedan 1995. Den använder nu Blink efter att ha övergivit sin egenutvecklade motor (*Presto*). Den har en modern Interface och några innovativa funktioner.
+[Opera](https://www.opera.com/) är en webbläsare med lång historia, som har funnits sedan 1995. Den använder nu Blink efter att ha övergivit sin egenutvecklade motor (*Presto*). Den har en modern Interface och några innovativa funktioner.
 
 
 
@@ -5688,7 +5688,7 @@ Bland de Blink-baserade webbläsarna finns också ett antal mer marginella webbl
 
 
 
-[Arc] (https://arc.net/) har utvecklats av The Browser Company och erbjuder ett radikalt annorlunda tillvägagångssätt för användaren Interface. Det ersätter traditionella flikar med ett system av "*spaces*", ett enhetligt sidofält och integrerar kreativa verktyg som annoterbara bilder och en enkel webbplatsredigerare. Tyngdpunkten ligger på användarvänlighet, visuell anpassning och smidig användning, vilket gör detta till ett verktyg som föredras av vissa yrkesverksamma.
+[Arc](https://arc.net/) har utvecklats av The Browser Company och erbjuder ett radikalt annorlunda tillvägagångssätt för användaren Interface. Det ersätter traditionella flikar med ett system av "*spaces*", ett enhetligt sidofält och integrerar kreativa verktyg som annoterbara bilder och en enkel webbplatsredigerare. Tyngdpunkten ligger på användarvänlighet, visuell anpassning och smidig användning, vilket gör detta till ett verktyg som föredras av vissa yrkesverksamma.
 
 
 
@@ -5706,7 +5706,7 @@ Ur teknisk synvinkel är Arc baserat på Chromium, men är fortfarande en propri
 
 
 
-[Polypane] (https://polypane.app/) riktar sig särskilt till frontend-utvecklare och UX-designers. Dess huvudsakliga funktion är att samtidigt visa flera instanser av samma webbplats på olika skärmupplösningar, för att testa det *responsiva* beteendet hos en Interface i realtid. Den erbjuder också tillgänglighetsverktyg, HTML/CSS-validatorer, färgblindsimulatorer och prestandamätningar.
+[Polypane](https://polypane.app/) riktar sig särskilt till frontend-utvecklare och UX-designers. Dess huvudsakliga funktion är att samtidigt visa flera instanser av samma webbplats på olika skärmupplösningar, för att testa det *responsiva* beteendet hos en Interface i realtid. Den erbjuder också tillgänglighetsverktyg, HTML/CSS-validatorer, färgblindsimulatorer och prestandamätningar.
 
 
 
@@ -5726,7 +5726,7 @@ Polypane är en egenutvecklad och betald webbläsare baserad på Chromium, vilke
 
 
 
-[Firefox] (https://www.mozilla.org/firefox/new/) är den mest framstående webbläsaren som använder renderingsmotorn Gecko. Firefox är utvecklad av Mozilla Foundation och utmärker sig genom sin tydliga integritetspolicy: förbättrat spårningsskydd, avancerade alternativ för att blockera cookies från tredje part, isolerade flikbehållare och integrering av säkerhetsfokuserade tillägg.
+[Firefox](https://www.mozilla.org/firefox/new/) är den mest framstående webbläsaren som använder renderingsmotorn Gecko. Firefox är utvecklad av Mozilla Foundation och utmärker sig genom sin tydliga integritetspolicy: förbättrat spårningsskydd, avancerade alternativ för att blockera cookies från tredje part, isolerade flikbehållare och integrering av säkerhetsfokuserade tillägg.
 
 
 
@@ -5751,7 +5751,7 @@ https://planb.academy/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-[Tor Browser] (https://www.torproject.org/download/) är en webbläsare baserad på Firefox ESR. Det är en av de mest robusta lösningarna för anonymitet på nätet. Den omdirigerar trafiken genom Tor-nätverket, vilket förhindrar någon direkt korrelation mellan användaren och webbdestinationen.
+[Tor Browser](https://www.torproject.org/download/) är en webbläsare baserad på Firefox ESR. Det är en av de mest robusta lösningarna för anonymitet på nätet. Den omdirigerar trafiken genom Tor-nätverket, vilket förhindrar någon direkt korrelation mellan användaren och webbdestinationen.
 
 
 
@@ -5767,7 +5767,7 @@ Nackdelen är en betydande prestandaförsämring (hög latens) och begränsad ko
 
 #### Mullvad Browser
 
-[Mullvad Browser] (https://mullvad.net/en/browser) är resultatet av ett samarbete mellan Tor Foundation och Mullvad VPN. Den är baserad på Tor-webbläsaren, som i sin tur är hämtad från Firefox ESR. Mullvad Browser är utformad för att maximera användarnas integritet. Som standard innehåller den avancerat skydd mot fingeravtryck, spårare och skript från tredje part.
+[Mullvad Browser](https://mullvad.net/en/browser) är resultatet av ett samarbete mellan Tor Foundation och Mullvad VPN. Den är baserad på Tor-webbläsaren, som i sin tur är hämtad från Firefox ESR. Mullvad Browser är utformad för att maximera användarnas integritet. Som standard innehåller den avancerat skydd mot fingeravtryck, spårare och skript från tredje part.
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
@@ -5803,7 +5803,7 @@ https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9
 
 #### Zen webbläsare
 
-[Zen Browser] (https://zen-browser.app/) är en gratis webbläsare med öppen källkod baserad på Firefox (Gecko-motor) som lanserades 2024. Dess mål är att erbjuda en modern, elegant, mycket anpassningsbar och framför allt integritetscentrerad surfupplevelse, utan beroende av Chromium.
+[Zen Browser](https://zen-browser.app/) är en gratis webbläsare med öppen källkod baserad på Firefox (Gecko-motor) som lanserades 2024. Dess mål är att erbjuda en modern, elegant, mycket anpassningsbar och framför allt integritetscentrerad surfupplevelse, utan beroende av Chromium.
 
 Zen utmärker sig för sin radikala inställning till Interface och användbarhet, till stor del inspirerad av Arc-webbläsaren, men ändå frigjord från den genom sin öppna källkod och Gecko-motor. Den innehåller :
 
@@ -5839,7 +5839,7 @@ Här fokuserar vi på webbläsare för datorer, men det är viktigt att notera a
 
 
 
-Ett intressant alternativ till Safari är [Orion] (https://kagi.com/orion/), en modern webbläsare som utformats exklusivt för Apples ekosystem och som också är baserad på WebKit. Syftet är att erbjuda ett snabbt, lättviktigt och integritetsvänligt alternativ, utan att kompromissa med avancerade funktioner.
+Ett intressant alternativ till Safari är [Orion](https://kagi.com/orion/), en modern webbläsare som utformats exklusivt för Apples ekosystem och som också är baserad på WebKit. Syftet är att erbjuda ett snabbt, lättviktigt och integritetsvänligt alternativ, utan att kompromissa med avancerade funktioner.
 
 
 
@@ -5864,7 +5864,7 @@ https://planb.academy/tutorials/computer-security/communication/orion-browser-a5
 
 
 
-Slutligen skulle jag vilja avsluta denna översikt med ett mycket mindre känt och mycket marginellt alternativ: webbläsare i textläge, varav den mest kända är [Lynx Browser] (https://lynx.invisible-island.net/).
+Slutligen skulle jag vilja avsluta denna översikt med ett mycket mindre känt och mycket marginellt alternativ: webbläsare i textläge, varav den mest kända är [Lynx Browser](https://lynx.invisible-island.net/).
 
 
 
@@ -6425,10 +6425,10 @@ För att begränsa denna spårning rekommenderar vi att du väljer sökmotorer s
 
 
 
-- [Startsidan] (https://www.startpage.com/);
-- [Kagi Search] (https://kagi.com/);
-- [Qwant] (https://www.qwant.com/);
-- [Mojeek] (https://www.mojeek.com/);
+- [Startsidan](https://www.startpage.com/);
+- [Kagi Search](https://kagi.com/);
+- [Qwant](https://www.qwant.com/);
+- [Mojeek](https://www.mojeek.com/);
 - [SearXNG](https://docs.searxng.org/) (som kan vara självhanterande).
 
 
@@ -6609,7 +6609,7 @@ Vissa tillverkare förbjuder eller komplicerar denna operation, eller till och m
 #### GrafénOS
 
 
-[GrapheneOS] (https://grapheneos.org/) är en förbättrad AOSP ROM, utformad för att erbjuda en högre säkerhetsnivå än standard Android. Den är utvecklad av ett oberoende team och granskad av experter. Graphene implementerar avancerade säkerhetsmekanismer, inklusive:
+[GrapheneOS](https://grapheneos.org/) är en förbättrad AOSP ROM, utformad för att erbjuda en högre säkerhetsnivå än standard Android. Den är utvecklad av ett oberoende team och granskad av experter. Graphene implementerar avancerade säkerhetsmekanismer, inklusive:
 
 
 
@@ -6635,7 +6635,7 @@ https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08
 #### CalyxOS
 
 
-[CalyxOS] (https://calyxos.org/) är ett mellanliggande system som syftar till att förena integritet, säkerhet och kompatibilitet med vardaglig användning. Det är också baserat på AOSP, med säkerhetsförbättringar. En speciell egenskap är den valfria integrationen av MicroG, en gratis reimplementering av Google-tjänster. Detta gör det möjligt att köra de flesta Android-applikationer som är beroende av Google-tjänster, utan att behöva gå via officiella proprietära binärer.
+[CalyxOS](https://calyxos.org/) är ett mellanliggande system som syftar till att förena integritet, säkerhet och kompatibilitet med vardaglig användning. Det är också baserat på AOSP, med säkerhetsförbättringar. En speciell egenskap är den valfria integrationen av MicroG, en gratis reimplementering av Google-tjänster. Detta gör det möjligt att köra de flesta Android-applikationer som är beroende av Google-tjänster, utan att behöva gå via officiella proprietära binärer.
 
 
 CalyxOS erbjuder också förinstallerade applikationer (Signal, F-Droid, Aurora Store, integrerad VPN ...) och en snygg Interface. Det är lätt att installera via ett grafiskt verktyg för Pixel-användare. Calyx är främst kompatibel med Google Pixels, men även vissa Fairphone- och Motorola-modeller.
@@ -6647,7 +6647,7 @@ CalyxOS erbjuder också förinstallerade applikationer (Signal, F-Droid, Aurora 
 #### LineageOS
 
 
-[LineageOS] (https://lineageos.org/), efterträdare till CyanogenMod, är den mest allmänt kompatibla alternativa ROM. Det stöder flera hundra modeller, tack vare en stor gemenskap av bidragsgivare. Baserat på AOSP betonar det anpassning, enkelhet och användarfrihet.
+[LineageOS](https://lineageos.org/), efterträdare till CyanogenMod, är den mest allmänt kompatibla alternativa ROM. Det stöder flera hundra modeller, tack vare en stor gemenskap av bidragsgivare. Baserat på AOSP betonar det anpassning, enkelhet och användarfrihet.
 
 
 LineageOS ger dig ett Android-system utan överlägg från tillverkare, utan bloatware, med fullständig behörighetshantering, enkel uppdatering och en strömlinjeformad Interface. Du kan lägga till Google-tjänster eller välja 100% fri användning.
@@ -6739,7 +6739,7 @@ Mobila applikationer utgör en stor riskkälla: Det är genom dem som majoritete
 Innan du installerar bör du ta dig tid att kontrollera några saker: behörigheter som krävs, antal nedladdningar, övergripande betyg, datum för senaste uppdatering och användarrecensioner.
 
 
-På Android erbjuder alternativa open source-butiker som [F-Droid] (https://f-droid.org/) en mer etisk och ofta säkrare lösning: varje applikation sammanställs från fria källor och granskas manuellt. För nödvändiga proprietära applikationer ger verktyg som [Aurora Store] (https://auroraoss.com/) tillgång till Play Store utan ett Google-konto, vilket begränsar datainsamlingen.
+På Android erbjuder alternativa open source-butiker som [F-Droid](https://f-droid.org/) en mer etisk och ofta säkrare lösning: varje applikation sammanställs från fria källor och granskas manuellt. För nödvändiga proprietära applikationer ger verktyg som [Aurora Store](https://auroraoss.com/) tillgång till Play Store utan ett Google-konto, vilket begränsar datainsamlingen.
 
 
 ![Image](assets/fr/140.webp)
@@ -7244,7 +7244,7 @@ FairEmail är en omfattande, säkerhetsorienterad Android-applikation. Den stöd
 
 
 
-- [K-9 Mail] (https://k9mail.app)
+- [K-9 Mail](https://k9mail.app)
 
 
 K-9 Mail är en Android-mailklient med öppen källkod som nyligen integrerades i Mozillas Thunderbird-ekosystem. Den stöder flera konton, PGP-kryptering via OpenKeychain och fungerar utan en mellanliggande server.
@@ -7254,7 +7254,7 @@ K-9 Mail är en Android-mailklient med öppen källkod som nyligen integrerades 
 
 
 
-- [Thunderbird Mobile] (https://www.thunderbird.net/mobile/)
+- [Thunderbird Mobile](https://www.thunderbird.net/mobile/)
 
 
 Thunderbird Mobile är den mobila versionen av den populära e-postklienten med öppen källkod som utvecklats av Mozilla Foundation. I enlighet med projektets filosofi betonar applikationen sekretess, kodtransparens och frånvaron av påträngande telemetri. Thunderbird Mobile är baserad på applikationen K-9 Mail, som är den officiella efterföljaren på Android. Den har avancerad hantering av IMAP- och POP-konton, e-postkryptering (via OpenPGP) och en enkel och effektiv Interface.
@@ -7265,7 +7265,7 @@ Thunderbird Mobile är den mobila versionen av den populära e-postklienten med 
 
 
 https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
-- [Tuta] (https://tuta.com/)
+- [Tuta](https://tuta.com/)
 
 
 Tuta (tidigare "*Tutanota*") erbjuder en komplett end-to-end-krypterad e-postlösning, men dess mobilklient stöder endast Tuta-konton. Den fungerar inte med andra leverantörer. Interface är modern och överskådlig och registrering kräver inga personuppgifter.
@@ -7275,7 +7275,7 @@ Tuta (tidigare "*Tutanota*") erbjuder en komplett end-to-end-krypterad e-postlö
 
 
 
-- [Proton Mail] (https://proton.me/mail)
+- [Proton Mail](https://proton.me/mail)
 
 
 Proton Mail är en säker Schweizbaserad meddelandetjänst som erbjuder inbyggd end-to-end-kryptering mellan Proton-användare. Mobilapplikationen är öppen källkod, annonsfri och samlar inte in några personuppgifter vid registrering. Proton Mail stöder endast Proton-konton, men tillåter krypterad sändning även till externa adresser via ett lösenord.
@@ -7294,11 +7294,11 @@ Här är några förslag, när du väljer din e-postleverantör:
 
 
 
-- [Proton Mail] (https://proton.me/mail)
-- [Tuta] (https://tuta.com/)
-- [Brevlåda] (https://mailbox.org/)
-- [Disroot] (https://disroot.org/)
-- [Mailfence] (https://mailfence.com/)
+- [Proton Mail](https://proton.me/mail)
+- [Tuta](https://tuta.com/)
+- [Brevlåda](https://mailbox.org/)
+- [Disroot](https://disroot.org/)
+- [Mailfence](https://mailfence.com/)
 
 
 ### Kartografi och navigering
@@ -7311,10 +7311,10 @@ De flesta klassiska kartapplikationer, t.ex. Google Maps, Waze eller Citymapper,
 
 
 
-- [Organiska kartor] (https://organicmaps.app/)
+- [Organiska kartor](https://organicmaps.app/)
 
 
-Organic Maps är ett gratis navigationsprogram för offline-navigering. Den är baserad på data från [OpenStreetMap] (https://www.openstreetmap.org), en öppen databas för samarbete. Du laddar ner kartorna över de regioner du är intresserad av och navigerar sedan utan nätverk.
+Organic Maps är ett gratis navigationsprogram för offline-navigering. Den är baserad på data från [OpenStreetMap](https://www.openstreetmap.org), en öppen databas för samarbete. Du laddar ner kartorna över de regioner du är intresserad av och navigerar sedan utan nätverk.
 
 
 Den innehåller ingen reklam, spårning eller datainsamling. Appen är särskilt lämpad för resor till fots, med cykel eller bil, med Interface enkelt, snabbt och distraktionsfritt.
@@ -7362,7 +7362,7 @@ Applikationen stöder samarbetsredigering när den är ansluten till en Nextclou
 
 
 
-- [ONLYOFFICE] (https://www.onlyoffice.com/)
+- [ONLYOFFICE](https://www.onlyoffice.com/)
 
 
 ONLYOFFICE är en kontorssvit med öppen källkod. Med det kan du öppna och redigera Word-, Excel- och PowerPoint-dokument direkt i mobilen, även lokalt. Du kan också ansluta den till olika molntjänster för automatisk synkronisering, t.ex. Nextcloud.
@@ -7381,7 +7381,7 @@ Tjänster som Google Drive eller Dropbox lagrar dina filer på fjärrservrar som
 
 
 
-- [Nextcloud] (https://nextcloud.com/)
+- [Nextcloud](https://nextcloud.com/)
 
 
 Nextcloud är en personlig molnlösning med öppen källkod som du kan vara värd för själv eller använda via en betrodd leverantör. Det låter dig synkronisera, dela och redigera dina filer från din smartphone, samtidigt som du behåller total kontroll över deras lagring.
@@ -7394,7 +7394,7 @@ På Android kan du installera den officiella Nextcloud-mobilappen för att komma
 
 
 
-- [Materialfiler] (https://github.com/zhanghai/MaterialFiles)
+- [Materialfiler](https://github.com/zhanghai/MaterialFiles)
 
 
 Material Files är en filhanterare med öppen källkod som är lätt och överskådlig. Med den kan du bläddra bland, flytta, kopiera eller radera filer lokalt på din Android-enhet.
@@ -7416,7 +7416,7 @@ Många använder program som Google Calendar eller Outlook Calendar för att han
 
 
 
-- [Etar] (https://github.com/Etar-Group/Etar-Calendar)
+- [Etar](https://github.com/Etar-Group/Etar-Calendar)
 
 
 Etar är en enkel, effektiv och helt öppen källkodskalender. Den kan köras lokalt, men tillåter också synkronisering via CalDAV, ett standardprotokoll för synkronisering av kalendrar med sekretessvänliga tjänster (som Nextcloud eller EteSync).
@@ -7426,7 +7426,7 @@ Etar är en enkel, effektiv och helt öppen källkodskalender. Den kan köras lo
 
 
 
-- [Enkel kalender] (https://simplemobiletools.com/simplecalendar/)
+- [Enkel kalender](https://simplemobiletools.com/simplecalendar/)
 
 
 Denna applikation är en del av sviten "*Simple Mobile Tools*". Den kräver inget konto eller nätverksåtkomst, vilket gör den idealisk för användning helt offline. Du kan lägga till händelser, ställa in påminnelser och organisera vyer per dag, vecka eller månad. Liksom resten av sviten är Simple Calendar reklamfri, spårningsfri och 100% öppen källkod.
@@ -7446,7 +7446,7 @@ Tuta Calendar, som utvecklats av teamet bakom Tuta Mail, är en helt krypterad k
 
 
 
-- [Proton Calendar] (https://proton.me/calendar)
+- [Proton Calendar](https://proton.me/calendar)
 
 
 Proton Calendar erbjuder också inbyggd end-to-end-kryptering för dina evenemang och deras metadata. Den är tillgänglig på mobilen (Android, iOS) och via en webbklient, med en tydlig och intuitiv Interface. Tjänsten gör det möjligt att skapa flera kalendrar, importera/exportera händelser och dela alternativ. Webbklienten är öppen källkod, men de mobila applikationerna är ännu inte helt öppna källkod.
@@ -7465,7 +7465,7 @@ Program som Evernote, Google Keep eller OneNote används för att fånga upp id�
 
 
 
-- [Quillpad] (https://quillpad.github.io/)
+- [Quillpad](https://quillpad.github.io/)
 
 
 Quillpad är en lättviktig applikation som är utformad speciellt för Markdown-anteckningar. Du kan välja att kryptera dina anteckningar, organisera ditt innehåll med taggar och färger och lägga till påminnelser. Allt fungerar utan konto eller anslutning och data lagras på din enhet. De kan också sparas krypterade på pCloud.
@@ -7475,7 +7475,7 @@ Quillpad är en lättviktig applikation som är utformad speciellt för Markdown
 
 
 
-- [Joplin] (https://joplinapp.org/)
+- [Joplin](https://joplinapp.org/)
 
 
 Joplin är en mer omfattande lösning som erbjuder synkronisering av krypterade anteckningar via kompatibla tjänster som Nextcloud, Dropbox eller WebDAV. Du kan hantera enkla eller strukturerade anteckningar (i Markdown), klassificera dina dokument och till och med importera filbilagor.
@@ -7497,7 +7497,7 @@ Många användare låter sina webbläsare lagra sina lösenord via lösningar so
 
 
 
-- [Bitwarden] (https://bitwarden.com/)
+- [Bitwarden](https://bitwarden.com/)
 
 
 Bitwarden är en av de mest omfattande lösenordshanterarna med öppen källkod som finns. Den krypterar alla dina inloggningsuppgifter lokalt, låter dig generate starka lösenord och erbjuder krypterad synkronisering mellan enheter.
@@ -7509,7 +7509,7 @@ Du kan använda Bitwardens servrar eller själv vara värd för det om du vill h
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
-- [KeePassDX] (https://www.keepassdx.com/)
+- [KeePassDX](https://www.keepassdx.com/)
 
 
 KeePass är en historisk lösenordshanterare baserad på krypterade lokala filer. På mobilen är KeePassDX en utmärkt Android-implementering som är kompatibel med alla KeePass-databaser. Det fungerar offline, utan moln, vilket gör det till en bra lösning för dem som vill hålla sina data 100% lokala.
@@ -7518,13 +7518,13 @@ KeePass är en historisk lösenordshanterare baserad på krypterade lokala filer
 ![Image](assets/fr/172.webp)
 
 
-Det finns också [KeePassium] (https://keepassium.com/) för iOS, en välintegrerad applikation i Apples ekosystem, kompatibel med KeePass-formatet och öppen källkod. Ett annat iOS-alternativ för en KeePass-klient är Strongbox, men den här programvaran har inte varit öppen källkod på flera år.
+Det finns också [KeePassium](https://keepassium.com/) för iOS, en välintegrerad applikation i Apples ekosystem, kompatibel med KeePass-formatet och öppen källkod. Ett annat iOS-alternativ för en KeePass-klient är Strongbox, men den här programvaran har inte varit öppen källkod på flera år.
 
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
-- [Proton Pass] (https://proton.me/pass)
+- [Proton Pass](https://proton.me/pass)
 
 
 Proton Pass lanserades av Proton-teamet (känt för bland annat Proton Mail och Proton Drive) och kombinerar användarvänlighet, end-to-end-kryptering och integritetsvänlig schweizisk infrastruktur. Mobilapplikationen är intuitiv, låter dig lägga till säkra anteckningar och stöder automatisk komplettering. Det är ett utmärkt alternativ för dem som vill ha en nyckelfärdig lösning utan att behöva oroa sig för den tekniska hanteringen.
@@ -7555,7 +7555,7 @@ Mullvad är en av de bästa VPN-tjänsterna när det gäller integritetsskydd. D
 https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
-- [IVPN] (https://www.ivpn.net/)
+- [IVPN](https://www.ivpn.net/)
 
 
 IVPN är ett annat utmärkt alternativ med fokus på integritet. De erbjuder en enkel och effektiv mobil Interface, ingen logginsamling och tillåter anonym registrering. Du kan också betala i bitcoins. Applikationen innehåller en brandvägg som blockerar all icke-VPN-trafik, vilket kan vara mycket användbart på en smartphone. Klienterna är öppen källkod.
@@ -7564,7 +7564,7 @@ IVPN är ett annat utmärkt alternativ med fokus på integritet. De erbjuder en 
 https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
-- [Proton VPN] (https://protonvpn.com/)
+- [Proton VPN](https://protonvpn.com/)
 
 
 Detta VPN har utvecklats av Proton-teamet och erbjuder en gratis, annonsfri plan. Proton VPN är baserat i Schweiz, omfattas av strikta sekretesslagar och publicerar regelbundna revisioner. Dess klienter är också öppen källkod.
@@ -7583,7 +7583,7 @@ Tvåfaktorsautentisering (2FA) är ytterligare en Layer av säkerhet utöver dit
 
 
 
-- [Aegis Authenticator] (https://getaegis.app/)
+- [Aegis Authenticator](https://getaegis.app/)
 
 
 Aegis är en omfattande applikation med öppen källkod. Det krypterar din 2FA-databas med ett lösenord, erbjuder exporterbara säkerhetskopior (även krypterade) och låter dig sortera dina konton efter katalog. Interface är tydlig, modern och enkel att återställa på en ny enhet, så länge du har backupfilen och tillhörande lösenord.
@@ -7593,7 +7593,7 @@ Aegis är en omfattande applikation med öppen källkod. Det krypterar din 2FA-d
 
 
 
-- [Ente Auth] (https://ente.io/auth/)
+- [Ente Auth](https://ente.io/auth/)
 
 
 Ente Auth är en modern, öppen källkodslösning för flera plattformar med krypterade säkerhetskopior från början till slut. Det gör att du kan synkronisera dina 2FA-koder på ett säkert sätt på mobil, dator och webb. Du kan också använda den offline, utan molnbackup eller skapande av konto.
@@ -7607,7 +7607,7 @@ Ente Auth erbjuder många ytterligare funktioner: Organisation med hjälp av tag
 
 
 
-- [Authy] (https://www.authy.com/)
+- [Authy](https://www.authy.com/)
 
 
 Authy erbjuder 2FA-synkronisering över flera enheter, vilket kan vara praktiskt, men applikationen är inte öppen källkod och kräver ett telefonnummer för registrering. För nybörjare är det dock mer komplett än Google Authenticator, särskilt tack vare dess molnbackupfunktion.
@@ -7631,7 +7631,7 @@ Klassiska väderapplikationer som AccuWeather eller Météo France samlar ofta i
 
 
 
-- [Geometriskt väder] (https://github.com/WangDaYeeeeee/GeometricWeather)
+- [Geometriskt väder](https://github.com/WangDaYeeeeee/GeometricWeather)
 
 
 Geometric Weather erbjuder detaljerade prognoser och anpassningsbara widgets, allt utan reklam eller påträngande datainsamling. Dess kod är öppen källkod. Applikationen stöder flera väderleverantörer.
@@ -7641,7 +7641,7 @@ Geometric Weather erbjuder detaljerade prognoser och anpassningsbara widgets, al
 
 
 
-- [Prognoza] (https://github.com/davidtakac/prognoza)
+- [Prognoza](https://github.com/davidtakac/prognoza)
 
 
 Prognoza är en minimalistisk applikation som går rakt på sak: Visning av aktuellt väder och prognoser. Den erbjuder flera widgets. Prognoza är annonsfri, spårningsfri och kräver ingen onödig auktorisering.
@@ -7651,7 +7651,7 @@ Prognoza är en minimalistisk applikation som går rakt på sak: Visning av aktu
 
 
 
-- [Forecastie] (https://github.com/martykan/forecastie)
+- [Forecastie](https://github.com/martykan/forecastie)
 
 
 Enkel väderapplikation, baserad på OpenWeatherMap, öppen källkod, konfigurerbar, med widgets.
@@ -7673,7 +7673,7 @@ Populära plattformar som Spotify eller YouTube erbjuder en sömlös användarup
 
 
 
-- [LibreTube] (https://libretube.dev/)
+- [LibreTube](https://libretube.dev/)
 
 
 LibreTube är en Android-applikation som låter dig titta på YouTube-videor utan att Google spårar dig. Alla förfrågningar omdirigeras via en Piped-proxyserver, som anonymiserar åtkomst till videor. Dess Interface är modern, snabb och annonsfri. Applikationen kräver inget Google-konto och låter dig anonymt prenumerera på kanaler eller skapa lokala spellistor.
@@ -7683,14 +7683,14 @@ LibreTube är en Android-applikation som låter dig titta på YouTube-videor uta
 
 
 
-- [NewPipe] (https://newpipe.net/)
+- [NewPipe](https://newpipe.net/)
 
 
 NewPipe är en annan alternativ YouTube-klient. Lätt, annonsfri, spårningsfri och helt öppen källkod, det låter dig visa, ladda ner eller lyssna på videor från YouTube (och andra plattformar som SoundCloud eller PeerTube) i bakgrunden. Ingen anslutning till Google krävs. NewPipe fungerar helt oberoende av den officiella YouTube-applikationen och kräver inte någon Google-tjänst för att fungera.
 
 
 
-- [VLC Android] (https://www.videolan.org/vlc/download-android.html)
+- [VLC Android](https://www.videolan.org/vlc/download-android.html)
 
 
 Den populära mediaspelaren VLC finns också tillgänglig på Android. Den stöder ett brett utbud av ljud- och videoformat och låter dig spela upp filer lokalt eller över ett nätverk, helt utan reklam eller datainsamling. Det är en utmärkt lösning för att hantera ditt eget multimediabibliotek lokalt, utan anslutning till en tredjepartstjänst.
@@ -7700,7 +7700,7 @@ Den populära mediaspelaren VLC finns också tillgänglig på Android. Den stöd
 
 
 
-- [Funkwhale] (https://funkwhale.audio/):
+- [Funkwhale](https://funkwhale.audio/):
 
 
 Funkwhale är en decentraliserad plattform för att dela och lyssna på musik, med kompatibla klienter.
@@ -7716,7 +7716,7 @@ Virtuella tangentbord som Googles Gboard eller Microsofts SwiftKey finns överal
 
 
 
-- [OpenBoard] (https://github.com/dslul/openboard)
+- [OpenBoard](https://github.com/dslul/openboard)
 
 
 OpenBoard är ett minimalistiskt Android-tangentbord med öppen källkod baserat på AOSP-tangentbordet (*Android open-source Project*). Det innehåller inga proprietära komponenter eller spårare och kommunicerar aldrig med fjärrservrar. Autokorrigering, prediktivt skrivande och en personlig ordbok fungerar endast lokalt.
@@ -7742,7 +7742,7 @@ Google Calculator-applikationen är visserligen effektiv, men den är fortfarand
 
 
 
-- [OpenCalc] (https://github.com/Darkempire78/OpenCalc)
+- [OpenCalc](https://github.com/Darkempire78/OpenCalc)
 
 
 OpenCalc är en snabb och lättanvänd kalkylator med öppen källkod som passar perfekt för vardagliga behov. Den samlar inte in några data och fungerar helt offline, utan reklam eller beroende av någon extern tjänst.
@@ -7761,7 +7761,7 @@ Google Play Store är standardkällan för applikationer på de flesta Android-s
 
 
 
-- [F-Cold] (https://f-droid.org/)
+- [F-Cold](https://f-droid.org/)
 
 
 F-Droid är en exklusiv applikationskatalog med öppen källkod. All tillgänglig programvara är fritt granskningsbar och nedladdningsbar, utan reklam, spårning eller beroende av Google-tjänster. F-Droid-applikationen i sig kräver inget användarkonto.
@@ -7771,7 +7771,7 @@ F-Droid är en exklusiv applikationskatalog med öppen källkod. All tillgängli
 
 
 
-- [Aurora Store] (https://auroraoss.com/)
+- [Aurora Store](https://auroraoss.com/)
 
 
 Aurora Store låter dig komma åt Google Play Store-katalogen anonymt utan ett Google-konto. Det är en gratis klient som interagerar direkt med Googles servrar, samtidigt som du maskerar din identitet via ett generiskt konto. Det är en värdefull lösning för att fortsätta använda vissa nödvändiga proprietära: Applikationer, samtidigt som man undviker Google Play-telemetri.
@@ -7787,7 +7787,7 @@ Google News-applikationen är visserligen praktisk och personlig, men den förli
 
 
 
-- [Nyheter] (https://github.com/bubelov/news)
+- [Nyheter](https://github.com/bubelov/news)
 
 
 Applikationen *News*, som utvecklats av Bubelov, erbjuder ett radikalt annorlunda tillvägagångssätt. Det är en minimalistisk RSS-läsare som är utformad för att läsa nyheter utan spårare, reklam eller ogenomskinliga rekommendationsalgoritmer. Du kan manuellt välja dina källor (press, bloggar, podcasts, oberoende medier etc.), vilket garanterar en neutral och privat läsupplevelse. Designen är stilren, flödena uppdateras automatiskt och inga uppgifter vidarebefordras till tredje part.
@@ -7803,7 +7803,7 @@ Google Kontakter, liksom många standardapplikationer på Android, synkroniserar
 
 
 
-- [Connect You] (https://github.com/you-apps/ConnectYou)
+- [Connect You](https://github.com/you-apps/ConnectYou)
 
 
 Connect You är ett lättviktigt och överskådligt open source-alternativ som är utformat för dem som vill hantera sina kontakter lokalt, utan datainsamling eller påtvingad synkronisering med ett tredjepartsmoln. Det erbjuder en intuitiv Interface, gör det enkelt att sortera, söka och redigera dina poster och kan integreras med CalDAV-tjänster om du använder en egen kontaktserver (till exempel via Nextcloud).
@@ -7819,7 +7819,7 @@ Google Foto är bra för att automatiskt spara bilder i molnet, organisera dem e
 
 
 
-- [Enkelt galleri] (https://github.com/SimpleMobileTools/Simple-Gallery)
+- [Enkelt galleri](https://github.com/SimpleMobileTools/Simple-Gallery)
 
 
 Simple Gallery är en minimalistisk applikation med öppen källkod som fungerar helt offline. Det är en del av *Simple Mobile Tools*-sviten. Du kan hantera, sortera, visa och redigera dina bilder utan att någon data lämnar din enhet. Det finns också funktioner för retuschering, lösenordsskydd och en papperskorg för återvinning av borttagna objekt. Ingen spårning, ingen påtvingad synkronisering: Dina bilder stannar med dig.
@@ -7846,7 +7846,7 @@ Ente Photos är en öppen källkodstjänst (klienter + servrar) för automatisk 
 
 
 
-- [Stingle Photos] (https://stingle.org/)
+- [Stingle Photos](https://stingle.org/)
 
 
 Stingle är både ett fotogalleri och en kameraapplikation, kombinerat med en krypterad backuptjänst. Precis som i Ente skyddas bilderna med kryptering från början till slut. Du kan använda deras molntjänst (1 GB gratis) eller själv vara värd för Stingle-servern för total kontroll. Interface är enkel, utan annonser eller spårare.
@@ -7872,7 +7872,7 @@ MuPDF Viewer är en ultralätt, snabb och helt öppen PDF-läsare. Den förbruka
 
 
 
-- [MJ PDF Reader] (https://gitlab.com/mudlej_android/mj_pdf_reader)
+- [MJ PDF Reader](https://gitlab.com/mudlej_android/mj_pdf_reader)
 
 
 MJ PDF Reader är ett enkelt program med öppen källkod som låter dig läsa PDF-filer utan reklam eller anslutning till ett onlinekonto.
@@ -7888,7 +7888,7 @@ Googles Phone-applikation, som är installerad som standard på många Android-s
 
 
 
-- [Koler] (https://github.com/Chooloo/koler)
+- [Koler](https://github.com/Chooloo/koler)
 
 
 Koler är en telefoniapplikation med öppen källkod som är utformad för att vara vacker, lättanvänd och integritetsvänlig. Den erbjuder en flytande och intuitiv Interface för att hantera dina samtal, utan spårare eller analys av personuppgifter. Den innehåller dock för närvarande inte avancerad samtalsfiltrering eller integration med tredjepartstjänster.
@@ -7907,7 +7907,7 @@ Google Translate är riktmärket för automatisk översättning, men användning
 
 
 
-- [TranslateYou] (https://github.com/you-apps/TranslateYou)
+- [TranslateYou](https://github.com/you-apps/TranslateYou)
 
 
 TranslateYou är ett översättningsprogram med öppen källkod som respekterar sina användares integritet. Det fungerar som en Interface för olika översättningsmotorer (LibreTranslate, LingvaTranslate, Mozhi, DeepL, etc.), och låter dig välja en tjänst som inte utnyttjar dina uppgifter.
@@ -7951,7 +7951,7 @@ Quick Share är nu standard på Android. Denna programvara, som ursprungligen ut
 
 
 
-- [Snapdrop] (https://github.com/SnapDrop/snapdrop)
+- [Snapdrop](https://github.com/SnapDrop/snapdrop)
 
 
 Snapdrop är ett gratis alternativ med öppen källkod som inte kräver någon installation. Det låter dig dela filer mellan enheter som är anslutna till samma lokala nätverk, helt enkelt via en webbläsare. Överföringen sker direkt (peer-to-peer) och data går aldrig via en fjärrserver.
@@ -7961,14 +7961,14 @@ Ett intressant alternativ är [PairDrop](https://github.com/schlagmichdoch/paird
 
 
 
-- [Warpinator] (https://github.com/linuxmint/warpinator)
+- [Warpinator](https://github.com/linuxmint/warpinator)
 
 
 Warpinator, som utvecklats av Linux Mint, gör det enkelt att överföra filer mellan enheter som är anslutna till samma Wi-Fi-nätverk. Det fungerar peer-to-peer, utan moln eller tredjepartsserver, med en enkel Interface. Det finns portar för Android, vilket gör det möjligt att överföra filer mellan telefon och dator.
 
 
 
-- [LocalSend] (https://localsend.org/)
+- [LocalSend](https://localsend.org/)
 
 
 LocalSend är ett annat gratis, fullt utrustat alternativ med en snygg Interface. Denna applikation är helt öppen källkod och möjliggör decentraliserade, end-to-end-krypterade filöverföringar mellan enheter som är anslutna till samma lokala nätverk. Inga mellanliggande servrar används, vilket säkerställer att dina data aldrig lämnar ditt hemnätverk.
@@ -7987,7 +7987,7 @@ Applikationer som Goodreads, även om de används i stor utsträckning, ger upph
 
 
 
-- [Openreads] (https://github.com/mateusz-bak/openreads)
+- [Openreads](https://github.com/mateusz-bak/openreads)
 
 
 Openreads är ett alternativ med öppen källkod för integritetsvänlig lässpårning. Med den här applikationen kan du skapa ett personligt digitalt bibliotek, följa dina läsframsteg, betygsätta och kommentera böcker och få tillgång till rekommendationer baserade på dina egna kriterier, utan centraliserad analys eller spårning. All data finns kvar på din enhet eller synkroniseras via tjänster som du själv är värd för.
@@ -8000,7 +8000,7 @@ Openreads är ett alternativ med öppen källkod för integritetsvänlig lässp�
 
 
 
-- [Chrono] (https://github.com/vicolo-dev/chrono)
+- [Chrono](https://github.com/vicolo-dev/chrono)
 
 
 Chrono finns på F-Droid och är helt öppen källkod och erbjuder en modern, snygg Interface utan reklam eller datainsamling. Det låter dig skapa anpassningsbara larm: Repetition enligt specifika dagar eller datumintervall, val av ljud, progressiv intensitet, vibrera eller till och med uppgifter som ska utföras för att avaktivera larmet (lösa en beräkning, läsa om en text etc.).
@@ -8465,7 +8465,7 @@ För att förbättra din surfintegritet och blockera visst oönskat innehåll di
 
 
 
-- [Quad9] (https://quad9.net/): Innehåller blockeringslistor för skadliga domäner och för inga långsiktiga loggar över namn
+- [Quad9](https://quad9.net/): Innehåller blockeringslistor för skadliga domäner och för inga långsiktiga loggar över namn
 
 
 
@@ -8473,11 +8473,11 @@ För att förbättra din surfintegritet och blockera visst oönskat innehåll di
 
 
 
-- [NextDNS] (https://nextdns.io/): Mycket anpassningsbar, med avancerade filtrerings- och statistikfunktioner
+- [NextDNS](https://nextdns.io/): Mycket anpassningsbar, med avancerade filtrerings- och statistikfunktioner
 
 
 
-- [AdGuard DNS] (https://adguard-dns.io/): Lätt att konfigurera, med alternativ för annonsblockering och spårning
+- [AdGuard DNS](https://adguard-dns.io/): Lätt att konfigurera, med alternativ för annonsblockering och spårning
 
 
 ![Image](assets/fr/199.webp)

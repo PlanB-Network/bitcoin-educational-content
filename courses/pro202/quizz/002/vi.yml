@@ -1,0 +1,8 @@
+question: Theo định lý nhỏ Fermat, nghịch đảo phép nhân của phần tử n trong trường số nguyên tố F(p) là gì?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Định lý nhỏ Fermat phát biểu rằng n^(p-1) ≡ 1 (mod p) cho bất kỳ phần tử n nào khác 0 trong một trường số nguyên tố. Để tìm nghịch đảo phép nhân, ta cần một giá trị mà khi nhân với n sẽ bằng 1. Vì n^(p-1) ≡ 1, ta có thể viết lại thành n · n^(p-2) ≡ 1, chứng minh rằng n^(p-2) là nghịch đảo phép nhân của n. Các lựa chọn khác đều không chính xác: n^(p-1) bằng 1 theo định lý Fermat, trong khi n^(p+1) và n^(p+2) sẽ cho các giá trị tương đương với n^2 và n^3 tương ứng khi lấy modulo p.

@@ -1,5 +1,6 @@
 ---
-term: BEVIS PÅ RESERVASJONER
+term: Reservebevis
+definition: Mekanisme som lar børsplattformer bevise at de innehar kundenes bitcoins.
 ---
 
 Mekanisme som brukes av Bitcoin Exchange-plattformer for å demonstrere at de faktisk har kundenes eiendeler. Målet er å bevise selskapets solvens ved å verifisere at bitcoinsene tilsvarer eller er større enn brukernes saldoer de er ment å ha.

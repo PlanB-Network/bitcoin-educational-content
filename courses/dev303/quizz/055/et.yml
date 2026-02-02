@@ -1,0 +1,8 @@
+question: Mis juhtub kompileerimisprotsessi ajal, kui Rust kompilaator kohtub makroülesandega?
+answer: Kompilaator võrdleb sisendit määratletud mustritega ja asendab makrokõne genereeritud koodiga enne tüübikontrolli teostamist
+wrong_answers:
+  - Kompilaator lükkab makrode laiendamise edasi kuni tüübikontrolli ja optimeerimiseni, et tagada koodi kehtivus
+  - Kompilaator salvestab makrokõne baatkoodina ja laiendab seda dünaamiliselt täitmise ajal
+  - Kompilaator valideerib makro süntaksi, kuid jätab tegeliku laiendamise linkeri ülesandeks
+explanation: |
+  Makrosid laiendatakse kompileerimise ajal enne tüübikontrolli ja optimeerimist. Kui kompilaator kohtab makrokutse, võrdleb ta sisendit kohe makro defineeritud mustritega ja asendab kogu makrokutsungi genereeritud koodiga. See laiendatud kood läbib seejärel tavalised kompileerimisprotsessid, sealhulgas tüübikontrolli. Teised valikud on valed, sest makrotoimingud toimivad kompileerimise ajal, mitte tööajal, ja laiendamine peab toimuma enne tüübikontrolli, sest genereeritud koodi korrektsust tuleb kontrollida.

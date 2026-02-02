@@ -1,16 +1,16 @@
 ---
 name: Keet
-description: Gumzo la rika-kwa-rika
+description: Gumzo la Peer-to-Peer
 ---
 ![cover](assets/cover.webp)
 
 
 
-Keet ni programu ya ujumbe wa papo hapo iliyoundwa kufanya kazi bila seva yoyote. Ilizinduliwa mwaka wa 2022 na Holepunch (kampuni inayofadhiliwa na Tether na Bitfinex), programu inategemea kabisa mtandao wa rika-kwa-rika na ina mkabala uliogawanyika kwa kiasi kikubwa: ujumbe, simu na faili hubadilishwa moja kwa moja kati ya watumiaji, bila wapatanishi.
+Keet ni programu ya ujumbe wa papo hapo iliyoundwa kufanya kazi bila seva yoyote. Ilizinduliwa mwaka wa 2022 na Holepunch (kampuni inayofadhiliwa na Tether na Bitfinex), programu inategemea kabisa mtandao wa Peer-to-Peer na ina mkabala uliogawanyika kwa kiasi kikubwa: ujumbe, simu na faili hubadilishwa moja kwa moja kati ya watumiaji, bila wapatanishi.
 
 
 
-Keet husimba mawasiliano yote kwa njia fiche kutoka mwisho hadi mwisho na haulizi data ya kibinafsi. Usajili haujulikani, na hakuna nambari ya simu au barua pepe inahitajika. Kando na kubadilishana ujumbe wa maandishi, Keet hutoa simu za video za ubora wa juu sana, pamoja na kushiriki faili bila kikomo. Kwa hiyo maombi yanaweza kutumika kwa njia ya mseto, kwa matumizi ya kibinafsi na ya kitaaluma.
+Usajili ni usiotambulika, na hakuna nambari ya simu wala barua pepe inayohitajika. Mbali na kubadilishana ujumbe wa maandishi, Keet hutoa simu za video zenye ubora wa juu sana, pamoja na ushirikishaji wa faili usio na kikomo. Kwa hivyo programu inaweza kutumika kwa njia mseto, kwa matumizi ya kibinafsi na ya kitaaluma.
 
 
 
@@ -18,7 +18,7 @@ Keet husimba mawasiliano yote kwa njia fiche kutoka mwisho hadi mwisho na hauliz
 
 
 
-Kwa sasa (Aprili 2025), Keet sio chanzo wazi kabisa. Baadhi ya msimbo wa chanzo unapatikana kwenye [hazina ya GitHub ya Holepunch](https://github.com/holepunchto), hasa vipengele vya siri na mtandao, lakini mteja Interface bado. Holepunch, hata hivyo, imetangaza nia yake ya kufanya programu nzima kuwa chanzo wazi hatimaye. Kulingana na wakati utagundua mafunzo haya, hii inaweza kuwa tayari imefanywa.
+Kwa sasa (Aprili 2025), Keet sio chanzo wazi kabisa. Baadhi ya msimbo wa chanzo unapatikana kwenye [hazina ya GitHub ya Holepunch](https://github.com/holepunchto), hasa vipengele vya siri na mtandao, lakini user Interface bado. Holepunch, hata hivyo, imetangaza nia yake ya kufanya programu nzima kuwa chanzo wazi hatimaye. Kulingana na wakati utagundua mafunzo haya, hii inaweza kuwa tayari imefanywa.
 
 
 
@@ -43,7 +43,7 @@ Kwa sasa (Aprili 2025), Keet sio chanzo wazi kabisa. Baadhi ya msimbo wa chanzo 
 | Briar                | ✅              | ✅              | ✅                   | ✅                            | N/A                         | ✅                        | 2018              |
 | Tox                  | ✅              | ✅              | ✅                   | ✅                            | N/A                         | ✅                        | 2013              |
 
-*E2EE = Usimbaji fiche kutoka mwisho hadi mwisho*
+*E2EE = End-to-End Encryption*
 
 
 
@@ -121,7 +121,7 @@ Unaweza kubinafsisha wasifu wako wakati wowote kutoka kwa kichupo cha "*Wasifu*"
 
 
 
-Jambo la kwanza la kufanya na akaunti yako mpya ya Keet ni kuhifadhi maneno yako ya kurejesha akaunti. Huu ni mlolongo wa maneno 24 ambayo yatakuwezesha kurejesha ufikiaji wa akaunti yako katika tukio la kupotea au kubadilisha kifaa. Maneno haya yanatoa ufikiaji kamili kwa akaunti yako kwa mtu yeyote anayeijua, kwa hivyo ni muhimu kuweka nakala ya kuaminika na usiwahi kuifichua.
+Jambo la kwanza la kufanya na akaunti yako mpya ya Keet ni kuhifadhi maneno yako ya kurejesha akaunti. Huu ni mlolongo wa maneno 24 ambao utakuwezesha kurejesha ufikiaji wa akaunti yako endapo utaipoteza au utabadilisha kifaa. Maneno haya yanatoa ufikiaji kamili wa akaunti yako kwa mtu yeyote anayeyajua, hivyo ni muhimu kuhifadhi nakala salama na kutoifichua kwa mtu yeyote.
 
 
 
@@ -209,7 +209,7 @@ Bainisha haki unazotoa kwa wanachama wapya kupitia kiungo cha mwaliko, pamoja na
 
 
 
-Keet ita generate kiungo cha kujiunga na "*Chumba* chako". Unaweza kuinakili na kuishiriki, au msimbo wake wa QR uchanganuliwe na watu unaotaka kuwaalika.
+Keet ita zalisha kiungo cha kujiunga na "*Chumba* chako". Unaweza kuinakili na kuishiriki, au msimbo wake wa QR uchanganuliwe na watu unaotaka kuwaalika.
 
 
 
@@ -269,7 +269,7 @@ Kisha nenda kwenye menyu ya "*Vifaa vyangu*".
 
 
 
-Bofya kwenye "*Ongeza kifaa*". Keet ita generate kiungo cha kusawazisha kifaa kipya. Nakili kiungo hiki.
+Bofya kwenye "*Ongeza kifaa*". Keet itazalisha kiungo cha kusawazisha kifaa kipya. Nakili kiungo hiki.
 
 
 

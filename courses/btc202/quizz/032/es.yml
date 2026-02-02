@@ -1,7 +1,7 @@
 question: ¿Qué solución node-in-a-box es hoy líder del mercado?
-answer: Paraguas
+answer: Umbrel
 wrong_answers:
-  - Inicio9
+  - Start9
   - Nodl
   - RoninDojo
 explanation: |

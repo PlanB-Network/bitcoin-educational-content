@@ -1,0 +1,8 @@
+question: Jaki jest podstawowy mechanizm, który umożliwia SegWit zwiększenie pojemności bloków przy jednoczesnym zachowaniu wstecznej kompatybilności z węzłami sprzed SegWit?
+answer: System ważenia bloków, w którym dane świadków są pomniejszane o 75% w obliczeniach przepustowości, umożliwiając łączną ilość danych do 4 MB, podczas gdy starsze węzły widzą ≤ 1 MB
+wrong_answers:
+  - Algorytmy kompresji, które zmniejszają rozmiar danych świadków o 75% przed transmisją, utrzymując bloki poniżej 1 MB dla wszystkich węzłów
+  - Dynamiczne dostosowanie rozmiaru bloku, które zwiększa limity w oparciu o procent transakcji SegWit w każdym bloku
+  - Oddzielne bloki świadków przesyłane tylko do zmodernizowanych węzłów, podczas gdy starsze węzły otrzymują tradycyjne bloki 1 MB
+explanation: |
+  SegWit wykorzystuje blokowe jednostki wagi, w których podstawowe dane transakcji liczą się jako 4 jednostki wagi na bajt, podczas gdy dane świadków liczą się jako 1 jednostka wagi na bajt. Ten 75-procentowy rabat pozwala na bloki do 4 milionów jednostek wagi (potencjalnie 4 MB ze wszystkimi danymi świadków), zapewniając jednocześnie, że starsze węzły nigdy nie zobaczą więcej niż 1 MB podstawowych danych transakcyjnych. Pozostałe opcje opisują nieistniejące mechanizmy - nie ma kompresji, dynamicznego określania rozmiaru ani oddzielnej transmisji bloków.

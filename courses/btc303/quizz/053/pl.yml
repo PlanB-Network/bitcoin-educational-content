@@ -1,0 +1,9 @@
+question: Co odróżnia założenia bezpieczeństwa Bitcoin od tradycyjnych systemów bezpieczeństwa fizycznego, takich jak budynki?
+answer: Bitcoin musi zająć się wszystkimi znanymi słabościami, ponieważ przeciwnicy online są anonimowi i wykorzystają każdą lukę
+wrong_answers:
+  - Bitcoin opiera się na dowodach matematycznych, podczas gdy budynki zależą od fizycznych barier i egzekwowania prawa
+  - "Bezpieczeństwo Bitcoin opiera się na zachętach ekonomicznych, podczas gdy budynki stosują odstraszanie poprzez widoczne środki bezpieczeństwa"
+  - Bitcoin wykorzystuje podpisy kryptograficzne do ochrony, podczas gdy budynki polegają na systemach kontroli dostępu i monitoringu
+explanation: |
+  Kluczową różnicą jest to, że systemy online, takie jak Bitcoin, muszą stawić czoła anonimowym przeciwnikom, którzy nieuchronnie wykorzystają każdą znaną słabość, w przeciwieństwie do systemów fizycznych, w których możemy zaakceptować pewne ryzyko, ponieważ sprawcy mogą zostać zidentyfikowani i ścigani. Jak zauważył Andrew Poelstra, w Internecie nie mamy luksusu odstraszania organów ścigania - jeśli możliwe jest wrogie uszkodzenie systemu, anonimowi aktorzy to zrobią. Zmusza to Bitcoin do zajęcia się wszystkimi słabymi punktami, zamiast akceptować skalkulowane ryzyko.
+reviewed: false

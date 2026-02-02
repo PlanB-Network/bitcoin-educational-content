@@ -1,0 +1,9 @@
+question: Katika muktadha wa mining isiyo na uhalali, ni hatari gani kuu ya usalama ambayo wachimbaji hukabiliana nayo wanapoahirisha uthibitishaji kamili wa vitalu ili kuepusha vizuizi vilivyochakaa?
+answer: Wana hatari ya kujenga kwenye blockchain batili kwa muda, kupoteza nguvu ya hesabu kwenye mnyororo ambao hatimaye utakataliwa.
+wrong_answers:
+  - Wana hatari ya kuwa na vitalu vyao wenyewe kukataliwa na mtandao kwa sababu ya uthibitisho usio kamili wa shughuli za awali
+  - Wana hatari ya kupoteza zawadi zao za mining kabisa kwa sababu mining isiyo na uthibitisho inachukuliwa kuwa ukiukaji wa itifaki
+  - Wana hatari ya kuunda mashambulizi ya kutumia mara mbili kwa sababu hawawezi kuthibitisha kwamba miamala inayoingia ni halali.
+explanation: |
+  Wakati wachimbaji hufanya mazoezi ya mining isiyo na uhalali, huangalia tu proof-of-work kwenye kichwa cha kuzuia na mara moja huanza mining juu yake wakati wa kupakua na kuthibitisha kizuizi kamili kwa sambamba. Hatari kuu ni kwamba wanaweza kuwa wanajenga kwenye kizuizi batili, ikimaanisha kuwa juhudi zao za kukokotoa zitapotezwa kwenye tawi la blockchain ambalo litakataliwa pindi kizuizi batili kitakapogunduliwa. Hii inadhoofisha usalama wa mtandao kwa sababu sehemu ya nishati ya mining haichangii mnyororo thabiti zaidi, ambao ni utaratibu wa kimsingi wa usalama wa Bitcoin.
+reviewed: false

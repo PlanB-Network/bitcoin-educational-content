@@ -1,7 +1,7 @@
 question: Bitcoin core hangi programlama dilinde yazılmıştır?
 answer: C++
 wrong_answers:
-  - Git
+  - Go
   - JavaScript
   - Rust
 explanation: |

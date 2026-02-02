@@ -6,4 +6,4 @@ wrong_answers:
   - Identifier un cluster appartenant à une même entité.
 explanation: |
   Les heuristiques internes nous permettent d'identifier le change dans le but d'observer l'utilisateur sur les transactions suivantes.
-reviewed: false
+reviewed: true 

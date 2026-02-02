@@ -6,3 +6,4 @@ wrong_answers:
   - They must be replaced through additional mining to maintain the intended supply level
 explanation: |
   Satoshi Nakamoto explained that lost coins function as a donation to all other bitcoin holders by making their coins more valuable due to the reduced effective supply. This is a positive deflationary effect, not a destabilizing force. Lost coins don't affect mining rewards since those come from newly minted coins and transaction fees, not from the existing supply. Bitcoin's protocol doesn't replace lost coins - they remain permanently out of circulation, which actually benefits remaining holders through increased scarcity.
+reviewed: false

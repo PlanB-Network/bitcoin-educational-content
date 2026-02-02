@@ -286,6 +286,14 @@ Da biste pratili sve svoje transakcije, možete se posavetovati sa istorijom u m
 ![BULL](assets/fr/36.webp)
 
 
+## Pokreni automatsku ponavljajuću kupovinu (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Kreiraj limit nalog
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Sada znate kako lako kupiti i prodati Bitcoin sa Bull Bitcoin. Ako vam je ovaj vodič bio koristan, bio bih veoma zahvalan ako stavite Green palac ispod. Slobodno podelite ovaj članak na vašim društvenim mrežama. Hvala vam puno!
 
 

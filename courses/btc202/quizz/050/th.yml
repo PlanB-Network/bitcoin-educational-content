@@ -1,0 +1,9 @@
+question: โปรโตคอลที่ใช้โดย Electrs และ Fulcrum ในการเชื่อมต่อกระเป๋าเงินคืออะไร?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - Lightning gRPC
+explanation: |
+  ซอฟต์แวร์แพ็คเกจเหล่านี้เปิดเผยเซิร์ฟเวอร์ Electrum ซึ่งเป็นมาตรฐานที่ใช้โดยกระเป๋าเงินหลาย ๆ ตัว เช่น Sparrow หรือ Electrum Wallet
+reviewed: true

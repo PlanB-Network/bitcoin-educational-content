@@ -6,4 +6,4 @@ wrong_answers:
   - 16 bits
 explanation: |
   IPv4 Address imesimbwa kwa biti 32, imegawanywa katika baiti nne za biti 8 kila moja.
-reviewed: false
+reviewed: true

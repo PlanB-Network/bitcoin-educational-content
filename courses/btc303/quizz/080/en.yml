@@ -6,3 +6,4 @@ wrong_answers:
   - The open-source nature means all vulnerabilities must be disclosed publicly before patches are developed
 explanation: |
   The text specifically highlights that developers must be extremely careful when publishing patches because 'the patch itself might give away the vulnerability.' This creates a unique challenge where the solution can inadvertently expose the problem. The fourth bullet point describes how Bitcoin developers test whether a patch has been 'disguised well enough' by having experienced developers review it without knowing the specific vulnerability. If these experts can't identify the vulnerability from the patch, it's considered safe to deploy. The other options are incorrect: there is coordination through Bitcoin Core maintainers, consensus isn't required for patches, and vulnerabilities are kept private during responsible disclosure.
+reviewed: false

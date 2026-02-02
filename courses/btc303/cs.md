@@ -51,7 +51,7 @@ Kniha vznikla na objednávku a za finanční podpory vývojového centra [Chainc
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Vítejte v kurzu PHI 301 o filozofii vývoje Bitcoin.
+Vítejte v kurzu BTC 303 o filozofii vývoje Bitcoin.
 
 
 Bitcoin je víc než jen kryptoměna, ztělesňuje filozofickou vizi decentralizace, soukromí, nedůvěryhodnosti a odolnosti. Tento kurz je určen speciálně pro vývojáře, kteří se již seznámili s technickými základy Bitcoin a nyní se snaží prohloubit své znalosti principů, na nichž je založen design a správa Bitcoin.
@@ -112,7 +112,7 @@ V Bitcoin existují dva hlavní aspekty decentralizace: V Miner se jedná o dece
 Decentralizace Miner znamená, že zpracování transakcí neprovádí ani nekoordinuje žádný centrální subjekt. Decentralizace Full node se týká skutečnosti, že validace bloků, tj. dat, která těžaři vydají, se provádí na okraji sítě, v konečném důsledku jejími uživateli, a nikoli několika důvěryhodnými autoritami.
 
 
-![](assets/en/001.webp)
+![](assets/cs/001.webp)
 
 
 ### Decentralizace Miner
@@ -276,9 +276,8 @@ Způsob, jakým Bitcoin funguje díky decentralizaci, se podobá mimořádné ko
 Poukazuje na to, že mnoho systémů, ať už přírodních, nebo umělých, může fungovat a funguje bez vůdců a jsou výkonné a odolné. Každý jedinec interaguje pouze se svým bezprostředním okolím, ale dohromady tvoří něco ohromného.
 
 
-![](assets/en/002.webp)
+![](assets/cs/002.webp)
 
-*Rybí hejna nemají vůdce*
 
 
 Ať už si o Bitcoin myslíte cokoli, jeho decentralizovaná povaha ztěžuje jeho kontrolu. Bitcoin existuje a vy s tím nemůžete nic dělat. Je to něco, co je třeba studovat, ne o tom diskutovat.
@@ -302,7 +301,7 @@ Decentralizované systémy mohou být pro člověka obtížně uchopitelné, ale
 
 
 
-![](assets/en/003.webp)
+![](assets/cs/003.webp)
 
 
 Tato kapitola rozebírá koncept nedůvěryhodnosti, co znamená z hlediska informatiky a proč musí být Bitcoin Trustless, aby si zachoval svou hodnotu.
@@ -372,7 +371,7 @@ Podstatou této přednášky je, že nad důvěryhodným systémem nelze vybudov
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Základna Trustless Layer umožňuje různé kompromisy na vyšších úrovních
@@ -453,7 +452,7 @@ Bez nedůvěryhodnosti nemůžeme mít decentralizaci, protože důvěra nevyhnu
 
 
 
-![](assets/en/004.webp)
+![](assets/cs/004.webp)
 
 
 Tato kapitola se zabývá tím, jak si ponechat své soukromé finanční informace pro sebe. Vysvětluje, co znamená soukromí v kontextu Bitcoin, proč je důležité a co znamená, že Bitcoin je pseudonymní. Zabývá se také tím, jak může dojít k úniku soukromých údajů, a to jak On-Chain, tak off-chain.
@@ -533,10 +532,9 @@ Satoshi Nakamoto se zamýšlí nad soukromím On-Chain v části 7 své [Bitcoin
 Článek shrnuje hlavní problémy soukromí Blockchain, a to opakované použití a shlukování Address. První se vysvětluje sám, druhý se týká možnosti rozhodnout s určitou mírou jistoty, že soubor různých adres patří stejnému uživateli.
 
 
-![](assets/en/005.webp)
+![](assets/cs/005.webp)
 
 
-Typické úniky soukromí u modelu Blockchain
 
 
 Chris Belcher [napsal velmi podrobně](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) o různých druzích úniků soukromí, ke kterým může dojít na Bitcoin Blockchain. Doporučujeme vám přečíst si alespoň několik prvních podkapitol v části "Útoky na soukromí Blockchain"
@@ -632,7 +630,7 @@ Tento příklad uvedl mimo jiné také na stránce [Privacy page](https://en.Bit
 Všimněte si, že lepšího soukromí lze dosáhnout vybudováním systémů nad systémem Bitcoin, jako je tomu v případě systému Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Vrstvy nad Bitcoin mohou zvýšit soukromí
@@ -673,7 +671,7 @@ Chcete-li získat slušné soukromí v systému Bitcoin, musíte přijmout aktiv
 
 
 
-![](assets/en/006.webp)
+![](assets/cs/006.webp)
 
 
 Tato kapitola se zabývá limitem Bitcoin Supply ve výši 21 milionů BTC, nebo kolik to vlastně je? Mluvíme o tom, jak je tento limit vymáhán a co lze udělat pro ověření, že je dodržován. Kromě toho nahlédneme do křišťálové koule a probereme dynamiku, která vstoupí do hry, až se systém Block reward změní z dotačního na poplatkový.
@@ -731,7 +729,7 @@ Co se stane, když se bloková dotace blíží nule? Pro zjednodušení předpok
 Dnes jsou to držitelé, kdo platí za bezpečnost (prostřednictvím měnové inflace). Zítra budou na řadě ti, kdo utrácejí, aby toto břemeno nějakým způsobem převzali, jak je znázorněno níže.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Postupem času se náklady na zabezpečení přesunou z držitelů na plátce
@@ -785,7 +783,7 @@ Zda Bitcoin Supply vzroste nad 21 milionů, dnes nedokážeme říci, a to pravd
 
 
 
-![](assets/en/007.webp)
+![](assets/cs/007.webp)
 
 
 Bezpečná modernizace systému Bitcoin může být velmi obtížná. Zavedení některých změn trvá několik let. V této kapitole se seznámíme s běžnou slovní zásobou týkající se upgradu Bitcoin a prozkoumáme některé příklady historických upgradů jeho protokolu i poznatky, které jsme z nich získali. Nakonec si povíme o rozdělení řetězce a o rizicích a nákladech s ním spojených.
@@ -1025,7 +1023,7 @@ Ukázalo se, že pro udržení harmonie Bitcoin jsou vidlice Soft cestou vpřed,
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/en/008.webp)
+![](assets/cs/008.webp)
 
 
 Tato kapitola se zabývá *protichůdným myšlením*, tedy myšlením, které se zaměřuje na to, co by se mohlo pokazit a jak by mohli jednat protivníci. Začneme tím, že probereme bezpečnostní předpoklady a bezpečnostní model Bitcoin. Poté vysvětlíme, jak mohou běžní uživatelé zlepšit svou vlastní suverenitu a decentralizaci Bitcoin Full node tím, že budou myslet adversariálně. Poté se podíváme na některé skutečné hrozby pro Bitcoin a také do mysli protivníka. Nakonec si povíme o *axiomu odporu*, který vám může pomoci pochopit, proč lidé na Bitcoin vůbec pracují.
@@ -1099,10 +1097,9 @@ Výše uvedené jsou příklady skutečných hrozeb, o které je třeba se posta
 ### Jednoduché pole sabotáže
 
 
-![](assets/en/009.webp)
+![](assets/cs/009.webp)
 
 
-Výňatek z polní příručky Jednoduchá sabotáž
 
 
 Pro lepší pochopení myšlení protivníka by mohlo být užitečné nahlédnout do jeho fungování. Americký vládní orgán s názvem Office of Strategic Services, který působil během druhé světové války a mezi jeho cíle patřilo provádění špionáže, sabotáží a šíření propagandy, vypracoval pro své zaměstnance [manuál](https://www.gutenberg.org/ebooks/26184), jak správně sabotovat nepřítele. Její název zněl "Jednoduchá polní příručka sabotáže" a obsahovala konkrétní tipy, jak se infiltrovat k nepříteli, aby mu ztrpčili život Hard. Tipy sahaly od vypalování skladů až po způsobení opotřebení vrtáků s cílem snížit nepřátelské
@@ -1150,7 +1147,7 @@ Chcete-li udržet Bitcoin v bezpečí, musíte znát jeho nepřátele a jejich p
 
 
 
-![](assets/en/010.webp)
+![](assets/cs/010.webp)
 
 
 Bitcoin je vytvořen pomocí softwaru s otevřeným zdrojovým kódem. V této kapitole rozebíráme, co to znamená, jak funguje údržba softwaru a jak open source software v Bitcoin umožňuje vývoj bez oprávnění. Ponoříme se do *výběrové kryptografie*, která se zabývá výběrem a používáním knihoven v kryptografických systémech. Součástí kapitoly je oddíl o recenzním řízení Bitcoin, po němž následuje další oddíl o způsobech, jakými vývojáři Bitcoin získávají finanční prostředky. Poslední část pojednává o tom, že kultura otevřeného kódu Bitcoin může zvenčí vypadat opravdu podivně a proč je tato zdánlivá podivnost ve skutečnosti známkou dobrého zdraví.
@@ -1171,14 +1168,14 @@ Jádro Bitcoin dodržuje tuto definici tím, že je šířeno pod licencí [MIT 
 
 
 ```
-The MIT License (MIT)
+Licence MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Vývojáři Bitcoin Core
+Copyright (c) 2009-2022 Vývojáři Bitcoinu
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Tímto se bezplatně uděluje oprávnění jakékoli osobě, která získá kopii tohoto softwaru a souvisejících dokumentačních souborů („Software"), nakládat se Softwarem bez omezení, včetně, nikoli však výhradně, práva Software používat, kopírovat, upravovat, slučovat, publikovat, distribuovat, poskytovat sublicence a/nebo prodávat kopie Softwaru a umožnit osobám, kterým je Software poskytnut, činit totéž, a to za následujících podmínek:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Výše uvedené oznámení o autorských právech a toto oznámení o oprávnění musí být zahrnuto ve všech kopiích nebo podstatných částech Softwaru.
 ```
 
 
@@ -1438,7 +1435,7 @@ Vývojový proces kolem Bitcoin je radikálně otevřený, což může působit 
 
 
 
-![](assets/en/011.webp)
+![](assets/cs/011.webp)
 
 
 
@@ -1585,7 +1582,7 @@ Přístup, který je příliš málo oceňován, můžeme nazvat *inward scaling
 Zlepšení, kterých bylo dosaženo díky vnitřnímu škálování, jsou přinejmenším působivá. Abyste si udělali obecnou představu o zlepšeních v průběhu let, Jameson Lopp [provedl srovnávací testy](https://blog.lopp.net/Bitcoin-core-performance-evolution/) synchronizace Blockchain, v nichž porovnával mnoho různých verzí jádra Bitcoin, které sahají až k verzi 0.8.
 
 
-![](assets/en/012.webp)
+![](assets/cs/012.webp)
 
 
 Počáteční výkon stahování bloků různých verzí jádra Bitcoin. Na ose Y je výška synchronizovaného bloku a na ose X je doba, za kterou se na tuto výšku synchronizoval
@@ -1600,7 +1597,7 @@ Zlepšení lze rozdělit buď na úsporu místa (paměť RAM, disk, šířka pá
 Dobrým příkladem výpočetního zlepšení je knihovna [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), která mimo jiné implementuje kryptografická primitiva potřebná k vytváření a ověřování digitálních podpisů. Pieter Wuille je jedním z přispěvatelů do této knihovny a napsal [Twitter vlákno](https://twitter.com/pwuille/status/1450471673321381896), ve kterém ukazuje zlepšení výkonu dosažená prostřednictvím různých žádostí o stažení.
 
 
-![](assets/en/013.webp)
+![](assets/cs/013.webp)
 
 
 Výkonnost ověřování podpisů v průběhu času s vyznačením významných žádostí o stažení na časové ose
@@ -1614,7 +1611,7 @@ Existuje také několik dobrých příkladů úspory místa, které přispěly k
 [Příspěvek na blogu na médiu](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) o přínosu Taproot k úspoře místa, uživatel Murch porovnává, kolik místa v bloku by vyžadoval podpis 2 z 3 prahových hodnot, a to jak při použití Taproot různými způsoby, tak i bez jeho použití.
 
 
-![](assets/en/014.webp)
+![](assets/cs/014.webp)
 
 
 Úspora místa pro různé typy výdajů, verze Taproot a starší verze.
@@ -1629,7 +1626,7 @@ Kromě vnitřního škálování v softwaru Bitcoin existují i způsoby, jak mo
 Smyslem dávkování transakcí je spojit více plateb do jedné transakce namísto toho, aby se pro každou platbu provedla jedna transakce. To vám může ušetřit spoustu poplatků a zároveň snížit zatížení blokového prostoru.
 
 
-![](assets/en/015.webp)
+![](assets/cs/015.webp)
 
 
 Dávkování transakcí spojuje více plateb do jedné transakce a šetří tak poplatky.
@@ -1638,7 +1635,7 @@ Dávkování transakcí spojuje více plateb do jedné transakce a šetří tak 
 Konsolidace výstupů znamená využití období nízké poptávky po blokovém prostoru ke spojení více výstupů do jednoho výstupu. To může snížit vaše náklady na poplatky později, kdy budete muset provést platbu v době, kdy je poptávka po blokovém prostoru vysoká.
 
 
-![](assets/en/016.webp)
+![](assets/cs/016.webp)
 
 
 Konsolidace výstupů: V době, kdy jsou poplatky nízké, můžete své mince spojit do jedné velké mince, abyste později ušetřili na poplatcích.
@@ -1660,9 +1657,8 @@ Nejúčinnějším přístupem ke škálování je pravděpodobně vrstvení. Ob
 Vrstevnatý protokol začíná dohodou dvou nebo více osob na počáteční transakci, která je vložena do Blockchain, jak je znázorněno na následujícím obrázku.
 
 
-![](assets/en/017.webp)
+![](assets/cs/017.webp)
 
-Typický protokol Layer 2 nad protokolem Bitcoin, Layer 1.
 
 
 Způsob vytvoření této počáteční transakce se u jednotlivých protokolů liší, ale společným tématem je, že účastníci vytvoří nepodepsanou počáteční transakci a řadu předem podepsaných trestných transakcí, které různým způsobem využívají výstup počáteční transakce. Následně je startovací transakce plně podepsána a zveřejněna na Blockchain a transakce trestu mohou být plně podepsány a zveřejněny za účelem potrestání nesprávně se chovající strany. Tím jsou účastníci motivováni k dodržování svých slibů, takže protokol může fungovat způsobem Trustless.
@@ -1714,7 +1710,7 @@ Dnes víme, že Bitcoin nelze dobře škálovat vertikálně ("kupte větší ha
 
 
 
-![](assets/en/018.webp)
+![](assets/cs/018.webp)
 
 Bitcoin je vyroben lidmi. Lidé píší software a lidé tento software následně spouštějí. Když je objevena bezpečnostní chyba nebo závažná chyba - je mezi nimi skutečně rozdíl? - vždy je objevena lidmi, z masa a kostí. Tato kapitola se zamýšlí nad tím, co lidé dělají, měli by a neměli by dělat, když se průser stane. V první části je vysvětlen termín *zodpovědné odhalení*, který se týká toho, jak může někdo, kdo objeví zranitelnost, jednat zodpovědně, aby pomohl minimalizovat škody z ní plynoucí. Zbytek kapitoly vás provede některými nejzávažnějšími zranitelnostmi, které byly v průběhu let objeveny, a tím, jak s nimi vývojáři, těžaři a uživatelé naložili. V raném dětství Bitcoin nebyly věci tak přísné jako dnes.
 
@@ -2059,7 +2055,7 @@ BIP byl aktivován 4. července 2015. Výše uvedené je sice pravda, nicméně 
 V e-mailu jsou dále uvedeny podrobnosti o tom, jak byl problém objeven a co přesně ho způsobilo. Na konci předkládá časovou osu událostí a my zde zopakujeme některé z těch nejdůležitějších. Některé z nich byly, jak ilustruje obrázek výše, již popsány.
 
 
-![](assets/en/019.webp)
+![](assets/cs/019.webp)
 
 
 Časová osa událostí kolem BIP66. Položky vyznačené černě byly vysvětleny výše.
@@ -2097,7 +2093,7 @@ Tyto události mohou vyvolat dojem, že Gregory Maxwell o zranitelnosti, kterou 
 Poté byl podle Maxwellova návrhu vytvořen BIP66 jako podmnožina BIP62, která specifikovala pouze striktní kódování DER. Tento BIP byl zřejmě široce přijat a nasazen v červenci, i když paradoxně došlo ke dvěma rozštěpením Blockchain kvůli *nevalidovanému Mining*. O těchto rozštěpeních pojednává následující oddíl.
 
 
-![](assets/en/020.webp)
+![](assets/cs/020.webp)
 
 
 Klíčovým závěrem je, že BIP by měly být víceméně *atomické*, což znamená, že by měly být dostatečně úplné, aby poskytovaly něco užitečného nebo řešily konkrétní problém, ale dostatečně malé, aby umožnily širokou podporu mezi uživateli. Čím více věcí do BIP vložíte, tím menší je šance na přijetí.
@@ -2118,7 +2114,7 @@ Na stránce s upozorněním byl uveden pokyn, aby lidé v případě, že použ�
 K výše uvedenému rozdělení došlo dne 2015-07-04 v 02:10 UTC po výšce bloku [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Tento problém byl vyřešen v 03:50 téhož dne po vytěžení 6 neplatných bloků. Bohužel se stejný problém opakoval i následující den, tj. 2015-07-05 ve 21:50, ale tentokrát neplatná větev trvala pouze 3 bloky.
 
 
-![](assets/en/021.webp)
+![](assets/cs/021.webp)
 
 Události, které vedly k zavedení BIP66, jeho nasazení a následky jsou velmi dobrou případovou studií toho, jak opatrní musí být vývojáři Bitcoin. Několik klíčových poznatků z BIP66:
 

@@ -1,6 +1,7 @@
 ---
 term: P2SH
 
+definition: Kịch bản cho phép các điều kiện chi tiêu tùy ý thông qua hàm băm của redeemScript.
 ---
 P2SH stands for *Pay to Script Hash*. It is a standard script model used to establish spending conditions on a UTXO. Unlike P2PK and P2PKH scripts, where spending conditions are predefined, P2SH allows for the integration of arbitrary spending conditions and additional functionalities within a transaction script.
 

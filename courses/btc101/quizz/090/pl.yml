@@ -1,11 +1,9 @@
 question: Co się stanie, jeśli klucz prywatny zostanie ujawniony osobie trzeciej?
-answer: Strona trzecia może wydać Twoje bitcoiny.
+answer: Strona trzecia może wydać twoje bitcoiny.
 wrong_answers:
   - Strona trzecia może jedynie przeglądać historię transakcji użytkownika.
   - Osoba trzecia może zmienić klucz prywatny użytkownika.
   - Strona trzecia może uzyskać dostęp do danych osobowych użytkownika.
 explanation: |
-  Jeśli klucz prywatny zostanie ujawniony stronie trzeciej, powiązane środki
-  powiązane środki nie są już bezpieczne, ponieważ klucz prywatny
-  klucz umożliwia im dostęp do środków użytkownika.
+  Jeśli klucz prywatny zostanie ujawniony stronie trzeciej, powiązane środki nie są już bezpieczne, ponieważ klucz prywatny umożliwia dostęp do środków użytkownika.
 reviewed: true

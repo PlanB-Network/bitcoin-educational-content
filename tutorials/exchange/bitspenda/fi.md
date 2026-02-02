@@ -35,7 +35,7 @@ BitSpenda on verkkopohjainen alusta, jolla voit Exchange Bitcoin- ja Mobile Mone
 
 
 
-Tapahtuman tekeminen BitSpendalla on melko intuitiivista ja vaatii vain muutamia vaiheita. Klikkaa virallisella BitSpendan [verkkosivustolla] (https://bitspenda.app) "Aloita"-painiketta, ja sinut ohjataan Interface Exchange:ään.
+Tapahtuman tekeminen BitSpendalla on melko intuitiivista ja vaatii vain muutamia vaiheita. Klikkaa virallisella BitSpendan [verkkosivustolla](https://bitspenda.app) "Aloita"-painiketta, ja sinut ohjataan Interface Exchange:ään.
 
 
 
@@ -177,7 +177,7 @@ Tarkista ja vahvista Exchange-numerosi ja summasi ja maksa sitten Exchange:ään
 
 
 
-BitSpendan kautta [Bitcoin Dua] (https://www.bitcoindua.org/) pyrkii luomaan ihanteelliset puitteet Bitcoin:n käyttöönotolle Afrikassa. BitSpenda erottuu edukseen pääasiassa seuraavien ominaisuuksien vuoksi:
+BitSpendan kautta [Bitcoin Dua](https://www.bitcoindua.org/) pyrkii luomaan ihanteelliset puitteet Bitcoin:n käyttöönotolle Afrikassa. BitSpenda erottuu edukseen pääasiassa seuraavien ominaisuuksien vuoksi:
 
 
 

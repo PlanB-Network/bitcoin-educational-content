@@ -1,0 +1,8 @@
+question: W Taproot z obsługą HTLC, jakie informacje są ujawniane sieci Bitcoin, gdy wymiana nie powiedzie się i jedna ze stron musi odzyskać swoje środki za pośrednictwem ścieżki przeciwnej?
+answer: Tylko określona gałąź drzewa Merkle zawierająca warunki blokady hash/time potrzebne do odzyskania funduszy
+wrong_answers:
+  - "Pełna logika skryptu, w tym wszystkie możliwe ścieżki wykonania i indywidualne klucze publiczne obu stron"
+  - Tajny obraz wstępny i wszystkie zagregowane klucze publiczne używane w procesie kombinacji kluczy MuSig2
+  - Wszystkie warunki umowy HTLC, w tym kwoty swapów, ramy czasowe oraz adresy Lightning i Liquid
+explanation: |
+  Taproot organizuje warunki HTLC w strukturę drzewa Merkle'a, umożliwiając selektywne ujawnianie. W przypadku niepowodzenia współpracy ujawniana jest tylko konkretna gałąź potrzebna do udowodnienia prawa do odzyskania środków, podczas gdy inne szczegóły umowy pozostają ukryte. W przeciwieństwie do starszych HTLC, które ujawniały kompletne skrypty, różni się to od przypadków współpracy, w których żadne szczegóły skryptu nie są w ogóle ujawniane.

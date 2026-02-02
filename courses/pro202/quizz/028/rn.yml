@@ -1,0 +1,8 @@
+question: Ni irihe tandukaniro ry’ishimikiro riri hagati ya P2PK na P2PKH mu bijanye n’amakuru ahishurirwa imbere y’uko amafaranga akoreshwa?
+answer: P2PK yerekana urufunguzo rwa bose rwose muri ScriptPubKey imbere yo gukoresha, mu gihe P2PKH yerekana gusa hash y’urufunguzo rwa bose gushika ikoreshejwe
+wrong_answers:
+  - P2PK isaba umukono mwinshi kugira ngo yemezwe, mu gihe P2PKH isaba umukono umwe gusa kugira ngo ufungure ibiceri .
+  - P2PK ikoresha ubuhinga butandukanye bwo gukora hashing kurusha P2PKH, bikaba bituma ishobora gukingira ibitero vy’ubuhinga bwa quantum .
+  - P2PK ibika urufunguzo rwihariye muri ScriptPubKey, mu gihe P2PKH ibika gusa igisubizo co kugenzura umukono
+explanation: |
+  P2PK ifunga ibiceri ataco bimaze ku rufunguzo rwa bose rwuzuye ruboneka muri ScriptPubKey imbere y’uko habaho ugukoresha amahera. P2PKH itera imbere mu buzima bwite mu kwerekana gusa hash ya 20-byte y’urufunguzo rwa bose muri ScriptPubKey, guhisha urufunguzo rwa bose nyarwo gushika nyen’urufunguzo arutanze muri ScriptSig mu gihe co gukoresha. Ukwo kwongereza ubuzima bwite ni kimwe mu vyiza nyamukuru vya P2PKH ku bijanye n’uburyo bwa P2PK bwa kera.

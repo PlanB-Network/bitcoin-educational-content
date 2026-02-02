@@ -1,0 +1,8 @@
+question: Koja je primarna poslovna prednost Liquid-ovog vremena poravnanja od 2 minuta u odnosu na tradicionalne finansijske sisteme?
+answer: Smanjuje rizik druge ugovorne strane omogućavanjem atomskog poravnanja gde se isporuka i plaćanje dešavaju istovremeno
+wrong_answers:
+  - Eliminiše potrebu za regulatornom usklađenošću i KYC zahtevima u trgovanju imovinom
+  - Omogućava neograničenu skalabilnost za trgovanje visoke frekvencije bez ikakvih transakcijskih naknada
+  - Omogućava automatsko otkrivanje cena putem ugrađenih algoritama za kreiranje tržišta
+explanation: |
+  Dvo-minutno poravnanje Liquid omogućava atomsko poravnanje, što je ključno za smanjenje rizika druge ugovorne strane jer obe strane istovremeno dobijaju ono što im se duguje, eliminišući jaz u kojem jedna strana može da ne ispuni obaveze. Tradicionalno T+2 poravnanje stvara prozor u kojem postoji rizik druge ugovorne strane. Ostale opcije su netačne: Liquid i dalje zahteva usklađenost putem AMP-a, ima naknade za transakcije i ograničenja skaliranja, i ne omogućava automatsko kreiranje tržišta.

@@ -1,8 +1,8 @@
 ---
-term: ORANGE PILLID
+term: Oranž pill
+definition: Matrixist inspireeritud kontseptsioon, mis sümboliseerib ärkamist Bitcoini mõistmisele.
 ---
 
 See filmist *Matrix* inspireeritud kujuteldav pill äratab Bitcoin teadvuse.
 
 
-> ► *Kasutatakse ka verbina. Orange-pillage keegi = värbab teda Bitcoin.*

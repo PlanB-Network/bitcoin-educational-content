@@ -1,12 +1,12 @@
-question: Ni kuki gukoresha abatanga ubuhinga bwa Wi-Fi bo mu Buraya, nka SNCF, ari vyiza kuruta?
-answer: Ntibakwiye gusubira kugurisha amakuru y’ihuriro ry’abakoresha, kubera amabwirizwa ya GDPR.
+question: Ni kuki birushiriza kuba vyiza, gukoresha ibikoresho bifasha kuronka Wi-Fi bitangwa namashirahamwe y’i Buraya, nka SNCF?
+answer: Nuko badakwiye gusubira kugurisha amakuru y’uguhuza ya babikoresha, kubera amabwirizwa ya GDPR.
 wrong_answers:
   - Batanga internet yihuta kurusha abatanga internet bo muri Amerika.
-  - Akenshi zituma abazikoresha bashobora kurenga amategeko agenga ivy’aho baba.
-  - Bahagarika amatangazo yo kuri internet iyo waramenyekanye ko uri umunyagihugu w’Uburayi.
+  - Akenshi zituma abazikoresha bashobora kurenga kubibujijwe mukarere.
+  - Bahagarika amatangazo yo kuri internet iyo vyagaragaye ko uri umunyagihugu w’Uburayi.
 explanation: |
-  Mu Bumwe bw’Uburayi, ugukingira amakuru bigenzurwa n’
-  Itegeko rusangi ryerekeye ugukingira amakuru (GDPR). Rero,
-  Abatanga ubuhinga bwa Wi-Fi bo mu Buraya, nka SNCF, ntibagira .
-  gusubira kugurisha amakuru y’ihuriro ry’abakoresha, bikaba bituma agira umutekano ku bwite bw’umuntu ku giti ciwe.
+  Mu Bumwe bw’Uburaya, ugukingira amakuru bigenwa n’itegeko Rusangi ryerekeye Ugukingira Amakuru (GDPR). 
+  Ku bw’ivyo, amashirahamwe y’i Buraya atanga ibikoresho bifasha kuronka Wi-Fi, nka SNCF, 
+  ntiba subira kugurisha amakuru y’uguhuza ya babikoresha, bikaba bituma kubijanye
+  n'ubuzima bwibanga bw'umuntu ku giti ce ari bo bokwizigigwa.
 reviewed: true

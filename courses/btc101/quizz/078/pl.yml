@@ -1,13 +1,12 @@
-question: Co to jest Hot Wallet?
-answer: Bitcoin Wallet na telefonie lub komputerze podłączonym do Internetu.
+question: Co to jest gorący portfel?
+answer: Portfel Bitcoin na telefonie lub komputerze podłączonym do Internetu.
 wrong_answers:
-  - Wallet, który jest fizycznie Hot w dotyku.
-  - Wallet, który jest popularny wśród użytkowników Bitcoin.
-  - Wallet, który jest zalecany do przechowywania dużych ilości bitcoinów.
+  - Portfel, który jest gorący w dotyku.
+  - Portfel, który jest popularny wśród użytkowników Bitcoina.
+  - Portfel, który jest zalecany do przechowywania dużych ilości bitcoinów.
 explanation: |
-  Hot Wallet to termin używany do opisania Bitcoin Wallet
+ Gorący portfel to termin używany do opisania portfela,
   który jest przechowywany na urządzeniu z dostępem do Internetu, takim jak
   telefon lub komputer. W ten sposób można łatwo przeprowadzać
-  transakcji, ale oznacza to również, że Wallet jest potencjalnie
-  potencjalnie podatny na zagrożenia internetowe.
+  transakcje, ale oznacza to również, że portfel jest potencjalnie podatny na zagrożenia internetowe.
 reviewed: true

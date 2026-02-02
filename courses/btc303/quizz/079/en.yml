@@ -6,3 +6,4 @@ wrong_answers:
   - To avoid legal liability issues that could arise from premature disclosure to third-party projects
 explanation: |
   The timing strategy reflects a security-first approach where Bitcoin's network must be protected before helping others. If altcoins were notified simultaneously, attackers could study altcoin implementations or exploit them to understand the vulnerability, then potentially attack Bitcoin nodes that haven't yet upgraded. The sequential approach ensures Bitcoin's widespread protection before expanding help to other networks, minimizing the window of vulnerability exploitation across the ecosystem.
+reviewed: false

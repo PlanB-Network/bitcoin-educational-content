@@ -1,0 +1,9 @@
+question: Как се казва уебсайтът, който значително допринесе за оповестяването на Bitcoin през юли 2010 г.?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  На 11 юли 2010 г. Teppy публикува презентация за Bitcoin в този популярен сайт, което доведе до огромен приток на потребители.
+reviewed: true

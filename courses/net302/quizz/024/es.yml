@@ -6,4 +6,4 @@ wrong_answers:
   - Fragmentar datagramas a nivel físico
 explanation: |
   TCP garantiza la fiabilidad de la transmisión de datos verificando la integridad, manteniendo el orden y gestionando la recuperación en caso de pérdida.
-reviewed: false
+reviewed: true

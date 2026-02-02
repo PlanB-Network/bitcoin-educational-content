@@ -1,5 +1,6 @@
 ---
 term: SECP256K1
+definition: Krzywa eliptyczna używana w Bitcoinie do podpisów cyfrowych ECDSA i Schnorr.
 ---
 
 Nazwa nadana konkretnej krzywej eliptycznej używanej w protokole Bitcoin do implementacji algorytmów podpisu cyfrowego ECDSA (*Elliptic Curve Digital Signature Algorithm*) i Schnorr. Krzywa `secp256k1` została wybrana przez twórcę Bitcoin, Satoshi Nakamoto. Ma ona kilka interesujących właściwości, w szczególności korzyści w zakresie wydajności.

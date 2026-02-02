@@ -57,7 +57,7 @@ Keet ist auf allen Plattformen verfügbar. Sie können die Anwendung direkt aus 
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=io.keet.app&pli=1);
-- [App Store] (https://apps.apple.com/us/app/keet-by-holepunch/id6443880549);
+- [App Store](https://apps.apple.com/us/app/keet-by-holepunch/id6443880549);
 
 
 

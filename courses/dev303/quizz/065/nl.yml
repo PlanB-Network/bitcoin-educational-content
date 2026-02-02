@@ -1,0 +1,8 @@
+question: Waarom is de 'move fast and break things' filosofie bijzonder ongeschikt voor Bitcoin ontwikkeling in vergelijking met traditionele software ontwikkeling?
+answer: Bitcoin transacties zijn onomkeerbaar zonder centrale autoriteit om geld terug te vorderen van fouten
+wrong_answers:
+  - Bitcoin ontwikkeling vereist snellere iteratiecycli dan traditionele webapplicaties
+  - "De compiler van Rust voorkomt de snelle prototyping die nodig is voor blockchaininnovatie"
+  - "De open source aard van Bitcoin maakt het moeilijker om bugs te repareren na de implementatie"
+explanation: |
+  Het juiste antwoord benadrukt de fundamentele eigenschap van Bitcoin: de gedecentraliseerde aard betekent dat er geen autoriteit is waar je een beroep op kunt doen om fondsen terug te krijgen als transacties eenmaal zijn uitgezonden. In tegenstelling tot traditionele financiële systemen met wettelijke bescherming en terugboekingsmechanismen, zijn Bitcoin fouten permanent en onomkeerbaar. De verkeerde antwoorden begrijpen de kern van de zaak niet - het gaat niet om ontwikkelingssnelheid, compiler beperkingen of open source uitdagingen, maar om de onomkeerbare aard van financiële operaties in een gedecentraliseerd systeem waar gebruikersfondsen permanent risico lopen.

@@ -1,21 +1,18 @@
 ---
-name: Introducción a la Economía Austriaca
-goal: Descubre la escuela austríaca de pensamiento económico. Estudia sus puntos de vista sobre la sociedad y las realidades macro/microeconómicas.
+name: Fundamentos de la escuela austriaca de economía
+goal: Descubre la economía austriaca como un marco alternativo para analizar los mercados y la toma de decisiones individuales
 objectives:
-  - Una alternativa al Keynesianismo
-  - La importancia de la moneda fuerte
-  - ¿Por qué y cómo se crean nuestros ciclos económicos?
-  - ¿Por qué los banqueros centrales se han vuelto locos?
+- Analizar las funciones del dinero, el crédito y los sistemas de banca central
+- Aplicar la teoría del valor subjetivo y la preferencia temporal al comportamiento del mercado
+- Comprender la teoría austriaca del ciclo económico y sus causas
+- Comparar la metodología austriaca con los enfoques económicos convencionales
 ---
+# Viaje a la Economía Austriaca
 
-# Introducción a la Economía Austriaca
+¿Alguna vez te has preguntado por qué algunos economistas piensan de manera diferente sobre los mercados, la libertad y el comportamiento humano? La economía austriaca ofrece una perspectiva refrescante que te coloca en el corazón del pensamiento económico. En lugar de matemáticas complejas y modelos abstractos, este enfoque se centra en la lógica, la elección humana y cómo las personas reales toman decisiones en su vida diaria. Es economía a través de la lente de la libertad, la racionalidad y la acción personal.
 
-Bienvenido al curso de Théo Mogenet. Apasionado de la economía, la historia, la literatura, la ciencia política y la tecnología, ha decidido compartir su conocimiento sobre la economía austriaca contigo. Esta rama, menos conocida en economía, se basa en la racionalidad humana y el comportamiento de los actores libres. Menos intensa en matemáticas, se trata principalmente de lógica y estudio social.
-
-Esta corriente de pensamiento ya cuenta con varios siglos de historia y tiene detrás a una gran cantidad de autores, pensadores y economistas. Grandes nombres de la economía como Hayek, Rothbard, Mises, Bastiat o Menger han defendido durante mucho tiempo este movimiento. En contraste con el omnipresente keynesianismo de nuestro tiempo, la escuela austriaca vuelve a poner al individuo en el centro de la ecuación con un enfoque más liberal, capitalista e incluso anarquista.
-
+Esta escuela de pensamiento ha dado forma a debates durante siglos, gracias a pensadores influyentes como Hayek, Mises y Bastiat. Mientras que la economía keynesiana dominante domina las discusiones políticas de hoy, la tradición austriaca plantea preguntas diferentes: ¿Qué sucede cuando priorizamos la libertad individual? ¿Cómo funcionan realmente los mercados libres cuando las personas son libres de elegir? Si tienes curiosidad por formas alternativas de pensar sobre los mercados, la sociedad y la libertad, esta es tu oportunidad de explorar ideas que no encontrarás en los libros de texto estándar.
 +++
-
 # Introducción
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
@@ -539,11 +536,7 @@ Las consecuencias de esta mala asignación incluyen crisis financieras y económ
 
 Hoy en día, el debate sobre el cálculo económico resurge principalmente en discusiones sobre energía, donde las malas inversiones impulsadas por una agenda verde son cada vez más evidentes. También surge en discusiones sobre los mercados monetarios, con los economistas austriacos señalando que la crisis de 2008, que los economistas convencionales no lograron predecir, fue un clásico ciclo de auge y caída caracterizado por una sobreinversión en el mercado inmobiliario debido a períodos prolongados de tasas de interés bajas. Además, los neo-marxistas y otras facciones socialistas propagan la idea de que la aparición de la inteligencia artificial podría resolver el problema del cálculo económico. Sin embargo, esta perspectiva se basa en una comprensión errónea del problema; el problema del cálculo económico no es una cuestión de capacidad de cómputo, sino más bien una cuestión de generar y distribuir información relacionada con la producción y la asignación de recursos. Esta información solo puede ser generada localmente por agentes con conocimientos especializados y un interés personal en el resultado. La inteligencia artificial no puede reemplazar este proceso que surge desde las decisiones individuales y, por lo tanto, no puede ayudar a los planificadores centrales a abordar el problema de asignación de recursos. Desafortunadamente, debido a un siglo de malentendidos, anticipamos una proliferación de afirmaciones de que la inteligencia artificial abrirá una nueva era de prosperidad económica liderada por planificadores centrales iluminados que, con la ayuda de la inteligencia artificial, pueden corregir los fracasos de los mercados libres.
 
-Para una aplicación concreta del problema del cálculo económico a una situación contemporánea, puedes consultar este artículo que aborda el problema de la asignación de recursos en la China moderna.
-
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet,
-> 
-> https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
+Para una aplicación concreta del problema del cálculo económico a una situación contemporánea, puede remitirse a este artículo que trata de la asignación de recursos en la China moderna: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, por Théo Mogenet.
 
 ### Conclusión
 

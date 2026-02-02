@@ -1,0 +1,8 @@
+question: Jaká je nejvýznamnější výhoda použití typů Result a Option oproti typům panic pro ošetření chyb v produkčním kódu Rust?
+answer: Vynucují si explicitní potvrzení potenciálních chyb a umožňují postupné obnovení chyb
+wrong_answers:
+  - Poskytují lepší výkon, protože zabraňují odvíjení zásobníku při chybových stavech
+  - Automaticky převádějí všechny typy chyb na řetězcové zprávy pro snadnější ladění
+  - Eliminují potřebu šíření chyb tím, že chyby řeší v místě selhání
+explanation: |
+  Typy Result a Option umožňují explicitní ošetření chyb a jejich obnovení tím, že nutí vývojáře připustit, že operace mohou selhat, a poskytují mechanismy, jak tato selhání elegantně ošetřit. Na rozdíl od paniky, která okamžitě ukončí provádění, tyto typy umožňují programům pokračovat v běhu a vhodně reagovat na chybové stavy. Špatné odpovědi zkreslují jejich schopnosti: výkon není jejich hlavní výhodou, nepřevádějí automaticky chyby na řetězce (to je vlastnost anyhow) a ve skutečnosti spíše usnadňují než odstraňují šíření chyb prostřednictvím operátorů jako ?.

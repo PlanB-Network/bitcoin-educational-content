@@ -1,5 +1,6 @@
 ---
-term: NATUURLIJK Fork
+term: Natuurlijke fork
+definition: Tijdelijke splitsing van de blockchain wanneer twee blokken bijna gelijktijdig worden gevonden.
 ---
 
 Een tijdelijke scheiding van de Blockchain als gevolg van het bijna gelijktijdig uitzenden van verschillende blokken door verschillende miners op dezelfde hoogte. Deze situatie doet zich voor wanneer twee blokken, aangeduid als $A$ en $B$, bijna op hetzelfde moment gevonden worden, wat leidt tot een tijdelijke opsplitsing van het netwerk. Aangezien elk knooppunt het eerste blok dat het ontving als geldig beschouwt, maar niet iedereen eerst hetzelfde blok ontving, volgt een deel van de knooppunten de keten met blok $A$, terwijl het andere deel de keten met blok $B$ volgt. Deze Fork wordt opgelost wanneer één van de twee concurrerende ketens de andere overtreft in termen van geaccumuleerd werk. Op dat moment worden alle knooppunten in het netwerk het automatisch eens over de langere keten (met het meeste geaccumuleerde werk), een proces dat bekend staat als reorganisatie of resynchronisatie. Deze natuurlijke vorken zijn inherent aan de gedistribueerde werking van Bitcoin. Ze zijn volkomen normaal en lossen spontaan op. Ze zijn volkomen normaal en lossen spontaan op na een paar blokken (meestal maar één). Als ze echter te vaak voorkomen, kunnen deze vorken nog steeds schadelijk zijn, omdat ze leiden tot verspilling van rekenkracht aan een tak die uiteindelijk verouderd raakt.

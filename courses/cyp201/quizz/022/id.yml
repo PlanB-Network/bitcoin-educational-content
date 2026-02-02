@@ -6,4 +6,4 @@ wrong_answers:
   - Dengan penambahan berulang nilai numerik
 explanation: |
   Kunci publik diperoleh dengan perkalian skalar dari kunci privat dengan titik generator G pada kurva eliptik.
-ditinjau: false
+reviewed: true

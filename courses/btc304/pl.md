@@ -28,7 +28,7 @@ W BTC304 przyjrzymy się, dlaczego budowanie społeczności ma znaczenie, zbadam
 
 
 
-Witamy w BTC302!
+Witamy w BTC 304!
 
 
 
@@ -39,7 +39,7 @@ Od 2009 roku Bitcoin nieustannie się rozwija. Wzrost ten nabrał kształtu dzi�
 Jego rozwój jest również widoczny w On-Chain, przy stale rosnącej liczbie transakcji.
 
 
-Na przykład szacuje się, że w okresie od 1 stycznia 2018 r. do 1 stycznia 2024 r. liczba transakcji na głównej Bitcoin Layer [wzrosła o 66,2%] (https://dune.com/queries/3375917/5663935). Tymczasem między sierpniem 2021 r. a sierpniem 2023 r. liczba transakcji publicznych na Lightning Network [wzrosła o 1 212%] (https://river.com/learn/files/river-lightning-report-2023.pdf).
+Na przykład szacuje się, że w okresie od 1 stycznia 2018 r. do 1 stycznia 2024 r. liczba transakcji na głównej Bitcoin Layer [wzrosła o 66,2%](https://dune.com/queries/3375917/5663935). Tymczasem między sierpniem 2021 r. a sierpniem 2023 r. liczba transakcji publicznych na Lightning Network [wzrosła o 1 212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 
 
@@ -48,7 +48,7 @@ Ten znaczący wzrost jest oczywiście ściśle powiązany z:
 
 
 
-- [rosnące zainteresowanie ludzi na całym świecie korzystaniem z Bitcoin] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), aby uwolnić się od systemu bankowego i/lub korzystać z mniej niestabilnej lub mniej zdewaluowanej waluty, jak ma to miejsce w przypadku ludności w Libanie, Syrii, Egipcie, Argentynie i innych krajach;
+- [rosnące zainteresowanie ludzi na całym świecie korzystaniem z Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), aby uwolnić się od systemu bankowego i/lub korzystać z mniej niestabilnej lub mniej zdewaluowanej waluty, jak ma to miejsce w przypadku ludności w Libanie, Syrii, Egipcie, Argentynie i innych krajach;
 - jego aprecjacji cenowej w czasie, ustanawiając go jako magazyn wartości i długoterminową inwestycję, napędzaną przez stałą politykę pieniężną;
 - sukcesywny wzrost rynku kryptowalut spekulacyjnych, szczególnie w latach 2017-2018 i 2020-2021;
 - Rosnąca obecność Bitcoin w mediach głównego nurtu.
@@ -866,7 +866,7 @@ W poniższych samouczkach pierwotnie korzystaliśmy z pakietu APK "Telegram+", k
 Jeśli chcesz stworzyć miejsce, w którym Twoi członkowie będą mogli rozmawiać ze sobą bezpośrednio, odpowiadać sobie nawzajem itp
 
 
-Przejdź bezpośrednio do następnej sekcji, zatytułowanej [Utwórz grupę Telegram] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Przejdź bezpośrednio do następnej sekcji, zatytułowanej [Utwórz grupę Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1260,7 +1260,7 @@ Dodatkowo, **warto dostosować kilka ustawień prywatności**:
 W przypadku każdego wydarzenia prawdopodobnie użyjesz Twittera do udostępniania przydatnych informacji. Jednak, podobnie jak w przypadku większości sieci społecznościowych, **widoczność jest najważniejsza**.
 
 
-Aby zaoszczędzić sporo czasu, poświęciliśmy czas na przestudiowanie [algorytmu rankingowego Twittera typu open-source] (https://github.com/twitter).
+Aby zaoszczędzić sporo czasu, poświęciliśmy czas na przestudiowanie [algorytmu rankingowego Twittera typu open-source](https://github.com/twitter).
 
 
 Oto **kluczowe rzeczy, na których należy się skupić, aby zwiększyć swoją widoczność**:
@@ -1721,7 +1721,7 @@ Rzymu nie zbudowano w jeden dzień, podobnie jak nie uda się to Twojej społecz
 Aby tak się stało, niezbędna jest jedna rzecz: **utrzymanie zaangażowania uczestników**.
 
 
-Może zacząć się od małej grupy pasjonatów bitcoinów, których celem jest regularne spotykanie się i rozmawianie o Bitcoin. Z czasem, w zależności od dostępności i zainteresowań każdej osoby, można **podzielić się pewnymi zadaniami organizacyjnymi z grupą** lub zaprosić głównych **członków do podjęcia konkretnych projektów**. Mogą one być unikalne dla twojej społeczności, spotkań lub miasta, a nawet inspirowane wieloma inicjatywami zaproponowanymi w [części 6/8 tego kursu] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **To nie tylko sprzyja Commitment od głównych członków, ale także pomaga społeczności rosnąć i rozwijać się **.
+Może zacząć się od małej grupy pasjonatów bitcoinów, których celem jest regularne spotykanie się i rozmawianie o Bitcoin. Z czasem, w zależności od dostępności i zainteresowań każdej osoby, można **podzielić się pewnymi zadaniami organizacyjnymi z grupą** lub zaprosić głównych **członków do podjęcia konkretnych projektów**. Mogą one być unikalne dla twojej społeczności, spotkań lub miasta, a nawet inspirowane wieloma inicjatywami zaproponowanymi w [części 6/8 tego kursu](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **To nie tylko sprzyja Commitment od głównych członków, ale także pomaga społeczności rosnąć i rozwijać się **.
 
 
 W miarę postępu spotkań pojawią się nowe twarze: ludzie, którzy kupili BTC i / lub altcoiny w poprzednich cyklach, entuzjaści technologii, którzy chcą pogłębić swoją wiedzę, lub zupełnie początkujący ciekawi tego nieocenzurowanego, zdecentralizowanego, przejrzystego i uczciwego systemu płatności, który działa bez warunków i bez zaufanych stron trzecich.
@@ -2071,7 +2071,7 @@ Oto [broszura udostępniona przez francuskich bitcoinerów](https://profedustrea
 Prawie każdy bitcoiner prawdopodobnie widział fascynujący film [Rémi Forte](https://twitter.com/forteremi) "Le mystère Satoshi, aux origines du Bitcoin" (Tajemnica Satoshi: Początki Bitcoin).
 
 
-Wydany w 2021 roku, został obejrzany [kilka milionów razy na YouTube] (https://www.youtube.com/watch?v=0ETcLj5jBy4).
+Wydany w 2021 roku, został obejrzany [kilka milionów razy na YouTube](https://www.youtube.com/watch?v=0ETcLj5jBy4).
 
 
 Jednym z pomysłów może być zorganizowanie pokazu Tajemnicy Satoshi dla swojej społeczności, być może jako dodatkowe comiesięczne wydarzenie.
@@ -2086,7 +2086,7 @@ Dla większości społeczności cena ta jest zaporowa, zwłaszcza że dokument j
 Oczywiście możliwe są także inne prognozy.
 
 
-Na przykład we Francji **reżyserka [Alana Mediavilla] (https://twitter.com/AlanaMediavilla) przyznała lokalnym meet-upom prawo do podglądu jej filmu dokumentalnego "Stranded "**, który zawiera materiał z nadchodzącego w 2024 roku filmu [film "Dirty Coin"] (https://www.dirtycointhemovie.com/).
+Na przykład we Francji **reżyserka [Alana Mediavilla](https://twitter.com/AlanaMediavilla) przyznała lokalnym meet-upom prawo do podglądu jej filmu dokumentalnego "Stranded "**, który zawiera materiał z nadchodzącego w 2024 roku filmu [film "Dirty Coin"](https://www.dirtycointhemovie.com/).
 
 
 Niektórzy bitcoinerzy podjęli nawet inicjatywę, aby w pełni przetłumaczyć "Stranded" na język francuski, dodać napisy i udostępnić go na spotkaniach w całym kraju. W tygodniu 4 marca 2024 r. film był wyświetlany jednocześnie na kilkunastu spotkaniach w całym kraju.
@@ -2222,7 +2222,7 @@ Popularne platformy obejmują:
 - [**peertube**](https://joinpeertube.org/fr_FR) umożliwia hostowanie własnej platformy wideo, choć jej konfiguracja jest bardziej złożona.
 
 
-Niezależnie od tego, co wybierzesz, zaprojektuj wizualizacje specyficzne dla platformy, aby Twój kanał był atrakcyjny. Canva, wspomniana w [części 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) oferuje kategorię "Miniatury YouTube" z gotowymi, konfigurowalnymi projektami.
+Niezależnie od tego, co wybierzesz, zaprojektuj wizualizacje specyficzne dla platformy, aby Twój kanał był atrakcyjny. Canva, wspomniana w [części 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) oferuje kategorię "Miniatury YouTube" z gotowymi, konfigurowalnymi projektami.
 
 
 
@@ -2300,7 +2300,7 @@ W innym, bardziej tradycyjnym podejściu, można po prostu poprosić uczestnikó
 Choć jest to nieco formalne, może pomóc członkom w łatwiejszym znalezieniu wspólnych zainteresowań i tematów do rozmowy, a także ułatwia nowicjuszom dostrzeżenie organizatorów (lub oficjalnych członków społeczności / stowarzyszenia).
 
 
-Kilka szablonów odznak używanych przez stowarzyszenie Bitcoin Lille jest [dostępnych w wersji open-source w serwisie Canva] (https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Kilka szablonów odznak używanych przez stowarzyszenie Bitcoin Lille jest [dostępnych w wersji open-source w serwisie Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2334,7 +2334,7 @@ Rozsądnie jest współpracować ze społecznością, aby z wyprzedzeniem ustali
 
 Posiadanie standardowego protokołu uniemożliwia również każdemu, członkowi lub gościowi, wykorzystanie sytuacji do kradzieży środków.
 
-Można utworzyć specjalną grupę roboczą w celu zdefiniowania tego procesu. Stowarzyszenie Bitcoin Lille już pracuje nad takim [dokumentem] (https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), który planuje opublikować jako open-source w nadchodzących miesiącach.
+Można utworzyć specjalną grupę roboczą w celu zdefiniowania tego procesu. Stowarzyszenie Bitcoin Lille już pracuje nad takim [dokumentem](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), który planuje opublikować jako open-source w nadchodzących miesiącach.
 
 
 
@@ -2831,14 +2831,14 @@ W pojedynkę można szybko zbadać jeden z wielu tuneli w króliczej norze Bitco
 
 
 
-## BTC302, co dalej
+## BTC 304, co dalej
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-W tym kursie BTC302 szczegółowo omówiliśmy, jak skonfigurować społeczność lub spotkanie, a także jak uruchomić różne projekty.
+W tym kursie BTC 304 szczegółowo omówiliśmy, jak skonfigurować społeczność lub spotkanie, a także jak uruchomić różne projekty.
 
 
 Gdy Twoja społeczność jest gotowa na kolejny krok, **możesz utworzyć formalne stowarzyszenie**.
@@ -2853,11 +2853,9 @@ Korzyści są dwojakie:
 - **Ustrukturyzowana organizacja**: możesz zdefiniować jasne role, ułatwiając zarządzanie społecznością i realizację projektów.
 
 
-Aby pomóc w dalszym rozwoju społeczności, **kontynuacja kursu COMMU302**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+W celu dalszego rozwoju waszej społeczności **nie można wykluczyć, że w nadchodzących miesiącach pojawi się kontynuacja tego szkolenia na [Plan ₿ Academy](https://planb.academy/)**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-może zostać wydany na [planb.network](https://planb.academy/) w nadchodzących miesiącach.
 
 
 Kolejna sesja może obejmować zaawansowane tematy, takie jak

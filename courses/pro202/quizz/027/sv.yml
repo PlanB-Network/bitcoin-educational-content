@@ -1,0 +1,8 @@
+question: Vad händer med stacken efter att OP_CHECKSIG har exekverats när signaturverifieringen lyckas?
+answer: Värdet 1 skjuts upp på stacken
+wrong_answers:
+  - Signaturen och den publika nyckeln ligger kvar på stacken
+  - Stapeln rensas och återställs till tom
+  - Den offentliga nyckelns hash läggs på stacken
+explanation: |
+  OP_CHECKSIG är en operationskod som omvandlar stacken och som tar en signatur och en publik nyckel från stacken, verifierar signaturen mot transaktionens sighash och lägger antingen 1 (för giltig) eller 0 (för ogiltig) på stacken. Den ursprungliga signaturen och den publika nyckeln tas bort under denna process. Stacken rensas inte helt och hållet och inga hashvärden skjuts upp, utan endast det booleska resultatet av verifieringen.

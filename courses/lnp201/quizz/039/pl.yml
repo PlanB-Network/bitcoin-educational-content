@@ -6,4 +6,4 @@ wrong_answers:
   - Kanał nie może zostać zamknięty przed upływem HTLC.
 explanation: |
   Podczas wymuszonego zamknięcia, oczekujące kontrakty HTLC są reprezentowane jako wyjścia w transakcjach zobowiązujących, zapewniając w ten sposób ich wykonanie lub zwrot zgodnie ze zdefiniowanymi warunkami.
-reviewed: false
+reviewed: true

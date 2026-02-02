@@ -1,8 +1,9 @@
-question: Ni ibihe bintu muri ivyo Dupont de Nemours yagize uruhara mu gihe c’Impinduka y’Abafaransa?
+question: Ni ibihe bihe Dupont de Nemours yagize uruhara mu gihe c’Impinduka y’Abafaransa?
 answer: Inama Nshingamateka n'ugutegura « cahiers de doléances ».
 wrong_answers:
-  - Gutegura amakete y'imbabazi no gutera igisagara ca Bastille
-  - Igitero ca Bastille n'Inama Nshingamateka .
+  - Gutegura cahiers de doléances no gufata Bastille
+  - Ugufatwa kwa Bastille n'Inama Nshingamateka .
   - Uguhunga kw’Umwami n’Inama Nshingamateka
 explanation: |
-  Dupont de Nemours yarifatanije mu nama nshingamateka no mu gutegura ama cahiers de doléances, yarafise uruhara runini mu misi ya mbere y’Impinduka y’Abafaransa.
+  Dupont de Nemours yarifatanije mu nama nshingamateka no mu gutegura ayo cahiers de doléances, yarafise uruhara runini mu misi ya mbere y’Impinduka y’Abafaransa.
+reviewed: true

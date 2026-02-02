@@ -1,0 +1,9 @@
+question: Quel changement fondamental se produit dans la structure des coûts de sécurité de Bitcoin lorsque la subvention globale approche de zéro ?
+answer: Les coûts de sécurité ne sont plus payés par les détenteurs par le biais de l'inflation monétaire, mais par les utilisateurs par le biais des frais de transaction
+wrong_answers:
+  - Les coûts de sécurité ne sont plus supportés par les mineurs, qui investissent dans le matériel, mais par les nœuds, qui consomment de l'électricité
+  - Les coûts de sécurité ne sont plus payés par les bourses via les frais de négociation, mais par les fournisseurs de wallet via les frais de service
+  - Les coûts de sécurité ne sont plus supportés par les développeurs à travers la maintenance du code, mais par les utilisateurs à travers la participation au réseau
+explanation: |
+  Le chapitre explique clairement qu'aujourd'hui, les détenteurs paient pour la sécurité de Bitcoin par le biais de l'inflation monétaire (création de nouvelles pièces via la subvention des blocs), mais qu'à l'avenir, lorsque la subvention des blocs approchera de zéro, les dépensiers paieront pour la sécurité par le biais des frais de transaction. Il s'agit d'un changement économique fondamental qui consiste à déterminer qui supporte le coût du maintien de la sécurité du réseau, en passant d'un modèle où la création de nouvelles pièces finance la mining à un modèle où les frais de transaction doivent inciter suffisamment les mineurs à sécuriser le réseau.
+reviewed: false

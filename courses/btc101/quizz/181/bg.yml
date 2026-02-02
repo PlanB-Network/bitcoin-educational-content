@@ -1,0 +1,8 @@
+question: Какво е BTCMap?
+answer: Платформа, в която са изброени всички търговци, които приемат Bitcoin.
+wrong_answers:
+  - Карта на всички мини Bitcoin в света.
+  - Карта на всички борси Bitcoin в света.
+  - Карта на всички потребители на Bitcoin в света.
+explanation: >-
+reviewed: true

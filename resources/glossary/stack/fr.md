@@ -1,5 +1,6 @@
 ---
-term: PILE
+term: Pile
+definition: Structure de données LIFO utilisée dans Bitcoin Script pour stocker et manipuler des éléments temporaires pendant l'exécution.
 ---
 
 Dans le contexte du langage script utilisé pour apposer des conditions de dépense sur des UTXOs Bitcoin, la pile est une structure de données de type « LIFO » (*Last In, First Out*) qui sert à stocker des éléments temporaires pendant l'exécution d'un script. Chaque opération dans le script manipule ces piles, où les éléments peuvent être ajoutés (*push*) ou retirés (*pop*). Les scripts utilisent les piles pour évaluer les expressions, stocker des variables temporaires, et gérer les conditions.

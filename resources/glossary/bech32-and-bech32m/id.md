@@ -1,6 +1,7 @@
 ---
-term: BECH32 DAN BECH32M
+term: Bech32 dan bech32m
 
+definition: Format pengodean untuk alamat SegWit (dimulai dengan bc1), menawarkan deteksi kesalahan yang lebih baik dan keterbacaan yang ditingkatkan dibandingkan dengan alamat Legacy.
 ---
 `Bech32` dan `Bech32m` adalah dua format kode alamat untuk menerima bitcoin. Keduanya didasarkan pada basis 32 dengan sedikit modifikasi. Format ini menggunakan checksum berdasarkan algoritma pengoreksi kesalahan yang disebut BCH (*Bose-Chaudhuri-Hocquenghem*). Dibandingkan dengan alamat Legacy, yang dikodekan dalam `Base58check`, alamat `Bech32` dan `Bech32m` memiliki _checksum_ yang lebih efisien, sehingga dapat mendeteksi dan mengoreksi kesalahan pengetikan secara otomatis. Format ini juga lebih mudah dibaca, karena hanya menggunakan karakter huruf kecil. Berikut ini adalah matriks penjumlahan untuk format ini dari basis 10:
 

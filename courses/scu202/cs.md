@@ -6308,7 +6308,7 @@ Cíl je jednoduchý: zabránit tomu, aby incident zahrnující konkrétní aktiv
 
 
 
-- **Používejte vestavěné kontejnery**: Firefox nabízí rozšíření [Kontejnery pro více účtů] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), které umožňuje otevřít samostatné karty, každou s vlastním přihlášením a soubory cookie. Určité weby můžete také automaticky přiřadit k určitému kontejneru, aby byly při každém otevření odděleny.
+- **Používejte vestavěné kontejnery**: Firefox nabízí rozšíření [Kontejnery pro více účtů](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), které umožňuje otevřít samostatné karty, každou s vlastním přihlášením a soubory cookie. Určité weby můžete také automaticky přiřadit k určitému kontejneru, aby byly při každém otevření odděleny.
 
 
 

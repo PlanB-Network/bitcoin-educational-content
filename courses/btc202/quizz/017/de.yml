@@ -1,9 +1,9 @@
-question: Welche beiden Komponenten werden seit Version 0.5 mit Bitcoin core ausgeliefert?
+question: Welche beiden Komponenten werden seit Version 0.5 mit Bitcoin Core zur verfügung gestellt?
 answer: Bitcoin-qt und bitcoind
 wrong_answers:
   - bitcoin-cli und Bitcoin-gui
   - Bitcoin-Miner und Bitcoin-Wallet
-  - Bitcoin-Kern und Bitcoin-Knoten
+  - Bitcoin-core und Bitcoin-node
 explanation: |
-  Seit Version 0.5 enthält Bitcoin core ein grafisches Interface (Bitcoin-qt) und ein Kommandozeilen-Interface (bitcoind).
+  Seit Version 0.5 enthält Bitcoin Core ein grafisches Interface (Bitcoin-qt) und ein Command-Line Interface (bitcoind).
 reviewed: true

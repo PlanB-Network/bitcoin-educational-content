@@ -1,0 +1,9 @@
+question: ส่วนประกอบหลักสองอย่างของสถานะสัญญาอัจฉริยะใน RGB คืออะไร?
+answer: Global State และรัฐที่เป็นเจ้าของ
+wrong_answers:
+  - Commitment และ Genesis
+  - Seal Definition และ State Transition
+  - Valency และ Contract Rights
+explanation: |
+  Global State มีข้อมูลสาธารณะ ในขณะที่ Owned States จะเชื่อมโยงกับผู้ถือเฉพาะผ่านทาง UTXOs
+reviewed: false

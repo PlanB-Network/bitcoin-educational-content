@@ -1,21 +1,18 @@
 ---
-name: Johdatus itävaltalaiseen taloustieteeseen
-goal: Tutustu itävaltalaisen talousajattelun koulukuntaan. Tutki heidän näkemyksiään yhteiskunnasta sekä makro- ja mikrotaloudellisista todellisuuksista.
+name: Itävaltalaisen taloustieteen koulukunnan perusteet
+goal: Tutustu itävaltalaiseen taloustieteeseen vaihtoehtoisena viitekehyksenä markkinoiden ja yksilöllisen päätöksenteon analysointiin
 objectives:
-  - Vaihtoehto keynesiläisyydelle
-  - Kovien valuuttojen tärkeys
-  - Miksi ja miten taloussyklit luodaan?
-  - Miksi keskuspankkiirit ovat menneet hulluiksi?
+- Analysoida rahan, luoton ja keskuspankkijärjestelmien toimintoja
+- Soveltaa subjektiivista arvoteoriaa ja aikapreferenssiä markkinakäyttäytymiseen
+- Ymmärtää itävaltalainen suhdanneteoria ja sen syyt
+- Verrata itävaltalaista metodologiaa valtavirran taloudellisiin lähestymistapoihin
 ---
+# Matka itävaltalaiseen taloustieteeseen
 
-# Matka taloustieteeseen
+Oletko koskaan miettinyt, miksi jotkut taloustieteilijät ajattelevat eri tavalla markkinoista, vapaudesta ja ihmisten käyttäytymisestä? Itävaltalainen taloustiede tarjoaa virkistävän näkökulman, joka asettaa sinut taloudellisen ajattelun keskiöön. Raskaan matematiikan ja abstraktien mallien sijaan tämä lähestymistapa keskittyy logiikkaan, ihmisten valintoihin ja siihen, miten todelliset ihmiset tekevät päätöksiä jokapäiväisessä elämässään. Se on taloutta vapauden, rationaalisuuden ja henkilökohtaisen toiminnan linssin läpi.
 
-Tervetuloa Théo Mogenetin kurssille! Taloustieteestä, historiasta, kirjallisuudesta, politiikantieteestä ja teknologiasta intohimoisesti kiinnostunut Théo on päättänyt jakaa tietonsa itävaltalaisesta taloustieteestä kanssasi. Tämä taloustieteen haara, joka on vähemmän tunnettu, perustuu ihmisen rationaalisuuteen ja vapaan toimijan käyttäytymiseen. Matematiikkaa vähemmän korostava lähestymistapa on ennen kaikkea looginen ja sosiaalinen tutkimus.
-
-Tällä ajattelukoulukunnalla on jo useita vuosisatoja takanaan, ja sen taustalla on kokonainen panorama kirjoittajia, ajatuksia ja taloustieteilijöitä. Suuret taloustieteen nimet kuten Hayek, Rothbard, Mises, Bastiat ja Menger ovat pitkään puolustaneet tätä liikettä. Nykypäivän kaikkialla läsnä olevan keynesiläisyyden vastakohtana itävaltalainen koulu asettaa yksilön jälleen yhtälön keskipisteeseen liberaalimmalla, kapitalistisemmalla ja jopa anarkistisemmalla lähestymistavalla.
-
+Tämä ajattelukoulukunta on muovannut keskusteluja vuosisatojen ajan vaikutusvaltaisten ajattelijoiden, kuten Hayekin, Misesin ja Bastiatin, ansiosta. Vaikka valtavirtaa edustava keynesiläinen taloustiede hallitsee nykyisiä poliittisia keskusteluja, itävaltalainen perinne esittää erilaisia kysymyksiä: Mitä tapahtuu, kun asetamme yksilönvapauden etusijalle? Miten vapaat markkinat todella toimivat, kun ihmiset voivat vapaasti valita? Jos olet utelias vaihtoehtoisista tavoista ajatella markkinoita, yhteiskuntaa ja vapautta, tämä on tilaisuutesi tutkia ideoita, joita et löydä tavallisista oppikirjoista.
 +++
-
 # Johdanto
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
@@ -501,9 +498,8 @@ Tällaisen väärinkäytön seuraukset sisältävät taloudellisia ja talouskrii
 
 Nykyään taloudellisen laskennan keskustelu nousee esiin pääasiassa keskusteluissa energiasta, missä vihreän agendan ajamat väärät investoinnit ovat yhä ilmeisempiä. Se nousee esiin myös rahamarkkinakeskusteluissa, joissa itävaltalaiset taloustieteilijät osoittavat, että vuoden 2008 kriisi, jonka valtavirtaistaloustieteilijät eivät ennustaneet, oli klassinen nousu- ja laskusuhdanne, joka oli luonnehdittu yli-investoinnilla asuntomarkkinoille pitkien matalien korkotason kausien vuoksi. Lisäksi neo-marxilaiset ja muut sosialistiset ryhmät levittävät käsitystä, että tekoälyn esiinmarssi voisi ratkaista taloudellisen laskennan ongelman. Tämä näkökulma kuitenkin perustuu virheelliseen ymmärrykseen ongelmasta; taloudellisen laskennan ongelma ei ole laskentatehon kysymys, vaan pikemminkin tuotantoon ja resurssien allokaatioon liittyvän tiedon tuottamisen ja jakamisen kysymys. Tämä tieto voidaan tuottaa vain paikallisesti toimijoilla, joilla on erikoistunutta tietämystä ja suora intressi lopputulokseen. Tekoäly ei voi korvata tätä alhaalta ylöspäin suuntautuvaa prosessia ja siksi ei voi auttaa keskussuunnittelijoita ratkaisemaan resurssien allokaatio-ongelmaa. Valitettavasti vuosisadan väärinkäsityksen vuoksi odotamme väitteiden, että tekoäly toisi uuden taloudellisen vaurauden aikakauden valistuneiden keskussuunnittelijoiden johdolla, jotka tekoälyn avulla voivat korjata vapaamarkkinoiden epäonnistumiset, lisääntyvän.
 
-Konkreettiseksi sovellukseksi taloudellisen laskennan ongelmasta nykyaikaisessa tilanteessa, voit viitata tähän artikkeliin, joka käsittelee resurssien allokaation ongelmaa nyky-Kiinassa.
+Taloudellisen laskennan ongelman konkreettiseksi soveltamiseksi nykyaikaiseen tilanteeseen voitte viitata tähän artikkeliin, joka käsittelee resurssien allokointia modernissa Kiinassa: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, kirjoittanut Théo Mogenet.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Johtopäätös
 

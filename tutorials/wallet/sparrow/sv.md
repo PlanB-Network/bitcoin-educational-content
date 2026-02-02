@@ -32,7 +32,7 @@ När det gäller anslutning låter Sparrow dig ansluta till din egen Bitcoin-nod
 ## Installera Sparrow wallet
 
 
-Gå till [den officiella nedladdningssidan för Sparrow wallet] (https://sparrowwallet.com/download/) och välj den programvaruversion som motsvarar ditt operativsystem.
+Gå till [den officiella nedladdningssidan för Sparrow wallet](https://sparrowwallet.com/download/) och välj den programvaruversion som motsvarar ditt operativsystem.
 
 
 ![Image](assets/fr/01.webp)
@@ -146,10 +146,11 @@ Glöm inte att starta om programvaran efter att du har gjort dessa ändringar.
 Gå sedan tillbaka till Sparrow wallet och ange sökvägen till din cookie-fil, som vanligtvis finns i samma mapp som `Bitcoin.conf`, beroende på ditt operativsystem:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -180,10 +181,11 @@ server=1
 När du har redigerat filen ska du se till att spara den i rätt mapp för ditt operativsystem:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Denna operation kan också utföras via Bitcoin-QT Interface grafiska Interface. Gå till menyn "*Settings*", sedan "*Options...*" och aktivera alternativet "*Enable RPC server*" genom att markera motsvarande ruta. Om filen `Bitcoin.conf` inte finns, kan du skapa den direkt från denna Interface genom att klicka på "*Open Configuration File*".
 
@@ -191,7 +193,7 @@ Denna operation kan också utföras via Bitcoin-QT Interface grafiska Interface.
 ![Image](assets/fr/12.webp)
 
 
-Hitta IP Address för den maskin som är värd för Bitcoin Core i ditt lokala nätverk. För att göra detta kan du använda ett verktyg som [Angry IP Scanner] (https://angryip.org/). Låt oss anta, för argumentets skull, att IP Address för din nod är `192.168.1.18`.
+Hitta IP Address för den maskin som är värd för Bitcoin Core i ditt lokala nätverk. För att göra detta kan du använda ett verktyg som [Angry IP Scanner](https://angryip.org/). Låt oss anta, för argumentets skull, att IP Address för din nod är `192.168.1.18`.
 
 
 I filen `Bitcoin.conf` lägger du till följande rader och ställer in `rpcbind=192.168.1.18` så att den matchar IP Address för din nod.

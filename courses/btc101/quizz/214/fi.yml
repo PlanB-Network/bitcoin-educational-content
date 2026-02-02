@@ -1,9 +1,9 @@
-question: Mikä on Lightning-verkko?
-answer: Maksuverkko, joka käyttää Bitcoin-protokollaa mahdollistaakseen salamannopeat transaktiot.
+question: Mikä näistä Lightning-toiminnoista kirjataan onchain?
+answer: Kanavan avaaminen
 wrong_answers:
-  - Uudenlainen kryptovaluutta.
-  - Uusi lohkoketjuteknologia, joka korvaa Bitcoinin tulevaisuudessa.
-  - Menetelmä Bitcoinin louhimiseen.
+  - Välimaksu
+  - Tilan päivitys
+  - Monihyppyreititys
 explanation: |
-  Lightning-verkko on maksuverkko, joka käyttää Bitcoin-protokollaa nopeiden transaktioiden mahdollistamiseen. Se ei ole erillinen kryptovaluutta, eikä menetelmä Bitcoinin louhimiseen.
-reviewed: true
+  Vain Lightning-kanavan avaaminen ja sulkeminen vastaavat Bitcoin-siirtoja, jotka julkaistaan lohkoketjussa.
+reviewed: false

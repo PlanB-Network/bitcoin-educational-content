@@ -1,0 +1,9 @@
+question: Was ist erforderlich, um Bitcoin in einer vertrauenswürdigen Weise gemäß dem Protokollentwurf zu verwenden?
+answer: Betrieb eines vollständig validierenden Bitcoin-Knotens, um alle Blöcke und Transaktionen selbst zu überprüfen
+wrong_answers:
+  - Verwendung einer seriösen Kryptowährungsbörse mit strengen Sicherheitsmaßnahmen und Versicherungen
+  - Verlassen Sie sich auf mehrere vertrauenswürdige Drittanbieterdienste, um Transaktionsinformationen gegenseitig zu überprüfen
+  - Installation von verifizierter wallet-Software aus offiziellen Quellen mit digitalen Signaturen
+explanation: |
+  Um Bitcoin vertrauensfrei zu nutzen, müssen Sie einen vollständig validierenden Bitcoin-Knoten betreiben, der unabhängig verifiziert, dass alle Blöcke den Konsensregeln folgen, den Zeitplan für die Ausgabe von Münzen überprüft und Doppelausgaben verhindert. Dadurch wird sichergestellt, dass Sie die Verifizierung nicht an andere auslagern und die vertrauenslose Eigenschaft beibehalten. Die Nutzung von Börsen oder Drittanbietern bedeutet, dass Sie darauf vertrauen, dass andere Ihnen die Wahrheit über den Zustand der Blockchain sagen. Überprüfte Software ist zwar wichtig für die Sicherheit, macht aber die Notwendigkeit eines eigenen Validierungsknotens nicht überflüssig, um echte Vertrauenslosigkeit im Bitcoin-System zu erreichen.
+reviewed: false

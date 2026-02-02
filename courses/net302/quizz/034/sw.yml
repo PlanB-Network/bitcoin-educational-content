@@ -6,4 +6,4 @@ wrong_answers:
   - Majina ya generate DNS
 explanation: |
   IPv4 Address imepewa kila mtandao Interface wa kifaa, kuwezesha kupatikana na kufikiwa kwenye mtandao.
-reviewed: false
+reviewed: true

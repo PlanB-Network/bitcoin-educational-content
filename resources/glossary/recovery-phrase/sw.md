@@ -1,5 +1,6 @@
 ---
-term: KAULI YA KUPONA
+term: Maneno ya kurejesha
+definition: Msururu wa maneno 12 au 24 yanayoruhusu kuhifadhi na kurejesha pochi ya Bitcoin.
 ---
 
 Kishazi cha urejeshaji, pia wakati mwingine huitwa kishazi Mnemonic, seed, au maneno ya siri, ni mfuatano kwa kawaida unaojumuisha maneno 12 au 24, ambayo hutokezwa kwa njia ya uwongo-nasibu kutoka kwa chanzo cha entropy. Mlolongo wa pseudo-nasibu hukamilishwa kila wakati na hundi. Kishazi cha Mnemonic, pamoja na passphrase ya hiari, hutumiwa kupata funguo zote zinazohusiana na HD (Hierarchical Deterministic) Wallet. Hii ina maana kwamba kutokana na kifungu hiki, inawezekana kubainisha generate na kuunda upya funguo zote za faragha na za umma za Bitcoin Wallet, na hivyo kufikia fedha zinazohusiana nayo. Madhumuni ya kifungu cha urejeshaji ni kutoa njia ya kuhifadhi na kurejesha bitcoins ambayo ni salama na rahisi kutumia.

@@ -1,4 +1,4 @@
-question: Welche Hash-Funktion wird verwendet, um die Prüfsumme einer mnemonischen Phrase zu berechnen?
+question: Welche Hashfunktion wird verwendet, um die Prüfsumme einer mnemonischen Phrase zu berechnen?
 answer: SHA256
 wrong_answers:
   - RIPEMD160
@@ -6,4 +6,4 @@ wrong_answers:
   - HASH256
 explanation: |
   Die Prüfsumme einer mnemonischen Phrase wird berechnet, indem ein einfacher SHA256-Hash auf die Entropie angewendet wird.
-reviewed: false
+reviewed: true

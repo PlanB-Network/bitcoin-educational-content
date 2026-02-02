@@ -1,5 +1,6 @@
 ---
 term: ECDSA
+definition: Uburyo bwo gushira umukono bwa kime bukoreshwa kuri Bitcoin mu gusinya ivunjisha.
 ---
 
 Inyuguti y'inyongera y'"Igicapo c'Igicapo c'Igicapo." Ni ubuhinga bwo gusinya bushingiye ku buhinga bwo gukingira amakuru (ECC). Ni uburyo butandukanye bwa DSA (Algorithme de la signature numérique). ECDSA ikoresha imiterere y’ibigobe vy’uruzitiro kugira ngo itange ingero z’umutekano zigereranywa n’iz’ubuhinga bwa kera bw’urufunguzo rwa bose, nka RSA, mu gihe ikoresha ubunini bw’urufunguzo buto cane. ECDSA iremeza guhingura imfunguruzo zibiri (imfunguruzo za bose n’iz’ibanga) hamwe n’uguhingura no kugenzura imikono y’ubuhinga bwa none.

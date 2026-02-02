@@ -1,0 +1,9 @@
+question: Quel prérequis est indispensable avant d’installer LND sur Umbrel ?
+answer: Nœud Bitcoin synchronisé
+wrong_answers:
+  - Compte Umbrel Premium
+  - Canal Lightning existant
+  - Adresse Lightning active
+explanation: |
+  LND repose sur un nœud Bitcoin synchronisé à 100%, condition indispensable à son fonctionnement.
+reviewed: false

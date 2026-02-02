@@ -1,0 +1,8 @@
+question: Ni utaratibu gani mkuu wa makubaliano unaotumiwa na Liquid Network?
+answer: Makubaliano ya Shirikisho
+wrong_answers:
+  - Proof-of-Work
+  - Uthibitisho wa Dau
+  - Uthibitisho wa Dau Uliokabidhiwa
+explanation: |
+  Liquid Network inafanya kazi kwa kutumia mfumo wa Makubaliano ya Shirikisho, ambao kimsingi ni tofauti na mfumo wa Proof-of-Work wa Bitcoin. Katika mfumo huu, kundi teule la watendaji kumi na watano hufanya kazi kama watia saini wa vitalu ambao hutoa vitalu kwa mtindo wa mviringo wa rota. Proof-of-Work ni utaratibu wa makubaliano wa Bitcoin unaohusisha mining, huku Uthibitisho wa Hisa na Uthibitisho wa Hisa Uliogawiwa ni mifumo ya makubaliano inayotumiwa na mitandao mingine ya blockchain lakini si na Liquid.

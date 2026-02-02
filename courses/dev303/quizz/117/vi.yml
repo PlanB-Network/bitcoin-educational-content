@@ -1,0 +1,8 @@
+question: Lý do cơ bản nào khiến kiến trúc của Breez SDK giúp tránh được những rào cản pháp lý thường ảnh hưởng đến các dịch vụ Lightning lưu ký?
+answer: Người dùng duy trì quyền kiểm soát hoàn toàn đối với khóa riêng tư của họ, những khóa này không bao giờ rời khỏi thiết bị của họ, biến nó thành phần mềm không lưu giữ dữ liệu.
+wrong_answers:
+  - Bộ SDK hoạt động thông qua các LSP phi tập trung, phân bổ trách nhiệm quản lý trên nhiều khu vực pháp lý khác nhau.
+  - Cơ sở hạ tầng Greenlight được đặt tại các khu vực pháp lý thân thiện với quy định, nơi miễn trừ các dịch vụ Lightning dựa trên đám mây.
+  - Cơ chế kênh thanh toán tức thời tạo ra các kênh thanh toán tạm thời nằm ngoài các quy định tài chính truyền thống.
+explanation: |
+  Bộ SDK Breez tránh được các rào cản pháp lý vì nó duy trì các nguyên tắc không lưu giữ tài sản – khóa riêng tư của người dùng không bao giờ rời khỏi thiết bị của họ và Greenlight không thể truy cập vào tiền của người dùng hoặc thực hiện các hoạt động trái phép. Kiến trúc không lưu giữ tài sản này có nghĩa là phần mềm không giữ tiền của khách hàng, không giống như các dịch vụ lưu giữ tài sản phải đối mặt với các yêu cầu pháp lý nghiêm ngặt vì chúng kiểm soát tài sản của người dùng. Các lựa chọn khác cho rằng lợi thế về mặt pháp lý đến từ các tính năng kỹ thuật hoặc chiến lược pháp lý không chính xác, trong khi lợi thế cốt lõi đơn giản là phần mềm không lưu giữ tài sản phải đối mặt với ít rào cản pháp lý hơn trên toàn cầu.

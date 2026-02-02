@@ -1,7 +1,7 @@
 ---
-term: MINITAPSCRIPT
+term: Minitapscript
 
+definition: Phiên bản của Miniscript được điều chỉnh phù hợp với Tapscript cho các đầu ra Taproot.
 ---
 Version of Miniscript for Tapscript. Tapscript has a few notable differences from Script in its original version. MiniTapscript thus provides support for Tapscript in Miniscript.
 
-> ► *This term is sometimes disputed. Indeed, some bitcoiners prefer to refer to it as "TapMiniscript".*

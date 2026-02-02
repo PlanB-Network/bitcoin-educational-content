@@ -6,3 +6,4 @@ wrong_answers:
   - Government regulations prevent financial institutions from operating across international borders
 explanation: |
   Satoshi specifically identifies that financial institutions serving as trusted third parties cannot avoid mediating disputes, which prevents completely non-reversible transactions. This creates inherent weaknesses in the trust-based model, increases costs through mediation, and forces merchants to be wary of customers. The other options describe different problems not mentioned in Satoshi's analysis of traditional payment systems.
+reviewed: false

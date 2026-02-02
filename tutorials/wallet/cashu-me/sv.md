@@ -60,7 +60,7 @@ Den kritiska avvägningen är "förtroende": medan du kontrollerar själva symbo
 
 > ... myntet driver Lightning-infrastrukturen och förvarar satoshis för myntens ecash-användare. Användare måste lita på att myntet Redeem deras ecash när de vill byta ut till Lightning.
 
-- Cashu-dokumentation, [Allmänna frågor om säkerhet och sekretess] (https://docs.cashu.space/faq#general-safety-and-privacy-questions)
+- Cashu-dokumentation, [Allmänna frågor om säkerhet och sekretess](https://docs.cashu.space/faq#general-safety-and-privacy-questions)
 
 
 Detta gör ecash till en depåförvaringslösning för själva Bitcoin, även om du behåller full kontroll över tokens.
@@ -188,7 +188,7 @@ Utöver kärnfunktionerna för sändning och mottagning erbjuder Cashu.me kraftf
 ### Nostr Wallet Anslut
 
 
-Nostr Wallet Connect (`NWC`) förändrar hur du interagerar med Nostr-applikationer genom att skapa en sömlös anslutning mellan din Wallet och sociala appar. Detta protokoll gör det möjligt för applikationer som [Damus] (https://damus.io/) eller [Primal] (https://primal.net/home) att begära betalningar direkt via Nostr-reläer utan att du behöver lämna appen.
+Nostr Wallet Connect (`NWC`) förändrar hur du interagerar med Nostr-applikationer genom att skapa en sömlös anslutning mellan din Wallet och sociala appar. Detta protokoll gör det möjligt för applikationer som [Damus](https://damus.io/) eller [Primal](https://primal.net/home) att begära betalningar direkt via Nostr-reläer utan att du behöver lämna appen.
 
 
 Att sätta upp `NWC` i Cashu.me:
@@ -215,7 +215,7 @@ Cashu.me integreras med [npub.cash](https://npub.cash/) för att ge dig en Light
 Gå först till `Inställningar` och tryck på `Aktivera` Blixt Address med npub.cash. Detta kommer att generate en npub.cash Address med en `npub`-sträng som härrör från din Wallet seed-fras som standard.
 
 
-Alternativt kan du besöka [den här webbsidan] (https://npub.cash/username) för att få ett anpassat användarnamn med din egen Nostr `nsec`, vilket ger dig en personlig Lightning Address som username@npub.cash.
+Alternativt kan du besöka [den här webbsidan](https://npub.cash/username) för att få ett anpassat användarnamn med din egen Nostr `nsec`, vilket ger dig en personlig Lightning Address som username@npub.cash.
 
 
 ![image](assets/en/11.webp)

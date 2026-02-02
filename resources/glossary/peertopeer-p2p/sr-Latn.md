@@ -1,5 +1,6 @@
 ---
-term: PEER-TO-PEER (P2P)
+term: P2P (mreža ravnopravnih korisnika)
+definition: Komunikacioni model u kojem učesnici direktno razmenjuju informacije bez centralizovanog posrednika.
 ---
 
 Odnosi se na model komunikacije i distribucije podataka u kojem učesnici, često nazvani čvorovi ili vršnjaci, međusobno dele svoje resurse (kao što su fajlovi, procesorska snaga, propusni opseg, sredstva...) direktno među sobom, bez potrebe za centralizovanim posrednikom. U P2P sistemu, svaki učesnik istovremeno deluje kao klijent (korisnik resursa) i server (pružalac resursa).

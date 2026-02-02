@@ -1,5 +1,6 @@
 ---
-term: BLOK
+term: Blok
+definition: Struktura podataka koja sadrži validirane transakcije i metapodatke, povezana sa drugim blokovima putem heširanja.
 ---
 
 Struktura podataka u sistemu Bitcoin. Blok sadrži skup validnih transakcija i metapodatke sadržane u njegovom zaglavlju. Svaki blok je povezan sa sledećim putem Hash svog zaglavlja, čime se formira Blockchain. Blockchain deluje kao server za vremensko označavanje koji omogućava svakom korisniku da zna sve prethodne transakcije, kako bi se verifikovalo nepostojanje transakcije i sprečilo dvostruko trošenje. Transakcije su organizovane u Merkle Tree. Ovaj kriptografski akumulator omogućava proizvodnju sažetka svih transakcija u bloku, nazvanog "Merkle Root." Zaglavlje bloka sadrži 6 Elements:

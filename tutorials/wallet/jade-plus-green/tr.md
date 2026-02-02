@@ -318,7 +318,7 @@ Ardından Jade'inizdeki PIN kodunu girin ve tekrar bağlanacaksınız.
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
 
-Jade cihazınızın kilidi Blockstream'in "sanal secure element "i aracılığıyla açılır (bu eğitimin ilk bölümüne bakın). Bu, Green uygulamasıyla bir Bluetooth bağlantısı gerektirir. Kilit açma sırasında Bluetooth bağlantısıyla ilgili zorluklarla karşılaşırsanız, iki cihazı ayırmayı ve yeniden ilişkilendirmeyi deneyin. Sorun devam ederse, "*QR Scan*" seçeneğini seçerek ve [Blockstream web sitesinde] (https://jadefw.blockstream.com/pinqr/index.html) bulunan talimatları izleyerek Jade cihazınızın kilidini açabilirsiniz.
+Jade cihazınızın kilidi Blockstream'in "sanal secure element "i aracılığıyla açılır (bu eğitimin ilk bölümüne bakın). Bu, Green uygulamasıyla bir Bluetooth bağlantısı gerektirir. Kilit açma sırasında Bluetooth bağlantısıyla ilgili zorluklarla karşılaşırsanız, iki cihazı ayırmayı ve yeniden ilişkilendirmeyi deneyin. Sorun devam ederse, "*QR Scan*" seçeneğini seçerek ve [Blockstream web sitesinde](https://jadefw.blockstream.com/pinqr/index.html) bulunan talimatları izleyerek Jade cihazınızın kilidini açabilirsiniz.
 
 
 Wallet'unuzdaki ilk bitcoinlerinizi almadan önce, **Boş bir kurtarma testi** yapmanızı şiddetle tavsiye ederim. Xpub'ınız veya ilk aldığınız Address gibi bazı referans bilgilerini not edin, ardından Wallet'unuzu Green uygulamasında ve Jade Plus'ta hala boşken silin (`Options -> Device -> Factory Reset`). Ardından Wallet ifadesinin kağıt yedeklerini kullanarak Mnemonic'nizi geri yüklemeyi deneyin. Geri yüklemeden sonra oluşturulan çerez bilgilerinin orijinal olarak yazdığınızla eşleşip eşleşmediğini kontrol edin. Eğer eşleşiyorsa, kağıt yedeklerinizin güvenilir olduğundan emin olabilirsiniz. Test kurtarma işleminin nasıl gerçekleştirileceği hakkında daha fazla bilgi edinmek için lütfen bu diğer eğitime başvurun:
@@ -374,7 +374,7 @@ Sonraki sayfada, alıcının Address numarasını girin. Manuel olarak girebilir
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
 
-Ekranın alt kısmında, bu işlem için ücret oranını seçebilirsiniz. Uygulamanın önerilerini takip etme veya ücretlerinizi özelleştirme seçeneğiniz vardır. Bekleyen diğer işlemlere göre ücret ne kadar yüksekse, işleminiz o kadar hızlı işlenecektir. Ücret piyasası bilgileri için lütfen [Mempool.space] (https://Mempool.space/) adresindeki "*İşlem Ücretleri*" bölümünü ziyaret edin.
+Ekranın alt kısmında, bu işlem için ücret oranını seçebilirsiniz. Uygulamanın önerilerini takip etme veya ücretlerinizi özelleştirme seçeneğiniz vardır. Bekleyen diğer işlemlere göre ücret ne kadar yüksekse, işleminiz o kadar hızlı işlenecektir. Ücret piyasası bilgileri için lütfen [Mempool.space](https://Mempool.space/) adresindeki "*İşlem Ücretleri*" bölümünü ziyaret edin.
 
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)

@@ -72,7 +72,7 @@ Có hai khía cạnh chính của sự phân quyền trong Bitcoin: phân quyề
 Phân quyền Miner đề cập đến thực tế là việc xử lý giao dịch không được thực hiện hoặc phối hợp bởi bất kỳ thực thể trung tâm nào. Phân quyền Full node đề cập đến thực tế là việc xác thực các khối, tức là dữ liệu mà thợ đào đưa ra, được thực hiện ở rìa mạng, cuối cùng là bởi người dùng của mạng, chứ không phải bởi một số ít cơ quan đáng tin cậy.
 
 
-![](assets/en/001.webp)
+![](assets/vi/001.webp)
 
 
 ### Phân cấp Miner
@@ -236,9 +236,8 @@ Cách Bitcoin hoạt động thông qua phân cấp giống với trí thông mi
 Bà chỉ ra rằng nhiều hệ thống, dù là tự nhiên hay nhân tạo, có thể và hoạt động mà không cần người lãnh đạo, và chúng mạnh mẽ và bền bỉ. Mỗi cá nhân chỉ tương tác với môi trường xung quanh trực tiếp của họ, nhưng khi kết hợp lại, họ tạo nên một thứ gì đó to lớn.
 
 
-![](assets/en/002.webp)
+![](assets/vi/002.webp)
 
-*Đàn cá không có thủ lĩnh*
 
 
 Bất kể bạn nghĩ gì về Bitcoin, bản chất phi tập trung của nó khiến nó khó kiểm soát. Bitcoin tồn tại và bạn không thể làm gì về nó. Đó là thứ cần được nghiên cứu, không phải để tranh luận.
@@ -262,7 +261,7 @@ Hệ thống phi tập trung có thể khó hiểu đối với bạn, nhưng c�
 
 
 
-![](assets/en/003.webp)
+![](assets/vi/003.webp)
 
 
 Chương này phân tích khái niệm về sự không tin cậy, ý nghĩa của nó theo quan điểm khoa học máy tính và lý do tại sao Bitcoin phải là Trustless để giữ được giá trị đề xuất của nó.
@@ -332,7 +331,7 @@ Bản chất của bài nói chuyện đó là bạn không thể xây dựng c�
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless cơ sở Layer cho phép nhiều sự đánh đổi khác nhau ở các cấp độ cao hơn
@@ -413,7 +412,7 @@ Nếu không có sự tin tưởng, chúng ta không thể có sự phân cấp,
 
 
 
-![](assets/en/004.webp)
+![](assets/vi/004.webp)
 
 
 Chương này đề cập đến cách giữ thông tin tài chính riêng tư của bạn cho riêng bạn. Chương này giải thích quyền riêng tư có nghĩa là gì trong bối cảnh của Bitcoin, tại sao nó quan trọng và ý nghĩa của việc nói rằng Bitcoin là ẩn danh. Chương này cũng xem xét cách dữ liệu riêng tư có thể bị rò rỉ, cả On-Chain và off-chain.
@@ -493,10 +492,9 @@ Satoshi Nakamoto suy ngẫm về quyền riêng tư của On-Chain trong phần 
 Bài báo tóm tắt các vấn đề chính của quyền riêng tư Blockchain, cụ thể là tái sử dụng Address và phân cụm Address. Vấn đề đầu tiên là tự giải thích, vấn đề sau đề cập đến khả năng quyết định, với một mức độ chắc chắn nào đó, rằng một tập hợp các địa chỉ khác nhau thuộc về cùng một người dùng.
 
 
-![](assets/en/005.webp)
+![](assets/vi/005.webp)
 
 
-Rò rỉ quyền riêng tư điển hình trên Blockchain
 
 
 Chris Belcher [đã viết rất chi tiết](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) về các loại rò rỉ quyền riêng tư khác nhau có thể xảy ra trên Bitcoin Blockchain. Chúng tôi khuyên bạn nên đọc ít nhất một vài tiểu mục đầu tiên trong phần "Các cuộc tấn công vào quyền riêng tư của Blockchain".
@@ -592,7 +590,7 @@ Trong [bài phát biểu](https://btctranscripts.com/breaking-Bitcoin/2019/break
 Lưu ý cách bảo mật tốt hơn có thể đạt được bằng cách xây dựng các hệ thống trên Bitcoin, như trường hợp của Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Các lớp trên cùng của Bitcoin có thể tăng thêm sự riêng tư
@@ -633,7 +631,7 @@ Quyền riêng tư rất quan trọng nhưng Hard phải đạt được. Không
 
 
 
-![](assets/en/006.webp)
+![](assets/vi/006.webp)
 
 
 Chương này sẽ xem xét giới hạn 21 triệu BTC của Bitcoin Supply, hay thực tế là bao nhiêu? Chúng tôi sẽ nói về cách giới hạn này được thực thi và những gì người ta có thể làm để xác minh rằng nó đang được tôn trọng. Hơn nữa, chúng tôi sẽ xem xét quả cầu pha lê và thảo luận về động lực sẽ phát huy tác dụng khi Block reward chuyển từ dựa trên trợ cấp sang dựa trên phí.
@@ -691,7 +689,7 @@ Block reward bao gồm trợ cấp khối cộng với phí giao dịch. Block r
 Ngày nay, người nắm giữ là người trả tiền cho sự an toàn (thông qua lạm phát tiền tệ). Ngày mai, đến lượt người chi tiêu phải gánh vác gánh nặng này, như minh họa bên dưới.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Theo thời gian, gánh nặng chi phí an ninh sẽ chuyển từ người nắm giữ sang người chi tiêu
@@ -745,7 +743,7 @@ Liệu Bitcoin Supply có tăng trưởng vượt quá 21 triệu hay không th�
 
 
 
-![](assets/en/007.webp)
+![](assets/vi/007.webp)
 
 
 Việc nâng cấp Bitcoin theo cách an toàn có thể cực kỳ khó khăn. Một số thay đổi mất vài năm để triển khai. Trong chương này, chúng ta sẽ tìm hiểu về thuật ngữ chung xung quanh việc nâng cấp Bitcoin và khám phá một số ví dụ về các bản nâng cấp lịch sử cho giao thức của nó cũng như những hiểu biết mà chúng ta có được từ chúng. Cuối cùng, chúng ta sẽ nói về việc chia tách chuỗi và các rủi ro và chi phí liên quan đến chúng.
@@ -985,7 +983,7 @@ Bitcoin phát triển và tiến hóa theo thời gian. Nhiều cơ chế nâng 
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/en/008.webp)
+![](assets/vi/008.webp)
 
 
 Chương này đề cập đến *tư duy đối kháng*, một tư duy tập trung vào những gì có thể xảy ra sai và cách kẻ thù có thể hành động. Chúng tôi bắt đầu bằng cách thảo luận về các giả định bảo mật và mô hình bảo mật của Bitcoin, sau đó chúng tôi giải thích cách người dùng thông thường có thể cải thiện quyền tự chủ của họ và sự phân cấp Full node của Bitcoin bằng cách suy nghĩ đối kháng. Sau đó, chúng tôi xem xét một số mối đe dọa thực sự đối với Bitcoin cũng như vào tâm trí của kẻ thù. Cuối cùng, chúng tôi nói về *tiên đề kháng cự* có thể giúp bạn hiểu lý do tại sao mọi người lại làm việc trên Bitcoin ngay từ đầu.
@@ -1059,10 +1057,9 @@ Trên đây là những ví dụ về các mối đe dọa thực sự cần đ�
 ### Trường Phá hoại đơn giản
 
 
-![](assets/en/009.webp)
+![](assets/vi/009.webp)
 
 
-Trích đoạn từ Sổ tay thực địa phá hoại đơn giản
 
 
 Để hiểu rõ hơn về tâm trí của kẻ thù, có thể hữu ích khi xem qua cách chúng hoạt động. Một cơ quan chính phủ Hoa Kỳ có tên là Văn phòng Dịch vụ Chiến lược, hoạt động trong Thế chiến II và có một trong những mục đích là tiến hành hoạt động gián điệp, thực hiện phá hoại và phát tán tuyên truyền, đã biên soạn một [sổ tay](https://www.gutenberg.org/ebooks/26184) cho nhân viên của mình về cách phá hoại kẻ thù một cách đúng đắn. Tựa đề của nó là "Sổ tay thực địa phá hoại đơn giản" và chứa các mẹo cụ thể về cách xâm nhập vào kẻ thù để khiến mạng sống của chúng trở nên Hard. Các mẹo bao gồm từ việc đốt cháy nhà kho đến làm mòn máy khoan để giảm
@@ -1110,7 +1107,7 @@ Một hệ thống phi tập trung không thể có trách nhiệm giải trình
 
 
 
-![](assets/en/010.webp)
+![](assets/vi/010.webp)
 
 
 Bitcoin được xây dựng bằng phần mềm nguồn mở. Trong chương này, chúng tôi phân tích ý nghĩa của điều này, cách bảo trì phần mềm hoạt động và cách phần mềm nguồn mở trong Bitcoin cho phép phát triển không cần cấp phép. Chúng tôi thử nghiệm *mật mã lựa chọn*, liên quan đến việc lựa chọn và sử dụng thư viện trong các hệ thống mật mã. Chương này bao gồm một phần về quy trình đánh giá của Bitcoin, tiếp theo là một phần khác về cách các nhà phát triển Bitcoin nhận được tài trợ. Phần cuối cùng nói về cách văn hóa nguồn mở của Bitcoin có thể trông thực sự kỳ lạ từ bên ngoài và lý do tại sao sự kỳ lạ được nhận thức này thực sự là dấu hiệu của sức khỏe tốt.
@@ -1131,14 +1128,14 @@ Bitcoin Core tuân thủ định nghĩa này bằng cách được phân phối 
 
 
 ```
-The MIT License (MIT)
+Giấy phép MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Các nhà phát triển Bitcoin Core
+Copyright (c) 2009-2022 Các nhà phát triển Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Theo đây, quyền được cấp miễn phí cho bất kỳ ai có được bản sao của phần mềm này và các tệp tài liệu liên quan ("Phần mềm"), để xử lý Phần mềm mà không có hạn chế, bao gồm nhưng không giới hạn các quyền sử dụng, sao chép, sửa đổi, hợp nhất, xuất bản, phân phối, cấp phép lại và/hoặc bán các bản sao của Phần mềm, và cho phép những người được cung cấp Phần mềm làm như vậy, theo các điều kiện sau:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Thông báo bản quyền trên và thông báo cấp phép này phải được bao gồm trong tất cả các bản sao hoặc các phần quan trọng của Phần mềm.
 ```
 
 
@@ -1398,7 +1395,7 @@ Quá trình phát triển xung quanh Bitcoin hoàn toàn mở, điều này có 
 
 
 
-![](assets/en/011.webp)
+![](assets/vi/011.webp)
 
 
 
@@ -1545,7 +1542,7 @@ Một cách tiếp cận ít được đánh giá cao là cái mà chúng ta có
 Những cải tiến đạt được thông qua việc mở rộng hướng vào bên trong là rất ấn tượng, ít nhất là như vậy. Để cung cấp cho bạn ý tưởng chung về những cải tiến trong những năm qua, Jameson Lopp [đã chạy thử nghiệm chuẩn](https://blog.lopp.net/Bitcoin-core-performance-evolution/) về đồng bộ hóa Blockchain, so sánh nhiều phiên bản khác nhau của Bitcoin Core từ phiên bản 0.8.
 
 
-![](assets/en/012.webp)
+![](assets/vi/012.webp)
 
 
 Hiệu suất tải xuống khối ban đầu của nhiều phiên bản khác nhau của Bitcoin Core. Trên trục Y là chiều cao khối được đồng bộ hóa và trên trục X là thời gian cần thiết để đồng bộ hóa với chiều cao đó
@@ -1560,7 +1557,7 @@ Những cải tiến có thể được phân loại là tiết kiệm không gi
 Một ví dụ hay về cải tiến tính toán có thể được tìm thấy trong thư viện [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), trong đó, cùng với những thứ khác, triển khai các nguyên hàm mật mã cần thiết để tạo và xác minh chữ ký số. Pieter Wuille là một trong những người đóng góp cho thư viện này và anh ấy đã viết một [chuỗi Twitter](https://twitter.com/pwuille/status/1450471673321381896) giới thiệu những cải tiến về hiệu suất đạt được thông qua nhiều yêu cầu kéo khác nhau.
 
 
-![](assets/en/013.webp)
+![](assets/vi/013.webp)
 
 
 Hiệu suất xác minh chữ ký theo thời gian, với các yêu cầu kéo quan trọng được đánh dấu trên dòng thời gian
@@ -1574,7 +1571,7 @@ Ngoài ra còn có một số ví dụ tốt về cải tiến tiết kiệm kh�
 [Bài đăng trên blog Medium](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) về đóng góp của Taproot trong việc tiết kiệm không gian, người dùng Murch so sánh lượng không gian khối mà chữ ký ngưỡng 2 trong 3 yêu cầu, sử dụng Taproot theo nhiều cách khác nhau cũng như không sử dụng Taproot.
 
 
-![](assets/en/014.webp)
+![](assets/vi/014.webp)
 
 
 Tiết kiệm không gian cho nhiều loại chi tiêu khác nhau, Taproot và các phiên bản cũ.
@@ -1589,7 +1586,7 @@ Ngoài việc mở rộng theo chiều hướng vào trong phần mềm Bitcoin,
 Ý tưởng với việc xử lý hàng loạt giao dịch là kết hợp nhiều khoản thanh toán thành một giao dịch duy nhất, thay vì thực hiện một giao dịch cho mỗi khoản thanh toán. Điều này có thể giúp bạn tiết kiệm rất nhiều phí và đồng thời giảm tải không gian khối.
 
 
-![](assets/en/015.webp)
+![](assets/vi/015.webp)
 
 
 Xử lý giao dịch theo lô kết hợp nhiều khoản thanh toán thành một giao dịch duy nhất để tiết kiệm phí.
@@ -1598,7 +1595,7 @@ Xử lý giao dịch theo lô kết hợp nhiều khoản thanh toán thành m�
 Hợp nhất đầu ra đề cập đến việc tận dụng các giai đoạn nhu cầu về không gian khối thấp để kết hợp nhiều đầu ra thành một đầu ra duy nhất. Điều này có thể giảm chi phí phí của bạn sau này, khi bạn cần thanh toán trong khi nhu cầu về không gian khối cao.
 
 
-![](assets/en/016.webp)
+![](assets/vi/016.webp)
 
 
 Hợp nhất đầu ra: Nung chảy các đồng tiền của bạn thành một đồng tiền lớn khi phí thấp để tiết kiệm phí sau này.
@@ -1620,9 +1617,8 @@ Cách tiếp cận có tác động lớn nhất đến việc mở rộng quy m
 Giao thức nhiều lớp bắt đầu bằng việc có hai hoặc nhiều người đồng ý về giao dịch bắt đầu được đưa vào Blockchain, như minh họa trong hình bên dưới.
 
 
-![](assets/en/017.webp)
+![](assets/vi/017.webp)
 
-Giao thức Layer 2 tiêu biểu trên Bitcoin, Layer 1.
 
 
 Cách thức tạo ra giao dịch khởi đầu này khác nhau giữa các giao thức, nhưng một chủ đề chung là những người tham gia tạo ra một giao dịch khởi đầu chưa ký và một số giao dịch trừng phạt đã ký trước, sử dụng đầu ra của giao dịch khởi đầu theo nhiều cách khác nhau. Sau đó, giao dịch khởi đầu được ký đầy đủ và công bố lên Blockchain, và các giao dịch trừng phạt có thể được ký đầy đủ và công bố để trừng phạt một bên có hành vi sai trái. Điều này khuyến khích những người tham gia giữ lời hứa của họ để giao thức có thể hoạt động theo cách của Trustless.
@@ -1674,7 +1670,7 @@ Ngày nay chúng ta biết rằng Bitcoin không mở rộng tốt theo chiều 
 
 
 
-![](assets/en/018.webp)
+![](assets/vi/018.webp)
 
 Bitcoin được xây dựng bởi con người. Con người viết phần mềm, và sau đó con người chạy phần mềm này. Khi một lỗ hổng bảo mật hoặc một lỗi nghiêm trọng được phát hiện - có thực sự có sự khác biệt giữa hai điều này không? - thì nó luôn được phát hiện bởi con người, bằng xương bằng thịt. Chương này suy ngẫm về những gì mọi người làm, nên và không nên làm khi mọi thứ trở nên tồi tệ. Phần đầu tiên giải thích thuật ngữ *tiết lộ có trách nhiệm*, ám chỉ cách một người phát hiện ra lỗ hổng có thể hành động có trách nhiệm để giúp giảm thiểu thiệt hại từ lỗ hổng đó. Phần còn lại của chương sẽ đưa bạn đi tham quan một số lỗ hổng nghiêm trọng nhất được phát hiện trong những năm qua và cách các nhà phát triển, thợ đào và người dùng xử lý chúng. Mọi thứ không nghiêm ngặt như thời thơ ấu của Bitcoin như ngày nay.
 
@@ -2019,7 +2015,7 @@ Bản tiết lộ đầy đủ về vấn đề này đã được Pieter Wuille
 Email này còn nêu chi tiết về cách phát hiện ra sự cố và nguyên nhân chính xác hơn. Cuối cùng, anh ấy gửi một dòng thời gian về các sự kiện và chúng tôi sẽ phát lại một số sự kiện quan trọng nhất tại đây. Một số sự kiện trong số đó, như minh họa bằng hình trên, đã được mô tả.
 
 
-![](assets/en/019.webp)
+![](assets/vi/019.webp)
 
 
 Dòng thời gian các sự kiện xung quanh BIP66. Các mục màu đen đã được giải thích ở trên.
@@ -2057,7 +2053,7 @@ Những sự kiện này có thể khiến bạn có ấn tượng rằng Gregor
 Sau đó, theo đề xuất của Maxwell, BIP66 được tạo ra như một tập hợp con của BIP62 chỉ định mã hóa DER nghiêm ngặt. BIP này rõ ràng đã được chấp nhận rộng rãi và triển khai vào tháng 7, mặc dù hai lần chia tách Blockchain trớ trêu thay đã xảy ra do *Mining không xác thực*. Những lần chia tách này được thảo luận trong phần tiếp theo.
 
 
-![](assets/en/020.webp)
+![](assets/vi/020.webp)
 
 
 Một điểm chính rút ra từ đây là BIP ít nhiều phải *nguyên tử*, nghĩa là chúng phải đủ hoàn chỉnh để cung cấp thứ gì đó hữu ích hoặc giải quyết một vấn đề cụ thể, nhưng đủ nhỏ để cho phép hỗ trợ rộng rãi giữa những người dùng. Càng đưa nhiều thứ vào BIP, cơ hội được chấp nhận càng nhỏ.
@@ -2078,7 +2074,7 @@ Trang cảnh báo hướng dẫn mọi người đợi thêm 30 xác nhận so v
 Sự chia tách được đề cập ở trên xảy ra vào ngày 04-07-2015 lúc 02:10 UTC sau độ cao khối [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Sự cố này đã được giải quyết vào lúc 03:50 cùng ngày, sau khi 6 khối không hợp lệ đã được khai thác. Thật không may, sự cố tương tự lại xảy ra vào ngày hôm sau, tức là vào ngày 05-07-2015 lúc 21:50, nhưng lần này nhánh không hợp lệ chỉ tồn tại trong 3 khối.
 
 
-![](assets/en/021.webp)
+![](assets/vi/021.webp)
 
 Các sự kiện dẫn đến BIP66, việc triển khai và hậu quả của nó là một nghiên cứu điển hình rất tốt về mức độ cẩn thận mà các nhà phát triển Bitcoin phải có. Một số điểm chính rút ra từ BIP66:
 

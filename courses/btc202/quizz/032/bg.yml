@@ -1,0 +1,9 @@
+question: Кое решение тип "готов пакет" е лидер на пазара днес?
+answer: Umbrel
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel е най-популярното решение тип "готов пакет" благодарение на лесната си инсталация и богатия магазин за приложения.
+reviewed: true

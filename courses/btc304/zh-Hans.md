@@ -28,7 +28,7 @@ objectives:
 
 
 
-欢迎来到 BTC302！
+欢迎来到 BTC 304！
 
 
 
@@ -2831,14 +2831,14 @@ Bitcoin 是一个巨大的兔子洞，涉及历史、经济、文学、数学、
 
 
 
-## BTC302，下一步
+## BTC 304，下一步
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-在本 BTC302 课程中，我们详细介绍了如何建立社区或聚会，以及如何启动各种项目。
+在本 BTC 304 课程中，我们详细介绍了如何建立社区或聚会，以及如何启动各种项目。
 
 
 当您的社区准备好迈出下一步时，**可以创建一个正式的协会**。
@@ -2853,11 +2853,9 @@ Bitcoin 是一个巨大的兔子洞，涉及历史、经济、文学、数学、
 - 结构化的组织：您可以定义明确的角色，从而更轻松地管理社区和开展项目。
 
 
-为了帮助您的社区进一步发展，**COMMU302 课程的后续课程**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+为使您的社区进一步蓬勃发展，**在未来数月内，这门课程的后续内容可能会在 [Plan ₿ Academy](https://planb.academy/) 上发布，这种可能性不能排除**。
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-可能会在未来几个月内在 [planb.network](https://planb.academy/) 上发布。
 
 
 下一届会议可以探讨一些高级主题，例如

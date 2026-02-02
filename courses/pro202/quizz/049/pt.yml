@@ -1,0 +1,8 @@
+question: Quais são as duas verificações críticas que um nó Bitcoin deve efetuar quando recebe um novo bloco antes de o aceitar na cadeia de blocos?
+answer: O hash do bloco tem de ser inferior à dificuldade-alvo e a raiz Merkle calculada tem de corresponder à raiz Merkle do cabeçalho
+wrong_answers:
+  - O carimbo de data/hora do bloco deve ser válido e todas as assinaturas de transação devem ser verificadas criptograficamente
+  - O tamanho do bloco deve ser inferior a 1MB e o hash do bloco anterior deve fazer referência a um bloco válido conhecido
+  - A versão do bloco deve corresponder ao consenso da rede e o total das taxas de transação deve exceder a recompensa mining
+explanation: |
+  O princípio "não confie, verifique" do Bitcoin exige exatamente duas verificações fundamentais para a aceitação do bloco: Validação proof-of-work (hash do bloco abaixo do objetivo de dificuldade) e verificação da integridade da transação (correspondência da raiz Merkle). Embora outras verificações como a validação do carimbo de data/hora, a verificação da assinatura e os limites de tamanho sejam importantes, estas duas verificações específicas garantem que o bloco cumpre os requisitos de dificuldade e contém as transacções reivindicadas sem adulteração.

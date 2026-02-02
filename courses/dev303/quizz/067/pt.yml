@@ -1,0 +1,8 @@
+question: Como é que a compatibilidade entre plataformas do Rust beneficia o desenvolvimento de aplicações Bitcoin em diferentes ambientes de implementação?
+answer: Permite que bases de código unificadas sejam executadas em plataformas móveis, navegadores Web através do WebAssembly e sistemas operativos tradicionais
+wrong_answers:
+  - Trata automaticamente das conversões de taxas de câmbio de criptomoedas em diferentes mercados e moedas regionais
+  - Fornece protocolos de sincronização de cadeias de blocos incorporados que funcionam de forma idêntica em todas as arquitecturas de rede
+  - Oferece integração nativa com carteiras de hardware e módulos de segurança em todas as plataformas suportadas
+explanation: |
+  Os recursos de plataforma cruzada do Rust permitem que os desenvolvedores escrevam aplicativos Bitcoin que podem ser implantados em diversos ambientes, incluindo dispositivos móveis (Android/iOS), navegadores da Web (por meio da compilação do WebAssembly) e sistemas operacionais de desktop tradicionais. Essa versatilidade é demonstrada por projetos como o Mutiny Wallet, que aproveita o suporte WebAssembly do Rust para criar carteiras Lightning que são executadas diretamente em navegadores. As respostas erradas descrevem funcionalidades que não estão relacionadas com a compatibilidade entre plataformas - a conversão de moeda é uma funcionalidade ao nível da aplicação, os protocolos de blockchain são preocupações da camada de rede e a integração de hardware requer APIs específicas em vez de suporte geral entre plataformas.

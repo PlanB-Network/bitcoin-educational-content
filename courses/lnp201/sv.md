@@ -1,14 +1,12 @@
 ---
-name: Teoretisk introduktion till Lightning Network
+name: Lightning Network-teori
 goal: Upptäck Lightning Network ur ett tekniskt perspektiv
-objectives: 
-
-  - Förstå hur nätverkets kanaler fungerar.
-  - Bekanta dig med begreppen HTLC, LNURL och UTXO.
-  - Likställa likviditetshanteringen och avgifterna för LNN.
-  - Känna igen Lightning Network som ett nätverk.
-  - Förstå de teoretiska användningsområdena för Lightning Network.
-
+objectives:
+- Förstå hur nätverkets kanaler fungerar.
+- Bekanta dig med begreppen HTLC, LNURL och UTXO.
+- Likställa likviditetshanteringen och avgifterna för LNN.
+- Känna igen Lightning Network som ett nätverk.
+- Förstå de teoretiska användningsområdena för Lightning Network.
 ---
 
 # En resa till Bitcoin:s andra Layer
@@ -223,7 +221,7 @@ Det vanligaste skriptet kräver en signatur med den privata nyckel som är koppl
 ### UTXO: Utgångar för oanvända transaktioner
 
 
-På Bitcoin är det vi faktiskt Exchange inte direkt bitcoins, utan **UTXOs** (_Unspent Transaction Outputs_), vilket betyder "outnyttjade transaktionsutgångar".
+På Bitcoin är det vi faktiskt Exchange inte direkt bitcoins, utan **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), vilket betyder "outnyttjade transaktionsutgångar".
 
 
 En UTXO är en del av Bitcoin som kan ha vilket värde som helst, till exempel **2 000 bitcoins**, **8 bitcoins** eller till och med **8 000 Sats**. Varje UTXO är låst av ett skript, och för att spendera den måste man uppfylla skriptets villkor, ofta en signatur med den privata nyckeln som motsvarar en given mottagande Address.
@@ -351,7 +349,7 @@ Det är värt att notera att en Lightning-nod kan kommunicera via P2P-protokolle
 
 
 
-- **Bob:s underskrift**: Alice skickar insättningstransaktionen till Bob som bevis och ber honom att underteckna uttagstransaktionen. När Bob:s underskrift har erhållits på uttagstransaktionen är Alice säker på att kunna återfå sina medel när som helst, eftersom endast hennes egen underskrift nu behövs för att låsa upp multisignaturen.
+- **Bob:s underskrift**: Alice skickar insättningstransaktionen till Bob som bevis och ber honom att underteckna uttagstransaktionen. När Bob:s underskrift har erhållits på uttagstransaktionen är Alice säker på att kunna återfå sina medel när som helst, eftersom endast hennes egen underskrift nu behövs för att låsa upp [multisignature](https://planb.academy/resources/glossary/multisig)n.
 
 
 ![LNP201](assets/en/015.webp)
@@ -918,7 +916,7 @@ I det här kapitlet har vi utforskat betalningsrouting på Lightning Network. Me
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-I det här kapitlet kommer vi att upptäcka hur Lightning gör det möjligt för betalningar att passera genom mellanliggande noder utan att behöva lita på dem, tack vare **HTLC** (_Hashed Time-Locked Contracts_). Dessa smarta kontrakt säkerställer att varje mellanliggande nod endast får pengarna från sin kanal om den vidarebefordrar betalningen till den slutliga mottagaren, annars valideras inte betalningen.
+I det här kapitlet kommer vi att upptäcka hur Lightning gör det möjligt för betalningar att passera genom mellanliggande noder utan att behöva lita på dem, tack vare **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Dessa smarta kontrakt säkerställer att varje mellanliggande nod endast får pengarna från sin kanal om den vidarebefordrar betalningen till den slutliga mottagaren, annars valideras inte betalningen.
 
 
 Den fråga som uppstår för betalningsdirigering är därför den nödvändiga tilliten till mellanliggande noder och mellan de mellanliggande noderna själva. För att illustrera detta, låt oss återgå till vårt förenklade Lightning Network-exempel med 3 noder och 2 kanaler:
@@ -1473,7 +1471,7 @@ Slutligen, för routrar, vars mål är att maximera antalet betalningar som beha
 ### The Loop Out Service
 
 
-Tjänsten [Loop Out] (https://lightning.engineering/loop/), som erbjuds av Lightning Labs, gör det möjligt att flytta likviditet till den motsatta sidan av kanalen och samtidigt återkräva medlen på Bitcoin Blockchain. Till exempel skickar Alice 1 miljon satoshis via Lightning till en loop-nod, som sedan returnerar dessa medel till henne i On-Chain bitcoins. Detta balanserar hennes kanal med 1 miljon satoshis på varje sida, vilket optimerar hennes kapacitet att ta emot betalningar.
+Tjänsten [Loop Out](https://lightning.engineering/loop/), som erbjuds av Lightning Labs, gör det möjligt att flytta likviditet till den motsatta sidan av kanalen och samtidigt återkräva medlen på Bitcoin Blockchain. Till exempel skickar Alice 1 miljon satoshis via Lightning till en loop-nod, som sedan returnerar dessa medel till henne i On-Chain bitcoins. Detta balanserar hennes kanal med 1 miljon satoshis på varje sida, vilket optimerar hennes kapacitet att ta emot betalningar.
 
 
 ![LNP201](assets/en/075.webp)
@@ -1526,7 +1524,7 @@ I de inledande kapitlen undersökte vi hur två parter, genom att öppna en beta
 - **Öppnande av kanal**: Skapandet av kanalen sker genom en Bitcoin-transaktion som låser medlen i en 2/2 multisignatur Address. Denna insättning representerar Lightning-kanalen på Blockchain.
 
 
-![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a [commitment transaction](https://planb.academy/resources/glossary/commitment-transaction).
 
 ![LNP201](assets/en/077.webp)
 
@@ -1593,6 +1591,10 @@ Vi har sett att likviditetshantering är en utmaning på Lightning för att säk
 
 ![LNP201](assets/en/084.webp)
 
+
+Nu när du har förstått den teoretiska funktionen hos Lightning Network kan du gå vidare till praktiken och sätta upp din första Lightning-nod för att vinna större självständighet i din användning. För detta, följ kursen LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # Sista avsnittet
 

@@ -1,0 +1,8 @@
+question: Ni iyihe formule y’imibare ikoreshwa mu kubara infashanyo y’amabuye ku burebure bw’amabuye h mu masezerano ya Bitcoin?
+answer: infashanyo = 5_000_000_000 >> (isaha // 210_000)
+wrong_answers:
+  - infashanyo = 50_000_000_000 / (2^(isaha/210_000))
+  - infashanyo = 5_000_000_000 * (0,5^(h % 210_000))
+  - infashanyo = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  Iryo formule ryiza rikoresha ibikorwa vyo guhindura ibice aho 5_000_000_000 igereranya 50 BTC mu satoshis, kandi igikoresho co guhindura iburyo >> kigabanya neza n'ububasha bwa 2. Ugucapura kw'igorofa h // 210_000 ni kwo kugaragaza ibihe vy'uguhindura ibice vyabaye. Inyishu ya mbere itari yo ikoresha ugucapura gusanzwe aho guhindura ibice kandi itangura n'agaciro k'ishimikiro katari ko. Ica kabiri gikoresha modulo aho gukoresha ugucapura kw’igorofa, ivyo vyotuma habaho urugero rw’ingendo aho gutera imbere mu guca ibice bibiri. Ica gatatu gikoresha igikorwa ca modulo coshobora gusubiramwo igiharuro c’ibice bibiri buri mabarabara 210.000 aho kwirundanira ibice bibiri uko igihe kigenda kirarenga.

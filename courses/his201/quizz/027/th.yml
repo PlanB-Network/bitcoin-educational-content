@@ -1,0 +1,9 @@
+question: พาดหัวข่าวของหนังสือพิมพ์ The Times ของอังกฤษที่ถูกบันทึกไว้ในบล็อกกำเนิด Bitcoin ในเดือนมกราคม 2009 คืออะไร?
+answer: เดอะ ไทมส์
+wrong_answers:
+  - เดอะการ์เดียน
+  - The Independent
+  - เดอะ เทเลกราฟ
+explanation: |
+  The exact inscription was The Times, 03/Jan/2009, Chancellor on brink of second bailout for banks.
+reviewed: true

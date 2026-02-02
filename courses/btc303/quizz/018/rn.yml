@@ -1,0 +1,9 @@
+question: Ni igiki umutungo wa Bitcoin utagira icizigiro ukuraho vyihariye ivy’ugukenera mu bikorwa vy’ubudandaji vy’ubuhinga bwa none?
+answer: Abandi bizewe kugira ngo bashobore gukora no kwemeza amafaranga
+wrong_answers:
+  - Ibice vy'ibikoresho n'amaporogarama vyo gukoresha ama node ya Bitcoin
+  - Ubuhinga bwo gukingira urufunguzo rw'ibanga n'imikono
+  - Uburyo bwo kwumvikana ku rubuga kugira ngo bemeranye ku mabuye akwiriye
+explanation: |
+  Itunga rya Bitcoin ritagira icizigiro rikuraho cane cane ivy’uko hakenewe abandi bantu bizigira nk’amabanki canke ibigo vy’imari kugira ngo bashobore gukora no kwemeza amafaranga. Nk’uko Satoshi Nakamoto yabisiguye mu gitabu cera ca Bitcoin, ubudandaji bwa kera bwishingikiriza ku bigo vy’imari bikora nk’abahuza bizigirwa, ariko ubuhinga bwa Bitcoin buratuma iyo nzira ikora neza ata n’umwe yizigiwe biciye mu buryo bwayo bwo kwumvikana bushizwe ahantu hamwe. Ibindi bihitamwo bigereranya ibice vy’ubuhinga vy’ingenzi Bitcoin iguma isaba - uracari ukeneye ibikoresho/porogarama kugira ngo uyigiremwo uruhara, umutekano w’ubuhinga bwa none uraguma ari ngirakamaro, kandi ukwiyumvikana kw’urubuga ni ingene Bitcoin ishika ku kutizigira aho gushika ku kintu ikuraho.
+reviewed: false

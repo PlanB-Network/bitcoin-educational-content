@@ -228,7 +228,7 @@ No entanto, esta redescoberta mostra que estamos a entrar numa espécie de beco 
 
 
 
-(Pierre Le Pesant de) Boisguilbert nasceu em Rouen em 1646. Educado em Port-Royal, em Paris, Boisguilbert iniciou uma carreira literária sem sucesso antes de assumir várias funções, incluindo a de tenente-general de Rouen. Foi durante este período que escreveu vários livros para defender as suas ideias, entre os quais "Détail de la France", em 1695, que republicou no ano seguinte com um título muito mais explícito: [*França arruinada sob o reinado de Luís XIV, por quem e como, com os meios de a restaurar] (https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
+(Pierre Le Pesant de) Boisguilbert nasceu em Rouen em 1646. Educado em Port-Royal, em Paris, Boisguilbert iniciou uma carreira literária sem sucesso antes de assumir várias funções, incluindo a de tenente-general de Rouen. Foi durante este período que escreveu vários livros para defender as suas ideias, entre os quais "Détail de la France", em 1695, que republicou no ano seguinte com um título muito mais explícito: [*França arruinada sob o reinado de Luís XIV, por quem e como, com os meios de a restaurar](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 
 ![image](assets/pt/013.webp)
@@ -497,7 +497,7 @@ Apesar de estar bem inserido no contexto dos principais economistas do seu tempo
 O que temos inclui:
 
 
-1. [As observações] (https://archive.org/details/traitessurlecomm0000chil) sobre uma tradução de um livro do economista inglês Josiah Child;
+1. [As observações](https://archive.org/details/traitessurlecomm0000chil) sobre uma tradução de um livro do economista inglês Josiah Child;
 
 
 ![image](assets/pt/029.webp)
@@ -587,13 +587,13 @@ Graças à colaboração de vários membros do círculo de Gournay, muitos autor
 
 
 
-- Plumard de Dangeul [Observações sobre as vantagens e desvantagens da França e da Grã-Bretanha] (https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 edições no primeiro ano)
+- Plumard de Dangeul [Observações sobre as vantagens e desvantagens da França e da Grã-Bretanha](https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 edições no primeiro ano)
 - Cliquot-Blervache and Gournay's [Memoir on the Trades](https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (2 edições em 1758)
 
 O grupo também desempenhou um papel fundamental na publicação de
 
 
-- [Ensaio sobre a natureza do comércio em geral] (https://archive.org/details/essayonnatureofc0000cant) por Richard Cantillon.
+- [Ensaio sobre a natureza do comércio em geral](https://archive.org/details/essayonnatureofc0000cant) por Richard Cantillon.
 
 
 ![image](assets/pt/034.webp)
@@ -608,7 +608,7 @@ A produção intelectual do círculo de Gournay teve um grande impacto na histó
 ![image](assets/pt/035.webp)
 
 
-Para difundir o gosto pelas discussões económicas entre a população francesa, Gournay e os seus amigos trabalharam para as tornar acessíveis através de romances. Após o *Memoir on the Trades*, que criticava as corporações, Gournay e Cliquot-Blervache ajudaram Gabriel-François Coyer a escrever um pequeno romance satírico chamado Chinki: [Um conto cochinchinês aplicável a outras nações] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Para difundir o gosto pelas discussões económicas entre a população francesa, Gournay e os seus amigos trabalharam para as tornar acessíveis através de romances. Após o *Memoir on the Trades*, que criticava as corporações, Gournay e Cliquot-Blervache ajudaram Gabriel-François Coyer a escrever um pequeno romance satírico chamado Chinki: [Um conto cochinchinês aplicável a outras nações](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
 ![image](assets/pt/036.webp)
@@ -641,7 +641,7 @@ Pelo seu talento e pelo seu lugar na história da França, ofuscou o seu pai, ec
 ![image](assets/pt/038.webp)
 
 
-De facto, o Marquês de Mirabeau já tinha alcançado imensa fama mesmo antes da sua adoção da Fisiocracia, graças a um livro intitulado "O Amigo dos Homens. Tratado da População [FR: L'ami des hommes, ou, Traité de la population] (https://archive.org/details/lamideshommesou00unkngoog). Embora a primeira edição tenha sido publicada em 1756, tornou-se famosa por volta de 1757, um ano antes do seu encontro com Quesnay.
+De facto, o Marquês de Mirabeau já tinha alcançado imensa fama mesmo antes da sua adoção da Fisiocracia, graças a um livro intitulado "O Amigo dos Homens. Tratado da População [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Embora a primeira edição tenha sido publicada em 1756, tornou-se famosa por volta de 1757, um ano antes do seu encontro com Quesnay.
 
 
 
@@ -694,7 +694,7 @@ Após o seu maior sucesso, Mirabeau é cortejado. François Quesnay, que acabava
 Debateram furiosamente e, finalmente, aconteceu algo que normalmente nunca acontece em debates: Mirabeau admitiu categoricamente que estava errado. Concordou com as ideias de Quesnay e disse que estava pronto para as difundir.
 
 
-Juntos, formaram o núcleo do que viria a ser a escola fisiocrática, reforçada pelos recrutas regulares que trouxeram. Pouco depois da conversão de Mirabeau, Quesnay pediu-lhe que defendesse as suas ideias sobre a tributação. Este facto deu origem à ["Teoria da Tributação"] (https://archive.org/details/thoriedelimpot00mira), pela qual Mirabeau foi enviado durante alguns dias para a prisão de Vincennes e depois exilado em Bignon.
+Juntos, formaram o núcleo do que viria a ser a escola fisiocrática, reforçada pelos recrutas regulares que trouxeram. Pouco depois da conversão de Mirabeau, Quesnay pediu-lhe que defendesse as suas ideias sobre a tributação. Este facto deu origem à ["Teoria da Tributação"](https://archive.org/details/thoriedelimpot00mira), pela qual Mirabeau foi enviado durante alguns dias para a prisão de Vincennes e depois exilado em Bignon.
 
 
 ![image](assets/pt/042.webp)
@@ -809,7 +809,7 @@ Este livro reuniu os principais contributos de Quesnay. Nele se expõe o ideal e
 A fisiocracia esteve na moda em França, e mesmo em toda a Europa, durante apenas uma década. Após um longo período de desenvolvimento, ganhou proeminência em meados da década de 1760. Quando Turgot chegou ao poder, em 1776, o movimento já tinha perdido a sua popularidade e o ministro manteve o seu apoio à escola de Quesnay quase escondido.
 
 
-As suas origens encontram-se na evolução das ideias económicas durante a década de 1750. Vários autores ajudaram a fazer a ponte entre Boisguilbert e o que viria a ser conhecido como Fisiocracia. Como já foi referido, Vincent de Gournay e o seu círculo de economistas estiveram na origem de muitas publicações que deram a conhecer aos leitores franceses o pensamento económico estrangeiro e ajudaram a despertar a sua paixão pela economia. Os fundamentos da Fisiocracia já estavam presentes em livros como "Détail de la France" de Boisguilbert e ["Essay on the Nature of Trade in General"] (https://archive.org/details/essaisurlanature0000cant) de Cantillon.
+As suas origens encontram-se na evolução das ideias económicas durante a década de 1750. Vários autores ajudaram a fazer a ponte entre Boisguilbert e o que viria a ser conhecido como Fisiocracia. Como já foi referido, Vincent de Gournay e o seu círculo de economistas estiveram na origem de muitas publicações que deram a conhecer aos leitores franceses o pensamento económico estrangeiro e ajudaram a despertar a sua paixão pela economia. Os fundamentos da Fisiocracia já estavam presentes em livros como "Détail de la France" de Boisguilbert e ["Essay on the Nature of Trade in General"](https://archive.org/details/essaisurlanature0000cant) de Cantillon.
 
 
 ![image](assets/pt/047.webp)
@@ -962,7 +962,7 @@ Nas suas *Maximas* já citadas, Quesnay afirma:
 Os fisiocratas tinham visto os danos causados pela interferência do governo, especialmente no comércio de cereais. É preciso reconhecer, dizem eles, que a autoridade nunca será capaz de gerir o comércio tão bem como os indivíduos, porque teria de responder a todas as necessidades e reagir a todas as mudanças na procura ou no Supply. Tudo isto está muito para além das capacidades do governo mais sensato que se possa conceber. Por isso, é necessário deixar as coisas serem e deixá-las fluir.
 
 
-Benéfico por natureza, o comércio deve ser total e perfeitamente livre. Um dos seus membros, Le Trosne, escreveu mesmo um panfleto intitulado [*A liberdade do comércio dos cereais: sempre útil, nunca prejudicial*] (https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Benéfico por natureza, o comércio deve ser total e perfeitamente livre. Um dos seus membros, Le Trosne, escreveu mesmo um panfleto intitulado [*A liberdade do comércio dos cereais: sempre útil, nunca prejudicial*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
 
 
 ### Quinto princípio: Todos os homens são irmãos
@@ -1002,7 +1002,7 @@ Na Rússia, Catarina II estava a preparar uma reforma legislativa e pediu a Dide
 ![image](assets/pt/059.webp)
 
 
-Impressionado pela leitura de [*The Natural and Essential Order of Political Societies*] (https://archive.org/details/lordrenaturelete00mercuoft), publicado em 1767, enviou-lhe o seu autor, o fisiocrata Mercier de la Rivière.
+Impressionado pela leitura de [*The Natural and Essential Order of Political Societies*](https://archive.org/details/lordrenaturelete00mercuoft), publicado em 1767, enviou-lhe o seu autor, o fisiocrata Mercier de la Rivière.
 
 
 
@@ -1409,7 +1409,7 @@ O Abade de Condillac desempenhou um papel importante no desmantelamento definiti
 "Definitivamente" é talvez um exagero, porque no debate público, este sofisma reaparece frequentemente. É talvez por isso, aliás, que Condillac continua a ser um economista pouco conhecido. Para além dos economistas austríacos, poucos compreenderam a importância da sua teoria do Exchange, já ninguém se interessa por ele.
 
 
-Para a maioria dos historiadores do pensamento económico, o ano de 1776 é marcado pela publicação de "A Riqueza das Nações", que fundou a ciência económica. As quinze lições que acabamos de concluir, nas quais estudámos a ciência económica francesa antes de Adam Smith, são suficientes para provar o erro desta conceção. Nesse mesmo ano de 1776, aliás, um outro livro merece talvez mais elogios dos historiadores do que o livro de Adam Smith: é da autoria de Condillac e intitula-se simplesmente [*Comércio e Governo Considerados nas Suas Mútuas Relações*] (https://archive.org/details/commercegovernme0000cond).
+Para a maioria dos historiadores do pensamento económico, o ano de 1776 é marcado pela publicação de "A Riqueza das Nações", que fundou a ciência económica. As quinze lições que acabamos de concluir, nas quais estudámos a ciência económica francesa antes de Adam Smith, são suficientes para provar o erro desta conceção. Nesse mesmo ano de 1776, aliás, um outro livro merece talvez mais elogios dos historiadores do que o livro de Adam Smith: é da autoria de Condillac e intitula-se simplesmente [*Comércio e Governo Considerados nas Suas Mútuas Relações*](https://archive.org/details/commercegovernme0000cond).
 
 
 ![image](assets/pt/085.webp)
@@ -1498,7 +1498,7 @@ A partir de então, a carreira de Condorcet sofreu uma viragem ao entrar no deba
 Entre 1774 e 1776, durante o ministério de Turgot, Condorcet fez numerosas intervenções, todas elas marcadas pelo seu Commitment ao laissez-faire. Entre as suas obras, contam-se *Cartas de um lavrador da Picardia ao Sr. Necker*, que defende o comércio livre; *Monopólios e Monopolistas*, que defende a livre concorrência; *Reflexões sobre as Corvéias*, que apela à sua abolição; e *Reflexões sobre o Comércio de Cereais*, que volta a elogiar o comércio livre e critica o livro de Necker sobre o mesmo assunto.
 
 
-Nas suas [*Letras sobre o comércio de cereais*] (https://archive.org/details/bub_gb_hg8jFw-y6bwC), Condorcet apresenta vários pontos fundamentais.
+Nas suas [*Letras sobre o comércio de cereais*](https://archive.org/details/bub_gb_hg8jFw-y6bwC), Condorcet apresenta vários pontos fundamentais.
 
 
 ![image](assets/pt/089.webp)
@@ -1565,7 +1565,7 @@ Esta proposta foi rejeitada.
 
 Nesse mesmo ano, 1790, começaram os debates sobre a emissão de novo papel-moeda para cobrir as despesas do governo.
 
-Dupont de Nemours opôs-se firmemente a esta ideia e publicou um panfleto intitulado [*Efeitos dos assignats no preço do pão*] (https://archive.org/details/effetdesassignat00dupo). O título era exato, pois explicava que a emissão de assignats conduziria inevitavelmente à inflação, um aumento dos preços dos bens, incluindo o pão.
+Dupont de Nemours opôs-se firmemente a esta ideia e publicou um panfleto intitulado [*Efeitos dos assignats no preço do pão*](https://archive.org/details/effetdesassignat00dupo). O título era exato, pois explicava que a emissão de assignats conduziria inevitavelmente à inflação, um aumento dos preços dos bens, incluindo o pão.
 
 
 

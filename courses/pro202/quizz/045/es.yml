@@ -1,0 +1,8 @@
+question: ¿Cuál es la razón principal por la que el mecanismo de ajuste de la dificultad de Bitcoin limita los cambios a un factor de cuatro durante cada periodo de ajuste del bloque de 2016?
+answer: Para evitar oscilaciones extremas que podrían desestabilizar la red cuando la tasa de hash cambia drásticamente
+wrong_answers:
+  - Para garantizar que los mineros dispongan de tiempo suficiente para actualizar su hardware antes de que la dificultad aumente significativamente
+  - Para mantener la compatibilidad con el campo de marca de tiempo de 32 bits, que deja de ser fiable con ajustes mayores
+  - Para evitar que el calendario de reducción a la mitad de la subvención en bloque se vea alterado por cambios rápidos de las dificultades
+explanation: |
+  El límite de cuatro veces evita peligrosos bucles de retroalimentación en los que los cambios extremos de dificultad podrían causar oscilaciones salvajes en los tiempos de bloque. Sin esta limitación, una caída repentina de la tasa de hash podría desencadenar reducciones masivas de la dificultad, haciendo que los bloques fueran demasiado fáciles y desestabilizando potencialmente el consenso. A la inversa, los grandes aumentos podrían hacer que los bloques fueran casi imposibles de minar. El límite asegura ajustes graduales y manejables que mantienen la estabilidad de la red incluso durante grandes interrupciones como las prohibiciones de mining, permitiendo al sistema autocorregirse de forma predecible a lo largo de múltiples periodos de ajuste en lugar de crear oscilaciones caóticas.

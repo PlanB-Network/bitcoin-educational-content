@@ -6,4 +6,4 @@ wrong_answers:
   - HASH160
 explanation: |
   HMAC verwendet SHA512, um einen sicheren 512-Bit-Hash zu erzeugen.
-reviewed: false
+reviewed: true

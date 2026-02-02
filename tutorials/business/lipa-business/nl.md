@@ -268,7 +268,7 @@ Het niet-bindende, privacy-vriendelijke karakter, gecombineerd met professionele
 
 
 - [officiële website van Lipa voor bedrijven](https://lipa.swiss/en/for-business)
-- [Dashboard web] (https://dashboard.lipa.swiss)
+- [Dashboard web](https://dashboard.lipa.swiss)
 - [Lipa Ondersteuning voor bedrijven](https://help.lipa.swiss/business)
 - [Lipa Algemene Ondersteuning](https://help.lipa.swiss/Wallet)
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)

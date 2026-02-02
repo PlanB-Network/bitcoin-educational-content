@@ -6,4 +6,4 @@ wrong_answers:
   - Ethernet
 explanation: |
   ARPANET fue la primera red interconectada, diseñada para enlazar varios centros de investigación, y es la precursora directa de Internet.
-reviewed: false
+reviewed: true

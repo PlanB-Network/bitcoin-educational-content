@@ -1,0 +1,8 @@
+question: Millist ajaloolist arengut kirjeldab tekst seoses inimkonna majandustegevusega alates varajastest ühiskondadest kuni tänapäevase tootmiseni?
+answer: Ühiskonnad arenesid passiivsest kogumisest jahipidamise, kalapüügi ja kogumise kaudu uute kommunaalteenuste ja teenuste aktiivseks loomiseks
+wrong_answers:
+  - Ühiskonnad arenesid individuaalsest elatuspõllumajandusest suuremahulise tööstusliku tootmise ja masstootmise suunas
+  - Inimeste tegevus arenes vahetussüsteemidest rahavahetuse ja lõpuks keeruliste finantsturgude suunas
+  - Majanduslik areng liikus ühisomandilt eraomandile ja seejärel korporatiivsetele struktuuridele
+explanation: |
+  Tekstis kirjeldatakse konkreetselt tootmist kui ajaloolist vallutust, selgitades, et varased inimühiskonnad piirdusid olemasolevate ressursside kogumisega jahipidamise, kalapüügi ja kogumise kaudu, kusjuures tootmistegevus oli minimaalne. Oluline üleminek oli üleminek sellelt passiivselt kogumistegevuselt aktiivsele tootmisele, mida tekst määratleb kui uue kasulikkuse loomist ja teenuste osutamist teistele või iseendale. See kujutab endast põhimõttelist üleminekut lihtsalt looduse pakutava saagikoristuselt aktiivsele väärtuse ja kasulikkuse loomisele, mida varem ei olnud olemas.

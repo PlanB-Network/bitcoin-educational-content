@@ -3,7 +3,7 @@ answer: Omdat ze kunnen worden gebruikt om onchain-activiteiten te koppelen aan 
 wrong_answers:
   - Omdat ze gemakkelijk gehackt kunnen worden door kwaadwillende hackers.
   - Omdat ze frauduleuze aanbiedingen kunnen aantrekken en je kunnen blootstellen aan phishing-campagnes.
-  - Omdat ze de toepassing van gemeenschappelijke input Ownership heuristiek mogelijk maken.
+  - Omdat ze de toepassing van gemeenschappelijke input eidendom heuristiek mogelijk maken.
 explanation: |
-  Het delen van Bitcoin ontvangstadressen op het internet kan gebruikt worden als ingang voor ketenanalyse door een identiteit (echt of pseudoniem) te koppelen aan activiteit op de keten.
+  Het delen van Bitcoin-ontvangstadressen op het internet kan gebruikt worden als ingangspunt voor ketenanalyse door een identiteit (echt of pseudoniem) te koppelen aan activiteit op de blockchain.
 reviewed: false

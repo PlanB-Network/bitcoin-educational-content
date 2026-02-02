@@ -1,11 +1,10 @@
-question: Ni ikihe kibazo nyamukuru co gukoresha umucungerezi w’ijambobanga yishingira?
-answer: Bisaba ubumenyi bwinshi bw’ubuhinga kugira ngo umuntu ashobore kubikoresha.
+question: Ni ikihe kibazo nyamukuru co gukoresha ubutunganyirizo bw’ijambo ry'ibang witunganyirije(self-hosted password manager)?
+answer: Bisaba ubumenyi mu vy'ubuhinga kugira ngo umuntu ashobore kubukoresha.
 wrong_answers:
-  - Ni ikintu gizimvye kuruta ibikorwa vy’abandi.
-  - Ntitanga ibintu vyinshi nk’ivyo abandi batanga.
-  - Ntiyitekanye nk’ibikorwa vy’abandi.
+  - Birazimvye kuruta serivise zabandi.
+  - Ntibitanga ibintu vyinshi nk’ivyo abandi batanga.
+  - Ntibitekanye nkizindi serivisi z'abandi.
 explanation: |
-  Umucungerezi w'ijambobanga yiyakira asaba ubuhinga bwinshi
-  ubumenyi bwo gukoresha, nk’uko ukeneye gushinga no gucunga ubwawe .
-  umukozi. Ariko rero, birashobora gutuma umuntu agira ububasha bwinshi kandi akagira umutekano mwinshi.
+  ubutunganyirizo bw’ijambo ry'ibanga witunganyirije busaba ubumenyi bwo gukoresha bwinshi mu vy'ubuhinga, nk’uko ukeneye gushinga no kwitunganyiriza urusenge(seriveri) ubwawe .
+  Ariko rero, birashobora gutuma umuntu agira ububasha bwinshi kandi akagira umutekano ukwiye.
 reviewed: true

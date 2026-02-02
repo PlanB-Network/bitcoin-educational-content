@@ -1,0 +1,8 @@
+question: Jaká je hlavní výhoda použití metod map() a map_err() u typů Result ve srovnání s tradičními vzory pro ošetření chyb try-catch?
+answer: Umožňují řetězení operací ve funkčním stylu a zároveň zachovávají obsluhu chyb v blízkosti operací, které mohou selhat
+wrong_answers:
+  - Automaticky převádějí všechny typy chyb na řetězcové zprávy pro snadnější ladění a zobrazení uživateli
+  - Eliminují potřebu operátoru otazníku tím, že poskytují vestavěné mechanismy pro šíření chyb
+  - Předcházejí panickým stavům tím, že všechny potenciálně chybné operace zabalí do bezpečných kontejnerů Result
+explanation: |
+  Metody map() a map_err() umožňují zpracování chyb ve funkčním stylu, kdy můžete řetězit operace a transformovat hodnoty nebo chyby přímo v místě jejich výskytu. Logika ošetření chyb tak zůstává blízko operací, které mohou selhat, na rozdíl od bloků try-catch, kde je ošetření chyb odděleno od skutečných operací. Ostatní možnosti jsou nesprávné: metody map nepřevádějí chyby na řetězce (to je úloha anyhow), pracují vedle operátoru otazníku, místo aby ho nahradily, a nezabraňují panice, ale spíše poskytují strukturované ošetření chyb Results.

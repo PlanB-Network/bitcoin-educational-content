@@ -196,6 +196,14 @@ Et jälgida kõiki oma tehinguid, saate vaadata ajalugu menüüs "*Viimased tehi
 
 ![BULL](assets/fr/36.webp)
 
+## Käivita automaatne korduv ost (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Loo limiitkorraldus
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Nüüd teate, kuidas osta ja müüa Bitcoini lihtsalt Bull Bitcoiniga. Kui leidsid selle õpetuse kasulikuks, oleksin väga tänulik, kui paneksid alla rohelise pöidla. Jaga seda artiklit julgelt oma sotsiaalsetes võrgustikes. Tänan teid väga!
 
 Samuti soovitan teil vaadata seda teist põhjalikku õpetust, et õppida, kuidas oma mnemofraasi õigesti hallata:

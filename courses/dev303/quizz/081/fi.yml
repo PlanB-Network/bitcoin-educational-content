@@ -1,0 +1,8 @@
+question: Mikä on map_err()-toiminnon ensisijainen tarkoitus, kun Rust:ssa ketjutetaan operaatioita tulostyyppien kanssa?
+answer: Virhetyyppien muuttaminen siten, että onnistumisarvot säilyvät muuttumattomina virheiden etenemisen aikana
+wrong_answers:
+  - Onnistumisarvojen muuntaminen ja virheiden automaattinen siirtäminen ilman muutoksia
+  - Tulostyyppien muuntaminen vaihtoehtotyypeiksi, kun virheet on jätettävä huomiotta
+  - Estääksesi virheiden leviämisen muuntamalla kaikki virheet oletusarvoiksi onnistumisarvoja varten
+explanation: |
+  Map_err()-metodi on suunniteltu erityisesti virhetyyppien muuntamiseen säilyttäen onnistumisarvot muuttumattomina. Tämä on ratkaisevan tärkeää rakennettaessa kerroksellisia sovelluksia, joissa eri komponentit tarvitsevat eri virhemuodot. Voit esimerkiksi muuntaa matalan tason jäsennysvirheet toimialuekohtaisiksi virheiksi, jotka tarjoavat paremman kontekstin. Muut vaihtoehdot ovat virheellisiä: map() muuntaa onnistumisarvot (ei map_err()), map_err() ei muunna vaihtoehtotyyppejä, eikä se estä etenemistä tai luo oletusarvoja.

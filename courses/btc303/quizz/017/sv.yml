@@ -1,0 +1,9 @@
+question: Vilken är den största nackdelen med betrodda finansiella system som Bitcoin:s tillitslösa design syftar till att lösa?
+answer: Oförmåga att göra helt icke-reversibla transaktioner på grund av krav på tvistlösning
+wrong_answers:
+  - Den höga energiförbrukning som krävs för att hantera elektroniska betalningar via banker
+  - Det begränsade antalet transaktioner som kan behandlas per sekund av finansinstitut
+  - Kravet på att kunderna ska tillhandahålla alltför omfattande personliga identitetshandlingar
+explanation: |
+  Enligt Satoshi Nakamoto i Bitcoin:s whitepaper lider traditionella finansiella system av den grundläggande svagheten att helt icke-reversibla transaktioner inte är möjliga eftersom finansiella institutioner måste medla i tvister. Detta skapar en kaskad av problem: ökade transaktionskostnader på grund av medling, eliminering av små tillfälliga transaktioner och spridning av förtroendekrav genom hela systemet. De andra alternativen, även om de kan vara relevanta för finansiella system, är inte den kärnfråga som Bitcoin:s förtroendefria design specifikt behandlar. Bitcoin:s innovation är att möjliggöra slutavräkning utan att kräva att en betrodd tredje part reverserar transaktioner.
+reviewed: false

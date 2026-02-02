@@ -1,0 +1,8 @@
+question: Breez SDK'nın Lightning Service Provider (LSP) entegrasyonu ödeme almak için likidite yönetimi sorununu nasıl çözüyor?
+answer: LSP'ler, tam zamanında kanal oluşturmayı kullanarak bir ödeme geldiği anda gelen likidite ile otomatik olarak yeni Lightning kanalları açar
+wrong_answers:
+  - LSP'ler tüm kullanıcı kanallarını maksimum likidite kapasitesi ile önceden fonlar ve fonları ağ topolojisi boyunca periyodik olarak yeniden dengeler
+  - LSP'ler, mutabakat gerçekleşmeden önce ödeme alımı sırasında kullanıcılara geçici olarak fon ödünç veren ortak bir likidite havuzu tutar
+  - LSP'ler, yeni kanal ilişkileri oluşturmadan mevcut likidite yollarını bulmak için ödemeleri birden fazla ara kanal üzerinden yönlendirir
+explanation: |
+  Breez SDK, LSP'lerin tam olarak bir kullanıcının ödeme alması gerektiğinde ancak yeterli gelen likiditeye sahip olmadığında otomatik olarak yeni Lightning kanalları açtığı 'tam zamanında' kanalları uygular. Bu, kullanıcı müdahalesi olmadan sorunsuz bir şekilde gerçekleşir ve Lightning'in fonların yalnızca kanal kapasitesinin mevcut olduğu yönlere akabileceği temel likidite kısıtlamasını çözer. Diğer seçenekler, SDK'nın dinamik kanal oluşturmaya yönelik gerçek uygulamasıyla eşleşmeyen farklı yaklaşımları tanımlamaktadır.

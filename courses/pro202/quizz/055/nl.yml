@@ -1,0 +1,8 @@
+question: Wanneer een Bitcoin knooppunt block headers opvraagt met het getheaders commando, wat is dan het maximale aantal headers dat teruggestuurd kan worden in een enkel antwoord, en wat volgt er na elke 80-byte header?
+answer: Er kunnen maximaal 2000 headers worden geretourneerd, elk gevolgd door een dummy transactietelling van nul
+wrong_answers:
+  - Er kunnen maximaal 1000 headers worden geretourneerd, elk gevolgd door de werkelijke transactietelling als een varint
+  - Er kunnen maximaal 2000 headers worden geretourneerd, elk gevolgd door een controlesom van 4 bytes van de headergegevens
+  - Er kunnen maximaal 500 headers worden geretourneerd, elk gevolgd door de Merkle root hash voor verificatie
+explanation: |
+  Bitcoin's P2P protocol beperkt getheaders antwoorden specifiek tot een maximum van 2000 headers om te voorkomen dat knooppunten overstelpt worden met enorme antwoorden. Elke header is precies 80 bytes en wordt gevolgd door een veld met het aantal transacties dat op nul is gezet, omdat berichten met alleen headers geen daadwerkelijke transacties bevatten. Dit ontwerp maakt efficiënte ketensynchronisatie mogelijk waarbij knooppunten snel de proof-of-work ketenstructuur kunnen downloaden en verifiëren voordat ze volledige blokgegevens opvragen.

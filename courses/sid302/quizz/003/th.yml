@@ -1,0 +1,8 @@
+question: กลไกฉันทามติหลักที่ใช้โดย Liquid Network คืออะไร?
+answer: ฉันทามติแบบสหพันธ์
+wrong_answers:
+  - Proof-of-Work
+  - การพิสูจน์ด้วยการถือครองหุ้น
+  - มอบอำนาจหลักฐานการถือหุ้น
+explanation: |
+  Liquid Network ทำงานบนโมเดล Federated Consensus ซึ่งแตกต่างอย่างสิ้นเชิงจากระบบ Proof-of-Work ของ Bitcoin ในโมเดลนี้ กลุ่มเจ้าหน้าที่ที่ถูกเลือกจำนวนสิบห้าคนทำหน้าที่เป็นผู้ลงนามบล็อกที่ผลิตบล็อกในรูปแบบ deterministic round-robin Proof-of-Work เป็นกลไกฉันทามติของ Bitcoin ที่เกี่ยวข้องกับ mining ในขณะที่ Proof-of-Stake และ Delegated Proof-of-Stake เป็นกลไกฉันทามติที่ใช้โดยเครือข่ายบล็อกเชนอื่น ๆ แต่ไม่ใช่โดย Liquid

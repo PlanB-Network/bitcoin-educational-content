@@ -1,0 +1,8 @@
+question: Mục đích chính của trường số thứ tự trong dữ liệu nhập giao dịch Bitcoin là gì?
+answer: Để kích hoạt chức năng khóa thời gian và thay thế bằng phí (RBF)
+wrong_answers:
+  - Để chỉ định thứ tự mà các đầu vào phải được xử lý bởi các thợ đào.
+  - Để ngăn chặn double-spending bằng cách tạo mã định danh duy nhất cho mỗi đầu vào
+  - Để chỉ ra mức độ ưu tiên của giao dịch trong việc tính phí.
+explanation: |
+  Trường số thứ tự trong dữ liệu đầu vào giao dịch Bitcoin phục vụ hai mục đích chính: thực hiện khóa thời gian (làm trì hoãn thời điểm xác nhận giao dịch) và cho phép chức năng Thay thế bằng Phí (RBF) (cho phép người dùng tăng phí đối với các giao dịch chưa được xác nhận). Các tùy chọn khác không chính xác vì: dữ liệu đầu vào không cần được xử lý theo bất kỳ thứ tự cụ thể nào bởi thợ đào, việc ngăn chặn double-spending được xử lý bởi mô hình UTXO và sự đồng thuận của blockchain chứ không phải số thứ tự, và mức độ ưu tiên giao dịch được xác định bởi tỷ lệ phí chứ không phải số thứ tự.

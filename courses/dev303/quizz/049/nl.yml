@@ -1,0 +1,8 @@
+question: Welk fundamenteel probleem lost RC op dat Box niet kan oplossen in het eigendomssysteem van Rust?
+answer: RC maakt meervoudig eigendom van dezelfde gegevens mogelijk door middel van referentietelling
+wrong_answers:
+  - RC biedt snellere geheugentoewijzing en -deallocatie dan Box
+  - RC maakt automatisch geheugenbeheer mogelijk zonder enige runtime overhead
+  - RC maakt compileercontroles mogelijk die Box niet kan uitvoeren
+explanation: |
+  RC (Reference Counter) pakt specifiek de beperking van het eigendomsmodel van Box aan door toe te staan dat meerdere delen van code tegelijkertijd eigenaar zijn van dezelfde gegevens. Box volgt traditionele eigendomsregels waarbij slechts één entiteit tegelijkertijd eigenaar kan zijn van gegevens, waardoor het onmogelijk is om scenario's te maken zoals gedeelde gegevensstructuren waar meerdere lijsten verwijzen naar hetzelfde staartgedeelte. RC houdt een interne teller bij die verwijzingen bijhoudt, verhoogt wanneer gekloond en verlaagt wanneer verwijderd, en maakt alleen geheugen vrij wanneer de teller nul bereikt. Dit maakt flexibele patronen voor het delen van gegevens mogelijk met behoud van geheugenveiligheid, wat fundamenteel verschilt van de exclusieve eigendomsbenadering van Box.

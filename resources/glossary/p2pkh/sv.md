@@ -1,5 +1,6 @@
 ---
 term: P2PKH
+definition: Skript som låser bitcoin till hashen av en publik nyckel, adresser börjar på 1.
 ---
 
 P2PKH står för *Pay to Public Key Hash*. Det är en standardskriptmodell som används för att fastställa utgiftsvillkor på en UTXO. Det gör det möjligt att låsa bitcoins på en Hash av en publik nyckel, det vill säga på en mottagande Address. Detta skript är associerat med Legacy-standarden och introducerades i de tidiga versionerna av Bitcoin av Satoshi Nakamoto.

@@ -1,0 +1,8 @@
+question: ¿Cuántas firmas de funcionarios se necesitan para validar un bloque en la Liquid Network?
+answer: Al menos 11 de los 15 funcionarios deben firmar
+wrong_answers:
+  - Al menos 8 de los 15 funcionarios deben firmar
+  - Al menos 10 de los 15 funcionarios deben firmar
+  - Al menos 12 de los 15 funcionarios deben firmar
+explanation: |
+  La Liquid Network exige la firma de al menos 11 de los 15 funcionarios para validar un bloque, lo que representa un umbral de dos tercios más uno. Este requisito específico garantiza un consenso sólido al tiempo que impide que cualquier grupo pequeño controle la red. Las demás opciones son incorrectas: 8 firmas serían demasiado pocas para la seguridad, 10 no alcanzarían el umbral de dos tercios y 12 serían innecesariamente restrictivas para el funcionamiento normal.

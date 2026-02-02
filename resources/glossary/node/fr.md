@@ -1,5 +1,6 @@
 ---
-term: NOEUD
+term: Noeud
+definition: Ordinateur exécutant un client Bitcoin, participant au réseau en maintenant une copie de la blockchain.
 ---
 
 Dans le réseau Bitcoin, un nœud est un ordinateur qui exécute un client du protocole Bitcoin (comme Bitcoin Core par exemple). Il participe au réseau en maintenant une copie de la blockchain, en relayant et en vérifiant les transactions et les nouveaux blocs et, optionnellement, en participant au processus de minage. La somme de tous les nœuds Bitcoin représente le réseau Bitcoin en lui-même.

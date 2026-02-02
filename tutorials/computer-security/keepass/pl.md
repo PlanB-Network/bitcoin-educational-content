@@ -45,7 +45,7 @@ Domyślnie KeePass nie obsługuje rozszerzeń przeglądarki, takich jak Bitwarde
 KeePass został zaprojektowany tak, aby był lekki i łatwy w użyciu, a jednocześnie spełniał wysokie standardy bezpieczeństwa. Oprogramowanie szyfruje bazę danych lokalnie, zapewniając optymalną ochronę danych uwierzytelniających. KeePass jest również jedynym menedżerem haseł zatwierdzonym przez ANSSI (francuski organ ds. cyberbezpieczeństwa).
 
 
-Jedną z głównych zalet KeePass jest jego elastyczność. Można go używać na wiele różnych sposobów, np. na pamięci USB bez konieczności instalacji na komputerze. Co więcej, dzięki [środowisku wtyczek] (https://keepass.info/plugins.html), KeePass można dostosować do bardziej specyficznych potrzeb.
+Jedną z głównych zalet KeePass jest jego elastyczność. Można go używać na wiele różnych sposobów, np. na pamięci USB bez konieczności instalacji na komputerze. Co więcej, dzięki [środowisku wtyczek](https://keepass.info/plugins.html), KeePass można dostosować do bardziej specyficznych potrzeb.
 
 ![KEEPASS](assets/notext/01.webp)
 

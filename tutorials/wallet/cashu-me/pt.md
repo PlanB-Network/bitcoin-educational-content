@@ -209,13 +209,13 @@ Para configurar o `NWC` no Cashu.me:
 ### Relâmpago Address via npub.cash
 
 
-Cashu.me integra-se com [npub.cash] (https://npub.cash/) para lhe fornecer um Lightning Address que funciona perfeitamente com o protocolo Nostr. Aqui pode registar-se e reclamar o seu nome de utilizador fornecendo o seu Nostr `nsec`, que custa 5.000 Sats e apoia o projeto npub.cash, ou pode usar qualquer chave pública Nostr (`npub`) sem registo.
+Cashu.me integra-se com [npub.cash](https://npub.cash/) para lhe fornecer um Lightning Address que funciona perfeitamente com o protocolo Nostr. Aqui pode registar-se e reclamar o seu nome de utilizador fornecendo o seu Nostr `nsec`, que custa 5.000 Sats e apoia o projeto npub.cash, ou pode usar qualquer chave pública Nostr (`npub`) sem registo.
 
 
 Primeiro, vá para `Configurações` e toque em `Ativar` Relâmpago Address com npub.cash. Isto irá criar um generate npub.cash Address utilizando uma cadeia `npub` derivada da sua frase Wallet seed por defeito.
 
 
-Em alternativa, visite [esta página Web] (https://npub.cash/username) para obter um nome de utilizador personalizado utilizando o seu próprio Nostr `nsec`, o que lhe dará um Lightning Address personalizado como username@npub.cash.
+Em alternativa, visite [esta página Web](https://npub.cash/username) para obter um nome de utilizador personalizado utilizando o seu próprio Nostr `nsec`, o que lhe dará um Lightning Address personalizado como username@npub.cash.
 
 
 ![image](assets/en/11.webp)
@@ -236,13 +236,13 @@ Graças a funcionalidades como os endereços NWC e npub.cash, o Cashu.me é uma 
 ## 📚 Recursos
 
 
-[https://github.com/cashubtc/cashu.me] (https://github.com/cashubtc/cashu.me)
+[https://github.com/cashubtc/cashu.me](https://github.com/cashubtc/cashu.me)
 
 
-[https://github.com/cashubtc] (https://github.com/cashubtc)
+[https://github.com/cashubtc](https://github.com/cashubtc)
 
 
-[https://github.com/cashubtc/awesome-cashu] (https://github.com/cashubtc/awesome-cashu)
+[https://github.com/cashubtc/awesome-cashu](https://github.com/cashubtc/awesome-cashu)
 
 
-[https://cashu.space/] (https://cashu.space/)
+[https://cashu.space/](https://cashu.space/)

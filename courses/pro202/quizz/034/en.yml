@@ -1,0 +1,8 @@
+question: What specific element must be included in a P2SH ScriptSig that distinguishes it from regular transaction inputs?
+answer: The complete redeem script itself along with the unlocking data
+wrong_answers:
+  - The HASH160 of the redeem script and the public keys
+  - Only the signatures and public keys needed to satisfy conditions
+  - The version byte and address encoding for P2SH validation
+explanation: |
+  P2SH inputs require both the unlocking data (signatures, etc.) AND the complete redeem script in the ScriptSig. This is unique because the redeem script was previously hidden behind a hash and must now be revealed for validation. The first validation step checks that HASH160(redeem_script) matches the hash in the scriptPubKey, then the redeem script is executed with the provided unlocking data. The other options are incorrect: the hash is already in the original scriptPubKey, signatures alone aren't sufficient without the script, and version bytes are used for address encoding, not spending validation.

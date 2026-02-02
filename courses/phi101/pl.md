@@ -27,7 +27,7 @@ Od starożytności przez oświecenie wolność wzrastała, gdy społeczeństwa p
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 
-Witamy w PHI201!
+Witamy w PHI101!
 
 
 Kurs ten zaprasza do zbadania ewolucji wolności na przestrzeni dziejów poprzez analizę głównych szkół myślenia, które ją ukształtowały. Odkryjesz, w jaki sposób koncepcja wolności była konstruowana na przestrzeni wieków, w opozycji do władzy lub we współpracy z nią, poprzez historyczną podróż od starożytności po współczesne debaty.
@@ -175,14 +175,14 @@ Z tej perspektywy misją prawodawcy jest organizowanie, modyfikowanie, a nawet z
 Jak zauważył Bastiat, kiedy otwiera się podręczniki, dowiadujemy się, że ludzkość byłaby skazana na nicość bez interwencji władzy:
 
 
-> "Wystarczy otworzyć, niemal na chybił trafił, książkę z zakresu filozofii, polityki lub historii, aby zobaczyć, jak głęboko zakorzeniona jest w naszym kraju idea, zrodzona z klasycznych studiów i matki socjalizmu, że ludzkość jest bezwładną materią otrzymującą od władzy życie, organizację, moralność i bogactwo; - lub, co gorsza, że sama ludzkość dąży do swojej degradacji i jest zatrzymywana na tym zboczu jedynie przez tajemniczą rękę Prawodawcy" ([_The Law_] (http://bastiat.org/fr/la_loi.html)).
+> "Wystarczy otworzyć, niemal na chybił trafił, książkę z zakresu filozofii, polityki lub historii, aby zobaczyć, jak głęboko zakorzeniona jest w naszym kraju idea, zrodzona z klasycznych studiów i matki socjalizmu, że ludzkość jest bezwładną materią otrzymującą od władzy życie, organizację, moralność i bogactwo; - lub, co gorsza, że sama ludzkość dąży do swojej degradacji i jest zatrzymywana na tym zboczu jedynie przez tajemniczą rękę Prawodawcy" ([_The Law_](http://bastiat.org/fr/la_loi.html)).
 
 Innymi słowy, kulturowym uprzedzeniem dominującym w zachodniej filozofii i historiografii jest to, że wszystko zawdzięczamy władzy: wolność, zdrowie, edukację, bezpieczeństwo, dobrobyt. Ludzkość opisywana jest jako "bezwładna materia", która nabiera kształtu dzięki prawodawcy.
 
 
 Według Bastiata rzeczywistość władzy jest jednak zupełnie inna. Władza to ucisk. Pisze on:
 
-Otwórzcie losowo kroniki ludzkości! Zajrzyj do historii starożytnej lub nowożytnej, świętej lub profanum, i zadaj sobie pytanie, skąd wzięły się te wszystkie wojny rasowe, klasowe, narodowe i rodzinne! Zawsze otrzymasz tę niezmienną odpowiedź: Z pragnienia władzy. ([_Parlamentarne niezgodności_] (http://bastiat.org/fr/incompatibilites_parlementaires.html))
+Otwórzcie losowo kroniki ludzkości! Zajrzyj do historii starożytnej lub nowożytnej, świętej lub profanum, i zadaj sobie pytanie, skąd wzięły się te wszystkie wojny rasowe, klasowe, narodowe i rodzinne! Zawsze otrzymasz tę niezmienną odpowiedź: Z pragnienia władzy. ([_Parlamentarne niezgodności_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
 
 
 To właśnie pragnienie władzy leży u podstaw wszystkich form ucisku w historii. W liście do pani Chevreux z 23 czerwca 1850 r. Bastiat nakreśla fazy ucisku: "Czasy walki o to, kto przejmie władzę w państwie; i czasy rozejmu, które będą efemerycznym panowaniem triumfującego ucisku, zwiastunem nowej walki" Najpierw podbój władzy poprzez wojnę, a następnie ustanowienie państwa, które utrzymuje się z grabieży bogactwa swoich obywateli.
@@ -191,7 +191,7 @@ To właśnie pragnienie władzy leży u podstaw wszystkich form ucisku w histori
 Historia jest więc walką między dwiema zasadami: wolnością i uciskiem:
 
 
-> Wolność! To jest w końcu harmonijna zasada. Ucisk! To jest zasada dysonansu; walka tych dwóch sił wypełnia annały ludzkości. ([_Economic Harmonies_] (http://bastiat.org/fr/conclusion_eo_harmonies.html), zakończenie oryginalnego wydania).
+> Wolność! To jest w końcu harmonijna zasada. Ucisk! To jest zasada dysonansu; walka tych dwóch sił wypełnia annały ludzkości. ([_Economic Harmonies_](http://bastiat.org/fr/conclusion_eo_harmonies.html), zakończenie oryginalnego wydania).
 
 ### Czym jest ucisk?
 
@@ -199,25 +199,25 @@ Historia jest więc walką między dwiema zasadami: wolnością i uciskiem:
 ![image](assets/pl/008.webp)
 
 
-Jednym słowem, jest to grabież. Bastiat szkicuje główne rodzaje grabieży, które pochodzą od elit rządzących: wojna, niewolnictwo, teokracja i monopol. Rzeczywiście, według niego: "Istnieją tylko dwa sposoby na zdobycie środków niezbędnych do zachowania, upiększenia i poprawy życia: Produkcja i grabież" ([_The Physiology of Plunder_] (http://bastiat.org/fr/physiologie_de_la_spoliation.html))
+Jednym słowem, jest to grabież. Bastiat szkicuje główne rodzaje grabieży, które pochodzą od elit rządzących: wojna, niewolnictwo, teokracja i monopol. Rzeczywiście, według niego: "Istnieją tylko dwa sposoby na zdobycie środków niezbędnych do zachowania, upiększenia i poprawy życia: Produkcja i grabież" ([_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
 
 
 Jaka jest różnica między produkcją a grabieżą? Oto odpowiedź Bastiata:
 
 
-> Aby produkować, należy skierować wszystkie swoje zdolności na dominację nad naturą; ponieważ to z naturą należy walczyć, oswajać ją i zniewalać. Dlatego żelazo przekształcone w pług jest symbolem produkcji. Aby plądrować, trzeba skierować wszystkie swoje zdolności na dominację nad ludźmi, ponieważ to z nimi trzeba walczyć, zabijać ich lub zniewalać. Dlatego żelazo przekształcone w miecz jest symbolem grabieży. ([_Economic Harmonies_] (http://bastiat.org/fr/guerre.html), Wojna).
+> Aby produkować, należy skierować wszystkie swoje zdolności na dominację nad naturą; ponieważ to z naturą należy walczyć, oswajać ją i zniewalać. Dlatego żelazo przekształcone w pług jest symbolem produkcji. Aby plądrować, trzeba skierować wszystkie swoje zdolności na dominację nad ludźmi, ponieważ to z nimi trzeba walczyć, zabijać ich lub zniewalać. Dlatego żelazo przekształcone w miecz jest symbolem grabieży. ([_Economic Harmonies_](http://bastiat.org/fr/guerre.html), Wojna).
 
 Innymi słowy, produkcja to władza nad naturą. Grabież to władza nad ludźmi. Istnieją jednak dwie formy grabieży: legalna i nielegalna.
 
-Nielegalna grabież to kradzież lub przestępstwo popełnione przez jednego obywatela przeciwko drugiemu. Jest to działanie bandyty lub oszusta. Jednak najgorszą formą grabieży jest ta, która odbywa się zgodnie z prawem: "Są ludzie, którzy uważają, że grabież traci całą swoją niemoralność, jeśli jest legalna. Jeśli chodzi o mnie, nie mogę sobie wyobrazić bardziej obciążającej okoliczności" ([_What is Seen and What is Not Seen_] (http://bastiat.org/fr/cqovecqonvp.html#RESTRICTION)).
+Nielegalna grabież to kradzież lub przestępstwo popełnione przez jednego obywatela przeciwko drugiemu. Jest to działanie bandyty lub oszusta. Jednak najgorszą formą grabieży jest ta, która odbywa się zgodnie z prawem: "Są ludzie, którzy uważają, że grabież traci całą swoją niemoralność, jeśli jest legalna. Jeśli chodzi o mnie, nie mogę sobie wyobrazić bardziej obciążającej okoliczności" ([_What is Seen and What is Not Seen_](http://bastiat.org/fr/cqovecqonvp.html#RESTRICTION)).
 
 
 Bastiat mówi nam, że nadal istnieją dwie formy legalnej grabieży:
 
 
-> Grabież zewnętrzna nazywana jest wojną, podbojami, koloniami. Grabież wewnętrzna nazywana jest podatkami, stanowiskami, monopolami. ([_Cobden and the League_] (http://bastiat.org/fr/introduction_cobden_ligue.html), Wprowadzenie).
+> Grabież zewnętrzna nazywana jest wojną, podbojami, koloniami. Grabież wewnętrzna nazywana jest podatkami, stanowiskami, monopolami. ([_Cobden and the League_](http://bastiat.org/fr/introduction_cobden_ligue.html), Wprowadzenie).
 
-W [_The Physiology of Plunder_] (http://bastiat.org/fr/physiologie_de_la_spoliation.html) wyjaśnia on:
+W [_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spoliation.html) wyjaśnia on:
 
 
 > Prawdziwym i sprawiedliwym prawem ludzi jest: Swobodnie dyskutowana Exchange usługi za usługę. Grabież polega na zakazaniu siłą lub podstępem wolności debaty w celu otrzymania usługi bez jej świadczenia. Grabież siłą odbywa się w następujący sposób: Czeka się, aż człowiek coś wytworzy, a następnie wyrywa mu to, z bronią w ręku. Jest to formalnie potępione przez Dekalog: Nie kradnij. Kiedy dzieje się to od jednostki do jednostki, nazywa się to kradzieżą i prowadzi do więzienia; kiedy dzieje się to od narodu do narodu, nazywa się to podbojem i prowadzi do chwały.
@@ -234,8 +234,8 @@ Historycznie rzecz biorąc, elity rządzące zawsze żyły z grabieży. Bastiat 
 > Siła użyta do grabieży jest podstawą ludzkich kronik. Prześledzenie jej historii oznaczałoby niemal całkowite odtworzenie historii wszystkich ludów: Asyryjczyków, Babilończyków, Medów, Persów, Egipcjan, Greków, Rzymian, Gotów, Franków, Hunów, Turków, Arabów, Mongołów, Tatarów, nie wspominając o Hiszpanach w Ameryce, Anglikach w Indiach, Francuzach w Afryce, Rosjanach w Azji itd.
 >
 
-> ([_Economic Sophisms_] (http://bastiat.org/fr/conclusion_sophismes.html), Zakończenie pierwszego tomu).
-> Grabież, w swojej najbardziej brutalnej formie, uzbrojona w pochodnię i miecz, wypełnia annały ludzkiej historii. Jakie imiona podsumowują historię? Cyrus, Sezostris, Aleksander, Scipio, Cezar, Attyla, Tamerlan, Mahomet, Pizarro, Wilhelm Zdobywca; to naiwna grabież poprzez podboje. Do tego należą laury, pomniki, posągi i łuki triumfalne. ([_Economic Harmonies_] (http://bastiat.org/fr/conclusion_eo_harmonies.html), zakończenie oryginalnego wydania).
+> ([_Economic Sophisms_](http://bastiat.org/fr/conclusion_sophismes.html), Zakończenie pierwszego tomu).
+> Grabież, w swojej najbardziej brutalnej formie, uzbrojona w pochodnię i miecz, wypełnia annały ludzkiej historii. Jakie imiona podsumowują historię? Cyrus, Sezostris, Aleksander, Scipio, Cezar, Attyla, Tamerlan, Mahomet, Pizarro, Wilhelm Zdobywca; to naiwna grabież poprzez podboje. Do tego należą laury, pomniki, posągi i łuki triumfalne. ([_Economic Harmonies_](http://bastiat.org/fr/conclusion_eo_harmonies.html), zakończenie oryginalnego wydania).
 > Historia świata to historia tego, jak jedna grupa ludzi plądrowała innych, często systematycznie, poprzez wojnę, niewolnictwo, teokrację. Obecnie jest to monopol, czyli przywileje ekonomiczne rozdawane przez państwo swoim klientom.
 
 Kilka dni przed śmiercią w Rzymie w 1850 r. Bastiat zwierzył się swojemu przyjacielowi Prosperowi Paillottetowi:
@@ -262,10 +262,10 @@ Jak wiadomo, historię piszą zwycięzcy. Uwaga często skupia się na zdobyciu 
 
 Dotyczy to w szczególności podręczników przeznaczonych dla szkół publicznych i napisanych przez profesorów zatrudnionych przez państwo.
 
-Nie jest tak w przypadku dwutomowego dzieła napisanego przez historyka z Cambridge w XIX wieku, [Lorda Actona] (https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Jego pełne nazwisko brzmi John Emerich Edward Dalberg, baron Acton (1834-1902). Jest autorem _Historii wolności w starożytności i chrześcijaństwie_. Jego praca jest uważana za jedną z najważniejszych na ten temat i poświęcił jej znaczną część swojej kariery. Jego dzieło, choć niedokończone, stanowi potężne ostrzeżenie przed niebezpieczeństwami związanymi z nadużywaniem władzy, a jego poparcie dla wolności i indywidualnej odpowiedzialności pozostaje aktualne do dziś.
+Nie jest tak w przypadku dwutomowego dzieła napisanego przez historyka z Cambridge w XIX wieku, [Lorda Actona](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Jego pełne nazwisko brzmi John Emerich Edward Dalberg, baron Acton (1834-1902). Jest autorem _Historii wolności w starożytności i chrześcijaństwie_. Jego praca jest uważana za jedną z najważniejszych na ten temat i poświęcił jej znaczną część swojej kariery. Jego dzieło, choć niedokończone, stanowi potężne ostrzeżenie przed niebezpieczeństwami związanymi z nadużywaniem władzy, a jego poparcie dla wolności i indywidualnej odpowiedzialności pozostaje aktualne do dziś.
 
 
-Autor ten jest najbardziej znany ze swojej maksymy: "Władza ma tendencję do korumpowania, a władza absolutna korumpuje absolutnie" Jest to formuła, która przypomina tę Montesquieu z [_The Spirit of the Laws_] (https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316):
+Autor ten jest najbardziej znany ze swojej maksymy: "Władza ma tendencję do korumpowania, a władza absolutna korumpuje absolutnie" Jest to formuła, która przypomina tę Montesquieu z [_The Spirit of the Laws_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316):
 
 
 > Odwiecznym doświadczeniem jest to, że każdy człowiek, który ma władzę, jest kuszony, by jej nadużywać.
@@ -295,15 +295,15 @@ Jego główną tezą jest to, że "wolność jest ustanawiana przez konflikt si�
 Ale idea, że wolność w Europie narodziła się z wewnętrznych walk między różnymi pretendentami do władzy, uniemożliwiając ustanowienie absolutnej dominacji, nie jest unikalna dla Actona. Można ją znaleźć już u takich myślicieli jak Voltaire i Condorcet.
 
 
-Tak więc Voltaire, w swoich [_Philosophical Letters_] (https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), przypisuje angielską wolność konfliktom między królami i szlachtą, które zapobiegły nadmiernej koncentracji władzy. I zauważa:
+Tak więc Voltaire, w swoich [_Philosophical Letters_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), przypisuje angielską wolność konfliktom między królami i szlachtą, które zapobiegły nadmiernej koncentracji władzy. I zauważa:
 
 
-> Gdyby w Anglii była tylko jedna religia, należałoby się obawiać jej despotyzmu; gdyby były tylko dwie, podcięłyby sobie gardła; ale jest ich trzydzieści i żyją w pokoju i szczęściu. ([O prezbiterianach] (https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
+> Gdyby w Anglii była tylko jedna religia, należałoby się obawiać jej despotyzmu; gdyby były tylko dwie, podcięłyby sobie gardła; ale jest ich trzydzieści i żyją w pokoju i szczęściu. ([O prezbiterianach](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
 
 ![image](assets/pl/012.webp)
 
 
-Condorcet, w swoim [_Sketch for a Historical Picture of the Progress of the Human Mind_] (https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain), przypisuje zdecentralizowaną strukturę władzy we Włoszech rywalizacji między papieżem a cesarzem, która pozwoliła przetrwać wielu niezależnym miastom-państwom.
+Condorcet, w swoim [_Sketch for a Historical Picture of the Progress of the Human Mind_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain), przypisuje zdecentralizowaną strukturę władzy we Włoszech rywalizacji między papieżem a cesarzem, która pozwoliła przetrwać wielu niezależnym miastom-państwom.
 
 
 Teza ta znajduje się również w monumentalnym dziele z 1983 roku: _Law and Revolution: The Formation of the Western Legal Tradition_, autorstwa Harolda J. Bermana ([francuskie tłumaczenie Raoula Audouina](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), wydane przez Księgarnię Uniwersytetu Aix en Provence w 2002 roku). Analiza Bermana podkreśla kluczową rolę pluralizmu prawnego w historii Zachodu. System ten, daleki od bycia zwykłym źródłem złożoności, był motorem rozwoju, wolności i innowacji, trwale kształtując zachodnie tradycje prawne.
@@ -324,7 +324,7 @@ Istnieje jednak inne spojrzenie na historię. Odniosła ona spory sukces i od da
 Wyjaśnia niezwykły wzrost Europy przede wszystkim postępem technologicznym w połączeniu z "prymitywną akumulacją" kapitału, wynikającą z imperializmu, niewolnictwa, handlu trójstronnego, wywłaszczenia drobnych chłopów i wyzysku klasy robotniczej. Wniosek jest jasny. Ten wyjątkowy europejski wzrost został osiągnięty kosztem milionów niewolników i uciskanych jednostek.
 
 
-Początkowo Marks ma rację co do jednej rzeczy: historia jest historią walk klasowych i wyzysku. Cytat jest dobrze znany, to pierwsze zdanie pierwszego rozdziału [Manifestu komunistycznego] (https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "Historia wszystkich dotychczas istniejących społeczeństw jest historią walk klasowych" Sam Marks przyznał, że zapożyczył swoją teorię walki klas od wcześniejszych autorów:
+Początkowo Marks ma rację co do jednej rzeczy: historia jest historią walk klasowych i wyzysku. Cytat jest dobrze znany, to pierwsze zdanie pierwszego rozdziału [Manifestu komunistycznego](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "Historia wszystkich dotychczas istniejących społeczeństw jest historią walk klasowych" Sam Marks przyznał, że zapożyczył swoją teorię walki klas od wcześniejszych autorów:
 
 
 > Nie jest moją zasługą odkrycie klas i walk klasowych we współczesnym społeczeństwie. Na długo przede mną burżuazyjni historycy opisali historyczny rozwój tej walki klasowej, a burżuazyjni ekonomiści ekonomiczną anatomię klas.
@@ -388,7 +388,7 @@ W rzeczywistości wyzysk ma sens tylko jako agresja przeciwko własności prywat
 ### "Europejski cud"
 
 
-Następnie, bardziej zniuansowana analiza historyczna niż ta Marksa pozwala nam zakwestionować ideę drapieżnej Europy, która zawdzięcza swój sukces wyłącznie imperializmowi i niewolnictwu. Zagłębiając się w porównawczą historię gospodarczą, niektórzy współcześni historycy poszukiwali źródeł rozwoju Europy w tym, co odróżniało ją od innych głównych cywilizacji, zwłaszcza Chin, Indii i islamu. Cechy te zostały zbadane przez [Davida Landesa] (https://www.eyrolles.com/Entreprise/Livre/richesse-et-pauvrete-des-nations-9782226110381/), [Jeana Baechlera] (https://academiesciencesmoralesetpolitiques.fr/publications/publications-de-lacademie/jean-baechler/), [François Crouzeta] (https://www.cairn.info/revue-entreprises-et-histoire-2010-4-page-219.htm) i [Douglassa Northa] (https://www.iedm.org/fr/65134-douglass-north-l-un-des-economistes-les-plus-originaux/). Badacze ci próbowali zrozumieć to, co określa się mianem "europejskiego cudu" Skupili swoją uwagę na fakcie, że Europa była mozaiką podzielonych i konkurujących ze sobą jurysdykcji, gdzie po upadku Rzymu żadna centralna władza polityczna nie była w stanie narzucić swojej woli.
+Następnie, bardziej zniuansowana analiza historyczna niż ta Marksa pozwala nam zakwestionować ideę drapieżnej Europy, która zawdzięcza swój sukces wyłącznie imperializmowi i niewolnictwu. Zagłębiając się w porównawczą historię gospodarczą, niektórzy współcześni historycy poszukiwali źródeł rozwoju Europy w tym, co odróżniało ją od innych głównych cywilizacji, zwłaszcza Chin, Indii i islamu. Cechy te zostały zbadane przez [Davida Landesa](https://www.eyrolles.com/Entreprise/Livre/richesse-et-pauvrete-des-nations-9782226110381/), [Jeana Baechlera](https://academiesciencesmoralesetpolitiques.fr/publications/publications-de-lacademie/jean-baechler/), [François Crouzeta](https://www.cairn.info/revue-entreprises-et-histoire-2010-4-page-219.htm) i [Douglassa Northa](https://www.iedm.org/fr/65134-douglass-north-l-un-des-economistes-les-plus-originaux/). Badacze ci próbowali zrozumieć to, co określa się mianem "europejskiego cudu" Skupili swoją uwagę na fakcie, że Europa była mozaiką podzielonych i konkurujących ze sobą jurysdykcji, gdzie po upadku Rzymu żadna centralna władza polityczna nie była w stanie narzucić swojej woli.
 
 
 Jak mówi Jean Baechler, członek Akademii Nauk Moralnych i Politycznych, w _The Origins of Capitalism_ (1971):
@@ -849,7 +849,7 @@ Ludwig von Mises opisuje ten epizod, który dobrze ilustruje szkodliwe skutki in
 
 Cesarz rzymski Dioklecjan jest znany z tego, że był ostatnim cesarzem rzymskim, który prześladował chrześcijan. Cesarze rzymscy w drugiej połowie III wieku mieli tylko jedną metodę finansową, która polegała na obniżaniu wartości waluty. W tych prymitywnych czasach, przed wynalezieniem prasy drukarskiej, inflacja sama w sobie była prymitywna. Polegała ona na oszustwach przy biciu monet, zwłaszcza srebrnych, aż do zmiany koloru stopu i znacznego zmniejszenia wagi. Rezultatem tego osłabienia walut, w połączeniu z odpowiednim wzrostem obiegu, był wzrost cen, a następnie edykt o kontroli cen. Rzymscy cesarze nie powstrzymywali się przed egzekwowaniem prawa; nie uważali śmierci za zbyt surową karę dla człowieka, który zażądał zbyt wysokiej ceny. Egzekwowali kontrolę cen, ale w konsekwencji doprowadzili do upadku społeczeństwa. Ostatecznie doprowadziło to do rozpadu Imperium Rzymskiego, a także do załamania się podziału pracy.
 
-([Polityka gospodarcza, refleksje na dziś i jutro] (http://herve.dequengo.free.fr/Mises/PE/PE_3.htm))
+([Polityka gospodarcza, refleksje na dziś i jutro](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm))
 
 
 ### Od liberalizmu do socjalizmu
@@ -1876,13 +1876,13 @@ Jednak w 1848 r., po rewolucji lutowej, Bastiat został wybrany na deputowanego 
 Pod rządami idei socjalistycznych Bastiat zauważył, że machina wyborcza była wykorzystywana do grabieży publicznych pieniędzy, a więc obywateli:
 
 
-> Finanse publiczne nieprędko popadną w kompletną ruinę. Jak mogłoby być inaczej, skoro zadaniem państwa jest zapewnienie wszystkiego wszystkim? Ludzie zostaną zmiażdżeni przez podatki, pożyczanie będzie następować po pożyczaniu; po wyczerpaniu teraźniejszości przyszłość zostanie pożarta. Wreszcie, ponieważ zasadniczo zostanie przyjęte, że państwo jest odpowiedzialne za tworzenie braterstwa na rzecz obywateli, cały naród zostanie przekształcony w petentów. Własność ziemska, rolnictwo, przemysł, handel, marynarka wojenna, przedsiębiorstwa przemysłowe, wszystko będzie domagać się łask państwa. Skarb publiczny zostanie dosłownie splądrowany. ([_Justice and Fraternity_] (http://bastiat.org/fr/justice_fraternite.html))
+> Finanse publiczne nieprędko popadną w kompletną ruinę. Jak mogłoby być inaczej, skoro zadaniem państwa jest zapewnienie wszystkiego wszystkim? Ludzie zostaną zmiażdżeni przez podatki, pożyczanie będzie następować po pożyczaniu; po wyczerpaniu teraźniejszości przyszłość zostanie pożarta. Wreszcie, ponieważ zasadniczo zostanie przyjęte, że państwo jest odpowiedzialne za tworzenie braterstwa na rzecz obywateli, cały naród zostanie przekształcony w petentów. Własność ziemska, rolnictwo, przemysł, handel, marynarka wojenna, przedsiębiorstwa przemysłowe, wszystko będzie domagać się łask państwa. Skarb publiczny zostanie dosłownie splądrowany. ([_Justice and Fraternity_](http://bastiat.org/fr/justice_fraternite.html))
 
 Państwo staje się wówczas, zgodnie ze słowami Bastiata,
 
 
 > wielka fikcja, dzięki której każdy stara się żyć kosztem wszystkich innych. ([_The State_](http://bastiat.org/fr/l_etat.html))
-> Bastiat rozwija również ideę, że konflikt powstaje, gdy prawo odchodzi od swojej właściwej roli. W swojej słynnej broszurze [_The Law_] (http://bastiat.org/fr/la_loi.html) pokazuje, dlaczego i w jaki sposób prawo stało się "polem bitwy wszelkiej chciwości", czyli źródłem przywilejów, czynszów sytuacyjnych i arbitralnego opodatkowania. Gdy tylko zasadniczo przyznaje się, że prawo może zostać odwrócone od swojej prawdziwej misji, że może naruszać własność zamiast ją gwarantować, z konieczności następuje walka klasowa, albo w celu obrony przed splądrowaniem, albo w celu zorganizowania jej dla własnej korzyści.
+> Bastiat rozwija również ideę, że konflikt powstaje, gdy prawo odchodzi od swojej właściwej roli. W swojej słynnej broszurze [_The Law_](http://bastiat.org/fr/la_loi.html) pokazuje, dlaczego i w jaki sposób prawo stało się "polem bitwy wszelkiej chciwości", czyli źródłem przywilejów, czynszów sytuacyjnych i arbitralnego opodatkowania. Gdy tylko zasadniczo przyznaje się, że prawo może zostać odwrócone od swojej prawdziwej misji, że może naruszać własność zamiast ją gwarantować, z konieczności następuje walka klasowa, albo w celu obrony przed splądrowaniem, albo w celu zorganizowania jej dla własnej korzyści.
 
 ![image](assets/pl/077.webp)
 
@@ -1900,7 +1900,7 @@ Według Bastiata demokracja socjalistyczna prowadzi do stałego deficytu budżet
 
 Wniosek Bastiata:
 
-Spójrzmy na cały świat. Które narody są najszczęśliwsze, najbardziej moralne i najbardziej pokojowe? Te, w których prawo najmniej ingeruje w działalność prywatną; gdzie rząd jest najmniej odczuwalny; gdzie indywidualność ma największą odporność, a opinia publiczna największy wpływ; gdzie mechanizmy administracyjne są najmniejsze i najmniej skomplikowane; podatki są najmniej uciążliwe i najmniej nierówne; powszechne niezadowolenie jest najmniej prowokowane i najmniej uzasadnione; gdzie odpowiedzialność jednostek i klas jest najbardziej aktywna, a w konsekwencji, jeśli moralność nie jest doskonała, ma tendencję do nieuchronnego korygowania się; gdzie transakcje, umowy, stowarzyszenia są najmniej utrudnione; gdzie praca, kapitał i ludność cierpią z powodu najmniej sztucznych przemieszczeń ([_The Law_] (http://bastiat.org/fr/la_loi.html))
+Spójrzmy na cały świat. Które narody są najszczęśliwsze, najbardziej moralne i najbardziej pokojowe? Te, w których prawo najmniej ingeruje w działalność prywatną; gdzie rząd jest najmniej odczuwalny; gdzie indywidualność ma największą odporność, a opinia publiczna największy wpływ; gdzie mechanizmy administracyjne są najmniejsze i najmniej skomplikowane; podatki są najmniej uciążliwe i najmniej nierówne; powszechne niezadowolenie jest najmniej prowokowane i najmniej uzasadnione; gdzie odpowiedzialność jednostek i klas jest najbardziej aktywna, a w konsekwencji, jeśli moralność nie jest doskonała, ma tendencję do nieuchronnego korygowania się; gdzie transakcje, umowy, stowarzyszenia są najmniej utrudnione; gdzie praca, kapitał i ludność cierpią z powodu najmniej sztucznych przemieszczeń ([_The Law_](http://bastiat.org/fr/la_loi.html))
 
 
 ## Marksistowska krytyka kapitalizmu
@@ -1985,7 +1985,7 @@ Ludwig von Mises podkreśla, że Marksowi nie udało się odróżnić tego, co w
 W _The Ethics of Liberty_ i _Anatomy of the State_ Murray Rothbard wyjaśnił, że wyzysk ma sens tylko jako agresja przeciwko własności prywatnej i że tylko państwo uzyskuje swoje dochody poprzez agresję, to znaczy poprzez opodatkowanie, zadłużenie, drukowanie pieniędzy, a tym samym poprzez inflację. W rzeczywistości to interwencja państwa, a nie walka klas, jest źródłem przemocy i konfliktów w społeczeństwie. Państwo, przywłaszczając sobie zasoby i regulując gospodarkę, tworzy zakłócenia i niesprawiedliwości, które prowadzą do konfliktów i represji. Położenie kresu wyzyskowi wymaga zatem ograniczenia władzy drapieżnej kasty: państwa.
 
 
-Na ten temat zob. także: _Marxist and Austrian Class Analysis_, Hans Hermann Hoppe, Journal of Libertarian Studies, Vol IX No. 2, Fall 1990. [Tłumaczenie François Guillaumat] (https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Rozdział 4 książki _The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
+Na ten temat zob. także: _Marxist and Austrian Class Analysis_, Hans Hermann Hoppe, Journal of Libertarian Studies, Vol IX No. 2, Fall 1990. [Tłumaczenie François Guillaumat](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Rozdział 4 książki _The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
 
 
 ### Polilogizm

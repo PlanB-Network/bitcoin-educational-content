@@ -1,4 +1,4 @@
-question: Ni uruhe rugero rwa RGB ruguha uburenganzira bwo kurema ivy'ubutunzi bidasanzwe canke "NFTs"?
+question: Ni uruhe rugero rwa RGB ruguha uburenganzira bwo gukora umutungo wihariye canke "NFTs"?
 answer: RGB21
 wrong_answers:
   - RGB20
@@ -6,4 +6,4 @@ wrong_answers:
   - RGB30
 explanation: |
   Itegeko rya RGB21 ryagenewe gucunga itunga ridasanzwe, rituma amakuru y’ibanga ashobora gufatanywa n’ama NFT.
-reviewed: false
+reviewed: true

@@ -1,6 +1,7 @@
 ---
-term: FLAG DAY
+term: Flag day
 
+definition: Metode aktivasi soft fork yang menetapkan tenggat waktu untuk adopsi aturan baru.
 ---
 Metode pengaktifan _soft fork_ yang digunakan pada tahun-tahun awal Bitcoin. Proses ini hanya menetapkan tenggat waktu, yang dikenal sebagai "_Flag Day_", sebelum pembaruan protokol harus diadopsi oleh seluruh jaringan. Pendekatan ini sangat mudah: setelah tanggal tersebut, node dan penambang harus sudah memperbarui perangkat lunak mereka untuk mematuhi peraturan baru, jika tidak, mereka akan berisiko tertinggal pada rantai yang tidak kompatibel.
 

@@ -6,3 +6,4 @@ wrong_answers:
   - A system where transactions cannot be reversed or disputed by anyone
 explanation: |
   Trustless refers specifically to a technical property where a distributed system can function correctly without requiring any trusted parties. This is different from eliminating all trust (you still trust your software/hardware) or preventing reversals (Bitcoin transactions can be reversed through chain rewrites). The term also doesn't mean users can't trust participants - rather, the system's correctness doesn't depend on trusting them.
+reviewed: false

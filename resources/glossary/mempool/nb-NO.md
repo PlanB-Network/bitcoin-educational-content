@@ -1,6 +1,7 @@
 ---
-term: MEMPOOL
+term: Mempool
 
+definition: Område der transaksjoner som venter på å bli inkludert i en blokk, lagres av hver node.
 ---
 En sammentrekning av begrepene "minne" og "pool". Dette refererer til et virtuelt område der Bitcoin-transaksjoner som venter på å bli inkludert i en blokk, grupperes sammen. Når en transaksjon opprettes og sendes ut i Bitcoin-nettverket, blir den først verifisert av nodene i nettverket. Hvis den anses som gyldig, plasseres den i Mempoolen til hver node, hvor den blir liggende til den blir valgt av en utvinner til å bli inkludert i en blokk.
 

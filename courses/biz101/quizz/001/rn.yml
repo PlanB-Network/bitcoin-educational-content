@@ -1,9 +1,9 @@
-question: Ni kubera iki ubukene bufatwa nk’ikintu gihambaye c’amahera meza?
-answer: Kubera ko Supply ifise aho igarukira irinda agaciro kayo kugira ngo ntikagabanywe n’uguhingura birenze urugero.
+question: Ni kubera iki ukutaboneka vyoroshe bifatwa nk’ikintu gihambaye nk’amahera ameze neza?
+answer: Kubera ko ikintu kitoroshe kuronka bitewe nubukeyi bwaco bituma agaciro kaco kadakoroka.
 wrong_answers:
   - Kuko bituma umuntu wese ashobora gukora amafaranga yiwe bitagoranye.
-  - Kuko bituma bigorana ko amafaranga yemerwa.
-  - Kuko bica intege gukoresha amafaranga mu bucuruzi bwo kure.
+  - Kuko bituma bigorana kumenya amafaranga yemewe na yatemewe.
+  - Kuko bica intege gukoresha amafaranga mu bucuruzi bwa kure na kure.
 explanation: |
-  Ifaranga rifise ubukene bugenzurwa riguma rifise ububasha bwo kugura uko igihe kigenda kirarenga. Hatariho ubukene, gutanga amafaranga birenze urugero vyoshobora gutuma amafaranga agenda araduga, bigatuma agaciro k’amafaranga gahungabana.
-reviewed: false
+  Ifaranga rifise ukutaboneka vyoroshe bigenzuwe riguma rifita ububasha bwo kugura uko igihe kigenda kirarenga. Hatariho akutaboneka vyoroshe, gukora amafaranga birenze urugero vyoshobora gutuma amafaranga agenda arata agaciro,amahera agata ububasha kubera aboneka vyoroshe .
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni sababu gani ya msingi kwamba kuongezeka kwa ukubwa wa vitalu kunasababisha uwezekano mkubwa wa vitalu vilivyochakaa katika Bitcoin mining?
+answer: Vitalu vikubwa huchukua muda zaidi kueneza na kuthibitishwa kote mtandao, na kuunda madirisha marefu ambapo wachimbaji hufanya kazi kwa vidokezo vya blockchain vilivyopitwa na wakati.
+wrong_answers:
+  - Vitalu vikubwa vinahitaji nguvu zaidi ya hesabu kuchimba, na kusababisha wachimbaji kutumia muda mrefu kutafuta suluhu halali za proof-of-work.
+  - "Kuongezeka kwa ukubwa wa block hupunguza ufanisi wa utaratibu wa kurekebisha ugumu, na kusababisha vipindi visivyotabirika vya muda wa kuzuia"
+  - Vizuizi vikubwa zaidi huunda migogoro zaidi ya ununuzi kati ya vitalu shindani, na kuifanya iwe ngumu kuamua ni kizuizi kipi kinapaswa kukubaliwa.
+explanation: |
+  Jibu sahihi linabainisha utaratibu wa msingi nyuma ya vitalu vilivyochakaa. Wakati vitalu ni kubwa, zinahitaji bandwidth zaidi ili kuhamisha kati ya nodi na muda zaidi wa kuthibitisha. Katika kipindi hiki kirefu cha uenezi, wachimba migodi wengi wanaweza kupata vitalu vinavyoshindana kwa urefu sawa kwa vile bado hawajapokea block ya hivi punde. Hii inaunda hali ya mbio ambapo kizuizi kimoja pekee kinaweza kukubaliwa, na kufanya vingine kuchakaa. Majibu yasiyo sahihi yanachanganya suala hili la uenezi na ugumu wa mining, mbinu za maafikiano, au mizozo ya muamala, ambayo ni maswala tofauti na tatizo la muda linalosababisha vikwazo vilivyochakaa.
+reviewed: false

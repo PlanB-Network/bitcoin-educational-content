@@ -1,0 +1,8 @@
+question: P2PK 和 P2PKH 在花錢之前會透露哪些資訊，這兩者有什麼根本的差異？
+answer: P2PK 會在花費前揭露 ScriptPubKey 中的完整公開金鑰，而 P2PKH 只會在花費前揭露公開金鑰的雜湊值
+wrong_answers:
+  - P2PK 需要多個簽名進行驗證，而 P2PKH 只需要一個簽名即可解鎖硬幣
+  - P2PK 使用與 P2PKH 不同的雜湊演算法，使其更安全地對抗量子運算攻擊
+  - P2PK 在 ScriptPubKey 中儲存私密金鑰，而 P2PKH 只儲存簽章驗證結果
+explanation: |
+  P2PK 直接將硬幣鎖定到完整的公開密鑰上，該密鑰在任何消費發生之前就會在 ScriptPubKey 中顯示。P2PKH 只會在 ScriptPubKey 中顯示 20 位元組公開金鑰的切細值，隱藏實際的公開金鑰，直到擁有者在消費時在 ScriptSig 中提供。這項隱私權強化是 P2PKH 相較於早期 P2PK 模式的主要優勢之一。

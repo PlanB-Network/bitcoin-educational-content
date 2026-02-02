@@ -1,5 +1,6 @@
 ---
-term: INTROPI
+term: Entropy
+definition: Urugero rwo kutamenya ibishobora gushika ku makuru, ivyo ni bihambaye mu kurema imfunguruzo zicungerwa.
 ---
 
 Entropie, mu bijanye n’ubuhinga bwo gukingira amakuru n’amakuru, ni ingero y’ingero y’ukudakeka canke ukudashobora kumenya imbere y’igihe bifitaniye isano n’inkomoko y’amakuru canke inzira y’imburakimazi. Entropie irafise uruhara runini mu mutekano w’imirongo y’ubuhinga bwo gukingira amakuru, cane cane mu guhingura imfunguruzo n’imibare y’imburakimazi. Entropie nini ituma imfunguruzo zivutse zidashobora gutegekanirwa bihagije kandi zishobora guhangana n’ibitero vy’inguvu z’agahomerabunwa, aho uwutera agerageza imigwi yose ishoboka kugira ngo atekereze urufunguzo.

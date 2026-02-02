@@ -1,0 +1,8 @@
+question: Mu kwemeza ibikorwa vya P2PKH, ni urutonde uruhe rw’ibikorwa ScriptPubKey ikora kugira ngo isuzume ingene amahera akoreshwa?
+answer: Isubiramwo urufunguzo rwa bose, ikarurusha, igereranye n'urufunguzo rwashizweho, hanyuma igasuzuma umukono
+wrong_answers:
+  - Hashes umukono, igereranye n'urufunguzo rwa bose hash, hanyuma igenzure ku gaciro kashizweho
+  - Igenzura umukono mbere, hanyuma igaca urufunguzo rwa bose maze igereranye na hash yashizweho
+  - Ihuza umukono n'urufunguzo rwa bose, hashes igisubizo, hanyuma igereranye na hash yashizweho
+explanation: |
+  Urufunguzo rwa P2PKH rukurikira urutonde rwihariye: OP_DUP OP_HASH160 <urufunguzo_rwa> OP_EQUALVERIFY OP_CHECKSIG. Ivyo bisubiramwo urufunguzo rwa bose rwatanzwe, bikoresha SHA256 hanyuma RIPEMD160 hashing, bigenzura ko igisubizo gihuye n'ivyo hash yatanzwe, hanyuma bigenzura umukono. Ayandi mahitamwo adondora nabi urutonde rw'ibikorwa canke agatanga imikono y'ugushiramwo aho gukoresha imfunguruzo za bose, ivyo vyoshobora gutuma umuntu adashobora kwemeza.

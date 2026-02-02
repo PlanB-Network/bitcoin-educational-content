@@ -1,9 +1,9 @@
-question: Met welke Umbrel-toepassing kun je je Lightning-node beheren met een geavanceerde Interface?
-answer: Berijd de bliksem
+question: Met welke Umbrel-toepassing kun je je Lightning-node beheren met een geavanceerde interface?
+answer: Ride The Lightning
 wrong_answers:
-  - BTCPay Bliksem
-  - Nostr Relais
+  - BTCPay Lightning
+  - Nostr Relay
   - Bitfeed
 explanation: |
-  Ride The Lightning en ThunderHub bieden een complete webgebaseerde Interface voor het beheren van een Lightning-node.
+  Ride The Lightning en ThunderHub bieden een complete webgebaseerde interface voor het beheren van een Lightning-node.
 reviewed: true

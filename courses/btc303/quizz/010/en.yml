@@ -6,3 +6,4 @@ wrong_answers:
   - Installing verified wallet software from official sources with digital signatures
 explanation: |
   To use Bitcoin trustlessly, you must run a fully-validating Bitcoin node that independently verifies all blocks follow consensus rules, checks the coin issuance schedule, and prevents double-spends. This ensures you don't outsource verification to others, maintaining the trustless property. Using exchanges or third-party services means trusting others to tell you the truth about the blockchain state. While verified software is important for security, it doesn't eliminate the need for your own validation node to achieve true trustlessness in the Bitcoin system.
+reviewed: false

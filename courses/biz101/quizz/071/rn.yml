@@ -1,9 +1,9 @@
 question: Ni uruhara uruhe LSP ikora mu kwishura Bitcoin y’Ishirahamwe?
 answer: Gucungera amafaranga menshi kuri Lightning
 wrong_answers:
-  - Bika imfunguruzo z’ibanga z’umuravyo Wallet.
+  - Bika imfunguruzo z’ibanga ingodo yubuhinga ngurukana bumenyi ya Lightning.
   - Sohora amafagitire y'umuravyo
   - Gusubiza amafaranga n'amaboko kuri Lightning
 explanation: |
   LSPs zikora ibikorwa bikomeye kandi vyinshi ku Lightning.
-reviewed: false
+reviewed: true

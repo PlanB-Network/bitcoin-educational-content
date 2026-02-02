@@ -229,7 +229,7 @@ Kemudian masukkan kode PIN pada Jade Anda, dan Anda akan terhubung kembali.
 
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
-Jade Anda dibuka kuncinya melalui "elemen aman virtual" Blockstream (lihat bagian pertama tutorial ini). Hal ini memerlukan koneksi Bluetooth dengan aplikasi Green. Jika Anda mengalami kesulitan dengan koneksi Bluetooth saat membuka kunci, coba pisahkan dan hubungkan kembali kedua perangkat. Jika masalah masih berlanjut, Anda masih dapat membuka kunci Jade Anda dengan memilih opsi "*QR Scan*" dan mengikuti petunjuk yang tersedia [di situs web Blockstream] (https://jadefw.blockstream.com/pinqr/index.html).
+Jade Anda dibuka kuncinya melalui "elemen aman virtual" Blockstream (lihat bagian pertama tutorial ini). Hal ini memerlukan koneksi Bluetooth dengan aplikasi Green. Jika Anda mengalami kesulitan dengan koneksi Bluetooth saat membuka kunci, coba pisahkan dan hubungkan kembali kedua perangkat. Jika masalah masih berlanjut, Anda masih dapat membuka kunci Jade Anda dengan memilih opsi "*QR Scan*" dan mengikuti petunjuk yang tersedia [di situs web Blockstream](https://jadefw.blockstream.com/pinqr/index.html).
 
 Sebelum Anda menerima bitcoin pertama Anda di dompet Anda, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti xpub atau alamat penerima pertama Anda, kemudian hapus wallet Anda di aplikasi Green dan di Jade Plus ketika masih kosong (`Options -> Device -> Factory Reset`). Kemudian coba pulihkan dompet Anda menggunakan cadangan kertas dari frasa mnemonik. Periksa apakah informasi cookie yang dihasilkan setelah pemulihan sesuai dengan yang Anda tuliskan sebelumnya. Jika sesuai, Anda dapat yakin bahwa cadangan kertas Anda dapat diandalkan. Untuk mengetahui lebih lanjut mengenai cara melakukan pemulihan uji coba, silakan baca tutorial lainnya:
 
@@ -267,7 +267,7 @@ Pilih jumlah pembayaran.
 
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
-Di bagian bawah layar, Anda dapat memilih tarif biaya untuk transaksi ini. Anda dapat memilih untuk mengikuti rekomendasi aplikasi atau menyesuaikan biaya Anda. Semakin tinggi biaya dalam kaitannya dengan transaksi tertunda lainnya, semakin cepat transaksi Anda akan diproses. Untuk informasi pasar biaya, silakan kunjungi [Mempool.space] (https://mempool.space/) di bagian "*Biaya Transaksi*".
+Di bagian bawah layar, Anda dapat memilih tarif biaya untuk transaksi ini. Anda dapat memilih untuk mengikuti rekomendasi aplikasi atau menyesuaikan biaya Anda. Semakin tinggi biaya dalam kaitannya dengan transaksi tertunda lainnya, semakin cepat transaksi Anda akan diproses. Untuk informasi pasar biaya, silakan kunjungi [Mempool.space](https://mempool.space/) di bagian "*Biaya Transaksi*".
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)
 

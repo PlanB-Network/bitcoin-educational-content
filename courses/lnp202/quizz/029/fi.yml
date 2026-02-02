@@ -1,0 +1,9 @@
+question: Mikä on tärkein riski, jota vartiotornilla pyritään ehkäisemään?
+answer: Huijaaminen vanhan valtion kanssa
+wrong_answers:
+  - 51% hyökkäys
+  - Siemenvarkaus
+  - Huijata uuden valtion kanssa
+explanation: |
+  Vartiotorni suojaa vanhan kanavan valtion julkaisemiselta, jonka tarkoituksena on varojen kavaltaminen.
+reviewed: false

@@ -20,7 +20,7 @@ Tässä opetusohjelmassa tutustumme **Banxaasiin**, vaihtokauppa-alustaan, joka 
 
 
 
-Banxaas tulee Senegalin murteesta (Wolof), joka tarkoittaa haaraa. Ideologisesti voimme nähdä Banxaasin haarana, joka yhdistää senegalilaiset Bitcoin:n käyttöön. Haara, johon voit luottaa suojellaksesi säästöjäsi inflaatiolta ja sensuurilta. Senegalilaisen start-up-yrityksen (Yité Technologies) kehittämä [Banxaas] (https://banxaas.com) tarjoaa Lightning Network:n voiman ansiosta Exchange-palvelun Bitcoin:n ja CFA-frankin (XOF) välillä ja päinvastoin. Banxaasilla on epätavallinen lähestymistapa Exchange-alustoihin Länsi-Afrikan osa-alueella.
+Banxaas tulee Senegalin murteesta (Wolof), joka tarkoittaa haaraa. Ideologisesti voimme nähdä Banxaasin haarana, joka yhdistää senegalilaiset Bitcoin:n käyttöön. Haara, johon voit luottaa suojellaksesi säästöjäsi inflaatiolta ja sensuurilta. Senegalilaisen start-up-yrityksen (Yité Technologies) kehittämä [Banxaas](https://banxaas.com) tarjoaa Lightning Network:n voiman ansiosta Exchange-palvelun Bitcoin:n ja CFA-frankin (XOF) välillä ja päinvastoin. Banxaasilla on epätavallinen lähestymistapa Exchange-alustoihin Länsi-Afrikan osa-alueella.
 
 
 
@@ -37,13 +37,13 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Kaupankäynti ensimmäistä kertaa Banxaasin kanssa
 
 
 
-Ensimmäiseksi [banxaasissa] (https://banxaas.com) on määriteltävä Exchange:n suunta:
+Ensimmäiseksi [banxaasissa](https://banxaas.com) on määriteltävä Exchange:n suunta:
 
 
 

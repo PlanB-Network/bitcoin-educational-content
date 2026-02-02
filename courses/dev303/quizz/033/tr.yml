@@ -1,0 +1,8 @@
+question: Rust'da bir panik oluştuğunda tam bir çağrı yığını izi görüntülemek için hangi ortam değişkeni ayarlanabilir?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - RUST_PANIC_TRACE
+explanation: |
+  RUST_BACKTRACE, paniğe neden olan çağrı yığınının tamamını göstererek ek hata ayıklama bilgileri sağlayan doğru ortam değişkenidir. Bu, geliştiricilerin tam olarak hangi işlev çağrısı dizisinin hataya neden olduğunu izlemelerine yardımcı olur. Diğer seçenekler (RUST_STACKTRACE, RUST_DEBUG_TRACE ve RUST_PANIC_TRACE) geçerli Rust ortam değişkenleri değildir ve bir panik oluştuğunda herhangi bir hata ayıklama çıktısı üretmez.

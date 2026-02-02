@@ -1,0 +1,9 @@
+question: Jaká základní charakteristika odlišuje definici škálování Bitcoin uvedenou v knize od běžných alternativních definic používaných v prostoru Bitcoin?
+answer: Výslovně vyžaduje zachování odolnosti vůči cenzuře jako omezení při současném zvýšení kapacity využití
+wrong_answers:
+  - Zaměřuje se výhradně na zvýšení propustnosti blockchainových transakcí, nikoli na zlepšení efektivity
+  - Upřednostňuje vývoj vrstvené architektury před jakoukoli úpravou základního protokolu blockchainu
+  - Klade důraz na snižování výpočetních nároků uzlů spíše než na rozšiřování kapacity sítě
+explanation: |
+  V knize je škálování definováno jako "zvyšování kapacity použití Bitcoin, aniž by byla ohrožena jeho odolnost vůči cenzuře", což výslovně zahrnuje omezení odolnosti vůči cenzuře. Tím se odlišuje od jiných definic, které se zaměřují pouze na zvyšování transakční kapacity, zvyšování efektivity nebo vrstevnaté systémy, aniž by zohledňovaly zachování základních vlastností Bitcoin. Požadavek na odolnost vůči cenzuře zajišťuje, že řešení pro škálování nenaruší základní hodnotovou propozici Bitcoin, kterou je nedůvěryhodný, decentralizovaný systém, který nemůže být kontrolován žádným jednotlivým subjektem.
+reviewed: false

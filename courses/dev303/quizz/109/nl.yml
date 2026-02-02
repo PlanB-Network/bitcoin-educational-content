@@ -1,0 +1,8 @@
+question: Wat is het fundamentele architecturale voordeel van de aanpak van de Breez SDK voor het beheer van Lightning-knooppunten in vergelijking met traditionele zelf-gehoste Lightning-implementaties?
+answer: Gebruikers onderhouden hun eigen Lightning-knooppunten op de Greenlight-infrastructuur en behouden de exclusieve controle over hun privésleutels die hun apparaten nooit verlaten
+wrong_answers:
+  - Gebruikers delen gepoolde Lightning-kanalen die worden beheerd door Breez, terwijl ze individuele bewaring van fondsen behouden door middel van multi-signature regelingen
+  - "Gebruikers draaien lokaal lichtgewicht Lightning nodes die synchroniseren met Breez's master nodes voor verbeterde betrouwbaarheid en minder bandbreedtevereisten."
+  - Gebruikers delegeren kanaalbeheer aan Lightning Service Providers terwijl ze de bewaking behouden via hardwarebeveiligingsmodules die zijn geïntegreerd in mobiele apparaten
+explanation: |
+  De architectuur van de Breez SDK geeft elke gebruiker zijn eigen speciale Lightning-node die draait op de cloud-infrastructuur van Greenlight, maar van cruciaal belang is dat de privésleutels nooit het apparaat van de gebruiker verlaten. Dit betekent dat Greenlight geen Lightning-bewerkingen kan uitvoeren zonder dat de applicatie van de gebruiker actief transacties ondertekent. Dit verschilt van gedeelde kanaalpools, lokale lichtgewicht knooppunten of hardware beveiligingsmodules - het is een unieke hybride aanpak die operationele complexiteit elimineert en tegelijkertijd echte zelfbewaarprincipes behoudt.

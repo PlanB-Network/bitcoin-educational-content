@@ -6,4 +6,4 @@ wrong_answers:
   - Zypper
 explanation: |
   Debian y Ubuntu utilizan el gestor de paquetes APT, basado en el formato .deb, para gestionar la instalación y actualización del software.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Consensus choisit les mineurs, relais choisit les commerçants
 explanation: |
   Les règles de consensus fixent ce qui est valide dans Bitcoin, les règles de relais gèrent les transactions diffusées entre nœuds.
-reviewed: false
+reviewed: true 

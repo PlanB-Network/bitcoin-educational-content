@@ -1,0 +1,9 @@
+question: Mitä Lightning-solmun ja mobiiliasiakkaan välisistä yhteysmenetelmistä ei suositella tähän käyttöön?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet Connect
+  - Ei ole
+explanation: |
+  Tor toimii käytännössä erittäin huonosti tähän tarkoitukseen, ja virheet ja viiveet aiheuttavat huonon käyttökokemuksen.
+reviewed: false

@@ -1,0 +1,15 @@
+title: "Extending Blockchain Functionality with Statechain"
+original_language: en
+authors:
+  - Xiaokang Chen
+  - Kunlong Zhang
+abstract: |
+  Blockchain has attracted great attention as the basis of cryptocurrencies such as Bitcoin, but its capabilities extend far beyond that. Blockchain has the potential to revolutionize applications because it provides a transparent, immutable, and append-only ledger that can be used to build new decentralized applications. However, it is hard to implement changes to Bitcoin without forking blockchain. As a result, Bitcoin has difficulty in adapting to new demands and extending new functionality. The traditional way to introduce new functionality is to modify Bitcoin's code base, but which will lead to some problems such as (a) the security of blockchains, (b) the allocation of currency, and (c) the waste of resources. We present a novel design, statechain, which uses Bitcoin blockchain to propagate application log. It can add new functionality without requiring blockchain fork changes from Bitcoin. Statechain enables application nodes to efficiently query the log as well as transfer log between blockchains. We detail how the application nodes achieve application-level consensus at each block. As far as we know, this technology has not been exploited. However, it has a great practical significance that enables the introduction of new functionality safer and makes the development of blockchain-based applications easier. We have used statechain to explore the field of transferring bitcoins and other cryptocurrencies directly between multiple blockchains.
+publication_date: 2017-12-15
+paper_type: conference
+source: IEEE
+topics:
+  - Sidechain Mechanisms
+  - Off-Chain Scalability
+pdf_url: https://ieeexplore.ieee.org/document/8368370
+id: a0c118aa-d667-45b4-8f0e-620a97ff9ea2

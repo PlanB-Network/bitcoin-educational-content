@@ -47,7 +47,7 @@ HD Bitcoin 지갑의 작동 원리를 심도 있게 살펴보는 CYP201 강좌�
 
 Bitcoin 지갑의 구성과 운영에 대해 자세히 알아보기 전에, 다음 내용을 위해 알아야 할 암호화 기본 요소에 대한 몇 가지 장부터 살펴보겠습니다.
 
-지갑과 Bitcoin 프로토콜 자체의 기본인 암호화 Hash 기능부터 시작하겠습니다. 주요 특징과 Bitcoin에서 사용되는 특정 기능을 알아보고, 보다 기술적인 장에서는 Hash 기능의 여왕의 작동 방식에 대해 자세히 알아볼 것입니다: SHA256.
+지갑과 Bitcoin 프로토콜 자체의 기본인 암호화 Hash 기능부터 시작하겠습니다. 주요 특징과 Bitcoin에서 사용되는 특정 기능을 알아보고, 보다 기술적인 장에서는 Hash 기능의 여왕의 작동 방식에 대해 자세히 알아볼 것입니다: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
@@ -65,7 +65,7 @@ Bitcoin 지갑의 구성과 운영에 대해 자세히 알아보기 전에, 다�
 ![CYP201](assets/en/003.webp)
 
 
-교육은 BIP39 passphrase, seed(Mnemonic 문구와 혼동하지 마세요), 마스터 chain code 및 마스터 키에 대한 학습으로 계속됩니다. 이러한 Elements가 무엇인지, 각각의 역할이 무엇인지, 어떻게 계산되는지 자세히 살펴볼 것입니다.
+교육은 [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase, seed(Mnemonic 문구와 혼동하지 마세요), 마스터 chain code 및 마스터 키에 대한 학습으로 계속됩니다. 이러한 Elements가 무엇인지, 각각의 역할이 무엇인지, 어떻게 계산되는지 자세히 살펴볼 것입니다.
 
 
 ![CYP201](assets/en/004.webp)
@@ -949,7 +949,7 @@ P2PK 스크립트로 Bitcoin의 초기 작업은 공개 키를 사용하여 자�
 따라서 공개 키로 잠긴 비트코인을 소유한 사용자는 자금 잠금을 해제할 수 있는 개인 키를 안전하게 보관할 방법을 찾아야 합니다. Bitcoin Wallet은 다른 사람의 접근 없이 모든 키를 쉽게 보관할 수 있는 장치입니다. 따라서 Wallet이라기보다는 키체인에 가깝습니다.
 
 
-공개 키와 개인 키 사이의 수학적 연결과 개인 키를 공개하지 않고도 개인 키의 소유를 증명하는 서명을 수행할 수 있는 기능은 디지털 서명 알고리즘을 통해 가능합니다. Bitcoin 프로토콜에서는 두 가지 서명 알고리즘이 사용됩니다: 타원 곡선 디지털 서명 알고리즘인 **ECDSA**와 슈노르 서명 체계인 **슈노르 서명 체계**입니다. ECDSA는 Bitcoin에서 처음부터 사용된 디지털 서명 프로토콜입니다. 슈노르는 2021년 11월 Taproot 업데이트와 함께 도입되었기 때문에 Bitcoin에서 더 최근에 도입되었습니다.
+공개 키와 개인 키 사이의 수학적 연결과 개인 키를 공개하지 않고도 개인 키의 소유를 증명하는 서명을 수행할 수 있는 기능은 디지털 서명 알고리즘을 통해 가능합니다. Bitcoin 프로토콜에서는 두 가지 서명 알고리즘이 사용됩니다: 타원 곡선 디지털 서명 알고리즘인 **[ECDSA](https://planb.academy/resources/glossary/ecdsa)**와 슈노르 서명 체계인 **슈노르 서명 체계**입니다. ECDSA는 Bitcoin에서 처음부터 사용된 디지털 서명 프로토콜입니다. 슈노르는 2021년 11월 Taproot 업데이트와 함께 도입되었기 때문에 Bitcoin에서 더 최근에 도입되었습니다.
 
 이 두 알고리즘은 메커니즘이 매우 유사합니다. 둘 다 타원 곡선 암호화를 기반으로 합니다. 이 두 프로토콜의 가장 큰 차이점은 서명의 구조와 몇 가지 특정 수학적 특성에 있습니다. 따라서 가장 오래된 알고리즘인 ECDSA부터 시작하여 이러한 알고리즘의 기능을 살펴보겠습니다.
 
@@ -2749,20 +2749,22 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 수신 주소는 *scriptPubKey*에서 정확하게 찾을 수 있습니다. 그러나 채택된 스크립트 표준에 따라 사용법이 달라집니다. 다음은 사용된 표준에 따라 *scriptPubKey*에 포함된 정보와 *scriptPubKey*의 잠금을 해제하기 위해 *scriptSig*에 예상되는 정보를 요약한 표입니다.
 
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Arbitrary data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*출처: Bitcoin core PR 리뷰 클럽, 2021년 7월 7일 - 글로리아 자오*
 
+
+| 표준             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | 임의 데이터 | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_출처: 2021년 7월 7일 Bitcoin Core PR 검토 클럽 – Gloria Zhao_
 
 스크립트에서 사용되는 옵코드는 정보를 조작하고 필요한 경우 비교하거나 테스트하기 위해 설계되었습니다. 다음과 같은 P2PKH 스크립트를 예로 들어 보겠습니다:
 

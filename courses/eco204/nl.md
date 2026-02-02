@@ -1,26 +1,19 @@
 ---
-name: Hyperinflatiestudies
+name: Casestudies over hyperinflatie
 goal: Het ontstaan van hyperinflaties in een Fiat-wereld en de gevolgen ervan begrijpen
-objectives: 
-
-  - Hyperinflatiecycli bestuderen
-  - De werkelijke gevolgen van hyperinflatie op ons dagelijks leven begrijpen
-  - Bestudeer de overeenkomsten van hyperinflaties door de tijd heen
-  - Een concreet idee hebben over hoe je jezelf kunt beschermen tegen hyperinflatie
-
+objectives:
+- Hyperinflatiecycli bestuderen
+- De werkelijke gevolgen van hyperinflatie op ons dagelijks leven begrijpen
+- Bestudeer de overeenkomsten van hyperinflaties door de tijd heen
+- Een concreet idee hebben over hoe je jezelf kunt beschermen tegen hyperinflatie
 ---
+# Een reis door economische ineenstorting
 
-# Een reis door de economie
+Hoe ziet het eruit wanneer geld zijn betekenis verliest?
+Deze cursus leidt je door de fascinerende maar sobere wereld van hyperinflatie. Je ontdekt historische episodes en moderne gevallen waarin valuta's instortten en economieën van de ene op de andere dag transformeerden. Je ontdekt de patronen, oorzaken en de impact op het dagelijks leven van gewone mensen, en krijgt inzicht in een van de meest dramatische fenomenen uit de economie.
 
-
-Dit programma wil een diepgaand inzicht geven in het ontstaan van hyperinflaties in een wereld die gedomineerd wordt door Fiatvaluta en de belangrijke gevolgen ervan onderzoeken. Deelnemers zullen zich in detail verdiepen in hyperinflatiecycli, de oorzaken en oorzaken onderzoeken en historische en hedendaagse voorbeelden geven. Ze zullen ook de tastbare gevolgen van hyperinflatie op de economie en het dagelijks leven onderzoeken en de repercussies op de waarde van valuta, koopkracht en individuele en collectieve besparingen bestuderen.
-
-
-We belichten trends en gemeenschappelijke patronen in perioden van hyperinflatie door de geschiedenis heen en bieden effectieve en concrete strategieën om jezelf te beschermen tijdens perioden van hyperinflatie. Deelnemers krijgen de kans om verschillende investeringsopties en financiële verdedigingsmechanismen te verkennen en praktische hulpmiddelen en essentiële kennis te verwerven om rustig te kunnen navigeren in een instabiel economisch klimaat.
-
-
+Onderweg ontdek je ook hoe individuen en gemeenschappen door deze turbulente periodes zijn genavigeerd. Leer de strategieën die hebben geholpen om vermogen te beschermen tijdens valutacrises en bouw een dieper begrip op van financiële veerkracht. Als je nieuwsgierig bent naar de economische krachten die onze wereld vormgeven, biedt deze reis zowel kennis als praktisch perspectief.
 +++
-
 # Inleiding
 
 
@@ -430,7 +423,7 @@ Een illustratief voorbeeld van MMT is het Amerikaanse militair-industriële comp
 Japan wordt door MMT-voorstanders vaak aangehaald als een ander voorbeeld van de afwezigheid van inflatie ondanks aanzienlijke monetaire druk. De situatie in Japan benadrukt echter ook de beperkingen van traditionele inflatiemetingen, zoals de consumentenprijsindex (CPI). In Japan wordt een aanzienlijk deel van het gedrukte geld gespaard of geïnvesteerd in onroerend goed of de aandelenmarkt, in plaats van uitgegeven aan lopende consumptie. Doordat de CPI deze dynamiek niet volledig weergeeft, kan de werkelijke inflatie worden onderschat.
 
 
-Uit de analyse van Japan (https://ideas.repec.org/p/ces/ceswps/_9821.html) blijkt ook dat het gedrag van economische agenten, zoals sparen of beleggen in activa die niet in de CPI zijn opgenomen, het inflatoire effect van monetaire druk kan maskeren. Bovendien speelt het vermogen van verschillende sectoren om geïnjecteerde liquiditeit te absorberen een cruciale rol bij het bepalen of er inflatie optreedt.
+[De analyse van Japan](https://ideas.repec.org/p/ces/ceswps/_9821.html) benadrukt eveneens dat het gedrag van economische actoren, zoals sparen of investeren in activa die niet in de CPI zijn opgenomen, de inflatoire impact van geldcreatie kan verhullen. Bovendien speelt het vermogen van de verschillende sectoren om de geïnjecteerde liquiditeit te absorberen een cruciale rol bij het al dan niet optreden van inflatie.
 
 
 #### Balansen van banken en centrale banken
@@ -489,7 +482,7 @@ Deze voorbeelden kunnen gebruikt worden in discussies om uit te leggen waarom in
 ![image](assets/nl/023.webp)
 
 
-Omdat, zoals deze [thread] (https://twitter.com/saifedean/status/1673639779433590786) laat zien: Inflatie is alles behalve de schuld van centrale banken.
+Omdat, zoals deze [thread](https://twitter.com/saifedean/status/1673639779433590786) laat zien: Inflatie is alles behalve de schuld van centrale banken.
 
 
 

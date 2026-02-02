@@ -1,5 +1,6 @@
 ---
 term: PSBT
+definition: 用於構建和共享部分簽名的比特幣交易的標準格式。
 ---
 
 Partially Signed Bitcoin Transaction" 的縮寫。它是與 BIP174 一同推出的規格，用來標準與 Bitcoin 相關軟體（如 Wallet 軟體）中未完成交易的建構方式。PSBT 封裝了輸入可能尚未完全簽章的交易。它包括參與者簽署交易的所有必要資訊，而不需要額外的資料。因此，PSBT 可以有三種不同的形式：

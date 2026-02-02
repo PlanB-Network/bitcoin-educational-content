@@ -149,7 +149,7 @@ Ushobora kuronka amakarata yawe yose y'ingabirano ukanda ku rubuga rwawe ruri he
 
 ![BITREFILL](assets/notext/28.webp)
 
-Ndabagira inama kandi yo gukuraho porogarama ya Bitrefill, iboneka ku [Iduka rya Google Play] no kuri [Iduka ry’Iporogarama] (id16000000000000000) ku musi ku musi mu maduka y’umubiri.
+Ndabagira inama kandi yo gukuraho porogarama ya Bitrefill, iboneka ku [Iduka rya Google Play] no kuri [Iduka ry’Iporogarama](id16000000000000000) ku musi ku musi mu maduka y’umubiri.
 
 
 Kandi aho urafise, ubu urazi gukoresha ama bitcoins yawe ata KYC ku maduka akomeye kubera amafaranga yawe ya misi yose. Ku bwanje, mbona ko ubu buryo ari umuti w’igihe gito gushika abacuruzi benshi bashizemwo Bitcoin mu buryo bw’akavukire ku bibanza vyabo vy’ugurisha. Ariko rero, riguma ari uburyo bwiza cane kugeza ubu.

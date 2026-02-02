@@ -1,0 +1,9 @@
+question: NWC 프로토콜에서는 애플리케이션과 노드 간에 요청을 전송하는 데 어떤 메커니즘이 사용되나요?
+answer: Nostr 릴레이의 이벤트
+wrong_answers:
+  - LND로 직접 REST 호출
+  - 지점 간 VPN 연결
+  - 암호화된 DNS 요청
+explanation: |
+  요청은 암호화된 다음 Nostr 릴레이에 이벤트로 게시되며, 노드는 이를 읽고 작업을 실행합니다.
+reviewed: false

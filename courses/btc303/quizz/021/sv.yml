@@ -1,0 +1,9 @@
+question: Vad fungerar som pseudonymer i Bitcoin:s pseudonymsystem?
+answer: Adresser som härrör från publika nycklar
+wrong_answers:
+  - "Beskrivande användarnamn som 'watchme1984'"
+  - Privata nycklar lagrade i plånböcker
+  - Transaktions-ID på blockkedjan
+explanation: |
+  Bitcoin använder adresser som härrör från offentliga nycklar som pseudonymer snarare än godtyckliga användarnamn eller andra identifierare. Detta designval tjänar flera viktiga syften: det eliminerar behovet av att registrera pseudonymer i förväg på blockkedjan, minskar incitamenten för att återanvända samma pseudonym, undviker onödig blockkedjeuppblåsning och gör det mycket svårare för illvilliga aktörer att utge sig för att vara andra. Att använda beskrivande användarnamn skulle kräva ett registreringssystem och skapa säkerhetsproblem, samtidigt som privata nycklar måste förbli hemliga och transaktions-ID:n tjänar ett annat syfte i systemet.
+reviewed: false

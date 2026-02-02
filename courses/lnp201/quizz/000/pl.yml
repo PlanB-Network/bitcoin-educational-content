@@ -6,4 +6,4 @@ wrong_answers:
   - Uproszczenie wymiany między różnymi kryptowalutami
 explanation: |
   Sieć Lightning ma na celu zwiększenie skalowalności Bitcoina poprzez umożliwienie szybkich i niedrogich transakcji za pośrednictwem kanałów płatności off-chain.
-reviewed: false
+reviewed: true

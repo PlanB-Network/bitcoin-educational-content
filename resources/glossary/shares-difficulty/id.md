@@ -1,5 +1,6 @@
 ---
-term: SHARES DIFFICULTY
+term: Kesulitan share
 
+definition: Target kesulitan yang lebih rendah yang ditetapkan oleh kolam untuk mengkualifikasikan hash sebagai share.
 ---
 Target tingkat kesulitan yang lebih tinggi daripada Bitcoin (sehingga lebih mudah), ditentukan oleh sebuah _pool_ penambangan untuk memenuhi syarat sebuah _hash_ dari sebuah keping dan menilai kontribusi setiap penambang dalam _pool_ tersebut. Untuk mengelola beban verifikasi secara efisien dan memastikan bahwa setiap penambang, terlepas dari kekuatan komputasi mereka, mengirimkan bagian secara teratur, _pool_ menyesuaikan tingkat kesulitan bagian. Tingkat kesulitan yang diberikan kepada setiap penambang menentukan jumlah _share_ yang mereka kumpulkan: sebagai contoh, jika seorang penambang memiliki tingkat kesulitan 10 dan mengirimkan 5 _proof-of-work_ yang valid pada tingkat kesulitan ini, mereka akan mendapatkan 50 _share_. Penambang yang lebih kuat dengan tingkat kesulitan 100 yang mengirimkan 7 _proof-of-work_ yang valid akan menerima 700 _share_. Sistem ini memungkinkan kuantifikasi yang tepat untuk _hashrate_ setiap penambang dan distribusi _reward_ sesuai dengan metode perhitungan kompensasi yang dipilih (PPS, PPLNS, TIDES...).

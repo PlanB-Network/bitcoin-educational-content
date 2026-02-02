@@ -1,0 +1,8 @@
+question: Apa perbedaan utama antara kesalahan yang dapat dipulihkan dan yang tidak dapat dipulihkan dalam sistem penanganan kesalahan Rust?
+answer: Kesalahan yang dapat dipulihkan dapat ditangani dengan baik sehingga memungkinkan program untuk dilanjutkan, sementara kesalahan yang tidak dapat dipulihkan akan menghentikan program
+wrong_answers:
+  - Kesalahan yang dapat dipulihkan menggunakan panic! makro sementara kesalahan yang tidak dapat dipulihkan menggunakan enum Result untuk manajemen kesalahan yang tepat
+  - Kesalahan yang dapat dipulihkan terjadi pada waktu kompilasi sementara kesalahan yang tidak dapat dipulihkan hanya terjadi selama eksekusi program
+  - Kesalahan yang dapat dipulihkan membutuhkan pelepasan tumpukan sementara kesalahan yang tidak dapat dipulihkan dapat diabaikan oleh kode pemanggilan
+explanation: |
+  Rust mengkategorikan kesalahan berdasarkan apakah program dapat pulih secara wajar. Kesalahan yang dapat dipulihkan mewakili kondisi kegagalan yang diharapkan seperti file yang hilang atau masalah jaringan yang dapat ditangani oleh program dengan baik menggunakan tipe Result, yang memungkinkan eksekusi dilanjutkan dengan penanganan kesalahan yang sesuai. Kesalahan yang tidak dapat dipulihkan menunjukkan masalah mendasar seperti pelanggaran keamanan memori atau kesalahan logika di mana program tidak dapat dilanjutkan dengan aman, memicu kepanikan yang menghentikan eksekusi untuk mencegah kerusakan lebih lanjut.

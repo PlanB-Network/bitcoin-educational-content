@@ -1,0 +1,8 @@
+question: Dans l'exemple de la mine d'étain de Hayek, comment les acteurs économiques ajustent-ils leur comportement face à l'augmentation du prix de l'étain ?
+answer: Ils économisent l'étain, cherchent des substituts ou innovent pour en utiliser moins, sans connaître la cause de l'augmentation
+wrong_answers:
+  - "Ils enquêtent d'abord sur les causes de l'augmentation avant de modifier leur comportement d'achat"
+  - "Ils attendent les directives d'une autorité centrale pour savoir comment réagir à cette variation de prix"
+  - "Ils augmentent immédiatement leur consommation d'étain pour constituer des stocks préventifs"
+explanation: |
+  Selon Hayek, le génie du système des prix réside dans le fait que les acteurs économiques n'ont pas besoin de connaître les causes d'une variation de prix pour réagir efficacement. L'augmentation du prix de l'étain constitue un signal suffisant qui incite automatiquement à économiser cette ressource, chercher des alternatives ou innover. Cette réaction spontanée se propage ensuite à travers tout le système économique sans coordination centrale, démontrant l'efficacité du mécanisme des prix comme vecteur d'information.

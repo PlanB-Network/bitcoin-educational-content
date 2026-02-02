@@ -1,9 +1,9 @@
-question: Koji pregledač nudi blokiranje oglasa i tragača, zaštitu od otiska prsta i zasnovan je na Chromiumu?
-answer: Hrabro
+question: Koji pregledač nudi blokiranje oglasa i tragača, zaštitu od digitalnog otiska (eng. fingerprinting-a) i zasnovan je na Chromiumu?
+answer: Brave
 wrong_answers:
   - Firefox
   - Tor
   - Chrome
 explanation: |
-  Brave podrazumeva blokiranje oglasa, praćenje i naprednu zaštitu od otiska prsta po defaultu, sve zasnovano na Chromiumu.
-reviewed: false
+  Brave podrazumevano blokira oglase, praćenje i nudi naprednu zaštitu od digitalnog otiska (eng. fingerprintinga) po defaultu, sve zasnovano na Chromiumu.
+reviewed: true

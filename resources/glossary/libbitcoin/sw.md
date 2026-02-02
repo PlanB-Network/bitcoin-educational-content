@@ -1,5 +1,6 @@
 ---
-term: LIBBITCOIN
+term: Libbitcoin
+definition: Seti ya maktaba za C++ za kawaida kwa ajili ya kutengeneza programu za Bitcoin.
 ---
 
 Seti ya maktaba iliyoandikwa katika C++ iliyoundwa ili kuunda programu zinazohusiana na Bitcoin. Libbitcoin inatoa misingi huru ya kuendeleza programu za simu, programu na mifumo mingine karibu na Bitcoin. Kwa hiyo Libbitcoin ina usanifu wa kawaida. Maktaba zote za mradi zinasambazwa chini ya leseni ya bure ya AGPL.

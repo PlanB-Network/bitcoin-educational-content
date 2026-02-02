@@ -32,13 +32,13 @@ Detta kan användas för att överföra:
 
 
 - **gW-0-fraser** (ColdCard Q:s seed-mästare eller de hemligheter som finns lagrade i ColdCardQ:s [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **konfidentiella anteckningar och lösenord**: detta kan vara vilken hemlighet som helst eller hela katalogen [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) på din ColdCardQ.
+- **konfidentiella anteckningar och lösenord**: detta kan vara vilken hemlighet som helst eller hela katalogen [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) på din ColdCardQ.
 - en säkerhetskopia av hela din **ColdCardQ**: den ColdCardQ som tar emot denna säkerhetskopia får inte ha en seed Master för att detta ska fungera.
 - gW-3 (**Partiellt signerade Bitcoin-transaktioner**) som en del av ett system med flera signaturer.
 
 
 
-Detta kräver att du har uppgraderat din [enhetens firmware till version v1.3.2Q] (https://coldcard.com/docs/upgrade/) eller högre.
+Detta kräver att du har uppgraderat din [enhetens firmware till version v1.3.2Q](https://coldcard.com/docs/upgrade/) eller högre.
 
 
 
@@ -324,4 +324,4 @@ Om ColdCardQ:s "Push Tx"-funktion är aktiverad är det bara att fästa ColdCard
 
 
 
-*Källa: [ColdCards officiella webbplats [ColdCards officiella webbplats] (https://coldcard.com/)*
+*Källa: [ColdCards officiella webbplats [ColdCards officiella webbplats](https://coldcard.com/)*

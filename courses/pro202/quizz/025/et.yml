@@ -1,0 +1,8 @@
+question: Milliseid konkreetseid toiminguid teeb P2PKH tehingu valideerimisel ScriptPubKey, et kontrollida kulutingimuste täitmist?
+answer: Dubleerib avaliku võtme, räsutab selle, võrdleb seda kinnitatud räsuga ja kontrollib seejärel allkirja
+wrong_answers:
+  - Hashib allkirja, võrdleb seda avaliku võtme hashiga, seejärel kontrollib seda kinnitatud väärtuse suhtes
+  - Kontrollib kõigepealt allkirja, seejärel teeb avaliku võtme hashi ja võrdleb seda kinnitatud hashiga
+  - Kombineerib allkirja ja avaliku võtme, hashib tulemuse, seejärel võrdleb seda kinnitatud hashiga
+explanation: |
+  P2PKH ScriptPubKey järgib konkreetset järjestust: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. See dubleerib esitatud avaliku võtme, rakendab SHA256, seejärel RIPEMD160 hashimist, kontrollib, kas tulemus vastab kinnitatud hashile, ja lõpuks kontrollib allkirja. Teised valikud kirjeldavad operatsioonide järjekorda valesti või soovitavad avalike võtmete asemel allkirjade hashimist, mis rikub valideerimisloogikat.

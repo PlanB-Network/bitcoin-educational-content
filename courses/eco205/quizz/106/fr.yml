@@ -1,0 +1,8 @@
+question: Dans la théorie de Menger, quelle est la principale raison pour laquelle les agents économiques les moins perspicaces finissent par adopter la même monnaie que les entrepreneurs les plus capables?
+answer: Ils imitent les comportements économiques qui démontrent leur succès par observation directe
+wrong_answers:
+  - Ils sont contraints par les autorités centrales à utiliser la monnaie officielle
+  - "Ils calculent rationnellement tous les avantages avant de prendre leur décision d'adoption"
+  - Ils reçoivent des informations complètes sur les propriétés monétaires par les institutions
+explanation: |
+  Selon Menger, l'imitation constitue le mécanisme central par lequel la monnaie se diffuse. Les agents moins perspicaces n'ont ni le temps ni les connaissances pour analyser tous les avantages d'une monnaie émergente. Ils observent plutôt le succès économique des entrepreneurs les plus capables et imitent leurs comportements. Cette imitation agit comme un raccourci cognitif efficace, permettant aux masses d'adopter les innovations monétaires sans avoir à comprendre tous les mécanismes sous-jacents.

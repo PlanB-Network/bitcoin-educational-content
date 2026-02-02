@@ -1,5 +1,6 @@
 ---
-term: SELFISH Mining
+term: Självisk brytning
+definition: Miningstrategi där block hålls hemliga för att få ett försprång gentemot andra miners.
 ---
 
 Strategi (eller attack) i Mining, där en Miner eller grupp av miners avsiktligt håller block med en giltig Proof of Work utan att omedelbart släppa dem till nätverket. Syftet är att ligga före andra miners när det gäller Proof of Work, vilket potentiellt gör det möjligt för dem att Miner flera block i rad och publicera dem alla på en gång och därmed maximera sina vinster. Med andra ord bryter den angripande gruppen av gruvarbetare inte på det sista blocket som validerats av hela nätverket, utan snarare på ett block som de själva har skapat och som skiljer sig från det som validerats av nätverket.

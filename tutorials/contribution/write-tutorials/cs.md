@@ -68,7 +68,7 @@ Ať už se rozhodnete jakkoli, mějte na paměti, že veškerý obsah zveřejně
 
 ## 2 - Kontaktujte tým sítě Plan ₿
 
-Jakmile si vyberete téma pro svůj výukový program, dalším krokem je informovat nás o svém záměru přidat tento obsah do platformy. Nejjednodušší způsob, pokud máte účet na Telegramu, je [připojit se k naší skupině] (https://t.me/PlanBNetwork_ContentBuilder).
+Jakmile si vyberete téma pro svůj výukový program, dalším krokem je informovat nás o svém záměru přidat tento obsah do platformy. Nejjednodušší způsob, pokud máte účet na Telegramu, je [připojit se k naší skupině](https://t.me/PlanBNetwork_ContentBuilder).
 
 ![TUTO](assets/fr/39.webp)
 

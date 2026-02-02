@@ -1,0 +1,8 @@
+question: Was macht die unwrap-Methode, wenn sie bei einem Ergebnistyp in Rust aufgerufen wird?
+answer: Extrahiert den Erfolgswert, gerät aber bei einem Fehler in Panik
+wrong_answers:
+  - Gibt im Fehlerfall None und im Erfolgsfall Some zurück
+  - Wandelt den Fehler in eine Warnmeldung um und setzt die Ausführung fort
+  - Gibt den Fehler automatisch an die aufrufende Funktion weiter
+explanation: |
+  Die Unwrap-Methode extrahiert den Erfolgswert aus einem Ergebnis, führt aber im Fehlerfall zu einem Programmabbruch. Das macht sie nützlich für schnelles Prototyping oder Situationen, in denen Sie sicher sind, dass eine Operation erfolgreich sein wird. Die anderen Optionen beschreiben unterschiedliche Verhaltensweisen: Die Rückgabe von None/Some beschreibt Optionstypen, die Konvertierung von Fehlern in Warnungen ist kein Standard-Rust-Muster, und die automatische Fehlerfortpflanzung ist das, was der Fragezeichenoperator (?) tut, nicht unwrap.

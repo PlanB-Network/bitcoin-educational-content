@@ -1,5 +1,6 @@
 ---
-term: STATIC Address
+term: Adres statyczny
+definition: Unikalny identyfikator Silent Payments umożliwiający odbieranie płatności bez ponownego używania adresu ani widocznego powiązania on-chain.
 ---
 
 W kontekście Silent Payments odnosi się do unikalnego identyfikatora, który umożliwia otrzymywanie płatności bez ponownego użycia Address, bez interakcji i bez widocznego powiązania On-Chain między różnymi płatnościami a statycznym Address. Technika ta eliminuje potrzebę generate nowych, nieużywanych adresów odbiorczych dla każdej transakcji, unikając w ten sposób zwykłych interakcji w Bitcoin, w których odbiorca musi dostarczyć płatnikowi nowy Address. Jest to w pewnym sensie odpowiednik kodu płatności wielokrotnego użytku w kontekście BIP47.

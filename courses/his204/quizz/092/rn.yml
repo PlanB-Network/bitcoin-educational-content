@@ -1,8 +1,9 @@
-question: None Condorcet atanditse ku ciyumviro ikihe?
+question: None ni kukihe kintu Condorcet atigeze yandikako?
 answer: Amabanki
 wrong_answers:
-  - Umwidegemvyo w'ubudandaji bw'intete
-  - Ibikogwa vyo muhira
+  - Umwidegemvyo w'ubudandaji bw'ibinyantete
+  - Ibikogwa vy'agahato
   - Ubuja
 explanation: |
-  Condorcet yanditse ku vyerekeye umwidegemvyo w’ubudandaji bw’intete, corvée n’ubuja, ariko ntiyanditse ku vyerekeye amabanki.
+  Condorcet yanditse ku vyerekeye umwidegemvyo w’ubudandaji bw’ibinyantete, Ibikorwa vy'agahato, n’ubuja, ariko ntiyanditse ku vyerekeye amabanki.
+reviewed: true

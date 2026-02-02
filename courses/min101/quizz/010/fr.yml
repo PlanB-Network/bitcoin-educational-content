@@ -1,0 +1,9 @@
+question: Quelle est la taille du nonce dans l'entête d'un bloc ?
+answer: 32 bits
+wrong_answers:
+  - 128 bits
+  - 64 bits
+  - 256 bits
+explanation: |
+  Le nonce est un champ de 32 bits dans l’entête.
+reviewed: false

@@ -6,7 +6,7 @@ description: Konfigurera och använda Hardware Wallet Model One
 
 
 
-*Bildkredit: [Trezor.io] (https://trezor.io/)*
+*Bildkredit: [Trezor.io](https://trezor.io/)*
 
 
 
@@ -77,7 +77,7 @@ Det är mycket enkelt att navigera i enheten:
 
 
 
-I den här handledningen ska jag visa dig hur du använder Trezor Model One med [Sparrow wallet Wallet management software] (https://sparrowwallet.com/download/). Om du ännu inte har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
+I den här handledningen ska jag visa dig hur du använder Trezor Model One med [Sparrow wallet Wallet management software](https://sparrowwallet.com/download/). Om du ännu inte har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
 
 
 
@@ -87,7 +87,7 @@ Du behöver också programvaran Trezor Suite för att konfigurera Model One, kon
 
 
 
-[Ladda ner Trezor Suite från den officiella webbplatsen] (https://trezor.io/trezor-suite)
+[Ladda ner Trezor Suite från den officiella webbplatsen](https://trezor.io/trezor-suite)
 
 
 
@@ -307,7 +307,7 @@ Vi kommer inte att behöva Trezor Suite-programvaran längre, förutom för att 
 
 
 
-Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
+Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen](https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
 
 
 
@@ -501,7 +501,7 @@ Välj det belopp som ska skickas till denna Address.
 
 
 
-Justera avgiftssatsen för din transaktion enligt den aktuella marknaden. Du kan t.ex. använda [Mempool.space] (https://Mempool.space/) för att välja en lämplig avgiftssats.
+Justera avgiftssatsen för din transaktion enligt den aktuella marknaden. Du kan t.ex. använda [Mempool.space](https://Mempool.space/) för att välja en lämplig avgiftssats.
 
 
 

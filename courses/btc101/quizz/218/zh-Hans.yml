@@ -1,7 +1,9 @@
-question: 闪电网络是何时被验证和实施的？
-answer: 2017
+question: 为什么 Lightning 通道在一个方向上可能无法使用？
+answer: 流动性不足
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: 闪电网络在2017年被验证和实施。
+  - 区块过新
+  - HTLC 已过期
+  - 节点未同步
+explanation: |
+  即使容量很大，只有在正确一侧拥有足够流动性时，通道才能进行支付。
+reviewed: false

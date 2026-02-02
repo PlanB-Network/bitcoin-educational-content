@@ -1,0 +1,8 @@
+question: Hva er den primære sikkerhetsmekanismen som sikrer at Greenlight-infrastrukturen ikke får tilgang til brukernes midler til tross for at Lightning-nodene befinner seg i skyen?
+answer: Private nøkler forlater aldri brukerens enhet, og alle operasjoner krever aktiv applikasjonssignering
+wrong_answers:
+  - Lommebøker med flere signaturer og distribuerte nøkkelskårer på tvers av flere skyleverandører
+  - Sikkerhetsmoduler for maskinvare som krypterer alle transaksjoner før behandling i skyen
+  - Tidslåste smartkontrakter som automatisk returnerer midler ved uautorisert tilgang
+explanation: |
+  Breez SDK opprettholder sikkerheten gjennom en tillitsløs arkitektur der private nøkler forblir utelukkende på brukernes enheter. Selv om Greenlight er vert for Lightning-nodeinfrastrukturen, kan den ikke utføre noen operasjoner uten en aktivt tilkoblet applikasjon som kan signere transaksjoner og meldinger. Dette designet sikrer at selv om noden kjører i skyen, har Greenlight aldri tilgang til brukernes nøkler og kan ikke flytte penger uten eksplisitt brukergodkjenning gjennom deres lokale applikasjon. De andre alternativene beskriver ulike sikkerhetsmekanismer som ikke brukes i denne arkitekturen.

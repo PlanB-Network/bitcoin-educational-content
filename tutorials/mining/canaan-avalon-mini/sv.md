@@ -122,16 +122,17 @@ Nedan följer en sammanfattande tabell över Mini 3:s allmänna tekniska specifi
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Egenskap                                      | Värde                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Energiförbrukning                              | 800 W                                                     |
+| Buller                                                | 35-55 dB                                                  |
+| Utgångsluftstemperatur                       | 60-70°C (vid omgivningstemperatur 25°C)                  |
+| Krav på omgivningstemperatur för användning | -5° C - 40°C                                              |
+| Enhetens ingångsspänningsintervall                         | 110V-240V AC 50/60Hz                                      |
+| Maskinens storlek                                 | Längd: 760 mm / Djup: 104 mm / Höjd: 214.5 mm |
+| Maskinens vikt                                  |  8.35 kg                                                  |
 
 ## Anslutning till en Mining pool
 

@@ -1,13 +1,13 @@
 ---
-name: Lipa for Business
-description: Bitcoin na ufumbuzi wa malipo ya umeme kwa wafanyabiashara
+name: lipa-business
+description: Bitcoin na ufumbuzi wa malipo ya Lightning kwa wafanyabiashara
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-Wauzaji sasa wanapenda zaidi kukubali malipo ya Bitcoin kupitia Lightning Network. Tofauti na malipo ya kawaida ya kadi ya mkopo, ambayo yanahusisha ada kubwa na muda mrefu wa malipo, miamala ya umeme ni ya papo hapo, hailetwi na malipo, na huhifadhi usiri wa mteja.
+Wauzaji sasa wanapenda zaidi kukubali malipo ya Bitcoin kupitia Lightning Network. Tofauti na malipo ya kawaida ya kadi ya mkopo, ambayo yanahusisha ada kubwa na muda mrefu wa malipo, miamala ya Lightning ni ya papo hapo, hailetwi na malipo, na huhifadhi usiri wa mteja.
 
 
 
@@ -15,7 +15,7 @@ Ili biashara itumie Bitcoin kwa urahisi, ni lazima suluhu la malipo lisalie rahi
 
 
 
-**Lipa kwa Biashara** ndilo jibu kamili kwa mahitaji haya. Ni suluhisho la Uswizi lililotengenezwa na Huduma ya Malipo ya Umeme AG, iliyoundwa ili kuwawezesha wafanyabiashara kukubali malipo ya Bitcoin ya Umeme kwa urahisi na kwa ufanisi, huku wakibaki bila kizuizi.
+**Lipa kwa Biashara** ndilo jibu kamili kwa mahitaji haya. Ni suluhisho la Uswizi lililotengenezwa na Huduma ya Malipo ya Lightning AG, iliyoundwa ili kuwawezesha wafanyabiashara kukubali malipo ya Bitcoin ya Lightning kwa urahisi na kwa ufanisi, huku wakibaki bila kizuizi.
 
 
 
@@ -27,7 +27,7 @@ Ili biashara itumie Bitcoin kwa urahisi, ni lazima suluhu la malipo lisalie rahi
 
 
 
-Lipa for Business ni programu ya rununu inayofanya kazi kama rejista ya pesa ya Bitcoin na Umeme. Inatoa Interface iliyorahisishwa ya kukusanya malipo katika Sats na kujumuisha vipengele vya kitaaluma: ufikiaji wa mfanyakazi, mauzo ya hesabu, dashibodi ya wavuti, yote bila kumiliki pesa zako.
+Lipa for Business ni programu ya rununu inayofanya kazi kama rejista ya pesa ya Bitcoin na Lightning. Inatoa Interface iliyorahisishwa ya kukusanya malipo katika Sats na kujumuisha vipengele vya kitaaluma: ufikiaji wa mfanyakazi, mauzo ya hesabu, dashibodi ya wavuti, yote bila kumiliki pesa zako.
 
 
 
@@ -35,11 +35,11 @@ Lipa for Business ni programu ya rununu inayofanya kazi kama rejista ya pesa ya 
 
 
 
-**Malipo ya Umeme wa Papo Hapo**: Ankara za Bitcoin za Umeme huzalishwa baada ya sekunde chache, na kuhakikisha miamala ya papo hapo bila wapatanishi wa benki. Ada ni ya chini na ni wazi ikilinganishwa na masuluhisho ya jadi.
+**Malipo ya Lightning wa Papo Hapo**: Ankara za Bitcoin za Lightning huzalishwa baada ya sekunde chache, na kuhakikisha miamala ya papo hapo bila wapatanishi wa benki. Ada ni ya chini na ni wazi ikilinganishwa na masuluhisho ya jadi.
 
 
 
-**Interface POS angavu**: Programu hutoa POS ya wazi ya Interface, iliyoundwa kwa matumizi rahisi ya dukani. Weka kiasi katika sarafu ya nchi yako, na programu itaonyesha mara moja kiasi hicho katika BTC na msimbo wa malipo wa QR. Sambamba na pochi zote za Umeme kwenye soko.
+**Interface POS angavu**: Programu hutoa POS ya wazi ya Interface, iliyoundwa kwa matumizi rahisi ya dukani. Weka kiasi katika sarafu ya nchi yako, na programu itaonyesha mara moja kiasi hicho katika BTC na msimbo wa malipo wa QR. Sambamba na pochi zote za Lightning kwenye soko.
 
 
 
@@ -51,7 +51,7 @@ Lipa for Business ni programu ya rununu inayofanya kazi kama rejista ya pesa ya 
 
 
 
-**Dashibodi ya Wavuti**: Paneli ya usimamizi ya Interface inayoweza kufikiwa kupitia dashboard.lipa.swiss, huku kuruhusu kutazama miamala yote, kuchuja kulingana na kipindi au mfanyakazi, na kuhamisha data ya uhasibu katika umbizo la CSV. Dashibodi pia inaweza kutumika kwa ankara za wavuti za generate zilizo na misimbo ya QR moja kwa moja kutoka kwa Interface.
+**Dashibodi ya Wavuti**: Paneli ya usimamizi ya interface inayoweza kufikiwa kupitia dashboard.lipa.swiss, huku ikiruhusu kutazama miamala yote, kuchuja kulingana na kipindi au mfanyakazi, na kuhamisha data ya uhasibu katika umbizo la CSV. Dashibodi pia inaweza kutumika kwa kuzalisha ankara za wavuti zilizo na misimbo ya QR moja kwa moja kutoka kwenye interface.
 
 
 
@@ -88,11 +88,11 @@ Baada ya kutuma fomu, Lipa hutengeneza nafasi yako ya muuzaji. Ukaguzi mfupi wa 
 
 
 
-**Programu ya rununu**: Inapatikana kwa simu mahiri za Android/iOS na kompyuta kibao. Interface imeundwa ili itumike inapouzwa, ikiwa na Elements ambayo ni rahisi kusoma na mwingiliano mdogo kwa kile kinachohitajika. Kitufe cha "Pesa pesa" hutoa ufikiaji wa skrini ya kuingiza kiasi.
+**Programu ya rununu**: Inapatikana kwa simu janja za Android/iOS na kompyuta kibao. Interface imeundwa ili itumike wakati wa mauzo, ikiwa na Elements ambazo ni rahisi kusoma na mwingiliano mdogo kwa kile kinachohitajika. Kitufe cha "Cash Button" hutoa ufikiaji wa skrini ya kuingiza kiasi.
 
 
 
-**Mahitaji ya kiufundi**: Muunganisho thabiti wa Mtandao unahitajika (kima cha chini cha 3G) ili kuchakata malipo ya umeme kwa wakati halisi.
+**Mahitaji ya kiufundi**: Muunganisho thabiti wa Mtandao unahitajika (kima cha chini cha 3G) ili kuchakata malipo ya Lightning kwa wakati halisi.
 
 
 
@@ -112,7 +112,7 @@ Dashibodi pia inaweza kutumika kwa ankara za wavuti za generate zilizo na misimb
 
 
 
-**Nyenzo nyingi**: Usaidizi asilia kwa vituo vingi ndani ya kampuni. Ongeza vifaa vipya kwa kuunda wafanyakazi kupitia mwaliko wa msimbo wa QR. Kila terminal imeunganishwa na mfanyabiashara sawa Wallet, huku ikidumisha ufuatiliaji wa mtunza fedha.
+**Nyenzo nyingi**: Usaidizi wa asili kwa vituo vingi ndani ya kampuni. Ongeza vifaa vipya kwa kuunda wafanyakazi kupitia mwaliko wa msimbo wa QR. Kila terminal imeunganishwa na mfanyabiashara sawa na Wallet, huku ikidumisha ufuatiliaji wa mtunza fedha.
 
 
 
@@ -130,10 +130,10 @@ Mchakato wa kukusanya ni sawa na ule wa muamala wa kawaida:
 
 
 
-- Weka kiasi**: Kwenye skrini ya malipo, weka kiasi katika sarafu ya ndani (CHF au EUR). Mfano: kwa kahawa katika 4.50 CHF, ingiza 4.50
-- Kizazi cha Invoice** : Programu hubadilisha kiasi hicho kuwa satoshi kwa kiwango cha sasa, na kuzalisha umeme wa Invoice katika mfumo wa msimbo wa QR.
-- Malipo ya mteja** : Mteja huchanganua msimbo wa QR kwa kutumia umeme wake wa Wallet na kuthibitisha malipo
-- Uthibitishaji** : Malipo yanathibitishwa ndani ya sekunde chache, na maonyesho ya kuonekana ya mafanikio
+- **Weka kiasi**: Kwenye skrini ya malipo, weka kiasi katika sarafu ya ndani (CHF au EUR). Mfano: kwa kahawa katika 4.50 CHF, ingiza 4.50
+- **Kizazi cha Invoice** : Programu hubadilisha kiasi hicho kuwa satoshi kwa kiwango cha sasa, na kuzalisha Lightning wa Invoice katika mfumo wa msimbo wa QR.
+- **Malipo ya mteja** : Mteja huchanganua msimbo wa QR kwa kutumia Lightning wake wa Wallet na kuthibitisha malipo
+- **Uthibitishaji** : Malipo yanathibitishwa ndani ya sekunde chache, na maonyesho ya kuonekana ya mafanikio
 
 
 
@@ -165,7 +165,7 @@ Mchakato wa kukusanya ni sawa na ule wa muamala wa kawaida:
 
 
 
-**Mipangilio**: Chaguo kati ya kupokea katika Bitcoin (bila malipo) au ubadilishaji wa fiat kupitia mshirika wa kifedha. Ukibadilisha hadi CHF, weka IBAN kwa uhamisho.
+**Mipangilio**: Chaguo kati ya kupokea katika Bitcoin (bila malipo) au exchange ya fiat kupitia mshirika wa kifedha. Ukibadilisha hadi CHF, weka IBAN kwa uhamisho.
 
 
 
@@ -173,11 +173,11 @@ Mchakato wa kukusanya ni sawa na ule wa muamala wa kawaida:
 
 
 
-**Jinsi inavyofanya kazi** : Kiasi kilichopokelewa huuzwa mara moja kwa bei ya soko na kuhamishiwa kwenye akaunti yako ya benki. Hamisha kulingana na makataa ya kawaida ya benki yako.
+**Jinsi inavyofanya kazi** : Kiasi kilichopokelewa kinauzwa mara moja kwa bei ya soko na kuhamishiwa kwenye akaunti yako ya benki. Uhamisho hufuata makataa ya kawaida ya benki yako.
 
 
 
-**Kubadilika**: Chaguo linaweza kutenduliwa wakati wowote katika vigezo. Inakuruhusu kufanya majaribio katika hali ya "kubadilisha fiat", kisha ubadili hadi 100% BTC mara tu unapostarehe.
+**Kubadilika**: Chaguo linaweza kutenduliwa wakati wowote katika vigezo. Inakuruhusu kufanya majaribio katika hali ya "exchange fiat", kisha ubadili hadi 100% BTC mara tu unapostarehe.
 
 
 
@@ -193,7 +193,7 @@ Mchakato wa kukusanya ni sawa na ule wa muamala wa kawaida:
 
 
 
-**Usiri wa mteja**: malipo ya umeme yasiyojulikana bila data ya kibinafsi iliyoambatishwa. Linganisha na malipo ya kadi ambayo hupitia mitandao ya kati.
+**Usiri wa mteja**: malipo ya Lightning yasiyojulikana bila data ya kibinafsi iliyoambatishwa. Linganisha na malipo ya kadi ambayo hupitia mitandao ya kati.
 
 
 
@@ -207,11 +207,11 @@ Mchakato wa kukusanya ni sawa na ule wa muamala wa kawaida:
 
 
 
-- Upishi**: Baa, mikahawa, mikahawa ya kukubali nyongeza katika Bitcoin na usimamizi wa vidokezo
-- Rejareja**: Maduka ya vyakula, mikate kwa ajili ya kupanua mbinu za malipo bila malipo mahususi
-- Wachuuzi wa kuhamahama**: malori ya chakula, soko, sherehe kwa kutumia simu mahiri pekee
-- Matukio** : Viwanja vya muda vilivyo na suluhu zilizo tayari kutumika
-- Huduma**: Washauri, mafundi kwa bili ya mara moja katika Bitcoin
+- **Upishi**: Baa, mikahawa, mikahawa ya kukubali nyongeza katika Bitcoin na usimamizi wa vidokezo
+-**Rejareja**: Maduka ya vyakula, mikate kwa ajili ya kupanua mbinu za malipo bila malipo mahususi
+- **Wachuuzi wa kuhamahama**: malori ya chakula, soko, sherehe kwa kutumia simu mahiri pekee
+- **Matukio** : Viwanja vya muda vilivyo na suluhu zilizo tayari kutumika
+- **Huduma**: Washauri, mafundi kwa bili ya mara moja katika Bitcoin
 
 
 
@@ -241,9 +241,9 @@ Mchakato wa kukusanya ni sawa na ule wa muamala wa kawaida:
 
 
 
-- Msaada wa umeme pekee (hakuna Bitcoin On-Chain)
+- Msaada wa Lightning pekee (hakuna Bitcoin On-Chain)
 - Ubadilishaji wa Fiat kwa sasa umezuiliwa kwa Uswizi
-- Inahitaji wateja kuwa na Umeme unaolingana wa Wallet
+- Inahitaji wateja kuwa na Lightning unaolingana wa Wallet
 - Misimbo tuli ya QR haipatikani kwa sasa
 - Muunganisho wa mtandao unahitajika kwa shughuli zote
 

@@ -1,5 +1,6 @@
 ---
-term: LẠM PHÁT
+term: Lạm phát
+definition: Sự gia tăng cung tiền dẫn đến việc giảm giá trị của mỗi đơn vị tiền tệ.
 ---
 
 Chỉ sự gia tăng của tiền Supply trong lưu thông, dẫn đến sự giảm giá trị của mỗi đơn vị tiền tệ và sự gia tăng giá cả hàng hóa và dịch vụ. Đối với các loại tiền tệ do nhà nước sở hữu, hiện tượng này xảy ra khi các ngân hàng trung ương phát hành các đơn vị tiền tệ mới.

@@ -1,0 +1,8 @@
+question: Šta se dešava sa privatnošću uslova potrošnje P2SH transakcije tokom vremena?
+answer: Uslovi trošenja ostaju skriveni do prve potrošnje, a zatim postaju trajno vidljivi on-chain
+wrong_answers:
+  - Uslovi trošenja ostaju trajno privatni čak i nakon što se obavi više transakcija.
+  - Uslovi trošenja su odmah vidljivi kada je P2SH adresa prvi put kreirana.
+  - Uslovi trošenja postaju vidljivi privremeno tokom trošenja, ali se ponovo skrivaju nakon toga.
+explanation: |
+  P2SH pruža privatnost skrivajući stvarne uslove potrošnje (redeem script) iza heša u scriptPubKey. Samo je 20-bajtni heš vidljiv u početku, skrivajući da li je u pitanju multisig, timelock ili neki drugi složeni uslovi. Međutim, kada se P2SH izlaz prvi put potroši, puni redeem script mora biti otkriven on-chain radi validacije, čineći uslove potrošnje trajno vidljivim svim učesnicima mreže. Ovo jednokratno otkrivanje je kompromis koji P2SH pravi između privatnosti i funkcionalnosti.

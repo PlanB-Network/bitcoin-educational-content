@@ -1,5 +1,0 @@
----
-term: PHOENIX
----
-
-Lightning protokolünde işlemleri basitleştirmek ve daha erişilebilir hale getirmek için tasarlanmış, kendi kendine emanet edilebilen bir mobil Wallet yazılımı. Kullanıcıların ayrı bir Lightning düğümüne bağlanmalarına gerek kalmadan fonlarını doğrudan mobil cihazlarından yönetmelerine olanak tanır. Phoenix aslında telefonda tam teşekküllü bağımsız bir Lightning düğümü olarak çalışır (lightning uygulaması). Bitcoin ve Lightning işlemlerini destekler ve Acinq düğümü ile otomatik kanal yönetimi gibi düğüm yönetimini kolaylaştıran özellikler sunar. Çoğunlukla gözetim altında olan diğer Lightning Wallet uygulamalarının aksine Phoenix, bir Lightning düğümünün kullanımını bir akıllı telefon uygulamasının rahatlığıyla birleştirerek ilginç bir uzlaşma sunar. Bitcoinlerinin tam Ownership'ını korurken (kendi kendine saklama) Lightning'i kullanmak isteyen yeni başlayanlar için en iyi basit çözümlerden biridir. Phoenix, Fransız Acinq şirketi tarafından geliştirilen ve sürdürülen bir projedir.

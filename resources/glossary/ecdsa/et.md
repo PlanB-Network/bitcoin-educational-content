@@ -1,6 +1,7 @@
 ---
 term: ECDSA
 
+definition: Elliptilise kõvera digitaalallkirja algoritm, mida kasutatakse Bitcoini tehingute allkirjastamiseks.
 ---
 Lühend "Elliptic Curve Digital Signature Algorithm" See on digitaalallkirja algoritm, mis põhineb elliptilise kõveraga krüptograafial (ECC). See on DSA (digitaalallkirja algoritm) variant. ECDSA kasutab elliptiliste kõverate omadusi, et tagada traditsiooniliste avalike võtmealgoritmidega (nt RSA) võrreldav turvalisuse tase, kasutades samas oluliselt väiksemaid võtmesuurusi. ECDSA võimaldab luua võtmepaare (avalikud ja privaatsed võtmed) ning luua ja kontrollida digitaalallkirju.
 

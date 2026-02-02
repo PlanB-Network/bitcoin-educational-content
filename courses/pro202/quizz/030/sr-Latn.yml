@@ -1,0 +1,8 @@
+question: Koja je primarna svrha procesa konstrukcije sighash-a u validaciji Bitcoin transakcije?
+answer: Da biste kreirali tačnu poruku koja je prvobitno potpisana privatnim ključem za verifikaciju potpisa
+wrong_answers:
+  - Za generate jedinstveni identifikator za transakciju koji sprečava double-spending napade
+  - Da se kompresuju podaci o transakcijama u manji format za efikasniji prenos preko mreže
+  - Da šifrujete sadržaj transakcije tako da samo primalac može dešifrovati i potrošiti novčiće
+explanation: |
+  Konstrukcija sighash kreira preciznu poruku koja je potpisana privatnim ključem, omogućavajući OP_CHECKSIG da verifikuje autentičnost potpisa. Ovaj proces uključuje pražnjenje ScriptSigs, zamenu trenutnog ulaza ScriptSig sa odgovarajućim ScriptPubKey, i dodavanje tipa heša pre dvostrukog heširanja. Ostale opcije su netačne: ID-ovi transakcija služe kao identifikatori, kompresija se obrađuje odvojeno, a Bitcoin transakcije nisu šifrovane već su javno vidljive na blockchain-u.

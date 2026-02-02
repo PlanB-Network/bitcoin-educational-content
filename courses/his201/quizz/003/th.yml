@@ -1,0 +1,9 @@
+question: ชื่อบริษัทของ David Chaum ที่เขาใช้ในการนำแนวคิดสกุลเงินดิจิทัลไปใช้คืออะไร?
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - First Virtual Holdings Inc.
+explanation: |
+  ก่อตั้งขึ้นในปี 1990 DigiCash B.V. มีฐานอยู่ในอัมสเตอร์ดัม ประเทศเนเธอร์แลนด์ และถือสิทธิบัตรสำหรับสิ่งประดิษฐ์ของ David Chaum, eCash.
+reviewed: true

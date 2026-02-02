@@ -6,4 +6,4 @@ wrong_answers:
   - Hati ya usakinishaji otomatiki ya mfumo wa uendeshaji wa Linux
 explanation: |
   Usambazaji wa Linux huunganisha kernel, zana za mfumo, programu, bootloader na usimamizi wa kifurushi ili kutoa mfumo tayari kutumia.
-reviewed: false
+reviewed: true

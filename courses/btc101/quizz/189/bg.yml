@@ -1,0 +1,8 @@
+question: Какво е swiss bitcoin pay?
+answer: Решение за приемане на Bitcoin от аматьори търговци.
+wrong_answers:
+  - Швейцарска банка, която приема Bitcoin.
+  - Обмен на Bitcoin от Швейцария.
+  - Компания, която работи в Швейцария.
+explanation: >-
+reviewed: true

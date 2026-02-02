@@ -1,0 +1,9 @@
+question: Enligt Gregory Maxwells analys, vad är det som skapar den grundläggande avvägningen som tvingar användarna att välja betrodda tjänster i diskussioner om Bitcoin-skalning?
+answer: Både överdrivet hög resursanvändning som prisar ut validerare och överdrivet dyr tillgång till blockutrymme för tvistlösning
+wrong_answers:
+  - Konflikten mellan att öka transaktionsgenomströmningen och upprätthålla tillräcklig mining-lönsamhet över olika poolstorlekar
+  - Spänningen mellan att implementera segregerade vittnesuppgraderingar och att bevara bakåtkompatibilitet med äldre wallet-programvara
+  - Konkurrensen mellan lager-två-lösningar och on-chain-skalningsmetoder om begränsade utvecklingsresurser och samhällsstöd
+explanation: |
+  Maxwell identifierade ett dubbelsidigt problem där Bitcoin förlorar sina fördelar i båda riktningarna: om resursanvändningen är för hög i förhållande till tillgänglig teknik blir validering för kostsam och prissätter ut användare som då måste förlita sig på betrodda tredje parter istället för att validera självständigt. Omvänt, om kapaciteten är för låg och transaktionsmetoderna är ineffektiva, blir det oöverkomligt dyrt att få tillgång till blockkedjan för tvistlösning, vilket återigen driver användarna mot betrodda tjänster. Detta skapar en känslig balans som skalningslösningar måste navigera.
+reviewed: false

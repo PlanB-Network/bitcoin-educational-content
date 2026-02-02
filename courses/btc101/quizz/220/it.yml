@@ -1,11 +1,9 @@
-question: Cosa potrebbe accadere ai servizi tradizionali di trasferimento di denaro come Western Union, alle banche centrali, a Visa e a Mastercard se non adottassero Lightning Network?
-answer: Potrebbero scomparire.
+question: Quale meccanismo collega una sidechain a Bitcoin?
+answer: Ancoraggio bidirezionale
 wrong_answers:
-  - Potrebbero diventare più popolari.
-  - Potrebbero diventare più sicuri.
-  - Potrebbero diventare più decentralizzati.
+  - Canale di pagamento
+  - Proof of Stake
+  - Sharding
 explanation: |
-  I servizi tradizionali di trasferimento di denaro come Western Union,
-  le banche centrali, Visa e Mastercard potrebbero scomparire se non
-  adottassero la tecnologia Lightning Network.
-reviewed: true
+  Il meccanismo di two-way peg consente di bloccare i BTC su Bitcoin e rappresentarli sulla sidechain.
+reviewed: false

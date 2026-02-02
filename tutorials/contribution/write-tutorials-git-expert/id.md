@@ -99,7 +99,7 @@ git push -u origin tuto-green-wallet-loic
 
 ### 3 - Tambahkan dokumen tutorial
 
-***Catatan:*** Anda dapat mengotomatiskan langkah 3 dan 4 dengan menggunakan [skrip GUI Python saya] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Jalankan langsung dari foldernya di klon lokal Anda, lalu isi kolom yang diperlukan pada GUI. Untuk informasi lebih lanjut tentang cara menginstal dan menggunakannya, lihat [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Catatan:*** Anda dapat mengotomatiskan langkah 3 dan 4 dengan menggunakan [skrip GUI Python saya](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Jalankan langsung dari foldernya di klon lokal Anda, lalu isi kolom yang diperlukan pada GUI. Untuk informasi lebih lanjut tentang cara menginstal dan menggunakannya, lihat [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 Jika Anda lebih suka melakukannya secara manual, ikuti langkah-langkah berikut ini:
 
@@ -293,13 +293,13 @@ print("Hello, Bitcoin!")
 
 
 - **Ilustrasi dan diagram**:
-    - Semua gambar harus dalam format WebP. Gunakan alat gratis ini untuk mengonversinya jika diperlukan: [ImagesConverter] (https://github.com/LoicPandul/ImagesConverter).
+    - Semua gambar harus dalam format WebP. Gunakan alat gratis ini untuk mengonversinya jika diperlukan: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Beri nama visual dengan 2 atau 3 digit (misalnya `001.webp`, `002.webp`).
     - Untuk tutorial dompet seluler atau perangkat keras, gunakan mock-up.
     - Gunakan hanya visual yang dibuat sendiri atau bebas royalti.
     - Pastikan mereka relevan dan berkualitas tinggi.
 - **Piagam grafis**:
-    - Font: [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans).
+    - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Rencana Warna ₿ Jaringan:
         - Oranye: `#FF5C00`
         - Hitam: `#000000`

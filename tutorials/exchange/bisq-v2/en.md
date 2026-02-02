@@ -23,7 +23,7 @@ Bisq 2 is the new version of the popular decentralized Bisq exchange, launched i
 - Support for multiple wallet types
 - Role system with compulsory deposit in BSQ
 
-This guide focuses exclusively on "Bisq Easy", the only protocol currently available. Bisq Easy has been designed specifically for new Bitcoin users. This protocol enables users to buy and sell Bitcoins against fiat currencies on a decentralized peer-to-peer platform. Transactions are limited to the equivalent of 600 USD (with a minimum of 6 USD), and exchange security relies on the reputation of BTC sellers. Bisq Easy has no trading fees or security deposit requirements. Bisq Easy is expected to replace Bisq 1 for cash exchanges below 600 USD (or equivalent).
+This guide focuses exclusively on "Bisq Easy", the only protocol currently available. Bisq Easy was specifically designed for new Bitcoin users. This protocol allows users to buy and sell bitcoins for fiat currencies on a decentralized peer-to-peer platform. Transactions are limited to the equivalent of 600 USD (with a minimum of 6 USD), and trade security relies on the reputation of BTC sellers. Bisq Easy has no trading fees or security deposit requirements. It is expected that Bisq Easy will replace Bisq 1 for fiat trades below 600 USD (or equivalent).
 
 **Main features:**
 
@@ -62,7 +62,7 @@ This guide focuses exclusively on "Bisq Easy", the only protocol currently avail
 - The creator of the offer defines the terms of the exchange
 - Once the traders have agreed on the terms (payment method and price), the exchange begins
 - The seller sends his bank details to the buyer, and the buyer sends his Bitcoin address to the seller
-- Buyer makes payment in cash and notifies seller
+- The buyer makes the payment in fiat currency and notifies the seller
 - Once payment has been received, the seller sends the bitcoins to the buyer's address
 - The exchange is complete when the buyer receives the bitcoins
 

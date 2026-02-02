@@ -34,7 +34,7 @@ Kama vile [Mempool Space](https://Mempool.space), ambayo hutoa maelezo muhimu ku
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Katika somo hili, tutakuchukua kwenye ziara ya jukwaa hili, ambalo ni nyenzo muhimu kwa watumiaji wa Lightning Network, wale wanaotaka kuunganisha nodi zao ili kupanua mtandao, n.k.
 
@@ -304,4 +304,4 @@ Sasa umetembelea kikamilifu vipengele na zana za uchambuzi wa jukwaa. Tafadhali 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

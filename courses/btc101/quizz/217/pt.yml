@@ -1,10 +1,9 @@
-question: O que a Lightning Network permite?
-answer: Transações instantâneas e de baixo custo em Bitcoin.
+question: Qual é o principal objetivo da Lightning Network?
+answer: Permitir pagamentos offchain, rápidos e de baixo custo
 wrong_answers:
-  - Transações instantâneas e de alto custo em Bitcoin.
-  - Transações atrasadas e de baixo custo em Bitcoin.
-  - Transações atrasadas e de alto custo em Bitcoin.
-explanation: >-
-  A Lightning Network permite transações instantâneas e de baixo custo em Bitcoin,
-  resolvendo assim o problema de escalabilidade do Bitcoin.
-reviewed: true
+  - Aumentar o tamanho dos blocos da blockchain do Bitcoin
+  - Substituir progressivamente a blockchain do Bitcoin por um sistema mais eficiente
+  - Tornar as fazendas de mineração muito ricas
+explanation: |
+  A Lightning Network visa permitir pagamentos em bitcoin quase instantâneos, com taxas reduzidas, sem sobrecarregar a blockchain principal.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
-term: SIGHASH FLAG
+term: Sighash flag
 
+definition: Parametr určující, které složky transakce jsou pokryty podpisem.
 ---
 Parametr v transakci Bitcoin, který určuje, na které součásti transakce (vstupy a výstupy) se vztahuje příslušný podpis, čímž se transakce stává neměnnou. Příznak SigHash je bajt přidaný k digitálnímu podpisu každého vstupu. Volba příznaku SigHash Flag tedy přímo ovlivňuje, které části transakce jsou zmrazeny podpisem a které lze ještě dodatečně upravovat. Tento mechanismus zajišťuje, že podpisy přesně a bezpečně zavazují data transakce v souladu se záměrem podepisujícího. Existují tři hlavní příznaky SigHash:
 

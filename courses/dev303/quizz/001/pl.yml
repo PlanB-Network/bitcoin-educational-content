@@ -1,0 +1,8 @@
+question: Jaki jest główny cel Rustup w ekosystemie deweloperskim Rust?
+answer: Kompleksowy system zarządzania łańcuchem narzędzi do instalacji i zarządzania Rust
+wrong_answers:
+  - Menedżer pakietów do obsługi zależności w projektach Rust
+  - Zaawansowany linter, który analizuje kod i dostarcza sugestie ulepszeń
+  - System kompilacji, który kompiluje programy Rust i zarządza strukturą projektu
+explanation: |
+  Rustup został specjalnie zaprojektowany jako system zarządzania łańcuchem narzędzi, który obsługuje instalację, aktualizację i zarządzanie samym Rust w różnych projektach i na różnych platformach. Podczas gdy Cargo służy jako menedżer pakietów i system kompilacji dla projektów Rust, a Clippy działa jako linter do analizy kodu, Rustup działa na wyższym poziomie, zarządzając całym środowiskiem programistycznym Rust. Pozwala programistom instalować różne wersje Rust, zarządzać celami kompilacji dla różnych platform i łatwo aktualizować do nowych wydań Rust za pomocą prostych poleceń, takich jak "rustup update".

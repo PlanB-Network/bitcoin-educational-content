@@ -1,0 +1,8 @@
+question: Ưu điểm kiến trúc chính nào cho phép Breez SDK loại bỏ rào cản truyền thống của Lightning Network về việc mở kênh thủ công cho người dùng mới?
+answer: Chức năng Nhà cung cấp dịch vụ Lightning (LSP) tích hợp tự động cung cấp thanh khoản đầu vào khi cài đặt wallet.
+wrong_answers:
+  - Các dịch vụ chuyển đổi tín hiệu ngầm tích hợp sẵn cho phép chuyển đổi kênh on-chain và Bitcoin sang kênh Lightning mà không cần sự can thiệp của người dùng.
+  - Các nhóm kênh được cấp vốn trước do Greenlight quản lý, được phân bổ động cho người dùng dựa trên nhu cầu.
+  - Cơ chế tự động phát hiện các nút ngang hàng kết nối các ví mới với các nút có tính thanh khoản cao để tạo kênh tức thời.
+explanation: |
+  Chức năng LSP tích hợp trong SDK Breez được thiết kế đặc biệt để loại bỏ rào cản mở kênh thủ công bằng cách tự động cung cấp thanh khoản đầu vào khi người dùng cài đặt wallet. Điều này cho phép nhận thanh toán ngay lập tức mà không cần thiết lập kỹ thuật. Giao dịch hoán đổi ngầm xử lý chuyển đổi lớp nhưng không giải quyết việc cung cấp kênh ban đầu. Các nhóm được cấp vốn trước và khám phá ngang hàng không phải là cơ chế mà Breez sử dụng - thay vào đó, tích hợp LSP trực tiếp cung cấp dung lượng đầu vào cần thiết để người dùng mới có thể nhận thanh toán ngay lập tức.

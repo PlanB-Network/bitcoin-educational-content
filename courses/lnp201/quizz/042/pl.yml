@@ -6,4 +6,4 @@ wrong_answers:
   - Liczba płatności dokonanych przez węzeł docelowy
 explanation: |
   Całkowita przepustowość kanałów może wskazywać na większe prawdopodobieństwo sukcesu, ponieważ sugeruje większą dostępność płynności dla transakcji.
-reviewed: false
+reviewed: true

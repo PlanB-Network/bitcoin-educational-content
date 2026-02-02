@@ -1,0 +1,8 @@
+question: Rust'ın normalde ödünç alma kurallarını uygulama şekli ile RefCell'in bunları uygulama şekli arasındaki temel fark nedir?
+answer: Rust normalde ödünç alma kurallarını derleme zamanında uygularken, RefCell bunları çalışma zamanında uygular
+wrong_answers:
+  - Rust normalde birden fazla değiştirilebilir referansa izin verirken, RefCell bunları bir ile sınırlar
+  - Rust normalde güvenlik için referans sayımı kullanırken, RefCell statik analiz kullanır
+  - Rust normalde açık bellek yönetimi gerektirirken, RefCell bunu otomatik olarak gerçekleştirir
+explanation: |
+  RefCell'in temel yeniliği, ödünç alma kuralı uygulamasını derleme zamanından çalışma zamanına taşımasıdır. Normal Rust referansları, güvenliği sağlamak için derleme sırasında derleyici tarafından kontrol edilir, ancak RefCell aynı kontrolleri program çalışırken gerçekleştirir. Bu, RefCell'in derleyicinin statik analizinin çok muhafazakar olduğu durumlarda iç değişkenlik sağlamasına olanak tanır, ancak ödünç alma kurallarının ihlal edilmesi durumunda potansiyel çalışma zamanı paniklerinin değiş tokuşuyla birlikte gelir. Diğer seçenekler Rust'in temel güvenlik mekanizmalarını veya RefCell'in gerçek davranışını yanlış tanımlamaktadır.

@@ -1,0 +1,9 @@
+question: Mis on ligikaudne aasta, mil Bitcoin blokeeritud toetus jõuab vastavalt BIP42-le nullini?
+answer: 2140
+wrong_answers:
+  - 2100
+  - 2064
+  - 2160
+explanation: |
+  Peatüki kohaselt parandas BIP42 väga pikaajalise inflatsioonivea ja tagab, et blokeeritud toetus jõuab nulli umbes 2140. aasta paiku. Sel ajal läheb Bitcoin subsiidiumipõhiselt tasusüsteemilt üle puhtalt tasupõhisele süsteemile, muutes põhimõtteliselt võrgu turvalisuse kulude katmise viisi, nii et omanikud ei maksa enam inflatsiooni kaudu, vaid kulutajad maksavad tehingutasude kaudu.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: ANCESTOR Mining
+term: Ancestor mining
+definition: 채굴자가 자신의 수수료뿐만 아니라 부모 거래의 수수료를 고려하여 거래를 선택하는 원칙. CPFP라고도 불린다.
 ---
 
 CPFP(*자식이 부모에게 지불*)의 다른 이름으로도 사용됩니다. 조상 Mining은 Miner가 거래 수수료만을 기준으로 거래를 선택하지 않고 부모 거래의 수수료도 고려하는 원칙입니다.

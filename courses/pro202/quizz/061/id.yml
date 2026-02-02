@@ -1,0 +1,8 @@
+question: Apa mekanisme mendasar yang memungkinkan SegWit untuk meningkatkan kapasitas blok sambil mempertahankan kompatibilitas ke belakang dengan node pra-SegWit?
+answer: Sistem bobot blok di mana data saksi didiskon sebesar 75% dalam perhitungan kapasitas, memungkinkan hingga 4MB total data sementara node lama melihat ≤1MB
+wrong_answers:
+  - Algoritma kompresi yang mengurangi ukuran data saksi hingga 75% sebelum transmisi, menjaga blok di bawah 1MB untuk semua node
+  - Penyesuaian ukuran blok dinamis yang meningkatkan limit berdasarkan persentase transaksi SegWit di setiap blok
+  - Blok saksi terpisah yang dikirimkan hanya ke node yang ditingkatkan, sementara node lama menerima blok 1MB tradisional
+explanation: |
+  SegWit menggunakan unit berat blok di mana data transaksi dasar dihitung sebagai 4 unit berat per byte, sedangkan data saksi dihitung sebagai 1 unit berat per byte. Diskon 75% ini memungkinkan blok hingga 4 juta unit berat (berpotensi 4MB dengan semua data saksi) sambil memastikan node lama tidak pernah melihat lebih dari 1MB data transaksi dasar. Opsi lainnya menggambarkan mekanisme yang tidak ada - tidak ada kompresi, tidak ada ukuran dinamis, dan tidak ada transmisi blok yang terpisah.

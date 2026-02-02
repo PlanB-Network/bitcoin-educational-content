@@ -1,0 +1,8 @@
+question: Koji kriptografski mehanizam omogućava Liquid Network da verifikuje da ulazi transakcije jednaki su izlazima plus naknade, bez otkrivanja stvarnih iznosa javnosti?
+answer: Pedersen Obaveze i Dokazi o Opaženom Opaženju
+wrong_answers:
+  - Merkle stabla i digitalni potpisi
+  - Hash Vremenski zaključani ugovori i višestruki potpisi
+  - Schnorr Signatures i Taproot Skripte
+explanation: |
+  Pedersen Commitments i Range Proofs su specifični kriptografski primitivni koji omogućavaju Liquid-ovom Confidential Transactions da sakrije iznose dok i dalje omogućava matematičku verifikaciju. Pedersen Commitments kriptografski vezuju za vrednosti bez njihovog otkrivanja, dok Range Proofs osiguravaju da su svi iznosi pozitivni celi brojevi, sprečavajući korisnike da kreiraju novac kroz negativne vrednosti. Ostale opcije su legitimni Bitcoin kriptografski alati, ali ne pružaju mogućnosti zaslepljivanja potrebne za poverljive transakcije gde iznosi ostaju skriveni, ali proverljivi.

@@ -1,0 +1,9 @@
+question: สิ่งที่ควรหลีกเลี่ยงในการใช้ USB flash drives คืออะไร?
+answer: เชื่อมต่อ USB sticks ที่ไม่รู้จัก
+wrong_answers:
+  - ใช้ USB sticks ที่ฟอร์แมตเป็น NTFS
+  - เข้ารหัส USB ของคุณเอง
+  - ใช้แฟลชไดรฟ์ USB ใหม่
+explanation: |
+  การเสียบ USB ที่ไม่รู้จักอาจทำให้คอมพิวเตอร์ติดมัลแวร์หรือขโมยข้อมูลที่สำคัญได้
+reviewed: false

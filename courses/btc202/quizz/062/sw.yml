@@ -1,7 +1,7 @@
-question: Ni programu gani ya Umbrel inayokuruhusu kudhibiti nodi yako ya Umeme na Interface ya hali ya juu?
-answer: Panda Umeme
+question: Ni programu gani ya Umbrel inayokuruhusu kudhibiti node yako ya Lightning na Interface ya hali ya juu?
+answer: Ride The Lightning 
 wrong_answers:
-  - Umeme wa BTCPay
+  - Lightning wa BTCPay
   - Relay ya Nostr
   - Bitfeed
 explanation: |

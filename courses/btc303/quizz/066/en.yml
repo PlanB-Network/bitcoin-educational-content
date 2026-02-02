@@ -6,3 +6,4 @@ wrong_answers:
   - They risk creating double-spend attacks because they cannot verify that incoming transactions are legitimate
 explanation: |
   When miners practice validationless mining, they check only the proof-of-work in the block header and immediately start mining on top of it while downloading and validating the full block in parallel. The critical risk is that they might be building on an invalid block, meaning their computational effort is wasted on a blockchain branch that will be rejected once the invalid block is discovered. This undermines network security because a portion of the mining power is not contributing to the strongest valid chain, which is Bitcoin's fundamental security mechanism.
+reviewed: false

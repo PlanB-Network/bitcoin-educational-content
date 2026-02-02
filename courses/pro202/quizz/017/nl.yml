@@ -1,0 +1,8 @@
+question: Aan welke kritieke beveiligingseis moet voldaan worden bij het genereren van de nonce K bij het maken van een ECDSA handtekening?
+answer: K moet uniek en onvoorspelbaar zijn voor elke handtekening om compromittering van de privésleutel te voorkomen
+wrong_answers:
+  - K moet worden afgeleid van de openbare sleutel om ervoor te zorgen dat handtekeningverificatie correct werkt
+  - K moet hetzelfde zijn voor meerdere handtekeningen om consistentie in het ondertekeningsproces te behouden
+  - K moet gelijk zijn aan de privésleutel vermenigvuldigd met de hash van het bericht voor wiskundige correctheid
+explanation: |
+  De nonce K moet uniek en onvoorspelbaar zijn voor elke handtekening omdat hergebruik van K of voorspelbaarheid aanvallers in staat stelt de privésleutel te achterhalen. Als dezelfde K twee keer met verschillende berichten wordt gebruikt, kan een eenvoudige algebra de privésleutel onthullen. Moderne implementaties gebruiken deterministische K generatie (RFC 6979) om fouten in de willekeurige getallengenerator te vermijden en tegelijkertijd uniekheid te garanderen. De andere opties zijn onjuist: K mag nooit worden afgeleid van de openbare sleutel, nooit worden hergebruikt en nooit gelijk zijn aan de hash van de privésleutel maal het bericht.

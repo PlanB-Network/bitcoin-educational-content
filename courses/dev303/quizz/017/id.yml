@@ -1,0 +1,8 @@
+question: Apa saja tiga komponen yang membentuk struktur String dalam tata letak memori Rust?
+answer: Penunjuk ke data timbunan, panjang saat ini, dan kapasitas total
+wrong_answers:
+  - Penunjuk untuk menumpuk data, ukuran saat ini, dan panjang maksimum
+  - Alamat memori, jumlah karakter, dan jenis alokasi
+  - Referensi data, ukuran byte, dan status kepemilikan
+explanation: |
+  String dalam Rust terdiri dari tiga komponen yang disimpan di tumpukan: penunjuk ke data karakter yang dialokasikan di tumpukan, panjang konten string saat ini, dan total kapasitas buffer yang dialokasikan. Struktur ini memungkinkan string untuk tumbuh dan menyusut secara efisien sambil mempertahankan pengetahuan tentang batas-batasnya. Opsi lain tidak benar karena mereka merujuk lokasi yang salah (tumpukan, bukan heap), menggunakan terminologi yang tidak tepat (ukuran vs panjang, jumlah karakter vs panjang byte), atau menyertakan komponen yang tidak ada seperti jenis alokasi atau status kepemilikan.

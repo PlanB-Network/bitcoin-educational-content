@@ -1,5 +1,6 @@
 ---
-term: 戰略
+term: Stratum
+definition: 優化個別礦工與礦池伺服器之間通訊的網路協定。
 ---
 
 在 Bitcoin 之上分層的網路協定，專門設計用來優化個別礦工與 Mining pool 伺服器之間的通訊，以提高他們的獲利能力。Stratum 於 2011 年底由 Marek Palatinus 發表，他的筆名是 "Slush"，也是第一個 Mining pool Slush Pool（現已改名為 Braiins）的創始人。Stratum 用來取代已過時的舊版 Getwork 協定。

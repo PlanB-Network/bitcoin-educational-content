@@ -1,0 +1,8 @@
+question: Warum ändern moderne ASIC-Miner Daten innerhalb der Coinbase-Transaktion, anstatt sich ausschließlich auf das Nonce-Feld des Blockheaders zu verlassen?
+answer: Das 4-Byte-Nonce-Feld bietet nicht genügend Suchraum für moderne ASICs, so dass Miner die Coinbase-Daten modifizieren, um die Merkle-Wurzel zu ändern und zusätzlichen Suchraum zu schaffen
+wrong_answers:
+  - Durch die Änderung der Coinbase-Transaktion können Miner höhere Block-Belohnungen beanspruchen, als der Standard-Subventionsbetrag erlaubt
+  - "Die Coinbase-Transaktion muss so geändert werden, dass sie die digitale Signatur des Miners für die Blockvalidierung enthält"
+  - Die Änderung der Coinbase-Daten verringert die Rechenschwierigkeiten, indem sie es den Minern ermöglicht, die Standard-proof-of-work-Anforderungen zu umgehen
+explanation: |
+  Moderne ASICs können den 4-Byte-Nonce-Raum (2^32 Möglichkeiten) extrem schnell erschöpfen, was zusätzlichen Suchraum erfordert. Durch die Änderung von Daten in der Coinbase-Transaktion ändern die Miner den Hash der Transaktion, wodurch die Merkle-Wurzel im Block-Header geändert wird und effektiv Milliarden zusätzlicher Nonce-ähnlicher Werte zum Ausprobieren entstehen. Diese Technik, die als "Extra-Nonce" bezeichnet wird, ist für moderne mining-Operationen unerlässlich, bei denen die Hardware die Kapazität des ursprünglichen Nonce-Feldes bei weitem übersteigt.

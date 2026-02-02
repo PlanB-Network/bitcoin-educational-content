@@ -1,0 +1,9 @@
+question: Mitä yhteisiä piirteitä Aqua:llä ja Bull Bitcoin Wallet:lla on?
+answer: Salaman atomivaihdot
+wrong_answers:
+  - Kotimaiset Lightning-kanavat
+  - Keskitetty säilytys
+  - Integroitu Lightning-solmu
+explanation: |
+  Nämä wallet:t käyttävät atomivaihtoja Lightning-laskujen maksamiseen hyödyntämättä Lightning-solmua suoraan puhelimessasi ja pysyen samalla omassa säilytyksessä.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Kuidas tagatakse, et mõlemad osapooled viivad tehingu edukalt lõpule või mõlemad ebaõnnestuvad ilma raha kaotamata?
+answer: Mõlemas võrgus kasutatakse sama hash-lukku, mis loob krüptograafilise sideme vahetussõlmede vahel
+wrong_answers:
+  - Ajasulgemine takistab kummalgi poolel raha nõudmist enne, kui mõlemad võrgud on tehinguid kinnitanud
+  - MuSig2 võtme agregeerimine nõuab, et mõlemad pooled allkirjastaksid ühiselt, enne kui rahalisi vahendeid saab liigutada
+  - "Taproot skripti tee muudab tehingud automaatselt vastupidiseks, kui üks võrk ei õnnestu"
+explanation: |
+  Kihtide vaheliste vahetuste aatomne olemus tugineb identsete hash-lukkude kasutamisele mõlemas võrgus. Kui vastuvõtja avaldab salajase eelkujutise, et nõuda raha ühel kihil, muutub sama saladus nähtavaks ja kasutatavaks saatjale, et nõuda vastastikku raha teisel kihil. Selline krüptograafiline side tagab aatomiarsuse - kas mõlemad pooled saavad oma vahendid või kumbki ei saa, mis välistab vastaspoole riski usalduseta vahetustehingute puhul.

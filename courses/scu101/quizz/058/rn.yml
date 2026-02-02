@@ -1,10 +1,10 @@
-question: Ni ibihe bikoresho bimwebimwe bikoreshwa mu bijanye n’umutekano wo kuri Internet?
-answer: Igikoko c'umugozi, Metasploit, Nmap
+question: Ni ibihe bikoresho bimwe bimwe bikoreshwa mu bijanye n’umutekano wo kuri Internet?
+answer: Wireshark, Metasploit, Nmap
 wrong_answers:
-  - Photoshop, igishushanyo, mu gishushanyo
-  - Excel, Ikigaragaza, Ijambo
-  - AutoCAD, Ibikorwa bikomeye, Revit
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
 explanation: |
-  Ikigabane kivuga ko Wireshark, Metasploit, na Nmap ari bimwebimwe
+  Igice kivuga ko Wireshark, Metasploit, na Nmap nka bimwe 
   mu bikoresho bikoreshwa mu gucungera umutekano wo kuri Internet.
 reviewed: true

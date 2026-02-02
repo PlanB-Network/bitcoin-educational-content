@@ -6,4 +6,4 @@ wrong_answers:
   - Las tarifas de enrutamiento establecidas por cada nodo
 explanation: |
   La cantidad máxima que un pago indirecto puede transferir depende de la menor liquidez disponible en los canales utilizados, ya que cada canal debe ajustar los fondos en cada lado.
-reviewed: false
+reviewed: true

@@ -191,7 +191,7 @@ console.log(16, 8, 1993)
 変数とは、データを格納するための名前付きの箱のようなものだ。変数によってデータの一部を特定の名前と関連付けることができ、後でその名前を使ってデータを取り出すことができる。
 
 
-### let`宣言
+### let宣言
 
 
 JavaScriptで変数を宣言するには、`let`キーワードを使います。
@@ -355,7 +355,7 @@ Bob
 ご覧のように、`score`と`player`の両方が変更されている。
 
 
-### const`宣言
+### const宣言
 
 
 しかし、たいていの場合、作成後に変数を変更させたくない。そのためには`const`を使う。
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### null`とその扱い方
+### nullとその扱い方
 
 
 null`も特別な値である。これは "ここには何もない、わざとそうした "という意味である。
@@ -1075,7 +1075,7 @@ ReferenceError: message is not defined
 ブロック単位でコードを構成することで、`if`のような制御フロー構造を使ってプログラムの実行を構造化することもできる。
 
 
-### if`, `else`
+### if, else
 
 
 何かが真である場合にのみ**コードを実行したいことがある**。そのための`if`文である。
@@ -1190,7 +1190,7 @@ if (!adult) {...}`は "if not adult... "と読むべきである。
 ブロック、論理演算子、比較演算子を使うことで、何かが起こるために「真」（または「偽」）でなければならない変数を定義して、プログラムの実行を構造化することができる。
 
 
-### while`、`break`、`continue`。
+### while、break、continue。
 
 
 while`ループは、ある条件が真である限りコードを繰り返す。
@@ -1282,7 +1282,7 @@ console.log(number) // Print the number
 なぜなら、数字が`3`だったとき、`continue`は数字を表示する行をスキップさせたからだ。
 
 
-### の......ために......`」。
+### の......ために......」。
 
 
 配列があり、その中のすべての項目に何かをしたい場合は、`for ... of ....{...}`.
@@ -1312,7 +1312,7 @@ cherry
 ここで`fruit`は新しい変数で、配列の各アイテムの値を取り、ブロック内でそれを操作する。
 
 
-### の...ために...`」。
+### の...ために...」。
 
 
 for ... in` を使えば、配列のキー（インデックス）をループで調べることができる：
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### return` （関数からの出力）
+### return （関数からの出力）
 
 
 関数は**値を返す**こともできる。これは、関数が呼び出された場所に値を送り返すことを意味する。
@@ -2252,7 +2252,7 @@ JavaScriptではオブジェクトの形を自由に変えることができる�
 
 
 
-### extends`と`super()`による継承
+### extendsとsuper()による継承
 
 
 他のクラスとほとんど同じで、いくつかの機能を追加したクラスを作りたいことがあります。
@@ -2439,7 +2439,7 @@ console.log(ourAdmin instanceof User)    // true
 これらのエラーを適切に処理しないと、プログラムがクラッシュしたり、予測できない動作をしたりする可能性があります。JavaScriptは、これらのエラーを検出・管理するツールを提供しているので、より優雅にエラーを処理することができます。
 
 
-### 一般的なエラー: `undefined` の値へのアクセス
+### 一般的なエラー: undefined の値へのアクセス
 
 
 エラーの原因となる一般的な状況を紹介しよう：
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 この例ではゼロによる除算が認められていないため、2回目の呼び出しはエラーとなる。
 
 
-### try...catch`でエラーをキャッチする
+### try...catchでエラーをキャッチする
 
 
 エラーが発生したときにプログラムをクラッシュさせたくない場合は、`try...catch`ブロックを使ってエラーをキャッチすることができる。これは、何かが失敗してもプログラムを**継続**させたい場合に便利です。
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### finally`ブロック
+### finallyブロック
 
 
 finally`ブロックを追加することもできる。これはエラーがあろうがなかろうが、**常に**実行されるコードである。
@@ -2589,7 +2589,7 @@ This will run no matter what.
 この章では、JavaScriptでよくある落とし穴と、それを避ける方法を紹介する。
 
 
-### 宣言なしの `var` と Assignment
+### 宣言なしの var と Assignment
 
 
 古い JavaScript のコードでは、変数はしばしば `var` キーワードを使って宣言されていました。すでに学んだ `let` や `const` とは異なり、 `var` は混乱を招くような振る舞いをすることがあります。
@@ -2650,7 +2650,7 @@ console.log(null + 1)   // 1
 JavaScriptの弱い型付けシステムを意識することは重要だ。物事が奇妙に動き始めるとき、それは予期しない型の強制によるものかもしれない。
 
 
-### use strict"`
+### use strict"
 
 
 より厳密なモードを有効にすることで、サイレントエラーを本物のエラーに変えたり、より危険な言語機能の使用を停止したりすることができる。
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 何も渡されない場合、デフォルト値 `"friend"` が使われる。
 
 
-### スプレッドパラメータ (`...`)
+### スプレッドパラメータ (...)
 
 
 関数が柔軟な数の引数を取る場合は？
@@ -3030,7 +3030,7 @@ makeGreeter`関数は他の関数をビルドする関数である。文字列�
 この種のパターンは非常に強力で、関数に "穴 "を空けておき、後で必要な動作で埋めることができる。
 
 
-### map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 JavaScriptには、配列で使える便利な組み込みメソッドがいくつかある。
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 これは、1つのオブジェクトだけでなく、オブジェクトのグループ全体に適用される共有データやメソッドを格納するのに便利である。
 
 
-### get`と`set`。
+### getとset。
 
 
 JavaScriptでは、`get`と`set`によって、見た目は普通の変数だが、実際にはバックグラウンドで特別なコードを実行するプロパティを作ることができる。
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 これは**計算プロパティ**と呼ばれる。角括弧内の値が評価され、その結果がキーとして使用されます。
 
 
-### シンボル`タイプ
+### シンボルタイプ
 
 
 文字列に加えて、JavaScriptでは`Symbol`という特別な型をオブジェクトのキーとして使うことができる。
@@ -3421,7 +3421,7 @@ console.log(obj) // { name: 'Jimmy', [Symbol(name)]: 'John' }
 JavaScriptには、デバッグや数学の演算などに役立つ便利な組み込みオブジェクトがいくつかある。
 
 
-### その他の `console` メソッド
+### その他の console メソッド
 
 
 画面に値を表示する`console.log`はすでに見ただろう。
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 簡単なパフォーマンステストに役立つ。
 
 
-### Math`オブジェクト
+### Mathオブジェクト
 
 
 JavaScriptには、計算を行うための便利なメソッドを備えた`Math`オブジェクトが用意されている。
@@ -3924,7 +3924,7 @@ console.log(iterator.next()) // { value: 'red', done: false }
 ```
 
 
-### next()`
+### next()
 
 
 .next()`メソッドは、シーケンスから次の項目を取得するために使われる。
@@ -4046,7 +4046,7 @@ console.log(num)
 これで `Range` クラスは配列のように機能するようになり、反復処理可能なループで使用できるようになった。
 
 
-### ジェネレータ関数と `yield`
+### ジェネレータ関数と yield
 
 
 イテレータを簡単に作成するために、JavaScriptでは`function*`キーワード（`function`の最後に`*`をつけたもの）と`yield`キーワードを使った**ジェネレータ関数**を用意しています。
@@ -4105,7 +4105,7 @@ console.log(num)
 この章では新しい概念を紹介する： **コンカレンシー**である。これは、物事が実行される順序を操作できるようにするものである。これはタイマーやユーザー入力、ディスクからのファイル読み込みなどを扱うときに便利です。JavaScriptには、並行処理を行うためのさまざまなツールがあります。
 
 
-### setTimeout`。
+### setTimeout。
 
 
 関数 `setTimeout` を使うと、**ある関数を時間が経ってから実行することができる。**
@@ -4253,7 +4253,7 @@ new Promise()`の部分はプロミスを生成する。
 上の例では、`"It worked!" `というメッセージとともに即座に解決している。
 
 
-### .then()`
+### .then()
 
 
 プロミスが完了した後**に何かをするには**、`.then()`を使う：
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### reject()`
+### reject()
 
 
 失敗**する約束を作ろう**：
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### 約束`を使った連鎖操作
+### 約束を使った連鎖操作
 
 
 
@@ -4551,7 +4551,7 @@ Final result after all steps: 10
 各`.then()`は、その前のステップが終了するのを待つ。そのため、入れ子にすることなくアクションの**連鎖**を作ることができる。これにより、コードがより読みやすくなり、デバッグもしやすくなる。
 
 
-## async`/`await`による並行処理
+## async/awaitによる並行処理
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Final result after all steps: 10
 そこで登場するのが `async` と `await` だ。これらは、**同期コードのように見える**非同期コードを書くことを可能にしてくれる。
 
 
-### async`とは？
+### asyncとは？
 
 
 関数の前にキーワード `async` を書くと、JavaScript は関数の戻り値を自動的に Promise でラップします。
@@ -4606,7 +4606,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 あるいは、`await`を使うこともできる。
 
 
-### await`とは何か？
+### awaitとは何か？
 
 
 キーワード `await` はJavaScriptにこう指示する：「このPromiseが実行されるまで待ち、それから結果を返せ。
@@ -4638,7 +4638,7 @@ greetAndLog() // prints "hello"
 もう少し役に立つことをしよう。
 
 
-### await`による遅延のシミュレーション
+### awaitによる遅延のシミュレーション
 
 
 ミリ秒を引数にとり、そのミリ秒後に何もせずに解決する単純な `wait` 関数を作ることにしよう：
@@ -4881,7 +4881,7 @@ run()
 例えば、チャット・サーバーからメッセージを1つずつ読み込んだり、大きなファイルをチャンク単位でダウンロードしたい場合、非同期イテレータを使えば、遅延データで動作する`for`ループを書くことができる。
 
 
-### シンボル.asyncIterator`。
+### シンボル.asyncIterator。
 
 
 カスタム・クラスで非同期イテレーターを使うこともできる。
@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 最も一般的なものを紹介しよう：
 
 
-| Operator | Meaning             |
+
+| 演算子 | 意味 |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | 加算して代入 |
+| `-=` | 減算して代入 |
+| `*=` | 乗算して代入 |
+| `/=` | 除算して代入 |
 
 例を挙げよう：
 
@@ -5307,7 +5308,7 @@ console.log(process.platform)
 これは、`win32`、`linux`、`darwin`（Mac）のように、オペレーティングシステムのプラットフォームを表示する。
 
 
-### `process.argv`
+### process.argv
 
 
 ターミナルからNodeJSプログラムを実行するとき、スクリプト名の後に余分な単語（引数）を渡すことができる。これらは `process.argv` に格納される。
@@ -5493,7 +5494,7 @@ console.log(os.platform())
 次の章では、その有用な使用例をいくつか紹介する。
 
 
-## fs` モジュール
+## fs モジュール
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5882,7 @@ package.json
 ```
 
 
-### `package.json`
+### package.json
 
 
 package.json`ファイルは、プロジェクトのメタデータを格納するJSONファイルです。
@@ -5960,7 +5961,7 @@ pico.green("This text is green!")
 package-lock.json`とは何ですか？
 
 
-### `package-lock.json`
+### package-lock.json
 
 
 このファイルはNPMによって自動的に作成されます。
@@ -6023,7 +6024,7 @@ NodeJSはバックエンドの言語としてよく使われる。スクリプ�
 この章では、それを可能にする基本的なネットワーク機能を紹介する。
 
 
-### fetch()`
+### fetch()
 
 
 あなたのプログラムがウェブサイトやAPIからデータをダウンロードしたい場合、**HTTPリクエスト**を行う必要があります。
@@ -6517,36 +6518,36 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 こうなる：
 
 
-1.fs.createWriteStream()` は書き込み可能なストリームを作成します。
+1. `fs.createWriteStream()` は書き込み可能なストリームを作成します。
 
-2..write()`を使ってテキストを書き込む。
+2. `error` イベントと `finish` イベントのハンドラを登録します。
 
-3.終わったら `.end()` を呼んでストリームを閉じる。
+3. `.write()` を使用してテキストを書き込みます。
 
-4.すべてのデータが書き込まれると、`finish`イベントが発生する。
+4. 完了したら、`.end()` を呼び出してストリームを閉じます。
 
-5.何か問題が発生すると `error` イベントが発生する。
+5. バッファリングされたすべてのデータがフラッシュおよび書き込まれると、`finish` イベントが発行されます。何か問題が発生した場合は、`error` イベントが発行されます。
 
 
 読み込み可能なストリームと同様、書き込み可能なストリームも、すべてを一度にメモリに保持する必要がないため、ビッグデータに適している。

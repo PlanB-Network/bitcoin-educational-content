@@ -1,0 +1,8 @@
+question: Apa alasan utama mengapa teka-teki skrip yang hanya mengandalkan data publik tanpa pemeriksaan tanda tangan menjadi rentan di Bitcoin?
+answer: Penambang dapat menyalin solusi dari mempool dan mengalihkan pembayaran ke mereka sendiri
+wrong_answers:
+  - Eksekusi skrip menjadi non-deterministik di seluruh node jaringan yang berbeda
+  - Waktu validasi transaksi meningkat secara kuadratik dengan kompleksitas teka-teki
+  - Model eksekusi berbasis stack tidak dapat menangani operasi matematika yang kompleks dengan aman
+explanation: |
+  Script puzzle yang hanya mengandalkan data publik (seperti soal matematika atau preimage hash) tanpa pemeriksaan tanda tangan sangat rentan untuk ditambang oleh penambang. Ketika sebuah solusi yang valid muncul di mempool, penambang manapun dapat mengamatinya, menyalin solusinya, dan membuat transaksi mereka sendiri yang mengarahkan pembayaran ke alamat mereka. Inilah sebabnya mengapa kontrak Bitcoin di dunia nyata hampir selalu menyertakan pemeriksaan tanda tangan - tanda tangan mengikat solusi ke pihak tertentu dan mencegah pihak lain untuk mencuri pembayaran, menjaga insentif yang tepat untuk para pemecah teka-teki.

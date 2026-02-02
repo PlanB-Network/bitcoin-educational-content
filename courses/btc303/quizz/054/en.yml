@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin development uses closed-source code that limits external contributions
 explanation: |
   Bitcoin's open development process, while being one of its greatest strengths for decentralization and transparency, also creates vulnerability to adversarial infiltration. Since anyone can participate in discussions, propose changes, and engage in the review process without needing permission or credentials, dedicated attackers can exploit this openness. They can stall progress through endless concerns about irrelevant issues, haggle over precise wordings, reiterate settled discussions, or deploy 'social Sybil attacks' using multiple fake identities to create false impressions of resistance. This openness contrasts sharply with closed development models that have gatekeepers or approval processes that could filter out bad actors.
+reviewed: false

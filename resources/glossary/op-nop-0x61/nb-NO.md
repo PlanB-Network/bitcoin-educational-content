@@ -1,6 +1,7 @@
 ---
 term: OP_NOP (0X61)
 
+definition: Opcode som ikke gir noen effekt, brukt som et innsettingspunkt for fremtidige soft forks.
 ---
 Gir ingen effekt på stakken eller skriptets tilstand. Den utfører ingen bevegelser, kontroller eller modifikasjoner. Den gjør rett og slett ingenting, med mindre noe annet er bestemt via en soft fork. Siden Satoshi Nakamoto modifiserte dem i 2010, har `OP_NOP`-kommandoene (`OP_NOP1` (`0XB0`) til `OP_NOP10` (`0XB9`)) blitt brukt til å legge til nye opkoder i form av en soft fork.
 

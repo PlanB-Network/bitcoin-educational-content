@@ -1,0 +1,8 @@
+question: Vad är det främsta skälet till att kollektiva beslut är mindre effektiva än individuella beslut enligt fransk liberal tankegång?
+answer: Kollektiva beslut kan inte ta hänsyn till varje persons direkta, individuella uppfattningar och behov
+wrong_answers:
+  - Kollektiva beslut tar för lång tid att genomföra och är därför ineffektiva
+  - Kollektiva beslut fattas av politiker som saknar lämplig utbildning och expertis
+  - Kollektiva beslut skapar för mycket byråkrati och administrativ komplexitet
+explanation: |
+  Enligt den franska liberala traditionen är förnimmelser och uppfattningar i grunden individuella - man kan inte uppleva hunger genom någon annan eller se genom någon annans ögon. Att perceptionen är individuell innebär att individuella beslut, som baseras på direkta personliga erfarenheter, har en överlägsen informationskvalitet jämfört med kollektiva beslut. När kollektiva beslut fattas om t.ex. matdistribution måste de sammanfatta de olika uppfattningarna och behoven hos flera individer, vars behov varierar i tid och intensitet. Resultatet blir med nödvändighet mindre anpassat till varje persons verkliga situation än beslut som fattas av enskilda individer baserat på deras egna direkta uppfattningar och behov.

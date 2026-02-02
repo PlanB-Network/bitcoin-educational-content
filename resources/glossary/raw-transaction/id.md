@@ -1,6 +1,7 @@
 ---
-term: TRANSAKSI MENTAH
+term: Transaksi mentah
 
+definition: Transaksi Bitcoin dalam bentuk biner lengkapnya, siap untuk disiarkan di jaringan.
 ---
 Transaksi Bitcoin yang dibuat dan ditandatangani, ada dalam bentuk biner. Transaksi mentah (*raw TX*) adalah representasi akhir dari sebuah transaksi, sebelum disiarkan di jaringan. Transaksi ini berisi semua informasi yang diperlukan untuk dimasukkan ke dalam blok:
 
@@ -14,4 +15,3 @@ Transaksi Bitcoin yang dibuat dan ditandatangani, ada dalam bentuk biner. Transa
 
 Apa yang disebut sebagai "*transaksi mentah*" mewakili data mentah yang dilewatkan melalui fungsi _hash_ SHA256 dua kali untuk menghasilkan TXID transaksi. Data ini kemudian digunakan dalam pohon Merkle blok untuk mengintegrasikan transaksi ke dalam _blockchain_.
 
-> ► *Konsep ini juga terkadang disebut "Transaksi Terserialisasi (Serialized Transaction)"*

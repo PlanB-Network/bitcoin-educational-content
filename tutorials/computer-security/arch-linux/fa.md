@@ -265,20 +265,22 @@ cfdisk /dev/nom-du-disque
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| نقطه اتصال در سیستم نصب شده | پارتیشن                 | نوع پارتیشن       | اندازه پیشنهادی |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | پارتیشن سیستم EFI   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | فضای مبادله (swap) | حداقل 4 GB   |
+| /                                        | /dev/root_partition       | ریشه لینوکس x86-64 (/) | بقیه دیسک |
 
 - در BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| نقطه اتصال در سیستم نصب شده | پارتیشن           | نوع پارتیشن       | اندازه پیشنهادی |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | فضای مبادله (swap) | حداقل 4 GB   |
+| /                                        | /dev/root_partition | لینوکس                   | بقیه دیسک |
 
 ![0_10](assets/fr/10.webp)
 

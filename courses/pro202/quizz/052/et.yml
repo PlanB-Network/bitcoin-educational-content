@@ -1,0 +1,8 @@
+question: Mis on peamine eelis, mida Merkle-tõendid pakuvad SPV (Simplified Payment Verification) klientidele tehingu sisalduse kontrollimisel?
+answer: Need võimaldavad tehingu sisalduse kontrollimist ilma kogu ploki allalaadimiseta, mis nõuab vaid mõnisada baiti isegi tuhandete tehingutega plokkide puhul
+wrong_answers:
+  - Nad kõrvaldavad vajaduse kontrollida plokkide hash-ühendust raskuse eesmärgi suhtes, vähendades kergekaaluliste klientide arvutuslikke nõudeid
+  - Nad pakuvad krüptograafilist tõestust, mis hoiab ära double-spending rünnakud, valideerides kõik tehingu sisendid plokis
+  - Need võimaldavad SPV klientidel rekonstrueerida kogu tehinguajalugu ilma mitme täieliku sõlme samaaegse ühenduseta
+explanation: |
+  Merkle'i tõendid kasutavad Merkle'i puude logaritmilise kasvu omadust, mis võimaldab SPV klientidel kontrollida tehingu sisaldust ainult juurte juurde kulgeva tee sisemiste hashide abil. See nõuab sõltumata ploki suurusest vaid mõnisada baiti, mis teeb selle praktiliseks kergekaaluliste klientide jaoks. Valed vastused ajavad Merkle-tõendid segi teiste Bitcoin mehhanismidega - nad ei kõrvalda raskuste kontrollimist, ei takista otseselt double-spending ja ei rekonstrueeri tehinguajalugu.

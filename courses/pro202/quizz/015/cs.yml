@@ -1,0 +1,8 @@
+question: Co se stane s aritmetickými operacemi, když jsou eliptické křivky definovány nad konečnými poli namísto reálných čísel?
+answer: Všechny operace používají modulární aritmetiku při zachování stejných algebraických pravidel
+wrong_answers:
+  - Vzorce pro sčítání bodů je třeba pro diskrétní matematiku zcela přepsat
+  - Výpočty sklonu se stávají neurčitými kvůli diskrétní povaze bodů
+  - Všechna algebraická pravidla se zásadně mění, aby se přizpůsobila struktuře konečného pole
+explanation: |
+  Když se eliptické křivky přesunou z reálných čísel do konečných polí, základní algebraická struktura a pravidla zůstanou stejné - pouze aritmetika se změní na modulární aritmetiku. Všechny vzorce pro sčítání bodů, výpočty sklonu a geometrické vztahy fungují naprosto stejně, ale každý výpočet se provádí modulo p. Díky tomuto zachování algebraických pravidel při současné změně pouze aritmetického základu jsou eliptické křivky v konečném poli tak mocné pro kryptografii - zachovávají všechny potřebné matematické vlastnosti a zároveň vytvářejí diskrétní, nepředvídatelné chování, které je nezbytné pro bezpečnost.

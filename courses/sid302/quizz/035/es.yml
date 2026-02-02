@@ -1,0 +1,8 @@
+question: ¿Cuál es el objetivo principal del proceso de tres pasos Conectar, Preparar y Ejecutar de la interfaz de desarrollador del SDK de Breez?
+answer: Normalizar los flujos financieros complejos sincronizando los monederos, calculando todas las comisiones por adelantado y construyendo después las transacciones
+wrong_answers:
+  - Para establecer conexiones de copia de seguridad redundantes a través de múltiples proveedores de swap antes de iniciar cualquier operación atómica
+  - Crear firmas criptográficas separadas para cada red implicada en transacciones de swap submarino entre cadenas
+  - Validar las preimágenes de pago con respecto a los contratos de duración determinada antes de liberar los fondos de los mecanismos de custodia
+explanation: |
+  El patrón Conectar, Preparar, Ejecutar simplifica el desarrollo al dividir las operaciones complejas en pasos manejables: Connect inicializa los monederos y establece conexiones de monitorización, Prepare calcula y muestra todos los costes de forma transparente para los usuarios, y Execute se encarga de la construcción y emisión real de las transacciones. Esta estandarización abstrae la complejidad subyacente de los intercambios submarinos y las operaciones entre cadenas, lo que facilita a los desarrolladores la integración de la funcionalidad Bitcoin sin tener que gestionar detalles de bajo nivel.

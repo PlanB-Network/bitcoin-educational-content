@@ -1,0 +1,8 @@
+question: Jaký je klíčový rozdíl mezi tím, jak se řeší porušení výpůjčky u běžných odkazů Rust a RefCell?
+answer: Běžné reference způsobují chyby při kompilaci, zatímco RefCell způsobuje paniku za běhu
+wrong_answers:
+  - Běžné reference způsobují paniku za běhu, zatímco RefCell způsobuje chyby při kompilaci
+  - Běžné reference umožňují vícenásobné mutovatelné výpůjčky, zatímco RefCell vynucuje jediný mutovatelný přístup
+  - Běžné reference vyžadují explicitní anotace životnosti, zatímco RefCell používá automatické čištění
+explanation: |
+  RefCell přesouvá vynucování výpůjčních pravidel Rust z doby kompilace do doby běhu. Zatímco kompilátor staticky analyzuje regulární reference a zabraňuje porušování pravidel výpůjček před spuštěním programu, RefCell provádí stejné bezpečnostní kontroly během provádění programu. Díky tomu může RefCell obejít konzervativní omezení kompilátoru v případech, kdy programátor ví, že kód je bezpečný, ale porušení pravidel má za následek paniku za běhu namísto selhání kompilace.

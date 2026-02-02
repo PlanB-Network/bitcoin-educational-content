@@ -32,7 +32,7 @@ Có thể sử dụng để chuyển:
 
 
 - Cụm từ **gW-0** (seed master của ColdCard Q hoặc các bí mật được lưu trữ trong [seed Vault] của ColdCardQ(https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **ghi chú và mật khẩu bí mật**: đây có thể là bất kỳ thông tin bí mật nào hoặc toàn bộ thư mục [Ghi chú & Mật khẩu Bảo mật] (https://coldcard.com/docs/secure_notes/) trên ColdCardQ của bạn.
+- **ghi chú và mật khẩu bí mật**: đây có thể là bất kỳ thông tin bí mật nào hoặc toàn bộ thư mục [Ghi chú & Mật khẩu Bảo mật](https://coldcard.com/docs/secure_notes/) trên ColdCardQ của bạn.
 - bản sao lưu toàn bộ **ColdCardQ** của bạn: ColdCardQ nhận bản sao lưu này không được có seed Master để tính năng này hoạt động.
 - gW-3 (*Giao dịch Bitcoin được ký một phần*) là một phần của chương trình **đa chữ ký**.
 

@@ -1,11 +1,10 @@
-question: Jaka jest natura adopcji Bitcoin opisana w tym kursie?
-answer: Wirusowe.
+question: Jaka jest natura adopcji Bitcoina opisana w tym kursie?
+answer: Wirusowa.
 wrong_answers:
-  - Powoli i stabilnie.
-  - Gwałtowny i niekontrolowany.
-  - Sporadyczne i nieprzewidywalne.
+  - Powolna i stabilna.
+  - Gwałtowna i niekontrolowana.
+  - Sporadyczna i nieprzewidywalna.
 explanation: |
-  Tekst kursu opisuje przyjęcie Bitcoin jako wirusowe,
-  sugerując, że rozprzestrzenia się on szybko i szeroko od jednej osoby do drugiej
-  osoby na inną, podobnie jak wirus, ale dobry.
+  Tekst kursu opisuje przyjęcie Bitcoina jako wirusowe,
+  sugerując, że rozprzestrzenia się on szybko od jednej osoby do drugiej, podobnie jak wirus, ale dobry.
 reviewed: true

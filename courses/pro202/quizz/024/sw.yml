@@ -1,0 +1,8 @@
+question: Ni sababu gani kuu inayofanya mafumbo ya hati yanayotegemea data ya umma pekee bila ukaguzi wa sahihi yawe hatarini katika Bitcoin?
+answer: Wachimbaji wanaweza kunakili suluhisho kutoka kwa mempool na kuelekeza malipo kwao wenyewe
+wrong_answers:
+  - Utekelezaji wa hati unakuwa usio na kikomo katika nodi tofauti za mtandao
+  - Muda wa uthibitishaji wa muamala huongezeka mara nne kadri ugumu wa fumbo unavyoongezeka
+  - Mfano wa utekelezaji unaotegemea mrundiko hauwezi kushughulikia shughuli changamano za hisabati kwa usalama
+explanation: |
+  Mafumbo ya hati ambayo hutegemea tu data ya umma (kama vile matatizo ya hesabu au picha za awali za hash) bila ukaguzi wa sahihi yanaweza kuathiriwa na wachimbaji wanaoongoza. Mara tu suluhisho halali linapoonekana kwenye kumbukumbu, wachimbaji yeyote anaweza kuliona, kunakili suluhisho, na kuunda muamala wake mwenyewe akielekeza malipo kwenye anwani yake. Hii ndiyo sababu mikataba ya ulimwengu halisi ya Bitcoin karibu kila mara hujumuisha ukaguzi wa sahihi - sahihi hufunga suluhisho kwa mhusika maalum na kuzuia wengine kuiba malipo, na hivyo kuhifadhi motisha sahihi kwa watatuzi wa mafumbo.

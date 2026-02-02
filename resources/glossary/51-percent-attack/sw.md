@@ -1,8 +1,7 @@
 ---
-term: ASILIMIA 51 SHAMBULIO
+term: Shambulio la 51%
+definition: Shambulio ambapo mtu mwonge kontroli zaidi ya nusu ya nguvu ya kughani kwa hash, ambayo inaruhusu kuchanganya miamala, hasa kupitia matumizi mara mbili.
 ---
 
-Hali ya dhahania katika mfumo wa Bitcoin ambapo mwigizaji hasidi anadhibiti zaidi ya 50% ya jumla ya nguvu za kukokotoa za Mining (Hashrate). Kwa utawala kama huo, mshambuliaji anaweza kuendesha mchakato wa makubaliano, kuruhusu vitendo viovu kama vile matumizi mara mbili, ambapo bitcoins sawa hutumiwa mara moja kwenye mlolongo ambao hatimaye hautumiwi, na kisha mara ya pili kwenye mlolongo halali. Matokeo mengine ya shambulio la 51% ni udhibiti wa shughuli. Hata hivyo, kutekeleza shambulio la 51% kunahitaji rasilimali nyingi za kifedha, kibinadamu, nishati na kiufundi, na hufanya muigizaji hasidi kuathiriwa na kugunduliwa kabla ya shambulio hilo kutokea. Ingawa kinadharia inawezekana, shambulio la 51% kwenye Bitcoin linachukuliwa kuwa lisilowezekana kwa sababu ya ugatuaji wa Mining na nguvu kubwa ya hesabu iliyotumwa kwa sasa.
+Hali ya kinadharia katika mfumo wa Bitcoin ambapo mhusika mwenye nia mbaya anadhibiti zaidi ya 50% ya jumla ya nguvu ya hesabu ya uchimbaji (hashrate). Kwa utawala huo, mshambuliaji anaweza kuendesha mchakato wa makubaliano, na kuruhusu vitendo vibaya kama matumizi maradufu, ambapo bitcoin zilezile hutumika kwanza kwenye mnyororo unaokuja kuwa wa kizamani, kisha hutumika mara ya pili kwenye mnyororo halali. Lengo jingine la shambulio la 51% ni kudhibiti miamala. Hata hivyo, kutekeleza shambulio la 51% kunahitaji rasilimali kubwa za kifedha, kibinadamu, nishati na kiufundi, na humfanya mhusika mwenye nia mbaya aweze kugunduliwa kabla ya shambulio kutokea. Ingawa kinawezekana kinadharia, shambulio la 51% dhidi ya Bitcoin linachukuliwa kuwa halina uwezekano mkubwa kutokana na ugatuzi wa uchimbaji na nguvu kubwa ya hesabu iliyopo kwa sasa. Shambulio hili pia linajulikana kama "Shambulio la Goldfinger".
 
-
-> ► *Shambulio hili pia linaitwa "Shambulio la Goldfinger".*

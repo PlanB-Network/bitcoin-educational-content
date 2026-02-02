@@ -1,21 +1,19 @@
 ---
-name: Die Hyperinflationen
+name: Fallstudien zur Hyperinflation
 goal: Das Aufkommen von Hyperinflationen in einer Fiat-Welt verstehen und ihre Auswirkungen analysieren
 objectives:
-  - Die Zyklen der Hyperinflation studieren
-  - Die tatsächlichen Auswirkungen von Hyperinflationen auf unseren Alltag verstehen
-  - Die Gemeinsamkeiten von Hyperinflationen im Laufe der Zeit untersuchen
-  - Eine konkrete Vorstellung davon haben, wie man sich vor Hyperinflationen schützen kann
+- Die Zyklen der Hyperinflation studieren
+- Die tatsächlichen Auswirkungen von Hyperinflationen auf unseren Alltag verstehen
+- Die Gemeinsamkeiten von Hyperinflationen im Laufe der Zeit untersuchen
+- Eine konkrete Vorstellung davon haben, wie man sich vor Hyperinflationen schützen kann
 ---
+# Eine Reise durch den wirtschaftlichen Zusammenbruch
 
-# Eine Reise in die Wirtschaft
+Wie sieht es aus, wenn Geld seine Bedeutung verliert?
+Dieser Kurs führt Sie durch die faszinierende und zugleich ernüchternde Welt der Hyperinflation. Sie werden historische Episoden und moderne Fälle entdecken, in denen Währungen zusammenbrachen und sich Volkswirtschaften über Nacht verwandelten. Sie werden die Muster, Ursachen und realen Auswirkungen auf das Leben gewöhnlicher Menschen aufdecken und Einblick in eines der dramatischsten Phänomene der Wirtschaft gewinnen.
 
-Dieses Programm zielt darauf ab, ein tiefes Verständnis für das Aufkommen von Hyperinflationen in einer von Fiat-Währungen dominierten Welt zu vermitteln und ihre erheblichen Auswirkungen zu untersuchen. Die Teilnehmer werden detailliert die Zyklen der Hyperinflation untersuchen, indem sie die Ursachen, Auslöser und historischen sowie zeitgenössischen Beispiele analysieren. Sie werden auch die greifbaren Auswirkungen von Hyperinflationen auf die Wirtschaft und das tägliche Leben untersuchen, indem sie die Auswirkungen auf den Wert der Währung, die Kaufkraft und die individuelle und kollektive Ersparnis untersuchen.
-
-Hier werden wir die gemeinsamen Trends und Muster in den Episoden der Hyperinflation im Laufe der Geschichte beleuchten und gleichzeitig effektive und konkrete Strategien zum Schutz vor Hyperinflationen in Zeiten wirtschaftlicher Instabilität bereitstellen. Die Teilnehmer haben die Möglichkeit, verschiedene Investitionsmöglichkeiten und Mechanismen zur finanziellen Absicherung zu erkunden und dabei praktische Werkzeuge und wesentliche Kenntnisse zu erwerben, um in einem instabilen wirtschaftlichen Klima souverän zu navigieren.
-
+Auf dem Weg werden Sie auch entdecken, wie Einzelpersonen und Gemeinschaften diese turbulenten Zeiten gemeistert haben. Lernen Sie die Strategien kennen, die geholfen haben, Vermögen während Währungskrisen zu schützen, und entwickeln Sie ein tieferes Verständnis für finanzielle Widerstandsfähigkeit. Wenn Sie neugierig auf die wirtschaftlichen Kräfte sind, die unsere Welt prägen, bietet diese Reise sowohl Wissen als auch praktische Perspektiven.
 +++
-
 # Einführung
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
@@ -268,7 +266,7 @@ Ein anschauliches Beispiel für die MMT ist der amerikanische militärisch-indus
 
 Der Fall Japans wird von den Befürwortern der MMT oft als ein weiteres Beispiel für das Fehlen von Inflation trotz einer erheblichen Geldschöpfung angeführt. Allerdings verdeutlicht die Situation in Japan auch die Grenzen herkömmlicher Inflationsmaßnahmen wie dem Verbraucherpreisindex (VPI). In Japan wird ein großer Teil des gedruckten Geldes entweder gespart, in Immobilien oder Aktienmärkte investiert und nicht in die alltägliche Konsumwirtschaft ausgegeben. Der VPI erfasst diese Dynamiken nicht vollständig und kann die tatsächliche Inflation unterschätzen.
 
-Die Analyse Japans (https://ideas.repec.org/p/ces/ceswps/_9821.html) zeigt auch, dass das Verhalten der Wirtschaftsteilnehmer, wie Sparen oder Investitionen in nicht im VPI enthaltene Vermögenswerte, die inflatorische Wirkung der Geldschöpfung verdecken kann. Darüber hinaus spielt die Fähigkeit verschiedener Sektoren, die injizierten Liquiditäten aufzunehmen, eine entscheidende Rolle bei der Manifestation von Inflation.
+[Die Analyse Japans](https://ideas.repec.org/p/ces/ceswps/_9821.html) zeigt ebenfalls, dass das Verhalten der Wirtschaftsakteure, etwa Sparen oder Investitionen in nicht im VPI enthaltene Vermögenswerte, die inflatorischen Auswirkungen der Geldschöpfung verschleiern kann. Zudem spielt die Fähigkeit der verschiedenen Sektoren, die zugeführte Liquidität zu absorbieren, eine entscheidende Rolle für das Auftreten oder Ausbleiben von Inflation.
 
 #### Die Bilanz der Banken und der Zentralbank
 

@@ -1,0 +1,8 @@
+question: Koja je ključna razlika između dizajna sloja postojanosti LDK-a i tradicionalnog upravljanja podacima Lightning čvora koja omogućava fleksibilnost u implementaciji na različitim platformama?
+answer: LDK obezbeđuje apstraktne binarne podatke za skladištenje dok aplikacije implementiraju sopstvene mehanizme skladištenja
+wrong_answers:
+  - LDK koristi standardizovane SQL baze podataka dok tradicionalni čvorovi zahtevaju prilagođene implementacije sistema datoteka
+  - LDK automatski sinhronizuje podatke na više platformi, dok tradicionalni čvorovi skladište podatke samo lokalno.
+  - LDK šifruje sve podatke o postojanosti po defaultu dok se tradicionalni čvorovi oslanjaju na šifrovanje na nivou aplikacije
+explanation: |
+  LDK-ov sloj upornosti apstrahuje skladištenje pružajući aplikacijama serijalizovane binarne podatkovne blokove koji moraju biti pouzdano uskladišteni i preuzeti, dok interno upravlja svom složenošću serijalizacije stanja Lightning kanala i mrežnih podataka. Ovo omogućava aplikacijama da izaberu bilo koje rešenje za skladištenje (fajl sistemi, skladištenje u oblaku, baze podataka) koje odgovara njihovim platformskim zahtevima. Tradicionalni Lightning čvorovi obično implementiraju sopstvene specifične sisteme za upravljanje podacima vezane za određene mehanizme skladištenja, što ih čini manje fleksibilnim u različitim okruženjima za implementaciju.

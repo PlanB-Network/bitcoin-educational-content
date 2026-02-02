@@ -1,21 +1,18 @@
 ---
-name: Giới thiệu về trường phái Kinh tế học Áo
-goal: Khám phá trường phái Kinh tế học Áo. Nghiên cứu quan điểm của họ về hiện thực xã hội và kinh tế vĩ mô / vi mô.
+name: Các nguyên tắc cơ bản của trường phái kinh tế Áo
+goal: Khám phá kinh tế học Áo như một khuôn khổ thay thế để phân tích thị trường và ra quyết định cá nhân
 objectives:
-  - Một giải pháp thay thế cho Chủ nghĩa Keynes
-  - Tầm quan trọng của đồng tiền cứng
-  - Tại sao và bằng cách nào các chu kỳ kinh tế được tạo ra?
-  - Tại sao các ngân hàng trung ương lại phát điên?
+- Phân tích các chức năng của tiền tệ, tín dụng và hệ thống ngân hàng trung ương
+- Áp dụng lý thuyết giá trị chủ quan và sở thích thời gian vào hành vi thị trường
+- Hiểu lý thuyết chu kỳ kinh doanh của trường phái Áo và nguyên nhân của nó
+- So sánh phương pháp luận của trường phái Áo với các cách tiếp cận kinh tế chính thống
 ---
+# Hành Trình Đến Kinh Tế Học Áo
 
-# Hành trình vào thế giới kinh tế
+Bạn đã bao giờ tự hỏi tại sao một số nhà kinh tế lại suy nghĩ khác biệt về thị trường, tự do và hành vi con người? Kinh tế học Áo mang đến một góc nhìn mới mẻ đặt bạn vào trung tâm của tư duy kinh tế. Thay vì toán học phức tạp và các mô hình trừu tượng, cách tiếp cận này tập trung vào logic, sự lựa chọn của con người và cách mọi người thực sự đưa ra quyết định trong cuộc sống hàng ngày của họ. Đó là kinh tế học qua lăng kính của tự do, lý trí và hành động cá nhân.
 
-Chào mừng bạn đến với khóa học của Théo Mogenet! Có niềm đam mê về kinh tế, lịch sử, văn học, khoa học chính trị và công nghệ, anh ấy đã quyết định chia sẻ kiến thức của mình về trường phái Kinh tế học Áo với bạn. Nhánh này, ít được biết đến trong lĩnh vực kinh tế học, dựa trên lý trí con người và hành vi của các chủ thể tự do. Ít chú trọng vào toán học, đây chủ yếu là vấn đề của logic và nghiên cứu xã hội.
-
-Trường phái tư tưởng này đã có một lịch sử kéo dài vài thế kỷ và có một bức tranh toàn cảnh về các tác giả, tư tưởng, và các nhà kinh tế học đứng sau nó. Những tên tuổi lớn trong kinh tế học như Hayek, Rothbard, Mises, Bastiat, hoặc Menger đã bảo vệ phong trào này trong thời gian dài. Trái ngược với trường phái Keynes phổ biến ngày nay, trường phái Kinh tế học Áo đặt cá nhân trở lại vào trung tâm của phương trình với một cách tiếp cận tự do, tư bản và thậm chí là vô chính phủ hơn.
-
+Trường phái tư tưởng này đã định hình các cuộc tranh luận trong nhiều thế kỷ, nhờ vào các nhà tư tưởng có ảnh hưởng như Hayek, Mises và Bastiat. Trong khi kinh tế học Keynesian chủ đạo thống trị các cuộc thảo luận chính sách ngày nay, truyền thống Áo đặt ra những câu hỏi khác: Điều gì xảy ra khi chúng ta ưu tiên tự do cá nhân? Thị trường tự do thực sự hoạt động như thế nào khi mọi người có quyền tự do lựa chọn? Nếu bạn tò mò về những cách suy nghĩ thay thế về thị trường, xã hội và tự do, đây là cơ hội để bạn khám phá những ý tưởng mà bạn sẽ không tìm thấy trong các sách giáo khoa tiêu chuẩn.
 +++
-
 # Giới thiệu
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
@@ -501,9 +498,8 @@ Hậu quả của sự phân bổ sai lệch này bao gồm khủng hoảng tài
 
 Ngày nay, cuộc tranh luận về tính toán kinh tế lại nổi lên chủ yếu trong các cuộc thảo luận về năng lượng, nơi mà những sai lầm đầu tư do chương trình năng lượng xanh đang trở nên ngày càng rõ ràng. Nó cũng xuất hiện trong các cuộc thảo luận về thị trường tiền tệ, khi các nhà kinh tế học Áo chỉ ra rằng cuộc khủng hoảng năm 2008, sự kiện mà các nhà kinh tế học chính thống không dự đoán được, là một chu kỳ tăng trưởng và suy thoái điển hình được đặc trưng bởi việc đầu tư quá mức vào thị trường nhà ở do thời kỳ lãi suất thấp kéo dài. Hơn nữa, các nhà tân Marxist và các phe phái xã hội chủ nghĩa khác lan truyền quan điểm rằng sự xuất hiện của AI có thể giải quyết được vấn đề tính toán kinh tế. Tuy nhiên, quan điểm này xuất phát từ sự hiểu lầm về vấn đề; vấn đề tính toán kinh tế không phải là vấn đề về sức mạnh tính toán mà là vấn đề về việc tạo ra và phân phối thông tin liên quan đến sản xuất và phân bổ tài nguyên. Thông tin này chỉ có thể được tạo ra một cách cục bổ bởi các chủ thể có kiến thức chuyên môn và có lợi ích liên quan đến kết quả đầu ra. AI không thể thay thế quá trình từ dưới lên này và do đó, không thể giúp các nhà hoạch định tạp trung giải quyết vấn đề về phân bổ nguồn lực. Đáng tiếc là, sau một thế kỷ hiểu lầm, chúng tôi dự đoán sự gia tăng của các tuyên bố rằng AI sẽ mở ra một kỷ nguyên thịnh vượng kinh tế mới do các nhà hoạch định tập trung sáng suốt dẫn dắt, những người với sự giúp đỡ của AI, có thể sửa chữa những thất bại của thị trường tự do.
 
-Để áp dụng cụ thể vấn đề tính toán kinh tế vào một tình huống hiện đại, bạn có thể tham khảo bài viết phân tích về vấn đề phân bổ tài nguyên ở Trung Quốc hiện đại.
+Để áp dụng một cách cụ thể vấn đề tính toán kinh tế vào bối cảnh đương đại, bạn có thể tham khảo bài viết này bàn về việc phân bổ nguồn lực tại Trung Quốc hiện đại: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, của Théo Mogenet.
 
-> Con đường đến với sự áp bức tài chính: Trung Quốc, một con hổ giấy, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Kết luận
 

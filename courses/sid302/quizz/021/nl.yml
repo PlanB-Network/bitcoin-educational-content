@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste zakelijke voordeel dat de 2 minuten afwikkelingstijd van Liquid biedt ten opzichte van traditionele financiële systemen?
+answer: Vermindert het tegenpartijrisico door atomaire afwikkeling mogelijk te maken waarbij levering en betaling tegelijkertijd plaatsvinden
+wrong_answers:
+  - Elimineert de noodzaak voor naleving van regelgeving en KYC-vereisten bij de handel in activa
+  - Maakt onbeperkte schaalbaarheid mogelijk voor hoogfrequente handel zonder transactiekosten
+  - Maakt automatische prijsvorming mogelijk via ingebouwde algoritmen voor marktmaking
+explanation: |
+  De 2 minuten settlement van Liquid maakt atomaire settlement mogelijk, wat cruciaal is voor het verminderen van tegenpartijrisico's omdat beide partijen tegelijkertijd ontvangen wat ze verschuldigd zijn, waardoor het gat wordt gedicht waarin één partij in gebreke zou kunnen blijven. Traditionele T+2 settlement creëert een venster waarin het tegenpartijrisico bestaat. De andere opties zijn onjuist: Liquid vereist nog steeds naleving via AMP, heeft transactiekosten en schaallimieten en biedt geen automatische marktmaking.

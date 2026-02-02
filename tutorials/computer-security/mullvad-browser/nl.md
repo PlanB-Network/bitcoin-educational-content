@@ -545,10 +545,10 @@ Hoewel het bepaalde beperkingen heeft (geen mobiele versie, niet-permanente sess
 
 
 
-- [Officiële website van de Mullvad-browser] (https://mullvad.net/fr/browser)
+- [Officiële website van de Mullvad-browser](https://mullvad.net/fr/browser)
 - [Mullvad Browser downloadpagina](https://mullvad.net/en/download/browser)
 - [Gedetailleerde technische specificaties](https://mullvad.net/en/browser/Hard-facts)
-- [Mullvad Browseruitbreiding] (https://mullvad.net/en/help/mullvad-browser-extension)
+- [Mullvad Browseruitbreiding](https://mullvad.net/en/help/mullvad-browser-extension)
 
 
 

@@ -6,4 +6,4 @@ wrong_answers:
   - TCP upravlja IP fragmentacijom, UDP rukuje kompresijom
 explanation: |
   TCP zahteva uspostavljanje i nadgledanje veze, dok UDP šalje pakete bez postavljanja ili kontrolisanja prethodne sesije.
-reviewed: false
+reviewed: true

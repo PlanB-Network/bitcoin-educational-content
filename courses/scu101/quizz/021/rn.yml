@@ -1,9 +1,12 @@
-question: Ni akaga akahe gashobora guterwa n’ugukoresha porogarama zacitsemwo ibice zidashobora guhindurwa?
-answer: Ugushika kw’umugera mu gihe wowukuraho mu buryo butemewe n’amategeko be n’ugukoresha kwawo mu buryo butagira umutekano ku buryo bushasha bwo gutera.
+question: Ni akaga akahe gashobora guterwa n’ugukoresha porogarame zitarishwe zidashobora gushirwa kugihe?
+answer: Ugushika kw’umugera(nyabwonko) mumashini yawe mu gihe uyivoma ku rubuga ruteye amakenga mu buryo butemewe n’amategeko be n’ukuyikoresha muburyo butokurinda ibitero bishasha.
 wrong_answers:
-  - Iyo porogarama izohagarika gukora haciye igihe kinaka.
-  - Iyo porogarama nta bintu bishasha izogira.
-  - Porogaramu izokoresha ibikoresho vyinshi vya sisitemu.
+  - Iyo porogarame izohagarika gukora haciye igihe kanaka.
+  - Iyo porogarame nta bintu bishasha izogira.
+  - Porogarame izokoresha ibikoresho vyinshi vya sisiteme.
 explanation: |
-  Porogaramu zacitse zidashobora guhindurwa zigereranya ingeramizi zishobora gushika kabiri. Ishobora kuzana umugera mu gihe ivuye ku rubuga ruteye amakenga mu buryo butemewe n’amategeko, kandi ishobora guterwa n’uburyo bushasha bwo guterwa.
+  Porogaramu zitarishe zidashobora gushirwa kugihe zirashobora
+  gutera ingorane zindi. Zishobora kuzana umugera (nyabwonko) mu gihe uzivoma
+  ku rubuga ruteye amakenga mu buryo butemewe n’amategeko ukaba uri mukaga
+  ko gushikirwa nibitero bishasha.
 reviewed: true

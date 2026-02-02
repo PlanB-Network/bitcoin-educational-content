@@ -1,0 +1,8 @@
+question: RefCell bi se najprikladnije koristio u scenariju kada je potrebno omogućiti promene unutrašnjeg stanja objekta čak i kada postoji samo nepromenljiva referenca na taj objekat. Ovo je korisno kada želite da zaobiđete ograničenja vremena kompilacije vezana za pozajmljivanje u Rust-u, omogućavajući promene u runtime-u uz proveru pravila pozajmljivanja.
+answer: Kada implementirate lažni objekat koji treba da prati promene unutrašnjeg stanja putem interfejsa nepromenljivog svojstva
+wrong_answers:
+  - Kada treba da delite podatke između više niti i zahtevate atomsko brojanje referenci
+  - Kada želite da izbegnete runtime overhead premeštanjem sve provere pozajmljivanja na vreme kompajliranja
+  - Kada kreirate kružne reference između struktura podataka koje zahtevaju automatsko čišćenje memorije
+explanation: |
+  RefCell je dizajniran za scenarije unutrašnje promenljivosti gde je potrebno menjati podatke kroz nepromenljivu referencu, posebno kada je statička analiza kompajlera previše konzervativna. Lažni objekti koji implementiraju osobine sa nepromenljivim metodama, ali treba da prate unutrašnje stanje, predstavljaju savršen slučaj upotrebe. Ostale opcije su netačne: RefCell nije bezbedan za niti, proveru pomera na vreme izvršavanja (ne vreme kompajliranja), i ne rešava probleme kružnih referenci - zapravo može doprineti njima kada se kombinuje sa RC.

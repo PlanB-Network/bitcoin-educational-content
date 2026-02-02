@@ -1,35 +1,18 @@
 ---
 name: Spinoza ja Bitcoin
 goal: Tutustu Spinozan ajattelun ja Bitcoin:n välisiin filosofisiin yhteyksiin vapauden välineinä kautta vuosisatojen.
-objectives: 
-
-
-  - Spinozan käytännöllisen filosofian ja vapauden tavoittelun ymmärtäminen.
-  - Tutkitaan spinozilaisia käsitteitä determinismistä ja inhimillisistä illuusioista.
-  - Analysoidaan Spinozan aatevallankumouksen ja Bitcoin:n teknologisen vallankumouksen välisiä yhtäläisyyksiä.
-
-
-
+objectives:
+- Spinozan käytännöllisen filosofian ja hänen vapauden etsintänsä ymmärtäminen.
+- Spinozalaisten determinismin ja inhimillisten illuusioiden käsitteiden tutkiminen.
+- Spinozan aatevallankumouksen ja Bitcoinin teknologisen vallankumouksen välisten yhtäläisyyksien analysointi.
+- Affektiteorian soveltaminen manipuloinnin tunnistamiseen ja vastustamiseen poliittisissa järjestelmissä.
 ---
+# Kun Spinoza tapasi Satoshin
 
-# Vapauden filosofinen tarkastelu Spinozan ja Bitcoin:n kautta
+Tutustu siihen, miten 1600-luvun filosofi Baruch de Spinozan radikaalit ajatukset vapaudesta, järjestä ja vallasta ennakoivat Bitcoinin hajautettua vallankumousta. Tämä kurssi paljastaa hämmästyttävät yhtäläisyydet: molemmat hylkäävät sokean uskon ja keskusvallan, molemmat käyttävät matemaattista tarkkuutta vapauttamiseen. Spinoza vapautti mielet uskonnollisesta dogmasta, Bitcoin vapauttaa rahan valtion kontrollista.
 
-
-
-Tällä kurssilla tutkitaan Baruch de Spinozan (1632-1677) vallankumouksellisen filosofian ja Bitcoin:n välisiä syviä yhteyksiä. Nämä kaksi vapauden välinettä ovat vuosisatojen päässä toisistaan, mutta niitä yhdistää sama pyrkimys: ihmisen vapautuminen orjuudesta.
-
-
-
-Saamme selville, miten Spinoza, rationaalisen valistusfilosofian isä, kehitti käytännön etiikan vapauttaakseen meidät meitä vangitsevista harhakuvitelmista - vapaasta tahdosta, finalismista ja teologisista taikauskoista. Hänen geometrinen metodinsa ja affektien teoriansa osoittavat meille, miten voimme ymmärtää paikkamme maailmassa ja suunnata olemassaolomme siihen, mikä lisää toimintakykyämme.
-
-
-
-Kurssilla vedetään sitten kiehtovia rinnastuksia tämän kopernikaanisen aatevallankumouksen ja Bitcoin:n välille: nämä kaksi järjestelmää eivät vaadi sokeaa uskoa eivätkä keskusviranomaista, vaan yksinkertaisesti järjen käyttöä. Aivan kuten spinozismi vapautti ajattelun uskonnollisesta dogmasta, Bitcoin vapauttaa rahan valtion valvonnasta ja tarjoaa uudenlaisen taloudellisen vapauden, jonka juuret ovat matematiikassa ja kryptografiassa.
-
-
-
+Opi käytännön työkaluja Spinozan etiikasta ymmärtääksesi bitcoinin filosofiset perusteet ja lisätäksesi toimijuuttasi. Oletko valmis tutkimaan kahta historian suurinta ihmisen vapautumisen välinettä?
 +++
-
 # Johdanto
 
 
@@ -52,7 +35,7 @@ Tällä kurssilla minulla on ilo esitellä Baruch de Spinozan (1632-1677) filoso
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/fi/001.webp)
 
 
 Spinozan muotokuva
@@ -87,7 +70,7 @@ Ensin esittelen sinulle Spinozan, hänen luonteensa, hänen sosiaalisen, uskonno
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/fi/002.webp)
 
 
 Spinozan muotokuva
@@ -110,7 +93,7 @@ Tutustumme myös Spinozan kahteen pääteokseen, alkaen Etiikasta, joka julkaist
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/fi/003.webp)
 
 
 
@@ -118,7 +101,7 @@ Sitten tarkastelemme Traité théologico-politique -teosta, joka julkaistiin hä
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/fi/004.webp)
 
 
 
@@ -130,7 +113,7 @@ Geometrien tapaan kehitetyn affektien teorian, "more geometrico", ansiosta näem
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/fi/005.webp)
 
 
 
@@ -166,7 +149,7 @@ Hän oli juutalaista syntyperää ja kuului portugalilaiseen sefardien yhteisö�
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/fi/006.webp)
 
 
 
@@ -174,7 +157,6 @@ Itse asiassa hän suhtautui jo varhain vahvasti kriittisesti vakiintuneeseen usk
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -186,7 +168,7 @@ Spinoza, joka aikalaistensa Descartesin (1596-1650), Pascalin (1632-1662) ja New
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/fi/007.webp)
 
 
 
@@ -206,10 +188,10 @@ Juuri tämä lähestymistapa yhdistää Spinozan valistuksen filosofiaan, olipa 
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/fi/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/fi/009.webp)
 
 
 
@@ -225,7 +207,7 @@ Rikkaus ei kuitenkaan ole sidoksissa luonnonvaroihin, siirtomaiden riistoon ja r
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/fi/010.webp)
 
 
 
@@ -272,7 +254,6 @@ Tässä luvussa ehdotan, että siirrymme nyt Spinozan tärkeimpään teokseen Et
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -284,7 +265,7 @@ Etiikka on latinankielinen teos, joka on kirjoitettu geometrikkojen tapaan, ja s
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/fi/011.webp)
 
 
 
@@ -296,7 +277,7 @@ Haluaisin huomauttaa, että kun avaat Etiikan, on suositeltavaa aloittaa jälkis
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/fi/012.webp)
 
 
 
@@ -328,7 +309,7 @@ Ensinnäkin, jos Spinozalle sattumaa ei ole olemassa, se johtuu siitä, että se
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/fi/013.webp)
 
 
 
@@ -348,7 +329,7 @@ Kuuluisan filosofian professorin ja Spinoza-asiantuntijan Gilles Deleuzen (1925-
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fi/014.webp)
 
 
 
@@ -384,7 +365,7 @@ Kyseessä on Traité théologico-politique eli TTP, joka julkaistiin nimettömä
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/fi/015.webp)
 
 
 
@@ -395,7 +376,7 @@ Kuten olemme nähneet, Spinozan jumalakäsitys on koko Etiikan ensimmäisen osan
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/fi/016.webp)
 
 
 
@@ -407,7 +388,7 @@ Näin Spinoza osoittaa meille, että Jumala ei ole hänen mielestään antropomo
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/fi/017.webp)
 
 
 
@@ -444,7 +425,7 @@ Lissabonin surullisenkuuluisa maanjäristys 1. marraskuuta 1755 osoitti, että i
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/fi/018.webp)
 
 
 
@@ -456,7 +437,7 @@ Draama, joka herätti henkiin saksalaisen filosofin ja matemaatikon Leibnizin (1
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/fi/019.webp)
 
 
 
@@ -464,7 +445,7 @@ Jean-Jacques Rousseau (1712-1778) kirjoitti Voltairelle, jota ihmiskunnan kärsi
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/fi/020.webp)
 
 
 
@@ -509,10 +490,9 @@ Aivan kuten Nikolai Kopernikus (1473-1543) totesi, että maapallo ei ole maailma
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/fi/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -524,7 +504,7 @@ Ennen häntä klassisessa kreikkalaisessa filosofiassa maailmankaikkeutta, kosmo
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/fi/022.webp)
 
 
 
@@ -536,10 +516,9 @@ Kopernikuksen (1473-1543) uuden fysiikan myötä 1400-luvulla kosmologiassa tapa
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/fi/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -547,7 +526,7 @@ Jotta voimme täysin ymmärtää spinozismia, meidän on kuitenkin otettava huom
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/fi/024.webp)
 
 
 
@@ -555,7 +534,7 @@ Riskeistä ja Giordano Brunon (1548-1600) ja Galileon tuomioista huolimatta Desc
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/fi/025.webp)
 
 
 
@@ -599,7 +578,7 @@ Kuten olemme jo nähneet, Spinoza (1632-1677) on tunnettu siitä, että hän pit
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/fi/026.webp)
 
 
 
@@ -623,7 +602,7 @@ Koska hän ei olisi elämänsä toteuttamisessa minkään muun kuin oman tahtons
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/fi/027.webp)
 
 
 
@@ -639,7 +618,7 @@ Tämä on absoluuttisen determinismin ajatus, josta hän Etiikassaan lähtee, et
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/fi/028.webp)
 
 
 
@@ -667,7 +646,7 @@ Tämä lähestymistapa vapauteen toimintakykynä on se yhteys, jonka voimme luod
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/fi/029.webp)
 
 
 
@@ -692,10 +671,9 @@ Lopuksi on syytä huomauttaa, että vaikka libertaristinen liike, josta nyt kesk
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/fi/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -726,7 +704,7 @@ Spinozalle (1632-1677) ihminen ei kuitenkaan ole "valtakunta valtakunnan sisäll
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/fi/031.webp)
 
 
 
@@ -750,7 +728,7 @@ Siksi jotkut ovat aina pitäneet uusia sairauksia, kuten aidsia 90-luvulla tai c
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/fi/032.webp)
 
 
 
@@ -766,7 +744,7 @@ Juuri näin väitti ranskalainen luonnontieteilijä Jean-Baptiste de Lamarck (17
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/fi/033.webp)
 
 
 
@@ -774,7 +752,7 @@ Mutta kuten Spinoza sanoo, "ihmisten harhaluulot eivät lopu tähän", ja kaikki
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/fi/034.webp)
 
 
 
@@ -790,7 +768,7 @@ Tämä yksipuolinen tulkinta inflaatiosta saa meidät kuitenkin unohtamaan, ett�
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/fi/035.webp)
 
 
 
@@ -826,7 +804,7 @@ Tässä viimeisessä luvussa, joka käsittelee spinozismin tarjoamaa uutta koper
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/fi/036.webp)
 
 
 
@@ -850,7 +828,7 @@ Toisin sanoen, pilven taakse kätkeytynyt valkopartainen vanha mies, jonka uskot
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/fi/037.webp)
 
 
 
@@ -862,7 +840,7 @@ Huolimatta ylpeydestämme uskoa olevamme luonnon yläpuolella ja kuvitellessamme
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/fi/038.webp)
 
 
 
@@ -882,7 +860,7 @@ Toisin sanoen Voltairen (1694-1778) mukaan "pahamaineiset", joille taikausko ei 
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/fi/039.webp)
 
 
 
@@ -894,7 +872,7 @@ Tätä saksalaiset, englantilaiset ja ranskalaiset valistajat puolustivat 1700-l
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/fi/040.webp)
 
 
 
@@ -902,7 +880,7 @@ Ja tämän Spinoza osoittaa jälleen kerran teologis-poliittisessa tutkielmassaa
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/fi/041.webp)
 
 
 
@@ -962,7 +940,7 @@ Antiikin filosofit uskoivat, että pahaa ei ole luonnossa, ja esimerkiksi Sokrat
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/fi/042.webp)
 
 
 
@@ -970,7 +948,7 @@ Mutta skolastinen perinne, erityisesti pyhän Augustinuksen (354-430) perinne, j
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/fi/043.webp)
 
 
 
@@ -987,7 +965,7 @@ Kuten voitte kuvitella, Spinoza repii tämän ajatuksen riekaleiksi, sillä hän
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/fi/044.webp)
 
 
 
@@ -1010,7 +988,7 @@ Siksi spinotsilainen Gilles Deleuze (1925-1995) selittää, että etiikka on er�
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fi/045.webp)
 
 
 
@@ -1050,7 +1028,7 @@ Hän kehittää järjestelmäänsä Etiikan kolmannessa osassa. Se on kuuluisa "
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/fi/046.webp)
 
 
 
@@ -1074,7 +1052,7 @@ Näin sanoo Spinoza Etiikassaan, kun hän hämmästelee sitä, että "ihmiset n�
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/fi/047.webp)
 
 
 
@@ -1090,7 +1068,7 @@ Tämä pätee muuten erityisesti kryptovaluuttojen alalla.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/fi/048.webp)
 
 
 
@@ -1110,7 +1088,7 @@ Tämä on esimerkki salamasta. Kun salama iskee ja tappaa viattomia ihmisiä, ti
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/fi/049.webp)
 
 
 
@@ -1130,7 +1108,7 @@ Tämä on etiikan nerokkuus. Spinoza osoittaa meille, että on mahdollista siirt
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/fi/050.webp)
 
 
 
@@ -1168,14 +1146,13 @@ Loppujen lopuksi tämä selkeys tarkoittaa sitä, ettei ihminen enää elä Frie
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Juuri tästä valistuksen rationaalisessa filosofiassa oli kyse, kiitos erityisesti Immanuel Kantin (1724-1804), jonka mielestä vain koulutettu yksilö voi järjen ohjaamana ajatella itse ja määrittää eettisesti, mikä on "totta" tai "hyvää" ja mikä myrkyllistä.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/fi/051.webp)
 
 
 
@@ -1186,7 +1163,7 @@ Kyseessä on päättelytapa, joka yhdistää itävaltalaisen liberaalin talousti
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/fi/052.webp)
 
 
 
@@ -1194,7 +1171,7 @@ Menger ja Mises totesivat esimerkiksi, että kaikki tieto on rakennettava asioid
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/fi/053.webp)
 
 
 
@@ -1215,7 +1192,7 @@ Spinotsistina Hayek selittää videolla, että "koska tätä valtaa ei voida ott
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/fi/054.webp)
 
 
 
@@ -1223,7 +1200,7 @@ Nämä ovat poliittisia ja taloudellisia perusteluja, jotka ensimmäiset salakir
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/fi/055.webp)
 
 
 
@@ -1231,7 +1208,7 @@ Varsinkin kun hän kirjoitti 3. tammikuuta 2009 julkaistun Timesin otsikon Block
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/fi/056.webp)
 
 
 

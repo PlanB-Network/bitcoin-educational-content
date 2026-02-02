@@ -1,0 +1,9 @@
+question: Enligt kapitlet, vad händer när du slarvar med din egen Bitcoin sekretesspraxis?
+answer: Det kan också minska integriteten för andra Bitcoin-användare
+wrong_answers:
+  - Det påverkar bara dina egna transaktioner och har ingen inverkan på andra
+  - Det gör hela Bitcoin-nätverket säkrare för alla
+  - Det bidrar till att förbättra den övergripande anonymiteten i Bitcoin-systemet
+explanation: |
+  Bitcoin:s integritet är sammankopplad mellan användare. När en person slarvar med sina integritetsrutiner kan det ha en negativ inverkan på integriteten för andra användare som de gör transaktioner med. Detta händer eftersom transaktionsmönster, adressklustring och andra tekniker för blockkedjeanalys kan avslöja information om flera parter som är inblandade i transaktioner. I kapitlet betonas att de integritetsåtgärder du vidtar inte bara skyddar dig själv - de hjälper också till att skydda det bredare Bitcoin-samhället, vilket gör integriteten till ett kollektivt ansvar snarare än bara en individuell angelägenhet.
+reviewed: false

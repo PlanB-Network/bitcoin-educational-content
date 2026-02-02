@@ -1,0 +1,9 @@
+question: Milline on Matt Corallo ettekande kohaselt Bitcoin arhitektuuris usalduseta ja usaldusväärsete süsteemide vaheline suhe?
+answer: Usaldusväärseid süsteeme saab ehitada usaldusvaba süsteemi peale, kuid usaldusvabasid süsteeme usaldusvabade süsteemide peale ei saa ehitada
+wrong_answers:
+  - Usaldusväärsete süsteemide peale saab ehitada usalduseta süsteeme, kuid usalduseta süsteemide peale ei saa ehitada usalduslikke süsteeme
+  - Nii usalduseta kui ka usaldusväärseid süsteeme saab ehitada üksteise peale ilma igasuguste arhitektuuriliste piiranguteta
+  - Trustless ja usaldusväärsed süsteemid peavad toimima sõltumatult ja neid ei saa üksteise peale panna
+explanation: |
+  Matt Corallo peamine arusaam on, et Bitcoin usaldusteta baaskihi võimaldab paindlikkust süsteemi disainis. Bitcoin protokollisarnane usalduseta alus võimaldab arendajatel luua kõrgematel kihtidel usaldusväärseid teenuseid (näiteks hoiukassad), säilitades samal ajal aluseks olevad turvatagatised. Kuid vastupidine on võimatu - ei saa luua tõeliselt usalduseta süsteeme, kui alus ise nõuab usaldust, sest usaldusliku baaskihi haavatavus õõnestaks igasuguseid usalduseta omadusi.
+reviewed: false

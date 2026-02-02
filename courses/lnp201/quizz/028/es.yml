@@ -6,4 +6,4 @@ wrong_answers:
   - Reclamar solo la mitad de los fondos disponibles
 explanation: |
   En el evento de hacer trampa, Bob puede usar la llave de revocación para recuperar todos los fondos del canal, castigando así a Alice por su intento.
-reviewed: false
+reviewed: true

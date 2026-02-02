@@ -1,9 +1,9 @@
 question: Ni kuki bihambaye ko ukingira ijambo ryawe rya Mnemonic?
-answer: Kuko kuyitakaza bituma umuntu atakaza ubudasiba ama bitcoins .
+answer: Kuko kuyitakaza bituma umuntu atakaza burundu ama bitcoins yawe 
 wrong_answers:
-  - Kuko Blockchain ari ndende cane ku buryo idashobora kuyisubirana .
-  - Kuko kuyitakaza bituma amakuru y’umuntu ku giti ciwe asohoka .
-  - Kuko ama platforms ya Exchange asaba inyandiko nyinshi kugira ngo asubire gusubirana .
+  - Kuko Blockchain ari ndende cane ku buryo idashobora kusubira gukorwa 
+  - Kuko kuyitakaza bituma amakuru bwite y’abantu aja ahabona 
+  - Kuko imbuga zo kuvunjisha zisaba inyandiko nyinshi kugira ngo asubire gusubirana 
 explanation: |
-  Ijambo Mnemonic rituma umuntu ashobora kuronka uburenganzira bwo kuronka. Iyo yatakaye kandi Wallet itagishobora gukoreshwa ku gikoresho cayo, ama bitcoins arazimangana ubuziraherezo.
+  Ijambo Mnemonic rituma umuntu ashobora kugarukana uburenganzira bwo kuronka. Iyo yatakaye kandi ingodo itagishobora gukoreshwa ku gikoresho cayo, ama bitcoins arazimangana burundu.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Batasan arsitektur mendasar dari Lightning Development Kit (LDK) apa yang menciptakan risiko operasional paling parah bagi pengguna seluler wallet selama lonjakan biaya jaringan?
+answer: Tidak adanya output jangkar yang mencegah penutupan paksa saluran ketika biaya yang telah ditetapkan tidak mencukupi untuk konfirmasi transaksi
+wrong_answers:
+  - Kurangnya dukungan LNURL yang membutuhkan pembuatan faktur manual dan pemrosesan pembayaran untuk semua transaksi Lightning
+  - Hilangnya sinkronisasi grafik jaringan yang menyebabkan kegagalan perutean pembayaran saat aplikasi seluler dimulai ulang setelah periode yang lama
+  - Manajemen cadangan saluran yang tidak memadai yang menyebabkan penguncian dana ketika pengguna mencoba untuk menggunakan seluruh saldo yang ditampilkan
+explanation: |
+  Tidak adanya output jangkar di LDK menciptakan kerentanan kritis di mana saluran tidak dapat ditutup secara paksa selama lonjakan biaya karena biaya yang telah ditetapkan tidak mencukupi untuk konfirmasi blockchain. Hal ini sangat berbahaya untuk dompet seluler di mana pengguna dapat meninggalkan aplikasi tanpa penutupan kooperatif, yang berpotensi membuat dana terdampar tanpa batas waktu. Walaupun ketiadaan LNURL mempengaruhi pengalaman pengguna dan masalah perutean berdampak pada keandalan, keduanya tidak menciptakan risiko eksistensial terhadap pemulihan dana yang disebabkan oleh keterbatasan output jangkar selama lingkungan dengan biaya tinggi.

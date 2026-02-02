@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "word-characteristics",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the glossary word using UUID v4 format",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "en_word": {
+      "type": "string",
+      "description": "The word in English, typically in uppercase. This is the basis for identifying the word in the glossary"
+    },
+    "related_words": {
+      "type": ["array", "null"],
+      "description": "List of related words in the glossary, using their en_word names",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of tags associated with the word, chosen from the predefined PlanB tags list",
+      "items": {
+        "type": "string"
+      }
+    },
+    "original_language": {
+      "type": "string",
+      "description": "ISO 639-1 language code indicating the original language of the word definition",
+      "pattern": "^[a-z]{2}(-[A-Z]{2}|-[A-Za-z]{4})?$"
+    },
+    "license": {
+      "type": "string",
+      "description": "License under which the content is distributed",
+      "enum": ["CC-BY-SA-V4", "MIT"]
+    },
+    "proofreading": {
+      "type": "array",
+      "description": "Proofreading metadata for each language translation",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string",
+            "description": "ISO 639-1 language code for this proofreading entry",
+            "pattern": "^[a-z]{2}(-[A-Z]{2}|-[A-Za-z]{4})?$"
+          },
+          "last_contribution_date": {
+            "description": "Date of the last contribution in YYYY-MM-DD format, or null if not yet contributed"
+          },
+          "urgency": {
+            "type": "integer",
+            "description": "Level of urgency for proofreading, 1 being low urgency",
+            "minimum": 1
+          },
+          "contributor_names": {
+            "type": ["array", "null"],
+            "description": "List of contributor GitHub usernames who have proofread this language",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reward": {
+            "type": "number",
+            "description": "Amount of sats available as reward for proofreading",
+            "minimum": 0
+          }
+        },
+        "required": ["language", "urgency", "reward"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["id", "en_word", "original_language", "proofreading"],
+  "additionalProperties": false
+}

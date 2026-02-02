@@ -1,0 +1,9 @@
+question: Vilket av dessa verktyg identifierar inte relevanta kollegor på Lightning?
+answer: Electrum
+wrong_answers:
+  - Blixt terminal
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum är inte en Lightning explorer för att få fram information om nätverksnoder. De andra tre verktygen utför däremot denna funktion väl.
+reviewed: false

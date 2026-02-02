@@ -1,0 +1,14 @@
+title: "Universal Electronic Cash"
+original_language: en
+authors:
+  - Tatsuaki Okamoto
+  - Kazuo Ohta
+abstract: |
+  This paper proposes the first ideal untraceable electronic cash system which solves the most crucial problem inherent with real cash and all previous untraceable electronic cash systems. The main advantage of the new system is that the customer can subdivide his cash balance, C (dollars), into many pieces in any way he pleases until the total value of all subdivided pieces equals C. This system can be implemented efficiently. In a typical implementation, the data size of one piece of electronic cash is less than 100 bytes regardless of the face value of the piece; the computation time for each transaction is several seconds, assuming the existence of a Rabin scheme chip. The security of this scheme relies on the difficulty of factoring.
+paper_type: conference
+source: Crypto
+topics:
+  - Anonymous Transaction Systems
+  - Privacy-Preserving Protocols
+pdf_url: https://link.springer.com/content/pdf/10.1007/3-540-46766-1_27.pdf
+id: b0717842-0df4-4991-87db-ba1e850db307

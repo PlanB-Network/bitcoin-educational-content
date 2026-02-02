@@ -1,0 +1,8 @@
+question: Quale tipo di parametro deve utilizzare un metodo Rust se deve modificare l'istanza della struttura consentendo al chiamante di mantenere la proprietà?
+answer: "&mut self"
+wrong_answers:
+  - "&self"
+  - sé
+  - mut self
+explanation: |
+  I metodi che devono modificare un'istanza di una struttura, consentendo al chiamante di mantenerne la proprietà, devono usare `&mut self` come primo parametro. Questo crea un riferimento mutabile all'istanza, consentendo al metodo di modificare i campi della struttura senza togliere la proprietà al chiamante. L'uso di `&self` consentirebbe solo la lettura dell'istanza, `self` consumerebbe interamente l'istanza e `mut self` non è una sintassi Rust valida per i parametri dei metodi.

@@ -1,9 +1,9 @@
-question: In most jurisdictions, what triggers a taxable event when dealing with Bitcoin?
-answer: Selling, trading, or using Bitcoin as payment often triggers a taxable event.
+question: Ở hầu hết các khu vực pháp lý, điều gì gây ra sự kiện chịu thuế khi xử lý Bitcoin?
+answer: Việc bán, giao dịch hoặc sử dụng Bitcoin làm phương thức thanh toán thường dẫn đến sự kiện chịu thuế.
 wrong_answers:
-  - Simply holding Bitcoin indefinitely without any transactions.
-  - Backing up your Bitcoin wallet or keys.
-  - Viewing the Bitcoin price online.
+  - Chỉ cần nắm giữ Bitcoin vô thời hạn mà không cần bất kỳ giao dịch nào.
+  - Sao lưu Bitcoin wallet hoặc khóa của bạn.
+  - Xem giá Bitcoin trực tuyến.
 explanation: |
-  Typically, a taxable event occurs when a business disposes of or uses its Bitcoin, not merely by holding it. Each sale or exchange of Bitcoin for goods, services, or fiat currency can generate taxable gains or losses.
-reviewed: false
+  Thông thường, một sự kiện chịu thuế xảy ra khi một doanh nghiệp thanh lý hoặc sử dụng Bitcoin của mình, chứ không chỉ đơn thuần là giữ nó làm dự trữ. Mỗi lần bán hoặc trao đổi Bitcoin để lấy hàng hóa, dịch vụ hoặc tiền tệ pháp định đều có thể tạo ra lãi hoặc lỗ chịu thuế generate.
+reviewed: true

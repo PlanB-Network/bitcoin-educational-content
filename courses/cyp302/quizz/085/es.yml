@@ -6,4 +6,4 @@ wrong_answers:
   - Una encriptación que no requiere una clave secreta
 explanation: |
   Un block cipher es un algoritmo que aplica una transformación sobre una cadena de bits de longitud fija con una clave para producir otra cadena de la misma longitud.
-reviewed: false
+reviewed: true

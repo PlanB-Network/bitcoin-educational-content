@@ -1,0 +1,8 @@
+question: Pedersen 承诺在 Elements 和 Confidential Transactions 中的主要目的是什么？
+answer: 用加密承诺取代可见交易金额，可在不泄露实际金额的情况下进行验证
+wrong_answers:
+  - 为 Elements 区块链上新发行的资产提供 generate 独一无二的 64 位十六进制标识符
+  - 通过创建数学证明，证明隐藏值是有效范围内的正整数，从而防止 double-spending
+  - 通过加密挂钩机制，将 Bitcoin 从主链转移到 Elements 侧链上
+explanation: |
+  Pedersen 承诺是 Confidential Transactions 的核心加密机制，它以数学承诺取代可见金额，从而实现隐私保护。由于其同构特性，验证者可以验证输入等于输出加费用，而无需看到实际值。范围证明可以防止负数，资产 ID 可以识别代币，挂钩机制可以处理跨链转账，但这些都不是佩德森承诺的具体功能。

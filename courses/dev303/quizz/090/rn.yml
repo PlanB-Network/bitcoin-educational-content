@@ -1,0 +1,8 @@
+question: Ni igiki c’intango abahinguzi bategerezwa gukora igihe bakoresha UniFFI mu gutegura porogarama zigendanwa zisaba interfaces z’abakoresha zisubiza?
+answer: UniFFI ishigikira gusa interfaces zihuye, zisaba abahinguzi gukora ibikorwa bitahuye biciye mu buryo butandukanye bwo gukora indodo
+wrong_answers:
+  - UniFFI ntishobora gukorana n'ubwoko bw'amakuru butoroshe nka enums na structs, igabanura ubutunzi bw'imirongo ya API igendagenda
+  - UniFFI itanga ububohe butagira umutekano mu bwibuke ku mipaka y'ururimi, bisaba gucunga ubwonko n'amaboko
+  - UniFFI ntishigikira ubuhinduzi bwo gufata amakosa, ihatira abahinguzi gushiramwo ubuhinduzi budasanzwe mu rurimi rwose
+explanation: |
+  Ico UniFFI ishobora gukora ni ukubura ubufasha bw'imirongo idahuye - amabohero yose yavyawe arahuye. Ivyo bitera ingorane ku gutegura telefone ngendanwa aho UIs zisubiza ari ngirakamaro, kuko abategura bategerezwa gushiramwo inyishu zabo z’urudodo kugira ngo ntibabuze urudodo nyamukuru. Inyishu zitari zo ntizibereye kubera ko UniFFI mu vy’ukuri isumba izindi mu gukoresha ubwoko butoroshe nk’ibiharuro n’imiterere, itanga ubuhinga bwo kwibuka butekanye ku mipaka y’ururimi, kandi ifise ubuhinduzi bukomeye bwo gukoresha amakosa buhindura ubwoko bw’ibisubizo vya Rust mu bigereranyo vy’ururimi rw’akavukire.

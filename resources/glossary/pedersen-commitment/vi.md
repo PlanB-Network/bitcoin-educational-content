@@ -1,5 +1,6 @@
 ---
-term: Pedersen commitment
+term: Cam kết Pedersen
+definition: Cam kết mật mã đồng hình cho phép xác minh tổng mà không tiết lộ giá trị.
 ---
 
 Pedersen commitment là một loại Commitment mật mã có đặc tính đồng hình với phép toán cộng. Điều này có nghĩa là có thể xác thực tổng của hai cam kết mà không tiết lộ các giá trị riêng lẻ.

@@ -1,5 +1,6 @@
 ---
-term: BIT (SATUAN)
+term: Bit (satuan)
 
+definition: Subdivisi moneter bitcoin setara dengan 100 satoshi, jarang digunakan dibandingkan dengan sats.
 ---
 Dalam konteks Bitcoin, istilah "bit" juga digunakan untuk merujuk pada subunit moneter bitcoin. Satu bit sama dengan 100 satoshi, dimana satoshi adalah unit terkecil bitcoin yang tidak dapat dibagi lagi. Oleh karena itu, satu bitcoin sama dengan 1.000.000 bit atau 100.000.000 satoshi. Namun, penggunaan istilah ini sebagai pembagian moneter masih menjadi kontroversi. Mayoritas pengguna Bitcoin menggunakan "satoshi" atau "btc", tetapi tidak menggunakan "bit"

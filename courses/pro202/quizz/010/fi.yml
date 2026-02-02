@@ -1,0 +1,8 @@
+question: Mikä on hash160:n (SHA-256, sitten RIPEMD-160) ensisijainen tarkoitus, kun Bitcoin-osoitteita luodaan julkisista avaimista?
+answer: Julkisen avaimen piilottaminen, kunnes rahankäyttö tapahtuu, ja lyhyempien, helpommin hallittavien osoitteiden luominen
+wrong_answers:
+  - Salataksesi yksityisen avaimen ja estääksesi luvattoman pääsyn wallet:n varoihin
+  - generate:n digitaalinen allekirjoitus, jota tarvitaan transaktion validointiin lohkoketjussa
+  - Elliptisen käyrän pisteiden muuntaminen oikeaan muotoon secp256k1-operaatioita varten
+explanation: |
+  Hash160:llä on useita tärkeitä tehtäviä Bitcoin-osoitteiden luomisessa. Koska julkinen avain hassataan, se pitää todellisen julkisen avaimen piilossa siihen asti, kunnes kolikot on käytetty, mikä tarjoaa ylimääräisen turvakerroksen. Hashaus vähentää myös huomattavasti osoitteen kokoa 33/65 tavusta vain 20 tavuun, mikä tekee osoitteista helpommin hallittavia. Väärissä vastauksissa tämä sekoitetaan yksityisen avaimen salaukseen (jota ei tehdä), digitaalisiin allekirjoituksiin (joissa käytetään eri salausoperaatioita) tai käyrän muotoiluun (joka tapahtuu SEC:n sarjallistamisen, ei osoitteen luomisen aikana).

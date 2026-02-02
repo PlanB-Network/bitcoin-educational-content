@@ -1,6 +1,7 @@
 ---
-term: BASE58CHECK
+term: Base58check
 
+definition: Bitcoin Legacy -osoitteissa käytetty koodaus, joka käyttää 58 yksiselitteistä merkkiä ja tarkistussummaa syöttövirheiden havaitsemiseen.
 ---
 `Base58Check` on Bitcoin-järjestelmässä käytetty koodaus, jota käytetään Legacy-vastaanottoosoitteiden ja tiettyjen muiden tietojen, kuten laajennettujen avainten, esittämiseen ihmiselle luettavina merkkijonoina. Se on muunnelma `Base58`-järjestelmästä, joka on peruslukua 58 kuvaava sijainnillinen esitys, jonka tarkoituksena on minimoida ihmisten tekemät kirjoitusvirheet. Siinä käytetään 58 aakkosnumeerista merkkiä, jotka koostuvat numeroista `1` - `9`, isoista kirjaimista `A` - `Z` (lukuun ottamatta kirjaimia `I` ja `O` sekaannusten välttämiseksi numeroiden `1` ja `0` kanssa) ja pienistä kirjaimista `a` - `z` (lukuun ottamatta kirjainta `l` sekaannusten välttämiseksi numeron `1` kanssa). `Base58Check` eroaa `Base58`:sta lisäämällä tarkistussumman. Se esitetään pienennettynä versiona alkuperäisen datan kaksinkertaisesta `SHA256`-hashista (`SHA256d` tai `HASH256`), joka on `Base58`-koodatun datan lopussa. Tarkistettaessa tarkistussumma lasketaan uudelleen ja sitä verrataan koodauksen aikana lisättyyn tarkistussummaan. Jos nämä kaksi hashia täsmäävät, dataa pidetään kelvollisena; muussa tapauksessa ilmoitetaan korruptoitumisesta tai transkriptiovirheestä.
 

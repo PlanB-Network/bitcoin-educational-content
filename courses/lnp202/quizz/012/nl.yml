@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste compromis met LN on-board knooppunten?
+answer: Afhankelijkheid van de operator
+wrong_answers:
+  - Verlies van privésleutels
+  - Geen zelfbewaarneming
+  - Onchain-betalingen verplicht voor alle Lightning-transacties
+explanation: |
+  De gebruiker is sterk afhankelijk van de hoofdoperator voor connectiviteit en kanaalbeheer.
+reviewed: false

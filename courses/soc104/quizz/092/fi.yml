@@ -1,0 +1,9 @@
+question: Satoshi Nakamoton filosofian mukaan minkä perinteisten valuuttojen perusongelman Bitcoin yrittää ratkaista?
+answer: Liiallinen luottamus keskitettyihin instituutioihin, jotka historiallisesti rikkovat tätä luottamusta valuutan arvon alentamisella
+wrong_answers:
+  - Perinteisten maksujenkäsittelyjärjestelmien tekninen tehottomuus, joka aiheuttaa viivästyksiä kansainvälisissä maksutapahtumissa
+  - Fyysisen valuutan tuotannon ympäristövaikutukset ja perinteisen pankki-infrastruktuurin hiilijalanjälki
+  - Nykyisen rahapolitiikan matemaattinen monimutkaisuus, jonka vuoksi kansalaisten on vaikea ymmärtää taloudellisia päätöksiä
+explanation: |
+  Satoshi Nakamoto totesi nimenomaisesti, että "tavanomaisen valuutan perusongelma on luottamus, jota tarvitaan, jotta se toimisi", ja että "fiat-valuuttojen historia on täynnä luottamuksen rikkomisia".
+  Tämä lainaus paljastaa Bitcoin:n keskeisen tarkoituksen: poistaa tarve luottaa siihen, että keskuspankit eivät heikennä valuutan arvoa. Genesis-lohkon viittaus pankkien pelastamiseen vahvistaa tätä institutionaalisten epäonnistumisten kritiikkiä. Väärissä vastauksissa keskitytään teknisiin, ympäristöön liittyviin tai monimutkaisuuteen liittyviin kysymyksiin, jotka voivat olla perusteltuja huolenaiheita, mutta jotka eivät olleet Bitcoin:n perustavanlaatuinen filosofinen motivaatio, kuten sen luoja on ilmaissut.

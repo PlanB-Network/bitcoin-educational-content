@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
+definition: Mã vận hành áp đặt giới hạn thời gian tương đối đối với việc chi tiêu UTXO.
 ---
 Renders the transaction invalid if any one of these characteristics is observed:
 

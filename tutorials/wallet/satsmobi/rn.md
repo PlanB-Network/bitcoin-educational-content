@@ -12,7 +12,7 @@ _Iyi nyigisho yanditswe na_ [Ishure ryisumbuye rya Bitcoin]
 
 ## Sats.Mobi
 
-SatsMobi ni Wallet ikoresha Telegram, ifise ibikorwa vyose vya Lightning Network (ivy’ububiko) Wallet, yongerako urutonde rw’ibintu biteye umunezero cane. Yavuye kuri Fork ya LightningTipBot ubu itagikoreshwa, iragwa ibiranga vyose mu gihe yongerako ibindi bishasha, gutyo ikaba igira ubuhinga bwa none. Cokimwe na LNTipBot, Sats.Mobi na yo nyene irakira ubuhinga bwo gukoresha ubuhinga bufunguye. Wallet ishobora gutunganirizwa no gucungirwa yigenga mu kuyikora nk’iyi [bubiko] (https://github.com/massmux/SatsMobiBot).
+SatsMobi ni Wallet ikoresha Telegram, ifise ibikorwa vyose vya Lightning Network (ivy’ububiko) Wallet, yongerako urutonde rw’ibintu biteye umunezero cane. Yavuye kuri Fork ya LightningTipBot ubu itagikoreshwa, iragwa ibiranga vyose mu gihe yongerako ibindi bishasha, gutyo ikaba igira ubuhinga bwa none. Cokimwe na LNTipBot, Sats.Mobi na yo nyene irakira ubuhinga bwo gukoresha ubuhinga bufunguye. Wallet ishobora gutunganirizwa no gucungirwa yigenga mu kuyikora nk’iyi [bubiko](https://github.com/massmux/SatsMobiBot).
 
 
 Niba ushaka kuyikoresha mu buryo bworoshe, gutangura kuganira kuri Telegram bizokwerekana ko ari bot.
@@ -232,5 +232,5 @@ Niba uriko urarondera ama wallet Lightning Network atagira ububiko, ni vyiza can
 ### Inyandiko
 
 
-- [Github] (imbuga ngurukanabumenyi/imbuga ngurukanabumenyi)
+- [Github](imbuga ngurukanabumenyi/imbuga ngurukanabumenyi)
 - Urutonde rw'amasanamu (ibisubizo? ubushakashatsi=Sats.mobi) demo

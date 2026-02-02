@@ -1,0 +1,8 @@
+question: Elements sử dụng kỹ thuật mã hóa nào để che giấu số tiền giao dịch mà vẫn cho phép xác thực mạng?
+answer: Cam kết của Pedersen
+wrong_answers:
+  - Merkle Tree Hashing
+  - Dấu hiệu đường cong elip
+  - Mã hóa SHA-256
+explanation: |
+  Cam kết Pedersen là kỹ thuật mật mã cụ thể được sử dụng trong Elements và Confidential Transactions để che giấu số tiền giao dịch. Những cam kết này thay thế số tiền hiển thị bằng các cam kết mật mã mà các trình xác thực vẫn có thể kiểm chứng về mặt toán học mà không tiết lộ giá trị thực tế. Merkle Tree sử dụng hàm băm để tổ chức dữ liệu giao dịch thành các khối, chữ ký đường cong Elliptic được sử dụng để ủy quyền giao dịch, và SHA-256 là một thuật toán băm, nhưng không có phương pháp nào trong số này che giấu số tiền giao dịch trong khi vẫn duy trì khả năng xác thực như cam kết Pedersen.

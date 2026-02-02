@@ -1,5 +1,6 @@
 ---
-term: PEER DISCOVERY
+term: Peer discovery
+definition: Processus par lequel un nœud Bitcoin découvre et se connecte à d'autres nœuds du réseau.
 ---
 
 Processus par lequel les nœuds du réseau Bitcoin se connectent à d'autres nœuds pour obtenir des informations. Lorsqu'un nœud Bitcoin est lancé pour la première fois, il ne possède aucune information sur les autres nœuds du réseau. Pourtant, il doit établir des connexions pour se synchroniser sur la blockchain avec le plus de travail accumulé. Plusieurs mécanismes sont utilisés pour découvrir ces pairs, par ordre de priorité :

@@ -6,3 +6,4 @@ wrong_answers:
   - User decentralization and developer decentralization
 explanation: |
   Bitcoin's decentralization has two key components: miner decentralization and full node decentralization. Miner decentralization means that transaction processing and ordering isn't controlled by any single entity, but rather by a dynamic collective of miners who can join or leave freely. Full node decentralization refers to the validation of blocks being performed at the network's edge by users themselves, rather than by trusted authorities. These two aspects work together to achieve censorship resistance - miners prevent centralized transaction ordering while full nodes ensure trustless validation of the blockchain.
+reviewed: false

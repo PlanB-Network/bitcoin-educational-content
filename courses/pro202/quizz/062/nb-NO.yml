@@ -1,0 +1,8 @@
+question: Hvorfor må det være et tomt element nederst i vitnebunken i en P2WSH-transaksjon for en 2-av-3 multisig?
+answer: For å kompensere for CHECKMULTISIGs "off-by-one"-feil som bruker et ekstra stabelelement under kjøring
+wrong_answers:
+  - "For å gi en plassholder for den tredje signaturen som ikke ble brukt i 2-av-3 multisignaturvalideringen"
+  - For å skille signaturdataene fra vitneskriptet for riktig SegWit-valideringsparsing
+  - For å sikre at vitnestakken har et jevnt antall elementer for effektiv konstruksjon av merkle-treet
+explanation: |
+  CHECKMULTISIG-operasjonskoden har en historisk feil som gjør at den henter ett ekstra element fra stakken utover det den burde trenge. Dette påvirker alle multisig-transaksjoner, inkludert P2WSH. Det tomme elementet kompenserer for denne feilen, og sørger for at de gjenværende stabelelementene (signaturer og vitneskript) er riktig plassert for validering. De andre alternativene er feil: Ubrukte signaturer representeres ikke av tomme elementer, vitneparsing krever ikke separasjonselementer, og vitnestabler trenger ikke et jevnt antall elementer for merkle-operasjoner.

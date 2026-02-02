@@ -1,0 +1,9 @@
+question: Pourquoi le profil de consommateur est-il simple à gérer ?
+answer: Peu de besoins en liquidité entrante
+wrong_answers:
+  - Aucun canal requis
+  - Peu de besoins en liquidité sortante
+  - Pas besoin de backup
+explanation: |
+  Le consommateur n'a pas besoin de beaucoup de liquidité entrante, et les paiements sortants créent naturellement un peu de liquidité entrante sans stratégie complexe.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Koja je matematička osnova koja čini problem diskretnog logaritma računski neizvodljivim u kriptografiji eliptičkih krivih?
+answer: Nepredvidiva distribucija tačaka prilikom generisanja ciklične grupe kroz ponovljeno dodavanje tačaka
+wrong_answers:
+  - Svojstvo simetrije eliptičkih krivih koje odražava tačke preko x-ose
+  - Modularne aritmetičke operacije izvedene u konačnim poljima umesto realnih brojeva
+  - Veliki prost broj korišćen kao karakteristika polja u jednačini krive
+explanation: |
+  Teškoća problema diskretnog logaritma proizlazi iz nepredvidive, nelinearne distribucije tačaka prilikom generisanja ciklične grupe (G, 2G, 3G, ..., nG). Iako se tačke generišu sekvencijalno, one se pojavljuju raspršeno i nasumično, što čini računarski neizvodljivim određivanje skalara s iz tačke P = sG. Dok su simetrija, modularna aritmetika i veliki prosti brojevi važne osobine eliptičkih krivih, one ne stvaraju direktno jednosmernu funkciju koja omogućava sigurnu kriptografiju javnog ključa.

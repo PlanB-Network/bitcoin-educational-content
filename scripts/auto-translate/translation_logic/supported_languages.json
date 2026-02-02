@@ -1,6 +1,12 @@
 {
   "languages": [
     {
+      "code": "bg",
+      "name": "Bulgarian",
+      "translator": "deepl",
+      "code_translator": "BG"
+    },
+    {
       "code": "cs",
       "name": "Czech",
       "translator": "deepl",

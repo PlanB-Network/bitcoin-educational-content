@@ -93,7 +93,7 @@ Beginnen wir mit der Darstellung des Kaufvorgangs, ohne ein Konto einzurichten, 
 
 
 
-Besuchen Sie [Coincards.com] (https://coincards.com/).
+Besuchen Sie [Coincards.com](https://coincards.com/).
 
 
 

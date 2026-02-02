@@ -2,8 +2,8 @@ question: Waarop is volgens Eric Voskuil in het boek Cryptoeconomics de veilighe
 answer: Op individuen
 wrong_answers:
   - Op de Blockchain
-  - Over Hash vermogen
-  - Over cryptografie
+  - Op hash vermogen
+  - Op cryptografie
 explanation: |
   Eric Voskuil legt uit dat de veiligheid van Bitcoin vooral afhangt van de mensen die risico's nemen om het systeem te onderhouden.
 reviewed: true

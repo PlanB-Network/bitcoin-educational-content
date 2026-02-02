@@ -1,0 +1,9 @@
+question: Miks on Hayeki hajutatud teadmiste teooria kohaselt tsentraalse plaanimajanduse jaoks hindade kehtestamine raskem kui vabaturgude jaoks?
+answer: Kesksed planeerijad ei saa juurdepääsu subjektiivsetele, kohalikele teadmistele individuaalsete kulude, kasu ja eelistuste kohta, mida omavad ainult turuosalised
+wrong_answers:
+  - Keskplaneerijatel puudub piisav arvutusvõimsus ja täiustatud algoritmid, et töödelda kõiki nende käsutuses olevaid majandusandmeid
+  - Kesksed planeerijad on loomupäraselt korrumpeerunud ja kehtestavad hindu pigem enda kui ühiskonna hüvanguks, erinevalt turuosalistest, kes on altruistlikud
+  - Keskne planeerimine keskendub liiga palju pikaajalisele majanduslikule stabiilsusele, mitte ei reageeri otsestele pakkumise ja nõudluse kõikumistele
+explanation: |
+  Hayeki peamine arusaam on, et teadmised on olemas ainult "killudena, mis on laiali hajutatud ebatäielikest ja sageli vastuolulistest teadmistest, mida omavad kõik erinevad indiviidid" Need teadmised on subjektiivsed ja lokaliseeritud - ainult üksikisikud teavad oma kulusid, kasu ja eelistusi. Vabad turud võimaldavad vabatahtliku vahetuse ja hinnaläbirääkimiste kaudu neid hajutatud teadmisi tekitada ja majandustegevust koordineerida.
+  Kesksed planeerijad, olenemata nende kavatsustest või võimetest, ei pääse ligi sellele subjektiivsele, hajutatud teabele, mis on olemas miljonite üksikisikute mõtetes, mis muudab tõhusa hinnakujundamise võimatuks.

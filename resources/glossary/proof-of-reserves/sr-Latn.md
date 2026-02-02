@@ -1,5 +1,6 @@
 ---
-term: DOKAZ O REZERVACIJAMA
+term: Dokaz o rezervama
+definition: Mehanizam koji omogućava berzanskim platformama da dokažu da drže bitcoine svojih klijenata.
 ---
 
 Mehanizam koji koriste platforme Bitcoin Exchange da pokažu da zaista drže imovinu svojih korisnika. Cilj je dokazati solventnost kompanije proverom da su njeni bitkoini jednaki ili veći od korisničkih salda koje bi trebalo da drže.

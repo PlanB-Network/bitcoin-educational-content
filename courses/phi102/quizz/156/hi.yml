@@ -1,0 +1,8 @@
+question: According to liberal economic theory, what is the primary consequence of monetary manipulation by political authorities on commercial exchanges?
+answer: It creates price instability and uncertainty because the monetary signal becomes unreliable when authorities can arbitrarily modify currency content
+wrong_answers:
+  - It strengthens national sovereignty by establishing clear territorial control over economic transactions within state boundaries
+  - It improves economic efficiency by allowing centralized coordination of exchange rates and standardized pricing mechanisms across markets
+  - It reduces transaction costs by eliminating the need for multiple competing currencies and simplifying commercial calculations
+explanation: |
+  The chapter explains that monetary manipulation produces inflation and destabilizes prices because the monetary signal becomes uncertain when authorities can arbitrarily modify currency content. Nicolas Oresme's medieval analysis showed how currency debasement disrupts commercial exchanges. The wrong answers reflect common justifications for state monetary control, but the liberal critique emphasizes that such manipulation serves political financing rather than economic efficiency, making voluntary exchange mechanisms like letters of credit preferable to imposed currencies.

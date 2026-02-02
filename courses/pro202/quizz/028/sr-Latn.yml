@@ -1,0 +1,8 @@
+question: Koja je osnovna razlika između P2PK i P2PKH u smislu koje informacije se otkrivaju pre nego što se novčići potroše?
+answer: P2PK izlaže puni javni ključ u ScriptPubKey pre trošenja, dok P2PKH otkriva samo hash javnog ključa do trenutka trošenja.
+wrong_answers:
+  - P2PK zahteva više potpisa za validaciju, dok P2PKH zahteva samo jedan potpis za otključavanje novčića
+  - P2PK koristi drugačiji algoritam heširanja od P2PKH, čineći ga sigurnijim protiv napada kvantnog računarstva
+  - P2PK čuva privatni ključ u ScriptPubKey, dok P2PKH čuva samo rezultat verifikacije potpisa
+explanation: |
+  P2PK zaključava novčiće direktno na puni javni ključ koji je vidljiv u ScriptPubKey pre nego što dođe do trošenja. P2PKH poboljšava privatnost prikazivanjem samo 20-bajtne heš vrednosti javnog ključa u ScriptPubKey, skrivajući stvarni javni ključ dok ga vlasnik ne obezbedi u ScriptSig tokom trošenja. Ovo poboljšanje privatnosti je jedna od ključnih prednosti P2PKH u odnosu na raniji P2PK obrazac.

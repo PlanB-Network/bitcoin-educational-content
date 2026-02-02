@@ -51,7 +51,7 @@ Raamatu tellis ja rahastas [Chaincode Labs](https://learning.chaincode.com/), ar
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Tere tulemast sellele kursusele PHI 301 Bitcoin arengufilosoofia kohta.
+Tere tulemast sellele kursusele BTC 303 Bitcoin arengufilosoofia kohta.
 
 
 Bitcoin on midagi enamat kui lihtsalt krüptoraha, see kehastab filosoofilist nägemust detsentraliseerimisest, privaatsusest, usaldamatusest ja vastupidavusest. See kursus on mõeldud spetsiaalselt arendajatele, kes on juba tuttavad Bitcoin tehniliste alustega ja kes soovivad nüüd süvendada oma arusaamist Bitcoin disaini ja juhtimise aluseks olevatest põhimõtetest.
@@ -112,7 +112,7 @@ Bitcoin-s on kaks peamist detsentraliseerimise aspekti: Miner detsentraliseerimi
 Miner detsentraliseerimine viitab asjaolule, et tehingu töötlemist ei tee ega koordineeri ükski keskne üksus. Full node detsentraliseerimine viitab asjaolule, et plokkide, st kaevurite poolt väljastatud andmete valideerimine toimub võrgu servas, lõppkokkuvõttes selle kasutajate, mitte mõne usaldusväärse asutuse poolt.
 
 
-![](assets/en/001.webp)
+![](assets/et/001.webp)
 
 
 ### Miner detsentraliseerimine
@@ -276,9 +276,8 @@ See, kuidas Bitcoin detsentraliseerimise kaudu toimib, sarnaneb erakordse kollek
 Ta juhib tähelepanu sellele, et paljud süsteemid, nii looduslikud kui ka kunstlikud, võivad ja toimivad ka ilma juhtideta ning on võimsad ja vastupidavad. Iga üksikisik suhtleb ainult oma vahetu ümbrusega, kuid koos moodustavad nad midagi tohutut.
 
 
-![](assets/en/002.webp)
+![](assets/et/002.webp)
 
-*Kalakoolidel ei ole juhte*
 
 
 Ükskõik, mida te Bitcoin-st arvate, selle detsentraliseeritud olemus muudab selle kontrollimise keeruliseks. Bitcoin on olemas ja te ei saa selle vastu midagi ette võtta. Seda tuleb uurida, mitte arutada.
@@ -302,7 +301,7 @@ Detsentraliseeritud süsteemides võib olla Hard, kuid on olemas mõned mentaals
 
 
 
-![](assets/en/003.webp)
+![](assets/et/003.webp)
 
 
 Selles peatükis analüüsitakse usaldamatuse mõistet, mida see tähendab arvutiteaduse seisukohast ja miks Bitcoin peab olema Trustless, et säilitada oma väärtuspakkumine.
@@ -372,7 +371,7 @@ Selle jutu sisuks on see, et Trustless süsteemi ei saa ehitada usaldusväärse 
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless baas Layer võimaldab erinevaid kompromisse kõrgematel tasanditel
@@ -453,7 +452,7 @@ Ilma usaldamatuseta ei saa meil olla detsentraliseerimist, sest usaldus eeldab p
 
 
 
-![](assets/en/004.webp)
+![](assets/et/004.webp)
 
 
 See peatükk käsitleb seda, kuidas hoida oma isiklikku finantsteavet enda jaoks. Selles selgitatakse, mida tähendab privaatsus Bitcoin kontekstis, miks see on oluline ja mida tähendab, et Bitcoin on pseudonüümne. Samuti vaadeldakse, kuidas privaatsed andmed võivad lekkida, nii On-Chain kui ka off-chain.
@@ -533,10 +532,9 @@ Satoshi Nakamoto mõtiskleb On-Chain privaatsuse üle oma [Bitcoin whitepaper](h
 Artiklis võetakse kokku Blockchain privaatsuse peamised probleemid, nimelt Address korduvkasutamine ja Address klasterdamine. Esimene on iseenesestmõistetav, viimane viitab võimalusele otsustada teatud kindlusega, et erinevate aadresside kogum kuulub samale kasutajale.
 
 
-![](assets/en/005.webp)
+![](assets/et/005.webp)
 
 
-Blockchain tüüpilised privaatsuse lekked
 
 
 Chris Belcher [kirjutas väga üksikasjalikult](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) erinevatest eraelu puutumatuse leketest, mis võivad juhtuda Bitcoin Blockchain puhul. Soovitame lugeda vähemalt esimesed alapeatükid "Blockchain rünnakud privaatsusele"
@@ -632,7 +630,7 @@ Ta mainis seda näidet teiste hulgas ka Bitcoin wiki [Privacy page](https://en.B
 Pange tähele, kuidas paremat privaatsust on võimalik saavutada, kui ehitada süsteemid Bitcoin peale, nagu see on Lightning Network puhul:
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoin peal olevad kihid võivad lisada privaatsust
@@ -673,7 +671,7 @@ Selleks, et saada Bitcoin-s korralik privaatsus, peate võtma aktiivseid meetmei
 
 
 
-![](assets/en/006.webp)
+![](assets/et/006.webp)
 
 
 Selles peatükis vaadeldakse Bitcoin Supply piiri 21 miljonit BTC, või kui palju see tegelikult on? Räägime sellest, kuidas seda piirmäära jõustatakse ja mida saab teha, et kontrollida, kas sellest kinni peetakse. Lisaks heidame pilgu kristallkuuli ja arutame dünaamikat, mis tuleb mängu, kui Block reward läheb subsiidiumipõhiselt tasupõhiseks üle.
@@ -731,7 +729,7 @@ Mis juhtub, kui blokeeritud toetus läheneb nullile? Et asi oleks lihtne, oletam
 Täna on omanikud need, kes maksavad turvalisuse eest (raha inflatsiooni kaudu). Homme on kulutajate kord seda koormat kuidagi kanda, nagu allpool näidatud.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Aja möödudes nihkub julgestuskulude kandmine valdajatelt kulutajatele
@@ -785,7 +783,7 @@ Kas Bitcoin Supply kasvab üle 21 miljoni, ei oska me täna öelda, ja see pole 
 
 
 
-![](assets/en/007.webp)
+![](assets/et/007.webp)
 
 
 Bitcoin turvaline ajakohastamine võib olla äärmiselt keeruline. Mõne muudatuse sisseviimiseks kulub mitu aastat. Selles peatükis tutvume Bitcoin uuendamisega seotud üldise sõnavaraga ning uurime mõningaid näiteid selle protokolli ajaloolistest uuendustest ja nendest saadud arusaamadest. Lõpuks räägime ahelate jagunemisest ning nendega seotud riskidest ja kuludest.
@@ -1025,7 +1023,7 @@ Bitcoin harmoonias hoidmiseks on Soft hargnemiskohad osutunud sobivaks lahenduse
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/en/008.webp)
+![](assets/et/008.webp)
 
 
 Selles peatükis käsitletakse *vastanduslikku mõtlemist*, mõtteviisi, mis keskendub sellele, mis võib valesti minna ja kuidas vastased võivad tegutseda. Alustame Bitcoin turvalisuse eelduste ja turvamudeli arutamisega, misjärel selgitame, kuidas tavakasutajad saavad oma enesevalitsust ja Bitcoin Full node detsentraliseerimist parandada, mõeldes vastandlikult. Seejärel vaatleme mõningaid tegelikke ohte Bitcoin-le ja ka vastase mõttemaailma. Lõpuks räägime *vastupanemise aksoomist*, mis võib aidata teil mõista, miks inimesed üldse Bitcoin kallal töötavad.
@@ -1099,10 +1097,9 @@ Nagu tsitaadis ka mainitakse, ei ole Sybil-rünnak Bitcoin võrgus tõhus, sest 
 ### Lihtne sabotaaživäli
 
 
-![](assets/en/009.webp)
+![](assets/et/009.webp)
 
 
-Väljavõte lihtsast sabotaažikäsiraamatust
 
 
 Vastase mõtteviisi paremaks mõistmiseks võib olla kasulik saada aimu sellest, kuidas nad tegutsevad. USA valitsuse asutus nimega Office of Strategic Services, mis tegutses II maailmasõja ajal ja mille üks eesmärke oli spionaaž, sabotaaž ja propaganda levitamine, koostas oma töötajatele [käsiraamatu](https://www.gutenberg.org/ebooks/26184) selle kohta, kuidas vastast õigesti saboteerida. Selle pealkiri oli "Simple Sabotage Field Manual" ja see sisaldas konkreetseid näpunäiteid vaenlase infiltreerimiseks, et muuta nende elu Hard. Nipid ulatuvad laopõletamisest kuni harjutuste kulumise põhjustamiseni, et vähendada vaenlase
@@ -1150,7 +1147,7 @@ Bitcoin kaitsmiseks peate tundma selle vaenlasi ja nende stiimuleid. Enamik ohtu
 
 
 
-![](assets/en/010.webp)
+![](assets/et/010.webp)
 
 
 Bitcoin on ehitatud avatud lähtekoodiga tarkvara kasutades. Selles peatükis analüüsime, mida see tähendab, kuidas tarkvara hooldamine toimib ja kuidas avatud lähtekoodiga tarkvara Bitcoin võimaldab loata arendamist. Sukeldume *valikukrüptograafiasse*, mis käsitleb raamatukogude valikut ja kasutamist krüptograafilistes süsteemides. Peatükk sisaldab jaotist Bitcoin läbivaatamisprotsessi kohta, millele järgneb veel üks peatükk Bitcoin arendajate rahastamise viisidest. Viimases peatükis räägitakse sellest, kuidas Bitcoin avatud lähtekoodiga kultuur võib väljastpoolt vaadates tunduda tõesti kummaline ja miks see tajutav kummalisus on tegelikult hea tervise märk.
@@ -1171,14 +1168,14 @@ Bitcoin Core järgib seda määratlust, kuna seda levitatakse [MIT License](http
 
 
 ```
-The MIT License (MIT)
+MIT litsents (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core'i arendajad
+Copyright (c) 2009-2022 Bitcoini arendajad
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Käesolevaga antakse tasuta luba igale isikule, kes saab selle tarkvara ja sellega seotud dokumentatsioonifailide ("Tarkvara") koopia, kasutada Tarkvara ilma piiranguteta, sealhulgas piiranguteta õigusi kasutada, kopeerida, muuta, ühendada, avaldada, levitada, all-litsentsida ja/või müüa Tarkvara koopiaid ning lubada isikutel, kellele Tarkvara antakse, teha sama, järgmistel tingimustel:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Ülaltoodud autoriõiguse teatis ja käesolev loateatis peavad sisalduma kõigis Tarkvara koopiates või olulistes osades.
 ```
 
 
@@ -1438,7 +1435,7 @@ Bitcoin ümber toimuv arendusprotsess on radikaalselt avatud, mis võib muuta Bi
 
 
 
-![](assets/en/011.webp)
+![](assets/et/011.webp)
 
 
 
@@ -1585,7 +1582,7 @@ Lähenemisviis, mida hinnatakse liiga vähe, on see, mida võime nimetada *sises
 Sisemõõtkava abil saavutatud edusammud on pehmelt öeldes muljetavaldavad. Et anda teile üldine ettekujutus aastate jooksul toimunud parandustest, on Jameson Lopp [teinud Blockchain sünkroniseerimise võrdlusteste](https://blog.lopp.net/Bitcoin-core-performance-evolution/), milles ta võrdleb mitmeid erinevaid Bitcoin Core'i versioone alates versioonist 0.8.
 
 
-![](assets/en/012.webp)
+![](assets/et/012.webp)
 
 
 Bitcoin Core'i erinevate versioonide esialgne plokkide allalaadimise jõudlus. Y-teljel on sünkroniseeritud ploki kõrgus ja X-teljel aeg, mis kulus sünkroniseerimiseks sellele kõrgusele
@@ -1600,7 +1597,7 @@ Parandused võib liigitada kas ruumi (RAM, kettas, ribalaius jne) või arvutusv�
 Hea näide arvutusliku täiustamise kohta on [libsecp256k1](https://github.com/Bitcoin-core/secp256k1) raamatukogu, mis muu hulgas rakendab digitaalallkirjade tegemiseks ja kontrollimiseks vajalikke krüptograafilisi algtõdesid. Pieter Wuille on üks selle raamatukogu toetajatest ja ta kirjutas [Twitteri teema](https://twitter.com/pwuille/status/1450471673321381896), kus ta tutvustab erinevate pull-päringute abil saavutatud jõudluse paranemist.
 
 
-![](assets/en/013.webp)
+![](assets/et/013.webp)
 
 
 Allkirjade kontrollimise tulemuslikkus aja jooksul, ajajoonele on märgitud olulised tõmbepäringud
@@ -1614,7 +1611,7 @@ On ka mitmeid häid näiteid ruumi kokkuhoiu paranduste kohta, mis aitasid kaasa
 [Medium blogipostitus](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) Taproot panuse kohta ruumi säästmisse, kasutaja Murch võrdleb, kui palju plokkide ruumi 2-of-3 künnise allkiri vajaks, kasutades Taproot erinevatel viisidel, samuti seda üldse mitte kasutades.
 
 
-![](assets/en/014.webp)
+![](assets/et/014.webp)
 
 
 Ruumi kokkuhoid erinevate kulutustüüpide, Taproot ja vanade versioonide puhul.
@@ -1629,7 +1626,7 @@ Lisaks Bitcoin tarkvara sisemisele skaleerimisele on ka mõned viisid, kuidas ka
 Tehingute pakkimise idee on ühendada mitu makset üheks tehinguks, selle asemel, et teha üks tehing iga makse kohta. See võib säästa palju tasusid ja samal ajal vähendada plokkide ruumi koormust.
 
 
-![](assets/en/015.webp)
+![](assets/et/015.webp)
 
 
 Tehingute ühendamine ühendab mitu makset üheks tehinguks, et säästa tasusid.
@@ -1638,7 +1635,7 @@ Tehingute ühendamine ühendab mitu makset üheks tehinguks, et säästa tasusid
 Väljundite konsolideerimine tähendab, et kasutatakse ära perioodid, mil plokipinna nõudlus on väike, et ühendada mitu väljundit üheks väljundiks. See võib vähendada teie tasukulusid hiljem, kui teil on vaja teha makseid, kui nõudlus plokkruumi järele on suur.
 
 
-![](assets/en/016.webp)
+![](assets/et/016.webp)
 
 
 Väljundi konsolideerimine: Sulatage oma mündid üheks suureks mündiks, kui tasud on madalad, et hiljem tasusid säästa.
@@ -1660,9 +1657,8 @@ Kõige mõjusam lähenemine skaleerimisele on tõenäoliselt kihiline lähenemin
 Mitmekihiline protokoll algab kahe või enama inimese kokkuleppimisega, mis pannakse Blockchain-le, nagu on näidatud allpool oleval joonisel.
 
 
-![](assets/en/017.webp)
+![](assets/et/017.webp)
 
-Tüüpiline Layer 2 protokoll Bitcoin, Layer 1 peal.
 
 
 See, kuidas see alustamistehing luuakse, on protokollides erinev, kuid ühine on see, et osalejad loovad allkirjastamata alustamistehingu ja mitu eelallkirjastatud karistustehingut, mis kulutavad alustamistehingu väljundit erinevalt. Seejärel allkirjastatakse alustamistehing täielikult ja avaldatakse Blockchain-le ning karistustehingud võivad olla täielikult allkirjastatud ja avaldatud, et karistada vääralt käituvat osapoolt. See motiveerib osalejaid oma lubadustest kinni pidama, nii et protokoll saaks töötada Trustless viisil.
@@ -1714,7 +1710,7 @@ Täna teame, et Bitcoin ei ole hästi skaleeritav vertikaalselt ("osta suuremat 
 
 
 
-![](assets/en/018.webp)
+![](assets/et/018.webp)
 
 Bitcoin on ehitatud inimeste poolt. Inimesed kirjutavad tarkvara ja inimesed käivitavad seda tarkvara. Kui avastatakse turvaauk või tõsine viga - kas nende kahe vahel on tõesti vahet? - avastavad seda alati inimesed, lihast ja verest. Selles peatükis mõeldakse, mida inimesed teevad, peaksid ja ei peaks tegema, kui sitt tabab ventilaatorit. Esimeses peatükis selgitatakse mõistet *vastutustundlik avalikustamine*, mis viitab sellele, kuidas keegi, kes avastab haavatavuse, saab tegutseda vastutustundlikult, et aidata vähendada sellest tulenevat kahju. Peatüki ülejäänud osa viib teid ekskursioonile mõnede aastate jooksul avastatud kõige tõsisemate haavatavuste kaudu ja selle kaudu, kuidas arendajad, kaevandajad ja kasutajad nendega toime tulid. Bitcoin varases lapsepõlves ei olnud asjad nii ranged kui tänapäeval.
 
@@ -2059,7 +2055,7 @@ Selle küsimuse täielik avalikustamine avaldati 28. juulil 2015 Pieter Wuille'i
 E-kirjas on täpsemalt kirjeldatud, kuidas probleem avastati ja mis selle täpsemalt põhjustas. Lõpuks esitab ta sündmuste ajaskaala ja me kordame siinkohal mõned kõige olulisemad sündmused. Mõnda neist on, nagu joonisel eespool näidatud, juba kirjeldatud.
 
 
-![](assets/en/019.webp)
+![](assets/et/019.webp)
 
 
 BIP66-i ümbritsevate sündmuste ajakava. Mustas kirjas olevad punktid on selgitatud eespool.
@@ -2097,7 +2093,7 @@ Need sündmused võivad jätta mulje, et Gregory Maxwell teadis haavatavusest, m
 Seejärel loodi Maxwelli ettepanekul BIP66 kui BIP62 alamhulk, mis määratles ainult ranget DER-kodeerimist. See BIP võeti ilmselt laialdaselt vastu ja võeti juulis kasutusele, kuigi kaks Blockchain jagunemist toimusid irooniliselt *valitsuseta Mining* tõttu. Neid jagunemisi käsitletakse järgmises osas.
 
 
-![](assets/en/020.webp)
+![](assets/et/020.webp)
 
 
 Peamine järeldus sellest on, et piiripunktid peaksid olema enam-vähem *atomaarsed*, mis tähendab, et nad peaksid olema piisavalt täielikud, et pakkuda midagi kasulikku või lahendada konkreetne probleem, kuid piisavalt väikesed, et võimaldada kasutajate laialdast toetust. Mida rohkem asju te BIPi sisse panete, seda väiksem on tõenäosus, et see võetakse vastu.
@@ -2118,7 +2114,7 @@ Hoiatuslehel anti inimestele korraldus oodata 30 täiendavat kinnitust, kui nad 
 Eespool mainitud jagunemine toimus 2015-07-04 kell 02:10 UTC pärast ploki kõrgust [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). See probleem sai lahendatud kell 03:50 samal päeval, pärast seda, kui 6 kehtetut plokki oli kaevandatud. Kahjuks juhtus sama probleem järgmisel päeval, st 2015-07-05 kell 21:50 uuesti, kuid seekord kestis kehtetu haru ainult 3 plokki.
 
 
-![](assets/en/021.webp)
+![](assets/et/021.webp)
 
 Sündmused, mis viisid BIP66-ni, selle kasutuselevõttu ja selle tagajärgi, on väga hea näide sellest, kui ettevaatlikud peavad Bitcoin arendajad olema. Mõned peamised järeldused BIP66-st:
 

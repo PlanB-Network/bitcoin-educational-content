@@ -1,5 +1,6 @@
 ---
 term: BIP0152
+definition: Compact Block Relay, uburyo bugabanya bandwidth mu kurungika blocks hakoreshejwe ibimenyetso bigufi.
 ---
 
 BIP152, izwi kw’izina rya “Compact Block Relay,” ifise intumbero yo kugabanya uburebure bw’uruja n’uruza bukenewe kugira ngo amakuru arungikwe ku rubuga rwa Bitcoin.

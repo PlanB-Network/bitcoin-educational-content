@@ -1,6 +1,7 @@
 ---
 term: P2WSH
 
+definition: Script SegWit nativo que bloquea bitcoins en el hash de un script, direcciones bc1q.
 ---
 P2WSH significa *Pay to Witness Script Hash*. Es un modelo de script estándar utilizado para establecer condiciones de gasto en un UTXO. P2WSH se introdujo con la implementación de SegWit en agosto de 2017.
 

@@ -1,31 +1,18 @@
 ---
-name: Bitcoin и BTC Pay Server
-goal: Установите сервер BTC Pay для вашего бизнеса
-objectives: 
-
-  - Поймите, что такое btcpayserver.
-  - Самостоятельное размещение и настройка сервера BTC Pay Server.
-  - Используйте btcpayserver в своей повседневной деятельности.
-
+name: Освоение BTC Pay Server
+goal: Настроить экземпляр BTC Pay Server для местного бизнеса
+objectives:
+- Понять основы роли BTCPay Server в обработке платежей
+- Освоить внутреннюю работу процесса настройки BTCPay Server
+- Развернуть BTCPay Server в облачных и узловых средах
+- Стать оператором BTC Pay Server
 ---
+# Путь к финансовому суверенитету
 
-# Bitcoin и сервер BTCPay
+Доверие хрупко, особенно когда речь идёт о деньгах. Этот вводный курс проведёт вас через BTCPay Server — мощный инструмент, который позволяет принимать платежи в биткоинах без зависимости от третьих сторон. Вы изучите основы работы оператора BTCPay Server
 
-
-Это вводный курс по BTCPay Server Operator, написанный Alekos и Bas, который был адаптирован для Plan ₿ Course Format компаниями melontwist и asi0.
-
-
-НЕЗАКОНЧЕННАЯ ИСТОРИЯ
-
-
-"Это ложь, мое доверие к вам подорвано, я сделаю вас устаревшими".
-
-
-Произведено BTCPay Server Foundation
-
-
+Созданный Alekos и Bas и адаптированный melontwist и asi0, этот курс раскрывает, как частные лица и компании создают альтернативы традиционным платёжным системам. Независимо от того, интересуетесь ли вы биткоином или готовы управлять платёжной инфраструктурой для бизнеса, вы откроете для себя практические навыки, которые бросают вызов статус-кво. Готовы исследовать, как на самом деле выглядит финансовая независимость?
 +++
-
 # Введение
 
 
@@ -740,14 +727,15 @@ BTCPay Server включает в себя следующие стандартн
 Администраторы могут видеть входящие и исходящие транзакции для On-Chain Wallet, подключенных к данному конкретному магазину, в представлении транзакций. Каждая транзакция имеет различие между полученными и отправленными суммами. Полученные суммы будут обозначаться Green, а исходящие транзакции - красным цветом. В представлении транзакций BTCPay Server администраторы также увидят набор стандартных меток.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Тип транзакции | Описание                                         |
+| --------------- | ------------------------------------------------ |
+| Приложение      | Платёж был получен через счёт, созданный приложением |
+| Счёт            | Платёж был получен через счёт                    |
+| Payjoin         | Не оплачено, таймер счёта ещё не истёк           |
+| Payjoin-раскрыт | UTXO был раскрыт через предложение payjoin в счёте |
+| Запрос платежа  | Платёж был получен через запрос платежа          |
+| Выплата         | Платёж был отправлен через выплату или возврат   |
 
 ### Как отправить
 
@@ -1818,28 +1806,30 @@ BTCPay Server может использовать электронную поч�
 BTCPay Server также позволяет создавать формы в коде. В частности, в JSON. Вместо того чтобы смотреть в редактор, владельцы магазинов могут нажать на кнопку CODE прямо рядом с редактором и залезть в код своих Форм. В определении поля можно задать только следующие поля; значения полей хранятся в метаданных Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Поле | Описание |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Если true, .value должно быть задано в определении формы, и пользователь не сможет изменить значение поля. (пример: версия определения формы) |
+| .fields.type | Тип ввода HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Если .fields.type имеет значение select, список выбираемых значений |
+| .fields.options.text | Текст, отображаемый для этого варианта |
+| .fields.options.value | Значение поля при выборе этого варианта |
+| .fields.type=fieldset | Создает HTML fieldset вокруг дочерних .fields.fields (см. ниже) |
+| .fields.name | Имя свойства JSON для поля, в том виде, в котором оно появится в метаданных счета |
+| .fields.value | Значение поля по умолчанию |
+| .fields.required | если true, поле будет обязательным |
+| .fields.label | Метка поля |
+| .fields.helpText | Дополнительный текст с пояснением к полю. |
+| .fields.fields | Вы можете организовать свои поля в иерархию, что позволяет вкладывать дочерние поля в метаданные счета. Такая структура поможет вам лучше организовать собранную информацию и управлять ею, облегчая доступ и интерпретацию. Например, если у вас есть форма для сбора информации о клиентах, вы можете сгруппировать поля в родительское поле с именем customer. Внутри этого родительского поля могут быть дочерние поля, такие как name, Email и address. |
 
 Имя поля представляет собой имя свойства JSON, в котором хранится значение, указанное пользователем, в метаданных Invoice. Некоторые известные имена могут быть интерпретированы и изменены для настройки параметров Invoice.
 
 
-| Field name       | Description            |
+
+| Имя поля         | Описание              |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Сумма счёта           |
+| invoice_currency | Валюта счёта          |
 
 Вы можете автоматически заполнять поля формы Invoice, добавляя строки запроса в URL формы, например "?your_field=value".
 
@@ -2095,7 +2085,7 @@ BTCPay открывает сервис GRPC LND для внешнего потр
 #### LND (REST)
 
 
-BTCPay открывает REST-сервис LND для внешнего использования; информацию о подключении вы найдете здесь; список совместимых кошельков приведен здесь. Среди совместимых кошельков - Joule, Alby и ZeusLN. BTCPay Server предоставляет QR-код для подключения, который можно отсканировать и применить в совместимом Wallet.
+BTCPay открывает REST-сервис LND для внешнего использования; информацию о подключении вы найдете [здесь]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); список совместимых кошельков приведен [здесь](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Среди совместимых кошельков - Joule, Alby и ZeusLN. BTCPay Server предоставляет QR-код для подключения, который можно отсканировать и применить в совместимом Wallet.
 
 
 
@@ -2289,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Логи для      | Имя контейнера                     |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2480,21 +2471,22 @@ Invoice - это документ, который продавец выдает 
 В таблице ниже перечислены и описаны стандартные статусы Invoice в BTCPay, а также предложены общие действия. Действия являются лишь рекомендациями. Пользователи должны сами определить наилучший вариант действий для своего случая и бизнеса.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Статус счета | Описание | Действие |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Не оплачен, время действия счета еще не истекло | Нет |
+| New (paidPartial) | Оплачен частично, время действия счета еще не истекло | Нет |
+| Expired | Не оплачен, время действия счета истекло | Нет |
+| Expired (paidPartial) ** | Оплачен частично и просрочен | Свяжитесь с покупателем для возврата или доплаты. Опционально пометьте счет как settled или invalid |
+| Expired (paidLate) | Оплачен полностью после истечения времени действия счета | Свяжитесь с покупателем для возврата или обработайте заказ, если поздние подтверждения допустимы. |
+| Settled (paidOver) | Оплачено больше суммы счета, расчет окончен, получено достаточно подтверждений | Свяжитесь с покупателем для возврата переплаты или подождите, пока он сам свяжется с вами |
+| Processing | Оплачен полностью, но не получено достаточно подтверждений согласно настройкам магазина | Свяжитесь с покупателем для возврата переплаты или подождите, пока он сам свяжется с вами |
+| Processing (paidOver) | Оплачено больше суммы счета, не получено достаточно подтверждений | Дождитесь статуса settled, затем свяжитесь для возврата переплаты или подождите обращения покупателя |
+| Settled | Оплачен полностью, получено достаточно подтверждений в магазине | Выполните заказ |
+| Settled (marked) | Статус был вручную изменен на settled из статуса processing или invalid | Админ магазина пометил платеж как settled |
+| Invalid* | Оплачен, но не получил достаточно подтверждений в течение времени, указанного в настройках | Проверьте транзакцию в блокчейн-эксплорере; если подтверждений достаточно, пометьте как settled |
+| Invalid (marked) | Статус был вручную изменен на invalid из статуса settled или expired | Админ магазина пометил платеж как invalid |
+| Invalid (paidOver) | Оплачено больше суммы, но не получено достаточно подтверждений в указанное время | Проверьте транзакцию в блокчейн-эксплорере; если подтверждений достаточно, пометьте как settled |
 
 #### Детали Invoice
 

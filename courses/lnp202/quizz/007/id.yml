@@ -1,0 +1,9 @@
+question: Properti fundamental apa dari Bitcoin yang hilang dalam kustodian?
+answer: Kedaulatan moneter
+wrong_answers:
+  - Skalabilitas moneter
+  - Pembayaran cepat
+  - Interoperabilitas moneter
+explanation: |
+  Tanpa kontrol kunci, pengguna melepaskan kedaulatan moneter, pilar utama Bitcoin.
+reviewed: false

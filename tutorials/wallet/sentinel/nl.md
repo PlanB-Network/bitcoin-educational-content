@@ -40,7 +40,7 @@ Watch-only wordt meestal gebruikt in combinatie met een Hardware Wallet. Dit maa
 ## Welke Watch-only wallet moet ik gebruiken?
 
 
-Op dit moment is de meest uitgebreide watch-only toepassing [Sentinel] (https://sentinel.watch/), ontwikkeld door de teams van Samourai Wallet. Het bevat alle essentiële functies voor een goede Watch-only wallet. Het bevat alle essentiële functies voor een goede Watch-only wallet:
+Op dit moment is de meest uitgebreide watch-only toepassing [Sentinel](https://sentinel.watch/), ontwikkeld door de teams van Samourai Wallet. Het bevat alle essentiële functies voor een goede Watch-only wallet. Het bevat alle essentiële functies voor een goede Watch-only wallet:
 
 
 
@@ -67,7 +67,7 @@ Voor iOS-gebruikers die op zoek zijn naar een alternatief voor Sentinel, zijn [G
 ### Installatie en installatie
 
 
-Begin met het installeren van de Sentinel applicatie. Dit kun je doen in de Google Play Store of met de [APK die je kunt downloaden op de officiële website] (https://sentinel.watch/download/).
+Begin met het installeren van de Sentinel applicatie. Dit kun je doen in de Google Play Store of met de [APK die je kunt downloaden op de officiële website](https://sentinel.watch/download/).
 
 
 ![watch-only](assets/notext/3.webp)

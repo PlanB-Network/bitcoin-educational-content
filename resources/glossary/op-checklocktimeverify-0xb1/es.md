@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
+definition: Opcode que impone una restricción de tiempo absoluta al gasto de un UTXO.
 ---
 Hace que la transacción no sea válida a menos que se cumplan todas estas condiciones:
 

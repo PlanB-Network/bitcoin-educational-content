@@ -1,0 +1,8 @@
+question: Hvilket grunnleggende problem løser RC som Box ikke kan håndtere i Rusts eierskapssystem?
+answer: RC muliggjør flere eierskap til samme data gjennom referansetelling
+wrong_answers:
+  - RC gir raskere allokering og deallokering av minne enn Box
+  - RC muliggjør automatisk minnehåndtering uten overhead i kjøretiden
+  - RC muliggjør lånesjekker ved kompilering som Box ikke kan utføre
+explanation: |
+  RC (Reference Counter) tar spesifikt for seg begrensningen i Box' modell for enkelt eierskap ved å tillate at flere kodedeler deler eierskap til de samme dataene samtidig. Box følger tradisjonelle eierskapsregler der bare én enhet kan eie data om gangen, noe som gjør det umulig å lage scenarier som delte datastrukturer der flere lister refererer til samme haleparti. RC har en intern teller som sporer referanser, øker når de klones og minker når de droppes, og frigjør minne først når tellingen når null. Dette muliggjør fleksible datadelingsmønstre samtidig som minnesikkerheten opprettholdes, noe som er fundamentalt forskjellig fra Box' eksklusive eierskapstilnærming.

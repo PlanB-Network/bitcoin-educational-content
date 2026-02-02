@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
+definition: Tapscript opkod koji proverava potpis i povećava brojač ako je važeći.
 ---
 
 Izvlači tri najviša vrednosti sa steka: `javni ključ`, `CScriptNum` `n` i `potpis`. Ako potpis nije prazan vektor i nije važeći, skripta se završava greškom. Ako je potpis važeći ili je prazan vektor (`OP_0`), predstavljena su dva scenarija:

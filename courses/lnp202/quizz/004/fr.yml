@@ -1,0 +1,9 @@
+question: À quoi un nœud Lightning doit-il impérativement se connecter ?
+answer: Un nœud Bitcoin
+wrong_answers:
+  - Un mineur
+  - Un explorateur de blocs
+  - Un serveur fédéré
+explanation: |
+  Le nœud Lightning dépend d’un nœud Bitcoin pour accéder aux informations de la blockchain principale.
+reviewed: false

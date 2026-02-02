@@ -6,4 +6,4 @@ wrong_answers:
   - Pour signer des transactions
 explanation: |
   Un indexeur devient indispensable pour les usages avancés comme un explorateur local.
-reviewed: false
+reviewed: true 

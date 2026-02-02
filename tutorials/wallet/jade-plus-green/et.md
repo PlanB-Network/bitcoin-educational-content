@@ -229,7 +229,7 @@ Seejärel sisestage oma Jade'i PIN-kood ja teil on taas ühendus olemas.
 
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
-Teie Jade avatakse Blockstream'i "virtuaalse turvalise elemendi" kaudu (vt selle õpetuse esimest osa). Selleks on vaja Bluetooth-ühendust rakendusega Green. Kui teil tekib bluetooth-ühendusega avamise ajal raskusi, proovige kahe seadme lahutada ja uuesti ühendada. Kui probleem püsib, saate oma Jade'i siiski avada, valides võimaluse "*QR Scan*" ja järgides [Blockstream'i veebisaidil] (https://jadefw.blockstream.com/pinqr/index.html) olevaid juhiseid.
+Teie Jade avatakse Blockstream'i "virtuaalse turvalise elemendi" kaudu (vt selle õpetuse esimest osa). Selleks on vaja Bluetooth-ühendust rakendusega Green. Kui teil tekib bluetooth-ühendusega avamise ajal raskusi, proovige kahe seadme lahutada ja uuesti ühendada. Kui probleem püsib, saate oma Jade'i siiski avada, valides võimaluse "*QR Scan*" ja järgides [Blockstream'i veebisaidil](https://jadefw.blockstream.com/pinqr/index.html) olevaid juhiseid.
 
 Enne esimeste bitcoinide saamist oma rahakotti, ** soovitan teil tungivalt teha tühja taastamistesti**. Pange kirja mõned võrdlusandmed, näiteks oma xpub või esimene vastuvõtuaadress, seejärel kustutage oma rahakott rohelises rakenduses ja Jade Plus'is, kui see on veel tühi (`Options -> Device -> Factory Reset`). Seejärel proovige taastada oma rahakott, kasutades oma paberkandjal varukoopiaid mnemofraasiga. Kontrollige, et pärast taastamist genereeritud küpsisteave vastaks sellele, mille te algselt kirja panite. Kui see vastab, võite olla kindel, et teie paberkandjal varukoopiad on usaldusväärsed. Lisateavet selle kohta, kuidas teha testtaastamine, leiate sellest teisest juhendmaterjalist :
 

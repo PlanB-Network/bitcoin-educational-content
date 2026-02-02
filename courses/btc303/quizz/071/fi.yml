@@ -1,0 +1,9 @@
+question: Mikä oli ensisijainen kritiikki, joka esitettiin heti ensimmäisessä sähköpostivastauksessa Satoshi Nakamoton ilmoitukseen Bitcoin whitepaperista Cryptography-postituslistalla?
+answer: Ehdotettu järjestelmä ei näyttänyt skaalautuvan vaadittuun kokoon
+wrong_answers:
+  - Käytetyt salausalgoritmit eivät olleet riittävän turvallisia rahoitussovelluksia varten
+  - Vertaisverkkoarkkitehtuuri tekisi järjestelmästä haavoittuvan verkkohyökkäyksille
+  - Konsensusmekanismi kuluttaisi liikaa laskentatehoa ollakseen käytännöllinen
+explanation: |
+  Satoshi:n Bitcoin whitepaper-ilmoitukseen lähetetyn ensimmäisen sähköpostivastauksen ensimmäisessä virkkeessä todettiin nimenomaan, että "se ei näytä skaalautuvan vaadittuun kokoon" Tämä osoittaa, että skaalautumiseen liittyviä huolenaiheita oli jo Bitcoin:n varhaisimmista julkisista keskusteluista lähtien, jo ennen verkon käynnistämistä. Vaikka muut vaihtoehdot ovatkin kryptovaluuttajärjestelmän kannalta mahdollisesti perusteltuja huolenaiheita, niihin ei keskitytty ensimmäisessä vastauksessa, jossa skaalautuvuus todettiin välittömästi Satoshi:n ehdotuksen ensisijaiseksi ongelmaksi.
+reviewed: false

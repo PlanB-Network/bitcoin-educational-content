@@ -1,0 +1,9 @@
+question: Jaką konkretną funkcję techniczną nieumyślnie stworzył twardy fork Satoshi, który umożliwił przyszłe aktualizacje miękkiego fork?
+answer: Operatory skryptowe OP_NOP1 do OP_NOP10 kodów operacyjnych
+wrong_answers:
+  - Mechanizmy aktywacji BIP65 i BIP113 dla sygnalizacji mineralnej
+  - Ramy zgodności do przodu i wstecz dla zmian konsensusu
+  - Aktywowany przez użytkownika miękki system aktywacji dnia flagi fork (UASF)
+explanation: |
+  Zgodnie z analizą Erica Lombrozo, twardy Satoshi fork (który został słabo zakomunikowany i ukryty w zatwierdzeniu zmian pliku makefile) nieumyślnie utworzył kody operacyjne OP_NOP1 do OP_NOP10. Te kody "bez operacji" zostały zaprojektowane tak, aby nic nie robiły po wykonaniu, ale zapewniały symbole zastępcze, które można było później zmienić na nową funkcjonalność poprzez miękkie rozwidlenia. Okazało się to trafne, ponieważ OP_NOP2 stał się OP_CHECKLOCKTIMEVERIFY (BIP65), a OP_NOP3 stał się OP_CHECKSEQUENCEVERIFY (BIP112). Pozostałe opcje są nieprawidłowe, ponieważ BIP65 i BIP113 były aktualizacjami, które wykorzystywały te kody operacyjne, a nie je tworzyły, ramy kompatybilności są raczej podejściem koncepcyjnym niż funkcją techniczną, a UASF został zaproponowany znacznie później podczas kontrowersji Segwit.
+reviewed: false

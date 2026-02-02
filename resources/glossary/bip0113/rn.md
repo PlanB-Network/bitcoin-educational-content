@@ -1,5 +1,6 @@
 ---
 term: BIP0113
+definition: Ihindurwa rya timelocks kugira ngo hakoreshwe Median Time Past (hagati y'ibice 11 vya nyuma) aho gukoresha igihe c'icicaro c'imbere.
 ---
 
 Yashizeho ihinduka mu buryo ibikorwa vyose vyo gufunga igihe (`nIgihe co Gufunga`, `OP_GUSUZUMA IGIHE CO GUSUZUMA`, `nUrukurikirane`, na `OP_GUSUZUMA URUTONDE GUSUZUMA`) bisuzumwa.

@@ -1,0 +1,8 @@
+question: Mengapa validasi transaksi Bitcoin yang lama menunjukkan kompleksitas waktu kuadratik sehubungan dengan jumlah input?
+answer: Setiap input membutuhkan perhitungan sighash-nya sendiri melalui struktur yang mencakup semua input dalam transaksi
+wrong_answers:
+  - Setiap input harus memverifikasi tanda tangan terhadap semua input lainnya untuk mencegah double-spending dalam transaksi
+  - Model eksekusi berbasis stack membutuhkan loop bersarang untuk memproses opcode untuk setiap kombinasi input
+  - "Setiap ScriptSig input harus divalidasi terhadap setiap ScriptPubKey output untuk menemukan kecocokan yang benar"
+explanation: |
+  Validasi Bitcoin yang lama menciptakan kompleksitas kuadratik karena setiap input membutuhkan perhitungan sighash sendiri, tetapi setiap perhitungan memproses struktur transaksi yang berisi semua input. Dengan n input, ini menciptakan operasi n×n. SegWit memecahkan masalah ini dengan menyimpan bagian yang sama dari perhitungan sighash di cache, mengurangi kompleksitas menjadi waktu linier dan mencegah potensi serangan denial-of-service dari transaksi multi input yang besar.

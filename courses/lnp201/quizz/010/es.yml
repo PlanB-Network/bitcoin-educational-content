@@ -2,8 +2,8 @@ question: ¿Cuál es el primer paso para abrir un canal Lightning entre dos part
 answer: Intercambiar mensajes que contienen las cantidades y las claves públicas
 wrong_answers:
   - Publicar inmediatamente una transacción de depósito en la blockchain
-  - Crear una dirección multisignatura 2/2 sin un intercambio previo
+  - Crear una dirección multifirma 2/2 sin un intercambio previo
   - Firmar la transacción de retiro antes del intercambio de claves públicas
 explanation: |
   La apertura de un canal comienza con un intercambio de mensajes entre las dos partes, donde comparten las cantidades que desean comprometer y sus claves públicas.
-reviewed: false
+reviewed: true

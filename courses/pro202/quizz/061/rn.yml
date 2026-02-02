@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo bw’ishimikiro bushoboza SegWit kwongerera ubushobozi bw’amabuye mu gihe iguma ihuye n’inyuma n’ibihimba vy’imbere ya SegWit?
+answer: Uburyo bw’uburemere bw’amabuye aho amakuru y’ivyabona agabanywa n’ibice 75% mu biharuro vy’ubushobozi, bikaba vyemerera amakuru yose hamwe ashika kuri 4MB mu gihe amakuru y’iragi abona ≤1MB
+wrong_answers:
+  - Uburyo bwo gufatanya bugabanya ubunini bw'amakuru y'ivyabona n'ibice 75% imbere yo gutangazwa, bikagumiza amabuye munsi ya 1MB ku nzira zose
+  - Guhindura ubunini bw'ibarabara ry'inguvu ryongera imipaka ishingiye ku ijanisha ry'ibikorwa vya SegWit muri buri butaka
+  - Ibice vy'ivyabona bitandukanye birungikwa gusa ku bice vyavuguruwe, mu gihe ibice vya kera bironka ibice vya kera vya 1MB
+explanation: |
+  SegWit ikoresha ibice vy’uburemere bw’amabuye aho amakuru y’ibikorwa vy’ishimikiro aharurwa nk’ibice vy’uburemere 4 kuri byte, mu gihe amakuru y’ivyabona aharurwa nk’ibice vy’uburemere 1 kuri byte. Iryo 75% ry’igabanya ryemerera amabuye ashika ku miriyoni 4 z’uburemere (bishobora kuba 4MB n’amakuru yose y’ivyabona) mu gihe bigaragaza ko ama node y’iragi atigera abona amakuru arenga 1MB y’ibikorwa vy’ishimikiro. Ayandi mahitamwo adondora uburyo butabaho - nta gufatanya, nta gupima kw'inguvu, kandi nta gutanga amabuye atandukanye.

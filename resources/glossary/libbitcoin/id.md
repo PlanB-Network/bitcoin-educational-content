@@ -1,5 +1,6 @@
 ---
-term: LIBBITCOIN
+term: Libbitcoin
+definition: Kumpulan pustaka C++ modular untuk membuat aplikasi Bitcoin.
 ---
 
 Satu set _library_ yang ditulis dalam C++ yang dirancang untuk membuat aplikasi yang berhubungan dengan Bitcoin. Libbitcoin menawarkan fondasi independen untuk mengembangkan aplikasi seluler, perangkat lunak, dan sistem lain di sekitar Bitcoin. Oleh karena itu, Libbitcoin memiliki arsitektur modular. Semua _library_ proyek didistribusikan di bawah lisensi AGPL gratis.

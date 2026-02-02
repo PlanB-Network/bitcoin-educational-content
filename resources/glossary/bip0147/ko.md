@@ -1,5 +1,6 @@
 ---
 term: BIP0147
+definition: 멀티시그 옵코드의 더미 요소가 비어 있어야 한다는 NULLDUMMY 규칙으로, 가변성(malleability) 벡터를 제거함.
 ---
 
 SegWit Soft Fork에 포함된 제안은 `OP_CHECKMULTISIG` 및 `OP_CHECKMULTISIGVERIFY` 연산에서 소비되는 더미 요소와 관련된 가단성 벡터를 해결하기 위한 것입니다. 과거의 오프 바이 원 버그(단위 이동 오류)로 인해 이 두 개의 옵코드는 의도된 기능 외에 스택에서 추가 요소를 제거합니다.

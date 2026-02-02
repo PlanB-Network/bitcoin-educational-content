@@ -1,0 +1,8 @@
+question: Quelle est la principale différence entre la conception hayékienne du prix et l'approche économique mainstream traditionnelle ?
+answer: Hayek voit le prix comme un signal d'information qui coordonne les actions individuelles, tandis que l'approche traditionnelle le considère comme un simple résultat mathématique d'équilibre
+wrong_answers:
+  - "Hayek considère que les prix doivent être fixés par l'État pour être efficaces, contrairement à l'approche traditionnelle qui privilégie le marché libre"
+  - "L'approche traditionnelle met l'accent sur la fonction informationnelle des prix, alors que Hayek se concentre uniquement sur leur aspect mathématique"
+  - "Hayek propose que les prix soient déterminés par la planification centrale, tandis que l'économie mainstream favorise la libre concurrence"
+explanation: |
+  La révolution conceptuelle de Hayek réside dans sa vision du prix comme vecteur d'information et mécanisme de coordination spontanée, dépassant la simple vision mathématique traditionnelle. Contrairement aux autres propositions qui inversent incorrectement les positions ou attribuent faussement à Hayek une préférence pour l'intervention étatique, sa théorie prône justement le caractère spontané et informationnel du système des prix dans un marché libre.

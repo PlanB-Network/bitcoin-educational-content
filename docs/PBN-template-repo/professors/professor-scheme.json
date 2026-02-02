@@ -56,6 +56,51 @@
       "items": {
         "type": "string"
       }
+    },
+    "assets_rules": {
+      "type": "object",
+      "description": "Documentation of required asset files for professors",
+      "properties": {
+        "profile": {
+          "type": "object",
+          "description": "Professor profile picture requirements",
+          "properties": {
+            "path": {
+              "type": "string",
+              "const": "assets/profile.webp",
+              "description": "Path to the profile image file"
+            },
+            "required": {
+              "type": "boolean",
+              "const": true,
+              "description": "This asset is required"
+            },
+            "format": {
+              "type": "string",
+              "const": "webp",
+              "description": "Image format must be WebP"
+            },
+            "aspect_ratio": {
+              "type": "string",
+              "const": "1:1",
+              "description": "Square aspect ratio required"
+            },
+            "recommended_dimensions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": ["400x400", "800x800"],
+              "description": "Recommended pixel dimensions"
+            },
+            "content": {
+              "type": "string",
+              "const": "Professor's face or avatar",
+              "description": "What the image should contain"
+            }
+          }
+        }
+      }
     }
   },
   "required": ["name", "contributor_id", "links", "tags", "tips", "company", "affiliations"],

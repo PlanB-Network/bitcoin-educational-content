@@ -1,9 +1,9 @@
-question: What is the primary function of currency?
-answer: To act as an intermediary that simplifies the exchange of value
+question: Chức năng chính của tiền tệ là gì?
+answer: Hoạt động như một trung gian giúp đơn giản hóa việc trao đổi giá trị
 wrong_answers:
-  - To store intrinsic value in physical form
-  - To replace barter completely with direct goods-for-goods exchange
-  - To centralize all economic transactions through a single authority
+  - Để lưu trữ giá trị nội tại dưới dạng vật lý
+  - Thay thế hoàn toàn hình thức trao đổi hàng hóa bằng hình thức trao đổi trực tiếp hàng hóa đổi hàng hóa
+  - Tập trung tất cả các giao dịch kinh tế thông qua một cơ quan duy nhất
 explanation: |
-  Currency simplifies trade by serving as a common medium that reduces the complex web of exchange rates needed in a barter system, thereby facilitating easier transactions.
-reviewed: false
+  Tiền tệ giúp đơn giản hóa thương mại bằng cách đóng vai trò là phương tiện chung giúp giảm bớt mạng lưới tỷ giá hối đoái phức tạp cần thiết trong hệ thống trao đổi hàng hóa, do đó tạo điều kiện cho các giao dịch dễ dàng hơn.
+reviewed: true

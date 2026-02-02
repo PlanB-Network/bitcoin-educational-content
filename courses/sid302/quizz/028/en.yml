@@ -1,0 +1,8 @@
+question: What is the critical operational vulnerability that emerges from AMP's co-signing authorization model for regulated asset transfers?
+answer: Asset liquidity pauses completely if the AMP server becomes unavailable since every transfer requires server co-signature
+wrong_answers:
+  - Transaction fees increase exponentially when multiple co-signers attempt to authorize transfers simultaneously
+  - Confidential Transaction privacy breaks down because co-signing exposes blinding factors to network observers
+  - Asset holders lose custody control as the co-signing mechanism transfers private keys to the AMP server
+explanation: |
+  AMP's authorization model requires the AMP server to co-sign every asset transfer, creating a single point of failure. If the server goes offline, no transactions can be completed, effectively freezing all asset liquidity. The other options are incorrect: fees don't increase exponentially with co-signing, Confidential Transaction privacy remains intact (only the issuer gains visibility), and users retain their private keys while the server only provides authorization signatures.

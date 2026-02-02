@@ -5,5 +5,5 @@ wrong_answers:
   - Rejesha Mempool wakati wa Hard Fork
   - Kurejesha Mempool wakati wa kupanga upya
 explanation: |
-  Kila revNNNNN.dat ina data inayohitajika kutendua athari za kizuizi kwenye seti ya UTXO, na kuifanya iwe rahisi kudhibiti upangaji upya.
+  Kila revNNNNN.dat ina data inayohitajika kutendua athari za Blocks kwenye seti ya UTXO, na kuifanya iwe rahisi kudhibiti upangaji upya.
 reviewed: true

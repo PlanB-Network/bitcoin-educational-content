@@ -1,35 +1,18 @@
 ---
 name: 斯宾诺莎与 Bitcoin
 goal: 探索斯宾诺莎思想与作为自由工具的 Bitcoin 之间的哲学联系。
-objectives: 
-
-
-  - 了解斯宾诺莎的实践哲学及其对自由的追求。
-  - 探索斯宾诺莎主义的决定论和人类幻觉概念。
-  - 分析斯宾诺莎的思想革命与 Bitcoin 的技术革命之间的相似之处。
-
-
-
+objectives:
+- 理解斯宾诺莎的实践哲学及其对自由的追求。
+- 探索斯宾诺莎关于决定论和人类幻觉的概念。
+- 分析斯宾诺莎思想革命与比特币技术革命之间的相似之处。
+- 应用情感理论来识别和抵制政治系统中的操纵。
 ---
+# 当斯宾诺莎遇见中本聪
 
-# 通过斯宾诺莎和 Bitcoin 对自由进行哲学探索
+探索17世纪哲学家巴鲁赫·德·斯宾诺莎关于自由、理性和权力的激进思想如何预示比特币的去中心化革命。本课程揭示了惊人的相似之处：两者都拒绝盲目信仰和中央权威，两者都使用数学严谨性来解放。斯宾诺莎将思想从宗教教条中解放出来，比特币将货币从国家控制中解放出来。
 
-
-
-本课程探讨斯宾诺莎（Baruch de Spinoza，1632-1677 年）的革命哲学与 Bitcoin 之间的深刻联系，这两种自由工具相隔数百年，但却因相同的追求而结合在一起：人类从奴役中解放出来。
-
-
-
-我们将发现理性启蒙哲学之父斯宾诺莎是如何发展出一套实用的伦理学，将我们从禁锢我们的幻想--自由意志、终极论和神学迷信--中解放出来。他的几何方法和影响理论向我们展示了如何理解我们在世界上的位置，以及如何将我们的存在导向能增强我们行动力的事物。
-
-
-
-然后，课程将这一哥白尼式的思想革命与 Bitcoin 进行了精彩的比较：这两个系统既不需要盲目信仰，也不需要中央权威，只需要行使理性。正如斯宾诺莎主义将思想从宗教教条中解放出来一样，Bitcoin 将货币从国家控制中解放出来，提供了一种植根于数学和密码学的新型经济自由。
-
-
-
+从斯宾诺莎的伦理学中学习实用工具，以理解比特币的哲学基础并增强你的自主性。准备好探索历史上两个最伟大的人类解放工具了吗？
 +++
-
 # 导言
 
 
@@ -52,7 +35,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/zh-Hans/001.webp)
 
 
 斯宾诺莎肖像
@@ -87,7 +70,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/zh-Hans/002.webp)
 
 
 斯宾诺莎肖像
@@ -110,7 +93,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/zh-Hans/003.webp)
 
 
 
@@ -118,7 +101,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/zh-Hans/004.webp)
 
 
 
@@ -130,7 +113,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/zh-Hans/005.webp)
 
 
 
@@ -166,7 +149,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/zh-Hans/006.webp)
 
 
 
@@ -174,7 +157,6 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -186,7 +168,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/zh-Hans/007.webp)
 
 
 
@@ -206,10 +188,10 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/zh-Hans/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/zh-Hans/009.webp)
 
 
 
@@ -225,7 +207,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/zh-Hans/010.webp)
 
 
 
@@ -272,7 +254,6 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -284,7 +265,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/zh-Hans/011.webp)
 
 
 
@@ -296,7 +277,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/zh-Hans/012.webp)
 
 
 
@@ -328,7 +309,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/zh-Hans/013.webp)
 
 
 
@@ -348,7 +329,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/zh-Hans/014.webp)
 
 
 
@@ -384,7 +365,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/zh-Hans/015.webp)
 
 
 
@@ -395,7 +376,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/zh-Hans/016.webp)
 
 
 
@@ -407,7 +388,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/zh-Hans/017.webp)
 
 
 
@@ -444,7 +425,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/zh-Hans/018.webp)
 
 
 
@@ -456,7 +437,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/zh-Hans/019.webp)
 
 
 
@@ -464,7 +445,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/zh-Hans/020.webp)
 
 
 
@@ -509,10 +490,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/zh-Hans/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -524,7 +504,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/zh-Hans/022.webp)
 
 
 
@@ -536,10 +516,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/zh-Hans/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -547,7 +526,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/zh-Hans/024.webp)
 
 
 
@@ -555,7 +534,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/zh-Hans/025.webp)
 
 
 
@@ -599,7 +578,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/zh-Hans/026.webp)
 
 
 
@@ -623,7 +602,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/zh-Hans/027.webp)
 
 
 
@@ -639,7 +618,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/zh-Hans/028.webp)
 
 
 
@@ -667,7 +646,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/zh-Hans/029.webp)
 
 
 
@@ -692,10 +671,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/zh-Hans/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -726,7 +704,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/zh-Hans/031.webp)
 
 
 
@@ -750,7 +728,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/zh-Hans/032.webp)
 
 
 
@@ -766,7 +744,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/zh-Hans/033.webp)
 
 
 
@@ -774,7 +752,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/zh-Hans/034.webp)
 
 
 
@@ -790,7 +768,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/zh-Hans/035.webp)
 
 
 
@@ -826,7 +804,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/zh-Hans/036.webp)
 
 
 
@@ -850,7 +828,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/zh-Hans/037.webp)
 
 
 
@@ -862,7 +840,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/zh-Hans/038.webp)
 
 
 
@@ -882,7 +860,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/zh-Hans/039.webp)
 
 
 
@@ -894,7 +872,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/zh-Hans/040.webp)
 
 
 
@@ -902,7 +880,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/zh-Hans/041.webp)
 
 
 
@@ -962,7 +940,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/zh-Hans/042.webp)
 
 
 
@@ -970,7 +948,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/zh-Hans/043.webp)
 
 
 
@@ -987,7 +965,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/zh-Hans/044.webp)
 
 
 
@@ -1010,7 +988,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/zh-Hans/045.webp)
 
 
 
@@ -1050,7 +1028,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/zh-Hans/046.webp)
 
 
 
@@ -1074,7 +1052,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/zh-Hans/047.webp)
 
 
 
@@ -1090,7 +1068,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/zh-Hans/048.webp)
 
 
 
@@ -1110,7 +1088,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/zh-Hans/049.webp)
 
 
 
@@ -1130,7 +1108,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/zh-Hans/050.webp)
 
 
 
@@ -1168,14 +1146,13 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 这正是启蒙运动理性哲学的宗旨，尤其要感谢伊曼纽尔-康德（Immanuel Kant，1724-1804 年），在他看来，只有受过教育的人才能在理性的指导下独立思考，并在伦理上确定什么是 "真 "或 "善"，什么是有毒的。
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/zh-Hans/051.webp)
 
 
 
@@ -1186,7 +1163,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/zh-Hans/052.webp)
 
 
 
@@ -1194,7 +1171,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/zh-Hans/053.webp)
 
 
 
@@ -1215,7 +1192,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/zh-Hans/054.webp)
 
 
 
@@ -1223,7 +1200,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/zh-Hans/055.webp)
 
 
 
@@ -1231,7 +1208,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/zh-Hans/056.webp)
 
 
 

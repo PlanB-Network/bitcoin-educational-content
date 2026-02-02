@@ -1,0 +1,9 @@
+question: Vilken lösning gör att du kan köra en riktig Lightning-nod på mobiltelefoner?
+answer: Inbäddad LN-nod
+wrong_answers:
+  - Förvaringsblixt wallet
+  - Blixtsnabbt atomutbyte
+  - Federerade kanaler
+explanation: |
+  Lösningar som Phoenix eller Zeus Embedded integrerar en äkta Lightning-nod direkt i applikationen.
+reviewed: false

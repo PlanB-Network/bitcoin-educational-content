@@ -1,5 +1,6 @@
 ---
-term: UTEKELEZAJI WA Bitcoin
+term: Utekelezaji wa Bitcoin
+definition: Programu inayotumia sheria za itifaki ya Bitcoin, huku Bitcoin Core ikiwa ndiyo utekelezaji wa marejeleo.
 ---
 
 Inarejelea programu inayotumika na kufuata sheria zilizofafanuliwa na itifaki ya Bitcoin. Kinachojulikana kwa ujumla "Bitcoin" ni mfumo wa pesa wa kielektroniki. Ni itifaki inayobainisha sheria. Inawakilishwa, kwa hakika, na nodes zinazounda mtandao. Mfumo huu hauna msimbo haswa. Ni seti ya sheria pana za kimyakimya zilizowekwa na makubaliano ya watumiaji kupitia nodi zao. Hata hivyo, wale ambao wana msimbo wa kompyuta, na kwa hiyo wanaweza kuendelezwa, kudumishwa, na kurekebishwa, ni badala ya programu ya nodi ya Bitcoin. Haya ni utekelezaji wa kujitegemea wa itifaki ya Bitcoin, ambayo inaweza kuunganisha kwenye mtandao wote.

@@ -1,8 +1,9 @@
-question: Ni ibihe bintu bitatu vy’ingenzi vy’amahera Turgot yashize imbere mw’ikete ryiwe rizwi cane yandikiye Louis XVI igihe yinjira mu ngabo za Contrôle Général?
-answer: Nta gusenyuka. Nta misoro yongerekana. Nta ngurane
+question: Ni ibihe bintu bitatu vy’ingenzi vy’amahera Turgot yashize imbere mw’ikete ryiwe rizwi cane yandikiye Louis XVI igihe yinjira mu butegetsi bushitse?
+answer: Nta gusenyuka. Nta kongereza amakori. Nta ngurane
 wrong_answers:
-  - Nta mpinduka. Nta misoro mishasha. Nta mategeko mashasha.
-  - Nta ntambara nshasha. Nta misoro yongerekana. Nta ngurane
-  - Nta n’amahera adakenewe. Nta ntebe z’agaciro. Nta gutoranya abantu.
+  - Nta mpinduka. Nta makori mashasha. Nta mategeko mashasha.
+  - Nta ntambara nshasha. Nta makori yongerekana. Nta ngurane
+  - Nta gusesagura amahera. nta bakingirwa ikibaba. Nta gutoranya abantu.
 explanation: |
-  Ibintu bitatu vy’ingenzi Turgot yari afise ni ibi: nta gusenyuka, nta kwongerwa kw’imisoro, nta kugurana. Yarizera ko izo ngingo ngenderwako zitatu ari ngirakamaro kugira ngo Leta isubire mu vy’ubutunzi no kuvyura ubutunzi.
+  Ibintu bitatu vy’ingenzi Turgot yari afise ni ibi: nta gusenyuka, nta kwongerwa kw’amakori, nta kugurana. Yarizera ko izo ngingo ngenderwako zitatu ari ngirakamaro kugira ngo Leta isubire mu vy’ubutunzi no kuvyura ubutunzi.
+reviewed: true

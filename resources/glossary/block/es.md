@@ -1,6 +1,7 @@
 ---
-term: BLOQUE
+term: Bloque
 
+definition: Estructura de datos que contiene transacciones validadas y metadatos, vinculada a los demás bloques mediante hachage.
 ---
 Estructura de datos en el sistema Bitcoin. Un bloque contiene un conjunto de transacciones válidas y metadatos contenidos en su cabecera. Cada bloque está vinculado al siguiente por el hash de su cabecera, formando así la cadena de bloques. El blockchain actúa como un servidor de sellado de tiempo que permite a cada usuario conocer todas las transacciones pasadas, con el fin de verificar la no existencia de una transacción y evitar el doble gasto. Las transacciones se organizan en un árbol de Merkle. Este acumulador criptográfico permite obtener un compendio de todas las transacciones de un bloque, llamado "raíz de Merkle" La cabecera de un bloque contiene 6 elementos:
 

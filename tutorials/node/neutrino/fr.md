@@ -11,7 +11,7 @@ description: Guide d'installation du LND Neutrino
 ### 1. Télécharger Raspberry Pi OS Lite
 
 
-Les instructions pour télécharger et installer l'image sur une carte micro SD sous Windows, Mac et Linux se trouvent sur [cette page] (https://www.raspberrypi.org/software/operating-systems/).
+Les instructions pour télécharger et installer l'image sur une carte micro SD sous Windows, Mac et Linux se trouvent sur [cette page](https://www.raspberrypi.org/software/operating-systems/).
 
 
 ### 2. Formater la carte SD
@@ -20,13 +20,13 @@ Les instructions pour télécharger et installer l'image sur une carte micro SD 
 Utilisez Raspberry Pi Imager ou balenaEtcher.
 
 
-**Note:** Le symbole `$` est utilisé comme invite et permet à l'utilisateur d'entrer des commandes dans l'ordinateur, les commandes seront interprétées par bash dans Linux. Le symbole `#` au début d'une ligne indique que le texte suivant est un commentaire.
+**Note:** Le symbole `$` est utilisé comme invite et permet à l'utilisateur de saisir des instructions dans le terminal. Ces instructions seront ensuite interprétées par bash sous Linux. Le symbole `#`, placé au début d'une ligne, indique que ce qui suit est un commentaire.
 
 
 ### 3. Activer SSH
 
 
-Avant de démarrer le Raspberry Pi avec la mémoire formatée, nous devons l'insérer dans un ordinateur et créer deux fichiers qui nous permettront de nous connecter à distance. En utilisant la commande `touch`, nous créons un fichier vide dans la partition /boot, permettant la connexion SSH au premier démarrage de la carte SD fraîchement formatée.
+Avant de démarrer le Raspberry Pi avec la carte SD formatée, il faut d’abord l'insérer dans un ordinateur afin d’y créer deux fichiers nécessaires qui nous permettront de nous connecter à distance. Grâce à la commande `touch`, on crée un fichier vide dans la partition /boot, ce qui permet d’activer la connexion SSH dès le premier démarrage du Raspberry Pi.
 
 
 ```
@@ -39,7 +39,7 @@ $ touch /boot/ssh
 ### 4. Créer un fichier pour la connexion Wi-Fi
 
 
-En utilisant la commande nano, nous créons le fichier `wpa_supplicant.conf` et commençons directement à l'éditer. Dans ce fichier, nous devons copier la configuration wifi, en copiant le texte entre START et END, et en modifiant le SSID et le mot de passe du wifi auquel vous voulez vous connecter.
+Avec la commande nano, nous créons le fichier `wpa_supplicant.conf` et l’ouvrons directement pour l'éditer. Dans ce fichier, il suffit copier la configuration wifi, en copiant le texte entre START et END, puis de remplacer le SSID et le mot de passe du wifi auquel vous voulez vous connecter.
 
 
 ```
@@ -61,7 +61,7 @@ psk="password"
 ### 5. Connexion
 
 
-Ensuite, nous insérons la carte SD dans le Raspberry Pi et connectons le Pi à la source d'alimentation pour démarrer le système d'exploitation. Nous devons l'identifier sur le réseau, et le protocole mDNS lui attribuera probablement le nom raspberrypi.local. Essayons de nous connecter via SSH.
+Ensuite, insérez la carte SD dans le Raspberry Pi, puis connectez-le à l'alimentation pour lancer le système d'exploitation. Il faut ensuite l'identifier sur le réseau, grâce au protocole mDNS, il portera généralement le nom raspberrypi.local. Nous pouvons maintenant tenter de nous connecter via SSH.
 
 
 ```
@@ -70,7 +70,7 @@ password: raspberry
 ```
 
 
-Si cela ne fonctionne pas, nous devons trouver le réseau. Découvrons l'IP Address à laquelle nous sommes connectés.
+Si cela ne fonctionne pas, nous devons vérifier le réseau. Commençons par identifier l'address IP à laquelle nous sommes connectés.
 
 
 ```
@@ -86,7 +86,7 @@ nmap -v 192.168.0.0/24
 ```
 
 
-En supposant que nous trouvions une nouvelle IP sur notre réseau, entrons par SSH.
+Si nous découvrons une nouvelle address IP sur notre réseau, nous pouvons nous y connecter via SSH.
 
 
 ```
@@ -104,9 +104,9 @@ $ sudo raspi-config
 
 
 - Sélectionnez l'option (1) et modifiez le mot de passe de l'utilisateur pi.
-- Nous sélectionnons l'option (8) pour mettre à jour l'outil de configuration à la dernière version
-- Nous choisissons l'option (4) pour sélectionner notre fuseau horaire
-- Nous sélectionnons l'option (7) et développons le système de fichiers
+- Choisissez l'option (8) pour mettre à jour l'outil de configuration à la dernière version
+- Sélectionnez l'option (4) pour sélectionner notre fuseau horaire
+- Choisissez l'option (7) pour étendre le système de fichiers
 - Finition
 
 
@@ -147,7 +147,7 @@ $ sudo apt install fail2ban
 ### 10. Installer Go
 
 
-Si vous n'utilisez pas de raspberry pi, téléchargez go for your architecture [ici] (https://golang.org/dl/).
+Si vous n'utilisez pas de raspberry pi, téléchargez go for your architecture [ici](https://golang.org/dl/).
 
 
 ```
@@ -217,7 +217,7 @@ neutrino.connect=bb2.breez.technology
 ### 13. LND service autostart
 
 
-Pour que LND démarre après le démarrage de rpi, nous devons créer le fichier .service dans systemd. Si nous sommes connectés en tant qu'utilisateur Bitcoin et que nous voulons revenir à l'utilisateur pi, il suffit de taper 'exit'
+Pour que LND se lance automatiquement au démarrage du Raspberry Pi, nous devons créer un fichier .service dans systemd. Si nous sommes connectés en tant qu'utilisateur Bitcoin et que nous souhaitons revenir à l'utilisateur pi, il suffit de taper 'exit'.
 
 
 ```
@@ -315,7 +315,7 @@ $ lncli create
 $ lncli newaddress p2wkh
 ```
 
-Vous pouvez maintenant envoyer des btc au Address renvoyé par le LND.
+Vous pouvez maintenant envoyer des BTC à l’adresse fournie par LND.
 
 
 avec cette commande, vous pouvez vérifier le solde :

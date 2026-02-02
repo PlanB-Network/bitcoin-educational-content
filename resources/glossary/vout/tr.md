@@ -1,5 +1,6 @@
 ---
 term: VOUT
+definition: Bir değer ve bir kilitleme betiği ile fonların hedefini belirleyen bir Bitcoin işlemi öğesi.
 ---
 
 Gönderilen fonların hedefini belirleyen bir Bitcoin işleminin belirli bir unsuru. Bir işlem, her biri işlem tanımlayıcısı (`txid`) ve `vout` adı verilen bir indeksin kombinasyonu ile benzersiz bir şekilde tanımlanan birden fazla çıktı içerebilir. 0`dan başlayan bu indeks, çıktının işlem çıktıları dizisindeki konumunu işaret eder. Böylece, ilk çıktı `"vout" ile belirtilecektir: 0`, ikincisi `"vout": 1` ve bu şekilde devam eder.

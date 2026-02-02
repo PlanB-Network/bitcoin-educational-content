@@ -360,7 +360,7 @@ Według Jamesona Loppa:
 
 
 
-- Tabela porównawcza [pełna] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Tabela porównawcza [pełna](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

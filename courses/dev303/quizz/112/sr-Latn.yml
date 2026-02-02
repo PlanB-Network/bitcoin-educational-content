@@ -1,0 +1,8 @@
+question: Koje osnovno saznanje o usvajanju Lightning-a je navelo Breez da pređe sa izrade jedne mobilne aplikacije na razvoj SDK arhitekture?
+answer: Ekosistem mobilnih aplikacija ne olakšava laku komunikaciju između aplikacija, sprečavajući specijalizovane aplikacije da koriste zajedničku Lightning infrastrukturu.
+wrong_answers:
+  - Mobilni uređaji nemaju dovoljno računske snage da pouzdano pokreću Lightning čvorove, što zahteva infrastrukturu zasnovanu na oblaku za pravilno funkcionisanje.
+  - Regulatorna usklađenost zahteva da funkcionalnost Lightning-a bude centralizovana u SDK-ovima, a ne distribuirana preko pojedinačnih mobilnih aplikacija.
+  - Istraživanje korisničkog iskustva pokazalo je da potrošači preferiraju da Lightning plaćanja budu upravljana od strane usluga trećih strana, a ne pojedinačnih aplikacija.
+explanation: |
+  Tačan odgovor identifikuje ključnu arhitektonsku ograničenost otkrivenu kroz originalnu Breez aplikaciju: mobilni ekosistemi ne omogućavaju laku komunikaciju između aplikacija, što primorava developere da izgrade sve Lightning funkcije u jednoj aplikaciji umesto da kreiraju specijalizovane aplikacije koje dele Lightning infrastrukturu. Ovo saznanje je dovelo do pristupa SDK-a koji omogućava više aplikacija da se povežu na isti Lightning čvor. Pogrešni odgovori se fokusiraju na tehnička ograničenja, regulatorna pitanja ili korisničke preferencije, ali to nisu bila fundamentalna arhitektonska saznanja koja su dovela do strateškog pomaka ka SDK modelu.

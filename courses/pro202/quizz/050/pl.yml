@@ -1,0 +1,8 @@
+question: Kiedy węzeł Bitcoin uruchamia się i dołącza do sieci po raz pierwszy, jaki jest podstawowy mechanizm, którego używa do wykrywania aktywnych urządzeń równorzędnych?
+answer: Kontaktuje się z zakodowanymi nasionami DNS utrzymywanymi przez deweloperów rdzenia w celu odbierania adresów IP aktywnych urządzeń równorzędnych
+wrong_answers:
+  - Rozsyła komunikat wykrywania do wszystkich adresów IP w predefiniowanych zakresach podsieci
+  - Łączy się z centralnym serwerem rejestru, który utrzymuje listę wszystkich aktywnych węzłów
+  - Wykorzystuje protokół DHT (Distributed Hash Table) do znajdowania partnerów poprzez routing oparty na hashach
+explanation: |
+  Bitcoin wykorzystuje zakodowane nasiona DNS jako mechanizm rozruchowy, ponieważ zapewnia zdecentralizowany sposób na wejście nowych węzłów do sieci bez polegania na centralnym organie. Nasiona DNS są utrzymywane przez deweloperów rdzenia i zwracają adresy IP aktualnie aktywnych węzłów równorzędnych. Po nawiązaniu połączenia węzły mogą następnie użyć polecenia getaddr, aby znaleźć dodatkowych partnerów. Błędne odpowiedzi opisują scentralizowane podejścia lub protokoły, które nie są używane przez Bitcoin - w projekcie Bitcoin nie ma centralnego rejestru, rozgłaszania podsieci ani wykrywania peerów opartego na DHT.

@@ -1,6 +1,7 @@
 ---
-term: BITCOIN QT (比特币 QT)
+term: Bitcoin QT
 
+definition: 2011年发布的带有图形界面的比特币客户端，2014年更名为 Bitcoin Core。
 ---
 比特币 QT 是一款包含图形化界面的比特币客户端，于 2011 年 5 月发布。它继承了中本聪自己创建的客户端。2014 年，Bitcoin QT 更名为 “Bitcoin Core”。它现在是比特币协议的参考实施方案。从 0.5 版开始，它便作为 `bitcoind` 的一部分一同发布。布。此外，甚至到今天，Bitcoin Core 的图形化界面仍被称为 `bitcoin-qt`，以表示该软件的起源。
 

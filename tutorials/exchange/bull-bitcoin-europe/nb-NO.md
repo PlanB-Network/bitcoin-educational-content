@@ -12,7 +12,7 @@ Bull Bitcoin er forpliktet til å tilby en transparent tjeneste uten skjulte geb
 
 ## Registrer deg på Bull Bitcoin
 
-Gå til Bull Bitcoins [registreringsside] (https://accounts.bullbitcoin.com/en/registration) for å opprette en ny konto. Skriv inn e-postadressen din og velg et sterkt passord. Trykk deretter på "*Sign up*".
+Gå til Bull Bitcoins [registreringsside](https://accounts.bullbitcoin.com/en/registration) for å opprette en ny konto. Skriv inn e-postadressen din og velg et sterkt passord. Trykk deretter på "*Sign up*".
 
 ![BULL](assets/fr/01.webp)
 
@@ -127,7 +127,7 @@ Hvis du ikke er kjent med å bruke Bitcoin, Lightning eller Liquid lommebøker, 
 
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Du kan også utforske [våre detaljerte veiledninger om de beste Bitcoin-lommebøkene] (https://planb.academy/tutorials/wallet).
+Du kan også utforske [våre detaljerte veiledninger om de beste Bitcoin-lommebøkene](https://planb.academy/tutorials/wallet).
 
 Bekreft deretter kjøpet ved å klikke på "*Bekreft kjøp*".
 
@@ -195,6 +195,14 @@ Bekreft deretter uttaket.
 For å holde oversikt over alle transaksjonene dine kan du se historikken i menyen "*Siste transaksjoner*".
 
 ![BULL](assets/fr/36.webp)
+
+## Start et automatisk tilbakevendende kjøp (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Opprett en limitordre
+
+![video](https://youtu.be/6Jlu19jlk7U)
 
 Nå vet du hvordan du enkelt kan kjøpe og selge bitcoin med Bull Bitcoin. Hvis du fant denne opplæringen nyttig, ville jeg være veldig takknemlig hvis du setter en grønn tommel nedenfor. Del gjerne denne artikkelen på dine sosiale nettverk. Tusen takk skal du ha!
 

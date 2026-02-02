@@ -1,35 +1,18 @@
 ---
 name: Spinoza a Bitcoin
 goal: Objevte filozofické souvislosti mezi Spinozovým myšlením a Bitcoin jako nástrojem svobody v průběhu staletí.
-objectives: 
-
-
-  - Porozumění Spinozově praktické filozofii a jeho hledání svobody.
-  - Zkoumání spinozistických konceptů determinismu a lidských iluzí.
-  - Analýza paralel mezi Spinozovou revolucí idejí a technologickou revolucí Bitcoin.
-
-
-
+objectives:
+- Pochopení Spinozovy praktické filosofie a jeho hledání svobody.
+- Zkoumání spinozistických konceptů determinismu a lidských iluzí.
+- Analýza paralel mezi Spinozovou revolucí myšlenek a technologickou revolucí Bitcoinu.
+- Aplikace teorie afektů k rozpoznání a odporu vůči manipulaci v politických systémech.
 ---
+# Když se Spinoza setkal se Satoshim
 
-# Filozofické zkoumání svobody prostřednictvím Spinozy a Bitcoin
+Objevte, jak radikální myšlenky filozofa 17. století Barucha de Spinozy o svobodě, rozumu a moci předznamenávají decentralizovanou revoluci Bitcoinu. Tento kurz odhaluje pozoruhodné paralely: oba odmítají slepou víru a centrální autoritu, oba používají matematickou přísnost k osvobození. Spinoza osvobodil mysli od náboženského dogmatu, Bitcoin osvobozuje peníze od státní kontroly.
 
-
-
-Tento kurz zkoumá hluboké souvislosti mezi revoluční filozofií Barucha de Spinozy (1632-1677) a Bitcoin, dvěma nástroji svobody, které od sebe dělí celá staletí, ale spojuje je stejný cíl: osvobození člověka z otroctví.
-
-
-
-Zjistíme, jak Spinoza, otec racionální osvícenské filozofie, vyvinul praktickou etiku, která nás má osvobodit od iluzí, jež nás vězní - svobodné vůle, finalismu a teologických pověr. Jeho geometrická metoda a teorie afektů nám ukazují, jak pochopit naše místo ve světě a směřovat naši existenci k tomu, co zvyšuje naši sílu jednat.
-
-
-
-Kurz pak uvádí fascinující paralely mezi touto koperníkovskou revolucí idejí a Bitcoin: dva systémy, které nevyžadují slepou víru ani centrální autoritu, ale prostě jen používání rozumu. Stejně jako spinozismus osvobodil myšlení od náboženských dogmat, Bitcoin osvobozuje peníze od státní kontroly a nabízí novou formu ekonomické svobody, která má kořeny v matematice a kryptografii.
-
-
-
+Naučte se praktické nástroje ze Spinozovy etiky k pochopení filozofických základů bitcoinu a zvyšte svou autonomii. Jste připraveni prozkoumat dva z největších nástrojů lidské emancipace v dějinách?
 +++
-
 # Úvod
 
 
@@ -52,7 +35,7 @@ V tomto kurzu vám rád představím filozofii Barucha de Spinozy (1632-1677), s
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/cs/001.webp)
 
 
 Spinozův portrét
@@ -87,7 +70,7 @@ Nejprve vás seznámím se Spinozou, jeho osobností, společenským, nábožens
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/cs/002.webp)
 
 
 Spinozův portrét
@@ -110,7 +93,7 @@ Podíváme se také na Spinozova dvě hlavní díla, počínaje Etikou, vydanou 
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/cs/003.webp)
 
 
 
@@ -118,7 +101,7 @@ Pak se podíváme na Traité théologico-Politique, vydaný ještě za jeho živ
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/cs/004.webp)
 
 
 
@@ -130,7 +113,7 @@ Díky teorii afektů rozvinuté na způsob geometrů, "more geometrico", konečn
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/cs/005.webp)
 
 
 
@@ -166,7 +149,7 @@ Byl židovského vyznání, příslušník portugalské sefardské komunity poch
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/cs/006.webp)
 
 
 
@@ -174,7 +157,6 @@ Od raného mládí se totiž projevoval silně kriticky vůči zavedenému nábo
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -186,7 +168,7 @@ Spinoza, stejně jako jeho současníci Descartes (1596-1650), Pascal (1632-1662
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/cs/007.webp)
 
 
 
@@ -206,10 +188,10 @@ A právě tento přístup spojuje Spinozu s filozofií osvícenství, ať už n�
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/cs/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/cs/009.webp)
 
 
 
@@ -225,7 +207,7 @@ Bohatství však není spojeno s přírodními zdroji, vykořisťováním a pust
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/cs/010.webp)
 
 
 
@@ -272,7 +254,6 @@ V této kapitole navrhuji, abychom se nyní zaměřili na Spinozovo hlavní díl
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -284,7 +265,7 @@ Etika je latinsky psané dílo na způsob geometrů, pravděpodobně inspirovan�
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/cs/011.webp)
 
 
 
@@ -296,7 +277,7 @@ Chtěl bych upozornit, že když otevřete Etiku, doporučujeme začít s postfa
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/cs/012.webp)
 
 
 
@@ -328,7 +309,7 @@ Zaprvé, pokud pro Spinozu náhoda neexistuje, je to proto, že je to událost, 
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/cs/013.webp)
 
 
 
@@ -348,7 +329,7 @@ Podle Gillese Deleuze (1925-1995), slavného profesora filozofie a odborníka na
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/cs/014.webp)
 
 
 
@@ -384,7 +365,7 @@ Jedná se o Traité théologico-politique neboli TTP, vydaný anonymně v roce 1
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/cs/015.webp)
 
 
 
@@ -395,7 +376,7 @@ Jak jsme viděli, Spinozovo pojetí Boha je předmětem celé první části Eti
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/cs/016.webp)
 
 
 
@@ -407,7 +388,7 @@ Tak nám Spinoza ukazuje, že Bůh podle něj není antropomorfní bytostí obda
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/cs/017.webp)
 
 
 
@@ -444,7 +425,7 @@ Nechvalně proslulé zemětřesení v Lisabonu 1. listopadu 1755 ukázalo zásad
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/cs/018.webp)
 
 
 
@@ -456,7 +437,7 @@ Drama, které oživilo otázku německého filozofa a matematika Leibnize (1646-
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/cs/019.webp)
 
 
 
@@ -464,7 +445,7 @@ Jean-Jacques Rousseau (1712-1778) napsal Voltairovi, který byl zasažen nesprav
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/cs/020.webp)
 
 
 
@@ -509,10 +490,9 @@ Stejně jako Mikuláš Koperník (1473-1543) zjistil, že Země není středem s
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/cs/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -524,7 +504,7 @@ Před ním klasická řecká filozofie navrhovala uspořádanou, hierarchickou v
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/cs/022.webp)
 
 
 
@@ -536,10 +516,9 @@ S novou fyzikou Koperníka (1473-1543) v 15. století však došlo v kosmologii 
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/cs/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -547,7 +526,7 @@ Abychom však spinozismu plně porozuměli, musíme vzít v úvahu také kontext
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/cs/024.webp)
 
 
 
@@ -555,7 +534,7 @@ Navzdory rizikům a odsouzením Giordana Bruna (1548-1600) a Galilea se Descarte
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/cs/025.webp)
 
 
 
@@ -599,7 +578,7 @@ Jak jsme již viděli, Spinoza (1632-1677) je známý tím, že svobodnou vůli 
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/cs/026.webp)
 
 
 
@@ -623,7 +602,7 @@ Protože by ve svém životě nepodléhal žádnému jinému zákonu než zákon
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/cs/027.webp)
 
 
 
@@ -639,7 +618,7 @@ To je myšlenka absolutního determinismu, z níž ve své Etice vyvozuje, že l
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/cs/028.webp)
 
 
 
@@ -667,7 +646,7 @@ Tento přístup ke svobodě jako ke schopnosti jednat je spojnicí s osvícensko
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/cs/029.webp)
 
 
 
@@ -692,10 +671,9 @@ Nakonec je třeba zdůraznit, že zatímco libertariánské hnutí, o němž bud
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/cs/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -726,7 +704,7 @@ Pro Spinozu (1632-1677) však člověk není "říší v říši", tj. není - v
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/cs/031.webp)
 
 
 
@@ -750,7 +728,7 @@ A proto byly nové nemoci, jako je AIDS v 90. letech nebo kovid v roce 2020, vž
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/cs/032.webp)
 
 
 
@@ -766,7 +744,7 @@ Přesně to tvrdil francouzský přírodovědec Jean-Baptiste de Lamarck (1744-1
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/cs/033.webp)
 
 
 
@@ -774,7 +752,7 @@ Ale jak říká Spinoza, "bludy lidí tím nekončí" a mezi všemi příklady n
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/cs/034.webp)
 
 
 
@@ -790,7 +768,7 @@ Tento zkreslený výklad inflace však vede k tomu, že zapomínáme, že inflac
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/cs/035.webp)
 
 
 
@@ -826,7 +804,7 @@ V této závěrečné kapitole o nové koperníkovské vizi idejí, kterou nabí
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/cs/036.webp)
 
 
 
@@ -850,7 +828,7 @@ Jinými slovy, bělovousý stařec skrytý za mrakem, kterému se připisuje, ž
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/cs/037.webp)
 
 
 
@@ -862,7 +840,7 @@ Ale navzdory naší pýše, s níž věříme, že jsme nad přírodou, a předs
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/cs/038.webp)
 
 
 
@@ -882,7 +860,7 @@ Jinými slovy, "nechvalně známý" podle Voltaira (1694-1778), pro něhož se p
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/cs/039.webp)
 
 
 
@@ -894,7 +872,7 @@ Právě to hájilo německé, anglické a francouzské osvícenství od 18. stol
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/cs/040.webp)
 
 
 
@@ -902,7 +880,7 @@ A právě to Spinoza znovu dokazuje ve svém Teologicko-politickém pojednání,
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/cs/041.webp)
 
 
 
@@ -962,7 +940,7 @@ Starověcí filozofové věřili, že zlo v přírodě neexistuje, a například
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/cs/042.webp)
 
 
 
@@ -970,7 +948,7 @@ Ale scholastická tradice, zejména tradice svatého Augustina (354-430), která
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/cs/043.webp)
 
 
 
@@ -987,7 +965,7 @@ Jak si ovšem dokážete představit, Spinoza tuto myšlenku rozcupoval na kousk
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/cs/044.webp)
 
 
 
@@ -1010,7 +988,7 @@ Proto spinozista Gilles Deleuze (1925-1995) vysvětluje, že etika je svého dru
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/cs/045.webp)
 
 
 
@@ -1050,7 +1028,7 @@ Svůj systém rozvíjí ve třetí části Etiky. Jedná se o slavnou "teorii af
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/cs/046.webp)
 
 
 
@@ -1074,7 +1052,7 @@ To říká Spinoza ve své Etice, když se podivuje nad tím, že "lidé často 
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/cs/047.webp)
 
 
 
@@ -1090,7 +1068,7 @@ To mimochodem platí zejména v oblasti kryptoměn.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/cs/048.webp)
 
 
 
@@ -1110,7 +1088,7 @@ To je příklad blesku. Protože když blesk udeří a zabije nevinné lidi, nev
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/cs/049.webp)
 
 
 
@@ -1130,7 +1108,7 @@ V tom spočívá genialita etiky. Spinoza nám ukazuje, že je možné přejít 
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/cs/050.webp)
 
 
 
@@ -1168,14 +1146,13 @@ Nakonec tato jasnozřivost znamená, že už nebudeme žít v nihilismu, který 
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Právě o to šlo osvícenské racionální filozofii, zejména díky Immanuelu Kantovi (1724-1804), podle něhož pouze vzdělaný jedinec pod vedením rozumu může sám myslet a eticky určit, co je "pravdivé" či "dobré" a co je toxické.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/cs/051.webp)
 
 
 
@@ -1186,7 +1163,7 @@ Tato argumentace navazuje na rakouskou školu liberální ekonomie, která se zr
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/cs/052.webp)
 
 
 
@@ -1194,7 +1171,7 @@ Menger a Mises například stanovili, že veškeré poznání musí být konstru
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/cs/053.webp)
 
 
 
@@ -1215,7 +1192,7 @@ Jako spinozista Hayek ve videu vysvětluje, že "jelikož tuto moc nelze bez ná
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/cs/054.webp)
 
 
 
@@ -1223,7 +1200,7 @@ Jedná se o politické a ekonomické argumenty, které předložili první cyphe
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/cs/055.webp)
 
 
 
@@ -1231,7 +1208,7 @@ Zvláště když do mincovní báze bloku Genesis Blockchain Bitcoin vepsal titu
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/cs/056.webp)
 
 
 

@@ -1,9 +1,9 @@
 question: ¿Qué tipo de equipos se utilizan hoy en día para extraer Bitcoin de forma eficiente?
-answer: ASIC
+answer: ASICs
 wrong_answers:
   - CPU clásica
   - GPU
   - FPGA
 explanation: |
-  Hoy en día, Bitcoin Mining se lleva a cabo utilizando ASICs. Se trata de chips especializados para el algoritmo SHA-256.
+  Hoy en día, la minería de Bitcoin se lleva a cabo utilizando ASICs. Se trata de chips especializados para el algoritmo SHA-256.
 reviewed: true

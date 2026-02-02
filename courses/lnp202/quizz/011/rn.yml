@@ -1,0 +1,9 @@
+question: Ni uwuhe muti utanga ubusegaba bwinshi ku bakoresha Lightning?
+answer: Umuravyo wa kera
+wrong_answers:
+  - Wallet n'uguhindura atome
+  - Ku bwato LN urudodo
+  - Umuravyo w’Ubucungezi wallet
+explanation: |
+  Igikoresho ca kera gitanga ubugenzuzi bwose ku mihora, amafaranga n’amategeko y’amahera. Ni co conyene kiguha uburenganzira bwo kwigenga vy’ukuri.
+reviewed: false

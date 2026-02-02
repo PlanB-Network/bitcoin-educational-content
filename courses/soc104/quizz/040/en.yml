@@ -1,0 +1,9 @@
+question: According to Friedman's perspective, what is the primary problem with judging social policies based on their stated intentions rather than their actual outcomes?
+answer: Well-intentioned policies often produce unintended consequences that contradict their original goals, such as creating dependency or market distortions
+wrong_answers:
+  - Intentions are too difficult to measure objectively compared to outcomes, making policy evaluation impossible for researchers and analysts
+  - Politicians deliberately use false intentions to mislead voters, making it necessary to focus only on measurable economic indicators
+  - Intentions change too frequently during policy implementation, while outcomes remain constant and provide better long-term guidance
+explanation: |
+  Friedman argues that policies motivated by generous intentions can have unforeseen or harmful consequences if not based on rigorous analysis of human
+  behavior and incentives. The text specifically mentions that programs labeled as helping the poor often have effects opposite to what their well-intentioned sponsors desire, creating perverse effects like economic dependency. This illustrates why structural definitions focusing on observable characteristics and measurable results should take precedence over intentional definitions based on declared motivations.

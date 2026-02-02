@@ -1,0 +1,9 @@
+question: Dal punto di vista del nodo, qual è la distribuzione iniziale della liquidità dopo l'apertura di un canale?
+answer: 100% in uscita
+wrong_answers:
+  - 50% in entrata 50% in uscita
+  - 100% in entrata
+  - 90% in uscita 10% in entrata
+explanation: |
+  Quando viene aperto un canale, tutta la liquidità si trova inizialmente sul lato dell'iniziatore.
+reviewed: false

@@ -1,26 +1,18 @@
 ---
-name: Introduktion till österrikisk ekonomi
-goal: Upptäck den österrikiska skolan inom ekonomiskt tänkande. Studera deras syn på samhället och makro-/mikroekonomiska realiteter.
-objectives: 
-
-  - Ett alternativ till keynesianismen
-  - Betydelsen av Hard-valutan
-  - Varför och hur skapas våra ekonomiska cykler?
-  - Varför har centralbankerna blivit galna?
-
+name: Grunderna i den österrikiska ekonomiska skolan
+goal: Upptäck österrikisk ekonomi som ett alternativt ramverk för att analysera marknader och individuellt beslutsfattande
+objectives:
+- Analysera funktionerna hos pengar, kredit och centralbankssystem
+- Tillämpa subjektiv värdeteori och tidspreferens på marknadsbeteende
+- Förstå den österrikiska konjunkturteorin och dess orsaker
+- Jämföra österrikisk metodologi med mainstream ekonomiska tillvägagångssätt
 ---
+# Resan till den österrikiska ekonomin
 
-# En resa in i ekonomin
+Har du någonsin undrat varför vissa ekonomer tänker annorlunda om marknader, frihet och mänskligt beteende? Österrikisk ekonomi erbjuder ett uppfriskande perspektiv som placerar dig i hjärtat av ekonomiskt tänkande. Istället för tung matematik och abstrakta modeller fokuserar detta tillvägagångssätt på logik, mänskliga val och hur riktiga människor fattar beslut i sina dagliga liv. Det är ekonomi genom frihetens, rationalitetens och personliga handlingens lins.
 
-
-Välkommen till Théo Mogenets kurs! Han har en passion för ekonomi, historia, litteratur, statsvetenskap och teknik och har bestämt sig för att dela med sig av sina kunskaper om österrikisk ekonomi. Denna gren, som är mindre känd inom nationalekonomin, bygger på mänsklig rationalitet och fria aktörers beteende. Mindre intensiv i matematik, det är en fråga om logik och sociala studier framför allt.
-
-
-Denna tankeskola har redan flera århundraden på nacken och har ett helt panorama av författare, tankar och ekonomer bakom sig. Stora namn inom nationalekonomin som Hayek, Rothbard, Mises, Bastiat eller Menger har länge försvarat denna rörelse. I motsats till dagens allestädes närvarande keynesianism sätter den österrikiska skolan individen tillbaka i centrum för ekvationen med ett mer liberalt, kapitalistiskt och till och med anarkistiskt synsätt.
-
-
+Denna tankeskola har format debatter i århundraden, tack vare inflytelserika tänkare som Hayek, Mises och Bastiat. Medan den keynesianska mainstream-ekonomin dominerar dagens politiska diskussioner, ställer den österrikiska traditionen andra frågor: Vad händer när vi prioriterar individuell frihet? Hur fungerar fria marknader egentligen när människor är fria att välja? Om du är nyfiken på alternativa sätt att tänka om marknader, samhälle och frihet, är detta din chans att utforska idéer som du inte hittar i standardläroböcker.
 +++
-
 # Inledning
 
 
@@ -778,10 +770,9 @@ Konsekvenserna av en sådan felallokering är bland annat finansiella och ekonom
 Idag dyker debatten om ekonomiska kalkyler upp igen, främst i diskussioner om energi, där felinvesteringar som drivs av en Green-agenda blir alltmer uppenbara. Den dyker också upp i diskussioner om penningmarknaderna, där österrikiska ekonomer påpekar att krisen 2008, som de etablerade ekonomerna inte lyckades förutse, var en klassisk boom and bust-cykel som kännetecknades av överinvesteringar på bostadsmarknaden på grund av långa perioder med låga räntor. Vidare sprider neomarxister och andra socialistiska falanger uppfattningen att framväxten av AI skulle kunna lösa det ekonomiska beräkningsproblemet. Detta perspektiv bottnar dock i en felaktig förståelse av frågan; det ekonomiska beräkningsproblemet är inte en fråga om datorkraft utan snarare en fråga om att generera och distribuera information relaterad till produktion och resursallokering. Denna information kan bara genereras lokalt av aktörer med specialkunskaper och ett egenintresse av resultatet. AI kan inte ersätta denna bottom-up-process och kan därför inte hjälpa centrala planerare att Address resursallokeringsproblemet. På grund av ett århundrade av missförstånd förväntar vi oss tyvärr en spridning av påståenden om att AI kommer att inleda en ny era av ekonomiskt välstånd som leds av upplysta centralplanerare som med hjälp av AI kan korrigera de fria marknadernas misslyckanden.
 
 
-För en konkret tillämpning av det ekonomiska kalkylproblemet på en aktuell situation kan du läsa denna artikel som behandlar problemet med resursfördelning i det moderna Kina.
+För en konkret tillämpning av problemet med ekonomisk kalkyl i en samtida situation kan du hänvisa till denna artikel som behandlar resursallokering i det moderna Kina: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, av Théo Mogenet.
 
 
-> Vägen till finansiell repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Slutsats

@@ -1,0 +1,9 @@
+question: Prinsip dasar apa yang memungkinkan pengembang membuat sistem seperti Lightning Network, CoinJoin, dan OpenTimestamps di atas Bitcoin tanpa meminta persetujuan?
+answer: Pengembangan tanpa izin memungkinkan siapa pun untuk membangun protokol dan aplikasi di Bitcoin tanpa memerlukan otorisasi dari otoritas pusat mana pun
+wrong_answers:
+  - Lisensi sumber terbuka mengharuskan semua karya turunan secara otomatis disetujui dan diintegrasikan ke dalam repositori utama Bitcoin Core
+  - Lisensi MIT mengamanatkan bahwa semua proyek berbasis Bitcoin harus mendapatkan izin eksplisit dari tim pengembangan Bitcoin Core sebelum diterapkan
+  - Aturan konsensus secara otomatis memvalidasi dan mengesahkan protokol baru yang dibangun di atas Bitcoin melalui proses verifikasi blockchain
+explanation: |
+  Pengembangan tanpa izin adalah jawaban yang benar karena ini adalah prinsip dasar yang memungkinkan siapa pun untuk membangun di atas Bitcoin tanpa meminta izin. Jawaban salah adalah jawaban yang salah karena: lisensi open source tidak memerlukan persetujuan otomatis atau integrasi ke dalam Bitcoin Core; Lisensi MIT sebenarnya memberikan izin yang luas tanpa memerlukan persetujuan dari pengembang; dan aturan konsensus memvalidasi transaksi dan blok, bukan protokol tingkat yang lebih tinggi yang dibangun di atas Bitcoin.
+reviewed: false

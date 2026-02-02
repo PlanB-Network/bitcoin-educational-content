@@ -1,5 +1,6 @@
 ---
-term: STACK
+term: Stack
+definition: Struktur data LIFO yang digunakan dalam Bitcoin Script untuk menyimpan dan memanipulasi elemen sementara selama eksekusi.
 ---
 
 Dalam konteks bahasa skrip yang digunakan untuk membubuhkan kondisi pengeluaran pada Bitcoin UTXO, _stack_ adalah struktur data LIFO (*Last In, First Out*) yang digunakan untuk menyimpan elemen sementara selama eksekusi skrip. Setiap operasi dalam skrip memanipulasi tumpukan ini, di mana elemen dapat ditambahkan (*push*) atau dihapus (*pop*). Skrip menggunakan _stack_ untuk mengevaluasi ekspresi, menyimpan variabel sementara, dan mengelola kondisi.

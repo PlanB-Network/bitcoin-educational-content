@@ -1,0 +1,8 @@
+question: Greenlight destekli cüzdanların geleneksel mobil Lightning uygulamalarına kıyasla daha üstün ödeme yönlendirme güvenilirliği elde etmesinin temel teknik nedeni nedir?
+answer: Greenlight düğümleri bulutta sürekli çalışarak gerçek zamanlı ağ grafiği senkronizasyonunu ve anlık tam grafik veri erişimini korur
+wrong_answers:
+  - Greenlight, geçmiş işlem modellerine dayalı olarak en uygun ödeme rotalarını tahmin etmek için gelişmiş makine öğrenimi algoritmaları kullanır
+  - Greenlight, yedeklilik için işlemleri aynı anda birden fazla kanala dağıtan tescilli çok yollu ödeme bölme özelliğini uygular
+  - Greenlight, büyük Lightning merkezlerine özel yüksek bant genişliğine sahip bağlantılar kurarak en likit kanallar üzerinden öncelikli yönlendirme sağlar
+explanation: |
+  Doğru cevap Greenlight'ın bulut tabanlı yaklaşımının temel mimari avantajını tanımlamaktadır. Geleneksel mobil Lightning cüzdanları, başlatıldıklarında ağ grafiği verilerini senkronize etmelidir, bu da gecikmelere neden olur ve potansiyel olarak eski yönlendirme bilgileriyle çalışır. Greenlight bunu, Lightning düğümlerini sürekli olarak bulutta çalıştırarak, her zaman güncel ağ bilgisine sahip olmalarını ve kullanıcılar bağlandığında anında eksiksiz grafik verileri sağlayabilmelerini sağlayarak çözer. Yanlış cevaplar makul ancak var olmayan özellikleri tanımlamaktadır - Greenlight ML yönlendirme algoritmaları, standart Lightning protokollerinin ötesinde özel ödeme bölme veya öncelikli yönlendirme için özel hub bağlantıları kullanmaz.

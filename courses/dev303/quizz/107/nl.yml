@@ -1,0 +1,8 @@
+question: Welke cruciale eigenschap stelt LDK in staat om Lightning-functionaliteit te behouden voor mobiele portemonnees met intermitterende connectiviteit in vergelijking met traditionele op daemon gebaseerde Lightning-knooppunten?
+answer: Het vermogen van LDK om te synchroniseren met Lightning Service Providers (LSP's) wanneer deze online komen, met behoud van de controle over de private sleutel zonder bewaarneming
+wrong_answers:
+  - "LDK's ingebouwde offline betalingsverwerkingssysteem dat transacties in de wachtrij plaatst totdat de netwerkconnectiviteit is hersteld"
+  - "LDK's gedistribueerde kanaalstaatback-upsysteem dat gegevens automatisch repliceert over meerdere cloudaanbieders"
+  - "LDK's peer-to-peer mesh-netwerkprotocol dat directe apparaat-naar-apparaat Lightning-betalingen zonder internet mogelijk maakt"
+explanation: |
+  De modulaire architectuur van LDK stelt mobiele applicaties in staat om intermitterende connectiviteitspatronen te implementeren door te synchroniseren met LSP's zodra ze online komen, waardoor gebruikers betalingen kunnen ontvangen en kanalen kunnen beheren, zelfs wanneer het mobiele apparaat offline was. Dit verschilt fundamenteel van traditionele Lightning-daemons die continu moeten werken. De verkeerde antwoorden beschrijven niet-bestaande functies - LDK heeft geen ingebouwde offline betalingsverwerking, gedistribueerde back-ups of mesh-netwerkmogelijkheden.

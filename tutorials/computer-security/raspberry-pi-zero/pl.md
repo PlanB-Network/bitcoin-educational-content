@@ -70,7 +70,7 @@ sekcja tego przewodnika pokaże ci, jak i gdzie to zrobić. Jeśli jednak napraw
 
 
 
-Kiedy zdecydowałem się kontynuować, znalazłem [ten zestaw] (https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) pełen akcesoriów, aby w pełni wykorzystać potencjał PI Zero. W rzeczywistości zestaw zawiera zasilacz USB A -> micro USB Supply, mały hub USB, adapter mini-HDMI -> HDMI, miedziany radiator i aluminiową obudowę zewnętrzną. W zestawie znajdują się również śruby i klucz imbusowy potrzebne do umieszczenia PI Zero w nowej obudowie.
+Kiedy zdecydowałem się kontynuować, znalazłem [ten zestaw](https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) pełen akcesoriów, aby w pełni wykorzystać potencjał PI Zero. W rzeczywistości zestaw zawiera zasilacz USB A -> micro USB Supply, mały hub USB, adapter mini-HDMI -> HDMI, miedziany radiator i aluminiową obudowę zewnętrzną. W zestawie znajdują się również śruby i klucz imbusowy potrzebne do umieszczenia PI Zero w nowej obudowie.
 
 
 

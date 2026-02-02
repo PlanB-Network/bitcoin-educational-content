@@ -1,5 +1,6 @@
 ---
 term: BIP0032
+definition: Introductie van HD-wallets (hiërarchisch deterministisch) waarmee alle sleutels van een wallet kunnen worden gegenereerd uit één enkele seed.
 ---
 
 BIP32 introduceerde het concept van een hiërarchische deterministische Wallet (HD Wallet). Dit voorstel maakt het mogelijk om een hiërarchie van sleutelparen te genereren vanuit een gemeenschappelijke `master seed`, door gebruik te maken van eenrichtingsafleidingsfuncties. Elk gegenereerd sleutelpaar kan zelf de ouder zijn van andere kindsleutels en zo een boomachtige (hiërarchische) structuur vormen. Het voordeel van BIP32 is dat het het beheer van meerdere verschillende sleutelparen mogelijk maakt, terwijl er slechts één seed nodig is om ze te regenereren. Deze innovatie heeft met name geholpen bij het bestrijden van het probleem van hergebruik van Address, wat ernstig is voor de privacy van gebruikers. BIP32 maakt het ook mogelijk om subtakken aan te maken binnen dezelfde Wallet om het beheer ervan te vergemakkelijken.

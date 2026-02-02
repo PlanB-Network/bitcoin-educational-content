@@ -1,0 +1,9 @@
+question: Quelle solution offre le plus de souveraineté pour l'utilisateur de Lightning ?
+answer: Nœud Lightning classique
+wrong_answers:
+  - Wallet avec swap atomique
+  - Nœud LN embarqué
+  - Wallet Lightning custodial
+explanation: |
+  Le nœud classique permet un contrôle total des canaux, de la liquidité et des politiques de frais. C'est le seul qui permet d'être véritablement indépendant.
+reviewed: false

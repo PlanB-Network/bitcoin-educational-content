@@ -1,0 +1,8 @@
+question: Minkä kryptografisen mekanismin avulla Liquid Network voi varmistaa, että transaktioiden panokset ovat yhtä suuret kuin tuotokset ja maksut ilman, että todelliset summat paljastuvat yleisölle?
+answer: Pedersen-sitoumukset ja alueelliset todistukset
+wrong_answers:
+  - Merkle-puut ja digitaaliset allekirjoitukset
+  - Hash Ajallisesti lukitut sopimukset ja moninkertaiset allekirjoitukset
+  - Schnorr-allekirjoitukset ja Taproot-skriptit
+explanation: |
+  Pedersen Commitments ja Range Proofs ovat erityiset kryptografiset primitiivit, joiden avulla Liquid:n Confidential Transactions:n avulla voidaan kätkeä summat, mutta samalla mahdollistaa matemaattinen todentaminen. Pedersen Commitments sitoo arvot kryptografisesti paljastamatta niitä, kun taas Range Proofs varmistaa, että kaikki summat ovat positiivisia kokonaislukuja, mikä estää käyttäjiä luomasta rahaa negatiivisilla arvoilla. Muut vaihtoehdot ovat laillisia Bitcoin-kryptografisia työkaluja, mutta ne eivät tarjoa salausominaisuuksia, joita tarvitaan luottamuksellisissa transaktioissa, joissa summat pysyvät piilossa mutta todennettavissa.

@@ -1,10 +1,10 @@
 question: Wat is er uniek aan remixen in Whirlpool vergeleken met andere CoinJoin implementaties?
 answer: Ze zijn helemaal gratis.
 wrong_answers:
-  - Ze vereisen alleen betaling van de Mining vergoedingen.
+  - Ze vereisen alleen betaling van de mining vergoedingen.
   - Ze zijn beperkt tot één per gebruiker.
   - Je hoeft alleen de servicekosten te betalen.
 explanation: |
-  Whirlpool remixen zijn 100% gratis: er zijn geen extra servicekosten of Mining kosten nodig.
+  Whirlpool-remixen zijn 100% gratis: er zijn geen extra servicekosten of mining kosten verschuldigd.
   
 reviewed: false

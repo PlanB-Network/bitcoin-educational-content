@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
+definition: Opkod koji nameće relativno vremensko ograničenje za trošenje UTXO-a.
 ---
 
 Čini transakciju nevažećom ako je bilo koja od ovih karakteristika primećena:

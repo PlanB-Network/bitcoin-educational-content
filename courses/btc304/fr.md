@@ -20,7 +20,7 @@ Dans BTC304, nous examinerons pourquoi la construction de communauté est import
 ## Aperçu du cours
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
 
-Bienvenue dans le cours BTC302 !
+Bienvenue dans le cours BTC 304 !
 
 Depuis 2009, Bitcoin ne cesse de se développer. Cela passe par la mise en place de nouvelles propositions d'améliorations de Bitcoin (BIP), par la création de nouvelles couches scalabilisant le réseau (Lightning Network entre autre) et par le développement de multiples entreprises et start-ups.
 
@@ -1447,10 +1447,10 @@ Seul(e), il est vrai que l'on peut rapidement explorer une des nombreuses galeri
 
 Alors qu'**en créant et/ou en intégrant une communauté de bitcoiners, en partageant et en échangeant avec eux régulièrement, vous avancerez en même temps dans toutes les directions du terrier**.
 
-## Formation BTC302, la suite
+## Formation BTC 304, la suite
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-Dans cette formation BTC302, nous avons détaillé avec précision les étapes de création d'une communauté, d'un meet-up ; mais également, la mise en place de nombreux projets.
+Dans cette formation BTC 304, nous avons détaillé avec précision les étapes de création d'une communauté, d'un meet-up ; mais également, la mise en place de nombreux projets.
 
 Lorsque votre communauté se sentira alors prête à passer au stade supérieur, **il est possible de créer une association**.
 En France par exemple, sur la soixantaine de communautés et meet-ups, on compte près d'une dizaine d'associations.
@@ -1459,7 +1459,7 @@ L'intérêt d'en créer une est dual :
 - d'une part, le statut d'association permet de pouvoir **disposer d'un statut officiel, d'ouvrir un compte en banque associatif, mais aussi d'obtenir une forme de reconnaissance de la part de la presse, des médias, ainsi que des subventions** ;
 - d'autre part, elle permet d'**organiser de manière plus sérieuse le fonctionnement de sa communauté et la mise en place de ses projets**, en définissant notamment des rôles spécifiques.
 
-Dans l'objectif d'amener votre communauté à s'épanouir encore un peu plus, **il n'est pas à exclure qu'une suite à la formation COMMU302 puisse sortir sur [planb.network](https://planb.academy/) dans les prochains mois**.
+Dans l'objectif d'amener votre communauté à s'épanouir encore un peu plus, **il n'est pas à exclure qu'une suite à cette formation puisse sortir sur [Plan ₿ Academy](https://planb.academy/) dans les prochains mois**.
 
 À travers celle-ci, **différents points plus poussés pourront être abordés ; tels que : comment construire des présentations ou des ateliers pour ses meet-ups, et avec quels objectifs ? Mais aussi : comment mettre en place un événement de grande envergure, à une centaine de participants ?**
 

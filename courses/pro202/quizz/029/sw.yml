@@ -1,0 +1,8 @@
+question: Wakati wa uthibitishaji wa muamala wa Bitcoin, nodi lazima ithibitishe nini ili kuhakikisha kila ingizo limeidhinishwa ipasavyo kutumia matokeo yake yaliyorejelewa?
+answer: ScriptSig lazima ifungue ScriptPubKey inayolingana kwa mafanikio inapotekelezwa pamoja
+wrong_answers:
+  - "Saini ya kidijitali ya ingizo lazima ilingane na ufunguo wa umma uliopachikwa wa matokeo haswa"
+  - Hashi ya muamala lazima iwe sawa na mzizi wa merkle uliohifadhiwa kwenye kichwa cha kichwa cha kizuizi kinachorejelewa
+  - Kiasi cha kuingiza lazima kiwe kikubwa kuliko au sawa na kiasi cha matokeo kinachotumika
+explanation: |
+  Mfumo wa hati wa Bitcoin unahitaji kwamba kila ScriptSig (hati ya kufungua) ya kila ingizo lazima itekelezwe kwa ufanisi na ScriptPubKey (hati ya kufunga) ya matokeo yaliyorejelewa ili kutoa matokeo halisi kwenye rafu. Mfano huu wa utekelezaji wa hati huruhusu hali rahisi za matumizi zaidi ya ulinganishaji rahisi wa sahihi. Chaguo zingine zinaelezea mahitaji yasiyo sahihi ya uthibitisho - sahihi hazihitaji kufanana na funguo zilizopachikwa haswa, hashes za miamala hazilinganishwi na mizizi ya mchanganyiko wakati wa uthibitisho wa ingizo, na ingizo za kibinafsi hazihitaji kuzidi matokeo yao (jumla ya ingizo pekee ndizo zinazopaswa kuzidi jumla ya matokeo).

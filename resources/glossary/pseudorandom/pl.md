@@ -1,5 +1,6 @@
 ---
-term: PSEUDO-RANDOM
+term: Pseudolosowy
+definition: Sekwencja liczb wygenerowana w sposób deterministyczny o właściwościach zbliżonych do losowości.
 ---
 
 Przymiotnik ten jest używany do opisania sekwencji liczb, która, choć jest wynikiem deterministycznego procesu, wykazuje cechy zbliżone do idealnej, prawdziwie losowej sekwencji. Pojęcie idealnej losowości oznacza całkowity brak przewidywalności i korelacji między kolejnymi Elements. Liczba pseudolosowa jest generowana przez deterministyczny algorytm i dlatego teoretycznie jest całkowicie przewidywalna, jeśli znamy początkowy stan generatora.

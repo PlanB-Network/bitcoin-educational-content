@@ -1,8 +1,8 @@
-question: Inyuma y’ivyo vyabaye vy’ugusesagura agaciro, ni uburyo ubuhe bwongerewe kuri porogarama na Satoshi kugira ngo bugabanye ingaruka z’ubugoyagoye bushobora kuba kuri iyo porogarama?
+question: Inyuma y’ivyo vyabaye vy’ukurenga kw'agaciro, ni uburyo ubuhe bwongerewe kuri porogarama na Satoshi kugira ngo bugabanye ingaruka z’ubugoyagoye bushobora kuba kuri iyo porogarama?
 answer: Uburyo bwo kugabisha
 wrong_answers:
   - Uburyo busanzwe bw'ibikorwa
-  - Ingano y'ibubiko
+  - Ingano ntarenrwa y'ama block
   - Amakode ya OP_NOP
 explanation: |
   Uwo murongo mwiza wo kugabisha waratumye akoresha urufunguzo rw’ibanga kugira ngo aburire ama node y’urubuga iyo habaye ingorane y’ubuhinga no guhagarika amabwirizwa amwamwe ya API.

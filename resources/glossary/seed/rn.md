@@ -1,5 +1,6 @@
 ---
-term: INTETE
+term: Seed
+definition: Amakuru ya 512-bit yemerera gukora indapi zose za HD Bitcoin wallet.
 ---
 
 Mu bijanye n’ivy’ubuhinga bw’ivy’ubuhinga bwa Bitcoin, seed ni amakuru y’ibice 512 akomoka ku kintu cabaye ataco kivuze. Ikoreshwa mu gushinga intahe no gukurikirana generate urutonde rw'imfunguruzo z'ibanga, n'imfunguruzo za bose zihuye, ku bijanye n'ibikorwa vya Bitcoin. seed akenshi ivangwa n’ijambo ry’ugukira ubwaryo. Ariko si co kimwe. seed iboneka mu gukoresha igikorwa ca `PBKDF2` ku nvugo ya Mnemonic na passphrase iyo ari yo yose.

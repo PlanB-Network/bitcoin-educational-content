@@ -1,0 +1,8 @@
+question: Qual é o principal objetivo do mecanismo de troca de chaves ECDH na arquitetura Liquid do Confidential Transactions?
+answer: Permitir que os remetentes encriptem os montantes e tipos de activos utilizando a chave pública cega do destinatário e gerando provas de alcance verificáveis
+wrong_answers:
+  - Para estabelecer canais de comunicação seguros entre os servidores AMP e os clientes wallet durante os processos de autorização de transacções
+  - Para criar segredos partilhados para o registo de descritores com várias assinaturas entre carteiras e a infraestrutura do servidor AMP
+  - Para assinaturas criptográficas generate que provam a propriedade dos activos sem revelar a informação da chave privada subjacente
+explanation: |
+  A troca de chaves ECDH (Elliptic Curve Diffie-Hellman) no Liquid do Confidential Transactions permite especificamente transferências de activos que preservam a privacidade, permitindo que os remetentes encriptem os valores de saída da transação utilizando a chave pública oculta do recetor. Isto cria um segredo partilhado que apenas o destinatário pode desencriptar com a sua chave de ocultação privada, gerando simultaneamente provas de alcance que permitem aos validadores da rede verificar a validade da transação sem ver os montantes reais. As outras opções descrevem incorretamente a ECDH como servindo funções de segurança de comunicação, registo de descritores ou prova de propriedade, que são tratadas por diferentes mecanismos criptográficos no ecossistema Liquid.

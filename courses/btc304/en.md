@@ -1,5 +1,5 @@
 ---
-name: Create a Bitcoin Community
+name: How to Create a Bitcoin Community
 goal: Easily create and organize a Bitcoin community in your local area
 objectives:
 - Create a Bitcoin community and/or meet-up
@@ -24,7 +24,7 @@ In BTC304, we’ll look at why community building matters, explore tools for cre
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
 
 
-Welcome to BTC302!
+Welcome to BTC 304!
 
 
 Since 2009, Bitcoin has grown relentlessly. This growth has taken shape through new Bitcoin Improvement Proposals (BIP), the creation of additional layers to make the network scalable (Lightning Network among others), and the development of multiple companies and start-ups.
@@ -1962,12 +1962,12 @@ Alone, you can quickly explore one of the many tunnels in the Bitcoin rabbit hol
 **By creating and/or joining a community of bitcoiners, and by sharing and exchanging with them regularly, you'll be moving in all directions down the rabbit hole at the same time.**
 
 
-## BTC302, What's Next
+## BTC 304, What's Next
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
-In this BTC302 course, we've gone into detail on how to set up a community or meet-up, as well as how to launch a variety of projects.
+In this BTC 304 course, we've gone into detail on how to set up a community or meet-up, as well as how to launch a variety of projects.
 
 When your community is ready to take the next step, **you can create a formal association**.
 In France, for example, of the roughly sixty communities and meet-ups, almost a dozen have an association status.
@@ -1976,9 +1976,7 @@ The benefits are twofold:
 - **Official recognition**: you can open an association bank account, receive press/media attention, and even apply for subsidies.
 - **Structured organization**: you can define clear roles, making it easier to run your community and carry out projects.
 
-To help your community grow further, **a follow-up to the COMMU302 course**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
-may be released on [planb.network](https://planb.academy/) in the coming months.
+With the aim of helping your community flourish even further, **it is not out of the question that a follow-up to this training may be released on [Plan ₿ Academy](https://planb.academy/) in the coming months**.
 
 This next session could explore advanced topics such as:
 - Designing presentations or workshops for your meetups and setting clear objectives.

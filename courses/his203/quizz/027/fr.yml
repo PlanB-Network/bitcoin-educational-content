@@ -1,0 +1,9 @@
+question: Quel problème résolvait le concept de portefeuille déterministe formalisé par le développeur Gregory Maxwell en juin 2011 ?
+answer: La nécessité de faire des sauvegardes régulières des clés privées pour sécuriser les bitcoins
+wrong_answers:
+  - Le risque de piratage lié à la conservation des bitcoins sur un appareil connecté à Internet
+  - La vulnérabilité aux attaques par force brute due à la faible entropie des générateurs de nombres aléatoires
+  - L'impossibilité de réutiliser le compte sur un autre appareil
+explanation: |
+ Les portefeuilles déterministes appliquent la dérivation des clés : au lieu d'être générées individuellement de manière aléatoire comme cela était fait dans le logiciel principal, les clés privées sont dérivées de manière déterministe d'une information (appelée la graine) grâce à des fonctions cryptographiques. Cette méthode a été appliquée par les portefeuilles logiciels BitcoinSpinner et Electrum à la fin de l'année 2011.
+reviewed: false

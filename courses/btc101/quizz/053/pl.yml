@@ -1,11 +1,10 @@
 question: Jak nazywa się proces weryfikacji transakcji w sieci Bitcoin?
-answer: Mining
+answer: Wydobycie
 wrong_answers:
-  - Kopanie
-  - Zbiór
+  - Odkrywanie
+  - Zbieranie
   - Rolnictwo
 explanation: |
   Proces, który weryfikuje transakcje w sieci Bitcoin
-  jest nazywany Mining. Górnicy wykonują zadanie kryptograficzne
-  zadanie kryptograficzne i są nagradzani emisją nowych bitcoinów.
+  jest nazywany wydobyciem. Górnicy wykonują zadanie kryptograficzne i są nagradzani emisją nowych bitcoinów.
 reviewed: true

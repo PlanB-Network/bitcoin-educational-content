@@ -6,3 +6,4 @@ wrong_answers:
   - Evaluate each vulnerability in isolation without considering how multiple minor issues might combine to create major security risks
 explanation: |
   Maxwell argues that developers should treat vulnerabilities as more severe than they appear because hard-to-exploit issues can become trivial with the right technique, and seemingly minor problems can escalate into serious threats. He emphasizes that simple performance bugs can be weaponized to partition the network and enable double-spending attacks. This conservative approach acknowledges that developers may not initially understand the full exploitation potential of a vulnerability, making it prudent to assume the worst-case scenario rather than underestimating the threat.
+reviewed: false

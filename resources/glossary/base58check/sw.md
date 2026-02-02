@@ -1,5 +1,6 @@
 ---
-term: BASE58CHECK
+term: Base58check
+definition: Usimbuaji unaotumiwa kwa anwani za Bitcoin Legacy, ukitumia herufi 58 zisizo na utata na checksum ili kugundua makosa ya uingizaji.
 ---
 
 `Base58Check` ni usimbaji unaotumika katika mfumo wa Bitcoin kuwakilisha anwani za kupokea Urithi na data nyingine fulani, kama vile vitufe vilivyopanuliwa, katika muundo wa mifuatano ya herufi inayoweza kusomeka na binadamu. Ni lahaja la mfumo wa `Base58`, uwakilishi wa nafasi ya msingi wa 58 ulioundwa ili kupunguza hitilafu za unukuzi wa binadamu. Inatumia seti ya herufi 58 za alphanumeric, inayojumuisha tarakimu kutoka `1` hadi `9`, herufi kubwa kutoka `A` hadi `Z` (bila kujumuisha herufi `I` na `O` ili kuepuka kuchanganyikiwa na tarakimu `1` na `0`), na herufi ndogo kutoka `a` hadi `z` (bila kujumuisha tarakimu 1 `l`). `Base58Check` inatofautiana na `Base58` kwa kuongeza hundi. Inawakilishwa na toleo lililopunguzwa la `SHA256` Hash maradufu ya data asili (`SHA256d` au `HASH256`), mwishoni mwa data iliyosimbwa katika `Base58`. Wakati wa kuthibitisha, hundi huhesabiwa upya na ikilinganishwa na ile iliyoongezwa wakati wa usimbaji. Ikiwa heshi mbili zinalingana, data inachukuliwa kuwa halali; vinginevyo, hitilafu ya upotovu au unukuzi inaripotiwa.

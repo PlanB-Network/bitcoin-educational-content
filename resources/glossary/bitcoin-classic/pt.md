@@ -1,5 +1,6 @@
 ---
-term: BITCOIN CLASSIC
+term: Bitcoin classic
 
+definition: Proposta de fork em 2016 com o objetivo de aumentar o tamanho do bloco para 2 MB, posteriormente abandonada.
 ---
 Proposta de fork do protocolo lançada em janeiro de 2016 na sequência do abandono do Bitcoin XT. O seu objetivo era aumentar o limite de tamanho do bloco de 1 MB para 2 MB com o BIP109, uma abordagem considerada mais moderada em comparação com o Bitcoin XT, que propunha um aumento muito maior (8 MB + duplicação a cada dois anos). Esta iniciativa foi liderada pelos programadores Gavin Andresen e Jeff Garzik, e contou com o apoio de grandes empresas do ecossistema, como a Coinbase. O Bitcoin Classic surgiu num contexto de intensa escalada da Guerra dos Blocos e foi classificado entre o campo dos grandes bloqueadores. Embora a Bitcoin Classic tenha atraído a atenção e o apoio de muitos intervenientes do sector, o seu mecanismo de ativação, que exigia o apoio de 75% dos mineiros, foi controverso e acabou por contribuir para o seu fracasso.

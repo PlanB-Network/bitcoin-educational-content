@@ -1,0 +1,8 @@
+question: Mikä on yksityisyydensuojaa säilyttävien valo-asiakkaiden kompaktien lohkosuodattimien (BIP158) yhteydessä se kriittinen kompromissi, joka tekee niistä tehokkaita wallet-yksityisyyden kannalta?
+answer: Ne voivat tuottaa vääriä positiivisia mutta eivät koskaan vääriä negatiivisia tuloksia, jolloin asiakkaat voivat ladata mahdollisesti epäolennaisia lohkoja paljastamatta tiettyjä osoitteita
+wrong_answers:
+  - Ne voivat tuottaa vääriä negatiivisia tuloksia, mutta eivät koskaan vääriä positiivisia tuloksia, sillä ne varmistavat, että asiakkaat lataavat vain lohkot, jotka sisältävät heidän tapahtumansa
+  - Ne poistavat sekä väärät positiiviset että väärät negatiiviset tulokset käyttämällä determinististä suodatusta wallet-osoitteiden perusteella
+  - "Ne tuottavat sekä vääriä positiivisia että vääriä negatiivisia tuloksia samassa suhteessa hämärtääkseen asiakkaan todelliset transaktiomallit."
+explanation: |
+  Kompaktit lohkosuodattimet on suunniteltu epäsymmetristä virhemallia käyttäen: ne voivat ilmoittaa, että lohko sisältää merkityksellisiä transaktioita, vaikka se ei sisälläkään (väärä positiivinen tulos), mutta ne eivät koskaan jätä huomiotta lohkoa, joka todella sisältää merkityksellisiä transaktioita (ei vääriä negatiivisia tuloksia). Tämä rakenne on ratkaisevan tärkeä, koska väärä negatiivinen tulos merkitsisi todellisten maksujen puuttumista, kun taas väärä positiivinen tulos johtaa vain tarpeettomien lohkojen lataamiseen. Väärien positiivisten lukemien määrä takaa yksityisyyden suojaa, koska se pakottaa asiakkaat lataamaan joitakin epäolennaisia lohkoja, jolloin tarkkailijoiden on mahdotonta määrittää, mitkä lohkot todella sisältävät asiakkaan maksutapahtumia.

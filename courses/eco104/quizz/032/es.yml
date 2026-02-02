@@ -5,7 +5,5 @@ wrong_answers:
   - Cuando la stablecoin está completamente respaldada por reservas de efectivo
   - Cuando hay una fuerte presión de venta por parte de los usuarios
 explanation: |
-  Las stablecoins pueden cotizar por encima de su precio fijado cuando la 
-  demanda de stablecoins excede la capacidad de una casa de cambio para 
-  satisfacer las demandas de los clientes, típicamente en casas de cambio más pequeñas.
-reviewed: false
+  Las stablecoins pueden cotizar por encima de su precio fijado cuando la demanda de stablecoins excede la capacidad de una casa de cambio para satisfacer las demandas de los clientes, típicamente en casas de cambio más pequeñas.
+reviewed: true

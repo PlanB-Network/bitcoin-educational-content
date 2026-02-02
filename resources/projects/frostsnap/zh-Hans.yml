@@ -1,0 +1,2 @@
+description: |
+  Frostsnap 是基于分布式多签名模式的比特币安全系统，消除了任何单点故障。Frostsnap 使用 FROST（灵活回合优化 Schnorr Treshold Signatures）协议。

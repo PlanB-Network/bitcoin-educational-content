@@ -1,0 +1,8 @@
+question: Kolik funkčních podpisů je třeba k ověření bloku v Liquid Network?
+answer: Podepsat musí alespoň 11 z 15 funkcionářů
+wrong_answers:
+  - Podepsat musí alespoň 8 z 15 funkcionářů
+  - Podepsat musí alespoň 10 z 15 funkcionářů
+  - Podepsat musí nejméně 12 z 15 funkcionářů
+explanation: |
+  Pro potvrzení bloku je v Liquid Network vyžadován podpis alespoň 11 z 15 funkcionářů, což představuje dvoutřetinový práh plus jeden. Tento specifický požadavek zajišťuje robustní konsensus a zároveň zabraňuje tomu, aby jakákoli malá skupina ovládla síť. Ostatní možnosti jsou nesprávné: 8 podpisů by bylo příliš málo pro bezpečnost, 10 by nesplňovalo dvoutřetinový práh a 12 by bylo zbytečně omezující pro běžný provoz.

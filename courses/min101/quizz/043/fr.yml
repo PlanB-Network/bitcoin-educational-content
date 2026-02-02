@@ -1,0 +1,9 @@
+question: Entre mi-2010 et mi-2011, par quel facteur la difficulté de minage a-t-elle été multipliée ?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Une multiplication par 1 000 a eu lieu sur cette période, notamment à cause de l'utilisaiton des GPU.
+reviewed: false

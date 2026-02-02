@@ -1,0 +1,8 @@
+question: Điều gì xảy ra với các trường ScriptSig của tất cả các đầu vào trong quá trình xây dựng sighash đối với việc xác thực chữ ký ECDSA cũ?
+answer: Tất cả các trường ScriptSig đều được xóa trống, sau đó ScriptSig của đầu vào hiện tại được thay thế bằng ScriptPubKey tương ứng.
+wrong_answers:
+  - Tất cả các trường ScriptSig vẫn không thay đổi và được giữ nguyên dạng ban đầu trong phép tính sighash.
+  - "Chỉ trường ScriptSig của đầu vào hiện tại được giữ lại, trong khi tất cả các trường ScriptSig của các đầu vào khác bị xóa khỏi giao dịch."
+  - Tất cả các trường ScriptSig được thay thế bằng các giá trị ScriptPubKey tương ứng từ các đầu ra được tham chiếu.
+explanation: |
+  Trong quá trình xây dựng sighash cho các giao dịch cũ, quy trình này đặc biệt xóa sạch tất cả các trường ScriptSig trước, sau đó chỉ thay thế đầu vào hiện đang được xác thực bằng ScriptPubKey tương ứng từ đầu ra mà nó đang chi tiêu. Điều này đảm bảo chữ ký cam kết với các điều kiện chi tiêu mà không tạo ra các phụ thuộc vòng tròn, nơi các chữ ký cần phải tự ký. Các tùy chọn khác không chính xác vì chúng hoặc để nguyên chữ ký (tạo ra sự bất khả thi về mặt logic) hoặc sửa đổi tất cả các đầu vào một cách đồng nhất (điều này sẽ không cách ly đúng ngữ cảnh xác thực của đầu vào hiện tại).

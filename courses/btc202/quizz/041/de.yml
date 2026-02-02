@@ -1,4 +1,4 @@
-question: Welche Self-Hosting-Anwendungen können über Umbrel installiert werden?
+question: Welche Self-Hosting-Anwendung kann über Umbrel installiert werden?
 answer: Nextcloud
 wrong_answers:
   - Google Drive

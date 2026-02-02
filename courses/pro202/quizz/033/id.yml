@@ -1,0 +1,8 @@
+question: Ketika mengeluarkan output P2SH, proses validasi dua langkah apa yang harus dilakukan agar transaksi dianggap valid?
+answer: Pertama-tama, verifikasi HASH160 dari skrip penukaran sesuai dengan hash scriptPubKey, kemudian jalankan skrip penukaran dengan data yang disediakan
+wrong_answers:
+  - Pertama-tama, jalankan skrip penukaran dengan data yang disediakan, lalu verifikasi hash yang dihasilkan cocok dengan scriptPubKey
+  - Pertama-tama, verifikasi semua tanda tangan valid terhadap kunci publiknya, kemudian periksa apakah hash skrip penukaran cocok
+  - Pertama-tama, pastikan skrip penukaran berisi opcode yang valid, kemudian verifikasi eksekusi skrip menghasilkan hasil yang benar
+explanation: |
+  Validasi P2SH membutuhkan proses dua langkah khusus: pertama, hash dari skrip penukaran yang disediakan harus sesuai dengan hash 20-byte dalam scriptPubKey (verifikasi HASH160), dan hanya setelah verifikasi ini lolos, jaringan akan mengeksekusi skrip penukaran itu sendiri dengan data pembuka kunci. Desain ini memastikan bahwa hanya skrip penukaran yang benar yang dapat digunakan sambil tetap menyembunyikan kondisi pembelanjaan yang sebenarnya sampai pembelanjaan terjadi. Opsi lainnya menggambarkan urutan validasi yang masuk akal tetapi salah yang tidak mengikuti protokol P2SH yang sebenarnya.

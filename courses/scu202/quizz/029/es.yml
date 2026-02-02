@@ -5,5 +5,5 @@ wrong_answers:
   - Primera versión
   - Lanzamiento Alfa
 explanation: |
-  La versión LTS de Ubuntu se mantiene durante cinco años y ofrece mayor estabilidad, por lo que es ideal para usuarios noveles.
-reviewed: false
+  La versión LTS de Ubuntu se mantiene durante cinco años y ofrece mayor estabilidad, por lo que es ideal para usuarios novatos.
+reviewed: true

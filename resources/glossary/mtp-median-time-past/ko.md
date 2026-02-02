@@ -1,5 +1,6 @@
 ---
-term: MTP(과거 시간 중앙값)
+term: MTP (median time past)
+definition: 네트워크의 시간 기준으로 사용되는 마지막 11개 블록의 타임스탬프 중앙값.
 ---
 
 이 개념은 Bitcoin 프로토콜에서 네트워크의 합의 Timestamp에 대한 마진을 결정하기 위해 사용됩니다. MTP는 최근 채굴된 11개 블록의 타임스탬프 중간값으로 정의됩니다. 이 지표를 사용하면 불일치하는 경우 정확한 시간에 대한 노드 간의 의견 불일치를 방지하는 데 도움이 됩니다. MTP는 처음에 과거와 비교하여 블록 타임스탬프의 유효성을 검증하는 데 사용되었습니다. BIP113 이후에는 타임락 트랜잭션의 유효성을 검증하기 위한 네트워크 시간 참조로도 사용되었습니다(`nLockTime`, `OP_CHECKLOCKTIMEVERIFY`, `nSequence`, `OP_CHECKSEQUENCEVERIFY`).

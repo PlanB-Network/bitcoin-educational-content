@@ -11,11 +11,10 @@ description: Bitcoin Radikalt enkel og kraftfull portefølje
 
 
 
-I denne opplæringen skal vi ta en titt på Blue Wallet, en enkel, men svært effektiv Bitcoin Wallet som lar deg administrere bitcoinsene dine personlig og også opprette forvaltningskooperativer basert på [Multisig] (https://planb.academy/resources/glossary/multisig) (ikke bekymre deg, vi kommer tilbake til det).
+I denne opplæringen skal vi ta en titt på Blue Wallet, en enkel, men svært effektiv Bitcoin Wallet som lar deg administrere bitcoinsene dine personlig og også opprette forvaltningskooperativer basert på [Multisig](https://planb.academy/resources/glossary/multisig) (ikke bekymre deg, vi kommer tilbake til det).
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -122,7 +121,7 @@ Du kan derfor velge den transaksjonsavgiftsratioen som passer deg hvis du ønske
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +219,7 @@ Følg beste praksis ved å velge P2WSH-formatet.
 
 
 
-**[P2WSH] (https://planb.academy/resources/glossary/p2wsh) eller Pay to Witness Script Hash** er en låsemetode som låser transaksjonens utgående bitcoins (Outputs) til Hash i et tilpasset skript som Blue Wallet setter opp. Den største fordelen med denne typen låsing er at den reduserer størrelsen på transaksjonsdataene og implisitt lar deg betale lavere transaksjonsgebyrer.
+**[P2WSH](https://planb.academy/resources/glossary/p2wsh) eller Pay to Witness Script Hash** er en låsemetode som låser transaksjonens utgående bitcoins (Outputs) til Hash i et tilpasset skript som Blue Wallet setter opp. Den største fordelen med denne typen låsing er at den reduserer størrelsen på transaksjonsdataene og implisitt lar deg betale lavere transaksjonsgebyrer.
 
 
 
@@ -264,7 +263,7 @@ Når du validerer transaksjonen din, trenger du en andre signatur for å godkjen
 
 
 
-Den andre Wallet-signatøren, hvis han eller hun også er en bruker, kan signere transaksjonen selv om han eller hun ikke er på Internett (ingen Wi-Fi, ingen mobildata) ved å skanne QR-koden til den [delvis signerte transaksjonen] (https://planb.academy/resources/glossary/psbt) du nettopp har opprettet.
+Den andre Wallet-signatøren, hvis han eller hun også er en bruker, kan signere transaksjonen selv om han eller hun ikke er på Internett (ingen Wi-Fi, ingen mobildata) ved å skanne QR-koden til den [delvis signerte transaksjonen](https://planb.academy/resources/glossary/psbt) du nettopp har opprettet.
 
 
 

@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
+definition: Mã vận hành áp đặt giới hạn thời gian tuyệt đối đối với việc chi tiêu UTXO.
 ---
 Makes the transaction invalid unless all these conditions are met:
 

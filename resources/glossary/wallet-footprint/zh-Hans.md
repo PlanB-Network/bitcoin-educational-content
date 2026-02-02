@@ -1,6 +1,7 @@
 ---
-term: WALLET FOOTPRINT (钱包痕迹)
+term: 钱包占用空间
 
+definition: 在钱包交易中可观察到的独特特征，用于追踪其活动。
 ---
 在同一个比特币钱包进行的交易中可以观察到的一系列明显特征。这些特征包括脚本类型使用的相似性、地址的重复使用、UTXO 的顺序、变更输出的位置、RBF（Replace-by-Fee）的信号、版本号、`nSequence` 字段和 `nLockTime` 字段。
 

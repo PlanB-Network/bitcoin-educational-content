@@ -1,5 +1,6 @@
 ---
-term: MIXER
+term: Mikser
+definition: Tsentraliseeritud teenus, mis segab mitme kasutaja bitcoine, et katkestada nende ajalugu.
 ---
 
 Tsentraliseeritud teenus Bitcoin müntide ajaloo murdmiseks, segades mitme kasutaja raha. Erinevalt CoinJoin-st, kus kasutajad säilitavad kontrolli oma vahendite üle kogu segamisprotsessi vältel, võtab segaja ajutiselt kasutajate bitcoinid enda valdusesse, segab need teiste kasutajate omadega ja saadab seejärel vahendid tagasi uutele aadressidele.

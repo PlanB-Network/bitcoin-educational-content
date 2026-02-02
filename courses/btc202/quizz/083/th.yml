@@ -1,0 +1,9 @@
+question: การตั้งค่าใดบังคับให้ Bitcoin Core เชื่อมต่อผ่านเครือข่าย Tor เท่านั้น?
+answer: onlynet=หัวหอม
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - เน็ต=ทอร์
+explanation: |
+  ตัวเลือก onlynet=onion จำกัดการเชื่อมต่อขาออกทั้งหมดไปยังเครือข่าย Tor ในขณะที่ listenonion=1 อนุญาตให้คุณฟังการเชื่อมต่อ Tor ขาเข้าเท่านั้น
+reviewed: true

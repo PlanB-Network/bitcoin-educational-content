@@ -616,7 +616,7 @@ curl -X POST http://localhost:9740/lnurlauth \
 
 
 
-LNbits voi käyttää Phoenixd:tä rahoituslähteenä [virallisen dokumentaation] (https://docs.lnbits.org/guide/wallets.html) mukaan:
+LNbits voi käyttää Phoenixd:tä rahoituslähteenä [virallisen dokumentaation](https://docs.lnbits.org/guide/wallets.html) mukaan:
 
 
 

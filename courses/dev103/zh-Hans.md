@@ -191,7 +191,7 @@ console.log(16, 8, 1993)
 变量就像我们用来存储数据的命名盒。通过变量，我们可以将数据与特定名称关联起来，以便日后使用该名称检索数据。
 
 
-### `let` 声明
+### let 声明
 
 
 要在 JavaScript 中声明一个变量，我们可以使用 `let` 关键字。
@@ -355,7 +355,7 @@ Bob
 如您所见，"分数 "和 "玩家 "都发生了变化。
 
 
-### `const` 声明
+### const 声明
 
 
 但大多数情况下，我们不希望变量在创建后发生变化。为此，我们使用 `const`。
@@ -1282,7 +1282,7 @@ console.log(number) // Print the number
 因为当数字是 "3 "时，"继续 "会使程序跳过打印数字的那一行。
 
 
-### 为......的......`
+### 为......的......
 
 
 如果您有一个数组，并想对其中的每个项做一些操作，您可以使用 `for ... of ...{...}`.
@@ -1312,7 +1312,7 @@ cherry
 这里的 `fruit` 是一个新变量，它获取数组中每个项目的值，以便在代码块内对其进行操作。
 
 
-### 为......在......`
+### 为......在......
 
 
 您可以使用 `for ... in` 循环数组的键（索引）：
@@ -2252,7 +2252,7 @@ JavaScript 允许您自由重塑对象，但在使用类时，最好提前规划
 
 
 
-### 使用`extends`和`super()`进行继承
+### 使用extends和super()进行继承
 
 
 有时，你想创建一个几乎与另一个类相同的类，但又有一些额外的功能。
@@ -2439,7 +2439,7 @@ console.log(ourAdmin instanceof User)    // true
 如果不正确处理这些错误，我们的程序可能会崩溃或出现不可预知的行为。JavaScript 提供了检测和管理这些错误的工具，因此我们可以更优雅地处理这些错误。
 
 
-### 常见错误：访问 `undefined` 上的值
+### 常见错误：访问 undefined 上的值
 
 
 以下是导致错误的常见情况：
@@ -2589,7 +2589,7 @@ This will run no matter what.
 本章将介绍 JavaScript 中一些最常见的陷阱，以及如何避免这些陷阱。
 
 
-### 无声明的 `var` 和 Assignment
+### 无声明的 var 和 Assignment
 
 
 在较早的 JavaScript 代码中，通常使用 `var` 关键字来声明变量。与已学过的 `let` 和 `const` 不同，`var` 可能会有令人困惑的行为。
@@ -2650,7 +2650,7 @@ console.log(null + 1)   // 1
 了解 JavaScript 的弱类型系统非常重要。当事情开始变得奇怪时，可能是由于意外的类型强制造成的。
 
 
-### `"严格使用"`
+### "严格使用"
 
 
 您可以启用更严格的模式，将一些无声错误变成真正的错误，并阻止您使用语言中一些更危险的功能。
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 如果没有传入任何信息，则使用默认值 `"friend"。
 
 
-### 展期参数 (`...`)
+### 展期参数 (...)
 
 
 如果您的函数需要多个参数，该怎么办？
@@ -3030,7 +3030,7 @@ makeGreeter "函数是一个用于构建其他函数的函数。它接收一个�
 这种模式非常强大，因为它允许你在函数中留下 "漏洞"，以后再用你需要的行为来填补。
 
 
-### map()`、`filter()`、`reduce()
+### map()、filter()、reduce()
 
 
 JavaScript 为数组提供了一些有用的内置方法。
@@ -4253,7 +4253,7 @@ resolve("It worked!") // This means everything went OK
 在上面的示例中，我们只需立即解决这个问题，并显示信息 `"成功了！"。
 
 
-### `.then()`
+### .then()
 
 
 要在承诺完成后**做某事**，我们使用 `.then()`：
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### 拒绝()`
+### 拒绝()
 
 
 让我们创造一个**失败的承诺**：
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### 使用 `Promise`s 进行连锁操作
+### 使用 Promises 进行连锁操作
 
 
 
@@ -4562,7 +4562,7 @@ Final result after all steps: 10
 这就是 `async` 和 `await` 的用武之地。它们让我们编写的异步代码**看起来像同步代码**，这让我们更容易理解。
 
 
-### 什么是 `async`？
+### 什么是 async？
 
 
 在函数前写入关键字 "async "时，JavaScript 会自动用 Promise 封装函数的返回值。
@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 以下是最常见的几种：
 
 
-| Operator | Meaning             |
+
+| 运算符 | 含义 |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | 加并赋值 |
+| `-=` | 减并赋值 |
+| `*=` | 乘并赋值 |
+| `/=` | 除并赋值 |
 
 例如
 
@@ -5881,7 +5882,7 @@ package.json
 ```
 
 
-### `软件包.json`。
+### 软件包.json。
 
 
 package.json` 文件只是一个 JSON 文件，其中存储了有关项目的元数据。
@@ -5960,7 +5961,7 @@ pico.green("This text is green!")
 什么是 `package-lock.json`?
 
 
-### `package-lock.json`。
+### package-lock.json。
 
 
 该文件由 NPM 自动创建。
@@ -6517,36 +6518,36 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 事情是这样的
 
 
-1.fs.createWriteStream()`创建一个可写流。
+1. `fs.createWriteStream()` 创建一个可写流。
 
-2.我们使用 `.write()`向其写入一些文本。
+2. 我们为 `error` 和 `finish` 事件注册处理程序。
 
-3.完成后，我们调用 `.end()` 关闭数据流。
+3. 我们使用 `.write()` 向其中写入一些文本。
 
-4.当写入所有数据后，就会发出 "完成 "事件。
+4. 完成后，我们调用 `.end()` 来关闭流。
 
-5.如果出错，就会触发 "error "事件。
+5. 一旦所有缓冲数据都被刷新并写入，就会触发 `finish` 事件。如果出现问题，则会触发 `error` 事件。
 
 
 与可读流一样，可写流也适用于大数据，因为它们不需要同时将所有内容保存在内存中。

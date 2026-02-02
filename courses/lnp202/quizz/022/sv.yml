@@ -1,0 +1,9 @@
+question: Vad kan LND seed återställa på egen hand?
+answer: Onchain wallet
+wrong_answers:
+  - Öppna kanaler
+  - Kanaltillstånd
+  - Ingenting
+explanation: |
+  seed hämtar Bitcoin i kedjan wallet, men inte de aktiva blixtkanalerna.
+reviewed: false

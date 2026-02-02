@@ -153,7 +153,7 @@ Mozilla VPN iragufasha guhitamwo aho uri mu buryo bubiri:
 
 
 
-- Single-Hop: yimurira IP Address ya mudasobwa yawe maze igashira amakuru ku server iri mu karere katoranijwe, mu karorero kacu Sofia muri Biélorussie.
+- Single-Hop: yimurira IP Address ya mudasobwa yawe maze igashira amakuru ku server iri mu karere katoranijwe, mu karorero kacu Sofia muri Bulugariya.
 
 
 

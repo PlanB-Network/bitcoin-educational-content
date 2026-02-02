@@ -46,7 +46,7 @@ Satochip şirketi ayrıca 2 ürün daha sunmaktadır. Bitcoinleri çevrimdışı
 ## Satochip nasıl satın alınır?
 
 
-Satochip [resmi web sitesinde] (https://satochip.io/product/satochip/) satışa sunulmuştur. Fiziksel bir mağazadan satın almak için, Satochip web sitesinde [sertifikalı satıcıların listesini] (https://satochip.io/resellers/) de bulabilirsiniz.
+Satochip [resmi web sitesinde](https://satochip.io/product/satochip/) satışa sunulmuştur. Fiziksel bir mağazadan satın almak için, Satochip web sitesinde [sertifikalı satıcıların listesini](https://satochip.io/resellers/) de bulabilirsiniz.
 
 
 Wallet yönetim yazılımınızla etkileşim için Satochip iki seçenek sunar: NFC iletişimi veya bir akıllı kart okuyucu aracılığıyla. NFC seçeneği için makinenizin bu teknolojiyle uyumlu olduğundan emin olun veya harici bir NFC okuyucu edinin. Satochip standart 13.56 MHz frekansında çalışır. Aksi takdirde, bir akıllı kart okuyucu da satın alabilirsiniz. Satochip web sitesinde veya başka bir yerde bir tane bulabilirsiniz.
@@ -68,7 +68,7 @@ Satochip'i içeride bulacaksın.
 ![SATOCHIP](assets/notext/04.webp)
 
 
-Bu eğitimde Wallet'i yönetmek için Sparrow'yi kullanmanızı öneriyorum. Henüz yazılıma sahip değilseniz, [indirmek için resmi web sitesini ziyaret edin] (https://sparrowwallet.com/download/). Ayrıca Sparrow wallet hakkındaki eğitimimize de göz atabilirsiniz (yakında).
+Bu eğitimde Wallet'i yönetmek için Sparrow'yi kullanmanızı öneriyorum. Henüz yazılıma sahip değilseniz, [indirmek için resmi web sitesini ziyaret edin](https://sparrowwallet.com/download/). Ayrıca Sparrow wallet hakkındaki eğitimimize de göz atabilirsiniz (yakında).
 
 
 ![SATOCHIP](assets/notext/05.webp)

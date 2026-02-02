@@ -1,5 +1,6 @@
 ---
-term: BTCD(BTC 스위트)
+term: Btcd (btc suite)
+definition: Go 언어로 작성된 비트코인 프로토콜의 소수 구현체로, Bitcoin Core의 대안입니다.
 ---
 
 Bitcoin 프로토콜의 소수 구현. BTCD는 지배적인 Bitcoin core 소프트웨어(특히 bitcoind)의 대안입니다.

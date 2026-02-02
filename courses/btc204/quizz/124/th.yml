@@ -1,0 +1,9 @@
+question: ตัวเลือกใดที่อนุญาตให้เปิดหรือปิดใช้งาน P2P transport V2 ในไฟล์การกำหนดค่าหลักของ Bitcoin?
+answer: v2transport=
+wrong_answers:
+  - p2penable=
+  - networkv2=
+  - enablev2=
+explanation: |
+  P2P V2 transport สามารถแก้ไขได้ด้วยตัวเลือก v2transport= ในไฟล์การกำหนดค่าของโหนด Core
+reviewed: true

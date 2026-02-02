@@ -1,6 +1,7 @@
 ---
-term: HASH FUNKTSIOON
+term: Räsifunktsioon
 
+definition: Matemaatiline funktsioon, mis loob muutuva suurusega sisendist fikseeritud suurusega väljundi.
 ---
 Matemaatiline funktsioon, mis võtab muutuva suurusega sisendi (nn sõnum) ja annab fikseeritud suurusega väljundi (nn hash, hash, digesti või sõrmejälg). Hash-funktsioonid on krüptograafias laialdaselt kasutatavad algmaterjalid. Neil on spetsiifilised omadused, mis muudavad nad sobivaks kasutamiseks turvalistes kontekstides:
 
@@ -17,4 +18,3 @@ Bitcoini kontekstis kasutatakse hash-funktsioone mitmel eesmärgil, sealhulgas t
 - "SHA512" algoritmide "HMAC" ja "PBKDF2" raames, mida kasutatakse deterministlike ja hierarhiliste rahakottide tuletamisel;
 - `HASH160`, mis kirjeldab `SHA256` ja `RIPEMD160` järjestikust kasutamist. `HASH160` kasutatakse vastuvõtuaadresside genereerimisel (v.a P2PK ja P2TR) ja laiendatud võtmete vanemvõtme sõrmejälgede arvutamisel.
 
-> ► *Inglise keeles nimetatakse seda "hash-funktsiooniks"*

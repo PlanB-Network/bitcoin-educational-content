@@ -1,5 +1,6 @@
 ---
-term: KWENYE GRIDI
+term: Kwenye gridi
+definition: Uchimbuaji uliounganishwa na gridi ya taifa ya umeme ili kuwasha ASICs.
 ---
 
 Inarejelea operesheni ya Bitcoin Mining ambayo imeunganishwa kwenye gridi ya jumla ya umeme. Wachimbaji kwenye gridi ya taifa huunganisha kwenye gridi ya umeme ya kawaida, ambayo pia hutumiwa na watumiaji wa makazi, ili kuwasha ASICs zao. Njia hii inatoa chanzo cha nguvu thabiti, lakini mara nyingi ni ghali zaidi kuliko Mining ya nje ya gridi ya taifa, kutokana na ukingo mdogo zaidi wa mazungumzo.

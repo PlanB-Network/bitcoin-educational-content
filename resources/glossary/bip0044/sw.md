@@ -1,5 +1,6 @@
 ---
 term: BIP0044
+definition: Kiwango kinachofafanua muundo kamili wa njia za utolezi kwa ajili ya pochi za HD purpose, coin_type, account, change, na address_index.
 ---
 
 Pendekezo la uboreshaji ambalo linatanguliza muundo wa kiwango cha juu cha hali ya juu kwa pochi za HD. BIP44 hujengwa juu ya kanuni zilizowekwa na BIP32 kwa utokezi wa ufunguo na kwenye BIP43 kwa matumizi ya sehemu ya "madhumuni". Inatanguliza muundo wa kiwango cha tano: `m / kusudi' / coin_type' / akaunti' / change / address_index`. Hapa kuna maelezo ya kila kina:

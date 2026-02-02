@@ -1,0 +1,9 @@
+question: Quale chiusura di canale è la migliore per Lightning?
+answer: Chiusura cooperativa
+wrong_answers:
+  - Chiusura forzata
+  - Chiusura con imbroglio
+  - Chiusura Watchtower
+explanation: |
+  La chiusura cooperativa è più veloce e vi permette di scegliere le commissioni a catena.
+reviewed: false

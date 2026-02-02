@@ -1,0 +1,8 @@
+question: UniFFI inashughulikiaje uenezaji wa makosa kutoka kwa vitendakazi vya Rust hadi lugha lengwa kama Kotlin na Python?
+answer: Vitendakazi vinavyorudisha Aina za matokeo zimetiwa alama na 'mitupo' katika vighairi asilia vya UDL na generate katika lugha lengwa
+wrong_answers:
+  - Aina za hitilafu hubadilishwa kiotomatiki kuwa ujumbe wa kamba na kurudishwa kama thamani za hiari katika lugha zote lengwa
+  - Makosa yote ya Rust yameunganishwa katika aina ya hitilafu ya UniFFI ambayo lazima ifunuliwe kwa mikono na watengenezaji.
+  - Kushughulikia hitilafu kunahitaji wasanidi programu kutekeleza msimbo wa tafsiri ya hitilafu kwa kila mfumo wa lugha lengwa
+explanation: |
+  UniFFI hutoa utunzaji wa hitilafu wa hali ya juu unaohifadhi mfumo wa hitilafu unaotegemea Matokeo wa Rust huku ukiutafsiri ipasavyo kwa kila lugha lengwa. Vitendakazi vinavyorudisha aina za Matokeo katika Rust vimetiwa alama na neno muhimu la 'throws' katika UDL, na utunzaji huu asilia wa ubaguzi wa generate katika lugha lengwa - mbinu za Kotlin hutupa ubaguzi kufuatia kanuni za Java/Kotlin, huku Python ikitumia mfumo wa ubaguzi wa Python. Hii inahakikisha utunzaji wa hitilafu unahisi wa kawaida na wa kiisimu katika kila lugha huku ikihifadhi maana ya kisemantiki ya aina asilia za hitilafu za Rust, tofauti na vifungashio vya jumla au mbinu za tafsiri za mwongozo.

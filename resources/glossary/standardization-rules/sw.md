@@ -1,5 +1,6 @@
 ---
-term: KANUNI ZA USANIFU
+term: Règles de standardisation
+definition: Sheria za mitaa zinazofafanua muundo wa miamala ambayo haijathibitishwa ambayo nodi inakubali kwenye mempool yake.
 ---
 
 Sheria za kusanifisha zinapitishwa kibinafsi na kila nodi ya Bitcoin, pamoja na sheria za makubaliano, kufafanua muundo wa miamala ambayo haijathibitishwa inakubaliwa katika Mempool yake na kutangaza kwa wenzao. Sheria hizi kwa hivyo husanidiwa na kutekelezwa ndani ya kila nodi na zinaweza kutofautiana kutoka nodi moja hadi nyingine. Zinatumika kwa shughuli ambazo hazijathibitishwa pekee. Kwa hivyo, nodi itakubali tu shughuli inayoona kuwa sio ya kawaida ikiwa tayari imejumuishwa kwenye kizuizi halali.

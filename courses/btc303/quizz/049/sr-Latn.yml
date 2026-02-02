@@ -1,0 +1,11 @@
+question: Prema pristupu razmišljanja iz perspektive napadača, koji je osnovni razlog zbog kog se sve poznate slabosti u Bitcoinu moraju otkloniti, umesto da se prihvati određeni nivo rizika?
+answer: Bitcoin radi u pseudonimnom onlajn okruženju gde protivnici mogu iskoristiti slabosti bez da budu uhvaćeni ili pozvani na odgovornost
+wrong_answers:
+  - Formalni bezbednosni model Bitcoin azahteva matematički dokaz da su svi potencijalni vektori napada eliminisani
+  - Distribuirana priroda Bitcoina znači da čak i male slabosti mogu prouzrokovati sistemske kvarove širom svih čvorova
+  - Fiksna ponuda bitcoina čini ga ekonomski neisplativim za apsorpciju gubitaka od uspešnih napada, za razliku od tradicionalnih finansijskih sistema
+explanation: |
+  Tačan odgovor odražava ključni uvid Andrewa Poelstre o online sistemima naspram fizičkih. Za razliku od zgrada gde prihvatamo određeni rizik i oslanjamo se 
+  na sprovođenje zakona, Bitcoin funkcioniše u pseudonimnom okruženju gde napadači mogu delovati bez vidljivosti ili posledica. Ova fundamentalna razlika znači 
+  da će svaka poznata slabost neizbežno biti iskorišćena, što čini sveobuhvatnu sigurnost esencijalnom, a ne opcionalnim upravljanjem rizikom.
+reviewed: true

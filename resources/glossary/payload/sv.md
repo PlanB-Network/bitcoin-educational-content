@@ -1,5 +1,6 @@
 ---
-term: ANVÄNDBAR LAST
+term: Nyttolast
+definition: Väsentlig data som bärs inom ett större datapaket.
 ---
 
 I det allmänna databehandlingssammanhanget är en nyttolast de väsentliga data som transporteras i ett större datapaket. I en SegWit V0 över Bitcoin Address motsvarar t.ex. nyttolasten Hash för den offentliga nyckeln, utan de olika metadata (HRP, separator, SegWit-version och kontrollsumma). Till exempel, vid Address `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`, har vi :

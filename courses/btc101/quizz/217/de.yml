@@ -1,9 +1,9 @@
-question: Wofür ermöglicht das Lightning-Netzwerk?
-answer: Sofortige, kostengünstige Bitcoin-Transaktionen.
+question: Was ist das Hauptziel des Lightning Network?
+answer: Offchain-Zahlungen zu ermöglichen, die schnell und kostengünstig sind
 wrong_answers:
-  - Sofortige, hochpreisige Bitcoin-Transaktionen.
-  - Verzögerte, kostengünstige Bitcoin-Transaktionen.
-  - Verzögerte, hochpreisige Bitcoin-Transaktionen.
-explanation: >-
-  Das Lightning-Netzwerk ermöglicht sofortige, kostengünstige Bitcoin-Transaktionen und löst damit das Skalierbarkeitsproblem von Bitcoin.
-reviewed: true
+  - Die Blockgröße der Bitcoin-Blockchain zu erhöhen
+  - Die Bitcoin-Blockchain schrittweise durch ein leistungsfähigeres System zu ersetzen
+  - Mining-Farmen sehr reich zu machen
+explanation: |
+  Das Lightning Network zielt darauf ab, nahezu sofortige Bitcoin-Zahlungen mit geringen Gebühren zu ermöglichen, ohne die Haupt-Blockchain zu überlasten.
+reviewed: false

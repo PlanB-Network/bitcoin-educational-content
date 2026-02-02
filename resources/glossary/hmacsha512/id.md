@@ -1,6 +1,7 @@
 ---
 term: HMAC-SHA512
 
+definition: Algoritme kriptografi yang digunakan untuk derivasi kunci dalam dompet HD Bitcoin.
 ---
 `HMAC-SHA512` adalah singkatan dari "_Hash-based Message Authentication Code - Secure Hash Algorithm 512_", dapat diterjemahkan ke bahasa Indonesia sebgai "Kode Otentikasi Pesan Berbasis Hash - Algoritma Hash Aman 512", yang merupakan algoritma kriptografi yang digunakan untuk memverifikasi integritas dan keaslian pesan yang dipertukarkan antara dua pihak. Algoritma ini menggabungkan fungsi _hash_ kriptografi `SHA512` dengan kunci rahasia bersama untuk menghasilkan Kode Otentikasi Pesan (_Message Authentication Code_) yang unik untuk setiap pesan.
 

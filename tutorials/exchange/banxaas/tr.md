@@ -20,7 +20,7 @@ Bu eğitimde, Senegalli insanları Bitcoin takaslarına yaklaştıran bir takas 
 
 
 
-Banxaas, dal anlamına gelen Senegal lehçesinden (Wolof) gelmektedir. İdeolojik olarak Banxaas'ı Senegal halkını Bitcoin kullanımına bağlayan bir dal olarak görebiliriz. Birikimlerinizi enflasyondan ve sansürden korumak için güvenebileceğiniz bir dal. Senegalli bir start-up (Yité Technologies) tarafından geliştirilen [Banxaas] (https://banxaas.com), Lightning Network'in gücü sayesinde Bitcoin ile CFA Frangı (XOF) arasında anında Exchange hizmeti sunuyor. Banxaas, Batı Afrika alt bölgesindeki Exchange platformlarına alışılmadık bir yaklaşımla geliyor.
+Banxaas, dal anlamına gelen Senegal lehçesinden (Wolof) gelmektedir. İdeolojik olarak Banxaas'ı Senegal halkını Bitcoin kullanımına bağlayan bir dal olarak görebiliriz. Birikimlerinizi enflasyondan ve sansürden korumak için güvenebileceğiniz bir dal. Senegalli bir start-up (Yité Technologies) tarafından geliştirilen [Banxaas](https://banxaas.com), Lightning Network'in gücü sayesinde Bitcoin ile CFA Frangı (XOF) arasında anında Exchange hizmeti sunuyor. Banxaas, Batı Afrika alt bölgesindeki Exchange platformlarına alışılmadık bir yaklaşımla geliyor.
 
 
 
@@ -37,7 +37,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Banxaas ile ilk kez ticaret
 

@@ -1,0 +1,8 @@
+question: W swapie podmorskim Lightning Send, jaki konkretny element kryptograficzny umożliwia dostawcy swapu odebranie zablokowanych środków Liquid po opłaceniu faktury Lightning?
+answer: Obraz wstępny płatności z płatności Lightning służy jako klucz kryptograficzny do odblokowania depozytowanych środków Liquid
+wrong_answers:
+  - Podpis umowy blokady czasowej hash wygenerowany podczas początkowej transakcji blokady Liquid zapewnia dostęp do
+  - Metadane połączenia WebSocket zawierają klucz odblokowujący, który autoryzuje udostępnienie środków dostawcy
+  - "Klucz prywatny dostawcy swapu automatycznie odblokowuje środki po otrzymaniu potwierdzenia płatności Lightning"
+explanation: |
+  Preimage płatności to kryptograficzne potwierdzenie, które dowodzi, że płatność Lightning została pomyślnie zakończona. W swapach podwodnych ten obraz wstępny działa jako klucz odblokowujący dla depozytowanych środków Liquid, zapewniając atomowość - dostawca swapu może żądać środków Liquid tylko wtedy, gdy faktycznie zapłacił fakturę Lightning. Pozostałe opcje opisują albo ogólne elementy kryptograficzne, które nie zapewniają konkretnego dowodu płatności, albo nieprawidłowe mechanizmy, które zagrażałyby pozbawionemu zaufania charakterowi atomowego swapu.

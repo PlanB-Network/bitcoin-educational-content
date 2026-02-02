@@ -6,4 +6,4 @@ wrong_answers:
   - Créer un compte sur umbrel.com
 explanation: |
   L’installation commence par préparer une clé USB bootable avec UmbrelOS via Balena Etcher.
-reviewed: false
+reviewed: true 

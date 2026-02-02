@@ -1,8 +1,9 @@
-question: Ni uwuhe munyavyaha azwi cane Condorcet yaburanira?
-answer: Umukuru w'ingabo
+question: Ni uwuhe munyavyaha azwi cane Condorcet yaburaniye?
+answer: Le chevalier de la Barre
 wrong_answers:
-  - Jean Kalas
-  - Ludoyiki Mandrini
-  - Umubare wa Lally
+  - Jean Calas
+  - Louis Mandrin
+  - The Count of Lally
 explanation: |
-  Condorcet yaburaniye Chevalier de la Barre, umusore yari yaciriwe urubanza rwo gupfa kubera gutuka Imana.
+  Condorcet yaburaniye Chevalier de la Barre, umusore yari yaciriwe urubanza rwo gupfa gubera gutuka Imana.
+reviewed: true

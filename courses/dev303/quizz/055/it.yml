@@ -1,0 +1,8 @@
+question: Cosa succede durante il processo di compilazione quando il compilatore Rust incontra un'invocazione di macro?
+answer: Il compilatore confronta l'input con i modelli definiti e sostituisce la chiamata macro con il codice generato prima che avvenga il controllo di tipo
+wrong_answers:
+  - Il compilatore rinvia l'espansione delle macro fino a dopo il controllo dei tipi e l'ottimizzazione, per garantire la validità del codice
+  - Il compilatore memorizza la chiamata macro come bytecode e la espande dinamicamente durante l'esecuzione in runtime
+  - Il compilatore convalida la sintassi della macro, ma lascia che sia il linker a gestire l'espansione vera e propria
+explanation: |
+  Le macro vengono espanse durante la compilazione, prima che avvengano il controllo dei tipi e l'ottimizzazione. Quando il compilatore incontra un'invocazione di macro, confronta immediatamente l'input con gli schemi definiti dalla macro e sostituisce l'intera chiamata alla macro con il codice generato. Questo codice espanso viene poi sottoposto ai normali processi di compilazione, compreso il controllo dei tipi. Le altre opzioni non sono corrette, perché le macro operano a tempo di compilazione, non a tempo di esecuzione, e l'espansione deve avvenire prima del controllo dei tipi, poiché il codice generato deve essere convalidato per verificarne la correttezza.

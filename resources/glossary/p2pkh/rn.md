@@ -1,5 +1,6 @@
 ---
 term: P2PKH
+definition: Script iziba bitcoin kuri hash y'imfunguzo rusangi, aderesi zitangura na 1.
 ---
 
 P2PKH ni *Ishura ku rufunguzo rwa bose Hash*. Ni urugero rw'inyandiko rusanzwe rukoreshwa mu gushinga ivyangombwa vyo gukoresha amahera kuri UTXO. Ishobora gufunga bitcoins kuri Hash y'urufunguzo rwa bose, ni ukuvuga kuri Address yakira. Iyi nyandiko ifatanye n’ingingo ngenderwako y’Iragi kandi yashizweho mu bitabu vya mbere vya Bitcoin na Satoshi Nakamoto.

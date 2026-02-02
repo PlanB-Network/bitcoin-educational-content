@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van Rust's statische typebenadering ten opzichte van dynamisch typen bij het ontwikkelen van Bitcoin toepassingen?
+answer: Typefouten worden tijdens het compileren opgevangen voordat ze worden ingezet, waardoor runtime fouten bij het afhandelen van gebruikersfondsen worden voorkomen
+wrong_answers:
+  - Statisch typen zorgt voor een hogere uitvoeringssnelheid bij het verwerken van Bitcoin transacties op de blockchain
+  - "Dynamisch typen vereist meer geheugentoewijzing, wat in strijd is met Bitcoin's lichtgewicht knooppuntvereisten"
+  - Statische typering maakt automatische codegeneratie mogelijk voor Bitcoin protocolimplementaties en slimme contracten
+explanation: |
+  De statische typering van Rust vangt typefouten op tijdens het compileren, zodat fouten worden opgelost voordat de software kan worden gebouwd of ingezet. Dit is cruciaal voor de ontwikkeling van Bitcoin, omdat typefouten tijdens de runtime van de software onomkeerbare financiële verliezen kunnen veroorzaken als de software eenmaal omgaat met echt gebruikersgeld. Dynamisch typen brengt alleen fouten aan het licht tijdens de uitvoering, mogelijk na de implementatie wanneer het geld van gebruikers in gevaar is. De andere opties zijn onjuist, omdat het primaire voordeel van statische typing niet uitvoeringssnelheid, geheugengebruik of codegeneratie is, maar eerder compileertijdfoutenpreventie.

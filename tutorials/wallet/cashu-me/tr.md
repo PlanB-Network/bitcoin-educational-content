@@ -209,13 +209,13 @@ Cashu.me'de `NWC` kurmak için:
 ### Lightning Address npub.cash aracılığıyla
 
 
-Cashu.me, Nostr protokolü ile sorunsuz çalışan bir Lightning Address sağlamak için [npub.cash] (https://npub.cash/) ile entegre olur. Burada, 5.000 Sats'e mal olan ve npub.cash projesini destekleyen Nostr `nsec`inizi sağlayarak kaydolabilir ve kullanıcı adınızı talep edebilir veya kayıt olmadan herhangi bir Nostr genel anahtarını (`npub`) kullanabilirsiniz.
+Cashu.me, Nostr protokolü ile sorunsuz çalışan bir Lightning Address sağlamak için [npub.cash](https://npub.cash/) ile entegre olur. Burada, 5.000 Sats'e mal olan ve npub.cash projesini destekleyen Nostr `nsec`inizi sağlayarak kaydolabilir ve kullanıcı adınızı talep edebilir veya kayıt olmadan herhangi bir Nostr genel anahtarını (`npub`) kullanabilirsiniz.
 
 
 İlk olarak, `Ayarlar` bölümüne gidin ve npub.cash ile Yıldırım Address`yi Etkinleştir`e dokunun. Bu, varsayılan olarak Wallet seed ifadenizden türetilen bir `npub` dizesi kullanarak generate bir npub.cash Address oluşturacaktır.
 
 
-Alternatif olarak, kendi Nostr `nsec`inizi kullanarak özel bir kullanıcı adı talep etmek için [bu web sayfasını] (https://npub.cash/username) ziyaret edin ve size username@npub.cash gibi kişiselleştirilmiş bir Lightning Address verin.
+Alternatif olarak, kendi Nostr `nsec`inizi kullanarak özel bir kullanıcı adı talep etmek için [bu web sayfasını](https://npub.cash/username) ziyaret edin ve size username@npub.cash gibi kişiselleştirilmiş bir Lightning Address verin.
 
 
 ![image](assets/en/11.webp)

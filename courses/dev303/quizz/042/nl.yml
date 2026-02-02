@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van iterators die lui zijn in Rust?
+answer: Ze voeren geen werk uit totdat ze verbruikt worden, waardoor efficiënt ketenen mogelijk is zonder tussentijdse verzamelingen aan te maken
+wrong_answers:
+  - Ze parallelliseren bewerkingen automatisch over meerdere CPU-kernen voor betere prestaties
+  - Ze slaan eerdere resultaten op in het geheugen om te voorkomen dat dezelfde waarden meerdere keren opnieuw moeten worden berekend
+  - Ze gebruiken minder geheugen door alleen referenties op te slaan in plaats van de feitelijke gegevenswaarden te kopiëren
+explanation: |
+  Lazy evaluation in Rust iterators betekent dat ze geen bewerkingen uitvoeren totdat een consumerende methode wordt aangeroepen. Hierdoor kun je meerdere bewerkingen zoals map, filter en andere adaptors aan elkaar koppelen zonder tussenliggende verzamelingen aan te maken tussen elke stap. De compiler kan de hele keten optimaliseren tot efficiënte code die elementen één voor één door alle transformaties verwerkt, in plaats van tijdelijke vectoren of andere verzamelingen aan te maken bij elke stap.

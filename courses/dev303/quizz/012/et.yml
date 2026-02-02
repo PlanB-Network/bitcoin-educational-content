@@ -1,0 +1,8 @@
+question: Rust omandisüsteemi kohaselt, kui palju omanikke võib ühel väärtusel igal hetkel olla?
+answer: Täpselt üks omanik
+wrong_answers:
+  - Lubatud on mitu omanikku
+  - Maksimaalselt kaks omanikku
+  - Omanikke ei ole enne, kui neile on juurdepääs
+explanation: |
+  Rust omandisüsteem toimib kolme põhireegli alusel, millest esimene on see, et igal väärtusel on igal hetkel täpselt üks omanik. See ühe omaniku põhimõte on mälu turvalisuse seisukohalt ülioluline, sest see takistab mitmel programmiosal üheaegselt sama mälu vabastamist või andmete muutmist. Mitme omaniku olemasolu tooks kaasa kasutamisjärgse vabastamise vead ja andmevõistlused, samas kui omanike puudumine tähendaks, et mälu ei saaks kunagi korralikult puhastada.

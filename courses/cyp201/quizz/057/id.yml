@@ -6,4 +6,4 @@ wrong_answers:
   - Berubah-ubah tergantung pada panjang frasa mnemonik
 explanation: |
   Terlepas dari panjang frasa mnemonik, PBKDF2 selalu menghasilkan seed sebesar 512 bit.
-ditinjau: false
+reviewed: true

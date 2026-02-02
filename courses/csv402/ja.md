@@ -345,11 +345,11 @@ RGBトークンの二重使用を防ぐため、私たちは「**シングルユ
 そのプロセスは次のようにまとめられる：
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -3172,7 +3172,7 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 この請求書から移行するには ：
 
 
-- トークンを隠し持つ）Bobはビットコインウォレットを持っている。彼は、必要なRGBトークンがあるUTXOと通貨（交換）用の1つのUTXOを消費するビットコイン取引（PSBTの形式、例えば`tx.psbt`）を準備する必要がある；
+- Bob（トークンを自身のstashに保有している）はビットコインウォレットを持っている。必要なRGBトークンが存在するUTXOを消費し、さらにお釣り用のUTXOを含むビットコイントランザクション（PSBT形式、例：`tx.psbt`）を準備する必要がある；
 - ボブは次のコマンドを実行する：
 
 ```bash

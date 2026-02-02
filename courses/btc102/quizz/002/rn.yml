@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo umuntu akwiye kwirinda ubuhendanyi bwo gutanga intererano be n’amatora y’ubuhendanyi?
-answer: Ntukigere wohereza amahera kugira ngo uronke ama bitcoins .
+question: Ni ubuhe buryo umuntu akwiye kwirinda uguhendwa bwo gutanga ingabire be n’ama tombora y’ububeshi?
+answer: Ntukigere urungika amahera kugira ngo uronke ama bitcoins .
 wrong_answers:
-  - Igihe cose wohereze amahera makeyi kugira ngo ugerageze ivyo utanga
-  - Gushiramwo amahera kugira uronke inyungu yihuta kandi ata ngorane
-  - Gusangira amakuru y'ibanga kugira ngo ukingire amafaranga
+  - Igihe cose urungika amahera makeyi kugira ngo ugerageze urabe koko ko bagusubiza
+  - Gushiramwo amahera kugira uronke inyungu yihuta kandi ata utarushe
+  - Gusangira amakuru y'ibanga kugira ngo ukingire ibikorwa vyawe
 explanation: |
-  Gusaba kwishura imbere y’igihe ni ikimenyetso gisanzwe c’ubuhendanyi muri ubwo bwoko bw’ubuhendanyi.
+  Gusaba kwishura imbere y’igihe ni ikimenyetso cerekana ububeshi muri ico gikorwa c'ububeshi nyene.
 reviewed: false

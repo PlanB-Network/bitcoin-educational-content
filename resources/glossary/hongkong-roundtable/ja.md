@@ -1,5 +1,6 @@
 ---
-term: 香港ラウンドテーブル
+term: Hong-kong roundtable
+definition: システムの拡張性について、Bitcoin Core開発者とマイナーの間で行われた2016年の歴史的な会議。
 ---
 2016年2月20日に香港で行われたブロックサイズ戦争の歴史的なイベント。Bitcoin Coreの開発者とマイナーが、システムのスケーラビリティとその戦略を議論する重要な会議だった。特に、Gavin Andressen氏が支持する、ブロックサイズを2MBに増やすことを目的としたハードフォーク案であるBitcoin Classicの台頭により、会議の前から緊張が高まっていた。エコシステムにおいて影響力のある人物が討論に参加し、その中にはBitmain社の共同設立者であるJihan Wu氏とMicree Zhan氏、Blockstream社の社長であるAdam Back氏、Luke Dashjr氏、Matt Corallo氏、Peter Todd氏が含まれていた。
 

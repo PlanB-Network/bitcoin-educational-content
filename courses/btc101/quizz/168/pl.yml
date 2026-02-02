@@ -1,8 +1,8 @@
-question: Jaki jest jeden ze sposobów na złagodzenie zmienności Bitcoin?
+question: Jaki jest jeden ze sposobów na złagodzenie zmienności kursu bitcoina?
 answer: Zabezpieczenia finansowe (stablecoiny).
 wrong_answers:
-  - Inwestowanie wszystkich pieniędzy w Bitcoin.
+  - Inwestowanie wszystkich pieniędzy w bitcoina.
   - Ignorowanie trendów rynkowych.
-  - Kupię więcej Bitcoin, gdy cena spadnie.
+  - Zakup większej ilości bitcoina, gdy cena spadnie.
 explanation: >-
 reviewed: true

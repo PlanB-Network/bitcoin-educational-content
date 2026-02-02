@@ -1,0 +1,38 @@
+id: d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+topic: mining
+
+subtopic: mining
+
+type: theory
+
+level: beginner
+
+hours: 5
+
+professors_id:
+  - 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+contributor_names:
+  - LoicPandul
+
+published_at: 2026-01-19
+
+test_only: true
+
+tags:
+  - mining
+  - user-friendly
+  - onchain
+
+# Proofreading metadata
+
+original_language: fr
+
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-01-18
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

@@ -1,9 +1,9 @@
 question: Welke van deze antwoorden is niet een van de 3 grootste risico's voor de gebruiker die KYC ondergaat?
-answer: De onvervalsbaarheid van gekochte bitcoins
+answer: De niet-inwisselbaarheid (non-fungibility) van gekochte bitcoins
 wrong_answers:
   - Blootstelling aan staatstoezicht
-  - Vergemakkelijking van tracering op de ketting
+  - Vergemakkelijking van tracering op de blockchain
   - Het risico van gegevenslekken
 explanation: |
-  KYC brengt een risico op gegevenslekken met zich mee, omdat je informatie wordt opgeslagen, een risico op blootstelling aan staatstoezicht omdat je informatie kan worden doorgegeven of in beslag kan worden genomen, en een risico op tracering, omdat KYC als toegangspunt kan dienen. KYC vermindert echter niet de fungibiliteit van gekochte bitcoins.
+  KYC brengt een risico op gegevenslekken met zich mee, omdat je informatie wordt opgeslagen, een risico op blootstelling aan staatstoezicht omdat je informatie kan worden doorgegeven of in beslag kan worden genomen, en een risico op tracering, omdat KYC als ingangspunt kan dienen. KYC vermindert echter niet de fungibiliteit van gekochte bitcoins.
 reviewed: false

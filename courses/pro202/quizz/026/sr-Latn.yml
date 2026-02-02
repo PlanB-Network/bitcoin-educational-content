@@ -1,0 +1,8 @@
+question: Zašto validacija transakcija nasleđa Bitcoin pokazuje kvadratnu vremensku složenost u odnosu na broj ulaza?
+answer: Svaki unos zahteva sopstvenu sighash računicu nad strukturom koja uključuje sve unose u transakciji
+wrong_answers:
+  - Svaki unos mora da verifikuje potpise u odnosu na sve druge unose kako bi se sprečio double-spending unutar transakcije
+  - Model izvršavanja zasnovan na steku zahteva ugnježdene petlje za obradu opkoda za svaku kombinaciju ulaza
+  - "Svaki ulazni ScriptSig mora biti validiran u odnosu na svaki izlazni ScriptPubKey kako bi se pronašlo tačno poklapanje"
+explanation: |
+  Legacy Bitcoin validacija stvara kvadratnu složenost jer svaki unos zahteva sopstvenu sighash kalkulaciju, ali svaka kalkulacija obrađuje strukturu transakcije koja sadrži sve unose. Sa n unosa, ovo stvara n×n operacija. SegWit je ovo rešio keširanjem zajedničkih delova sighash računanja, smanjujući složenost na linearno vreme i sprečavajući potencijalne napade uskraćivanjem usluge iz velikih transakcija sa više unosa.

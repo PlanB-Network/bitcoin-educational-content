@@ -1,0 +1,8 @@
+question: Que requisito de segurança crítico deve ser cumprido ao gerar o nonce K na criação da assinatura ECDSA?
+answer: K deve ser único e imprevisível para cada assinatura para evitar o comprometimento da chave privada
+wrong_answers:
+  - K deve ser derivado da chave pública para garantir que a verificação da assinatura funciona corretamente
+  - K deve ser o mesmo em várias assinaturas para manter a coerência no processo de assinatura
+  - K deve ser igual à chave privada multiplicada pelo hash da mensagem para que a matemática seja correta
+explanation: |
+  O nonce K deve ser único e imprevisível para cada assinatura, porque a reutilização de K ou a sua previsibilidade permite aos atacantes recuperar a chave privada. Se o mesmo K for utilizado duas vezes com mensagens diferentes, uma álgebra simples pode revelar a chave privada. As implementações modernas utilizam a geração determinística de K (RFC 6979) para evitar falhas no gerador de números aleatórios e garantir a exclusividade. As outras opções estão incorrectas: K nunca deve ser derivado da chave pública, nunca deve ser reutilizado e nunca deve ser igual à chave privada vezes o hash da mensagem.

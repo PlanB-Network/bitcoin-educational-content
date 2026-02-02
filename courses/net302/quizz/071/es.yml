@@ -1,4 +1,4 @@
-question: ¿Qué notación se utiliza para indicar el tamaño del prefijo en un Address IPv6?
+question: ¿Qué notación se utiliza para indicar el tamaño del prefijo en una dirección IPv6?
 answer: CIDR
 wrong_answers:
   - Máscara de red decimal con puntos
@@ -6,4 +6,4 @@ wrong_answers:
   - ICANN
 explanation: |
   La notación CIDR especifica el número de bits del prefijo fijo después de una barra, igual que en IPv4.
-reviewed: false
+reviewed: true

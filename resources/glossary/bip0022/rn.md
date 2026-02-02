@@ -1,5 +1,6 @@
 ---
 term: BIP0022
+definition: Standard JSON-RPC getblocktemplate yemera software z'ubucukuzi kuyaga n'ama node yuzuye mu kwubaka amablok.
 ---
 
 BIP yashikirijwe muri 2012 na Luke Dashjr izana uburyo busanzwe bwa JSON-RPC ku mirongo y'inyuma ya Mining, yitwa "getblocktemplate". Uko ingorane za Mining zagenda zirushiriza, ni ko gukoresha porogarama zidasanzwe zo hanze zo gukora ibiharuro vya Proof-of-Work vyagenda biramenyekana cane.

@@ -1,4 +1,4 @@
-question: Koji moderni protokol pruža funkcionalnost sličnu onoj koju je IPv5 ciljao u upravljanju kvalitetom usluge mreže?
+question: Koji moderni protokol pruža funkcionalnost sličnu onoj koju je IPv5 ciljao u upravljanju kvalitetom mrežne usluge?
 answer: RSVP
 wrong_answers:
   - HTTP
@@ -6,4 +6,4 @@ wrong_answers:
   - FTP
 explanation: |
   RSVP (Resource Reservation Protocol) omogućava dinamičku rezervaciju mrežnih resursa kako bi se garantovao Kvalitet Usluge (QoS), što je bio originalni cilj IPv5.
-reviewed: false
+reviewed: true

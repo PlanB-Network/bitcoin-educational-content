@@ -1,0 +1,8 @@
+question: Wat is een eindig veld F(p) in Bitcoin's cryptografisch systeem?
+answer: Een rekenkundig systeem gedefinieerd door een priemgetal p, met elementen 0 tot en met p-1
+wrong_answers:
+  - Een oneindige reeks getallen gebruikt voor het genereren van Bitcoin adressen en sleutels
+  - Een wiskundig veld dat alle reële getallen tussen 0 en p-1 bevat
+  - Een cryptografische hashfunctie die uitgangen produceert van precies p bits lang
+explanation: |
+  Een eindig veld F(p) is specifiek een rekenkundig systeem gebouwd rond een priemgetal p dat precies p elementen bevat: de gehele getallen van 0 tot p-1. Het 'eindige' aspect is cruciaal - het is niet oneindig en het gaat niet over reële getallen of hashfuncties. Het 'eindige' aspect is cruciaal - het is niet oneindig en het gaat niet over reële getallen of hashfuncties. Priemvelden zorgen ervoor dat elk element zonder nul een vermenigvuldigende inverse heeft en dat alle rekenkundige bewerkingen (optellen, aftrekken, vermenigvuldigen) modulo p gebruiken, zodat de resultaten binnen het veld blijven. Deze begrensde, voorspelbare structuur is essentieel voor de cryptografische veiligheid van Bitcoin.

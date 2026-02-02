@@ -1,12 +1,12 @@
 ---
-name: Giới thiệu lý thuyết về Lightning Network
+name: Lý thuyết Lightning Network
 goal: Khám phá Lightning Network từ góc độ kỹ thuật
 objectives:
-  - Hiểu về cách hoạt động của các kênh trong mạng.
-  - Làm quen với các thuật ngữ HTLC, LNURL, và UTXO.
-  - Tiếp thu cách quản lý tính thanh khoản và phí của LNN.
-  - Nhận biết Lightning Network như một mạng lưới.
-  - Hiểu về các ứng dụng lý thuyết của Lightning Network.
+- Hiểu về cách hoạt động của các kênh trong mạng.
+- Làm quen với các thuật ngữ HTLC, LNURL, và UTXO.
+- Tiếp thu cách quản lý tính thanh khoản và phí của LNN.
+- Nhận biết Lightning Network như một mạng lưới.
+- Hiểu về các ứng dụng lý thuyết của Lightning Network.
 ---
 
 # Hành trình đến tầng thứ hai của Bitcoin
@@ -153,7 +153,7 @@ Script phổ biến nhất yêu cầu một chữ ký với khóa riêng liên k
 
 ### UTXOs: Unspent Transaction Outputs
 
-Trên Bitcoin, thứ chúng ta thực sự trao đổi không phải là bitcoin trực tiếp, mà là **UTXOs** (_Unspent Transaction Outputs_), nghĩa là "đầu ra giao dịch chưa được chi tiêu".
+Trên Bitcoin, thứ chúng ta thực sự trao đổi không phải là bitcoin trực tiếp, mà là **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), nghĩa là "đầu ra giao dịch chưa được chi tiêu".
 
 Một UTXO là một phần của bitcoin có thể có bất kỳ giá trị nào, ví dụ, **2,000 bitcoins**, **8 bitcoins**, hoặc thậm chí **8,000 sats**. Mỗi UTXO được khóa bởi một script, và để chi tiêu nó, người ta phải thỏa mãn các điều kiện của script, thường là một chữ ký với khóa riêng tương ứng với một địa chỉ nhận cụ thể.
 
@@ -593,7 +593,7 @@ Trong chương này, chúng ta đã khám phá việc định tuyến thanh toá
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-Trong chương này, chúng ta sẽ khám phá cách Lightning cho phép thanh toán di chuyển qua các nút trung gian mà không cần phải tin tưởng họ, nhờ vào **HTLC** (_Hợp Đồng Thời Gian Khóa Băm_). Những hợp đồng thông minh này đảm bảo rằng mỗi nút trung gian chỉ nhận được tiền từ kênh của mình nếu nó chuyển tiếp thanh toán cho người nhận cuối cùng, nếu không, thanh toán sẽ không được xác nhận.
+Trong chương này, chúng ta sẽ khám phá cách Lightning cho phép thanh toán di chuyển qua các nút trung gian mà không cần phải tin tưởng họ, nhờ vào **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hợp Đồng Thời Gian Khóa Băm_). Những hợp đồng thông minh này đảm bảo rằng mỗi nút trung gian chỉ nhận được tiền từ kênh của mình nếu nó chuyển tiếp thanh toán cho người nhận cuối cùng, nếu không, thanh toán sẽ không được xác nhận.
 
 Vấn đề đặt ra cho việc định tuyến thanh toán do đó là sự tin tưởng cần thiết ở các nút trung gian, và giữa chính các nút trung gian. Để minh họa điều này, hãy xem lại ví dụ mạng Lightning đơn giản của chúng ta với 3 nút và 2 kênh:
 
@@ -1025,6 +1025,10 @@ Chúng ta đã thấy rằng quản lý tính thanh khoản là một thách th�
 - **Mở Kênh Hợp Tác**: Cũng có các nền tảng có sẵn để kết nối thực hiện các mở kênh tam giác và có tính thanh khoản đến.
 
 ![LNP201](assets/en/084.webp)
+
+Giờ đây, khi bạn đã hiểu được cách thức hoạt động về mặt lý thuyết của Lightning Network, bạn có thể chuyển sang thực hành và thiết lập nút Lightning đầu tiên của mình để đạt được sự tự chủ cao hơn trong quá trình sử dụng. Để làm điều đó, hãy theo học khóa LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # Phần cuối
 

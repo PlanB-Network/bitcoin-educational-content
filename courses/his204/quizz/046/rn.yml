@@ -1,8 +1,9 @@
 question: Imbere y’ubutunzi, umwuga wa Quesnay wo kuvura wari uwuhe?
-answer: Umuganga abaga
+answer: Umuganga abaga(Surgeon)
 wrong_answers:
-  - Umuganga w'amenyo
-  - Umuforoma
-  - Umuganga w'imiti
+  - Umuganga w'amenyo(Dentist)
+  - Umuforoma(Nurse)
+  - Umuganga w'imiti(Pharmacist)
 explanation: |
-  François Quesnay yari umuganga abaga imbere y’uko aba umuhinga mu vy’ubutunzi. Yari mbere umuganga w’abaganga ba Madamu de Pompadour.
+  François Quesnay yari umuganga abaga imbere y’uko aba umuhinga mu vy’ubutunzi. Yari mbere umuganga bwite wa Madamu de Pompadour.
+reviewed: true

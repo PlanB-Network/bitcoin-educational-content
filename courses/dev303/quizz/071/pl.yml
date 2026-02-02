@@ -1,0 +1,8 @@
+question: Jaka jest najbardziej odpowiednia reakcja, gdy aplikacja Bitcoin napotka nieprawidłowy błąd wejściowy, taki jak otrzymanie ujemnej wartości dla pola, które wymaga tylko dodatnich liczb całkowitych?
+answer: Odrzuca dane wejściowe i zwraca informację o błędzie do osoby dzwoniącej
+wrong_answers:
+  - Konwertuje wartość ujemną na wartość bezwzględną i kontynuuje przetwarzanie
+  - Rejestruje błąd, ale kontynuuje operację przy użyciu wartości domyślnej
+  - Natychmiastowe zakończenie całej aplikacji, aby zapobiec uszkodzeniu danych
+explanation: |
+  Nieprawidłowe błędy wejściowe reprezentują naruszenia umowy między wywołującym a funkcją, gdzie dostarczone parametry nie spełniają wymagań funkcji. Prawidłowym podejściem jest odrzucenie danych wejściowych i zwrócenie informacji o błędzie, pozwalając wywołującemu na odpowiednie poradzenie sobie z sytuacją. Konwersja wartości ujemnych na dodatnie po cichu maskuje błąd i może prowadzić do niezamierzonego zachowania. Używanie wartości domyślnych ignoruje intencje dzwoniącego i może przetwarzać nieprawidłowe dane. Zakończenie całej aplikacji jest nadmierne w przypadku błędów walidacji danych wejściowych i spowodowałoby słabe wrażenia użytkownika w aplikacjach Bitcoin, w których kluczowa jest płynna obsługa błędów.

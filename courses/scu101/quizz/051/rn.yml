@@ -1,11 +1,10 @@
 question: None itegeko ry’inzahabu ry’umutekano wo kuri Internet ni irihe?
-answer: Umutekano wo kuri internet ni intumbero igendagenda izohuza n’urugendo rwawe rwo kwiga.
+answer: Umutekano wo kuri interineti ni intumbero igendagenda izohuza n’urugendo rwawe rwo kwiga.
 wrong_answers:
   - Umutekano wo kuri interineti ni ugutegura rimwe gusa
   - Umutekano wo kuri interineti si ngombwa ku makonti y'umuntu ku giti ciwe
   - Umutekano wo kuri internet ni uw'abantu bazi ubuhinga gusa
 explanation: |
-  Umutekano wo kuri Internet ni ikintu kigendagenda kubera ko iterabwoba n’
-  ingingo z’umutekano ziguma zitera imbere. Ni ngombwa
-  kugira ngo ukomeze kwiga no guhindura ingeso zawe.
+  Umutekano wo kuri interineti ni intumbero igendagenda kubera ko ivyokonona n’ingingo 
+  z’umutekano ziguma zitera imbere. Ni vy'umumaro ko ukomeze kwiga no guhindura ingendo.
 reviewed: true

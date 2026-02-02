@@ -30,10 +30,10 @@ Por otro lado, algunas herramientas están afectadas por el cierre del servidor 
 En cuanto a las herramientas de gasto individual, todo funciona normalmente siempre y cuando, por supuesto, tengas tu propio Dojo. Las transacciones Stonewall normales (y no Stonewall x2) funcionan sin ningún problema.
 
 Comentarios en Twitter han resaltado que la privacidad ofrecida por una transacción Stonewall podría ahora estar reducida. El valor agregado de una transacción Stonewall radica en el hecho de que es indistinguible de una transacción Stonewall x2 en términos de estructura. Cuando un analista encuentra este patrón específico, no pueden determinar si se trata de un Stonewall estándar con un solo usuario o un Stonewall x2 que involucra a dos usuarios. Sin embargo, como veremos en los siguientes párrafos, realizar transacciones Stonewall x2 se ha vuelto más complejo debido a la no disponibilidad de Soroban. Algunos, por lo tanto, piensan que un analista podría ahora asumir que cualquier transacción con esta estructura es un Stonewall normal. Personalmente, no comparto esta suposición. Aunque las transacciones Stonewall x2 pueden ser menos frecuentes (y creo que ya lo eran antes de este incidente), el hecho de que todavía sean posibles puede invalidar un análisis completo basado en la suposición de que no lo son.
-**[-> Aprende más sobre las transacciones Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Aprende más sobre las transacciones Stonewall.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 En cuanto a Ricochet, no he podido verificar si el servicio sigue operativo, debido a no poseer un Dojo en el Testnet, y prefiero no arriesgarme a gastar `100 000 sats` hacia una billetera que podría estar controlada por las autoridades. Si has tenido la oportunidad de probar esta herramienta recientemente, te invito a contactarme para que podamos actualizar este artículo.
 
-Si necesitas usar Ricochet, ten en cuenta que siempre puedes realizar esta operación manualmente con cualquier software de billetera. Para aprender cómo realizar manualmente los diversos saltos correctamente, recomiendo consultar este otro artículo: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+Si necesitas usar Ricochet, ten en cuenta que siempre puedes realizar esta operación manualmente con cualquier software de billetera. Para aprender cómo realizar manualmente los diversos saltos correctamente, recomiendo consultar este otro artículo: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 La herramienta JoinBot ya no está operativa, ya que dependía enteramente de la participación de una billetera gestionada por Samourai.
 
@@ -44,9 +44,9 @@ En cuanto a otros tipos de transacciones colaborativas, a menudo referidas como 
 Después de varias pruebas, parece que Soroban ya no funciona. Para realizar estas transacciones colaborativas, el intercambio de datos debe hacerse, por lo tanto, manualmente. Aquí hay dos opciones para realizar este intercambio:
 - Si estás físicamente cerca de tu colaborador, puedes escanear los códigos QR sucesivamente;
 - Si estás lejos de tu colaborador, puedes intercambiar los PSBTs a través de un canal de comunicación externo a la aplicación. Sin embargo, ten cuidado, ya que los datos contenidos en estos PSBTs son sensibles en términos de privacidad. Recomiendo usar un servicio de mensajería encriptado para asegurar la confidencialidad del intercambio.
-**[-> Aprende más sobre las transacciones Stonewall x2.](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Aprende más sobre las transacciones Stonewall x2.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Aprende más sobre las transacciones Stowaway.](https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Aprende más sobre las transacciones Stowaway.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 En cuanto a Whirlpool, el protocolo ya no parece funcionar, incluso para usuarios que tienen su propio Dojo. He estado monitoreando mi RoninDojo estos últimos días e intentado algunas manipulaciones básicas, pero el CLI de Whirlpool no ha podido conectarse desde el cierre del servidor.
 

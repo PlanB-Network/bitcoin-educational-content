@@ -1,5 +1,6 @@
 ---
-term: DELAR
+term: Andelar
+definition: Indikator som kvantifierar bidraget från en enskild miner i en mining-pool.
 ---
 
 I samband med Mining-pooler är en andel en indikator som används för att kvantifiera en enskild Miner:s bidrag inom poolen. Detta mått ligger till grund för beräkningen av den belöning som poolen omfördelar till varje Miner. Varje andel motsvarar en Hash som uppfyller ett svårighetsmål som är lägre än det för Bitcoin-nätverket.
@@ -16,7 +17,7 @@ För varje beräknad Hash kan en enskild Miner i en pool möta tre olika scenari
 - Om Hash är lägre än svårighetsmålet i Bitcoin-nätverket anses det vara både en giltig andel och ett giltigt block. Miner sänder denna Hash till sin pool, som skyndar sig att sända den i Bitcoin-nätverket. Denna Hash räknas också som en giltig andel för Miner: `andel > block > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Detta andelssystem används för att uppskatta det arbete som utförs av varje enskild Miner inom en pool, utan att individuellt behöva räkna om alla hashvärden som genereras av en Miner, vilket skulle vara helt ineffektivt för poolen.
@@ -25,4 +26,3 @@ Detta andelssystem används för att uppskatta det arbete som utförs av varje e
 Mining-pooler justerar svårighetsgraden för aktier för att balansera verifieringsbelastningen och säkerställa att varje Miner, oavsett om den är liten eller stor, lämnar in aktier ungefär varannan sekund. Detta möjliggör en korrekt beräkning av varje Miner:s Hashrate och fördelning av belöningar enligt den valda metoden för kompensationsberäkning (PPS, PPLNS, TIDES...).
 
 
-> ► * På franska kan "shares" översättas med "del" *

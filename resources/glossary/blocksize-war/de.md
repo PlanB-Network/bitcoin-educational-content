@@ -1,6 +1,7 @@
 ---
-term: BLOCKSIZE WAR
+term: Blocksize War
 
+definition: Konflikt innerhalb der Bitcoin-Community (2015-2017) über die Erhöhung der Blockgröße.
 ---
 Bezieht sich auf eine Zeit intensiver Debatten und Konflikte innerhalb der Bitcoin-Community zwischen 2015 und 2017. Dieser Konflikt drehte sich um die Frage, ob die Blockgröße, die seit 2010 von Satoshi Nakamoto auf 1 Megabyte begrenzt wurde, erhöht werden sollte, damit Bitcoin mehr Transaktionen pro Block verarbeiten kann, was die Skalierbarkeit verbessert.
 

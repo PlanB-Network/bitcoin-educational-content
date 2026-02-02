@@ -6,4 +6,4 @@ wrong_answers:
   - Il consomme moins d’énergie
 explanation: |
   La batterie d’un laptop agit comme un UPS naturel, évitant les arrêts brutaux en cas de coupure électrique.
-reviewed: false
+reviewed: true 

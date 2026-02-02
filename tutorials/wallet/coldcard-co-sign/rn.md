@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Ikimenyetso
+name: COLDCARD - Co-Sign
 description: Tora igice ca Co-Sign maze ugikoreshe kuri COLDCARD yawe
 ---
 

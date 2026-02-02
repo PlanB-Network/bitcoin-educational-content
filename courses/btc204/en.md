@@ -15,7 +15,7 @@ In a world where the confidentiality of financial transactions is gradually beco
 
 Today, many companies specialize in blockchain analysis for Bitcoin. Their core business consists precisely in intruding into your private sphere, in order to compromise the confidentiality of your transactions. In reality, there is no such thing as a "right to privacy" in Bitcoin. It's up to you, the user, to assert your natural rights and protect the confidentiality of your transactions, because nobody else will do it for you.
 
-The course is designed to be comprehensive and general. Each technical concept is covered in detail and supported by explanatory diagrams. The aim is to make the knowledge accessible to all. BTC204 is therefore affordable for beginners and intermediate users. The course also offers added value for more experienced bitcoiners, as we delve deeper into certain technical concepts that are often misunderstood.
+The course is designed to be comprehensive and general. Each technical concept is covered in detail and supported by explanatory diagrams. The aim is to make the knowledge accessible to all. BTC204 is therefore accessible for beginners and intermediate users. The course also offers added value for more experienced bitcoiners, as we delve deeper into certain technical concepts that are often misunderstood.
 
 Join us to transform your use of Bitcoin and become an informed user, capable of understanding the issues around confidentiality and protecting your privacy.
 
@@ -40,7 +40,7 @@ Bitcoin isn't just about "Number Go Up" and preserving the value of savings. Wit
 
 Bitcoin offers a peaceful escape from the state's yoke, allowing you to fully enjoy your natural rights, which cannot be challenged by established laws. Thanks to Satoshi Nakamoto's invention, you have the power to enforce respect for your private property and regain the freedom to enter into contracts.
 
-However, Bitcoin is not anonymous by default, which can pose a risk for individuals involved in the counter-economy, particularly in regions under authoritarian rule. But this is not the only danger. Since bitcoin is a valuable and incensurable asset, it can be a target for thieves. Therefore, protecting your privacy becomes a matter of security as well, as it can help prevent hacking and physical assault.
+However, Bitcoin is not anonymous by default, which can pose a risk for individuals involved in the counter-economy, particularly in regions under authoritarian rule. But this is not the only danger. Since bitcoin is a valuable and uncensorable asset, it can be a target for thieves. Therefore, protecting your privacy becomes a matter of security as well, as it can help prevent hacking and physical assault.
 
 As we'll see, although the protocol offers certain confidentiality protections in its own right, it's crucial to use additional tools to optimize and defend this confidentiality.
 
@@ -96,7 +96,7 @@ Bitcoin is first and foremost a currency, but do you actually know how BTC is re
 
 ### UTXOs on Bitcoin: what are they?
 
-The Bitcoin protocol is based on the UTXO model, which stands for "Unspent Transaction Output".
+The Bitcoin protocol is based on the [UTXO](https://planb.academy/resources/glossary/utxo) model, which stands for "Unspent Transaction Output".
 
 This model differs profoundly from traditional banking systems, which rely on a mechanism of accounts and balances to track financial flows. Indeed, in the banking system, individual balances are maintained in accounts associated with a specific identity. For example, when you buy bread from a baker, your bank simply debits the purchase amount from your account, reducing your balance, while the baker's account is credited with the same amount, increasing its balance. In this system, there is no notion of a link between the money entering your account and the money leaving it, apart from transaction records.
 
@@ -183,7 +183,7 @@ Now let's imagine that Alice doesn't have a single UTXO of `10,000 SATS`, but ra
 Intuitively, one might think that transaction costs also represent the output of a transaction. But in reality, this is not the case. Transaction costs represent the difference between total inputs and total outputs. This means that, after using part of the value of the inputs to cover the desired outputs in a transaction, a certain sum of the inputs remains unused. This residual sum constitutes the transaction costs.
 
 ```plaintext
-Frais = total inputs - total outputs
+Transaction fees = total inputs - total outputs
 ```
 
 Let's take the example of Alice, who has a UTXO of `10,000 SATS` and wants to buy bread at `4,000 SATS`. Alice creates a transaction with her UTXO of `10,000 SATS` as input. She then generates an output of `4,000 SATS` for the baker to pay for the baguette. To encourage miners to integrate her transaction into a block, Alice allocates `200 SATS` in fees. She then creates a second output, the change, which will be returned to her, amounting to `5,800 SATS`.
@@ -193,10 +193,10 @@ Let's take the example of Alice, who has a UTXO of `10,000 SATS` and wants to bu
 Applying the fee formula, we see that there are indeed `200 SATS` left for minors:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Transaction fees = total inputs - total outputs
+Transaction fees = 10 000 - (4 000 + 5 800)
+Transaction fees = 10 000 - 9 800
+Transaction fees = 200
 ```
 
 When a miner successfully validates a block, they are authorized to collect fees for all the transactions included in their block, via the so-called "coinbase" transaction.
@@ -245,8 +245,8 @@ That's why we use money to move value in both space and time.
 For coinage to solve this problem, it is essential that the party providing a good or service is convinced of its ability to spend that sum at a later date. Thus, any rational individual wishing to accept a coin, whether digital or physical, will ensure that it meets two fundamental criteria:
 
 
-- The UTXO must have integrity and authenticity.
-- and must not be double-spent.
+- **The UTXO must have integrity and authenticity.**
+- **and must not be double-spent.**
 
 If you're using physical currency, it's the first characteristic that's the most complex to assert. At different periods in history, the integrity of metal coins has often been affected by practices such as trimming or piercing. In ancient Rome, for example, it was common practice for citizens to scrape the edges of gold coins to collect a small amount of precious metal, while saving them for future transactions. The intrinsic value of the coin was thus reduced, but its face value remained the same. This is one of the reasons why the edge of the coin was later fluted.
 
@@ -309,7 +309,7 @@ But since Bitcoin transactions are made public, it is still possible to establis
 
 ### Definition and operation
 
-Blockchain analysis is the practice of tracing the flow of bitcoins on the blockchain. Generally speaking, chain analysis is based on the observation of characteristics in samples of previous transactions. It then involves identifying these same characteristics in a transaction that we wish to analyze and deducing plausible interpretations from them. This problem-solving method, based on a practical approach to finding a satisfactory solution, is known as a "heuristic."
+[Blockchain analysis](https://planb.academy/resources/glossary/chain-analysis) is the practice of tracing the flow of bitcoins on the blockchain. Generally speaking, chain analysis is based on the observation of characteristics in samples of previous transactions. It then involves identifying these same characteristics in a transaction that we wish to analyze and deducing plausible interpretations from them. This problem-solving method, based on a practical approach to finding a satisfactory solution, is known as a "heuristic."
 
 In layman's terms, there are three main stages in chain analysis:
 
@@ -349,9 +349,9 @@ So we also need to be able to cope with blockchain analysis in our use of Bitcoi
 
 ![BTC204](assets/en/030.webp)
 
-What better way to counter blockchain analysis than to learn about the methods used in it? To enhance your Bitcoin privacy, it's essential to understand these methods. This will give you a better grasp of techniques such as coinjoin or payjoin (techniques we'll look at in the final parts of the course), and reduce the mistakes you might make.
+What better way to counter blockchain analysis than to learn about the methods used in it? To enhance your Bitcoin privacy, it's essential to understand these methods. This will give you a better grasp of techniques such as [coinjoin](https://planb.academy/resources/glossary/coinjoin) or [payjoin](https://planb.academy/resources/glossary/payjoin) (techniques we'll look at in the final parts of the course), and reduce the mistakes you might make.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
@@ -366,9 +366,9 @@ The primary purpose of chain analysis is to aggregate various heuristics and min
 These famous heuristics can be grouped into different categories, which we will describe in detail below:
 
 
-- Transaction patterns;
-- Transaction-internal heuristics;
-- Heuristics external to the transaction.
+- **Transaction patterns;**
+- **Transaction-internal heuristics;**
+- **Heuristics external to the transaction.**
 
 ### Satoshi Nakamoto and chain analysis
 
@@ -640,7 +640,7 @@ The study of external heuristics means analyzing the similarities, patterns, and
 
 ### Address reuse
 
-This is one of the most well-known heuristics among Bitcoiners. Address reuse enables the establishment of a link between different transactions and UTXOs. It occurs when a Bitcoin receiving address is used several times.
+This is one of the most well-known heuristics among Bitcoiners. [Address reuse](https://planb.academy/resources/glossary/address-reuse) enables the establishment of a link between different transactions and UTXOs. It occurs when a Bitcoin receiving address is used several times.
 
 Thus, it is possible to exploit address reuse within the same transaction as an internal heuristic to identify the change (as we saw in the previous chapter). However, address reuse can also be used as an external heuristic to identify the uniqueness of an entity behind multiple transactions.
 
@@ -906,7 +906,7 @@ I have personally identified at least two internal heuristics that support the s
 
 
 - The reuse of the same type of script;
-- The round post output.
+- The round amount output.
 
 The most obvious heuristic is that of reusing the same type of script. Indeed, output `0` is a `P2SH`, recognizable by its reception address starting with `3`:
 
@@ -1073,7 +1073,7 @@ Technically, a Bitcoin receiving address does not "receive" bitcoins in the lite
 
 Bitcoin addresses come in different types, depending on the scripting model used. The first models, known as "Legacy", include the `P2PKH` (*Pay-to-PubKey-Hash*) and `P2SH` (*Pay-to-Script-Hash*) addresses. P2PKH addresses always begin with `1`, and P2SH with `3`. Although still secure, these formats are now obsolete, as they entail higher transaction costs and offer less confidentiality than the new standards.
 
-SegWit V0 (`P2WPKH` and `P2WSH`) and Taproot / SegWit V1 (`P2TR`) addresses represent modern formats. SegWit addresses start with `bc1q` and Taproot addresses, introduced in 2021, start with `bc1p`.
+SegWit V0 (`P2WPKH` and `P2WSH`) and [Taproot](https://planb.academy/resources/glossary/taproot) / SegWit V1 (`P2TR`) addresses represent modern formats. SegWit addresses start with `bc1q` and Taproot addresses, introduced in 2021, start with `bc1p`.
 
 For example, here is a Taproot reception address:
 
@@ -1098,7 +1098,7 @@ The construction of reception addresses also depends on the script model chosen:
 
 
 - For `P2PKH` and `P2WPKH` addresses, the payload, i.e., the core of the address, represents the hash of the public key;
-- For `P2SH` and `P2WSH` addresses, the payload represents the hash of a;
+- For `P2SH` and `P2WSH` addresses, the payload represents the hash of a script;
 - As for `P2TR` addresses, the payload is a tweaked public key. P2TR outputs combine aspects of _Pay-to-PubKey_ and _Pay-to-Script_. The tweaked public key is the result of adding a classic spending public key with a "tweak", derived from the Merkle root of a set of scripts that can also be used to spend bitcoins.
 
 ![BTC204](assets/en/069.webp)
@@ -1199,7 +1199,7 @@ For example, if I have a UTXO from a P2P purchase on Bisq with Charles, I could 
 
 Tagging is a good practice that helps to remember the origin or intended destination of a UTXO, which therefore facilitates the management of funds and the optimization of privacy. Indeed, your Bitcoin wallet surely secures several UTXOs. If the sources of these UTXOs are different, you may not want to merge these UTXOs in the future; otherwise, you could reveal their common ownership. By properly labeling all your UTXOs, you can be certain that you'll remember where they originated from when you need to use them, even years later.
 
-### What's corner control?
+### What's coin control?
 
 The active use of labelling becomes even more interesting when coupled with a coin control option on your wallet software.
 
@@ -1218,9 +1218,9 @@ It's essential that your loved ones can easily identify the origin of the funds 
 The most important thing to note on the label is the source of the UTXO. You should simply indicate how the coin came to be in your wallet. Is it the result of a purchase on an exchange platform? An invoice payment from a customer? A peer-to-peer exchange? Or does it represent the change of an expense? For example, you could specify:
 
 
-- remove Exchange.com`;
-- customer payment David`;
-- buy P2P Charles`;
+- `remove Exchange.com`;
+- `customer payment David`;
+- `buy P2P Charles`;
 - `Change sofa purchase`
 
 ![BTC204](assets/en/076.webp)
@@ -1526,7 +1526,7 @@ One of the most complicated aspects of running a self-custody wallet is consolid
 
 ### What is consolidation?
 
-Bitcoin operates like an auction market, with miners giving preference to transactions offering the lowest fees. However, each block has a maximum weight, which limits the number of transactions that can be included within it. As a block is produced on average every 10 minutes, the space available in each block is a scarce resource.
+Bitcoin operates like an auction market, with miners giving preference to transactions offering the best fees. However, each block has a maximum weight, which limits the number of transactions that can be included within it. As a block is produced on average every 10 minutes, the space available in each block is a scarce resource.
 
 Miners, whose activities generate significant costs in terms of electricity, fixed assets, and maintenance, naturally seek to maximize their profitability. They therefore tend to favour transactions that generate the highest fees relative to their weight.
 
@@ -1542,7 +1542,7 @@ In this example, although transaction B offers a higher total fee, miners will p
 
 ```text
 TXA: 1994 / 141 = 14 sats/vB
-TXB: 2640 / 220 = 12 sats / vB
+TXB: 2640 / 220 = 12 sats/vB
 ```
 
 This means that for each unit of weight, transaction A offers more costs than transaction B, even though transaction B offers more costs in absolute terms.
@@ -1555,7 +1555,7 @@ The principle of consolidation is precisely to take advantage of periods when fe
 
 ![BTC204](assets/en/101.webp)
 
-In addition to saving on transaction costs, consolidating UTXOs helps prevent the formation of "dust". Dust" refers to UTXOs whose value in sats is so low that it is insufficient to cover the transaction costs required to spend them. This makes these UTXOs economically irrational to use for as long as the transaction costs remain high. By proactively pooling your UTXOs, you prevent them from being lost, ensuring that all your funds remain usable.
+In addition to saving on transaction costs, consolidating UTXOs helps prevent the formation of "dust". "Dust" refers to UTXOs whose value in sats is so low that it is insufficient to cover the transaction costs required to spend them. This makes these UTXOs economically irrational to use for as long as the transaction costs remain high. By proactively pooling your UTXOs, you prevent them from being lost, ensuring that all your funds remain usable.
 
 ### What's the minimum size for your UTXOs?
 
@@ -1568,10 +1568,10 @@ $$
 Where:
 
 
-- p$ is the transaction weight;
+- $P$ is the transaction weight;
 - $F$ represents the maximum charge rate in satoshis per vbyte (sats/vB) against which you hedge;
-- t$ is the percentage of the transaction fee you are willing to pay in relation to the total value of the UTXO;
-- m$ is the minimum amount in satoshis for each UTXO.
+- $T$ is the percentage of the transaction fee you are willing to pay in relation to the total value of the UTXO;
+- $M$ is the minimum amount in satoshis for each UTXO.
 
 Let's assume that you plan to cover the fees for a standard SegWit transaction with 1 input and 2 outputs, weighing 141 vB. If you're hedging up to 800 sats/vB, and you're willing to spend up to 12% of the UTXO value in fees at most, then the calculation would be:
 
@@ -1612,7 +1612,7 @@ Let's examine a few additional best practices for enhancing your privacy on Bitc
 
 ### The complete knot
 
-Owning your bitcoins in self-custody is great, but using your own full node is even better! Here's why having your own node is crucial for fully sovereign use of Bitcoin:
+Owning your bitcoins in self-custody is great, but using your own [full node](https://planb.academy/resources/glossary/full-node) is even better! Here's why having your own node is crucial for fully sovereign use of Bitcoin:
 
 
 - **Resistance to censorship**: Your transactions cannot be blocked by anyone;
@@ -1699,7 +1699,7 @@ At the end of the transaction, it becomes impossible to associate a specific out
 Let's take Alice's example. She wants to send around 100,000 sats to her sister Eve for her birthday. However, Alice doesn't want Eve to be able to trace her transaction history, as she doesn't want to reveal how many bitcoins she has or how she got them. To this end, Alice decides to break her UTXO history with a coinjoin transaction. She organizes with Bob, Charles, David, and Frank to carry out a collaborative transaction:
 
 
-- Alice, Bob, Charles, Davi,d and Frank each commit a UTXO of 105,000 sats (with 5,000 sats for mining fees) as inputs to the transaction:
+- Alice, Bob, Charles, David, and Frank each commit a UTXO of 105,000 sats (with 5,000 sats for mining fees) as inputs to the transaction:
 
 ![BTC204](assets/en/112.webp)
 
@@ -1737,7 +1737,7 @@ However, coinjoin also offers the possibility of reinforcing confidentiality fro
 
 ![BTC204](assets/en/118.webp)
 
-In the first example, we saw how the coinjoin can protect a room's privacy in relation to its past, and in the second example, how it can also secure a room's history in relation to its future. That's why I mentioned that the coinjoin should be seen as a one-off event that segments a UTXO history in both directions:
+In the first example, we saw how the coinjoin can protect a coin's privacy in relation to its past, and in the second example, how it can also secure a room's history in relation to its future. That's why I mentioned that the coinjoin should be seen as a one-off event that segments a UTXO history in both directions:
 
 ![BTC204](assets/en/119.webp)
 
@@ -1883,7 +1883,6 @@ Currently, Whirlpool is the only coinjoin implementation that rigorously applies
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*In 2024, we are witnessing major changes in the tools available to users wishing to make coinjoins on Bitcoin. We're currently at a turning point, and the coinjoin market is undergoing major restructuring. This chapter is sure to be updated over time.*
 
 For the moment, there are mainly 3 different coinjoin implementations on Bitcoin:
 
@@ -1891,6 +1890,10 @@ For the moment, there are mainly 3 different coinjoin implementations on Bitcoin
 - Whirlpool;
 - Wabisabi;
 - JoinMarket.
+
+In addition to these three historical implementations, a new one has recently emerged: Joinstr. I will not address it in this chapter, but you can find all related information in this dedicated tutorial:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Each of these implementations aims to break the history of UTXOs via coinjoin transactions. However, their mechanisms vary considerably. It is therefore essential to understand how each works, so you can choose the option that best suits your needs.
 
@@ -1914,6 +1917,8 @@ Despite its innovative P2P linking model for coinjoiners, JoinMarket has some si
 
 Finally, while the JoinMarket concept is interesting, especially for those interested in a dynamic liquidity market, its structural weaknesses and technical complexity make it, in my opinion, less appealing for both novices and experts seeking a coinjoin implementation.
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 Wabisabi is another coinjoin implementation, with an approach that centralizes transaction coordination. This model was conceived by Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero, and István András Seres in 2021, and was integrated into Wasabi 2.0 software the following year. Wabisabi is precisely an evolution of the Wasabi software coinjoin model launched in 2018.
@@ -1926,7 +1931,7 @@ Exchange management methods also distinguished the two implementations. With Whi
 
 ![BTC204](assets/en/139.webp)
 
-With Wabisabi, Wasabi version 2.0 has adapted its approach to coinjoins to match that of Whirlpool. Although coinjoin transactions remain very large, it is now possible to chain several successive cycles, following the Whirlpool model. Particular attention has also been paid to exchange rate management: unlike Wasabi 1.0, where the change was directly linked to user inputs, Wabisabi seeks to subdivide the change into several small sums, divided into equal denominations for all participants.
+With Wabisabi, Wasabi version 2.0 has adapted its approach to coinjoins to match that of Whirlpool. Although coinjoin transactions remain very large, it is now possible to chain several successive cycles, following the Whirlpool model. Particular attention has also been paid to exchange management: unlike Wasabi 1.0, where the change was directly linked to user inputs, Wabisabi seeks to subdivide the change into several small sums, divided into equal denominations for all participants.
 
 Let's illustrate this with a simplified example involving just two users: Alice wishes to mix 115,000 sats, and Bob wishes to mix 210,000 sats. Ignoring fees, with Wasabi 1.0, a coinjoin transaction would have generated 3 outputs of 100,000 sats, plus 1 change of 15,000 sats for Alice and 1 change of 10,000 sats for Bob. The change outputs would still be linked to the inputs:
 
@@ -1958,6 +1963,10 @@ Beyond the technical issues, the decision by zkSNACKs, the company behind Wasabi
 Even more worrying is the principle of filtering, which contrasts radically with Bitcoin's philosophy of offering an open, uncensored financial system. While it may seem justified to exclude criminal activities, this filtering could also affect individuals whose actions, although classified as illegal in certain contexts, may be morally justifiable or socially beneficial. The example of Edward Snowden perfectly illustrates this dichotomy: considered a criminal by some governments for his revelations, he is seen by others as a whistleblower who acted in the public interest. This complexity underlines the potential danger of filtering, which, although well-intentioned, can ultimately undermine the rights and security of legitimate users. I could also have mentioned activists and journalists who are persecuted under certain authoritarian regimes.
 
 As you'll have gathered by now, my preference is definitely for the Whirlpool model for coinjoins on Bitcoin. This system stands out for its rigor and offers superior guarantees of confidentiality. It is also the only one to offer a mix considered perfect in a mathematical context. In my opinion, this model represents the future of coinjoins on the Bitcoin network. I invite you to explore this model in greater depth in the next chapter.
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## How Whirlpool works
 
@@ -2045,10 +2054,10 @@ The service fee for the use of the Whirlpool is payable only once when you join 
 
 | Pool (bitcoin) | Entry fee (bitcoin)  |
 | -------------- | -------------------- |
-| 0,5            | 0,0175               |
-| 0,05           | 0,00175              |
-| 0,01           | 0,0005 (50 000 sats) |
-| 0,001          | 0,00005 (5 000 sats) |
+| 0.5            | 0.0175               |
+| 0.05           | 0.00175              |
+| 0.01           | 0.0005 (50,000 sats) |
+| 0.001          | 0.00005 (5,000 sats) |
 
 These fees essentially function as an entry ticket to the chosen pool, regardless of the amount you put in coinjoin. So, whether you enter the 0.01 pool with exactly 0.01 BTC or 0.5 BTC, the fees will remain the same in absolute terms.
 
@@ -2083,8 +2092,8 @@ For wallets adapted to Whirlpool, 4 accounts are used to meet the needs of the Z
 
 - The **deposit** account, identified by index `0'`;
 - The **bad bank** (or "doxxic change") account, identified by the index `2,147,483,644'`;
-- The **premix** account, identified by the index `2 147 483 645'`;
-- The **postmix** account, identified by the index `2 147 483 646'`.
+- The **premix** account, identified by the index `2,147,483,645'`;
+- The **postmix** account, identified by the index `2,147,483,646'`.
 
 Each of these accounts fulfills a particular function in the coinjoin process, which we'll explore in the following sections.
 
@@ -2096,7 +2105,7 @@ Let's take a look at the different stages of a Whirlpool coinjoin within these a
 
 The starting point of any Whirlpool coinjoin is the **deposit** account. This is the account you automatically use when you create a new Bitcoin wallet. This account will need to be credited with the bitcoins you wish to mix.
 
-Tx0" is the first step in Whirlpool's mixing process. Its purpose is to prepare and equalize the UTXOs for the coinjoin, dividing them into units corresponding to the amount of the selected pool, to ensure homogeneous mixing. The UTXOs thus equalized are then sent to the **premix** account. As for the difference that cannot be entered into the pool, it is separated into a specific account: the **bad bank** (or "doxxic change").
+`Tx0` is the first step in Whirlpool's mixing process. Its purpose is to prepare and equalize the UTXOs for the coinjoin, dividing them into units corresponding to the amount of the selected pool, to ensure homogeneous mixing. The UTXOs thus equalized are then sent to the **premix** account. As for the difference that cannot be entered into the pool, it is separated into a specific account: the **bad bank** (or "doxxic change").
 
 This initial `Tx0` transaction is also used to pay the service fee due to the coinjoin coordinator. Unlike the following steps, this transaction is not collaborative, so the user must bear the full cost of mining:
 
@@ -2134,7 +2143,7 @@ At the end of these first mixes, the **premix** account will be empty, while our
 
 ### Remixes
 
-After the initial mix, the UTXOs are transferred to the **postmix** account. This account collects UTXOs already mixed and those awaiting remixing. When the Whirlpool customer is active, UTXOs located in the **postmix** account are automatically available for remixes and will be randomly selected to participate in these new cycles.
+After the initial mix, the UTXOs are transferred to the **postmix** account. This account collects UTXOs already mixed and those awaiting remixing. When the Whirlpool client is active, UTXOs located in the **postmix** account are automatically available for remixes and will be randomly selected to participate in these new cycles.
 
 As a reminder, remixes are then 100% free: no additional service charges or mining fees are required. Keeping UTXOs in the **postmix** account, therefore, preserves their value while also enhancing their anonymity. That's why it's important to allow these coins to participate in several coinjoin cycles. It costs you absolutely nothing and increases their anonymity levels.
 
@@ -2156,7 +2165,7 @@ It's also not advisable to transfer your postmix UTXOs to a wallet using scripts
 
 As with any Bitcoin transaction, it is also important not to reuse the receiving address. Each new transaction must be received on a new, blank address.
 
-The simplest and safest solution is to leave your mixed UTXOs at rest in their **postmix** account, letting them remix and only touching them to spend. Samurai and Sparrow wallets feature additional protection against all these chain analysis risks. These protections help you avoid making mistakes.
+The simplest and safest solution is to leave your mixed UTXOs resting in their **postmix** account, allowing them to continue remixing and touching them only when spending. The Samourai wallets (and now Ashigaru) and Sparrow include additional protections against all these risks related to chain analysis. These protections help you avoid making mistakes.
 
 ### How do you manage toxic changes?
 
@@ -2165,28 +2174,31 @@ Next, you'll need to be careful about managing doxxic change, the change that di
 Here are some strategies for using them:
 
 
-- Mix them into smaller pools: If your toxic UTXO is large enough to fit into a smaller pool on its own, consider mixing it. This is often the best option. However, it's not advisable to merge several toxic UTXOs to access a pool, as this could link your different entries.
-- Mark them as "non-spendable": Another approach is to stop using them, mark them as "non-spendable" in their dedicated account, and just hodl. This ensures that you don't accidentally spend them. If the value of bitcoin rises, new pools more suited to your toxic UTXOs may emerge.
-- Make donations: Consider making donations, however modest, to developers working on Bitcoin and related software. You can also donate to associations that accept BTC. If managing your toxic UTXOs seems too complicated, you can simply get rid of them and make a donation.
-- Buy gift cards: Platforms such as [Bitrefill](https://www.bitrefill.com/) allow you to exchange bitcoins for gift cards that can be used at various merchants. This can be a way of parting with your toxic UTXOs without losing the associated value.
-- Consolidate them on Monero: **Samourai Wallet offers an atomic swap service between BTC and XMR. This is ideal for managing toxic UTXOs by consolidating them on Monero, without compromising your confidentiality via CIOH, before sending them back to Bitcoin. However, this option can be costly in terms of mining fees and premiums due to liquidity constraints.**
-- Send them to the Lightning Network: Transferring these UTXOs to the Lightning Network to benefit from reduced transaction fees can be an attractive option. However, this method may reveal certain information depending on how you use Lightning, and should therefore be used with caution.
+- **Mix them into smaller pools**: If your toxic UTXO is large enough to fit into a smaller pool on its own, consider mixing it. This is often the best option. However, it's not advisable to merge several toxic UTXOs to access a pool, as this could link your different entries.
+- **Mark them as "non-spendable"**: Another approach is to stop using them, mark them as "non-spendable" in their dedicated account, and just hodl. This ensures that you don't accidentally spend them. If the value of bitcoin rises, new pools more suited to your toxic UTXOs may emerge.
+- **Make donations**: Consider making donations, however modest, to developers working on Bitcoin and related software. You can also donate to associations that accept BTC. If managing your toxic UTXOs seems too complicated, you can simply get rid of them and make a donation.
+- **Buy gift cards**: Platforms such as [Bitrefill](https://www.bitrefill.com/) allow you to exchange bitcoins for gift cards that can be used at various merchants. This can be a way of parting with your toxic UTXOs without losing the associated value.
+- **Consolidating them via Monero:** Samourai Wallet once offered an atomic swap service between BTC and XMR, which has unfortunately been unavailable since their arrest. This approach made it possible to handle toxic UTXOs by consolidating them on Monero without compromising your privacy through CIOH, before sending them back to Bitcoin. If an equivalent service reappears, it may be a worthwhile option. However, keep in mind that this method can become costly, both in mining fees and in premiums linked to liquidity constraints during the reverse conversion back to bitcoins.
+- **Send them to the Lightning Network**: Transferring these UTXOs to the Lightning Network to benefit from reduced transaction fees can be an attractive option. However, this method may reveal certain information depending on how you use Lightning, and should therefore be used with caution.
 
 ### How do I use Whirlpool?
 
-Following the arrest of Samourai Wallet's founders and the seizure of their servers on April 24, 2024, the Whirlpool tool no longer works, even for those with their own Dojo. Previously, it was available on Samourai Wallet and Sparrow Wallet.
+Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24, 2024, the Whirlpool tool is no longer available on Samourai Wallet and Sparrow Wallet.
 
 ![BTC204](assets/en/155.webp)
 
-It remains possible, however, that this tool will be reactivated in the coming weeks, depending on the outcome of the trials, or relaunched in a different way. In any case, I don't think the Bitcoin coinjoin market will be without supply for long, as demand is there. Furthermore, as Whirlpool's model is the most advanced in terms of confidentiality, it will undoubtedly be the model of choice for future implementations.
 
-We're keeping a close eye on this case and developments in the associated tools. Rest assured that we will be updating this course as new information becomes available.
+
+From now on, Whirlpool is once again accessible on the Ashigaru mobile application, a fork of Samourai Wallet, thanks to the Ashigaru Terminal software.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+The core functioning of Whirlpool remains unchanged, but there are still some differences compared to its use on Samourai: in 2025, on Ashigaru, only two pools are available, with amounts of `0.25 BTC` and `0.025 BTC`, and respective entry fees of `0.0125 BTC` and `0.00125 BTC`.
 
 In the next chapter, we'll find out what "anonsets" are, how these indicators are calculated, and how they can help us estimate the efficiency of coinjoin cycles.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -2222,14 +2234,14 @@ If necessary, anonsets can be used to judge the quality of coinjoins. A large an
 2 types of anonsets exist:
 
 
-- The forward **anonset**;
-- backward anonset.
+- **The forward anonset**;
+- **backward anonset**.
 
 ### The forward anonset
 
 The forward-looking anonset indicates the size of the group among which the UTXO studied at the end of the cycle is hidden, given the UTXO at the start, i.e., the number of indistinguishable UTXOs present within this group. The name of this indicator is "forward-looking metrics".
 
-This indicator measures the resistance of the room's confidentiality to a past-to-present (input-to-output) analysis.
+This indicator measures the resistance of the coin's confidentiality to a past-to-present (input-to-output) analysis.
 
 ![BTC204](assets/en/158.webp)
 
@@ -2286,7 +2298,7 @@ For example, a simple payment transaction with one input and two outputs will ha
 
 ![BTC204](assets/en/165.webp)
 
-On the other hand, a Whirlpool 5x5 corner has $1\,496$ possible combinations:
+In contrast, a coinjoin structured according to the Whirlpool 5x5 model presents $1\,496$ possible combinations:
 
 ![BTC204](assets/en/166.webp)
 
@@ -2394,7 +2406,7 @@ E_f &= 100 \%
 \end{align*}
 $$
 
-An efficiency of $100$ indicates that the transaction is maximizing its confidentiality potential, depending on its structure.
+An efficiency of $100%$ indicates that the transaction is maximizing its confidentiality potential, depending on its structure.
 
 ### Entropy density
 
@@ -2459,7 +2471,7 @@ The Boltzmann score is calculated by dividing the number of interpretations in w
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2510,7 +2522,7 @@ Unfortunately, following the arrest of Samourai's founders, these tools are no l
 
 Now that we've covered coinjoins in detail, we'll look at the other privacy techniques available on Bitcoin in the final section of our course. We'll be examining payjoins, specific pseudo-coinjoin transaction types, static address protocols, as well as measures to enhance confidentiality not at the level of the transactions themselves, but at the level of the network of nodes.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Understanding the challenges of other advanced confidentiality techniques
 
@@ -2596,7 +2608,10 @@ Well-known software programs that support payjoin include Sparrow Wallet, Wasabi
 
 ![BTC204](assets/en/177.webp)
 
-The most advanced Payjoin implementation was only on Stowaway on Samourai Wallet. However, since the arrest of the software's founders, this tool is now only partially functional. The advantage of Stowaway is that it offers a comprehensive and easy-to-use protocol, supporting both receiving and sending payjoins. Partially signed transactions can be exchanged manually by scanning multiple QR codes or automatically via Tor through Soroban. The latter communication option is currently unavailable.
+
+The most advanced payjoin implementation is undoubtedly the Stowaway invented by the developers of Samourai Wallet. Since the arrest of the software’s founders, this tool has only worked partially on Samourai. However, it has been relaunched on the Ashigaru application.
+
+The advantage of Stowaway is that it is a complete and very easy-to-use protocol that supports both receiving and sending payjoins. Partially signed transactions can be exchanged manually by scanning multiple QR codes or automatically over Tor via Soroban.
 
 ![BTC204](assets/en/178.webp)
 
@@ -2606,7 +2621,7 @@ One solution would be to use transaction structures that introduce ambiguity int
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Payment mini-coinjoin
 
@@ -2680,7 +2695,7 @@ In this example, I've intentionally left out the fees to make it easier to under
 
 Similar to the Stonewall structure, the Stonewall x2 structure introduces significant entropy to the transaction, complicating the chain analysis. Seen from the outside, such a transaction can be interpreted as a little coinjoin between two people. But in reality, it's a payment. This method, therefore, creates uncertainties in chain analysis or even leads to false leads.
 
-Let's take the example of Alice, Bob the Baker, and Charles. The transaction on the blockchain would look like this:
+Let's take the example of Alice, Bob the baker, and Charles. The transaction on the blockchain would look like this:
 
 ![BTC204](assets/en/184.webp)
 
@@ -2719,19 +2734,20 @@ The logic should be as follows when you want to use a confidentiality tool for a
 
 ### How do I use Stonewall and Stonewall x2 transactions?
 
-Stonewall and Stonewall x2 transactions are available on both the Samourai Wallet application and the Sparrow Wallet software.
+Stonewall transactions are available on Sparrow Wallet as well as on Ashigaru, whereas Stonewall x2 is currently supported only by Ashigaru.
 
 ![BTC204](assets/en/189.webp)
 
-However, as with payjoins, following the arrest of Samourai's founders, Stonewall x2 transactions now only work by manually exchanging PSBTs between the parties concerned. Unfortunately, automatic exchange via Soroban is no longer available.
 
 It is also possible to carry out this type of transaction manually from any Bitcoin wallet software.
 
 In the next chapter, we'll take a look at another confidentiality technique that's relatively unknown but very useful as a complement to what we've already studied.
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## The ricochets
 
@@ -2786,14 +2802,14 @@ The most common use case for Ricochet occurs when it's necessary to conceal a pr
 
 This method is effective not only for coinjoins, but also for any other mark that could compromise a UTXO's fungibility.
 
-The idea for this ricochet method originated from the Samourai Wallet team, who integrated it into their application to automate the process. The service is not free on Samourai, since a ricochet involves a service fee of 100,000 sats, plus mining costs. Its use is therefore recommended for transfers of significant amounts.
+The idea behind this ricochet method originally came from the teams at Samourai Wallet, who had integrated it into their application to automate its operation. The service was paid on Samourai, as each ricochet incurred a fixed cost of 100,000 sats for service fees, in addition to mining fees. The same applies today on Ashigaru. Thus, its use is generally recommended for transfers involving large amounts.
 
 ![BTC204](assets/en/196.webp)
 
-The Samurai application offers two ricochet variants:
+The Ashigaru application offers two ricochet variants (the same ones we previously had on Samourai):
 
 
-- Reinforced ricochet, or "staggered delivery", which offers the advantage of spreading the Samurai service charge over the five successive transactions. This option also ensures that each transaction is broadcast at a separate time and recorded in a different block, mimicking as closely as possible the behavior of a transfer of ownership. Although slower, this method is preferable for those who are not in a hurry, as it maximizes the efficiency of the ricochet by reinforcing its resistance to chain analysis.
+- The reinforced ricochet, or “staggered delivery,” offers the advantage of spreading Ashigaru’s service fees over five successive transactions. This option also ensures that each transaction is broadcast at a different moment and recorded in a separate block, allowing it to mimic as closely as possible the behavior of a change of ownership. Although slower, this method is preferable for those who are not in a hurry, as it maximizes the effectiveness of the ricochet by strengthening its resistance to chain analysis;
 
 ![BTC204](assets/en/197.webp)
 
@@ -2806,7 +2822,7 @@ Ricocheting simply means sending bitcoins to yourself. It's perfectly possible t
 
 In the next chapter, we examine various techniques for secret transfers of ownership. These methods differ radically from those we have examined so far, both in terms of operation and results.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Secret transfers of ownership
 
@@ -2831,7 +2847,7 @@ However, this naive method presents a high risk in terms of trust. There's nothi
 
 ![BTC204](assets/en/201.webp)
 
-Furthermore, there is no guarantee that Alice will not receive Bob's private key $B$ and never pass on her private key $A$ in exchange. This exchange, therefore, relies excessively on trust between the parties and is ineffective in ensuring a secure transfer of ownership.
+Furthermore, there is no guarantee that Alice, once she has received Bob's private key $B$, will transmit her private key $A$ in exchange. This exchange, therefore, relies excessively on trust between the parties and is ineffective in ensuring a secure transfer of ownership.
 
 ![BTC204](assets/en/202.webp)
 
@@ -3046,7 +3062,7 @@ The aim of BIP47 is to enable the receipt of a large number of payments without 
 
 A user can therefore share their payment code with complete freedom, whether on social networks or on their website, without risking any loss of confidentiality, unlike with a conventional recipient address or public key.
 
-To carry out a transaction, both parties need a Bitcoin wallet with a BIP47 implementation, such as PayNym on Samurai Wallet or Sparrow Wallet. The joint use of their payment codes creates a secret channel between them. To establish this channel effectively, the issuer must carry out a specific transaction on the Bitcoin blockchain, known as a "notification transaction" (more on this later).
+To carry out a transaction, both parties must have a Bitcoin wallet implementing BIP47, such as PayNym on Ashigaru or Sparrow Wallet. The combined use of their payment codes creates a secret channel between them. To establish this channel effectively, the sender must perform a specific transaction on the Bitcoin blockchain, known as a “notification transaction” (I will provide further details later).
 
 Combining the payment codes of the two users generates shared secrets, which in turn create a large number of unique Bitcoin receiving addresses (exactly 2^32, or around 4 billion). In this way, payments made via BIP47 are not actually addressed to the payment code itself, but rather to classic receipt addresses derived from the payment codes of the users involved.
 
@@ -3068,7 +3084,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 This code can also be encoded as a QR code, making it easier to communicate, just like a conventional address.
 
-As for PayNym Bots, the robots sometimes seen on Twitter, these are visual representations of the payment code, created by Samourai Wallet. They are generated using a hash function, giving them near-uniqueness. They take the form of a small string of characters beginning with `+`:
+Regarding PayNym Bots, those bots sometimes seen on X (Twitter), they are visual representations of the payment code created by Samourai Wallet. With Ashigaru, they are now slightly different, but the principle remains the same. They are generated through a hashing function, which grants them near-uniqueness. They appear as a small string of characters beginning with `+` :
 
 ```plaintext
 +throbbingpond8B1
@@ -3097,12 +3113,12 @@ As mentioned earlier, the reusable payment code is located at depth 3 of the HD 
 The 80-byte payment code breaks down as follows:
 
 
-- Byte `0`: The **version**. For the first version of BIP47, this byte is set to `0x01`.
-- Byte `1`: The **bit field**. This space is reserved for integrating additional indications for specific uses. For classic PayNym use, this byte is set to `0x00`.
-- The `2` byte: The parity of `y`. This byte is `0x02` or `0x03`, indicating whether the ordinate of the public key is even or odd, as a compressed public key is used.
-- From byte `3` to byte `34`: The value of `x`. These bytes represent the abscissa of the public key. The concatenation of `x` and the parity of `y` forms the complete compressed public key.
-- From byte `35` to byte `66`: The string **code**. This space contains the string code associated with the public key.
-- From byte `67` to byte `79`: The **padding**. This space is intended for possible future evolutions. For the current version, we simply place zeros here to reach the 80-byte size required for `OP_RETURN` output.
+- **Byte `0`: The version**. For the first version of BIP47, this byte is set to `0x01`.
+- **Byte `1`: The bit field**. This space is reserved for integrating additional indications for specific uses. For classic PayNym use, this byte is set to `0x00`.
+- **The `2` byte: The parity of `y`**. This byte is `0x02` or `0x03`, indicating whether the ordinate of the public key is even or odd, as a compressed public key is used.
+- **From byte `3` to byte `34`: The value of `x`**. These bytes represent the abscissa of the public key. The concatenation of `x` and the parity of `y` forms the complete compressed public key.
+- **From byte `35` to byte `66`: The string code**. This space contains the string code associated with the public key.
+- **From byte `67` to byte `79`: The padding**. This space is intended for possible future evolutions. For the current version, we simply place zeros here to reach the 80-byte size required for `OP_RETURN` output.
 
 Here is the hexadecimal representation of my reusable payment code already presented in the previous section:
 
@@ -3406,9 +3422,9 @@ $$ S = a \cdot B $$
 
 $$ f = \text{HMAC-SHA512}(o, x) $$
 
-**2 - Alice converts her personal payment code to base 2 (binary) **
+**2 - Alice converts her personal payment code to base 2 (binary)**
 
-**3- It uses this blinding factor as a key to perform symmetrical encryption on the payload of its payment code.** The encryption algorithm used is simply an `XOR`. The operation performed is comparable to the Vernam cipher, also known as the "One-Time Pad."
+**3- She uses this blinding factor as a key to perform symmetrical encryption on the payload of her payment code.** The encryption algorithm used is simply an `XOR`. The operation performed is comparable to the Vernam cipher, also known as the "One-Time Pad."
 
 
 - Alice first splits her blinding factor in two: the first 32 bytes are named $f1$ and the last 32 bytes are named $f2$. This gives us:
@@ -3436,10 +3452,10 @@ I'll summarize the steps we've just seen together to carry out a notification tr
 
 - Alice retrieves Bob's payment code and notification address.
 - Alice selects a UTXO from her HD wallet with the corresponding key pair.
-- It calculates a secret point on the elliptic curve using ECDH.
-- It uses this secret point to calculate an HMAC, which is the blinding factor.
+- She calculates a secret point on the elliptic curve using ECDH.
+- She uses this secret point to calculate an HMAC, which is the blinding factor.
 - She uses this blinding factor to encrypt the payload of her personal payment code.
-- It uses a `OP_RETURN` transaction output to communicate the hidden payment code to Bob.
+- She uses a `OP_RETURN` transaction output to communicate the hidden payment code to Bob.
 
 ![BTC204](assets/en/232.webp)
 
@@ -3669,10 +3685,10 @@ I'll summarize the steps we've just seen together to receive and interpret a not
 
 
 - Bob monitors transaction output to his notification address.
-- When it detects one, it retrieves the information contained in the OP_RETURN.
+- When he detects one, he retrieves the information contained in the OP_RETURN.
 - Bob selects the public key as input and calculates a secret point using ECDH.
-- It uses this secret point to calculate an HMAC, which is the blinding factor.
-- It uses this blinding factor to decrypt Alice's payment code payload contained in the OP_RETURN.
+- He uses this secret point to calculate an HMAC, which is the blinding factor.
+- He uses this blinding factor to decrypt Alice's payment code payload contained in the OP_RETURN.
 
 ![BTC204](assets/en/235.webp)
 
@@ -3731,8 +3747,8 @@ I'll summarize the steps we've just seen together to send a BIP47 payment:
 
 
 - Alice selects the first daughter private key derived from her personal payment code.
-- It calculates a secret point on the elliptic curve using ECDH from the first unused daughter public key derived from Bob's payment code.
-- It uses this secret point to calculate a shared secret with SHA256.
+- She calculates a secret point on the elliptic curve using ECDH from the first unused daughter public key derived from Bob's payment code.
+- She uses this secret point to calculate a shared secret with SHA256.
 - She uses this shared secret to calculate a new secret point on the elliptic curve.
 - She adds this new secret point to Bob's public key.
 - She obtains a new ephemeral public key for which only Bob has the associated private key.
@@ -3744,7 +3760,7 @@ If Alice wants to make a second payment, she'll follow the same steps as before,
 
 ![BTC204](assets/en/237.webp)
 
-It can continue in this way and derive up to `2^32` blank addresses belonging to Bob.
+She can continue in this way and derive up to `2^32` blank addresses belonging to Bob.
 
 From an outside perspective, examining the blockchain, it is theoretically impossible to distinguish a BIP47 payment from a conventional payment. Here's an example of a BIP47 payment transaction on Testnet:
 
@@ -3802,8 +3818,8 @@ I'll summarize the steps we've just seen together to receive a BIP47 payment and
 
 
 - Bob selects the first daughter private key derived from his personal payment code.
-- It calculates a secret point on the elliptic curve using ECDH from the first daughter's public key derived from Alice's string code.
-- It uses this secret point to calculate a shared secret with SHA256.
+- He calculates a secret point on the elliptic curve using ECDH from the first daughter's public key derived from Alice's string code.
+- He uses this secret point to calculate a shared secret with SHA256.
 - He uses this shared secret to calculate a new secret point on the elliptic curve;
 - He adds this new secret point to his personal public key;
 - He obtains a new ephemeral public key, the one to which Alice will send her first payment;
@@ -4015,7 +4031,7 @@ When scanning, Bob can also add $\text{inputHash}$, since all he has to do is ob
 
 $$ P_0 = B + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0) \cdot G $$
 
-When it finds a valid $P_0$, it can calculate the corresponding $p_0$ private key:
+When he finds a valid $P_0$, he can calculate the corresponding $p_0$ private key:
 
 $$
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
@@ -4187,7 +4203,7 @@ To build an address dedicated to Silent Payments, you first need to derive 2 key
 
 
 - The pair $b_{\text{scan}}$, $B_{\text{scan}}$ to search for payments addressed to us;
-- The pair $b_{\text{spend}}$, $B_{\text{spend}}$ to think of the bitcoins we've received.
+- The pair $b_{\text{spend}}$, $B_{\text{spend}}$ to spend the bitcoins we've received.
 
 These pairs are derived using the following paths (*Bitcoin Mainnet*):
 
@@ -4218,7 +4234,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 
 An important point concerning static addresses, which you may have grasped in the previous sections, is that these addresses are not visible in Bitcoin transactions. Only the $P$ payment addresses used in outputs appear on the blockchain in the standard Taproot format. So, from the outside, it's impossible to distinguish a transaction involving Silent Payment from an ordinary transaction using P2TR outputs.
 
-As with BIP47, it is impossible to establish a connection between a static address $B$ and a payment address $P$ derived from $B$. Indeed, even if Eve, a potential attacker, attempts to scan the blockchain with Bob's static $B$ address, she won't be able to perform the calculations required to determine $P$. To do so, she would need either Bob's private key $b_{\text{scan}}$, or the sender's private keys $a$, but both are, of course, private. It is therefore possible to explicitly link one's static address with a form of personal identity.
+As with BIP47, it is impossible to establish a connection between a static address $B$ and a payment address $P$ derived from $B$. Indeed, even if Eve, a potential attacker, attempts to scan the blockchain with Bob's static $B$ address, she won't be able to perform the calculations required to determine $P$. To do so, she would need either Bob's private key $b_{\text{scan}}$, or the sender's private keys $a$, but both are, of course, private. It is therefore possible to explicitly link one's static address with a form of personal identity, for example, by publishing one's static address on an X (Twitter) profile.
 
 ### How do I use Silent Payments?
 

@@ -1,0 +1,8 @@
+question: Was ist der Hauptunterschied zwischen den Methoden unwrap_or() und unwrap_or_default() beim Umgang mit den Typen Ergebnis und Option?
+answer: unwrap_or() erfordert die Angabe eines Fallback-Wertes, während unwrap_or_default() die Standardimplementierung des Typs verwendet
+wrong_answers:
+  - unwrap_or() löst bei Fehlern eine Panik aus, während unwrap_or_default() keinen Wert zurückgibt, was eine sicherere Fehlerbehandlung in der Produktion ermöglicht
+  - unwrap_or() arbeitet nur mit Ergebnistypen, während unwrap_or_default() ausschließlich mit Optionstypen für die Wertextraktion arbeitet
+  - unwrap_or() propagiert Fehler auf dem Aufrufstapel nach oben, während unwrap_or_default() alle Fehler in Standard-Stringmeldungen umwandelt
+explanation: |
+  Mit der Methode unwrap_or() können Sie einen bestimmten Rückfallwert angeben, wenn ein Ergebnis einen Fehler oder eine Option keinen Wert enthält, und haben so die Kontrolle darüber, welcher Wert in Fehlerfällen verwendet werden soll. Im Gegensatz dazu verwendet unwrap_or_default() automatisch die Default-Trait-Implementierung des Typs, was praktisch ist, wenn der Standardwert für Ihren Anwendungsfall geeignet ist. Beide Methoden funktionieren sowohl mit Ergebnis- als auch mit Optionstypen, und keine von ihnen löst Panik aus oder verbreitet Fehler - beide sorgen für einen eleganten Abbau, indem sie brauchbare Werte zurückgeben, anstatt fehlzuschlagen.

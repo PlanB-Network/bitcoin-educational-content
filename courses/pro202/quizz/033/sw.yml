@@ -1,0 +1,8 @@
+question: Unapotumia matokeo ya P2SH, ni mchakato gani wa uthibitishaji wa hatua mbili lazima ufanyike ili muamala huo uzingatiwe kuwa halali?
+answer: Kwanza thibitisha kuwa HASH160 ya hati ya kukomboa inalingana na hashi ya scriptPubKey, kisha tekeleza hati ya kukomboa kwa data iliyotolewa.
+wrong_answers:
+  - Kwanza tekeleza hati ya kukomboa kwa data iliyotolewa, kisha thibitisha hash inayotokana inalingana na scriptPubKey
+  - Kwanza hakikisha sahihi zote ni halali dhidi ya funguo zao za umma, kisha hakikisha kwamba hashi ya hati ya kukomboa inalingana
+  - Kwanza thibitisha kuwa hati ya kukomboa ina opcode halali, kisha thibitisha kuwa utekelezaji wa hati hutoa matokeo halisi
+explanation: |
+  Uthibitishaji wa P2SH unahitaji mchakato maalum wa hatua mbili: kwanza, hash ya hati ya ukombozi iliyotolewa lazima ilingane na hash ya baiti 20 kwenye scriptPubKey (uthibitishaji wa HASH160), na ni baada tu ya uthibitishaji huu kupita ndipo mtandao utakapotekeleza hati ya ukombozi yenyewe na data ya kufungua. Muundo huu unahakikisha kwamba ni hati sahihi tu ya ukombozi inayoweza kutumika huku ikificha masharti halisi ya matumizi hadi matumizi yatakapotokea. Chaguzi zingine zinaelezea mfuatano wa uthibitishaji unaowezekana lakini usio sahihi ambao haufuati itifaki halisi ya P2SH.

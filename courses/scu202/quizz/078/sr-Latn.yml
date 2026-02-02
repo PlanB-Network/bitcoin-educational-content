@@ -3,7 +3,7 @@ answer: Alfanumerička lozinka
 wrong_answers:
   - Grafički dijagram
   - Prepoznavanje lica
-  - Nema zaključavanja
+  - Bez zaključavanja
 explanation: |
   Alfanumeričke lozinke nude najbolji otpor pokušajima neovlašćenog pristupa, za razliku od grafičkih šema ili biometrije.
-reviewed: false
+reviewed: true

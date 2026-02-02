@@ -1,5 +1,6 @@
 ---
 term: CISA
+definition: Proposal teknis untuk menggabungkan tanda tangan dari semua input transaksi menjadi satu, mengurangi ukuran dan biaya.
 ---
 
 Singkatan dari "_Cross-Input Signature Aggregation_". Ini adalah proposal teknis yang dirancang untuk mengoptimalkan ukuran transaksi Bitcoin dengan mengurangi jumlah tanda tangan yang diperlukan untuk memvalidasinya.

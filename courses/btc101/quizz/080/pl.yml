@@ -1,13 +1,12 @@
-question: Co to jest Multisig Wallet?
+question: Co to jest portfel wielopodpisowy?
 answer: Zestaw portfeli, który wymaga wielu podpisów do przeprowadzenia transakcji.
 wrong_answers:
-  - Wallet, który wymaga pojedynczego podpisu do wykonania transakcji.
-  - Wallet, który nie wymaga podpisów do przeprowadzenia transakcji.
-  - Wallet, który wymaga fizycznego podpisu w celu przeprowadzenia transakcji.
+  - Portfel, który wymaga pojedynczego podpisu do wykonania transakcji.
+  - Portfel, który nie wymaga podpisów do przeprowadzenia transakcji.
+  - Portfel, który wymaga fizycznego podpisu w celu przeprowadzenia transakcji.
 explanation: |
-  Multisig Wallet jest rodzajem Bitcoin Wallet, który wymaga
+  Portfel wielopodpisowy jest rodzajem portfela, który wymaga
   wielu podpisów do wykonania transakcji. Dodaje to
-  dodatkowy Layer bezpieczeństwa, ponieważ oznacza to, że pojedyncza osoba
-  nie może wykonać transakcji bez zgody
-  innych osób.
+  dodatkową warstwę bezpieczeństwa, ponieważ oznacza, że pojedyncza osoba
+  nie może wykonać transakcji bez zgody innych osób.
 reviewed: true

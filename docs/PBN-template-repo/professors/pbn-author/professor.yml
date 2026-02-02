@@ -1,44 +1,41 @@
-# generate a random uuid v4
+# Generate a random uuid v4
 id: 17f8bc5b-7034-4ff6-96e0-11484a133642
 
 ## Professor characteristics
 
 # Name
-# Write author's complete name
+# Write author's full name
 name: Plan ₿ Network Author
 
-# contributor_id (*)
-# Define its id using the 2 words of the bip39 dictionary by using the associated PlanB-UID (see /docs/planb-uid.md)
-contributor_id: another-satoshi
-
 # links
-# list releated online presence like twitter and/or website
+# A list of platforms for online presence, such as Twitter and a personal website.
 links:
   twitter: https://twitter.com/asi0_flammeus
   website: https://awesome.site
   nostr:
 
 # Tags
-# Choose from the list the associated tags to this content
+# Choose what tags to use for your content from the list below
 # The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
   - cypherpunk
   - lightning
 
-# tips
-# List the possibility to directly tip the author
-# Right now only the lightning_address is supported
+# Tips
+# Insert the possibility to directly send a tip to the author
+# Only the lightning_address is supported for the moment
 tips:
   lightning_address: awesome@lnaddress.com
 
-# company
-# Define for which company the author is working with
-# Ideally this company is already present in the projects folder
+# Company
+# Define which company the author is working with
+# Ideally, this company is already present in the [projects folder](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)
+affiliations:
 company: ACME
 
-# affiliations
-# List the closest affiliations the author has with any actors of the industry or else.
-# Ideally the cited affiliations are present in the projects folder
+# Affiliations
+# List the author's closest affiliations with any industry actors or relevant figures.
+# Ideally, the mentioned affiliations are present in the [projects folder](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)
 affiliations:
   - uuid
   - uuid

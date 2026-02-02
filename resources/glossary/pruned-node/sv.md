@@ -1,5 +1,6 @@
 ---
-term: PRUNDERAD NOD
+term: Beskuren nod
+definition: Fullständig nod som raderar gamla verifierade block för att spara lagringsutrymme.
 ---
 
 En beskuren nod, på engelska "Pruned Node", är en Full node som utför beskärning av Blockchain. Detta innebär att de äldsta blocken successivt tas bort, efter att de vederbörligen verifierats, så att endast de senaste blocken behålls. Lagringsgränsen anges i filen `Bitcoin.conf` via parametern `prune=n`, där `n` är den maximala storleken som blocken tar upp i megabyte (MB). Om `0` anges efter den här parametern inaktiveras beskärning och noden behåller Blockchain i sin helhet.

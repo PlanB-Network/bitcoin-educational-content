@@ -1,4 +1,4 @@
-question: Kwa nini uthibitishaji wa mambo mawili unapendekezwa?
+question: Kwa nini two factor authentication inapendekezwa?
 answer: Inaongeza Layer ya ziada ya usalama
 wrong_answers:
   - Inarahisisha ufikiaji kwa kupunguza idadi ya misimbo
@@ -6,4 +6,4 @@ wrong_answers:
   - Inachukua nafasi ya matumizi ya kidhibiti nenosiri
 explanation: |
   2FA inahitaji msimbo wa muda pamoja na nenosiri, ambalo huimarisha sana ulinzi wa akaunti ya mtandaoni.
-reviewed: false
+reviewed: true

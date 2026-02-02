@@ -1,35 +1,18 @@
 ---
 name: Spinoza e Bitcoin
 goal: Scoprite i legami filosofici tra il pensiero di Spinoza e il Bitcoin come strumento di libertà attraverso i secoli.
-objectives: 
-
-
-  - Comprendere la filosofia pratica di Spinoza e la sua ricerca della libertà.
-  - Esplorare i concetti spinozisti di determinismo e illusione umana.
-  - Analizzare i parallelismi tra la rivoluzione delle idee di Spinoza e la rivoluzione tecnologica del Bitcoin.
-
-
-
+objectives:
+- Comprendere la filosofia pratica di Spinoza e la sua ricerca della libertà.
+- Esplorare i concetti spinoziani del determinismo e delle illusioni umane.
+- Analizzare i parallelismi tra la rivoluzione delle idee di Spinoza e la rivoluzione tecnologica di Bitcoin.
+- Applicare la teoria degli affetti per riconoscere e resistere alla manipolazione nei sistemi politici.
 ---
+# Quando Spinoza incontrò Satoshi
 
-# Un'esplorazione filosofica della libertà attraverso Spinoza e Bitcoin
+Scopri come le idee radicali del filosofo del XVII secolo Baruch de Spinoza su libertà, ragione e potere prefigurano la rivoluzione decentralizzata di Bitcoin. Questo corso rivela i parallelismi sorprendenti: entrambi rifiutano la fede cieca e l'autorità centrale, entrambi usano il rigore matematico per liberare. Spinoza ha liberato le menti dal dogma religioso, Bitcoin libera il denaro dal controllo statale.
 
-
-
-Questo corso esplora le profonde connessioni tra la filosofia rivoluzionaria di Baruch de Spinoza (1632-1677) e il Bitcoin, due strumenti di libertà separati da secoli ma uniti dalla stessa ricerca: l'emancipazione umana dalla servitù.
-
-
-
-Scopriremo come Spinoza, padre della filosofia razionale illuminista, abbia sviluppato un'etica pratica per liberarci dalle illusioni che ci imprigionano - libero arbitrio, finalismo e superstizioni teologiche. Il suo metodo geometrico e la sua teoria degli affetti ci mostrano come capire il nostro posto nel mondo e come orientare la nostra esistenza verso ciò che aumenta il nostro potere di agire.
-
-
-
-Il corso traccia poi affascinanti parallelismi tra questa rivoluzione copernicana delle idee e il Bitcoin: due sistemi che non richiedono né fede cieca né autorità centrale, ma semplicemente l'esercizio della ragione. Proprio come lo spinozismo ha liberato il pensiero dal dogma religioso, il Bitcoin libera il denaro dal controllo statale, offrendo una nuova forma di libertà economica radicata nella matematica e nella crittografia.
-
-
-
+Impara strumenti pratici dall'etica di Spinoza per comprendere le fondamenta filosofiche di bitcoin e aumentare la tua capacità d'azione. Pronto a esplorare due dei più grandi strumenti di emancipazione umana della storia?
 +++
-
 # Introduzione
 
 
@@ -52,7 +35,7 @@ In questo corso ho il piacere di presentare la filosofia di Baruch de Spinoza (1
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/it/001.webp)
 
 
 Ritratto di Spinoza
@@ -87,7 +70,7 @@ Innanzitutto, vi presenterò Spinoza, il suo carattere, il suo contesto sociale,
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/it/002.webp)
 
 
 Ritratto di Spinoza
@@ -110,7 +93,7 @@ Daremo anche uno sguardo alle due opere principali di Spinoza, a partire dall'Et
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/it/003.webp)
 
 
 
@@ -118,7 +101,7 @@ Poi vedremo il Traité théologico-politique, pubblicato durante la sua vita nel
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/it/004.webp)
 
 
 
@@ -130,7 +113,7 @@ Grazie alla teoria degli affetti sviluppata alla maniera dei geometri, "more geo
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/it/005.webp)
 
 
 
@@ -166,7 +149,7 @@ Di fede ebraica, membro della comunità sefardita portoghese discendente dai mar
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/it/006.webp)
 
 
 
@@ -174,7 +157,6 @@ Fin da giovane, infatti, mostrò uno spirito fortemente critico nei confronti de
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -186,7 +168,7 @@ Erede, come i suoi contemporanei Cartesio (1596-1650), Pascal (1632-1662) e Newt
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/it/007.webp)
 
 
 
@@ -206,10 +188,10 @@ In realtà, l'opera di Spinoza parla solo di Dio, che egli identifica con la Nat
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/it/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/it/009.webp)
 
 
 
@@ -225,7 +207,7 @@ La ricchezza, tuttavia, non è legata alle risorse naturali, allo sfruttamento e
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/it/010.webp)
 
 
 
@@ -272,7 +254,6 @@ In questo capitolo propongo di passare all'opera principale di Spinoza, intitola
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -284,7 +265,7 @@ L'Etica è un'opera scritta in latino alla maniera dei geometri, probabilmente i
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/it/011.webp)
 
 
 
@@ -296,7 +277,7 @@ Vorrei sottolineare che quando si apre l'Etica, si consiglia di iniziare con le 
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/it/012.webp)
 
 
 
@@ -328,7 +309,7 @@ In primo luogo, se per Spinoza il caso non esiste, è perché è un evento di cu
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/it/013.webp)
 
 
 
@@ -348,7 +329,7 @@ Secondo Gilles Deleuze (1925-1995), famoso professore di filosofia e specialista
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/it/014.webp)
 
 
 
@@ -384,7 +365,7 @@ Si tratta del Traité théologico-politique, o TTP, pubblicato in forma anonima 
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/it/015.webp)
 
 
 
@@ -395,7 +376,7 @@ Come abbiamo visto, il concetto di Dio è l'oggetto di tutta la prima parte dell
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/it/016.webp)
 
 
 
@@ -407,7 +388,7 @@ In questo modo Spinoza ci mostra che Dio, a suo avviso, non è un essere antropo
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/it/017.webp)
 
 
 
@@ -444,7 +425,7 @@ Il famigerato terremoto di Lisbona del 1° novembre 1755 ha mostrato un cambiame
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/it/018.webp)
 
 
 
@@ -456,7 +437,7 @@ Un dramma che ripropone la questione posta dal filosofo e matematico tedesco Lei
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/it/019.webp)
 
 
 
@@ -464,7 +445,7 @@ Ben oltre la condanna della mano di Dio, Jean-Jacques Rousseau (1712-1778) scris
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/it/020.webp)
 
 
 
@@ -509,10 +490,9 @@ Come Nicolas Copernico (1473-1543) stabilì che la terra non era il centro del m
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/it/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -524,7 +504,7 @@ Prima di lui, la filosofia greca classica proponeva una visione ordinata e gerar
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/it/022.webp)
 
 
 
@@ -536,10 +516,9 @@ Ma con la nuova fisica di Copernico (1473-1543), nel XV secolo, la cosmologia su
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/it/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -547,7 +526,7 @@ Ma per comprendere appieno lo spinozismo, dobbiamo anche considerare il contesto
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/it/024.webp)
 
 
 
@@ -555,7 +534,7 @@ Nonostante i rischi e le condanne di Giordano Bruno (1548-1600) e Galileo, Carte
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/it/025.webp)
 
 
 
@@ -599,7 +578,7 @@ Come abbiamo già visto, Spinoza (1632-1677) è ben noto per aver considerato il
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/it/026.webp)
 
 
 
@@ -623,7 +602,7 @@ Nella condotta della sua vita, poiché non sarebbe soggetto ad alcuna legge se n
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/it/027.webp)
 
 
 
@@ -639,7 +618,7 @@ Questa è l'idea del determinismo assoluto, da cui stabilisce nella sua Etica ch
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/it/028.webp)
 
 
 
@@ -667,7 +646,7 @@ Questo approccio alla libertà come capacità di agire è il collegamento che po
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/it/029.webp)
 
 
 
@@ -692,10 +671,9 @@ Infine, vale la pena sottolineare che, mentre il movimento libertario di cui sti
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/it/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -726,7 +704,7 @@ Ma per Spinoza (1632-1677) l'uomo non è "un impero nell'impero", cioè non è, 
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/it/031.webp)
 
 
 
@@ -750,7 +728,7 @@ Ed è per questo che nuove malattie come l'AIDS negli anni '90 o il covide nel 2
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/it/032.webp)
 
 
 
@@ -766,7 +744,7 @@ E questo è esattamente ciò che affermò il naturalista francese Jean-Baptiste 
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/it/033.webp)
 
 
 
@@ -774,7 +752,7 @@ Ma, come dice Spinoza, "l'illusione degli uomini non finisce qui", e tra tutti g
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/it/034.webp)
 
 
 
@@ -790,7 +768,7 @@ Tuttavia, questa interpretazione distorta dell'inflazione ci porta a dimenticare
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/it/035.webp)
 
 
 
@@ -826,7 +804,7 @@ In questo capitolo finale sulla nuova visione copernicana delle idee offerta dal
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/it/036.webp)
 
 
 
@@ -850,7 +828,7 @@ In altre parole, un vecchio dalla barba bianca nascosto dietro una nuvola, a cui
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/it/037.webp)
 
 
 
@@ -862,7 +840,7 @@ Ma nonostante il nostro orgoglio nel crederci al di sopra della Natura e nell'im
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/it/038.webp)
 
 
 
@@ -882,7 +860,7 @@ In altre parole, "gli infami" secondo Voltaire (1694-1778), per i quali la super
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/it/039.webp)
 
 
 
@@ -894,7 +872,7 @@ Questo è ciò che gli illuministi tedeschi, inglesi e francesi hanno difeso a p
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/it/040.webp)
 
 
 
@@ -902,7 +880,7 @@ E questo è ciò che Spinoza dimostra ancora una volta nel suo Trattato Teologic
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/it/041.webp)
 
 
 
@@ -962,7 +940,7 @@ I filosofi antichi credevano che il male non esistesse in natura e Socrate (470-
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/it/042.webp)
 
 
 
@@ -970,7 +948,7 @@ Ma la tradizione scolastica, in particolare quella di Sant'Agostino (354-430), c
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/it/043.webp)
 
 
 
@@ -987,7 +965,7 @@ Naturalmente, come si può immaginare, questa idea viene fatta a pezzi da Spinoz
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/it/044.webp)
 
 
 
@@ -1010,7 +988,7 @@ Per questo lo spinozista Gilles Deleuze (1925-1995) spiega che l'etica è una so
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/it/045.webp)
 
 
 
@@ -1050,7 +1028,7 @@ Egli sviluppa il suo sistema nella terza parte dell'Etica. Si tratta della famos
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/it/046.webp)
 
 
 
@@ -1074,7 +1052,7 @@ Si parla di schiavitù, o servitù, uno stato caratterizzato dall'incapacità di
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/it/047.webp)
 
 
 
@@ -1090,7 +1068,7 @@ Questo è particolarmente vero, tra l'altro, nel campo delle criptovalute.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/it/048.webp)
 
 
 
@@ -1110,7 +1088,7 @@ Ma se questa cosiddetta teoria degli affetti si applica al nostro "inconscio", q
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/it/049.webp)
 
 
 
@@ -1130,7 +1108,7 @@ Questo è il genio dell'Etica. Spinoza ci mostra che è possibile passare dalla 
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/it/050.webp)
 
 
 
@@ -1168,14 +1146,13 @@ In definitiva, questa lucidità significa non vivere più nel nichilismo descrit
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 È proprio questo il senso della filosofia razionale illuminista, grazie soprattutto a Immanuel Kant (1724-1804), per il quale solo un individuo istruito, sotto la guida della ragione, può pensare da solo e determinare, dal punto di vista etico, ciò che è "vero" o "buono" e ciò che è tossico.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/it/051.webp)
 
 
 
@@ -1186,7 +1163,7 @@ In altre parole, dice, se pensiamo con la nostra testa, se ragioniamo come adult
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/it/052.webp)
 
 
 
@@ -1194,7 +1171,7 @@ Menger e Mises stabilirono, ad esempio, che tutta la conoscenza deve essere cost
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/it/053.webp)
 
 
 
@@ -1215,7 +1192,7 @@ Da spinozista, Hayek spiega in un video che "poiché questo potere non può esse
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/it/054.webp)
 
 
 
@@ -1223,7 +1200,7 @@ Questi sono gli argomenti politici ed economici avanzati dai primi cypherpunk, E
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/it/055.webp)
 
 
 
@@ -1231,7 +1208,7 @@ In particolare quando ha inciso il titolo del Times del 3 gennaio 2009 nella bas
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/it/056.webp)
 
 
 

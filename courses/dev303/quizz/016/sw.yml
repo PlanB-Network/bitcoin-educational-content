@@ -1,0 +1,8 @@
+question: Rust hufanya aina gani ya operesheni kwa chaguo-msingi wakati wa kugawa kigezo kimoja cha String kwa kingine?
+answer: Operesheni ya kuhamisha inayohamisha umiliki na kubatilisha kigezo chanzo
+wrong_answers:
+  - Nakala ya kina inayorudia data yote ya rundo ili kuunda mifuatano huru
+  - Nakala isiyo na kina ambayo huunda viashiria viwili kwa kumbukumbu moja ya lundo
+  - Uundaji wa marejeleo unaoruhusu vigezo vyote viwili kushiriki ufikiaji wa kusoma pekee
+explanation: |
+  Rust hufanya operesheni ya kuhamisha kwa chaguo-msingi wakati wa kugawa aina changamano kama String. Hii huhamisha umiliki kutoka chanzo hadi kigezo cha mwisho huku ikibatilisha chanzo, kuzuia hali hatari ambapo vigeu vingi vinaweza kurekebisha kumbukumbu sawa ya heap. Nakala ya kina haitakuwa na ufanisi kwa nyuzi kubwa, nakala ya kina kidogo ingesababisha matatizo ya usalama wa kumbukumbu yenye viashiria vingi vya data sawa, na uundaji wa marejeleo unahitaji sintaksia dhahiri na opereta wa ampersand.

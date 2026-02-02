@@ -1,0 +1,9 @@
+question: Šta predstavlja ID čvora kod Lightning čvora?
+answer: Javni ključ čvora i adresa
+wrong_answers:
+  - Čvor seed i adresa
+  - Alias čvora i javni ključ
+  - Hash node alias and seed
+explanation: |
+  ID čvora kombinuje javni ključ čvora sa njegovom mrežnom adresom i portom.
+reviewed: false

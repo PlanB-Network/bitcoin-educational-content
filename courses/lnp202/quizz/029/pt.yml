@@ -1,0 +1,9 @@
+question: Qual é o principal risco que uma torre de vigia pretende evitar?
+answer: Trair com o antigo estado
+wrong_answers:
+  - 51% de ataque
+  - Roubo de sementes
+  - Fazer batota com o novo estado
+explanation: |
+  Uma torre de vigia protege contra a publicação de um antigo canal estatal destinado a desviar fundos.
+reviewed: false

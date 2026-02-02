@@ -6,7 +6,7 @@ description: Wie kann ich mein Lehrerprofil auf Plan ₿ Academy hinzufügen ode
 
 Wenn Sie einen Beitrag zu Plan ₿ Academy leisten möchten, indem Sie ein neues Lernprogramm oder einen neuen Kurs schreiben, benötigen Sie ein Lehrerprofil. Dieses Profil ermöglicht es Ihnen, die entsprechenden Credits für die Inhalte zu erhalten, die Sie auf der Plattform bereitstellen.
 
-Diejenigen von Ihnen, die bereits an der Erstellung von Bildungsinhalten auf Plan ₿ Academy beteiligt waren, haben wahrscheinlich bereits ein Lehrerprofil. Sie finden es im Ordner `/professors` [in unserem GitHub-Repository] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Wenn Ihr Profil bereits existiert, finden Sie Ihr Login in der Datei `professor.yml`.
+Diejenigen von Ihnen, die bereits an der Erstellung von Bildungsinhalten auf Plan ₿ Academy beteiligt waren, haben wahrscheinlich bereits ein Lehrerprofil. Sie finden es im Ordner `/professors` [in unserem GitHub-Repository](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Wenn Ihr Profil bereits existiert, finden Sie Ihr Login in der Datei `professor.yml`.
 
 Um Änderungen an Ihrem Profil vorzunehmen, gehen Sie zum Abschnitt "Bearbeiten Sie Ihr Lehrerprofil" am Ende dieses Tutorials.
 
@@ -16,7 +16,7 @@ Der einfachste Weg, Ihr Lehrerprofil auf Plan ₿ Academy zu erstellen, ist die 
 
 ### 1 - Konfigurieren Sie Ihre lokale Umgebung
 
-Sie müssen Ihr eigenes Fork aus dem [Plan ₿ Academy-Repository auf GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content) haben.
+Sie müssen Ihr eigenes Fork aus dem [Plan ₿ Academy-Repository auf GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) haben.
 
 Synchronisieren Sie den Hauptzweig (`dev`) Ihres Fork mit dem Quell-Repository.
 
@@ -119,7 +119,7 @@ Wenn Sie den Umgang mit Git beherrschen, ändern Sie Ihr Lehrerprofil, indem Sie
 Anfängern empfehle ich, die Änderung direkt über das Interface-Web von GitHub vorzunehmen. Stellen Sie sicher, dass Sie ein GitHub-Konto haben. Wenn Sie nicht wissen, wie Sie eines erstellen, folgen Sie diesem Tutorial:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Gehen Sie zu [dem Plan ₿ Academy GitHub-Repository, das den Daten gewidmet ist] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+Gehen Sie zu [dem Plan ₿ Academy GitHub-Repository, das den Daten gewidmet ist](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 
@@ -165,4 +165,4 @@ Ihr PR wird dann auf der Registerkarte "*Pull Request*" des Plan ₿ Academy-Hau
 
 ![Image](assets/fr/12.webp)
 
-Sollten Sie beim Einreichen Ihrer Änderung auf technische Schwierigkeiten stoßen, zögern Sie bitte nicht, auf [unserer Telegram-Gruppe für Beiträge] (https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Herzlichen Dank!
+Sollten Sie beim Einreichen Ihrer Änderung auf technische Schwierigkeiten stoßen, zögern Sie bitte nicht, auf [unserer Telegram-Gruppe für Beiträge](https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Herzlichen Dank!

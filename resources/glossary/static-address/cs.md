@@ -1,6 +1,7 @@
 ---
-term: STATICKÁ ADRESA
+term: Statická adresa
 
+definition: Jedinečný identifikátor pro Silent Payments umožňující přijímat platby bez opakovaného použití adresy nebo viditelného propojení v síti (on-chain).
 ---
 V kontextu tichých plateb se jedná o jedinečný identifikátor, který umožňuje přijímat platby bez opakovaného použití adresy, bez interakce a bez viditelného spojení v řetězci mezi různými platbami a statickou adresou. Tato technika eliminuje potřebu generovat nové, nepoužívané adresy pro příjem pro každou transakci, čímž se vyhýbá obvyklým interakcím v Bitcoinu, kdy příjemce musí plátci poskytnout novou adresu. Je to do jisté míry ekvivalent opakovaně použitelného platebního kódu v kontextu BIP47.
 

@@ -1,5 +1,6 @@
 ---
-term: DROGA JEDWABNA
+term: Silk road
+definition: Platforma w dark webie wykorzystująca Bitcoina i Tor, zamknięta w 2013 roku przez FBI.
 ---
 
 Silk Road to platforma internetowa założona przez Rossa Ulbrichta, znanego również pod pseudonimem Dread Pirate Roberts. Ten uruchomiony w 2011 roku internetowy rynek umożliwiał użytkownikom kupowanie i sprzedawanie produktów i usług, zarówno legalnych, jak i nielegalnych, przy jednoczesnym zachowaniu anonimowości dzięki wykorzystaniu sieci Tor i płatności Bitcoin. Silk Road oferował szeroką gamę przedmiotów, głównie narkotyków i leków na receptę, ale wykluczał działania uznane za sprzeczne z zasadami prawa naturalnego, takie jak sprzedaż usług hitmanów lub treści pornografii dziecięcej.
@@ -11,4 +12,3 @@ Platforma odzwierciedlała agorystyczne przekonania Rossa Ulbrichta, promując w
 Silk Road został zamknięty w 2013 roku. Ross Ulbricht został aresztowany w tym samym roku i skazany na dwa dożywocia plus 40 lat pozbawienia wolności bez możliwości zwolnienia warunkowego oraz grzywnę w wysokości 183 milionów dolarów. Wyrok ten rodzi pytania o proporcjonalność kar za przestępstwa internetowe bez użycia przemocy. Ross nadal przebywa w więzieniu.
 
 
-![](../../dictionnaire/assets/24.webp)

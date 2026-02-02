@@ -7,11 +7,11 @@ description: Transformation d'un S9 en chauffage maison
 
 ## Attakaï - le home-mining rendu possible et accessible !
 
-L'initiative "Attakaï" explore le minage de Bitcoin en utilisant la chaleur générée. Le guide propose des solutions pour rendre les mineurs adaptés à une utilisation en tant que radiateurs dans les logements, offrant ainsi plus de confort et d'économies d'énergie. Le Bitcoin ajuste automatiquement la difficulté du minage et récompense les mineurs pour leur travail. Cependant, la concentration du hashrate peut poser des risques pour la neutralité du réseau. "Attakaï" offre un guide pratique pour rétrofitter les mineurs de manière économique, permettant aux participants de réduire leur facture d'électricité et d'être récompensés avec des sats sans KYC.
+L'initiative "Attakaï" explore le minage de Bitcoin grâce à l'utilisation de la chaleur produite. Ce guide propose des solutions pour adaptés les mineurs à une utilisation des appareils de minages comme radiateurs dans les maisons, offrant ainsi plus de confort et d'économies d'énergie. Le Bitcoin ajuste automatiquement la difficulté du minage et récompense les mineurs pour leur travail. Cependant, la concentration du hashrate peut présenter des risques pour la neutralité du réseau. "Attakaï" offre un guide pratique pour moderniser les installations des mineurs de manière économique, permettant aux participants de réduire leur facture d'électricité et d'être récompensés avec des sats sans KYC.
 
 ## Introduction
 
-“Attakaï », qui signifie « la température idéal » en japonais, est le nom de l’initiative visant à découvrir le minage de bitcoin à travers la réutilisation de la chaleur lancée par @ajelexBTC et @BlobOnChain avec Découvre Bitcoin. Ce guide de retrofitting d’un ASIC servira de base pour en apprendre plus sur le minage, son fonctionnement, son histoire récente et l’économie sous-jacente.
+“Attakaï », qui signifie « température idéal » en japonais, est le nom de l’initiative visant à découvrir le minage de bitcoin à travers la réutilisation de la chaleur, qui a été lancée par @ajelexBTC et @BlobOnChain avec Découvre Bitcoin. Ce guide de modernisation ASIC servira de base pour en apprendre plus sur le minage, son fonctionnement, son histoire récente et l’économie sous-jacente.
 
 ### Pourquoi réutiliser la chaleur d’un ASIC ?
 
@@ -19,19 +19,19 @@ Il est important de comprendre la relation entre l’énergie et la production d
 
 Pour un investissement de 1 kW d’énergie électrique, un radiateur électrique produit 1 kW de chaleur, ni plus ni moins. Les nouveaux radiateurs ne sont pas plus performants que les radiateurs traditionnels. Leur avantage réside dans leur capacité à diffuser la chaleur de manière continue et homogène dans une pièce, apportant ainsi plus de confort par rapport aux radiateurs traditionnels qui alternent entre une forte puissance de chauffage et une absence de chauffage, générant ainsi des variations de température régulières et de l’inconfort.
 
-Un ordinateur, ou plus largement une carte électronique, ne consomme pas d’énergie pour effectuer des calculs, il a simplement besoin que de l’énergie circule dans ses composants pour fonctionner. La consommation d’énergie est dû à la résistance électrique des composants qui produit des pertes créant ainsi de la chaleur c’est ce qu’on appel l’effet joule.
+Un ordinateur, ou plus généralement une carte électronique, ne consomme pas d’énergie pour effectuer des calculs, il a simplement besoin d'energie pour allimenter le fonctionnement de ses composants. La consommation d’énergie est dû à la résistance électrique des composants qui produit des pertes, créant ainsi de la chaleur c’est ce qu’on appel l’effet joule.
 
-Certaines entreprises ont eu l’idée de mutualiser les besoins en puissance de calcul et les besoins de chauffage grâce à des radiateurs/serveur. L’idée étant de distribuer les serveurs d’une entreprise en petites unités qui pourraient être placées dans des logements ou des bureaux. Cependant, cette idée rencontre plusieurs problèmes. La besoin des serveurs n’est pas liée au besoin de chauffage et les entreprises ne peuvent pas utiliser les capacités de calcul de leurs serveurs de façon flexible. Il existe aussi des limites à la bande passante que des particuliers peuvent posséder. Toutes ces contraintes ne permettent pas à l’entreprise de rentabiliser ces installations coûteuses ni de fournir une offre de serveur en ligne stable sans avoir des centres de données capables de prendre le relais quand le besoin de chauffage n’est pas présent.
+Certaines entreprises ont eu l’idée de mutualiser les besoins en puissance de calcul et les besoins de chauffage grâce à des radiateurs/serveur. L'idée consiste à répartir les serveurs d'une entreprise en petites unités pouvant être installées dans des maisons ou des bureaux. Cependant, cette idée rencontre plusieurs problèmes. Le besoin des serveurs n’est pas liée au besoin de chauffage et les entreprises ne peuvent pas utiliser les capacités de calcul de leurs serveurs de façon flexible. Il existe aussi des limites à la bande passante que des particuliers peuvent posséder. Toutes ces contraintes ne permettent pas à l’entreprise de rentabiliser ces installations coûteuses ni de fournir une offre de serveur en ligne stable sans centres de données capables de prendre le relais lorsque le chauffage n'est pas nécessaire.
 
-> “La chaleur de votre ordinateur n’est pas gaspillée si vous devez chauffer chez vous. Si vous utilisez un chauffage électrique là où vous habitez, alors la chaleur de votre ordinateur n’est pas un gâchis. C’est le même prix si vous générer cette chaleur avec votre ordinateur.Si vous avez un autre système de chauffe moins cher que l’électrique alors le gaspillage est seulement dans la différence de coût. Si c’est l’été et que vous utilisez la climatisation alors c’est le double.
-> La création de bitcoins devrait avoir lieu là où elle est moins chère. Peut-être que ce sera là où le climat est froid et là où le chauffage est électrique, où miner deviendrait gratuit.”
-> Satoshi Nakamoto – 8 août 2010
+> “La chaleur de votre ordinateur n’est pas gaspillée si vous devez chauffer votre maison. Si vous utilisez un chauffage électrique là où vous habitez, alors la chaleur de votre ordinateur n’est pas un gâchis. C’est le même prix si vous générer cette chaleur avec votre ordinateur.Si vous avez un autre système de chauffage moins cher que l'électricité alors le gaspillage est seulement dans la différence de coût. Si c’est l’été et que vous utilisez la climatisation alors c’est le double.
+> Le minage de bitcoins devrait avoir lieu là où elle est moins chère. Peut-être que ce sera là où le climat est froid et là où l'électricité est utilisé comme chauffage, où le minage deviendrait gratuit.”
+> Comme l'a dit Satoshi Nakamoto le 8 août 2010
 
-Le Bitcoin et sa preuve de travail se démarquent car ils ajustent automatiquement la difficulté du minage en fonction de la quantité de calcul effectué par l’ensemble du réseau, cette quantité s’appelle le hashrate et est exprimé en hash/seconde. Aujourd’hui il est estimé à 280 Exahash/seconde, soit 280 milliards de milliards de hash/seconde. Ce hashrate représente du travail et donc une quantité d’énergie dépensée. Plus le hashrate est élevée, plus la difficulté augmente, et inversement. Ainsi, on peut activer ou désactiver un mineur Bitcoin à n’importe quel moment sans incidence pour le réseau contrairement aux radiateurs/serveurs qui nécessiterait de rester stables pour offrir leur service. Le mineur est récompensé pour le travail effectué relativement au travail des autres, aussi petite cette participation soit-elle.
+Le Bitcoin et sa preuve de travail se démarquent car ils ajustent automatiquement la difficulté du minage en fonction de la quantité de calcul effectué par l’ensemble du réseau, cette quantité s’appelle le hashrate et est exprimé en hash/seconde. Aujourd’hui il est estimé à 280 Exahash/seconde, soit 280 milliards de milliards de hash/seconde. Ce hashrate représente le travail fourni et donc une quantité d’énergie dépensée. Plus le hashrate est élevée, plus la difficulté augmente, et inversement. Ainsi, on peut activer ou désactiver un mineur de Bitcoin à n’importe quel moment sans incidence pour le réseau contrairement aux radiateurs/serveurs qui nécessiterait de rester stables pour offrir leur service. Le mineur est récompensé pour le travail accompli par rapport à celui des autres, aussi minime soit sa contribution.
 
-En résumé, un radiateur électrique et un mineur Bitcoin produisent tout deux 1 kW de chaleur pour 1 kW d’électricité dépensée. Cependant, le mineur reçoit également des bitcoins en récompense. Indépendamment du prix de l’électricité, du prix du bitcoin ou de la concurrence de l’activité de minage sur le réseau Bitcoin, il est économiquement plus avantageux de se chauffer avec un mineur plutôt qu’avec un radiateur électrique.
+En résumé, un radiateur électrique et un mineur de Bitcoin produisent tout deux 1 kW de chaleur pour 1 kW d’électricité dépensée. Cependant, le mineur reçoit également des bitcoins en récompense. Indépendamment du prix de l’électricité, du prix du bitcoin ou de la concurrence de l’activité de minage sur le réseau Bitcoin, il est économiquement plus avantageux de se chauffer avec un mineur plutôt qu’avec un radiateur électrique.
 
-### La plus-value pour Bitcoin
+### La valeur ajoutée du Bitcoin
 
 Nous ne rentrerons pas dans les détails du fonctionnement du minage ici (ressources disponibles sur l’académie si besoin). Ce qu’il est important de comprendre, c’est la manière dont le minage participe à la décentralisation de Bitcoin.
 Plusieurs technologies déjà existantes ont été ingénieusement combinées pour donner vie au consensus de Nakamoto. Ce consensus permet de récompenser économiquement les acteurs honnêtes pour leur participation au fonctionnement du réseau Bitcoin, tout en décourageant les acteurs malhonnêtes. C’est l’un des points clés qui permet au réseau d’exister de façon durable.
@@ -43,7 +43,7 @@ Certaines entités détiennent un pourcentage considérable du hashrate total da
 
 Ce sujet pourrait devenir problématique et apporte un risque important pour la neutralité du réseau. Un acteur possédant plus de 51% du hashrate pourrait plus facilement censurer des transactions s’il le souhaitait. C’est pourquoi il est important de distribuer le hashrate entre de multiples acteurs plutôt que dans des entités centralisées qui pourraient être plus facilement saisies par un gouvernement, par exemple.
 
-**Si les mineurs sont répartis dans des milliers, voire des millions de logements à travers le monde, il devient très compliqué pour un État d’en prendre le contrôle.**
+**Si les mineurs sont répartis dans des milliers, voire des millions de foyers à travers le monde, il devient très compliqué pour un État d’en prendre le contrôle.**
 
 À sa sortie d’usine, un mineur n’est pas approprié pour servir de radiateur dans un logement, en raison de deux problèmes principaux : un bruit excessif et l’absence de réglage. Cependant, ces problèmes peuvent être facilement résolus grâce à des modifications simples réalisées au hardware et au software, permettant d’obtenir un mineur beaucoup plus silencieux et pouvant être paramétré et automatisé comme les chauffages électriques modernes.
 
@@ -53,13 +53,13 @@ C’est une excellente opportunité pour apprendre en pratiquant. En plus de ré
 
 ## Chapitre 1 : Guide d’achat pour un ASIC d’occasion
 
-Dans cet section nous allons voir les bonnes pratiques afin d’acheter un Bitmain Antminer S9 d’occasion, la machine sur laquelle ce tutoriel de retrofitting en radiateur sera basé. Ce guide fonctionne aussi pour d’autres modèles d’ASIC car il s’agit d’un guide d’achat général pour du matériel de minage d’occasion.
+Dans cette section nous allons voir les bonnes pratiques afin d’acheter un Bitmain Antminer S9 d’occasion, la machine sur laquelle ce tutoriel de retrofitting en radiateur sera basé. Ce guide fonctionne aussi pour d’autres modèles d’ASIC car il s’agit d’un guide d’achat général pour du matériel de minage d’occasion.
 
-Le Antminer S9 est un appareil proposé par Bitmain depuis mai 2016. Il consomme 1400W d’électricité et produit 14,5 TH/s. Bien qu’il soit considéré comme ancien, il reste une excellente option pour débuter le minage. Étant donné qu’il a été produit en grande quantité, il est facile de trouver des pièces détachées en abondance dans de nombreuses régions du monde. On peut généralement l’acquérir de façon pair à pair sur des sites tels qu’Ebay ou LeBonCoin, car les revendeurs s’adressant aux professionnels ne le proposent plus en raison de sa moindre compétitivité par rapport à des machines plus récentes. Il est moins efficient que des ASIC comme le Antminer S19, proposé depuis mars 2020, mais cela en fait un matériel d’occasion abordable et plus approprié pour les modifications que nous allons effectuer.
+Le Antminer S9 est un appareil proposé par Bitmain depuis mai 2016. Il consomme 1400W d’électricité et produit 14,5 TH/s. Bien qu’il soit considéré comme ancien, il reste une excellente option pour débuter le minage. Étant donné qu’il a été produit en grande quantité, il est facile de trouver des pièces détachées en abondance dans de nombreuses régions du monde. On peut généralement l’acquérir de façon pair à pair sur des sites tels qu’Ebay ou LeBonCoin, car les revendeurs s’adressant aux professionnels ne le proposent plus en raison de sa moindre compétitivité par rapport à des machines plus récentes. Il est moins efficace que des ASIC comme le Antminer S19, proposé depuis mars 2020, mais cela en fait un matériel d’occasion abordable et plus approprié pour les modifications que nous allons effectuer.
 
 Le Antminer S9 existe en plusieurs déclinaisons (i,j) qui apportent des modifications mineures au matériel de première génération. Nous ne pensons pas que cet élément devrait orienter votre décision d’achat et ce guide fonctionnera pour toutes ces déclinaisons.
 
-Le prix des ASIC varie en fonction de nombreux facteurs comme le cours du prix du bitcoin, la difficulté du réseau, l’efficience de la machine et le coût de l’électricité. Il est donc difficile de donner une estimation précise pour l’achat d’une machine d’occasion. En février 2023, le prix attendu en France se situe généralement entre 100€ et 200€ mais ces prix sont susceptible de changer très rapidement
+Le prix des ASIC varie en fonction de nombreux facteurs comme le cours du prix du bitcoin, la difficulté du réseau, l'efficacité de la machine et le coût de l’électricité. Il est donc difficile de donner une estimation précise pour l’achat d’une machine d’occasion. En février 2023, le prix attendu en France se situe généralement entre 100€ et 200€ mais ces prix sont susceptible de changer très rapidement
 
 ![image](assets/fr/001.webp)
 
@@ -100,7 +100,7 @@ Vérifiez également que les identifiants par défaut fonctionnent (identifiant 
 Une fois connecté, vous devriez pouvoir voir l’état de chaque hashboard sur le tableau de bord. Si le mineur est connecté à une pool, vous devriez voir toutes les hashboards fonctionner. Il est important de noter que les mineurs font beaucoup de bruit, c’est normal. Assurez-vous également que les ventilateurs fonctionnent correctement.
 
 Vous pouvez ensuite supprimer la pool de minage de l’ancien propriétaire pour configurer la vôtre par la suite. Si vous le souhaitez, vous pouvez également inspecter les hashboards en démontant la machine. Cependant, cette étape est plus complexe et nécessite plus de temps et certains outils. Si vous souhaitez procéder à ce démontage, vous pouvez vous référer à la partie suivante de ce tutoriel qui détaille comment le faire. Il est important de noter que les mineurs collectent beaucoup de poussière et nécessitent un entretien régulier. C’est cette accumulation de poussière et la qualité de l’entretien que vous pourrez observer en démontant la machine.
-Après avoir passé en revue tous ces points, vous pouvez acheter votre machine avec un degré de confiance maximum. En cas de doute, adressez-vous à la communauté et si vous avez besoin de matériel pour réaliser ce tutoriel, n’hésitez pas à nous envoyer un message.
+Après avoir passé en revue tous ces points, vous pouvez acheter votre machine avec un degré de confiance maximum. En cas de doute, adressez-vous à la communauté et si vous avez besoin de matériel pour suivre ce tutoriel, n’hésitez pas à nous envoyer un message.
 
 Pour synthétiser ce guide en une phrase : **« Ne faites pas confiance, vérifiez »**.
 
@@ -120,7 +120,7 @@ Les ventilateurs d’origine de l’Antminer S9 sont trop bruyants pour utiliser
 ![image](assets/fr/011.webp)
 ![image](assets/fr/012.webp)
 
-Le ventilateur de l’alimentation est également assez bruyant et doit être remplacé. Attention!! il existe plusieurs model d’alimentation pour Antminer S9 avec des ventilateurs différents. prenez le temps de mesurer le diamétre de celui-ci. il devrais être de 60mm ou 40mm. Nous recommandons la marque Noctua NF-A6x25 FLX 12V ou NF-A4X20 FLX 12V. Notez que les connecteurs des ventilateurs Noctua ne sont pas les mêmes que ceux d’origine, donc vous aurez besoin d’un sucre pour les connecter, 2 suffirons. Attention ici aussi à bien choisir la version 12V du ventilateur
+Le ventilateur de l’alimentation est également assez bruyant et doit être remplacé. Attention!! il existe plusieurs model d’alimentation pour Antminer S9 avec des ventilateurs différents. prenez le temps de mesurer le diamétre de celui-ci. il devrais être de 60mm ou 40mm. Nous recommandons la marque Noctua NF-A6x25 FLX 12V ou NF-A4X20 FLX 12V. Notez que les connecteurs des ventilateurs Noctua ne sont pas les mêmes que ceux d’origine, vous aurez donc besoin d'un adaptateur pour les brancher, 2 suffirons. Attention ici Veillez à bien choisir la version 12V du ventilateur. 
 
 ![image](assets/fr/013.webp)
 ![image](assets/fr/014.webp)
@@ -134,7 +134,7 @@ Au lieu d’utiliser un câble Ethernet, vous pouvez connecter votre Antminer en
 
 ### 3. Optionnel : ajouter une prise connectée
 
-Si vous souhaitez allumer/éteindre votre Antminer depuis votre smartphone et monitorer sa consommation d’énergie, vous pouvez ajouter une prise connectée. Nous avons testé la prise ANTELA en version 16A compatible avec l’application smartlife. Cette prise connectée permet de consulter la consommation jour par jour et mois par mois et se connecte directement en WIFI à votre box Internet.
+Si vous souhaitez allumer/éteindre votre Antminer depuis votre smartphone et surveiller sa consommation d’énergie, vous pouvez ajouter une prise intelligente connectée. Nous avons testé la prise ANTELA en version 16A compatible avec l’application smartlife. Cette prise intelligente connectée permet de consulter la consommation jour par jour et mois par mois et se connecte directement en WIFI à votre box Internet.
 
 ![image](assets/fr/017.webp)
 
@@ -162,13 +162,13 @@ Après avoir allumé le mineur pendant 2 minutes, veuillez appuyer sur le bouton
 
 ![image](assets/fr/018.webp)
 
-Restore via web side
+Restauration via le site web
 
 Connectez-vous à l’interface utilisateur de votre mineur, cliquez sur « Upgrade » >> « Effectuer une réinitialisation », puis cliquez sur « OK » dans la fenêtre pop-up.
 
 ### Système d’exploitation d’origine
 
-Pour cette partie, nous supposerons que la machine fonctionne, est en marche et que son système d’exploitation d’origine est installé. Nous allons voir brièvement l’interface du système d’exploitation d’origine proposée par Bitmain.
+Pour cette partie, nous supposerons que la machine est fonctionnelle et que son système d'exploitation d'origine est installé. Nous allons voir brièvement l’interface du système d’exploitation d’origine proposée par Bitmain.
 
 Tout d’abord, connectez vous à votre machine à travers votre réseau local :
 
@@ -275,7 +275,7 @@ Vous devrez vous connecter à votre ASIC de façon similaire. En utilisant l’a
 Les identifiants par défaut sont les mêmes que le système d’exploitation d’origine.
 
 - username: root
-- password: 
+- password: root
 
 Vous serez alors accueilli par le Dashboard de Brains OS+
 
@@ -286,7 +286,7 @@ Vous serez alors accueilli par le Dashboard de Brains OS+
 Sur cette première pages vous pourrez observer les performances de votre machine en direct.
 
 - Trois graphiques en temps réel qui vous présente la température, le hashrate ainsi que le statut global de votre machine.
-- Sur la droite le hashrate réel, la température moyenne des puces, votre efficience estimée en W/THs ainsi que la consommation électrique.
+- Sur la droite le hashrate réel, la température moyenne des puces, l'efficacité estimée en W/THs ainsi que la consommation électrique.
 - Au dessous la vitesse de rotation des ventilateurs en pourcentage de la vitesse maximum ainsi que le nombre de rotations/minute.
 
 ![image](assets/fr/032.webp)
@@ -342,7 +342,7 @@ Vous pouvez à présent retourner dans l’interface de Braiins OS+ afin de rent
 
 L’overclocking et l’autotuning consiste tous les deux à ajuster les fréquences sur les cartes de hachage pour améliorer les performances de l’ASIC. La différence entre les deux réside dans la complexité de ces réglages de fréquence.
 
-L**overclocking** est un ajustement simple qui consiste à augmenter la fréquence sur les cartes de hachage pour augmenter le taux de hachage de la machine. L’underclocking, quant à lui, consiste à diminuer la fréquence d’horloge d’un circuit intégré en dessous de sa fréquence nominale En réduisant la fréquence d’horloge d’un ASIC par l’underclocking, on réduit également la chaleur générée par le matériel. Cela permet de diminuer la vitesse des ventilateurs nécessaires pour refroidir l’ASIC, car ils n’ont pas à travailler aussi dur pour maintenir une température appropriée. En réduisant la vitesse des ventilateurs, le bruit généré par l’ASIC est également réduit. Cela peut être particulièrement utile pour les utilisateurs qui utilisent des ASIC à la maison et qui cherchent à minimiser les perturbations sonores causées par le matériel de minage.
+**L'overclocking** est un ajustement simple qui consiste à augmenter la fréquence sur les cartes de hachage pour augmenter le taux de hachage de la machine. L’underclocking, quant à lui, consiste à diminuer la fréquence d’horloge d’un circuit intégré en dessous de sa fréquence nominale En réduisant la fréquence d’horloge d’un ASIC par l’underclocking, on réduit également la chaleur générée par le matériel. Cela permet de diminuer la vitesse des ventilateurs nécessaires pour refroidir l’ASIC, car ils n’ont pas à travailler aussi dur pour maintenir une température appropriée. En réduisant la vitesse des ventilateurs, le bruit généré par l’ASIC est également réduit. Cela peut être particulièrement utile pour les utilisateurs qui utilisent des ASIC à la maison et qui cherchent à minimiser les perturbations sonores causées par le matériel de minage.
 
 Il est important de noter que l’underclocking peut entraîner une réduction des performances de l’ASIC, il est donc important de trouver un bon équilibre entre les performances et le bruit.
 
@@ -400,7 +400,7 @@ Une fois le ventilateur d’origine retiré, vous remarquerez que les connecteur
 
 ![image](assets/fr/044.webp)
 
-Si vous ne disposez pas de cet adaptateur, vous pouvez tout de même procéder au branchement du nouveau ventilateur en utilisant un sucre d’électricien. Pour cela, vous devrez couper les câbles de l’ancien et du nouveau ventilateur, attention à garder suffisamment de longueur sur chaque câbles.
+Si vous ne disposez pas de cet adaptateur, vous pouvez tout de même procéder au branchement du nouveau ventilateur à l'aide d'un domino électrique. Pour cela, vous devrez couper les câbles de l’ancien et du nouveau ventilateur, attention à garder suffisamment de longueur sur chaque câbles.
 
 ![image](assets/fr/045.webp)
 ![image](assets/fr/046.webp)
@@ -422,7 +422,7 @@ Une fois les fils rouges et noirs dégagés, coupez les gaines toujours délicat
 
 ![image](assets/fr/051.webp)
 
-Puis relier les câbles avec un sucre, le fil noir avec le noir et le fil rouge avec le rouge. Vous pouvez également rajouter du scotch d’électricien.
+Puis relier les câbles avec un domino électrique, le fil noir avec le noir et le fil rouge avec le rouge. Vous pouvez également rajouter du scotch d’électricien.
 
 ![image](assets/fr/052.webp)
 ![image](assets/fr/053.webp)
@@ -458,7 +458,7 @@ Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur le
 ![image](assets/fr/061.webp)
 
 - Passons maintenant aux ventilateurs.
-   Fixez-les sur les pièces 3D à l’aide des vis fournies la boîte. Attention au sens de circulation de l’air, les flèches sur les côtés des ventilateurs vous indiqueront la direction à suivre. Allez du côté du port Ethernet à l’autre côté. Voir photo ci-dessous
+   Fixez-les sur les pièces 3D à l’aide des vis fournies dans la boîte. Attention au sens de circulation de l’air, les flèches sur les côtés des ventilateurs vous indiqueront la direction à suivre. Allez du côté du port Ethernet à l’autre côté. Voir photo ci-dessous
 
 ![image](assets/fr/062.webp)
 ![image](assets/fr/063.webp)
@@ -469,7 +469,7 @@ Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur le
 ![image](assets/fr/065.webp)
 ![image](assets/fr/066.webp)
 
-En attendant de pouvoir offrir un casing plus sexy à votre nouveau chauffage, vous pouvez attacher le boîtier et l’alimentation ensemble avec des colliers de serrage d’électricien.
+En attendant de pouvoir proposer un boîtier plus esthétique pour votre nouveau chauffage, vous pouvez attacher le boîtier et l’alimentation ensemble à l'aide de serre-câbles d’électricien.
 
 ![image](assets/fr/067.webp)
 

@@ -1,6 +1,7 @@
 ---
 term: OP_SUCCESS
 
+definition: Tapscriptissä varatut opcodet, jotka osoittavat automaattista onnistumista, käytetään tuleviin soft forkeihin.
 ---
 OP_SUCCESS` edustaa sarjaa op-koodeja, jotka olivat aiemmin poissa käytöstä ja jotka on nyt varattu Tapscriptin tulevaa käyttöä varten. Niiden perimmäisenä tavoitteena on helpottaa skriptikielen päivityksiä ja laajennuksia sallimalla uusien toiminnallisuuksien käyttöönotto pehmeiden haarojen kautta. Kun jokin näistä opkoodeista esiintyy komentosarjassa, se merkitsee komentosarjan kyseisen osan automaattista onnistumista riippumatta siitä, millaisia tietoja tai ehtoja siinä on. Tämä tarkoittaa, että komentosarjan suoritus jatkuu epäonnistumatta edellisistä toiminnoista riippumatta.
 

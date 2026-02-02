@@ -1,6 +1,7 @@
 ---
-term: NODO SPV (NODO LUCE)
+term: Nodo SPV (nodo leggero)
 
+definition: Client leggero che convalida le transazioni memorizzando solo gli header dei blocchi e verificando le prove di Merkle.
 ---
 Un nodo SPV (*Simple Payment Verification*), talvolta chiamato "nodo leggero", è un client leggero di un nodo Bitcoin che consente agli utenti di convalidare le transazioni senza dover memorizzare l'intera blockchain. Al contrario, un nodo SPV memorizza solo le intestazioni dei blocchi e ottiene informazioni su transazioni specifiche interrogando i nodi completi quando necessario. Questo principio di verifica è reso possibile dalla struttura delle transazioni nei blocchi Bitcoin, che sono organizzati all'interno di un accumulatore crittografico (Merkle Tree).
 

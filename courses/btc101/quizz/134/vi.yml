@@ -1,9 +1,9 @@
-question: Chi phí để vận hành một nút Bitcoin trên Raspberry Pi 4 về mặt tiêu thụ điện năng hàng năm là bao nhiêu (tính đến năm 2023)?
-answer: Một chút ít hơn 10€ mỗi năm.
+question: Chi phí để vận hành một máy chủ Bitcoin trên Raspberry Pi 4 về mặt tiêu thụ điện năng hàng năm là bao nhiêu (tính đến năm 2023)?
+answer: Ít hơn 10€ mỗi năm một chút.
 wrong_answers:
-  - Một chút nhiều hơn 50€ mỗi năm.
-  - Một chút ít hơn 100€ mỗi năm.
-  - Khoảng 200€ mỗi năm.
+  - Nhiều hơn 50€ mỗi năm một chút.
+  - Ít hơn 100€ mỗi năm một chút.
+  - Khoảng 200€ mỗi năm một chút.
 explanation: |
-  Việc vận hành một nút Bitcoin trên Raspberry Pi 4 tiêu thụ một lượng điện năng khiến chi phí hàng năm một chút ít hơn 10€ tính đến năm 2023.
+  Việc vận hành một máy chủ Bitcoin trên Raspberry Pi 4 tiêu thụ một lượng điện năng khiến chi phí hàng năm một chút ít hơn 10€ tính đến năm 2023.
 reviewed: true

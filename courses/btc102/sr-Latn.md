@@ -635,7 +635,7 @@ Pristupajući na ovaj način osiguravate da ne ugrožavate svoju finansijsku dob
 ![image](assets/sr-Latn/023.webp)
 
 
-Kada definišete svoj budžet, razmislite o tome kako želite da investirate. Jedna od metoda koja je najprikladnija za početnike i široko preporučena je Dollar Cost Averaging (DCA), kupovina fiksnog iznosa Bitcoin u redovnim intervalima (nedeljno, mesečno, itd.). Ova strategija pomaže da se izjednači prosečna ulazna cena tokom vremena i smanji emocionalni uticaj promena cena. To je pametan pristup za većinu ljudi, posebno za novajlije.
+Kada definišete svoj budžet, razmislite o tome kako želite da investirate. Jedna od metoda koja je najprikladnija za početnike i široko preporučena je [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), kupovina fiksnog iznosa Bitcoin u redovnim intervalima (nedeljno, mesečno, itd.). Ova strategija pomaže da se izjednači prosečna ulazna cena tokom vremena i smanji emocionalni uticaj promena cena. To je pametan pristup za većinu ljudi, posebno za novajlije.
 
 
 Zatim, zapitajte se: Koji je moj vremenski horizont?
@@ -1008,7 +1008,7 @@ Iako je ovaj pristup tehnički zahtevniji, on nudi najzahtevnijim korisnicima mo
 #### Otpornost, prekogranična metoda plaćanja
 
 
-Zbog svoje decentralizovane prirode, Bitcoin radi 24/7, neometan granicama ili vremenskim zonama. U regionima gde nedostaje tradicionalna bankarska infrastruktura, Bitcoin se često koristi kao brzo i jeftino rešenje za slanje ili primanje sredstava bez oslanjanja na skupe posrednike. Iako naknade za transakcije mogu varirati u zavisnosti od zagušenja mreže, one su generalno mnogo niže od naknada koje banke naplaćuju za međunarodne transfere. Dodatno, Layer-2 rešenja poput Lightning Network omogućavaju još brže i jeftinije Bitcoin transakcije.
+Zbog svoje decentralizovane prirode, Bitcoin radi 24/7, neometan granicama ili vremenskim zonama. U regionima gde nedostaje tradicionalna bankarska infrastruktura, Bitcoin se često koristi kao brzo i jeftino rešenje za slanje ili primanje sredstava bez oslanjanja na skupe posrednike. Iako naknade za transakcije mogu varirati u zavisnosti od zagušenja mreže, one su generalno mnogo niže od naknada koje banke naplaćuju za međunarodne transfere. Dodatno, Layer-2 rešenja poput [Lightning Network](https://planb.academy/resources/glossary/lightning-network) omogućavaju još brže i jeftinije Bitcoin transakcije.
 
 
 #### Prodavnica vrednosti
@@ -1539,7 +1539,7 @@ Industrija Bitcoin Wallet je podeljena u nekoliko kategorija, od kojih svaka zad
 
 
 
-- **Hardware Wallet Proizvođači**: Ove kompanije razvijaju fizičke uređaje dizajnirane za sigurno skladištenje ključeva. Neki su open-source, dok drugi nude vlasnička rešenja sa različitim funkcijama i nivoima sigurnosti. Značajna imena uključuju Ledger, Trezor, Coinkite, Foundation i Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Proizvođači**: Ove kompanije razvijaju fizičke uređaje dizajnirane za sigurno skladištenje ključeva. Neki su open-source, dok drugi nude vlasnička rešenja sa različitim funkcijama i nivoima sigurnosti. Značajna imena uključuju Ledger, Trezor, Coinkite, Foundation i Shiftcrypto.
 - **Software Wallet Programeri**: Oni se kreću od kompanija do nezavisnih programera koji kreiraju mobilne i desktop aplikacije. Njihove ponude variraju u korisničkom iskustvu, bezbednosti i funkcijama. Primeri uključuju Sparrow, Wizard Sardine, Galoy, Synonym i Blockstream.
 - DIY (*Do It Yourself*) **Wallets**: Ova rešenja otvorenog koda su dizajnirana za napredne korisnike koji žele potpunu kontrolu i minimalno oslanjanje na treće strane. Izrada sopstvenog Wallet smanjuje zavisnost od poverenja i može povećati vašu sigurnost. Značajne DIY opcije uključuju Seedsigner i Specter DIY.
 
@@ -2688,7 +2688,7 @@ https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-5
 
 https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
 https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 

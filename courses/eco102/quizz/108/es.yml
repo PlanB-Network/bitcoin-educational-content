@@ -1,9 +1,0 @@
-question: ¿Qué ilusión económica criticó Bastiat, que reaparecería en el siglo XX?
-answer: Que el Estado puede crear empleos
-wrong_answers:
-  - Que el mercado necesita al Estado
-  - Que el mercado puede autorregularse
-  - Que las empresas pueden crear riqueza sin regulación
-explanation: |
-  Bastiat criticó la idea de que el Estado podría crear empleos sin perjudicar otros empleos debido al impacto de los impuestos necesarios para financiar estas creaciones.
-reviewed: false

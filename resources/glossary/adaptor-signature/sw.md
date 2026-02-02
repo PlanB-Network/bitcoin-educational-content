@@ -1,5 +1,6 @@
 ---
-term: SAINI YA ADAPTER
+term: Adaptor signature
+definition: Ujumbe wa cryptographic unaofunga saini kwa siri, ili kutaka kujibu saini kupambanya siri. Inakuza kwa ajili ya swaps atomiki bila wakili wa kutegemewa.
 ---
 
 Mbinu ya kriptografia inayoruhusu kuchanganya sahihi na sahihi ya ziada (inayoitwa "saini ya adapta") ili kufichua kipande cha data cha siri. Njia hii inafanya kazi kwa njia ambayo kujua Elements mbili kati ya saini halali, saini ya adapta, na siri inaruhusu kupunguza kipengele cha tatu kilichokosekana. Mojawapo ya sifa za kuvutia za njia hii ni kwamba ikiwa tunajua saini ya adapta ya mwenzetu na sehemu maalum kwenye curve ya duara iliyounganishwa na siri iliyotumiwa kukokotoa sahihi ya adapta hii, basi tunaweza kupata sahihi yetu ya adapta ambayo italingana na siri sawa, bila kupata ufikiaji wa moja kwa moja kwa siri yenyewe. Katika Exchange kati ya washikadau wawili ambao hawaaminiani, mbinu hii inaruhusu kufichuliwa kwa wakati mmoja wa vipande viwili nyeti vya habari kati ya washiriki. Mchakato huu huondoa hitaji la uaminifu katika miamala ya papo hapo kama vile Kubadilishana Sarafu au Kubadilishana kwa Atomiki. Hebu tuchukue mfano ili kuelewa vizuri zaidi. Alice na Bob wanataka kutuma kila mmoja BTC 1, lakini hawaaminiani. Kwa hivyo watatumia saini za adapta kukanusha hitaji la kuamini mhusika mwingine katika Exchange hii (na hivyo kuifanya kuwa "atomiki" Exchange). Wanaendelea kama ifuatavyo:

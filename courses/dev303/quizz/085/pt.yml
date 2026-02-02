@@ -1,0 +1,8 @@
+question: Ao definir interfaces de retorno de chamada no UniFFI, que limites de caraterística Rust adicionais são normalmente necessários na caraterística de retorno de chamada para garantir a invocação segura entre linguagens?
+answer: Os limites de Send e Sync são necessários porque as chamadas de retorno podem atravessar os limites de thread entre o Rust e as linguagens de destino
+wrong_answers:
+  - Os limites Clone e Copy são necessários para permitir que os dados de retorno de chamada sejam duplicados para além das fronteiras linguísticas
+  - Os limites Debug e Display são necessários para permitir a comunicação correta de erros quando as chamadas de retorno falham durante a execução
+  - Os limites de Serialize e Deserialize são necessários para transferir parâmetros de retorno de chamada entre diferentes tempos de execução de linguagem
+explanation: |
+  As interfaces de retorno de chamada na UniFFI requerem limites Send e Sync porque permitem a comunicação bidirecional em que o código Rust chama o código da aplicação escrito em linguagens alvo. Como esses retornos de chamada podem cruzar os limites de thread durante a execução, o sistema de tipos do Rust requer limites Send (seguro para transferir entre threads) e Sync (seguro para compartilhar referências entre threads) para garantir a segurança da memória. As outras opções estão incorrectas: Clone/Copy não são necessárias para chamadas entre linguagens, Debug/Display são para formatação e não para segurança, e Serialize/Deserialize são tratadas automaticamente pelo sistema de marshaling do UniFFI.

@@ -6,3 +6,4 @@ wrong_answers:
   - It reduces the total hash rate of the network as miners spend resources on connectivity instead of mining
 explanation: |
   The chapter explains that when block sizes increase, propagation times increase, leading to more stale blocks. To avoid losing block rewards from stale blocks, miners seek pools with better bandwidth and connectivity. This pushes miners toward larger, well-connected pools, reducing mining decentralization. The other options are incorrect: difficulty adjusts automatically regardless of pool connectivity, connectivity costs don't create additional transaction fees, and miners don't reduce hash rate when joining better-connected pools.
+reviewed: false

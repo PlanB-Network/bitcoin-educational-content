@@ -1,0 +1,8 @@
+question: Durante la convalida delle transazioni Bitcoin, cosa deve verificare un nodo per assicurarsi che ogni input sia correttamente autorizzato a spendere il suo output di riferimento?
+answer: Lo ScriptSig deve sbloccare con successo la ScriptPubKey corrispondente quando viene eseguito insieme
+wrong_answers:
+  - "La firma digitale dell'input deve corrispondere esattamente alla chiave pubblica incorporata dell'output"
+  - L'hash della transazione deve essere uguale alla radice merkle memorizzata nell'intestazione del blocco di riferimento
+  - L'importo in entrata deve essere maggiore o uguale all'importo in output speso
+explanation: |
+  Il sistema di script di Bitcoin prevede che lo ScriptSig (script di sblocco) di ogni input debba essere eseguito correttamente con lo ScriptPubKey (script di blocco) dell'output a cui fa riferimento per produrre un risultato vero sullo stack. Questo modello di esecuzione degli script consente condizioni di spesa flessibili che vanno oltre la semplice corrispondenza delle firme. Le altre opzioni descrivono requisiti di validazione non corretti: le firme non devono corrispondere esattamente alle chiavi incorporate, gli hash delle transazioni non vengono confrontati con le radici merkle durante la validazione degli input e i singoli input non devono superare le loro uscite (solo gli input totali devono superare le uscite totali).

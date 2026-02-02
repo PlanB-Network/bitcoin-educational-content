@@ -1,0 +1,8 @@
+question: What is the critical operational benefit of LITD's Auto-Unlock mechanism when combined with systemd service integration?
+answer: The node automatically restarts and becomes operational after power failures without requiring manual wallet decryption
+wrong_answers:
+  - The node can process Lightning payments without requiring Bitcoin Core to be fully synchronized first
+  - The system automatically generates new wallet seeds when the original seed becomes compromised or corrupted
+  - The daemon can switch between pruned and archival modes dynamically based on available storage space
+explanation: |
+  LITD's Auto-Unlock mechanism stores encrypted wallet credentials that allow the daemon to automatically decrypt and unlock the wallet upon startup. When combined with systemd services that start on boot, this creates a fully autonomous recovery system. After power outages or system reboots, both Bitcoin Core and LITD restart automatically via systemd, and LITD can immediately unlock its wallet without operator intervention. This eliminates the operational risk of extended downtime during unplanned outages. The wrong answers describe features that don't exist: Lightning operations still require Bitcoin sync, seed regeneration isn't automatic, and storage mode switching isn't a dynamic feature.

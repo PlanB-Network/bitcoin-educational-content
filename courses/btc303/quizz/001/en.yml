@@ -6,3 +6,4 @@ wrong_answers:
   - To simplify the user interface
 explanation: |
   Decentralization in Bitcoin serves primarily to achieve censorship resistance, which means no single entity can control, block, or manipulate transactions. This is explicitly stated in the text: 'Decentralization is a means to achieve censorship resistance.' The other options are incorrect because decentralization actually makes Bitcoin slower and more energy-intensive than centralized systems, and it makes the system more complex rather than simpler. Censorship resistance is what separates Bitcoin from traditional money systems and prevents governments or other authorities from shutting it down or controlling who can use it.
+reviewed: false

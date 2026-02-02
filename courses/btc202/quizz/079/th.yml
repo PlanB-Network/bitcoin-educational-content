@@ -1,0 +1,9 @@
+question: ขนาดสูงสุดของไฟล์ blkNNNNN.dat ก่อนที่จะสร้างไฟล์ใหม่คือเท่าใด?
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256 กิบิไบต์
+  - 128 กิบไบต์
+explanation: |
+  ไฟล์ blkNNNNN.dat จะเก็บบล็อกตามลำดับและมีขนาดประมาณ 128 MiB ก่อนที่ Bitcoin Core จะเปิดไฟล์ถัดไป
+reviewed: true

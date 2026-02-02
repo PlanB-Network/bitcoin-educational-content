@@ -1,5 +1,6 @@
 ---
-term: PERCOLATION
+term: Perkolation
+definition: Modell som beskriver informationsspridningen genom nätverket av Bitcoin-noder.
 ---
 
 Avser en modell som hjälper till att förstå spridningen av information (transaktioner och block) över Bitcoin-nodnätverket. Perkolationsteori är ursprungligen en matematisk och fysikalisk modell som studerar vätskors rörelse och filtrering genom porösa material. Den analyserar hur ett anslutet nätverk, bortom ett visst tröskelvärde, tillåter vätskan att flöda kontinuerligt genom materialet. Detta kan tillämpas på datornätverk för att se hur information sprids genom att betrakta noderna som platser som kan vara antingen aktiva eller inaktiva. I Bitcoin spelar noderna därmed rollen som porer i perkolationsteorin. Varje aktiv nod tar emot och sänder information till andra noder, som antingen fortsätter sändningen eller blockerar den. Spridningen av vissa typer av transaktioner kan analyseras i termer av perkolationströsklar, där en viss andel aktiva noder krävs för att nå en Miner som inkluderar den i ett block. Denna teori ger ett ramverk för att bedöma hur förändringar i nätverket, till exempel att vissa noder ändrar standardiseringsreglerna, påverkar kaskadmekanismen för transaktionsspridning för att nå en Miner.

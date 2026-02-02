@@ -1,0 +1,9 @@
+question: İlk kanal için neden çok büyük düğümlerden kaçınalım?
+answer: Kısıtlayıcı politikalar
+wrong_answers:
+  - Düşük bağlanabilirlik
+  - Maliyetler çok düşük
+  - Likidite eksikliği
+explanation: |
+  Çok büyük düğümler genellikle yüksek minimum miktarlar uygulamakta ve küçük kanalları kolayca kapatmaktadır.
+reviewed: false

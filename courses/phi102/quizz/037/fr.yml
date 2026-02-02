@@ -1,0 +1,8 @@
+question: Selon l'analyse de Bastiat, quel est le problème logique de l'affirmation de Proudhon "la propriété, c'est le vol" ?
+answer: Si la propriété est un vol, alors le vol devient une propriété, ce qui crée une contradiction logique
+wrong_answers:
+  - La propriété ne peut exister sans réglementation gouvernementale et sans cadre juridique
+  - Le vol est moralement mauvais alors que la propriété est moralement bonne en toutes circonstances
+  - La propriété nécessite une possession physique alors que le vol implique une acquisition temporaire
+explanation: |
+  Bastiat a démontré la contradiction logique interne de la célèbre phrase de Proudhon en montrant que si nous acceptons que la propriété soit égale au vol, alors, par extension logique, le vol doit être égal à la propriété. Cela crée un raisonnement circulaire impossible où quelque chose de légitime est en même temps illégitime. Bastiat soutient au contraire que la propriété découle naturellement du travail, de la propriété de soi et des facultés humaines, ce qui en fait un concept fondamental et logique plutôt qu'une forme de vol.

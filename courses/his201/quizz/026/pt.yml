@@ -5,5 +5,5 @@ wrong_answers:
   - Verificação de pagamento simplificada
   - O blockchain
 explanation: |
-  A política monetária inicial correspondia a uma emissão constante (X BTC/bloco) conforme indicado pela primeira versão do white paper e pelas [trocas](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) de Satoshi com Ray Dillinger.
+  A política monetária inicial correspondia a uma emissão constante (X BTC/bloco) conforme indicado pela primeira versão do white paper e pelas [trocas](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) de Satoshi com Ray Dillinger.
 reviewed: false

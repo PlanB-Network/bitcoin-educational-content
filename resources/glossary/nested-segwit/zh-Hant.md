@@ -1,5 +1,6 @@
 ---
-term: NESTED SegWit
+term: 嵌套隔離見證
+definition: 封裝在P2SH中的SegWit指令碼，以便舊服務採用SegWit。
 ---
 
 一種腳本標準，用來在 P2SH 腳本中包裝原生 SegWit 腳本。嵌套 SegWit 腳本是在 SegWit 推出時為了方便採用而發明的。即使服務或錢包尚未與 SegWit 原生相容，它們也允許使用此新標準。它充當了一種邁向新標準的過渡腳本。因此，今天使用這些類型的包裝 SegWit 腳本已經無多大意義，因為大多數錢包已經實現了本機 SegWit。

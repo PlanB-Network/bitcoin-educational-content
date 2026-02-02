@@ -1,5 +1,6 @@
 ---
-term: SREĆA
+term: Luck
+definition: Indikator koji meri performanse rudarskog pula u poređenju sa teorijskim očekivanjima.
 ---
 
 Indikator koji se koristi u Mining bazenima za merenje performansi bazena u odnosu na njegova teoretska očekivanja. Kao što ime sugeriše, procenjuje sreću bazena u pronalaženju bloka. Sreća se izračunava poređenjem broja deonica koje su teoretski potrebne za pronalaženje validnog bloka, na osnovu trenutne težine Bitcoin, sa stvarnim brojem deonica proizvedenih za pronalaženje tog bloka. Manji broj deonica od očekivanog ukazuje na dobru sreću, dok veći broj ukazuje na lošu sreću.

@@ -20,7 +20,7 @@ Dalam tutorial ini, kita akan menemukan **Banxaas**, sebuah platform barter yang
 
 
 
-Banxaas berasal dari dialek Senegal (Wolof) yang berarti cabang. Secara ideologis, kita dapat melihat Banxaas sebagai cabang yang menghubungkan masyarakat Senegal dengan penggunaan Bitcoin. Cabang yang dapat Anda andalkan untuk melindungi tabungan Anda dari inflasi dan sensor. Dikembangkan oleh perusahaan rintisan Senegal (Yité Technologies), [Banxaas] (https://banxaas.com) menawarkan layanan Exchange instan antara Bitcoin dan CFA Franc (XOF) dan sebaliknya, berkat kekuatan Lightning Network. Banxaas hadir dengan pendekatan yang tidak biasa pada platform Exchange di sub-wilayah Afrika Barat.
+Banxaas berasal dari dialek Senegal (Wolof) yang berarti cabang. Secara ideologis, kita dapat melihat Banxaas sebagai cabang yang menghubungkan masyarakat Senegal dengan penggunaan Bitcoin. Cabang yang dapat Anda andalkan untuk melindungi tabungan Anda dari inflasi dan sensor. Dikembangkan oleh perusahaan rintisan Senegal (Yité Technologies), [Banxaas](https://banxaas.com) menawarkan layanan Exchange instan antara Bitcoin dan CFA Franc (XOF) dan sebaliknya, berkat kekuatan Lightning Network. Banxaas hadir dengan pendekatan yang tidak biasa pada platform Exchange di sub-wilayah Afrika Barat.
 
 
 
@@ -37,7 +37,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Berdagang untuk pertama kalinya dengan Banxaas
 
@@ -172,7 +172,7 @@ Tim Banxaas siap membantu Anda untuk membantu Anda dengan masalah apa pun yang m
 
 
 
-- [X] (https://x.com/banxaas_sn)
+- [X](https://x.com/banxaas_sn)
 - [Telegram](https://t.me/banxaas_app)
 - [Whatsapp](https://chat.whatsapp.com/JOjCpBoHXow2ljOJFBMVnX)
 - [Nostr](https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrhh7zy)

@@ -1,0 +1,8 @@
+question: Qual è il vantaggio principale dell'approccio di tipizzazione statica di Rust rispetto alla tipizzazione dinamica nello sviluppo di applicazioni Bitcoin?
+answer: Gli errori di tipo vengono catturati in fase di compilazione prima della distribuzione, evitando errori in fase di esecuzione durante la gestione dei fondi utente
+wrong_answers:
+  - La tipizzazione statica consente una maggiore velocità di esecuzione nell'elaborazione delle transazioni Bitcoin sulla blockchain
+  - "La digitazione dinamica richiede una maggiore allocazione di memoria, in conflitto con i requisiti di leggerezza dei nodi di Bitcoin"
+  - La tipizzazione statica consente la generazione automatica di codice per le implementazioni dei protocolli Bitcoin e per gli smart contract
+explanation: |
+  La tipizzazione statica di Rust individua gli errori di tipo durante la compilazione, assicurando che gli errori vengano risolti prima che il software possa essere costruito o distribuito. Questo aspetto è fondamentale per lo sviluppo di Bitcoin, perché una volta che il software gestisce fondi reali degli utenti, gli errori di tipo in fase di esecuzione potrebbero causare perdite finanziarie irreversibili. La tipizzazione dinamica rivela gli errori solo durante l'esecuzione, potenzialmente dopo la distribuzione, quando il denaro degli utenti è a rischio. Le altre opzioni non sono corrette perché il vantaggio principale della tipizzazione statica non è la velocità di esecuzione, l'utilizzo della memoria o la generazione di codice, ma piuttosto la prevenzione degli errori in fase di compilazione.

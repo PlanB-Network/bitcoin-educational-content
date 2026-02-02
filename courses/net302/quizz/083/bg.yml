@@ -1,0 +1,9 @@
+question: Какво е състоянието на запис в кеша на ip neighbor, когато съпоставянето IP/MAC е валидно и актуално?
+answer: REACHABLE
+wrong_answers:
+  - СВЪРЗАНИ С
+  - VALID
+  - STALE
+explanation: |
+  Състоянието REACHABLE означава, че съпоставянето на IP/MAC е известно и функционира в кеша на съседите.
+reviewed: false

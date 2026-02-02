@@ -1,0 +1,8 @@
+question: Mikä määrittää transaktiomaksun määrän Bitcoin-kaupassa rakennusprosessin aikana?
+answer: Kaikkien panosten kokonaisarvon ja kaikkien tuotosten kokonaisarvon erotus
+wrong_answers:
+  - Verkkoprotokollan laskema kiinteä prosenttiosuus tapahtuman kokonaisarvosta
+  - Tapahtuman koko tavuina kerrottuna louhijoiden asettamalla vakiohinnalla
+  - Kaikkien syötteiden edellyttämä allekirjoitusten määrä sekä perusverkkomaksu
+explanation: |
+  Bitcoin-transaktiomaksut määräytyvät kokonaispanosten ja kokonaistuotosten erotuksen perusteella. Kun rakennat tapahtumaa, valitset UTXO:t syötteiksi ja luot tuotokset vastaanottajille ja muutoksille. Jäljelle jäävä määrä on maksu, joka kannustaa louhijoita sisällyttämään transaktiosi. Palkkiota ei lasketa prosenttiosuuden, kiinteiden korkojen tai allekirjoitusten lukumäärän perusteella - se on yksinkertaisesti se, mitä transaktion arvosaldoon jää jakamatta.

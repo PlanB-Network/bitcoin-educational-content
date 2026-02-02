@@ -1,6 +1,7 @@
 ---
-term: MEMPOOL
+term: Mempool
 
+definition: Prostor, kde každý uzel uchovává transakce čekající na zahrnutí do bloku.
 ---
 Zkrácení výrazů "memory" a "pool". Označuje virtuální prostor, ve kterém jsou seskupeny transakce Bitcoinu čekající na zařazení do bloku. Když je transakce vytvořena a vysílána v síti Bitcoin, je nejprve ověřena uzly sítě. Pokud je považována za platnou, je umístěna do paměťového fondu každého uzlu, kde zůstává, dokud ji těžař nevybere k zařazení do bloku.
 

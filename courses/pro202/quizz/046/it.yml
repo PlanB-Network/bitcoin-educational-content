@@ -1,0 +1,8 @@
+question: Qual è la relazione matematica tra il valore di difficoltà di Bitcoin e l'obiettivo attuale usato per la convalida del blocco?
+answer: La difficoltà è pari all'obiettivo più basso possibile diviso per l'obiettivo corrente
+wrong_answers:
+  - La difficoltà è uguale all'obiettivo corrente diviso per l'obiettivo più basso possibile
+  - La difficoltà è pari all'obiettivo corrente moltiplicato per l'obiettivo più basso possibile
+  - La difficoltà è pari al coefficiente moltiplicato per 256, elevato all'esponente meno 3
+explanation: |
+  La difficoltà di Bitcoin è definita specificamente come lowest_target / current_target, che esprime quante volte è più difficile mining rispetto alla difficoltà più facile possibile. Questa relazione inversa significa che, man mano che l'obiettivo diventa più piccolo (rendendo gli hash validi più difficili da trovare), la difficoltà aumenta proporzionalmente. La formula assicura che la difficoltà di 1 rappresenta le condizioni più facili del mining, mentre valori più alti indicano un lavoro di calcolo proporzionalmente maggiore richiesto per trovare blocchi validi.

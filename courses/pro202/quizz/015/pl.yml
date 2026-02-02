@@ -1,0 +1,8 @@
+question: Co dzieje się z operacjami arytmetycznymi, gdy krzywe eliptyczne są zdefiniowane na skończonych polach zamiast na liczbach rzeczywistych?
+answer: Wszystkie operacje wykorzystują arytmetykę modularną przy zachowaniu tych samych reguł algebraicznych
+wrong_answers:
+  - Formuły dodawania punktów muszą zostać całkowicie przepisane dla matematyki dyskretnej
+  - Obliczenia nachylenia stają się nieokreślone ze względu na dyskretny charakter punktów
+  - Wszystkie reguły algebraiczne zmieniają się zasadniczo, aby dostosować się do struktury pola skończonego
+explanation: |
+  Gdy krzywe eliptyczne są przenoszone z liczb rzeczywistych do pól skończonych, podstawowa struktura algebraiczna i zasady pozostają identyczne - zmienia się tylko arytmetyka na arytmetykę modularną. Wszystkie formuły dodawania punktów, obliczenia nachylenia i zależności geometryczne działają dokładnie w ten sam sposób, ale każde obliczenie jest wykonywane modulo p. To zachowanie reguł algebraicznych przy jednoczesnej zmianie jedynie podstaw arytmetycznych jest tym, co sprawia, że krzywe eliptyczne pól skończonych są tak potężne dla kryptografii, zachowując wszystkie potrzebne właściwości matematyczne, jednocześnie tworząc dyskretne, nieprzewidywalne zachowanie niezbędne dla bezpieczeństwa.

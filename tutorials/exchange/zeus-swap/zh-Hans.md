@@ -1,5 +1,5 @@
 ---
-name: 宙斯交换
+name: Zeus Swap
 description: 介于 On-Chain 和 Lightning Network 比特币之间的非托管 Exchange 服务
 ---
 
@@ -390,12 +390,13 @@ Phoenix 和 Breez 集成了透明交换功能，向最终用户隐藏了技术�
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| 服务 | 潜水艇互换 (BTC→LN) | 逆向互换 (LN→BTC) | 最低金额 |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + 挖矿费用 | 0.5% + 挖矿费用 | 25,000 sats |
+| **Boltz** | 0.2% + 挖矿费用 | 0.5% + 挖矿费用 | 50,000 sats |
+| **Phoenix** | 仅挖矿费用 | 0.4% 固定 | 10,000 sats |
+| **Breez** | 0.25% + 网络费用 | 0.5% + 挖矿费用 | 50,000 sats |
 
 Zeus Swap 在易用性和技术控制之间取得了平衡：比 Boltz 更易用，比 Phoenix/Breez 更灵活，采用严格的非监管方式。
 

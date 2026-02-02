@@ -1,5 +1,6 @@
 ---
-term: PUTANJA IZVODJENJA
+term: Putanja derivacije
+definition: Sekvenca indeksa koja opisuje putanju derivacije ključeva dece iz master ključa u HD novčaniku.
 ---
 
 U kontekstu Hijerarhijski Determinističkih (HD) novčanika, put derivacije odnosi se na sekvencu indeksa korišćenih za derivaciju podključeva iz glavnog ključa. Opisan u BIP32, ovaj put identifikuje strukturu stabla za derivaciju podključeva. Put derivacije je predstavljen nizom indeksa odvojenih kosim crticama, i uvek počinje sa glavnim ključem (označenim kao `m/`). Na primer, tipičan put može biti `m/84'/0'/0'/0/0`. Svaki nivo derivacije je povezan sa specifičnom dubinom:
@@ -26,4 +27,3 @@ Na primer, ako moj prijemni Address ima put derivacije `m / 86' / 0' / 0' / 0 / 
 - `5` označava da je to šesti eksterni Address ovog naloga.
 
 
-![](../../dictionnaire/assets/18.webp)

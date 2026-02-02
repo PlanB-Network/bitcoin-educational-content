@@ -1,5 +1,6 @@
 ---
 term: Taproot
+definition: Kasım 2021'de etkinleştirilen, BIP340, 341 ve 342 aracılığıyla gizlilik, verimlilik ve esneklik getiren büyük Bitcoin güncellemesi.
 ---
 
 Kasım 2021'de Soft Fork aracılığıyla kabul edilen Bitcoin protokolüne yönelik büyük bir güncelleme. Bu güncelleme, BIP340, BIP341 ve BIP342'yi uygulayarak gizlilik, verimlilik ve esneklik açısından önemli iyileştirmeler getirmektedir. Bu güncelleme, bir dönem boyunca üretilen blokların %90'ının lehte sinyal verdiği ve böylece madencilerin güncellemeyi etkinleştirmeye hazır olduğunu gösteren 12 Haziran 2021'de 687.284 numaralı blokta kilitlendi (*Speedy Trial*). Nihayetinde aktivasyon, Pieter Wuille, Andrew Poelstra ve Gregory Maxwell arasında konuyla ilgili ilk tartışmalardan neredeyse dört yıl sonra, 14 Kasım 2021'de 709.632 numaralı blokta gerçekleşti. Bu, 2017 yılında SegWit'ün tartışmalı bir şekilde etkinleştirilmesinden bu yana yapılan ilk büyük güncelleme girişimiydi.

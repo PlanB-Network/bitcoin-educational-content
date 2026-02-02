@@ -328,7 +328,7 @@ Nyt voit siirtyä Magic Drawer (vasemmassa ylävalikossa) - Lightning Channels, 
 ![blixt](assets/en/18.webp)
 
 
-Lohkon numero 764272 on se hetki, jolloin varoja voidaan käyttää Bitcoin-ketjun Address-ketjussa. Ja se voi kestää jopa 144 lohkoa 1. vahvistuslohkosta, kunnes ne vapautetaan. [Tarkista se siis Mempool:stä] (https://Mempool.space/).
+Lohkon numero 764272 on se hetki, jolloin varoja voidaan käyttää Bitcoin-ketjun Address-ketjussa. Ja se voi kestää jopa 144 lohkoa 1. vahvistuslohkosta, kunnes ne vapautetaan. [Tarkista se siis Mempool:stä](https://Mempool.space/).
 
 
 Ja siinä kaikki. Odota vain kärsivällisesti, kunnes kaikki kanavat on suljettu ja varat on palautettu ketjussa olevaan Wallet:een.
@@ -433,7 +433,7 @@ Kuten yllä olevasta kuvakaappauksesta näkyy, Stacker News -tililtä lähetetty
 Tämä LUD-18:n vaihtoehto voisi olla hyödyllinen myös tilauspalveluissa, joissa käyttäjä voi lähettää tietyn peitenimen (joka EI ole solmun peitenimi tai oikea nimesi!), ja sen perusteella sinut voidaan rekisteröidä tai vastaanottaa tietty viesti tai mitä tahansa muuta. Alias-nimen ([LUD-18](https://github.com/lnurl/luds/blob/luds/18.md))+ kommentin ([LUD-12](https://github.com/lnurl/luds/blob/luds/12.md)) liittämisellä LN-maksuun voi olla useita käyttötarkoituksia!
 
 
-Tässä on [Lightning Boxin] (https://github.com/hsjoberg/lightning-box) koodi, jos käytät sitä itsellesi, perheellesi ja ystävillesi omalla solmullasi.
+Tässä on [Lightning Boxin](https://github.com/hsjoberg/lightning-box) koodi, jos käytät sitä itsellesi, perheellesi ja ystävillesi omalla solmullasi.
 
 
 Täällä voit myös käyttää [LSP Dunder -palvelinta](https://github.com/hsjoberg/dunder-lsp) Blixtin mobiilisolmuille ja tarjota likviditeettiä Blixtin käyttäjille, jos sinulla on hyvä julkinen LN-solmu (toimii vain LND:n kanssa).
@@ -606,7 +606,7 @@ MUISTUTUS:
 
 - Tee aina varmuuskopio kanavien tilasta (SCB) aina kun avaat tai suljet kanavan. Se vie vain muutaman sekunnin.
 - Älä säilytä vanhoja SCB-tiedostoja, jotta et mene sekaisin ja palauta niitä. Ovat täysin hyödyttömiä ja voivat käynnistää rangaistusmenettelyn, jos niitä käytetään. Käytä aina SCB-tiedoston viimeisintä versiota, jos jatkat palauttamista.
-- Tallenna SCB-tiedosto (on salattu teksti, jonka tiedostotunnus on .bin) pois laitteestasi turvalliseen paikkaan. Voit käyttää [LocalSend] (https://github.com/localsend/localsend) tämän tiedoston siirtämiseen tietokoneeseen tai muuhun laitteeseen.
+- Tallenna SCB-tiedosto (on salattu teksti, jonka tiedostotunnus on .bin) pois laitteestasi turvalliseen paikkaan. Voit käyttää [LocalSend](https://github.com/localsend/localsend) tämän tiedoston siirtämiseen tietokoneeseen tai muuhun laitteeseen.
 - Tallenna myös Blixt Wallet:n seed turvalliseen paikkaan, esimerkiksi offline-salasanahallintaan / salattuun USB-muistiin.
 
 
@@ -626,7 +626,7 @@ Kuten kirjoitin [Blixtin oppaiden sivulla](https://blixtwallet.github.io/guides)
 - avoimet tunnettujen LSP-solmujen ja yhteisön varmennettujen vertaisverkkojen kanssa. [Katso tästä luettelo](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
 - älä avaa satunnaisia Tor only -solmuja. Ne ovat arvottomia, ja saat vain ongelmia, jotka liittyvät siihen, että et voi suorittaa maksuja. Ei ole väliä kuinka hyvä ystäväsi "node runner" on, jolla on surkea Tor-solmu viidakossa, se ei koskaan anna sinulle parhaita reittejä liikkuvalle yksityiselle solmulle. Et avaa kanavia jonkun kanssa, koska hän on ystäväsi. Tämä ei ole Facebook! Avaat kanavan: hyvien reittien, pienten maksujen ja saatavuuden vuoksi.
 - ei tarvitse avata paska tonnia pieniä kanavia, 2-3 tai enintään 4, mutta hyvä määrä Sats. Älä avaa pieniä kanavia, ovat täysin hyödyttömiä. Pienemmät kuin 200k kännykälle ei ole paljon käyttöä.
-- pitää mielessä LSP:t, jotka tarjoavat saapuvia kanavia ja JIT-kanavia (just in time). Ne ovat erittäin hyödyllisiä, koska sinun ei tarvitse käyttää mitään UTXO-varojasi, vaan voit maksaa avautuvan kanavan varoilla, joita sinulla on jo muissa LN-lompakoissa, pinota ja valmistella niitä suuremman kanavan avaamista varten. Sinun pitäisi käyttää näitä JIT-kanavia eduksesi. [Olen selittänyt tässä oppaassa] (https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) enemmän vaihtoehtoja vertaisvertaisille yksityisille solmuille, kuten Blixtille. Myös [tässä tässä SN:ssä julkaistussa oppaassa](https://stacker.news/items/679242/r/DarthCoin) selitin, miten hallita yksityisten mobiilisolmujen likviditeettiä.
+- pitää mielessä LSP:t, jotka tarjoavat saapuvia kanavia ja JIT-kanavia (just in time). Ne ovat erittäin hyödyllisiä, koska sinun ei tarvitse käyttää mitään UTXO-varojasi, vaan voit maksaa avautuvan kanavan varoilla, joita sinulla on jo muissa LN-lompakoissa, pinota ja valmistella niitä suuremman kanavan avaamista varten. Sinun pitäisi käyttää näitä JIT-kanavia eduksesi. [Olen selittänyt tässä oppaassa](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) enemmän vaihtoehtoja vertaisvertaisille yksityisille solmuille, kuten Blixtille. Myös [tässä tässä SN:ssä julkaistussa oppaassa](https://stacker.news/items/679242/r/DarthCoin) selitin, miten hallita yksityisten mobiilisolmujen likviditeettiä.
 
 
 ---

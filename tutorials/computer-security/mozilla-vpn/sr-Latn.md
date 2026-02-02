@@ -153,7 +153,7 @@ Mozilla VPN vam omogućava da izaberete svoju lokaciju u dva formata:
 
 
 
-- Single-Hop: koji premešta IP Address vašeg računara i šifrira podatke na server u određenom odabranom regionu, u našem primeru Sofija u Belorusiji.
+- Single-Hop: koji premešta IP Address vašeg računara i šifrira podatke na server u određenom odabranom regionu, u našem primeru Sofija u Bugarskoj.
 
 
 

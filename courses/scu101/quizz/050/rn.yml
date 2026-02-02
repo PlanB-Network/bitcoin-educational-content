@@ -1,11 +1,10 @@
-question: Ni akahe kamaro k’amajambo banga y’igihe kimwe (HOTP na TOTP) ku SMS ya 2FA?
-answer: Bisaba guharura mu buryo bw’ibanga kandi bibikwa aho hantu aho kubibika mu mutwe.
+question: Ni akahe kamaro k’amajambo y'ibanga akoresha rimwe (HOTP na TOTP) kuri SMS ya 2FA?
+answer: Bisasaba ubuhinga bw'ibiharuro mu buryo bw’ibanga kandi aremerwa aho nyene kugikoresho yawe
 wrong_answers:
-  - Bisaba imibare y’ubuhinga bwa none kandi bibikwa mu mutwe aho kubibika mu karere.
-  - Ntibisaba imibare y’ubuhinga bwa none kandi bibikwa aho hantu no mu bwenge.
-  - Biroroshe kwibuka kandi vyihuta kwandika.
+  - Bisaba ibiharuro vy’ubuhinga bwa none kandi bibikwa mu mutwe aho kubibika mu kugikoresho cawe.
+  - Ntibisaba ibiharuro vy’ubuhinga bwa none kandi bibikwa aho hantu no mu bwenge.
+  - Biroroshe kwibuka kandi birihuta mukwandika.
 explanation: |
-  Ijambobanga ry'igihe kimwe (HOTP na TOTP) riratekanye kuruta SMS
-  kuko bisaba guharura mu buryo bw’ibanga kandi ni .
-  ibitswe mu karere aho kubibikwa mu ciyumviro.
+  Ijambobanga rikoreshwa (HOTP na TOTP) rirarinzwe kuruta SMS
+  kuko bisaba gubuhinga bw'ibiharuro mu buryo bw’ibanga kandi abikwa aho nyene kugikoresho yawe
 reviewed: true

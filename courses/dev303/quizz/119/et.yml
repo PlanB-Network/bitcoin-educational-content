@@ -1,0 +1,8 @@
+question: Milline Lightning Development Kit'i (LDK) põhiline arhitektuuriline piirang tekitab mobiilse wallet kasutajate jaoks kõige tõsisema tegevusriski võrgutasude tõusu ajal?
+answer: Ankurväljundite puudumine, mis takistab kanali sundsulgemist, kui eelseadistatud tasud muutuvad tehingu kinnitamiseks ebapiisavaks
+wrong_answers:
+  - LNURL-toe puudumine, mis nõuab kõikide Lightning-tehingute puhul käsitsi arve koostamist ja maksete töötlemist
+  - Puuduv võrgugraafi sünkroniseerimine, mis põhjustab maksete marsruutimise tõrkeid, kui mobiilirakendused käivituvad uuesti pärast pikemaid ajavahemikke
+  - Ebapiisav kanalireservi haldamine, mis viib fondide lukustumiseni, kui kasutajad üritavad kulutada kogu näidatud saldot
+explanation: |
+  Ankurväljundite puudumine LDK-s tekitab kriitilise haavatavuse, kus kanaleid ei saa tasu tõusu ajal sundkinnitada, sest eelseadistatud tasud muutuvad plokiahela kinnitamiseks ebapiisavaks. See on eriti ohtlik mobiilsete rahakottide puhul, kus kasutajad võivad jätta rakenduse kasutamata ilma koostööta sulgemiseta, mistõttu võivad vahendid jääda määramata ajaks seisma. Kuigi LNURLi puudumine mõjutab kasutajakogemust ja marsruutimisprobleemid mõjutavad usaldusväärsust, ei tekita kumbki neist eksistentsiaalset ohtu fondide taastamisele, mida ankurdatud väljundi piirangud kujutavad endast kõrgete tasude keskkondade ajal.

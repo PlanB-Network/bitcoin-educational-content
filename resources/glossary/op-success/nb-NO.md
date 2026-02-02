@@ -1,6 +1,7 @@
 ---
 term: OP_SUCCESS
 
+definition: Opcodes reservert i Tapscript som indikerer automatisk suksess, brukt til fremtidige soft forks.
 ---
 OP_SUCCESS representerer en rekke opkoder som tidligere har vært deaktivert, og som nå er reservert for fremtidig bruk i Tapscript. Målet er å gjøre det enklere å oppdatere og utvide skriptspråket ved å tillate innføring av nye funksjoner via soft forks. Når en av disse opkodene dukker opp i et skript, betyr det at den delen av skriptet automatisk er fullført, uavhengig av hvilke data eller betingelser som er til stede. Dette betyr at skriptet fortsetter kjøringen uten feil, uavhengig av tidligere operasjoner.
 

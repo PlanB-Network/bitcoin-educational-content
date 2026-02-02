@@ -6,4 +6,4 @@ wrong_answers:
   - Instalar aplicaciones fuera de Play Store
 explanation: |
   Shelter le permite utilizar la función Perfil de trabajo para separar aplicaciones y datos en un espacio aislado.
-reviewed: false
+reviewed: true

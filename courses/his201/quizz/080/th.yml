@@ -1,0 +1,9 @@
+question: ชื่อโดเมนใดที่ฟอรัม Bitcoin ย้ายไปเมื่อวันที่ 1 สิงหาคม 2011?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  หลังจากย้ายไปที่ forum.bitcoin.org เมื่อวันที่ 17 พฤษภาคม มันได้เปลี่ยนไปใช้ URL bitcointalk.org เริ่มตั้งแต่วันที่ 1 สิงหาคม ตลอดหลายปีที่ผ่านมา มันจะเป็นที่รู้จักในชื่อ BitcoinTalk.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Apache 2.0
 explanation: |
   umbrelOS est publié sous la licence PolyForm Noncommercial 1.0, qui interdit les usages commerciaux mais autorise l’usage personnel.
-reviewed: false
+reviewed: true 

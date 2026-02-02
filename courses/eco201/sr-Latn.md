@@ -1,26 +1,18 @@
 ---
-name: Uvod u austrijsku ekonomiju
-goal: Otkrijte austrijsku školu ekonomske misli. Proučite njihove poglede na društvo i makro/mikro-ekonomske stvarnosti.
-objectives: 
-
-  - Alternativa kejnzijanizmu
-  - Važnost čvrste valute
-  - Zašto i kako nastaju naši ekonomski ciklusi?
-  - Zašto su centralni bankari poludeli?
-
+name: Osnove austrijske ekonomske škole
+goal: Otkrijte austrijsku ekonomiju kao alternativni okvir za analizu tržišta i individualnog donošenja odluka
+objectives:
+- Analizirati funkcije novca, kredita i sistema centralnog bankarstva
+- Primeniti teoriju subjektivne vrednosti i vremenske preferencije na tržišno ponašanje
+- Razumeti austrijsku teoriju poslovnog ciklusa i njene uzroke
+- Uporediti austrijsku metodologiju sa glavnim ekonomskim pristupima
 ---
+# Putovanje u austrijsku ekonomiju
 
-# Putovanje u ekonomiju
+Da li ste se ikada zapitali zašto neki ekonomisti razmišljaju drugačije o tržištima, slobodi i ljudskom ponašanju? Austrijska ekonomija nudi osvežavajuću perspektivu koja vas stavlja u centar ekonomskog razmišljanja. Umesto teške matematike i apstraktnih modela, ovaj pristup se fokusira na logiku, ljudski izbor i način na koji pravi ljudi donose odluke u svom svakodnevnom životu. To je ekonomija kroz prizmu slobode, racionalnosti i ličnog delovanja.
 
-
-Dobrodošli na kurs Théo-a Mogeneta! Strastven prema ekonomiji, istoriji, književnosti, političkim naukama i tehnologiji, odlučio je da podeli svoje znanje o austrijskoj ekonomiji sa vama. Ova grana, manje poznata u ekonomiji, zasniva se na ljudskoj racionalnosti i slobodnom ponašanju aktera. Manje intenzivna u matematici, pre svega se bavi logikom i društvenim studijama.
-
-
-Ova škola mišljenja već ima nekoliko vekova iza sebe i čitavu panoramu autora, misli i ekonomista iza sebe. Velika imena u ekonomiji kao što su Hayek, Rothbard, Mises, Bastiat ili Menger dugo su branili ovaj pokret. Za razliku od sveprisutnog kejnzijanizma našeg doba, austrijska škola vraća pojedinca ponovo u centar jednačine sa liberalnijim, kapitalističkim, pa čak i anarhističkim pristupom.
-
-
+Ova škola mišljenja je oblikovala debate vekovima, zahvaljujući uticajnim misliocima poput Hajeka, Mizesa i Bastijata. Dok kejnzijanska ekonomija dominira današnjim političkim diskusijama, austrijska tradicija postavlja drugačija pitanja: Šta se dešava kada dajemo prioritet individualnoj slobodi? Kako slobodna tržišta zapravo funkcionišu kada ljudi imaju slobodu izbora? Ako ste radoznali o alternativnim načinima razmišljanja o tržištima, društvu i slobodi, ovo je vaša prilika da istražite ideje koje nećete naći u standardnim udžbenicima.
 +++
-
 # Uvod
 
 
@@ -778,10 +770,9 @@ Posledice takve pogrešne alokacije uključuju finansijske i ekonomske krize, sm
 Danas se debata o ekonomskoj kalkulaciji ponovo pojavljuje prvenstveno u diskusijama o energiji, gde su pogrešne investicije vođene zelenom agendom sve očiglednije. Takođe se javlja u diskusijama o tržištima novca, gde austrijski ekonomisti ističu da je kriza iz 2008. godine, koju glavni ekonomisti nisu uspeli da predvide, bila klasičan ciklus buma i kraha karakterisan prekomernim ulaganjima u tržište nekretnina zbog dugih perioda niskih kamatnih stopa. Štaviše, neo-marksisti i druge socijalističke frakcije šire ideju da bi pojava veštačke inteligencije mogla rešiti problem ekonomske kalkulacije. Međutim, ova perspektiva proizlazi iz pogrešnog razumevanja problema; problem ekonomske kalkulacije nije pitanje računarske snage već pitanje generisanja i distribucije informacija vezanih za proizvodnju i alokaciju resursa. Ove informacije mogu biti generisane samo lokalno od strane agenata sa specijalizovanim znanjem i ličnim interesom u ishodu. Veštačka inteligencija ne može zameniti ovaj proces odozdo prema gore i stoga ne može pomoći centralnim planerima da reše problem alokacije resursa. Nažalost, zbog jednog veka nerazumevanja, očekujemo proliferaciju tvrdnji da će veštačka inteligencija doneti novu eru ekonomske prosperiteta vođenu prosvetljenim centralnim planerima koji, uz pomoć veštačke inteligencije, mogu ispraviti neuspehe slobodnih tržišta.
 
 
-Za konkretan primer primene problema ekonomskog obračuna na savremenu situaciju, možete se pozvati na ovaj članak koji se bavi problemom raspodele resursa u modernoj Kini.
+Za konkretnu primenu problema ekonomske kalkulacije na savremenu situaciju, možete se pozvati na ovaj članak koji se bavi alokacijom resursa u modernoj Kini: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, autora Théa Mogeneta.
 
 
-> Put do finansijske represije: Kina papirni tigar, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Zaključak

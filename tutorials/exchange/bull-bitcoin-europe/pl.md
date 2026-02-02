@@ -183,7 +183,7 @@ Jeśli nie jesteś zaznajomiony z korzystaniem z portfeli Bitcoin, Lightning lub
 
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Możesz również zapoznać się z [naszymi szczegółowymi samouczkami na temat najlepszych portfeli Bitcoin] (https://planb.academy/tutorials/wallet).
+Możesz również zapoznać się z [naszymi szczegółowymi samouczkami na temat najlepszych portfeli Bitcoin](https://planb.academy/tutorials/wallet).
 
 
 Następnie potwierdź zakup, klikając przycisk "*Potwierdź zakup*".
@@ -285,6 +285,14 @@ Aby śledzić wszystkie swoje transakcje, możesz sprawdzić historię w menu "*
 
 ![BULL](assets/fr/36.webp)
 
+
+## Rozpocznij automatyczny cykliczny zakup (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Utwórz zlecenie z limitem ceny
+
+![video](https://youtu.be/6Jlu19jlk7U)
 
 Teraz już wiesz, jak łatwo kupować i sprzedawać Bitcoin za pomocą Bull Bitcoin. Jeśli uważasz ten poradnik za przydatny, będę bardzo wdzięczny, jeśli umieścisz poniżej kciuk Green. Zapraszam do udostępnienia tego artykułu w sieciach społecznościowych. Dziękuję bardzo!
 

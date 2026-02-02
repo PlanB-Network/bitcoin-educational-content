@@ -1,31 +1,18 @@
 ---
-name: BitcoinとBTCペイサーバー
-goal: BTC Payサーバーのインストール
-objectives: 
-
-  - btcpayserver が何であるかを理解してください。
-  - BTC Payサーバーをセルフホストし、設定します。
-  - 日常業務にbtcpayserverをご利用ください。
-
+name: BTC Pay Serverをマスターする
+goal: 地元企業向けにBTC Pay Serverインスタンスを設定する
+objectives:
+- 決済処理におけるBTCPay Serverの役割の基礎を理解する
+- BTCPay Serverの設定プロセスの内部動作を習得する
+- クラウドおよびノードベースの環境にBTCPay Serverを展開する
+- BTC Pay Serverのオペレーターになる
 ---
+# 金融主権への旅
 
-# BitcoinとBTCPayサーバー
+信頼は脆いものです、特にお金に関しては。この入門コースでは、第三者に依存せずにBitcoin決済を受け入れることができる強力なツールであるBTCPay Serverをご案内します。BTCPay Serverオペレーターになるための基礎を学びます
 
-
-これはAlekosとBasによって書かれたBTCPayサーバーオペレーターの入門コースで、melontwistとasi0によってPlan ↪Sc_20BFのコースフォーマットに適応されました。
-
-
-未完の物語
-
-
-「これは嘘だ、あなたへの信頼は崩れた、あなたを廃人にしてやる」。
-
-
-BTCPayサーバー財団が制作
-
-
+AlekosとBasによって作成され、melontwistとasi0によって改編されたこのコースは、個人や企業が従来の決済システムに代わるものをどのように構築しているかを明らかにします。Bitcoinに興味がある方でも、企業向けの決済インフラを運用する準備ができている方でも、現状に挑戦する実践的なスキルを発見できます。金融的自立が実際にどのようなものかを探求する準備はできていますか?
 +++
-
 # はじめに
 
 
@@ -740,14 +727,15 @@ BTCPayサーバーは、以下のWallet標準機能で構成されています�
 管理者は、トランザクションビューで、この特定のストアに接続されている On-Chain Wallet の送受信トランザクションを確認できます。各トランザクションには、受信金額と送信金額の区別があります。受信トランザクションは Green となり、送信トランザクションは赤色となります。BTCPay サーバーのトランザクション・ビューでは、管理者は標準ラベルのセットも見ることができます。
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| 取引タイプ | 説明                                               |
+| ------------ | -------------------------------------------------- |
+| アプリ        | アプリで作成された請求書を通じて支払いが受領されました |
+| 請求書        | 請求書を通じて支払いが受領されました               |
+| Payjoin       | 未払い、請求書のタイマーはまだ期限切れではありません |
+| Payjoin公開   | 請求書のPayjoin提案を通じてUTXOが公開されました    |
+| 支払いリクエスト | 支払いリクエストを通じて支払いが受領されました |
+| 支払い        | 支払いまたは返金を通じて支払いが送信されました     |
 
 ### 送信方法
 
@@ -1818,28 +1806,30 @@ BTCPay Serverはデータを収集しないので、ストアオーナーはチ�
 BTCPay Serverでは、コードでフォームを構築することもできます。特にJSONです。ストアオーナーはエディターを見る代わりに、エディターのすぐ隣にあるCODEボタンをクリックしてフォームのコードに入ることができます。フィールド定義では以下のフィールドのみを設定できます。フィールドの値は Invoice のメタデータに保存されます：
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| フィールド | 説明 |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | true の場合、.value をフォーム定義で設定する必要があり、ユーザーはフィールドの値を変更できなくなります。（例：フォーム定義のバージョン） |
+| .fields.type | HTML 入力タイプ：text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | .fields.type が select の場合、選択可能な値のリスト |
+| .fields.options.text | このオプションに対して表示されるテキスト |
+| .fields.options.value | このオプションが選択された場合のフィールドの値 |
+| .fields.type=fieldset | 子要素 .fields.fields の周囲に HTML fieldset を作成します（以下を参照） |
+| .fields.name | 請求書のメタデータに表示されるフィールドの JSON プロパティ名 |
+| .fields.value | フィールドのデフォルト値 |
+| .fields.required | true の場合、フィールドは必須になります |
+| .fields.label | フィールドのラベル |
+| .fields.helpText | フィールドの説明を提供するための追加テキスト。 |
+| .fields.fields | フィールドを階層構造で整理し、請求書のメタデータ内に子フィールドをネストさせることができます。この構造により、収集した情報をより適切に整理・管理でき、アクセスや解釈が容易になります。たとえば、顧客情報を収集するフォームがある場合、customer という親フィールドの下に各フィールドをグループ化できます。この親フィールドの中に、name、Email、address といった子フィールドを含めることができます。 |
 
 フィールド名は、Invoice のメタデータにユーザー提供値を格納する JSON プロパティ名を表します。よく知られている名前は、Invoice の設定を調整するために解釈し、変更することができます。
 
 
-| Field name       | Description            |
+
+| フィールド名       | 説明                  |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | 請求書の金額          |
+| invoice_currency | 請求書の通貨          |
 
 フォームのURLに"?your_field=value "のようなクエリー文字列を追加することで、Invoiceのフィールドを自動的にプリフィルすることができます。
 
@@ -2095,7 +2085,7 @@ BTCPayは、LNDのGRPCサービスを外部に公開します。この特定の�
 #### LND (REST)
 
 
-BTCPayはLNDのRESTサービスを外部向けに公開しています。互換性のあるウォレットはここにリストされています。BTCPayサーバーは接続用のQRコードを提供しており、これをスキャンして互換性のあるWalletで適用することができます。
+BTCPayはLNDのRESTサービスを外部向けに公開しています。互換性のあるウォレットは[ここ](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay)にリストされています]。BTCPayサーバーは接続用のQRコードを提供しており、これをスキャンして互換性のあるWalletで適用することができます。
 
 
 
@@ -2289,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| ログ           | コンテナ名                         |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2480,21 +2471,22 @@ BTCPay Serverの中核は、Bitcoin Invoice管理システムとして機能す�
 以下の表は、BTCPayの標準的なInvoiceステータスと、推奨される一般的なアクションを一覧にして説明しています。アクションはあくまで推奨事項です。各ユースケースやビジネスに最適なアクションを定義するのはユーザー次第です。
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| 請求書ステータス | 説明 | アクション |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | 未払い。請求書タイマーはまだ期限切れではありません | なし |
+| New (paidPartial) | 部分的な支払い済み。請求書タイマーはまだ期限切れではありません | なし |
+| Expired | 未払い。請求書タイマーが期限切れです | なし |
+| Expired (paidPartial) ** | 部分的な支払い済みですが、期限切れです | 購入者に連絡して返金を調整するか、不足分の支払いを依頼してください。オプションで請求書を settled または invalid に設定できます |
+| Expired (paidLate) | 請求書タイマーの期限切れ後に全額支払い済み | 購入者に連絡して返金を調整するか、遅延確認が許容される場合は注文を処理してください。 |
+| Settled (paidOver) | 請求額以上の支払い済み、決済完了、十分な承認数を受信済み | 購入者に連絡して超過分の返金を調整するか、オプションで購入者からの連絡を待ちます |
+| Processing | 全額支払い済みですが、ストア設定で指定された十分な承認数を受信していません | 購入者に連絡して超過分の返金を調整するか、オプションで購入者からの連絡を待ちます |
+| Processing (paidOver) | 請求額以上の支払い済みですが、十分な承認数を受信していません | 決済完了まで待ち、その後購入者に超過分の返金を調整するか、オプションで購入者からの連絡を待ちます |
+| Settled | 全額支払い済み。ストアで十分な承認数を受信しました | 注文を履行してください |
+| Settled (marked) | ステータスが processing または invalid から手動で settled に変更されました | ストア管理者が支払いを settled としてマークしました |
+| Invalid* | 支払い済みですが、ストア設定で指定された時間内に十分な承認数を受信できませんでした | ブロックチェーンエクスプローラーで取引を確認し、十分な承認がある場合は settled としてマークしてください |
+| Invalid (marked) | ステータスが settled または expired から手動で invalid に変更されました | ストア管理者が支払いを invalid としてマークしました |
+| Invalid (paidOver) | 請求額以上の支払い済みですが、ストア設定で指定された時間内に十分な承認数を受信できませんでした | ブロックチェーンエクスプローラーで取引を確認し、十分な承認がある場合は settled としてマークしてください |
 
 #### Invoice詳細
 

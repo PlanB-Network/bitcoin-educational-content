@@ -1,0 +1,8 @@
+question: Was ist der primäre Zweck der Namespace-Deklaration in einer UniFFI UDL-Datei?
+answer: Bereitstellung eines Containers für Funktionen, die direkt aufgerufen werden können, ohne dass eine Objektinstanzierung erforderlich ist
+wrong_answers:
+  - So definieren Sie die Paketstruktur und die Importabhängigkeiten für die generierten Sprachbindungen
+  - So geben Sie die Zielprogrammiersprachen an, die die Rust-Bibliothek über UniFFI verwenden sollen
+  - Festlegung der Speicherverwaltungsstrategie für sprachenübergreifende Daten-Marshaling-Operationen
+explanation: |
+  Der Namespace in UniFFI's UDL dient als Container für eigenständige Funktionen, die direkt aufgerufen werden können, ohne dass vorher Objekte erstellt werden müssen. Diese Namespace-Funktionen verarbeiten typischerweise einfache Operationen, die Werte als Parameter annehmen und Ergebnisse zurückgeben. Die anderen Optionen sind falsch, weil: Paketstruktur und Importe werden automatisch durch den Bindungsgenerierungsprozess gehandhabt, die Zielsprachen werden während des Build-Prozesses und nicht in der UDL-Datei angegeben, und die Speicherverwaltung wird transparent von UniFFIs Laufzeitschicht gehandhabt, anstatt explizit in Namespaces deklariert zu werden.

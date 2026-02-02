@@ -1,6 +1,7 @@
 ---
-term: COIN CONTROL
+term: Coin control
 
+definition: Ominaisuus, jonka avulla voidaan manuaalisesti valita siirron syötteinä käytettävät UTXOt.
 ---
 Joidenkin Bitcoin-lompakko-ohjelmistojen ominaisuus, joka antaa käyttäjille mahdollisuuden valita manuaalisesti tiettyjä UTXO:ita (Unspent Transaction Outputs) käytettäväksi syötteenä transaktiota tehtäessä. Toisin sanoen kolikonhallinta tarjoaa mahdollisuuden valita tarkasti, mitkä bitcoinit käytetään. Tämä toiminto on samankaltainen kuin jos valitsisit lompakostasi tietyn kolikon maksaaksesi patongin.
 

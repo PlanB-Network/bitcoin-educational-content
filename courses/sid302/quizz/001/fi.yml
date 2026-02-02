@@ -1,0 +1,8 @@
+question: Kuinka monta toiminnon allekirjoitusta tarvitaan lohkon validointiin Liquid Network:ssa?
+answer: Vähintään 11 toimihenkilön 15:stä on allekirjoitettava
+wrong_answers:
+  - Vähintään 8:n 15:stä toimihenkilöstä on allekirjoitettava
+  - Vähintään 10 toimihenkilön 15:stä on allekirjoitettava
+  - Vähintään 12 toimihenkilön 15:stä on allekirjoitettava
+explanation: |
+  Liquid Network:n mukaan lohkon vahvistaminen edellyttää, että vähintään 11 toimihenkilöä 15:stä on allekirjoittanut sen, mikä vastaa kahden kolmasosan plus yhden toimihenkilön kynnystä. Tämä erityisvaatimus takaa vankan konsensuksen ja estää samalla pienen ryhmän hallitsemasta verkkoa. Muut vaihtoehdot ovat virheellisiä: 8 allekirjoitusta olisi turvallisuuden kannalta liian vähän, 10 ei täyttäisi kahden kolmasosan kynnystä ja 12 olisi tavanomaisen toiminnan kannalta tarpeettoman rajoittavaa.

@@ -1,0 +1,9 @@
+question: Hvor mange ord inneholder LND-merkesetningen?
+answer: 24 ord
+wrong_answers:
+  - 10 ord
+  - 18 ord
+  - 36 ord
+explanation: |
+  LND generate er en 24 ord lang huskeregel for sikkerhetskopiering og gjenoppretting av noder.
+reviewed: false

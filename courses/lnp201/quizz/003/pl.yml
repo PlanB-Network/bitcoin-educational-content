@@ -6,4 +6,4 @@ wrong_answers:
   - W razie potrzeby może pożyczyć środki od drugiego uczestnika.
 explanation: |
   Każdy uczestnik jest ograniczony ilością satów, które posiada w kanale dla swoich transakcji, zapewniając, że fundusze zawsze mają pokrycie.
-reviewed: false
+reviewed: true

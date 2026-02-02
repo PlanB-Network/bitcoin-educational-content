@@ -436,7 +436,7 @@ Selv om det har visse begrensninger (ingen automatiske oppdateringer, redusert k
 
 
 - [LibreWolfs offisielle nettside](https://librewolf.net)
-- [Kildekode på Codeberg] (https://codeberg.org/librewolf)
+- [Kildekode på Codeberg](https://codeberg.org/librewolf)
 - [Offisiell FAQ](https://librewolf.net/docs/faq)
 
 
@@ -446,8 +446,8 @@ Selv om det har visse begrensninger (ingen automatiske oppdateringer, redusert k
 
 
 
-- [Personvernveiledninger] (https://www.privacyguides.org/en/desktop-browsers/)
-- [Sammenlignende personverntester] (https://privacytests.org)
+- [Personvernveiledninger](https://www.privacyguides.org/en/desktop-browsers/)
+- [Sammenlignende personverntester](https://privacytests.org)
 
 
 
@@ -456,5 +456,5 @@ Selv om det har visse begrensninger (ingen automatiske oppdateringer, redusert k
 
 
 
-- [Subreddit r/LibreWolf] (https://www.reddit.com/r/LibreWolf/)
+- [Subreddit r/LibreWolf](https://www.reddit.com/r/LibreWolf/)
 - [Canal Matrix LibreWolf](https://matrix.to/#/#librewolf:matrix.org)

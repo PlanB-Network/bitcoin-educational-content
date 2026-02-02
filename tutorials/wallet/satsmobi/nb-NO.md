@@ -7,12 +7,12 @@ description: En Telegram-tilgjengelig forvaringsenhet Wallet
 ![cover](assets/cover.webp)
 
 
-_Denne opplæringen ble skrevet av_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+_Denne opplæringen ble skrevet av_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 ## Sats.Mobi
 
-SatsMobi er en Wallet som opererer på Telegram, med alle funksjonene til en Lightning Network (custodial) Wallet, pluss en rekke veldig underholdende funksjoner. Den stammer fra en Fork av den nå nedlagte LightningTipBot, og arver alle dens funksjoner samtidig som den legger til flere aktuelle funksjoner, og dermed gjør den mer moderne. I likhet med LNTipBot omfavner Sats.Mobi også åpen kildekode-filosofien. Wallet kan konfigureres og administreres uavhengig ved å klone den fra dette [repository] (https://github.com/massmux/SatsMobiBot).
+SatsMobi er en Wallet som opererer på Telegram, med alle funksjonene til en Lightning Network (custodial) Wallet, pluss en rekke veldig underholdende funksjoner. Den stammer fra en Fork av den nå nedlagte LightningTipBot, og arver alle dens funksjoner samtidig som den legger til flere aktuelle funksjoner, og dermed gjør den mer moderne. I likhet med LNTipBot omfavner Sats.Mobi også åpen kildekode-filosofien. Wallet kan konfigureres og administreres uavhengig ved å klone den fra dette [repository](https://github.com/massmux/SatsMobiBot).
 
 
 Hvis du foretrekker å bruke det enkelt, vil det å starte en chat på Telegram avsløre at det er en bot.
@@ -20,10 +20,10 @@ Hvis du foretrekker å bruke det enkelt, vil det å starte en chat på Telegram 
 
 ## Innstillinger
 
-Fra Telegram-søkefeltet, se etter "satsmobi", og lenken til [bot] (@SatsMobiBot) vises.
+Fra Telegram-søkefeltet, se etter "satsmobi", og lenken til [bot](@SatsMobiBot) vises.
 
 
-**Attention**: Hvis du ikke er sikker på om du vil søke via Telegram, kan du få sikker tilgang til boten ved å bruke følgende [link] (https://t.me/SatsMobiBot)
+**Attention**: Hvis du ikke er sikker på om du vil søke via Telegram, kan du få sikker tilgang til boten ved å bruke følgende [link](https://t.me/SatsMobiBot)
 
 
 ![image](assets/it/01.webp)
@@ -232,5 +232,5 @@ Hvis du er på utkikk etter lommebøker som ikke er frihetsberøvende Lightning 
 ### Dokumentasjon
 
 
-- [Github] (https://github.com/massmux/SatsMobiBot)
-- Spilleliste med [videoer] (https://www.youtube.com/results?search_query=Sats.mobi) demo
+- [Github](https://github.com/massmux/SatsMobiBot)
+- Spilleliste med [videoer](https://www.youtube.com/results?search_query=Sats.mobi) demo

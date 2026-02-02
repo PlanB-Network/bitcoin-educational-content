@@ -1,5 +1,6 @@
 ---
-term: OFF-GRID
+term: Fora da rede
+definition: Mineração autónoma utilizando fontes de energia alternativas, fora da rede elétrica principal.
 ---
 
 Refere-se a uma operação Bitcoin Mining que funciona de forma autónoma, sem estar ligada à rede eléctrica principal. As minas fora da rede utilizam geralmente fontes de energia alternativas, como a energia solar, eólica ou hidroelétrica, ou mesmo geradores que funcionam com combustíveis fósseis (por exemplo, gás para queima). Este modelo é muitas vezes preferido para reduzir os custos energéticos, uma vez que se baseia em parte na energia que, sem o Mining, seria desperdiçada. Os mineiros off-grid têm a vantagem de se poderem instalar em locais isolados, de modo a consumir esta energia demasiado longe das populações.

@@ -1,0 +1,9 @@
+question: ไฟล์การกำหนดค่าที่กำหนดอินเทอร์เฟซเครือข่ายแบบคงที่บนระบบที่คล้าย RHEL คือไฟล์ใด?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  บนระบบ RHEL, CentOS และระบบที่คล้ายกัน แต่ละอินเทอร์เฟซจะมีไฟล์ ifcfg-* ของตัวเองซึ่งอยู่ใน /etc/sysconfig/network-scripts/.
+reviewed: false

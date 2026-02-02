@@ -1,0 +1,8 @@
+question: Dalam struktur pesan jaringan Bitcoin P2P, data spesifik apa yang membentuk bidang checksum 4-byte dalam setiap amplop pesan?
+answer: 4 byte pertama dari hash256 dari muatan pesan
+wrong_answers:
+  - 4 byte pertama dari hash SHA256 dari seluruh amplop pesan
+  - 4 byte pertama dari hash256 bidang perintah digabungkan dengan muatan
+  - 4 byte pertama dari hash RIPEMD160 dari muatan pesan
+explanation: |
+  Amplop pesan P2P Bitcoin menggunakan mekanisme checksum khusus di mana bidang checksum 4-byte berisi 4 byte pertama dari hash256 yang diterapkan pada muatan pesan saja. Hal ini memberikan verifikasi integritas untuk data payload selama transmisi jaringan. Opsi lainnya tidak benar karena mereka merujuk pada fungsi hash yang berbeda (SHA256 tunggal, RIPEMD160) atau data input yang berbeda (seluruh amplop, perintah + payload) dari apa yang sebenarnya diimplementasikan oleh Bitcoin dalam protokol jaringannya.

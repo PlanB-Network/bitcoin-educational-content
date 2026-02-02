@@ -39,8 +39,8 @@ För att ladda ner Bitstack-applikationen, gå till din applikationsbutik:
 
 
 
-- [Ladda ner från Google Play Store] (https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
-- [Ladda ner på App Store] (https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-Bitcoin/id1608783388)
+- [Ladda ner från Google Play Store](https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
+- [Ladda ner på App Store](https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-Bitcoin/id1608783388)
 
 
 ![Image](assets/fr/02.webp)
@@ -271,7 +271,7 @@ Bestäm transaktionens prioritet. För ett avgiftsfritt uttag väljer du "*Stand
 ![Image](assets/fr/32.webp)
 
 
-Om du inte är bekant med hur en Wallet med egen förvaring fungerar, erbjuder vi handledning i de flesta av de lösningar som finns [på Plan ₿ Academy i avsnittet "*Wallet*"] (https://planb.academy/tutorials/wallet).
+Om du inte är bekant med hur en Wallet med egen förvaring fungerar, erbjuder vi handledning i de flesta av de lösningar som finns [på Plan ₿ Academy i avsnittet "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 
 ## Säljer Bitcoin

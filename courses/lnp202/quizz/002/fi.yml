@@ -1,0 +1,9 @@
+question: Mikä on Lightning-kanava Bitcoin onchainin näkökulmasta?
+answer: Multisigluonnon ulostulo 2/2
+wrong_answers:
+  - Käsikirjoitus P2MS 2/2
+  - UTXO yksittäinen
+  - Federoitu sopimus
+explanation: |
+  Ketjussa Lightning-kanavaa edustaa usean allekirjoituksen tuloste, joka edellyttää molempien osallistujien allekirjoituksia.
+reviewed: false

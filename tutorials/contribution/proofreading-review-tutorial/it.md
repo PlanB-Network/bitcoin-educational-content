@@ -1,6 +1,6 @@
 ---
 name: Proofreading o revisione di contenuti
-description: Come revisionare i contenuti di Plan ₿ Network?
+description: Come revisionare i contenuti di Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
@@ -13,11 +13,11 @@ Se non hai capito quello che hai appena letto, non preoccuparti: questo tutorial
 ---
 ## Che cos'è Plan ₿ Academy?
 
-Plan ₿ Network è una piattaforma dedicata allo studio di Bitcoin attraverso numerosi corsi e tutorial per tutti. Attualmente, tutti i nostri contenuti sono open-source, e si trovano su un repository GitHub, aperto a collaborazioni esterne per la revisione e la creazione di contenuti.
+Plan ₿ Academy è una piattaforma dedicata allo studio di Bitcoin attraverso numerosi corsi e tutorial per tutti. Attualmente, tutti i nostri contenuti sono open-source, e si trovano su un repository GitHub, aperto a collaborazioni esterne per la revisione e la creazione di contenuti.
 
-Plan ₿ Network mira a diventare uno spazio pubblico nel cyberspazio Bitcoin, collegando le community Bitcoin sparse in tutto il mondo.
+Plan ₿ Academy mira a diventare uno spazio pubblico nel cyberspazio Bitcoin, collegando le community Bitcoin sparse in tutto il mondo.
 
-## Perché collaborare con Plan ₿ Network?
+## Perché collaborare con Plan ₿ Academy?
 
 Plan ₿ Academy è fondamentalmente multilingue, poiché il nostro obiettivo è quello di rendere le risorse su Bitcoin accessibili a tutti, in tutto il mondo. Crediamo che la lingua non debba essere un ostacolo per l'utilizzo della moneta libera.
 
@@ -37,7 +37,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ## 1. Crea un account
 
-- Crea un account su [GitHub](https://github.com/) per iniziare a collaborare con Plan ₿ Network. Se ti serve una guida sulla creazione del tuo account GitHub, puoi cliccare sul tutorial menzionato qui sopra.
+- Crea un account su [GitHub](https://github.com/) per iniziare a collaborare con Plan ₿ Academy. Se ti serve una guida sulla creazione del tuo account GitHub, puoi cliccare sul tutorial menzionato qui sopra.
 
 - Avrai anche bisogno di un account sull'app di messaggistica [Telegram](https://telegram.org/).
 
@@ -146,7 +146,7 @@ https://planb.academy/tutorials/contribution/content/proofreading-guidelines-523
 ![REVIEW](assets/fr/12.webp)
 
 
-- Grazie mille per il tuo aiuto! Dopo l'approvazione, un coordinatore del repo di Plan ₿ Network ti contatterà per inviati la tua ricompensa. \**I pagamenti vengono effettuati esclusivamente tramite la rete Lightning\**.
+- Grazie mille per il tuo aiuto! Dopo l'approvazione, un coordinatore del repo di Plan ₿ Academy ti contatterà per inviati la tua ricompensa. \**I pagamenti vengono effettuati esclusivamente tramite la rete Lightning\**.
 - Se vuoi effettuare una nuova revisione, torna al punto 2 e invia un nuovo messaggio sul gruppo Telegram. In questo modo, potrai iniziare a lavorare su un altro contenuto. Assicurati di sincronizzare il tuo fork prima di creare un nuovo branch di lavoro. Per farlo, vai nella homepage del tuo fork, seleziona il branch principale chiamato `dev` (cfr. **A**), quindi clicca sul pulsante "Sync fork" (cfr. **B**). Se sono disponibili aggiornamenti per il tuo fork, apparirà un pulsante "Update branch". Ti basterà cliccarlo per eseguire l'aggiornamento.
 
 ![REVIEW](assets/fr/16.webp)

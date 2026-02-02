@@ -1,0 +1,9 @@
+question: Кое събитие принуди Google да преориентира Android към чувствителен на допир Interface?
+answer: Пускането на първия iPhone
+wrong_answers:
+  - Поглъщането на Nokia от Microsoft
+  - Създаването на CyanogenMod
+  - Стартирането на Play Store
+explanation: |
+  Появата на iPhone през 2007 г. принуди Google да преосмисли Android, за да го направи съвместим със сензорни екрани, като изостави идеята за устройство с физическа клавиатура.
+reviewed: false

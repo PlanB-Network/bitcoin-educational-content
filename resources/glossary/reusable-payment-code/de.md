@@ -1,6 +1,7 @@
 ---
-term: WIEDERVERWENDBARER ZAHLUNGSCODE
+term: Wiederverwendbarer Zahlungscode
 
+definition: Statischer Bezeichner aus BIP47, der es ermöglicht, eindeutige Adressen abzuleiten, ohne Adressen wiederzuverwenden.
 ---
 In BIP47 ist ein wiederverwendbarer Zahlungscode ein statischer Bezeichner, der von einer Bitcoin-Wallet generiert wird und eine Benachrichtigungstransaktion und die Ableitung eindeutiger Adressen ermöglicht. Dadurch wird die Wiederverwendung von Adressen vermieden, die zu einem Verlust der Privatsphäre führt, ohne dass für jede Zahlung manuell neue, unbenutzte Adressen abgeleitet und übertragen werden müssen. In BIP47 werden wiederverwendbare Zahlungscodes wie folgt konstruiert:
 

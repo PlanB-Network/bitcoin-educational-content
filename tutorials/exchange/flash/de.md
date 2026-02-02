@@ -23,7 +23,7 @@ In diesem Tutorial werfen wir einen Blick auf Flash, eine beninische Lösung, mi
 
 
 
-Flash ist eine von [BlockSolut] (https://bitcoinflash.xyz) entwickelte Exchange-Plattform, die in mehreren westafrikanischen Ländern tätig ist. Die Hauptaufgabe von Flash besteht darin, den Erwerb, Exchange und die Nutzung von Bitcoin im Alltag zu erleichtern.
+Flash ist eine von [BlockSolut](https://bitcoinflash.xyz) entwickelte Exchange-Plattform, die in mehreren westafrikanischen Ländern tätig ist. Die Hauptaufgabe von Flash besteht darin, den Erwerb, Exchange und die Nutzung von Bitcoin im Alltag zu erleichtern.
 
 
 Flash verlässt sich auf das Lightning Network, ein Bitcoin-Overlay, um Bitcoin-Transaktionen sicher und reibungslos durchzuführen und seiner Community die Leistungsfähigkeit von Bitcoin im täglichen Leben zu zeigen.

@@ -1,0 +1,8 @@
+question: Katika usanifu wa Blockstream AMP unaofifisha, ni utaratibu gani wa usimbaji fiche unaowezesha usimbaji fiche wa kiasi cha mali huku ukidumisha uthibitishaji wa uhalali wa miamala?
+answer: Ubadilishanaji wa funguo za Diffie-Hellman zenye uthibitishaji wa masafa unaothibitisha uhalali wa muamala bila kufichua thamani zilizosimbwa kwa njia fiche
+wrong_answers:
+  - SNARK zisizo na ujuzi wowote zenye mipango ya ahadi inayoficha kiasi cha miamala huku ikithibitisha uadilifu wa hesabu
+  - Piga saini zenye anwani za siri zinazoficha utambulisho wa mtumaji huku zikidumisha uhakiki wa kriptografia
+  - Usimbaji fiche wa homomorphic wenye ahadi za mti wa merkle zinazowezesha shughuli za hisabati kwenye data ya miamala iliyosimbwa kwa njia fiche
+explanation: |
+  AMP hutumia ubadilishanaji wa funguo za ECDH ambapo watumaji husimba kiasi cha mali kwa kutumia funguo za umma zinazopofusha za wapokeaji, na kutoa uthibitisho wa masafa unaothibitisha kihisabati uhalali wa miamala bila kufichua thamani. Hii inatofautiana na SNARKs (uthibitisho wa hesabu), sahihi za pete (mkazo wa kutokujulikana), au usimbaji fiche wa homomorphic (uhesabuji wa data iliyosimbwa) - AMP inahitaji hasa miamala ya siri lakini inayoweza kuthibitishwa.

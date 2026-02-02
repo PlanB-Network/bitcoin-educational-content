@@ -1,0 +1,8 @@
+question: Koja je najprikladnija reakcija kada Bitcoin aplikacija naiđe na grešku nevažećeg unosa, kao što je primanje negativne vrednosti za polje koje zahteva samo pozitivne cele brojeve?
+answer: Odbijte unos i vratite indikaciju greške pozivaocu.
+wrong_answers:
+  - Pretvorite negativnu vrednost u njenu apsolutnu vrednost i nastavite sa obradom.
+  - Evidentiraj grešku, ali nastavi sa operacijom koristeći podrazumevanu vrednost.
+  - Prekinite celu aplikaciju odmah kako biste sprečili oštećenje podataka.
+explanation: |
+  Greške nevažećeg unosa predstavljaju kršenje ugovora između pozivaoca i funkcije, gde prosleđeni parametri ne ispunjavaju zahteve funkcije. Ispravan pristup je odbaciti unos i vratiti indikaciju greške, omogućavajući pozivaocu da pravilno reši situaciju. Pretvaranje negativnih vrednosti u pozitivne tiho prikriva grešku i može dovesti do neželjenog ponašanja. Korišćenje podrazumevanih vrednosti ignoriše nameru pozivaoca i može obraditi netačne podatke. Prekidanje cele aplikacije je preterano za neuspehe validacije unosa i stvorilo bi loše korisničko iskustvo u Bitcoin aplikacijama gde je graciozno rukovanje greškama ključno.

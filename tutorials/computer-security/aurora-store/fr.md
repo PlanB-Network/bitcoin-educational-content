@@ -8,7 +8,7 @@ description: Une alternative libre au Play Store pour télécharger des applicat
 Les magasins d'applications occupent une place centrale dans l'utilisation des ressources de votre appareil et sont régulièrement sujets à la centralisation et à la censure selon votre zone géographique. Sur les téléphones Android, le monopole détenu par Google Play Store est désormais révolu et nous assistons à une cohabitation de plusieurs magasins d'applications qui vous permettent de protéger vos données et votre vie numérique et tout ceci gratuitement.
 Dans ce tutoriel, nous partons à la découverte de Aurora Store, une alternative à Google Play Store, simple, open source et sécurisée.
 
-# Débuter avec Aurora Store
+## Débuter avec Aurora Store
 
 Aurora Store est un produit d'*Aurora Open Source Software*, un collectif de développeurs et d'enthousiastes de la confidentialité qui se focalise sur la construction d'outils libres et gratuits qui respectent votre vie numérique et votre liberté.
 Aurora Store est l'un des magasins d'applications alternatifs de Google Play Store les plus populaires sur la plateforme Android pour les raisons suivantes :
@@ -46,7 +46,7 @@ Dans les paramètres de l'application, vous pouvez définir selon votre convenan
 
 Depuis Aurora Store, vous pouvez accéder au catalogue d'applications disponible sur Google Play Store, lire leur description, connaître les retours utilisateurs et les installer sur votre téléphone. Toutefois, cela ne signifie pas que toutes les applications sont gratuites. Si votre application est payante sur Play Store, vous devrez au préalable effectuer le paiement en utilisant soit l'application Play Store, soit en vous rendant sur le site officiel de Play Store.
 
-## Les fonctionnalités
+### Les fonctionnalités
 
 Aurora Store n'est pas qu'un reflet de Google Play Store, il intègre des fonctionnalités qui vous donnent toutes les informations sur les applications que vous souhaitez installer. Au travers de ces fonctionnalités, Aurora Store vous rend maître de vos données et de votre vie numérique.
 

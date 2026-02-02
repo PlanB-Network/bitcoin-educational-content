@@ -1,6 +1,7 @@
 ---
-term: GAP LIMIT
+term: Gap limit
 
+definition: Käyttämättömien peräkkäisten osoitteiden enimmäismäärä, jonka jälkeen siirtojen etsiminen lopetetaan.
 ---
 Parametri, jota käytetään Bitcoin-lompakko-ohjelmistossa määrittämään, kuinka monta peräkkäistä käyttämätöntä osoitetta voidaan luoda, ennen kuin uusien transaktioiden etsiminen lopetetaan. Tämän parametrin säätäminen on usein tarpeen, kun lompakkoa palautetaan sen varmistamiseksi, että kaikki transaktiot löytyvät. Riittämätön Gap Limit -raja voi johtaa joidenkin transaktioiden puuttumiseen, jos osoitteita on jätetty väliin derivointivaiheiden aikana. Jos Gap Limit -rajaa kasvatetaan, lompakko voi hakea osoitteita pidemmälle, jotta kaikki transaktiot saadaan talteen.
 

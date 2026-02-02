@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
+definition: 专门用于讨论比特币协议开发的技术邮件列表。
 ---
 
 专门用于开发 Bitcoin 协议的电子邮件邮件列表。Bitcoin-dev 由 Jeff Garzik 于 2011 年创建，最初托管在 Sourceforge.net。随后，邮件列表被转移到 Linux 基金会，然后又转移到开源实验室，最后，自 2024 年 2 月起，它被托管到谷歌群组：https://groups.google.com/g/bitcoindev。

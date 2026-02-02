@@ -1,6 +1,7 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
 
+definition: Parâmetro de nó que define a taxa de taxa utilizada para calcular o limite de pó.
 ---
 Uma regra de normalização utilizada pelos nós da rede para determinar o que consideram o "limite de pó" Este parâmetro define uma taxa em sats por kilobyte virtual (sats/kvB) que serve de referência para calcular se o valor de um UTXO é inferior às taxas necessárias para o incluir numa transação. De facto, uma UTXO é considerada "pó" na Bitcoin se necessitar de mais taxas para ser transferida do que o valor que ela própria representa. O cálculo deste limite é o seguinte:
 

@@ -1,0 +1,8 @@
+question: Miks on Hayeki hajutatud teadmiste teooria kohaselt keskne planeerimine kui majanduse koordineerimismehhanism põhimõtteliselt vigane?
+answer: Teadmised eksisteerivad ainult hajutatud fragmentidena üksikisikute vahel, mistõttu on keskse planeerimise eest vastutavatel isikutel võimatu juurdepääs tõhusaks koordineerimiseks vajalikule täielikule teabele
+wrong_answers:
+  - Kesksetel planeerijatel puudub moraalne autoriteet, et teha otsuseid teiste eest, isegi kui neil on täielik turuteave
+  - Poliitiline korruptsioon ja omakasu takistavad keskplaneerijaid rakendamast majanduslikult optimaalseid lahendusi, hoolimata sellest, et neil on juurdepääs kõigile vajalikele andmetele
+  - Keskne planeerimine nõuab liiga palju arvutusvõimsust ja tehnoloogiat, mida Hayeki ajal ei olnud võimalik kasutada, kuid mis võiks tänapäeval toimida
+explanation: |
+  Hayeki kriitika keskse planeerimise suhtes on epistemoloogiline, mitte moraalne või tehnoloogiline. Ta väitis, et teadmised ei eksisteeri kunagi kontsentreeritud kujul, vaid ainult "hajutatud killudena ebatäielikest ja sageli vastuolulistest teadmistest, mida omavad kõik erinevad indiviidid" See hajutatud teadmiste probleem tähendab, et kesksed planeerijad ei pääse ligi subjektiivsetele kuludele, hüvedele ja kohalikele eelistustele, mida omavad ainult üksikisikud, mis muudab tõhusa majandusliku koordineerimise võimatuks, sõltumata nende kavatsustest või arvutusvõimekusest.

@@ -1,14 +1,14 @@
 question: Jaka jest rola pieniędzy jako narzędzia komunikacji?
-answer: Umożliwia komunikację wartości w przestrzeni i czasie, bez konieczności zaufania kontrahentowi.
+answer: Umożliwiają komunikację wartości w przestrzeni i czasie bez konieczności zaufania kontrahentowi.
 wrong_answers:
-  - Pozwala na komunikację wartości tylko w przestrzeni i bez potrzeby zaufania kontrahentowi.
-  - Pozwala to na komunikację wartości tylko w czasie i bez konieczności ufania kontrahentowi.
-  - Umożliwia komunikację wartości w przestrzeni i czasie oraz bez konieczności zaufania kontrahentowi.
+  - Pozwalają na komunikację wartości tylko w przestrzeni i bez potrzeby zaufania kontrahentowi.
+  - Pozwalają na komunikację wartości tylko w czasie i bez konieczności ufania kontrahentowi.
+  - Umożliwiają komunikację wartości w przestrzeni i czasie, ale wymagają zaufania kontrahentowi.
 explanation: |
-  Pieniądze jako narzędzie komunikacji umożliwiają
-  przestrzeń i czas, ponieważ przekształcamy nasz czas i energię w aktywa
+  Pieniądze jako narzędzie komunikacji przekraczają
+  przestrzeń i czas, ponieważ przekształcamy nasz czas i energię w
   aktywa, które mogą być ponownie wykorzystane w przyszłości bez ryzyka
-  dewaluacji. Umożliwia również komunikację w uniwersalnym
-  wspólnym języku, umożliwiając dwóm nieznajomym Exchange, handel,
-  i uzgodnić wartość rzeczy.
+  dewaluacji. Umożliwiają również komunikację w uniwersalnym
+  wspólnym języku, umożliwiając dwóm nieznajomym handel,
+  i uzgadnianie wartości rzeczy.
 reviewed: true

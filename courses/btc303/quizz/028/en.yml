@@ -6,3 +6,4 @@ wrong_answers:
   - Miners will stop mining entirely because transaction fees alone cannot cover electricity costs
 explanation: |
   Fee sniping occurs when miners attempt to re-mine previous blocks that contained high-fee transactions rather than honestly extending the chain. This becomes economically rational when the fees in a previous block significantly exceed those in the current mempool. While the probability of success is lower than honest mining, the potential reward can be much higher. This behavior is particularly concerning because it can create a cascade effect where more miners engage in dishonest practices, ultimately threatening Bitcoin's security model when block subsidies diminish.
+reviewed: false

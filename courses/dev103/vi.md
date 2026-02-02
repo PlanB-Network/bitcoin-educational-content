@@ -191,7 +191,7 @@ Các chương trình thường thực hiện các thao tác trên dữ liệu.
 Biến giống như các hộp được đặt tên mà chúng ta sử dụng để lưu trữ dữ liệu. Chúng cho phép chúng ta liên kết một phần dữ liệu với một tên cụ thể, để sau này có thể truy xuất dữ liệu bằng tên đó.
 
 
-### khai báo `let`
+### khai báo let
 
 
 Để khai báo một biến trong JavaScript, chúng ta có thể sử dụng từ khóa `let`.
@@ -355,7 +355,7 @@ Bob
 Như bạn có thể thấy, cả `score` và `player` đều đã thay đổi.
 
 
-### khai báo `const`
+### khai báo const
 
 
 Tuy nhiên, hầu hết chúng ta không muốn một biến thay đổi sau khi nó được tạo. Vì vậy, chúng ta sử dụng `const`.
@@ -875,7 +875,7 @@ undefined
 Cái gì thế kia??
 
 
-### `không xác định`
+### không xác định
 
 
 Giá trị đặc biệt `undefined` có nghĩa là “không có giá trị nào được gán”.
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` và cách xử lý nó
+### null và cách xử lý nó
 
 
 `null` cũng là một giá trị đặc biệt. Nó có nghĩa là "không có gì ở đây, và tôi cố tình làm vậy".
@@ -1075,7 +1075,7 @@ ReferenceError: message is not defined
 Việc tổ chức mã của chúng ta thành các khối cũng cho phép chúng ta cấu trúc việc thực thi chương trình, với các cấu trúc luồng điều khiển như `if`
 
 
-### `nếu`, `nếu không`
+### nếu, nếu không
 
 
 Đôi khi chúng ta muốn chạy mã **chỉ khi** điều gì đó là đúng. Đó chính là mục đích của câu lệnh `if`.
@@ -1190,7 +1190,7 @@ Bởi vì chúng ta đã sử dụng toán tử `!` để đảo ngược biến
 Bằng cách sử dụng các khối, toán tử logic và so sánh, chúng ta có thể cấu trúc quá trình thực thi chương trình bằng cách định nghĩa các biến phải `true` (hoặc `false`) để một điều gì đó xảy ra.
 
 
-### `trong khi`, `nghỉ`, `tiếp tục`
+### trong khi, nghỉ, tiếp tục
 
 
 Vòng lặp `while` lặp lại mã *miễn là* điều kiện vẫn đúng.
@@ -1282,7 +1282,7 @@ Bản in này:
 Bởi vì khi số là `3`, `continue` khiến chương trình bỏ qua dòng in ra số đó.
 
 
-### `cho ... của ...`
+### cho ... của ...
 
 
 Nếu bạn có một mảng và muốn thực hiện hành động nào đó với mọi mục trong mảng đó, bạn có thể sử dụng `for ... of ... {...}`.
@@ -1312,7 +1312,7 @@ Khối này sẽ được thực thi một lần cho mỗi phần tử của m�
 `fruit` ở đây là một biến mới lấy giá trị của từng mục trong mảng để thao tác bên trong khối.
 
 
-### `vì ... trong ...`
+### vì ... trong ...
 
 
 Bạn có thể sử dụng `for ... in` để lặp qua các khóa (chỉ mục) của một mảng:
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `return` (đầu ra từ các hàm)
+### return (đầu ra từ các hàm)
 
 
 Các hàm cũng có thể **trả về** giá trị. Điều này có nghĩa là chúng gửi một giá trị trở lại nơi hàm được gọi.
@@ -1749,7 +1749,7 @@ JavaScript thường được gọi là ngôn ngữ hướng đối tượng.
 Điều đó có nghĩa là nó giúp bạn sắp xếp mã của mình bằng cách nhóm các giá trị và hàm lại với nhau thành **đối tượng**.
 
 
-### `Đối tượng` là gì?
+### Đối tượng là gì?
 
 
 Một đối tượng có thể chứa dữ liệu và các hàm hoạt động trên dữ liệu đó. Khi một hàm được đưa vào một đối tượng, chúng ta gọi đó là một `phương thức`.
@@ -2252,7 +2252,7 @@ JavaScript cho phép bạn định hình lại các đối tượng một cách 
 
 
 
-### Kế thừa với `extends` và `super()`
+### Kế thừa với extends và super()
 
 
 Đôi khi bạn muốn tạo một lớp *gần như* giống với một lớp khác, nhưng có thêm một vài tính năng.
@@ -2374,7 +2374,7 @@ Vì vậy, để tóm tắt
 Điều này hữu ích khi bạn có nhiều thứ tương tự nhau (như ô tô, xe tải và xe đạp) và bạn muốn chúng chia sẻ mã nhưng vẫn hoạt động theo cách riêng của chúng.
 
 
-### `thể hiện của`
+### thể hiện của
 
 
 Từ khóa `instanceof` kiểm tra xem một đối tượng có được tạo từ một lớp nhất định hay không.
@@ -2439,7 +2439,7 @@ Khi viết các chương trình JavaScript phức tạp hơn, bạn sẽ gặp p
 Nếu chúng ta không xử lý đúng các lỗi này, chương trình của chúng ta có thể bị sập hoặc hoạt động không như mong đợi. JavaScript cung cấp các công cụ để phát hiện và quản lý các lỗi này, giúp chúng ta xử lý chúng một cách nhẹ nhàng hơn.
 
 
-### Lỗi thường gặp: truy cập giá trị trên `undefined`
+### Lỗi thường gặp: truy cập giá trị trên undefined
 
 
 Sau đây là tình huống thường gặp gây ra lỗi:
@@ -2462,7 +2462,7 @@ TypeError: Cannot read properties of undefined (reading 'name')
 Đó là JavaScript đang nói với bạn rằng: "Này, bạn đã cố lấy thuộc tính `name` từ một thứ `không xác định` và điều đó không có ý nghĩa gì cả." Và như bạn thấy, khi loại lỗi này xảy ra, chương trình sẽ ngừng chạy trừ khi bạn đã viết mã cụ thể để phát hiện và xử lý lỗi đó.
 
 
-### `ném` một lỗi
+### ném một lỗi
 
 
 Đôi khi bạn muốn tự tay **gây lỗi** trong mã của mình. Trong trường hợp đó, bạn sử dụng từ khóa `throw`.
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 Cuộc gọi thứ hai gây ra lỗi vì không được phép chia cho số không trong ví dụ này.
 
 
-### Bắt lỗi bằng `try...catch`
+### Bắt lỗi bằng try...catch
 
 
 Nếu bạn không muốn chương trình bị sập khi xảy ra lỗi, bạn có thể xử lý lỗi bằng khối `try...catch`. Điều này hữu ích khi bạn muốn chương trình **tiếp tục chạy** ngay cả khi có lỗi xảy ra.
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Khối `cuối cùng`
+### Khối cuối cùng
 
 
 Bạn cũng có thể thêm khối `finally`. Đây là mã **luôn chạy**, bất kể có lỗi hay không.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 Chương này sẽ chỉ ra một số lỗi thường gặp nhất trong JavaScript và cách tránh chúng.
 
 
-### `var` và Assignment không cần khai báo
+### var và Assignment không cần khai báo
 
 
 Trong mã JavaScript cũ, các biến thường được khai báo bằng từ khóa `var`. Không giống như `let` và `const` mà bạn đã tìm hiểu, `var` có thể hoạt động theo những cách khó hiểu.
@@ -2650,7 +2650,7 @@ Trong các ví dụ này, JavaScript cố gắng đoán ý bạn. Đôi khi, nó
 Việc nhận thức được hệ thống kiểu dữ liệu yếu của JavaScript là rất quan trọng. Khi mọi thứ bắt đầu hoạt động kỳ lạ, có thể là do sự ép kiểu dữ liệu không mong muốn.
 
 
-### `"sử dụng nghiêm ngặt"`
+### "sử dụng nghiêm ngặt"
 
 
 Bạn có thể kích hoạt chế độ nghiêm ngặt hơn để biến một số lỗi im lặng thành lỗi thực sự và ngăn bạn sử dụng một số tính năng nguy hiểm hơn của ngôn ngữ.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 Giá trị mặc định `"friend"` được sử dụng khi không có dữ liệu nào được truyền vào.
 
 
-### Tham số lan truyền (`...`)
+### Tham số lan truyền (...)
 
 
 Nếu hàm của bạn có số lượng đối số linh hoạt thì sao?
@@ -3030,7 +3030,7 @@ Hàm `makeGreeter` là một hàm xây dựng các hàm khác. Nó nhận một 
 Kiểu mẫu này rất hiệu quả vì nó cho phép bạn để lại "lỗ hổng" trong các hàm mà sau này bạn có thể lấp đầy bằng hành vi bạn cần.
 
 
-### `map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 JavaScript cung cấp cho bạn một số phương thức tích hợp hữu ích để sử dụng với mảng.
@@ -3149,7 +3149,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 Tài sản riêng tư hữu ích khi bạn muốn ngăn chặn những thay đổi ngoài ý muốn.
 
 
-### Thuộc tính `static`
+### Thuộc tính static
 
 
 Đôi khi, bạn muốn một thuộc tính thuộc về chính lớp đó, chứ không phải thuộc về từng đối tượng bạn tạo ra từ lớp đó. Đó chính là mục đích của `static`. Một thuộc tính `static` được chứa trong lớp và tất cả các đối tượng của lớp đó sẽ tham chiếu đến nó.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 Điều này hữu ích khi lưu trữ dữ liệu và phương pháp chia sẻ áp dụng cho toàn bộ nhóm đối tượng, không chỉ một đối tượng.
 
 
-### `get` và `set`
+### get và set
 
 
 Trong JavaScript, `get` và `set` cho phép bạn tạo các thuộc tính *trông* giống như các biến bình thường, nhưng thực chất lại chạy mã đặc biệt ở chế độ nền.
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 Đây được gọi là **thuộc tính được tính toán**. Giá trị bên trong dấu ngoặc vuông sẽ được tính toán và kết quả được sử dụng làm khóa.
 
 
-### Kiểu `Biểu tượng`
+### Kiểu Biểu tượng
 
 
 Ngoài chuỗi, JavaScript còn cho phép bạn sử dụng một kiểu đặc biệt gọi là `Symbol` làm khóa đối tượng.
@@ -3421,7 +3421,7 @@ Như bạn thấy, thuộc tính `name` ban đầu bằng cách nào đó đư�
 JavaScript cung cấp cho chúng ta một số đối tượng tích hợp hữu ích giúp chúng ta thực hiện các thao tác như gỡ lỗi và tính toán.
 
 
-### Các phương pháp `console` khác
+### Các phương pháp console khác
 
 
 Bạn đã thấy `console.log`, lệnh này in các giá trị ra màn hình.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Hữu ích cho một số thử nghiệm hiệu suất đơn giản.
 
 
-### Đối tượng `Toán học`
+### Đối tượng Toán học
 
 
 JavaScript cung cấp cho bạn một đối tượng `Math` với các phương thức hữu ích để thực hiện tính toán.
@@ -3687,7 +3687,7 @@ myMap.clear()
 Bản đồ rất hữu ích để quản lý các tập hợp giá trị lớn, vì việc truy cập các giá trị trên bản đồ lớn thường mang lại hiệu suất tốt hơn nhiều so với trên một đối tượng lớn.
 
 
-### `Bộ`
+### Bộ
 
 
 `Set` là tập hợp chỉ chứa **giá trị** (không có khóa), trong đó mỗi giá trị phải **duy nhất**. Điều này có nghĩa là:
@@ -3770,7 +3770,7 @@ Hầu hết mọi thứ trong JavaScript mà bạn có thể lặp lại (như m
 **Trình lặp** là một đối tượng đặc biệt trong JavaScript giúp bạn duyệt qua danh sách các mục **từng mục một**.
 
 
-### Trình lặp `Object`
+### Trình lặp Object
 
 
 Không giống như mảng hoặc bản đồ, các đối tượng thông thường **không thể lặp lại** với `for...of`. Nếu bạn thử cách này:
@@ -3892,7 +3892,7 @@ Mặc dù các đối tượng không thể lặp lại trực tiếp, các phư
 Nhưng trình lặp hoạt động như thế nào?
 
 
-### `Symbol.iterator`
+### Symbol.iterator
 
 
 Bí mật đằng sau tất cả các đối tượng lặp lại là một **biểu tượng** đặc biệt được gọi là `Symbol.iterator`.
@@ -3924,7 +3924,7 @@ Mỗi lần gọi hàm `.next()` sẽ trả về giá trị tiếp theo. Khi ho�
 ```
 
 
-### `tiếp theo()`
+### tiếp theo()
 
 
 Phương thức `.next()` được sử dụng để lấy phần tử tiếp theo từ chuỗi.
@@ -4046,7 +4046,7 @@ Sau đây là những gì đang xảy ra:
 Bây giờ lớp `Range` của chúng ta hoạt động giống như một mảng và chúng ta có thể sử dụng nó trong bất kỳ vòng lặp nào mong đợi một đối tượng lặp lại.
 
 
-### Các hàm tạo và `yield`
+### Các hàm tạo và yield
 
 
 Để giúp bạn tạo trình lặp dễ dàng hơn, JavaScript cung cấp cho bạn **các hàm tạo**, sử dụng từ khóa `function*` (là `function` với dấu `*` ở cuối) và từ khóa `yield`.
@@ -4105,7 +4105,7 @@ Cho đến nay, mã của chúng tôi vẫn **đồng bộ**: nó chạy từng 
 Trong chương này, chúng ta sẽ giới thiệu một khái niệm mới: **đồng thời**. Nó cho phép chúng ta điều chỉnh thứ tự thực hiện các tác vụ. Điều này hữu ích khi xử lý các tác vụ như bộ đếm thời gian, dữ liệu đầu vào của người dùng hoặc đọc tệp từ đĩa. JavaScript cung cấp nhiều công cụ khác nhau để thực hiện đồng thời.
 
 
-### `đặt thời gian chờ`
+### đặt thời gian chờ
 
 
 Hàm `setTimeout` cho phép bạn **chạy một hàm sau**, sau một khoảng thời gian.
@@ -4253,7 +4253,7 @@ Bên trong nó, chúng ta cung cấp cho nó một hàm có hai tham số:
 Trong ví dụ trên, chúng ta chỉ giải quyết ngay lập tức bằng thông báo `"Đã hoạt động!"`.
 
 
-### `.then()`
+### .then()
 
 
 Để thực hiện một việc gì đó **sau khi** lời hứa được thực hiện, chúng ta sử dụng `.then()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `từ chối()`
+### từ chối()
 
 
 Hãy tạo một lời hứa **thất bại**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Chuỗi các hoạt động sử dụng `Promise`
+### Chuỗi các hoạt động sử dụng Promise
 
 
 
@@ -4551,7 +4551,7 @@ Chúng ta hãy cùng tìm hiểu xem điều này có tác dụng gì:
 Mỗi `.then()` chờ bước trước khi hoàn tất. Vì vậy, chúng ta có thể xây dựng một **chuỗi hành động** mà không cần lồng nhau. Điều này giúp mã dễ đọc hơn và dễ gỡ lỗi hơn.
 
 
-## Đồng thời với `async`/`await`
+## Đồng thời với async/await
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Chúng ta đã thấy chuỗi `Promise` giúp chúng ta tránh được lỗi g�
 Đó là lúc `async` và `await` xuất hiện. Chúng cho phép chúng ta viết mã bất đồng bộ **trông giống như mã đồng bộ**, giúp dễ hiểu hơn.
 
 
-### `Async` là gì?
+### Async là gì?
 
 
 Khi bạn viết từ khóa `async` trước một hàm, JavaScript sẽ tự động gói giá trị trả về của hàm trong một Promise.
@@ -4606,7 +4606,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 Hoặc bạn có thể sử dụng `await`...
 
 
-### `await` là gì?
+### await là gì?
 
 
 Từ khóa `await` cho JavaScript biết: "chờ cho đến khi Promise này hoàn tất, sau đó trả về kết quả".
@@ -4638,7 +4638,7 @@ Bây giờ chúng ta có thể sử dụng kết quả như thể nó là một 
 Bây giờ chúng ta hãy làm điều gì đó hữu ích hơn một chút.
 
 
-### Mô phỏng sự chậm trễ với `await`
+### Mô phỏng sự chậm trễ với await
 
 
 Chúng ta sẽ tạo một hàm `wait` đơn giản lấy một lượng mili giây làm đối số và chỉ giải quyết sau khoảng thời gian đó mà không làm gì khác:
@@ -4881,7 +4881,7 @@ Trình lặp bất đồng bộ hữu ích khi:
 Ví dụ, nếu bạn muốn tải từng tin nhắn từ máy chủ trò chuyện hoặc tải xuống một tệp lớn theo từng phần, trình lặp bất đồng bộ sẽ cho bạn cách viết vòng lặp `for` hoạt động với dữ liệu bị trì hoãn.
 
 
-### `Symbol.asyncIterator`
+### Symbol.asyncIterator
 
 
 Chúng ta cũng có thể sử dụng trình lặp bất đồng bộ trong các lớp tùy chỉnh.
@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Sau đây là những điều phổ biến nhất:
 
 
-| Operator | Meaning             |
+
+| Toán tử | Ý nghĩa |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | cộng và gán |
+| `-=` | trừ và gán |
+| `*=` | nhân và gán |
+| `/=` | chia và gán |
 
 Ví dụ:
 
@@ -5287,7 +5288,7 @@ NodeJS cho phép chúng ta xây dựng CLI (Giao diện dòng lệnh) cùng nhi�
 Để làm được điều đó, chúng ta cần một cách để nhận các đối số dòng lệnh, trong Node, điều này được thực hiện bằng cách sử dụng đối tượng `process` tích hợp sẵn.
 
 
-### `quy trình`
+### quy trình
 
 
 NodeJS cung cấp một đối tượng đặc biệt gọi là `process` biểu diễn chương trình đang chạy hiện tại.
@@ -5307,7 +5308,7 @@ console.log(process.platform)
 Lệnh này sẽ in ra nền tảng hệ điều hành, như `win32`, `linux` hoặc `darwin` (Mac).
 
 
-### `process.argv`
+### process.argv
 
 
 Khi bạn chạy chương trình NodeJS từ terminal, bạn có thể truyền thêm các từ (đối số) sau tên tập lệnh. Các từ này được lưu trữ trong `process.argv`.
@@ -5493,7 +5494,7 @@ Bạn không cần phải cài đặt các module tích hợp này, chúng đi k
 Các chương tiếp theo sẽ chỉ cho bạn một số ví dụ hữu ích về cách sử dụng chúng.
 
 
-## Mô-đun `fs`
+## Mô-đun fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5882,7 @@ package.json
 ```
 
 
-### `gói.json`
+### gói.json
 
 
 Tệp `package.json` chỉ là tệp JSON lưu trữ siêu dữ liệu về dự án của bạn.
@@ -5960,7 +5961,7 @@ NPM đã làm gì?
 `package-lock.json` là gì?
 
 
-### `package-lock.json`
+### package-lock.json
 
 
 Tệp này được NPM tự động tạo ra.
@@ -6023,7 +6024,7 @@ NodeJS thường được sử dụng làm ngôn ngữ cho phần phụ trợ: b
 Trong chương này, chúng tôi sẽ giới thiệu một số tính năng mạng cơ bản cho phép bạn thực hiện điều đó.
 
 
-### `lấy()`
+### lấy()
 
 
 Nếu bạn muốn chương trình của mình tải xuống dữ liệu từ một trang web hoặc API, bạn cần phải thực hiện **yêu cầu HTTP**.
@@ -6141,7 +6142,7 @@ JSON.parse("not json") // ❌ Error!
 Vì vậy hãy đảm bảo chuỗi được định dạng đúng.
 
 
-### máy chủ `http`
+### máy chủ http
 
 
 NodeJS cho phép bạn tạo máy chủ web mà không cần cài đặt bất cứ thứ gì khác.
@@ -6517,36 +6518,36 @@ Sau đây là ví dụ về cách ghi vào tệp `target.txt` bằng luồng:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Sau đây là những gì xảy ra:
 
 
-1. `fs.createWriteStream()` tạo một luồng có thể ghi.
+1. `fs.createWriteStream()` tạo ra một luồng có thể ghi (writable stream).
 
-2. Chúng ta viết một số văn bản vào đó bằng cách sử dụng `.write()`.
+2. Chúng ta đăng ký các trình xử lý cho các sự kiện `error` và `finish`.
 
-3. Khi hoàn tất, chúng ta gọi `.end()` để đóng luồng.
+3. Chúng ta ghi một đoạn văn bản vào đó bằng cách sử dụng `.write()`.
 
-4. Khi tất cả dữ liệu đã được ghi, sự kiện `finish` sẽ được phát ra.
+4. Khi hoàn tất, chúng ta gọi `.end()` để đóng luồng.
 
-5. Nếu có điều gì đó không ổn, sự kiện `error` sẽ được kích hoạt.
+5. Sau khi tất cả dữ liệu đệm đã được đẩy ra và ghi xong, sự kiện `finish` sẽ được phát ra. Nếu có lỗi xảy ra, sự kiện `error` sẽ được phát ra.
 
 
 Giống như luồng có thể đọc, luồng có thể ghi rất phù hợp với dữ liệu lớn vì chúng không cần phải lưu trữ mọi thứ trong bộ nhớ cùng một lúc.

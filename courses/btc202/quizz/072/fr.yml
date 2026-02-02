@@ -6,4 +6,4 @@ wrong_answers:
   - notxindex
 explanation: |
   Assumeutxo charge un instantané de l’UTXO set pour rendre le nœud opérationnel rapidement, tout en reconstruisant en arrière-plan l’UTXO set complet.
-reviewed: false
+reviewed: true 

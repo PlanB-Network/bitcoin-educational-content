@@ -1,21 +1,18 @@
 ---
-name: Úvod do rakouské ekonomie
-goal: Objevte školu rakouského ekonomického myšlení. Studujte jejich pohledy na společnost a makro/mikroekonomické reality.
+name: Základy rakouské ekonomické školy
+goal: Objevte rakouskou ekonomii jako alternativní rámec pro analýzu trhů a individuálního rozhodování
 objectives:
-  - Alternativa k Keynesiánství
-  - Význam tvrdé měny
-  - Proč a jak jsou naše ekonomické cykly vytvářeny?
-  - Proč se centrální bankéři zbláznili?
+- Analyzovat funkce peněz, úvěru a systémů centrálního bankovnictví
+- Aplikovat teorii subjektivní hodnoty a časové preference na tržní chování
+- Porozumět rakouské teorii hospodářského cyklu a jejím příčinám
+- Porovnat rakouskou metodologii s mainstreamovými ekonomickými přístupy
 ---
+# Cesta k rakouské ekonomii
 
-# Cesta do světa ekonomie
+Přemýšleli jste někdy, proč někteří ekonomové uvažují jinak o trzích, svobodě a lidském chování? Rakouská ekonomie nabízí osvěžující perspektivu, která staví vás do centra ekonomického myšlení. Místo složité matematiky a abstraktních modelů se tento přístup zaměřuje na logiku, lidskou volbu a to, jak skuteční lidé rozhodují ve svém každodenním životě. Je to ekonomie optikou svobody, racionality a osobního jednání.
 
-Vítejte v kurzu Théo Mogeneta! Jako vášnivý zájemce o ekonomii, historii, literaturu, politické vědy a technologie se rozhodl podělit se s vámi o své znalosti rakouské ekonomie. Tato méně známá větev ekonomie je založena na lidské racionalitě a chování svobodných aktérů. Méně intenzivní v matematice, je to především otázka logiky a sociálního studia.
-
-Tato škola myšlení má za sebou již několik století a za sebou celou panorámu autorů, myšlenek a ekonomů. Velká jména ekonomie jako Hayek, Rothbard, Mises, Bastiat nebo Menger dlouho hájili tento pohyb. Ve srovnání s všudypřítomným Keynesiánstvím naší doby, rakouská škola staví jednotlivce zpět do středu rovnice s liberálnějším, kapitalistickým a dokonce anarchistickým přístupem.
-
+Tato škola myšlení formuje debaty již po staletí, díky vlivným myslitelům jako Hayek, Mises a Bastiat. Zatímco mainstreamová keynesiánská ekonomie dnes dominuje politickým diskusím, rakouská tradice klade jiné otázky: Co se stane, když upřednostníme individuální svobodu? Jak skutečně fungují volné trhy, když lidé mohou svobodně volit? Pokud vás zajímají alternativní způsoby uvažování o trzích, společnosti a svobodě, toto je vaše příležitost prozkoumat myšlenky, které ve standardních učebnicích nenajdete.
 +++
-
 # Introduction
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
@@ -496,9 +493,8 @@ Důsledky takového špatného rozdělení zahrnují finanční a ekonomické kr
 
 Dnes se debata o ekonomickém výpočtu znovu objevuje především v diskusích o energii, kde se stávají stále zřetelnějšími špatné investice řízené zelenou agendou. Objektivně se také vyskytuje v diskusích o peněžních trzích, kde rakouští ekonomové poukazují na to, že krize z roku 2008, kterou hlavní ekonomové nedokázali předpovědět, byla klasickým cyklem boomu a krachu charakterizovaným nadměrnými investicemi do trhu s bydlením v důsledku dlouhých období nízkých úrokových sazeb. Navíc neo-marxisté a další socialistické frakce šíří názor, že vznik AI by mohl vyřešit problém ekonomického výpočtu. Tento pohled však vychází z chybného pochopení problému; problém ekonomického výpočtu není otázkou výpočetního výkonu, ale spíše otázkou generování a distribuce informací souvisejících s produkcí a alokací zdrojů. Tyto informace mohou být generovány pouze lokálně subjekty se specializovanými znalostmi a zájmem na výsledku. AI nemůže nahradit tento proces zdola nahoru a tudíž nemůže pomoci centrálním plánovačům řešit problém alokace zdrojů. Bohužel, kvůli století nedorozumění, očekáváme rozšíření tvrzení, že AI zahájí novou éru ekonomické prosperity vedenou osvícenými centrálními plánovači, kteří s pomocí AI mohou napravit selhání volných trhů.
 
-Pro konkrétní aplikaci problému ekonomického výpočtu na současnou situaci se můžete odkázat na tento článek, který se zabývá problémem alokace zdrojů v moderní Číně.
+Pro konkrétní aplikaci problému ekonomické kalkulace na současnou situaci se můžete odkázat na tento článek pojednávající o alokaci zdrojů v moderní Číně: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, autor Théo Mogenet.
 
-> Cesta k finanční represi: Čína papírový tygr, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Závěr
 

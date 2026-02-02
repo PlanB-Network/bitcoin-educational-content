@@ -1,31 +1,18 @@
 ---
-name: Bitcoin 和 BTC 支付服务器
-goal: 为您的企业安装 BTC Pay 服务器
-objectives: 
-
-  - 了解什么是 btcpayserver。
-  - 自行托管和配置 BTC Pay 服务器。
-  - 在日常业务中使用 btcpayserver。
-
+name: 精通BTC Pay Server
+goal: 为本地企业配置BTC Pay Server实例
+objectives:
+- 了解BTCPay Server在支付处理中的基本作用
+- 掌握BTCPay Server配置过程的内部运作
+- 在云端和基于节点的环境中部署BTCPay Server
+- 成为BTC Pay Server运营者
 ---
+# 通往财务主权之旅
 
-# Bitcoin 和 BTCPay 服务器
+信任是脆弱的，尤其是涉及金钱时。这门入门课程将引导您了解BTCPay Server，这是一个强大的工具，让您无需依赖第三方即可接受比特币支付。您将学习成为BTCPay Server运营者的基础知识
 
-
-这是关于 BTCPay 服务器操作员的入门课程，由 Alekos 和 Bas 编写，并由 melontwist 和 asi0 根据 Plan ₿ 课程格式进行了改编。
-
-
-后话
-
-
-"这是谎言，我对你的信任破灭了，我要让你过时"。
-
-
-由 BTCPay 服务器基金会制作
-
-
+本课程由Alekos和Bas创建，并由melontwist和asi0改编，揭示了个人和企业如何构建传统支付系统的替代方案。无论您是对比特币感到好奇，还是准备为企业运营支付基础设施，您都将发现挑战现状的实用技能。准备好探索财务独立的真实面貌了吗？
 +++
-
 # 导言
 
 
@@ -740,14 +727,15 @@ BTCPay 服务器包含以下标准 Wallet 功能：
 管理员可在交易视图中查看与该特定存储连接的 On-Chain Wallet 的收发交易。每笔交易都有收到和发出金额的区别。收到的交易金额为 Green，发出的交易金额为红色。在 BTCPay 服务器交易视图中，管理员还将看到一组标准标签。
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| 交易类型 | 描述                                               |
+| -------- | -------------------------------------------------- |
+| 应用     | 通过应用创建的发票收到付款                        |
+| 发票     | 通过发票收到付款                                  |
+| Payjoin  | 未付款，发票计时器尚未过期                        |
+| Payjoin-暴露 | 通过发票中的 Payjoin 提案暴露了 UTXO          |
+| 支付请求 | 通过支付请求收到付款                              |
+| 支付     | 通过付款或退款发送了付款                          |
 
 ### 如何发送
 
@@ -1818,28 +1806,30 @@ BTCPay 服务器通过使用 "快速填写 "选项使填写这些信息变得更
 BTCPay Server 还允许您用代码构建表单。特别是 JSON。店主可以点击编辑器旁边的 CODE 按钮，进入表单代码，而无需查看编辑器。在字段定义中，只能设置以下字段；字段值存储在 Invoice 的元数据中：
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| 字段 | 描述 |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | 如果为 true，则必须在表单定义中设置 .value，并且用户将无法更改该字段的值。（例如：表单定义的版本） |
+| .fields.type | HTML 输入类型：text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | 如果 .fields.type 为 select，则为可选值列表 |
+| .fields.options.text | 此选项显示的文本 |
+| .fields.options.value | 选中此选项时字段的值 |
+| .fields.type=fieldset | 在子字段 .fields.fields 周围创建一个 HTML fieldset（见下文） |
+| .fields.name | 该字段在发票元数据中显示的 JSON 属性名称 |
+| .fields.value | 字段的默认值 |
+| .fields.required | 如果为 true，则该字段为必填项 |
+| .fields.label | 字段的标签 |
+| .fields.helpText | 提供字段说明的附加文本。 |
+| .fields.fields | 您可以按层次结构组织字段，允许将子字段嵌套在发票的元数据中。这种结构可以帮助您更好地组织和管理收集的信息，使其更易于访问和解释。例如，如果您有一个收集客户信息的表单，您可以将字段分组在名为 customer 的父字段下。在此父字段中，您可以拥有 name、Email 和 address 等子字段。 |
 
 字段名称表示在 Invoice 元数据中存储用户提供值的 JSON 属性名称。一些众所周知的名称可以通过解释和修改来调整 Invoice 的设置。
 
 
-| Field name       | Description            |
+
+| 字段名称         | 描述                  |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | 发票金额              |
+| invoice_currency | 发票币种              |
 
 您可以在表单的 URL 中添加查询字符串，如"?your_field=value"，从而自动预填 Invoice 的字段。
 
@@ -2095,7 +2085,7 @@ BTCPay 公开 LND 的 GRPC 服务供外部使用；您可在此特定设置菜�
 #### LND (REST)
 
 
-BTCPay 公开了 LND 的 REST 服务供外界使用；您可在此处找到连接信息；兼容钱包在此处列出。兼容的钱包包括 Joule、Alby 和 ZeusLN。BTCPay 服务器为连接提供二维码，扫描后可应用于兼容的 Wallet。
+BTCPay 公开了 LND 的 REST 服务供外界使用；您可在[此处]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay)找到连接信息；兼容钱包在[此处](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server)列出。兼容的钱包包括 Joule、Alby 和 ZeusLN。BTCPay 服务器为连接提供二维码，扫描后可应用于兼容的 Wallet。
 
 
 
@@ -2289,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| 日志         | 容器名称                           |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2480,21 +2471,22 @@ BTCPay 服务器的核心是作为 Bitcoin Invoice 管理系统的能力。Invoi
 下表列出并描述了 BTCPay 中的标准 Invoice 状态，以及建议采取的常见措施。操作只是建议。用户可根据自己的使用情况和业务确定最佳行动方案。
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| 发票状态 | 描述 | 操作 |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | 未付款，发票计时器尚未过期 | 无 |
+| New (paidPartial) | 已部分付款，发票计时器尚未过期 | 无 |
+| Expired | 未付款，发票计时器已过期 | 无 |
+| Expired (paidPartial) ** | 已部分付款且已过期 | 联系买家安排退款或要求其支付欠款。可选地将发票标记为 settled 或 invalid |
+| Expired (paidLate) | 在发票计时器过期后全额支付 | 联系买家安排退款，或者如果接受延迟确认则处理订单。 |
+| Settled (paidOver) | 支付金额超过发票金额，已结算，已收到足够的确认数 | 联系买家安排退还多余金额，或选择等待买家联系您 |
+| Processing | 已全额支付，但尚未收到商店设置中指定的足够确认数 | 联系买家安排退还多余金额，或选择等待买家联系您 |
+| Processing (paidOver) | 支付金额超过发票金额，尚未收到足够的确认数 | 等待结算，然后联系买家安排退还多余金额，或选择等待买家联系您 |
+| Settled | 已全额支付，商店已收到足够的确认数 | 履行订单 |
+| Settled (marked) | 状态已手动从处理中或无效状态更改为已结算 | 商店管理员已将付款标记为 settled |
+| Invalid* | 已付款，但未能在商店设置指定的时间内收到足够的确认数 | 在区块链浏览器上检查交易，如果收到足够确认，标记为 settled |
+| Invalid (marked) | 状态已手动从已结算或过期状态更改为无效 | 商店管理员已将付款标记为 invalid |
+| Invalid (paidOver) | 支付金额超过发票金额，但未能在商店设置的时间内收到足够确认 | 在区块链浏览器上检查交易，如果收到足够确认，标记为 settled |
 
 #### Invoice 详情
 

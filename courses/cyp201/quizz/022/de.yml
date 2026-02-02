@@ -6,4 +6,4 @@ wrong_answers:
   - Mit wiederholter Addition numerischer Werte
 explanation: |
   Der öffentliche Schlüssel wird durch die skalare Multiplikation des privaten Schlüssels mit dem Generatorpunkt G auf der elliptischen Kurve erhalten.
-reviewed: false
+reviewed: true

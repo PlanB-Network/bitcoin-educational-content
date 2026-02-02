@@ -1,0 +1,9 @@
+question: Jaka jest rola strażnika, gdy wykryje próbę oszustwa?
+answer: Opublikowanie transakcji kary
+wrong_answers:
+  - Wspólne zamknięcie kanału
+  - Zamrożenie funduszy
+  - Raport równorzędny do Bitcoin Core
+explanation: |
+  Watchtower automatycznie rozgłasza transakcję kary w imieniu użytkownika.
+reviewed: false

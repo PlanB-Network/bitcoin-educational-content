@@ -334,7 +334,7 @@ Nachdem Sie Coinjoins mit Whirlpool durchgeführt haben, ist es nützlich, das e
 
 Um Ihr Verständnis der Berechnungsmechanismen dieser Anonsets zu vertiefen, empfehle ich, den Artikel zu lesen: REMIX - WHIRLPOOL, der die Funktionsweise dieser Indizes detailliert beschreibt.
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

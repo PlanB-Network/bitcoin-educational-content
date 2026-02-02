@@ -1,5 +1,6 @@
 ---
 term: BIP0326
+definition: 2nd 레이어 프로토콜의 프라이버시를 개선하기 위한 Taproot용 nSequence 필드 사용.
 ---
 
 Taproot 트랜잭션을 지원하는 Bitcoin Wallet 소프트웨어 개발자를 위한 개선 제안입니다.

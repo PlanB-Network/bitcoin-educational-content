@@ -1,0 +1,9 @@
+question: O que significa quando o Bitcoin é descrito como um sistema pseudónimo em vez de um sistema anónimo?
+answer: Os utilizadores podem ser localizados através dos seus pseudónimos, mas as suas identidades reais não são diretamente reveladas
+wrong_answers:
+  - Os utilizadores não podem ser rastreados e as suas transacções são completamente ocultas
+  - Os utilizadores devem registar os seus nomes verdadeiros, mas podem utilizar endereços falsos para as transacções
+  - Os utilizadores são completamente anónimos, sem qualquer possibilidade de associar as transacções
+explanation: |
+  A natureza pseudónima do Bitcoin significa que, embora os utilizadores operem sob pseudónimos (endereços derivados de chaves públicas), as suas transacções podem ainda ser rastreadas e ligadas entre esses pseudónimos na cadeia de blocos. Isto difere do verdadeiro anonimato, em que as transacções não deixariam quaisquer ligações rastreáveis. No Bitcoin, é possível seguir o fluxo de fundos entre endereços, mas a identidade real por detrás desses endereços não é diretamente revelada, a menos que alguém a revele voluntariamente ou cometa erros que divulguem a sua informação privada.
+reviewed: false

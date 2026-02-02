@@ -8,7 +8,7 @@ description: Hoe kun je meewerken aan het proeflezen/beoordelen van educatieve i
 ## Samengevat
 
 
-Als je inhoud voor Plan ₿ Academy wilt proeflezen of beoordelen, word dan lid van [onze Telegram-groep] (https://t.me/PlanBNetwork_ContentBuilder) die speciaal bedoeld is voor bijdragen. Introduceer jezelf kort, specificeer dan de inhoud die je wilt nakijken en de taal. Maak je correcties op een werkende branch en dien een PR in zodra je review klaar is.
+Als je inhoud voor Plan ₿ Academy wilt proeflezen of beoordelen, word dan lid van [onze Telegram-groep](https://t.me/PlanBNetwork_ContentBuilder) die speciaal bedoeld is voor bijdragen. Introduceer jezelf kort, specificeer dan de inhoud die je wilt nakijken en de taal. Maak je correcties op een werkende branch en dien een PR in zodra je review klaar is.
 
 
 Als je het gedeelte hierboven niet begreep, maak je dan geen zorgen - deze handleiding is voor jou!
@@ -31,7 +31,7 @@ Plan ₿ Academy wil het openbare plein van de Bitcoin cyberspace worden, en Bit
 Plan ₿ Academy is fundamenteel meertalig, omdat het ons doel is om Bitcoin bronnen wereldwijd toegankelijk te maken voor iedereen. Wij geloven dat taal geen barrière mag zijn voor soeverein geld.
 
 
-Om dit te bereiken, gebruiken we een mens & AI-benadering. Via ons [programma] (https://github.com/Asi0Flammeus/LLM-Translator) kunnen we onze inhoud automatisch vertalen in veel talen. We hebben echter een vloeiende spreker nodig om de inhoud te beoordelen om er zeker van te zijn dat deze begrijpelijk is en geen ongepaste termen bevat.
+Om dit te bereiken, gebruiken we een mens & AI-benadering. Via ons [programma](https://github.com/Asi0Flammeus/LLM-Translator) kunnen we onze inhoud automatisch vertalen in veel talen. We hebben echter een vloeiende spreker nodig om de inhoud te beoordelen om er zeker van te zijn dat deze begrijpelijk is en geen ongepaste termen bevat.
 
 
 Als je mee wilt bouwen aan dit educatieve project om Bitcoin onderwijs in jouw gemeenschap te promoten, kun je beginnen met het beoordelen van een cursus of handleiding.
@@ -59,7 +59,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Je hebt ook een account nodig op de berichtenapp [Telegram] (https://telegram.org/).
+- Je hebt ook een account nodig op de berichtenapp [Telegram](https://telegram.org/).
 
 
 ## 2. Word lid van de Telegram-groep
@@ -199,7 +199,7 @@ Als je meer wilt weten over de richtlijnen die je moet gebruiken bij het proefle
 
 
 
-- Gefeliciteerd, je PR is ingediend! Je kunt de voortgang volgen in de "Pull requests" tab op [Plan ₿ Academy's GitHub repository] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
+- Gefeliciteerd, je PR is ingediend! Je kunt de voortgang volgen in de "Pull requests" tab op [Plan ₿ Academy's GitHub repository](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)

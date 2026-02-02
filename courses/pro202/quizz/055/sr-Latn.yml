@@ -1,0 +1,8 @@
+question: Kada Bitcoin čvor zatraži zaglavlja blokova koristeći komandu getheaders, maksimalan broj zaglavlja koji može biti vraćen u jednom odgovoru je 2.000, a nakon svakog zaglavlja od 80 bajtova sledi hash prethodnog zaglavlja.
+answer: Do 2000 zaglavlja može biti vraćeno, svako praćeno lažnim brojem transakcija od nula
+wrong_answers:
+  - Do 1000 zaglavlja može biti vraćeno, svako praćeno stvarnim brojem transakcija kao varint
+  - Može se vratiti do 2000 zaglavlja, a svako prati kontrolni zbir od 4 bajta podataka zaglavlja.
+  - Do 500 zaglavlja može biti vraćeno, svako praćeno Merkle root hash-om za verifikaciju
+explanation: |
+  Bitcoin-ov P2P protokol specifično ograničava getheaders odgovore na maksimalno 2000 zaglavlja kako bi se sprečilo preopterećenje čvorova masivnim odgovorima. Svako zaglavlje ima tačno 80 bajtova i prati ga polje za broj transakcija postavljeno na nulu, jer poruke koje sadrže samo zaglavlja ne uključuju stvarne transakcije. Ovaj dizajn omogućava efikasnu sinhronizaciju lanca gde čvorovi mogu brzo preuzeti i verifikovati proof-of-work strukturu lanca pre nego što zatraže kompletne podatke o blokovima.

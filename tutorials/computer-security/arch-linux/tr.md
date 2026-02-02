@@ -20,7 +20,7 @@ Arch Linux, özellikle geliştirme amaçları için sağlamlığı, performansı
 - **Ücretsiz ve açık kaynak**: Çoğu Linux dağıtımı gibi Arch Linux da tamamen ücretsizdir. Lisans ücreti yoktur, bu da onu öğrenciler, serbest çalışanlar veya meraklılar için mükemmel bir seçim haline getirir.
 - **KISS** felsefesi: Arch basit, hafif ve verimli olacak şekilde tasarlanmıştır. Yalnızca temel unsurları sağlayarak ortamınızı alakart olarak oluşturmanıza olanak tanır.
 - **Pacman** paket yöneticisi: Pacman hızlı, güvenilir ve iyi tasarlanmış bir paket yöneticisidir. Yazılımın verimli bir şekilde kurulmasını ve güncellenmesini sağlar ve bağımlılıkları hassas bir şekilde yönetir.
-- **Kapsamlı dokümantasyon ve aktif bir topluluk**: [Arch Wiki] (https://wiki.archlinux.org) muhtemelen Linux dünyasındaki en iyi teknik dokümantasyonlardan biridir. Ne yaptığınızı anlamak için bir altın madeni. Çoğunlukla deneyimli profillerden oluşan topluluk çok aktiftir ve önceden biraz araştırma yapmış olmanız koşuluyla takıldığınızda size yardımcı olabilir.
+- **Kapsamlı dokümantasyon ve aktif bir topluluk**: [Arch Wiki](https://wiki.archlinux.org) muhtemelen Linux dünyasındaki en iyi teknik dokümantasyonlardan biridir. Ne yaptığınızı anlamak için bir altın madeni. Çoğunlukla deneyimli profillerden oluşan topluluk çok aktiftir ve önceden biraz araştırma yapmış olmanız koşuluyla takıldığınızda size yardımcı olabilir.
 
 
 
@@ -58,7 +58,7 @@ Gerekli malzemeler:
 
 
 
-- ISO görüntüsünün en son resmi sürümünü indirmek için [resmi web sitesini] (https://mir.archlinux.fr/iso/latest/) ziyaret edin.
+- ISO görüntüsünün en son resmi sürümünü indirmek için [resmi web sitesini](https://mir.archlinux.fr/iso/latest/) ziyaret edin.
 
 
 
@@ -72,7 +72,7 @@ Gerekli malzemeler:
 
 
 
-- Balena Etcher'ı [resmi web sitesinden] (https://etcher.balena.io) indirin.
+- Balena Etcher'ı [resmi web sitesinden](https://etcher.balena.io) indirin.
 - Yazılımı başlatın, Arch Linux ISO görüntüsünü seçin.
 - Hedef cihaz olarak USB anahtarınızı seçin.
 - Önyüklenebilir anahtarı oluşturmaya başlamak için **Flash** üzerine tıklayın.
@@ -265,20 +265,22 @@ UEFI'de iseniz **GPT**, BIOS'ta iseniz **DOS** öğesini seçin.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Yüklü sistemde bağlantı noktası | Bölüm                 | Bölüm türü       | Önerilen boyut |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI Sistem Bölümü   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Takas alanı (swap) | En az 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 kök (/) | Diskin geri kalanı |
 
 - BIOS'ta
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Yüklü sistemde bağlantı noktası | Bölüm           | Bölüm türü       | Önerilen boyut |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Takas alanı (swap) | En az 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Diskin geri kalanı |
 
 ![0_10](assets/fr/10.webp)
 

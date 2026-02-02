@@ -1,14 +1,9 @@
 question: ¿Cuáles son los principales tipos de stablecoins mencionados en el texto?
-answer: Respaldados por moneda fiduciaria, respaldados por commodities y stablecoins algorítmicos.
+answer: Respaldadas por moneda fiduciaria, respaldadas por commodities y stablecoins algorítmicos.
 wrong_answers:
   - Stablecoins digitales y físicos
-  - Stablecoins centralizados y descentralizados
-  - Stablecoins respaldados por bancos y stablecoins respaldados por individuos
+  - Stablecoins centralizadas y descentralizadas
+  - Stablecoins respaldadas por bancos y stablecoins respaldadas por individuos
 explanation: |
-  En los capítulos anteriores hemos visto tres tipos principales de stablecoins;
-  stablecoins respaldados por moneda fiduciaria, que están respaldados por monedas tradicionales
-  como el dólar estadounidense; stablecoins respaldados por commodities, que están respaldados por
-  commodities como el oro o el petróleo; y stablecoins algorítmicos, que dependen
-  de un conjunto de reglas o algoritmos para mantener su valor. Sin embargo,
-  se señala que los stablecoins algorítmicos exitosos aún tienen que aparecer en el mercado.
-reviewed: false
+  En los capítulos anteriores hemos visto tres tipos principales de stablecoins; stablecoins respaldadas por moneda fiduciaria, que están respaldadas por monedas tradicionales como el dólar estadounidense; stablecoins respaldados por commodities, que están respaldados por commodities como el oro o el petróleo; y stablecoins algorítmicas, que dependen de un conjunto de reglas o algoritmos para mantener su valor. Sin embargo, se señala que las stablecoins algorítmicas exitosas aún tienen que aparecer en el mercado.
+reviewed: true

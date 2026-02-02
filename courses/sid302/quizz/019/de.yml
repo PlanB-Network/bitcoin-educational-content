@@ -1,0 +1,8 @@
+question: Was unterscheidet regulierte Vermögenswerte von unregulierten Vermögenswerten im Liquid-System für einheimische Vermögenswerte?
+answer: Geregelte Vermögenswerte erfordern eine zweite Signatur von einem Autorisierungsserver, bevor sie verschoben werden können, was die Einhaltung von KYC/AML-Richtlinien ermöglicht
+wrong_answers:
+  - Regulierte Vermögenswerte verwenden intelligente Verträge, während unregulierte Vermögenswerte einfache RPC-Aufrufe für die Emission verwenden
+  - Regulierte Vermögenswerte sind durch Bitcoin-Reserven gedeckt, während unregulierte Vermögenswerte nur auf der Sidechain existieren
+  - Geregelte Vermögenswerte bedürfen einer behördlichen Genehmigung, während nicht geregelte Vermögenswerte ohne Genehmigung ausgegeben werden können
+explanation: |
+  In der Liquid-Architektur können sowohl regulierte als auch unregulierte Vermögenswerte genehmigungsfrei mit einfachen RPC-Aufrufen ohne intelligente Verträge ausgegeben werden. Der Hauptunterschied liegt in ihrer Bewegung: Regulierte Vermögenswerte nutzen die Asset-Management-Plattform (AMP) von Blockstream, um die Einhaltung von Vorschriften durchzusetzen, indem sie vor Übertragungen eine zusätzliche Autorisierungssignatur erfordern, während sich unregulierte Vermögenswerte ohne solche Einschränkungen frei bewegen können.

@@ -1,0 +1,8 @@
+question: No processo de verificação de assinaturas ECDSA, que relação matemática deve ser verdadeira para que uma assinatura seja considerada válida?
+answer: A coordenada x de UG + VP deve ser igual a R, sendo U = Z/S e V = R/S
+wrong_answers:
+  - A coordenada y de UG + VP deve ser igual a S, sendo U = R/Z e V = S/Z
+  - A coordenada x de KG + ZP deve ser igual a S, em que K é o nonce e Z é o hash
+  - A soma de R + S deve ser igual à coordenada x do ponto da chave pública P
+explanation: |
+  A verificação ECDSA funciona reconstruindo o ponto original KG através da equação UG + VP, em que U = Z/S (hash dividido por S) e V = R/S. Se a coordenada x deste ponto reconstruído for igual a R da assinatura, a verificação é bem sucedida. Esta relação matemática permite a verificação sem conhecer a chave privada ou o nonce K, uma vez que a álgebra reconstrói KG indiretamente através dos componentes da chave pública e da assinatura.

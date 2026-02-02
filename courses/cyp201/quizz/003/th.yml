@@ -1,0 +1,9 @@
+question: ความแตกต่างหลักระหว่าง SHA256 และ RIPEMD160 คืออะไร?
+answer: RIPEMD160 ผลิตแฮชที่สั้นกว่า SHA256
+wrong_answers:
+  - SHA256 ล้าสมัยแล้วไม่เหมือนกับ RIPEMD160
+  - RIPEMD160 ใช้เฉพาะในกลไก Proof-of-Work เท่านั้น
+  - SHA256 ไม่เคยถูกรวมกับฟังก์ชันแฮชอื่น ๆ
+explanation: |
+  RIPEMD160 สร้างแฮชขนาด 160 บิต ในขณะที่ SHA256 สร้างแฮชขนาด 256 บิต
+reviewed: false

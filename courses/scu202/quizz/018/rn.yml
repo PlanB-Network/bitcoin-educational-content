@@ -1,9 +1,9 @@
-question: Ni igiki gikoreshwa na Debian na Ubuntu?
+question: Ni ubuhe butunganyirizo bw’amapaki bukoreshwa na Debian na Ubuntu?
 answer: APT
 wrong_answers:
   - RPM
   - Pacman
-  - Zipa
+  - Zypper
 explanation: |
-  Debian na Ubuntu zikoresha umucungerezi w'amapaki ya APT, ashingiye ku buryo bwa .deb, kugira ngo zicunge ugushiraho porogarama n'ugusubiramwo.
-reviewed: false
+  Debian na Ubuntu zikoresha ubutunganyirizo bw’amapaki ya APT, ashingiye ku bwoko bwa .deb, kugira ngo bucungere ugushiramwo porogarame n'ukuzishira ku gihe.
+reviewed: true

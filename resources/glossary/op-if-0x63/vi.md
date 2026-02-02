@@ -1,6 +1,7 @@
 ---
 term: OP_IF (0X63)
 
+definition: Opcode thực thi một phần của script nếu điều kiện ở đầu ngăn xếp là đúng.
 ---
 Executes the following portion of the script if the value at the top of the stack is non-zero (true). If the value is zero (false), these operations are skipped, moving directly to those after `OP_ELSE`, if it is present. `OP_IF` enables the launching of a conditional control structure within a script. It determines the flow of control in a script based on a condition provided at the time of the transaction's execution. `OP_IF` is used with `OP_ELSE` and `OP_ENDIF` in the following manner:
 

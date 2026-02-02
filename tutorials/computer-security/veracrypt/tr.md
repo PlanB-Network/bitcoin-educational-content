@@ -58,7 +58,7 @@ VeraCrypt'in tescilli çözümlere göre en büyük avantajı tamamen açık kay
 ## VeraCrypt nasıl kurulur?
 
 
-"*Downloads*" sekmesindeki [resmi VeraCrypt web sitesine] (https://www.veracrypt.fr/en/Downloads.html) gidin.
+"*Downloads*" sekmesindeki [resmi VeraCrypt web sitesine](https://www.veracrypt.fr/en/Downloads.html) gidin.
 
 ![VeraCrypt](assets/notext/05.webp)
 
@@ -222,4 +222,4 @@ Artık depolama ortamınızı kaldırabilirsiniz.
 Tebrikler, artık kişisel verilerinizi güvenli bir şekilde saklamak için şifrelenmiş bir ortamınız var, böylece bilgisayarınızdaki kopyaya ve çevrimiçi depolama çözümünüze ek olarak eksiksiz bir 3-2-1 stratejisine sahipsiniz.
 
 
-VeraCrypt'in gelişimini desteklemek isterseniz, [bu sayfada] (https://www.veracrypt.fr/en/Donation.html) bitcoin olarak bağışta bulunabilirsiniz.
+VeraCrypt'in gelişimini desteklemek isterseniz, [bu sayfada](https://www.veracrypt.fr/en/Donation.html) bitcoin olarak bağışta bulunabilirsiniz.

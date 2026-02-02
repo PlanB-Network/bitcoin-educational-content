@@ -1,0 +1,8 @@
+question: Jaká je hlavní výhoda algoritmu double-and-add pro skalární násobení v kryptografii eliptických křivek?
+answer: Snižuje výpočetní složitost z O(n) na O(log n) operací
+wrong_answers:
+  - Odstraňuje potřebu modulární aritmetiky v konečných polích
+  - Převádí problém diskrétního logaritmu na řešení v polynomiálním čase
+  - Umožňuje přímý výpočet soukromých klíčů z veřejných klíčů
+explanation: |
+  Algoritmus double-and-add výrazně zvyšuje efektivitu tím, že snižuje výpočetní složitost z O(n) lineárních sčítání na O(log n) operací. Funguje to tak, že se skenuje binární reprezentace skaláru, v každém kroku se bod zdvojnásobí a bod generátoru se přičte pouze tehdy, když je bit 1. Ostatní možnosti jsou nesprávné: v konečných polích je stále nutná modulární aritmetika, problém diskrétního logaritmu zůstává výpočetně neřešitelný (což je pro bezpečnost zásadní) a z veřejných klíčů nelze vypočítat soukromé klíče bez ohledu na použitý algoritmus násobení.

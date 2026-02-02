@@ -1,5 +1,6 @@
 ---
-term: ERLAY
+term: Erlay
+definition: Bant genişliği tüketimini azaltmak için işlem aktarma verimliliğini artıran protokol.
 ---
 
 Bitcoin düğümleri arasında onaylanmamış işlemlerin aktarılmasının verimliliğini artırmak için önerilen ağ protokolü.

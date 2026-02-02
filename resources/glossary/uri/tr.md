@@ -1,5 +1,6 @@
 ---
 term: URI
+definition: Ödemeleri kolaylaştırmak için bir Bitcoin adresini ve işlem parametrelerini kodlamaya olanak tanıyan standartlaştırılmış format.
 ---
 
 "*Uniform Resource Identifier*" kısaltmasıdır. İnternet üzerindeki bir kaynağı tanımlamak için kullanılan standartlaştırılmış bir dize biçimidir. Bir URI, bir bilgisayar ağındaki konumunu belirterek bir kaynağa erişmek için bir araç sağlayan bir URL (*Uniform Resource Locator*) veya kaynağın nasıl bulunacağını belirtmeden kaynağı adlandıran bir URN (*Uniform Resource Name*) olabilir. URI'ler, web sayfaları, belgeler ve hizmetler gibi kaynaklara erişim sağladıkları için *World Wide Web*'in işleyişinde önemlidir.

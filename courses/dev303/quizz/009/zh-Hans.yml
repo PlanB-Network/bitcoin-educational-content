@@ -1,0 +1,8 @@
+question: "`cargo new project_name`命令会自动创建什么作为项目结构的一部分？"
+answer: "Git 仓库、Cargo.toml 文件和包含 Hello World 程序的基本 main.rs 文件"
+wrong_answers:
+  - "只有 Cargo.toml 配置文件和空源目录结构"
+  - "完整的测试套件、文档文件和生产就绪配置"
+  - "二进制可执行文件、目标目录和版本构建配置"
+explanation: |
+  `cargo new` 命令会创建一个全面的项目基础，包括一个用于版本控制的 Git 仓库、一个用于项目配置和依赖关系的 Cargo.toml 文件，以及一个包含 "Hello，world!"程序的基本 main.rs 文件。这提供了立即开始开发所需的一切。其他选项都是错误的，因为 cargo new 不会创建测试套件、文档文件、可执行二进制文件或构建工件，它只会建立初始项目结构。

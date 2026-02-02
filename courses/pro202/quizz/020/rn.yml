@@ -1,0 +1,8 @@
+question: Ni ikihe kibazo c’imibare gitanga umushinge w’umutekano w’imikono ya ECDSA muri Bitcoin?
+answer: Ikibazo ca logarithme c'umugongo w'umugozi
+wrong_answers:
+  - Ikibazo c'ugucapura umubare wose
+  - Ikibazo c'amasigarira ya quadratique
+  - Ikibazo c'ugutombora kwa hash
+explanation: |
+  Umutekano wa ECDSA wishingikiriza ku kibazo c’umurongo w’uruzitiro rw’uruzitiro: hatanzwe P = eG, guharura P kuva kuri e na G biroroshe, ariko gukura urufunguzo rw’ibanga e kuva ku rufunguzo rwa bose P ntibishoboka mu kubara. Ubu bucuti bw'imibare bw'inzira imwe burashoboza gukingira urufunguzo rwa bose rufise ubunini bw'urufunguzo rutoyi kuruta RSA, bivana n'ugucapura kw'imibare yose.

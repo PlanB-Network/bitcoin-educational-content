@@ -6,3 +6,4 @@ wrong_answers:
   - Derived works can only be distributed under proprietary licenses that require payment of royalties
 explanation: |
   The open source definition explicitly states that 'the license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.' This ensures that derivative works maintain the same freedoms as the original, preventing someone from taking open source code and making it proprietary. The other options violate this fundamental principle by either restricting freedom or changing licensing compatibility.
+reviewed: false

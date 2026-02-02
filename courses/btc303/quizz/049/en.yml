@@ -6,3 +6,4 @@ wrong_answers:
   - "Bitcoin's fixed supply makes it economically unfeasible to absorb losses from successful attacks unlike traditional financial systems"
 explanation: |
   The correct answer reflects Andrew Poelstra's key insight about online systems versus physical ones. Unlike buildings where we accept some risk and rely on law enforcement, Bitcoin operates in a pseudonymous environment where attackers can act without visibility or consequences. This fundamental difference means every known weakness will inevitably be exploited, making comprehensive security essential rather than optional risk management.
+reviewed: false

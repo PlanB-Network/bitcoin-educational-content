@@ -1,5 +1,6 @@
 ---
 term: GNU
+definition: Project voor een vrij besturingssysteem dat aan de basis ligt van de vrije softwarebeweging.
 ---
 
 Project gestart in 1983 door Richard Stallman om een vrij besturingssysteem te maken, compatibel met Unix. Het project ontwikkelde talrijke vrije software die gebruikt kan worden als besturingssysteem of als aanvulling op een ander besturingssysteem. GNU staat aan de basis van de vrije software beweging, die wijdverspreid is binnen de Bitcoin gemeenschap. In combinatie met de Linux kernel vormt het de GNU/Linux besturingssystemen.

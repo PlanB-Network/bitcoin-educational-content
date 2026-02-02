@@ -1,0 +1,8 @@
+question: Qual é o compromisso de privacidade mais significativo introduzido ao migrar de uma implementação LDK auto-gerida para a arquitetura baseada na nuvem do Breez SDK?
+answer: A Greenlight obtém uma visibilidade potencial dos destinos dos pagamentos e das actividades de geração de facturas através de um encaminhamento baseado na nuvem
+wrong_answers:
+  - "As chaves privadas são armazenadas nos servidores da Blockstream e não localmente no dispositivo do utilizador"
+  - A informação sobre o estado do canal torna-se publicamente visível no gráfico Lightning Network através dos nós Greenlight
+  - Os serviços LSP podem agora monitorizar todas as transacções on-chain e associá-las aos padrões de pagamento Lightning
+explanation: |
+  A resposta correta identifica a principal degradação da privacidade: o encaminhamento baseado na nuvem permite que a Greenlight observe potencialmente os destinos dos pagamentos, enquanto a geração de facturas na nuvem expande a exposição da informação para além do que as arquitecturas tradicionais apenas de LSP revelavam. As respostas erradas são incorrectas porque: as chaves privadas permanecem sob o controlo do utilizador apesar da arquitetura da nuvem; os estados dos canais não são tornados publicamente visíveis através do encaminhamento; e os LSP não ganham capacidades adicionais de monitorização de transacções on-chain através desta mudança de arquitetura.

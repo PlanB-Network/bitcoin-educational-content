@@ -99,7 +99,7 @@ O Phoenixd requer um ambiente Linux (recomenda-se o Ubuntu/Debian), com alguns c
 
 
 
-Aceda à página [GitHub releases] (https://github.com/ACINQ/phoenixd/releases) e transfira a versão mais recente para a sua arquitetura:
+Aceda à página [GitHub releases](https://github.com/ACINQ/phoenixd/releases) e transfira a versão mais recente para a sua arquitetura:
 
 
 
@@ -616,7 +616,7 @@ curl -X POST http://localhost:9740/lnurlauth \
 
 
 
-A LNbits pode utilizar o Phoenixd como fonte de financiamento, de acordo com a sua [documentação oficial] (https://docs.lnbits.org/guide/wallets.html):
+A LNbits pode utilizar o Phoenixd como fonte de financiamento, de acordo com a sua [documentação oficial](https://docs.lnbits.org/guide/wallets.html):
 
 
 

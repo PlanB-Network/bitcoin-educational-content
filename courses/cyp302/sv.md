@@ -28,7 +28,7 @@ Välkommen till kursen CYP302!
 Denna bok ger en djupdykning i kryptografins vetenskap och praktik. Där det är möjligt fokuserar den på konceptuell snarare än formell framställning av materialet.
 
 
-Detta pedagogiska innehåll är anpassat från boken och repot [JWBurgers] (https://github.com/JWBurgers/An_Introduction_to_Cryptography). Författaren har vänligen tillåtit att det används i utbildningssyfte, men alla immateriella rättigheter ligger kvar hos den ursprungliga skaparen.
+Detta pedagogiska innehåll är anpassat från boken och repot [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Författaren har vänligen tillåtit att det används i utbildningssyfte, men alla immateriella rättigheter ligger kvar hos den ursprungliga skaparen.
 
 
 **Motivation och mål**
@@ -70,7 +70,7 @@ Om du verkligen kämpar med de formella detaljerna i dessa delar av boken rekomm
 Den mest inflytelserika boken för att forma denna har varit Jonathan Katz och Yehuda Lindells _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. En tillhörande kurs finns tillgänglig på Coursera under namnet "Cryptography"
 
 
-De viktigaste ytterligare källor som har varit till hjälp för att skapa översikten i den här boken är Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar och Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) och [en kurs baserad på boken av Paar som heter "Introduction to Cryptography"] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); och Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+De viktigaste ytterligare källor som har varit till hjälp för att skapa översikten i den här boken är Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar och Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) och [en kurs baserad på boken av Paar som heter "Introduction to Cryptography"](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); och Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 
 Jag kommer endast att citera mycket specifik information och resultat som jag hämtat från dessa källor, men vill här erkänna min allmänna tacksamhetsskuld till dem.
@@ -83,7 +83,7 @@ För de läsare som vill söka mer avancerad kunskap om kryptografi efter denna 
 **Bidrag**
 
 
-Titta gärna på [bidragsfilen i arkivet] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) för riktlinjer om hur du kan stödja projektet.
+Titta gärna på [bidragsfilen i arkivet](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) för riktlinjer om hur du kan stödja projektet.
 
 
 
@@ -681,18 +681,18 @@ Låt oss först definiera det. Antag en ordbok *D* som likställer alla bokstäv
 Modulooperatorn i skiftchiffret säkerställer att bokstäverna omsluter varandra, så att alla chiffertextbokstäver definieras. För att illustrera, överväg tillämpningen av skiftchiffret på ordet "DOG".
 
 
-Antag att du på ett enhetligt sätt har valt en nyckel med värdet 17. Bokstaven "O" motsvarar 15. Utan modulo-operationen skulle tillägget av detta klartextnummer med nyckeln uppgå till ett chiffertextnummer på 32. Detta chiffertextnummer kan dock inte omvandlas till en chiffertextbokstav, eftersom det engelska alfabetet bara har 26 bokstäver. Modulooperationen säkerställer att chiffertextnumret faktiskt är 6 (resultatet av $32 \mod 26$), vilket motsvarar chiffertextbokstaven "G".
+Antag att du jämnt valde en nyckel med värdet $17$. Bokstaven ”O” motsvarar $14$. Utan modulooperationen skulle additionen av detta klartexttal med nyckeln ge ett chiffertexttal på $31$. Detta tal kan dock inte omvandlas till en chifferbokstav, eftersom det engelska alfabetet endast har $26$ bokstäver. Modulooperationen säkerställer att chiffertexttalet faktiskt är $5$ (resultatet av $31 \mod 26$), vilket motsvarar chifferbokstaven ”F”.
 
 
 Hela krypteringen av ordet "DOG" med ett nyckelvärde på 17 är som följer:
 
 
 
-- Meddelande = DOG = D,O,G = 3,15,6
+**Meddelande = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$$
+*c = UFX*
 
 
 Alla kan intuitivt förstå hur skiftchiffret fungerar och förmodligen använda det själva. För att utveckla din kunskap om kryptografi är det dock viktigt att börja bli mer bekväm med formalisering, eftersom systemen blir mycket svårare. Därför formaliserades stegen för skiftchiffret.
@@ -1329,10 +1329,10 @@ För vidare diskussion om modern talteori kan du konsultera många avancerade di
 **Noteringar:**
 
 
-[3] Se [YouTube Video] (https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
+[3] Se [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
 
-[4] Socratica, [Abstrakt algebra] (https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstrakt algebra](https://www.socratica.com/subject/abstract-algebra)
 
 
 [5] Katz och Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar och Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
@@ -2719,7 +2719,7 @@ Kollisionsresistenta Hash-funktioner är viktiga t.ex. vid verifiering av progra
 
 2.	Därefter måste du verifiera de offentliga nycklar som du importerade. Åtminstone ett steg du bör ta är att verifiera att de offentliga nycklar du hittade är desamma som publicerats på olika andra platser. Du kan till exempel konsultera de personliga webbsidorna, Twitter-sidorna eller Github-sidorna för de personer vars offentliga nycklar du importerade. Vanligtvis görs denna jämförelse av publika nycklar genom att jämföra en kort Hash av den publika nyckeln, ett så kallat fingeravtryck.
 
-3.	Därefter måste du ladda ner den körbara filen för Bitcoin Core från deras [webbplats] (www.bitcoincore.org). Det kommer att finnas paket tillgängliga för operativsystemen Linux, Windows och MAC.
+3.	Därefter måste du ladda ner den körbara filen för Bitcoin Core från deras [webbplats](www.bitcoincore.org). Det kommer att finnas paket tillgängliga för operativsystemen Linux, Windows och MAC.
 
 4.	Därefter måste du leta reda på två releasefiler. Den första innehåller den officiella SHA-256 Hash för den körbara filen du laddade ner tillsammans med hasharna över alla andra paket som släpptes. En annan releasefil kommer att innehålla signaturerna från olika bidragsgivare över releasefilen med paketets hash. Båda dessa utgivningsfiler bör finnas på Bitcoin Core-webbplatsen.
 

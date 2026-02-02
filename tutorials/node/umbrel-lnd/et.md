@@ -221,7 +221,7 @@ Kui LND on käivitunud ja töötab, saate avada oma esimese Lightning-kanali. Kv
 
 
 
-Näiteks [ACINQ-sõlm] (https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) on tunnustatud sõlme, millel on suurepärane kättesaadavuse ja likviidsuse statistika.
+Näiteks [ACINQ-sõlm](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) on tunnustatud sõlme, millel on suurepärane kättesaadavuse ja likviidsuse statistika.
 
 
 

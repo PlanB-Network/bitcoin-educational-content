@@ -1,9 +1,0 @@
-question: Koja je jedinica Bitkoina korišćena u Lightning mreži?
-answer: Sats.
-wrong_answers:
-  - Blok.
-  - Eter.
-  - Litecoin.
-explanation: |
-  Lightning mreža koristi satoshije (takođe nazvane Sats), decimalu Bitkoina, za funkcionisanje.
-reviewed: true

@@ -1,0 +1,9 @@
+question: 在 NWC 流程中，何時在應用程式端進行加密？
+answer: 在繼電器上發佈之前
+wrong_answers:
+  - 讀取節點後
+  - 在繼電器上發佈後
+  - 從不
+explanation: |
+  應用程式將要求序列化、加密，然後在 Nostr 中繼器上以事件形式發佈。
+reviewed: false

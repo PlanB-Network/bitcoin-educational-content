@@ -1,0 +1,8 @@
+question: Ưu điểm chính của tính năng tương tác trong SDK Breez cho phép nhiều ứng dụng kết nối với cùng một nút Lightning bằng cùng một cụm từ seed là gì?
+answer: Người dùng có thể duy trì một số dư Lightning duy nhất trên nhiều ứng dụng chuyên dụng khác nhau, đồng thời tránh được sự phức tạp khi quản lý nhiều nút Lightning.
+wrong_answers:
+  - Các ứng dụng có thể chia sẻ khóa riêng tư trực tiếp với nhau, cho phép ký giao dịch xuyên ứng dụng liền mạch mà không cần sự can thiệp của người dùng.
+  - Nhiều ứng dụng có thể gộp chung thanh khoản của chúng để tạo ra các kênh Lightning lớn hơn với khả năng định tuyến được tăng cường cho mạng.
+  - Các nhà phát triển có thể truy cập vào cơ sở hạ tầng Lightning dùng chung mà không cần tự triển khai quản lý nút mạng, giúp giảm chi phí và độ phức tạp trong quá trình phát triển.
+explanation: |
+  Khả năng tương tác của SDK cho phép người dùng truy cập cùng một node Lightning và tiền từ nhiều ứng dụng chuyên dụng (như một ứng dụng wallet thông thường và một ứng dụng podcasting) mà không cần quản lý số dư hoặc node riêng biệt. Các câu trả lời sai đã mô tả sai kiến trúc: khóa riêng tư không bao giờ rời khỏi thiết bị của người dùng và không được chia sẻ giữa các ứng dụng, gộp thanh khoản không phải là cách hệ thống hoạt động, và mặc dù các nhà phát triển được hưởng lợi từ cơ sở hạ tầng đơn giản hóa, nhưng lợi thế chính được mô tả là trải nghiệm người dùng thống nhất trên các ứng dụng.

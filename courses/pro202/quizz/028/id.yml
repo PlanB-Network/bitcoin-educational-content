@@ -1,0 +1,8 @@
+question: Apa perbedaan mendasar antara P2PK dan P2PKH dalam hal informasi apa saja yang diungkapkan sebelum koin dibelanjakan?
+answer: P2PK mengekspos kunci publik penuh dalam ScriptPubKey sebelum dibelanjakan, sementara P2PKH hanya mengekspos hash dari kunci publik sampai dibelanjakan
+wrong_answers:
+  - P2PK membutuhkan banyak tanda tangan untuk validasi, sementara P2PKH hanya membutuhkan satu tanda tangan untuk membuka kunci koin
+  - P2PK menggunakan algoritma hashing yang berbeda dengan P2PKH, sehingga lebih aman terhadap serangan komputasi kuantum
+  - P2PK menyimpan kunci privat dalam ScriptPubKey, sedangkan P2PKH hanya menyimpan hasil verifikasi tanda tangan
+explanation: |
+  P2PK mengunci koin secara langsung ke kunci publik penuh yang dapat dilihat di ScriptPubKey sebelum pembelanjaan terjadi. P2PKH meningkatkan privasi dengan hanya menampilkan hash 20-byte dari kunci publik di ScriptPubKey, menyembunyikan kunci publik yang sebenarnya sampai pemiliknya memberikannya di ScriptSig selama pembelanjaan. Peningkatan privasi ini merupakan salah satu keunggulan utama P2PKH dibandingkan dengan pola P2PK sebelumnya.

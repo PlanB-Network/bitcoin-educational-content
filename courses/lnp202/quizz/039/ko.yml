@@ -1,0 +1,9 @@
+question: 라이트닝 노드의 발신 유동성이란 무엇인가요?
+answer: 지불 능력
+wrong_answers:
+  - 연결 기능
+  - 수신 용량
+  - 채널 닫기 기능
+explanation: |
+  나가는 유동성은 운영자 측에서 결제를 위해 사용할 수 있는 sats을 나타냅니다.
+reviewed: false

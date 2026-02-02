@@ -1,0 +1,8 @@
+question: Jaký je hlavní technický důvod, proč peněženky poháněné technologií Greenlight dosahují vyšší spolehlivosti směrování plateb ve srovnání s tradičními mobilními implementacemi Lightning?
+answer: Uzly Greenlight běží nepřetržitě v cloudu, udržují synchronizaci síťových grafů v reálném čase a okamžitý přístup ke kompletním grafovým datům
+wrong_answers:
+  - Greenlight využívá pokročilé algoritmy strojového učení k předvídání optimálních platebních tras na základě historických transakčních vzorců
+  - Greenlight implementuje vlastní vícecestné rozdělení plateb, které rozděluje transakce do více kanálů současně pro zajištění redundance
+  - Společnost Greenlight udržuje vyhrazená připojení s vysokou šířkou pásma k hlavním uzlům Lightning, čímž zajišťuje prioritní směrování přes nejlikvidnější kanály
+explanation: |
+  Správná odpověď identifikuje základní architektonickou výhodu cloudového přístupu společnosti Greenlight. Tradiční mobilní peněženky Lightning musí při spuštění synchronizovat data síťového grafu, což způsobuje zpoždění a potenciální práci s neaktuálními informacemi o směrování. Greenlight to řeší tím, že uzly Lightning jsou nepřetržitě spuštěny v cloudu, což zajišťuje, že mají vždy aktuální znalosti o síti a mohou okamžitě poskytnout kompletní data grafu, když se uživatelé připojí. Špatné odpovědi popisují pravděpodobné, ale neexistující funkce - Greenlight nepoužívá algoritmy ML směrování, proprietární rozdělení plateb nad rámec standardních protokolů Lightning ani speciální připojení uzlů pro prioritní směrování.

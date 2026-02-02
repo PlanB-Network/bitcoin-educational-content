@@ -1,5 +1,5 @@
 ---
-name: ゼウス・スワップ
+name: Zeus Swap
 description: On-ChainとLightning Networkビットコイン間の非保護Exchangeサービス
 ---
 
@@ -390,12 +390,13 @@ PhoenixとBreezは、エンドユーザーから技術的な複雑さを隠す�
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| サービス | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | 最小額 |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + マイニング手数料 | 0.5% + マイニング手数料 | 25,000 sats |
+| **Boltz** | 0.2% + マイニング手数料 | 0.5% + マイニング手数料 | 50,000 sats |
+| **Phoenix** | マイニング手数料のみ | 0.4% 固定 | 10,000 sats |
+| **Breez** | 0.25% + ネットワーク手数料 | 0.5% + マイニング手数料 | 50,000 sats |
 
 Zeusスワップは、使いやすさと技術的なコントロールのバランスを提供します。Boltzよりもアクセスしやすく、Phoenix/Breezよりも柔軟で、厳格な非拘束的アプローチを採用しています。
 

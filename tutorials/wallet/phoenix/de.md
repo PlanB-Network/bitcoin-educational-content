@@ -26,8 +26,8 @@ Meiner Meinung nach stellt Phoenix eine hervorragende Zwischenlösung zwischen v
 Gehen Sie zu Ihrem Anwendungsspeicher und installieren Sie Phoenix :
 
 
-- Im [Google Play Store] (https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
-- Im [App Store] (https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
+- Im [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
+- Im [App Store](https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
 
 ![Image](assets/fr/02.webp)
 

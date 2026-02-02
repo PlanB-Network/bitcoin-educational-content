@@ -1,5 +1,6 @@
 ---
-term: BGP HIJACKING
+term: Przejmowanie BGP
+definition: Atak manipulujący routingiem internetowym w celu przekierowania ruchu do złośliwej sieci, co może być wykorzystane do izolacji węzłów Bitcoin.
 ---
 
 Atak, w którym złośliwy aktor manipuluje reklamami BGP w celu przekierowania ruchu internetowego do własnej sieci. Podszywając się pod legalne pochodzenie określonych zakresów adresów IP Address, atakujący może przechwytywać, monitorować lub blokować ruch przeznaczony dla tych adresów.

@@ -1,5 +1,6 @@
 ---
-term: WYJŚCIE
+term: Output
+definition: Wyjście transakcji tworzące nowy UTXO przeznaczony dla adresu.
 ---
 
 W kontekście Bitcoin, wyjście w ramach transakcji odnosi się do _Unspend Transaction Outputs_ (UTXOs), które są tworzone jako fundusze docelowe dla płatności. Mówiąc dokładniej, jest to mechanizm, za pomocą którego transakcja dystrybuuje fundusze. Transakcja przyjmuje UTXO, tj. bity bitcoinów, jako "dane wejściowe" i tworzy nowe UTXO jako "dane wyjściowe". Wyjścia te określają pewną ilość bitcoinów, często przydzielonych do określonego Address, a także warunki, na jakich środki te mogą zostać wydane w późniejszym terminie.

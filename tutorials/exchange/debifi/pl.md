@@ -24,11 +24,11 @@ Rezultatem jest **Debifi**, platforma, która pozycjonuje się jako nowoczesna a
 
 
 
-Debifi to platforma pożyczkowa oparta na Bitcoin, co oznacza, że użytkownik zachowuje kontrolę nad swoimi kluczami prywatnymi. Pozwala ona użytkownikom na odblokowanie płynności w Exchange dla ich zablokowanych bitcoinów jako zabezpieczenia. W przeciwieństwie do tradycyjnych pożyczek bankowych, Debifi wykorzystuje system depozytowy z wieloma podpisami (3 z 4) i nie akceptuje hipotek zabezpieczających, gwarantując większe bezpieczeństwo i przejrzystość.
+Debifi to platforma pożyczkowa wspierana przez Bitcoin, co oznacza, że użytkownik zachowuje kontrolę nad swoimi kluczami prywatnymi. Pozwala ona użytkownikom na odblokowanie płynności w zamian za ich zablokowane bitcoiny jako zabezpieczenie. W przeciwieństwie do tradycyjnych pożyczek bankowych, Debifi wykorzystuje system depozytowy z wieloma podpisami (3 z 4) i nie akceptuje rehipotekowania zabezpieczenia, gwarantując większe bezpieczeństwo i przejrzystość.
 
 
 
-W praktyce oznacza to, że ani Debifi, ani indywidualny pożyczkodawca nie mogą wydać twoich BTC bez zgody trzech stron (ciebie, pożyczkodawcy i zaufanej strony trzeciej). Dzięki temu system jest bezpieczniejszy: jeśli pożyczasz na Debifi, zachowujesz Ownership z Bitcoin, dopóki pożyczka nie zostanie w pełni spłacona.
+W praktyce oznacza to, że ani Debifi, ani indywidualny pożyczkodawca nie mogą wydać BTC użytkownika bez zgody trzech stron (użytkownika, pożyczkodawcy i zaufanej strony trzeciej). Dzięki temu system jest bezpieczniejszy: jeśli pożyczasz na Debifi, zachowujesz własność swojego Bitcoin do momentu całkowitej spłaty pożyczki.
 
 
 
@@ -36,22 +36,21 @@ W praktyce oznacza to, że ani Debifi, ani indywidualny pożyczkodawca nie mogą
 
 
 
-Debifi to zabezpieczone pożyczki, bezpieczeństwo Blockchain (wielopodpisowe, 2FA), wybór stablecoinów/płynów, poufność i całkowita kontrola Bitcoin. Debifi "pozwala ci zachować twoje pieniądze" (twoje klucze, twoje monety), oferując jednocześnie konkurencyjne stawki i globalny dostęp do pożyczek zabezpieczonych BTC.
+Dzięki Debifi otrzymujesz pożyczki zabezpieczone Bitcoin, które są nadmiernie zabezpieczone i zabezpieczone on-chain. Twoje środki pozostają bezpieczne dzięki portfelom z wieloma podpisami, 2FA i całkowitej kontroli nad Bitcoin - trzymasz klucze, trzymasz monety. Pożyczaj w szeregu stablecoinów lub opcji fiat, po konkurencyjnych stawkach i globalnej płynności.
 
 
 
 Oto szybkie porównanie pożyczki Debifi z tradycyjną pożyczką bankową:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Zanim pokażę ci krok po kroku, jak zaciągnąć pożyczkę w Debifi, jest kilka punktów, które moim zdaniem musisz wiedzieć.
 
@@ -76,7 +75,7 @@ Zanim pokażę ci krok po kroku, jak zaciągnąć pożyczkę w Debifi, jest kilk
 
 
 
-- System Multisig escrow (3/4)** to bezpieczny mechanizm depozytowy, w którym bitcoiny pożyczkobiorcy są umieszczane w Address z wieloma podpisami. W szczególności cztery (4) strony posiadają klucz (pożyczkobiorca, pożyczkodawca, Debifi, niezależna strona trzecia). Aby przenieść środki, wymagane są co najmniej 3 z 4 podpisów.
+- System Multisig escrow (3/4)** to bezpieczny mechanizm depozytowy, w którym bitcoiny pożyczkobiorcy są umieszczane na adresie z wieloma podpisami. W szczególności cztery (4) strony posiadają klucz (pożyczkobiorca, pożyczkodawca, Debifi, niezależna strona trzecia). Aby przenieść środki, wymagane są co najmniej 3 z 4 podpisów.
 
 
 
@@ -118,17 +117,11 @@ Zanim będziesz mógł pożyczyć od Debifi, upewnij się, że masz następując
 
 
 
-- Bitcoin Wallet: gdzie trzymasz swoje BTC (najlepiej bez depozytu, np. Hardware Wallet lub zaufany mobilny Wallet). To z tego Wallet wyślesz zabezpieczenie Bitcoin do Debifi i otrzymasz środki.
+- Bitcoin wallet: gdzie przechowujesz swoje BTC (najlepiej bez depozytu, np. Hardware Wallet lub zaufany mobilny wallet). To z tego wallet wyślesz zabezpieczenie Bitcoin do Debifi i otrzymasz zabezpieczenie z powrotem.
 
 
 
-
-
-- Stablecoiny lub fiat: Debifi udziela pożyczek w stablecoinach i niektórych walutach fiducjarnych. Głównymi używanymi stablecoinami są USDT i USDC.
-
-
-
-Możesz użyć Aqua, Bitcoin i Liquid Wallet, które również obsługują zarządzanie stablecoinami USDT w różnych sieciach. Lub COLDCARD (Mk4 lub Q), obecnie jedyny sprzęt obsługiwany przez Debifi.
+Możesz użyć Aqua, Bitcoin i Liquid wallet, które również obsługują zarządzanie stablecoinami USDT w różnych sieciach. Lub COLDCARD (Mk4 lub Q), obecnie jedyny sprzęt obsługiwany przez Debifi.
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Aplikacja do uwierzytelniania dwuskładnikowego: Debifi wymaga kodu Authenticator dla każdej ważnej akcji. Jest to dodatkowy Layer bezpieczeństwa. W tym samouczku będziemy używać Google Authenticator. Alternatywnie możesz użyć innych, według własnego uznania.
+- Aplikacja do uwierzytelniania dwuskładnikowego: Debifi wymaga kodu Authenticator dla każdej ważnej akcji. Jest to dodatkowa warstwa bezpieczeństwa. W tym samouczku będziemy używać Google Authenticator. Alternatywnie możesz użyć innych, według własnego uznania.
 
 
 
@@ -158,7 +151,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Strona internetowa i aplikacja mobilna Debifi: Debifi to zarówno strona internetowa, jak i aplikacja mobilna, które działają w tandemie. Aplikacja mobilna staje się Wallet, który przechowuje klucz prywatny i zarządza podpisywaniem umów. Ponadto należy korzystać ze strony internetowej, aby zatwierdzać umowy (duży Interface zapewnia ogólny widok umów pożyczki i ich szczegółów).
+- Strona internetowa i aplikacja mobilna Debifi: Debifi to zarówno strona internetowa, jak i aplikacja mobilna, które działają w tandemie. Aplikacja mobilna staje się wallet, który przechowuje klucz prywatny i zarządza podpisywaniem umów. Ponadto musisz korzystać ze strony internetowej, aby zatwierdzać umowy (duży Interface zapewnia ogólny widok umów pożyczki i ich szczegółów).
 
 
 
@@ -172,7 +165,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-Odwiedź [oficjalną stronę Debifi] (https://debifi.com/app).
+Odwiedź [oficjalną stronę Debifi](https://debifi.com/app).
 
 
 
@@ -200,7 +193,7 @@ Po wejściu do aplikacji kliknij menu **Ustawienia**.
 
 
 
-Następnie kliknij **Zaloguj się lub utwórz konto**, aby utworzyć konto przy użyciu adresu e-mail Address.
+Następnie kliknij **Zaloguj się lub utwórz konto**, aby utworzyć konto przy użyciu swojego adresu e-mail.
 
 
 
@@ -354,13 +347,13 @@ Debifi opiera się na przejrzystych i elastycznych warunkach pożyczki, aby zasp
 #### Współczynnik wartości kredytu do wartości zabezpieczenia (LTV)
 
 
-Transze pożyczki Bitcoin składają się zazwyczaj z trzech (3) transz:
+Transze pożyczki Bitcoin są zazwyczaj trzy (3):
 
 
 
 
 
-- Konserwatywny (20% - 40% LTV), który odpowiada pożyczce o niskim ryzyku, jest idealny do maksymalizacji zabezpieczenia przed zmiennością cen Bitcoin;
+- Konserwatywny (30% - 40% LTV), który odpowiada pożyczce o niskim ryzyku, jest idealny do maksymalizacji zabezpieczenia przed zmiennością cen Bitcoin;
 
 
 
@@ -372,7 +365,7 @@ Transze pożyczki Bitcoin składają się zazwyczaj z trzech (3) transz:
 
 
 
-- Agresywna (70% - 85% LTV), która oferuje większą płynność, ale niesie ze sobą bardzo wysokie ryzyko likwidacji podczas spadków na rynku. Przy wyborze tej transzy konieczne jest aktywne monitorowanie warunków rynkowych Bitcoin.
+- Agresywna (70% LTV), która oferuje większą płynność, ale niesie ze sobą bardzo wysokie ryzyko likwidacji podczas spadków na rynku. Przy wyborze tej transzy konieczne jest aktywne monitorowanie warunków rynkowych Bitcoin.
 
 
 
@@ -388,7 +381,7 @@ Ustalanie stawek zależy zasadniczo od wybranego LTV, długości okresu kredytow
 
 
 
-Harmonogramy spłat pożyczek są często elastyczne i dostosowane do potrzeb użytkownika. Płatności mogą być dokonywane w dowolnym momencie, o ile spełnione są wymagania dotyczące zabezpieczenia. Płatności pożyczki są zazwyczaj odsetkami za okres trwania pożyczki, a kapitał jest wymagalny w terminie zapadalności.
+Harmonogramy spłat są elastyczne i dostosowane do potrzeb pożyczkobiorcy. Pożyczki mogą być w całości lub częściowo spłacone w dowolnym momencie bez dodatkowych opłat, pod warunkiem spełnienia wymogów dotyczących zabezpieczenia. Przez cały okres pożyczki odsetki są zazwyczaj spłacane okresowo, a kapitał jest rozliczany w terminie zapadalności.
 
 
 
@@ -396,7 +389,16 @@ Harmonogramy spłat pożyczek są często elastyczne i dostosowane do potrzeb u�
 
 
 
-Ponieważ cena Bitcoin jest zmienna, odpowiedzialna pożyczka zawiera w umowie określone zasady dotyczące wezwania do uzupełnienia depozytu zabezpieczającego. Polityka ta pozwala na powiadomienie pożyczkobiorcy o konieczności zapewnienia dodatkowego zabezpieczenia lub spłaty części pożyczki.
+Biorąc pod uwagę zmienność Bitcoin, pożyczki obejmują jasno określoną politykę wezwania do uzupełnienia depozytu zabezpieczającego. Wezwanie do uzupełnienia depozytu zabezpieczającego ma miejsce, gdy LTV wzrasta z powodu spadku wartości zabezpieczenia. Debifi powiadamia pożyczkobiorcę e-mailem i za pośrednictwem aplikacji, umożliwiając mu dodanie zabezpieczenia lub spłatę części pożyczki.
+
+
+75% LTV - pierwszy alert
+
+80% LTV - drugi alert
+
+85% LTV - ostrzeżenie końcowe
+
+90% LTV - zabezpieczenie jest likwidowane
 
 
 
@@ -433,11 +435,11 @@ Można zobaczyć :
 6. Należy wprowadzić dokładną potrzebną kwotę (kwota ta musi mieścić się w przedziale, patrz punkt 2);
 
 
-7. Należy wprowadzić Ethereum USDC Address, który ma zostać użyty do otrzymania środków.
+7. Należy wprowadzić adres Ethereum USDC, który ma zostać użyty do otrzymania środków.
 
 
 
-Po zaakceptowaniu oferty i wypełnieniu niezbędnych informacji, kliknij przycisk "Contract request".
+Po zaakceptowaniu oferty i wypełnieniu niezbędnych informacji, kliknij "Wniosek Contract".
 
 
 
@@ -453,7 +455,7 @@ Wróć do aplikacji mobilnej dla ''**Podaj klucz publiczny**''.
 
 
 
-Naciśnij przycisk '' **Podaj klucz publiczny** '', a następnie wybierz źródło klucza publicznego. Pożyczkodawca będzie również musiał Supply klucz publiczny.
+Naciśnij przycisk '' **Podaj klucz publiczny** '', a następnie wybierz źródło klucza publicznego. Pożyczkodawca również będzie musiał dostarczyć klucz publiczny.
 
 
 
@@ -473,7 +475,7 @@ Naciśnij przycisk '' **Podaj klucz publiczny** '', a następnie wybierz źród�
 
 
 
-Następnym krokiem jest podpisanie Contract. Nadal w aplikacji mobilnej naciśnij '' **Podpisz Contract** ''
+Kolejnym krokiem jest podpisanie umowy. Będąc jeszcze w aplikacji mobilnej należy nacisnąć '' **Podpisz Contract** ''
 
 
 
@@ -485,7 +487,7 @@ Następnym krokiem jest podpisanie Contract. Nadal w aplikacji mobilnej naciśni
 
 
 
-Po zakończeniu podpisywania Contract, Debifi automatycznie tworzy unikalny wielopodpisowy Bitcoin Address (escrow 3-sur-4) dla twojego Contract. Dopóki bitcoiny znajdują się w depozycie, nie można ich użyć gdzie indziej.
+Po zakończeniu podpisywania umowy Debifi automatycznie tworzy unikalny adres Bitcoin z wieloma podpisami (escrow 3-sur-4) dla Twojej umowy. Dopóki bitcoiny znajdują się w depozycie, nie można ich użyć gdzie indziej.
 
 
 
@@ -493,7 +495,7 @@ Po zakończeniu podpisywania Contract, Debifi automatycznie tworzy unikalny wiel
 
 
 
-Ostatnim krokiem jest zdeponowanie zabezpieczenia Bitcoin w systemie escrow z wieloma podpisami. Następnie Debifi pokazuje depozyt Address (B) i ilość BTC (A) do wysłania jako (zabezpieczenie + prowizja).
+Ostatnim krokiem jest zdeponowanie zabezpieczenia Bitcoin w systemie escrow z wieloma podpisami. Debifi pokazuje adres depozytowy (B) i ilość BTC (A) do wysłania jako (zabezpieczenie + prowizja).
 
 
 
@@ -509,7 +511,7 @@ Otrzymasz również to powiadomienie w swojej aplikacji mobilnej.
 
 
 
-Gdy tylko depozyt zostanie potwierdzony, pożyczkodawca wypłaci kwotę pożyczki do wskazanego przez Ciebie Address, finalizując transakcję i dając Ci dostęp do potrzebnych środków.
+Gdy tylko depozyt zostanie potwierdzony, pożyczkodawca wypłaci kwotę pożyczki na wskazany adres odbiorczy, finalizując transakcję i zapewniając dostęp do potrzebnych środków.
 
 
 
@@ -517,7 +519,7 @@ Następnie otrzymasz powiadomienie od Debifi z prośbą o uiszczenie opłat za p
 
 
 
-W rzeczywistości po utworzeniu Contract opłaty kredytowe są automatycznie potrącane z zabezpieczenia złożonego przez kredytobiorcę w Address z wieloma podpisami.
+W rzeczywistości, po utworzeniu umowy, opłaty za pożyczkę są automatycznie potrącane z zabezpieczenia złożonego przez pożyczkobiorcę na adresie depozytowym z wieloma podpisami.
 
 
 
@@ -529,7 +531,7 @@ Wszystko, co musisz zrobić, to podpisać transakcję, która pozwoli Debifi odl
 
 
 
-Obowiązujące opłaty za udzielenie pożyczki wynoszą 1,5-2%, w zależności od okresu Contract. Platforma pobiera prowizje tylko w Bitcoin.
+Obowiązujące opłaty za udzielenie pożyczki wynoszą 1,5-2%, w zależności od okresu obowiązywania umowy. Platforma pobiera prowizje tylko w Bitcoin.
 
 
 
@@ -537,25 +539,23 @@ Obowiązujące opłaty za udzielenie pożyczki wynoszą 1,5-2%, w zależności o
 
 
 
-Gdy pożyczka jest w toku, Debifi pozwala monitorować Contract w czasie rzeczywistym. W Interface zobaczysz :
-
-
+Gdy pożyczka jest aktywna, Debifi umożliwia śledzenie umowy w czasie rzeczywistym. W interfejsie znajdziesz:
 
 
 
 - Kwota pożyczki i pozostały okres spłaty.
-- Bieżący wskaźnik LTV (Loan-to-Value): LTV wzrasta, jeśli cena BTC spada (ponieważ twoje zabezpieczenie jest warte mniej). Ustalony jest próg ostrzegawczy (zazwyczaj 90%). Jeśli LTV przekroczy ten próg, istnieje ryzyko przymusowej likwidacji. Debifi da ci wtedy 24 godziny na reakcję.
-
-
-
-Kredytobiorcy zostaną poinformowani o obniżce ceny. Informacja ta będzie również dostępna na stronie podsumowania Contract. Aby przywrócić pierwotny stosunek kredytu do wartości kredytu, kredytobiorca musi :
+- Bieżący wskaźnik LTV (Loan-to-Value), który rośnie, gdy cena BTC spada, a wartość zabezpieczenia spada.
 
 
 
 
+Kredytobiorcy są powiadamiani o spadku wartości zabezpieczenia, a informacja ta jest również wyświetlana na stronie podsumowania umowy. Aby przywrócić pierwotny stosunek wartości kredytu do wartości zabezpieczenia, kredytobiorca musi
 
-- lub wpłacić dodatkową gwarancję;
+
+
+- złożyć dodatkowe zabezpieczenie;
 - spłacić całość lub część długu.
+
 
 
 
@@ -577,21 +577,21 @@ W Debifi :
 
 
 
-- Przejdź do Contract i kliknij na **Dokonaj spłaty**. Wprowadź całkowitą należną kwotę (kapitał + odsetki).
+- Przejdź do swojej umowy i kliknij przycisk **Dokonaj spłaty**. Wprowadź całkowitą należną kwotę (kapitał + odsetki).
 
 
 
 
 
-- Wyślij stablecoiny ze swojego Wallet do wskazanego Address pożyczkodawcy i wróć, aby potwierdzić spłatę na platformie, kopiując **ID** transakcji spłaty do dedykowanej zakładki. Ułatwia to Debifi przeprowadzanie kontroli.
+- Wyślij stablecoiny ze swojego wallet na wskazany adres pożyczkodawcy i wróć, aby potwierdzić spłatę na platformie, kopiując **ID** transakcji spłaty do dedykowanej zakładki. Ułatwia to Debifi przeprowadzanie kontroli.
 
 
 
-Po potwierdzeniu płatności przez pożyczkodawcę (i przez Ciebie), Debifi poprosi Cię o **refundację**. Twoje zabezpieczenie Bitcoin zostaje zwolnione i możesz zwrócić je z depozytu do własnego portfela.  Nie zapomnij zebrać wszystkich swoich Bitcoinów.
+Po potwierdzeniu płatności przez pożyczkodawcę (i przez Ciebie), Debifi poprosi Cię o **refundację**. Twoje zabezpieczenie Bitcoin zostanie zwolnione i możesz zwrócić je z depozytu do własnego wallet.  Nie zapomnij zebrać wszystkich swoich Bitcoinów.
 
 
 
-Jak tylko otrzymasz swoje bitcoiny, pożyczka Contract zmieni się na **Contract zakończona**.
+Po otrzymaniu bitcoinów umowa pożyczki zmienia się na **Contract completed**.
 
 
 
@@ -604,7 +604,7 @@ Gratulacje! Proces został zakończony.
 
 
 
-Niezależnie od celów lub motywacji - finansowanie projektu, nabycie nieruchomości, zakup bitcoinów itp. - należy zachować szczególną ostrożność przed zaciągnięciem pożyczki zabezpieczonej przez Bitcoin. - zachowaj szczególną ostrożność przed zaciągnięciem pożyczki zabezpieczonej przez Bitcoin. Poświęć trochę czasu na dokładne rozważenie swojej decyzji, ponieważ Bitcoin pozostaje aktywem niestabilnym. **Gwałtowny spadek jego ceny może skutkować przymusową likwidacją posiadanych bitcoinów**.
+Niezależnie od celów lub motywacji - finansowanie projektu, nabycie nieruchomości, zakup bitcoinów itp. - należy zachować dużą ostrożność przed zaciągnięciem pożyczki zabezpieczonej Bitcoin. Poświęć czas na dokładną ocenę swojej decyzji, ponieważ Bitcoin pozostaje aktywem niestabilnym. **Gwałtowny spadek jego ceny może skutkować przymusową likwidacją bitcoinów
 
 
 
@@ -612,7 +612,7 @@ Monitoruj swój stosunek pożyczki do zabezpieczenia (LTV). Jeśli to możliwe, 
 
 
 
-Kontroluj swoje klucze. Przechowuj BTC w bezpiecznym Wallet (najlepiej sprzętowym lub renomowanym Wallet). Nie ustawiaj kodu PIN związanego z ważną datą w Twoim życiu i nigdy nie udostępniaj swojej frazy odzyskiwania. Na Debifi, generate swój klucz prywatny w aplikacji - Debifi go nie zna.
+Kontroluj swoje klucze. Przechowuj BTC w bezpiecznym wallet (najlepiej sprzętowym lub renomowanym wallet). Nie ustawiaj kodu PIN związanego z ważną datą w Twoim życiu i nigdy nie udostępniaj swojej frazy odzyskiwania. Na Debifi, generate swój klucz prywatny w aplikacji - Debifi go nie zna.
 
 
 
@@ -620,7 +620,7 @@ Jeśli to możliwe, zacznij od małych kwot. W przypadku pierwszej pożyczki prz
 
 
 
-Używaj tylko oficjalnej strony Debifi, aby być na bieżąco z wiadomościami Debifi i unikaj nieznanych lub phishingowych linków.  Zaktualizuj aplikację, zabezpiecz swój smartfon kodem PIN i wybierz kompatybilny Hardware Wallet.
+Używaj tylko oficjalnej strony Debifi, aby być na bieżąco z wiadomościami Debifi i unikaj nieznanych lub phishingowych linków.  Aktualizuj aplikację, chroń swój smartfon kodem PIN i wybierz kompatybilny Hardware Wallet.
 
 
 

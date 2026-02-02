@@ -139,7 +139,7 @@ Du kan också köpa **en OPNsense rackmonterbar apparat** via vår webbutik.
 
 
 
-Du måste ta hänsyn till de maskinvaruresurser som krävs för att köra OPNsense. Detta beskrivs närmare på [den här dokumentationssidan] (https://docs.opnsense.org/manual/hardware.html).
+Du måste ta hänsyn till de maskinvaruresurser som krävs för att köra OPNsense. Detta beskrivs närmare på [den här dokumentationssidan](https://docs.opnsense.org/manual/hardware.html).
 
 
 
@@ -147,17 +147,18 @@ Du måste ta hänsyn till de maskinvaruresurser som krävs för att köra OPNsen
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Funktioner | Minimum | Rekommendation |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Processor | 1 GHz - 2 kärnor | 1.5 GHz - Multi-core |
+| RAM | 2 GB | 8 GB |
+| Lagringsutrymme för systemet | Hårddisk, SSD eller SD-kort (4 GB) | 120 GB på SSD |
 
 Slutligen beror **dina resurskrav framför allt på antalet anslutningar som ska hanteras**, och därmed på **dina bandbreddskrav**. Dessutom måste du **ha i åtanke de tjänster som kommer att aktiveras och användas** (proxy, intrångsdetektering, etc.) eftersom de kan vara CPU- och/eller RAM-krävande.
 
 
 
-Du behöver också ISO-avbildningen för OPNsense-installationen, som du kan hämta från [den officiella webbplatsen] (https://opnsense.org/download/). För installation på en virtuell dator väljer du "**dvd**" som avbildningstyp för att få en ISO-avbildning (och gör vad du vill med den...). För installation via en startbar USB-nyckel, välj alternativet "**vga**" för att få en "**.img**"-fil.
+Du behöver också ISO-avbildningen för OPNsense-installationen, som du kan hämta från [den officiella webbplatsen](https://opnsense.org/download/). För installation på en virtuell dator väljer du "**dvd**" som avbildningstyp för att få en ISO-avbildning (och gör vad du vill med den...). För installation via en startbar USB-nyckel, välj alternativet "**vga**" för att få en "**.img**"-fil.
 
 
 
@@ -213,7 +214,7 @@ Efter nedladdningen får du **ett arkiv som innehåller en bild i formatet ".img
 
 
 
-- [Ladda ner balenaEtcher] (https://etcher.balena.io/)
+- [Ladda ner balenaEtcher](https://etcher.balena.io/)
 
 
 

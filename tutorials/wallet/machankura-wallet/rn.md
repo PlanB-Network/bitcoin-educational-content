@@ -80,18 +80,19 @@ Machankura ni igikorwa cakozwe hanyuma kigahuzwa na kode ya GSM kugira ngo abako
 
 
 
-| PAYS           | CODE USSD              |
+
+| IGIHUGU           | KODE USSD              |
 | -------------- | ---------------------- |
 | Ghana          | `*920*8333#`           |
 | Kenya          | `*483*8333#`           |
 | Malawi         | `*384*8333#`           |
-| Namibie        | `*142*8333#`           |
+| Namibia        | `*142*8333#`           |
 | Nigeria        | `*347*8333#`           |
-| Afrique du Sud | `54052.co.za`          |
-| Tanzanie       | `SMS +255 679 066 977` |
-| Ouganda        | `SMS +256 744 830 624` |
-| Zambie         | `*384*8333#`           |
-| Côte d’Ivoire  | `*9141#`               |
+| Afurika y'Epfo | `54052.co.za`          |
+| Tanzania       | `SMS +255 679 066 977` |
+| Uganda        | `SMS +256 744 830 624` |
+| Zambia         | `*384*8333#`           |
+| Côte d'Ivoire  | `*9141#`               |
 
 Hashingiwe kuri iyi mbonerahamwe, turabona ko ibihugu nka Tanzaniya, Uganda na Afirika y’Epfo ata code yihariye ya USSD y’ivyo bikoresho.
 

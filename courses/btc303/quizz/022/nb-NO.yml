@@ -1,0 +1,9 @@
+question: Hva er de to hovedproblemene med blokkjedepersonvernet som Satoshi Nakamoto identifiserte i Bitcoin-hvitboken?
+answer: Address gjenbruk og adresseklynging
+wrong_answers:
+  - Transaksjonsgebyrer og forsinkelser i bekreftelsen
+  - Dobbeltutgifter og hash-kollisjoner
+  - Overbelastning i nettverket og mining-sentralisering
+explanation: |
+  I avsnitt 7 i Bitcoin-hvitboken identifiserte Satoshi Nakamoto gjenbruk av adresser og adresseklynging som de viktigste personvernproblemene i blokkjeden. Address gjenbruk oppstår når samme adresse brukes flere ganger, noe som gjør det enkelt å knytte transaksjoner til samme bruker. Address-klyngedannelse er muligheten til å fastslå at ulike adresser tilhører samme eier, særlig gjennom transaksjoner med flere inndata som avslører at alle inndataene ble kontrollert av samme person. De andre alternativene er tekniske eller operasjonelle utfordringer i Bitcoin, men er ikke personvernspørsmålene som spesifikt diskuteres i Satoshi i hvitboken.
+reviewed: false

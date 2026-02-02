@@ -77,7 +77,7 @@ Navigeren op het apparaat is heel eenvoudig:
 
 
 
-In deze tutorial laat ik je zien hoe je de Trezor Model One gebruikt met [Sparrow wallet Wallet management software] (https://sparrowwallet.com/download/). Als je deze software nog niet hebt geïnstalleerd, doe dat dan nu. Als je hulp nodig hebt, hebben we ook een gedetailleerde tutorial over het configureren van Sparrow wallet :
+In deze tutorial laat ik je zien hoe je de Trezor Model One gebruikt met [Sparrow wallet Wallet management software](https://sparrowwallet.com/download/). Als je deze software nog niet hebt geïnstalleerd, doe dat dan nu. Als je hulp nodig hebt, hebben we ook een gedetailleerde tutorial over het configureren van Sparrow wallet :
 
 
 

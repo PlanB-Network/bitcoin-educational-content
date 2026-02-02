@@ -1,0 +1,8 @@
+question: Hva er hovedformålet med tretrinnsprosessen Koble til, klargjøre og utføre i utviklergrensesnittet til Breez SDK?
+answer: Å standardisere komplekse finansielle strømmer ved å synkronisere lommebøker, beregne alle avgifter på forhånd og deretter konstruere transaksjoner
+wrong_answers:
+  - For å etablere redundante backup-tilkoblinger på tvers av flere swap-leverandører før du starter atomiske operasjoner
+  - Å opprette separate kryptografiske signaturer for hvert nettverk som er involvert i submarine swap-transaksjoner på tvers av kjeder
+  - Validere betalingsbilder mot tidslåste kontrakter før frigjøring av midler fra escrow-mekanismer
+explanation: |
+  Connect, Prepare, Execute-mønsteret forenkler utviklingen ved å dele opp komplekse operasjoner i håndterbare trinn: Connect initialiserer lommebøker og oppretter overvåkingstilkoblinger, Prepare beregner og viser alle kostnader på en transparent måte for brukerne, og Execute håndterer selve transaksjonskonstruksjonen og kringkastingen. Denne standardiseringen abstraherer bort den underliggende kompleksiteten i undervannsbytter og operasjoner på tvers av kjeder, noe som gjør det enklere for utviklere å integrere Bitcoin-funksjonalitet uten å måtte håndtere detaljer på lavt nivå.

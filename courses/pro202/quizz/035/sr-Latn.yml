@@ -1,0 +1,8 @@
+question: Kada generišete potpise za P2SH ulaz tokom konstrukcije transakcije, koji skript mora biti korišćen u procesu izračunavanja sighash-a?
+answer: Otkupni skript mora biti korišćen umesto scriptPubKey
+wrong_answers:
+  - Originalni scriptPubKey koji sadrži hash mora se koristiti direktno
+  - Kombinacija i scriptPubKey i redeem script mora biti korišćena
+  - ScriptSig koji sadrži podatke za otključavanje mora se koristiti umesto toga
+explanation: |
+  Tokom generisanja potpisa P2SH, proces sighash zahteva korišćenje redeem skripta umesto scriptPubKey. Ovo je ključno jer scriptPubKey sadrži samo hash redeem skripta, a ne stvarne uslove trošenja. Redeem skript sadrži pravu logiku (kao što su multisig zahtevi) koja određuje kako se izlaz može potrošiti, tako da potpisi moraju biti generisani prema ovom osnovnom skriptu da bi bili validni. Korišćenje scriptPubKey direktno bi propalo jer sadrži samo poređenje hash-a, a ne stvarne uslove trošenja koje treba ispuniti.

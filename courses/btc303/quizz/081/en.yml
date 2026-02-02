@@ -6,3 +6,4 @@ wrong_answers:
   - Performance bugs create memory leaks that eventually crash nodes, leading to temporary network instability and reduced hash rate
 explanation: |
   Gregory Maxwell specifically warned that performance bugs, when expertly deployed, can be used to partition the network strategically - for example, separating 'miner A and exchange B' into one partition while everyone else goes into another, creating conditions for double-spend attacks. This demonstrates why seemingly minor issues should be treated as potentially severe, as they can be weaponized in sophisticated ways that aren't immediately obvious.
+reviewed: false

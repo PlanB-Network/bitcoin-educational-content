@@ -35,7 +35,7 @@ objectives:
 这次培训的目标是给你掌握你每天使用的工具的钥匙。HD比特币钱包，作为你用户体验的核心，基于一些有时候复杂的概念，我们将尝试使它们变得易于理解。我们将一起揭开它们的神秘面纱！
 
 在深入探讨比特币钱包的构造和运作细节之前，我们将从几章关于接下来所需了解的加密原语开始。
-我们将从加密哈希函数开始，这对钱包和比特币协议本身都至关重要。你将发现它们的主要特性，比特币中使用的特定函数，在更技术性的章节中，你将详细了解哈希函数之王：SHA256的工作原理。
+我们将从加密哈希函数开始，这对钱包和比特币协议本身都至关重要。你将发现它们的主要特性，比特币中使用的特定函数，在更技术性的章节中，你将详细了解哈希函数之王：[SHA256](https://planb.academy/resources/glossary/sha256)的工作原理。
 ![CYP201](assets/en/001.webp)
 
 接下来，我们将讨论你每天用来保护你的UTXOs的数字签名算法的运作。比特币使用两种：ECDSA和Schnorr协议。你将学习这些算法背后的哪些数学原语以及它们如何确保交易的安全。
@@ -45,7 +45,7 @@ objectives:
 一旦我们对这些加密学元素有了良好的理解，我们将最终进入培训的核心部分：确定性和分层钱包！首先，有一节专门讲述助记词短语，这些12或24个单词的序列允许你创建和恢复你的钱包。你将发现这些单词是如何从熵源生成的，以及它们如何简化比特币的使用。
 
 ![CYP201](assets/en/003.webp)
-培训将继续学习BIP39密码短语、种子（不要与助记词混淆）、主链代码和主密钥。我们将详细了解这些元素是什么，它们各自的角色，以及它们是如何计算的。
+培训将继续学习[BIP39](https://planb.academy/resources/glossary/bip0039)密码短语、种子（不要与助记词混淆）、主链代码和主密钥。我们将详细了解这些元素是什么，它们各自的角色，以及它们是如何计算的。
 ![CYP201](assets/en/004.webp)
 
 最后，从主密钥出发，我们将发现加密密钥对是如何以确定性和层次化的方式派生出接收地址的。
@@ -653,7 +653,7 @@ PBKDF2过程如下，其中：
 想要进行比特币交易的用户必须使用其私钥对相关交易创建一个数字签名。其他网络参与者可以验证该签名。如果签名有效，这意味着发起交易的用户确实是私钥的拥有者，因此也是他们希望花费的比特币的拥有者。其他用户随后可以接受并传播该交易。
 因此，拥有被公钥锁定的比特币的用户必须找到一种安全存储解锁资金所需内容的方法：私钥。比特币钱包正是一种设备，能让你轻松保管所有密钥，而无需让其他人访问它们。因此，它更像是一个钥匙串而不是一个钱包。
 
-公钥和私钥之间的数学联系，以及执行签名以证明私钥拥有权而不泄露它的能力，是通过数字签名算法实现的。在比特币协议中，使用了2种签名算法：**ECDSA**（_椭圆曲线数字签名算法_）和**Schnorr签名方案**。ECDSA是比特币自创立之初就使用的数字签名协议。Schnorr在比特币中较为新近，它是在2021年11月通过Taproot更新引入的。
+公钥和私钥之间的数学联系，以及执行签名以证明私钥拥有权而不泄露它的能力，是通过数字签名算法实现的。在比特币协议中，使用了2种签名算法：**[ECDSA](https://planb.academy/resources/glossary/ecdsa)**（_椭圆曲线数字签名算法_）和**Schnorr签名方案**。ECDSA是比特币自创立之初就使用的数字签名协议。Schnorr在比特币中较为新近，它是在2021年11月通过Taproot更新引入的。
 这两种算法在其机制上非常相似。它们都基于椭圆曲线密码学。这两种协议之间的主要区别在于签名的结构和一些特定的数学属性。因此，我们将研究这些算法的运作，从最古老的ECDSA开始。
 
 ### 椭圆曲线密码学
@@ -1901,19 +1901,21 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 正是在*scriptPubKey*中找到接收地址。然而，它们的使用根据采用的脚本标准而有所不同。这里是一个根据使用的标准，*scriptPubKey*中包含的信息以及解锁*scriptPubKey*所需的*scriptSig*中期望的信息的总结表格。
 
-| 标准            | _scriptPubKey_                                              | _scriptSig_             | _赎回脚本_       | _见证_                       |
-| --------------- | ----------------------------------------------------------- | ----------------------- | ---------------- | ---------------------------- |
-| P2PK            | `<pubkey> OP_CHECKSIG`                                      | `<签名>`                |                  |                              |
-| P2PKH           | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<签名> <公钥>`         |                  |                              |
-| P2SH            | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<数据推送> <赎回脚本>` | 任意数据         |                              |
-| P2WPKH          | `0 <pubKeyHash>`                                            |                         |                  | `<签名> <公钥>`              |
-| P2WSH           | `0 <见证脚本哈希>`                                          |                         |                  | `<数据推送> <见证脚本>`      |
-| P2SH-P2WPKH     | `OP_HASH160 <赎回脚本哈希> OP_EQUAL`                        | `<赎回脚本>`            | `0 <pubKeyHash>` | `<签名> <公钥>`              |
-| P2SH-P2WSH      | `OP_HASH160 <赎回脚本哈希> OP_EQUAL`                        | `<赎回脚本>`            | `0 <脚本哈希>`   | `<数据推送> <见证脚本>`      |
-| P2TR (密钥路径) | `1 <公钥>`                                                  |                         |                  | `<签名>`                     |
-| P2TR (脚本路径) | `1 <公钥>`                                                  |                         |                  | `<数据推送> <脚本> <控制块>` |
 
-_来源：比特币核心PR审查俱乐部，2021年7月7日 - Gloria Zhao_
+
+| 标准             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ------------------------ | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | 任意数据 | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_来源：2021年7月7日 Bitcoin Core PR 审查俱乐部 – Gloria Zhao_
 
 脚本中使用的操作码旨在操纵信息，并在必要时进行比较或测试。以P2PKH脚本为例，其格式如下：
 

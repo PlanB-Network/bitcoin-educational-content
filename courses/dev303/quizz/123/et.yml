@@ -1,0 +1,8 @@
+question: Milline on peamine arhitektuuriline eelis, mis võimaldab Breez SDK-l kõrvaldada traditsioonilise Lightning Network tõkke, mis seisneb uute kasutajate jaoks käsitsi kanalite avamises?
+answer: Integreeritud Lightning Service Provider (LSP) funktsioon, mis tagab automaatselt sissetuleva likviidsuse wallet paigaldamisel
+wrong_answers:
+  - Sisseehitatud allveelaevade vahetusteenused, mis muudavad on-chain Bitcoin kanalid Lightning-kanaliteks ilma kasutaja sekkumiseta
+  - Greenlight'i hallatavad eelrahastatud kanalipargid, mis jaotatakse kasutajatele dünaamiliselt vastavalt nõudlusele
+  - Automaatne vastastikune otsingumehhanism, mis ühendab uued rahakotid kõrge likviidsusega sõlmedega, et luua kohene kanal
+explanation: |
+  Breez SDK integreeritud LSP-funktsioon on spetsiaalselt loodud selleks, et kõrvaldada kanali käsitsi avamise takistus, pakkudes automaatselt sissetulevat likviidsust, kui kasutajad paigaldavad wallet. See võimaldab kohese makse vastuvõtu ilma tehnilise seadistamiseta. Allveevahetused tegelevad kihtide teisendamisega, kuid ei käsitle kanali esmast pakkumist. Eelfinantseeritud basseinid ja vastastikune avastamine ei ole mehhanismid, mida Breez kasutab - selle asemel pakub LSP integratsioon otse uutele kasutajatele maksete koheseks vastuvõtmiseks vajalikku sissetulevat võimsust.

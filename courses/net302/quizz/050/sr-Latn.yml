@@ -1,9 +1,9 @@
 question: Šta treba dodati NAT-u da bi se mreža pravilno osigurala?
-answer: Vatrozid
+answer: Firewall
 wrong_answers:
-  - lokalni DNS server
+  - Lokalni DNS server
   - HTTP proxy
   - Antivirus
 explanation: |
-  Samo NAT nije dovoljan za filtriranje zlonamernog saobraćaja: mora biti dopunjen pravilima vatrozida za preciznu kontrolu saobraćaja.
-reviewed: false
+  Samo NAT nije dovoljan za filtriranje zlonamernog saobraćaja: mora biti dopunjen pravilima firewall-a za preciznu kontrolu saobraćaja.
+reviewed: true

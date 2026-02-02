@@ -124,7 +124,7 @@ Liquid förlitar sig på en **federation** av betrodda deltagare (börser, erkä
 
 
 
-- **Blockstream App** är en mobil (iOS, Android) och stationär applikation för hantering av Bitcoin plånböcker och tillgångar på Liquid Network. Förvärvad av [Blockstream] (https://blockstream.com/) 2016, kallades den tidigare *Green Address* och sedan *Blockstream Green*.
+- **Blockstream App** är en mobil (iOS, Android) och stationär applikation för hantering av Bitcoin plånböcker och tillgångar på Liquid Network. Förvärvad av [Blockstream](https://blockstream.com/) 2016, kallades den tidigare *Green Address* och sedan *Blockstream Green*.
 - **Viktiga egenskaper**:
 - **Onchain** transaktioner på Blockchain Bitcoin.
     - Transaktioner på **Liquid**-nätverket (Sidechain för snabba, konfidentiella utbyten).
@@ -149,10 +149,10 @@ Liquid förlitar sig på en **federation** av betrodda deltagare (börser, erkä
 
 
 - För **Android**:
-    - Ladda ner [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) från Google Play Store.
-    - Alternativ: Installera via APK-filen som finns på [Blockstreams officiella GitHub] (https://github.com/Blockstream/green_android).
+    - Ladda ner [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) från Google Play Store.
+    - Alternativ: Installera via APK-filen som finns på [Blockstreams officiella GitHub](https://github.com/Blockstream/green_android).
 - För **iOS**:
-    - Ladda ner [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) från App Store.
+    - Ladda ner [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) från App Store.
 - **Obs**: Var noga med att ladda ner från officiella källor för att undvika bedrägliga applikationer.
 
 
@@ -408,7 +408,7 @@ För att ta emot Liquid-Bitcoins (L-BTC) finns det flera alternativ. Du kan be n
 
 
 
-Alternativt kan du Exchange dina bitcoins på kedjan eller via Lightning Network för L-BTC med hjälp av [en brygga som Boltz] (https://boltz.Exchange/): ange din Liquid som tar emot Address, gör betalning som du föredrar och ta emot din L-BTC.
+Alternativt kan du Exchange dina bitcoins på kedjan eller via Lightning Network för L-BTC med hjälp av [en brygga som Boltz](https://boltz.Exchange/): ange din Liquid som tar emot Address, gör betalning som du föredrar och ta emot din L-BTC.
 
 
 

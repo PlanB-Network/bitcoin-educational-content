@@ -1,9 +1,9 @@
-question: What is one suggested practice regarding custody when acquiring Bitcoin?
-answer: Consider self-custody solutions after initial purchases, so the business truly controls its assets.
+question: Một đề xuất thực hành liên quan đến quyền nuôi con khi mua Bitcoin là gì?
+answer: Hãy cân nhắc các giải pháp tự lưu giữ sau khi mua ban đầu để doanh nghiệp thực sự kiểm soát được tài sản của mình.
 wrong_answers:
-  - Never withdraw Bitcoin from the exchange under any circumstances.
-  - Always trust a single custodian without reviewing security measures.
-  - Store all Bitcoin on a public website with a simple password
+  - Không bao giờ rút Bitcoin khỏi sàn giao dịch dưới bất kỳ trường hợp nào.
+  - Luôn tin tưởng một người giám hộ duy nhất mà không cần xem xét các biện pháp bảo mật.
+  - Lưu trữ tất cả Bitcoin trên một trang web công cộng với mật khẩu đơn giản
 explanation: |
-  After buying Bitcoin, moving it to a self-custody wallet ensures the business has direct control over its funds. While third-party custodians can be convenient, self-custody aligns with Bitcoin’s principle of financial sovereignty.
-reviewed: false
+  Sau khi mua Bitcoin, việc chuyển nó sang wallet tự quản lý đảm bảo doanh nghiệp có quyền kiểm soát trực tiếp đối với nguồn vốn của mình. Mặc dù việc sử dụng bên thứ ba để quản lý có thể thuận tiện, nhưng việc tự quản lý vẫn phù hợp với nguyên tắc chủ quyền tài chính của Bitcoin.
+reviewed: true

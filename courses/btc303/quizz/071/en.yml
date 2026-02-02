@@ -6,3 +6,4 @@ wrong_answers:
   - The consensus mechanism would consume too much computational energy to be practical
 explanation: |
   The very first sentence of the first email response to Satoshi's Bitcoin whitepaper announcement specifically stated 'it does not seem to scale to the required size.' This shows that scaling concerns existed from Bitcoin's earliest public discussions, even before the network launched. The other options, while potentially valid concerns for a cryptocurrency system, were not the focus of that initial response, which immediately identified scalability as the primary issue with Satoshi's proposal.
+reviewed: false

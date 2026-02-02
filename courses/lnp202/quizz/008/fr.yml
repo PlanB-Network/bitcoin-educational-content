@@ -1,0 +1,9 @@
+question: Avec un wallet Lightning custodial, à qui appartiennent les bitcoins ?
+answer: À l’entreprise
+wrong_answers:
+  - À l’utilisateur
+  - Au réseau Lightning
+  - À Bitcoin Core
+explanation: |
+  Dans un modèle custodial, l’entreprise détient les clés et contrôle les fonds, l’utilisateur n’ayant qu’un solde comptable.
+reviewed: false

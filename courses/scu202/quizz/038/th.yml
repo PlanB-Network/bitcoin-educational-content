@@ -1,0 +1,9 @@
+question: คำสั่งใดที่สามารถใช้เพื่ออัปเดตแพ็คเกจทั้งหมดบนการแจกจ่าย Ubuntu?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  บน Ubuntu (และ Debian) คำสั่ง "sudo apt update && sudo apt upgrade" จะซิงโครไนซ์รายการแพ็กเกจและติดตั้งการอัปเดตทั้งหมดที่มีอยู่
+reviewed: false

@@ -1,0 +1,8 @@
+question: When spending a P2SH output, what two-step validation process must occur for the transaction to be considered valid?
+answer: First verify HASH160 of the redeem script matches the scriptPubKey hash, then execute the redeem script with the provided data
+wrong_answers:
+  - First execute the redeem script with provided data, then verify the resulting hash matches the scriptPubKey
+  - First verify all signatures are valid against their public keys, then check that the redeem script hash matches
+  - First confirm the redeem script contains valid opcodes, then verify the script execution produces a true result
+explanation: |
+  P2SH validation requires a specific two-step process: first, the hash of the provided redeem script must match the 20-byte hash in the scriptPubKey (HASH160 verification), and only after this verification passes does the network execute the redeem script itself with the unlocking data. This design ensures that only the correct redeem script can be used while keeping the actual spending conditions hidden until the spend occurs. The other options describe plausible but incorrect validation sequences that don't follow the actual P2SH protocol.

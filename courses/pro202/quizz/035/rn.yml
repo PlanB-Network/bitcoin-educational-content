@@ -1,0 +1,8 @@
+question: Igihe umuntu atanga imikono y’inyungu ya P2SH mu gihe c’ubwubatsi bw’ibikorwa, ni inyandiko iyihe itegerezwa gukoreshwa mu nzira yo kubara sighash?
+answer: Inyandiko yo gucungura igomba gukoreshwa mu kibanza c'inyandikoPubKey
+wrong_answers:
+  - Umwimerere scriptPubKey irimwo hash igomba gukoreshwa ataco ihinduye
+  - Ihuriro ry'inyandikoPubKey n'inyandiko y'ugucungura bitegerezwa gukoreshwa
+  - ScriptSig irimwo amakuru yo gufungura itegerezwa gukoreshwa aho
+explanation: |
+  Mu gihe c'uguhingura umukono wa P2SH, igikorwa ca sighash gisaba gukoresha inyandiko yo gucungura mu kibanza c'inyandikoPubKey. Ivyo ni ngirakamaro kuko scriptPubKey irimwo gusa hash y'inyandiko y'ugucungura, atari ivy'ukuri vy'ugukoresha. Inyandiko y'ugucungura irimwo ivyiyumviro vy'ukuri (nk'ibisabwa vya multisig) bigena ingene igisohoka gishobora gukoreshwa, rero imikono itegerezwa guterwa n'iyi nyandiko y'ishimikiro kugira ngo ibe ibereye. Gukoresha scriptPubKey ataco bimaze vyonanirwa kuko irimwo gusa ukugereranya hash, atari ivyangombwa vy’ugukoresha amahera vy’ukuri bikwiye gushitswako.

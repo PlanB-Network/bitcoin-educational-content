@@ -1,0 +1,8 @@
+question: Mis juhtuks Bitcoin kogutarnega, kui kaevurid nõuaksid järjekindlalt ainult 90% lubatud plokisubsiidiumist kõigis plokkides?
+answer: Koguvarud väheneksid jäädavalt alla 21 miljoni BTC, kuna taotlemata toetused lähevad igaveseks kaduma
+wrong_answers:
+  - Ülejäänud 10% koguneks reservi, mida tulevased kaevandajad saaksid madala maksumääraga perioodidel taotleda
+  - Raskuste korrigeerimise mehhanism kompenseeriks seda, suurendades tulevaste plokkide preemiaid, et säilitada 21 miljoni ülempiiri
+  - Taotlemata jäänud toetused jaotatakse proportsionaalselt ümber tehingutasu saajate vahel järgmistes plokkides
+explanation: |
+  Bitcoin protokoll lubab kaevuritel taotleda vähem kui maksimaalne lubatud toetus, kuid kõik taotlemata summad on jäädavalt kadunud - puudub mehhanism nende ümberjaotamiseks või hilisemaks tagasinõudmiseks. Subsiidiumivalem ja poolitamisgraafik määravad teoreetilise maksimumi ~21 miljonit BTC, kuid tegelik pakkumine sõltub sellest, kas kaevurid nõuavad oma õigust täies ulatuses. Erinevalt raskusastme kohandamisest, mis reageerib mining tingimustele, puudub kompenseeriv mehhanism taotlemata jäänud preemiate jaoks, mis muudab koguvarustuse potentsiaalselt deflatsiooniliseks, kui kaevurid taotlevad pidevalt liiga vähe.

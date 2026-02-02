@@ -1,5 +1,6 @@
 ---
-term: ARK
+term: Ark
+definition: A second layer protocol enabling fast, anonymous, and low-fee Bitcoin payments, without requiring incoming liquidity as on Lightning.
 ---
 
 New second-layer protocol unveiled by a developer named Burak in May 2023. Like the Lightning Network, Ark is a system that operates on top of the main Bitcoin blockchain, designed to enable fast, anonymous, and low-fee off-chain bitcoin payments. Unlike Lightning, Ark does not require inbound liquidity to receive payments, which significantly improves the user experience. Moreover, it offers privacy features similar to coinjoin transactions, whereas Lightning is a relatively weak model in terms of privacy protection. Additionally, Ark could become non-interactive if covenants are added to Bitcoin. Burak often criticizes Lightning's scalability due to its reliance on the main chain and suggests that Ark could theoretically support global self-custody adoption. Although Ark appears to compete with the Lightning Network, the two protocols can actually coexist and may even complement each other.  It’s important to note, however, that Ark is currently just a concept. Burak himself has not yet released the code for his invention.

@@ -1,0 +1,9 @@
+question: Theo quan điểm của Gregory Maxwell về đánh giá mức độ nghiêm trọng của lỗ hổng, các nhà phát triển nên áp dụng phương pháp nào khi đánh giá tác động tiềm ẩn của các vấn đề bảo mật được phát hiện?
+answer: Xử lý các lỗ hổng nghiêm trọng hơn mức hiện tại được biết đến và cho rằng chúng có thể dễ dàng bị khai thác ngay cả khi chúng có vẻ khó khai thác
+wrong_answers:
+  - Chỉ tập trung vào tác động có thể quan sát được ngay lập tức và phân loại các lỗ hổng dựa trên các phương pháp khai thác hiện tại đã biết của chúng
+  - Ưu tiên các lỗ hổng dựa trên độ phức tạp về mặt kỹ thuật của chúng và trì hoãn việc sửa chữa các vấn đề có vẻ khó khai thác về mặt lý thuyết
+  - Đánh giá từng lỗ hổng một cách riêng lẻ mà không xem xét cách nhiều vấn đề nhỏ có thể kết hợp để tạo ra rủi ro bảo mật lớn
+explanation: |
+  Maxwell lập luận rằng các nhà phát triển nên coi các lỗ hổng bảo mật nghiêm trọng hơn vẻ bề ngoài của chúng, bởi vì những vấn đề khó khai thác có thể trở nên tầm thường nếu áp dụng đúng kỹ thuật, và những vấn đề tưởng chừng nhỏ nhặt có thể leo thang thành các mối đe dọa nghiêm trọng. Ông nhấn mạnh rằng các lỗi hiệu suất đơn giản có thể bị lợi dụng để phân vùng mạng và cho phép các cuộc tấn công double-spending. Cách tiếp cận thận trọng này thừa nhận rằng các nhà phát triển ban đầu có thể chưa hiểu hết tiềm năng khai thác của một lỗ hổng, do đó cần thận trọng khi giả định trường hợp xấu nhất thay vì đánh giá thấp mối đe dọa.
+reviewed: false

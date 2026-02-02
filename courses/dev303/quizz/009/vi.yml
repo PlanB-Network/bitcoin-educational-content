@@ -1,0 +1,8 @@
+question: Lệnh `cargo new project_name` tự động tạo ra những gì trong cấu trúc dự án?
+answer: Một kho lưu trữ Git, tệp Cargo.toml và tệp main.rs cơ bản với chương trình Hello World.
+wrong_answers:
+  - Chỉ có một tệp cấu hình Cargo.toml và cấu trúc thư mục nguồn trống.
+  - Bộ kiểm thử hoàn chỉnh, tập tin tài liệu và cấu hình sẵn sàng cho môi trường sản xuất.
+  - Các tệp thực thi nhị phân, thư mục đích và cấu hình bản dựng phát hành
+explanation: |
+  Lệnh `cargo new` tạo ra một nền tảng dự án toàn diện bao gồm kho lưu trữ Git để kiểm soát phiên bản, tệp Cargo.toml để cấu hình dự án và các phụ thuộc, và tệp main.rs cơ bản chứa chương trình 'Hello, world!'. Điều này cung cấp mọi thứ cần thiết để bắt đầu phát triển ngay lập tức. Các tùy chọn khác không chính xác vì `cargo new` không tạo ra bộ kiểm thử, tệp tài liệu, tệp nhị phân thực thi hoặc các tạo phẩm xây dựng - nó chỉ thiết lập cấu trúc dự án ban đầu.

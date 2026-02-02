@@ -40,7 +40,7 @@ For å følge Picocrypt-prosjektet finnes det bare én Address:
 
 
 
-- [Picocrypt på GitHub] (https://github.com/Picocrypt/Picocrypt)
+- [Picocrypt på GitHub](https://github.com/Picocrypt/Picocrypt)
 
 
 
@@ -74,7 +74,7 @@ PicoCrypt er helt **gratis og med åpen kildekode**, og er tilgjengelig for **Wi
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Kilde: [Github.com] (https://github.com/Picocrypt/Picocrypt)
+Kilde: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
@@ -195,7 +195,7 @@ Den ukrypterte versjonen av ZIP-arkivet "Encrypted.zip" gjør at jeg nå kan gje
 
 
 
-Sørg for å bruke sterke passord for å beskytte data, og hvis du bruker en nøkkelfil, må du huske å ta sikkerhetskopi av den, ellers vil du ikke lenger kunne dekryptere PCV-containeren som genereres av Picocrypt. Til slutt bør du vite at det også finnes [en CLI-versjon] (https://github.com/Picocrypt/CLI) (med færre funksjoner) som lar deg kjøre Picocrypt fra kommandolinjen: også her åpner Picocrypt døren til nye muligheter.
+Sørg for å bruke sterke passord for å beskytte data, og hvis du bruker en nøkkelfil, må du huske å ta sikkerhetskopi av den, ellers vil du ikke lenger kunne dekryptere PCV-containeren som genereres av Picocrypt. Til slutt bør du vite at det også finnes [en CLI-versjon](https://github.com/Picocrypt/CLI) (med færre funksjoner) som lar deg kjøre Picocrypt fra kommandolinjen: også her åpner Picocrypt døren til nye muligheter.
 
 
 

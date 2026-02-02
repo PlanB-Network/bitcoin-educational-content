@@ -1,0 +1,9 @@
+question: Welches ist das primäre ethische Dilemma, mit dem Sicherheitsforscher konfrontiert sind, die Schwachstellen in dezentralisierten Systemen wie Bitcoin entdecken, wenn man von verantwortungsvoller Offenlegung ausgeht?
+answer: Abwägung zwischen der Notwendigkeit, die Verantwortlichen zu informieren, und der Vermeidung einer Offenlegung gegenüber potenziell böswilligen Akteuren, die die Schwachstelle ausnutzen könnten
+wrong_answers:
+  - Entscheidung, ob man von der Entdeckung einer Schwachstelle durch Bug Bounty-Programme profitiert oder die Informationen kostenlos an die Gemeinschaft weitergibt
+  - Entscheidung zwischen der Meldung an die Behörden und der direkten Meldung an das Softwareentwicklungsteam, um Komplikationen mit den Behörden zu vermeiden
+  - Festlegung einer angemessenen finanziellen Entschädigung für die Entdeckung von Sicherheitslücken, bevor die Informationen an Entwickler weitergegeben werden
+explanation: |
+  Die zentrale ethische Herausforderung bei der verantwortungsvollen Offenlegung ist das empfindliche Gleichgewicht zwischen Transparenz und Sicherheit. Die Forscher müssen sicherstellen, dass Schwachstellen behoben werden, ohne dass sie versehentlich einen Fahrplan für eine böswillige Ausnutzung liefern. Dies erfordert eine sorgfältige Abstimmung mit den Entwicklern, einen angemessenen Zeitplan für die Offenlegung und die Berücksichtigung der Auswirkungen auf das gesamte Ökosystem. Die anderen Optionen konzentrieren sich auf finanzielle oder regulatorische Belange, die zwar potenziell relevant sind, aber nicht das primäre ethische Dilemma darstellen, das in der Praxis der verantwortungsvollen Offenlegung umrissen wird.
+reviewed: false

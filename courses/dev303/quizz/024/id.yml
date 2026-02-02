@@ -1,0 +1,8 @@
+question: Sintaks apa yang digunakan untuk mengakses field pertama dari struktur tuple dalam Rust?
+answer: Notasi titik dengan indeks 0 (misalnya, instance.0)
+wrong_answers:
+  - Tanda kurung siku dengan indeks 0 (misalnya, instance[0])
+  - Notasi panah dengan indeks 0 (misalnya, instance->0)
+  - Titik dua ganda dengan indeks 0 (misalnya, contoh::0)
+explanation: |
+  Struktur tuple dalam Rust menggunakan notasi titik yang diikuti dengan indeks field untuk mengakses field yang tidak diberi nama. Field pertama diakses dengan .0, field kedua dengan .1, dan seterusnya. Hal ini berbeda dengan array atau vektor yang menggunakan tanda kurung siku, dan tidak seperti C++ yang menggunakan notasi panah untuk penunjuk. Sintaks titik dua ganda dicadangkan untuk fungsi terkait dan ruang nama, bukan akses bidang.

@@ -1,5 +1,6 @@
 ---
-term: INZIRA Y'IKOMOKA
+term: Inzira ya derivation
+definition: Urutonde rw'ibiharuro vyerekana inzira imfunguruzo z'abana zikurwamwo ku rufunguruzo nyamukuru muri HD wallet.
 ---
 
 Mu bijanye n'ibipapuro vy'amahera vy'ubukuru (HD), inzira y'ugukura yerekeza ku rutonde rw'ibiharuro bikoreshwa mu gukura imfunguruzo z'abana ku rufunguzo rw'umukuru. Idondowe muri BIP32, iyi nzira igaragaza imiterere y'igiti co gukuramwo imfunguruzo z'abana. Inzira y'ugukomoka igereranywa n'urutonde rw'ibiharuro bitandukanijwe n'ibiharuro, kandi yama itangurana n'urufunguzo rwa mbere (rwerekanwa na `m/`). Nk'akarorero, inzira isanzwe ishobora kuba `m/84'/0'/0'/0/0`. Buri rwego rw'inkomoko rufitaniye isano n'uburebure bwihariye:
@@ -31,4 +32,3 @@ Nk'akarorero, nimba Address yanje yakira ifise inzira y'ugukomoka `m / 86' / 0' 
 `5` yerekana ko ari Address y’inyuma ya gatandatu y’iyi nkuru.
 
 
-![](../../dictionnaire/assets/18.webp)

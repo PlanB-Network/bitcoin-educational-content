@@ -1,9 +1,9 @@
-question: Ni igiki gikomeye cane Telegram ifise mu bijanye n’ibanga ry’ubutumwa?
-answer: Uguhanahana kw'ibanga gusa ni kwo gushirwa mu buryo busanzwe
+question: Ni imbogamizi iyihe nyamukuru Telegram ifise mu bijanye n’ibanga ry’ubutumwa?
+answer: Kiretse gusa secret exchange niyo ari end-to-end encrypted (amakuru anyegezwa impera kuyindi) ku bisanzwe
 wrong_answers:
-  - Bitegeka amahera yo kwiyandikisha atamenyekana .
-  - Ntivyemeza ko amadosiye yaronse ari ay'ukuri
-  - Nta mukiriya w'inkomoko yuguruye ariho
+  - Ishirako amahera yo kwiyandikisha atamenyekana
+  - Ntiyemeza ko amadosiye yakiriwe ari ay’ukuri
+  - Nta mukiriya w’isoko yuguruye ariho
 explanation: |
-  Kubera ko ari vyo, ubutumwa bwa Telegram bubikwa ku ma server y’amashirahamwe, hakaba hariho gusa ibiganiro vy’ibanga vyungukira ku gupfuka amakuru kuva ku mpera kugeza ku mpera.
-reviewed: false
+  Kubisanzwe, ubutumwa bwo kuri Telegram bubikwa ku ma seriveri y’iryo shirahamwe, hakaba hariho gusa ibiganiro vy’ibanga vyungukira ku kunyegeza amakuru impera kuyindi.
+reviewed: true

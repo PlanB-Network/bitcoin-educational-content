@@ -218,7 +218,7 @@ koji se sastoji od :
 
 
 
-Savet: Koristite alat [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) da automatski generate skriptu. Čak i ako ovaj alat predlaže unos iznosa u BTC, zadržite jedinicu podešenu u Electrum.
+Savet: Koristite alat [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) da automatski generate skriptu. Čak i ako ovaj alat predlaže unos iznosa u BTC, zadržite jedinicu podešenu u Electrum.
 
 
 

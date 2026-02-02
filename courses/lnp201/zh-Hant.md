@@ -1,13 +1,12 @@
 ---
-name: Lightning Network 理論介紹
+name: Lightning Network 理論
 goal: 從技術角度探索 Lightning Network
-objectives: 
-  - 瞭解網路頻道的運作。
-  - 熟悉詞彙 HTLC、LNURL 和 UTXO。
-  - 同化流動資金的管理和 LNN 的費用。
-  - 確認 Lightning Network 為網路。
-  - 瞭解 Lightning Network 的理論用途。
-
+objectives:
+- 瞭解網路頻道的運作。
+- 熟悉詞彙 HTLC、LNURL 和 UTXO。
+- 同化流動資金的管理和 LNN 的費用。
+- 確認 Lightning Network 為網路。
+- 瞭解 Lightning Network 的理論用途。
 ---
 # 前往 Bitcoin 的第二個 Layer 之旅
 
@@ -159,7 +158,7 @@ Bitcoin Address 是一串從**公鑰**衍生出來的字元，而**公鑰**本�
 
 ### UTXOs：未使用的交易輸出
 
-在 Bitcoin 上，我們實際上 Exchange 並不是直接的 bitcoins，而是 **UTXOs**（_Unspent Transaction Outputs_），意思是「未使用的交易輸出」。
+在 Bitcoin 上，我們實際上 Exchange 並不是直接的 bitcoins，而是 **[UTXO](https://planb.academy/resources/glossary/utxo)s**（_Unspent Transaction Outputs_），意思是「未使用的交易輸出」。
 
 一個 UTXO 是一塊 Bitcoin，可以是任何價值，例如：**2,000 bitcoins**、**8 bitcoins**，甚至是**8,000 Sats**。每個 UTXO 都由一個腳本鎖定，要花費它，必須滿足腳本的條件，通常是用特定接收 Address 對應的私鑰簽名。
 
@@ -307,7 +306,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 ### 轉移過程：Invoice
 
-當 Bob 想要接收資金時，他會寄給 Alice 一張 30,000 Satoshis 的 **_invoice_**。然後，Alice 開始在通道內轉帳，以支付這筆 Invoice 款項。正如我們所見，這個過程有賴於建立和簽署新的 **Commitment Transaction**。
+當 Bob 想要接收資金時，他會寄給 Alice 一張 30,000 Satoshis 的 **_[invoice](https://planb.academy/resources/glossary/invoice-lightning)_**。然後，Alice 開始在通道內轉帳，以支付這筆 Invoice 款項。正如我們所見，這個過程有賴於建立和簽署新的 **Commitment Transaction**。
 
 每個 Commitment Transaction 代表轉帳後通道中新的資金分佈。在這個範例中，交易完成後，Bob 有 30,000 Satoshis，Alice 有 100,000 Satoshis。如果這兩位參與者中的任何一位決定在 Blockchain 上公佈此 Commitment Transaction，就會導致通道關閉，而資金將根據此最後的分配進行分配。
 
@@ -657,7 +656,7 @@ $$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \a
 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
-在本章中，我們將發現 Lightning 如何允許付款通過中介節點而無需信任它們，這要歸功於 **HTLC**（_Hashed Time-Locked Contracts_）。這些智能合約確保每個中介節點只有在轉發付款給最終收款人時，才會從其通道收到資金，否則，付款將不被驗證。
+在本章中，我們將發現 Lightning 如何允許付款通過中介節點而無需信任它們，這要歸功於 **[HTLC](https://planb.academy/resources/glossary/htlc)**（_Hashed Time-Locked Contracts_）。這些智能合約確保每個中介節點只有在轉發付款給最終收款人時，才會從其通道收到資金，否則，付款將不被驗證。
 
 因此，支付路由所產生的問題是對中介節點以及中介節點之間的必要信任。為了說明這一點，讓我們重溫一下有 3 個節點和 2 個通道的 Lightning Network 簡化範例：
 
@@ -1093,7 +1092,7 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 
 - 通道開啟：通道的建立透過 Bitcoin 交易完成，該交易將資金鎖定在 2/2 多重簽章 Address 中。此存款代表 Blockchain 上的 Lightning 通道。
 
-![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a [commitment transaction](https://planb.academy/resources/glossary/commitment-transaction).
 
 ![LNP201](assets/en/077.webp)
 
@@ -1140,6 +1139,10 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 - 合作開倉：也有一些平台可供連接進行三角開盤，並有流入的流動資金。
 
 ![LNP201](assets/en/084.webp)
+
+既然您已經理解了 Lightning Network 的理論運作方式，便可以進入實作階段，建立您的第一個 Lightning 節點，以在使用中獲得更大的自主性。為此，請修讀 LNP 202 課程：
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # 總結
 

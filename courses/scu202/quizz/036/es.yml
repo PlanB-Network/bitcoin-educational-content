@@ -6,4 +6,4 @@ wrong_answers:
   - Para aumentar la duración de la batería
 explanation: |
   Cuanto menos software se instale, menos vulnerabilidades potenciales podrán ser aprovechadas por los atacantes.
-reviewed: false
+reviewed: true

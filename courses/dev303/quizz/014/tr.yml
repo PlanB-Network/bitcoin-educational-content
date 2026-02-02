@@ -1,0 +1,8 @@
+question: Rust'da bir String ile string literal (&str) arasındaki temel fark nedir?
+answer: String dinamik olarak ayrılmış yığın belleği yönetir ve değiştirilebilir, &str ise değişmez dize verilerinin bir görünümüdür
+wrong_answers:
+  - String yığında saklanırken &str daha iyi performans için heap üzerinde saklanır
+  - String yalnızca ASCII karakterleri içerebilirken &str herhangi bir Unicode karakteri içerebilir
+  - String otomatik olarak ödünç almayı uygularken &str açık sahiplik aktarımı gerektirir
+explanation: |
+  String ve &str Rust'de dize işlemeye yönelik farklı yaklaşımları temsil eder. String, kendi verilerine sahip olan ve çalışma zamanında değiştirilebilen, yığın ayrılmış, büyüyebilir bir dize türüdür. Buna karşılık, &str (string slice) string verilerine değişmez bir referanstır ve genellikle program ikilisine gömülü string değişmezlerine veya mevcut String verilerinin dilimlerine işaret eder. Bu ayrım, Rust'nin hem esneklik (dinamik içerik için String) hem de verimlilik (tahsisat olmadan salt okunur erişim için &str) için optimize edilmesini sağlar.

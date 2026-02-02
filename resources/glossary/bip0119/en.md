@@ -1,5 +1,6 @@
 ---
 term: BIP0119
+definition: Proposal for the OP_CHECKTEMPLATEVERIFY (CTV) opcode allowing covenants to be created that impose conditions on future spending.
 ---
 
 Introduces a new opcode named `OP_CHECKTEMPLATEVERIFY` (CTV). CTV would enable the creation of non-recursive covenants in transactions, allowing specific conditions to be imposed on how a coin can be spent, including in future transactions. 

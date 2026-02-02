@@ -1,9 +1,9 @@
-question: Nini kitatokea ikiwa kizuizi kinakiuka sheria za makubaliano?
+question: Nini kitatokea ikiwa block inakiuka sheria za makubaliano?
 answer: Inakataliwa mara moja na nodes
 wrong_answers:
   - Imehifadhiwa katika Mempool ikingoja uthibitisho
-  - Inapitishwa tu na nodi zinazokubali sheria zingine
-  - Inathibitishwa tu na pochi
+  - Inapitishwa tu na node zinazokubali sheria zingine
+  - Inathibitishwa tu na wallet
 explanation: |
-  Nodi kwa utaratibu hukataa kizuizi chochote ambacho hakizingatii sheria za makubaliano.
+  Nodi kwa utaratibu hukataa block yoyote ambacho haiizingatii sheria za makubaliano.
 reviewed: true

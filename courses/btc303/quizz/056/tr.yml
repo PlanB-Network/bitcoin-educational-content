@@ -1,0 +1,9 @@
+question: Bitcoin Core'un dağıtıldığı MIT Lisansına göre, türetilmiş çalışmaların dağıtımı ile ilgili hangi kısıtlama vardır?
+answer: Türetilmiş çalışmalar, orijinal yazılımın lisansıyla aynı koşullar altında dağıtılmalıdır
+wrong_answers:
+  - Türetilen eserler ticari olarak satılamaz ve her zaman ücretsiz olarak dağıtılmalıdır
+  - Türetilmiş çalışmalar, dağıtılmadan önce Bitcoin Core geliştiricilerinden açık yazılı izin gerektirir
+  - Türetilen çalışmalar orijinal Bitcoin Core markasını içermelidir ve yeniden adlandırılamaz veya yeniden markalandırılamaz
+explanation: |
+  MIT Lisansı, türetilmiş çalışmaların orijinal yazılımla aynı lisans koşulları altında dağıtılmasını gerektirerek açık kaynak niteliğinin korunmasını sağlar. Bu ticari satışı yasaklamaz (yanlış cevap 1), geliştiricilerden izin alınmasını gerektirmez (yanlış cevap 2) ve orijinal markanın korunmasını zorunlu kılmaz (yanlış cevap 3). Lisans, Lightning Network ve yan zincirler gibi yeniliklere olanak tanıyan izinsiz geliştirme modelini koruyarak, değişikliklere ve türetilmiş çalışmalara aynı koşullar altında izin verilmesi gerektiğini özellikle belirtmektedir.
+reviewed: false

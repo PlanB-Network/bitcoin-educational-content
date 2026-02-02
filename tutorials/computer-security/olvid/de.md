@@ -58,7 +58,7 @@ Olvid ist auf allen Plattformen verfügbar. Sie können die Anwendung direkt aus
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=io.olvid.messenger);
-- [App Store] (https://apps.apple.com/app/olvid/id1414865219);
+- [App Store](https://apps.apple.com/app/olvid/id1414865219);
 
 
 

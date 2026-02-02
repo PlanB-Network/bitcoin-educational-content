@@ -1,0 +1,8 @@
+question: Vad är den främsta anledningen till att Bitcoin:s mekanism för svårighetsjustering begränsar förändringar till inom en faktor fyra under varje justeringsperiod för 2016-block?
+answer: För att förhindra extrema svängningar som kan destabilisera nätverket när hashfrekvensen ändras dramatiskt
+wrong_answers:
+  - För att säkerställa att gruvarbetare har tillräckligt med tid för att uppgradera sin hårdvara innan svårigheten ökar avsevärt
+  - För att upprätthålla kompatibilitet med 32-bitars tidsstämpelfältet som blir opålitligt med större justeringar
+  - För att förhindra att tidsplanen för halveringen av blocksubventionerna störs av snabba förändringar i svårighetsgraden
+explanation: |
+  Den fyrfaldiga gränsen förhindrar farliga återkopplingsloopar där extrema svårighetsförändringar kan orsaka kraftiga svängningar i blocktiderna. Utan denna begränsning skulle ett plötsligt fall i hashfrekvensen kunna utlösa massiva svårighetsminskningar, vilket skulle göra blocken för enkla och potentiellt destabilisera konsensus. Omvänt skulle stora ökningar kunna göra block nästan omöjliga att bryta. Gränsen säkerställer gradvisa, hanterbara justeringar som upprätthåller nätverksstabilitet även under stora störningar som mining-förbud, vilket gör att systemet kan självkorrigera förutsägbart under flera justeringsperioder snarare än att skapa kaotiska svängningar.

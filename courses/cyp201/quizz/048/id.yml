@@ -6,3 +6,4 @@ wrong_answers:
   - Frasa yang lebih pendek tidak distandarisasi
 explanation: |
   Meskipun frasa 24 kata menawarkan 256 bit keamanan, kunci privat Bitcoin yang dihasilkan hanya menjamin 128 bit keamanan, membuat kelebihan tersebut tidak perlu.
+reviewed: true

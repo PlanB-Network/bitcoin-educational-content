@@ -1,0 +1,8 @@
+question: Ni isano irihe ry’imibare riri hagati y’agaciro k’ingorane ka Bitcoin n’intumbero y’ubu ikoreshwa mu kwemeza amabuye?
+answer: Ingorane ingana n'intumbero iri hasi cane ishoboka igabanijwe n'intumbero iriho ubu
+wrong_answers:
+  - Ingorane zingana n'intumbero iriho ubu igabanwa n'intumbero iri hasi cane ishoboka
+  - Ingorane zingana n'intumbero iriho ubu igwijwe n'intumbero iri hasi cane ishoboka
+  - Ingorane zingana n’incuro z’umubare 256 zaduzwe ku gipimo c’umubare 3
+explanation: |
+  Ingorane za Bitcoin zisobanurwa mu buryo bwihariye nk’intumbero_hasi cane / intumbero_ubu, ivyo bikaba vyerekana ingene mining ikomeye incuro zingahe ugereranyije n’ingorane yoroshe cane. Iryo sano ry’uguhinduka risobanura ko uko intumbero igenda iragabanuka (bituma hashes zifise akamaro zigora kuronka), ingorane zigenda zirushirizaho. Iryo formule rituma ingorane za 1 zigereranya ibintu vyoroshe kuruta ibindi vyose vya mining, mu gihe agaciro kanini kerekana igikorwa kinini c’ubuhinga gikenewe kugira ngo umuntu aronke amabuye akwiriye.

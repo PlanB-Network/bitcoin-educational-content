@@ -1,12 +1,11 @@
-question: Co nie jest frazą Mnemonic w kontekście Bitcoin?
-answer: Hasło dla Bitcoin Wallet.
+question: Co nie jest frazą mnemoniczną w kontekście Bitcoina?
+answer: Hasło do portfela Bitcoina.
 wrong_answers:
-  - Lista 12 słów z określonego słownika.
-  - Lista 24 słów z określonego słownika.
-  - Sekret dostępu do funduszu Bitcoin.
+  - Lista 12 słów z konkretnego słownika.
+  - Lista 24 słów z konkretnego słownika.
+  - Sekret dostępu do funduszu Bitcoina.
 explanation: |
-  Fraza Mnemonic w kontekście Bitcoin jest listą 12
-  lub 24 słów, które umożliwiają przywrócenie Wallet w dowolnej aplikacji
-  Aplikacji Bitcoin Wallet. Każdy, kto ma dostęp do tej listy
+  Fraza mnemoniczna w kontekście Bitcoina jest listą 12
+  lub 24 słów, które umożliwiają przywrócenie portfela w dowolnej aplikacji Bitcoin Wallet. Każdy, kto ma dostęp do tej listy
   może również uzyskać dostęp do bitcoinów.
 reviewed: true

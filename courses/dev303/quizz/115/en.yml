@@ -1,4 +1,4 @@
-question: What critical problem does the Breeze SDK's just-in-time channel mechanism solve that traditional Lightning implementations struggle with?
+question: What critical problem does the Breez SDK's just-in-time channel mechanism solve that traditional Lightning implementations struggle with?
 answer: It automatically creates new channels with sufficient inbound liquidity when payments arrive, eliminating the need for users to manually manage channel capacity
 wrong_answers:
   - It prevents channel force-closures by automatically rebalancing funds across multiple channels when one becomes unresponsive or goes offline

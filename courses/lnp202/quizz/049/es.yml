@@ -1,0 +1,9 @@
+question: ¿Cuál de estas plataformas permite comprar liquidez entrante?
+answer: Magma
+wrong_answers:
+  - Núcleo Bitcoin
+  - 1ML
+  - Boltz
+explanation: |
+  Magma facilita la compra de liquidez entrante a través de un mercado automatizado.
+reviewed: false

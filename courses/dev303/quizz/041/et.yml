@@ -1,0 +1,8 @@
+question: Millised on kolm võimalust, kuidas sulgurid saavad Rust-s oma keskkonnast muutujaid hõivata?
+answer: Muutumatu viitega, muutuva viitega või omandiõiguse võtmisega
+wrong_answers:
+  - Väärtuse kopeerimise, viite laenamise või osuti dereferentsimise teel
+  - Virna jaotamise, kuhja jaotamise või staatilise salvestuse abil
+  - Jagatud juurdepääs, ainuõiguslik juurdepääs või samaaegne juurdepääs
+explanation: |
+  Rust sulgemiskoodeksid kasutavad keskkonnamuutujaid täpselt kolmel viisil: muutumatu viitega (kui nad peavad ainult lugema), muutuva viitega (kui nad peavad muutma) või omandiõiguse võtmisega (kui nad peavad väärtust liigutama, sageli niidi turvalisuse huvides). Kompilaator valib automaatselt kõige piiravama meetodi, mis rahuldab sulgemise vajadusi, järgides vähimate privileegide põhimõtet.

@@ -1,0 +1,8 @@
+question: Milline on sighash-konstruktsiooni peamine eesmärk Bitcoin tehingu valideerimisel?
+answer: Et luua allkirja kontrollimiseks täpselt see sõnum, mis algselt allkirjastati privaatvõtmega
+wrong_answers:
+  - generate jaoks tehingu unikaalne identifikaator, mis takistab double-spending rünnakuid
+  - Tehinguandmete tihendamine väiksemasse formaati tõhusaks võrguülekandeks
+  - Tehingu sisu krüpteerimine, et ainult saaja saaks münte dekrüpteerida ja kulutada
+explanation: |
+  Sighash-konstruktsioon loob täpselt selle sõnumi, mis on allkirjastatud eravõti abil, võimaldades OP_CHECKSIG-l kontrollida allkirja autentsust. See protsess hõlmab ScriptSigs'i tühjendamist, praeguse sisendi ScriptSig'i asendamist vastava ScriptPubKey'ga ja hash-tüübi lisamist enne topeltpesemist. Teised valikud on valed: tehingu ID-d on identifikaatoriteks, pakkimist käsitletakse eraldi ja Bitcoin tehinguid ei krüpteerita, vaid need on plokiahelas avalikult nähtavad.

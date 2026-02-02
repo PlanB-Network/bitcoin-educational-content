@@ -3,153 +3,162 @@ topic: social studies
 subtopic: economy
 type: theory
 level: intermediate
-hours: 6
-
+hours: 8
 professors_id:
   - 525947e6-1d14-43d3-bf17-693b78b3ba09
 contributor_names:
   - Rogzy-DB
   - Asi0Flammeus
-
 published_at: 2023-09-28
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.41
+    reward: 26.01
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.09
+    reward: 17.37
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 31.09
+      - 2raj2raj
+    reward: 8.69
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.09
+    reward: 17.37
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.41
+    reward: 26.01
   - language: fr
-    last_contribution_date: 2024-06-08
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
       - elDaz2
-    reward: 15.54
+      - CarlAdm12
+    reward: 0
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.09
+    reward: 17.37
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 62.07
+    reward: 43.28
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.09
+    reward: 17.37
   - language: ru
     last_contribution_date: 2024-09-09
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 20.71
+    reward: 13.0
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 31.04
+    reward: 21.64
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.41
+    reward: 26.01
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 51.74
+    reward: 34.64
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.41
+    reward: 26.01
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 51.74
+    reward: 34.64
   - language: pl
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - MisinhaP
-    reward: 20.71
+    reward: 13.0
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 72.4
+    reward: 43.28
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.41
+    reward: 34.64
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 20.71
+    reward: 13.0
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 51.74
+    reward: 34.64
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.41
+    reward: 26.01
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.09
+    reward: 17.37
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.41
+    reward: 26.01
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 51.74
+    reward: 34.64
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.41
+    reward: 34.64
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 62.07
+    reward: 43.28
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 26.01
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 34.64
 tags:
   - finance
   - market-trends

@@ -1,0 +1,8 @@
+question: Mihin perustavanlaatuiseen haasteeseen alustarajat ylittävässä kehityksessä UniFFI vastaa Rust-kirjastojen kanssa työskenneltäessä?
+answer: Tarve luoda manuaalisesti mukautettua sidontakoodia kullekin kohdekielelle, kun Rust:n matalan tason FFI:tä käytetään
+wrong_answers:
+  - Rust:n kyvyttömyys kääntää natiiveja binääripaketteja, joita voidaan käyttää useissa käyttöjärjestelmissä
+  - Muistitietoturvatakuiden puute, kun Rust-koodi on vuorovaikutuksessa roskakokoisten kielten kanssa
+  - "Suorituskykyyn liittyvä ylimääräinen kustannus, joka syntyy käännettäessä Rust:n omistajuusmallia viittauslaskentaan perustuviin kieliin"
+explanation: |
+  UniFFI ratkaisee erityisesti ongelman, joka liittyy sitovan koodin manuaaliseen kirjoittamiseen kutakin kohdekieltä varten. Kun Rust kääntää binääritulosteeksi, se tuottaa Foreign Function Interface:n (FFI), joka on matalan tason ja jota on haastavaa käyttää suoraan korkeamman tason kielistä. Perinteisesti kehittäjien oli kirjoitettava mukautettua sidontakoodia jokaista kohdekieltä (Python, Swift, Kotlin jne.) varten, mikä aiheutti merkittäviä esteitä käyttöönotolle. UniFFI poistaa tämän tarpeettomuuden luomalla nämä sidokset automaattisesti UDL-määrittelyjärjestelmänsä avulla.

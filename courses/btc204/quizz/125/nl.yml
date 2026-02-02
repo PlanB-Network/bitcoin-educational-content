@@ -1,10 +1,10 @@
 question: Wat is het hoofddoel van een coinswap?
-answer: Om in het geheim de Ownership van bitcoins over te dragen
+answer: Om in het geheim de eigendom van bitcoins over te dragen
 wrong_answers:
   - Verhoog de snelheid van transacties
   - Bitcoins mengen
-  - In het geheim Exchange en Altcoin voor Bitcoin
+  - In het geheim een altcoin voor bitcoin wisselen
 explanation: |
-  Coinswap gebruikt slimme contracten om een overdracht van Bitcoin Ownership tussen twee gebruikers mogelijk te maken, zonder dat vertrouwen nodig is en zonder dat deze overdracht expliciet zichtbaar is op de Blockchain.
+  Coinswap gebruikt slimme contracten (smart contracts) om een overdracht van Bitcoin eigendom tussen twee gebruikers mogelijk te maken, zonder dat vertrouwen nodig is en zonder dat deze overdracht expliciet zichtbaar is op de blockchain.
   
 reviewed: false

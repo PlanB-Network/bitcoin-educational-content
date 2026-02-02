@@ -1,0 +1,8 @@
+question: Apa tujuan utama dari periode tunggu 102 konfirmasi selama proses peg-in dari Bitcoin ke Liquid?
+answer: Untuk melindungi dari reorganisasi blockchain Bitcoin sebelum mencetak L-BTC
+wrong_answers:
+  - Untuk memberikan waktu yang cukup bagi federasi untuk memverifikasi identitas dan kepatuhan pengguna
+  - Untuk memastikan jaringan Liquid memiliki kapasitas yang memadai untuk memproses transaksi yang masuk
+  - Untuk menyediakan waktu bagi otorisasi multitanda tangan 11 dari 15 dari anggota federasi
+explanation: |
+  Masa tunggu 102 konfirmasi (sekitar 17 jam) dirancang khusus untuk melindungi dari reorganisasi blockchain Bitcoin. Karena Bitcoin beroperasi dengan finalitas probabilistik, selalu ada kemungkinan kecil bahwa blok dapat direorganisasi, yang berpotensi membatalkan transaksi. Dengan menunggu 102 konfirmasi, sistem memastikan bahwa transaksi Bitcoin yang mengirimkan dana ke alamat federasi terkubur dalam-dalam dan sangat tidak mungkin untuk dibatalkan. Hal ini mencegah skenario di mana L-BTC dicetak pada Liquid tetapi transaksi Bitcoin yang mendasarinya dibatalkan karena reorganisasi. Opsi lainnya tidak tepat karena: verifikasi identitas bukanlah bagian dari proses peg-in otomatis, kapasitas jaringan bukanlah faktor pembatas yang menyebabkan penundaan, dan otorisasi multisig 11 dari 15 digunakan untuk peg-out, bukan peg-in.

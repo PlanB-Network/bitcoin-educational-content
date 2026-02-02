@@ -195,7 +195,7 @@ Tast inn PIN-koden din.
 
 ![Image](assets/fr/39.webp)
 
-Gå deretter til [Blockstreams nettsted] (https://jadefw.blockstream.com/pinqr/qrpin.html) for å utveksle QR-koder med oraklet.
+Gå deretter til [Blockstreams nettsted](https://jadefw.blockstream.com/pinqr/qrpin.html) for å utveksle QR-koder med oraklet.
 
 ![Image](assets/fr/40.webp)
 
@@ -213,7 +213,7 @@ Klikk på "*Start*".
 
 ![Image](assets/fr/15.webp)
 
-Du kan bruke QR-kodebasen som følger med i Jade Plus-boksen. Velg riktig boks avhengig av om du har valgt en setning på 12 eller 24 ord. Du kan også [skrive ut malen fra Blockstreams nettsted] (https://help.blockstream.com/hc/article_attachments/41928319071769).
+Du kan bruke QR-kodebasen som følger med i Jade Plus-boksen. Velg riktig boks avhengig av om du har valgt en setning på 12 eller 24 ord. Du kan også [skrive ut malen fra Blockstreams nettsted](https://help.blockstream.com/hc/article_attachments/41928319071769).
 
 Jade Plus vil vise hver sone i QR-koden din.
 
@@ -328,7 +328,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 I denne veiledningen presenterer jeg en avansert bruk av Jade Plus ved hjelp av Sparrow Wallet. Denne maskinvarelommeboken er imidlertid kompatibel med mange andre programmer, for eksempel Liana, Nunchuk, Specter, Green og Keeper. Kompatibiliteten varierer når det gjelder tilkoblinger: USB, Bluetooth eller QR-kode (se tabellen i innledningen for detaljer).
 
-Start med å laste ned og installere Sparrow Wallet [fra det offisielle nettstedet] (https://sparrowwallet.com/) på datamaskinen din, hvis du ikke allerede har gjort det.
+Start med å laste ned og installere Sparrow Wallet [fra det offisielle nettstedet](https://sparrowwallet.com/) på datamaskinen din, hvis du ikke allerede har gjort det.
 
 ![Image](assets/fr/50.webp)
 

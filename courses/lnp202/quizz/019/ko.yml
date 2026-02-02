@@ -1,0 +1,9 @@
+question: Umbrel에 LND을 설치하기 위한 전제 조건은 무엇인가요?
+answer: 동기화된 Bitcoin 노드
+wrong_answers:
+  - Umbrel 프리미엄 계정
+  - 기존 라이트닝 채널
+  - 라이트닝 주소 활성화
+explanation: |
+  LND는 100% 동기화된 Bitcoin 노드에 의존하며, 이는 작동을 위한 전제 조건입니다.
+reviewed: false

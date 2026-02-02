@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Il ne faut surtout pas utiliser une adresse de réception plusieurs fois. Toutes les autres réponses permettent de ne pas entrer dans les heuristiques d'analyse de chaîne.
 
-reviewed: false
+reviewed: true 

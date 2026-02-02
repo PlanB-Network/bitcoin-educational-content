@@ -1,0 +1,8 @@
+question: Ni sifa gani ya hisabati inayohakikisha kwamba nukta za mkunjo wa duaradufu zinaweza kuongezwa pamoja kwa uthabiti na kwa kutabirika katika shughuli za kriptografia?
+answer: Pointi huunda kundi la hisabati lenye ufungamano, ushirika, utambulisho, na kinyume chake
+wrong_answers:
+  - Pointi hudumisha mikunjo laini inayoendelea ambayo huhifadhi uhusiano wa kijiometri
+  - Pointi hufuata mifumo ya maendeleo ya mstari ambayo huunda mfuatano unaoweza kutabirika
+  - Pointi hutumia hesabu ya moduli ambayo huzuia kiotomatiki makosa ya kompyuta
+explanation: |
+  Pointi za mkunjo wa duaradufu huunda kundi la hisabati chini ya nyongeza, ambayo ina maana kwamba zinakidhi sifa nne muhimu: kufungwa (kuongeza pointi mbili hutoa nukta nyingine kwenye mkunjo), ushirika (mpangilio wa shughuli haujalishi), utambulisho (nukta katika infinity hufanya kama sifuri), na kinyume chake (kila nukta ina uakisi unaoifuta). Sifa hizi za kikundi ndizo hufanya usimbaji fiche wa mkunjo wa duaradufu kufanya kazi kwa uhakika na kuwezesha shughuli kama vile kuzidisha kwa scalar kufanya kazi kwa uthabiti, bila kujali kama tunafanya kazi na mikunjo halisi laini au nukta za sehemu zenye kikomo.

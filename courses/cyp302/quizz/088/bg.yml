@@ -1,0 +1,9 @@
+question: Какъв е алгоритъмът за блоково криптиране, приет като стандарт AES?
+answer: Шифърът Rijndael
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Шифърът Rijndael е приет за стандарт за симетрично криптиране (AES) от NIST поради високата му производителност и сигурност.
+reviewed: false

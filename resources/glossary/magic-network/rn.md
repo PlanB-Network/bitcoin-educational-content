@@ -1,5 +1,6 @@
 ---
-term: URUBUGA RW'AMAJAMBO
+term: Magic network
+definition: Utugambo twa 4 bytes turanga umuyoboro (mainnet, testnet, regtest) mu butumwa hagati ya node.
 ---
 
 Ibintu bihoraho bikoreshwa mu masezerano ya Bitcoin kugira ngo hamenyekane uruja n’uruza rwihariye (Mainnet, Testnet, regtest...) rw’ubutumwa buhindurwa hagati y’ibihimba. Ivyo bipimo vyandikwa mu ntango y’ubutumwa bumwe bumwe kugira ngo bishobore kumenyekana neza mu ruzitiro rw’amakuru. Magic Networks zakozwe kugira ngo zibe gake mu makuru asanzwe y’itumanaho. Nkako, izo bytes 4 ntizikunda gukoreshwa muri ASCII, ntizikora muri UTF-8, na generate umubare munini cane w’ibice 32, utitaye ku buryo amakuru abikwa. Ivyuma vy'ubupfumu ni (mu buryo bw'iherezo rito):

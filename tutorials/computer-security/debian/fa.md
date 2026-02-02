@@ -78,7 +78,7 @@ description: توزیع لینوکس مشهور به پایداری، استحک
 
 
 - **AMD64**: نسخه "live hybrid" را از فهرست [دانلود](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/) دانلود کنید.
-- **ARM64**: تصویر DVD را از وب‌سایت رسمی [دبیان] (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/) دریافت کنید.
+- **ARM64**: تصویر DVD را از وب‌سایت رسمی [دبیان](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/) دریافت کنید.
 - **معماری‌های دیگر**: ISO مربوط به معماری خود را [اینجا](https://debian.obspm.fr/debian-cd/12.11.0/) پیدا کنید.
 
 

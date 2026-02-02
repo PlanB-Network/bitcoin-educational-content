@@ -1,0 +1,8 @@
+question: Was passiert mit der Differenz zwischen Eingangs- und Ausgangsbeträgen in einer Bitcoin-Transaktion?
+answer: Die Differenz wird automatisch zur Transaktionsgebühr, die an die Miner gezahlt wird
+wrong_answers:
+  - "Die Differenz wird als Wechselgeld an die ursprüngliche Adresse des Absenders zurückgeschickt"
+  - Die Differenz wird verbrannt und dauerhaft aus dem Verkehr gezogen
+  - Die Differenz wird auf einem Treuhandkonto verwahrt, bis die Transaktion bestätigt ist
+explanation: |
+  Im Gebührensystem von Bitcoin werden die Gebühren implizit als Differenz zwischen den Gesamtbeträgen der Eingaben und den Gesamtbeträgen der Ausgaben berechnet (Gebühr = Summe(Eingaben) - Summe(Ausgaben)). Jeder Wert, der einem Output nicht explizit zugewiesen wird, wird automatisch zur Gebühr für den Bergarbeiter. Aus diesem Grund ist es so wichtig, die richtigen Änderungsoutputs zu erstellen - wenn man vergisst, einen Änderungsoutput einzubeziehen, wenn man einen großen UTXO ausgibt, wird der gesamte Rest zu einer teuren Gebühr für den Bergmann. Die anderen Optionen sind falsch, da Bitcoin nicht automatisch Änderungsausgaben erstellt, nicht zugewiesene Werte nicht verbrennt und keine Treuhandmechanismen für Transaktionsdifferenzen verwendet.

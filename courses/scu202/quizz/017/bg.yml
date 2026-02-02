@@ -1,0 +1,9 @@
+question: Коя дистрибуция се счита за най-старата, която все още се поддържа?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, създадена през 1993 г. от Патрик Волкердинг, е най-старата дистрибуция на Linux, която е активна и до днес.
+reviewed: false

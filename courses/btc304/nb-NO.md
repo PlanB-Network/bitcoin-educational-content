@@ -28,7 +28,7 @@ I BTC304 vil vi se på hvorfor samfunnsbygging er viktig, utforske verktøy for 
 
 
 
-Velkommen til BTC302!
+Velkommen til BTC 304!
 
 
 
@@ -39,7 +39,7 @@ Siden 2009 har Bitcoin vokst uavbrutt. Veksten har tatt form gjennom nye Bitcoin
 Utviklingen er også tydelig i On-Chain, med et stadig økende antall transaksjoner.
 
 
-Mellom 1. januar 2018 og 1. januar 2024 anslås det for eksempel at antallet transaksjoner på Bitcoins hovednettverk Layer [økte med 66,2 %] (https://dune.com/queries/3375917/5663935). I mellomtiden, mellom august 2021 og august 2023, økte antallet offentlige transaksjoner på Lightning Network [med 1 212 %](https://river.com/learn/files/river-lightning-report-2023.pdf).
+Mellom 1. januar 2018 og 1. januar 2024 anslås det for eksempel at antallet transaksjoner på Bitcoins hovednettverk Layer [økte med 66,2 %](https://dune.com/queries/3375917/5663935). I mellomtiden, mellom august 2021 og august 2023, økte antallet offentlige transaksjoner på Lightning Network [med 1 212 %](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 
 
@@ -48,7 +48,7 @@ Denne betydelige veksten er selvfølgelig nært knyttet til:
 
 
 
-- den [økende interessen for å bruke Bitcoin] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), for å frigjøre seg fra banksystemet og/eller bruke en mindre volatil eller mindre devaluert valuta, slik tilfellet er for befolkninger i Libanon, Syria, Egypt, Argentina og andre land;
+- den [økende interessen for å bruke Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), for å frigjøre seg fra banksystemet og/eller bruke en mindre volatil eller mindre devaluert valuta, slik tilfellet er for befolkninger i Libanon, Syria, Egypt, Argentina og andre land;
 - den har steget i verdi over tid, og har etablert seg som et verdioppbevaringsmiddel og en langsiktig investering, drevet av den faste pengepolitikken;
 - den suksessive veksten i det spekulative kryptovalutamarkedet, særlig i 2017-2018 og 2020-2021;
 - Bitcoins økende tilstedeværelse i mainstream-mediene.
@@ -241,11 +241,11 @@ Bitcoin-møter kan tjene mange formål:
 
 
 
-Vi kommer til å gå nærmere inn på mange av disse mulighetene i del 6/8 av dette kurset, med tittelen "[Eksempler på prosjekter og initiativer] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Vi kommer til å gå nærmere inn på mange av disse mulighetene i del 6/8 av dette kurset, med tittelen "[Eksempler på prosjekter og initiativer](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
-Selv om hvert samfunn står fritt til å danne sine egne meninger, lansere prosjekter og eksperimentere på sin egen måte, viser det seg at meetups blir stadig **viktigere for Bitcoins utvikling og for veksten av bitcoinere**. **Å organisere dem krever tid og innsats**, og derfor deler dette kurset den kombinerte erfaringen fra [rundt seksti Bitcoin-fellesskap i Frankrike og Belgia] (https://btcmap.org/communities/map#2/5.24949/0.20000) **for å hjelpe deg med å bygge og utvide ditt eget fellesskap og møteplasser så smidig som mulig**.
+Selv om hvert samfunn står fritt til å danne sine egne meninger, lansere prosjekter og eksperimentere på sin egen måte, viser det seg at meetups blir stadig **viktigere for Bitcoins utvikling og for veksten av bitcoinere**. **Å organisere dem krever tid og innsats**, og derfor deler dette kurset den kombinerte erfaringen fra [rundt seksti Bitcoin-fellesskap i Frankrike og Belgia](https://btcmap.org/communities/map#2/5.24949/0.20000) **for å hjelpe deg med å bygge og utvide ditt eget fellesskap og møteplasser så smidig som mulig**.
 
 
 
@@ -283,7 +283,7 @@ Noen tips som kan hjelpe deg med å ta en beslutning:
 
 3/ **Sjekk om det allerede finnes et møte i nærheten av deg**.
 
-Du kan sjekke [btcmap.org] (https://btcmap.org/communities/map#0/0/0/), som viser de fleste Bitcoin-fellesskap og møteplasser over hele verden.
+Du kan sjekke [btcmap.org](https://btcmap.org/communities/map#0/0/0/), som viser de fleste Bitcoin-fellesskap og møteplasser over hele verden.
 
 
 
@@ -353,7 +353,7 @@ Ditt første arrangement vil sannsynligvis være et møte. Hovedformålet er å 
 
 
 
-Men som vi skal se senere i [Eksempler på prosjekter og initiativer] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **kan et møte bygges opp på mange måter, med mange mål:**
+Men som vi skal se senere i [Eksempler på prosjekter og initiativer](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **kan et møte bygges opp på mange måter, med mange mål:**
 
 
 
@@ -594,7 +594,7 @@ Her er ferdige Canva-maler som du kan kopiere og tilpasse til din organisasjon:
 
 
 
-- **Arrangementsplakat** (for sosiale medier og A4/A3-utskrift): [lenke] (https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Arrangementsplakat** (for sosiale medier og A4/A3-utskrift): [lenke](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -616,7 +616,7 @@ Her er ferdige Canva-maler som du kan kopiere og tilpasse til din organisasjon:
 
 
 
-- **bibliotekets retningslinjer**, som vises på A4-ark ved møter: [lenke] (https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **bibliotekets retningslinjer**, som vises på A4-ark ved møter: [lenke](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -685,8 +685,8 @@ Det finnes en rekke AI-er som kan brukes til dette formålet. Disse inkluderer
 
 
 
-- [midjourney] (https://docs.midjourney.com/docs/quick-start) (betalt);
-- [leonardo] (https://leonardo.ai/) (gratis, kontobegrenset);
+- [midjourney](https://docs.midjourney.com/docs/quick-start) (betalt);
+- [leonardo](https://leonardo.ai/) (gratis, kontobegrenset);
 - [copilot](https://copilot.microsoft.com/) (gratis, kontobegrenset);
 - (https://www.dall-efree.com/) (betalt).
 
@@ -782,7 +782,7 @@ I Frankrike, Tyskland og Italia er for eksempel **Telegram og Twitter de dominer
 I Tsjekkia, derimot, bruker mange lokalsamfunn **Matrix**, en sikker protokoll for direktemeldinger, i stedet for Telegram.
 
 
-Tips: Før du velger kanaler, bør du **se på hva som skjer i lokalsamfunnene i nærheten**. Bruk kartet [btcmap.org] (https://btcmap.org/communities/map#0/0/0/) for å se hvilke plattformer som er mest populære i din region.
+Tips: Før du velger kanaler, bør du **se på hva som skjer i lokalsamfunnene i nærheten**. Bruk kartet [btcmap.org](https://btcmap.org/communities/map#0/0/0/) for å se hvilke plattformer som er mest populære i din region.
 
 
 For eksempel bruker sveitsiske miljøer først og fremst Telegram, Twitter og sin egen nettside:
@@ -866,7 +866,7 @@ For veiledningene nedenfor brukte vi opprinnelig "Telegram +" APK, som gir mulig
 Hvis du ønsker å opprette et sted der medlemmene dine kan snakke direkte med hverandre, svare hverandre osv., bør du kanskje opprette en Telegram-gruppe, og ikke en Telegram-kanal!
 
 
-Gå direkte til neste avsnitt, med tittelen [Opprett en Telegram-gruppe] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Gå direkte til neste avsnitt, med tittelen [Opprett en Telegram-gruppe](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1060,7 +1060,7 @@ Dette er ikke alltid nødvendig, men kan gi en ekstra Layer beskyttelse.
 **Et annet alternativ for å konfigurere og sikre Telegram-gruppen eller supergruppen din er å legge til en multifunksjonsbot**. Dette gjør at du kan utvide gruppens funksjoner og modereringsmuligheter betydelig.
 
 
-Ved hjelp av **roboten [@GroupHelpBot] (https://telegram.me/grouphelpbot)** er de mest nyttige alternativene:
+Ved hjelp av **roboten [@GroupHelpBot](https://telegram.me/grouphelpbot)** er de mest nyttige alternativene:
 
 
 
@@ -1123,7 +1123,7 @@ Det krever selvfølgelig litt mer tid å administrere både Telegram og Discord,
 
 
 
-For å gjøre ting enklere for deg, **deler vi en [Discord-server som du kan duplisere og tilpasse] (https://discord.com/template/bDY4eXXJk2C8)**:
+For å gjøre ting enklere for deg, **deler vi en [Discord-server som du kan duplisere og tilpasse](https://discord.com/template/bDY4eXXJk2C8)**:
 
 
 
@@ -1133,7 +1133,7 @@ For å gjøre ting enklere for deg, **deler vi en [Discord-server som du kan dup
 En Discord-server kan være en stor ressurs for fellesskapet ditt når den er godt utformet. Mange Bitcoinere bruker allerede **Discord** daglig, og det å kunne følge Telegram-samtaler direkte i Discord (og vice versa) kan spare alle for mye tid.
 
 
-For å synkronisere begge plattformene finnes det en åpen kildekode-bot som heter [TediCross] (https://github.com/TediCross/TediCross). Formålet er enkelt: automatisk videresending av meldinger fra en Discord-tekstkanal til en Telegram-gruppe (eller et emne i en supergruppe), og vice versa.
+For å synkronisere begge plattformene finnes det en åpen kildekode-bot som heter [TediCross](https://github.com/TediCross/TediCross). Formålet er enkelt: automatisk videresending av meldinger fra en Discord-tekstkanal til en Telegram-gruppe (eller et emne i en supergruppe), og vice versa.
 
 
 Husk imidlertid at den ikke er den enkleste å installere. Du må ha en kommandoprompt (CMD) kjørende på datamaskinen din for at boten skal fungere, og det kan oppstå feil av og til. Heldigvis er det enkelt å fikse det: bare start boten på nytt, og som oftest går alt tilbake til det normale.
@@ -1232,7 +1232,7 @@ Twitter er svært enkelt å bruke, og for å forbedre personvernet ditt må du j
 1/ ** @ Twitter**, som definerer identiteten din og gjør deg lett å finne. Hvis navnet på lokalsamfunnet ditt er "Bitcoin [BY]", er det passende å velge "@Bitcoin[BY]";
 
 
-2/ **logoen og banneret** du har laget for fellesskapet eller møteplassen din (se avsnittet [Lag en logo, plakat og banner] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **logoen og banneret** du har laget for fellesskapet eller møteplassen din (se avsnittet [Lag en logo, plakat og banner](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **beskrivelsen**, som gir deg mulighet til å dele nøkkelinformasjon om samfunnet ditt på noen få hundre tegn. For eksempel
@@ -1260,7 +1260,7 @@ I tillegg er det verdt å justere noen **personverninnstillinger**:
 For hvert arrangement vil du sannsynligvis bruke Twitter til å dele nyttig informasjon. Men som i de fleste sosiale nettverk er **synlighet alt**.
 
 
-For å spare deg for mye tid har vi tatt oss tid til å studere [Twitters rangeringsalgoritme med åpen kildekode] (https://github.com/twitter).
+For å spare deg for mye tid har vi tatt oss tid til å studere [Twitters rangeringsalgoritme med åpen kildekode](https://github.com/twitter).
 
 
 Her er de **viktigste tingene du bør fokusere på for å øke synligheten din**:
@@ -1342,7 +1342,7 @@ Nå som kommunikasjonskanalene og de sosiale nettverkene dine er satt opp og gje
 
 
 
-På Twitter kan du begynne med å følge nøkkelkontoer som promoterer Bitcoin globalt, som [@Bitcoin] (https://twitter.com/Bitcoin) og [@planb_network] (https://twitter.com/planb_network), samt initiativer som [@FBCEglobal] (https://twitter.com/FBCEglobal). Du kan også retweete [@halfin](https://twitter.com/halfin) sin berømte "Running Bitcoin"-tweet fra 11. januar 2009. Og enda viktigere: **følg kontoene til Bitcoin-fellesskap og -møter i ditt eget land**.
+På Twitter kan du begynne med å følge nøkkelkontoer som promoterer Bitcoin globalt, som [@Bitcoin](https://twitter.com/Bitcoin) og [@planb_network](https://twitter.com/planb_network), samt initiativer som [@FBCEglobal](https://twitter.com/FBCEglobal). Du kan også retweete [@halfin](https://twitter.com/halfin) sin berømte "Running Bitcoin"-tweet fra 11. januar 2009. Og enda viktigere: **følg kontoene til Bitcoin-fellesskap og -møter i ditt eget land**.
 
 
 Dette skaper **muligheter til å følge hverandre, tagge hverandre og øke den kollektive synligheten**. Det er allerede vanlig praksis blant de rundt 50 Bitcoin-fellesskapene i Frankrike, "Satoshi Spritz"-initiativene i Italia og "Einundzwanzig"-gruppene i Tyskland.
@@ -1359,7 +1359,7 @@ Måltidene i **Cercle du Coin** er et annet godt eksempel.
 
 
 
-I Frankrike kan det også være relevant å ** følge initiativene som [@KonsensusFR] (https://twitter.com/KonsensusFR), [@bitcoinpointfr] (https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin] (https://twitter.com/DecouvreBitcoin) og [@btcmap] (https://twitter.com/btcmap)**. Dette er selvfølgelig bare forslag, og hvert samfunn står fritt til å gjøre som det ønsker, i fullstendig desentralisering og autonomi.
+I Frankrike kan det også være relevant å ** følge initiativene som [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) og [@btcmap](https://twitter.com/btcmap)**. Dette er selvfølgelig bare forslag, og hvert samfunn står fritt til å gjøre som det ønsker, i fullstendig desentralisering og autonomi.
 
 
 Som nevnt ovenfor, er målet med å følge hverandre å skape gjensidig synlighet. Jo mer du promoterer ditt eget og regionens/landets fellesskap i de sosiale nettverkene, desto flere vil snakke om dere. Jo flere som snakker om dere, desto mer sannsynlig er det at de vil delta på arrangementene deres.
@@ -1392,8 +1392,8 @@ Disse inkluderer:
 
 
 - [Btcmap.org](https://btcmap.org/), et nettsted med to kart som oppdateres daglig: **[verdenskartet over virksomheter som godtar Bitcoin](https://btcmap.org/map)** og **[kartet over lokalsamfunn i verden](https://btcmap.org/communities/map)**. Mange bitcoinere sjekker disse kartene regelmessig, enten de er ute og reiser eller går rundt i hverdagen, for å møte nye mennesker eller finne steder å bruke Sats på. Btcmap er den globale referansen, og det er viktig for synligheten din at du lister opp samfunnet ditt der
-- [BitcoinerEvents] (https://www.bitcoinerevents.com/), et nettsted laget av bitcoinere, for bitcoinere. **Her kan du legge ut kommende arrangementer i ditt fellesskap**. I Frankrike er det imidlertid fortsatt ikke mye brukt.
-- avhengig av hvilket land du bor i, kan det finnes andre lokale initiativer. I Frankrike finnes det for eksempel [Bitcoin.fr] (https://Bitcoin.fr/events/categories/evenements/), som **lister opp dusinvis av Bitcoin-arrangementer hver måned**. Så hvis du ennå ikke har fulgt dem på Twitter eller kontaktet dem for å dele informasjon om ditt lokalsamfunn og arrangementer, er det på tide nå! **For å holde den franske arrangementskalenderen oppdatert, ville det være flott om alle franske Bitcoin-fellesskap gjorde det til en vane å:**
+- [BitcoinerEvents](https://www.bitcoinerevents.com/), et nettsted laget av bitcoinere, for bitcoinere. **Her kan du legge ut kommende arrangementer i ditt fellesskap**. I Frankrike er det imidlertid fortsatt ikke mye brukt.
+- avhengig av hvilket land du bor i, kan det finnes andre lokale initiativer. I Frankrike finnes det for eksempel [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), som **lister opp dusinvis av Bitcoin-arrangementer hver måned**. Så hvis du ennå ikke har fulgt dem på Twitter eller kontaktet dem for å dele informasjon om ditt lokalsamfunn og arrangementer, er det på tide nå! **For å holde den franske arrangementskalenderen oppdatert, ville det være flott om alle franske Bitcoin-fellesskap gjorde det til en vane å:**
     - nevner @bitcoinpointfr på Twitter for hvert nye fellesskapsarrangement
     - pinne nye kunngjøringer om arrangementer i Telegram-gruppen deres.
 
@@ -1407,12 +1407,12 @@ Andre plattformer kan også øke synligheten din. **[Meetup](https://www.meetup.
 Det koster rundt 8 euro i måneden (eller rundt 90 euro i året), noe som kan være dyrt for et lite, ustrukturert fellesskap. Når det er sagt, er Meetup mye brukt i noen land, spesielt i Canada og USA, og det er nyttig for å administrere registreringer.
 
 
-På samme måte er **[Orangepillapp] (https://www.orangepillapp.com/)** en betalt mobilapp (50 000 Sats/år eller 200 000 Sats for livstidstilgang) som hjelper bitcoinere med å møtes.
+På samme måte er **[Orangepillapp](https://www.orangepillapp.com/)** en betalt mobilapp (50 000 Sats/år eller 200 000 Sats for livstidstilgang) som hjelper bitcoinere med å møtes.
 
 
 Selv om de to sistnevnte plattformene kan bidra til å øke synligheten, anbefales de ikke når du skal starte et nettsamfunn, rett og slett fordi de ikke er gratis.
 
-**Det er mer enn nok å starte med en oppføring på [btcmap.org] (https://btcmap.org/), [BitcoinerEvents] (https://www.bitcoinerevents.com/) og for franske lokalsamfunn, på [Bitcoin.fr] (https://Bitcoin.fr)**.
+**Det er mer enn nok å starte med en oppføring på [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) og for franske lokalsamfunn, på [Bitcoin.fr](https://Bitcoin.fr)**.
 
 
 Gratulerer så mye! Ditt **fellesskap er opprettet**, dine **visuals er klare**, dine **målsettinger er satt**, dine **kommunikasjonskanaler er på plass**, dine **sosiale nettverk er lansert** og din **synlighetsstrategi er bestemt**.
@@ -1500,7 +1500,7 @@ Hvis du vil forberede deg på roligere stunder, kan du planlegge noen aktivitete
 - med en **Nerdminer**, Bitaxe, FPGA eller til og med ASIC;
 - som har en **Bitcoin flygeblad**;
 - idémyldring om en Bitcoin-visuell eller logo for lokalsamfunnet ditt;
-- spiller et **[Bitcoin-kortspill] (https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- spiller et **[Bitcoin-kortspill](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
 - som viser **[btcmap.org](https://btcmap.org/)**-kartet over lokalsamfunn og selgere;
 - sende eller motta Bitcoin ved hjelp av **Lightning**.
 
@@ -1523,7 +1523,7 @@ Hvis det dannes en fast gruppe av bitcoinere og interesserte deltakere, er det f
 2) Det bidrar til å **etablere en "vane"**. Selv om noen slutter å sjekke kanalene dine regelmessig, vil de fortsatt vite når møtet finner sted og kan stikke innom som vanlig.
 
 
-Dette andre punktet er en av grunnene til at ** i Frankrike finner de fleste møter sted den første onsdagen i hver måned ** (se "ambassadører" -initiativet, lansert av [DecouvreBitcoin] (https://decouvrebitcoin.fr/) i 2022).
+Dette andre punktet er en av grunnene til at ** i Frankrike finner de fleste møter sted den første onsdagen i hver måned ** (se "ambassadører" -initiativet, lansert av [DecouvreBitcoin](https://decouvrebitcoin.fr/) i 2022).
 
 I Tyskland og Italia er det ingen fast nasjonaldag.
 
@@ -1547,7 +1547,7 @@ I det andre tilfellet kan et annet månedlig arrangement være dedikert til et b
 
 
 
-Husk at **dette krever mer organisering og mer av din tid**. Heldigvis finner du i [del 6/8 av dette kurset] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) en rekke gjenbrukbare ressurser med åpen kildekode som kan hjelpe deg.
+Husk at **dette krever mer organisering og mer av din tid**. Heldigvis finner du i [del 6/8 av dette kurset](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) en rekke gjenbrukbare ressurser med åpen kildekode som kan hjelpe deg.
 
 
 Uansett avhenger alt av den kortsiktige, mellomlangsiktige og langsiktige handlingsplanen du eller ditt lokalsamfunn har satt opp for dere selv.
@@ -1619,7 +1619,7 @@ Ta kontakt med stedet der du skal avholde arrangementet, og reserver det for det
 
 
     - Del dato, klokkeslett og sted på sosiale nettverk og i andre kommunikasjonskanaler. Legg ved en påmeldingslenke om nødvendig.
-    - Lag et eget visuelt uttrykk (for eksempel en Canva-plakat, se del 2/8 "[Utforme en identitet for Bitcoin-fellesskapet] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Lag et eget visuelt uttrykk (for eksempel en Canva-plakat, se del 2/8 "[Utforme en identitet for Bitcoin-fellesskapet](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Maksimer synligheten ved å feste kunngjøringen på Telegram og Twitter, og bruk en "@everyone"-omtale på Discord.
     - Legg ut kunngjøringer 7 til 10 dager før arrangementet, slik at deltakerne kan planlegge i forkant.
 
@@ -1721,7 +1721,7 @@ Roma ble ikke bygget på én dag, og det vil heller ikke ditt fellesskap bli. Mo
 For å få det til, er det én ting som er avgjørende: **holde deltakerne engasjert**.
 
 
-Det kan begynne med en liten gruppe lidenskapelige bitcoinere, som har som mål å møtes regelmessig og snakke om Bitcoin. Over tid, avhengig av hver enkelt persons tilgjengelighet og interesser, kan du **dele visse organisatoriske oppgaver med gruppen**, eller invitere sentrale **medlemmer til å ta på seg spesifikke prosjekter**. Disse kan være unike for ditt lokalsamfunn, dine møter eller din by, eller til og med inspirert av de mange initiativene som er foreslått i [del 6/8 av dette kurset] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Dette fremmer ikke bare Commitment fra kjernemedlemmene, men bidrar også til at fellesskapet vokser og trives.**
+Det kan begynne med en liten gruppe lidenskapelige bitcoinere, som har som mål å møtes regelmessig og snakke om Bitcoin. Over tid, avhengig av hver enkelt persons tilgjengelighet og interesser, kan du **dele visse organisatoriske oppgaver med gruppen**, eller invitere sentrale **medlemmer til å ta på seg spesifikke prosjekter**. Disse kan være unike for ditt lokalsamfunn, dine møter eller din by, eller til og med inspirert av de mange initiativene som er foreslått i [del 6/8 av dette kurset](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Dette fremmer ikke bare Commitment fra kjernemedlemmene, men bidrar også til at fellesskapet vokser og trives.**
 
 
 Etter hvert som møtene utvikler seg, vil nye ansikter dukke opp: folk som har kjøpt BTC og/eller altcoins i tidligere sykluser, teknologientusiaster som ønsker å utdype sin forståelse, eller nybegynnere som er nysgjerrige på dette ikke-sensurerbare, desentraliserte, transparente og rettferdige betalingssystemet som fungerer uten betingelser og uten pålitelige tredjeparter.
@@ -1775,7 +1775,7 @@ Til syvende og sist er det opp til deg å bestemme hvor langt "åpen og inkluder
 Etter hvert som blokkene ruller videre, vil samfunnet utvikle seg. Nye ansikter vil komme til, andre vil forsvinne, men det ledende prinsippet bør forbli det samme: utvikle Bitcoin-økosystemet og styrke båndene mellom medlemmene.
 
 
-Det finnes mange prosjekter og initiativer som kan gjennomføres. Dette kapittelet inneholder en ikke-uttømmende liste over ideer som kan gjennomføres i et fellesskap eller under et møte. Velg gjerne de som inspirerer deg, og bidra gjerne med dine egne ideer til dette kurset [ved å lage en "Pull Request" på GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Det finnes mange prosjekter og initiativer som kan gjennomføres. Dette kapittelet inneholder en ikke-uttømmende liste over ideer som kan gjennomføres i et fellesskap eller under et møte. Velg gjerne de som inspirerer deg, og bidra gjerne med dine egne ideer til dette kurset [ved å lage en "Pull Request" på GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Før vi går i gang, la oss ta opp igjen et poeng som er nevnt tidligere.
@@ -1820,7 +1820,7 @@ I tillegg til den sterke pedagogiske verdien gjør denne tilnærmingen det mulig
 Nedenfor ser du progresjonen for de franske møtene i 2023-2024. For hvert tema finnes det en åpen kildekode-presentasjon og en video, som kan gi deg ideer til temaer du kan ta opp på dine egne arrangementer.
 
 
-Du finner også mer redigerbart materiale i [Bitcoin Teaching Toolbox] (https://planb.academy/fr/resources/bet)!
+Du finner også mer redigerbart materiale i [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
 
 
 
@@ -1871,7 +1871,7 @@ Avhengig av hvor tilgjengelig du er og hvor engasjert du er i lokalsamfunnet, ka
 
 - En restaurantkveld i anledning **Pizzadagen** 22. mai
 - En kveld eller helg for å feire den neste **Halving**
-- En familie **spillkveld** om Bitcoin og hvordan det fungerer, ved hjelp av spill som [Le Coin de Table] (https://www.Maximalist.ovh/) eller [SHAmory] (https://shamory.com/)
+- En familie **spillkveld** om Bitcoin og hvordan det fungerer, ved hjelp av spill som [Le Coin de Table](https://www.Maximalist.ovh/) eller [SHAmory](https://shamory.com/)
 - En **Mining-workshop** med presentasjon av ulike typer maskinvare (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - En **eftermiddag eller kveld for nybegynnere**, med temaverksteder
 - Et **fellesmøte med nabokommunene**
@@ -1911,7 +1911,7 @@ Husk disse tipsene før du bestiller:
 
 
 
-Avhengig av behov og leverandør kan 1000 klistremerker koste mellom 100€ og 250€. Du kan kontakte [@Mill3sim3 på Twitter] (https://x.com/Mill3sim3), en fransk bitcoiner som spesialiserer seg på markedsføring, og som noen ganger kan sikre deg priser som er opptil 30 % lavere enn vanlige nettleverandører.
+Avhengig av behov og leverandør kan 1000 klistremerker koste mellom 100€ og 250€. Du kan kontakte [@Mill3sim3 på Twitter](https://x.com/Mill3sim3), en fransk bitcoiner som spesialiserer seg på markedsføring, og som noen ganger kan sikre deg priser som er opptil 30 % lavere enn vanlige nettleverandører.
 
 
 Når det er sagt, er 1000 klistremerker mye. Det er vanligvis bedre å starte med rundt 100 for å være sikker på at du kan distribuere dem alle.
@@ -1949,10 +1949,10 @@ Hvis dere driver en forening og ønsker å investere en del av midlene deres i u
 ![image](assets/nb-NO/039.webp)
 
 
-For å støtte økosystemet har **[forlaget Konsensus Network] (https://konsensus.network/) tilbudt internasjonale Bitcoin-møter og -fellesskap 15 % til 35 % rabatt på alle sine bøker siden slutten av 2023, for bestillinger på tre bøker eller mer**.
+For å støtte økosystemet har **[forlaget Konsensus Network](https://konsensus.network/) tilbudt internasjonale Bitcoin-møter og -fellesskap 15 % til 35 % rabatt på alle sine bøker siden slutten av 2023, for bestillinger på tre bøker eller mer**.
 
 
-For å benytte deg av denne rabatten er det bare å **kontakte [Konsensus forlag] (https://twitter.com/KonsensusFR) på Twitter**.
+For å benytte deg av denne rabatten er det bare å **kontakte [Konsensus forlag](https://twitter.com/KonsensusFR) på Twitter**.
 
 
 Hvis du ikke har penger, kan du likevel gi rabatten videre til medlemmer i lokalsamfunnet.
@@ -1966,7 +1966,7 @@ Du kan også legge ut et bokutlånsreglement på møtene dine for å forklare l�
 
 Her er et eksempel med åpen kildekode som du kan bruke og tilpasse:
 
-[Charta for bokutlån] (https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
+[Charta for bokutlån](https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
 
 
 
@@ -2003,7 +2003,7 @@ Disse flygebladene kan være målrettet mot:
 Du kan også utforme en brosjyre som er spesifikk for ditt lokalsamfunn eller din møteplass, der du presenterer aktiviteter, mål, lenker til sosiale medier, kommunikasjonskanaler og kommende arrangementer.
 
 
-Flere brosjyrer er allerede **tilgjengelige som åpen kildekode i [Bitcoin Teaching Toolbox] (https://planb.academy/fr/resources/bet)** på planB.network, og flere vil bli lagt til etter hvert.
+Flere brosjyrer er allerede **tilgjengelige som åpen kildekode i [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** på planB.network, og flere vil bli lagt til etter hvert.
 
 
 Et eksempel er en [komplett brosjyre](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) med 21 grunner til å bruke Bitcoin. Utformingen er også [tilgjengelig i åpen kildekode](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), slik at du kan endre, tilpasse og dele den. Bare husk å oppgi kildene dine.
@@ -2068,10 +2068,10 @@ Her er [heftet som deles blant franske bitcoinere](https://profedustream.substac
 
 
 
-Nesten alle bitcoiner har sannsynligvis sett [Rémi Forte] (https://twitter.com/forteremi) sin fascinerende midtserie "Le mystère Satoshi, aux origines du Bitcoin" (The Satoshi Mystery: The Origins of Bitcoin).
+Nesten alle bitcoiner har sannsynligvis sett [Rémi Forte](https://twitter.com/forteremi) sin fascinerende midtserie "Le mystère Satoshi, aux origines du Bitcoin" (The Satoshi Mystery: The Origins of Bitcoin).
 
 
-Den ble utgitt i 2021 og har blitt sett [flere millioner ganger på YouTube] (https://www.youtube.com/watch?v=0ETcLj5jBy4).
+Den ble utgitt i 2021 og har blitt sett [flere millioner ganger på YouTube](https://www.youtube.com/watch?v=0ETcLj5jBy4).
 
 
 En idé kan være å organisere en visning av Satoshi-mysteriet for lokalsamfunnet ditt, kanskje som et ekstra månedlig arrangement.
@@ -2113,7 +2113,7 @@ I flere europeiske land (blant annet Tyskland, Spania og Frankrike) har bitcoine
 Noen design omarbeider Banksys kunst for å inkludere Bitcoin-logoen.
 
 
-Et eksempel er [StreetCyberArt] (https://twitter.com/streetcyber_art), en tysk bitcoiner som har laget collager og gatekunst i flere år.
+Et eksempel er [StreetCyberArt](https://twitter.com/streetcyber_art), en tysk bitcoiner som har laget collager og gatekunst i flere år.
 
 
 
@@ -2137,7 +2137,7 @@ Vær også oppmerksom på at utskrift av disse plakatene på en personlig skrive
 Dette initiativet kan være kostbart, over 40 euro per plakat (ca. 40 euro for hundre plakater), og prisene på nettet kan variere fra det dobbelte til det femdobbelte av dette beløpet. Gode kontakter er avgjørende.
 
 
-Som nevnt ovenfor har den franske bitcoiner [@Mill3sim3] (https://twitter.com/Mill3sim3) det rette profesjonelle utstyret og kan kontaktes for detaljer.
+Som nevnt ovenfor har den franske bitcoiner [@Mill3sim3](https://twitter.com/Mill3sim3) det rette profesjonelle utstyret og kan kontaktes for detaljer.
 
 
 Alternativt kan du lage en sjablong av et stort stykke papp og bruke spraymaling til å tagge designet ditt på utvalgte steder i byen.
@@ -2157,7 +2157,7 @@ En annen original prosjektidé er å lage personlige NFC-kort for lynbetalinger 
 (https://swiss-Bitcoin-pay.ch/cards) tilbyr for tiden fire standarddesign.
 
 
-Hvis du ønsker å bestille mer enn 50 NFC-kort, kan du kontakte selskapet via deres offisielle nettside eller [Twitter] (https://twitter.com/SwissBitcoinPay) for å foreslå et tilpasset design for forsiden av kortet. Baksiden vil forbli standardisert.
+Hvis du ønsker å bestille mer enn 50 NFC-kort, kan du kontakte selskapet via deres offisielle nettside eller [Twitter](https://twitter.com/SwissBitcoinPay) for å foreslå et tilpasset design for forsiden av kortet. Baksiden vil forbli standardisert.
 
 
 
@@ -2165,7 +2165,7 @@ Hvis du ønsker å bestille mer enn 50 NFC-kort, kan du kontakte selskapet via d
 
 
 
-I 2023 bestilte for eksempel den franske foreningen [Bitcoin Lille] (https://twitter.com/BitcoinLille) et parti NFC-kort med et tilpasset design. Alle nye medlemmer fikk et kort i velkomstpakken i løpet av året. Denne ideen kan enkelt tilpasses og tilpasses ditt eget fellesskap.
+I 2023 bestilte for eksempel den franske foreningen [Bitcoin Lille](https://twitter.com/BitcoinLille) et parti NFC-kort med et tilpasset design. Alle nye medlemmer fikk et kort i velkomstpakken i løpet av året. Denne ideen kan enkelt tilpasses og tilpasses ditt eget fellesskap.
 
 
 Enhetsprisen for disse kortene varierer vanligvis fra 2,50 euro til 5 euro, avhengig av ordrestørrelse og markedsforhold, med lavere priser for større mengder.
@@ -2195,7 +2195,7 @@ Senere kan du kjøpe ditt eget domenenavn eller til og med hoste nettstedet på 
 Det finnes andre CMS-plattformer, noen med enklere og mer nybegynnervennlige grensesnitt, men de er vanligvis langt mindre tilpasningsdyktige. Derfor er WordPress generelt det beste utgangspunktet.
 
 
-WordPress støtter også et bredt spekter av plugin-moduler (noen betalte, men av høy kvalitet) som kan utvide nettstedets funksjoner betydelig uten å kreve kodingsferdigheter. Et eksempel er [premium "Uncode"-temaet] (https://undsgn.com/uncode/)
+WordPress støtter også et bredt spekter av plugin-moduler (noen betalte, men av høy kvalitet) som kan utvide nettstedets funksjoner betydelig uten å kreve kodingsferdigheter. Et eksempel er [premium "Uncode"-temaet](https://undsgn.com/uncode/)
 
 
 
@@ -2217,12 +2217,12 @@ Du kan også holde presentasjoner på møter eller til og med på universiteter.
 Populære plattformer inkluderer:
 
 
-- [**YouTube**] (https://www.youtube.com/), mye brukt, men ikke sensurresistent.
-- [**Odyssee**] (https://odysee.com/), mindre populær, men desentralisert gjennom peer-to-peer-teknologi.
-- [**peertube**] (https://joinpeertube.org/fr_FR), lar deg være vert for din egen videoplattform, selv om den er mer kompleks å sette opp.
+- [**YouTube**](https://www.youtube.com/), mye brukt, men ikke sensurresistent.
+- [**Odyssee**](https://odysee.com/), mindre populær, men desentralisert gjennom peer-to-peer-teknologi.
+- [**peertube**](https://joinpeertube.org/fr_FR), lar deg være vert for din egen videoplattform, selv om den er mer kompleks å sette opp.
 
 
-Uansett hva du velger, må du designe plattformspesifikke bilder for å gjøre kanalen din tiltalende. Canva, som ble nevnt i [del 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), tilbyr en "YouTube Thumbnail"-kategori med ferdiglagde, tilpassbare design.
+Uansett hva du velger, må du designe plattformspesifikke bilder for å gjøre kanalen din tiltalende. Canva, som ble nevnt i [del 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), tilbyr en "YouTube Thumbnail"-kategori med ferdiglagde, tilpassbare design.
 
 
 
@@ -2230,9 +2230,9 @@ Uansett hva du velger, må du designe plattformspesifikke bilder for å gjøre k
 
 
 
-For **opptak** fra datamaskinen din er [Streamlabs] (https://streamlabs.com/fr-fr) gratis, funksjonsrikt og støtter sceneoverganger.
+For **opptak** fra datamaskinen din er [Streamlabs](https://streamlabs.com/fr-fr) gratis, funksjonsrikt og støtter sceneoverganger.
 
-For **videoredigering** er [Wondershare Filmora] (https://filmora.wondershare.fr/) (ca. 45 €/år) enkelt å bruke og gir raskt profesjonelle resultater.
+For **videoredigering** er [Wondershare Filmora](https://filmora.wondershare.fr/) (ca. 45 €/år) enkelt å bruke og gir raskt profesjonelle resultater.
 
 
 Du kan enkelt finne passende maler for introen og outroen til **videoen** på Canva. Tilpass designet etter din smak, last det ned og legg det til i redigeringsprogrammet ditt.
@@ -2255,19 +2255,19 @@ En lydpodkast er en annen flott måte å dele ideer på. I likhet med videokanal
 Populære podkastplattformer inkluderer:
 
 
-- [**Fountain**] (https://www.fountain.fm/), støtter Lightning-donasjoner.
-- [**Soundcloud**] (https://soundcloud.com/);
-- [**Deezer**] (https://www.deezer.com/fr/);
-- [**Spotify**] (https://open.spotify.com/);
-- [**Google podcast**] (https://podcasts.google.com/).
+- [**Fountain**](https://www.fountain.fm/), støtter Lightning-donasjoner.
+- [**Soundcloud**](https://soundcloud.com/);
+- [**Deezer**](https://www.deezer.com/fr/);
+- [**Spotify**](https://open.spotify.com/);
+- [**Google podcast**](https://podcasts.google.com/).
 
 
-Hver plattform har sitt eget publikum, så ved å være til stede på flere plattformer vil du nå bredere ut. **[Spotify for podcastere] (https://podcasters.spotify.com/) gjør dette enkelt ved å la deg laste opp podcasten din én gang og generate en RSS-feed for andre plattformer**.
+Hver plattform har sitt eget publikum, så ved å være til stede på flere plattformer vil du nå bredere ut. **[Spotify for podcastere](https://podcasters.spotify.com/) gjør dette enkelt ved å la deg laste opp podcasten din én gang og generate en RSS-feed for andre plattformer**.
 
 Så når arbeidet med "Spotify for Podcasters" er gjort, gjenstår det bare å formatere innholdet for de andre plattformene, en prosess som går relativt raskt.
 
 
-[Audacity] (https://www.audacityteam.org/) er gratis og lar deg justere lydnivåer, legge til effekter som fades og forbedre klarheten under redigering. Det er enkelt å spille inn stemmen din og lage en podkast av profesjonell kvalitet.
+[Audacity](https://www.audacityteam.org/) er gratis og lar deg justere lydnivåer, legge til effekter som fades og forbedre klarheten under redigering. Det er enkelt å spille inn stemmen din og lage en podkast av profesjonell kvalitet.
 
 
 Her er en kort 10-minutters veiledning som tar for seg det viktigste for å lage podkast med Audacity:
@@ -2300,7 +2300,7 @@ En annen, mer tradisjonell tilnærming er å be deltakerne på hvert arrangement
 Selv om det er litt formelt, kan dette bidra til at medlemmene lettere finner felles interesser og samtaleemner, og det gjør det også lettere for nykommere å få øye på arrangørene (eller de offisielle medlemmene av fellesskapet/foreningen).
 
 
-Flere av merkemalene som brukes av foreningen Bitcoin Lille er [tilgjengelig i åpen kildekode på Canva] (https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Flere av merkemalene som brukes av foreningen Bitcoin Lille er [tilgjengelig i åpen kildekode på Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2334,7 +2334,7 @@ Det er lurt å samarbeide med lokalsamfunnet for å etablere en klar prosedyre f
 
 En standard protokoll forhindrer også at noen, medlemmer eller gjester, utnytter situasjonen til å stjele penger.
 
-Dere kan danne en egen arbeidsgruppe for å definere denne prosessen. Foreningen Bitcoin Lille jobber allerede med et slikt [dokument] (https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), som de planlegger å publisere som åpen kildekode i løpet av de kommende månedene.
+Dere kan danne en egen arbeidsgruppe for å definere denne prosessen. Foreningen Bitcoin Lille jobber allerede med et slikt [dokument](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), som de planlegger å publisere som åpen kildekode i løpet av de kommende månedene.
 
 
 
@@ -2468,7 +2468,7 @@ Etter at de er om bord:
     - Ta en titt for å se om alt går som det skal.
     - Del kontaktinformasjonen din på nytt ved behov.
     - Inviter dem til møtene dine.
-    - Legg dem til på [btcmap.org-kartet] (https://btcmap.org/) og gi beskjed til [Swiss Bitcoin Pay] (https://x.com/swissbitcoinpay) på Twitter for å øke synligheten.
+    - Legg dem til på [btcmap.org-kartet](https://btcmap.org/) og gi beskjed til [Swiss Bitcoin Pay](https://x.com/swissbitcoinpay) på Twitter for å øke synligheten.
     - Vurder å arrangere workshops eller møter på stedet deres.
 
 
@@ -2501,7 +2501,7 @@ Canvassing er et langsiktig arbeid. Det krever tålmodighet, utholdenhet og stra
 Bitcoinere fokuserer ofte på sosiale medier og nettbaserte plattformer for å nå ut, men det er bare en del av bildet. Lokal presse og radio kan være mektige allierte.
 
 
-Noen lokalsamfunn, som [Breizh Bitcoin] (https://breizhbitcoin.com/) i Frankrike, **kontakter jevnlig sine lokale medier** for å
+Noen lokalsamfunn, som [Breizh Bitcoin](https://breizhbitcoin.com/) i Frankrike, **kontakter jevnlig sine lokale medier** for å
 
 
 - Kunngjør kommende arrangementer (møter, presentasjoner, workshops, Halving-fester osv.).
@@ -2516,7 +2516,7 @@ Denne strategien kan fungere bedre i visse områder enn i andre, men det er verd
 
 
 - [acpm.fr](https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale);
-- [voxpublic.org] (https://www.voxpublic.org/spip.php?page=annuaire&cat=medias&type_media=Presse%20quotidienne%20r%C3%A9gionale).
+- [voxpublic.org](https://www.voxpublic.org/spip.php?page=annuaire&cat=medias&type_media=Presse%20quotidienne%20r%C3%A9gionale).
 
 og ved å kontakte lokale radiostasjoner for å foreslå et intervju eller en podcastopptreden.
 
@@ -2657,7 +2657,7 @@ Løsningen: desentraliser oppgaver, roller og tilganger slik at gruppen kan fort
 
 **Hvordan fremme desentralisering ytterligere?**
 
-Ta i bruk **gratis programvare med åpen kildekode**, for eksempel [framasoft-pakken] (https://framasoft.org/fr/), for å redusere avhengigheten av sentraliserte plattformer og øke motstandsdyktigheten mot potensiell statlig sensur eller Bitcoin-forbud.
+Ta i bruk **gratis programvare med åpen kildekode**, for eksempel [framasoft-pakken](https://framasoft.org/fr/), for å redusere avhengigheten av sentraliserte plattformer og øke motstandsdyktigheten mot potensiell statlig sensur eller Bitcoin-forbud.
 
 Bruk **krypterte eller anonyme kommunikasjonsverktøy** for å beskytte medlemmenes personvern og fellesskapets aktiviteter.
 
@@ -2831,14 +2831,14 @@ Alene kan du raskt utforske en av de mange tunnelene i Bitcoin-kaninhullet. Men 
 
 
 
-## BTC302, Hva blir det neste?
+## BTC 304, Hva blir det neste?
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-I dette BTC302-kurset har vi gått i detalj på hvordan du setter opp et fellesskap eller et møte, samt hvordan du starter en rekke prosjekter.
+I dette BTC 304-kurset har vi gått i detalj på hvordan du setter opp et fellesskap eller et møte, samt hvordan du starter en rekke prosjekter.
 
 
 Når lokalsamfunnet er klart til å ta neste skritt, kan dere **opprette en formell forening**.
@@ -2853,11 +2853,9 @@ Fordelene er todelt:
 - **Strukturert organisasjon**: Du kan definere klare roller, noe som gjør det enklere å drive fellesskapet og gjennomføre prosjekter.
 
 
-For å hjelpe fellesskapet ditt til å vokse ytterligere, **en oppfølging av COMMU302-kurset**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+For å bidra til at fellesskapet deres kan blomstre enda mer, **er det ikke utelukket at en oppfølger til dette kurset kan bli lansert på [Plan ₿ Academy](https://planb.academy/) i de kommende månedene**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-kan bli utgitt på [planb.network](https://planb.academy/) i løpet av de kommende månedene.
 
 
 Den neste økten kan ta for seg avanserte temaer som for eksempel

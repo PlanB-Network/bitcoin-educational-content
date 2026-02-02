@@ -37,7 +37,7 @@ Detta första alternativ är idealiskt för nybörjare och är Alby Cloud-altern
 Den stora fördelen med det här alternativet är att du får en Lightning-nod som är igång 24/7 utan att behöva hantera hostingen själv. Dessutom är säkerhetskopiering av din Lightning-nod förenklad och automatiserad, jämfört med självhostade alternativ där du själv måste hantera säkerhetskopiering av kanaler.
 
 
-Alby Cloud är en betaltjänst [Kontrollera deras prissättning] (https://albyhub.com/#pricing) för mer information. Avgiften dras automatiskt från din Wallet via en Lightning Invoice utfärdad av Alby. Detta görs via en NWC-anslutning som konfigurerar din nod för att automatiskt betala Alby-fakturor relaterade till ditt abonnemang.
+Alby Cloud är en betaltjänst [Kontrollera deras prissättning](https://albyhub.com/#pricing) för mer information. Avgiften dras automatiskt från din Wallet via en Lightning Invoice utfärdad av Alby. Detta görs via en NWC-anslutning som konfigurerar din nod för att automatiskt betala Alby-fakturor relaterade till ditt abonnemang.
 
 
 
@@ -62,7 +62,7 @@ Det är också möjligt att installera Alby Hub direkt på datorn, men det är e
 - Alby Hub på en personlig server :**
 
 
-För avancerade användare kan Alby Hub distribueras på en personlig server med ett enkelt kommando. Detta alternativ behandlas inte i denna handledning, men du kan hitta dedikerade instruktioner [på Albys GitHub] (https://github.com/getAlby/hub?tab=readme-ov-file#docker).
+För avancerade användare kan Alby Hub distribueras på en personlig server med ett enkelt kommando. Detta alternativ behandlas inte i denna handledning, men du kan hitta dedikerade instruktioner [på Albys GitHub](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 
 
 Denna handledning fokuserar främst på Interface, som kommer att vara densamma oavsett vilket alternativ som väljs. Vi kommer också att titta på hur man distribuerar Alby Hub med det betalda molnalternativet och sedan med node-in-box-alternativet (Umbrel eller Start9).
@@ -71,7 +71,7 @@ Denna handledning fokuserar främst på Interface, som kommer att vara densamma 
 ![ALBY HUB](assets/fr/02.webp)
 
 
-För lokal installation på din PC, [ladda ner och installera programvaran enligt ditt operativsystem] (https://github.com/getAlby/hub/releases), följ sedan samma instruktioner som på Interface.
+För lokal installation på din PC, [ladda ner och installera programvaran enligt ditt operativsystem](https://github.com/getAlby/hub/releases), följ sedan samma instruktioner som på Interface.
 
 
 ![ALBY HUB](assets/fr/03.webp)
@@ -83,7 +83,7 @@ För lokal installation på din PC, [ladda ner och installera programvaran enlig
 Det första steget är att skapa ett Alby-konto. Även om detta inte är nödvändigt för att använda Alby Hub, gör det att du kan dra full nytta av de tillgängliga alternativen, inklusive möjligheten att få en Lightning Address.
 
 
-Gå till [den officiella Alby-webbplatsen] (https://getalby.com/) och klicka på knappen "*Create Account*".
+Gå till [den officiella Alby-webbplatsen](https://getalby.com/) och klicka på knappen "*Create Account*".
 
 
 ![ALBY HUB](assets/fr/04.webp)
@@ -250,7 +250,7 @@ För betalande molnanvändare kräver fullständig återställning av dina bitco
 Avsaknaden av någon av dessa två uppgifter skulle göra det omöjligt att återfå dina bitcoins i sin helhet.
 
 
-För dem som kör Alby Hub på sin egen enhet finns återställningsprocessen dokumenterad [här] (https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
+För dem som kör Alby Hub på sin egen enhet finns återställningsprocessen dokumenterad [här](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
 
 
 Om du installerade Alby Hub på en befintlig nod måste du följa återställningsprocessen för det specifika operativsystemet för noden. Ett exempel: Umbrel erbjuder [ett alternativ](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) för att kryptera den senaste statusen för dina Lightning-kanaler och spara den dynamiskt och anonymt via Tor. Tänk på att endast de automatiska säkerhetskopiorna från Alby låter dig återställa din Hub helt utan att stänga några kanaler.
@@ -405,14 +405,14 @@ För att installera Alby Go, gå till din enhets programbutik:
 
 
 
-- [För Android] (https://play.google.com/store/apps/details?id=com.getalby.mobile);
-- [För Apple] (https://apps.apple.com/us/app/alby-go/id6471335774).
+- [För Android](https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [För Apple](https://apps.apple.com/us/app/alby-go/id6471335774).
 
 
 ![ALBY HUB](assets/fr/44.webp)
 
 
-Android-användare kan också installera appen via filen `.apk` [tillgänglig på Albys GitHub] (https://github.com/getAlby/go/releases).
+Android-användare kan också installera appen via filen `.apk` [tillgänglig på Albys GitHub](https://github.com/getAlby/go/releases).
 
 
 ![ALBY HUB](assets/fr/45.webp)

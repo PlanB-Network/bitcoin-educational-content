@@ -300,7 +300,7 @@ Dodam więc słowo **contrib** do takich linijek.
 
 
 
-Pozostałe kroki są wymienione na stronie [NtopNG] (https://packages.ntop.org/apt/), gdzie dla Debiana 11 należy dodać źródła Ntop do przyszłej instalacji. Dodanie to jest zautomatyzowane poprzez użycie pliku:
+Pozostałe kroki są wymienione na stronie [NtopNG](https://packages.ntop.org/apt/), gdzie dla Debiana 11 należy dodać źródła Ntop do przyszłej instalacji. Dodanie to jest zautomatyzowane poprzez użycie pliku:
 
 
 

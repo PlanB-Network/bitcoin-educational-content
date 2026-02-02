@@ -1,5 +1,6 @@
 ---
-term: PODWÓJNE WYDATKI (ATAK)
+term: Podwójne wydatkowanie
+definition: Atak polegający na próbie wielokrotnego wydania tych samych bitcoinów w celu oszukania kontrahentów.
 ---
 
 Atak, w którym złośliwy użytkownik próbuje użyć tego samego UTXO (*Unspent Transaction Output*) więcej niż jeden raz, aby wzbogacić się kosztem stron zaangażowanych w transakcje. Zasadniczo, gdy transakcja zostanie potwierdzona w bloku i dodana do Blockchain, użycie tych bitcoinów jest trwale rejestrowane, zapobiegając dalszemu wydawaniu tych samych bitcoinów. Zapobieganie podwójnym wydatkom jest nawet podstawową użytecznością Blockchain.

@@ -1,0 +1,9 @@
+question: Vad måste en Lightning-nod ansluta till?
+answer: En Bitcoin-nod
+wrong_answers:
+  - En gruvarbetare
+  - En blockutforskare
+  - En federerad server
+explanation: |
+  Lightning-noden är beroende av en Bitcoin-nod för att få tillgång till information från huvudblockkedjan.
+reviewed: false

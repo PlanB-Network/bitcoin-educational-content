@@ -1,15 +1,15 @@
 ---
-name: Korrektuuri suunised
-description: Millised on olulised tegurid, mida tuleb Plan ₿ Academy korrektuuris silmas pidada?
+name: Korrektuuri juhised
+description: Millised on olulised tegurid, mida tuleb Plan ₿ Academy's korrektuuri tegemisel silmas pidada?
 ---
 
 ![github](assets/cover.webp)
 
 
-Tere tulemast selle õpetuse juurde, mis käsitleb **juhiseid, mida tuleb järgida Plan ₿ Academy sisu korrektuurimisel**. Meil on hea meel, et jagate meie missiooni tõlkida Bitcoin materjale võimalikult paljudesse keeltesse, et aidata inimestel saada teada, kuidas see toimib ja kuidas seda igapäevaelus kasutada.
+Tere tulemast selle õpetuse juurde, mis käsitleb **juhiseid, mida tuleb järgida Plan ₿ Akadeemia sisu korrektuurimisel**. Meil on hea meel, et jagate meie missiooni tõlkida Bitcoin materjale võimalikult paljudesse keeltesse, et aidata inimestel saada teada, kuidas see toimib ja kuidas seda oma igapäevaelus kasutada.
 
 
-Kõigepealt annab Plan ₿ Academy [avalik repositoorium] (https://github.com/PlanB-Network/Bitcoin-educational-content) panustamine teile võimaluse kirjutada õpetusi, parandada olemasolevat sisu või isegi teha ettepanekuid uue keele lisamiseks platvormile. Et rohkem teada saada, liitu kõigepealt meie [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) ja kirjuta lühike tutvustus enda ja keelte kohta, mida sa oskad.
+Kõigepealt annab teile Plan ₿ Academy [avalik repositoorium](https://github.com/PlanB-Network/bitcoin-educational-content) võimalus kirjutada õpetusi, parandada olemasolevat sisu või isegi teha ettepanekuid uue keele lisamiseks platvormile. Et rohkem teada saada, liitu kõigepealt meie [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) ja kirjuta lühike tutvustus enda ja keelte kohta, mida sa oskad.
 
 
 Käesolev juhendmaterjal on pühendatud kaastöötajatele, kes soovivad sisu korrigeerida. Enamik neist ei tea palju [Githubist](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ega [Markdown keelest](https://www.markdownguide.org/basic-syntax/), mida me repositooriumi sees kasutame, seega on oluline jagada mõningaid teadmisi selle ülesandega seotud võtmeteguritest.
@@ -18,7 +18,7 @@ Käesolev juhendmaterjal on pühendatud kaastöötajatele, kes soovivad sisu kor
 Allpool olen kogunud kokku kõige levinumad probleemid, millega korrektorid kokku puutuvad. Võite vabalt soovitada rohkem, sest see võib aidata teisi parandada.
 
 
-Enne spetsiifikatesse sukeldumist tuleks kõigepealt lugeda seda õpetust praktiliste tegevuste kohta Githubis, mida tuleb järgida Plan ₿ Academy repositooriumi hargnemise, muudatuste tegemise ja PR-i saatmise teel:
+Enne spetsiifikatesse sukeldumist tuleb kõigepealt lugeda seda õpetust Githubi praktiliste tegevuste kohta, mida tuleb järgida, forkides Plan ₿ Academy repositooriumi, tehes muudatusi ja saates PR-i:
 
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
@@ -33,18 +33,18 @@ Korrektuur on kirjaliku teksti lõplik läbivaatamine, mille käigus tuvastataks
 Seda tüüpi ülesannete lahendamisel on oluline järgida originaalkeele (EN või FR) tähendust, kuid veenduda, et tekst lõplikus keeles oleks emakeeleõppija jaoks võimalikult sujuv.
 
 
-Pidage alati meeles, et tõlkimine/korrektsioon on ÕPPE!
+Pidage alati meeles, et tõlkimine/kontrolltöö on ÕPPE!
 
 
 Tegelikult on meie ühine eesmärk harida võimalikult paljusid inimesi Bitcoin kohta, seega on oluline, et materjal, mida nad loevad, oleks sujuv ja selge.
 
-Selles mõttes on kõik Plan ₿ Academy-le kaasaaitajad haridustöötajad!
+Selles mõttes on kõik Plan ₿ Academy'sse panustajad haridustöötajad!
 
 
-## Esimesed sammud enne Plan ₿ Academy korrektuuri tegemist
+## Esimesed sammud enne korrektuuri tegemist Plan ₿ Akadeemias
 
 
-Enne uue korrektuuriülesande alustamist teatage sellest [Telegrammi grupis](https://t.me/PlanBNetwork_ContentBuilder) või teavitage sellest oma Plan ₿ Academy koordinaatorit, kes avab spetsiaalse [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). Kui saate teema lingi, lihtsalt **kommenteerige, et alustate** selle sisu korrektuuriülesandega.
+Enne uue korrektuuriülesande alustamist teatage sellest [Telegrammi grupis](https://t.me/PlanBNetwork_ContentBuilder) või teavitage oma kava ₿ Akadeemia koordinaatorit, kes avab selleks ettenähtud [teema](https://github.com/orgs/Plan ₿ Akadeemia/projektid/3). Kui saate küsimuse lingi, lihtsalt **kommenteerige, et alustate** selle sisu korrektuuriga.
 
 
 See süsteem aitab koordinaatoril jälgida repo sisemist arengut ja võimaldab korrektori poolt sisu "nõuda", vältides sellega kellegi teise topeltpüüdeid.
@@ -52,7 +52,7 @@ See süsteem aitab koordinaatoril jälgida repo sisemist arengut ja võimaldab k
 Teemal ise leiate lingid, mis suunavad teid sisu kontrollimiseks. Võite lihtsalt nendele klõpsata või, mis veelgi parem, võite minna tagasi oma enda forkeeritud repo juurde ja töötada otse sealt edasi. Vaatame, kuidas seda teha saab!
 
 
-Kõigepealt, **AJALGI ärge unustage oma repo SYNC-i, "dev" haru**. Nii on sisu alati uuendatud, enne kui alustate mis tahes tüüpi ülesannet, ja te ei tekita konflikte vana ja uue materjali vahel. Klõpsake kindlasti "Sync Fork" ja "Update branch".
+Kõigepealt, **AJALGI ärge unustage oma repo SYNC-i, "dev" haru**. Nii on sisu alati uuendatud, enne kui alustate mis tahes tüüpi ülesannet, ja te ei tekita konflikte vana ja uue materjali vahel. Klõpsake kindlasti "Sync fork" ja "Update branch".
 
 
 
@@ -94,24 +94,24 @@ Pärast selle uue haru loomist klõpsake seda kindlasti eelmisel lehel "Teie har
 ## Originaalkeel või tõlge?
 
 
-Kui teete sisu korrektuuri, siis on oluline **selle originaalversiooni inglise (või prantsuse)** alati kontrollida. Olge teadlik, et me tõlgime tehisintellekti keeletööriistade abil, seega ei pruugi sihtkeele esitus olla sujuv või lõpplugejale hästi arusaadav.
+Kui teete sisu korrektuuri, siis on oluline **selle originaalversiooni inglise (või prantsuse)** alati kontrollida. Pidage meeles, et me tõlgime tehisintellekti keeletööriistade abil, seega ei pruugi sihtkeele esitus olla sujuv või lõpplugejale hästi arusaadav.
 
 
 Seega võite vabalt teha tekstis kohandusi ja muuta vajadusel lauseid. Meie eesmärk on suurendada voolavust, kuid alati järgida algset tähendust. Kui teil tekib kahtlusi, kuidas mingit sõna käsitleda, küsige kindlasti tõlkekoordinaatorilt.
 
 
-LLM-vahendid võivad tõlkida mõned Bitcoinga seotud sõnad sõna-sõnalt, nagu Lightning Network. Eriti kehtib see juhul, kui tegemist on väga tehniliste sõnadega. Sellistel juhtudel on soovitav parema selguse huvides säilitada ingliskeelne originaalsõna sihtkeeles, välja arvatud juhul, kui teie keelereeglid nõuavad iga sõna tõlkimist.
+LLM-vahendid võivad tõlkida mõned Bitcoin-ga seotud sõnad sõna-sõnalt, nagu Lightning Network. Eriti kehtib see juhul, kui tegemist on väga tehniliste sõnadega. Sellistel juhtudel on soovitav parema selguse huvides säilitada ingliskeelne originaalsõna sihtkeeles, välja arvatud juhul, kui teie keelereeglid nõuavad iga sõna tõlkimist.
 
 
 Teisel juhul **uurige alati, kas keegi teine teie Bitcoin kogukonnas on selle sõna juba tõlkinud** ja kas seda sõna kasutatakse nüüd laialdaselt.
 
 
 
-- Üks lahendus võiks olla **kontroll [BitcoinWiki](https://en.Bitcoin.it/wiki/Main_Page)** sihtkeeles, et näha, kas sõna on tõlgitud või mitte. Kui ei ole, siis jätke sõna inglise keelde.
+- Üks lahendus võiks olla **kontroll [BitcoinWiki](https://en.bitcoin.it/wiki/Main_Page)** sihtkeeles, et näha, kas sõna on tõlgitud või mitte. Kui ei ole, siis jätke sõna inglise keelde.
 
 
 
-- Igal juhul oleks minu soovitus **lisada EN-sõna siiski**, lisades sihtkeele vastava tähenduse ümmarguste sulgude sees, järgides skeemi EN (LANG), või vastupidi. Ex. Address (indirizzo) või indirizzo (Address).
+- Igal juhul oleks minu soovitus **lisada EN-sõna siiski**, lisades sihtkeele vastava tähenduse ümmarguste sulgude sees, järgides skeemi EN (LANG), või vastupidi. Ex. Address (indirizzo) või indirizzo (aadress).
 
 
 
@@ -131,14 +131,14 @@ Lõpptulemusena (pilt allpool) ei visualiseerita kogu linki ja sõna muutub klik
 
 
 
-Pange tähele, et sõnastiku link, mille võtate veebilehelt, sisaldab keelekoodi pärast sõna "network" (näide: ``https://planb.academy/en/resources/glossary/utxo``-> siin on keelekood "en"). Sellisel juhul **kustutage lingilt keelekood**, nagu näete ülalpool toodud kastis. Nii viib süsteem lugeja automaatselt tema määratud keelde.
+Pange tähele, et sõnastiku link, mille võtate veebilehelt, sisaldab keelekoodi pärast sõna "network" (näide: ``https://planb.academy/en/resources/glossary/utxo``-> siin on keelekood "en"). Sellisel juhul **kustutage lingilt keelekood**, nagu nägite ülalpool toodud kastis. Nii viib süsteem lugeja automaatselt tema määratud keelde.
 
 
 Hoiukoha sisu on täis selliseid hüperlinke nagu eespool kirjeldatud. Nüüd, kui te teate, mida need tähendavad, **jälgige, et mitte kustutada ühtegi algse autori poolt lisatud linki**.
 
 
 
-- Teine asi, mis on seotud sõnade esitamisega, on järgmine. Kui te leiate tekstis sõna "Plan ₿ Academy", **jätke see sellisel kujul**. Ärge tõlkige sõna "plaan" ega sõna "võrk". Peale selle ärge kasutage Plan ₿ Academy tutvustamisel artiklit "The": **Käsitlege seda kui kaubamärki**.
+- Teine asi, mis on seotud sõnade esitamisega, on järgmine. Kui te leiate tekstis sõna "Plan ₿ Academy", **jätke see sellisel kujul**. Ärge tõlkige sõna "plaan" ega sõna "võrk". Peale selle EI kasuta artiklit "The", kui esitled Plan ₿ Academy: **Käsitlege seda kui kaubamärki**.
 
 
 
@@ -148,17 +148,17 @@ Hoiukoha sisu on täis selliseid hüperlinke nagu eespool kirjeldatud. Nüüd, k
 Üks viimane märkus selle lõigu juurde: nagu eespool öeldud, kasutame sisu tõlkimiseks tehisintellekti vahendeid ja seejärel palume kaastöötajate sekkumist, et kõik oleks sujuv ja hästi korrektuuritud.
 
 
-Kui te kasutate tehisintellekti enamiku teksti korrektuuriks, märkame seda kindlasti, sest oleme tuttavad tüüpiliste lausekonstruktsioonidega, mida tehisintellekt genereerib. Kui me avastame, et tuginesite korrektuuris ainult tehisintellektile, ilma et oleksite teinud olulisi muudatusi, võib Sats lõplik tasu väheneda poole võrra!
+Kui te kasutate tehisintellekti enamiku teksti korrektuuriks, märkame seda kindlasti, sest oleme tuttavad tüüpiliste lausekonstruktsioonidega, mida tehisintellekt genereerib. Kui me avastame, et te tuginesite korrektuuris ainult tehisintellektile, ilma et oleksite teinud olulisi muudatusi, võib sats lõplik tasu väheneda poole võrra!
 
 
 
 ## Pealkirjade struktuur
 
 
-Markdown-keeles algavad pealkirjad (ja lõike pealkirjad) kõik Hash märgiga ``#``. Hash märkide arv vastab pealkirja tasemele. Näiteks on kolmanda taseme pealkirjal kolm numbrimärki enne teksti (nt `### Minu pealkiri`).
+Markdown-keeles algavad pealkirjad (ja lõike pealkirjad) kõik hash-märgiga ``#``. Räägimärkide arv vastab pealkirja tasemele. Näiteks on kolmanda tasandi pealkirjal kolm numbrimärki enne teksti (nt `### Minu pealkiri`).
 
 
-Kursustel tutvustatakse kõige olulisemaid osi ühe Hash märgiga, samas kui allosad võivad olla kahest kuni nelja Hash märgiga. Õpikutes kasutame tavaliselt ainult kahe Hash märgiga pealkirju.
+Kursustel tutvustatakse kõige olulisemaid osi ühe hash-märgiga, samas kui allosad võivad olla kahest kuni nelja hash-märgiga. Õpikutes kasutame tavaliselt ainult kahe hash-märgiga pealkirju.
 
 
 
@@ -166,7 +166,7 @@ Kursustel tutvustatakse kõige olulisemaid osi ühe Hash märgiga, samas kui all
 
 
 
-Veenduge, et **KUNAGI ei kustutata Hash märke** enne pealkirja, sest muidu tekitab see probleeme teksti struktuuriga.
+Veenduge, et **KUNAGI ei kustutata hash-märke** enne pealkirja, sest muidu tekitab see probleeme teksti struktuuriga.
 
 
 Samal ajal, **ei tohi muuta** chapterID osa, mida näete ülaloleval pildil, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` või videoviiteid nagu ``::::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8b8cc8::::``.
@@ -197,8 +197,45 @@ Hoidke selles samas esialgses osas formaat nii, nagu see on. Ärge lisage teksti
 ![REVIEW](assets/en/8.webp)
 
 
+## Kuidas käituda kursuse piltidega
 
-## Soovitused vormingu kohta
+
+Meie kodulehel on nüüd peaaegu iga kursuse kohta tõlgitud pildid!
+
+
+Kontrollige alati, kas kõik pildid on olemas ja korrektselt kuvatud. Kui te leiate `koodi vaates` sellist rida `![PILT](assets/en/001.webp)`, tähendab see, et seal kuvatakse pilti.
+
+
+Veenduge, et lisate alati uue rea pildikoodi ja teksti vahele. Näide allpool:
+
+
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
+
+
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
+
+
+
+Peale selle ärge unustage lugeda iga pildi sisu. Kui märkate, et piltide sees oleva teksti tõlkimisega on probleeme, teatage sellest oma koordinaatorile ja saate võimaluse neid ka korrektuurida!
+
+
+Saate pilti visualiseerida Githubi jaotises `Preview` (või meie veebisaidil, avage teises vahekaardis). Seejärel tulge tagasi selle kõrval asuvasse `koodi` sektsiooni, et seda kontrollida.
+
+
+![REVIEW](assets/en/9.webp)
+
+
+## Soovitused formaadi kohta
 
 
 Allpool on toodud mõned näited vorminguprobleemide kohta, millele sihtkeeles sisu korrektuurimisel tähelepanu pöörata.
@@ -209,7 +246,7 @@ Allpool on toodud mõned näited vorminguprobleemide kohta, millele sihtkeeles s
 
 
 
-![REVIEW](assets/en/9.webp)
+![REVIEW](assets/en/10.webp)
 
 
 
@@ -217,7 +254,7 @@ Seega kontrollige alati ingliskeelset originaalteksti, et näha, kas rasvane tek
 
 
 
-![REVIEW](assets/en/10.webp)
+![REVIEW](assets/en/11.webp)
 
 
 
@@ -232,7 +269,48 @@ Kontrollige kindlasti originaalkeele faili (sageli EN või FR), et näha, kus ne
 
 
 
-![REVIEW](assets/en/11.webp)
+![REVIEW](assets/en/12.webp)
+
+
+
+
+## Õppeprogrammide korrektuur
+
+
+Kui otsustate juhendmaterjale korrektuurida, avab koordinaator spetsiaalse teema **täieliku juhendmaterjali rubriigi** jaoks. Kui olete oma ülesande täitnud, saate dokumenteerida oma edusammud, kommenteerides teemat koos läbivaadatud õpetuste loeteluga: sel viisil saate luua selge jälgimissüsteemi edaspidiseks, mis on oluline, sest uut sisu lisatakse iga kuu. Näite sellise lähenemisviisi kohta näete [siin](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Kuna igakuiselt lisatakse uusi juhendmaterjale, võib teie haru korrektuuri käigus vananeda. Mõned korrektorid on sellele probleemile lähenenud, sünkroniseerides täpselt haru, kus nad töötavad: **paluks seda mitte kunagi teha! Kui te seda teete, siis riskite kaotada kõik selle hetkeni tehtud edusammud!**
+
+
+Selle asemel peaksite kõigepealt lõpetama oma praeguse fork juhendmaterjalide korrektuuri. Seejärel **sünkroniseerige `dev`** ja looge uus haru, kus keskendute äsja lisatud õpetuste (ainult eelmisest harust puuduolevate) korrektuurile.
+
+
+Õpikutes on võimalus, et **pildid jäävad tõlkimata**. Kuna enamik õpetusi on **algupäraselt kirjutatud prantsuse või inglise keeles**, leiate tõenäoliselt pilte, mis sisaldavad käske või juhiseid originaalkeeles. Võtame näite hollandikeelsest õpetusest Sparrow, teatades nii teksti kui ka sellega seotud pildi.
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+
+![REVIEW](assets/en/14.webp)
+
+
+Nagu näete, viitab pilt selgelt `Public Server`, inglise keeles, samas kui tekstis on mainitud väljend `_Publieke server_`. Sellisel juhul on tegemist sidususe probleemiga, sest lugeja leiab pildi ja teksti vastandamisel vastuolulist teavet.
+
+
+Selle probleemi lahendamiseks võite sisestada käsu nii, nagu see on pildil (inglise või prantsuse keeles), millele järgneb sulgudes teie keele tõlge , nagu allpool näidatud:
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
+
+
 
 ## Viktoriini korrektuur
 
@@ -243,17 +321,17 @@ Kas teadsite, et saate ka viktoriiniküsimusi igas kursuses parandada? Näiteks 
 Veenduge veel kord, et olete spetsiaalselt selleks otstarbeks avatud filiaalis ja teavitage alati koordinaatorit.
 
 
-Oluline on seda tüüpi _yml_-faili korrektuuris meeles pidada, et vältida koolonite ``:`` lisamist teksti sees. Tegelikult kasutatakse koolonit **ainult** selleks, et eraldada võtmeväärtuspaare nagu "wrong_answers" ülejäänud võtmeväärtustest. Näite näete alloleval pildil:
+Oluline on seda tüüpi _yml_ faili korrektuuris meeles pidada, et vältida koolonite ``:`` või jutumärkide lisamist teksti sees. Tegelikult kasutatakse koolonit **ainult** selleks, et eraldada võtmeväärtuspaare nagu "wrong_answers" teistest. Näite näete alloleval pildil:
 
 
-![REVIEW](assets/en/12.webp)
+![REVIEW](assets/en/15.webp)
 
 
-Pärast küsimuse läbivaatamist veenduge, et te muudaksite "läbivaadatud" staatuse "vale" asemel "tõeseks", nagu on näidatud alloleval pildil. Veenduge, et need staatussõnad oleksid inglise keeles, olenemata sellest, mis keeles te töötate!
+Pärast küsimuse läbivaatamist veenduge, et te muudate "läbivaadatud" staatuse "vale" asemel "tõeseks", nagu on näidatud alloleval pildil. Veenduge, et **hoidke need staatussõnad inglise keeles**, olenemata sellest, mis keeles te töötate!
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/16.webp)
 
 
 Kui staatuse rida "reviewed:true" puudub, siis veenduge, et **lisate selle viktoriini lõppu**.
@@ -273,7 +351,8 @@ Kui pealkiri on jäetud inglise keelde, võite kohandada lause oma keelele: "Sua
 Lisaks kirjutage pealkirjad kindlasti suurtähtedega.
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/17.webp)
+
 
 
 ## Teie PR-i pealkiri ja kirjeldus
@@ -287,9 +366,9 @@ Kui sa saadad oma PR-i, oleks hämmastav, kui sa nimetaksid selle sellisel kujul
 ```
 
 
-Peale selle võite **PR** kommentaaride lahtrisse kirjutada "sulgeb" + selle teema number, mille koordinaator saatis teile, kui alustasite korrektuuritööd, mille ees on ``#``.
+Peale selle võite PR** kommentaaride lahtrisse kirjutada "sulgeb" + selle teema number, mille koordinaator saatis teile, kui alustasite korrektuuritööd, mille ees on ``#``.
 
-Näiteks kui sa just saatsid PR-i koos cyp201 + viktoriinide korrektuuriga, võid kirjutada "sulgeb [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+Näiteks kui sa just saatsid PR-i koos cyp201 + viktoriinide korrektuuriga, võid kirjutada "sulgeb [#2934](https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)".
 
 
 Nii on PR ja probleem omavahel seotud ja kes iganes loeb avalikku Githubi repositooriumi, saab hõlpsasti teavet leida.
@@ -304,61 +383,43 @@ Nii on PR ja probleem omavahel seotud ja kes iganes loeb avalikku Githubi reposi
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/18.webp)
 
 
 
 Kui kasutate funktsiooni "Asenda kõik", on oluline kontrollida tulemusi kaks korda, et veenduda, et ka linke ei ole muudetud. Näiteks kui soovite muuta sõna "Bitcoin" sõnaks "Bitkoin" (mis võib mõnes keeles olla vajalik), saate funktsiooni "replace all" abil tõhusalt uuendada kõiki tekstis olevaid juhtumeid. Kuid pidage meeles, et see tööriist muudab ka kõiki seda sõna sisaldavaid linke, mis võib põhjustada ümbersuunamisprobleeme.
 
 
-Allpool toodud näites kasutas korrektor ülaltoodud funktsiooni, et asendada "Satoshi" sõnaga "Satoshi(Sats)", ning muutis ka lingi, mis sisaldab seda sõna ise. Selle tulemusena muutus link kehtetuks.
+Alljärgnevas näites kasutas korrektor ülaltoodud funktsiooni, et asendada "satoshi" sõnaga "satoshi(sats)", ning muutis ka lingi, mis sisaldab seda sõna ise. Selle tulemusena muutus link kehtetuks.
 
 
 Kontrollige alati kahekordselt kõiki tekstis olevaid hüperlinke, et veenduda, et need on õiged.
 
 
 
-![REVIEW](assets/en/16.webp)
+![REVIEW](assets/en/19.webp)
 
 
 
 
-- Kui autor lisab teemale järgneva lingi, mis viitab Plan ₿ Academy kursusele või õpetusele (**ei** sulgudes), loob veebisait automaatselt "kaardi", mis näitab seotud pisipilti. Sellest tulenevalt veenduge alati, et **lisate teksti ja lingi enda vahele uue rea**, vastasel juhul võib veebisaidil ilmneda järgmine viga.
+- Kui autor lisab teemale järgides lingi, mis viitab Plan ₿ Academy kursusele või õpetusele (**ei** sulgudes), loob veebileht automaatselt "kaardi", mis näitab seotud pisipilti. Selle tulemusena veenduge alati, et **lisate teksti ja lingi enda vahele uue rea**, vastasel juhul võib veebilehel ilmneda järgmine viga.
 
 
 
-![REVIEW](assets/en/17.webp)
+![REVIEW](assets/en/20.webp)
 
-
-Sama juhtub ka "pildikoodidega", nagu see ``[IMAGE](asset/fr/001.webp)``: veenduge, et lisate alati uue rea pildikoodi ja teksti vahele. Näide allpool:
-
-
-```
-WRONG CONFIGURATION:
-- to start translating, click on the button `Translate`: ![language](assets/08.webp)
-To save, click on `save`!
-
-
-RIGHT CONFIGURATION:
-
-- to start translating, click on the button `Translate`:
-
-![language](assets/08.webp)
-
-To save, click on `save`!
-```
 
 
 ## Kokkuvõte
 
 
-Kokkuvõtteks võib öelda, et kui olete teadlik tavalistest korrektuurivigadest, aitab see teil tõesti parandada oma oskusi sisu kontrollimisel. Lihtne on jätta tähelepanuta selliseid asju nagu kontekst või järjepidevus ning nende vigade avastamine võib teha suurt vahet.
+Kokkuvõtteks võib öelda, et kui olete teadlik tavalistest korrektuurivigadest, aitab see teil tõesti parandada oma oskusi sisu kontrollimisel. On lihtne jätta tähelepanuta selliseid asju nagu kontekst või järjepidevus ning nende vigade avastamine võib teha suurt vahet.
 
 
-Pidage alati meeles, et algaja võib neid kursusi ja õpetusi lugeda, seega on meie kohustus tagada, et nad saaksid sellest täielikult aru. Korrektorina oled sa õpetaja!
+Pidage alati meeles, et algaja võib neid kursusi ja õpetusi lugeda, seega on meie kohustus tagada, et nad saaksid sellest täielikult aru. **Korrektorina oled sa õpetaja!**
 
 
-Nüüd olete valmis alustama kursuste, õppematerjalide, viktoriinide ja sõnastiku sõnade korrektuuriga. Jääge kursis, et alustada ka piltide ja videote transkriptsioonide kontrollimist ;)
+Nüüd olete valmis alustama kursuste, õppematerjalide, viktoriinide ja sõnastiku sõnade korrektuuriga. Jääge kursis, et alustada ka videote transkriptsioonide kontrollimist!
 
 
 Aitäh, et lugesid selle õpetuse läbi, ja nautige oma korrektuuri teekonda!

@@ -1,0 +1,8 @@
+question: Kriptografik işlemlerde verimli modüler üs alma işlemi gerçekleştirmek için özellikle hangi Python işlevinden bahsedilir?
+answer: pow(base, exp, mod)
+wrong_answers:
+  - mod(base, exp, prime)
+  - exp(base, mod, field)
+  - mult(base, exp, modulo)
+explanation: |
+  Python'un yerleşik pow(base, exp, mod) fonksiyonu, büyük üsler içeren kriptografik işlemler için çok önemli olan verimli modüler üs alma işlemi için özel olarak tasarlanmıştır. Bu fonksiyon, önce base^exp'nin potansiyel olarak muazzam ara sonucunu hesaplamak zorunda kalmadan (base^exp) mod mod'u hesaplamak için optimize edilmiş algoritmalar kullanır. Diğer seçenekler geçerli Python fonksiyonları değildir - mod(), exp() ve mult() bu parametre modelleriyle Python'un standart kütüphanesinde kriptografik modüler aritmetik için mevcut değildir.

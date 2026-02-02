@@ -1,0 +1,8 @@
+question: Ni itandukaniro irihe rikomeye hagati y’ingene ukurenga ku mategeko y’inguzanyo gufatwa n’ibiharuro vya Rust bisanzwe n’ivya RefCell?
+answer: Ivyerekeye ubudasiba bitera amakosa mu gihe co gukoranya mu gihe RefCell itera ubwoba bw'igihe co gukora
+wrong_answers:
+  - Ivyerekeye ubudasiba bitera ubwoba igihe co gukora mu gihe RefCell itera amakosa y'igihe co gukoranya
+  - Ivyerekeye ibisobanuro bihoraho vyemeza inguzanyo nyinshi zihinduka mu gihe RefCell itegeka gushika ku gihinduka kimwe
+  - Ivyerekeye ibisobanuro bihoraho bisaba ibisobanuro vy'ubuzima bwose mu gihe RefCell ikoresha ugusukura kwikora
+explanation: |
+  RefCell ihindura itegeko ry'inguzanyo rya Rust kuva ku gihe co gukoranya gushika ku gihe co gukora. Mu gihe umukozi asuzuma mu buryo butahinduka ibisobanuro bihoraho kandi akabuza ukurenga ku mategeko y’inguzanyo imbere y’uko porogarama ikora, RefCell irakora ivyo bipimo nyene vy’umutekano mu gihe porogarama iriko irashirwa mu ngiro. Ivyo bituma RefCell ishobora guca ku ruhande rw’amategeko y’umukozi w’ivy’ubuhinga mu bihe aho umuhinga mu vy’ubuhinga azi ko kode itekanye, ariko ukurenga ku mategeko bituma haba ubwoba bw’igihe c’ugukora aho gutuma ivy’ubuhinga bibura.

@@ -1,0 +1,8 @@
+question: Que mecanismo o Rust usa para limpar automaticamente as variáveis e seus recursos quando elas saem do escopo?
+answer: O mecanismo de abandono que chama funções de abandono em variáveis
+wrong_answers:
+  - Um coletor de lixo que procura periodicamente por memória não utilizada
+  - Desalocação manual de memória através de chamadas explícitas à função free()
+  - Contagem de referências que regista o número de apontadores que referenciam cada valor
+explanation: |
+  O Rust usa o mecanismo de drop para limpar automaticamente os recursos quando as variáveis saem do escopo. Este sistema chama implicitamente uma função drop em cada variável à medida que esta sai do âmbito, marcando a memória como disponível para reutilização e executando quaisquer operações de limpeza necessárias, como o fecho de manipuladores de ficheiros. Esta abordagem, emprestada do padrão RAII do C++, assegura a gestão automática de recursos sem necessitar de recolha de lixo, gestão manual de memória ou sistemas de contagem de referências utilizados por outras linguagens.

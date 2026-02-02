@@ -1,6 +1,7 @@
 ---
-term: COINBASE (TRANSAKCE)
+term: Coinbase transakce
 
+definition: První transakce v bloku vytvořená těžařem pro přijetí odměny za blok a subvence.
 ---
 Transakce coinbase je speciální a jedinečná transakce, která je součástí každého bloku blockchainu bitcoinu. Představuje první transakci bloku a je vytvořena těžařem, který úspěšně nalezl hlavičku potvrzující důkaz práce (*Proof-of-Work*), tj. menší nebo rovnou cíli.
 
@@ -8,4 +9,3 @@ Transakce na coinbase slouží především ke dvěma účelům: k udělení blo
 
 Transakce na coinbase se od běžných transakcí liší několika způsoby. Zaprvé nemá vstup, což znamená, že se při ní nespotřebovává žádný existující výstup transakce (UTXO). Dále podpisový skript (`scriptSig`) transakce coinbase obvykle obsahuje libovolné pole umožňující začlenění dalších údajů, jako jsou vlastní zprávy nebo informace o verzi těžebního softwaru. A konečně, bitcoiny vygenerované transakcí coinbase podléhají době splatnosti 100 bloků (101 potvrzení), než je lze utratit, aby se zabránilo případnému utracení neexistujících bitcoinů v případě reorganizace řetězce.
 
-> ► *Ve francouzštině neexistuje žádný překlad slova "Coinbase". Proto je přijatelné používat tento termín přímo.*

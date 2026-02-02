@@ -1,0 +1,8 @@
+question: Ni iyihe nzira y'amajambo yoshobora guhura neza na zero canke amajambo menshi atandukanijwe n'ibimenyetso mu macro imeze nk'ibikorwa?
+answer: $($x:isobanuro),*
+wrong_answers:
+  - $($x:gusobanura)*,
+  - $[x:insobanuro],*
+  - ${$x:gusobanura},*
+explanation: |
+  Inyuguti ibereye $($x:expr),* ikoresha uburyo bwo gusubiramwo bwa Rust aho ikimenyetso c'idolari kizana umugwi w'isubiramwo, $x:expr ihuza imvugo yose n'ikimenyetso c'igice ca expr, akarongo gakora nk'igitandukanya hagati y'imvugo, kandi akamenyetso k'inyenyeri (*) kerekana zero canke more. Inyishu zitari zo zirimwo amakosa y’inyuguti: $($x:expr)*, ishira akarongo hanze y’umugwi w’isubiramwo, $[x:expr],* ikoresha amabara y’inzira aho gukoresha amabara y’inzira kandi ikareka ikimenyetso c’idolari imbere ya x, na ${$x:expr},* ikoresha inzira y’inzira y’inzira y’inzira y’inzira.

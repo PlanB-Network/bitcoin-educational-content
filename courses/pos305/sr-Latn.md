@@ -1,31 +1,18 @@
 ---
-name: Bitcoin i BTC Pay Server
-goal: Instalirajte BTC Pay Server za vaše poslovanje
-objectives: 
-
-  - Razumeti šta je BTC Pay Server.
-  - Samostalno hostujte i konfigurišite BTC Pay Server.
-  - Koristite BTC Pay Server u svom svakodnevnom poslovanju.
-
+name: Ovladavanje BTC Pay Server-om
+goal: Konfigurisati BTC Pay Server instancu za lokalni biznis
+objectives:
+- Razumeti osnove uloge BTCPay Servera u obradi plaćanja
+- Ovladati unutrašnjim funkcionisanjem procesa konfiguracije BTCPay Servera
+- Implementirati BTCPay Server u cloud i node-baziranim okruženjima
+- Postati BTC Pay Server operator
 ---
+# Put ka finansijskoj suverenosti
 
-# Bitcoin i BTCPay Server
+Poverenje je krhko, posebno kada je u pitanju novac. Ovaj uvodni kurs vas vodi kroz BTCPay Server, moćan alat koji vam omogućava da prihvatate Bitcoin uplate bez oslanjanja na treće strane. Naučićete osnove postajanja BTCPay Server operatera
 
-
-Ovo je uvodni kurs o BTCPay Server Operatoru koji su napisali Alekos i Bas, a koji su u Plan ₿ format kursa prilagodili melontwist i asi0.
-
-
-NEZAVRŠENA PRIČA
-
-
-"Ovo su laži, moje poverenje u tebe je slomljeno, učiniću te zastarelim."
-
-
-Proizvedeno od strane BTCPay Server Foundation
-
-
+Kreirali Alekos i Bas, a adaptirali melontwist i asi0, ovaj kurs otkriva kako pojedinci i preduzeća grade alternative tradicionalnim sistemima plaćanja. Bilo da ste radoznali o Bitcoinu ili spremni da upravljate platnom infrastrukturom za preduzeća, otkrijete praktične veštine koje izazivaju status quo. Spremni da istražite kako zaista izgleda finansijska nezavisnost?
 +++
-
 # Uvod
 
 
@@ -737,14 +724,15 @@ BTCPay Server se sastoji od sledećih standardnih funkcija novčanika:
 Administratori mogu videti dolazne i odlazne transakcije za On-Chain novčanik povezane sa ovom specifičnom prodavnicom u prikazu transakcija. Svaka transakcija ima razliku između primljenih i poslatih iznosa. Primljene će biti označene zelenom bojom, a odlazne transakcije će biti crvene. U okviru prikaza transakcija na BTCPay Server-u, administratori će takođe videti skup standardnih oznaka.
 
 
-| Tip transakcije  | Opis                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Uplata je primljena putem fakture kreirane u aplikaciji |
-| invoice          | Uplata je primljena putem fakture                    |
-| payjoin          | Plaćanje još nije obavljeno – vreme za uplatu još uvek traje        |
-| payjoin-exposed  | UTXO je otkriven putem Payjoin predloga u fakturi |
-| payment-request  | Uplata je primljena putem zahteva za plaćanje       |
-| payout           | Isplata je izvršena putem isplate ili povraćaja novca          |
+
+| Tip transakcije | Opis                                             |
+| ---------------- | ------------------------------------------------ |
+| Aplikacija       | Plaćanje je primljeno putem fakture kreirane od strane aplikacije |
+| Faktura          | Plaćanje je primljeno putem fakture              |
+| Payjoin          | Nije plaćeno, tajmer fakture još uvek nije istekao |
+| Payjoin-otkriven | UTXO je otkriven putem payjoin predloga u fakturi |
+| Zahtev za plaćanje | Plaćanje je primljeno putem zahteva za plaćanje |
+| Isplata          | Plaćanje je poslato putem isplate ili povraćaja  |
 
 ### Kako poslati
 
@@ -1817,28 +1805,30 @@ Svaka vrsta dolazi sa svojim parametrima za popunjavanje. Vlasnik prodavnice mo�
 BTCPay Server takođe omogućava kreiranje obrazaca u kodu. Posebno u JSON formatu. Umesto da gledaju u editor, vlasnici prodavnica mogu kliknuti na dugme CODE odmah pored editora i ući u kod svojih obrazaca. U definiciji polja, mogu se postaviti samo sledeća polja; vrednosti polja se čuvaju u metapodacima fakture:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Polje | Opis |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | Ako je podešeno na tačno (true), vrednost polja .value mora biti definisana u definiciji forme, a korisnik neće moći da menja vrednost tog polja.(primer: verzija definicije forme)                                                                                                                                                                                                                                                                                 |
-| .fields.type          | HTML tipovi input polja su: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel.                                                                                                                                                                                                                                                                                               |
-| .fields.options       | Ako je .fields.type postavljeno na select, to predstavlja listu dostupnih opcija za izbor                                                                                                                                                                                                                                                                                                                                                                          |
-| .fields.options.text  | Tekst koji se prikazuje za ovu opciju                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | Vrednost polja ako je ova opcija izabrana.                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Kreirajte HTML fieldset oko podređenih polja .fields.fields (pogledajte dole).                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.name          | Naziv JSON svojstva polja kako će se pojaviti u metapodacima fakture.                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | Podrazumevana vrednost polja                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | Ako je tačno (true), polje će biti obavezno.                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| .fields.label         | Oznaka polja                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Dodatni tekst koji pruža objašnjenje za polje.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | Možete organizovati svoja polja u hijerarhiju, omogućavajući da podređena polja budu ugnježdena unutar metapodataka fakture. Ova struktura vam može pomoći da bolje organizujete i upravljate prikupljenim informacijama, olakšavajući pristup i tumačenje podataka. Na primer, ako imate formu koja prikuplja informacije o kupcu, možete grupisati polja pod glavnim poljem nazvanim „kupac“. Unutar ovog glavnog polja mogu se nalaziti podređena polja kao što su ime, e-pošta i adresa. |
+| .fields.constant | Ako je true, .value mora biti postavljeno u definiciji obrasca, a korisnik neće moći da promeni vrednost polja. (primer: verzija definicije obrasca) |
+| .fields.type | HTML tip unosa: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Ako je .fields.type select, lista vrednosti koje se mogu izabrati |
+| .fields.options.text | Tekst koji se prikazuje za ovu opciju |
+| .fields.options.value | Vrednost polja ako je ova opcija izabrana |
+| .fields.type=fieldset | Kreiraj HTML fieldset oko podređenih .fields.fields (vidi ispod) |
+| .fields.name | Naziv JSON svojstva polja onako kako će se pojaviti u metapodacima fakture |
+| .fields.value | Podrazumevana vrednost polja |
+| .fields.required | ako je true, polje će biti obavezno |
+| .fields.label | Oznaka polja |
+| .fields.helpText | Dodatni tekst koji pruža objašnjenje za polje. |
+| .fields.fields | Možete organizovati polja u hijerarhiju, omogućavajući podređenim poljima da budu ugnežđena unutar metapodataka fakture. Ova struktura vam može pomoći da bolje organizujete i upravljate prikupljenim informacijama, olakšavajući im pristup i interpretaciju. Na primer, ako imate obrazac koji prikuplja informacije o klijentima, polja možete grupisati pod nadređenim poljem pod nazivom customer. Unutar ovog nadređenog polja možete imati podređena polja kao što su name, Email i address. |
 
 Naziv polja predstavlja naziv JSON svojstva koje čuva vrednost koju je korisnik uneo u metapodacima fakture. Neka dobro poznata imena mogu se interpretirati i modifikovati postavke fakture.
 
 
-| Naziv polja      | Opis                   |
+
+| Naziv polja      | Opis                  |
 | ---------------- | ---------------------- |
-| invoice_amount   | Iznos fakture          |
-| invoice_currency | Valura fakture         |
+| invoice_amount   | Iznos fakture         |
+| invoice_currency | Valuta fakture        |
 
 Možete unapred popuniti polja fakture automatski dodavanjem niza upita u URL obrasca, kao što je "?your_field=value".
 
@@ -2093,7 +2083,7 @@ Administratori servera mogu otvoriti više detalja da vide;
 #### LND (REST)
 
 
-BTCPay daje pristup REST usluzi LND za spoljašnju upotrebu; informacije o povezivanju možete pronaći ovde; kompatibilni novčanici su navedeni ovde. Među kompatibilnim novčanicima su Joule, Alby i ZeusLN. BTCPay Server daje QR kod za povezivanje, skenirajte i primenite u kompatibilnom novčaniku.
+BTCPay daje pristup REST usluzi LND za spoljašnju upotrebu; informacije o povezivanju možete pronaći [ovde]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); kompatibilni novčanici su navedeni [ovde](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Među kompatibilnim novčanicima su Joule, Alby i ZeusLN. BTCPay Server daje QR kod za povezivanje, skenirajte i primenite u kompatibilnom novčaniku.
 
 
 
@@ -2287,7 +2277,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logovi za    | Naziv kontejnera                  |
+
+| Logovi za     | Naziv kontejnera                   |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2477,21 +2468,22 @@ Osim ako ne koristite ugrađeni [novčanik](https://docs.btcpayserver.org/Wallet
 Tabela ispod navodi i opisuje standardne statuse faktura u BTCPay-u i predlaže uobičajene akcije. Akcije su samo preporuke. Na korisnicima je da definišu najbolji tok akcije za njihov slučaj upotrebe i poslovanje.
 
 
-| Status fakture             | Opis                                                                                                                             | Akcija                                                                                                                      |
+
+| Status fakture | Opis | Akcija |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Nije plaćeno, tajmer fakture još uvek nije istekao.                                                                                           | Nije potrebna                                                                                                                        |
-| New (paidPartial)          | Plaćeno, ali ne u celosti, tajmer fakture još uvek nije istekao.                                                                                  | Nije potrebna                                                                                                                        |
-| Expired                    | Nije plaćeno, tajmer fakture je istekao                                                                                                        | Nije potrebna                                                                                                                        |
-| Expired (paidPartial) \*\* | Delimično plaćeno, tajmer istekao                                                                                                   | "Kontaktirajte kupca radi dogovora o povraćaju sredstava ili da biste zatražili uplatu preostalog iznosa. Po potrebi označite fakturu kao razrešenu ili nevažeću           |
-| Expired (paidLate)         |Plaćeno u celosti, nakon što je tajmer fakture istekao                                                                               | Kontaktirajte kupca radi dogovora o povraćaju sredstava ili obradite porudžbinu ako su zakašnjele potvrde prihvatljive.                                    |
-| Settled (paidOver)         | Plaćeno više od iznosa na fakturi, razrešeno, primljen dovoljan broj potvrda.                                                 | Kontaktirajte kupca radi dogovora o povraćaju viška iznosa, ili po želji sačekajte da vas kupac kontaktira.                        |
-| Processing                 | Plaćeno u celosti, ali nije primljen dovoljan broj potvrda definisan u podešavanjima prodavnice.                                   | Kontaktirajte kupca radi dogovora o povraćaju viška iznosa, ili po želji sačekajte da vas kupac kontaktira.                         |
-| Processing (paidOver)      | Plaćeno više od iznosa fakture, ali nije primljen dovoljan broj potvrda.                                                      | Sačekajte da bude razrešeno, zatim kontaktirajte kupca radi dogovora o povraćaju viška iznosa, ili po želji sačekajte da vas kupac kontaktira. |
-| Settled                    | Plaćeno u celosti, primljen dovoljan broj potvrda u prodavnici.                                                                     | Obradite porudžbinu                                                                                                            |
-| Settled (marked)           | Status je ručno promenjen u ‘razrešeno’ sa statusa ‘u obradi’ ili ‘nevažeće’.                                                             | Administrator prodavnice je označio uplatu kao razrešenu.                                                                               |
-| Invalid                    | Plaćeno, ali nije primljen dovoljan broj potvrda u okviru vremena definisanog u podešavanjima prodavnice                              | Proverite transakciju na blockchain pregledaču, a ako je primila dovoljan broj potvrda, označite je kao razrešenu.                    |
-| Invalid (marked)           | Status je ručno promenjen u nevažeći sa statusa razrešen ili istekao.                                                                 | Administrator prodavnice je označio uplatu kao nevažeću.                                                                               |
-| Invalid (paidOver)         | Plaćeno više od iznosa fakture, ali nije primljen dovoljan broj potvrda u roku definisanom u podešavanjima prodavnice. | Proverite transakciju na blockchain pregledaču; ako je primila dovoljan broj potvrda, označite je kao razrešenu.                    |
+| New | Nije plaćeno, tajmer fakture još nije istekao | Nema |
+| New (paidPartial) | Plaćeno delimično, tajmer fakture još nije istekao | Nema |
+| Expired | Nije plaćeno, tajmer fakture je istekao | Nema |
+| Expired (paidPartial) ** | Plaćeno delimično i isteklo | Kontaktirajte kupca radi povraćaja ili tražite doplatu. Opciono označite fakturu kao settled ili invalid |
+| Expired (paidLate) | Plaćeno u celosti nakon isteka tajmera fakture | Kontaktirajte kupca radi povraćaja ili obradite porudžbinu ako su kasne potvrde prihvatljive. |
+| Settled (paidOver) | Plaćeno više od iznosa, namireno, primljeno dovoljno potvrda | Kontaktirajte kupca radi povraćaja viška ili opciono sačekajte da vas kupac kontaktira |
+| Processing | Plaćeno u celosti, ali nije primljeno dovoljno potvrda (prema podešavanjima) | Kontaktirajte kupca radi povraćaja viška ili opciono sačekajte da vas kupac kontaktira |
+| Processing (paidOver) | Plaćeno više od iznosa, nije primljeno dovoljno potvrda | Sačekajte da se namiri, pa kontaktirajte kupca za povraćaj viška ili sačekajte kontakt |
+| Settled | Plaćeno u celosti, primljeno dovoljno potvrda u prodavnici | Ispunite porudžbinu |
+| Settled (marked) | Status je ručno promenjen u settled iz statusa processing ili invalid | Administrator je označio plaćanje kao settled |
+| Invalid* | Plaćeno, ali nije primljeno dovoljno potvrda u predviđenom roku | Proverite transakciju na blockchain explorer-u; ako ima dovoljno potvrda, označite kao settled |
+| Invalid (marked) | Status je ručno promenjen u invalid iz statusa settled ili expired | Administrator je označio plaćanje kao invalid |
+| Invalid (paidOver) | Plaćeno više od iznosa, ali nije primljeno dovoljno potvrda u predviđenom roku | Proverite transakciju na blockchain explorer-u; ako ima dovoljno potvrda, označite kao settled |
 
 #### Detalji fakture
 

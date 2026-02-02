@@ -1,0 +1,8 @@
+question: Điều gì ngăn cản người dùng tạo ra tiền từ hư không trong hệ thống Elements' Confidential Transactions?
+answer: Các phép chứng minh phạm vi (Range Proofs) chứng minh bằng toán học rằng các giá trị ẩn là các số nguyên dương nằm trong các phạm vi hợp lệ.
+wrong_answers:
+  - Cam kết Pedersen liên kết số tiền giao dịch với các khóa công khai bằng mật mã.
+  - Xác thực Sổ đăng ký tài sản kiểm tra tất cả số tiền giao dịch so với giới hạn tài sản đã đăng ký.
+  - Các nút đồng thuận liên kết giải mã và xác minh tất cả các số tiền giao dịch bí mật.
+explanation: |
+  Bằng chứng phạm vi (Range Proofs) là cơ chế mã hóa đặc biệt ngăn người dùng lợi dụng hệ thống giao dịch bí mật bằng cách sử dụng số âm hoặc số tiền không hợp lệ để tạo ra tiền từ hư không. Trong khi Cam kết Pedersen che giấu số tiền thực tế, Bằng chứng phạm vi đảm bảo tính toàn vẹn toán học bằng cách chứng minh các giá trị ẩn nằm trong phạm vi hợp lệ. Sổ đăng ký tài sản chỉ ánh xạ ID tài sản sang tên dễ đọc đối với con người và không xác thực số tiền, và các nút liên kết không giải mã các giao dịch bí mật - chúng chỉ xác minh chúng mà không nhìn thấy các giá trị thực tế.

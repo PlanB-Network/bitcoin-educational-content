@@ -5,5 +5,5 @@ wrong_answers:
   - Proton VPN
   - NordVPN
 explanation: |
-  Mullvad VPN se izdvaja po potpuno anonimnom kreiranju naloga, bez potrebe za emailom ili lozinkom, i prihvata plaćanje u Bitcoin ili gotovini.
-reviewed: false
+  Mullvad VPN se izdvaja po potpuno anonimnom kreiranju naloga, bez potrebe za emailom ili lozinkom, i prihvata plaćanje u bitkoinima ili gotovini.
+reviewed: true

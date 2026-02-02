@@ -1,9 +1,9 @@
-question: 闪电网络上的交易是如何得到保障的？
-answer: 通过密码学以及间接通过比特币矿工消耗的能量。
+question: RGB 的核心原则是什么？
+answer: 客户端验证
 wrong_answers:
-  - 仅通过使用私钥。
-  - 仅通过使用公钥。
-  - 仅通过同时使用私钥和公钥。
-explanation:
-  闪电网络上的交易通过密码学得到保障，并且间接通过比特币矿工消耗的能量得到保障。
-reviewed: true
+  - 在区块链上的全局执行
+  - 联邦共识
+  - Proof-of-Work
+explanation: |
+  RGB 基于状态的本地验证，区块链仅作为加密锚定和防止双重支付的保护机制。
+reviewed: false

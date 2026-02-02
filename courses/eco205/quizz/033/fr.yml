@@ -1,0 +1,8 @@
+question: Quelle est la principale différence entre l'approche axiomatique et l'approche inductive en économie?
+answer: L'approche axiomatique part de vérités universelles pour déduire des principes particuliers
+wrong_answers:
+  - "L'approche axiomatique nécessite plus de données empiriques que l'approche inductive"
+  - "L'approche axiomatique se base sur l'observation de cas particuliers pour créer des théories"
+  - "L'approche axiomatique utilise principalement des méthodes statistiques et économétriques"
+explanation: |
+  L'approche axiomatique part d'axiomes, des vérités universelles et intemporelles, pour en déduire logiquement des principes particuliers. C'est une démarche déductive qui va du général au particulier. À l'inverse, l'approche inductive observe des cas particuliers pour en tirer des théories générales. L'école autrichienne privilégie l'approche axiomatique car elle permet d'établir des lois économiques universelles sans dépendre de l'expérimentation ou des données quantitatives, contrairement aux approches empiriques.

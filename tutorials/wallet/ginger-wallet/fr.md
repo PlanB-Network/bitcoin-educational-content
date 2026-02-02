@@ -173,6 +173,8 @@ Pour revenir à la configuration de notre portefeuille, une fois que vous clique
 
 ## Recevoir des bitcoins
 
+![video](https://youtu.be/cqv35wBDWMQ)
+
 Pour recevoir des bitcoins dans votre portefeuille sur Ginger Wallet :
 - appuyez sur **Recevoir** ;
 
@@ -195,9 +197,8 @@ Cette adresse ou ce code QR, sera utilisé par votre expéditeur pour vous envoy
 
 ## Envoyer des bitcoins
 
-Vidéo tutoriel sur comment envoyer via Ginger Wallet.
 
-![Vidéo](https://youtu.be/2nf5aAimfhg)
+![video](https://youtu.be/2nf5aAimfhg)
 
 Pour ce faire :
 - Appuyez sur le bouton **Envoyer** ;
@@ -212,6 +213,8 @@ Pour ce faire :
 C'est très simple d'acheter et de vendre du Bitcoin avec Ginger Wallet. En seulement quelques étapes, vous pouvez dépenser vos bitcoins.
 
 ### Acheter des bitcoins
+
+![video](https://youtu.be/lEqTBzm5MEA)
 
 Les utilisateurs de Ginger Wallet peuvent acheter des bitcoins. 
 

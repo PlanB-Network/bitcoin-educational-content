@@ -10,7 +10,7 @@ Il existe deux manières d'utiliser Sparrow :
 - Comme un portefeuille chaud, où vos clés privées sont stockées sur votre PC.
 - Comme un gestionnaire pour un portefeuille froid, où les clés privées sont conservées sur un hardware wallet. Dans ce mode, Sparrow manipule uniquement les informations publiques de votre portefeuille, trace les fonds, génère des adresses, et construit des transactions, mais la signature du hardware wallet est nécessaire pour rendre ces transactions valides. Il peut ainsi remplacer des applications comme Ledger Live ou Trezor Suite.
 
-Sparrow supporte les portefeuilles à signature unique et multi-signatures, et permet une gestion fluide de plusieurs portefeuilles. Vous pouvez par exemple contrôler simultanément un portefeuille connecté à une Ledger, un autre à une Trezor, et avoir en plus un portefeuille chaud.
+Sparrow supporte les portefeuilles à signature unique et multi-signatures, et permet une gestion fluide de plusieurs portefeuilles. Vous pouvez par exemple contrôler simultanément un portefeuille connecté à un Ledger, un autre à une Trezor, et avoir en plus un portefeuille chaud.
 
 Le logiciel offre également des fonctionnalités avancées de contrôle des pièces (*coin control*), permettant de choisir précisément quels UTXO utiliser dans vos transactions pour optimiser votre confidentialité.
 
@@ -255,7 +255,7 @@ Il y a deux principales méthodes pour connecter votre hardware wallet à Sparro
 
 Sparrow supporte toutes ces méthodes de communication et est compatible avec la plupart des hardware wallets disponibles sur le marché.
 
-Pour ce tutoriel, je vais utiliser une Ledger Nano S avec un câble, mais la procédure est similaire en mode Air-Gap. Vous trouverez les détails spécifiques à votre hardware wallet dans son tutoriel dédié sur Plan ₿ Academy.
+Pour ce tutoriel, je vais utiliser un Ledger Nano S avec un câble, mais la procédure est similaire en mode Air-Gap. Vous trouverez les détails spécifiques à votre hardware wallet dans son tutoriel dédié sur Plan ₿ Academy.
 
 Avant de démarrer, assurez-vous que le portefeuille est déjà configuré sur votre hardware wallet. Si vous utilisez une connexion filaire, connectez-le à votre ordinateur par le câble.
 

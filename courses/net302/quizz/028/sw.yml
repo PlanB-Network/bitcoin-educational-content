@@ -6,4 +6,4 @@ wrong_answers:
   - Tiririsha
 explanation: |
   Katika Layer ya Usafiri yenye TCP, kitengo cha data kinaitwa sehemu, wakati UDP inatumia neno pakiti.
-reviewed: false
+reviewed: true

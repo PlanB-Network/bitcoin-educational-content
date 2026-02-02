@@ -34,7 +34,7 @@ Vítejte v kurzu CYP201, kde se podrobně seznámíme s fungováním HD Bitcoino
 
 Cílem tohoto školení je dát vám klíče k ovládnutí nástrojů, které používáte každý den. HD Bitcoinové peněženky, které jsou v srdci vašeho uživatelského zážitku, jsou založeny na někdy složitých konceptech, které se pokusíme zpřístupnit. Společně je odhalíme!
 
-Než se ponoříme do detailů konstrukce a fungování Bitcoinových peněženek, začneme několika kapitolami o kryptografických primitivách, které je třeba znát pro následující. Začneme hašovacími funkcemi, zásadními jak pro peněženky, tak pro samotný protokol Bitcoinu. Objevíte jejich hlavní charakteristiky, specifické funkce používané v Bitcoinu a v techničtější kapitole se dozvíte podrobně o fungování královny hašovacích funkcí: SHA256.
+Než se ponoříme do detailů konstrukce a fungování Bitcoinových peněženek, začneme několika kapitolami o kryptografických primitivách, které je třeba znát pro následující. Začneme hašovacími funkcemi, zásadními jak pro peněženky, tak pro samotný protokol Bitcoinu. Objevíte jejich hlavní charakteristiky, specifické funkce používané v Bitcoinu a v techničtější kapitole se dozvíte podrobně o fungování královny hašovacích funkcí: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Dále budeme diskutovat o fungování algoritmů digitálního podpisu, které každý den používáte k zabezpečení vašich UTXOs. Bitcoin používá dva: ECDSA a protokol Schnorr. Naučíte se, které matematické primitivy leží v základu těchto algoritmů a jak zajišťují bezpečnost transakcí.
@@ -44,7 +44,7 @@ Dále budeme diskutovat o fungování algoritmů digitálního podpisu, které k
 Jakmile budeme mít dobré porozumění těmto prvkům kryptografie, konečně přejdeme k srdci školení: deterministické a hierarchické peněženky! Nejprve je sekce věnovaná mnemonickým frázím, těmto sekvencím 12 nebo 24 slov, které vám umožňují vytvořit a obnovit vaše peněženky. Objevíte, jak jsou tato slova generována zdrojem entropie a jak usnadňují používání Bitcoinu.
 
 ![CYP201](assets/en/003.webp)
-Školení bude pokračovat studiem BIP39 hesla, seedu (nesmí být zaměňován s mnemonickou frází), hlavního řetězového kódu a hlavního klíče. Podrobně si probereme, co tyto prvky jsou, jaké mají role a jak jsou vypočítány.
+Školení bude pokračovat studiem [BIP39](https://planb.academy/resources/glossary/bip0039) hesla, seedu (nesmí být zaměňován s mnemonickou frází), hlavního řetězového kódu a hlavního klíče. Podrobně si probereme, co tyto prvky jsou, jaké mají role a jak jsou vypočítány.
 ![CYP201](assets/en/004.webp)
 
 Nakonec, z hlavního klíče, objevíme, jak jsou odvozeny kryptografické klíčové páry deterministickým a hierarchickým způsobem až po přijímací adresy.
@@ -657,7 +657,7 @@ Uživatel, který si přeje provést transakci s Bitcoinem, musí proto vytvoři
 
 V důsledku toho musí uživatel, který vlastní bitcoiny uzamčené veřejným klíčem, najít způsob, jak bezpečně uložit to, co umožňuje odemknout jejich prostředky: soukromý klíč. Bitcoinová peněženka je přesně zařízení, které vám umožní snadno uchovávat všechny vaše klíče bez přístupu ostatních lidí. Je tedy spíše jako svazek klíčů než jako peněženka.
 
-Matematická vazba mezi veřejným a soukromým klíčem, stejně jako schopnost provést podpis k prokázání držení soukromého klíče bez jeho odhalení, jsou umožněny algoritmem digitálního podpisu. V protokolu Bitcoinu jsou použity 2 algoritmy pro podpis: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) a **Schnorrův schéma podpisu**. ECDSA je digitální podpisový protokol používaný v Bitcoinu od jeho počátků. Schnorr je v Bitcoinu novější, protože byl zaveden v listopadu 2021 s aktualizací Taproot.
+Matematická vazba mezi veřejným a soukromým klíčem, stejně jako schopnost provést podpis k prokázání držení soukromého klíče bez jeho odhalení, jsou umožněny algoritmem digitálního podpisu. V protokolu Bitcoinu jsou použity 2 algoritmy pro podpis: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) a **Schnorrův schéma podpisu**. ECDSA je digitální podpisový protokol používaný v Bitcoinu od jeho počátků. Schnorr je v Bitcoinu novější, protože byl zaveden v listopadu 2021 s aktualizací Taproot.
 Tyto dva algoritmy jsou si ve svých mechanismech poměrně podobné. Oba jsou založeny na kryptografii eliptických křivek. Hlavní rozdíl mezi těmito dvěma protokoly spočívá ve struktuře podpisu a některých specifických matematických vlastnostech. Proto se budeme zabývat fungováním těchto algoritmů, začínající nejstarším: ECDSA.
 
 ### Kryptografie eliptických křivek
@@ -1846,19 +1846,21 @@ Když uživatel obdrží bitcoiny, odesílatel vytvoří výstupní UTXO a zamkn
 
 Je právě v *scriptPubKey*, kde se nacházejí přijímací adresy. Nicméně jejich použití se liší v závislosti na přijatém standardu skriptu. Zde je shrnutí tabulka informací obsažených v *scriptPubKey* podle použitého standardu, stejně jako informace očekávané v *scriptSig* k odemčení *scriptPubKey*.
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Libovolná data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Zdroj: Bitcoin Core PR review club, 7. července 2021 - Gloria Zhao*
+
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Libovolná data | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Zdroj: Bitcoin Core PR review club ze dne 7. července 2021 – Gloria Zhao_
 
 Opcodes použité ve skriptu jsou navrženy k manipulaci s informacemi a v případě potřeby k jejich porovnání nebo testování. Vezměme si příklad skriptu P2PKH, který vypadá takto:
 

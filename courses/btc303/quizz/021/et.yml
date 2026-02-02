@@ -1,0 +1,9 @@
+question: Mida kasutatakse Bitcoin pseudonüümsüsteemis pseudonüümidena?
+answer: Avalikest võtmetest tuletatud aadressid
+wrong_answers:
+  - "Kirjeldavad kasutajanimed nagu 'watchme1984'"
+  - Rahakottides säilitatavad privaatvõtmed
+  - Tehingu ID-d plokiahelas
+explanation: |
+  Bitcoin kasutab pseudonüümidena avalikest võtmetest tuletatud aadresse, mitte suvalisi kasutajanimesid või muid identifikaatoreid. Selline disainivalik teenib mitut olulist eesmärki: see välistab vajaduse registreerida pseudonüümid eelnevalt plokiahelas, vähendab stiimuleid sama pseudonüümi korduvkasutamiseks, väldib plokiahela tarbetut paisumist ja muudab pahatahtlike osalejate jaoks teiste isikute kehastamise palju keerulisemaks. Kirjeldavate kasutajanimede kasutamine nõuaks registreerimissüsteemi ja tekitaks turvaauke, samas kui privaatvõtmed peavad jääma salajaseks ja tehingu tunnused täidavad süsteemis teistsugust eesmärki.
+reviewed: false

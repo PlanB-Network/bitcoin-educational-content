@@ -1,5 +1,6 @@
 ---
-term: GECOMPRIMEERDE OPENBARE SLEUTEL
+term: Gecomprimeerde publieke sleutel
+definition: Compacte vorm van een publieke sleutel die alleen de x-coördinaat en een pariteitsprefix (02 of 03) gebruikt.
 ---
 
 Een publieke sleutel wordt gebruikt in scripts (direct in de vorm van een publieke sleutel of als Address) om bitcoins te ontvangen en te beveiligen. Een ruwe publieke sleutel wordt voorgesteld door een punt op een elliptische curve, bestaande uit twee coördinaten (`x, y`) van elk 256 bits. In onbewerkt formaat is een openbare sleutel dus 512 bits groot, de extra byte om het formaat te identificeren niet meegerekend. Een gecomprimeerde openbare sleutel daarentegen is een compactere vorm van openbare sleutelrepresentatie. Het gebruikt alleen de `x` coördinaat en een voorvoegsel (`02` of `03`) dat de pariteit van de `y` coördinaat aangeeft (even of oneven).
@@ -8,7 +9,7 @@ Een publieke sleutel wordt gebruikt in scripts (direct in de vorm van een publie
 Als we dit vereenvoudigen tot het veld van reële getallen, gegeven dat de elliptische kromme symmetrisch is ten opzichte van de x-as, bestaat er voor elk punt $P$ (`x, y`) op de kromme een punt $P'$ (`x, -y`) dat ook op dezelfde kromme ligt. Dit betekent dat er voor elke `x` slechts twee mogelijke waarden van `y` zijn, positief en negatief. Bijvoorbeeld, voor een gegeven abscis `x` zijn er twee punten $P1$ en $P2$ op de elliptische kromme, met dezelfde abscis maar tegengestelde ordinaten:
 
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Om te kiezen tussen de twee potentiële punten op de kromme, wordt een prefix die specificeert welke `y` gekozen moet worden toegevoegd aan `x`. Met deze methode kan de grootte van een openbare sleutel worden teruggebracht van 520 bits naar slechts 264 bits (8 bits van de prefix + 256 bits voor `x`). Deze weergave staat bekend als de gecomprimeerde vorm van de openbare sleutel.
 

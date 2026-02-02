@@ -1,5 +1,6 @@
 ---
-term: RECURSIEF (CONVENANT)
+term: Recursieve (covenant)
+definition: Covenant die voorwaarden oplegt aan de huidige transactie en alle transacties die daarna volgen, voor onbepaalde tijd.
 ---
 
 Een recursieve overeenkomst op Bitcoin is een type Smart contract dat niet alleen voorwaarden oplegt aan de huidige transactie, maar ook aan toekomstige transacties die de output van deze transactie uitgeven. Dit maakt het mogelijk om transactieketens te maken waarbij elke transactie zich moet houden aan bepaalde regels die gedefinieerd zijn door de eerste in de keten. Recursiviteit creëert een opeenvolging van transacties waarbij elke transactie de beperkingen erft van de oudertransactie. Dit zou complexe en langdurige controle mogelijk maken over hoe bitcoins kunnen worden uitgegeven, maar het zou ook risico's introduceren met betrekking tot bestedingsvrijheid en fungibiliteit.

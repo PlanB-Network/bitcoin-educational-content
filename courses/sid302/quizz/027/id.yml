@@ -1,0 +1,8 @@
+question: Dalam arsitektur Blockstream AMP yang membutakan, mekanisme kriptografi apa yang memungkinkan enkripsi jumlah aset sambil mempertahankan verifikasi validitas transaksi?
+answer: Pertukaran kunci Elliptic Curve Diffie-Hellman dengan bukti rentang yang memverifikasi validitas transaksi tanpa mengungkapkan nilai terenkripsi
+wrong_answers:
+  - SNARK zero-knowledge dengan skema komitmen yang menyembunyikan jumlah transaksi sekaligus membuktikan integritas komputasi
+  - Tanda tangan cincin dengan alamat siluman yang menyamarkan identitas pengirim sambil mempertahankan kemampuan audit kriptografi
+  - Enkripsi homomorfik dengan komitmen pohon merkle yang memungkinkan operasi matematis pada data transaksi terenkripsi
+explanation: |
+  AMP menggunakan pertukaran kunci ECDH di mana pengirim mengenkripsi jumlah aset menggunakan kunci publik yang membutakan dari penerima, menghasilkan bukti rentang yang secara matematis memverifikasi keabsahan transaksi tanpa mengekspos nilai. Ini berbeda dengan SNARK (bukti komputasi), tanda tangan cincin (fokus anonimitas), atau enkripsi homomorfis (komputasi pada data terenkripsi) - AMP secara khusus membutuhkan transaksi yang bersifat rahasia tetapi dapat diverifikasi.

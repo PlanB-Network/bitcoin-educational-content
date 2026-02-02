@@ -1,5 +1,6 @@
 ---
-term: SDK (IKIMENYETSO C'ITERAMBERE RY'ITEGEKO)
+term: SDK (software development kit)
+definition: Urutonde rw'ibikoreshwa mu guhinga ibikoreshwa ku buhinga butandukanye.
 ---
 
 Ivyuma vy’amaporogarama bitanga ibikoresho bikenewe kugira ngo abahinguzi bashobore gukora porogarama ku rubuga runaka. SDK irimwo amasomero, uburongozi bw’iterambere, ivyerekanwa vya kode, n’uburyo bwo gukoranya. SDKs zifasha no kwihutisha iterambere mu gutanga ibice bishobora gusubirwamwo. Ku Bitcoin, hariho BDK (*Bitcoin Dev Kit*) na LDK (*Igikoresho co gutegura umuravyo*).

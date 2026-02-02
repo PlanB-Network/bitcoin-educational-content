@@ -1,6 +1,7 @@
 ---
-term: DERIVASJON
+term: Derivering
 
+definition: Prosess for å generere barnenøkler fra et foreldrenøkkelpar i en HD-lommebok.
 ---
 Refererer til prosessen med å generere underordnede nøkkelpar fra et overordnet nøkkelpar (privat nøkkel og offentlig nøkkel) og en kjedekode i en deterministisk og hierarkisk (HD) lommebok. Denne prosessen gjør det mulig å segmentere forgreninger og organisere en lommebok i ulike nivåer med mange underordnede nøkkelpar, som alle kan gjenopprettes ved kun å kjenne til den grunnleggende gjenopprettingsinformasjonen (den mnemoniske frasen og en eventuell passordfrase). For å utlede en underordnet nøkkel brukes `HMAC-SHA512`-funksjonen med den overordnede kjedekoden og sammenkjedningen av den overordnede nøkkelen og en 32-biters indeks. Det finnes to typer avledninger:
 

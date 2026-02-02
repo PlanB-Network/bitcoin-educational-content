@@ -28,7 +28,7 @@ U BTC304, razmotrićemo zašto je izgradnja zajednice važna, istražiti alate z
 
 
 
-Dobrodošli u BTC302!
+Dobrodošli u BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Sami, možete brzo istražiti jedan od mnogih tunela u zečjoj rupi Bitcoin. Ali
 
 
 
-## BTC302, Šta je sledeće
+## BTC 304, Šta je sledeće
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-U ovom BTC302 kursu, detaljno smo objasnili kako postaviti zajednicu ili okupljanje, kao i kako pokrenuti razne projekte.
+U ovom BTC 304 kursu, detaljno smo objasnili kako postaviti zajednicu ili okupljanje, kao i kako pokrenuti razne projekte.
 
 
 Kada vaša zajednica bude spremna da preduzme sledeći korak, **možete osnovati formalno udruženje**.
@@ -2853,11 +2853,9 @@ Prednosti su dvostruke:
 - **Strukturisana organizacija**: možete definisati jasne uloge, što olakšava vođenje vaše zajednice i realizaciju projekata.
 
 
-Da biste dodatno unapredili svoju zajednicu, **nastavak kursa COMMU302** <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Sa ciljem da vaša zajednica još više napreduje, **nije isključeno da će nastavak ove obuke izaći na [Plan ₿ Academy](https://planb.academy/) u narednim mesecima**.
 
-![immagine](https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430)
 
-može biti objavljeno na [planb.network](https://planb.academy/) u narednim mesecima.
 
 
 Ova sledeća sesija mogla bi istražiti napredne teme kao što su:

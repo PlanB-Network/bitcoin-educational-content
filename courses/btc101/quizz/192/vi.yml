@@ -1,11 +1,11 @@
-question: Dollar Cost Average là gì?
+question: Dollar Cost Average - DCA (mua dần) là gì?
 answer: Mua nhỏ giọt Bitcoin theo các khoảng thời gian đều đặn.
 wrong_answers:
   - Mua một lượng lớn Bitcoin cùng một lúc.
   - Chỉ mua Bitcoin khi giá giảm.
   - Chỉ mua Bitcoin khi giá tăng.
 explanation: |
-  Văn bản khóa học giải thích rằng kỹ thuật Dollar Cost Average
+  Khóa học giải thích rằng kỹ thuật Dollar Cost Average
   bao gồm việc mua nhỏ giọt Bitcoin theo các khoảng thời gian đều đặn.
   Phương pháp này làm giảm biến động giá theo thời gian và đảm bảo sự tăng trưởng
   liên tục về lượng Bitcoin sở hữu.

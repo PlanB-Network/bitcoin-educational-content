@@ -1,26 +1,19 @@
 ---
-name: Studie hyperinflace
+name: Případové studie hyperinflace
 goal: Pochopení vzniku hyperinflací ve světě Fiatu a jejich důsledků
-objectives: 
-
-  - Studium hyperinflačních cyklů
-  - Pochopit skutečné dopady hyperinflace na náš každodenní život
-  - Studie podobností hyperinflací v průběhu času
-  - Mít konkrétní představu o tom, jak se chránit před hyperinflací
-
+objectives:
+- Studium hyperinflačních cyklů
+- Pochopit skutečné dopady hyperinflace na náš každodenní život
+- Studie podobností hyperinflací v průběhu času
+- Mít konkrétní představu o tom, jak se chránit před hyperinflací
 ---
+# Cesta ekonomickým kolapsem
 
-# Cesta do ekonomiky
+Jak to vypadá, když peníze ztrácejí svůj význam?
+Tento kurz vás provede fascinujícím, avšak otřesným světem hyperinflace. Objevíte historické epizody a moderní případy, kdy měny zkolabovaly a ekonomiky se přes noc proměnily. Odhalíte vzorce, příčiny a reálný dopad na každodenní životy lidí a získáte vhled do jednoho z nejdramatičtějších jevů ekonomie.
 
-
-Cílem tohoto programu je poskytnout hluboké porozumění vzniku hyperinflací ve světě, kde dominuje Fiat měna, a prozkoumat jejich významné důsledky. Účastníci se budou podrobně zabývat cykly hyperinflace, zkoumat její příčiny, spouštěče a uvádět historické i současné příklady. Budou také zkoumat hmatatelný dopad hyperinflace na ekonomiku a každodenní život, studovat dopady na hodnotu měny, kupní sílu a individuální i kolektivní úspory.
-
-
-Upozorníme zde na trendy a společné vzorce v epizodách hyperinflace v historii a zároveň poskytneme účinné a konkrétní strategie, jak se v období hyperinflace chránit. Účastníci budou mít příležitost prozkoumat různé investiční možnosti a finanční obranné mechanismy a získají praktické nástroje a nezbytné znalosti pro klidnou orientaci v nestabilním ekonomickém klimatu.
-
-
+Po cestě také objevíte, jak jednotlivci a komunity procházeli těmito bouřlivými obdobími. Naučte se strategie, které pomohly chránit bohatství během měnových krizí, a vybudujte si hlubší porozumění finanční odolnosti. Pokud vás zajímají ekonomické síly, které formují náš svět, tato cesta nabízí jak znalosti, tak praktickou perspektivu.
 +++
-
 # Úvod
 
 
@@ -430,7 +423,7 @@ Názorným příkladem MMT je americký vojensko-průmyslový komplex. Podle MMT
 Zastánci MMT často uvádějí Japonsko jako další příklad absence inflace navzdory výraznému měnovému tisku. Situace v Japonsku však také poukazuje na omezení tradičních měřítek inflace, jako je index spotřebitelských cen (CPI). V Japonsku je značná část natištěných peněz buď uložena, nebo investována do nemovitostí či akciového trhu, nikoliv utracena na běžnou spotřebu. Protože index spotřebitelských cen tuto dynamiku plně nezachycuje, může skutečnou inflaci podhodnocovat.
 
 
-Analýza Japonska (https://ideas.repec.org/p/ces/ceswps/_9821.html) také zdůrazňuje, že chování ekonomických subjektů, jako jsou úspory nebo investice do aktiv nezahrnutých do indexu spotřebitelských cen, může maskovat inflační dopad měnového tisku. Navíc schopnost různých sektorů absorbovat napumpovanou likviditu hraje zásadní roli při určování toho, zda dojde k inflaci.
+[Analýza Japonska](https://ideas.repec.org/p/ces/ceswps/_9821.html) rovněž ukazuje, že chování ekonomických subjektů, jako je spoření nebo investování do aktiv nezahrnutých v indexu spotřebitelských cen, může maskovat inflační dopad měnové expanze. Dále schopnost jednotlivých sektorů absorbovat vstřikovanou likviditu hraje klíčovou roli v tom, zda se inflace projeví, či nikoli.
 
 
 #### Rozvahy bank a centrálních bank

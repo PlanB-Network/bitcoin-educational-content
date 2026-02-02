@@ -1,5 +1,6 @@
 ---
-term: GAP-GRÄNS
+term: Gap limit
+definition: Maximalt antal på varandra följande oanvända adresser innan sökningen efter transaktioner stoppas.
 ---
 
 En parameter som används i Bitcoin Wallet-programvara för att bestämma det maximala antalet oanvända adresser i följd till generate innan sökningen efter ytterligare transaktioner stoppas. Det är ofta nödvändigt att justera denna parameter vid återställning av en Wallet för att säkerställa att alla transaktioner hittas. En otillräcklig Gap Limit kan leda till att vissa transaktioner missas om adresser hoppades över under derivationsfaserna. Om Gap Limit ökas kan Wallet söka längre fram i Address-sekvensen för att återskapa alla associerade transaktioner.

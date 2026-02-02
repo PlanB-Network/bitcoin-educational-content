@@ -1,0 +1,8 @@
+question: Apa mekanisme mendasar yang memungkinkan RC mengizinkan kepemilikan ganda sekaligus menjaga keamanan memori?
+answer: Penghitung internal yang melacak referensi dan membebaskan memori hanya ketika penghitung mencapai nol
+wrong_answers:
+  - Analisis waktu kompilasi yang memverifikasi semua pola referensi sebelum eksekusi program
+  - Pengumpul sampah yang secara berkala memindai dan membersihkan alokasi memori yang tidak terjangkau
+  - Sistem berbasis kunci yang menyinkronkan akses di antara beberapa pemilik data yang sama
+explanation: |
+  RC mempertahankan penghitung referensi internal yang bertambah ketika dikloning dan berkurang ketika didrop, memastikan memori hanya dibebaskan ketika tidak ada referensi yang tersisa. Ini berbeda dengan analisis waktu kompilasi (yang digunakan Box), pengumpulan sampah (yang tidak digunakan Rust), atau mekanisme penguncian (yang digunakan untuk sinkronisasi thread, bukan pelacakan kepemilikan). Pendekatan berbasis counter memungkinkan kepemilikan bersama yang aman tanpa overhead runtime pengumpulan sampah atau pembatasan kepemilikan tunggal.

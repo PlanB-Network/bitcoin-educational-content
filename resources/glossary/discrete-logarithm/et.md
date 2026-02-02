@@ -1,6 +1,7 @@
 ---
-term: DISKREETNE LOGARITM
+term: Diskreetne logaritm
 
+definition: Raskesti lahendatav matemaatiline probleem, mis moodustab Bitcoini krüptograafilise turvalisuse aluse.
 ---
 Diskreetne logaritm on matemaatiline probleem, mida kasutatakse mõnedes avalike võtmete krüptograafilistes algoritmides. Kui tsüklilises grupis järjekorranumbriga $q$, mille generaator on $g$, on olemas võrrand kujul $g^x = h$, siis $x$ nimetatakse $h$ diskreetseks logaritmiks baasi $g$ suhtes, modulo $q$. Lihtsustatult öeldes hõlmab see eksponendi $x$ määramist, kui $g$, $h$ ja $q$ on teada. Diskreetne logaritm on seega lõpliku tsüklilise rühma eksponendi pöördväärtus. Suurte $q$ väärtuste korral peetakse diskreetse logaritmi probleemi lahendamist aga algoritmiliselt keeruliseks. Seda omadust kasutatakse paljude krüptograafiliste protokollide, näiteks Diffie-Hellmani võtmevahetuse protokolli turvalisuse tagamiseks.
 

@@ -1,5 +1,6 @@
 ---
 term: Bitcoin XT
+definition: Fork yo mu 2015 yashikirije kwongera ingano y'ibice (blocks) gushika kuri 8 MB, inyanduruko ya Blocksize War.
 ---
 
 Fork ya Bitcoin yatangujwe mu 2015 n’umuhinga mu vy’ubuhinga Mike Hearn kandi ishigikiwe na Gavin Andresen (uwahoze ari umuyobozi mukuru w’ivy’ubuhinga bwa Bitcoin inyuma y’aho Satoshi ivuye).

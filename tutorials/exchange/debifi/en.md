@@ -19,7 +19,7 @@ The rise of the Bitcoin protocol ushered in a new financial era, bringing with i
 The result is **Debifi**, a platform that positions itself as a modern alternative to banks. The aim is clear: to make credit as simple and transparent as possible, by combining the advantages of the traditional financial system with the freedom offered by Bitcoin. The name Debifi reflects this vision: ***Decentralized Bitcoin Finance***, a contraction that illustrates the meeting of decentralized finance and Bitcoin innovation.
 
 
-Debifi is a non-custodial Bitcoin backed lending platform, which means you retain control of your private keys. It allows users to unlock liquidity in exchange for their locked bitcoins as collateral. Unlike traditional bank loans, Debifi uses a multi-signature escrow system (3 out of 4) and does not accept collateral mortgaging, guaranteeing greater security and transparency.
+Debifi is a non-custodial Bitcoin backed lending platform, which means you retain control of your private keys. It allows users to unlock liquidity in exchange for their locked bitcoins as collateral. Unlike traditional bank loans, Debifi uses a multi-signature escrow system (3 out of 4) and does not accept collateral rehypothecation, guaranteeing greater security and transparency.
 
 
 In practice, this means that neither Debifi nor an individual lender can spend your BTC without the agreement of three parties (you, the lender and a trusted third party). This makes the system more secure: if you borrow on Debifi, you retain ownership of your Bitcoin until the loan has been repaid in full.
@@ -28,20 +28,19 @@ In practice, this means that neither Debifi nor an individual lender can spend y
 ## Advantages of Debifi
 
 
-With Debifi, it's collateralized loans, Blockchain security (multisignature, 2FA), a choice of stablecoins/liquids, confidentiality and total Bitcoin control. Debifi "lets you keep your money" (your keys, your coins), while offering competitive rates and global access to BTC-backed loans.
+With Debifi, you get Bitcoin-backed loans that are over-collateralized and secured on-chain. Your funds stay safe with multisignature wallets, 2FA, and total control over your Bitcoin — you hold your keys, you keep your coins. Borrow in a range of stablecoins or fiat options, at competitive rates, and global liquidity.
 
 
 Here's a quick comparison between a Debifi loan and a traditional bank loan:
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Before I show you step-by-step how to borrow on Debifi, there are a few points I think you need to know.
 
@@ -89,11 +88,7 @@ Before you can borrow from Debifi, please make sure you have the following items
 
 
 
-- Bitcoin wallet: where you hold your BTC (ideally non-custodial, e.g. Hardware Wallet or a trusted mobile wallet). It's from this wallet that you'll send the Bitcoin collateral to Debifi and receive the funds.
-
-
-
-- Stablecoins or fiat: Debifi lends in stablecoins and some fiat currencies. The main stablecoins used are USDT and USDC.
+- Bitcoin wallet: where you hold your BTC (ideally non-custodial, e.g. Hardware Wallet or a trusted mobile wallet). It's from this wallet that you'll send the Bitcoin collateral to Debifi and receive the collateral back.
 
 
 You can use Aqua, a Bitcoin and Liquid wallet that also supports USDT stablecoin management on various networks. Or COLDCARD (Mk4 or Q), currently the only hardware supported by Debifi.
@@ -268,7 +263,7 @@ Bitcoin loan tranches are generally three (3) in number:
 
 
 
-- Conservative (20% - 40% LTV), which corresponds to a low-risk loan, is ideal for maximizing security against Bitcoin price volatility;
+- Conservative (30% - 40% LTV), which corresponds to a low-risk loan, is ideal for maximizing security against Bitcoin price volatility;
 
 
 
@@ -276,7 +271,7 @@ Bitcoin loan tranches are generally three (3) in number:
 
 
 
-- Aggressive (70% - 85% LTV), which offers greater liquidity, but carries a very high risk of liquidation during market downturns. Active monitoring of Bitcoin market conditions is a must when choosing this tranche.
+- Aggressive (70% LTV), which offers greater liquidity, but carries a very high risk of liquidation during market downturns. Active monitoring of Bitcoin market conditions is a must when choosing this tranche.
 
 
 #### Interest rates
@@ -288,13 +283,18 @@ Rate-setting generally depends on your chosen LTV, the length of the loan term, 
 #### Loan term and repayment flexibility
 
 
-Repayment schedules for loans are often flexible and tailored to the user's needs. Payments can be made at any time as long as collateral requirements are met. Loan payments are generally interest for the duration of the loan, with principal due on maturity.
+Repayment schedules are flexible and designed to accommodate the borrower’s needs. Loans can be fully or partially repaid at any time without additional fees, provided collateral requirements remain satisfied. Throughout the term of the loan, interest is typically paid periodically, while the principal is settled at maturity.
 
 
 #### Liquidation rights (Margin calls)
 
 
-As the price of Bitcoin is volatile, a responsible loan includes specific margin call policies in the agreement. This policy allows the borrower to be notified to either provide additional collateral, or repay a portion of the loan.
+Given Bitcoin’s volatility, loans include a clearly defined margin call policy. A margin call occurs when the LTV rises due to a decline in collateral value. Debifi notifies the borrower by email and through the app, allowing them to add collateral or repay part of the loan.
+
+75% LTV — First alert  
+80% LTV — Second alert  
+85% LTV — Final alert  
+90% LTV — Collateral is liquidated
 
 
 ### Launching the loan process
@@ -365,7 +365,7 @@ When you finish signing the contract, Debifi automatically creates a unique mult
 ### Deposit of the guarantee and receipt of your funds
 
 
-The final step is to deposit your Bitcoin collateral in the multi-signature escrow system. Debifi then shows you the escrow address (B) and the quantity of BTC (A) to be sent as (collateral + commission).
+The final step is to deposit your Bitcoin collateral in the multi-signature escrow system. Debifi shows you the escrow address (B) and the quantity of BTC (A) to be sent as (collateral + commission).
 
 
 ![image](assets/fr/33.webp)
@@ -398,20 +398,18 @@ The applicable lending fees are 1.5-2%, depending on the term of the contract. T
 ## Loan tracking
 
 
-Once the loan is underway, Debifi lets you monitor your contract in real time. In Interface, you'll see :
+Once the loan is active, Debifi allows you to track your contract in real time. In the interface, you will find:
+
+- The amount borrowed and the remaining term.  
+- The current LTV (Loan-to-Value) ratio, which rises when the price of BTC decreases and the value of your collateral falls.
 
 
 
-- The amount borrowed and the remaining term.
-- Current LTV (Loan-to-Value) ratio: LTV increases if the price of BTC falls (since your collateral is worth less). A warning threshold (generally 90%) is set. If your LTV exceeds this threshold, there is a risk of forced liquidation. Debifi will then give you 24 hours to react.
+Borrowers are notified when the collateral value decreases, and this information is also displayed on the contract summary page. To restore the original loan-to-value ratio, the borrower must either:
 
-
-Borrowers will be informed of the price reduction. This information will also be available on the contract summary page. To restore the original loan-to-value ratio of a loan, the borrower must :
-
-
-
-- or deposit an additional guarantee ;
+- deposit additional collateral;  
 - repay all or part of the debt.
+
 
 
 In the event of an increase in the price of the collateral, the borrower retains any capital gains on the collateral. He owes only the amount of the loan, which is predetermined and independent of the Bitcoin price.
@@ -447,7 +445,7 @@ Congratulations! You've finalized the process.
 ## Best practices and safety
 
 
-Whatever your objectives or motivations - financing a project, acquiring property, buying bitcoins, etc. - be extremely cautious before taking out a loan backed by Bitcoin. - be extremely cautious before taking out a loan backed by Bitcoin. Take time to consider your decision carefully, as Bitcoin remains a volatile asset. **A sharp drop in its price could result in the forced liquidation of your bitcoins**.
+Whatever your objectives or motivations—financing a project, acquiring property, buying bitcoins, etc.—exercise great caution before taking out a loan backed by Bitcoin. Take the time to assess your decision carefully, as Bitcoin remains a volatile asset. **A sharp drop in its price could result in the forced liquidation of your bitcoins.**
 
 
 Monitor your loan-to-collateral (LTV) ratio. Set up alerts (BTC price, LTV) if possible. Don't let your ratio approach 90%. If in doubt, increase collateral or repay early.

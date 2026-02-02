@@ -38,7 +38,7 @@ Por outro lado, não me parece que seja atualmente adequado para principiantes q
 
 
 
-Ir para [o sítio Web do projeto] (https://zeusln.com/) para descarregar a aplicação para o sistema operativo do seu smartphone:
+Ir para [o sítio Web do projeto](https://zeusln.com/) para descarregar a aplicação para o sistema operativo do seu smartphone:
 
 
 

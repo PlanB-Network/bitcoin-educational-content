@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru yo gukoresha map_err() igihe ukoresha ibikorwa n'ubwoko bw'Ibisubizo muri Rust?
+answer: Guhindura ubwoko bw'amakosa mu gihe usiga agaciro k'uguterimbere katahindutse mu gihe c'ukwiragira kw'ikosa
+wrong_answers:
+  - Guhindura agaciro k'uguterimbere mu gihe wikwiragiza amakosa ataco uhinduye
+  - Guhindura ubwoko bw'ibisubizo mu bwoko bw'amahitamwo igihe amakosa akeneye kwirengagizwa
+  - Kugira ngo ukingire amakosa gukwiragira mu guhindura amakosa yose mu mibare y'uguterimbere
+explanation: |
+  Uburyo bwa map_err() bwagenewe guhindura ubwoko bw'amakosa mu gihe buzigama agaciro k'uguterimbere katahindutse. Ivyo ni ngirakamaro mu kwubaka ibikorwa vy'imirongo aho ibice bitandukanye bikeneye amakosa atandukanye. Nk'akarorero, urashobora guhindura amakosa yo gusesangura yo mu rwego rwo hasi mu makosa yihariye y'intara atanga ikibanza ciza. Ayandi mahitamwo ntabwo ari meza: map() ihindura agaciro k'uguterimbere (si map_err()), map_err() ntihindura ubwoko bw'amahitamwo, kandi ntibuza gukwiragira canke ngo ireme agaciro k'uguterimbere mburabuzi.

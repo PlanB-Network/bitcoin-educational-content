@@ -1,6 +1,7 @@
 ---
-term: TASSA DI SPOLVERAMENTO
+term: Dustrelayfee
 
+definition: Parametro del nodo che definisce il tasso di commissione utilizzato per calcolare il limite di polvere.
 ---
 Regola di standardizzazione utilizzata dai nodi della rete per determinare quello che considerano il "limite di polvere" Questo parametro stabilisce una tariffa in sats per kilobyte virtuale (sats/kvB) che serve come riferimento per calcolare se il valore di un UTXO è inferiore alle tariffe necessarie per includerlo in una transazione. Infatti, un UTXO è considerato "polvere" su Bitcoin se richiede più commissioni per essere trasferito rispetto al valore che esso stesso rappresenta. Il calcolo di questo limite è il seguente:
 

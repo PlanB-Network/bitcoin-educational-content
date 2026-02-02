@@ -1,9 +1,9 @@
-question: Why is careful record-keeping essential when dealing with Bitcoin in a company’s accounting?
-answer: Because every Bitcoin transaction may create a taxable event, and accurate records are needed to calculate gains, losses, and tax liabilities.
+question: Tại sao việc lưu giữ hồ sơ cẩn thận lại cần thiết khi xử lý Bitcoin trong kế toán của công ty?
+answer: Bởi vì mọi giao dịch Bitcoin đều có thể tạo ra sự kiện chịu thuế và cần có hồ sơ chính xác để tính toán lãi, lỗ và nghĩa vụ thuế.
 wrong_answers:
-  - Because the blockchain automatically files taxes on behalf of the company.
-  - Because no accounting standards apply to Bitcoin transactions at all.
-  - Because it’s impossible to trace Bitcoin transactions once recorded.
+  - Bởi vì blockchain tự động nộp thuế thay mặt cho công ty.
+  - Bởi vì không có chuẩn mực kế toán nào áp dụng cho các giao dịch Bitcoin.
+  - Bởi vì không thể theo dõi các giao dịch Bitcoin sau khi đã ghi lại.
 explanation: |
-  Each purchase, sale, or payment made in Bitcoin could have tax implications. Keeping detailed records of cost basis, sale price, and timing ensures correct and compliant tax reporting.
-reviewed: false
+  Mỗi giao dịch mua, bán hoặc thanh toán được thực hiện theo Bitcoin đều có thể có tác động về thuế. Việc lưu giữ hồ sơ chi tiết về cơ sở chi phí, giá bán và thời gian bán hàng đảm bảo báo cáo thuế chính xác và tuân thủ.
+reviewed: true

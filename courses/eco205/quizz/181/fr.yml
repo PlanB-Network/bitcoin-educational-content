@@ -1,0 +1,8 @@
+question: Selon Karl Menger, quelle est la principale différence entre son approche marginaliste et celle de Jevons et Walras développée simultanément en 1871?
+answer: Menger développe un marginalisme subjectiviste et verbal où la valeur émerge des évaluations subjectives ordinales des individus
+wrong_answers:
+  - "Menger privilégie une approche mathématique plus rigoureuse basée sur des mesures cardinales de l'utilité"
+  - Menger intègre la théorie de la valeur travail dans son analyse marginaliste contrairement aux autres auteurs
+  - Menger adopte une méthode historiciste contextuelle pour expliquer les phénomènes économiques marginaux
+explanation: |
+  Menger se distingue de Jevons et Walras par son approche résolument subjectiviste et verbale plutôt que mathématique. Pour lui, la valeur n'est pas mesurable objectivement mais émerge des évaluations subjectives individuelles qui sont ordinales (on peut préférer sans mesurer l'écart). Cette approche résout le paradoxe diamant-eau en montrant que la valeur dépend de l'utilité marginale, non du travail incorporé ou de l'utilité totale.

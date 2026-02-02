@@ -1,5 +1,6 @@
 ---
 term: P2WPKH
+definition: 公開鍵のハッシュにビットコインをロックするネイティブSegWitスクリプト。アドレスはbc1q。
 ---
 P2WPKHは*Pay to Witness Public Key Hash*の略です。UTXOの支出条件を確立するために使用される標準的なスクリプトモデルである。P2WPKHは2017年8月のSegWitの実装とともに導入されました。
 

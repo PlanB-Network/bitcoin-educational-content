@@ -328,7 +328,7 @@ Miner이 네트워크와 상호 작용하려면 Bitcoin 노드가 필요합니�
 
 
 
-Miner의 역할은 때때로 초퍼의 역할과 구분되기도 합니다. 채굴기는 풀 서버에서 제공하는 블록을 Hash 템플릿화하여 공유에 대해 정의된 난이도 목표를 충족하는 해시를 찾는 역할을 하는 기계로, Bitcoin의 역할은 하지 않습니다. 실제 블록 구성, 트랜잭션 선택, Bitcoin의 자체 난이도에 따른 Proof-of-Work 검색, 분배 등 나머지 Mining 프로세스는 풀에서 직접 수행합니다.
+Miner의 역할은 때때로 grind의 역할과 구분되기도 합니다. grind는 풀 서버에서 제공하는 블록을 Hash 템플릿화하여 공유에 대해 정의된 난이도 목표를 충족하는 해시를 찾는 역할을 하는 기계로, Bitcoin의 역할은 하지 않습니다. 실제 블록 구성, 트랜잭션 선택, Bitcoin의 자체 난이도에 따른 Proof-of-Work 검색, 분배 등 나머지 Mining 프로세스는 풀에서 직접 수행합니다.
 
 
 
@@ -2168,7 +2168,7 @@ Bitcoin core에는 과거 작업의 흔적인 선택적 트랜잭션 인덱서(`
 
 
 
-반면에 Mempool.Locally 실행과 같은 고급 소프트웨어를 사용하려면 공간 Block explorer에 Address 인덱서 설치가 필수적입니다.
+반면에 mempool.space 블록 탐색기를 로컬에서 실행하는 것과 같은 고급 소프트웨어를 사용하려면 주소 인덱서 설치가 필수적입니다.
 
 
 
@@ -2472,7 +2472,7 @@ Mempool.Space 탐색기 사용에 대해 자세히 알아보려면 이 종합 �
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### 라이트닝 노드
 
@@ -2514,9 +2514,11 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-엄브렐 덕분에 개인 라이트닝 노드 관리가 크게 간소화되었지만, 여전히 비교적 복잡합니다. 이러한 이유로 향후 이 사용법에 대한 강좌에서 이 주제에 대해 자세히 살펴보도록 하겠습니다.
+Umbrel 덕분에 개인 Lightning 노드의 관리는 간소화되었지만, 여전히 비교적 복잡합니다. 따라서 BTC 202 과정의 논리적 연속인 LNP 202 과정을 수강하시기를 권장하며, 이 과정에서 Umbrel에서 Lightning 노드를 설정하고 관리하는 방법을 단계별로 안내해 드립니다.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### 테일 스케일
 
@@ -3894,11 +3896,13 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-이제 몇 가지 옵션이 열려 있습니다. 다음 논리적 단계는 자체적인 라이트닝 노드를 설정하여 off-chain 트랜잭션에 대해 완전히 독립적으로 운영할 수 있도록 하는 것입니다. 이는 2025년 가을에 Plan ₿ Network에 게시될 예정인 강좌의 주제가 될 것입니다.
+이제 여러 가지 선택지가 여러분 앞에 놓여 있습니다. 다음으로 논리적인 단계는 오프체인 거래에서 완전한 독립성을 확보하기 위해 자신의 Lightning 노드를 구축하는 것입니다. 이것이 바로 Plan ₿ Academy의 또 다른 강의 주제입니다:
 
 
 
-그동안 Bitcoin 사용 시 개인정보 보호 원칙을 이해하고 숙달할 수 있는 BTC 204 교육에 참여해 보시기 바랍니다:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+또한 비트코인 사용에 있어 개인정보 보호의 원칙을 이해하고 숙달할 수 있도록 해주는 BTC 204 교육 과정을 살펴보시기를 권합니다:
 
 
 

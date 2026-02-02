@@ -1,0 +1,8 @@
+question: Ni ingorane iyihe yihariye yo guhindura endianness nodes za Bitcoin zitegerezwa gutorera umuti igihe yubaka no kugenzura ibiti vya Merkle bivuye ku makuru y’ibikorwa?
+answer: Hashes z'ubucuruzi zitegerezwa gusubirwamwo kuva ku buryo buto-endian buja ku big-endian ku giti c'imbere, hanyuma zigasubirwamwo kugira ngo zibikwe
+wrong_answers:
+  - Imitwe y'amabuye itegerezwa guhindurwa kuva ku mpera nini gushika ku mpera nto imbere yo guharura umuzi wa Merkle kugira ngo uhure n'uburyo bwo gutanga amakuru ku rubuga
+  - Umuzi wa nyuma wa Merkle utegerezwa guhindurwa uva ku mpera nini ukaja ku mpera ntoyi gusa igihe urungikwa ku zindi nzira biciye ku butumwa bwa P2P .
+  - Indangamuntu z'ibikorwa zibikwa mu buryo bw'iherezo rinini ariko zitegerezwa guhindurwa zikaba iherezo rito imbere yo gukorana n'ababiri mu giti ca Merkle
+explanation: |
+  Ubwubatsi bw’igiti ca Merkle ca Bitcoin bujanye n’intambwe y’uguhindura endianness ihambaye cane. Naho amakuru y’uruhererekane akoresha uburyo bw’iherezo rito, igiti c’imbere ca Merkle gisaba ama hashes y’iherezo rinini. Nodes zitegerezwa guhindura hashes z’ibikorwa kuva ku buryo bwazo bwa little-endian gushika ku big-endian imbere y’uko igiti cubakwa, hanyuma zigahindura umuzi wa nyuma zigasubira ku little-endian kugira ngo zibikwe mu mutwe w’ibarabara. Ukwo guhinduka ni ngombwa kugira ngo umuntu asuzume neza.

@@ -1,5 +1,6 @@
 ---
-term: OFF-GRID
+term: Off-grid
+definition: Autonom mining som bruker alternative energikilder, utenfor det primære strømnettet.
 ---
 
 Refererer til en Bitcoin Mining-operasjon som drives autonomt, uten å være koblet til hovedstrømnettet. Off-grid-gruvearbeidere bruker vanligvis alternative energikilder som sol-, vind- eller vannkraft, eller til og med generatorer som går på fossilt brensel (f.eks. gass til fakling). Denne modellen er ofte foretrukket for å redusere energikostnadene, ettersom den delvis baserer seg på energi som ville gått til spille uten Mining. Gruvearbeidere utenfor nettet har fordelen av å kunne etablere seg på isolerte steder, slik at de kan forbruke denne energien for langt unna befolkningen.

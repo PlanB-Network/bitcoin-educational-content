@@ -1,0 +1,8 @@
+question: Apa yang terjadi selama proses kompilasi ketika kompiler Rust menemukan pemanggilan makro?
+answer: Kompiler mencocokkan input dengan pola yang ditentukan dan mengganti panggilan makro dengan kode yang dihasilkan sebelum pengecekan tipe terjadi
+wrong_answers:
+  - Kompiler menunda perluasan makro hingga setelah pemeriksaan tipe dan pengoptimalan untuk memastikan validitas kode
+  - Kompiler menyimpan panggilan makro sebagai bytecode dan mengembangkannya secara dinamis selama eksekusi runtime
+  - Kompiler memvalidasi sintaks makro tetapi membiarkan ekspansi yang sebenarnya untuk ditangani oleh linker
+explanation: |
+  Makro diperluas selama kompilasi sebelum pemeriksaan tipe dan pengoptimalan dilakukan. Ketika kompiler menemukan pemanggilan makro, kompiler segera mencocokkan input dengan pola makro yang telah ditentukan dan mengganti seluruh pemanggilan makro dengan kode yang dihasilkan. Kode yang diperluas ini kemudian menjalani proses kompilasi normal termasuk pemeriksaan tipe. Opsi lain tidak benar karena makro beroperasi pada saat kompilasi, bukan pada saat runtime, dan perluasan harus dilakukan sebelum pengecekan tipe karena kode yang dihasilkan perlu divalidasi kebenarannya.

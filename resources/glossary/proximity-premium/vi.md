@@ -1,5 +1,6 @@
 ---
-term: THƯỞNG GẦN GŨI
+term: Phí chênh lệch khoảng cách
+definition: Lợi thế tài chính của các thợ đào có được bằng cách giảm độ trễ của giao tiếp mạng.
 ---
 
 Trong bối cảnh của Bitcoin Mining, đề cập đến lợi thế tài chính mà thợ đào đạt được bằng cách giảm độ trễ giao tiếp trên mạng. Thợ đào ở gần nhau hơn nhận được các khối hợp lệ mới nhanh hơn, cho phép họ ngừng lãng phí tài nguyên vào một khối ứng viên nằm trên nhánh có ít công việc tích lũy hơn. Việc giảm độ trễ này cải thiện lợi nhuận của thợ đào, điều này tự nhiên khuyến khích họ nhóm lại với nhau theo địa lý để tối đa hóa doanh thu của họ.

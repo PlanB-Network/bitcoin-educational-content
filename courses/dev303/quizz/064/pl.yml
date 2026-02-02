@@ -1,0 +1,8 @@
+question: Co sprawia, że system typów Rust jest szczególnie skuteczny w zapobieganiu lukom związanym z pamięcią w aplikacjach Bitcoin?
+answer: System typów obsługuje zarówno modelowanie logiki biznesowej, jak i kontrolę własności pamięci za pomocą tego samego mechanizmu
+wrong_answers:
+  - Kompilator automatycznie generuje procedury alokacji pamięci, które zapobiegają atakom przepełnienia bufora
+  - Statyczne typowanie wymaga, aby wszystkie adresy pamięci były deklarowane w czasie kompilacji, a nie w czasie wykonywania
+  - Silne typowanie przekształca wszystkie operacje na wskaźnikach w bezpieczne sprawdzanie granic tablicy podczas wykonywania
+explanation: |
+  System typów Rust jest wyjątkowy, ponieważ służy podwójnemu celowi - modeluje złożoną logikę biznesową, jednocześnie zarządzając bezpieczeństwem pamięci poprzez własność, pożyczanie i liczenie referencji. Ta integracja oznacza, że to samo sprawdzanie typów, które zapewnia poprawną logikę programu, eliminuje również wycieki pamięci, podwójne błędy i warunki wyścigu w czasie kompilacji. Błędne odpowiedzi opisują mechanizmy, które nie istnieją w Rust: kompilator nie wykonuje automatycznie procedur alokacji generate, adresy pamięci nie muszą być stałymi w czasie kompilacji, a bezpieczeństwo wskaźników wynika z reguł własności, a nie sprawdzania granic w czasie wykonywania.

@@ -1,5 +1,6 @@
 ---
 term: OP_SUCCESS
+definition: Opcodes zilizowekwa katika Tapscript zinazoonyesha mafanikio ya kiotomatiki, hutumika kwa soft forks za baadaye.
 ---
 
 `OP_SUCCESS` inawakilisha mfululizo wa misimbo ambayo ilizimwa hapo awali na sasa imehifadhiwa kwa matumizi ya baadaye katika Tapscript. Lengo lao kuu ni kuwezesha masasisho na viendelezi vya lugha ya hati, kwa kuruhusu kuanzishwa kwa utendakazi mpya kupitia uma za Soft. Wakati mojawapo ya misimbo hii inapopatikana katika hati, inaonyesha mafanikio ya kiotomatiki ya sehemu hiyo ya hati, bila kujali data au masharti yaliyopo. Hii ina maana kwamba hati inaendelea utekelezaji wake bila kushindwa, bila ya shughuli za awali.

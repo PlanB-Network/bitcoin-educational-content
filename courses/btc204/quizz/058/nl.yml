@@ -1,10 +1,10 @@
-question: Wat is het verschil tussen extern en intern Address hergebruik in een transactie?
+question: Wat is het verschil tussen extern en intern adreshergebruik in een transactie?
 answer: Extern hergebruik wordt waargenomen bij meerdere transacties, terwijl intern hergebruik wordt waargenomen binnen dezelfde transactie.
 wrong_answers:
   - Extern hergebruik heeft betrekking op openbare adressen, terwijl intern hergebruik betrekking heeft op privéadressen die worden gebruikt in transactiescripts.
   - Intern hergebruik wordt waargenomen bij meerdere transacties, terwijl extern hergebruik wordt waargenomen binnen dezelfde transactie.
   - Intern hergebruik heeft betrekking op openbare adressen, terwijl extern hergebruik betrekking heeft op privéadressen die worden gebruikt in transactiescripts.
 explanation: |
-  Extern hergebruik van Address wordt waargenomen wanneer een Address wordt hergebruikt in verschillende transacties, terwijl intern hergebruik betrekking heeft op een Address die zowel in de invoer als in de uitvoer van dezelfde transactie wordt gebruikt.
+  Extern adreshergebruik wordt waargenomen wanneer een adres wordt hergebruikt in verschillende transacties, terwijl intern hergebruik betrekking heeft op een adres dat zowel in de input als in de output van dezelfde transactie wordt gebruikt.
   
 reviewed: false

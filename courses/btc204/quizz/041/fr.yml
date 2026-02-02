@@ -6,4 +6,4 @@ wrong_answers:
   - Sécurité des transactions non garantie.
 explanation: |
    L'achat de bitcoins via des ATM est une solution intéressante pour la confidentialité de l'utilisateur, mais leur principal inconvénient est qu'elles appliquent souvent des frais exorbitants.
-reviewed: false
+reviewed: true 

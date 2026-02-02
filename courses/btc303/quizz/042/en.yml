@@ -6,3 +6,4 @@ wrong_answers:
   - The Bitcoin Core developers requested an alternative to reduce their responsibility in upgrades
 explanation: |
   According to the chapter, when Segwit activation code was released in October 2016, there was overwhelming support among Bitcoin users, but miners didn't signal support for the upgrade, which stalled activation with no resolution in sight. This created the need for an alternative mechanism that didn't rely on miner signaling, leading Shaolinfry to propose UASF as a solution that would use economic majority enforcement instead of hash power activation.
+reviewed: false

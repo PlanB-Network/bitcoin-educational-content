@@ -1,0 +1,9 @@
+question: Vilket är det främsta etiska dilemmat som säkerhetsforskare som upptäcker sårbarheter i decentraliserade system som Bitcoin ställs inför, enligt praxis för ansvarsfullt avslöjande?
+answer: Balansera behovet av att informera ansvariga parter och samtidigt undvika att avslöja sårbarheten för potentiellt illasinnade aktörer som kan utnyttja den
+wrong_answers:
+  - Beslut om huruvida man ska tjäna pengar på upptäckten av sårbarheten genom bug bounty-program eller donera informationen fritt till samhället
+  - Att välja mellan att rapportera till myndigheter först eller att rapportera direkt till mjukvaruutvecklingsteamet för att undvika komplikationer med regelverket
+  - Fastställande av lämplig ekonomisk ersättning för upptäckt av sårbarheter innan man går med på att lämna ut informationen till utvecklare
+explanation: |
+  Den viktigaste etiska utmaningen när det gäller ansvarsfullt avslöjande är den känsliga balansen mellan öppenhet och säkerhet. Forskare måste se till att sårbarheter åtgärdas utan att oavsiktligt tillhandahålla en färdplan för skadlig exploatering. Detta innebär noggrann samordning med utvecklare, lämplig tidpunkt för offentliggöranden och beaktande av den bredare påverkan på ekosystemet. De andra alternativen fokuserar på ekonomiska eller regleringsmässiga problem som, även om de kan vara relevanta, inte är det primära etiska dilemma som beskrivs i ansvarsfull informationspraxis.
+reviewed: false

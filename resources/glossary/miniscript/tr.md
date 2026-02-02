@@ -1,11 +1,12 @@
 ---
-term: MİNİSKRİPT
+term: Miniscript
+definition: Bitcoin betiklerinin (scripts) oluşturulmasını, analizini ve doğrulanmasını basitleştiren çerçeve.
 ---
 
 Bitcoin üzerinde güvenli bir şekilde komut dosyaları programlamak için bir çerçeve sağlamak üzere tasarlanmış çerçeve. Bitcoin'ın yerel dili script olarak adlandırılır. Özellikle sofistike ve özelleştirilmiş uygulamalar için pratikte kullanımı oldukça karmaşıktır. Hepsinden önemlisi, bir betiğin sınırlamalarını doğrulamak çok zordur. Miniscript, oluşturulmalarını, analiz edilmelerini ve doğrulanmalarını basitleştirmek için Bitcoin betiklerinin bir alt kümesini kullanır. Her bir miniscript, yerel bir script ile 1'e 1 eşdeğerdir. Kullanıcı dostu bir politika dili kullanılır ve bu dil daha sonra miniscript'e derlenerek nihayetinde yerel bir komut dosyasına karşılık gelir.
 
 
-![](../../dictionnaire/assets/30.webp)
+
 
 
 Miniscript böylece geliştiricilerin daha güvenli ve güvenilir bir şekilde sofistike komut dosyaları oluşturmasına olanak tanır. Miniscript'in temel özellikleri aşağıdaki gibidir:

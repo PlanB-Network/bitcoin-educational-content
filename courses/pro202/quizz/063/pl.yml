@@ -1,0 +1,8 @@
+question: Jaka jest podstawowa właściwość kryptograficzna, która umożliwia kompaktowym filtrom blokowym (BIP158) zapewnianie prywatności klientom korzystającym z oświetlenia przy jednoczesnym zachowaniu doskonałej dokładności?
+answer: Mogą one dawać fałszywe wyniki pozytywne, ale nigdy fałszywe wyniki negatywne podczas dopasowywania transakcji
+wrong_answers:
+  - Wykorzystują one dowody zerowej wiedzy, aby ukryć, które adresy są odpytywane z węzłów
+  - "Szyfrują wszystkie filtrowane dane przy użyciu klucza publicznego klienta, aby zapobiec podsłuchiwaniu"
+  - Losują kolejność skrótów transakcji, aby ukryć wzorce wydatków przed obserwatorami
+explanation: |
+  Kompaktowe filtry blokowe wykorzystują probabilistyczne struktury danych, które mogą nieprawidłowo wskazywać dopasowanie (fałszywie dodatnie), ale nigdy nie przegapią rzeczywistego dopasowania (fałszywie ujemne). Ta asymetryczna właściwość ma kluczowe znaczenie: fałszywie pozytywne wyniki powodują jedynie niepotrzebne pobieranie bloków, podczas gdy fałszywie negatywne wyniki spowodowałyby, że portfele całkowicie pominęłyby płatności. Korzyści dla prywatności wynikają z tej niepewności - obserwatorzy nie mogą odróżnić prawdziwych dopasowań od fałszywie pozytywnych, zaciemniając, które transakcje faktycznie należą do zapytania wallet.

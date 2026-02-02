@@ -1,8 +1,8 @@
-question: 哪个组织在社区的游说下于2010年11月开始接受比特币？
-answer: 电子前哨基金会
+question: 2010 年 11 月，在社区成员的推动下，哪家组织开始接受比特币捐赠？
+answer: 电子前哨基金会（Electronic Frontier Foundation）
 wrong_answers:
-  - 维基解密
-  - 红十字会
-  - 国际特赦组织
+  - 维基解密（WikiLeaks）
+  - 红十字会（The Red Cross）
+  - 国际特赦组织（Amnesty International）
 explanation:
-  这个组织由Mitch Kapor、John Gilmore和John Perry Barlow于1900年共同创立，旨在保护互联网自由。它于11月9日开始接受比特币。
+  这个组织由 Mitch Kapor、John Gilmore 和 John Perry Barlow 于 1900年共同创立，旨在保护互联网自由。它于 11 月 9 日开始接受比特币。

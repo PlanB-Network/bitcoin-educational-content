@@ -6,4 +6,4 @@ wrong_answers:
   - Służy wyłącznie do wysyłania środków na adresy publiczne.
 explanation: |
   Adres wielopodpisowy 2/2 wymaga podpisów obu zaangażowanych stron w celu wydania środków, co jest wykorzystywane do zabezpieczenia kanałów Lightning.
-reviewed: false
+reviewed: true

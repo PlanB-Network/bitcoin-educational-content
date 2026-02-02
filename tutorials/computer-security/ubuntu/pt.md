@@ -32,7 +32,7 @@ Um sistema operativo (SO) é o software principal que gere todos os recursos do 
 ### 2. Descarregar
 
 
-- Aceder a [ubuntu.com/download] (https://ubuntu.com/download)
+- Aceder a [ubuntu.com/download](https://ubuntu.com/download)
 - Escolha a versão estável (LTS recomendada)
 - Transferir imagem ISO
 
@@ -45,7 +45,7 @@ Um sistema operativo (SO) é o software principal que gere todos os recursos do 
 É possível utilizar várias ferramentas, como o Balena Etcher:
 
 
-- Transferir e instalar [Balena Etcher] (https://etcher.balena.io/)
+- Transferir e instalar [Balena Etcher](https://etcher.balena.io/)
 
 ![Page de téléchargement Balena Etcher](assets/fr/03.webp)
 

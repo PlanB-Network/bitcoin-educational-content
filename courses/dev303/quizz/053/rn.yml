@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo bw’ishimikiro bushoboza RC kwemera ko umuntu agira ubutunzi bwinshi mu gihe iguma ifise umutekano wo kwibuka?
+answer: Igiharuro c'imbere gikurikirana ibisobanuro kandi kigafungura ubwonko gusa iyo igiharuro gishitse kuri zero
+wrong_answers:
+  - Isesengura ry'igihe co gukoranya rigenzura uburyo bwose bwo gukoresha imbere y'uko porogaramu ishirwa mu ngiro
+  - Igikoresho co gukusanya imyanda gicapura kandi kigasukura ububiko butashikwako
+  - Uburyo bushingiye ku gufunga buhuza uburenganzira bwo gushika hagati y'abafise amakuru amwe
+explanation: |
+  RC ibungabunga igiharuro c'imbere c'ibisobanuro kigenda kirongerekana iyo gikozwe mu buryo bw'ivya kera, kigaca kigabanuka iyo gikozwe, kigatuma ubwonko bubohorwa gusa iyo ata bisobanuro bisigaye. Ivyo bitandukanye n’isesengura ry’igihe co gukoranya (ico Box ikoresha), gukusanya imyanda (ico Rust idakoresha), canke uburyo bwo gufunga (ivyo bikoreshwa mu guhuza indodo, atari ugukurikirana ubutunzi). Uburyo bushingiye ku guharura buratuma umuntu ashobora gusangira ubutunzi ataco akora ata gihe co gukora co gukusanya imyanda canke uburenganzira bwo gutunga ubutunzi bumwe.

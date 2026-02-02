@@ -1,0 +1,8 @@
+question: Kuinka usein Rust julkaisee uuden vakaan version julkaisuaikataulun mukaan?
+answer: Noin kuuden viikon välein
+wrong_answers:
+  - Noin kolmen kuukauden välein
+  - Noin joka toinen viikko
+  - Noin neljän kuukauden välein
+explanation: |
+  Rust noudattaa ennustettavaa julkaisuaikataulua, jossa uusia vakaita versioita julkaistaan noin kuuden viikon välein. Tämä tiheä julkaisusykli varmistaa, että uudet ominaisuudet ja parannukset saavuttavat käyttäjät säännöllisesti ja säilyttävät samalla vakauden. Muut aikataulut ovat virheellisiä - kolme kuukautta ja neljä kuukautta olisivat paljon Rust:n todellista tahtia hitaampia, kun taas kaksi viikkoa olisi epärealistisen nopea perusteellista testausta vaativille vakaille julkaisuille.

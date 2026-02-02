@@ -5,13 +5,13 @@ description: Jinsi ya kutumia programu ya 2FA?
 ![cover](assets/cover.webp)
 
 
-Siku hizi, uthibitishaji wa vipengele viwili (2FA) umekuwa muhimu kwa ajili ya kuimarisha usalama wa akaunti za mtandaoni dhidi ya ufikiaji usioidhinishwa. Pamoja na ongezeko la mashambulizi ya mtandaoni, kutegemea tu nenosiri ili kulinda akaunti zako hakutoshi. 2FA inatanguliza Layer ya ziada ya usalama kwa kuhitaji aina ya pili ya uthibitishaji pamoja na nenosiri. Uthibitishaji huu unaweza kuchukua aina kadhaa, kama vile nambari ya kuthibitisha iliyotumwa kupitia SMS, msimbo unaobadilika unaozalishwa na programu maalum au matumizi ya ufunguo halisi wa usalama. Matumizi ya 2FA hupunguza sana hatari ya akaunti zako kuathiriwa, hata katika tukio la kuibiwa nenosiri lako.
+Siku hizi, Two factor authentication(2FA) umekuwa muhimu kwa ajili ya kuimarisha usalama wa akaunti za mtandaoni dhidi ya ufikiaji usioidhinishwa. Pamoja na ongezeko la mashambulizi ya mtandaoni, kutegemea tu nenosiri ili kulinda akaunti zako hakutoshi. 2FA inatanguliza Layer ya ziada ya usalama kwa kuhitaji aina ya pili ya uthibitishaji pamoja na nenosiri. Uthibitishaji huu unaweza kuchukua aina kadhaa, kama vile nambari ya kuthibitisha iliyotumwa kupitia SMS, msimbo unaobadilika unaozalishwa na programu maalum au matumizi ya ufunguo halisi wa usalama. Matumizi ya 2FA hupunguza sana hatari ya akaunti zako kuathiriwa, hata katika tukio la kuibiwa nenosiri lako.
 
 
 ## 2FA kupitia Programu za Uthibitishaji
 
 
-Tutachunguza masuluhisho mengine kama vile funguo za usalama halisi katika mafunzo mengine, lakini katika hili, ninapendekeza kujadili mahususi maombi ya 2FA. Uendeshaji wa programu hizi ni rahisi sana: wakati 2FA imeamilishwa kwenye akaunti, kwa kila kuingia, hutaulizwa sio tu kwa nenosiri lako la kawaida lakini pia kwa nambari ya tarakimu 6. Msimbo huu unatolewa na programu yako ya 2FA. Tabia muhimu ya msimbo huu wa tarakimu 6 ni kwamba sio tuli; msimbo mpya hutolewa na programu kila sekunde 30.
+Tutachunguza suluhisho nyingine kama funguo za usalama halisi katika mafunzo mengine, lakini katika hii, ninapendekeza kujadili mahususi maombi ya 2FA. Uendeshaji wa programu hizi ni rahisi sana: wakati 2FA imeamilishwa kwenye akaunti, kwa kila kuingia, hutaulizwa tu nenosiri lako la kawaida bali pia nambari ya tarakimu 6. Msimbo huu unatolewa na programu yako ya 2FA. Tabia muhimu ya msimbo huu wa tarakimu 6 ni kwamba hauendilee kutumia tena; msimbo mpya hutolewa na programu kila sekunde 30.
 
 ![AUTHY 2FA](assets/notext/01.webp)
 
@@ -21,7 +21,7 @@ Kusasisha msimbo kila baada ya sekunde 30 hufanya iwe vigumu sana kwa mvamizi ku
 2FA kupitia programu za uthibitishaji kwa hivyo inawakilisha njia rahisi kutumia na isiyolipishwa ili kuboresha kwa kiasi kikubwa usalama wa akaunti zako za mtandaoni.
 
 
-Kuna programu nyingi za kusanidi 2FA, kati ya hizo Kithibitishaji cha Google na Kithibitishaji cha Microsoft ndizo zinazojulikana zaidi. Walakini, katika somo hili, ningependa kukujulisha kwa suluhisho lingine lisilojulikana linaloitwa Authy. Programu hizi zote hufanya kazi kwa kutumia itifaki sawa ya TOTP (*Nenosiri la Wakati Mmoja*) sawa, na kufanya matumizi yao yafanane kabisa.
+Kuna programu nyingi za kusanidi 2FA, kati ya hizo Google Authenticator na  Microsoft authentication ndizo zinazojulikana zaidi. Walakini, katika somo hili, ningependa kukujulisha kwa suluhisho lingine lisilojulikana linaloitwa Authy. Programu hizi zote hufanya kazi kwa kutumia itifaki sawa ya TOTP (*Time-based One-Time Password*) sawa, na kufanya matumizi yao yafanane kabisa.
 
 Authy inatoa faida kadhaa juu ya masuluhisho mengine kutoka kwa makampuni makubwa ya teknolojia. Kwanza kabisa, hukuruhusu kusawazisha tokeni zako za 2FA kwenye vifaa vingi, ambavyo vinaweza kuwa muhimu katika kesi ya kupoteza au kubadilisha simu. Authy pia hukuwezesha generate chelezo iliyosimbwa kwa njia fiche na kuihifadhi mtandaoni, ili kuhakikisha hutapoteza ufikiaji wa tokeni zako, hata ukipoteza kifaa chako msingi. Kutoka kwa mtazamo wa mtumiaji wa Interface, mimi binafsi nimeona kuwa Authy pia inatoa uzoefu wa kupendeza na angavu kuliko mbadala wake.
 
@@ -38,7 +38,7 @@ Kwenye simu yako mahiri, nenda kwenye duka la programu (Google Play Store au App
 
 ![AUTHY 2FA](assets/notext/02.webp)
 
-Baada ya uzinduzi wa kwanza wa programu, utahitaji kuunda akaunti. Chagua nambari ya simu ya nchi yako, pamoja na nambari yako ya simu, kisha ubofye "*Wasilisha*".
+Baada ya uzinduzi wa kwanza wa programu, utahitaji kuunda akaunti. Chagua nambari ya nchi yako, ingiza nambari yako ya simu, kisha ubofye **Submit**.
 
 ![AUTHY 2FA](assets/notext/03.webp)
 
@@ -75,7 +75,7 @@ Katika kichupo cha "*Akaunti Yangu*", una chaguo la kurekebisha akaunti yako. Ni
 
 Katika kichupo cha "*Akaunti*", unaweza kuweka nakala rudufu kwa tokeni zako. Hifadhi rudufu hii huruhusu urejeshaji wa misimbo yako iwapo kutatokea tatizo. Imesimbwa kwa njia fiche kwa kutumia nenosiri ambalo lazima ulifafanue. Ni muhimu kwamba nenosiri hili liwe imara na liwekwe mahali salama. Kuweka nakala hii sio lazima ikiwa una mbinu zingine za urejeshaji, kama vile kifaa cha pili kilicho na akaunti sawa ya Authy, kwa mfano.
 
-![AUTHY 2FA](assets/notext/11.webp)In the "*Devices*" tab, you can see all the devices synchronized with your Authy account. You have the option to disable the use of multiple devices, which restricts access to your account to that device only. If you use only one device, this can increase the security of your account, but make sure you have another backup method in case you lose that device.
+![AUTHY 2FA](assets/notext/11.webp)Kwenye kichupo cha "Devices", unaweza kuona vifaa vyote vilivyosawazishwa na akaunti yako ya Authy. Una chaguo la kuzuia matumizi ya vifaa vingi, jambo linalozuia upatikanaji wa akaunti yako kwa kifaa hicho pekee. Ikiwa unatumia kifaa kimoja tu, hili linaweza kuongeza usalama wa akaunti yako, lakini hakikisha una njia nyingine ya akiba ikiwa utapoteza kifaa hicho.
 
 
 Ikiwa ungependa kuruhusu nyongeza ya vifaa vingine, nakushauri uwashe chaguo linalohitaji uthibitisho kutoka kwa vifaa vilivyoidhinishwa kwa sasa kwenye akaunti yako ya Authy kabla ya kuongeza kifaa kipya.
@@ -103,7 +103,7 @@ Unapowasha chaguo hili kwenye akaunti yako ya barua ya Proton, msimbo wa QR utaw
 
 ![AUTHY 2FA](assets/notext/15.webp)
 
-Kwenye Authy, bofya kitufe cha "+".
+Kwenye Authy, bofya kitufe cha "+*".
 
 ![AUTHY 2FA](assets/notext/16.webp)
 

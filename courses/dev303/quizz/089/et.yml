@@ -1,0 +1,8 @@
+question: Mis on peamine põhjus, miks UniFFI nõuab arendajatelt eraldi UDL-faili loomist selle asemel, et automaatselt sidumisi otse Rust koodist genereerida?
+answer: UDL on selgesõnaline liideseleping, mis määrab kindlaks, millised Rust raamatukogu osad peaksid olema teistele keeltele avatud
+wrong_answers:
+  - "UDL on vajalik, sest Rust tüübisüsteem ei ühildu teiste programmeerimiskeeltega ilma tõlkimiseta"
+  - UDL-failid on vajalikud, et optimeerida keeltevaheliste funktsioonikutsete jõudlust täitmise ajal
+  - "UDL pakub võimalust konverteerida Rust omandimudel automaatselt sihtkeele prügikoristuseks"
+explanation: |
+  UniFFI kasutab UDL-i teadliku disainivalikuna, et säilitada probleemide lahusus rakendamise ja liidese vahel. UDL-fail toimib selgesõnalise lepinguna, mis võimaldab arendajatel valikuliselt avalikustada oma Rust raamatukogu osi, hoides samal ajal sisemised rakendusdetailid saladuses. Selline lähenemisviis takistab kõigi avalike Rust elementide automaatset avalikustamist, andes arendajatele peene kontrolli nende API pinna üle. Teised võimalused on ebaõiged, sest Rust tüüpe saab kaardistada ilma UDLita (kuigi vähem elegantselt), jõudluse optimeerimine ei ole UDLi esmane eesmärk ja UDL ei teisenda omandimudeleid.

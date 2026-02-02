@@ -127,7 +127,7 @@ Se não estiver familiarizado com a utilização das carteiras Bitcoin, Lightnin
 
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Também pode explorar [os nossos tutoriais detalhados sobre as melhores carteiras Bitcoin] (https://planb.academy/tutorials/wallet).
+Também pode explorar [os nossos tutoriais detalhados sobre as melhores carteiras Bitcoin](https://planb.academy/tutorials/wallet).
 
 Em seguida, confirme a sua compra clicando em "*Confirmar compra*".
 
@@ -195,6 +195,14 @@ Em seguida, confirmar a retirada.
 Para acompanhar todas as suas transacções, pode consultar o histórico no menu "*Últimas transacções*".
 
 ![BULL](assets/fr/36.webp)
+
+## Iniciar uma compra recorrente automática (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Criar uma ordem limite
+
+![video](https://youtu.be/6Jlu19jlk7U)
 
 Agora você sabe como comprar e vender bitcoin facilmente com o Bull Bitcoin. Se você achou este tutorial útil, eu ficaria muito grato se você colocasse um polegar verde abaixo. Sinta-se à vontade para partilhar este artigo nas suas redes sociais. Muito obrigado!
 

@@ -39,7 +39,6 @@ Vältä:
 - Chromebookit – usein tallennuskapasiteetti on liian pieni
 - Kaikki tietokoneet, joissa on eMMC-asema; Jos siinä on SSD-asema, se on täydellinen
 - Macit – ne ovat kalliita, ja laitteisto ei sovi hyvin yhteen Linux-käyttöjärjestelmien kanssa kokemukseni mukaan
-- Kaikki kunnostetut tai käytetyt (ei kuitenkaan ehdoton este)
 
 Sen sijaan, etsi Windows 11 -kannettavaa tietokonetta (Tällä hetkellä Windows 11 on viimeisin julkaisu. Älä huoli, hankkiudumme eroon tuosta ohjelmistosta.). Etsin amazon.com-sivustolta "Windows 11 Laptop" ja löysin tämän hyvän esimerkin:
 ![kuva](assets/1.webp)

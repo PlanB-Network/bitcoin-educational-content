@@ -1,5 +1,6 @@
 ---
-term: TATIZO LA WAKUU WA BYZANTINE
+term: Tatizo la majenerali wa Byzantine
+definition: Tatizo linaloonyesha changamoto za uratibu katika mfumo uliotawanywa ambapo wahusika hawawezi kuaminiana.
 ---
 
 Tatizo lilitatuliwa kwa mara ya kwanza na Leslie Lamport, Robert Shostak, na Marshall Pease katika jarida maalumu la *ACM Transactions on Programming Languages ​​and Systems, gombo la 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) mnamo Julai 198 limetumia uamuzi wa changamoto katika Julai 198. wakati mfumo uliosambazwa hauwezi kumwamini muigizaji yeyote.

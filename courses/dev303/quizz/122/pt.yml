@@ -1,0 +1,8 @@
+question: Qual é o desafio de recuperação mais crítico que os utilizadores enfrentam quando os seus fundos são geridos através da arquitetura do nó Lightning baseado na nuvem da Greenlight?
+answer: Os utilizadores precisariam de conhecimentos técnicos para criar nós Core Lightning independentes e restaurar os estados dos canais sem a infraestrutura Greenlight
+wrong_answers:
+  - "Os utilizadores perdem o acesso às suas chaves privadas, que são armazenadas exclusivamente nos servidores da Blockstream"
+  - "Os estados dos canais são encriptados utilizando as chaves proprietárias da Greenlight, tornando a recuperação de fundos matematicamente impossível"
+  - "Os canais Lightning expiram automaticamente após 30 dias sem os serviços de manutenção contínua do Greenlight"
+explanation: |
+  A resposta correta destaca a complexidade técnica genuína da recuperação de fundos na arquitetura do Greenlight. Embora os utilizadores mantenham as suas chaves privadas, o acesso aos fundos sem o Greenlight requer a execução de nós Core Lightning e a restauração manual dos estados dos canais - um processo que ultrapassa as capacidades da maioria dos utilizadores. As respostas erradas estão incorrectas porque: os utilizadores controlam as suas chaves privadas (não armazenadas em servidores), os estados dos canais utilizam protocolos Lightning padrão (não encriptação proprietária) e os canais Lightning não têm temporizadores de expiração automáticos associados a fornecedores de serviços.

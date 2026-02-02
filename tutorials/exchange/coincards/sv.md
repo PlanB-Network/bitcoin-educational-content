@@ -93,7 +93,7 @@ Låt oss börja med att illustrera köpprocessen utan att skapa ett konto, och s
 
 
 
-Besök [Coincards.com] (https://coincards.com/).
+Besök [Coincards.com](https://coincards.com/).
 
 
 

@@ -1,0 +1,8 @@
+question: O que acontece com a pilha após a execução do OP_CHECKSIG quando a verificação da assinatura é bem-sucedida?
+answer: O valor 1 é colocado na pilha
+wrong_answers:
+  - A assinatura e a chave pública permanecem na pilha
+  - A pilha é limpa e reposta no estado vazio
+  - O hash da chave pública é colocado na pilha
+explanation: |
+  OP_CHECKSIG é um opcode de transformação de pilha que consome uma assinatura e uma chave pública da pilha, verifica a assinatura em relação ao sighash da transação e coloca 1 (para válido) ou 0 (para inválido) na pilha. A assinatura e a chave pública originais são removidas durante esse processo. A pilha não é totalmente limpa e nenhum valor de hash é enviado - apenas o resultado booleano da operação de verificação.

@@ -169,7 +169,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-Bu betik resmi Tailscale deposunu ekleyecek ve paketi yükleyecektir. Ayrıca [APT deposunu manuel olarak ekleyebilir] (https://pkgs.tailscale.com) veya normal Snap veya apt paketlerini kullanabilirsiniz. Kurulduktan sonra, daemon `tailscaled` arka planda çalışacaktır. Daha sonra **düğümün kimliğini doğrulamanız** gerekecektir (aşağıdaki Interface CLI vs web bölümüne bakın). Diğer dağıtımlarda (Fedora, Arch...), paket standart depolar veya evrensel kurulum betiği aracılığıyla da kullanılabilir. Başsız bir sunucu için CLI kullanın: örneğin, önceden oluşturulmuş bir kimlik doğrulama anahtarı kullanıyorsanız `sudo tailscale up --auth-key <key>` veya etkileşimli bir oturum açma için sadece `tailscale up` (cihazın kimliğini doğrulamak için ziyaret edilecek bir URL sağlayacaktır).
+Bu betik resmi Tailscale deposunu ekleyecek ve paketi yükleyecektir. Ayrıca [APT deposunu manuel olarak ekleyebilir](https://pkgs.tailscale.com) veya normal Snap veya apt paketlerini kullanabilirsiniz. Kurulduktan sonra, daemon `tailscaled` arka planda çalışacaktır. Daha sonra **düğümün kimliğini doğrulamanız** gerekecektir (aşağıdaki Interface CLI vs web bölümüne bakın). Diğer dağıtımlarda (Fedora, Arch...), paket standart depolar veya evrensel kurulum betiği aracılığıyla da kullanılabilir. Başsız bir sunucu için CLI kullanın: örneğin, önceden oluşturulmuş bir kimlik doğrulama anahtarı kullanıyorsanız `sudo tailscale up --auth-key <key>` veya etkileşimli bir oturum açma için sadece `tailscale up` (cihazın kimliğini doğrulamak için ziyaret edilecek bir URL sağlayacaktır).
 
 
 
@@ -635,4 +635,4 @@ Tailscale, basitliği ve verimliliği sayesinde kendi kendini barındırma için
 
 
 
-Tailscale düzenli olarak yeni içerik ve özellikler sunar. En son haberler ve vaka çalışmaları için [resmi bloglarına] (https://tailscale.com/blog/) göz atın.
+Tailscale düzenli olarak yeni içerik ve özellikler sunar. En son haberler ve vaka çalışmaları için [resmi bloglarına](https://tailscale.com/blog/) göz atın.

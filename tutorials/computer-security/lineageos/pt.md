@@ -149,8 +149,8 @@ De acordo com as estatísticas oficiais, os modelos mais utilizados incluem uma 
 
 
 
-- Ferramenta Android Flash**: Utilize a ferramenta oficial da Google [flash.android.com] (https://flash.android.com) para restaurar facilmente o seu dispositivo Pixel para o Android original a partir do seu navegador Web (é necessário o Chrome/Edge)
-- Alternativa**: Imagens de fábrica manualmente a partir de [developers.google.com/android/images] (https://developers.google.com/android/images)
+- Ferramenta Android Flash**: Utilize a ferramenta oficial da Google [flash.android.com](https://flash.android.com) para restaurar facilmente o seu dispositivo Pixel para o Android original a partir do seu navegador Web (é necessário o Chrome/Edge)
+- Alternativa**: Imagens de fábrica manualmente a partir de [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -176,7 +176,7 @@ De acordo com as estatísticas oficiais, os modelos mais utilizados incluem uma 
 
 
 
-**Ferramentas ADB e Fastboot:** Siga o [guia oficial do LineageOS] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) para instalar as ferramentas da plataforma Android SDK. Verifique a instalação com `adb version` e `fastboot --version`.
+**Ferramentas ADB e Fastboot:** Siga o [guia oficial do LineageOS](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) para instalar as ferramentas da plataforma Android SDK. Verifique a instalação com `adb version` e `fastboot --version`.
 
 
 
@@ -685,13 +685,14 @@ Estas actualizações regulares são um trunfo importante, especialmente para os
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Aspecto** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Compatibilidade** | Apenas Pixels | Centenas de dispositivos |
+| **Segurança** | Mitigações avançadas | Segurança padrão AOSP |
+| **Google Play** | Sandboxing opcional | Instalação clássica possível |
+| **Instalação** | Interface web + USB | Procedimento manual técnico |
+| **Filosofia** | Segurança acima de tudo | Equilíbrio e liberdade de escolha |
 
 ### Recomendações de utilização
 

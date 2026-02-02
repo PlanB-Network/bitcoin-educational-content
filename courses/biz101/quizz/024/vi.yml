@@ -1,9 +1,9 @@
-question: When buying Bitcoin, what is one recommended approach to handle its price volatility?
-answer: Gradually accumulate Bitcoin at regular intervals and maintain a long-term perspective.
+question: Khi mua Bitcoin, cách tiếp cận được khuyến nghị để xử lý sự biến động giá của nó là gì?
+answer: Tích lũy Bitcoin dần dần theo các khoảng thời gian đều đặn và duy trì quan điểm dài hạn.
 wrong_answers:
-  - Attempt to predict short-term market peaks and sell immediately.
-  - Go all-in with the company’s entire treasury at once.
-  - Only buy Bitcoin on days when its price has risen sharply.
+  - Cố gắng dự đoán đỉnh thị trường ngắn hạn và bán ngay lập tức.
+  - Đầu tư toàn bộ ngân quỹ của công ty cùng một lúc.
+  - Chỉ mua Bitcoin vào những ngày giá của nó tăng mạnh.
 explanation: |
-  Regular purchases over time (dollar-cost averaging) help smooth out volatility. A longer-term horizon (e.g., 4 years) reduces the impact of short-term price swings.
-reviewed: false
+  Việc mua thường xuyên theo thời gian (trung bình chi phí đô la) giúp làm giảm biến động. Khung thời gian dài hơn (ví dụ: 4 năm) giúp giảm thiểu tác động của biến động giá ngắn hạn.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Zapobiega użyciu klucza odwołania
 explanation: |
   Zamknięcie wymuszone jest mniej pożądane, ponieważ zawiera blokadę czasową, która spowalnia proces, a opłaty mogą być nieodpowiednie, ponieważ zostały ustalone w momencie tworzenia kanału.
-reviewed: false
+reviewed: true

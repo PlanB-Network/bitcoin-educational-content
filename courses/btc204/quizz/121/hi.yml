@@ -1,0 +1,9 @@
+question: किस BIP ने Dandelion प्रसारण प्रोटोकॉल को औपचारिक रूप दिया?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion को BIP156 में औपचारिक रूप दिया गया था, बिना अंततः Bitcoin Core में एकीकृत किए गए।
+reviewed: false

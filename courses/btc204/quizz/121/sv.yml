@@ -1,0 +1,9 @@
+question: Vilken BIP formaliserade Dandelion-sändningsprotokollet?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion formaliserades i BIP156, utan att slutligen integreras i Bitcoin Core.
+reviewed: false

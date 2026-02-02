@@ -1,0 +1,9 @@
+question: BIP nào đã chính thức hóa giao thức phát sóng Dandelion?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion đã được chính thức hóa trong BIP156, mà không cuối cùng được tích hợp vào Bitcoin Core.
+reviewed: false

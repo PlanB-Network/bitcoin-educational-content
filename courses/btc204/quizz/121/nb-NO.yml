@@ -1,0 +1,9 @@
+question: Hvilken BIP formaliserte Dandelion-kringkastingsprotokollen?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion ble formalisert i BIP156, uten å til slutt bli integrert i Bitcoin Core.
+reviewed: false

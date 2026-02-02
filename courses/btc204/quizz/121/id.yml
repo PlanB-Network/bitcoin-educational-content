@@ -1,0 +1,9 @@
+question: BIP mana yang memformalisasi protokol siaran Dandelion?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion diformalkan dalam BIP156, tanpa akhirnya diintegrasikan ke Bitcoin Core.
+reviewed: false

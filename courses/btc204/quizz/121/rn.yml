@@ -1,0 +1,9 @@
+question: Ni irihe BIP ryashizeho protocol yo gukwiragiza Dandelion?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion ryashizweho muri BIP156, ritagera ryinjizwa muri Bitcoin Core.
+reviewed: false

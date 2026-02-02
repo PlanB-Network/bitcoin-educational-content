@@ -1,0 +1,9 @@
+question: 哪個BIP正式化了Dandelion廣播協議?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion在BIP156中被正式化,但最終未被整合到Bitcoin Core中。
+reviewed: false

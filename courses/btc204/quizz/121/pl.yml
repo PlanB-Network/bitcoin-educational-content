@@ -1,0 +1,9 @@
+question: Który BIP sformalizował protokół rozgłaszania Dandelion?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion został sformalizowany w BIP156, bez ostatecznej integracji z Bitcoin Core.
+reviewed: false

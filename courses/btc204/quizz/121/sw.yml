@@ -1,0 +1,9 @@
+question: BIP ipi ilirasimisha itifaki ya usambazaji wa Dandelion?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion ilirasimishwa katika BIP156, bila kuunganishwa hatimaye kwenye Bitcoin Core.
+reviewed: false

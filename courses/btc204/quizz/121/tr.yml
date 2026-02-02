@@ -1,0 +1,9 @@
+question: Dandelion yayın protokolünü hangi BIP resmileştirdi?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion, BIP156'da resmileştirildi ancak sonuçta Bitcoin Core'a entegre edilmedi.
+reviewed: false

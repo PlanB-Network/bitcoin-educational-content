@@ -1,0 +1,9 @@
+question: Quale BIP ha formalizzato il protocollo di diffusione Dandelion?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion è stato formalizzato nel BIP156, senza essere infine integrato in Bitcoin Core.
+reviewed: false

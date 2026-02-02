@@ -1,0 +1,9 @@
+question: Dandelion拡散プロトコルを正式化したBIPはどれですか?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  DandelionはBIP156で正式化されましたが、最終的にBitcoin Coreには統合されませんでした。
+reviewed: false

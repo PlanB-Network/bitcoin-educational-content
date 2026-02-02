@@ -1,0 +1,9 @@
+question: Dandelion 브로드캐스트 프로토콜을 공식화한 BIP는 무엇입니까?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion은 BIP156에서 공식화되었으나 결국 Bitcoin Core에 통합되지 않았습니다.
+reviewed: false

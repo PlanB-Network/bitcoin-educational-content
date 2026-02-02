@@ -1,0 +1,9 @@
+question: کدام BIP پروتکل پخش Dandelion را رسمی کرد؟
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion در BIP156 رسمی شد، بدون اینکه در نهایت در Bitcoin Core ادغام شود.
+reviewed: false

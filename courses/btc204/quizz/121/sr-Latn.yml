@@ -1,0 +1,9 @@
+question: Koji BIP je formalizovao Dandelion protokol emitovanja?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion je formalizovan u BIP156, bez da bude na kraju integrisan u Bitcoin Core.
+reviewed: false

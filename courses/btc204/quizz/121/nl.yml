@@ -1,0 +1,9 @@
+question: Welke BIP formaliseerde het Dandelion-uitzendprotocol?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion werd geformaliseerd in BIP156, zonder uiteindelijk in Bitcoin Core te worden geïntegreerd.
+reviewed: false

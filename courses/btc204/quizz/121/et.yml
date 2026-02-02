@@ -1,0 +1,9 @@
+question: Milline BIP formaliseeris Dandelion edastusprotokolli?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion formaliseeriti BIP156-s, ilma et seda lõpuks Bitcoin Core'i integreeritud oleks.
+reviewed: false
